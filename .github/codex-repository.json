@@ -5,13 +5,17 @@
   "long_running": true,
   "visibility": "public",
   "risk": "high",
-  "commands": {},
-  "current_state": null,
+  "commands": {
+    "test": "python -m unittest discover -s tests",
+    "validate_content": "python scripts/validate_content_repository.py --root .",
+    "audit_repository": "python scripts/audit_codex_github.py --root . --fail-on error"
+  },
+  "current_state": "state/CODEX-CURRENT-STATE.md",
   "github_controls": {
-    "default_branch_rules": "unverified",
+    "default_branch_rules": "disabled",
     "secret_scanning": "unverified",
     "push_protection": "unverified",
-    "code_scanning": "not_applicable"
+    "code_scanning": "unverified"
   },
-  "audit_note": "Define the current article/source index, owner-locked text and lossless-editing rules, exact editorial/detector/citation checks, and canonical current-state path before treating the repository as fully resumable. Public visibility also requires an explicit license decision."
+  "audit_note": "The governance baseline is machine-checked, but overall compliance and content import remain BLOCKED: no canonical article package is registered, the owner has not chosen a copyright/license posture, private vulnerability reporting and Dependabot alerts are disabled, branch rules are disabled, and secret scanning, push protection, code scanning, and Actions defaults remain unverified. Track owner and hosted actions in GitHub issue #3."
 }

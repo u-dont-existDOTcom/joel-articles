@@ -1,18 +1,18 @@
 # Article documentation index
 
-No article is canonical in this repository yet.
+Status: **BLOCKED governance incubator.** No article is canonical in this repository yet.
+
+## Read order
+
+1. `../state/CODEX-CURRENT-STATE.md` — repository checkpoint and exact blockers
+2. `../articles/INDEX.json` — registered article packages and hashes; currently empty
+3. `CONTENT-AUTHORITY-AND-IMPORT.md` — authority model and required per-article family
+4. `SUPPLIED-SOURCE-PACKET-MANIFEST.md` — external packet provenance and non-import status
+5. the target article's registered current state, owner locks, master, evidence, and review records, once an article exists
 
 ## General article protocols
 
 - `HUMANIZATION-ARCHITECTURE-GATE.md` — blocking article-wide architecture regression for humanization/detector work. Run before detector testing and after every detector-driven edit; 100% Human never overrides heading fit, paragraph jobs, live-question continuity, protected functions, owner-realization placement, or fidelity.
+- `CODEX-GITHUB-COMPLIANCE-2026-08-14.md` — repository/hosted-control audit and exact blocked status
 
-For each imported article, add an article-local index naming:
-
-1. the current master
-2. owner-final and locked decisions
-3. source/evidence files
-4. detector experiments and their limits
-5. current recovery state
-6. project-local lessons and universal promotions
-
-Current owner instructions and verified article files outrank stale summaries or remembered chat context.
+The required article-local family is defined centrally and enforced by `scripts/validate_content_repository.py`. Current owner instructions and verified, registered article files outrank stale summaries, detached helper files, external packets, or remembered chat context.
