@@ -33,8 +33,9 @@ Each imported article uses `articles/<article-id>/` and must register the follow
 | Detector evidence | `DETECTOR-EVIDENCE.json` | Exact passage, model/service/version where known, timestamp, result, and limitations |
 | Editorial status | `EDITORIAL-STATUS.json` | Meaning, structure, fidelity, curious-reader, and owner-lock review disposition |
 | Publication exports | Article-local files plus registry entries | Exact hash, destination, source authority, and draft/published/superseded status |
+| Additional artifacts | Article-local files plus `additional_artifacts` registry entries | Exact hash and nonblank role for every approved supporting asset |
 
-The validator enforces structure, file presence, hashes, exact locked-passage presence, protected-function records, owner-review confirmation before owner-final/published status, article-state headings, internal/registry review-status parity, privacy boundaries, and export provenance. Human review still owns truth, meaning, article-wide architecture, citations, and publication readiness.
+The validator enforces structure, file presence, hashes, exact locked-passage presence, protected-function records, owner-review confirmation before owner-final/published status, article-state headings, internal/registry review-status parity, privacy boundaries, a reciprocal incubator/active status, complete article-family inventory, and export provenance. It rejects symlinks and detached top-level `sources/`, `evidence/`, `experiments/`, or `publish/` families so mutable authority cannot escape its article boundary. Human review still owns truth, meaning, article-wide architecture, citations, and publication readiness.
 
 ## Lossless editing and reversible deletion
 
@@ -57,7 +58,7 @@ Publication tooling is destination-specific. When an owner-approved protocol nam
 1. Owner identifies one article and its authoritative master.
 2. Inventory every candidate and source file without changing prose.
 3. Resolve competing-master, privacy, licensing, and publication questions with the owner.
-4. Create the complete article family and exact hashes.
+4. Create the complete article family, register every file (including supporting assets), set repository status to `active`, and record exact hashes.
 5. Run repository gates plus article-specific semantic, citation, link, detector, fidelity, and publication checks.
 6. Review unique-claim preservation and every deletion/relocation.
 7. Add one registry entry, update both current-state layers, and merge through a focused pull request.

@@ -107,6 +107,7 @@ class ContentRepositoryValidationTests(unittest.TestCase):
                 "editorial": {**refs["editorial"], "status": "passed"},
             },
             "publication_exports": [],
+            "additional_artifacts": [],
         }
 
     @staticmethod
@@ -120,6 +121,41 @@ class ContentRepositoryValidationTests(unittest.TestCase):
     def test_non_incubator_cannot_have_an_empty_article_registry(self) -> None:
         self.write_index([], status="active")
         self.assertIn("index.articles.empty", self.codes(validate_repository(self.root)))
+
+    def test_incubator_rejects_unregistered_article_content(self) -> None:
+        self.write_index([])
+        self.write("articles/example/master.md", "# Detached candidate\n")
+        self.assertIn("index.unregistered-content", self.codes(validate_repository(self.root)))
+
+    def test_incubator_cannot_contain_a_registered_article(self) -> None:
+        article = self.valid_article()
+        self.write_index([article])
+        self.assertIn("index.status.mismatch", self.codes(validate_repository(self.root)))
+
+    def test_active_article_rejects_an_unregistered_family_file(self) -> None:
+        article = self.valid_article()
+        self.write("articles/example/detached-notes.md", "not registered\n")
+        self.write_index([article], status="active")
+        self.assertIn("article.file.unregistered", self.codes(validate_repository(self.root)))
+
+    def test_additional_artifact_registers_an_extra_family_file(self) -> None:
+        article = self.valid_article()
+        content = "approved supporting artifact\n"
+        self.write("articles/example/supporting-note.md", content)
+        article["additional_artifacts"] = [
+            {
+                "role": "supporting_note",
+                "path": "articles/example/supporting-note.md",
+                "sha256": self.sha256(content),
+            }
+        ]
+        self.write_index([article], status="active")
+        self.assertEqual([], validate_repository(self.root))
+
+    def test_detached_top_level_source_family_is_rejected(self) -> None:
+        self.write_index([])
+        self.write("sources/private-interview.md", "detached source\n")
+        self.assertIn("index.detached-content", self.codes(validate_repository(self.root)))
 
     def test_article_requires_every_authority_and_review_record(self) -> None:
         article = self.valid_article()
@@ -138,6 +174,17 @@ class ContentRepositoryValidationTests(unittest.TestCase):
         self.write("articles/example/master.md", "# Quiet substitution\n")
         self.write_index([article], status="active")
         self.assertIn("article.hash.mismatch", self.codes(validate_repository(self.root)))
+
+    def test_referenced_file_must_not_cross_boundary_through_symlink(self) -> None:
+        article = self.valid_article()
+        outside = "# Shared mutable file\n"
+        self.write("README.md", outside)
+        master_path = self.root / "articles/example/master.md"
+        master_path.unlink()
+        master_path.symlink_to("../../README.md")
+        article["authority"]["master"]["sha256"] = self.sha256(outside)  # type: ignore[index]
+        self.write_index([article], status="active")
+        self.assertIn("article.path.symlink", self.codes(validate_repository(self.root)))
 
     def test_owner_locked_passage_must_remain_in_master(self) -> None:
         article = self.valid_article()

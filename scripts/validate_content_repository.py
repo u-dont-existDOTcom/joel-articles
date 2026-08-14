@@ -39,6 +39,7 @@ FORBIDDEN_DIRECTORY_NAMES = {
     "private",
     "secrets",
 }
+DETACHED_CONTENT_ROOTS = {"sources", "evidence", "experiments", "publish"}
 ARTICLE_STATE_HEADINGS = {
     "goal",
     "authority / baseline",
@@ -78,7 +79,16 @@ def _load_json(path: Path) -> tuple[Any | None, str | None]:
 def _tracked_or_present_files(root: Path) -> list[Path]:
     if (root / ".git").exists():
         result = subprocess.run(
-            ["git", "-C", str(root), "ls-files", "-z"],
+            [
+                "git",
+                "-C",
+                str(root),
+                "ls-files",
+                "--cached",
+                "--others",
+                "--exclude-standard",
+                "-z",
+            ],
             check=False,
             capture_output=True,
         )
@@ -151,6 +161,18 @@ def _validate_reference(
         )
 
     path = root / relative
+    probe = root
+    for part in PurePosixPath(relative).parts:
+        probe = probe / part
+        if probe.is_symlink():
+            findings.append(
+                _finding(
+                    "article.path.symlink",
+                    relative,
+                    f"Article {article_id!r} reference {label!r} crosses a symlink at {probe.relative_to(root).as_posix()!r}; article authority must be physically self-contained.",
+                )
+            )
+            return findings, None
     if not path.is_file():
         findings.append(
             _finding(
@@ -549,6 +571,132 @@ def _validate_article(root: Path, article: object, position: int) -> list[dict[s
                 f"Article {article_id!r} is marked published without a published export record.",
             )
         )
+
+    additional = article.get("additional_artifacts")
+    if not isinstance(additional, list):
+        findings.append(
+            _finding(
+                "article.field.missing",
+                index_path,
+                f"Article {article_id!r} requires an additional_artifacts array, even when empty.",
+            )
+        )
+        additional = []
+    for artifact_position, artifact in enumerate(additional):
+        role = artifact.get("role") if isinstance(artifact, dict) else None
+        if not isinstance(role, str) or not role.strip():
+            findings.append(
+                _finding(
+                    "article.artifact.invalid",
+                    index_path,
+                    f"Article {article_id!r} additional artifact {artifact_position} needs a nonblank role.",
+                )
+            )
+        reference_findings, _ = _validate_reference(
+            root,
+            article_id,
+            f"additional_artifacts[{artifact_position}]",
+            artifact,
+        )
+        findings.extend(reference_findings)
+    return findings
+
+
+def _registered_article_paths(article: object) -> set[str]:
+    if not isinstance(article, dict):
+        return set()
+    references: list[object] = []
+    for container_name in ("authority", "review"):
+        container = article.get(container_name)
+        if isinstance(container, dict):
+            references.extend(container.values())
+    for list_name in ("publication_exports", "additional_artifacts"):
+        container = article.get(list_name)
+        if isinstance(container, list):
+            references.extend(container)
+    paths: set[str] = set()
+    for reference in references:
+        if isinstance(reference, dict):
+            relative = _safe_relative_path(reference.get("path"))
+            if relative is not None:
+                paths.add(relative)
+    return paths
+
+
+def _validate_content_inventory(
+    root: Path,
+    repository_status: object,
+    articles: list[object],
+) -> list[dict[str, str]]:
+    findings: list[dict[str, str]] = []
+    registered_ids = {
+        article["id"]
+        for article in articles
+        if isinstance(article, dict)
+        and isinstance(article.get("id"), str)
+        and ARTICLE_ID_RE.fullmatch(article["id"])
+    }
+    registered_paths: dict[str, set[str]] = {
+        article_id: set() for article_id in registered_ids
+    }
+    for article in articles:
+        if isinstance(article, dict) and article.get("id") in registered_paths:
+            registered_paths[article["id"]].update(_registered_article_paths(article))
+
+    reserved_article_files = {"articles/INDEX.json", "articles/AGENTS.md"}
+    article_files: list[str] = []
+    for path in _tracked_or_present_files(root):
+        relative = path.relative_to(root).as_posix()
+        parts = PurePosixPath(relative).parts
+        if parts and parts[0] in DETACHED_CONTENT_ROOTS:
+            findings.append(
+                _finding(
+                    "index.detached-content",
+                    relative,
+                    "Article sources, evidence, experiments, and exports must be registered inside one article family, not a detached top-level content root.",
+                )
+            )
+        if len(parts) >= 2 and parts[0] == "articles" and relative not in reserved_article_files:
+            article_files.append(relative)
+
+    if repository_status == "governance_incubator":
+        if articles:
+            findings.append(
+                _finding(
+                    "index.status.mismatch",
+                    "articles/INDEX.json",
+                    "A governance_incubator must have an empty article registry; switch to active only with a complete registered family.",
+                )
+            )
+        for relative in article_files:
+            findings.append(
+                _finding(
+                    "index.unregistered-content",
+                    relative,
+                    "A governance_incubator cannot contain article-family content outside its empty registry.",
+                )
+            )
+        return findings
+
+    for relative in article_files:
+        parts = PurePosixPath(relative).parts
+        article_id = parts[1]
+        if article_id not in registered_ids:
+            findings.append(
+                _finding(
+                    "index.unregistered-content",
+                    relative,
+                    f"Article-family path belongs to unregistered article id {article_id!r}.",
+                )
+            )
+        elif relative not in registered_paths[article_id]:
+            findings.append(
+                _finding(
+                    "article.file.unregistered",
+                    relative,
+                    f"File is inside article {article_id!r} but is absent from its authority, review, export, and additional-artifact inventory.",
+                )
+            )
     return findings
 
 
@@ -621,6 +769,8 @@ def validate_repository(root: Path) -> list[dict[str, str]]:
                 )
             seen_ids.add(article_id)
         findings.extend(_validate_article(root, article, position))
+
+    findings.extend(_validate_content_inventory(root, repository_status, articles))
 
     return sorted(findings, key=lambda item: (item["path"], item["code"], item["message"]))
 
