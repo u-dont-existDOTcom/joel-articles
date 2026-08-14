@@ -29,8 +29,9 @@ Updated: 2026-08-14
 - Current step: complete independent review of PR #4, mark it ready if no actionable finding remains, and merge if repository policy permits.
 - Recovered baseline: `main@5f0585f1a9fe5a3d5c2622f5bcaa84ffc025a71d`.
 - Active task branch: `codex/github-compliance-2026-08-14`.
-- Verified code-bearing head/tree: `baa278d98644786aeb5c74eea453e6214342fadc` / `876c343123a8e654e8d48023ca2f3677582173d5`.
-- Exact GitHub Actions run/job: `31784758697` / `94718093784` — success; 47 tests, truthful empty-incubator validation, repository audit 0 errors/4 warnings.
+- Verified code-bearing head/tree: `3d77e88dde52015bbc66276940e1b58ec3622da3` / `2607a11ee27a863ef4d04918d1cb42779ddfb701`.
+- Exact GitHub Actions run/job: `31785153880` / `94719318290` — success; 53 tests, truthful empty-incubator validation, repository audit 0 errors/4 warnings.
+- Independent review findings for detached/unregistered article families and symlink boundary traversal were repaired with causal regressions; exact-head re-review is pending.
 
 ## Remaining
 

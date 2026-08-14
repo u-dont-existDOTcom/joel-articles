@@ -53,15 +53,16 @@ No `LICENSE` file or copyright notice was added. Choosing between an owner-appro
 
 ## Verification evidence
 
-- Exact code-bearing head: `baa278d98644786aeb5c74eea453e6214342fadc`
-- Exact code tree: `876c343123a8e654e8d48023ca2f3677582173d5`
-- GitHub Actions run/job: `31784758697` / `94718093784` — success
+- Exact code-bearing head: `3d77e88dde52015bbc66276940e1b58ec3622da3`
+- Exact code tree: `2607a11ee27a863ef4d04918d1cb42779ddfb701`
+- GitHub Actions run/job: `31785153880` / `94719318290` — success
 
-- `python -m unittest discover -s tests`: 47 tests passed in GitHub Actions
+- `python -m unittest discover -s tests`: 53 tests passed in GitHub Actions
 - `python scripts/validate_content_repository.py --root .`: passed; `governance_incubator`, 0 registered articles, canonical content import remains BLOCKED
 - `python scripts/audit_codex_github.py --root . --fail-on error`: 0 errors, 4 truthful warnings
 - `git diff --check`: passed locally before publication
 - Workflow steps for checkout, regression tests, content validation, and repository audit all concluded success
+- Review-remediation coverage rejects registered/unregistered incubator mismatches, detached/unregistered article files, detached legacy content roots, and symlink traversal outside article families; approved extra files require hash-bound `additional_artifacts` entries
 
 The four audit warnings are the intended truthful state: disabled default-branch rules, unverified secret scanning, unverified push protection, and absent owner-selected license. They are blockers or follow-up items, not hidden green claims.
 
