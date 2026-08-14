@@ -2,7 +2,7 @@
 
 ## Outcome
 
-Repository governance baseline: **implemented on the task branch; exact-head verification pending**.
+Repository governance baseline: **verified at the exact code-bearing task-branch head**.
 
 Overall repository/content status: **BLOCKED**. No canonical article package is imported, the owner has not selected a copyright/license posture, and required hosted controls remain disabled or unverified. This report does not call the repository compliant merely because local checks pass.
 
@@ -53,13 +53,17 @@ No `LICENSE` file or copyright notice was added. Choosing between an owner-appro
 
 ## Verification evidence
 
-To be bound after the code-bearing task-branch head is published:
+- Exact code-bearing head: `baa278d98644786aeb5c74eea453e6214342fadc`
+- Exact code tree: `876c343123a8e654e8d48023ca2f3677582173d5`
+- GitHub Actions run/job: `31784758697` / `94718093784` — success
 
-- `python -m unittest discover -s tests`
-- `python scripts/validate_content_repository.py --root .`
-- `python scripts/audit_codex_github.py --root . --fail-on error`
-- `git diff --check`
-- exact commit and GitHub Actions run IDs
+- `python -m unittest discover -s tests`: 47 tests passed in GitHub Actions
+- `python scripts/validate_content_repository.py --root .`: passed; `governance_incubator`, 0 registered articles, canonical content import remains BLOCKED
+- `python scripts/audit_codex_github.py --root . --fail-on error`: 0 errors, 4 truthful warnings
+- `git diff --check`: passed locally before publication
+- Workflow steps for checkout, regression tests, content validation, and repository audit all concluded success
+
+The four audit warnings are the intended truthful state: disabled default-branch rules, unverified secret scanning, unverified push protection, and absent owner-selected license. They are blockers or follow-up items, not hidden green claims.
 
 ## Residual blockers
 

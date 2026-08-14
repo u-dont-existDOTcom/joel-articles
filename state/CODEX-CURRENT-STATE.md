@@ -26,14 +26,15 @@ Updated: 2026-08-14
 
 ## Current checkpoint
 
-- Current step: publish and verify the governance task branch, bind the exact code-bearing commit and run IDs into the compliance report, complete review, and merge if the repository policy permits.
+- Current step: complete independent review of PR #4, mark it ready if no actionable finding remains, and merge if repository policy permits.
 - Recovered baseline: `main@5f0585f1a9fe5a3d5c2622f5bcaa84ffc025a71d`.
 - Active task branch: `codex/github-compliance-2026-08-14`.
-- Exact-head GitHub Actions evidence: pending first publication.
+- Verified code-bearing head/tree: `baa278d98644786aeb5c74eea453e6214342fadc` / `876c343123a8e654e8d48023ca2f3677582173d5`.
+- Exact GitHub Actions run/job: `31784758697` / `94718093784` — success; 47 tests, truthful empty-incubator validation, repository audit 0 errors/4 warnings.
 
 ## Remaining
 
-- Publish, verify, review, and merge this governance baseline.
+- Complete review and merge the verified governance baseline if no actionable finding remains.
 - Promote the bounded editorial authority/owner-lock/lossless-editing lesson to `universal-dev-architecture` with exact Joel provenance.
 - Obtain the owner copyright/license decision; do not infer it.
 - Enable a private vulnerability-reporting channel and a default-branch ruleset requiring pull requests and `content-integrity`; verify remaining hosted security/Actions controls.
@@ -59,7 +60,7 @@ Updated: 2026-08-14
 
 ## Next safe action
 
-- Run every exact profile command and `git diff --check`; publish the task branch; verify the exact code-bearing GitHub Actions run; then update the compliance evidence without changing content logic.
+- Inspect PR #4 at the verified code-bearing baseline. If independent review and the evidence-only closeout run are green, mark ready and merge without changing content logic; otherwise repair the exact finding and re-verify.
 
 ## Recovery rule
 
