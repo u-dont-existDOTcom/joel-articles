@@ -30,6 +30,8 @@ Use one article-scoped task branch/worktree and a pull request. Keep owner-final
 
 For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is blocking: re-run the article-wide architecture regression after every detector-driven edit. Do not narrow the editorial field of view to the last detector window.
 
+Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invitation/de-escalation language belongs or when an owner-approved AI/synthetic draft carries useful thought architecture. Protected function and correct placement are separate judgments.
+
 ## Branch roles
 
 - `main`: accepted article governance and canonical state
@@ -42,6 +44,7 @@ For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is bloc
 - Treat deletions and consolidations as explicit proposals. Record the original text and destination or owner approval so the change is reversible; do not silently discard apparently redundant material.
 - Owner-lock manifests contain exact protected passages. A passing hash check is necessary but not sufficient: review the master article-wide for function, sequence, agency, and meaning preservation.
 - Keep claim-level source provenance local. Mark unsupported, inaccessible, disputed, or owner-only claims precisely; never fabricate a citation or flatten the author's position to make sourcing easier.
+- During a requested editing or humanization pass, do not turn the task into unsolicited fact-checking or claim review. Research/verify when Joel asks, or flag a claim only when there is a concrete material reason under the article protocol; empirical or contestable language alone is not such a reason.
 - Detector results are evidence, not editorial authority; passing a detector never licenses distortion of meaning or voice.
 - A 100% Human detector result is still invalid if heading promise, paragraph jobs, live-question continuity, owner-realization placement, protected functions, or fidelity fail the architecture regression.
 
