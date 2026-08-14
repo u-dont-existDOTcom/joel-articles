@@ -1,0 +1,541 @@
+#!/usr/bin/env python3
+"""Validate Joel Articles authority, integrity, privacy, and recovery metadata.
+
+This gate validates repository truth. An empty governance incubator may pass while
+content import remains explicitly blocked; passing never invents article authority.
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import re
+import subprocess
+import sys
+from pathlib import Path, PurePosixPath
+from typing import Any
+
+
+SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
+ARTICLE_ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+ARTICLE_STATUSES = {"working", "owner_final", "published", "blocked"}
+REPOSITORY_STATUSES = {"governance_incubator", "active", "archived"}
+REVIEW_STATUSES = {
+    "citations": {"pending", "verified", "blocked", "not_applicable"},
+    "detector": {"not_run", "recorded", "blocked", "not_applicable"},
+    "editorial": {"pending", "passed", "blocked"},
+}
+AUTHORITY_FIELDS = {
+    "master",
+    "owner_locks",
+    "source_evidence",
+    "unincorporated_ideas",
+    "current_state",
+}
+REVIEW_FIELDS = {"citations", "detector", "editorial"}
+FORBIDDEN_DIRECTORY_NAMES = {
+    "incoming-private",
+    "private",
+    "secrets",
+}
+ARTICLE_STATE_HEADINGS = {
+    "goal",
+    "authority / baseline",
+    "completed",
+    "current checkpoint",
+    "remaining",
+    "blockers / unresolved",
+    "evidence / artifacts",
+    "next safe action",
+}
+
+
+def _finding(code: str, path: str, message: str) -> dict[str, str]:
+    return {"code": code, "path": path, "message": message}
+
+
+def _sha256_bytes(content: bytes) -> str:
+    return hashlib.sha256(content).hexdigest()
+
+
+def _safe_relative_path(value: object) -> str | None:
+    if not isinstance(value, str) or not value or "\\" in value:
+        return None
+    path = PurePosixPath(value)
+    if path.is_absolute() or any(part in {"", ".", ".."} for part in path.parts):
+        return None
+    return path.as_posix()
+
+
+def _load_json(path: Path) -> tuple[Any | None, str | None]:
+    try:
+        return json.loads(path.read_text(encoding="utf-8")), None
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        return None, str(exc)
+
+
+def _tracked_or_present_files(root: Path) -> list[Path]:
+    if (root / ".git").exists():
+        result = subprocess.run(
+            ["git", "-C", str(root), "ls-files", "-z"],
+            check=False,
+            capture_output=True,
+        )
+        if result.returncode == 0:
+            return [root / raw.decode("utf-8") for raw in result.stdout.split(b"\0") if raw]
+    return [
+        path
+        for path in root.rglob("*")
+        if path.is_file()
+        and ".git" not in path.relative_to(root).parts
+        and "__pycache__" not in path.relative_to(root).parts
+    ]
+
+
+def _validate_privacy(root: Path) -> list[dict[str, str]]:
+    findings: list[dict[str, str]] = []
+    for path in _tracked_or_present_files(root):
+        relative = path.relative_to(root)
+        if (
+            relative.name == ".env"
+            or relative.name.startswith(".env.")
+            or any(part.lower() in FORBIDDEN_DIRECTORY_NAMES for part in relative.parts[:-1])
+        ):
+            findings.append(
+                _finding(
+                    "privacy.forbidden-path",
+                    relative.as_posix(),
+                    "Private staging, environment, and secret material must not be tracked in this public repository.",
+                )
+            )
+    return findings
+
+
+def _validate_reference(
+    root: Path,
+    article_id: str,
+    label: str,
+    reference: object,
+) -> tuple[list[dict[str, str]], Path | None]:
+    findings: list[dict[str, str]] = []
+    index_path = "articles/INDEX.json"
+    if not isinstance(reference, dict):
+        return [
+            _finding(
+                "article.field.invalid",
+                index_path,
+                f"Article {article_id!r} reference {label!r} must be an object with path and sha256.",
+            )
+        ], None
+
+    relative = _safe_relative_path(reference.get("path"))
+    expected_sha = reference.get("sha256")
+    if relative is None or not isinstance(expected_sha, str) or not SHA256_RE.fullmatch(expected_sha):
+        return [
+            _finding(
+                "article.field.invalid",
+                index_path,
+                f"Article {article_id!r} reference {label!r} needs a safe relative path and lowercase SHA-256.",
+            )
+        ], None
+
+    prefix = f"articles/{article_id}/"
+    if not relative.startswith(prefix):
+        findings.append(
+            _finding(
+                "article.path.outside-boundary",
+                relative,
+                f"Article {article_id!r} references must remain inside {prefix!r}.",
+            )
+        )
+
+    path = root / relative
+    if not path.is_file():
+        findings.append(
+            _finding(
+                "article.path.missing",
+                relative,
+                f"Article {article_id!r} reference {label!r} does not exist.",
+            )
+        )
+        return findings, None
+
+    actual_sha = _sha256_bytes(path.read_bytes())
+    if actual_sha != expected_sha:
+        findings.append(
+            _finding(
+                "article.hash.mismatch",
+                relative,
+                f"Article {article_id!r} reference {label!r} expected {expected_sha} but found {actual_sha}.",
+            )
+        )
+    return findings, path
+
+
+def _validate_owner_locks(
+    article_id: str,
+    master_path: Path | None,
+    locks_path: Path | None,
+) -> list[dict[str, str]]:
+    if master_path is None or locks_path is None:
+        return []
+    findings: list[dict[str, str]] = []
+    lock_data, error = _load_json(locks_path)
+    lock_relative = locks_path.as_posix()
+    if error or not isinstance(lock_data, dict):
+        return [
+            _finding(
+                "article.owner-lock.invalid",
+                lock_relative,
+                f"Owner-lock manifest is not valid JSON: {error or 'root must be an object'}.",
+            )
+        ]
+    if lock_data.get("schema_version") != 1 or lock_data.get("article_id") != article_id:
+        findings.append(
+            _finding(
+                "article.owner-lock.invalid",
+                lock_relative,
+                "Owner-lock manifest must use schema_version 1 and match the article id.",
+            )
+        )
+    passages = lock_data.get("locked_passages")
+    functions = lock_data.get("protected_functions")
+    if not isinstance(passages, list) or not isinstance(functions, list):
+        findings.append(
+            _finding(
+                "article.owner-lock.invalid",
+                lock_relative,
+                "Owner-lock manifest requires locked_passages and protected_functions arrays.",
+            )
+        )
+        return findings
+
+    master = master_path.read_text(encoding="utf-8")
+    seen: set[str] = set()
+    for position, item in enumerate(passages):
+        if not isinstance(item, dict):
+            findings.append(
+                _finding(
+                    "article.owner-lock.invalid",
+                    lock_relative,
+                    f"locked_passages[{position}] must be an object.",
+                )
+            )
+            continue
+        lock_id = item.get("id")
+        text = item.get("text")
+        expected_sha = item.get("sha256")
+        if (
+            not isinstance(lock_id, str)
+            or not lock_id
+            or lock_id in seen
+            or not isinstance(text, str)
+            or not text
+            or not isinstance(expected_sha, str)
+            or not SHA256_RE.fullmatch(expected_sha)
+        ):
+            findings.append(
+                _finding(
+                    "article.owner-lock.invalid",
+                    lock_relative,
+                    f"locked_passages[{position}] needs a unique id, exact text, and lowercase SHA-256.",
+                )
+            )
+            continue
+        seen.add(lock_id)
+        actual_sha = _sha256_bytes(text.encode("utf-8"))
+        if actual_sha != expected_sha:
+            findings.append(
+                _finding(
+                    "article.owner-lock.hash-mismatch",
+                    lock_relative,
+                    f"Owner lock {lock_id!r} hashes to {actual_sha}, not {expected_sha}.",
+                )
+            )
+        if text not in master:
+            findings.append(
+                _finding(
+                    "article.owner-lock.missing",
+                    master_path.as_posix(),
+                    f"Owner-locked passage {lock_id!r} is absent from the registered master.",
+                )
+            )
+    return findings
+
+
+def _validate_article_state(article_id: str, state_path: Path | None) -> list[dict[str, str]]:
+    if state_path is None:
+        return []
+    headings = {
+        line[3:].strip().lower()
+        for line in state_path.read_text(encoding="utf-8").splitlines()
+        if line.startswith("## ")
+    }
+    missing = sorted(ARTICLE_STATE_HEADINGS - headings)
+    if not missing:
+        return []
+    return [
+        _finding(
+            "article.state.incomplete",
+            state_path.as_posix(),
+            f"Article {article_id!r} current state is missing headings: {', '.join(missing)}.",
+        )
+    ]
+
+
+def _validate_article(root: Path, article: object, position: int) -> list[dict[str, str]]:
+    findings: list[dict[str, str]] = []
+    index_path = "articles/INDEX.json"
+    if not isinstance(article, dict):
+        return [
+            _finding(
+                "article.invalid",
+                index_path,
+                f"articles[{position}] must be an object.",
+            )
+        ]
+
+    article_id = article.get("id")
+    title = article.get("title")
+    status = article.get("status")
+    if not isinstance(article_id, str) or not ARTICLE_ID_RE.fullmatch(article_id):
+        return [
+            _finding(
+                "article.id.invalid",
+                index_path,
+                f"articles[{position}].id must be a lowercase kebab-case identifier.",
+            )
+        ]
+    if not isinstance(title, str) or not title.strip() or status not in ARTICLE_STATUSES:
+        findings.append(
+            _finding(
+                "article.field.invalid",
+                index_path,
+                f"Article {article_id!r} needs a nonblank title and a supported status.",
+            )
+        )
+
+    authority = article.get("authority")
+    review = article.get("review")
+    if not isinstance(authority, dict) or not AUTHORITY_FIELDS.issubset(authority):
+        missing = sorted(AUTHORITY_FIELDS - set(authority or {}) if isinstance(authority, dict) else AUTHORITY_FIELDS)
+        findings.append(
+            _finding(
+                "article.field.missing",
+                index_path,
+                f"Article {article_id!r} authority is missing: {', '.join(missing)}.",
+            )
+        )
+    if not isinstance(review, dict) or not REVIEW_FIELDS.issubset(review):
+        missing = sorted(REVIEW_FIELDS - set(review or {}) if isinstance(review, dict) else REVIEW_FIELDS)
+        findings.append(
+            _finding(
+                "article.field.missing",
+                index_path,
+                f"Article {article_id!r} review is missing: {', '.join(missing)}.",
+            )
+        )
+
+    resolved: dict[str, Path | None] = {}
+    if isinstance(authority, dict):
+        for label in sorted(AUTHORITY_FIELDS & set(authority)):
+            reference_findings, resolved[label] = _validate_reference(
+                root, article_id, label, authority[label]
+            )
+            findings.extend(reference_findings)
+
+    if isinstance(review, dict):
+        for label in sorted(REVIEW_FIELDS & set(review)):
+            record = review[label]
+            reference_findings, resolved[label] = _validate_reference(
+                root, article_id, label, record
+            )
+            findings.extend(reference_findings)
+            actual_status = record.get("status") if isinstance(record, dict) else None
+            if actual_status not in REVIEW_STATUSES[label]:
+                findings.append(
+                    _finding(
+                        "article.review.invalid",
+                        index_path,
+                        f"Article {article_id!r} review {label!r} has unsupported status {actual_status!r}.",
+                    )
+                )
+
+        if status in {"owner_final", "published"}:
+            citation_status = review.get("citations", {}).get("status") if isinstance(review.get("citations"), dict) else None
+            editorial_status = review.get("editorial", {}).get("status") if isinstance(review.get("editorial"), dict) else None
+            if citation_status not in {"verified", "not_applicable"} or editorial_status != "passed":
+                findings.append(
+                    _finding(
+                        "article.review.incomplete",
+                        index_path,
+                        f"Article {article_id!r} cannot be {status!r} without completed citation disposition and editorial pass.",
+                    )
+                )
+
+    findings.extend(
+        _validate_owner_locks(
+            article_id,
+            resolved.get("master"),
+            resolved.get("owner_locks"),
+        )
+    )
+    findings.extend(_validate_article_state(article_id, resolved.get("current_state")))
+
+    exports = article.get("publication_exports")
+    if not isinstance(exports, list):
+        findings.append(
+            _finding(
+                "article.field.missing",
+                index_path,
+                f"Article {article_id!r} requires a publication_exports array.",
+            )
+        )
+        exports = []
+    published_exports = 0
+    for export_position, export in enumerate(exports):
+        required = {"path", "sha256", "destination", "source_authority", "status"}
+        if not isinstance(export, dict) or not required.issubset(export):
+            findings.append(
+                _finding(
+                    "article.export.invalid",
+                    index_path,
+                    f"Article {article_id!r} export {export_position} must record path, sha256, destination, source_authority, and status.",
+                )
+            )
+            continue
+        reference_findings, _ = _validate_reference(
+            root,
+            article_id,
+            f"publication_exports[{export_position}]",
+            export,
+        )
+        findings.extend(reference_findings)
+        if export.get("status") not in {"draft", "published", "superseded"}:
+            findings.append(
+                _finding(
+                    "article.export.invalid",
+                    index_path,
+                    f"Article {article_id!r} export {export_position} has an unsupported status.",
+                )
+            )
+        if not isinstance(export.get("destination"), str) or not export.get("destination") or not isinstance(export.get("source_authority"), str) or not export.get("source_authority"):
+            findings.append(
+                _finding(
+                    "article.export.invalid",
+                    index_path,
+                    f"Article {article_id!r} export {export_position} needs nonblank destination and source_authority provenance.",
+                )
+            )
+        if export.get("status") == "published":
+            published_exports += 1
+    if status == "published" and published_exports == 0:
+        findings.append(
+            _finding(
+                "article.export.invalid",
+                index_path,
+                f"Article {article_id!r} is marked published without a published export record.",
+            )
+        )
+    return findings
+
+
+def validate_repository(root: Path) -> list[dict[str, str]]:
+    root = root.resolve()
+    findings = _validate_privacy(root)
+    index_path = root / "articles/INDEX.json"
+    if not index_path.is_file():
+        findings.append(
+            _finding(
+                "index.missing",
+                "articles/INDEX.json",
+                "The canonical article registry is missing.",
+            )
+        )
+        return sorted(findings, key=lambda item: (item["path"], item["code"], item["message"]))
+
+    index, error = _load_json(index_path)
+    if error or not isinstance(index, dict):
+        findings.append(
+            _finding(
+                "index.invalid",
+                "articles/INDEX.json",
+                f"The article registry is not valid JSON: {error or 'root must be an object'}.",
+            )
+        )
+        return sorted(findings, key=lambda item: (item["path"], item["code"], item["message"]))
+
+    if index.get("schema_version") != 1:
+        findings.append(_finding("index.invalid", "articles/INDEX.json", "schema_version must be 1."))
+    repository_status = index.get("repository_status")
+    if repository_status not in REPOSITORY_STATUSES:
+        findings.append(
+            _finding(
+                "index.invalid",
+                "articles/INDEX.json",
+                f"repository_status must be one of {sorted(REPOSITORY_STATUSES)}.",
+            )
+        )
+    authority_note = index.get("authority_note")
+    if not isinstance(authority_note, str) or not authority_note.strip():
+        findings.append(
+            _finding("index.invalid", "articles/INDEX.json", "authority_note must be nonblank.")
+        )
+
+    articles = index.get("articles")
+    if not isinstance(articles, list):
+        findings.append(_finding("index.invalid", "articles/INDEX.json", "articles must be an array."))
+        articles = []
+    if repository_status != "governance_incubator" and not articles:
+        findings.append(
+            _finding(
+                "index.articles.empty",
+                "articles/INDEX.json",
+                "Only a governance_incubator may have no registered articles.",
+            )
+        )
+
+    seen_ids: set[str] = set()
+    for position, article in enumerate(articles):
+        if isinstance(article, dict) and isinstance(article.get("id"), str):
+            article_id = article["id"]
+            if article_id in seen_ids:
+                findings.append(
+                    _finding(
+                        "article.id.duplicate",
+                        "articles/INDEX.json",
+                        f"Article id {article_id!r} appears more than once.",
+                    )
+                )
+            seen_ids.add(article_id)
+        findings.extend(_validate_article(root, article, position))
+
+    return sorted(findings, key=lambda item: (item["path"], item["code"], item["message"]))
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root", type=Path, default=Path("."), help="Repository root (default: .)")
+    args = parser.parse_args(argv)
+    findings = validate_repository(args.root)
+    for finding in findings:
+        print(f"ERROR [{finding['code']}] {finding['path']}: {finding['message']}")
+    if findings:
+        print(f"Content repository validation failed with {len(findings)} finding(s).")
+        return 1
+
+    index = json.loads((args.root / "articles/INDEX.json").read_text(encoding="utf-8"))
+    count = len(index["articles"])
+    if index["repository_status"] == "governance_incubator":
+        print(
+            "Content repository structure passed: governance_incubator with "
+            f"{count} registered article(s). Canonical content import remains BLOCKED."
+        )
+    else:
+        print(f"Content repository structure passed: {count} registered article(s).")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
