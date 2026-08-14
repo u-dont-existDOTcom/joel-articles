@@ -175,6 +175,7 @@ def _validate_reference(
 
 def _validate_owner_locks(
     article_id: str,
+    article_status: object,
     master_path: Path | None,
     locks_path: Path | None,
 ) -> list[dict[str, str]]:
@@ -201,15 +202,35 @@ def _validate_owner_locks(
         )
     passages = lock_data.get("locked_passages")
     functions = lock_data.get("protected_functions")
-    if not isinstance(passages, list) or not isinstance(functions, list):
+    owner_review = lock_data.get("owner_review")
+    if not isinstance(passages, list) or not isinstance(functions, list) or not isinstance(owner_review, dict):
         findings.append(
             _finding(
                 "article.owner-lock.invalid",
                 lock_relative,
-                "Owner-lock manifest requires locked_passages and protected_functions arrays.",
+                "Owner-lock manifest requires locked_passages and protected_functions arrays plus an owner_review object.",
             )
         )
         return findings
+
+    review_status = owner_review.get("status")
+    review_evidence = owner_review.get("evidence")
+    if review_status not in {"pending", "confirmed", "blocked"} or not isinstance(review_evidence, str) or not review_evidence.strip():
+        findings.append(
+            _finding(
+                "article.owner-lock.invalid",
+                lock_relative,
+                "owner_review needs a supported status and nonblank durable evidence reference.",
+            )
+        )
+    if article_status in {"owner_final", "published"} and review_status != "confirmed":
+        findings.append(
+            _finding(
+                "article.owner-lock.unconfirmed",
+                lock_relative,
+                f"Article {article_id!r} cannot be {article_status!r} until owner-lock review is confirmed.",
+            )
+        )
 
     master = master_path.read_text(encoding="utf-8")
     seen: set[str] = set()
@@ -261,7 +282,83 @@ def _validate_owner_locks(
                     f"Owner-locked passage {lock_id!r} is absent from the registered master.",
                 )
             )
+    function_ids: set[str] = set()
+    for position, item in enumerate(functions):
+        function_id = item.get("id") if isinstance(item, dict) else None
+        description = item.get("description") if isinstance(item, dict) else None
+        if (
+            not isinstance(function_id, str)
+            or not function_id
+            or function_id in function_ids
+            or not isinstance(description, str)
+            or not description.strip()
+        ):
+            findings.append(
+                _finding(
+                    "article.owner-lock.invalid",
+                    lock_relative,
+                    f"protected_functions[{position}] needs a unique id and nonblank description.",
+                )
+            )
+            continue
+        function_ids.add(function_id)
     return findings
+
+
+def _validate_source_evidence(article_id: str, path: Path | None) -> list[dict[str, str]]:
+    if path is None:
+        return []
+    data, error = _load_json(path)
+    if (
+        error
+        or not isinstance(data, dict)
+        or data.get("schema_version") != 1
+        or data.get("article_id") != article_id
+        or not isinstance(data.get("claims"), list)
+    ):
+        return [
+            _finding(
+                "article.evidence.invalid",
+                path.as_posix(),
+                "Source-evidence index must be schema_version 1, match the article id, and contain a claims array.",
+            )
+        ]
+    return []
+
+
+def _validate_review_file(
+    article_id: str,
+    label: str,
+    expected_status: object,
+    path: Path | None,
+) -> list[dict[str, str]]:
+    if path is None:
+        return []
+    data, error = _load_json(path)
+    collection_key = {"citations": "claims", "detector": "runs", "editorial": "checks"}[label]
+    if (
+        error
+        or not isinstance(data, dict)
+        or data.get("schema_version") != 1
+        or data.get("article_id") != article_id
+        or not isinstance(data.get(collection_key), list)
+    ):
+        return [
+            _finding(
+                "article.review.invalid",
+                path.as_posix(),
+                f"{label!r} record must be schema_version 1, match the article id, and contain a {collection_key} array.",
+            )
+        ]
+    if data.get("status") != expected_status:
+        return [
+            _finding(
+                "article.review.mismatch",
+                path.as_posix(),
+                f"{label!r} file status {data.get('status')!r} does not match registry status {expected_status!r}.",
+            )
+        ]
+    return []
 
 
 def _validate_article_state(article_id: str, state_path: Path | None) -> list[dict[str, str]]:
@@ -377,10 +474,24 @@ def _validate_article(root: Path, article: object, position: int) -> list[dict[s
     findings.extend(
         _validate_owner_locks(
             article_id,
+            status,
             resolved.get("master"),
             resolved.get("owner_locks"),
         )
     )
+    findings.extend(_validate_source_evidence(article_id, resolved.get("source_evidence")))
+    if isinstance(review, dict):
+        for label in sorted(REVIEW_FIELDS & set(review)):
+            record = review[label]
+            expected_status = record.get("status") if isinstance(record, dict) else None
+            findings.extend(
+                _validate_review_file(
+                    article_id,
+                    label,
+                    expected_status,
+                    resolved.get(label),
+                )
+            )
     findings.extend(_validate_article_state(article_id, resolved.get("current_state")))
 
     exports = article.get("publication_exports")

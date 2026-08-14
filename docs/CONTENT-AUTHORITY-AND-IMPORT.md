@@ -25,7 +25,7 @@ Each imported article uses `articles/<article-id>/` and must register the follow
 | Role | Conventional path | Required contents |
 |---|---|---|
 | Current master | `master.md` or an owner-approved source format | Exact authoritative prose and structure |
-| Owner locks | `OWNER-LOCKS.json` | Exact locked passages with their own hashes; protected rhetorical functions |
+| Owner locks | `OWNER-LOCKS.json` | Exact locked passages with their own hashes; protected rhetorical functions; durable owner-review status/evidence |
 | Source/evidence index | `SOURCE-EVIDENCE.json` | Claim/source relationships, access status, uncertainty, and provenance |
 | Unincorporated ideas | `UNINCORPORATED-IDEAS.md` | Ideas not in the master and their disposition; never silently reconstructed |
 | Article state | `CURRENT-STATE.md` | Goal, authority, completed work, checkpoint, remaining work, blockers, evidence, next safe action |
@@ -34,7 +34,7 @@ Each imported article uses `articles/<article-id>/` and must register the follow
 | Editorial status | `EDITORIAL-STATUS.json` | Meaning, structure, fidelity, curious-reader, and owner-lock review disposition |
 | Publication exports | Article-local files plus registry entries | Exact hash, destination, source authority, and draft/published/superseded status |
 
-The validator enforces structure, file presence, hashes, exact locked-passage presence, article-state headings, review disposition, privacy boundaries, and export provenance. Human review still owns truth, meaning, article-wide architecture, citations, and publication readiness.
+The validator enforces structure, file presence, hashes, exact locked-passage presence, protected-function records, owner-review confirmation before owner-final/published status, article-state headings, internal/registry review-status parity, privacy boundaries, and export provenance. Human review still owns truth, meaning, article-wide architecture, citations, and publication readiness.
 
 ## Lossless editing and reversible deletion
 

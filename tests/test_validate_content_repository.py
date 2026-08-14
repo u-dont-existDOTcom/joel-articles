@@ -58,6 +58,10 @@ class ContentRepositoryValidationTests(unittest.TestCase):
                 "protected_functions": [
                     {"id": "function-1", "description": "Preserve the owner's conclusion."}
                 ],
+                "owner_review": {
+                    "status": "confirmed",
+                    "evidence": "Owner-reviewed import decision.",
+                },
             },
             indent=2,
         ) + "\n"
@@ -153,6 +157,44 @@ class ContentRepositoryValidationTests(unittest.TestCase):
         article["authority"]["owner_locks"]["sha256"] = self.sha256(updated)  # type: ignore[index]
         self.write_index([article], status="active")
         self.assertIn("article.owner-lock.hash-mismatch", self.codes(validate_repository(self.root)))
+
+    def test_owner_final_article_requires_confirmed_owner_lock_review(self) -> None:
+        article = self.valid_article()
+        locks_path = self.root / "articles/example/OWNER-LOCKS.json"
+        locks = json.loads(locks_path.read_text(encoding="utf-8"))
+        locks["owner_review"] = {"status": "pending", "evidence": "Awaiting owner."}
+        updated = json.dumps(locks, indent=2) + "\n"
+        self.write("articles/example/OWNER-LOCKS.json", updated)
+        article["authority"]["owner_locks"]["sha256"] = self.sha256(updated)  # type: ignore[index]
+        self.write_index([article], status="active")
+        self.assertIn("article.owner-lock.unconfirmed", self.codes(validate_repository(self.root)))
+
+    def test_source_evidence_must_match_article_and_schema(self) -> None:
+        article = self.valid_article()
+        evidence = '{"schema_version": 1, "article_id": "other", "claims": []}\n'
+        self.write("articles/example/SOURCE-EVIDENCE.json", evidence)
+        article["authority"]["source_evidence"]["sha256"] = self.sha256(evidence)  # type: ignore[index]
+        self.write_index([article], status="active")
+        self.assertIn("article.evidence.invalid", self.codes(validate_repository(self.root)))
+
+    def test_review_file_status_must_match_registry_status(self) -> None:
+        article = self.valid_article()
+        citations = '{"schema_version": 1, "article_id": "example", "status": "pending", "claims": []}\n'
+        self.write("articles/example/CITATIONS.json", citations)
+        article["review"]["citations"]["sha256"] = self.sha256(citations)  # type: ignore[index]
+        self.write_index([article], status="active")
+        self.assertIn("article.review.mismatch", self.codes(validate_repository(self.root)))
+
+    def test_protected_function_requires_unique_id_and_description(self) -> None:
+        article = self.valid_article()
+        locks_path = self.root / "articles/example/OWNER-LOCKS.json"
+        locks = json.loads(locks_path.read_text(encoding="utf-8"))
+        locks["protected_functions"] = [{"id": "function-1", "description": ""}]
+        updated = json.dumps(locks, indent=2) + "\n"
+        self.write("articles/example/OWNER-LOCKS.json", updated)
+        article["authority"]["owner_locks"]["sha256"] = self.sha256(updated)  # type: ignore[index]
+        self.write_index([article], status="active")
+        self.assertIn("article.owner-lock.invalid", self.codes(validate_repository(self.root)))
 
     def test_owner_final_article_requires_editorial_pass(self) -> None:
         article = self.valid_article()
