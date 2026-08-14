@@ -2,6 +2,10 @@
 
 No article is canonical in this repository yet.
 
+## General article protocols
+
+- `HUMANIZATION-ARCHITECTURE-GATE.md` — blocking article-wide architecture regression for humanization/detector work. Run before detector testing and after every detector-driven edit; 100% Human never overrides heading fit, paragraph jobs, live-question continuity, protected functions, owner-realization placement, or fidelity.
+
 For each imported article, add an article-local index naming:
 
 1. the current master
