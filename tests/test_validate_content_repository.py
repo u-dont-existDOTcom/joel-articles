@@ -133,6 +133,19 @@ class ContentRepositoryValidationTests(unittest.TestCase):
         (articles / "INDEX.json").symlink_to("../detached-index.json")
         self.assertIn("index.symlink", self.codes(validate_repository(self.root)))
 
+    def test_article_registry_parent_must_not_be_a_symlink(self) -> None:
+        content = json.dumps(
+            {
+                "schema_version": 1,
+                "repository_status": "governance_incubator",
+                "authority_note": "Registry behind a symlinked authority root.",
+                "articles": [],
+            }
+        ) + "\n"
+        self.write("some-articles/INDEX.json", content)
+        (self.root / "articles").symlink_to("some-articles", target_is_directory=True)
+        self.assertIn("index.symlink", self.codes(validate_repository(self.root)))
+
     def test_reserved_article_policy_must_not_be_a_symlink(self) -> None:
         self.write_index([])
         self.write("detached-agents.md", "# Detached policy\n")

@@ -69,6 +69,15 @@ def _safe_relative_path(value: object) -> str | None:
     return path.as_posix()
 
 
+def _first_symlink_component(root: Path, relative: str) -> str | None:
+    probe = root
+    for part in PurePosixPath(relative).parts:
+        probe = probe / part
+        if probe.is_symlink():
+            return probe.relative_to(root).as_posix()
+    return None
+
+
 def _load_json(path: Path) -> tuple[Any | None, str | None]:
     try:
         return json.loads(path.read_text(encoding="utf-8")), None
@@ -161,18 +170,16 @@ def _validate_reference(
         )
 
     path = root / relative
-    probe = root
-    for part in PurePosixPath(relative).parts:
-        probe = probe / part
-        if probe.is_symlink():
-            findings.append(
-                _finding(
-                    "article.path.symlink",
-                    relative,
-                    f"Article {article_id!r} reference {label!r} crosses a symlink at {probe.relative_to(root).as_posix()!r}; article authority must be physically self-contained.",
-                )
+    symlink_component = _first_symlink_component(root, relative)
+    if symlink_component is not None:
+        findings.append(
+            _finding(
+                "article.path.symlink",
+                relative,
+                f"Article {article_id!r} reference {label!r} crosses a symlink at {symlink_component!r}; article authority must be physically self-contained.",
             )
-            return findings, None
+        )
+        return findings, None
     if not path.is_file():
         findings.append(
             _finding(
@@ -648,12 +655,17 @@ def _validate_content_inventory(
     for path in _tracked_or_present_files(root):
         relative = path.relative_to(root).as_posix()
         parts = PurePosixPath(relative).parts
-        if relative in reserved_article_files and path.is_symlink():
+        symlink_component = (
+            _first_symlink_component(root, relative)
+            if relative in reserved_article_files
+            else None
+        )
+        if symlink_component is not None:
             findings.append(
                 _finding(
                     "index.reserved-symlink",
                     relative,
-                    "Reserved article registry/policy files must be physical repository files, not symlinks.",
+                    f"Reserved article registry/policy files must be physical repository files; symlink component found at {symlink_component!r}.",
                 )
             )
         if parts and parts[0] in DETACHED_CONTENT_ROOTS:
@@ -712,12 +724,13 @@ def validate_repository(root: Path) -> list[dict[str, str]]:
     root = root.resolve()
     findings = _validate_privacy(root)
     index_path = root / "articles/INDEX.json"
-    if index_path.is_symlink():
+    index_symlink = _first_symlink_component(root, "articles/INDEX.json")
+    if index_symlink is not None:
         findings.append(
             _finding(
                 "index.symlink",
                 "articles/INDEX.json",
-                "The canonical article registry must be a physical repository file, not a symlink.",
+                f"The canonical article registry must be a physical repository file; symlink component found at {index_symlink!r}.",
             )
         )
         return sorted(findings, key=lambda item: (item["path"], item["code"], item["message"]))
