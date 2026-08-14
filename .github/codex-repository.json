@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "repository_kind": "content",
+  "active": true,
+  "long_running": true,
+  "visibility": "public",
+  "risk": "high",
+  "commands": {},
+  "current_state": null,
+  "github_controls": {
+    "default_branch_rules": "unverified",
+    "secret_scanning": "unverified",
+    "push_protection": "unverified",
+    "code_scanning": "not_applicable"
+  },
+  "audit_note": "Define the current article/source index, owner-locked text and lossless-editing rules, exact editorial/detector/citation checks, and canonical current-state path before treating the repository as fully resumable. Public visibility also requires an explicit license decision."
+}
