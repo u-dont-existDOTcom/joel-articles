@@ -648,6 +648,14 @@ def _validate_content_inventory(
     for path in _tracked_or_present_files(root):
         relative = path.relative_to(root).as_posix()
         parts = PurePosixPath(relative).parts
+        if relative in reserved_article_files and path.is_symlink():
+            findings.append(
+                _finding(
+                    "index.reserved-symlink",
+                    relative,
+                    "Reserved article registry/policy files must be physical repository files, not symlinks.",
+                )
+            )
         if parts and parts[0] in DETACHED_CONTENT_ROOTS:
             findings.append(
                 _finding(
@@ -704,6 +712,15 @@ def validate_repository(root: Path) -> list[dict[str, str]]:
     root = root.resolve()
     findings = _validate_privacy(root)
     index_path = root / "articles/INDEX.json"
+    if index_path.is_symlink():
+        findings.append(
+            _finding(
+                "index.symlink",
+                "articles/INDEX.json",
+                "The canonical article registry must be a physical repository file, not a symlink.",
+            )
+        )
+        return sorted(findings, key=lambda item: (item["path"], item["code"], item["message"]))
     if not index_path.is_file():
         findings.append(
             _finding(

@@ -118,6 +118,27 @@ class ContentRepositoryValidationTests(unittest.TestCase):
         self.write_index([])
         self.assertEqual([], validate_repository(self.root))
 
+    def test_article_registry_must_not_be_a_symlink(self) -> None:
+        content = json.dumps(
+            {
+                "schema_version": 1,
+                "repository_status": "governance_incubator",
+                "authority_note": "Detached registry.",
+                "articles": [],
+            }
+        ) + "\n"
+        self.write("detached-index.json", content)
+        articles = self.root / "articles"
+        articles.mkdir(parents=True, exist_ok=True)
+        (articles / "INDEX.json").symlink_to("../detached-index.json")
+        self.assertIn("index.symlink", self.codes(validate_repository(self.root)))
+
+    def test_reserved_article_policy_must_not_be_a_symlink(self) -> None:
+        self.write_index([])
+        self.write("detached-agents.md", "# Detached policy\n")
+        (self.root / "articles/AGENTS.md").symlink_to("../detached-agents.md")
+        self.assertIn("index.reserved-symlink", self.codes(validate_repository(self.root)))
+
     def test_non_incubator_cannot_have_an_empty_article_registry(self) -> None:
         self.write_index([], status="active")
         self.assertIn("index.articles.empty", self.codes(validate_repository(self.root)))

@@ -35,7 +35,7 @@ Each imported article uses `articles/<article-id>/` and must register the follow
 | Publication exports | Article-local files plus registry entries | Exact hash, destination, source authority, and draft/published/superseded status |
 | Additional artifacts | Article-local files plus `additional_artifacts` registry entries | Exact hash and nonblank role for every approved supporting asset |
 
-The validator enforces structure, file presence, hashes, exact locked-passage presence, protected-function records, owner-review confirmation before owner-final/published status, article-state headings, internal/registry review-status parity, privacy boundaries, a reciprocal incubator/active status, complete article-family inventory, and export provenance. It rejects symlinks and detached top-level `sources/`, `evidence/`, `experiments/`, or `publish/` families so mutable authority cannot escape its article boundary. Human review still owns truth, meaning, article-wide architecture, citations, and publication readiness.
+The validator enforces structure, file presence, hashes, exact locked-passage presence, protected-function records, owner-review confirmation before owner-final/published status, article-state headings, internal/registry review-status parity, privacy boundaries, a reciprocal incubator/active status, complete article-family inventory, and export provenance. It rejects symlinks—including the canonical registry and reserved article policy—and detached top-level `sources/`, `evidence/`, `experiments/`, or `publish/` families so mutable authority cannot escape its article boundary. Human review still owns truth, meaning, article-wide architecture, citations, and publication readiness.
 
 ## Lossless editing and reversible deletion
 
