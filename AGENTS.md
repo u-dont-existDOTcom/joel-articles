@@ -24,6 +24,8 @@ Add deterministic checks with the first substantive article import; do not inven
 
 Use one article-scoped task branch/worktree and a pull request. Keep owner-final prose, reconstruction state, source evidence, detector experiments, and promoted lessons distinguishable. Persist decisions and recovery state in Git before ending a substantive pass.
 
+For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is blocking: re-run the article-wide architecture regression after every detector-driven edit. Do not narrow the editorial field of view to the last detector window.
+
 ## Branch roles
 
 - `main`: accepted article governance and canonical state
@@ -34,5 +36,6 @@ Use one article-scoped task branch/worktree and a pull request. Keep owner-final
 - Never silently soften, balance, or change the owner's argument. Disagreement must be raised directly rather than hidden in an edit.
 - Preserve every unique claim, step, joke, protected rhetorical function, and owner-final passage unless a proposed cut has explicit owner approval or genuine semantic equivalence.
 - Detector results are evidence, not editorial authority; passing a detector never licenses distortion of meaning or voice.
+- A 100% Human detector result is still invalid if heading promise, paragraph jobs, live-question continuity, owner-realization placement, protected functions, or fidelity fail the architecture regression.
 
 Treat chat as disposable working memory. A fresh worker must recover the correct article state, constraints, and next action from Git.
