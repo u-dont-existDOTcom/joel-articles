@@ -1,7 +1,7 @@
 # `articles/` agent instructions
 
 - `INDEX.json` is the only repository-wide article registry. Never add an entry until the owner identifies the authoritative master and the complete artifact family exists.
-- `ARTICLE-META-MAP.md` is the repository-wide Mermaid visual index. Every registered article must appear there exactly once via its `<!-- article-id: ... -->` marker, with accepted interlink/dedup relationships updated in the same substantive change.
+- `../ARTICLE-META-MAP.md` is the repository-wide Mermaid visual index. Every registered article must appear there exactly once via its `<!-- article-id: ... -->` marker, with accepted interlink/dedup relationships updated in the same substantive change.
 - Keep every article inside `articles/<article-id>/`; do not share mutable authority files across articles.
 - Every registered article must contain `articles/<article-id>/ARCHITECTURE.md`, registered in `additional_artifacts` with role `architecture_map`. Create it from `templates/ARTICLE-ARCHITECTURE.md` and update it whenever section topology, protected-function placement, owner supersession routing, setup/payoff dependencies, or the real stopping point materially change.
 - Treat Mermaid maps as visual indexes over authority, never as authority themselves. If a map conflicts with `INDEX.json`, article current state, owner locks, or the master, repair the map.
