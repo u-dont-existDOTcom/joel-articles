@@ -10,7 +10,7 @@ Make article placement, protected rhetorical function, cross-section dependencie
 
 `joel-articles` will maintain two related but non-authoritative visual control surfaces:
 
-1. `articles/ARTICLE-META-MAP.md` — one repository-wide Mermaid graph showing every registered article and meaningful article-to-article relationships such as explicit links, shared concepts, likely deduplication collisions, and useful interlink opportunities.
+1. root `ARTICLE-META-MAP.md` — one repository-wide Mermaid graph showing every registered article and meaningful article-to-article relationships such as explicit links, shared concepts, likely deduplication collisions, and useful interlink opportunities.
 2. `articles/<article-id>/ARCHITECTURE.md` — one canonical article-local Mermaid map showing section order, each section's protected job, important setup/payoff dependencies, owner-final/supersession routing, and unresolved placement questions when they materially affect editing.
 
 The graphs index canonical prose/evidence state; they do not replace it. If a graph conflicts with registered authority, the graph must be repaired.
@@ -33,7 +33,7 @@ For long articles, use an overview plus focused drill-down graphs in the same fi
 
 ## Repository meta-map requirements
 
-`articles/ARTICLE-META-MAP.md` is a reserved physical repository file and is allowed even while the repository remains an empty governance incubator.
+Root `ARTICLE-META-MAP.md` is a physical repository control file and is allowed even while the repository remains an empty governance incubator. Keeping it at repository root avoids confusing it with an article family and makes it the first visual entry point for cross-article work.
 
 For every registered article it must contain exactly one `<!-- article-id: <article-id> -->` marker. The Mermaid graph may then show:
 
@@ -55,9 +55,9 @@ Cosmetic prose edits do not require graph churn.
 
 ## Validation
 
-The content validator will fail when:
+The architecture-map validator will fail when:
 
-- `articles/ARTICLE-META-MAP.md` is missing or is a symlink;
+- root `ARTICLE-META-MAP.md` is missing or is a symlink;
 - the meta-map lacks a plain Mermaid fence;
 - a registered article is absent from the meta-map marker set;
 - an article has no `architecture_map` artifact, has more than one, or points it anywhere except `articles/<id>/ARCHITECTURE.md`;
@@ -67,10 +67,10 @@ The validator does not attempt full Mermaid semantic parsing. Syntax rendering r
 
 ## Bootstrap state
 
-Because `joel-articles` currently has no registered article families, the repository meta-map will render a single `No registered articles yet` node and contain no article-id markers.
+Because `joel-articles` currently has no registered article families, the repository meta-map renders a single `No registered articles yet` node and contains no article-id markers.
 
-The live Romance map remains in private `pangram-humanization-lab` assembly work until Romance is formally imported into `joel-articles`. At import time it becomes `articles/romance/ARCHITECTURE.md` and Romance is added to the repository meta-map.
+The live Romance map remains in private `pangram-humanization-lab` assembly work until Romance is formally imported into `joel-articles`. At import time it becomes `articles/romance/ARCHITECTURE.md` and Romance is added to root `ARTICLE-META-MAP.md`.
 
 ## Privacy and authority
 
-The public `joel-articles` repository must not receive private article prose merely to satisfy the graph requirement. Article-local maps enter only with an owner-authorized article family. Until then, private working maps stay in the private working repository.
+The `joel-articles` repository must not receive private article prose merely to satisfy the graph requirement. Article-local maps enter only with an owner-authorized article family. Until then, private working maps stay in the private working repository.
