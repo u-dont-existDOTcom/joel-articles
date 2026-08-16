@@ -6,7 +6,7 @@ Status: **BLOCKED governance incubator.** No article is canonical in this reposi
 
 1. `../state/CODEX-CURRENT-STATE.md` — repository checkpoint and exact blockers
 2. `../articles/INDEX.json` — registered article packages and hashes; currently empty
-3. `../articles/ARTICLE-META-MAP.md` — repository-wide Mermaid index for article relationships, interlinks, and deduplication opportunities
+3. `../ARTICLE-META-MAP.md` — repository-wide Mermaid index for article relationships, interlinks, and deduplication opportunities
 4. `CONTENT-AUTHORITY-AND-IMPORT.md` — authority model and required per-article family
 5. `ARTICLE-ARCHITECTURE-MAPS.md` — required per-article Mermaid architecture maps plus meta-map update/validation contract
 6. `SUPPLIED-SOURCE-PACKET-MANIFEST.md` — external packet provenance and non-import status
