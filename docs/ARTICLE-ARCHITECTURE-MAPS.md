@@ -73,7 +73,7 @@ Before moving or deleting a passage, inspect the graph and identify where every 
 
 ## Repository article meta-map
 
-`articles/ARTICLE-META-MAP.md` is the canonical repository-wide visual map. It is a reserved physical repository file and exists even while the article registry is empty.
+Root `ARTICLE-META-MAP.md` is the canonical repository-wide visual map. It is a physical repository control file and exists even while the article registry is empty.
 
 Every registered article must appear exactly once via:
 
@@ -118,7 +118,7 @@ After any detector-driven edit that changes more than local wording:
 
 `scripts/validate_article_architecture_maps.py` fails closed when:
 
-- `articles/ARTICLE-META-MAP.md` is missing or symlinked;
+- root `ARTICLE-META-MAP.md` is missing or symlinked;
 - the meta-map lacks a plain `mermaid` fence;
 - a registered article is missing from the meta-map marker set;
 - a registered article lacks exactly one `architecture_map` artifact;
@@ -133,7 +133,7 @@ Every article creation/import task must, in the same change:
 
 1. create the article-local `ARCHITECTURE.md` from `templates/ARTICLE-ARCHITECTURE.md`;
 2. register its hash as the `architecture_map` artifact;
-3. add the article marker/node to `articles/ARTICLE-META-MAP.md`;
+3. add the article marker/node to root `ARTICLE-META-MAP.md`;
 4. add known cross-article relationships without inventing speculative links;
 5. run structural validation plus the ordinary article authority gates.
 
