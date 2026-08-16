@@ -37,9 +37,9 @@ Each imported article uses `articles/<article-id>/` and must register the follow
 | Publication exports | Article-local files plus registry entries | Exact hash, destination, source authority, and draft/published/superseded status |
 | Additional artifacts | Article-local files plus `additional_artifacts` registry entries | Exact hash and nonblank role for every approved supporting asset |
 
-The repository also maintains `articles/ARTICLE-META-MAP.md`, which must include every registered article and accepted cross-article relationships useful for interlinking, reading paths, or deduplication review. The meta-map is editorially maintained; keyword overlap alone does not create an edge.
+The repository also maintains root `ARTICLE-META-MAP.md`, which must include every registered article and accepted cross-article relationships useful for interlinking, reading paths, or deduplication review. The meta-map is editorially maintained; keyword overlap alone does not create an edge.
 
-The validator enforces structure, file presence, hashes, exact locked-passage presence, protected-function records, owner-review confirmation before owner-final/published status, article-state headings, internal/registry review-status parity, privacy boundaries, a reciprocal incubator/active status, complete article-family inventory, and export provenance. It rejects symlinks—including the canonical registry and reserved article policy—and detached top-level `sources/`, `evidence/`, `experiments/`, or `publish/` families so mutable authority cannot escape its article boundary. `scripts/validate_article_architecture_maps.py` separately enforces the required article-local map, canonical path/marker/plain Mermaid fence, repository meta-map, and meta-map membership. Human review still owns truth, meaning, whether graph arrows are semantically correct, article-wide architecture, citations, and publication readiness.
+The validator enforces structure, file presence, hashes, exact locked-passage presence, protected-function records, owner-review confirmation before owner-final/published status, article-state headings, internal/registry review-status parity, privacy boundaries, a reciprocal incubator/active status, complete article-family inventory, and export provenance. It rejects symlinks—including the canonical registry and reserved article policy—and detached top-level `sources/`, `evidence/`, `experiments/`, or `publish/` families so mutable authority cannot escape its article boundary. `scripts/validate_article_architecture_maps.py` separately enforces the required article-local map, canonical path/marker/plain Mermaid fence, root repository meta-map, and meta-map membership. Human review still owns truth, meaning, whether graph arrows are semantically correct, article-wide architecture, citations, and publication readiness.
 
 ## Lossless editing and reversible deletion
 
@@ -48,7 +48,7 @@ The validator enforces structure, file presence, hashes, exact locked-passage pr
 - A cut or consolidation is a proposed transformation, not silent cleanup. Record original text, proposed destination or semantic equivalent, and explicit owner approval when meaning is not exact.
 - Keep rejected cuts and unincorporated ideas outside the master but inside the article family, with status and provenance.
 - Re-run the article-wide architecture gate after every detector-driven edit. A detector-green candidate still fails if it loses meaning, agency, heading promise, live-question continuity, or a protected function.
-- Update `ARCHITECTURE.md` in the same change when detector repair or owner correction materially changes topology/function routing; update `ARTICLE-META-MAP.md` when cross-article interlink/dedup relationships materially change.
+- Update `ARCHITECTURE.md` in the same change when detector repair or owner correction materially changes topology/function routing; update root `ARTICLE-META-MAP.md` when cross-article interlink/dedup relationships materially change.
 - Update hashes only after the associated semantic and source review passes; never update the registry merely to silence a mismatch.
 
 ## Citation and evidence discipline
@@ -65,7 +65,7 @@ Publication tooling is destination-specific. When an owner-approved protocol nam
 2. Inventory every candidate and source file without changing prose.
 3. Resolve competing-master, privacy, licensing, and publication questions with the owner.
 4. Create the complete article family, including `ARCHITECTURE.md` from `templates/ARTICLE-ARCHITECTURE.md`; register every file (including supporting assets) and exact hashes.
-5. Add the article's marker/node to `articles/ARTICLE-META-MAP.md` and add only known, semantically justified cross-article relationships.
+5. Add the article's marker/node to root `ARTICLE-META-MAP.md` and add only known, semantically justified cross-article relationships.
 6. Set repository status to `active` and add the registry entry.
 7. Run repository gates, `scripts/validate_article_architecture_maps.py`, plus article-specific semantic, citation, link, detector, fidelity, and publication checks.
 8. Review unique-claim preservation and every deletion/relocation against the article map.
