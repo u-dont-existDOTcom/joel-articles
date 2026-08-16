@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any
 
 
-ARTICLE_META_MAP_PATH = "articles/ARTICLE-META-MAP.md"
+ARTICLE_META_MAP_PATH = "ARTICLE-META-MAP.md"
 ARCHITECTURE_ROLE = "architecture_map"
 PLAIN_MERMAID_FENCE = "```mermaid\n"
 
@@ -61,7 +61,7 @@ def _validate_meta_map(root: Path, articles: list[object]) -> list[dict[str, str
     if path.is_symlink():
         findings.append(
             _finding(
-                "index.reserved-symlink",
+                "index.meta-map.symlink",
                 ARTICLE_META_MAP_PATH,
                 "The repository article meta-map must be a physical repository file, not a symlink.",
             )
