@@ -58,22 +58,22 @@ class ArticleArchitectureMapValidationTests(unittest.TestCase):
 
     def test_meta_map_requires_plain_mermaid_fence(self) -> None:
         self.write_index([], status="governance_incubator")
-        self.write("articles/ARTICLE-META-MAP.md", "# Article meta-map\n\nNo graph yet.\n")
+        self.write("ARTICLE-META-MAP.md", "# Article meta-map\n\nNo graph yet.\n")
         self.assertIn("index.meta-map.invalid", self.codes(validate_architecture_maps(self.root)))
 
-    def test_meta_map_must_be_physical_reserved_file(self) -> None:
+    def test_meta_map_must_be_physical_file(self) -> None:
         self.write_index([], status="governance_incubator")
         self.write(
             "detached-meta.md",
             '# Article meta-map\n\n```mermaid\nflowchart LR\n    empty["No registered articles yet"]\n```\n',
         )
-        (self.root / "articles/ARTICLE-META-MAP.md").symlink_to("../detached-meta.md")
-        self.assertIn("index.reserved-symlink", self.codes(validate_architecture_maps(self.root)))
+        (self.root / "ARTICLE-META-MAP.md").symlink_to("detached-meta.md")
+        self.assertIn("index.meta-map.symlink", self.codes(validate_architecture_maps(self.root)))
 
     def test_registered_article_requires_architecture_map_artifact(self) -> None:
         self.write_index([self.incomplete_article()], status="active")
         self.write(
-            "articles/ARTICLE-META-MAP.md",
+            "ARTICLE-META-MAP.md",
             '# Article meta-map\n\n<!-- article-id: example -->\n\n```mermaid\nflowchart LR\n    example["Example"]\n```\n',
         )
         self.assertIn("article.architecture.missing", self.codes(validate_architecture_maps(self.root)))
@@ -91,7 +91,7 @@ class ArticleArchitectureMapValidationTests(unittest.TestCase):
         )
         self.write_index([article], status="active")
         self.write(
-            "articles/ARTICLE-META-MAP.md",
+            "ARTICLE-META-MAP.md",
             '# Article meta-map\n\n<!-- article-id: example -->\n\n```mermaid\nflowchart LR\n    example["Example"]\n```\n',
         )
         self.assertIn("article.architecture.path", self.codes(validate_architecture_maps(self.root)))
@@ -110,7 +110,7 @@ class ArticleArchitectureMapValidationTests(unittest.TestCase):
         )
         self.write_index([article], status="active")
         self.write(
-            "articles/ARTICLE-META-MAP.md",
+            "ARTICLE-META-MAP.md",
             '# Article meta-map\n\n<!-- article-id: example -->\n\n```mermaid\nflowchart LR\n    example["Example"]\n```\n',
         )
         codes = self.codes(validate_architecture_maps(self.root))
@@ -120,7 +120,7 @@ class ArticleArchitectureMapValidationTests(unittest.TestCase):
     def test_meta_map_must_include_every_registered_article(self) -> None:
         self.write_index([self.incomplete_article()], status="active")
         self.write(
-            "articles/ARTICLE-META-MAP.md",
+            "ARTICLE-META-MAP.md",
             '# Article meta-map\n\n```mermaid\nflowchart LR\n    empty["No registered articles yet"]\n```\n',
         )
         self.assertIn("index.meta-map.article-missing", self.codes(validate_architecture_maps(self.root)))
