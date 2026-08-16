@@ -27,5 +27,8 @@ jobs:
       - name: Validate article authority and repository truth
         run: python scripts/validate_content_repository.py --root .
 
+      - name: Validate article architecture maps
+        run: python scripts/validate_article_architecture_maps.py --root .
+
       - name: Audit Codex and GitHub policy
         run: python scripts/audit_codex_github.py --root . --fail-on error
