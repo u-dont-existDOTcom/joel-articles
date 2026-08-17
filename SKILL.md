@@ -17,7 +17,7 @@ This repository is currently a governance/skill home with no registered canonica
 
 At the start of substantial work read this file, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`, then load only the least additional task-relevant material.
 
-For Pangram/detector/humanization work also read `u-dont-existDOTcom/pangram-humanization-lab` fresh: `README.md`, current `state/WORKING-LESSONS.md`, the relevant case study, and newest relevant case/history. Do not substitute web search for private GitHub data and do not repeat paid detector work before checking durable cache/history.
+For Pangram/detector/humanization work also read `docs/HUMANIZATION-ARCHITECTURE-GATE.md`, `docs/IDIOLECT-PRESERVATION.md`, and `u-dont-existDOTcom/pangram-humanization-lab` fresh: `README.md`, current `state/LESSON-INDEX.md` read order, the relevant case study, and newest relevant case/history. When computational authorship or idiolect-retention evidence is involved, also read that repo's `docs/IDIOLECT-PRESERVATION-PROTOCOL.md`. Do not substitute web search for private GitHub data and do not repeat paid detector work before checking durable cache/history.
 
 ## Execution gate
 
@@ -63,6 +63,8 @@ Reuse good owner prose freely in real article work. In explicit model-generation
 
 Keep provenance distinctions explicit: owner-authored; natural owner rewrite/publication prose; detector-targeted owner edit/minimal pair; assistant-produced owner-accepted; owner-final scan/PDF; superseded assistant; synthetic probe. Owner acceptance, detector status, and natural authorship are different facts.
 
+For computational idiolect work, those provenance classes are also a contamination boundary. Do not silently train a natural-Joel reference profile on assistant-produced owner-accepted prose, detector-targeted minimal pairs, or synthetic probes. Keep register labels visible and follow `docs/IDIOLECT-PRESERVATION.md` plus the Pangram lab calibration protocol.
+
 Treat interviews and notes as source pools, not transcripts. Preserve raw answers in the appropriate ledger/bank. Reuse exact language only when owner-final/locked, a memory/quotation/formula/title, identity-bearing, semantically precise, or functionally superior. Give substantive unused answers an explicit disposition: use now, bank to a named destination, context/evidence only, or omit with reason.
 
 ## Cold audit
@@ -71,9 +73,13 @@ Never show Draft 0 by default. After drafting, audit the literal completed prose
 
 ## Detector boundary
 
-Coherence, fidelity, and article function come first. Pangram is secondary evidence, never authorship or quality authority. Preserve exact detector boundaries, text hashes, detector/version/date, repeats, nulls, and counterexamples. Test interactions rather than inferring magic words from one case. Short text is less reliable.
+Coherence, fidelity, article function, and named-author preservation come first. Pangram is secondary evidence, never authorship or quality authority. Preserve exact detector boundaries, text hashes, detector/version/date, repeats, nulls, and counterexamples. Test interactions rather than inferring magic words from one case. Short text is less reliable.
 
-A detector-green passage still fails when heading promise, paragraph jobs, live-question continuity, protected function, owner-realization placement, meaning, or agency fail. Re-run article-wide architecture checks after detector-driven changes when a registered article exists.
+For Joel-byline humanization, treat idiolect preservation as a separate axis from Pangram. Prefer the minimum rewrite dose that fixes the diagnosed problem; do not treat a `preserve voice` prompt as evidence; and do not accept a Pangram-green candidate that needlessly normalizes real Joel-specific language, rhythm, punctuation, register, or thought movement. Quantitative authorship evidence is a gate only after the Pangram lab's calibration requirements pass; until then apply the idiolect guard qualitatively.
+
+Use `IER` only for a valid corpus-level held-out attribution experiment. Do not rename a single-passage embedding similarity, classifier probability, or before/after score as IER.
+
+A detector-green passage still fails when heading promise, paragraph jobs, live-question continuity, protected function, owner-realization placement, meaning, agency, or idiolect preservation fail. Re-run article-wide architecture and idiolect checks after detector-driven changes when a registered article exists.
 
 ## Research-heavy work
 
@@ -91,7 +97,7 @@ Use `project-sources/INTERLINKING-AND-HTML-SOURCE.md`, `project-sources/CONFIRME
 
 ## GitHub durability
 
-After any substantive owner-final correction, accepted section, article authority/state change, promoted lesson, reusable task architecture, tooling repair, or durable detector finding, update the correct GitHub repository before calling the work durably complete. `joel-articles` holds editorial protocols, article authority/state, publishing tooling, and promoted article lessons. `pangram-humanization-lab` holds detector harnesses, raw/cached evidence, experiment histories, and detector research.
+After any substantive owner-final correction, accepted section, article authority/state change, promoted lesson, reusable task architecture, tooling repair, or durable detector finding, update the correct GitHub repository before calling the work durably complete. `joel-articles` holds editorial protocols, article authority/state, publishing tooling, and promoted article lessons. `pangram-humanization-lab` holds detector harnesses, raw/cached evidence, experiment histories, detector research, and computational idiolect research.
 
 Never commit secrets or API keys. Never overwrite current authority with a probe, synthetic experiment, or superseded candidate.
 
@@ -99,6 +105,6 @@ Preserve claims/certainty, exact memories/quotations, actors, chronology, causal
 
 ## Reporting
 
-After substantive passes report, as applicable: heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; largest remaining weakness; and next task.
+After substantive passes report, as applicable: heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect role/status; largest remaining weakness; and next task.
 
 Return complete paste-ready passages except when Joel asks for isolated fragments or the artifact is exceptionally long.
