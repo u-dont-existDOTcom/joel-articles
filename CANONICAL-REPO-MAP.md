@@ -69,11 +69,7 @@ authority.
 - `project-sources/interactive_review.py.txt`
 - `project-sources/review_interface_browser_test.py.txt`
 - `project-sources/review_interface_template.html.txt`
-
-The restored protocols also mention the optional `html_diff.py.txt` source.
-That source is not a member of the owner-supplied 40-file baseline and is not
-present elsewhere in this repository. Treat it as unresolved; do not invent or
-reconstruct it from prose descriptions.
+- `project-sources/html_diff.py.txt` — optional quick static diff only; never substitutes for the interactive review
 
 ### Substack and publishing
 
@@ -119,6 +115,10 @@ registry.
 The exact pre-cutover ChatGPT Project instruction block, exact ten Project Source files, source hashes, local migration ledger, and owner-final native-video correction are preserved under:
 
 `archive/chatgpt-project-retirement-2026-08-17/`
+
+The exact 4.11.1 forty-source historical baseline is preserved under:
+
+`archive/project-source-snapshots/4.11.1/`
 
 Those files are historical evidence only. Active work uses the root skill/map and current `project-sources/` files.
 
