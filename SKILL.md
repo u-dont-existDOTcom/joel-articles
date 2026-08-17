@@ -75,6 +75,16 @@ Coherence, fidelity, and article function come first. Pangram is secondary evide
 
 A detector-green passage still fails when heading promise, paragraph jobs, live-question continuity, protected function, owner-realization placement, meaning, or agency fail. Re-run article-wide architecture checks after detector-driven changes when a registered article exists.
 
+## Idiolect-preservation boundary
+
+For `D3` sectional reconstruction or `D4` article-wide rewriting, read and apply `project-sources/IDIOLECT-PRESERVATION-PROTOCOL.md`. Use the minimum necessary edit dose and keep semantic/editorial fidelity, exact-boundary detector status, and authorship-signal retention as three separate results.
+
+A preserve-voice prompt is an instruction, not evidence. Pangram Human does not prove Joel's recoverable idiolect survived, and a profile-similarity increase does not prove authorship, fidelity, or quality. Routine Joel-only comparison is a single-author retention proxy, not Idiolect Erasure Rate; true IER requires a closed-set multi-author benchmark with held-out originals and aligned rewrites.
+
+Use a held-out, genre-relevant corpus with explicit provenance and target voice. Do not impose an uncalibrated universal threshold. Never add errors, fake specificity, memories, catchphrases, unusual punctuation, slang, or corpus tics to improve similarity. When a substantial rewrite drifts, restore owner wording or thought routes, reduce the edit dose, move intact prose, or localize the repair before generating more.
+
+The measurement implementation and method limitations remain in `u-dont-existDOTcom/pangram-humanization-lab`; private profile text stays outside reports and outside Git unless Joel explicitly assigns a repository destination.
+
 ## Research-heavy work
 
 For research-heavy, investigative, contested, or high-stakes work, use `project-sources/ARGUMENT-AND-EVIDENCE-ARCHITECTURE.md`. Use `project-sources/ARGUMENT-LEDGER-QUICKSTART.md` only when its threshold is met. Prefer the least burdensome justified scope. Facts determine article architecture rather than serving as sentence-level decoration.
@@ -99,6 +109,6 @@ Preserve claims/certainty, exact memories/quotations, actors, chronology, causal
 
 ## Reporting
 
-After substantive passes report, as applicable: heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; largest remaining weakness; and next task.
+After substantive passes report, as applicable: heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect-retention role; largest remaining weakness; and next task.
 
 Return complete paste-ready passages except when Joel asks for isolated fragments or the artifact is exceptionally long.

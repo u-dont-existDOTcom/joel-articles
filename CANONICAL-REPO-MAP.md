@@ -33,9 +33,12 @@ routing aids; they do not establish article authority.
 - `project-sources/HUMANIZATION-AND-COHERENCE.md`
 - `project-sources/EDIT-CONTRACT-AND-LEDGERS.md`
 - `project-sources/FINGERPRINT-PASS.md`
+- `project-sources/IDIOLECT-PRESERVATION-PROTOCOL.md`
 - `project-sources/BANNED-PATTERNS.md`
 - the relevant current material in `u-dont-existDOTcom/pangram-humanization-lab`,
   following the fresh-read order in `SKILL.md`
+
+Use the idiolect protocol for substantial sectional reconstruction or article-wide rewriting. It adds authorship-signal retention as a separate axis; it never replaces semantic fidelity, architecture, owner authority, or Pangram's exact-boundary gate.
 
 ### Research-heavy or contested argument work
 
@@ -54,7 +57,7 @@ routing aids; they do not establish article authority.
 - `project-sources/tender-video-transcript.txt`
 
 Use corpus material by its documented provenance and function, never as factual
-authority.
+authority. For idiolect measurement, also enforce the corpus-authority, genre-match, holdout, contamination, and privacy rules in `project-sources/IDIOLECT-PRESERVATION-PROTOCOL.md`.
 
 ### Artifact families and review packages
 
@@ -129,4 +132,5 @@ Those files are historical evidence only. Active work uses the root skill/map an
 - Current `project-sources/` beats archived Project copies.
 - Repository governance beats remembered chat/process assumptions.
 - Pangram output never outranks article meaning, owner authority, or architecture.
+- Idiolect-retention output never proves authorship or authorizes changing owner-final prose.
 - If two plausible article masters compete and the registry does not resolve them, stop for an owner decision instead of merging by inference.
