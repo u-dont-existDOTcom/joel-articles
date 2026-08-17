@@ -30,12 +30,16 @@ routing aids; they do not establish article authority.
 
 ### P2S/P3/P4, detector repair, and humanization
 
+- `docs/HUMANIZATION-ARCHITECTURE-GATE.md`
+- `docs/IDIOLECT-PRESERVATION.md`
 - `project-sources/HUMANIZATION-AND-COHERENCE.md`
 - `project-sources/EDIT-CONTRACT-AND-LEDGERS.md`
 - `project-sources/FINGERPRINT-PASS.md`
 - `project-sources/BANNED-PATTERNS.md`
 - the relevant current material in `u-dont-existDOTcom/pangram-humanization-lab`,
-  following the fresh-read order in `SKILL.md`
+  following the fresh-read order in `SKILL.md`; when computational authorship or
+  idiolect retention is relevant, also read `docs/IDIOLECT-PRESERVATION-PROTOCOL.md`
+  there
 
 ### Research-heavy or contested argument work
 
@@ -54,7 +58,8 @@ routing aids; they do not establish article authority.
 - `project-sources/tender-video-transcript.txt`
 
 Use corpus material by its documented provenance and function, never as factual
-authority.
+authority. For computational idiolect work, follow `docs/IDIOLECT-PRESERVATION.md`:
+do not silently mix assistant-produced or detector-targeted material into a natural-owner reference profile.
 
 ### Artifact families and review packages
 
@@ -128,5 +133,6 @@ Those files are historical evidence only. Active work uses the root skill/map an
 - Registered article authority beats generic project protocols on article-specific state/content.
 - Current `project-sources/` beats archived Project copies.
 - Repository governance beats remembered chat/process assumptions.
-- Pangram output never outranks article meaning, owner authority, or architecture.
+- Pangram output never outranks article meaning, owner authority, architecture, or idiolect preservation.
+- A computational authorship score never outranks owner authority, meaning, or article function; it is a calibrated diagnostic only under the idiolect protocol.
 - If two plausible article masters compete and the registry does not resolve them, stop for an owner decision instead of merging by inference.
