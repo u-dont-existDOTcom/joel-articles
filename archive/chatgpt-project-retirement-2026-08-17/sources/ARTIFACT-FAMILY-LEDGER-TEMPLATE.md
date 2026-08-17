@@ -53,7 +53,7 @@ Use one ledger for an article and every related destination: archival HTML, tran
 | Changelog/README | project records |  | project state + delivery | package templates | portability | file audit |  |
 | Browser-test report | exact-file interaction report |  | packaged review/article | review_interface_browser_test.py | interface behavior | local/offline browser QA |  |
 | Package manifest/checksums | manifest + SHA256SUMS |  | staged family | review_package.py | integrity | clean-unzip verification |  |
-| Continuation handover | compact project state |  | entire family | handover fields in PROJECT_STATE.md | portability/authority | file/hash audit |  |
+| Continuation handover | compact project state |  | entire family | handover fields in PROJECT_STATE.md | portability | file/hash audit |  |
 | Section provenance | owner/assistant origin and approval states |  | current article | provenance ledger | authority/recheck | zero unqueued assistant sections |  |
 | Omission audit | cumulative moved/omitted/restored/owner-deleted items |  | source packet + revision history | omission ledger | preservation | unresolved assistant omissions resolved or accepted |  |
 | Assistant recheck queue | assistant-produced/owner-accepted sections |  | provenance ledger | full-context recheck | publication readiness | queue resolved before publication |  |
