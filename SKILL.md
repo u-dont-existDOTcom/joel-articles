@@ -35,6 +35,22 @@ Do not flatten strong claims merely because they are empirical or contestable. N
 
 Before sentences, privately identify heading promise, live pressure/question, reader stake, claim/certainty, motive/obligation, lived/intellectual route, actor/action/object, causality/chronology, source roles, strongest complication, governing movement, paragraph jobs, true stopping point, and exact language retained with reason. If inherited architecture is globally model-shaped, reconstruct it from the richest owner/source pool instead of polishing it.
 
+## Qualification, skepticism, and reader trust
+
+Use the **least qualification necessary** to avoid misinformation, material ambiguity, or a genuinely misleading implication. Do not drift into an adversarial/debunking voice merely because a claim is experiential, unusual, testimonial, empirical, or contestable.
+
+Assume readers are intelligent. Do not add skeptical aftercare explaining non-implications that a reasonable reader would not infer from the prose. If one sentence clearly attributes a laboratory result and the next clearly attributes a broader claim to a practitioner or testimonial source, do not insert an extra paragraph explaining that the first source did not prove the second claim unless the wording actually creates that confusion.
+
+When evidence limitations matter, state them precisely and economically: identify the source type, uncertainty, or missing generalizability once, then continue. Prefer formulations such as `Anami reports...`, `the public evidence here is primarily testimonial...`, `this study establishes X...`, or `I could not verify Y` over prosecutorial language that treats every unsupported extension as something to debunk. Research mode may be skeptical; Joel-byline prose should not sound like a hostile fact-check unless that is the article's actual function.
+
+Strong owner judgments may remain strong enough to be contestable. Qualification is for truth and clarity, not for making every sentence maximally defensible against every hypothetical objection.
+
+## Synthetic specificity and fake concreteness
+
+Never invent casual day-of-week or clock-time details merely to make prose sound human or concrete. In particular, do not add phrases such as `on Tuesday`, `last Tuesday`, `Tuesday afternoon`, or similar arbitrary calendar specificity unless the day is a real source-derived fact and materially relevant to the thought.
+
+Apply the same principle to other fake micro-details: humanization must come from real observation, memory, consequence, and thought movement—not fabricated scheduling, scenery, or incidental specificity. Preserve genuine source chronology exactly when it matters.
+
 ## Curious-reader and overcompletion rules
 
 Sentence by sentence ask what a genuinely curious reader wants to know next. The next sentence must answer, complicate, or naturally redirect that live curiosity. Touch base with what an ordinary person would feel, do, fear, hope for, or respond to.
