@@ -6,12 +6,12 @@ Updated: 2026-08-17
 
 - Recover the complete owner-supplied 4.11.1 Project Source baseline into
   GitHub without overwriting newer active sources or changing article
-  authority.
+  authority, then complete the ChatGPT Project-source cutover.
 
 ## Authority / baseline
 
 - Repository: `u-dont-existDOTcom/joel-articles`
-- Active branch: `migration/restore-4.11.1-project-sources-2026-08-17`
+- Default branch: `main`
 - Owner ZIP SHA-256:
   `c0b6b0ce4d95b303a00cc44d75fdf54e4433fa72e39e9e866c84b856fde965b1`.
 - Newer same-named Project/GitHub sources supersede their 4.11.1 copies.
@@ -34,32 +34,37 @@ Updated: 2026-08-17
   interlinking.
 - Recovered the optional `html_diff.py.txt` from Joel's File Library, added it
   to active `project-sources/`, and preserved the same Git blob under
-  `archive/project-source-snapshots/optional-maintenance/`. It was not one of
-  the owner-supplied 40 baseline files and therefore does not change the
-  `40 / 31 / 9` recovery counts.
-- Completed the repository-local reference scan. The final unresolved
-  repository-local source-reference count is **0**.
-- Before the optional-tool closeout, required repository gates passed: 84 unit
-  tests; content and architecture-map validators; repository audit with 0
-  errors/4 existing governance warnings; patch hygiene. Recovery/checksum/
-  protected-file checks and three supported tool self-tests also passed.
+  `archive/project-source-snapshots/optional-maintenance/`.
+- Completed the repository-local reference scan. Final unresolved
+  repository-local Project-source references: **0**.
+- Required repository gates passed: 84 unit tests; content and architecture-map
+  validators; repository audit with 0 errors/4 existing governance warnings;
+  patch hygiene; recovery/checksum/protected-file checks; supported tool
+  self-tests.
+- Exact-head GitHub Actions run for PR #11 passed all `content-integrity`
+  steps.
+- PR #11 merged successfully into `main` at
+  `eea01a44608fe39f7a472be2a5c7c7757dd22bad`.
 - The current ChatGPT Project still contains 10 sources; nothing was restored
   into the Project UI.
 
 ## Current checkpoint
 
-- Exact-byte baseline restoration is complete at `40 archived / 31 restored
-  active / 9 superseded archive-only`.
+- Project-source recovery and GitHub migration are **complete**.
+- Exact baseline accounting: `40 archived / 31 restored active / 9 superseded
+  archive-only`.
 - Optional referenced tool recovery: `html_diff.py.txt` restored active and
   archived separately.
 - Article registry/master authority changes: none.
-- Unresolved repository-local source references: **0**.
-- Current step: open the recovery PR, verify exact-head CI, and merge if green.
+- Unresolved Project-source references: **0**.
+- Current Project cleanup is safe: the remaining 10 Project Sources are now
+  redundant with GitHub authority/archive and may be removed from the ChatGPT
+  Project after replacing Project Instructions with the minimal GitHub loader.
 
 ## Remaining
 
-- Verify GitHub Actions on the exact current branch head and merge the recovery
-  PR if all required checks pass.
+- ChatGPT Project UI cleanup only: replace Project Instructions with the minimal
+  GitHub-canonical loader and remove the 10 redundant Project Source files.
 - Existing repository-governance follow-up remains separate: default-branch
   rules, hosted secret controls, and license posture.
 - Import one complete owner-authorized article family before substantive
@@ -84,17 +89,20 @@ Updated: 2026-08-17
 - Optional maintenance archive:
   `archive/project-source-snapshots/optional-maintenance/html_diff.py.txt`
 - Canonical loader: `CANONICAL-REPO-MAP.md`
+- Minimal Project instructions:
+  `archive/chatgpt-project-retirement-2026-08-17/MINIMAL-PROJECT-INSTRUCTIONS.md`
 - Article registry: `articles/INDEX.json`
 - Recovery CLI: `scripts/restore_project_sources_4_11_1.py`
+- Recovery merge: PR #11 / `eea01a44608fe39f7a472be2a5c7c7757dd22bad`.
 
 ## Next safe action
 
-- Verify the exact pushed branch head through a pull request and GitHub Actions.
-  Merge only if required checks are green.
+- Complete only the ChatGPT Project UI cleanup. No further source migration is
+  required unless Joel supplies a newer source that should supersede current
+  GitHub authority.
 
 ## Recovery rule
 
-After interruption, inspect the branch, snapshot manifest, audit, closeout, and
-CI before continuing. Preserve the nine current successors and empty article
-registry; do not repeat baseline restoration if the recovery CLI `--check`
-already passes.
+After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, this state file,
+and the article registry fresh. Do not repeat Project-source restoration; the
+recovery is complete and durable on `main`.
