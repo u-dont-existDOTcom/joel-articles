@@ -1,0 +1,237 @@
+#!/usr/bin/env python3
+'''Create an optional quick static diff between two HTML files.
+
+This is not the interactive review interface. For substantial revisions use
+interactive_review.py plus review_interface_template.html. Never overwrite a
+commentable side-by-side review with this output.
+
+Default output contains only changed passages. Added or rewritten wording is
+highlighted in yellow. Removed wording is collapsed inside <details>. The
+script writes a file only; it never opens or renders a preview.
+
+Usage:
+  python html_diff.py original.html revised.html --out changes.diff.html
+  python html_diff.py original.html revised.html --out changes.diff.html --origins origins.json
+  python html_diff.py original.html revised.html --out full.diff.html --full
+
+The optional origin file uses:
+  {"default":"unclassified—review before approval", "by_new_sha256":{"<normalized-text-sha256>":"Joel-supplied addition"}}
+'''
+from __future__ import annotations
+
+import argparse
+import difflib
+import html
+import hashlib
+import json
+import re
+from dataclasses import dataclass
+from pathlib import Path
+
+try:
+    from bs4 import BeautifulSoup  # type: ignore
+except Exception:  # pragma: no cover
+    BeautifulSoup = None
+
+BLOCK_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "blockquote", "pre", "figcaption"}
+ALLOWED_ORIGINS = {"source-derived consolidation", "Joel-supplied addition", "approved reviewer/source integration", "canon-fact insertion", "model-written explanation", "research correction", "unclassified—review before approval"}
+
+@dataclass
+class Block:
+    tag: str
+    text: str
+    heading: str
+
+
+def normalize(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def text_sha256(text: str) -> str:
+    return hashlib.sha256(normalize(text).encode("utf-8")).hexdigest()
+
+
+def load_origins(path: Path | None) -> dict:
+    if path is None:
+        return {"default": "unclassified—review before approval", "by_new_sha256": {}}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    default = data.get("default", "unclassified—review before approval")
+    mapping = data.get("by_new_sha256", {})
+    if default not in ALLOWED_ORIGINS:
+        raise ValueError(f"Invalid default origin: {default}")
+    if not isinstance(mapping, dict):
+        raise ValueError("by_new_sha256 must be an object")
+    bad = [value for value in mapping.values() if value not in ALLOWED_ORIGINS]
+    if bad:
+        raise ValueError(f"Invalid origin label(s): {bad}")
+    return {"default": default, "by_new_sha256": mapping}
+
+
+def extract_blocks(raw: str) -> list[Block]:
+    if BeautifulSoup is None:
+        # Conservative fallback: compare block-level tag contents as text.
+        pat = re.compile(r"<(h[1-6]|p|li|blockquote|pre|figcaption)\b[^>]*>(.*?)</\1>", re.I | re.S)
+        blocks: list[Block] = []
+        heading = ""
+        for tag, inner in pat.findall(raw):
+            text = normalize(re.sub(r"<[^>]+>", " ", html.unescape(inner)))
+            if not text:
+                continue
+            tag = tag.lower()
+            if tag.startswith("h"):
+                heading = text
+            blocks.append(Block(tag, text, heading))
+        return blocks
+
+    soup = BeautifulSoup(raw, "html.parser")
+    root = soup.find("article") or soup.find("main") or soup.body or soup
+    blocks = []
+    heading = ""
+    for node in root.find_all(BLOCK_TAGS):
+        # Avoid double-counting block tags nested inside another selected block.
+        if node.find_parent(BLOCK_TAGS):
+            continue
+        text = normalize(node.get_text(" ", strip=True))
+        if not text:
+            continue
+        tag = node.name.lower()
+        if tag.startswith("h"):
+            heading = text
+        blocks.append(Block(tag, text, heading))
+    return blocks
+
+
+def token_diff(old: str, new: str) -> str:
+    old_tokens = re.findall(r"\s+|[^\s]+", old)
+    new_tokens = re.findall(r"\s+|[^\s]+", new)
+    sm = difflib.SequenceMatcher(a=old_tokens, b=new_tokens, autojunk=False)
+    out: list[str] = []
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        chunk = "".join(new_tokens[j1:j2])
+        if not chunk:
+            continue
+        escaped = html.escape(chunk)
+        if op == "equal":
+            out.append(escaped)
+        else:
+            out.append(f"<mark>{escaped}</mark>")
+    return "".join(out) or "<mark></mark>"
+
+
+def block_html(block: Block, content: str, cls: str = "") -> str:
+    tag = block.tag if block.tag in BLOCK_TAGS else "p"
+    class_attr = f' class="{cls}"' if cls else ""
+    return f"<{tag}{class_attr}>{content}</{tag}>"
+
+
+def make_diff(old_blocks: list[Block], new_blocks: list[Block], full: bool, origins: dict) -> str:
+    old_keys = [b.text for b in old_blocks]
+    new_keys = [b.text for b in new_blocks]
+    sm = difflib.SequenceMatcher(a=old_keys, b=new_keys, autojunk=False)
+    sections: list[str] = []
+    change_no = 0
+
+    def add_change(old: Block | None, new: Block | None) -> None:
+        nonlocal change_no
+        change_no += 1
+        heading = (new.heading if new else "") or (old.heading if old else "") or "Unheaded passage"
+        new_sha = text_sha256(new.text) if new is not None else ""
+        origin = origins.get("by_new_sha256", {}).get(new_sha, origins.get("default", "unclassified—review before approval")) if new is not None else ""
+        sha_attr = f' data-new-sha256="{new_sha}"' if new_sha else ""
+        parts = [f'<section class="change"{sha_attr}><h2>Change {change_no}: {html.escape(heading)}</h2>']
+        if new is not None:
+            parts.append(f'<p class="origin"><strong>Origin:</strong> {html.escape(origin)}</p>')
+            if old is not None:
+                content = token_diff(old.text, new.text)
+            else:
+                content = f"<mark>{html.escape(new.text)}</mark>"
+            parts.append('<div class="revised"><h3>Added or rewritten</h3>')
+            parts.append(block_html(new, content))
+            parts.append('</div>')
+        if old is not None:
+            parts.append('<details class="removed"><summary>Removed wording</summary>')
+            parts.append(block_html(old, html.escape(old.text)))
+            parts.append('</details>')
+        parts.append('</section>')
+        sections.append("\n".join(parts))
+
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == "equal":
+            if full:
+                for b in new_blocks[j1:j2]:
+                    sections.append(f'<section class="unchanged">{block_html(b, html.escape(b.text))}</section>')
+            continue
+        if op == "replace":
+            old_slice = old_blocks[i1:i2]
+            new_slice = new_blocks[j1:j2]
+            n = max(len(old_slice), len(new_slice))
+            for k in range(n):
+                add_change(old_slice[k] if k < len(old_slice) else None,
+                           new_slice[k] if k < len(new_slice) else None)
+        elif op == "delete":
+            for b in old_blocks[i1:i2]:
+                add_change(b, None)
+        elif op == "insert":
+            for b in new_blocks[j1:j2]:
+                add_change(None, b)
+
+    if not sections:
+        sections.append('<p class="no-changes">No textual block changes detected.</p>')
+    return "\n".join(sections)
+
+
+def document(body: str, title: str) -> str:
+    return f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{html.escape(title)}</title>
+<style>
+:root {{ color-scheme: light; }}
+body {{ font-family: system-ui, sans-serif; line-height: 1.55; max-width: 920px; margin: 2rem auto; padding: 0 1rem; color: #222; }}
+header {{ border-bottom: 1px solid #ccc; margin-bottom: 2rem; }}
+.change {{ border-bottom: 1px solid #ddd; padding: 0 0 1.5rem; margin: 0 0 1.5rem; }}
+.change > h2 {{ font-size: 1rem; color: #555; }}
+.revised h3 {{ font-size: .9rem; text-transform: uppercase; letter-spacing: .04em; color: #555; }}
+.origin {{ font-size: .88rem; color: #555; margin: .2rem 0 .7rem; }}
+mark {{ background: #fff59d; color: inherit; padding: 0 .05em; }}
+details.removed {{ color: #777; margin-top: .75rem; }}
+details.removed > *:not(summary) {{ border-left: 3px solid #ccc; padding-left: 1rem; }}
+.unchanged {{ color: #444; }}
+.no-changes {{ font-weight: 600; }}
+</style>
+</head>
+<body>
+<header><h1>{html.escape(title)}</h1><p>Changed passages only unless generated with <code>--full</code>. Yellow marks added or rewritten wording; removed wording is collapsed.</p></header>
+{body}
+</body>
+</html>'''
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("original")
+    ap.add_argument("revised")
+    ap.add_argument("--out", required=True)
+    ap.add_argument("--full", action="store_true", help="Include unchanged passages in place")
+    ap.add_argument("--title", default="Article revision diff")
+    ap.add_argument("--origins", type=Path, help="JSON with default and by_new_sha256 origin labels")
+    args = ap.parse_args()
+
+    original = Path(args.original)
+    revised = Path(args.revised)
+    if not original.is_file() or not revised.is_file():
+        ap.error("Both input HTML files must exist")
+
+    old_blocks = extract_blocks(original.read_text(encoding="utf-8"))
+    new_blocks = extract_blocks(revised.read_text(encoding="utf-8"))
+    origins = load_origins(args.origins)
+    body = make_diff(old_blocks, new_blocks, args.full, origins)
+    out = Path(args.out)
+    out.write_text(document(body, args.title), encoding="utf-8")
+    print(f"Wrote {out} ({len(old_blocks)} old blocks, {len(new_blocks)} new blocks)")
+    return 0
+
+if __name__ == "__main__":
+    raise SystemExit(main())

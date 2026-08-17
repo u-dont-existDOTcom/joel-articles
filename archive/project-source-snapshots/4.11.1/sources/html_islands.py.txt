@@ -1,0 +1,517 @@
+#!/usr/bin/env python3
+"""Preserve raw HTML islands and inventory native publishing objects without serializing the document.
+
+Commands:
+  html_islands.py inventory source.html --out objects.json
+  html_islands.py freeze original.html --out editable.html --manifest islands.json
+  html_islands.py restore edited.html --out archival.html --manifest islands.json
+  html_islands.py verify archival.html --manifest islands.json
+
+`verify` proves source-level island fidelity only. It does not prove browser clipboard
+behavior, editor reconstruction, or destination success. Native objects receive a
+separate transfer strategy in the inventory and remain destination-untested until the
+actual publishing path has been checked.
+"""
+from __future__ import annotations
+
+import argparse
+import base64
+import hashlib
+import html as html_lib
+import json
+import re
+import sys
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Iterable
+
+MARKERS = (
+    "captioned-image-container",
+    "digest-post-embed",
+    "node-instagram",
+    "node-youtube",
+    "node-comment",
+    "substack-comment",
+    "class=\"comment",
+    "class='comment",
+    "buttoncreatebutton",
+    "subscribewidgettodom",
+    "subscription-widget-wrap-editor",
+    "%%share_url%%",
+    "%%checkout_url%%",
+    "paywall",
+    "data-attrs",
+    "data-component-name",
+)
+PROTECTED_TAGS = {"figure", "picture", "iframe", "video"}
+MEDIA_TRIGGER_TAGS = {"img", "source", "figure", "picture", "iframe", "video"}
+CONTAINER_TAGS = {
+    "figure", "div", "p", "section", "article", "aside", "blockquote", "li",
+    "table", "details",
+}
+VOID_TAGS = {
+    "area", "base", "br", "col", "embed", "hr", "img", "input", "link",
+    "meta", "param", "source", "track", "wbr",
+}
+PLACEHOLDER_RE = re.compile(r"<!--HVA_ISLAND_(\d{4})-->")
+HEADING_RE = re.compile(r"<(h[1-6])\b[^>]*>(.*?)</\1>", re.I | re.S)
+HREF_RE = re.compile(r"\bhref\s*=\s*([\"'])(.*?)\1", re.I | re.S)
+URL_RE = re.compile(r"https?://[^\s\"'<>]+", re.I)
+CLASS_RE = re.compile(r"\bclass\s*=\s*([\"'])(.*?)\1", re.I | re.S)
+
+
+@dataclass
+class TagToken:
+    start: int
+    end: int
+    raw: str
+    kind: str
+    name: str | None
+    self_closing: bool = False
+
+
+@dataclass
+class StackEntry:
+    name: str
+    start: int
+    raw: str
+    protected: bool = False
+
+
+def sha256(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def scan_tag_end(text: str, start: int) -> int:
+    if text.startswith("<!--", start):
+        end = text.find("-->", start + 4)
+        return len(text) if end < 0 else end + 3
+    if text.startswith("<![CDATA[", start):
+        end = text.find("]]>", start + 9)
+        return len(text) if end < 0 else end + 3
+    quote = None
+    i = start + 1
+    while i < len(text):
+        ch = text[i]
+        if quote:
+            if ch == quote:
+                quote = None
+        elif ch in ('"', "'"):
+            quote = ch
+        elif ch == ">":
+            return i + 1
+        i += 1
+    return len(text)
+
+
+def iter_tags(text: str) -> Iterable[TagToken]:
+    i = 0
+    while True:
+        i = text.find("<", i)
+        if i < 0:
+            return
+        end = scan_tag_end(text, i)
+        raw = text[i:end]
+        stripped = raw.lstrip()
+        if stripped.startswith("<!--") or stripped.startswith("<!") or stripped.startswith("<?"):
+            yield TagToken(i, end, raw, "other", None)
+            i = end
+            continue
+        m_end = re.match(r"<\s*/\s*([A-Za-z0-9:_-]+)", raw)
+        if m_end:
+            yield TagToken(i, end, raw, "end", m_end.group(1).lower())
+            i = end
+            continue
+        m_start = re.match(r"<\s*([A-Za-z0-9:_-]+)", raw)
+        if m_start:
+            name = m_start.group(1).lower()
+            self_closing = bool(re.search(r"/\s*>\s*$", raw)) or name in VOID_TAGS
+            yield TagToken(i, end, raw, "start", name, self_closing)
+        else:
+            yield TagToken(i, end, raw, "other", None)
+        i = end
+
+
+
+
+def class_tokens(raw_tag: str) -> set[str]:
+    match = CLASS_RE.search(raw_tag)
+    if not match:
+        return set()
+    return {token for token in re.split(r"\s+", match.group(2).strip()) if token}
+
+
+def element_inner_span(text: str, start_token: TagToken) -> tuple[int, int, int] | None:
+    """Return (inner_start, inner_end, outer_end) for a non-void start token."""
+    if start_token.kind != "start" or start_token.self_closing or not start_token.name:
+        return None
+    depth = 0
+    started = False
+    for token in iter_tags(text):
+        if token.start < start_token.start:
+            continue
+        if token.kind == "start" and token.name == start_token.name and not token.self_closing:
+            if token.start == start_token.start:
+                started = True
+                depth = 1
+                inner_start = token.end
+            elif started:
+                depth += 1
+        elif started and token.kind == "end" and token.name == start_token.name:
+            depth -= 1
+            if depth == 0:
+                return inner_start, token.start, token.end
+    return None
+
+
+def extract_editor_body(text: str) -> tuple[str, dict]:
+    """Extract raw editor-body contents without parsing/reserializing the document."""
+    body_candidate: TagToken | None = None
+    for token in iter_tags(text):
+        if token.kind != "start" or token.self_closing:
+            continue
+        if token.name == "div":
+            classes = class_tokens(token.raw)
+            if {"body", "markup"}.issubset(classes):
+                span = element_inner_span(text, token)
+                if span:
+                    inner_start, inner_end, outer_end = span
+                    return text[inner_start:inner_end], {
+                        "mode": "div.body.markup",
+                        "outer_start": token.start,
+                        "inner_start": inner_start,
+                        "inner_end": inner_end,
+                        "outer_end": outer_end,
+                    }
+        if token.name == "body" and body_candidate is None:
+            body_candidate = token
+    if body_candidate:
+        span = element_inner_span(text, body_candidate)
+        if span:
+            inner_start, inner_end, outer_end = span
+            return text[inner_start:inner_end], {
+                "mode": "body",
+                "outer_start": body_candidate.start,
+                "inner_start": inner_start,
+                "inner_end": inner_end,
+                "outer_end": outer_end,
+            }
+    return text, {"mode": "fragment", "outer_start": 0, "inner_start": 0, "inner_end": len(text), "outer_end": len(text)}
+
+
+def choose_root(stack: list[StackEntry], token: TagToken) -> StackEntry | None:
+    raw_lower = token.raw.lower()
+    direct = token.name in PROTECTED_TAGS or any(marker in raw_lower for marker in MARKERS)
+    if direct and not token.self_closing:
+        return stack[-1] if stack and stack[-1].start == token.start else None
+    if token.name in MEDIA_TRIGGER_TAGS or any(marker in raw_lower for marker in MARKERS):
+        for entry in reversed(stack):
+            if entry.name in CONTAINER_TAGS:
+                return entry
+    return None
+
+
+def find_protected_spans(text: str) -> list[tuple[int, int]]:
+    stack: list[StackEntry] = []
+    spans: list[tuple[int, int]] = []
+    for token in iter_tags(text):
+        if token.kind == "start":
+            if not token.self_closing:
+                stack.append(StackEntry(token.name or "", token.start, token.raw))
+            root = choose_root(stack, token)
+            if root is not None:
+                root.protected = True
+            elif token.self_closing and (token.name in MEDIA_TRIGGER_TAGS or any(m in token.raw.lower() for m in MARKERS)):
+                spans.append((token.start, token.end))
+        elif token.kind == "end" and token.name:
+            match_index = None
+            for idx in range(len(stack) - 1, -1, -1):
+                if stack[idx].name == token.name:
+                    match_index = idx
+                    break
+            if match_index is None:
+                continue
+            closing = stack[match_index:]
+            stack = stack[:match_index]
+            for entry in reversed(closing):
+                if entry.protected:
+                    spans.append((entry.start, token.end))
+    for entry in stack:
+        if entry.protected:
+            spans.append((entry.start, len(text)))
+    spans = sorted(set(spans))
+    merged: list[list[int]] = []
+    for start, end in spans:
+        if not merged or start > merged[-1][1]:
+            merged.append([start, end])
+        else:
+            merged[-1][1] = max(merged[-1][1], end)
+    return [(s, e) for s, e in merged]
+
+
+def plain_text(fragment: str) -> str:
+    fragment = re.sub(r"<script\b.*?</script>", " ", fragment, flags=re.I | re.S)
+    fragment = re.sub(r"<style\b.*?</style>", " ", fragment, flags=re.I | re.S)
+    fragment = re.sub(r"<[^>]+>", " ", fragment)
+    return re.sub(r"\s+", " ", html_lib.unescape(fragment)).strip()
+
+
+def heading_context(text: str, start: int, end: int) -> tuple[str | None, str | None]:
+    before = None
+    after = None
+    for m in HEADING_RE.finditer(text):
+        label = plain_text(m.group(2))
+        if m.end() <= start:
+            before = label
+        elif m.start() >= end:
+            after = label
+            break
+    return before, after
+
+
+def candidate_urls(raw: str) -> list[str]:
+    urls: list[str] = []
+    decoded = html_lib.unescape(raw)
+    for _, value in HREF_RE.findall(raw):
+        value = html_lib.unescape(value).strip()
+        if value.startswith("http://") or value.startswith("https://"):
+            value = value.rstrip(".,);]")
+            if value not in urls:
+                urls.append(value)
+    for value in URL_RE.findall(decoded):
+        value = value.rstrip(".,);]\"")
+        if value not in urls:
+            urls.append(value)
+    return urls
+
+
+def classify_object(raw: str) -> tuple[str, str]:
+    low = raw.lower()
+    paywall_markers = (
+        'data-component-name="paywall', "data-component-name='paywall",
+        'class="paywall', "class='paywall", 'subscription-paywall',
+        'node-paywall', 'paywall-marker', 'paywallbreak', 'paywall-break',
+    )
+    if any(marker in low for marker in paywall_markers):
+        return "paywall", "manual_native_if_present"
+    comment_markers = (
+        'data-component-name="comment', "data-component-name='comment",
+        'node-comment', 'substack-comment', 'class="comment ', "class='comment ",
+        'class="comment"', "class='comment'",
+    )
+    if any(marker in low for marker in comment_markers):
+        return "substack_comment_card", "canonical_url_in_payload"
+    if "digest-post-embed" in low:
+        return "digest_post_embed", "rich_html"
+    if 'buttoncreatebutton' in low or '%%share_url%%' in low:
+        return "share", "rich_html"
+    if 'subscribewidgettodom' in low or 'subscription-widget-wrap-editor' in low or '%%checkout_url%%' in low:
+        return "subscribe", "rich_html_candidate"
+    if "youtube.com" in low or "youtu.be" in low or "node-youtube" in low or "component-name=\"youtube" in low:
+        return "youtube", "rich_html"
+    if "captioned-image-container" in low or "<picture" in low or "<img" in low:
+        return "image", "rich_html"
+    if "node-instagram" in low or "instagram.com" in low:
+        return "instagram_embed", "unverified"
+    if "<video" in low:
+        return "native_video", "rich_html_candidate"
+    if "<iframe" in low:
+        return "iframe_embed", "unverified"
+    if "data-component-name" in low or "data-attrs" in low:
+        return "unknown_native_embed", "unverified"
+    return "media_object", "unverified"
+
+
+def heading_outline(text: str) -> dict:
+    items = []
+    warnings = []
+    previous = None
+    for order, match in enumerate(HEADING_RE.finditer(text), 1):
+        level = int(match.group(1)[1])
+        label = plain_text(match.group(2))
+        items.append({"order": order, "level": level, "text": label, "start": match.start(), "end": match.end()})
+        if previous is not None and level > previous + 1:
+            warnings.append(f"heading level jumps from h{previous} to h{level} at {label!r}")
+        previous = level
+    return {"items": items, "warnings": warnings}
+
+
+def inventory_data(text: str, source_name: str, source_sha: str) -> dict:
+    objects = []
+    for idx, (start, end) in enumerate(find_protected_spans(text), 1):
+        raw = text[start:end]
+        object_type, strategy = classify_object(raw)
+        before, after = heading_context(text, start, end)
+        urls = candidate_urls(raw)
+        comment_urls = [u for u in urls if "/comment/" in u or "/comments/" in u]
+        canonical = (comment_urls or urls or [None])[0] if object_type == "substack_comment_card" else None
+        objects.append({
+            "id": idx,
+            "type": object_type,
+            "source_order": idx,
+            "source_start": start,
+            "source_end": end,
+            "source_sha256": sha256(raw.encode("utf-8")),
+            "preceding_anchor": before,
+            "following_anchor": after,
+            "after_heading": before,
+            "before_heading": after,
+            "editorial_function": "",
+            "approved_destination": "source_position",
+            "candidate_urls": urls,
+            "canonical_url": canonical,
+            "archival_treatment": "preserve_exact_source_markup",
+            "transfer_treatment": strategy,
+            "transfer_strategy": strategy,
+            "destination_result": "untested",
+        })
+    outline = heading_outline(text)
+    return {
+        "format": "human-voice-semantic-object-inventory-v2",
+        "source_file": source_name,
+        "source_sha256": source_sha,
+        "object_count": len(objects),
+        "object_counts_by_type": {kind: sum(1 for obj in objects if obj["type"] == kind) for kind in sorted({obj["type"] for obj in objects})},
+        "objects": objects,
+        "heading_outline": outline,
+        "validation_scope": {
+            "source_fidelity": "not_yet_verified",
+            "transfer_conversion": "assigned_by_type_not_destination_proven",
+            "destination_result": "untested",
+        },
+    }
+
+
+def inventory(input_path: Path, out_path: Path) -> None:
+    raw_bytes = input_path.read_bytes()
+    text = raw_bytes.decode("utf-8")
+    data = inventory_data(text, input_path.name, sha256(raw_bytes))
+    out_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Inventoried {data['object_count']} semantic object(s) -> {out_path}")
+    print("Inventory assigns transfer strategies only; destination reconstruction remains untested.")
+
+
+def freeze(input_path: Path, out_path: Path, manifest_path: Path) -> None:
+    raw_bytes = input_path.read_bytes()
+    text = raw_bytes.decode("utf-8")
+    spans = find_protected_spans(text)
+    inv = inventory_data(text, input_path.name, sha256(raw_bytes))
+    items = []
+    chunks = []
+    cursor = 0
+    for idx, (start, end) in enumerate(spans, 1):
+        placeholder = f"<!--HVA_ISLAND_{idx:04d}-->"
+        chunks.append(text[cursor:start])
+        chunks.append(placeholder)
+        island_text = text[start:end]
+        island_bytes = island_text.encode("utf-8")
+        obj = inv["objects"][idx - 1]
+        items.append({
+            "id": idx,
+            "placeholder": placeholder,
+            "sha256": sha256(island_bytes),
+            "bytes_b64": base64.b64encode(island_bytes).decode("ascii"),
+            "original_start": start,
+            "original_end": end,
+            "type": obj["type"],
+            "transfer_strategy": obj["transfer_strategy"],
+            "destination_result": "untested",
+            "canonical_url": obj.get("canonical_url"),
+            "preceding_anchor": obj.get("preceding_anchor"),
+            "following_anchor": obj.get("following_anchor"),
+            "after_heading": obj.get("after_heading"),
+            "before_heading": obj.get("before_heading"),
+        })
+        cursor = end
+    chunks.append(text[cursor:])
+    out_path.write_text("".join(chunks), encoding="utf-8", newline="")
+    manifest = {
+        "format": "human-voice-html-islands-v2",
+        "source_file": input_path.name,
+        "source_sha256": sha256(raw_bytes),
+        "encoding": "utf-8",
+        "island_count": len(items),
+        "islands": items,
+        "validation_scope": {
+            "source_fidelity": "frozen_from_source",
+            "transfer_strategy": "assigned_by_type",
+            "destination_result": "untested",
+        },
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Frozen {len(items)} island(s) -> {out_path}")
+    print("This preserves source markup; it does not validate clipboard or destination behavior.")
+
+
+def load_manifest(path: Path) -> dict:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("format") not in {"human-voice-html-islands-v1", "human-voice-html-islands-v2"}:
+        raise ValueError("Unsupported manifest format")
+    return data
+
+
+def restore(input_path: Path, out_path: Path, manifest_path: Path) -> None:
+    text = input_path.read_text(encoding="utf-8")
+    manifest = load_manifest(manifest_path)
+    for item in manifest["islands"]:
+        placeholder = item["placeholder"]
+        count = text.count(placeholder)
+        if count != 1:
+            raise ValueError(f"Expected exactly one {placeholder}; found {count}")
+        raw = base64.b64decode(item["bytes_b64"]).decode("utf-8")
+        if sha256(raw.encode("utf-8")) != item["sha256"]:
+            raise ValueError(f"Manifest checksum failed for {placeholder}")
+        text = text.replace(placeholder, raw, 1)
+    out_path.write_text(text, encoding="utf-8", newline="")
+    print(f"Restored {manifest['island_count']} island(s) -> {out_path}")
+    print("Archival source markup restored; destination transfer remains unverified.")
+
+
+def verify(input_path: Path, manifest_path: Path) -> None:
+    text = input_path.read_text(encoding="utf-8")
+    manifest = load_manifest(manifest_path)
+    pos = 0
+    failures = []
+    for item in manifest["islands"]:
+        raw = base64.b64decode(item["bytes_b64"]).decode("utf-8")
+        found = text.find(raw, pos)
+        if found < 0:
+            failures.append(item["placeholder"])
+        else:
+            pos = found + len(raw)
+    if PLACEHOLDER_RE.search(text):
+        failures.append("unrestored placeholder(s)")
+    if failures:
+        print("Source-fidelity verification failed: " + ", ".join(failures), file=sys.stderr)
+        raise SystemExit(1)
+    print(f"Verified {manifest['island_count']} exact source island(s) in order.")
+    print("Scope: source fidelity only. Clipboard behavior and destination reconstruction are not proven.")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="command", required=True)
+    p = sub.add_parser("inventory")
+    p.add_argument("input", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    for cmd in ("freeze", "restore"):
+        p = sub.add_parser(cmd)
+        p.add_argument("input", type=Path)
+        p.add_argument("--out", type=Path, required=True)
+        p.add_argument("--manifest", type=Path, required=True)
+    p = sub.add_parser("verify")
+    p.add_argument("input", type=Path)
+    p.add_argument("--manifest", type=Path, required=True)
+    args = parser.parse_args()
+    if args.command == "inventory":
+        inventory(args.input, args.out)
+    elif args.command == "freeze":
+        freeze(args.input, args.out, args.manifest)
+    elif args.command == "restore":
+        restore(args.input, args.out, args.manifest)
+    else:
+        verify(args.input, args.manifest)
+
+
+if __name__ == "__main__":
+    main()

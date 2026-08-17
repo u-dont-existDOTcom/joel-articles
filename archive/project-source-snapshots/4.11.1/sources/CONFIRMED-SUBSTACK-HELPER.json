@@ -1,0 +1,92 @@
+{
+  "format": "joel-substack-helper-compat-v2",
+  "profile_name": "Opera local-file one-paste native-object helper",
+  "target_browser": "Opera",
+  "opening_context": "downloaded local HTML file opened directly",
+  "destination": "Substack editor",
+  "payload_mode": "single_rich_html",
+  "visible_steps": [
+    "Copy Article"
+  ],
+  "transfer_wrapper": {
+    "tag": "div",
+    "attributes": {
+      "dir": "auto",
+      "class": "body markup"
+    }
+  },
+  "editor_lock_removal": [
+    "contenteditable=false",
+    "draggable=true"
+  ],
+  "rich_html_copy": {
+    "primary": "navigator.clipboard.write with ClipboardItem invoked directly in the click handler",
+    "fallback": "document.execCommand copy using a temporary off-screen contenteditable element",
+    "fallback_visibility": "silent",
+    "pre_clipboard_async_work": "none"
+  },
+  "native_objects": {
+    "image": {
+      "strategy": "rich_html",
+      "status": "confirmed_path_retest_each_final",
+      "add_can_restack_if_missing": true
+    },
+    "digest_post_embed": {
+      "strategy": "rich_html",
+      "status": "confirmed_candidate_retest_each_final"
+    },
+    "youtube": {
+      "strategy": "rich_html",
+      "status": "confirmed_where_tested"
+    },
+    "native_video": {
+      "strategy": "rich_html",
+      "status": "confirmed_where_tested"
+    },
+    "share": {
+      "strategy": "rich_html",
+      "status": "destination_confirmed"
+    },
+    "subscribe": {
+      "strategy": "rich_html",
+      "status": "test_required"
+    },
+    "substack_comment_card": {
+      "strategy": "canonical_url_in_payload",
+      "status": "confirmed_strategy_retest_each_final"
+    },
+    "paywall": {
+      "strategy": "manual_native_if_present",
+      "status": "source_marker_required"
+    },
+    "instagram_embed": {
+      "strategy": "unverified",
+      "status": "unverified"
+    },
+    "iframe_embed": {
+      "strategy": "unverified",
+      "status": "unverified"
+    },
+    "unknown_native_embed": {
+      "strategy": "unverified",
+      "status": "unverified"
+    }
+  },
+  "visible_manual_fallback_ui": false,
+  "locked_invariants": [
+    "one visible Copy Article control",
+    "one complete rich-HTML payload unless a real destination test proves a split necessary",
+    "transfer wrapper is div dir=auto class=body markup",
+    "no visible manual fallback field",
+    "only contenteditable=false and draggable=true are removed from transferable native objects",
+    "ClipboardItem is invoked directly from the click handler with no pre-clipboard asynchronous work",
+    "silent off-screen-contenteditable execCommand fallback",
+    "rendered comment cards become canonical URLs in the same source positions",
+    "images, digest previews, YouTube/video, Share, and Subscribe remain rich HTML under their per-type status",
+    "manual paywall instruction appears only when a genuine raw-source marker exists",
+    "payload is rebuilt from the exact final archival editor body"
+  ],
+  "supersedes_profile": "Opera local-file comment-split helper",
+  "supersession_reason": "Joel's destination testing showed comment URL reconstruction can coexist with one complete rich-HTML payload; prior image/digest regressions came from changing the rich-copy path, not from the comment strategy.",
+  "last_destination_status": "The one-paste path and object-specific conversions are the current confirmed design; every regenerated final helper still requires a fresh Opera-to-Substack destination check."
+}

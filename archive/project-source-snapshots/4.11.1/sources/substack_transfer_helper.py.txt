@@ -1,0 +1,745 @@
+#!/usr/bin/env python3
+"""Build and regression-check a one-paste Substack transfer helper.
+
+The original raw editor HTML remains the archival authority. This tool extracts the
+editor body without parsing/reserializing the document, applies only the confirmed
+transfer conversions, wraps the result in ``<div dir="auto" class="body markup">``,
+and creates a local Opera helper with one immediate ClipboardItem operation plus a
+silent contenteditable ``execCommand('copy')`` fallback.
+
+Typical workflow:
+  python substack_transfer_helper.py init archival-final.html \
+    --plan transfer-plan.json --inventory objects.json \
+    --compat-profile CONFIRMED-SUBSTACK-HELPER.json
+
+  python substack_transfer_helper.py build archival-final.html \
+    --plan transfer-plan.json --compat-profile CONFIRMED-SUBSTACK-HELPER.json \
+    --out final-transfer-helper.html --report transfer-report.md \
+    [--against last-confirmed-helper.html]
+
+  python substack_transfer_helper.py verify archival-final.html \
+    --plan transfer-plan.json --compat-profile CONFIRMED-SUBSTACK-HELPER.json \
+    --helper final-transfer-helper.html \
+    [--against last-confirmed-helper.html] \
+    [--compat-report compatibility-regression.md]
+
+Static verification proves source identity and transfer conversion. It cannot prove
+Opera clipboard behavior or Substack reconstruction; those remain real-path tests.
+"""
+from __future__ import annotations
+
+import argparse
+import base64
+import html
+import json
+import re
+import sys
+from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from html_islands import (  # type: ignore
+    candidate_urls,
+    classify_object,
+    extract_editor_body,
+    find_protected_spans,
+    heading_context,
+    inventory_data,
+    sha256,
+)
+
+PLAN_FORMAT = "joel-substack-transfer-plan-v3"
+HELPER_FORMAT = "joel-substack-transfer-helper-v3"
+COMPAT_FORMAT = "joel-substack-helper-compat-v2"
+TRACKING_KEYS = {"fbclid", "gclid", "mc_cid", "mc_eid", "ref", "source"}
+ALLOWED_STRATEGIES = {
+    "rich_html",
+    "canonical_url_in_payload",
+    "manual_native_if_present",
+    "unverified",
+}
+
+
+def canonicalize_url(value: str) -> str:
+    value = html.unescape(value.strip())
+    parts = urlsplit(value)
+    scheme = parts.scheme.lower()
+    host = (parts.hostname or "").lower()
+    port = parts.port
+    if port and not ((scheme == "https" and port == 443) or (scheme == "http" and port == 80)):
+        host = f"{host}:{port}"
+    path = re.sub(r"/{2,}", "/", parts.path or "/")
+    if path != "/":
+        path = path.rstrip("/")
+    query_items = []
+    for key, item in parse_qsl(parts.query, keep_blank_values=True):
+        lowered = key.lower()
+        if lowered.startswith("utm_") or lowered in TRACKING_KEYS:
+            continue
+        query_items.append((key, item))
+    query_items.sort()
+    return urlunsplit((scheme, host, path, urlencode(query_items), ""))
+
+
+def load_compat(path: Path) -> dict:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("format") != COMPAT_FORMAT:
+        raise ValueError(f"Unsupported compatibility profile format: {data.get('format')!r}")
+    required = [
+        "target_browser",
+        "opening_context",
+        "visible_steps",
+        "transfer_wrapper",
+        "editor_lock_removal",
+        "rich_html_copy",
+        "native_objects",
+    ]
+    missing = [key for key in required if key not in data]
+    if missing:
+        raise ValueError("Compatibility profile missing: " + ", ".join(missing))
+    if data.get("payload_mode") != "single_rich_html":
+        raise ValueError("Current confirmed profile must use payload_mode=single_rich_html")
+    if data.get("visible_steps") != ["Copy Article"]:
+        raise ValueError("Current confirmed profile must expose only the Copy Article control")
+    wrapper = data.get("transfer_wrapper", {})
+    if wrapper.get("tag") != "div" or wrapper.get("attributes") != {"dir": "auto", "class": "body markup"}:
+        raise ValueError("Compatibility profile wrapper must be div dir=auto class=body markup")
+    if set(data.get("editor_lock_removal", [])) != {"contenteditable=false", "draggable=true"}:
+        raise ValueError("Compatibility profile may remove only the two confirmed editor locks")
+    return data
+
+
+def object_profile(compat: dict, object_type: str) -> dict:
+    value = compat.get("native_objects", {}).get(object_type)
+    if isinstance(value, dict):
+        strategy = value.get("strategy", "unverified")
+        if strategy not in ALLOWED_STRATEGIES:
+            raise ValueError(f"Invalid strategy for {object_type}: {strategy}")
+        return value
+    return {"strategy": "unverified", "status": "unverified"}
+
+
+def source_objects(body: str) -> list[dict]:
+    objects: list[dict] = []
+    for idx, (start, end) in enumerate(find_protected_spans(body), 1):
+        raw = body[start:end]
+        object_type, recommendation = classify_object(raw)
+        before, after = heading_context(body, start, end)
+        urls = candidate_urls(raw)
+        comment_urls = [u for u in urls if "/comment/" in u or "/comments/" in u]
+        canonical = (comment_urls or urls or [None])[0] if object_type == "substack_comment_card" else None
+        objects.append({
+            "id": idx,
+            "type": object_type,
+            "start": start,
+            "end": end,
+            "source_sha256": sha256(raw.encode("utf-8")),
+            "preceding_anchor": before,
+            "following_anchor": after,
+            "candidate_urls": urls,
+            "canonical_url": canonical,
+            "recommended_strategy": recommendation,
+        })
+    return objects
+
+
+def init_plan(source: Path, plan_path: Path, inventory_path: Path | None, compat_path: Path) -> None:
+    raw = source.read_bytes()
+    text = raw.decode("utf-8")
+    body, boundary = extract_editor_body(text)
+    objects = source_objects(body)
+    compat = load_compat(compat_path)
+    plan_objects = []
+    for obj in objects:
+        profile = object_profile(compat, obj["type"])
+        plan_objects.append({
+            "id": obj["id"],
+            "type": obj["type"],
+            "source_sha256": obj["source_sha256"],
+            "preceding_anchor": obj["preceding_anchor"],
+            "following_anchor": obj["following_anchor"],
+            "candidate_urls": obj["candidate_urls"],
+            "canonical_url": obj["canonical_url"],
+            "strategy": profile.get("strategy", "unverified"),
+            "profile_status": profile.get("status", "unverified"),
+            "add_can_restack_if_missing": bool(profile.get("add_can_restack_if_missing", False)),
+            "transfer_conversion_confirmed": profile.get("strategy") != "unverified",
+            "destination_result": "final_destination_retest_pending",
+            "test_notes": "Inherited from compatibility profile; verify this exact final helper in a disposable Substack draft.",
+        })
+    plan = {
+        "format": PLAN_FORMAT,
+        "source_file": source.name,
+        "source_sha256": sha256(raw),
+        "editor_body_sha256": sha256(body.encode("utf-8")),
+        "editor_body_boundary": boundary,
+        "destination": compat.get("destination", "Substack editor"),
+        "browser": compat["target_browser"],
+        "file_opening_path": compat["opening_context"],
+        "payload_mode": compat["payload_mode"],
+        "compatibility_profile_name": compat.get("profile_name", compat_path.name),
+        "compatibility_profile_sha256": sha256(compat_path.read_bytes()),
+        "objects": plan_objects,
+    }
+    plan_path.parent.mkdir(parents=True, exist_ok=True)
+    plan_path.write_text(json.dumps(plan, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    if inventory_path:
+        data = inventory_data(body, source.name + "#editor-body", sha256(body.encode("utf-8")))
+        data["archival_source_sha256"] = sha256(raw)
+        data["editor_body_boundary"] = boundary
+        inventory_path.parent.mkdir(parents=True, exist_ok=True)
+        inventory_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Initialized one-paste plan for {len(objects)} native object(s): {plan_path}")
+    print(f"Editor-body extraction: {boundary['mode']}")
+    print("Profile strategies are reusable; every final helper still requires an Opera-to-Substack destination retest.")
+
+
+def load_plan(path: Path) -> dict:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("format") != PLAN_FORMAT:
+        raise ValueError("Unsupported or superseded transfer plan format; rerun init")
+    return data
+
+
+def validate_plan(source: Path, plan: dict, compat_path: Path) -> tuple[str, str, dict, list[dict], list[dict], dict]:
+    raw = source.read_bytes()
+    source_hash = sha256(raw)
+    if source_hash != plan.get("source_sha256"):
+        raise ValueError("Plan source hash does not match the exact final archival HTML; rebuild plan/helper")
+    text = raw.decode("utf-8")
+    body, boundary = extract_editor_body(text)
+    body_hash = sha256(body.encode("utf-8"))
+    if body_hash != plan.get("editor_body_sha256"):
+        raise ValueError("Editor-body hash changed; rebuild plan/helper")
+    if boundary.get("mode") != plan.get("editor_body_boundary", {}).get("mode"):
+        raise ValueError("Editor-body extraction boundary changed; inspect source and rebuild")
+    compat = load_compat(compat_path)
+    if sha256(compat_path.read_bytes()) != plan.get("compatibility_profile_sha256"):
+        raise ValueError("Compatibility profile changed after plan creation; rerun init")
+    actual = source_objects(body)
+    planned = plan.get("objects", [])
+    if len(actual) != len(planned):
+        raise ValueError("Native-object count changed; rebuild plan/helper")
+    for obj, pobj in zip(actual, planned):
+        if obj["id"] != pobj.get("id") or obj["type"] != pobj.get("type") or obj["source_sha256"] != pobj.get("source_sha256"):
+            raise ValueError(f"Object {obj['id']} identity changed; rebuild plan/helper")
+        strategy = pobj.get("strategy")
+        if strategy not in ALLOWED_STRATEGIES:
+            raise ValueError(f"Object {obj['id']} has unsupported strategy: {strategy}")
+        profile = object_profile(compat, obj["type"])
+        if strategy != profile.get("strategy", "unverified"):
+            raise ValueError(f"Object {obj['id']} strategy conflicts with compatibility profile")
+        if strategy == "unverified":
+            raise ValueError(f"Object {obj['id']} ({obj['type']}) is unverified; isolate and destination-test it before final build")
+        if strategy == "canonical_url_in_payload":
+            url = str(pobj.get("canonical_url") or "").strip()
+            if not url:
+                raise ValueError(f"Object {obj['id']} requires a canonical comment URL from the raw source/editor")
+            candidates = [canonicalize_url(item) for item in obj.get("candidate_urls", [])]
+            if candidates and canonicalize_url(url) not in candidates:
+                raise ValueError(f"Object {obj['id']} canonical URL does not match a raw-source candidate")
+    return text, body, boundary, actual, planned, compat
+
+
+FALSE_ATTR_PATTERNS = (
+    re.compile(r"\s+contenteditable\s*=\s*(?:\"false\"|'false'|false)", re.I),
+    re.compile(r"\s+draggable\s*=\s*(?:\"true\"|'true'|true)", re.I),
+)
+
+
+def add_can_restack(raw: str) -> str:
+    opening = re.search(r"<([A-Za-z0-9:_-]+)\b[^>]*>", raw, re.S)
+    if not opening:
+        return raw
+    tag = opening.group(0)
+    class_match = re.search(r"\bclass\s*=\s*([\"'])(.*?)\1", tag, re.I | re.S)
+    if class_match:
+        classes = class_match.group(2).split()
+        if "can-restack" in classes:
+            return raw
+        replacement = class_match.group(0).replace(class_match.group(2), class_match.group(2).rstrip() + " can-restack")
+        new_tag = tag[:class_match.start()] + replacement + tag[class_match.end():]
+    else:
+        pos = tag.rfind(">")
+        new_tag = tag[:pos] + ' class="can-restack"' + tag[pos:]
+    return raw[:opening.start()] + new_tag + raw[opening.end():]
+
+
+def clean_native_object(raw: str, object_type: str, add_restack: bool) -> tuple[str, list[str]]:
+    transformed = raw
+    conversions: list[str] = []
+    for pattern, label in zip(FALSE_ATTR_PATTERNS, ("remove_contenteditable_false", "remove_draggable_true")):
+        transformed, count = pattern.subn("", transformed)
+        if count:
+            conversions.append(f"{label}:{count}")
+    if object_type == "image" and add_restack:
+        updated = add_can_restack(transformed)
+        if updated != transformed:
+            transformed = updated
+            conversions.append("add_can_restack")
+    return transformed, conversions
+
+
+def transform_body(body: str, actual: list[dict], planned: list[dict]) -> tuple[str, list[dict], list[dict]]:
+    chunks: list[str] = []
+    transformations: list[dict] = []
+    manual_steps: list[dict] = []
+    cursor = 0
+    for obj, pobj in zip(actual, planned):
+        chunks.append(body[cursor:obj["start"]])
+        raw = body[obj["start"]:obj["end"]]
+        strategy = pobj["strategy"]
+        if strategy == "rich_html":
+            converted, operations = clean_native_object(raw, obj["type"], bool(pobj.get("add_can_restack_if_missing")))
+            chunks.append(converted)
+            transformations.append({
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "strategy": strategy,
+                "source_start": obj["start"],
+                "source_end": obj["end"],
+                "source_sha256": obj["source_sha256"],
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "transfer_sha256": sha256(converted.encode("utf-8")),
+                "operations": operations,
+                "profile_status": pobj.get("profile_status"),
+            })
+        elif strategy == "canonical_url_in_payload":
+            url = str(pobj["canonical_url"]).strip()
+            replacement = f"<p>{html.escape(url)}</p>"
+            chunks.append(replacement)
+            transformations.append({
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "strategy": strategy,
+                "source_start": obj["start"],
+                "source_end": obj["end"],
+                "source_sha256": obj["source_sha256"],
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "transfer_sha256": sha256(replacement.encode("utf-8")),
+                "canonical_url": url,
+                "canonical_value": canonicalize_url(url),
+                "operations": ["replace_rendered_comment_with_canonical_url_paragraph"],
+                "profile_status": pobj.get("profile_status"),
+            })
+        elif strategy == "manual_native_if_present":
+            manual_steps.append({
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "instruction": "Insert or verify the native Substack paywall at this source position after pasting.",
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "source_sha256": obj["source_sha256"],
+            })
+            transformations.append({
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "strategy": strategy,
+                "source_start": obj["start"],
+                "source_end": obj["end"],
+                "source_sha256": obj["source_sha256"],
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "transfer_sha256": sha256(b""),
+                "operations": ["omit_nonportable_paywall_marker_and_record_manual_native_step"],
+                "profile_status": pobj.get("profile_status"),
+            })
+        else:
+            raise ValueError(f"Unhandled strategy {strategy} for object {obj['id']}")
+        cursor = obj["end"]
+    chunks.append(body[cursor:])
+    return "".join(chunks), transformations, manual_steps
+
+
+def wrap_payload(converted_body: str) -> str:
+    return '<div dir="auto" class="body markup">' + converted_body + "</div>"
+
+
+def b64(value: str) -> str:
+    return base64.b64encode(value.encode("utf-8")).decode("ascii")
+
+
+def plain_from_html(fragment: str) -> str:
+    fragment = re.sub(r"<script\b.*?</script>", " ", fragment, flags=re.I | re.S)
+    fragment = re.sub(r"<style\b.*?</style>", " ", fragment, flags=re.I | re.S)
+    fragment = re.sub(r"<[^>]+>", " ", fragment)
+    return re.sub(r"\s+", " ", html.unescape(fragment)).strip()
+
+
+def helper_document(manifest: dict) -> str:
+    data = json.dumps(manifest, ensure_ascii=False).replace("</", "<\\/")
+    paywall_html = ""
+    if manifest.get("manual_steps"):
+        items = []
+        for step in manifest["manual_steps"]:
+            before = html.escape(step.get("preceding_anchor") or "the preceding source anchor")
+            after = html.escape(step.get("following_anchor") or "the following source anchor")
+            items.append(f"<li>{html.escape(step['instruction'])} Place it between <strong>{before}</strong> and <strong>{after}</strong>.</li>")
+        paywall_html = '<section class="manual"><h2>Manual native step after paste</h2><ol>' + "".join(items) + "</ol></section>"
+    doc = '''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Substack transfer helper</title>
+<style>
+:root { color-scheme: light; }
+body { font-family: system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #222; }
+button { font: inherit; font-weight: 700; padding: .8rem 1.1rem; cursor: pointer; }
+.status { margin-left: .65rem; font-weight: 700; }
+.note, .manual { background: #f4f4f4; padding: .85rem 1rem; margin: 1rem 0; }
+code { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<h1>Substack transfer helper</h1>
+<p class="note">Copy the article, paste it once into a blank Substack draft, then verify every native object. “Copied” confirms only the clipboard operation.</p>
+<p><button id="copy-article">__BUTTON__</button><span id="status" class="status"></span></p>
+__PAYWALL__
+<p><small>Archival source SHA-256: <code>__SOURCE_HASH__</code><br>
+Editor body SHA-256: <code>__BODY_HASH__</code><br>
+Transfer payload SHA-256: <code>__PAYLOAD_HASH__</code><br>
+Confirmed path: __BROWSER__ · __OPEN_PATH__</small></p>
+<script id="hva-transfer-manifest" type="application/json">__MANIFEST__</script>
+<script>
+(() => {
+  const manifest = JSON.parse(document.getElementById('hva-transfer-manifest').textContent);
+  const button = document.getElementById('copy-article');
+  const status = document.getElementById('status');
+  const decode = value => new TextDecoder().decode(Uint8Array.from(atob(value), c => c.charCodeAt(0)));
+
+  function legacyCopyRich(rich) {
+    const holder = document.createElement('div');
+    holder.contentEditable = 'true';
+    holder.setAttribute('aria-hidden', 'true');
+    holder.style.position = 'fixed';
+    holder.style.left = '-100000px';
+    holder.style.top = '0';
+    holder.innerHTML = rich;
+    document.body.appendChild(holder);
+    const range = document.createRange();
+    range.selectNodeContents(holder);
+    const selection = getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    const ok = document.execCommand('copy');
+    selection.removeAllRanges();
+    holder.remove();
+    if (!ok) throw new Error('Legacy rich copy failed');
+  }
+
+  function copyRichImmediate(rich, plain) {
+    try {
+      if (!navigator.clipboard || !window.ClipboardItem) throw new Error('ClipboardItem unavailable');
+      const result = navigator.clipboard.write([new ClipboardItem({
+        'text/html': new Blob([rich], {type: 'text/html'}),
+        'text/plain': new Blob([plain], {type: 'text/plain'})
+      })]);
+      return Promise.resolve(result).catch(() => legacyCopyRich(rich));
+    } catch (error) {
+      legacyCopyRich(rich);
+      return Promise.resolve();
+    }
+  }
+
+  button.addEventListener('click', () => {
+    status.textContent = '';
+    const rich = decode(manifest.transfer_html_b64);
+    const plain = decode(manifest.transfer_text_b64);
+    copyRichImmediate(rich, plain)
+      .then(() => { status.textContent = 'Copied'; })
+      .catch(error => { status.textContent = 'Failed'; console.error(error); });
+  });
+})();
+</script>
+</body>
+</html>'''
+    return (doc.replace("__BUTTON__", html.escape(manifest["visible_steps"][0]))
+               .replace("__PAYWALL__", paywall_html)
+               .replace("__SOURCE_HASH__", html.escape(manifest["source_sha256"]))
+               .replace("__BODY_HASH__", html.escape(manifest["editor_body_sha256"]))
+               .replace("__PAYLOAD_HASH__", html.escape(manifest["transfer_payload_sha256"]))
+               .replace("__BROWSER__", html.escape(manifest["browser"]))
+               .replace("__OPEN_PATH__", html.escape(manifest["file_opening_path"]))
+               .replace("__MANIFEST__", data))
+
+
+def extract_manifest(helper: Path) -> dict:
+    raw = helper.read_text(encoding="utf-8")
+    match = re.search(r'<script id="hva-transfer-manifest" type="application/json">(.*?)</script>', raw, re.S)
+    if not match:
+        raise ValueError("Helper manifest not found")
+    return json.loads(match.group(1).replace("<\\/", "</"))
+
+
+def static_features(helper: Path) -> dict:
+    raw = helper.read_text(encoding="utf-8")
+    manifest = extract_manifest(helper)
+    pre_manifest = raw.split('<script id="hva-transfer-manifest"', 1)[0]
+    click_match = re.search(r"button\.addEventListener\('click'.*?\n  \}\);", raw, re.S)
+    click_code = click_match.group(0) if click_match else ""
+    return {
+        "format": manifest.get("format"),
+        "labels": manifest.get("visible_steps", []),
+        "payload_mode": manifest.get("payload_mode"),
+        "wrapper": manifest.get("transfer_wrapper"),
+        "source_sha256": manifest.get("source_sha256"),
+        "editor_body_sha256": manifest.get("editor_body_sha256"),
+        "payload_sha256": manifest.get("transfer_payload_sha256"),
+        "rich_primary": "navigator.clipboard.write([new ClipboardItem" in raw,
+        "rich_fallback": "holder.contentEditable = 'true'" in raw and "document.execCommand('copy')" in raw,
+        "await_in_click_path": "await " in click_code,
+        "visible_textarea": bool(re.search(r"<textarea\b", pre_manifest, re.I)),
+        "manual_fallback_words": bool(re.search(r"manual\s+(copy|fallback)", pre_manifest, re.I)),
+        "object_signatures": [
+            (item.get("type"), item.get("strategy"), item.get("source_sha256"), item.get("preceding_anchor"), item.get("following_anchor"))
+            for item in manifest.get("transformations", [])
+        ],
+        "manual_step_types": [item.get("type") for item in manifest.get("manual_steps", [])],
+    }
+
+
+def compatibility_rows(current: dict, previous: dict | None, compat: dict) -> list[tuple[str, str, str, str]]:
+    rows: list[tuple[str, str, str, str]] = []
+
+    def row(name: str, old, new, passed: bool) -> None:
+        rows.append((name, str(old), str(new), "pass" if passed else "FAIL"))
+
+    expected_labels = compat["visible_steps"]
+    expected_wrapper = compat["transfer_wrapper"]
+    row("Visible steps", (previous or {}).get("labels", expected_labels), current["labels"], current["labels"] == expected_labels)
+    row("Payload mode", (previous or {}).get("payload_mode", compat["payload_mode"]), current["payload_mode"], current["payload_mode"] == compat["payload_mode"])
+    row("Transfer wrapper", (previous or {}).get("wrapper", expected_wrapper), current["wrapper"], current["wrapper"] == expected_wrapper)
+    row("Immediate ClipboardItem path", (previous or {}).get("rich_primary", True), current["rich_primary"], current["rich_primary"])
+    row("Silent contenteditable fallback", (previous or {}).get("rich_fallback", True), current["rich_fallback"], current["rich_fallback"])
+    row("No await in click path", (previous or {}).get("await_in_click_path", False), current["await_in_click_path"], not current["await_in_click_path"])
+    row("No visible manual fallback UI", False, current["visible_textarea"] or current["manual_fallback_words"], not current["visible_textarea"] and not current["manual_fallback_words"])
+    if previous and previous.get("format") == HELPER_FORMAT:
+        old_sig = previous.get("object_signatures")
+        new_sig = current["object_signatures"]
+        if old_sig == new_sig:
+            rows.append(("Native-object identity/order/anchors", str(old_sig), str(new_sig), "pass"))
+        else:
+            rows.append(("Native-object identity/order/anchors", str(old_sig), str(new_sig), "review-source-change"))
+        old_steps = previous.get("manual_step_types")
+        new_steps = current["manual_step_types"]
+        if old_steps == new_steps:
+            rows.append(("Manual native step types", str(old_steps), str(new_steps), "pass"))
+        else:
+            rows.append(("Manual native step types", str(old_steps), str(new_steps), "review-source-change"))
+    return rows
+
+
+def verify_conversion(source: Path, plan_path: Path, compat_path: Path, manifest: dict) -> None:
+    plan = load_plan(plan_path)
+    _text, body, boundary, actual, planned, compat = validate_plan(source, plan, compat_path)
+    converted_body, transformations, manual_steps = transform_body(body, actual, planned)
+    payload = wrap_payload(converted_body)
+    if manifest.get("format") != HELPER_FORMAT:
+        raise ValueError("Unsupported helper format")
+    expected = {
+        "source_sha256": plan["source_sha256"],
+        "editor_body_sha256": plan["editor_body_sha256"],
+        "editor_body_boundary": boundary,
+        "payload_mode": "single_rich_html",
+        "transfer_wrapper": compat["transfer_wrapper"],
+        "visible_steps": compat["visible_steps"],
+        "transfer_payload_sha256": sha256(payload.encode("utf-8")),
+        "transformations": transformations,
+        "manual_steps": manual_steps,
+        "transfer_html_b64": b64(payload),
+        "transfer_text_b64": b64(plain_from_html(payload)),
+    }
+    for key, value in expected.items():
+        if manifest.get(key) != value:
+            raise ValueError(f"Helper manifest mismatch for {key}")
+
+    # Conversion-specific invariants.
+    if not payload.startswith('<div dir="auto" class="body markup">') or not payload.endswith("</div>"):
+        raise ValueError("Transfer payload wrapper is incorrect")
+    if re.search(r"\scontenteditable\s*=\s*['\"]false['\"]", payload, re.I):
+        raise ValueError("contenteditable=false remains in transfer payload")
+    if re.search(r"\sdraggable\s*=\s*['\"]true['\"]", payload, re.I):
+        raise ValueError("draggable=true remains in transfer payload")
+    for obj, pobj in zip(actual, planned):
+        if pobj["strategy"] == "canonical_url_in_payload":
+            raw = body[obj["start"]:obj["end"]]
+            if raw in payload:
+                raise ValueError("Rendered comment card leaked into transfer payload")
+            url = html.escape(str(pobj["canonical_url"]).strip())
+            if f"<p>{url}</p>" not in payload:
+                raise ValueError("Canonical comment URL paragraph is missing")
+    source_has_paywall = any(obj["type"] == "paywall" for obj in actual)
+    if bool(manual_steps) != source_has_paywall:
+        raise ValueError("Paywall manual-step presence does not match raw-source marker presence")
+
+
+def report_markdown(manifest: dict, rows: list[tuple[str, str, str, str]]) -> str:
+    lines = [
+        "# Substack Transfer Report",
+        "",
+        "## 1. Source fidelity",
+        "",
+        f"- Archival source: `{manifest['source_file']}`",
+        f"- Archival source SHA-256: `{manifest['source_sha256']}`",
+        f"- Editor-body extraction: `{manifest['editor_body_boundary']['mode']}`",
+        f"- Editor-body SHA-256: `{manifest['editor_body_sha256']}`",
+        "- Source objects remain governed by the archival HTML; this helper does not modify that file.",
+        "",
+        "## 2. Transfer conversion",
+        "",
+        f"- Payload mode: `{manifest['payload_mode']}`",
+        f"- Wrapper: `<div dir=\"auto\" class=\"body markup\">`",
+        f"- Transfer payload SHA-256: `{manifest['transfer_payload_sha256']}`",
+        "- Editor locks removed only inside transferable native objects.",
+        "- Rendered comments replaced by canonical URL paragraphs at the same source positions.",
+        "- No image-loading, timer, request, or other asynchronous step precedes clipboard access.",
+        "",
+        "| Order | Type | Strategy | Operations | Profile status | Destination result |",
+        "|---:|---|---|---|---|---|",
+    ]
+    for item in manifest.get("transformations", []):
+        lines.append(
+            f"| {item['object_id']} | {item['type']} | {item['strategy']} | "
+            f"{', '.join(item.get('operations', [])) or 'none'} | {item.get('profile_status','')} | pending final retest |"
+        )
+    if not manifest.get("transformations"):
+        lines.append("| — | no native object conversions | — | — | — | — |")
+    if manifest.get("manual_steps"):
+        lines += ["", "### Manual native paywall step"]
+        for step in manifest["manual_steps"]:
+            lines.append(f"- {step['instruction']} Between `{step.get('preceding_anchor') or 'preceding anchor unavailable'}` and `{step.get('following_anchor') or 'following anchor unavailable'}`.")
+    lines += [
+        "",
+        "## Compatibility regression",
+        "",
+        "| Invariant | Previous/profile | New build | Result |",
+        "|---|---|---|---|",
+    ]
+    for name, old, new, result in rows:
+        lines.append(f"| {name} | `{old}` | `{new}` | **{result}** |")
+    lines += [
+        "",
+        "## 3. Destination result",
+        "",
+        "- Status: **pending final Opera-to-Substack test**",
+        "- Open the downloaded helper directly in Opera, paste once into a disposable blank Substack draft, and verify images, digest previews, YouTube/video, Share, Subscribe, comment reconstruction, paywall placement, source order, captions, links, and atomic editing independently.",
+        "- A **Copied** status proves only that the clipboard operation completed.",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def build(source: Path, plan_path: Path, compat_path: Path, out: Path, report: Path, against: Path | None) -> None:
+    plan = load_plan(plan_path)
+    _text, body, boundary, actual, planned, compat = validate_plan(source, plan, compat_path)
+    if not actual:
+        raise ValueError("No native objects found; a transfer helper is not required by this workflow")
+    converted_body, transformations, manual_steps = transform_body(body, actual, planned)
+    payload = wrap_payload(converted_body)
+    manifest = {
+        "format": HELPER_FORMAT,
+        "source_file": source.name,
+        "source_sha256": plan["source_sha256"],
+        "editor_body_sha256": plan["editor_body_sha256"],
+        "editor_body_boundary": boundary,
+        "plan_sha256": sha256(plan_path.read_bytes()),
+        "compatibility_profile_name": compat.get("profile_name", compat_path.name),
+        "compatibility_profile_sha256": sha256(compat_path.read_bytes()),
+        "browser": plan["browser"],
+        "file_opening_path": plan["file_opening_path"],
+        "destination": plan.get("destination", "Substack editor"),
+        "payload_mode": compat["payload_mode"],
+        "visible_steps": compat["visible_steps"],
+        "transfer_wrapper": compat["transfer_wrapper"],
+        "transfer_payload_sha256": sha256(payload.encode("utf-8")),
+        "transfer_html_b64": b64(payload),
+        "transfer_text_b64": b64(plain_from_html(payload)),
+        "transformations": transformations,
+        "manual_steps": manual_steps,
+        "destination_status": "pending_final_opera_to_substack_retest",
+    }
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(helper_document(manifest), encoding="utf-8")
+    current = static_features(out)
+    previous = static_features(against) if against else None
+    rows = compatibility_rows(current, previous, compat)
+    failed = [row for row in rows if row[3] == "FAIL"]
+    verify_conversion(source, plan_path, compat_path, manifest)
+    report.parent.mkdir(parents=True, exist_ok=True)
+    report.write_text(report_markdown(manifest, rows), encoding="utf-8")
+    if failed:
+        raise ValueError("Compatibility regression: " + "; ".join(row[0] for row in failed))
+    print(f"Built one-paste helper: {out}")
+    print(f"Wrote transfer report: {report}")
+    print("Static source/conversion checks passed. Final Opera-to-Substack destination test remains pending.")
+
+
+def verify(source: Path, plan_path: Path, compat_path: Path, helper: Path, against: Path | None, compat_report: Path | None) -> None:
+    manifest = extract_manifest(helper)
+    verify_conversion(source, plan_path, compat_path, manifest)
+    compat = load_compat(compat_path)
+    current = static_features(helper)
+    previous = static_features(against) if against else None
+    rows = compatibility_rows(current, previous, compat)
+    failed = [row for row in rows if row[3] == "FAIL"]
+    if compat_report:
+        compat_report.parent.mkdir(parents=True, exist_ok=True)
+        compat_report.write_text(
+            "# Compatibility Regression Report\n\n"
+            "| Invariant | Previous/profile | New build | Result |\n"
+            "|---|---|---|---|\n"
+            + "\n".join(f"| {a} | `{b}` | `{c}` | **{d}** |" for a, b, c, d in rows)
+            + "\n\nDestination status: pending final Opera-to-Substack test.\n",
+            encoding="utf-8",
+        )
+    if failed:
+        raise ValueError("Compatibility regression: " + "; ".join(row[0] for row in failed))
+    print("Verified archival source identity, editor-body extraction, one-paste transfer conversion, and static compatibility invariants.")
+    print("Scope excludes real clipboard/editor reconstruction; run the final Opera-to-Substack destination test.")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    p = sub.add_parser("init")
+    p.add_argument("source", type=Path)
+    p.add_argument("--plan", type=Path, required=True)
+    p.add_argument("--inventory", type=Path)
+    p.add_argument("--compat-profile", type=Path, required=True)
+
+    p = sub.add_parser("build")
+    p.add_argument("source", type=Path)
+    p.add_argument("--plan", type=Path, required=True)
+    p.add_argument("--compat-profile", type=Path, required=True)
+    p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--report", type=Path, required=True)
+    p.add_argument("--against", type=Path)
+
+    p = sub.add_parser("verify")
+    p.add_argument("source", type=Path)
+    p.add_argument("--plan", type=Path, required=True)
+    p.add_argument("--compat-profile", type=Path, required=True)
+    p.add_argument("--helper", type=Path, required=True)
+    p.add_argument("--against", type=Path)
+    p.add_argument("--compat-report", type=Path)
+
+    args = parser.parse_args()
+    if args.command == "init":
+        init_plan(args.source, args.plan, args.inventory, args.compat_profile)
+    elif args.command == "build":
+        build(args.source, args.plan, args.compat_profile, args.out, args.report, args.against)
+    else:
+        verify(args.source, args.plan, args.compat_profile, args.helper, args.against, args.compat_report)
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except Exception as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        raise SystemExit(2)
