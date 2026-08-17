@@ -4,96 +4,53 @@ Updated: 2026-08-17
 
 ## Repository status
 
-This is the durable private architecture and recovery snapshot on branch:
-
-`artifact/love-honestly-card-game-v0.3.0`
-
-It is deliberately not merged into `joel-articles/main`, whose job is article governance. The complete project source and history are carried by the verified v0.3.0 Git bundle; this branch stores the architecture, disposition ledger, release identity, and recovery instructions.
+Durable private architecture/recovery snapshot: `artifact/love-honestly-card-game-v0.3.2`. The verified Git bundle remains the complete source-history carrier.
 
 ## Exact release boundary
 
-- Product version: `0.3.0`
-- Release commit: `66dba59994e3fe67f7158aac940015057c252aaa`
-- Annotated release tag: `v0.3.0`
-- Annotated tag object: `31241f3b91b1a316076003da4c5b7fa44de7ee1a`
-- Final release-bundle head: `4ab6fdf07351767807ba95bd60012f2303d742be`
-- Immediate predecessor tag: `v0.2.1`
-- Immediate predecessor commit: `7f56a441b1ccb61520711c67dbb2ae6d46098ceb`
-- Article Edition tag: `v0.1.0`
-- Canonical operational map: `ARCHITECTURE.md`
-- Card-function disposition ledger: `CARD-FUNCTION-MATRIX-v0.3.0.md`
-- Release manifest: `RELEASE-MANIFEST.md`
-- Fresh-conversation recovery packet: `FRESH-CONVERSATION-HANDOFF.md`
+- Product version: `0.3.2`
+- Release tag: `v0.3.2`
+- Release commit: `b76d18642df026c63fb75ccaa9d221d6b25cf165`
+- Annotated tag object: `59397ba3fd20fe8fe354f7d23e676b0ce15670d5`
+- Final bundle head: `22e306e9264f0957e69395dbb5e1d2a65561a2d8`
+- Predecessor: `v0.3.1` / `1f023dd8a2f48b01e01c1f80b8fee9c047c7964c`
 
 ## Product invariant
 
-A deep answer is testimony, not proof. Preserve:
+**Private answer formation → evidence basis → spoken primary/follow-up answers → two private judgments → overt ordinary-life experiment → scheduled reminder target → review whenever the pair chooses → private revisit → comparison without scoring.**
 
-**Talk → identify evidence basis → preserve two private judgments → test openly in ordinary life → revisit privately → compare without scoring.**
+A scheduled date is a reminder target, never an access lock.
 
-Do not revert to the v0.1 architecture or reduce the result to a compatibility score.
+## v0.3.2 correction
 
-## Completed in v0.3.0
+- Pending reviews surface on the welcome screen when a saved session is reopened.
+- Each shows `Scheduled for ...` plus upcoming/due/overdue timing.
+- Each exposes `Review now` before, on, or after its target date.
+- The Evidence map repeats the scheduled date and the same anytime-review rule.
+- Copied Evidence-map text retains the date.
+- Pending plans are surfaced chronologically.
 
-- Built a source-wide function matrix before editing; every supplied concept has an extend, add, replace, or omit disposition.
-- Revised `love-03`, `love-04`, `sex-02`, `polarity-01`, and `inner-child-03` instead of adding near-duplicates.
-- Added seven distinct cards: `love-aging-beauty`, `sex-affection-simmer`, `sex-barometer`, `sex-developed-compatibility`, `ordinary-listen-or-solve`, `polarity-insecurity-double-bind`, and `love-spiritual-practice`.
-- Added twelve unique `articleUpdateFunction` values and twelve card-specific reality experiments.
-- Added structured source metadata: `article-owner`, `doug-toft`, `kim-anami`, `buddhist-source`, and `relationship-research`.
-- Added a compact first-screen source disclosure without adding another external URL or automatic request.
-- Added optional, sensitive, low-weight Spiritual Practice; all optional categories begin disabled.
-- Preserved all v0.2.1 card IDs and storage schema v2 so old sessions hydrate against the expanded deck.
-- Preserved the v0.1.0 Article Edition byte-for-byte.
+## Preserved boundaries
 
-## New safety boundaries
+- Actual answers are spoken and never stored.
+- Epistemic labels are metadata, not answers.
+- Storage schema remains v2 and card IDs remain stable.
+- No compatibility score, secret tests, or due-date enforcement.
+- Anonymous safety exits remain anonymous.
+- Exact guide credit remains `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
+- No automatic external request.
 
-- Affection and flirtation create no obligation to touch, continue, have sex, reciprocate, become aroused, or produce an orgasm.
-- Sexual change is multicausal and not a diagnostic test.
-- A bodily response is not evidence that anyone should stay.
-- Listen-versus-solve does not reframe intimidation, false accusation, coercion, or retaliation as a style mismatch.
-- Female success and lower male income are not pathologized; the operative defect is money or competence becoming rank, humiliation, domination, or enforced shrinking.
-- Role-play remains chosen play; adult responsibility does not transfer.
-- Sex is not required for awakening, and intensity is not durable integration.
+## Verification
 
-## Storage and network boundary
+`npm run verify:release` passed 34/34 Node tests, standalone build verification, a future-dated review returning to welcome, exact scheduled-date notice, early `Review now`, normal/legacy/safety/storage/revisit flows, no-network monitoring, and screenshot capture. ZIP and Git-bundle verification passed; the bundle contains tags `v0.1.0` through `v0.3.2`.
 
-Allowed local records remain setup metadata, names, card IDs, evidence labels, classification labels, reality-step text/date/status, and per-person revisit labels.
+## Final source-carrier checksums
 
-Spoken answers, card prose, source metadata, and free-text responses are not serialized. There are no accounts, analytics, cloud records, remote scripts, stylesheets, or fonts. The exact Romance Guide link is the sole external URL and is contacted only by deliberate player navigation.
+- HTML: `2bcb59988438256330e7744d5d7027d40bda18dc372d06d94d51c854d9b03ef3`
+- ZIP: `db0293196f66deedcccbaefd665d13322a1b142e76fb1fbb538102c59c233400`
+- bundle: `b219e0fdfcda5a2722057d7ccc247f82a917b944350081b64510049899c4ba99`
+- scheduled-review screenshot: `2c732aa440c1132ec981df314c79debee32f38d4bc430e1398ce2375e11bd276`
 
-## Fresh release verification
+## Recovery
 
-The exact v0.3.0 release tree passed:
-
-```text
-npm run verify:release
-34/34 Node tests passed
-standalone build: 169,987 bytes
-normal browser flow: passed
-private safety-stop flow: passed
-anonymous not-safe flow: passed
-storage-boundary flow: passed
-two-person revisit flow: passed
-source disclosure and exact link: passed
-optional-topic defaults: passed
-no automatic external requests: passed
-welcome and comparison screenshots: passed
-git diff --check: passed
-ZIP integrity: passed
-Git bundle integrity and clone verification: passed
-v0.1.0, v0.2.0, v0.2.1, and v0.3.0 tag recovery: passed
-```
-
-## Recovery order
-
-1. Recover full source from `Love-Honestly-Card-Game-v0.3.0.bundle`.
-2. Verify it and the other artifacts against `Love-Honestly-v0.3.0-SHA256.txt`.
-3. Clone the bundle and confirm `v0.3.0^{}` resolves to `66dba59994e3fe67f7158aac940015057c252aaa` and the clone head is `4ab6fdf07351767807ba95bd60012f2303d742be`.
-4. Read the project `PRODUCT.md`, `DESIGN.md`, `surfaces/game.md`, `CURRENT-STATE.md`, and `README.md` in the bundle.
-5. Read the operational map, card-function matrix, article mapping, v0.3.0 specification, implementation plan, and release notes.
-6. Create an isolated branch before changing behavior.
-7. Update the Mermaid architecture and disposition ledger in the same commit as any consequential phase, safety exit, serialized record, category default, source boundary, or setup-to-revisit change.
-
-## Next safe action
-
-A future dedicated game repository should import the verified Git bundle and preserve all four tags. Do not reconstruct source bytes from this architecture summary when the complete bundle is available.
+Recover `Love-Honestly-Card-Game-v0.3.2.bundle`, verify against `Love-Honestly-v0.3.2-SHA256.txt`, confirm `main` = `22e306e9264f0957e69395dbb5e1d2a65561a2d8` and `v0.3.2^{}` = `b76d18642df026c63fb75ccaa9d221d6b25cf165`, then read the product/design/surface/current-state/game-flow/handoff files before editing. Do not add due-date enforcement unless the owner explicitly reverses this decision.
