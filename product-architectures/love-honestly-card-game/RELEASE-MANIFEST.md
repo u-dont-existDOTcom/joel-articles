@@ -1,53 +1,53 @@
-# Love, Honestly v0.2.1 Release Manifest
+# Love, Honestly v0.3.0 Release Manifest
 
 Release date: 2026-08-17
 
 ## Git identity
 
-- Release commit: `7f56a441b1ccb61520711c67dbb2ae6d46098ceb`
-- Annotated release tag: `v0.2.1`
-- Annotated tag object: `dc7219576cc44ee203e7c90585ad70ce83fe7a83`
-- Previous release tag: `v0.2.0`
-- Previous release commit: `e9e0b48f5b4f9f20a1cbf70389bbfe89b1acca39`
+- Release commit: `66dba59994e3fe67f7158aac940015057c252aaa`
+- Annotated release tag: `v0.3.0`
+- Annotated tag object: `31241f3b91b1a316076003da4c5b7fa44de7ee1a`
+- Release closeout head: `7e523e568fde8249645255f76fcbc7f54c976e54`
+- Previous release tag: `v0.2.1`
+- Previous release commit: `7f56a441b1ccb61520711c67dbb2ae6d46098ceb`
 - Article Edition tag: `v0.1.0`
-- Article Edition commit: `884c2b241428e25180ae76e9ed9b10671992fcfd`
 
 ## Downloadable artifacts
 
 ```text
-3c7016ef5eab39e4080c7c90acc41f2372fd9ae03b5818e104c2f7f201890c1c  Love-Honestly-Game-v0.2.1.html
-35c42e22f717d71917eee63c0ee10a6da1f10f2ddcdd2c848af396937842501c  Love-Honestly-Welcome-v0.2.1.png
-fb879bc78cb71ad01758f884037af10853bff4011e940e470c60d5d118f232d1  Love-Honestly-Comparison-v0.2.1.png
-fb879bc78cb71ad01758f884037af10853bff4011e940e470c60d5d118f232d1  Love-Honestly-Preview-v0.2.1.png
+7c7049812d60853c814d221335dd68467d5e6dceedbf332fe6e4d29398eaded1  Love-Honestly-Game-v0.3.0.html
+f431f9df8f96dbf3e89ce1a50f270b6697106b92290982b28a6e9704c41ee66b  Love-Honestly-Welcome-v0.3.0.png
+571f00dbd87e1d51e60d9727b9247d02a59c02e23ca032cbadefba0a7fb0b924  Love-Honestly-Comparison-v0.3.0.png
 588e5e22253daee2bc0d89935c6bfacb2cae84694a87c2d4df7f70e5e2320af0  Love-Honestly-Article-Edition-v0.1.0.html
-b01d6d5b97f9aff72b39b431bf341577f0a6575b25e779809f63eb82a23483be  Love-Honestly-Card-Game-v0.2.1.zip
-c2d9f14e6368fa1f4b17375f30ad576ce52ad11cf2b4ae0b2b1a8f5a5c33687d  Love-Honestly-Card-Game-v0.2.1.bundle
+ea84d786e596b1ce435167346e80be519d44209b27eaf767e0c108d63161141e  FRESH-CONVERSATION-HANDOFF-v0.3.0.md
+b0ec795e9c4bd8ba2b8437977dbeca61419ea6215a51cd49836c3c260a60b829  RELEASE-MANIFEST-v0.3.0.md
+c0081fe20099426e96feec67510ddf280574689428fc417648d5aebdf84fac72  Love-Honestly-Card-Game-v0.3.0.zip
+8d93dbadf51337fc66bba204de6854dd85f85c1432a8ac8c9fdc4fac8598763d  Love-Honestly-Card-Game-v0.3.0.bundle
 ```
 
-## Source-credit acceptance
+## Product acceptance
 
-The first screen contains the exact visible linked text:
-
-`Based on the U-Dont-Exist Romance Guide`
-
-with exact destination:
-
-`https://romance.u-dont-exist.com`
-
-The link is a user-initiated navigation exception. The release contains no remote scripts, stylesheets, fonts, analytics, accounts, or automatic network runtime dependencies.
+- 79 substantive cards, 8 rhythm cards, and 15 substantive categories.
+- Five overlapping cards revised and seven distinct cards added.
+- Twelve unique update functions and twelve explicit card-level experiments.
+- Exact first-screen linked text remains `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
+- Source disclosure credits Doug Toft, Kim Anami, and Buddhist/lived material as sources, not co-authors.
+- All optional categories, including Spiritual Practice, begin disabled.
+- All v0.2.1 card IDs and storage schema v2 remain stable.
+- Spoken answers, card prose, and source metadata remain outside local serialization.
+- The one guide link is user-initiated navigation; no automatic external runtime request occurs.
 
 ## Verification evidence
 
-- `npm run verify:release` passed with 24/24 Node tests.
-- Standalone build completed at 155,123 bytes.
-- Chromium DOM inspection confirmed the exact welcome attribution and href.
-- Normal, private safety-stop, anonymous not-safe, storage-boundary, two-person revisit, and demo/preview browser flows passed.
-- Source ZIP: `unzip -t` completed with no errors.
-- Git bundle: `git bundle verify` passed.
-- Bundle clone opened on branch `main` at exact release commit `7f56a441b1ccb61520711c67dbb2ae6d46098ceb`.
-- `v0.2.1^{}` resolved to the same release commit.
-- Bundle clone contained `v0.1.0`, `v0.2.0`, and `v0.2.1`.
-- Every downloadable artifact matched the SHA-256 manifest.
+- `npm run verify:release` passed with 34/34 Node tests.
+- Standalone build completed at 169,987 bytes.
+- Normal, private safety-stop, anonymous not-safe, storage-boundary, two-person revisit, source-disclosure, optional-topic, and demo/browser flows passed.
+- Browser request monitoring observed no automatic HTTP or HTTPS request.
+- Source ZIP passed `unzip -t`.
+- Git bundle passed `git bundle verify` and cloned successfully.
+- Bundle clone contained `v0.1.0`, `v0.2.0`, `v0.2.1`, and `v0.3.0`.
+- `v0.3.0^{}` resolved to exact release commit `66dba59994e3fe67f7158aac940015057c252aaa`.
+- Every downloadable artifact matched `Love-Honestly-v0.3.0-SHA256.txt`.
 
 ## Bundle authority
 
