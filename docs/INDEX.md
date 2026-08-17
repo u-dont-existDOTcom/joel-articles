@@ -15,6 +15,7 @@ Status: **BLOCKED governance incubator.** No article is canonical in this reposi
 ## General article protocols
 
 - `HUMANIZATION-ARCHITECTURE-GATE.md` — blocking article-wide architecture regression for humanization/detector work. Run before detector testing and after every detector-driven edit; 100% Human never overrides heading fit, paragraph jobs, live-question continuity, protected functions, owner-realization placement, or fidelity.
+- `IDIOLECT-PRESERVATION.md` — active named-byline guard against detector-driven or generic-polish erasure of Joel-specific authorship signal; enforces minimum transformation and provenance hygiene while keeping quantitative authorship scoring provisional until the Pangram lab calibration passes.
 - `ARTICLE-ARCHITECTURE-MAPS.md` — requires one living Mermaid section/function map per article plus the repository article meta-map. Use them to prevent placement drift, orphaned protected functions, stale owner-supersession routing, missed interlinks, and duplicate coverage.
 - `EDITORIAL-SCOPE-AND-PLACEMENT.md` — separates protected rhetorical function from placement, preserves owner-approved thought architecture from synthetic source prose, and prevents an editing/humanization pass from turning into unsolicited fact-checking.
 - `CODEX-GITHUB-COMPLIANCE-2026-08-14.md` — repository/hosted-control audit and exact blocked status
