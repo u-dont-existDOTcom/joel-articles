@@ -1,0 +1,428 @@
+#!/usr/bin/env python3
+"""Create/validate self-hosted HTML and scoped Ghost HTML-card fragments.
+
+Commands:
+  html_publish_modes.py self-host source.html --out standalone.html --title "..." \
+      --description "..." --canonical "https://example.com/page" [--content-selector article]
+  html_publish_modes.py validate-self-host standalone.html --previous-host substack.com --previous-host ghost.io
+
+  html_publish_modes.py ghost-card standalone.html --out ghost-card.html --root-id my-artifact-v1 \
+      [--content-selector main] [--full-width] [--hide-host-selector '.gh-article-header']
+  html_publish_modes.py validate-ghost ghost-card.html --root-id my-artifact-v1
+
+The Ghost adapter emits a fragment, not a document. It prefixes IDs/classes, scopes CSS,
+keeps only local inline scripts, and never opens or previews the result. Real Ghost upload
+and computed-style/screenshot inspection remain the destination test.
+"""
+from __future__ import annotations
+
+import argparse
+import html
+import re
+import sys
+from pathlib import Path
+from urllib.parse import urlsplit
+
+from bs4 import BeautifulSoup  # type: ignore
+import tinycss2  # type: ignore
+
+DEFAULT_REMOVE = [
+    ".comments", ".comment-section", ".recommendations", ".recommendation-section",
+    ".subscribe-widget", ".subscribe-footer", ".post-ufi", ".upload-bar", ".toolbar",
+    "[data-testid*='comment']", "[data-testid*='recommend']", "[data-testid*='subscribe']",
+    "[aria-label*='advertisement' i]", ".advertisement", ".ad-container",
+]
+URL_ATTRS = {"href", "src", "poster", "action", "data-src", "data-url"}
+REF_ATTRS = {"for", "aria-labelledby", "aria-describedby", "aria-controls", "headers"}
+
+
+def choose_content(soup: BeautifulSoup, selector: str | None):
+    if selector:
+        node = soup.select_one(selector)
+        if node is None:
+            raise ValueError(f"Content selector did not match: {selector}")
+        return node
+    return soup.find("article") or soup.find("main") or soup.body or soup
+
+
+def duplicates(values: list[str]) -> list[str]:
+    seen, dup = set(), []
+    for v in values:
+        if v in seen and v not in dup:
+            dup.append(v)
+        seen.add(v)
+    return dup
+
+
+def internal_anchor_errors(soup: BeautifulSoup) -> list[str]:
+    ids = {str(node.get("id")) for node in soup.find_all(id=True)}
+    errors = []
+    for a in soup.find_all(href=True):
+        href = str(a.get("href"))
+        if href.startswith("#") and len(href) > 1 and href[1:] not in ids:
+            errors.append(href)
+    return errors
+
+
+def host_matches(host: str, previous: str) -> bool:
+    host = host.lower().strip(".")
+    previous = previous.lower().strip(".")
+    return host == previous or host.endswith("." + previous)
+
+
+def all_urls(raw: str, soup: BeautifulSoup) -> list[str]:
+    urls: list[str] = []
+    for node in soup.find_all(True):
+        for attr in URL_ATTRS:
+            value = node.get(attr)
+            if isinstance(value, str) and value:
+                urls.append(value)
+        srcset = node.get("srcset")
+        if isinstance(srcset, str):
+            urls.extend(part.strip().split()[0] for part in srcset.split(",") if part.strip())
+    for value in re.findall(r"url\(\s*['\"]?([^)\'\"]+)", raw, flags=re.I):
+        urls.append(value)
+    return urls
+
+
+def self_host(args) -> None:
+    raw = args.source.read_text(encoding="utf-8")
+    soup = BeautifulSoup(raw, "html.parser")
+    source_content = choose_content(soup, args.content_selector)
+    content_soup = BeautifulSoup(str(source_content), "html.parser")
+    content = content_soup.find() or content_soup
+    for selector in DEFAULT_REMOVE + list(args.remove_selector or []):
+        for node in content.select(selector):
+            node.decompose()
+    for node in content.find_all(["script", "style", "link", "meta", "base", "title"]):
+        node.decompose()
+    author_css = args.author_style.read_text(encoding="utf-8") if args.author_style else ""
+    author_js = args.author_script.read_text(encoding="utf-8") if args.author_script else ""
+    css = f'''html {{ box-sizing: border-box; }}
+*, *::before, *::after {{ box-sizing: inherit; }}
+body {{ margin: 0; font-family: system-ui, sans-serif; line-height: 1.55; color: #222; background: #fff; }}
+main {{ width: min(100% - 2rem, 980px); margin: 0 auto; }}
+img, picture, video, iframe, svg, canvas {{ max-width: 100%; height: auto; }}
+@media (max-width: 720px) {{ main {{ width: min(100% - 1rem, 980px); }} }}
+@media print {{ nav, button, .no-print {{ display: none !important; }} body {{ color: #000; }} a {{ color: inherit; }} }}
+{author_css}'''
+    canonical = html.escape(args.canonical, quote=True)
+    inner = content.decode_contents() if hasattr(content, "decode_contents") else str(content)
+    script_block = f"<script>{author_js}</script>" if author_js else ""
+    document = f'''<!doctype html>
+<html lang="{html.escape(args.lang, quote=True)}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{html.escape(args.title)}</title>
+<meta name="description" content="{html.escape(args.description, quote=True)}">
+<link rel="canonical" href="{canonical}">
+<style>{css}</style>
+</head>
+<body>
+<main>{inner}</main>
+{script_block}
+</body>
+</html>'''
+    args.out.write_text(document, encoding="utf-8")
+    print(f"Wrote self-hosted standalone HTML: {args.out}")
+    print("Rehost assets and run validate-self-host with every previous host before publication.")
+
+
+def validate_self_host(args) -> int:
+    raw = args.source.read_text(encoding="utf-8")
+    soup = BeautifulSoup(raw, "html.parser")
+    errors, warnings = [], []
+    if soup.html is None or soup.head is None or soup.body is None:
+        errors.append("standalone document must contain html/head/body")
+    title = soup.title.get_text(strip=True) if soup.title else ""
+    if not title:
+        errors.append("missing replacement title")
+    if not soup.find("meta", attrs={"name": "description"}):
+        errors.append("missing replacement meta description")
+    canonical = soup.find("link", rel=lambda v: v and "canonical" in v)
+    if canonical is None or not canonical.get("href"):
+        errors.append("missing replacement canonical URL")
+    ids = [str(n.get("id")) for n in soup.find_all(id=True)]
+    for value in duplicates(ids):
+        errors.append(f"duplicate id: {value}")
+    for href in internal_anchor_errors(soup):
+        errors.append(f"unresolved internal anchor: {href}")
+    for url in all_urls(raw, soup):
+        host = urlsplit(url).hostname or ""
+        if host and any(host_matches(host, p) for p in args.previous_host):
+            errors.append(f"previous-host dependency remains: {url}")
+    lower = raw.lower()
+    for pattern in ("comments", "recommendations", "upload-bar", "subscribe-widget", "advertisement"):
+        if pattern in lower:
+            warnings.append(f"possible provider chrome token remains: {pattern}")
+    if "@media" not in lower or "max-width" not in lower:
+        errors.append("no responsive/mobile CSS media rule found")
+    if "@media print" not in re.sub(r"\s+", " ", lower):
+        errors.append("no print CSS rule found")
+    for item in errors:
+        print("ERROR:", item, file=sys.stderr)
+    for item in warnings:
+        print("WARNING:", item)
+    if errors:
+        return 1
+    print("Self-host validation passed: metadata, unique IDs, internal anchors, previous-host dependencies, mobile, and print checks.")
+    return 0
+
+
+def slug(value: str) -> str:
+    value = re.sub(r"[^a-zA-Z0-9_-]+", "-", value).strip("-").lower()
+    if not value:
+        raise ValueError("root id must contain a letter or number")
+    return value
+
+
+def split_top_level_commas(selector: str) -> list[str]:
+    parts, start, depth, quote, esc = [], 0, 0, None, False
+    for i, ch in enumerate(selector):
+        if esc:
+            esc = False
+            continue
+        if ch == "\\":
+            esc = True
+            continue
+        if quote:
+            if ch == quote:
+                quote = None
+            continue
+        if ch in "'\"":
+            quote = ch
+            continue
+        if ch in "([":
+            depth += 1
+        elif ch in ")]":
+            depth = max(0, depth - 1)
+        elif ch == "," and depth == 0:
+            parts.append(selector[start:i].strip())
+            start = i + 1
+    parts.append(selector[start:].strip())
+    return [p for p in parts if p]
+
+
+def map_selector(selector: str, root: str, class_map: dict[str, str], id_map: dict[str, str]) -> str:
+    for old, new in sorted(class_map.items(), key=lambda kv: -len(kv[0])):
+        selector = re.sub(rf"(?<![\w-])\.{re.escape(old)}(?![\w-])", "." + new, selector)
+    for old, new in sorted(id_map.items(), key=lambda kv: -len(kv[0])):
+        selector = re.sub(rf"(?<![\w-])#{re.escape(old)}(?![\w-])", "#" + new, selector)
+    selector = re.sub(r"(^|\s)(html|body|:root)(?=\s|>|\+|~|$)", r"\1", selector, flags=re.I)
+    selector = re.sub(r"\s+", " ", selector).strip()
+    if selector.startswith(root) or selector.startswith(f"body:has({root})"):
+        return selector
+    if not selector or selector == "*":
+        return root if not selector else f"{root} *"
+    return f"{root} {selector}"
+
+
+def scope_css(css: str, root_id: str, class_map: dict[str, str], id_map: dict[str, str]) -> str:
+    root = f"#{root_id}"
+    rules = tinycss2.parse_stylesheet(css, skip_whitespace=True, skip_comments=False)
+
+    def render_rule(rule) -> str:
+        if rule.type == "comment":
+            return f"/*{rule.value}*/"
+        if rule.type == "qualified-rule":
+            selector = tinycss2.serialize(rule.prelude).strip()
+            scoped = ", ".join(map_selector(s, root, class_map, id_map) for s in split_top_level_commas(selector))
+            return scoped + "{" + tinycss2.serialize(rule.content) + "}"
+        if rule.type == "at-rule":
+            name = rule.lower_at_keyword
+            prelude = tinycss2.serialize(rule.prelude)
+            if rule.content is None:
+                return f"@{rule.at_keyword}{prelude};"
+            if name in {"media", "supports", "layer", "container"}:
+                nested = tinycss2.parse_rule_list(rule.content, skip_whitespace=True, skip_comments=False)
+                return f"@{rule.at_keyword}{prelude}" + "{" + "".join(render_rule(r) for r in nested) + "}"
+            return f"@{rule.at_keyword}{prelude}" + "{" + tinycss2.serialize(rule.content) + "}"
+        return tinycss2.serialize([rule])
+    return "\n".join(render_rule(r) for r in rules)
+
+
+def rewrite_script(script: str, class_map: dict[str, str], id_map: dict[str, str]) -> str:
+    for old, new in sorted(id_map.items(), key=lambda kv: -len(kv[0])):
+        script = script.replace(f"#{old}", f"#{new}").replace(f"'{old}'", f"'{new}'").replace(f'"{old}"', f'"{new}"')
+    for old, new in sorted(class_map.items(), key=lambda kv: -len(kv[0])):
+        script = script.replace(f".{old}", f".{new}")
+    return script
+
+
+def ghost_card(args) -> None:
+    raw = args.source.read_text(encoding="utf-8")
+    soup = BeautifulSoup(raw, "html.parser")
+    source = choose_content(soup, args.content_selector)
+    content_soup = BeautifulSoup(str(source), "html.parser")
+    content = content_soup.find() or content_soup
+    for node in content.find_all(["meta", "link", "base", "title"]):
+        node.decompose()
+    styles = "\n".join(node.get_text() for node in soup.find_all("style"))
+    local_scripts = []
+    if args.keep_scripts:
+        for node in soup.find_all("script"):
+            if not node.get("src") and node.get_text(strip=True):
+                local_scripts.append(node.get_text())
+    for node in content.find_all(["style", "script"]):
+        node.decompose()
+    original_ids = [str(n.get("id")) for n in content.find_all(id=True)]
+    dup = duplicates(original_ids)
+    if dup:
+        raise ValueError("Source contains duplicate IDs: " + ", ".join(dup))
+    root_id = slug(args.root_id)
+    prefix = root_id + "--"
+    id_map = {old: prefix + old for old in original_ids}
+    classes = sorted({str(c) for n in content.find_all(class_=True) for c in (n.get("class") or [])})
+    class_map = {old: prefix + old for old in classes}
+    for node in content.find_all(True):
+        old_id = str(node.get("id")) if node.get("id") else None
+        if old_id and old_id in id_map:
+            node["id"] = id_map[old_id]
+        if node.get("class"):
+            node["class"] = [class_map[str(c)] for c in node.get("class")]
+        href = node.get("href")
+        if isinstance(href, str) and href.startswith("#") and href[1:] in id_map:
+            node["href"] = "#" + id_map[href[1:]]
+        for attr in REF_ATTRS:
+            value = node.get(attr)
+            if isinstance(value, str):
+                node[attr] = " ".join(id_map.get(token, token) for token in value.split())
+    scoped_css = scope_css(styles, root_id, class_map, id_map) if styles.strip() else ""
+    base_css = [
+        f"#{root_id} {{ box-sizing: border-box; max-width: 100%; }}",
+        f"#{root_id}, #{root_id} * {{ box-sizing: border-box; }}",
+        f"#{root_id} img, #{root_id} picture, #{root_id} video, #{root_id} iframe, #{root_id} svg, #{root_id} canvas {{ max-width: 100%; height: auto; }}",
+    ]
+    if args.full_width:
+        base_css.append(f"#{root_id}.hva-ghost-fullwidth {{ width: min(calc(100vw - 32px), {args.max_width_px}px); max-width: none; margin-left: 50%; transform: translateX(-50%); }}")
+        base_css.append(f"@media (max-width: 720px) {{ #{root_id}.hva-ghost-fullwidth {{ width: calc(100vw - 16px); }} }}")
+    if args.nav_font_size_px:
+        base_css.append(f"#{root_id} [data-embed-nav], #{root_id} [data-embed-nav] * {{ font-size: {args.nav_font_size_px}px !important; }}")
+    for selector in args.hide_host_selector or []:
+        base_css.append(f"body:has(#{root_id}) {selector} {{ display: none !important; }}")
+    root_classes = ["hva-ghost-card"] + (["hva-ghost-fullwidth"] if args.full_width else [])
+    scripts = "\n".join(rewrite_script(s, class_map, id_map) for s in local_scripts)
+    inner = content.decode_contents() if hasattr(content, "decode_contents") else str(content)
+    script_block = f"<script>\n{scripts}\n</script>" if scripts else ""
+    fragment = f'''<style>
+{chr(10).join(base_css)}
+{scoped_css}
+</style>
+<div id="{root_id}" class="{' '.join(root_classes)}">
+{inner}
+</div>
+{script_block}'''
+    args.out.write_text(fragment, encoding="utf-8")
+    print(f"Wrote scoped Ghost HTML-card fragment: {args.out}")
+    print("Destination remains unverified until a real Ghost upload and screenshot/computed-style inspection.")
+
+
+def selector_is_scoped(selector: str, root_id: str) -> bool:
+    for part in split_top_level_commas(selector):
+        s = re.sub(r"\s+", " ", part.strip())
+        if s.startswith(f"#{root_id}") or s.startswith(f"body:has(#{root_id})"):
+            continue
+        return False
+    return True
+
+
+def validate_ghost(args) -> int:
+    raw = args.source.read_text(encoding="utf-8")
+    lower = raw.lower()
+    errors, warnings = [], []
+    for token in ("<!doctype", "<html", "<head", "<body", "<meta", "<base", "<title"):
+        if token in lower:
+            errors.append(f"document-level tag/token present: {token}")
+    soup = BeautifulSoup(raw, "html.parser")
+    roots = soup.find_all(id=args.root_id)
+    if len(roots) != 1:
+        errors.append(f"expected exactly one root #{args.root_id}; found {len(roots)}")
+    ids = [str(n.get("id")) for n in soup.find_all(id=True)]
+    for value in duplicates(ids):
+        errors.append(f"duplicate id: {value}")
+    for href in internal_anchor_errors(soup):
+        errors.append(f"unresolved internal anchor: {href}")
+    prefix = args.root_id + "--"
+    for node in soup.find_all(class_=True):
+        for cls in node.get("class") or []:
+            if node.get("id") == args.root_id and cls in {"hva-ghost-card", "hva-ghost-fullwidth"}:
+                continue
+            if not str(cls).startswith(prefix):
+                errors.append(f"unnamespaced class: {cls}")
+    for style in soup.find_all("style"):
+        rules = tinycss2.parse_stylesheet(style.get_text(), skip_whitespace=True, skip_comments=True)
+        stack = list(rules)
+        while stack:
+            rule = stack.pop(0)
+            if rule.type == "qualified-rule":
+                selector = tinycss2.serialize(rule.prelude).strip()
+                if not selector_is_scoped(selector, args.root_id):
+                    errors.append(f"unscoped CSS selector: {selector}")
+            elif rule.type == "at-rule" and rule.content is not None and rule.lower_at_keyword in {"media", "supports", "layer", "container"}:
+                stack.extend(tinycss2.parse_rule_list(rule.content, skip_whitespace=True, skip_comments=True))
+    if re.search(r"position\s*:\s*fixed", lower):
+        warnings.append("fixed positioning found; prefer a grid with a sticky desktop sidebar")
+    if "sidebar" in lower and "position:sticky" not in re.sub(r"\s+", "", lower):
+        warnings.append("sidebar-like content found without an obvious sticky rule")
+    if re.search(r"<(script|img|iframe|video|source)[^>]+(?:src|href)=[\"']https?://", raw, re.I):
+        warnings.append("fragment loads external resources; previews are prohibited; provide the file only")
+    for item in errors:
+        print("ERROR:", item, file=sys.stderr)
+    for item in warnings:
+        print("WARNING:", item)
+    if errors:
+        return 1
+    print("Ghost fragment source validation passed: fragment-only, unique IDs, resolved anchors, namespaced classes, and scoped selectors.")
+    print("Destination test still requires a real Ghost upload and screenshot/computed-style inspection.")
+    return 0
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    sub = ap.add_subparsers(dest="command", required=True)
+    p = sub.add_parser("self-host")
+    p.add_argument("source", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--title", required=True)
+    p.add_argument("--description", required=True)
+    p.add_argument("--canonical", required=True)
+    p.add_argument("--lang", default="en")
+    p.add_argument("--content-selector")
+    p.add_argument("--remove-selector", action="append")
+    p.add_argument("--author-style", type=Path)
+    p.add_argument("--author-script", type=Path)
+    p = sub.add_parser("validate-self-host")
+    p.add_argument("source", type=Path)
+    p.add_argument("--previous-host", action="append", default=[])
+    p = sub.add_parser("ghost-card")
+    p.add_argument("source", type=Path)
+    p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--root-id", required=True)
+    p.add_argument("--content-selector")
+    p.add_argument("--full-width", action="store_true")
+    p.add_argument("--max-width-px", type=int, default=1600)
+    p.add_argument("--nav-font-size-px", type=int)
+    p.add_argument("--hide-host-selector", action="append")
+    p.add_argument("--keep-scripts", action="store_true")
+    p = sub.add_parser("validate-ghost")
+    p.add_argument("source", type=Path)
+    p.add_argument("--root-id", required=True)
+    args = ap.parse_args()
+    try:
+        if args.command == "self-host":
+            self_host(args)
+            return 0
+        if args.command == "validate-self-host":
+            return validate_self_host(args)
+        if args.command == "ghost-card":
+            ghost_card(args)
+            return 0
+        return validate_ghost(args)
+    except (ValueError, OSError) as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

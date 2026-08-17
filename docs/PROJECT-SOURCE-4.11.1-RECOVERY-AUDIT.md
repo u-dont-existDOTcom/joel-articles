@@ -4,12 +4,23 @@ Date: 2026-08-17
 
 Owner direction: `Joel-Articles-4.11.1-Project-Sources.zip` is the complete historical 40-source baseline. The newer current Project/GitHub versions supersede same-named older files.
 
+Status: **the exact 40-source recovery is complete.** Reference integrity has
+one unresolved optional tool source that was not present in the owner package.
+
 ## Finding
 
 - Historical baseline: **40 files**.
 - Current active `project-sources/` before this recovery: **9 files**.
 - Historical files with newer active replacements: **9**.
 - Historical files absent from active `project-sources/` and requiring restoration: **31**.
+- Historical exact sources archived after recovery: **40**.
+- Historical sources restored active after recovery: **31**.
+- Historical sources retained archive-only because current files supersede them: **9**.
+- Current ChatGPT Project source count: **10**; this recovery did not write old
+  files back to the Project.
+- Unresolved repository-local source references: **1**.
+- Exact owner ZIP SHA-256:
+  `c0b6b0ce4d95b303a00cc44d75fdf54e4433fa72e39e9e866c84b856fde965b1`.
 - `GITHUB-BOOTSTRAP.md` and `EMERGENCY-FALLBACK.md` are later additions and are not members of the 4.11.1 forty-file baseline.
 
 Nothing in this audit changes article authority. The repository article registry remains controlling.
@@ -63,6 +74,102 @@ Nothing in this audit changes article authority. The repository article registry
 
 `VOICE-REFERENCE(1).md` is preserved under that exact filename in the historical snapshot. Its active restored path should be `project-sources/VOICE-REFERENCE.md`, matching the canonical filename referenced by the operating instructions.
 
-## Recovery gate
+## Final execution and provenance
 
-Do not call the historical source migration complete until all 40 exact files are preserved in a versioned archive, all 31 missing active sources are restored, current newer files remain untouched, repository path references resolve, tests pass, and the recovery ledger has zero unresolved rows.
+- Recovered branch:
+  `migration/restore-4.11.1-project-sources-2026-08-17`.
+- Preserved pre-run branch head:
+  `5fbdac8f4344a5bfeb4c96b5e0ce9a7b8f6b0837`.
+- Exact ZIP is committed at
+  `archive/project-source-snapshots/4.11.1/Joel-Articles-4.11.1-Project-Sources.zip`.
+- `archive/project-source-snapshots/4.11.1/sources/` contains exactly 40
+  byte-identical members under their original filenames.
+- `MANIFEST.json` records every original filename, byte count, SHA-256,
+  active destination or null, disposition, and supersession boolean.
+- `SHA256SUMS.txt` covers the exact ZIP and every archived source payload.
+- The 31 active restoration targets are exact ZIP-member bytes. Historical
+  `VOICE-REFERENCE(1).md` remains exact in the archive and is active as
+  `project-sources/VOICE-REFERENCE.md`.
+- Pre/post SHA-256 comparison passed for all nine newer active successors;
+  none was modified.
+- `articles/INDEX.json` remained byte-identical at
+  `115e2584d549884dfd31a6328d967d0df949ac3fc1719130fee59413b7980d4f`.
+- The abandoned GitHub Action transport was deleted. No `.migration/4.11.1/`
+  transport directory remains.
+- `scripts/restore_project_sources_4_11_1.py` now accepts the exact local ZIP
+  through `--zip`, refuses differing collisions, and provides idempotent
+  `--check` verification. Its documented invocation is:
+
+  ```bash
+  python scripts/restore_project_sources_4_11_1.py \
+    --zip /path/to/Joel-Articles-4.11.1-Project-Sources.zip
+  ```
+
+- Final recovery commit: the commit containing this report. Its exact SHA is
+  recorded by the pushed branch ref and final worker handoff; a Git commit
+  cannot embed its own SHA without changing that SHA.
+
+## Reference-integrity classification
+
+The scan covered `SKILL.md`, `CANONICAL-REPO-MAP.md`, and every active Markdown
+source restored from the baseline. File-like names used only as runtime
+materializations, command inputs/outputs, artifact-family placeholders, or
+future release outputs were checked in context and were not treated as claims
+that those generated files already exist in the repository.
+
+- **Exists active:** every explicit local loader route and every referenced
+  baseline source authority resolves. Runtime `.py` names resolve through the
+  corresponding active `project-sources/*.py.txt` authority when that source
+  exists.
+- **Exists archived only and intentionally so:** the exact historical
+  `VOICE-REFERENCE(1).md` path and all superseded historical payload bytes are
+  retained under the versioned snapshot; active voice routing uses
+  `project-sources/VOICE-REFERENCE.md`.
+- **Superseded with current destination:** the nine historical sources listed
+  in the disposition ledger route to their untouched same-named active paths.
+  The loader preserves the current native-uploaded-video/video-post behavior.
+- **Genuinely missing:** `html_diff.py.txt` (and therefore its runtime
+  materialization `html_diff.py`) is referenced as an optional quick-diff tool
+  by restored protocols, but is absent from both the exact 40-member ZIP and
+  the current repository. It was not invented. **Unresolved count: 1.**
+
+The restored stale `scripts/html_islands.py` wording is routed by the current
+loader to `project-sources/html_islands.py.txt`, materialized as
+`html_islands.py` only when needed. This repairs current routing without
+changing the exact restored historical-source bytes.
+
+## Validation results
+
+All required repository gates passed on the completed worktree:
+
+- `python -m unittest discover -s tests` — **PASS**, 84 tests.
+- `python scripts/validate_content_repository.py --root .` — **PASS**;
+  governance incubator, zero registered articles, canonical import still
+  blocked.
+- `python scripts/validate_article_architecture_maps.py --root .` — **PASS**.
+- `python scripts/audit_codex_github.py --root . --fail-on error` — **PASS**;
+  0 errors and 4 pre-existing governance warnings (disabled default-branch
+  rules, unverified push protection, unverified secret scanning, missing
+  license).
+- `git diff --check` — **PASS**.
+- Recovery CLI `--check` — **PASS**, exact hash and `40 / 31 / 9` counts.
+- `sha256sum -c archive/project-source-snapshots/4.11.1/SHA256SUMS.txt` —
+  **PASS** for the ZIP and all 40 sources.
+- Pre/post checks of the nine protected successors and `articles/INDEX.json` —
+  **PASS**.
+- Explicit local loader-route existence check — **PASS**.
+- High-confidence token/private-key pattern scan over introduced content —
+  **PASS**, no matching path.
+
+Applicable tool checks:
+
+- `interactive_review.py.txt --selftest` — **PASS**.
+- `review_package.py.txt selftest` — **PASS**.
+- `substack_transfer_helper.py.txt selftest` — **PASS**.
+- `argument_ledger.py.txt --help` and `html_islands.py.txt --help` — **PASS**;
+  neither exposes a self-test.
+- Source inspection found no self-test in `html_publish_modes.py.txt` or
+  `review_interface_browser_test.py.txt`; their help imports could not run in
+  this checkout because optional `tinycss2` and `playwright` dependencies are
+  absent. No unsupported command was guessed, and this does not change the
+  required repository-gate results above.

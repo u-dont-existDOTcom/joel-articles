@@ -1,68 +1,99 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-08-14
+Updated: 2026-08-17
 
 ## Goal
 
-- Make long-form article work resumable and loss-resistant while preserving Joel's actual arguments, owner-locked passages, source provenance, and article-specific editorial/detector evidence.
+- Recover the complete owner-supplied 4.11.1 Project Source baseline into
+  GitHub without overwriting newer active sources or changing article
+  authority.
 
 ## Authority / baseline
 
 - Repository: `u-dont-existDOTcom/joel-articles`
-- Branch: `main`
-- Current explicit owner wording/argument corrections outrank older drafts and summaries.
-- Project-specific article state and evidence remain here; general workflow lessons belong in `u-dont-existDOTcom/universal-dev-architecture`.
+- Active branch: `migration/restore-4.11.1-project-sources-2026-08-17`
+- Preserved pre-run head:
+  `5fbdac8f4344a5bfeb4c96b5e0ce9a7b8f6b0837`.
+- Owner ZIP SHA-256:
+  `c0b6b0ce4d95b303a00cc44d75fdf54e4433fa72e39e9e866c84b856fde965b1`.
+- Newer same-named Project/GitHub sources supersede their 4.11.1 copies.
+- `articles/INDEX.json` remains the only article-authority registry and is
+  still empty.
 
 ## Completed
 
-- Recovered live GitHub and branch state before editing; the stale unfinished `codex-governance` branch was not reused because `main` is the later governance superset.
-- Verified the repository contains governance files only: no canonical master, source package, owner-final decisions, citation/detector/editorial record, or per-article state is imported.
-- Added an empty canonical article registry, complete hash-bound import family, exact owner-lock checks, reversible-deletion rules, citation/detector limits, publication provenance, privacy boundaries, and deterministic tests.
-- Added the current Universal repository/workflow auditor and portable workflow-policy template with regression coverage.
-- Added one stable least-privilege `content-integrity` workflow and exact local commands.
-- Recorded the external ten-file packet by received name/hash/size/disposition without copying its contents or publishing potentially sensitive facts.
-- Verified hosted truth: default-branch rules disabled; private vulnerability reporting disabled; Dependabot alerts disabled; secret scanning, push protection, code scanning, and Actions defaults unverified.
-- Opened GitHub issue #3 as the durable owner/hosted-control blocker ledger.
+- Recovered the existing remote branch and preserved its three prior commits.
+- Archived the exact ZIP and all 40 exact source members under
+  `archive/project-source-snapshots/4.11.1/` with manifest, README, and
+  checksums.
+- Restored 31 absent baseline sources active and preserved all nine newer
+  active successors byte-for-byte.
+- Preserved historical `VOICE-REFERENCE(1).md` in the archive and restored its
+  active destination as `project-sources/VOICE-REFERENCE.md`.
+- Removed the obsolete Action/chunk transport and made the local-ZIP recovery
+  CLI reproducible and idempotently verifiable.
+- Expanded `CANONICAL-REPO-MAP.md` with least-set routes for article modes,
+  humanization, research, voice/corpus, review packages, publishing, and
+  interlinking.
+- Completed the repository-local reference scan and recorded its
+  classifications in `docs/PROJECT-SOURCE-4.11.1-RECOVERY-AUDIT.md`.
+- Required repository gates pass: 84 unit tests; content and architecture-map
+  validators; repository audit with 0 errors/4 existing warnings; patch
+  hygiene. Recovery/checksum/protected-file checks and three supported tool
+  self-tests also pass.
+- The current ChatGPT Project still contains 10 sources; nothing was restored
+  into the Project UI.
 
 ## Current checkpoint
 
-- Current step: verify the evidence-only closeout head, mark PR #4 ready, and merge if repository policy permits.
-- Recovered baseline: `main@5f0585f1a9fe5a3d5c2622f5bcaa84ffc025a71d`.
-- Active task branch: `codex/github-compliance-2026-08-14`.
-- Verified code-bearing head/tree: `dcde124ef2f983c5027d85481f9aa33b2c353d9b` / `aa48d3bbf5bdeba852ee2c191bbc5c5be6af3ab4`.
-- Exact GitHub Actions run/job: `31785508088` / `94720404470` — success; 56 tests, truthful empty-incubator validation, repository audit 0 errors/4 warnings.
-- Independent exact-head review: Ready; no remaining Critical, Important, or Minor finding.
+- Exact-byte restoration is complete at `40 archived / 31 restored active / 9
+  superseded archive-only`.
+- Article registry/master authority changes: none.
+- Unresolved repository-local source references: 1.
+- Current step: commit all recovery changes, push this branch, and hand the
+  exact branch-head SHA to the ChatGPT worker.
 
 ## Remaining
 
-- Complete review and merge the verified governance baseline if no actionable finding remains.
-- Promote the bounded editorial authority/owner-lock/lossless-editing lesson to `universal-dev-architecture` with exact Joel provenance.
-- Obtain the owner copyright/license decision; do not infer it.
-- Enable a private vulnerability-reporting channel and a default-branch ruleset requiring pull requests and `content-integrity`; verify remaining hosted security/Actions controls.
-- Import one complete, owner-authorized article family before performing substantive article editing or claiming canonical content.
+- ChatGPT worker inspects the pushed commit, opens/reviews the PR, verifies CI,
+  and merges if accepted. This recovery worker must not merge it.
+- Joel may supply `html_diff.py.txt` later if the optional quick-diff tool is
+  still wanted; do not reconstruct it from prose.
+- Existing repository-governance follow-up remains separate: default-branch
+  rules, hosted secret controls, and license posture.
+- Import one complete owner-authorized article family before substantive
+  article editing or claiming canonical article content.
 
 ## Blockers / unresolved
 
-- Overall status remains **BLOCKED** even when repository checks pass.
-- No article authority exists in the repository. Do not reconstruct a master from the external packet, filenames, summaries, or chat.
-- The supplied `CANON-FACTS.md` may contain sensitive personal/health facts and is not approved for this public repository.
-- Licensing/copyright, competing canonical masters, substantive prose changes, privacy release, and publication require owner decisions.
-- Never silently soften or replace Joel's arguments. Detector results remain evidence, not editorial authority.
+- `html_diff.py.txt` is referenced by restored protocols but is absent from the
+  exact 40-file package and repository. This is the single unresolved recovery
+  reference; the baseline files themselves are fully recovered.
+- No article authority exists in the repository. Do not infer a master from
+  project sources, filenames, summaries, or chat.
+- Licensing/copyright, privacy release, publication, and competing article
+  masters remain owner-decision boundaries.
 
 ## Evidence / artifacts
 
-- Repository profile: `.github/codex-repository.json`
-- Canonical article registry: `articles/INDEX.json`
-- Authority/import protocol: `docs/CONTENT-AUTHORITY-AND-IMPORT.md`
-- External packet manifest: `docs/SUPPLIED-SOURCE-PACKET-MANIFEST.md`
-- Compliance report: `docs/CODEX-GITHUB-COMPLIANCE-2026-08-14.md`
-- Durable blocker ledger: https://github.com/u-dont-existDOTcom/joel-articles/issues/3
-- Universal operating standard: `patterns/codex-github-operating-system.md` in `universal-dev-architecture`
+- Recovery audit: `docs/PROJECT-SOURCE-4.11.1-RECOVERY-AUDIT.md`
+- Snapshot manifest:
+  `archive/project-source-snapshots/4.11.1/MANIFEST.json`
+- Snapshot checksums:
+  `archive/project-source-snapshots/4.11.1/SHA256SUMS.txt`
+- Canonical loader: `CANONICAL-REPO-MAP.md`
+- Article registry: `articles/INDEX.json`
+- Recovery CLI: `scripts/restore_project_sources_4_11_1.py`
 
 ## Next safe action
 
-- Inspect PR #4 at the verified code-bearing baseline. If independent review and the evidence-only closeout run are green, mark ready and merge without changing content logic; otherwise repair the exact finding and re-verify.
+- Commit all verified changes on the existing recovery branch, push it, and
+  report the exact pushed SHA and `40 / 31 / 9 / 1` recovery counts. Do not
+  merge to `main`.
 
 ## Recovery rule
 
-After interruption, a fresh thread, context compaction, or model switch, inspect actual repository and article state first. Identify exactly what survived, preserve owner-locked text, repair stale routing, and resume without repeating completed editorial work.
+After interruption, inspect the branch, worktree, snapshot manifest, and audit
+before continuing. Preserve the nine current successors and empty article
+registry; do not repeat restoration if the recovery CLI `--check` already
+passes.

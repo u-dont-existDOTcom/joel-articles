@@ -1,0 +1,372 @@
+{
+  "format": "joel-articles-project-source-snapshot-v1",
+  "version": "4.11.1",
+  "owner_supplied_date": "2026-08-17",
+  "zip_sha256": "c0b6b0ce4d95b303a00cc44d75fdf54e4433fa72e39e9e866c84b856fde965b1",
+  "historical_file_count": 40,
+  "restored_active_count": 31,
+  "superseded_archive_only_count": 9,
+  "authority_note": "Newer active Project/GitHub versions supersede same-named 4.11.1 files. This snapshot is rollback/provenance evidence, not article authority.",
+  "files": [
+    {
+      "original_filename": "ARGUMENT-AND-EVIDENCE-ARCHITECTURE.md",
+      "bytes": 18707,
+      "sha256": "102da3aa74c974cc939123e2fb5201506f4964d70f95342686b1445506ac7e14",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/ARGUMENT-AND-EVIDENCE-ARCHITECTURE.md",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "ARGUMENT-LEDGER-QUICKSTART.md",
+      "bytes": 5931,
+      "sha256": "c3bf7b39093b946f0df79798838e3ae3a5e935a3d3ceb0c36f47e6af6ef2911b",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/ARGUMENT-LEDGER-QUICKSTART.md",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "ARTICLE-INDEX.md",
+      "bytes": 16088,
+      "sha256": "1bd1f154699580a34f431052844b8dcf8fee3141276bf5155bf21d10e1414998",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/ARTICLE-INDEX.md",
+      "active_destination": "project-sources/ARTICLE-INDEX.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "ARTIFACT-FAMILY-LEDGER-TEMPLATE.md",
+      "bytes": 6442,
+      "sha256": "532f440c7aec51b30c7ab433c5313c61e57a86173197d2de5a9ce834431c9ec7",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/ARTIFACT-FAMILY-LEDGER-TEMPLATE.md",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "BANNED-PATTERNS.md",
+      "bytes": 34363,
+      "sha256": "1d8e829f0b351ee1fd7c3d563c6869ac667f9e5c044464b81afdbf194e570557",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/BANNED-PATTERNS.md",
+      "active_destination": "project-sources/BANNED-PATTERNS.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "CANON-FACTS.md",
+      "bytes": 9279,
+      "sha256": "c544535d80737c7fc3b1ba2be6fb08c02ce319aee9329fe297a501555dddcd95",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/CANON-FACTS.md",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "COMMENT-RESOLUTION-LEDGER-TEMPLATE.md",
+      "bytes": 2538,
+      "sha256": "2857b4fc200b0b4e80ee19fd23532ecd2e9644660aea03dea75331abd06e69fc",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/COMMENT-RESOLUTION-LEDGER-TEMPLATE.md",
+      "active_destination": "project-sources/COMMENT-RESOLUTION-LEDGER-TEMPLATE.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "CONFIRMED-SUBSTACK-HELPER.json",
+      "bytes": 3468,
+      "sha256": "b9132116432fc2e37ff47dacf7794f98c1a3e1ef906fd6baed1fac85075a9342",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/CONFIRMED-SUBSTACK-HELPER.json",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "CONTROVERSIAL-TOPIC-EVIDENCE-AUDIT.md",
+      "bytes": 2638,
+      "sha256": "0b6620a20abcd195092e54395266c44bf365e9b0756328f3925a164da831a276",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/CONTROVERSIAL-TOPIC-EVIDENCE-AUDIT.md",
+      "active_destination": "project-sources/CONTROVERSIAL-TOPIC-EVIDENCE-AUDIT.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "EDIT-CONTRACT-AND-LEDGERS.md",
+      "bytes": 40745,
+      "sha256": "3530160be4eed2a1c77d2602c61dda90baed9b482d3e0588f542fd7f1399f884",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/EDIT-CONTRACT-AND-LEDGERS.md",
+      "active_destination": "project-sources/EDIT-CONTRACT-AND-LEDGERS.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "FACTS-HEALTH-FORMATTING.md",
+      "bytes": 13157,
+      "sha256": "35c11c27c77efd363d9955d7b9cb31749d1e0f381f6c010db301d7d0b4edb986",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/FACTS-HEALTH-FORMATTING.md",
+      "active_destination": "project-sources/FACTS-HEALTH-FORMATTING.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "FINGERPRINT-PASS.md",
+      "bytes": 36594,
+      "sha256": "c05ccbd4ea16bedaf54f7b6428f09f1dfe3635c9976aa3d62cbdba43b40e0b4f",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/FINGERPRINT-PASS.md",
+      "active_destination": "project-sources/FINGERPRINT-PASS.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "HUMANIZATION-AND-COHERENCE.md",
+      "bytes": 22986,
+      "sha256": "0f2bddf8fc1b8011a1424cb760ef497cb9bec9e50000a338e9636db0180d797a",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/HUMANIZATION-AND-COHERENCE.md",
+      "active_destination": "project-sources/HUMANIZATION-AND-COHERENCE.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "INTERLINKING-AND-HTML-SOURCE.md",
+      "bytes": 17315,
+      "sha256": "5ec47f956d88f8fb1de010777dc52814acfd8a359348737bf1b39f4eaf9430df",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/INTERLINKING-AND-HTML-SOURCE.md",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "MASTER-INSTRUCTIONS.md",
+      "bytes": 46850,
+      "sha256": "4a747158a5ef5c53830d8fa339bf3d785bdc58f58aa7ead1a8266fdb226a05c2",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/MASTER-INSTRUCTIONS.md",
+      "active_destination": "project-sources/MASTER-INSTRUCTIONS.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "PROGRESSIVE-DISCLOSURE-EXAMPLES.md",
+      "bytes": 5091,
+      "sha256": "caf573ce8ecc1a38eb1456ea19d131582224846da03a5da23aad995fed9e82df",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/PROGRESSIVE-DISCLOSURE-EXAMPLES.md",
+      "active_destination": "project-sources/PROGRESSIVE-DISCLOSURE-EXAMPLES.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "PROJECT-STATE-TEMPLATE.md",
+      "bytes": 10427,
+      "sha256": "a07b8c17a56761cc91bce23c7d14c1a7052f41d606c41eb9bd8e3a22fa2f8d55",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/PROJECT-STATE-TEMPLATE.md",
+      "active_destination": "project-sources/PROJECT-STATE-TEMPLATE.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "QUALITY-FORECAST-AND-PASS-REVIEW.md",
+      "bytes": 17007,
+      "sha256": "288b8d4eb6f2013504ffaccf4c87ef0e9704edced35ef6da4b2075783f51d813",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/QUALITY-FORECAST-AND-PASS-REVIEW.md",
+      "active_destination": "project-sources/QUALITY-FORECAST-AND-PASS-REVIEW.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "REVIEW-INTERFACE-SPEC.md",
+      "bytes": 7796,
+      "sha256": "e77f1c138fb44bc89f7209b2ae4916100650ee0f51cfbcff2ff5641bb65faeba",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/REVIEW-INTERFACE-SPEC.md",
+      "active_destination": "project-sources/REVIEW-INTERFACE-SPEC.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "REVIEW-PACKAGE-REGRESSION.md",
+      "bytes": 4897,
+      "sha256": "8549348ff36eb19291496cbbfc1ee6e11e02af003e9f18cc1deff2686d518a1e",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/REVIEW-PACKAGE-REGRESSION.md",
+      "active_destination": "project-sources/REVIEW-PACKAGE-REGRESSION.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "REVIEW-WORKFLOW-RULES.md",
+      "bytes": 16062,
+      "sha256": "3307fc89beadd1e78e02e612ba9673457c2433c0851e2f85471b1ad04da698ec",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/REVIEW-WORKFLOW-RULES.md",
+      "active_destination": "project-sources/REVIEW-WORKFLOW-RULES.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "STRUCTURAL-HUMANITY.md",
+      "bytes": 43254,
+      "sha256": "3e7a9360b5ade7a89ca843cbcfeffbe0c6fcd2b633e67e9cef6092a280f4296e",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/STRUCTURAL-HUMANITY.md",
+      "active_destination": "project-sources/STRUCTURAL-HUMANITY.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "TASK-MODES.md",
+      "bytes": 24909,
+      "sha256": "0d3e77b688814767ad43b0053310b753e832ab71c96d128196fd5b3f26a1898e",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/TASK-MODES.md",
+      "active_destination": "project-sources/TASK-MODES.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "TOOLING-IN-PROJECT-SOURCES.md",
+      "bytes": 3810,
+      "sha256": "7de902181d952f65772d109fef0fce3efc981aab0d9586f1ad5d4e47239bd221",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/TOOLING-IN-PROJECT-SOURCES.md",
+      "active_destination": "project-sources/TOOLING-IN-PROJECT-SOURCES.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "TRANSFORMATION-CASE-STUDY.md",
+      "bytes": 46716,
+      "sha256": "b2a040e0ee99b65fa44b7b05e48eb2f1957f07ae29b5495238abe241c330d6f3",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/TRANSFORMATION-CASE-STUDY.md",
+      "active_destination": "project-sources/TRANSFORMATION-CASE-STUDY.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "VISUAL-EDITORIAL-PROTOCOL.md",
+      "bytes": 4910,
+      "sha256": "e4dcd12948cd435a80d553b72f8768cb953fec88ed999ce389bfd05632049f28",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/VISUAL-EDITORIAL-PROTOCOL.md",
+      "active_destination": "project-sources/VISUAL-EDITORIAL-PROTOCOL.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "VOICE-LEXICON.md",
+      "bytes": 3259,
+      "sha256": "440133624cf60e9455d91208790694e37dac46173e57dae904754a7195d0584b",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/VOICE-LEXICON.md",
+      "active_destination": "project-sources/VOICE-LEXICON.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "VOICE-REFERENCE(1).md",
+      "bytes": 15347,
+      "sha256": "e360690fb34f49d01c000b3bd552324281207b6c55699c4794fd9512680d2342",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/VOICE-REFERENCE(1).md",
+      "active_destination": "project-sources/VOICE-REFERENCE.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "WORKER-CHAT-HANDOFF-RULES.md",
+      "bytes": 5180,
+      "sha256": "91d6da5100675047b8728ec9d7e5154a67111a5df96305b4f66e2a87c61fdca3",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/WORKER-CHAT-HANDOFF-RULES.md",
+      "active_destination": "project-sources/WORKER-CHAT-HANDOFF-RULES.md",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "argument_ledger.py.txt",
+      "bytes": 51359,
+      "sha256": "777fbf9d564aa95c62345a889b9c448d8fa1c087bcdc92be3cb2d57fbedafd77",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/argument_ledger.py.txt",
+      "active_destination": "project-sources/argument_ledger.py.txt",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "cancer-and-research-samples.txt",
+      "bytes": 86094,
+      "sha256": "9c082d52fe6a6e5ed242ac2af0a17981e6f1a6d4b7f1bd7e57cb643c5dabd0dd",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/cancer-and-research-samples.txt",
+      "active_destination": "project-sources/cancer-and-research-samples.txt",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "community-before.txt",
+      "bytes": 45852,
+      "sha256": "a230d45d1ec7fa3140bd6543a06b1042ad02b4068728398b6caf381ae8e9808f",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/community-before.txt",
+      "active_destination": "project-sources/community-before.txt",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "html_islands.py.txt",
+      "bytes": 19904,
+      "sha256": "9e9411e5959ea610c4f4fc2f11f7f6d72a0afe2f8cb7ff63a96dc4af7cdbf6b3",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/html_islands.py.txt",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "html_publish_modes.py.txt",
+      "bytes": 19673,
+      "sha256": "2ae9877823ffb11aebd10611662c11a4a70a2429ea76e4c082c3d2a9e1bafd8e",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/html_publish_modes.py.txt",
+      "active_destination": "project-sources/html_publish_modes.py.txt",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "interactive_review.py.txt",
+      "bytes": 35782,
+      "sha256": "2ed2731a4fd03bec3d945724644ea8b1eddbf0d090c17cba3fd9e8f4f1838af2",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/interactive_review.py.txt",
+      "active_destination": "project-sources/interactive_review.py.txt",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "review_interface_browser_test.py.txt",
+      "bytes": 29920,
+      "sha256": "efdf285a3e37fbf45cc9fb2f74174b4b3bd2d873a362a0730f5368cd55363658",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/review_interface_browser_test.py.txt",
+      "active_destination": "project-sources/review_interface_browser_test.py.txt",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "review_interface_template.html.txt",
+      "bytes": 28676,
+      "sha256": "cc3907f13c8739b4e740872f7460fa2ebb9f6395f7378f31c0c48f40883dced0",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/review_interface_template.html.txt",
+      "active_destination": "project-sources/review_interface_template.html.txt",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    },
+    {
+      "original_filename": "review_package.py.txt",
+      "bytes": 20569,
+      "sha256": "624cc7e76a493e9bee63af69f212967a49321958145e841dba963e65f141cda7",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/review_package.py.txt",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "substack_transfer_helper.py.txt",
+      "bytes": 36050,
+      "sha256": "62d4df1557f75f19f0e1d0f3a2471a932e5f8211547a9e6e56dd6401e9c47908",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/substack_transfer_helper.py.txt",
+      "active_destination": null,
+      "disposition": "archive_only_superseded_by_newer_active_content",
+      "superseded_by_newer_active_content": true
+    },
+    {
+      "original_filename": "tender-video-transcript.txt",
+      "bytes": 11399,
+      "sha256": "a12d8b699aa19723f819dc324d2107b03d9d7db919a2997283ccb73069094f1f",
+      "archive_path": "archive/project-source-snapshots/4.11.1/sources/tender-video-transcript.txt",
+      "active_destination": "project-sources/tender-video-transcript.txt",
+      "disposition": "restored_active_and_archived",
+      "superseded_by_newer_active_content": false
+    }
+  ]
+}

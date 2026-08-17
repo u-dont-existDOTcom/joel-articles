@@ -1,0 +1,1219 @@
+#!/usr/bin/env python3
+"""Deterministic argument-ledger generator and validator.
+
+This tool handles bookkeeping, provenance, explicit dependency edges, and
+premise-failure impact reports. It never edits article prose or source files.
+Analytical judgments remain the responsibility of the writer/model and must be
+entered explicitly in the ledger.
+
+Python 3.10+; standard library only. PDF text extraction is enabled when
+``pypdf`` is installed. DOCX extraction uses the standard-library ZIP/XML stack.
+"""
+
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import hashlib
+import html
+from html.parser import HTMLParser
+import json
+import os
+from pathlib import Path
+import re
+import sys
+import textwrap
+import zipfile
+import xml.etree.ElementTree as ET
+from typing import Any, Iterable
+
+TOOL_VERSION = "3.9"
+SCHEMA_VERSION = "1.0"
+
+MODE_LIMITS = {
+    "minimal": {"claims": 12, "evidence": 24, "destinations": 20, "depth": 3},
+    "standard": {"claims": 35, "evidence": 80, "destinations": 60, "depth": 6},
+    "full": {"claims": 80, "evidence": 200, "destinations": 150, "depth": 10},
+}
+
+TASK_TYPES = (
+    "ordinary",
+    "personal",
+    "copyedit",
+    "style-only",
+    "research",
+    "polemic",
+    "investigation",
+    "contested",
+    "high-stakes",
+)
+RISKS = ("low", "medium", "high")
+MAPPING_MODES = ("auto", "minimal", "standard", "full")
+
+CLAIM_KINDS = (
+    "primary-fact",
+    "verified-fact",
+    "interpretation",
+    "causal-inference",
+    "plausible-explanation",
+    "moral-judgment",
+    "analogy",
+    "speculation",
+    "unknown",
+)
+CERTAINTIES = (
+    "established",
+    "supported-inference",
+    "plausible",
+    "possible",
+    "unknown",
+    "contradicted",
+)
+PROBATIVE_VALUES = (
+    "decisive",
+    "strongly-corroborating",
+    "contextual",
+    "pattern",
+    "texture",
+    "distracting",
+)
+STATUSES = ("active", "weakened", "contradicted", "unknown", "retired")
+DEPENDENCY_LOGIC = ("all", "any", "mixed")
+DESTINATION_TYPES = (
+    "title",
+    "subtitle",
+    "opening",
+    "thesis",
+    "section",
+    "transition",
+    "analogy",
+    "joke",
+    "caption",
+    "conclusion",
+    "cta",
+    "summary",
+    "social",
+    "video",
+    "app",
+    "other",
+)
+
+TEXT_EXTENSIONS = {
+    ".txt", ".md", ".markdown", ".rst", ".csv", ".tsv", ".log",
+    ".yaml", ".yml", ".json", ".xml", ".html", ".htm",
+}
+
+
+def utc_now() -> str:
+    return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+
+
+def sha256_bytes(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def sha256_file(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def safe_read_text(path: Path) -> str:
+    data = path.read_bytes()
+    for encoding in ("utf-8", "utf-8-sig", "cp1252", "latin-1"):
+        try:
+            return data.decode(encoding)
+        except UnicodeDecodeError:
+            pass
+    return data.decode("utf-8", errors="replace")
+
+
+def normalize_whitespace(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def excerpt(text: str, limit: int = 280) -> str:
+    value = normalize_whitespace(text)
+    return value if len(value) <= limit else value[: limit - 1].rstrip() + "…"
+
+
+def resolve_mode(task_type: str, risk: str, requested: str) -> str:
+    if requested != "auto":
+        return requested
+    if task_type in {"investigation", "contested", "high-stakes"} and risk == "high":
+        return "full"
+    if task_type in {"research", "polemic", "investigation", "contested", "high-stakes"} and risk in {"medium", "high"}:
+        return "standard"
+    return "minimal"
+
+
+def ledger_recommended(task_type: str, risk: str) -> bool:
+    return task_type in {"research", "polemic", "investigation", "contested", "high-stakes"} and risk in {"medium", "high"}
+
+
+def expand_sources(inputs: list[str], recursive: bool) -> list[Path]:
+    files: list[Path] = []
+    for raw in inputs:
+        p = Path(raw).expanduser().resolve()
+        if not p.exists():
+            raise FileNotFoundError(f"Source does not exist: {p}")
+        if p.is_dir():
+            iterator = p.rglob("*") if recursive else p.glob("*")
+            files.extend(x for x in iterator if x.is_file())
+        else:
+            files.append(p)
+    return sorted(set(files), key=lambda x: str(x).lower())
+
+
+def common_root(paths: list[Path]) -> Path:
+    if not paths:
+        return Path.cwd()
+    try:
+        return Path(os.path.commonpath([str(p.parent) for p in paths]))
+    except ValueError:
+        return Path.cwd()
+
+
+def segment_plain_text(text: str, source_id: str) -> list[dict[str, Any]]:
+    lines = text.splitlines()
+    segments: list[dict[str, Any]] = []
+    start: int | None = None
+    buffer: list[str] = []
+
+    def flush(end_line: int) -> None:
+        nonlocal start, buffer
+        if start is None:
+            return
+        body = "\n".join(buffer).strip()
+        if body:
+            idx = len(segments) + 1
+            segments.append({
+                "segment_id": f"{source_id}-P{idx:04d}",
+                "locator": f"lines {start}-{end_line}",
+                "start_line": start,
+                "end_line": end_line,
+                "sha256": sha256_bytes(body.encode("utf-8")),
+                "excerpt": excerpt(body),
+            })
+        start = None
+        buffer = []
+
+    for i, line in enumerate(lines, 1):
+        if line.strip():
+            if start is None:
+                start = i
+            buffer.append(line)
+        else:
+            flush(i - 1)
+    flush(len(lines))
+    return segments
+
+
+class BlockTextParser(HTMLParser):
+    BLOCKS = {
+        "p", "div", "section", "article", "aside", "header", "footer",
+        "h1", "h2", "h3", "h4", "h5", "h6", "li", "blockquote",
+        "figcaption", "pre", "tr",
+    }
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.depth = 0
+        self.current: list[str] = []
+        self.blocks: list[str] = []
+        self.skip = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag = tag.lower()
+        if tag in {"script", "style", "noscript"}:
+            self.skip += 1
+            return
+        if self.skip:
+            return
+        if tag in self.BLOCKS:
+            if self.depth == 0:
+                self.current = []
+            self.depth += 1
+        elif tag == "br" and self.depth:
+            self.current.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        if tag in {"script", "style", "noscript"} and self.skip:
+            self.skip -= 1
+            return
+        if self.skip:
+            return
+        if tag in self.BLOCKS and self.depth:
+            self.depth -= 1
+            if self.depth == 0:
+                value = normalize_whitespace(" ".join(self.current))
+                if value:
+                    self.blocks.append(value)
+                self.current = []
+
+    def handle_data(self, data: str) -> None:
+        if not self.skip and self.depth:
+            self.current.append(data)
+
+
+def segment_html(text: str, source_id: str) -> list[dict[str, Any]]:
+    parser = BlockTextParser()
+    try:
+        parser.feed(text)
+    except Exception:
+        return segment_plain_text(re.sub(r"<[^>]+>", " ", html.unescape(text)), source_id)
+    segments = []
+    for idx, body in enumerate(parser.blocks, 1):
+        segments.append({
+            "segment_id": f"{source_id}-H{idx:04d}",
+            "locator": f"html block {idx}",
+            "sha256": sha256_bytes(body.encode("utf-8")),
+            "excerpt": excerpt(body),
+        })
+    return segments
+
+
+def segment_docx(path: Path, source_id: str) -> list[dict[str, Any]]:
+    segments: list[dict[str, Any]] = []
+    try:
+        with zipfile.ZipFile(path) as zf:
+            xml_data = zf.read("word/document.xml")
+        root = ET.fromstring(xml_data)
+        ns = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
+        for p in root.findall(".//w:p", ns):
+            parts = [t.text or "" for t in p.findall(".//w:t", ns)]
+            body = normalize_whitespace("".join(parts))
+            if body:
+                idx = len(segments) + 1
+                segments.append({
+                    "segment_id": f"{source_id}-D{idx:04d}",
+                    "locator": f"docx paragraph {idx}",
+                    "sha256": sha256_bytes(body.encode("utf-8")),
+                    "excerpt": excerpt(body),
+                })
+    except Exception as e:
+        segments.append({
+            "segment_id": f"{source_id}-D0001",
+            "locator": "DOCX extraction failed",
+            "sha256": "",
+            "excerpt": f"[DOCX extraction failed: {type(e).__name__}: {e}]",
+        })
+    return segments
+
+
+def segment_pdf(path: Path, source_id: str) -> tuple[list[dict[str, Any]], str | None]:
+    try:
+        from pypdf import PdfReader  # type: ignore
+    except Exception:
+        return [], "pypdf is not installed; PDF registered at file level only"
+    segments: list[dict[str, Any]] = []
+    try:
+        reader = PdfReader(str(path))
+        for page_no, page in enumerate(reader.pages, 1):
+            text = page.extract_text() or ""
+            para_segments = segment_plain_text(text, source_id)
+            for p in para_segments:
+                idx = len(segments) + 1
+                p["segment_id"] = f"{source_id}-F{idx:04d}"
+                p["locator"] = f"PDF page {page_no}, {p['locator']}"
+                segments.append(p)
+        return segments, None
+    except Exception as e:
+        return [], f"PDF extraction failed: {type(e).__name__}: {e}"
+
+
+def build_source_record(path: Path, source_id: str, root: Path, max_segments: int) -> dict[str, Any]:
+    ext = path.suffix.lower()
+    data_hash = sha256_file(path)
+    warning: str | None = None
+    if ext in {".html", ".htm"}:
+        segments = segment_html(safe_read_text(path), source_id)
+        source_type = "html"
+    elif ext == ".docx":
+        segments = segment_docx(path, source_id)
+        source_type = "docx"
+    elif ext == ".pdf":
+        segments, warning = segment_pdf(path, source_id)
+        source_type = "pdf"
+    elif ext in TEXT_EXTENSIONS:
+        segments = segment_plain_text(safe_read_text(path), source_id)
+        source_type = "text"
+    else:
+        segments = []
+        source_type = "binary-or-unsupported"
+        warning = "File registered by hash; no text segmentation available"
+
+    total_segments = len(segments)
+    truncated = False
+    if max_segments > 0 and total_segments > max_segments:
+        segments = segments[:max_segments]
+        truncated = True
+        extra = f"segment index truncated from {total_segments} to {max_segments}"
+        warning = f"{warning}; {extra}" if warning else extra
+
+    try:
+        relative = str(path.relative_to(root))
+    except ValueError:
+        relative = str(path)
+    return {
+        "source_id": source_id,
+        "path": relative,
+        "type": source_type,
+        "size_bytes": path.stat().st_size,
+        "sha256": data_hash,
+        "segment_count": total_segments,
+        "segments_indexed": len(segments),
+        "segments_truncated": truncated,
+        "warning": warning,
+        "segments": segments,
+    }
+
+
+def packet_hash(sources: list[dict[str, Any]]) -> str:
+    canonical = "\n".join(f"{s['path']}\t{s['sha256']}" for s in sources)
+    return sha256_bytes(canonical.encode("utf-8"))
+
+
+def blank_ledger(project: str, task_type: str, risk: str, mode: str, sources: list[dict[str, Any]]) -> dict[str, Any]:
+    limits = MODE_LIMITS[mode]
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "tool_version": TOOL_VERSION,
+        "meta": {
+            "project": project,
+            "created_utc": utc_now(),
+            "modified_utc": utc_now(),
+            "task_type": task_type,
+            "premise_risk": risk,
+            "mapping_mode": mode,
+            "ledger_recommended_by_threshold": ledger_recommended(task_type, risk),
+            "source_packet_sha256": packet_hash(sources),
+            "author_or_editor_confirmation_required_before_article_repair": True,
+            "fairness_limitation": "",
+            "research_stop_status": "not-assessed",
+            "notes": "",
+        },
+        "over_editing_guardrails": {
+            "scope": "Map load-bearing claims and direct dependencies only; do not map every sentence.",
+            "claim_cap": limits["claims"],
+            "evidence_cap": limits["evidence"],
+            "destination_cap": limits["destinations"],
+            "dependency_depth_warning": limits["depth"],
+            "automatic_article_editing": False,
+            "failure_reports_use_explicit_edges_only": True,
+            "weakened_premises_trigger_review_not_automatic_rebuild": True,
+            "style_only_mode_reports_impacts_without_rewriting": True,
+        },
+        "sources": sources,
+        "evidence": [],
+        "claims": [],
+        "destinations": [],
+    }
+
+
+def write_json(path: Path, obj: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def load_json(path: Path) -> dict[str, Any]:
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Invalid JSON in {path}: {e}") from e
+    if not isinstance(value, dict):
+        raise ValueError("Ledger root must be a JSON object")
+    return value
+
+
+def save_ledger(path: Path, ledger: dict[str, Any]) -> None:
+    ledger.setdefault("meta", {})["modified_utc"] = utc_now()
+    write_json(path, ledger)
+
+
+def next_id(items: list[dict[str, Any]], field: str, prefix: str) -> str:
+    max_n = 0
+    rx = re.compile(rf"^{re.escape(prefix)}-(\d+)$")
+    for item in items:
+        value = str(item.get(field, ""))
+        m = rx.match(value)
+        if m:
+            max_n = max(max_n, int(m.group(1)))
+    return f"{prefix}-{max_n + 1:03d}"
+
+
+def index_by(items: Iterable[dict[str, Any]], field: str) -> dict[str, dict[str, Any]]:
+    return {str(item.get(field)): item for item in items if item.get(field)}
+
+
+def all_segment_ids(ledger: dict[str, Any]) -> set[str]:
+    out: set[str] = set()
+    for source in ledger.get("sources", []):
+        for seg in source.get("segments", []):
+            sid = seg.get("segment_id")
+            if sid:
+                out.add(str(sid))
+    return out
+
+
+def graph_depths(claims: list[dict[str, Any]]) -> tuple[dict[str, int], list[list[str]]]:
+    claim_map = index_by(claims, "claim_id")
+    state: dict[str, int] = {}
+    memo: dict[str, int] = {}
+    cycles: list[list[str]] = []
+
+    def visit(cid: str, trail: list[str]) -> int:
+        if state.get(cid) == 1:
+            if cid in trail:
+                cycles.append(trail[trail.index(cid):] + [cid])
+            return 0
+        if state.get(cid) == 2:
+            return memo.get(cid, 0)
+        state[cid] = 1
+        deps = [d for d in claim_map.get(cid, {}).get("depends_on", []) if d in claim_map]
+        depth = 0 if not deps else 1 + max(visit(d, trail + [cid]) for d in deps)
+        state[cid] = 2
+        memo[cid] = depth
+        return depth
+
+    for cid in claim_map:
+        visit(cid, [])
+    return memo, cycles
+
+
+def validate_ledger(ledger: dict[str, Any]) -> tuple[list[str], list[str], dict[str, Any]]:
+    errors: list[str] = []
+    warnings: list[str] = []
+    for key in ("schema_version", "meta", "sources", "evidence", "claims", "destinations"):
+        if key not in ledger:
+            errors.append(f"Missing top-level field: {key}")
+    if errors:
+        return errors, warnings, {}
+
+    evidence = ledger.get("evidence", [])
+    claims = ledger.get("claims", [])
+    destinations = ledger.get("destinations", [])
+    ev_map = index_by(evidence, "evidence_id")
+    claim_map = index_by(claims, "claim_id")
+    dest_map = index_by(destinations, "destination_id")
+    segment_ids = all_segment_ids(ledger)
+
+    def duplicate_ids(items: list[dict[str, Any]], field: str) -> list[str]:
+        seen: set[str] = set()
+        dup: list[str] = []
+        for item in items:
+            v = str(item.get(field, ""))
+            if not v:
+                errors.append(f"Item missing {field}: {item}")
+            elif v in seen:
+                dup.append(v)
+            seen.add(v)
+        return dup
+
+    for field, items in (("evidence_id", evidence), ("claim_id", claims), ("destination_id", destinations)):
+        for dup in duplicate_ids(items, field):
+            errors.append(f"Duplicate {field}: {dup}")
+
+    for ev in evidence:
+        ev_id = ev.get("evidence_id", "?")
+        if ev.get("probative_value") not in PROBATIVE_VALUES:
+            errors.append(f"{ev_id}: invalid probative_value {ev.get('probative_value')!r}")
+        refs = ev.get("source_segments", [])
+        urls = ev.get("source_urls", [])
+        for ref in refs:
+            if ref not in segment_ids:
+                errors.append(f"{ev_id}: unknown source segment {ref}")
+        if not refs and not urls:
+            warnings.append(f"{ev_id}: no source provenance segment or URL")
+
+    for claim in claims:
+        cid = claim.get("claim_id", "?")
+        if claim.get("kind") not in CLAIM_KINDS:
+            errors.append(f"{cid}: invalid kind {claim.get('kind')!r}")
+        if claim.get("certainty") not in CERTAINTIES:
+            errors.append(f"{cid}: invalid certainty {claim.get('certainty')!r}")
+        if claim.get("status", "active") not in STATUSES:
+            errors.append(f"{cid}: invalid status {claim.get('status')!r}")
+        if claim.get("dependency_logic", "all") not in DEPENDENCY_LOGIC:
+            errors.append(f"{cid}: invalid dependency_logic {claim.get('dependency_logic')!r}")
+        for ref in claim.get("evidence", []):
+            if ref not in ev_map:
+                errors.append(f"{cid}: unknown evidence {ref}")
+        for ref in claim.get("counterevidence", []):
+            if ref not in ev_map:
+                errors.append(f"{cid}: unknown counterevidence {ref}")
+        for ref in claim.get("depends_on", []):
+            if ref not in claim_map:
+                errors.append(f"{cid}: unknown dependency {ref}")
+        for ref in claim.get("supports", []):
+            if ref not in claim_map:
+                errors.append(f"{cid}: unknown supported claim {ref}")
+        if claim.get("kind") in {"primary-fact", "verified-fact", "causal-inference"} and not claim.get("evidence"):
+            warnings.append(f"{cid}: factual/causal claim has no evidence IDs")
+        if claim.get("load_bearing") and not claim.get("counterevidence"):
+            warnings.append(f"{cid}: load-bearing claim has no recorded counterevidence review")
+
+    for dest in destinations:
+        did = dest.get("destination_id", "?")
+        if dest.get("type") not in DESTINATION_TYPES:
+            errors.append(f"{did}: invalid destination type {dest.get('type')!r}")
+        if dest.get("dependency_logic", "all") not in DEPENDENCY_LOGIC:
+            errors.append(f"{did}: invalid dependency_logic {dest.get('dependency_logic')!r}")
+        for ref in dest.get("depends_on", []):
+            if ref not in claim_map:
+                errors.append(f"{did}: unknown claim dependency {ref}")
+
+    depths, cycles = graph_depths(claims)
+    for cycle in cycles:
+        errors.append("Claim dependency cycle: " + " -> ".join(cycle))
+
+    mode = ledger.get("meta", {}).get("mapping_mode", "minimal")
+    limits = MODE_LIMITS.get(mode, MODE_LIMITS["minimal"])
+    if len(claims) > limits["claims"]:
+        warnings.append(f"Over-editing safeguard: {len(claims)} claims exceed {mode} cap {limits['claims']}")
+    if len(evidence) > limits["evidence"]:
+        warnings.append(f"Over-editing safeguard: {len(evidence)} evidence items exceed {mode} cap {limits['evidence']}")
+    if len(destinations) > limits["destinations"]:
+        warnings.append(f"Over-editing safeguard: {len(destinations)} destinations exceed {mode} cap {limits['destinations']}")
+    max_depth = max(depths.values(), default=0)
+    if max_depth > limits["depth"]:
+        warnings.append(f"Over-editing safeguard: dependency depth {max_depth} exceeds {mode} warning depth {limits['depth']}")
+
+    task_type = ledger.get("meta", {}).get("task_type", "ordinary")
+    if task_type in {"ordinary", "personal", "copyedit", "style-only"} and mode != "minimal":
+        warnings.append(f"Over-editing safeguard: {task_type} task should normally use minimal mode")
+    if len(claims) >= 10:
+        non_load = sum(1 for c in claims if not c.get("load_bearing"))
+        if non_load / len(claims) > 0.6:
+            warnings.append("Over-editing safeguard: more than 60% of mapped claims are non-load-bearing")
+        if sum(1 for c in claims if c.get("load_bearing")) > 8 and mode != "full":
+            warnings.append("Over-editing safeguard: unusually many claims marked load-bearing")
+    weak_ev = {e["evidence_id"] for e in evidence if e.get("probative_value") in {"texture", "distracting"} and e.get("evidence_id")}
+    weak_usage = sum(1 for c in claims for e in c.get("evidence", []) if e in weak_ev)
+    if weak_usage > 6:
+        warnings.append("Evidence safeguard: texture/distracting items are carrying many claim links")
+
+    summary = {
+        "sources": len(ledger.get("sources", [])),
+        "source_segments": len(segment_ids),
+        "evidence": len(evidence),
+        "claims": len(claims),
+        "load_bearing_claims": sum(1 for c in claims if c.get("load_bearing")),
+        "destinations": len(destinations),
+        "maximum_dependency_depth": max_depth,
+        "mapping_mode": mode,
+        "task_type": task_type,
+    }
+    return errors, warnings, summary
+
+
+def render_markdown(ledger: dict[str, Any]) -> str:
+    meta = ledger.get("meta", {})
+    lines = [
+        "# Argument Ledger",
+        "",
+        f"- Project: {meta.get('project') or '[unnamed]'}",
+        f"- Task type: {meta.get('task_type', 'unknown')}",
+        f"- Premise risk: {meta.get('premise_risk', 'unknown')}",
+        f"- Mapping mode: {meta.get('mapping_mode', 'unknown')}",
+        f"- Source packet SHA-256: `{meta.get('source_packet_sha256', '')}`",
+        f"- Research stop status: {meta.get('research_stop_status', 'not-assessed')}",
+        "",
+        "> Scope guardrail: map load-bearing claims and direct dependencies only. This ledger does not authorize article edits.",
+        "",
+        "## Sources",
+        "",
+        "| ID | Path | Type | SHA-256 | Segments | Warning |",
+        "|---|---|---|---|---:|---|",
+    ]
+    for s in ledger.get("sources", []):
+        lines.append(f"| {s.get('source_id','')} | {s.get('path','')} | {s.get('type','')} | `{s.get('sha256','')}` | {s.get('segments_indexed',0)}/{s.get('segment_count',0)} | {s.get('warning') or ''} |")
+
+    lines += ["", "## Evidence", "", "| ID | Description | Probative value | Provenance | Independence |", "|---|---|---|---|---|"]
+    for e in ledger.get("evidence", []):
+        provenance = ', '.join(e.get('source_segments', []) + e.get('source_urls', []))
+        lines.append(f"| {e.get('evidence_id','')} | {e.get('description','')} | {e.get('probative_value','')} | {provenance} | {e.get('independence_group','')} |")
+
+    lines += ["", "## Claims and premises", "", "| ID | Claim | Kind | Certainty | Load-bearing | Status | Evidence | Depends on | Supports | Minimum case |", "|---|---|---|---|---|---|---|---|---|---|"]
+    for c in ledger.get("claims", []):
+        lines.append(
+            f"| {c.get('claim_id','')} | {c.get('text','')} | {c.get('kind','')} | {c.get('certainty','')} | "
+            f"{'yes' if c.get('load_bearing') else 'no'} | {c.get('status','active')} | {', '.join(c.get('evidence',[]))} | "
+            f"{', '.join(c.get('depends_on',[]))} | {', '.join(c.get('supports',[]))} | {'yes' if c.get('minimum_case') else 'no'} |"
+        )
+
+    lines += ["", "## Destinations", "", "| ID | Type | Location/label | Function | Depends on | Logic | Status |", "|---|---|---|---|---|---|---|"]
+    for d in ledger.get("destinations", []):
+        lines.append(f"| {d.get('destination_id','')} | {d.get('type','')} | {d.get('label','')} | {d.get('function','')} | {', '.join(d.get('depends_on',[]))} | {d.get('dependency_logic','all')} | {d.get('status','active')} |")
+
+    errors, warnings, summary = validate_ledger(ledger)
+    lines += ["", "## Validation summary", "", "```json", json.dumps(summary, indent=2), "```"]
+    if errors:
+        lines += ["", "### Errors"] + [f"- {x}" for x in errors]
+    if warnings:
+        lines += ["", "### Warnings"] + [f"- {x}" for x in warnings]
+    if not errors and not warnings:
+        lines += ["", "No validation findings."]
+    return "\n".join(lines) + "\n"
+
+
+def source_index_markdown(ledger: dict[str, Any]) -> str:
+    lines = [
+        "# Source Packet Index",
+        "",
+        f"Packet SHA-256: `{ledger['meta']['source_packet_sha256']}`",
+        "",
+        "This index establishes provenance anchors. It does not decide what any source proves.",
+        "",
+    ]
+    for source in ledger.get("sources", []):
+        lines += [
+            f"## {source['source_id']} — {source['path']}",
+            "",
+            f"- Type: {source['type']}",
+            f"- SHA-256: `{source['sha256']}`",
+            f"- Segments indexed: {source['segments_indexed']} of {source['segment_count']}",
+        ]
+        if source.get("warning"):
+            lines.append(f"- Warning: {source['warning']}")
+        lines += ["", "| Segment | Locator | Excerpt |", "|---|---|---|"]
+        for seg in source.get("segments", []):
+            safe = str(seg.get("excerpt", "")).replace("|", "\\|")
+            lines.append(f"| {seg.get('segment_id','')} | {seg.get('locator','')} | {safe} |")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def find_item(items: list[dict[str, Any]], field: str, value: str) -> dict[str, Any]:
+    for item in items:
+        if item.get(field) == value:
+            return item
+    raise KeyError(f"Unknown {field}: {value}")
+
+
+def add_evidence(args: argparse.Namespace) -> int:
+    path = Path(args.ledger)
+    ledger = load_json(path)
+    errors, _, _ = validate_ledger(ledger)
+    if errors:
+        raise ValueError("Fix ledger validation errors before adding evidence: " + "; ".join(errors))
+    mode = ledger.get("meta", {}).get("mapping_mode", "minimal")
+    cap = MODE_LIMITS.get(mode, MODE_LIMITS["minimal"])["evidence"]
+    if len(ledger["evidence"]) >= cap and not args.force:
+        raise ValueError(f"Evidence cap {cap} reached for {mode} mode. Use --force only after confirming the extra mapping is necessary.")
+    valid_segments = all_segment_ids(ledger)
+    for ref in args.source_segment:
+        if ref not in valid_segments:
+            raise ValueError(f"Unknown source segment: {ref}")
+    if not args.source_segment and not args.source_url:
+        raise ValueError("Provide at least one --source-segment or --source-url")
+    eid = next_id(ledger["evidence"], "evidence_id", "E")
+    ledger["evidence"].append({
+        "evidence_id": eid,
+        "description": args.description,
+        "probative_value": args.probative_value,
+        "source_segments": args.source_segment,
+        "source_urls": args.source_url,
+        "document_number": args.document_number or "",
+        "date": args.date or "",
+        "independence_group": args.independence_group or eid,
+        "establishes": args.establishes or "",
+        "does_not_establish": args.does_not_establish or "",
+        "access_limit": args.access_limit or "",
+        "notes": args.notes or "",
+    })
+    save_ledger(path, ledger)
+    print(eid)
+    return 0
+
+
+def add_claim(args: argparse.Namespace) -> int:
+    path = Path(args.ledger)
+    ledger = load_json(path)
+    errors, _, _ = validate_ledger(ledger)
+    if errors:
+        raise ValueError("Fix ledger validation errors before adding claims: " + "; ".join(errors))
+    mode = ledger.get("meta", {}).get("mapping_mode", "minimal")
+    cap = MODE_LIMITS.get(mode, MODE_LIMITS["minimal"])["claims"]
+    if len(ledger["claims"]) >= cap and not args.force:
+        raise ValueError(f"Claim cap {cap} reached for {mode} mode. Use --force only after confirming the claim is load-bearing or directly dependent.")
+    ev_map = index_by(ledger["evidence"], "evidence_id")
+    claim_map = index_by(ledger["claims"], "claim_id")
+    for ref in args.evidence + args.counterevidence:
+        if ref not in ev_map:
+            raise ValueError(f"Unknown evidence ID: {ref}")
+    for ref in args.depends_on + args.supports:
+        if ref not in claim_map:
+            raise ValueError(f"Unknown claim ID: {ref}")
+    cid = next_id(ledger["claims"], "claim_id", "C")
+    ledger["claims"].append({
+        "claim_id": cid,
+        "text": args.text,
+        "kind": args.kind,
+        "certainty": args.certainty,
+        "status": "active",
+        "load_bearing": bool(args.load_bearing),
+        "evidence": args.evidence,
+        "counterevidence": args.counterevidence,
+        "depends_on": args.depends_on,
+        "dependency_logic": args.dependency_logic,
+        "supports": args.supports,
+        "what_changes_it": args.what_changes_it or "",
+        "minimum_case": bool(args.minimum_case),
+        "decisive_rank": args.decisive_rank,
+        "notes": args.notes or "",
+    })
+    save_ledger(path, ledger)
+    print(cid)
+    return 0
+
+
+def add_destination(args: argparse.Namespace) -> int:
+    path = Path(args.ledger)
+    ledger = load_json(path)
+    errors, _, _ = validate_ledger(ledger)
+    if errors:
+        raise ValueError("Fix ledger validation errors before adding destinations: " + "; ".join(errors))
+    mode = ledger.get("meta", {}).get("mapping_mode", "minimal")
+    cap = MODE_LIMITS.get(mode, MODE_LIMITS["minimal"])["destinations"]
+    if len(ledger["destinations"]) >= cap and not args.force:
+        raise ValueError(f"Destination cap {cap} reached for {mode} mode. Map only sections or derivative artifacts that depend materially on a premise.")
+    claim_map = index_by(ledger["claims"], "claim_id")
+    for ref in args.depends_on:
+        if ref not in claim_map:
+            raise ValueError(f"Unknown claim ID: {ref}")
+    did = next_id(ledger["destinations"], "destination_id", "D")
+    ledger["destinations"].append({
+        "destination_id": did,
+        "type": args.type,
+        "label": args.label,
+        "function": args.function or "",
+        "depends_on": args.depends_on,
+        "dependency_logic": args.dependency_logic,
+        "status": "active",
+        "intentional_omission_reason": "",
+        "notes": args.notes or "",
+    })
+    save_ledger(path, ledger)
+    print(did)
+    return 0
+
+
+def impact_analysis(ledger: dict[str, Any], failed_ids: list[str], failure_status: str) -> dict[str, Any]:
+    claims = ledger.get("claims", [])
+    destinations = ledger.get("destinations", [])
+    claim_map = index_by(claims, "claim_id")
+    for cid in failed_ids:
+        if cid not in claim_map:
+            raise KeyError(f"Unknown claim ID: {cid}")
+
+    classification: dict[str, str] = {}
+    initial = "invalidated" if failure_status == "contradicted" else "review"
+    for cid in failed_ids:
+        classification[cid] = initial
+
+    # Recompute until stable. A claim may upgrade from review to invalidated,
+    # but never downgrade. Only explicit depends_on edges participate.
+    changed = True
+    while changed:
+        changed = False
+        for claim in claims:
+            cid = claim.get("claim_id")
+            if not cid or cid in failed_ids:
+                continue
+            deps = set(claim.get("depends_on", []))
+            if not deps:
+                continue
+            invalid_deps = {d for d in deps if classification.get(d) == "invalidated"}
+            review_deps = {d for d in deps if classification.get(d) == "review"}
+            if not invalid_deps and not review_deps:
+                continue
+            logic = claim.get("dependency_logic", "all")
+            proposed = "review"
+            if failure_status == "contradicted" and not review_deps:
+                if logic == "all" and invalid_deps:
+                    proposed = "invalidated"
+                elif logic == "any" and deps and deps.issubset(set(classification)) and all(classification.get(d) == "invalidated" for d in deps):
+                    proposed = "invalidated"
+            old = classification.get(cid)
+            if old != "invalidated" and proposed == "invalidated":
+                classification[cid] = "invalidated"
+                changed = True
+            elif old is None:
+                classification[cid] = proposed
+                changed = True
+
+    invalidated = {cid for cid, state in classification.items() if state == "invalidated"}
+    review = {cid for cid, state in classification.items() if state == "review"}
+
+    dest_classification: dict[str, str] = {}
+    for dest in destinations:
+        did = dest.get("destination_id")
+        deps = set(dest.get("depends_on", []))
+        if not did or not deps:
+            continue
+        invalid_deps = deps & invalidated
+        review_deps = deps & review
+        if not invalid_deps and not review_deps:
+            continue
+        logic = dest.get("dependency_logic", "all")
+        if failure_status == "contradicted" and not review_deps:
+            if logic == "all" and invalid_deps:
+                dest_classification[did] = "invalidated"
+            elif logic == "any" and all(d in invalidated for d in deps):
+                dest_classification[did] = "invalidated"
+            else:
+                dest_classification[did] = "review"
+        else:
+            dest_classification[did] = "review"
+
+    dest_invalidated = {did for did, state in dest_classification.items() if state == "invalidated"}
+    dest_review = {did for did, state in dest_classification.items() if state == "review"}
+
+    failed_load_bearing = any(bool(claim_map[c].get("load_bearing")) for c in failed_ids)
+    critical_types = {"title", "subtitle", "opening", "thesis", "conclusion", "cta", "summary", "social", "video", "app"}
+    dest_map = index_by(destinations, "destination_id")
+    critical_invalidated = [d for d in dest_invalidated if dest_map.get(d, {}).get("type") in critical_types]
+    if failure_status == "contradicted" and failed_load_bearing and (len(critical_invalidated) >= 2 or len(invalidated) >= 3):
+        repair_scope = "global dependency review candidate"
+    elif invalidated or dest_invalidated:
+        repair_scope = "targeted dependency repair candidate"
+    else:
+        repair_scope = "review only"
+
+    return {
+        "failed_claims": failed_ids,
+        "failure_status": failure_status,
+        "invalidated_claims": sorted(invalidated),
+        "review_claims": sorted(review),
+        "invalidated_destinations": sorted(dest_invalidated),
+        "review_destinations": sorted(dest_review),
+        "failed_claim_load_bearing": failed_load_bearing,
+        "critical_destinations_invalidated": sorted(critical_invalidated),
+        "repair_scope": repair_scope,
+        "automatic_article_editing": False,
+        "explicit_edges_only": True,
+    }
+
+
+def impact_markdown(ledger: dict[str, Any], result: dict[str, Any], confirmation: str, basis: str) -> str:
+    claim_map = index_by(ledger.get("claims", []), "claim_id")
+    dest_map = index_by(ledger.get("destinations", []), "destination_id")
+    lines = [
+        "# Premise-Failure Impact Report",
+        "",
+        f"- Generated: {utc_now()}",
+        f"- Failure status tested: **{result['failure_status']}**",
+        f"- Confirmation: **{confirmation}**",
+        f"- Basis: {basis or '[not supplied]'}",
+        f"- Recommended scope: **{result['repair_scope']}**",
+        "- Article/source files modified: **no**",
+        "- Propagation method: explicit ledger edges only; no inferred dependencies",
+        "",
+        "> This report identifies review targets. It does not authorize or perform rewriting. A weakened premise triggers review, not automatic invalidation. A contradicted load-bearing premise still requires Joel's permission before substantive repair unless the current task already grants it.",
+        "",
+        "## Failed or weakened claims",
+        "",
+    ]
+    for cid in result["failed_claims"]:
+        c = claim_map[cid]
+        lines.append(f"- **{cid}** — {c.get('text','')} (load-bearing: {'yes' if c.get('load_bearing') else 'no'})")
+
+    def claim_section(title: str, ids: list[str]) -> None:
+        lines.extend(["", f"## {title}", ""])
+        if not ids:
+            lines.append("None.")
+        for cid in ids:
+            c = claim_map.get(cid, {})
+            lines.append(f"- **{cid}** — {c.get('text','')} — depends on: {', '.join(c.get('depends_on', [])) or 'none'}")
+
+    def dest_section(title: str, ids: list[str]) -> None:
+        lines.extend(["", f"## {title}", ""])
+        if not ids:
+            lines.append("None.")
+        for did in ids:
+            d = dest_map.get(did, {})
+            lines.append(f"- **{did}** [{d.get('type','')}] {d.get('label','')} — function: {d.get('function','')} — depends on: {', '.join(d.get('depends_on', [])) or 'none'}")
+
+    claim_section("Claims invalidated under the explicit dependency model", result["invalidated_claims"])
+    claim_section("Claims requiring review but not automatically invalidated", result["review_claims"])
+    dest_section("Destinations invalidated under the explicit dependency model", result["invalidated_destinations"])
+    dest_section("Destinations requiring review", result["review_destinations"])
+
+    lines += [
+        "",
+        "## Over-editing safeguards applied",
+        "",
+        "- No article text was changed.",
+        "- Only explicitly declared dependencies propagated.",
+        "- Unmapped paragraphs and artifacts were not presumed affected.",
+        "- Alternative-support (`any`) dependencies were reviewed rather than invalidated when another support remained.",
+        "- A global rebuild is only a candidate when a contradicted load-bearing premise reaches multiple critical destinations or several dependent claims.",
+        "- Repair still follows the article's edit contract and substantive-change permissions.",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def decisive_case_markdown(ledger: dict[str, Any], max_items: int) -> str:
+    claims = [c for c in ledger.get("claims", []) if c.get("minimum_case")]
+    claims.sort(key=lambda c: (c.get("decisive_rank") is None, c.get("decisive_rank") or 9999, c.get("claim_id")))
+    if not claims:
+        raise ValueError("No claims are marked minimum_case=true. The tool will not choose them automatically.")
+    selected = claims[:max_items]
+    omitted = claims[max_items:]
+    ev_map = index_by(ledger.get("evidence", []), "evidence_id")
+    lines = [
+        "# Minimum Decisive Case",
+        "",
+        "> Selection is explicit, not automated: only claims marked `minimum_case=true` are included. Audit first; compress second.",
+        "",
+    ]
+    for c in selected:
+        lines.append(f"## {c.get('decisive_rank') or '-'} — {c.get('claim_id')}")
+        lines.append("")
+        lines.append(c.get("text", ""))
+        lines.append("")
+        if c.get("evidence"):
+            lines.append("Evidence:")
+            for eid in c.get("evidence", []):
+                ev = ev_map.get(eid, {})
+                lines.append(f"- **{eid}** ({ev.get('probative_value','')}): {ev.get('description','')}")
+        if c.get("counterevidence"):
+            lines.append("Counterevidence/fairness:")
+            for eid in c.get("counterevidence", []):
+                ev = ev_map.get(eid, {})
+                lines.append(f"- **{eid}** ({ev.get('probative_value','')}): {ev.get('description','')}")
+        lines.append("")
+    fairness = ledger.get("meta", {}).get("fairness_limitation")
+    lines += ["## Fairness limitation", "", fairness or "[Add the most important limitation before publishing a compressed form.]", ""]
+    if omitted:
+        lines += ["## Omitted marked claims", "", f"{len(omitted)} marked claim(s) exceeded the requested maximum of {max_items}. Review whether the case is still genuinely minimal.", ""]
+    return "\n".join(lines)
+
+
+def cmd_assess(args: argparse.Namespace) -> int:
+    mode = resolve_mode(args.task_type, args.premise_risk, args.mode)
+    recommended = ledger_recommended(args.task_type, args.premise_risk)
+    print(json.dumps({
+        "task_type": args.task_type,
+        "premise_risk": args.premise_risk,
+        "recommended_mode": mode,
+        "deterministic_ledger_recommended": recommended,
+        "reason": (
+            "Research/contested task with material premise risk" if recommended
+            else "Use ordinary claim/source notes unless a premise becomes load-bearing or disputed"
+        ),
+        "limits": MODE_LIMITS[mode],
+        "automatic_article_editing": False,
+    }, indent=2))
+    return 0
+
+
+def cmd_init(args: argparse.Namespace) -> int:
+    paths = expand_sources(args.sources, args.recursive)
+    if not paths:
+        raise ValueError("No source files found")
+    mode = resolve_mode(args.task_type, args.premise_risk, args.mode)
+    root = common_root(paths)
+    sources = [build_source_record(p, f"S{i:03d}", root, args.max_segments_per_source) for i, p in enumerate(paths, 1)]
+    ledger = blank_ledger(args.project, args.task_type, args.premise_risk, mode, sources)
+    out = Path(args.out).resolve()
+    out.mkdir(parents=True, exist_ok=True)
+    write_json(out / "argument-ledger.json", ledger)
+    write_json(out / "source-index.json", {"packet_sha256": ledger["meta"]["source_packet_sha256"], "sources": sources})
+    (out / "source-index.md").write_text(source_index_markdown(ledger), encoding="utf-8")
+    (out / "argument-ledger.md").write_text(render_markdown(ledger), encoding="utf-8")
+    recommendation = "recommended" if ledger["meta"]["ledger_recommended_by_threshold"] else "not required by threshold"
+    print(f"Created {out / 'argument-ledger.json'} ({mode} mode; ledger {recommendation}).")
+    return 0
+
+
+def cmd_template(args: argparse.Namespace) -> int:
+    ledger = blank_ledger(args.project, args.task_type, args.premise_risk, resolve_mode(args.task_type, args.premise_risk, args.mode), [])
+    write_json(Path(args.out), ledger)
+    return 0
+
+
+def cmd_validate(args: argparse.Namespace) -> int:
+    ledger = load_json(Path(args.ledger))
+    errors, warnings, summary = validate_ledger(ledger)
+    report = {
+        "valid": not errors,
+        "summary": summary,
+        "errors": errors,
+        "warnings": warnings,
+        "article_files_modified": False,
+    }
+    if args.out:
+        write_json(Path(args.out), report)
+    print(json.dumps(report, indent=2))
+    return 2 if errors else 0
+
+
+def cmd_render(args: argparse.Namespace) -> int:
+    ledger = load_json(Path(args.ledger))
+    Path(args.out).write_text(render_markdown(ledger), encoding="utf-8")
+    return 0
+
+
+def cmd_impact(args: argparse.Namespace) -> int:
+    ledger = load_json(Path(args.ledger))
+    errors, warnings, _ = validate_ledger(ledger)
+    if errors:
+        raise ValueError("Cannot run impact analysis on invalid ledger: " + "; ".join(errors))
+    result = impact_analysis(ledger, args.claim, args.status)
+    result["validation_warnings_present"] = warnings
+    md = impact_markdown(ledger, result, args.confirmation, args.basis)
+    Path(args.out).write_text(md, encoding="utf-8")
+    if args.json_out:
+        write_json(Path(args.json_out), result)
+    print(result["repair_scope"])
+    return 0
+
+
+def cmd_decisive(args: argparse.Namespace) -> int:
+    ledger = load_json(Path(args.ledger))
+    errors, _, _ = validate_ledger(ledger)
+    if errors:
+        raise ValueError("Cannot derive decisive case from invalid ledger: " + "; ".join(errors))
+    Path(args.out).write_text(decisive_case_markdown(ledger, args.max_items), encoding="utf-8")
+    return 0
+
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
+        description="Generate and validate explicit argument-dependency ledgers without editing article prose.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=textwrap.dedent("""
+        Typical workflow:
+          argument_ledger.py assess --task-type investigation --premise-risk high
+          argument_ledger.py init sources/ --recursive --out ledger-work --task-type investigation --premise-risk high
+          argument_ledger.py add-evidence ledger-work/argument-ledger.json --description "Dated primary record" --probative-value decisive --source-segment S001-P0003
+          argument_ledger.py add-claim ledger-work/argument-ledger.json --text "The dated event occurred" --kind verified-fact --certainty established --load-bearing --evidence E-001
+          argument_ledger.py add-destination ledger-work/argument-ledger.json --type opening --label "Opening claim" --depends-on C-001
+          argument_ledger.py validate ledger-work/argument-ledger.json
+          argument_ledger.py impact ledger-work/argument-ledger.json --claim C-001 --status contradicted --confirmation provisional --basis "New source" --out impact.md
+
+        The tool has no command that edits an article. That omission is deliberate.
+        """),
+    )
+    sub = p.add_subparsers(dest="command", required=True)
+
+    assess = sub.add_parser("assess", help="Recommend ledger scope without creating files")
+    assess.add_argument("--task-type", choices=TASK_TYPES, default="ordinary")
+    assess.add_argument("--premise-risk", choices=RISKS, default="low")
+    assess.add_argument("--mode", choices=MAPPING_MODES, default="auto")
+    assess.set_defaults(func=cmd_assess)
+
+    init = sub.add_parser("init", help="Index a source packet and create a blank ledger")
+    init.add_argument("sources", nargs="+", help="Files or directories")
+    init.add_argument("--recursive", action="store_true")
+    init.add_argument("--out", required=True, help="Output directory")
+    init.add_argument("--project", default="")
+    init.add_argument("--task-type", choices=TASK_TYPES, default="ordinary")
+    init.add_argument("--premise-risk", choices=RISKS, default="low")
+    init.add_argument("--mode", choices=MAPPING_MODES, default="auto")
+    init.add_argument("--max-segments-per-source", type=int, default=500, help="0 means no segment cap")
+    init.set_defaults(func=cmd_init)
+
+    template = sub.add_parser("template", help="Write an empty ledger template")
+    template.add_argument("--out", required=True)
+    template.add_argument("--project", default="")
+    template.add_argument("--task-type", choices=TASK_TYPES, default="ordinary")
+    template.add_argument("--premise-risk", choices=RISKS, default="low")
+    template.add_argument("--mode", choices=MAPPING_MODES, default="auto")
+    template.set_defaults(func=cmd_template)
+
+    ev = sub.add_parser("add-evidence", help="Add a provenance-linked evidence item with a deterministic ID")
+    ev.add_argument("ledger")
+    ev.add_argument("--description", required=True)
+    ev.add_argument("--probative-value", choices=PROBATIVE_VALUES, required=True)
+    ev.add_argument("--source-segment", action="append", default=[])
+    ev.add_argument("--source-url", action="append", default=[])
+    ev.add_argument("--document-number")
+    ev.add_argument("--date")
+    ev.add_argument("--independence-group")
+    ev.add_argument("--establishes")
+    ev.add_argument("--does-not-establish")
+    ev.add_argument("--access-limit")
+    ev.add_argument("--notes")
+    ev.add_argument("--force", action="store_true", help="Override mode cap after explicit scope review")
+    ev.set_defaults(func=add_evidence)
+
+    claim = sub.add_parser("add-claim", help="Add a claim/premise with a deterministic ID")
+    claim.add_argument("ledger")
+    claim.add_argument("--text", required=True)
+    claim.add_argument("--kind", choices=CLAIM_KINDS, required=True)
+    claim.add_argument("--certainty", choices=CERTAINTIES, required=True)
+    claim.add_argument("--load-bearing", action="store_true")
+    claim.add_argument("--evidence", action="append", default=[])
+    claim.add_argument("--counterevidence", action="append", default=[])
+    claim.add_argument("--depends-on", action="append", default=[])
+    claim.add_argument("--dependency-logic", choices=DEPENDENCY_LOGIC, default="all")
+    claim.add_argument("--supports", action="append", default=[])
+    claim.add_argument("--what-changes-it")
+    claim.add_argument("--minimum-case", action="store_true")
+    claim.add_argument("--decisive-rank", type=int)
+    claim.add_argument("--notes")
+    claim.add_argument("--force", action="store_true", help="Override mode cap after explicit scope review")
+    claim.set_defaults(func=add_claim)
+
+    dest = sub.add_parser("add-destination", help="Add an article/derivative destination with explicit claim dependencies")
+    dest.add_argument("ledger")
+    dest.add_argument("--type", choices=DESTINATION_TYPES, required=True)
+    dest.add_argument("--label", required=True)
+    dest.add_argument("--function")
+    dest.add_argument("--depends-on", action="append", default=[], required=True)
+    dest.add_argument("--dependency-logic", choices=DEPENDENCY_LOGIC, default="all")
+    dest.add_argument("--notes")
+    dest.add_argument("--force", action="store_true", help="Override mode cap after explicit scope review")
+    dest.set_defaults(func=add_destination)
+
+    val = sub.add_parser("validate", help="Validate references, cycles, scope caps, and over-editing risks")
+    val.add_argument("ledger")
+    val.add_argument("--out")
+    val.set_defaults(func=cmd_validate)
+
+    render = sub.add_parser("render", help="Render the ledger as Markdown")
+    render.add_argument("ledger")
+    render.add_argument("--out", required=True)
+    render.set_defaults(func=cmd_render)
+
+    impact = sub.add_parser("impact", help="Report explicit downstream impact of a weakened/contradicted premise")
+    impact.add_argument("ledger")
+    impact.add_argument("--claim", action="append", required=True)
+    impact.add_argument("--status", choices=("weakened", "contradicted", "unknown"), required=True)
+    impact.add_argument("--confirmation", choices=("provisional", "source-audit", "joel-confirmed"), default="provisional")
+    impact.add_argument("--basis", default="")
+    impact.add_argument("--out", required=True)
+    impact.add_argument("--json-out")
+    impact.set_defaults(func=cmd_impact)
+
+    decisive = sub.add_parser("decisive-case", help="Render only claims explicitly marked for the minimum decisive case")
+    decisive.add_argument("ledger")
+    decisive.add_argument("--out", required=True)
+    decisive.add_argument("--max-items", type=int, default=6)
+    decisive.set_defaults(func=cmd_decisive)
+
+    return p
+
+
+def main() -> int:
+    parser = build_parser()
+    args = parser.parse_args()
+    try:
+        return int(args.func(args))
+    except (ValueError, KeyError, FileNotFoundError) as e:
+        print(f"ERROR: {e}", file=sys.stderr)
+        return 2
+    except KeyboardInterrupt:
+        print("Interrupted", file=sys.stderr)
+        return 130
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

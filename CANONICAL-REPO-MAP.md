@@ -20,31 +20,95 @@ This file is the fast loader for ChatGPT and other workers. It does not replace 
 
 ## Task-specific active sources
 
-### Recurring facts, naming, and links
-- `project-sources/CANON-FACTS.md`
-- the registered/current article index when one exists
+Load the least set that covers the task. The source families below are active
+routing aids; they do not establish article authority.
+
+### Any substantial article work
+
+- `project-sources/MASTER-INSTRUCTIONS.md`
+- `project-sources/TASK-MODES.md`
+
+### P2S/P3/P4, detector repair, and humanization
+
+- `project-sources/HUMANIZATION-AND-COHERENCE.md`
+- `project-sources/EDIT-CONTRACT-AND-LEDGERS.md`
+- `project-sources/FINGERPRINT-PASS.md`
+- `project-sources/BANNED-PATTERNS.md`
+- the relevant current material in `u-dont-existDOTcom/pangram-humanization-lab`,
+  following the fresh-read order in `SKILL.md`
 
 ### Research-heavy or contested argument work
+
 - `project-sources/ARGUMENT-AND-EVIDENCE-ARCHITECTURE.md`
 - `project-sources/ARGUMENT-LEDGER-QUICKSTART.md` when threshold-triggered
+- `project-sources/CONTROVERSIAL-TOPIC-EVIDENCE-AUDIT.md` when relevant
+- `project-sources/FACTS-HEALTH-FORMATTING.md` for factual and health sourcing rules
+- `project-sources/argument_ledger.py.txt` when the argument-ledger tooling is needed
+
+### Voice and corpus
+
+- `project-sources/VOICE-REFERENCE.md`
+- `project-sources/VOICE-LEXICON.md`
+- `project-sources/cancer-and-research-samples.txt`
+- `project-sources/community-before.txt`
+- `project-sources/tender-video-transcript.txt`
+
+Use corpus material by its documented provenance and function, never as factual
+authority.
 
 ### Artifact families and review packages
-- `project-sources/ARTIFACT-FAMILY-LEDGER-TEMPLATE.md`
-- `project-sources/review_package.py.txt`
 
-### Existing Substack article source/publishing
+- `project-sources/REVIEW-WORKFLOW-RULES.md`
+- `project-sources/REVIEW-INTERFACE-SPEC.md`
+- `project-sources/REVIEW-PACKAGE-REGRESSION.md`
+- `project-sources/QUALITY-FORECAST-AND-PASS-REVIEW.md`
+- `project-sources/ARTIFACT-FAMILY-LEDGER-TEMPLATE.md`
+- `project-sources/COMMENT-RESOLUTION-LEDGER-TEMPLATE.md`
+- `project-sources/PROJECT-STATE-TEMPLATE.md`
+- `project-sources/review_package.py.txt`
+- `project-sources/interactive_review.py.txt`
+- `project-sources/review_interface_browser_test.py.txt`
+- `project-sources/review_interface_template.html.txt`
+
+The restored protocols also mention the optional `html_diff.py.txt` source.
+That source is not a member of the owner-supplied 40-file baseline and is not
+present elsewhere in this repository. Treat it as unresolved; do not invent or
+reconstruct it from prose descriptions.
+
+### Substack and publishing
+
 - `project-sources/INTERLINKING-AND-HTML-SOURCE.md`
 - `project-sources/CONFIRMED-SUBSTACK-HELPER.json`
 - `project-sources/html_islands.py.txt`
 - `project-sources/substack_transfer_helper.py.txt`
+- `project-sources/html_publish_modes.py.txt`
+- `project-sources/interactive_review.py.txt`
+- `project-sources/review_interface_browser_test.py.txt`
+- `project-sources/review_interface_template.html.txt`
+- `project-sources/VISUAL-EDITORIAL-PROTOCOL.md`
+- `project-sources/TOOLING-IN-PROJECT-SOURCES.md`
 - video regression tests under `tests/`
 
-### Humanization/detector work
-Read the relevant current repo governance plus the private detector repository:
-- `u-dont-existDOTcom/pangram-humanization-lab/README.md`
-- `state/WORKING-LESSONS.md`
-- relevant case study
-- newest relevant case/history
+The same-named current publishing helpers above supersede their historical
+4.11.1 copies where the recovery manifest says so. In particular, retain the
+current native-uploaded-video and video-post distinction.
+
+The checked-in helper authorities are the `project-sources/*.py.txt` files.
+Protocol commands using a plain `.py` filename describe an exact runtime
+materialization. In particular, route restored references to the nonexistent
+`scripts/html_islands.py` through the current
+`project-sources/html_islands.py.txt`, materialized as `html_islands.py` only
+when the tool is needed.
+
+### Interlinking, recurring facts, naming, and links
+
+- `project-sources/ARTICLE-INDEX.md` — publication/interlink working index
+- `project-sources/CANON-FACTS.md` — current recurring-facts source
+- the registered article's current authority files when one exists
+
+Never confuse `project-sources/ARTICLE-INDEX.md` with `articles/INDEX.json`.
+Only `articles/INDEX.json` is the canonical repository-wide article-authority
+registry.
 
 ## Article-local authority once imported
 
