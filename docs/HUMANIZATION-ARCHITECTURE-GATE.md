@@ -21,8 +21,22 @@ A local detector-red span can be a symptom of wrong routing or duplicate realiza
 
 A **100% Human** detector result is still editorially invalid if this architecture regression fails. Detector green cannot repair a broken heading promise, paragraph chain, lost protected function, displaced owner thought, or fidelity loss.
 
+## Authorship-signal regression
+
+For `D3` sectional reconstruction and `D4` article-wide regeneration, also apply `../project-sources/IDIOLECT-PRESERVATION-PROTOCOL.md`. Compare the authoritative original and candidate with a held-out, genre-relevant corpus only after corpus provenance and target voice are explicit. Narrow `D1` correction and ordinary `D2` local repair do not automatically require measurement.
+
+Keep three results separate:
+
+1. semantic/editorial fidelity and architecture;
+2. exact-boundary detector status;
+3. authorship-signal retention under a named instrument and corpus.
+
+A preserve-voice prompt is not validation. Pangram Human does not prove Joel's idiolect survived. A higher profile-similarity score does not prove fidelity, authorship, or quality. Do not impose a universal threshold or manufacture errors, memories, catchphrases, fake specificity, unusual punctuation, or corpus tics to improve the measurement. When a substantial rewrite drifts, first restore owner wording or thought routes, reduce the edit dose, or localize the repair.
+
 ## Provenance
 
-This rule was promoted from the 2026-08-14 Spiritual Bypassing incident. A reader-visible article reached 100% Human while its first section no longer fulfilled `A Primer on Spiritual Bypassing`. The successful repair came from recovering an existing Joel realization elsewhere in the article and routing it into the primer rather than continuing to paraphrase detector windows. A later cold audit also restored an inherited line that detector-focused editing had silently dropped.
+The architecture rule was promoted from the 2026-08-14 Spiritual Bypassing incident. A reader-visible article reached 100% Human while its first section no longer fulfilled `A Primer on Spiritual Bypassing`. The successful repair came from recovering an existing Joel realization elsewhere in the article and routing it into the primer rather than continuing to paraphrase detector windows. A later cold audit also restored an inherited line that detector-focused editing had silently dropped.
 
-Exact detector evidence and the incident record remain canonical in `u-dont-existDOTcom/pangram-humanization-lab`.
+The authorship-signal layer is grounded in Malik and Awan's 2026 Idiolect Erasure Rate study and the implementation/limitations recorded in `u-dont-existDOTcom/pangram-humanization-lab`.
+
+Exact detector evidence and the architecture incident record remain canonical in `u-dont-existDOTcom/pangram-humanization-lab`.
