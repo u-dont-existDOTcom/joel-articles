@@ -1,24 +1,25 @@
-# Love, Honestly v0.3.0 Game Architecture
+# Love, Honestly v0.3.2 Game Architecture
 
-Status: durable private product-architecture snapshot for the released standalone game. This branch is intentionally not merged into the article-governance `main` branch. The complete project history is carried by the verified Git bundle.
-
-This is the canonical operational map. Update it whenever a consequential phase, safety exit, serialized record, category default, source boundary, or setup-to-revisit dependency changes.
+This is the canonical operational map for the standalone game. Update it whenever a consequential phase, safety exit, serialized record, category default, source boundary, or setup-to-revisit dependency changes.
 
 ## Player flow
 
 ```mermaid
 flowchart TD
-    W["Welcome: title, exact Romance Guide link, compact source disclosure"] --> S["Setup: route, depth, length, topics"]
+    W["Welcome: guide link, source disclosure, spoken-answer privacy"] --> S["Setup: route, depth, length, topics"]
     S --> HA["Private safety handoff: person A"]
     HA --> SA["A: freely answer, skip, pause, stop?"]
     SA -->|"No or unsure"| STOP["Anonymous joint-game stop"]
     SA -->|"Yes"| HB["Private safety handoff: person B"]
     HB --> SB["B: freely answer, skip, pause, stop?"]
     SB -->|"No or unsure"| STOP
-    SB -->|"Yes"| EA0["Private card + evidence basis: A"]
-    EA0 --> EA1["Private same card + evidence basis: B"]
-    EA1 --> D["Share answers; listener mirrors before arguing"]
-    D --> CA["Private classification: A"]
+    SB -->|"Yes"| AA0["A privately forms the actual open-ended answer"]
+    AA0 --> EA0["A labels what that answer is based on"]
+    EA0 --> AA1["B privately forms the same actual answer"]
+    AA1 --> EA1["B labels what that answer is based on"]
+    EA1 --> D1["Both answer the main question aloud; listener mirrors and speaker corrects"]
+    D1 --> D2["Both answer the follow-up aloud; listener mirrors and speaker corrects"]
+    D2 --> CA["Private classification: A"]
     CA --> CB["Private classification: B"]
     CB --> U{"Either marked Not safe to resolve here?"}
     U -->|"Yes"| USTOP["Anonymous topic stop; no reality experiment"]
@@ -27,31 +28,37 @@ flowchart TD
     R -->|"No"| N["Next card or evidence map"]
     R -->|"2 days / 1 week / 1 month"| P["Store card-specific experiment when present; otherwise deterministic category experiment"]
     P --> N
-    N -->|"More cards"| EA0
+    N -->|"More cards"| AA0
     N -->|"Finish"| M["Evidence map: two perspectives, no score"]
-    M --> RV["Open scheduled revisit"]
+    M --> HOME["Return later: show scheduled review + target date"]
+    HOME --> ANY["Review now remains available before / on / after target date"]
+    ANY --> RV["Open scheduled revisit"]
     RV --> RA["Private ordinary-life result + discrepancy: A"]
     RA --> RB["Private ordinary-life result + discrepancy: B"]
     RB --> RC["Reveal two revisit results"]
     RC --> M
 ```
 
-## Epistemic dependency
+## Answer and epistemic dependency
 
 ```mermaid
 flowchart LR
-    Q["Card prompt"] --> T["Independent testimony"]
-    T --> E["Evidence-basis label"]
-    E --> X["Shared conversation + corrected mirror"]
-    X --> J["Two private judgments"]
+    Q["Card prompt"] --> A["Actual answer formed in the player's own words"]
+    A --> E["Evidence-basis label about that answer"]
+    E --> S1["Primary answer spoken aloud"]
+    S1 --> M1["Corrected mirror"]
+    M1 --> F["Follow-up answer spoken aloud"]
+    F --> M2["Corrected mirror"]
+    M2 --> J["Two private judgments"]
     J --> O["Overt ordinary-life experiment"]
     O --> V["Delayed two-person revisit"]
-    V --> M["Evidence map"]
+    V --> MAP["Evidence map"]
 
+    META["Epistemic metadata"] -. "describes how the answer is known; never replaces" .-> A
     CLOSE["Felt closeness"] -. "may be real but is not equivalent to" .-> O
-    BODY["Arousal or body response"] -. "never proves someone should stay" .-> M
+    BODY["Arousal or body response"] -. "never proves someone should stay" .-> MAP
     INTENSITY["Spiritual or sexual intensity"] -. "is not durable integration" .-> O
-    SCORE["Compatibility score"] -. "deliberately absent" .-> M
+    SCORE["Compatibility score"] -. "deliberately absent" .-> MAP
 ```
 
 ## Safety routing
@@ -82,7 +89,8 @@ flowchart LR
     STORE --> PLANS["Reality-step text, due dates, statuses"]
     STORE --> REVISITS["Per-person revisit labels"]
 
-    SPOKEN["Spoken answers"] -. "not stored" .-> STORE
+    PRIVATEANSWER["Private answer formation"] -. "no field and no serialization" .-> STORE
+    SPOKEN["Spoken primary and follow-up answers"] -. "not stored" .-> STORE
     PROMPTS["Prompt / follow-up / why / source prose"] -. "not serialized" .-> STORE
     SOURCE["Structured source metadata"] -. "not serialized" .-> STORE
     FREE["Free-text answer fields"] -. "do not exist" .-> STORE
@@ -136,17 +144,26 @@ flowchart TD
     ABOUT --> NOTE["Sources are not co-authors"]
 ```
 
-## Non-negotiable invariants
+## Backward recovery
+
+- Legacy v0.3.0 `discuss` state renders as the new primary spoken-answer phase.
+- Existing `private-evidence-*` phases remain readable rather than corrupting or discarding a saved session.
+- New sessions always pass through `private-answer-*` before `private-evidence-*`.
+- Card IDs and local-storage schema version 2 remain unchanged.
+
+## Authority and invariants
 
 - The exact first-screen link remains `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
 - Joel’s guide remains the product authority; additional credits do not imply joint authorship.
+- The actual open-ended answer is a first-class phase and is spoken aloud; evidence labels are secondary metadata.
 - The card-function matrix governs extend/add/omit decisions and blocks paragraph-by-paragraph deck inflation.
-- Existing v0.2.1 card IDs and storage schema v2 remain stable.
+- Existing card IDs and storage schema v2 remain stable.
 - Two private classifications and two private revisit records remain separate.
 - A safety stop remains anonymous.
 - Reality steps are overt. Card-specific experiments override category fallbacks; secret tests are prohibited.
 - Sexual, flirtation, receiving, rank, role-play, and spiritual cards preserve the explicit non-obligation and abuse boundaries.
 - A scheduled reality plan becomes complete only after both people submit a revisit.
+- The target date is a reminder target, not an access lock. Pending reviews are surfaced on the welcome screen with the scheduled date and an explicit `Review now` action at all times.
 - No compatibility score may be added without an explicit product-authority change.
-- Spoken answers, card prose, and source metadata remain outside serialized session data.
+- No answer field, spoken answer, card prose, or source metadata enters serialized session data.
 - The application makes no automatic external request; the Romance Guide link is user-initiated navigation only.
