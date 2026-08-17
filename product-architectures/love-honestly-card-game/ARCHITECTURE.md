@@ -1,4 +1,4 @@
-# Love, Honestly v0.2.0 Game Architecture
+# Love, Honestly v0.2.1 Game Architecture
 
 Status: durable private product-architecture snapshot for the released standalone game.
 
@@ -12,11 +12,31 @@ A deep answer is testimony, not proof. Preserve this sequence:
 
 Do not revert to v0.1's single negotiated outcome model.
 
+## Source attribution invariant
+
+The first screen must visibly say exactly:
+
+**Based on the U-Dont-Exist Romance Guide**
+
+The complete phrase is a link to:
+
+`https://romance.u-dont-exist.com`
+
+The link may open in a separate browser tab. It is attribution and navigation, not an application data request. The standalone game must otherwise remain network-independent.
+
+```mermaid
+flowchart LR
+    W["Welcome screen"] --> C["Based on the U-Dont-Exist Romance Guide"]
+    C --> L["https://romance.u-dont-exist.com"]
+    C -. "credits the source without changing product authority" .-> G["Romance Guide"]
+    W --> P["Talk · Test · Revisit explanation"]
+```
+
 ## Player flow
 
 ```mermaid
 flowchart TD
-    W["Welcome: Talk · Test · Revisit"] --> S["Setup: route, depth, length, topics"]
+    W["Welcome: title, Romance Guide credit, Talk · Test · Revisit"] --> S["Setup: route, depth, length, topics"]
     S --> HA["Private safety handoff: person A"]
     HA --> SA["A: freely answer, skip, pause, stop?"]
     SA -->|"No or unsure"| STOP["Anonymous joint-game stop"]
@@ -115,6 +135,7 @@ flowchart LR
 
 ## Non-negotiable invariants
 
+- The first screen carries the exact visible linked credit `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
 - Two private classifications and two private revisit records remain separate.
 - A safety stop remains anonymous.
 - Reality steps are overt, category-specific, and never secret tests.
@@ -123,3 +144,4 @@ flowchart LR
 - Spoken answers and card prose remain outside serialized session data.
 - Ordinary life, clarity, conflict, community, trust, promises, children, and life design carry more selection weight than optional polarity or altered-state material.
 - Article-specific claims, autobiography, evidence, and rhetoric remain in the article rather than being silently generalized by the game.
+- The Romance Guide link is the only permitted external URL in the standalone release; no remote script, stylesheet, font, analytics, account, or runtime data dependency may be added.
