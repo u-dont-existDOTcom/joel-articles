@@ -61,6 +61,7 @@ Use one ledger for an article and every related destination: archival HTML, tran
 | Self-hosted page | standalone HTML |  | approved article content/assets | self-host adapter | source + destination | hosted-page test |  |
 | Ghost card | embedded fragment |  | self-hosted/article artifact | Ghost adapter | source + destination | real Ghost upload |  |
 
+
 ### Substack video object distinction
 
 - **Native Substack-uploaded video:** preserve the exact source island and identity in archival HTML; exclude it from every clipboard payload; split the helper at its exact position; record ordered manual reinsertion with preceding/following anchors.
