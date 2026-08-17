@@ -1,67 +1,50 @@
-# Fresh-conversation handoff: Love, Honestly v0.3.0
+# Fresh-conversation handoff: Love, Honestly v0.3.2
 
-Continue from the durable v0.3.0 release rather than reconstructing the game from chat history.
+Continue from the verified v0.3.2 bundle rather than reconstructing the game from chat history.
 
 ## Authority
 
-- Product: **Love, Honestly**
-- Release: `v0.3.0`
-- Release commit: `66dba59994e3fe67f7158aac940015057c252aaa`
-- Annotated tag object: `31241f3b91b1a316076003da4c5b7fa44de7ee1a`
-- Release closeout head: `7e523e568fde8249645255f76fcbc7f54c976e54`
-- Immediate predecessor: `v0.2.1` at `7f56a441b1ccb61520711c67dbb2ae6d46098ceb`
-- Primary product source: U-Dont-Exist Romance Guide
+- Release: `v0.3.2`
+- Release commit: `b76d18642df026c63fb75ccaa9d221d6b25cf165`
+- Annotated tag object: `59397ba3fd20fe8fe354f7d23e676b0ce15670d5`
+- Final bundle `main`: `22e306e9264f0957e69395dbb5e1d2a65561a2d8`
+- Predecessor: `v0.3.1` / `1f023dd8a2f48b01e01c1f80b8fee9c047c7964c`
 - Exact visible source line: `Based on the U-Dont-Exist Romance Guide`
 - Exact href: `https://romance.u-dont-exist.com`
 
-## Recovery order
-
-1. Recover complete source from `Love-Honestly-Card-Game-v0.3.0.bundle`.
-2. Verify every artifact against `Love-Honestly-v0.3.0-SHA256.txt`.
-3. Clone the bundle and confirm `v0.3.0^{}` resolves to the release commit above.
-4. Read `PRODUCT.md`, `DESIGN.md`, `surfaces/game.md`, `CURRENT-STATE.md`, and `README.md` inside the bundle.
-5. Read `docs/GAME-FLOW.md`, `docs/CARD-FUNCTION-MATRIX-v0.3.0.md`, and `docs/ARTICLE-MAPPING.md`.
-6. Read the v0.3.0 specification, implementation plan, release notes, and release manifest.
-7. Create an isolated branch before changing behavior.
-
 ## Governing product loop
 
-**Testimony → evidence basis → two private judgments → overt ordinary-life experiment → delayed private revisit.**
+**Private answer formation → evidence basis → spoken primary and follow-up answers → two private judgments → overt ordinary-life experiment → scheduled reminder target → review whenever the pair chooses → private revisit → comparison without scoring.**
 
-A good conversation is evidence that the pair can have a good conversation. It is not a compatibility verdict.
+## v0.3.2 decision not to rediscover
 
-## v0.3.0 decisions not to rediscover
+A scheduled review date is **not an access lock**. It is a target date that brings the experiment back to attention.
 
-- Preserve every v0.2.1 card ID and storage schema v2.
-- Revise an existing card when a new article concept sharpens the same function; do not add a near-duplicate.
-- The v0.3.0 function matrix is the durable extend/add/omit record.
-- Card-specific experiments override generic category experiments.
-- Spiritual practice is an explicit sensitive opt-in category, not default Love content.
-- The source panel is compact and semantic; citations do not appear on every playable card.
-- Doug Toft, Kim Anami, Buddhist/lived spiritual-practice material, and relationship research are credited sources, not co-authors.
-- Affection and flirtation create no sexual obligation.
-- Sexual changes are multicausal and not diagnostic tests.
-- Body response is not evidence that someone should stay.
-- Money and competence are problematic when they become rank, not merely when a woman succeeds or a man earns less.
-- Listen-or-solve never reframes intimidation, false accusation, coercion, or retaliation as a style mismatch.
-- Role-play is not role capture.
-- Sex is not required for awakening; intensity is not durable integration.
+Therefore:
 
-## Verification boundary
+- pending reviews appear on the welcome screen when the saved session is reopened;
+- each shows `Scheduled for ...` plus relative timing;
+- pending plans are surfaced chronologically;
+- each always exposes `Review now` before, on, or after the target date;
+- the Evidence map repeats the target date and reminder-not-lock boundary;
+- do not add due-date enforcement unless the owner explicitly reverses this decision.
 
-Run:
+## Preserved boundaries
 
-```bash
-npm test
-npm run build
-npm run verify
-npm run test:browser
-npm run verify:release
-git diff --check
-```
+- Spoken answers are not stored.
+- Epistemic labels are metadata, not answers.
+- No compatibility score or secret tests.
+- Anonymous safety stop remains anonymous.
+- Storage schema remains v2 unless a real migration requires change.
+- No automatic external request.
+- v0.1.0 Article Edition remains byte-preserved.
 
-The released tree passed 34 Node tests and all normal, safety-stop, not-safe, storage, revisit, source-disclosure, optional-topic, screenshot, and no-network browser paths.
+## Recovery
 
-## Architecture update rule
+1. Recover `Love-Honestly-Card-Game-v0.3.2.bundle`.
+2. Verify against `Love-Honestly-v0.3.2-SHA256.txt`.
+3. Confirm bundle `main` = `22e306e9264f0957e69395dbb5e1d2a65561a2d8` and `v0.3.2^{}` = `b76d18642df026c63fb75ccaa9d221d6b25cf165`.
+4. Read product/design/surface/current-state/game-flow records before editing.
+5. Run `npm run verify:release` and `git diff --check` after changes.
 
-Any change to a consequential phase, safety exit, serialized record, category default, source boundary, card-function disposition, or setup-to-revisit dependency must update the relevant Mermaid map and durable ledger in the same commit.
+The browser regression must keep proving that a future-dated review can be opened immediately by choice.
