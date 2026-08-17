@@ -1,0 +1,1019 @@
+#!/usr/bin/env python3
+"""Build and verify Substack clipboard helpers without copying native uploaded video.
+
+The archival editor HTML remains authoritative. This generator creates either:
+
+* one rich-HTML payload when the article contains no standalone native uploaded video; or
+* ordered rich-HTML segments separated by explicit manual native-video insertion steps.
+
+A Substack video-post embed is not a standalone native uploaded video. Its rendered
+DigestPostEmbed is replaced by the canonical post URL inside the current segment, so
+Substack can reconstruct the card without forcing a split.
+
+Static verification proves source identity and transfer conversion only. It cannot
+prove the final Opera clipboard operation or Substack reconstruction.
+"""
+from __future__ import annotations
+
+import argparse
+import base64
+import hashlib
+import importlib.util
+from importlib.machinery import SourceFileLoader
+import html
+import json
+import re
+import sys
+import tempfile
+from pathlib import Path
+from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+
+SOURCE_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(SOURCE_DIR))
+try:
+    import html_islands as _html_islands  # type: ignore
+except ModuleNotFoundError:
+    source_path = SOURCE_DIR / "html_islands.py.txt"
+    loader = SourceFileLoader("html_islands", str(source_path))
+    spec = importlib.util.spec_from_loader(loader.name, loader)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Cannot load {source_path}")
+    _html_islands = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = _html_islands
+    spec.loader.exec_module(_html_islands)
+
+candidate_urls = _html_islands.candidate_urls
+classify_object = _html_islands.classify_object
+extract_editor_body = _html_islands.extract_editor_body
+find_protected_spans = _html_islands.find_protected_spans
+heading_context = _html_islands.heading_context
+native_media_identity = _html_islands.native_media_identity
+preferred_canonical_url = _html_islands.preferred_canonical_url
+sha256 = _html_islands.sha256
+
+PLAN_FORMAT = "joel-substack-transfer-plan-v4"
+HELPER_FORMAT = "joel-substack-transfer-helper-v4"
+COMPAT_FORMATS = {
+    "joel-substack-helper-compat-v3",
+    "joel-substack-helper-compat-v3-candidate",
+}
+TRACKING_KEYS = {"fbclid", "gclid", "mc_cid", "mc_eid", "ref", "source"}
+ALLOWED_STRATEGIES = {
+    "rich_html",
+    "canonical_url_in_payload",
+    "manual_native_if_present",
+    "split_payload_manual_native_video_insertion",
+    "unverified",
+}
+FALSE_ATTR_PATTERNS = (
+    re.compile(r"\s+contenteditable\s*=\s*([\"'])false\1", re.I),
+    re.compile(r"\s+draggable\s*=\s*([\"'])true\1", re.I),
+)
+WRAPPER_PREFIX = '<div dir="auto" class="body markup">'
+WRAPPER_SUFFIX = "</div>"
+
+
+def canonicalize_url(value: str) -> str:
+    value = html.unescape(value.strip())
+    parts = urlsplit(value)
+    scheme = parts.scheme.lower()
+    host = (parts.hostname or "").lower()
+    port = parts.port
+    if port and not ((scheme == "https" and port == 443) or (scheme == "http" and port == 80)):
+        host = f"{host}:{port}"
+    path = re.sub(r"/{2,}", "/", parts.path or "/")
+    if path != "/":
+        path = path.rstrip("/")
+    query_items = []
+    for key, item in parse_qsl(parts.query, keep_blank_values=True):
+        lowered = key.lower()
+        if lowered.startswith("utm_") or lowered in TRACKING_KEYS:
+            continue
+        query_items.append((key, item))
+    query_items.sort()
+    return urlunsplit((scheme, host, path, urlencode(query_items), ""))
+
+
+def b64(value: str) -> str:
+    return base64.b64encode(value.encode("utf-8")).decode("ascii")
+
+
+def unb64(value: str) -> str:
+    return base64.b64decode(value).decode("utf-8")
+
+
+def plain_from_html(value: str) -> str:
+    value = re.sub(r"<script\b.*?</script>", " ", value, flags=re.I | re.S)
+    value = re.sub(r"<style\b.*?</style>", " ", value, flags=re.I | re.S)
+    value = re.sub(r"<br\s*/?>", "\n", value, flags=re.I)
+    value = re.sub(r"</(?:p|h[1-6]|li|blockquote|div|figure|section|article)\s*>", "\n", value, flags=re.I)
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = html.unescape(value)
+    lines = [re.sub(r"[ \t]+", " ", line).strip() for line in value.splitlines()]
+    return "\n".join(line for line in lines if line).strip()
+
+
+def load_compat(path: Path) -> dict[str, Any]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("format") not in COMPAT_FORMATS:
+        raise ValueError(f"Unsupported compatibility profile format: {data.get('format')!r}")
+    required = [
+        "target_browser",
+        "opening_context",
+        "destination",
+        "payload_mode",
+        "transfer_wrapper",
+        "editor_lock_removal",
+        "rich_html_copy",
+        "native_objects",
+    ]
+    missing = [key for key in required if key not in data]
+    if missing:
+        raise ValueError("Compatibility profile missing: " + ", ".join(missing))
+    wrapper = data.get("transfer_wrapper", {})
+    if wrapper.get("tag") != "div" or wrapper.get("attributes") != {"dir": "auto", "class": "body markup"}:
+        raise ValueError("Compatibility wrapper must be div dir=auto class=body markup")
+    if set(data.get("editor_lock_removal", [])) != {"contenteditable=false", "draggable=true"}:
+        raise ValueError("Compatibility profile may remove only the two confirmed editor locks")
+    objects = data.get("native_objects", {})
+    native = objects.get("native_video", {})
+    if native.get("strategy") != "split_payload_manual_native_video_insertion":
+        raise ValueError("Stale profile: native_video must force split/manual insertion")
+    video_post = objects.get("substack_video_post_embed", {})
+    if video_post.get("strategy") != "canonical_url_in_payload":
+        raise ValueError("Profile must keep Substack video-post embeds as canonical URLs")
+    if video_post.get("forces_payload_split") is not False:
+        raise ValueError("Substack video-post embeds must not force a payload split")
+    for object_type, profile in objects.items():
+        if not isinstance(profile, dict):
+            raise ValueError(f"Object profile must be an object: {object_type}")
+        strategy = profile.get("strategy", "unverified")
+        if strategy not in ALLOWED_STRATEGIES:
+            raise ValueError(f"Invalid strategy for {object_type}: {strategy}")
+    return data
+
+
+def object_profile(compat: dict[str, Any], object_type: str) -> dict[str, Any]:
+    aliases = {
+        "native_video": ("native_video", "substack_native_video"),
+        "substack_video_post_embed": ("substack_video_post_embed", "substack_video_post_digest"),
+    }
+    for key in aliases.get(object_type, (object_type,)):
+        value = compat.get("native_objects", {}).get(key)
+        if isinstance(value, dict):
+            strategy = value.get("strategy", "unverified")
+            if strategy not in ALLOWED_STRATEGIES:
+                raise ValueError(f"Invalid strategy for {object_type}: {strategy}")
+            return dict(value)
+    return {"strategy": "unverified", "status": "unverified"}
+
+
+def source_objects(body: str) -> list[dict[str, Any]]:
+    objects: list[dict[str, Any]] = []
+    for idx, (start, end) in enumerate(find_protected_spans(body), 1):
+        raw = body[start:end]
+        object_type, recommendation = classify_object(raw)
+        before, after = heading_context(body, start, end)
+        urls = candidate_urls(raw)
+        canonical = preferred_canonical_url(object_type, raw, urls)
+        media_id = (
+            native_media_identity(raw, object_type)
+            if object_type in {"native_video", "substack_video_post_embed"}
+            else None
+        )
+        objects.append({
+            "id": idx,
+            "type": object_type,
+            "start": start,
+            "end": end,
+            "source_sha256": sha256(raw.encode("utf-8")),
+            "preceding_anchor": before,
+            "following_anchor": after,
+            "candidate_urls": urls,
+            "canonical_url": canonical,
+            "media_id": media_id,
+            "recommended_strategy": recommendation,
+        })
+    return objects
+
+
+def init_plan(source: Path, plan_path: Path, inventory_path: Path | None, compat_path: Path) -> None:
+    raw = source.read_bytes()
+    text = raw.decode("utf-8")
+    body, boundary = extract_editor_body(text)
+    objects = source_objects(body)
+    compat = load_compat(compat_path)
+    plan_objects = []
+    for obj in objects:
+        profile = object_profile(compat, obj["type"])
+        plan_objects.append({
+            "id": obj["id"],
+            "type": obj["type"],
+            "source_sha256": obj["source_sha256"],
+            "preceding_anchor": obj["preceding_anchor"],
+            "following_anchor": obj["following_anchor"],
+            "candidate_urls": obj["candidate_urls"],
+            "canonical_url": obj["canonical_url"],
+            "media_id": obj["media_id"],
+            "strategy": profile.get("strategy", "unverified"),
+            "profile_status": profile.get("status", "unverified"),
+            "add_can_restack_if_missing": bool(profile.get("add_can_restack_if_missing", False)),
+            "destination_result": "final_destination_retest_pending",
+        })
+    plan = {
+        "format": PLAN_FORMAT,
+        "source_file": source.name,
+        "source_sha256": sha256(raw),
+        "editor_body_sha256": sha256(body.encode("utf-8")),
+        "editor_body_boundary": boundary,
+        "destination": compat["destination"],
+        "browser": compat["target_browser"],
+        "file_opening_path": compat["opening_context"],
+        "compatibility_profile_name": compat.get("profile_name", compat_path.name),
+        "objects": plan_objects,
+    }
+    plan_path.parent.mkdir(parents=True, exist_ok=True)
+    plan_path.write_text(json.dumps(plan, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    if inventory_path:
+        inventory = {
+            "format": "human-voice-semantic-object-inventory-v3",
+            "source_file": source.name,
+            "source_sha256": sha256(raw),
+            "editor_body_sha256": sha256(body.encode("utf-8")),
+            "object_count": len(objects),
+            "object_counts_by_type": {
+                kind: sum(1 for item in objects if item["type"] == kind)
+                for kind in sorted({item["type"] for item in objects})
+            },
+            "objects": objects,
+            "validation_scope": {
+                "source_fidelity": "inventory_only",
+                "transfer_conversion": "profile_assigned_not_destination_proven",
+                "destination_result": "untested",
+            },
+        }
+        inventory_path.parent.mkdir(parents=True, exist_ok=True)
+        inventory_path.write_text(json.dumps(inventory, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Initialized transfer plan for {len(objects)} object(s): {plan_path}")
+
+
+def load_plan(path: Path) -> dict[str, Any]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("format") != PLAN_FORMAT:
+        raise ValueError(f"Unsupported transfer plan format: {data.get('format')!r}")
+    return data
+
+
+def validate_plan(
+    source: Path,
+    plan_path: Path,
+    compat_path: Path,
+) -> tuple[str, str, dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], dict[str, Any]]:
+    raw = source.read_bytes()
+    text = raw.decode("utf-8")
+    body, boundary = extract_editor_body(text)
+    plan = load_plan(plan_path)
+    compat = load_compat(compat_path)
+    if sha256(raw) != plan.get("source_sha256"):
+        raise ValueError("Transfer plan source hash does not match exact final HTML; regenerate")
+    if sha256(body.encode("utf-8")) != plan.get("editor_body_sha256"):
+        raise ValueError("Transfer plan editor-body hash mismatch; regenerate")
+    if boundary != plan.get("editor_body_boundary"):
+        raise ValueError("Editor-body extraction boundary changed; regenerate")
+    actual = source_objects(body)
+    planned = plan.get("objects", [])
+    if len(actual) != len(planned):
+        raise ValueError("Native-object count changed; regenerate")
+    for current, recorded in zip(actual, planned):
+        signature = (current["id"], current["type"], current["source_sha256"])
+        recorded_signature = (recorded.get("id"), recorded.get("type"), recorded.get("source_sha256"))
+        if signature != recorded_signature:
+            raise ValueError(f"Object {current['id']} no longer matches the plan; regenerate")
+        strategy = recorded.get("strategy")
+        if strategy not in ALLOWED_STRATEGIES or strategy == "unverified":
+            raise ValueError(f"Object {current['id']} has unsupported/unverified strategy: {strategy}")
+        if strategy == "canonical_url_in_payload" and not recorded.get("canonical_url"):
+            raise ValueError(f"Object {current['id']} requires a canonical URL but none is recorded")
+        if current["type"] == "native_video" and strategy != "split_payload_manual_native_video_insertion":
+            raise ValueError("Standalone native uploaded video must use the split/manual strategy")
+        if current["type"] == "substack_video_post_embed" and strategy != "canonical_url_in_payload":
+            raise ValueError("Substack video-post embed must use canonical URL in the current segment")
+    return text, body, boundary, actual, planned, compat
+
+
+def add_can_restack(raw: str) -> str:
+    opening = re.search(r"<([A-Za-z0-9:_-]+)\b[^>]*>", raw, re.S)
+    if not opening:
+        return raw
+    tag = opening.group(0)
+    class_match = re.search(r"\bclass\s*=\s*([\"'])(.*?)\1", tag, re.I | re.S)
+    if class_match:
+        classes = class_match.group(2).split()
+        if "can-restack" in classes:
+            return raw
+        replacement = class_match.group(0).replace(
+            class_match.group(2), class_match.group(2).rstrip() + " can-restack"
+        )
+        new_tag = tag[:class_match.start()] + replacement + tag[class_match.end():]
+    else:
+        pos = tag.rfind(">")
+        new_tag = tag[:pos] + ' class="can-restack"' + tag[pos:]
+    return raw[:opening.start()] + new_tag + raw[opening.end():]
+
+
+def clean_native_object(raw: str, object_type: str, add_restack: bool) -> tuple[str, list[str]]:
+    transformed = raw
+    operations: list[str] = []
+    labels = ("remove_contenteditable_false", "remove_draggable_true")
+    for pattern, label in zip(FALSE_ATTR_PATTERNS, labels):
+        transformed, count = pattern.subn("", transformed)
+        if count:
+            operations.append(f"{label}:{count}")
+    if object_type == "image" and add_restack:
+        updated = add_can_restack(transformed)
+        if updated != transformed:
+            transformed = updated
+            operations.append("add_can_restack")
+    return transformed, operations
+
+
+def wrap_payload(body: str) -> str:
+    return WRAPPER_PREFIX + body + WRAPPER_SUFFIX
+
+
+def transform_to_segments(
+    body: str,
+    actual: list[dict[str, Any]],
+    planned: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    segment_bodies: list[str] = []
+    segment_source_ranges: list[tuple[int, int]] = []
+    transformations: list[dict[str, Any]] = []
+    manual_steps: list[dict[str, Any]] = []
+    current: list[str] = []
+    cursor = 0
+    segment_source_start = 0
+
+    for obj, pobj in zip(actual, planned):
+        current.append(body[cursor:obj["start"]])
+        raw = body[obj["start"]:obj["end"]]
+        strategy = pobj["strategy"]
+
+        if strategy == "rich_html":
+            converted, operations = clean_native_object(
+                raw,
+                obj["type"],
+                bool(pobj.get("add_can_restack_if_missing")),
+            )
+            current.append(converted)
+            transformations.append({
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "strategy": strategy,
+                "source_start": obj["start"],
+                "source_end": obj["end"],
+                "source_sha256": obj["source_sha256"],
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "transfer_sha256": sha256(converted.encode("utf-8")),
+                "operations": operations,
+                "profile_status": pobj.get("profile_status"),
+            })
+
+        elif strategy == "canonical_url_in_payload":
+            url = str(pobj.get("canonical_url") or "").strip()
+            replacement = f"<p>{html.escape(url)}</p>"
+            current.append(replacement)
+            operation = (
+                "replace_substack_video_post_embed_with_canonical_url_paragraph"
+                if obj["type"] == "substack_video_post_embed"
+                else "replace_rendered_comment_with_canonical_url_paragraph"
+            )
+            transformations.append({
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "strategy": strategy,
+                "source_start": obj["start"],
+                "source_end": obj["end"],
+                "source_sha256": obj["source_sha256"],
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "transfer_sha256": sha256(replacement.encode("utf-8")),
+                "canonical_url": url,
+                "canonical_value": canonicalize_url(url),
+                "operations": [operation],
+                "profile_status": pobj.get("profile_status"),
+            })
+
+        elif strategy == "manual_native_if_present":
+            manual_steps.append({
+                "kind": "manual_native_object",
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "instruction": "Insert or verify the native Substack paywall at the recorded source anchors after pasting.",
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "source_sha256": obj["source_sha256"],
+            })
+            transformations.append({
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "strategy": strategy,
+                "source_start": obj["start"],
+                "source_end": obj["end"],
+                "source_sha256": obj["source_sha256"],
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "transfer_sha256": sha256(b""),
+                "operations": ["omit_nonportable_native_marker_and_record_manual_step"],
+                "profile_status": pobj.get("profile_status"),
+            })
+
+        elif strategy == "split_payload_manual_native_video_insertion":
+            segment_bodies.append("".join(current))
+            segment_source_ranges.append((segment_source_start, obj["start"]))
+            segment_index_before = len(segment_bodies) - 1
+            manual_steps.append({
+                "kind": "manual_native_video_insertion",
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "instruction": (
+                    "Copy this native uploaded video directly from the original Substack editor, "
+                    "then paste it between the surrounding ordered article parts."
+                ),
+                "source_start": obj["start"],
+                "source_end": obj["end"],
+                "source_sha256": obj["source_sha256"],
+                "media_id": pobj.get("media_id") or obj.get("media_id"),
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "after_segment_index": segment_index_before,
+                "before_segment_index": segment_index_before + 1,
+            })
+            transformations.append({
+                "object_id": obj["id"],
+                "type": obj["type"],
+                "strategy": strategy,
+                "source_start": obj["start"],
+                "source_end": obj["end"],
+                "source_sha256": obj["source_sha256"],
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+                "transfer_sha256": sha256(b""),
+                "media_id": pobj.get("media_id") or obj.get("media_id"),
+                "operations": ["exclude_native_uploaded_video_from_all_clipboard_payloads_and_split"],
+                "profile_status": pobj.get("profile_status"),
+            })
+            current = []
+            segment_source_start = obj["end"]
+
+        else:
+            raise ValueError(f"Unhandled strategy {strategy} for object {obj['id']}")
+        cursor = obj["end"]
+
+    current.append(body[cursor:])
+    segment_bodies.append("".join(current))
+    segment_source_ranges.append((segment_source_start, len(body)))
+
+    segments: list[dict[str, Any]] = []
+    for index, (segment_body, source_range) in enumerate(zip(segment_bodies, segment_source_ranges), 1):
+        payload = wrap_payload(segment_body)
+        source_slice = body[source_range[0]:source_range[1]]
+        segments.append({
+            "index": index,
+            "source_start": source_range[0],
+            "source_end": source_range[1],
+            "source_range_sha256": sha256(source_slice.encode("utf-8")),
+            "converted_body_sha256": sha256(segment_body.encode("utf-8")),
+            "payload_sha256": sha256(payload.encode("utf-8")),
+            "html_b64": b64(payload),
+            "plain_b64": b64(plain_from_html(payload)),
+            "empty": not bool(segment_body.strip()),
+        })
+
+    sequence: list[dict[str, Any]] = []
+    native_steps = [step for step in manual_steps if step["kind"] == "manual_native_video_insertion"]
+    if not native_steps:
+        sequence.append({"kind": "copy_segment", "segment_index": 0, "label": "Copy Article", "required": not segments[0]["empty"]})
+    else:
+        manual_by_after = {step["after_segment_index"]: step for step in native_steps}
+        for zero_index, segment in enumerate(segments):
+            sequence.append({
+                "kind": "copy_segment",
+                "segment_index": zero_index,
+                "label": f"Copy Part {zero_index + 1} of {len(segments)}",
+                "required": not segment["empty"],
+            })
+            if zero_index in manual_by_after:
+                sequence.append({
+                    "kind": "manual_native_video_insertion",
+                    "object_id": manual_by_after[zero_index]["object_id"],
+                })
+
+    return segments, transformations, manual_steps, sequence
+
+
+def transfer_state(
+    source: Path,
+    plan_path: Path,
+    compat_path: Path,
+) -> dict[str, Any]:
+    _text, body, boundary, actual, planned, compat = validate_plan(source, plan_path, compat_path)
+    segments, transformations, manual_steps, sequence = transform_to_segments(body, actual, planned)
+    native_video_count = sum(1 for obj in actual if obj["type"] == "native_video")
+    video_post_count = sum(1 for obj in actual if obj["type"] == "substack_video_post_embed")
+    return {
+        "format": HELPER_FORMAT,
+        "source_file": source.name,
+        "source_sha256": sha256(source.read_bytes()),
+        "editor_body_sha256": sha256(body.encode("utf-8")),
+        "editor_body_boundary": boundary,
+        "plan_sha256": sha256(plan_path.read_bytes()),
+        "compatibility_profile_name": compat.get("profile_name", compat_path.name),
+        "compatibility_profile_sha256": sha256(compat_path.read_bytes()),
+        "browser": compat["target_browser"],
+        "file_opening_path": compat["opening_context"],
+        "destination": compat["destination"],
+        "payload_mode": "single_rich_html" if native_video_count == 0 else "ordered_segmented_rich_html_with_manual_native_video_insertion",
+        "transfer_wrapper": compat["transfer_wrapper"],
+        "native_video_count": native_video_count,
+        "substack_video_post_embed_count": video_post_count,
+        "segment_count": len(segments),
+        "segments": segments,
+        "sequence": sequence,
+        "transformations": transformations,
+        "manual_steps": manual_steps,
+        "object_signatures": [
+            {
+                "id": obj["id"],
+                "type": obj["type"],
+                "source_sha256": obj["source_sha256"],
+                "preceding_anchor": obj.get("preceding_anchor"),
+                "following_anchor": obj.get("following_anchor"),
+            }
+            for obj in actual
+        ],
+        "destination_status": "pending_final_opera_to_substack_retest",
+    }
+
+
+def helper_document(manifest: dict[str, Any]) -> str:
+    data = json.dumps(manifest, ensure_ascii=False).replace("</", "<\\/")
+    steps_by_object = {
+        step["object_id"]: step
+        for step in manifest["manual_steps"]
+        if step["kind"] == "manual_native_video_insertion"
+    }
+    sequence_html: list[str] = []
+    for order, item in enumerate(manifest["sequence"], 1):
+        if item["kind"] == "copy_segment":
+            segment = manifest["segments"][item["segment_index"]]
+            if item["required"]:
+                sequence_html.append(
+                    f'<section class="step"><h2>{order}. {html.escape(item["label"])}</h2>'
+                    f'<button type="button" data-segment-index="{item["segment_index"]}">{html.escape(item["label"])}</button>'
+                    f'<span class="status" id="status-{item["segment_index"]}" aria-live="polite"></span></section>'
+                )
+            else:
+                position = "before the first native video" if item["segment_index"] == 0 else "after the final native video"
+                sequence_html.append(
+                    f'<section class="step empty"><h2>{order}. {html.escape(item["label"])}</h2>'
+                    f'<p>No article text occurs {html.escape(position)}; do not paste an empty part.</p></section>'
+                )
+        else:
+            step = steps_by_object[item["object_id"]]
+            identity = step.get("media_id") or "not exposed by source"
+            anchors = f"after {step.get('preceding_anchor')!r}; before {step.get('following_anchor')!r}"
+            sequence_html.append(
+                f'<section class="step manual"><h2>{order}. Insert native uploaded video</h2>'
+                f'<p>{html.escape(step["instruction"])}</p>'
+                f'<p><strong>Media ID:</strong> <code>{html.escape(str(identity))}</code><br>'
+                f'<strong>Placement:</strong> {html.escape(anchors)}<br>'
+                f'<strong>Source SHA-256:</strong> <code>{html.escape(step["source_sha256"])}</code></p></section>'
+            )
+
+    other_manual = [step for step in manifest["manual_steps"] if step["kind"] != "manual_native_video_insertion"]
+    other_html = ""
+    if other_manual:
+        rows = []
+        for step in other_manual:
+            rows.append(
+                "<li>"
+                + html.escape(step["instruction"])
+                + " Placement: after "
+                + html.escape(repr(step.get("preceding_anchor")))
+                + "; before "
+                + html.escape(repr(step.get("following_anchor")))
+                + ".</li>"
+            )
+        other_html = '<section class="step manual"><h2>Additional native steps after pasting</h2><ul>' + "".join(rows) + "</ul></section>"
+
+    if manifest["native_video_count"]:
+        intro = (
+            "Paste the ordered article parts in sequence. At each native-video step, copy the video directly from the original "
+            "Substack editor and paste it at that point. Native uploaded-video markup is excluded from every clipboard payload."
+        )
+    else:
+        intro = "Copy the article once, paste it into a blank Substack draft, then verify each reconstructed native object."
+
+    return f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Substack transfer helper</title>
+<style>
+:root {{ color-scheme: light; }}
+body {{ font-family: system-ui, sans-serif; max-width: 780px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #222; }}
+.step {{ border: 1px solid #bbb; border-radius: 10px; padding: 1rem; margin: 1rem 0; }}
+.step h2 {{ margin-top: 0; font-size: 1.1rem; }}
+.manual {{ background: #f4f4f4; }}
+.empty {{ border-style: dashed; }}
+button {{ font: inherit; font-weight: 700; padding: .75rem 1rem; cursor: pointer; }}
+.status {{ margin-left: .65rem; font-weight: 700; }}
+code {{ overflow-wrap: anywhere; }}
+.meta {{ font-size: .9rem; color: #555; }}
+</style>
+</head>
+<body>
+<h1>Substack transfer helper</h1>
+<p>{html.escape(intro)}</p>
+{''.join(sequence_html)}
+{other_html}
+<p class="meta">Archival source SHA-256: <code>{html.escape(manifest['source_sha256'])}</code><br>
+Editor body SHA-256: <code>{html.escape(manifest['editor_body_sha256'])}</code><br>
+Mode: <code>{html.escape(manifest['payload_mode'])}</code><br>
+Confirmed path: {html.escape(manifest['browser'])} · {html.escape(manifest['file_opening_path'])}<br>
+“Copied” confirms only clipboard completion; destination reconstruction still requires a disposable Substack-draft check.</p>
+<script id="hva-transfer-manifest" type="application/json">{data}</script>
+<script>
+(() => {{
+  const manifest = JSON.parse(document.getElementById('hva-transfer-manifest').textContent);
+  const decode = value => new TextDecoder().decode(Uint8Array.from(atob(value), c => c.charCodeAt(0)));
+
+  function legacyCopyRich(rich) {{
+    const holder = document.createElement('div');
+    holder.contentEditable = 'true';
+    holder.setAttribute('aria-hidden', 'true');
+    holder.style.position = 'fixed';
+    holder.style.left = '-100000px';
+    holder.style.top = '0';
+    holder.innerHTML = rich;
+    document.body.appendChild(holder);
+    const range = document.createRange();
+    range.selectNodeContents(holder);
+    const selection = getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    const ok = document.execCommand('copy');
+    selection.removeAllRanges();
+    holder.remove();
+    if (!ok) throw new Error('Legacy rich copy failed');
+  }}
+
+  function copyRichImmediate(rich, plain) {{
+    try {{
+      if (!navigator.clipboard || !window.ClipboardItem) throw new Error('ClipboardItem unavailable');
+      const result = navigator.clipboard.write([new ClipboardItem({{
+        'text/html': new Blob([rich], {{type: 'text/html'}}),
+        'text/plain': new Blob([plain], {{type: 'text/plain'}})
+      }})]);
+      return Promise.resolve(result).catch(() => legacyCopyRich(rich));
+    }} catch (error) {{
+      legacyCopyRich(rich);
+      return Promise.resolve();
+    }}
+  }}
+
+  document.querySelectorAll('button[data-segment-index]').forEach(button => {{
+    button.addEventListener('click', () => {{
+      const index = Number(button.dataset.segmentIndex);
+      const segment = manifest.segments[index];
+      const status = document.getElementById(`status-${{index}}`);
+      status.textContent = '';
+      const rich = decode(segment.html_b64);
+      const plain = decode(segment.plain_b64);
+      copyRichImmediate(rich, plain)
+        .then(() => {{ status.textContent = 'Copied'; }})
+        .catch(error => {{ status.textContent = 'Failed'; console.error(error); }});
+    }});
+  }});
+}})();
+</script>
+</body>
+</html>'''
+
+
+def extract_manifest(helper: Path) -> dict[str, Any]:
+    raw = helper.read_text(encoding="utf-8")
+    match = re.search(
+        r'<script\s+id=["\']hva-transfer-manifest["\']\s+type=["\']application/json["\']>(.*?)</script>',
+        raw,
+        re.I | re.S,
+    )
+    if not match:
+        raise ValueError("Helper lacks transfer manifest")
+    return json.loads(match.group(1).replace("<\\/", "</"))
+
+
+def verify_manifest_invariants(manifest: dict[str, Any]) -> None:
+    if manifest.get("format") != HELPER_FORMAT:
+        raise ValueError("Unsupported helper manifest format")
+    native_count = int(manifest.get("native_video_count", -1))
+    segments = manifest.get("segments", [])
+    if len(segments) != native_count + 1:
+        raise ValueError("N native videos must produce exactly N + 1 ordered segment records")
+    native_steps = [step for step in manifest.get("manual_steps", []) if step.get("kind") == "manual_native_video_insertion"]
+    if len(native_steps) != native_count:
+        raise ValueError("Each native uploaded video must produce one manual insertion step")
+    for segment in segments:
+        payload = unb64(segment["html_b64"])
+        if not (payload.startswith(WRAPPER_PREFIX) and payload.endswith(WRAPPER_SUFFIX)):
+            raise ValueError(f"Segment {segment['index']} has the wrong transfer wrapper")
+        if sha256(payload.encode("utf-8")) != segment["payload_sha256"]:
+            raise ValueError(f"Segment {segment['index']} payload checksum mismatch")
+        if "native-video-embed" in payload.lower() or "videoembedplayer" in payload.lower():
+            raise ValueError(f"Segment {segment['index']} contains forbidden native uploaded-video markup")
+    for transformation in manifest.get("transformations", []):
+        if transformation.get("type") == "substack_video_post_embed":
+            url = transformation.get("canonical_url")
+            if not url:
+                raise ValueError("Video-post conversion lacks canonical URL")
+            containing = [
+                segment for segment in segments
+                if segment["source_start"] <= transformation["source_start"]
+                and segment["source_end"] >= transformation["source_end"]
+            ]
+            if len(containing) != 1:
+                raise ValueError("Video-post embed must remain within one current segment and never force a split")
+            if html.escape(url) not in unb64(containing[0]["html_b64"]):
+                raise ValueError("Video-post canonical URL is absent from its current segment")
+
+
+def verify_helper_static_features(helper: Path) -> None:
+    raw = helper.read_text(encoding="utf-8")
+    required = (
+        "navigator.clipboard.write",
+        "new ClipboardItem",
+        "document.execCommand('copy')",
+        "contentEditable = 'true'",
+        "button[data-segment-index]",
+    )
+    missing = [marker for marker in required if marker not in raw]
+    if missing:
+        raise ValueError("Helper static compatibility markers missing: " + ", ".join(missing))
+    if re.search(r"<textarea\b", raw, re.I):
+        raise ValueError("Visible textarea/manual clipboard fallback is forbidden")
+    listener = re.search(r"button\.addEventListener\('click'.*?\n\s*\}\);", raw, re.S)
+    if listener and re.search(r"\bawait\b", listener.group(0)):
+        raise ValueError("Clipboard click path must not await asynchronous work before ClipboardItem")
+
+
+def compatibility_report_markdown(current: dict[str, Any], against: Path | None) -> str:
+    lines = [
+        "# Substack Helper Compatibility Regression",
+        "",
+        f"- Current helper format: `{current['format']}`",
+        f"- Current profile: `{current['compatibility_profile_name']}`",
+        f"- Current browser/path: `{current['browser']}` / `{current['file_opening_path']}`",
+        f"- Current payload mode: `{current['payload_mode']}`",
+        f"- Current native uploaded-video count: {current['native_video_count']}",
+        "- Current wrapper: `div[dir=auto].body.markup`",
+        "- Clipboard path: immediate `ClipboardItem`, silent off-screen-contenteditable `execCommand` fallback.",
+        "",
+    ]
+    if against is None:
+        lines.extend([
+            "## Prior confirmed helper",
+            "",
+            "- Not supplied. Static current-profile checks only.",
+        ])
+        return "\n".join(lines) + "\n"
+    if not against.is_file():
+        raise FileNotFoundError(against)
+    prior_hash = sha256(against.read_bytes())
+    lines.extend([
+        "## Prior helper",
+        "",
+        f"- File: `{against.name}`",
+        f"- SHA-256: `{prior_hash}`",
+    ])
+    try:
+        prior = extract_manifest(against)
+    except Exception as exc:
+        lines.append(f"- Embedded manifest could not be compared: `{type(exc).__name__}: {exc}`")
+    else:
+        lines.extend([
+            f"- Format: `{prior.get('format')}`",
+            f"- Profile: `{prior.get('compatibility_profile_name')}`",
+            f"- Payload mode: `{prior.get('payload_mode')}`",
+            f"- Browser/path: `{prior.get('browser')}` / `{prior.get('file_opening_path')}`",
+        ])
+        for field in ("browser", "file_opening_path", "destination"):
+            old = prior.get(field)
+            new = current.get(field)
+            if old is not None and old != new:
+                lines.append(f"- **REGRESSION CANDIDATE:** `{field}` changed from `{old}` to `{new}`.")
+    lines.extend([
+        "",
+        "## Intended compatibility change",
+        "",
+        "- Standalone native Substack-uploaded video is now excluded from clipboard payloads and creates ordered manual-insertion boundaries.",
+        "- Substack video-post embeds remain inside the current segment as canonical post URLs and never create a split by themselves.",
+        "- Unrelated confirmed image, digest, YouTube, comment, Share, Subscribe, wrapper, and clipboard-path behavior remains independently governed by the profile.",
+        "",
+        "## Destination status",
+        "",
+        "- Static regression comparison only. A final Opera-to-disposable-Substack-draft test is still required.",
+    ])
+    return "\n".join(lines) + "\n"
+
+
+def build(source: Path, plan_path: Path, compat_path: Path, out: Path, report: Path, against: Path | None = None, compat_report: Path | None = None) -> None:
+    manifest = transfer_state(source, plan_path, compat_path)
+    verify_manifest_invariants(manifest)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(helper_document(manifest), encoding="utf-8")
+    verify_helper_static_features(out)
+    report.parent.mkdir(parents=True, exist_ok=True)
+    report.write_text(report_markdown(manifest), encoding="utf-8")
+    if compat_report is not None:
+        compat_report.parent.mkdir(parents=True, exist_ok=True)
+        compat_report.write_text(compatibility_report_markdown(manifest, against), encoding="utf-8")
+    print(f"Built Substack transfer helper: {out}")
+    print(f"Wrote transfer report: {report}")
+    if compat_report is not None:
+        print(f"Wrote compatibility regression report: {compat_report}")
+    print("Static source and conversion checks passed; final Opera-to-Substack test remains pending.")
+
+
+def report_markdown(manifest: dict[str, Any]) -> str:
+    lines = [
+        "# Substack Transfer Report",
+        "",
+        "## Source fidelity",
+        "",
+        f"- Archival source SHA-256: `{manifest['source_sha256']}`",
+        f"- Editor-body SHA-256: `{manifest['editor_body_sha256']}`",
+        f"- Object count: {len(manifest['object_signatures'])}",
+        "- Finding: source identity recorded; this report does not alter archival HTML.",
+        "",
+        "## Transfer conversion",
+        "",
+        f"- Mode: `{manifest['payload_mode']}`",
+        f"- Native uploaded videos: {manifest['native_video_count']}",
+        f"- Ordered segment records: {manifest['segment_count']}",
+        f"- Substack video-post embeds converted to canonical URL in current segment: {manifest['substack_video_post_embed_count']}",
+        "- Native uploaded-video markup in clipboard payloads: forbidden and statically checked.",
+        "",
+        "| Segment | Source range | Empty edge? | Payload SHA-256 |",
+        "|---|---:|---|---|",
+    ]
+    for segment in manifest["segments"]:
+        lines.append(
+            f"| {segment['index']} | {segment['source_start']}–{segment['source_end']} | "
+            f"{'yes' if segment['empty'] else 'no'} | `{segment['payload_sha256']}` |"
+        )
+    lines.extend([
+        "",
+        "## Manual native steps",
+        "",
+    ])
+    if manifest["manual_steps"]:
+        for step in manifest["manual_steps"]:
+            lines.append(
+                f"- `{step['type']}` object {step['object_id']}: {step['instruction']} "
+                f"After `{step.get('preceding_anchor')}`; before `{step.get('following_anchor')}`."
+            )
+    else:
+        lines.append("- None.")
+    lines.extend([
+        "",
+        "## Destination result",
+        "",
+        "- Status: **pending final downloaded-helper-in-Opera to disposable-Substack-draft test**.",
+        "- A Copied status proves only clipboard completion, not card reconstruction, playback, or placement.",
+        "",
+    ])
+    return "\n".join(lines)
+
+
+def verify(source: Path, plan_path: Path, compat_path: Path, helper: Path, against: Path | None = None, compat_report: Path | None = None) -> None:
+    expected = transfer_state(source, plan_path, compat_path)
+    actual = extract_manifest(helper)
+    if actual != expected:
+        raise ValueError("Helper manifest differs from exact current source/plan/profile conversion; rebuild")
+    verify_manifest_invariants(actual)
+    verify_helper_static_features(helper)
+    if compat_report is not None:
+        compat_report.parent.mkdir(parents=True, exist_ok=True)
+        compat_report.write_text(compatibility_report_markdown(actual, against), encoding="utf-8")
+    print(f"Verified {actual['segment_count']} ordered segment record(s) and {actual['native_video_count']} native-video manual step(s).")
+    if compat_report is not None:
+        print(f"Wrote compatibility regression report: {compat_report}")
+    print("Scope: static source/conversion compatibility only; destination result remains pending.")
+
+
+def selftest() -> int:
+    compat = {
+        "format": "joel-substack-helper-compat-v3-candidate",
+        "profile_name": "selftest",
+        "target_browser": "Opera",
+        "opening_context": "downloaded local HTML file opened directly",
+        "destination": "Substack editor",
+        "payload_mode": "single_rich_html_unless_native_uploaded_video",
+        "visible_steps": ["dynamic"],
+        "transfer_wrapper": {"tag": "div", "attributes": {"dir": "auto", "class": "body markup"}},
+        "editor_lock_removal": ["contenteditable=false", "draggable=true"],
+        "rich_html_copy": {"primary": "ClipboardItem", "fallback": "execCommand", "fallback_visibility": "silent", "pre_clipboard_async_work": "none"},
+        "native_objects": {
+            "image": {"strategy": "rich_html", "status": "test", "add_can_restack_if_missing": True},
+            "digest_post_embed": {"strategy": "rich_html", "status": "test"},
+            "youtube": {"strategy": "rich_html", "status": "test"},
+            "native_video": {"strategy": "split_payload_manual_native_video_insertion", "status": "owner_confirmed_nonportable"},
+            "substack_video_post_embed": {"strategy": "canonical_url_in_payload", "status": "owner_confirmed", "forces_payload_split": False},
+            "substack_comment_card": {"strategy": "canonical_url_in_payload", "status": "test"},
+            "paywall": {"strategy": "manual_native_if_present", "status": "test"},
+        },
+    }
+    fixture = (
+        '<div dir="auto" class="body markup">'
+        '<h2>Before</h2><p>A</p>'
+        '<div class="digest-post-embed" data-component-name="DigestPostEmbed" '
+        'data-attrs="{&quot;canonical_url&quot;:&quot;https://example.substack.com/p/video-post&quot;,'
+        '&quot;video_upload_id&quot;:&quot;vp-1&quot;}"><video></video></div>'
+        '<p>B</p><div class="native-video-embed" '
+        'data-attrs="{&quot;mediaUploadId&quot;:&quot;native-1&quot;}" contenteditable="false" draggable="true">'
+        '<div data-component-name="VideoEmbedPlayer"><video data-video-id="native-1"></video></div></div>'
+        '<p>C</p><h2>After</h2></div>'
+    )
+    with tempfile.TemporaryDirectory(prefix="substack-helper-selftest-") as temp:
+        root = Path(temp)
+        source = root / "fixture.html"
+        compat_path = root / "compat.json"
+        plan = root / "plan.json"
+        inventory = root / "inventory.json"
+        helper = root / "helper.html"
+        report = root / "report.md"
+        source.write_text(fixture, encoding="utf-8")
+        compat_path.write_text(json.dumps(compat), encoding="utf-8")
+        init_plan(source, plan, inventory, compat_path)
+        build(source, plan, compat_path, helper, report)
+        verify(source, plan, compat_path, helper)
+        manifest = extract_manifest(helper)
+        assert manifest["native_video_count"] == 1
+        assert manifest["segment_count"] == 2
+        assert manifest["substack_video_post_embed_count"] == 1
+        payloads = "\n".join(unb64(item["html_b64"]) for item in manifest["segments"])
+        assert "native-video-embed" not in payloads
+        assert "https://example.substack.com/p/video-post" in payloads
+        assert len([step for step in manifest["manual_steps"] if step["kind"] == "manual_native_video_insertion"]) == 1
+    print("substack_transfer_helper.py self-test: PASS")
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    command = sub.add_parser("init")
+    command.add_argument("source", type=Path)
+    command.add_argument("--plan", type=Path, required=True)
+    command.add_argument("--inventory", type=Path)
+    command.add_argument("--compat-profile", type=Path, required=True)
+
+    command = sub.add_parser("build")
+    command.add_argument("source", type=Path)
+    command.add_argument("--plan", type=Path, required=True)
+    command.add_argument("--compat-profile", type=Path, required=True)
+    command.add_argument("--out", type=Path, required=True)
+    command.add_argument("--report", type=Path, required=True)
+    command.add_argument("--against", type=Path)
+    command.add_argument("--compat-report", type=Path)
+
+    command = sub.add_parser("verify")
+    command.add_argument("source", type=Path)
+    command.add_argument("--plan", type=Path, required=True)
+    command.add_argument("--compat-profile", type=Path, required=True)
+    command.add_argument("--helper", type=Path, required=True)
+    command.add_argument("--against", type=Path)
+    command.add_argument("--compat-report", type=Path)
+
+    sub.add_parser("selftest")
+    args = parser.parse_args()
+
+    if args.command == "init":
+        init_plan(args.source, args.plan, args.inventory, args.compat_profile)
+        return 0
+    if args.command == "build":
+        build(args.source, args.plan, args.compat_profile, args.out, args.report, args.against, args.compat_report)
+        return 0
+    if args.command == "verify":
+        verify(args.source, args.plan, args.compat_profile, args.helper, args.against, args.compat_report)
+        return 0
+    return selftest()
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
