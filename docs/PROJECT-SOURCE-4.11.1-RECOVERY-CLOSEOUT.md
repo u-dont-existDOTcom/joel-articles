@@ -36,10 +36,9 @@ It remains optional and may never substitute for the interactive review
 interface. Because it was outside the owner-supplied forty-file baseline, its
 recovery does not change the `40 / 31 / 9` baseline accounting.
 
-## Baseline validation inherited from the recovery run
+## Validation
 
-Before this optional-tool closeout, Codex recorded these passing gates on the
-completed 40-file restoration:
+Codex recorded these passing gates on the completed 40-file restoration:
 
 - `python -m unittest discover -s tests` — PASS, 84 tests.
 - `python scripts/validate_content_repository.py --root .` — PASS.
@@ -54,5 +53,12 @@ completed 40-file restoration:
 - interactive-review, review-package, and Substack-transfer-helper supported
   self-tests — PASS.
 
-The final recovery PR must run GitHub Actions against the exact post-closeout
-head before merge. A green exact-head CI run is the final repository gate.
+The exact post-closeout head was then tested by GitHub Actions in PR #11.
+Every `content-integrity` step passed: regression tests, article-authority
+validation, article-architecture-map validation, and repository-policy audit.
+PR #11 merged into `main` at
+`eea01a44608fe39f7a472be2a5c7c7757dd22bad`.
+
+**Project-source migration status: COMPLETE.** The remaining 10 ChatGPT Project
+Source files are redundant copies and can be removed after the Project
+Instructions field is replaced with the minimal GitHub-canonical loader.
