@@ -1,0 +1,118 @@
+{
+  "format": "joel-substack-helper-compat-v3-candidate",
+  "profile_name": "Opera local-file native-object helper with native-video segmentation",
+  "target_browser": "Opera",
+  "opening_context": "downloaded local HTML file opened directly",
+  "destination": "Substack editor",
+  "payload_mode": "single_rich_html_unless_native_uploaded_video",
+  "visible_steps": [
+    "Copy Article when no native uploaded video is present",
+    "Copy Part 1..N in source order with manual native-video insertion steps when native uploaded video is present"
+  ],
+  "transfer_wrapper": {
+    "tag": "div",
+    "attributes": {
+      "dir": "auto",
+      "class": "body markup"
+    }
+  },
+  "editor_lock_removal": [
+    "contenteditable=false",
+    "draggable=true"
+  ],
+  "rich_html_copy": {
+    "primary": "navigator.clipboard.write with ClipboardItem invoked directly in the click handler",
+    "fallback": "document.execCommand copy using a temporary off-screen contenteditable element",
+    "fallback_visibility": "silent",
+    "pre_clipboard_async_work": "none"
+  },
+  "native_objects": {
+    "image": {
+      "strategy": "rich_html",
+      "status": "confirmed_path_retest_each_final",
+      "add_can_restack_if_missing": true
+    },
+    "digest_post_embed": {
+      "strategy": "rich_html",
+      "status": "confirmed_candidate_retest_each_final"
+    },
+    "youtube": {
+      "strategy": "rich_html",
+      "status": "confirmed_where_tested"
+    },
+    "native_video": {
+      "strategy": "split_payload_manual_native_video_insertion",
+      "status": "owner_confirmed_nonportable",
+      "archival_rule": "preserve_exact_source_island",
+      "clipboard_rule": "exclude_native_video_markup",
+      "placement_evidence": [
+        "source_sha256",
+        "upload_or_media_id",
+        "preceding_anchor",
+        "following_anchor"
+      ]
+    },
+    "share": {
+      "strategy": "rich_html",
+      "status": "destination_confirmed"
+    },
+    "subscribe": {
+      "strategy": "rich_html",
+      "status": "test_required"
+    },
+    "substack_comment_card": {
+      "strategy": "canonical_url_in_payload",
+      "status": "confirmed_strategy_retest_each_final"
+    },
+    "paywall": {
+      "strategy": "manual_native_if_present",
+      "status": "source_marker_required"
+    },
+    "instagram_embed": {
+      "strategy": "unverified",
+      "status": "unverified"
+    },
+    "iframe_embed": {
+      "strategy": "unverified",
+      "status": "unverified"
+    },
+    "unknown_native_embed": {
+      "strategy": "unverified",
+      "status": "unverified"
+    },
+    "substack_video_post_embed": {
+      "strategy": "canonical_url_in_payload",
+      "status": "owner_confirmed_strategy_retest_each_final",
+      "archival_rule": "preserve_exact_source_island",
+      "clipboard_rule": "canonical_post_url_alone_at_source_position",
+      "forces_payload_split": false
+    }
+  },
+  "visible_manual_fallback_ui": false,
+  "locked_invariants": [
+    "one visible Copy Article control when no standalone native uploaded video is present",
+    "standalone native Substack-uploaded video forces ordered payload segments plus a manual insertion step at recorded anchors",
+    "native uploaded-video markup is never placed in a clipboard payload and is never claimed to transfer",
+    "a Substack video-post preview/card is not a native uploaded-video block; its canonical post URL remains alone at the same source position and does not force a split",
+    "transfer wrapper for every rich-HTML segment is div dir=auto class=body markup",
+    "no visible generic manual fallback field",
+    "only contenteditable=false and draggable=true are removed from transferable native objects",
+    "ClipboardItem is invoked directly from the click handler with no pre-clipboard asynchronous work",
+    "silent off-screen-contenteditable execCommand fallback",
+    "rendered comment cards become canonical URLs in the same source positions",
+    "images, non-video digest previews, YouTube, Share, and Subscribe remain rich HTML under their per-type status",
+    "manual paywall instruction appears only when a genuine raw-source marker exists",
+    "all payload segments are rebuilt from the exact final archival editor body"
+  ],
+  "supersedes_profile": "Opera local-file one-paste native-object helper",
+  "supersession_reason": "Joel's owner-final correction distinguishes nonportable native Substack-uploaded videos, which require ordered helper splits and manual insertion, from Substack video-post embeds, which remain canonical post URLs in the current payload segment without a split.",
+  "last_destination_status": "Native uploaded video is owner-confirmed nonportable through the clipboard helper. Video-post URL reconstruction and every regenerated helper still require a real Opera-to-Substack destination check.",
+  "native_video_segmentation": {
+    "trigger_type": "native_video",
+    "segment_count_rule": "normally native_video_count + 1; suppress empty edge segments only with explicit order retained",
+    "manual_step_count_rule": "native_video_count",
+    "segment_coverage_rule": "ordered segments plus excluded native-video islands cover the editor body exactly once",
+    "native_video_markup_in_clipboard_payloads": "forbidden",
+    "destination_status_before_manual_insert_and_check": "untested"
+  }
+}

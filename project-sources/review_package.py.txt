@@ -1,0 +1,517 @@
+#!/usr/bin/env python3
+"""Build and verify a portable article-review ZIP.
+
+The package is artifact-centered: it carries the candidate article, one or more
+full-feature review files, immutable source comments, project state, changelog,
+README, manifest, and checksums. The script performs static integrity checks. It
+does not replace browser interaction testing.
+
+Examples:
+  python review_package.py build \
+    --article article-r05-candidate.html \
+    --review commentable-diff-r05.html \
+    --review full-draft-commentable-r05.html \
+    --source-comments source-comments.json \
+    --project-state PROJECT_STATE.md \
+    --changelog CHANGELOG.md \
+    --readme README.md \
+    --out article-r05-candidate.zip
+
+  python review_package.py verify article-r05-candidate.zip
+  python review_package.py selftest
+"""
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import hashlib
+from html.parser import HTMLParser
+import json
+from pathlib import Path, PurePosixPath
+import re
+import shutil
+import tempfile
+from typing import Any
+import zipfile
+
+PACKAGE_FORMAT = "joel-article-review-package-v1"
+REVIEW_FORMAT = "joel-commentable-diff-review-v4"
+REQUIRED_REVIEW_MARKERS = (
+    "Keep",
+    "Remove",
+    "Brainstorm",
+    "Humor",
+    "Technical detail",
+    "Length",
+    "Blunt",
+    "Export JSON",
+    "Export Markdown",
+    "Copy JSON",
+    "Copy Markdown",
+    "localStorage",
+    "changedOnly",
+    "commentOverlay",
+)
+
+
+def utc_now() -> str:
+    return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+
+
+def sha256_file(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as fh:
+        for chunk in iter(lambda: fh.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def safe_member_name(name: str) -> bool:
+    p = PurePosixPath(name)
+    return not p.is_absolute() and ".." not in p.parts and name not in {"", "."}
+
+
+class ReviewDataParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=False)
+        self.capture = False
+        self.parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "script":
+            return
+        values = {k.lower(): v for k, v in attrs}
+        if values.get("id") == "review-data" and values.get("type") == "application/json":
+            self.capture = True
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() == "script" and self.capture:
+            self.capture = False
+
+    def handle_data(self, data: str) -> None:
+        if self.capture:
+            self.parts.append(data)
+
+
+def extract_review_meta(path: Path) -> dict[str, Any]:
+    raw = path.read_text(encoding="utf-8")
+    parser = ReviewDataParser()
+    parser.feed(raw)
+    if not parser.parts:
+        raise ValueError(f"{path}: missing <script id='review-data' type='application/json'>")
+    try:
+        meta = json.loads("".join(parser.parts))
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"{path}: review-data JSON is invalid: {exc}") from exc
+    if not isinstance(meta, dict):
+        raise ValueError(f"{path}: review-data root must be an object")
+    return meta
+
+
+def review_static_errors(path: Path) -> list[str]:
+    raw = path.read_text(encoding="utf-8")
+    errors: list[str] = []
+    missing = [marker for marker in REQUIRED_REVIEW_MARKERS if marker not in raw]
+    if missing:
+        errors.append("missing required review markers: " + ", ".join(missing))
+    try:
+        meta = extract_review_meta(path)
+    except ValueError as exc:
+        errors.append(str(exc))
+        return errors
+    interface_format = str(meta.get("interface_format") or "")
+    if interface_format and interface_format != REVIEW_FORMAT:
+        errors.append(f"unsupported interface format: {interface_format}")
+    if not interface_format and REVIEW_FORMAT not in raw:
+        errors.append(f"review does not declare or contain {REVIEW_FORMAT}")
+    for field in ("artifact_id", "baseline_type", "source_sha256", "revised_sha256", "rows"):
+        if field not in meta:
+            errors.append(f"review-data missing field: {field}")
+    if re.search(r"<script\b[^>]*\bsrc\s*=", raw, flags=re.I):
+        errors.append("external or linked script dependency found")
+    if re.search(r"<link\b[^>]*\brel\s*=\s*['\"]?stylesheet[^>]*\bhref\s*=", raw, flags=re.I):
+        errors.append("external or linked stylesheet dependency found")
+    if re.search(r"@import\s+(?:url\()?\s*['\"]?https?://", raw, flags=re.I):
+        errors.append("external CSS import found")
+    return errors
+
+
+def parse_extra(value: str) -> tuple[Path, str]:
+    if "=" not in value:
+        raise argparse.ArgumentTypeError("--extra must be SOURCE=package/relative/path")
+    source, destination = value.split("=", 1)
+    src = Path(source)
+    if not src.is_file():
+        raise argparse.ArgumentTypeError(f"extra source does not exist: {src}")
+    destination = destination.replace("\\", "/").lstrip("/")
+    if not safe_member_name(destination):
+        raise argparse.ArgumentTypeError(f"unsafe package destination: {destination}")
+    return src, destination
+
+
+def copy_file(source: Path, destination: Path) -> None:
+    if not source.is_file():
+        raise FileNotFoundError(source)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source, destination)
+
+
+def write_manifest(stage: Path, article_members: list[str], review_members: list[str]) -> Path:
+    members = []
+    for path in sorted(stage.rglob("*")):
+        if not path.is_file():
+            continue
+        rel = path.relative_to(stage).as_posix()
+        if rel in {"project/MANIFEST.json", "project/SHA256SUMS.txt"}:
+            continue
+        members.append({"path": rel, "size_bytes": path.stat().st_size, "sha256": sha256_file(path)})
+    manifest = {
+        "format": PACKAGE_FORMAT,
+        "built_utc": utc_now(),
+        "article_members": article_members,
+        "review_members": review_members,
+        "required_members": [
+            "review/source-comments.json",
+            "project/PROJECT_STATE.md",
+            "project/CHANGELOG.md",
+            "project/README.md",
+            "project/SHA256SUMS.txt",
+        ],
+        "members": members,
+    }
+    path = stage / "project" / "MANIFEST.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return path
+
+
+def write_checksums(stage: Path) -> Path:
+    lines: list[str] = []
+    for path in sorted(stage.rglob("*")):
+        if not path.is_file():
+            continue
+        rel = path.relative_to(stage).as_posix()
+        if rel == "project/SHA256SUMS.txt":
+            continue
+        lines.append(f"{sha256_file(path)}  {rel}")
+    out = stage / "project" / "SHA256SUMS.txt"
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return out
+
+
+def create_zip(stage: Path, out: Path) -> None:
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+        for path in sorted(stage.rglob("*")):
+            if path.is_file():
+                zf.write(path, path.relative_to(stage).as_posix())
+
+
+def build_package(args: argparse.Namespace) -> int:
+    article = args.article.resolve()
+    reviews = [p.resolve() for p in args.review]
+    for path in [article, *reviews, args.source_comments, args.project_state, args.changelog, args.readme]:
+        if not Path(path).is_file():
+            raise FileNotFoundError(path)
+    try:
+        json.loads(args.source_comments.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"source comments must be valid JSON: {exc}") from exc
+    for review in reviews:
+        errors = review_static_errors(review)
+        if errors:
+            raise ValueError(f"{review}: " + "; ".join(errors))
+
+    with tempfile.TemporaryDirectory(prefix="review-package-build-") as temp:
+        stage = Path(temp) / "stage"
+        article_member = f"article/{article.name}"
+        copy_file(article, stage / article_member)
+        review_members: list[str] = []
+        for review in reviews:
+            member = f"review/{review.name}"
+            if member in review_members:
+                raise ValueError(f"duplicate review member name: {member}")
+            review_members.append(member)
+            copy_file(review, stage / member)
+        copy_file(args.source_comments, stage / "review" / "source-comments.json")
+        copy_file(args.project_state, stage / "project" / "PROJECT_STATE.md")
+        copy_file(args.changelog, stage / "project" / "CHANGELOG.md")
+        copy_file(args.readme, stage / "project" / "README.md")
+
+        optional = [
+            (args.comment_ledger, "project/COMMENT-RESOLUTION.md"),
+            (args.browser_test_report, "project/BROWSER-TEST.md"),
+            (args.artifact_ledger, "project/ARTIFACT-FAMILY.md"),
+        ]
+        for source, member in optional:
+            if source:
+                copy_file(source, stage / member)
+        for source, member in args.extra or []:
+            copy_file(source, stage / member)
+
+        write_manifest(stage, [article_member], review_members)
+        write_checksums(stage)
+        create_zip(stage, args.out)
+
+    result = verify_package(args.out, quiet=True)
+    if result[0]:
+        raise ValueError("built ZIP failed verification: " + "; ".join(result[0]))
+    print(json.dumps({
+        "status": "pass",
+        "package": str(args.out),
+        "package_sha256": sha256_file(args.out),
+        "article": article_member,
+        "reviews": review_members,
+    }, indent=2))
+    return 0
+
+
+def parse_checksums(path: Path) -> tuple[dict[str, str], list[str]]:
+    values: dict[str, str] = {}
+    errors: list[str] = []
+    for line_no, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip():
+            continue
+        match = re.fullmatch(r"([0-9a-f]{64})  (.+)", line)
+        if not match:
+            errors.append(f"invalid checksum line {line_no}")
+            continue
+        digest, rel = match.groups()
+        if rel in values:
+            errors.append(f"duplicate checksum member: {rel}")
+        values[rel] = digest
+    return values, errors
+
+
+def verify_extracted(root: Path) -> tuple[list[str], list[str], dict[str, Any]]:
+    errors: list[str] = []
+    warnings: list[str] = []
+    required = [
+        root / "review" / "source-comments.json",
+        root / "project" / "PROJECT_STATE.md",
+        root / "project" / "CHANGELOG.md",
+        root / "project" / "README.md",
+        root / "project" / "MANIFEST.json",
+        root / "project" / "SHA256SUMS.txt",
+    ]
+    for path in required:
+        if not path.is_file():
+            errors.append(f"missing required member: {path.relative_to(root).as_posix()}")
+    articles = sorted((root / "article").glob("*.html")) if (root / "article").is_dir() else []
+    reviews = sorted((root / "review").glob("*.html")) if (root / "review").is_dir() else []
+    if not articles:
+        errors.append("no packaged article HTML")
+    if not reviews:
+        errors.append("no packaged review HTML")
+
+    manifest: dict[str, Any] = {}
+    manifest_path = root / "project" / "MANIFEST.json"
+    if manifest_path.is_file():
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            errors.append(f"manifest JSON invalid: {exc}")
+        if manifest and manifest.get("format") != PACKAGE_FORMAT:
+            errors.append(f"unsupported package format: {manifest.get('format')}")
+
+    comments = root / "review" / "source-comments.json"
+    if comments.is_file():
+        try:
+            json.loads(comments.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            errors.append(f"source comments JSON invalid: {exc}")
+
+    sums_path = root / "project" / "SHA256SUMS.txt"
+    if sums_path.is_file():
+        sums, sum_errors = parse_checksums(sums_path)
+        errors.extend(sum_errors)
+        actual_members = {
+            path.relative_to(root).as_posix()
+            for path in root.rglob("*")
+            if path.is_file() and path != sums_path
+        }
+        listed_members = set(sums)
+        for rel in sorted(actual_members - listed_members):
+            errors.append(f"file missing from checksums: {rel}")
+        for rel in sorted(listed_members - actual_members):
+            errors.append(f"checksum points to missing file: {rel}")
+        for rel, expected in sums.items():
+            path = root / rel
+            if path.is_file() and sha256_file(path) != expected:
+                errors.append(f"checksum mismatch: {rel}")
+
+    article_hashes = {sha256_file(path): path.name for path in articles}
+    review_meta: list[dict[str, Any]] = []
+    for review in reviews:
+        static_errors = review_static_errors(review)
+        errors.extend(f"{review.name}: {item}" for item in static_errors)
+        try:
+            meta = extract_review_meta(review)
+        except ValueError:
+            continue
+        review_meta.append(meta)
+        revised_hash = str(meta.get("revised_sha256") or "")
+        if revised_hash not in article_hashes:
+            errors.append(
+                f"{review.name}: revised SHA-256 does not match a packaged article; "
+                "package the exact candidate used to generate the review"
+            )
+        if not str(meta.get("source_sha256") or ""):
+            errors.append(f"{review.name}: source SHA-256 is empty")
+        if meta.get("row_scope") == "changed-passages-only" and any(
+            row.get("state") == "equal" for row in (meta.get("rows") or {}).values() if isinstance(row, dict)
+        ):
+            errors.append(f"{review.name}: changed-passages-only review contains equal rows")
+        if meta.get("view_mode") == "full-draft":
+            if meta.get("row_scope") != "full-draft":
+                errors.append(f"{review.name}: full-draft view must declare row_scope=full-draft")
+            if any((row.get("old") is not None) for row in (meta.get("rows") or {}).values() if isinstance(row, dict)):
+                errors.append(f"{review.name}: full-draft review contains comparison-side content")
+
+    view_modes = [str(meta.get("view_mode") or "comparison") for meta in review_meta]
+    if reviews and "full-draft" not in view_modes:
+        errors.append("substantial review package is missing a full-draft commentable review")
+    if reviews and not any(mode == "comparison" for mode in view_modes):
+        errors.append("substantial review package is missing a comparison review")
+
+    details = {
+        "article_members": [p.relative_to(root).as_posix() for p in articles],
+        "review_members": [p.relative_to(root).as_posix() for p in reviews],
+        "review_count": len(review_meta),
+        "view_modes": view_modes,
+    }
+    return errors, warnings, details
+
+
+def verify_package(path: Path, quiet: bool = False) -> tuple[list[str], list[str], dict[str, Any]]:
+    if not path.is_file():
+        return [f"package does not exist: {path}"], [], {}
+    with zipfile.ZipFile(path) as zf:
+        unsafe = [name for name in zf.namelist() if not safe_member_name(name.rstrip("/"))]
+        if unsafe:
+            return ["unsafe ZIP member(s): " + ", ".join(unsafe)], [], {}
+        duplicates = [name for name in set(zf.namelist()) if zf.namelist().count(name) > 1]
+        if duplicates:
+            return ["duplicate ZIP member(s): " + ", ".join(sorted(duplicates))], [], {}
+        with tempfile.TemporaryDirectory(prefix="review-package-verify-") as temp:
+            root = Path(temp)
+            zf.extractall(root)
+            errors, warnings, details = verify_extracted(root)
+    details["package"] = str(path)
+    details["package_sha256"] = sha256_file(path)
+    if not quiet:
+        print(json.dumps({
+            "status": "pass" if not errors else "fail",
+            "errors": errors,
+            "warnings": warnings,
+            **details,
+        }, indent=2))
+    return errors, warnings, details
+
+
+def selftest() -> int:
+    with tempfile.TemporaryDirectory(prefix="review-package-selftest-") as temp:
+        root = Path(temp)
+        article = root / "article-r01-candidate.html"
+        article.write_text("<article><h1>Candidate</h1><p>Revised text.</p></article>", encoding="utf-8")
+        article_hash = sha256_file(article)
+        review = root / "commentable-diff-r01.html"
+        meta = {
+            "interface_format": REVIEW_FORMAT,
+            "generator_version": "selftest",
+            "artifact_id": "selftest",
+            "baseline_type": "original-vs-current",
+            "row_scope": "changed-passages-only",
+            "source_sha256": "0" * 64,
+            "revised_sha256": article_hash,
+            "rows": {"r0001": {"state": "changed"}},
+        }
+        review.write_text(
+            "<!doctype html><html><body>"
+            + " ".join(REQUIRED_REVIEW_MARKERS)
+            + f'<script id="review-data" type="application/json">{json.dumps(meta)}</script>'
+            + f"<script>const x='{REVIEW_FORMAT}';</script></body></html>",
+            encoding="utf-8",
+        )
+        full_review = root / "full-draft-commentable-r01.html"
+        full_meta = {
+            "interface_format": REVIEW_FORMAT,
+            "generator_version": "selftest",
+            "artifact_id": "selftest-full",
+            "baseline_type": "full-draft-commentable",
+            "row_scope": "full-draft",
+            "view_mode": "full-draft",
+            "source_sha256": article_hash,
+            "revised_sha256": article_hash,
+            "rows": {"r0001": {"state": "current", "old": None, "new": {"text": "Revised text."}}},
+        }
+        full_review.write_text(
+            "<!doctype html><html><body>"
+            + " ".join(REQUIRED_REVIEW_MARKERS)
+            + f'<script id="review-data" type="application/json">{json.dumps(full_meta)}</script>'
+            + f"<script>const x='{REVIEW_FORMAT}';</script></body></html>",
+            encoding="utf-8",
+        )
+        comments = root / "comments.json"
+        comments.write_text("[]\n", encoding="utf-8")
+        state = root / "PROJECT_STATE.md"
+        state.write_text("# Project State\n", encoding="utf-8")
+        changelog = root / "CHANGELOG.md"
+        changelog.write_text("# Changelog\n", encoding="utf-8")
+        readme = root / "README.md"
+        readme.write_text("# README\n", encoding="utf-8")
+        out = root / "package.zip"
+        args = argparse.Namespace(
+            article=article,
+            review=[review, full_review],
+            source_comments=comments,
+            project_state=state,
+            changelog=changelog,
+            readme=readme,
+            comment_ledger=None,
+            browser_test_report=None,
+            artifact_ledger=None,
+            extra=[],
+            out=out,
+        )
+        build_package(args)
+        errors, _, _ = verify_package(out, quiet=True)
+        if errors:
+            raise AssertionError(errors)
+    print("review_package.py self-test: PASS")
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    build = sub.add_parser("build")
+    build.add_argument("--article", type=Path, required=True)
+    build.add_argument("--review", type=Path, action="append", required=True)
+    build.add_argument("--source-comments", type=Path, required=True)
+    build.add_argument("--project-state", type=Path, required=True)
+    build.add_argument("--changelog", type=Path, required=True)
+    build.add_argument("--readme", type=Path, required=True)
+    build.add_argument("--comment-ledger", type=Path)
+    build.add_argument("--browser-test-report", type=Path)
+    build.add_argument("--artifact-ledger", type=Path)
+    build.add_argument("--extra", action="append", type=parse_extra)
+    build.add_argument("--out", type=Path, required=True)
+
+    verify = sub.add_parser("verify")
+    verify.add_argument("package", type=Path)
+
+    sub.add_parser("selftest")
+    args = parser.parse_args()
+
+    if args.command == "build":
+        return build_package(args)
+    if args.command == "verify":
+        errors, _, _ = verify_package(args.package)
+        return 1 if errors else 0
+    return selftest()
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
