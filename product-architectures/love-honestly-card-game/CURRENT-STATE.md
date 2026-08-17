@@ -16,7 +16,7 @@ It is deliberately not merged into `joel-articles/main`, whose job is article go
 - Release commit: `66dba59994e3fe67f7158aac940015057c252aaa`
 - Annotated release tag: `v0.3.0`
 - Annotated tag object: `31241f3b91b1a316076003da4c5b7fa44de7ee1a`
-- Release closeout head in the Git bundle: `7e523e568fde8249645255f76fcbc7f54c976e54`
+- Final release-bundle head: `4ab6fdf07351767807ba95bd60012f2303d742be`
 - Immediate predecessor tag: `v0.2.1`
 - Immediate predecessor commit: `7f56a441b1ccb61520711c67dbb2ae6d46098ceb`
 - Article Edition tag: `v0.1.0`
@@ -88,7 +88,7 @@ v0.1.0, v0.2.0, v0.2.1, and v0.3.0 tag recovery: passed
 
 1. Recover full source from `Love-Honestly-Card-Game-v0.3.0.bundle`.
 2. Verify it and the other artifacts against `Love-Honestly-v0.3.0-SHA256.txt`.
-3. Clone the bundle and confirm `v0.3.0^{}` resolves to `66dba59994e3fe67f7158aac940015057c252aaa`.
+3. Clone the bundle and confirm `v0.3.0^{}` resolves to `66dba59994e3fe67f7158aac940015057c252aaa` and the clone head is `4ab6fdf07351767807ba95bd60012f2303d742be`.
 4. Read the project `PRODUCT.md`, `DESIGN.md`, `surfaces/game.md`, `CURRENT-STATE.md`, and `README.md` in the bundle.
 5. Read the operational map, card-function matrix, article mapping, v0.3.0 specification, implementation plan, and release notes.
 6. Create an isolated branch before changing behavior.
