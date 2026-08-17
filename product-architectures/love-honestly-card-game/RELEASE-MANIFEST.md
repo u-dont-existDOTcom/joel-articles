@@ -7,7 +7,7 @@ Release date: 2026-08-17
 - Release commit: `66dba59994e3fe67f7158aac940015057c252aaa`
 - Annotated release tag: `v0.3.0`
 - Annotated tag object: `31241f3b91b1a316076003da4c5b7fa44de7ee1a`
-- Release closeout head: `7e523e568fde8249645255f76fcbc7f54c976e54`
+- Final release-bundle head: `4ab6fdf07351767807ba95bd60012f2303d742be`
 - Previous release tag: `v0.2.1`
 - Previous release commit: `7f56a441b1ccb61520711c67dbb2ae6d46098ceb`
 - Article Edition tag: `v0.1.0`
@@ -21,8 +21,8 @@ f431f9df8f96dbf3e89ce1a50f270b6697106b92290982b28a6e9704c41ee66b  Love-Honestly-
 588e5e22253daee2bc0d89935c6bfacb2cae84694a87c2d4df7f70e5e2320af0  Love-Honestly-Article-Edition-v0.1.0.html
 ea84d786e596b1ce435167346e80be519d44209b27eaf767e0c108d63161141e  FRESH-CONVERSATION-HANDOFF-v0.3.0.md
 b0ec795e9c4bd8ba2b8437977dbeca61419ea6215a51cd49836c3c260a60b829  RELEASE-MANIFEST-v0.3.0.md
-c0081fe20099426e96feec67510ddf280574689428fc417648d5aebdf84fac72  Love-Honestly-Card-Game-v0.3.0.zip
-8d93dbadf51337fc66bba204de6854dd85f85c1432a8ac8c9fdc4fac8598763d  Love-Honestly-Card-Game-v0.3.0.bundle
+ce1ccacd29324150c4633dbfd8c7ff71ee97ce700ca67f6f0791fa50ae152574  Love-Honestly-Card-Game-v0.3.0.zip
+991b21d3766756032b73eef26aa3853015cebed9ce2fea64ba77f10d9f00a8bd  Love-Honestly-Card-Game-v0.3.0.bundle
 ```
 
 ## Product acceptance
@@ -46,6 +46,7 @@ c0081fe20099426e96feec67510ddf280574689428fc417648d5aebdf84fac72  Love-Honestly-
 - Source ZIP passed `unzip -t`.
 - Git bundle passed `git bundle verify` and cloned successfully.
 - Bundle clone contained `v0.1.0`, `v0.2.0`, `v0.2.1`, and `v0.3.0`.
+- Bundle clone head resolved to `4ab6fdf07351767807ba95bd60012f2303d742be`.
 - `v0.3.0^{}` resolved to exact release commit `66dba59994e3fe67f7158aac940015057c252aaa`.
 - Every downloadable artifact matched `Love-Honestly-v0.3.0-SHA256.txt`.
 
