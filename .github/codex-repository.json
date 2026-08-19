@@ -3,7 +3,7 @@
   "repository_kind": "content",
   "active": true,
   "long_running": true,
-  "visibility": "private",
+  "visibility": "public",
   "risk": "high",
   "commands": {
     "test": "python -m unittest discover -s tests",
@@ -13,11 +13,14 @@
   },
   "publication_transition": {
     "target_visibility": "public",
-    "status": "pre_publication_audit_pending",
+    "status": "public_readback_confirmed",
     "owner_approved_tracked_source_disclosure": true,
     "approved_at": "2026-08-18",
+    "completed_at": "2026-08-19",
+    "hosted_readback_visibility": "public",
     "excluded_repository": "u-dont-existDOTcom/AskRigor-lessons",
-    "audit_workflow": ".github/workflows/publication-secret-audit.yml"
+    "audit_workflow": ".github/workflows/publication-secret-audit.yml",
+    "audit_disposition": "publication secret audit passed before the hosted visibility mutation"
   },
   "current_state": "state/CODEX-CURRENT-STATE.md",
   "github_controls": {
@@ -26,5 +29,5 @@
     "push_protection": "unverified",
     "code_scanning": "unverified"
   },
-  "audit_note": "GitHub currently reports this repository private despite older repository-local metadata saying public. The owner has approved public disclosure of the tracked writing/source material for this repository. Visibility must remain recorded as private until hosted readback confirms the public toggle. Credential/private-key scanning is the remaining disclosure gate."
+  "audit_note": "GitHub hosted readback on 2026-08-19 confirms visibility=public. A fresh public branch readback confirms main is unprotected. Other hosted security controls remain unverified unless directly read back; do not infer enablement from public visibility. AskRigor-lessons remains excluded/private."
 }
