@@ -1,51 +1,88 @@
 # Idiolect validation status
 
-Status: **operational directional proxy; research-grade Joel-register calibration pending.**
+Status: **operational directional proxy; Tier-B LUAR evidence exists, but no Joel register is validated. Exact-50 unique-Joel attribution is disconfirmed for the current matched-Dharma condition.**
 
 The canonical editorial protocol remains `../project-sources/IDIOLECT-PRESERVATION-PROTOCOL.md`. Do not replace or duplicate it.
 
 ## Current operational state
 
-For D3 sectional reconstruction and D4 article-wide rewriting, the Pangram lab now provides a dependency-free `idiolect-retention` comparison alongside its closed-set local `idiolect-ier` research command.
+For D3 sectional reconstruction and D4 article-wide rewriting, the Pangram lab provides the dependency-free `idiolect-retention` comparison alongside closed-set research tooling.
 
-Those tools are useful immediately under the limits already stated in the canonical protocol:
+Those tools remain useful under the canonical limits:
 
-- semantic/editorial fidelity, article architecture, Pangram status, and authorship-signal retention remain separate results;
+- semantic/editorial fidelity, article architecture, Pangram status, and authorship-signal retention are separate results;
 - the single-author command is a directional retention proxy, not IER;
-- no universal profile-similarity threshold exists;
+- no universal profile-similarity or margin threshold exists;
 - owner authority and fidelity outrank the metric;
 - workers must not insert errors, fake specificity, memories, catchphrases, slang, unusual punctuation, or corpus tics to improve a score.
 
-## What is not yet established
+## Tier-B evidence now available
 
-The fast local proxy has not yet been validated for Joel's distinct writing registers against the paper's stronger attribution setup.
+The earlier statement that no durable LUAR or topic-matched control-author evidence existed is obsolete.
 
-In particular, no durable evidence yet establishes:
+The Pangram lab now contains frozen, source-hash-conditioned LUAR evidence using the pinned `rrivera1849/LUAR-MUD` model and topic/platform-matched Dharma Connection controls. Stian Gudmundsen Høiland is explicitly treated as Joel's owner-identified hard negative rather than an arbitrary control; David Vardy and Greg Goode are ordinary matched controls.
 
-- paper-faithful TF-IDF character 2–4 + word 1–2 linear-SVM baseline accuracy on a Joel/control-author corpus;
-- LUAR held-out authorship attribution for Joel;
-- topic-matched negative authors sufficient to separate subject matter from style;
-- register-specific proxy agreement for research-conversational, practical, personal/tender, or polemical prose;
-- a held-out calibration showing that any numeric local-proxy threshold is justified.
+The current decisive exact-50 result is:
 
-Therefore the routine result remains **directional evidence only**.
+- candidate set: Joel / Stian / David / Greg;
+- each evaluated target boundary: exactly 50 original words;
+- primary matched-Dharma stratum: Joel top-ranked on **2 of 4** natural Joel originals;
+- the two errors went to **Stian once and Greg once**;
+- therefore exact-50 LUAR is **not reliable enough to serve as an operational unique-Joel retention gate** for this named matched-Dharma condition.
 
-## Cross-repository authority
+That result is frozen in Pangram lab at:
 
-Research-grade calibration belongs in `u-dont-existDOTcom/pangram-humanization-lab`:
+`state/IDIOLECT-FOUR-AUTHOR-TARGET-VERIFICATION-RESULT-2026-08-19.json`
 
-- `docs/IDIOLECT-RETENTION-PROTOCOL.md` — current operational proxy and local closed-set IER contract;
-- `docs/IDIOLECT-VALIDATION-PROTOCOL.md` — Tier-A/Tier-B validation architecture, including surface SVM, LUAR, topic/content controls, register stratification, and disagreement handling;
-- `state/IDIOLECT-PROXY-VALIDATION-GAP-2026-08-17.md` — exact current evidence gap.
+The same experiment preserved a separate independent-TAFKA sensitivity stratum: two of two held-out Joel originals ranked Joel first. This is positive evidence, but it is too small and changes platform/register relative to the control profiles. It must **not** be averaged with the matched-Dharma result or used to declare exact-50 validation.
 
-`joel-articles` continues to own editorial authority, edit-dose decisions, source/corpus provenance policy, article acceptance, and the rule that no metric can silently alter Joel's argument.
+Earlier three-author whole-document LUAR evidence was more promising: Joel was top-ranked on 3 of 4 held-out whole documents. That sample was small and shared-thread/candidate-set limited. It does not establish a validated longer-boundary condition.
+
+## Consequences for interpretation
+
+The research now supports several narrower conclusions:
+
+1. **Fifty words is not a validated sweet spot.** It was previously only a lower weak-evidence boundary. The matched four-author experiment now directly disconfirms unique-Joel exact-50 attribution for its named condition.
+2. **A Joel → Stian nearest-author flip is not, by itself, idiolect erasure.** Stian is a genuine hard negative, and the current four-author result also shows ambiguity beyond Stian: Greg wins one natural Joel target, while David can outrank Joel without becoming the top prediction.
+3. **Joel-only similarity still cannot certify retention.** A candidate can move closer to Joel while moving as much or more toward plausible alternatives.
+4. **Short-text candidate-set geometry is instrument/corpus specific.** The current profile cosine matrix does not establish a general real-world “Joel–Stian neighborhood”; in one frozen profile set Stian–David similarity is higher than Joel–Stian similarity.
+5. **No register is `validated-for-register`.** The routine proxy therefore remains directional evidence only.
 
 ## Live-use rule
 
-Before treating an idiolect-retention result as more than a directional diagnostic, check whether the Pangram lab records `validated-for-register` status for the relevant register and instrument version.
+Do **not** use a 50-word LUAR unique-author result as an acceptance gate for Joel prose under the current evidence.
 
-If it does not, report:
+When a substantial rewrite needs authorship-retention evidence:
 
-> `Idiolect retention: directional proxy only; research-grade calibration for this register is not yet established.`
+- prefer the longest coherent reader-visible boundary that matches the editorial unit actually changed, rather than shrinking to a 50-word test window;
+- use a register-relevant held-out corpus when one is available;
+- report model/instrument, corpus identity, original baseline, candidate movement, competing-author evidence, and limitations;
+- if no longer/register-matched condition has been separately validated, continue to label the result directional rather than converting it into a pass/fail threshold.
 
-If the fast proxy later disagrees materially with a research-grade instrument, do not average the scores and do not optimize the prose toward either one. Treat authorship measurement as inconclusive, preserve the counterexample in the lab, and return to owner authority, semantic fidelity, article architecture, and the minimum coherent edit.
+The appropriate default report remains:
+
+> `Idiolect retention: directional evidence only; no validated-for-register operational threshold is currently established.`
+
+A 50-word result may still be recorded as a diagnostic, especially for research, but it must not override a larger coherent boundary, owner judgment, semantic fidelity, or article architecture.
+
+## Cross-repository authority
+
+Research-grade calibration belongs in `u-dont-existDOTcom/pangram-humanization-lab`. Current relevant evidence includes:
+
+- `docs/IDIOLECT-RETENTION-PROTOCOL.md` — operational proxy and local closed-set research contract;
+- `docs/IDIOLECT-VALIDATION-PROTOCOL.md` — validation architecture, including surface SVM, LUAR, topic/content controls, register stratification, and disagreement handling;
+- `state/IDIOLECT-SYNCHRONIZED-AUTHORSHIP-RESULT-2026-08-18.json` — frozen three-author synchronized baseline and content controls;
+- `state/IDIOLECT-STIAN-NEAR-NEIGHBOR-CORRECTION-2026-08-18.md` — owner correction and hard-negative interpretation;
+- `state/IDIOLECT-FOUR-AUTHOR-TARGET-VERIFICATION-RESULT-2026-08-19.json` — current four-author exact-50 target-verification result.
+
+`joel-articles` continues to own editorial authority, edit-dose decisions, source/corpus provenance policy, article acceptance, and the rule that no metric can silently alter Joel's argument.
+
+## Remaining calibration gap
+
+The remaining question is no longer “does any LUAR evidence exist?” It is narrower:
+
+- can substantially longer, coherent, register-matched Joel boundaries be attributed reliably enough for useful retention comparison;
+- can that result reproduce across independent source groups and more than one small target set;
+- how does the fast local proxy agree or disagree with that stronger evidence by register and edit dose.
+
+Do not launch more short-text or Romance rewrite experiments merely to rescue exact-50 attribution. Future calibration should address that longer-boundary question directly.
