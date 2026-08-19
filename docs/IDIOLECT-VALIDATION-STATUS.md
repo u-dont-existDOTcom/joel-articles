@@ -16,6 +16,16 @@ Those tools remain useful under the canonical limits:
 - owner authority and fidelity outrank the metric;
 - workers must not insert errors, fake specificity, memories, catchphrases, slang, unusual punctuation, or corpus tics to improve a score.
 
+### Production stop rule
+
+Closed-set LUAR/SVM/IER calibration is **research tooling, not a routine humanization stage**. Do not launch a new multi-author attribution experiment, recruit additional comparison authors, or expand a calibration corpus merely to decide whether current Joel-byline prose is acceptable.
+
+The default production path is meaning/architecture → minimum coherent edit → cold review → Pangram under its own boundary rules. Idiolect evidence may be consulted when already available and genuinely decision-relevant, but an unvalidated instrument must not create another repair loop.
+
+The dependency-free single-author proxy is also optional rather than blocking. Use it only when it is cheap, the comparison boundary is meaningful, the reference corpus is relevant, and the result could change a real editorial decision. Otherwise record that no validated retention gate is available and proceed under owner authority, fidelity, architecture, and detector evidence.
+
+A new LUAR or other Tier-B run requires an explicit research purpose or a predeclared calibration question whose answer would materially improve the reusable humanization system. Once a condition is shown too unstable to be operational, stop trying to rescue it with more controls, shorter windows, or article-specific experiments.
+
 ## Tier-B evidence now available
 
 The earlier statement that no durable LUAR or topic-matched control-author evidence existed is obsolete.
@@ -50,12 +60,12 @@ The research now supports several narrower conclusions:
 
 ## Live-use rule
 
-Do **not** use a 50-word LUAR unique-author result as an acceptance gate for Joel prose under the current evidence.
+Do **not** use a 50-word LUAR unique-author result as an acceptance gate for Joel prose under the current evidence, and do not run LUAR merely because a rewrite is substantial.
 
-When a substantial rewrite needs authorship-retention evidence:
+If an existing authorship-retention result is relevant to a real editorial choice:
 
 - prefer the longest coherent reader-visible boundary that matches the editorial unit actually changed, rather than shrinking to a 50-word test window;
-- use a register-relevant held-out corpus when one is available;
+- use a register-relevant held-out corpus when one is already available;
 - report model/instrument, corpus identity, original baseline, candidate movement, competing-author evidence, and limitations;
 - if no longer/register-matched condition has been separately validated, continue to label the result directional rather than converting it into a pass/fail threshold.
 
@@ -85,4 +95,4 @@ The remaining question is no longer “does any LUAR evidence exist?” It is na
 - can that result reproduce across independent source groups and more than one small target set;
 - how does the fast local proxy agree or disagree with that stronger evidence by register and edit dose.
 
-Do not launch more short-text or Romance rewrite experiments merely to rescue exact-50 attribution. Future calibration should address that longer-boundary question directly.
+These are research questions, not production prerequisites. Do not launch more short-text or Romance rewrite experiments merely to rescue exact-50 attribution. Future calibration should address the longer-boundary question only when there is a concrete reusable-research reason to do so.
