@@ -29,7 +29,11 @@ mapfile -t pr_numbers < <(gh pr list --repo "$repository" --state all --limit 10
 for number in "${pr_numbers[@]}"; do gh api --method GET --paginate "repos/$repository/pulls/$number/reviews?per_page=100" > "$work/hosted/reviews/pr-$number.json"; done
 mapfile -t run_ids < <(gh run list --repo "$repository" --limit 1000 --json databaseId --jq '.[].databaseId')
 fetched_logs=0; unavailable_logs=0
+current_run_id="${GITHUB_RUN_ID:-}"
 for run_id in "${run_ids[@]}"; do
+  if [[ -n "$current_run_id" && "$run_id" == "$current_run_id" ]]; then
+    continue
+  fi
   if gh run view "$run_id" --repo "$repository" --log > "$work/hosted/actions/run-$run_id.log" 2>/dev/null; then fetched_logs=$((fetched_logs+1)); else rm -f "$work/hosted/actions/run-$run_id.log"; unavailable_logs=$((unavailable_logs+1)); fi
 done
 set +e
