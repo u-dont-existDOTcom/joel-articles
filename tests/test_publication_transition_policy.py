@@ -16,8 +16,10 @@ def test_profile_records_confirmed_public_visibility():
     assert transition["excluded_repository"] == "u-dont-existDOTcom/AskRigor-lessons"
 
 
-def test_publication_audit_uses_nonconflicting_pr_head_namespace():
+def test_publication_audit_uses_nonconflicting_pr_head_namespace_and_skips_self():
     text = SCRIPT.read_text(encoding="utf-8")
     assert "+refs/pull/*/head:refs/remotes/pull-heads/*" in text
     assert "+refs/pull/*/head:refs/remotes/pull/*" not in text
+    assert 'current_run_id="${GITHUB_RUN_ID:-}"' in text
+    assert '"$run_id" == "$current_run_id"' in text
     assert "--redact=100" in text
