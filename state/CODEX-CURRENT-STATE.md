@@ -1,6 +1,12 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-08-17
+Updated: 2026-08-19
+
+## Public-visibility update — 2026-08-19
+
+GitHub hosted readback confirms this repository is now **public**. The owner approved disclosure of the tracked writing/source material for this repository, and the publication-secret audit passed before the hosted visibility mutation. `u-dont-existDOTcom/AskRigor-lessons` remains **private**.
+
+A fresh hosted branch readback confirms `main` is still **unprotected**. Public visibility removes the private GitHub-hosted Actions minute billing boundary for standard runners, but it does not itself establish branch protection, secret scanning, push protection, code scanning, or other hosted controls. Keep those controls at their separately verified/unverified states until direct readback exists.
 
 ## Goal
 
@@ -47,6 +53,7 @@ Updated: 2026-08-17
   `eea01a44608fe39f7a472be2a5c7c7757dd22bad`.
 - The current ChatGPT Project still contains 10 sources; nothing was restored
   into the Project UI.
+- Public-visibility transition completed 2026-08-19 after the repository's credential/private-key audit passed; hosted readback confirms public visibility.
 
 ## Current checkpoint
 
@@ -60,6 +67,7 @@ Updated: 2026-08-17
 - Current Project cleanup is safe: the remaining 10 Project Sources are now
   redundant with GitHub authority/archive and may be removed from the ChatGPT
   Project after replacing Project Instructions with the minimal GitHub loader.
+- Repository visibility is now **public**; `AskRigor-lessons` remains outside this disclosure boundary and private.
 
 ## Remaining
 
@@ -75,8 +83,8 @@ Updated: 2026-08-17
 - No Project-source recovery blocker remains.
 - No article authority exists in the repository. Do not infer a master from
   project sources, filenames, summaries, or chat.
-- Licensing/copyright, privacy release, publication, and competing article
-  masters remain owner-decision boundaries.
+- Licensing/copyright, publication, and competing article masters remain owner-decision boundaries. The tracked repository content itself has been owner-approved for public repository disclosure; that does not automatically choose a license or designate any source artifact as a published article.
+- `main` is currently unprotected by hosted readback. Secret scanning, push protection, and code-scanning posture remain unverified unless a newer direct hosted readback supersedes this state.
 
 ## Evidence / artifacts
 
@@ -94,12 +102,14 @@ Updated: 2026-08-17
 - Article registry: `articles/INDEX.json`
 - Recovery CLI: `scripts/restore_project_sources_4_11_1.py`
 - Recovery merge: PR #11 / `eea01a44608fe39f7a472be2a5c7c7757dd22bad`.
+- Public visibility preparation merge: `f7876a7d8056219106227806570c6823c3f9d29c`.
 
 ## Next safe action
 
 - Complete only the ChatGPT Project UI cleanup. No further source migration is
   required unless Joel supplies a newer source that should supersede current
   GitHub authority.
+- For repository visibility/cost work, no further private-to-public transition is required; continue with ordinary public-repository CI and keep hosted security controls separately audited.
 
 ## Recovery rule
 
