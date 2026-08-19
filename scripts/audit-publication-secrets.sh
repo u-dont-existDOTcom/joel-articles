@@ -10,7 +10,8 @@ umask 077
 work="$(mktemp -d /tmp/joel-articles-publication-audit.XXXXXX)"
 trap 'rm -rf -- "$work"' EXIT
 mkdir -p "$work/hosted/actions" "$work/hosted/reviews"
-git fetch --force --no-tags origin '+refs/heads/*:refs/remotes/origin/*' '+refs/tags/*:refs/tags/*' '+refs/pull/*/head:refs/remotes/pull/*'
+# Keep audit-only PR heads separate from actions/checkout's pull/<n>/merge namespace.
+git fetch --force --no-tags origin '+refs/heads/*:refs/remotes/origin/*' '+refs/tags/*:refs/tags/*' '+refs/pull/*/head:refs/remotes/pull-heads/*'
 git for-each-ref --format='%(refname)' > "$work/hosted/ref-names.txt"
 git log --all --format='%H%n%B%n---END-COMMIT---' > "$work/hosted/commit-messages.txt"
 archive="$work/gitleaks.tar.gz"
@@ -31,7 +32,6 @@ fetched_logs=0; unavailable_logs=0
 for run_id in "${run_ids[@]}"; do
   if gh run view "$run_id" --repo "$repository" --log > "$work/hosted/actions/run-$run_id.log" 2>/dev/null; then fetched_logs=$((fetched_logs+1)); else rm -f "$work/hosted/actions/run-$run_id.log"; unavailable_logs=$((unavailable_logs+1)); fi
 done
-scan() { local mode="$1" target="$2" report="$3" log="$4"; set +e; "$work/gitleaks" "$mode" --no-banner --no-color --redact=100 --report-format=json --report-path="$report" ${mode:+} "$target" >"$log" 2>&1; local s=$?; set -e; echo "$s"; }
 set +e
 "$work/gitleaks" git --no-banner --no-color --redact=100 --report-format=json --report-path="$work/git.json" --log-opts='--all' "$PWD" >"$work/git.log" 2>&1; gs=$?
 "$work/gitleaks" dir --no-banner --no-color --redact=100 --report-format=json --report-path="$work/hosted.json" "$work/hosted" >"$work/hosted.log" 2>&1; hs=$?
