@@ -2,11 +2,11 @@
 
 This is the repository-wide visual index of registered articles, explicit interlinks, deduplication relationships, and accepted interlink opportunities. It does not replace `articles/INDEX.json` or article-local authority.
 
-No articles are registered yet.
+<!-- article-id: romance -->
 
 ```mermaid
 flowchart LR
-    empty["No registered articles yet"]
+    romance["Romance — working canonical authority"]
 ```
 
-When an article is registered, add exactly one `<!-- article-id: <article-id> -->` marker and one corresponding graph node in the same change. Add relationship edges only when the editorial relationship is real and useful.
+Romance is currently the only registered article. Add cross-article relationship edges only when another registered article creates a real and useful editorial relationship.
