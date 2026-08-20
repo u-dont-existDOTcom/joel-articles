@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "article_id": "romance",
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "opening-father-question",
+      "description": "Preserve the opening father-at-age-five sex-talk memory and its function: the article grows from the missing romance curriculum rather than from an abstract thesis."
+    },
+    {
+      "id": "bear-terminal-callback",
+      "description": "Preserve the closing return to Bear and the Rosenblum sex talk as the article's terminal callback and stopping point."
+    },
+    {
+      "id": "agape-eros-distinction",
+      "description": "Preserve Joel's distinction and entanglement between selfless/agape love and romantic/erotic wanting; do not flatten it into an accelerator/brake model."
+    },
+    {
+      "id": "coercion-exits-mutual-crucible",
+      "description": "Preserve the safety distinction that terror, control, or fear of saying no/truth/leaving exits the mutual-communication Crucible frame."
+    },
+    {
+      "id": "children-survive-romance",
+      "description": "Preserve the claim that obligations to children and established stepchildren survive changes in the adult romance, including the warning never to recruit children into adult war."
+    },
+    {
+      "id": "community-around-dyad",
+      "description": "Preserve the article-wide function of shared community around the couple: witnesses, support, reality checking, children, conflict, and endings."
+    },
+    {
+      "id": "primal-owner-argument",
+      "description": "Preserve Joel's owner argument in Primal Attraction about masculine/feminine polarity inside safety, including his lived framing and qualifications; do not silently neutralize it."
+    },
+    {
+      "id": "gandarussa-preserved",
+      "description": "Preserve the Gandarussa male-contraception passage in 'If slow isn't realistic for you'; Joel explicitly rejected its removal."
+    },
+    {
+      "id": "native-object-placement",
+      "description": "Preserve native image, YouTube, Substack-preview, share/button markers and their source positions unless publication-source evidence authorizes a change."
+    },
+    {
+      "id": "identity-hale-not-heidi",
+      "description": "Preserve identity separation: H./Hâle/Hale is not Heidi. The Anti-PTSD section uses 'A friend of mine' rather than implying Heidi is H."
+    }
+  ],
+  "owner_review": {
+    "status": "confirmed",
+    "evidence": "Joel owner message 2026-08-20 identified agent/romance-primal-crucible-gui-repair-20260817 at resolved head 8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c and its exact 20,496-word manifest as the last/current Romance article state. This confirms master identity for import, not owner-final publication status."
+  }
+}
