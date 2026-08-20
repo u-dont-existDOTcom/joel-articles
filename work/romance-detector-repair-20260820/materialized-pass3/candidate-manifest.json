@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "status": "candidate_not_owner_final",
+  "source_pass2": {
+    "master": "91b2186d1759fb5ff248363572de94354a12dacd5039c014e529efd1e72fb12e",
+    "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+    "part2": "679daa77fb92ea71bb85716e6ece671e093b49412b149e2f5129079a204d24d2"
+  },
+  "candidate": {
+    "master": {
+      "path": "candidate-master.md",
+      "sha256": "4f354ee1c0d87075912077b910f0c68de3d624d8a8453175bdf35047b041e07f",
+      "word_count_whitespace": 20430,
+      "operations": [
+        {
+          "label": "queen-remove-generic-setup",
+          "source_occurrences": 1,
+          "old_sha256": "7681e11dcd25797772b020905a872e42f5b89ca3b8fd0fb1356e45e4a52db0f7",
+          "new_sha256": "3ec3b1fc309f413d9f70814039535712ae1bc3a7f3f10d827b167b3b2c548e58"
+        },
+        {
+          "label": "queen-collapse-taxonomy",
+          "source_occurrences": 1,
+          "old_sha256": "dec3e25d92a10a5491d5804a8a4d649c2dd74c9453d78bc3ccda8cc00a48c5e3",
+          "new_sha256": "4d03915717f8f6ea4716c1ebecf38df576315b1a45925b92e32a686698acd051"
+        },
+        {
+          "label": "queen-remove-result-aftercare",
+          "source_occurrences": 1,
+          "old_sha256": "1adcc8836f8dd5c75508ec6c2ec483a2d324967f23999680bc733dca35cdf7bb",
+          "new_sha256": "928a12a2ebbe5dc8469d90ca693324af6413109b05bd2b4b7334e2062d2fa690"
+        },
+        {
+          "label": "two-pillars-personal-opening",
+          "source_occurrences": 1,
+          "old_sha256": "fa0237e072447ce8726ea2810983ceba51e79c14eb5b98827cbeea517b39dad2",
+          "new_sha256": "61c6ad7f58335d59b4d683d5f6731eeb0f7e63280791a26d3972b39520187030"
+        },
+        {
+          "label": "two-pillars-route-practical-burden",
+          "source_occurrences": 1,
+          "old_sha256": "5de4b42a3369e05ea39a05946b01ccd49fa8570e36a41ccd5c727f50f29f45e5",
+          "new_sha256": "62d0dec3cb34ab378039ef5be36c90b66dbba58f43f1f56f29f2b8e1107235dd"
+        },
+        {
+          "label": "two-pillars-simplify-caveat",
+          "source_occurrences": 1,
+          "old_sha256": "b602a1985cf9d3bde5fd173b922267df4dcfceb5d0f61e40cdf88a3b9735d8ac",
+          "new_sha256": "419fd7dac9c7bf3f720955305e67e6ef041b7373ec00e0a97a50ecac06a89f05"
+        },
+        {
+          "label": "two-pillars-shared-reality-check",
+          "source_occurrences": 1,
+          "old_sha256": "71b57e50a25c067dfdfec20de0463daf0d81e321dfa05f2433d5b5d710d4d846",
+          "new_sha256": "30d860b4683a0db62b0375004aa8d89286a6fb5c67a39ac465d1aaea0233e460"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "path": "candidate-part-1.txt",
+      "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count_whitespace": 10236,
+      "operations": [],
+      "reuses_registered_detector_result": true
+    },
+    "part2": {
+      "path": "candidate-part-2.txt",
+      "sha256": "c6ef42419a3db2e82b1ff4f9370fc85bca4fa8c061c61dd6a1b5d28171d9908c",
+      "word_count_whitespace": 10043,
+      "operations": [
+        {
+          "label": "queen-remove-generic-setup",
+          "source_occurrences": 1,
+          "old_sha256": "7681e11dcd25797772b020905a872e42f5b89ca3b8fd0fb1356e45e4a52db0f7",
+          "new_sha256": "3ec3b1fc309f413d9f70814039535712ae1bc3a7f3f10d827b167b3b2c548e58"
+        },
+        {
+          "label": "queen-collapse-taxonomy",
+          "source_occurrences": 1,
+          "old_sha256": "dec3e25d92a10a5491d5804a8a4d649c2dd74c9453d78bc3ccda8cc00a48c5e3",
+          "new_sha256": "4d03915717f8f6ea4716c1ebecf38df576315b1a45925b92e32a686698acd051"
+        },
+        {
+          "label": "queen-remove-result-aftercare",
+          "source_occurrences": 1,
+          "old_sha256": "1adcc8836f8dd5c75508ec6c2ec483a2d324967f23999680bc733dca35cdf7bb",
+          "new_sha256": "928a12a2ebbe5dc8469d90ca693324af6413109b05bd2b4b7334e2062d2fa690"
+        },
+        {
+          "label": "two-pillars-personal-opening",
+          "source_occurrences": 1,
+          "old_sha256": "fa0237e072447ce8726ea2810983ceba51e79c14eb5b98827cbeea517b39dad2",
+          "new_sha256": "61c6ad7f58335d59b4d683d5f6731eeb0f7e63280791a26d3972b39520187030"
+        },
+        {
+          "label": "two-pillars-route-practical-burden",
+          "source_occurrences": 1,
+          "old_sha256": "5de4b42a3369e05ea39a05946b01ccd49fa8570e36a41ccd5c727f50f29f45e5",
+          "new_sha256": "62d0dec3cb34ab378039ef5be36c90b66dbba58f43f1f56f29f2b8e1107235dd"
+        },
+        {
+          "label": "two-pillars-simplify-caveat",
+          "source_occurrences": 1,
+          "old_sha256": "b602a1985cf9d3bde5fd173b922267df4dcfceb5d0f61e40cdf88a3b9735d8ac",
+          "new_sha256": "419fd7dac9c7bf3f720955305e67e6ef041b7373ec00e0a97a50ecac06a89f05"
+        },
+        {
+          "label": "two-pillars-shared-reality-check",
+          "source_occurrences": 1,
+          "old_sha256": "71b57e50a25c067dfdfec20de0463daf0d81e321dfa05f2433d5b5d710d4d846",
+          "new_sha256": "30d860b4683a0db62b0375004aa8d89286a6fb5c67a39ac465d1aaea0233e460"
+        }
+      ]
+    }
+  },
+  "detector_plan": {
+    "part1": "no_new_call_exact_registered_hash_unchanged",
+    "part2": "one_new_pangram4_measurement_only"
+  },
+  "editorial_note": "Pass 3 targets the five likely residual Part-2 AI segments: two Queen-of-Orgasms windows and three Two-Pillars/community windows. The Two-Pillars edits remove duplication of the earlier whole-world section while preserving the practical-resilience caveat and shared-reality-check function."
+}
