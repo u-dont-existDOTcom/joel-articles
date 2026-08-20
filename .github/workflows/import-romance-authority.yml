@@ -1,0 +1,49 @@
+name: Import Romance authority master
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  import-master:
+    if: github.head_ref == 'import/romance-authority-20260820'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out exact PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Fetch and verify exact owner-authorized master
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p articles/romance
+          curl --fail --location --silent --show-error \
+            'https://raw.githubusercontent.com/u-dont-existDOTcom/pangram-humanization-lab/8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c/work/romance-current-assembly/current-master.md' \
+            --output /tmp/romance-master.md
+          printf '%s  %s\n' \
+            'af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe' \
+            '/tmp/romance-master.md' | sha256sum --check --strict
+          cp /tmp/romance-master.md articles/romance/master.md
+          printf '%s  %s\n' \
+            'af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe' \
+            'articles/romance/master.md' | sha256sum --check --strict
+
+      - name: Commit exact master to import branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- articles/romance/master.md && git ls-files --error-unmatch articles/romance/master.md >/dev/null 2>&1; then
+            echo 'Exact master already present; no commit needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add articles/romance/master.md
+          git commit -m 'Import exact Romance authority master'
+          git push origin "HEAD:${{ github.head_ref }}"
