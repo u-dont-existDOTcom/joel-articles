@@ -30,13 +30,31 @@ Every other accepted Part-2 pass-1 edit remains unchanged for this measurement.
 - emits a candidate master, exact restored Part 1, and new Part 2;
 - declares `part1: no_new_call_exact_registered_hash_restored` and `part2: one_new_pangram4_measurement_only`.
 
-`tests/test_romance_pass2_materializer.py` exercises the real pass-1 materialized artifacts and verifies those invariants. PR CI passed on commit `9a804b8c103744dbee83e3e8be65d4afbfa0b2b9`.
+`tests/test_romance_pass2_materializer.py` exercises the real pass-1 materialized artifacts and verifies those invariants.
+
+## API execution route
+
+Pangram PR #111 merged the reusable `pangram-lab detect-file` command to `main`. It uses the existing Pangram API client/cache/checkpoint machinery: exact SHA gate, stable measurement key, authentication probe, Pangram-4/version gate, pending-task resume, ambiguous-submit refusal, and Git durability. Because the public Pangram cache stores exact detector text, this article run explicitly uses `--allow-public-cache`; the Romance candidate is already public-safe in the public article repository.
+
+Task runner: `run_pass2_api.sh`.
+
+It:
+
+- materializes pass 2 and proves Part 1 exactly matches the registered SHA;
+- commits/pushes the pass-2 candidate before detector work;
+- reserves stable audit/section/measurement identity on `evidence/romance-pass2-api-20260820`;
+- records that Part 2 has one prior new paid POST in this audit section and the six-call cap;
+- invokes **Part 2 only** through `pangram-lab detect-file`;
+- relies on content-addressed cache/checkpoint state to resume rather than duplicate a paid POST;
+- records the successful API result in the audit ledger when complete.
+
+Current article-branch CI, including the runner syntax/regression test plus authority/architecture/policy gates, passed at commit `7950c1cb8a0f8474bbfc19d94dc1d5332e8930fe`.
 
 ## Detector plan
 
 - Do not submit Part 1.
 - Materialize and push the pass-2 candidate family first.
-- Create a fresh Pangram evidence branch.
-- Submit the exact pass-2 Part 2 once to Pangram 4.
-- If the paid action is ambiguous, recover before repeat; no automatic repeat.
+- Use the fresh/resumable API evidence branch `evidence/romance-pass2-api-20260820`.
+- Submit the exact pass-2 Part 2 once to Pangram 4 through the API route.
+- If the paid action is ambiguous, recover/resume from durable cache state before any repeat; no automatic repeat.
 - After the result is durable, run the article-wide semantic/architecture/fidelity gate again before any canonical authority change.
