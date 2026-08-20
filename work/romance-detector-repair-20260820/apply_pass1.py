@@ -147,7 +147,7 @@ def apply_replacements(text: str, replacements: list[tuple[str, str, str]]) -> t
 
 
 def headings(text: str) -> list[str]:
-    return [line for line in text.splitlines() if re.match(r"^#{1,6}\\s", line)]
+    return [line for line in text.splitlines() if re.match(r"^#{1,6}\s", line)]
 
 
 def native_markers(text: str) -> list[str]:
@@ -155,7 +155,7 @@ def native_markers(text: str) -> list[str]:
 
 
 def markdown_link_destinations(text: str) -> list[str]:
-    return re.findall(r"\\]\\(([^)]+)\\)", text)
+    return re.findall(r"\]\(([^)]+)\)", text)
 
 
 def audit_master(source: str, candidate: str) -> dict[str, object]:
@@ -250,7 +250,7 @@ def main() -> int:
             "surgical edits applied in place. No detector result is implied until each exact candidate file is measured."
         ),
     }
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False, indent=2))
     return 0
 
