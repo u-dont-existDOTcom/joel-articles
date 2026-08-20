@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article_id": "romance",
+  "status": "recorded",
+  "runs": [
+    {
+      "id": "pangram4-current-part1-2026-08-20",
+      "service": "Pangram",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "boundary": "reader-visible Part 1",
+      "text_sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count": 10236,
+      "fraction_human": 0.9205247164,
+      "fraction_ai": 0.0794752836,
+      "fraction_ai_assisted": 0.0,
+      "headline": "Mostly Human Written",
+      "prediction_short": "Human",
+      "stored_text_match": "exact_utf8",
+      "transport": "local_playwright_gui",
+      "paid_gui_calls_total_for_boundary": 1,
+      "provenance": "Original paid Part-1 GUI action became capture-ambiguous; authenticated Pangram History recovery exact-matched the stored document. No repeat Part-1 submission occurred."
+    },
+    {
+      "id": "pangram4-current-part2-2026-08-20",
+      "service": "Pangram",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "boundary": "reader-visible Part 2",
+      "text_sha256": "2df878093bc05fefa98ca30e9a97bdd52e212370f432bf0408e90f1b60c54bb0",
+      "word_count": 10260,
+      "fraction_human": 0.8983033895,
+      "fraction_ai": 0.1016966403,
+      "fraction_ai_assisted": 0.0,
+      "headline": "AI Detected",
+      "prediction_short": "Mixed",
+      "stored_text_match": "exact_utf8",
+      "transport": "local_playwright_gui",
+      "paid_gui_calls_total_for_boundary": 1,
+      "provenance": "Submitted exactly once after Part 1 had become an exact recovered cache hit; exact stored Pangram History record captured."
+    }
+  ],
+  "article_boundary": {
+    "reader_visible_sha256": "10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce",
+    "word_count": 20496,
+    "whole_article_detector_run": false,
+    "limitation": "The two current half-document results do not aggregate into a measured whole-article score and do not satisfy Joel's standing 100% Human acceptance target."
+  },
+  "paid_call_accounting": {
+    "total_gui_calls": 2,
+    "part1_calls": 1,
+    "part2_calls": 1,
+    "duplicate_part1_submission": false
+  }
+}
