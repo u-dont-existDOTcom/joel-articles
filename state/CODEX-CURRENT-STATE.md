@@ -4,7 +4,9 @@ Updated: 2026-08-20
 
 ## Current posture
 
-The 4.11.1 Project-source recovery and GitHub migration are complete. GitHub is the durable authority for governance, protocols, tooling, and any future registered article family.
+The Project-source recovery, GitHub migration, ChatGPT Project cutover, and first article-authority import are complete.
+
+GitHub is the durable authority for governance, protocols, tooling, and registered article state. `articles/INDEX.json` now registers **Romance** as a working canonical article.
 
 GitHub hosted readback on 2026-08-20 confirms:
 
@@ -12,7 +14,7 @@ GitHub hosted readback on 2026-08-20 confirms:
 - default branch: `main`;
 - `main` is **not protected** (`protected: false`; protection disabled).
 
-The current ChatGPT Project instruction block presented to the worker matches the body of the archived minimal GitHub-canonical loader at `archive/chatgpt-project-retirement-2026-08-17/MINIMAL-PROJECT-INSTRUCTIONS.md`. No further Project-instruction rewrite is required on the evidence available here. The GitHub connector cannot inspect or delete ChatGPT Project Source files, so their current UI deletion state remains external to this repository; the last durable checkpoint reported 10 redundant Project Sources.
+The current ChatGPT Project instructions match the archived minimal GitHub-canonical loader. Joel confirmed on 2026-08-20 that the redundant Project Source files are gone. No further Project UI/source cleanup remains.
 
 `u-dont-existDOTcom/AskRigor-lessons` remains outside this repository's public-disclosure boundary and private.
 
@@ -20,93 +22,100 @@ The current ChatGPT Project instruction block presented to the worker matches th
 
 - Repository: `u-dont-existDOTcom/joel-articles`
 - Default branch: `main`
-- Owner ZIP SHA-256:
-  `c0b6b0ce4d95b303a00cc44d75fdf54e4433fa72e39e9e866c84b856fde965b1`.
-- Newer same-named Project/GitHub sources supersede their 4.11.1 copies.
-- `articles/INDEX.json` remains the only article-authority registry and is still empty.
+- Repository article registry: `articles/INDEX.json`
+- Registered article: `romance`, status `working`
+- Romance canonical master: `articles/romance/master.md`
+- Romance master SHA-256: `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`
+- Romance reader-visible SHA-256: `10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce`
+- Romance reader-visible word count: **20,496**
+- Owner ZIP SHA-256 for the historical 4.11.1 Project-source recovery: `c0b6b0ce4d95b303a00cc44d75fdf54e4433fa72e39e9e866c84b856fde965b1`
+
+Current explicit Joel instructions outrank registered state and must then be reconciled back into the registered article family. Historical Pangram branches remain provenance/evidence only after the Romance import.
 
 ## Completed
 
-- Archived the exact ZIP and all 40 exact source members under
-  `archive/project-source-snapshots/4.11.1/` with manifest, README, and checksums.
+- Archived the exact 4.11.1 ZIP and all 40 exact source members under `archive/project-source-snapshots/4.11.1/` with manifest, README, and checksums.
 - Restored 31 absent baseline sources active and preserved all nine newer active successors byte-for-byte.
-- Preserved historical `VOICE-REFERENCE(1).md` in the archive and restored its active destination as `project-sources/VOICE-REFERENCE.md`.
-- Removed the obsolete Action/chunk transport and made the local-ZIP recovery CLI reproducible and idempotently verifiable.
-- Expanded `CANONICAL-REPO-MAP.md` with least-set routes for article modes, humanization, research, voice/corpus, review packages, publishing, and interlinking.
-- Recovered the optional `html_diff.py.txt` from Joel's File Library, added it to active `project-sources/`, and preserved the same Git blob under `archive/project-source-snapshots/optional-maintenance/`.
-- Completed the repository-local reference scan. Final unresolved repository-local Project-source references: **0**.
-- Required repository gates passed for the recovery: 84 unit tests; content and architecture-map validators; repository audit with 0 errors/4 existing governance warnings; patch hygiene; recovery/checksum/protected-file checks; supported tool self-tests.
-- Exact-head GitHub Actions run for PR #11 passed all `content-integrity` steps.
-- PR #11 merged successfully into `main` at `eea01a44608fe39f7a472be2a5c7c7757dd22bad`.
-- Public-visibility transition completed 2026-08-19 after the repository credential/private-key audit passed.
-- Current Project instructions now use the GitHub-canonical minimal loader; no additional instruction migration is required.
-- Hosted-controls issue #3 was refreshed on 2026-08-20 so stale private-repository assumptions no longer masquerade as article blockers.
+- Recovered optional `html_diff.py.txt` active and archived separately.
+- Completed repository-local Project-source reference recovery with **0 unresolved references**.
+- Merged Project-source recovery PR #11 at `eea01a44608fe39f7a472be2a5c7c7757dd22bad`.
+- Completed public-visibility transition after credential/private-key audit.
+- Replaced the ChatGPT Project instruction block with the GitHub-canonical minimal loader.
+- Joel confirmed the redundant ChatGPT Project Source files are deleted.
+- Refreshed stale hosted-control tracking so security hardening is not misrepresented as an article-authority blocker.
+- Resolved the Romance source branch `agent/romance-primal-crucible-gui-repair-20260817` at unchanged PR #36 head `8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c`.
+- Verified its deterministic 41-operation assembly and exact current Pangram halves manifest.
+- Imported the exact Romance master with no prose edits; target/source Git blob identity matches.
+- Registered the complete Romance authority family: master, owner/protected-function record, source evidence, unincorporated-ideas boundary, current state, architecture map, citation state, detector evidence, and editorial state.
+- Registered the exact August 20 Pangram-4 current-half results and two paid GUI calls without claiming a whole-article score.
 
 ## Current checkpoint
 
-- Project-source recovery and GitHub migration: **complete**.
-- Exact baseline accounting: `40 archived / 31 restored active / 9 superseded archive-only`.
-- Optional referenced tool recovery: `html_diff.py.txt` restored active and archived separately.
-- Unresolved repository-local Project-source references: **0**.
-- Project instruction cutover: **complete on the current runtime evidence**.
-- Project Source-file deletion: **not observable through the GitHub connector**; last durable checkpoint reported 10 redundant UI sources.
-- Repository visibility: **public**.
-- Default-branch protection: **disabled** by fresh 2026-08-20 branch readback.
-- Article registry/master authority changes: none; no article is canonical yet.
+Project-source / Project-UI work: **complete**.
 
-## Remaining work that actually matters
+Article authority:
 
-### 1. ChatGPT Project UI cleanup
+- repository status: **active**;
+- Romance status: **working**;
+- no competing Romance master is unresolved;
+- historical Romance PR #36 is provenance only after the registered import;
+- citation status: `pending`;
+- detector status: `recorded`;
+- editorial status: `pending`;
+- publication exports: none registered.
 
-If the ten redundant Project Source files reported by the prior checkpoint are still present, remove them from the Project UI. The instruction replacement itself is already complete. No source migration or restoration should be repeated.
+Current Pangram boundary:
 
-This is a UI-only cleanup. Failure to delete those redundant copies does not make them authoritative; GitHub remains canonical.
+- total: 20,496 reader-visible words; SHA-256 `10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce`;
+- Part 1: 10,236 words; SHA-256 `ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8`; Human `0.9205247164`;
+- Part 2: 10,260 words; SHA-256 `2df878093bc05fefa98ca30e9a97bdd52e212370f432bf0408e90f1b60c54bb0`; Human `0.8983033895`;
+- total paid GUI calls: exactly 2, one per half, with no duplicate Part-1 submission.
 
-### 2. Hosted GitHub hardening
+These half results are not a measured whole-article score and do not satisfy Joel's standing 100% Human acceptance target.
 
-Track in issue #3. These are operational safeguards, not prerequisites for article authority:
+## Remaining
 
-- enable a default-branch ruleset/branch protection for `main` requiring pull requests and the stable `content-integrity` check; block force pushes and branch deletion;
-- verify secret scanning and push protection and enable them when available/appropriate;
-- verify Actions default permissions are read-only and keep fork-origin workflow permissions conservative;
-- verify hosted Dependabot alert posture; `.github/dependabot.yml` exists, but hosted alert enablement has not been directly read back;
-- decide whether code scanning adds enough value for the current Python/tooling surface, then either enable it or record a reasoned not-applicable disposition.
+There is no remaining implementation or migration task required before ordinary Romance work can continue.
 
-Private vulnerability reporting is no longer treated as an article/governance blocker. A security-reporting channel may still be chosen separately if useful.
+Future Romance work should be task-driven:
 
-### 3. Owner policy decisions
+- editing/humanization starts from `articles/romance/` authority, not PR #36;
+- further Pangram repair should first localize current-boundary AI evidence and run the article-wide semantic/architecture gate;
+- citation verification can be completed when factual/source review is actually requested or needed;
+- publication/export work should use registered source-format authority and native-object rules.
 
-Copyright/license posture remains an owner decision. Public visibility does not imply a license. Do not add a license or all-rights-reserved notice by inference.
+Hosted GitHub settings such as branch protection, secret scanning, Actions defaults, Dependabot alerts, and code scanning are optional operational hardening. They are **not required for the article system to function and no user action is currently required**. Revisit them only if Joel wants stronger repository guardrails or collaboration increases.
 
-### 4. First article authority import
+## Blockers / unresolved
 
-Before substantive article editing or any claim that a repository article is canonical, import one complete owner-authorized article family through the registered authority process. The repository must not choose among competing masters or reconstruct one from chat, Project Sources, filenames, detached packets, or memory.
+- Romance is `working`, not `owner_final` or `published`.
+- Citation review remains pending.
+- Editorial owner-final review remains pending.
+- Current exact Pangram halves are below the standing 100% Human target; no whole-article detector result is claimed.
+- Copyright/license posture remains an owner policy decision. Public repository visibility does not imply a license.
+- No publication action is authorized or implied by registration.
 
-This is the only current blocker to repository-backed canonical article editing.
+None of these prevents normal work on the registered working article.
 
 ## Evidence / artifacts
 
+- Article registry: `articles/INDEX.json`
+- Romance current state: `articles/romance/CURRENT-STATE.md`
+- Romance master: `articles/romance/master.md`
+- Romance architecture: `articles/romance/ARCHITECTURE.md`
+- Romance source evidence: `articles/romance/SOURCE-EVIDENCE.json`
+- Romance detector evidence: `articles/romance/DETECTOR-EVIDENCE.json`
 - Recovery audit: `docs/PROJECT-SOURCE-4.11.1-RECOVERY-AUDIT.md`
-- Final closeout: `docs/PROJECT-SOURCE-4.11.1-RECOVERY-CLOSEOUT.md`
+- Recovery closeout: `docs/PROJECT-SOURCE-4.11.1-RECOVERY-CLOSEOUT.md`
 - Historical hosted-controls report: `docs/CODEX-GITHUB-COMPLIANCE-2026-08-14.md`
-- Current hosted-controls tracker: issue #3
+- Historical Project retirement archive: `archive/chatgpt-project-retirement-2026-08-17/`
 - Snapshot manifest: `archive/project-source-snapshots/4.11.1/MANIFEST.json`
 - Snapshot checksums: `archive/project-source-snapshots/4.11.1/SHA256SUMS.txt`
-- Optional maintenance archive: `archive/project-source-snapshots/optional-maintenance/html_diff.py.txt`
-- Canonical loader: `CANONICAL-REPO-MAP.md`
-- Minimal Project instructions: `archive/chatgpt-project-retirement-2026-08-17/MINIMAL-PROJECT-INSTRUCTIONS.md`
-- Article registry: `articles/INDEX.json`
-- Recovery CLI: `scripts/restore_project_sources_4_11_1.py`
-- Recovery merge: PR #11 / `eea01a44608fe39f7a472be2a5c7c7757dd22bad`
-- Public visibility preparation merge: `f7876a7d8056219106227806570c6823c3f9d29c`
 
 ## Next safe action
 
-- Do not repeat Project-source restoration or rewrite the Project loader again.
-- Remove redundant Project Source files in the ChatGPT Project UI if they are still present.
-- Harden hosted GitHub settings when direct settings access is available; do not falsely report unverified settings as enabled.
-- When Joel identifies the exact owner-authorized article master to import, follow `docs/CONTENT-AUTHORITY-AND-IMPORT.md` and register the resulting complete hash-bound article family in `articles/INDEX.json`.
+For the next Romance request, load the registered Romance family fresh and continue from its working master. Do not repeat Project-source recovery, Project cleanup, source-branch reconstruction, or infrastructure validation merely to prove they work.
 
 ## Recovery rule
 
-After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, this state file, and the article registry fresh. Do not repeat Project-source restoration; the recovery is complete and durable on `main` once this refresh is merged.
+After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, this state file, `articles/INDEX.json`, then the registered Romance current state/master/locks/evidence required by the task. Treat historical Pangram Romance branches as provenance unless current registered state explicitly routes to them for evidence.
