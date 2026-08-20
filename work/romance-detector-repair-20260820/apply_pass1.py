@@ -4,8 +4,10 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 
+MASTER_SHA = "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe"
 PART1_SHA = "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8"
 PART2_SHA = "2df878093bc05fefa98ca30e9a97bdd52e212370f432bf0408e90f1b60c54bb0"
 
@@ -89,6 +91,38 @@ Sometimes the easiest story is that they were fake all along. Don’t grab that 
     ),
 ]
 
+MASTER_REPLACEMENTS = PART1_REPLACEMENTS + [
+    (
+        label,
+        (
+            old.replace(
+                "the old Men Are from Mars, Women Are from Venus problem",
+                "the old *Men Are from Mars, Women Are from Venus* problem",
+            )
+            if label == "muses-directors-lived-thought"
+            else old
+        ),
+        (
+            new.replace(
+                "the old Men Are from Mars, Women Are from Venus problem",
+                "the old *Men Are from Mars, Women Are from Venus* problem",
+            )
+            if label == "muses-directors-lived-thought"
+            else new
+        ),
+    )
+    for label, old, new in PART2_REPLACEMENTS
+]
+
+PROTECTED_ANCHORS = {
+    "opening-father-question": "I asked my dad about sex when I was five",
+    "coercion-exits-mutual-crucible": "If you're scared to say no, scared to tell the truth, or scared of what happens if you leave",
+    "children-survive-romance": "Never recruit children into the adult war.",
+    "gandarussa-preserved": "Gandarussa",
+    "identity-hale-not-heidi": "A friend of mine was talking about PTSD recently",
+    "bear-terminal-callback": "Bear, sex can be what you do when you’re older",
+}
+
 
 def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
@@ -100,56 +134,104 @@ def apply_replacements(text: str, replacements: list[tuple[str, str, str]]) -> t
         occurrences = text.count(old)
         if occurrences != 1:
             raise RuntimeError(f"{label}: expected exactly one source occurrence, found {occurrences}")
-        before_sha = sha256_text(old)
-        after_sha = sha256_text(new)
         text = text.replace(old, new, 1)
         audit.append(
             {
                 "label": label,
                 "source_occurrences": occurrences,
-                "old_sha256": before_sha,
-                "new_sha256": after_sha,
+                "old_sha256": sha256_text(old),
+                "new_sha256": sha256_text(new),
             }
         )
     return text, audit
 
 
+def headings(text: str) -> list[str]:
+    return [line for line in text.splitlines() if re.match(r"^#{1,6}\\s", line)]
+
+
+def native_markers(text: str) -> list[str]:
+    return [line for line in text.splitlines() if line.startswith("[NATIVE ")]
+
+
+def markdown_link_destinations(text: str) -> list[str]:
+    return re.findall(r"\\]\\(([^)]+)\\)", text)
+
+
+def audit_master(source: str, candidate: str) -> dict[str, object]:
+    missing = [name for name, anchor in PROTECTED_ANCHORS.items() if anchor not in candidate]
+    return {
+        "source_sha256_verified": sha256_text(source) == MASTER_SHA,
+        "headings_identical": headings(source) == headings(candidate),
+        "native_markers_identical": native_markers(source) == native_markers(candidate),
+        "markdown_link_destinations_identical": markdown_link_destinations(source)
+        == markdown_link_destinations(candidate),
+        "protected_anchors_missing": missing,
+        "passed": (
+            sha256_text(source) == MASTER_SHA
+            and headings(source) == headings(candidate)
+            and native_markers(source) == native_markers(candidate)
+            and markdown_link_destinations(source) == markdown_link_destinations(candidate)
+            and not missing
+        ),
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Materialize accepted Romance detector-repair pass 1.")
+    parser.add_argument("--master", type=Path, required=True)
     parser.add_argument("--part1", type=Path, required=True)
     parser.add_argument("--part2", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
     args = parser.parse_args()
 
+    master = args.master.read_text(encoding="utf-8")
     part1 = args.part1.read_text(encoding="utf-8")
     part2 = args.part2.read_text(encoding="utf-8")
 
+    observed_master = sha256_text(master)
     observed1 = sha256_text(part1)
     observed2 = sha256_text(part2)
+    if observed_master != MASTER_SHA:
+        raise RuntimeError(f"Master baseline hash mismatch: {observed_master}")
     if observed1 != PART1_SHA:
         raise RuntimeError(f"Part 1 baseline hash mismatch: {observed1}")
     if observed2 != PART2_SHA:
         raise RuntimeError(f"Part 2 baseline hash mismatch: {observed2}")
 
+    candidate_master, audit_master_ops = apply_replacements(master, MASTER_REPLACEMENTS)
     candidate1, audit1 = apply_replacements(part1, PART1_REPLACEMENTS)
     candidate2, audit2 = apply_replacements(part2, PART2_REPLACEMENTS)
+    master_checks = audit_master(master, candidate_master)
+    if not master_checks["passed"]:
+        raise RuntimeError(f"Candidate master invariant audit failed: {master_checks}")
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    out_master = args.output_dir / "candidate-master.md"
     out1 = args.output_dir / "candidate-part-1.txt"
     out2 = args.output_dir / "candidate-part-2.txt"
-    manifest_path = args.output_dir / "candidate-halves-manifest.json"
+    manifest_path = args.output_dir / "candidate-manifest.json"
 
+    out_master.write_text(candidate_master, encoding="utf-8")
     out1.write_text(candidate1, encoding="utf-8")
     out2.write_text(candidate2, encoding="utf-8")
 
     manifest = {
-        "schema_version": 1,
+        "schema_version": 2,
         "status": "candidate_not_owner_final",
         "source": {
+            "master_sha256": MASTER_SHA,
             "part1_sha256": PART1_SHA,
             "part2_sha256": PART2_SHA,
         },
         "candidate": {
+            "master": {
+                "path": out_master.name,
+                "sha256": sha256_text(candidate_master),
+                "word_count_whitespace": len(candidate_master.split()),
+                "operations": audit_master_ops,
+                "invariant_audit": master_checks,
+            },
             "part1": {
                 "path": out1.name,
                 "sha256": sha256_text(candidate1),
@@ -164,11 +246,11 @@ def main() -> int:
             },
         },
         "detector_note": (
-            "These are the same fixed historical half boundaries with accepted surgical edits applied in place. "
-            "No detector result is implied until each exact candidate file is measured."
+            "The candidate detector halves preserve the same fixed historical split locations with accepted "
+            "surgical edits applied in place. No detector result is implied until each exact candidate file is measured."
         ),
     }
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False, indent=2))
     return 0
 
