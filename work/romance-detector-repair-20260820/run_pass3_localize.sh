@@ -117,6 +117,7 @@ print(f"AI-labeled localized spans/windows={len(ai)}")
 PY
 
 echo
-echo "================ COMPLETE ================"necho "No detector call was made."
+echo "================ COMPLETE ================"
+echo "No detector call was made."
 echo "Exact pass-3 localization is durable on: $EVIDENCE_BRANCH"
 echo "Tell ChatGPT: done"
