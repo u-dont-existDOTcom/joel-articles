@@ -121,7 +121,8 @@ git push origin "HEAD:refs/heads/$EVIDENCE_BRANCH" >/dev/null \
   || fail "could not push GUI audit result"
 
 echo
-echo "================ COMPLETE ================"necho "Part 1: no call; registered exact result reused"
+echo "================ COMPLETE ================"
+echo "Part 1: no call; registered exact result reused"
 echo "Part 2 SHA: $P2_SHA"
 echo "Evidence branch: $EVIDENCE_BRANCH"
 echo "Result path: $RESULT"
