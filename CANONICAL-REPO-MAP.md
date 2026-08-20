@@ -6,8 +6,8 @@ This file is the fast loader for ChatGPT and other workers. It does not replace 
 
 - Repository: `u-dont-existDOTcom/joel-articles`
 - Default branch: `main`
-- Current content posture: governance + editorial skill/tooling home.
-- Article authority: **none unless registered in `articles/INDEX.json`.** An empty registry means no article master is canonical here yet.
+- Current content posture: active governance + editorial skill/tooling home with registered article authority.
+- Article authority: `articles/INDEX.json` currently registers **Romance** as a working canonical article. For Romance, follow its registered current-state/master/locks/evidence read order and exact hashes; historical Pangram branches are provenance, not competing authority.
 
 ## Always read for substantial work
 
