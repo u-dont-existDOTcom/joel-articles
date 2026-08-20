@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "article_id": "romance",
+  "status": "pending",
+  "checks": [
+    {
+      "id": "authority-identity",
+      "status": "passed",
+      "evidence": "Joel's 2026-08-20 owner instruction identified the exact source branch/head/current boundary; live head and manifests were re-read before import."
+    },
+    {
+      "id": "master-hash",
+      "status": "passed",
+      "evidence": "Imported `articles/romance/master.md` is byte-identical to source Git blob d0a6a3a70bbf5bb0c0c66642b5d6ad66f8113809 and source SHA-256 af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe."
+    },
+    {
+      "id": "lossless-import",
+      "status": "passed",
+      "evidence": "No prose edit was authorized or made during authority import."
+    },
+    {
+      "id": "fresh-editorial-pass",
+      "status": "pending",
+      "evidence": "The import does not substitute an infrastructure/authority pass for a fresh full-article editorial review."
+    },
+    {
+      "id": "citation-review",
+      "status": "pending",
+      "evidence": "Claim-by-claim citation verification is separately pending."
+    }
+  ],
+  "meaning_fidelity": "The authority import itself changes no article wording, order, native-object marker, link, claim, memory, actor, chronology, or attribution.",
+  "detector_role": "Exact current Pangram evidence is recorded separately and does not establish editorial authority or author identity.",
+  "owner_final_boundary": "Not claimed. Article remains working until Joel explicitly accepts an owner-final state and required review records support it."
+}
