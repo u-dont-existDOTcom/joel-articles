@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "article_id": "romance",
+  "claims": [
+    {
+      "id": "authority-master-identity",
+      "claim": "The imported working master is the exact current Romance master explicitly identified by Joel on 2026-08-20.",
+      "support": {
+        "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+        "branch": "agent/romance-primal-crucible-gui-repair-20260817",
+        "resolved_head": "8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c",
+        "path": "work/romance-current-assembly/current-master.md",
+        "sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe"
+      },
+      "access_status": "complete",
+      "certainty": "owner-authorized exact identity"
+    },
+    {
+      "id": "deterministic-assembly-provenance",
+      "claim": "The current master is the deterministic final output of the recorded Romance assembly rather than a reconstruction inferred during import.",
+      "support": {
+        "path": "work/romance-current-assembly/assembly-manifest.json",
+        "git_blob_sha": "5db471d62a8c6f8d7dd988b72b35bced3c3ceb29",
+        "baseline_sha256": "18ed9fa6850e3a20d523b9365519ef43fa4e56398ce4e06d3743022676555edc",
+        "final_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+        "operation_count": 41
+      },
+      "access_status": "complete",
+      "certainty": "exact manifest evidence"
+    },
+    {
+      "id": "reader-visible-boundary",
+      "claim": "The current reader-visible boundary is 20,496 words with SHA-256 10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce, split into the exact two recorded Pangram halves.",
+      "support": {
+        "path": "work/romance-current-assembly/pangram-halves-manifest.json",
+        "git_blob_sha": "1a663d85f70cac6bf806c49c454996286d8e09d7",
+        "source_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+        "reader_visible_sha256": "10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce",
+        "total_words": 20496,
+        "part1_words": 10236,
+        "part1_sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+        "part2_words": 10260,
+        "part2_sha256": "2df878093bc05fefa98ca30e9a97bdd52e212370f432bf0408e90f1b60c54bb0"
+      },
+      "access_status": "complete",
+      "certainty": "exact manifest evidence"
+    }
+  ],
+  "source_files": [
+    {
+      "role": "source_master",
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c",
+      "path": "work/romance-current-assembly/current-master.md",
+      "git_blob_sha": "d0a6a3a70bbf5bb0c0c66642b5d6ad66f8113809",
+      "sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe"
+    },
+    {
+      "role": "assembly_manifest",
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c",
+      "path": "work/romance-current-assembly/assembly-manifest.json",
+      "git_blob_sha": "5db471d62a8c6f8d7dd988b72b35bced3c3ceb29"
+    },
+    {
+      "role": "assembly_spec",
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c",
+      "path": "work/romance-current-assembly/assembly-spec.json",
+      "git_blob_sha": "faf6370d8b13ffaad6488d02b2b2583700794ac1"
+    },
+    {
+      "role": "baseline",
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c",
+      "path": "work/romance-current-assembly/baseline.md",
+      "git_blob_sha": "b6a6d73b3a7e7e93efc31bc7e755f04b9d57df97",
+      "sha256": "18ed9fa6850e3a20d523b9365519ef43fa4e56398ce4e06d3743022676555edc"
+    },
+    {
+      "role": "assembly_diff",
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c",
+      "path": "work/romance-current-assembly/current-master.diff",
+      "git_blob_sha": "95025db64a9e82c8c95b7f856043048e63ad4ad4"
+    },
+    {
+      "role": "reader_visible_manifest",
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c",
+      "path": "work/romance-current-assembly/pangram-halves-manifest.json",
+      "git_blob_sha": "1a663d85f70cac6bf806c49c454996286d8e09d7"
+    },
+    {
+      "role": "historical_source_architecture",
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c",
+      "path": "work/romance-current-assembly/ARCHITECTURE.md",
+      "git_blob_sha": "2f9e51782a9e11afee596e1d828cdda43a32dcbe",
+      "note": "Useful topology/protected-function evidence, but its displayed master hash and 'current candidate untested' status are stale relative to the exact manifest and 2026-08-20 live detector results; adapted rather than copied as current authority."
+    }
+  ],
+  "external_claim_review": {
+    "status": "pending",
+    "note": "This first import establishes exact article authority and provenance. It does not re-run or complete claim-by-claim external factual verification."
+  }
+}

@@ -9,7 +9,7 @@
 5. Exact citation/editorial/detector records and Git history
 6. Relevant current patterns from `u-dont-existDOTcom/universal-dev-architecture`
 
-This repository is an incubator until article files and their authority maps are imported. Do not claim it already contains a canonical article.
+This repository is active and currently registers Romance as a working canonical article. Do not substitute historical Romance branches, chat reconstruction, detached packets, or filenames for its registered article family.
 
 ## Recovery before editing
 

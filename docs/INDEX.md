@@ -1,16 +1,18 @@
 # Article documentation index
 
-Status: **BLOCKED governance incubator.** No article is canonical in this repository yet.
+Status: **ACTIVE.** `articles/INDEX.json` currently registers Romance as a working canonical article.
 
 ## Read order
 
-1. `../state/CODEX-CURRENT-STATE.md` — repository checkpoint and exact blockers
-2. `../articles/INDEX.json` — registered article packages and hashes; currently empty
-3. `../ARTICLE-META-MAP.md` — repository-wide Mermaid index for article relationships, interlinks, and deduplication opportunities
-4. `CONTENT-AUTHORITY-AND-IMPORT.md` — authority model and required per-article family
-5. `ARTICLE-ARCHITECTURE-MAPS.md` — required per-article Mermaid architecture maps plus meta-map update/validation contract
-6. `SUPPLIED-SOURCE-PACKET-MANIFEST.md` — external packet provenance and non-import status
-7. the target article's registered `ARCHITECTURE.md`, current state, owner locks, master, evidence, and review records, once an article exists
+1. `../state/CODEX-CURRENT-STATE.md` — repository checkpoint and exact current posture
+2. `../articles/INDEX.json` — registered article packages and hashes; Romance is currently registered
+3. for Romance: `../articles/romance/CURRENT-STATE.md`, then its registered owner locks, architecture, master, source evidence, detector/citation/editorial records as required by the task
+4. `../ARTICLE-META-MAP.md` — repository-wide Mermaid index for article relationships, interlinks, and deduplication opportunities
+5. `CONTENT-AUTHORITY-AND-IMPORT.md` — authority model and required per-article family
+6. `ARTICLE-ARCHITECTURE-MAPS.md` — required per-article Mermaid architecture maps plus meta-map update/validation contract
+7. `SUPPLIED-SOURCE-PACKET-MANIFEST.md` — external packet provenance and non-import status
+
+Historical Romance branches and packets may remain useful provenance/evidence, but they do not override the registered article family.
 
 ## General article protocols
 
@@ -19,6 +21,6 @@ Status: **BLOCKED governance incubator.** No article is canonical in this reposi
 - `IDIOLECT-VALIDATION-STATUS.md` — current calibration status for the fast retention proxy and routing to the Pangram lab's paper-faithful SVM/LUAR/topic-control validation lane. Until a register is validated there, local retention output remains directional evidence only.
 - `ARTICLE-ARCHITECTURE-MAPS.md` — requires one living Mermaid section/function map per article plus the repository article meta-map. Use them to prevent placement drift, orphaned protected functions, stale owner-supersession routing, missed interlinks, and duplicate coverage.
 - `EDITORIAL-SCOPE-AND-PLACEMENT.md` — separates protected rhetorical function from placement, preserves owner-approved thought architecture from synthetic source prose, and prevents an editing/humanization pass from turning into unsolicited fact-checking.
-- `CODEX-GITHUB-COMPLIANCE-2026-08-14.md` — repository/hosted-control audit and exact blocked status
+- `CODEX-GITHUB-COMPLIANCE-2026-08-14.md` — historical hosted-control audit; current hosted-control follow-up is operational hardening, not article authority
 
 The required article-local family is defined centrally and enforced by `scripts/validate_content_repository.py`; Mermaid map structure is enforced by `scripts/validate_article_architecture_maps.py`. Current owner instructions and verified, registered article files outrank maps, stale summaries, detached helper files, external packets, remembered chat context, detector results, or idiolect measurements.
