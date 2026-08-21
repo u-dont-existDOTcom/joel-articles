@@ -24,7 +24,7 @@ class RomancePass5MaterializerTests(unittest.TestCase):
     def test_materializes_from_exact_pass4_and_preserves_part1(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             out = Path(temp)
-            subprocess.run(
+            cp = subprocess.run(
                 [
                     sys.executable,
                     str(SCRIPT),
@@ -38,10 +38,11 @@ class RomancePass5MaterializerTests(unittest.TestCase):
                     str(out),
                 ],
                 cwd=ROOT,
-                check=True,
+                check=False,
                 capture_output=True,
                 text=True,
             )
+            self.assertEqual(cp.returncode, 0, msg=f"stdout:\n{cp.stdout}\nstderr:\n{cp.stderr}")
             manifest = json.loads((out / "candidate-manifest.json").read_text(encoding="utf-8"))
             self.assertEqual(sha256(out / "candidate-part-1.txt"), REGISTERED_P1_SHA)
             self.assertTrue(manifest["candidate"]["part1"]["reuses_registered_detector_result"])
