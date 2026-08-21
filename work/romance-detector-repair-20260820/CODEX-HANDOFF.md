@@ -1,10 +1,12 @@
 # Codex handoff — Romance detector repair
 
-Updated: 2026-08-20
+Updated: 2026-08-21
 
 ## Owner instruction
 
-Continue the Romance Pangram-repair workflow autonomously. Do not stop after each detector pass to ask whether to continue. Human/editorial quality and owner fidelity outrank Pangram. Do not merge canonical `main` until the candidate is editorially accepted and the authority package is deliberately reconciled.
+Continue the Romance repair autonomously through routine next steps. Human/editorial quality and owner fidelity outrank Pangram. Do not merge canonical `main` until the candidate is deliberately accepted/reconciled. Do not ask Joel to approve routine continuation.
+
+Joel's newest detector-boundary correction: very short passages are too noisy for confident editorial use. The current natural-owner reference is 97 words; future local diagnostics should normally use roughly **200+ contiguous reader-visible words** unless the real deliverable itself is shorter. If good natural-owner prose is merely low-confidence Human at ~100 words, widen the boundary before rewriting it.
 
 ## Mandatory recovery order
 
@@ -19,129 +21,175 @@ Fresh-read `u-dont-existDOTcom/joel-articles` first:
 7. `articles/romance/CURRENT-STATE.md`
 8. `articles/romance/OWNER-LOCKS.json`
 9. `articles/romance/ARCHITECTURE.md`
-10. task files under `work/romance-detector-repair-20260820/`
+10. this task directory, especially the owner-rewrite/provenance files and `materialized-owner-integrated/`.
 
-For detector work also fresh-read `u-dont-existDOTcom/pangram-humanization-lab`:
+For detector work also fresh-read `u-dont-existDOTcom/pangram-humanization-lab` in the current lesson-index order. GitHub is canonical; current owner instruction outranks repo text and must then be persisted.
 
-1. `README.md`
-2. `state/CURRENT-STATE.md`
-3. `state/LESSON-INDEX.md`
-4. current `state/WORKING-LESSONS*.md` in index order
-5. `docs/CHATGPT-OPERATING-GUIDE.md`
-6. `docs/PANGRAM-LOCAL-PLAYWRIGHT.md`
-7. issue #110
+## Canonical article authority remains unchanged
 
-GitHub is canonical. Current owner instruction outranks repo text and must then be persisted back to GitHub.
+`main:articles/romance/master.md` is still the registered canonical working master:
 
-## Canonical article boundary
+- SHA-256 `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`.
 
-`main:articles/romance/master.md` remains unchanged canonical authority.
+The current task candidate is deliberately separate. PR #29 remains draft and must **not** be merged wholesale as article authority.
 
-Registered Part 1 detector boundary:
+Registered Part 1 remains exact and must not be submitted again:
+
 - SHA-256 `ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8`
 - 10,236 words
-- Pangram 4 Human `0.9205247164`
-- do not submit Part 1 again; pass-1's sole Part-1 edit was reverted exactly.
+- registered Pangram 4 Human `0.9205247164`.
 
 ## Part 2 measured progression
 
-Baseline registered Part 2:
+Registered baseline:
 - SHA `2df878093bc05fefa98ca30e9a97bdd52e212370f432bf0408e90f1b60c54bb0`
-- Human `0.8983033895`
+- Human `0.8983033895`.
 
 Pass 1:
 - SHA `30f61fb0c490ec1275f3c39c834a38a956041865b63e5592c270d51cc22d5498`
-- Human `0.9137498736`
-- transport local Playwright
+- Human `0.9137498736`.
 
 Pass 2:
 - SHA `679daa77fb92ea71bb85716e6ece671e093b49412b149e2f5129079a204d24d2`
-- Human `0.9114283323287964`
-- AI `0.08857167512178421`
-- 5 AI segments
-- transport API
+- Human `0.9114283323287964`.
 
-Pass 3 current candidate:
-- source: `work/romance-detector-repair-20260820/materialized-pass3/`
-- Part 2 SHA `c6ef42419a3db2e82b1ff4f9370fc85bca4fa8c061c61dd6a1b5d28171d9908c`
-- 10,043 words
-- Human `0.9153165817`
-- AI `0.0846834108`
-- AI-assisted `0.0`
+Pass 3:
+- SHA `c6ef42419a3db2e82b1ff4f9370fc85bca4fa8c061c61dd6a1b5d28171d9908c`
+- Human `0.9153165817`.
+
+Pass 4:
+- SHA `a21b9670bc0cc61b4fc850761ca57ffa5dc5d1a02bdd5df90b820d6f9d437a0e`
+- Human `0.9215877056121826`.
+
+Pass 5:
+- SHA `a5b1cf38a81537492d08a8eac2e930012fbf10264beadfc252a3efc1bd794c20`
+- Human `0.9247636795043945`.
+
+Pass 6:
+- master SHA `e09cb2309653d3ba9fc14526e7a49b1bef6f27a7494783489895a9c32fba93c5`
+- Part 2 SHA `6166fb2c17022e978de1019210067429f749071e53581bbe184adb721dbe8215`
+- 9,685 words
 - Pangram 4.0 / `STAGE_SUCCESS`
-- exact stored-text match `exact_utf8`
-- transport local Playwright
-- evidence branch `u-dont-existDOTcom/pangram-humanization-lab:evidence/romance-pass3-gui-20260820`
-- result path `state/gui-runs/pangram-4/c6ef42419a3db2e82b1ff4f9370fc85bca4fa8c061c61dd6a1b5d28171d9908c/result.json`
+- Human `0.9322237372398376`
+- AI `0.06777624040842056`
+- assisted `0.0`.
 
-The attempted pass-3 API route returned HTTP 402 `Insufficient credits` before task creation. It had no task ID, was non-ambiguous, and is not counted as a paid measurement. Cross-transport evidence is durable on the pass-3 GUI evidence branch.
+Part-2 paid-call cap is now **6/6**. Do not make an automatic seventh full-Part2 Pangram call. Transport changes, new chats, branches, or renamed audits do not reset this cap. A seventh same-section call requires explicit owner authorization.
 
-Part-2 paid measurement count in the current audit: **3 of maximum 6**.
+## Owner-integrated candidate — current task checkpoint
 
-## Pass-3 editorial changes
+Deterministic source: exact pass 6 above.
 
-Pass 3 preserved Part 1 byte-for-byte and changed only Part 2.
+Generated directory:
+`work/romance-detector-repair-20260820/materialized-owner-integrated/`
 
-Queen of Orgasms:
-- removed generic `Many people are not even aware...` setup;
-- collapsed the cervical/whole-body orgasm taxonomy into one spoken thought;
-- removed `That laboratory evidence establishes the uniqueness of the phenomenon.` as explanatory aftercare;
-- preserved the lived cervical-sex claim, `life/work` joke, Komisaruk/Whipple laboratory claim, and Anami/Richardson practitioner claims.
+Exact candidate identities:
 
-Two Pillars/community:
-- corrected the section toward its unique job: shared people who know both members and can reality-check the relationship;
-- removed duplication of the earlier `Don’t make your partner your whole world` burden argument;
-- preserved practical-resilience content and the strong/weak-couple caveat;
-- preserved the personal Bee/community evidence.
+- master SHA-256 `dee776ada0db4dc2940d3815b9512ad5034e3224b0c569a9d29f6a69d9bb75a9`
+- master whitespace words: **20,191**
+- Part 1 SHA unchanged `ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8`
+- Part 1 words: **10,236**
+- Part 2 SHA-256 `9dc539ca99f8c747ecd5a551f2c72ad476c87671919863d2ad469acf6c6e696f`
+- Part 2 words: **9,804**.
 
-Post-edit invariant audits passed: headings, native markers, Markdown link destinations, protected anchors, actors, chronology, source attribution.
+Materialization commit:
+`fbf3dcfd106f49ff062a6efc273cd63951ca59f6` (`github-actions[bot]`, `Materialize Romance owner-integrated candidate`).
 
-## Important corrected localization finding
+The materializer is hash-gated to exact pass 6 and applies exactly four replacements. Its invariant audit passed:
 
-The earlier assessment incorrectly mapped historical red windows 17/19/21 to `After leaving`. Exact historical offset/source review showed those windows were in Twin Flames -> `Two Pillars Don't Hold The Roof Up` / community.
+- headings identical;
+- native markers identical;
+- Markdown link destinations identical;
+- canonical protected anchors missing: none;
+- owner-required new anchors missing: none.
 
-This correction is durable in `PASS-3-STATE.md` and PR #29.
+The dedicated workflow runs the owner-integrated regression, materializes the candidate, runs the full repository unittest suite, content-authority validation, article-architecture validation, repository audit, and `git diff --check` before it can reach the commit step. The generated bot commit therefore records completion of those sequential gates for the materialized candidate.
 
-## Current blocker: read-only localization bug
+## Four integrated replacements and provenance
 
-Do **not** buy call #4 until current pass-3 windows are localized from the already-paid History record if practicable.
+### 1. Muses / polarity — direct owner rewrite
 
-`run_pass3_localize.sh` performed no detector submission but failed at `bind_exact_history_record`:
-- `detector_submission_attempted: false`
-- `direct_report_requested: true`
-- `exact_history_record_found: false`
-- `history_list_candidate_count: 10`
-- failure path on evidence branch: `state/gui-runs/pangram-4/c6ef42419a3db2e82b1ff4f9370fc85bca4fa8c061c61dd6a1b5d28171d9908c/localization-failure.json`
+Authority/provenance:
+- `OWNER-MUSES-REWRITE-LESSON-20260821.md`
+- direct Joel prose.
 
-This matches known issue #110: direct-report localization can miss the record response listener even when the immediately preceding detector run successfully exact-bound the same History report.
+Only two already-authorized D1 typo normalizations were applied in the candidate:
+- `as the grow` -> `as they grow`
+- `she see sees` -> `she sees`.
 
-## Best next tooling repair
+Do not otherwise smooth the owner's `gonna`, `tho`, asymmetric argument, archetype ontology, epistemic friction, or money/decision-authority claim.
 
-Fix the localizer rather than making Joel manually shuttle another command.
+### 2. Leadership / `Not A Performance` — assistant-produced, owner-accepted provisional
 
-Likely robust route:
-- for a known `https://www.pangram.com/history/<uuid>` report URL, derive the corresponding `https://web.pangram.com/api/history/<uuid>/` route;
-- use Playwright `BrowserContext.request` (authenticated context shares cookies) to GET that API record directly, read-only;
-- pass the JSON payload plus API URL through the existing `match_exact_history_record(...)` exact-text identity gate in `history_api_record.py`;
-- only if exact source SHA/word-count binding succeeds, feed that `ExactHistoryRecord` to `localize_history_record(...)`;
-- preserve the privacy contract: do not commit UUID/report URL/raw submitted text/cookies/headers;
-- add deterministic unit tests for direct authenticated API lookup and fail-closed mismatch;
-- no detector-submit code in this path.
+Authority/provenance:
+- `OWNER-ACCEPTED-LEADERSHIP-REWRITE-20260821.md`.
 
-Do not debug issue #110 with paid Pangram calls.
+Joel reported the exact local reader-visible rewrite as Pangram 4 **100% high-confidence Human**, but also said it still looked a little AI-shaped. Carry it as the current accepted candidate, but do **not** label it natural-owner or owner-final prose. Detector status and owner stylistic judgment remain separate.
 
-## After localization succeeds
+### 3. `Attraction and exclusivity` — direct owner rewrite
 
-1. Read exact pass-3 AI-labeled windows/spans from the already-paid record.
-2. Map each window against the pass-3 Part-2 source.
-3. Run semantic sanity + heading promise + curious-reader + article-wide duplication/protected-function audit before drafting.
-4. Build pass 4 with minimum edit dose against only current residual failures.
-5. Run two cold audits.
-6. Materialize and Git-persist candidate before detector work.
-7. If a new measurement is warranted, use local GUI while API credits remain exhausted. This would be paid Part-2 measurement #4 of max 6.
-8. If ambiguous, recover first; never auto-repeat.
-9. Persist detector evidence in pangram-humanization-lab and editorial decisions/task state in joel-articles.
+Authority/provenance:
+- `OWNER-EXCLUSIVITY-REWRITE-20260821.md`.
 
-## Do not merge yet
+Joel's richer owner version is current local authority and tested HIGH-confidence Human in his short Pangram check. It preserves `Sexclusivity`, carrots/peas, the bureaucratic-romance judgment, bonobo qualification, flexible pair-bonding claim, and direct causal movement into the B. experiment.
 
-PR #29 is a task/experiment branch with tooling, state, and generated artifacts. Do not merge it wholesale into `main` as canonical article authority. After the detector/editorial loop ends, create a clean owner-final content reconciliation deliberately.
+A near-minimal owner control differed only by adding `have you ever looked?` and moved MEDIUM -> HIGH confidence. Treat that as local short-boundary evidence about live reader pragmatics, **not** a rhetorical-question token rule.
+
+### 4. Former `pinkest elephants` span — owner-final local replacement
+
+Authority/provenance:
+- `OWNER-PINKEST-REWRITE-20260821.md`.
+
+The exact natural-owner `When did you two last dance?` passage supersedes the assistant checklist and its generalized conclusion. Joel reports the 97-word passage as Human / low confidence and explicitly chose it anyway because it is his actual writing. Do not rewrite it for detector confidence; widen future diagnostic context first.
+
+## Cold transition / architecture audit after assembly
+
+Current result: **PASS** for the four inserted joins.
+
+- Muses: `Maybe women are poetry...` now moves into the owner's archetype clarification, lived epistemic friction, argument/listening example, Big Picture/details polarity, micromanagement, and money/authority consequence. No mandatory symmetry or safety-taxonomy expansion was reintroduced.
+- Muses -> leadership: the next passage usefully complicates authority by distinguishing a woman having real domain expertise from takeover/micromanagement; the direct-direction example then follows without a model-written summary bridge.
+- Leadership -> `Not A Performance`: heading/function preserved; the current owner-accepted prose moves from chosen role asymmetry into the cost of performing masculinity and then Bee's `wife` joke. The owner's residual stylistic reservation remains recorded.
+- Exclusivity: the vow/history material now stays in one causal current and reaches the B. experiment directly; there is no separate assistant mini-essay conclusion before the lived example. The following meditation/Magic-8-Ball material remains intact.
+- Pinkest -> outside help: the natural-owner dance/resentment/wandering-eye passage ends on the lived consequence, then the Eshwar example supplies the next move. The old checklist and `perfectly worded speech` aftercare are gone.
+- Article headings/order, native-object placement, link destinations, Gandarussa, Crucible safety, community function, children obligations, Hale/Heidi separation, and Bear close remain protected by the automated invariant gate.
+
+No structural heading/section reordering was introduced, so the registered architecture topology remains unchanged for this task candidate.
+
+## Current detector interpretation
+
+Do not aggregate short local results into a full-Part2 score. Current measured full-Part2 authority remains pass 6 at Human `0.9322237372398376`. The owner-integrated Part2 `9dc539...` is **not yet measured as a whole**.
+
+Short local detector evidence is useful only as diagnostics:
+- leadership rewrite: owner-reported 100% high-confidence Human, with owner still perceiving some AI residue;
+- exclusivity owner rewrite: owner-reported HIGH-confidence Human;
+- natural-owner dance passage: owner-reported Human / low confidence at only 97 words.
+
+The dance case establishes the workflow correction: widen short diagnostics to ~200+ contiguous reader-visible words before editing good owner prose for confidence.
+
+## Current next safe action
+
+1. Keep PR #29 draft and do not merge canonical main.
+2. Do not retest Part 1.
+3. Do not automatically buy a seventh full-Part2 Pangram call.
+4. If further local diagnosis is useful, use contiguous ~200+ word natural contexts, preserve exact boundaries/hashes, and treat them as diagnostics rather than full-Part2 certification.
+5. Continue editorial/cold-audit work from `materialized-owner-integrated/`, not from pass 6 or chat reconstruction.
+6. If Joel explicitly authorizes another full-Part2 Pangram measurement later, freeze the exact `9dc539...` boundary first and preserve the 6/6 provenance rather than resetting the audit.
+7. Only after owner acceptance should a clean reconciliation update `articles/romance/` on canonical main; do not merge this task branch wholesale.
+
+## Do not lose these generation lessons
+
+Current owner-confirmed article-specific AI-shape findings:
+
+- objection-completion replacing thought-completion;
+- mandatory symmetry replacing actual asymmetric judgment;
+- clean abstraction replacing lived epistemic friction;
+- safety/checklist expansion after the concrete point is already made;
+- topic-sentence scaffolding replacing causal movement;
+- equalized thought duration / regular conceptual bar-length;
+- metrical antithesis / repeated verdict cadence;
+- mirrored opposites used as closure machinery;
+- recursive mini-essay rhythm / outline pulse / nested closure;
+- compression can worsen model shape by deleting live thought pressure;
+- live pragmatic/social acts can matter even when they add little propositional content.
+
+Do not imitate typos, slang, rhetorical questions, fragments, or arbitrary sentence-length variation as detector tricks. The correction is upstream: recover the author's actual thought, causal pressure, asymmetry, social act, and true stopping point.
