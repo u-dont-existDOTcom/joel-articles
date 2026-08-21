@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "part1_owner_wording_restoration_candidate_not_owner_final_article",
+  "source": {
+    "master": "95ae5d3b7d75eac2d79fc57de017d60dfa8088cd46ead69b0dde3a4a1f28e2ba",
+    "part1": "7f0f9a526506f1cc57b2a20c30f3c7ecaf6d7345fceb9ea8839effdba4c049b6",
+    "part2": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "d205393b1724256416291050fdeb41c18afb9669fddc45cf713559e9ecd9e406",
+      "word_count_whitespace": 19764,
+      "operations": [
+        {
+          "label": "restore-casual-owner-sti-realization",
+          "old_sha256": "0737104108650991eb5267c538e7a5a403cd10b47b4fb1f8281df2bdddc45b53",
+          "new_sha256": "1370e37f293370da1a8d37d0a90dc0bb2b932a698569a912ceb24bfff2f6986b"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "required_missing": [],
+        "deleted_duplicate_casual_tail_absent": true,
+        "passed": true,
+        "r5_owner_sti_present": true,
+        "r5_superseded_sti_absent": true
+      }
+    },
+    "part1": {
+      "sha256": "e6b9e546bb2f07af8e18fc65fb6883d27bf0106d93f5f02d6674a88e034d572d",
+      "word_count_whitespace": 9910,
+      "operations": [
+        {
+          "label": "restore-casual-owner-sti-realization",
+          "old_sha256": "0737104108650991eb5267c538e7a5a403cd10b47b4fb1f8281df2bdddc45b53",
+          "new_sha256": "1370e37f293370da1a8d37d0a90dc0bb2b932a698569a912ceb24bfff2f6986b"
+        }
+      ]
+    },
+    "part2": {
+      "sha256": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2",
+      "word_count_whitespace": 9703,
+      "operations": [],
+      "unchanged": true
+    }
+  },
+  "selection_rationale": {
+    "source_r4_aggregate_human": 0.992400050163269,
+    "source_r4_aggregate_ai": 0.007599963806569576,
+    "casual_full_r3_human": 1.0,
+    "casual_full_r3_text_sha256": "268165f899b11e7e56bffa18d80006d0b322c432a3a409195fe69e407f85061c",
+    "casual_r5_interaction_human": 0.7899810671806335,
+    "reason": "The complete Casual section had already passed Pangram 4 at 100% Human on section call 3. Aggregate r4 later altered its STI/attachment realization and residual AI reappeared at the section opening. Restore the registered/higher-authority wording that recreates the exact already-passing Casual section instead of spending the sixth local-section call on another paraphrase."
+  },
+  "detector_plan": {
+    "part1": "fresh exact aggregate measurement; local Casual call 6 remains unused"
+  }
+}
