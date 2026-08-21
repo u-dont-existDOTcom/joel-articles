@@ -85,8 +85,16 @@
       "blocking": true,
       "lost_units": [
         {
+          "id": "performance.identity_defense_when_vulnerable",
+          "source": "Then I have to defend the identity every time I hesitate, cry, need help, or get something wrong."
+        },
+        {
           "id": "performance.female_anti_performance",
           "source": "The same is true for a woman. She should not have to perform softness, helplessness, or cuteness every minute to prove she is feminine."
+        },
+        {
+          "id": "performance.chosen_surrender_meaning",
+          "source": "Surrender means so much more when she could take control but prefers not to at that moment."
         },
         {
           "id": "performance.overcorrection_needing_nobody",
@@ -100,7 +108,8 @@
           "id": "performance.man_receiving_not_child",
           "source": "A man receiving care doesn’t make him a child either."
         }
-      ]
+      ],
+      "notes": "The last two missing functions were discovered during the exact registered-to-r7 prose re-audit after the first seven restorations."
     },
     {
       "heading": "Two Pillars Don't Hold The Roof Up",
@@ -150,7 +159,7 @@
   "gate": {
     "changed_sections": 16,
     "blocking_sections": 3,
-    "lost_unsuperseded_units": 7,
+    "lost_unsuperseded_units": 9,
     "passed": false
   }
 }
