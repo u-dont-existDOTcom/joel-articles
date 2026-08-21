@@ -9,13 +9,14 @@ import apply_pass5 as base
 
 MASTER_MUSES_OLD = base.MUSES_OLD.replace("the old Men Are from Mars, Women Are from Venus problem", "the old *Men Are from Mars, Women Are from Venus* problem")
 MASTER_MUSES_NEW = base.MUSES_NEW.replace("the old Men Are from Mars, Women Are from Venus problem", "the old *Men Are from Mars, Women Are from Venus* problem")
-MASTER_PRIMAL_OLD = base.PRIMAL_PERFORMANCE_OLD.replace("\nNot A Performance\n", "\n## Not A Performance\n")
-MASTER_PRIMAL_NEW = base.PRIMAL_PERFORMANCE_NEW.replace("\nNot A Performance\n", "\n## Not A Performance\n")
+PRIMAL_OLD_BEFORE, PRIMAL_OLD_AFTER = base.PRIMAL_PERFORMANCE_OLD.split("\nNot A Performance\n\n", 1)
+PRIMAL_NEW_BEFORE, PRIMAL_NEW_AFTER = base.PRIMAL_PERFORMANCE_NEW.split("\nNot A Performance\n\n", 1)
 
 MASTER_REPLACEMENTS = [
     ("anami-stories-solo-progression", base.ANAMI_OLD, base.ANAMI_NEW),
     ("muses-listening-safety-competence-chain", MASTER_MUSES_OLD, MASTER_MUSES_NEW),
-    ("primal-performance-lived-chain", MASTER_PRIMAL_OLD, MASTER_PRIMAL_NEW),
+    ("primal-lived-chain-before-heading", PRIMAL_OLD_BEFORE, PRIMAL_NEW_BEFORE),
+    ("not-a-performance-lived-chain-after-heading", PRIMAL_OLD_AFTER, PRIMAL_NEW_AFTER),
     ("choosing-same-words-different-futures", base.CHOOSING_OLD, base.CHOOSING_NEW),
     ("exclusivity-history-conversational", base.EXCLUSIVITY_HISTORY_OLD, base.EXCLUSIVITY_HISTORY_NEW),
 ]
@@ -63,7 +64,7 @@ def main() -> int:
             "part2": {"path": out_p2.name, "sha256": base.sha256_text(part2_5), "word_count_whitespace": len(part2_5.split()), "operations": p2_ops},
         },
         "detector_plan": {"part1": "no_new_call_exact_registered_hash_unchanged", "part2": "one_new_pangram4_measurement_via_private_selfhost"},
-        "editorial_note": "Pass 5 targets the five exact AI windows returned by the successful self-hosted pass-4 Pangram-4 result. The source-format master preserves its Markdown italics and heading markup while the detector boundary receives the semantically identical plaintext changes.",
+        "editorial_note": "Pass 5 targets the five exact AI windows returned by the successful self-hosted pass-4 Pangram-4 result. The source-format master preserves Markdown italics and the untouched Not A Performance heading while the detector boundary receives the semantically identical plaintext changes.",
     }
     (args.output_dir / "candidate-manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False, indent=2))
