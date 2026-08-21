@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "status": "owner_integrated_residual_candidate_r2_not_owner_final_article",
+  "source_r1": {
+    "master": "9b85666d8f1b18fa6ae659f8b7fbe39b55572553f0ef9cdd5b82c1beb0333f3f",
+    "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+    "part2": "5cb6e7fa7aee66aed6addf43f15c1fce45c0bc4d0eba4f01a57d4fe1d1884afd"
+  },
+  "candidate": {
+    "master": {
+      "path": "candidate-master.md",
+      "sha256": "5bada64b833a36c6995c5de062571dd18d51075daa7486ba5f1abfa9200601ab",
+      "word_count_whitespace": 20146,
+      "operations": [
+        {
+          "label": "not-a-performance-overcorrection-to-refused-help",
+          "source_occurrences": 1,
+          "old_sha256": "a2870e7d0fe3086649d065650e239fec4861689c49de6663bb3673be261f2f86",
+          "new_sha256": "aa46b7b9683266ae6db9a2695b76c15fb5ac8f77abae36a4477458c8b97330cf"
+        },
+        {
+          "label": "psychedelic-intimacy-does-not-answer-sober-fit",
+          "source_occurrences": 1,
+          "old_sha256": "dde3fe4ca2fb80cbd014da9ed51f11bcee85f1a396679e703bcb2e4ad590c166",
+          "new_sha256": "712d92d56be87d2665470d4ffee26942aa581e480bd67de7c1bfe766c1b83eca"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "required_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "path": "candidate-part-1.txt",
+      "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count_whitespace": 10236,
+      "operations": [],
+      "unchanged": true
+    },
+    "part2": {
+      "path": "candidate-part-2.txt",
+      "sha256": "1aba86e2706943467418c56fa7b21515a216bcef25dc71c1784138349ad2f841",
+      "word_count_whitespace": 9759,
+      "operations": [
+        {
+          "label": "not-a-performance-overcorrection-to-refused-help",
+          "source_occurrences": 1,
+          "old_sha256": "a2870e7d0fe3086649d065650e239fec4861689c49de6663bb3673be261f2f86",
+          "new_sha256": "aa46b7b9683266ae6db9a2695b76c15fb5ac8f77abae36a4477458c8b97330cf"
+        },
+        {
+          "label": "psychedelic-intimacy-does-not-answer-sober-fit",
+          "source_occurrences": 1,
+          "old_sha256": "dde3fe4ca2fb80cbd014da9ed51f11bcee85f1a396679e703bcb2e4ad590c166",
+          "new_sha256": "712d92d56be87d2665470d4ffee26942aa581e480bd67de7c1bfe766c1b83eca"
+        }
+      ]
+    }
+  },
+  "local_detector_state_before_r2": {
+    "primal-not-a-performance": {
+      "paid_section_calls": 1,
+      "fraction_human": 0.7653250694274902,
+      "remaining_ai_window": "A woman shouldn't have to act soft/helpless... through receiving care/leadership feels weak"
+    },
+    "community-two-pillars": {
+      "paid_section_calls": 1,
+      "fraction_human": 1.0,
+      "status": "passed_no_more_local_calls_needed"
+    },
+    "psychedelic-relationship-discernment": {
+      "paid_section_calls": 1,
+      "fraction_human": 0.9445738196372986,
+      "remaining_ai_window": "invented week-later sober/fighting-over-money scenario"
+    }
+  },
+  "next_detector_plan": "measure only primal-not-a-performance and psychedelic-relationship-discernment at their same natural section boundaries; each will be call 2/6; do not retest community"
+}
