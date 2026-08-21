@@ -6,6 +6,7 @@ on:
       - task/romance-detector-repair-20260820
     paths:
       - 'work/romance-detector-repair-20260820/apply_pass5.py'
+      - 'work/romance-detector-repair-20260820/apply_pass5_exact.py'
       - 'tests/test_romance_pass5_materializer.py'
       - '.github/workflows/materialize-romance-pass5.yml'
 
@@ -33,7 +34,7 @@ jobs:
       - name: Materialize exact pass-5 candidate
         run: |
           rm -rf work/romance-detector-repair-20260820/materialized-pass5
-          python work/romance-detector-repair-20260820/apply_pass5.py \
+          python work/romance-detector-repair-20260820/apply_pass5_exact.py \
             --pass4-master work/romance-detector-repair-20260820/materialized-pass4/candidate-master.md \
             --pass4-part1 work/romance-detector-repair-20260820/materialized-pass4/candidate-part-1.txt \
             --pass4-part2 work/romance-detector-repair-20260820/materialized-pass4/candidate-part-2.txt \
