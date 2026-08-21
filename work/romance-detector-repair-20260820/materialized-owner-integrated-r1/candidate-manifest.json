@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "owner_integrated_residual_candidate_not_owner_final_article",
+  "source_owner_integrated": {
+    "master": "dee776ada0db4dc2940d3815b9512ad5034e3224b0c569a9d29f6a69d9bb75a9",
+    "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+    "part2": "9dc539ca99f8c747ecd5a551f2c72ad476c87671919863d2ad469acf6c6e696f"
+  },
+  "candidate": {
+    "master": {
+      "path": "candidate-master.md",
+      "sha256": "9b85666d8f1b18fa6ae659f8b7fbe39b55572553f0ef9cdd5b82c1beb0333f3f",
+      "word_count_whitespace": 20196,
+      "operations": [
+        {
+          "label": "not-a-performance-receiving-as-lived-invitation",
+          "source_occurrences": 1,
+          "old_sha256": "604e454751776225503b7cb40594c200d79e86475efe81b61c8595a70a0a0205",
+          "new_sha256": "da07b651881d6d3608be7371e798d225280c395bc0b0b90bb5295384d9abf6a9"
+        },
+        {
+          "label": "community-support-to-backup-system-causal-chain",
+          "source_occurrences": 1,
+          "old_sha256": "402c4ae14111fbe85ae1a5a5b13f700693883c129c968b5d021342893e5b25da",
+          "new_sha256": "c4a5606439396794fa4ed9377845d5cae3aceb723eaeb82b7ba02eafb860a78b"
+        },
+        {
+          "label": "psychedelic-intimacy-to-sober-decision-consequence",
+          "source_occurrences": 1,
+          "old_sha256": "e115edb856846e38003508a9ba6b50f6a29c6f058005457e8c9e3c8a1bb1df45",
+          "new_sha256": "dde3fe4ca2fb80cbd014da9ed51f11bcee85f1a396679e703bcb2e4ad590c166"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "required_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "path": "candidate-part-1.txt",
+      "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count_whitespace": 10236,
+      "operations": [],
+      "unchanged": true
+    },
+    "part2": {
+      "path": "candidate-part-2.txt",
+      "sha256": "5cb6e7fa7aee66aed6addf43f15c1fce45c0bc4d0eba4f01a57d4fe1d1884afd",
+      "word_count_whitespace": 9809,
+      "operations": [
+        {
+          "label": "not-a-performance-receiving-as-lived-invitation",
+          "source_occurrences": 1,
+          "old_sha256": "604e454751776225503b7cb40594c200d79e86475efe81b61c8595a70a0a0205",
+          "new_sha256": "da07b651881d6d3608be7371e798d225280c395bc0b0b90bb5295384d9abf6a9"
+        },
+        {
+          "label": "community-support-to-backup-system-causal-chain",
+          "source_occurrences": 1,
+          "old_sha256": "402c4ae14111fbe85ae1a5a5b13f700693883c129c968b5d021342893e5b25da",
+          "new_sha256": "c4a5606439396794fa4ed9377845d5cae3aceb723eaeb82b7ba02eafb860a78b"
+        },
+        {
+          "label": "psychedelic-intimacy-to-sober-decision-consequence",
+          "source_occurrences": 1,
+          "old_sha256": "e115edb856846e38003508a9ba6b50f6a29c6f058005457e8c9e3c8a1bb1df45",
+          "new_sha256": "dde3fe4ca2fb80cbd014da9ed51f11bcee85f1a396679e703bcb2e4ad590c166"
+        }
+      ]
+    }
+  },
+  "source_detector": {
+    "source_part2_sha256": "9dc539ca99f8c747ecd5a551f2c72ad476c87671919863d2ad469acf6c6e696f",
+    "pangram_version": "4.0",
+    "fraction_human": 0.9761735796928406,
+    "fraction_ai": 0.02382640726864338,
+    "fraction_ai_assisted": 0.0,
+    "residual_ai_segments": 3
+  },
+  "next_detector_plan": {
+    "local_sections": "measure three distinct natural sections with 200+ contiguous reader-visible context; each section has its own six-paid-call cap",
+    "aggregate_part2": "defer fresh aggregate measurement until local section diagnostics pass or materially inform next edit"
+  }
+}
