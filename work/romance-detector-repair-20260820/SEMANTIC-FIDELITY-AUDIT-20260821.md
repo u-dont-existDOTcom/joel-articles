@@ -4,75 +4,138 @@ Status: **blocking closeout gate on task branch**. Canonical `main` remains unch
 
 ## Why this audit exists
 
-The detector-repair materializers correctly protected headings, links, named owner locks, and several exact anchors, but those invariants were not sufficient to prove that the article's full arguments survived. The current Part-1 r5 candidate reached Pangram 4 Human `0.9838229417800903`, but detector score is subordinate to owner fidelity.
+The detector-repair materializers correctly protected headings, links, named owner locks, and several exact anchors, but those invariants were not sufficient to prove that the article's full arguments survived. Detector score is subordinate to owner/canonical fidelity.
 
-A whole-article semantic closeout against registered canonical `main` found unapproved functional losses. Therefore r5 is **rejected as an article candidate even if its detector result is useful diagnostically**.
+The exact registered-master → semantic-r6 diff is hash-bound at:
 
-## Blocking semantic losses in Part 1
+- registered master: `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`
+- semantic r6 candidate: `2830b1906ce1515edcb36b4d9a6ebe75fc6e2cf59e953a7072c8dc2890b62134`
+- exact changed-section manifest: `source-diff-r6/changed-sections.json`
 
-### 1. `Talk about making love before you do it` — BLOCKING
+That manifest proves only 16 Markdown sections differ. The semantic audit therefore evaluates a finite set of surviving changes rather than superseded detector experiments.
 
-The r1 repair replaced the registered ~406-word section with a ~269-word father-question spine. Restoring Joel's father-derived question was correct and owner-required, but the replacement also removed existing functions that were not superseded:
+## Part 1 — losses found in r5 and restored in semantic r6
 
-- talk about sexual wants before the couple is already naked;
-- bodily preferences / what relaxes and opens each person;
-- ability to say kinky needs aloud;
-- effects of sexual history on wants and avoidance;
-- permission not to know yet;
-- sex may mean bonding, play, sacredness, or ordinary decompression at different times;
-- sex-drive mismatch changes over time and can create quiet resentment;
-- test whether honesty survives once the couple is actually naked and disappointment is possible;
-- bodies fitting is not enough; pre-sex conversation practices trust, attention, and being seen.
+### `Talk about making love before you do it`
 
-Disposition: **restore these functions while keeping the father question as the governing owner spine.** Do not revert to a detached comprehensive curriculum; make the additional sexual conversation grow out of the father/readiness question and lived honesty problem.
+The r1 repair restored Joel's father-derived readiness question but had removed unsuperseded canonical functions: talking before naked; bodily preferences; kink; sexual-history effects; permission not to know; different meanings of sex; changing sex-drive mismatch; naked honesty when disappointment is possible; and the trust/attention/being-seen function of pre-sex conversation.
 
-### 2. `Affection and the simmer` — BLOCKING
+**r6 disposition: restored.** The father question remains the owner-required governing spine.
 
-The r2 compression cut the section from ~268 words to ~132. It retained Toft/no-agenda touch, Anami/simmer, a brief barometer sentence, and personal responsibility, but dropped or materially weakened:
+### `Affection and the simmer`
 
-- concrete simmer examples between encounters;
-- the explicit need for both safe nonsexual affection and a living erotic current;
-- the point that the simmer must not become relationship homework;
-- the full `if sex changed, what else changed?` diagnostic movement;
-- the argument that sex deserves intentional time rather than exhausted leftovers.
+The r2 compression had removed or weakened: concrete simmer examples; need for both safe nonsexual affection and erotic current; the warning against turning simmer into homework; the full sex-as-barometer diagnostic; and intentional time for sex rather than exhausted leftovers.
 
-Disposition: **restore all functions.** Existing local attempts show that merely reinstating a balanced Toft-vs-Anami outline is detector-hostile, so preserve the functions without rebuilding a symmetrical mini-essay.
+**r6 disposition: restored.**
 
-### 3. `Can Casual Sex or a Situationship Actually Be Honest?` — RESTORE UNIQUE FUNCTIONS
+### `Can Casual Sex or a Situationship Actually Be Honest?`
 
-The current section has useful detector evidence, including a full natural-section realization at 100% Human, but two r1 deletions removed meaning rather than only repetition:
+The earlier repair had removed:
 
 - `The person getting more of what they want may think the arrangement is fulfilling. Usually they’re just less aware that it isn’t.`
-- the closing free-love-community consequence that people are not disposable, bonds can be acknowledged, and any children have a village.
+- the free-love-community consequence that bonds can be acknowledged and children can have a village.
 
-The second passage overlaps the earlier claim that honest casual sex is almost impossible outside a loving poly community or tribe, but its child/village consequence is not fully duplicated.
+**r6 disposition: restored.**
 
-Disposition: restore the unique claim/consequence; later detector work may move/compress them, but may not silently delete them.
+### Patient/caregiver passage
 
-### 4. Patient/caregiver passage — RESTORE NUANCE
+The earlier repair had removed the distinction between humane help in an individual moment and an unhealthy role emerging cumulatively: `Of course I helped... would have been cold. But enough moments become a pattern.`
 
-The r2 patient edit changed:
+**r6 disposition: restored.**
 
-`Of course I helped. Saying, “I’m not your doctor or therapist,” every time would have been cold. But enough moments become a pattern.`
+### Other changed Part-1 sections
 
-into a shorter explanation that Joel usually had an answer and therefore answered. The shorter version preserves why he helped but loses the explicit distinction between humane help in an individual moment and an unhealthy role emerging cumulatively.
+- `The window of clarity, and how it closes`: preserved/rephrased; ordinary behavior still outranks self-description.
+- `If slow isn’t realistic for you`: preserved/rephrased; lack of tribal brakes and the Gandarussa/pregnancy-vs-attachment distinction remain.
+- `Are you ready for the crucible?`: preserved/rephrased; coercion/terror exits the mutual wounded-trigger frame and requires safety/other people.
 
-Disposition: restore that distinction.
+Semantic r6 Part 1 passes the current explicit semantic invariant set. That does **not** authorize promotion until the full 16-section traceability ledger passes.
 
-## Part-1 changes that pass semantic review
+## Part 2 — exact surviving-change audit
 
-- Crucible safety rewrite: function preserved — terror/control is not mutual wounded triggering; fear of saying no/truth/leaving exits the mutual communication frame; involve others and prioritize safety.
-- ordinary-time rewrite: same epistemic claim, with ordinary behavior still outranking self-description.
-- slow/community → Gandarussa rewrite: keeps lack-of-tribal-brakes claim and strengthens the personal causal link to self-imposed brakes/Gandarussa.
-- STI/attachment r5 restoration: exact natural Casual section wording returned to the previously measured 100%-Human realization.
+### `The Queen of Orgasms` — BLOCKING
 
-## Part-2 local repairs
+Two distinct registered claims were silently deleted by detector optimization and were never owner-superseded:
 
-Semantic review found no blocking owner-argument loss in the three latest local repairs:
+1. `Many people are not even aware of how incredible sex can be when the polarity, trust, love & safety are all where they should be.`
+2. after the Komisaruk/Whipple spinal-cord/vagus result: `That laboratory evidence establishes the uniqueness of the phenomenon.`
 
-- `Not A Performance`: the removed generalized female-side mirror was assistant-originated symmetry in a Joel-accepted provisional passage; the owner masculine-performance argument, Toft/Anami receiving examples, choice, invitation, and crisis-manufacture point remain.
-- `Two Pillars`: same causal claim remains; detached summary was folded into the lived friend-circle → two-person-backup-system movement.
-- psychedelic discernment: ordinary-life limitation remains as `the intimacy can be completely real without telling you whether the two of you actually work together sober`; the removed irritation/jealousy/money/boredom list was elaboration, not a distinct conclusion.
+The compression of the ordinary-orgasm vs cervical/whole-body-orgasm description preserves its function; these two claims do not.
+
+**Disposition: restore both exact claims before promotion.**
+
+### `Can making love be a spiritual practice?` — PASS
+
+The Anami student-story + jade-egg material was compressed into one paragraph, but the same claims remain: reported spillover into health/work/money/creativity, solo pelvic-floor/attention/arousal practice, and the Brad/Pam Keene awakening example.
+
+**Disposition: preserved/rephrased.**
+
+### `Muses & Directors` — OWNER-SUPERSEDED
+
+The large canonical difference is governed by Joel's direct owner rewrite in `OWNER-MUSES-REWRITE-LESSON-20260821.md`, with only the two explicitly authorized typo normalizations. It supersedes the assistant detector realizations for that span.
+
+**Disposition: owner-superseded; do not restore the prior assistant/canonical realization over direct owner prose.**
+
+### `Not A Performance` — BLOCKING CORRECTION
+
+Earlier in this audit I provisionally treated the removed female-side mirror as expendable assistant symmetry. The exact registered-master comparison shows that judgment was wrong: these functions are in the registered canonical section and were not owner-superseded.
+
+The current r3 detector repair retains the male anti-performance argument, Toft/Anami examples, chosen receiving/driver example, invitation, and crisis-manufacture point, but removes distinct registered functions:
+
+- a woman should not have to perform softness, helplessness, or cuteness to prove femininity;
+- fear of being insufficiently beautiful / too emotional / difficult / illogical / needy can overcorrect into needing nobody;
+- that overcorrection can make receiving care or letting a man lead feel like weakness;
+- letting a man help/lead/give pleasure does not make a strong woman helpless;
+- a man receiving care does not make him a child either.
+
+**Disposition: restore these functions.** This correction supersedes the earlier no-loss judgment.
+
+### `Two Pillars Don't Hold The Roof Up` — PASS WITH MOVED/CONCRETIZED FUNCTIONS
+
+The detector version removes a generic summary of community functions, but the article-wide functions remain:
+
+- partner-as-everything overload is already argued in the earlier whole-world section;
+- separate friend circles becoming one-sided support remains;
+- two-person practical fragility remains through the housing/money/children/health/backup-system chain;
+- community cannot rescue two people who are both collapsing remains;
+- friends who know both people detecting story/reality mismatch is concretized in the B. demonization example;
+- another person helping when Joel has become the wrong person to help is concretized immediately afterward in the commune-friends/projection example.
+
+**Disposition: preserved/moved/concretized; no article-level function loss.**
+
+### `What are you actually choosing together?` — PASS
+
+`same words / different imagined futures` was rephrased without changing the claim or practical-partnership transition.
+
+**Disposition: preserved/rephrased.**
+
+### `Attraction and exclusivity` — OWNER-SUPERSEDED
+
+Joel's direct HIGH-confidence-Human owner rewrite in `OWNER-EXCLUSIVITY-REWRITE-20260821.md` supersedes prior assistant detector realizations for this passage. It retains and sharpens the animal/human pair-bonding, tribal flexibility, agriculture/property/inheritance, Industrial-Revolution/legal marriage, modern attraction norm, and B. experiment chain.
+
+**Disposition: owner-superseded; preserve direct owner prose.**
+
+### `Psychedelics in relationship discernment` — PASS
+
+The latest local repair compresses the examples `irritated, jealous, broke, bored, or trying to make a difficult decision together` into `whether the two of you actually work together sober`. The ordinary-life limitation remains the same conclusion, and the H.D. opposite-case remains.
+
+**Disposition: preserved/compressed.**
+
+### `If you’re already in it` — OWNER-SUPERSEDED LOCAL SPAN
+
+The principal surviving difference is Joel's owner-final pinkest-elephants/dance replacement recorded in `OWNER-PINKEST-REWRITE-20260821.md`.
+
+**Disposition: owner-superseded for that local span.**
+
+### `After leaving` — BLOCKING
+
+The current version preserves public-demonization/truth, self-contribution, ex-perspective/one-dimensionalizing, fake-all-along vs parsimonious explanation, neutral outside opinions, spiritual practice without bypassing, mirror limits, Devadatta, and `What would Mr. Rogers do?`.
+
+One distinct registered claim was removed in pass 2 after initially being preserved in pass 1:
+
+- `even the curiosity itself can be therapeutic for you.`
+
+**Disposition: restore the curiosity-as-therapeutic function.**
 
 ## Detector/cost state discovered during closeout
 
@@ -85,15 +148,29 @@ Pangram 4 result:
 - AI `0.01617708057165146`
 - one 156-word AI window spanning the end of `Affection and the simmer` into the opening of `Casual Sex`.
 
-This reinforces the existing composition/boundary finding: the Casual section itself has a previously measured exact 100%-Human natural realization, while the aggregate can still label a cross-boundary span AI.
+The r5 aggregate paid reservation occurred at `2026-08-21T18:09:08.607420+00:00`; its 10-credit call is real and remains counted. r5 is rejected on semantic fidelity regardless of detector score.
 
-The r5 aggregate paid reservation occurred at `2026-08-21T18:09:08.607420+00:00` before the supersession commit landed, so its 10-credit call is real and remains counted. The live public r5 spec was then tombstoned to prevent any future reuse of that rejected semantic candidate; the former exact spec remains in Git history.
+A sixth/final `part1-affection-simmer` local-section call then tested a 274-word Affection→Casual boundary and returned Pangram 4 `1.0` Human. That section bucket is now hard-capped at 6/6. The tested boundary is diagnostic rather than promotable because it omits several registered Affection functions restored in semantic r6. No seventh local Affection call is permitted.
+
+The exact 9,703-word Part-2 owner-integrated-r2 aggregate has crossed the paid reservation boundary. It must be recovered from the durable executor/result state and must never be resubmitted as a duplicate.
+
+## Existing-work check and chosen method
+
+Before turning the semantic gate into new tooling, the independent conception was frozen above: every distinct source argumentative function receives a candidate disposition (`preserved`, `moved`, `owner-superseded`, or `lost`), and any unsuperseded `lost` unit blocks promotion.
+
+A bounded scan found established analogues rather than a need for a novel framework:
+
+- ISO/IEC/IEEE 29148 requirements traceability;
+- Pyramid/Summary Content Units;
+- Atomic Content Units / ACU-style content alignment.
+
+Decision: **adapt**, not invent. Treat registered/owner argumentative units as editorial requirements and trace them across candidate realizations. A new generic section-diff manifest tool (`scripts/build_section_diff_manifest.py`) supplies deterministic scope/alignment; semantic unit dispositions remain human-reviewed because lexical identity is not semantic preservation.
 
 ## Decision
 
-**Do not promote Part-1 r5.**
+**Do not promote semantic r6 yet.**
 
-Next candidate must restore the four semantic-loss groups above first. Only after semantic invariants pass should detector optimization continue. Detector edits may change realization, ordering inside a section, or redundancy, but every distinct owner/canonical argumentative function needs an explicit preserved/moved/superseded disposition.
+Its Part-1 losses are repaired, but Part 2 still has unsuperseded losses in `The Queen of Orgasms`, `Not A Performance`, and `After leaving`. The next semantic candidate must restore those functions without overwriting direct owner/owner-final spans. Only after the traceability ledger contains zero unsuperseded lost units should detector optimization resume.
 
 ## Durable process lesson
 
