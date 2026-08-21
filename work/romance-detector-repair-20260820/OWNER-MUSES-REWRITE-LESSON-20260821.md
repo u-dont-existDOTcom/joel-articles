@@ -84,6 +84,26 @@ Also watch for **mirrored opposites used as closure machinery** (`is/isn't`, `no
 
 Joel also explicitly accepted removal of the assistant sentence `I said where I wanted to go; I didn’t issue an order.` because it was another neat contrastive closure that finished the distinction too symmetrically.
 
+## Further owner correction: recursive mini-essay rhythm
+
+A later rewrite of the `Attraction and exclusivity` history passage improved sentence-level rhythm but Joel still immediately recognized the same AI shape. The remaining problem was larger than sentence cadence: the prose repeatedly rebuilt a complete **mini-essay architecture** inside a few sentences or a paragraph.
+
+Typical pulse:
+
+1. proposition or question;
+2. explanation / causal unpacking;
+3. counterexample or contrast;
+4. neat synthesis or takeaway;
+5. reset and repeat.
+
+This can survive substantial surface variation. A paragraph may have long and short sentences and no obvious `is/isn't` pair yet still feel synthetic because the underlying argumentative meter is regular. In the exclusivity rewrite, the sequence moved from a first-person question into an agriculture/property explanation, then a tribal-culture contrast, then a polished `modern marriage piled romance on top` synthesis before finally reaching the lived B. experiment. The prose therefore sounded like a tiny explanatory article inserted into the larger article.
+
+Working labels: **recursive mini-essay rhythm**, **outline pulse**, or **nested closure**.
+
+Repair rule: do not require every factual cluster to earn a thesis, counterpoint, and takeaway. Ask what the facts are doing in the author's live thought. If the next lived example already demonstrates or complicates the point, move into it before summarizing the informational block. The article does not need a miniature conclusion every time the source type changes from personal experience to history/research.
+
+This is related to objection-completion but separable from it: objection-completion predicts what needs to be answered; recursive mini-essay rhythm predicts how the model packages whatever material it has, even when no objection is involved.
+
 ## Reusable but bounded generation rule
 
 For contested/value-laden prose, before drafting any caveat or balancing sentence, distinguish:
@@ -93,6 +113,6 @@ For contested/value-laden prose, before drafting any caveat or balancing sentenc
 
 Do not let (2) silently replace or reorder (1). A model can produce technically nuanced prose that feels AI-shaped because it is writing the argument's anticipated comment section rather than the author's thought.
 
-For rhythm, additionally ask whether neighboring sentences have become a sequence of similarly weighted rhetorical units, especially when they alternate verdicts or opposites. If so, recover the actual causal/experiential movement rather than cosmetically varying sentence lengths.
+For rhythm, additionally ask whether neighboring sentences have become a sequence of similarly weighted rhetorical units, especially when they alternate verdicts or opposites. Then zoom out one level and ask whether the paragraph itself is completing a miniature thesis/explanation/contrast/synthesis cycle that the larger thought does not require. If either is true, recover the actual causal/experiential movement rather than cosmetically varying sentence lengths.
 
 These findings are strongly supported by owner-labeled Romance comparisons but remain article-specific until reproduced across independent owner cases or controlled detector evidence.
