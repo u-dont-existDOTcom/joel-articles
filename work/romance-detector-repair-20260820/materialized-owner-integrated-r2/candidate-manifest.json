@@ -1,82 +1,92 @@
 {
   "schema_version": 1,
-  "status": "owner_integrated_residual_candidate_r2_not_owner_final_article",
-  "source_r1": {
-    "master": "9b85666d8f1b18fa6ae659f8b7fbe39b55572553f0ef9cdd5b82c1beb0333f3f",
+  "status": "owner_integrated_section_repaired_candidate_not_owner_final_article",
+  "source": {
+    "master": "dee776ada0db4dc2940d3815b9512ad5034e3224b0c569a9d29f6a69d9bb75a9",
     "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
-    "part2": "5cb6e7fa7aee66aed6addf43f15c1fce45c0bc4d0eba4f01a57d4fe1d1884afd"
+    "part2": "9dc539ca99f8c747ecd5a551f2c72ad476c87671919863d2ad469acf6c6e696f"
   },
   "candidate": {
     "master": {
-      "path": "candidate-master.md",
-      "sha256": "5bada64b833a36c6995c5de062571dd18d51075daa7486ba5f1abfa9200601ab",
-      "word_count_whitespace": 20146,
+      "sha256": "7ff7a4c20ed879b6b9ff4c5d41cac406db5c5b3a726dc99f5bb4591b11368b48",
+      "word_count_whitespace": 20090,
       "operations": [
         {
-          "label": "not-a-performance-overcorrection-to-refused-help",
+          "label": "not-a-performance-r3",
           "source_occurrences": 1,
-          "old_sha256": "a2870e7d0fe3086649d065650e239fec4861689c49de6663bb3673be261f2f86",
-          "new_sha256": "aa46b7b9683266ae6db9a2695b76c15fb5ac8f77abae36a4477458c8b97330cf"
+          "old_sha256": "f3f588dbaca7e880a8ebba6894c913cbbd6dd0b439b3b4c52af9e3f311aae09d",
+          "new_sha256": "8e88818392383d4e7d6aa53510a587771d6da1930c6bb9eb3a972d100a339bc4"
         },
         {
-          "label": "psychedelic-intimacy-does-not-answer-sober-fit",
+          "label": "two-pillars-r2",
           "source_occurrences": 1,
-          "old_sha256": "dde3fe4ca2fb80cbd014da9ed51f11bcee85f1a396679e703bcb2e4ad590c166",
-          "new_sha256": "712d92d56be87d2665470d4ffee26942aa581e480bd67de7c1bfe766c1b83eca"
+          "old_sha256": "af521886e1f4fd370a77b62799bcd6c0841c8c10944187d81f8e1aab4f3e502d",
+          "new_sha256": "519017b6d3bb41e7d7b23589c1116d794566711a59efd82f36d8678628d360ce"
+        },
+        {
+          "label": "psychedelic-discernment-r2",
+          "source_occurrences": 1,
+          "old_sha256": "ecb4fc6bce02d7605eb9fec20d526d008ae86cdaab1c5bc673565f024855381e",
+          "new_sha256": "e965ef5ebdb6cd2c6df87502bd9c293b02f8118ab57e65ed9fde93d73b602efa"
         }
       ],
       "invariant_audit": {
         "headings_identical": true,
         "native_markers_identical": true,
         "markdown_link_destinations_identical": true,
-        "protected_anchors_missing": [],
         "required_missing": [],
         "passed": true
       }
     },
     "part1": {
-      "path": "candidate-part-1.txt",
       "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
       "word_count_whitespace": 10236,
       "operations": [],
-      "unchanged": true
+      "reuses_registered_detector_result": true
     },
     "part2": {
-      "path": "candidate-part-2.txt",
-      "sha256": "1aba86e2706943467418c56fa7b21515a216bcef25dc71c1784138349ad2f841",
-      "word_count_whitespace": 9759,
+      "sha256": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2",
+      "word_count_whitespace": 9703,
       "operations": [
         {
-          "label": "not-a-performance-overcorrection-to-refused-help",
+          "label": "not-a-performance-r3",
           "source_occurrences": 1,
-          "old_sha256": "a2870e7d0fe3086649d065650e239fec4861689c49de6663bb3673be261f2f86",
-          "new_sha256": "aa46b7b9683266ae6db9a2695b76c15fb5ac8f77abae36a4477458c8b97330cf"
+          "old_sha256": "5fc695125824bbb844f5ca31499b68e8b2f01ccf036eb0d87c3c99b2f4010f9d",
+          "new_sha256": "bff3b03b866a192ab140e45bca52b78935c681578cf7ac75138b2dbe312c795c"
         },
         {
-          "label": "psychedelic-intimacy-does-not-answer-sober-fit",
+          "label": "two-pillars-r2",
           "source_occurrences": 1,
-          "old_sha256": "dde3fe4ca2fb80cbd014da9ed51f11bcee85f1a396679e703bcb2e4ad590c166",
-          "new_sha256": "712d92d56be87d2665470d4ffee26942aa581e480bd67de7c1bfe766c1b83eca"
+          "old_sha256": "af521886e1f4fd370a77b62799bcd6c0841c8c10944187d81f8e1aab4f3e502d",
+          "new_sha256": "519017b6d3bb41e7d7b23589c1116d794566711a59efd82f36d8678628d360ce"
+        },
+        {
+          "label": "psychedelic-discernment-r2",
+          "source_occurrences": 1,
+          "old_sha256": "ecb4fc6bce02d7605eb9fec20d526d008ae86cdaab1c5bc673565f024855381e",
+          "new_sha256": "e965ef5ebdb6cd2c6df87502bd9c293b02f8118ab57e65ed9fde93d73b602efa"
         }
       ]
     }
   },
-  "local_detector_state_before_r2": {
+  "local_section_evidence": {
     "primal-not-a-performance": {
-      "paid_section_calls": 1,
-      "fraction_human": 0.7653250694274902,
-      "remaining_ai_window": "A woman shouldn't have to act soft/helpless... through receiving care/leadership feels weak"
+      "calls": 3,
+      "pangram4_fraction_human": 1.0,
+      "result": "state/experiments/romance-detector-repair-20260820-owner-integrated-r3-local-sections-results.json"
     },
     "community-two-pillars": {
-      "paid_section_calls": 1,
-      "fraction_human": 1.0,
-      "status": "passed_no_more_local_calls_needed"
+      "calls": 2,
+      "pangram4_fraction_human": 1.0,
+      "result": "state/experiments/romance-detector-repair-20260820-owner-integrated-r4-local-sections-results.json"
     },
     "psychedelic-relationship-discernment": {
-      "paid_section_calls": 1,
-      "fraction_human": 0.9445738196372986,
-      "remaining_ai_window": "invented week-later sober/fighting-over-money scenario"
+      "calls": 2,
+      "pangram4_fraction_human": 1.0,
+      "result": "state/experiments/romance-detector-repair-20260820-owner-integrated-r2-local-sections-results.json"
     }
   },
-  "next_detector_plan": "measure only primal-not-a-performance and psychedelic-relationship-discernment at their same natural section boundaries; each will be call 2/6; do not retest community"
+  "detector_plan": {
+    "part2": "aggregate certification boundary; six-call local-section cap does not apply; exact cache/recovery/decision-value gates still apply"
+  }
 }

@@ -611,8 +611,6 @@ I don’t actually walk around thinking I’m some super-masculine guy. I cry, I
 
 When a woman appreciates that masculine side of me, it tends to come out by itself.
 
-I don't want a woman pretending to be helpless so I can feel masculine, but if she's spent years being told she's too needy or too emotional, she may decide that needing anyone is embarrassing and start refusing help even when she wants it.
-
 Toft says that after fifty years he still tells his wife she’s beautiful, including finding new kinds of beauty as she ages. Anami talks a lot about women learning to receive. Sometimes that’s as ordinary as a woman who knows perfectly well how to drive asking me to drive because she likes how it feels when I do; she’s choosing the experience. I might ask, “Honey, how do you see this intuitively?” because I actually want her to go there, and she might ask me to help think through the practical side because she wants that from me.
 
 That's called invitational: Would you rather go to a party where you were invited or a war you got drafted into?
@@ -676,7 +674,7 @@ If you really loved them, more than just wanting to enjoy them or keep them, you
 
 Even if I found my twin flame, she'd still be one person. The polarity could be perfect and we'd still need other people around us.
 
-Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling, and eventually neither of us wants to talk to the other’s friends. Some of the friends may even be exes who want us to break up. Eventually neither of us wants to talk to the other's friends anymore, which is a pretty terrible time to be trying to run the rest of life with two people. Housing, money, children, health, emotional crises—if one person goes down, the other becomes the whole backup system. Who even has time for the relationship itself at that point?
+Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other's friends anymore. That's a pretty terrible time to be trying to run the rest of life with two people. Housing, money, children, health, emotional crises—if one person goes down, the other becomes the whole backup system. Who even has time for the relationship itself at that point?
 
 Maybe an unusually strong couple can get away without much community. I think that's rare. Community isn't magic either; if both people are falling apart, there is only so much anyone else can do.
 
