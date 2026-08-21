@@ -32,6 +32,7 @@ routing aids; they do not establish article authority.
 
 - `project-sources/HUMANIZATION-AND-COHERENCE.md`
 - `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`
+- `project-sources/DETECTOR-LOCALIZATION-AND-ROLLBACK.md`
 - `project-sources/EDIT-CONTRACT-AND-LEDGERS.md`
 - `project-sources/FINGERPRINT-PASS.md`
 - `project-sources/IDIOLECT-PRESERVATION-PROTOCOL.md`
@@ -40,6 +41,8 @@ routing aids; they do not establish article authority.
   following the fresh-read order in `SKILL.md`
 
 Use the rhythm/thought-shape protocol to audit sentence-level verdict cadence, paragraph-level equalized thought duration, recursive mini-essay closure, objection-completion, and lost reader-facing pragmatic acts. It is an editorial gate, not a phrase blacklist or detector substitute.
+
+Use the detector-localization/rollback protocol when Pangram highlights a residual: a displayed red window is evidence location, not automatically causal location. Compare exact draft identities, restore higher-authority/known-passing realizations before new paraphrases when justified, and test natural-section or adjacent-section transition boundaries when the residual is contextual.
 
 Use the idiolect protocol for substantial sectional reconstruction or article-wide rewriting. It adds authorship-signal retention as a separate axis; it never replaces semantic fidelity, architecture, owner authority, or Pangram's exact-boundary gate.
 
