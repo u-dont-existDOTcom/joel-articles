@@ -97,6 +97,10 @@
           "source": "Surrender means so much more when she could take control but prefers not to at that moment."
         },
         {
+          "id": "performance.chosen_surrender_erotic_value",
+          "source": "When a strong woman surrenders, she is choosing to, which is sexy."
+        },
+        {
           "id": "performance.overcorrection_needing_nobody",
           "source": "She may worry that I don’t find her beautiful enough, or that she’s too emotional, too difficult, not logical enough, or too needy. Then she can overcorrect into needing nobody and make receiving care or letting a man lead feel like weakness."
         },
@@ -109,7 +113,7 @@
           "source": "A man receiving care doesn’t make him a child either."
         }
       ],
-      "notes": "The last two missing functions were discovered during the exact registered-to-r7 prose re-audit after the first seven restorations."
+      "notes": "The final three missing functions were discovered during exact registered-to-r7/r8 prose re-audits after the initial seven restorations."
     },
     {
       "heading": "Two Pillars Don't Hold The Roof Up",
@@ -159,7 +163,7 @@
   "gate": {
     "changed_sections": 16,
     "blocking_sections": 3,
-    "lost_unsuperseded_units": 9,
+    "lost_unsuperseded_units": 10,
     "passed": false
   }
 }
