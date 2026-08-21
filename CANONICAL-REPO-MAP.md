@@ -31,12 +31,15 @@ routing aids; they do not establish article authority.
 ### P2S/P3/P4, detector repair, and humanization
 
 - `project-sources/HUMANIZATION-AND-COHERENCE.md`
+- `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`
 - `project-sources/EDIT-CONTRACT-AND-LEDGERS.md`
 - `project-sources/FINGERPRINT-PASS.md`
 - `project-sources/IDIOLECT-PRESERVATION-PROTOCOL.md`
 - `project-sources/BANNED-PATTERNS.md`
 - the relevant current material in `u-dont-existDOTcom/pangram-humanization-lab`,
   following the fresh-read order in `SKILL.md`
+
+Use the rhythm/thought-shape protocol to audit sentence-level verdict cadence, paragraph-level equalized thought duration, recursive mini-essay closure, objection-completion, and lost reader-facing pragmatic acts. It is an editorial gate, not a phrase blacklist or detector substitute.
 
 Use the idiolect protocol for substantial sectional reconstruction or article-wide rewriting. It adds authorship-signal retention as a separate axis; it never replaces semantic fidelity, architecture, owner authority, or Pangram's exact-boundary gate.
 
