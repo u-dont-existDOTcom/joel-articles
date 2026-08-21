@@ -54,8 +54,10 @@ I don’t actually walk around thinking I’m some super-masculine guy. I cry, I
 
 When a woman appreciates that masculine side of me, it tends to come out by itself."""
 
-LEADERSHIP_P2_OLD = LEADERSHIP_MASTER_OLD.replace("## Not A Performance", "Not A Performance")
-LEADERSHIP_P2_NEW = LEADERSHIP_MASTER_NEW.replace("## Not A Performance", "Not A Performance")
+# The reader-visible Part 2 representation strips Markdown heading syntax and also
+# removes the blank line immediately before this heading. Bind to that exact form.
+LEADERSHIP_P2_OLD = LEADERSHIP_MASTER_OLD.replace("\n\n## Not A Performance\n\n", "\nNot A Performance\n\n")
+LEADERSHIP_P2_NEW = LEADERSHIP_MASTER_NEW.replace("\n\n## Not A Performance\n\n", "\nNot A Performance\n\n")
 
 EXCLUSIVITY_OLD = """Sexual exclusivity has a different history. A lot of that history runs through agriculture, property, and inheritance. By the Industrial Revolution, strict exclusivity had law and social pressure behind it as a mass norm. Tribal cultures across the world have generally been looser: a primary partnership could still leave accepted room for sexual or emotional connections outside it—what gets called “social monogamy.”
 
