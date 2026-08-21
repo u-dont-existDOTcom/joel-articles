@@ -1,27 +1,20 @@
 # Codex handoff — Romance detector repair
 
-Updated: 2026-08-21
+Updated: 2026-08-21 after semantic-fidelity recovery.
 
 ## Owner instruction
 
-Continue the Romance repair autonomously through routine next steps. Human/editorial quality and owner fidelity outrank Pangram. Do not merge canonical `main` until the candidate is deliberately accepted/reconciled. Do not ask Joel to approve routine continuation.
+Continue autonomously through routine next steps. **Human/editorial quality and owner fidelity outrank Pangram. Never silently delete, weaken, or symmetry-normalize Joel's arguments to improve a detector score.** Do not merge canonical `main` until the candidate is deliberately accepted/reconciled. Do not ask Joel to approve routine continuation.
 
-## Blocking owner corrections
+## Immediate coordination rule — STOP stale paid optimization
 
-### Pangram paid-call cap is per genuine local repair section
+**Do not submit any new paid Pangram call from the old Part-1 r1–r6 or owner-integrated-Part-2 lineage until the current semantic candidate passes its registered-master traceability gate.**
 
-Joel corrected the earlier rule on 2026-08-21. The hard six-paid-call guard applies to a **genuine local repair section**, not to an article, article half, or other multi-section aggregate certification boundary.
+Why: whole-article closeout proved that the old detector lineages silently deleted registered argumentative functions while still passing mechanical invariants and often improving Pangram. Those lineages are now diagnostic history only.
 
-- local repair section: `budget_scope: section`; hard cap = 6 new paid POSTs for that stable section/audit identity;
-- whole article / article half / other multi-section aggregate: `budget_scope: aggregate`; fully cached/accounted, but no six-call section cap;
-- never split or rename one real local section to evade its cap;
-- aggregate calls still require exact-cache, recovery-before-repeat, version, durability, and decision-value gates.
+This explicitly supersedes older language in this handoff that called deletion of the female-side `Not A Performance` material a winning edit. The registered master proves that material is canonical and unsuperseded.
 
-The Pangram lab implementation/docs were updated and CI-tested. Historical Part-2 calls remain cost/provenance evidence but do not make the ~10k-word Part 2 a single exhausted section.
-
-### Short detector boundaries
-
-For comparable Romance diagnostics, default to roughly **200+ contiguous reader-visible words** unless the real deliverable is shorter. If good natural-owner prose is low-confidence Human at ~100 words, widen context before rewriting it for detector confidence.
+Concurrent calls already reserved before this correction remain real cost/provenance evidence, but their scores cannot authorize promotion.
 
 ## Canonical authority
 
@@ -29,139 +22,178 @@ Canonical `main:articles/romance/master.md` remains unchanged and registered at 
 
 `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`
 
-PR #29 remains a draft task/experiment branch. Do **not** merge it wholesale as article authority.
+PR #29 remains a draft task/experiment branch. **Do not merge it wholesale.**
 
-Part 1 remains exact and must not be resubmitted merely because Part 2 changes:
+Direct owner / owner-final authority that must survive candidate work includes, at minimum:
 
-- SHA-256 `ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8`
-- 10,236 words
-- registered Pangram 4 Human `0.9205247164`.
+- `OWNER-MUSES-REWRITE-LESSON-20260821.md` — direct owner rewrite;
+- `OWNER-EXCLUSIVITY-REWRITE-20260821.md` — direct owner rewrite;
+- `OWNER-PINKEST-REWRITE-20260821.md` — owner-final local span;
+- father/readiness question and Bear callback;
+- Gandarussa;
+- coercion exits the mutual Crucible frame;
+- children obligations/community functions;
+- owner locks in `articles/romance/OWNER-LOCKS.json`.
 
-## Aggregate Part-2 history
+## Why the workflow changed
 
-Registered baseline Human: `0.8983033895`.
+Mechanical invariants protected headings, native objects, links, and named anchors but did **not** protect unlabeled argumentative functions. Example: the old Part-1 candidate reached 98%+ Human while deleting most of the registered sexual-conversation section and much of `Affection and the simmer`.
 
-- pass 1: `0.9137498736`
-- pass 2: `0.9114283323287964`
-- pass 3: `0.9153165817`
-- pass 4: `0.9215877056121826`
-- pass 5: `0.9247636795043945`
-- pass 6: `0.9322237372398376`
-- first owner-integrated aggregate, SHA `9dc539ca99f8c747ecd5a551f2c72ad476c87671919863d2ad469acf6c6e696f`, 9,804 words: Human `0.9761735796928406`, AI `0.02382640726864338`, assisted `0.0`, Pangram 4.0 / `STAGE_SUCCESS`.
+A bounded existing-work scan was performed after freezing the independent idea. The chosen solution is **adaptation**, not invention:
 
-The owner-integrated aggregate left three local AI windows in:
+- requirements traceability (ISO/IEC/IEEE 29148 model);
+- Pyramid / Summary Content Units;
+- Atomic Content Unit-style semantic alignment.
 
-1. `Primal attraction / Not A Performance`;
-2. `Two Pillars Don't Hold The Roof Up`;
-3. `Psychedelics in relationship discernment`.
+For editorial use, every distinct registered/owner argumentative function gets a disposition: `preserved`, `moved`, `owner-superseded`, or `lost`. Any unsuperseded `lost` unit blocks promotion.
 
-Those were then repaired and measured as distinct natural sections under their own section budgets.
+Reusable mechanical scope tool:
 
-## Local section repair results
+`scripts/build_section_diff_manifest.py`
 
-### `primal-not-a-performance`
+Regression test:
 
-Calls used: **3/6**.
+`tests/test_build_section_diff_manifest.py`
 
-- r1: Human `0.7653250694274902`; generalized female-side mirror remained AI.
-- r2: Human `0.6025727987289429`; paraphrasing the same symmetry worsened it.
-- r3: **100% Human**, high confidence, 229-word boundary.
+## Exact semantic-audit scope
 
-Winning editorial change: remove the reflexive generalized female-side symmetry paragraph rather than rewrite it again. Preserve the personal masculine-performance material, then move directly into concrete Toft/Anami receiving examples and the invitational material.
+Registered-master → candidate heading alignment remains exact: **44 headings**. Only **16 sections** differ.
 
-Exact result:
-`pangram-humanization-lab:automation/pangram-fixed-batch/state/experiments/romance-detector-repair-20260820-owner-integrated-r3-local-sections-results.json`
+Generated manifests/diffs:
 
-### `community-two-pillars`
+- `source-diff-r6/`
+- `source-diff-r7/`
+- `source-diff-r8/`
 
-Calls used: **2/6**.
+Structured loss ledger:
 
-- r1: 100% Human but contained an editorially redundant repeated `eventually neither of us wants...` line.
-- r2: duplicate removed; **100% Human**, high confidence, 716-word full section.
+`SEMANTIC-TRACEABILITY-R6.json`
 
-Winning change: keep the personal one-sided-friend-circle mechanism in one continuous causal movement into the practical two-person backup-system problem; remove the detached `outside support isn't really shared support anymore` mini-summary.
+The corrected r6 ledger records **10 unsuperseded loss units** total across three Part-2 sections plus the earlier Part-1 losses that were subsequently restored.
 
-Exact result:
-`pangram-humanization-lab:automation/pangram-fixed-batch/state/experiments/romance-detector-repair-20260820-owner-integrated-r4-local-sections-results.json`
+Audit notes:
 
-### `psychedelic-relationship-discernment`
+- `SEMANTIC-FIDELITY-AUDIT-20260821.md`
+- `SEMANTIC-FIDELITY-R7-ADDENDUM-20260821.md`
+- `SEMANTIC-FIDELITY-R8-ADDENDUM-20260821.md`
 
-Calls used: **2/6**.
+## Part 1 semantic candidate
 
-r2 reached **100% Human** on the complete section. The local repair replaces the list-like `sober, irritated, jealous, broke, bored...` explanatory window with the direct thought that psychedelic intimacy can be real without telling you whether the two people actually work together sober.
+The first acceptable semantic restoration of Part 1 is `materialized-part1-semantic-r6/`.
 
-Exact result:
-`pangram-humanization-lab:automation/pangram-fixed-batch/state/experiments/romance-detector-repair-20260820-owner-integrated-r2-local-sections-results.json`
+Exact Part 1 identity:
 
-## Current article candidate
+- SHA-256 `35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9`
+- 10,459 words.
 
-The three exact locally passing repairs were deterministically applied to the prior owner-integrated candidate.
+It restores all identified unsuperseded Part-1 functions, including:
 
-Directory:
-`work/romance-detector-repair-20260820/materialized-owner-integrated-r2/`
+- father/readiness question **plus** the registered talk-before-sex/body/kink/history/sex-meaning/drive-mismatch/naked-honesty functions;
+- no-agenda affection **plus** simmer examples, both-needs claim, no-homework caveat, sex-as-barometer diagnostics, personal sexual responsibility, and intentional time;
+- casual-sex fulfillment-awareness and free-love-community/children-village consequence;
+- humane individual help versus cumulative patient/caregiver role pattern.
 
-Exact identities:
+Part 1 remains byte-for-byte unchanged through semantic r7/r8/r9 work.
 
-- master SHA-256 `7ff7a4c20ed879b6b9ff4c5d41cac406db5c5b3a726dc99f5bb4591b11368b48`
-- master words: **20,090**
-- Part 1 SHA unchanged `ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8`
-- Part 2 SHA-256 `20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2`
-- Part 2 words: **9,703**.
+## Part 2 semantic restoration sequence
 
-The hash-gated materializer changed exactly three spans:
+Old exact owner-integrated-r2 Part 2:
 
-1. `Not A Performance` r3;
-2. `Two Pillars` r2;
-3. psychedelic discernment r2.
+- SHA `20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2`
+- 9,703 words.
 
-Invariant audit passed: headings, native markers, Markdown link destinations, Gandarussa, Bear terminal callback, community claim, and required repaired anchors are intact. The materialization workflow also runs repository tests, content-authority validation, article-architecture validation, repository audit, and `git diff --check` before committing generated output.
+That lineage passed several local detector probes but failed semantic closeout.
 
-Manifest:
-`work/romance-detector-repair-20260820/materialized-owner-integrated-r2/candidate-manifest.json`
+Semantic r7 restored the first seven identified unsuperseded Part-2 losses:
 
-## Aggregate certification state
+- two `Queen of Orgasms` claims;
+- four initially identified `Not A Performance` claims;
+- `After leaving` curiosity-as-therapeutic claim.
 
-A fresh aggregate Pangram-4 measurement has been frozen/submitted for exact Part 2 SHA:
+r7 master SHA:
+`00698c96b42b5f4a24ea1078c6fbcb8ff068a403720d3bc38e091e1656db8c3c`
 
+Semantic r8 restored two additional `Not A Performance` functions found by exact prose re-audit:
+
+- having to defend the masculine identity whenever vulnerability appears;
+- chosen surrender having more meaning because the woman retains agency to take control.
+
+r8 exact identities:
+
+- master SHA `184b37c612c78d565c4c1a23691f38e0c0ceb2e7d9041ef1c98adee3ce48961f`
+- 20,490 words;
+- Part 1 unchanged `35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9`;
+- Part 2 SHA `9b1fbe32be4429baddbda636d2eb8861d5cc7163fa8bee764dc235502c027005`;
+- Part 2 9,880 words.
+
+Exact registered→r8 manifest still shows the same 16 changed sections and exact heading alignment.
+
+The final r8 word-diff exposed one remaining unsuperseded evaluative claim:
+
+`When a strong woman surrenders, she is choosing to, which is sexy.`
+
+Because the section is specifically about polarity/erotic attraction, dropping the erotic conclusion is a real softening rather than harmless compression.
+
+## Current candidate in progress — semantic r9
+
+Materializer:
+`apply_semantic_restore_r9.py`
+
+Test:
+`tests/test_romance_semantic_restore_r9.py`
+
+Workflow:
+`.github/workflows/materialize-romance-semantic-r9.yml`
+
+r9 source is exact r8. It is allowed to make **one semantic content operation only**: restore the exact canonical sentence above in `Not A Performance` in master and Part 2. Part 1 must remain exact SHA `35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9`.
+
+After r9 materializes, do **not** immediately pay Pangram. First:
+
+1. generate exact registered→r9 diff + changed-section manifest;
+2. human-audit the surviving changed-section functions against the existing 16-section ledger;
+3. create `SEMANTIC-TRACEABILITY-R9.json` with `passed: true` only if zero unsuperseded loss units remain;
+4. run/reconfirm repository architecture/integrity gates.
+
+Only then may detector measurement resume on the semantic candidate.
+
+## Detector accounting / stale results
+
+### Part-1 stale aggregate lineage
+
+Old aggregate r5:
+
+- SHA `e6b9e546bb2f07af8e18fc65fb6883d27bf0106d93f5f02d6674a88e034d572d`
+- Pangram Human `0.9838229417800903`;
+- rejected for semantic loss.
+
+Old aggregate r6:
+
+- SHA `ff3c6d77a848d36c51776f76a6643aaae2262b4cffa458b1f54319dfe54971eb`
+- Pangram Human `0.9811084866523743`;
+- semantically lossy and diagnostic only.
+
+A concurrent stale worker then spent calls localizing r6 residuals, including a new `part1-conversation-flaws` bucket. Those results may teach detector behavior but may **not** be applied automatically to the semantic candidate.
+
+### Local section caps
+
+- `part1-affection-simmer`: **6/6 hard cap reached**. No seventh local Affection call.
+- `part1-casual-sex-situationship`: 5/6; exact prior full natural Casual section already measured 100% Human. Preserve final call for a genuinely decision-changing semantic variant only.
+- other buckets remain governed by the same per-genuine-section six-call rule.
+
+### Paid Part-2 aggregate recovery
+
+Exact old Part-2 owner-integrated-r2 SHA:
 `20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2`
 
-Experiment:
-`romance-detector-repair-20260820-part2-owner-integrated-r2-20260821`
+A paid Pangram aggregate reservation exists at `2026-08-21T18:11:59.187175+00:00` for 9,703 words. The public result file still had not appeared at the latest checkpoint.
 
-This is an **aggregate** accounting boundary, so the local six-call section cap does not apply. Do not duplicate the submission. Recover its committed result or pending task state before any repeat.
+**Never resubmit this exact text.** Recover its result/pending state only. When it arrives, it is diagnostic baseline evidence because the exact text is semantically superseded.
 
-At the time of this checkpoint, the result file had not yet appeared on `automation/pangram-fixed-batch`; treat it as pending/in-flight, not failed and not absent.
+## Current next safe action
 
-## Existing owner-integrated provenance that remains in r2
-
-- Muses/polarity: direct Joel rewrite, with only already-authorized typo normalization.
-- Leadership immediately before `Not A Performance`: assistant-produced, Joel-accepted provisional; Joel reported the local passage 100% high-confidence Human while still perceiving slight residual AI shape.
-- Attraction/exclusivity: direct Joel rewrite, owner-reported high-confidence Human locally.
-- `When did you two last dance?`: owner-final local replacement; preserve despite its 97-word low-confidence Human result.
-
-## Generation lessons currently active
-
-Do not lose these:
-
-- objection-completion replacing thought-completion;
-- mandatory symmetry replacing actual asymmetric judgment;
-- clean abstraction replacing lived epistemic friction;
-- generalized checklist/safety expansion after the concrete point is made;
-- topic-sentence scaffolding replacing causal movement;
-- equalized thought duration / regular conceptual bar-length;
-- metrical antithesis / repeated verdict cadence;
-- mirrored opposites used as closure machinery;
-- recursive mini-essay rhythm / outline pulse / nested closure;
-- compression can worsen model shape by deleting live thought pressure;
-- genuine reader-facing pragmatic/social acts are part of prose, not detector charms.
-
-Current active reusable protocol:
-`project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`
-
-## Next safe action
-
-1. Recover the pending exact aggregate result; **do not resubmit** while pending/ambiguous.
-2. If the 9,703-word Part 2 is 100% Human, run final editorial/architecture/provenance closeout and present the candidate for owner acceptance/reconciliation.
-3. If aggregate residual AI remains, localize it and assign each genuine natural section its own existing/new section budget; do not treat Part 2 itself as a capped section.
-4. Do not retest Part 1 merely because Part 2 changes.
-5. Do not merge PR #29 wholesale. A clean owner-approved reconciliation must update canonical `articles/romance/` deliberately.
+1. Finish semantic r9 materialization and exact registered→r9 traceability.
+2. Persist the final pass ledger and update this handoff/PR state to r9 exact identities.
+3. Recover any already-paid pending results; never duplicate them.
+4. Only after semantic traceability passes, choose the minimum decision-value detector measurements for the semantic candidate. Do not reuse stale repair text merely because it scored Human.
+5. Run whole-article editorial/architecture/provenance closeout before any owner reconciliation.
+6. Do not merge PR #29 wholesale; canonical `articles/romance/` changes require deliberate owner-approved reconciliation.
