@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "status": "candidate_not_owner_final",
+  "source_pass4": {
+    "master": "b1541c6b6aee5cf289bc50d00ae6422b681fc6f64327729cd2f03a00bef3c779",
+    "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+    "part2": "a21b9670bc0cc61b4fc850761ca57ffa5dc5d1a02bdd5df90b820d6f9d437a0e"
+  },
+  "candidate": {
+    "master": {
+      "path": "candidate-master.md",
+      "sha256": "cad2b0d828256f1816cbd2c293cbf0ced9e43aec3595b4a78daa566db4a8338d",
+      "word_count_whitespace": 20271,
+      "operations": [
+        {
+          "label": "anami-stories-solo-progression",
+          "source_occurrences": 1,
+          "old_sha256": "7cf36dab2591de5e7c16d5b23b3d6d6ec01002833c5714b7287f5e781d49ad8e",
+          "new_sha256": "27830111ad636ecd0cfc0ea03d4c5a168a98485b04271bf4f7e30e286685e21e"
+        },
+        {
+          "label": "muses-listening-safety-competence-chain",
+          "source_occurrences": 1,
+          "old_sha256": "ae03058cc883b5a8ac73a36cb2f03c410f48c61506523c5dcca9d405ca2b571c",
+          "new_sha256": "dbde3221e5d38e9ab35fe82ec69772ee5ec36ce022bfed0d19f02f88455f37fb"
+        },
+        {
+          "label": "primal-lived-chain-before-heading",
+          "source_occurrences": 1,
+          "old_sha256": "597bfef8b0324b1dadde73b294b92ee0dc59cda7d06c1d29c4d74c7536b4f338",
+          "new_sha256": "b5ffbb6ded41f28412ff1ebdef01d981a481b78b5e11d56c5d7f66633e6533f5"
+        },
+        {
+          "label": "not-a-performance-lived-chain-after-heading",
+          "source_occurrences": 1,
+          "old_sha256": "06faa76467ead66a0170479849e15d5ec627a33250375896516f219a374351b0",
+          "new_sha256": "56ebf2454055d6aea643bae0164f44626d20dc75d3e26833d9e316bb40210c87"
+        },
+        {
+          "label": "choosing-same-words-different-futures",
+          "source_occurrences": 1,
+          "old_sha256": "3b6e1493ebe3b217b7e7b868ff2e25f9b962ba935986eff12bbda3b9334c3316",
+          "new_sha256": "0eea104b2f9c41b3504b8ea72e1146211e3b88b6d79e5d072ce068a3e2c0aeca"
+        },
+        {
+          "label": "exclusivity-history-conversational",
+          "source_occurrences": 1,
+          "old_sha256": "efff8adb2d9c2128449c87a15d1ffe371d862daf56bb97c7b49453517bed9ea9",
+          "new_sha256": "3ef22e08f30846c0e95259a7a5a4e57a411a85f39592789ea4e21d1d695897d4"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "pass5_required_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "path": "candidate-part-1.txt",
+      "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count_whitespace": 10236,
+      "operations": [],
+      "reuses_registered_detector_result": true
+    },
+    "part2": {
+      "path": "candidate-part-2.txt",
+      "sha256": "a5b1cf38a81537492d08a8eac2e930012fbf10264beadfc252a3efc1bd794c20",
+      "word_count_whitespace": 9884,
+      "operations": [
+        {
+          "label": "anami-stories-solo-progression",
+          "source_occurrences": 1,
+          "old_sha256": "7cf36dab2591de5e7c16d5b23b3d6d6ec01002833c5714b7287f5e781d49ad8e",
+          "new_sha256": "27830111ad636ecd0cfc0ea03d4c5a168a98485b04271bf4f7e30e286685e21e"
+        },
+        {
+          "label": "muses-listening-safety-competence-chain",
+          "source_occurrences": 1,
+          "old_sha256": "58884e6886ae5f57fb2ccdc51c8f816d34599e6fccbcfd4209539895ccedd6bb",
+          "new_sha256": "4c2577a7baa89732bbce11d1214516f40bdcde8b6b1b147f09af0465c270da96"
+        },
+        {
+          "label": "primal-performance-lived-chain",
+          "source_occurrences": 1,
+          "old_sha256": "430ca26bf2658f77956dbb0e3fb5380201746ccbb63ff233926bcc5c418c77cb",
+          "new_sha256": "3e2086269222d244a43c27f522e9c8ffc35e4ec26d5d00e650b6e553c64b4a5d"
+        },
+        {
+          "label": "choosing-same-words-different-futures",
+          "source_occurrences": 1,
+          "old_sha256": "3b6e1493ebe3b217b7e7b868ff2e25f9b962ba935986eff12bbda3b9334c3316",
+          "new_sha256": "0eea104b2f9c41b3504b8ea72e1146211e3b88b6d79e5d072ce068a3e2c0aeca"
+        },
+        {
+          "label": "exclusivity-history-conversational",
+          "source_occurrences": 1,
+          "old_sha256": "efff8adb2d9c2128449c87a15d1ffe371d862daf56bb97c7b49453517bed9ea9",
+          "new_sha256": "3ef22e08f30846c0e95259a7a5a4e57a411a85f39592789ea4e21d1d695897d4"
+        }
+      ]
+    }
+  },
+  "detector_plan": {
+    "part1": "no_new_call_exact_registered_hash_unchanged",
+    "part2": "one_new_pangram4_measurement_via_private_selfhost"
+  },
+  "editorial_note": "Pass 5 targets the five exact AI windows returned by the successful self-hosted pass-4 Pangram-4 result. The source-format master preserves Markdown italics and the untouched Not A Performance heading while the detector boundary receives the semantically identical plaintext changes."
+}
