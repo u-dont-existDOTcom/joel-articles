@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work" / "romance-detector-repair-20260820"
 SOURCE = WORK / "materialized-part1-semantic-r6"
 SCRIPT = WORK / "apply_semantic_restore_r7.py"
-SOURCE_P1_SHA = "3f33b066869e16fd75885c4a69564d772da33670486147ba8289613991ca5ffe"
+SOURCE_P1_SHA = "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9"
 
 REQUIRED = (
     "Many people are not even aware of how incredible sex can be when the polarity, trust, love & safety are all where they should be.",
