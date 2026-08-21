@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "status": "candidate_not_owner_final",
+  "source_pass5": {
+    "master": "cad2b0d828256f1816cbd2c293cbf0ced9e43aec3595b4a78daa566db4a8338d",
+    "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+    "part2": "a5b1cf38a81537492d08a8eac2e930012fbf10264beadfc252a3efc1bd794c20"
+  },
+  "candidate": {
+    "master": {
+      "path": "candidate-master.md",
+      "sha256": "e09cb2309653d3ba9fc14526e7a49b1bef6f27a7494783489895a9c32fba93c5",
+      "word_count_whitespace": 20072,
+      "operations": [
+        {
+          "label": "muses-live-thought-chain",
+          "source_occurrences": 1,
+          "old_sha256": "0eeece6d4e613fcb5d69d7234713ca659ce7d5da6e8a0dd962ab8b79990c208f",
+          "new_sha256": "1635a9f787e9752be29821d7ae27928e855b5b48163baede8c8fca3b2c4d980f"
+        },
+        {
+          "label": "direct-leadership-without-aftercare",
+          "source_occurrences": 1,
+          "old_sha256": "baa613b94483b41523d007d980f0290f43177539001de0e99795cda74c49fbd9",
+          "new_sha256": "165c2bfee7bfc1c90fd4d1b0c54360504ee8ad331a2a03ce673ad4bf09253d0a"
+        },
+        {
+          "label": "community-concrete-example-does-the-work",
+          "source_occurrences": 1,
+          "old_sha256": "1ed09b5c8862025bc75b79885973602d635e39df318b051180887aa01a295b76",
+          "new_sha256": "6b718e49f1e9e6452f695daa41e08928a4aad9315187737436d4afcaf0bc7e58"
+        },
+        {
+          "label": "exclusivity-history-live-question",
+          "source_occurrences": 1,
+          "old_sha256": "d833aef768ab3627e55fed79fdf652f98b3cdeee62ac982eceaff088bdbea068",
+          "new_sha256": "5cbd1555540a1b952b0e35e2dba480c5f18aa7b74f54fa4702265f89dc08a0bc"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "pass6_required_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "path": "candidate-part-1.txt",
+      "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count_whitespace": 10236,
+      "operations": [],
+      "reuses_registered_detector_result": true
+    },
+    "part2": {
+      "path": "candidate-part-2.txt",
+      "sha256": "6166fb2c17022e978de1019210067429f749071e53581bbe184adb721dbe8215",
+      "word_count_whitespace": 9685,
+      "operations": [
+        {
+          "label": "muses-live-thought-chain",
+          "source_occurrences": 1,
+          "old_sha256": "f41756b9a9ab254fd30fbad440ec27e62e32081eb639f5c621b72d28413fb303",
+          "new_sha256": "1635a9f787e9752be29821d7ae27928e855b5b48163baede8c8fca3b2c4d980f"
+        },
+        {
+          "label": "direct-leadership-without-aftercare",
+          "source_occurrences": 1,
+          "old_sha256": "baa613b94483b41523d007d980f0290f43177539001de0e99795cda74c49fbd9",
+          "new_sha256": "165c2bfee7bfc1c90fd4d1b0c54360504ee8ad331a2a03ce673ad4bf09253d0a"
+        },
+        {
+          "label": "community-concrete-example-does-the-work",
+          "source_occurrences": 1,
+          "old_sha256": "1ed09b5c8862025bc75b79885973602d635e39df318b051180887aa01a295b76",
+          "new_sha256": "6b718e49f1e9e6452f695daa41e08928a4aad9315187737436d4afcaf0bc7e58"
+        },
+        {
+          "label": "exclusivity-history-live-question",
+          "source_occurrences": 1,
+          "old_sha256": "d833aef768ab3627e55fed79fdf652f98b3cdeee62ac982eceaff088bdbea068",
+          "new_sha256": "5cbd1555540a1b952b0e35e2dba480c5f18aa7b74f54fa4702265f89dc08a0bc"
+        }
+      ]
+    }
+  },
+  "detector_plan": {
+    "part1": "no_new_call_exact_registered_hash_unchanged",
+    "part2": "final_paid_pangram4_measurement_slot_6_via_private_selfhost"
+  },
+  "editorial_note": "Pass 6 targets the four exact residual AI windows returned by pass 5. It removes redundant explanatory recap where the following owner examples already do the work, preserves the Primal/Crucible/community/exclusivity claims, and is the final paid Part-2 slot under the six-call cap."
+}
