@@ -1,6 +1,6 @@
 # Codex handoff — Romance detector repair
 
-Updated: 2026-08-21 after recovery reconciliation and dispatch of the next exact local measurements.
+Updated: 2026-08-21 after recovery reconciliation, fidelity rejection of Talk call 5, and preregistration of faithful Talk call 6.
 
 ## Owner instruction
 
@@ -20,6 +20,7 @@ Direct owner / owner-final authority that must survive candidate work includes, 
 - `OWNER-EXCLUSIVITY-REWRITE-20260821.md`;
 - `OWNER-PINKEST-REWRITE-20260821.md`;
 - exact childhood father memory plus the separately attributed later readiness/co-parenting interpretation;
+- the Talk-section consequence that discussing readiness/co-parenting before sex slows premature sex and inability to discuss it is a red flag;
 - Bear callback;
 - Gandarussa;
 - coercion exits the mutual Crucible frame;
@@ -50,7 +51,7 @@ Joel's remembered childhood sentence from his father is exactly:
 
 > “Sex is what you do when you are older and you find a friend you want to have children with.”
 
-The later question about whether two people **would want to raise children together and whether they are ready** is Joel's retrospective interpretation / practical development. It is **not** the father's wording. Any detector-successful candidate that collapses those provenance objects fails fidelity.
+The later question about whether two people **would like to raise children together and whether they are ready** is Joel's retrospective interpretation / practical development. It is **not** the father's wording. Any detector-successful candidate that collapses those provenance objects fails fidelity.
 
 ## Exact semantic-r9 detector baseline
 
@@ -65,8 +66,8 @@ Durable Pangram 4.0 evidence on `u-dont-existDOTcom/pangram-humanization-lab:aut
 
 - `part1-affection-simmer`: **6/6 hard cap** — no seventh local call; use the frozen owner-source Affection text only in the next aggregate composition;
 - `part1-casual-sex-situationship`: **5/6** — preserve semantic-r9 Casual byte-for-byte unless a new aggregate proves the final local call is decision-changing;
-- `part1-talk-before-sex`: **4/6 before the currently dispatched call-5 candidate**;
-- `primal-not-a-performance`: **3/6 before the currently dispatched call-4 candidate**;
+- `part1-talk-before-sex`: **4/6 before the dispatched call-5 diagnostic; count call 5 conservatively as used while pending/ambiguous**;
+- `primal-not-a-performance`: **3/6 before the dispatched call-4 candidate**;
 - patient/maturity local span: preserve byte-for-byte unless later wider evidence actually contradicts its exact 100% local result.
 
 Read:
@@ -78,10 +79,31 @@ Aggregate halves are not local sections and are not subject to the six-call loca
 
 ## Frozen recovery candidates
 
-- Talk call 5: `recovery-20260821/talk-call5-reader-visible.txt`, SHA-256 `74c72f5006fae519c80b63b42a03db16ef5248b1ea75bfb24a4be00eac62da08`;
+Registry:
+
+`recovery-20260821/candidate-hashes.json`
+
+### Talk call 5 — diagnostic only, fidelity rejected
+
+- file: `recovery-20260821/talk-call5-reader-visible.txt`;
+- SHA-256 `74c72f5006fae519c80b63b42a03db16ef5248b1ea75bfb24a4be00eac62da08`;
+- rejection note: `recovery-20260821/TALK-CALL5-FIDELITY-REJECTION.md`.
+
+A fresh four-plane audit found that this recovered candidate correctly removed the false father attribution but also deleted two owner-required functions: Joel's own readiness/co-parenting question and its premature-sex/red-flag consequence. **It cannot be promoted even if Pangram returns 100% Human.** Its detector result may be kept only as diagnostic evidence.
+
+### Talk call 6 — faithful final local candidate, preregistered but NOT dispatched
+
+- file: `recovery-20260821/talk-call6-faithful-reader-visible.txt`;
+- SHA-256 `f2ca3824f83c7085a912336f48ff9c985af12cefe5a8d5f477df18b1785264ed`;
+- public spec: `u-dont-existDOTcom/pangram-humanization-lab:automation/pangram-fixed-batch/experiments/romance-detector-repair-20260820-talk-call6-faithful-20260821.json`;
+- spec SHA-256 `56b0091ad6ad0e49d7017ccc712ee87609a29b15cfbab351420b23204df5d3a7`.
+
+This candidate restores all known Talk functions while separating the father's literal memory from Joel's later interpretation. **Do not dispatch while call 5 is pending/ambiguous.** Once call 5 is durably resolved, call 6 is the final permitted local Talk measurement under the unchanged six-call cap.
+
+### Other frozen candidates
+
 - Affection aggregate-only composition: `recovery-20260821/affection-owner-source-composition-reader-visible.txt`, SHA-256 `0c55dcdf1b69b3a6639d58542d1802e129474801bbccd64ee23e8075c6e172b3`;
-- Not A Performance call 4: `recovery-20260821/not-a-performance-call4-reader-visible.txt`, SHA-256 `8e233b5008ede0ce4b9198683ff08a3aa578f42696cd06cc300061bf17249c8a`;
-- registry: `recovery-20260821/candidate-hashes.json`.
+- Not A Performance call 4: `recovery-20260821/not-a-performance-call4-reader-visible.txt`, SHA-256 `8e233b5008ede0ce4b9198683ff08a3aa578f42696cd06cc300061bf17249c8a`.
 
 ## In-flight exact Pangram request — do not duplicate
 
@@ -101,16 +123,17 @@ Request commit:
 
 `f76ba236f89ade74c7ac04c38d45bba44d0bd7f0`
 
-At the last check in this worker, the public result wrapper had **not yet appeared**. Absence of a wrapper is not permission to resubmit. Inspect/recover this exact request first.
+At the last check in this worker, the public result wrapper had **not yet appeared** and the request commit had no combined-status failure attached. Absence of a wrapper is not permission to resubmit.
 
 ## Next safe action
 
 1. Recover the exact result/pending state for the in-flight Talk call-5 + Not-A-Performance call-4 batch. Never duplicate it.
-2. Re-audit each measured candidate for semantic/provenance/rhythm loss before accepting a detector result.
-3. If Talk is not exact 100% Human, there is at most one remaining local call under the unchanged section budget; use it only for a meaning-preserving, decision-changing realization. If a sixth call fails, stop that section before a seventh and request narrow owner help.
-4. If Not A Performance is not exact 100% Human, retain its remaining local budget but preserve every r9-restored function; do not re-import the semantically incomplete historical green version.
+2. Keep Talk call 5 diagnostic-only regardless of its result.
+3. Once call 5 is durably resolved, dispatch the already-preregistered faithful Talk call 6 exactly once if the durable ledger confirms it is the sixth local Talk call. If that final call fails detector certification, stop the Talk local section before a seventh and request narrow owner help rather than violating the cap.
+4. Re-audit Not A Performance call 4 for semantic/provenance/rhythm loss before accepting a detector result. If it is not exact 100% Human, retain its remaining local budget but preserve every r9-restored function; do not re-import the semantically incomplete historical green version.
 5. Once faithful local repairs are accepted, materialize the next full semantic candidate by changing only those exact target sections plus the frozen Affection aggregate composition. Keep Casual and the patient/maturity hold unchanged.
-6. Re-run semantic traceability, owner-lock, provenance, architecture, orphan/dependency, and rhythm/thought-shape gates before aggregate detector certification.
-7. Certify exact current Part 1 and Part 2 reader-visible aggregate boundaries. Partial Human percentages remain progress only.
-8. Only if both halves satisfy Pangram 4.0 `1.0 / 0.0 / 0.0` and all editorial/fidelity gates pass should the candidate be presented for deliberate owner acceptance/reconciliation.
-9. Do not merge PR #29 wholesale; canonical `articles/romance/` changes require deliberate owner-approved reconciliation.
+6. Preserve all existing Markdown links/native-object identities when translating reader-visible detector candidates back into the materialized article; a stripped detector text is not source authority for links.
+7. Re-run semantic traceability, owner-lock, provenance, architecture, orphan/dependency, and rhythm/thought-shape gates before aggregate detector certification.
+8. Certify exact current Part 1 and Part 2 reader-visible aggregate boundaries. Partial Human percentages remain progress only.
+9. Only if both halves satisfy Pangram 4.0 `1.0 / 0.0 / 0.0` and all editorial/fidelity gates pass should the candidate be presented for deliberate owner acceptance/reconciliation.
+10. Do not merge PR #29 wholesale; canonical `articles/romance/` changes require deliberate owner-approved reconciliation.
