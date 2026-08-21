@@ -137,15 +137,25 @@ REQUIRED = {
     "bear": "Bear, sex can be what you do when you’re older",
 }
 
+# The generic older invariant records the old literal Crucible sentence. This
+# repair deliberately changes that sentence while preserving the protected
+# function; REQUIRED supplies the stricter semantic/function gate for it.
+PROTECTED_EXACT_EXEMPT = {"coercion-exits-mutual-crucible"}
+
 
 def audit(source: str, candidate: str) -> dict[str, object]:
-    missing_protected = [name for name, anchor in helper.PROTECTED_ANCHORS.items() if anchor not in candidate]
+    missing_protected = [
+        name
+        for name, anchor in helper.PROTECTED_ANCHORS.items()
+        if name not in PROTECTED_EXACT_EXEMPT and anchor not in candidate
+    ]
     missing = [name for name, anchor in REQUIRED.items() if anchor not in candidate]
     checks = {
         "headings_identical": helper.headings(source) == helper.headings(candidate),
         "native_markers_identical": helper.native_markers(source) == helper.native_markers(candidate),
         "markdown_link_destinations_identical": helper.markdown_links(source) == helper.markdown_links(candidate),
         "protected_anchors_missing": missing_protected,
+        "protected_exact_exemptions": sorted(PROTECTED_EXACT_EXEMPT),
         "required_missing": missing,
         "deleted_duplicate_casual_tail_absent": "If you want something closer to “casual love-making” without quite so many ways to damage each other" not in candidate,
     }
