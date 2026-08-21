@@ -16,13 +16,13 @@ AFFECTION_MASTER = """## Affection and the simmer
 
 Doug Toft, who has been married for fifty years, has a useful list called [*50 Things I Learned from 50 Years of Marriage*](https://dougtoft.substack.com/p/50-things-i-learned-from-50-years). One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there. If every affectionate touch becomes a bid for sex, affection itself can start feeling like pressure.
 
-Kim Anami calls the sexual charge between encounters [“the simmer”](https://kimanami.com/meet-another-well-fked-man/). If we stop flirting with each other for months, I’m not going to assume our problem magically begins at bedtime. Sex is a pretty sensitive barometer for resentment, stress, health, medication, and feeling wanted. My partner matters enormously to my desire, but I don’t want to make her manufacture all of it.
+Kim Anami calls the sexual current between encounters [“the simmer”](https://kimanami.com/meet-another-well-fked-man/). If we stop flirting with each other for months, I’m not going to assume our problem magically begins at bedtime. Sex is a pretty sensitive barometer for resentment, stress, health, medication, and feeling wanted. My partner matters enormously to my desire, but I don’t want to make her manufacture all of it.
 """
 AFFECTION_P1 = """Affection and the simmer
 
 Doug Toft, who has been married for fifty years, has a useful list called 50 Things I Learned from 50 Years of Marriage. One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there. If every affectionate touch becomes a bid for sex, affection itself can start feeling like pressure.
 
-Kim Anami calls the sexual charge between encounters “the simmer.” If we stop flirting with each other for months, I’m not going to assume our problem magically begins at bedtime. Sex is a pretty sensitive barometer for resentment, stress, health, medication, and feeling wanted. My partner matters enormously to my desire, but I don’t want to make her manufacture all of it.
+Kim Anami calls the sexual current between encounters “the simmer.” If we stop flirting with each other for months, I’m not going to assume our problem magically begins at bedtime. Sex is a pretty sensitive barometer for resentment, stress, health, medication, and feeling wanted. My partner matters enormously to my desire, but I don’t want to make her manufacture all of it.
 """
 
 STI_OLD = """The STI part is easy: say what you know, or say you don’t know. Feelings aren’t. You can both mean it when you say this is only sex and still have one of you get attached afterward. If you’re both really numb or robotic about sex, maybe not."""
