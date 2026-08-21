@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work" / "romance-detector-repair-20260820"
 PASS4 = WORK / "materialized-pass4"
-SCRIPT = WORK / "apply_pass5.py"
+SCRIPT = WORK / "apply_pass5_exact.py"
 REGISTERED_P1_SHA = "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8"
 
 
@@ -67,6 +67,10 @@ class RomancePass5MaterializerTests(unittest.TestCase):
                 self.assertIn("guarantee a permanent romantic feeling", text)
                 self.assertNotIn("The point is not to tally every act and force the totals to match.", text)
                 self.assertNotIn("Those origins still matter.", text)
+
+            self.assertIn("*Men Are from Mars, Women Are from Venus*", master)
+            self.assertIn("## Not A Performance", master)
+            self.assertNotIn("*Men Are from Mars, Women Are from Venus*", part2)
 
 
 if __name__ == "__main__":
