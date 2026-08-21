@@ -2,7 +2,12 @@
   "talk-call5-reader-visible.txt": {
     "sha256": "74c72f5006fae519c80b63b42a03db16ef5248b1ea75bfb24a4be00eac62da08",
     "words": 404,
-    "role": "part1-talk-before-sex local call 5 candidate"
+    "role": "part1-talk-before-sex local call 5 diagnostic candidate; fidelity-rejected before detector acceptance"
+  },
+  "talk-call6-faithful-reader-visible.txt": {
+    "sha256": "f2ca3824f83c7085a912336f48ff9c985af12cefe5a8d5f477df18b1785264ed",
+    "words": 504,
+    "role": "part1-talk-before-sex final local call candidate; faithful replacement; preregistered but not dispatched while call 5 is pending/ambiguous"
   },
   "affection-owner-source-composition-reader-visible.txt": {
     "sha256": "0c55dcdf1b69b3a6639d58542d1802e129474801bbccd64ee23e8075c6e172b3",
