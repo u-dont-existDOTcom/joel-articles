@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "status": "owner_integrated_candidate_not_owner_final_article",
+  "source_pass6": {
+    "master": "e09cb2309653d3ba9fc14526e7a49b1bef6f27a7494783489895a9c32fba93c5",
+    "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+    "part2": "6166fb2c17022e978de1019210067429f749071e53581bbe184adb721dbe8215"
+  },
+  "candidate": {
+    "master": {
+      "path": "candidate-master.md",
+      "sha256": "dee776ada0db4dc2940d3815b9512ad5034e3224b0c569a9d29f6a69d9bb75a9",
+      "word_count_whitespace": 20191,
+      "operations": [
+        {
+          "label": "owner-muses-archetypes-and-polarity",
+          "source_occurrences": 1,
+          "old_sha256": "1635a9f787e9752be29821d7ae27928e855b5b48163baede8c8fca3b2c4d980f",
+          "new_sha256": "075796e02f2812958f4526da2066a8877960fdd46c6fe2440b08da2f85905cbb"
+        },
+        {
+          "label": "owner-accepted-leadership-rhythm",
+          "source_occurrences": 1,
+          "old_sha256": "e237c5f65faca47ff02a4d11cc5cf19c3d79aae9c26e6a61a10ce527b6523320",
+          "new_sha256": "2f6a13a10a88ab5a05397b2d73cdc5fab9bb790cb6925eb7c0d450901ddebc31"
+        },
+        {
+          "label": "owner-exclusivity-history-and-B",
+          "source_occurrences": 1,
+          "old_sha256": "3f579faf5e0f1558b80e479e572c9babb243c21583be2e854788dbc59254746f",
+          "new_sha256": "af1df6bb868df366b28d40cdcdb79ab06e55e8b8a84373f8a7ad0c70a6a9409e"
+        },
+        {
+          "label": "owner-pinkest-replacement",
+          "source_occurrences": 1,
+          "old_sha256": "76bcd7fe352cad11a076b75fafd70c52593fad396819a2f72d69b9344fe4be48",
+          "new_sha256": "3d7e2be211c1b1385f8f9db9917d93e725cc99459fa588ac9e407ceacb3158e8"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "owner_required_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "path": "candidate-part-1.txt",
+      "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count_whitespace": 10236,
+      "operations": [],
+      "reuses_registered_detector_result": true
+    },
+    "part2": {
+      "path": "candidate-part-2.txt",
+      "sha256": "9dc539ca99f8c747ecd5a551f2c72ad476c87671919863d2ad469acf6c6e696f",
+      "word_count_whitespace": 9804,
+      "operations": [
+        {
+          "label": "owner-muses-archetypes-and-polarity",
+          "source_occurrences": 1,
+          "old_sha256": "1635a9f787e9752be29821d7ae27928e855b5b48163baede8c8fca3b2c4d980f",
+          "new_sha256": "075796e02f2812958f4526da2066a8877960fdd46c6fe2440b08da2f85905cbb"
+        },
+        {
+          "label": "owner-accepted-leadership-rhythm",
+          "source_occurrences": 1,
+          "old_sha256": "64dab7d27d02c4f87d15f2415d935309d93ac83ed3e7899d73b3ee830d14266e",
+          "new_sha256": "9bf7ff5da412818f00c4322eef069afb5a8a8e2ed3d3827af55dd45c1efcb108"
+        },
+        {
+          "label": "owner-exclusivity-history-and-B",
+          "source_occurrences": 1,
+          "old_sha256": "3f579faf5e0f1558b80e479e572c9babb243c21583be2e854788dbc59254746f",
+          "new_sha256": "af1df6bb868df366b28d40cdcdb79ab06e55e8b8a84373f8a7ad0c70a6a9409e"
+        },
+        {
+          "label": "owner-pinkest-replacement",
+          "source_occurrences": 1,
+          "old_sha256": "76bcd7fe352cad11a076b75fafd70c52593fad396819a2f72d69b9344fe4be48",
+          "new_sha256": "3d7e2be211c1b1385f8f9db9917d93e725cc99459fa588ac9e407ceacb3158e8"
+        }
+      ]
+    }
+  },
+  "provenance": [
+    {
+      "label": "owner-muses-archetypes-and-polarity",
+      "kind": "direct_owner_rewrite",
+      "source": "OWNER-MUSES-REWRITE-LESSON-20260821.md",
+      "normalization": [
+        "as the grow -> as they grow",
+        "she see sees -> she sees"
+      ]
+    },
+    {
+      "label": "owner-accepted-leadership-rhythm",
+      "kind": "assistant_produced_owner_accepted_provisional",
+      "source": "OWNER-ACCEPTED-LEADERSHIP-REWRITE-20260821.md",
+      "owner_reported_detector": "Pangram 4 100% high-confidence Human; residual AI feel still perceived by owner"
+    },
+    {
+      "label": "owner-exclusivity-history-and-B",
+      "kind": "direct_owner_rewrite",
+      "source": "OWNER-EXCLUSIVITY-REWRITE-20260821.md",
+      "owner_reported_detector": "Pangram 4 high-confidence Human on short local boundary"
+    },
+    {
+      "label": "owner-pinkest-replacement",
+      "kind": "owner_final_local_span",
+      "source": "OWNER-PINKEST-REWRITE-20260821.md",
+      "owner_reported_detector": "Pangram 4 Human / low confidence on 97-word natural-owner boundary"
+    }
+  ],
+  "detector_plan": {
+    "part1": "no_new_call_exact_registered_hash_unchanged",
+    "part2": "no_automatic_paid_call_audit_cap_exhausted_6_of_6; use wider contiguous context for diagnostics; any seventh full-Part2 call requires explicit owner authorization"
+  },
+  "editorial_note": "This candidate deterministically integrates the owner-selected residual repairs into exact pass 6. It does not merge to canonical main, does not claim a new full-Part2 Pangram result, and preserves owner-final/natural-owner/owner-accepted provenance distinctions."
+}
