@@ -76,7 +76,6 @@ class RomanceOwnerIntegratedMaterializerTests(unittest.TestCase):
                 self.assertIn("unconscious resentment begins to snowball", text)
                 self.assertIn("old Romeo & Juliette might get wandering eye syndrome", text)
                 self.assertIn("Outside help can sometimes break the loop fast", text)
-                self.assertIn("Gandarussa", text)
 
                 self.assertNotIn("Of course, this isn’t literally women=poetry and men=prose.", text)
                 self.assertNotIn("Pushing me out of the way isn’t.", text)
@@ -84,6 +83,8 @@ class RomanceOwnerIntegratedMaterializerTests(unittest.TestCase):
                 self.assertNotIn("Start with the pinkest elephants in the room:", text)
                 self.assertNotIn("See whether the other person will stay in the conversation.", text)
 
+            # Gandarussa is a master-wide protected function outside this Part-2 half.
+            self.assertIn("Gandarussa", master)
             self.assertIn("## Not A Performance", master)
             self.assertIn("Not A Performance", part2)
             self.assertNotIn("## Not A Performance", part2)
