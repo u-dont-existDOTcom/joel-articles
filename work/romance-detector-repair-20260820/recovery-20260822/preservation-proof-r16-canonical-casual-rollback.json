@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r14-affection-maturity-split/candidate-master.md",
+    "revision": "task/romance-detector-repair-20260820@665863b17e9ca92c3fe8ae752fb827e185d5c6eb",
+    "sha256": "fafdc70e9f9a3554e1fb46bd7d4e011db77379f1993629f7885e90ac9c9c1cf2"
+  },
+  "changed_scope": "Romance / Can Casual Sex or a Situationship Actually Be Honest? — higher-authority registered-main rollback of the only two r9/r12 rephrased spans",
+  "mode": "P2S higher-authority rollback",
+  "edit_dose": "D2 exact canonical rollback",
+  "preservation_units": [
+    {
+      "unit_id": "PU-R16-CASUAL-01",
+      "source_ref": "Casual opening through pregnancy/contraception consequence",
+      "authority": "r14/r15 task source + registered canonical master",
+      "type": "claim",
+      "meaning": "A casual agreement does not stop attachment; candid present intention does not settle responsibility if sex creates pregnancy, and contraception is imperfect.",
+      "required_context": "section opening before STI/attachment distinction",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r15 Casual opening through No contraception is perfect.",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R16-CASUAL-02",
+      "source_ref": "STI/feelings paragraph",
+      "authority": "registered canonical master + r15 source",
+      "type": "claim",
+      "meaning": "Known/unknown STI status can be disclosed, while sincere casual intent does not control later attachment; numb/robotic caveat remains.",
+      "required_context": "after pregnancy paragraph",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r15 STI/feelings paragraph",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R16-CASUAL-03",
+      "source_ref": "loving poly community / mutual-use paragraph",
+      "authority": "registered canonical master + r15 source",
+      "type": "judgment",
+      "meaning": "Outside a loving poly community or tribe Joel considers honest casual sex nearly impossible because partners must care what happens afterward; reciprocal use does not redeem using another for pleasure.",
+      "required_context": "after attachment risk",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r15 paragraph beginning Outside a loving poly community or tribe",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R16-CASUAL-04",
+      "source_ref": "I only want fun paragraph",
+      "authority": "registered canonical master + r15 source",
+      "type": "claim",
+      "meaning": "Claims of wanting only fun can conceal a hope for love that may be recognized only when it fails.",
+      "required_context": "casual-sex motive analysis",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r15 I only want fun paragraph",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R16-CASUAL-05",
+      "source_ref": "situationship definition/responsibility sequence",
+      "authority": "registered canonical master + r15 source",
+      "type": "claim",
+      "meaning": "Situationships are often sex-based, under-defined relationships; refusing the label does not erase responsibility or superficiality.",
+      "required_context": "middle of Casual section",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r15 situationship definition through responsibility paragraphs",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R16-CASUAL-06",
+      "source_ref": "why are you making this heavy exchange + H. example",
+      "authority": "registered canonical master + r15 source",
+      "type": "example",
+      "meaning": "The section acknowledges the appeal/cost question behind resistance to seriousness and complicates the category with Joel's deep but romantically uneven relationship with H.",
+      "required_context": "after situationship responsibility analysis",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r15 exchange and H. paragraph",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R16-CASUAL-07",
+      "source_ref": "labels/commitment paragraph",
+      "authority": "registered canonical master",
+      "type": "claim",
+      "meaning": "Labels do not create commitment but can expose whether partners imagine the same relationship; lived relational depth creates practical willingness to help without requiring a paper promise.",
+      "required_context": "after H. example",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "restore exact registered-main wording: I’ll naturally be ready to help when you need me. I don’t need to promise that on paper.",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R16-CASUAL-08",
+      "source_ref": "four-girlfriends example",
+      "authority": "registered canonical master",
+      "type": "example",
+      "meaning": "A college friend with four girlfriends who sought a fifth still said he was miserable and empty, showing that apparent abundance need not equal fulfillment.",
+      "required_context": "supports fulfillment judgment",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "restore exact registered-main anecdote without the later model-added sentence If anybody was supposed to be winning that arrangement, it was him.",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R16-CASUAL-09",
+      "source_ref": "full-conversation conclusion + free-love-community ending",
+      "authority": "registered canonical master + r15 source",
+      "type": "judgment",
+      "meaning": "Taking pregnancy, attachment and post-sex obligations seriously would make casual sex rarer; a less damaging form would require a community where people/bonds are not disposable and children have a village.",
+      "required_context": "true section close",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged final two r15 paragraphs",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-R16-01",
+      "description": "Rollback only the two Casual spans that canonical-to-r9.diff records as task rephrasing: (1) restore the registered-main two-sentence paper-promise realization inside the relational-depth paragraph; (2) remove the model-added If anybody was supposed to be winning that arrangement, it was him sentence so the four-girlfriends anecdote is byte-for-byte the registered-main realization. No other Casual or article prose may change."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-R16-01",
+      "classification": "authorized-rewording",
+      "description": "Restore registered-main wording for practical commitment: separate readiness-to-help from the paper-promise sentence.",
+      "authority_ref": "CH-R16-01",
+      "status": "authorized"
+    },
+    {
+      "delta_id": "DELTA-R16-02",
+      "classification": "deleted-proposition",
+      "description": "Remove the r9/r12 model-added explicit winner-inference sentence from the four-girlfriends anecdote, returning the span to registered-main authority; the anecdote and its misery/emptiness function remain intact.",
+      "authority_ref": "CH-R16-01",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "blocked-pending-exact-materialization",
+  "notes": "Pre-detector preservation proof. The semantic-r9 traceability ledger classifies Casual as preserved_rephrased, not owner-superseded; canonical-to-r9.diff shows these are the only two registered-main→r9 Casual wording deltas. This rollback is therefore higher-authority recovery, not fresh model paraphrase. Update exact candidate identity and detector_eligibility only after hash-gated materialization proves no other bytes changed."
+}
