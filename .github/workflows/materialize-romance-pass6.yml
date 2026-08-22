@@ -1,0 +1,53 @@
+name: Materialize Romance pass 6
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - 'work/romance-detector-repair-20260820/apply_pass6.py'
+      - 'work/romance-detector-repair-20260820/apply_pass6_exact.py'
+      - 'tests/test_romance_pass6_materializer.py'
+      - '.github/workflows/materialize-romance-pass6.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out task branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+
+      - name: Run pass-6 regression
+        run: python -m unittest tests.test_romance_pass6_materializer -q
+
+      - name: Materialize exact pass-6 candidate
+        run: |
+          rm -rf work/romance-detector-repair-20260820/materialized-pass6
+          python work/romance-detector-repair-20260820/apply_pass6_exact.py \
+            --pass5-master work/romance-detector-repair-20260820/materialized-pass5/candidate-master.md \
+            --pass5-part1 work/romance-detector-repair-20260820/materialized-pass5/candidate-part-1.txt \
+            --pass5-part2 work/romance-detector-repair-20260820/materialized-pass5/candidate-part-2.txt \
+            --output-dir work/romance-detector-repair-20260820/materialized-pass6
+
+      - name: Commit generated candidate only if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-pass6
+          if git diff --cached --quiet; then
+            echo 'No materialized changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Materialize Romance detector-repair pass 6'
+          git push origin HEAD:task/romance-detector-repair-20260820

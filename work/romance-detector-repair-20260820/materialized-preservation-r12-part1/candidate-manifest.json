@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "status": "preservation_r12_candidate_not_owner_final_article",
+  "source": {
+    "master": "459c138e901686ca9067add545c5cf8bce9b1d60bab99c9a3318211d0c7b9c52",
+    "part1": "851662d72ff3d7c8179b49656c4f6bebc06a9c60c22b5d783bc5ef1b11886c50",
+    "part2": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "43d98cdb0df5fc9437f89ba56187e3a5586951375ccbf69e6e6a82e82569925f",
+      "word_count_whitespace": 20349,
+      "operations": [
+        {
+          "label": "reject-noncompositional-patient-local-green-rollback",
+          "old_sha256": "69092f713e4ee39acbe0e913d356f0ea3660b7455b02abf9583913fb094a276a",
+          "new_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685",
+          "old_word_count": 84,
+          "new_word_count": 67
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "required_missing": [],
+        "protected_anchors_missing": [],
+        "talk_section_byte_identical": true,
+        "affection_section_byte_identical": true,
+        "casual_section_byte_identical": true,
+        "slow_local_sha256": "2def6737f8763f6e3a92405166dd27f9d0e30ec043a57a216ffbc05bf6bb72f4",
+        "slow_exact_known_human_match": true,
+        "r11_patient_absent": true,
+        "r10_patient_restored": true,
+        "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+        "part2_byte_identical": true,
+        "source_to_candidate_edit_confined_to_patient_rollback_rejection": true,
+        "passed": true
+      }
+    },
+    "part1": {
+      "sha256": "f272bf6fab784a4e1922374a36573f216f29c6c691deba0fe0394a2aaad3fd83",
+      "word_count_whitespace": 10306,
+      "operations": [
+        {
+          "label": "reject-noncompositional-patient-local-green-rollback",
+          "old_sha256": "69092f713e4ee39acbe0e913d356f0ea3660b7455b02abf9583913fb094a276a",
+          "new_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685",
+          "old_word_count": 84,
+          "new_word_count": 67
+        }
+      ]
+    },
+    "part2": {
+      "sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+      "word_count_whitespace": 9892,
+      "operations": [],
+      "unchanged": true
+    }
+  },
+  "preservation_proof": {
+    "slow_steady": "accepted exact Pangram-4 Human realization retained from r11",
+    "patient": "r11 semantic-equivalent local-green rollback rejected because its aggregate AI window expanded from 53 to 106 words; r10 compact wording restored",
+    "talk": "byte-identical to r11/r10; 6/6 hard capped",
+    "affection": "byte-identical to r11/r10; 6/6 hard capped",
+    "casual": "byte-identical to r11/r10; final local call conserved",
+    "part2": "byte-identical exact 100% Human aggregate evidence remains current",
+    "unexplained_deltas": 0
+  },
+  "detector_plan": {
+    "part1": "fresh exact aggregate Pangram 4 certification; this is a composition rollback test, not a local patient call",
+    "part2": "do not rerun"
+  }
+}

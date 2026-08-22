@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r10-part1/candidate-part-1.txt",
+    "revision": "preservation-r10 Part 1 exact aggregate baseline",
+    "sha256": "4ab1ad34f171bb75d2f93e261757cca469a655b629508eb3b91ab05ebc83c0ef"
+  },
+  "changed_scope": "Romance / Slow steady may win the race, but turtles have problems too! through the following Bee sexual-development evidence",
+  "mode": "P2S",
+  "edit_dose": "D2",
+  "preservation_units": [
+    {
+      "unit_id": "PU-SLOW-01",
+      "source_ref": "Slow steady opening",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Going slowly reveals moods and treatment over time but cannot tell partners in advance how good the sex will be or how either person will act afterward.",
+      "required_context": "section opening",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "first prose paragraph",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SLOW-02",
+      "source_ref": "first-night incompatibility paragraph",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Long acquaintance cannot rule out first-night sexual incompatibility involving polarity, touch, smell, desire level, kink, shutdown, or bodily fit.",
+      "required_context": "follows limits of slow courtship",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "second prose paragraph",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SLOW-03",
+      "source_ref": "sentence: But the first night isn’t necessarily the final ceiling either.",
+      "authority": "preservation-r10 source + current detector-localization lesson",
+      "type": "function",
+      "meaning": "Poor or limited initial sexual responsiveness may change substantially between particular partners over time.",
+      "required_context": "the immediately following Bee anecdote supplies the evidence and consequence",
+      "allowed_disposition": "duplicate-function-consolidation:Bee development anecdote immediately following in this section",
+      "candidate_mapping": "function survives in Bee’s progression from ‘You’re going to get a lot better at sex’ through the eighteen-month development paragraph; abstract preview sentence removed",
+      "status": "consolidated"
+    },
+    {
+      "unit_id": "PU-SLOW-04",
+      "source_ref": "Bee first-sex and eighteen-month development paragraphs",
+      "authority": "preservation-r10 source",
+      "type": "example",
+      "meaning": "Bee initially expected Joel to improve, but Joel’s interpretation is that her ability to receive him developed dramatically over eighteen months rather than his technique changing.",
+      "required_context": "performs the function formerly previewed by PU-SLOW-03",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "Bee first-sex and eighteen-month paragraphs unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SLOW-05",
+      "source_ref": "post-breakup transfer test + trainable interpretation",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Bee later reported one very bad sexual attempt with another man; Joel therefore distinguishes simple trainability from sexual responsiveness co-created by particular people.",
+      "required_context": "follows Bee development evidence",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "post-breakup and trainable paragraphs unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SLOW-06",
+      "source_ref": "Bee body/mind divergence sequence",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Bee’s bodily sexual opening increased while her conscious trust and desire to stay decreased; Joel preserves that contradiction rather than resolving it.",
+      "required_context": "Bee direct quote + Joel body/mind interpretation + explicit separation decision",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "body opening, direct quote, joke, body-knew interpretation, and separation clause unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SLOW-07",
+      "source_ref": "Colombian lawyer example",
+      "authority": "preservation-r10 source",
+      "type": "example",
+      "meaning": "Real sexual fit can coexist with lack of broader compatibility and uneven romantic attachment.",
+      "required_context": "contrasts sexual compatibility with relationship compatibility",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "Temple University paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SLOW-08",
+      "source_ref": "sexual fit / friendship / universal-vs-romantic love ending",
+      "authority": "preservation-r10 source",
+      "type": "judgment",
+      "meaning": "Some sexual fit may improve through mutual effort, but bad fit can still mean friendship; universal love does not itself create romantic specialness, and Joel generally sees good sex as needed for romance.",
+      "required_context": "section conclusion",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "final five paragraphs unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SLOW-09",
+      "source_ref": "section terminal advice",
+      "authority": "preservation-r10 source",
+      "type": "function",
+      "meaning": "Go slowly, but recognize that pre-sex knowledge remains incomplete and sex itself reveals additional information.",
+      "required_context": "true stopping point",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "final paragraph unchanged",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-SLOW-01",
+      "description": "Delete only the abstract preview sentence ‘But the first night isn’t necessarily the final ceiling either.’ because the immediately following Bee anecdote performs the same unique function with lived evidence. No other wording, claim, chronology, attribution, example, judgment, or stopping point may change."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-SLOW-01",
+      "classification": "duplicate-function-consolidation",
+      "description": "Deletes the abstract first-night-ceiling preview while preserving its full function in the immediately following Bee development evidence.",
+      "authority_ref": "CH-SLOW-01",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Exact local candidate SHA-256 2def6737f8763f6e3a92405166dd27f9d0e30ec043a57a216ffbc05bf6bb72f4, 540 whitespace words. This is the evidence-backed deletion already promoted in project-sources/DETECTOR-LOCALIZATION-AND-ROLLBACK.md; it is not a new claim or detector-only deletion."
+}

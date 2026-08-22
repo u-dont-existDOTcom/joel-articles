@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "status": "candidate_not_owner_final",
+  "source_pass3": {
+    "master": "4f354ee1c0d87075912077b910f0c68de3d624d8a8453175bdf35047b041e07f",
+    "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+    "part2": "c6ef42419a3db2e82b1ff4f9370fc85bca4fa8c061c61dd6a1b5d28171d9908c"
+  },
+  "candidate": {
+    "master": {
+      "path": "candidate-master.md",
+      "sha256": "b1541c6b6aee5cf289bc50d00ae6422b681fc6f64327729cd2f03a00bef3c779",
+      "word_count_whitespace": 20372,
+      "operations": [
+        {
+          "label": "primal-money-competence-concrete",
+          "source_occurrences": 1,
+          "old_sha256": "7a10115049dc79d00d7d7962cbef55a9ef362cdd5e2308115c02dd606f7ef8cb",
+          "new_sha256": "8fb78386c553e01bd6c940404a0ab555df9d5ac3f3061c9488e9d6926f2c0bff"
+        },
+        {
+          "label": "primal-guidance-transition-concrete",
+          "source_occurrences": 1,
+          "old_sha256": "9d9faa6b95494d6676bfab69c9f286de46e9daa158da09503fe1fb378feb2af6",
+          "new_sha256": "8356847232bc03844663c04fd918a28ca9a3bcaeec38a399307e49202bc67088"
+        },
+        {
+          "label": "exclusivity-history-to-personal-transition",
+          "source_occurrences": 1,
+          "old_sha256": "e1a586486e6e7f3feb6fb611eb39f18d938c3c118e2066c590cac2283a2c7bbe",
+          "new_sha256": "b7f5c9365dca62f0d8d71befcea5bef5770036d8efd9d3b04fdae70e771abfbd"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "path": "candidate-part-1.txt",
+      "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count_whitespace": 10236,
+      "operations": [],
+      "reuses_registered_detector_result": true
+    },
+    "part2": {
+      "path": "candidate-part-2.txt",
+      "sha256": "a21b9670bc0cc61b4fc850761ca57ffa5dc5d1a02bdd5df90b820d6f9d437a0e",
+      "word_count_whitespace": 9985,
+      "operations": [
+        {
+          "label": "primal-money-competence-concrete",
+          "source_occurrences": 1,
+          "old_sha256": "7a10115049dc79d00d7d7962cbef55a9ef362cdd5e2308115c02dd606f7ef8cb",
+          "new_sha256": "8fb78386c553e01bd6c940404a0ab555df9d5ac3f3061c9488e9d6926f2c0bff"
+        },
+        {
+          "label": "primal-guidance-transition-concrete",
+          "source_occurrences": 1,
+          "old_sha256": "9d9faa6b95494d6676bfab69c9f286de46e9daa158da09503fe1fb378feb2af6",
+          "new_sha256": "8356847232bc03844663c04fd918a28ca9a3bcaeec38a399307e49202bc67088"
+        },
+        {
+          "label": "exclusivity-history-to-personal-transition",
+          "source_occurrences": 1,
+          "old_sha256": "e1a586486e6e7f3feb6fb611eb39f18d938c3c118e2066c590cac2283a2c7bbe",
+          "new_sha256": "b7f5c9365dca62f0d8d71befcea5bef5770036d8efd9d3b04fdae70e771abfbd"
+        }
+      ]
+    }
+  },
+  "detector_plan": {
+    "part1": "no_new_call_exact_registered_hash_unchanged",
+    "part2": "one_new_pangram4_measurement_via_private_selfhost"
+  },
+  "editorial_note": "Pass 4 targets the three historically AI-labeled Part-2 regions that pass 3 never edited: money/competence polarity, the female-influence to direct-male-leadership transition, and the historical-exclusivity to personal-experiment transition. The edits remove generic explanation, make the polarity claims more lived/first-person, and preserve the owner's substantive masculine/feminine argument."
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-preservation-r19-owner-final-talk-tail",
+  "preproof": {
+    "path": "work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-r19-owner-final-talk-tail.json",
+    "git_blob_sha": "d3319bdfd96c5c05fc778f8322d5af120b7daecd",
+    "preservation_unit_count": 13,
+    "change_whitelist_count": 2,
+    "candidate_delta_count": 2
+  },
+  "owner_source": {
+    "path": "work/romance-detector-repair-20260820/recovery-20260822/OWNER-TALK-FINAL-TAIL-20260822.md",
+    "commit": "27440f8f6641c31a4333b6646aa66d806514844a",
+    "git_blob_sha": "322384fb822a11efe4c13f2690b2e72454bc09ec",
+    "verbatim_markdown_sha256": "fe24cbb37ae2e460e616e737a2d78a751ae11b29d950c96d5c6527eaf169b1b8",
+    "reader_visible_sha256": "e8399f2098bc830ffe98e1caadf53480931f0d85c20d42e90e967e73987d8023",
+    "word_count_whitespace": 219
+  },
+  "materialized_master": {
+    "manifest_path": "work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-manifest.json",
+    "manifest_git_blob_sha": "83a76402dfe201ed9d51f1065f56f00a2580bb7d",
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-master.md",
+    "sha256": "b31af3c2f692d44b63e43dbfed99436584228f2ac7b8177045f5a3b751ea1ea8",
+    "word_count_whitespace": 20374,
+    "native_object_count_before": 11,
+    "native_object_count_after": 11,
+    "markdown_link_count_before": 22,
+    "markdown_link_count_after": 22
+  },
+  "detector_boundary": {
+    "freeze_manifest_repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "freeze_manifest_ref": "automation/pangram-fixed-batch",
+    "freeze_manifest_path": "state/experiments/romance-detector-repair-20260820-preservation-r19-owner-final-talk-freeze.json",
+    "freeze_manifest_git_blob_sha": "22146510555190b7975fdbe74d14772dd2abab81",
+    "part1_path": "state/candidates/romance-detector-repair-20260820-preservation-r19-owner-final-talk-part1.txt",
+    "part1_sha256": "ca42804f9774e66423caba07be4db4123a80ecb0b61e7a75d1ae2db271a8b9f5",
+    "part1_word_count_whitespace": 10331,
+    "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "part2_exact_prior_human": 1.0,
+    "part2_repeat_authorized": false
+  },
+  "unit_resolutions": {
+    "PU-R19-01": "preserved",
+    "PU-R19-02": "preserved",
+    "PU-R19-03": "preserved",
+    "PU-R19-04": "preserved",
+    "PU-R19-05": "consolidated into owner-final psychological-trust bridge",
+    "PU-R19-06": "preserved exact owner wording",
+    "PU-R19-07": "preserved exact owner wording",
+    "PU-R19-08": "preserved exact owner wording",
+    "PU-R19-09": "preserved exact owner wording and remembered-reading provenance",
+    "PU-R19-10": "preserved exact owner wording and E. identifier",
+    "PU-R19-11": "preserved exact owner wording",
+    "PU-R19-12": "owner-superseded by narrower talking-ruins-things red-flag formulation",
+    "PU-R19-13": "preserved"
+  },
+  "authorized_operations_verified": [
+    "Deleted exactly the standalone sentence `That conversation is already part of making love.`; its function survives in Joel's exact new psychological-trust bridge.",
+    "Replaced exactly the r18 Talk tail beginning `It's important to talk about sexual compatibility before getting undressed, even if that kills the vibe.` through the old early-sex/relationship-chances close with Joel's verbatim new owner tail."
+  ],
+  "protected_unchanged_material_verified": [
+    "father/readiness provenance",
+    "What do you actually want? body/kink/history paragraph",
+    "I don't know but willing to find out honestly paragraph",
+    "meanings-of-sex paragraph",
+    "registered-main Affection section and links",
+    "registered-main Casual rollback",
+    "all native objects",
+    "all Markdown links",
+    "stable Part-2 bytes"
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "heading_fit": "pass",
+  "curious_reader_chain": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Direct owner correction is the controlling authority. The exact Markdown readback shows the section now moves from father/readiness → desires/body/history → honest unknowns → meanings of sex → owner-final compatibility/trust/red-flag/ongoing-communication tail → Affection. No assistant prose was added inside the new owner tail. Reader-visible detector text differs from Markdown only by rendering *or* as visible `or` and the Markdown hard line break as a visible newline."
+}

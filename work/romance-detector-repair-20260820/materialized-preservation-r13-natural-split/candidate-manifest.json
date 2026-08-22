@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "preservation_r13_boundary_only_candidate_not_owner_final_article",
+  "source": {
+    "master": "43d98cdb0df5fc9437f89ba56187e3a5586951375ccbf69e6e6a82e82569925f",
+    "part1": "f272bf6fab784a4e1922374a36573f216f29c6c691deba0fe0394a2aaad3fd83",
+    "part2": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "43d98cdb0df5fc9437f89ba56187e3a5586951375ccbf69e6e6a82e82569925f",
+      "word_count_whitespace": 20349,
+      "unchanged": true
+    },
+    "part1": {
+      "sha256": "6e1768106aaf3edb4ebe074c6a290649aab846fdb2845ad79b4c1e5d70fe2790",
+      "word_count_whitespace": 10804
+    },
+    "part2": {
+      "sha256": "d8545870944e11353011a256c6df1b2034b0183f67a6d0841386fef919fe49c9",
+      "word_count_whitespace": 9394
+    },
+    "full_reader_visible": {
+      "sha256": "75e7c5dfc685934c582f5ebcfc4b46a5efeb702fc129151e365f11c3f9331ed2",
+      "word_count_whitespace": 20198
+    }
+  },
+  "operation": {
+    "type": "aggregate_boundary_relocation_only",
+    "old_boundary": "mid-Maturity Levels between patient-role paragraph and Key/guru continuation",
+    "new_boundary": "natural section boundary immediately before Primal attraction",
+    "article_prose_changed": false,
+    "full_reader_visible_bytes_changed": false
+  },
+  "invariant_audit": {
+    "master_byte_identical": true,
+    "full_reader_visible_byte_identical": true,
+    "new_part1_ends_after_complete_maturity_section": true,
+    "new_part2_starts_at_primal_heading": true,
+    "old_mid_maturity_boundary_removed": true,
+    "part1_contains_key_guru_continuation": true,
+    "part1_contains_self_condescension_continuation": true,
+    "part1_contains_helping_needed_continuation": true,
+    "part1_contains_complementarity_close": true,
+    "full_word_count_unchanged": true,
+    "passed": true
+  },
+  "detector_rationale": "The r12 aggregate leaves a 53-word AI window at the arbitrary end of Part 1, while the immediately following doctor/patient continuation contains existing exact Human evidence. Canonical detector protocol treats arbitrary half splits as localization clues rather than semantic units. Re-splitting at the complete Maturity Levels/Primal Attraction boundary tests the same article with coherent discourse context.",
+  "detector_plan": "Certify both new exact halves because both aggregate boundaries changed. This is aggregate certification, not a local section repair call."
+}

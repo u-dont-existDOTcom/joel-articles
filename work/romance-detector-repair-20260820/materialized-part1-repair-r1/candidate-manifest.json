@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "status": "part1_repair_candidate_not_owner_final_article",
+  "source": {
+    "master": "7ff7a4c20ed879b6b9ff4c5d41cac406db5c5b3a726dc99f5bb4591b11368b48",
+    "part1": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+    "part2": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "1f2f25ce4f3f1c696ef5a66fadbf382caeef968e49812a24627102346bc82a59",
+      "word_count_whitespace": 19912,
+      "operations": [
+        {
+          "label": "talk-r27-concise-spine",
+          "old_sha256": "7b1d417aad045db81180f4d46051a76bff2dd49ac64d6e2b87940f0732fe3ecb",
+          "new_sha256": "365d42980382f817b66fd4f7244a1191459fcb83e958c774eaf28de71e4b370d",
+          "old_word_count": 407,
+          "new_word_count": 270
+        },
+        {
+          "label": "affection-r3-deframeworked",
+          "old_sha256": "f618a179cf1d33bfe88389e3155b7d5039f4bbcc9e76a762cb0ca68940910371",
+          "new_sha256": "a820e85039170219316b96e084fc58facbc038d955c3235e95d8fbd07ebc468a",
+          "old_word_count": 260,
+          "new_word_count": 269
+        },
+        {
+          "label": "casual-example-performs-conclusion",
+          "old_sha256": "8c91c8d1648dd87e836bf75c7ce9650ca29f7190650200ed19bda15ddd5b9dd3",
+          "new_sha256": "4c0e78722bf5bc89dbf4b89bcf6cba4ef5a3c55c47355bf05633aa66ee800017"
+        },
+        {
+          "label": "casual-delete-duplicate-community-tail",
+          "old_sha256": "43e85a67bddbe803f82a095b85f41028873149cee47dc1172f209b998cae5b2f",
+          "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "label": "crucible-safety-direct-boundary",
+          "old_sha256": "a26c5637e1c0124194b8de6c7ea73137b9fbff3b778012f5105234c9edf8f2db",
+          "new_sha256": "90ca208b5fa7de3845108dc90b7f78ba71553bff57247cc6422f7ec208923e80"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "required_missing": [],
+        "deleted_duplicate_casual_tail_absent": true,
+        "passed": true
+      }
+    },
+    "part1": {
+      "sha256": "ae48e720cd84eb88da3430a44e240d18bd7731d7ce0a40469e455027c43a7062",
+      "word_count_whitespace": 10058,
+      "operations": [
+        {
+          "label": "talk-r27-concise-spine",
+          "old_sha256": "7be32fbf1a870a114b72af580f679a8d9c31768a6a7a6ca25d07883c8878ea26",
+          "new_sha256": "2d97500b36b4543ceec4537c7d1c7d2af29148c0549794e9b5b0e5593e06151e",
+          "old_word_count": 406,
+          "new_word_count": 269
+        },
+        {
+          "label": "affection-r3-deframeworked",
+          "old_sha256": "1e2d12bae4685093585663f899c96e49a51ed4dfe3889c31a16a80a95133c11c",
+          "new_sha256": "9d4e1cada2dd4bca541511b35f9d74ada095530e6bfc33567b8b50914c4ff0a5",
+          "old_word_count": 259,
+          "new_word_count": 268
+        },
+        {
+          "label": "casual-example-performs-conclusion",
+          "old_sha256": "8c91c8d1648dd87e836bf75c7ce9650ca29f7190650200ed19bda15ddd5b9dd3",
+          "new_sha256": "4c0e78722bf5bc89dbf4b89bcf6cba4ef5a3c55c47355bf05633aa66ee800017"
+        },
+        {
+          "label": "casual-delete-duplicate-community-tail",
+          "old_sha256": "43e85a67bddbe803f82a095b85f41028873149cee47dc1172f209b998cae5b2f",
+          "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "label": "crucible-safety-direct-boundary",
+          "old_sha256": "a26c5637e1c0124194b8de6c7ea73137b9fbff3b778012f5105234c9edf8f2db",
+          "new_sha256": "90ca208b5fa7de3845108dc90b7f78ba71553bff57247cc6422f7ec208923e80"
+        }
+      ]
+    },
+    "part2": {
+      "sha256": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2",
+      "word_count_whitespace": 9703,
+      "operations": [],
+      "unchanged": true
+    }
+  },
+  "local_evidence": {
+    "talk": "standalone 0% Human on three materially different realizations; concise selected spine comes from exact historical 879-word Talk+Slow control that was 100% Human; aggregate Part1 is the next decision-changing boundary",
+    "affection": "r3 de-frameworked local realization Human 0.19545766711235046; selected on editorial architecture grounds pending aggregate interaction",
+    "casual": "full natural section r3 100% Human",
+    "crucible": "full natural section r3 100% Human with protected safety function intact"
+  },
+  "detector_plan": {
+    "part1": "aggregate certification boundary; measure exact changed Part1 next"
+  }
+}
