@@ -78,7 +78,7 @@
         },
         "current_state": {
           "path": "articles/somatic-therapies/CURRENT-STATE.md",
-          "sha256": "0c07cb1f80c898c0158ca9e1153fe2f23934ad6ba28f1a854cad4b4b62688126"
+          "sha256": "35b79a03ed3a72c8774acf1c2ea831645eb14321dc66fbcbc6c7c5f598d71c60"
         }
       },
       "review": {
@@ -89,7 +89,7 @@
         },
         "detector": {
           "path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json",
-          "sha256": "bd328d4324b9433f8298109774237f03e030b244846734451e9516ff890c91de",
+          "sha256": "82aa2a4a73737f14c7386d19bfaa885997d1eed3d1a5395ce21eb8dbaa3bd139",
           "status": "recorded"
         },
         "editorial": {
@@ -107,7 +107,7 @@
         },
         {
           "path": "articles/somatic-therapies/HUMANIZATION-REPORT.md",
-          "sha256": "d0aba885d6ecadcf2a0b24bb47be0bc83da5cded4a2d3664a10109d639a12df1",
+          "sha256": "485cb2043b5abe9c922b98985767550bbc851dd339465d301740948f7fa213bf",
           "role": "humanization_report"
         }
       ]
