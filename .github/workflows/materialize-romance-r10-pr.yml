@@ -1,6 +1,6 @@
 name: Materialize Romance r10 PR helper
 
-# synchronize trigger after current semantic-r9 Crucible function gate correction
+# synchronize trigger after Part 1 + Part 2 aggregate materialization was enabled on the base branch
 on:
   pull_request:
     branches:
