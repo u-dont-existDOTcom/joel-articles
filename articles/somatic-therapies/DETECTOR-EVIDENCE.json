@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "article_id": "somatic-therapies",
+  "status": "not_run",
+  "runs": [],
+  "current_boundary": {
+    "source": "articles/somatic-therapies/master.html reader-visible extraction",
+    "reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
+    "reader_visible_file_sha256": "613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e",
+    "word_count": 3412,
+    "master_sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202",
+    "revision": "r01-candidate"
+  },
+  "paid_call_state": {
+    "status": "none_for_registered_boundary",
+    "note": "No Pangram call has yet been made for this exact registered boundary. Check Pangram durable cache/ledger before any paid request."
+  },
+  "limitations": "Detector status is separate from fidelity, editorial quality, and authorship-signal retention."
+}
