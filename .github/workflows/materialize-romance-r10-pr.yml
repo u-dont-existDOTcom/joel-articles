@@ -1,6 +1,6 @@
 name: Materialize Romance r10 PR helper
 
-# synchronize trigger after both Part 1 and Part 2 semantic-r9 invariant corrections
+# synchronize trigger after the base workflow was changed to execute on the canonical Romance task branch
 on:
   pull_request:
     branches:
