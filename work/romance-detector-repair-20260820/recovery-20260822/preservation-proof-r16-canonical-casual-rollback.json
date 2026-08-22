@@ -131,11 +131,19 @@
       "status": "authorized"
     }
   ],
+  "candidate_identity": {
+    "source_part1_sha256": "ba2bb4d66c541732e03a181f31eb5419c8301c870330bd4bcd946626c8161fcf",
+    "candidate_part1_sha256": "055cf2f8bde035da3f97db5c7753391446b77c7159655c1431210a0233815dc0",
+    "candidate_part1_word_count": 10324,
+    "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "part2_exact_prior_human": 1.0,
+    "freeze_receipt": "pangram-humanization-lab:automation/pangram-fixed-batch/state/experiments/romance-detector-repair-20260820-preservation-r16-canonical-casual-freeze.json"
+  },
   "unexplained_deltas": [],
   "forward_traceability": "pass",
   "reverse_traceability": "pass",
   "owner_provenance_separation": "pass",
   "architecture_dependency_gate": "pass",
-  "detector_eligibility": "blocked-pending-exact-materialization",
-  "notes": "Pre-detector preservation proof. The semantic-r9 traceability ledger classifies Casual as preserved_rephrased, not owner-superseded; canonical-to-r9.diff shows these are the only two registered-main→r9 Casual wording deltas. This rollback is therefore higher-authority recovery, not fresh model paraphrase. Update exact candidate identity and detector_eligibility only after hash-gated materialization proves no other bytes changed."
+  "detector_eligibility": "eligible",
+  "notes": "Exact hash-gated materialization confirmed only the two whitelisted Casual rollbacks changed: paper-promise span 72→68 words and four-girlfriends span 73→61 words. Part 2 remains the exact previously 100%-Human boundary. Aggregate Part 1 testing is eligible; no local section call is authorized or used."
 }
