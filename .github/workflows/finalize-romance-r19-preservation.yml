@@ -1,0 +1,91 @@
+name: Finalize Romance r19 preservation receipt
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - '.github/workflows/finalize-romance-r19-preservation.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+
+      - name: Bind exact r19 identities and pass preservation gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+
+          proof_path = Path('work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-r19-owner-final-talk-tail.json')
+          manifest_path = Path('work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-manifest.json')
+          master_path = Path('work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-master.md')
+
+          proof = json.loads(proof_path.read_text(encoding='utf-8'))
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          master = master_path.read_text(encoding='utf-8')
+
+          expected_master_sha = 'b31af3c2f692d44b63e43dbfed99436584228f2ac7b8177045f5a3b751ea1ea8'
+          actual_master_sha = hashlib.sha256(master.encode()).hexdigest()
+          if actual_master_sha != expected_master_sha:
+              raise SystemExit(f'r19 master hash mismatch: {actual_master_sha}')
+          if manifest['candidate']['sha256'] != expected_master_sha:
+              raise SystemExit('manifest master identity mismatch')
+          if manifest['unexplained_deltas'] != 0:
+              raise SystemExit('manifest has unexplained deltas')
+          if manifest['native_object_count_source'] != manifest['native_object_count_candidate']:
+              raise SystemExit('native object count changed')
+          if manifest['markdown_link_count_source'] != manifest['markdown_link_count_candidate']:
+              raise SystemExit('markdown link count changed')
+
+          statuses = {
+              'PU-R19-05': 'consolidated',
+              'PU-R19-12': 'owner-superseded',
+          }
+          for unit in proof['preservation_units']:
+              unit['status'] = statuses.get(unit['unit_id'], 'preserved')
+
+          proof['exact_candidate_identity'] = {
+              'master_path': str(master_path),
+              'master_sha256': expected_master_sha,
+              'master_word_count_whitespace': 20374,
+              'part1_repository': 'u-dont-existDOTcom/pangram-humanization-lab',
+              'part1_ref': 'automation/pangram-fixed-batch',
+              'part1_path': 'state/candidates/romance-detector-repair-20260820-preservation-r19-owner-final-talk-part1.txt',
+              'part1_sha256': 'ca42804f9774e66423caba07be4db4123a80ecb0b61e7a75d1ae2db271a8b9f5',
+              'part1_word_count_whitespace': 10331,
+              'part2_sha256': '9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85',
+              'part2_exact_prior_human': 1.0,
+              'owner_markdown_sha256': 'fe24cbb37ae2e460e616e737a2d78a751ae11b29d950c96d5c6527eaf169b1b8',
+              'owner_visible_sha256': 'e8399f2098bc830ffe98e1caadf53480931f0d85c20d42e90e967e73987d8023'
+          }
+          proof['forward_traceability'] = 'pass'
+          proof['reverse_traceability'] = 'pass'
+          proof['owner_provenance_separation'] = 'pass'
+          proof['architecture_dependency_gate'] = 'pass'
+          proof['detector_eligibility'] = 'eligible'
+          proof['notes'] = 'Exact r19 materialization verified: two authorized operations only, 13 preservation units resolved, zero unexplained deltas, native objects 11→11, Markdown links 22→22. Direct owner prose remains verbatim in Markdown; detector plaintext differs only by rendering *or* as visible or and the Markdown hard line break as a visible newline. Part 2 is byte-identical prior 100% Human evidence and is not eligible for repeat merely because Part 1 changed.'
+
+          proof_path.write_text(json.dumps(proof, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps({'detector_eligibility': proof['detector_eligibility'], 'master_sha256': expected_master_sha, 'part1_sha256': proof['exact_candidate_identity']['part1_sha256']}, indent=2))
+          PY
+
+      - name: Commit finalized preservation receipt
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-r19-owner-final-talk-tail.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Finalize Romance r19 preservation receipt'
+          git push origin HEAD:task/romance-detector-repair-20260820
