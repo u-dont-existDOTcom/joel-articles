@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "article_id": "somatic-therapies",
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "five-job-map-provisional",
+      "description": "Preserve the five-job map and the explicit statement that it is an author-developed/provisional synthesis rather than a scientifically validated universal protocol."
+    },
+    {
+      "id": "capacity-not-waiting-room",
+      "description": "Preserve the warning that capacity-building should not become indefinite avoidance of actual trauma treatment."
+    },
+    {
+      "id": "inner-child-overlap",
+      "description": "Preserve the Nurturer/Protector, borrowed-adulthood, gentle self-hypnosis, and heart-to-solar-plexus love-loop material and its placement as overlap with somatic work."
+    },
+    {
+      "id": "personal-oddness",
+      "description": "Preserve supplied personal/material voice anchors including Professor Baby Sheep, Joel's head-shaving/massage experience with loveyhuasca, and Louka's report about the linked Shaking Qigong class unless Joel changes them."
+    },
+    {
+      "id": "safety-warnings",
+      "description": "Preserve the substantive safety boundaries: stop/return capacity, neck support during tremoring, non-coercive yoga, post-session integration, caution stacking intense modalities, and Sky Hypnosis/Vagal Blitz physical and mental-health cautions."
+    },
+    {
+      "id": "evidence-plane-distinction",
+      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms."
+    },
+    {
+      "id": "native-object-placement",
+      "description": "Preserve the eight native/editor objects, their exact identity/metadata, and source positions unless publication-source evidence or Joel authorizes a change."
+    }
+  ],
+  "owner_review": {
+    "status": "confirmed",
+    "evidence": "Joel explicitly instructed on 2026-08-22 to register the r01 humanized Somatic Therapies article in the public joel-articles repository and continue detector work. Registration confirms working-master identity, not owner-final prose approval."
+  }
+}

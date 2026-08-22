@@ -9,7 +9,7 @@
 5. Exact citation/editorial/detector records and Git history
 6. Relevant current patterns from `u-dont-existDOTcom/universal-dev-architecture`
 
-This repository is active and currently registers Romance as a working canonical article. Do not substitute historical Romance branches, chat reconstruction, detached packets, or filenames for its registered article family.
+This repository is active and currently registers Romance and Somatic Therapies as working canonical articles. Do not substitute historical branches, chat reconstruction, detached packets, or filenames for a registered article family.
 
 ## Recovery before editing
 
@@ -55,4 +55,4 @@ Treat chat as disposable working memory. A fresh worker must recover the correct
 
 ## Stop conditions
 
-Stop and obtain an owner decision before choosing a copyright/license posture, selecting between competing canonical masters, making substantive prose changes without a registered authority package, publishing/exporting, or releasing source material that may contain private personal or health facts. Routine schema, index, state, template, validation, and governance maintenance may proceed when it preserves these boundaries.
+Stop and obtain an owner decision before choosing a copyright/license posture, selecting between competing canonical masters, making substantive prose changes without a registered authority package, publishing/exporting, or releasing source material that contains credentials, private third-party data, or material explicitly marked private/confidential. Joel's own working material is public-GitHub-eligible by default under `SKILL.md`; that default does not authorize external publication or override independent privacy obligations.
