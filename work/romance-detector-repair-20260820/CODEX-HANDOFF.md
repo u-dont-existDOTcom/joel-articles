@@ -1,139 +1,194 @@
 # Codex handoff — Romance detector repair
 
-Updated: 2026-08-21 after recovery reconciliation, fidelity rejection of Talk call 5, and preregistration of faithful Talk call 6.
+Updated: 2026-08-22 after preservation-r10 aggregate certification, exhausted Talk/Primal local loops, and Slow Steady r11 dispatch.
 
 ## Owner instruction
 
-Continue autonomously through routine next steps. **Human/editorial quality and owner fidelity outrank Pangram. Never silently delete, weaken, or symmetry-normalize Joel's arguments to improve a detector score.** Do not merge canonical `main` until the candidate is deliberately accepted/reconciled. Do not ask Joel to approve routine continuation.
+Continue autonomously through routine next steps. **Human/editorial quality, preservation proof, and owner fidelity outrank Pangram. Never silently delete, weaken, reattribute, or symmetry-normalize Joel's arguments to improve a detector score.**
 
-## Canonical authority
-
-Canonical `main:articles/romance/master.md` remains unchanged and registered at SHA-256:
+Canonical `main:articles/romance/master.md` remains unchanged at SHA-256:
 
 `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`
 
-PR #29 remains a draft task/experiment branch. **Do not merge it wholesale.**
+PR #29 / `task/romance-detector-repair-20260820` is a draft experiment branch. **Do not merge it wholesale.** Only deliberate owner-approved reconciliation may alter the registered article family.
 
-Direct owner / owner-final authority that must survive candidate work includes, at minimum:
+## Current semantic authority for task work
 
-- `OWNER-MUSES-REWRITE-LESSON-20260821.md`;
-- `OWNER-EXCLUSIVITY-REWRITE-20260821.md`;
-- `OWNER-PINKEST-REWRITE-20260821.md`;
-- exact childhood father memory plus the separately attributed later readiness/co-parenting interpretation;
-- the Talk-section consequence that discussing readiness/co-parenting before sex slows premature sex and inability to discuss it is a red flag;
-- Bear callback;
-- Gandarussa;
-- coercion exits the mutual Crucible frame;
-- children obligations/community functions;
-- owner locks in `articles/romance/OWNER-LOCKS.json`.
-
-## Current semantic baseline — r9
-
-Exact current semantic-r9 candidate:
+The semantic-r9 lineage remains the preservation baseline from which the current r10 candidate was built:
 
 `work/romance-detector-repair-20260820/materialized-semantic-r9/`
 
-- master SHA-256 `6c094f6a011783fce65455143c27b03d14d33b64d7d4f4b3cf530b0e73045a53` — **20,502 words**;
-- Part 1 SHA-256 `35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9` — **10,459 words**;
-- Part 2 SHA-256 `9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85` — **9,892 words**.
+- master SHA `6c094f6a011783fce65455143c27b03d14d33b64d7d4f4b3cf530b0e73045a53` — 20,502 words;
+- Part 1 SHA `35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9` — 10,459 words;
+- Part 2 SHA `9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85` — 9,892 words;
+- 44/44 headings aligned;
+- 10 discovered unsuperseded registered argumentative losses restored;
+- remaining known unsuperseded loss units at r9 checkpoint: 0.
 
-The r9 semantic traceability gate remains PASS: exact 44/44 heading alignment, 16 changed sections, 10 identified unsuperseded registered argumentative loss units restored, zero remaining unsuperseded loss units at that checkpoint. r9 is **not** owner-final/canonical and is not approved for merge.
+r9 is not canonical or owner-final.
 
-## Recovery authority correction
+## Preservation-r10 current aggregate candidate
 
-Read first:
+Current materialized candidate:
 
-`recovery-20260821/RECOVERY-AUTHORITY-CORRECTION.md`
+`work/romance-detector-repair-20260820/materialized-preservation-r10-part1/`
 
-Critical provenance correction:
+Manifest:
 
-Joel's remembered childhood sentence from his father is exactly:
+`work/romance-detector-repair-20260820/materialized-preservation-r10-part1/candidate-manifest.json`
+
+Exact candidate identities:
+
+- master SHA-256 `2546d719ccd87d8f34fe947ba6f6158baeb7e15f4a85bfbfc8d35cc45b93afd0` — 20,359 whitespace words;
+- Part 1 SHA-256 `4ab1ad34f171bb75d2f93e261757cca469a655b629508eb3b91ab05ebc83c0ef` — 10,316 words;
+- Part 2 SHA-256 `9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85` — 9,892 words, unchanged from semantic r9.
+
+Authorized r10 operations only:
+
+1. correct the false local father/readiness attribution while preserving Joel's later readiness/co-parenting interpretation separately;
+2. replace Affection with its preservation-proved aggregate composition while preserving source-format links and objects.
+
+r10 invariant audit passes: headings, native markers, Markdown link destinations, required/protected anchors, father provenance, Casual byte identity, edit confinement, and zero unexplained deltas.
+
+Critical father provenance remains:
 
 > “Sex is what you do when you are older and you find a friend you want to have children with.”
 
-The later question about whether two people **would like to raise children together and whether they are ready** is Joel's retrospective interpretation / practical development. It is **not** the father's wording. Any detector-successful candidate that collapses those provenance objects fails fidelity.
+That exact remembered sentence is the father's wording. The later `would we like to raise children together? Are we ready?` question is Joel's retrospective interpretation/practical development and must remain separately attributed.
 
-## Exact semantic-r9 detector baseline
+## Exact preservation-r10 Pangram 4.0 aggregate result
 
-Durable Pangram 4.0 evidence on `u-dont-existDOTcom/pangram-humanization-lab:automation/pangram-fixed-batch`:
+Durable evidence:
 
-- Part 1 aggregate: Human `0.9374978542327881`, AI `0.06250213831663132`, assisted `0.0`;
-- Part 2 aggregate: Human `0.9914167523384094`, AI `0.00858323834836483`, assisted `0.0`;
-- earlier semantic-r9 Talk local r1 SHA `c561419484b34780a345a172d3ab5e1ec2064e1eb7a40f355f87507084fa187d`: Human `0.3214530646800995`, AI `0.6785469651222229`;
-- patient/maturity hold SHA `7d60bc1c38669848e7e27d313603e4ee8970e34bf3896673160ea6a61c106002`: exact 100% Human.
+`u-dont-existDOTcom/pangram-humanization-lab:automation/pangram-fixed-batch/state/experiments/romance-detector-repair-20260820-preservation-r10-aggregates-20260822-results.json`
 
-## Local budgets / holds
+Results:
 
-- `part1-affection-simmer`: **6/6 hard cap** — no seventh local call; use the frozen owner-source Affection text only in the next aggregate composition;
-- `part1-casual-sex-situationship`: **5/6** — preserve semantic-r9 Casual byte-for-byte unless a new aggregate proves the final local call is decision-changing;
-- `part1-talk-before-sex`: **4/6 before the dispatched call-5 diagnostic; count call 5 conservatively as used while pending/ambiguous**;
-- `primal-not-a-performance`: **3/6 before the dispatched call-4 candidate**;
-- patient/maturity local span: preserve byte-for-byte unless later wider evidence actually contradicts its exact 100% local result.
+- **Part 1:** Human `0.9456760883331299`, AI `0.05432389676570892`, assisted `0.0`; six AI windows.
+- **Part 2:** Human `1.0`, AI `0.0`, assisted `0.0`; exact aggregate pass.
 
-Read:
+Part 2 is currently complete detector-wise and must remain byte-preserved unless a real semantic/dependency reason requires change. Do not rerun or rewrite Part 2 merely because Part 1 remains open.
 
-- `recovery-20260821/CASUAL-COMPOSITION-NOTE.md`;
-- `recovery-20260821/MATURITY-PATIENT-HOLD.md`.
+## Current Part-1 residual map
 
-Aggregate halves are not local sections and are not subject to the six-call local-section cap; exact-cache, recovery, version, accounting, and decision-value gates still apply.
+The six r10 aggregate AI windows are localization evidence, not automatic causal attribution:
 
-## Frozen recovery candidates
+1. **Talk tail** — 112 words beginning `When the discordance comes...`, through naked honesty / `Bodies fitting is not enough...`.
+2. **Affection → Casual transition** — 209 words beginning `If every affectionate touch becomes a bid for sex...`, spanning the Affection ending into the Casual opening.
+3. **Casual STI/feelings** — 37 words beginning `The STI part is easy...`.
+4. **Casual free-love ending** — 41 words beginning `If you want something closer to “casual love-making”...`.
+5. **Slow Steady opening** — 94 words covering the first two prose paragraphs plus `But the first night isn’t necessarily the final ceiling either.`
+6. **Doctor/patient boundary** — 53 words beginning `Which is true, I really was the one they asked about almost every medical, mental-health, and practical problem...`.
 
-Registry:
+Use `project-sources/DETECTOR-LOCALIZATION-AND-ROLLBACK.md`: red windows locate evidence; they do not prove which sentence caused it. Prefer higher-authority rollback, true functional consolidation, and lived-example stopping points over vocabulary hill-climbing.
 
-`recovery-20260821/candidate-hashes.json`
+## Local call budgets — binding
 
-### Talk call 5 — diagnostic only, fidelity rejected
+Current durable audit accounting under `romance-detector-repair-20260820`:
 
-- file: `recovery-20260821/talk-call5-reader-visible.txt`;
-- SHA-256 `74c72f5006fae519c80b63b42a03db16ef5248b1ea75bfb24a4be00eac62da08`;
-- rejection note: `recovery-20260821/TALK-CALL5-FIDELITY-REJECTION.md`.
+- `part1-talk-before-sex`: **6/6 hard cap** — no seventh local call;
+- `part1-affection-simmer`: **6/6 hard cap** — no seventh local call;
+- `primal-not-a-performance`: **6/6 hard cap** — no seventh local call;
+- `part1-casual-sex-situationship`: **5/6** — one final local call remains; conserve it unless genuinely decision-changing and preservation-proved;
+- `part1-maturity-levels-cross-split`: 3/6; existing patient/maturity exact-Human diagnostic hold remains relevant;
+- `part1-slow-steady`: 1/6 before the r11 request below; count r11 conservatively as the second call while execution is unresolved;
+- aggregate `part1` and `part2` measurements are not natural-section-cap limited, but exact cache/recovery/accounting rules still apply.
 
-A fresh four-plane audit found that this recovered candidate correctly removed the false father attribution but also deleted two owner-required functions: Joel's own readiness/co-parenting question and its premature-sex/red-flag consequence. **It cannot be promoted even if Pangram returns 100% Human.** Its detector result may be kept only as diagnostic evidence.
+No new section identity may be invented to evade a hard cap.
 
-### Talk call 6 — faithful final local candidate, preregistered but NOT dispatched
+## Talk status
 
-- file: `recovery-20260821/talk-call6-faithful-reader-visible.txt`;
-- SHA-256 `f2ca3824f83c7085a912336f48ff9c985af12cefe5a8d5f477df18b1785264ed`;
-- public spec: `u-dont-existDOTcom/pangram-humanization-lab:automation/pangram-fixed-batch/experiments/romance-detector-repair-20260820-talk-call6-faithful-20260821.json`;
-- spec SHA-256 `56b0091ad6ad0e49d7017ccc712ee87609a29b15cfbab351420b23204df5d3a7`.
+The final permitted Talk local call was call 6. It did not reach exact Human certification. **Local Talk work is closed under the six-call cap.** Do not run a seventh call or silently rewrite the section to chase Pangram.
 
-This candidate restores all known Talk functions while separating the father's literal memory from Joel's later interpretation. **Do not dispatch while call 5 is pending/ambiguous.** Once call 5 is durably resolved, call 6 is the final permitted local Talk measurement under the unchanged six-call cap.
+The current r10 aggregate wording preserves the required functions, including:
 
-### Other frozen candidates
+- making-love vs physical-sex distinction;
+- father memory vs Joel later interpretation provenance;
+- readiness/co-parenting question;
+- life/child/sex-meaning questions;
+- body/kink/history disclosure;
+- honest unknown answers;
+- changing libido / mismatch;
+- naked honesty / willingness to be seen;
+- premature-sex slowing;
+- inability-to-discuss red flag.
 
-- Affection aggregate-only composition: `recovery-20260821/affection-owner-source-composition-reader-visible.txt`, SHA-256 `0c55dcdf1b69b3a6639d58542d1802e129474801bbccd64ee23e8075c6e172b3`;
-- Not A Performance call 4: `recovery-20260821/not-a-performance-call4-reader-visible.txt`, SHA-256 `8e233b5008ede0ce4b9198683ff08a3aa578f42696cd06cc300061bf17249c8a`.
+Remaining Talk aggregate redness must be handled by wider composition/context or eventual narrow owner resolution, not a seventh local paid iteration.
 
-## In-flight exact Pangram request — do not duplicate
+## Primal / Not A Performance status
 
-Public fixed-batch spec:
+Final local call 6 exact candidate SHA-256:
 
-`u-dont-existDOTcom/pangram-humanization-lab:automation/pangram-fixed-batch/experiments/romance-detector-repair-20260820-recovery-local-call5-call4-20260821.json`
+`fd83bf90ac1f6a0c122753cd9a9a7df34fd1717456d63be868b7c04debbc5dab`
 
-Spec SHA-256:
+Durable Pangram 4.0 result:
 
-`35b7bfe531ffaa498682eee1314d1d2f69d3b008c1308f77f8a58ed968fc4427`
+- Human `0.8848329186439514`;
+- AI `0.11516709625720978`;
+- assisted `0.0`;
+- one 41-word High-confidence AI segment around `A man receiving care doesn’t make him a child either...` plus the driving example.
+
+Primal is now **6/6 hard capped**. Do not run a seventh local call. Preserve Joel's masculine/feminine polarity argument, female-side strength/receiving material, invitational framing, Bee `wife` joke, ordinary role examples, and source attributions. Historical detector-green prose that lost those functions remains diagnostic only.
+
+## Affection and Casual
+
+Affection is 6/6 hard capped. Its r10 aggregate composition is preservation-proved and source-format links must remain intact. Do not run a seventh Affection call.
+
+Casual remains byte-identical to semantic r9 and has one local call remaining. Two small aggregate windows plus the Affection→Casual transition are still red. Do not spend the final Casual call on token hunting. First inspect natural-section/transition architecture and require a complete preservation proof with zero unexplained deltas.
+
+## Slow Steady r11 — exact current in-flight request
+
+Candidate:
+
+`work/romance-detector-repair-20260820/recovery-20260822/slow-steady-r11-local-reader-visible.txt`
+
+- SHA-256 `2def6737f8763f6e3a92405166dd27f9d0e30ec043a57a216ffbc05bf6bb72f4`;
+- 540 whitespace words.
+
+Preservation proof:
+
+`work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-slow-steady-r11.json`
+
+Status:
+
+- forward traceability PASS;
+- reverse traceability PASS;
+- provenance PASS;
+- architecture/dependency PASS;
+- unexplained substantive deltas 0;
+- detector eligible.
+
+Only authorized change: delete `But the first night isn’t necessarily the final ceiling either.` The immediately following Bee sexual-development anecdote performs the same unique function with lived evidence. This exact functional-consolidation lesson is already promoted in `project-sources/DETECTOR-LOCALIZATION-AND-ROLLBACK.md`.
+
+Public spec:
+
+`u-dont-existDOTcom/pangram-humanization-lab:automation/pangram-fixed-batch/experiments/romance-detector-repair-20260820-slow-steady-r11-20260822.json`
+
+- public spec commit `4f62a38f9bbe92d9191c5fa8ef4a3e2b3c2f1518`;
+- exact spec SHA-256 `d0ac26834dbc057ddcc28f43e55dfb7ceb09d8365878d7d1033c00241cbc89c4`.
 
 Private executor request:
 
-`u-dont-existDOTcom/pangram-private-executor:main/requests/romance-detector-repair-20260820-recovery-local-call5-call4-20260821.json`
+`u-dont-existDOTcom/pangram-private-executor:main/requests/romance-detector-repair-20260820-slow-steady-r11-20260822.json`
 
-Request commit:
+- request commit `1c0e40a5fc5a418be5ff6c34b69c9d3f0c936b74`.
 
-`f76ba236f89ade74c7ac04c38d45bba44d0bd7f0`
+Expected durable result:
 
-At the last check in this worker, the public result wrapper had **not yet appeared** and the request commit had no combined-status failure attached. Absence of a wrapper is not permission to resubmit.
+`u-dont-existDOTcom/pangram-humanization-lab:automation/pangram-fixed-batch/state/experiments/romance-detector-repair-20260820-slow-steady-r11-20260822-results.json`
+
+At the latest check, the result wrapper had not yet appeared and the request had no explicit combined-status failure. **Do not resubmit.** Treat r11 as in flight / ambiguous until exact durable state resolves. Recovery checkpoint: `recovery-20260822/SLOW-STEADY-R11-DISPATCH.md`.
 
 ## Next safe action
 
-1. Recover the exact result/pending state for the in-flight Talk call-5 + Not-A-Performance call-4 batch. Never duplicate it.
-2. Keep Talk call 5 diagnostic-only regardless of its result.
-3. Once call 5 is durably resolved, dispatch the already-preregistered faithful Talk call 6 exactly once if the durable ledger confirms it is the sixth local Talk call. If that final call fails detector certification, stop the Talk local section before a seventh and request narrow owner help rather than violating the cap.
-4. Re-audit Not A Performance call 4 for semantic/provenance/rhythm loss before accepting a detector result. If it is not exact 100% Human, retain its remaining local budget but preserve every r9-restored function; do not re-import the semantically incomplete historical green version.
-5. Once faithful local repairs are accepted, materialize the next full semantic candidate by changing only those exact target sections plus the frozen Affection aggregate composition. Keep Casual and the patient/maturity hold unchanged.
-6. Preserve all existing Markdown links/native-object identities when translating reader-visible detector candidates back into the materialized article; a stripped detector text is not source authority for links.
-7. Re-run semantic traceability, owner-lock, provenance, architecture, orphan/dependency, and rhythm/thought-shape gates before aggregate detector certification.
-8. Certify exact current Part 1 and Part 2 reader-visible aggregate boundaries. Partial Human percentages remain progress only.
-9. Only if both halves satisfy Pangram 4.0 `1.0 / 0.0 / 0.0` and all editorial/fidelity gates pass should the candidate be presented for deliberate owner acceptance/reconciliation.
-10. Do not merge PR #29 wholesale; canonical `articles/romance/` changes require deliberate owner-approved reconciliation.
+1. Recover the exact Slow Steady r11 result/request state. Never duplicate the immutable request.
+2. If r11 is exact 100% Human and preservation still passes, accept that local realization and materialize a new Part-1 candidate by deleting only the approved preview sentence from source-format Markdown. Keep Part 2 byte-identical.
+3. If r11 is not exact Human, do not automatically paraphrase. Localize the result, compare higher-authority/passing realizations, and spend another Slow Steady call only if the change is editorially justified, preservation-proved, and decision-changing.
+4. Treat Talk, Affection, and Primal hard caps as closed. No seventh local call.
+5. Preserve Casual's last call until a preservation-proofed natural-section or transition repair has high decision value.
+6. Inspect the doctor/patient 53-word residual and its neighboring transition before editing, remembering that related patient/maturity material already has exact local-Human evidence; local Human does not compose automatically.
+7. After each accepted local semantic edit, re-run the preservation and article-wide architecture/dependency gates. Require zero unexplained deltas.
+8. Build a new exact Part-1 aggregate only after accepted changes; do not use aggregate percentages as a gradient overriding editorial quality.
+9. Acceptance target remains exact Pangram 4.0 `1.0 Human / 0.0 AI / 0.0 assisted` for both current halves plus preservation, owner-lock, provenance, architecture, rhythm/thought-shape, and source-format invariants.
+10. Only then present the candidate for deliberate owner acceptance/reconciliation. Do not merge PR #29 wholesale.
+11. Run lesson closeout and persist any durable detector/editorial finding before calling the pass complete.
