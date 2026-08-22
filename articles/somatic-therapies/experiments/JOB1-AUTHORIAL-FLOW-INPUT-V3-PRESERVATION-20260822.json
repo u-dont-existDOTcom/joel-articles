@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-20260822.md",
+    "revision": "b5f8f8ab83574d35d69d02c1ea8be330d741922c",
+    "sha256": "b1487d7c257dcebc11570808df3b85ad72ad2da389fbb97f5d148f3d95d65947"
+  },
+  "changed_scope": "Add source-authorized non-output representation context ahead of the unchanged V2 Job 1 reader-visible boundary",
+  "mode": "P2S",
+  "edit_dose": "D1",
+  "preservation_units": [
+    {
+      "unit_id": "PU-V2-BODY",
+      "source_ref": "entire JOB1-AUTHORIAL-FLOW-INPUT-V2-20260822.md",
+      "authority": "V2 preservation-proofed experimental input",
+      "type": "object",
+      "meaning": "The complete V2 reader-visible Job 1 boundary must remain unchanged after the representation-only context preamble.",
+      "required_context": "context preamble is not article prose",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "V3 section '# Reader-visible Job 1 source boundary' through end of file",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CONTEXT-FLEXIBLE-MAP",
+      "source_ref": "owner corrections r0019-r0025 and map framing",
+      "authority": "owner correction ledger and owner-supplied Somatic source",
+      "type": "function",
+      "meaning": "The article is flexible general guidance, not a mandatory or scientifically validated treatment protocol; the map is used as questions for the reader.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V3 authorial-context bullet 1 and bullet 2",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CONTEXT-OPTIONALITY",
+      "source_ref": "owner correction r0033: everything is already optional; yoga is more than only a stabilizer",
+      "authority": "owner correction ledger",
+      "type": "function",
+      "meaning": "Somatic Experiencing and yoga are optional ways to serve the early job, not a mandatory pair or fixed successive steps.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V3 authorial-context bullet 3",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CONTEXT-YOGA-SCOPE",
+      "source_ref": "owner-approved 'Yoga fits best early in the sequence. No power yoga. No hot yoga.' plus goal correction",
+      "authority": "owner correction ledger and owner-supplied source",
+      "type": "certainty",
+      "meaning": "The power/hot-yoga exclusions belong to the trauma-sensitive early-regulation recommendation, not to a universal claim about all yoga for all people.",
+      "required_context": "representation metadata only; do not weaken the actual section warning",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V3 authorial-context bullet 4",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CONTEXT-SAFETY-AUTHORITY",
+      "source_ref": "map self-monitoring questions; missing-support condition; source caveat that adjunct practices are not replacements for skilled trauma therapy",
+      "authority": "owner-supplied source and correction-approved map",
+      "type": "agency",
+      "meaning": "The reader uses the map's self-monitoring questions; skilled trauma therapy/support remains important for highly dissociative, unstable, actively unsafe, or unsupported cases; no clinician-controlled universal sequencing rule is supplied.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V3 authorial-context bullet 5 and bullet 6",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-ADD-REPRESENTATION-CONTEXT",
+      "description": "Add only source-authorized authorial context needed to resolve the runtime's representation ambiguity; explicitly mark it as non-output metadata and leave the V2 reader-visible boundary exact."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-CONTEXT-PREAMBLE",
+      "classification": "new-explanation",
+      "description": "A six-bullet representation-only context preamble is added before the exact V2 Job 1 boundary to resolve the runtime's authorial-intention questions from existing owner/source authority.",
+      "authority_ref": "CH-ADD-REPRESENTATION-CONTEXT",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "This proof covers the representation-input composition only. The context preamble is not article prose and must not be treated as an article candidate. V3 does not authorize a Pangram call or article promotion."
+}
