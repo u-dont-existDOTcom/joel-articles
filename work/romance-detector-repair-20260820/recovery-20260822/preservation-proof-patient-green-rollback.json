@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r10-part1/candidate-part-1.txt",
+    "revision": "preservation-r10 Part 1 exact aggregate baseline",
+    "sha256": "4ab1ad34f171bb75d2f93e261757cca469a655b629508eb3b91ab05ebc83c0ef"
+  },
+  "changed_scope": "Part-1 side of the Maturity Levels doctor/patient cross-split boundary, beginning `The problem is when the role takes over the relationship` and ending immediately before Part 2 begins with `Key at first asked me innocently`",
+  "mode": "P2S",
+  "edit_dose": "D2 rollback",
+  "preservation_units": [
+    {
+      "unit_id": "PU-PATIENT-01",
+      "source_ref": "role-takes-over paragraph",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Playful little-girl/daddy relational polarity is not the problem; the problem is role capture, and the woman remains responsible for her life and self-reparenting.",
+      "required_context": "Maturity Levels parent/child role discussion",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "first rollback paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-02",
+      "source_ref": "Mom-role paragraph",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "The dependency can run the other direction when Joel expects a partner to regulate, soothe, organize, and keep him functional.",
+      "required_context": "follows role-takes-over distinction",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "second rollback paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-03",
+      "source_ref": "all-three-women patient attribution",
+      "authority": "preservation-r10 source + exact prior measured realization",
+      "type": "attribution",
+      "meaning": "All three women described feeling like Joel's patient, and Joel acknowledges why because they brought him most medical, mental-health, and practical problems.",
+      "required_context": "followed by representative direct questions",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "`All three women eventually told me they felt like my patient, and I could see why. I was the person they brought almost every medical, mental-health, and practical problem to:`",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-04",
+      "source_ref": "representative sick/sad questions",
+      "authority": "preservation-r10 source",
+      "type": "example",
+      "meaning": "Partners repeatedly asked Joel what to take when sick and what to do when sad.",
+      "required_context": "examples of patient-role pattern",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "both quoted questions unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-05",
+      "source_ref": "helping-is-not-cold-boundary paragraph",
+      "authority": "preservation-r10 source + exact prior measured realization",
+      "type": "claim",
+      "meaning": "Helping a sick partner is ordinary care and refusing with a doctor/therapist disclaimer every time would be cold; the issue is the accumulated pattern that explains the patient label.",
+      "required_context": "follows repeated partner questions and leads into Key/guru example",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "`Of course I was going to help... But after enough of those conversations, I understood why they used the word patient.`",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-06",
+      "source_ref": "cross-split Part-2 continuation: Key guru anecdote and Joel condescension admission",
+      "authority": "preservation-r10 Part 2",
+      "type": "context",
+      "meaning": "The boundary continues into Key's guru-role reversal and Joel's admission that his own condescension can contribute to the patient dynamic; both sides must inspect their roles.",
+      "required_context": "Part 2 begins immediately after changed Part-1 tail",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "Part 2 remains byte-identical; its first two paragraphs are unchanged",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-PATIENT-01",
+      "description": "Rollback only the Part-1 patient-role wording to the exact previously measured green realization. May change cadence and phrasing around when the women used the patient label and why Joel understood it; may not change actors, examples, causality, responsibility, Joel's admission, the Key anecdote, or any Part-2 byte."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-PATIENT-01",
+      "classification": "semantic-equivalent rollback",
+      "description": "`All three women told me at some point... Which is true...` becomes the earlier natural realization `All three women eventually told me... and I could see why...`; no proposition, attribution, actor, or certainty changes.",
+      "authority_ref": "CH-PATIENT-01",
+      "status": "authorized"
+    },
+    {
+      "delta_id": "DELTA-PATIENT-02",
+      "classification": "semantic-equivalent rollback",
+      "description": "`Of course I helped... But enough moments become a pattern.` becomes the earlier fuller causal realization `Of course I was going to help... But after enough of those conversations, I understood why they used the word patient.`; care-versus-pattern meaning is preserved and made explicit without adding a new claim.",
+      "authority_ref": "CH-PATIENT-01",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible_existing_measurement_reusable",
+  "candidate": {
+    "path": "work/romance-detector-repair-20260820/recovery-20260822/patient-green-rollback-part1-tail.txt",
+    "sha256": "e686af397002316cfd94b4975225a16a739dc619c79a512a9670a8223b30d9cd",
+    "word_count_whitespace": 147
+  },
+  "existing_exact_detector_evidence": {
+    "experiment": "romance-detector-repair-20260820-semantic-r9-part1-local-r1-20260821",
+    "measurement_id": "SEMANTIC_R9_PATIENT_R1",
+    "full_cross_split_sha256": "7d60bc1c38669848e7e27d313603e4ee8970e34bf3896673160ea6a61c106002",
+    "full_cross_split_word_count": 247,
+    "pangram_version": "4.0",
+    "fraction_human": 1.0,
+    "fraction_ai": 0.0,
+    "fraction_ai_assisted": 0.0,
+    "reuse_proof": "The 147-word rollback Part-1 tail concatenated with the unchanged first two paragraphs of preservation-r10 Part 2 reconstructs the exact measured 247-word text and SHA-256 7d60bc1c38669848e7e27d313603e4ee8970e34bf3896673160ea6a61c106002. No new paid local call is required."
+  },
+  "notes": "This rollback is detector-supported but is selected first for editorial/provenance reasons: it is a semantically equivalent, more naturally causal realization and preserves the cross-split responsibility structure. Aggregate certification is still required because local Human evidence does not compose automatically."
+}
