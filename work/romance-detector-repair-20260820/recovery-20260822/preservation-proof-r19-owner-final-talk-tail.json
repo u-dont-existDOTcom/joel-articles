@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-preservation-r19-owner-final-talk-tail",
+  "mode": "D2 direct-owner supersession plus duplicate-function consolidation",
+  "edit_dose": "D2 minimum owner-authorized section-tail replacement",
+  "authority": {
+    "source_candidate_master": {
+      "path": "work/romance-detector-repair-20260820/materialized-preservation-r18-owner-talk-dedup/candidate-master.md",
+      "sha256": "e6572535bdb699f7330d7397cd19880a24bb01660507967e472ce1a5b1176d2a"
+    },
+    "source_part1": {
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "automation/pangram-fixed-batch",
+      "path": "state/candidates/romance-detector-repair-20260820-preservation-r18-owner-talk-dedup-part1.txt",
+      "sha256": "093289ce0cb3bdd216ae8e1fd584d4a0b426984a4c2edca97ba3ed75fed36ac9",
+      "word_count_whitespace": 10360
+    },
+    "direct_owner_source": {
+      "path": "work/romance-detector-repair-20260820/recovery-20260822/OWNER-TALK-FINAL-TAIL-20260822.md",
+      "commit": "27440f8f6641c31a4333b6646aa66d806514844a",
+      "git_blob_sha": "322384fb822a11efe4c13f2690b2e72454bc09ec"
+    }
+  },
+  "changed_scope": "Romance / Talk about making love before you do it — remove the earlier retained making-love bridge sentence as duplicate-function consolidation, and replace all current prose after the meanings-of-sex paragraph through the section close with Joel's new owner-final wording",
+  "preservation_units": [
+    {
+      "unit_id": "PU-R19-01",
+      "authority": "registered/task preserved",
+      "type": "memory",
+      "meaning": "Father's exact remembered sentence remains only in the opening; Talk keeps Joel's later interpretation would-we-like-to-raise-children-together / are-we-ready without reattributing it to his father.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r18 father/readiness paragraph",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-02",
+      "authority": "registered/task preserved",
+      "type": "function",
+      "meaning": "Talk still asks what each person wants physically, what helps the body relax/open, kinks/dynamics, history, and what does not work.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r18 What do you actually want? paragraph",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-03",
+      "authority": "registered/task preserved",
+      "type": "function",
+      "meaning": "Not knowing all sexual answers is acceptable if the person is willing to find out honestly together.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r18 I don't know paragraph",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-04",
+      "authority": "registered/task preserved",
+      "type": "function",
+      "meaning": "Partners should discuss what sex means to each of them; meanings can differ between bonding, play, sacred experience and stress relief and need not be identical every time.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r18 meanings-of-sex paragraph ending It doesn’t have to mean the same thing every time.",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-05",
+      "authority": "registered-main timing bridge superseded by current owner wording",
+      "type": "function",
+      "meaning": "The honesty/intimacy of sexual communication is part of what separates merely having sex from making love.",
+      "allowed_disposition": "duplicate-function-consolidation: owner-final psychological-trust bridge in final Talk tail",
+      "candidate_mapping": "owner sentence: It's that psychological trust & intimacy that builds the bridge between \"having sex\" and \"making love.\"",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-06",
+      "authority": "direct owner 2026-08-22",
+      "type": "judgment",
+      "meaning": "Sexual compatibility should be discussed before undressing even if the discussion kills the vibe; if talking itself ruins things that is a red flag, whether a couple leans libertine or overly traditional.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "first three owner sentences, verbatim",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-07",
+      "authority": "direct owner 2026-08-22",
+      "type": "function",
+      "meaning": "Communication continues after undressing; partners should be comfortable expressing turn-ons, meanings, and uncertainty while sexual exposure is immediate.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "owner sentences beginning And once you are undressed...",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-08",
+      "authority": "direct owner 2026-08-22",
+      "type": "function",
+      "meaning": "Psychological trust and intimacy are the bridge between having sex and making love.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "owner bridge sentence, verbatim",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-09",
+      "authority": "direct owner 2026-08-22",
+      "type": "example",
+      "meaning": "Joel remembers a Christian-magazine letter from a newlywed who saved herself for marriage and discovered her husband had little sexual interest; Joel interpreted this as trapping her because religious commitments made divorce difficult, while explicitly allowing that it need not have been nefarious.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "owner Christian-magazine anecdote, verbatim and kept as remembered reading rather than verified reporting",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-10",
+      "authority": "direct owner 2026-08-22",
+      "type": "example",
+      "meaning": "Joel's E. relationship about 15 years ago had a strong libido mismatch: she wanted sex weekly while his libido was very high, and she did not want to try an herb to increase desire.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "owner E. anecdote, verbatim",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-11",
+      "authority": "direct owner 2026-08-22",
+      "type": "function",
+      "meaning": "Sexual compatibility changes over time, so communication must remain open rather than being treated as a one-time interview.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "owner final sentence, verbatim",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-12",
+      "authority": "direct owner supersession 2026-08-22",
+      "type": "function",
+      "meaning": "The old separate consequence that the conversation naturally prevents sex happening too soon and that inability to have it predicts relationship failure is superseded by Joel's new, narrower red-flag formulation: if talking ruins things, that itself is a red flag.",
+      "allowed_disposition": "owner-superseded: OWNER-TALK-FINAL-TAIL-20260822.md",
+      "candidate_mapping": "new owner red-flag sentence; old separate close removed",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R19-13",
+      "authority": "registered-main + r16",
+      "type": "context",
+      "meaning": "Affection and the simmer follows immediately after Talk and remains byte-for-byte the registered-main rollback with original links; Casual and all later prose remain unchanged.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged from r18",
+      "status": "pending-materialization"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-R19-01",
+      "description": "Delete exactly the earlier standalone sentence `That conversation is already part of making love.` because Joel's new owner-final bridge sentence now performs that function more specifically. Preserve all intervening desire/kink/history, unknown-answer, and meanings-of-sex paragraphs exactly."
+    },
+    {
+      "change_id": "CH-R19-02",
+      "description": "Replace exactly the current Talk tail beginning `It's important to talk about sexual compatibility before getting undressed, even if that kills the vibe.` and ending with the old relationship-chances red-flag sentence, with the verbatim owner wording in OWNER-TALK-FINAL-TAIL-20260822.md. No other article prose may change."
+    }
+  ],
+  "forbidden_side_effects": [
+    "Do not alter father provenance or readiness/co-parenting wording.",
+    "Do not alter What do you actually want?, body/kink/history, unknown-answer, or meanings-of-sex paragraphs.",
+    "Do not rewrite Joel's new owner wording for grammar, detector optimization, or style normalization.",
+    "Do not edit Affection, Casual, patient, or any remote r18 detector window.",
+    "Do not move the stable Part-2 split or rerun Part 2 if its exact bytes remain unchanged."
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-R19-01",
+      "classification": "duplicate-function-consolidation",
+      "description": "Remove earlier standalone making-love bridge sentence; its distinct function survives in Joel's new owner-final psychological-trust bridge.",
+      "authority_ref": "CH-R19-01",
+      "status": "authorized"
+    },
+    {
+      "delta_id": "DELTA-R19-02",
+      "classification": "owner-supersession",
+      "description": "Replace the complete current Talk tail after the meanings-of-sex paragraph through the section close with Joel's new verbatim owner wording, including new libertine/traditional scope and narrower red-flag formulation.",
+      "authority_ref": "CH-R19-02",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass-pending-exact-materialization",
+  "reverse_traceability": "pass-pending-exact-materialization",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass-precheck",
+  "detector_eligibility": "blocked-pending-exact-materialization",
+  "notes": "Current explicit owner wording outranks r18. Materialize by exact r18 hashes, verify the two authorized operations and protected anchors, then bind final candidate identities and only then dispatch aggregate Part 1."
+}
