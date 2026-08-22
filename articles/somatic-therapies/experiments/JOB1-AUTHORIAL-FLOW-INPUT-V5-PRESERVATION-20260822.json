@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-20260822.md",
+    "revision": "4c4a23fbf238e1a0e98ad44090c52c8545356187",
+    "sha256": "67681e72502113b12aa79eaa0959427354a4074fd43983a8e0d97fa02dc0c4cd"
+  },
+  "changed_scope": "Expand only non-output representation context to resolve the V4 run's remaining wording/research questions while keeping the complete reader-visible Job 1 source boundary exact",
+  "mode": "P2S",
+  "edit_dose": "D1",
+  "preservation_units": [
+    {
+      "unit_id": "PU-V5-READER-BOUNDARY",
+      "source_ref": "V4 '# Reader-visible Job 1 source boundary' through EOF",
+      "authority": "preservation-proofed V4 experimental input",
+      "type": "object",
+      "meaning": "The complete reader-visible Job 1 source boundary remains byte-for-byte unchanged; V5 changes representation metadata only.",
+      "required_context": "context preamble is not article prose",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "V5 '# Reader-visible Job 1 source boundary' through EOF",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V5-SAFETY-MEANING",
+      "source_ref": "registered intro stop/return safety plus Job 1 goal/Why first",
+      "authority": "registered master, owner-lock safety function, and owner-supplied Job 1 source",
+      "type": "context",
+      "meaning": "Nervous-system safety here means sufficient internal regulation and retained choice to notice activation, stop/back away, return toward baseline, and function afterward; it does not claim objective external safety.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V5 authorial-context bullet defining nervous-system safety",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V5-DEEPER-WORK",
+      "source_ref": "article architecture and Job 1 transition into later trauma-processing jobs",
+      "authority": "registered article architecture and owner-supplied Job 1 chronology",
+      "type": "context",
+      "meaning": "Deeper trauma work means trauma processing broadly, not only narrative or exposure and not a newly invented modality-specific sequence.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V5 authorial-context bullet defining deeper trauma work",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V5-DURATION",
+      "source_ref": "V4 3–6 month representation bullet and owner-supplied SE Typical duration/Best use cards",
+      "authority": "owner-supplied source baseline and registered humanization scope",
+      "type": "certainty",
+      "meaning": "The 3–6 month range remains inherited uncertain SE capacity-building content, not a universal wait, new personal claim, or newly verified fact; factual/citation review is separate from this humanization pass.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V5 authorial-context 3–6 month bullet plus no-new-research bullet",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V5-BEST-FORMS",
+      "source_ref": "owner-supplied yoga card heading 'Best forms' followed by four listed forms without ranks",
+      "authority": "owner-supplied Job 1 source",
+      "type": "function",
+      "meaning": "Best forms denotes the recommended set for this context; it does not rank the listed forms against one another.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V5 authorial-context 'Best forms' bullet",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V5-V4-CONTEXT",
+      "source_ref": "all other V4 authorial-context bullets",
+      "authority": "preservation-proofed V4 experimental input",
+      "type": "function",
+      "meaning": "All prior resolved representation instructions remain: flexible map, no universal first stage, optional/overlapping modalities, physical flexibility, contextual power/hot-yoga exclusions, article-wide safety placement, reader/practitioner agency, illustrative cue provenance, and no invented facts.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "corresponding V5 authorial-context bullets",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-V5-REPRESENTATION-DETAILS",
+      "description": "Add only source/architecture-grounded answers to the V4 Authorial Flow representation interrupt and explicitly keep inherited factual verification outside this humanization pass; no reader-visible Job 1 source text, article authority, detector state, factual certainty, or safety function may change."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-V5-DETAILS",
+      "classification": "new-explanation",
+      "description": "Representation metadata now defines nervous-system safety and deeper trauma work, clarifies Best forms as an unranked recommendation set, and directs the humanization pass to preserve rather than independently research the inherited 3–6 month claim.",
+      "authority_ref": "CH-V5-REPRESENTATION-DETAILS",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "This receipt covers representation-input composition only. The preamble is not article prose, does not promote a candidate, and does not authorize a Pangram call."
+}
