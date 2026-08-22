@@ -1,18 +1,18 @@
 # Article documentation index
 
-Status: **ACTIVE.** `articles/INDEX.json` currently registers Romance as a working canonical article.
+Status: **ACTIVE.** `articles/INDEX.json` currently registers Romance and Somatic Therapies as working canonical articles.
 
 ## Read order
 
 1. `../state/CODEX-CURRENT-STATE.md` — repository checkpoint and exact current posture
-2. `../articles/INDEX.json` — registered article packages and hashes; Romance is currently registered
-3. for Romance: `../articles/romance/CURRENT-STATE.md`, then its registered owner locks, architecture, master, source evidence, detector/citation/editorial records as required by the task
+2. `../articles/INDEX.json` — registered article packages and hashes
+3. the target registered article's `CURRENT-STATE.md`, then its registered owner locks, architecture, master, source evidence, detector/citation/editorial records as required by the task
 4. `../ARTICLE-META-MAP.md` — repository-wide Mermaid index for article relationships, interlinks, and deduplication opportunities
 5. `CONTENT-AUTHORITY-AND-IMPORT.md` — authority model and required per-article family
 6. `ARTICLE-ARCHITECTURE-MAPS.md` — required per-article Mermaid architecture maps plus meta-map update/validation contract
 7. `SUPPLIED-SOURCE-PACKET-MANIFEST.md` — external packet provenance and non-import status
 
-Historical Romance branches and packets may remain useful provenance/evidence, but they do not override the registered article family.
+Historical branches and packets may remain useful provenance/evidence, but they do not override a registered article family.
 
 ## General article protocols
 
