@@ -49,11 +49,7 @@
       "experiment_id": "somatic-therapies-intro-r02-20260822-a",
       "text_sha256": "83804709c0090d585f9299a0468acc268398ef0d1b35bfae8386b9f311fb83c0",
       "task_id": "8be5f7ab-0c3f-47cf-8392-fadbc96255f0",
-      "result": {
-        "fraction_ai": 1.0,
-        "fraction_human": 0.0,
-        "headline": "AI Generated"
-      },
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated"},
       "disposition": "failed paraphrase probe; do not promote"
     },
     {
@@ -62,11 +58,7 @@
       "experiment_id": "somatic-therapies-intro-r03-20260822-a",
       "text_sha256": "eb5941a868b9b5540db3e2af1c148110f1a7b4d902802cbd1ec0b2917c3f25c0",
       "task_id": "bcd6768c-fb31-477f-9641-e7ba1dfe9ea3",
-      "result": {
-        "fraction_ai": 1.0,
-        "fraction_human": 0.0,
-        "headline": "AI Generated"
-      },
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated"},
       "disposition": "failed paraphrase probe; do not promote"
     },
     {
@@ -75,11 +67,7 @@
       "experiment_id": "somatic-therapies-intro-r05-authorial-route-20260822-a",
       "text_sha256": "ecaec09a71c9a4978357dc6ae66fc96d6b62ec632ad56795b29261de83164c2b",
       "task_id": "e4bffda7-ff79-4831-8f73-4a743d359843",
-      "result": {
-        "fraction_ai": 1.0,
-        "fraction_human": 0.0,
-        "headline": "AI Generated"
-      },
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated"},
       "disposition": "failed model-authored route probe; do not promote"
     },
     {
@@ -88,11 +76,7 @@
       "experiment_id": "somatic-therapies-intro-r06-owner-language-20260822-a",
       "text_sha256": "e12d0506d2e13c1dfbbdcb9c30a89c61e40c67b47734d9a78bb4e29c9b72a199",
       "task_id": "bbb5eb4e-2d4a-4dcb-aee5-4fd0fc98b818",
-      "result": {
-        "fraction_ai": 1.0,
-        "fraction_human": 0.0,
-        "headline": "AI Generated"
-      },
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated"},
       "disposition": "failed probe despite more owner-like wording; do not promote"
     },
     {
@@ -101,13 +85,18 @@
       "experiment_id": "somatic-therapies-intro-r07-personal-friction-20260822-a",
       "text_sha256": "a85c2c032bd97ef96c6b0fc935709c145a69fc775d24989791f7af2b98b396e4",
       "task_id": "979b620a-4ebf-476b-bec0-fcba5433a4c4",
-      "result": {
-        "fraction_ai": 1.0,
-        "fraction_human": 0.0,
-        "headline": "AI Generated"
-      },
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated"},
       "provenance": "No owner source was recovered for its added first-person claims about relaxation, unsafe love, or being at war with a younger self.",
       "disposition": "invalid for article use; retain only as negative detector/provenance evidence"
+    },
+    {
+      "id": "intro-r08",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-intro-r08-human-anchor-20260822-a",
+      "text_sha256": "bfd409547d4f680a85fa106ca8c4fb9e7b76f766d6d348d1d6fe4186e590c190",
+      "task_id": "b9622f3a-9174-4721-855d-6d63529702e3",
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated", "confidence": "High"},
+      "disposition": "failed contextual-composition probe; exact owner-specific Human-gap material did not remain Human when surrounded by a model-built realization; do not treat the local Human span as a detector charm"
     },
     {
       "id": "owner-cancer-control",
@@ -115,13 +104,81 @@
       "experiment_id": "somatic-genre-calibration-owner-cancer-20260822-a",
       "text_sha256": "26720c63247e52278d1820bd683aafee689870d59332d21334e0254084e86a84",
       "task_id": "494b606c-58bf-463f-ab70-a0e505b2103d",
-      "result": {
-        "fraction_ai": 0.0,
-        "fraction_human": 1.0,
-        "headline": "Human Written",
-        "confidence": "High"
-      },
+      "result": {"fraction_ai": 0.0, "fraction_human": 1.0, "headline": "Human Written", "confidence": "High"},
       "disposition": "genre-relevant natural-owner control; supports model-shaped prose diagnosis rather than a general detector/genre failure"
+    },
+    {
+      "id": "inner-child-r01",
+      "role": "natural_section_baseline",
+      "experiment_id": "somatic-therapies-inner-child-r01-baseline-20260822-a",
+      "text_sha256": "63e498ac8487c81a30fd415daa0f79ac4ef9fc4ddad75e04395a34d984357831",
+      "task_id": "b1a8a640-45f4-4aae-9592-f8811d3dcb38",
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated", "confidence": "High"},
+      "disposition": "r01 natural-section baseline; repair warranted"
+    },
+    {
+      "id": "inner-child-r02",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-inner-child-r02-lived-route-20260822-a",
+      "text_sha256": "e8fc3246af90eae38934a378af0964eaf4e8f549b690ca1c61ac1241a44421f0",
+      "task_id": "35664cfa-9c56-4c78-8999-a05bfc1017ae",
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated", "confidence": "High"},
+      "disposition": "failed lived-route reconstruction; do not promote"
+    },
+    {
+      "id": "inner-child-r03",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-inner-child-r03-dedupe-20260822-a",
+      "text_sha256": "30895ff9e41c1fad507269886b6b0b3d27365f4f5f0f344a05ab31c55cfd8801",
+      "task_id": "28042c32-2e5e-4ee3-8049-633c553621f2",
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated", "confidence": "High"},
+      "disposition": "failed deduplicated reconstruction; do not promote"
+    },
+    {
+      "id": "inner-child-r04",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-inner-child-r04-direct-20260822-a",
+      "text_sha256": "de4b9b337c2d68efb807016ba458ed86ffd9e76eefb28f987cc500608cc4df1f",
+      "task_id": "033c08c2-b15e-4162-a6b4-2a815300db8d",
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated", "confidence": "High"},
+      "disposition": "failed direct/tender-register reconstruction; do not promote"
+    },
+    {
+      "id": "inner-child-r05",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-inner-child-r05-owner-source-20260822-a",
+      "text_sha256": "ebe3cc76b03fc0ad791dd66b5c9fa1541ec1b6d4d39430e3013fc2e7d9a3576f",
+      "task_id": "f810c587-beba-4b23-8725-ea5ed5ea6082",
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated", "confidence": "High"},
+      "disposition": "failed owner-source phrase restoration probe; do not promote"
+    },
+    {
+      "id": "inner-child-r06-original",
+      "role": "owner_supplied_source_baseline",
+      "experiment_id": "somatic-therapies-inner-child-r06-original-source-20260822-a",
+      "text_sha256": "8d6012871bc78eb9df01c427a86eee7955c03d858ea6b95384e53cb9d9d37155",
+      "task_id": "8b5d752a-290d-4c06-901b-640e559bede8",
+      "result": {"fraction_ai": 1.0, "fraction_human": 0.0, "headline": "AI Generated", "confidence": "High"},
+      "disposition": "exact original supplied source section is also 100% AI; no detector-Human textual baseline exists for this section, and the six-call section audit is closed"
+    },
+    {
+      "id": "shaking-qigong-r01",
+      "role": "reserved_pending_measurement",
+      "experiment_id": "somatic-therapies-shaking-qigong-r01-baseline-20260822-a",
+      "text_sha256": "0f21beb5d6c95c471a13d8b3ff2d373a4541cca61151043203c702286614a181",
+      "word_count": 249,
+      "result": null,
+      "call_state": "one paid call reserved in the durable ledger; no cache/task result was durable at this article-state update",
+      "disposition": "do not repeat; resume/read exact durable result when it appears"
+    }
+  ],
+  "prepared_unsubmitted_candidates": [
+    {
+      "id": "shaking-qigong-r02-source-stack",
+      "experiment_id": "somatic-therapies-shaking-qigong-r02-source-stack-20260822-a",
+      "text_sha256": "a0f2d0461a6c54bfc550461d45bb7fb5a527d7e2600f22dace5638cd550dd0b3",
+      "status": "frozen_not_submitted",
+      "disposition": "dispatch only if exact r01 Shaking Qigong baseline is AI; source rollback/consolidation rather than fresh paraphrase"
     }
   ],
   "current_boundary": {
@@ -134,11 +191,23 @@
   },
   "paid_call_state": {
     "registered_boundary_calls": 1,
-    "intro_audit_calls": 5,
+    "intro_audit_calls": 6,
     "intro_audit_max_new_paid_calls": 6,
-    "intro_audit_remaining_calls": 1,
+    "intro_audit_remaining_calls": 0,
+    "inner_child_audit_calls": 6,
+    "inner_child_audit_max_new_paid_calls": 6,
+    "inner_child_audit_remaining_calls": 0,
     "owner_control_calls": 1,
-    "rule": "Do not spend the final intro slot on another conversational paraphrase. Use it only for a materially different, source-grounded realization after editorial reconstruction."
+    "shaking_qigong_calls_reserved": 1,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
-  "limitations": "Detector status is separate from fidelity, editorial quality, authorship-signal retention, and article authority. The natural-owner control is calibration evidence, not proof that any specific rewrite is Joel-authored."
+  "interpretation": {
+    "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
+    "inner_child": "The r01 section, four reconstructions, one owner-source phrase restoration, and the exact original source section all returned 100% AI. This lane is closed until genuinely fresh owner language or another independently human source exists.",
+    "production_rule": "Prefer higher-authority source restoration and minimum-dose movement/consolidation before generating new prose. A source that itself tests AI can preserve factual/argument authority without serving as a detector-Human style baseline."
+  },
+  "tooling_note": {
+    "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."
+  },
+  "limitations": "Detector status is separate from fidelity, editorial quality, authorship-signal retention, and article authority. Natural-owner controls calibrate the detector but do not prove that a particular candidate is owner-authored."
 }
