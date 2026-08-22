@@ -30,6 +30,7 @@ routing aids; they do not establish article authority.
 
 ### P2S/P3/P4, detector repair, and humanization
 
+- `docs/HUMANIZATION-PRESERVATION-GATE.md` — **blocking before substantive rewritten text is detector-eligible**
 - `project-sources/HUMANIZATION-AND-COHERENCE.md`
 - `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`
 - `project-sources/DETECTOR-LOCALIZATION-AND-ROLLBACK.md`
@@ -39,6 +40,8 @@ routing aids; they do not establish article authority.
 - `project-sources/BANNED-PATTERNS.md`
 - the relevant current material in `u-dont-existDOTcom/pangram-humanization-lab`,
   following the fresh-read order in `SKILL.md`
+
+The preservation gate changes the execution order: freeze the authoritative changed scope, enumerate protected semantic/function units and the authorized-change whitelist, draft inside that delta, then require bidirectional source↔candidate traceability with **zero unexplained substantive deltas** before any paid/certification detector call. Re-run that proof after every detector-driven semantic edit. A detector-green candidate that fails preservation is rejected.
 
 Use the rhythm/thought-shape protocol to audit sentence-level verdict cadence, paragraph-level equalized thought duration, recursive mini-essay closure, objection-completion, and lost reader-facing pragmatic acts. It is an editorial gate, not a phrase blacklist or detector substitute.
 

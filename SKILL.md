@@ -35,6 +35,27 @@ Do not flatten strong claims merely because they are empirical or contestable. N
 
 Before sentences, privately identify heading promise, live pressure/question, reader stake, claim/certainty, motive/obligation, lived/intellectual route, actor/action/object, causality/chronology, source roles, strongest complication, governing movement, paragraph jobs, true stopping point, and exact language retained with reason. If inherited architecture is globally model-shaped, reconstruct it from the richest owner/source pool instead of polishing it.
 
+## Preservation proof before humanization/detector work
+
+For P2S/P3/P4 reconstruction, D3/D4 rewriting, or any detector-driven semantic edit, read and apply `docs/HUMANIZATION-PRESERVATION-GATE.md` **before detector submission**.
+
+The blocking order is:
+
+1. freeze the authoritative changed scope and exact identity;
+2. enumerate the changed scope's preservation units and their allowed dispositions;
+3. freeze the authorized-change whitelist — what this operation may change and obvious side effects it may not cause;
+4. draft only inside that authorized delta;
+5. prove forward traceability from every unsuperseded source unit to the candidate or an already-authorized disposition;
+6. prove reverse traceability from every substantive candidate delta back to the whitelist or owner authority;
+7. require **zero unexplained substantive deltas**;
+8. only then run the architecture/cold audits and paid/certification detector call.
+
+Re-run the preservation proof after every detector-driven semantic edit. A 100% Human candidate with an unexplained deletion, addition, provenance change, actor/cause change, certainty change, or misplaced protected function is a failed candidate and cannot be promoted. If such a candidate has already been measured, preserve the detector result as diagnostic evidence but mark the prose fidelity-rejected.
+
+`Inferable`, `redundant`, `smoother`, and `better for Pangram` are never deletion authority. Similar topic does not prove duplicate function. Source wording, remembered quotation, later interpretation, and synthesis must remain separate provenance objects unless Joel explicitly merges them.
+
+Use the smallest useful proof scope: the changed natural section plus load-bearing dependencies for a local repair, and article-wide units only for genuinely article-wide reconstruction.
+
 ## Qualification, skepticism, and reader trust
 
 Use the **least qualification necessary** to avoid misinformation, material ambiguity, or a genuinely misleading implication. Do not drift into an adversarial/debunking voice merely because a claim is experiential, unusual, testimonial, empirical, or contestable.
@@ -69,11 +90,13 @@ Treat interviews and notes as source pools, not transcripts. Preserve raw answer
 
 Never show Draft 0 by default. After drafting, audit the literal completed prose as if someone else wrote it. Run two cold audits normally; a third only when needed. Check semantic sanity, reality contact, curious-reader continuity, unnecessary recap/interpretive aftercare, functional redundancy, pre-completed reasoning, generic bridges, false symmetry/completeness, fidelity, and the true stopping point. If a legitimate weakness is found, fix it before delivery or explicitly justify why it must remain.
 
+The cold audit is not a substitute for the preservation proof. Preservation units and authorized deltas are checked mechanically/explicitly before detector eligibility; the cold audit asks whether the preserved material is still coherent, well placed, and good writing.
+
 ## Detector boundary
 
-Coherence, fidelity, and article function come first. Pangram is secondary evidence, never authorship or quality authority. Preserve exact detector boundaries, text hashes, detector/version/date, repeats, nulls, and counterexamples. Test interactions rather than inferring magic words from one case. Short text is less reliable.
+Coherence, fidelity, preservation proof, and article function come first. Pangram is secondary evidence, never authorship or quality authority. Preserve exact detector boundaries, text hashes, detector/version/date, repeats, nulls, and counterexamples. Test interactions rather than inferring magic words from one case. Short text is less reliable.
 
-A detector-green passage still fails when heading promise, paragraph jobs, live-question continuity, protected function, owner-realization placement, meaning, or agency fail. Re-run article-wide architecture checks after detector-driven changes when a registered article exists.
+A detector-green passage still fails when preservation proof, heading promise, paragraph jobs, live-question continuity, protected function, owner-realization placement, meaning, or agency fail. Re-run preservation and article-wide architecture checks after detector-driven changes when a registered article exists.
 
 ## Idiolect-preservation boundary
 
@@ -109,6 +132,6 @@ Preserve claims/certainty, exact memories/quotations, actors, chronology, causal
 
 ## Reporting
 
-After substantive passes report, as applicable: heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect-retention role; largest remaining weakness; and next task.
+After substantive passes report, as applicable: preservation-proof status; unexplained-delta count; heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect-retention role; largest remaining weakness; and next task.
 
 Return complete paste-ready passages except when Joel asks for isolated fragments or the artifact is exceptionally long.
