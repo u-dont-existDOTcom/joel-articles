@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-20260822.md",
+    "revision": "819d78750e576c9ad131d75008ed6b7b8f94cff1",
+    "sha256": "52a63183d11f9aad144bf0f3a9d30366b890d48cba04e818424f9692edae349e"
+  },
+  "changed_scope": "Expand only the non-output Authorial Flow representation context to resolve the V3 run's remaining owner-ambiguity questions while leaving the reader-visible Job 1 source boundary exact",
+  "mode": "P2S",
+  "edit_dose": "D1",
+  "preservation_units": [
+    {
+      "unit_id": "PU-V4-READER-BOUNDARY",
+      "source_ref": "V3 section '# Reader-visible Job 1 source boundary' through end of file",
+      "authority": "preservation-proofed V3 experimental input",
+      "type": "object",
+      "meaning": "The complete reader-visible Job 1 source boundary remains byte-for-byte unchanged; V4 changes representation metadata only.",
+      "required_context": "context preamble is not article prose",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "V4 section '# Reader-visible Job 1 source boundary' through end of file",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V4-FLEXIBLE-MAP",
+      "source_ref": "V3 authorial-context bullets 1–3 plus registered architecture",
+      "authority": "owner/source authority and registered article architecture",
+      "type": "function",
+      "meaning": "Job 1 is flexible general guidance, not a universal mandatory first stage; SE and yoga are optional ways to serve the same job rather than a fixed sequence.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V4 authorial-context bullets 1–3",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V4-DURATION-SCOPE",
+      "source_ref": "owner-supplied SE card: Typical duration 3–6 months; Best use building capacity; humanization report preserving the 3–6 month SE orientation range",
+      "authority": "owner-supplied source baseline and registered humanization report",
+      "type": "context",
+      "meaning": "The 3–6 month range belongs to Somatic Experiencing capacity-building for some people, not the whole Job 1 boundary and not a mandatory waiting period; this rewrite must not turn it into a new personal anecdote or independently verified claim.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V4 authorial-context bullet 4",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V4-FLEXIBILITY-SCOPE",
+      "source_ref": "yoga goal: body awareness, flexibility, enjoyment, and agency",
+      "authority": "owner-supplied Job 1 source context",
+      "type": "context",
+      "meaning": "Flexibility in the yoga goal is ordinary physical flexibility; no new nervous-system or psychological-flexibility claim is authorized.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V4 authorial-context bullet 5",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V4-YOGA-SCOPE",
+      "source_ref": "V3 authorial-context bullet 4 and local yoga warning",
+      "authority": "owner/source authority",
+      "type": "certainty",
+      "meaning": "Power/hot-yoga exclusions apply to the trauma-sensitive early-regulation recommendation rather than as a universal claim about all yoga for everyone.",
+      "required_context": "representation metadata only; local warning remains strong",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V4 authorial-context bullet 6",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V4-SAFETY-PLACEMENT",
+      "source_ref": "registered introduction, safety protected function, and article architecture routing",
+      "authority": "registered master, owner-lock safety function, and architecture map",
+      "type": "function",
+      "meaning": "Article-wide instability/dissociation/support boundaries are already handled by the introduction/general safety framing; Job 1 should preserve local practice-specific choice/non-coercion warnings without duplicating a long diagnostic checklist merely for self-containment.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V4 authorial-context bullet 7",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V4-DECISION-AGENCY",
+      "source_ref": "registered introduction's first-person stop/return questions plus V3 safety-authority context",
+      "authority": "registered master and owner/source context",
+      "type": "agency",
+      "meaning": "The reader is the immediate observer of presence, stopping, return, and functioning; practitioner support may matter in severe cases, but the source does not establish a clinician-controlled universal sequencing gate.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V4 authorial-context bullet 8",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-V4-QUOTE-PROVENANCE",
+      "source_ref": "V3 authorial-context and reader-visible cue examples",
+      "authority": "owner/source authority",
+      "type": "attribution",
+      "meaning": "The trauma-sensitive yoga cues are illustrative examples rather than exact quotations attributed to one source.",
+      "required_context": "representation metadata only",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V4 authorial-context bullet 9",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-V4-REPRESENTATION-DETAILS",
+      "description": "Add only source- and architecture-grounded answers to the V3 Authorial Flow representation interrupt; no reader-visible Job 1 source text, article authority, treatment claim, personal fact, detector state, or safety certainty may change."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-V4-DETAILS",
+      "classification": "new-explanation",
+      "description": "The non-output context preamble now resolves duration scope/provenance, conditional first-stage framing, physical-flexibility meaning, safety-placement scope, and reader/practitioner agency for the representation step.",
+      "authority_ref": "CH-V4-REPRESENTATION-DETAILS",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "This receipt covers only representation-input composition. The preamble is not article prose, does not promote a candidate, and does not authorize a Pangram call."
+}
