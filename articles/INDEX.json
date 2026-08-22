@@ -50,7 +50,9 @@
         {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-20260822.md", "sha256": "b1487d7c257dcebc11570808df3b85ad72ad2da389fbb97f5d148f3d95d65947", "role": "authorial_flow_input"},
         {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-PRESERVATION-20260822.json", "sha256": "b64d116524b95e0148604bebfbb22c7b5fb29a90406b2f8ec1740e7dd064f2f6", "role": "preservation_proof"},
         {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-20260822.md", "sha256": "52a63183d11f9aad144bf0f3a9d30366b890d48cba04e818424f9692edae349e", "role": "authorial_flow_input"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-PRESERVATION-20260822.json", "sha256": "902c8e221adc6ba0f8537e6176d96b72a33a8f75b9b13a28ccc18deb3be57b74", "role": "preservation_proof"}
+        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-PRESERVATION-20260822.json", "sha256": "902c8e221adc6ba0f8537e6176d96b72a33a8f75b9b13a28ccc18deb3be57b74", "role": "preservation_proof"},
+        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-20260822.md", "sha256": "67681e72502113b12aa79eaa0959427354a4074fd43983a8e0d97fa02dc0c4cd", "role": "authorial_flow_input"},
+        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-PRESERVATION-20260822.json", "sha256": "e197329f263b6eb970b2e6e947116409753721ccee39db0be1d97c5d4351613d", "role": "preservation_proof"}
       ]
     }
   ]
