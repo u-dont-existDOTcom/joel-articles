@@ -1,4 +1,4 @@
-name: Materialize Romance preservation r10 Part 1
+name: Materialize Romance preservation r10 aggregates
 
 on:
   push:
@@ -6,7 +6,9 @@ on:
       - task/romance-detector-repair-20260820
     paths:
       - 'work/romance-detector-repair-20260820/apply_preservation_r10_part1.py'
+      - 'work/romance-detector-repair-20260820/apply_preservation_r10_part2.py'
       - 'tests/test_romance_preservation_r10_part1.py'
+      - 'tests/test_romance_preservation_r10_part2.py'
       - '.github/workflows/materialize-romance-preservation-r10-part1.yml'
   pull_request:
     branches:
@@ -26,16 +28,26 @@ jobs:
         with:
           ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'task/romance-detector-repair-20260820' }}
           fetch-depth: 0
-      - name: Run focused materializer regression
-        run: python -m unittest tests.test_romance_preservation_r10_part1 -q
-      - name: Materialize exact candidate
+      - name: Run focused materializer regressions
         run: |
-          rm -rf work/romance-detector-repair-20260820/materialized-preservation-r10
+          python -m unittest tests.test_romance_preservation_r10_part1 -q
+          python -m unittest tests.test_romance_preservation_r10_part2 -q
+      - name: Materialize exact Part 1 aggregate candidate
+        run: |
+          rm -rf work/romance-detector-repair-20260820/materialized-preservation-r10-part1
           python work/romance-detector-repair-20260820/apply_preservation_r10_part1.py \
             --source-master work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-master.md \
             --source-part1 work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-part-1.txt \
             --source-part2 work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-part-2.txt \
-            --output-dir work/romance-detector-repair-20260820/materialized-preservation-r10
+            --output-dir work/romance-detector-repair-20260820/materialized-preservation-r10-part1
+      - name: Materialize exact Part 2 aggregate candidate
+        run: |
+          rm -rf work/romance-detector-repair-20260820/materialized-preservation-r10-part2
+          python work/romance-detector-repair-20260820/apply_preservation_r10_part2.py \
+            --source-master work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-master.md \
+            --source-part1 work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-part-1.txt \
+            --source-part2 work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-part-2.txt \
+            --output-dir work/romance-detector-repair-20260820/materialized-preservation-r10-part2
       - name: Run repository integrity gates
         run: |
           python -m unittest discover -s tests
@@ -43,13 +55,15 @@ jobs:
           python scripts/validate_article_architecture_maps.py --root .
           python scripts/audit_codex_github.py --root . --fail-on error
           git diff --check
-      - name: Commit generated candidate
+      - name: Commit generated candidates
         env:
           TARGET_REF: ${{ github.event_name == 'pull_request' && github.head_ref || 'task/romance-detector-repair-20260820' }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add work/romance-detector-repair-20260820/materialized-preservation-r10
+          git add \
+            work/romance-detector-repair-20260820/materialized-preservation-r10-part1 \
+            work/romance-detector-repair-20260820/materialized-preservation-r10-part2
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Materialize Romance preservation r10 Part 1'
+          git commit -m 'Materialize Romance preservation r10 aggregates'
           git push origin HEAD:"$TARGET_REF"
