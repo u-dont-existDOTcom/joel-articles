@@ -30,7 +30,7 @@
       "meaning": "Father's exact remembered sentence remains only in the opening; Talk keeps Joel's later interpretation would-we-like-to-raise-children-together / are-we-ready without reattributing it to his father.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "unchanged r18 father/readiness paragraph",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-02",
@@ -39,7 +39,7 @@
       "meaning": "Talk still asks what each person wants physically, what helps the body relax/open, kinks/dynamics, history, and what does not work.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "unchanged r18 What do you actually want? paragraph",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-03",
@@ -48,7 +48,7 @@
       "meaning": "Not knowing all sexual answers is acceptable if the person is willing to find out honestly together.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "unchanged r18 I don't know paragraph",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-04",
@@ -57,7 +57,7 @@
       "meaning": "Partners should discuss what sex means to each of them; meanings can differ between bonding, play, sacred experience and stress relief and need not be identical every time.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "unchanged r18 meanings-of-sex paragraph ending It doesn’t have to mean the same thing every time.",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-05",
@@ -66,7 +66,7 @@
       "meaning": "The honesty/intimacy of sexual communication is part of what separates merely having sex from making love.",
       "allowed_disposition": "duplicate-function-consolidation: owner-final psychological-trust bridge in final Talk tail",
       "candidate_mapping": "owner sentence: It's that psychological trust & intimacy that builds the bridge between \"having sex\" and \"making love.\"",
-      "status": "pending-materialization"
+      "status": "consolidated"
     },
     {
       "unit_id": "PU-R19-06",
@@ -75,7 +75,7 @@
       "meaning": "Sexual compatibility should be discussed before undressing even if the discussion kills the vibe; if talking itself ruins things that is a red flag, whether a couple leans libertine or overly traditional.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "first three owner sentences, verbatim",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-07",
@@ -84,7 +84,7 @@
       "meaning": "Communication continues after undressing; partners should be comfortable expressing turn-ons, meanings, and uncertainty while sexual exposure is immediate.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "owner sentences beginning And once you are undressed...",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-08",
@@ -93,7 +93,7 @@
       "meaning": "Psychological trust and intimacy are the bridge between having sex and making love.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "owner bridge sentence, verbatim",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-09",
@@ -102,7 +102,7 @@
       "meaning": "Joel remembers a Christian-magazine letter from a newlywed who saved herself for marriage and discovered her husband had little sexual interest; Joel interpreted this as trapping her because religious commitments made divorce difficult, while explicitly allowing that it need not have been nefarious.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "owner Christian-magazine anecdote, verbatim and kept as remembered reading rather than verified reporting",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-10",
@@ -111,7 +111,7 @@
       "meaning": "Joel's E. relationship about 15 years ago had a strong libido mismatch: she wanted sex weekly while his libido was very high, and she did not want to try an herb to increase desire.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "owner E. anecdote, verbatim",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-11",
@@ -120,7 +120,7 @@
       "meaning": "Sexual compatibility changes over time, so communication must remain open rather than being treated as a one-time interview.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "owner final sentence, verbatim",
-      "status": "pending-materialization"
+      "status": "preserved"
     },
     {
       "unit_id": "PU-R19-12",
@@ -129,7 +129,7 @@
       "meaning": "The old separate consequence that the conversation naturally prevents sex happening too soon and that inability to have it predicts relationship failure is superseded by Joel's new, narrower red-flag formulation: if talking ruins things, that itself is a red flag.",
       "allowed_disposition": "owner-superseded: OWNER-TALK-FINAL-TAIL-20260822.md",
       "candidate_mapping": "new owner red-flag sentence; old separate close removed",
-      "status": "pending-materialization"
+      "status": "owner-superseded"
     },
     {
       "unit_id": "PU-R19-13",
@@ -138,7 +138,7 @@
       "meaning": "Affection and the simmer follows immediately after Talk and remains byte-for-byte the registered-main rollback with original links; Casual and all later prose remain unchanged.",
       "allowed_disposition": "must-remain-exact",
       "candidate_mapping": "unchanged from r18",
-      "status": "pending-materialization"
+      "status": "preserved"
     }
   ],
   "change_whitelist": [
@@ -175,10 +175,24 @@
     }
   ],
   "unexplained_deltas": [],
-  "forward_traceability": "pass-pending-exact-materialization",
-  "reverse_traceability": "pass-pending-exact-materialization",
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
   "owner_provenance_separation": "pass",
-  "architecture_dependency_gate": "pass-precheck",
-  "detector_eligibility": "blocked-pending-exact-materialization",
-  "notes": "Current explicit owner wording outranks r18. Materialize by exact r18 hashes, verify the two authorized operations and protected anchors, then bind final candidate identities and only then dispatch aggregate Part 1."
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Exact r19 materialization verified: two authorized operations only, 13 preservation units resolved, zero unexplained deltas, native objects 11→11, Markdown links 22→22. Direct owner prose remains verbatim in Markdown; detector plaintext differs only by rendering *or* as visible or and the Markdown hard line break as a visible newline. Part 2 is byte-identical prior 100% Human evidence and is not eligible for repeat merely because Part 1 changed.",
+  "exact_candidate_identity": {
+    "master_path": "work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-master.md",
+    "master_sha256": "b31af3c2f692d44b63e43dbfed99436584228f2ac7b8177045f5a3b751ea1ea8",
+    "master_word_count_whitespace": 20374,
+    "part1_repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "part1_ref": "automation/pangram-fixed-batch",
+    "part1_path": "state/candidates/romance-detector-repair-20260820-preservation-r19-owner-final-talk-part1.txt",
+    "part1_sha256": "ca42804f9774e66423caba07be4db4123a80ecb0b61e7a75d1ae2db271a8b9f5",
+    "part1_word_count_whitespace": 10331,
+    "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "part2_exact_prior_human": 1.0,
+    "owner_markdown_sha256": "fe24cbb37ae2e460e616e737a2d78a751ae11b29d950c96d5c6527eaf169b1b8",
+    "owner_visible_sha256": "e8399f2098bc830ffe98e1caadf53480931f0d85c20d42e90e967e73987d8023"
+  }
 }
