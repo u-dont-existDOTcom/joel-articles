@@ -1,5 +1,6 @@
 name: Materialize Romance preservation r10 Part 1
 
+# Retriggered from the current task head after later detector-proof commits advanced the branch.
 on:
   push:
     branches:
