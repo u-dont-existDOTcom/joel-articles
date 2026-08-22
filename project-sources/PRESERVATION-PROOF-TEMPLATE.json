@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "articles/example/master.md",
+    "revision": "<git-ref-or-immutable-revision>",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "changed_scope": "<natural section or bounded transformation>",
+  "mode": "P2S",
+  "edit_dose": "D3",
+  "preservation_units": [
+    {
+      "unit_id": "PU-EXAMPLE-01",
+      "source_ref": "<source span or anchor>",
+      "authority": "registered source",
+      "type": "claim",
+      "meaning": "<exact proposition or function that must survive>",
+      "required_context": "<antecedent/qualification/destination or none>",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "<exact candidate span or anchor>",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-EXAMPLE-01",
+      "description": "<exact authorized change and relevant forbidden side effects>"
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-EXAMPLE-01",
+      "classification": "authorized-rewording",
+      "description": "<substantive target delta>",
+      "authority_ref": "CH-EXAMPLE-01",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Passing this structural receipt does not itself prove semantic equivalence; the preservation units and mappings require substantive editorial judgment."
+}
