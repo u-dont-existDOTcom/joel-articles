@@ -12,6 +12,11 @@ SOURCE_MASTER_SHA = "6c094f6a011783fce65455143c27b03d14d33b64d7d4f4b3cf530b0e730
 SOURCE_P1_SHA = "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9"
 SOURCE_P2_SHA = "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
 
+# The generic helper still carries an older exact Crucible realization. Semantic
+# r9 already replaced that literal while preserving the registered safety
+# function. Part 2 does not touch Crucible, so validate the current r9 function.
+PROTECTED_EXACT_EXEMPT = {"coercion-exits-mutual-crucible"}
+
 PRIMAL_MASTER = """## Not A Performance
 
 The moment I have to prove that I’m the man, something has already become fake. Then every time I hesitate, cry, need help, or get something wrong, I have to defend the role all over again.
@@ -73,15 +78,24 @@ def audit(source_master: str, candidate_master: str) -> dict[str, object]:
         "invitation_analogy": "Would you rather go to a party where you were invited or a war you got drafted into?",
         "manufactured_crisis": "she may manufacture a crisis until the man is forced to take charge",
         "frequency_judgment": "Unfortunately, I've seen a lot of the latter.",
+        "crucible_terror_or_control": "one person terrorizing or controlling the other",
+        "crucible_no_or_truth": "If you're scared to say no or tell the truth",
+        "crucible_leaving_fear": "or scared of what happens if you leave",
+        "crucible_safety_action": "get other people involved and think about safety first.",
     }
     missing = [name for name, anchor in required.items() if anchor not in candidate_master]
-    protected_missing = [name for name, anchor in helper.PROTECTED_ANCHORS.items() if anchor not in candidate_master]
+    protected_missing = [
+        name
+        for name, anchor in helper.PROTECTED_ANCHORS.items()
+        if name not in PROTECTED_EXACT_EXEMPT and anchor not in candidate_master
+    ]
     checks = {
         "headings_identical": helper.headings(source_master) == helper.headings(candidate_master),
         "native_markers_identical": helper.native_markers(source_master) == helper.native_markers(candidate_master),
         "markdown_link_destinations_identical": helper.markdown_links(source_master) == helper.markdown_links(candidate_master),
         "required_missing": missing,
         "protected_anchors_missing": protected_missing,
+        "protected_exact_exemptions": sorted(PROTECTED_EXACT_EXEMPT),
         "final_primal_reader_visible_sha256": "fd83bf90ac1f6a0c122753cd9a9a7df34fd1717456d63be868b7c04debbc5dab",
         "final_primal_local_human": 0.8848329186439514,
         "local_section_cap_reached": True,
@@ -137,6 +151,7 @@ def main() -> int:
             "receipt": "work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-not-a-performance-final-call6.json",
             "unexplained_deltas": 0,
             "local_section_calls": "6/6 hard cap reached; no more local Primal calls",
+            "crucible": "unchanged from semantic r9; current safety function is checked semantically rather than against the stale generic literal",
             "aggregate_reason": "Part 2 is an aggregate certification boundary and the semantic-r9 Part 2 baseline was 99.141675% Human; this exact local repair improved the natural Primal section from 11.885% to 88.483% Human while preserving all restored functions.",
         },
         "detector_plan": {"part2": "fresh exact aggregate Pangram 4 measurement; no seventh local Primal call"},
