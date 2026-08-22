@@ -16,6 +16,7 @@ concurrency:
   group: romance-preservation-r11-materialize
   cancel-in-progress: false
 
+# Retried after the task branch advanced while the first deterministic run was in flight.
 jobs:
   materialize:
     runs-on: ubuntu-latest
