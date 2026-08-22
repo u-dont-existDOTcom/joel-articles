@@ -23,10 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check out execution branch
+      - name: Check out canonical Romance task branch
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2 — same proven pin as main content-integrity
         with:
-          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'task/romance-detector-repair-20260820' }}
+          ref: task/romance-detector-repair-20260820
           fetch-depth: 0
       - name: Run focused materializer regressions
         run: |
@@ -55,9 +55,7 @@ jobs:
           python scripts/validate_article_architecture_maps.py --root .
           python scripts/audit_codex_github.py --root . --fail-on error
           git diff --check
-      - name: Commit generated candidates
-        env:
-          TARGET_REF: ${{ github.event_name == 'pull_request' && github.head_ref || 'task/romance-detector-repair-20260820' }}
+      - name: Commit generated candidates to canonical Romance task branch
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -66,4 +64,4 @@ jobs:
             work/romance-detector-repair-20260820/materialized-preservation-r10-part2
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Materialize Romance preservation r10 aggregates'
-          git push origin HEAD:"$TARGET_REF"
+          git push origin HEAD:task/romance-detector-repair-20260820
