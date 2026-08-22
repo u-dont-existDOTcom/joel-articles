@@ -12,6 +12,11 @@ SOURCE_MASTER_SHA = "6c094f6a011783fce65455143c27b03d14d33b64d7d4f4b3cf530b0e730
 SOURCE_P1_SHA = "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9"
 SOURCE_P2_SHA = "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
 
+# The generic helper still carries an older exact Crucible realization. Semantic
+# r9 already replaced that literal while preserving the registered safety
+# function. Do not make an unrelated r10 Talk/Affection edit restore stale prose.
+PROTECTED_EXACT_EXEMPT = {"coercion-exits-mutual-crucible"}
+
 FALSE_FATHER = """My dad gave me one piece of advice about sex: before you do it, ask each other whether you would want to raise children together and whether you're ready. That question started this whole article. I still think it's the best advice in it for people living in permissive cultures, where sex has been separated from the assumption that a baby and a life together may follow. In more traditional cultures, that part may already be assumed, which is why the rest of this article can't just be my dad's advice.
 
 If you can really talk about raising children together, most of the other important questions come up on their own. What kind of life do I want? What kind of life do you want? What would we want for a child? What would sex mean between us?"""
@@ -130,15 +135,24 @@ def audit(source_master: str, candidate_master: str, source_p1: str, candidate_p
         "affection_barometer": "Sex is a pretty sensitive barometer that way.",
         "affection_self_responsibility": "keeping some sexual life in me is partly my responsibility.",
         "affection_time": "whatever exhausted scraps of time are left at bedtime.",
+        "crucible_terror_or_control": "one person terrorizing or controlling the other",
+        "crucible_no_or_truth": "If you're scared to say no or tell the truth",
+        "crucible_leaving_fear": "or scared of what happens if you leave",
+        "crucible_safety_action": "get other people involved and think about safety first.",
     }
     missing = [name for name, anchor in required.items() if anchor not in candidate_master]
-    protected_missing = [name for name, anchor in helper.PROTECTED_ANCHORS.items() if anchor not in candidate_master]
+    protected_missing = [
+        name
+        for name, anchor in helper.PROTECTED_ANCHORS.items()
+        if name not in PROTECTED_EXACT_EXEMPT and anchor not in candidate_master
+    ]
     checks = {
         "headings_identical": helper.headings(source_master) == helper.headings(candidate_master),
         "native_markers_identical": helper.native_markers(source_master) == helper.native_markers(candidate_master),
         "markdown_link_destinations_identical": helper.markdown_links(source_master) == helper.markdown_links(candidate_master),
         "required_missing": missing,
         "protected_anchors_missing": protected_missing,
+        "protected_exact_exemptions": sorted(PROTECTED_EXACT_EXEMPT),
         "false_father_attribution_absent": FALSE_FATHER not in candidate_master,
         "casual_section_byte_identical": casual_source == casual_candidate,
         "casual_section_sha256": sha256_text(casual_candidate),
@@ -197,6 +211,7 @@ def main() -> int:
             "affection": "work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-affection-aggregate-composition.json",
             "casual": "byte-identical to semantic r9",
             "patient_maturity_hold": "unchanged in this materialization; existing exact 100% Human hold remains authoritative diagnostic evidence",
+            "crucible": "unchanged from semantic r9; current safety function is checked semantically rather than against the stale generic literal",
             "unexplained_deltas": 0,
         },
         "detector_plan": {
