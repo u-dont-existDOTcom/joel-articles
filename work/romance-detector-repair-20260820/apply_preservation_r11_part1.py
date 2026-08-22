@@ -161,7 +161,7 @@ def audit(source_master: str, candidate_master: str, source_p1: str, candidate_p
     if not part2.startswith(PATIENT_P2_PREFIX):
         raise RuntimeError("patient rollback: Part 2 opening changed from the exact measured cross-split continuation")
 
-    patient_cross_split = PATIENT_PART1_TAIL + PATIENT_P2_PREFIX
+    patient_cross_split = PATIENT_PART1_TAIL + "\n" + PATIENT_P2_PREFIX
 
     required = {
         "father_exact_opening": "Sex is what you do when you are older and you find a friend you want to have children with.",
