@@ -1,8 +1,129 @@
 {
   "schema_version": 1,
   "article_id": "somatic-therapies",
-  "status": "not_run",
-  "runs": [],
+  "status": "recorded",
+  "runs": [
+    {
+      "id": "somatic-r01-full",
+      "role": "registered_boundary",
+      "experiment_id": "somatic-therapies-r01-full-20260822-a",
+      "measurement_key": "somatic-therapies-r01-full-20260822-a_R01_FULL",
+      "model": "pangram-4",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "text_sha256": "613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e",
+      "reader_visible_normalized_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
+      "task_id": "3dd8af21-a811-4262-a1dd-96506b084b4e",
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "AI",
+        "fraction_ai": 0.9776151180267334,
+        "fraction_ai_assisted": 0.0,
+        "fraction_human": 0.02238490805029869,
+        "num_ai_segments": 2,
+        "num_human_segments": 1
+      },
+      "localization": {
+        "ai_window_1": {
+          "start_index": 0,
+          "end_index": 1529,
+          "confidence": "High"
+        },
+        "human_gap": {
+          "start_index": 1529,
+          "end_index": 2006,
+          "note": "Includes the Professor Baby Sheep / head-shaving-loveyhuasca material; preserve as high-value owner-like evidence, not as a universal detector charm."
+        },
+        "ai_window_2": {
+          "start_index": 2006,
+          "end_index": 21309,
+          "confidence": "High"
+        }
+      },
+      "cache_path": "cache/pangram-4/4.0/613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e/somatic-therapies-r01-full-20260822-a_R01_FULL.json",
+      "disposition": "canonical detector evidence; r01 remains the registered working master, but it does not meet the humanization target"
+    },
+    {
+      "id": "intro-r02",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-intro-r02-20260822-a",
+      "text_sha256": "83804709c0090d585f9299a0468acc268398ef0d1b35bfae8386b9f311fb83c0",
+      "task_id": "8be5f7ab-0c3f-47cf-8392-fadbc96255f0",
+      "result": {
+        "fraction_ai": 1.0,
+        "fraction_human": 0.0,
+        "headline": "AI Generated"
+      },
+      "disposition": "failed paraphrase probe; do not promote"
+    },
+    {
+      "id": "intro-r03",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-intro-r03-20260822-a",
+      "text_sha256": "eb5941a868b9b5540db3e2af1c148110f1a7b4d902802cbd1ec0b2917c3f25c0",
+      "task_id": "bcd6768c-fb31-477f-9641-e7ba1dfe9ea3",
+      "result": {
+        "fraction_ai": 1.0,
+        "fraction_human": 0.0,
+        "headline": "AI Generated"
+      },
+      "disposition": "failed paraphrase probe; do not promote"
+    },
+    {
+      "id": "intro-r05",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-intro-r05-authorial-route-20260822-a",
+      "text_sha256": "ecaec09a71c9a4978357dc6ae66fc96d6b62ec632ad56795b29261de83164c2b",
+      "task_id": "e4bffda7-ff79-4831-8f73-4a743d359843",
+      "result": {
+        "fraction_ai": 1.0,
+        "fraction_human": 0.0,
+        "headline": "AI Generated"
+      },
+      "disposition": "failed model-authored route probe; do not promote"
+    },
+    {
+      "id": "intro-r06",
+      "role": "failed_probe",
+      "experiment_id": "somatic-therapies-intro-r06-owner-language-20260822-a",
+      "text_sha256": "e12d0506d2e13c1dfbbdcb9c30a89c61e40c67b47734d9a78bb4e29c9b72a199",
+      "task_id": "bbb5eb4e-2d4a-4dcb-aee5-4fd0fc98b818",
+      "result": {
+        "fraction_ai": 1.0,
+        "fraction_human": 0.0,
+        "headline": "AI Generated"
+      },
+      "disposition": "failed probe despite more owner-like wording; do not promote"
+    },
+    {
+      "id": "intro-r07",
+      "role": "invalid_synthetic_probe",
+      "experiment_id": "somatic-therapies-intro-r07-personal-friction-20260822-a",
+      "text_sha256": "a85c2c032bd97ef96c6b0fc935709c145a69fc775d24989791f7af2b98b396e4",
+      "task_id": "979b620a-4ebf-476b-bec0-fcba5433a4c4",
+      "result": {
+        "fraction_ai": 1.0,
+        "fraction_human": 0.0,
+        "headline": "AI Generated"
+      },
+      "provenance": "No owner source was recovered for its added first-person claims about relaxation, unsafe love, or being at war with a younger self.",
+      "disposition": "invalid for article use; retain only as negative detector/provenance evidence"
+    },
+    {
+      "id": "owner-cancer-control",
+      "role": "natural_owner_control",
+      "experiment_id": "somatic-genre-calibration-owner-cancer-20260822-a",
+      "text_sha256": "26720c63247e52278d1820bd683aafee689870d59332d21334e0254084e86a84",
+      "task_id": "494b606c-58bf-463f-ab70-a0e505b2103d",
+      "result": {
+        "fraction_ai": 0.0,
+        "fraction_human": 1.0,
+        "headline": "Human Written",
+        "confidence": "High"
+      },
+      "disposition": "genre-relevant natural-owner control; supports model-shaped prose diagnosis rather than a general detector/genre failure"
+    }
+  ],
   "current_boundary": {
     "source": "articles/somatic-therapies/master.html reader-visible extraction",
     "reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
@@ -12,8 +133,12 @@
     "revision": "r01-candidate"
   },
   "paid_call_state": {
-    "status": "none_for_registered_boundary",
-    "note": "No Pangram call has yet been made for this exact registered boundary. Check Pangram durable cache/ledger before any paid request."
+    "registered_boundary_calls": 1,
+    "intro_audit_calls": 5,
+    "intro_audit_max_new_paid_calls": 6,
+    "intro_audit_remaining_calls": 1,
+    "owner_control_calls": 1,
+    "rule": "Do not spend the final intro slot on another conversational paraphrase. Use it only for a materially different, source-grounded realization after editorial reconstruction."
   },
-  "limitations": "Detector status is separate from fidelity, editorial quality, and authorship-signal retention."
+  "limitations": "Detector status is separate from fidelity, editorial quality, authorship-signal retention, and article authority. The natural-owner control is calibration evidence, not proof that any specific rewrite is Joel-authored."
 }

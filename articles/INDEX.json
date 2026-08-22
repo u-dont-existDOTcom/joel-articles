@@ -78,7 +78,7 @@
         },
         "current_state": {
           "path": "articles/somatic-therapies/CURRENT-STATE.md",
-          "sha256": "7fb75c6599a0fd40d82ca284232c40b546bf47810601a7465e9538d185ab33c9"
+          "sha256": "0c07cb1f80c898c0158ca9e1153fe2f23934ad6ba28f1a854cad4b4b62688126"
         }
       },
       "review": {
@@ -89,8 +89,8 @@
         },
         "detector": {
           "path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json",
-          "sha256": "b3e95742476f34afe6baa1951497130600045efd2fb53da468da7e2bbbf1019c",
-          "status": "not_run"
+          "sha256": "bd328d4324b9433f8298109774237f03e030b244846734451e9516ff890c91de",
+          "status": "recorded"
         },
         "editorial": {
           "path": "articles/somatic-therapies/EDITORIAL-STATUS.json",
