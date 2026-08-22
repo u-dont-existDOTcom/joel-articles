@@ -32,7 +32,7 @@ A **100% Human** detector result is still editorially invalid if preservation pr
 
 For `D3` sectional reconstruction and `D4` article-wide regeneration, also apply `../project-sources/IDIOLECT-PRESERVATION-PROTOCOL.md`. Compare the authoritative original and candidate with a held-out, genre-relevant corpus only after corpus provenance and target voice are explicit. Narrow `D1` correction and ordinary `D2` local repair do not automatically require measurement.
 
-Keep three results separate:
+Keep four results separate:
 
 1. semantic/editorial fidelity and preservation proof;
 2. article architecture/coherence;
