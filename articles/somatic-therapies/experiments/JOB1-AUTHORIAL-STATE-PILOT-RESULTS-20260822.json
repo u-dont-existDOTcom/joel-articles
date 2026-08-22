@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "article_id": "somatic-therapies",
+  "experiment": "job1-authorial-state-pilot",
+  "status": "closed_negative",
+  "audit_id": "somatic-therapies-job1-authorial-state-20260822",
+  "section_id": "job1-se-yoga",
+  "paid_calls": 2,
+  "estimated_cost_usd": 0.1,
+  "control": {
+    "id": "JOB1_SE_YOGA_CONTROL_C",
+    "role": "registered_r01_control",
+    "text_sha256": "b6d0963993017a2aa647cb03ec073a0567ba549e4e0cc3f7cc8348a97f7cc6ee",
+    "word_count": 309,
+    "task_id": "a7b989da-d113-4718-a44f-c5ae8ce06af0",
+    "pangram": {
+      "model": "pangram-4",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "headline": "AI Generated",
+      "fraction_ai": 1.0,
+      "fraction_ai_assisted": 0.0,
+      "fraction_human": 0.0,
+      "confidence": "High"
+    }
+  },
+  "test": {
+    "id": "JOB1_SE_YOGA_AUTHORIAL_D",
+    "role": "authorial_state_realization",
+    "text_sha256": "73fc547b781680e92aca406ce924e1b865f393baf157e5f39ce217b562c441ad",
+    "word_count": 331,
+    "task_id": "12896144-677d-4024-9261-b5b5a1545364",
+    "pangram": {
+      "model": "pangram-4",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "headline": "AI Generated",
+      "fraction_ai": 1.0,
+      "fraction_ai_assisted": 0.0,
+      "fraction_human": 0.0,
+      "confidence": "High"
+    }
+  },
+  "editorial_pretest": "Test D materially improved live-thought continuity without fidelity loss and passed the blocking preservation gate.",
+  "detector_outcome": "No detector improvement: both exact natural-section boundaries returned 100% AI at High confidence.",
+  "disposition": "Stop this authorial-state realization. Do not synonym-iterate or spend the remaining four section-call slots on variants of the same mechanism. No candidate is promoted into article authority.",
+  "next_method": "Evaluate the existing Authorial Flow Graph runtime, which composes generation, semantic/preservation/flow gates, model diversity, downstream Pangram, and bounded stop logic, before inventing another manual humanization heuristic.",
+  "evidence": {
+    "fixed_batch_spec": "u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch:experiments/somatic-therapies-job1-authorial-state-ab-20260822-a.json",
+    "call_ledger": "u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch:state/pangram-call-ledgers/somatic-therapies-job1-authorial-state-20260822.json"
+  }
+}
