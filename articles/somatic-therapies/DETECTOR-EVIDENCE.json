@@ -1,8 +1,63 @@
 {
   "schema_version": 1,
   "article_id": "somatic-therapies",
-  "status": "not_run",
-  "runs": [],
+  "status": "recorded",
+  "runs": [
+    {
+      "id": "somatic-therapies-r01-full-20260822-a_R01_FULL",
+      "timestamp_utc": "2026-08-22T00:42:03.179283+00:00",
+      "model": "pangram-4",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "scope": "aggregate",
+      "submitted_text_sha256": "613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e",
+      "registered_reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "AI",
+        "fraction_ai": 0.9776151180267334,
+        "fraction_ai_assisted": 0.0,
+        "fraction_human": 0.02238490805029869,
+        "num_ai_segments": 2,
+        "num_ai_assisted_segments": 0,
+        "num_human_segments": 1
+      },
+      "windows": [
+        {
+          "start_index": 0,
+          "end_index": 1529,
+          "label": "AI-Generated",
+          "confidence": "High",
+          "ai_assistance_score": 0.9663395881652832,
+          "humanizer_score": 0.8160963654518127,
+          "token_length": 303,
+          "word_count": 249
+        },
+        {
+          "start_index": 1529,
+          "end_index": 2006,
+          "label": "Human Written",
+          "confidence": "High",
+          "ai_assistance_score": 0.025476735085248947,
+          "humanizer_score": 0.0,
+          "token_length": 99,
+          "word_count": 77
+        },
+        {
+          "start_index": 2006,
+          "end_index": 21309,
+          "label": "AI-Generated",
+          "confidence": "High",
+          "ai_assistance_score": 0.9881141781806946,
+          "humanizer_score": 0.4265786409378052,
+          "token_length": 3971,
+          "word_count": 3101
+        }
+      ],
+      "cache_path": "cache/pangram-4/4.0/613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e/somatic-therapies-r01-full-20260822-a_R01_FULL.json",
+      "interpretation": "The broad architecture-first rewrite did not solve Pangram. The only Human window is the supplied Professor Baby Sheep + head-shaving/loveyhuasca passage; the opening and all prose after that window remain High-confidence AI. Use natural-section repair rather than token-level edits."
+    }
+  ],
   "current_boundary": {
     "source": "articles/somatic-therapies/master.html reader-visible extraction",
     "reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
@@ -12,8 +67,12 @@
     "revision": "r01-candidate"
   },
   "paid_call_state": {
-    "status": "none_for_registered_boundary",
-    "note": "No Pangram call has yet been made for this exact registered boundary. Check Pangram durable cache/ledger before any paid request."
+    "status": "aggregate_baseline_completed; introduction_repair_call_pending",
+    "aggregate_paid_calls": 1,
+    "section_calls": {
+      "introduction": 1
+    },
+    "note": "Do not repeat the completed aggregate boundary. Introduction r02 is frozen under its own section identity; recover its pending/completed state before any further introduction call."
   },
-  "limitations": "Detector status is separate from fidelity, editorial quality, and authorship-signal retention."
+  "limitations": "Detector status is separate from fidelity, editorial quality, and authorship-signal retention. The 77-word Human window is short and is evidence about this exact boundary, not proof of authorship."
 }
