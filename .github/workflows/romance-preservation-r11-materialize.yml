@@ -1,0 +1,39 @@
+name: Romance preservation r11 materialize
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - work/romance-detector-repair-20260820/tools/materialize_preservation_r11.py
+      - .github/workflows/romance-preservation-r11-materialize.yml
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Materialize exact candidate
+        run: python work/romance-detector-repair-20260820/tools/materialize_preservation_r11.py
+      - name: Check patch hygiene
+        run: git diff --check
+      - name: Commit generated candidate
+        shell: bash
+        run: |
+          if git diff --quiet -- work/romance-detector-repair-20260820/materialized-preservation-r11; then
+            echo 'candidate already materialized'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-preservation-r11
+          git commit -m 'Materialize Romance preservation r11 candidate'
+          git push origin HEAD:${GITHUB_REF_NAME}
