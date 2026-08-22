@@ -28,7 +28,9 @@ The validator proves registered structure and hashes, not article truth or edito
 
 Use one article-scoped task branch/worktree and a pull request. Keep owner-final prose, reconstruction state, source evidence, detector experiments, and promoted lessons distinguishable. Persist decisions and recovery state in Git before ending a substantive pass.
 
-For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is blocking: re-run the article-wide architecture regression after every detector-driven edit. Do not narrow the editorial field of view to the last detector window.
+For P2S/P3/P4 humanization, D3/D4 reconstruction, or detector-driven semantic edits, `docs/HUMANIZATION-PRESERVATION-GATE.md` is blocking **before detector submission**. Freeze the authoritative changed scope, enumerate preservation units and the authorized-change whitelist before drafting, then require bidirectional source↔candidate traceability with **zero unexplained substantive deltas**. Re-run that proof after every detector-driven semantic edit. A detector-green candidate that fails preservation is fidelity-rejected and cannot be promoted.
+
+For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is also blocking: re-run the article-wide architecture regression after every detector-driven edit. Do not narrow the editorial field of view to the last detector window.
 
 Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invitation/de-escalation language belongs or when an owner-approved AI/synthetic draft carries useful thought architecture. Protected function and correct placement are separate judgments.
 
@@ -42,11 +44,12 @@ Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invita
 - Never silently soften, balance, or change the owner's argument. Disagreement must be raised directly rather than hidden in an edit.
 - Preserve every unique claim, step, joke, protected rhetorical function, and owner-final passage unless a proposed cut has explicit owner approval or genuine semantic equivalence.
 - Treat deletions and consolidations as explicit proposals. Record the original text and destination or owner approval so the change is reversible; do not silently discard apparently redundant material.
+- For substantial rewrites, every protected source unit must have a candidate mapping or an already-authorized non-preservation disposition, and every substantive candidate delta must map back to the change whitelist or owner authority. `Inferable`, `redundant`, `smoother`, and `better for Pangram` are never sufficient deletion authority.
 - Owner-lock manifests contain exact protected passages. A passing hash check is necessary but not sufficient: review the master article-wide for function, sequence, agency, and meaning preservation.
 - Keep claim-level source provenance local. Mark unsupported, inaccessible, disputed, or owner-only claims precisely; never fabricate a citation or flatten the author's position to make sourcing easier.
 - During a requested editing or humanization pass, do not turn the task into unsolicited fact-checking or claim review. Research/verify when Joel asks, or flag a claim only when there is a concrete material reason under the article protocol; empirical or contestable language alone is not such a reason.
 - Detector results are evidence, not editorial authority; passing a detector never licenses distortion of meaning or voice.
-- A 100% Human detector result is still invalid if heading promise, paragraph jobs, live-question continuity, owner-realization placement, protected functions, or fidelity fail the architecture regression.
+- A 100% Human detector result is still invalid if preservation proof, heading promise, paragraph jobs, live-question continuity, owner-realization placement, protected functions, or fidelity fail.
 
 Treat chat as disposable working memory. A fresh worker must recover the correct article state, constraints, and next action from Git.
 
