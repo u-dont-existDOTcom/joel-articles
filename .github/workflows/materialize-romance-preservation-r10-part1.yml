@@ -8,19 +8,23 @@ on:
       - 'work/romance-detector-repair-20260820/apply_preservation_r10_part1.py'
       - 'tests/test_romance_preservation_r10_part1.py'
       - '.github/workflows/materialize-romance-preservation-r10-part1.yml'
+  pull_request:
+    branches:
+      - task/romance-detector-repair-20260820
 
 permissions:
   contents: write
 
 jobs:
   materialize:
+    if: github.event_name == 'push' || github.head_ref == 'task/romance-r10-materialize-ci-20260822'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check out task branch
+      - name: Check out execution branch
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2 — same proven pin as main content-integrity
         with:
-          ref: task/romance-detector-repair-20260820
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'task/romance-detector-repair-20260820' }}
           fetch-depth: 0
       - name: Run focused materializer regression
         run: python -m unittest tests.test_romance_preservation_r10_part1 -q
@@ -40,10 +44,12 @@ jobs:
           python scripts/audit_codex_github.py --root . --fail-on error
           git diff --check
       - name: Commit generated candidate
+        env:
+          TARGET_REF: ${{ github.event_name == 'pull_request' && github.head_ref || 'task/romance-detector-repair-20260820' }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add work/romance-detector-repair-20260820/materialized-preservation-r10
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Materialize Romance preservation r10 Part 1'
-          git push origin HEAD:task/romance-detector-repair-20260820
+          git push origin HEAD:"$TARGET_REF"
