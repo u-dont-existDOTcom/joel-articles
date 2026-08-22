@@ -45,10 +45,10 @@
         {"path": "articles/somatic-therapies/ARCHITECTURE.md", "sha256": "65716b893e5f80cf9105b08ab4102d0d40a20b8e0e42f106eb46816ea1c28d42", "role": "architecture_map"},
         {"path": "articles/somatic-therapies/HUMANIZATION-REPORT.md", "sha256": "485cb2043b5abe9c922b98985767550bbc851dd339465d301740948f7fa213bf", "role": "humanization_report"},
         {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-20260822.md", "sha256": "b6c9d2f77e620c087f89bacd19706855b62e8ebd72d6cb8d741c05c1adcf3228", "role": "authorial_flow_input"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-20260822.md", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "role": "detector_experiment_design"},
+        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-20260822.md", "sha256": "6c3fdfd995977fda79f4018639228603421f6182227201b2208aaa962ed59db0", "role": "detector_experiment_design"},
         {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-RESULTS-20260822.json", "sha256": "23b950269b2e34ebb03317ac7f6dee9eb97d19e4f79da371417ed6d31fce404d", "role": "detector_experiment_result"},
         {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-20260822.md", "sha256": "b1487d7c257dcebc11570808df3b85ad72ad2da389fbb97f5d148f3d95d65947", "role": "authorial_flow_input"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-PRESERVATION-20260822.json", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "role": "preservation_proof"}
+        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-PRESERVATION-20260822.json", "sha256": "b64d116524b95e0148604bebfbb22c7b5fb29a90406b2f8ec1740e7dd064f2f6", "role": "preservation_proof"}
       ]
     }
   ]
