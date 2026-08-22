@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "article_id": "somatic-therapies",
+  "status": "pending",
+  "checks": [
+    {
+      "id": "authority-identity",
+      "status": "passed",
+      "evidence": "Joel explicitly authorized registration of r01 on 2026-08-22."
+    },
+    {
+      "id": "humanization-architecture",
+      "status": "passed",
+      "evidence": "Article-wide P2S/D4 reconstruction removed the repeated modality-card skeleton while retaining the five-job model and article functions."
+    },
+    {
+      "id": "fidelity",
+      "status": "passed",
+      "evidence": "Three cold audits; substantive claims intended unchanged; 16/16 ordinary links and 8/8 native/editor objects preserved, with native objects byte-identical and ordered."
+    },
+    {
+      "id": "owner-final-review",
+      "status": "pending",
+      "evidence": "Registration authorizes working canonical status, not owner-final prose approval."
+    },
+    {
+      "id": "detector",
+      "status": "pending",
+      "evidence": "No Pangram result yet for exact r01 reader-visible boundary."
+    },
+    {
+      "id": "citation-review",
+      "status": "pending",
+      "evidence": "Claim-by-claim health/source review was outside the requested humanization pass."
+    }
+  ],
+  "meaning_fidelity": "The r01 reconstruction changes prose architecture and wording while preserving the source arguments, treatment placements, recommendations, evidence distinctions, personal material, links, native media, and safety warnings.",
+  "detector_role": "Pangram will be used only for exact-boundary localization after registration; it does not establish authorship or editorial authority.",
+  "owner_final_boundary": "Not claimed. Article remains working until Joel explicitly accepts an owner-final state and required review records support it."
+}
