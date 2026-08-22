@@ -1,6 +1,5 @@
 name: Materialize Romance preservation r10 Part 1
 
-# Retriggered from the current task head after later detector-proof commits advanced the branch.
 on:
   push:
     branches:
@@ -16,15 +15,15 @@ permissions:
 jobs:
   materialize:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - name: Check out task branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2 — same proven pin as main content-integrity
         with:
           ref: task/romance-detector-repair-20260820
           fetch-depth: 0
-      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
-        with:
-          python-version: '3.12'
-      - run: python -m unittest tests.test_romance_preservation_r10_part1 -q
+      - name: Run focused materializer regression
+        run: python -m unittest tests.test_romance_preservation_r10_part1 -q
       - name: Materialize exact candidate
         run: |
           rm -rf work/romance-detector-repair-20260820/materialized-preservation-r10
