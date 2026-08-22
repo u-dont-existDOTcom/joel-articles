@@ -1,5 +1,6 @@
 name: Materialize Romance r10 PR helper
 
+# synchronize trigger after base-branch materializer routing was enabled
 on:
   pull_request:
     branches:
