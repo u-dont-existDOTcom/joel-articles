@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "article_id": "somatic-therapies",
+  "status": "pending",
+  "claims": [
+    {
+      "id": "link-preservation",
+      "status": "passed",
+      "evidence": "16/16 ordinary article links were preserved as the same URL multiset from owner source to r01 candidate."
+    },
+    {
+      "id": "claim-by-claim-health-review",
+      "status": "pending",
+      "evidence": "No new factual or health verification was requested in the humanization pass; the inherited claim-level citation review remains pending."
+    },
+    {
+      "id": "source-access-review",
+      "status": "pending",
+      "evidence": "Existing linked sources were preserved, but this registration does not claim fresh full-text verification of every health/scientific assertion."
+    }
+  ]
+}
