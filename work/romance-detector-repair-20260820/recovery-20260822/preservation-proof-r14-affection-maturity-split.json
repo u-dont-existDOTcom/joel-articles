@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
   "source": {
-    "task_master_sha256": "43d98cdb0df5fc9437f89ba56187e3a5586951375ccbf69e6e6a82e82569925f",
-    "task_part1_sha256": "f272bf6fab784a4e1922374a36573f216f29c6c691deba0fe0394a2aaad3fd83",
-    "task_part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
-    "registered_master_path": "articles/romance/master.md",
-    "registered_master_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r12-part1/candidate-master.md",
+    "revision": "task/romance-detector-repair-20260820@8d07df002d441afe7aa9313a32e222205c6f7108",
+    "sha256": "43d98cdb0df5fc9437f89ba56187e3a5586951375ccbf69e6e6a82e82569925f"
+  },
+  "registered_authority": {
+    "master_path": "articles/romance/master.md",
+    "master_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
     "architecture_path": "articles/romance/ARCHITECTURE.md"
   },
   "changed_scope": "Romance / Affection and the simmer plus aggregate boundary relocation before the complete Maturity section",
@@ -16,7 +18,7 @@
       "unit_id": "PU-R14-AFF-01",
       "source_ref": "registered main / Affection paragraph 1",
       "authority": "registered canonical master",
-      "type": "source-backed claim/function",
+      "type": "function",
       "meaning": "Doug Toft's no-agenda-touch advice: affection must sometimes be allowed to end without becoming a bid for sex, otherwise affection can become pressure.",
       "required_context": "Affection section opening and exact Toft link identity",
       "allowed_disposition": "must-remain-exact",
@@ -27,7 +29,7 @@
       "unit_id": "PU-R14-AFF-02",
       "source_ref": "registered main / Affection paragraph 2",
       "authority": "registered canonical master",
-      "type": "source-backed claim/function",
+      "type": "function",
       "meaning": "The opposite failure is losing the erotic current except at official initiation; Kim Anami's simmer names the between-encounter sexual current.",
       "required_context": "exact Kim Anami link identity and contrast with nonsexual affection",
       "allowed_disposition": "must-remain-exact",
@@ -38,7 +40,7 @@
       "unit_id": "PU-R14-AFF-03",
       "source_ref": "registered main / Affection paragraph 2 tail",
       "authority": "registered canonical master",
-      "type": "qualification/judgment",
+      "type": "judgment",
       "meaning": "The simmer must not become relationship homework, but a couple who supposedly desire each other and barely flirt/tease/show desire should treat that as a warning rather than expect desire to appear from zero at bedtime.",
       "required_context": "follows the simmer examples",
       "allowed_disposition": "must-remain-exact",
@@ -49,7 +51,7 @@
       "unit_id": "PU-R14-AFF-04",
       "source_ref": "registered main / You need both paragraph",
       "authority": "registered canonical master",
-      "type": "judgment/function",
+      "type": "judgment",
       "meaning": "Healthy erotic maintenance requires both safe non-escalating affection and a living erotic current.",
       "required_context": "synthesizes the Toft/Anami contrast",
       "allowed_disposition": "must-remain-exact",
@@ -60,7 +62,7 @@
       "unit_id": "PU-R14-AFF-05",
       "source_ref": "registered main / sex barometer paragraph",
       "authority": "registered canonical master",
-      "type": "claim/function",
+      "type": "claim",
       "meaning": "A change in sex can function as a barometer for resentment, closeness, stress, health, medication, or feeling wanted.",
       "required_context": "follows the both-needs synthesis",
       "allowed_disposition": "must-remain-exact",
@@ -82,7 +84,7 @@
       "unit_id": "PU-R14-AFF-07",
       "source_ref": "registered main / responsibility paragraph ending",
       "authority": "registered canonical master",
-      "type": "judgment/function",
+      "type": "function",
       "meaning": "If sex materially distinguishes romance from friendship, it deserves protected attention rather than only exhausted leftover time.",
       "required_context": "true Affection-section stopping point before Casual",
       "allowed_disposition": "must-remain-exact",
@@ -93,10 +95,10 @@
       "unit_id": "PU-R14-MATURITY-01",
       "source_ref": "complete Maturity section across the former aggregate split",
       "authority": "task source + registered architecture",
-      "type": "context/function",
+      "type": "context",
       "meaning": "The maturity thought remains one coherent section: unequal permanent caregiving/role capture, patient/guru dynamics, self-responsibility, complementarity, role-flipping, and burden-sharing lead together into Primal Attraction.",
       "required_context": "do not split the detector boundary inside this section",
-      "allowed_disposition": "may-move:aggregate Part 2 boundary only",
+      "allowed_disposition": "may-move:aggregate Part 2 boundary",
       "candidate_mapping": "r14 Part 2 starts at the complete Maturity section; article prose and order are unchanged by the boundary move",
       "status": "moved"
     },
@@ -125,16 +127,16 @@
   "candidate_deltas": [
     {
       "delta_id": "DELTA-R14-01",
-      "classification": "higher-authority canonical rollback",
+      "classification": "other-substantive-change",
       "description": "Compressed one-paragraph Affection is replaced by the exact registered-main multi-paragraph Affection realization, restoring separate no-agenda affection, simmer/no-homework, both-needs, barometer, self-responsibility, and protected-time jobs plus original Toft/Anami links.",
-      "authority_ref": "CH-R14-01 + registered master af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+      "authority_ref": "CH-R14-01",
       "status": "authorized"
     },
     {
       "delta_id": "DELTA-R14-02",
-      "classification": "aggregate boundary relocation only",
+      "classification": "movement",
       "description": "Detector split moves from inside the Maturity thought to immediately before the complete Maturity section; full reader-visible article order is unchanged by this operation.",
-      "authority_ref": "CH-R14-02 + registered architecture maturity node",
+      "authority_ref": "CH-R14-02",
       "status": "authorized"
     }
   ],
