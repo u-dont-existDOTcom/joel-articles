@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "external owner-supplied Somatic Therapies source / Job 1 section",
+    "revision": "owner source baseline plus 2026-07-16 owner correction ledger",
+    "sha256": "0d7e03ccde3900277e7ee8e9a1f5aac3c4f780d5243396f9bb2a100ee57083f9"
+  },
+  "changed_scope": "Job 1 Somatic Experiencing and trauma-sensitive/restorative yoga input for Authorial Flow",
+  "mode": "P2S",
+  "edit_dose": "D2",
+  "preservation_units": [
+    {
+      "unit_id": "PU-SE-GOAL",
+      "source_ref": "Job 1 / Somatic Experiencing / Goal",
+      "authority": "owner-supplied source baseline",
+      "type": "function",
+      "meaning": "Somatic Experiencing is used here to expand the window of tolerance and establish nervous-system safety.",
+      "required_context": "Job 1 before deeper trauma processing",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "V2 Somatic Experiencing Goal",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SE-WHY-FIRST",
+      "source_ref": "Job 1 / Somatic Experiencing / Why first",
+      "authority": "owner-supplied source baseline",
+      "type": "causality",
+      "meaning": "When autonomic regulation cannot return, deeper trauma work may destabilize; Somatic Experiencing works with sensation, orientation, impulse, defensive response, and pacing instead of forcing trauma narration before the body can tolerate it.",
+      "required_context": "general reader guidance, not a personal anecdote",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "V2 Somatic Experiencing Why first",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SE-DURATION",
+      "source_ref": "Job 1 / Somatic Experiencing / Typical duration",
+      "authority": "owner-supplied source baseline",
+      "type": "claim",
+      "meaning": "Orientation/capacity work is often 3–6 months and can take longer for severe developmental trauma.",
+      "required_context": "orientation range rather than a newly invented readiness shortcut",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "V2 Somatic Experiencing Typical duration",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-SE-BEST-USE",
+      "source_ref": "Job 1 / Somatic Experiencing / Best use",
+      "authority": "owner-supplied source baseline",
+      "type": "function",
+      "meaning": "Best-use functions are capacity building, gentle sensation tracking, titration, pendulation, orientation, and learning activation versus overwhelm.",
+      "required_context": "none",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "V2 Somatic Experiencing Best use",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-YOGA-GOAL",
+      "source_ref": "Job 1 / Trauma-Sensitive Restorative Yoga / Goal",
+      "authority": "owner correction r0034",
+      "type": "function",
+      "meaning": "Yoga's goal here is body awareness, flexibility, enjoyment, and agency.",
+      "required_context": "not reduced to stabilization or interoceptive tolerance alone",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "V2 Yoga Goal",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-YOGA-SEQUENCE",
+      "source_ref": "Job 1 / Yoga fits best early in the sequence",
+      "authority": "owner-supplied source plus owner correction r0035",
+      "type": "chronology",
+      "meaning": "Trauma-sensitive/restorative yoga belongs in the early regulation/capacity portion of this trauma-work map before deeper processing.",
+      "required_context": "early refers to the article's treatment sequence, not necessarily the first act of therapy",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "V2: Yoga fits here before deeper trauma processing",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-YOGA-FORMS",
+      "source_ref": "Job 1 / Yoga / Best forms",
+      "authority": "owner-supplied source baseline",
+      "type": "example",
+      "meaning": "Keep trauma-sensitive, restorative, gentle somatic, and very gentle propped/short/choice-based yin yoga as the listed forms.",
+      "required_context": "none",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "V2 Yoga Best forms list",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-YOGA-CUES",
+      "source_ref": "Job 1 / Good trauma-sensitive instructions sound like",
+      "authority": "owner-supplied source plus owner correction r0046",
+      "type": "quotation",
+      "meaning": "Keep the five illustrative choice-based cue examples, including the owner-corrected statement that a posture can have several correct versions rather than no correct version.",
+      "required_context": "illustrative wording examples, not attributed verbatim quotations from a named external source",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "V2 illustrative trauma-sensitive instruction list",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-YOGA-WARNING",
+      "source_ref": "Job 1 / Yoga / Warning",
+      "authority": "owner-supplied source plus owner correction r0047",
+      "type": "function",
+      "meaning": "Preserve the complete caution against intense stretching, long passive holds, forced breathwork, breath retention, adjustments without clear consent, aggressive hip openers, and push-through-sensation instructions; preserve choice, safety, embodiment rather than dramatic release.",
+      "required_context": "trauma-sensitive use; owner explicitly restored the clear-consent qualification",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "V2 Yoga Warning",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-REMOVE-UNSOURCED-SHORTCUT",
+      "description": "Do not carry forward r01's assistant-added 'stable / one clear target / focused trauma work much sooner' shortcut because it is absent from the owner source used for this experiment; preserve the source's 3–6 month and severe-developmental-trauma orientation statement instead."
+    },
+    {
+      "change_id": "CH-CLARIFY-EARLY",
+      "description": "Resolve 'early in the sequence' to 'before deeper trauma processing' using the source's Phase 1/Why-first chronology; do not redefine it as the beginning of all therapy."
+    },
+    {
+      "change_id": "CH-MARK-CUES-ILLUSTRATIVE",
+      "description": "Make explicit what the source heading 'Good trauma-sensitive instructions sound like' already implies: the cue quotations are illustrative examples, not attributed verbatim quotations from one external source."
+    },
+    {
+      "change_id": "CH-SCOPE-YOGA-WARNING",
+      "description": "Make the warning's existing trauma-sensitive context explicit while preserving every listed caution and the owner-restored 'without clear consent' qualification."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-REMOVE-SHORTCUT",
+      "classification": "deleted-proposition",
+      "description": "The r01-only readiness shortcut is excluded from this experiment input; it is not part of the owner-source Job 1 preservation set.",
+      "authority_ref": "CH-REMOVE-UNSOURCED-SHORTCUT",
+      "status": "authorized"
+    },
+    {
+      "delta_id": "DELTA-EARLY-CLARIFICATION",
+      "classification": "authorized-rewording",
+      "description": "Yoga 'fits best early in the sequence' is represented as fitting before deeper trauma processing.",
+      "authority_ref": "CH-CLARIFY-EARLY",
+      "status": "authorized"
+    },
+    {
+      "delta_id": "DELTA-CUE-PROVENANCE",
+      "classification": "attribution-provenance-change",
+      "description": "The cue list is explicitly labeled illustrative rather than left potentially ambiguous as sourced quotation material.",
+      "authority_ref": "CH-MARK-CUES-ILLUSTRATIVE",
+      "status": "authorized"
+    },
+    {
+      "delta_id": "DELTA-WARNING-SCOPE",
+      "classification": "certainty-scope-change",
+      "description": "The yoga warning is explicitly scoped to trauma-sensitive use without weakening or deleting any caution.",
+      "authority_ref": "CH-SCOPE-YOGA-WARNING",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "This receipt governs the experimental Authorial Flow input only. It does not promote V2 into article authority and does not authorize a Pangram call. The source-provenance decisions are grounded in the owner-supplied Job 1 source and the 2026-07-16 correction ledger."
+}
