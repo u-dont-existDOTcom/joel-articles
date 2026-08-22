@@ -13,11 +13,17 @@ Use this skill only for work intended for Joel Rosenblum's byline and related ar
 
 Direct Joel rewrites supersede model candidates. Chat, Project memory, File Library copies, rendered previews, old helpers, and detached drafts are working context only and never override registered Git authority.
 
-This repository now has registered article authority: `articles/INDEX.json` currently registers Romance as a working article. For Romance work, load its registered current state/master/locks/evidence from the registry and never infer a newer master from chat, filenames, summaries, Project Sources, historical Pangram branches, or an external packet.
+This repository now has registered article authority: `articles/INDEX.json` currently registers **Romance** and **Somatic Therapies** as working articles. For any registered article, load its registered current state/master/locks/evidence from the registry and never infer a newer master from chat, filenames, summaries, Project Sources, historical Pangram branches, or an external packet.
 
 At the start of substantial work read this file, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`, then load only the least additional task-relevant material.
 
 For Pangram/detector/humanization work also read `u-dont-existDOTcom/pangram-humanization-lab` fresh: `README.md`, current `state/WORKING-LESSONS.md`, the relevant case study, and newest relevant case/history. Do not substitute web search for private GitHub data and do not repeat paid detector work before checking durable cache/history.
+
+## Default-public working boundary
+
+Joel's standing owner rule, confirmed 2026-08-22: **his work may be stored in public GitHub repositories by default unless he explicitly says that a task, source, artifact, or repository is private/confidential.** This includes article drafts and state, research notes, detector specs/evidence, tooling, and ordinary working artifacts.
+
+This default does **not** authorize external publication or posting to Substack, websites, social media, newsletters, or other destinations; it does not grant a copyright/license; and it does not override explicit existing private repositories or confidentiality instructions. Credentials, secrets, private third-party data, and material that is independently required to remain private must never be made public merely because Joel's own work is public by default.
 
 ## Execution gate
 
