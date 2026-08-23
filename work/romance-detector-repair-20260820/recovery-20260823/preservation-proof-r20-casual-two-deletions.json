@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-r20-casual-two-deletions",
+  "mode": "D2 owner-approved minimum-dose consolidation",
+  "edit_dose": "two exact sentence deletions only",
+  "authority": {
+    "source_candidate_master": {
+      "path": "work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-master.md",
+      "sha256": "b31af3c2f692d44b63e43dbfed99436584228f2ac7b8177045f5a3b751ea1ea8"
+    },
+    "source_part1": {
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "automation/pangram-fixed-batch",
+      "path": "state/candidates/romance-detector-repair-20260820-preservation-r19-owner-final-talk-part1.txt",
+      "sha256": "ca42804f9774e66423caba07be4db4123a80ecb0b61e7a75d1ae2db271a8b9f5",
+      "word_count_whitespace": 10331
+    },
+    "owner_approval": "Joel approved the proposed exact two-deletion article candidate with `good continue` on 2026-08-23 after manually establishing the interaction controls."
+  },
+  "changed_scope": "Romance / Can Casual Sex or a Situationship Actually Be Honest? — remove exactly two sentences from the opening natural section and change nothing else",
+  "preservation_units": [
+    {
+      "unit_id": "PU-R20-01",
+      "authority": "r19 + registered-main Casual",
+      "type": "function",
+      "meaning": "A casual agreement does not control whether attachment occurs afterward.",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "Preserved by `Your body doesn’t know that you picked someone up at a bar and agreed it was only for fun.` followed by the next-morning attachment consequence and the candid-intention quote.",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-02",
+      "authority": "r19 sentence + current owner approval",
+      "type": "mechanism",
+      "meaning": "The deleted oxytocin/vasopressin sentence labels a biological mechanism for attachment after casual sex.",
+      "allowed_disposition": "owner-deleted: Joel approved the exact two-deletion candidate on 2026-08-23",
+      "candidate_mapping": "Exact sentence removed; no replacement mechanism claim is invented.",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-03",
+      "authority": "r19 + registered-main Casual",
+      "type": "example",
+      "meaning": "The next-morning wondering-why-they-didn’t-call sequence and Russian-Roulette judgment remain exactly as the situated attachment consequence.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged r19 first Casual paragraph except the authorized hormone sentence deletion",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-04",
+      "authority": "r19 + registered-main Casual",
+      "type": "function",
+      "meaning": "A person can candidly state present uncertainty about wanting a serious relationship while still wanting sex.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "Exact quoted sentence `I don’t know whether I want something serious with you...` remains.",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-05",
+      "authority": "r19 + registered-main Casual",
+      "type": "function",
+      "meaning": "Candid present intention does not erase pregnancy responsibility; penetrative sex can create a child and contraception is imperfect.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "Entire pregnancy/responsibility paragraph remains byte-for-byte exact.",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-06",
+      "authority": "r19 + registered-main Casual",
+      "type": "function",
+      "meaning": "STI knowledge can be disclosed as known/unknown, while feelings are less controllable.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "`The STI part is easy: say what you know, or say you don’t know. Feelings aren’t.` remains exact.",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-07",
+      "authority": "r19 sentence + current owner approval",
+      "type": "function",
+      "meaning": "The deleted `You can both mean...` sentence explicitly states that sincere casual intent does not guarantee no later attachment.",
+      "allowed_disposition": "duplicate-function-consolidation: surviving realization is the casual-agreement setup + next-morning attachment consequence + candid-intention quote",
+      "candidate_mapping": "Exact sentence removed; its substantive function survives in the immediately surrounding sequence rather than being re-explained.",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-08",
+      "authority": "r19 + registered-main Casual",
+      "type": "judgment",
+      "meaning": "The opinionated caveat `If you’re both really numb or robotic about sex, maybe not.` remains exactly; manual controls show it is also contextually protective in the detector boundary.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged final sentence of the STI/feelings paragraph",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-09",
+      "authority": "r19 registered-main rollbacks",
+      "type": "context",
+      "meaning": "Registered-main Affection preceding Casual and all Casual prose beginning `Outside a loving poly community or tribe...` remain unchanged.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged from r19",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-10",
+      "authority": "direct owner r19",
+      "type": "context",
+      "meaning": "Joel’s owner-final Talk replacement remains exact and settled.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged from r19",
+      "status": "pending-materialization"
+    },
+    {
+      "unit_id": "PU-R20-11",
+      "authority": "stable detector boundary",
+      "type": "context",
+      "meaning": "Part 2 remains byte-identical to the prior exact 100%-Human boundary.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "Part 2 SHA 9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+      "status": "pending-materialization"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-R20-01",
+      "description": "Delete exactly `Oxytocin, vasopressin, and the rest can start attaching you anyway.` and no surrounding prose."
+    },
+    {
+      "change_id": "CH-R20-02",
+      "description": "Delete exactly `You can both mean it when you say this is only sex and still have one of you get attached afterward.` and no surrounding prose."
+    }
+  ],
+  "forbidden_side_effects": [
+    "Do not rewrite or reorder any Casual sentence.",
+    "Do not remove or alter the numb/robotic caveat.",
+    "Do not alter the pregnancy/responsibility paragraph or STI disclosure sentence.",
+    "Do not edit registered-main Affection, any later Casual paragraph, the patient paragraph, Talk, or any remote detector window.",
+    "Do not change the Part-2 split or rerun Part 2 if bytes remain unchanged."
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-R20-01",
+      "classification": "owner-deleted",
+      "description": "Delete the oxytocin/vasopressin mechanism sentence.",
+      "authority_ref": "CH-R20-01",
+      "status": "authorized"
+    },
+    {
+      "delta_id": "DELTA-R20-02",
+      "classification": "duplicate-function-consolidation",
+      "description": "Delete the balanced `You can both mean...` explanatory restatement while preserving the function in the surrounding situated sequence.",
+      "authority_ref": "CH-R20-02",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass-pending-exact-materialization",
+  "reverse_traceability": "pass-pending-exact-materialization",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass-precheck",
+  "detector_eligibility": "blocked-pending-exact-materialization",
+  "notes": "Manual GUI controls are article-specific detector evidence only. The two deletions are authorized because Joel approved this exact candidate and because the second deletion consolidates an already-demonstrated function; Pangram score is not deletion authority."
+}
