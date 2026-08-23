@@ -8,6 +8,10 @@
     "word_count_whitespace": 20343,
     "canonical_main_unchanged": true
   },
+  "materializer": {
+    "path": "work/romance-detector-repair-20260820/recovery-20260823/materialize_r22_patient_affection.py",
+    "purpose": "fail closed on exact r20 Markdown and Part-1 hashes, apply exactly CH-R22-01 and CH-R22-02, verify protected anchors/link/native-object invariants, and write both candidate representations plus manifest"
+  },
   "owner_authority": [
     {
       "path": "work/romance-detector-repair-20260820/recovery-20260823/OWNER-ACCEPTED-PATIENT-R21-20260823.md",
