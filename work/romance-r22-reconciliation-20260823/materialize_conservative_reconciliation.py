@@ -151,21 +151,27 @@ operations.append({"id": "RC-05", "type": "owner-accepted-block", "scope": "pati
 candidate = replace_between_headings(candidate, r22, "## Muses & Directors", "## Not A Performance")
 operations.append({"id": "RC-06", "type": "direct-owner-plus-owner-accepted-section", "scope": "Muses & Directors"})
 
-# 7. Not A Performance: use only the owner-accepted opening, then return to exact
-# registered canonical prose for the female anti-performance/receiving material.
+# 7. Not A Performance: use the literal assistant-produced passage Joel accepted,
+# then return to exact registered canonical prose at the female anti-performance span.
 nap_start, nap_end = section_span(candidate, "## Not A Performance")
 canonical_nap_start, canonical_nap_end = section_span(canonical, "## Not A Performance")
 canonical_nap = canonical[canonical_nap_start:canonical_nap_end]
-r22_nap_start, r22_nap_end = section_span(r22, "## Not A Performance")
-r22_nap = r22[r22_nap_start:r22_nap_end]
 anchor = "The same is true for a woman."
-if canonical_nap.count(anchor) != 1 or r22_nap.count(anchor) != 1:
-    raise SystemExit("Not A Performance suffix anchor mismatch")
-r22_prefix = r22_nap[: r22_nap.index(anchor)]
+if canonical_nap.count(anchor) != 1:
+    raise SystemExit("Not A Performance canonical suffix anchor mismatch")
+accepted_nap_opening = '''## Not A Performance
+
+The moment I have to prove that I’m the man, something has already become fake.
+
+I don’t actually walk around thinking I’m some super-masculine guy. I cry, I need help, I get things wrong. Bee once called me her “wife.” I don’t recommend that as a polarity exercise, by the way.
+
+When a woman appreciates that masculine side of me, it tends to come out by itself.
+
+'''
 canonical_suffix = canonical_nap[canonical_nap.index(anchor) :]
-hybrid_nap = r22_prefix + canonical_suffix
+hybrid_nap = accepted_nap_opening + canonical_suffix
 candidate = candidate[:nap_start] + hybrid_nap + candidate[nap_end:]
-operations.append({"id": "RC-07", "type": "owner-accepted-opening-plus-canonical-suffix", "scope": "Not A Performance"})
+operations.append({"id": "RC-07", "type": "exact-owner-accepted-opening-plus-canonical-suffix", "scope": "Not A Performance"})
 
 # 8. Direct-owner Attraction and exclusivity section.
 candidate = replace_section(candidate, r22, "### Attraction and exclusivity")
@@ -202,6 +208,7 @@ required = [
     "If you’re both really numb or robotic about sex, maybe not.",
     "[Gandarussa](https://thediplomat.com/2013/09/a-male-contraceptive-pill-for-indonesia/)",
     "Some women barely have that poetic quality, and artistic men can live much closer to it.",
+    "The moment I have to prove that I’m the man, something has already become fake.\n\nI don’t actually walk around thinking I’m some super-masculine guy.",
     "When a woman appreciates that masculine side of me, it tends to come out by itself.",
     "The same is true for a woman. She should not have to perform softness, helplessness, or cuteness every minute to prove she is feminine.",
     "It's hard to find sexually monogamous animals, have you ever looked?",
@@ -223,10 +230,11 @@ forbidden_r22_only = [
     "The problem is when we’re using the same words for two different futures.",
     "The intimacy can be completely real without telling you whether the two of you actually work together sober.",
     "A breakup can expose things you genuinely couldn't see while you were bonded. Look at what you contributed",
+    "Then I have to defend the identity every time I hesitate, cry, need help, or get something wrong.",
 ]
 surviving = [x for x in forbidden_r22_only if x in candidate]
 if surviving:
-    raise SystemExit(f"unaccepted r22 realization survived conservative reconciliation: {surviving}")
+    raise SystemExit(f"unaccepted r22/canonical-overhang realization survived conservative reconciliation: {surviving}")
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 MASTER_PATH.write_text(candidate, encoding="utf-8")
