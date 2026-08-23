@@ -31,6 +31,7 @@ routing aids; they do not establish article authority.
 ### P2S/P3/P4, detector repair, and humanization
 
 - `docs/HUMANIZATION-PRESERVATION-GATE.md` — **blocking before substantive rewritten text is detector-eligible**
+- `project-sources/PRODUCTION-HUMANIZATION-PREFLIGHT.md` — **blocking before paid Pangram calls in production humanization; diagnose and repair the whole model-shaped pattern, repeat unpaid cold AI-shape audits until no credible problem remains, then test**
 - `project-sources/HUMANIZATION-AND-COHERENCE.md`
 - `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`
 - `project-sources/DETECTOR-LOCALIZATION-AND-ROLLBACK.md`
@@ -42,6 +43,8 @@ routing aids; they do not establish article authority.
   following the fresh-read order in `SKILL.md`
 
 The preservation gate changes the execution order: freeze the authoritative changed scope, enumerate protected semantic/function units and the authorized-change whitelist, draft inside that delta, then require bidirectional source↔candidate traceability with **zero unexplained substantive deltas** before any paid/certification detector call. Re-run that proof after every detector-driven semantic edit. A detector-green candidate that fails preservation is rejected.
+
+For **production** humanization, do not spend Pangram calls to discover prose that is still knowingly model-shaped. Run the production preflight across the complete natural boundary, identify all credible interacting AI-shape problems, repair them coherently inside the authorized preservation boundary, and cold-read/revise again until no substantive model-shape diagnosis remains that you actually believe. A production call should test a candidate you would be genuinely surprised to see fail. Reserve minimal-pair/factorial/one-variable work primarily for explicit detector research or a narrow uncertainty that will change the next editorial decision.
 
 Use the rhythm/thought-shape protocol to audit sentence-level verdict cadence, paragraph-level equalized thought duration, recursive mini-essay closure, objection-completion, and lost reader-facing pragmatic acts. It is an editorial gate, not a phrase blacklist or detector substitute.
 
