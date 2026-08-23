@@ -24,7 +24,7 @@ When an exact natural boundary has already measured Pangram Human and its byte i
 
 `Looks AI to me` is not rewrite authority against exact recent Human evidence.
 
-## Reversion rule for detector-green rewrites
+## Reconciliation rule for older vs known-green wording
 
 Canonical registration authority and prose quality are separate dimensions.
 
@@ -32,12 +32,34 @@ If the registered master contains older wording and a preservation-proved workin
 
 During owner reconciliation:
 
-- keep the detector-green working rewrite when it is faithful and at least as good editorially;
-- revert only when the older wording is materially better for meaning, voice, flow, evidence, or article function **and** detector safety for the rollback is affirmatively known or deliberately re-established before treating it as the better production candidate;
+- keep the detector-green working rewrite as the **baseline realization** when it is faithful;
+- compare the older/canonical realization anyway for anything it did materially better: sharper claim, clearer logic, stronger transition, better example, useful qualification, stronger joke/image, more precise evidence framing, better rhythm, better setup/payoff, or a distinctive owner thought/voice feature;
+- record every such **feature deficit** in the green version explicitly, even when the older wording itself is detector-AI or detector-unknown;
+- present meaningful feature deficits to Joel for an owner decision instead of silently throwing them away or automatically restoring the old passage;
+- a good feature may be transplanted or freshly re-realized without reverting the whole older passage;
+- detector safety is required for the **resulting wording**, not for the abstract idea/feature merely to be considered valuable;
+- if the old wording itself is proposed for verbatim rollback, treat that wording as a newly changed detector boundary unless exact current detector evidence already covers it;
 - direct owner / owner-final corrections still outrank both versions;
 - canonical `main` remains unchanged until deliberate reconciliation updates the registered article family.
 
-This prevents an authority-safe rollback from silently becoming the new humanization baseline.
+This prevents two opposite errors: treating canonical age/authority as proof that old prose is better, and treating detector-Human status as proof that the new prose has nothing left to learn from the old version.
+
+### Required feature-deficit report
+
+For every substantive older→known-green rewrite being reconciled, record:
+
+```text
+Current green realization: <identity / span>
+Older realization: <identity / span>
+Meaning/fidelity: equal / changed / unresolved
+What green does better: <specific advantages>
+What old does better: <specific recoverable advantages, or none>
+Feature(s) green may be lacking: <exact thought/rhetorical function/wording quality>
+Recommended disposition: keep green / transplant feature / owner choice / rollback candidate
+Detector implication: known-green baseline preserved; any changed wording requires appropriate re-certification
+```
+
+Do not use `old is AI` as a reason to suppress a genuinely better feature from the report. Do not use `new is Human` as proof that every editorial choice in it is superior.
 
 ## Calibration failure protocol
 
@@ -48,7 +70,8 @@ If a worker calls known-green prose `AI-shaped`, rewrites it, and the rewrite pe
 3. record the failed diagnostic hypothesis;
 4. weaken or narrow the implicated heuristic rather than treating the detector failure as noise by default;
 5. compare what the rewrite changed at the level of thought movement, stance, cadence, abstraction, explanation, and author-specific pressure;
-6. do not spend additional production calls trying to rescue the failed rewrite unless there is an independent editorial reason to keep it.
+6. also inspect whether the failed rewrite was trying to recover a legitimately better feature from an older version; if so, preserve that feature as an editorial requirement and seek a different realization rather than discarding the feature;
+7. do not spend additional production calls trying to rescue the failed rewrite unless there is an independent editorial reason to keep it.
 
 ## Romance calibration incident — 2026-08-23
 
@@ -69,7 +92,9 @@ The incident shows two distinct errors:
 1. **authority/prose conflation** — registered canonical wording was treated as the default editorial fallback even though the r22 working realization was already preservation-proved and detector-green;
 2. **heuristic overreach** — useful AI-shape lessons were treated as a classifier, causing exact Human prose to be misdiagnosed and replaced with materially more AI-classified prose.
 
-The correction is not `trust Pangram over editing`. Human editorial quality and fidelity still outrank detector score. The correction is narrower: **do not claim detector likelihood from stylistic theory when exact detector evidence already says otherwise.**
+Joel then added a third correction: an older detector-AI or detector-unknown version may still contain **better editorial features**. Reconciliation must surface those features rather than choosing one whole version solely by detector status.
+
+The correction is not `trust Pangram over editing`. Human editorial quality and fidelity still outrank detector score. The correction is narrower: **do not claim detector likelihood from stylistic theory when exact detector evidence already says otherwise, and do not let detector status erase useful editorial information from competing versions.**
 
 ## Pre-call implication
 
