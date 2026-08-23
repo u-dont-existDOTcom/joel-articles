@@ -154,7 +154,6 @@ operations.append({"id": "RC-06", "type": "direct-owner-plus-owner-accepted-sect
 # 7. Not A Performance: use only the owner-accepted opening, then return to exact
 # registered canonical prose for the female anti-performance/receiving material.
 nap_start, nap_end = section_span(candidate, "## Not A Performance")
-nap = candidate[nap_start:nap_end]
 canonical_nap_start, canonical_nap_end = section_span(canonical, "## Not A Performance")
 canonical_nap = canonical[canonical_nap_start:canonical_nap_end]
 r22_nap_start, r22_nap_end = section_span(r22, "## Not A Performance")
@@ -207,7 +206,9 @@ required = [
     "The same is true for a woman. She should not have to perform softness, helplessness, or cuteness every minute to prove she is feminine.",
     "It's hard to find sexually monogamous animals, have you ever looked?",
     "When did you two last dance?",
-    "The relationship is over. The love does not have to be. ❤️",
+    "It might be that I wrote this whole article for my son, Bear, who sadly, I last saw when he was about five, right before he was supposed to get the Rosenblum sex talk.",
+    "I believe Rumi was right: A sacred relationship will open and purify your hearts regardless of whether it ends.",
+    "[NATIVE BUTTON — Subscribe now — %%checkout_url%%]",
 ]
 missing = [x for x in required if x not in candidate]
 if missing:
@@ -228,7 +229,7 @@ if surviving:
     raise SystemExit(f"unaccepted r22 realization survived conservative reconciliation: {surviving}")
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
-(MASTER_PATH).write_text(candidate, encoding="utf-8")
+MASTER_PATH.write_text(candidate, encoding="utf-8")
 (OUT_DIR / "candidate-master.md").write_text(candidate, encoding="utf-8")
 manifest = {
     "schema_version": 1,
