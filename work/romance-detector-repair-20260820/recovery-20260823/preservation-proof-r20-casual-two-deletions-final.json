@@ -23,7 +23,8 @@
       "change_id": "CH-R20-01",
       "classification": "owner-deleted",
       "text": "Oxytocin, vasopressin, and the rest can start attaching you anyway.",
-      "status": "applied-exactly-once"
+      "status": "applied-exactly-once",
+      "article_wide_function_preserved": "Later in `The window of clarity, and how it closes`, the article still explicitly states that sex turns on bonding chemistry—oxytocin, dopamine, vasopressin—and develops the attachment mechanism. Removing the Casual sentence therefore reduces repetition without removing the article-level hormone mechanism."
     },
     {
       "change_id": "CH-R20-02",
@@ -53,6 +54,7 @@
     "semantic_sanity": "pass",
     "reality_contact": "pass",
     "curious_reader_chain": "pass",
+    "article_wide_redundancy_check": "pass — hormone mechanism remains explicitly developed later in Starting on the right foot",
     "cold_audit_1": "pass — no logical gap after the two deletions; attachment function survives in situated sequence",
     "cold_audit_2": "pass with noted edge — `If you’re both really numb or robotic about sex, maybe not.` is abrupt but still refers to whether attachment develops; retain because owner approved and it is not semantically false in context"
   },
