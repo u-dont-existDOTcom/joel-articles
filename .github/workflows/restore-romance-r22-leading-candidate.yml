@@ -1,0 +1,43 @@
+name: Restore Romance r22 leading candidate
+
+on:
+  push:
+    branches:
+      - reconcile/romance-r22-20260823
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out reconciliation branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: reconcile/romance-r22-20260823
+          fetch-depth: 0
+
+      - name: Fetch exact r22 source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin task/romance-detector-repair-20260820:refs/remotes/origin/task/romance-detector-repair-20260820
+          git show origin/task/romance-detector-repair-20260820:work/romance-detector-repair-20260820/materialized-preservation-r22-patient-affection/candidate-master.md > /tmp/r22.md
+          actual="$(sha256sum /tmp/r22.md | awk '{print $1}')"
+          test "$actual" = "f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9"
+          cp /tmp/r22.md articles/romance/master.md
+
+      - name: Commit exact r22 working candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add articles/romance/master.md
+          if git diff --cached --quiet; then
+            echo 'r22 already restored.'
+            exit 0
+          fi
+          git commit -m 'Restore exact r22 as leading Romance working candidate'
+          git push origin HEAD:reconcile/romance-r22-20260823
