@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-r21-owner-patient",
+  "status": "pre-materialization preservation whitelist",
+  "authority": {
+    "registered_main_master_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+    "task_base_path": "work/romance-detector-repair-20260820/materialized-preservation-r20-casual-two-deletions/candidate-master.md",
+    "task_base_sha256": "8b60f2916a4c050c6295b858889c3a7e3e80c87e18307a2c3e2cf9e276e8637d",
+    "owner_acceptance_path": "work/romance-detector-repair-20260820/recovery-20260823/OWNER-ACCEPTED-PATIENT-R21.md",
+    "owner_acceptance_commit": "4c2d6eef27369b5597ff44356ce95c941fb32f6e"
+  },
+  "changed_scope": "When you and your partner are at different levels of maturity — patient/helping block only",
+  "edit_mode": "D2 local owner-accepted replacement",
+  "preservation_units": [
+    {
+      "unit_id": "PU-R21-01",
+      "type": "claim",
+      "meaning": "All three women had a basis for saying they felt like Joel's patient.",
+      "allowed_disposition": "may-reword-semantically",
+      "status": "pending"
+    },
+    {
+      "unit_id": "PU-R21-02",
+      "type": "claim",
+      "meaning": "They routinely brought medical, mental-health, and practical problems to Joel.",
+      "allowed_disposition": "may-reword-semantically",
+      "status": "pending"
+    },
+    {
+      "unit_id": "PU-R21-03",
+      "type": "example",
+      "meaning": "Preserve exact sick example: ‘I’m sick. What should I take?’",
+      "allowed_disposition": "must-remain-exact",
+      "status": "pending"
+    },
+    {
+      "unit_id": "PU-R21-04",
+      "type": "example",
+      "meaning": "Preserve exact sad example: ‘I’m sad. What should I do?’",
+      "allowed_disposition": "must-remain-exact",
+      "status": "pending"
+    },
+    {
+      "unit_id": "PU-R21-05",
+      "type": "function",
+      "meaning": "Helping/answering individual problems was natural because Joel usually had some idea; the passage must not imply that helping itself was inherently wrong.",
+      "allowed_disposition": "may-reword-semantically",
+      "status": "pending"
+    },
+    {
+      "unit_id": "PU-R21-06",
+      "type": "function",
+      "meaning": "Repeated helping can accumulate into a default caregiver/patient pattern.",
+      "allowed_disposition": "must-remain-exact",
+      "status": "pending"
+    },
+    {
+      "unit_id": "PU-R21-07",
+      "type": "context",
+      "meaning": "Preceding role-capture material remains unchanged.",
+      "allowed_disposition": "must-remain-exact",
+      "status": "pending"
+    },
+    {
+      "unit_id": "PU-R21-08",
+      "type": "context",
+      "meaning": "Following Key guru anecdote remains unchanged.",
+      "allowed_disposition": "must-remain-exact",
+      "status": "pending"
+    },
+    {
+      "unit_id": "PU-R21-09",
+      "type": "context",
+      "meaning": "Following condescension/accountability and later helping/being-needed self-reflection remain unchanged.",
+      "allowed_disposition": "must-remain-exact",
+      "status": "pending"
+    }
+  ],
+  "authorized_change_whitelist": [
+    {
+      "change_id": "CH-R21-01",
+      "authorization": "direct owner acceptance 2026-08-23",
+      "operation": "Replace exactly the current patient/helping block with the exact accepted wording in OWNER-ACCEPTED-PATIENT-R21.md."
+    }
+  ],
+  "forbidden_side_effects": [
+    "No changes outside the patient/helping block.",
+    "Do not change section order, headings, links, native objects, or Part 2.",
+    "Do not alter the Key guru anecdote or later self-reflection even if Pangram moves a window there.",
+    "Do not reopen Talk, Casual, Affection, or Primal local loops."
+  ],
+  "detector_eligibility": "blocked until exact materialization and final preservation receipt",
+  "unexplained_deltas": []
+}
