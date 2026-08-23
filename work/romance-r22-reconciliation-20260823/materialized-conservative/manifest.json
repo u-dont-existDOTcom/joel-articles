@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-r22-conservative-reconciliation-20260823",
+  "base": {
+    "sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+    "word_count_whitespace": 20647
+  },
+  "r22_reference": {
+    "sha256": "f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9",
+    "word_count_whitespace": 20282
+  },
+  "candidate": {
+    "sha256": "d9c476d9c58b8f21948fabaea45976d1ba01b1884a28d16e263606d92bae2453",
+    "word_count_whitespace": 20509
+  },
+  "operations": [
+    {
+      "id": "RC-01",
+      "type": "owner-supported-section-body",
+      "scope": "Talk body before Affection"
+    },
+    {
+      "id": "RC-02",
+      "type": "owner-accepted-section",
+      "scope": "Affection and the simmer"
+    },
+    {
+      "id": "RC-03",
+      "type": "owner-approved-deletion",
+      "scope": "Oxytocin, vasopressin, and the rest can start attaching you anyway."
+    },
+    {
+      "id": "RC-04",
+      "type": "owner-approved-deletion",
+      "scope": "You can both mean it when you say this is only sex and still have one of you get attached afterward."
+    },
+    {
+      "id": "RC-05",
+      "type": "owner-accepted-block",
+      "scope": "patient/helping"
+    },
+    {
+      "id": "RC-06",
+      "type": "direct-owner-plus-owner-accepted-section",
+      "scope": "Muses & Directors"
+    },
+    {
+      "id": "RC-07",
+      "type": "owner-accepted-opening-plus-canonical-suffix",
+      "scope": "Not A Performance"
+    },
+    {
+      "id": "RC-08",
+      "type": "direct-owner-section",
+      "scope": "Attraction and exclusivity"
+    },
+    {
+      "id": "RC-09",
+      "type": "owner-final-local-replacement",
+      "scope": "If you're already in it / dance span"
+    }
+  ],
+  "operation_count": 9,
+  "heading_count": 44,
+  "native_object_count": 11,
+  "markdown_link_count": 22,
+  "unexplained_substantive_deltas": 0,
+  "canonical_main_changed": false,
+  "detector_status": "not certified; prior r22 detector result does not apply after conservative reverts"
+}
