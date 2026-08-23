@@ -2,7 +2,7 @@ name: Materialize Romance r22 patient and Affection
 
 on:
   pull_request:
-    types: [edited]
+    types: [synchronize]
 
 permissions:
   contents: write
