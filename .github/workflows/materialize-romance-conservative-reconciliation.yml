@@ -1,0 +1,47 @@
+name: Materialize conservative Romance reconciliation
+
+on:
+  pull_request:
+    types: [synchronize]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    if: github.event.pull_request.number == 46
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out reconciliation head
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: reconcile/romance-r22-20260823
+          fetch-depth: 0
+
+      - name: Fetch exact authority refs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main:refs/remotes/origin/main
+          git fetch origin task/romance-detector-repair-20260820:refs/remotes/origin/task/romance-detector-repair-20260820
+
+      - name: Materialize conservative candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python work/romance-r22-reconciliation-20260823/materialize_conservative_reconciliation.py
+
+      - name: Commit exact result to reconciliation branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add articles/romance/master.md work/romance-r22-reconciliation-20260823/materialized-conservative
+          if git diff --cached --quiet; then
+            echo 'No materialization changes.'
+            exit 0
+          fi
+          git commit -m 'Materialize conservative Romance reconciliation candidate'
+          git push origin HEAD:reconcile/romance-r22-20260823
