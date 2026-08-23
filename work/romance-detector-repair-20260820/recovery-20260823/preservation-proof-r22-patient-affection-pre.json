@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-r22-patient-affection",
+  "status": "pre-materialization preservation whitelist; detector blocked until final receipt",
+  "authoritative_task_base": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r20-casual-two-deletions/candidate-master.md",
+    "sha256": "8b60f2916a4c050c6295b858889c3a7e3e80c87e18307a2c3e2cf9e276e8637d",
+    "word_count_whitespace": 20343,
+    "canonical_main_unchanged": true
+  },
+  "owner_authority": [
+    {
+      "path": "work/romance-detector-repair-20260820/recovery-20260823/OWNER-ACCEPTED-PATIENT-R21-20260823.md",
+      "role": "assistant-produced wording directly accepted by Joel"
+    },
+    {
+      "path": "work/romance-detector-repair-20260820/recovery-20260823/OWNER-ACCEPTED-AFFECTION-R22-20260823.md",
+      "role": "assistant-produced holistic Affection realization directly accepted by Joel; owner reports 100% Human medium-confidence manual Pangram result"
+    }
+  ],
+  "authorized_changes": [
+    {
+      "id": "CH-R22-01",
+      "section": "When you and your partner are at different levels of maturity",
+      "type": "owner-accepted replacement",
+      "scope": "replace only the current patient/helping block from `All three women told me at some point that they felt like my patient.` through `But enough moments become a pattern.`",
+      "must_preserve": [
+        "all three women had a real basis for describing the dynamic as patient-like",
+        "routine medical, mental-health, and practical questions",
+        "sick and sad examples",
+        "helping was natural because Joel usually had some idea",
+        "enough individual helping moments become a relationship pattern"
+      ],
+      "must_not_change": [
+        "preceding Mom-role paragraph",
+        "following Key guru anecdote",
+        "following Joel condescension/accountability paragraph",
+        "following `I know what can happen on my side` paragraph"
+      ]
+    },
+    {
+      "id": "CH-R22-02",
+      "section": "Affection and the simmer",
+      "type": "owner-accepted holistic production repair",
+      "scope": "retain exact Toft setup/pressure sentence; replace the remaining counseling-style tail with the complete realization frozen in OWNER-ACCEPTED-AFFECTION-R22-20260823.md",
+      "must_preserve_exact_or_equivalent": [
+        "Doug Toft attribution and original link",
+        "touch without agenda / affection may stop as affection",
+        "pressure when every affectionate touch becomes a bid for sex",
+        "Kim Anami simmer attribution and original link",
+        "between-encounter desire/flirtation examples",
+        "Joel treats near-absence of flirting/desire as evidence something is wrong",
+        "sex-life change can point to relationship/body changes",
+        "Joel does not want partner responsible for manufacturing his desire",
+        "sex deserves more than exhausted leftovers if it materially distinguishes romance from friendship"
+      ],
+      "owner_authorized_supersessions": [
+        "explicit `The opposite failure...` balancing setup",
+        "standalone `It shouldn’t become relationship homework.` qualification",
+        "`You need both...` recap/synthesis",
+        "exhaustive barometer checklist wording",
+        "generalized `Each person has some responsibility...` counseling stance"
+      ],
+      "must_not_change": [
+        "heading and section position",
+        "preceding settled Talk section",
+        "following settled Casual section"
+      ]
+    }
+  ],
+  "protected_invariants": [
+    "r19 owner-final Talk wording exact",
+    "r20 Casual two-deletion realization exact",
+    "Gandarussa passage and link exact",
+    "father quotation provenance exact",
+    "Hale/Heidi identity separation",
+    "all native objects and their order",
+    "all Markdown links outside authorized Affection anchor-preserving replacement",
+    "section order",
+    "stable Part 2 bytes and SHA 9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  ],
+  "preservation_units": {
+    "patient": 5,
+    "affection": 9,
+    "cross_section_invariants": 8,
+    "total": 22
+  },
+  "forward_traceability": "pending exact materialization readback",
+  "reverse_traceability": "pending exact materialization diff",
+  "unexplained_deltas_required": 0,
+  "architecture_dependency_gate": "pending exact materialization",
+  "production_preflight": {
+    "mode": "production humanization",
+    "affection_holistic_ai_shape_sweep": "completed before owner test; balanced therapist/explainer stance, false symmetry, recap, checklist diagnosis, generalized shared-responsibility synthesis and aftercare addressed together",
+    "remaining_affection_model_shape_issue_actually_believed": "none",
+    "owner_manual_detector": "100% Human, medium confidence",
+    "patient_model_shape": "accepted tested realization; short owner GUI test Human low confidence, historical wider-boundary evidence stronger",
+    "would_ai_result_be_surprising": "yes for the repaired local Affection boundary; aggregate Part 1 remains context-sensitive and is the certification target"
+  },
+  "detector_eligibility": "BLOCKED until final receipt proves exact candidate"
+}
