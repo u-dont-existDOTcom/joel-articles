@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-r20-casual-two-deletions",
+  "source_proof": "work/romance-detector-repair-20260820/recovery-20260823/preservation-proof-r20-casual-two-deletions.json",
+  "authority": {
+    "source_master_sha256": "b31af3c2f692d44b63e43dbfed99436584228f2ac7b8177045f5a3b751ea1ea8",
+    "owner_approval": "Joel approved the exact two-deletion candidate with `good continue` after manual GUI controls on 2026-08-23."
+  },
+  "exact_candidate_identity": {
+    "master_path": "work/romance-detector-repair-20260820/materialized-preservation-r20-casual-two-deletions/candidate-master.md",
+    "master_sha256": "8b60f2916a4c050c6295b858889c3a7e3e80c87e18307a2c3e2cf9e276e8637d",
+    "master_word_count_whitespace": 20343,
+    "part1_repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "part1_ref": "automation/pangram-fixed-batch",
+    "part1_path": "state/candidates/romance-detector-repair-20260820-preservation-r20-casual-two-deletions-part1.txt",
+    "part1_sha256": "04ea13442d4044ee56733b75771cb62c5cd44ba1b5da1bbb57d637c4f2ec4316",
+    "part1_word_count_whitespace": 10300,
+    "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "part2_exact_prior_human": 1.0
+  },
+  "operations": [
+    {
+      "change_id": "CH-R20-01",
+      "classification": "owner-deleted",
+      "text": "Oxytocin, vasopressin, and the rest can start attaching you anyway.",
+      "status": "applied-exactly-once"
+    },
+    {
+      "change_id": "CH-R20-02",
+      "classification": "duplicate-function-consolidation",
+      "text": "You can both mean it when you say this is only sex and still have one of you get attached afterward.",
+      "surviving_realization": "casual-agreement setup + next-morning attachment consequence + candid-intention quote",
+      "status": "applied-exactly-once"
+    }
+  ],
+  "preservation_units": {
+    "total": 11,
+    "preserved": 9,
+    "owner_deleted": 1,
+    "duplicate_function_consolidation": 1,
+    "unexplained": 0
+  },
+  "artifact_integrity": {
+    "native_objects_source": 11,
+    "native_objects_candidate": 11,
+    "markdown_links_source": 22,
+    "markdown_links_candidate": 22,
+    "section_order_changed": false,
+    "part2_changed": false
+  },
+  "editorial_audit": {
+    "heading_fit": "pass",
+    "semantic_sanity": "pass",
+    "reality_contact": "pass",
+    "curious_reader_chain": "pass",
+    "cold_audit_1": "pass — no logical gap after the two deletions; attachment function survives in situated sequence",
+    "cold_audit_2": "pass with noted edge — `If you’re both really numb or robotic about sex, maybe not.` is abrupt but still refers to whether attachment develops; retain because owner approved and it is not semantically false in context"
+  },
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "unexplained_deltas": [],
+  "detector_eligibility": "eligible",
+  "detector_plan": "Use the already-reported manual natural-section 100%-Human result as diagnostic evidence only; do not duplicate it via API. Measure the exact 10,300-word Part 1 aggregate once through the trusted self-hosted API. Reuse exact prior 100%-Human Part 2 without resubmission."
+}
