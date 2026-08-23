@@ -604,7 +604,7 @@ I don't think equality means dividing every role 50/50. If I like driving and sh
 
 ## Not A Performance
 
-The moment I have to prove that I’m the man, something has already become fake. Then I have to defend the identity every time I hesitate, cry, need help, or get something wrong.
+The moment I have to prove that I’m the man, something has already become fake.
 
 I don’t actually walk around thinking I’m some super-masculine guy. I cry, I need help, I get things wrong. Bee once called me her “wife.” I don’t recommend that as a polarity exercise, by the way.
 

@@ -10,8 +10,8 @@
     "word_count_whitespace": 20282
   },
   "candidate": {
-    "sha256": "d9c476d9c58b8f21948fabaea45976d1ba01b1884a28d16e263606d92bae2453",
-    "word_count_whitespace": 20509
+    "sha256": "6b5e77ba5a722373c424526b93a73d81c11bd0358a834db43a938c8f5b9032dd",
+    "word_count_whitespace": 20491
   },
   "operations": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "id": "RC-07",
-      "type": "owner-accepted-opening-plus-canonical-suffix",
+      "type": "exact-owner-accepted-opening-plus-canonical-suffix",
       "scope": "Not A Performance"
     },
     {
