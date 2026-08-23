@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-r22-conservative-reconciliation-20260823",
+  "status": "PRESERVATION_PASS_EDITORIAL_PREFLIGHT_PENDING",
+  "authority": {
+    "registered_master_path": "articles/romance/master.md",
+    "registered_master_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+    "registered_article_status": "working",
+    "r22_reference_sha256": "f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9",
+    "candidate_sha256": "6b5e77ba5a722373c424526b93a73d81c11bd0358a834db43a938c8f5b9032dd",
+    "candidate_word_count_whitespace": 20491,
+    "canonical_main_changed": false
+  },
+  "authorized_operations": [
+    {
+      "id": "RC-01",
+      "scope": "Talk about making love before you do it — body before Affection",
+      "authority": [
+        "task/romance-detector-repair-20260820:recovery-20260822/OWNER-TALK-FINAL-TAIL-20260822.md",
+        "task/romance-detector-repair-20260820:recovery-20260821/RECOVERY-AUTHORITY-CORRECTION.md"
+      ],
+      "provenance": "direct owner tail plus owner-supported preceding readiness interpretation; readiness wording is Joel's retrospective development, not father's quotation"
+    },
+    {
+      "id": "RC-02",
+      "scope": "Affection and the simmer",
+      "authority": ["task/romance-detector-repair-20260820:recovery-20260823/OWNER-ACCEPTED-AFFECTION-R22-20260823.md"],
+      "provenance": "assistant-produced, explicitly owner-accepted holistic realization"
+    },
+    {
+      "id": "RC-03",
+      "scope": "delete Casual hormone-mechanism sentence",
+      "authority": ["r20 direct owner approval recorded in task handoff and r20 preservation receipt"],
+      "provenance": "owner-authorized deletion"
+    },
+    {
+      "id": "RC-04",
+      "scope": "delete Casual `You can both mean...` restatement",
+      "authority": ["r20 direct owner approval recorded in task handoff and r20 preservation receipt"],
+      "provenance": "owner-authorized deletion"
+    },
+    {
+      "id": "RC-05",
+      "scope": "maturity patient/helping block",
+      "authority": ["task/romance-detector-repair-20260820:recovery-20260823/OWNER-ACCEPTED-PATIENT-R21.md"],
+      "provenance": "assistant-produced, explicitly owner-accepted exact wording"
+    },
+    {
+      "id": "RC-06",
+      "scope": "Muses & Directors",
+      "authority": [
+        "task/romance-detector-repair-20260820:owner-rewrites/pass6-window1-muses-owner-20260821.md",
+        "task/romance-detector-repair-20260820:OWNER-MUSES-REWRITE-LESSON-20260821.md",
+        "task/romance-detector-repair-20260820:OWNER-ACCEPTED-LEADERSHIP-REWRITE-20260821.md"
+      ],
+      "provenance": "direct owner rewrite with two authorized typo normalizations plus assistant-produced owner-accepted leadership tail"
+    },
+    {
+      "id": "RC-07",
+      "scope": "Not A Performance opening only",
+      "authority": ["task/romance-detector-repair-20260820:OWNER-ACCEPTED-LEADERSHIP-REWRITE-20260821.md"],
+      "provenance": "literal assistant-produced owner-accepted opening through `When a woman appreciates...`; exact registered canonical suffix restored from `The same is true for a woman.` onward"
+    },
+    {
+      "id": "RC-08",
+      "scope": "Attraction and exclusivity",
+      "authority": ["task/romance-detector-repair-20260820:OWNER-EXCLUSIVITY-REWRITE-20260821.md"],
+      "provenance": "direct owner prose"
+    },
+    {
+      "id": "RC-09",
+      "scope": "If you're already in it — pinkest-elephants/dance local replacement",
+      "authority": ["task/romance-detector-repair-20260820:OWNER-PINKEST-REWRITE-20260821.md"],
+      "provenance": "direct owner-final local replacement"
+    }
+  ],
+  "registered_protected_functions": [
+    {
+      "id": "opening-father-question",
+      "status": "PASS",
+      "candidate_destination": "opening exact father-at-five quotation retained; Talk later explicitly introduces readiness/co-parenting as `What I eventually took from my dad's advice...`, preserving source vs later-interpretation provenance"
+    },
+    {
+      "id": "bear-terminal-callback",
+      "status": "PASS",
+      "candidate_destination": "exact registered Bear/Rosenblum sex-talk return, Rumi conclusion, and native Subscribe button remain the terminal stopping point"
+    },
+    {
+      "id": "agape-eros-distinction",
+      "status": "PASS",
+      "candidate_destination": "unchanged registered love architecture and reciprocal agape/eros treatment"
+    },
+    {
+      "id": "coercion-exits-mutual-crucible",
+      "status": "PASS",
+      "candidate_destination": "exact registered Crucible safety warning restored; unaccepted r22 compression rejected"
+    },
+    {
+      "id": "children-survive-romance",
+      "status": "PASS",
+      "candidate_destination": "unchanged registered Children section including stepchildren continuity, Bear, and `Never recruit children into the adult war.`"
+    },
+    {
+      "id": "community-around-dyad",
+      "status": "PASS",
+      "candidate_destination": "registered Two Pillars/community/Children/Ending/Tough Love routing restored; owner-final dance paragraph still routes directly into outside-help/community section"
+    },
+    {
+      "id": "primal-owner-argument",
+      "status": "PASS",
+      "candidate_destination": "owner/direct Muses and exclusivity changes coexist with unchanged safety/fantasy/sacred-sex architecture; canonical female anti-performance/receiving functions restored"
+    },
+    {
+      "id": "gandarussa-preserved",
+      "status": "PASS",
+      "candidate_destination": "exact registered Gandarussa passage and link retained; unaccepted r22 surrounding rephrasing rejected"
+    },
+    {
+      "id": "native-object-placement",
+      "status": "PASS",
+      "candidate_destination": "44-heading sequence unchanged; 11 native markers unchanged; 22 Markdown link destinations unchanged; terminal native button retained"
+    },
+    {
+      "id": "identity-hale-not-heidi",
+      "status": "PASS",
+      "candidate_destination": "unchanged registered identity handling; H./Hâle/Hale remains distinct from Heidi and Anti-PTSD language remains intact"
+    }
+  ],
+  "mechanical_invariants": {
+    "heading_count": 44,
+    "heading_sequence": "PASS",
+    "native_object_count": 11,
+    "native_object_count_status": "PASS",
+    "markdown_link_count": 22,
+    "markdown_link_destination_sequence": "PASS",
+    "gandarussa_anchor": "PASS",
+    "father_exact_quote_anchor": "PASS",
+    "bear_terminal_callback": "PASS",
+    "native_subscribe_button": "PASS"
+  },
+  "traceability": {
+    "forward": "PASS — every authorized new/substituted/deleted span is mapped above to direct owner or explicit owner-accepted authority; all other registered prose remains canonical",
+    "reverse": "PASS — the conservative master diff contains only RC-01 through RC-09 after rejecting unaccepted r22 detector/editorial realizations",
+    "unexplained_substantive_deltas": 0
+  },
+  "architecture": {
+    "section_order": "PASS",
+    "protected_function_routing": "PASS",
+    "setup_payoff_dependencies": "PASS on second cold read",
+    "true_stopping_point": "PASS — Bear/Rumi close remains last substantive prose"
+  },
+  "cold_audit": {
+    "pass_1": "PASS_WITH_FIX — identified an unaccepted/redundant canonical overhang in the hybrid Not A Performance opening; RC-07 was corrected to the literal owner-accepted passage",
+    "pass_2": "PASS for the nine authority-backed changes and their immediate transitions; restored canonical regions still require separate production AI-shape preflight before any detector call"
+  },
+  "detector": {
+    "prior_r22_part1_human": 1.0,
+    "prior_r22_part2_human": 1.0,
+    "prior_results_apply_to_candidate": false,
+    "reason": "conservative reconciliation restored registered canonical bytes and changed the exact measured boundaries",
+    "eligibility": "BLOCKED_PENDING_PRODUCTION_AI_SHAPE_PREFLIGHT"
+  },
+  "result": "PRESERVATION PASS. Candidate is authority-clean enough for holistic editorial/model-shape review, but not yet detector-eligible or canonical."
+}
