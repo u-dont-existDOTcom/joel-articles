@@ -98,6 +98,25 @@ Never show Draft 0 by default. After drafting, audit the literal completed prose
 
 The cold audit is not a substitute for the preservation proof. Preservation units and authorized deltas are checked mechanically/explicitly before detector eligibility; the cold audit asks whether the preserved material is still coherent, well placed, and good writing.
 
+## Independent final-reader audit
+
+For substantial P3/P4 reconstruction, final publication copy, or any pass where the drafting context has accumulated enough rationale, repair history, detector feedback, or local decisions to create anchoring risk, run one **genuinely independent final-reader audit** when a fresh model/context is practically available and its marginal value is nontrivial. This is separate from the ordinary cold audit.
+
+Independence must be real, not role-play inside the same saturated context. Give the independent reader the literal article or natural section, intended audience/heading promise, and only the minimum locks or factual context required to avoid false findings. Withhold drafting rationale, detector scores, prior defenses, rejected alternatives, and explanations of why particular prose exists unless they are necessary to understand the text.
+
+Ask the independent reader to diagnose, without rewriting:
+
+- generic or model-shaped passages that the drafting context may have normalized;
+- skipped assumptions, logic gaps, broken causal/chronological chains, or unclear referents;
+- places where reader curiosity or attention drops;
+- unearned recap, interpretive aftercare, false completion, or ending problems;
+- passages that feel authorially ungrounded or insufficiently supported by the text itself;
+- the strongest remaining weakness and any high-confidence issue the drafting context appears to have stopped seeing.
+
+The independent reader is **diagnostic evidence, never edit authority**. Every proposed change still requires owner authority, the current edit contract, source/provenance checks, and the preservation whitelist/proof; factual recommendations still require normal research verification. Record independently raised findings separately from implementation decisions, including important findings rejected because they conflict with owner intent, evidence, or preservation constraints.
+
+Skip this audit for P1, trivial local edits, or when no genuinely separate context/model is available. Do not label a second self-prompt in the same saturated context as independent; report it only as another cold audit.
+
 ## Detector boundary
 
 Coherence, fidelity, preservation proof, and article function come first. Pangram is secondary evidence, never authorship or quality authority. Preserve exact detector boundaries, text hashes, detector/version/date, repeats, nulls, and counterexamples. Test interactions rather than inferring magic words from one case. Short text is less reliable.
@@ -138,6 +157,6 @@ Preserve claims/certainty, exact memories/quotations, actors, chronology, causal
 
 ## Reporting
 
-After substantive passes report, as applicable: preservation-proof status; unexplained-delta count; heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect-retention role; largest remaining weakness; and next task.
+After substantive passes report, as applicable: preservation-proof status; unexplained-delta count; heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; independent-final-reader status/findings; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect-retention role; largest remaining weakness; and next task.
 
 Return complete paste-ready passages except when Joel asks for isolated fragments or the artifact is exceptionally long.
