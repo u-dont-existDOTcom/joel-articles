@@ -1,6 +1,6 @@
 # Somatic Therapies — Current State
 
-Updated: 2026-08-22
+Updated: 2026-08-23
 
 ## Goal
 
@@ -50,6 +50,12 @@ Humanize the owner-supplied Somatic Therapies Substack article while preserving 
 - A trusted private release-refresh envelope was added so the self-hosted runner executes only canonical versioned release-branch tips, never public PR code; it runs the full deterministic suite twice, regenerates root release metadata with the canonical builder, verifies a clean release ZIP, and pushes only `MANIFEST.json` / `SHA256SUMS.txt` after success.
 - Tool defect 2 was fixed in the versioned release with representation-only normalization of explicit no-question sentinels plus an empty-string prompt contract and regressions that preserve real questions. Substantive tool commit: `18bb2354636698c863ab2b65775f74e21a884a47`.
 - The release was resealed after both tooling repairs. The current release manifest is bound to substantive tool commit `18bb2354636698c863ab2b65775f74e21a884a47` and includes the owner-question normalization regression.
+- Runs `-i` and `-j` confirmed that representation could still route machine-resolvable semantic failures into owner interrupts. The semantic-escalation contract and external-source provenance adapter were repaired; V5 is now pinned as `AI_FROM_OWNER_INPUTS`, not misclassified from prose shape.
+- Runs `-k` and `-l` made no detector submission and stopped durably at Codex `developmental` provider failures. Both profiles returned code 1 and were classified `TRANSIENT`; no candidate or owner question was produced.
+- A content-free provider smoke then passed on both `gpt-5.6-sol` and CLI-default. A stricter synthetic probe isolated a Codex strict-output-schema incompatibility, which was repaired and regression-tested in substantive tool commit `08f3570028ea86c4699bdc90a5dc9a5ea7349797`.
+- Run `-m` used that schema repair, made no detector submission, and stopped earlier at representation: both Codex profiles exited code 1 with the old `UNKNOWN` classification. It produced no candidate and asked no owner question.
+- Authorial Flow transport classification was broadened and fully regression-tested in substantive tool commit `4b0c4bcb3da7bd99ed3e200fb396c2cf4f1b11a0`; its release metadata is sealed to that exact commit. The private executor now publishes a bounded `safe_reason` category without publishing raw provider output.
+- Durable content-free probe `codex-representation-envelope-20260823-c` passed the exact public representation prompt composition and 10,500-byte request profile, plus the small developmental schema, larger representation request, and immediate larger developmental request. This rules out prompt size, public prompt composition, schema, model selection, and normal sequential capacity. Actual V5 content handling remains the only untested request variable; transient transport remains the leading explanation for `-m`.
 
 ## Current checkpoint
 
@@ -64,22 +70,17 @@ The earlier Job 1 result remains informative: changing thought route improved pr
 
 The Shaking reservation remains quarantined. The positive-control test established that authenticated web History cannot resolve current async API reservations, so absence there must never authorize a repeat.
 
-The current reuse-first path remains Authorial Flow Graph, but the live work has shifted from article ambiguity to runtime validation. Runs through `-h` were pre-detector and produced no candidate; they exposed and drove the two tooling repairs above. No Pangram call was made by those reviews.
+The current reuse-first path remains Authorial Flow Graph. Runs `-i` through `-m` are durably resolved and produced no candidate. They moved the blocker from manufactured article ambiguity to provider plumbing, then closed every content-free provider variable available without resending V5. No Pangram call was made by any Authorial Flow review or provider probe.
 
-A new pre-detector review request, `somatic-job1-authorial-flow-pre-detector-20260822-i`, is durably queued in the trusted executor against:
-- tool commit `18bb2354636698c863ab2b65775f74e21a884a47`;
-- Joel Articles source commit `ccc0cd3545b8ad3480b19a702bf390ba1030a478`;
-- V5 source SHA `85caf10bb4f973cf9130a05bf20f0fe74297a5ab467e566e327a9556ecec51f2`.
-
-At this checkpoint the `-i` evidence branch has not yet appeared, so the immutable request has not reached evidence-branch creation. Do not duplicate or retrigger it.
+The sealed runtime is now substantive tool commit `4b0c4bcb3da7bd99ed3e200fb396c2cf4f1b11a0`. The next exact V5 pre-detector run has not been submitted. A local exact-content diagnostic was refused at the privacy boundary because it would resend the article to the Codex provider without explicit destination authorization. Do not bypass that boundary through another workflow or indirect call.
 
 ## Remaining
 
-- Read the exact `-i` pre-detector result once its evidence branch appears.
-- If `candidate_available == true`, fetch the frozen candidate and run the blocking preservation proof against the exact V5 reader-visible owner-source boundary, then article architecture/paragraph-job/live-question, owner-lock, safety-function, certainty, and source-provenance audits. Do not run Pangram before those gates pass.
-- If `-i` still reports a no-question owner interrupt, treat that as a tooling regression and repair the runtime; do not create V6/V7 article context merely to appease the model.
-- If `-i` reports a genuine owner ambiguity, first resolve it from registered owner/source authority; ask Joel only if the ambiguity is genuinely irreducible.
-- If `-i` reaches a machine failure/generation dead end, inspect its privacy-safe causal failure metadata and repair/reject the runtime path rather than hand-generating another pseudo-Joel variant.
+- Obtain Joel's explicit approval before sending exact V5 content to Codex for one more pre-detector Authorial Flow run. That authorization must be destination-specific and does not authorize Pangram, research, publication, or acceptance.
+- If authorized, submit exactly one new immutable request against tool commit `4b0c4bcb3da7bd99ed3e200fb396c2cf4f1b11a0`, the pinned Joel Articles source commit/path/SHA, and provenance `AI_FROM_OWNER_INPUTS`; do not rerun `-m` or reuse its evidence branch.
+- If that run produces `candidate_available == true`, fetch the frozen candidate and run the blocking preservation proof against the exact V5 reader-visible owner-source boundary, then article architecture/paragraph-job/live-question, owner-lock, safety-function, certainty, and source-provenance audits. Do not run Pangram before those gates pass.
+- If it fails, use the published `failure_kind` and privacy-safe `safe_reason`; do not create more content-free probes or hand-generate another pseudo-Joel variant unless the new evidence identifies a materially different test.
+- If Joel does not authorize the Codex destination, stop this Authorial Flow lane at the current durable boundary. Do not work around the decision through another provider or workflow.
 - Only after a frozen candidate is editorially valid may a new Job 1 Pangram call be considered. The current Job 1 audit has used two paid calls; at most four additional section calls remain under the six-call cap, and every call must change the next decision.
 - Never repeat the ambiguous Shaking r01 paid measurement.
 - Never submit the fidelity-rejected Shaking `r02-source-stack`.
@@ -94,7 +95,7 @@ At this checkpoint the `-i` evidence branch has not yet appeared, so the immutab
 - Inner-child lane is closed at 6/6; even the exact original source section is 100% AI.
 - Job 1 authorial-state A/B is closed negative at 2 calls; both variants were 100% AI.
 - Shaking Qigong r01 has one irreducibly ambiguous paid reservation and must not be repeated.
-- The post-repair Authorial Flow `-i` run has not yet produced an evidence branch/candidate.
+- Authorial Flow runs through `-m` produced no frozen candidate. All content-free provider gates are green; an exact V5-to-Codex rerun now requires explicit destination authorization.
 - Authorial Flow Graph 1.3.0-dev1 remains a candidate editorial runtime rather than owner-accepted production authority despite the two verified tooling repairs.
 - `r01-candidate` is not owner-final or published.
 - Citation review remains pending.
@@ -116,8 +117,11 @@ At this checkpoint the `-i` evidence branch has not yet appeared, so the immutab
 - Known-success async API web-History control branch: `evidence/pangram-history-recovery/somatic-intro-r08-api-control-20260822`
 - Authorial Flow Graph release branch: `u-dont-existDOTcom/pangram-humanization-lab@install/authorial-flow-graph-v1-1.3.0-dev1`
 - Authorial Flow diagnostics branch: `diagnostics/authorial-flow-graph-v1`
+- Authorial Flow review evidence: `evidence/authorial-flow-review/somatic-job1-20260822-i`, `...-j`, `...-k`, `evidence/authorial-flow-review/somatic-job1-20260823-l`, and `...-m`
+- Exact-envelope content-free provider evidence: `evidence/developmental-provider-probe/codex-representation-envelope-20260823-c`
+- Provider diagnostics tool commit: `4b0c4bcb3da7bd99ed3e200fb396c2cf4f1b11a0`
 - Trusted executor: `u-dont-existDOTcom/pangram-private-executor`
 
 ## Next safe action
 
-Do not write or measure another Somatic variant yet. Read the queued `somatic-job1-authorial-flow-pre-detector-20260822-i` result when it reaches its evidence branch. If it freezes a candidate, preservation/architecture-review that candidate before any Pangram submission; otherwise act on the exact owner/tool failure class without restarting the old manual rewrite loop.
+Ask Joel for explicit permission to send the exact V5 article input to the Codex provider for one final no-Pangram pre-detector run against tool commit `4b0c4bcb3da7bd99ed3e200fb396c2cf4f1b11a0`. If approved, run once and act on the resulting frozen candidate or privacy-safe failure category. If not approved, stop at this boundary; do not rewrite, measure, or route the content elsewhere.
