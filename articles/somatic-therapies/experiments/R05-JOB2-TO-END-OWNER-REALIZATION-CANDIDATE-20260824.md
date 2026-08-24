@@ -24,7 +24,7 @@ I would not make EFT the only treatment for severe trauma, and I would not use i
 
 My friend Louka is why I am linking this particular class. He had tried many different healing and somatic modalities, including basic TRE. TRE itself did nothing for him, and nothing helped him much until he got into this class, which costs $10 per month on Skool.
 
-The class is much more than just TRE. They use all kinds of movements and positions along with the shaking, and I think that may be important for some people. You may need to find the particular movement or position, combined with the tremoring, where you can actually find the blockage.
+The class is much more than just TRE. They use all kinds of movements and positions along with the shaking, and I think that may be important for some people. You may need to find the particular movement or position, combined with the tremoring, where you can find where the blockage is.
 
 That is also why I separate this from the gentler shaking in Job 1. Earlier, the point was to explore without overwhelming yourself. Once you can stop, orient, and settle afterward, shaking can become a regular discharge practice. A regular session might be 10–45 minutes.
 
@@ -82,7 +82,7 @@ Where I would not automatically start with EMDR is diffuse developmental trauma 
 
 ## Neurological De-Armoring Support
 
-Sleep, substance use, medication effects, pain, nutrition, and general physiological stability can all influence how well you tolerate therapy. I have a separate [sleep guide](https://sleep.u-dont-exist.com/) for that.
+Memory work does not happen separately from the rest of the body. Sleep, substance use, medication effects, pain, nutrition, and general physiological stability can all influence how well you tolerate therapy; I have a separate [sleep guide](https://sleep.u-dont-exist.com/) for that.
 
 I also think neurological de-armoring may matter especially around memory work. EMDR directly engages memory reprocessing, so anything affecting fear learning, inflammation, dissociation, glutamate/GABA balance, or autonomic tone may change how reconsolidation feels. My [de-armoring supplement guide](http://dearmor.u-dont-exist.com/) goes into that side of it.
 
@@ -98,11 +98,9 @@ I would not stack Brainspotting, EMDR, intense shaking, and deep yin on the same
 
 ## Light CBT / Narrative Integration
 
-Top-down cognitive work often fails when it comes in too early because the body is still acting as if the threat is happening now. Once there has been enough regulation, discharge, and deeper processing, the same kind of cognitive work can become much more useful.
+I put the cognitive work here because trying to think your way out of a body that still experiences the threat often fails. Once there has been enough regulation, discharge, and deeper processing, top-down work can become much more useful.
 
 Then you can reframe old beliefs, build a coherent life story, separate past danger from present reality, clarify values and boundaries, reclaim agency, and deepen [inner-child reparenting](http://innerchild.u-dont-exist.com/). Identity, differentiation, forgiveness when it is relevant, and what direction you actually want your life to take all belong here too.
-
-Trying to think your way out of a body that still experiences the threat often fails. The thinking gets more useful once the body is no longer busy proving that the past is still happening.
 
 ---
 
@@ -114,9 +112,9 @@ That is more useful than deciding the dose was right because you felt calm at th
 
 Yoga is a good example of why I do not want this map turned into rigid stages. It can show up early for awareness, flexibility, enjoyment, and agency; after shaking to help you settle and rebalance; or after deeper work for stretching and reconnection.
 
-The evidence does not all come from the same place either. Published research, common clinical use, my experience, community reports, and qigong or energetic explanations can point in the same direction without proving one another. Some shaking, qigong, breathwork, and somatic communities make enormous claims about releasing decades of trauma, awakening kundalini, clearing stored emotion, or rapidly healing the whole nervous system. I treat those as hypotheses and community signal, not promises.
+I also keep the evidence planes separate. Published research, common clinical use, my experience, community reports, and qigong or energetic explanations can point in the same direction without proving one another. Some shaking, qigong, breathwork, and somatic communities make enormous claims about releasing decades of trauma, awakening kundalini, clearing stored emotion, or rapidly healing the whole nervous system. Those are hypotheses and community signal, not promises.
 
-But the reverse mistake is possible too. Thin research does not prove a practice is ineffective, and a huge literature does not tell you that one treatment is the right first move for your nervous system. Start from first principles, look at what seems to help people with similar patterns, change one thing at a time when you can, and see what actually happens in your life.
+A thin research literature does not prove a practice is ineffective, and a huge literature does not tell you that one treatment is the right first move for your nervous system. Start from first principles, look at what seems to help people with similar patterns, change one thing at a time when you can, and see what actually happens in your life.
 
 Do not confuse intensity with healing.
 
