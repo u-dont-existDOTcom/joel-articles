@@ -34,10 +34,29 @@ For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is also
 
 Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invitation/de-escalation language belongs or when an owner-approved AI/synthetic draft carries useful thought architecture. Protected function and correct placement are separate judgments.
 
-## Branch roles
+## Reader-facing realization gate
 
-- `main`: accepted article governance and canonical state
-- task branches: article-specific editorial, research, detector, or reconstruction changes
+Owner interviews, chat answers, editorial explanations, and research notes are **source pools, not publication transcripts**. Exact owner wording can be authoritative as thought without being publication-ready as a sentence.
+
+Before reusing source-pool wording verbatim, test it in its literal article location:
+
+- Does the first sentence make sense to a reader who never saw the private conversation?
+- Are every `this`, `that`, `it`, `here`, `earlier`, `what I mean`, and named concept anchored by visible article context?
+- Is the sentence explaining something to the reader, or explaining to the editor/model why the material matters?
+- Does a heading open by fulfilling its public-facing promise rather than continuing a private-chat thought?
+- Is a technical or article-specific term introduced before the prose refers back to it?
+
+If a source sentence contains editor-facing rationale (`this is important because it connects with my other articles`), private conversational deixis, an undefined referent, or a continuation that only made sense in the interview, **recover the thought and rewrite it as self-contained reader-facing prose**. Preserve meaning/provenance; do not preserve the conversational wrapper merely because the words came directly from Joel.
+
+Apply this check especially to the **first paragraph under every heading** and every paragraph created by moving source material to a new location. A preservation-clean sentence can still fail publication flow if its antecedent disappeared.
+
+## Research-process compression gate
+
+By default, publish the best current conclusion—not the backstage sequence by which it was reached.
+
+Do not automatically convert research notes such as `I thought X`, `I had heard Y`, `I checked it`, `I wasn't sure what the term was`, or `the check I did here showed...` into article narration. Collapse them to the reader-relevant result, including uncertainty or evidence limits where needed.
+
+Keep the inquiry/correction process only when **the process itself performs a real article function**: for example, the article is explicitly methodological, the change of mind is evidence for the argument, the original misconception is common and worth correcting, or the provenance of the uncertainty materially matters. Otherwise, research workflow is source metadata, not prose.
 
 ## Code review rules
 
@@ -50,6 +69,8 @@ Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invita
 - During a requested editing or humanization pass, do not turn the task into unsolicited fact-checking or claim review. Research/verify when Joel asks, or flag a claim only when there is a concrete material reason under the article protocol; empirical or contestable language alone is not such a reason.
 - Detector results are evidence, not editorial authority; passing a detector never licenses distortion of meaning or voice.
 - A 100% Human detector result is still invalid if preservation proof, heading promise, paragraph jobs, live-question continuity, owner-realization placement, protected functions, or fidelity fail.
+- A verbatim owner sentence is still invalid in publication prose if it depends on private-chat context, addresses the editor/model instead of the reader, contains an undefined antecedent, or fails its heading/paragraph job. Owner authority protects the thought; it does not waive reader-facing coherence.
+- A factual/research correction should normally appear as the corrected claim, not as a diary of `I thought → I checked → I learned`, unless that epistemic sequence has an independent reader-facing purpose.
 
 Treat chat as disposable working memory. A fresh worker must recover the correct article state, constraints, and next action from Git.
 
