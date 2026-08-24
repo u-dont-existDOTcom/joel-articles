@@ -8,7 +8,7 @@ Source authority: registered `articles/somatic-therapies/master.html` r01 plus o
 
 # Introduction
 
-Trauma isn’t only a story about something bad that happened. Your body learned from it too. It learned to brace, freeze, collapse, disconnect, scan for danger, flood, or go numb, and it can keep doing those things long after the danger is gone.
+Trauma isn’t only a story about something bad that happened. Your body learned from it too. It learned to brace, freeze, collapse, disconnect, scan for danger, or flood, and it can keep doing those things long after the danger is gone.
 
 For many people, especially people with complex or developmental trauma, lasting recovery follows a broad sequence: establish enough safety and nervous-system regulation, release some of the accumulated stress and survival responses, and then go deeper into trauma processing.
 
@@ -45,7 +45,7 @@ Even if a trial eventually validated an average sequence, it still would not tel
 
 Capacity matters. But capacity-building should not become an endless waiting room where the actual trauma is never treated.
 
-Judge progress by sleep, relationships, functioning, freedom, and symptom change—not by how dramatic the session felt. I have a separate [sleep guide](http://sleep.u-dont-exist.com/) if sleep itself is part of the problem.
+Judge progress by sleep, relationships, functioning, freedom, and symptom change—not by how dramatic the session felt. I have a separate [sleep guide](http://sleep.u-dont-exist.com/).
 
 A modality does not belong permanently to one job. Present-focused self-hypnosis differs from immersive memory work. Resource-oriented Brainspotting differs from entering highly charged developmental material. Gentle shaking differs from cathartic release.
 
