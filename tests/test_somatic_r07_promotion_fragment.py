@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import re
 import unittest
 from collections import Counter
@@ -10,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MASTER = ROOT / "articles/somatic-therapies/master.html"
 FRAGMENT = ROOT / "articles/somatic-therapies/experiments/R07-PROMOTION-HTML-FRAGMENT-20260824.html"
+BOUNDARY = ROOT / "articles/somatic-therapies/experiments/R07-JOB2-TO-END-PANGRAM-BOUNDARY-20260824.txt"
 
 
 class _HeadingParser(HTMLParser):
@@ -102,6 +104,21 @@ class SomaticR07PromotionFragmentTest(unittest.TestCase):
         self.assertNotIn('31fbfc4c-49b6-45de-8ead-3533fbbf20e5', self.fragment)
         self.assertNotIn('b6d5d245-6ba6-4687-b835-77b289167981', self.fragment)
         self.assertNotIn('[EXISTING ', self.fragment)
+
+    def test_r07_boundary_raw_file_sha256(self) -> None:
+        raw = BOUNDARY.read_bytes()
+        self.assertEqual(
+            hashlib.sha256(raw).hexdigest(),
+            "91dd31d6519e76f30831780789d9a13c2761378978d153f2cc3f602c4b5b0b87",
+        )
+
+    def test_r07_boundary_without_one_terminal_newline_sha256(self) -> None:
+        raw = BOUNDARY.read_bytes()
+        self.assertTrue(raw.endswith(b"\n"))
+        self.assertEqual(
+            hashlib.sha256(raw[:-1]).hexdigest(),
+            "6091db45d7ddf80f027cc591396abd75ab7b144c206e28befee86b2f5d3589ec",
+        )
 
 
 if __name__ == "__main__":
