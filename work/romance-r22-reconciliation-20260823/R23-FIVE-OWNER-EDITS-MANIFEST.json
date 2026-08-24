@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-r23-five-owner-edits",
+  "baseline": {
+    "id": "r22",
+    "markdown_sha256": "f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9"
+  },
+  "authorized_change_count": 6,
+  "changes": [
+    {
+      "id": "R23-01",
+      "section": "Talk about making love before you do it",
+      "strength": "owner-edited accepted candidate",
+      "current": "Of course everyone does change over time as well, so communication should remain open beyond a simple interview.",
+      "proposed": "Of course everyone does change over time as well. If our libidos later diverge, it's better to talk about what we'd do before either person is already hurt.",
+      "rationale": "Restores the missing prospective question about handling later libido divergence before resentment is already active.",
+      "current_sha256": "f0edab39d411ff5d5461a424d29ba7b643e7c6a39e3376d55539c18a3fb97b53",
+      "proposed_sha256": "ce91727a3827b99dcef1233b7c6bb3bab7ad5ffec19bbd0eebd8763909af822c"
+    },
+    {
+      "id": "R23-02A",
+      "section": "Affection and the simmer",
+      "strength": "owner-edited accepted candidate",
+      "current": "Kim Anami calls the sexual current between encounters [“the simmer”](https://kimanami.com/meet-another-well-fked-man/). Maybe she texts from work, “I can’t wait to touch you.” Maybe he tells her what he wants to do later. If we supposedly want each other but hardly ever flirt or let each other know it, I think something is already wrong. Great sex probably isn't going to materialize out of nowhere at bedtime.",
+      "proposed": "Kim Anami calls the sexual current between encounters [“the simmer”](https://kimanami.com/meet-another-well-fked-man/). Maybe she texts from work, “I can’t wait to touch you.” Maybe he tells her what he wants to do later. If we supposedly want each other but hardly ever flirt or let each other know it, that’s called taking each other for granted. Great sex probably isn't going to materialize out of nowhere at bedtime just based on the flirting you did 5 years ago.\n\nIt shouldn't become relationship homework, either: “Hey babe, Kim Anami told me to flirt with you more.”",
+      "rationale": "Owner rewrite keeps the simmer idea while making the point more concrete and adding the anti-homework joke.",
+      "current_sha256": "43c655b085404754ccada4afea1a12a5cde47ef8de88937c97d0a8db2cbdd478",
+      "proposed_sha256": "97c16f082402d449f5e170e209f2a2826f38f7901cfb3be728b7a0029e274429"
+    },
+    {
+      "id": "R23-02B",
+      "section": "Affection and the simmer",
+      "strength": "owner-edited accepted candidate",
+      "current": "And if our sex life suddenly changes, I want to know what changed. Maybe we're pissed off at each other. Maybe somebody's sick, stressed, on a new medication, whatever.",
+      "proposed": "And if our sex life suddenly changes, keep some curiosity about why rather than automatically going with the flow and creating a potential “new normal.” Maybe we're pissed off at each other. Maybe one of us doesn't feel wanted. Maybe somebody's sick, stressed, on a new medication, whatever.",
+      "rationale": "Preserves the changed-sex-life inquiry while adding the owner-specified new-normal warning and the missing doesn't-feel-wanted variable.",
+      "current_sha256": "97a2d85b1a4368a7b26881da4d3a7c03c248d9aabbb8b88276a02526c33051b7",
+      "proposed_sha256": "7bac3aa6fa65ce9da5d68b31168935d9db5d9811adc0879c578b645397658588"
+    },
+    {
+      "id": "R23-03",
+      "section": "Can making love be a spiritual practice?",
+      "strength": "owner-edited accepted candidate",
+      "current": "She also has a ton of student stories where the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is basically the solo version: pelvic-floor strength, attention, and arousal without needing a partner.",
+      "proposed": "She has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner.",
+      "rationale": "Keeps the outcomes clearly attributed to student reports and replaces the stronger solo-version equivalence with the owner's training relationship.",
+      "current_sha256": "27830111ad636ecd0cfc0ea03d4c5a168a98485b04271bf4f7e30e286685e21e",
+      "proposed_sha256": "8e60f9c4fe77f625cb2ed3af8c023e8cf7b29440b2605d94afd8e58b3b9a18ca"
+    },
+    {
+      "id": "R23-04",
+      "section": "Two Pillars Don't Hold The Roof Up",
+      "strength": "owner-final local wording",
+      "current": "Maybe an unusually strong couple can get away without much community. I think that's rare. Community isn't magic either; if both people are falling apart, there is only so much anyone else can do.",
+      "proposed": "Maybe an unusually strong couple can get away without much community. I think that's rare. Community isn't magic either; if both people are falling apart, there is only so much anyone else can do.\n\nBut sometimes a friend who actually knows us both sees the pattern before either of us does.",
+      "rationale": "Adds only the one community function genuinely absent from r22. The other two old mutual-friend functions are already realized later in the section and are not duplicated.",
+      "current_sha256": "6b718e49f1e9e6452f695daa41e08928a4aad9315187737436d4afcaf0bc7e58",
+      "proposed_sha256": "bfbf11b694bd71a9e3f311c7d3635939a9880dc1705acc0d269327642936ea96"
+    },
+    {
+      "id": "R23-05",
+      "section": "What are you actually choosing together?",
+      "strength": "accepted candidate",
+      "current": "“We’re together” ... what does that mean exactly? I might hear sex, exclusivity, living together, money, children, caregiving in those two words. She might mean, “We really like each other; let’s see what happens.” I actually like letting a relationship flow without naming every part. The problem is when we’re using the same words for two different futures.",
+      "proposed": "“We’re together” ... what does that mean exactly? I can hear a whole future in those two words—sex, exclusivity, living together, money, children, caregiving. She might mean, “We really like each other; let’s see what happens.” I actually like letting a relationship flow without naming every part. The problem is when we’re using the same words for two different futures.",
+      "rationale": "Restores the more compressed future-image without changing the argument or section structure.",
+      "current_sha256": "0eea104b2f9c41b3504b8ea72e1146211e3b88b6d79e5d072ce068a3e2c0aeca",
+      "proposed_sha256": "7814ffc33f9d13a1d31981cc5bd719ca0da7a3b19f9f31a721eac15f90bf4f74"
+    }
+  ],
+  "closed_as_redundant": [
+    "slow/brakes purpose clause",
+    "Muses analytical/prose-function addition",
+    "Psychedelics sober stress-test list"
+  ],
+  "closed_as_rejected": [
+    "Attraction/exclusivity history-to-vow bridge",
+    "Already-in-it stay-in-conversation diagnostic",
+    "Two Pillars generic three-sentence historical paragraph"
+  ],
+  "detector_status": "not run; exact r22 detector evidence does not transfer to changed bytes"
+}
