@@ -4,9 +4,9 @@ Updated: 2026-08-24
 
 ## Status
 
-The five-feature / six-operation r23 candidate is now **fully materialized, preservation-clean, and measured in its exact two composition-aware reader-visible halves through the authenticated local Playwright GUI**.
+The five-feature / six-operation r23 candidate is **fully materialized, preservation-clean, and measured in its exact two composition-aware reader-visible halves through the authenticated local Playwright GUI**. Its single Part-2 residual is now localized from Joel's manual read of the already-paid Pangram report, and a smallest-justified r23r1 transition repair is frozen and preservation-clean but **not yet materialized or detector-certified**.
 
-Registered `main:articles/romance/master.md` remains unchanged. PR #46's branch copy of `articles/romance/master.md` remains byte-identical to registered main; r23 stays isolated as a reconciliation candidate until the remaining Part-2 detector residual is resolved or explicitly accepted.
+Registered `main:articles/romance/master.md` remains unchanged. PR #46's branch copy of `articles/romance/master.md` remains byte-identical to registered main; r23/r23r1 stay isolated as reconciliation candidates until the Part-2 detector gate is resolved or explicitly accepted.
 
 ## Known-green rollback baseline
 
@@ -105,30 +105,58 @@ The private trusted materializer was repaired and regression-tested; the same co
 
 ## Cost-routing policy
 
-Current Pangram policy now routes full articles, half-article scans, and other aggregate/long production boundaries through GUI by default. The API is reserved for short/local sections unless Joel explicitly overrides a specific large API run. This is mechanically enforced in the Pangram repositories. Cross-transport duplicate and accounting protections remain mandatory.
+Current Pangram policy routes full articles, half-article scans, and other aggregate/long production boundaries through GUI by default. The API is reserved for short/local sections unless Joel explicitly overrides a specific large API run. Cross-transport duplicate and accounting protections remain mandatory.
 
-## Read-only localization status
+## Part-2 localization — resolved
 
-The single Part-2 residual has **not yet been localized**, but no extra detector call has been made.
+Earlier structured-History and direct-report recovery attempts failed closed without detector submission. DOM inspector v1 misread navigation styling; v2 did not localize the article text; v3 paginated all seven report pages and found every page-level classification Human. Tooling review then found Pangram's actual `AI Highlight` control, which v1-v3 had not activated. The generic automated recovery defect remains tracked in Pangram lab issue #110 and must not be debugged with paid detector calls.
 
-Two read-only attempts reproduced Pangram lab issue #110:
+Joel then manually read the already-paid exact r23 Part-2 report and supplied the exact AI-highlighted span:
 
-1. `evidence/pangram-history-localization/romance-r23-part2-20260824-a`
-   - exact already-paid input/result verified;
-   - History list exposed 10 candidates;
-   - failed at `bind_exact_history_record`;
-   - `detector_submission_attempted: false`.
+`Community isn't magic either; if both people are falling apart, there is only so much anyone else can do. But sometimes a friend who actually knows us both sees the pattern before either of us does.`
 
-2. `evidence/pangram-history-localization/romance-r23-part2-direct-20260824-a`
-   - exact already-paid input/result verified;
-   - exact stored `report_url` from the completed SHA-bound result was requested directly;
-   - `direct_report_requested: true`;
-   - structured record still failed to bind at `bind_exact_history_record`;
-   - `detector_submission_attempted: false`.
+No new detector submission was used for localization.
 
-See `R23-PART2-LOCALIZATION-CHECKPOINT-20260824.md`. The fresh failures were also added to Pangram lab issue #110. Do not buy a detector call to debug this recovery defect.
+This window crosses the r22 → r23 edit boundary:
+- `Community isn't magic either; if both people are falling apart, there is only so much anyone else can do.` is unchanged r22 wording inside exact known-green r22 Part 2;
+- `But sometimes a friend who actually knows us both sees the pattern before either of us does.` is Joel's R23-04 owner-selected missing-function sentence.
 
-Private executor PR #23, merged as `45b4dfcac56d68d7546da94b1c75e08532c04e99`, adds a separate read-only stored-report DOM/highlight inspector. It validates the exact completed result and report URL, opens the already-paid report with the dedicated authenticated profile, and retains only highlight/segment metadata or red-ish visual DOM candidates. It has no detector submission command and no Pangram API-key path.
+The red window is therefore evidence for a **contextual transition residual**, not proof that either sentence independently caused the classification. It also rules out R23-03 and R23-05 as the first repair target.
+
+Pangram issue #110 contains the exact manual localization and keeps the generic tooling bug separate from article judgment.
+
+## Frozen r23r1 transition repair
+
+Full repair receipt:
+`R23R1-TWO-PILLARS-TRANSITION-REPAIR-20260824.md`
+
+Current r23:
+
+`Maybe an unusually strong couple can get away without much community. I think that's rare. Community isn't magic either; if both people are falling apart, there is only so much anyone else can do.`
+
+`But sometimes a friend who actually knows us both sees the pattern before either of us does.`
+
+Frozen r23r1:
+
+`Maybe an unusually strong couple can get away without much community. I think that's rare. If both people are falling apart, there is only so much anyone else can do.`
+
+`But sometimes a friend who actually knows us both sees the pattern before either of us does.`
+
+Only the realization wrapper `Community isn't magic either;` is removed. The substantive community-limit claim remains exact after that wrapper, and Joel's R23-04 sentence remains byte-exact and in the same location.
+
+Reason for reopening this known-green r22 wording is a concrete **new transition defect**, not a claim that the old phrase is intrinsically AI-shaped. In r22 it was followed directly by the B. lived example and measured inside exact Human 1.0 Part 2. With R23-04 inserted immediately after it, the generic disclaimer wrapper creates an unnecessarily neat caveat → counterpoint sequence while its substantive limit is already fully stated by the remainder of its own sentence.
+
+Reduced D2 preservation status:
+- forward traceability PASS;
+- reverse traceability PASS;
+- unexplained substantive deltas **0**;
+- substantive claim/certainty/agency/chronology changes: none;
+- owner-selected R23-04 wording: exact;
+- B./H. examples and all other Part-2 prose: invariant.
+
+Architecture/dependency status: **PASS**. The repair changes no section order, protected-function placement, community dependency, setup/payoff relation, or stopping point. `articles/romance/ARCHITECTURE.md` therefore requires no graph change.
+
+The previously frozen `R23R1-R03-VOICE-ROLLBACK-CANDIDATE.json` remains provenance only and is no longer the active repair target.
 
 ## Closed proposals
 
@@ -146,14 +174,8 @@ Rejected:
 
 ## Next safe action
 
-Run the **read-only stored-report DOM/highlight inspector** for exact r23 Part 2, writing a new evidence branch `evidence/pangram-report-dom/romance-r23-part2-20260824-a`. This route does not score text and cannot consume Pangram detector credit.
-
-After report inspection:
-1. identify the exact highlighted residual and inspect it in its natural section/context;
-2. determine whether it lies inside one of the three authorized Part-2 r23 edits or is a contextual interaction elsewhere;
-3. preserve the owner-authorized functions and exact r22 rollback anchor;
-4. make the smallest justified editorial repair only if a real local defect/realization problem exists;
-5. re-run preservation/architecture proof after any semantic edit;
-6. certify only the changed composition-aware Part-2 boundary through GUI under the current cost policy.
-
-Do not alter registered main, merge r23 into article authority, or publish/export before this gate is complete or Joel explicitly accepts the residual.
+1. Materialize exact r23r1 from exact r23 with only the four-word `Community isn't magic either;` deletion.
+2. Verify exact readback/delta, Two Pillars natural-section preservation, and unchanged article-wide architecture/dependencies.
+3. Certify only the changed exact Part-2 reader boundary through the authenticated GUI under the current large-text cost policy.
+4. Never resubmit r23 Part 1.
+5. If exact r23r1 Part 2 returns Pangram Human `1.0`, reconcile the successful evidence into PR #46 and proceed toward deliberate promotion of the r23r1 candidate. Do not alter registered main, merge, publish, or export before that gate passes or Joel explicitly accepts a residual.
