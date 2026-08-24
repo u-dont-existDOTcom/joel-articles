@@ -171,7 +171,7 @@ Brainspotting uses gaze position, focused attention, bodily awareness, and thera
 
 Helpful foundations may include enough nervous-system safety to remain present, at least one way to regulate ordinary triggers, a way to settle activation afterward, and enough comfort with bodily sensation to notice when the dose is becoming too much. You do not have to build those capacities through any particular set of therapies.
 
-Brainspotting can be especially useful when trauma shows up as body reactions, images, impulses, emotions, or fragments that are hard to organize into a clear story. You do not necessarily need to explain every detail for the session to move. That includes diffuse developmental trauma, pre-verbal or body-held material, trauma that does not respond well to purely cognitive approaches, and complex emotional knots where the body seems to know more than the story.
+Brainspotting can be especially useful when trauma shows up as body reactions, images, impulses, emotions, or fragments that are hard to organize into a clear story. You do not necessarily need to explain every detail for the session to move. That includes diffuse developmental trauma, pre-verbal or body-held material, trauma that does not respond well to purely cognitive approaches, and complex emotional knots where the body knows more than the story.
 
 For further reading, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
 
@@ -191,7 +191,7 @@ EMDR fits especially well when there is a discrete traumatic memory, flashback, 
 
 **[EXISTING EMDR YOUTUBE EMBED — exact object retained in HTML promotion]**
 
-It often fits after enough regulation, body capacity, and post-session integration skills are in place, although a stable person working with one discrete event may be ready much earlier. It can be highly effective. The place I am more cautious about starting with it is diffuse developmental trauma when the nervous system is still unstable.
+It often fits after enough regulation, body capacity, and post-session integration skills are in place, although a stable person working with one discrete event may be ready much earlier. It can be highly effective, but I would not automatically make it the first move for diffuse developmental trauma when the nervous system is still unstable.
 
 Specific traumatic events, accident trauma, assault memories, military trauma, distinct flashback targets, and residual triggers left after deeper somatic work are all natural EMDR targets. Brainspotting may fit better when the trauma is highly diffuse and developmental, clear target memories are hard to identify, or the material is primarily bodily, pre-verbal, or relational rather than event-specific.
 
@@ -205,7 +205,7 @@ This is also one point where neurological de-armoring support may be especially 
 
 After EMDR, I would keep integration simple instead of piling on more processing: walking, restorative yoga, healthy food and hydration, journaling only if it feels grounding, early bedtime if your nervous system feels tired, or light EFT if activation remains.
 
-I would not stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless you already know your system can handle that much and you have skilled support. More processing is not always better; sometimes what is missing is integration.
+I would not stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless you already know your system can handle that much and you have skilled support. More processing is not always better; often the missing piece is integration.
 
 ---
 
