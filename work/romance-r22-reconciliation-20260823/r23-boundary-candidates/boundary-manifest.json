@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-r23-five-owner-edits",
+  "baseline_markdown_sha256": "f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9",
+  "full_candidate_materialized": false,
+  "boundary_materialization_status": "complete",
+  "boundaries": [
+    {
+      "id": "talk-affection",
+      "path": "work/romance-r22-reconciliation-20260823/r23-boundary-candidates/boundary-talk-affection.txt",
+      "sha256": "a1c88e60e068101c268b8e0dc45558ec796fe6d8224de86c8b5ec64c5238e564",
+      "git_blob_sha1": "da9a1a9264e6ed42f46b0df1f2879bf31656dd46",
+      "word_count_whitespace": 777,
+      "r22_boundary_sha256": "43f1f019470da8d6f1504d18a024b970d2828d56d35b9bbd7f85df82b42ca66c",
+      "authorized_operations": ["R23-01", "R23-02A", "R23-02B"],
+      "cold_read": "PASS"
+    },
+    {
+      "id": "spiritual-practice",
+      "path": "work/romance-r22-reconciliation-20260823/r23-boundary-candidates/boundary-spiritual-practice.txt",
+      "sha256": "9722c938f9258316cef1efbe67768abee063f64923976711498bbaff57d106fb",
+      "git_blob_sha1": "cb2b548692599cff9ad06421e54ef39fb516d3af",
+      "word_count_whitespace": 290,
+      "r22_boundary_sha256": "77571ed1d8ea7e249b9238c035981c1993be38c9d7c60ac84bdf06252c9de1be",
+      "authorized_operations": ["R23-03"],
+      "cold_read": "PASS"
+    },
+    {
+      "id": "two-pillars",
+      "path": "work/romance-r22-reconciliation-20260823/r23-boundary-candidates/boundary-two-pillars.txt",
+      "sha256": "e89362da826bd77d747733512a935cf19c1ddf6d492175755931826968360113",
+      "git_blob_sha1": "36b1981da211f1bba292ee390e287ebe7bd57c5c",
+      "word_count_whitespace": 734,
+      "r22_boundary_sha256": "821cae07dd4518b5fa3d35484bc87df37b653c271e65c2c81f96fcaeba486a07",
+      "authorized_operations": ["R23-04"],
+      "cold_read": "PASS"
+    },
+    {
+      "id": "choosing-together",
+      "path": "work/romance-r22-reconciliation-20260823/r23-boundary-candidates/boundary-choosing-together.txt",
+      "sha256": "a1bd65fc862a879170d6651f52f4d0da50150bf56de1f4f9e26437d30dd6cb8f",
+      "git_blob_sha1": "543ef3e542de4d23ead2da674daa339cc747b56b",
+      "word_count_whitespace": 1437,
+      "r22_boundary_sha256": "68d48d800765c1ec26b33c6d4e3cafb34f18c013dcd53e1808217ce40fffc1f4",
+      "authorized_operations": ["R23-05"],
+      "cold_read": "PASS"
+    }
+  ],
+  "readback_proof": "Each GitHub fetch_file blob SHA matched the locally computed Git blob SHA for the exact candidate text.",
+  "unexplained_substantive_deltas": 0,
+  "detector_run": false,
+  "detector_status": "not run; wait for exact full r23 half-boundary materialization for composition-aware certification"
+}

@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
   "article_id": "romance",
-  "locked_passages": [],
+  "locked_passages": [
+    {
+      "id": "two-pillars-r23r2-owner-final",
+      "text": "Maybe an unusually strong couple can get away without much community. I think that's rare.  But sometimes a friend who actually knows us both sees the pattern before either of us does. On the other hand, If both people are falling apart, there is only so much anyone else can do.",
+      "sha256": "cd8de93fda39fcdf13c4b1f6ba2f9250c11c40f8c8298f281055e37bafed6291"
+    }
+  ],
   "protected_functions": [
     {
       "id": "opening-father-question",
@@ -46,6 +52,6 @@
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel owner message 2026-08-20 identified agent/romance-primal-crucible-gui-repair-20260817 at resolved head 8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c and its exact 20,496-word manifest as the last/current Romance article state. This confirms master identity for import, not owner-final publication status."
+    "evidence": "Joel's 2026-08-24 direct correction makes the exact Two Pillars r23r2 realization owner-final, including its double space and capitalized If, and accepts the owner-reported Human/low-confidence local result as good enough. The remaining article is registered as a working master, not owner-final publication copy."
   }
 }

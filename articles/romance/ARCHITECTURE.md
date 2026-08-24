@@ -67,12 +67,13 @@ flowchart TD
 
 ## Authority / placement notes
 
-- Source authority was explicitly identified by Joel on 2026-08-20 as `u-dont-existDOTcom/pangram-humanization-lab` branch `agent/romance-primal-crucible-gui-repair-20260817`, whose live PR #36 head resolved unchanged at `8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c`.
-- Registered master SHA-256: `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`.
-- Reader-visible boundary: 20,496 words, SHA-256 `10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce`.
-- The historical source architecture on PR #36 was useful topology/protected-function evidence but contained a stale displayed master hash and a stale statement that the current 20,496-word candidate was untested. This registered map corrects those state facts rather than copying the historical map as current authority.
-- The exact current halves were tested in Pangram 4.0 on 2026-08-20: Part 1 Human fraction `0.9205247164`; Part 2 Human fraction `0.8983033895`. They are diagnostic evidence, not a whole-article score or a 100% Human pass.
-- PR #36 and its branch remain provenance only after this import. Future article changes belong in the registered `joel-articles` family.
+- Current registered working master on PR #46: Romance r23r2, SHA-256 `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`; 20,364 Markdown whitespace words.
+- Exact reader halves retain the established split topology: Part 1 SHA-256 `620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b`, 10,296 words; Part 2 SHA-256 `fbbcf64af313488b2ad8bb8969422f5bc85895eca908e41e9f796b2c0724e4eb`, 9,917 words.
+- r23r2 was materialized from exact r23 at `u-dont-existDOTcom/pangram-humanization-lab@f4f2d6404e7362441c9ac0969dfc79313bea6ba1` with one authorized local operation. r23 Part 1 remains byte-identical.
+- Joel's exact Two Pillars realization is owner-final and locked. It preserves the existing shared-community function while changing only the local thought order: unusually strong couple → mutual friend may see the pattern → counter-limit when both partners are falling apart.
+- The local ordering change does not alter section topology, protected-function routing, the shared-community dependency into outside help/children/endings, native-object placement, callbacks, or the article's stopping point; no Mermaid edge changes are required.
+- Part 1 retains exact Pangram 4.0 Human `1.0` evidence. Joel reports the exact r23r2 local realization as Human / low confidence and accepts it as good enough. No full Part-2 or whole-article score is claimed.
+- The prior registered master, r22 rollback, r23 GUI evidence, rejected r23r1 ordering, and PR #36 remain provenance rather than competing authority.
 - Preserve native image, YouTube, Substack preview, share, and button markers at their current source positions unless registered publication-source evidence authorizes a change.
 - Copyright/license and publication state are separate owner decisions. Registering the working master does not publish it or grant a license.
 

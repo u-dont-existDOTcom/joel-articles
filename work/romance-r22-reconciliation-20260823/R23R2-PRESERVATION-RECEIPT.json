@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "u-dont-existDOTcom/pangram-humanization-lab:work/romance-r23-gui-20260824-a/candidate-master.md",
+    "revision": "f4f2d6404e7362441c9ac0969dfc79313bea6ba1",
+    "sha256": "322953b5d6f6ad49f7a3b41e5c6795b36404508f7768669cdcc72223f2f21a0d"
+  },
+  "changed_scope": "Two Pillars local realization plus direct B./H. and article-architecture dependencies",
+  "mode": "P2S owner-final local realization",
+  "edit_dose": "D2",
+  "preservation_units": [
+    {
+      "unit_id": "PU-R23R2-01",
+      "source_ref": "r23 Two Pillars paragraph beginning Maybe an unusually strong couple",
+      "authority": "exact measured r23 plus Joel direct owner-final correction 2026-08-24",
+      "type": "claim",
+      "meaning": "An unusually strong couple may sometimes manage without much community, but Joel thinks that is rare.",
+      "required_context": "opening of the Two Pillars community-limit sequence",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "exact opening two sentences in the r23r2 owner-final span",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R23R2-02",
+      "source_ref": "r23 owner-selected mutual-friend sentence",
+      "authority": "Joel owner-final local wording",
+      "type": "function",
+      "meaning": "A friend who knows both partners may see the pattern before either partner sees it.",
+      "required_context": "Two Pillars shared-community argument before the B. lived example",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "exact mutual-friend sentence inside the locked r23r2 span",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R23R2-03",
+      "source_ref": "r23 community-limit sentence",
+      "authority": "exact measured r23; thought order superseded by Joel",
+      "type": "certainty",
+      "meaning": "Community has real limits when both partners are falling apart.",
+      "required_context": "counter-limit after the mutual-friend pattern-seeing function",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "On the other hand, If both people are falling apart, there is only so much anyone else can do.",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R23R2-04",
+      "source_ref": "Two Pillars B. and H. lived examples following the changed paragraph",
+      "authority": "exact r23 invariant",
+      "type": "example",
+      "meaning": "The B. and H. examples remain unchanged and immediately ground the shared-community functions.",
+      "required_context": "immediately follows the general Two Pillars paragraph",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "unchanged B. and H. paragraphs after the owner-final span",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R23R2-05",
+      "source_ref": "exact r23 master outside R23R2-01",
+      "authority": "exact measured r23",
+      "type": "context",
+      "meaning": "All other r23 article bytes, headings, links, native objects, protected anchors, function routing, and split topology remain invariant.",
+      "required_context": "whole registered working master and exact reader halves",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "r23r2 deterministic materialization; Part 1 byte-identical and one master/Part-2 hunk only",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-R23R2-01",
+      "description": "Replace only the r23 Two Pillars local realization with Joel's exact tested r23r2 bytes; preserve the double space and capitalized If; do not apply either older r23r1 candidate."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-R23R2-01",
+      "classification": "authorized-rewording",
+      "description": "Move the mutual-friend function before the community counter-limit and realize both in Joel's exact owner-final tested wording.",
+      "authority_ref": "CH-R23R2-01",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible"
+}

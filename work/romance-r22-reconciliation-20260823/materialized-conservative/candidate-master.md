@@ -44,17 +44,15 @@ And what is sex for each of you? One person may mainly think of bonding while th
 It's important to talk about sexual compatibility before getting undressed, even if that kills the vibe. Or even especially if it does kill the vibe, actually, since that's a red flag if talking ruins things. And this applies whether you're leaning to libertine *or* too traditional.  
 And once you are undressed, the communication doesn't stop there either. Can you feel comfortable with each other enough to express what turns you on, what this means to you, and what you're unsure about? It's that psychological trust & intimacy that builds the bridge between "having sex" and "making love."
 
-I remember reading a Christian magazine's letter from a newlywed Christian woman who found out that her husband didn't have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn't have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take any herb to increase her desire. Of course everyone does change over time as well. If our libidos later diverge, it's better to talk about what we'd do before either person is already hurt.
+I remember reading a Christian magazine's letter from a newlywed Christian woman who found out that her husband didn't have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn't have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take any herb to increase her desire. Of course everyone does change over time as well, so communication should remain open beyond a simple interview.
 
 ## Affection and the simmer
 
 Doug Toft, who has been married for fifty years, has a useful list called [*50 Things I Learned from 50 Years of Marriage*](https://dougtoft.substack.com/p/50-things-i-learned-from-50-years). One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there. If every affectionate touch becomes a bid for sex, affection itself can start feeling like pressure.
 
-Kim Anami calls the sexual current between encounters [“the simmer”](https://kimanami.com/meet-another-well-fked-man/). Maybe she texts from work, “I can’t wait to touch you.” Maybe he tells her what he wants to do later. If we supposedly want each other but hardly ever flirt or let each other know it, that’s called taking each other for granted. Great sex probably isn't going to materialize out of nowhere at bedtime just based on the flirting you did 5 years ago.
+Kim Anami calls the sexual current between encounters [“the simmer”](https://kimanami.com/meet-another-well-fked-man/). Maybe she texts from work, “I can’t wait to touch you.” Maybe he tells her what he wants to do later. If we supposedly want each other but hardly ever flirt or let each other know it, I think something is already wrong. Great sex probably isn't going to materialize out of nowhere at bedtime.
 
-It shouldn't become relationship homework, either: “Hey babe, Kim Anami told me to flirt with you more.”
-
-And if our sex life suddenly changes, keep some curiosity about why rather than automatically going with the flow and creating a potential “new normal.” Maybe we're pissed off at each other. Maybe one of us doesn't feel wanted. Maybe somebody's sick, stressed, on a new medication, whatever.
+And if our sex life suddenly changes, I want to know what changed. Maybe we're pissed off at each other. Maybe somebody's sick, stressed, on a new medication, whatever.
 
 I also don't want my partner to have to manufacture my desire for me. And if sex is one of the main things separating our relationship from friendship, giving it whatever exhausted scraps are left after everything else seems pretty dumb.
 
@@ -220,7 +218,7 @@ But asking, “How do you handle jealousy?” can get me a beautiful answer that
 
 A card game can create its own little high too. If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close. That may mean the game worked without telling us whether the relationship will.
 
-After a while, more questions mostly teach me what the person says about themself, and I need ordinary time. We might spend a whole weekend having incredibly profound conversations; then I want to see a boring day, or what happens when she's annoyed and hasn't already thought through an answer.
+At some point, more questions mostly teach me what the person says about themself. Then I need ordinary time. Ten profound conversations in one weekend may tell me we can have profound conversations. They don't tell me what she's like on a boring day, or when she's annoyed and doesn't have an answer prepared.
 
 You can also bring the person to a party and see how they act, bring them around your family or friends, or take them to activities you enjoy and see if they really enjoy them too. Try doing what you would normally do in your day alone, but with them, and see how it feels. Is it weird? Are they wondering why you do this stuff? Do they look bored, like they’d rather just hit you up later than be with you while you’re doing ordinary stuff? Can you guys be normal together and not just romantic or dating?
 
@@ -304,9 +302,9 @@ Masturbating first isn't such a good solution unless I'm the one initiating, and
 
 So my main strategy has been to avoid heat-of-the-moment situations until I'm ready. That has definitely saved me from having ten times the body count, but it doesn't work reliably because the request often starts out small. “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.
 
-Phone or video first can help. So can meeting around other people and deciding beforehand that we aren't going home together. Islamic and conservative Christian cultures put much stronger barriers around a man and woman being alone before marriage. I don't accept their solution, but they noticed something real. We don't live in tribes anymore, where people around us might know both of us well enough to slow this down. Mostly I have to build my own brakes before I'm alone with her, and they still fail sometimes.
+Phone or video first can help. So can meeting around other people and deciding beforehand that we aren't going home together. Islamic and conservative Christian cultures put much stronger barriers around a man and woman being alone before marriage. I don't accept their solution, but they noticed something real. We don't live in tribes anymore, and usually nobody around us knows both of us well enough to slow us down while we figure out what this actually is.
 
-That's where [Gandarussa](https://thediplomat.com/2013/09/a-male-contraceptive-pill-for-indonesia/) matters to me. The evidence ranges, and nothing is 100 percent proven, but it looks quite effective as a male contraceptive. That only deals with pregnancy, though. I can still get emotionally attached to somebody I barely know.
+Since I know avoidance won't work every time, [Gandarussa](https://thediplomat.com/2013/09/a-male-contraceptive-pill-for-indonesia/) matters too. The evidence ranges, and nothing is 100 percent proven, but it looks quite effective as a male contraceptive. That only deals with pregnancy, though. I can still get emotionally attached to somebody I barely know.
 
 I grew up assuming the best of everybody because that's what my parents taught me. Now I'm trying to be more suspicious and check for red flags before I'm alone with somebody I badly want to please. Why does she contact me only sometimes? What's the pattern? Is she communicating enough for me to really know her interest level and what's underneath it? Would my twin flame behave like this?
 
@@ -327,6 +325,8 @@ At some point one of you will ask, “Why am I special to you? Why are you with 
 Going slowly can show you how somebody’s moods move over time, how they treat you, and how they treat other people. It still can’t tell you how good the sex will be or how either of you will act afterward.
 
 You can know somebody for twenty years and then discover on the first night that the polarity isn’t there, touch feels wrong, smell feels wrong, your desire levels or kinks don’t fit, one person is sexually shut down, or the bodies just don’t connect.
+
+But the first night isn’t necessarily the final ceiling either.
 
 At the beginning of my sexual relationship with Bee, she told me, “You’re going to get a lot better at sex.” Funny thing is, I don’t think I did. She got much better at receiving me.
 
@@ -390,7 +390,7 @@ I call relationship a crucible because I was thinking of Dr. David Schnarch’s 
 
 That’s definitely what relationship has done to me.
 
-One warning before I romanticize the crucible too much: sometimes this isn't two wounded people triggering each other but one person terrorizing or controlling the other. If you're scared to say no or tell the truth, or scared of what happens if you leave, don't treat that as a mutual communication exercise—get other people involved and think about safety first.
+One warning before I romanticize the crucible too much: sometimes this isn't two wounded people triggering each other. Sometimes one person is terrorizing or controlling the other. If you're scared to say no, scared to tell the truth, or scared of what happens if you leave, don't turn that into a mutual communication exercise. Get other people involved and think about safety first.
 
 Toft says meditation, yoga, prayer, and church are all fine, but after fifty years of marriage his main spiritual practice is being in relationship with his wife. I understand what he means. It’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.
 
@@ -538,11 +538,11 @@ Fantasy should also add to arousal rather than become the only possible route to
 
 ## The Queen of Orgasms
 
-Many people are not even aware of how incredible sex can be when the polarity, trust, love & safety are all where they should be. Women have shown me that the cervix can open during sex and become intensely pleasurable for both of us. After you experience cervical sex, regular sex doesn't even seem like it's really "sex" anymore. It seems more like foreplay.
+Many people are not even aware of how incredible sex can be when the polarity, trust, love & safety are all where they should be. Women have shown me that the cervix can open during sex and become intensely pleasurable for both of us. In fact, after you experience cervical sex, regular sex doesn't even seem like it's really "sex" anymore. It seems more like foreplay.
 
 However, I've not yet very deeply "researched" these experiments, because "life" often got in the way, and building up to this actually takes a lot of "work" (ahem..).
 
-Women describe cervical and whole-body orgasms as something very different from building friction toward release—more like being taken over by a profound energy running through the whole body.
+Women describe cervical and whole-body orgasms very differently from the ordinary ones based on building friction toward release. Instead, cervical orgasms are more like being taken over by a profound energy running through the whole body.
 
 Although the peanut gallery critics and lazy fact-checkers often cry fiction on this topic, Komisaruk and Whipple showed that cervical stimulation can produce orgasm even in women with a severed spinal cord, because the vagus nerve can carry the signal without using the spinal route that clitoral orgasms use. That laboratory evidence establishes the uniqueness of the phenomenon. Kim Anami, Diana Richardson, and other popular educators and promoters of cervical orgasms further claim that these can provide days of afterglow, as well as spiritual and physical healings.
 
@@ -564,9 +564,11 @@ Marriage, sex, and household life are not automatically on the opposite side fro
 
 [Kim Anami](https://kimanami.com/my-vagina-heals-everything/) goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.
 
-She has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner.
+She has collected a ton of stories from students who say those practices spilled over into their health, work, money, creativity, and the rest of life.
 
-Brad and Pam Keene are the example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
+Her jade-egg practice is part of the same idea. It gives a woman a way to work with pelvic-floor strength, attention, and arousal when there isn’t a partner involved.
+
+Brad and Pam Keene are an example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
 [NATIVE YOUTUBE — preserve from Substack source — videoId: Li--FKwJu0Q]
 
@@ -602,17 +604,27 @@ I don't think equality means dividing every role 50/50. If I like driving and sh
 
 ## Not A Performance
 
-The moment I have to prove that I’m the man, something has already become fake. Then I have to defend the identity every time I hesitate, cry, need help, or get something wrong.
+The moment I have to prove that I’m the man, something has already become fake.
 
 I don’t actually walk around thinking I’m some super-masculine guy. I cry, I need help, I get things wrong. Bee once called me her “wife.” I don’t recommend that as a polarity exercise, by the way.
 
 When a woman appreciates that masculine side of me, it tends to come out by itself.
 
-The same is true for a woman. She should not have to perform softness, helplessness, or cuteness every minute to prove she is feminine. Surrender means so much more when she could take control but prefers not to at that moment. When a strong woman surrenders, she is choosing to, which is sexy.
+The same is true for a woman. She should not have to perform softness, helplessness, or cuteness every minute to prove she is feminine. Surrender means so much more when she could take control but prefers not to at that moment.
 
 Women can get pulled in two directions here. She may worry that I don’t find her beautiful enough, or that she’s too emotional, too difficult, not logical enough, or too needy. Then she can overcorrect into needing nobody and make receiving care or letting a man lead feel like weakness.
 
-Toft says that after fifty years he still tells his wife she’s beautiful, including finding new kinds of beauty as she ages. Anami talks a lot about women learning to receive. Letting a man help, lead, or give her pleasure doesn’t make a strong woman helpless. A man receiving care doesn’t make him a child either. Sometimes that’s as ordinary as a woman who knows perfectly well how to drive asking me to drive because she likes how it feels when I do; she’s choosing the experience. I might ask, “Honey, how do you see this intuitively?” because I actually want her to go there, and she might ask me to help think through the practical side because she wants that from me.
+Toft’s advice after fifty years is simple: tell her she’s beautiful, and keep noticing new kinds of beauty as she ages. Anami makes the other half explicit: receiving is a skill. Letting a man help, lead, or give her pleasure doesn’t make a strong woman helpless. A man receiving care doesn’t make him a child either.
+
+We can invite these energies out of each other gently.
+
+“Honey, how do you see this intuitively?”
+
+or, “Can you help me think through the practical side for a minute?”
+
+That feels much better than, “Do your female/male thing now.”
+
+When a strong woman surrenders, she is choosing to, which is sexy. She knows she could drive, but she asks you to drive, because she likes how it feels when you do.
 
 That's called invitational: Would you rather go to a party where you were invited or a war you got drafted into?
 
@@ -673,11 +685,15 @@ If you really loved them, more than just wanting to enjoy them or keep them, you
 
 # Two Pillars Don't Hold The Roof Up
 
-Even if I found my twin flame, she'd still be one person. The polarity could be perfect and we'd still need other people around us.
+Even if you find your twin flame, she’s still only one person, and that's more of a problem than it seems at first. Polarity does not make two people sufficient for each other. A couple still needs friends and community.
 
-Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other's friends anymore. That's a pretty terrible time to be trying to run the rest of life with two people. Housing, money, children, health, emotional crises—if one person goes down, the other becomes the whole backup system. Who even has time for the relationship itself at that point?
+Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling, and eventually neither of us wants to talk to the other’s friends. Some of the friends may even be exes who want us to break up. By then, the outside support isn’t really shared support anymore.
 
-Maybe an unusually strong couple can get away without much community. I think that's rare.  But sometimes a friend who actually knows us both sees the pattern before either of us does. On the other hand, If both people are falling apart, there is only so much anyone else can do.
+When you rely on your partner to provide nearly all the friendship, family, therapy, and spiritual meaning, the burden is overwhelming. That's too many hats to wear even for a hat model. Besides all that, there's no security when two people have to cover all the life essentials: housing, money, children, emotional, health, and other crises. Who even has time for the relationship itself at that point?
+
+A very strong couple without much trauma can often do well without community, although it’s a struggle and I think it’s rare. A weak couple might not work even with a community if both people are too weak individually. It depends on the couple.
+
+But having more people around the relationship changes what the two people have to carry. Mutual friends can notice patterns neither person sees. Somebody else can comfort your partner when you have become the wrong person to do it. And when people actually know both of you, they have some chance of telling when the story they’re hearing does not match the person they know.
 
 That's not abstract to me: I'm sure B. and I would still be together if we'd had a real community around us. Most of all, she would not have been capable of demonizing me when everyone already knew both of us and knew I wasn’t a narcissistic abuser. It would have contained all the insanity. Baseless accusations only work with friends who only know one side.
 
@@ -701,7 +717,8 @@ I do think romantic love can last for a lifetime.
 
 A lot of romantic pain starts with two lovey bunnies entering one of the biggest arrangements of their lives without ever discussing their ideas, dreams, and fears about it.
 
-“We’re together” ... what does that mean exactly? I can hear a whole future in those two words—sex, exclusivity, living together, money, children, caregiving. She might mean, “We really like each other; let’s see what happens.” I actually like letting a relationship flow without naming every part. The problem is when we’re using the same words for two different futures.
+“We’re together” ... what does that mean exactly? I can hear a whole future in those two words—sex, exclusivity, living together, money, children, caregiving—while she may only mean that we really like each other and want to see what happens. Sometimes I like letting a relationship flow without naming every part.
+The problem is when we’re both flowing along and imagining different things.
 
 Sometimes what two people want is much more practical. They want to share a home, raise children, support each other financially, take care of each other, maybe have sex, and not pretend all of that depends on overwhelming romantic love. I’d call that a practical partnership.
 
@@ -808,7 +825,7 @@ It's not always possible in that moment to change a defensive posture into non-d
 
 Starting a relationship through psychedelics has another danger. Key and I met and then spent a few days taking iboga with friends. We got to know each other very deeply that way, and that was great. But it was especially her higher self I was getting to know. I tend to idealize people even sober, and that gets worse when I'm high. It was still beautiful to see the real higher self potential in her, I'm not denying that. But that information didn't help me understand how we would get along in normal life.
 
-I’ve also had friends get together at MDMA parties and stuff. It’s rarely a good idea. The intimacy can be completely real without telling you whether the two of you actually work together sober. Or you might even sometimes have the opposite problem, like I had with H.D., where the connection continues to deepen while sober, and it becomes something that one person might cling to desperately, never imagining they could find that again.
+I’ve also had friends get together at MDMA parties and stuff. It’s rarely a good idea. The intimacy can be completely real. You may feel that this person understands you more deeply than anyone ever has. There is still a lot you don’t know: what happens when you’re sober, irritated, jealous, broke, bored, or trying to make a difficult decision together? Or you might even sometimes have the opposite problem, like I had with H.D., where the connection continues to deepen while sober, and it becomes something that one person might cling to desperately, never imagining they could find that again.
 
 The obvious advice is to wait before making large promises and spend time together sober, around other people, and in ordinary situations. Write down what each of you learned, do some peer counseling, check with friends to see if you're too pie-in-the-sky. But the problem is, you won't necessarily be interested in sober advice when you're high. You're "beyond all that." And the high can continue after sobriety because intimacy itself is like rose-colored glasses.
 
@@ -900,13 +917,13 @@ I can believe a friend's experience and still tell them that my ability to know 
 
 ## After leaving
 
-Often times the breakup is hard, but the aftermath is worse. Public demonization should be avoided, but I don't think that means hiding the truth about the relationship to save face. Sometimes the truth is abuse, coercion, or serious deception. How much you say, to whom, and how publicly depends on what happened and why you're telling people.
+Often times the breakup is hard, but the aftermath is worse. Public demonization should be avoided, but that doesn't mean you should hide the truth about the relationship just to save face. Sometimes the truth is abuse, coercion, or serious deception. How much you say, who you say it to, and how public you make it depends on what happened and why you are telling people.
 
-A breakup can expose things you genuinely couldn't see while you were bonded. Look at what you contributed, but also try to understand whatever was true in your ex's perspective, including the conflicts they were carrying inside themselves, rather than one-dimensionalizing them.
+Part of that truth-telling is that a breakup can also expose things you genuinely couldn't see while you were bonded. Make sure to look at yourself as much as you look at them, to see what you honestly contributed to the problems. Try to see your ex's perspective in so far as it may have had some kernels of truth, including their own internal conflicts, rather than one-dimensionalizing them.
 
-Sometimes the easiest story is that they were fake all along. Don’t grab that story just because it makes everything easier to explain, and don’t reject it if it really is the most parsimonious explanation. Ask people who aren’t heavily invested in seeing your innocence. A therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you.
+Don’t jump straight to the conclusion that they were fake all along merely because that story makes the whole relationship easier to explain. Don’t rule it out either if it is actually the most parsimonious explanation. Seek opinions from people who aren’t heavily invested in seeing your innocence. A therapist, a pastor, or even a stranger can sometimes look at the evidence more clearly than a lifelong friend, and even the curiosity itself can be therapeutic for you.
 
-Spiritual practice during an ending is critical, but don't use it to get around the feelings. Pray for your ex's wellbeing. Remember what was real and good, and don't use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, Devadatta still kept trying to kill him. Looking honestly at your part doesn't erase theirs. Sometimes it helps to ask, "What would Mr. Rogers do?" (if you're old enough to remember that show).
+Spiritual practice during an ending is critical, but it shouldn't be about bypassing your feelings. Pray for your ex's wellbeing. Remember what was real and good, and refuse to use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person is also their own unique person, forged from their own influences apart from you. No matter how enlightened the Buddha was, Devadatta still kept trying to kill him. Looking honestly at your part doesn't erase theirs. Sometimes it helps to ask, "What would Mr. Rogers do?" (if you're old enough to remember that show).
 
 I also learned that public demonization doesn’t always have to be the last chapter. If you avoid contact forever, they might never apologize and learn. Doormat mode would be letting them back into your life without making them lose face themselves through a public apology. Allowing an apology is not the same decision as resuming the relationship.
 

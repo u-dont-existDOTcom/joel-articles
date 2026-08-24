@@ -4,11 +4,11 @@
   "status": "recorded",
   "runs": [
     {
-      "id": "pangram4-current-part1-2026-08-20",
+      "id": "pangram4-prior-registered-part1-2026-08-20",
       "service": "Pangram",
       "version": "4.0",
       "stage": "STAGE_SUCCESS",
-      "boundary": "reader-visible Part 1",
+      "boundary": "prior registered reader-visible Part 1",
       "text_sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
       "word_count": 10236,
       "fraction_human": 0.9205247164,
@@ -18,15 +18,14 @@
       "prediction_short": "Human",
       "stored_text_match": "exact_utf8",
       "transport": "local_playwright_gui",
-      "paid_gui_calls_total_for_boundary": 1,
-      "provenance": "Original paid Part-1 GUI action became capture-ambiguous; authenticated Pangram History recovery exact-matched the stored document. No repeat Part-1 submission occurred."
+      "provenance": "Historical evidence for the master superseded by r23r2; no repeat submission occurred."
     },
     {
-      "id": "pangram4-current-part2-2026-08-20",
+      "id": "pangram4-prior-registered-part2-2026-08-20",
       "service": "Pangram",
       "version": "4.0",
       "stage": "STAGE_SUCCESS",
-      "boundary": "reader-visible Part 2",
+      "boundary": "prior registered reader-visible Part 2",
       "text_sha256": "2df878093bc05fefa98ca30e9a97bdd52e212370f432bf0408e90f1b60c54bb0",
       "word_count": 10260,
       "fraction_human": 0.8983033895,
@@ -36,20 +35,107 @@
       "prediction_short": "Mixed",
       "stored_text_match": "exact_utf8",
       "transport": "local_playwright_gui",
-      "paid_gui_calls_total_for_boundary": 1,
-      "provenance": "Submitted exactly once after Part 1 had become an exact recovered cache hit; exact stored Pangram History record captured."
+      "provenance": "Historical evidence for the master superseded by r23r2."
+    },
+    {
+      "id": "pangram4-r22-part1-2026-08-23",
+      "service": "Pangram",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "boundary": "r22 reader-visible Part 1",
+      "text_sha256": "5ed333800b9ae7b402f26aa03e751ef8296c7e27ab70e39bc39bb9896b23e62d",
+      "word_count": 10239,
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "prediction_short": "Human",
+      "stored_text_match": "exact_utf8",
+      "provenance": "Known-green r22 rollback evidence preserved by PR #46."
+    },
+    {
+      "id": "pangram4-r22-part2-2026-08-22",
+      "service": "Pangram",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "boundary": "r22 retained reader-visible Part 2",
+      "text_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+      "word_count": 9892,
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "prediction_short": "Human",
+      "stored_text_match": "exact_utf8",
+      "provenance": "Known-green retained r22 Part-2 evidence preserved by PR #46."
+    },
+    {
+      "id": "pangram4-r23-part1-2026-08-24",
+      "service": "Pangram",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "boundary": "r23 and r23r2 reader-visible Part 1",
+      "text_sha256": "620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b",
+      "word_count": 10296,
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "prediction_short": "Human",
+      "stored_text_match": "exact_utf8",
+      "transport": "local_playwright_gui",
+      "provenance": "Exact r23 GUI result. r23r2 Part 1 is byte-identical, so this remains exact evidence for the current working master."
+    },
+    {
+      "id": "pangram4-r23-part2-2026-08-24",
+      "service": "Pangram",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "boundary": "superseded r23 reader-visible Part 2",
+      "text_sha256": "a0dce58d2958e8467c1ba66cbed20b7c7ae075b8eddc7e1365eb8728485ff7f3",
+      "word_count": 9917,
+      "fraction_human": 0.9965084195,
+      "fraction_ai": 0.0034915956,
+      "fraction_ai_assisted": 0.0,
+      "prediction_short": "Human",
+      "stored_text_match": "exact_utf8",
+      "transport": "local_playwright_gui",
+      "provenance": "Exact r23 GUI result with one AI-highlighted segment. This score does not transfer to changed r23r2 Part-2 bytes."
     }
   ],
-  "article_boundary": {
-    "reader_visible_sha256": "10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce",
-    "word_count": 20496,
+  "owner_reported_local_results": [
+    {
+      "id": "owner-r23r1-two-pillars-2026-08-24",
+      "boundary": "r23r1 Two Pillars local realization",
+      "result": "AI",
+      "confidence": "low",
+      "structured_fraction_available": false,
+      "disposition": "superseded and rejected by owner test"
+    },
+    {
+      "id": "owner-r23r2-two-pillars-2026-08-24",
+      "boundary": "exact r23r2 Two Pillars local realization",
+      "text_sha256": "cd8de93fda39fcdf13c4b1f6ba2f9250c11c40f8c8298f281055e37bafed6291",
+      "word_count": 51,
+      "result": "Human",
+      "confidence": "low",
+      "structured_fraction_available": false,
+      "exact_bytes_locked": true,
+      "owner_acceptance": "good enough",
+      "disposition": "sufficient bounded detector acceptance for working-master promotion; no full Part-2 recertification required solely for detector confidence"
+    }
+  ],
+  "current_article_boundary": {
+    "master_sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c",
+    "master_word_count_whitespace": 20364,
+    "part1_sha256": "620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b",
+    "part1_word_count_whitespace": 10296,
+    "part2_sha256": "fbbcf64af313488b2ad8bb8969422f5bc85895eca908e41e9f796b2c0724e4eb",
+    "part2_word_count_whitespace": 9917,
     "whole_article_detector_run": false,
-    "limitation": "The two current half-document results do not aggregate into a measured whole-article score and do not satisfy Joel's standing 100% Human acceptance target."
+    "limitation": "Part 1 retains an exact Pangram 4.0 Human 1.0 result. r23r2 Part 2 has no full-half result; Joel's exact local Human/low-confidence test is explicitly accepted as good enough for this bounded repair. No whole-article score is claimed."
   },
   "paid_call_accounting": {
-    "total_gui_calls": 2,
-    "part1_calls": 1,
-    "part2_calls": 1,
-    "duplicate_part1_submission": false
+    "known_prior_registered_gui_calls": 2,
+    "known_r23_gui_calls": 2,
+    "new_calls_performed_by_r23r2_terminal_task": 0,
+    "owner_local_test_call_accounting": "not supplied"
   }
 }
