@@ -4,21 +4,18 @@ Updated: 2026-08-24
 
 ## Status
 
-Editorial reconciliation for the currently approved local changes is complete through exact natural-boundary materialization and cold read. The complete r23 master / Part 1 / Part 2 files are not yet materialized in this connector-only runtime. No Pangram call has been made on r23.
+The five-feature / six-operation r23 candidate is now **fully materialized, preservation-clean, and measured in its exact two composition-aware reader-visible halves through the authenticated local Playwright GUI**.
 
-Registered `main:articles/romance/master.md` remains unchanged. PR #46's branch copy of `articles/romance/master.md` has been restored to the exact registered-main blob so stale conservative prose cannot be accidentally merged as the article master.
+Registered `main:articles/romance/master.md` remains unchanged. PR #46's branch copy of `articles/romance/master.md` remains byte-identical to registered main; r23 stays isolated as a reconciliation candidate until the remaining Part-2 detector residual is resolved or explicitly accepted.
 
 ## Known-green rollback baseline
 
 Exact r22:
-- source: `task/romance-detector-repair-20260820:work/romance-detector-repair-20260820/materialized-preservation-r22-patient-affection/candidate-master.md`
-- Git blob: `9f6bf7ed77093569a98fe606fda96ac277839f99`
-- Markdown SHA-256: `f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9`
-- Markdown whitespace words: 20,282
-- Part 1 SHA-256: `5ed333800b9ae7b402f26aa03e751ef8296c7e27ab70e39bc39bb9896b23e62d`; Pangram 4.0 Human `1.0`, zero AI windows
-- retained Part 2 SHA-256: `9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85`; Pangram 4.0 Human `1.0`
+- master SHA-256 `f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9`; 20,282 words;
+- exact tested Part 1 SHA-256 `5ed333800b9ae7b402f26aa03e751ef8296c7e27ab70e39bc39bb9896b23e62d`; 10,239 words; Pangram 4.0 Human `1.0`, zero AI windows;
+- exact retained Part 2 SHA-256 `9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85`; 9,892 words; Pangram 4.0 Human `1.0`.
 
-Do not describe the two half results as a measured whole-article score.
+These are two half measurements, not a measured whole-article score.
 
 ## r23 authorized delta
 
@@ -34,24 +31,81 @@ Exact old/new spans and hashes: `R23-FIVE-OWNER-EDITS-MANIFEST.json`.
 
 Everything else is invariant relative to exact r22.
 
-## Exact independently materialized changed boundaries
+## Preservation / architecture proof
 
-All were reconstructed directly from exact r22 plus the frozen whitelist, committed, read back from GitHub, and verified by matching returned Git blob identity to the independently computed expected Git blob identity.
+Four changed natural boundaries independently materialized from exact r22 + whitelist and cold-read PASS:
+- Talk + Affection SHA-256 `a1c88e60e068101c268b8e0dc45558ec796fe6d8224de86c8b5ec64c5238e564`; 777 words;
+- Spiritual practice SHA-256 `9722c938f9258316cef1efbe67768abee063f64923976711498bbaff57d106fb`; 290 words;
+- Two Pillars SHA-256 `e89362da826bd77d747733512a935cf19c1ddf6d492175755931826968360113`; 734 words;
+- Choosing Together through Attraction/exclusivity SHA-256 `a1bd65fc862a879170d6651f52f4d0da50150bf56de1f4f9e26437d30dd6cb8f`; 1,437 words.
 
-- Talk + Affection: SHA-256 `a1c88e60e068101c268b8e0dc45558ec796fe6d8224de86c8b5ec64c5238e564`; 777 words; Git blob `da9a1a9264e6ed42f46b0df1f2879bf31656dd46`; cold read PASS.
-- Spiritual practice: SHA-256 `9722c938f9258316cef1efbe67768abee063f64923976711498bbaff57d106fb`; 290 words; Git blob `cb2b548692599cff9ad06421e54ef39fb516d3af`; cold read PASS.
-- Two Pillars: SHA-256 `e89362da826bd77d747733512a935cf19c1ddf6d492175755931826968360113`; 734 words; Git blob `36b1981da211f1bba292ee390e287ebe7bd57c5c`; cold read PASS.
-- Choosing Together through Attraction/exclusivity: SHA-256 `a1bd65fc862a879170d6651f52f4d0da50150bf56de1f4f9e26437d30dd6cb8f`; 1,437 words; Git blob `543ef3e542de4d23ead2da674daa339cc747b56b`; cold read PASS.
+Final full materialization reproduced all four fixtures exactly.
 
-See `r23-boundary-candidates/boundary-manifest.json` and `R23-BOUNDARY-COLD-READ-20260824.md`.
-
-Boundary preservation status:
+Preservation status:
 - forward traceability PASS;
 - reverse traceability PASS;
-- unexplained substantive deltas 0;
+- unexplained substantive deltas **0**;
 - headings unchanged;
-- links/native objects unchanged inside changed boundaries;
-- independent-final-reader audit not required for bounded D2 reconciliation.
+- native objects 11 → 11;
+- Markdown links 22 → 22;
+- protected father quote, Gandarussa, children-war warning, Bear callback, and Rumi terminal line present;
+- architecture/dependency gate PASS at the bounded D2 reconciliation level.
+
+## Exact r23 materialized identities
+
+Canonical evidence branch for this candidate measurement:
+`u-dont-existDOTcom/pangram-humanization-lab@evidence/romance-r23-gui-20260824-a`
+
+Materialization receipt:
+`work/romance-r23-gui-20260824-a/materialization.json`
+
+Exact candidate:
+- master SHA-256 `322953b5d6f6ad49f7a3b41e5c6795b36404508f7768669cdcc72223f2f21a0d`; **20,364 words**;
+- Part 1 SHA-256 `620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b`; **10,296 words**; operations R23-01 / R23-02A / R23-02B;
+- Part 2 SHA-256 `a0dce58d2958e8467c1ba66cbed20b7c7ae075b8eddc7e1365eb8728485ff7f3`; **9,917 words**; operations R23-03 / R23-04 / R23-05.
+
+The retained r22 split topology remains exact: Part 1 ends after the initial patient paragraph; Part 2 begins `Key at first asked me innocently, "Can you be my guru?"`.
+
+## Pangram 4 GUI certification
+
+Transport: authenticated local Brave/Playwright GUI on Joel's self-hosted runner, exact SHA-gated, pre-click paid reservation, exact stored-History binding. No Pangram API call was used for these two long boundaries.
+
+### Part 1
+- SHA-256 `620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b`
+- 10,296 words
+- Pangram 4.0 / `STAGE_SUCCESS`
+- Human `1.0`
+- AI `0.0`
+- AI-assisted `0.0`
+- exact UTF-8 stored-text binding
+- result: `state/gui-runs/pangram-4/620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b/result.json`
+
+### Part 2
+- SHA-256 `a0dce58d2958e8467c1ba66cbed20b7c7ae075b8eddc7e1365eb8728485ff7f3`
+- 9,917 words
+- Pangram 4.0 / `STAGE_SUCCESS`
+- Human `0.9965084195`
+- AI `0.0034915956`
+- AI-assisted `0.0`
+- exact UTF-8 stored-text binding
+- one AI-generated segment according to the stored report
+- result: `state/gui-runs/pangram-4/a0dce58d2958e8467c1ba66cbed20b7c7ae075b8eddc7e1365eb8728485ff7f3/result.json`
+
+The UI rounds Part 2 to `100% Human`, but the structured `response.overall` fractions above are authoritative. Part 2 therefore does **not** yet satisfy the standing exact-100%-Human target.
+
+Total new long-boundary detector submissions for r23: exactly **2 GUI calls**. Do not resubmit either exact half.
+
+## Materializer incident / durable correction
+
+The first GUI workflow attempt failed before candidate freeze, browser submission, or paid reservation because the materializer incorrectly required every old span to disappear completely. `R23-04` is an append-only replacement whose authorized new span deliberately contains the old paragraph as its prefix.
+
+Correct invariant: after replacement, residual occurrences of the old span must equal the number literally embedded inside the authorized new span; any additional occurrence is a failure.
+
+The private trusted materializer was repaired and regression-tested; the same correction was mirrored into both PR #46 materializers. The successful rerun used the same immutable request and detector identity.
+
+## Cost-routing policy
+
+Current Pangram policy now routes full articles, half-article scans, and other aggregate/long production boundaries through GUI by default. The API is reserved for short/local sections unless Joel explicitly overrides a specific large API run. This is mechanically enforced in the Pangram repositories. Cross-transport duplicate and accounting protections remain mandatory.
 
 ## Closed proposals
 
@@ -67,58 +121,16 @@ Rejected:
 - Attraction/exclusivity history→vow bridge;
 - already-in-it stay-in-conversation diagnostic.
 
-## Materializer
+## Next safe action
 
-`materialize_r23_five_owner_edits.py` is the current frozen assembly tool.
+Use **read-only authenticated Pangram History localization** on exact r23 Part 2 to locate the single residual AI segment. Do not buy another detector call merely to localize it.
 
-It now blocks unless all of these hold:
-- exact r22 SHA-256 `f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9`;
-- exact r22 whitespace word count 20,282;
-- exactly six frozen replacements, each old span once;
-- expected r23 whitespace word count 20,364;
-- exact heading list unchanged;
-- native objects exactly 11 → 11;
-- Markdown links exactly 22 → 22;
-- protected father quote, Gandarussa, children-war warning, Bear callback, and Rumi terminal line all present;
-- each old span absent / new span present exactly once after transformation;
-- extracted changed-boundary SHA-256s exactly match the four independently materialized fixtures above.
+After localization:
+1. inspect the exact residual in its natural section/context;
+2. determine whether it lies inside one of the three authorized Part-2 r23 edits or is a contextual interaction elsewhere;
+3. preserve the owner-authorized functions and exact r22 rollback anchor;
+4. make the smallest justified editorial repair only if a real local defect/realization problem exists;
+5. re-run preservation/architecture proof after any semantic edit;
+6. certify only the changed composition-aware Part-2 boundary through GUI under the current cost policy.
 
-On success it writes the full r23 master, the same four natural boundaries, a candidate manifest, and final preservation receipt. It makes no detector call.
-
-Runtime prerequisite: repository checkout with the exact task ref fetched as `origin/task/romance-detector-repair-20260820`.
-
-## Detector state
-
-r23: **UNMEASURED**, not failed.
-
-Do not spend four section-level Pangram calls and treat them as certification. Romance has demonstrated composition sensitivity; the meaningful certification targets are the resulting exact r23 Part 1 / Part 2 halves after full assembly.
-
-Before paid work:
-1. recover exact Pangram cache / pending / ambiguous / reservation / section-call-ledger state;
-2. use the current trusted private self-hosted executor route, not GitHub-hosted Actions or Browserbase;
-3. freeze exact r23 half identities and Pangram 4.0 spec;
-4. do not repeat already-paid or ambiguous work;
-5. keep r22 exact halves as rollback anchors.
-
-Current Pangram lab state also records that a prior ~10-credit full-Part2 request encountered insufficient balance after the trusted route itself was proven. Re-check current balance/accounting before assuming a full-half call can run.
-
-## Repository hygiene completed
-
-- stale conservative `articles/romance/master.md` change removed from PR #46; branch master is exact registered-main blob;
-- dead `R23-MATERIALIZATION-TRIGGER*.md` files removed;
-- temporary workflows from failed connector-trigger experiments are not part of PR #46;
-- README and `RECONCILIATION-LEDGER.md` now route to current function-first r23 state;
-- conservative/holistic failure artifacts remain only as historical evidence and are explicitly non-authoritative.
-
-## Next executable step
-
-In a runtime with repository checkout access:
-
-1. fetch `task/romance-detector-repair-20260820` to `origin/task/romance-detector-repair-20260820`;
-2. run `python work/romance-r22-reconciliation-20260823/materialize_r23_five_owner_edits.py` from the PR #46 branch;
-3. commit/read back `materialized-r23-five-owner-edits/`;
-4. verify the final receipt and candidate SHA;
-5. create exact r23 reader-visible Part 1 / Part 2 using the same split contract as r22;
-6. only then recover detector accounting and decide whether to certify both changed halves.
-
-Do not alter registered main or publish/export before that gate is complete.
+Do not alter registered main, merge r23 into article authority, or publish/export before this gate is complete or Joel explicitly accepts the residual.
