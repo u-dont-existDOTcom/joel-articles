@@ -4,7 +4,7 @@ Status: **PROVISIONAL SAME-CONTEXT AUDIT; detector not consulted for drafting**
 
 Natural boundary: Job 2 through final prose before the existing Sky Hypnosis native embed.
 
-Candidate: `R08-JOB2-TO-END-SCAFFOLD-REDUCTION-CANDIDATE-20260824.md`, exact UTF-8 SHA-256 `46d879d452674dd20be7a37a418f604aeb6e6460b977ae6d7342f09e21165ae1`.
+Candidate: `R08-JOB2-TO-END-SCAFFOLD-REDUCTION-CANDIDATE-20260824.md`, mechanically verified GitHub-file SHA-256 `a8753377f08d855f70e1435b9caa8aa76b70d8ac71c0795e9303c6dcae7f1360`.
 
 Genre target: mixed research-conversational + practical guide. The section may contain technical mechanisms, evidence distinctions, practical sequences, safety, and limited genuine owner experience; it must not drift into memoir merely to improve detector behavior.
 
