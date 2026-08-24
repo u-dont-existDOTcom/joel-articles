@@ -4,8 +4,12 @@
   "locked_passages": [],
   "protected_functions": [
     {
-      "id": "five-job-map-provisional",
-      "description": "Preserve the five-job map and the explicit statement that it is an author-developed/provisional synthesis rather than a scientifically validated universal protocol."
+      "id": "modalities-not-jobs",
+      "description": "Joel's direct 2026-08-24 correction: Somatic Experiencing, trauma-sensitive/restorative yoga, TRE/gentle shaking, EFT, Shaking Qigong, Brainspotting, EMDR, light CBT/narrative integration, Sky Hypnosis, and Vagal Blitz are therapy modalities or practices, not 'jobs'. Do not restore the five-job taxonomy or merely rename its boxes."
+    },
+    {
+      "id": "conditional-sequencing-not-protocol",
+      "description": "Preserve the useful timing distinctions without converting them into a formal stage model: regulation/capacity work can help before deeper processing when someone is easily overwhelmed; Brainspotting can fit diffuse/body-held or hard-to-narrate material; EMDR can fit a discrete memory or trigger network; cognitive integration can become easier after the body is less trapped in threat. Modalities may overlap and a stable person with a clear target may move to trauma-focused work earlier."
     },
     {
       "id": "capacity-not-waiting-room",
@@ -25,7 +29,7 @@
     },
     {
       "id": "evidence-plane-distinction",
-      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms."
+      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms, without repeatedly restating the same epistemic disclaimer when the reader already has it."
     },
     {
       "id": "native-object-placement",
@@ -34,6 +38,6 @@
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel explicitly instructed on 2026-08-22 to register the r01 humanized Somatic Therapies article in the public joel-articles repository and continue detector work. Registration confirms working-master identity, not owner-final prose approval."
+    "evidence": "Joel explicitly instructed on 2026-08-22 to register the r01 humanized Somatic Therapies article in the public joel-articles repository and continue detector work. Registration confirms working-master identity, not owner-final prose approval. Joel directly corrected the article architecture on 2026-08-24: the therapies are modalities/practices, not jobs; this supersedes the earlier five-job protected-function entry."
   }
 }
