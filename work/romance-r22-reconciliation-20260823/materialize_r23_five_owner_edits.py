@@ -104,10 +104,17 @@ missing = [x for x in protected if x not in candidate]
 if missing:
     raise SystemExit(f"protected anchors missing: {missing}")
 
-# Prove all frozen old spans are gone and all new spans exist exactly once.
+# Prove each replacement has exactly the residual old-span count implied by its
+# authorized new text. This supports append-only replacements such as R23-04,
+# where the new span deliberately contains the old paragraph as a prefix.
 for change in cfg["changes"]:
-    if change["current"] in candidate:
-        raise SystemExit(f"{change['id']} old span survived")
+    expected_old_count = change["proposed"].count(change["current"])
+    actual_old_count = candidate.count(change["current"])
+    if actual_old_count != expected_old_count:
+        raise SystemExit(
+            f"{change['id']} unexpected old-span count after replacement: "
+            f"expected {expected_old_count}, found {actual_old_count}"
+        )
     if candidate.count(change["proposed"]) != 1:
         raise SystemExit(f"{change['id']} new span not unique")
 
