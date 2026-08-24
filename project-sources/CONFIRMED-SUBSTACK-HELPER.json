@@ -9,6 +9,27 @@
     "Copy Article when no native uploaded video is present",
     "Copy Part 1..N in source order with manual native-video insertion steps when native uploaded video is present"
   ],
+  "generation_contract": {
+    "protocol": "docs/SUBSTACK-HELPER-DELIVERY-GATE.md",
+    "canonical_generator": "project-sources/substack_transfer_helper.py.txt",
+    "canonical_native_object_parser": "project-sources/html_islands.py.txt",
+    "raw_editor_html_required_for_native_object_authority": true,
+    "canonical_build_sequence": [
+      "init",
+      "build",
+      "verify"
+    ],
+    "delivery_requires_embedded_manifest": "hva-transfer-manifest",
+    "delivery_requires_current_helper_format": "joel-substack-transfer-helper-v4",
+    "improvised_helper_allowed": false,
+    "fallback_if_generator_unavailable": "fail_closed_report_blocker",
+    "forbidden_fallbacks": [
+      "hand-built Python or JavaScript clipboard helper",
+      "ad hoc Markdown-to-HTML helper",
+      "native-object markup reconstructed from memory or inferred metadata",
+      "plausible-looking body-markup payload not emitted and verified by the canonical generator"
+    ]
+  },
   "transfer_wrapper": {
     "tag": "div",
     "attributes": {
@@ -90,6 +111,9 @@
   },
   "visible_manual_fallback_ui": false,
   "locked_invariants": [
+    "every delivered helper is emitted by project-sources/substack_transfer_helper.py.txt through init/build/verify; hand-built helper implementations are forbidden",
+    "if the canonical generator cannot be executed or verified, fail closed instead of constructing a replacement helper",
+    "raw Substack editor HTML is the sole native-object/link/markup authority; Markdown markers and remembered object structure cannot be used to recreate embeds",
     "one visible Copy Article control when no standalone native uploaded video is present",
     "standalone native Substack-uploaded video forces ordered payload segments plus a manual insertion step at recorded anchors",
     "native uploaded-video markup is never placed in a clipboard payload and is never claimed to transfer",
@@ -105,7 +129,7 @@
     "all payload segments are rebuilt from the exact final archival editor body"
   ],
   "supersedes_profile": "Opera local-file one-paste native-object helper",
-  "supersession_reason": "Joel's owner-final correction distinguishes nonportable native Substack-uploaded videos, which require ordered helper splits and manual insertion, from Substack video-post embeds, which remain canonical post URLs in the current payload segment without a split.",
+  "supersession_reason": "Joel's owner-final correction distinguishes nonportable native Substack-uploaded videos, which require ordered helper splits and manual insertion, from Substack video-post embeds, which remain canonical post URLs in the current payload segment without a split. The 2026-08-24 Romance incident additionally makes canonical-generator provenance a blocking delivery requirement: workers must never reimplement the helper ad hoc.",
   "last_destination_status": "Native uploaded video is owner-confirmed nonportable through the clipboard helper. Video-post URL reconstruction and every regenerated helper still require a real Opera-to-Substack destination check.",
   "native_video_segmentation": {
     "trigger_type": "native_video",
