@@ -12,6 +12,9 @@ ROOT = Path(__file__).resolve().parents[1]
 MASTER = ROOT / "articles/somatic-therapies/master.html"
 FRAGMENT = ROOT / "articles/somatic-therapies/experiments/R07-PROMOTION-HTML-FRAGMENT-20260824.html"
 BOUNDARY = ROOT / "articles/somatic-therapies/experiments/R07-JOB2-TO-END-PANGRAM-BOUNDARY-20260824.txt"
+RAW_BOUNDARY_SHA256 = "91dd31d6519e76f30831780789d9a13c2761378978d153f2cc3f602c4b5b0b87"
+WITHOUT_TERMINAL_NEWLINE_SHA256 = "06d068603b3a9c0d26bd9537240550ab18ae589ea795aa6bc2f443bffb96451b"
+STALE_PREFLIGHT_SHA256 = "6091db45d7ddf80f027cc591396abd75ab7b144c206e28befee86b2f5d3589ec"
 
 
 class _HeadingParser(HTMLParser):
@@ -107,18 +110,16 @@ class SomaticR07PromotionFragmentTest(unittest.TestCase):
 
     def test_r07_boundary_raw_file_sha256(self) -> None:
         raw = BOUNDARY.read_bytes()
-        self.assertEqual(
-            hashlib.sha256(raw).hexdigest(),
-            "91dd31d6519e76f30831780789d9a13c2761378978d153f2cc3f602c4b5b0b87",
-        )
+        self.assertEqual(hashlib.sha256(raw).hexdigest(), RAW_BOUNDARY_SHA256)
 
     def test_r07_boundary_without_one_terminal_newline_sha256(self) -> None:
         raw = BOUNDARY.read_bytes()
         self.assertTrue(raw.endswith(b"\n"))
-        self.assertEqual(
-            hashlib.sha256(raw[:-1]).hexdigest(),
-            "6091db45d7ddf80f027cc591396abd75ab7b144c206e28befee86b2f5d3589ec",
-        )
+        self.assertEqual(hashlib.sha256(raw[:-1]).hexdigest(), WITHOUT_TERMINAL_NEWLINE_SHA256)
+
+    def test_stale_preflight_sha_matches_neither_frozen_byte_identity(self) -> None:
+        self.assertNotEqual(STALE_PREFLIGHT_SHA256, RAW_BOUNDARY_SHA256)
+        self.assertNotEqual(STALE_PREFLIGHT_SHA256, WITHOUT_TERMINAL_NEWLINE_SHA256)
 
 
 if __name__ == "__main__":
