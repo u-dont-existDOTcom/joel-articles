@@ -28,11 +28,17 @@ jobs:
           set -euo pipefail
           git fetch origin task/romance-detector-repair-20260820:refs/remotes/origin/task/romance-detector-repair-20260820
 
-      - name: Materialize exact r23
+      - name: Materialize exact r23 full candidate
         shell: bash
         run: |
           set -euo pipefail
           python work/romance-r22-reconciliation-20260823/materialize_r23_five_owner_edits.py
+
+      - name: Materialize exact r23 reader-visible halves
+        shell: bash
+        run: |
+          set -euo pipefail
+          python work/romance-r22-reconciliation-20260823/materialize_r23_reader_halves.py
 
       - name: Commit exact r23 output
         shell: bash
@@ -44,7 +50,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'Materialized output already current.'
           else
-            git commit -m 'Materialize exact Romance r23 five-owner-edit candidate'
+            git commit -m 'Materialize exact Romance r23 five-owner-edit candidate and halves'
             git push origin HEAD:reconcile/romance-r22-20260823
           fi
 
