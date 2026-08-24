@@ -1,0 +1,139 @@
+# Somatic Therapies — r04 Job 2→end natural-owner reconstruction
+
+Status: **non-authoritative candidate pending preservation + preflight**
+
+Scope: replaces only the r03 reader-visible boundary from `Job 2: Daily Regulation and Discharge — Keep the Pressure Low` through the final prose paragraph before the existing Sky Hypnosis native embed. Everything before Job 2 remains the r03/r02 realization. Native/editor objects and link targets remain invariants.
+
+This pass responds to r03's Pangram-4 result: AI `1.0`, High confidence, one AI window spanning the complete 1,627-word boundary. It is a holistic register reconstruction, not a phrase/window experiment.
+
+---
+
+# Job 2: Daily Regulation and Discharge — Keep the Pressure Low
+
+Deep sessions can get undermined pretty quickly if the rest of the week just keeps piling activation back on. So once there is some basic safety, daily regulation becomes its own job.
+
+## EFT / Tapping
+
+I like EFT for this job because you can use it right when something is happening. Conflict, shame spirals, social fear, abandonment panic, freeze, anger, intrusive memory fragments—these are not always things you want to wait until the next therapy session to deal with.
+
+So tap before a difficult conversation, after you get triggered, before or after therapy, or when your mind is looping and your body is obviously activated too. It also works as a bridge between body work and cognitive processing.
+
+I would not make EFT the only treatment for severe trauma, though, and I would not use it to avoid the deeper work.
+
+## [Shaking Qigong](http://shakingclass.innersignalselfhypnosis.com/) / Shaking Medicine
+
+I am linking one specific class here for a reason. My friend Louka had already tried many different healing and somatic modalities, including basic TRE, and nothing helped him much until he got into this class. It costs $10 per month on Skool. That is why this is the one I recommend.
+
+Shaking is doing a different job here than it was in Job 1. Earlier, the idea was to keep it gentle and exploratory. Once you can stop, orient, and settle afterward, it can become a regular discharge practice.
+
+There are two different ways people explain what might be happening. In more mainstream language: rhythmic movement, less muscular armoring, more awareness of bodily sensation, a possible shift away from fight-or-flight, tremor-mediated release of chronic tension, and completion of interrupted defensive impulses.
+
+Qigong uses a different model. *Qi* means vital energy, and from that perspective the shaking may remove energetic stagnation, increase qi circulation, dissolve stored emotional charge, and reconnect breath, body, and movement.
+
+A regular practice might be 10–45 minutes. I think it makes the most sense for things like non-verbal emotional processing, chronic freeze patterns, stress accumulating between therapy sessions, or activation that is still sitting in the body afterward. I would not treat it as a standalone treatment for severe PTSD, the primary way to process trauma, something to chase catharsis with, or a replacement for skilled therapy when somebody is highly dissociative or unstable.
+
+## The Discharge → Settle Stack
+
+After shaking, I do not like the idea of just opening a lot of activation and then walking away raw. A simple sequence is:
+
+1. [**Shaking Qigong**](http://shakingclass.innersignalselfhypnosis.com/) **/ TRE** — discharge excess activation.
+2. **Restorative or gentle yin yoga** — let the system soften and settle.
+3. **EFT tapping** — re-establish emotional calm and cognitive orientation.
+
+Yin can help with the settling part, but keep it gentle, propped, and non-coercive. Long passive holds can get too evocative in trauma work. Especially early on, I would rather use shorter holds than ambitious five-minute shapes. Nobody should be encouraging you to endure sensation for the sake of “release.”
+
+---
+
+# Job 3: Work With Diffuse, Bodily, or Hard-to-Narrate Material
+
+Sometimes the trauma is not a clean story. It shows up first as sensation, impulse, emotion, an image, or fragments that are hard to put into words.
+
+This is often called *subcortical* processing. I use that word loosely: I mean the material is showing up through the body before there is a clear verbal story, not that one precise brain region contains the trauma.
+
+## Brainspotting
+
+Brainspotting works with gaze position, focused attention, bodily awareness, and therapist attunement.
+
+**[EXISTING BRAINSPOTTING YOUTUBE EMBED — exact object retained in HTML promotion]**
+
+Before going very deep, I care much less about whether somebody has completed a particular list of therapies than whether the underlying capacities are there. Can you stay present? Do you have some way to regulate ordinary triggers? Can you settle afterward? Can you notice when the dose is becoming too much?
+
+If those capacities are there, Brainspotting can make a lot of sense when the trauma comes as body reactions, images, impulses, emotions, or fragments that are hard to organize into a story. You do not necessarily have to explain every detail for the session to move. This includes diffuse developmental trauma, pre-verbal or body-held material, trauma that does not respond well to purely cognitive approaches, and complex emotional knots where the body knows more than the story.
+
+For further reading, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
+
+## After Brainspotting
+
+I would not rush straight into analysis afterward. Your body may need some time with whatever came up.
+
+If spontaneous shaking or tremoring happens naturally, let it happen. If the body still wants discharge, gentle [Shaking Qigong](http://shakingclass.innersignalselfhypnosis.com/) may help. If you need orientation, walking meditation may make more sense. Restorative, gentle yin, or somatic yoga can fit when you want rest, stretching, toning, or reconnection. EFT can help if the emotional activation is still high.
+
+---
+
+# Job 4: Targeted Memory Reconsolidation
+
+## EMDR
+
+EMDR is much easier to place when there is a discrete traumatic event, flashback, or specific trigger network you can actually target.
+
+**[EXISTING EMDR YOUTUBE EMBED — exact object retained in HTML promotion]**
+
+It often fits after you have enough regulation, body capacity, and some way to integrate the session afterward. But a stable person working with one clear event may be ready much earlier. EMDR can be highly effective.
+
+Where I would not automatically start with it is diffuse developmental trauma when the nervous system is still unstable. Specific traumatic events, accidents, assault memories, military trauma, distinct flashbacks, and stubborn residual triggers are natural EMDR targets. When the material is mainly bodily, pre-verbal, relational, or so diffuse that you cannot identify a clear target, Brainspotting may fit better.
+
+## Neurological De-Armoring Support
+
+Sleep, substance use, medication effects, pain, nutrition, and general physiological stability can all change how well you tolerate therapy. I have a separate [sleep guide](https://sleep.u-dont-exist.com/) for that.
+
+I also think neurological de-armoring may matter especially around memory work. EMDR directly engages memory reprocessing, so anything affecting fear learning, inflammation, dissociation, glutamate/GABA balance, or autonomic tone may change how reconsolidation feels. My [de-armoring supplement guide](http://dearmor.u-dont-exist.com/) goes into that side of it.
+
+## After EMDR
+
+After EMDR I would keep things simple instead of stacking more processing on top: walk, do restorative yoga, eat and hydrate, journal only if it feels grounding, go to bed early if your nervous system feels tired, or use light EFT if activation remains.
+
+I would not stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless you already know your system handles that much and you have skilled support. Often the missing piece is integration, not another round of processing.
+
+---
+
+# Job 5: Meaning-Making and Life Integration
+
+## Light CBT / Narrative Integration
+
+I am not against top-down cognitive work. I just think it often comes in too early, while the body is still acting as if the threat is happening now.
+
+Once there has been enough regulation, discharge, and deeper processing, the same kind of cognitive work can become much more useful. Then you can reframe old beliefs, build a coherent life story, separate past danger from present reality, clarify values and boundaries, reclaim agency, and deepen [inner-child reparenting](http://innerchild.u-dont-exist.com/). Identity, differentiation, forgiveness when it is relevant, and what direction you actually want your life to take all belong here too.
+
+Trying to think your way out of a body that still experiences the threat often fails. The thinking gets more useful once the body is no longer busy proving that the past is still happening.
+
+---
+
+# How to Judge What Is Helping
+
+Do not decide the dose was right just because you felt calm at the end of the session. Check again the next morning, and keep watching over the next two or three days. What happened to sleep, irritability, dissociation, pain, compulsive processing, relationships, and normal functioning? That tells you much more about whether to repeat or intensify something.
+
+Yoga is a good example of why I do not want this map turned into rigid stages. It can show up early for awareness, flexibility, enjoyment, and agency; after shaking to help you settle; or after deeper work for stretching and reconnection.
+
+The evidence needs the same kind of flexibility. Published research matters, but it is not the same thing as common clinical use, my experience, community reports, or qigong and energetic explanations. They can point in the same direction without proving one another.
+
+Some shaking, qigong, breathwork, and somatic communities make enormous claims: releasing decades of trauma, awakening kundalini, clearing stored emotion, rapidly healing the whole nervous system. I would treat those as hypotheses and community signal, not promises.
+
+And the reverse mistake is possible too. A thin research literature does not prove a practice is ineffective, while a huge literature does not tell you that one treatment is the right first move for *your* nervous system. Start from first principles, look at what seems to help people with similar patterns, change one thing at a time when you can, and see what actually happens in your life.
+
+Do not confuse intensity with healing.
+
+---
+
+# Optional High-Intensity State-Shift and Release Practices
+
+[Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best) are down here because they are relatively intense, not because you have to finish the rest of the map first. Stable people may find them helpful much earlier. They are optional advanced state-shift and release practices, not ordinary regulation exercises or prerequisites for healing.
+
+Sky Hypnosis can make you lightheaded. Vagal Blitz is lying-down-only and has its own cardiovascular and mental-health cautions. Read the complete guide, start with the least intense version that gives you a useful shift, and stop when balance, orientation, or recovery becomes unreliable. Do not chase fainting or loss of consciousness.
+
+The other problem is that a big state shift can feel like healing. You can get enough bliss, relief, or altered-state intensity to feel healed while the same trauma is still running your relationships and behavior.
+
+So look at what happens afterward. Are you more able to meet pain, set a boundary, participate in life, and approach the actual issue? Or is the practice helping you avoid grief, conflict, practical problems, or deeper relational healing?
+
+Advanced release still does not establish that you are ready for deep memory work. Reassess orientation, ability to stop, sleep, physical recovery, and whether you are more willing to approach the issue itself. The benefits I describe in the linked guides include my experience and community signal; the proposed physiological mechanisms are a separate question.
+
+**[EXISTING SKY HYPNOSIS NATIVE EMBED — exact object retained in HTML promotion]**
