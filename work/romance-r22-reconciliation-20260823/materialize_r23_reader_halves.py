@@ -95,8 +95,13 @@ def apply_ops(text: str, half: int) -> tuple[str, list[str]]:
         if count != 1:
             raise SystemExit(f"{op['id']} expected reader old span once in half {half}, found {count}")
         out = out.replace(op["old"], op["new"], 1)
-        if op["old"] in out:
-            raise SystemExit(f"{op['id']} old reader span survived")
+        expected_old_count = op["new"].count(op["old"])
+        actual_old_count = out.count(op["old"])
+        if actual_old_count != expected_old_count:
+            raise SystemExit(
+                f"{op['id']} unexpected old reader-span count after replacement: "
+                f"expected {expected_old_count}, found {actual_old_count}"
+            )
         if out.count(op["new"]) != 1:
             raise SystemExit(f"{op['id']} new reader span not unique")
         applied.append(op["id"])
