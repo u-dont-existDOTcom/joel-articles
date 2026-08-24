@@ -6,9 +6,9 @@ Scope: reader-visible Job 2 through the final prose before the existing Sky Hypn
 
 ---
 
-# Job 2: Daily Regulation and Discharge — Keep the Pressure Low
+# Job 2: Keep the Pressure Low Between Deeper Sessions
 
-A deep therapy session can only do so much if the rest of the week keeps piling activation back on. Once there is some basic safety, I want something I can also do while ordinary life is happening.
+A good therapy session can only do so much if activation keeps building again during the rest of the week. Job 2 is the ordinary-life part: what can I do between deeper sessions so the pressure does not keep accumulating faster than I can process it?
 
 ## EFT / Tapping
 
@@ -16,9 +16,9 @@ EFT is very nice for this kind of regulation. Part of it is just distraction: wh
 
 Actually, I mentioned earlier that shaving my head and massaging it works really well for me. Sometimes I feel like that works even better than EFT.
 
-Tapping is easy to pull out in ordinary life: before a difficult conversation, after you get triggered, before or after therapy, when your mind is looping while your body is activated, or as a bridge between body work and cognitive processing. Conflict, shame spirals, social fear, abandonment panic, freeze, anger, intrusive memory fragments—these are exactly the kinds of things that do not always wait until your next therapy session.
+EFT fits well here because it is quick, private, repeatable, and concrete enough to use while real life is happening. Conflict. A shame spiral. Social fear. Abandonment panic. Freeze. Anger. An intrusive fragment of memory that suddenly has your whole body involved.
 
-I would not make EFT the only treatment for severe trauma, and I would not use it as a way to avoid the deeper work.
+It can fit before a difficult conversation, after getting triggered, before or after a therapy session, or when the mind is looping and the body is obviously in the loop too. It can also bridge body-based and cognitive work. I would not make it the only treatment for severe trauma, and I would not use it to avoid deeper work that obviously still needs doing.
 
 ## [Shaking Qigong](http://shakingclass.innersignalselfhypnosis.com/) / Shaking Medicine
 
@@ -32,11 +32,13 @@ TRE has to solve a different problem. It is a system meant to be taught en masse
 
 I have not taken this Shaking Qigong class myself. I have done qigong, though, and found it very helpful for moving energy, so the combination makes intuitive sense to me. It also sits in an interesting middle ground: more guidance than totally unstructured shaking, but more movements and positions than standard TRE. I can see that suiting somebody who needs some guidance but gets nothing from the standard TRE route. And it is social. For many people, that makes it work better than practicing alone because they can see other people getting results.
 
-That is also why I separate this from the gentler shaking in Job 1. Earlier, the point was to explore without overwhelming yourself. Once you can stop, orient, and settle afterward, shaking can become a regular discharge practice. A regular session might be 10–45 minutes.
+Here the job is daily autonomic discharge and energetic decompression. For Job 1, shaking stays mild and exploratory. Here it can become a regular discharge practice—as long as you can still stop, orient, and settle afterward. A regular practice might run 10–45 minutes. I think of the use cases as chronic freeze, non-verbal emotional processing, stress that accumulates between therapy sessions, and leftover activation after a deeper session.
 
-There are different ways of explaining what the shaking is doing. In more mainstream language, possible pieces include rhythmic movement, reduced muscular armoring, greater awareness of bodily sensation, a possible shift away from fight-or-flight, tremor-mediated release of chronic tension, and completion of interrupted defensive impulses. Qigong talks instead about *qi*, or vital energy: moving stagnation, increasing circulation of qi, dissolving stored emotional charge, and reconnecting breath, body, and movement.
+You do not have to accept the qigong explanation to see ordinary reasons shaking might help: rhythmic movement, less muscular armoring, more awareness of bodily sensation, a possible shift out of fight-or-flight, release of chronic tension, and perhaps completion of defensive impulses that got interrupted.
 
-I think shaking makes the most sense here for non-verbal emotional processing, chronic freeze patterns, stress accumulating between therapy sessions, or activation that is still sitting in the body afterward. I would not treat it as a standalone treatment for severe PTSD, the main way to process trauma, something to chase catharsis with, or a replacement for skilled therapy when somebody is highly dissociative or unstable.
+Qigong has a different explanatory language. *Qi* means vital energy, and from that perspective the same practice may be described as removing stagnation, increasing qi circulation, dissolving stored emotional charge, and reconnecting breath, body, and movement. These are different explanations for the same practice; one does not prove the other.
+
+What I would not do is turn shaking into a catharsis contest, treat it as a standalone treatment for severe PTSD or the primary trauma-processing modality, or use it as a substitute for skilled help when somebody is highly dissociative or unstable.
 
 ## The Discharge → Settle Stack
 
