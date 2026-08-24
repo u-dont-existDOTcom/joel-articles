@@ -28,7 +28,7 @@ The class is much more than just TRE.
 
 What makes sense to me about that is based partly on the kind of shaking I get naturally. I often have the animal-type shaking that just happens by itself, especially on psychedelics, where it feels like my body knows exactly which part needs to shake and how. So when I say a `blockage`, I mean that some energy feels stuck. It is not simply `shaking = mental health`. When the right thing shakes in the right way, things loosen as they should and the energy flows.
 
-TRE has to solve a different problem. It is a system meant to be taught en masse, so it has to be distilled into something that seems to work most of the time for most people. That is useful, but it also means there are fewer angles to come at the problem from. `Just try lots of stuff till it works` is more or less how my expertise runs on this, which gives me less chance of being called an expert.
+TRE has to solve a different problem. It is a system meant to be taught en masse, so it has to be distilled into something that seems to work most of the time for most people. That is useful, but it also means there are fewer angles to come at the problem from. The more angles you have to try, the more chances you have to hit the one that works. `Just try lots of stuff till it works` is more or less how my expertise runs on this, which gives me less chance of being called an expert.
 
 I have not taken this Shaking Qigong class myself. I have done qigong, though, and found it very helpful for moving energy, so the combination makes intuitive sense to me. It also sits in an interesting middle ground: more guidance than totally unstructured shaking, but more movements and positions than standard TRE. I can see that suiting somebody who needs some guidance but gets nothing from the standard TRE route. And it is social. For many people, that makes it work better than practicing alone because they can see other people getting results.
 
@@ -62,7 +62,7 @@ Eye movements and memory really are connected, although I checked the popular NL
 
 I also like this because it makes titration and pendulation very easy. I was calling it something like edging: go toward the uncomfortable spot, back away, come toward it again, and feather-touch the boundary instead of jumping straight into the deep end. `Titration` is the more established term for approaching activation in small doses, and `pendulation` for moving between more activated and more regulated sensations. That approach feels better to me. There is also some evidence that graduated exposure reduces peak distress, although that is not the same as proving gradual work is always more effective.
 
-And Brainspotting gets a lot of points from me for the same reason EFT does: it is democratic. You do not need an expensive expert every time you want to work with something. You can experiment with a simple version yourself, and formal Brainspotting with a therapist is still there if you want or need it.
+And Brainspotting gets a lot of points from me for the same reason EFT does: it is democratic. You do not need an expensive expert every time you want to work with something. You can experiment with a simple version yourself whenever you need it, and formal Brainspotting with a therapist is still there if you want or need it.
 
 Formal Brainspotting works with gaze position, focused attention, bodily awareness, and therapist attunement.
 
@@ -96,13 +96,13 @@ Where I would not automatically start with EMDR is diffuse developmental trauma 
 
 I do want this part in the article, because in my experience the state of the body can determine whether the psychological work goes anywhere at all. I have seen friends get basically nowhere with these therapies until they addressed physical neuroinflammation, with things like low-dose naltrexone, phosphatidylserine, DMSO, and so on.
 
-I notice the same principle in myself from another angle: if I feel like I have toxins sitting in my gut, I cannot do much real healing work. Ozonated zeolite helps me a lot with that. Ozonated charcoal water also helps me when I am surrounded by chaotic energy fields, whether EMF or auric. Those are my experience and observations; I am not treating them as the same kind of evidence as a clinical trial.
+I notice the same principle in myself from another angle: if I feel like I have toxins sitting in my gut, I cannot do much real healing work. Ozonated zeolite helps me a lot with that. Ozonated charcoal water also helps me a lot when I am surrounded by chaotic energy fields, whether EMF or auric. Those are my experience and observations; I am not treating them as the same kind of evidence as a clinical trial.
 
-That is why I keep the physical de-armoring material next to memory work instead of treating it as a separate wellness topic. Sleep, substance use, medication effects, pain, nutrition, inflammation, dissociation, glutamate/GABA balance, and autonomic tone may all affect how much therapy you can tolerate and what reconsolidation feels like. I have separate guides on [sleep](https://sleep.u-dont-exist.com/) and [neurological de-armoring](http://dearmor.u-dont-exist.com/) for that side of it.
+That is why I keep the physical de-armoring material next to memory work instead of treating it as a separate wellness topic. Sleep, substance use, medication effects, pain, nutrition, general physiological stability, fear learning, inflammation, dissociation, glutamate/GABA balance, and autonomic tone may all affect how much therapy you can tolerate and what reconsolidation feels like. I have separate guides on [sleep](https://sleep.u-dont-exist.com/) and [neurological de-armoring](http://dearmor.u-dont-exist.com/) for that side of it.
 
 ## After EMDR
 
-Afterward I would keep things almost boring: walk, eat, hydrate, sleep early if you are tired, do restorative yoga, journal only if it grounds you, maybe use a little EFT if activation is still there.
+Afterward I would keep things almost boring: walk, eat healthy food, hydrate, sleep early if you are tired, do restorative yoga, journal only if it grounds you, maybe use a little EFT if activation is still there.
 
 I would not casually stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless you already know your system handles that much and you have skilled support. More processing can simply be more processing. Sometimes the missing piece is integration.
 
@@ -124,7 +124,7 @@ Here is a very ordinary example of what I mean by `restimulation`. While I was w
 
 So I did a quick bit of self-Brainspotting. I moved my finger and eyes slowly around while thinking about the event. When my gaze went farther to either side I noticed some *pīti*—in Buddhist language, a kind of tingling bliss—as I moved into more peripheral vision. I had assumed this was simply `peripheral vision activates the parasympathetic nervous system`, but the research is not that clean. What I can say from the experience is that I could move moment to moment between a more settled/blissful state and the distress of the memory, and move some of that bliss into the distress instead of staying submerged in it.
 
-Afterward the event felt like it held less negative or blocking energy in my mind. That is the simplest test for me. If an hour later I am still stewing just as much, maybe the effect was mostly temporary. If I can bring the event back to mind and I am still less restimulated by it, something changed more durably. I would not expect every memory to be resolved in one pass; one EMDR treatment is generally not the whole treatment either.
+Afterward the event felt like it held less negative or blocking energy in my mind. That is the simplest test for me. If an hour later I am still stewing just as much, maybe the effect was mostly temporary. Then I can try it again rather than expect one pass to do everything. If I can bring the event back to mind and I am still less restimulated by it, something changed more durably. One EMDR treatment is generally not the whole treatment either.
 
 For a bigger intervention, check the dose more than once. How do you feel immediately afterward? What happened to your sleep that night? What about the next morning, and the next two or three days? A calm ending to a session does not prove the dose was right. I would watch irritability, dissociation, pain, compulsive processing, relationships, and ordinary functioning before deciding to repeat or intensify something.
 
