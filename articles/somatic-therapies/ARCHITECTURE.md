@@ -2,41 +2,62 @@
 
 <!-- article-id: somatic-therapies -->
 
+Status: **owner-corrected target architecture on the active Somatic rewrite branch.** The registered r01 master still contains the superseded five-job scaffold until a preservation-clean candidate is promoted.
+
 Canonical article id: `somatic-therapies`  
 Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`
 
 ```mermaid
 flowchart TD
-    A[Introduction: trauma is bodily as well as narrative] --> B[Play / Professor Baby Sheep / personal body-work note]
-    B --> C[Map framing: use jobs, not a universal treatment sequence]
-    C --> D[Five-job overview]
-    D --> E[Somatic work + inner-child reparenting overlap]
-    E --> J1[Job 1: stay present and keep choice]
-    J1 --> J2[Job 2: keep pressure low between deeper sessions]
-    J2 --> J3[Job 3: diffuse bodily / hard-to-narrate material]
-    J3 --> J4[Job 4: discrete memory or trigger network]
-    J4 --> J5[Job 5: meaning-making and life integration]
-    J5 --> H[How to judge what is helping]
-    H --> X[Optional high-intensity state-shift / release practices]
+    A[Introduction: trauma is bodily as well as narrative] --> N[Physical / neurological conditions can change therapy tolerance]
+    N --> P[Play / Professor Baby Sheep / personal body-work note]
+    P --> I[Somatic work + inner-child reparenting overlap]
+    I --> M{Modalities and practices: choose by current need, target, and tolerance}
+
+    M --> SE[Somatic Experiencing]
+    M --> Y[Trauma-sensitive / restorative yoga]
+    M --> T[TRE / gentle shaking]
+    M --> E[EFT / tapping]
+    M --> Q[Shaking Qigong / Shaking Medicine]
+    M --> B[Brainspotting]
+    M --> R[EMDR]
+    M --> C[Light CBT / narrative integration]
+
+    SE --> H[How to judge whether it is helping]
+    Y --> H
+    T --> H
+    E --> H
+    Q --> H
+    B --> H
+    R --> H
+    C --> H
+    H --> X[Optional high-intensity practices: Sky Hypnosis / Vagal Blitz]
 ```
 
 ## Governing movement
 
-The article asks what job the nervous system needs help doing now, then places modalities under those jobs without pretending the complete sequence is scientifically validated or mandatory. It moves from basic choice/orientation through ongoing discharge, diffuse processing, discrete-memory work, and integration, while repeatedly preserving the possibility of overlap.
+The therapies are **modalities/practices, not jobs or stages**. The article may discuss a rough sequencing logic, but only as a practical question of what somebody can tolerate and what kind of material is actually present.
+
+- When somebody is easily overwhelmed, regulation, orientation, body awareness, and stopping/return capacity may need attention before intense memory work.
+- Brainspotting can be especially useful when the material is diffuse, bodily, pre-verbal, or hard to narrate.
+- EMDR can be a natural fit when there is a discrete memory, flashback, or trigger network.
+- Cognitive/narrative work may become more useful once the body is less trapped in present-tense threat.
+- None of those observations creates a mandatory sequence. A stable person with a clear target may be ready for EMDR early; one modality can also be used at very different intensities.
+
+The reader should encounter the modalities as actual therapies/practices with their own uses, limitations, and personal observations—not as examples filed under an invented five-part taxonomy.
 
 ## Protected function routing
 
-- The provisional status of the five-job synthesis belongs in the map framing before the list.
 - Professor Baby Sheep and the head-shaving/loveyhuasca material provide real supplied personality early; they are not optional detector decoration.
-- Inner-child Nurturer/Protector and heart-loop material belongs before Job 1 so it frames overlap rather than appearing as an afterthought.
-- Safety warnings stay adjacent to the practice they govern.
-- Evidence-plane distinctions recur where needed and culminate in “How to Judge What Is Helping.”
-- Sky Hypnosis and Vagal Blitz remain optional high-intensity practices after the main map, with their own readiness/safety distinctions.
-- All eight native/editor objects retain their exact source identity and placement anchors.
+- Inner-child Nurturer/Protector, borrowed-adulthood, self-hypnosis, and heart-loop material remains an overlap section rather than a late integration bucket.
+- Safety warnings stay adjacent to the practice they govern, but the general stay/stop/return rule should not be re-explained after every modality.
+- Evidence-plane distinctions are stated economically: preserve genuinely different source types and specific evidence limits without repeating a general responsible-explainer disclaimer throughout the article.
+- Sky Hypnosis and Vagal Blitz remain optional high-intensity practices after the main modality discussion, with their own physical/mental-health cautions.
+- All eight native/editor objects retain their exact source identity and placement anchors unless Joel explicitly changes them.
 
 ## Humanization boundary
 
-The source's repeated `Goal -> Best use -> Not ideal -> caveat` micro-template was intentionally dismantled. Future detector repair must not recreate equalized modality cards, recursive mini-essay closure, or generic therapy voice.
+Do not restore the five-job map, a renamed five-stage equivalent, equalized modality cards, or a repeated `Goal -> Best use -> Not ideal -> caveat` micro-template. The rewrite should be modality-centered and reader-led. Preserve claims and safety; remove editorial filing commentary such as `this belongs in Job X`, `I put this here because`, or repeated explanations of where a modality sits on a map.
 
 ## Stopping point
 
