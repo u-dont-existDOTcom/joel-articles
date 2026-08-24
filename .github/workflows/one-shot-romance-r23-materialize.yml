@@ -1,0 +1,61 @@
+name: One-shot Romance r23 materializer
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out reconciliation branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: reconcile/romance-r22-20260823
+          fetch-depth: 0
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+
+      - name: Fetch exact r22 source branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin task/romance-detector-repair-20260820:refs/remotes/origin/task/romance-detector-repair-20260820
+
+      - name: Materialize exact r23
+        shell: bash
+        run: |
+          set -euo pipefail
+          python work/romance-r22-reconciliation-20260823/materialize_r23_five_owner_edits.py
+
+      - name: Commit exact r23 output
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-r22-reconciliation-20260823/materialized-r23-five-owner-edits
+          if git diff --cached --quiet; then
+            echo 'Materialized output already current.'
+          else
+            git commit -m 'Materialize exact Romance r23 five-owner-edit candidate'
+            git push origin HEAD:reconcile/romance-r22-20260823
+          fi
+
+      - name: Remove this one-shot workflow from main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git checkout -B main origin/main
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/one-shot-romance-r23-materialize.yml
+          git commit -m 'Remove completed one-shot Romance r23 materializer'
+          git push origin main
