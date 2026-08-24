@@ -39,20 +39,27 @@ Evidence branch: `evidence/pangram-history-localization/romance-r23-part2-direct
 
 This reproduces Pangram lab issue #110 on a fresh r23 boundary. Do not buy a detector call to debug History localization.
 
-## Current no-cost recovery route
+## Stored-report DOM attempt
 
-Private executor PR #23, merged as `45b4dfcac56d68d7546da94b1c75e08532c04e99`, adds `inspect-pangram-report-dom.yml` plus trusted private `scripts/inspect_pangram_report_dom.py`.
-
-The inspector:
-- reads only the already-completed Pangram 4 result;
-- validates exact input SHA and stored report URL;
-- opens the already-paid stored report in the dedicated authenticated browser profile;
-- records only visible DOM elements carrying highlight/segment metadata or red-ish visual styling, with bounded surrounding text;
-- omits cookies, browser storage, headers, credentials, and full HTML;
-- contains no detector submission command and no Pangram API-key path.
-
-Next evidence branch to create:
+The first standalone stored-report DOM inspection completed successfully on Actions run `32759869533`, exact evidence branch:
 `evidence/pangram-report-dom/romance-r23-part2-20260824-a`.
+
+It made no detector submission. However its v1 visual heuristic produced a false positive: the only retained candidates were Pangram's orange active `Overview` / `Details` navigation tabs. It did **not** identify the residual article segment. Those DOM candidates are diagnostic evidence only and must not be treated as localization authority.
+
+Private executor PR #26 hardens the inspector so navigation controls are excluded and bounded AI-Highlight ancestry, pseudo-element styling, visual candidates, and rare text-style signatures are collected. It also adds immutable `report-inspection-requests/*.json` push dispatch so connected GitHub automation can request this read-only recovery without requiring Joel to run `gh workflow run` manually.
+
+A v2 request is now durably committed in the private executor for a new evidence branch:
+`evidence/pangram-report-dom/romance-r23-part2-v2-20260824-a`.
+
+## Workflow correction
+
+The larger architecture problem is fixed independently of this legacy recovery.
+
+The original paid GUI execution already had the exact stored report available, but persisted aggregate result/body/PDF and then released the browser/runner without preserving the highlight needed for the next editorial decision. That forced a second queued recovery job through unreliable History state.
+
+Private executor PR #25 changes the Romance long-GUI execution path so any completed non-green exact result receives free report-DOM post-processing in the **same self-hosted GUI job before the runner is released**. Exact-green results skip it. The auxiliary capture cannot override or ambiguate a completed paid score and has no detector-submission path.
+
+Pangram lab PR #139 records the general rule: evidence needed to interpret a paid GUI result should be captured at score time; post-hoc History recovery is fallback for legacy/interrupted runs, not the normal production path.
 
 ## Editorial gate remains unchanged
 
