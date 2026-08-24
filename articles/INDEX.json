@@ -329,6 +329,21 @@
           "path": "articles/somatic-therapies/experiments/R07-PROMOTION-HTML-FRAGMENT-20260824.html",
           "sha256": "5b9d36ef68f7cdf2c182739c7b5e13df09e732beb79571d368790da97a686a9b",
           "role": "html_promotion_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R08-COLD-AUDIT-RECEIPT-20260824.md",
+          "sha256": "59daaa0984ce7516411a925227e6630f01d180b01c593dd214f4ac97e79c0bd2",
+          "role": "cold_audit_receipt"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R08-JOB2-TO-END-SCAFFOLD-REDUCTION-CANDIDATE-20260824.md",
+          "sha256": "46d879d452674dd20be7a37a418f604aeb6e6460b977ae6d7342f09e21165ae1",
+          "role": "humanization_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R08-PRESERVATION-RECEIPT-20260824.md",
+          "sha256": "3301945ad3f7cc2071491949c32e20e15c904fe3d0523d471f2418cc0d896979",
+          "role": "preservation_proof"
         }
       ]
     }
