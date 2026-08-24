@@ -133,7 +133,7 @@ Once the system has some basic safety, daily regulation becomes a separate probl
 
 EFT is useful here partly because it can be done quickly, privately, and repeatedly. Conflict, shame spirals, social fear, abandonment panic, freeze, anger, intrusive memory fragments—when one of these shows up in ordinary life, you have something concrete you can do.
 
-I use it here as a portable regulator: before a difficult conversation, after being triggered, before or after therapy, when the mind is looping while the body is activated, or as a bridge between body-based and cognitive processing. I would not use it as the only treatment for severe trauma or as a way to bypass deeper work.
+I would use it here as a portable regulator: before a difficult conversation, after being triggered, before or after therapy, when the mind is looping while the body is activated, or as a bridge between body-based and cognitive processing. I would not use it as the only treatment for severe trauma or as a way to bypass deeper work.
 
 ## [Shaking Qigong](http://shakingclass.innersignalselfhypnosis.com/) / Shaking Medicine
 
@@ -169,9 +169,9 @@ Brainspotting uses gaze position, focused attention, bodily awareness, and thera
 
 **[EXISTING BRAINSPOTTING YOUTUBE EMBED — exact object retained in HTML promotion]**
 
-Before going very deep with it, I would want enough nervous-system safety to remain present, at least one way to regulate ordinary triggers, a way to settle activation afterward, and enough comfort with bodily sensation to notice when the dose is becoming too much. You do not have to build those capacities through any particular set of therapies.
+Helpful foundations may include enough nervous-system safety to remain present, at least one way to regulate ordinary triggers, a way to settle activation afterward, and enough comfort with bodily sensation to notice when the dose is becoming too much. You do not have to build those capacities through any particular set of therapies.
 
-Brainspotting can be especially useful when trauma shows up as body reactions, images, impulses, emotions, or fragments that are hard to organize into a clear story. You do not necessarily need to explain every detail for the session to move. That includes diffuse developmental trauma, pre-verbal or body-held material, trauma that has not responded well to purely cognitive approaches, and complex emotional knots where the body seems to know more than the story.
+Brainspotting can be especially useful when trauma shows up as body reactions, images, impulses, emotions, or fragments that are hard to organize into a clear story. You do not necessarily need to explain every detail for the session to move. That includes diffuse developmental trauma, pre-verbal or body-held material, trauma that does not respond well to purely cognitive approaches, and complex emotional knots where the body seems to know more than the story.
 
 For further reading, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
 
