@@ -1,6 +1,6 @@
 # Owner wording — Two Pillars missing-function recovery — 2026-08-24
 
-Status: **owner-final local realization; owner-reported Pangram Human, low confidence; accepted as good enough.** Not yet promoted into registered canonical article authority.
+Status: **owner-final local realization; owner-reported Pangram Human, low confidence; accepted as good enough; materialized and promoted as the registered working-master realization on PR #46.** `main` remains unchanged until the PR is merged.
 
 ## Exact owner-final tested wording
 

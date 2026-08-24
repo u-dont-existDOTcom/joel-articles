@@ -1,0 +1,72 @@
+{
+  "format": "romance-r23r2-owner-final-materialization-v1",
+  "candidate_id": "romance-r23r2-owner-final-20260824",
+  "source": {
+    "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "ref": "evidence/romance-r23-gui-20260824-a",
+    "commit": "f4f2d6404e7362441c9ac0969dfc79313bea6ba1",
+    "master": {
+      "sha256": "322953b5d6f6ad49f7a3b41e5c6795b36404508f7768669cdcc72223f2f21a0d",
+      "word_count_whitespace": 20364
+    },
+    "part1": {
+      "sha256": "620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b",
+      "word_count_whitespace": 10296
+    },
+    "part2": {
+      "sha256": "a0dce58d2958e8467c1ba66cbed20b7c7ae075b8eddc7e1365eb8728485ff7f3",
+      "word_count_whitespace": 9917
+    }
+  },
+  "authorized_delta": {
+    "id": "R23R2-01",
+    "scope": "Two Pillars local realization only",
+    "old_sha256": "bfbf11b694bd71a9e3f311c7d3635939a9880dc1705acc0d269327642936ea96",
+    "new_sha256": "cd8de93fda39fcdf13c4b1f6ba2f9250c11c40f8c8298f281055e37bafed6291",
+    "new_text": "Maybe an unusually strong couple can get away without much community. I think that's rare.  But sometimes a friend who actually knows us both sees the pattern before either of us does. On the other hand, If both people are falling apart, there is only so much anyone else can do.",
+    "owner_authority": "Joel direct correction and owner-reported Human/low-confidence test accepted as good enough on 2026-08-24",
+    "older_r23r1_four_word_deletion_applied": false,
+    "r23r1_r03_fallback_applied": false
+  },
+  "candidate": {
+    "master": {
+      "path": "work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-master.md",
+      "sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c",
+      "word_count_whitespace": 20364
+    },
+    "part1": {
+      "path": "work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-part-1.txt",
+      "sha256": "620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b",
+      "word_count_whitespace": 10296
+    },
+    "part2": {
+      "path": "work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-part-2.txt",
+      "sha256": "fbbcf64af313488b2ad8bb8969422f5bc85895eca908e41e9f796b2c0724e4eb",
+      "word_count_whitespace": 9917
+    },
+    "two_pillars": {
+      "path": "work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/boundary-two-pillars.txt",
+      "sha256": "1bd239b9b56926b2a2dabc5a2f106ca58f50bcccd993b950e924fc481c27736e",
+      "word_count_whitespace": 734
+    }
+  },
+  "invariants": {
+    "part1_byte_identical_to_r23": true,
+    "headings_exactly_unchanged": true,
+    "native_objects": {
+      "source": 11,
+      "candidate": 11
+    },
+    "markdown_links": {
+      "source": 22,
+      "candidate": 22
+    },
+    "protected_anchors_missing": [],
+    "unexplained_substantive_deltas": 0
+  },
+  "detector": {
+    "new_run_performed": false,
+    "owner_report": "Exact r23r2 Two Pillars wording tested Human, low confidence, and explicitly accepted as good enough.",
+    "full_part2_recertification_required_before_working-master_promotion": false
+  }
+}

@@ -1,6 +1,6 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-08-22
+Updated: 2026-08-24
 
 ## Current posture
 
@@ -15,7 +15,7 @@ GitHub hosted readback on 2026-08-20 confirmed repository visibility is public, 
 - Repository: `u-dont-existDOTcom/joel-articles`
 - Default branch: `main`
 - Repository article registry: `articles/INDEX.json`
-- `romance`: working; canonical master `articles/romance/master.md`; SHA-256 `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`; reader-visible SHA-256 `10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce`; 20,496 words.
+- `romance`: working; PR #46 canonical master `articles/romance/master.md`; SHA-256 `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`; 20,364 Markdown whitespace words; reader Part 1 `620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b` / 10,296 words; reader Part 2 `fbbcf64af313488b2ad8bb8969422f5bc85895eca908e41e9f796b2c0724e4eb` / 9,917 words. `main` retains the prior master until PR #46 merges.
 - `somatic-therapies`: working; canonical master `articles/somatic-therapies/master.html`; SHA-256 `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`; normalized reader-visible SHA-256 `e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677`; Pangram-submitted file SHA-256 `613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e`; 3,412 words.
 
 Current explicit Joel instructions outrank registered state and must then be reconciled back into the registered article family. Historical branches and detector probes remain provenance/evidence unless the registry explicitly promotes them.
@@ -32,7 +32,10 @@ Repository/platform recovery and governance:
 Romance:
 - Resolved the historical Romance assembly and imported the exact canonical master with its complete article family.
 - Registered the exact August 20 current-half Pangram results without claiming a whole-article score.
-- Ordinary Romance work continues from `articles/romance/`, not historical branches.
+- Reconciled exact known-green r22 through the six-operation r23 candidate, then applied Joel's one-operation exact owner-final r23r2 Two Pillars correction.
+- Materialized exact r23r2 master and reader halves; Part 1 remains byte-identical to Pangram Human `1.0` r23 Part 1.
+- Recorded Joel's r23r1 AI / low-confidence test and exact r23r2 Human / low-confidence test, accepted as `good enough`; no new Pangram call was run or required solely for detector confidence.
+- Promoted r23r2 into the registered Romance family on PR #46 with zero unexplained substantive deltas and passing architecture/dependency checks. Ordinary Romance work continues from `articles/romance/`, not historical branches.
 
 Somatic Therapies:
 - Completed the first P2S/D4 architecture-first humanization pass and registered `r01-candidate` as the working master.
@@ -61,10 +64,11 @@ Article authority:
 - publication exports: none registered.
 
 Current Romance Pangram boundary:
-- total 20,496 reader-visible words;
-- Part 1 Human `0.9205247164`;
-- Part 2 Human `0.8983033895`;
-- those half results are not a measured whole-article score.
+- exact r23r2 master SHA-256 `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`, 20,364 Markdown whitespace words;
+- Part 1 SHA-256 `620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b`, 10,296 words, exact Pangram Human `1.0`;
+- Part 2 SHA-256 `fbbcf64af313488b2ad8bb8969422f5bc85895eca908e41e9f796b2c0724e4eb`, 9,917 words; no full-half rerun;
+- exact local Two Pillars lock `cd8de93fda39fcdf13c4b1f6ba2f9250c11c40f8c8298f281055e37bafed6291`: owner-reported Human / low confidence, accepted as `good enough`;
+- no whole-article detector score is claimed.
 
 Current Somatic Therapies boundary:
 - r01 Pangram AI `0.9776151180`, Human `0.0223849081`;
@@ -76,7 +80,7 @@ Current Somatic Therapies boundary:
 
 ## Remaining
 
-For Romance, continue only when task-driven from the registered article family.
+For Romance, complete PR #46 exact branch readback and merge review. Do not buy another Part-2 call solely for detector confidence, and do not publish/export or mark the whole article owner-final.
 
 For Somatic Therapies:
 - recover/resume the exact Shaking Qigong r01 result from the existing reservation;
@@ -92,7 +96,7 @@ For Somatic Therapies:
 
 - Romance and Somatic Therapies are `working`, not `owner_final` or `published`.
 - Citation review remains pending for both.
-- Romance's current exact half results remain below its standing detector target; no whole-article detector result is claimed.
+- Romance r23r2 Part 2 has no full-half rerun; Joel explicitly accepted the exact local Human / low-confidence result as sufficient for this bounded promotion. No whole-article detector result is claimed.
 - Somatic r01 remains Pangram `AI Detected` at 97.76% AI fraction.
 - Somatic intro and inner-child repair lanes are exhausted without a passing candidate.
 - Somatic Shaking r01 is paid-reserved but unresolved; it must not be repeated.
@@ -112,7 +116,7 @@ For Somatic Therapies:
 
 ## Next safe action
 
-For the active Somatic Therapies task, recover the exact Shaking Qigong r01 result from its existing paid reservation. Do not reopen the exhausted intro or inner-child lanes and do not repeat the reserved Shaking measurement.
+For the active Romance task on this branch, complete PR #46 validation and hosted readback. If the non-detector gates remain green, the PR is ready to merge r23r2 as registered `working` authority. Do not equate that merge with publication, licensing, completed citation review, or whole-article owner-final status. The separate Somatic reservation/recovery constraints above remain unchanged.
 
 ## Recovery rule
 

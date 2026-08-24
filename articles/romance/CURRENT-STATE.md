@@ -1,76 +1,97 @@
 # Romance current state
 
-Updated: 2026-08-20
+Updated: 2026-08-24
 
 ## Goal
 
-Maintain the exact owner-authorized Romance master as registered GitHub authority, preserving its argument, memories, native-object placement, source provenance, architecture, and detector evidence while future work proceeds from this registered state rather than from chat reconstruction or historical branches.
+Maintain the exact owner-authorized Romance working master as registered GitHub authority, preserving its argument, owner-final language, memories, native-object placement, source provenance, architecture, and detector evidence while keeping citation, publication, and whole-article owner-final status explicit and separate.
 
 ## Authority / baseline
 
 - Article id: `romance`
 - Article status: **working**
-- Canonical master: `articles/romance/master.md`
-- Master SHA-256: `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`
-- Source repository: `u-dont-existDOTcom/pangram-humanization-lab`
-- Owner-identified source branch: `agent/romance-primal-crucible-gui-repair-20260817`
-- Resolved source / PR #36 head: `8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c`
-- Source path: `work/romance-current-assembly/current-master.md`
-- Reader-visible boundary: **20,496 words**
-- Reader-visible SHA-256: `10359ab2119ffbe9a8a7a4a52cd0c3216bb1a6a2c0bffbd7e66fca01287f17ce`
+- Canonical master on PR #46: `articles/romance/master.md`
+- Master SHA-256: `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`
+- Master word count (Markdown whitespace): **20,364**
+- Candidate id: `romance-r23r2-owner-final-20260824`
+- Source candidate: exact r23 at `u-dont-existDOTcom/pangram-humanization-lab@f4f2d6404e7362441c9ac0969dfc79313bea6ba1`, branch `evidence/romance-r23-gui-20260824-a`
+- Materialization: `work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/`
+- Preservation receipt: `work/romance-r22-reconciliation-20260823/R23R2-PRESERVATION-RECEIPT-20260824.md`
 
-Joel's 2026-08-20 instruction identified that branch/head and exact boundary as the last/current Romance article state. That establishes which exact master is authoritative for this import. It does not by itself mark the article published, choose a license, declare citations complete, or certify a 100% Human detector result.
+Joel's 2026-08-24 direct correction makes the exact r23r2 Two Pillars local realization owner-final, including its double space after `rare.` and capitalized `If`. Joel reports the exact local realization tested Human / low confidence and explicitly accepts that result as `good enough`. This is sufficient bounded detector acceptance for working-master promotion; it does not mark the whole article owner-final or published.
 
 ## Completed
 
-- Resolved PR #36 and verified that its live head remained exactly `8e0d70d0ea51fbcb12e307ed0629ed75ee35ce8c`.
-- Verified the exact Pangram halves manifest against Joel's supplied word counts and hashes.
-- Verified the deterministic assembly manifest: 41 recorded operations from baseline SHA-256 `18ed9fa6850e3a20d523b9365519ef43fa4e56398ce4e06d3743022676555edc` to final master SHA-256 `af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe`.
-- Imported the exact master without prose edits. The Git blob identity in `joel-articles` matches the source Git blob identity.
-- Registered owner/protected-function, source/evidence, unincorporated-ideas, architecture, citation, detector, and editorial state records.
-- Recorded the exact August 20 Pangram-4 GUI results for both current halves and the two-call accounting.
-- Preserved the old Romance branch/PR as provenance rather than treating it as continuing canonical authority.
+- Preserved the earlier registered master, exact r22 known-green rollback, exact r23 GUI candidate, and rejected r23r1 proposal as durable provenance.
+- Fresh-read PR #46 and the r23 evidence branch before editing.
+- Reproduced exact r23 source identities before materialization:
+  - master `322953b5d6f6ad49f7a3b41e5c6795b36404508f7768669cdcc72223f2f21a0d`, 20,364 words;
+  - Part 1 `620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b`, 10,296 words;
+  - Part 2 `a0dce58d2958e8467c1ba66cbed20b7c7ae075b8eddc7e1365eb8728485ff7f3`, 9,917 words.
+- Materialized r23r2 with one exact operation inside Two Pillars and no other r23 change.
+- Locked the exact owner-final span at SHA-256 `cd8de93fda39fcdf13c4b1f6ba2f9250c11c40f8c8298f281055e37bafed6291`.
+- Proved forward traceability, reverse traceability, and zero unexplained substantive deltas.
+- Preserved heading order, all 11 native objects, all 22 Markdown links, protected anchors, section topology, architecture dependencies, and terminal stopping point.
+- Promoted the exact r23r2 materialized master into the registered Romance family on PR #46 without publishing or merging `main`.
 
 ## Current checkpoint
 
-The registered master is the exact 20,496-word candidate that was live-tested in two Pangram-4 halves on 2026-08-20:
+Exact r23r2 identities:
 
-- Part 1: 10,236 words; SHA-256 `ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8`; Pangram 4.0 / `STAGE_SUCCESS`; Human `0.9205247164`; AI `0.0794752836`; AI-assisted `0.0`; exact stored-text match; exactly one paid GUI call total, recovered after an ambiguous capture without resubmission.
-- Part 2: 10,260 words; SHA-256 `2df878093bc05fefa98ca30e9a97bdd52e212370f432bf0408e90f1b60c54bb0`; Pangram 4.0 / `STAGE_SUCCESS`; Human `0.8983033895`; AI `0.1016966403`; AI-assisted `0.0`; exact stored-text match; exactly one paid GUI call.
+- master: SHA-256 `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`; **20,364** Markdown whitespace words;
+- Part 1: SHA-256 `620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b`; **10,296** words; byte-identical to r23 Part 1;
+- Part 2: SHA-256 `fbbcf64af313488b2ad8bb8969422f5bc85895eca908e41e9f796b2c0724e4eb`; **9,917** words;
+- Two Pillars natural boundary: SHA-256 `1bd239b9b56926b2a2dabc5a2f106ca58f50bcccd993b950e924fc481c27736e`; **734** words.
 
-Total paid GUI calls for the two-half audit: exactly **2**. These are two half-document measurements. They are not a whole-article score and do not satisfy Joel's standing 100% Human acceptance target.
+Detector evidence:
+
+- current Part 1 retains exact Pangram 4.0 Human `1.0` evidence because its bytes did not change from r23;
+- the superseded r23 Part 2 measured Human `0.9965084195`, AI `0.0034915956`, AI-assisted `0.0` and localized one transition residual;
+- Joel reports the r23r1 ordering tested AI / low confidence;
+- Joel reports the exact r23r2 local realization tested Human / low confidence and accepts it as `good enough`;
+- no new Pangram call was run for r23r2, and no full Part-2 or whole-article score is claimed.
+
+Article-wide state:
+
+- preservation: **PASS**, unexplained substantive deltas `0`;
+- architecture/dependencies: **PASS**;
+- citation review: `pending`;
+- whole-article editorial review: `pending`;
+- article status: `working`, not `owner_final` or `published`;
+- publication exports: none registered.
 
 ## Remaining
 
-- Future substantive Romance work must begin from this registered master and article-local state.
-- If Joel wants further Pangram humanization, first localize the remaining current-boundary AI evidence and re-run the article-wide semantic/architecture gate before any detector-driven prose change.
-- Citation review remains pending as a separate task; this import does not silently convert older sourcing work into a verified claim-by-claim citation record.
-- Editorial review remains pending at the repository article-status level; the import itself is lossless and authority-safe, but it is not a new article-wide owner-final review.
-- Publication/export state remains separate from this Markdown authority import.
+- Merge PR #46 only after its exact branch readback and repository validation gates remain green.
+- Keep citation review and a future fresh whole-article editorial pass explicit; do not infer either from this bounded owner correction.
+- Do not run another Pangram Part-2 call solely to increase detector confidence; Joel has accepted the exact local result.
+- Do not normalize, re-punctuate, or reflow the exact owner-final Two Pillars lock.
+- Do not publish/export without a separate explicit owner action and registered publication provenance.
 
 ## Blockers / unresolved
 
-- No competing master remains unresolved for current Romance authority: Joel explicitly identified the source branch/head/boundary used here.
-- The article remains `working`, not `owner_final` or `published`.
-- Citation review status: `pending`.
-- Editorial review status: `pending`.
-- Detector evidence status: `recorded`; the current exact halves are not 100% Human and no whole-article detector result is claimed.
-- Copyright/license posture remains an owner policy decision. Public repository visibility does not grant or imply a license.
-- No publication action is authorized or implied by this import.
+- No competing Romance master remains unresolved: Joel's current correction and acceptance select exact r23r2 as the working master on PR #46.
+- Citation review remains pending.
+- Fresh whole-article editorial review remains pending.
+- The article is not whole-article owner-final and has no measured whole-article detector score.
+- Copyright/license and external publication remain separate owner decisions.
+
+These unresolved review/publication items do **not** block registering r23r2 as the working master. They remain blockers only for claims that citation review is complete, the whole article is owner-final, or publication/export is authorized.
 
 ## Evidence / artifacts
 
-- Canonical master: `articles/romance/master.md`
+- Canonical working master: `articles/romance/master.md`
 - Owner locks / protected functions: `articles/romance/OWNER-LOCKS.json`
 - Source/evidence index: `articles/romance/SOURCE-EVIDENCE.json`
-- Unincorporated ideas: `articles/romance/UNINCORPORATED-IDEAS.md`
 - Architecture map: `articles/romance/ARCHITECTURE.md`
 - Citation state: `articles/romance/CITATIONS.json`
 - Detector evidence: `articles/romance/DETECTOR-EVIDENCE.json`
 - Editorial state: `articles/romance/EDITORIAL-STATUS.json`
-- Source reader-visible manifest: `u-dont-existDOTcom/pangram-humanization-lab` at source head, `work/romance-current-assembly/pangram-halves-manifest.json`
-- Source deterministic assembly manifest: same source head, `work/romance-current-assembly/assembly-manifest.json`
+- r23r2 delta: `work/romance-r22-reconciliation-20260823/R23R2-OWNER-FINAL-DELTA.json`
+- r23r2 machine-readable preservation receipt: `work/romance-r22-reconciliation-20260823/R23R2-PRESERVATION-RECEIPT.json`
+- r23r2 preservation receipt: `work/romance-r22-reconciliation-20260823/R23R2-PRESERVATION-RECEIPT-20260824.md`
+- r23r2 materialized master/halves/receipt: `work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/`
 
 ## Next safe action
 
-Use this registered article family as the sole Romance authority. Do not resume stale PR #36 editing instructions or reconstruct a newer master from memory. When Joel requests the next Romance edit/research/humanization task, read this state, the registered master, owner locks, architecture, and task-relevant evidence fresh, then persist any accepted change back into this article family.
+Complete PR #46 branch validation and hosted readback. If those non-detector gates pass, PR #46 is ready to merge as the registered `working` Romance authority. Do not equate that merge with publication, licensing, completed citation review, or whole-article owner-final status.

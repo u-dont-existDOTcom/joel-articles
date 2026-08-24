@@ -1,0 +1,6 @@
+# These exact Markdown masters contain an intentional two-space hard line break
+# inherited from the hash-bound r23 source. Preserve the bytes while keeping
+# every other whitespace check active.
+articles/romance/master.md whitespace=-blank-at-eol
+work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-master.md whitespace=-blank-at-eol
+work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-part-1.txt whitespace=-blank-at-eof

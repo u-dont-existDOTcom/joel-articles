@@ -4,32 +4,42 @@
   "status": "pending",
   "checks": [
     {
-      "id": "authority-identity",
+      "id": "authority-identity-r23r2",
       "status": "passed",
-      "evidence": "Joel's 2026-08-20 owner instruction identified the exact source branch/head/current boundary; live head and manifests were re-read before import."
+      "evidence": "Exact r23 source master and halves were fresh-read at pangram-humanization-lab commit f4f2d6404e7362441c9ac0969dfc79313bea6ba1 and reproduced the registered source hashes before materialization."
     },
     {
-      "id": "master-hash",
+      "id": "owner-final-two-pillars",
       "status": "passed",
-      "evidence": "Imported `articles/romance/master.md` is byte-identical to source Git blob d0a6a3a70bbf5bb0c0c66642b5d6ad66f8113809 and source SHA-256 af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe."
+      "evidence": "Joel's exact r23r2 Two Pillars bytes are locked at SHA-256 cd8de93fda39fcdf13c4b1f6ba2f9250c11c40f8c8298f281055e37bafed6291, including the double space and capitalized If."
     },
     {
-      "id": "lossless-import",
+      "id": "r23r2-preservation-proof",
       "status": "passed",
-      "evidence": "No prose edit was authorized or made during authority import."
+      "evidence": "Forward and reverse traceability pass with zero unexplained substantive deltas; only R23R2-01 changes from exact r23. Part 1 is byte-identical."
     },
     {
-      "id": "fresh-editorial-pass",
+      "id": "architecture-dependencies",
+      "status": "passed",
+      "evidence": "Heading order, section topology, protected-function routing, native-object placement, links, setup/payoff relationships, and terminal stopping point remain unchanged."
+    },
+    {
+      "id": "bounded-detector-acceptance",
+      "status": "passed",
+      "evidence": "Joel reports prior r23r1 AI/low-confidence and exact r23r2 Human/low-confidence, explicitly accepted as good enough. No further Part-2 call is required solely for detector confidence."
+    },
+    {
+      "id": "fresh-whole-article-editorial-pass",
       "status": "pending",
-      "evidence": "The import does not substitute an infrastructure/authority pass for a fresh full-article editorial review."
+      "evidence": "The bounded r23r2 promotion does not claim a new owner-final whole-article editorial review."
     },
     {
       "id": "citation-review",
       "status": "pending",
-      "evidence": "Claim-by-claim citation verification is separately pending."
+      "evidence": "Claim-by-claim citation verification remains separately pending and remains a publication gate."
     }
   ],
-  "meaning_fidelity": "The authority import itself changes no article wording, order, native-object marker, link, claim, memory, actor, chronology, or attribution.",
-  "detector_role": "Exact current Pangram evidence is recorded separately and does not establish editorial authority or author identity.",
-  "owner_final_boundary": "Not claimed. Article remains working until Joel explicitly accepts an owner-final state and required review records support it."
+  "meaning_fidelity": "The exact r23r2 master preserves all r23 operations and changes only the owner-authorized Two Pillars local thought order. Community limitation and mutual-friend pattern-seeing functions both survive; claims, certainty, agency, chronology, links, native objects, headings, and protected anchors remain unchanged.",
+  "detector_role": "Part 1 retains exact Pangram Human 1.0 evidence. Joel's owner-reported exact local r23r2 Human/low-confidence result is sufficient for this bounded promotion; no full Part-2 or whole-article score is claimed.",
+  "owner_final_boundary": "The exact Two Pillars r23r2 realization is owner-final and locked. The complete article remains a working master, not owner-final publication copy."
 }

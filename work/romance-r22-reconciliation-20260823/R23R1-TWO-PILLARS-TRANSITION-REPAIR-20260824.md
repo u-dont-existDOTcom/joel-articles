@@ -1,7 +1,7 @@
 # Romance r23r1 — Two Pillars localized transition repair
 
 Updated: 2026-08-24
-Status: **candidate only; not article authority; not detector-certified**
+Status: **SUPERSEDED / REJECTED BY OWNER TEST.** Joel reports this ordering tested AI / low confidence. It was not materialized into article authority; exact owner-final r23r2 supersedes it.
 
 ## Exact localization evidence
 
@@ -84,14 +84,15 @@ No additional explanation is required before the B. example. The repair removes 
 
 AI-shape issue still believed after repair: **none in this localized transition**.
 
-## Detector status / next gate
+## Detector status / cancelled historical gate
 
-Do **not** test this tiny highlighted fragment as article certification. Romance has composition sensitivity and the standing acceptance target concerns the exact Part-2 boundary.
+Supersession update: Joel manually tested this r23r1 ordering and reported **AI / low confidence**. He then supplied the structurally reordered exact r23r2 realization, reported **Human / low confidence**, and accepted it as `good enough`. The steps below are retained only as historical provenance and must not be executed as current routing.
 
-Next execution step:
+The following planned gate is cancelled and retained only to show what r23r1 would have required before Joel superseded it:
+
 1. materialize exact r23r1 from exact r23, changing only the frozen four-word deletion above;
 2. verify zero other deltas and rerun the bounded Two Pillars + article architecture/preservation checks;
 3. certify only the changed exact Part-2 reader boundary through the authenticated GUI under the current large-text cost rule;
 4. never resubmit r23 Part 1.
 
-Registered `main:articles/romance/master.md` remains unchanged.
+Do not execute those steps. Current routing is exact r23r2 under `R23-CURRENT-STATE.md`.
