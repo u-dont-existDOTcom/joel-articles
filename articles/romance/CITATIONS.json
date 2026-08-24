@@ -1,7 +1,444 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "article_id": "romance",
-  "status": "pending",
-  "claims": [],
-  "note": "The r23r2 working-master promotion preserves all 22 Markdown links and native-object positions, but it does not re-verify claims or sources. Claim-by-claim citation review remains pending and must not silently change Joel's argument."
+  "status": "completed_with_corrections_pending",
+  "audited_master": {
+    "path": "articles/romance/master.md",
+    "sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c",
+    "word_count_whitespace": 20364
+  },
+  "scope": "Claim-by-claim publication citation audit of externally checkable claims. Lived memories and clearly marked owner opinions are not converted into externally verified facts.",
+  "claims": [
+    {
+      "id": "ROM-CIT-01",
+      "topic": "bundling and premarital pregnancy",
+      "article_span": "Bundling was a broader historical courtship practice; in late-eighteenth-century New England 30–40 percent of brides were already pregnant.",
+      "classification": "historical",
+      "status": "verified",
+      "sources": [
+        {
+          "type": "scholarly_secondary",
+          "url": "https://doi.org/10.1093/maghis/18.4.9",
+          "note": "Richard Godbeer, historical treatment of bundling; supports broader practice and high premarital-pregnancy prevalence in late-eighteenth-century New England."
+        }
+      ],
+      "publication_action": "keep; retain direct DOI link"
+    },
+    {
+      "id": "ROM-CIT-02",
+      "topic": "sex and pair-bond neurobiology",
+      "article_span": "Sex turns on bonding chemistry—oxytocin, dopamine, vasopressin—that usually biases us toward attachment.",
+      "classification": "biological_mechanism",
+      "status": "supported_but_simplified",
+      "sources": [
+        {
+          "type": "review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10295201/",
+          "note": "Reviews oxytocin, dopamine, and vasopressin in social bonding across animal and human evidence."
+        },
+        {
+          "type": "review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22119059/",
+          "note": "Human attachment roles are plausible but less definitively established than animal pair-bond evidence."
+        }
+      ],
+      "publication_action": "source/qualify if edited; avoid implying deterministic sex→attachment in every person"
+    },
+    {
+      "id": "ROM-CIT-03",
+      "topic": "loneliness and mortality",
+      "article_span": "loneliness kills",
+      "classification": "population_health",
+      "status": "supported_as_rhetorical_compression",
+      "sources": [
+        {
+          "type": "meta_analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25910392/",
+          "note": "Loneliness, social isolation, and living alone are associated with increased mortality risk."
+        },
+        {
+          "type": "meta_analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37337095/",
+          "note": "Large synthesis across 90 cohorts / >2 million participants finds higher all-cause mortality associated with loneliness and social isolation."
+        }
+      ],
+      "publication_action": "prefer precise 'loneliness is associated with higher mortality risk' if factual precision is desired; current wording is rhetoric, not individual causal proof"
+    },
+    {
+      "id": "ROM-CIT-04",
+      "topic": "vaginocervical orgasm and vagal pathway",
+      "article_span": "Komisaruk and Whipple showed that cervical stimulation can produce orgasm even in women with a severed spinal cord, because the vagus nerve can carry the signal without using the spinal route that clitoral orgasms use. That laboratory evidence establishes the uniqueness of the phenomenon.",
+      "classification": "human_neuroscience",
+      "status": "core_verified_overclaim_present",
+      "sources": [
+        {
+          "type": "original_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15451368/",
+          "doi": "10.1016/j.brainres.2004.07.029",
+          "note": "Women with complete spinal cord injury showed NTS activation during vaginocervical self-stimulation; three experienced orgasm; supports a vagal spinal-bypass pathway."
+        },
+        {
+          "type": "original_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11928182/",
+          "note": "Earlier Whipple/Komisaruk evidence on genital self-stimulation and orgasm after complete spinal cord injury."
+        }
+      ],
+      "publication_action": "keep core finding but replace 'establishes the uniqueness of the phenomenon' with narrower wording; do not imply validation of broader healing/afterglow claims"
+    },
+    {
+      "id": "ROM-CIT-05",
+      "topic": "DN 16 lay attainments",
+      "article_span": "DN 16 mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners at Nādikā.",
+      "classification": "primary_religious_text",
+      "status": "verified",
+      "sources": [
+        {
+          "type": "primary_translation",
+          "url": "https://www.dhammatalks.org/suttas/DN/DN16.html"
+        },
+        {
+          "type": "primary_translation",
+          "url": "https://obo.genaud.net/dhamma-vinaya/ati/dn/dn.16.than.ati.htm"
+        }
+      ],
+      "publication_action": "keep"
+    },
+    {
+      "id": "ROM-CIT-06",
+      "topic": "SN 55.24 Sarakāni complaint",
+      "article_span": "Other Sakyans grumbled, in effect, 'Who isn’t a stream-enterer these days?'",
+      "classification": "primary_religious_text",
+      "status": "verified_as_paraphrase",
+      "sources": [
+        {
+          "type": "primary_translation",
+          "url": "https://suttacentral.net/sn55.24/en/sujato"
+        }
+      ],
+      "publication_action": "keep; 'in effect' correctly marks paraphrase"
+    },
+    {
+      "id": "ROM-CIT-07",
+      "topic": "AN 4.55 quotation",
+      "article_span": "\"When both husband and wife are faithful and generous, restraintful, living righteously, speaking pleasant words to each other—they come together in the future, sharing the same desires and living in bliss.\"",
+      "classification": "primary_religious_text",
+      "status": "supported_meaning_but_inexact_quote",
+      "sources": [
+        {
+          "type": "primary_translation",
+          "url": "https://suttacentral.net/an4.55/en/bodhi",
+          "note": "The couple ask how to reunite in future lives; Buddha advises matching faith, virtue, generosity and wisdom. Verse includes pleasant speech and future reunion, but current block is not an exact Bodhi quotation."
+        }
+      ],
+      "publication_action": "publication_blocker: turn current block into an explicit paraphrase or replace with an exact translation excerpt"
+    },
+    {
+      "id": "ROM-CIT-08",
+      "topic": "Buddha and monastic advice",
+      "article_span": "The Buddha didn’t generally advise people to become monastics.",
+      "classification": "broad_negative_doctrinal_claim",
+      "status": "unsupported_at_current_scope",
+      "sources": [
+        {
+          "type": "primary_text_cluster",
+          "url": "https://www.dhammatalks.org/suttas/DN/DN16.html",
+          "note": "Supports high lay attainments, not the broad negative claim about what the Buddha 'generally advised'."
+        },
+        {
+          "type": "primary_text_cluster",
+          "url": "https://suttacentral.net/an4.55/en/bodhi",
+          "note": "Supports substantial household teaching, not the broad negative."
+        }
+      ],
+      "publication_action": "publication_blocker: narrow to the verified point that early texts teach householders and recognize high lay attainments"
+    },
+    {
+      "id": "ROM-CIT-09",
+      "topic": "Victorian invention of romantic marriage",
+      "article_span": "It turns out it never existed in any culture I'm aware of until the Victorian age, when romantic feelings were elevated in England to the status of immutable truth.",
+      "classification": "historical",
+      "status": "contradicted",
+      "sources": [
+        {
+          "type": "scholarly_history",
+          "title": "Cooperation, Duty, and Love: Family and Business During the Industrial Revolution",
+          "url": "https://academic.oup.com/book/"
+        },
+        {
+          "type": "scholarly_history",
+          "title": "Companionate marriage and the history of love",
+          "doi": "10.1075/cilt.358.12gar",
+          "url": "https://doi.org/10.1075/cilt.358.12gar",
+          "note": "Companionate-marriage ideal was already developing in the eighteenth century."
+        },
+        {
+          "type": "scholarly_history",
+          "title": "Historicizing Marriage",
+          "url": "https://academic.oup.com/",
+          "note": "Love as a reason to marry predates the Victorian era."
+        }
+      ],
+      "publication_action": "publication_blocker: replace the claim; preserve Joel's critique of trying to guarantee future feeling without the false Victorian-origin claim"
+    },
+    {
+      "id": "ROM-CIT-10",
+      "topic": "human pair-bonding and sexual exclusivity",
+      "article_span": "humans tend toward flexible pair-bonding, with a propensity for occasional infidelity",
+      "classification": "anthropology_evolution",
+      "status": "broadly_supported",
+      "sources": [
+        {
+          "type": "review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3260845/",
+          "note": "Human marriage systems are variable; socially imposed monogamy is not equivalent to perfect sexual monogamy."
+        },
+        {
+          "type": "review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3013474/",
+          "note": "Subsistence/property ecology affects marriage and inheritance systems."
+        }
+      ],
+      "publication_action": "keep only in appropriately broad/non-deterministic form"
+    },
+    {
+      "id": "ROM-CIT-11",
+      "topic": "agriculture, property, and legal monogamy",
+      "article_span": "Sexclusivity started gaining sway around the time we started planting carrots and peas, and owning land... By the Industrial Revolution, this ... became the only definition of marriage, by law.",
+      "classification": "historical_anthropological_causal_claim",
+      "status": "partly_supported_materially_contradicted",
+      "sources": [
+        {
+          "type": "review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3013474/",
+          "note": "Property/inheritance and subsistence affect marriage systems, but agriculture does not push in a single direction."
+        },
+        {
+          "type": "original_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20069721/",
+          "doi": "10.1111/j.1420-9101.2009.01884.x",
+          "note": "Intensive Eurasian agriculture/land scarcity may favor socially imposed monogamy via inheritance."
+        },
+        {
+          "type": "review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3260845/",
+          "note": "Many anthropological societies permit polygyny; some agricultural systems intensified it."
+        },
+        {
+          "type": "legal_history",
+          "title": "Polygamy in England: Tracing Legal Developments",
+          "note": "English legal prohibition predates the Industrial Revolution; the Bigamy Act 1604 criminalized bigamy."
+        },
+        {
+          "type": "legal_history",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2897666",
+          "note": "Documents long pre-Industrial English legal/religious opposition to polygamy and the 1604 statute."
+        }
+      ],
+      "publication_action": "publication_blocker: rebuild paragraph from the supported facts; do not retain one-direction agriculture story or Industrial-Revolution legal date"
+    },
+    {
+      "id": "ROM-CIT-12",
+      "topic": "state-dependent learning",
+      "article_span": "In neuroscience, this is called state-dependent learning. What you learn in altered states doesn't automatically translate into your normal sober mind state without the work to do that.",
+      "classification": "cognitive_mechanism",
+      "status": "general_mechanism_supported_application_inferred",
+      "sources": [
+        {
+          "type": "review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33013265/",
+          "note": "Reviews state-dependent memory."
+        },
+        {
+          "type": "review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6220081/",
+          "note": "Context/state-dependent retrieval is established generally; direct application to psychedelic relationship insight is an inference."
+        }
+      ],
+      "publication_action": "keep mechanism with local qualification if edited; do not present the psychedelic relationship application as directly proven"
+    },
+    {
+      "id": "ROM-CIT-13",
+      "topic": "MDMA and consent",
+      "article_span": "You cannot negotiate consent on MDMA.",
+      "classification": "normative_safety_claim_with_empirical_implication",
+      "status": "empirical_incapacity_not_established",
+      "sources": [
+        {
+          "type": "original_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15982991/",
+          "note": "Acute MDMA can affect decision-making."
+        },
+        {
+          "type": "original_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30455187/",
+          "note": "MDMA increased cooperation selectively with trustworthy partners; effects are context-dependent."
+        },
+        {
+          "type": "original_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32538252/",
+          "note": "Subjective closeness/euphoria increased; behavioral trust/cooperation results were not a blanket incapacity finding."
+        },
+        {
+          "type": "original_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35124400/",
+          "note": "Does not establish categorical inability to consent or universal heightened suggestibility."
+        }
+      ],
+      "publication_action": "publication_blocker unless reframed explicitly as Joel's safety rule rather than a scientific incapacity claim; owner wording choice required"
+    },
+    {
+      "id": "ROM-CIT-14",
+      "topic": "family instability and later relationships",
+      "article_span": "When children have parental figures come and go, it can damage their ability to have good relationships as adults.",
+      "classification": "developmental_population_claim",
+      "status": "directionally_plausible_overbroad_causal",
+      "sources": [
+        {
+          "type": "longitudinal_research",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3171291/",
+          "note": "Family instability is associated with child outcomes; effects vary by transitions and selection."
+        },
+        {
+          "type": "systematic_review",
+          "doi": "10.1111/jftr.12243",
+          "url": "https://doi.org/10.1111/jftr.12243",
+          "note": "Effects of family transitions are heterogeneous and context-dependent."
+        },
+        {
+          "type": "longitudinal_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36811335/",
+          "note": "Links family instability to later union patterns; does not justify a universal causal statement."
+        }
+      ],
+      "publication_action": "publication_blocker: narrow to repeated parental/partner transitions being associated with, or capable of affecting, later relationship development"
+    },
+    {
+      "id": "ROM-CIT-15",
+      "topic": "Buddhist institutional abuse, Thailand and Tibet",
+      "article_span": "In Thailand, parents have very good reasons not to leave children alone with monks. Tibet is worse.",
+      "classification": "comparative_abuse_claim",
+      "status": "mixed_support_comparative_claim_unsupported",
+      "sources": [
+        {
+          "type": "scholarly_article",
+          "url": "https://academic.oup.com/jaar/article/92/1/110/7762837",
+          "note": "Documents survivor-centered concerns in Vajrayāna/Tibetan Buddhist contexts; not a Thailand-vs-Tibet prevalence comparison."
+        },
+        {
+          "type": "thesis",
+          "url": "https://utheses.univie.ac.at/detail/59560",
+          "note": "Reports sexual abuse in Tibetan Buddhist contexts, including boys in monasteries; not comparative prevalence."
+        },
+        {
+          "type": "child_protection_research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18843879/",
+          "note": "Thai child sexual abuse evidence is general, not monastery-specific comparative prevalence."
+        }
+      ],
+      "publication_action": "publication_blocker: Joel's own molestation remains personal testimony; remove 'Tibet is worse' or replace with a specific sourced Tibet-related statement; narrow Thailand generalization unless stronger evidence is supplied"
+    },
+    {
+      "id": "ROM-CIT-16",
+      "topic": "Sobonfu Somé and Dagara relationship framing",
+      "article_span": "Somé came from the Dagara tribe in Burkina Faso. To her people, marriage is an arranged, ritualized spiritual and communal responsibility. They're suspicious of romance... She calls it the spirit of the relationship.",
+      "classification": "attributed_cultural_account",
+      "status": "supported_as_some_account_not_independent_ethnographic_consensus",
+      "sources": [
+        {
+          "type": "author_primary",
+          "url": "https://www.sobonfu.com/the-spirit-of-intimacy-ancient-african-teachings-in-the-ways-of-relationships/",
+          "note": "Somé presents community, ritual, relationship-spirit, and critiques of Western romance."
+        },
+        {
+          "type": "book_preview",
+          "url": "https://books.google.com/books/about/The_Spirit_of_Intimacy.html?id=nRqijxugX5MC"
+        }
+      ],
+      "publication_action": "prefer 'Somé describes...' or 'in her account of her Dagara community...' to keep provenance exact"
+    },
+    {
+      "id": "ROM-CIT-17",
+      "topic": "Biblical vow passages",
+      "article_span": "Ecclesiastes 5:4–6; Matthew 5:33–37; James 5:12",
+      "classification": "primary_religious_text",
+      "status": "verified_with_owner_interpretation_separate",
+      "sources": [
+        {
+          "type": "primary_translation",
+          "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes+5%3A4-6&version=NRSVUE"
+        },
+        {
+          "type": "primary_translation",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A33-37&version=NABRE%3BNIV"
+        },
+        {
+          "type": "primary_translation",
+          "url": "https://www.biblegateway.com/verse/en/James%205%3A12"
+        }
+      ],
+      "publication_action": "keep; preserve 'To me' as interpretation rather than scriptural fact"
+    },
+    {
+      "id": "ROM-CIT-18",
+      "topic": "Rumi heart-breaking quotation",
+      "article_span": "And as Rumi said, \"You must keep breaking your heart until it stays open.\"",
+      "classification": "quotation_attribution",
+      "status": "unverified_primary_attribution_wording_mismatch",
+      "sources": [
+        {
+          "type": "attribution_collection",
+          "url": "https://www.sufinama.org/poets/rumi/quotes",
+          "note": "Commonly attributed wording is 'You have to keep breaking your heart until it opens.' No primary Persian poem or scholarly locator was found for the article's wording."
+        }
+      ],
+      "publication_action": "publication_blocker: use 'widely attributed to Rumi' with common wording, replace with a verified line, or remove attribution while preserving the thought"
+    },
+    {
+      "id": "ROM-CIT-19",
+      "topic": "Anami/Richardson cervical orgasm afterglow and healing",
+      "article_span": "Kim Anami, Diana Richardson, and other popular educators and promoters of cervical orgasms further claim that these can provide days of afterglow, as well as spiritual and physical healings.",
+      "classification": "practitioner_testimonial_claim",
+      "status": "properly_attributed_but_not_scientifically_established",
+      "sources": [
+        {
+          "type": "practitioner_primary",
+          "url": "https://kimanami.com/my-vagina-heals-everything/",
+          "note": "Supports that Anami makes broad healing/spiritual claims; does not make them controlled scientific evidence."
+        }
+      ],
+      "publication_action": "keep only with explicit attribution; do not connect the Komisaruk/Whipple laboratory evidence as proof of these broader claims"
+    },
+    {
+      "id": "ROM-CIT-20",
+      "topic": "Gandarussa male contraception",
+      "article_span": "The evidence ranges, and nothing is 100 percent proven, but it looks quite effective as a male contraceptive.",
+      "classification": "owner_protected_empirical_claim",
+      "status": "not_reopened_by_current_audit",
+      "sources": [
+        {
+          "type": "article_link",
+          "url": "https://thediplomat.com/2013/09/a-male-contraceptive-pill-for-indonesia/"
+        }
+      ],
+      "publication_action": "preserve under explicit owner lock/instruction; current task does not silently re-litigate or remove it"
+    }
+  ],
+  "publication_blockers": [
+    "ROM-CIT-07",
+    "ROM-CIT-08",
+    "ROM-CIT-09",
+    "ROM-CIT-11",
+    "ROM-CIT-13",
+    "ROM-CIT-14",
+    "ROM-CIT-15",
+    "ROM-CIT-18"
+  ],
+  "nonblocking_precision_or_source_improvements": [
+    "ROM-CIT-02",
+    "ROM-CIT-03",
+    "ROM-CIT-04",
+    "ROM-CIT-12",
+    "ROM-CIT-16"
+  ],
+  "review_note": "No master bytes were changed during this audit. Corrections must be batched after owner review, then exact hashes/registry/preservation checks must be refreshed. Personal memories remain owner testimony and are not reclassified as externally verified facts."
 }
