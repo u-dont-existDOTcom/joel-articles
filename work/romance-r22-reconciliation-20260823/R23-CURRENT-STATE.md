@@ -107,6 +107,29 @@ The private trusted materializer was repaired and regression-tested; the same co
 
 Current Pangram policy now routes full articles, half-article scans, and other aggregate/long production boundaries through GUI by default. The API is reserved for short/local sections unless Joel explicitly overrides a specific large API run. This is mechanically enforced in the Pangram repositories. Cross-transport duplicate and accounting protections remain mandatory.
 
+## Read-only localization status
+
+The single Part-2 residual has **not yet been localized**, but no extra detector call has been made.
+
+Two read-only attempts reproduced Pangram lab issue #110:
+
+1. `evidence/pangram-history-localization/romance-r23-part2-20260824-a`
+   - exact already-paid input/result verified;
+   - History list exposed 10 candidates;
+   - failed at `bind_exact_history_record`;
+   - `detector_submission_attempted: false`.
+
+2. `evidence/pangram-history-localization/romance-r23-part2-direct-20260824-a`
+   - exact already-paid input/result verified;
+   - exact stored `report_url` from the completed SHA-bound result was requested directly;
+   - `direct_report_requested: true`;
+   - structured record still failed to bind at `bind_exact_history_record`;
+   - `detector_submission_attempted: false`.
+
+See `R23-PART2-LOCALIZATION-CHECKPOINT-20260824.md`. The fresh failures were also added to Pangram lab issue #110. Do not buy a detector call to debug this recovery defect.
+
+Private executor PR #23, merged as `45b4dfcac56d68d7546da94b1c75e08532c04e99`, adds a separate read-only stored-report DOM/highlight inspector. It validates the exact completed result and report URL, opens the already-paid report with the dedicated authenticated profile, and retains only highlight/segment metadata or red-ish visual DOM candidates. It has no detector submission command and no Pangram API-key path.
+
 ## Closed proposals
 
 Do not re-add unless Joel explicitly reopens them.
@@ -123,10 +146,10 @@ Rejected:
 
 ## Next safe action
 
-Use **read-only authenticated Pangram History localization** on exact r23 Part 2 to locate the single residual AI segment. Do not buy another detector call merely to localize it.
+Run the **read-only stored-report DOM/highlight inspector** for exact r23 Part 2, writing a new evidence branch `evidence/pangram-report-dom/romance-r23-part2-20260824-a`. This route does not score text and cannot consume Pangram detector credit.
 
-After localization:
-1. inspect the exact residual in its natural section/context;
+After report inspection:
+1. identify the exact highlighted residual and inspect it in its natural section/context;
 2. determine whether it lies inside one of the three authorized Part-2 r23 edits or is a contextual interaction elsewhere;
 3. preserve the owner-authorized functions and exact r22 rollback anchor;
 4. make the smallest justified editorial repair only if a real local defect/realization problem exists;
