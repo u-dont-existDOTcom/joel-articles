@@ -332,7 +332,7 @@
         },
         {
           "path": "articles/somatic-therapies/experiments/R08-COLD-AUDIT-RECEIPT-20260824.md",
-          "sha256": "59daaa0984ce7516411a925227e6630f01d180b01c593dd214f4ac97e79c0bd2",
+          "sha256": "d2cd73ceed76a706bf854d67041c71228c3a56092ccdd07e326b4f5fb7c3e0fe",
           "role": "cold_audit_receipt"
         },
         {
@@ -342,7 +342,7 @@
         },
         {
           "path": "articles/somatic-therapies/experiments/R08-PRESERVATION-RECEIPT-20260824.md",
-          "sha256": "3301945ad3f7cc2071491949c32e20e15c904fe3d0523d471f2418cc0d896979",
+          "sha256": "d41bc7f0fbb9994233cbcef48a5c7840827fcfd1d301ef1f19ef4279ad6d7e48",
           "role": "preservation_proof"
         }
       ]
