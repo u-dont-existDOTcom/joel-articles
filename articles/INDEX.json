@@ -8,20 +8,51 @@
       "title": "Romance",
       "status": "working",
       "authority": {
-        "master": {"path": "articles/romance/master.md", "sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c"},
-        "owner_locks": {"path": "articles/romance/OWNER-LOCKS.json", "sha256": "f72cd80c1cd9a1ae0383764f1adef59e13a60df6cfa642387830cd5627094c34"},
-        "source_evidence": {"path": "articles/romance/SOURCE-EVIDENCE.json", "sha256": "c6be27925f249afc33ed9da714233ee83d04979ab21a1163d5489ff02a62a6e7"},
-        "unincorporated_ideas": {"path": "articles/romance/UNINCORPORATED-IDEAS.md", "sha256": "7002322ff17fe684e80e5eb0ac38d5e62b1dd0428fd3b762076cb23a8a7ec9bb"},
-        "current_state": {"path": "articles/romance/CURRENT-STATE.md", "sha256": "91745c5e188649be4d1601a317bf7af1927915eec2f1e2e5b9f16d5c9589270d"}
+        "master": {
+          "path": "articles/romance/master.md",
+          "sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c"
+        },
+        "owner_locks": {
+          "path": "articles/romance/OWNER-LOCKS.json",
+          "sha256": "f72cd80c1cd9a1ae0383764f1adef59e13a60df6cfa642387830cd5627094c34"
+        },
+        "source_evidence": {
+          "path": "articles/romance/SOURCE-EVIDENCE.json",
+          "sha256": "c6be27925f249afc33ed9da714233ee83d04979ab21a1163d5489ff02a62a6e7"
+        },
+        "unincorporated_ideas": {
+          "path": "articles/romance/UNINCORPORATED-IDEAS.md",
+          "sha256": "7002322ff17fe684e80e5eb0ac38d5e62b1dd0428fd3b762076cb23a8a7ec9bb"
+        },
+        "current_state": {
+          "path": "articles/romance/CURRENT-STATE.md",
+          "sha256": "994437d5b4dac35ccb4da9d6885b4e4a302a01a05bacf4272f4d606068c51a17"
+        }
       },
       "review": {
-        "citations": {"path": "articles/romance/CITATIONS.json", "sha256": "6aa4e8e1947be31718b7a0a07b80ae70b01395d9dd79062c43465588d1041567", "status": "pending"},
-        "detector": {"path": "articles/romance/DETECTOR-EVIDENCE.json", "sha256": "6b995de0fb8475f38eda61d4a18f779cfd1e60a82da48777fbeaaf3bf886c995", "status": "recorded"},
-        "editorial": {"path": "articles/romance/EDITORIAL-STATUS.json", "sha256": "628d9b407e8f8c80a708b6f3fd8bdc9fea29bdbf56f46af707d6f8461c2961f2", "status": "pending"}
+        "citations": {
+          "path": "articles/romance/CITATIONS.json",
+          "sha256": "6aa4e8e1947be31718b7a0a07b80ae70b01395d9dd79062c43465588d1041567",
+          "status": "pending"
+        },
+        "detector": {
+          "path": "articles/romance/DETECTOR-EVIDENCE.json",
+          "sha256": "6b995de0fb8475f38eda61d4a18f779cfd1e60a82da48777fbeaaf3bf886c995",
+          "status": "recorded"
+        },
+        "editorial": {
+          "path": "articles/romance/EDITORIAL-STATUS.json",
+          "sha256": "628d9b407e8f8c80a708b6f3fd8bdc9fea29bdbf56f46af707d6f8461c2961f2",
+          "status": "pending"
+        }
       },
       "publication_exports": [],
       "additional_artifacts": [
-        {"path": "articles/romance/ARCHITECTURE.md", "sha256": "9599021e42d3459b879da2f0a1023a4a54f56bac4041731ed11ecd8db08e7421", "role": "architecture_map"}
+        {
+          "path": "articles/romance/ARCHITECTURE.md",
+          "sha256": "9599021e42d3459b879da2f0a1023a4a54f56bac4041731ed11ecd8db08e7421",
+          "role": "architecture_map"
+        }
       ]
     },
     {
@@ -29,32 +60,111 @@
       "title": "Somatic Therapies",
       "status": "working",
       "authority": {
-        "master": {"path": "articles/somatic-therapies/master.html", "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"},
-        "owner_locks": {"path": "articles/somatic-therapies/OWNER-LOCKS.json", "sha256": "2274290b71fa90f37c55af0c519ab0b6d6dca53e8f698546223e69b53881cda9"},
-        "source_evidence": {"path": "articles/somatic-therapies/SOURCE-EVIDENCE.json", "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"},
-        "unincorporated_ideas": {"path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md", "sha256": "df7ac269b6b7064d05cd6b638946b29b18bb1b768262f12f622dcb8fe5681a7c"},
-        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "6e0281f4b75664d611a4edceec18eb7f5ddc0129ba637d226505c1a0f94bcee7"}
+        "master": {
+          "path": "articles/somatic-therapies/master.html",
+          "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"
+        },
+        "owner_locks": {
+          "path": "articles/somatic-therapies/OWNER-LOCKS.json",
+          "sha256": "2274290b71fa90f37c55af0c519ab0b6d6dca53e8f698546223e69b53881cda9"
+        },
+        "source_evidence": {
+          "path": "articles/somatic-therapies/SOURCE-EVIDENCE.json",
+          "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"
+        },
+        "unincorporated_ideas": {
+          "path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md",
+          "sha256": "df7ac269b6b7064d05cd6b638946b29b18bb1b768262f12f622dcb8fe5681a7c"
+        },
+        "current_state": {
+          "path": "articles/somatic-therapies/CURRENT-STATE.md",
+          "sha256": "6e0281f4b75664d611a4edceec18eb7f5ddc0129ba637d226505c1a0f94bcee7"
+        }
       },
       "review": {
-        "citations": {"path": "articles/somatic-therapies/CITATIONS.json", "sha256": "ade24edacc6bebda6145441b766e52de8a2125b4a40eee10b51354296afa1477", "status": "pending"},
-        "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "c4661921d6f96e670af69b5708028c7ff81c7ffe04c21f32b5405e6e789a3b65", "status": "recorded"},
-        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "04d691b135931dd73905e7a92f7cb79a42fd4b2ea174e784fde20fac2581e57e", "status": "pending"}
+        "citations": {
+          "path": "articles/somatic-therapies/CITATIONS.json",
+          "sha256": "ade24edacc6bebda6145441b766e52de8a2125b4a40eee10b51354296afa1477",
+          "status": "pending"
+        },
+        "detector": {
+          "path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json",
+          "sha256": "c4661921d6f96e670af69b5708028c7ff81c7ffe04c21f32b5405e6e789a3b65",
+          "status": "recorded"
+        },
+        "editorial": {
+          "path": "articles/somatic-therapies/EDITORIAL-STATUS.json",
+          "sha256": "04d691b135931dd73905e7a92f7cb79a42fd4b2ea174e784fde20fac2581e57e",
+          "status": "pending"
+        }
       },
       "publication_exports": [],
       "additional_artifacts": [
-        {"path": "articles/somatic-therapies/ARCHITECTURE.md", "sha256": "65716b893e5f80cf9105b08ab4102d0d40a20b8e0e42f106eb46816ea1c28d42", "role": "architecture_map"},
-        {"path": "articles/somatic-therapies/HUMANIZATION-REPORT.md", "sha256": "485cb2043b5abe9c922b98985767550bbc851dd339465d301740948f7fa213bf", "role": "humanization_report"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-20260822.md", "sha256": "b6c9d2f77e620c087f89bacd19706855b62e8ebd72d6cb8d741c05c1adcf3228", "role": "authorial_flow_input"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-20260822.md", "sha256": "6c3fdfd995977fda79f4018639228603421f6182227201b2208aaa962ed59db0", "role": "detector_experiment_design"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-RESULTS-20260822.json", "sha256": "23b950269b2e34ebb03317ac7f6dee9eb97d19e4f79da371417ed6d31fce404d", "role": "detector_experiment_result"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-20260822.md", "sha256": "b1487d7c257dcebc11570808df3b85ad72ad2da389fbb97f5d148f3d95d65947", "role": "authorial_flow_input"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-PRESERVATION-20260822.json", "sha256": "b64d116524b95e0148604bebfbb22c7b5fb29a90406b2f8ec1740e7dd064f2f6", "role": "preservation_proof"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-20260822.md", "sha256": "52a63183d11f9aad144bf0f3a9d30366b890d48cba04e818424f9692edae349e", "role": "authorial_flow_input"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-PRESERVATION-20260822.json", "sha256": "902c8e221adc6ba0f8537e6176d96b72a33a8f75b9b13a28ccc18deb3be57b74", "role": "preservation_proof"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-20260822.md", "sha256": "67681e72502113b12aa79eaa0959427354a4074fd43983a8e0d97fa02dc0c4cd", "role": "authorial_flow_input"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-PRESERVATION-20260822.json", "sha256": "e197329f263b6eb970b2e6e947116409753721ccee39db0be1d97c5d4351613d", "role": "preservation_proof"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-20260822.md", "sha256": "85caf10bb4f973cf9130a05bf20f0fe74297a5ab467e566e327a9556ecec51f2", "role": "authorial_flow_input"},
-        {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-PRESERVATION-20260822.json", "sha256": "5af954f5be94c56f07de20efc9be00fc69c8a5f4fe62b283dad989d5e993c992", "role": "preservation_proof"}
+        {
+          "path": "articles/somatic-therapies/ARCHITECTURE.md",
+          "sha256": "65716b893e5f80cf9105b08ab4102d0d40a20b8e0e42f106eb46816ea1c28d42",
+          "role": "architecture_map"
+        },
+        {
+          "path": "articles/somatic-therapies/HUMANIZATION-REPORT.md",
+          "sha256": "485cb2043b5abe9c922b98985767550bbc851dd339465d301740948f7fa213bf",
+          "role": "humanization_report"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-20260822.md",
+          "sha256": "b6c9d2f77e620c087f89bacd19706855b62e8ebd72d6cb8d741c05c1adcf3228",
+          "role": "authorial_flow_input"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-20260822.md",
+          "sha256": "6c3fdfd995977fda79f4018639228603421f6182227201b2208aaa962ed59db0",
+          "role": "detector_experiment_design"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-RESULTS-20260822.json",
+          "sha256": "23b950269b2e34ebb03317ac7f6dee9eb97d19e4f79da371417ed6d31fce404d",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-20260822.md",
+          "sha256": "b1487d7c257dcebc11570808df3b85ad72ad2da389fbb97f5d148f3d95d65947",
+          "role": "authorial_flow_input"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-PRESERVATION-20260822.json",
+          "sha256": "b64d116524b95e0148604bebfbb22c7b5fb29a90406b2f8ec1740e7dd064f2f6",
+          "role": "preservation_proof"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-20260822.md",
+          "sha256": "52a63183d11f9aad144bf0f3a9d30366b890d48cba04e818424f9692edae349e",
+          "role": "authorial_flow_input"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-PRESERVATION-20260822.json",
+          "sha256": "902c8e221adc6ba0f8537e6176d96b72a33a8f75b9b13a28ccc18deb3be57b74",
+          "role": "preservation_proof"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-20260822.md",
+          "sha256": "67681e72502113b12aa79eaa0959427354a4074fd43983a8e0d97fa02dc0c4cd",
+          "role": "authorial_flow_input"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-PRESERVATION-20260822.json",
+          "sha256": "e197329f263b6eb970b2e6e947116409753721ccee39db0be1d97c5d4351613d",
+          "role": "preservation_proof"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-20260822.md",
+          "sha256": "85caf10bb4f973cf9130a05bf20f0fe74297a5ab467e566e327a9556ecec51f2",
+          "role": "authorial_flow_input"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-PRESERVATION-20260822.json",
+          "sha256": "5af954f5be94c56f07de20efc9be00fc69c8a5f4fe62b283dad989d5e993c992",
+          "role": "preservation_proof"
+        }
       ]
     }
   ]
