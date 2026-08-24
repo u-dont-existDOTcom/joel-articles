@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "candidate_id": "r23r1-r03-voice-rollback",
+  "status": "fallback_only_not_authorized_for_promotion",
+  "created_at": "2026-08-24",
+  "baseline_part2_sha256": "a0dce58d2958e8467c1ba66cbed20b7c7ae075b8eddc7e1365eb8728485ff7f3",
+  "scope": "Can making love be a spiritual practice? / R23-03 first sentence only",
+  "trigger_condition": "Consider only if stored-report highlight evidence implicates R23-03/page 1 or an independent editorial decision later selects this realization.",
+  "current": "She has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life.",
+  "current_sha256": "1acae6d7c09d2bc57532f98dd338bebaa369f248626724dc8b6e9076d09f4bc3",
+  "candidate": "She also has a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life.",
+  "candidate_sha256": "4600cb97cff20ffdb449a03e1efbaafc47bf94afd2b310049d85d91572865db3",
+  "editorial_reason": "Restores the more natural r22 owner-voice movement (`She also has...`) while preserving the r23 correction that the broader outcomes are claims reported by students. Removes only the stiffer source-management verb `collected`; does not revert the attribution correction.",
+  "change_whitelist": [
+    "sentence realization/cadence of the R23-03 student-story attribution only"
+  ],
+  "forbidden_side_effects": [
+    "may not remove `students who say` attribution",
+    "may not alter the health/work/money/creativity outcome list",
+    "may not alter the following jade-egg preliminary-training sentence",
+    "may not change section placement, links, headings, certainty, or source role"
+  ],
+  "preservation_units": [
+    {
+      "id": "PU-R23R1-01",
+      "type": "attribution+claim",
+      "meaning": "Anami has many student stories in which students report effects extending beyond sex into health, work, money, creativity, and the rest of life.",
+      "authority": "R23-03 owner-edited accepted candidate",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "entire candidate sentence",
+      "status": "preserved"
+    },
+    {
+      "id": "PU-R23R1-02",
+      "type": "dependency",
+      "meaning": "The following jade-egg practice remains a preliminary training for the cervical O involving pelvic-floor strength, attention, and arousal without a partner.",
+      "authority": "R23-03 owner-edited accepted candidate",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged following sentence",
+      "status": "preserved"
+    }
+  ],
+  "forward_traceability": "PASS",
+  "reverse_traceability": "PASS",
+  "unexplained_substantive_deltas": 0,
+  "claim_changes": "none",
+  "detector_eligibility": "BLOCKED_PENDING_TRIGGER_AND_FULL_BOUNDARY_MATERIALIZATION",
+  "pangram": "not run"
+}
