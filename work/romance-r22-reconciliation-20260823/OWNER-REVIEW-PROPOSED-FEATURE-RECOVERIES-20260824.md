@@ -1,10 +1,10 @@
 # Romance r22 proposed feature recoveries — owner review — 2026-08-24
 
-Status: **review state only. No Romance article bytes changed. No detector call authorized or made by this record.**
+Status: **owner reconciliation has advanced to the five-feature r23 continuation candidate. Registered Romance article bytes remain unchanged. No detector call has been made on r23.**
 
 ## Baseline
 
-- Leading working candidate: exact r22 Markdown SHA-256 `f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9`.
+- Leading known-green baseline: exact r22 Markdown SHA-256 `f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9`.
 - r22 Part 1 SHA-256 `5ed333800b9ae7b402f26aa03e751ef8296c7e27ab70e39bc39bb9896b23e62d`: Pangram 4.0 Human `1.0`, zero AI windows.
 - retained r22 Part 2 SHA-256 `9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85`: Pangram 4.0 Human `1.0`.
 - Registered `main:articles/romance/master.md` remains unchanged.
@@ -13,24 +13,31 @@ Status: **review state only. No Romance article bytes changed. No detector call 
 
 Joel returned the review DOCX `Romance_r22_proposed_reverts_redline(1).docx` with inline owner corrections and objections. Those direct corrections outrank the earlier feature-deficit recommendations.
 
-## Dispositions
+Joel then corrected the reconciliation method itself: do not blindly recover wording from the older version. Check whether the **function** is already realized elsewhere in the complete current section, and recover only the genuinely missing remainder. After that function-first re-audit, Joel approved continuing with the narrowed r23 work.
 
-### Surviving owner-edited proposals, still pending article acceptance
+## Current r23 continuation set — five editorial features / six exact operations
 
-1. **Talk about making love before you do it** — retain the prospective libido-divergence function in Joel's edited form: `If our libidos later diverge, it's better to talk about what we'd do before either person is already hurt.`
-2. **Affection and the simmer** — retain Joel's edited realization adding the taking-each-other-for-granted / five-years-ago point, the anti-homework joke, curiosity about a changed sex life, and `doesn't feel wanted` as one possible variable. Mechanical wording check only: `keep some curiosity into why` should be reviewed as `keep some curiosity about why`; this is not silently promoted here.
-3. **If slow isn't realistic for you** — retain the recovered purpose clause `while we figure out what this actually is.`
-4. **Can making love be a spiritual practice?** — retain the clearer student-report attribution and Joel's jade-egg training relation. Mechanical wording check only: `a preliminary training the cervical O` should be reviewed as `preliminary training for the cervical O`; no article change is made here.
-5. **Muses & Directors** — retain Joel's edited addition: `I also feel useful as the one who translates the poetry into function, when appropriate.`
-6. **Two Pillars Don't Hold The Roof Up** — the earlier three-sentence generic restoration remains rejected, because two of its three functions are already realized more concretely later in r22. One distinct function is genuinely missing: an outside friend can see a pattern that neither partner sees. Joel's preferred one-sentence realization is: `But sometimes a friend who actually knows us both sees the pattern before either of us does.` This is a review candidate only; no r22 bytes change here.
-7. **What are you actually choosing together?** — retain the stronger image `I can hear a whole future in those two words—...` as the proposed replacement for `I might hear...`.
-8. **Psychedelics in relationship discernment** — Joel rejected the prior pasted-on sentence because it did not flow and integrated the ordinary-life stress tests into the r22 spine instead. Mechanical check: `canj jive` -> `can jive`, and the indirect `whether...` clause should end with a period rather than a question mark unless deliberately rewritten as a direct question. No prose is promoted by this record.
+1. **Talk about making love before you do it** — prospective libido-divergence planning in Joel's edited form: `If our libidos later diverge, it's better to talk about what we'd do before either person is already hurt.`
+2. **Affection and the simmer** — Joel's edited realization adds the taking-each-other-for-granted / five-years-ago point and anti-homework joke. The separate changed-sex-life sentence adds the `new normal` warning and `one of us doesn't feel wanted` variable. Mechanical correction accepted in the materialized candidate: `keep some curiosity about why` rather than `into why`.
+3. **Can making love be a spiritual practice?** — clearer student-report attribution plus Joel's jade-egg training relation. Mechanical correction accepted in the materialized candidate: `preliminary training for the cervical O`.
+4. **Two Pillars Don't Hold The Roof Up** — recover only the one genuinely missing mutual-friend function. Joel's exact preferred sentence: `But sometimes a friend who actually knows us both sees the pattern before either of us does.` The older three-sentence generic block remains rejected.
+5. **What are you actually choosing together?** — use the stronger image `I can hear a whole future in those two words—...` in place of `I might hear...`.
 
-### Rejected proposals
+The frozen exact old/new spans and hashes are in `R23-FIVE-OWNER-EDITS-MANIFEST.json`. The six operations are `R23-01`, `R23-02A`, `R23-02B`, `R23-03`, `R23-04`, and `R23-05`.
 
-- **Two Pillars Don't Hold The Roof Up — old three-sentence block** — reject the proposed exact restoration of the generic mutual-friends paragraph. The section already carries the `wrong person to help` function through the B. example and the `people who know both sides can reality-check accusations` function through both B. and H. Restoring all three sentences would duplicate functions already expressed more concretely. Joel also reports that the generic wording tests as AI. The durable 2026-08-21 Part-2 aggregate independently shows that `Two Pillars` was detector-sensitive, with a High-confidence 33-word AI residual in that section, although that historical residual is not proof about the exact three sentences Joel tested. Current retained r22 Part 2 is exact Human `1.0`; do not casually reinsert old wording into it.
-- **Attraction and exclusivity** — reject the history-to-modern-vow bridge. Joel's disposition: `it's just junk model explanatory prose.` Treat it as explanatory aftercare, not a missing feature.
-- **If you're already in it** — reject restoration of the `stay in the conversation` diagnostic. Joel's disposition: it is over-explaining. Keep the owner-final dance paragraph without the added diagnostic.
+## Closed after function-first re-audit as already covered in r22
+
+These were not rejected because their ideas are bad. They were removed because the current article already performs their functions, often more concretely:
+
+- **If slow isn't realistic for you** — drop `while we figure out what this actually is`; the section already opens with waiting long enough to `figure out who I'm dealing with` and later distinguishes wanting someone from knowing whether to build a life with them.
+- **Muses & Directors** — drop `I also feel useful as the one who translates the poetry into function...`; r22 already says `I help give it direction and make it operational` and later has the Big Picture → workable-plan realization.
+- **Psychedelics in relationship discernment** — drop the added sober stress-test list; the next paragraph already says to spend time sober in ordinary situations, and the immediately preceding Imagination section already develops money, jealousy, conflict, children, and future-life stress tests.
+
+## Rejected proposals
+
+- **Two Pillars — old three-sentence block** — two of its three functions are already realized more concretely through the B. and H. material. Restoring the whole block would duplicate them. Joel also reported the exact generic wording as detector-AI. Only the missing pattern-seeing function survives, in Joel's one-sentence wording above.
+- **Attraction and exclusivity** — reject the history-to-modern-vow bridge. Joel's disposition: `it's just junk model explanatory prose.`
+- **If you're already in it** — reject the `stay in the conversation` diagnostic. Joel's disposition: it is over-explaining. Keep the owner-final dance paragraph without it.
 
 ## Process correction — function-first reconciliation, not sentence recovery
 
@@ -48,10 +55,16 @@ From this point forward, every older→current feature comparison must use this 
 
 The `Two Pillars` correction is the concrete example: the old three-sentence block contained three functions; r22 already carried two through lived material, leaving only `a mutual friend may see a pattern neither partner sees`. The correct recovery is therefore one sentence, not the old block.
 
-Separately, every proposed integration must be cold-read as literal surrounding prose before delivery. The rejected Psychedelics proposal demonstrated a flow failure caused by inserting a sentence without re-reading the resulting paragraph as a paragraph.
+Separately, every proposed integration must be cold-read as literal surrounding prose before delivery. The earlier Psychedelics proposal demonstrated a flow failure caused by inserting a sentence without re-reading the resulting paragraph as a paragraph.
 
-This correction supplements the existing known-green rule: detector history is evidence, not editorial authority; semantic/editorial quality still comes first, but detector evidence already paid for and preserved must not be ignored when proposing an exact rollback.
+This correction supplements the known-green rule: detector history is evidence, not editorial authority; semantic/editorial quality still comes first, but detector evidence already paid for and preserved must not be ignored when proposing an exact rollback.
+
+## Current materialization state
+
+The four exact changed natural boundaries are now materialized and read back byte-exact on this branch under `r23-boundary-candidates/`. `boundary-manifest.json` records SHA-256, Git blob identities, word counts, authorized operations, and readback proof. `R23-BOUNDARY-COLD-READ-20260824.md` records the literal boundary cold audit; all four pass with zero unexplained substantive deltas.
+
+The complete 20k-word r23 master and its exact Part 1 / Part 2 certification boundaries have **not** yet been assembled in this connector-only runtime. Therefore r23 detector status remains **UNMEASURED**. Do not spend section-level detector calls and mistake them for certification of the resulting halves; Romance has demonstrated composition sensitivity.
 
 ## Next state
 
-The eight surviving proposals above are owner-edited review candidates, not accepted article changes. The rejected complete Two Pillars block, Attraction/exclusivity bridge, and `stay in the conversation` diagnostic are closed unless Joel reopens them. Do not alter the registered master, r22 candidate, or detector records from this review note alone.
+Use the five-feature/six-operation r23 whitelist above. The three functionally redundant proposals and three rejected proposal families are closed unless Joel explicitly reopens them. The next technical step is exact full r23 assembly from r22 plus the frozen six operations, followed by readback/preservation proof and composition-aware Part 1 / Part 2 detector certification if current Pangram cache/ledger/credit state permits. Do not alter registered `main:articles/romance/master.md` until that reconciliation is deliberately promoted.
