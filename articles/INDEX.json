@@ -95,8 +95,8 @@
         {"path": "articles/somatic-therapies/experiments/R09-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md", "sha256": "6f99e81f69e48c9c614b9fdafd0deb7366fcf8c25daf45e6bcffcb8b5d72cc15", "role": "preservation_proof"},
         {"path": "articles/somatic-therapies/experiments/R10-WHOLE-ARTICLE-SCAFFOLD-REDUCTION-CANDIDATE-20260824.md", "sha256": "26429c6ecfe19c40807a2c4320bee4e19093375dbde36daef19bc9ff6db40d92", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R10-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md", "sha256": "f04587914b7f3db7f651880f3503a09132c0633d56537b34f7299726aa3cc6e5", "role": "preservation_proof"},
-        {"path": "articles/somatic-therapies/experiments/R11-WHOLE-ARTICLE-READER-FACING-CORRECTION-CANDIDATE-20260824.md", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "role": "humanization_candidate"},
-        {"path": "articles/somatic-therapies/experiments/R11-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "role": "preservation_proof"}
+        {"path": "articles/somatic-therapies/experiments/R11-WHOLE-ARTICLE-READER-FACING-CORRECTION-CANDIDATE-20260824.md", "sha256": "ee5d62aa7c8f6aab5adcc8314a61c768bc669768861df0dabbeb3510bada7d06", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R11-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md", "sha256": "b85fc30100b6b4002c4a4f6248f25953de7531066a7877c82f882c905b1c6c46", "role": "preservation_proof"}
       ]
     }
   ]
