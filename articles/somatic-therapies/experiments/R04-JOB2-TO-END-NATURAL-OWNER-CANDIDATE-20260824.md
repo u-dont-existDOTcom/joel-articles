@@ -14,7 +14,7 @@ Deep sessions can get undermined pretty quickly if the rest of the week just kee
 
 ## EFT / Tapping
 
-I like EFT for this job because you can use it right when something is happening. Conflict, shame spirals, social fear, abandonment panic, freeze, anger, intrusive memory fragments—these are not always things you want to wait until the next therapy session to deal with.
+The reason I put EFT here is that you can use it right when something is happening. Conflict, shame spirals, social fear, abandonment panic, freeze, anger, intrusive memory fragments—these are not always things you want to wait until the next therapy session to deal with.
 
 So tap before a difficult conversation, after you get triggered, before or after therapy, or when your mind is looping and your body is obviously activated too. It also works as a bridge between body work and cognitive processing.
 
@@ -30,14 +30,14 @@ There are two different ways people explain what might be happening. In more mai
 
 Qigong uses a different model. *Qi* means vital energy, and from that perspective the shaking may remove energetic stagnation, increase qi circulation, dissolve stored emotional charge, and reconnect breath, body, and movement.
 
-A regular practice might be 10–45 minutes. I think it makes the most sense for things like non-verbal emotional processing, chronic freeze patterns, stress accumulating between therapy sessions, or activation that is still sitting in the body afterward. I would not treat it as a standalone treatment for severe PTSD, the primary way to process trauma, something to chase catharsis with, or a replacement for skilled therapy when somebody is highly dissociative or unstable.
+A regular practice might be 10–45 minutes. It makes the most sense here for things like non-verbal emotional processing, chronic freeze patterns, stress accumulating between therapy sessions, or activation that is still sitting in the body afterward. I would not treat it as a standalone treatment for severe PTSD, the primary way to process trauma, something to chase catharsis with, or a replacement for skilled therapy when somebody is highly dissociative or unstable.
 
 ## The Discharge → Settle Stack
 
-After shaking, I do not like the idea of just opening a lot of activation and then walking away raw. A simple sequence is:
+The point is not to open a lot of activation through shaking and then walk away raw. A simple sequence is:
 
 1. [**Shaking Qigong**](http://shakingclass.innersignalselfhypnosis.com/) **/ TRE** — discharge excess activation.
-2. **Restorative or gentle yin yoga** — let the system soften and settle.
+2. **Restorative or gentle yin yoga** — let the system soften, settle, and rebalance energy flow.
 3. **EFT tapping** — re-establish emotional calm and cognitive orientation.
 
 Yin can help with the settling part, but keep it gentle, propped, and non-coercive. Long passive holds can get too evocative in trauma work. Especially early on, I would rather use shorter holds than ambitious five-minute shapes. Nobody should be encouraging you to endure sensation for the sake of “release.”
@@ -80,7 +80,7 @@ EMDR is much easier to place when there is a discrete traumatic event, flashback
 
 It often fits after you have enough regulation, body capacity, and some way to integrate the session afterward. But a stable person working with one clear event may be ready much earlier. EMDR can be highly effective.
 
-Where I would not automatically start with it is diffuse developmental trauma when the nervous system is still unstable. Specific traumatic events, accidents, assault memories, military trauma, distinct flashbacks, and stubborn residual triggers are natural EMDR targets. When the material is mainly bodily, pre-verbal, relational, or so diffuse that you cannot identify a clear target, Brainspotting may fit better.
+Where I would not automatically start with it is diffuse developmental trauma when the nervous system is still unstable. Specific traumatic events, accidents, assault memories, military trauma, distinct flashbacks, and residual triggers are natural EMDR targets. When the material is mainly bodily, pre-verbal, relational, or so diffuse that you cannot identify a clear target, Brainspotting may fit better.
 
 ## Neurological De-Armoring Support
 
@@ -100,7 +100,7 @@ I would not stack Brainspotting, EMDR, intense shaking, and deep yin on the same
 
 ## Light CBT / Narrative Integration
 
-I am not against top-down cognitive work. I just think it often comes in too early, while the body is still acting as if the threat is happening now.
+The problem with top-down cognitive work is often timing. It can come in while the body is still acting as if the threat is happening now.
 
 Once there has been enough regulation, discharge, and deeper processing, the same kind of cognitive work can become much more useful. Then you can reframe old beliefs, build a coherent life story, separate past danger from present reality, clarify values and boundaries, reclaim agency, and deepen [inner-child reparenting](http://innerchild.u-dont-exist.com/). Identity, differentiation, forgiveness when it is relevant, and what direction you actually want your life to take all belong here too.
 
@@ -110,7 +110,7 @@ Trying to think your way out of a body that still experiences the threat often f
 
 # How to Judge What Is Helping
 
-Do not decide the dose was right just because you felt calm at the end of the session. Check again the next morning, and keep watching over the next two or three days. What happened to sleep, irritability, dissociation, pain, compulsive processing, relationships, and normal functioning? That tells you much more about whether to repeat or intensify something.
+Do not decide the dose was right just because you felt calm at the end of the session. Check again the next morning, and keep watching over the next two or three days. What happened to sleep, irritability, dissociation, pain, compulsive processing, relationships, and normal functioning? Use that before deciding whether to repeat or intensify something.
 
 Yoga is a good example of why I do not want this map turned into rigid stages. It can show up early for awareness, flexibility, enjoyment, and agency; after shaking to help you settle; or after deeper work for stretching and reconnection.
 
