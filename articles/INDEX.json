@@ -93,8 +93,8 @@
         {"path": "articles/somatic-therapies/experiments/R08-PRESERVATION-RECEIPT-20260824.md", "sha256": "d41bc7f0fbb9994233cbcef48a5c7840827fcfd1d301ef1f19ef4279ad6d7e48", "role": "preservation_proof"},
         {"path": "articles/somatic-therapies/experiments/R09-FIRST-HALF-SCAFFOLD-REDUCTION-CANDIDATE-20260824.md", "sha256": "20b88e3f3d2f686a8a8ad6a317a730827e0137eb6cddf97a5f5cdc4d9397a681", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R09-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md", "sha256": "6f99e81f69e48c9c614b9fdafd0deb7366fcf8c25daf45e6bcffcb8b5d72cc15", "role": "preservation_proof"},
-        {"path": "articles/somatic-therapies/experiments/R10-WHOLE-ARTICLE-SCAFFOLD-REDUCTION-CANDIDATE-20260824.md", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "role": "humanization_candidate"},
-        {"path": "articles/somatic-therapies/experiments/R10-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "role": "preservation_proof"}
+        {"path": "articles/somatic-therapies/experiments/R10-WHOLE-ARTICLE-SCAFFOLD-REDUCTION-CANDIDATE-20260824.md", "sha256": "26429c6ecfe19c40807a2c4320bee4e19093375dbde36daef19bc9ff6db40d92", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R10-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md", "sha256": "f04587914b7f3db7f651880f3503a09132c0633d56537b34f7299726aa3cc6e5", "role": "preservation_proof"}
       ]
     }
   ]
