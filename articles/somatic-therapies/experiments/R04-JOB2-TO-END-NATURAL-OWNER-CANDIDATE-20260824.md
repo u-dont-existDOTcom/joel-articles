@@ -10,13 +10,13 @@ This pass responds to r03's Pangram-4 result: AI `1.0`, High confidence, one AI 
 
 # Job 2: Daily Regulation and Discharge — Keep the Pressure Low
 
-Deep sessions can get undermined pretty quickly if the rest of the week just keeps piling activation back on. So once there is some basic safety, daily regulation becomes its own job.
+Deep sessions can get undermined if the rest of the week just keeps piling activation back on. So once there is some basic safety, daily regulation becomes its own job.
 
 ## EFT / Tapping
 
 The reason I put EFT here is that you can use it right when something is happening. Conflict, shame spirals, social fear, abandonment panic, freeze, anger, intrusive memory fragments—these are not always things you want to wait until the next therapy session to deal with.
 
-So tap before a difficult conversation, after you get triggered, before or after therapy, or when your mind is looping and your body is obviously activated too. It also works as a bridge between body work and cognitive processing.
+So tap before a difficult conversation, after you get triggered, before or after therapy, or when your mind is looping and your body is activated too. It also works as a bridge between body work and cognitive processing.
 
 I would not make EFT the only treatment for severe trauma, though, and I would not use it to avoid the deeper work.
 
@@ -58,13 +58,13 @@ Brainspotting works with gaze position, focused attention, bodily awareness, and
 
 Before going very deep, I care much less about whether somebody has completed a particular list of therapies than whether the underlying capacities are there. Can you stay present? Do you have some way to regulate ordinary triggers? Can you settle afterward? Can you notice when the dose is becoming too much?
 
-If those capacities are there, Brainspotting can make a lot of sense when the trauma comes as body reactions, images, impulses, emotions, or fragments that are hard to organize into a story. You do not necessarily have to explain every detail for the session to move. This includes diffuse developmental trauma, pre-verbal or body-held material, trauma that does not respond well to purely cognitive approaches, and complex emotional knots where the body knows more than the story.
+With enough of those capacities in place, Brainspotting can often go deeper without overwhelming you. It can make a lot of sense when the trauma comes as body reactions, images, impulses, emotions, or fragments that are hard to organize into a story. You do not necessarily have to explain every detail for the session to move. This includes diffuse developmental trauma, pre-verbal or body-held material, trauma that does not respond well to purely cognitive approaches, and complex emotional knots where the body knows more than the story.
 
 For further reading, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
 
 ## After Brainspotting
 
-I would not rush straight into analysis afterward. Your body may need some time with whatever came up.
+I would not rush straight into analysis afterward. Your body may need time to process whatever surfaced.
 
 If spontaneous shaking or tremoring happens naturally, let it happen. If the body still wants discharge, gentle [Shaking Qigong](http://shakingclass.innersignalselfhypnosis.com/) may help. If you need orientation, walking meditation may make more sense. Restorative, gentle yin, or somatic yoga can fit when you want rest, stretching, toning, or reconnection. EFT can help if the emotional activation is still high.
 
@@ -84,13 +84,13 @@ Where I would not automatically start with it is diffuse developmental trauma wh
 
 ## Neurological De-Armoring Support
 
-Sleep, substance use, medication effects, pain, nutrition, and general physiological stability can all change how well you tolerate therapy. I have a separate [sleep guide](https://sleep.u-dont-exist.com/) for that.
+Sleep, substance use, medication effects, pain, nutrition, and general physiological stability can all influence how well you tolerate therapy. I have a separate [sleep guide](https://sleep.u-dont-exist.com/) for that.
 
 I also think neurological de-armoring may matter especially around memory work. EMDR directly engages memory reprocessing, so anything affecting fear learning, inflammation, dissociation, glutamate/GABA balance, or autonomic tone may change how reconsolidation feels. My [de-armoring supplement guide](http://dearmor.u-dont-exist.com/) goes into that side of it.
 
 ## After EMDR
 
-After EMDR I would keep things simple instead of stacking more processing on top: walk, do restorative yoga, eat and hydrate, journal only if it feels grounding, go to bed early if your nervous system feels tired, or use light EFT if activation remains.
+After EMDR I would keep things simple instead of stacking more processing on top: walk, do restorative yoga, have healthy food and hydration, journal only if it feels grounding, go to bed early if your nervous system feels tired, or use light EFT if activation remains.
 
 I would not stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless you already know your system handles that much and you have skilled support. Often the missing piece is integration, not another round of processing.
 
@@ -100,7 +100,7 @@ I would not stack Brainspotting, EMDR, intense shaking, and deep yin on the same
 
 ## Light CBT / Narrative Integration
 
-The problem with top-down cognitive work is often timing. It can come in while the body is still acting as if the threat is happening now.
+Top-down cognitive work often fails when it comes in too early, because the body is still acting as if the threat is happening now.
 
 Once there has been enough regulation, discharge, and deeper processing, the same kind of cognitive work can become much more useful. Then you can reframe old beliefs, build a coherent life story, separate past danger from present reality, clarify values and boundaries, reclaim agency, and deepen [inner-child reparenting](http://innerchild.u-dont-exist.com/). Identity, differentiation, forgiveness when it is relevant, and what direction you actually want your life to take all belong here too.
 
@@ -112,7 +112,7 @@ Trying to think your way out of a body that still experiences the threat often f
 
 Do not decide the dose was right just because you felt calm at the end of the session. Check again the next morning, and keep watching over the next two or three days. What happened to sleep, irritability, dissociation, pain, compulsive processing, relationships, and normal functioning? Use that before deciding whether to repeat or intensify something.
 
-Yoga is a good example of why I do not want this map turned into rigid stages. It can show up early for awareness, flexibility, enjoyment, and agency; after shaking to help you settle; or after deeper work for stretching and reconnection.
+Yoga is a good example of why I do not want this map turned into rigid stages. It can show up early for awareness, flexibility, enjoyment, and agency; after shaking to help you settle and rebalance; or after deeper work for stretching and reconnection.
 
 The evidence needs the same kind of flexibility. Published research matters, but it is not the same thing as common clinical use, my experience, community reports, or qigong and energetic explanations. They can point in the same direction without proving one another.
 
