@@ -28,13 +28,13 @@ The class is much more than just TRE.
 
 What makes sense to me about that is based partly on the kind of shaking I get naturally. I often have the animal-type shaking that just happens by itself, especially on psychedelics, where it feels like my body knows exactly which part needs to shake and how. So when I say a `blockage`, I mean that some energy feels stuck. It is not simply `shaking = mental health`. When the right thing shakes in the right way, things loosen as they should and the energy flows.
 
-TRE has to solve a different problem. It is a system meant to be taught en masse, so of course it has to be distilled into something that works reasonably often for reasonably many people. That is useful, but it also means there are fewer angles to come at the problem from. `Just try lots of stuff till it works` is more or less how my expertise runs on this, which admittedly gives me less chance of being called an expert.
+TRE has to solve a different problem. It is a system meant to be taught en masse, so it has to be distilled into something that seems to work most of the time for most people. That is useful, but it also means there are fewer angles to come at the problem from. `Just try lots of stuff till it works` is more or less how my expertise runs on this, which gives me less chance of being called an expert.
 
-I have not taken this Shaking Qigong class myself. I have done qigong, though, and found it very helpful for moving energy, so the combination makes intuitive sense to me. It also sits in an interesting middle ground: more guidance than totally unstructured shaking, but more movements and positions than standard TRE. I can see that suiting somebody who needs some guidance but gets nothing from the standard TRE route. And it is social. For many people, seeing other people practice and get results may help in a way that doing it alone does not.
+I have not taken this Shaking Qigong class myself. I have done qigong, though, and found it very helpful for moving energy, so the combination makes intuitive sense to me. It also sits in an interesting middle ground: more guidance than totally unstructured shaking, but more movements and positions than standard TRE. I can see that suiting somebody who needs some guidance but gets nothing from the standard TRE route. And it is social. For many people, that makes it work better than practicing alone because they can see other people getting results.
 
 That is also why I separate this from the gentler shaking in Job 1. Earlier, the point was to explore without overwhelming yourself. Once you can stop, orient, and settle afterward, shaking can become a regular discharge practice. A regular session might be 10–45 minutes.
 
-There are also different ways of explaining what is happening. In more mainstream language, possible pieces include rhythmic movement, reduced muscular armoring, greater awareness of bodily sensation, a possible shift away from fight-or-flight, tremor-mediated release of chronic tension, and completion of interrupted defensive impulses. Qigong talks instead about *qi*, or vital energy: moving stagnation, increasing circulation of qi, dissolving stored emotional charge, and reconnecting breath, body, and movement. Those are different evidence planes even when they point toward the same practice.
+There are different ways of explaining what the shaking is doing. In more mainstream language, possible pieces include rhythmic movement, reduced muscular armoring, greater awareness of bodily sensation, a possible shift away from fight-or-flight, tremor-mediated release of chronic tension, and completion of interrupted defensive impulses. Qigong talks instead about *qi*, or vital energy: moving stagnation, increasing circulation of qi, dissolving stored emotional charge, and reconnecting breath, body, and movement.
 
 I think shaking makes the most sense here for non-verbal emotional processing, chronic freeze patterns, stress accumulating between therapy sessions, or activation that is still sitting in the body afterward. I would not treat it as a standalone treatment for severe PTSD, the main way to process trauma, something to chase catharsis with, or a replacement for skilled therapy when somebody is highly dissociative or unstable.
 
@@ -60,9 +60,9 @@ I have done a simple self-directed version of Brainspotting myself. I put up a f
 
 Eye movements and memory really are connected, although I checked the popular NLP map that says something like `up-left = remembered` and `up-right = constructed/thinking`, and that fixed lookup table does not hold up well experimentally. The broader point does: gaze position and eye movements can interact with memory retrieval. For me the useful part is not memorizing which direction is supposed to mean what. It is moving the gaze and noticing what actually happens.
 
-I also like this because it makes titration and pendulation very easy. I was calling it something like edging: go toward the uncomfortable spot, back away, come toward it again, and feather-touch the boundary instead of jumping straight into the deep end. `Titration` is the more established term for approaching activation in small doses, and `pendulation` for moving between more activated and more regulated sensations. That approach feels better to me, and there is at least some evidence that graduated exposure can reduce peak distress; I would not turn that into a claim that it is universally better than more intensive trauma work.
+I also like this because it makes titration and pendulation very easy. I was calling it something like edging: go toward the uncomfortable spot, back away, come toward it again, and feather-touch the boundary instead of jumping straight into the deep end. `Titration` is the more established term for approaching activation in small doses, and `pendulation` for moving between more activated and more regulated sensations. That approach feels better to me. There is also some evidence that graduated exposure reduces peak distress, although that is not the same as proving gradual work is always more effective.
 
-And Brainspotting gets a lot of points from me for the same reason EFT does: it is democratic. You can experiment with a simple version yourself without needing an expensive expert every time you want to work with something, although of course you can also do formal Brainspotting with a therapist.
+And Brainspotting gets a lot of points from me for the same reason EFT does: it is democratic. You do not need an expensive expert every time you want to work with something. You can experiment with a simple version yourself, and formal Brainspotting with a therapist is still there if you want or need it.
 
 Formal Brainspotting works with gaze position, focused attention, bodily awareness, and therapist attunement.
 
@@ -70,13 +70,13 @@ Formal Brainspotting works with gaze position, focused attention, bodily awarene
 
 The fact that you can experiment with gaze yourself does not mean going as deep as possible by yourself. What matters first is whether you can stay present, regulate ordinary triggers, settle afterward, and notice when the dose is becoming too much. You do not need to build those capacities through any particular checklist of therapies. With enough of them in place, Brainspotting can often go deeper without overwhelming you.
 
-This is why it can make sense for diffuse developmental trauma, pre-verbal or body-held material, trauma that does not respond well to purely cognitive approaches, and complex emotional knots where the body knows more than the story. You do not necessarily have to know exactly what you are targeting or explain every detail before something starts moving.
+Brainspotting interests me especially for diffuse developmental trauma, pre-verbal or body-held material, trauma that has not responded well to purely cognitive approaches, and those emotional knots where the body seems to know more than the story. You do not necessarily need to know exactly what you are targeting or explain every detail before the session starts moving.
 
 For further reading, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
 
 ## After Brainspotting
 
-I would not rush straight into analysis afterward. Your body may need time to process whatever surfaced. If spontaneous shaking or tremoring happens naturally, let it happen. If the body still wants discharge, gentle [Shaking Qigong](http://shakingclass.innersignalselfhypnosis.com/) may help; if you need orientation, walking meditation may make more sense. Restorative, gentle yin, or somatic yoga can fit when you want rest, stretching, toning, or reconnection, and EFT can help if the emotional activation is still high.
+I would resist the urge to turn the rest of the day into another processing marathon. If spontaneous shaking comes, let it happen gently. If the body still wants discharge, use gentle [**Shaking Qigong**](http://shakingclass.innersignalselfhypnosis.com/). If you feel floaty or far away, walking meditation may be better. Restorative, gentle yin, or somatic yoga can help if what you want is rest, stretching, toning, or reconnection. EFT can help if emotional activation is still high.
 
 ---
 
@@ -94,58 +94,56 @@ Where I would not automatically start with EMDR is diffuse developmental trauma 
 
 ## Neurological De-Armoring Support
 
-I do want this part in the article, because in my experience the state of the body can determine whether the psychological work goes anywhere at all. I have seen friends get basically nowhere with these therapies until they addressed what looked like physical neuroinflammation, with things like low-dose naltrexone, phosphatidylserine, DMSO, and so on.
+I do want this part in the article, because in my experience the state of the body can determine whether the psychological work goes anywhere at all. I have seen friends get basically nowhere with these therapies until they addressed physical neuroinflammation, with things like low-dose naltrexone, phosphatidylserine, DMSO, and so on.
 
-I notice the same principle in myself from another angle: if I feel like I have toxins sitting in my gut, I cannot do much real healing work. Ozonated zeolite helps me a lot with that. Ozonated charcoal water also seems to help me when I am surrounded by what feel like chaotic energy fields, whether I think of them as EMF or auric. I am giving those as personal and observational experience, not pretending they are all the same kind of evidence as a clinical trial.
+I notice the same principle in myself from another angle: if I feel like I have toxins sitting in my gut, I cannot do much real healing work. Ozonated zeolite helps me a lot with that. Ozonated charcoal water also helps me when I am surrounded by chaotic energy fields, whether EMF or auric. Those are my experience and observations; I am not treating them as the same kind of evidence as a clinical trial.
 
-That is why I keep the physical de-armoring material next to memory work instead of treating it as a separate wellness topic. Sleep, substance use, medication effects, pain, nutrition, inflammation, dissociation, glutamate/GABA balance, and autonomic tone may all affect how well you tolerate therapy and how memory reconsolidation feels. I have separate guides on [sleep](https://sleep.u-dont-exist.com/) and [neurological de-armoring](http://dearmor.u-dont-exist.com/) for that side of it.
+That is why I keep the physical de-armoring material next to memory work instead of treating it as a separate wellness topic. Sleep, substance use, medication effects, pain, nutrition, inflammation, dissociation, glutamate/GABA balance, and autonomic tone may all affect how much therapy you can tolerate and what reconsolidation feels like. I have separate guides on [sleep](https://sleep.u-dont-exist.com/) and [neurological de-armoring](http://dearmor.u-dont-exist.com/) for that side of it.
 
 ## After EMDR
 
-After EMDR I would keep things simple instead of stacking more processing on top: walk, do restorative yoga, have healthy food and hydration, journal only if it feels grounding, go to bed early if your nervous system feels tired, or use light EFT if activation remains.
+Afterward I would keep things almost boring: walk, eat, hydrate, sleep early if you are tired, do restorative yoga, journal only if it grounds you, maybe use a little EFT if activation is still there.
 
-I would not stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless you already know your system handles that much and you have skilled support. Often the missing piece is integration, not another round of processing.
+I would not casually stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless you already know your system handles that much and you have skilled support. More processing can simply be more processing. Sometimes the missing piece is integration.
 
 ---
 
-# Job 5: Meaning-Making and Life Integration
+# Job 5: Make Sense of What Changed
 
 ## Light CBT / Narrative Integration
 
-I put the cognitive work here because trying to think your way out of a body that still experiences the threat often fails. Once there has been enough regulation, discharge, and deeper processing, top-down work can become much more useful.
+Eventually there is a point where cognitive work becomes much more useful. Trying to reframe a danger while the body still experiences the threat as present often does not get very far.
 
-Then you can reframe old beliefs, build a coherent life story, separate past danger from present reality, clarify values and boundaries, reclaim agency, and deepen [inner-child reparenting](http://innerchild.u-dont-exist.com/). Identity, differentiation, forgiveness when it is relevant, and what direction you actually want your life to take all belong here too.
+Once the body is less trapped there, light CBT and narrative work can help you revisit old beliefs, build a coherent life story, separate past danger from present reality, clarify values and boundaries, reclaim agency, and deepen [inner-child reparenting](http://innerchild.u-dont-exist.com/). This is also where identity, differentiation, forgiveness when it is actually relevant, and life direction may become easier to work with.
 
 ---
 
-# How to Judge What Is Helping
+# How I Judge Whether Any of This Is Helping
 
 Here is a very ordinary example of what I mean by `restimulation`. While I was working on this article I was still upset about an argument with my housemate. I had been washing her moldy clothes for her, one of the dresses got discolored, and she yelled at me about it. I was still stewing over how she treated me.
 
-So I did a quick bit of self-Brainspotting. I moved my finger and eyes slowly around while thinking about the event. When my gaze went farther to either side I noticed some *pīti*—in Buddhist language, a kind of tingling bliss—in the peripheral visual field. I had assumed this was simply `peripheral vision activates the parasympathetic nervous system`, but the research is not that clean. What I can say from the experience is that I could move moment to moment between a more settled/blissful state and the distress of the memory, and let some of that better feeling touch the distress instead of staying submerged in it.
+So I did a quick bit of self-Brainspotting. I moved my finger and eyes slowly around while thinking about the event. When my gaze went farther to either side I noticed some *pīti*—in Buddhist language, a kind of tingling bliss—as I moved into more peripheral vision. I had assumed this was simply `peripheral vision activates the parasympathetic nervous system`, but the research is not that clean. What I can say from the experience is that I could move moment to moment between a more settled/blissful state and the distress of the memory, and move some of that bliss into the distress instead of staying submerged in it.
 
-Afterward the event felt like it held less negative or blocking energy in my mind. That is the real test for me. If an hour later I am still stewing just as much, maybe what happened was mostly temporary. If I can bring the event back to mind and I am still less restimulated by it, something changed more durably. And I would not expect every memory to be resolved in one pass; one EMDR treatment is often not the whole treatment either.
+Afterward the event felt like it held less negative or blocking energy in my mind. That is the simplest test for me. If an hour later I am still stewing just as much, maybe the effect was mostly temporary. If I can bring the event back to mind and I am still less restimulated by it, something changed more durably. I would not expect every memory to be resolved in one pass; one EMDR treatment is generally not the whole treatment either.
 
-For a bigger intervention, I would still check again the next morning and over the next two or three days. What happened to sleep, irritability, dissociation, pain, compulsive processing, relationships, and ordinary functioning? Use that before deciding whether to repeat or intensify something.
+For a bigger intervention, check the dose more than once. How do you feel immediately afterward? What happened to your sleep that night? What about the next morning, and the next two or three days? A calm ending to a session does not prove the dose was right. I would watch irritability, dissociation, pain, compulsive processing, relationships, and ordinary functioning before deciding to repeat or intensify something.
 
-Yoga is a good example of why I do not want this map turned into rigid stages. It can show up early for awareness, flexibility, enjoyment, and agency; after shaking to help you settle and rebalance; or after deeper work for stretching and reconnection.
+Yoga can show up early for body awareness and agency, after shaking because you need to settle, or after deeper processing because stretching and reconnection feel good. You do not need every modality.
 
-Keep the evidence planes separate. Published research, common clinical use, my experience, community reports, and qigong or energetic explanations can point in the same direction without proving one another. Some shaking, qigong, breathwork, and somatic communities make enormous claims about releasing decades of trauma, awakening kundalini, clearing stored emotion, or rapidly healing the whole nervous system. Those are hypotheses and community signal, not promises.
+Keep the explanation as modest as the evidence. Published research, common clinical use, my own experience, community reports, and qigong or energetic explanations can all point toward the same practice without proving one another. Some shaking, qigong, breathwork, and somatic communities make huge claims about releasing decades of trauma, awakening kundalini, clearing stored emotion, or rapidly healing the entire nervous system. Treat those claims as hypotheses and community signal, not guarantees. Judge the practice by what changes in actual life.
 
-A thin research literature does not prove a practice is ineffective, and a huge literature does not tell you that one treatment is the right first move for your nervous system. Start from first principles, look at what seems to help people with similar patterns, change one thing at a time when you can, and see what actually happens in your life.
-
-Do not confuse intensity with healing.
+A thin research literature does not prove a method useless, and a large research literature does not tell you which therapy your own nervous system needs first. I would start from first principles, pay attention to people with patterns similar to mine, change one thing at a time when possible, and keep asking the unglamorous question: am I actually doing better? Go slowly enough to see what the practice actually did, and do not confuse intensity with healing.
 
 ---
 
-# Optional High-Intensity State-Shift and Release Practices
+# Optional High-Intensity Practices: Sky Hypnosis and Vagal Blitz
 
-[Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best) are down here because they are relatively intense, not because you have to finish the rest of the map first. Stable people may find them helpful much earlier. They are optional advanced state-shift and release practices, not ordinary regulation exercises or prerequisites for healing.
+[Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best) do not have to wait until the end of the map. Stable people may find them useful before doing any of the other therapies. I treat them as optional high-intensity state-shift and release practices, not ordinary regulation exercises and definitely not prerequisites for healing.
 
-Sky Hypnosis can make you lightheaded. Vagal Blitz is lying-down-only and has its own cardiovascular and mental-health cautions. Read the complete guide, start with the least intense version that gives you a useful shift, and stop when balance, orientation, or recovery becomes unreliable. Do not chase fainting or loss of consciousness.
+They also deserve their own physical-safety rules. Sky Hypnosis can make you lightheaded. Vagal Blitz is a lying-down-only practice with cardiovascular and mental-health cautions. Use the complete guide, start with the least intense version that gives you a useful shift, and stop when balance, orientation, or recovery becomes unreliable. Do not chase fainting or loss of consciousness.
 
-The same restimulation test matters here. A huge state shift can feel like healing. You can get enough bliss, relief, or altered-state intensity to feel healed while the same trauma is still running your relationships and behavior. What happens when you remember the trauma later? Are you less restimulated, more able to meet pain, set a boundary, participate in life, and approach the actual issue—or has the practice mainly become a way to avoid grief, conflict, practical problems, or deeper relational healing?
+There is also a psychological trap here: a practice can produce so much bliss, relief, or altered-state intensity that you feel healed while the same trauma is still running your relationships and behavior. For me the simplest version of the test is still restimulation: what happens when I remember the event later? Am I actually less activated by it? I also look at the rest of life. Am I more able to meet pain, set boundaries, deal with conflict, and participate in life? Or did the practice become a way to avoid grief, conflict, practical problems, or deeper relational healing?
 
-Advanced release still does not establish that you are ready for deep memory work. Reassess orientation, ability to stop, sleep, physical recovery, and whether you are more willing to approach the issue itself. The benefits I describe in the linked guides include my experience and community signal; the proposed physiological mechanisms are a separate question.
+And a huge release does not automatically mean you are ready for deep memory work. I would still check orientation, ability to stop, sleep, physical recovery, and whether I am actually more willing to approach the real issue. The benefits I describe in the linked guides include my experience and community signal. The proposed physiological mechanisms are a separate question.
 
 **[EXISTING SKY HYPNOSIS NATIVE EMBED — exact object retained in HTML promotion]**
