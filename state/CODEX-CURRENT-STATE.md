@@ -2,6 +2,10 @@
 
 Updated: 2026-08-24
 
+## Goal
+
+Maintain exact GitHub-canonical authority and recoverable state for Joel's registered articles while completing requested editorial work without allowing detector results, stale artifacts, or unverified runtime output to overwrite owner meaning.
+
 ## Current posture
 
 The Project-source recovery, GitHub migration, ChatGPT Project cutover, and article-authority system are active.
@@ -47,6 +51,9 @@ Somatic Therapies:
 - Section comparison showed the unchanged Professor Baby Sheep/play material overlaps the only Human region in r01, while several regenerated sections diverged heavily from the supplied source. Production strategy has shifted from fresh paraphrase to higher-authority rollback/minimum-dose editing.
 - Froze and dispatched an exact Shaking Qigong r01 natural-section measurement. One paid call is reserved; no durable result exists at this checkpoint, so repeat submission is blocked.
 - Froze a Shaking Qigong source-rollback candidate without submitting it. It should be tested only if the exact r01 baseline is AI.
+- Closed Authorial Flow pre-detector requests `-i` through `-m` without a candidate or Pangram submission. The sequence exposed and repaired semantic-escalation routing, external-source provenance, Codex strict-output-schema projection, transport classification, and privacy-safe provider diagnostics.
+- Sealed Authorial Flow Graph 1.3.0-dev1 to substantive tool commit `4b0c4bcb3da7bd99ed3e200fb396c2cf4f1b11a0` after 372 deterministic tests passed.
+- Durable content-free probe `codex-representation-envelope-20260823-c` passed the exact public representation envelope at the failed request's 10,500-byte profile, the larger representation request, and both developmental checks. No article text or Pangram credential was used.
 
 Detector tooling:
 - Diagnosed a private-executor queue-loss hazard: a newer pending workflow could displace an older pending workflow despite `cancel-in-progress: false`.
@@ -77,14 +84,17 @@ Current Somatic Therapies boundary:
 - inner-child audit: **6/6 exhausted**, including exact original source at AI `1.0`;
 - natural-owner cancer control: Human `1.0`, High confidence;
 - Shaking Qigong r01: one exact paid call reserved, durable result not yet available; do not repeat.
+- Job 1 Authorial Flow: no candidate through `-m`; all content-free Codex provider gates are green; exact V5 content handling is the only untested request variable.
 
 ## Remaining
 
 For Romance, complete PR #46 exact branch readback and merge review. Do not buy another Part-2 call solely for detector confidence, and do not publish/export or mark the whole article owner-final.
 
 For Somatic Therapies:
-- recover/resume the exact Shaking Qigong r01 result from the existing reservation;
-- if Shaking r01 is AI, test the already-frozen source-rollback candidate once; if it is Human, preserve it and inspect transition/context instead;
+- obtain explicit destination-specific authorization before sending exact V5 content to Codex for one final no-Pangram pre-detector Authorial Flow run;
+- if authorized, use substantive tool commit `4b0c4bcb3da7bd99ed3e200fb396c2cf4f1b11a0` and the pinned V5 source identity exactly once, then preservation/architecture-review any frozen candidate before detector work;
+- if not authorized, stop the Authorial Flow lane without routing the article to another provider or workflow;
+- preserve the Shaking Qigong reservation quarantine; do not repeat the unresolved paid measurement;
 - continue section work by measuring natural boundaries before rewriting them;
 - prefer restoration, movement, consolidation, and removal of model aftercare over fresh paraphrase;
 - when the original source itself is AI and no independent Human source exists, stop model-only detector loops rather than manufacturing pseudo-owner prose;
@@ -100,6 +110,7 @@ For Somatic Therapies:
 - Somatic r01 remains Pangram `AI Detected` at 97.76% AI fraction.
 - Somatic intro and inner-child repair lanes are exhausted without a passing candidate.
 - Somatic Shaking r01 is paid-reserved but unresolved; it must not be repeated.
+- Somatic Job 1 has no frozen Authorial Flow candidate; the next exact-content Codex run is blocked on explicit destination authorization.
 - Public repository visibility does not imply a license or publication authorization.
 
 ## Evidence / artifacts
@@ -110,6 +121,8 @@ For Somatic Therapies:
 - Somatic Therapies family: `articles/somatic-therapies/`
 - Somatic detector evidence: `articles/somatic-therapies/DETECTOR-EVIDENCE.json`
 - Somatic humanization assessment: `articles/somatic-therapies/HUMANIZATION-REPORT.md`
+- Somatic recovery state: `articles/somatic-therapies/CURRENT-STATE.md`
+- Exact-envelope provider evidence: `u-dont-existDOTcom/pangram-humanization-lab@evidence/developmental-provider-probe/codex-representation-envelope-20260823-c`
 - Raw Somatic Pangram evidence and call ledgers: `u-dont-existDOTcom/pangram-humanization-lab`, branch `automation/pangram-fixed-batch`
 - Trusted detector executor: `u-dont-existDOTcom/pangram-private-executor`
 - Historical Project retirement archive: `archive/chatgpt-project-retirement-2026-08-17/`
@@ -117,6 +130,8 @@ For Somatic Therapies:
 ## Next safe action
 
 For the active Romance task on this branch, complete PR #46 validation and hosted readback. If the non-detector gates remain green, the PR is ready to merge r23r2 as registered `working` authority. Do not equate that merge with publication, licensing, completed citation review, or whole-article owner-final status. The separate Somatic reservation/recovery constraints above remain unchanged.
+
+For the separate Somatic Therapies task, the next safe action remains asking Joel for explicit permission to send exact V5 content to Codex for one final no-Pangram pre-detector run. Do not reopen the exhausted manual lanes, repeat the Shaking reservation, or route that content around the decision.
 
 ## Recovery rule
 
