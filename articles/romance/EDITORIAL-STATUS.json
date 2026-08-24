@@ -30,8 +30,8 @@
     },
     {
       "id": "fresh-whole-article-editorial-pass",
-      "status": "pending",
-      "evidence": "The bounded r23r2 promotion does not claim a new owner-final whole-article editorial review."
+      "status": "completed_with_findings",
+      "evidence": "Fresh read of exact main master after PR #46 merge. No broad reconstruction is justified. Five concrete publication-level findings are recorded below; master bytes remain unchanged pending resolution/batching."
     },
     {
       "id": "citation-review",
@@ -39,7 +39,55 @@
       "evidence": "Claim-by-claim citation verification remains separately pending and remains a publication gate."
     }
   ],
-  "meaning_fidelity": "The exact r23r2 master preserves all r23 operations and changes only the owner-authorized Two Pillars local thought order. Community limitation and mutual-friend pattern-seeing functions both survive; claims, certainty, agency, chronology, links, native objects, headings, and protected anchors remain unchanged.",
-  "detector_role": "Part 1 retains exact Pangram Human 1.0 evidence. Joel's owner-reported exact local r23r2 Human/low-confidence result is sufficient for this bounded promotion; no full Part-2 or whole-article score is claimed.",
-  "owner_final_boundary": "The exact Two Pillars r23r2 realization is owner-final and locked. The complete article remains a working master, not owner-final publication copy."
+  "findings": [
+    {
+      "id": "ED-R23R2-01",
+      "severity": "mechanical",
+      "location": "Opening",
+      "exact_span": "he briefly explained:: “Sex is what you do when you are older and you find a friend you want to have children with.”",
+      "diagnosis": "Obvious doubled colon before the remembered quotation.",
+      "disposition": "batch_fix_candidate",
+      "semantic_change": false
+    },
+    {
+      "id": "ED-R23R2-02",
+      "severity": "mechanical",
+      "location": "What we mean by “love”",
+      "exact_span": "the backdrop of actual, genuine care, keeps the couple from simply abandoning each other",
+      "diagnosis": "Comma incorrectly separates the grammatical subject from its verb.",
+      "disposition": "batch_fix_candidate",
+      "semantic_change": false
+    },
+    {
+      "id": "ED-R23R2-03",
+      "severity": "clarity",
+      "location": "If you’re already in it > Outside help can sometimes break the loop fast",
+      "exact_span": "What they say is also partly true, \"The only one you can change is yourself.\"",
+      "diagnosis": "The pronoun “they” has no clear antecedent after a list of mutual friend, peer counselor, couples therapist, dialogue/process, and groups.",
+      "disposition": "owner_or_editor_reword_needed",
+      "semantic_change": false
+    },
+    {
+      "id": "ED-R23R2-04",
+      "severity": "clarity",
+      "location": "Ending consciously > After leaving",
+      "exact_span": "Doormat mode would be letting them back into your life without making them lose face themselves through a public apology.",
+      "diagnosis": "The syntax can read as deliberately making the ex lose face, rather than requiring public repair after public demonization. Clarify the intended condition without weakening it.",
+      "disposition": "owner_or_editor_reword_needed",
+      "semantic_change": "clarify_intended_condition_without_weakening_it"
+    },
+    {
+      "id": "ED-R23R2-05",
+      "severity": "logic_clarity",
+      "location": "Bear terminal callback",
+      "exact_span": "Don't feel pressure to promise commitment; it comes by itself naturally & honestly as your hearts sync.",
+      "diagnosis": "Potential ambiguity relative to the article’s earlier distinction between future feelings, which cannot be promised, and chosen actions/agreements, which can. “Commitment” here may sound as though explicit commitments themselves should never be promised.",
+      "disposition": "owner_choice_or_precise_clarification",
+      "semantic_change": "clarify_whether_commitment_means_feeling/bond_or_promised_actions"
+    }
+  ],
+  "meaning_fidelity": "This editorial pass is diagnostic only until the findings are resolved. It does not authorize deletion, broad reconstruction, detector-driven wording changes, or alteration of the exact Two Pillars owner-final lock.",
+  "detector_role": "Batch final editorial/citation edits before any optional detector work so exact-hash and detector churn are minimized. Detector status does not decide these findings.",
+  "owner_final_boundary": "The exact Two Pillars r23r2 realization is owner-final and locked. The complete article remains a working master, not owner-final publication copy.",
+  "largest_remaining_editorial_weakness": "The Bear closing line uses “commitment” in a way that may blur the article’s earlier distinction between unpromisable future feeling and honestly chosen promised actions."
 }
