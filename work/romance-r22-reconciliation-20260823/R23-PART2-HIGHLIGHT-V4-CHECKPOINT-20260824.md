@@ -10,60 +10,72 @@ Updated: 2026-08-24
 - AI `0.0034915956`
 - AI-assisted `0.0`
 - stored report summary: `A single AI-generated segment`
-- no repeat detector submission is authorized merely to localize this result.
+- no repeat detector submission was used to localize this result.
 
-## What read-only recovery established
+## Read-only recovery history
 
 1. Structured History localization and direct-report structured binding both failed closed at `bind_exact_history_record`; neither submitted text to the detector.
 2. DOM inspector v1 falsely treated Pangram orange navigation styling as a highlight.
 3. DOM inspector v2 inspected only the first report page and found no anomalous article-text style there.
-4. Report-page inspector v3 paginated all seven stored report pages. Every page-level Details classification is Human. The residual is therefore smaller than a report page and cannot be localized from page-level labels.
+4. Report-page inspector v3 paginated all seven stored report pages. Every page-level Details classification was Human. The residual was therefore smaller than a report page.
 5. The three r23 Part-2 authorized edits land on different stored report pages:
    - R23-03 `Can making love be a spiritual practice?`: page 1;
    - R23-04 owner-final mutual-friend sentence: end of page 3;
    - R23-05 `I can hear a whole future...`: page 4.
-   All three pages are Human at page level.
+6. Tooling review then found Pangram's actual `AI Highlight` control; v1-v3 had not activated it. Private-executor v4 was built to do so without detector submission.
 
-## Root-cause correction to the recovery tooling
+These failures are tooling limitations, not evidence against any Romance sentence.
 
-The v2 DOM evidence shows the report contains an actual button labeled `AI Highlight` (`button#radix-_r_15_`). Pangram's July 2026 knowledge-hub documentation states that AI segments are displayed inline in the report body (AI red, AI-assisted yellow, Human green). The v1-v3 recovery scripts never activated that stored-report highlight view before trying to identify the marked prose.
+## Localization resolved by owner visual read
 
-Therefore the earlier localization failures are tooling limitations, not evidence against any Romance sentence.
+Joel manually read the already-paid Pangram report and supplied the exact AI-highlighted span:
 
-Private executor main now contains a read-only v4 inspector which:
-- validates the exact already-paid stored result;
-- activates the existing report's `AI Highlight` control;
-- records only bounded marked/style-run snippets and compact style/ancestor metadata inside `.mp-block`;
-- paginates the stored report;
-- persists `detector_submission_attempted: false`;
-- has no Pangram detector-submit or API-key path.
+`Community isn't magic either; if both people are falling apart, there is only so much anyone else can do. But sometimes a friend who actually knows us both sees the pattern before either of us does.`
 
-A v4 read-only request was added for evidence branch:
-`evidence/pangram-report-dom/romance-r23-part2-v4-highlight-20260824-a`.
+This is direct owner-supplied localization evidence from the existing report. No new Pangram call was made.
 
-## Editorial preflight while localization is pending
+The highlighted span crosses the exact r22 → r23 edit boundary:
 
-No Part-2 prose is changed at this checkpoint.
+- `Community isn't magic either; if both people are falling apart, there is only so much anyone else can do.` is unchanged r22 wording inside exact known-green r22 Part 2;
+- `But sometimes a friend who actually knows us both sees the pattern before either of us does.` is R23-04, Joel's owner-selected missing-function sentence.
 
-Cold review of the three r23 Part-2 edits found no credible reason to alter R23-04 or R23-05 independent of detector evidence. R23-04 is owner-final and performs a necessary community function; R23-05 is a compressed concrete future-image and performs the section's live contrast.
+Therefore the residual is a **contextual transition window**. It does not prove either sentence independently caused the classification. It also removes R23-03 and R23-05 from the first repair target.
 
-R23-03 has one possible realization-only improvement if page 1 is implicated: replace `She has also collected a ton of stories from students who say...` with `She also has a ton of stories from students who say...`. This would restore the more natural r22 thought movement while preserving the r23 student-report attribution correction and leaving the jade-egg preliminary-training claim unchanged. It is only a fallback candidate, not an accepted edit or detector attribution.
+Pangram lab issue #110 now records this manual localization while remaining open for the generic automated History/recovery defect.
 
-Reduced D2 preservation assessment for that fallback:
-- proposition: unchanged;
-- certainty/scope: unchanged;
-- attribution: unchanged (`students who say` remains explicit);
-- actor/action/object: unchanged;
-- chronology/causality: unchanged;
-- links/headings/placement: unchanged;
-- unexplained substantive deltas: 0.
+## Editorial repair decision
 
-Do not materialize or certify that fallback solely because it seems detector-friendly. First use the stored-report highlight evidence if it becomes available.
+Cold review of the full `Two Pillars Don't Hold The Roof Up` natural section identifies one narrow realization defect created by the new juxtaposition.
+
+In r22, `Community isn't magic either; ...` was followed directly by the B. lived example and was detector-green in that context. R23-04 inserts a generalized positive community function immediately after it. In the new transition, `Community isn't magic either;` becomes a generic defensive/qualifying wrapper immediately before `But sometimes...`, producing an unnecessarily neat caveat → counterpoint sequence.
+
+The substantive community-limit claim remains necessary and is fully contained in the rest of the sentence: `if both people are falling apart, there is only so much anyone else can do.`
+
+Frozen r23r1 candidate:
+
+`Maybe an unusually strong couple can get away without much community. I think that's rare. If both people are falling apart, there is only so much anyone else can do.`
+
+`But sometimes a friend who actually knows us both sees the pattern before either of us does.`
+
+Only `Community isn't magic either;` is removed. Joel's R23-04 sentence remains exact and in the same place.
+
+Full candidate and reduced D2 preservation proof:
+`R23R1-TWO-PILLARS-TRANSITION-REPAIR-20260824.md`.
+
+Preservation status for this local repair:
+- forward traceability PASS;
+- reverse traceability PASS;
+- unexplained substantive deltas 0;
+- substantive claim changes none;
+- R23-04 owner wording exact;
+- B./H. examples and all other Part-2 prose invariant.
+
+The previously frozen R23-03 voice fallback is no longer the active repair target and must not be materialized from this evidence.
 
 ## Next action
 
-1. Read the v4 evidence branch if/when it appears.
-2. Map any marked bounded snippet exactly to the authorized Part-2 source.
-3. Inspect the complete natural section and determine whether a real editorial repair is justified.
-4. If a repair is accepted, re-run the required preservation/architecture gates and certify only the changed exact Part-2 boundary through GUI.
-5. Never resubmit exact r23 Part 1; do not merge/promote/publish r23 before the Part-2 gate is resolved or Joel explicitly accepts the residual.
+1. Materialize exact r23r1 from exact r23 with only the four-word `Community isn't magic either;` deletion.
+2. Verify exact delta, Two Pillars natural-section preservation, and article-wide architecture/dependency checks.
+3. Certify only the changed exact Part-2 reader boundary through the authenticated GUI under the current large-text cost rule.
+4. Never resubmit r23 Part 1.
+5. If exact r23r1 Part 2 returns Human `1.0`, reconcile the r23r1 evidence into PR #46 and proceed toward deliberate promotion; do not alter registered main before the gate passes.
