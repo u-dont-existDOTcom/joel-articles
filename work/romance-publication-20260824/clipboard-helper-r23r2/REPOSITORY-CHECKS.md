@@ -10,6 +10,8 @@ Run from the exact task branch after helper generation on 2026-08-24.
 - Article architecture-map validator: **PASS**
 - Repository audit: **PASS with 0 errors and 4 pre-existing governance warnings**
 - Patch hygiene (`git diff --check`): **PASS**
+- Hosted exact-byte helper readback from the pushed branch: **PASS**, SHA-256 `7dc20c72319f382a65765c803407d8d805c78cf59632b4dbff4619b683ea168f`
+- PR #55 hosted mergeability readback: **mergeable `true`**
 - Pangram: **not run**
 
 ## Existing main-branch validator findings
