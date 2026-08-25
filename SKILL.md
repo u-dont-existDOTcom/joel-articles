@@ -84,6 +84,21 @@ Sentence by sentence ask what a genuinely curious reader wants to know next. The
 
 Optimize for the next necessary move, not maximal explanation. Keep sentences that change time, case, premise, causal state, consequence, or live question. Remove aftercare that merely explains why a point was made, repeats an already available inference, labels a demonstrated dynamic, or fills conceptual space because it can be filled. Necessary bridges remain necessary. If downstream prose keeps repairing an upstream paragraph, inspect the upstream logic and stopping point first.
 
+## Exact-placement requirement for proposed edits
+
+Whenever recommending or supplying an addition, replacement, move, consolidation, or deletion for an existing article, make the proposal directly executable against the inspected current version. State:
+
+- the target article and revision or authority state;
+- the nearest existing heading and the new heading level, when applicable;
+- the operation: insert before, insert after, replace, move, consolidate, or delete;
+- a quoted textual anchor, stable passage ID, or exact replacement start and end boundaries;
+- the disposition of displaced material;
+- any transition, table-of-contents, citation, link, caption, media, native-object, or downstream-reference repair the edit requires.
+
+For several changes, provide an ordered placement map. Prefer stable text anchors to bare page or line numbers because pagination and line numbers move after earlier edits; page or line numbers may supplement the anchor. Re-resolve downstream anchors after each accepted or applied upstream edit.
+
+“Add this near X,” “this could go under Y,” or a paste-ready passage without an exact destination is incomplete. Do not make Joel rediscover the article architecture in order to use a recommendation. If the current article has not been inspected closely enough to establish a reliable anchor, inspect it before proposing the change.
+
 ## Owner prose, provenance, interviews, and source pools
 
 Reuse good owner prose freely in real article work. In explicit model-generation training experiments, first recover the thought and generate fresh syntax without borrowing Joel's realization, then compare.
