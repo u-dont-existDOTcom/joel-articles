@@ -20,7 +20,7 @@ The name of the modality is not enough to tell you how intense the work will be.
 
 I also do not want preparation to become an endless waiting room. At some point the trauma itself has to change. I care about sleep, relationships, functioning, freedom, and how much power the triggers still have—not whether I have completed the “right” sequence of therapies or had an impressively dramatic session. If sleep itself is the bottleneck, I have a separate [sleep guide](http://sleep.u-dont-exist.com/).
 
-## Neurological De-Armoring Can Affect All of This
+## Neurological De-Armoring and Physical State
 
 These therapies do not happen in a physical vacuum. Sleep, substance use, medication effects, pain, nutrition, general physiological stability, fear learning, inflammation, dissociation, glutamate/GABA balance, and autonomic tone can all affect how much therapy you can tolerate and how much benefit you get from it.
 
@@ -84,7 +84,7 @@ Yoga also does not have one fixed place in trauma work. It can help with body aw
 
 # TRE and Gentle Shaking
 
-Gentle shaking or basic [TRE](https://traumaprevention.com/frequently-asked-questions/) can be used in the same low-dose way. You should finish feeling more regulated, not blasted open.
+Gentle shaking or basic [TRE](https://traumaprevention.com/frequently-asked-questions/) can also be used at a very low dose. You should finish feeling more regulated, not blasted open.
 
 **[EXISTING TRE YOUTUBE EMBED — exact object retained in HTML promotion]**
 
@@ -140,7 +140,7 @@ I used my finger to direct my gaze slowly around the field of vision to see how 
 
 In my own case, looking up-left often feels more like remembering, while up-right feels more like constructing or thinking something through. That happens to match an old Neuro-Linguistic Programming claim. The general eye-direction rule has not held up in controlled research, so I would not use it as a universal decoder. The more interesting point for me is simply that changing gaze can change what comes up and how a memory feels.
 
-I like Brainspotting because it makes it easy to do something like edging: going in and out of the uncomfortable spot and feather-touching the boundary instead of jumping straight into the deep end. In somatic language, this is close to titration and pendulation. It feels more effective to me. Graduated exposure can reduce peak distress too; my preference here is still my experience, not proof that this way is universally better.
+I like Brainspotting because it makes it easy to do something like edging: going in and out of the uncomfortable spot and feather-touching the boundary instead of jumping straight into the deep end. In somatic language, this is close to titration and pendulation. It feels more effective to me. Graduated exposure can reduce peak distress too, so I do not take my preference as a general rule.
 
 I also give Brainspotting extra points because it is democratic like EFT. You do not necessarily need an expensive expert every time you want to experiment with a simple version, although formal Brainspotting adds therapist attunement to the gaze position, focused attention, and bodily awareness.
 
@@ -182,7 +182,7 @@ So I did a quick bit of self-Brainspotting. I moved my finger and eyes slowly ar
 
 Subjectively, I could go from the more settled/*pīti* side to the distressed side from moment to moment and kind of move the bliss into the distress while I was thinking about the event. Afterward I felt like the event held less negative energy, or less blocking energy, in my mind.
 
-The useful test was not whether that moment felt interesting. If an hour later I was still stewing over how she treated me, then whatever shifted was temporary. If I could remember the event later and still be less restimulated by it, that was much more convincing. One session is not always enough, whether the modality is Brainspotting or EMDR, but I still want to know whether the effect lasts beyond the session. The same principle applies to bigger interventions: check again that night, the next morning, and over the next two or three days. Look at sleep, irritability, dissociation, pain, compulsive processing, relationships, and ordinary functioning. A calm ending can still have been too much.
+The useful test was not whether that moment felt interesting. If an hour later I was still stewing over how she treated me, then whatever shifted was temporary. If I could remember the event later and still be less restimulated by it, that was much more convincing. A single EMDR session is generally not enough either; the point is still to keep checking what survives beyond the session. The same principle applies to bigger interventions: check again that night, the next morning, and over the next two or three days. Look at sleep, irritability, dissociation, pain, compulsive processing, relationships, and ordinary functioning. A calm ending can still have been too much.
 
 I do not think the size of the research literature settles which modality is right for me either. A thin literature does not prove a method useless, and a large literature does not tell me which therapy my own nervous system needs first. Published research, common clinical use, my own experience, community reports, traditional or energetic explanations, and proposed mechanisms are all information, but they are not interchangeable. A method helping does not by itself prove the explanation for why it helped.
 
@@ -192,7 +192,7 @@ When shaking, qigong, breathwork, or somatic communities make huge claims about 
 
 # Optional High-Intensity Practices: Sky Hypnosis and Vagal Blitz
 
-[Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best) are optional high-intensity state-shift and release practices. Stable people may find them useful before doing any of the other therapies; they are not a final stage and they are definitely not prerequisites for healing.
+[Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best) are optional high-intensity state-shift and release practices. Stable people may find them useful before doing any of the other therapies; they are optional high-intensity practices, not prerequisites for healing.
 
 Sky Hypnosis can make you lightheaded. Vagal Blitz is a lying-down-only practice with cardiovascular and mental-health cautions. Use the complete guide, start with the least intense version that gives you a useful shift, and stop when balance, orientation, or recovery becomes unreliable. Do not chase fainting or loss of consciousness.
 
