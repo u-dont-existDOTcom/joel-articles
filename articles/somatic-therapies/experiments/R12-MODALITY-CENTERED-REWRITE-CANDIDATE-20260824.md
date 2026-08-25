@@ -44,7 +44,7 @@ And in my personal experience, what actually works better for me than all of the
 
 Somatic work and [inner-child therapy](http://innerchild.u-dont-exist.com/) overlap a lot. Reparenting is not something that only happens after somatic work; lighter forms can run alongside it. Sometimes the body needs to become a little easier to inhabit before you can approach the younger parts of yourself without simply getting swallowed by them.
 
-In the inner-child framework I use, the Nurturer is the part of you that can offer warmth and care, while the Protector is the adult part that can set a boundary, take action, or keep the younger part safe. If somebody is flooded and almost completely identified with the child-state, they may not be able to access either one yet. Then the first useful move may be simple orientation, outside safety, a neutral witness, borrowing some adult steadiness from another person, or one ordinary Protector action. Gentle [self-hypnosis](http://hypnosis.u-dont-exist.com/) can also help when it stays present-focused instead of going deeply into memories or child dialogue.
+In the inner-child framework I use, I call the caring adult capacity the Nurturer and the protective adult capacity the Protector. If somebody is flooded and almost completely identified with the child-state, they may not be able to access either one yet. Then the first useful move may be simple orientation, outside safety, a neutral witness, borrowing some adult steadiness from another person, or one ordinary Protector action. Gentle [self-hypnosis](http://hypnosis.u-dont-exist.com/) can also help when it stays present-focused instead of going deeply into memories or child dialogue.
 
 In my experience, EFT, Somatic Experiencing, trauma-sensitive yoga, gentle shaking or qigong, non-forced longer exhales, and gentle Buteyko-style breathing can help the body relax and soften tension around the solar plexus or abdomen so heart chakra love becomes easier to access.
 
@@ -118,7 +118,7 @@ There are at least two very different ways I am talking about shaking in this ar
 
 Why shaking helps is less certain. Rhythmic movement could reduce muscular armoring and chronic tension, increase awareness of bodily sensation, shift the system out of fight-or-flight, or let interrupted defensive impulses finish. Qigong describes what is happening in different language: removing stagnation, increasing qi circulation, dissolving stored emotional charge, and reconnecting breath, body, and movement. Those explanations are not the same kind of evidence, even when they point toward a similar experience.
 
-I would not turn shaking into a catharsis contest, use it as a standalone treatment for severe PTSD, or make it the primary trauma-processing modality when somebody is highly dissociative or unstable, or use it instead of skilled help in that situation.
+I would not turn shaking into a catharsis contest, use it as a standalone treatment for severe PTSD, make it the primary trauma-processing modality for somebody who is highly dissociative or unstable, or use it instead of skilled help in that situation.
 
 ## A Discharge → Settle Sequence
 
@@ -192,7 +192,7 @@ When shaking, qigong, breathwork, or somatic communities make huge claims about 
 
 # Optional High-Intensity Practices: Sky Hypnosis and Vagal Blitz
 
-[Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best) are optional high-intensity state-shift and release practices. Stable people may find them useful before doing any of the other therapies; they are optional high-intensity practices, not prerequisites for healing.
+[Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best) are optional high-intensity state-shift and release practices. Stable people may find them useful before doing any of the other therapies; they are not prerequisites for healing.
 
 Sky Hypnosis can make you lightheaded. Vagal Blitz is a lying-down-only practice with cardiovascular and mental-health cautions. Use the complete guide, start with the least intense version that gives you a useful shift, and stop when balance, orientation, or recovery becomes unreliable. Do not chase fainting or loss of consciousness.
 
