@@ -41,16 +41,60 @@ jobs:
           path.write_text(text.replace(old, new, 1), encoding='utf-8')
           PY
 
-      - name: Build and verify updated article + canonical helper
+      - name: Materialize updated archival HTML without invoking helper
         run: |
           mkdir -p dist/helper
-          python3 scripts/update_inner_child_guide_20260826.py \
-            --repo "$GITHUB_WORKSPACE" \
-            --input "$GITHUB_WORKSPACE/innerSignalGraph/guide-packets/source-input/inner-child-guide-r01-candidate.html" \
-            --output "$GITHUB_WORKSPACE/dist/inner-child-guide-updated-20260826.html" \
-            --helper-dir "$GITHUB_WORKSPACE/dist/helper"
-          cp "$GITHUB_WORKSPACE/dist/helper/inner-child-guide-substack-transfer-helper.html" \
-             "$GITHUB_WORKSPACE/dist/inner-child-guide-clipboard-helper-20260826.html"
+          python3 - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          script = Path('scripts/update_inner_child_guide_20260826.py')
+          spec = importlib.util.spec_from_file_location('inner_child_update', script)
+          mod = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(mod)
+          source = Path('innerSignalGraph/guide-packets/source-input/inner-child-guide-r01-candidate.html')
+          raw = source.read_text(encoding='utf-8')
+          updated, operations = mod.apply_edits(raw)
+          Path('dist/inner-child-guide-updated-20260826.html').write_text(updated, encoding='utf-8')
+          print(f'Applied {len(operations)} operations')
+          PY
+
+      - name: Initialize canonical helper plan and print object classification
+        run: |
+          python3 project-sources/substack_transfer_helper.py.txt selftest
+          python3 project-sources/substack_transfer_helper.py.txt init \
+            dist/inner-child-guide-updated-20260826.html \
+            --plan dist/helper/inner-child-guide-transfer-plan.json \
+            --inventory dist/helper/inner-child-guide-native-object-inventory.json \
+            --compat-profile project-sources/CONFIRMED-SUBSTACK-HELPER.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          plan = json.loads(Path('dist/helper/inner-child-guide-transfer-plan.json').read_text())
+          print('=== OBJECT PLAN ===')
+          for obj in plan.get('objects', []):
+              print(json.dumps({k: obj.get(k) for k in ('id','type','strategy','media_id','preceding_anchor','following_anchor')}, ensure_ascii=False))
+          bad=[o for o in plan.get('objects',[]) if o.get('strategy')=='unverified']
+          if bad:
+              raise SystemExit('UNVERIFIED_OBJECTS=' + json.dumps(bad, ensure_ascii=False))
+          PY
+
+      - name: Build and verify canonical helper
+        run: |
+          python3 project-sources/substack_transfer_helper.py.txt build \
+            dist/inner-child-guide-updated-20260826.html \
+            --plan dist/helper/inner-child-guide-transfer-plan.json \
+            --compat-profile project-sources/CONFIRMED-SUBSTACK-HELPER.json \
+            --out dist/helper/inner-child-guide-substack-transfer-helper.html \
+            --report dist/helper/inner-child-guide-substack-transfer-report.md \
+            --compat-report dist/helper/inner-child-guide-substack-compatibility-report.md
+          python3 project-sources/substack_transfer_helper.py.txt verify \
+            dist/inner-child-guide-updated-20260826.html \
+            --plan dist/helper/inner-child-guide-transfer-plan.json \
+            --compat-profile project-sources/CONFIRMED-SUBSTACK-HELPER.json \
+            --helper dist/helper/inner-child-guide-substack-transfer-helper.html \
+            --compat-report dist/helper/inner-child-guide-substack-compatibility-report.md
+          cp dist/helper/inner-child-guide-substack-transfer-helper.html \
+             dist/inner-child-guide-clipboard-helper-20260826.html
 
       - name: Upload clipboard helper artifact
         uses: actions/upload-artifact@v4
