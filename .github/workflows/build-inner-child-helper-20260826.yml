@@ -28,6 +28,19 @@ jobs:
       - name: Add conservative native-audio handling to canonical helper in worktree
         run: python3 scripts/enable_conservative_native_audio_transfer_20260826.py --repo "$GITHUB_WORKSPACE"
 
+      - name: Recognize Substack YouTube nocookie iframe as YouTube
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path('project-sources/html_islands.py.txt')
+          text = path.read_text(encoding='utf-8')
+          old = 'if "youtube.com" in low or "youtu.be" in low or "node-youtube" in low or "component-name=\\"youtube" in low:'
+          new = 'if "youtube.com" in low or "youtube-nocookie.com" in low or "youtu.be" in low or "node-youtube" in low or "component-name=\\"youtube" in low:'
+          if text.count(old) != 1:
+              raise SystemExit(f'YouTube classifier patch expected once, found {text.count(old)}')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+
       - name: Align exact Protector paragraph anchor with Aug 11 source
         run: |
           python3 - <<'PY'
