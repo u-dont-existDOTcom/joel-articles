@@ -1,0 +1,51 @@
+name: Build Inner Child clipboard helper 20260826
+
+on:
+  push:
+    branches:
+      - agent/inner-child-guide-20260826
+    paths:
+      - '.github/workflows/build-inner-child-helper-20260826.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-helper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout joel-articles
+        uses: actions/checkout@v4
+
+      - name: Checkout Inner Signal source guide
+        uses: actions/checkout@v4
+        with:
+          repository: u-dont-existDOTcom/innerSignalGraph
+          path: innerSignalGraph
+
+      - name: Add conservative native-audio handling to canonical helper in worktree
+        run: python3 scripts/enable_conservative_native_audio_transfer_20260826.py --repo "$GITHUB_WORKSPACE"
+
+      - name: Build and verify updated article + canonical helper
+        run: |
+          mkdir -p dist/helper
+          python3 scripts/update_inner_child_guide_20260826.py \
+            --repo "$GITHUB_WORKSPACE" \
+            --input "$GITHUB_WORKSPACE/innerSignalGraph/guide-packets/source-input/inner-child-guide-r01-candidate.html" \
+            --output "$GITHUB_WORKSPACE/dist/inner-child-guide-updated-20260826.html" \
+            --helper-dir "$GITHUB_WORKSPACE/dist/helper"
+          cp "$GITHUB_WORKSPACE/dist/helper/inner-child-guide-substack-transfer-helper.html" \
+             "$GITHUB_WORKSPACE/dist/inner-child-guide-clipboard-helper-20260826.html"
+
+      - name: Upload clipboard helper artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: inner-child-guide-clipboard-helper-20260826
+          path: |
+            dist/inner-child-guide-clipboard-helper-20260826.html
+            dist/inner-child-guide-updated-20260826.html
+            dist/helper/inner-child-guide-substack-transfer-report.md
+            dist/helper/inner-child-guide-substack-compatibility-report.md
+            dist/helper/inner-child-guide-transfer-plan.json
+          if-no-files-found: error
