@@ -61,6 +61,7 @@ Keep the inquiry/correction process only when **the process itself performs a re
 ## Code review rules
 
 - Never silently soften, balance, or change the owner's argument. Disagreement must be raised directly rather than hidden in an edit.
+- Treat `That’s where X matters to me` / `That's where X matters to me` and close syntactic variants as a banned AI-shaped significance-staging construction in Joel-byline prose. Do not announce significance with that template; state the concrete reason, consequence, preference, or judgment directly. Quotation or literal discussion of the phrase is exempt.
 - Preserve every unique claim, step, joke, protected rhetorical function, and owner-final passage unless a proposed cut has explicit owner approval or genuine semantic equivalence.
 - Treat deletions and consolidations as explicit proposals. Record the original text and destination or owner approval so the change is reversible; do not silently discard apparently redundant material.
 - For substantial rewrites, every protected source unit must have a candidate mapping or an already-authorized non-preservation disposition, and every substantive candidate delta must map back to the change whitelist or owner authority. `Inferable`, `redundant`, `smoother`, and `better for Pangram` are never sufficient deletion authority.
