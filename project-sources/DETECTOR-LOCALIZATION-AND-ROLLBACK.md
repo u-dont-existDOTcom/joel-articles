@@ -29,7 +29,24 @@ When a previously better or green boundary regresses:
 
 Do not start by paraphrasing the highlighted sentence.
 
-## 3. Rollback is a first-class repair operation
+## 3. Prior Human status is evidence, not immunity
+
+A previously Human-scoring span deserves protection from reflexive detector-driven rewriting, but **prior green status does not prove the prose is editorially strong in every later architecture**.
+
+A stronger reorganization can expose a latent model-shaped passage that the old placement or surrounding boundary masked. When a formerly green span turns red after an independently justified structural improvement, test two competing hypotheses:
+
+1. **boundary/composition sensitivity** — the prose is sound and the detector changed because the surrounding input changed;
+2. **latent prose weakness exposed by better architecture** — the old context hid a genuinely generic, overcompleted, overly polished, or model-shaped passage that becomes obvious in the new rhetorical position.
+
+Do not choose between them from detector color alone. Compare exact identities and prior boundary evidence, then cold-read the exposed span in its new article function. Give decisive weight to independent editorial quality, owner judgment, provenance, heading fit, paragraph jobs, live-question continuity, and minimum-change controls.
+
+If the new architecture is clearly better **and** the exposed passage now reads genuinely model-shaped, keep the stronger architecture and repair the local defect. Do not roll back a good structural improvement merely to recover an old detector score.
+
+Romance supplied a direct case on 2026-08-26: merging two adjacent sections created a stronger single progression but exposed a previously Human-scoring tail as High-confidence AI. The initial diagnosis incorrectly blamed contextual detector sensitivity. Joel correctly identified that the old arrangement had hidden weak AI prose more effectively. Keeping the merge and minimally rewriting only the exposed tail restored the pass while preserving the stronger article structure.
+
+This rule refines, rather than contradicts, the known-green guard: known-green prose should not be reopened **solely because it turns red**, but it may be revised when the architecture change independently improves the article and a separate editorial diagnosis confirms a real defect.
+
+## 4. Rollback is a first-class repair operation
 
 The next candidate need not contain new prose. Prefer rollback when a later assistant cleanup replaced owner/registered wording or an already measured passing realization without adding necessary thought.
 
@@ -42,7 +59,7 @@ Restore the smallest higher-authority / known-passing realization first when it:
 
 After rollback, test the appropriate wider boundary. A locally passing rollback can still interact differently in aggregate; that is evidence about context, not evidence that rollback was editorially wrong.
 
-## 4. Natural section first; adjacent transition when needed
+## 5. Natural section first; adjacent transition when needed
 
 Old detector windows and arbitrary half-document splits are localization clues, not semantic units.
 
@@ -55,7 +72,7 @@ Default diagnostic order:
 
 Charge paid repair calls to the genuine section being changed. Do not invent a new section identity merely because the diagnostic boundary includes neighboring context.
 
-## 5. Inspect the ending of the first section and opening of the second
+## 6. Inspect the ending of the first section and opening of the second
 
 A common cross-section AI shape is:
 
@@ -67,7 +84,7 @@ Each section may look acceptable alone, but together they produce a long explana
 
 Before rewriting section B, ask whether section A simply needs to stop earlier. Likewise, a heading may already perform the categorization that the first paragraph repeats.
 
-## 6. Delete duplicate miniature arguments before humanizing them
+## 7. Delete duplicate miniature arguments before humanizing them
 
 If a stubborn paragraph restates a point already established elsewhere in the article, do not keep rewriting the duplicate container.
 
@@ -77,7 +94,7 @@ In Romance Part 1, a repeated `spiritual depth/meditation does not tell me how s
 
 The lesson is functional de-duplication, not `deletion is Human`.
 
-## 7. Let the next lived example perform the conclusion
+## 8. Let the next lived example perform the conclusion
 
 Before keeping a summary sentence, inspect what comes immediately after it.
 
@@ -85,7 +102,7 @@ If the next anecdote or lived consequence already demonstrates the complication,
 
 In Romance Part 1, the abstract `the first night isn't necessarily the final ceiling` line was followed immediately by the Bee story showing exactly how sexual fit changed over time. The story was the conclusion; the abstract sentence was model aftercare.
 
-## 8. Local Human results do not compose automatically
+## 9. Local Human results do not compose automatically
 
 A complete natural section can measure 100% Human and still participate in a red article/half boundary because of adjacent context. Conversely, an aggregate can improve while one short local window remains noisy.
 
@@ -98,7 +115,7 @@ Keep these evidence levels separate:
 
 Section scores are not mathematically composable into an article score. After accepted local repairs, always certify the exact intended aggregate boundary when the task requires it.
 
-## 9. Do not hill-climb partial aggregate percentages
+## 10. Do not hill-climb partial aggregate percentages
 
 Detector optimization is nonlinear. A locally correct editorial change can make the next aggregate percentage temporarily worse while moving the architecture toward a later complete pass.
 
@@ -114,7 +131,7 @@ Choose edits by:
 
 Use the aggregate score to localize remaining work, not as a gradient that overrides the first four.
 
-## 10. Recovery and paid-call safety
+## 11. Recovery and paid-call safety
 
 Result-file visibility is not paid-call authority. Before any recovery POST:
 
@@ -136,6 +153,7 @@ When a detector residual appears, answer before drafting:
 5. Does the prior section end with unnecessary synthesis/aftercare?
 6. Does the next lived example already perform the conclusion?
 7. Is the real unit a cross-section transition rather than either short window alone?
-8. Am I choosing this edit because it is better prose, or merely because the last aggregate percentage was higher?
+8. Did a stronger architecture expose prose that was previously masked rather than genuinely sound?
+9. Am I choosing this edit because it is better prose, or merely because the last aggregate percentage was higher?
 
 If these questions expose a larger causal/architectural issue, repair that before changing local vocabulary.
