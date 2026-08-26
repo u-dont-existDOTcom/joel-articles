@@ -22,10 +22,24 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: u-dont-existDOTcom/innerSignalGraph
+          ref: 658d42b5de1e2c512f11a3890561445d82e4140b
           path: innerSignalGraph
 
       - name: Add conservative native-audio handling to canonical helper in worktree
         run: python3 scripts/enable_conservative_native_audio_transfer_20260826.py --repo "$GITHUB_WORKSPACE"
+
+      - name: Align exact Protector paragraph anchor with Aug 11 source
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path('scripts/update_inner_child_guide_20260826.py')
+          text = path.read_text(encoding='utf-8')
+          old = 'protector_anchor = p("These acts accumulate into trust because internal soothing without external competence can sound like the same unreliability that wounded the child.")'
+          new = 'protector_anchor = p("Set one boundary. Say no to something costly. Handle an avoided task or financial mess. Leave a relationship that keeps eroding safety. Keep one small promise. Clean your room. These acts accumulate into trust because internal soothing without external competence can sound like the same unreliability that wounded the child.")'
+          if text.count(old) != 1:
+              raise SystemExit(f'Protector anchor patch expected once, found {text.count(old)}')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
 
       - name: Build and verify updated article + canonical helper
         run: |
