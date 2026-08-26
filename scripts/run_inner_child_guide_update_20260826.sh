@@ -8,11 +8,11 @@ cd "$ROOT"
 # local raw/editor HTML whose content unambiguously identifies the separate
 # Inner Child Self-Love Reparenting Guide. This deliberately rejects the
 # Inner Signal/self-hypnosis guide, which shares some inner-child language.
+SOURCE=""
 if [[ $# -gt 0 ]]; then
   SOURCE="$1"
 else
-  SOURCE="$({
-    python3 - <<'PY'
+  SOURCE="$(python3 - <<'PY' || true
 from pathlib import Path
 
 roots = [Path.home() / "Téléchargements", Path.home() / "Downloads"]
@@ -43,35 +43,32 @@ for root in roots:
             text = path.read_text(encoding="utf-8", errors="ignore")
         except OSError:
             continue
-        # Some chat-exported copies escape angle brackets.
         normalized = text.replace("\\<", "<").replace("\\>", ">")
         if wrong_article in normalized:
             continue
         if all(marker in normalized for marker in required):
             candidates.append((path.stat().st_mtime, path))
 
-if not candidates:
-    raise SystemExit(
-        "NO_INNER_CHILD_SOURCE: no local file in ~/Téléchargements or ~/Downloads "
-        "matched all four Inner Child guide identity anchors."
-    )
-
-candidates.sort(key=lambda item: (item[0], str(item[1])), reverse=True)
-print(candidates[0][1])
+if candidates:
+    candidates.sort(key=lambda item: (item[0], str(item[1])), reverse=True)
+    print(candidates[0][1])
 PY
-  } 2>&1)" || {
-    printf '%s\n' "$SOURCE" >&2
-    printf '%s\n' "Pass the raw Inner Child guide file explicitly, e.g.:" >&2
-    printf '%s\n' "  bash scripts/run_inner_child_guide_update_20260826.sh ~/Téléchargements/<file>.html" >&2
-    exit 1
-  }
+)"
 fi
 
-SOURCE="$(realpath "$SOURCE")"
-printf 'Using Inner Child source: %s\n' "$SOURCE"
-
 python3 scripts/enable_conservative_native_audio_transfer_20260826.py --repo "$ROOT"
-python3 scripts/update_inner_child_guide_20260826.py \
+
+if [[ -n "$SOURCE" ]]; then
+  SOURCE="$(realpath "$SOURCE")"
+  printf 'Using Inner Child source: %s\n' "$SOURCE"
+  exec python3 scripts/update_inner_child_guide_20260826.py \
+    --repo "$ROOT" \
+    --input "$SOURCE" \
+    --open
+fi
+
+printf '%s\n' 'No matching local Inner Child source found; trying the desktop clipboard as a validated fallback.' >&2
+exec python3 scripts/update_inner_child_guide_20260826.py \
   --repo "$ROOT" \
-  --input "$SOURCE" \
+  --clipboard \
   --open
