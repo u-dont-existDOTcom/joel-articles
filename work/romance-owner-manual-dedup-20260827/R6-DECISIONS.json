@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-r6-owner-reviewed-prose-20260827",
+  "authority_status": "working_prose_only_not_article_authority",
+  "source_manual_sha256": "9819e1e39fd0732305026332361678bb27a1d3181ef2f02ea4c7ece1befbf466",
+  "reviewed_r5_sha256": "71bd17886d62e509800a7856105d10359c52c5e68a687551d3556fecd4997eda",
+  "owner_review_v4_sha256": "866ed07860d92299126503171f67cffd612d286d7afdf079af488b27e8408658",
+  "r6_prose_sha256": "00406e72b3a86977024edc8fc5a3544d2d198ee9393945c0cf6564f07110a67d",
+  "approved_r5_changes": ["M1", "E6", "E13", "E16", "E19", "E21", "E22"],
+  "approved_optional_proposals": ["P3"],
+  "rejected_r5_changes": ["E18"],
+  "rejected_optional_proposals": ["P1", "P2", "P4", "P5", "P6"],
+  "pending_not_applied": ["E1", "E2", "E3", "E4", "E5", "E7", "E8", "E9", "E10", "E11", "E12", "E14", "E15", "E17", "E20"],
+  "protected_owner_correction": {
+    "id": "E18-community-building",
+    "instruction": "Restore the manual outside-help wording. Preserve the idea that relying on friends for intimate real-life relationship support is itself part of building community."
+  },
+  "approved_p3_replacement": "Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck. But ask for help with the conflict, not approval for your own interpretation. Both people should have a chance to speak, and good friends shouldn’t automatically validate either side.",
+  "promotion_blocker": "Raw Substack/native-object reconciliation is required before this prose candidate may replace the registered Romance master."
+}
