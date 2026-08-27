@@ -1,4 +1,4 @@
-# Love, Honestly v0.3.2 Game Architecture
+# Love, Honestly v0.4.0 Game Architecture
 
 This is the canonical operational map for the standalone game. Update it whenever a consequential phase, safety exit, serialized record, category default, source boundary, or setup-to-revisit dependency changes.
 
@@ -139,10 +139,38 @@ flowchart TD
     ANAMI["Kim Anami"] -->|"simmer, receiving, sexual self-responsibility"| META
     BUDDHIST["Buddhist and lived spiritual-practice material"] --> META
     RESEARCH["Relationship research"] --> META
+    SOME["Sobonfu Somé"] -->|"spirit of the relationship"| META
     META --> ABOUT["Compact About the sources disclosure"]
     META -. "not citations on each play card" .-> GAME
     ABOUT --> NOTE["Sources are not co-authors"]
 ```
+
+## 2026-08-27 guide reconciliation
+
+```mermaid
+flowchart TD
+    GUIDE["Updated Romance Guide · SHA e51bae…"] --> AUDIT["Whole-source function audit"]
+    AUDIT --> EXISTING["Already covered · no new card"]
+    AUDIT --> EXTEND["Extend existing card"]
+    AUDIT --> ADD["Add only genuinely new function"]
+    AUDIT --> OMIT["Keep article-only / incomplete material out of deck"]
+
+    EXTEND --> S1["sex-01 · compatibility conversation itself is evidence"]
+    EXTEND --> S2["sex-barometer · warmth / play / flirting around sexual change"]
+    EXTEND --> O5["ordinary-05 · non-partner sources of beauty and inspiration"]
+    EXTEND --> C6["clarity-06 · bundling as imperfect Missing Middle example"]
+    EXTEND --> P1["polarity-01 · income / competence becoming decision rank"]
+    EXTEND --> A3["altered-03 · first-time sexual consent decisions before getting high"]
+
+    ADD --> SB["spiritual-bypass-intimacy"]
+    ADD --> SR["spiritual-relationship-spirit"]
+
+    OMIT --> HF["Incomplete Helen Fisher bullet"]
+    OMIT --> CO["Cervical-orgasm evidence paragraph"]
+    OMIT --> MEM["Memoir contextualization without distinct game function"]
+```
+
+The v0.4.0 disposition ledger is `CARD-FUNCTION-MATRIX-v0.4.0.md`. It supersedes the v0.3.0 matrix only for the 2026-08-27 guide delta; the earlier matrix remains historical evidence of why those prior cards exist.
 
 ## Backward recovery
 
@@ -155,6 +183,7 @@ flowchart TD
 
 - The exact first-screen link remains `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
 - Joel’s guide remains the product authority; additional credits do not imply joint authorship.
+- The 2026-08-27 guide boundary is identified by SHA-256 `e51bae5277c2e0f86b75ff11a304a7d99a56e39d36203eeff7d6f9cc5c8391c7`; incomplete source fragments are not silently completed into game doctrine.
 - The actual open-ended answer is a first-class phase and is spoken aloud; evidence labels are secondary metadata.
 - The card-function matrix governs extend/add/omit decisions and blocks paragraph-by-paragraph deck inflation.
 - Existing card IDs and storage schema v2 remain stable.
