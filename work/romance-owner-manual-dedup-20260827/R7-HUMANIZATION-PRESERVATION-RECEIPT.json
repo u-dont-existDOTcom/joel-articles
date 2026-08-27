@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-r7-humanized-assistant-added-prose-20260827",
+  "authority_status": "working_prose_only_not_article_authority",
+  "authoritative_working_input": {
+    "path": "local romance-r6-owner-reviewed-prose.md",
+    "sha256": "00406e72b3a86977024edc8fc5a3544d2d198ee9393945c0cf6564f07110a67d"
+  },
+  "owner_manual_source": {
+    "path": "local Pasted markdown(5).md",
+    "sha256": "9819e1e39fd0732305026332361678bb27a1d3181ef2f02ea4c7ece1befbf466"
+  },
+  "r7_sha256": "da32d34919b1f320ae79f1e89ba050590aaa5c14f0f15488beed3b5e0a5bf817",
+  "changed_scope": "eight assistant-authored/assistant-realized spans only",
+  "edit_dose": "bounded D2-style realization repair distributed across eight approved operations",
+  "change_whitelist": [
+    "change wording realization of assistant-added prose",
+    "restore owner wording where compatible with the approved R6 operation",
+    "preserve all approved moves/consolidations/deletions",
+    "preserve claims, certainty, attribution, actors, chronology, links, and section function"
+  ],
+  "forbidden_side_effects": [
+    "no new article-wide structural operations",
+    "no application of pending heading-only proposals",
+    "no revival of rejected P1/P2/P4/P5/P6",
+    "no loss of E18 community-building correction",
+    "no native-object or publication-authority claim"
+  ],
+  "span_results": [
+    {"id":"M1","heading":"### Labels Are Descriptive, Not Prescriptive","status":"PASS","semantic_delta":"none beyond already-approved R6 operation","owner_source_basis":"restored Joel's original moved casual-sex/community sentence at the approved destination"},
+    {"id":"E6","heading":"## Things get tricky fast","status":"PASS","semantic_delta":"none beyond already-approved R6 operation","owner_source_basis":"restored Joel's own setup/callback wording and removed the assistant-created opening sentence"},
+    {"id":"E13","heading":"### Babies growing up again","status":"PASS","semantic_delta":"none beyond already-approved R6 operation","owner_source_basis":"reused the earlier owner readiness formulation and only added the minimum callback needed in this location"},
+    {"id":"E16","heading":"## Imagination as a discernment tool","status":"PASS","semantic_delta":"none beyond already-approved R6 operation","owner_source_basis":"kept Joel's owner-corrected first two sentences and restored the remainder of his original thought movement"},
+    {"id":"E19","heading":"## What will honesty produce?","status":"PASS","semantic_delta":"none beyond already-approved R6 operation","owner_source_basis":"restored Joel's original sentence realization inside the approved one-paragraph compression"},
+    {"id":"P3","heading":"### Gaslighting in the dark","status":"PASS","semantic_delta":"none beyond already-approved R6 operation","owner_source_basis":"rebuilt the approved shortening almost entirely from Joel's original paragraph"},
+    {"id":"E21","heading":"# Tough Love","status":"PASS","semantic_delta":"none beyond already-approved R6 operation","owner_source_basis":"removed assistant significance-staging/contrast language and restored owner phrasing where compatible with the approved recap deletion"},
+    {"id":"E22","heading":"# Tough Love","status":"PASS","semantic_delta":"none beyond already-approved R6 operation","owner_source_basis":"restored Joel's original myth paragraph; only the separately approved recap deletion remains"}
+  ],
+  "forward_traceability": "PASS",
+  "reverse_traceability": "PASS",
+  "unexplained_substantive_deltas": 0,
+  "architecture_dependency_gate": "PASS on eight changed natural boundaries",
+  "ai_shape_cold_audit": "PASS; no remaining assistant significance-staging, matched-clause reversal, generic recap, or unnecessary balanced contrast identified in the changed spans",
+  "detector_eligibility": "EDITORIALLY_ELIGIBLE_BUT_PANGRAM_NOT_AVAILABLE_IN_THIS_RUNTIME",
+  "pangram": "not run",
+  "largest_remaining_weakness": "R7 remains prose-only and the article still has unresolved pending heading/native-object reconciliation outside this humanization scope."
+}
