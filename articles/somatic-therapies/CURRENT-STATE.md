@@ -1,175 +1,186 @@
 # Somatic Therapies — Current State
 
-Updated: 2026-08-24
+Updated: 2026-08-27
 
 ## Goal
 
-Humanize the owner-supplied Somatic Therapies Substack article while preserving its arguments, recommendations, links, native media, personal material, safety warnings, evidence distinctions, and research/practical-guide genre. Pangram is secondary evidence only. Humanization must not turn the article into memoir merely because personal passages are detector-favorable, and direct owner/interview language must still be realized as coherent public-facing prose.
+Humanize the owner-supplied Somatic Therapies article while preserving arguments, recommendations, links, native media, personal material, safety functions, evidence distinctions, inner-child reparenting relationships, and research/practical-guide function. Pangram is secondary localization evidence only and never authorizes semantic loss.
 
-## Authority / Baseline
+## Authority / baseline
 
 - Article id: `somatic-therapies`
 - Status: `working`
-- Registered working master: `articles/somatic-therapies/master.html`
-- Registered revision: `r01-candidate`
-- Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`
+- Registered working master remains `articles/somatic-therapies/master.html`.
+- Registered revision remains `r01-candidate`.
+- Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered whole-article invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- **The canonical master remains unchanged.** r02–r12 are non-authoritative editorial/detector artifacts unless explicitly promoted later.
-- Current branch: `agent/somatic-humanization-r02-preservation-20260824`.
+- **The canonical master has not been promoted.** r02–r15 and the Aug. 27 local section candidates are non-authoritative editorial/detector artifacts until owner acceptance and the HTML/native-object promotion gate.
+- Active branch: `agent/somatic-humanization-r02-preservation-20260824`.
 
-Current direct owner authority supersedes the earlier five-Job architecture. On 2026-08-24 Joel stated that he does not like the `Job` framing and **never wrote the article that way**. The therapies are modalities/practices, not five Jobs or stages. Do not restore the five-Job taxonomy or a renamed five-box equivalent.
+## Direct owner authority
 
-The branch `OWNER-LOCKS.json` and `ARCHITECTURE.md` now encode that correction durably.
+Current owner corrections supersede the earlier assistant-generated architecture:
 
-## Durable workflow rules
+- therapies are modalities/practices, **not five Jobs or stages**; do not restore the five-Job map or a renamed five-box equivalent;
+- conditional sequencing by current need, target, stability, and tolerance remains useful without becoming a mandatory protocol;
+- inner-child reparenting is a major recurring conceptual thread, not a one-section aside;
+- preserve Nurturer/Protector, borrowed adulthood, somatic preparation, heart ↔ solar-plexus love loop, Brainspotting/reparenting relationship, EMDR readiness relationship, and the later return from narrative integration into reparenting;
+- use `blissful tingles`, not `pīti`;
+- preserve unusual/personal material rather than replacing it with generic clinical prose;
+- do not add fake anecdotes or synthetic specificity.
 
-Two reader-facing rules on `main` remain blocking for this article and future Joel article work:
+`OWNER-LOCKS.json` and `ARCHITECTURE.md` encode the no-Jobs correction.
 
-1. `AGENTS.md` reader-facing realization/research-process gate: interviews/chat are source pools, not publication transcripts; first sentences/antecedents/heading openings must make sense without private conversation; backstage `I thought / I checked / I wasn't sure` narration normally collapses to the current conclusion unless the epistemic process itself serves the reader.
-2. `docs/HUMANIZATION-COLD-AUDIT-GATE.md`: substantial humanization must explicitly check reader-facing realization, heading openings/antecedents, research-process compression, anecdote inflation, inherited model scaffold, and actual stopping point.
+## Current whole-article candidate: r15
 
-## Completed
+`experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md`
 
-### r10 — whole-article scaffold reduction
+Source commit used by the exact GUI measurement: `debe32a6fa4f2be1be0435538184a2b7c98af003`.
 
-`experiments/R10-WHOLE-ARTICLE-SCAFFOLD-REDUCTION-CANDIDATE-20260824.md`
+r15:
 
-- SHA-256 `26429c6ecfe19c40807a2c4320bee4e19093375dbde36daef19bc9ff6db40d92`;
-- preservation/reverse traceability PASS;
+- removes the inherited five-Job architecture rather than renaming it;
+- restores the fuller reparenting thread;
+- retains 16 ordinary links and all native/editor-object promotion invariants;
+- uses `blissful tingles`;
+- preserves known Human/personal anchors while rewriting model-shaped surrounding scaffold.
+
+### Exact r15 GUI result
+
+The local headed Playwright/Brave route measured the correct reader-visible r15 plaintext:
+
+- reader-visible SHA-256 `d5101f998fcd6b04b022b50dab49a616d538de8c69c15f286bc1cdc009ecae7e`;
+- 3,548 whitespace words;
+- Pangram 4.0 / `STAGE_SUCCESS`;
+- AI `0.8451970816`;
+- Human `0.1548029035`;
+- AI-assisted `0.0`;
+- exact stored-History binding.
+
+Durable GUI evidence lives in `u-dont-existDOTcom/pangram-humanization-lab@agent/pangram-local-playwright-gpt-20260818`, including `state/PANGRAM-LOCAL-SOMATIC-R15-GUI-RECOVERY-2026-08-25.md` and the content-addressed result directory for SHA `d5101f...`.
+
+## Current production strategy — natural section at a time
+
+Owner correction on 2026-08-27: do **not** waste API calls on another whole-document scan. The GUI result already establishes broad residual AI shape. Use the self-hosted Pangram API only for short natural sections where the result changes the next editorial decision.
+
+Production loop:
+
+1. cold-read the natural section first;
+2. if a real model-shaped defect is already visible, repair it before paying for a baseline;
+3. freeze preservation units and authorized-change whitelist;
+4. require forward/reverse traceability with zero unexplained substantive deltas;
+5. run production preflight and the paid-call surprise gate;
+6. measure that exact natural section once;
+7. freeze Human material and stop model-only loops when the next improvement requires genuinely fresh owner language;
+8. run one final whole-article GUI check only after local section work is settled.
+
+No whole-document API call has been made in this section-by-section lane.
+
+## Aug. 27 section evidence and candidates
+
+Audit id: `somatic-r15-section-localization-20260827`.
+
+### Introduction — unresolved pending fresh owner language
+
+Exact r15 natural Introduction measurement:
+
+- Pangram 4.0 / `STAGE_SUCCESS`;
+- AI `1.0`, Human `0.0`, AI-assisted `0.0`;
+- High confidence;
+- complete Introduction treated as one AI window;
+- exact text SHA-256 `5ce0a921f730b7379bad00d45901488ec94ddc987cfff44f192ad6b187422686`;
+- 1 paid API call in the Aug. 27 section audit.
+
+Durable result: `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch/state/experiments/somatic-r15-section-introduction-api-20260827-a-results.json`.
+
+Do **not** respond with another cosmetic model-only Intro paraphrase. Historical Somatic intro work had already exhausted six model-generated attempts at AI `1.0`, and the exact pre-humanization owner-source Intro is not duplicated in the GitHub article family/File Library with a hash-bound identity. The r15 Introduction remains a precise owner-language/fresh-source TODO.
+
+### `Your Physical State Can Change What Therapy Does` — Human core frozen; 57-word lead unresolved
+
+Baseline r15 natural section:
+
+- AI `1.0`, Human `0.0`, High confidence;
+- 1 paid physical-state section call.
+
+A minimum-dose candidate changed only the first paragraph and preserved the personal/neuroinflammation and neurological-de-armoring paragraphs exactly:
+
+- candidate: `experiments/R15-PHYSICAL-STATE-R01-REPAIR-CANDIDATE-20260827.md`;
+- preservation/preflight: `experiments/R15-PHYSICAL-STATE-R01-PRESERVATION-AND-PREFLIGHT-20260827.md`;
+- reader-visible SHA-256 `f66d35dd03254bfbb38030be63818fae9e7f8a4fe1fc1a9d903d69af5565123a`;
+- preservation PASS; unexplained substantive deltas 0.
+
+Retest result:
+
+- whole natural section: AI `0.369140625`, Human `0.630859375`, AI-assisted `0.0`;
+- first 57 words: **AI-Generated / High confidence**;
+- remaining 109 words, beginning `I have seen friends get very little...` and including the neurological-de-armoring/link paragraph: **Human Written / High confidence**;
+- 2 paid physical-state section calls total, estimated `$0.10`.
+
+Durable result: `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch/state/experiments/somatic-r15-section-physical-state-r01-api-20260827-a-results.json`.
+
+**Freeze the 109-word Human core.** Do not keep paraphrasing the 57-word lead with model-generated variants. It is now a narrow fresh-owner-language TODO.
+
+### `Where I Would Start` — repaired and queued, result pending
+
+The r15 prose had independently visible production defects: it opened by rebutting the discarded ladder architecture and ended with a neat intensity mini-taxonomy. Paying for that knowingly model-shaped baseline would violate production preflight.
+
+Prepared candidate:
+
+- `experiments/R15-WHERE-I-WOULD-START-R01-REPAIR-CANDIDATE-20260827.md`;
+- preservation/preflight: `experiments/R15-WHERE-I-WOULD-START-R01-PRESERVATION-AND-PREFLIGHT-20260827.md`;
+- reader-visible SHA-256 `7d7b6143be3acbacbf3adec8d9b93283ee86d74aea813b0180cd47d480f84fa7`;
+- preservation PASS; unexplained substantive deltas 0;
+- detector eligibility PASS.
+
+The immutable private-executor request `somatic-r15-section-where-start-r01-api-20260827-a` is queued. **Do not create a replacement request or duplicate call while it is queued.** Act on its exact durable result when available.
+
+### `Somatic Work and Inner-Child Reparenting` — repaired/preflighted, not submitted
+
+Prepared candidate:
+
+- `experiments/R15-REPARENTING-R01-REPAIR-CANDIDATE-20260827.md`;
+- preservation/preflight: `experiments/R15-REPARENTING-R01-PRESERVATION-AND-PREFLIGHT-20260827.md`;
+- reader-visible SHA-256 `d122fa37988dd5ba0edce07b9b9cff46aca40dfe884665edf812880d4596ed49`;
+- 30/30 preservation units retained;
 - unexplained substantive deltas 0;
-- links 16/16;
-- Pangram not run.
+- detector eligibility PASS.
 
-r10 removed substantial repeated guide/card scaffold. Joel then identified reader-facing failures around de-armoring placement, private-chat rationale, and the undefined `restimulation` reference.
+This candidate starts from the actual reparenting problem—being so flooded that adult perspective is unavailable—rather than an abstract `regulation is not an end in itself` thesis. It retains the complete owner-required reparenting framework and ends on the heart ↔ solar-plexus love loop rather than generic safety aftercare.
 
-### r11 — reader-facing correction
+**Do not submit this section until the queued `Where I Would Start` request resolves.**
 
-`experiments/R11-WHOLE-ARTICLE-READER-FACING-CORRECTION-CANDIDATE-20260824.md`
+## Known Human anchors to protect
 
-- SHA-256 `ee5d62aa7c8f6aab5adcc8314a61c768bc669768861df0dabbeb3510bada7d06`;
-- receipt `experiments/R11-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md`;
-- preservation/reverse traceability PASS;
-- unexplained substantive deltas 0;
-- links 16/16;
-- Pangram not run.
+The user-supplied Pangram report and subsequent exact section work identify strong preservation/calibration anchors:
 
-r11 moved neurological de-armoring into the Introduction, made the placement explanation reader-facing, introduced `restimulation` before use, compressed research-diary narration, and distinguished Joel's own upper-left/remembering and upper-right/constructing-thinking gaze experience from the unsupported claim that the classic NLP eye-direction mapping is a reliable universal decoder.
+1. physical neuroinflammation / LDN / phosphatidylserine / DMSO / gut-toxin / ozonated-zeolite / ozonated-charcoal / EMF-or-auric material;
+2. neurological-de-armoring paragraph and links, now independently Human / High confidence in the repaired physical-state natural boundary;
+3. Professor Baby Sheep / play / head-shaving + loveyhuasca;
+4. EFT tapping-points / massage / head-massage material;
+5. Louka / TRE nonresponse / Shaking Qigong / blockage / natural shaking / expertise joke / qigong-experience material;
+6. housemate / moldy-clothes / discolored-dress / self-Brainspotting experiment, with owner-authorized `blissful tingles` terminology.
 
-### Independent final-reader audit of r11
+Known-Human status is evidence, not immunity from a real editorial defect, but do not reopen these spans merely because an adjacent short boundary is red.
 
-Durable audit:
-`experiments/R11-INDEPENDENT-FINAL-READER-AUDIT-20260824.md`
+## Remaining natural-section sequence
 
-The audit was genuinely blind to Somatic PR discussion, detector results, humanization history, preservation/cold-audit receipts, prior critiques, and drafting rationale before reading the literal r11 prose.
+After the queued request resolves:
 
-Strongest findings:
+1. act on `Where I Would Start` result;
+2. if no new owner question arises, submit the already-preflighted reparenting candidate once;
+3. continue through Somatic Experiencing, trauma-sensitive/restorative yoga, and gentle shaking as separate natural subsections where useful;
+4. protect the known-Human EFT and Louka/Shaking anchors; test only connective/newly generated material when a result will change an edit;
+5. test Brainspotting and EMDR as natural sections, preserving their owner-specific core distinctions;
+6. test Light CBT/narrative integration if still necessary;
+7. split outcome checking around the known-Human housemate experiment and focus on the model-generated post-anecdote tail;
+8. test Sky Hypnosis/Vagal Blitz last;
+9. assemble accepted local repairs into a new whole-article candidate, rerun article-wide preservation/architecture/native-object/link gates, then perform one final headed GUI whole-article check.
 
-1. repeated `responsible explainer` / evidence-taxonomy / safety-aftercare moves made the article feel AI-assisted even when individual sentences were good;
-2. the five-Job taxonomy over-governed material that was naturally overlapping and forced repeated exception/placement commentary;
-3. backstage filing rationale (`this belongs here`, `for Job 1 I mean...`, `I put them here because...`) remained reader-visible;
-4. stay/stop/return guidance was repeated beyond its useful recurrence;
-5. `How I Judge Whether Any of This Is Helping` and Sky/Vagal produced near-duplicate conclusions;
-6. Nurturer/Protector/borrowed adulthood and Brainspotting `points` had antecedent/reference problems;
-7. the housemate self-experiment retained notebook-like unresolved prose.
+## Promotion / blockers
 
-Blind judgment: substantial AI editorial/writing assistance would be suspected, especially in the map framing, latter Shaking explanation, repeated Brainspotting qualification/aftercare, long evaluation recap, and Sky/Vagal ending.
-
-### r12 — independent-audit rewrite
-
-Current non-authoritative whole-article candidate:
-`experiments/R12-WHOLE-ARTICLE-INDEPENDENT-AUDIT-REWRITE-CANDIDATE-20260824.md`
-
-- SHA-256 `88f4a18f112c4d9953290d6a44fca86b52b169521ae8d6fc447992a14eb3df3e`;
-- receipt `experiments/R12-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md`;
-- receipt SHA-256 `99e54331f90d70269e55c1cdee7dce40c9bc572c4b8283010094db8b6603810f`;
-- preservation: PASS across 25 high-level article-wide units;
-- reverse traceability: PASS;
-- unexplained substantive deltas: 0;
-- ordinary links: 16/16, same URL multiset as r11;
-- reader-visible native/editor placeholders: 7/7 in order; top image remains the eighth raw-editor HTML-promotion invariant;
-- no anecdote added;
-- Pangram/detector not consulted or run.
-
-r12 applies Joel's direct owner correction rather than merely relabeling the architecture:
-
-- removes the five numbered Jobs and `Map at a Glance` entirely;
-- replaces the imposed taxonomy with natural reader-facing sections: no single right order; inner-child overlap; safety/presence; between-session regulation/discharge; body-before-story/Brainspotting; discrete-memory/EMDR; narrative integration; outcome checking; optional high-intensity practices;
-- retains the useful conditional sequencing logic without turning it into a stage model;
-- consolidates repeated evidence-taxonomy language into one early orientation plus practice-specific distinctions only where needed;
-- removes filing-system commentary about where modalities belong;
-- reduces repeated stay/stop/return and aftercare recaps while preserving practice-specific safety boundaries;
-- defines Nurturer/Protector and borrowed adulthood in place;
-- preserves the Brainspotting democratic-access judgment without the undefined `points` score;
-- converts the housemate `if one hour later... I should try again` notebook form into a durability criterion without inventing a later outcome;
-- shortens the evaluation/Sky conclusion sequence so the article has one actual stopping point;
-- normalizes working-document monospace around ordinary phrases.
-
-### Owner architecture correction made durable
-
-`OWNER-LOCKS.json` now protects `modalities-not-jobs` and `conditional-sequencing-not-protocol` rather than the obsolete `five-job-map-provisional` function.
-
-`ARCHITECTURE.md` now represents the therapies as modalities/practices chosen by current need, target, and tolerance, with explicit warnings not to restore the five-Job map, a renamed five-stage equivalent, equalized modality cards, or repeated filing commentary.
-
-## Detector boundary
-
-No Pangram call was made on r08–r12.
-
-The last measured Job2→end historical boundary remains r07b: Pangram 4.0 / STAGE_SUCCESS; Human `0.16262315213680267`; AI `0.8373768329620361`; AI-assisted `0.0`; the historical ledger remains 5/6.
-
-That historical label is retained only to identify the measured boundary. It must not be used to reintroduce the five-Job architecture after Joel's correction.
-
-Current detector decision remains: **do not spend the remaining call merely to obtain another score.** A detector result that cannot authorize a faithful next editorial action is not decision-changing evidence.
-
-## Current Checkpoint
-
-`r01-candidate` remains the canonical working master. `r12` is the current **non-authoritative whole-article editorial candidate** on the active branch.
-
-The independent audit gate has now been completed rather than simulated. Its findings and the r12 implementation are stored separately.
-
-Current cold-audit assessment of r12:
-
-- five-Job scaffold: removed;
-- repeated responsible-explainer layer: substantially reduced;
-- backstage editor/file-placement prose: removed;
-- undefined Nurturer/Protector/borrowed-adulthood references: repaired;
-- Brainspotting dangling score: repaired;
-- duplicate conclusion problem: reduced;
-- anecdote inflation: none;
-- technical-density integrity: preserved;
-- largest remaining weakness: Shaking Qigong remains the longest and most conceptually heterogeneous section, but that heterogeneity is source-specific owner/Louka material rather than generic guide scaffold.
-
-No claim is made that r12 is owner-final, published, citation-complete, or detector-certified.
-
-## Remaining
-
-1. Owner review/acceptance of r12 substantive prose.
-2. If accepted, reconstruct the accepted reader-visible prose into exact raw-editor HTML while preserving all 8 native/editor objects and all 16 ordinary links, then run article-wide semantic/architecture/fidelity/object validation.
-3. Only after those gates pass may `master.html`, registry hashes, architecture master binding, and article-state authority be promoted.
-4. Citation/health verification remains a separate task unless Joel requests it or a concrete material issue requires review.
-5. Do not reopen the obsolete five-Job architecture, broad model-only detector generation, stale Codex V5 work, or anecdote-seeking as default repair strategies.
-
-## Blockers / Unresolved
-
-- r12 is non-authoritative and not owner-final.
-- Exact r12 raw-editor HTML assembly has not been performed.
-- `master.html` still contains the registered r01 architecture until an accepted candidate is promoted through the HTML/native-object gate.
-- Publication/export and citation/health review remain pending.
-- Pangram certification remains unresolved by deliberate editorial decision and is not a prerequisite for owner prose review.
-
-## Evidence / Artifacts
-
-- canonical master: `articles/somatic-therapies/master.html`
-- owner locks: `articles/somatic-therapies/OWNER-LOCKS.json`
-- architecture: `articles/somatic-therapies/ARCHITECTURE.md`
-- r11 candidate: `articles/somatic-therapies/experiments/R11-WHOLE-ARTICLE-READER-FACING-CORRECTION-CANDIDATE-20260824.md`
-- independent r11 audit: `articles/somatic-therapies/experiments/R11-INDEPENDENT-FINAL-READER-AUDIT-20260824.md`
-- r12 candidate: `articles/somatic-therapies/experiments/R12-WHOLE-ARTICLE-INDEPENDENT-AUDIT-REWRITE-CANDIDATE-20260824.md`
-- r12 receipt: `articles/somatic-therapies/experiments/R12-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260824.md`
-- blocking reader-facing rules: main `AGENTS.md`
-- blocking cold-audit rules: main `docs/HUMANIZATION-COLD-AUDIT-GATE.md`
-- historical detector evidence: r07b records in `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`
-- PR lane: `u-dont-existDOTcom/joel-articles#53`
-
-## Next Safe Action
-
-Continue owner review from r12. Do not ask Joel for anecdotes as a humanization tactic. If Joel accepts r12, prepare the exact raw-editor HTML promotion while preserving all native objects/links and run the article-wide preservation/architecture checks. Do not restore or rename the five-Job scaffold.
+- Registered `master.html` remains unchanged.
+- r15 and local repairs are non-authoritative until owner acceptance and exact HTML reconstruction/promotion.
+- Exact raw-editor HTML assembly for the accepted post-r15 candidate has not been performed.
+- Citation/health verification remains a separate pending task unless requested or materially required.
+- Owner-final review/publication export remains pending.
+- Do not restore five Jobs/stages, manufacture anecdotes, reopen known-Human spans solely for detector reasons, or repeat queued/ambiguous/already-paid measurements.
