@@ -1,6 +1,6 @@
 # Somatic Therapies — r15 Introduction r01 AI-shape repair candidate
 
-Status: **non-authoritative production-humanization candidate; not yet Pangram-measured**
+Status: **OWNER-REJECTED / DO NOT PANGRAM-MEASURE / non-authoritative**
 
 Source candidate: `R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md`.
 
@@ -9,6 +9,19 @@ Direct owner correction, 2026-08-27: the thinking/claims of the r15 Introduction
 Exact replacement scope: under `# Introduction`, replace from `Trauma can be over and the body can still be doing it.` through the sentence ending `being swallowed by the child-state.` The following heading `## Your Physical State Can Change What Therapy Does` remains the next unchanged anchor.
 
 Reader-visible candidate SHA-256 with heading text rendered as `Introduction` and Markdown link destination stripped: `90d3c6b208fe0f2f02a549ca26e384edc5e6dadbb4b4c1525ac4417380b6d402`.
+
+## Owner rejection
+
+Joel rejected this realization before detector submission. Reasons:
+
+- it falsely converted general article claims into autobiographical first person (`I`, `I'm`, `my`) even though the source was not about Joel's own trauma;
+- first-person autobiographical attribution must not be introduced unless the source actually supports it or Joel explicitly approves it;
+- `I work on that...` / related `I want...`-style constructions repeat an already-known cheap significance/preference-staging habit;
+- `That may mean...` is generic model connective tissue;
+- `move` participates in an AI-frequency pattern of architectural/mechanical language (`leverage`, `move`, `job`, `load`, `load-bearing`, etc.) when used as abstract connective/explanatory language rather than the most exact ordinary wording;
+- most importantly, the rewrite preserved a predictable model rhythm: balanced clauses and similarly shaped paragraphs advancing through setup → qualification → tidy conclusion. Plainer vocabulary did not repair the thought rhythm.
+
+This candidate and its old preflight receipt are not detector-eligible and must not be revived as a starting point except as negative evidence.
 
 ---
 
