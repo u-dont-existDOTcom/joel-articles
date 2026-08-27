@@ -1,56 +1,93 @@
 # Love, Honestly Card Game — Current State
 
-Updated: 2026-08-17
+Updated: 2026-08-27
 
 ## Repository status
 
-Durable private architecture/recovery snapshot: `artifact/love-honestly-card-game-v0.3.2`. The verified Git bundle remains the complete source-history carrier.
+This is the durable private architecture and recovery snapshot on branch:
+
+`artifact/love-honestly-card-game-v0.4.0`
+
+It is deliberately not merged into `joel-articles/main`, whose job is article governance. The complete project source and history are carried by the verified v0.4.0 Git bundle; this branch stores architecture, source reconciliation, release identity, checksums, and recovery instructions.
 
 ## Exact release boundary
 
-- Product version: `0.3.2`
-- Release tag: `v0.3.2`
-- Release commit: `b76d18642df026c63fb75ccaa9d221d6b25cf165`
-- Annotated tag object: `59397ba3fd20fe8fe354f7d23e676b0ce15670d5`
-- Final bundle head: `22e306e9264f0957e69395dbb5e1d2a65561a2d8`
-- Predecessor: `v0.3.1` / `1f023dd8a2f48b01e01c1f80b8fee9c047c7964c`
+- Product version: `0.4.0`
+- Annotated release tag: `v0.4.0`
+- Release commit: `ffb7c1ef7dca4585944d1acf78802ce4107658d6`
+- Annotated tag object: `7a7b616c973b0f9908bf37b727b3339ec80df565`
+- Final documentation/recovery bundle head: `1e5b0ef63177a9d411ce677990a2c2ee1494c111`
+- Immediate predecessor: `v0.3.2` at `b76d18642df026c63fb75ccaa9d221d6b25cf165`
+- Updated Romance Guide SHA-256: `e51bae5277c2e0f86b75ff11a304a7d99a56e39d36203eeff7d6f9cc5c8391c7`
+- Canonical operational map: `ARCHITECTURE.md`
+- Current guide-delta ledger: `CARD-FUNCTION-MATRIX-v0.4.0.md`
+- Historical expansion ledger: `CARD-FUNCTION-MATRIX-v0.3.0.md`
+- Release manifest: `RELEASE-MANIFEST.md`
+- Fresh-conversation recovery packet: `FRESH-CONVERSATION-HANDOFF.md`
 
 ## Product invariant
 
-**Private answer formation → evidence basis → spoken primary/follow-up answers → two private judgments → overt ordinary-life experiment → scheduled reminder target → review whenever the pair chooses → private revisit → comparison without scoring.**
+A deep answer is testimony, not proof. Preserve:
 
-A scheduled date is a reminder target, never an access lock.
+**Private answer formation → evidence-basis label → spoken primary and follow-up answers with corrected mirroring → two private judgments → overt ordinary-life experiment → scheduled reminder target → review whenever the pair chooses → delayed private revisit → comparison without scoring.**
 
-## v0.3.2 correction
+Scheduled dates remain reminder targets, never locks.
 
-- Pending reviews surface on the welcome screen when a saved session is reopened.
-- Each shows `Scheduled for ...` plus upcoming/due/overdue timing.
-- Each exposes `Review now` before, on, or after its target date.
-- The Evidence map repeats the scheduled date and the same anytime-review rule.
-- Copied Evidence-map text retains the date.
-- Pending plans are surfaced chronologically.
+## Completed in v0.4.0
 
-## Preserved boundaries
+- Audited the complete 2026-08-27 Romance Guide against the current deck before changing cards.
+- Added only two genuinely new substantive cards: `spiritual-bypass-intimacy` and `spiritual-relationship-spirit`.
+- Extended `sex-01`, `sex-barometer`, `ordinary-05`, `clarity-06`, and `polarity-01` rather than duplicating their functions.
+- Revised `altered-03` to match the guide's narrower warning about first-time sexual-consent decisions while high.
+- Updated `promises-01` provenance to `Which marriage vows are honest?`.
+- Added Sobonfu Somé as structured provenance for the spirit-of-relationship card.
+- Preserved all preexisting card IDs and local-storage schema v2.
+- Explicitly omitted incomplete or non-decision source material rather than inventing card doctrine from it.
+- Deck total is now 81 substantive cards plus 8 rhythm cards across 15 substantive categories.
 
-- Actual answers are spoken and never stored.
-- Epistemic labels are metadata, not answers.
-- Storage schema remains v2 and card IDs remain stable.
-- No compatibility score, secret tests, or due-date enforcement.
-- Anonymous safety exits remain anonymous.
-- Exact guide credit remains `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
-- No automatic external request.
+## Preserved boundary
+
+- Pending reviews show their target date and remain reviewable before, on, or after it.
+- Actual answers are spoken aloud and never stored.
+- Evidence labels remain metadata, not answers.
+- Two private classifications and two private revisit records remain separate.
+- No compatibility score or secret tests.
+- Anonymous safety exits remain intact.
+- Exact Romance Guide credit remains unchanged.
+- No automatic external request is introduced.
+- Spiritual Practice remains sensitive, low-weight, opt-in, and disabled by default.
 
 ## Verification
 
-`npm run verify:release` passed 34/34 Node tests, standalone build verification, a future-dated review returning to welcome, exact scheduled-date notice, early `Review now`, normal/legacy/safety/storage/revisit flows, no-network monitoring, and screenshot capture. ZIP and Git-bundle verification passed; the bundle contains tags `v0.1.0` through `v0.3.2`.
+```text
+npm run verify:release
+40/40 Node tests passed
+standalone build: 185,817 bytes
+normal browser flow: passed
+legacy-resume flow: passed
+private safety-stop flow: passed
+anonymous not-safe flow: passed
+storage-boundary flow: passed
+two-person revisit flow: passed
+source-provenance flow: passed
+optional-topic defaults: passed
+scheduled future review and early Review now path: passed
+no automatic external requests: passed
+source ZIP integrity: passed
+Git bundle integrity and clone verification: passed
+v0.1.0 through v0.4.0 tag recovery: passed
+```
 
-## Final source-carrier checksums
+## Recovery order
 
-- HTML: `2bcb59988438256330e7744d5d7027d40bda18dc372d06d94d51c854d9b03ef3`
-- ZIP: `db0293196f66deedcccbaefd665d13322a1b142e76fb1fbb538102c59c233400`
-- bundle: `b219e0fdfcda5a2722057d7ccc247f82a917b944350081b64510049899c4ba99`
-- scheduled-review screenshot: `2c732aa440c1132ec981df314c79debee32f38d4bc430e1398ce2375e11bd276`
+1. Recover full source from `Love-Honestly-Card-Game-v0.4.0.bundle`.
+2. Verify it and the other artifacts against `Love-Honestly-v0.4.0-SHA256.txt`.
+3. Clone the bundle and confirm `main` resolves to `1e5b0ef63177a9d411ce677990a2c2ee1494c111` and `v0.4.0^{}` resolves to `ffb7c1ef7dca4585944d1acf78802ce4107658d6`.
+4. Read `PRODUCT.md`, `DESIGN.md`, `surfaces/game.md`, `CURRENT-STATE.md`, and `README.md` inside the bundle.
+5. Read `docs/GAME-FLOW.md`, both card-function matrices, `docs/ARTICLE-MAPPING.md`, the release notes, manifest, and fresh handoff.
+6. Create an isolated branch before changing behavior.
+7. Update the Mermaid architecture and disposition ledger in the same change as any consequential phase, safety exit, serialized record, category default, source boundary, or setup-to-revisit change.
 
-## Recovery
+## Next safe action
 
-Recover `Love-Honestly-Card-Game-v0.3.2.bundle`, verify against `Love-Honestly-v0.3.2-SHA256.txt`, confirm `main` = `22e306e9264f0957e69395dbb5e1d2a65561a2d8` and `v0.3.2^{}` = `b76d18642df026c63fb75ccaa9d221d6b25cf165`, then read the product/design/surface/current-state/game-flow/handoff files before editing. Do not add due-date enforcement unless the owner explicitly reverses this decision.
+A future dedicated game repository should import the verified Git bundle and preserve all release tags. Do not reconstruct source bytes from this architecture summary when the complete bundle is available.
