@@ -1,61 +1,68 @@
-# Love, Honestly v0.4.0 — Fresh Conversation Handoff
+# Love, Honestly v0.5.0 — Fresh Conversation Handoff
 
-## Recover first
+Continue from the verified v0.5.0 bundle rather than reconstructing the game from chat history.
 
-Use the verified Git bundle when available. Resolve `v0.4.0^{}` and confirm it equals `ffb7c1ef7dca4585944d1acf78802ce4107658d6` before changing product behavior. Preserve all earlier tags.
+## Authority
 
-The final documentation/recovery bundle head is `1e5b0ef63177a9d411ce677990a2c2ee1494c111`.
+- Product: **Love, Honestly**
+- Release: `v0.5.0`
+- Verified application release commit: `400f64f0c8acc815bd9b12a075ab324de76d4cff`
+- Annotated tag object: `6807866e938582a7588e05e9bee021d9a1959dc8`
+- Final documentation/recovery bundle head: `46f7e616779377d49e2b3d5d8df1786b0ab38d25`
+- Immediate predecessor: `v0.4.0` at `ffb7c1ef7dca4585944d1acf78802ce4107658d6`
+- Primary product source: U-Dont-Exist Romance Guide
+- Current guide file SHA-256: `e51bae5277c2e0f86b75ff11a304a7d99a56e39d36203eeff7d6f9cc5c8391c7`
+- Additional source: owner-supplied Long distance section from 2026-08-27
+- Exact visible source line: `Based on the U-Dont-Exist Romance Guide`
+- Exact href: `https://romance.u-dont-exist.com`
 
-Read in order:
+## Recovery order
 
-1. `PRODUCT.md`
-2. `DESIGN.md`
-3. `surfaces/game.md`
-4. `CURRENT-STATE.md`
-5. `docs/GAME-FLOW.md`
-6. `docs/CARD-FUNCTION-MATRIX-v0.4.0.md`
-7. `docs/CARD-FUNCTION-MATRIX-v0.3.0.md`
-8. `docs/ARTICLE-MAPPING.md`
-9. `docs/RELEASE-NOTES-v0.4.0.md`
-10. `RELEASE-MANIFEST-v0.4.0.md`
+1. Recover complete source from `Love-Honestly-Card-Game-v0.5.0.bundle`.
+2. Verify every artifact against `Love-Honestly-v0.5.0-SHA256.txt`.
+3. Clone the bundle and confirm `main` resolves to `46f7e616779377d49e2b3d5d8df1786b0ab38d25` and `v0.5.0^{}` resolves to `400f64f0c8acc815bd9b12a075ab324de76d4cff`.
+4. Read `PRODUCT.md`, `DESIGN.md`, `surfaces/game.md`, `CURRENT-STATE.md`, and `README.md`.
+5. Read `docs/GAME-FLOW.md`, `docs/CARD-FUNCTION-MATRIX-v0.5.0.md`, `docs/ARTICLE-MAPPING.md`, and `DECISION-LOG.md`.
+6. Read the v0.5.0 release notes and release manifest.
+7. Create an isolated branch before changing behavior.
 
-## Source boundary
+## Governing product loop
 
-The v0.4.0 reconciliation used the Romance Guide supplied on 2026-08-27:
+**Private answer → evidence basis → spoken answer + mirror → private judgments → overt ordinary-life experiment → scheduled reminder target → Review now whenever desired → private revisit.**
 
-`e51bae5277c2e0f86b75ff11a304a7d99a56e39d36203eeff7d6f9cc5c8391c7`
+## v0.5.0 decisions not to rediscover
 
-Do not infer a new deck function from an isolated paragraph. Reconstruct the guide's full argument and check the current card-function matrices first.
+The owner reviewed the existing v0.4.0 deck and said the cards were fine. Preserve them unless the owner explicitly changes one.
 
-## Current product invariant
+New functions intentionally added:
 
-**Private answer formation → evidence basis → spoken primary and follow-up answers → two private judgments → overt ordinary-life experiment → scheduled reminder target → review whenever the pair chooses → private two-person revisit → comparison without scoring.**
+- `community-06` — whether the pair wants intentional-community/commune living and what values/environment fit.
+- `community-07` — when to explore communities together, what prior visits taught, and which candidate to visit next.
+- `life-design-long-distance-01` — whether distance is wanted/tolerated and for how long.
+- `life-design-long-distance-02` — how jobs/opportunities compete with physical togetherness and what closes the distance.
+- `ordinary-long-distance-evidence` — what remote contact cannot establish about ordinary in-person life.
+- `spiritual-twin-flame-model` — one destined person vs repeatable sacred/archetypal connection vs another meaning/non-belief, and the practical expectations each model creates.
+- revised `sex-03` — making love vs sex, preferred modes/depth, and eventual cervical-sex interest.
 
-## v0.4.0 decisions not to rediscover
+All seven apply to new and existing relationships: `discover`, `build`, `repair`, and `full`.
 
-- Most of the revised guide was already covered; do not inflate the deck paragraph-by-paragraph.
-- The only new decision functions added in this pass are:
-  - `spiritual-bypass-intimacy` — practice may reduce deprivation distress without resolving an intimacy need;
-  - `spiritual-relationship-spirit` — stewardship of the relationship can mean repair, changed form, space, or ending, not forced permanence.
-- `altered-03` follows the revised guide's narrower wording: first-time sexual-consent decisions should not be negotiated while high. Do not restore the older categorical `cannot negotiate consent` wording unless the guide changes again.
-- Bundling is an imperfect historical illustration of the Missing Middle, not a recommended system.
-- Higher female income or lower male income is not itself a polarity defect; decision rank, humiliation, uselessness, domination, or enforced shrinking is the operative problem.
-- A romantic partner should not be the only source of beauty, softness, sensuality, inspiration, support, or purpose.
-- Sobonfu Somé is a credited source for the spirit-of-relationship framing, not a co-author.
-- Do not invent content from incomplete source fragments such as the current Helen Fisher brain-chemistry bullet.
+The source-wide recheck found no other missing card that justified duplicating an accepted function or turning article evidence, history, or memoir into a play card. The complete disposition is in `CARD-FUNCTION-MATRIX-v0.5.0.md`.
 
-## Preserved boundaries
+## Preservation locks
 
-- Answers are spoken aloud and never stored.
+- Actual answers are spoken and never stored.
 - Epistemic labels are metadata, not answers.
-- No compatibility score.
-- No secret tests.
-- Anonymous safety stop remains anonymous.
-- Storage schema stays v2 unless a real migration requires change.
-- Scheduled review dates are reminder targets and `Review now` is available before, on, or after the date.
-- Exact linked credit remains `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
-- No automatic external request.
-- v0.1.0 Article Edition remains byte-preserved.
+- No text answer field.
+- Two private classifications remain separate.
+- Reality steps are overt; no secret tests.
+- Scheduled dates are reminder targets; Review now is always available.
+- Schema v2 and every earlier card ID remain stable.
+- Optional Polarity, Altered States, and Spiritual Practice remain off by default.
+- The Twin Flame card remains in optional Spiritual Practice because the guide marks that material as skippable when irrelevant.
+- Cervical-sex interest is a conversation question, not an obligation or sexual performance test.
+- Intentional-community cards ask about community as a way of life, not merely a support network.
+- Long-distance cards ask preference, duration, closure plan, and the in-person evidence gap without diagnosing every distant couple as intimacy-avoidant.
+- No compatibility score or automatic external request.
 
 ## Verification
 
@@ -66,4 +73,4 @@ npm run verify:release
 git diff --check
 ```
 
-The browser smoke must continue to test a future-dated plan returning to welcome and being reviewable immediately before the target date.
+The release tag passed 46 Node tests and the complete browser suite before tagging.
