@@ -1,50 +1,69 @@
-# Fresh-conversation handoff: Love, Honestly v0.3.2
+# Love, Honestly v0.4.0 — Fresh Conversation Handoff
 
-Continue from the verified v0.3.2 bundle rather than reconstructing the game from chat history.
+## Recover first
 
-## Authority
+Use the verified Git bundle when available. Resolve `v0.4.0^{}` and confirm it equals `ffb7c1ef7dca4585944d1acf78802ce4107658d6` before changing product behavior. Preserve all earlier tags.
 
-- Release: `v0.3.2`
-- Release commit: `b76d18642df026c63fb75ccaa9d221d6b25cf165`
-- Annotated tag object: `59397ba3fd20fe8fe354f7d23e676b0ce15670d5`
-- Final bundle `main`: `22e306e9264f0957e69395dbb5e1d2a65561a2d8`
-- Predecessor: `v0.3.1` / `1f023dd8a2f48b01e01c1f80b8fee9c047c7964c`
-- Exact visible source line: `Based on the U-Dont-Exist Romance Guide`
-- Exact href: `https://romance.u-dont-exist.com`
+The final documentation/recovery bundle head is `1e5b0ef63177a9d411ce677990a2c2ee1494c111`.
 
-## Governing product loop
+Read in order:
 
-**Private answer formation → evidence basis → spoken primary and follow-up answers → two private judgments → overt ordinary-life experiment → scheduled reminder target → review whenever the pair chooses → private revisit → comparison without scoring.**
+1. `PRODUCT.md`
+2. `DESIGN.md`
+3. `surfaces/game.md`
+4. `CURRENT-STATE.md`
+5. `docs/GAME-FLOW.md`
+6. `docs/CARD-FUNCTION-MATRIX-v0.4.0.md`
+7. `docs/CARD-FUNCTION-MATRIX-v0.3.0.md`
+8. `docs/ARTICLE-MAPPING.md`
+9. `docs/RELEASE-NOTES-v0.4.0.md`
+10. `RELEASE-MANIFEST-v0.4.0.md`
 
-## v0.3.2 decision not to rediscover
+## Source boundary
 
-A scheduled review date is **not an access lock**. It is a target date that brings the experiment back to attention.
+The v0.4.0 reconciliation used the Romance Guide supplied on 2026-08-27:
 
-Therefore:
+`e51bae5277c2e0f86b75ff11a304a7d99a56e39d36203eeff7d6f9cc5c8391c7`
 
-- pending reviews appear on the welcome screen when the saved session is reopened;
-- each shows `Scheduled for ...` plus relative timing;
-- pending plans are surfaced chronologically;
-- each always exposes `Review now` before, on, or after the target date;
-- the Evidence map repeats the target date and reminder-not-lock boundary;
-- do not add due-date enforcement unless the owner explicitly reverses this decision.
+Do not infer a new deck function from an isolated paragraph. Reconstruct the guide's full argument and check the current card-function matrices first.
+
+## Current product invariant
+
+**Private answer formation → evidence basis → spoken primary and follow-up answers → two private judgments → overt ordinary-life experiment → scheduled reminder target → review whenever the pair chooses → private two-person revisit → comparison without scoring.**
+
+## v0.4.0 decisions not to rediscover
+
+- Most of the revised guide was already covered; do not inflate the deck paragraph-by-paragraph.
+- The only new decision functions added in this pass are:
+  - `spiritual-bypass-intimacy` — practice may reduce deprivation distress without resolving an intimacy need;
+  - `spiritual-relationship-spirit` — stewardship of the relationship can mean repair, changed form, space, or ending, not forced permanence.
+- `altered-03` follows the revised guide's narrower wording: first-time sexual-consent decisions should not be negotiated while high. Do not restore the older categorical `cannot negotiate consent` wording unless the guide changes again.
+- Bundling is an imperfect historical illustration of the Missing Middle, not a recommended system.
+- Higher female income or lower male income is not itself a polarity defect; decision rank, humiliation, uselessness, domination, or enforced shrinking is the operative problem.
+- A romantic partner should not be the only source of beauty, softness, sensuality, inspiration, support, or purpose.
+- Sobonfu Somé is a credited source for the spirit-of-relationship framing, not a co-author.
+- Do not invent content from incomplete source fragments such as the current Helen Fisher brain-chemistry bullet.
 
 ## Preserved boundaries
 
-- Spoken answers are not stored.
+- Answers are spoken aloud and never stored.
 - Epistemic labels are metadata, not answers.
-- No compatibility score or secret tests.
+- No compatibility score.
+- No secret tests.
 - Anonymous safety stop remains anonymous.
-- Storage schema remains v2 unless a real migration requires change.
+- Storage schema stays v2 unless a real migration requires change.
+- Scheduled review dates are reminder targets and `Review now` is available before, on, or after the date.
+- Exact linked credit remains `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
 - No automatic external request.
 - v0.1.0 Article Edition remains byte-preserved.
 
-## Recovery
+## Verification
 
-1. Recover `Love-Honestly-Card-Game-v0.3.2.bundle`.
-2. Verify against `Love-Honestly-v0.3.2-SHA256.txt`.
-3. Confirm bundle `main` = `22e306e9264f0957e69395dbb5e1d2a65561a2d8` and `v0.3.2^{}` = `b76d18642df026c63fb75ccaa9d221d6b25cf165`.
-4. Read product/design/surface/current-state/game-flow records before editing.
-5. Run `npm run verify:release` and `git diff --check` after changes.
+Run:
 
-The browser regression must keep proving that a future-dated review can be opened immediately by choice.
+```bash
+npm run verify:release
+git diff --check
+```
+
+The browser smoke must continue to test a future-dated plan returning to welcome and being reviewable immediately before the target date.
