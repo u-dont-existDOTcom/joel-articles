@@ -1,4 +1,4 @@
-# Love, Honestly v0.4.0 Game Architecture
+# Love, Honestly v0.5.0 Game Architecture
 
 This is the canonical operational map for the standalone game. Update it whenever a consequential phase, safety exit, serialized record, category default, source boundary, or setup-to-revisit dependency changes.
 
@@ -172,6 +172,39 @@ flowchart TD
 
 The v0.4.0 disposition ledger is `CARD-FUNCTION-MATRIX-v0.4.0.md`. It supersedes the v0.3.0 matrix only for the 2026-08-27 guide delta; the earlier matrix remains historical evidence of why those prior cards exist.
 
+## v0.5.0 content-function expansion
+
+The interaction architecture is unchanged. The owner-approved content delta adds decision functions without adding a new state, stored field, or category.
+
+```mermaid
+flowchart TD
+    OWNER["Owner card review · existing v0.4.0 cards accepted"] --> GAP["Bounded gap audit"]
+    GAP --> COMM["Intentional community as a life choice"]
+    COMM --> C6["community-06 · desired community / values / environment"]
+    COMM --> C7["community-07 · visits / prior fits / next exploration"]
+
+    GAP --> SEX["Making love vs sex"]
+    SEX --> S3["sex-03 · meaning / preferred depth / cervical-sex interest"]
+
+    GAP --> LD["Long distance"]
+    LD --> LD1["life-design-long-distance-01 · desire and tolerance"]
+    LD --> LD2["life-design-long-distance-02 · reunion / relocation / opportunity"]
+    LD --> LDE["ordinary-long-distance-evidence · in-person evidence gap"]
+
+    GAP --> TF["Twin Flame ontology"]
+    TF --> TFC["spiritual-twin-flame-model · one destined person / repeatable sacred connection / other / none"]
+
+    C6 --> ALL["discover · build · repair · full"]
+    C7 --> ALL
+    S3 --> ALL
+    LD1 --> ALL
+    LD2 --> ALL
+    LDE --> ALL
+    TFC --> ALL
+```
+
+`CARD-FUNCTION-MATRIX-v0.5.0.md` records the full source-wide recheck and deliberate omissions. All new card IDs are additive; storage schema v2 and every earlier card ID remain unchanged.
+
 ## Backward recovery
 
 - Legacy v0.3.0 `discuss` state renders as the new primary spoken-answer phase.
@@ -183,13 +216,17 @@ The v0.4.0 disposition ledger is `CARD-FUNCTION-MATRIX-v0.4.0.md`. It supersedes
 
 - The exact first-screen link remains `Based on the U-Dont-Exist Romance Guide` → `https://romance.u-dont-exist.com`.
 - Joel’s guide remains the product authority; additional credits do not imply joint authorship.
-- The 2026-08-27 guide boundary is identified by SHA-256 `e51bae5277c2e0f86b75ff11a304a7d99a56e39d36203eeff7d6f9cc5c8391c7`; incomplete source fragments are not silently completed into game doctrine.
+- The 2026-08-27 guide boundary is identified by SHA-256 `e51bae5277c2e0f86b75ff11a304a7d99a56e39d36203eeff7d6f9cc5c8391c7`; the owner-supplied long-distance section is an additional explicit source for v0.5.0.
 - The actual open-ended answer is a first-class phase and is spoken aloud; evidence labels are secondary metadata.
 - The card-function matrix governs extend/add/omit decisions and blocks paragraph-by-paragraph deck inflation.
 - Existing card IDs and storage schema v2 remain stable.
 - Two private classifications and two private revisit records remain separate.
 - A safety stop remains anonymous.
 - Reality steps are overt. Card-specific experiments override category fallbacks; secret tests are prohibited.
+- Intentional-community questions distinguish a community way of life from merely having supportive friends around a private dyad.
+- Long-distance cards preserve the owner's preference for physical togetherness while asking each couple's actual tolerance rather than prescribing one answer.
+- `sex-03` asks about making love versus sex and eventual cervical-sex interest without making cervical sex or any sexual act obligatory.
+- Twin Flame ontology is optional and permits one-destined-person, repeatable sacred/archetypal connection, another model, or no use of the concept.
 - Sexual, flirtation, receiving, rank, role-play, and spiritual cards preserve the explicit non-obligation and abuse boundaries.
 - A scheduled reality plan becomes complete only after both people submit a revisit.
 - The target date is a reminder target, not an access lock. Pending reviews are surfaced on the welcome screen with the scheduled date and an explicit `Review now` action at all times.
