@@ -4,17 +4,24 @@ Status: **METHOD-GENERALIZATION FAILED / owner-reported Pangram AI / high confid
 
 Source natural boundary: r15 `# Somatic Work and Inner-Child Reparenting`, constrained by the 30-unit preservation ledger in `R15-REPARENTING-R01-PRESERVATION-AND-PREFLIGHT-20260827.md` and current direct owner authority.
 
-Method under test: **corpus-skeleton-constrained realization across a different register**. Unlike the physical-state candidate, which used research-conversational skeletons from `cancer-and-research-samples.txt`, this candidate uses grammatical/thought-route structures from the natural-owner tender corpus `project-sources/tender-video-transcript.txt`. Salient structural analogues include the owner sentence `The inner child is you in a sense, but it's not you` and the transcript's natural direct-action `feel ... / see ...` instruction movement. The candidate does not import irrelevant Bible, personal-anecdote, or factual content from the calibration source.
+Method under test: **corpus-skeleton-constrained realization across a different register**. Unlike the physical-state candidate, which used research-conversational skeletons from `cancer-and-research-samples.txt`, this candidate uses grammatical/thought-route structures from the natural-owner tender corpus `project-sources/tender-video-transcript.txt`. Salient structural analogues include the owner sentence `The inner child is you in a sense, but it's not you` and the transcript's natural direct-action `feel ... / see...` instruction movement. The candidate does not import irrelevant Bible, personal-anecdote, or factual content from the calibration source.
 
 Reader-visible SHA-256 after stripping the self-hypnosis link destination and heading markup: `52ea2cff6947dddb919b23ff09be00f5cd2e66c622ac8d4f4ee53ff107163d71`.
 
-## Owner-reported detector result — 2026-08-27
+## Owner-reported detector results — 2026-08-27
 
 Joel tested the complete natural section below in Pangram and reported **AI / high confidence**.
 
-Interpretation: this falsifies the claim that corpus-skeleton transfer, by itself, generalizes from the short physical-state repair to full-section generation in another register. The physical-state success replaced only a short lead in front of a 109-word already-Human core; this reparenting test generated essentially the entire section through transferred structures. Do not promote this candidate or treat the earlier positive result as proof that full-section skeleton transfer is sufficient.
+He then tested the exact candidate split without rewriting:
 
-Next diagnostic question: localize whether the AI signal is already present in the tender-style opening or enters mainly through the more technical model-realized middle/end. Do not generate another full-section variant before that localization changes the next decision.
+- **A — opening / tender-style boundary:** first two paragraphs, through present-focused self-hypnosis — **AI / medium confidence**.
+- **B — technical/practice remainder:** body modalities, solar-plexus preparation, Brainspotting/EMDR timing, deep-work readiness, and heart-loop practice — **AI / high confidence**.
+
+Interpretation: the tender-style opening reduces detector confidence relative to the full-section result but does not flip Human. The more technical/model-realized remainder carries the stronger signal. This falsifies the broad claim that corpus-skeleton transfer generalizes from the short physical-state repair to full-section generation in another register.
+
+The physical-state success replaced only a short lead in front of a 109-word already-Human core; this reparenting test generated essentially the entire section through transferred structures. Do not promote this candidate or treat the earlier positive result as proof that full-section skeleton transfer is sufficient.
+
+No prior durable Pangram calibration for the exact `project-sources/tender-video-transcript.txt` source was found. Before further detector-oriented use of this register, test an exact raw natural-owner tender excerpt. Do not assume that `natural owner` and `Pangram-Human` are interchangeable labels.
 
 ---
 
