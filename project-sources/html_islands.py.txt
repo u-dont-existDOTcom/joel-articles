@@ -339,11 +339,18 @@ def classify_object(raw: str) -> tuple[str, str]:
             return "substack_video_post_embed", "canonical_url_in_payload"
         return "digest_post_embed", "rich_html"
 
-    if 'buttoncreatebutton' in low or '%%share_url%%' in low:
-        return "share", "rich_html"
     if 'subscribewidgettodom' in low or 'subscription-widget-wrap-editor' in low or '%%checkout_url%%' in low:
         return "subscribe", "rich_html_candidate"
-    if "youtube.com" in low or "youtu.be" in low or "node-youtube" in low or "component-name=\"youtube" in low:
+    if 'buttoncreatebutton' in low or '%%share_url%%' in low:
+        return "share", "rich_html"
+    if (
+        "youtube.com" in low
+        or "youtube-nocookie.com" in low
+        or "youtu.be" in low
+        or "youtube-wrap" in low
+        or "node-youtube" in low
+        or "component-name=\"youtube" in low
+    ):
         return "youtube", "rich_html"
 
     # Standalone native uploaded video must be checked before image because its
