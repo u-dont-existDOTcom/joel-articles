@@ -1,0 +1,31 @@
+{
+  "format": "joel-romance-custom-gpt-package-v1",
+  "created": "2026-08-27",
+  "primary_source": {
+    "file": "romance-r7-humanized-added-prose.md",
+    "sha256": "da32d34919b1f320ae79f1e89ba050590aaa5c14f0f15488beed3b5e0a5bf817",
+    "status": "owner-accepted R7; owner-reported Pangram 100% Human, high confidence"
+  },
+  "publication_archival_source": {
+    "file": "romance-r7-merged-archival-substack.html",
+    "sha256": "9740ad46709540d6f5b51c185bfb1eaa54f86a9845372a11814b1f011728a1d6",
+    "role": "native-object/media placement source used to build media map; not a GPT Knowledge upload"
+  },
+  "knowledge_files": [
+    {
+      "file": "knowledge/01-ROMANCE-GUIDE-R7.md",
+      "sha256": "d3c040cfa7fc1fddec81fb874a8b247a9cb0d014a6f3ea5d37f1821492ac3e1a"
+    },
+    {
+      "file": "knowledge/02-SECTION-INDEX.md",
+      "sha256": "8e970f89da7a56471318cbadc7676b8102f32709a78c3ce51939b705154c3886"
+    },
+    {
+      "file": "knowledge/03-MEDIA-AND-LINK-MAP.md",
+      "sha256": "9cb6dd03ee4c879660d086465b353af0d4887a942b0ae093a71a898bc7514b39"
+    }
+  ],
+  "youtube_embed_count": 10,
+  "section_heading_count": 68,
+  "raw_image_count": 13
+}
