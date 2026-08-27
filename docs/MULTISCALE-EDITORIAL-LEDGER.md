@@ -34,6 +34,8 @@ For every edited natural section, record:
 
 A good paragraph or anecdote does not earn its location merely by being good. It must perform a distinct job under that heading at that point in the article.
 
+A heading can itself carry transition logic by naming the question the next paragraph answers. Removing or merging a heading is therefore a structural edit, not cosmetic cleanup. Re-read the paragraph before the heading and the first paragraph after it with the heading absent. If the second paragraph becomes a non sequitur, preserve the heading or supply an actual bridge that follows from the preceding thought; do not assume the prose still connects merely because the underlying topic is related.
+
 ## 3. Paragraph ledger
 
 For every paragraph in the changed natural boundary, record one dominant job or live-question movement. Flag a paragraph when it:
@@ -67,6 +69,8 @@ Check at minimum:
 - setup without payoff and payoff without setup;
 - whether the article reaches its intended stopping point once, rather than ending repeatedly.
 
+For Substack-derived material, an apparently unfinished colon, blank line, or missing continuation may be the textual anchor for a native image/video/embed omitted from a prose-only export. Check the raw editor HTML/native-object ledger before diagnosing an orphan or inventing replacement prose.
+
 A mechanical validator may assist but does not replace this read.
 
 ## 5. Humanization-specific enforcement
@@ -75,4 +79,4 @@ For substantial humanization/detector work, `HUMANIZATION-ARCHITECTURE-GATE.md` 
 
 ## Provenance
 
-Promoted 2026-08-27 after Joel's manual Romance cleanup exposed a failure mode in which section-level preservation/architecture controls had passed while global organization still needed substantial owner repair and the assembled article retained two empty headings plus an unfinished Helen Fisher setup. The lesson is not to make a larger Mermaid graph; the existing map is intentionally structural. The durable repair is to couple it to explicit global, section, and paragraph ledgers plus a literal assembled-text proofread.
+Promoted 2026-08-27 after Joel's manual Romance cleanup exposed a failure mode in which section-level preservation/architecture controls had passed while global organization still needed substantial owner repair and the assembled prose-only candidate retained two empty headings. A later owner correction established that the apparently unfinished Helen Fisher colon was **not** a prose defect: the live Substack article has Helen Fisher's YouTube video at that point, while the Markdown-only copy omitted the native object. That correction adds a second lesson: literal proofreading must include the authoritative native-object context before declaring a setup orphaned. The durable repair is not a paragraph mega-Mermaid graph; it is the structural map plus explicit global, section, and paragraph ledgers, native-object awareness, and a literal assembled-text read.
