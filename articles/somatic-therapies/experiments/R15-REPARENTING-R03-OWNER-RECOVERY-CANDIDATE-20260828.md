@@ -1,6 +1,6 @@
 # Somatic Therapies — reparenting R03 owner-recovery candidate
 
-Status: **NON-AUTHORITATIVE PRODUCTION CANDIDATE / preservation proof pending companion receipt**
+Status: **OWNER-REPORTED PANGRAM AI / HIGH CONFIDENCE EXCEPT FINAL PARAGRAPH HUMAN / HIGH CONFIDENCE — NON-AUTHORITATIVE / ROLLBACK REQUIRED**
 
 Target article: `somatic-therapies`  
 Registered authority remains `articles/somatic-therapies/master.html` r01.  
@@ -10,13 +10,24 @@ Active branch: `agent/somatic-humanization-r02-preservation-20260824`.
 
 Nearest current target heading: `# Somatic Work and Inner-Child Reparenting` in r15.
 
-Operation: **replace the complete r15 reparenting overlap section**, beginning at that heading and ending immediately before `# Building Enough Safety to Stay Present`.
+Operation tested: replace the complete r15 reparenting overlap section, beginning at that heading and ending immediately before `# Building Enough Safety to Stay Present`.
 
-Displaced Brainspotting/EMDR readiness material is not deleted: its protected functions remain in the later `Brainspotting` and `EMDR` modality sections, where those relationships are already stated explicitly. General deep-work stay/stop/return safety remains principally in `Where I Would Start` and modality-specific limits instead of being repeated as a second generic ending here.
+Displaced Brainspotting/EMDR readiness material was routed to the later `Brainspotting` and `EMDR` modality sections. General deep-work stay/stop/return safety remained principally in `Where I Would Start` and modality-specific limits instead of being repeated as a second generic ending here.
 
-No heading, native object, link destination, or downstream section order is changed by this local candidate. The `self-hypnosis` link is restored exactly as `http://hypnosis.u-dont-exist.com/`.
+No heading, native object, link destination, or downstream section order was changed. The `self-hypnosis` link was restored exactly as `http://hypnosis.u-dont-exist.com/`.
 
-## Reader-facing candidate
+## Owner-reported detector result — 2026-08-28
+
+Joel reported the complete R03 boundary as **High-confidence AI except the final paragraph, which was Human / high confidence**.
+
+Interpretation boundary:
+- do **not** infer that every pre-loop paragraph is independently causal; Pangram red-window location is not causal proof;
+- the previously tested J boundary had been owner-reported **Human / high confidence**, so R03 demonstrates that the expanded composition failed, not that J's exact text should automatically be reopened;
+- the final paragraph is the recovered exact owner-authored heart↔solar-plexus loop and remained **Human / high confidence** inside the larger failing boundary. This is the strongest robust anchor in the section;
+- first rollback target is the material added after J: neutral-witness/Protector realization, self-hypnosis realization, named-modality bridge, and real-love-source cue. Do not preserve those assistant realizations merely because some were based on owner source pools;
+- subsequent production repair should restore higher-authority owner surface where available and minimize new connective prose.
+
+## Reader-facing candidate tested
 
 # Somatic Work and Inner-Child Reparenting
 
@@ -40,9 +51,5 @@ There’s one very simple technique you can do at any time to feel a deeper conn
 
 ## Detector identity
 
-Reader-visible detector text removes the Markdown heading marker and URL while retaining visible anchor text.
-
 Reader-visible SHA-256: `e7d10b1f120f14b8c1cfb2eef62a3e8350120ceb7680b74ec803b69ca5919084`  
 Whitespace words including visible heading: **416**.
-
-Known-green embedded boundary: the five-paragraph J core is owner-reported Pangram **Human / high confidence**. R03 does not alter those five paragraphs; it adds only recovered-source material for neutral witnessing, Protector action, light self-hypnosis, the real-love source cue, and one compact relation restoring the named gentler modalities' before/alongside-reparenting function.
