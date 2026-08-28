@@ -31,7 +31,9 @@ Current owner corrections supersede the earlier assistant-generated architecture
 
 `OWNER-LOCKS.json` and `ARCHITECTURE.md` encode the no-Jobs correction.
 
-## Current whole-article candidate: r15
+## Current checkpoint
+
+### Whole-article candidate: r15
 
 `experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md`
 
@@ -58,6 +60,14 @@ The local headed Playwright/Brave route measured the correct reader-visible r15 
 - exact stored-History binding.
 
 Durable GUI evidence lives in `u-dont-existDOTcom/pangram-humanization-lab@agent/pangram-local-playwright-gpt-20260818`, including `state/PANGRAM-LOCAL-SOMATIC-R15-GUI-RECOVERY-2026-08-25.md` and the content-addressed result directory for SHA `d5101f...`.
+
+## Completed
+
+- The r15 whole-article GUI measurement is bound to the exact reader-visible text and stored History result.
+- The Introduction and physical-state localization work is complete; the 109-word owner core is frozen Human/high, while the 57-word model lead remains unresolved.
+- `Where I Would Start` resolved AI/high and its 15 functions are routed to natural destinations instead of retained as a synthetic summary section.
+- Reparenting R08, R09, R10, and R11 are complete. R08 remains frozen Human/high; the six-call reparenting cap is exhausted; R12 is the preservation-clean distributed assembly.
+- The historical Shaking Qigong reservation ambiguity was investigated through two read-only GUI History recoveries and remains non-repeatable.
 
 ## Current production strategy — natural section at a time
 
@@ -120,7 +130,7 @@ Durable result: `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-
 
 **Freeze the 109-word Human core.** Do not keep paraphrasing the 57-word lead with model-generated variants. It is now a narrow fresh-owner-language TODO.
 
-### `Where I Would Start` — repaired and queued, result pending
+### `Where I Would Start` — R01 AI/high; standalone synthesis routed out
 
 The r15 prose had independently visible production defects: it opened by rebutting the discarded ladder architecture and ended with a neat intensity mini-taxonomy. Paying for that knowingly model-shaped baseline would violate production preflight.
 
@@ -132,11 +142,20 @@ Prepared candidate:
 - preservation PASS; unexplained substantive deltas 0;
 - detector eligibility PASS.
 
-The immutable private-executor request `somatic-r15-section-where-start-r01-api-20260827-a` is queued. **Do not create a replacement request or duplicate call while it is queued.** Act on its exact durable result when available.
+The original immutable request `somatic-r15-section-where-start-r01-api-20260827-a` completed on 2026-08-28 after two zero-step cancellations and one successful rerun. The zero-step attempts made no detector call. Exact result:
 
-### `Somatic Work and Inner-Child Reparenting` — repaired/preflighted, not submitted
+- Pangram 4.0 / `STAGE_SUCCESS`;
+- AI `1.0`, Human `0.0`, AI-assisted `0.0`;
+- one complete-section 162-word AI/high window;
+- 1 paid call; 0 duplicates.
 
-Prepared candidate:
+Durable result: `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch/state/experiments/somatic-r15-section-where-start-r01-api-20260827-a-results.json`.
+
+No independent natural-owner realization of this synthetic summary section was recovered. Its 15 functions already have natural destinations in the Introduction, physical-state/outcome material, Gentle Shaking, Brainspotting, EMDR, reparenting, and high-intensity-practices sections. The next whole candidate therefore removes the standalone section while retaining 15/15 functions article-wide. Exact routing proof: `experiments/R15-WHERE-I-WOULD-START-R02-ROUTING-DISPOSITION-20260828.md`.
+
+### `Somatic Work and Inner-Child Reparenting` — R11 split complete; R12 distributed assembly frozen
+
+The earlier r01 candidate and its 30-unit preservation proof remain historical inputs:
 
 - `experiments/R15-REPARENTING-R01-REPAIR-CANDIDATE-20260827.md`;
 - preservation/preflight: `experiments/R15-REPARENTING-R01-PRESERVATION-AND-PREFLIGHT-20260827.md`;
@@ -145,9 +164,17 @@ Prepared candidate:
 - unexplained substantive deltas 0;
 - detector eligibility PASS.
 
-This candidate starts from the actual reparenting problem—being so flooded that adult perspective is unavailable—rather than an abstract `regulation is not an end in itself` thesis. It retains the complete owner-required reparenting framework and ends on the heart ↔ solar-plexus love loop rather than generic safety aftercare.
+The completed R11 two-call split reused exact Human M01 and exact combined M11 without resubmission. Neutral-witness-only became Mixed at AI `0.3653846085`; borrowed-adulthood-only became Mixed at AI `0.3947598338`. Either compact single-function realization is sufficient to cross the exact M01 boundary. Paid calls: 2. Duplicates: 0. Exact article receipt: `experiments/R15-REPARENTING-R11-SINGLE-FUNCTION-SPLIT-RESULT-20260828.md`.
 
-**Do not submit this section until the queued `Where I Would Start` request resolves.**
+The preservation-clean R12 assembly now distributes the functions instead of stacking them:
+
+- the main overlap keeps exact R08, exact known-Human M01, owner-derived body-tension/heart-access preparation, the positive love-source turn, and the minimum-normalized owner heart ↔ solar-plexus loop;
+- plain witnessing moves under `Building Enough Safety to Stay Present`;
+- borrowed adulthood moves to the later `Light CBT / Narrative Integration` return to reparenting;
+- Brainspotting/EMDR relationships remain in their dedicated sections;
+- deep-work stay/stop/return readiness moves beside Sky Hypnosis/Vagal Blitz.
+
+Candidate: `experiments/R15-REPARENTING-R12-DISTRIBUTED-ASSEMBLY-CANDIDATE-20260828.md`. Preservation/architecture proof: `experiments/R15-REPARENTING-R12-PRESERVATION-AND-ARCHITECTURE-20260828.json`; 30/30 functions preserved; unexplained substantive deltas 0. The reparenting section has reached its six-call cap (four R10 + two R11), so no seventh section call is authorized. The next measurement is the final whole-article GUI boundary after local repairs settle.
 
 
 ### Reparenting R08/R09 continuation — four-cell production matrix complete
@@ -170,7 +197,7 @@ The constant Nurturer/Protector/action cluster was not sufficient to flip the re
 
 Four paid calls were made with zero duplicates; authenticated History recovered all four exact texts. No production-complete Human candidate emerged. M01 is only a detector-Human partial building block and is non-promotable because A is absent. M11 is detector-rejected. R08 remains frozen byte-for-byte, all protected functions remain mandatory, and article authority impact is **none**.
 
-Durable packet, exact input identities, reservations, results, and lessons are on `u-dont-existDOTcom/pangram-humanization-lab@experiment/somatic-reparenting-production-matrix-20260828`.
+Durable R10 packet, exact input identities, reservations, results, and lessons are on `u-dont-existDOTcom/pangram-humanization-lab@experiment/somatic-reparenting-production-matrix-20260828`. Durable R11 split evidence is on `u-dont-existDOTcom/pangram-humanization-lab@experiment/somatic-reparenting-a-split-20260828` at checkpoint `51d7da19`.
 
 ## Known Human anchors to protect
 
@@ -185,21 +212,23 @@ The user-supplied Pangram report and subsequent exact section work identify stro
 
 Known-Human status is evidence, not immunity from a real editorial defect, but do not reopen these spans merely because an adjacent short boundary is red.
 
-## Remaining natural-section sequence
+## Evidence / artifacts
 
-After the queued request resolves:
+- Whole-r15 checkpoint and preservation receipt: `experiments/R15-CHECKPOINT-20260825.md` and `experiments/R15-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260825.md`.
+- Introduction and physical-state receipts: `experiments/R15-INTRODUCTION-R01-PRESERVATION-AND-PREFLIGHT-20260827.md` and `experiments/R15-PHYSICAL-STATE-R01-PRESERVATION-AND-PREFLIGHT-20260827.md`.
+- `Where I Would Start` routing receipt: `experiments/R15-WHERE-I-WOULD-START-R02-ROUTING-DISPOSITION-20260828.md`.
+- Reparenting split and distributed-assembly receipts: `experiments/R15-REPARENTING-R11-SINGLE-FUNCTION-SPLIT-RESULT-20260828.md` and `experiments/R15-REPARENTING-R12-PRESERVATION-AND-ARCHITECTURE-20260828.json`.
+- Remaining-section batch inputs and shared preflight: `experiments/R15-SECTIONS-R01-*.txt` and `experiments/R15-SECTIONS-R01-PRESERVATION-AND-PREFLIGHT-20260828.md`.
 
-1. act on `Where I Would Start` result;
-2. if no new owner question arises, submit the already-preflighted reparenting candidate once;
-3. continue through Somatic Experiencing, trauma-sensitive/restorative yoga, and gentle shaking as separate natural subsections where useful;
-4. protect the known-Human EFT and Louka/Shaking anchors; test only connective/newly generated material when a result will change an edit;
-5. test Brainspotting and EMDR as natural sections, preserving their owner-specific core distinctions;
-6. test Light CBT/narrative integration if still necessary;
-7. split outcome checking around the known-Human housemate experiment and focus on the model-generated post-anecdote tail;
-8. test Sky Hypnosis/Vagal Blitz last;
-9. assemble accepted local repairs into a new whole-article candidate, rerun article-wide preservation/architecture/native-object/link gates, then perform one final headed GUI whole-article check.
+## Remaining
 
-## Promotion / blockers
+The exact next batch is frozen in eight `experiments/R15-SECTIONS-R01-*.txt` files with shared preservation/preflight `experiments/R15-SECTIONS-R01-PRESERVATION-AND-PREFLIGHT-20260828.md`. It covers Somatic Experiencing, yoga, gentle shaking/TRE, Brainspotting, EMDR, Light CBT plus routed borrowed adulthood, outcome checking, and Sky/Vagal plus routed deep-work readiness. It spends one section-scoped call per natural boundary under the existing `somatic-r15-section-localization-20260827` audit.
+
+Protect the known-Human EFT/head-massage and Louka/Shaking Qigong anchors. The historical Shaking Qigong r01 API reservation remains genuinely ambiguous: one paid POST was reserved, no task/cache/result survived, and two read-only GUI History recoveries found no exact record. Because GUI History absence cannot clear async API ambiguity, do not repeat that exact SHA.
+
+After the eight exact results resolve, make only decision-changing source recovery/minimum-dose repairs, assemble a new whole-article candidate, rerun article-wide preservation/architecture/native-object/link gates, and perform one final headed GUI whole-article check.
+
+## Blockers / unresolved
 
 - Registered `master.html` remains unchanged.
 - r15 and local repairs are non-authoritative until owner acceptance and exact HTML reconstruction/promotion.
@@ -207,3 +236,7 @@ After the queued request resolves:
 - Citation/health verification remains a separate pending task unless requested or materially required.
 - Owner-final review/publication export remains pending.
 - Do not restore five Jobs/stages, manufacture anecdotes, reopen known-Human spans solely for detector reasons, or repeat queued/ambiguous/already-paid measurements.
+
+## Next safe action
+
+Run the frozen eight-section batch once through the immutable private executor. Bind each exact result before any repair, retain Human sections unchanged, and use source recovery or minimum-dose edits only where an AI/Mixed result changes the editorial decision. Then assemble the post-r15 whole candidate, rerun preservation/architecture/native-object/link gates, and spend one final headed GUI whole-article call.

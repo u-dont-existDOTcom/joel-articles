@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "article_id": "somatic-therapies",
+  "candidate": {
+    "path": "articles/somatic-therapies/experiments/R15-REPARENTING-R12-DISTRIBUTED-ASSEMBLY-CANDIDATE-20260828.md",
+    "sha256": "f40ae9f9768b9b8e62ca82ca4cd041a24e9ccb9d018e4a0574d22e75246d832a",
+    "authority": "non-authoritative production candidate"
+  },
+  "registered_master": {
+    "path": "articles/somatic-therapies/master.html",
+    "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202",
+    "changed": false
+  },
+  "detector_controls": {
+    "r08_reader_visible_sha256": "6ceaa3becafb78bb75df043e5ff88cd41d46496ef93d9a0500b6759856c5811a",
+    "r08_status": "byte-identical Human source boundary retained",
+    "m01_file_sha256_including_terminal_newline": "8379af60d09e82e38b41c0d57d51b44c5c532df95d66c6c66143d1202a30b82b",
+    "m01_reader_visible_sha256_excluding_terminal_newline": "1aa888df956a77c3bb27a5924c1c9d4aab4d02eeab53b1fd18634f2fc724aed9",
+    "m01_status": "byte-identical reader-visible prefix retained after Markdown link normalization; completed Human / displayed 100% / medium control",
+    "witness_split": "Mixed at AI 0.3653846085 when compact witness-only paragraph was appended to exact M01",
+    "borrowed_split": "Mixed at AI 0.3947598338 when compact borrowed-adulthood-only paragraph was appended to exact M01"
+  },
+  "source_authority": [
+    "articles/somatic-therapies/experiments/R15-REPARENTING-ADULT-TRUST-OWNER-SOURCE-20260828.md",
+    "articles/somatic-therapies/experiments/R15-REPARENTING-WITNESS-PROTECTOR-HYPNOSIS-SOURCE-20260828.md",
+    "articles/somatic-therapies/experiments/R15-REPARENTING-SOMATIC-PREP-OWNER-SOURCE-20260828.md",
+    "articles/somatic-therapies/experiments/R15-REPARENTING-HEART-LOOP-OWNER-SOURCE-20260828.md",
+    "articles/somatic-therapies/experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md"
+  ],
+  "protected_function_routing": [
+    {
+      "units": "PU-01 through PU-04, PU-07, PU-08",
+      "destination": "Somatic Work and Inner-Child Reparenting",
+      "realization": "exact R08 plus exact known-Human M01 extension"
+    },
+    {
+      "units": "PU-05",
+      "destination": "Building Enough Safety to Stay Present",
+      "realization": "minimum-normalized owner-controlled plain-witnessing source"
+    },
+    {
+      "units": "PU-06",
+      "destination": "Light CBT / Narrative Integration",
+      "realization": "minimum-normalized owner-controlled borrowed-adulthood source"
+    },
+    {
+      "units": "PU-09 through PU-12",
+      "destination": "dedicated Somatic Experiencing, yoga, shaking/TRE, EFT, and qigong sections",
+      "realization": "existing r15 modality prose retained; no overlap-section catalogue"
+    },
+    {
+      "units": "PU-13 through PU-16",
+      "destination": "Somatic Work and Inner-Child Reparenting",
+      "realization": "owner-derived solar-plexus tension, mantra, unforced slower exhale, and passive/relaxed/unforced Buteyko relation before the heart practice"
+    },
+    {
+      "units": "PU-17 through PU-21",
+      "destination": "Brainspotting and EMDR sections",
+      "realization": "existing r15 reparenting relation and diffuse-versus-discrete readiness distinction retained"
+    },
+    {
+      "units": "PU-22 through PU-26",
+      "destination": "Sky Hypnosis and Vagal Blitz",
+      "realization": "deep-work stay/stop/return readiness rule placed beside the high-intensity practices it governs"
+    },
+    {
+      "units": "PU-27 through PU-30",
+      "destination": "Somatic Work and Inner-Child Reparenting",
+      "realization": "positive love-source turn followed by minimum-normalized exact owner heart-to-solar-plexus loop"
+    }
+  ],
+  "traceability": {
+    "forward": "PASS 30/30 protected units",
+    "reverse": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "omitted_functions": 0,
+    "new_autobiographical_claims": 0
+  },
+  "architecture": {
+    "no_five_jobs_or_stages": "PASS",
+    "modalities_remain_dedicated_practices": "PASS",
+    "reparenting_recurs_across_article": "PASS",
+    "witness_and_borrowed_adulthood_separated_from_m01_and_each_other": "PASS",
+    "safety_adjacent_to_governed_high_intensity_practices": "PASS",
+    "heart_loop_ends_main_overlap_section": "PASS",
+    "duplicate_modality_catalogue_removed": "PASS",
+    "article_authority_impact": "none"
+  },
+  "detector_disposition": {
+    "new_paid_reparenting_call": "not authorized under the current six-call section cap; R10 used four and R11 used two",
+    "token_hunting": "prohibited by the decisive two-cell split",
+    "next_measurement": "final whole-article headed GUI check after all local repairs settle",
+    "production_status": "editorially assembled and preservation-clean; detector certification unresolved"
+  }
+}

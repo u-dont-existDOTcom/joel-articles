@@ -49,7 +49,8 @@ The reader should encounter the modalities as actual therapies/practices with th
 ## Protected function routing
 
 - Professor Baby Sheep and the head-shaving/loveyhuasca material provide real supplied personality early; they are not optional detector decoration.
-- Inner-child Nurturer/Protector, borrowed-adulthood, self-hypnosis, and heart-loop material remains an overlap section rather than a late integration bucket.
+- Inner-child reparenting remains a recurring article thread rather than a late integration bucket. The main overlap owns the adult/child trust conflict, Nurturer/Protector action, light self-hypnosis, somatic heart access, and the heart ↔ solar-plexus loop. Plain witnessing belongs under `Building Enough Safety to Stay Present`; borrowed adulthood returns under `Light CBT / Narrative Integration`; Brainspotting and EMDR retain their own reparenting/readiness relations.
+- Do not stack compact neutral-witness and borrowed-adulthood explanations onto the known-Human adult-trust/Nurturer/Protector/hypnosis boundary. The completed R11 split found that either compact realization independently crossed that exact boundary to Mixed. Preserve both functions through the routed destinations above; this is an architecture rule for the current candidate, not a phrase ban.
 - Safety warnings stay adjacent to the practice they govern, but the general stay/stop/return rule should not be re-explained after every modality.
 - Evidence-plane distinctions are stated economically: preserve genuinely different source types and specific evidence limits without repeating a general responsible-explainer disclaimer throughout the article.
 - Sky Hypnosis and Vagal Blitz remain optional high-intensity practices after the main modality discussion, with their own physical/mental-health cautions.
