@@ -158,7 +158,11 @@
         {"path": "articles/somatic-therapies/experiments/R17-YOGA-R01-20260828.txt", "sha256": "e4b1cbe28bc700b06514a2088166e663eb3f9baa6aa5e2f927b710fcf3038787", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R17-BRAINSPOTTING-R01-20260828.txt", "sha256": "60843bb5c71f0eaa1dabc3dff502dc2b2e11c952bf3c11f8cfd86d00abeb038b", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R17-EMDR-R01-20260828.txt", "sha256": "54420c1b8a9b9ea543c5706019d494a07818f17cc7ca4730c75e9caa58d480ba", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R17-SKY-VAGAL-R01-20260828.txt", "sha256": "815e7332e4f609f5689e0e8a6214515c326ed7fb90465060519a92fef0335500", "role": "detector_input"}
+        {"path": "articles/somatic-therapies/experiments/R17-SKY-VAGAL-R01-20260828.txt", "sha256": "815e7332e4f609f5689e0e8a6214515c326ed7fb90465060519a92fef0335500", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-RULE-LEARNING-R01-RESULT-20260828.md", "sha256": "e80c1df0a802027e595965ee225e6efb320a9a3499ade5a33306303b8131c280", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R02-PROCEDURAL-20260828.txt", "sha256": "7e230bfbc2ecc1443dec9c754cbdab826807188d73b86501dede4ded5fac647f", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R03-OWNER-SYNTAX-20260828.txt", "sha256": "bc35123050ffe8dca26f247fd0738fa2ea9db7c700a19970c9fe9961dfeab856", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R02-R03-PRESERVATION-20260828.md", "sha256": "e0665fdc20e4cea1d4ffc708a510c09c8fa26fc636d3600e316fd86b417996d8", "role": "preservation_and_preflight"}
       ]
     }
   ]
