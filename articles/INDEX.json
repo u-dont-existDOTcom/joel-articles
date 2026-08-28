@@ -152,7 +152,13 @@
         {"path": "articles/somatic-therapies/experiments/R16-POST-LOCALIZATION-WHOLE-ARTICLE-CANDIDATE-20260828.md", "sha256": "2061fc433030a5a46ba72ef95a8ddb327e81cd7954ec20efd5cd4ff9592c8351", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R16-PRESERVATION-ARCHITECTURE-AND-PREFLIGHT-20260828.md", "sha256": "6618fbbf9b1377d13e41c63d8978ee70a2eef0503600ab90f0fc34b309e2eb4b", "role": "preservation_and_preflight"},
         {"path": "articles/somatic-therapies/experiments/R16-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260828.txt", "sha256": "52468eabb61aa437f7216d0f6bcef295605b016465e00f5e7a4f63c53fbbaace", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R16-FINAL-GUI-RESULT-20260828.md", "sha256": "6165d1d1ee6ddb09fac0a13da2211f4376d14548af8d10f5aa6dae46172031bb", "role": "detector_experiment_result"}
+        {"path": "articles/somatic-therapies/experiments/R16-FINAL-GUI-RESULT-20260828.md", "sha256": "6165d1d1ee6ddb09fac0a13da2211f4376d14548af8d10f5aa6dae46172031bb", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R17-RULE-LEARNING-R01-CANDIDATES-20260828.md", "sha256": "59bf744a28eff9855a03f899bb1671f3e16524cbafe0f3b7c708a3f6df5ba216", "role": "detector_experiment_design"},
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R01-20260828.txt", "sha256": "c0877d56f3dbed5315bbdfcee0d8eb06db8623d2977922d8b405babf74f83f24", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-YOGA-R01-20260828.txt", "sha256": "e4b1cbe28bc700b06514a2088166e663eb3f9baa6aa5e2f927b710fcf3038787", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-BRAINSPOTTING-R01-20260828.txt", "sha256": "60843bb5c71f0eaa1dabc3dff502dc2b2e11c952bf3c11f8cfd86d00abeb038b", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-EMDR-R01-20260828.txt", "sha256": "54420c1b8a9b9ea543c5706019d494a07818f17cc7ca4730c75e9caa58d480ba", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-SKY-VAGAL-R01-20260828.txt", "sha256": "815e7332e4f609f5689e0e8a6214515c326ed7fb90465060519a92fef0335500", "role": "detector_input"}
       ]
     }
   ]
