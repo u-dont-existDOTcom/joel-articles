@@ -36,5 +36,19 @@
     "largest_remaining_weakness": "plain adjacency before the hypnosis option must be judged in the assembled section; detector evidence cannot decide placement quality"
   },
   "unexplained_substantive_deltas": 0,
-  "detector_eligibility": "PASS for four exact reserved cells"
+  "detector_eligibility": "PASS for four exact reserved cells",
+  "detector_results": {
+    "M00": {"classification": "Human", "display_percent_human": 100, "confidence": "medium"},
+    "M10": {"classification": "Mixed", "display_percent_ai": 35, "display_percent_human": 65, "ai_segment_confidence": "high"},
+    "M01": {"classification": "Human", "display_percent_human": 100, "confidence": "medium"},
+    "M11": {"classification": "Mixed", "display_percent_ai": 46, "display_percent_human": 54, "human_r08_confidence": "high", "extension_ai_confidence": "high"}
+  },
+  "production_disposition": {
+    "production_complete_human_candidate": null,
+    "M01": "detector-Human partial building block only; not promotable because witness/borrowed-adulthood functions are absent",
+    "M11": "detector-rejected full realization; protected functions remain mandatory",
+    "r08": "frozen byte-for-byte",
+    "article_authority_impact": "none"
+  },
+  "paid_call_accounting": {"paid_calls": 4, "duplicate_calls": 0, "untouched_r08_submissions": 0, "repeated_r09_submissions": 0}
 }
