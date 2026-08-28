@@ -32,7 +32,7 @@ Gentle [self-hypnosis](http://hypnosis.u-dont-exist.com/) can help too. Gather a
 
 When the body feels tight or there’s too much emotional tension to access the heart chakra, use an unforced slower exhale. With Buteyko-style breathing, the slow exhale should be passive, relaxed, and unforced.
 
-EFT, Somatic Experiencing, trauma-sensitive yoga, shaking, and qigong can serve the same basic purpose here: settling the body enough to make reparenting possible, before it or while I'm doing it.
+I might do EFT, Somatic Experiencing, trauma-sensitive yoga, shaking, or qigong first too. I can also keep doing them while I reparent if the body starts tightening again.
 
 If I can’t feel the love directly, I think of a person or pet I actually love, feel that first, and redirect it.
 
@@ -42,7 +42,7 @@ There’s one very simple technique you can do at any time to feel a deeper conn
 
 Reader-visible detector text removes the Markdown heading marker and URL while retaining visible anchor text.
 
-Reader-visible SHA-256: `2bfab70b34bb53923b4160baf691aa284e9ab0a9820fb0fcd6a1a6484b37d0cd`  
-Whitespace words including visible heading: **418**.
+Reader-visible SHA-256: `e7d10b1f120f14b8c1cfb2eef62a3e8350120ceb7680b74ec803b69ca5919084`  
+Whitespace words including visible heading: **416**.
 
-Known-green embedded boundary: the five-paragraph J core is owner-reported Pangram **Human / high confidence**. R03 does not alter those five paragraphs; it adds only recovered-source material for neutral witnessing, Protector action, light self-hypnosis, the real-love source cue, and one compact routing sentence restoring the named gentler modalities' before/alongside-reparenting relationship.
+Known-green embedded boundary: the five-paragraph J core is owner-reported Pangram **Human / high confidence**. R03 does not alter those five paragraphs; it adds only recovered-source material for neutral witnessing, Protector action, light self-hypnosis, the real-love source cue, and one compact relation restoring the named gentler modalities' before/alongside-reparenting function.
