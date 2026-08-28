@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "article_id": "somatic-therapies",
+  "experiment_id": "somatic-reparenting-production-matrix-20260828",
+  "status": "PASS",
+  "authority_impact": "none",
+  "registered_master_sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202",
+  "frozen_r08_sha256": "6ceaa3becafb78bb75df043e5ff88cd41d46496ef93d9a0500b6759856c5811a",
+  "source_blobs": {
+    "r08_candidate": "324ad7f74165684407f752f5496e097664dbed3e",
+    "r09_candidate": "9b5326325e18ec7cec8ad37d5f757bf74305f6d5",
+    "owner_controlled_published_pool": "e54e44702ba2f61b55e83bfcbf3581669bb848e0",
+    "architecture": "426af05383a40bdff7c9a4507636eb1b3cee2709",
+    "owner_locks": "5ebe4768862f8d216694fcd9cc3d67ab836d4234"
+  },
+  "placement": "Somatic Work and Inner-Child Reparenting; after adult/child trust and before body-tension/heart-access plus Heart–Solar Plexus Loop ending",
+  "required_units": {
+    "r08_adult_child_trust": "byte-identical in every cell",
+    "nurturer_protector": "preserved in every cell",
+    "real_protector_action": "The Protector cleans the room. in every cell",
+    "neutral_witness": "preserved in M10/M11; authorized diagnostic withholding in M00/M01; routed to M11",
+    "borrowed_adulthood": "preserved in M10/M11; authorized diagnostic withholding in M00/M01; routed to M11",
+    "light_self_hypnosis": "preserved in M01/M11; authorized diagnostic withholding in M00/M10; routed to M11",
+    "no_forced_trauma_memory": "preserved in M01/M11; authorized diagnostic withholding in M00/M10; routed to M11",
+    "self_hypnosis_link": "article-form M01/M11 preserve http://hypnosis.u-dont-exist.com/ on self-hypnosis"
+  },
+  "per_cell": {
+    "M00": {"forward_traceability": "PASS for authorized diagnostic scope", "reverse_traceability": "PASS", "unexplained_substantive_deltas": 0, "production_eligible": false},
+    "M10": {"forward_traceability": "PASS for authorized diagnostic scope", "reverse_traceability": "PASS", "unexplained_substantive_deltas": 0, "production_eligible": false},
+    "M01": {"forward_traceability": "PASS for authorized diagnostic scope", "reverse_traceability": "PASS", "unexplained_substantive_deltas": 0, "production_eligible": false},
+    "M11": {"forward_traceability": "PASS for all protected units", "reverse_traceability": "PASS", "unexplained_substantive_deltas": 0, "production_eligible": true}
+  },
+  "cold_audit": {
+    "pass_1": "PASS",
+    "pass_2": "PASS with article-wide dependency regression still required before promotion",
+    "largest_remaining_weakness": "plain adjacency before the hypnosis option must be judged in the assembled section; detector evidence cannot decide placement quality"
+  },
+  "unexplained_substantive_deltas": 0,
+  "detector_eligibility": "PASS for four exact reserved cells"
+}
