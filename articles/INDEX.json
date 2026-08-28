@@ -189,7 +189,8 @@
         {"path": "articles/somatic-therapies/experiments/R19-GENTLE-SHAKING-NECK-ONLY-20260828.txt", "sha256": "d5aedc91469ff2414d5b6bff992fe0dafd904900604485d4bf641f8b46bb0db5", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R19-SKY-SAFETY-ONLY-20260828.txt", "sha256": "174a669e550a6dd72049bcbf6532953d318835c8fe4552ae8a6ef182b46d960d", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R19-SKY-OUTCOME-ONLY-20260828.txt", "sha256": "db3a69e10c8841e8187f47d523a2a9dee272566b409dca502f4fb9f707c54be8", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R19-CONTROLLED-FUNCTION-SPLIT-PRESERVATION-20260828.md", "sha256": "fb3dc18396b3bda4c96541017e662a1a7f3dbb4a777cb7d94d23bf46644fe066", "role": "preservation_and_preflight"}
+        {"path": "articles/somatic-therapies/experiments/R19-CONTROLLED-FUNCTION-SPLIT-PRESERVATION-20260828.md", "sha256": "fb3dc18396b3bda4c96541017e662a1a7f3dbb4a777cb7d94d23bf46644fe066", "role": "preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R19-CONTROLLED-FUNCTION-SPLIT-RESULT-20260828.md", "sha256": "71c6552941f0c6ed5bb71120361e935121d77e7a7417a5dbc2299a0e7a652c8d", "role": "detector_experiment_result"}
       ]
     }
   ]
