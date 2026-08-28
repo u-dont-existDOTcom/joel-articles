@@ -181,7 +181,15 @@
         {"path": "articles/somatic-therapies/experiments/R18-BRAINSPOTTING-R01-20260828.txt", "sha256": "d60b7d610a55a542ab63bc58167c50beff3d3667d5695e32108c7d77aa2a3062", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R18-EMDR-R01-20260828.txt", "sha256": "24291c4c1162117cd4859a47ffba4254edcb47ae689d6b159524c1e653a5dad6", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R18-LIGHT-CBT-R01-20260828.txt", "sha256": "f9200932fcfd62364872fcce7a9439dfd6fa6400b8e1cdc3340c9e94a8acac80", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R18-SKY-VAGAL-R01-20260828.txt", "sha256": "9e89dc7da058ecd8deef7e4986166186cda7de752040f3faa6ea4b1ff0143e76", "role": "detector_input"}
+        {"path": "articles/somatic-therapies/experiments/R18-SKY-VAGAL-R01-20260828.txt", "sha256": "9e89dc7da058ecd8deef7e4986166186cda7de752040f3faa6ea4b1ff0143e76", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R18-LOCAL-SECTIONS-R01-RESULT-20260828.md", "sha256": "fe653cbb67369ec306e772ae30ca5fac4094d2bd319455d1ac26ba3abc1c7db2", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R19-YOGA-DEFINITION-ONLY-20260828.txt", "sha256": "9b5de38c5bcc32e753b7570ce674002277199dc94ca876ebeb450ef3cf8cc7b1", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R19-YOGA-SAFETY-ONLY-20260828.txt", "sha256": "f9f480d7900f83afb70f51f31dba63e7a83cd0c195c0b10d9ede6c2155f0f06e", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R19-GENTLE-SHAKING-PRACTICE-ONLY-20260828.txt", "sha256": "4ccf651158c37ebe0ea5fa542bc02891d5f6c0da716ef4c5304db9eef8eef6c3", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R19-GENTLE-SHAKING-NECK-ONLY-20260828.txt", "sha256": "d5aedc91469ff2414d5b6bff992fe0dafd904900604485d4bf641f8b46bb0db5", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R19-SKY-SAFETY-ONLY-20260828.txt", "sha256": "174a669e550a6dd72049bcbf6532953d318835c8fe4552ae8a6ef182b46d960d", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R19-SKY-OUTCOME-ONLY-20260828.txt", "sha256": "db3a69e10c8841e8187f47d523a2a9dee272566b409dca502f4fb9f707c54be8", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R19-CONTROLLED-FUNCTION-SPLIT-PRESERVATION-20260828.md", "sha256": "fb3dc18396b3bda4c96541017e662a1a7f3dbb4a777cb7d94d23bf46644fe066", "role": "preservation_and_preflight"}
       ]
     }
   ]
