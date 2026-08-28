@@ -147,7 +147,11 @@
         {"path": "articles/somatic-therapies/experiments/R15-SECTIONS-R01-EMDR-20260828.txt", "sha256": "fcca0b74d933aa5a0272e74ec3feb9b9b8ef6936e019bb591db237b6b2c5c3a5", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R15-SECTIONS-R01-LIGHT-CBT-20260828.txt", "sha256": "144dab2fc78f6ff3128c20fdd2503cff8212cb4f799b7f9a5280eb22a0c447a0", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R15-SECTIONS-R01-OUTCOME-20260828.txt", "sha256": "15671184858926e261b24ef3ff38f35ecef07d939e00eda595e729699ba68b99", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R15-SECTIONS-R01-SKY-VAGAL-20260828.txt", "sha256": "6709b565113070f6c8e0a4d4a2ef60b1c12160fb8b5a9025fc2377ed8f78e48a", "role": "detector_input"}
+        {"path": "articles/somatic-therapies/experiments/R15-SECTIONS-R01-SKY-VAGAL-20260828.txt", "sha256": "6709b565113070f6c8e0a4d4a2ef60b1c12160fb8b5a9025fc2377ed8f78e48a", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R15-SECTIONS-R01-RESULT-AND-DISPOSITION-20260828.md", "sha256": "f203404bbd854f449657c70c11fd28486b12f6bc63699f91f21d1764743445ad", "role": "detector_result_and_routing_disposition"},
+        {"path": "articles/somatic-therapies/experiments/R16-POST-LOCALIZATION-WHOLE-ARTICLE-CANDIDATE-20260828.md", "sha256": "2061fc433030a5a46ba72ef95a8ddb327e81cd7954ec20efd5cd4ff9592c8351", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R16-PRESERVATION-ARCHITECTURE-AND-PREFLIGHT-20260828.md", "sha256": "6618fbbf9b1377d13e41c63d8978ee70a2eef0503600ab90f0fc34b309e2eb4b", "role": "preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R16-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260828.txt", "sha256": "52468eabb61aa437f7216d0f6bcef295605b016465e00f5e7a4f63c53fbbaace", "role": "detector_input"}
       ]
     }
   ]
