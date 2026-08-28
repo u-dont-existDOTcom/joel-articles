@@ -166,7 +166,11 @@
         {"path": "articles/somatic-therapies/experiments/R17-SE-R02-R03-RESULT-20260828.md", "sha256": "50e2fa76d1d2e5f96f75d08e55add0c9261d3a699275d870af47c6a4836017ce", "role": "detector_experiment_result"},
         {"path": "articles/somatic-therapies/experiments/R17-SE-R04-METHOD-ONLY-20260828.txt", "sha256": "ef7104bd1b64f5568d83ce0073131d0f675ee98b04fb42d44c52426f7fee137b", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R17-SE-R05-TIMING-ONLY-20260828.txt", "sha256": "4bd4e800b42f94712212b37cf479d0786355b33b5b9a7f45b361fc358c2053bb", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R17-SE-R04-R05-PRESERVATION-20260828.md", "sha256": "ec88bdeccd39d365db2875b7259316b4a7a81ef9258ce99d3dcc12b5a97850ad", "role": "preservation_and_preflight"}
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R04-R05-PRESERVATION-20260828.md", "sha256": "ec88bdeccd39d365db2875b7259316b4a7a81ef9258ce99d3dcc12b5a97850ad", "role": "preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R17-CORPUS-SKELETON-R01-CANDIDATES-20260828.md", "sha256": "a2af7c3e13dc27fb43127d43166813d8f4561f3bcf1373da25b314047aeecb85", "role": "detector_experiment_design"},
+        {"path": "articles/somatic-therapies/experiments/R17-YOGA-R02-CORPUS-SKELETON-20260828.txt", "sha256": "2143b7ee964a282a9c3690665d4797d74056552181691d10b5e133947107338a", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-EMDR-R02-CORPUS-SKELETON-20260828.txt", "sha256": "5c987c73159adef4fe14d36e36fe0d368cd248f987ef71176b1a3d24a84a5f54", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-SKY-VAGAL-R02-CORPUS-SKELETON-20260828.txt", "sha256": "28799f7fc15746abeadbe40b476f4b96bbd366730b3952878de5f90b802f8f42", "role": "detector_input"}
       ]
     }
   ]
