@@ -1,6 +1,6 @@
 # Somatic Therapies — Current State
 
-Updated: 2026-08-27
+Updated: 2026-08-28
 
 ## Goal
 
@@ -148,6 +148,29 @@ Prepared candidate:
 This candidate starts from the actual reparenting problem—being so flooded that adult perspective is unavailable—rather than an abstract `regulation is not an end in itself` thesis. It retains the complete owner-required reparenting framework and ends on the heart ↔ solar-plexus love loop rather than generic safety aftercare.
 
 **Do not submit this section until the queued `Where I Would Start` request resolves.**
+
+
+### Reparenting R08/R09 continuation — four-cell production matrix complete
+
+Direct owner continuation supersedes the earlier detector-order note above. R08 remains the byte-identical known-Human baseline (reader-visible SHA-256 `6ceaa3becafb78bb75df043e5ff88cd41d46496ef93d9a0500b6759856c5811a`) and was not resubmitted. The existing R09 evidence was reused without a paid repeat: paragraph 1 is exact R08 and Human/high; its 66-word paragraph 2 is AI/high.
+
+A four-call conditional 2×2 matrix kept R08 plus a concrete Nurturer/Protector/action cluster constant, then independently added (A) neutral witness + borrowed adulthood and (B) light self-hypnosis + present safety + no forced trauma-memory work. Exact cells and preservation proof:
+
+- `experiments/R15-REPARENTING-R10-PRODUCTION-MATRIX-CANDIDATES-20260828.md`;
+- `experiments/R15-REPARENTING-R10-PRODUCTION-MATRIX-PRESERVATION-20260828.json`.
+
+Pangram 4.0 results:
+
+- M00 (constant only): Human, displayed 100% Human, medium confidence;
+- M10 (+A): Mixed, displayed 35% AI / 65% Human; later 70-word AI/high segment;
+- M01 (+B): Human, displayed 100% Human, medium confidence;
+- M11 (+A+B; only production-complete cell): Mixed, displayed 46% AI / 54% Human; exact R08 Human/high and the complete 104-word extension AI/high.
+
+The constant Nurturer/Protector/action cluster was not sufficient to flip the result, and B was null without A. In this exact realization and boundary, A was sufficient to flip to Mixed, with B amplifying the A-present result. This is cluster-level evidence only: it does not isolate neutral witness from borrowed adulthood, does not establish a phrase blacklist, and does not authorize dropping either function.
+
+Four paid calls were made with zero duplicates; authenticated History recovered all four exact texts. No production-complete Human candidate emerged. M01 is only a detector-Human partial building block and is non-promotable because A is absent. M11 is detector-rejected. R08 remains frozen byte-for-byte, all protected functions remain mandatory, and article authority impact is **none**.
+
+Durable packet, exact input identities, reservations, results, and lessons are on `u-dont-existDOTcom/pangram-humanization-lab@experiment/somatic-reparenting-production-matrix-20260828`.
 
 ## Known Human anchors to protect
 
