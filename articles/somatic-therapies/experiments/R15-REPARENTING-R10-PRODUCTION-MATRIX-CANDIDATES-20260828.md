@@ -1,6 +1,6 @@
 # Somatic Therapies — R10 reparenting production matrix candidates
 
-Status: **NON-AUTHORITATIVE / PRESERVATION PASS / FOUR PAID CELLS RESERVED / RESULTS PENDING**
+Status: **NON-AUTHORITATIVE / PRESERVATION PASS / FOUR PAID CELLS COMPLETE / NO PRODUCTION-COMPLETE HUMAN CELL**
 
 Target article: `somatic-therapies`. Registered authority remains `articles/somatic-therapies/master.html` r01 at SHA-256 `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 
@@ -55,3 +55,20 @@ I also use gentle [self-hypnosis](http://hypnosis.u-dont-exist.com/) for reparen
 `M00`, `M10`, and `M01` are factor-withholding diagnostics only. Their omitted functions remain protected and are routed to M11; they cannot be promoted. M11 is the only production-complete cell. If it is Human, freeze it as the leading production candidate, but do not promote article authority without the remaining article-wide architecture, heart-loop dependency, HTML/native-object, owner-review, and promotion gates.
 
 Durable matrix packet and paid-call evidence live in `u-dont-existDOTcom/pangram-humanization-lab@experiment/somatic-reparenting-production-matrix-20260828/state/experiments/somatic-reparenting-production-matrix-20260828/`.
+
+## Pangram 4.0 results
+
+| Cell | Result | Displayed split | Localization |
+|---|---|---|---|
+| M00 | Human / medium | 100% Human | one Human segment; short-text warning |
+| M10 | Mixed | 35% AI / 65% Human | later 70-word AI/high segment covers Protector action + A; preceding 147 words Human/high |
+| M01 | Human / medium | 100% Human | one Human segment; short-text warning |
+| M11 | Mixed | 46% AI / 54% Human | exact R08 is Human/high; complete 104-word extension is AI/high |
+
+The UI exposed rounded percentages, not unrounded structured fractions. Four paid calls completed, all four exact texts were recovered in authenticated Pangram History, and no duplicate call occurred. R08 and R09 were not resubmitted.
+
+## Interpretation and production disposition
+
+The concrete Nurturer/Protector/action cluster is not sufficient to create AI. The light self-hypnosis cluster is null without A. The neutral-witness/borrowed-adulthood cluster is sufficient in this exact realization and boundary to flip the result to Mixed; hypnosis then amplifies the A-present result. This is cluster-level evidence and does not isolate witness from borrowed adulthood or authorize a phrase blacklist.
+
+No Human cell preserves all required functions. M01 is frozen only as a detector-Human partial building block and remains non-promotable because neutral witness and borrowed adulthood are absent. M11 is detector-rejected as the leading full candidate, but all protected functions remain mandatory. R08 stays frozen byte-for-byte. Article authority impact: **none**.
