@@ -33,7 +33,37 @@ Current owner corrections supersede the earlier assistant-generated architecture
 
 ## Current checkpoint
 
-### Whole-article candidate: r15
+### Whole-article candidate: R16
+
+`experiments/R16-POST-LOCALIZATION-WHOLE-ARTICLE-CANDIDATE-20260828.md`
+
+Source commit: `b0cedf4`.
+
+R16:
+
+- removes the standalone synthetic `Where I Would Start` section after its 15/15 function-routing proof;
+- incorporates the R12 distributed reparenting assembly without stacking neutral witness and borrowed adulthood into the known-Human overlap;
+- freezes the exact Human/high Outcome opening and routes its explanatory tail to EMDR and Shaking Qigong;
+- retains the later physical-state candidate and its exact 109-word Human/high owner core;
+- preserves the known-Human personal anchors, 16-link URL multiset, and all native/editor-object identities;
+- passes preservation, architecture, native-object, and link gates with zero unexplained substantive deltas.
+
+Exact reader-visible boundary: `experiments/R16-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260828.txt`, SHA-256 `52468eabb61aa437f7216d0f6bcef295605b016465e00f5e7a4f63c53fbbaace`, 3,575 whitespace words / 21,059 UTF-8 bytes.
+
+### Exact R16 final GUI result
+
+The one authorized final headed Playwright/Brave measurement completed on Pangram 4.0:
+
+- `STAGE_SUCCESS` / `Mixed`;
+- AI `0.7285796404`;
+- Human `0.2714203596`;
+- AI-assisted `0.0`;
+- exact stored-History UTF-8 binding;
+- 1 paid GUI call, 0 cache hits, 0 duplicates, 0 unresolved reservations.
+
+R16 improved materially over exact R15 (AI `0.8451970816` / Human `0.1548029035`) but did not reach a detector-clean endpoint. Exact receipt: `experiments/R16-FINAL-GUI-RESULT-20260828.md`.
+
+### Previous whole-article candidate: r15
 
 `experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md`
 
@@ -63,13 +93,17 @@ Durable GUI evidence lives in `u-dont-existDOTcom/pangram-humanization-lab@agent
 
 ## Completed
 
+- The eight-section fixed batch completed with eight paid calls, zero duplicates: seven boundaries were AI/high; Outcome was Mixed with its first 215 words Human/high.
+- The preservation-clean R16 whole candidate is assembled, frozen, and measured once through the headed GUI.
+- R16 passed 16/16 link, 8/8 native-object, known-Human-span, preservation, reverse-traceability, and architecture gates.
+- The final whole result is bound to exact History and published durably; the routine model-only detector lane is closed.
 - The r15 whole-article GUI measurement is bound to the exact reader-visible text and stored History result.
-- The Introduction and physical-state localization work is complete; the 109-word owner core is frozen Human/high, while the 57-word model lead remains unresolved.
+- The Introduction and physical-state localization work is complete. The paid API candidate's 109-word owner core is frozen Human/high and its earlier 57-word lead was AI/high; the later GitHub lead beginning `Whether a somatic therapy works well...` was owner-reported Human/medium and is carried into R16 without a redundant local call.
 - `Where I Would Start` resolved AI/high and its 15 functions are routed to natural destinations instead of retained as a synthetic summary section.
 - Reparenting R08, R09, R10, and R11 are complete. R08 remains frozen Human/high; the six-call reparenting cap is exhausted; R12 is the preservation-clean distributed assembly.
 - The historical Shaking Qigong reservation ambiguity was investigated through two read-only GUI History recoveries and remains non-repeatable.
 
-## Current production strategy — natural section at a time
+## Completed production strategy — natural section at a time
 
 Owner correction on 2026-08-27: do **not** waste API calls on another whole-document scan. The GUI result already establishes broad residual AI shape. Use the self-hosted Pangram API only for short natural sections where the result changes the next editorial decision.
 
@@ -84,7 +118,7 @@ Production loop:
 7. freeze Human material and stop model-only loops when the next improvement requires genuinely fresh owner language;
 8. run one final whole-article GUI check only after local section work is settled.
 
-No whole-document API call has been made in this section-by-section lane.
+No whole-document API call was made in this section-by-section lane. The lane is now complete; the only post-assembly measurement was the single final headed GUI call.
 
 ## Aug. 27 section evidence and candidates
 
@@ -199,6 +233,21 @@ Four paid calls were made with zero duplicates; authenticated History recovered 
 
 Durable R10 packet, exact input identities, reservations, results, and lessons are on `u-dont-existDOTcom/pangram-humanization-lab@experiment/somatic-reparenting-production-matrix-20260828`. Durable R11 split evidence is on `u-dont-existDOTcom/pangram-humanization-lab@experiment/somatic-reparenting-a-split-20260828` at checkpoint `51d7da19`.
 
+### Remaining natural sections — fixed batch complete
+
+The exact eight-section fixed batch completed with one call per section and no repeats:
+
+- Somatic Experiencing: AI/high, AI `1.0`;
+- trauma-sensitive yoga: AI/high, AI `1.0`;
+- Gentle Shaking/TRE: AI/high, AI `1.0`;
+- Brainspotting: AI/high, AI `1.0`;
+- EMDR: AI/high, AI `1.0`;
+- Light CBT plus routed borrowed adulthood: AI/high, AI `1.0`;
+- Outcome: Mixed, Human `0.4844771326` / AI `0.5155228972`; first 215 words Human/high, remaining 236 words AI/high;
+- Sky/Vagal plus routed deep-work readiness: AI/high, AI `1.0`.
+
+Exact article receipt: `experiments/R15-SECTIONS-R01-RESULT-AND-DISPOSITION-20260828.md`. The lived Outcome opening is frozen. The three explanatory tail functions remain preserved but distributed. No independently Human exact Somatic source was recovered for the seven complete red boundaries, so the model-only section rewrite lane is closed.
+
 ## Known Human anchors to protect
 
 The user-supplied Pangram report and subsequent exact section work identify strong preservation/calibration anchors:
@@ -219,24 +268,28 @@ Known-Human status is evidence, not immunity from a real editorial defect, but d
 - `Where I Would Start` routing receipt: `experiments/R15-WHERE-I-WOULD-START-R02-ROUTING-DISPOSITION-20260828.md`.
 - Reparenting split and distributed-assembly receipts: `experiments/R15-REPARENTING-R11-SINGLE-FUNCTION-SPLIT-RESULT-20260828.md` and `experiments/R15-REPARENTING-R12-PRESERVATION-AND-ARCHITECTURE-20260828.json`.
 - Remaining-section batch inputs and shared preflight: `experiments/R15-SECTIONS-R01-*.txt` and `experiments/R15-SECTIONS-R01-PRESERVATION-AND-PREFLIGHT-20260828.md`.
+- Remaining-section result/disposition: `experiments/R15-SECTIONS-R01-RESULT-AND-DISPOSITION-20260828.md`.
+- R16 candidate, exact final boundary, preflight, and result: `experiments/R16-POST-LOCALIZATION-WHOLE-ARTICLE-CANDIDATE-20260828.md`, `experiments/R16-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260828.txt`, `experiments/R16-PRESERVATION-ARCHITECTURE-AND-PREFLIGHT-20260828.md`, and `experiments/R16-FINAL-GUI-RESULT-20260828.md`.
 
 ## Remaining
 
-The exact next batch is frozen in eight `experiments/R15-SECTIONS-R01-*.txt` files with shared preservation/preflight `experiments/R15-SECTIONS-R01-PRESERVATION-AND-PREFLIGHT-20260828.md`. It covers Somatic Experiencing, yoga, gentle shaking/TRE, Brainspotting, EMDR, Light CBT plus routed borrowed adulthood, outcome checking, and Sky/Vagal plus routed deep-work readiness. It spends one section-scoped call per natural boundary under the existing `somatic-r15-section-localization-20260827` audit.
+Routine detector/humanization work is complete. The remaining decision is owner-authoritative:
 
-Protect the known-Human EFT/head-massage and Louka/Shaking Qigong anchors. The historical Shaking Qigong r01 API reservation remains genuinely ambiguous: one paid POST was reserved, no task/cache/result survived, and two read-only GUI History recoveries found no exact record. Because GUI History absence cannot clear async API ambiguity, do not repeat that exact SHA.
+1. accept the exact R16 prose on editorial/fidelity grounds despite the Mixed detector result; or
+2. provide or recover genuinely fresh owner language for the Introduction and remaining model-shaped modality prose if a detector-clean result is required.
 
-After the eight exact results resolve, make only decision-changing source recovery/minimum-dose repairs, assemble a new whole-article candidate, rerun article-wide preservation/architecture/native-object/link gates, and perform one final headed GUI whole-article check.
+After explicit R16 acceptance, perform the health/citation review, reconstruct the accepted prose into exact raw-editor HTML, verify 8/8 native objects and the 16/16 link multiset, promote the registered authority, and use Joel's standing publication/export permission.
 
 ## Blockers / unresolved
 
 - Registered `master.html` remains unchanged.
-- r15 and local repairs are non-authoritative until owner acceptance and exact HTML reconstruction/promotion.
-- Exact raw-editor HTML assembly for the accepted post-r15 candidate has not been performed.
-- Citation/health verification remains a separate pending task unless requested or materially required.
-- Owner-final review/publication export remains pending.
+- R16 remains non-authoritative until explicit owner acceptance and exact HTML reconstruction/promotion.
+- The final R16 result is Mixed, not detector-clean; no further model-only rewrite or exact detector repeat is justified.
+- Exact raw-editor HTML assembly for R16 has not been performed because prose acceptance is the controlling authority gate.
+- Citation/health verification remains pending and is required before promoting this health-content candidate.
+- Publication/export permission is granted; exact prose acceptance remains pending.
 - Do not restore five Jobs/stages, manufacture anecdotes, reopen known-Human spans solely for detector reasons, or repeat queued/ambiguous/already-paid measurements.
 
 ## Next safe action
 
-Run the frozen eight-section batch once through the immutable private executor. Bind each exact result before any repair, retain Human sections unchanged, and use source recovery or minimum-dose edits only where an AI/Mixed result changes the editorial decision. Then assemble the post-r15 whole candidate, rerun preservation/architecture/native-object/link gates, and spend one final headed GUI whole-article call.
+Obtain Joel's explicit decision on the exact R16 prose. Recommend judging it as an article rather than chasing Pangram: accept it if the prose is editorially right, or supply fresh owner wording if a detector-clean endpoint is non-negotiable. Do not continue with model-only paraphrases.

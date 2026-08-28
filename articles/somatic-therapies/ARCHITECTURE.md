@@ -51,6 +51,7 @@ The reader should encounter the modalities as actual therapies/practices with th
 - Professor Baby Sheep and the head-shaving/loveyhuasca material provide real supplied personality early; they are not optional detector decoration.
 - Inner-child reparenting remains a recurring article thread rather than a late integration bucket. The main overlap owns the adult/child trust conflict, Nurturer/Protector action, light self-hypnosis, somatic heart access, and the heart ↔ solar-plexus loop. Plain witnessing belongs under `Building Enough Safety to Stay Present`; borrowed adulthood returns under `Light CBT / Narrative Integration`; Brainspotting and EMDR retain their own reparenting/readiness relations.
 - Do not stack compact neutral-witness and borrowed-adulthood explanations onto the known-Human adult-trust/Nurturer/Protector/hypnosis boundary. The completed R11 split found that either compact realization independently crossed that exact boundary to Mixed. Preserve both functions through the routed destinations above; this is an architecture rule for the current candidate, not a phrase ban.
+- The lived Outcome opening owns the immediate restimulation test. Delayed sleep/irritability/dissociation/pain/compulsive-processing/relationship effects belong with EMDR aftercare; research-size/community-claim/one-change-at-a-time evaluation belongs beside the Shaking Qigong mechanism discussion. Do not restack those functions as a three-paragraph editorial conclusion after the Human anecdote.
 - Safety warnings stay adjacent to the practice they govern, but the general stay/stop/return rule should not be re-explained after every modality.
 - Evidence-plane distinctions are stated economically: preserve genuinely different source types and specific evidence limits without repeating a general responsible-explainer disclaimer throughout the article.
 - Sky Hypnosis and Vagal Blitz remain optional high-intensity practices after the main modality discussion, with their own physical/mental-health cautions.
@@ -63,3 +64,7 @@ Do not restore the five-job map, a renamed five-stage equivalent, equalized moda
 ## Stopping point
 
 The article stops after the optional high-intensity-practices section and its existing Sky Hypnosis embed. Do not append a generic summary or inspirational moral merely to create closure.
+
+## Current production boundary
+
+R16 is the preservation-clean realization of this architecture. Its exact headed GUI result is Mixed at AI `0.7285796404` / Human `0.2714203596`, improved from R15 but not detector-clean. Seven short modality boundaries were already AI/high and no independently Human exact source was recovered for them. Further model-only rewriting is outside the architecture: the next change requires fresh owner language or explicit owner acceptance of R16 on editorial grounds.

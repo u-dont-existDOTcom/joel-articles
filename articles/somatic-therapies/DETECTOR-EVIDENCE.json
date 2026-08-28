@@ -170,6 +170,48 @@
       "result": null,
       "call_state": "one paid call reserved in the durable ledger; no cache/task result was durable at this article-state update",
       "disposition": "do not repeat; resume/read exact durable result when it appears"
+    },
+    {
+      "id": "somatic-r16-final-whole-gui",
+      "role": "final_non_authoritative_production_boundary",
+      "experiment_id": "somatic-r16-final-whole-article-gui-20260828",
+      "source_commit": "b0cedf4",
+      "source_path": "articles/somatic-therapies/experiments/R16-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260828.txt",
+      "text_sha256": "52468eabb61aa437f7216d0f6bcef295605b016465e00f5e7a4f63c53fbbaace",
+      "word_count": 3575,
+      "transport": "headed local Playwright / Brave",
+      "model": "pangram-4",
+      "version": "4.0",
+      "stage": "STAGE_SUCCESS",
+      "history_match_mode": "exact_utf8",
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "Mixed",
+        "fraction_ai": 0.7285796404,
+        "fraction_ai_assisted": 0.0,
+        "fraction_human": 0.2714203596
+      },
+      "comparison": {
+        "r15_fraction_ai": 0.8451970816,
+        "r15_fraction_human": 0.1548029035,
+        "ai_delta": -0.1166174412,
+        "human_delta": 0.1166174561
+      },
+      "durable_evidence": {
+        "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+        "branch": "agent/pangram-gui-bridge-live-closeout-20260827",
+        "reservation_commit": "a311eee7",
+        "result_commit": "ad445caa",
+        "disposition_commit": "29a03cc1",
+        "result_path": "state/gui-runs/pangram-4/52468eabb61aa437f7216d0f6bcef295605b016465e00f5e7a4f63c53fbbaace/result.json"
+      },
+      "call_accounting": {
+        "paid_gui_calls": 1,
+        "cache_hits": 0,
+        "duplicate_calls": 0,
+        "pending_or_ambiguous": 0
+      },
+      "disposition": "R16 materially improves the whole boundary but remains Mixed. Do not repeat or continue model-only paraphrase. Exact prose acceptance or genuinely fresh owner language is required; registered master authority is unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -199,12 +241,15 @@
     "inner_child_audit_remaining_calls": 0,
     "owner_control_calls": 1,
     "shaking_qigong_calls_reserved": 1,
+    "r16_final_whole_gui_calls": 1,
+    "r16_final_whole_gui_remaining_calls": 0,
     "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
     "inner_child": "The r01 section, four reconstructions, one owner-source phrase restoration, and the exact original source section all returned 100% AI. This lane is closed until genuinely fresh owner language or another independently human source exists.",
-    "production_rule": "Prefer higher-authority source restoration and minimum-dose movement/consolidation before generating new prose. A source that itself tests AI can preserve factual/argument authority without serving as a detector-Human style baseline."
+    "production_rule": "Prefer higher-authority source restoration and minimum-dose movement/consolidation before generating new prose. A source that itself tests AI can preserve factual/argument authority without serving as a detector-Human style baseline.",
+    "final_r16": "The preservation-clean final whole boundary improved materially from R15 but remained Mixed at AI 0.7285796404. The routine model-only lane is closed; the next change requires explicit R16 acceptance or genuinely fresh owner language."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

@@ -11,12 +11,12 @@
     {
       "id": "humanization-architecture",
       "status": "passed",
-      "evidence": "Article-wide P2S/D4 reconstruction removed the repeated modality-card skeleton while retaining the five-job model and article functions."
+      "evidence": "R16 removes the superseded five-job model, deletes/routes the synthetic summary section, distributes reparenting and outcome functions to natural owners, and passes the current ARCHITECTURE.md gate."
     },
     {
       "id": "fidelity",
       "status": "passed",
-      "evidence": "Three cold audits; substantive claims intended unchanged; 16/16 ordinary links and 8/8 native/editor objects preserved, with native objects byte-identical and ordered."
+      "evidence": "R16 forward/reverse traceability passed with zero unexplained substantive deltas; 16/16 ordinary-link multiset and 8/8 native/editor objects are preserved; known-Human spans are exact."
     },
     {
       "id": "owner-final-review",
@@ -25,8 +25,8 @@
     },
     {
       "id": "detector",
-      "status": "pending",
-      "evidence": "No Pangram result yet for exact r01 reader-visible boundary."
+      "status": "blocked",
+      "evidence": "Exact R16 final headed GUI result is Mixed at AI 0.7285796404 / Human 0.2714203596. Section/source recovery and model-only lanes are complete; a detector-clean endpoint now requires fresh owner language."
     },
     {
       "id": "citation-review",

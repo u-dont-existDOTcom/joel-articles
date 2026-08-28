@@ -33,16 +33,16 @@
         "owner_locks": {"path": "articles/somatic-therapies/OWNER-LOCKS.json", "sha256": "4bfaf1ec291006b79396542075963fb76f6a1925f597cf419151070fbc2c8054"},
         "source_evidence": {"path": "articles/somatic-therapies/SOURCE-EVIDENCE.json", "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"},
         "unincorporated_ideas": {"path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md", "sha256": "df7ac269b6b7064d05cd6b638946b29b18bb1b768262f12f622dcb8fe5681a7c"},
-        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "d6dec4bf10d67e4aeb2108d9b6c2b1bf9676dbb51453bafa04f9fe95bba3d2fc"}
+        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "a9763b54db6eac13956bd54cb3113c42edaa54a321c5d586970ef6f4c9474a39"}
       },
       "review": {
         "citations": {"path": "articles/somatic-therapies/CITATIONS.json", "sha256": "ade24edacc6bebda6145441b766e52de8a2125b4a40eee10b51354296afa1477", "status": "pending"},
-        "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "c4661921d6f96e670af69b5708028c7ff81c7ffe04c21f32b5405e6e789a3b65", "status": "recorded"},
-        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "04d691b135931dd73905e7a92f7cb79a42fd4b2ea174e784fde20fac2581e57e", "status": "pending"}
+        "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "072edac425b7eb240f3aec8d74edb7f71153abb1555e9447bd64cee058d67abc", "status": "recorded"},
+        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "b5344d75b2be10875b9db2ef49015cd08b1039541115e856315725d03aec1987", "status": "pending"}
       },
       "publication_exports": [],
       "additional_artifacts": [
-        {"path": "articles/somatic-therapies/ARCHITECTURE.md", "sha256": "64ff5576ae76498438fd579e232b2b7fda7dae7aa9b0904161db4be3cc44e7d1", "role": "architecture_map"},
+        {"path": "articles/somatic-therapies/ARCHITECTURE.md", "sha256": "a090c8992a729aa5c8b1a9e0312bbfe07b290836f558d19c34ac007b48e5839d", "role": "architecture_map"},
         {"path": "articles/somatic-therapies/HUMANIZATION-REPORT.md", "sha256": "485cb2043b5abe9c922b98985767550bbc851dd339465d301740948f7fa213bf", "role": "humanization_report"},
         {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-20260822.md", "sha256": "b6c9d2f77e620c087f89bacd19706855b62e8ebd72d6cb8d741c05c1adcf3228", "role": "authorial_flow_input"},
         {"path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-20260822.md", "sha256": "b1487d7c257dcebc11570808df3b85ad72ad2da389fbb97f5d148f3d95d65947", "role": "authorial_flow_input"},
@@ -151,7 +151,8 @@
         {"path": "articles/somatic-therapies/experiments/R15-SECTIONS-R01-RESULT-AND-DISPOSITION-20260828.md", "sha256": "f203404bbd854f449657c70c11fd28486b12f6bc63699f91f21d1764743445ad", "role": "detector_result_and_routing_disposition"},
         {"path": "articles/somatic-therapies/experiments/R16-POST-LOCALIZATION-WHOLE-ARTICLE-CANDIDATE-20260828.md", "sha256": "2061fc433030a5a46ba72ef95a8ddb327e81cd7954ec20efd5cd4ff9592c8351", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R16-PRESERVATION-ARCHITECTURE-AND-PREFLIGHT-20260828.md", "sha256": "6618fbbf9b1377d13e41c63d8978ee70a2eef0503600ab90f0fc34b309e2eb4b", "role": "preservation_and_preflight"},
-        {"path": "articles/somatic-therapies/experiments/R16-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260828.txt", "sha256": "52468eabb61aa437f7216d0f6bcef295605b016465e00f5e7a4f63c53fbbaace", "role": "detector_input"}
+        {"path": "articles/somatic-therapies/experiments/R16-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260828.txt", "sha256": "52468eabb61aa437f7216d0f6bcef295605b016465e00f5e7a4f63c53fbbaace", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R16-FINAL-GUI-RESULT-20260828.md", "sha256": "6165d1d1ee6ddb09fac0a13da2211f4376d14548af8d10f5aa6dae46172031bb", "role": "detector_experiment_result"}
       ]
     }
   ]
