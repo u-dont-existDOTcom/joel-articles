@@ -32,6 +32,8 @@ Gentle [self-hypnosis](http://hypnosis.u-dont-exist.com/) can help too. Gather a
 
 When the body feels tight or there’s too much emotional tension to access the heart chakra, use an unforced slower exhale. With Buteyko-style breathing, the slow exhale should be passive, relaxed, and unforced.
 
+EFT, Somatic Experiencing, trauma-sensitive yoga, shaking, and qigong can serve the same basic purpose here: settling the body enough to make reparenting possible, before it or while I'm doing it.
+
 If I can’t feel the love directly, I think of a person or pet I actually love, feel that first, and redirect it.
 
 There’s one very simple technique you can do at any time to feel a deeper connection to your inner child. Place one hand on the center of your chest (heart chakra), to feel a connection to love. Place the other hand on the center of your solar plexus just under your chest (solar plexus chakra) to feel a connection to your inner child. The solar plexus is the most vulnerable part of the torso. One slap there hurts quite a lot, and so it’s natural to feel the vulnerable inner child living in this region. Now imagine sending love from the heart to the inner child, then receiving love from inner child and sending back to heart, in an infinite beautiful loop!
@@ -40,7 +42,7 @@ There’s one very simple technique you can do at any time to feel a deeper conn
 
 Reader-visible detector text removes the Markdown heading marker and URL while retaining visible anchor text.
 
-Reader-visible SHA-256: `aa4d89668875c5bf86a0fa274aea2910513ad68df611cf26bbc9dcfd98037575`  
-Whitespace words including visible heading: **388**.
+Reader-visible SHA-256: `2bfab70b34bb53923b4160baf691aa284e9ab0a9820fb0fcd6a1a6484b37d0cd`  
+Whitespace words including visible heading: **418**.
 
-Known-green embedded boundary: the five-paragraph J core is owner-reported Pangram **Human / high confidence**. R03 does not alter those five paragraphs; it adds only recovered-source material for neutral witnessing, Protector action, light self-hypnosis, and the real-love source cue.
+Known-green embedded boundary: the five-paragraph J core is owner-reported Pangram **Human / high confidence**. R03 does not alter those five paragraphs; it adds only recovered-source material for neutral witnessing, Protector action, light self-hypnosis, the real-love source cue, and one compact routing sentence restoring the named gentler modalities' before/alongside-reparenting relationship.
