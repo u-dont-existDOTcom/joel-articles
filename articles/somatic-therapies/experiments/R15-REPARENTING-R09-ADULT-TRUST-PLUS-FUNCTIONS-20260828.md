@@ -1,6 +1,6 @@
 # Somatic Therapies — R09 adult-trust + required-functions candidate
 
-Status: **NON-AUTHORITATIVE SOURCE-COMPRESSION EXTENSION / detector eligible after companion proof**
+Status: **NON-AUTHORITATIVE SOURCE-COMPRESSION EXTENSION / OWNER-TESTED SPLIT / PARAGRAPH-2 REALIZATION REJECTED**
 
 Target article: `somatic-therapies`. Registered authority remains `articles/somatic-therapies/master.html` r01.
 
@@ -36,3 +36,14 @@ Paragraph 2:
 - light self-hypnosis for reparenting / not forcing trauma memories — minimum compression of current owner-controlled self-hypnosis guidance and exact Somatic link destination.
 
 No new mechanism, anecdote, therapeutic conclusion, modality inventory, Brainspotting/EMDR material, or generic aftercare is added.
+
+## Owner-reported Pangram result — 2026-08-28
+
+Joel tested the two paragraphs separately and reported:
+
+- paragraph 1, byte-identical R08: **Human / high confidence**;
+- paragraph 2, the 66-word required-functions extension: **AI / high confidence**.
+
+This rejects the paragraph-2 realization, not its protected functions. R08 remains frozen. Do not promote R09 into article authority or rewrite R08 to absorb the required functions.
+
+The controlled 15-call Human→AI follow-up is canonical in `u-dont-existDOTcom/pangram-humanization-lab@main` under `state/experiments/human-to-ai-minimal-pairs-20260828/`. Its durable finding is interactional: stacked abstract compression, polished cross-domain synthesis, taxonomy closure, and connective tissue can cross Pangram's boundary in combinations even when isolated edits remain Human. It does not create phrase bans or authorize a detector-driven loss of function.

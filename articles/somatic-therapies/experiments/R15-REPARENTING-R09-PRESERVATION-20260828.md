@@ -1,6 +1,6 @@
 # Somatic Therapies R09 adult-trust + required-functions — preservation + preflight
 
-Status: **PRESERVATION PASS / READER-FACING PASS / DETECTOR ELIGIBLE**
+Status: **PRESERVATION PASS / OWNER-TESTED SPLIT / PARAGRAPH-2 REALIZATION REJECTED**
 
 Candidate: `R15-REPARENTING-R09-ADULT-TRUST-PLUS-FUNCTIONS-20260828.md`  
 Exact reader-visible SHA-256: `639ff62f42ebc9f8f25571e2471de57a1f4cc982160d7e7b5717ee9c290be35b`  
@@ -65,3 +65,16 @@ Cold audit: **PASS**.
 R08 is known Human/medium and remains byte-identical. The only new detector-relevant surface is the 66-word required-functions paragraph. Testing the combined two-paragraph boundary is informative because it asks whether the protected terminology/practices can be added after the natural Human conflict without replacing it with the failed R05/R06 conceptual scaffold.
 
 Detector eligibility: **PASS for one exact combined-boundary measurement.**
+
+## Result and disposition — 2026-08-28
+
+Owner-reported paragraph-level Pangram result:
+
+- frozen R08 paragraph: **Human / high confidence**;
+- 66-word required-functions paragraph: **AI / high confidence**.
+
+Preservation remains PASS 7/7 with zero unexplained substantive deltas, but detector status and preservation are separate gates. The tested paragraph-2 realization is rejected. The Nurturer/Protector, witness, borrowed-adulthood, ordinary-action, and gentle-self-hypnosis functions remain protected and must be redistributed or re-realized without reopening R08.
+
+Follow-up evidence and durable lessons: `u-dont-existDOTcom/pangram-humanization-lab@main/state/experiments/human-to-ai-minimal-pairs-20260828/`.
+
+Article authority impact: **none**. Registered `master.html` authority, owner locks, and owner-final prose are unchanged.
