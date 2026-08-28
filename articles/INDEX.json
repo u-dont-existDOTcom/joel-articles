@@ -162,7 +162,11 @@
         {"path": "articles/somatic-therapies/experiments/R17-RULE-LEARNING-R01-RESULT-20260828.md", "sha256": "e80c1df0a802027e595965ee225e6efb320a9a3499ade5a33306303b8131c280", "role": "detector_experiment_result"},
         {"path": "articles/somatic-therapies/experiments/R17-SE-R02-PROCEDURAL-20260828.txt", "sha256": "7e230bfbc2ecc1443dec9c754cbdab826807188d73b86501dede4ded5fac647f", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R17-SE-R03-OWNER-SYNTAX-20260828.txt", "sha256": "bc35123050ffe8dca26f247fd0738fa2ea9db7c700a19970c9fe9961dfeab856", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R17-SE-R02-R03-PRESERVATION-20260828.md", "sha256": "e0665fdc20e4cea1d4ffc708a510c09c8fa26fc636d3600e316fd86b417996d8", "role": "preservation_and_preflight"}
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R02-R03-PRESERVATION-20260828.md", "sha256": "e0665fdc20e4cea1d4ffc708a510c09c8fa26fc636d3600e316fd86b417996d8", "role": "preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R02-R03-RESULT-20260828.md", "sha256": "50e2fa76d1d2e5f96f75d08e55add0c9261d3a699275d870af47c6a4836017ce", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R04-METHOD-ONLY-20260828.txt", "sha256": "ef7104bd1b64f5568d83ce0073131d0f675ee98b04fb42d44c52426f7fee137b", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R05-TIMING-ONLY-20260828.txt", "sha256": "4bd4e800b42f94712212b37cf479d0786355b33b5b9a7f45b361fc358c2053bb", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R17-SE-R04-R05-PRESERVATION-20260828.md", "sha256": "ec88bdeccd39d365db2875b7259316b4a7a81ef9258ce99d3dcc12b5a97850ad", "role": "preservation_and_preflight"}
       ]
     }
   ]
