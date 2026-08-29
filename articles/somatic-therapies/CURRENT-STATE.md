@@ -15,12 +15,12 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R32 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R33 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R32 completed at 89% Human with no improvement; discard it and return to exact R31
+### R33 registered aftercare source recovery is preflight-clean and ready for one exact call
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -236,6 +236,22 @@ Result artifact: `experiments/R32-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R32 ties R31 at Human `89%` but does not improve the boundary. Its first three regions and exact Human ending reproduce, while the late AI segment grows from 823 to 908 characters because the registered readiness sentences remain inside the same AI run. Discard R32 and return to exact R31. Preserve R31's registered citation and three Human regions; change only another independently owned late unit, preferably EMDR aftercare, without changing readiness or Light CBT/borrowed adulthood.
 
+R33 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R33-REGISTERED-AFTERCARE-SOURCE-RECOVERY-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `da673c7151ba7b103b6b2904002205e908cd6ce8d90c02a116186271527ddea6`;
+- exact headed boundary: `experiments/R33-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `81da90da007b9ec44b2ca19bfc3c3f613fd1971b75287336b035c8c9a382b62d`;
+- size: 2,144 whitespace words / 12,190 UTF-8 bytes / 12,142 Unicode characters / terminal newline;
+- preflight: `experiments/R33-REGISTERED-AFTERCARE-SOURCE-RECOVERY-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- all three R31 Human regions, the successful registered citation, exact R31 readiness, exact Light CBT/borrowed adulthood, the complete early Yoga/TRE region, and all three R21 Human/high cores remain exact;
+- only the EMDR-aftercare unit inside R31's 823-character late region changes: the compact two-sentence R31 realization is replaced by the two exact registered r01 aftercare paragraphs;
+- the exact delayed next-day check remains adjacent as its own natural paragraph, retaining the second sleep link and every monitored outcome dimension;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, exact R31 URL multiset and order;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R33 isolates a different natural late function owner after R32's readiness source recovery failed. It is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -262,6 +278,7 @@ R32 ties R31 at Human `89%` but does not improve the boundary. Its first three r
 - R31 final headed GUI completed once at a new best Human `89%` / AI `11%`; exact History binding passed and the hash is blocked from repetition.
 - R32 registered readiness source-recovery candidate preserves all three R31 Human regions, the successful registered citation, the complete early Yoga/TRE region, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 - R32 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, the readiness intervention produced no improvement, and the hash is blocked from repetition.
+- R33 registered aftercare source-recovery candidate preserves all three R31 Human regions, the successful registered citation, exact readiness and Light CBT/borrowed adulthood, the complete early Yoga/TRE region, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -384,21 +401,22 @@ R32 completed from one click beginning at `2026-08-29T15:41:26.824Z`; its unique
 - Exact R30 is below the publication gate at 84% Human and is complete/blocked from repetition.
 - Exact R31 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R32 is below the publication gate at 89% Human and is complete/blocked from repetition.
+- Exact R33 is preflight-clean but not yet submitted.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Return to exact R31 and discard R32's registered readiness intervention.
-- Recover only one independent EMDR-aftercare unit from registered/owner source next; keep R31 readiness, Light CBT/borrowed adulthood, registered citation, all Human spans, and the complete early Yoga/TRE region fixed.
+- Submit exact R33 once after durable reservation and bind its unique History result.
+- If R33 is below 100% Human, use its localization to decide whether to retain the registered aftercare realization before changing another single late function.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R32 result in both repositories.
-2. Build the next candidate from exact R31 and recover one natural EMDR-aftercare owner/source unit inside its 823-character late AI region.
-3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
+1. Commit and push the preflight-clean R33 artifacts.
+2. Reserve one decision-changing R33 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
+3. Continue from the better contextual surface without repeating any completed hash.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
