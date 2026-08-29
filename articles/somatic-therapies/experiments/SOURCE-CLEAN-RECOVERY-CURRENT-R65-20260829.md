@@ -26,8 +26,12 @@ Start with exact R15 reader-visible boundary SHA-256 `e25073d8ac94fa5a2687ea7f79
    - `My outcome measure is boring: does the thing still hit as hard later?` → `Does the thing still hit as hard later?`
 
 Latest exact reader-visible whole boundary:
+- path: `articles/somatic-therapies/experiments/R65-SOURCE-CLEAN-WHOLE-CANDIDATE-20260829.md`;
+- Git blob SHA: `c490875f1693fd29ddf7718e74835078b10e11ad`;
 - SHA-256 `91266ab1b8c5b293c8d219089f22b3d17e57e2b89fe127abeff5ffe19dd84e45`;
 - 3,838 whitespace words.
+
+The R65 whole boundary is now materially frozen as one immutable file; future audit/detector work must bind to this exact blob/SHA rather than reconstructing it from chat.
 
 ## R60R2 reconciliation
 
@@ -46,8 +50,7 @@ The concurrent `orient` suggestion was **not** accepted: it was not supported by
 - unexplained substantive deltas — 0;
 - five-Job scaffold absent;
 - Human-spine/factual-spine/unrelated syntax-donor methods absent;
-- registered master unchanged;
-- no Pangram call made or reserved on R59–R65.
+- registered master unchanged.
 
 ## Whole architecture / cold audit
 
@@ -59,16 +62,42 @@ R60R2 changes provenance placement only and improves heading fit; it does not al
 
 A genuinely independent final-reader audit is still unavailable in this saturated Chat context and must not be faked by role-play.
 
+## Pangram detector-routing state
+
+A hash-bound Pangram fixed-batch spec was frozen in `u-dont-existDOTcom/pangram-humanization-lab`:
+
+- spec: `experiments/somatic-r65-source-clean-whole-20260829-a.json`;
+- spec SHA-256: `ea07a98b955a168573a55fd60c56dc2dc78556a492d3c6f5c2a893212bb1dd5c`;
+- immutable article source: Git blob `c490875f1693fd29ddf7718e74835078b10e11ad` + text SHA-256 `91266ab1b8c5b293c8d219089f22b3d17e57e2b89fe127abeff5ffe19dd84e45`.
+
+One private-executor request was created at commit `1907d0a2fb47ee387921d138cdcd30cffdb0e4fd`, workflow run `33279383451`, job `99171819801`.
+
+That workflow **did not execute Pangram**. It passed immutable-trigger validation, exact spec-SHA validation, and canonical paid-contract validation, then failed at the explicit owner routing gate:
+
+`Owner cost policy blocks aggregate/large Pangram API submissions. Use the authenticated GUI route instead, or obtain a specific owner override. Blocked variants: WHOLE:aggregate`
+
+The detector-runner step was skipped. Therefore:
+- Pangram submissions from this API attempt: **0**;
+- paid detector actions: **0**;
+- ambiguous paid state: **false**;
+- no repeat/recovery is required for the API attempt itself;
+- this failed workflow must never be counted as an ambiguous detector call.
+
+Durable transport receipt: `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch/state/experiments/somatic-r65-source-clean-whole-20260829-api-route-block.json`.
+
+The permitted whole-document transport is the authenticated local Pangram GUI with exact-hash/cache/reservation/History safeguards. A separate mechanical local-execution packet has been created for that route; it has no editorial authority and may not change article prose.
+
 ## Next safe action
 
 Do not resume section-by-section model rewriting without a diagnosed editorial defect. The source-clean recovery prose has reached a coherent whole candidate.
 
 Next sequence:
-1. materialize the exact R65 whole boundary immutably from this deterministic definition;
-2. use a genuinely independent reader when practically available;
-3. re-run preservation/architecture/native-object/link checks after any accepted finding;
-4. only then decide whether one exact whole-boundary Pangram measurement will change the next editorial decision;
-5. do not repeat the historical ambiguous Shaking r01 reservation;
-6. promotion to `master.html` requires owner review and exact raw-editor HTML reconstruction/validation of all eight registered native/editor objects.
+1. execute or recover the exact hash-bound R65 whole measurement through the authenticated local Pangram GUI only;
+2. if the GUI action becomes ambiguous, recover History/reservation state rather than resubmitting;
+3. when a genuinely separate reader/context is practically available, run the independent final-reader audit without detector scores or drafting rationale;
+4. re-run source integrity, preservation, architecture, native-object/link checks after any accepted semantic edit;
+5. any detector-driven semantic edit must re-pass source integrity and bidirectional preservation before another measurement;
+6. do not repeat the historical ambiguous Shaking r01 reservation;
+7. promotion to `master.html` requires owner review and exact raw-editor HTML reconstruction/validation of all eight registered native/editor objects.
 
 This file supersedes `SOURCE-CLEAN-RECOVERY-CURRENT-R64-20260829.md` as the current recovery checkpoint.
