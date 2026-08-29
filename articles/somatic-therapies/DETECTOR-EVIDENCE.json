@@ -809,6 +809,34 @@
       "durable_evidence": {"repository":"u-dont-existDOTcom/pangram-humanization-lab","branch":"automation/pangram-fixed-batch","reservation_commit":"24722312","result_commit":"383baeda","recovery_path":"state/PANGRAM-LOCAL-SOMATIC-R33-FINAL-GUI-2026-08-29.md"},
       "call_accounting": {"paid_gui_calls":1,"cache_hits":0,"duplicate_calls":0,"pending_or_ambiguous":0,"dispatch_timeouts_resolved_by_history":1},
       "disposition": "R33 regresses to 77% Human, contracts the Human middle, and expands the late AI run backward into Brainspotting. Discard the complete registered-aftercare intervention, return to exact R31, never repeat R33, and leave article authority unchanged."
+    },
+    {
+      "id": "somatic-r34-final-whole-gui",
+      "role": "non_authoritative_owner_source_borrowed_adulthood_boundary",
+      "experiment_id": "somatic-r34-owner-source-borrowed-adulthood-r01-gui-20260829-a",
+      "source_commit": "c4f0122",
+      "source_path": "articles/somatic-therapies/experiments/R34-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt",
+      "text_sha256": "3019c028fbc94805164b97c51eac21d73354dba05a60616b7c2f34c5caee199a",
+      "word_count": 2083,
+      "utf8_bytes": 11833,
+      "unicode_characters": 11785,
+      "transport": "headed authenticated Brave/Pangram GUI in 2nd gpt profile",
+      "model": "pangram-4",
+      "version": "4.0",
+      "history_match_mode": "pre_click_exact_plus_history_whitespace_normalized_exact",
+      "history_record_id": "2623d40a-3ec0-4e68-ba29-994313f48334",
+      "submitted_at": "2026-08-29T16:01:30.389Z",
+      "result": {"headline":"AI Detected","prediction_short":"Mixed","fraction_ai":0.11,"fraction_human":0.89,"pangram_display_word_count":2117,"summary":"AI-generated content appears in scattered patches"},
+      "segments": [
+        {"id":"text-segment-0","result":"Human","characters":5079,"words":890,"display_text_sha256":"1f4bc508b69df9d7a404ffc3652523f35fd9b30f728adb340f55860ca270ed93","scope":"exact R31 opening through No power yoga."},
+        {"id":"text-segment-1","result":"AI","characters":443,"words":92,"display_text_sha256":"db9c401638af944ed82979b15afb40317dd399b7f0ba7e1c86e91537d3723704","scope":"exact R31 Yoga and TRE AI region"},
+        {"id":"text-segment-2","result":"Human","characters":3711,"words":676,"display_text_sha256":"0ea5cd417973c7add73d820e8d6499249bf80de26eaca01a4f2242f625db5ff1","scope":"exact R31 middle through complete Human-high R21 EMDR contrast"},
+        {"id":"text-segment-3","result":"AI","characters":825,"words":138,"display_text_sha256":"337b4d48ea6fda3596d00a567f40f8c4503aa3d6f940d4875f6ab6e62e0ae96b","scope":"exact readiness and aftercare plus Light CBT and owner-source borrowed adulthood"},
+        {"id":"text-segment-4","result":"Human","characters":1650,"words":287,"display_text_sha256":"a1bd297b0c3209ef1b24fad2538b8c4d129df3d886e68fb8432c26ba31b3bdd4","scope":"exact R31 lived outcome, restimulation, and Sky and Vagal ending"}
+      ],
+      "durable_evidence": {"repository":"u-dont-existDOTcom/pangram-humanization-lab","branch":"automation/pangram-fixed-batch","reservation_commit":"5e9e6aa6","result_commit":"e897c437","recovery_path":"state/PANGRAM-LOCAL-SOMATIC-R34-FINAL-GUI-2026-08-29.md"},
+      "call_accounting": {"paid_gui_calls":1,"cache_hits":0,"duplicate_calls":0,"pending_or_ambiguous":0},
+      "disposition": "R34 ties R31 at 89% Human without shrinking the late AI run. Discard the borrowed-adulthood intervention under the preregistered no-improvement rule, return to exact R31, target only the independent Yoga and TRE region next, never repeat R34, and leave article authority unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -871,7 +899,10 @@
     "r33_final_whole_gui_calls": 1,
     "r33_final_whole_gui_pending_or_ambiguous": 0,
     "r33_final_whole_gui_remaining_calls": 0,
-    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, or R33 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
+    "r34_final_whole_gui_calls": 1,
+    "r34_final_whole_gui_pending_or_ambiguous": 0,
+    "r34_final_whole_gui_remaining_calls": 0,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, or R34 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
@@ -889,7 +920,8 @@
     "final_r30": "After EMDR structural-split R30 inserted only the registered After EMDR heading into exact R29. It regressed to 84% Human, contracted the Human middle by 108 characters, and expanded the late AI region to 1,453 characters. Discard the heading and return to R29 for registered-source recovery or protected-function redistribution.",
     "final_r31": "Registered-citation source-recovery R31 replaced only the D’Antoni bridge in exact R29. It improved to a new best 89% Human, expanded the Human middle by 519 characters through the complete Human-high R21 EMDR contrast, and shrank the late AI region to 823 characters. Freeze the citation realization and recover the next late subregion from registered or owner source.",
     "final_r32": "Registered-readiness source-recovery R32 replaced only the timing middle at the start of R31's late AI region. It tied R31 at 89% Human, reproduced every other region exactly, and grew the late AI span from 823 to 908 characters. Discard the readiness intervention, return to exact R31, and recover a different independently owned late unit next.",
-    "final_r33": "Registered-aftercare source-recovery R33 replaced only R31's compact aftercare unit with the two registered r01 aftercare paragraphs. It regressed to 77% Human, contracted the Human middle from 3,711 to 2,619 characters, and expanded the late AI run from 823 to 2,273 characters backward into Brainspotting. Discard the intervention and return to exact R31."
+    "final_r33": "Registered-aftercare source-recovery R33 replaced only R31's compact aftercare unit with the two registered r01 aftercare paragraphs. It regressed to 77% Human, contracted the Human middle from 3,711 to 2,619 characters, and expanded the late AI run from 823 to 2,273 characters backward into Brainspotting. Discard the intervention and return to exact R31.",
+    "final_r34": "Owner-source borrowed-adulthood R34 replaced only the final two sentences of R31's late region at the routed Light CBT destination. It tied at 89% Human and reproduced every other region exactly, while the late AI run remained essentially unchanged at 825 characters. Discard the intervention, return to exact R31, and target the independent Yoga and TRE region next."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."
