@@ -15,10 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R52 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R53 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
+
+### R53 routes only borrowed adulthood to the between-session owner
+
+R53 returns exactly to the successful R52 production baseline and moves only the complete borrowed-adulthood heading plus two exact sentences from the sensitive post-restimulation boundary to a distinct child section under `What I Use Between Deeper Sessions`, between EFT and Shaking Qigong. This is a natural external-support practice between deeper sessions, stays far from the closed witness boundary, and leaves R52's successful no-stacking and cognitive-integration routes byte-exact.
+
+- candidate: `experiments/R53-BORROWED-ADULTHOOD-TO-BETWEEN-SESSIONS-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `43c400ee25f16f71d400fd4874c8df7e2c0480b85252589862daf4beb7a58471`;
+- exact headed boundary: `experiments/R53-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `82746ed2be43d891a9e7068f61707933177f2ad68a28c309cf7bdc47b9e9936f`;
+- size: 2,076 whitespace words / 11,774 UTF-8 bytes / 11,726 Unicode characters / terminal newline;
+- preflight: `experiments/R53-BORROWED-ADULTHOOD-TO-BETWEEN-SESSIONS-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- production completeness, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
+- registered article authority impact: none.
+
+R53 is eligible for one exact whole headed call. It changes no R52 prose and only the localized failed function's destination.
 
 ### R52 is the new best production-complete baseline at 95% Human
 
@@ -698,6 +711,7 @@ R52's one submit action began at `2026-08-29T19:01:18.342Z`; its unique History 
 - Exact R50 is complete at 96% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Exact R51 is complete at 97% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Exact R52 is complete at 95% Human, is the best production-complete baseline, and is blocked from repetition.
+- Exact R53 is frozen as a production-complete candidate and is awaiting its sole authorized call.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -736,9 +750,9 @@ R52's one submit action began at `2026-08-29T19:01:18.342Z`; its unique History 
 
 ## Next safe action
 
-1. Persist and push the exact R52 result and routing lesson in both repositories without touching the registered master.
-2. Return exactly to R52 and move only the complete borrowed-adulthood section to a different natural owner boundary. Preserve the successful no-stacking and cognitive-integration routes byte-for-byte.
-3. Run preservation, coherence, architecture, link, native-object, and extraction gates before any whole call. Do not reopen closed Yoga-local variants.
+1. Commit and push the exact R53 production preflight without touching the registered master.
+2. Reserve and run R53 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
+3. Retain only if exact segment accounting clears the borrowed/restimulation region without destabilizing the between-session Human span.
 4. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -771,5 +785,6 @@ R52's one submit action began at `2026-08-29T19:01:18.342Z`; its unique History 
 - R50 is complete at 96% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - R51 is complete at 97% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - R52 is complete at 95% Human, is the best production-complete baseline, and is explicitly blocked from repetition.
+- R53 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
