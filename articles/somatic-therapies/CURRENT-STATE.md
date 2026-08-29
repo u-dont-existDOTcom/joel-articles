@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R33 registered aftercare source recovery is preflight-clean and ready for one exact call
+### R33 regressed to 77% Human; discard it and return to exact R31
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -250,7 +250,13 @@ R33 is the next decision-useful whole candidate:
 - native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
 - article authority impact: none.
 
-R33 isolates a different natural late function owner after R32's readiness source recovery failed. It is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+R33 isolates a different natural late function owner after R32's readiness source recovery failed.
+
+The exact R33 boundary was submitted once in the correct signed-in `2nd gpt` Brave profile. The field exactly matched the frozen SHA and plagiarism was off. Browser control timed out while dispatching the single action, so duplicate defense prohibited a retry. The result dialog and unique newest History row proved the first action had succeeded. Pangram 4.0 returned `Mixed`, AI `23%`, Human `77%`, with 2,178 display words and the summary `AI-generated content appears in scattered patches`. History record `6dd2b1ff-ef72-4dff-a23c-7fea57ce2ae0` is unambiguously bound to the frozen text by exact pre-click equality and exact 2,144-word History concatenation after display-only whitespace collapse.
+
+Result artifact: `experiments/R33-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `24722312` / `383baeda` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R33 regresses from R31 Human `89%` to Human `77%`. Its exact opening, early AI region, and Human ending reproduce, but the Human middle contracts from 3,711 to 2,619 characters and the late AI run expands from 823 to 2,273 characters, moving backward into the protected Brainspotting core. Discard the complete registered-aftercare intervention and return to exact R31.
 
 ## Completed
 
@@ -279,6 +285,7 @@ R33 isolates a different natural late function owner after R32's readiness sourc
 - R32 registered readiness source-recovery candidate preserves all three R31 Human regions, the successful registered citation, the complete early Yoga/TRE region, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 - R32 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, the readiness intervention produced no improvement, and the hash is blocked from repetition.
 - R33 registered aftercare source-recovery candidate preserves all three R31 Human regions, the successful registered citation, exact readiness and Light CBT/borrowed adulthood, the complete early Yoga/TRE region, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
+- R33 final headed GUI completed once at Human `77%` / AI `23%`; the dispatch timeout was resolved without retry through dashboard and unique History evidence, exact History binding passed, and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -297,6 +304,7 @@ R33 isolates a different natural late function owner after R32's readiness sourc
 - R30 final headed GUI: Mixed; AI `16%`, Human `84%`; exact History report `09ae2ee4-fa96-4900-b49a-37737bec525c`; one completed call, zero duplicate or ambiguous submissions.
 - R31 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `97d8de1f-186d-4c4e-8158-6eec6190425f`; one completed call, zero duplicate or ambiguous submissions.
 - R32 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `0ef2606a-dda3-40f1-84f2-2b8bf637f5db`; one completed call, zero duplicate or ambiguous submissions.
+- R33 final headed GUI: Mixed; AI `23%`, Human `77%`; exact History report `6dd2b1ff-ef72-4dff-a23c-7fea57ce2ae0`; one completed call, zero retries, zero duplicates, and the dispatch timeout resolved by exact dashboard/History evidence.
 
 R22's six AI-marked contextual segments are:
 
@@ -388,6 +396,8 @@ R31 completed from one click beginning at `2026-08-29T15:29:59.001Z`; its unique
 
 R32 completed from one click beginning at `2026-08-29T15:41:26.824Z`; its unique History record is `https://www.pangram.com/history?history=0ef2606a-dda3-40f1-84f2-2b8bf637f5db`. The plagiarism option remained off. There is no pending or ambiguous R32 submission. Do not repeat SHA `310943f17192702bcdae5f23c49263f43e5e857cab09d1199ad481743438c045`.
 
+R33's one submit action began at `2026-08-29T15:51:11.283Z`; its unique History record is `https://www.pangram.com/history?history=6dd2b1ff-ef72-4dff-a23c-7fea57ce2ae0`. Browser control timed out during dispatch, but the disabled control, result dialog, and unique newest History row proved acceptance before any retry. The plagiarism option remained off. There is no pending or ambiguous R33 submission. Do not repeat SHA `81da90da007b9ec44b2ca19bfc3c3f613fd1971b75287336b035c8c9a382b62d`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -401,22 +411,22 @@ R32 completed from one click beginning at `2026-08-29T15:41:26.824Z`; its unique
 - Exact R30 is below the publication gate at 84% Human and is complete/blocked from repetition.
 - Exact R31 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R32 is below the publication gate at 89% Human and is complete/blocked from repetition.
-- Exact R33 is preflight-clean but not yet submitted.
+- Exact R33 is below the publication gate at 77% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Submit exact R33 once after durable reservation and bind its unique History result.
-- If R33 is below 100% Human, use its localization to decide whether to retain the registered aftercare realization before changing another single late function.
+- Return to exact R31 and discard the complete R33 registered-aftercare intervention.
+- Change only one other independent late function or the separate early Yoga/TRE region; keep R31 readiness, aftercare, registered citation, all Human spans, and the Human ending fixed.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the preflight-clean R33 artifacts.
-2. Reserve one decision-changing R33 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
-3. Continue from the better contextual surface without repeating any completed hash.
+1. Persist and push the exact R33 result in both repositories.
+2. Recover or reroute one remaining independent R31 function without changing the protected Human spans or repeating failed R32/R33 interventions.
+3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -429,5 +439,6 @@ R32 completed from one click beginning at `2026-08-29T15:41:26.824Z`; its unique
 - R30 is complete at 84% Human and is explicitly blocked from repetition.
 - R31 is complete at 89% Human and is explicitly blocked from repetition.
 - R32 is complete at 89% Human and is explicitly blocked from repetition.
+- R33 is complete at 77% Human and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
