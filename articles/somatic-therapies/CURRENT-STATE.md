@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R28 click resolved; result recovery is blocked on the exact Pangram session
+### R28 completed at 79% Human; return to the protected R26 spine
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -144,7 +144,11 @@ R28 is the next decision-useful whole candidate:
 
 R28 returns to the R26 surface and leaves the complete R26 Yoga/TRE region unchanged. It changes only late structure: the unchanged D’Antoni sentence moves beside the exact EMDR contrast, an empty divider is removed, and one redundant meta-heading is removed. Every substantive article sentence remains exact.
 
-The clean Pangram field exactly matched R28, plagiarism was off, and the single submit click promise resolved at `2026-08-29T13:02:44.458Z`. The authenticated browser session disconnected before the first result read. The call is therefore pending/ambiguous and its exact SHA is blocked from repetition. See `experiments/R28-GUI-SUBMISSION-AMBIGUITY-20260829.md` and lab checkpoint `5db85c5b`.
+The clean Pangram field exactly matched R28, plagiarism was off, and the single submit click promise resolved at `2026-08-29T13:02:44.458Z`. Recovery in the correct `2nd gpt` Brave profile bound the result to History record `d8ca094b-7307-4f5b-8fe8-9fea49f83554`. Pangram 4.0 returned Mixed, AI `21%`, Human `79%`, with 2,111 display words and the summary `AI-generated content appears in scattered patches`.
+
+Result artifact: `experiments/R28-FINAL-GUI-RESULT-20260829.md`. Durable lab result commit: `1f343e07` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R28 improves over R27 but regresses from R26. The exact R26 opening and Yoga/TRE AI tail reproduce; the late structural move expands the late AI boundary from 1,442 to 2,007 characters. Do not iterate on R28's arrangement. Return to R26 and change only one AI region at a time.
 
 ## Completed
 
@@ -164,7 +168,7 @@ The clean Pangram field exactly matched R28, plagiarism was off, and the single 
 - R27 two-region owner-sequence candidate preserves all three R26 Human segments and passes every non-detector eligibility gate for one new exact whole call.
 - R27 final headed GUI completed once at Human `77%` / AI `23%`; exact History binding passed and the hash is blocked from repetition.
 - R28 late structural-unstacking candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes.
-- R28 exact pre-click equality passed and one submit click promise resolved; result/History recovery remains pending and the hash is blocked from repetition.
+- R28 final headed GUI completed once at Human `79%` / AI `21%`; exact History binding passed and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -259,7 +263,7 @@ R26 completed at `2026-08-29T12:17:58.401Z`; its unique History record is `https
 
 R27 completed at `2026-08-29T12:36:10.640Z`; its unique History record is `https://www.pangram.com/history?history=5f94b713-9914-4328-91bf-4ba9a4d02be1`. The plagiarism option remained off. There is no pending or ambiguous R27 submission. Do not repeat SHA `7bfb6687ccb644a4c1bda7f9e1af2143559e75060373bcd486dc6c89ded04fdc`.
 
-R28 passed every local eligibility gate and was reserved durably. Its exact boundary SHA is `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`. The single click promise resolved at `2026-08-29T13:02:44.458Z`, but the exact authenticated browser session disconnected before the result could be read. Focused reconnect attempts did not restore that session. Treat R28 as submitted and ambiguous; do not repeat it.
+R28 completed at `2026-08-29T13:02:44.458Z`; its unique History record is `https://www.pangram.com/history?history=d8ca094b-7307-4f5b-8fe8-9fea49f83554`. The plagiarism option remained off. There is no pending or ambiguous R28 submission. Do not repeat SHA `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`.
 
 ## Blockers / unresolved
 
@@ -269,23 +273,22 @@ R28 passed every local eligibility gate and was reserved durably. Its exact boun
 - Exact R25 is below the publication gate at 69% Human and is complete/blocked from repetition.
 - Exact R26 is below the publication gate at 84% Human and is complete/blocked from repetition.
 - Exact R27 is below the publication gate at 77% Human and is complete/blocked from repetition.
-- Exact R28 has no recoverable detector result yet; its resolved click makes the submission ambiguous and blocks repetition.
-- The exact authenticated Pangram browser session used for R22–R28 is disconnected. Another connected session does not expose that History sequence and cannot resolve the result.
+- Exact R28 is below the publication gate at 79% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Recover the exact prior authenticated Pangram session or its History and bind the pending R28 result. Do not repeat the hash.
-- Bind and persist the R28 result before designing any further candidate or spending another detector call.
+- Build the next candidate from exact R26, preserve all three R26 Human regions, and change only one of its two AI regions.
+- Do not reuse R27's broad first-person rewrite or R28's late structural arrangement.
 - If R28 is below 100% Human, use its contextual localization to choose the next single-region intervention from the protected R26 spine.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Reconnect the exact authenticated Pangram session used for the R22–R28 sequence or otherwise restore authoritative access to its History.
-2. Bind and persist the pending R28 result. Do not click or submit R28 again.
-3. Continue single-region repair only after the R28 localization is durable.
+1. Persist and push the recovered exact R28 result in both repositories.
+2. Build the next candidate from exact R26, changing only one AI region while freezing all three Human regions.
+3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -293,6 +296,6 @@ R28 passed every local eligibility gate and was reserved durably. Its exact boun
 - Do not overwrite or promote the registered master with an experiment.
 - Do not alter owner locks or owner-final prose.
 - Do not repeat R22, R23, R24, R25, R26, R27, or any completed/ambiguous later submission.
-- R28 is ambiguous after a resolved click and is explicitly blocked from repetition.
+- R28 is complete at 79% Human and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.

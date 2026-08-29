@@ -615,26 +615,42 @@
       "unicode_characters": 11721,
       "transport": "headed authenticated Brave/Pangram GUI",
       "model": "pangram-4",
-      "version": "unknown until result recovery",
-      "history_match_mode": "pre_click_exact; post_click_history_pending",
+      "version": "4.0",
+      "history_match_mode": "pre_click_exact_plus_history_whitespace_normalized_exact",
+      "history_record_id": "d8ca094b-7307-4f5b-8fe8-9fea49f83554",
       "submitted_at": "2026-08-29T13:02:44.458Z",
-      "result": null,
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "Mixed",
+        "fraction_ai": 0.21,
+        "fraction_human": 0.79,
+        "pangram_display_word_count": 2111,
+        "summary": "AI-generated content appears in scattered patches"
+      },
+      "segments": [
+        {"id":"text-segment-0","result":"Human","characters":5092,"words":893,"display_text_sha256":"ef4adc3b351202d9d762c52fe286199e2c2e1ccc310a8bd811ec8d96bc63be0b","scope":"exact R26 opening through No power yoga. No hot yoga."},
+        {"id":"text-segment-1","result":"AI","characters":409,"words":85,"display_text_sha256":"fb16d4f064bd7e53130a25bbec198713bed8ec10ada40fa7e63d79b14b60e697","scope":"unchanged R26 Yoga and TRE safety tail"},
+        {"id":"text-segment-2","result":"Human","characters":2619,"words":477,"display_text_sha256":"ac26c46afe9f4e579929fd0a688e75909eeeb9cfbf700043db0408402ae3a793","scope":"between-session owner spine through first fixed-eye-direction sentence"},
+        {"id":"text-segment-3","result":"AI","characters":2007,"words":357,"display_text_sha256":"d461cde67888558f552481e49fe96a1c0ff8d0a647edad8f408c30177d0bca09","scope":"fixed-eye correction through late technical stack and first lived-story sentence"},
+        {"id":"text-segment-4","result":"Human","characters":1521,"words":263,"display_text_sha256":"67559c7f9e9e64e91dc007eaf7f8d76b5e027619dfc7f3bb0c18ed332be91e40","scope":"remainder of lived story through complete ending"}
+      ],
       "durable_evidence": {
         "repository": "u-dont-existDOTcom/pangram-humanization-lab",
         "branch": "automation/pangram-fixed-batch",
         "reservation_commit": "2839dc26",
         "metadata_correction_commit": "8d60e7c1",
         "ambiguity_commit": "5db85c5b",
+        "result_commit": "1f343e07",
         "recovery_path": "state/PANGRAM-LOCAL-SOMATIC-R28-FINAL-GUI-2026-08-29.md"
       },
       "call_accounting": {
-        "paid_gui_calls": null,
+        "paid_gui_calls": 1,
         "click_promises_resolved": 1,
         "cache_hits": 0,
         "duplicate_calls": 0,
-        "pending_or_ambiguous": 1
+        "pending_or_ambiguous": 0
       },
-      "disposition": "Exact pre-click equality passed and one submit click promise resolved, but the authenticated browser disconnected before result read. Treat the hash as submitted, do not repeat it, and recover the exact Pangram History record before any further paid detector call."
+      "disposition": "R28 completes at 79% Human, improving over R27 but regressing from R26. Its late structural move expands the AI boundary backward and forward. Return exactly to R26, change one AI region at a time, never repeat R28, and leave article authority unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -678,8 +694,9 @@
     "r26_final_whole_gui_remaining_calls": 0,
     "r27_final_whole_gui_calls": 1,
     "r27_final_whole_gui_remaining_calls": 0,
+    "r28_final_whole_gui_calls": 1,
     "r28_final_whole_gui_click_promises_resolved": 1,
-    "r28_final_whole_gui_pending_or_ambiguous": 1,
+    "r28_final_whole_gui_pending_or_ambiguous": 0,
     "r28_final_whole_gui_remaining_calls": 0,
     "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, or R27 whole hashes. Do not repeat ambiguous R28. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
@@ -694,7 +711,7 @@
     "final_r25": "Routed-boundary R25 regressed from 72% Human to 69% Human but decisively cleared the stable Protector/self-hypnosis region inside a 4,784-character Human opening. Three AI interactions remain: witness continuation plus Somatic/Yoga/TRE; the Brainspotting correction through EMDR and borrowed adulthood; and the restimulation definition plus Sky/Vagal. Freeze the three Human segments and repair destinations/adjacency rather than phrases.",
     "final_r26": "Red-region minimum-function R26 improved from 69% Human to 84% Human. The witness/Somatic Experiencing opening and the complete restimulation/Sky/Vagal ending cleared. Freeze the three Human segments and repair only the remaining Yoga/TRE safety tail and Brainspotting-caution/research/EMDR/borrowed-adulthood interaction while preserving every safety and factual function.",
     "final_r27": "Two-region direct first-person R27 regressed from 84% Human to 77% Human. Its Yoga/TRE rewrite absorbed the formerly Human Yoga setup, and its late rewrite pulled the AI boundary backward into the protected Brainspotting core and forward into the lived story. Return to R26 and use structural placement or higher-authority source recovery rather than iterating on R27's surface.",
-    "final_r28": "Late structural-unstacking R28 preserved every substantive R26 sentence and changed only late placement. Exact pre-click equality passed and one submit click promise resolved, but the authenticated browser disconnected before result recovery. No interpretation is authorized until the exact History result is bound; never repeat the hash."
+    "final_r28": "Late structural-unstacking R28 preserved every substantive R26 sentence and changed only late placement. It completed at 79% Human, improving over R27 but regressing from R26. The unchanged Yoga/TRE tail remained AI and the late AI boundary expanded from 1,442 to 2,007 characters. Return exactly to R26 and change one AI region at a time."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

@@ -1,6 +1,6 @@
 # Somatic Therapies — R28 GUI submission ambiguity checkpoint
 
-Status: **CLICK PROMISE RESOLVED / RESULT NOT YET RECOVERED / EXACT HASH BLOCKED FROM REPETITION**
+Status: **RESOLVED / EXACT HISTORY RESULT RECOVERED / SUPERSEDED BY R28 FINAL RESULT**
 
 ## Exact identity
 
@@ -22,8 +22,8 @@ The single submit click promise resolved at `2026-08-29T13:02:44.458Z`. The auth
 
 Focused recovery could not reconnect the exact prior authenticated browser session. Another connected Brave session did not expose the R22–R28 whole-article History sequence and therefore could not resolve the result. There is no defensible result classification, percentage, display count, or History identifier yet.
 
-## Recovery rule
+## Recovery resolution
 
-Do not repeat SHA `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`. Recovery must reconnect the exact prior authenticated Pangram session or otherwise surface its History. Bind the newest matching record to the frozen text before further paid detector work. If no matching record exists only after authoritative History access is restored, update the durable ledger before deciding whether a new submission is permissible.
+The correct `2nd gpt` Brave profile later became visible. Its newest 1:02 PM row is History record `d8ca094b-7307-4f5b-8fe8-9fea49f83554`, and its five segments match the frozen R28 boundary exactly after whitespace collapse. The final result is Mixed at Human `79%` / AI `21%`; see `R28-FINAL-GUI-RESULT-20260829.md`. Do not repeat the SHA.
 
 Article authority is unchanged. Publication remains blocked.
