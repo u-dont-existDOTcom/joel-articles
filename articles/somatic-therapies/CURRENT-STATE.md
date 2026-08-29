@@ -402,6 +402,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R38 TRE safety-to-owner routing candidate preserves every R36 word and sentence exactly once and passes every non-detector eligibility gate.
 - R38 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed, the complete moved TRE unit became Human, and the hash is blocked from repetition.
 - R39 readiness-to-reparenting routing candidate returns exactly to R38, moves the complete readiness paragraph unchanged beside its Nurturer/Protector owner, preserves every claim and measured Human span, and passes every non-detector eligibility gate.
+- R39 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed, but displayed AI surface increased by `68` characters because the new adjacency pulled bounded self-hypnosis into AI. R39 is discarded and its hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -426,6 +427,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R36 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `9aab48f3-2ad2-49cf-8df6-0f950442f5c9`; one completed call, zero retries or duplicates; exact History binding passed; early AI region contracted to 409 characters while the late R31 regions reproduced.
 - R37 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `431ce5e2-620c-4725-a6c8-eec929816a96`; one completed call, zero retries or duplicates; late Human middle contracted by 96 characters and late AI run expanded by 67.
 - R38 final headed GUI: Mostly Human; AI `10%`, Human `90%`; exact History report `f81c1707-eaac-4eed-b2aa-3f5ac8eb50fd`; one completed call, zero retries or duplicates; moved TRE safety paragraph absorbed into Human middle and early AI region reduced to Yoga alone.
+- R39 final headed GUI: Mixed; AI `10%`, Human `90%`; exact History report `ba171cba-4554-4393-b18e-f2036caa4ca7`; one completed call, zero retries or duplicates; late AI shrank by `210` displayed characters but a new `278`-character early AI run caused a net `68`-character regression.
 
 R22's six AI-marked contextual segments are:
 
@@ -529,6 +531,8 @@ R37's one submit action began at `2026-08-29T16:35:19.036Z`; its unique History 
 
 R38's one submit action began at `2026-08-29T16:44:39.541Z`; its unique History record is `https://www.pangram.com/history?history=f81c1707-eaac-4eed-b2aa-3f5ac8eb50fd`. The accepted action was resolved without retry by the disabled control, visible result, unique newest History row, and exact stored-text binding. There is no pending or ambiguous R38 submission. Do not repeat SHA `873baa1399c9b8064dd8964779b39b53108d8b90f16ac603e65443921a4cc86d`.
 
+R39's one submit action began at `2026-08-29T16:57:57.571Z`; its unique History record is `https://www.pangram.com/history?history=ba171cba-4554-4393-b18e-f2036caa4ca7`. The dashboard completed normally, the plagiarism option remained off, and exact stored-text binding passed. There is no pending or ambiguous R39 submission. Do not repeat SHA `d408b1ff7ec0b6950f8e9278a53667089fac0e5e2e81185b3095e6105c10a881`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -548,6 +552,7 @@ R38's one submit action began at `2026-08-29T16:44:39.541Z`; its unique History 
 - Exact R36 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R37 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R38 is below the publication gate at 90% Human and is complete/blocked from repetition.
+- Exact R39 is below the publication gate at 90% Human, is an exact-segment regression from R38, and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -556,16 +561,17 @@ R38's one submit action began at `2026-08-29T16:44:39.541Z`; its unique History 
 - Retain exact R38 as the production baseline.
 - Freeze R38's 4,997-character Human opening, 3,923-character Human middle including the moved TRE safety paragraph, and 1,650-character Human ending.
 - The only remaining AI regions are the 292-character Yoga paragraph and unchanged 823-character late readiness/aftercare/Light-CBT cluster.
-- Run R39 once: route the unchanged readiness paragraph beside the inner-child section's actual Nurturer/Protector realization while keeping the now-Human TRE paragraph frozen.
-- Evaluate both gates: detector movement and article coherence/claim preservation. Reject any detector gain that damages either editorial gate.
+- Discard R39 and return exactly to R38. Do not place the complete readiness paragraph directly against bounded self-hypnosis again.
+- Preserve R39's compositional lesson: semantic ownership is necessary but not sufficient; the final readiness sentence composed Human with downstream body-tension/heart-access material, while the first two sentences destabilized the compact self-hypnosis boundary.
+- Continue with one evidence-led intervention that preserves the registered claims and all R38 Human regions; reject any detector gain that damages coherence, accuracy, or owner voice.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist the exact R39 candidate, preservation proof, headed boundary, and state checkpoint without touching the registered master.
-2. Reserve one decision-changing R39 call, recheck History for its exact hash/text, submit once through the reusable dashboard, and bind the unique result to exact History text.
-3. Apply the result as a reusable routing lesson: retain R39 only if its detector and coherence/claim gates both pass; otherwise return to exact R38.
+1. Persist and push the exact R39 result and reusable compositional lesson in both repositories without touching the registered master.
+2. Return exactly to R38 and prepare one evidence-led repair that does not repeat closed paraphrase, heading, wrapper, or direct-adjacency routes.
+3. Run the full preservation/coherence gates, reserve only if the result changes an editorial decision, submit once through the reusable dashboard, and bind exact History text.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -584,5 +590,6 @@ R38's one submit action began at `2026-08-29T16:44:39.541Z`; its unique History 
 - R36 is complete at 89% Human and is explicitly blocked from repetition.
 - R37 is complete at 89% Human and is explicitly blocked from repetition.
 - R38 is complete at 90% Human and is explicitly blocked from repetition.
+- R39 is complete at 90% Human, is an exact-segment regression, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
