@@ -197,7 +197,12 @@
         {"path": "articles/somatic-therapies/experiments/R20-OWNER-PUBLISHED-PROTECTOR-20260829.txt", "sha256": "32d142f4eb074022f20c40f839ec4b40e72a4c64ccd3873e8b077b4511bc44d6", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R20-OWNER-GUIDE-WITNESS-BORROWED-20260829.txt", "sha256": "3b3e934a99a2d454e326e13701f684272b911130d7cc82417f02aaa040867165", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R20-OWNER-GUIDE-SELF-HYPNOSIS-SAFETY-20260829.txt", "sha256": "050e1c832ae344b98070ff8a796c47b00bd21c38bfa9138b25e3d24854b9ccbb", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R20-DIRECT-OWNER-SOURCE-PRESERVATION-20260829.md", "sha256": "e306f76039faf673673d0b743581b0821f928f19f9cadf8a17d8457884206e37", "role": "preservation_and_preflight"}
+        {"path": "articles/somatic-therapies/experiments/R20-DIRECT-OWNER-SOURCE-PRESERVATION-20260829.md", "sha256": "e306f76039faf673673d0b743581b0821f928f19f9cadf8a17d8457884206e37", "role": "preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R20-DIRECT-OWNER-SOURCE-RESULT-20260829.md", "sha256": "63f14a043844599a39a481ecaff7dfd7d902e369a894ecbbe85f1e024b4211b3", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R21-BRAINSPOTTING-MINIMUM-NORMALIZATION-20260829.txt", "sha256": "36bd9579cb55743d5f1f095eba878fa9048d2f68ebf4acf28c8c03182bf75229", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R21-EMDR-MINIMUM-NORMALIZATION-20260829.txt", "sha256": "dcc20d2065d6d42486d3686cb199b2a72d446bcad1e3da419cee4990d76ede51", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R21-SHAKING-MINIMUM-NORMALIZATION-20260829.txt", "sha256": "2f76511812266c8a6f52b368ad9f2bc35648aa1b65b716f989df7aa6da4af13a", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R21-HUMAN-SOURCE-MINIMUM-NORMALIZATION-PRESERVATION-20260829.md", "sha256": "fa2aabdb72bd23c680cc4242e138997bddd0016205f54c59698f7c62de63b500", "role": "preservation_and_preflight"}
       ]
     }
   ]
