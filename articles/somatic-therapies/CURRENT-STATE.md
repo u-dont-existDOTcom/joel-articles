@@ -15,10 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R53 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R54 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
+
+### R54 restores the complete conditional owner source at R52's localized borrowed destination
+
+R54 returns exactly to the best production-complete R52 architecture and changes only borrowed adulthood. At the post-restimulation destination, it replaces R52's compact realization with minimum-normalized exact wording from Joel's current owner-controlled Inner Signal Self-Hypnosis guide: the adult voices are unavailable; Joel may borrow one safe sentence, boundary, or direction; the borrowed figure stays beside him; Joel chooses the words and carries one small part himself. This corrects source and claim fidelity without changing any successful R52 route.
+
+- candidate: `experiments/R54-OWNER-SOURCE-BORROWED-ADULTHOOD-AT-POST-RESTIMULATION-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `053036f20d9c7b07421016cf6420ada7321a70c5e7d65fe03f8a74ed1417f58b`;
+- exact headed boundary: `experiments/R54-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `6b343819251d8af107333d6986846d2620a592e1d578970101997decbeccdf73`;
+- size: 2,082 whitespace words / 11,826 UTF-8 bytes / 11,778 Unicode characters / terminal newline;
+- preflight: `experiments/R54-OWNER-SOURCE-BORROWED-ADULTHOOD-AT-POST-RESTIMULATION-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- production completeness, source authority, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
+- registered article authority impact: none.
+
+R54 is eligible for one exact whole headed call. If neutral or worse, post-restimulation source recovery closes without synonym variants.
 
 ### R53 regressed to 92% Human; between-session borrowed adulthood is closed
 
@@ -715,6 +728,7 @@ R53's one submit action began at `2026-08-29T19:08:50.031Z` and returned an ambi
 - Exact R51 is complete at 97% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Exact R52 is complete at 95% Human, is the best production-complete baseline, and is blocked from repetition.
 - Exact R53 is complete at 92% Human, has a net 346-character regression from R52, and is blocked from repetition.
+- Exact R54 is frozen as a production-complete owner-source candidate and is awaiting its sole authorized call.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -754,9 +768,9 @@ R53's one submit action began at `2026-08-29T19:08:50.031Z` and returned an ambi
 
 ## Next safe action
 
-1. Persist and push the exact R53 result, ambiguity resolution, and routing failure in both repositories without touching the registered master.
-2. Return exactly to R52. Preserve its successful no-stacking and cognitive-integration routes and its complete claim set.
-3. Recover or re-realize only borrowed adulthood at a materially different natural boundary; do not use the closed witness, compact Light-CBT, post-restimulation, or between-session destinations, and do not reopen Yoga-local variants.
+1. Commit and push the exact R54 owner-source preflight without touching the registered master.
+2. Reserve and run R54 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
+3. Retain only if exact segment accounting improves the R52 borrowed/restimulation region without new spillover; otherwise close post-restimulation source recovery and keep R52.
 4. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -790,5 +804,6 @@ R53's one submit action began at `2026-08-29T19:08:50.031Z` and returned an ambi
 - R51 is complete at 97% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - R52 is complete at 95% Human, is the best production-complete baseline, and is explicitly blocked from repetition.
 - R53 is complete at 92% Human, has a net 346-character regression from R52, and is explicitly blocked from repetition.
+- R54 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
