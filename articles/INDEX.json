@@ -33,12 +33,12 @@
         "owner_locks": {"path": "articles/somatic-therapies/OWNER-LOCKS.json", "sha256": "4bfaf1ec291006b79396542075963fb76f6a1925f597cf419151070fbc2c8054"},
         "source_evidence": {"path": "articles/somatic-therapies/SOURCE-EVIDENCE.json", "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"},
         "unincorporated_ideas": {"path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md", "sha256": "df7ac269b6b7064d05cd6b638946b29b18bb1b768262f12f622dcb8fe5681a7c"},
-        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "c31ffe95d432717c275bd86da857a75493498ef26df490b296c632e24cfd4ba3"}
+        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "df110d7529939363dfa079885d1f77b021c6916ef1c7cd661206feb3b6133d16"}
       },
       "review": {
         "citations": {"path": "articles/somatic-therapies/CITATIONS.json", "sha256": "ade24edacc6bebda6145441b766e52de8a2125b4a40eee10b51354296afa1477", "status": "pending"},
         "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "33bd23fe920b6656279fcf8ce98f9a4b966963dfe3879f10b804db65cc265aa7", "status": "recorded"},
-        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "3431b8859b4cbfd6d4223da05211541f55fd9a5a1260e7aa55e09d57e90b22d1", "status": "pending"}
+        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "035e7f7ec6a4f49da6121e280916e919d661df84d1534b8796aa1ebb1e3c17f1", "status": "pending"}
       },
       "publication_exports": [],
       "additional_artifacts": [
@@ -292,7 +292,10 @@
         {"path": "articles/somatic-therapies/experiments/R43-READINESS-AT-EMDR-ENTRY-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "214e07c0eaab356870e42b955d1bc4835d46a37809ae241216d894e0a0d8168e", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R43-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "ebe76bb156cfda7c184518a2823d2f0a31416854e479ec639dce790d0254d03a", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R43-READINESS-AT-EMDR-ENTRY-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "763fd6d66a9314fa6fa02c84caf9d6a3a74d164e302fafa1dd4399b17ed46820", "role": "preservation_and_preflight"},
-        {"path": "articles/somatic-therapies/experiments/R43-FINAL-GUI-RESULT-20260829.md", "sha256": "457e69fd91a12108d1ffd17897afbd80069eb690b548e794b6d68cded1d86458", "role": "detector_experiment_result"}
+        {"path": "articles/somatic-therapies/experiments/R43-FINAL-GUI-RESULT-20260829.md", "sha256": "457e69fd91a12108d1ffd17897afbd80069eb690b548e794b6d68cded1d86458", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R44-YOGA-TO-BETWEEN-SESSIONS-ROUTING-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "73d07c1534eaff77559a997307db9c13a1a571b0f3774d7892900139d319b6ff", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R44-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "9c234351c91581192b8b4aa998e8cc137a991415fa55740d7d3e6f236bb14f50", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R44-YOGA-TO-BETWEEN-SESSIONS-ROUTING-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "526953c4055c36d2d83abb9b1a9771edc7b8236728151765eaf839bfd3a98878", "role": "preservation_and_preflight"}
       ]
     }
   ]

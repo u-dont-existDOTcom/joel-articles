@@ -411,6 +411,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R42 final headed GUI completed once at Human `78%` / AI `22%`; exact History binding passed, but the owner-heading change caused large Brainspotting/EMDR and Sky/Vagal spillover. R42 is discarded, all further heading work is closed, and its hash is blocked from repetition.
 - R43 readiness-at-EMDR-entry candidate returns exactly to R38, moves the complete readiness paragraph byte-exact to the transition immediately before the existing EMDR heading, leaves delayed-effects evaluation after EMDR, preserves every claim/link/native object, and passes every non-detector gate.
 - R43 final headed GUI completed once at Human `88%` / AI `12%`; exact History binding passed, but readiness remained AI with the preceding caution/citation and the final Human/high EMDR contrast sentence spilled into the late AI cluster. R43 is discarded, this adjacency is closed, and its hash is blocked from repetition.
+- R44 Yoga-to-between-sessions candidate returns exactly to R38, moves the complete Yoga paragraph byte-exact into its own subsection between Human owner-specific EFT and Shaking discussions, preserves every claim/link/native object and the successful TRE route, and passes every non-detector gate.
 
 ## Decisive detector evidence
 
@@ -595,15 +596,16 @@ R43's one submit action began at `2026-08-29T17:38:37.761Z`; its unique History 
 - Preserve R42's nonlocal lesson: owner syntax is not context-free detector medicine, and exact whole-boundary accounting outranks a locally natural heading.
 - Discard R43 and return exactly to R38. Readiness remained AI with the preceding caution/citation and also pulled the final Human/high EMDR contrast sentence into the late AI cluster.
 - Preserve R43's boundary lesson: an existing heading can create a short Human island without protecting either adjacent span; semantic fit and local Human text do not override the net whole-boundary result.
+- Run R44 once: route the exact isolated Yoga AI unit between Human owner-specific EFT and Shaking discussions, leaving the R38 late cluster and every Yoga safety/agency claim exact.
 - Do not spend more local Yoga paraphrase calls, heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R43 result and heading-containment lesson in both repositories without touching the registered master.
-2. Return exactly to R38 and treat all tested readiness destinations, Yoga paraphrases/source recovery, and late heading changes as closed.
-3. Analyze a materially different late-cluster realization or recover a genuinely owner-authored surface before reserving another exact whole call.
+1. Persist and push the exact R44 candidate, headed boundary, preservation/coherence proof, and state checkpoint without touching the registered master.
+2. Reserve one decision-changing call after fresh local and authenticated-History duplicate defense.
+3. Submit once through the reusable dashboard, bind exact History text, and compare exact local and downstream boundary movement before any retention decision.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
