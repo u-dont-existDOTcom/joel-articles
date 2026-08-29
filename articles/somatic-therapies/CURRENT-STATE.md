@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R51 final aftercare function diagnostic is frozen and never promotable
+### R51 reached 97% Human diagnostically; no-stacking is necessary for the late interaction
 
 R51 returns exactly to the non-promotable R50 diagnostic and temporarily withholds only the complete no-stacking sentence. The Human immediate-aftercare sentence and complete delayed next-day checks stay exact under EMDR. The no-stacking, integration, and borrowed-adulthood functions remain protected and mandatory for production.
 
@@ -28,10 +28,11 @@ R51 returns exactly to the non-promotable R50 diagnostic and temporarily withhol
 - exact headed boundary: `experiments/R51-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5d3c2a2295b773fd80d1988cc0fa25eca457dfa00d033b75b79d086d7fd78515`;
 - size: 2,007 whitespace words / 11,370 UTF-8 bytes / 11,322 Unicode characters / terminal newline;
 - diagnostic preflight: `experiments/R51-NO-STACKING-FUNCTION-WITHHOLDING-DIAGNOSTIC-PREFLIGHT-20260829.md`;
+- exact result: `experiments/R51-FINAL-GUI-DIAGNOSTIC-RESULT-20260829.md`;
 - diagnostic whitelist, coherence, architecture, surviving-claim fidelity, known-Human preservation, native objects, and exact extraction: PASS;
 - production completeness: intentionally incomplete; promotion/publication prohibited regardless of score.
 
-This is the final eligible aftercare decomposition call. No phrase or symptom-list subdivision follows it.
+The exact R51 headed diagnostic completed from one click at Human `97%` / AI `3%`, with the exact 292-character Yoga paragraph as the sole AI segment. The complete 5,962-character remainder is Human, including exact readiness, immediate aftercare, and delayed next-day checks. Delayed checks are not sufficient for R50's late AI region; the withheld no-stacking function is necessary for that combined interaction. Restore no-stacking through distributed natural safety architecture and stop aftercare subdivision. R51 remains permanently non-promotable.
 
 ### R50 reached 96% Human diagnostically and localized independent aftercare sensitivity
 
@@ -646,6 +647,8 @@ R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History 
 
 R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History record is `https://www.pangram.com/history?history=79e676cf-f6a3-457c-ae1a-2d936736e52b`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R50 submission. Do not repeat SHA `5117cd17e260646b7ebceaaf4072396bbf1850c5c03c344a7087176641ef6932`.
 
+R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History record is `https://www.pangram.com/history?history=1c8fb2fd-038d-4c37-b926-27d9a41f8900`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R51 submission. Do not repeat SHA `5d3c2a2295b773fd80d1988cc0fa25eca457dfa00d033b75b79d086d7fd78515`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -677,7 +680,7 @@ R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History 
 - Exact R48 is a 94%-Human protected-function diagnostic, is production-incomplete/never promotable, and is complete/blocked from repetition.
 - Exact R49 is below the publication gate at 88% Human, has a net 253-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R50 is complete at 96% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
-- Exact R51 is frozen as a production-incomplete/never-promotable protected-function diagnostic and is awaiting its sole authorized call.
+- Exact R51 is complete at 97% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -708,15 +711,16 @@ R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History 
 - Discard R49 and return exactly to R38. A function-specific borrowed-adulthood subsection leaves the late region AI and destabilizes the earlier Brainspotting/citation/EMDR boundary.
 - Preserve R49's restoration lesson: R48's gain depends on functional withholding, not merely stronger heading separation. Close heading-strength variants at the Light-CBT destination.
 - Preserve R50's decomposition lesson: the integration cluster accounts for 183 characters of R48's residual, but the exact no-stacking plus next-day aftercare pair remains an independent 203-character AI span. Freeze the Human immediate aftercare sentence and do not delete protected integration claims.
+- Preserve R51's aftercare lesson: exact delayed checks are Human when no-stacking is absent, so delayed checks are not sufficient for the residual and no-stacking is necessary for the combined interaction. Keep delayed effects under EMDR; restore no-stacking through distributed safety architecture; do not subdivide phrases or symptoms.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the exact R51 diagnostic preflight without touching the registered master.
-2. Reserve and run R51 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
-3. Restore every protected aftercare, integration, and borrowed-adulthood claim before the next production candidate; distribute functions only to destinations that still read naturally and preserve article architecture.
+1. Persist and push the exact R51 result and aftercare lesson in both repositories without touching the registered master.
+2. Assemble the next production-complete candidate from exact R38/R51 evidence: keep delayed checks exact under EMDR; restore no-stacking through distributed safety architecture; restore cognitive integration and borrowed adulthood at natural destinations outside their closed compact Light-CBT boundary; preserve every known-Human span, claim, link, and native object.
+3. Run full preservation, coherence, architecture, link, native-object, and extraction gates before deciding whether the whole candidate is detector-eligible.
 4. If and only if an exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -747,6 +751,6 @@ R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History 
 - R48 is complete at 94% Human as a protected-function diagnostic, is never promotable, and is explicitly blocked from repetition.
 - R49 is complete at 88% Human, has a net 253-character exact-segment regression, and is explicitly blocked from repetition.
 - R50 is complete at 96% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
-- R51 is production-incomplete, permanently non-promotable, and limited to one exact diagnostic submission after durable reservation.
+- R51 is complete at 97% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
