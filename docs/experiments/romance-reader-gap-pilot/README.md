@@ -50,6 +50,12 @@ This is stronger than placing the full article in context and merely instructing
 
 Use `FRESH-READER-BLIND-PROTOCOL.md` for this stage.
 
+## Hosted validation of the collector
+
+The PR-hosted regression run on 2026-08-29 passed **117/117 tests**. The new canonical integration test reads the checked-out `articles/romance/master.md`, verifies its exact SHA-256 against `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`, compiles 90-line windows, and verifies that their exact byte reconstruction has the same SHA-256.
+
+The workflow then stops at the repository's existing authority validator because of four pre-existing base-repository findings in unchanged article/governance files. Those are separate from this pilot and are not suppressed or repaired here.
+
 ## Pilot passes
 
 ### A. Promise-first
@@ -106,6 +112,7 @@ The blind-prefix sequence also correctly predicts several next-section moves, in
 - `EXTERNAL-BENCHMARK.md` — established-work and actual-reader pressure test.
 - `COLLECTION-PROTOCOL.md` — mechanical GitHub/source collection stage.
 - `FRESH-READER-BLIND-PROTOCOL.md` — isolated Pro reader stage; no GitHub or unrevealed windows.
+- `HANDOFF-PROMPTS.md` — copy/paste collector, Pro startup, window, and closeout instructions.
 - `scripts/compile_blind_reader_packet.py` — deterministic source → hashed sequential-window compiler.
 - `tests/test_compile_blind_reader_packet.py` — compiler regressions plus canonical Romance identity/coverage test.
 - `scripts/generate_editorial_gap_canvas.py` — generic diagnostic Canvas generator.
