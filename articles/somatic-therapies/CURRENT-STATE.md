@@ -15,10 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R51 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R52 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
+
+### R52 production-complete distributed restoration is frozen and GUI-eligible
+
+R52 restores every function withheld by R48–R51 through separate natural owners: no-stacking follows the exact change-one-thing rule; cognitive integration follows the exact lived outcome; the restimulation check remains separate; and borrowed adulthood follows under its own section rather than the closed compact Light-CBT destination. Only the moved no-stacking pronoun changes from `it` to explicit `EMDR`. Every claim, safety function, link, and native object is present.
+
+- candidate: `experiments/R52-DISTRIBUTED-PROTECTED-FUNCTION-RESTORATION-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `c97cce6933867c43f4c293bdc1029b94d3eb97c7017179c1bd5a00c70899f9a2`;
+- exact headed boundary: `experiments/R52-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5e216229ea6d4d5a7febcd5906c3ca487f0a03a20e4f6bbd74849f8961470840`;
+- size: 2,076 whitespace words / 11,775 UTF-8 bytes / 11,727 Unicode characters / terminal newline;
+- preflight: `experiments/R52-DISTRIBUTED-PROTECTED-FUNCTION-RESTORATION-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- production completeness, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
+- registered article authority impact: none.
+
+R52 is the first production-complete restoration after the diagnostic sequence. It is eligible for one exact whole headed call; no diagnostic omission can supersede it.
 
 ### R51 reached 97% Human diagnostically; no-stacking is necessary for the late interaction
 
@@ -681,6 +694,7 @@ R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History 
 - Exact R49 is below the publication gate at 88% Human, has a net 253-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R50 is complete at 96% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Exact R51 is complete at 97% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
+- Exact R52 is frozen as a production-complete candidate and is awaiting its sole authorized call.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -718,10 +732,10 @@ R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History 
 
 ## Next safe action
 
-1. Persist and push the exact R51 result and aftercare lesson in both repositories without touching the registered master.
-2. Assemble the next production-complete candidate from exact R38/R51 evidence: keep delayed checks exact under EMDR; restore no-stacking through distributed safety architecture; restore cognitive integration and borrowed adulthood at natural destinations outside their closed compact Light-CBT boundary; preserve every known-Human span, claim, link, and native object.
-3. Run full preservation, coherence, architecture, link, native-object, and extraction gates before deciding whether the whole candidate is detector-eligible.
-4. If and only if an exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+1. Commit and push the exact R52 production preflight without touching the registered master.
+2. Reserve and run R52 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
+3. Retain only if exact segment accounting improves on R38 without new spillover; all editorial gates remain controlling regardless of score.
+4. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
@@ -752,5 +766,6 @@ R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History 
 - R49 is complete at 88% Human, has a net 253-character exact-segment regression, and is explicitly blocked from repetition.
 - R50 is complete at 96% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - R51 is complete at 97% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
+- R52 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
