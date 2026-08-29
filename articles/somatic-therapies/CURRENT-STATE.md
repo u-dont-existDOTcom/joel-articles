@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R56 makes borrowed adulthood the article's final safety floor
+### R56 reaches 96% Human and becomes the production-complete baseline
 
 R56 returns exactly to the best production-complete R52 architecture and moves only the complete compact borrowed-adulthood heading plus two sentences from immediately after restimulation to the end of the article, after the complete optional Sky/Vagal section and native embed. The article closes on safe companionship, Joel's own words, and one manageable action. Every claim and successful R52 route remains exact.
 
@@ -28,10 +28,11 @@ R56 returns exactly to the best production-complete R52 architecture and moves o
 - exact headed boundary: `experiments/R56-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5f6aeca9ad6abe8b7940a1f34ed6c66fef0fe4cd335ddc882a5caac4c7030e34`;
 - size: 2,076 whitespace words / 11,776 UTF-8 bytes / 11,728 Unicode characters / terminal newline;
 - preflight: `experiments/R56-BORROWED-ADULTHOOD-AS-FINAL-SAFETY-FLOOR-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- exact result: `experiments/R56-FINAL-GUI-RESULT-20260829.md`;
 - production completeness, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
 - registered article authority impact: none.
 
-R56 is a material article-function intervention with one exact whole headed call eligible. It does not reword borrowed adulthood or reopen any closed Yoga variant.
+The exact R56 headed check completed from one click at Human `96%` / AI `4%`. Exact normalized local, dashboard, and History text binding passed at SHA-256 `c4b091ca4e0212d41efe97500f03c7fb89d1868db831a406bd998299ceb4c609`. The unchanged 292-character Yoga paragraph and isolated final 181-character Borrowed Adulthood section remain AI; the complete 6,181-character span between them is Human. R56 reduces total displayed AI from R52's `572` to `473` characters while preserving every claim and improving the final action. Retain R56 as the new production-complete baseline, block its exact hash from repetition, and do not promote or publish below 100% Human.
 
 ### R55 regressed to 94% Human; live-use borrowed realization is closed
 
@@ -726,6 +727,8 @@ R54's one submit action began at `2026-08-29T19:15:55.755Z`; its unique History 
 
 R55's one submit action began at `2026-08-29T19:22:40.582Z`; its unique History record is `https://www.pangram.com/history?history=95ed7d3f-6d3f-4220-b457-f307e30e3cc8`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R55 submission. Do not repeat SHA `af0011df76f06a095fe048619a78e946c90db39817a6ac51a665709ebac65984`.
 
+R56's one submit action began at `2026-08-29T19:32:30.806Z`; its unique History record is `https://www.pangram.com/history?history=bb4689eb-88f0-4b5b-8de0-3feb6ab3438b`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R56 submission. Do not repeat SHA `5f6aeca9ad6abe8b7940a1f34ed6c66fef0fe4cd335ddc882a5caac4c7030e34`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -758,19 +761,19 @@ R55's one submit action began at `2026-08-29T19:22:40.582Z`; its unique History 
 - Exact R49 is below the publication gate at 88% Human, has a net 253-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R50 is complete at 96% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Exact R51 is complete at 97% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
-- Exact R52 is complete at 95% Human, is the best production-complete baseline, and is blocked from repetition.
+- Exact R52 is complete at 95% Human, is superseded by R56 as the production-complete baseline, and is blocked from repetition.
 - Exact R53 is complete at 92% Human, has a net 346-character regression from R52, and is blocked from repetition.
 - Exact R54 is complete at 95% Human, expands exact AI by 51 characters versus R52, and is blocked from repetition.
 - Exact R55 is complete at 94% Human, has a net 103-character exact AI regression from R52, and is blocked from repetition.
-- Exact R56 is frozen as a production-complete architecture candidate and is awaiting its sole authorized call.
+- Exact R56 is complete at 96% Human, is the best production-complete baseline, reduces exact displayed AI by 99 characters versus R52, and is blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Retain exact R38 as the production baseline.
-- Freeze R38's 4,997-character Human opening, 3,923-character Human middle including the moved TRE safety paragraph, and 1,650-character Human ending.
-- The only remaining AI regions are the 292-character Yoga paragraph and unchanged 823-character late readiness/aftercare/Light-CBT cluster.
+- Retain exact R56 as the production-complete baseline.
+- Freeze R56's 4,997-character Human opening and 6,181-character Human span from between-session work through the complete Sky/Vagal safety ending.
+- The only remaining AI regions are the exact unchanged 292-character Yoga paragraph and the isolated 181-character final Borrowed Adulthood safety floor.
 - Discard R39 and return exactly to R38. Do not place the complete readiness paragraph directly against bounded self-hypnosis again.
 - Preserve R39's compositional lesson: semantic ownership is necessary but not sufficient; the final readiness sentence composed Human with downstream body-tension/heart-access material, while the first two sentences destabilized the compact self-hypnosis boundary.
 - Discard R40 and return exactly to R38. Readiness can become Human at the heart-loop owner boundary, but the placement creates a larger downstream witness/Somatic Experiencing/Yoga AI run.
@@ -798,16 +801,18 @@ R55's one submit action began at `2026-08-29T19:22:40.582Z`; its unique History 
 - Preserve R53's routing lesson: the between-session destination leaves borrowed adulthood AI and destabilizes 737 characters of earlier witness/Somatic Experiencing/Yoga/EFT material. Close that destination despite its local semantic fit; exact whole-boundary spillover controls.
 - Preserve R54's source lesson: the complete conditional owner-source realization remains wholly inside the post-restimulation AI region and enlarges it by 51 characters. Close source and synonym variants at that destination; do not infer a phrase or owner-source blacklist.
 - Preserve R55's topology lesson: converting borrowed adulthood from definition to ordinary live use remains wholly AI beside restimulation and enlarges the region by 103 characters. Close micro-variants there; the next change must alter article function or architecture.
+- Preserve R56's final-safety-floor lesson: routing the exact compact borrowed function after the complete Sky/Vagal section reduces its late AI surface from 280 to 181 characters and makes the intervening 6,181-character span Human. Retain this architecture. A successor must keep the full borrowed-adulthood claim and improve the organic ending; do not delete the function or reopen closed synonym and placement variants.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the exact R56 architecture preflight without touching the registered master.
-2. Reserve and run R56 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
-3. Retain only if exact segment accounting improves on R52 without destabilizing the complete Sky/Vagal ending.
-4. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+1. Keep exact R56 frozen as the claim-complete, coherent production baseline.
+2. Develop one organic-ending intervention that preserves the complete borrowed-adulthood function and changes thought form rather than synonyms; run the full preservation/coherence/architecture/extraction preflight before detector eligibility.
+3. Address the exact Yoga paragraph only through a later whole-boundary architecture change with genuine editorial value; all local paraphrase, source, split, and routing variants are closed.
+4. Reserve and spend a Pangram call only when the exact result will change the editorial decision; persist every result and lesson before another candidate.
+5. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
@@ -838,12 +843,13 @@ R55's one submit action began at `2026-08-29T19:22:40.582Z`; its unique History 
 - R49 is complete at 88% Human, has a net 253-character exact-segment regression, and is explicitly blocked from repetition.
 - R50 is complete at 96% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - R51 is complete at 97% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
-- R52 is complete at 95% Human, is the best production-complete baseline, and is explicitly blocked from repetition.
+- R52 is complete at 95% Human, is superseded by R56 as the production-complete baseline, and is explicitly blocked from repetition.
 - R53 is complete at 92% Human, has a net 346-character regression from R52, and is explicitly blocked from repetition.
 - R54 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - R54 is complete at 95% Human, expands exact AI by 51 characters versus R52, and is explicitly blocked from repetition.
 - R55 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - R55 is complete at 94% Human, has a net 103-character exact AI regression from R52, and is explicitly blocked from repetition.
 - R56 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
+- R56 is complete at 96% Human, is the best production-complete baseline, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
