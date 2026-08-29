@@ -15,12 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R46 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R47 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R46 regressed to 86% Human; retain exact R38 and close the tested Light-CBT lead
+### R47 prepared from exact R38; only one natural paragraph boundary is inserted
+
+R47 returns exactly to R38 and inserts one blank line before the conditional borrowed-adulthood sentence. Every reader-visible word, punctuation mark, sentence order, claim, heading, link, native object, and measured-Human span remains exact. This isolates paragraph adjacency between cognitive integration and borrowed adulthood; R34 did not isolate it because that candidate also changed the borrowed wording.
+
+- candidate: `experiments/R47-LIGHT-CBT-BORROWED-PARAGRAPH-UNSTACKING-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `347fdd098cf5598d761c59477089f63447fb23f933cbb8ad0e44b8eeaf06fc14`;
+- exact headed boundary: `experiments/R47-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `62a038407222663daf3c5459d9e95ef3628bf47d19fa2e5f31fe2167c85b8de9`;
+- size: 2,082 whitespace words / 11,809 UTF-8 bytes / 11,761 Unicode characters / terminal newline;
+- preflight: `experiments/R47-LIGHT-CBT-BORROWED-PARAGRAPH-UNSTACKING-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- exact-word preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
+- registered article authority impact: none.
+
+Retention requires strict exact-segment improvement over R38 without new spillover. If neutral or worse, discard R47 and close this paragraph-boundary split without cosmetic whitespace variants.
 
 R46 returns exactly to the best R38 whole boundary and changes only the first two sentences under `Light CBT / Narrative Integration / Borrowed Adulthood`. The R38 borrowed-adulthood wording, all measured-Human spans, readiness, aftercare, Yoga paragraph, headings, links, and native objects remain exact. The intervention reuses the already claim-audited R45 cognitive lead but does not reuse R45's broad late rewrite.
 
