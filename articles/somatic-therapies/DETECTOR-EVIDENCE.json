@@ -651,6 +651,52 @@
         "pending_or_ambiguous": 0
       },
       "disposition": "R28 completes at 79% Human, improving over R27 but regressing from R26. Its late structural move expands the AI boundary backward and forward. Return exactly to R26, change one AI region at a time, never repeat R28, and leave article authority unchanged."
+    },
+    {
+      "id": "somatic-r29-final-whole-gui",
+      "role": "non_authoritative_early_structural_split_boundary",
+      "experiment_id": "somatic-r29-early-structural-split-r01-gui-20260829-a",
+      "source_commit": "c5d124b",
+      "source_path": "articles/somatic-therapies/experiments/R29-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt",
+      "text_sha256": "9a02a5bebacade087b21859fef4c08c488ebcb12364c2b43658f567c75793b7f",
+      "word_count": 2084,
+      "utf8_bytes": 11820,
+      "unicode_characters": 11774,
+      "transport": "headed authenticated Brave/Pangram GUI in 2nd gpt profile",
+      "model": "pangram-4",
+      "version": "4.0",
+      "history_match_mode": "pre_click_exact_plus_history_whitespace_normalized_exact",
+      "history_record_id": "903a5728-6e25-4338-8128-1164c5ceb646",
+      "submitted_at": "2026-08-29T15:11:41.587Z",
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "Mixed",
+        "fraction_ai": 0.15,
+        "fraction_human": 0.85,
+        "pangram_display_word_count": 2119,
+        "summary": "AI-generated content appears in scattered patches"
+      },
+      "segments": [
+        {"id":"text-segment-0","result":"Human","characters":5079,"words":890,"display_text_sha256":"1f4bc508b69df9d7a404ffc3652523f35fd9b30f728adb340f55860ca270ed93","scope":"opening through No power yoga."},
+        {"id":"text-segment-1","result":"AI","characters":443,"words":92,"display_text_sha256":"db9c401638af944ed82979b15afb40317dd399b7f0ba7e1c86e91537d3723704","scope":"No hot yoga through Yoga and TRE choice and neck safety, including new practice heading"},
+        {"id":"text-segment-2","result":"Human","characters":3192,"words":588,"display_text_sha256":"92a90a9f738fcd7595c6f94c04ddfe9b59680e79c8758d64badce16eade16867","scope":"between-session owner spine through first Brainspotting self-guidance caution sentence"},
+        {"id":"text-segment-3","result":"AI","characters":1334,"words":227,"display_text_sha256":"b8b2fa060c6e382d0daf81bfa6780ba2b03bfec942e5109dfa00606313d0fd82","scope":"final Brainspotting deep-trauma caution through research, EMDR, and borrowed adulthood"},
+        {"id":"text-segment-4","result":"Human","characters":1650,"words":287,"display_text_sha256":"a1bd297b0c3209ef1b24fad2538b8c4d129df3d886e68fb8432c26ba31b3bdd4","scope":"exact R26 lived outcome, restimulation, and Sky and Vagal ending"}
+      ],
+      "durable_evidence": {
+        "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+        "branch": "automation/pangram-fixed-batch",
+        "reservation_commit": "0e06fff3",
+        "result_commit": "8b2c73d3",
+        "recovery_path": "state/PANGRAM-LOCAL-SOMATIC-R29-FINAL-GUI-2026-08-29.md"
+      },
+      "call_accounting": {
+        "paid_gui_calls": 1,
+        "cache_hits": 0,
+        "duplicate_calls": 0,
+        "pending_or_ambiguous": 0
+      },
+      "disposition": "R29 is the new best at 85% Human. Preserve its three Human segments; leave the complete early region untouched for the next call; change only the 1,334-character late region; never repeat R29; article authority remains unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -698,7 +744,10 @@
     "r28_final_whole_gui_click_promises_resolved": 1,
     "r28_final_whole_gui_pending_or_ambiguous": 0,
     "r28_final_whole_gui_remaining_calls": 0,
-    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, or R27 whole hashes. Do not repeat ambiguous R28. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
+    "r29_final_whole_gui_calls": 1,
+    "r29_final_whole_gui_pending_or_ambiguous": 0,
+    "r29_final_whole_gui_remaining_calls": 0,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, R27, R28, or R29 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
@@ -711,7 +760,8 @@
     "final_r25": "Routed-boundary R25 regressed from 72% Human to 69% Human but decisively cleared the stable Protector/self-hypnosis region inside a 4,784-character Human opening. Three AI interactions remain: witness continuation plus Somatic/Yoga/TRE; the Brainspotting correction through EMDR and borrowed adulthood; and the restimulation definition plus Sky/Vagal. Freeze the three Human segments and repair destinations/adjacency rather than phrases.",
     "final_r26": "Red-region minimum-function R26 improved from 69% Human to 84% Human. The witness/Somatic Experiencing opening and the complete restimulation/Sky/Vagal ending cleared. Freeze the three Human segments and repair only the remaining Yoga/TRE safety tail and Brainspotting-caution/research/EMDR/borrowed-adulthood interaction while preserving every safety and factual function.",
     "final_r27": "Two-region direct first-person R27 regressed from 84% Human to 77% Human. Its Yoga/TRE rewrite absorbed the formerly Human Yoga setup, and its late rewrite pulled the AI boundary backward into the protected Brainspotting core and forward into the lived story. Return to R26 and use structural placement or higher-authority source recovery rather than iterating on R27's surface.",
-    "final_r28": "Late structural-unstacking R28 preserved every substantive R26 sentence and changed only late placement. It completed at 79% Human, improving over R27 but regressing from R26. The unchanged Yoga/TRE tail remained AI and the late AI boundary expanded from 1,442 to 2,007 characters. Return exactly to R26 and change one AI region at a time."
+    "final_r28": "Late structural-unstacking R28 preserved every substantive R26 sentence and changed only late placement. It completed at 79% Human, improving over R27 but regressing from R26. The unchanged Yoga/TRE tail remained AI and the late AI boundary expanded from 1,442 to 2,007 characters. Return exactly to R26 and change one AI region at a time.",
+    "final_r29": "Early structural-split R29 inserted only the registered Gentle Shaking / TRE heading into exact R26. It became the new best at 85% Human. The early AI region expanded slightly, but the later Human middle expanded by 108 characters and the late AI region shrank to 1,334 characters. Retain R29 as the next baseline, preserve its Human regions, and change only the late region next."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

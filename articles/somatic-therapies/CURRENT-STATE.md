@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R29 early structural split is preflight-clean and ready for one exact call
+### R29 completed at a new best 85% Human; target only its late region next
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -163,7 +163,13 @@ R29 is the next decision-useful whole candidate:
 - native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
 - article authority impact: none.
 
-R29 isolates the early structural boundary while leaving the complete late R26 region untouched. Removing the inserted heading and its paragraph break reproduces the exact R26 boundary byte-for-byte. The hash is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+R29 isolates the early structural boundary while leaving the complete late R26 region untouched. Removing the inserted heading and its paragraph break reproduces the exact R26 boundary byte-for-byte.
+
+The exact R29 boundary was submitted once in the correct signed-in `2nd gpt` Brave profile. The clean live field exactly matched the frozen SHA, plagiarism was off, and the single click resolved without ambiguity. Pangram 4.0 returned `Mixed`, AI `15%`, Human `85%`, with 2,119 display words and the summary `AI-generated content appears in scattered patches`. History record `903a5728-6e25-4338-8128-1164c5ceb646` is unambiguously bound to the frozen text by exact pre-click equality and exact 2,084-word History concatenation after display-only whitespace collapse.
+
+Result artifact: `experiments/R29-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `0e06fff3` / `8b2c73d3` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R29 is the new best completed whole boundary, improving from R26 Human `84%` to Human `85%`. Its early AI region expands slightly from 409 to 443 characters and begins at `No hot yoga`, so the heading does not clear Yoga/TRE. Its Human middle expands by 108 characters and pulls the first Brainspotting self-guidance caution into Human; the late AI region shrinks from 1,442 to 1,334 characters. The exact 1,650-character Human ending reproduces. Retain R29 as the next baseline, freeze its three Human regions, leave the complete early region untouched for the next call, and change only the late region.
 
 ## Completed
 
@@ -184,7 +190,7 @@ R29 isolates the early structural boundary while leaving the complete late R26 r
 - R27 final headed GUI completed once at Human `77%` / AI `23%`; exact History binding passed and the hash is blocked from repetition.
 - R28 late structural-unstacking candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes.
 - R28 final headed GUI completed once at Human `79%` / AI `21%`; exact History binding passed and the hash is blocked from repetition.
-- R29 early structural-split candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
+- R29 early structural-split candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; its final headed GUI completed once at a new best Human `85%` / AI `15%`, exact History binding passed, and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -198,6 +204,8 @@ R29 isolates the early structural boundary while leaving the complete late R26 r
 - R25 final headed GUI: Mixed; AI `31%`, Human `69%`; exact History report `d6ae6b73-5dfe-45d6-b0c8-a03ff0a3c98a`; one completed call, zero duplicate or ambiguous submissions.
 - R26 final headed GUI: Mixed; AI `16%`, Human `84%`; exact History report `7221f94b-88b9-4054-8a71-4fb23bae2a39`; one completed call, zero duplicate or ambiguous submissions.
 - R27 final headed GUI: Mixed; AI `23%`, Human `77%`; exact History report `5f94b713-9914-4328-91bf-4ba9a4d02be1`; one completed call, zero duplicate or ambiguous submissions.
+- R28 final headed GUI: Mixed; AI `21%`, Human `79%`; exact History report `d8ca094b-7307-4f5b-8fe8-9fea49f83554`; one completed call, zero duplicate or ambiguous submissions.
+- R29 final headed GUI: Mixed; AI `15%`, Human `85%`; exact History report `903a5728-6e25-4338-8128-1164c5ceb646`; one completed call, zero duplicate or ambiguous submissions.
 
 R22's six AI-marked contextual segments are:
 
@@ -281,6 +289,8 @@ R27 completed at `2026-08-29T12:36:10.640Z`; its unique History record is `https
 
 R28 completed at `2026-08-29T13:02:44.458Z`; its unique History record is `https://www.pangram.com/history?history=d8ca094b-7307-4f5b-8fe8-9fea49f83554`. The plagiarism option remained off. There is no pending or ambiguous R28 submission. Do not repeat SHA `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`.
 
+R29 completed from one click beginning at `2026-08-29T15:11:41.587Z`; its unique History record is `https://www.pangram.com/history?history=903a5728-6e25-4338-8128-1164c5ceb646`. The plagiarism option remained off. There is no pending or ambiguous R29 submission. Do not repeat SHA `9a02a5bebacade087b21859fef4c08c488ebcb12364c2b43658f567c75793b7f`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -290,22 +300,22 @@ R28 completed at `2026-08-29T13:02:44.458Z`; its unique History record is `https
 - Exact R26 is below the publication gate at 84% Human and is complete/blocked from repetition.
 - Exact R27 is below the publication gate at 77% Human and is complete/blocked from repetition.
 - Exact R28 is below the publication gate at 79% Human and is complete/blocked from repetition.
-- Exact R29 is preflight-clean but not yet submitted.
+- Exact R29 is below the publication gate at 85% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Submit exact R29 once after durable reservation and bind its unique History result.
-- If R29 is below 100% Human, use its localization to decide whether to keep the registered early section boundary or revert it before the next single-region repair.
+- Build the next candidate from exact R29, preserve all three R29 Human regions, leave the complete early Yoga/TRE region untouched, and change only the 1,334-character late Brainspotting/EMDR/borrowed-adulthood region.
 - Do not reuse R27's broad first-person rewrite or R28's late structural arrangement.
+- Prefer natural practice ownership, exact source recovery, deletion of duplicated explanation, or a single structural boundary over compact rephrasing.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the preflight-clean R29 artifacts.
-2. Reserve one decision-changing R29 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
-3. Continue from the better contextual surface without repeating any completed hash.
+1. Persist and push the exact R29 result in both repositories.
+2. Build the next candidate from exact R29, changing only its 1,334-character late AI region while freezing all three Human regions and the complete early region.
+3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -314,5 +324,6 @@ R28 completed at `2026-08-29T13:02:44.458Z`; its unique History record is `https
 - Do not alter owner locks or owner-final prose.
 - Do not repeat R22, R23, R24, R25, R26, R27, or any completed/ambiguous later submission.
 - R28 is complete at 79% Human and is explicitly blocked from repetition.
+- R29 is complete at 85% Human and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
