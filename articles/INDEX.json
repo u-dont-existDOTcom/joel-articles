@@ -33,12 +33,12 @@
         "owner_locks": {"path": "articles/somatic-therapies/OWNER-LOCKS.json", "sha256": "4bfaf1ec291006b79396542075963fb76f6a1925f597cf419151070fbc2c8054"},
         "source_evidence": {"path": "articles/somatic-therapies/SOURCE-EVIDENCE.json", "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"},
         "unincorporated_ideas": {"path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md", "sha256": "df7ac269b6b7064d05cd6b638946b29b18bb1b768262f12f622dcb8fe5681a7c"},
-        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "999db7c2093e3b16e4e7005b8a8feb131db69e669e6505d30d2201fdd15c093f"}
+        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "6df782cf87ee3cfbf060e60134e9606f352ff5d5b2d9343dad58b3f71c7d7900"}
       },
       "review": {
         "citations": {"path": "articles/somatic-therapies/CITATIONS.json", "sha256": "ade24edacc6bebda6145441b766e52de8a2125b4a40eee10b51354296afa1477", "status": "pending"},
         "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "33bd23fe920b6656279fcf8ce98f9a4b966963dfe3879f10b804db65cc265aa7", "status": "recorded"},
-        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "c7bdb64b00514ee9d923e1ca5a1d68687f70af69556426f911b4a3cacda8004a", "status": "pending"}
+        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "58747067285f5739a3f0cea7009b983fb8e65b3fd787cd81d5f4d0acfbb3330b", "status": "pending"}
       },
       "publication_exports": [],
       "additional_artifacts": [
@@ -296,7 +296,10 @@
         {"path": "articles/somatic-therapies/experiments/R44-YOGA-TO-BETWEEN-SESSIONS-ROUTING-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "73d07c1534eaff77559a997307db9c13a1a571b0f3774d7892900139d319b6ff", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R44-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "9c234351c91581192b8b4aa998e8cc137a991415fa55740d7d3e6f236bb14f50", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R44-YOGA-TO-BETWEEN-SESSIONS-ROUTING-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "526953c4055c36d2d83abb9b1a9771edc7b8236728151765eaf839bfd3a98878", "role": "preservation_and_preflight"},
-        {"path": "articles/somatic-therapies/experiments/R44-FINAL-GUI-RESULT-20260829.md", "sha256": "45a50c7acc9541d05d3b80513b7045e020b4f82d58682236f568ad6199c708a9", "role": "detector_experiment_result"}
+        {"path": "articles/somatic-therapies/experiments/R44-FINAL-GUI-RESULT-20260829.md", "sha256": "45a50c7acc9541d05d3b80513b7045e020b4f82d58682236f568ad6199c708a9", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R45-LATE-THOUGHT-DEVELOPMENT-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "7976a4b537451a778d311ae796e5f2cc11289fec2591a9b8f2c6a0063bcf22c9", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R45-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "25d17226967b3d097919c6ba280141fc25295abc78dd030eb80f599e47a6c9ed", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R45-LATE-THOUGHT-DEVELOPMENT-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "306f4d44d911bdc4ec09a0243e59f3ebdf2d70501052de251d239dd25075c065", "role": "preservation_and_preflight"}
       ]
     }
   ]

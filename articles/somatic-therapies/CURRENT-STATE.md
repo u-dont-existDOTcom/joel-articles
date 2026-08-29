@@ -413,6 +413,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R43 final headed GUI completed once at Human `88%` / AI `12%`; exact History binding passed, but readiness remained AI with the preceding caution/citation and the final Human/high EMDR contrast sentence spilled into the late AI cluster. R43 is discarded, this adjacency is closed, and its hash is blocked from repetition.
 - R44 Yoga-to-between-sessions candidate returns exactly to R38, moves the complete Yoga paragraph byte-exact into its own subsection between Human owner-specific EFT and Shaking discussions, preserves every claim/link/native object and the successful TRE route, and passes every non-detector gate.
 - R44 final headed GUI completed once at Human `85%` / AI `15%`; exact History binding passed, but Yoga routing created two early AI runs that absorbed Somatic Experiencing/EFT and the opening owner-authored Shaking sentence. R44 is discarded, all Yoga routing is closed, and its hash is blocked from repetition.
+- R45 late thought-development candidate returns exactly to R38 outside its 823-character late AI cluster, re-realizes every readiness/aftercare/delayed-effects/Light-CBT/borrowed-adulthood claim as naturally developed first-person decisions, adds no event or substantive claim, preserves every measured Human span/link/native object, and passes every non-detector gate.
 
 ## Decisive detector evidence
 
@@ -603,15 +604,16 @@ R44's one submit action began at `2026-08-29T17:49:45.935Z`; its unique History 
 - Preserve R43's boundary lesson: an existing heading can create a short Human island without protecting either adjacent span; semantic fit and local Human text do not override the net whole-boundary result.
 - Discard R44 and return exactly to R38. The exact Yoga paragraph remained AI and split both surrounding Human owner discussions into larger early AI runs.
 - Preserve R44's routing lesson: R38's successful TRE move is function- and destination-specific; Human material on both sides does not make routing generic detector medicine.
+- Run R45 once: test a claim-complete thought-development realization of the exact late AI cluster while leaving every R38 Human span, the Yoga paragraph, headings, links, and native objects exact.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R44 result and function-specific-routing lesson in both repositories without touching the registered master.
-2. Return exactly to R38 and treat all Yoga realization/routing lanes, all tested readiness destinations, and late heading changes as closed.
-3. Build a claim-complete thought-development realization for the late cluster only; preserve every R38 Human span and run preservation/coherence/architecture gates before considering another exact whole call.
+1. Persist and push the exact R45 candidate, headed boundary, claim mapping, coherence proof, and state checkpoint without touching the registered master.
+2. Reserve one decision-changing call after fresh local and authenticated-History duplicate defense.
+3. Submit once through the reusable dashboard, bind exact History text, and compare exact local and downstream boundary movement before any retention decision.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
