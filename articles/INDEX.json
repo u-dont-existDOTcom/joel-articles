@@ -311,7 +311,8 @@
         {"path": "articles/somatic-therapies/experiments/R47-FINAL-GUI-RESULT-20260829.md", "sha256": "208069f78c5f50be0d45e5b879fbd6631fa189d1e3d85fdb813486237f7ca884", "role": "detector_experiment_result"},
         {"path": "articles/somatic-therapies/experiments/R48-BORROWED-ADULTHOOD-FUNCTION-WITHHOLDING-DIAGNOSTIC-CANDIDATE-20260829.md", "sha256": "c906c99dd4a4aa9382c714ec1fa774ba843de72fdb132289c2634d303262ba54", "role": "detector_diagnostic_candidate"},
         {"path": "articles/somatic-therapies/experiments/R48-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "48c12ddafa2e5b9c21282e26d6fce472be5b337b2503589d639c6094acc33f80", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R48-BORROWED-ADULTHOOD-FUNCTION-WITHHOLDING-DIAGNOSTIC-PREFLIGHT-20260829.md", "sha256": "2407122ef568b5880c420a477a716c831da83929cc00b7e3ef769bbc0745bc06", "role": "diagnostic_preservation_and_preflight"}
+        {"path": "articles/somatic-therapies/experiments/R48-BORROWED-ADULTHOOD-FUNCTION-WITHHOLDING-DIAGNOSTIC-PREFLIGHT-20260829.md", "sha256": "2407122ef568b5880c420a477a716c831da83929cc00b7e3ef769bbc0745bc06", "role": "diagnostic_preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R48-FINAL-GUI-DIAGNOSTIC-RESULT-20260829.md", "sha256": "72147dcf24b7516cc9bb05c4392e8911838d0b6facda382b23bea744f859a21c", "role": "detector_diagnostic_result"}
       ]
     }
   ]
