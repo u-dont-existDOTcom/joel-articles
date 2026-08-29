@@ -438,6 +438,88 @@
         "pending_or_ambiguous": 0
       },
       "disposition": "R25 regresses to 69% Human but clears the stable Protector/self-hypnosis region inside a large Human opening. Preserve the three Human segments, repair only the three new contextual AI runs, never repeat this hash, and leave registered master authority unchanged."
+    },
+    {
+      "id": "somatic-r26-final-whole-gui",
+      "role": "non_authoritative_red_region_minimum_function_boundary",
+      "experiment_id": "somatic-r26-red-region-minimum-function-r01-gui-20260829-a",
+      "source_commit": "cd4d7e9",
+      "source_path": "articles/somatic-therapies/experiments/R26-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt",
+      "text_sha256": "2953e0fcce6caed4df5d1603d0330225d361a28b8cadfa4f0c575f36dde12d5b",
+      "word_count": 2080,
+      "transport": "headed authenticated Brave/Pangram GUI",
+      "model": "pangram-4",
+      "version": "4.0",
+      "history_match_mode": "pre_click_exact_plus_history_whitespace_normalized_exact",
+      "history_record_id": "7221f94b-88b9-4054-8a71-4fb23bae2a39",
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "Mixed",
+        "fraction_ai": 0.16,
+        "fraction_human": 0.84,
+        "pangram_display_word_count": 2116,
+        "summary": "AI-generated content appears in scattered patches"
+      },
+      "segments": [
+        {
+          "id": "text-segment-0",
+          "result": "Human",
+          "characters": 5092,
+          "words": 893,
+          "display_text_sha256": "ef4adc3b351202d9d762c52fe286199e2c2e1ccc310a8bd811ec8d96bc63be0b",
+          "scope": "complete opening through No power yoga. No hot yoga., including the cleared witness and Somatic Experiencing opening"
+        },
+        {
+          "id": "text-segment-1",
+          "result": "AI",
+          "characters": 409,
+          "words": 85,
+          "display_text_sha256": "fb16d4f064bd7e53130a25bbec198713bed8ec10ada40fa7e63d79b14b60e697",
+          "scope": "latter Yoga choice and exit plus TRE stop and neck safety"
+        },
+        {
+          "id": "text-segment-2",
+          "result": "Human",
+          "characters": 3084,
+          "words": 568,
+          "display_text_sha256": "c54917d5b4d37ba0c5808f42afb755cf603d850f820dc64e0dba9fe2790abb7e",
+          "scope": "between-session owner spine through the Brainspotting democratic like EFT sentence"
+        },
+        {
+          "id": "text-segment-3",
+          "result": "AI",
+          "characters": 1442,
+          "words": 247,
+          "display_text_sha256": "29cbd854f70e18d2bb35efdb4f770e2be25f25654d0d0192221fe70d3959f452",
+          "scope": "Brainspotting caution and research through EMDR and Light CBT with borrowed adulthood"
+        },
+        {
+          "id": "text-segment-4",
+          "result": "Human",
+          "characters": 1650,
+          "words": 287,
+          "display_text_sha256": "a1bd297b0c3209ef1b24fad2538b8c4d129df3d886e68fb8432c26ba31b3bdd4",
+          "scope": "complete lived outcome, restimulation, and Sky and Vagal ending"
+        }
+      ],
+      "comparison": {
+        "r25_fraction_human": 0.69,
+        "human_delta": 0.15
+      },
+      "durable_evidence": {
+        "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+        "branch": "automation/pangram-fixed-batch",
+        "reservation_commit": "4aef919a",
+        "result_commit": "2aedcd5e",
+        "recovery_path": "state/PANGRAM-LOCAL-SOMATIC-R26-FINAL-GUI-2026-08-29.md"
+      },
+      "call_accounting": {
+        "paid_gui_calls": 1,
+        "cache_hits": 0,
+        "duplicate_calls": 0,
+        "pending_or_ambiguous": 0
+      },
+      "disposition": "R26 improves to 84% Human and clears the witness and complete ending. Preserve all three Human segments, repair only the 409-character Yoga/TRE safety tail and 1,442-character Brainspotting/EMDR/borrowed-adulthood interaction, never repeat this hash, and leave registered master authority unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -477,7 +559,9 @@
     "r24_final_whole_gui_remaining_calls": 0,
     "r25_final_whole_gui_calls": 1,
     "r25_final_whole_gui_remaining_calls": 0,
-    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, or R25 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
+    "r26_final_whole_gui_calls": 1,
+    "r26_final_whole_gui_remaining_calls": 0,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, or R26 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
@@ -487,7 +571,8 @@
     "final_r22": "Direct owner-source recovery improved the headed whole boundary from 27.14203596% Human in R16 to 60% Human in R22. Six contextual segments remain AI-marked, including locally Human/high R21 prose, so adjacency and stacked editorial closure are the current production targets rather than phrase replacement.",
     "final_r23": "Contextual unstacking improved the headed whole boundary from 60% Human in R22 to 66% Human in R23. Five exact regions remain AI-marked. The unchanged 182-character M01 subspan and independently Human/high R21 prose still flip inside the whole article, while the 3,053-character late interaction persisted despite moving the lived story; route closures to natural owners and break the late modality/safety/outcome run rather than replacing phrases.",
     "final_r24": "Minimum closure improved the headed whole boundary from 66% Human in R23 to 72% Human in R24. Four start/end regions remain AI-marked. Removing generic Louka closure worked and Yoga/TRE shrank, but the 182-character Protector/self-hypnosis and 248-character witness regions remained stable through paragraph consolidation, while a 2,554-character late run still absorbed the end of a Human lived story plus exact Human/high EMDR. The next repair requires destination or source-realization changes at the start and a genuine Human boundary inside the end run.",
-    "final_r25": "Routed-boundary R25 regressed from 72% Human to 69% Human but decisively cleared the stable Protector/self-hypnosis region inside a 4,784-character Human opening. Three AI interactions remain: witness continuation plus Somatic/Yoga/TRE; the Brainspotting correction through EMDR and borrowed adulthood; and the restimulation definition plus Sky/Vagal. Freeze the three Human segments and repair destinations/adjacency rather than phrases."
+    "final_r25": "Routed-boundary R25 regressed from 72% Human to 69% Human but decisively cleared the stable Protector/self-hypnosis region inside a 4,784-character Human opening. Three AI interactions remain: witness continuation plus Somatic/Yoga/TRE; the Brainspotting correction through EMDR and borrowed adulthood; and the restimulation definition plus Sky/Vagal. Freeze the three Human segments and repair destinations/adjacency rather than phrases.",
+    "final_r26": "Red-region minimum-function R26 improved from 69% Human to 84% Human. The witness/Somatic Experiencing opening and the complete restimulation/Sky/Vagal ending cleared. Freeze the three Human segments and repair only the remaining Yoga/TRE safety tail and Brainspotting-caution/research/EMDR/borrowed-adulthood interaction while preserving every safety and factual function."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

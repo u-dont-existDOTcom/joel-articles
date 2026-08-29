@@ -15,12 +15,12 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R25 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R26 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R26 minimum-function candidate is preflight-clean and ready for one exact whole GUI call
+### R26 minimum-function candidate completed at 84% Human; two exact contextual regions remain
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -100,7 +100,13 @@ R26 is the next decision-useful whole candidate:
 - native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
 - article authority impact: none.
 
-R26 changes only R25's three AI regions. It recovers blunter Yoga/TRE source syntax, deletes duplicated EMDR target explanation, keeps every timing/aftercare/safety function, reduces borrowed adulthood to its protected core, and separates the restimulation definition from Sky/Vagal with a reader-facing outcome heading. The exact hash is eligible for one paid headed GUI measurement after durable reservation and exact live-field equality.
+R26 changes only R25's three AI regions. It recovers blunter Yoga/TRE source syntax, deletes duplicated EMDR target explanation, keeps every timing/aftercare/safety function, reduces borrowed adulthood to its protected core, and separates the restimulation definition from Sky/Vagal with a reader-facing outcome heading.
+
+The exact R26 boundary was submitted once in authenticated Brave/Pangram under Joel's standing direction not to interrupt for routine confirmations. Pangram 4.0 returned `Mixed`, AI `16%`, Human `84%`, with the summary `AI-generated content appears in scattered patches` and a display count of 2,116 words. History record `7221f94b-88b9-4054-8a71-4fb23bae2a39` is unambiguously bound to the frozen SHA: the live field exactly matched the local text before the click, and the five stored History segments concatenate to an exact 2,080-word match after display-only whitespace collapse.
+
+Result artifact: `experiments/R26-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `4aef919a` / `2aedcd5e` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R26 improves from R25 (Human `69%` → `84%`) and clears the witness/Somatic Experiencing opening plus the complete restimulation/Sky-Vagal ending. Three Human segments are now frozen: 5,092 characters through `No power yoga. No hot yoga.`, 3,084 characters through the Brainspotting `democratic like EFT` sentence, and the 1,650-character complete ending. Only the 409-character Yoga/TRE safety tail and 1,442-character Brainspotting-caution/research/EMDR/borrowed-adulthood run remain AI. No completed whole hash may be repeated.
 
 ## Completed
 
@@ -115,7 +121,8 @@ R26 changes only R25's three AI regions. It recovers blunter Yoga/TRE source syn
 - R24 final headed GUI completed once at Human `72%` / AI `28%`; exact History binding passed and the hash is blocked from repetition.
 - R25 routed-boundary candidate passes preservation, architecture, safety/evidence, link, native-object, and exact-boundary preflight for one new exact whole call.
 - R25 final headed GUI completed once at Human `69%` / AI `31%`; exact History binding passed and the hash is blocked from repetition.
-- R26 minimum-function candidate preserves all three R25 Human segments and passes every non-detector eligibility gate for one new exact whole call.
+- R26 minimum-function candidate preserves all three R25 Human segments and passes every non-detector eligibility gate.
+- R26 final headed GUI completed once at Human `84%` / AI `16%`; exact History binding passed and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -127,6 +134,7 @@ R26 changes only R25's three AI regions. It recovers blunter Yoga/TRE source syn
 - R23 final headed GUI: Mixed; AI `34%`, Human `66%`; exact History report `e99bf274-4a19-4b91-9c61-ec7db77638f2`; one completed call, zero duplicate or ambiguous submissions.
 - R24 final headed GUI: Mixed; AI `28%`, Human `72%`; exact History report `a9aab5ac-eb3c-4839-a8b1-39b43c889c7c`; one completed call, zero duplicate or ambiguous submissions.
 - R25 final headed GUI: Mixed; AI `31%`, Human `69%`; exact History report `d6ae6b73-5dfe-45d6-b0c8-a03ff0a3c98a`; one completed call, zero duplicate or ambiguous submissions.
+- R26 final headed GUI: Mixed; AI `16%`, Human `84%`; exact History report `7221f94b-88b9-4054-8a71-4fb23bae2a39`; one completed call, zero duplicate or ambiguous submissions.
 
 R22's six AI-marked contextual segments are:
 
@@ -152,6 +160,8 @@ R23 therefore strengthens the contextual interpretation. The short opening M01 s
 R24 reduces the problem to four start/end regions. Removing the generic Louka closure worked, and the Yoga/TRE span shrank from 753 to 425 characters. Paragraph consolidation did not clear the Protector/self-hypnosis or witness spans, which remained 182/248 characters. The late span shrank from 3,053 to 2,554 characters but now begins inside the otherwise Human lived story and still contains exact Human/high R21 EMDR. The next pass must change destinations or source realization for the two stable early functions and place a genuine Human owner boundary inside the late run rather than merely shortening it again.
 
 R25 clears the stable Protector/self-hypnosis tail and expands the opening Human region to 4,784 characters. The witness realization's first sentence is Human, but its continuation joins Somatic Experiencing/Yoga/TRE in one 729-character AI span. The between-session owner spine remains Human for 2,619 characters. The late technical run remains AI for 2,234 characters despite exact Human/high R21 prose, then the moved lived story is Human for 984 characters, and the restimulation definition joins Sky/Vagal in a 757-character AI span. This confirms that the next repair must preserve the three Human segments and change placement/adjacency at those three explicit boundaries.
+
+R26 clears two of those three R25 interactions and shrinks the third. The 5,092-character opening is Human through the Yoga setup; only the 409-character Yoga/TRE safety tail remains AI. The Human middle expands to 3,084 characters through the Brainspotting owner core; only the following 1,442-character caution/research/EMDR/borrowed-adulthood run remains AI. The complete lived outcome, restimulation definition, and Sky/Vagal section now form a 1,650-character Human ending. The next repair must freeze all three Human segments and change only the two exact AI regions while retaining every safety and factual function.
 
 ### R17–R19: model-realized technical prose and compact editorial closure fail
 
@@ -184,7 +194,7 @@ Production lesson: recover spontaneous owner syntax, preserve its uneven thought
 
 The durable experiment and result artifacts are registered in `articles/INDEX.json`. The decisive current files are the R20 result, R21 result, R22 candidate, R22 exact boundary, and R22 preflight named above.
 
-## Known Human material protected after R24
+## Known Human material protected after R26
 
 - owner-preferred Introduction;
 - owner-reported Human/medium physical-state surface and Human/high personal core;
@@ -198,7 +208,9 @@ The durable experiment and result artifacts are registered in `articles/INDEX.js
 
 Joel's Brave/Pangram Professional session completed the exact R24 check at `2026-08-29T11:36:43.426Z`. The result is present in History at `https://www.pangram.com/history?history=a9aab5ac-eb3c-4839-a8b1-39b43c889c7c`. Fresh confirmation was obtained immediately before transmission. The plagiarism option remained off. There is no pending or ambiguous R24 submission. Do not repeat SHA `5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b`.
 
-Joel subsequently confirmed R24 and explicitly instructed the worker to stop interrupting for routine confirmations. R25 completed at `2026-08-29T12:02:43.670Z`; its unique History record is `https://www.pangram.com/history?history=d6ae6b73-5dfe-45d6-b0c8-a03ff0a3c98a`. The plagiarism option remained off. There is no pending or ambiguous R25 submission. Do not repeat SHA `4ebcdd0f0d4d17036327ef6268bcb4ecf0f92e013ae0ffc13a3f242a4872644d`. R26 has not yet been submitted at this checkpoint.
+Joel subsequently confirmed R24 and explicitly instructed the worker to stop interrupting for routine confirmations. R25 completed at `2026-08-29T12:02:43.670Z`; its unique History record is `https://www.pangram.com/history?history=d6ae6b73-5dfe-45d6-b0c8-a03ff0a3c98a`. The plagiarism option remained off. There is no pending or ambiguous R25 submission. Do not repeat SHA `4ebcdd0f0d4d17036327ef6268bcb4ecf0f92e013ae0ffc13a3f242a4872644d`.
+
+R26 completed at `2026-08-29T12:17:58.401Z`; its unique History record is `https://www.pangram.com/history?history=7221f94b-88b9-4054-8a71-4fb23bae2a39`. The plagiarism option remained off. There is no pending or ambiguous R26 submission. Do not repeat SHA `2953e0fcce6caed4df5d1603d0330225d361a28b8cadfa4f0c575f36dde12d5b`.
 
 ## Blockers / unresolved
 
@@ -206,29 +218,29 @@ Joel subsequently confirmed R24 and explicitly instructed the worker to stop int
 - Exact R23 is below the publication gate at 66% Human and is complete/blocked from repetition.
 - Exact R24 is below the publication gate at 72% Human and is complete/blocked from repetition.
 - Exact R25 is below the publication gate at 69% Human and is complete/blocked from repetition.
-- Exact R26 is preflight-clean but not yet measured.
+- Exact R26 is below the publication gate at 84% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Persist and push the exact R26 candidate, boundary, preflight, and state checkpoint.
-- Create one durable lab reservation for exact SHA `2953e0fcce6caed4df5d1603d0330225d361a28b8cadfa4f0c575f36dde12d5b` after fresh duplicate/history defense.
-- Submit R26 once, bind it to Pangram History, and persist the result in both repositories before another call.
+- Preserve the three exact R26 Human History segments and repair only the two AI-marked regions.
+- Retain all Yoga/TRE safety, Brainspotting caution/evidence, EMDR timing/aftercare, and borrowed-adulthood functions without rebuilding another compact closure run.
+- Submit only a preflight-clean, materially decision-changing next whole candidate after durable reservation and duplicate/history defense.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Validate and push the exact R26 candidate, boundary, preflight, and state checkpoint.
-2. Confirm no completed or pending measurement exists for the R26 hash, then create one durable reservation.
-3. Submit R26 once, bind it to Pangram History, and persist the result before any further call.
-4. If R26 is not 100% Human, preserve newly Human spans and make only decision-relevant contextual repairs.
+1. Persist and push the exact R26 result and History localization in both repositories.
+2. Build the next whole candidate from R26 while preserving all three Human segments exactly and changing only the two AI regions.
+3. Run preservation, architecture, safety/evidence, link, native-object, and exact-boundary checks before reserving one new call.
+4. Submit once, bind the result to Pangram History, and persist it before any further call.
 5. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
 - Do not overwrite or promote the registered master with an experiment.
 - Do not alter owner locks or owner-final prose.
-- Do not repeat R22, R23, R24, R25, or any completed/ambiguous R26 submission.
+- Do not repeat R22, R23, R24, R25, R26, or any completed/ambiguous later submission.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
