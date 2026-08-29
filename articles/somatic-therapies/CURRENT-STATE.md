@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R29 completed at a new best 85% Human; target only its late region next
+### R30 After EMDR structural split is preflight-clean and ready for one exact call
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -171,6 +171,21 @@ Result artifact: `experiments/R29-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R29 is the new best completed whole boundary, improving from R26 Human `84%` to Human `85%`. Its early AI region expands slightly from 409 to 443 characters and begins at `No hot yoga`, so the heading does not clear Yoga/TRE. Its Human middle expands by 108 characters and pulls the first Brainspotting self-guidance caution into Human; the late AI region shrinks from 1,442 to 1,334 characters. The exact 1,650-character Human ending reproduces. Retain R29 as the next baseline, freeze its three Human regions, leave the complete early region untouched for the next call, and change only the late region.
 
+R30 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R30-AFTER-EMDR-STRUCTURAL-SPLIT-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `aa1169427b4a8797aebdc2da09f08364b9db574ae3a8895d218b753d8fac08b7`;
+- exact headed boundary: `experiments/R30-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `137b2990cff2c44812db5c9432f1c4e03bb1a3edf0486d43eb82aa14e36c629f`;
+- size: 2,086 whitespace words / 11,832 UTF-8 bytes / 11,786 Unicode characters / terminal newline;
+- preflight: `experiments/R30-AFTER-EMDR-STRUCTURAL-SPLIT-PRESERVATION-AND-PREFLIGHT-20260829.md`, SHA-256 `dc61a7850a0c84255b7d40303734d7614ac8014a972b8313d552766fea405a17`;
+- every substantive R29 sentence, all three R29 Human regions, the complete early Yoga/TRE region, and all three R21 Human/high cores remain exact;
+- the only reader-visible change is the registered `After EMDR` heading before the exact R29 aftercare paragraph;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, exact R29 URL multiset and order;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R30 tests one natural practice-owned boundary inside the 1,334-character late AI run while leaving the complete early region fixed. Removing the inserted heading and its paragraph break reproduces exact R29 byte-for-byte. The hash is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -191,6 +206,7 @@ R29 is the new best completed whole boundary, improving from R26 Human `84%` to 
 - R28 late structural-unstacking candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes.
 - R28 final headed GUI completed once at Human `79%` / AI `21%`; exact History binding passed and the hash is blocked from repetition.
 - R29 early structural-split candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; its final headed GUI completed once at a new best Human `85%` / AI `15%`, exact History binding passed, and the hash is blocked from repetition.
+- R30 After EMDR structural-split candidate preserves every substantive R29 sentence, all three R29 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -301,21 +317,22 @@ R29 completed from one click beginning at `2026-08-29T15:11:41.587Z`; its unique
 - Exact R27 is below the publication gate at 77% Human and is complete/blocked from repetition.
 - Exact R28 is below the publication gate at 79% Human and is complete/blocked from repetition.
 - Exact R29 is below the publication gate at 85% Human and is complete/blocked from repetition.
+- Exact R30 is preflight-clean but not yet submitted.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Build the next candidate from exact R29, preserve all three R29 Human regions, leave the complete early Yoga/TRE region untouched, and change only the 1,334-character late Brainspotting/EMDR/borrowed-adulthood region.
+- Submit exact R30 once after durable reservation and bind its unique History result.
+- If R30 is below 100% Human, use its localization to decide whether to retain `After EMDR` before the next single-region repair.
 - Do not reuse R27's broad first-person rewrite or R28's late structural arrangement.
-- Prefer natural practice ownership, exact source recovery, deletion of duplicated explanation, or a single structural boundary over compact rephrasing.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R29 result in both repositories.
-2. Build the next candidate from exact R29, changing only its 1,334-character late AI region while freezing all three Human regions and the complete early region.
-3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
+1. Commit and push the preflight-clean R30 artifacts.
+2. Reserve one decision-changing R30 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
+3. Continue from the better contextual surface without repeating any completed hash.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
