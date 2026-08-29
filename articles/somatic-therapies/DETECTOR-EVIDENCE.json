@@ -259,6 +259,52 @@
         "pending_or_ambiguous": 0
       },
       "disposition": "R22 improves the whole boundary to 60% Human but fails the mandatory 100%-Human publication gate. Preserve Human segments, repair six contextual/closure regions, never repeat this hash, and leave registered master authority unchanged."
+    },
+    {
+      "id": "somatic-r23-final-whole-gui",
+      "role": "non_authoritative_contextual_unstacking_boundary",
+      "experiment_id": "somatic-r23-contextual-unstacking-r01-gui-20260829-a",
+      "source_commit": "3e4613b",
+      "source_path": "articles/somatic-therapies/experiments/R23-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt",
+      "text_sha256": "d0d957892e4ba9895124287d0dcf78ebf33f2e5a6421a64fb961de5b24eb3589",
+      "word_count": 2426,
+      "transport": "headed authenticated Brave/Pangram GUI",
+      "model": "pangram-4",
+      "version": "4.0",
+      "history_match_mode": "pre_click_exact_plus_history_whitespace_normalized_exact",
+      "history_record_id": "e99bf274-4a19-4b91-9c61-ec7db77638f2",
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "Mixed",
+        "fraction_ai": 0.34,
+        "fraction_human": 0.66,
+        "pangram_display_word_count": 2463
+      },
+      "highlighted_segments": [
+        {"id":"text-segment-1","characters":182,"display_text_sha256":"a11315719f4b5015efe71780814a382b3ff760e46972d5324cf663ec57281502","scope":"Protector action plus bounded self-hypnosis"},
+        {"id":"text-segment-3","characters":248,"display_text_sha256":"7a26495ecfe624d5ec39d5ee18ddb095d28ab31af8c3570de38670e7b24e57c9","scope":"witness heading and witness realization"},
+        {"id":"text-segment-5","characters":753,"display_text_sha256":"80ed520ce6ee8b08df6cc912443b46f2df5aa1c11dfc9e26992c85768b8ef329","scope":"latter Yoga sentence through first EFT sentence"},
+        {"id":"text-segment-7","characters":401,"display_text_sha256":"ef16167e67c262d2ec431076378f421d6e363980641e5467ef226ce5e42200b9","scope":"Louka and evidence closure except final one-change sentence"},
+        {"id":"text-segment-9","characters":3053,"display_text_sha256":"e2e1ee079795f3241e16df73bc8521f9f61d2b31012c67233b6c690d03e57c40","scope":"outcome continuation through EMDR, borrowed adulthood, Sky/Vagal, and final outcome test"}
+      ],
+      "comparison": {
+        "r22_fraction_human": 0.6,
+        "human_delta": 0.06
+      },
+      "durable_evidence": {
+        "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+        "branch": "automation/pangram-fixed-batch",
+        "reservation_commit": "dc07a3be",
+        "result_commit": "e88cab73",
+        "recovery_path": "state/PANGRAM-LOCAL-SOMATIC-R23-FINAL-GUI-2026-08-29.md"
+      },
+      "call_accounting": {
+        "paid_gui_calls": 1,
+        "cache_hits": 0,
+        "duplicate_calls": 0,
+        "pending_or_ambiguous": 0
+      },
+      "disposition": "R23 improves the whole boundary to 66% Human but fails the mandatory 100%-Human publication gate. Preserve its five Human segments, repair the five exact contextual boundaries, never repeat this hash, and leave registered master authority unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -292,14 +338,17 @@
     "r16_final_whole_gui_remaining_calls": 0,
     "r22_final_whole_gui_calls": 1,
     "r22_final_whole_gui_remaining_calls": 0,
-    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16 or R22 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
+    "r23_final_whole_gui_calls": 1,
+    "r23_final_whole_gui_remaining_calls": 0,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, or R23 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
     "inner_child": "The r01 section, four reconstructions, one owner-source phrase restoration, and the exact original source section all returned 100% AI. This lane is closed until genuinely fresh owner language or another independently human source exists.",
     "production_rule": "Prefer higher-authority source restoration and minimum-dose movement/consolidation before generating new prose. A source that itself tests AI can preserve factual/argument authority without serving as a detector-Human style baseline.",
     "final_r16": "The preservation-clean final whole boundary improved materially from R15 but remained Mixed at AI 0.7285796404.",
-    "final_r22": "Direct owner-source recovery improved the headed whole boundary from 27.14203596% Human in R16 to 60% Human in R22. Six contextual segments remain AI-marked, including locally Human/high R21 prose, so adjacency and stacked editorial closure are the current production targets rather than phrase replacement."
+    "final_r22": "Direct owner-source recovery improved the headed whole boundary from 27.14203596% Human in R16 to 60% Human in R22. Six contextual segments remain AI-marked, including locally Human/high R21 prose, so adjacency and stacked editorial closure are the current production targets rather than phrase replacement.",
+    "final_r23": "Contextual unstacking improved the headed whole boundary from 60% Human in R22 to 66% Human in R23. Five exact regions remain AI-marked. The unchanged 182-character M01 subspan and independently Human/high R21 prose still flip inside the whole article, while the 3,053-character late interaction persisted despite moving the lived story; route closures to natural owners and break the late modality/safety/outcome run rather than replacing phrases."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

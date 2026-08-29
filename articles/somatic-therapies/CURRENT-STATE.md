@@ -15,35 +15,16 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R22 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R23 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R23 contextual-unstacking candidate is ready for one whole GUI measurement
+### R23 exact whole GUI result is complete at 66% Human; publication remains blocked
 
-Source checkpoint: `u-dont-existDOTcom/joel-articles@09bf04f` on the active branch.
+Source checkpoint: `u-dont-existDOTcom/joel-articles@3e4613b` on the active branch.
 
-- Candidate: `experiments/R22-OWNER-SOURCE-SPINE-WHOLE-ARTICLE-CANDIDATE-20260829.md`.
-- Candidate SHA-256: `fc1a1ff819a15fc93e50448061981846ffeb95012cf7dac62723b124c53e2c05`.
-- Exact headed GUI boundary: `experiments/R22-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`.
-- Boundary SHA-256: `e481ccca8fd08bb18a53254d3e5f1d4d3f97b6a1f4070d63cb0b884a4e1488c0`.
-- Boundary length: 2,448 whitespace words; terminal newline present.
-- Preflight: `experiments/R22-OWNER-SOURCE-SPINE-PRESERVATION-AND-PREFLIGHT-20260829.md`.
-- Preservation: PASS.
-- Architecture: PASS.
-- Safety/evidence tiering: PASS.
-- Links: 16/16, 13 unique, exact R16/R18 URL multiset.
-- Inline native placeholders: 7/7 in source order; top image remains outside the Markdown boundary, for 8/8 HTML objects at promotion.
-- Article authority impact: none.
-
-The exact R22 boundary was submitted once in authenticated Brave/Pangram and is complete. Pangram 4.0 returned `Mixed`, AI `40%`, Human `60%`, on its display count of 2,482 words. History record `2a5da025-9c0b-42c3-b59e-e35c40550efc` is unambiguously bound to the authorized SHA: the live field exactly matched the frozen local text before the click, and the twelve stored History segments concatenate to an exact 2,448-word match after display-only whitespace collapse.
-
-Result artifact: `experiments/R22-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `7cd31db8` / `a26c81a5` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
-
-R22 is a major improvement over R16 (Human `27.14203596%` → `60%`) but fails Joel's mandatory 100%-Human publication gate. Yoga and Sky remain closed at 6/6. Gentle shaking and EMDR remain closed at 6/6 with exact Human/high R21 production cores. Brainspotting retains one intentionally unused local call.
-
-R23 now implements the article-level contextual repair:
+R23 implements the article-level contextual repair:
 
 - candidate: `experiments/R23-CONTEXTUAL-UNSTACKING-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `db79f184a2adf4c718f116d2f142fc787d9b63441f3b6dc021be4f19188140f4`;
 - exact headed boundary: `experiments/R23-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `d0d957892e4ba9895124287d0dcf78ebf33f2e5a6421a64fb961de5b24eb3589`;
@@ -54,7 +35,13 @@ R23 now implements the article-level contextual repair:
 - native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
 - article authority impact: none.
 
-R23 preserves exact M01 and all three Human/high R21 sections, moves the exact Human lived outcome story between Brainspotting and EMDR, removes the stacked short-section taxonomy, and replaces compact closure only where R22 localized it. No untouched-Human control or local section call is authorized. The next decision-useful action is one exact R23 whole GUI call.
+R23 preserves exact M01 and all three Human/high R21 sections, moves the exact Human lived outcome story between Brainspotting and EMDR, removes the stacked short-section taxonomy, and replaces compact closure only where R22 localized it.
+
+The exact R23 boundary was submitted once in authenticated Brave/Pangram after action-time confirmation. Pangram 4.0 returned `Mixed`, AI `34%`, Human `66%`, on its display count of 2,463 words. History record `e99bf274-4a19-4b91-9c61-ec7db77638f2` is unambiguously bound to the frozen SHA: the live field exactly matched the local text before the click, and the ten stored History segments concatenate to an exact 2,426-word match after display-only whitespace collapse.
+
+Result artifact: `experiments/R23-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `dc07a3be` / `e88cab73` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R23 improves over R22 (Human `60%` → `66%`) but fails Joel's mandatory 100%-Human publication gate. Yoga and Sky remain closed at 6/6. Gentle shaking and EMDR remain closed at 6/6 with exact Human/high R21 production cores. Brainspotting retains one intentionally unused local call. No completed whole hash may be repeated.
 
 ## Completed
 
@@ -64,7 +51,7 @@ R23 preserves exact M01 and all three Human/high R21 sections, moves the exact H
 - R21 proved all three minimum factual/publication normalizations Human/high.
 - R22 assembled the resulting whole article and passed preservation, architecture, safety/evidence, link, native-object, and detector preflight.
 - R22 final headed GUI completed once at Human `60%` / AI `40%`; exact History binding passed and the hash is blocked from repetition.
-- R23 contextual repair passed all non-detector preflight gates and is frozen for one exact whole GUI result.
+- R23 contextual repair passed all non-detector preflight gates; its final headed GUI completed once at Human `66%` / AI `34%`, exact History binding passed, and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -73,6 +60,7 @@ R23 preserves exact M01 and all three Human/high R21 sections, moves the exact H
 - R16 final headed GUI: Mixed; AI `0.7285796404`, Human `0.2714203596`; exact History binding.
 - R18 whole GUI was withheld because all six fresh technical sections were AI/high.
 - R22 final headed GUI: Mixed; AI `40%`, Human `60%`; exact History report `2a5da025-9c0b-42c3-b59e-e35c40550efc`; one completed call, zero duplicate or ambiguous submissions.
+- R23 final headed GUI: Mixed; AI `34%`, Human `66%`; exact History report `e99bf274-4a19-4b91-9c61-ec7db77638f2`; one completed call, zero duplicate or ambiguous submissions.
 
 R22's six AI-marked contextual segments are:
 
@@ -84,6 +72,16 @@ R22's six AI-marked contextual segments are:
 - the Sky/Vagal optional/high-intensity safety closure (`308`).
 
 These are contextual regions, not phrase blacklists. They include exact R21 sections independently measured Human/high, so article-level adjacency and compact editorial closure are the current causal leads.
+
+R23 reduced the AI-marked set to five segments:
+
+- unchanged Protector action + bounded self-hypnosis (`182` displayed characters);
+- witness heading and witness realization (`248`);
+- latter Yoga sentence through the first EFT sentence (`753`);
+- Louka/evidence closure except its final one-change sentence (`401`);
+- outcome continuation through EMDR, borrowed adulthood, Sky/Vagal, and the final outcome test (`3,053`).
+
+R23 therefore strengthens the contextual interpretation. The short opening M01 subspan remains locally red in the whole article, and the 3,053-character late interaction persists even though it contains exact Human/high R21 prose and the lived Brainspotting story was moved out of it. The next repair should route or remove repeated closures and break that uninterrupted late modality/safety/outcome run; it should not hunt phrases or rewrite the protected Human cores.
 
 ### R17–R19: model-realized technical prose and compact editorial closure fail
 
@@ -116,7 +114,7 @@ Production lesson: recover spontaneous owner syntax, preserve its uneven thought
 
 The durable experiment and result artifacts are registered in `articles/INDEX.json`. The decisive current files are the R20 result, R21 result, R22 candidate, R22 exact boundary, and R22 preflight named above.
 
-## Known Human material protected in R23
+## Known Human material protected after R23
 
 - owner-preferred Introduction;
 - owner-reported Human/medium physical-state surface and Human/high personal core;
@@ -129,33 +127,34 @@ The durable experiment and result artifacts are registered in `articles/INDEX.js
 
 ## Browser and duplicate-defense checkpoint
 
-Joel's Brave/Pangram Professional session completed the exact R22 check at `2026-08-29T00:37:32.957Z`. The result is present as the newest History entry at `https://www.pangram.com/history?history=2a5da025-9c0b-42c3-b59e-e35c40550efc`. Privacy approval was obtained immediately before transmission. The plagiarism option remained off. There is no pending or ambiguous R22 submission. Do not repeat SHA `e481ccca8fd08bb18a53254d3e5f1d4d3f97b6a1f4070d63cb0b884a4e1488c0`.
+Joel's Brave/Pangram Professional session completed the exact R23 check at `2026-08-29T11:14:22.726Z`. The result is present in History at `https://www.pangram.com/history?history=e99bf274-4a19-4b91-9c61-ec7db77638f2`. Action-time approval was obtained immediately before transmission. The plagiarism option remained off. There is no pending or ambiguous R23 submission. Do not repeat SHA `d0d957892e4ba9895124287d0dcf78ebf33f2e5a6421a64fb961de5b24eb3589`.
 
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
-- Exact R23 Pangram status is unresolved; its hash has no result, reservation, or ambiguous submission yet.
+- Exact R23 is below the publication gate at 66% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Create and push one durable lab reservation for exact R23.
-- Submit the exact R23 headed boundary once in authenticated Brave/Pangram with plagiarism off, verify live-field equality, and bind the completed History record.
+- Build a new contextual-repair candidate from R23 while preserving its five Human segments and all article invariants.
+- Run preservation, architecture, safety/evidence, link, native-object, and exact-boundary gates before another detector submission.
+- Reserve and submit only a new exact headed hash whose result will change the editorial decision; never rerun R23.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the frozen R23 candidate, exact boundary, preflight, and this state checkpoint.
-2. Reserve exact SHA `d0d957892e4ba9895124287d0dcf78ebf33f2e5a6421a64fb961de5b24eb3589` in the lab with a one-call cap.
-3. Submit it once in Pangram, recover its exact score/segments/History identity, and persist the result before another paid call.
-4. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
-5. If it is lower, preserve its Human segments and repair only the new decision-relevant localization; never repeat R22 or R23.
+1. Persist and push the exact R23 result and History binding in both repositories.
+2. Create the next candidate by preserving all five R23 Human segments, deleting only duplicated explanation, and separating the 3,053-character late interaction into natural article owners.
+3. Run all non-detector gates, freeze an exact headed boundary, and create a durable one-call reservation.
+4. Submit the new hash once, bind it to History, and persist the result before any further call.
+5. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
 - Do not overwrite or promote the registered master with an experiment.
 - Do not alter owner locks or owner-final prose.
-- Do not repeat R22 after a completed or ambiguous submission.
+- Do not repeat R22 or R23 after a completed or ambiguous submission.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
