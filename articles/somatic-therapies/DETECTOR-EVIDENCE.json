@@ -212,6 +212,53 @@
         "pending_or_ambiguous": 0
       },
       "disposition": "R16 materially improves the whole boundary but remains Mixed. Do not repeat or continue model-only paraphrase. Exact prose acceptance or genuinely fresh owner language is required; registered master authority is unchanged."
+    },
+    {
+      "id": "somatic-r22-final-whole-gui",
+      "role": "non_authoritative_owner_source_spine_boundary",
+      "experiment_id": "somatic-r22-owner-source-spine-r01-gui-20260829-a",
+      "source_commit": "09bf04f",
+      "source_path": "articles/somatic-therapies/experiments/R22-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt",
+      "text_sha256": "e481ccca8fd08bb18a53254d3e5f1d4d3f97b6a1f4070d63cb0b884a4e1488c0",
+      "word_count": 2448,
+      "transport": "headed authenticated Brave/Pangram GUI",
+      "model": "pangram-4",
+      "version": "4.0",
+      "history_match_mode": "pre_click_exact_plus_history_whitespace_normalized_exact",
+      "history_record_id": "2a5da025-9c0b-42c3-b59e-e35c40550efc",
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "Mixed",
+        "fraction_ai": 0.4,
+        "fraction_human": 0.6,
+        "pangram_display_word_count": 2482
+      },
+      "highlighted_segments": [
+        {"id":"text-segment-1","characters":182,"scope":"Protector action plus bounded self-hypnosis"},
+        {"id":"text-segment-3","characters":1169,"scope":"Starting Gently mini-sections through first EFT sentence"},
+        {"id":"text-segment-5","characters":468,"scope":"latter Shaking-Qigong synthesis through mechanism qualifier"},
+        {"id":"text-segment-7","characters":374,"scope":"defensive-impulse and evidence-ranking closure"},
+        {"id":"text-segment-9","characters":3048,"scope":"Brainspotting continuation through first outcome paragraph"},
+        {"id":"text-segment-11","characters":308,"scope":"Sky/Vagal optional-high-intensity safety closure"}
+      ],
+      "comparison": {
+        "r16_fraction_human": 0.2714203596,
+        "human_delta_rounded": 0.3285796404
+      },
+      "durable_evidence": {
+        "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+        "branch": "automation/pangram-fixed-batch",
+        "reservation_commit": "7cd31db8",
+        "result_commit": "a26c81a5",
+        "recovery_path": "state/PANGRAM-LOCAL-SOMATIC-R22-FINAL-GUI-2026-08-29.md"
+      },
+      "call_accounting": {
+        "paid_gui_calls": 1,
+        "cache_hits": 0,
+        "duplicate_calls": 0,
+        "pending_or_ambiguous": 0
+      },
+      "disposition": "R22 improves the whole boundary to 60% Human but fails the mandatory 100%-Human publication gate. Preserve Human segments, repair six contextual/closure regions, never repeat this hash, and leave registered master authority unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -243,13 +290,16 @@
     "shaking_qigong_calls_reserved": 1,
     "r16_final_whole_gui_calls": 1,
     "r16_final_whole_gui_remaining_calls": 0,
-    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
+    "r22_final_whole_gui_calls": 1,
+    "r22_final_whole_gui_remaining_calls": 0,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16 or R22 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
     "inner_child": "The r01 section, four reconstructions, one owner-source phrase restoration, and the exact original source section all returned 100% AI. This lane is closed until genuinely fresh owner language or another independently human source exists.",
     "production_rule": "Prefer higher-authority source restoration and minimum-dose movement/consolidation before generating new prose. A source that itself tests AI can preserve factual/argument authority without serving as a detector-Human style baseline.",
-    "final_r16": "The preservation-clean final whole boundary improved materially from R15 but remained Mixed at AI 0.7285796404. The routine model-only lane is closed; the next change requires explicit R16 acceptance or genuinely fresh owner language."
+    "final_r16": "The preservation-clean final whole boundary improved materially from R15 but remained Mixed at AI 0.7285796404.",
+    "final_r22": "Direct owner-source recovery improved the headed whole boundary from 27.14203596% Human in R16 to 60% Human in R22. Six contextual segments remain AI-marked, including locally Human/high R21 prose, so adjacency and stacked editorial closure are the current production targets rather than phrase replacement."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

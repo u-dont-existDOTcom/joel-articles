@@ -20,9 +20,9 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R22 ready for one final headed GUI measurement
+### R22 completed at 60% Human; R23 contextual repair is next
 
-Source checkpoint: `u-dont-existDOTcom/joel-articles@1abf788` on the active branch.
+Source checkpoint: `u-dont-existDOTcom/joel-articles@09bf04f` on the active branch.
 
 - Candidate: `experiments/R22-OWNER-SOURCE-SPINE-WHOLE-ARTICLE-CANDIDATE-20260829.md`.
 - Candidate SHA-256: `fc1a1ff819a15fc93e50448061981846ffeb95012cf7dac62723b124c53e2c05`.
@@ -37,7 +37,11 @@ Source checkpoint: `u-dont-existDOTcom/joel-articles@1abf788` on the active bran
 - Inline native placeholders: 7/7 in source order; top image remains outside the Markdown boundary, for 8/8 HTML objects at promotion.
 - Article authority impact: none.
 
-No unresolved local experiment can now change the assembly decision. Yoga and Sky are closed at 6/6 and use source-recovery/architectural routing. Gentle shaking and EMDR are closed at 6/6 with exact Human/high R21 production cores. Brainspotting has an exact Human/high R21 production surface and one intentionally unused local call. Light CBT/reparenting uses exact Human R08/M01/heart material with witness and borrowed adulthood separated.
+The exact R22 boundary was submitted once in authenticated Brave/Pangram and is complete. Pangram 4.0 returned `Mixed`, AI `40%`, Human `60%`, on its display count of 2,482 words. History record `2a5da025-9c0b-42c3-b59e-e35c40550efc` is unambiguously bound to the authorized SHA: the live field exactly matched the frozen local text before the click, and the twelve stored History segments concatenate to an exact 2,448-word match after display-only whitespace collapse.
+
+Result artifact: `experiments/R22-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `7cd31db8` / `a26c81a5` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R22 is a major improvement over R16 (Human `27.14203596%` → `60%`) but fails Joel's mandatory 100%-Human publication gate. Yoga and Sky remain closed at 6/6. Gentle shaking and EMDR remain closed at 6/6 with exact Human/high R21 production cores. Brainspotting retains one intentionally unused local call. The next work is article-level contextual/architecture repair, not another synonym rewrite or exact rerun.
 
 ## Completed
 
@@ -46,6 +50,7 @@ No unresolved local experiment can now change the assembly decision. Yoga and Sk
 - R20 recovered three exact Human/high raw owner surfaces.
 - R21 proved all three minimum factual/publication normalizations Human/high.
 - R22 assembled the resulting whole article and passed preservation, architecture, safety/evidence, link, native-object, and detector preflight.
+- R22 final headed GUI completed once at Human `60%` / AI `40%`; exact History binding passed and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -53,7 +58,18 @@ No unresolved local experiment can now change the assembly decision. Yoga and Sk
 
 - R16 final headed GUI: Mixed; AI `0.7285796404`, Human `0.2714203596`; exact History binding.
 - R18 whole GUI was withheld because all six fresh technical sections were AI/high.
-- R22 has not been submitted. Its exact hash has no cache, result, reservation, or ambiguous prior run.
+- R22 final headed GUI: Mixed; AI `40%`, Human `60%`; exact History report `2a5da025-9c0b-42c3-b59e-e35c40550efc`; one completed call, zero duplicate or ambiguous submissions.
+
+R22's six AI-marked contextual segments are:
+
+- Protector action + bounded self-hypnosis (`182` displayed characters);
+- the stacked `Starting Gently` mini-sections through the first EFT sentence (`1,169`);
+- the latter Shaking-Qigong synthesis, stop rule, and mechanism qualifier (`468`);
+- the defensive-impulse/evidence-ranking closure (`374`);
+- the Brainspotting continuation, EMDR, Light CBT/borrowed adulthood, and first outcome paragraph as one contiguous interaction (`3,048`);
+- the Sky/Vagal optional/high-intensity safety closure (`308`).
+
+These are contextual regions, not phrase blacklists. They include exact R21 sections independently measured Human/high, so article-level adjacency and compact editorial closure are the current causal leads.
 
 ### R17–R19: model-realized technical prose and compact editorial closure fail
 
@@ -99,29 +115,29 @@ The durable experiment and result artifacts are registered in `articles/INDEX.js
 
 ## Browser and duplicate-defense checkpoint
 
-Joel's Brave session is authenticated at `https://www.pangram.com/dashboard` as Pangram Professional. The R22 text field is still empty; no detector submission or reservation has occurred. The exact local/GitHub boundary is frozen before entry.
-
-Browser privacy rules require a one-time immediate confirmation before transmitting the unpublished 2,448-word draft because it contains Joel's personal medical/trauma experiences. After that confirmation, enter the exact boundary, verify the word count/heading text before clicking, click once, bind the returned result to Pangram History and the exact SHA, and do not repeat an ambiguous or completed submission.
+Joel's Brave/Pangram Professional session completed the exact R22 check at `2026-08-29T00:37:32.957Z`. The result is present as the newest History entry at `https://www.pangram.com/history?history=2a5da025-9c0b-42c3-b59e-e35c40550efc`. Privacy approval was obtained immediately before transmission. The plagiarism option remained off. There is no pending or ambiguous R22 submission. Do not repeat SHA `e481ccca8fd08bb18a53254d3e5f1d4d3f97b6a1f4070d63cb0b884a4e1488c0`.
 
 ## Blockers / unresolved
 
-- Exact R22 whole-article Pangram status is unresolved; no submission has occurred.
-- Immediate browser privacy confirmation is required before the unpublished personal/medical article text can be transmitted to Pangram.
+- Exact R22 is below the publication gate at 60% Human.
+- Six localized whole-article contextual regions require preservation-clean movement, source recovery, or deletion of duplicated explanation.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- One exact headed Brave/Pangram GUI submission and History binding.
-- Result persistence and, only after an exact 100%-Human result, raw-editor HTML reconstruction, final verification, authority promotion, and publication.
+- Build one R23 production candidate that keeps all R22 Human segments fixed and repairs the six localized contextual regions without losing protected functions.
+- Re-run preservation, architecture, safety/evidence, link, and native-object preflight before any new detector measurement.
+- Spend the next Pangram call only when the whole R23 result changes the publication decision.
+- Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Obtain the immediate browser privacy confirmation described above.
-2. Submit the exact R22 headed boundary once in authenticated Brave/Pangram.
-3. Recover and persist the exact result, History binding, prediction fractions, windows, and duplicate-call receipt to the lab and article repositories.
-4. If and only if the result is exactly 100% Human, reconstruct R22 into raw-editor HTML, retain the 16-link multiset and all 8 native objects, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
-5. If the result is not 100% Human, do not publish. Localize the exact stored result and repair only surfaces whose change can alter the next editorial decision; preserve every Human span.
+1. Freeze the six R22 Human segments and the exact R21 owner-source cores.
+2. Build R23 by breaking the stacked short-section taxonomy, separating independently Human modality prose from polished bridges, routing safety/evidence functions to natural local sentences, and deleting duplicated explanation rather than paraphrasing it.
+3. Produce a new exact headed boundary and preservation/architecture receipt with zero unexplained substantive deltas and the 16-link/8-object gates intact.
+4. Reserve and submit one decision-changing whole GUI call only after those gates pass; bind it to History and persist it before any further call.
+5. If and only if that exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
