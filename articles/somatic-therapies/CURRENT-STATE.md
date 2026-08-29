@@ -414,6 +414,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R44 Yoga-to-between-sessions candidate returns exactly to R38, moves the complete Yoga paragraph byte-exact into its own subsection between Human owner-specific EFT and Shaking discussions, preserves every claim/link/native object and the successful TRE route, and passes every non-detector gate.
 - R44 final headed GUI completed once at Human `85%` / AI `15%`; exact History binding passed, but Yoga routing created two early AI runs that absorbed Somatic Experiencing/EFT and the opening owner-authored Shaking sentence. R44 is discarded, all Yoga routing is closed, and its hash is blocked from repetition.
 - R45 late thought-development candidate returns exactly to R38 outside its 823-character late AI cluster, re-realizes every readiness/aftercare/delayed-effects/Light-CBT/borrowed-adulthood claim as naturally developed first-person decisions, adds no event or substantive claim, preserves every measured Human span/link/native object, and passes every non-detector gate.
+- R45 final headed GUI completed once at Human `79%` / AI `21%`; exact History binding passed, but the claim-complete late rewrite pulled AI backward into Human/high Brainspotting and forward into the lived outcome. R45 is discarded, broad late thought-development rewriting is closed, and its hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -444,6 +445,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R42 final headed GUI: Mixed; AI `22%`, Human `78%`; exact History report `c74e688f-a87e-4cf5-a541-8da790e32761`; one completed call, zero retries or duplicates; owner-heading recovery increased displayed AI surface by `1,408` characters and created a new Sky/Vagal AI ending.
 - R43 final headed GUI: Mixed; AI `12%`, Human `88%`; exact History report `3ec7eefd-4487-4ee4-891d-e10e8b7ca66a`; one completed call, zero retries or duplicates; the EMDR-entry route increased displayed AI surface by `277` characters and split the Human/high EMDR contrast.
 - R44 final headed GUI: Mixed; AI `15%`, Human `85%`; exact History report `f9bc5d0d-a53f-48b3-8de1-964651506762`; one completed call, zero retries or duplicates; Yoga routing increased displayed AI surface by `648` characters and split Human owner material on both sides.
+- R45 final headed GUI: Mixed; AI `21%`, Human `79%`; exact History report `b5969146-b139-40c5-80e7-8cba769ed0b4`; one completed call, zero retries or duplicates; the broad late rewrite increased displayed AI surface by `1,444` characters and absorbed Brainspotting plus the first lived-outcome sentence.
 
 R22's six AI-marked contextual segments are:
 
@@ -559,6 +561,8 @@ R43's one submit action began at `2026-08-29T17:38:37.761Z`; its unique History 
 
 R44's one submit action began at `2026-08-29T17:49:45.935Z`; its unique History record is `https://www.pangram.com/history?history=f9bc5d0d-a53f-48b3-8de1-964651506762`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. A later page-navigation read timed out after acceptance and was resolved from the already-open result without another click. There is no pending or ambiguous R44 submission. Do not repeat SHA `9c234351c91581192b8b4aa998e8cc137a991415fa55740d7d3e6f236bb14f50`.
 
+R45's one submit action began at `2026-08-29T17:59:27.149Z`; its unique History record is `https://www.pangram.com/history?history=b5969146-b139-40c5-80e7-8cba769ed0b4`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R45 submission. Do not repeat SHA `25d17226967b3d097919c6ba280141fc25295abc78dd030eb80f599e47a6c9ed`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -584,6 +588,7 @@ R44's one submit action began at `2026-08-29T17:49:45.935Z`; its unique History 
 - Exact R42 is below the publication gate at 78% Human, is a large nonlocal regression, and is complete/blocked from repetition.
 - Exact R43 is below the publication gate at 88% Human, has a net 277-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R44 is below the publication gate at 85% Human, has a net 648-character exact-segment regression, and is complete/blocked from repetition.
+- Exact R45 is below the publication gate at 79% Human, has a net 1,444-character exact-segment regression, and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -604,16 +609,17 @@ R44's one submit action began at `2026-08-29T17:49:45.935Z`; its unique History 
 - Preserve R43's boundary lesson: an existing heading can create a short Human island without protecting either adjacent span; semantic fit and local Human text do not override the net whole-boundary result.
 - Discard R44 and return exactly to R38. The exact Yoga paragraph remained AI and split both surrounding Human owner discussions into larger early AI runs.
 - Preserve R44's routing lesson: R38's successful TRE move is function- and destination-specific; Human material on both sides does not make routing generic detector medicine.
-- Run R45 once: test a claim-complete thought-development realization of the exact late AI cluster while leaving every R38 Human span, the Yoga paragraph, headings, links, and native objects exact.
+- Discard R45 and return exactly to R38. The claim-complete thought-development rewrite expanded the late interaction backward into Brainspotting and forward into the lived outcome.
+- Preserve R45's editorial/detector separation lesson: prose can be coherent and claim-complete yet detector-incompatible; broad late rewriting is closed because it reproduces R27's cross-section expansion.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R45 candidate, headed boundary, claim mapping, coherence proof, and state checkpoint without touching the registered master.
-2. Reserve one decision-changing call after fresh local and authenticated-History duplicate defense.
-3. Submit once through the reusable dashboard, bind exact History text, and compare exact local and downstream boundary movement before any retention decision.
+1. Persist and push the exact R45 result and broad-rewrite lesson in both repositories without touching the registered master.
+2. Return exactly to R38 and treat broad late rewriting, Yoga realization/routing, tested readiness destinations, and late heading changes as closed.
+3. Require a narrower controlled intervention or genuinely independent Human source before reserving another exact whole call; run claim/coherence/architecture gates first.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -638,5 +644,6 @@ R44's one submit action began at `2026-08-29T17:49:45.935Z`; its unique History 
 - R42 is complete at 78% Human, has a net 1,408-character exact-segment regression, and is explicitly blocked from repetition.
 - R43 is complete at 88% Human, has a net 277-character exact-segment regression, and is explicitly blocked from repetition.
 - R44 is complete at 85% Human, has a net 648-character exact-segment regression, and is explicitly blocked from repetition.
+- R45 is complete at 79% Human, has a net 1,444-character exact-segment regression, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
