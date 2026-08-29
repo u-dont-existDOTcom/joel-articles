@@ -15,10 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R57 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R58 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
+
+### R58 routes owner-source borrowed adulthood into EMDR readiness
+
+R58 returns exactly to the best production-complete R56 architecture, removes its final compact borrowed-adulthood unit, and places the complete exact owner-controlled guide wording immediately after `I want some access to the Nurturer and Protector first.` The adult voices have a direct antecedent; borrowed adulthood becomes a temporary external scaffold inside the existing readiness condition rather than a detached definition. The flooding/wait rule remains controlling and the text does not claim that borrowed adulthood itself makes Joel ready for EMDR.
+
+- candidate: `experiments/R58-BORROWED-ADULTHOOD-TO-EMDR-READINESS-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `2d6251f453a6fd1bce47d0141ebc1cc41e5b099a5b9e762d3bdcc3e1bbcae187`;
+- exact headed boundary: `experiments/R58-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `234aaf5fac77c9dd127299900d2b23c9557a2bc3a2951848b19012ebcbb4a8a6`;
+- size: 2,080 whitespace words / 11,805 UTF-8 bytes / 11,757 Unicode characters / terminal newline;
+- preflight: `experiments/R58-BORROWED-ADULTHOOD-TO-EMDR-READINESS-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- source authority, production completeness, preservation, claim fidelity, coherence, architecture, safety/evidence, links, native objects, and exact extraction: PASS;
+- registered article authority impact: none.
+
+R58 is a material routing/source-recovery intervention, not an ending or synonym microvariant. It is eligible for one exact whole headed call after durable reservation and fresh duplicate defense.
 
 ### R57 closes the housemate loop without dropping borrowed adulthood
 
@@ -783,6 +796,7 @@ R57's one submit action began at `2026-08-29T19:42:12.188Z` and returned an ambi
 - Exact R55 is complete at 94% Human, has a net 103-character exact AI regression from R52, and is blocked from repetition.
 - Exact R56 is complete at 96% Human, is the best production-complete baseline, reduces exact displayed AI by 99 characters versus R52, and is blocked from repetition.
 - Exact R57 is complete at 94% Human, has a net 182-character exact AI regression from R56, and is blocked from repetition.
+- Exact R58 is frozen as a production-complete readiness-routing candidate and is awaiting its sole authorized call.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -826,10 +840,10 @@ R57's one submit action began at `2026-08-29T19:42:12.188Z` and returned an ambi
 
 ## Next safe action
 
-1. Keep exact R56 frozen as the claim-complete, coherent production baseline.
-2. Do not make another final borrowed-adulthood microvariant. The next intervention must change article architecture or recover a materially different owner-shaped surface while preserving the full function.
-3. Address the exact Yoga paragraph only through a later whole-boundary architecture change with genuine editorial value; all local paraphrase, source, split, and routing variants are closed.
-4. Reserve and spend a Pangram call only when the exact result will change the editorial decision; persist every result and lesson before another candidate.
+1. Commit and push exact R58 and its full preflight without touching the registered master.
+2. Reserve and run R58 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
+3. Retain only if exact segment accounting improves on R56 without destabilizing EMDR, aftercare, lived outcome, or the complete Sky/Vagal ending.
+4. Address the exact Yoga paragraph only through a later whole-boundary architecture change with genuine editorial value; all local paraphrase, source, split, and routing variants are closed.
 5. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -871,5 +885,6 @@ R57's one submit action began at `2026-08-29T19:42:12.188Z` and returned an ambi
 - R56 is complete at 96% Human, is the best production-complete baseline, and is explicitly blocked from repetition.
 - R57 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - R57 is complete at 94% Human, has a net 182-character exact AI regression from R56, and is explicitly blocked from repetition.
+- R58 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
