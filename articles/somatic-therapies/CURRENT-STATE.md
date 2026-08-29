@@ -403,6 +403,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R38 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed, the complete moved TRE unit became Human, and the hash is blocked from repetition.
 - R39 readiness-to-reparenting routing candidate returns exactly to R38, moves the complete readiness paragraph unchanged beside its Nurturer/Protector owner, preserves every claim and measured Human span, and passes every non-detector eligibility gate.
 - R39 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed, but displayed AI surface increased by `68` characters because the new adjacency pulled bounded self-hypnosis into AI. R39 is discarded and its hash is blocked from repetition.
+- R40 readiness-at-reparenting-owner-boundary candidate returns exactly to R38, moves the complete readiness paragraph unchanged after the Human/high heart-loop owner material, restores the known-Human self-hypnosis/body-tension adjacency, and passes every non-detector eligibility gate.
 
 ## Decisive detector evidence
 
@@ -563,15 +564,16 @@ R39's one submit action began at `2026-08-29T16:57:57.571Z`; its unique History 
 - The only remaining AI regions are the 292-character Yoga paragraph and unchanged 823-character late readiness/aftercare/Light-CBT cluster.
 - Discard R39 and return exactly to R38. Do not place the complete readiness paragraph directly against bounded self-hypnosis again.
 - Preserve R39's compositional lesson: semantic ownership is necessary but not sufficient; the final readiness sentence composed Human with downstream body-tension/heart-access material, while the first two sentences destabilized the compact self-hypnosis boundary.
-- Continue with one evidence-led intervention that preserves the registered claims and all R38 Human regions; reject any detector gain that damages coherence, accuracy, or owner voice.
+- Run R40 once: place the unchanged readiness paragraph at the end of the reparenting owner section, after the complete heart loop, while preserving every registered claim and all R38 Human material.
+- Reject R40 even if its detector score improves if whole-article review finds a coherence, accuracy, or owner-voice regression.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R39 result and reusable compositional lesson in both repositories without touching the registered master.
-2. Return exactly to R38 and prepare one evidence-led repair that does not repeat closed paraphrase, heading, wrapper, or direct-adjacency routes.
-3. Run the full preservation/coherence gates, reserve only if the result changes an editorial decision, submit once through the reusable dashboard, and bind exact History text.
+1. Persist and push the exact R40 candidate, headed boundary, preservation/coherence proof, and state checkpoint without touching the registered master.
+2. Reserve one decision-changing call after fresh local and authenticated-History duplicate defense.
+3. Submit once through the reusable dashboard, bind exact History text, and apply the segment result as the next durable compositional lesson.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
