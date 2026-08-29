@@ -302,6 +302,22 @@ Result artifact: `experiments/R35-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R35 exactly reproduces R31's 89% Human result and all five contextual boundaries. Only the early AI segment's raw hash changes because of the two newline characters; it remains 443 characters / 92 words and AI. Blank-line-only rearrangement of Yoga/TRE is now closed. Return to exact R31 and make a higher-information source or function-routing change inside only that early region.
 
+R36 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R36-R31-EARLY-HEADING-ROLLBACK-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `6edbced07d83144596bdb4f2d5436a518ba460c81438c7f09ef2dc437d7e5b6c`;
+- exact headed boundary: `experiments/R36-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `8860e76324aac66427fdb0255c24f45baeb5287d64a0ab4574883216db00cca6`;
+- size: 2,082 whitespace words / 11,808 UTF-8 bytes / 11,760 Unicode characters / terminal newline;
+- preflight: `experiments/R36-R31-EARLY-HEADING-ROLLBACK-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- exact intervention: remove only R29's reader-visible `Gentle Shaking / TRE` subheading and its separator blank line from R31;
+- this restores the exact R26 no-heading early surface while retaining R31's successful registered citation and complete late region;
+- substantive sentences changed/deleted/reordered: 0/0/0; protected functions omitted: 0; unexplained substantive deltas: 0;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, exact R31 URL multiset and order;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R36 is not another blank-line-only repair and is not an exact repeat. It tests a previously unmeasured factorial combination: R26's known-better early boundary with R31's known-better late citation realization.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
