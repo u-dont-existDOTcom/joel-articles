@@ -407,6 +407,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R40 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed and readiness became Human, but the following witness/Somatic Experiencing material joined Yoga in AI, producing a net `109`-character regression. R40 is discarded and blocked from repetition.
 - R41 official-TCTSY source-recovery candidate returns exactly to R38, changes only the isolated Yoga paragraph, retains every owner safety/agency claim, preserves every R38 Human span, and passes claim-fidelity, source, coherence, and all other non-detector gates.
 - R41 final headed GUI completed once at Human `78%` / AI `22%`; exact History binding passed, but the accurate source-recovered Yoga paragraph caused large early and Brainspotting/EMDR spillover. R41 is discarded and blocked from repetition.
+- R42 owner-heading recovery candidate returns exactly to R38, preserves the useful section boundary R37 identified, replaces only its generic wrapper with the existing owner sentence `Talking comes after that for me`, removes the duplicate sentence below, and passes every non-detector gate.
 
 ## Decisive detector evidence
 
@@ -579,15 +580,16 @@ R41's one submit action began at `2026-08-29T17:15:49.327Z`; its unique History 
 - Preserve R40's whole-boundary lesson: never retain a locally Human routed unit without measuring immediate downstream spillover and total displayed AI surface.
 - Discard R41 and return exactly to R38. The official attribution is accurate and claim-complete but detector-incompatible in the compact Yoga paragraph.
 - Preserve R41's source lesson: factual authority does not imply detector compatibility, and a citation is never itself a humanization technique. Keep institutional source context separate from owner realization.
-- Do not spend more local Yoga paraphrase calls. Target the independent late cluster or a genuinely different article-level architecture with all R38 Human regions frozen.
+- Run R42 once: retain the late section boundary, recover its label from existing owner syntax, and leave readiness, aftercare, borrowed adulthood, both independent AI regions, and every R38 Human span otherwise exact.
+- Do not spend more local Yoga paraphrase calls or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R41 result and source-versus-detector lesson in both repositories without touching the registered master.
-2. Return exactly to R38 and analyze the remaining late cluster as independent architectural units before preparing another whole candidate.
-3. Reserve only a decision-changing intervention that preserves all R38 Human spans and does not repeat the closed Yoga paraphrase/source-recovery or readiness-routing routes.
+1. Persist and push the exact R42 candidate, headed boundary, preservation/coherence proof, and state checkpoint without touching the registered master.
+2. Reserve one decision-changing call after fresh local and authenticated-History duplicate defense.
+3. Submit once through the reusable dashboard, bind exact History text, and compare exact late-boundary movement before any retention decision.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
