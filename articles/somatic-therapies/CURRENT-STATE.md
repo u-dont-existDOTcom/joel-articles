@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R35 Yoga agency paragraph unstacking is preflight-clean and ready for one exact call
+### R35 reproduced exact R31 at 89% Human; paragraph-only Yoga/TRE repair is closed
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -294,7 +294,13 @@ R35 is the next decision-useful whole candidate:
 - native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
 - article authority impact: none.
 
-R35 isolates paragraph stacking at the exact early Human/AI boundary without touching the successful R31 late region. It is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+R35 isolates paragraph stacking at the exact early Human/AI boundary without touching the successful R31 late region.
+
+The exact R35 boundary was submitted once in the correct signed-in `2nd gpt` Brave profile. The clean field exactly matched the frozen SHA, plagiarism was off, and the single click resolved without ambiguity. Pangram 4.0 returned `Mixed`, AI `11%`, Human `89%`, with 2,120 display words and the summary `AI-generated content appears in scattered patches`. History record `506bca12-0f23-4f31-8f7f-a5c59c678fd4` is unambiguously bound to the frozen text by exact pre-click equality and exact 2,086-word History concatenation after display-only whitespace collapse.
+
+Result artifact: `experiments/R35-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `c80e8a10` / `6de6b8f6` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R35 exactly reproduces R31's 89% Human result and all five contextual boundaries. Only the early AI segment's raw hash changes because of the two newline characters; it remains 443 characters / 92 words and AI. Blank-line-only rearrangement of Yoga/TRE is now closed. Return to exact R31 and make a higher-information source or function-routing change inside only that early region.
 
 ## Completed
 
@@ -327,6 +333,7 @@ R35 isolates paragraph stacking at the exact early Human/AI boundary without tou
 - R34 owner-source borrowed-adulthood candidate preserves all three R31 Human regions, successful registered citation, exact readiness and aftercare, complete early Yoga/TRE region, and all R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 - R34 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, the borrowed-adulthood intervention produced no improvement, and the hash is blocked from repetition.
 - R35 Yoga agency paragraph-unstacking candidate preserves every R31 word and all measured Human spans; every non-detector eligibility gate passes for one new exact whole call.
+- R35 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, all contextual boundaries reproduced, and the paragraph-only hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -347,6 +354,7 @@ R35 isolates paragraph stacking at the exact early Human/AI boundary without tou
 - R32 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `0ef2606a-dda3-40f1-84f2-2b8bf637f5db`; one completed call, zero duplicate or ambiguous submissions.
 - R33 final headed GUI: Mixed; AI `23%`, Human `77%`; exact History report `6dd2b1ff-ef72-4dff-a23c-7fea57ce2ae0`; one completed call, zero retries, zero duplicates, and the dispatch timeout resolved by exact dashboard/History evidence.
 - R34 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `2623d40a-3ec0-4e68-ba29-994313f48334`; one completed call, zero duplicate or ambiguous submissions.
+- R35 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `506bca12-0f23-4f31-8f7f-a5c59c678fd4`; one completed call, zero duplicate or ambiguous submissions; exact R31 contextual classifications and boundaries reproduced.
 
 R22's six AI-marked contextual segments are:
 
@@ -442,6 +450,8 @@ R33's one submit action began at `2026-08-29T15:51:11.283Z`; its unique History 
 
 R34 completed from one click beginning at `2026-08-29T16:01:30.389Z`; its unique History record is `https://www.pangram.com/history?history=2623d40a-3ec0-4e68-ba29-994313f48334`. The plagiarism option remained off. There is no pending or ambiguous R34 submission. Do not repeat SHA `3019c028fbc94805164b97c51eac21d73354dba05a60616b7c2f34c5caee199a`.
 
+R35 completed from one click beginning at `2026-08-29T16:10:58.164Z`; its unique History record is `https://www.pangram.com/history?history=506bca12-0f23-4f31-8f7f-a5c59c678fd4`. The plagiarism option remained off. There is no pending or ambiguous R35 submission. Do not repeat SHA `66adc0158b311f819b2ce96d2918a07aa80be3c6b31d4e0a768f68bd589bbc6d`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -457,22 +467,22 @@ R34 completed from one click beginning at `2026-08-29T16:01:30.389Z`; its unique
 - Exact R32 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R33 is below the publication gate at 77% Human and is complete/blocked from repetition.
 - Exact R34 is below the publication gate at 89% Human and is complete/blocked from repetition.
-- Exact R35 is preflight-clean but not yet submitted.
+- Exact R35 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Submit exact R35 once after durable reservation and bind its unique History result.
-- If R35 is below 100% Human, use its localization to decide whether paragraph unstacking should be retained before recovering only the remaining early prose from higher-authority source.
+- Return to exact R31 and discard R35's paragraph-only intervention.
+- Recover or reroute only the exact 443-character Yoga/TRE region with a substantive, higher-information change; keep R31's late region and every Human span fixed.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the preflight-clean R35 artifacts.
-2. Reserve one decision-changing R35 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
-3. Continue from the better contextual surface without repeating any completed hash.
+1. Persist and push the exact R35 result in both repositories.
+2. Search the registered/owner-controlled source pool for a natural Yoga/TRE realization or route its safety functions to an adjacent owner without touching protected Human spans.
+3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -487,5 +497,6 @@ R34 completed from one click beginning at `2026-08-29T16:01:30.389Z`; its unique
 - R32 is complete at 89% Human and is explicitly blocked from repetition.
 - R33 is complete at 77% Human and is explicitly blocked from repetition.
 - R34 is complete at 89% Human and is explicitly blocked from repetition.
+- R35 is complete at 89% Human and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
