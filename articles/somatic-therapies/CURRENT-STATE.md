@@ -15,10 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R55 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R56 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
+
+### R56 makes borrowed adulthood the article's final safety floor
+
+R56 returns exactly to the best production-complete R52 architecture and moves only the complete compact borrowed-adulthood heading plus two sentences from immediately after restimulation to the end of the article, after the complete optional Sky/Vagal section and native embed. The article closes on safe companionship, Joel's own words, and one manageable action. Every claim and successful R52 route remains exact.
+
+- candidate: `experiments/R56-BORROWED-ADULTHOOD-AS-FINAL-SAFETY-FLOOR-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `516c67664be7b2daf854252efe7ac1ac19ca751cdbea5b3414a4a15d6ac9828e`;
+- exact headed boundary: `experiments/R56-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5f6aeca9ad6abe8b7940a1f34ed6c66fef0fe4cd335ddc882a5caac4c7030e34`;
+- size: 2,076 whitespace words / 11,776 UTF-8 bytes / 11,728 Unicode characters / terminal newline;
+- preflight: `experiments/R56-BORROWED-ADULTHOOD-AS-FINAL-SAFETY-FLOOR-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- production completeness, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
+- registered article authority impact: none.
+
+R56 is a material article-function intervention with one exact whole headed call eligible. It does not reword borrowed adulthood or reopen any closed Yoga variant.
 
 ### R55 regressed to 94% Human; live-use borrowed realization is closed
 
@@ -749,6 +762,7 @@ R55's one submit action began at `2026-08-29T19:22:40.582Z`; its unique History 
 - Exact R53 is complete at 92% Human, has a net 346-character regression from R52, and is blocked from repetition.
 - Exact R54 is complete at 95% Human, expands exact AI by 51 characters versus R52, and is blocked from repetition.
 - Exact R55 is complete at 94% Human, has a net 103-character exact AI regression from R52, and is blocked from repetition.
+- Exact R56 is frozen as a production-complete architecture candidate and is awaiting its sole authorized call.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -790,9 +804,9 @@ R55's one submit action began at `2026-08-29T19:22:40.582Z`; its unique History 
 
 ## Next safe action
 
-1. Persist and push the exact R55 result and topology closure in both repositories without touching the registered master.
-2. Return exactly to R52 and preserve its successful no-stacking/cognitive-integration routes and compact claim-complete borrowed realization.
-3. Reconsider borrowed adulthood only through a materially different article function or architecture. Closed routes include witness/adult-trust, compact Light CBT, post-restimulation compact/source/live-use, and between sessions. Do not reopen Yoga-local variants.
+1. Commit and push the exact R56 architecture preflight without touching the registered master.
+2. Reserve and run R56 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
+3. Retain only if exact segment accounting improves on R52 without destabilizing the complete Sky/Vagal ending.
 4. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -830,5 +844,6 @@ R55's one submit action began at `2026-08-29T19:22:40.582Z`; its unique History 
 - R54 is complete at 95% Human, expands exact AI by 51 characters versus R52, and is explicitly blocked from repetition.
 - R55 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - R55 is complete at 94% Human, has a net 103-character exact AI regression from R52, and is explicitly blocked from repetition.
+- R56 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
