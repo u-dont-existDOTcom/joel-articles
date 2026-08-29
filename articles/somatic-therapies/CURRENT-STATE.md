@@ -15,12 +15,12 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R26 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R27 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R26 minimum-function candidate completed at 84% Human; two exact contextual regions remain
+### R27 preserves the 84%-Human spine and is eligible for one exact whole GUI call
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -108,6 +108,21 @@ Result artifact: `experiments/R26-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R26 improves from R25 (Human `69%` → `84%`) and clears the witness/Somatic Experiencing opening plus the complete restimulation/Sky-Vagal ending. Three Human segments are now frozen: 5,092 characters through `No power yoga. No hot yoga.`, 3,084 characters through the Brainspotting `democratic like EFT` sentence, and the 1,650-character complete ending. Only the 409-character Yoga/TRE safety tail and 1,442-character Brainspotting-caution/research/EMDR/borrowed-adulthood run remain AI. No completed whole hash may be repeated.
 
+R27 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R27-TWO-REGION-OWNER-SEQUENCE-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `28f8b0cf3ace07d93372226d8eebc456de7b44ebedc29b594e63d5ea2bc1a8f5`;
+- exact headed boundary: `experiments/R27-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `7bfb6687ccb644a4c1bda7f9e1af2143559e75060373bcd486dc6c89ded04fdc`;
+- size: 2,129 whitespace words / 11,997 UTF-8 bytes / 11,955 Unicode characters / terminal newline;
+- preflight: `experiments/R27-TWO-REGION-OWNER-SEQUENCE-PRESERVATION-AND-PREFLIGHT-20260829.md`, SHA-256 `92d4386ee1c144f39bf5511f2d5f86bae395dce83d66cec6f71b9249cca49d68`;
+- all three R26 Human History segments remain whitespace-normalized exact and their underlying local blocks remain byte-exact substrings;
+- all three R21 Human/high modality inputs remain exact reader-visible substrings;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, 13 unique, exact R26 URL multiset and order;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R27 changes only R26's two AI regions. It realizes Yoga/TRE choice and neck safety as one direct owner sequence, keeps the exact Brainspotting and EMDR Human/high cores, removes one empty thematic divider, and re-realizes the research, timing, aftercare, and borrowed-adulthood functions in direct first-person prose. The exact hash is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -123,6 +138,7 @@ R26 improves from R25 (Human `69%` → `84%`) and clears the witness/Somatic Exp
 - R25 final headed GUI completed once at Human `69%` / AI `31%`; exact History binding passed and the hash is blocked from repetition.
 - R26 minimum-function candidate preserves all three R25 Human segments and passes every non-detector eligibility gate.
 - R26 final headed GUI completed once at Human `84%` / AI `16%`; exact History binding passed and the hash is blocked from repetition.
+- R27 two-region owner-sequence candidate preserves all three R26 Human segments and passes every non-detector eligibility gate for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -219,22 +235,23 @@ R26 completed at `2026-08-29T12:17:58.401Z`; its unique History record is `https
 - Exact R24 is below the publication gate at 72% Human and is complete/blocked from repetition.
 - Exact R25 is below the publication gate at 69% Human and is complete/blocked from repetition.
 - Exact R26 is below the publication gate at 84% Human and is complete/blocked from repetition.
+- Exact R27 is preflight-clean but not yet measured.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Preserve the three exact R26 Human History segments and repair only the two AI-marked regions.
-- Retain all Yoga/TRE safety, Brainspotting caution/evidence, EMDR timing/aftercare, and borrowed-adulthood functions without rebuilding another compact closure run.
-- Submit only a preflight-clean, materially decision-changing next whole candidate after durable reservation and duplicate/history defense.
+- Persist and push the exact R27 candidate, boundary, preflight, and state checkpoint.
+- Create one durable lab reservation for exact SHA `7bfb6687ccb644a4c1bda7f9e1af2143559e75060373bcd486dc6c89ded04fdc` after fresh duplicate/history defense.
+- Submit R27 once, bind it to Pangram History, and persist the result in both repositories before another call.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R26 result and History localization in both repositories.
-2. Build the next whole candidate from R26 while preserving all three Human segments exactly and changing only the two AI regions.
-3. Run preservation, architecture, safety/evidence, link, native-object, and exact-boundary checks before reserving one new call.
-4. Submit once, bind the result to Pangram History, and persist it before any further call.
+1. Validate and push the exact R27 candidate, boundary, preflight, and state checkpoint.
+2. Confirm no completed or pending measurement exists for the R27 hash, then create one durable reservation.
+3. Submit R27 once, bind it to Pangram History, and persist the result before any further call.
+4. If R27 is not 100% Human, preserve newly Human spans and make only decision-relevant contextual repairs.
 5. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
