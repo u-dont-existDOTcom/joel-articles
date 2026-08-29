@@ -4,7 +4,7 @@ Status: **NON-AUTHORITATIVE LOCAL CANDIDATE / NO DETECTOR CALL**
 
 Source-clean preflight: `R59-BRAINSPOTTING-SOURCE-CLEAN-PREFLIGHT-20260829.md`  
 Changed boundary source SHA-256: `7e81424a33fcd28f4d7de1ae0f099151548378a71b1a42304114b39e6d26ae82`  
-Candidate boundary SHA-256: `ff464029fc2623621c61a6341e8faaf70d78e4b997d07690c9a8d48ff78f7770`
+Candidate boundary SHA-256: `d57faa0dafed2a39a7d18281b8a2fdab0893f8ba37d219d0b633a89de79e3907`
 
 This candidate uses only the R15 Brainspotting boundary plus same-function owner Brainspotting sources identified in the frozen preflight. No unrelated Human/corpus/external prose was used as a syntax or detector donor.
 
@@ -24,7 +24,7 @@ And I give it a lot of points for being democratic like EFT. You can experiment 
 
 I wouldn't take that as an invitation to jump into the deepest trauma alone. If you can't tell when you're getting overwhelmed, stay present, or stop when you need to, that's the limit.
 
-Brainspotting makes particular sense to me when I don't have a clean memory to target—diffuse developmental trauma, pre-verbal or body-held material, or trauma that hasn't responded well to purely cognitive approaches. I can feel my way into it without knowing exactly what I'm looking for. For further reading, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
+Brainspotting makes particular sense to me when I don't have a clean memory to target—diffuse developmental trauma, pre-verbal or body-held material, trauma that hasn't responded well to purely cognitive approaches, or those knots where the body seems to know more than the story. I can feel my way into it without knowing exactly what I'm looking for. For further reading, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
 
 That also connects naturally with inner-child reparenting: something younger can show up through the body before I have a neat memory to narrate, and the Nurturer or Protector can join the work when it does.
 
