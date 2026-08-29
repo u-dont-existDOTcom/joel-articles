@@ -133,7 +133,7 @@ R28 is the next decision-useful whole candidate:
 
 - candidate: `experiments/R28-LATE-STRUCTURAL-UNSTACKING-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `84009432c422a4d950af5f8e7bcce91b690c1eb55cdf523b55e6e2574ff5c96d`;
 - exact headed boundary: `experiments/R28-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`;
-- size: 2,075 whitespace words / 11,721 UTF-8 bytes / 11,767 Unicode characters / terminal newline;
+- size: 2,075 whitespace words / 11,767 UTF-8 bytes / 11,721 Unicode characters / terminal newline;
 - preflight: `experiments/R28-LATE-STRUCTURAL-UNSTACKING-PRESERVATION-AND-PREFLIGHT-20260829.md`, SHA-256 `74bed8bcbb54a2e94d651862c1a47c7ee577b8c3ff1b41e497c2022e03a589d7`;
 - all three R26 Human History regions and their local source blocks remain exact;
 - all three R21 Human/high modality inputs remain exact reader-visible substrings;

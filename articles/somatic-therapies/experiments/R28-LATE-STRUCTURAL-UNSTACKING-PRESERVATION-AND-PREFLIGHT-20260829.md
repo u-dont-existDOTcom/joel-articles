@@ -6,7 +6,7 @@ Registered authority remains `articles/somatic-therapies/master.html` r01 at SHA
 
 Candidate: `R28-LATE-STRUCTURAL-UNSTACKING-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `84009432c422a4d950af5f8e7bcce91b690c1eb55cdf523b55e6e2574ff5c96d`.
 
-Exact headed reader-visible boundary: `R28-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`, 2,075 whitespace words, 11,721 UTF-8 bytes, 11,767 Unicode characters, terminal newline present.
+Exact headed reader-visible boundary: `R28-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`, 2,075 whitespace words, 11,767 UTF-8 bytes, 11,721 Unicode characters, terminal newline present.
 
 ## Governing result and intervention
 
