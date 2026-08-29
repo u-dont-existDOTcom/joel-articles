@@ -404,6 +404,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R39 readiness-to-reparenting routing candidate returns exactly to R38, moves the complete readiness paragraph unchanged beside its Nurturer/Protector owner, preserves every claim and measured Human span, and passes every non-detector eligibility gate.
 - R39 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed, but displayed AI surface increased by `68` characters because the new adjacency pulled bounded self-hypnosis into AI. R39 is discarded and its hash is blocked from repetition.
 - R40 readiness-at-reparenting-owner-boundary candidate returns exactly to R38, moves the complete readiness paragraph unchanged after the Human/high heart-loop owner material, restores the known-Human self-hypnosis/body-tension adjacency, and passes every non-detector eligibility gate.
+- R40 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed and readiness became Human, but the following witness/Somatic Experiencing material joined Yoga in AI, producing a net `109`-character regression. R40 is discarded and blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -429,6 +430,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R37 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `431ce5e2-620c-4725-a6c8-eec929816a96`; one completed call, zero retries or duplicates; late Human middle contracted by 96 characters and late AI run expanded by 67.
 - R38 final headed GUI: Mostly Human; AI `10%`, Human `90%`; exact History report `f81c1707-eaac-4eed-b2aa-3f5ac8eb50fd`; one completed call, zero retries or duplicates; moved TRE safety paragraph absorbed into Human middle and early AI region reduced to Yoga alone.
 - R39 final headed GUI: Mixed; AI `10%`, Human `90%`; exact History report `ba171cba-4554-4393-b18e-f2036caa4ca7`; one completed call, zero retries or duplicates; late AI shrank by `210` displayed characters but a new `278`-character early AI run caused a net `68`-character regression.
+- R40 final headed GUI: Mixed; AI `10%`, Human `90%`; exact History report `48deee85-4dbf-4033-a1e9-fa55c8bed7b8`; one completed call, zero retries or duplicates; readiness became Human but downstream Somatic Experiencing/witness spillover caused a net `109`-character regression.
 
 R22's six AI-marked contextual segments are:
 
@@ -534,6 +536,8 @@ R38's one submit action began at `2026-08-29T16:44:39.541Z`; its unique History 
 
 R39's one submit action began at `2026-08-29T16:57:57.571Z`; its unique History record is `https://www.pangram.com/history?history=ba171cba-4554-4393-b18e-f2036caa4ca7`. The dashboard completed normally, the plagiarism option remained off, and exact stored-text binding passed. There is no pending or ambiguous R39 submission. Do not repeat SHA `d408b1ff7ec0b6950f8e9278a53667089fac0e5e2e81185b3095e6105c10a881`.
 
+R40's one submit action began at `2026-08-29T17:08:06.660Z`; its unique History record is `https://www.pangram.com/history?history=48deee85-4dbf-4033-a1e9-fa55c8bed7b8`. The dashboard completed normally, the plagiarism option remained off, and exact stored-text binding passed. There is no pending or ambiguous R40 submission. Do not repeat SHA `14fa62c860454b9edf3db6fbeaf88f346872c110733d247c98e59148fa1153a9`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -554,6 +558,7 @@ R39's one submit action began at `2026-08-29T16:57:57.571Z`; its unique History 
 - Exact R37 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R38 is below the publication gate at 90% Human and is complete/blocked from repetition.
 - Exact R39 is below the publication gate at 90% Human, is an exact-segment regression from R38, and is complete/blocked from repetition.
+- Exact R40 is below the publication gate at 90% Human, has downstream cross-section spillover, and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -564,16 +569,17 @@ R39's one submit action began at `2026-08-29T16:57:57.571Z`; its unique History 
 - The only remaining AI regions are the 292-character Yoga paragraph and unchanged 823-character late readiness/aftercare/Light-CBT cluster.
 - Discard R39 and return exactly to R38. Do not place the complete readiness paragraph directly against bounded self-hypnosis again.
 - Preserve R39's compositional lesson: semantic ownership is necessary but not sufficient; the final readiness sentence composed Human with downstream body-tension/heart-access material, while the first two sentences destabilized the compact self-hypnosis boundary.
-- Run R40 once: place the unchanged readiness paragraph at the end of the reparenting owner section, after the complete heart loop, while preserving every registered claim and all R38 Human material.
-- Reject R40 even if its detector score improves if whole-article review finds a coherence, accuracy, or owner-voice regression.
+- Discard R40 and return exactly to R38. Readiness can become Human at the heart-loop owner boundary, but the placement creates a larger downstream witness/Somatic Experiencing/Yoga AI run.
+- Preserve R40's whole-boundary lesson: never retain a locally Human routed unit without measuring immediate downstream spillover and total displayed AI surface.
+- Continue with one evidence-led intervention that preserves every claim, restores all R38 Human regions, and does not repeat readiness routing at either failed boundary.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R40 candidate, headed boundary, preservation/coherence proof, and state checkpoint without touching the registered master.
-2. Reserve one decision-changing call after fresh local and authenticated-History duplicate defense.
-3. Submit once through the reusable dashboard, bind exact History text, and apply the segment result as the next durable compositional lesson.
+1. Persist and push the exact R40 result and cross-section-spillover lesson in both repositories without touching the registered master.
+2. Return exactly to R38 and target an independently isolated remaining region with a source-grounded or architecture-led intervention that does not disturb R38's Human boundaries.
+3. Run preservation/coherence gates, reserve only a decision-changing exact hash, submit once through the reusable dashboard, and bind History before further work.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -593,5 +599,6 @@ R39's one submit action began at `2026-08-29T16:57:57.571Z`; its unique History 
 - R37 is complete at 89% Human and is explicitly blocked from repetition.
 - R38 is complete at 90% Human and is explicitly blocked from repetition.
 - R39 is complete at 90% Human, is an exact-segment regression, and is explicitly blocked from repetition.
+- R40 is complete at 90% Human, has a net 109-character exact-segment regression, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
