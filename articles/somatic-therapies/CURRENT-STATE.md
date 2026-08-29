@@ -15,7 +15,7 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R23 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R24 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
@@ -43,6 +43,22 @@ Result artifact: `experiments/R23-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R23 improves over R22 (Human `60%` → `66%`) but fails Joel's mandatory 100%-Human publication gate. Yoga and Sky remain closed at 6/6. Gentle shaking and EMDR remain closed at 6/6 with exact Human/high R21 production cores. Brainspotting retains one intentionally unused local call. No completed whole hash may be repeated.
 
+R24 is now frozen for the next decision-useful whole measurement:
+
+- candidate: `experiments/R24-MINIMUM-CLOSURE-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `ab0d982893e421598061e688bbcd1327c295f848f60cd2d193e736af513cb4c4`;
+- exact headed boundary: `experiments/R24-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b`;
+- size: 2,164 whitespace words / 12,330 UTF-8 bytes / 12,282 Unicode characters / terminal newline;
+- preflight: `experiments/R24-MINIMUM-CLOSURE-PRESERVATION-AND-PREFLIGHT-20260829.md`, SHA-256 `5c20f103b214edda2606bf593d1c767b664f05a42fec46ce594a7628219881a4`;
+- all five R23 whole-context Human segments remain whitespace-normalized exact substrings;
+- all three R21 Human/high modality cores remain byte-identical;
+- complete M01 remains whitespace-normalized exact while its internal paragraph cuts are consolidated;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, 13 unique, exact R23 URL multiset;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R24 changes only R23's five AI-marked contextual regions. It removes repeated Louka/outcome closure, consolidates the repeated red paragraph cuts, keeps every safety function with its natural practice, and ends at the existing Sky embed without a generic summary. No local control or completed hash will be resubmitted.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -52,6 +68,7 @@ R23 improves over R22 (Human `60%` → `66%`) but fails Joel's mandatory 100%-Hu
 - R22 assembled the resulting whole article and passed preservation, architecture, safety/evidence, link, native-object, and detector preflight.
 - R22 final headed GUI completed once at Human `60%` / AI `40%`; exact History binding passed and the hash is blocked from repetition.
 - R23 contextual repair passed all non-detector preflight gates; its final headed GUI completed once at Human `66%` / AI `34%`, exact History binding passed, and the hash is blocked from repetition.
+- R24 minimum-closure candidate preserves the five R23 Human segments and passes every non-detector eligibility gate for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -138,18 +155,18 @@ Joel's Brave/Pangram Professional session completed the exact R23 check at `2026
 
 ## Remaining
 
-- Build a new contextual-repair candidate from R23 while preserving its five Human segments and all article invariants.
-- Run preservation, architecture, safety/evidence, link, native-object, and exact-boundary gates before another detector submission.
-- Reserve and submit only a new exact headed hash whose result will change the editorial decision; never rerun R23.
+- Commit and push the frozen R24 candidate, exact boundary, preflight, and this state checkpoint.
+- Create one durable lab reservation for exact R24 SHA `5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b`.
+- Submit exact R24 once, with plagiarism off, and bind its completed History record before any next editorial or paid-call decision.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R23 result and History binding in both repositories.
-2. Create the next candidate by preserving all five R23 Human segments, deleting only duplicated explanation, and separating the 3,053-character late interaction into natural article owners.
-3. Run all non-detector gates, freeze an exact headed boundary, and create a durable one-call reservation.
-4. Submit the new hash once, bind it to History, and persist the result before any further call.
-5. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+1. Commit and push R24 and its passed preflight.
+2. Create and push one durable R24 lab reservation with a one-call cap and duplicate/history defenses.
+3. Submit exact R24 once, bind it to History, and persist the result before any further call.
+4. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+5. If it remains below 100%, preserve its Human spans and use only its new decision-relevant localization; never repeat R22, R23, or R24.
 
 ## Hard rules
 
