@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R49 production candidate restores borrowed adulthood behind its own function-specific subsection
+### R49 regressed to 88% Human; heading separation does not restore borrowed adulthood safely
 
 R49 returns exactly to R38, restores every borrowed-adulthood word withheld in R48, and splits the existing combined child heading into `Light CBT / Narrative Integration` and `Borrowed Adulthood`. The two exact R38 prose units sit under their natural functions. No substantive word, claim, source identity, link, native object, or known-Human span changes.
 
@@ -31,7 +31,7 @@ R49 returns exactly to R38, restores every borrowed-adulthood word withheld in R
 - production completeness, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
 - registered article authority impact: none.
 
-Retention requires exact improvement over R38 without spillover. R47 proves a blank line alone is insufficient; R48 proves borrowed adulthood contributes causally and cannot simply remain in the late compact stack.
+The exact R49 headed check completed from one click at Human `88%` / AI `12%`. The late AI region remains essentially unchanged at 821 characters, and a new 255-character AI span appears in the previously Human Brainspotting/citation/EMDR boundary. Total displayed AI grows from R38's 1,115 to 1,368 characters. Discard R49 and close stronger heading separation at this Light-CBT destination.
 
 R48 returns exactly to R38 and temporarily withholds the complete borrowed-adulthood function plus its heading label. The Light CBT/Narrative Integration lead remains coherent; every known-Human span, other claim, link, and native object remains exact. Borrowed adulthood is mandatory for production and remains protected verbatim in R38 and the diagnostic ledger. R48 can never be promoted or published, even if it returns 100% Human.
 
@@ -615,6 +615,8 @@ R47's one submit action began at `2026-08-29T18:22:32.251Z`; its unique History 
 
 R48's one submit action began at `2026-08-29T18:29:10.088Z`; its unique History record is `https://www.pangram.com/history?history=c7274e4b-a513-402d-8d5e-57cd6c96f3ad`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R48 submission. Do not repeat SHA `48c12ddafa2e5b9c21282e26d6fce472be5b337b2503589d639c6094acc33f80`.
 
+R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History record is `https://www.pangram.com/history?history=98de6f84-6568-4bb7-a650-31b87b584dc7`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R49 submission. Do not repeat SHA `9fe47992c00880dd08ac8f8d66410b869d8de04f890e226c07340d45fb2e7865`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -644,6 +646,7 @@ R48's one submit action began at `2026-08-29T18:29:10.088Z`; its unique History 
 - Exact R46 is below the publication gate at 86% Human, has a net 532-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R47 is below the publication gate at 90% Human, is exact-segment neutral against R38, and is complete/blocked from repetition.
 - Exact R48 is a 94%-Human protected-function diagnostic, is production-incomplete/never promotable, and is complete/blocked from repetition.
+- Exact R49 is below the publication gate at 88% Human, has a net 253-character exact-segment regression, and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -671,15 +674,17 @@ R48's one submit action began at `2026-08-29T18:29:10.088Z`; its unique History 
 - Discard R47 and return exactly to R38. Separating cognitive integration and borrowed adulthood with a paragraph break reproduced the exact R38 AI/Human boundaries.
 - Preserve R47's adjacency lesson: the unchanged late functions interact across the paragraph boundary; same-paragraph stacking is not the remaining cause. Close cosmetic whitespace and paragraph-only variants.
 - Preserve R48's causal lesson: withholding borrowed adulthood contracts the late AI run by 437 characters and makes readiness plus the first aftercare sentence Human. The function contributes to the interaction but must be restored for production.
+- Discard R49 and return exactly to R38. A function-specific borrowed-adulthood subsection leaves the late region AI and destabilizes the earlier Brainspotting/citation/EMDR boundary.
+- Preserve R49's restoration lesson: R48's gain depends on functional withholding, not merely stronger heading separation. Close heading-strength variants at the Light-CBT destination.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R48 diagnostic result and causal lesson in both repositories without touching the registered master.
-2. Return exactly to R38 and restore every borrowed-adulthood word for production.
-3. The next eligible production class is a function-specific section boundary: split the existing combined Light CBT/Narrative Integration/Borrowed Adulthood heading into `Light CBT / Narrative Integration` and `Borrowed Adulthood`, keep both exact R38 prose units, and add no new claim or autobiographical material. R47 proves a blank line alone is insufficient; R48 proves the protected function requires different architecture.
+1. Persist and push the exact R49 result and restoration failure in both repositories without touching the registered master.
+2. Return exactly to R38. Preserve the complete borrowed-adulthood function in production but close its current Light-CBT realization, blank-line split, and function-specific heading variants.
+3. Before another production restoration, localize R48's 386-character residual with one protected-function diagnostic that withholds the complete `Making Sense of What Changed` / Light CBT-Narrative Integration cluster from R48 while leaving readiness and EMDR aftercare exact. This determines whether aftercare remains independently detector-sensitive or the integration cluster is necessary for the residual. The omitted integration claims remain protected and the diagnostic can never be promoted.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -708,5 +713,6 @@ R48's one submit action began at `2026-08-29T18:29:10.088Z`; its unique History 
 - R46 is complete at 86% Human, has a net 532-character exact-segment regression, and is explicitly blocked from repetition.
 - R47 is complete at 90% Human, is exact-segment neutral against R38, and is explicitly blocked from repetition.
 - R48 is complete at 94% Human as a protected-function diagnostic, is never promotable, and is explicitly blocked from repetition.
+- R49 is complete at 88% Human, has a net 253-character exact-segment regression, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
