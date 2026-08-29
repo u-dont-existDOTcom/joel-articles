@@ -11,12 +11,12 @@
     {
       "id": "humanization-architecture",
       "status": "passed",
-      "evidence": "R31 remains the best completed whole surface at 89% Human. R35's paragraph-only repair reproduced R31 and is discarded. R36 preserves every substantive R31 sentence and required function while testing the new combination of R26's no-heading Yoga/TRE surface with R31's successful registered citation recovery."
+      "evidence": "R36 is the best completed production baseline at 89% Human: it preserves every substantive R31 sentence and required function while shrinking the early Yoga/TRE AI region from 443 to 409 characters. The next controlled repair targets only the independent late editorial-wrapper interaction."
     },
     {
       "id": "fidelity",
       "status": "passed",
-      "evidence": "R36 forward/reverse traceability passed with zero unexplained substantive deltas; its 16/16 ordinary-link multiset, 8/8 native/editor objects, every substantive R31 sentence, the registered citation, the complete late region, and all three R21 Human/high cores remain protected. Only the redundant Gentle Shaking / TRE subheading is removed."
+      "evidence": "R36 forward/reverse traceability passed with zero unexplained substantive deltas; its 16/16 ordinary-link multiset, 8/8 native/editor objects, every substantive R31 sentence, registered citation, complete late region, and all three R21 Human/high cores remain protected. Only the redundant Gentle Shaking / TRE subheading is removed."
     },
     {
       "id": "owner-final-review",
@@ -26,7 +26,7 @@
     {
       "id": "detector",
       "status": "blocked",
-      "evidence": "Exact R35 final headed GUI result is Mixed at AI 11% / Human 89%, with exact History binding to report 506bca12-0f23-4f31-8f7f-a5c59c678fd4. Paragraph-only Yoga/TRE repair is closed. Exact R36 is preflight-complete and awaits one reserved headed whole call; publication remains blocked unless an exact headed whole boundary reaches 100% Human."
+      "evidence": "Exact R36 final headed GUI result is Mixed at AI 11% / Human 89%, with exact History binding to report 9aab48f3-2ad2-49cf-8df6-0f950442f5c9. Its early AI region shrank but the publication gate remains unmet; publication remains blocked unless an exact headed whole boundary reaches 100% Human."
     },
     {
       "id": "citation-review",
