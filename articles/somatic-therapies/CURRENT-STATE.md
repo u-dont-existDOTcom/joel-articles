@@ -15,12 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R47 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R48 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R47 reproduced exact R38 segment boundaries at 90% Human; paragraph adjacency is closed
+### R48 protected-function diagnostic prepared; borrowed adulthood is withheld only for causal localization
+
+R48 returns exactly to R38 and temporarily withholds the complete borrowed-adulthood function plus its heading label. The Light CBT/Narrative Integration lead remains coherent; every known-Human span, other claim, link, and native object remains exact. Borrowed adulthood is mandatory for production and remains protected verbatim in R38 and the diagnostic ledger. R48 can never be promoted or published, even if it returns 100% Human.
+
+- diagnostic candidate: `experiments/R48-BORROWED-ADULTHOOD-FUNCTION-WITHHOLDING-DIAGNOSTIC-CANDIDATE-20260829.md`, SHA-256 `c906c99dd4a4aa9382c714ec1fa774ba843de72fdb132289c2634d303262ba54`;
+- exact headed boundary: `experiments/R48-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `48c12ddafa2e5b9c21282e26d6fce472be5b337b2503589d639c6094acc33f80`;
+- size: 2,048 whitespace words / 11,625 UTF-8 bytes / 11,577 Unicode characters / terminal newline;
+- diagnostic preflight: `experiments/R48-BORROWED-ADULTHOOD-FUNCTION-WITHHOLDING-DIAGNOSTIC-PREFLIGHT-20260829.md`;
+- diagnostic whitelist, coherence, architecture, links, native objects, known-Human preservation, and exact extraction: PASS;
+- production completeness: intentionally incomplete; promotion/publication prohibited.
+
+The result will decide whether borrowed adulthood is causally necessary for the 823-character late AI region before any further routing attempt. Whatever the result, the protected function must be restored for production.
 
 R47 returns exactly to R38 and inserts one blank line before the conditional borrowed-adulthood sentence. Every reader-visible word, punctuation mark, sentence order, claim, heading, link, native object, and measured-Human span remains exact. This isolates paragraph adjacency between cognitive integration and borrowed adulthood; R34 did not isolate it because that candidate also changed the borrowed wording.
 
