@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R25 exact whole GUI result is complete at 69% Human; publication remains blocked
+### R26 minimum-function candidate is preflight-clean and ready for one exact whole GUI call
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -87,6 +87,21 @@ Result artifact: `experiments/R25-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R25 regresses from R24 (Human `72%` → `69%`) but clears the formerly stable Protector/self-hypnosis region inside a 4,784-character Human opening. Three AI interactions remain: a 729-character witness/Somatic/Yoga/TRE run, a 2,234-character Brainspotting-correction/EMDR/Light-CBT run, and a 757-character restimulation/Sky-Vagal run. The 2,619-character between-session middle and 984-character lived story remain Human. No completed whole hash may be repeated.
 
+R26 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R26-RED-REGION-MINIMUM-FUNCTION-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `24f53df8f89120c40866134a680249afd9b29825eac6e4d22b04a9a81130d33e`;
+- exact headed boundary: `experiments/R26-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `2953e0fcce6caed4df5d1603d0330225d361a28b8cadfa4f0c575f36dde12d5b`;
+- size: 2,080 whitespace words / 11,798 UTF-8 bytes / 11,752 Unicode characters / terminal newline;
+- preflight: `experiments/R26-RED-REGION-MINIMUM-FUNCTION-PRESERVATION-AND-PREFLIGHT-20260829.md`, SHA-256 `ea82a7a642d850cab3df6644240c454ef2c6f1af53a312f94c317147673622ba`;
+- all three R25 Human History segments remain whitespace-normalized exact and their underlying local blocks remain byte-exact substrings;
+- all three R21 Human/high modality inputs remain exact reader-visible substrings;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, 13 unique, exact R25 URL multiset;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R26 changes only R25's three AI regions. It recovers blunter Yoga/TRE source syntax, deletes duplicated EMDR target explanation, keeps every timing/aftercare/safety function, reduces borrowed adulthood to its protected core, and separates the restimulation definition from Sky/Vagal with a reader-facing outcome heading. The exact hash is eligible for one paid headed GUI measurement after durable reservation and exact live-field equality.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -100,6 +115,7 @@ R25 regresses from R24 (Human `72%` → `69%`) but clears the formerly stable Pr
 - R24 final headed GUI completed once at Human `72%` / AI `28%`; exact History binding passed and the hash is blocked from repetition.
 - R25 routed-boundary candidate passes preservation, architecture, safety/evidence, link, native-object, and exact-boundary preflight for one new exact whole call.
 - R25 final headed GUI completed once at Human `69%` / AI `31%`; exact History binding passed and the hash is blocked from repetition.
+- R26 minimum-function candidate preserves all three R25 Human segments and passes every non-detector eligibility gate for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -182,7 +198,7 @@ The durable experiment and result artifacts are registered in `articles/INDEX.js
 
 Joel's Brave/Pangram Professional session completed the exact R24 check at `2026-08-29T11:36:43.426Z`. The result is present in History at `https://www.pangram.com/history?history=a9aab5ac-eb3c-4839-a8b1-39b43c889c7c`. Fresh confirmation was obtained immediately before transmission. The plagiarism option remained off. There is no pending or ambiguous R24 submission. Do not repeat SHA `5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b`.
 
-Joel subsequently confirmed R24 and explicitly instructed the worker to stop interrupting for routine confirmations. R25 completed at `2026-08-29T12:02:43.670Z`; its unique History record is `https://www.pangram.com/history?history=d6ae6b73-5dfe-45d6-b0c8-a03ff0a3c98a`. The plagiarism option remained off. There is no pending or ambiguous R25 submission. Do not repeat SHA `4ebcdd0f0d4d17036327ef6268bcb4ecf0f92e013ae0ffc13a3f242a4872644d`.
+Joel subsequently confirmed R24 and explicitly instructed the worker to stop interrupting for routine confirmations. R25 completed at `2026-08-29T12:02:43.670Z`; its unique History record is `https://www.pangram.com/history?history=d6ae6b73-5dfe-45d6-b0c8-a03ff0a3c98a`. The plagiarism option remained off. There is no pending or ambiguous R25 submission. Do not repeat SHA `4ebcdd0f0d4d17036327ef6268bcb4ecf0f92e013ae0ffc13a3f242a4872644d`. R26 has not yet been submitted at this checkpoint.
 
 ## Blockers / unresolved
 
@@ -190,28 +206,29 @@ Joel subsequently confirmed R24 and explicitly instructed the worker to stop int
 - Exact R23 is below the publication gate at 66% Human and is complete/blocked from repetition.
 - Exact R24 is below the publication gate at 72% Human and is complete/blocked from repetition.
 - Exact R25 is below the publication gate at 69% Human and is complete/blocked from repetition.
+- Exact R26 is preflight-clean but not yet measured.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Persist and push the exact R25 result and History binding in both repositories.
-- Build the next candidate by preserving all three R25 Human segments, keeping the cleared Protector/self-hypnosis realization exact, and repairing only the three AI interactions through source recovery and destination/adjacency changes.
-- Run all non-detector gates, then reserve and submit only a new exact headed hash whose result changes the editorial decision.
+- Persist and push the exact R26 candidate, boundary, preflight, and state checkpoint.
+- Create one durable lab reservation for exact SHA `2953e0fcce6caed4df5d1603d0330225d361a28b8cadfa4f0c575f36dde12d5b` after fresh duplicate/history defense.
+- Submit R26 once, bind it to Pangram History, and persist the result in both repositories before another call.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push R25's exact result and three-region localization.
-2. Freeze the 4,784-character opening, 2,619-character middle, and 984-character lived-story Human segments.
-3. Create a new candidate that separates witness from Somatic/Yoga/TRE, breaks the late Brainspotting/EMDR/borrowed interaction without rewriting the exact R21 cores, and separates restimulation from Sky/Vagal.
-4. Run all non-detector gates, freeze one new exact headed boundary, reserve it durably, and submit it once.
+1. Validate and push the exact R26 candidate, boundary, preflight, and state checkpoint.
+2. Confirm no completed or pending measurement exists for the R26 hash, then create one durable reservation.
+3. Submit R26 once, bind it to Pangram History, and persist the result before any further call.
+4. If R26 is not 100% Human, preserve newly Human spans and make only decision-relevant contextual repairs.
 5. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
 - Do not overwrite or promote the registered master with an experiment.
 - Do not alter owner locks or owner-final prose.
-- Do not repeat R22, R23, R24, or any completed/ambiguous R25 submission.
+- Do not repeat R22, R23, R24, R25, or any completed/ambiguous R26 submission.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
