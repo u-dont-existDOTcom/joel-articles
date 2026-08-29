@@ -12,18 +12,53 @@ Mermaid remains the required compact article-architecture map. This audit comple
 
 **Offer this audit proactively; do not run it automatically without Joel accepting the offer.**
 
-Offer it in either of these situations:
+Offer it in any of these situations:
 
 1. **Substantive editorial help:** whenever Joel asks for editorial help on a substantial article or substantial article section and a blind reader-question pass could plausibly reveal omissions, delayed answers, distributed answers, scope problems, or reader-state gaps that ordinary editing may miss.
-2. **Publish-ready after humanization:** after a substantial humanization/reconstruction pass reaches the point where the article is otherwise ready for publication or final owner review, offer the blind reader-question audit before treating publication preparation as complete.
+2. **Substantial humanization/reconstruction:** when humanization is large enough to change paragraph jobs, section movement, setup/payoff relationships, compression, ordering, or reader-facing logic—not merely wording. Offer the audit at a meaningful stabilization point if a fresh blind read could change the next editorial decision.
+3. **Publish-ready after humanization:** after a substantial humanization/reconstruction pass reaches the point where the article is otherwise ready for publication or final owner review, offer the blind reader-question audit on the actual final candidate before treating publication preparation as complete.
 
 The offer should be brief and concrete, for example: `This is at the point where a blind reader-question audit could catch questions the editing context has stopped seeing. Want me to run it before publication?`
 
 If Joel declines, continue the requested editorial/publication workflow normally. Do not turn the audit into a mandatory gate.
 
-Do not repeatedly offer it during every local edit within the same active pass. One offer at the meaningful editorial boundary is enough; offer again only when a later substantial humanization/reconstruction pass reaches a new publish-ready boundary.
+Do not repeatedly offer it during every local edit within the same active pass. One offer at a meaningful editorial/stabilization boundary is enough; offer again only when later substantial changes create a genuinely new candidate state.
 
 Skip the offer for trivial/local edits, short pieces, typo/style-only work, or cases where a genuinely blind reader context is unavailable and the marginal value would be low.
+
+## Humanization integration
+
+The blind audit is useful during humanization because a rewrite can preserve individual claims while still damaging the reader's question chain. Typical failures include:
+
+- removing a setup while preserving its later answer;
+- moving an answer so far downstream that the reader spends multiple sections confused;
+- introducing an undefined referent or concept after compression;
+- smoothing a transition while deleting the reasoning step that made it necessary;
+- preserving semantic units while weakening the section's actual reader-facing job;
+- adding human-sounding texture that distracts from or changes the live question;
+- detector-driven local edits that look clean in isolation but break an article-wide setup/payoff.
+
+Use two levels rather than repeatedly rerunning the full blind protocol:
+
+### During the rewrite: local question-continuity checks
+
+After a meaningful natural section or architecture change, ask locally:
+
+- What question is live on entry?
+- What question does this section answer, complicate, or redirect?
+- What question is live on exit?
+- Did the humanized version create, delete, postpone, or accidentally answer a question differently from the authoritative source?
+- Did any answer lose the setup that makes it intelligible?
+
+This local check may use the active editing context; it is not called independent or blind.
+
+If a prior blind audit exists, treat its unresolved/candidate questions and important answered controls as editorial constraints during humanization. Do not silently erase or reclassify them merely because the prose changed.
+
+### At stabilization or publish-ready state: full blind audit
+
+Run the full genuinely independent sequential audit only when the candidate is stable enough that the result can change a real editorial decision. This is the high-value point for detecting regressions introduced by humanization and blind spots created by a saturated drafting context.
+
+Do not rerun a full blind audit after every detector tweak. A new full run is justified when later changes materially alter section architecture, substantive coverage, question→answer routing, or enough prose that the previous blind result no longer describes the current candidate.
 
 ## When to use after acceptance
 
