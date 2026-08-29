@@ -202,7 +202,11 @@
         {"path": "articles/somatic-therapies/experiments/R21-BRAINSPOTTING-MINIMUM-NORMALIZATION-20260829.txt", "sha256": "36bd9579cb55743d5f1f095eba878fa9048d2f68ebf4acf28c8c03182bf75229", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R21-EMDR-MINIMUM-NORMALIZATION-20260829.txt", "sha256": "dcc20d2065d6d42486d3686cb199b2a72d446bcad1e3da419cee4990d76ede51", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R21-SHAKING-MINIMUM-NORMALIZATION-20260829.txt", "sha256": "2f76511812266c8a6f52b368ad9f2bc35648aa1b65b716f989df7aa6da4af13a", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R21-HUMAN-SOURCE-MINIMUM-NORMALIZATION-PRESERVATION-20260829.md", "sha256": "fa2aabdb72bd23c680cc4242e138997bddd0016205f54c59698f7c62de63b500", "role": "preservation_and_preflight"}
+        {"path": "articles/somatic-therapies/experiments/R21-HUMAN-SOURCE-MINIMUM-NORMALIZATION-PRESERVATION-20260829.md", "sha256": "fa2aabdb72bd23c680cc4242e138997bddd0016205f54c59698f7c62de63b500", "role": "preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R21-HUMAN-SOURCE-MINIMUM-NORMALIZATION-RESULT-20260829.md", "sha256": "ed452a6b593213eb91e560dab5843b711ccdb82b3a31008dcfcd102cecce335e", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R22-OWNER-SOURCE-SPINE-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "fc1a1ff819a15fc93e50448061981846ffeb95012cf7dac62723b124c53e2c05", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R22-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "e481ccca8fd08bb18a53254d3e5f1d4d3f97b6a1f4070d63cb0b884a4e1488c0", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R22-OWNER-SOURCE-SPINE-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "b55dfbce35dcfd15a3eb4d1b8fec9e96ba7ec18396888a59516752c6ca25518b", "role": "preservation_and_preflight"}
       ]
     }
   ]
