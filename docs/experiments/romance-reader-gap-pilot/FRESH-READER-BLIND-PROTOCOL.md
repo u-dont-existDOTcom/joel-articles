@@ -1,21 +1,20 @@
-# Fresh-reader blind protocol — Romance
+# Fresh-reader blind protocol — Romance (Pro reader stage)
 
-Status: **BLIND DIAGNOSTIC TEST.** This file intentionally contains no prior candidate questions or pilot conclusions.
+Status: **BLIND DIAGNOSTIC TEST / READER STAGE ONLY.** Source collection is a separate mechanical stage governed by `COLLECTION-PROTOCOL.md`.
 
 ## Isolation gate
 
-Use a genuinely fresh chat/model context with **no prior Romance discussion loaded**.
+Use a genuinely fresh Pro/model conversation with **no prior Romance discussion loaded**.
 
 For this run:
 
-- use only this protocol and the exact canonical article chunks specified below;
-- read from repository `u-dont-existDOTcom/joel-articles`, branch `main` only;
-- canonical file: `articles/romance/master.md`;
-- expected canonical SHA-256: `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`;
-- do **not** read `ARCHITECTURE.md`, review files, current-state summaries, this experiment's sibling files, another branch, prior chat, or memory;
-- stop on a master identity mismatch.
+- do **not** access GitHub, the web, files outside the current conversation, prior chats, memory, or external frameworks;
+- do not use tools to retrieve the article yourself;
+- do not ask for or accept the complete source, a ZIP containing all windows, the future-window manifest, `ARCHITECTURE.md`, review files, current-state summaries, sibling experiment files, or prior audit results;
+- use only this protocol plus the source windows the human/controller reveals sequentially in this conversation;
+- do not request a later window until the current checkpoint has been frozen.
 
-The purpose is to preserve the reader's actual information state. Do not browse ahead to answer a question before its turn.
+The purpose is to preserve the reader's actual information state. An unrevealed window must be genuinely unavailable to you, not merely something you promise not to inspect.
 
 ## Reader stance
 
@@ -25,50 +24,23 @@ At each checkpoint, record only **material live questions**: questions whose lat
 
 Do not generate generic `what about X?` questions merely because a relationship topic exists.
 
-## Sequential reveal
+## Sequential reveal contract
 
-Fetch and read these exact line windows from `main`, **one at a time, in order**. Do not fetch a later window until you have frozen the current checkpoint output.
+The controller will provide one immutable source window at a time in order. Windows were collected mechanically from the canonical Romance master in 90-line source chunks.
 
-1. lines `1–90`
-2. lines `91–180`
-3. lines `181–270`
-4. lines `271–360`
-5. lines `361–450`
-6. lines `451–540`
-7. lines `541–630`
-8. lines `631–720`
-9. lines `721–810`
-10. lines `811–900`
-11. lines `901–990`
+When you receive a window:
 
-If the file has fewer than 990 lines, read through its actual end on the final available window.
-
-## At each checkpoint
-
-Before fetching the next chunk, freeze up to **three** questions in this schema:
-
-```json
-{
-  "checkpoint": 1,
-  "through_lines": "1-90",
-  "questions": [
-    {
-      "question": "...",
-      "why_live_now": "one sentence",
-      "importance": "high|medium",
-      "reader_mode": "curious-novice|practical-reader|personally-implicated|skeptic"
-    }
-  ]
-}
-```
+1. read only the material currently available in the conversation;
+2. freeze the checkpoint output before the controller reveals another window;
+3. do not revise prior checkpoints after later text arrives;
+4. do not claim a topic is absent until the final coverage pass;
+5. do not propose edits or new prose.
 
 A checkpoint may legitimately have zero questions.
 
-Do not revise an earlier checkpoint because later text answers it. The point is to preserve what was live **at that moment**.
-
 ## Promise-first pass
 
-At checkpoint 1, separately record up to eight questions reasonably implied by the article's own opening promise and scope. These are expected questions, not claims that the article must answer every one.
+On **window 1 only**, before any later window is revealed, separately freeze up to eight questions reasonably implied by the article's own opening promise and scope. These are expected questions, not claims that the article must answer every one.
 
 Use:
 
@@ -84,11 +56,34 @@ Use:
 }
 ```
 
-Freeze these before reading lines 91 onward.
+Do not revise this list after later windows are revealed.
+
+## Checkpoint output
+
+After each window, freeze up to three material live questions using:
+
+```json
+{
+  "checkpoint": 1,
+  "through_window": 1,
+  "questions": [
+    {
+      "question": "...",
+      "why_live_now": "one sentence",
+      "importance": "high|medium",
+      "reader_mode": "curious-novice|practical-reader|personally-implicated|skeptic"
+    }
+  ]
+}
+```
+
+For window 1, return `promise_questions` first and the checkpoint object second. For intermediate windows, return only the checkpoint object.
+
+The controller will then provide the next window.
 
 ## Final coverage pass
 
-Only after all chunks have been read may you use the whole article in hindsight.
+When the controller explicitly states that the final window has been revealed, you may use everything accumulated in this conversation in hindsight.
 
 1. Merge semantically duplicate questions.
 2. For each surviving material question, classify coverage:
@@ -129,15 +124,16 @@ Return final records as:
 - Do not turn Joel's strong substantive positions into neutralized alternatives.
 - Do not silently correct, soften, or fact-check claims.
 - Do not use search-engine demand, Reddit, Gottman, PREPARE/ENRICH, RST, IBIS, or any other external framework during this blind run.
+- Do not infer future content from headings or summaries that the controller has not yet revealed.
 
-## Deliverable
+## Final deliverable
 
-Return exactly three top-level objects, in this order:
+After the final coverage pass, return exactly three top-level objects, in this order:
 
-1. `promise_questions`
-2. `checkpoints`
-3. `surviving_questions`
+1. `promise_questions` — reproduce the frozen window-1 object unchanged;
+2. `checkpoints` — reproduce all frozen checkpoint objects in order, unchanged;
+3. `surviving_questions` — the hindsight coverage result.
 
 No editorial rewrite and no comparison with any previous audit.
 
-After this blind output is frozen, a separate comparison pass may inspect the experiment register and external benchmark.
+After this output is frozen, a separate comparison pass may inspect the experiment register and external benchmark.
