@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R50 integration-cluster diagnostic is frozen and never promotable
+### R50 reached 96% Human diagnostically and localized independent aftercare sensitivity
 
 R50 returns exactly to R48 and temporarily withholds the complete `Making Sense of What Changed` / Light CBT-Narrative Integration cluster in addition to R48's already withheld borrowed-adulthood function. Readiness and complete EMDR aftercare remain exact under EMDR, and the surviving article flows directly into Joel's lived outcome. This is a protected-function diagnostic only; all omitted integration and borrowed-adulthood claims remain mandatory for production.
 
@@ -28,10 +28,11 @@ R50 returns exactly to R48 and temporarily withholds the complete `Making Sense 
 - exact headed boundary: `experiments/R50-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5117cd17e260646b7ebceaaf4072396bbf1850c5c03c344a7087176641ef6932`;
 - size: 2,019 whitespace words / 11,438 UTF-8 bytes / 11,390 Unicode characters / terminal newline;
 - diagnostic preflight: `experiments/R50-INTEGRATION-CLUSTER-WITHHOLDING-DIAGNOSTIC-PREFLIGHT-20260829.md`;
+- exact result: `experiments/R50-FINAL-GUI-DIAGNOSTIC-RESULT-20260829.md`;
 - diagnostic whitelist, coherence, architecture, surviving-claim fidelity, known-Human preservation, native objects, and exact extraction: PASS;
 - production completeness: intentionally incomplete; promotion/publication prohibited regardless of score.
 
-The one-call decision is whether the 386-character R48 residual remains on exact EMDR aftercare when the complete integration cluster is absent. No registered authority changes.
+The exact R50 headed diagnostic completed from one click at Human `96%` / AI `4%`. Its exact Yoga region remains 292 characters. The late R48 AI region contracts from 386 to 203 characters: the removed integration cluster contributed 183 characters, while the exact no-stacking and delayed next-day aftercare sentences remain independently AI. The immediate aftercare sentence remains Human and is frozen on this diagnostic backbone. R50 remains permanently non-promotable and every omitted claim remains protected.
 
 ### R49 regressed to 88% Human; heading separation does not restore borrowed adulthood safely
 
@@ -630,6 +631,8 @@ R48's one submit action began at `2026-08-29T18:29:10.088Z`; its unique History 
 
 R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History record is `https://www.pangram.com/history?history=98de6f84-6568-4bb7-a650-31b87b584dc7`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R49 submission. Do not repeat SHA `9fe47992c00880dd08ac8f8d66410b869d8de04f890e226c07340d45fb2e7865`.
 
+R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History record is `https://www.pangram.com/history?history=79e676cf-f6a3-457c-ae1a-2d936736e52b`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R50 submission. Do not repeat SHA `5117cd17e260646b7ebceaaf4072396bbf1850c5c03c344a7087176641ef6932`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -660,7 +663,7 @@ R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History 
 - Exact R47 is below the publication gate at 90% Human, is exact-segment neutral against R38, and is complete/blocked from repetition.
 - Exact R48 is a 94%-Human protected-function diagnostic, is production-incomplete/never promotable, and is complete/blocked from repetition.
 - Exact R49 is below the publication gate at 88% Human, has a net 253-character exact-segment regression, and is complete/blocked from repetition.
-- Exact R50 is frozen as a production-incomplete/never-promotable protected-function diagnostic and is awaiting its sole authorized call.
+- Exact R50 is complete at 96% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -690,16 +693,17 @@ R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History 
 - Preserve R48's causal lesson: withholding borrowed adulthood contracts the late AI run by 437 characters and makes readiness plus the first aftercare sentence Human. The function contributes to the interaction but must be restored for production.
 - Discard R49 and return exactly to R38. A function-specific borrowed-adulthood subsection leaves the late region AI and destabilizes the earlier Brainspotting/citation/EMDR boundary.
 - Preserve R49's restoration lesson: R48's gain depends on functional withholding, not merely stronger heading separation. Close heading-strength variants at the Light-CBT destination.
+- Preserve R50's decomposition lesson: the integration cluster accounts for 183 characters of R48's residual, but the exact no-stacking plus next-day aftercare pair remains an independent 203-character AI span. Freeze the Human immediate aftercare sentence and do not delete protected integration claims.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the exact R50 diagnostic preflight without touching the registered master.
-2. Reserve and run R50 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
-3. Use its exact segment result to decide between one final aftercare localization diagnostic or materially different production routing for the complete protected integration functions.
-4. Restore every protected claim before any production candidate. If and only if an exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+1. Persist and push the exact R50 result and reusable functional lesson in both repositories without touching the registered master.
+2. Run at most one final protected-function diagnostic on exact R50: temporarily withhold the no-stacking sentence while keeping the complete next-day aftercare sentence exact. This determines whether delayed checks are sufficient for the 203-character AI span and yields a routing decision without phrase hunting.
+3. Restore every protected aftercare, integration, and borrowed-adulthood claim before the next production candidate; distribute functions only to destinations that still read naturally and preserve article architecture.
+4. If and only if an exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
@@ -728,6 +732,6 @@ R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History 
 - R47 is complete at 90% Human, is exact-segment neutral against R38, and is explicitly blocked from repetition.
 - R48 is complete at 94% Human as a protected-function diagnostic, is never promotable, and is explicitly blocked from repetition.
 - R49 is complete at 88% Human, has a net 253-character exact-segment regression, and is explicitly blocked from repetition.
-- R50 is production-incomplete, permanently non-promotable, and limited to one exact diagnostic submission after durable reservation.
+- R50 is complete at 96% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
