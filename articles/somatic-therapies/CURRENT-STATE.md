@@ -401,6 +401,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R37 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, the late AI run expanded backward, the intervention is discarded, and the hash is blocked from repetition.
 - R38 TRE safety-to-owner routing candidate preserves every R36 word and sentence exactly once and passes every non-detector eligibility gate.
 - R38 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed, the complete moved TRE unit became Human, and the hash is blocked from repetition.
+- R39 readiness-to-reparenting routing candidate returns exactly to R38, moves the complete readiness paragraph unchanged beside its Nurturer/Protector owner, preserves every claim and measured Human span, and passes every non-detector eligibility gate.
 
 ## Decisive detector evidence
 
@@ -555,15 +556,16 @@ R38's one submit action began at `2026-08-29T16:44:39.541Z`; its unique History 
 - Retain exact R38 as the production baseline.
 - Freeze R38's 4,997-character Human opening, 3,923-character Human middle including the moved TRE safety paragraph, and 1,650-character Human ending.
 - The only remaining AI regions are the 292-character Yoga paragraph and unchanged 823-character late readiness/aftercare/Light-CBT cluster.
-- Continue one function route at a time; do not rewrite or move the now-Human TRE paragraph.
+- Run R39 once: route the unchanged readiness paragraph beside the inner-child section's actual Nurturer/Protector realization while keeping the now-Human TRE paragraph frozen.
+- Evaluate both gates: detector movement and article coherence/claim preservation. Reject any detector gain that damages either editorial gate.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R38 result in both repositories.
-2. Return to exact R38 and route one remaining protected unit to its natural owner without changing measured Human wording.
-3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
+1. Persist the exact R39 candidate, preservation proof, headed boundary, and state checkpoint without touching the registered master.
+2. Reserve one decision-changing R39 call, recheck History for its exact hash/text, submit once through the reusable dashboard, and bind the unique result to exact History text.
+3. Apply the result as a reusable routing lesson: retain R39 only if its detector and coherence/claim gates both pass; otherwise return to exact R38.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
