@@ -15,12 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R48 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R49 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R48 reached 94% Human diagnostically; borrowed adulthood is a causal contributor and must be restored
+### R49 production candidate restores borrowed adulthood behind its own function-specific subsection
+
+R49 returns exactly to R38, restores every borrowed-adulthood word withheld in R48, and splits the existing combined child heading into `Light CBT / Narrative Integration` and `Borrowed Adulthood`. The two exact R38 prose units sit under their natural functions. No substantive word, claim, source identity, link, native object, or known-Human span changes.
+
+- candidate: `experiments/R49-BORROWED-ADULTHOOD-FUNCTION-SECTION-BOUNDARY-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `9cb5d8ca5492a5c0f1a22ba5c591b5f8a2ddae27992460b9e7e7b9dde37fca91`;
+- exact headed boundary: `experiments/R49-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `9fe47992c00880dd08ac8f8d66410b869d8de04f890e226c07340d45fb2e7865`;
+- size: 2,081 whitespace words / 11,808 UTF-8 bytes / 11,760 Unicode characters / terminal newline;
+- preflight: `experiments/R49-BORROWED-ADULTHOOD-FUNCTION-SECTION-BOUNDARY-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- production completeness, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
+- registered article authority impact: none.
+
+Retention requires exact improvement over R38 without spillover. R47 proves a blank line alone is insufficient; R48 proves borrowed adulthood contributes causally and cannot simply remain in the late compact stack.
 
 R48 returns exactly to R38 and temporarily withholds the complete borrowed-adulthood function plus its heading label. The Light CBT/Narrative Integration lead remains coherent; every known-Human span, other claim, link, and native object remains exact. Borrowed adulthood is mandatory for production and remains protected verbatim in R38 and the diagnostic ledger. R48 can never be promoted or published, even if it returns 100% Human.
 
