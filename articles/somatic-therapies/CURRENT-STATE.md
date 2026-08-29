@@ -410,6 +410,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R42 owner-heading recovery candidate returns exactly to R38, preserves the useful section boundary R37 identified, replaces only its generic wrapper with the existing owner sentence `Talking comes after that for me`, removes the duplicate sentence below, and passes every non-detector gate.
 - R42 final headed GUI completed once at Human `78%` / AI `22%`; exact History binding passed, but the owner-heading change caused large Brainspotting/EMDR and Sky/Vagal spillover. R42 is discarded, all further heading work is closed, and its hash is blocked from repetition.
 - R43 readiness-at-EMDR-entry candidate returns exactly to R38, moves the complete readiness paragraph byte-exact to the transition immediately before the existing EMDR heading, leaves delayed-effects evaluation after EMDR, preserves every claim/link/native object, and passes every non-detector gate.
+- R43 final headed GUI completed once at Human `88%` / AI `12%`; exact History binding passed, but readiness remained AI with the preceding caution/citation and the final Human/high EMDR contrast sentence spilled into the late AI cluster. R43 is discarded, this adjacency is closed, and its hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -438,6 +439,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R40 final headed GUI: Mixed; AI `10%`, Human `90%`; exact History report `48deee85-4dbf-4033-a1e9-fa55c8bed7b8`; one completed call, zero retries or duplicates; readiness became Human but downstream Somatic Experiencing/witness spillover caused a net `109`-character regression.
 - R41 final headed GUI: Mixed; AI `22%`, Human `78%`; exact History report `3cb1faf5-6677-4adb-adf0-9ed4e037afc9`; one completed call, zero retries or duplicates; source-recovered Yoga increased displayed AI surface by `1,460` characters and destabilized otherwise exact Human/high Brainspotting/EMDR material.
 - R42 final headed GUI: Mixed; AI `22%`, Human `78%`; exact History report `c74e688f-a87e-4cf5-a541-8da790e32761`; one completed call, zero retries or duplicates; owner-heading recovery increased displayed AI surface by `1,408` characters and created a new Sky/Vagal AI ending.
+- R43 final headed GUI: Mixed; AI `12%`, Human `88%`; exact History report `3ec7eefd-4487-4ee4-891d-e10e8b7ca66a`; one completed call, zero retries or duplicates; the EMDR-entry route increased displayed AI surface by `277` characters and split the Human/high EMDR contrast.
 
 R22's six AI-marked contextual segments are:
 
@@ -549,6 +551,8 @@ R41's one submit action began at `2026-08-29T17:15:49.327Z`; its unique History 
 
 R42's one submit action began at `2026-08-29T17:24:58.634Z`; its unique History record is `https://www.pangram.com/history?history=c74e688f-a87e-4cf5-a541-8da790e32761`. The dashboard completed normally, the plagiarism option remained off, and exact stored-text binding passed. There is no pending or ambiguous R42 submission. Do not repeat SHA `79a36a263674419fa23eff313f05a0e74bcf9bec61acb214b5a51b0e4982946c`.
 
+R43's one submit action began at `2026-08-29T17:38:37.761Z`; its unique History record is `https://www.pangram.com/history?history=3ec7eefd-4487-4ee4-891d-e10e8b7ca66a`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R43 submission. Do not repeat SHA `ebe76bb156cfda7c184518a2823d2f0a31416854e479ec639dce790d0254d03a`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -572,6 +576,7 @@ R42's one submit action began at `2026-08-29T17:24:58.634Z`; its unique History 
 - Exact R40 is below the publication gate at 90% Human, has downstream cross-section spillover, and is complete/blocked from repetition.
 - Exact R41 is below the publication gate at 78% Human, is a large whole-boundary regression, and is complete/blocked from repetition.
 - Exact R42 is below the publication gate at 78% Human, is a large nonlocal regression, and is complete/blocked from repetition.
+- Exact R43 is below the publication gate at 88% Human, has a net 277-character exact-segment regression, and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -588,16 +593,17 @@ R42's one submit action began at `2026-08-29T17:24:58.634Z`; its unique History 
 - Preserve R41's source lesson: factual authority does not imply detector compatibility, and a citation is never itself a humanization technique. Keep institutional source context separate from owner realization.
 - Discard R42 and return exactly to R38. Preserve the exact `Making Sense of What Changed` wrapper; R37 and R42 close deletion, promotion, renaming, and owner-sentence substitution at this boundary.
 - Preserve R42's nonlocal lesson: owner syntax is not context-free detector medicine, and exact whole-boundary accounting outranks a locally natural heading.
-- Run R43 once: test the exact readiness paragraph as an eligibility bridge at the existing Brainspotting/EMDR boundary, leaving the stable heading and every other R38 span exact.
-- Do not spend more local Yoga paraphrase calls, heading calls, reuse the closed R39/R40 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
+- Discard R43 and return exactly to R38. Readiness remained AI with the preceding caution/citation and also pulled the final Human/high EMDR contrast sentence into the late AI cluster.
+- Preserve R43's boundary lesson: an existing heading can create a short Human island without protecting either adjacent span; semantic fit and local Human text do not override the net whole-boundary result.
+- Do not spend more local Yoga paraphrase calls, heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R43 candidate, headed boundary, preservation/coherence proof, and state checkpoint without touching the registered master.
-2. Reserve one decision-changing call after fresh local and authenticated-History duplicate defense.
-3. Submit once through the reusable dashboard, bind exact History text, and compare exact local and downstream boundary movement before any retention decision.
+1. Persist and push the exact R43 result and heading-containment lesson in both repositories without touching the registered master.
+2. Return exactly to R38 and treat all tested readiness destinations, Yoga paraphrases/source recovery, and late heading changes as closed.
+3. Analyze a materially different late-cluster realization or recover a genuinely owner-authored surface before reserving another exact whole call.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -620,5 +626,6 @@ R42's one submit action began at `2026-08-29T17:24:58.634Z`; its unique History 
 - R40 is complete at 90% Human, has a net 109-character exact-segment regression, and is explicitly blocked from repetition.
 - R41 is complete at 78% Human, has a net 1,460-character exact-segment regression, and is explicitly blocked from repetition.
 - R42 is complete at 78% Human, has a net 1,408-character exact-segment regression, and is explicitly blocked from repetition.
+- R43 is complete at 88% Human, has a net 277-character exact-segment regression, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
