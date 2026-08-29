@@ -28,6 +28,28 @@ This pilot does not introduce a new article theory. It composes:
 - IBIS-style question/answer/argument objects;
 - Obsidian JSON Canvas only as a spatial diagnostic view.
 
+## Blind-test architecture
+
+The fresh-reader test is deliberately split into two stages so mechanical retrieval cannot contaminate editorial reasoning.
+
+### Stage 1 — collector
+
+The collector may access GitHub but performs **no editorial analysis**.
+
+`scripts/compile_blind_reader_packet.py` verifies the exact canonical source SHA-256, splits the bytes into contiguous 90-line windows, hashes every window, and writes a deterministic manifest. Concatenating the windows must reproduce the exact canonical source SHA-256.
+
+Use `COLLECTION-PROTOCOL.md` for this stage.
+
+Generated windows are ephemeral and are **not committed to the repository**.
+
+### Stage 2 — Pro reader
+
+The Pro reader must have no GitHub/web access and no access to the complete packet. A human/controller reveals exactly one frozen window at a time. The reader freezes its checkpoint before receiving the next window.
+
+This is stronger than placing the full article in context and merely instructing a model not to look ahead: unrevealed content is actually unavailable.
+
+Use `FRESH-READER-BLIND-PROTOCOL.md` for this stage.
+
 ## Pilot passes
 
 ### A. Promise-first
@@ -82,11 +104,14 @@ The blind-prefix sequence also correctly predicts several next-section moves, in
 - `reader-gap-register.json` — diagnostic source register for questions, controls, and prefix probes.
 - `romance-reader-gap.canvas` — generated Obsidian JSON Canvas view.
 - `EXTERNAL-BENCHMARK.md` — established-work and actual-reader pressure test.
-- `FRESH-READER-BLIND-PROTOCOL.md` — isolated protocol for a genuinely fresh model/account run.
-- `scripts/generate_editorial_gap_canvas.py` — generic deterministic generator at repository root.
-- `tests/test_generate_editorial_gap_canvas.py` — minimal fail-closed regression tests at repository root.
+- `COLLECTION-PROTOCOL.md` — mechanical GitHub/source collection stage.
+- `FRESH-READER-BLIND-PROTOCOL.md` — isolated Pro reader stage; no GitHub or unrevealed windows.
+- `scripts/compile_blind_reader_packet.py` — deterministic source → hashed sequential-window compiler.
+- `tests/test_compile_blind_reader_packet.py` — compiler regressions plus canonical Romance identity/coverage test.
+- `scripts/generate_editorial_gap_canvas.py` — generic diagnostic Canvas generator.
+- `tests/test_generate_editorial_gap_canvas.py` — fail-closed Canvas generator tests.
 
-## Generate / validate
+## Generate / validate Canvas
 
 From repository root:
 
@@ -102,6 +127,20 @@ python scripts/generate_editorial_gap_canvas.py \
 
 Then open the repository root as an Obsidian vault and open `docs/experiments/romance-reader-gap-pilot/romance-reader-gap.canvas`. No Obsidian community plugin is required for the Canvas itself.
 
+## Compile blind reader packet
+
+From repository root:
+
+```bash
+python scripts/compile_blind_reader_packet.py \
+  articles/romance/master.md \
+  --expected-sha256 f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c \
+  --lines-per-window 90 \
+  --out-dir /tmp/romance-blind-reader-packet
+```
+
+Keep the resulting directory/ZIP outside the Pro conversation. Reveal its `window-*.md` files one at a time.
+
 ## Success criteria
 
 Keep/invest further only if the pilot does at least one of the following better than the existing workflow:
@@ -116,6 +155,11 @@ Fail or simplify the architecture if it mostly produces generic “what about X?
 
 ## Next experiment
 
-Do **not** build Bases or a plugin yet. Run `FRESH-READER-BLIND-PROTOCOL.md` in a genuinely fresh reader context/model and freeze its output before exposing the register, Canvas, benchmark, PR body, or prior Romance discussion.
+Do **not** build Bases or a plugin yet.
+
+1. Run the collector stage and freeze the exact packet/receipt.
+2. Run the Pro reader stage in a genuinely fresh reader context, revealing one window at a time.
+3. Freeze the Pro output before exposing the register, Canvas, benchmark, PR body, or prior Romance discussion.
+4. Compare independent surviving questions only after both passes are closed.
 
 The important measurement is not agreement between models. It is whether independently generated high-value questions survive full-text coverage checking and improve editorial judgment.
