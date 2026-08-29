@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R31 completed at a new best 89% Human; recover only its 823-character late region next
+### R32 registered readiness source recovery is preflight-clean and ready for one exact call
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -214,6 +214,22 @@ Result artifact: `experiments/R31-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R31 is the new best completed whole boundary, improving from R29 Human `85%` to Human `89%`. The exact early regions reproduce. The registered citation realization expands the Human middle by 519 characters through the complete Human/high R21 EMDR contrast. The late AI region shrinks from 1,334 to 823 characters and now begins at the conditional flooding/timing paragraph. Freeze the R31 citation and three Human regions, leave the complete early Yoga/TRE region untouched next, and change only the 823-character late region through direct registered/owner-source recovery.
 
+R32 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R32-REGISTERED-READINESS-SOURCE-RECOVERY-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `46ff2afa4fe75a423adac604dc6189185c08a144aac6052a332978152e7755d3`;
+- exact headed boundary: `experiments/R32-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `310943f17192702bcdae5f23c49263f43e5e857cab09d1199ad481743438c045`;
+- size: 2,098 whitespace words / 11,916 UTF-8 bytes / 11,868 Unicode characters / terminal newline;
+- preflight: `experiments/R32-REGISTERED-READINESS-SOURCE-RECOVERY-PRESERVATION-AND-PREFLIGHT-20260829.md`, SHA-256 `f3879b89fc6cd0e89e578f1ca1f5c21da21a1a005ed2296b65088a34307122d5`;
+- all three R31 Human regions, the successful registered citation, the complete early Yoga/TRE region, and all three R21 Human/high cores remain exact;
+- only the timing middle at the start of the 823-character late region changes: R31's compact rough-guess sentence is replaced by exact registered capacity/orientation wording between exact flooding and Nurturer/Protector sentences;
+- conditional flooding, 3–6 month rough range, severe-trauma extension, orientation-not-countdown, and Nurturer/Protector readiness all remain explicit;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, exact R31 URL multiset and order;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R32 recovers one natural readiness function owner and leaves aftercare, Light CBT, borrowed adulthood, every Human span, and the complete early region fixed. It is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -238,6 +254,7 @@ R31 is the new best completed whole boundary, improving from R29 Human `85%` to 
 - R30 final headed GUI completed once at Human `84%` / AI `16%`; exact History binding passed and the hash is blocked from repetition.
 - R31 registered citation source-recovery candidate preserves all three R29 Human regions, the complete early Yoga/TRE region, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 - R31 final headed GUI completed once at a new best Human `89%` / AI `11%`; exact History binding passed and the hash is blocked from repetition.
+- R32 registered readiness source-recovery candidate preserves all three R31 Human regions, the successful registered citation, the complete early Yoga/TRE region, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -356,21 +373,22 @@ R31 completed from one click beginning at `2026-08-29T15:29:59.001Z`; its unique
 - Exact R29 is below the publication gate at 85% Human and is complete/blocked from repetition.
 - Exact R30 is below the publication gate at 84% Human and is complete/blocked from repetition.
 - Exact R31 is below the publication gate at 89% Human and is complete/blocked from repetition.
+- Exact R32 is preflight-clean but not yet submitted.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Build the next candidate from exact R31, preserve its three Human regions, registered citation, complete early Yoga/TRE region, and all R21 cores, and change only the 823-character late region.
-- Recover one natural late function owner from registered/owner source with minimum normalization; do not combine unrelated late rewrites in one call.
+- Submit exact R32 once after durable reservation and bind its unique History result.
+- If R32 is below 100% Human, use its localization to decide whether to retain the registered readiness wording before the next single-region repair.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R31 result in both repositories.
-2. Build the next candidate from exact R31 and recover one natural owner/source unit inside its 823-character late AI region.
-3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
+1. Commit and push the preflight-clean R32 artifacts.
+2. Reserve one decision-changing R32 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
+3. Continue from the better contextual surface without repeating any completed hash.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
