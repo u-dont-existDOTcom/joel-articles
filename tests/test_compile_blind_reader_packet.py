@@ -7,6 +7,9 @@ from pathlib import Path
 from scripts.compile_blind_reader_packet import compile_packet
 
 
+ROMANCE_SHA256 = "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c"
+
+
 class BlindReaderPacketCompilerTests(unittest.TestCase):
     def test_exact_contiguous_windows_reconstruct_source(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -88,10 +91,32 @@ class BlindReaderPacketCompilerTests(unittest.TestCase):
             compile_packet(source, out_a, expected_sha256=expected, lines_per_window=2)
             compile_packet(source, out_b, expected_sha256=expected, lines_per_window=2)
 
-            # Paths differ, so normalize only the source path field before comparison.
             a = json.loads((out_a / "manifest.json").read_text(encoding="utf-8"))
             b = json.loads((out_b / "manifest.json").read_text(encoding="utf-8"))
             self.assertEqual(a, b)
+
+    def test_canonical_romance_compiles_with_expected_identity(self):
+        repo_root = Path(__file__).resolve().parents[1]
+        source = repo_root / "articles" / "romance" / "master.md"
+        self.assertTrue(source.is_file())
+        self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), ROMANCE_SHA256)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "romance-packet"
+            manifest = compile_packet(
+                source,
+                out,
+                expected_sha256=ROMANCE_SHA256,
+                lines_per_window=90,
+            )
+            self.assertGreater(manifest["windowing"]["window_count"], 1)
+            self.assertEqual(
+                manifest["windowing"]["reconstructed_sha256"], ROMANCE_SHA256
+            )
+            windows = manifest["windows"]
+            self.assertEqual(windows[0]["start_line"], 1)
+            for previous, current in zip(windows, windows[1:]):
+                self.assertEqual(current["start_line"], previous["end_line"] + 1)
 
 
 if __name__ == "__main__":
