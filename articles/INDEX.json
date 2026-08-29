@@ -33,12 +33,12 @@
         "owner_locks": {"path": "articles/somatic-therapies/OWNER-LOCKS.json", "sha256": "4bfaf1ec291006b79396542075963fb76f6a1925f597cf419151070fbc2c8054"},
         "source_evidence": {"path": "articles/somatic-therapies/SOURCE-EVIDENCE.json", "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"},
         "unincorporated_ideas": {"path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md", "sha256": "df7ac269b6b7064d05cd6b638946b29b18bb1b768262f12f622dcb8fe5681a7c"},
-        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "c1944e682c6572b6d14e9bb1546699a6f17cbb25031001b8ccc3a26883c3e4a6"}
+        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "fb7e7e5e9cb6b0225d1060be520664dcad61103c3cca5c3a659fe0363e33a5ee"}
       },
       "review": {
         "citations": {"path": "articles/somatic-therapies/CITATIONS.json", "sha256": "ade24edacc6bebda6145441b766e52de8a2125b4a40eee10b51354296afa1477", "status": "pending"},
         "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "01e992b9ee2b853c2f6b54c39ddf04939406ea6a59bcf817563f3d95ffe6a295", "status": "recorded"},
-        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "17743369046c2f23a40e12b040b486b23989da6be1d12007965ed0cae1d28354", "status": "pending"}
+        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "ab716b1ccd2531b7cea22e95f7a0dddb0dda3b2935843d69e32b83bb6a922bac", "status": "pending"}
       },
       "publication_exports": [],
       "additional_artifacts": [
@@ -215,7 +215,10 @@
         {"path": "articles/somatic-therapies/experiments/R24-MINIMUM-CLOSURE-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "ab0d982893e421598061e688bbcd1327c295f848f60cd2d193e736af513cb4c4", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R24-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R24-MINIMUM-CLOSURE-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "5c20f103b214edda2606bf593d1c767b664f05a42fec46ce594a7628219881a4", "role": "preservation_and_preflight"},
-        {"path": "articles/somatic-therapies/experiments/R24-FINAL-GUI-RESULT-20260829.md", "sha256": "64b80da55a0b991237232ebbad796c79dce32b8f354c3cefaef24b6d67b7a502", "role": "detector_experiment_result"}
+        {"path": "articles/somatic-therapies/experiments/R24-FINAL-GUI-RESULT-20260829.md", "sha256": "64b80da55a0b991237232ebbad796c79dce32b8f354c3cefaef24b6d67b7a502", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R25-ROUTED-BOUNDARY-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "c178992ad1b7b5e8350c04298b34b6c78ef2ad6fd1bb41a3a9dc53fcb0688539", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R25-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "4ebcdd0f0d4d17036327ef6268bcb4ecf0f92e013ae0ffc13a3f242a4872644d", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R25-ROUTED-BOUNDARY-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "32496a70afa34d307b9e777ec1b07fd0efc81dc2a35ad0654e7769836f7b8c9f", "role": "preservation_and_preflight"}
       ]
     }
   ]

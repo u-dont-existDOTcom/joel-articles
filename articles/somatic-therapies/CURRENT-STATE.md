@@ -15,14 +15,14 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R24 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R25 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R24 exact whole GUI result is complete at 72% Human; publication remains blocked
+### R25 routed-boundary candidate is preflight-clean and ready for one exact whole GUI call
 
-Source checkpoint: `u-dont-existDOTcom/joel-articles@3e4613b` on the active branch.
+Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
 R23 implements the article-level contextual repair:
 
@@ -65,6 +65,22 @@ Result artifact: `experiments/R24-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R24 improves over R23 (Human `66%` → `72%`) but still fails the mandatory 100%-Human publication gate. Its four AI-marked regions are the stable 182-character Protector/self-hypnosis tail, the stable 248-character witness region, the reduced 425-character Yoga/TRE safety region, and a 2,554-character late run from the end of the lived outcome story through EMDR, borrowed adulthood, and Sky/Vagal safety. No completed whole hash may be repeated.
 
+R25 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R25-ROUTED-BOUNDARY-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `c178992ad1b7b5e8350c04298b34b6c78ef2ad6fd1bb41a3a9dc53fcb0688539`;
+- exact headed boundary: `experiments/R25-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `4ebcdd0f0d4d17036327ef6268bcb4ecf0f92e013ae0ffc13a3f242a4872644d`;
+- size: 2,154 whitespace words / 12,229 UTF-8 bytes / 12,181 Unicode characters / terminal newline;
+- preflight: `experiments/R25-ROUTED-BOUNDARY-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- all three complete R21 Human/high modality inputs remain exact reader-visible substrings;
+- the opening, heart loop, Somatic Experiencing/Yoga opening, between-session owner spine, and complete lived outcome story remain exact reader-visible blocks;
+- the lived outcome story is moved as one unchanged unit after Light CBT to recreate the R22 Human owner boundary before Sky/Vagal without changing native-object order;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, 13 unique, exact R24 URL multiset;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R25 introduces new wording only in the four R24 AI-marked regions. It uses owner-source functions for Protector/self-hypnosis and witness, further reduces Yoga/TRE while retaining all safety functions, keeps the exact EMDR core, and inserts the unchanged lived owner story between the late technical run and Sky/Vagal. The exact hash is eligible for one paid headed GUI measurement after durable reservation and exact live-field equality.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -76,6 +92,7 @@ R24 improves over R23 (Human `66%` → `72%`) but still fails the mandatory 100%
 - R23 contextual repair passed all non-detector preflight gates; its final headed GUI completed once at Human `66%` / AI `34%`, exact History binding passed, and the hash is blocked from repetition.
 - R24 minimum-closure candidate preserves the five R23 Human segments and passes every non-detector eligibility gate for one new exact whole call.
 - R24 final headed GUI completed once at Human `72%` / AI `28%`; exact History binding passed and the hash is blocked from repetition.
+- R25 routed-boundary candidate passes preservation, architecture, safety/evidence, link, native-object, and exact-boundary preflight for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -141,12 +158,11 @@ Production lesson: recover spontaneous owner syntax, preserve its uneven thought
 
 The durable experiment and result artifacts are registered in `articles/INDEX.json`. The decisive current files are the R20 result, R21 result, R22 candidate, R22 exact boundary, and R22 preflight named above.
 
-## Known Human material protected after R23
+## Known Human material protected after R24
 
 - owner-preferred Introduction;
 - owner-reported Human/medium physical-state surface and Human/high personal core;
-- exact R08 adult/child-trust paragraph;
-- exact M01 Nurturer/Protector/action/self-hypnosis boundary, reader-visible SHA `1aa888df956a77c3bb27a5924c1c9d4aab4d02eeab53b1fd18634f2fc724aed9`;
+- exact R08 adult/child-trust paragraph and the Human opening through Nurturer/Protector naming; R25 re-realizes only the repeatedly AI-marked action/self-hypnosis tail;
 - exact owner heart-to-solar-plexus loop;
 - exact R21 Brainspotting, EMDR, and Shaking sections;
 - Human/high housemate/self-Brainspotting immediate-restimulation outcome span;
@@ -156,33 +172,36 @@ The durable experiment and result artifacts are registered in `articles/INDEX.js
 
 Joel's Brave/Pangram Professional session completed the exact R24 check at `2026-08-29T11:36:43.426Z`. The result is present in History at `https://www.pangram.com/history?history=a9aab5ac-eb3c-4839-a8b1-39b43c889c7c`. Fresh confirmation was obtained immediately before transmission. The plagiarism option remained off. There is no pending or ambiguous R24 submission. Do not repeat SHA `5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b`.
 
+Joel subsequently confirmed R24 and explicitly instructed the worker to stop interrupting for routine confirmations. Treat that as standing direction to continue ordinary detector and repository steps autonomously; stop only for a genuine hard boundary. R25 has not yet been submitted at this checkpoint.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
 - Exact R23 is below the publication gate at 66% Human and is complete/blocked from repetition.
 - Exact R24 is below the publication gate at 72% Human and is complete/blocked from repetition.
+- Exact R25 is preflight-clean but not yet measured.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Persist and push the exact R24 result and History binding in both repositories.
-- Build a new candidate that preserves the four R24 Human segments, changes only the four localized start/end regions, and uses source/destination changes rather than another phrase-level paraphrase.
-- Run every non-detector gate, then reserve and submit only a new exact headed hash whose result will change the editorial decision.
+- Persist and push the exact R25 candidate, boundary, and preflight.
+- Create one durable lab reservation for exact SHA `4ebcdd0f0d4d17036327ef6268bcb4ecf0f92e013ae0ffc13a3f242a4872644d` after fresh duplicate/history defense.
+- Submit the exact R25 headed boundary once, bind the result to History, and persist it in both repositories before another call.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push R24's exact result.
-2. Create the next candidate by preserving the four R24 Human spans, moving or re-realizing the stable Protector/self-hypnosis and witness functions, further minimizing Yoga/TRE without losing safety, and inserting an existing Human owner boundary inside the late run.
-3. Run all non-detector gates, freeze a new exact headed boundary, and create one durable reservation.
-4. Submit the new hash once, bind it to History, and persist the result before any further call.
+1. Validate and push the exact R25 candidate, boundary, preflight, and state checkpoint.
+2. Confirm no completed or pending measurement exists for the R25 hash, then create one durable reservation.
+3. Submit R25 once, bind it to Pangram History, and persist the result before any further call.
+4. If R25 is not 100% Human, preserve newly Human spans and make only decision-relevant contextual repairs.
 5. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
 - Do not overwrite or promote the registered master with an experiment.
 - Do not alter owner locks or owner-final prose.
-- Do not repeat R22, R23, or R24 after a completed or ambiguous submission.
+- Do not repeat R22, R23, R24, or any completed/ambiguous R25 submission.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
