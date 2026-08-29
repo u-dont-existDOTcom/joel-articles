@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R53 routes only borrowed adulthood to the between-session owner
+### R53 regressed to 92% Human; between-session borrowed adulthood is closed
 
 R53 returns exactly to the successful R52 production baseline and moves only the complete borrowed-adulthood heading plus two exact sentences from the sensitive post-restimulation boundary to a distinct child section under `What I Use Between Deeper Sessions`, between EFT and Shaking Qigong. This is a natural external-support practice between deeper sessions, stays far from the closed witness boundary, and leaves R52's successful no-stacking and cognitive-integration routes byte-exact.
 
@@ -28,10 +28,11 @@ R53 returns exactly to the successful R52 production baseline and moves only the
 - exact headed boundary: `experiments/R53-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `82746ed2be43d891a9e7068f61707933177f2ad68a28c309cf7bdc47b9e9936f`;
 - size: 2,076 whitespace words / 11,774 UTF-8 bytes / 11,726 Unicode characters / terminal newline;
 - preflight: `experiments/R53-BORROWED-ADULTHOOD-TO-BETWEEN-SESSIONS-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- exact result: `experiments/R53-FINAL-GUI-RESULT-20260829.md`;
 - production completeness, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
 - registered article authority impact: none.
 
-R53 is eligible for one exact whole headed call. It changes no R52 prose and only the localized failed function's destination.
+R53's single submit action returned an ambiguous browser-control timeout but was not retried. The accepted dashboard and unique exact-bound History record resolve the call at Human `92%` / AI `8%`. Borrowed adulthood remains AI, and the move creates a new 737-character AI run across witness, Somatic Experiencing, Yoga, and EFT. Total displayed AI grows from R52's 572 to 918. Discard R53, retain R52, and close the between-session destination.
 
 ### R52 is the new best production-complete baseline at 95% Human
 
@@ -678,6 +679,8 @@ R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History 
 
 R52's one submit action began at `2026-08-29T19:01:18.342Z`; its unique History record is `https://www.pangram.com/history?history=563dca71-25b1-4a7d-aabd-1deacb9ad069`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R52 submission. Do not repeat SHA `5e216229ea6d4d5a7febcd5906c3ca487f0a03a20e4f6bbd74849f8961470840`.
 
+R53's one submit action began at `2026-08-29T19:08:50.031Z` and returned an ambiguous browser-control timeout. No retry occurred. The completed dashboard plus unique History record `https://www.pangram.com/history?history=dda3cf71-4608-4223-86cb-3b0bb1dee102` and exact two-page stored-text binding prove acceptance. There is no pending or ambiguous R53 submission. Do not repeat SHA `82746ed2be43d891a9e7068f61707933177f2ad68a28c309cf7bdc47b9e9936f`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -711,7 +714,7 @@ R52's one submit action began at `2026-08-29T19:01:18.342Z`; its unique History 
 - Exact R50 is complete at 96% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Exact R51 is complete at 97% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Exact R52 is complete at 95% Human, is the best production-complete baseline, and is blocked from repetition.
-- Exact R53 is frozen as a production-complete candidate and is awaiting its sole authorized call.
+- Exact R53 is complete at 92% Human, has a net 346-character regression from R52, and is blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -744,15 +747,16 @@ R52's one submit action began at `2026-08-29T19:01:18.342Z`; its unique History 
 - Preserve R50's decomposition lesson: the integration cluster accounts for 183 characters of R48's residual, but the exact no-stacking plus next-day aftercare pair remains an independent 203-character AI span. Freeze the Human immediate aftercare sentence and do not delete protected integration claims.
 - Preserve R51's aftercare lesson: exact delayed checks are Human when no-stacking is absent, so delayed checks are not sufficient for the residual and no-stacking is necessary for the combined interaction. Keep delayed effects under EMDR; restore no-stacking through distributed safety architecture; do not subdivide phrases or symptoms.
 - Preserve R52's production lesson: the routed no-stacking safety claim and cognitive-integration section remain Human in whole context. Borrowed adulthood at the post-restimulation destination alone forms a new 280-character AI span with restimulation. Retain the two successful routes and change only borrowed adulthood's destination.
+- Preserve R53's routing lesson: the between-session destination leaves borrowed adulthood AI and destabilizes 737 characters of earlier witness/Somatic Experiencing/Yoga/EFT material. Close that destination despite its local semantic fit; exact whole-boundary spillover controls.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the exact R53 production preflight without touching the registered master.
-2. Reserve and run R53 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
-3. Retain only if exact segment accounting clears the borrowed/restimulation region without destabilizing the between-session Human span.
+1. Persist and push the exact R53 result, ambiguity resolution, and routing failure in both repositories without touching the registered master.
+2. Return exactly to R52. Preserve its successful no-stacking and cognitive-integration routes and its complete claim set.
+3. Recover or re-realize only borrowed adulthood at a materially different natural boundary; do not use the closed witness, compact Light-CBT, post-restimulation, or between-session destinations, and do not reopen Yoga-local variants.
 4. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -785,6 +789,6 @@ R52's one submit action began at `2026-08-29T19:01:18.342Z`; its unique History 
 - R50 is complete at 96% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - R51 is complete at 97% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - R52 is complete at 95% Human, is the best production-complete baseline, and is explicitly blocked from repetition.
-- R53 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
+- R53 is complete at 92% Human, has a net 346-character regression from R52, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
