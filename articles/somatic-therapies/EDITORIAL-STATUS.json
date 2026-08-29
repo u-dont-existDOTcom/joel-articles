@@ -11,12 +11,12 @@
     {
       "id": "humanization-architecture",
       "status": "passed",
-      "evidence": "R36 remains the best completed production baseline at 89% Human and a 409-character early AI region. R37's generic-wrapper removal regressed exact late localization and is discarded; the next repair must route a protected function while preserving R36 headings and Human spans."
+      "evidence": "R36 remains the best completed production baseline at 89% Human and a 409-character early AI region. R37's generic-wrapper removal regressed and is discarded. R38 routes the unchanged TRE safety paragraph to the owner-authored TRE/Shaking discussion while preserving every R36 sentence and protected function."
     },
     {
       "id": "fidelity",
       "status": "passed",
-      "evidence": "R37 forward/reverse traceability passed with zero unexplained substantive deltas, but its detector-worse wrapper removal is discarded. Exact R36 remains the production baseline with 16/16 ordinary links, 8/8 native/editor objects, every substantive R31 sentence, registered citation, and all three R21 Human/high cores protected."
+      "evidence": "R38 forward/reverse traceability passed with zero unexplained substantive deltas. Every R36 word and sentence remains exact once; all 16 ordinary links and all 8 native/editor objects remain, the complete late region is byte-exact, and the TRE safety unit stays adjacent to an explicit TRE practice owner."
     },
     {
       "id": "owner-final-review",
@@ -26,7 +26,7 @@
     {
       "id": "detector",
       "status": "blocked",
-      "evidence": "Exact R37 final headed GUI result is Mixed at AI 11% / Human 89%, with exact History binding to report 431ce5e2-620c-4725-a6c8-eec929816a96. Its late boundary regressed and is discarded. Publication remains blocked unless an exact headed whole boundary reaches 100% Human."
+      "evidence": "Exact R37 final headed GUI result is Mixed at AI 11% / Human 89% and is discarded after exact late-boundary regression. Exact R38 is preflight-complete and awaits one reserved headed whole call; publication remains blocked unless an exact headed whole boundary reaches 100% Human."
     },
     {
       "id": "citation-review",

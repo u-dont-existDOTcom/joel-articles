@@ -343,6 +343,20 @@ Result artifact: `experiments/R37-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R37 ties R36 only after percentage rounding and regresses exact localization: the Human middle contracts from 3,711 to 3,615 characters, while the late AI run expands from 823 to 890 characters backward into the previously Human EMDR contrast. Discard R37, retain exact R36, and keep the generic wrapper as a useful contextual boundary.
 
+R38 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R38-TRE-SAFETY-TO-OWNER-ROUTING-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `e0513087fe06f138f94474d30928068ff0c01806d5a0572f71b9ce85628ad3c2`;
+- exact headed boundary: `experiments/R38-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `873baa1399c9b8064dd8964779b39b53108d8b90f16ac603e65443921a4cc86d`;
+- size: 2,082 whitespace words / 11,808 UTF-8 bytes / 11,760 Unicode characters / terminal newline;
+- preflight: `experiments/R38-TRE-SAFETY-TO-OWNER-ROUTING-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- exact intervention: move the unchanged TRE dose/stop/head-support/neck-safety paragraph from the early Yoga/TRE cluster to immediately after the owner-authored Shaking stop-and-settle rule;
+- every R36 word and sentence remains exact once; complete R36 late region and Human ending remain byte-exact;
+- all protected safety functions remain adjacent to an explicit TRE practice owner;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- article authority impact: none.
+
+R38 is the first post-R36 function-routing test and uses R19's evidence that the neck warning itself can occupy a Human/high trailing window.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
