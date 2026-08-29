@@ -33,12 +33,12 @@
         "owner_locks": {"path": "articles/somatic-therapies/OWNER-LOCKS.json", "sha256": "4bfaf1ec291006b79396542075963fb76f6a1925f597cf419151070fbc2c8054"},
         "source_evidence": {"path": "articles/somatic-therapies/SOURCE-EVIDENCE.json", "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"},
         "unincorporated_ideas": {"path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md", "sha256": "df7ac269b6b7064d05cd6b638946b29b18bb1b768262f12f622dcb8fe5681a7c"},
-        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "79dd4088a71b2a125ac973643ebe8fb404e764701ae4bb04b4be888fba8ad488"}
+        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "6b5cf4de4a3491a13479556732a8b960dc15e21d40635bca5fb172f642bac83c"}
       },
       "review": {
         "citations": {"path": "articles/somatic-therapies/CITATIONS.json", "sha256": "ade24edacc6bebda6145441b766e52de8a2125b4a40eee10b51354296afa1477", "status": "pending"},
         "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "a0f25236f49d393a14e3b76513b00c15f1b43739f9daf9ecd78c0f520bc29e68", "status": "recorded"},
-        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "66cff9eb28971f70c78d34035b9da4a0fa521a8bbc8cf854d71ef52b8c9446f4", "status": "pending"}
+        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "d2307afd3900a14413793c3df278e2655d150817b57ce664bb5dbd6361236a8b", "status": "pending"}
       },
       "publication_exports": [],
       "additional_artifacts": [
@@ -240,7 +240,10 @@
         {"path": "articles/somatic-therapies/experiments/R30-AFTER-EMDR-STRUCTURAL-SPLIT-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "aa1169427b4a8797aebdc2da09f08364b9db574ae3a8895d218b753d8fac08b7", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R30-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "137b2990cff2c44812db5c9432f1c4e03bb1a3edf0486d43eb82aa14e36c629f", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R30-AFTER-EMDR-STRUCTURAL-SPLIT-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "dc61a7850a0c84255b7d40303734d7614ac8014a972b8313d552766fea405a17", "role": "preservation_and_preflight"},
-        {"path": "articles/somatic-therapies/experiments/R30-FINAL-GUI-RESULT-20260829.md", "sha256": "856606bd60640d8d98b05b783a2b88142aaa508900a9f3010e634ef109341069", "role": "detector_experiment_result"}
+        {"path": "articles/somatic-therapies/experiments/R30-FINAL-GUI-RESULT-20260829.md", "sha256": "856606bd60640d8d98b05b783a2b88142aaa508900a9f3010e634ef109341069", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R31-REGISTERED-CITATION-SOURCE-RECOVERY-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "77942957baff18734f9a817769f6939d07c6c6e8803e4b65e5f05526c2c76dc2", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R31-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "849c1917b149b7e5c0573e845cf054e672324e4a835a7de3c047426df3385c50", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R31-REGISTERED-CITATION-SOURCE-RECOVERY-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "83614bd68dc4c97dc029d9285a88128c305c8c98bb79ed30a19b154ab8c3b270", "role": "preservation_and_preflight"}
       ]
     }
   ]
