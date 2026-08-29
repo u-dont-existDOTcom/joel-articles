@@ -15,12 +15,12 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R33 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R34 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R33 regressed to 77% Human; discard it and return to exact R31
+### R34 routed owner-source borrowed adulthood is preflight-clean and ready for one exact call
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -258,6 +258,22 @@ Result artifact: `experiments/R33-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R33 regresses from R31 Human `89%` to Human `77%`. Its exact opening, early AI region, and Human ending reproduce, but the Human middle contracts from 3,711 to 2,619 characters and the late AI run expands from 823 to 2,273 characters, moving backward into the protected Brainspotting core. Discard the complete registered-aftercare intervention and return to exact R31.
 
+R34 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R34-OWNER-SOURCE-BORROWED-ADULTHOOD-RECOVERY-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `d9a4350a8a7bf2e8a7d7110b7c4d72eb28c74f478f1800afa16e3d46cae9c919`;
+- exact headed boundary: `experiments/R34-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `3019c028fbc94805164b97c51eac21d73354dba05a60616b7c2f34c5caee199a`;
+- size: 2,083 whitespace words / 11,833 UTF-8 bytes / 11,785 Unicode characters / terminal newline;
+- preflight: `experiments/R34-OWNER-SOURCE-BORROWED-ADULTHOOD-RECOVERY-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- all three R31 Human regions, the successful registered citation, exact R31 readiness and aftercare, the complete early Yoga/TRE region, and all three R21 Human/high cores remain exact;
+- only the borrowed-adulthood realization at the end of R31's 823-character late region changes: the exact Light CBT lead remains, and two exact owner-controlled source sentences occupy their own natural paragraph;
+- the function stays routed under Light CBT, far from witness and the known-Human adult-trust boundary, in accordance with the completed R11 architecture rule;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, exact R31 URL multiset and order;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R34 tests source realization at the proper routed destination after readiness and aftercare source recovery failed. It is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -286,6 +302,7 @@ R33 regresses from R31 Human `89%` to Human `77%`. Its exact opening, early AI r
 - R32 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, the readiness intervention produced no improvement, and the hash is blocked from repetition.
 - R33 registered aftercare source-recovery candidate preserves all three R31 Human regions, the successful registered citation, exact readiness and Light CBT/borrowed adulthood, the complete early Yoga/TRE region, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 - R33 final headed GUI completed once at Human `77%` / AI `23%`; the dispatch timeout was resolved without retry through dashboard and unique History evidence, exact History binding passed, and the hash is blocked from repetition.
+- R34 owner-source borrowed-adulthood candidate preserves all three R31 Human regions, successful registered citation, exact readiness and aftercare, complete early Yoga/TRE region, and all R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -412,21 +429,22 @@ R33's one submit action began at `2026-08-29T15:51:11.283Z`; its unique History 
 - Exact R31 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R32 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R33 is below the publication gate at 77% Human and is complete/blocked from repetition.
+- Exact R34 is preflight-clean but not yet submitted.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Return to exact R31 and discard the complete R33 registered-aftercare intervention.
-- Change only one other independent late function or the separate early Yoga/TRE region; keep R31 readiness, aftercare, registered citation, all Human spans, and the Human ending fixed.
+- Submit exact R34 once after durable reservation and bind its unique History result.
+- If R34 is below 100% Human, use its localization to decide whether to retain the routed owner-source borrowed-adulthood realization before changing the separate early Yoga/TRE region.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R33 result in both repositories.
-2. Recover or reroute one remaining independent R31 function without changing the protected Human spans or repeating failed R32/R33 interventions.
-3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
+1. Commit and push the preflight-clean R34 artifacts.
+2. Reserve one decision-changing R34 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
+3. Continue from the better contextual surface without repeating any completed hash.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
