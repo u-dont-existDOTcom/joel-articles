@@ -300,7 +300,10 @@
         {"path": "articles/somatic-therapies/experiments/R45-LATE-THOUGHT-DEVELOPMENT-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "7976a4b537451a778d311ae796e5f2cc11289fec2591a9b8f2c6a0063bcf22c9", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R45-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "25d17226967b3d097919c6ba280141fc25295abc78dd030eb80f599e47a6c9ed", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R45-LATE-THOUGHT-DEVELOPMENT-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "306f4d44d911bdc4ec09a0243e59f3ebdf2d70501052de251d239dd25075c065", "role": "preservation_and_preflight"},
-        {"path": "articles/somatic-therapies/experiments/R45-FINAL-GUI-RESULT-20260829.md", "sha256": "5225f5b335e1cf277fc481eb9744665e6d7899f28715f2b5a4f362d1c755e25f", "role": "detector_experiment_result"}
+        {"path": "articles/somatic-therapies/experiments/R45-FINAL-GUI-RESULT-20260829.md", "sha256": "5225f5b335e1cf277fc481eb9744665e6d7899f28715f2b5a4f362d1c755e25f", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R46-LIGHT-CBT-LEAD-CONTROLLED-INTERVENTION-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "21361a2eb96beac53a5314d581c5d6dbab2a094c94cbcaa037fee418dc6be0ad", "role": "humanization_candidate"},
+        {"path": "articles/somatic-therapies/experiments/R46-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "4821644f2201c503532f0fd8e141c9107957fc1b600947d0e89a2da706334b45", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R46-LIGHT-CBT-LEAD-CONTROLLED-INTERVENTION-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "c5220c4233386f06306b7463d895428f850df96181da4ebb34d9fd6d7f4d5ab8", "role": "preservation_and_preflight"}
       ]
     }
   ]

@@ -15,12 +15,25 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R35 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R46 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R35 reproduced exact R31 at 89% Human; paragraph-only Yoga/TRE repair is closed
+### R46 prepared from exact R38; only the Light-CBT cognitive lead changes
+
+R46 returns exactly to the best R38 whole boundary and changes only the first two sentences under `Light CBT / Narrative Integration / Borrowed Adulthood`. The R38 borrowed-adulthood wording, all measured-Human spans, readiness, aftercare, Yoga paragraph, headings, links, and native objects remain exact. The intervention reuses the already claim-audited R45 cognitive lead but does not reuse R45's broad late rewrite.
+
+- candidate: `experiments/R46-LIGHT-CBT-LEAD-CONTROLLED-INTERVENTION-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `21361a2eb96beac53a5314d581c5d6dbab2a094c94cbcaa037fee418dc6be0ad`;
+- exact headed boundary: `experiments/R46-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `4821644f2201c503532f0fd8e141c9107957fc1b600947d0e89a2da706334b45`;
+- size: 2,089 whitespace words / 11,821 UTF-8 bytes / 11,773 Unicode characters / terminal newline;
+- preflight: `experiments/R46-LIGHT-CBT-LEAD-CONTROLLED-INTERVENTION-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
+- ordinary links: 16/16, exact R38 URL multiset and order;
+- native objects: seven inline placeholders in exact identity/order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- registered article authority impact: none.
+
+Retention requires strict exact-segment improvement over R38 without new AI spillover into any R38 Human span. If neutral or worse, discard R46 and close cognitive-lead re-realization in this boundary rather than generating another synonym-level variant.
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
