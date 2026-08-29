@@ -15,12 +15,12 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R28 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R29 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
 
-### R28 completed at 79% Human; return to the protected R26 spine
+### R29 early structural split is preflight-clean and ready for one exact call
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -150,6 +150,21 @@ Result artifact: `experiments/R28-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R28 improves over R27 but regresses from R26. The exact R26 opening and Yoga/TRE AI tail reproduce; the late structural move expands the late AI boundary from 1,442 to 2,007 characters. Do not iterate on R28's arrangement. Return to R26 and change only one AI region at a time.
 
+R29 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R29-EARLY-STRUCTURAL-SPLIT-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `f62a4e3aad1107b9de330788b6af2b9466814412d28c86739e9335a50bd1e463`;
+- exact headed boundary: `experiments/R29-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `9a02a5bebacade087b21859fef4c08c488ebcb12364c2b43658f567c75793b7f`;
+- size: 2,084 whitespace words / 11,820 UTF-8 bytes / 11,774 Unicode characters / terminal newline;
+- preflight: `experiments/R29-EARLY-STRUCTURAL-SPLIT-PRESERVATION-AND-PREFLIGHT-20260829.md`, SHA-256 `d73bd25e9d3a9ca1b32f4b9ed4c385d6d5a67c5dfb27c318f19b4d01ecb1862c`;
+- every substantive R26 sentence, all three R26 Human segments, both R26 AI prose regions, and all three R21 Human/high cores remain exact;
+- the only reader-visible change is the registered `Gentle Shaking / TRE` section heading immediately before the exact R26 TRE paragraph;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, exact R26 URL multiset and order;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R29 isolates the early structural boundary while leaving the complete late R26 region untouched. Removing the inserted heading and its paragraph break reproduces the exact R26 boundary byte-for-byte. The hash is eligible for one paid headed GUI measurement after durable reservation, fresh History duplicate defense, and exact live-field equality.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -169,6 +184,7 @@ R28 improves over R27 but regresses from R26. The exact R26 opening and Yoga/TRE
 - R27 final headed GUI completed once at Human `77%` / AI `23%`; exact History binding passed and the hash is blocked from repetition.
 - R28 late structural-unstacking candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes.
 - R28 final headed GUI completed once at Human `79%` / AI `21%`; exact History binding passed and the hash is blocked from repetition.
+- R29 early structural-split candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 
 ## Decisive detector evidence
 
@@ -274,21 +290,22 @@ R28 completed at `2026-08-29T13:02:44.458Z`; its unique History record is `https
 - Exact R26 is below the publication gate at 84% Human and is complete/blocked from repetition.
 - Exact R27 is below the publication gate at 77% Human and is complete/blocked from repetition.
 - Exact R28 is below the publication gate at 79% Human and is complete/blocked from repetition.
+- Exact R29 is preflight-clean but not yet submitted.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Build the next candidate from exact R26, preserve all three R26 Human regions, and change only one of its two AI regions.
+- Submit exact R29 once after durable reservation and bind its unique History result.
+- If R29 is below 100% Human, use its localization to decide whether to keep the registered early section boundary or revert it before the next single-region repair.
 - Do not reuse R27's broad first-person rewrite or R28's late structural arrangement.
-- If R28 is below 100% Human, use its contextual localization to choose the next single-region intervention from the protected R26 spine.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the recovered exact R28 result in both repositories.
-2. Build the next candidate from exact R26, changing only one AI region while freezing all three Human regions.
-3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
+1. Commit and push the preflight-clean R29 artifacts.
+2. Reserve one decision-changing R29 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
+3. Continue from the better contextual surface without repeating any completed hash.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
