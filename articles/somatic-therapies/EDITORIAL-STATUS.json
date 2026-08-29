@@ -26,7 +26,7 @@
     {
       "id": "detector",
       "status": "blocked",
-      "evidence": "Exact R26 final headed GUI result is Mixed at AI 16% / Human 84%, with exact History binding to report 7221f94b-88b9-4054-8a71-4fb23bae2a39. R27 exact headed SHA 7bfb6687ccb644a4c1bda7f9e1af2143559e75060373bcd486dc6c89ded04fdc preserves all three R26 Human segments, repairs only the two AI regions, and is eligible for one new whole measurement; publication remains blocked unless it reaches 100% Human."
+      "evidence": "Exact R27 final headed GUI result is Mixed at AI 23% / Human 77%, with exact History binding to report 5f94b713-9914-4328-91bf-4ba9a4d02be1. R27 regresses from R26's 84% Human and expands both AI boundaries, so the next repair returns to the protected R26 spine. Publication remains blocked unless a later exact headed whole boundary reaches 100% Human."
     },
     {
       "id": "citation-review",
