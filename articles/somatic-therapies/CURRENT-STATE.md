@@ -324,6 +324,19 @@ Result artifact: `experiments/R36-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R36 ties R31 at Human `89%` but strictly improves its early boundary. The Human opening expands from 5,079 to 5,092 characters and now includes `No hot yoga.`; the Yoga/TRE AI run contracts from 443 to 409 characters. The complete R31 middle, 823-character late AI region, and 1,650-character Human ending reproduce exactly. Retain R36 as the new production baseline, freeze its early gain, and target only the independent late region.
 
+R37 is the next decision-useful whole candidate:
+
+- candidate: `experiments/R37-LATE-GENERIC-WRAPPER-REMOVAL-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `fed32730d8238dd7650420417992acd81355264840cd63a01fc2e2ee4413f28d`;
+- exact headed boundary: `experiments/R37-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `4a3621ab14a1bd17143a4df03c5f7e2373f98b0e5eb81a9495232c35c4e7cfcc`;
+- size: 2,077 whitespace words / 11,778 UTF-8 bytes / 11,730 Unicode characters / terminal newline;
+- preflight: `experiments/R37-LATE-GENERIC-WRAPPER-REMOVAL-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- exact intervention: delete only the generic `Making Sense of What Changed` heading and promote the unchanged `Light CBT / Narrative Integration / Borrowed Adulthood` heading one level;
+- every substantive R36 sentence, link, native object, measured Human span, and protected function remains exact;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- article authority impact: none.
+
+R37 targets only the remaining late editorial-wrapper interaction after direct rewrites of readiness, aftercare, and borrowed adulthood were neutral or harmful.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
