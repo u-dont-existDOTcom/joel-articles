@@ -11,12 +11,12 @@
     {
       "id": "humanization-architecture",
       "status": "passed",
-      "evidence": "R36 is the best completed production baseline at 89% Human: it preserves every substantive R31 sentence and required function while shrinking the early Yoga/TRE AI region from 443 to 409 characters. R37 targets only the independent late generic-wrapper interaction and preserves every substantive R36 sentence."
+      "evidence": "R36 remains the best completed production baseline at 89% Human and a 409-character early AI region. R37's generic-wrapper removal regressed exact late localization and is discarded; the next repair must route a protected function while preserving R36 headings and Human spans."
     },
     {
       "id": "fidelity",
       "status": "passed",
-      "evidence": "R37 forward/reverse traceability passed with zero unexplained substantive deltas; its 16/16 ordinary-link multiset, 8/8 native/editor objects, every substantive R36 sentence, registered citation, complete safety architecture, and all three R21 Human/high cores remain protected. Only the generic Making Sense of What Changed wrapper is removed."
+      "evidence": "R37 forward/reverse traceability passed with zero unexplained substantive deltas, but its detector-worse wrapper removal is discarded. Exact R36 remains the production baseline with 16/16 ordinary links, 8/8 native/editor objects, every substantive R31 sentence, registered citation, and all three R21 Human/high cores protected."
     },
     {
       "id": "owner-final-review",
@@ -26,7 +26,7 @@
     {
       "id": "detector",
       "status": "blocked",
-      "evidence": "Exact R36 final headed GUI result is Mixed at AI 11% / Human 89%, with exact History binding to report 9aab48f3-2ad2-49cf-8df6-0f950442f5c9. Exact R37 is preflight-complete and awaits one reserved headed whole call; publication remains blocked unless an exact headed whole boundary reaches 100% Human."
+      "evidence": "Exact R37 final headed GUI result is Mixed at AI 11% / Human 89%, with exact History binding to report 431ce5e2-620c-4725-a6c8-eec929816a96. Its late boundary regressed and is discarded. Publication remains blocked unless an exact headed whole boundary reaches 100% Human."
     },
     {
       "id": "citation-review",

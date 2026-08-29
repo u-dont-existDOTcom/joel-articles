@@ -893,6 +893,34 @@
       "durable_evidence": {"repository":"u-dont-existDOTcom/pangram-humanization-lab","branch":"automation/pangram-fixed-batch","reservation_commit":"ad6ba2f9","result_commit":"5e158876","recovery_path":"state/PANGRAM-LOCAL-SOMATIC-R36-FINAL-GUI-2026-08-29.md"},
       "call_accounting": {"paid_gui_calls":1,"cache_hits":0,"duplicate_calls":0,"pending_or_ambiguous":0},
       "disposition": "R36 ties R31 at 89% Human but shrinks the early AI region from 443 to 409 characters and restores No hot yoga to the Human opening. Retain R36 as the production baseline, freeze its three Human regions, target only the unchanged late region next, never repeat R36, and leave article authority unchanged."
+    },
+    {
+      "id": "somatic-r37-final-whole-gui",
+      "role": "non_authoritative_late_generic_wrapper_removal_boundary",
+      "experiment_id": "somatic-r37-late-generic-wrapper-removal-r01-gui-20260829-a",
+      "source_commit": "859bce6",
+      "source_path": "articles/somatic-therapies/experiments/R37-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt",
+      "text_sha256": "4a3621ab14a1bd17143a4df03c5f7e2373f98b0e5eb81a9495232c35c4e7cfcc",
+      "word_count": 2077,
+      "utf8_bytes": 11778,
+      "unicode_characters": 11730,
+      "transport": "headed authenticated Brave/Pangram GUI in 2nd gpt profile",
+      "model": "pangram-4",
+      "version": "4.0",
+      "history_match_mode": "pre_click_exact_plus_history_whitespace_normalized_exact",
+      "history_record_id": "431ce5e2-620c-4725-a6c8-eec929816a96",
+      "submitted_at": "2026-08-29T16:35:19.036Z",
+      "result": {"headline":"AI Detected","prediction_short":"Mixed","fraction_ai":0.11,"fraction_human":0.89,"pangram_display_word_count":2112,"summary":"AI-generated content appears in scattered patches"},
+      "segments": [
+        {"id":"text-segment-0","result":"Human","characters":5092,"words":893,"display_text_sha256":"ef4adc3b351202d9d762c52fe286199e2c2e1ccc310a8bd811ec8d96bc63be0b","scope":"exact R36 opening through No hot yoga."},
+        {"id":"text-segment-1","result":"AI","characters":409,"words":85,"display_text_sha256":"fb16d4f064bd7e53130a25bbec198713bed8ec10ada40fa7e63d79b14b60e697","scope":"exact R36 Yoga and TRE AI region"},
+        {"id":"text-segment-2","result":"Human","characters":3615,"words":660,"display_text_sha256":"881d946403ed4e9a15a6fc2db7e9d3a62cd07b41aeea082c7954a6493164a54f","scope":"Human middle ends inside the EMDR contrast"},
+        {"id":"text-segment-3","result":"AI","characters":890,"words":152,"display_text_sha256":"7a2f55a8f65e715faa5738a274e6dfbed7f93b13f1e1492ff95e4a65760d7fe3","scope":"expands backward into the final EMDR contrast sentence and continues through Light CBT"},
+        {"id":"text-segment-4","result":"Human","characters":1650,"words":287,"display_text_sha256":"a1bd297b0c3209ef1b24fad2538b8c4d129df3d886e68fb8432c26ba31b3bdd4","scope":"exact R36 lived outcome, restimulation, and Sky and Vagal ending"}
+      ],
+      "durable_evidence": {"repository":"u-dont-existDOTcom/pangram-humanization-lab","branch":"automation/pangram-fixed-batch","reservation_commit":"302298ac","result_commit":"be0af4d1","recovery_path":"state/PANGRAM-LOCAL-SOMATIC-R37-FINAL-GUI-2026-08-29.md"},
+      "call_accounting": {"paid_gui_calls":1,"cache_hits":0,"duplicate_calls":0,"pending_or_ambiguous":0},
+      "disposition": "R37 ties R36 at 89% Human only after rounding and regresses exact late localization. Discard the wrapper removal, retain exact R36, do not remove that generic boundary again, route one protected function next, never repeat R37, and leave article authority unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -964,7 +992,10 @@
     "r36_final_whole_gui_calls": 1,
     "r36_final_whole_gui_pending_or_ambiguous": 0,
     "r36_final_whole_gui_remaining_calls": 0,
-    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, or R36 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
+    "r37_final_whole_gui_calls": 1,
+    "r37_final_whole_gui_pending_or_ambiguous": 0,
+    "r37_final_whole_gui_remaining_calls": 0,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, or R37 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
@@ -985,7 +1016,8 @@
     "final_r33": "Registered-aftercare source-recovery R33 replaced only R31's compact aftercare unit with the two registered r01 aftercare paragraphs. It regressed to 77% Human, contracted the Human middle from 3,711 to 2,619 characters, and expanded the late AI run from 823 to 2,273 characters backward into Brainspotting. Discard the intervention and return to exact R31.",
     "final_r34": "Owner-source borrowed-adulthood R34 replaced only the final two sentences of R31's late region at the routed Light CBT destination. It tied at 89% Human and reproduced every other region exactly, while the late AI run remained essentially unchanged at 825 characters. Discard the intervention, return to exact R31, and target the independent Yoga and TRE region next.",
     "final_r35": "Yoga agency paragraph-unstacking R35 added only two blank lines inside R31's early AI region. It exactly reproduced R31 at 89% Human and all five contextual boundaries. Blank-line-only repair is closed; return to exact R31 and require a substantive source or function-routing intervention.",
-    "final_r36": "R31 early-heading rollback R36 removed the Gentle Shaking / TRE subheading, combining R26's no-heading early surface with R31's registered citation gain. It tied at 89% Human but strictly improved localization: No hot yoga returned to the Human opening and the early AI run shrank from 443 to 409 characters. Retain R36 as the production baseline and target only the unchanged 823-character late region next."
+    "final_r36": "R31 early-heading rollback R36 removed the Gentle Shaking / TRE subheading, combining R26's no-heading early surface with R31's registered citation gain. It tied at 89% Human but strictly improved localization: No hot yoga returned to the Human opening and the early AI run shrank from 443 to 409 characters. Retain R36 as the production baseline and target only the unchanged 823-character late region next.",
+    "final_r37": "Late generic-wrapper removal R37 deleted Making Sense of What Changed and promoted the unchanged Light CBT heading. It tied at 89% Human only after rounding, while the Human middle contracted by 96 characters and the late AI run expanded by 67 characters backward into the Human-high EMDR contrast. Discard R37, retain exact R36, and keep the generic wrapper as a useful boundary."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

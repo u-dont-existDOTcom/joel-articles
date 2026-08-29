@@ -337,6 +337,12 @@ R37 is the next decision-useful whole candidate:
 
 R37 targets only the remaining late editorial-wrapper interaction after direct rewrites of readiness, aftercare, and borrowed adulthood were neutral or harmful.
 
+The exact R37 boundary was submitted once in the correct signed-in `2nd gpt` Brave profile. The clean field exactly matched the frozen SHA and plagiarism was off. Browser control timed out only after acceptance and no retry occurred. Pangram 4.0 returned `Mixed`, AI `11%`, Human `89%`, with 2,112 display words. Unique History record `431ce5e2-620c-4725-a6c8-eec929816a96` is exactly bound to the frozen 2,077-word text.
+
+Result artifact: `experiments/R37-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `302298ac` / `be0af4d1`.
+
+R37 ties R36 only after percentage rounding and regresses exact localization: the Human middle contracts from 3,711 to 3,615 characters, while the late AI run expands from 823 to 890 characters backward into the previously Human EMDR contrast. Discard R37, retain exact R36, and keep the generic wrapper as a useful contextual boundary.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -371,6 +377,8 @@ R37 targets only the remaining late editorial-wrapper interaction after direct r
 - R35 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, all contextual boundaries reproduced, and the paragraph-only hash is blocked from repetition.
 - R36 R31 early-heading rollback candidate preserves every substantive R31 sentence and all measured Human spans; every non-detector eligibility gate passes.
 - R36 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, the early AI run shrank from 443 to 409 characters, and the hash is blocked from repetition.
+- R37 late generic-wrapper removal candidate preserves every substantive R36 sentence and all measured Human spans; every non-detector eligibility gate passes.
+- R37 final headed GUI completed once at Human `89%` / AI `11%`; exact History binding passed, the late AI run expanded backward, the intervention is discarded, and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -393,6 +401,7 @@ R37 targets only the remaining late editorial-wrapper interaction after direct r
 - R34 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `2623d40a-3ec0-4e68-ba29-994313f48334`; one completed call, zero duplicate or ambiguous submissions.
 - R35 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `506bca12-0f23-4f31-8f7f-a5c59c678fd4`; one completed call, zero duplicate or ambiguous submissions; exact R31 contextual classifications and boundaries reproduced.
 - R36 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `9aab48f3-2ad2-49cf-8df6-0f950442f5c9`; one completed call, zero retries or duplicates; exact History binding passed; early AI region contracted to 409 characters while the late R31 regions reproduced.
+- R37 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `431ce5e2-620c-4725-a6c8-eec929816a96`; one completed call, zero retries or duplicates; late Human middle contracted by 96 characters and late AI run expanded by 67.
 
 R22's six AI-marked contextual segments are:
 
@@ -492,6 +501,8 @@ R35 completed from one click beginning at `2026-08-29T16:10:58.164Z`; its unique
 
 R36's one submit action began at `2026-08-29T16:25:36.640Z`; its unique History record is `https://www.pangram.com/history?history=9aab48f3-2ad2-49cf-8df6-0f950442f5c9`. Browser control timed out after acceptance, but the disabled control, visible result, unique newest History row, and exact stored-text binding resolved the action without retry. The plagiarism option remained off. There is no pending or ambiguous R36 submission. Do not repeat SHA `8860e76324aac66427fdb0255c24f45baeb5287d64a0ab4574883216db00cca6`.
 
+R37's one submit action began at `2026-08-29T16:35:19.036Z`; its unique History record is `https://www.pangram.com/history?history=431ce5e2-620c-4725-a6c8-eec929816a96`. The accepted action was resolved without retry by the disabled control, visible result, unique newest History row, and exact stored-text binding. There is no pending or ambiguous R37 submission. Do not repeat SHA `4a3621ab14a1bd17143a4df03c5f7e2373f98b0e5eb81a9495232c35c4e7cfcc`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -509,6 +520,7 @@ R36's one submit action began at `2026-08-29T16:25:36.640Z`; its unique History 
 - Exact R34 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R35 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Exact R36 is below the publication gate at 89% Human and is complete/blocked from repetition.
+- Exact R37 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -516,14 +528,14 @@ R36's one submit action began at `2026-08-29T16:25:36.640Z`; its unique History 
 
 - Retain exact R36 as the production baseline because its early AI region is smaller than R31's while every substantive sentence remains exact.
 - Freeze R36's 5,092-character Human opening, 3,711-character Human middle, and 1,650-character Human ending.
-- Target only the exact 823-character late region next. R32–R34 closed direct rewrites of readiness, aftercare, and borrowed adulthood; remove the generic `Making Sense of What Changed` wrapper while retaining the explicit Light CBT modality heading and every substantive sentence.
+- Target a protected-function routing change next. R32–R34 closed direct rewrites of readiness, aftercare, and borrowed adulthood; R37 closed removal of the generic late wrapper. Preserve the R36 headings and measured Human spans.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R36 result in both repositories.
-2. Build the one-factor late wrapper-removal candidate from exact R36, preserving every substantive sentence, link, native object, measured Human span, and protected function.
+1. Persist and push the exact R37 result in both repositories.
+2. Return to exact R36 and route one protected function to its natural owner without changing measured Human wording.
 3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
@@ -541,5 +553,6 @@ R36's one submit action began at `2026-08-29T16:25:36.640Z`; its unique History 
 - R34 is complete at 89% Human and is explicitly blocked from repetition.
 - R35 is complete at 89% Human and is explicitly blocked from repetition.
 - R36 is complete at 89% Human and is explicitly blocked from repetition.
+- R37 is complete at 89% Human and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
