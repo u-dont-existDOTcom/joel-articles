@@ -8,11 +8,26 @@ Use this method when a long article may contain important negative space that a 
 
 Mermaid remains the required compact article-architecture map. This audit complements it; it does not replace it.
 
-## When to use
+## Offer triggers
+
+**Offer this audit proactively; do not run it automatically without Joel accepting the offer.**
+
+Offer it in either of these situations:
+
+1. **Substantive editorial help:** whenever Joel asks for editorial help on a substantial article or substantial article section and a blind reader-question pass could plausibly reveal omissions, delayed answers, distributed answers, scope problems, or reader-state gaps that ordinary editing may miss.
+2. **Publish-ready after humanization:** after a substantial humanization/reconstruction pass reaches the point where the article is otherwise ready for publication or final owner review, offer the blind reader-question audit before treating publication preparation as complete.
+
+The offer should be brief and concrete, for example: `This is at the point where a blind reader-question audit could catch questions the editing context has stopped seeing. Want me to run it before publication?`
+
+If Joel declines, continue the requested editorial/publication workflow normally. Do not turn the audit into a mandatory gate.
+
+Do not repeatedly offer it during every local edit within the same active pass. One offer at the meaningful editorial boundary is enough; offer again only when a later substantial humanization/reconstruction pass reaches a new publish-ready boundary.
+
+Skip the offer for trivial/local edits, short pieces, typo/style-only work, or cases where a genuinely blind reader context is unavailable and the marginal value would be low.
+
+## When to use after acceptance
 
 Use selectively for broad long-form articles, major publication-preparation passes, or cases where the article's promise is expansive enough that ordinary whole-article review may miss reader-state problems.
-
-Skip for trivial/local edits, short pieces, or when the likely marginal value is low.
 
 ## Core protocol
 
@@ -97,6 +112,7 @@ Keep provenance distinct, for example:
 
 - `ARCHITECTURE.md` / Mermaid: positive structure, section order, protected functions, dependencies, stopping point.
 - Multiscale editorial ledger: section/paragraph jobs, reader entry/exit state, recurrence, post-assembly proofread.
+- Independent final-reader audit: broad final-reader diagnosis of remaining prose/logic/attention problems after drafting; distinct from this audit's sequential question-state method.
 - Argument/evidence architecture: claims, evidence, competing explanations, certainty, premise failure.
 - Reader-question audit: negative-space and reader-state diagnosis across the article.
 
