@@ -11,12 +11,12 @@
     {
       "id": "humanization-architecture",
       "status": "passed",
-      "evidence": "R38 remains the best completed production baseline at 90% Human. R42 is eligible for one call: it preserves the useful late section boundary R37 identified, replaces only its generic label with an existing owner sentence, and leaves both R38 AI regions and every Human span otherwise exact."
+      "evidence": "R38 remains the best completed production baseline at 90% Human. R42 preserved every claim and read coherently, but owner-heading recovery regressed exact whole highlighting to 78% Human with large Brainspotting/EMDR and Sky/Vagal spillover; R42 is discarded and heading work is closed."
     },
     {
       "id": "fidelity",
       "status": "passed",
-      "evidence": "R42 preserves every R38 claim and safety function. `Talking comes after that for me` moves from the paragraph into the section heading, the generic wrapper is removed, all 16 links and all 8 native/editor objects remain exact, and no protected function changes owner."
+      "evidence": "R42 preservation passed, proving its detector regression did not arise from dropped meaning. Exact R38 remains the production surface; its `Making Sense of What Changed` wrapper, all 16 links, all 8 native/editor objects, and every protected function remain the retained configuration."
     },
     {
       "id": "owner-final-review",
