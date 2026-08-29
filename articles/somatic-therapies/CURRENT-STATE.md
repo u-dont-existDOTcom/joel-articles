@@ -15,10 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R50 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R51 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
+
+### R51 final aftercare function diagnostic is frozen and never promotable
+
+R51 returns exactly to the non-promotable R50 diagnostic and temporarily withholds only the complete no-stacking sentence. The Human immediate-aftercare sentence and complete delayed next-day checks stay exact under EMDR. The no-stacking, integration, and borrowed-adulthood functions remain protected and mandatory for production.
+
+- diagnostic candidate: `experiments/R51-NO-STACKING-FUNCTION-WITHHOLDING-DIAGNOSTIC-CANDIDATE-20260829.md`, SHA-256 `5b9cf48f5fe534a78baf5884397bbd3ee53bde58ec5f2bdbfb5627abbf957c16`;
+- exact headed boundary: `experiments/R51-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5d3c2a2295b773fd80d1988cc0fa25eca457dfa00d033b75b79d086d7fd78515`;
+- size: 2,007 whitespace words / 11,370 UTF-8 bytes / 11,322 Unicode characters / terminal newline;
+- diagnostic preflight: `experiments/R51-NO-STACKING-FUNCTION-WITHHOLDING-DIAGNOSTIC-PREFLIGHT-20260829.md`;
+- diagnostic whitelist, coherence, architecture, surviving-claim fidelity, known-Human preservation, native objects, and exact extraction: PASS;
+- production completeness: intentionally incomplete; promotion/publication prohibited regardless of score.
+
+This is the final eligible aftercare decomposition call. No phrase or symptom-list subdivision follows it.
 
 ### R50 reached 96% Human diagnostically and localized independent aftercare sensitivity
 
@@ -664,6 +677,7 @@ R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History 
 - Exact R48 is a 94%-Human protected-function diagnostic, is production-incomplete/never promotable, and is complete/blocked from repetition.
 - Exact R49 is below the publication gate at 88% Human, has a net 253-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R50 is complete at 96% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
+- Exact R51 is frozen as a production-incomplete/never-promotable protected-function diagnostic and is awaiting its sole authorized call.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -700,8 +714,8 @@ R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History 
 
 ## Next safe action
 
-1. Persist and push the exact R50 result and reusable functional lesson in both repositories without touching the registered master.
-2. Run at most one final protected-function diagnostic on exact R50: temporarily withhold the no-stacking sentence while keeping the complete next-day aftercare sentence exact. This determines whether delayed checks are sufficient for the 203-character AI span and yields a routing decision without phrase hunting.
+1. Commit and push the exact R51 diagnostic preflight without touching the registered master.
+2. Reserve and run R51 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
 3. Restore every protected aftercare, integration, and borrowed-adulthood claim before the next production candidate; distribute functions only to destinations that still read naturally and preserve article architecture.
 4. If and only if an exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
@@ -733,5 +747,6 @@ R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History 
 - R48 is complete at 94% Human as a protected-function diagnostic, is never promotable, and is explicitly blocked from repetition.
 - R49 is complete at 88% Human, has a net 253-character exact-segment regression, and is explicitly blocked from repetition.
 - R50 is complete at 96% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
+- R51 is production-incomplete, permanently non-promotable, and limited to one exact diagnostic submission after durable reservation.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
