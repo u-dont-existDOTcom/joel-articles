@@ -52,7 +52,7 @@ Use `FRESH-READER-BLIND-PROTOCOL.md` for this stage.
 
 ## Hosted validation of the collector
 
-The PR-hosted regression run on 2026-08-29 passed **117/117 tests**. The new canonical integration test reads the checked-out `articles/romance/master.md`, verifies its exact SHA-256 against `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`, compiles 90-line windows, and verifies that their exact byte reconstruction has the same SHA-256.
+The PR-hosted regression run on 2026-08-29 passed **117/117 tests**. The canonical integration test reads the checked-out `articles/romance/master.md`, verifies its exact SHA-256 against `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`, compiles 90-line windows, and verifies that their exact byte reconstruction has the same SHA-256.
 
 The workflow then stops at the repository's existing authority validator because of four pre-existing base-repository findings in unchanged article/governance files. Those are separate from this pilot and are not suppressed or repaired here.
 
@@ -62,111 +62,115 @@ The workflow then stops at the repository's existing authority validator because
 
 Read only the opening promise/scope first. Generate the material questions a reasonable intended reader would expect the guide to resolve. Only then compare those questions with the full article.
 
-This catches omissions the body never raises and therefore cannot remind an ordinary whole-article audit to look for.
-
 ### B. Blind-prefix
 
-At selected consequential boundaries, preserve the reader's actual information state by looking only backward. Record the strongest live question at that point, then check whether later prose answers, redirects, or leaves it unresolved.
+At consequential boundaries, preserve the reader's actual information state by looking only backward. Record the strongest live question, freeze it, then reveal the next source window.
 
-A whole-article model has hindsight and can underreport temporary confusion because it already knows what comes later.
+### C. Final coverage pass
 
-### C. Coverage controls
-
-The register deliberately contains questions that the article **does answer**. If the method classifies those as gaps, the pilot is over-generating and should be repaired or abandoned.
+After the final window only, merge semantic duplicates and classify whether each surviving question was answered, answered later, partial, thin, unanswered, intentionally out of scope, or rejected by the article. A live question is not automatically a defect.
 
 ### D. External benchmark
 
-After the article-internal pass is frozen, compare surviving questions against mature relationship-assessment/education domains, relevant research, and a small sample of actual-reader questions. External prevalence is evidence of reader demand, not a completeness mandate.
+After the article-internal result is frozen, compare it with mature relationship-assessment/education domains, relevant research, and sampled actual-reader questions. External prevalence is evidence of reader demand, not a completeness mandate.
 
-## Initial read result
+## Independent blind result
 
-The full frozen article was read before classification. The first repair hypothesis was rejected: the article does contain meaningful repair material later through outside help, individual practices, honesty, scheduled non-combative discussion, counseling, and temporary separation.
+The exact fresh-Pro result received on 2026-08-29 has SHA-256:
 
-The initial higher-value candidates were longitudinal relationship health, trigger-versus-incompatibility, love-versus-idealization/attachment, and maintaining romance after children arrive.
+`355f02e2af2cfc4d9d9a987dd1418e6d68230798eb6ef70738ce6133c731d1fd`
 
-The external benchmark then materially changed the ranking. Ordinary-conflict repair and concrete money/labor/household alignment received substantially stronger independent support than the first pass gave them.
+It contains:
 
-Current strongest review candidates are:
+- 4 frozen promise questions;
+- 11 immutable checkpoints;
+- 32 surviving questions after hindsight merging;
+- 2 `candidate` defects;
+- 6 `unclear` questions;
+- 24 questions explicitly classified `not-a-defect`.
 
-1. **G006 — partnership after children:** how the romantic relationship survives the transition from couple to parents, not only how children are protected if the couple separates.
-2. **G003 — repair:** what successful repair after an ordinary fight actually consists of.
-3. **G007 — practical merging:** money, labor, household responsibility, dependency, and related expectations before lives merge.
-4. **G001/G002 cluster — health/workability:** how to tell whether the relationship is getting healthier and whether recurring pain is workable rather than merely intense, entangled, incompatible, or unsafe.
-5. **G005 — love vs idealization/attachment:** a major distributed question whose answer may already be the article's whole architecture rather than a missing checklist.
+This is important negative evidence against generic omission generation: the model preserved many live questions while still recognizing that most were answered, deliberately unresolved, or outside the article's required burden.
 
-These remain **questions for editorial review, not findings that prose must be added**.
+## Comparison result
 
-## Controls already passing conceptually
+### Strongly convergent cluster
 
-- **C001:** “What if I do not already have a commune/community?” — directly answered in Two Pillars.
-- **C002:** “What if I am already entangled?” — anticipated and answered by the next major section, `If you’re already in it`.
-- **C003:** later sexual incompatibility/libido divergence — discussed early and revisited through fit/discernment.
-- **C004:** avoiding partner-as-whole-world — receives a dedicated treatment plus community follow-through.
+The hidden pilot and independent reader both identified the same underlying pressure:
 
-The blind-prefix sequence also correctly predicts several next-section moves, including Starting → Crucible, Twin Flames → Two Pillars, and Doing It Consciously → If You’re Already In It. That is useful evidence that the method can recognize existing architecture instead of only manufacturing omissions.
+- temporary strain versus durable incompatibility or ending;
+- repairable trigger versus a structurally wrong match;
+- broken trust and mismatch workability;
+- safety as a distinct boundary.
+
+The fresh reader expressed this through narrower domain questions rather than a global “relationship health score.” G001, G002, and G004 should therefore be merged analytically into one workability/trajectory cluster.
+
+### Clearest new independent candidate
+
+The fresh reader asked how a couple can tell whether poor sexual fit may deepen through a co-created bond or instead means they should remain friends. It classified this `thin / candidate`. This was not explicit in the hidden register.
+
+### Distributed governing question judged answered
+
+The fresh reader reproduced grounded love versus idealization but judged the article's distributed treatment sufficient. This supports using a question map to visualize coverage across sections; it does not support adding a checklist merely because the answer is distributed.
+
+### Hidden candidates not independently reproduced
+
+The independent article-internal test did not reproduce these as defects:
+
+- maintaining the partnership after children arrive;
+- money/labor/household/dependency alignment;
+- a compact ordinary-conflict repair model.
+
+They remain legitimate framework/research/actual-reader opportunities, but their previous status as leading article-internal gaps is downgraded.
+
+### Other independent review questions
+
+The reduced live register retains:
+
+- the scope of masculine–feminine generalizations;
+- jealousy as remembered insecurity versus a present signal;
+- broken trust: repair, relationship-form change, or ending;
+- parental-figure obligations when contact is blocked or risky;
+- the boundary for post-breakup truth disclosure.
+
+## Architecture decision
+
+### Reader-question method
+
+**Validated as an optional diagnostic for broad long-form publication preparation.** It independently reproduced a deep hidden cluster, found a genuinely new candidate, correctly recognized delayed/distributed answers, and falsified or downgraded several initial hypotheses.
+
+### Obsidian Canvas
+
+**Promising but not yet established as necessary.** The test validates durable question objects and typed answer relationships. It does not yet prove Canvas is more useful to Joel than the reduced table/register.
+
+Do not make this a mandatory repository gate. Retain it as an optional observatory until owner inspection shows that the spatial view improves a real editorial decision.
+
+## Reduced production shape
+
+If reused, keep the workflow minimal:
+
+1. promise-first freeze;
+2. sequential blind-prefix checkpoints;
+3. final hindsight coverage classification;
+4. retain only `candidate`, `unclear`, a few answered controls, and separately labeled external-only opportunities;
+5. generate Canvas from the reduced register only.
+
+Do not turn every transient checkpoint question into a permanent editorial task.
 
 ## Files
 
-- `reader-gap-register.json` — diagnostic source register for questions, controls, and prefix probes.
-- `romance-reader-gap.canvas` — generated Obsidian JSON Canvas view.
+- `reader-gap-register.json` — original hidden diagnostic register.
+- `romance-reader-gap.canvas` — original generated Canvas.
 - `EXTERNAL-BENCHMARK.md` — established-work and actual-reader pressure test.
 - `COLLECTION-PROTOCOL.md` — mechanical GitHub/source collection stage.
-- `FRESH-READER-BLIND-PROTOCOL.md` — isolated Pro reader stage; no GitHub or unrevealed windows.
-- `HANDOFF-PROMPTS.md` — copy/paste collector, Pro startup, window, and closeout instructions.
-- `scripts/compile_blind_reader_packet.py` — deterministic source → hashed sequential-window compiler.
-- `tests/test_compile_blind_reader_packet.py` — compiler regressions plus canonical Romance identity/coverage test.
-- `scripts/generate_editorial_gap_canvas.py` — generic diagnostic Canvas generator.
-- `tests/test_generate_editorial_gap_canvas.py` — fail-closed Canvas generator tests.
+- `FRESH-READER-BLIND-PROTOCOL.md` — isolated Pro reader stage.
+- `HANDOFF-PROMPTS.md` — collector, Pro startup, window, and closeout instructions.
+- `results/INDEPENDENT-PRO-COMPARISON-20260829.md` — complete hidden-versus-independent comparison and architecture decision.
+- `results/reduced-reader-gap-register.json` — reduced post-comparison question register.
+- `scripts/compile_blind_reader_packet.py` — deterministic source → hashed-window compiler.
+- `scripts/generate_editorial_gap_canvas.py` — diagnostic Canvas generator.
 
-## Generate / validate Canvas
+## Current next boundary
 
-From repository root:
+The blind comparison is complete. The remaining Obsidian-specific test is owner inspection of a reduced Canvas generated from `results/reduced-reader-gap-register.json`.
 
-```bash
-python scripts/generate_editorial_gap_canvas.py \
-  docs/experiments/romance-reader-gap-pilot/reader-gap-register.json \
-  --out docs/experiments/romance-reader-gap-pilot/romance-reader-gap.canvas
-
-python scripts/generate_editorial_gap_canvas.py \
-  docs/experiments/romance-reader-gap-pilot/reader-gap-register.json \
-  --check-only
-```
-
-Then open the repository root as an Obsidian vault and open `docs/experiments/romance-reader-gap-pilot/romance-reader-gap.canvas`. No Obsidian community plugin is required for the Canvas itself.
-
-## Compile blind reader packet
-
-From repository root:
-
-```bash
-python scripts/compile_blind_reader_packet.py \
-  articles/romance/master.md \
-  --expected-sha256 f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c \
-  --lines-per-window 90 \
-  --out-dir /tmp/romance-blind-reader-packet
-```
-
-Keep the resulting directory/ZIP outside the Pro conversation. Reveal its `window-*.md` files one at a time.
-
-## Success criteria
-
-Keep/invest further only if the pilot does at least one of the following better than the existing workflow:
-
-- reveals two or more material high-confidence gaps that survive owner/editor review;
-- makes a distributed partial answer visibly obvious enough to change an editorial decision;
-- catches an ordering problem that a whole-article/hindsight audit missed;
-- routes a real question to an interlink instead of causing duplicated prose;
-- makes it materially easier for Joel to inspect the article's negative space.
-
-Fail or simplify the architecture if it mostly produces generic “what about X?” questions, duplicates the multiscale ledger, encourages overcompletion, or creates more maintenance than editorial information.
-
-## Next experiment
-
-Do **not** build Bases or a plugin yet.
-
-1. Run the collector stage and freeze the exact packet/receipt.
-2. Run the Pro reader stage in a genuinely fresh reader context, revealing one window at a time.
-3. Freeze the Pro output before exposing the register, Canvas, benchmark, PR body, or prior Romance discussion.
-4. Compare independent surviving questions only after both passes are closed.
-
-The important measurement is not agreement between models. It is whether independently generated high-value questions survive full-text coverage checking and improve editorial judgment.
+If the spatial view makes the unresolved cluster and distributed answers materially easier to understand, retain Obsidian as an optional editorial observatory. If the comparison table is equally usable, keep the reader-question method and remove the Obsidian dependency.
