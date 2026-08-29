@@ -15,10 +15,23 @@ Joel has granted standing publication/export permission and does not need to sup
 - Registered revision: `r01-candidate`.
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`.
 - Registered invariants: 16 ordinary links; 8 raw-editor/native objects in exact identity/order/placement.
-- The registered master remains untouched and authoritative. R02–R49 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
+- The registered master remains untouched and authoritative. R02–R50 are non-authoritative editorial/detector artifacts until the normal promotion gates complete.
 - Active working branch: `experiment/somatic-r17-100-human-gate-20260828`.
 
 ## Current checkpoint
+
+### R50 integration-cluster diagnostic is frozen and never promotable
+
+R50 returns exactly to R48 and temporarily withholds the complete `Making Sense of What Changed` / Light CBT-Narrative Integration cluster in addition to R48's already withheld borrowed-adulthood function. Readiness and complete EMDR aftercare remain exact under EMDR, and the surviving article flows directly into Joel's lived outcome. This is a protected-function diagnostic only; all omitted integration and borrowed-adulthood claims remain mandatory for production.
+
+- diagnostic candidate: `experiments/R50-INTEGRATION-CLUSTER-WITHHOLDING-DIAGNOSTIC-CANDIDATE-20260829.md`, SHA-256 `3a2d7c159210c70d83206ce8b9fb5ffe12d3712a2dc3ae03d22620f7b196cbe2`;
+- exact headed boundary: `experiments/R50-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5117cd17e260646b7ebceaaf4072396bbf1850c5c03c344a7087176641ef6932`;
+- size: 2,019 whitespace words / 11,438 UTF-8 bytes / 11,390 Unicode characters / terminal newline;
+- diagnostic preflight: `experiments/R50-INTEGRATION-CLUSTER-WITHHOLDING-DIAGNOSTIC-PREFLIGHT-20260829.md`;
+- diagnostic whitelist, coherence, architecture, surviving-claim fidelity, known-Human preservation, native objects, and exact extraction: PASS;
+- production completeness: intentionally incomplete; promotion/publication prohibited regardless of score.
+
+The one-call decision is whether the 386-character R48 residual remains on exact EMDR aftercare when the complete integration cluster is absent. No registered authority changes.
 
 ### R49 regressed to 88% Human; heading separation does not restore borrowed adulthood safely
 
@@ -647,6 +660,7 @@ R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History 
 - Exact R47 is below the publication gate at 90% Human, is exact-segment neutral against R38, and is complete/blocked from repetition.
 - Exact R48 is a 94%-Human protected-function diagnostic, is production-incomplete/never promotable, and is complete/blocked from repetition.
 - Exact R49 is below the publication gate at 88% Human, has a net 253-character exact-segment regression, and is complete/blocked from repetition.
+- Exact R50 is frozen as a production-incomplete/never-promotable protected-function diagnostic and is awaiting its sole authorized call.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -682,10 +696,10 @@ R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History 
 
 ## Next safe action
 
-1. Persist and push the exact R49 result and restoration failure in both repositories without touching the registered master.
-2. Return exactly to R38. Preserve the complete borrowed-adulthood function in production but close its current Light-CBT realization, blank-line split, and function-specific heading variants.
-3. Before another production restoration, localize R48's 386-character residual with one protected-function diagnostic that withholds the complete `Making Sense of What Changed` / Light CBT-Narrative Integration cluster from R48 while leaving readiness and EMDR aftercare exact. This determines whether aftercare remains independently detector-sensitive or the integration cluster is necessary for the residual. The omitted integration claims remain protected and the diagnostic can never be promoted.
-4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+1. Commit and push the exact R50 diagnostic preflight without touching the registered master.
+2. Reserve and run R50 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
+3. Use its exact segment result to decide between one final aftercare localization diagnostic or materially different production routing for the complete protected integration functions.
+4. Restore every protected claim before any production candidate. If and only if an exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
@@ -714,5 +728,6 @@ R49's one submit action began at `2026-08-29T18:35:29.122Z`; its unique History 
 - R47 is complete at 90% Human, is exact-segment neutral against R38, and is explicitly blocked from repetition.
 - R48 is complete at 94% Human as a protected-function diagnostic, is never promotable, and is explicitly blocked from repetition.
 - R49 is complete at 88% Human, has a net 253-character exact-segment regression, and is explicitly blocked from repetition.
+- R50 is production-incomplete, permanently non-promotable, and limited to one exact diagnostic submission after durable reservation.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
