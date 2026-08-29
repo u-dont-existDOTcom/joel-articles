@@ -307,7 +307,8 @@
         {"path": "articles/somatic-therapies/experiments/R46-FINAL-GUI-RESULT-20260829.md", "sha256": "061d184defa1bb578571d4a511a336c0ae27b5d9c8661620f17de31053f1a5e8", "role": "detector_experiment_result"},
         {"path": "articles/somatic-therapies/experiments/R47-LIGHT-CBT-BORROWED-PARAGRAPH-UNSTACKING-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "347fdd098cf5598d761c59477089f63447fb23f933cbb8ad0e44b8eeaf06fc14", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R47-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "62a038407222663daf3c5459d9e95ef3628bf47d19fa2e5f31fe2167c85b8de9", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R47-LIGHT-CBT-BORROWED-PARAGRAPH-UNSTACKING-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "1647bf30dfb7a51ba73d96cfaceb4faf019d9e67cb7bb0bb8bbce8b3a43a15f4", "role": "preservation_and_preflight"}
+        {"path": "articles/somatic-therapies/experiments/R47-LIGHT-CBT-BORROWED-PARAGRAPH-UNSTACKING-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "1647bf30dfb7a51ba73d96cfaceb4faf019d9e67cb7bb0bb8bbce8b3a43a15f4", "role": "preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R47-FINAL-GUI-RESULT-20260829.md", "sha256": "208069f78c5f50be0d45e5b879fbd6631fa189d1e3d85fdb813486237f7ca884", "role": "detector_experiment_result"}
       ]
     }
   ]

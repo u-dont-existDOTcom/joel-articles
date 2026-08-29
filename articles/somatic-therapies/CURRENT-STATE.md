@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R47 prepared from exact R38; only one natural paragraph boundary is inserted
+### R47 reproduced exact R38 segment boundaries at 90% Human; paragraph adjacency is closed
 
 R47 returns exactly to R38 and inserts one blank line before the conditional borrowed-adulthood sentence. Every reader-visible word, punctuation mark, sentence order, claim, heading, link, native object, and measured-Human span remains exact. This isolates paragraph adjacency between cognitive integration and borrowed adulthood; R34 did not isolate it because that candidate also changed the borrowed wording.
 
@@ -31,7 +31,7 @@ R47 returns exactly to R38 and inserts one blank line before the conditional bor
 - exact-word preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
 - registered article authority impact: none.
 
-Retention requires strict exact-segment improvement over R38 without new spillover. If neutral or worse, discard R47 and close this paragraph-boundary split without cosmetic whitespace variants.
+The exact R47 headed check completed from one click at Human `90%` / AI `10%`. Exact segment accounting reproduces R38: 4,997 Human / 292 Yoga AI / 3,923 Human / 823 late AI / 1,650 Human. Only the late segment hash changes, because R47 adds one newline. Discard R47, retain exact R38, and close same-paragraph adjacency plus cosmetic whitespace variants.
 
 R46 returns exactly to the best R38 whole boundary and changes only the first two sentences under `Light CBT / Narrative Integration / Borrowed Adulthood`. The R38 borrowed-adulthood wording, all measured-Human spans, readiness, aftercare, Yoga paragraph, headings, links, and native objects remain exact. The intervention reuses the already claim-audited R45 cognitive lead but does not reuse R45's broad late rewrite.
 
@@ -589,6 +589,8 @@ R45's one submit action began at `2026-08-29T17:59:27.149Z`; its unique History 
 
 R46's one submit action began at `2026-08-29T18:14:11.422Z`; its unique History record is `https://www.pangram.com/history?history=e2db9c75-5c76-48bc-abb8-de73c49f15d4`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R46 submission. Do not repeat SHA `4821644f2201c503532f0fd8e141c9107957fc1b600947d0e89a2da706334b45`.
 
+R47's one submit action began at `2026-08-29T18:22:32.251Z`; its unique History record is `https://www.pangram.com/history?history=c0d1f9b9-67ae-40f8-8da7-45462678d91d`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R47 submission. Do not repeat SHA `62a038407222663daf3c5459d9e95ef3628bf47d19fa2e5f31fe2167c85b8de9`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -616,6 +618,7 @@ R46's one submit action began at `2026-08-29T18:14:11.422Z`; its unique History 
 - Exact R44 is below the publication gate at 85% Human, has a net 648-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R45 is below the publication gate at 79% Human, has a net 1,444-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R46 is below the publication gate at 86% Human, has a net 532-character exact-segment regression, and is complete/blocked from repetition.
+- Exact R47 is below the publication gate at 90% Human, is exact-segment neutral against R38, and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -640,15 +643,17 @@ R46's one submit action began at `2026-08-29T18:14:11.422Z`; its unique History 
 - Preserve R45's editorial/detector separation lesson: prose can be coherent and claim-complete yet detector-incompatible; broad late rewriting is closed because it reproduces R27's cross-section expansion.
 - Discard R46 and return exactly to R38. A two-sentence change wholly inside the late AI region pulled the final Brainspotting caution, citation, and EMDR into a larger AI segment.
 - Preserve R46's narrow-edit lesson: edits inside an existing AI span can still resegment neighboring frozen Human material; narrowness is not detector locality. Close this cognitive-lead realization and do not generate a synonym-level successor.
+- Discard R47 and return exactly to R38. Separating cognitive integration and borrowed adulthood with a paragraph break reproduced the exact R38 AI/Human boundaries.
+- Preserve R47's adjacency lesson: the unchanged late functions interact across the paragraph boundary; same-paragraph stacking is not the remaining cause. Close cosmetic whitespace and paragraph-only variants.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R46 result and narrow-edit spillover lesson in both repositories without touching the registered master.
-2. Return exactly to R38 and treat broad late rewriting, the tested Light-CBT cognitive lead, Yoga realization/routing, tested readiness destinations, and late heading changes as closed.
-3. The next eligible causal class is an exact-wording paragraph-boundary split between R38's Light-CBT lead and borrowed-adulthood function. R34 combined a paragraph split with different borrowed wording, so the exact R38 split has not been isolated. It may be tested only with every reader-visible word and all R38 Human spans fixed and after the normal gates/reservation.
+1. Persist and push the exact R47 result and paragraph-boundary null lesson in both repositories without touching the registered master.
+2. Return exactly to R38 and treat broad late rewriting, the tested Light-CBT cognitive lead, paragraph-only unstacking, Yoga realization/routing, tested readiness destinations, and late heading changes as closed.
+3. The next decision-useful causal class is a protected-function diagnostic: withhold the complete borrowed-adulthood cluster from exact R38 while retaining the coherent Light CBT/Narrative Integration lead and all known-Human spans. This is not production-complete and can never be promoted; it tests whether borrowed adulthood is causally necessary for the 823-character late region before any further routing attempt. The protected function remains mandatory for production.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -675,5 +680,6 @@ R46's one submit action began at `2026-08-29T18:14:11.422Z`; its unique History 
 - R44 is complete at 85% Human, has a net 648-character exact-segment regression, and is explicitly blocked from repetition.
 - R45 is complete at 79% Human, has a net 1,444-character exact-segment regression, and is explicitly blocked from repetition.
 - R46 is complete at 86% Human, has a net 532-character exact-segment regression, and is explicitly blocked from repetition.
+- R47 is complete at 90% Human, is exact-segment neutral against R38, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
