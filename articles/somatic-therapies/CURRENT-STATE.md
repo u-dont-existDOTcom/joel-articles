@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R22 completed at 60% Human; R23 contextual repair is next
+### R23 contextual-unstacking candidate is ready for one whole GUI measurement
 
 Source checkpoint: `u-dont-existDOTcom/joel-articles@09bf04f` on the active branch.
 
@@ -41,7 +41,20 @@ The exact R22 boundary was submitted once in authenticated Brave/Pangram and is 
 
 Result artifact: `experiments/R22-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `7cd31db8` / `a26c81a5` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
 
-R22 is a major improvement over R16 (Human `27.14203596%` → `60%`) but fails Joel's mandatory 100%-Human publication gate. Yoga and Sky remain closed at 6/6. Gentle shaking and EMDR remain closed at 6/6 with exact Human/high R21 production cores. Brainspotting retains one intentionally unused local call. The next work is article-level contextual/architecture repair, not another synonym rewrite or exact rerun.
+R22 is a major improvement over R16 (Human `27.14203596%` → `60%`) but fails Joel's mandatory 100%-Human publication gate. Yoga and Sky remain closed at 6/6. Gentle shaking and EMDR remain closed at 6/6 with exact Human/high R21 production cores. Brainspotting retains one intentionally unused local call.
+
+R23 now implements the article-level contextual repair:
+
+- candidate: `experiments/R23-CONTEXTUAL-UNSTACKING-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `db79f184a2adf4c718f116d2f142fc787d9b63441f3b6dc021be4f19188140f4`;
+- exact headed boundary: `experiments/R23-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `d0d957892e4ba9895124287d0dcf78ebf33f2e5a6421a64fb961de5b24eb3589`;
+- size: 2,426 whitespace words / 13,722 UTF-8 bytes / terminal newline;
+- preflight: `experiments/R23-CONTEXTUAL-UNSTACKING-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- preservation, architecture, safety/evidence, links, native objects, and exact-boundary extraction: PASS;
+- ordinary links: 16/16, 13 unique, exact R22 multiset;
+- native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
+- article authority impact: none.
+
+R23 preserves exact M01 and all three Human/high R21 sections, moves the exact Human lived outcome story between Brainspotting and EMDR, removes the stacked short-section taxonomy, and replaces compact closure only where R22 localized it. No untouched-Human control or local section call is authorized. The next decision-useful action is one exact R23 whole GUI call.
 
 ## Completed
 
@@ -51,6 +64,7 @@ R22 is a major improvement over R16 (Human `27.14203596%` → `60%`) but fails J
 - R21 proved all three minimum factual/publication normalizations Human/high.
 - R22 assembled the resulting whole article and passed preservation, architecture, safety/evidence, link, native-object, and detector preflight.
 - R22 final headed GUI completed once at Human `60%` / AI `40%`; exact History binding passed and the hash is blocked from repetition.
+- R23 contextual repair passed all non-detector preflight gates and is frozen for one exact whole GUI result.
 
 ## Decisive detector evidence
 
@@ -102,7 +116,7 @@ Production lesson: recover spontaneous owner syntax, preserve its uneven thought
 
 The durable experiment and result artifacts are registered in `articles/INDEX.json`. The decisive current files are the R20 result, R21 result, R22 candidate, R22 exact boundary, and R22 preflight named above.
 
-## Known Human material protected in R22
+## Known Human material protected in R23
 
 - owner-preferred Introduction;
 - owner-reported Human/medium physical-state surface and Human/high personal core;
@@ -119,25 +133,24 @@ Joel's Brave/Pangram Professional session completed the exact R22 check at `2026
 
 ## Blockers / unresolved
 
-- Exact R22 is below the publication gate at 60% Human.
-- Six localized whole-article contextual regions require preservation-clean movement, source recovery, or deletion of duplicated explanation.
+- Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
+- Exact R23 Pangram status is unresolved; its hash has no result, reservation, or ambiguous submission yet.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Build one R23 production candidate that keeps all R22 Human segments fixed and repairs the six localized contextual regions without losing protected functions.
-- Re-run preservation, architecture, safety/evidence, link, and native-object preflight before any new detector measurement.
-- Spend the next Pangram call only when the whole R23 result changes the publication decision.
+- Create and push one durable lab reservation for exact R23.
+- Submit the exact R23 headed boundary once in authenticated Brave/Pangram with plagiarism off, verify live-field equality, and bind the completed History record.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Freeze the six R22 Human segments and the exact R21 owner-source cores.
-2. Build R23 by breaking the stacked short-section taxonomy, separating independently Human modality prose from polished bridges, routing safety/evidence functions to natural local sentences, and deleting duplicated explanation rather than paraphrasing it.
-3. Produce a new exact headed boundary and preservation/architecture receipt with zero unexplained substantive deltas and the 16-link/8-object gates intact.
-4. Reserve and submit one decision-changing whole GUI call only after those gates pass; bind it to History and persist it before any further call.
-5. If and only if that exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+1. Commit and push the frozen R23 candidate, exact boundary, preflight, and this state checkpoint.
+2. Reserve exact SHA `d0d957892e4ba9895124287d0dcf78ebf33f2e5a6421a64fb961de5b24eb3589` in the lab with a one-call cap.
+3. Submit it once in Pangram, recover its exact score/segments/History identity, and persist the result before another paid call.
+4. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+5. If it is lower, preserve its Human segments and repair only the new decision-relevant localization; never repeat R22 or R23.
 
 ## Hard rules
 
