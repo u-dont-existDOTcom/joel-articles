@@ -190,7 +190,14 @@
         {"path": "articles/somatic-therapies/experiments/R19-SKY-SAFETY-ONLY-20260828.txt", "sha256": "174a669e550a6dd72049bcbf6532953d318835c8fe4552ae8a6ef182b46d960d", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R19-SKY-OUTCOME-ONLY-20260828.txt", "sha256": "db3a69e10c8841e8187f47d523a2a9dee272566b409dca502f4fb9f707c54be8", "role": "detector_input"},
         {"path": "articles/somatic-therapies/experiments/R19-CONTROLLED-FUNCTION-SPLIT-PRESERVATION-20260828.md", "sha256": "fb3dc18396b3bda4c96541017e662a1a7f3dbb4a777cb7d94d23bf46644fe066", "role": "preservation_and_preflight"},
-        {"path": "articles/somatic-therapies/experiments/R19-CONTROLLED-FUNCTION-SPLIT-RESULT-20260828.md", "sha256": "71c6552941f0c6ed5bb71120361e935121d77e7a7417a5dbc2299a0e7a652c8d", "role": "detector_experiment_result"}
+        {"path": "articles/somatic-therapies/experiments/R19-CONTROLLED-FUNCTION-SPLIT-RESULT-20260828.md", "sha256": "71c6552941f0c6ed5bb71120361e935121d77e7a7417a5dbc2299a0e7a652c8d", "role": "detector_experiment_result"},
+        {"path": "articles/somatic-therapies/experiments/R20-OWNER-RAW-BRAINSPOTTING-20260829.txt", "sha256": "0e71f51b15f56887ad89d18cf34fa2eff333810052cbd0a20bb2734b44c1ce80", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R20-OWNER-RAW-BRAINSPOTTING-EMDR-CONTRAST-20260829.txt", "sha256": "209d95a70f8b5490d5f4d728aec1b0547d0965d3413de6b37995c3eff8594fad", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R20-OWNER-RAW-SHAKING-20260829.txt", "sha256": "18eef9de7e3edea7d6af6c14d878e4809b6747c974358da9ec7af6d5d4a310c8", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R20-OWNER-PUBLISHED-PROTECTOR-20260829.txt", "sha256": "32d142f4eb074022f20c40f839ec4b40e72a4c64ccd3873e8b077b4511bc44d6", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R20-OWNER-GUIDE-WITNESS-BORROWED-20260829.txt", "sha256": "3b3e934a99a2d454e326e13701f684272b911130d7cc82417f02aaa040867165", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R20-OWNER-GUIDE-SELF-HYPNOSIS-SAFETY-20260829.txt", "sha256": "050e1c832ae344b98070ff8a796c47b00bd21c38bfa9138b25e3d24854b9ccbb", "role": "detector_input"},
+        {"path": "articles/somatic-therapies/experiments/R20-DIRECT-OWNER-SOURCE-PRESERVATION-20260829.md", "sha256": "e306f76039faf673673d0b743581b0821f928f19f9cadf8a17d8457884206e37", "role": "preservation_and_preflight"}
       ]
     }
   ]
