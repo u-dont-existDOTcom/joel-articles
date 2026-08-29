@@ -405,6 +405,7 @@ R38 is the new best completed production baseline at Human `90%`. The entire mov
 - R39 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed, but displayed AI surface increased by `68` characters because the new adjacency pulled bounded self-hypnosis into AI. R39 is discarded and its hash is blocked from repetition.
 - R40 readiness-at-reparenting-owner-boundary candidate returns exactly to R38, moves the complete readiness paragraph unchanged after the Human/high heart-loop owner material, restores the known-Human self-hypnosis/body-tension adjacency, and passes every non-detector eligibility gate.
 - R40 final headed GUI completed once at Human `90%` / AI `10%`; exact History binding passed and readiness became Human, but the following witness/Somatic Experiencing material joined Yoga in AI, producing a net `109`-character regression. R40 is discarded and blocked from repetition.
+- R41 official-TCTSY source-recovery candidate returns exactly to R38, changes only the isolated Yoga paragraph, retains every owner safety/agency claim, preserves every R38 Human span, and passes claim-fidelity, source, coherence, and all other non-detector gates.
 
 ## Decisive detector evidence
 
@@ -571,15 +572,16 @@ R40's one submit action began at `2026-08-29T17:08:06.660Z`; its unique History 
 - Preserve R39's compositional lesson: semantic ownership is necessary but not sufficient; the final readiness sentence composed Human with downstream body-tension/heart-access material, while the first two sentences destabilized the compact self-hypnosis boundary.
 - Discard R40 and return exactly to R38. Readiness can become Human at the heart-loop owner boundary, but the placement creates a larger downstream witness/Somatic Experiencing/Yoga AI run.
 - Preserve R40's whole-boundary lesson: never retain a locally Human routed unit without measuring immediate downstream spillover and total displayed AI surface.
-- Continue with one evidence-led intervention that preserves every claim, restores all R38 Human regions, and does not repeat readiness routing at either failed boundary.
+- Run R41 once: source-recover only the independently isolated Yoga paragraph from the official TCTSY participant-choice surface while retaining every owner preference and all R38 Human regions.
+- Treat R41 as a published-source recovery test, not another local Yoga paraphrase; reject it if exact whole highlighting, claim fidelity, or article coherence regresses.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Persist and push the exact R40 result and cross-section-spillover lesson in both repositories without touching the registered master.
-2. Return exactly to R38 and target an independently isolated remaining region with a source-grounded or architecture-led intervention that does not disturb R38's Human boundaries.
-3. Run preservation/coherence gates, reserve only a decision-changing exact hash, submit once through the reusable dashboard, and bind History before further work.
+1. Persist and push the exact R41 candidate, headed boundary, source/claim/coherence proof, and state checkpoint without touching the registered master.
+2. Reserve one decision-changing call after fresh local and authenticated-History duplicate defense.
+3. Submit once through the reusable dashboard, bind exact History text, and compare exact segment totals and downstream boundaries before any retention decision.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
