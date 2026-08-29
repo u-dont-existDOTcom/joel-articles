@@ -28,10 +28,11 @@ R57 returns exactly to the best production-complete R56 architecture and changes
 - exact headed boundary: `experiments/R57-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `576af9341c91bc888f030dddedf37c41ddaf97eb70475e175dec43527e8f1837`;
 - size: 2,116 whitespace words / 11,959 UTF-8 bytes / 11,911 Unicode characters / terminal newline;
 - preflight: `experiments/R57-HOUSEMATE-LOOP-ORGANIC-ENDING-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- exact result: `experiments/R57-FINAL-GUI-RESULT-20260829.md`;
 - production completeness, preservation, claim fidelity, coherence, architecture, safety/evidence, links, native objects, and exact extraction: PASS;
 - registered article authority impact: none.
 
-R57 changes thought form and the reader's landing rather than cycling synonyms. It is eligible for one exact whole headed call after durable reservation and fresh duplicate defense.
+The exact R57 headed check completed from one accepted action at Human `94%` / AI `6%`; an ambiguous browser-control timeout was resolved without retry from the completed dashboard, unique newest History record, and exact text binding. Every R56 segment reproduced except the final unit. The story-loop ending remains wholly AI and expands from 181 to 363 characters, raising total displayed AI from 473 to 655. Discard R57, retain R56, and close story-loop organic application at this destination.
 
 ### R56 reaches 96% Human and becomes the production-complete baseline
 
@@ -742,6 +743,8 @@ R55's one submit action began at `2026-08-29T19:22:40.582Z`; its unique History 
 
 R56's one submit action began at `2026-08-29T19:32:30.806Z`; its unique History record is `https://www.pangram.com/history?history=bb4689eb-88f0-4b5b-8de0-3feb6ab3438b`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R56 submission. Do not repeat SHA `5f6aeca9ad6abe8b7940a1f34ed6c66fef0fe4cd335ddc882a5caac4c7030e34`.
 
+R57's one submit action began at `2026-08-29T19:42:12.188Z` and returned an ambiguous browser-control timeout after the page entered `Checking`. No retry occurred. The completed dashboard plus unique History record `https://www.pangram.com/history?history=6544bade-2efe-41f0-8598-0423dea10aaa` and exact two-page stored-text binding prove acceptance. There is no pending or ambiguous R57 submission. Do not repeat SHA `576af9341c91bc888f030dddedf37c41ddaf97eb70475e175dec43527e8f1837`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -779,7 +782,7 @@ R56's one submit action began at `2026-08-29T19:32:30.806Z`; its unique History 
 - Exact R54 is complete at 95% Human, expands exact AI by 51 characters versus R52, and is blocked from repetition.
 - Exact R55 is complete at 94% Human, has a net 103-character exact AI regression from R52, and is blocked from repetition.
 - Exact R56 is complete at 96% Human, is the best production-complete baseline, reduces exact displayed AI by 99 characters versus R52, and is blocked from repetition.
-- Exact R57 is frozen as a production-complete organic-ending candidate and is awaiting its sole authorized call.
+- Exact R57 is complete at 94% Human, has a net 182-character exact AI regression from R56, and is blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -816,16 +819,17 @@ R56's one submit action began at `2026-08-29T19:32:30.806Z`; its unique History 
 - Preserve R54's source lesson: the complete conditional owner-source realization remains wholly inside the post-restimulation AI region and enlarges it by 51 characters. Close source and synonym variants at that destination; do not infer a phrase or owner-source blacklist.
 - Preserve R55's topology lesson: converting borrowed adulthood from definition to ordinary live use remains wholly AI beside restimulation and enlarges the region by 103 characters. Close micro-variants there; the next change must alter article function or architecture.
 - Preserve R56's final-safety-floor lesson: routing the exact compact borrowed function after the complete Sky/Vagal section reduces its late AI surface from 280 to 181 characters and makes the intervening 6,181-character span Human. Retain this architecture. A successor must keep the full borrowed-adulthood claim and improve the organic ending; do not delete the function or reopen closed synonym and placement variants.
+- Preserve R57's story-loop lesson: concrete application to the existing housemate conflict remains wholly AI at the final-safety-floor destination and expands the ending by 182 exact AI characters. Close this realization and sentence-level variants; concrete thought development is not context-free detector medicine.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the exact R57 candidate and preflight without touching the registered master.
-2. Reserve and run R57 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
-3. Retain only if exact segment accounting improves on R56 without destabilizing any frozen Human span.
-4. Address the exact Yoga paragraph only through a later whole-boundary architecture change with genuine editorial value; all local paraphrase, source, split, and routing variants are closed.
+1. Keep exact R56 frozen as the claim-complete, coherent production baseline.
+2. Do not make another final borrowed-adulthood microvariant. The next intervention must change article architecture or recover a materially different owner-shaped surface while preserving the full function.
+3. Address the exact Yoga paragraph only through a later whole-boundary architecture change with genuine editorial value; all local paraphrase, source, split, and routing variants are closed.
+4. Reserve and spend a Pangram call only when the exact result will change the editorial decision; persist every result and lesson before another candidate.
 5. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -866,5 +870,6 @@ R56's one submit action began at `2026-08-29T19:32:30.806Z`; its unique History 
 - R56 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
 - R56 is complete at 96% Human, is the best production-complete baseline, and is explicitly blocked from repetition.
 - R57 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
+- R57 is complete at 94% Human, has a net 182-character exact AI regression from R56, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
