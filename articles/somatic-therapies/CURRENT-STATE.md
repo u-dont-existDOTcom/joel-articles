@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R52 production-complete distributed restoration is frozen and GUI-eligible
+### R52 is the new best production-complete baseline at 95% Human
 
 R52 restores every function withheld by R48–R51 through separate natural owners: no-stacking follows the exact change-one-thing rule; cognitive integration follows the exact lived outcome; the restimulation check remains separate; and borrowed adulthood follows under its own section rather than the closed compact Light-CBT destination. Only the moved no-stacking pronoun changes from `it` to explicit `EMDR`. Every claim, safety function, link, and native object is present.
 
@@ -28,10 +28,11 @@ R52 restores every function withheld by R48–R51 through separate natural owner
 - exact headed boundary: `experiments/R52-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5e216229ea6d4d5a7febcd5906c3ca487f0a03a20e4f6bbd74849f8961470840`;
 - size: 2,076 whitespace words / 11,775 UTF-8 bytes / 11,727 Unicode characters / terminal newline;
 - preflight: `experiments/R52-DISTRIBUTED-PROTECTED-FUNCTION-RESTORATION-PRESERVATION-AND-PREFLIGHT-20260829.md`;
+- exact result: `experiments/R52-FINAL-GUI-RESULT-20260829.md`;
 - production completeness, preservation, claim fidelity, coherence, architecture, links, native objects, and exact extraction: PASS;
 - registered article authority impact: none.
 
-R52 is the first production-complete restoration after the diagnostic sequence. It is eligible for one exact whole headed call; no diagnostic omission can supersede it.
+The exact R52 headed check completed from one click at Human `95%` / AI `5%`. It improves total displayed AI from R38's 1,115 to 572 characters while restoring every protected claim. The no-stacking route and cognitive-integration route are Human inside a 5,515-character stable span and are retained. Borrowed adulthood at the post-restimulation destination forms a 280-character AI span together with the restimulation micro-section. Change only borrowed adulthood's destination next. The exact Yoga paragraph remains the other 292-character AI segment.
 
 ### R51 reached 97% Human diagnostically; no-stacking is necessary for the late interaction
 
@@ -662,6 +663,8 @@ R50's one submit action began at `2026-08-29T18:46:38.096Z`; its unique History 
 
 R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History record is `https://www.pangram.com/history?history=1c8fb2fd-038d-4c37-b926-27d9a41f8900`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R51 submission. Do not repeat SHA `5d3c2a2295b773fd80d1988cc0fa25eca457dfa00d033b75b79d086d7fd78515`.
 
+R52's one submit action began at `2026-08-29T19:01:18.342Z`; its unique History record is `https://www.pangram.com/history?history=563dca71-25b1-4a7d-aabd-1deacb9ad069`. The dashboard completed normally, the plagiarism option remained off, and exact two-page stored-text binding passed. There is no pending or ambiguous R52 submission. Do not repeat SHA `5e216229ea6d4d5a7febcd5906c3ca487f0a03a20e4f6bbd74849f8961470840`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -694,7 +697,7 @@ R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History 
 - Exact R49 is below the publication gate at 88% Human, has a net 253-character exact-segment regression, and is complete/blocked from repetition.
 - Exact R50 is complete at 96% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
 - Exact R51 is complete at 97% Human as a production-incomplete/never-promotable protected-function diagnostic and is blocked from repetition.
-- Exact R52 is frozen as a production-complete candidate and is awaiting its sole authorized call.
+- Exact R52 is complete at 95% Human, is the best production-complete baseline, and is blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
@@ -726,15 +729,16 @@ R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History 
 - Preserve R49's restoration lesson: R48's gain depends on functional withholding, not merely stronger heading separation. Close heading-strength variants at the Light-CBT destination.
 - Preserve R50's decomposition lesson: the integration cluster accounts for 183 characters of R48's residual, but the exact no-stacking plus next-day aftercare pair remains an independent 203-character AI span. Freeze the Human immediate aftercare sentence and do not delete protected integration claims.
 - Preserve R51's aftercare lesson: exact delayed checks are Human when no-stacking is absent, so delayed checks are not sufficient for the residual and no-stacking is necessary for the combined interaction. Keep delayed effects under EMDR; restore no-stacking through distributed safety architecture; do not subdivide phrases or symptoms.
+- Preserve R52's production lesson: the routed no-stacking safety claim and cognitive-integration section remain Human in whole context. Borrowed adulthood at the post-restimulation destination alone forms a new 280-character AI span with restimulation. Retain the two successful routes and change only borrowed adulthood's destination.
 - Do not spend more Yoga paraphrase, source-recovery, blank-line, or routing calls; do not spend more heading calls, reuse the closed R39/R40/R43 readiness destinations, or reroute delayed EMDR effects away from the architecture that owns them.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the exact R52 production preflight without touching the registered master.
-2. Reserve and run R52 once with fresh History duplicate defense, exact SHA/text binding, plagiarism off, and one click.
-3. Retain only if exact segment accounting improves on R38 without new spillover; all editorial gates remain controlling regardless of score.
+1. Persist and push the exact R52 result and routing lesson in both repositories without touching the registered master.
+2. Return exactly to R52 and move only the complete borrowed-adulthood section to a different natural owner boundary. Preserve the successful no-stacking and cognitive-integration routes byte-for-byte.
+3. Run preservation, coherence, architecture, link, native-object, and extraction gates before any whole call. Do not reopen closed Yoga-local variants.
 4. If and only if the exact production-complete result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -766,6 +770,6 @@ R51's one submit action began at `2026-08-29T18:53:30.038Z`; its unique History 
 - R49 is complete at 88% Human, has a net 253-character exact-segment regression, and is explicitly blocked from repetition.
 - R50 is complete at 96% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
 - R51 is complete at 97% Human as a production-incomplete, permanently non-promotable diagnostic and is explicitly blocked from repetition.
-- R52 is production-complete, non-authoritative, and limited to one exact submission after durable reservation.
+- R52 is complete at 95% Human, is the best production-complete baseline, and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
