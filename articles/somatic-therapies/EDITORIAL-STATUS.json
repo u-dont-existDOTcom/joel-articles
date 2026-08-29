@@ -26,7 +26,7 @@
     {
       "id": "detector",
       "status": "blocked",
-      "evidence": "Exact R24 final headed GUI result is Mixed at AI 28% / Human 72%, with exact History binding to report a9aab5ac-eb3c-4839-a8b1-39b43c889c7c. R25 exact headed SHA 4ebcdd0f0d4d17036327ef6268bcb4ecf0f92e013ae0ffc13a3f242a4872644d is preflight-clean and eligible for one new whole measurement; publication remains blocked unless it reaches 100% Human."
+      "evidence": "Exact R25 final headed GUI result is Mixed at AI 31% / Human 69%, with exact History binding to report d6ae6b73-5dfe-45d6-b0c8-a03ff0a3c98a. R25 fails Joel's mandatory 100%-Human gate; three contextual AI runs remain localized and its three Human segments are now frozen."
     },
     {
       "id": "citation-review",
