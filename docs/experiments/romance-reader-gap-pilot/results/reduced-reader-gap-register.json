@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "article": {
+    "id": "romance",
+    "title": "Romance",
+    "master_path": "articles/romance/master.md",
+    "master_sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c",
+    "architecture_path": "articles/romance/ARCHITECTURE.md"
+  },
+  "authority": {
+    "status": "diagnostic-experiment-only",
+    "rule": "This reduced register compares the hidden pilot, independent Pro result, and external benchmark. It does not authorize prose changes."
+  },
+  "evidence": {
+    "independent_result_sha256": "355f02e2af2cfc4d9d9a987dd1418e6d68230798eb6ef70738ce6133c731d1fd",
+    "independent_result_date": "2026-08-29",
+    "hidden_register": "docs/experiments/romance-reader-gap-pilot/reader-gap-register.json",
+    "comparison": "docs/experiments/romance-reader-gap-pilot/results/INDEPENDENT-PRO-COMPARISON-20260829.md"
+  },
+  "sections": [
+    {
+      "id": "opening",
+      "label": "Opening / promise",
+      "subpath": null
+    },
+    {
+      "id": "love",
+      "label": "What we mean by love",
+      "subpath": "#What we mean by “love” ❤️"
+    },
+    {
+      "id": "sex",
+      "label": "Talk about making love before you do it",
+      "subpath": "#Talk about making love before you do it"
+    },
+    {
+      "id": "readiness",
+      "label": "Should you be in a relationship at all?",
+      "subpath": "#Should you be in a relationship at all?"
+    },
+    {
+      "id": "finding",
+      "label": "How to find a partner",
+      "subpath": "##How to find a partner"
+    },
+    {
+      "id": "starting",
+      "label": "Starting on the right foot",
+      "subpath": "#Starting on the right foot"
+    },
+    {
+      "id": "crucible",
+      "label": "Are you ready for the crucible?",
+      "subpath": "#Are you ready for the crucible?"
+    },
+    {
+      "id": "maturity",
+      "label": "Different levels of maturity",
+      "subpath": "##When you and your partner are at different levels of maturity"
+    },
+    {
+      "id": "primal",
+      "label": "Primal attraction",
+      "subpath": "#Primal attraction: channeling the Divine Masculine & Feminine"
+    },
+    {
+      "id": "twin",
+      "label": "Twin Flames?",
+      "subpath": "#Twin Flames?"
+    },
+    {
+      "id": "community",
+      "label": "Two Pillars Don't Hold The Roof Up",
+      "subpath": "#Two Pillars Don't Hold The Roof Up"
+    },
+    {
+      "id": "choosing",
+      "label": "What are you actually choosing together?",
+      "subpath": "#What are you actually choosing together?"
+    },
+    {
+      "id": "conscious",
+      "label": "Doing it consciously",
+      "subpath": "#Doing it consciously 🧭"
+    },
+    {
+      "id": "already",
+      "label": "If you're already in it",
+      "subpath": "#If you’re already in it"
+    },
+    {
+      "id": "children",
+      "label": "Children",
+      "subpath": "#Children"
+    },
+    {
+      "id": "ending",
+      "label": "Ending consciously",
+      "subpath": "#Ending consciously"
+    },
+    {
+      "id": "tough",
+      "label": "Tough Love",
+      "subpath": "#Tough Love"
+    }
+  ],
+  "questions": [
+    {
+      "id": "R001",
+      "kind": "gap-candidate",
+      "question": "How does the article distinguish temporary erosion of desire that love should carry through from durable incompatibility or an appropriate ending?",
+      "origins": [
+        "independent-blind",
+        "hidden-G001",
+        "hidden-G002",
+        "hidden-G004"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "love",
+      "answer_sections": [
+        "love",
+        "maturity",
+        "already",
+        "ending"
+      ],
+      "gap_classes": [
+        "boundary-gap",
+        "composition-gap"
+      ],
+      "coverage": "partial",
+      "importance": "high",
+      "confidence": "high",
+      "disposition": "connect-existing-material",
+      "note": "Independent Pro classification: candidate. The article supplies multiple indicators but does not visibly join them into one stable boundary."
+    },
+    {
+      "id": "R002",
+      "kind": "gap-candidate",
+      "question": "When discussion reveals mismatches in libido, sexual meaning, kink, children, or relationship intent, how should the pair decide whether to proceed, negotiate, or stop?",
+      "origins": [
+        "independent-blind",
+        "hidden-G004"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "sex",
+      "answer_sections": [
+        "sex",
+        "starting",
+        "conscious",
+        "choosing"
+      ],
+      "gap_classes": [
+        "boundary-gap",
+        "practical-gap"
+      ],
+      "coverage": "partial",
+      "importance": "high",
+      "confidence": "medium",
+      "disposition": "review",
+      "note": "Independent Pro classification: unclear. Existing discernment practices are present, but no final negotiable-versus-disqualifying criterion is stated."
+    },
+    {
+      "id": "R003",
+      "kind": "gap-candidate",
+      "question": "How can a couple tell whether poor sexual fit is likely to deepen through a co-created bond or instead means they should remain friends?",
+      "origins": [
+        "independent-blind"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "starting",
+      "answer_sections": [
+        "starting"
+      ],
+      "gap_classes": [
+        "boundary-gap",
+        "practical-gap"
+      ],
+      "coverage": "thin",
+      "importance": "high",
+      "confidence": "high",
+      "disposition": "review",
+      "note": "Independent Pro classification: candidate. This was the clearest genuinely new finding not already explicit in the hidden pilot."
+    },
+    {
+      "id": "R004",
+      "kind": "gap-candidate",
+      "question": "Which masculine–feminine claims are personal erotic patterns, archetypal descriptions, broad tendencies, or advice couples should deliberately cultivate?",
+      "origins": [
+        "independent-blind"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "primal",
+      "answer_sections": [
+        "opening",
+        "primal"
+      ],
+      "gap_classes": [
+        "scope-signaling-gap",
+        "attribution-gap"
+      ],
+      "coverage": "partial",
+      "importance": "medium",
+      "confidence": "medium",
+      "disposition": "review",
+      "note": "Independent Pro classification: unclear. This is a scope/attribution issue, not authority to neutralize or soften Joel's substantive argument."
+    },
+    {
+      "id": "R005",
+      "kind": "gap-candidate",
+      "question": "How can a couple distinguish jealousy that repeats an old insecurity from jealousy accurately signaling that the present relationship is insecure or changing?",
+      "origins": [
+        "independent-blind"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "choosing",
+      "answer_sections": [
+        "choosing"
+      ],
+      "gap_classes": [
+        "boundary-gap"
+      ],
+      "coverage": "partial",
+      "importance": "high",
+      "confidence": "medium",
+      "disposition": "review",
+      "note": "Independent Pro classification: unclear. The article names both possibilities and recommends direct discussion, but no shared threshold."
+    },
+    {
+      "id": "R006",
+      "kind": "gap-candidate",
+      "question": "How can someone tell whether broken trust is repairable, requires changing the form of the relationship, or has reached the point where ending is the only viable option?",
+      "origins": [
+        "independent-blind",
+        "hidden-G001",
+        "hidden-G002"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "already",
+      "answer_sections": [
+        "already",
+        "ending"
+      ],
+      "gap_classes": [
+        "boundary-gap",
+        "composition-gap"
+      ],
+      "coverage": "partial",
+      "importance": "high",
+      "confidence": "medium",
+      "disposition": "connect-existing-material",
+      "note": "Independent Pro classification: unclear. This sharpens the robust workability/ending cluster in a later article section."
+    },
+    {
+      "id": "R007",
+      "kind": "gap-candidate",
+      "question": "What obligations does a former parental figure owe a child or stepchild when continued contact is blocked, legally risky, or likely to intensify the adults' conflict?",
+      "origins": [
+        "independent-blind"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "children",
+      "answer_sections": [
+        "children"
+      ],
+      "gap_classes": [
+        "boundary-gap",
+        "edge-case-gap"
+      ],
+      "coverage": "partial",
+      "importance": "high",
+      "confidence": "medium",
+      "disposition": "review",
+      "note": "Independent Pro classification: unclear. The general obligation not to vanish meets a real blocked-contact/legal-risk exception."
+    },
+    {
+      "id": "R008",
+      "kind": "gap-candidate",
+      "question": "After a breakup, how should someone decide what truth to disclose, to whom, and how publicly?",
+      "origins": [
+        "independent-blind"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "ending",
+      "answer_sections": [
+        "ending"
+      ],
+      "gap_classes": [
+        "boundary-gap",
+        "practical-gap"
+      ],
+      "coverage": "partial",
+      "importance": "high",
+      "confidence": "medium",
+      "disposition": "review",
+      "note": "Independent Pro classification: unclear. The article rejects both demonization and concealment but leaves the publicity boundary context-dependent."
+    },
+    {
+      "id": "A001",
+      "kind": "coverage-control",
+      "question": "How can someone distinguish grounded love for a real or emerging person from dangerous idealization?",
+      "origins": [
+        "independent-blind",
+        "hidden-G005"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "starting",
+      "answer_sections": [
+        "starting",
+        "twin",
+        "ending"
+      ],
+      "gap_classes": [],
+      "coverage": "answered-later",
+      "importance": "high",
+      "confidence": "high",
+      "disposition": "no-gap-distributed-answer",
+      "note": "The independent reader reproduced this central question and judged the article's distributed treatment sufficient."
+    },
+    {
+      "id": "A002",
+      "kind": "coverage-control",
+      "question": "What should a trustworthy outside-community role look like without becoming another partisan echo chamber?",
+      "origins": [
+        "independent-blind",
+        "pilot-control"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "starting",
+      "answer_sections": [
+        "community",
+        "ending"
+      ],
+      "gap_classes": [],
+      "coverage": "answered-later",
+      "importance": "high",
+      "confidence": "high",
+      "disposition": "no-gap",
+      "note": "The independent reader found the mutual-friend/witness/privacy/bias treatment sufficient."
+    },
+    {
+      "id": "A003",
+      "kind": "coverage-control",
+      "question": "How can a man express vulnerability and receive support without suppressing needs or making one woman his only confidant?",
+      "origins": [
+        "independent-blind",
+        "pilot-control"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "primal",
+      "answer_sections": [
+        "crucible",
+        "community",
+        "primal"
+      ],
+      "gap_classes": [],
+      "coverage": "answered-later",
+      "importance": "high",
+      "confidence": "high",
+      "disposition": "no-gap-distributed-answer",
+      "note": "The article routes support through peers, friends, groups, community, practices, and non-partner sources of beauty while allowing vulnerability."
+    },
+    {
+      "id": "A004",
+      "kind": "coverage-control",
+      "question": "How should intense bodily distress be distinguished from coercion or relational danger?",
+      "origins": [
+        "independent-blind",
+        "hidden-G002"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "crucible",
+      "answer_sections": [
+        "crucible",
+        "ending"
+      ],
+      "gap_classes": [],
+      "coverage": "answered",
+      "importance": "high",
+      "confidence": "high",
+      "disposition": "no-gap",
+      "note": "The independent reader judged the article's safety boundary sufficient: fear of saying no, telling truth, or leaving moves the problem out of mutual-trigger framing."
+    },
+    {
+      "id": "A005",
+      "kind": "coverage-control",
+      "question": "What concrete actions and obligations can constitute honest commitment when feelings cannot be guaranteed?",
+      "origins": [
+        "independent-blind",
+        "pilot-control"
+      ],
+      "independent_support": [
+        "article-internal-blind"
+      ],
+      "trigger_section": "choosing",
+      "answer_sections": [
+        "choosing",
+        "children",
+        "ending"
+      ],
+      "gap_classes": [],
+      "coverage": "answered-later",
+      "importance": "high",
+      "confidence": "high",
+      "disposition": "no-gap",
+      "note": "The independent reader judged the action-based commitment model sufficiently answered."
+    },
+    {
+      "id": "E001",
+      "kind": "gap-candidate",
+      "question": "Once children arrive, how can partners keep the romantic relationship alive rather than becoming only co-managers and parents?",
+      "origins": [
+        "hidden-pilot",
+        "external-benchmark"
+      ],
+      "independent_support": [
+        "research-supported",
+        "framework-supported",
+        "actual-reader-supported"
+      ],
+      "trigger_section": "children",
+      "answer_sections": [
+        "love",
+        "sex",
+        "community",
+        "children"
+      ],
+      "gap_classes": [
+        "external-demand-opportunity"
+      ],
+      "coverage": "thin",
+      "importance": "high",
+      "confidence": "high",
+      "disposition": "external-only-not-blind-validated",
+      "note": "Strong external support, but the independent article-internal reader did not reproduce this as a live gap."
+    },
+    {
+      "id": "E002",
+      "kind": "gap-candidate",
+      "question": "Before merging lives, what should couples work out about money, labor, household responsibility, and dependency?",
+      "origins": [
+        "hidden-pilot",
+        "external-benchmark"
+      ],
+      "independent_support": [
+        "framework-supported",
+        "actual-reader-supported"
+      ],
+      "trigger_section": "choosing",
+      "answer_sections": [
+        "readiness",
+        "maturity",
+        "choosing",
+        "conscious"
+      ],
+      "gap_classes": [
+        "external-demand-opportunity",
+        "interlink-candidate"
+      ],
+      "coverage": "thin",
+      "importance": "high",
+      "confidence": "medium",
+      "disposition": "external-only-not-blind-validated",
+      "note": "Strong external demand, but no independent surviving question centered on finances, chores, labor, or household management."
+    },
+    {
+      "id": "E003",
+      "kind": "gap-candidate",
+      "question": "After an ordinary fight, what does successful repair actually consist of?",
+      "origins": [
+        "hidden-pilot",
+        "external-benchmark"
+      ],
+      "independent_support": [
+        "framework-supported",
+        "actual-reader-supported"
+      ],
+      "trigger_section": "starting",
+      "answer_sections": [
+        "conscious",
+        "already"
+      ],
+      "gap_classes": [
+        "external-demand-opportunity"
+      ],
+      "coverage": "partial",
+      "importance": "high",
+      "confidence": "medium",
+      "disposition": "external-only-not-blind-validated",
+      "note": "The independent reader generated repair-related questions but judged the relevant article material answered and did not preserve a generic ordinary-fight repair defect."
+    }
+  ],
+  "prefix_probes": []
+}
