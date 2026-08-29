@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "diagnostic-experiment-only",
+  "article": {
+    "id": "romance",
+    "master_sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c"
+  },
+  "independent_result": {
+    "received_date": "2026-08-29",
+    "sha256": "355f02e2af2cfc4d9d9a987dd1418e6d68230798eb6ef70738ce6133c731d1fd",
+    "byte_count": 41714,
+    "line_count": 780,
+    "promise_question_count": 4,
+    "checkpoint_count": 11,
+    "surviving_question_count": 32,
+    "defect_status_counts": {
+      "candidate": 2,
+      "unclear": 6,
+      "not-a-defect": 24
+    },
+    "coverage_counts": {
+      "answered": 11,
+      "answered-later": 10,
+      "partial": 8,
+      "thin": 1,
+      "intentionally-out-of-scope": 1,
+      "question-rejected-by-article": 1
+    }
+  },
+  "artifacts": {
+    "comparison": "docs/experiments/romance-reader-gap-pilot/results/INDEPENDENT-PRO-COMPARISON-20260829.md",
+    "reduced_register": "docs/experiments/romance-reader-gap-pilot/results/reduced-reader-gap-register.json"
+  },
+  "authority_note": "The exact raw result was received as a conversation attachment and is identified by SHA-256 above. This manifest and the comparison do not authorize article edits."
+}
