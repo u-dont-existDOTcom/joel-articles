@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R31 registered citation source recovery is preflight-clean and ready for one exact call
+### R31 completed at a new best 89% Human; recover only its 823-character late region next
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -208,6 +208,12 @@ R31 is the next decision-useful whole candidate:
 
 R31 is the first post-R30 direct registered-source recovery inside the late AI region. It leaves every other R29 word and the complete early region fixed, so the one exact headed call can distinguish source recovery from the failed heading-only route.
 
+The exact R31 boundary was submitted once in the correct signed-in `2nd gpt` Brave profile. The clean field exactly matched the frozen SHA, plagiarism was off, and the single click resolved without ambiguity. Pangram 4.0 returned `Mixed`, AI `11%`, Human `89%`, with 2,120 display words and the summary `AI-generated content appears in scattered patches`. History record `97d8de1f-186d-4c4e-8158-6eec6190425f` is unambiguously bound to the frozen text by exact pre-click equality and exact 2,086-word History concatenation after display-only whitespace collapse.
+
+Result artifact: `experiments/R31-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `25073edd` / `628a52d8` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R31 is the new best completed whole boundary, improving from R29 Human `85%` to Human `89%`. The exact early regions reproduce. The registered citation realization expands the Human middle by 519 characters through the complete Human/high R21 EMDR contrast. The late AI region shrinks from 1,334 to 823 characters and now begins at the conditional flooding/timing paragraph. Freeze the R31 citation and three Human regions, leave the complete early Yoga/TRE region untouched next, and change only the 823-character late region through direct registered/owner-source recovery.
+
 ## Completed
 
 - R17 isolated the exact Human Somatic Experiencing spine and closed the model-only rewrite lane.
@@ -231,6 +237,7 @@ R31 is the first post-R30 direct registered-source recovery inside the late AI r
 - R30 After EMDR structural-split candidate preserves every substantive R29 sentence, all three R29 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
 - R30 final headed GUI completed once at Human `84%` / AI `16%`; exact History binding passed and the hash is blocked from repetition.
 - R31 registered citation source-recovery candidate preserves all three R29 Human regions, the complete early Yoga/TRE region, and all three R21 Human/high cores; every non-detector eligibility gate passes for one new exact whole call.
+- R31 final headed GUI completed once at a new best Human `89%` / AI `11%`; exact History binding passed and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -247,6 +254,7 @@ R31 is the first post-R30 direct registered-source recovery inside the late AI r
 - R28 final headed GUI: Mixed; AI `21%`, Human `79%`; exact History report `d8ca094b-7307-4f5b-8fe8-9fea49f83554`; one completed call, zero duplicate or ambiguous submissions.
 - R29 final headed GUI: Mixed; AI `15%`, Human `85%`; exact History report `903a5728-6e25-4338-8128-1164c5ceb646`; one completed call, zero duplicate or ambiguous submissions.
 - R30 final headed GUI: Mixed; AI `16%`, Human `84%`; exact History report `09ae2ee4-fa96-4900-b49a-37737bec525c`; one completed call, zero duplicate or ambiguous submissions.
+- R31 final headed GUI: Mixed; AI `11%`, Human `89%`; exact History report `97d8de1f-186d-4c4e-8158-6eec6190425f`; one completed call, zero duplicate or ambiguous submissions.
 
 R22's six AI-marked contextual segments are:
 
@@ -334,6 +342,8 @@ R29 completed from one click beginning at `2026-08-29T15:11:41.587Z`; its unique
 
 R30 completed from one click beginning at `2026-08-29T15:21:50.302Z`; its unique History record is `https://www.pangram.com/history?history=09ae2ee4-fa96-4900-b49a-37737bec525c`. The plagiarism option remained off. There is no pending or ambiguous R30 submission. Do not repeat SHA `137b2990cff2c44812db5c9432f1c4e03bb1a3edf0486d43eb82aa14e36c629f`.
 
+R31 completed from one click beginning at `2026-08-29T15:29:59.001Z`; its unique History record is `https://www.pangram.com/history?history=97d8de1f-186d-4c4e-8158-6eec6190425f`. The plagiarism option remained off. There is no pending or ambiguous R31 submission. Do not repeat SHA `849c1917b149b7e5c0573e845cf054e672324e4a835a7de3c047426df3385c50`.
+
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
@@ -345,22 +355,22 @@ R30 completed from one click beginning at `2026-08-29T15:21:50.302Z`; its unique
 - Exact R28 is below the publication gate at 79% Human and is complete/blocked from repetition.
 - Exact R29 is below the publication gate at 85% Human and is complete/blocked from repetition.
 - Exact R30 is below the publication gate at 84% Human and is complete/blocked from repetition.
-- Exact R31 is preflight-clean but not yet submitted.
+- Exact R31 is below the publication gate at 89% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Submit exact R31 once after durable reservation and bind its unique History result.
-- If R31 is below 100% Human, use its localization to decide whether to retain the registered citation realization before the next single-region repair.
+- Build the next candidate from exact R31, preserve its three Human regions, registered citation, complete early Yoga/TRE region, and all R21 cores, and change only the 823-character late region.
+- Recover one natural late function owner from registered/owner source with minimum normalization; do not combine unrelated late rewrites in one call.
 - Do not retain R30's `After EMDR` heading, reuse R27's broad first-person rewrite, or reuse R28's late structural arrangement.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the preflight-clean R31 artifacts.
-2. Reserve one decision-changing R31 call, verify the correct `2nd gpt` Brave History has no matching completed or pending hash, submit once, and bind History.
-3. Continue from the better contextual surface without repeating any completed hash.
+1. Persist and push the exact R31 result in both repositories.
+2. Build the next candidate from exact R31 and recover one natural owner/source unit inside its 823-character late AI region.
+3. Run all local gates, reserve one decision-changing call, submit once, and bind History before further work.
 4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
@@ -371,5 +381,6 @@ R30 completed from one click beginning at `2026-08-29T15:21:50.302Z`; its unique
 - R28 is complete at 79% Human and is explicitly blocked from repetition.
 - R29 is complete at 85% Human and is explicitly blocked from repetition.
 - R30 is complete at 84% Human and is explicitly blocked from repetition.
+- R31 is complete at 89% Human and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.
