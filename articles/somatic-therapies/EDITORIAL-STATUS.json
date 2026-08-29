@@ -11,12 +11,12 @@
     {
       "id": "humanization-architecture",
       "status": "passed",
-      "evidence": "R36 remains the best completed production baseline at 89% Human and a 409-character early AI region. R37's generic-wrapper removal regressed and is discarded. R38 routes the unchanged TRE safety paragraph to the owner-authored TRE/Shaking discussion while preserving every R36 sentence and protected function."
+      "evidence": "R38 is the best completed production baseline at 90% Human. Its unchanged TRE safety paragraph composes inside a 3,923-character Human owner region, reducing the early AI surface to the 292-character Yoga paragraph while every substantive sentence and protected function remains."
     },
     {
       "id": "fidelity",
       "status": "passed",
-      "evidence": "R38 forward/reverse traceability passed with zero unexplained substantive deltas. Every R36 word and sentence remains exact once; all 16 ordinary links and all 8 native/editor objects remain, the complete late region is byte-exact, and the TRE safety unit stays adjacent to an explicit TRE practice owner."
+      "evidence": "R38 forward/reverse traceability passed with zero unexplained substantive deltas. Every R36 word and sentence remains exact once; all 16 ordinary links and all 8 native/editor objects remain, the complete late region is byte-exact, and the moved TRE safety unit stays adjacent to an explicit owner-authored TRE practice discussion."
     },
     {
       "id": "owner-final-review",
@@ -26,7 +26,7 @@
     {
       "id": "detector",
       "status": "blocked",
-      "evidence": "Exact R37 final headed GUI result is Mixed at AI 11% / Human 89% and is discarded after exact late-boundary regression. Exact R38 is preflight-complete and awaits one reserved headed whole call; publication remains blocked unless an exact headed whole boundary reaches 100% Human."
+      "evidence": "Exact R38 final headed GUI result is Mostly Human at AI 10% / Human 90%, with exact History binding to report f81c1707-eaac-4eed-b2aa-3f5ac8eb50fd. The route is retained, but publication remains blocked unless an exact headed whole boundary reaches 100% Human."
     },
     {
       "id": "citation-review",
