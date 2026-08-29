@@ -2,6 +2,8 @@
 
 Status: **EXPERIMENT / DIAGNOSTIC ONLY.** Nothing in this directory is article authority or edit authorization.
 
+The pilot intentionally lives under `docs/experiments/`, not inside `articles/romance/`, because the registered article-family inventory is fail-closed: every file inside a registered article family must itself be registered. A disposable diagnostic Canvas should not acquire article-authority status merely because it visualizes an article.
+
 Frozen article under test:
 
 - article: `romance`
@@ -44,20 +46,27 @@ A whole-article model has hindsight and can underreport temporary confusion beca
 
 The register deliberately contains questions that the article **does answer**. If the method classifies those as gaps, the pilot is over-generating and should be repaired or abandoned.
 
+### D. External benchmark
+
+After the article-internal pass is frozen, compare surviving questions against mature relationship-assessment/education domains, relevant research, and a small sample of actual-reader questions. External prevalence is evidence of reader demand, not a completeness mandate.
+
 ## Initial read result
 
 The full frozen article was read before classification. The first repair hypothesis was rejected: the article does contain meaningful repair material later through outside help, individual practices, honesty, scheduled non-combative discussion, counseling, and temporary separation.
 
-The higher-value remaining candidates are:
+The initial higher-value candidates were longitudinal relationship health, trigger-versus-incompatibility, love-versus-idealization/attachment, and maintaining romance after children arrive.
 
-1. **G001 — longitudinal health:** how a reader knows a relationship is becoming healthier rather than merely more intense or entangled.
-2. **G002 — trigger vs incompatibility:** the middle boundary between a workable growth edge, fundamental incompatibility, and danger.
-3. **G005 — love vs idealization/attachment:** the article contains many pieces of this distinction but no compact reader-facing discriminant.
-4. **G006 — romance after children arrive:** children organize the article from the opening onward, but the dedicated Children section mostly addresses obligations and breakup/co-parenting rather than maintaining the couple while parenting.
+The external benchmark then materially changed the ranking. Ordinary-conflict repair and concrete money/labor/household alignment received substantially stronger independent support than the first pass gave them.
 
-Secondary candidates are ordinary-conflict repair (G003), tolerable mismatch (G004), shared money/labor/logistics (G007), and boundary-vs-control distinctions (G008).
+Current strongest review candidates are:
 
-These are **questions for editorial review, not findings that prose must be added**.
+1. **G006 — partnership after children:** how the romantic relationship survives the transition from couple to parents, not only how children are protected if the couple separates.
+2. **G003 — repair:** what successful repair after an ordinary fight actually consists of.
+3. **G007 — practical merging:** money, labor, household responsibility, dependency, and related expectations before lives merge.
+4. **G001/G002 cluster — health/workability:** how to tell whether the relationship is getting healthier and whether recurring pain is workable rather than merely intense, entangled, incompatible, or unsafe.
+5. **G005 — love vs idealization/attachment:** a major distributed question whose answer may already be the article's whole architecture rather than a missing checklist.
+
+These remain **questions for editorial review, not findings that prose must be added**.
 
 ## Controls already passing conceptually
 
@@ -72,8 +81,10 @@ The blind-prefix sequence also correctly predicts several next-section moves, in
 
 - `reader-gap-register.json` — diagnostic source register for questions, controls, and prefix probes.
 - `romance-reader-gap.canvas` — generated Obsidian JSON Canvas view.
-- `../../../..//scripts/generate_editorial_gap_canvas.py` — generic deterministic generator.
-- `../../../..//tests/test_generate_editorial_gap_canvas.py` — minimal fail-closed regression tests.
+- `EXTERNAL-BENCHMARK.md` — established-work and actual-reader pressure test.
+- `FRESH-READER-BLIND-PROTOCOL.md` — isolated protocol for a genuinely fresh model/account run.
+- `scripts/generate_editorial_gap_canvas.py` — generic deterministic generator at repository root.
+- `tests/test_generate_editorial_gap_canvas.py` — minimal fail-closed regression tests at repository root.
 
 ## Generate / validate
 
@@ -81,15 +92,15 @@ From repository root:
 
 ```bash
 python scripts/generate_editorial_gap_canvas.py \
-  articles/romance/experiments/reader-gap-pilot/reader-gap-register.json \
-  --out articles/romance/experiments/reader-gap-pilot/romance-reader-gap.canvas
+  docs/experiments/romance-reader-gap-pilot/reader-gap-register.json \
+  --out docs/experiments/romance-reader-gap-pilot/romance-reader-gap.canvas
 
 python scripts/generate_editorial_gap_canvas.py \
-  articles/romance/experiments/reader-gap-pilot/reader-gap-register.json \
+  docs/experiments/romance-reader-gap-pilot/reader-gap-register.json \
   --check-only
 ```
 
-Then open the repository root as an Obsidian vault and open `romance-reader-gap.canvas`. No Obsidian community plugin is required for the Canvas itself.
+Then open the repository root as an Obsidian vault and open `docs/experiments/romance-reader-gap-pilot/romance-reader-gap.canvas`. No Obsidian community plugin is required for the Canvas itself.
 
 ## Success criteria
 
@@ -103,6 +114,8 @@ Keep/invest further only if the pilot does at least one of the following better 
 
 Fail or simplify the architecture if it mostly produces generic “what about X?” questions, duplicates the multiscale ledger, encourages overcompletion, or creates more maintenance than editorial information.
 
-## Next experiment if this survives review
+## Next experiment
 
-Do **not** build Bases or a plugin yet. First run the same blind-prefix protocol through a genuinely fresh reader context/model and compare its question set with this first pass. The important measurement is not agreement between models; it is whether independently generated high-value questions survive full-text coverage checking and improve editorial judgment.
+Do **not** build Bases or a plugin yet. Run `FRESH-READER-BLIND-PROTOCOL.md` in a genuinely fresh reader context/model and freeze its output before exposing the register, Canvas, benchmark, PR body, or prior Romance discussion.
+
+The important measurement is not agreement between models. It is whether independently generated high-value questions survive full-text coverage checking and improve editorial judgment.
