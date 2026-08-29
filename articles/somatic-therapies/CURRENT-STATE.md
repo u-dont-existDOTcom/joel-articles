@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R23 exact whole GUI result is complete at 66% Human; publication remains blocked
+### R24 exact whole GUI result is complete at 72% Human; publication remains blocked
 
 Source checkpoint: `u-dont-existDOTcom/joel-articles@3e4613b` on the active branch.
 
@@ -43,7 +43,7 @@ Result artifact: `experiments/R23-FINAL-GUI-RESULT-20260829.md`. Durable lab res
 
 R23 improves over R22 (Human `60%` → `66%`) but fails Joel's mandatory 100%-Human publication gate. Yoga and Sky remain closed at 6/6. Gentle shaking and EMDR remain closed at 6/6 with exact Human/high R21 production cores. Brainspotting retains one intentionally unused local call. No completed whole hash may be repeated.
 
-R24 is now frozen for the next decision-useful whole measurement:
+R24 completed the next decision-useful whole measurement:
 
 - candidate: `experiments/R24-MINIMUM-CLOSURE-WHOLE-ARTICLE-CANDIDATE-20260829.md`, SHA-256 `ab0d982893e421598061e688bbcd1327c295f848f60cd2d193e736af513cb4c4`;
 - exact headed boundary: `experiments/R24-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt`, SHA-256 `5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b`;
@@ -57,7 +57,13 @@ R24 is now frozen for the next decision-useful whole measurement:
 - native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
 - article authority impact: none.
 
-R24 changes only R23's five AI-marked contextual regions. It removes repeated Louka/outcome closure, consolidates the repeated red paragraph cuts, keeps every safety function with its natural practice, and ends at the existing Sky embed without a generic summary. No local control or completed hash will be resubmitted.
+R24 changes only R23's five AI-marked contextual regions. It removes repeated Louka/outcome closure, consolidates the repeated red paragraph cuts, keeps every safety function with its natural practice, and ends at the existing Sky embed without a generic summary.
+
+The exact R24 boundary was submitted once in authenticated Brave/Pangram after fresh confirmation. Pangram 4.0 returned `Mixed`, AI `28%`, Human `72%`, with the summary `AI-generated content appears at the start and end` and a display count of 2,200 words. History record `a9aab5ac-eb3c-4839-a8b1-39b43c889c7c` is unambiguously bound to the frozen SHA: the live field exactly matched the local text before the click, and the eight stored History segments concatenate to an exact 2,164-word match after display-only whitespace collapse.
+
+Result artifact: `experiments/R24-FINAL-GUI-RESULT-20260829.md`. Durable lab reservation/result commits: `45b1252f` / `d3945024` on `u-dont-existDOTcom/pangram-humanization-lab@automation/pangram-fixed-batch`.
+
+R24 improves over R23 (Human `66%` → `72%`) but still fails the mandatory 100%-Human publication gate. Its four AI-marked regions are the stable 182-character Protector/self-hypnosis tail, the stable 248-character witness region, the reduced 425-character Yoga/TRE safety region, and a 2,554-character late run from the end of the lived outcome story through EMDR, borrowed adulthood, and Sky/Vagal safety. No completed whole hash may be repeated.
 
 ## Completed
 
@@ -69,6 +75,7 @@ R24 changes only R23's five AI-marked contextual regions. It removes repeated Lo
 - R22 final headed GUI completed once at Human `60%` / AI `40%`; exact History binding passed and the hash is blocked from repetition.
 - R23 contextual repair passed all non-detector preflight gates; its final headed GUI completed once at Human `66%` / AI `34%`, exact History binding passed, and the hash is blocked from repetition.
 - R24 minimum-closure candidate preserves the five R23 Human segments and passes every non-detector eligibility gate for one new exact whole call.
+- R24 final headed GUI completed once at Human `72%` / AI `28%`; exact History binding passed and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -78,6 +85,7 @@ R24 changes only R23's five AI-marked contextual regions. It removes repeated Lo
 - R18 whole GUI was withheld because all six fresh technical sections were AI/high.
 - R22 final headed GUI: Mixed; AI `40%`, Human `60%`; exact History report `2a5da025-9c0b-42c3-b59e-e35c40550efc`; one completed call, zero duplicate or ambiguous submissions.
 - R23 final headed GUI: Mixed; AI `34%`, Human `66%`; exact History report `e99bf274-4a19-4b91-9c61-ec7db77638f2`; one completed call, zero duplicate or ambiguous submissions.
+- R24 final headed GUI: Mixed; AI `28%`, Human `72%`; exact History report `a9aab5ac-eb3c-4839-a8b1-39b43c889c7c`; one completed call, zero duplicate or ambiguous submissions.
 
 R22's six AI-marked contextual segments are:
 
@@ -99,6 +107,8 @@ R23 reduced the AI-marked set to five segments:
 - outcome continuation through EMDR, borrowed adulthood, Sky/Vagal, and the final outcome test (`3,053`).
 
 R23 therefore strengthens the contextual interpretation. The short opening M01 subspan remains locally red in the whole article, and the 3,053-character late interaction persists even though it contains exact Human/high R21 prose and the lived Brainspotting story was moved out of it. The next repair should route or remove repeated closures and break that uninterrupted late modality/safety/outcome run; it should not hunt phrases or rewrite the protected Human cores.
+
+R24 reduces the problem to four start/end regions. Removing the generic Louka closure worked, and the Yoga/TRE span shrank from 753 to 425 characters. Paragraph consolidation did not clear the Protector/self-hypnosis or witness spans, which remained 182/248 characters. The late span shrank from 3,053 to 2,554 characters but now begins inside the otherwise Human lived story and still contains exact Human/high R21 EMDR. The next pass must change destinations or source realization for the two stable early functions and place a genuine Human owner boundary inside the late run rather than merely shortening it again.
 
 ### R17–R19: model-realized technical prose and compact editorial closure fail
 
@@ -144,34 +154,35 @@ The durable experiment and result artifacts are registered in `articles/INDEX.js
 
 ## Browser and duplicate-defense checkpoint
 
-Joel's Brave/Pangram Professional session completed the exact R23 check at `2026-08-29T11:14:22.726Z`. The result is present in History at `https://www.pangram.com/history?history=e99bf274-4a19-4b91-9c61-ec7db77638f2`. Action-time approval was obtained immediately before transmission. The plagiarism option remained off. There is no pending or ambiguous R23 submission. Do not repeat SHA `d0d957892e4ba9895124287d0dcf78ebf33f2e5a6421a64fb961de5b24eb3589`.
+Joel's Brave/Pangram Professional session completed the exact R24 check at `2026-08-29T11:36:43.426Z`. The result is present in History at `https://www.pangram.com/history?history=a9aab5ac-eb3c-4839-a8b1-39b43c889c7c`. Fresh confirmation was obtained immediately before transmission. The plagiarism option remained off. There is no pending or ambiguous R24 submission. Do not repeat SHA `5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b`.
 
 ## Blockers / unresolved
 
 - Exact R22 is below the publication gate at 60% Human and is complete/blocked from repetition.
 - Exact R23 is below the publication gate at 66% Human and is complete/blocked from repetition.
+- Exact R24 is below the publication gate at 72% Human and is complete/blocked from repetition.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Commit and push the frozen R24 candidate, exact boundary, preflight, and this state checkpoint.
-- Create one durable lab reservation for exact R24 SHA `5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b`.
-- Submit exact R24 once, with plagiarism off, and bind its completed History record before any next editorial or paid-call decision.
+- Persist and push the exact R24 result and History binding in both repositories.
+- Build a new candidate that preserves the four R24 Human segments, changes only the four localized start/end regions, and uses source/destination changes rather than another phrase-level paraphrase.
+- Run every non-detector gate, then reserve and submit only a new exact headed hash whose result will change the editorial decision.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push R24 and its passed preflight.
-2. Create and push one durable R24 lab reservation with a one-call cap and duplicate/history defenses.
-3. Submit exact R24 once, bind it to History, and persist the result before any further call.
-4. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
-5. If it remains below 100%, preserve its Human spans and use only its new decision-relevant localization; never repeat R22, R23, or R24.
+1. Persist and push R24's exact result.
+2. Create the next candidate by preserving the four R24 Human spans, moving or re-realizing the stable Protector/self-hypnosis and witness functions, further minimizing Yoga/TRE without losing safety, and inserting an existing Human owner boundary inside the late run.
+3. Run all non-detector gates, freeze a new exact headed boundary, and create one durable reservation.
+4. Submit the new hash once, bind it to History, and persist the result before any further call.
+5. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
 - Do not overwrite or promote the registered master with an experiment.
 - Do not alter owner locks or owner-final prose.
-- Do not repeat R22 or R23 after a completed or ambiguous submission.
+- Do not repeat R22, R23, or R24 after a completed or ambiguous submission.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.

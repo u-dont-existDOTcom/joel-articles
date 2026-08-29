@@ -305,6 +305,52 @@
         "pending_or_ambiguous": 0
       },
       "disposition": "R23 improves the whole boundary to 66% Human but fails the mandatory 100%-Human publication gate. Preserve its five Human segments, repair the five exact contextual boundaries, never repeat this hash, and leave registered master authority unchanged."
+    },
+    {
+      "id": "somatic-r24-final-whole-gui",
+      "role": "non_authoritative_minimum_closure_boundary",
+      "experiment_id": "somatic-r24-minimum-closure-r01-gui-20260829-a",
+      "source_commit": "ec295a7",
+      "source_path": "articles/somatic-therapies/experiments/R24-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt",
+      "text_sha256": "5eabd1e53d190fd754d5051c59e47cb923a007e6eaab1fd3a7c77727bb2ef80b",
+      "word_count": 2164,
+      "transport": "headed authenticated Brave/Pangram GUI",
+      "model": "pangram-4",
+      "version": "4.0",
+      "history_match_mode": "pre_click_exact_plus_history_whitespace_normalized_exact",
+      "history_record_id": "a9aab5ac-eb3c-4839-a8b1-39b43c889c7c",
+      "result": {
+        "headline": "AI Detected",
+        "prediction_short": "Mixed",
+        "fraction_ai": 0.28,
+        "fraction_human": 0.72,
+        "pangram_display_word_count": 2200,
+        "summary": "AI-generated content appears at the start and end"
+      },
+      "highlighted_segments": [
+        {"id":"text-segment-1","characters":182,"display_text_sha256":"4e3ad23a7fa882c678cef84bbe6feedfa8e56966e1e9228f1f0a0494013556f1","scope":"Protector action plus bounded self-hypnosis"},
+        {"id":"text-segment-3","characters":248,"display_text_sha256":"04a1f06af346307a9aa4f53f7977ea24b3537dd57194ed83e696234e2bee3dbc","scope":"witness heading and witness realization"},
+        {"id":"text-segment-5","characters":425,"display_text_sha256":"5096aa2f53cdc733b81bc89e1c2088b102818fef16dd72101fa9e68736ce9645","scope":"Yoga choice and exit plus TRE stop and neck support"},
+        {"id":"text-segment-7","characters":2554,"display_text_sha256":"0beecab943b368820e156fdc17aaa23c163dd9c6fb0bcfb26f63245dd807d83f","scope":"latter lived outcome through research, EMDR, borrowed adulthood, and Sky/Vagal safety"}
+      ],
+      "comparison": {
+        "r23_fraction_human": 0.66,
+        "human_delta": 0.06
+      },
+      "durable_evidence": {
+        "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+        "branch": "automation/pangram-fixed-batch",
+        "reservation_commit": "45b1252f",
+        "result_commit": "d3945024",
+        "recovery_path": "state/PANGRAM-LOCAL-SOMATIC-R24-FINAL-GUI-2026-08-29.md"
+      },
+      "call_accounting": {
+        "paid_gui_calls": 1,
+        "cache_hits": 0,
+        "duplicate_calls": 0,
+        "pending_or_ambiguous": 0
+      },
+      "disposition": "R24 improves the whole boundary to 72% Human but fails the mandatory 100%-Human publication gate. Preserve its four Human segments, repair the four stable start/end contextual boundaries, never repeat this hash, and leave registered master authority unchanged."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -340,7 +386,9 @@
     "r22_final_whole_gui_remaining_calls": 0,
     "r23_final_whole_gui_calls": 1,
     "r23_final_whole_gui_remaining_calls": 0,
-    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, or R23 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
+    "r24_final_whole_gui_calls": 1,
+    "r24_final_whole_gui_remaining_calls": 0,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, or R24 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
@@ -348,7 +396,8 @@
     "production_rule": "Prefer higher-authority source restoration and minimum-dose movement/consolidation before generating new prose. A source that itself tests AI can preserve factual/argument authority without serving as a detector-Human style baseline.",
     "final_r16": "The preservation-clean final whole boundary improved materially from R15 but remained Mixed at AI 0.7285796404.",
     "final_r22": "Direct owner-source recovery improved the headed whole boundary from 27.14203596% Human in R16 to 60% Human in R22. Six contextual segments remain AI-marked, including locally Human/high R21 prose, so adjacency and stacked editorial closure are the current production targets rather than phrase replacement.",
-    "final_r23": "Contextual unstacking improved the headed whole boundary from 60% Human in R22 to 66% Human in R23. Five exact regions remain AI-marked. The unchanged 182-character M01 subspan and independently Human/high R21 prose still flip inside the whole article, while the 3,053-character late interaction persisted despite moving the lived story; route closures to natural owners and break the late modality/safety/outcome run rather than replacing phrases."
+    "final_r23": "Contextual unstacking improved the headed whole boundary from 60% Human in R22 to 66% Human in R23. Five exact regions remain AI-marked. The unchanged 182-character M01 subspan and independently Human/high R21 prose still flip inside the whole article, while the 3,053-character late interaction persisted despite moving the lived story; route closures to natural owners and break the late modality/safety/outcome run rather than replacing phrases.",
+    "final_r24": "Minimum closure improved the headed whole boundary from 66% Human in R23 to 72% Human in R24. Four start/end regions remain AI-marked. Removing generic Louka closure worked and Yoga/TRE shrank, but the 182-character Protector/self-hypnosis and 248-character witness regions remained stable through paragraph consolidation, while a 2,554-character late run still absorbed the end of a Human lived story plus exact Human/high EMDR. The next repair requires destination or source-realization changes at the start and a genuine Human boundary inside the end run."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

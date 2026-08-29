@@ -26,7 +26,7 @@
     {
       "id": "detector",
       "status": "blocked",
-      "evidence": "Exact R23 final headed GUI result is Mixed at AI 34% / Human 66%, with exact History binding to report e99bf274-4a19-4b91-9c61-ec7db77638f2. R23 fails Joel's mandatory 100%-Human gate. R24 repairs only those five regions and is preflight-clean but has no detector result yet."
+      "evidence": "Exact R24 final headed GUI result is Mixed at AI 28% / Human 72%, with exact History binding to report a9aab5ac-eb3c-4839-a8b1-39b43c889c7c. R24 fails Joel's mandatory 100%-Human gate; four stable start/end contextual regions remain localized."
     },
     {
       "id": "citation-review",
