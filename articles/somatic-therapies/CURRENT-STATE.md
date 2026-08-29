@@ -20,7 +20,7 @@ Joel has granted standing publication/export permission and does not need to sup
 
 ## Current checkpoint
 
-### R28 late structural-unstacking candidate is preflight-clean
+### R28 click resolved; result recovery is blocked on the exact Pangram session
 
 Source checkpoint before R25 assembly: `u-dont-existDOTcom/joel-articles@c5ef07f` on the active branch.
 
@@ -142,7 +142,9 @@ R28 is the next decision-useful whole candidate:
 - native objects: seven inline placeholders in exact order plus the unchanged top-image invariant, 8/8 at HTML promotion;
 - article authority impact: none.
 
-R28 returns to the R26 surface and leaves the complete R26 Yoga/TRE region unchanged. It changes only late structure: the unchanged D’Antoni sentence moves beside the exact EMDR contrast, an empty divider is removed, and one redundant meta-heading is removed. Every substantive article sentence remains exact. This controlled one-region intervention is eligible for one reserved headed GUI measurement.
+R28 returns to the R26 surface and leaves the complete R26 Yoga/TRE region unchanged. It changes only late structure: the unchanged D’Antoni sentence moves beside the exact EMDR contrast, an empty divider is removed, and one redundant meta-heading is removed. Every substantive article sentence remains exact.
+
+The clean Pangram field exactly matched R28, plagiarism was off, and the single submit click promise resolved at `2026-08-29T13:02:44.458Z`. The authenticated browser session disconnected before the first result read. The call is therefore pending/ambiguous and its exact SHA is blocked from repetition. See `experiments/R28-GUI-SUBMISSION-AMBIGUITY-20260829.md` and lab checkpoint `5db85c5b`.
 
 ## Completed
 
@@ -162,6 +164,7 @@ R28 returns to the R26 surface and leaves the complete R26 Yoga/TRE region uncha
 - R27 two-region owner-sequence candidate preserves all three R26 Human segments and passes every non-detector eligibility gate for one new exact whole call.
 - R27 final headed GUI completed once at Human `77%` / AI `23%`; exact History binding passed and the hash is blocked from repetition.
 - R28 late structural-unstacking candidate preserves every substantive R26 sentence, all three R26 Human regions, and all three R21 Human/high cores; every non-detector eligibility gate passes.
+- R28 exact pre-click equality passed and one submit click promise resolved; result/History recovery remains pending and the hash is blocked from repetition.
 
 ## Decisive detector evidence
 
@@ -256,7 +259,7 @@ R26 completed at `2026-08-29T12:17:58.401Z`; its unique History record is `https
 
 R27 completed at `2026-08-29T12:36:10.640Z`; its unique History record is `https://www.pangram.com/history?history=5f94b713-9914-4328-91bf-4ba9a4d02be1`. The plagiarism option remained off. There is no pending or ambiguous R27 submission. Do not repeat SHA `7bfb6687ccb644a4c1bda7f9e1af2143559e75060373bcd486dc6c89ded04fdc`.
 
-R28 has passed every local eligibility gate but has not yet been transmitted. Its exact boundary SHA is `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`. A fresh History duplicate check and durable pre-click lab reservation remain mandatory.
+R28 passed every local eligibility gate and was reserved durably. Its exact boundary SHA is `3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2`. The single click promise resolved at `2026-08-29T13:02:44.458Z`, but the exact authenticated browser session disconnected before the result could be read. Focused reconnect attempts did not restore that session. Treat R28 as submitted and ambiguous; do not repeat it.
 
 ## Blockers / unresolved
 
@@ -266,28 +269,30 @@ R28 has passed every local eligibility gate but has not yet been transmitted. It
 - Exact R25 is below the publication gate at 69% Human and is complete/blocked from repetition.
 - Exact R26 is below the publication gate at 84% Human and is complete/blocked from repetition.
 - Exact R27 is below the publication gate at 77% Human and is complete/blocked from repetition.
-- Exact R28 has no detector result yet.
+- Exact R28 has no recoverable detector result yet; its resolved click makes the submission ambiguous and blocks repetition.
+- The exact authenticated Pangram browser session used for R22–R28 is disconnected. Another connected session does not expose that History sequence and cannot resolve the result.
 - Registered `master.html` remains unchanged and no HTML promotion has occurred.
 - Final citation/health/HTML verification and publication remain contingent on an exact 100%-Human whole result.
 
 ## Remaining
 
-- Reserve and submit exact R28 once after a fresh Pangram History duplicate check and exact live-field equality.
-- Bind and persist the R28 result before designing any further candidate.
+- Recover the exact prior authenticated Pangram session or its History and bind the pending R28 result. Do not repeat the hash.
+- Bind and persist the R28 result before designing any further candidate or spending another detector call.
 - If R28 is below 100% Human, use its contextual localization to choose the next single-region intervention from the protected R26 spine.
 - Only after an exact 100%-Human result: raw-editor HTML reconstruction, final citation/health/integrity verification, authority promotion, and publication.
 
 ## Next safe action
 
-1. Commit and push the exact R28 candidate, boundary, preflight, and state.
-2. Perform a fresh History duplicate check and create a durable pre-click reservation in the lab.
-3. Submit exact R28 once with plagiarism off and exact live-field equality, then bind and persist the History result before any further call.
-4. If and only if the result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
+1. Reconnect the exact authenticated Pangram session used for the R22–R28 sequence or otherwise restore authoritative access to its History.
+2. Bind and persist the pending R28 result. Do not click or submit R28 again.
+3. Continue single-region repair only after the R28 localization is durable.
+4. If and only if an exact result is 100% Human, reconstruct raw-editor HTML, run final citation/health/HTML checks, promote through the authority system, and publish under Joel's standing permission.
 
 ## Hard rules
 
 - Do not overwrite or promote the registered master with an experiment.
 - Do not alter owner locks or owner-final prose.
 - Do not repeat R22, R23, R24, R25, R26, R27, or any completed/ambiguous later submission.
+- R28 is ambiguous after a resolved click and is explicitly blocked from repetition.
 - Do not restore Jobs/stages, manufacture anecdotes, or ask Joel to draft replacement prose.
 - Do not publish anything below the exact 100%-Human gate.

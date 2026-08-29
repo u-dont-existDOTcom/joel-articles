@@ -602,6 +602,39 @@
         "pending_or_ambiguous": 0
       },
       "disposition": "R27 regresses to 77% Human and expands both AI boundaries. Return to the R26 spine, preserve its three Human segments, use structural placement or higher-authority source recovery only inside R26's two AI regions, never repeat this hash, and leave registered master authority unchanged."
+    },
+    {
+      "id": "somatic-r28-final-whole-gui-pending-recovery",
+      "role": "non_authoritative_late_structural_unstacking_boundary",
+      "experiment_id": "somatic-r28-late-structural-unstacking-r01-gui-20260829-a",
+      "source_commit": "aa96af0",
+      "source_path": "articles/somatic-therapies/experiments/R28-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt",
+      "text_sha256": "3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2",
+      "word_count": 2075,
+      "utf8_bytes": 11767,
+      "unicode_characters": 11721,
+      "transport": "headed authenticated Brave/Pangram GUI",
+      "model": "pangram-4",
+      "version": "unknown until result recovery",
+      "history_match_mode": "pre_click_exact; post_click_history_pending",
+      "submitted_at": "2026-08-29T13:02:44.458Z",
+      "result": null,
+      "durable_evidence": {
+        "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+        "branch": "automation/pangram-fixed-batch",
+        "reservation_commit": "2839dc26",
+        "metadata_correction_commit": "8d60e7c1",
+        "ambiguity_commit": "5db85c5b",
+        "recovery_path": "state/PANGRAM-LOCAL-SOMATIC-R28-FINAL-GUI-2026-08-29.md"
+      },
+      "call_accounting": {
+        "paid_gui_calls": null,
+        "click_promises_resolved": 1,
+        "cache_hits": 0,
+        "duplicate_calls": 0,
+        "pending_or_ambiguous": 1
+      },
+      "disposition": "Exact pre-click equality passed and one submit click promise resolved, but the authenticated browser disconnected before result read. Treat the hash as submitted, do not repeat it, and recover the exact Pangram History record before any further paid detector call."
     }
   ],
   "prepared_unsubmitted_candidates": [
@@ -645,7 +678,10 @@
     "r26_final_whole_gui_remaining_calls": 0,
     "r27_final_whole_gui_calls": 1,
     "r27_final_whole_gui_remaining_calls": 0,
-    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, or R27 whole hashes. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
+    "r28_final_whole_gui_click_promises_resolved": 1,
+    "r28_final_whole_gui_pending_or_ambiguous": 1,
+    "r28_final_whole_gui_remaining_calls": 0,
+    "rule": "Do not evade a closed section cap by renaming the boundary. Do not repeat completed R16, R22, R23, R24, R25, R26, or R27 whole hashes. Do not repeat ambiguous R28. Do not repeat Shaking Qigong r01 while its durable paid-call reservation exists."
   },
   "interpretation": {
     "intro": "Six materially different intro realizations all failed; local Human material did not compose into a Human boundary when surrounded by model-built prose.",
@@ -657,7 +693,8 @@
     "final_r24": "Minimum closure improved the headed whole boundary from 66% Human in R23 to 72% Human in R24. Four start/end regions remain AI-marked. Removing generic Louka closure worked and Yoga/TRE shrank, but the 182-character Protector/self-hypnosis and 248-character witness regions remained stable through paragraph consolidation, while a 2,554-character late run still absorbed the end of a Human lived story plus exact Human/high EMDR. The next repair requires destination or source-realization changes at the start and a genuine Human boundary inside the end run.",
     "final_r25": "Routed-boundary R25 regressed from 72% Human to 69% Human but decisively cleared the stable Protector/self-hypnosis region inside a 4,784-character Human opening. Three AI interactions remain: witness continuation plus Somatic/Yoga/TRE; the Brainspotting correction through EMDR and borrowed adulthood; and the restimulation definition plus Sky/Vagal. Freeze the three Human segments and repair destinations/adjacency rather than phrases.",
     "final_r26": "Red-region minimum-function R26 improved from 69% Human to 84% Human. The witness/Somatic Experiencing opening and the complete restimulation/Sky/Vagal ending cleared. Freeze the three Human segments and repair only the remaining Yoga/TRE safety tail and Brainspotting-caution/research/EMDR/borrowed-adulthood interaction while preserving every safety and factual function.",
-    "final_r27": "Two-region direct first-person R27 regressed from 84% Human to 77% Human. Its Yoga/TRE rewrite absorbed the formerly Human Yoga setup, and its late rewrite pulled the AI boundary backward into the protected Brainspotting core and forward into the lived story. Return to R26 and use structural placement or higher-authority source recovery rather than iterating on R27's surface."
+    "final_r27": "Two-region direct first-person R27 regressed from 84% Human to 77% Human. Its Yoga/TRE rewrite absorbed the formerly Human Yoga setup, and its late rewrite pulled the AI boundary backward into the protected Brainspotting core and forward into the lived story. Return to R26 and use structural placement or higher-authority source recovery rather than iterating on R27's surface.",
+    "final_r28": "Late structural-unstacking R28 preserved every substantive R26 sentence and changed only late placement. Exact pre-click equality passed and one submit click promise resolved, but the authenticated browser disconnected before result recovery. No interpretation is authorized until the exact History result is bound; never repeat the hash."
   },
   "tooling_note": {
     "private_executor_queue_repair": "The private executor was changed to concurrency queue:max after a pending Shaking request was silently displaced by a newer pending run. The same exact frozen Shaking spec was retriggered only after confirming no cache or call-ledger reservation existed for the dropped workflow. The retrigger subsequently created one paid reservation."

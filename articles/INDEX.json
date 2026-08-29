@@ -33,12 +33,12 @@
         "owner_locks": {"path": "articles/somatic-therapies/OWNER-LOCKS.json", "sha256": "4bfaf1ec291006b79396542075963fb76f6a1925f597cf419151070fbc2c8054"},
         "source_evidence": {"path": "articles/somatic-therapies/SOURCE-EVIDENCE.json", "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"},
         "unincorporated_ideas": {"path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md", "sha256": "df7ac269b6b7064d05cd6b638946b29b18bb1b768262f12f622dcb8fe5681a7c"},
-        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "0c1bb79733f372b79e73bd84fea8fa6842f321626d6ba4071d83c2d7c0125a64"}
+        "current_state": {"path": "articles/somatic-therapies/CURRENT-STATE.md", "sha256": "1a4513fbe08ca348efc48d9c46152bd4943698ad623e892b0440e369e75fb288"}
       },
       "review": {
         "citations": {"path": "articles/somatic-therapies/CITATIONS.json", "sha256": "ade24edacc6bebda6145441b766e52de8a2125b4a40eee10b51354296afa1477", "status": "pending"},
-        "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "ccc82b22bf5654e92cff1b54780f12c8af6c9b0325a649e094b622c6e49c526f", "status": "recorded"},
-        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "22692c8d40d7c40f2667f4953a5fd01a6ad0ca0399eb56d27dde51b1c6f4c538", "status": "pending"}
+        "detector": {"path": "articles/somatic-therapies/DETECTOR-EVIDENCE.json", "sha256": "4dbbc97198b2a63381f5f2126a004244ffa8b68b0b63cc7c64ab76936f361366", "status": "recorded"},
+        "editorial": {"path": "articles/somatic-therapies/EDITORIAL-STATUS.json", "sha256": "8e8478bf91b38c9b7b4e3a1a7ac501d5fa5c291334850c41abc19b687d199b36", "status": "pending"}
       },
       "publication_exports": [],
       "additional_artifacts": [
@@ -230,7 +230,8 @@
         {"path": "articles/somatic-therapies/experiments/R27-FINAL-GUI-RESULT-20260829.md", "sha256": "2e0f357793bfa273c311c318c471cba848a36c90b0fc8a56e1ac7f977eafe32b", "role": "detector_experiment_result"},
         {"path": "articles/somatic-therapies/experiments/R28-LATE-STRUCTURAL-UNSTACKING-WHOLE-ARTICLE-CANDIDATE-20260829.md", "sha256": "84009432c422a4d950af5f8e7bcce91b690c1eb55cdf523b55e6e2574ff5c96d", "role": "humanization_candidate"},
         {"path": "articles/somatic-therapies/experiments/R28-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260829.txt", "sha256": "3c4b65e57795391cc489c23d12abd47743471204a4218b644a0f6db2108fd0d2", "role": "detector_input"},
-        {"path": "articles/somatic-therapies/experiments/R28-LATE-STRUCTURAL-UNSTACKING-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "1d5711c4d85712a4fb66cb59b7a5360fd90875026967f7bd23983ee954a0a141", "role": "preservation_and_preflight"}
+        {"path": "articles/somatic-therapies/experiments/R28-LATE-STRUCTURAL-UNSTACKING-PRESERVATION-AND-PREFLIGHT-20260829.md", "sha256": "1d5711c4d85712a4fb66cb59b7a5360fd90875026967f7bd23983ee954a0a141", "role": "preservation_and_preflight"},
+        {"path": "articles/somatic-therapies/experiments/R28-GUI-SUBMISSION-AMBIGUITY-20260829.md", "sha256": "7329dd9c60ab04f5733f13ed05e3d18139606cd841b7159d257d3ba3b6192c9a", "role": "detector_submission_receipt"}
       ]
     }
   ]

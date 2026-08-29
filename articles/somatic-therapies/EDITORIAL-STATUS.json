@@ -26,7 +26,7 @@
     {
       "id": "detector",
       "status": "blocked",
-      "evidence": "Exact R27 final headed GUI result is Mixed at AI 23% / Human 77%, with exact History binding to report 5f94b713-9914-4328-91bf-4ba9a4d02be1. R28 returns to the protected R26 spine and is eligible for one exact headed GUI measurement. Publication remains blocked unless an exact headed whole boundary reaches 100% Human."
+      "evidence": "Exact R27 final headed GUI result is Mixed at AI 23% / Human 77%, with exact History binding to report 5f94b713-9914-4328-91bf-4ba9a4d02be1. R28 returned to the protected R26 spine; exact pre-click equality passed and one submit click promise resolved, but the authenticated session disconnected before result recovery. R28 is ambiguous and blocked from repetition. Publication remains blocked unless an exact headed whole boundary reaches 100% Human."
     },
     {
       "id": "citation-review",
