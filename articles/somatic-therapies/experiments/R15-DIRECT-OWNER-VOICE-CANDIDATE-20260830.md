@@ -168,9 +168,9 @@ I also give Brainspotting a lot of points for being democratic like EFT. I do no
 
 **[EXISTING BRAINSPOTTING YOUTUBE EMBED — exact object retained in HTML promotion]**
 
-The fact that I can experiment myself does not mean I would dive into the deepest trauma alone. If I cannot tell when I am getting overwhelmed, stay present, or stop when I need to, that is the limit.
+The fact that you can experiment yourself does not mean I would dive into the deepest trauma alone. If you cannot tell when you are getting overwhelmed, stay present, or stop when you need to, that is the limit.
 
-Brainspotting interests me for diffuse developmental trauma, pre-verbal or body-held material, trauma that has not responded to purely cognitive approaches, and the knots where the body knows more than the story. I don't necessarily need to know what I am targeting before the session starts moving. A younger state can show up through the body before I have a neat memory, and then the Nurturer or Protector can join it. For more, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
+Brainspotting interests me especially for diffuse developmental trauma, pre-verbal or body-held material, trauma that has not responded well to purely cognitive approaches, and those knots where the body seems to know more than the story. I do not necessarily need to know exactly what I am targeting before the session starts moving. That is also where it connects naturally with inner-child reparenting: something younger can show up through the body before I have a neat memory to narrate, and the Nurturer or Protector can join the work when it does. For further reading, see [D’Antoni et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/), a comparative study involving EMDR, Brainspotting, and related methods.
 
 Afterward I want to give it room to land. If my body still wants gentle discharge, [**Shaking Qigong**](http://shakingclass.innersignalselfhypnosis.com/) can fit. If I feel floaty or far away, I would rather walk and get oriented to ordinary life.
 
@@ -186,9 +186,9 @@ EMDR is more like: there it is; that is the memory. The recall procedure is clea
 
 An accident, assault memory, military trauma, distinct flashback, or specific trigger network is what I naturally think of for EMDR. It can be highly effective. If somebody is stable and there is one clear event, I am not going to make them complete months of preliminary body work because a tidy sequence says so.
 
-I am more careful when the trauma is diffuse, developmental, mostly bodily or pre-verbal, relational, or the nervous system is still unstable. Then I want at least some access to a Nurturer and Protector before opening highly charged material. Brainspotting may fit earlier.
+I am more cautious when the trauma is diffuse, developmental, mainly bodily or pre-verbal, relational, or the nervous system is still unstable. There I want at least some access to a Nurturer and Protector before opening very charged material, and Brainspotting may fit better earlier.
 
-After EMDR I want the rest of the day to be almost boring. Walk. Eat. Hydrate. Sleep early if I am tired. Do restorative yoga if that feels good. Journal only if it grounds me. Maybe use a little EFT if there is still activation. I would not casually stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless I already know my system handles that much and I have skilled support.
+After EMDR I want the rest of the day to be almost boring. Walk. Eat. Hydrate. Sleep early if you are tired. Do restorative yoga if that feels good. Journal only if it grounds you. Maybe use a little EFT if there is still activation. I would not casually stack Brainspotting, EMDR, intense shaking, and deep yin on the same day unless I already knew my system handled that much and I had skilled support.
 
 Sometimes the useful thing after processing is simply to stop processing.
 
@@ -212,7 +212,7 @@ While working on this article I was still affected by something that happened wi
 
 So I did a quick bit of self-Brainspotting. I moved my finger and eyes slowly around while thinking about the event. Farther to either side, as I moved into more peripheral vision, I noticed blissful tingles. There is a popular simple claim that peripheral vision activates the parasympathetic nervous system. I do not take my experience as proof of that; the research is more complicated.
 
-Subjectively I could move from the settled side with the blissful tingles to the distressed side, moment by moment, and kind of move the bliss into the distress while I thought about the event. Afterward it felt as if the event held less negative energy, or less blocking energy, in my mind.
+Subjectively I could move my gaze from a position where I felt settled and noticed blissful tingles to a position where I felt distressed, moment by moment, and kind of move the bliss into the distress while I thought about the event. Afterward it felt as if the event held less negative energy, or less blocking energy, in my mind. That only tells me what happened right then.
 
 The important version of me is the one an hour later, not the one enjoying the final minute of the exercise. If I am still stewing just as hard, perhaps the effect was temporary and I should try again. If I can remember what happened and feel less restimulated, that is more durable. I don't expect one treatment to erase everything; one EMDR session is often not enough either.
 

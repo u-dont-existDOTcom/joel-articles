@@ -2,7 +2,9 @@
 
 Task: `somatic-r15-clean-continuation-20260830`
 
-Status: `AWAITING_SUPERVISOR_DECISION`
+Status: `DECIDED / EXACTLY TWO CLARIFICATIONS AUTHORIZED`
+
+Decision response SHA-256: `b969f09e6e171bdfdc542336e646536b36d0e292ed0d209ebb2e683513389add`.
 
 Decision needed: resolve the detector-blind independent-reader findings before the final source-native candidate is frozen and before the sixth/final paid whole-document Pangram call.
 
@@ -13,4 +15,3 @@ Paid/irreversible action pending: **yes** — the sixth/final Pangram GUI call r
 Exact next action after decision: apply only authorized clarifications, rerun source/preservation/architecture gates, run a new genuinely fresh reader against the exact changed boundary, freeze/hash the boundary, recover exact detector state, and submit only if all gates and the surprise gate pass.
 
 Evidence: `R15-DIRECT-OWNER-FINAL-READER-20260830.md`.
-
