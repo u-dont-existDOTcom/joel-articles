@@ -69,6 +69,8 @@ The request was recovered in the exact conversation after a browser timeout, wit
 
 The bounded micro-repair is now frozen at candidate blob `082b613f5d5217ebb8b289ee0460a788a66e2639` / SHA-256 `7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6`. Exactly the EFT, Shaking and optional-coda blocks changed from the pre-micro candidate; all source, preservation, architecture, cold, link and native-placeholder gates pass. `R15-MICRO-REPAIR-PREFLIGHT-20260830.md` is the current pre-reader receipt.
 
+The separate bounded blind verification passed all three named surfaces and introduced no new high-confidence defect. Its exact response is bound at SHA-256 `beccea6a…`; see `BOUNDED-VERIFICATION.md`. No prose changed afterward. The next step is exact final-boundary detector recovery, not an automatic click.
+
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
 Cold production preflight is durably **PASS / PROVISIONAL SAME-CONTEXT AUDIT** in `R15-PRODUCTION-PREFLIGHT-20260830.md`. No concrete high-confidence defect was found and no semantic edit was made.

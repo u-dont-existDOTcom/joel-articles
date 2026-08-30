@@ -61,7 +61,7 @@
     "editAuthority": false
   },
   "microRepair": {
-    "status": "pre_reader_gates_pass",
+    "status": "bounded_verification_pass_detector_recovery_next",
     "decision": "bounded_micro_repair_authorized",
     "decisionResponseSha256": "7f5a3219d507edcde6810e06a97a962816dfdb1a479acfd6ab1f7f57cf879d7d",
     "whitelistPath": "tasks/somatic-r15-clean-continuation-20260830/R15-MICRO-REPAIR-WHITELIST-20260830.md",
@@ -91,6 +91,16 @@
     },
     "nextSupervisionRequest": "SOMATIC-R15-POSTREPAIR-005",
     "pangramEligibility": "only after repair gates and bounded blind verification pass, then exact cache/reservation/History recovery"
+  },
+  "boundedVerification": {
+    "status": "PASS",
+    "authority": "diagnostic_only_no_edit_authority",
+    "materialSha256": "cdcb857ff5e144a57b045b66491c9a4ae2b13f31fcb86786a5e6808f17a45afb",
+    "packetSha256": "0ec10c2c6d510b15bf390389c6391f8c577677a2a4926f66044451e122f32c6a",
+    "responseSha256": "beccea6a3af28be1ad554d0ed6602b1cabdd21ca76bd96439d0d6ee60ba81014",
+    "disposition": "BOUNDED_VERIFICATION_PASS",
+    "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/BOUNDED-VERIFICATION.md",
+    "proseChangedAfterResult": false
   },
   "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
   "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",

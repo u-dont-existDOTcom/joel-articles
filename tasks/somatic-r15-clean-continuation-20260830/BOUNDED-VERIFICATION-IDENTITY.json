@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "taskId": "somatic-r15-clean-continuation-20260830",
+  "purpose": "post_micro_repair_bounded_blind_verification",
+  "candidate": {
+    "path": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
+    "gitBlob": "082b613f5d5217ebb8b289ee0460a788a66e2639",
+    "sha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6"
+  },
+  "materializer": "scripts/materialize_somatic_bounded_reader_packet.py",
+  "boundedMaterial": {
+    "sha256": "cdcb857ff5e144a57b045b66491c9a4ae2b13f31fcb86786a5e6808f17a45afb",
+    "words": 1409,
+    "characters": 8343,
+    "utf8Bytes": 8375
+  },
+  "transmittedPacket": {
+    "sha256": "0ec10c2c6d510b15bf390389c6391f8c577677a2a4926f66044451e122f32c6a",
+    "words": 1602,
+    "characters": 9744,
+    "utf8Bytes": 9778
+  },
+  "reader": {
+    "context": "new ordinary ChatGPT conversation outside the article project, supervisor conversation, and both earlier reader conversations",
+    "authority": "diagnostic_only_no_edit_authority",
+    "visibleWorkDuration": "37s",
+    "responseSha256": "beccea6a3af28be1ad554d0ed6602b1cabdd21ca76bd96439d0d6ee60ba81014",
+    "responseCharacters": 94,
+    "responseUtf8Bytes": 94,
+    "disposition": "BOUNDED_VERIFICATION_PASS"
+  },
+  "withheldContext": [
+    "Pangram and detector evidence",
+    "round and candidate labels",
+    "failed branches",
+    "source and preservation defenses",
+    "drafting rationale and rejected alternatives",
+    "prior reader findings and responses",
+    "supervision conversation"
+  ],
+  "repositoryPrivacyBoundary": "The exact private conversation URL remains local. The deterministic bounded material and prompt are reproducible from the public candidate and materializer; their exact hashes are bound here."
+}
