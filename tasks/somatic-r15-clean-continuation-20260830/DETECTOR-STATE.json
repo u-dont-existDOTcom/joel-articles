@@ -56,7 +56,8 @@
   "relatedHistoricalPaidGuiCalls": 2,
   "totalRelatedPaidGuiCalls": 3,
   "finalCandidateRecovery": {
-    "classification": "RECOVERY_PENDING",
+    "classification": "EXACT_FINAL_RESULT_EXISTS",
+    "preSubmissionClassification": "EXACT_FINAL_NEVER_SUBMITTED",
     "candidateGitBlob": "082b613f5d5217ebb8b289ee0460a788a66e2639",
     "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
     "exactBoundaryPath": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
@@ -66,7 +67,34 @@
     "characters": 21260,
     "utf8Bytes": 21356,
     "supervisorAuthorizedNewGuiMeasurements": 1,
-    "submissionRequiresNeverSubmittedClassification": true
+    "submissionRequiresNeverSubmittedClassification": true,
+    "recovery": {
+      "authenticatedHistoryListRecordsInspected": 10,
+      "dedicatedBrowserHistoryRecordsInspected": 60,
+      "cacheResultBeforeAction": false,
+      "ambiguousReservationBeforeAction": false,
+      "exactHistoryRecordBeforeAction": false,
+      "detectorSubmissionAttemptedDuringRecovery": false
+    },
+    "measurement": {
+      "status": "complete",
+      "detectorRepositoryHead": "be3b2692f98e0d55a04c35536fa26a53c8df9964",
+      "reservationCommit": "0b20ac9dabb14d0b0c6cc12d6d7ffcf47fc99b9f",
+      "resultCommit": "ab98314386b6d289a8425aff857b8b15eb663ee5",
+      "model": "pangram-4",
+      "version": "4.0",
+      "detectorStage": "STAGE_SUCCESS",
+      "headline": "AI Detected",
+      "fractionHuman": 0.1381948739,
+      "fractionAi": 0.861805141,
+      "fractionAiAssisted": 0.0,
+      "storedTextSha256": "129fee7e8ab844fcd65db38807841c51db9883d85ed5079c93323a01cf640f9e",
+      "storedWordCount": 3585,
+      "historyTransportMatch": "exact_utf8",
+      "displayedAiHighlightRegions": 3,
+      "structuredLocalizationStatus": "failed_closed_after_complete_result",
+      "furtherPaidMeasurementAuthorized": false
+    }
   },
-  "nextAction": "Exhaustively recover exact final-candidate cache, reservation, authenticated History, browser, and GitHub evidence. Submit once through the Pangram GUI only if classified EXACT_FINAL_NEVER_SUBMITTED."
+  "nextAction": "Send WORKER_SUPERVISION_REQUEST SOMATIC-R15-POSTREPAIR-005 to the exact existing supervisor with the final result and READY_FOR_OWNER_REVIEW recommendation; do not begin detector-driven editing."
 }

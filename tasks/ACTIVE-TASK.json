@@ -11,9 +11,9 @@
     "repository": "u-dont-existDOTcom/pangram-humanization-lab",
     "branch": "task/somatic-r15-exact-recovery-20260830",
     "pullRequest": 144,
-    "head": "0d03264302bb7deaf168dae0842c97b7b80ccb57",
+    "head": "be3b2692f98e0d55a04c35536fa26a53c8df9964",
     "classification": "EXACT_R15_RESULT_EXISTS",
-    "finalCandidateClassification": "RECOVERY_PENDING"
+    "finalCandidateClassification": "EXACT_FINAL_RESULT_EXISTS"
   },
   "ownerAuthorized": true,
   "source": {
@@ -36,7 +36,7 @@
     "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004"
   },
   "repair": {
-    "status": "micro_repair_frozen_for_bounded_reader",
+    "status": "final_candidate_frozen_postrepair_supervision_next",
     "authorizedScopes": ["A", "B", "C", "D"],
     "candidatePath": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
     "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
@@ -44,6 +44,7 @@
     "localCandidateCommit": "7f9410ab559c39c507f6c15ace5af64e071325dc",
     "remoteHeadBeforeCandidate": "a982733f8c0a77df07a28fe54e099ac57418d0e6",
     "pangramAuthorized": false,
+    "pangramAuthorizationConsumed": true,
     "masterPromotionAuthorized": false,
     "privacyGate": {
       "repositoryVisibility": "PUBLIC",
@@ -62,7 +63,7 @@
     "editAuthority": false
   },
   "microRepair": {
-    "status": "bounded_verification_pass_detector_recovery_next",
+    "status": "exact_final_result_complete_postrepair_supervision_next",
     "decision": "bounded_micro_repair_authorized",
     "decisionResponseSha256": "7f5a3219d507edcde6810e06a97a962816dfdb1a479acfd6ab1f7f57cf879d7d",
     "whitelistPath": "tasks/somatic-r15-clean-continuation-20260830/R15-MICRO-REPAIR-WHITELIST-20260830.md",
@@ -100,6 +101,19 @@
       "characters": 21260,
       "utf8Bytes": 21356,
       "finalBlankLinePreserved": true
+    },
+    "exactFinalMeasurement": {
+      "status": "complete",
+      "detectorRepositoryHead": "be3b2692f98e0d55a04c35536fa26a53c8df9964",
+      "detectorVersion": "4.0",
+      "detectorStage": "STAGE_SUCCESS",
+      "fractionHuman": 0.1381948739,
+      "fractionAi": 0.861805141,
+      "fractionAiAssisted": 0.0,
+      "historyTransportMatch": "exact_utf8",
+      "displayedAiHighlightRegions": 3,
+      "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md",
+      "furtherPaidMeasurementAuthorized": false
     }
   },
   "boundedVerification": {

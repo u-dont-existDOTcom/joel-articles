@@ -73,6 +73,10 @@ The separate bounded blind verification passed all three named surfaces and intr
 
 The exact final repair-candidate boundary is now frozen at `articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt`, Git blob `31cabafedfe2433dd6fa8fd1badc31f31491bc28`, SHA-256 `129fee7e8ab844fcd65db38807841c51db9883d85ed5079c93323a01cf640f9e`, 3,585 whitespace words, 21,260 Unicode characters and 21,356 UTF-8 bytes, with its final blank line preserved. It was materialized deterministically from candidate blob `082b613f…`; no prose change occurred. Exact cache, reservation, authenticated History, browser-recovery and GitHub-evidence reconciliation is pending before any eligible GUI action.
 
+That recovery completed as `EXACT_FINAL_NEVER_SUBMITTED`; all 60 retained dedicated-profile History records were inspected and no prior exact action or ambiguous reservation existed. The deterministic runner then pushed its reservation before the only supervisor-authorized GUI click. The exact final result is Pangram 4.0 `STAGE_SUCCESS`, Human `0.1381948739`, AI `0.861805141`, AI-assisted `0.0`, exact UTF-8 History-bound to boundary `129fee7e…`. The completed report displayed three broad AI Highlight regions covering most of the document. Their breadth, and the 1.654-percentage-point Human decrease after independently validated editorial repair, provide no credible new edit target. See `R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md`.
+
+The next action is the required `WORKER_SUPERVISION_REQUEST SOMATIC-R15-POSTREPAIR-005`, recommending `READY_FOR_OWNER_REVIEW`. No detector-driven edit, registered-authority change or publication is implied.
+
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
 Cold production preflight is durably **PASS / PROVISIONAL SAME-CONTEXT AUDIT** in `R15-PRODUCTION-PREFLIGHT-20260830.md`. No concrete high-confidence defect was found and no semantic edit was made.
