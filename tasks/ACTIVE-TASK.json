@@ -14,7 +14,7 @@
   "taskContract": {
     "path": "tasks/somatic-r15-clean-continuation-20260830/TASK-CONTRACT-V2.json",
     "revision": 2,
-    "sha256": "241a0e0dcbf1cc97ff244bf0435a11206a40ad51b657a61555cfddad300b076c"
+    "sha256": "52c0ce0bebb03adc51a32b8f4832523d01e643dedccee1735a05f987391ce7b8"
   },
   "objectiveReconciliation": {
     "path": "tasks/somatic-r15-clean-continuation-20260830/OBJECTIVE-RECONCILIATION.json",
@@ -31,9 +31,10 @@
     "repository": "u-dont-existDOTcom/pangram-humanization-lab",
     "branch": "task/somatic-r15-exact-recovery-20260830",
     "pullRequest": 144,
-    "head": "be3b2692f98e0d55a04c35536fa26a53c8df9964",
+    "head": "52d43351",
     "classification": "EXACT_R15_RESULT_EXISTS",
-    "finalCandidateClassification": "EXACT_FINAL_RESULT_EXISTS"
+    "finalCandidateClassification": "EXACT_FINAL_RESULT_EXISTS",
+    "articlewideCandidateClassification": "EXACT_ARTICLEWIDE_RESULT_EXISTS"
   },
   "ownerAuthorized": true,
   "source": {
@@ -135,6 +136,32 @@
       "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md",
       "furtherPaidMeasurementAuthorized": false
     }
+  },
+  "articlewideHumanization": {
+    "status": "exact_negative_result_complete_supervision_next",
+    "decision": "articlewide_r15_reconstruction_authorized",
+    "decisionResponseSha256": "10147a9654109186e913e134ac86793f421f73f8675e190e47576cb60ba3702f",
+    "candidatePath": "articles/somatic-therapies/experiments/R15-ARTICLE-WIDE-HUMANIZATION-CANDIDATE-20260830.md",
+    "candidateSha256": "9bf286b53945c22fb57ca0e5b57c7f4c8c411de829be07bcf07d85d6f77eccd0",
+    "candidateGitBlob": "68d62fd3a613e2f51941da3a640bfaaeba78f0e9",
+    "boundaryPath": "articles/somatic-therapies/experiments/R15-ARTICLE-WIDE-HUMANIZATION-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+    "boundarySha256": "fc5a8e49c499c4e4165ff3e6aded4f26c88bacdd9475e9e799a482a19c7a504a",
+    "boundaryGitBlob": "10db8f1d586c5e93fe794e50f6b3e16a1bf721ee",
+    "words": 3585,
+    "characters": 20969,
+    "utf8Bytes": 21061,
+    "detectorRepositoryHead": "52d43351",
+    "detectorVersion": "4.0",
+    "detectorStage": "STAGE_SUCCESS",
+    "fractionHuman": 0.1231321841,
+    "fractionAi": 0.8768678308,
+    "fractionAiAssisted": 0.0,
+    "historyTransportMatch": "exact_utf8",
+    "displayedAiHighlightRegions": 3,
+    "displayedAiHighlightWords": 3585,
+    "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/R15-ARTICLE-WIDE-PANGRAM-RESULT-20260830.md",
+    "nextSupervisionRequest": "SOMATIC-R15-RESULT-007",
+    "furtherPaidMeasurementAuthorized": false
   },
   "boundedVerification": {
     "status": "PASS",

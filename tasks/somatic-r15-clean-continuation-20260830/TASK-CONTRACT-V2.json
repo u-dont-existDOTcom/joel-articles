@@ -65,12 +65,12 @@
     "a Pangram Human result for text other than the exact final candidate"
   ],
   "currentGap": {
-    "candidate": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
-    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
-    "latestPangramHuman": 0.1381948739,
+    "candidate": "articles/somatic-therapies/experiments/R15-ARTICLE-WIDE-HUMANIZATION-CANDIDATE-20260830.md",
+    "candidateSha256": "9bf286b53945c22fb57ca0e5b57c7f4c8c411de829be07bcf07d85d6f77eccd0",
+    "latestPangramHuman": 0.1231321841,
     "targetPangramHuman": 1.0,
     "unmetRequiredOutcomeIds": ["RO-002", "RO-004", "RO-005"],
-    "note": "RO-004 must be rerun on any substantively changed final candidate; the prior independent reader remains historical diagnostic evidence."
+    "note": "The article-wide candidate passed its fresh-reader and preservation gates, but exact Pangram Human fell to 0.1231321841. RO-004 must be rerun on any substantively changed final candidate; all prior readers remain historical diagnostic evidence."
   },
   "completionRule": "OWNER_OUTCOME_ACHIEVED is allowed only when RO-001 through RO-005 are MET with exact-candidate evidence. READY_FOR_OWNER_REVIEW is nonterminal unless Joel explicitly changes the root outcome."
 }

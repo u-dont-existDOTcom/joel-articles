@@ -179,3 +179,11 @@ Authorized direction:
 Current alignment remains worker-to-contract `GREEN`, contract-to-owner `MATCH`, completion claim `WORKING`, terminal comparator `OWNER_OUTCOME_UNMET`, directive `CONTINUE_HUMANIZATION`.
 
 The nonblocking design packet `SDF-SOMATIC-20260830-001` was also sent once to the existing shared Pro meta-review conversation under `supervision-architecture/20260830-owner-outcome-hotfix`. It has no article edit authority.
+
+## ARTICLE-WIDE RESULT / SOMATIC-R15-RESULT-007
+
+Status: **PREPARED / NOT YET SENT**
+
+The exact article-wide boundary `fc5a8e49c499c4e4165ff3e6aded4f26c88bacdd9475e9e799a482a19c7a504a` returned Pangram 4.0 Human `0.1231321841`, AI `0.8768678308`, AI-assisted `0.0`, `STAGE_SUCCESS`, with exact UTF-8 History binding. Its three displayed AI Highlight regions cover all 3,585 whitespace words. The authorized fifth related paid call is consumed; no sixth call or new rewrite is yet authorized.
+
+The prepared packet is `SUPERVISION-REQUEST-SOMATIC-R15-RESULT-007.md`. It recommends one direct-owner-voice recovery boundary from registered same-function Somatic sources before any possible sixth and final paid measurement. R16–R65/PR #72 prose remains quarantined. Current alignment is worker-to-contract `GREEN`, contract-to-owner `MATCH`, completion `WORKING`, terminal comparator `OWNER_OUTCOME_UNMET`.

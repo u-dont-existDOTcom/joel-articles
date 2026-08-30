@@ -3,7 +3,7 @@
   "reconciliationId": "ORC-SOMATIC-20260830-001",
   "taskId": "somatic-r15-clean-continuation-20260830",
   "trigger": "OWNER_CORRECTION_AND_SUPERVISION_BOOTSTRAP_SUPERSESSION",
-  "reconciledAt": "2026-08-30T19:52:00Z",
+  "reconciledAt": "2026-08-30T23:02:57Z",
   "ownerSource": {
     "ownerRequestId": "OR-SOMATIC-HUMANIZATION-20260830",
     "canonicalLocator": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json",
@@ -31,16 +31,16 @@
     "taskContractId": "TC-SOMATIC-R15-CLEAN-CONTINUATION",
     "revision": 2,
     "path": "tasks/somatic-r15-clean-continuation-20260830/TASK-CONTRACT-V2.json",
-    "sha256": "241a0e0dcbf1cc97ff244bf0435a11206a40ad51b657a61555cfddad300b076c"
+    "sha256": "52c0ce0bebb03adc51a32b8f4832523d01e643dedccee1735a05f987391ce7b8"
   },
   "normalizedResult": "An exact R15-derived final candidate reaches Pangram 4.0 Human fraction 1.0 without sacrificing source integrity, preservation, semantics, architecture, links, native objects, or owner constraints; the exact final draft and commentable diff are then placed in the existing supervising ChatGPT conversation and its link is returned to Joel.",
   "currentGap": {
-    "latestExactCandidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
-    "latestExactPangramHuman": 0.1381948739,
+    "latestExactCandidateSha256": "9bf286b53945c22fb57ca0e5b57c7f4c8c411de829be07bcf07d85d6f77eccd0",
+    "latestExactPangramHuman": 0.1231321841,
     "targetExactPangramHuman": 1.0,
     "unmetOutcomeIds": ["RO-002", "RO-004", "RO-005"],
     "unknownOutcomeIds": [],
-    "summary": "The existing candidate is preservation-clean supporting work, but its red exact result leaves the principal measured humanization outcome unmet; any new final candidate also requires a fresh independent reader and the requested ChatGPT delivery artifacts."
+    "summary": "The preservation-clean article-wide candidate returned exact Pangram Human 0.1231321841, so the principal measured outcome remains unmet. The displayed AI regions cover all 3,585 words. Any new final candidate requires fresh preservation and independent-reader resolution plus the requested ChatGPT delivery artifacts."
   },
   "nonSatisfyingProxies": [
     "READY_FOR_OWNER_REVIEW",
@@ -123,9 +123,9 @@
   "completionClaim": {
     "type": "WORKING",
     "proposedTerminal": false,
-    "candidateRef": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
+    "candidateRef": "articles/somatic-therapies/experiments/R15-ARTICLE-WIDE-HUMANIZATION-CANDIDATE-20260830.md",
     "evidenceRefs": [
-      "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md"
+      "tasks/somatic-r15-clean-continuation-20260830/R15-ARTICLE-WIDE-PANGRAM-RESULT-20260830.md"
     ]
   },
   "terminalComparator": {
@@ -140,9 +140,9 @@
     "rootTerminalizationAllowed": false,
     "requiredDirective": "CONTINUE_HUMANIZATION",
     "findings": [
-      "Historical worker-to-contract GREEN did not cure historical contract-to-owner DIVERGED.",
-      "The repaired revision now MATCHES the owner outcome and preserves all useful supporting work.",
-      "SOMATIC-R15-POSTREPAIR-005 remains historical but cannot authorize root completion after PANGRAM-TARGET-001."
+      "Worker-to-contract remains GREEN and contract-to-owner remains MATCH.",
+      "The exact article-wide measurement is a valid negative result: Human 0.1231321841 versus target 1.0.",
+      "SOMATIC-R15-POSTREPAIR-005 remains historical and the task cannot terminalize on a Pangram result below 1.0."
     ]
   },
   "previousReconciliationId": null,
