@@ -7,6 +7,13 @@
   "repository": "u-dont-existDOTcom/joel-articles",
   "requiredBranch": "task/somatic-r15-clean-continuation-20260830",
   "pullRequest": 73,
+  "detectorRecovery": {
+    "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "branch": "task/somatic-r15-exact-recovery-20260830",
+    "pullRequest": 144,
+    "head": "027bfc7bb399b5ca43cb8d51da2d636acd19241e",
+    "classification": "EXACT_R15_NEVER_SUBMITTED"
+  },
   "ownerAuthorized": true,
   "source": {
     "repository": "u-dont-existDOTcom/joel-articles",
