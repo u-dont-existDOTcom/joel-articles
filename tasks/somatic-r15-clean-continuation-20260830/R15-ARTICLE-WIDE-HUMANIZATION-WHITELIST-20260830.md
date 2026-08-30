@@ -27,6 +27,8 @@ The three broad Pangram-red regions may be reconstructed as one coordinated cand
 1. the owner-provenance Shaking run from Louka's report through the expertise joke;
 2. the concrete housemate/Brainspotting experiment through the immediate felt result.
 
+Post-reader exception: two genuinely separate detector-blind readers independently identified the exact `Obviously, ... more angles` assertion as an unmarked logic leap. This satisfies the exception above. Only that inference's attribution and conditionality may change; the mass-standardization thought, more-angles thought and exact expertise joke remain protected. The Louka/class/natural-shaking calibration run remains exact.
+
 ## Section source and preservation map
 
 ### Introduction and physical state

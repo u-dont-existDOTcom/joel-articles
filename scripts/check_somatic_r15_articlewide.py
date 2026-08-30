@@ -103,7 +103,7 @@ def exact_calibration_blocks(base: str) -> list[str]:
     return [
         base[
             base.index("My friend Louka is why I am linking this particular class.") :
-            base.index("I did not try the Shaking Qigong class")
+            base.index("TRE is a system they are trying to teach en masse")
         ],
         base[
             base.index("My outcome measure is boring:") :

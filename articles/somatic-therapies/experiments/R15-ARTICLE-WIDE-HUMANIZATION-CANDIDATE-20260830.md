@@ -68,7 +68,7 @@ Deep memory work, immersive child dialogue, deep hypnosis, suggestive exploratio
 
 [Somatic Experiencing](http://traumahealing.org/) is one of the methods I reach for when merely approaching the material sends my body over the edge. It gives me sensation, orientation, impulse and defensive response to work with, slowly, without demanding the whole story first.
 
-Titration and pendulation are useful partly because there is no prize for beating the trauma in a fight. I touch as much activation as I can honestly tolerate, notice what happens, and come back toward something steadier. Three to six months of that kind of capacity-building is not unusual, and severe developmental trauma can take longer. I hear that as orientation, not a countdown. If I am already stable and the target is clear, I see no reason to wait out an arbitrary number of months before adding focused trauma work.
+Titration and pendulation are useful partly because there is no prize for beating the trauma in a fight. I touch as much activation as I can honestly tolerate, notice what happens, and come back toward something steadier. Some people spend three to six months building that capacity, and severe developmental trauma can take longer. I treat that as orientation, not a countdown. If I am already stable and the target is clear, I see no reason to wait out an arbitrary number of months before adding focused trauma work.
 
 **[EXISTING SOMATIC EXPERIENCING YOUTUBE EMBED — exact object retained in HTML promotion]**
 
@@ -116,7 +116,7 @@ The class is much more than just TRE.
 
 By “blockage” I mean what energy is stuck in you. I often have the kind of natural shaking that animals have, rather than noticing much benefit from intentional therapeutic techniques. Especially on psychedelics, it is like my body knows exactly which part to shake and how. So it is not just “shaking = mental health.” When the right thing is shaken the right way, things loosen up as they should and the energy flows.
 
-TRE is a system they are trying to teach en masse, so they had to distill the method down to what seems to work most of the time for most people. Obviously, if you could get more angles at it, you would get more chance of success—and less chance of being called an expert. “Just try lots of stuff till it works” is how my expertise runs on this.
+TRE is a system they are trying to teach en masse, so I think they had to distill the method down to what seems to work most of the time for most people. If that is right, more angles should give more chances of success—and less chance of being called an expert. “Just try lots of stuff till it works” is how my expertise runs on this.
 
 I haven't tried the linked class myself. What interests me is the extra movements and positions. My guess is that some people need the right position or movement together with the tremor before they find the blockage. I have done qigong, though, and it helped me move energy. I can see why guided shaking plus qigong might sit between a completely predictable TRE routine and unstructured shaking. There is a social side too. For someone who needs guidance, gets nothing from standard TRE, or benefits from seeing other people get results, that middle ground could matter.
 
