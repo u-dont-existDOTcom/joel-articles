@@ -12,7 +12,8 @@
     "branch": "task/somatic-r15-exact-recovery-20260830",
     "pullRequest": 144,
     "head": "0d03264302bb7deaf168dae0842c97b7b80ccb57",
-    "classification": "EXACT_R15_RESULT_EXISTS"
+    "classification": "EXACT_R15_RESULT_EXISTS",
+    "finalCandidateClassification": "RECOVERY_PENDING"
   },
   "ownerAuthorized": true,
   "source": {
@@ -90,7 +91,16 @@
       "nativePlaceholders": 7
     },
     "nextSupervisionRequest": "SOMATIC-R15-POSTREPAIR-005",
-    "pangramEligibility": "only after repair gates and bounded blind verification pass, then exact cache/reservation/History recovery"
+    "pangramEligibility": "supervisor-authorized for at most one exact final-candidate Pangram 4 GUI measurement, only after exact cache/reservation/History recovery proves never submitted",
+    "exactFinalBoundary": {
+      "path": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+      "sha256": "129fee7e8ab844fcd65db38807841c51db9883d85ed5079c93323a01cf640f9e",
+      "gitBlob": "31cabafedfe2433dd6fa8fd1badc31f31491bc28",
+      "words": 3585,
+      "characters": 21260,
+      "utf8Bytes": 21356,
+      "finalBlankLinePreserved": true
+    }
   },
   "boundedVerification": {
     "status": "PASS",

@@ -71,6 +71,8 @@ The bounded micro-repair is now frozen at candidate blob `082b613f5d5217ebb8b289
 
 The separate bounded blind verification passed all three named surfaces and introduced no new high-confidence defect. Its exact response is bound at SHA-256 `beccea6a…`; see `BOUNDED-VERIFICATION.md`. No prose changed afterward. The next step is exact final-boundary detector recovery, not an automatic click.
 
+The exact final repair-candidate boundary is now frozen at `articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt`, Git blob `31cabafedfe2433dd6fa8fd1badc31f31491bc28`, SHA-256 `129fee7e8ab844fcd65db38807841c51db9883d85ed5079c93323a01cf640f9e`, 3,585 whitespace words, 21,260 Unicode characters and 21,356 UTF-8 bytes, with its final blank line preserved. It was materialized deterministically from candidate blob `082b613f…`; no prose change occurred. Exact cache, reservation, authenticated History, browser-recovery and GitHub-evidence reconciliation is pending before any eligible GUI action.
+
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
 Cold production preflight is durably **PASS / PROVISIONAL SAME-CONTEXT AUDIT** in `R15-PRODUCTION-PREFLIGHT-20260830.md`. No concrete high-confidence defect was found and no semantic edit was made.

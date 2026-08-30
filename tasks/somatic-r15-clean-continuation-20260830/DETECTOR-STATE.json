@@ -55,5 +55,18 @@
   },
   "relatedHistoricalPaidGuiCalls": 2,
   "totalRelatedPaidGuiCalls": 3,
-  "nextAction": "Send WORKER_SUPERVISION_REQUEST SOMATIC-R15-RESULT-002 to the existing supervisor Chat and wait for the matching decision before detector-driven editing."
+  "finalCandidateRecovery": {
+    "classification": "RECOVERY_PENDING",
+    "candidateGitBlob": "082b613f5d5217ebb8b289ee0460a788a66e2639",
+    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "exactBoundaryPath": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+    "exactBoundaryGitBlob": "31cabafedfe2433dd6fa8fd1badc31f31491bc28",
+    "exactBoundarySha256": "129fee7e8ab844fcd65db38807841c51db9883d85ed5079c93323a01cf640f9e",
+    "words": 3585,
+    "characters": 21260,
+    "utf8Bytes": 21356,
+    "supervisorAuthorizedNewGuiMeasurements": 1,
+    "submissionRequiresNeverSubmittedClassification": true
+  },
+  "nextAction": "Exhaustively recover exact final-candidate cache, reservation, authenticated History, browser, and GitHub evidence. Submit once through the Pangram GUI only if classified EXACT_FINAL_NEVER_SUBMITTED."
 }
