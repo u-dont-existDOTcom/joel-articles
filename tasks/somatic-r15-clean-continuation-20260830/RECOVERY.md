@@ -130,4 +130,6 @@ Exhaustive recovery inspected 61 History candidates and 43 stored records, found
 
 Current alignment: worker-to-contract `GREEN`; contract-to-owner `MATCH`; typed completion `WORKING`; terminal comparator `OWNER_OUTCOME_UNMET`; directive `CONTINUE_HUMANIZATION`. The paid call count is five; no sixth call or new rewrite is authorized yet.
 
-Next safe action: push this result checkpoint and send `WORKER_SUPERVISION_REQUEST SOMATIC-R15-RESULT-007` once to the exact existing supervisor conversation. Continue automatically only after its matching decision; do not start an unsupervised detector rewrite or another paid call.
+`SUPERVISOR_DECISION SOMATIC-R15-RESULT-007`, response SHA-256 `586ddea100f8ad1097834616f8ef5f80d3575aad624d4b007b11d7b7caad08d7`, authorizes one final direct-owner-voice recovery pass and, only after all gates and a fresh reader, the sixth and final whole-document GUI measurement under the current cap. The source hypothesis is frozen in `R15-DIRECT-OWNER-VOICE-WHITELIST-20260830.md` before drafting.
+
+Next safe action: draft the final source-native candidate section by section from exact R15 semantics plus registered same-function Somatic owner source. Do not paraphrase the measured candidate, touch `master.html`, or use failed-branch prose.

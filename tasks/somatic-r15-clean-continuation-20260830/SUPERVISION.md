@@ -182,8 +182,20 @@ The nonblocking design packet `SDF-SOMATIC-20260830-001` was also sent once to t
 
 ## ARTICLE-WIDE RESULT / SOMATIC-R15-RESULT-007
 
-Status: **PREPARED / NOT YET SENT**
+Status: **DECIDED / FINAL DIRECT-OWNER-VOICE RECOVERY AUTHORIZED**
 
 The exact article-wide boundary `fc5a8e49c499c4e4165ff3e6aded4f26c88bacdd9475e9e799a482a19c7a504a` returned Pangram 4.0 Human `0.1231321841`, AI `0.8768678308`, AI-assisted `0.0`, `STAGE_SUCCESS`, with exact UTF-8 History binding. Its three displayed AI Highlight regions cover all 3,585 whitespace words. The authorized fifth related paid call is consumed; no sixth call or new rewrite is yet authorized.
 
 The prepared packet is `SUPERVISION-REQUEST-SOMATIC-R15-RESULT-007.md`. It recommends one direct-owner-voice recovery boundary from registered same-function Somatic sources before any possible sixth and final paid measurement. R16–R65/PR #72 prose remains quarantined. Current alignment is worker-to-contract `GREEN`, contract-to-owner `MATCH`, completion `WORKING`, terminal comparator `OWNER_OUTCOME_UNMET`.
+
+The packet was sent once from article head `f650e9ea81a4f80bbd5c55b88229263f203af523`. The supervisor's first turn stopped after a tool call without emitting a decision. A bounded `SUPERVISOR_RECOVERY SOMATIC-R15-RESULT-007` nudge continued that same outstanding request without duplicating the evidence packet.
+
+The matching response began exactly `SUPERVISOR_DECISION SOMATIC-R15-RESULT-007`.
+
+Decision: **APPROVED — one final direct-owner-voice recovery pass, then at most the sixth and final whole-document Pangram 4 GUI measurement if every gate and the surprise test pass.**
+
+Exact response identity: SHA-256 `586ddea100f8ad1097834616f8ef5f80d3575aad624d4b007b11d7b7caad08d7` (4,286 Unicode characters / 4,312 UTF-8 bytes).
+
+The authorized hypothesis is source-native realization rather than a more polished version of the measured candidate. Use exact R15 for semantic/function authority plus R05/R06 and registered same-function Somatic owner source. Prefer actual or minimally adapted owner wording, preserve coherent asymmetry, abruptness, humor, uncertainty and unequal paragraph lengths, and use only the minimum new connective syntax. R16–R65/PR #72, Human spines, unrelated owner/corpus syntax, detector-Human insertion, deletion/weakening, phrase gaming and section/API measurements remain forbidden.
+
+If the exact sixth call is below Human `1.0`, no seventh call or cosmetic reconstruction is permitted under this strategy. The next packet must classify the state `OWNER_OUTCOME_UNMET / CURRENT SIX-CALL PRODUCTION STRATEGY EXHAUSTED`.

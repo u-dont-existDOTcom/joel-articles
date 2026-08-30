@@ -163,6 +163,17 @@
     "nextSupervisionRequest": "SOMATIC-R15-RESULT-007",
     "furtherPaidMeasurementAuthorized": false
   },
+  "directOwnerVoiceRecovery": {
+    "status": "authorized_whitelist_frozen_drafting_next",
+    "decisionResponseSha256": "586ddea100f8ad1097834616f8ef5f80d3575aad624d4b007b11d7b7caad08d7",
+    "whitelistPath": "tasks/somatic-r15-clean-continuation-20260830/R15-DIRECT-OWNER-VOICE-WHITELIST-20260830.md",
+    "strategy": "source_native_owner_realization_not_uniform_editorial_reconstruction",
+    "maximumRelatedPaidGuiCallOrdinal": 6,
+    "authorizedNewWholeDocumentGuiMeasurements": 1,
+    "consumedNewWholeDocumentGuiMeasurements": 0,
+    "nextSupervisionRequestIfBelowTarget": "SOMATIC-R15-STRATEGY-EXHAUSTED-008",
+    "furtherPaidMeasurementAuthorizedNow": false
+  },
   "boundedVerification": {
     "status": "PASS",
     "authority": "diagnostic_only_no_edit_authority",

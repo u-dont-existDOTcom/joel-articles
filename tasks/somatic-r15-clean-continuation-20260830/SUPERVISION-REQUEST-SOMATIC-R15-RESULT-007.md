@@ -2,7 +2,9 @@
 
 Task: `somatic-r15-clean-continuation-20260830`
 
-Request status: **PREPARED / NOT YET SENT**
+Request status: **SENT ONCE / DECIDED**
+
+Matching decision: `SUPERVISOR_DECISION SOMATIC-R15-RESULT-007` — **APPROVED / FINAL DIRECT-OWNER-VOICE RECOVERY AUTHORIZED**. Exact visible-response SHA-256: `586ddea100f8ad1097834616f8ef5f80d3575aad624d4b007b11d7b7caad08d7` (4,286 Unicode characters / 4,312 UTF-8 bytes).
 
 ## Exact branch and candidate
 
