@@ -87,3 +87,13 @@ After a minimum combined repair passes traceability, preservation, architecture,
 The minimum combined A–D candidate is locally frozen at SHA-256 `85c09a28036a80ff25afd3e3474ad6160fe162f2e120db711fe8ce7c7bc9ea00` and local commit `ac5eaefcf970b511562909d082b993cebb582716`; all pre-reader gates pass. Its initial push was rejected at the host safety boundary because the destination repository is confirmed PUBLIC and the full article contains personal/health material. The required new blind-reader transmission was separately paused at its action-time privacy confirmation boundary.
 
 Joel explicitly confirmed both transmissions in the current Codex chat on 2026-08-30 and directed the controller to continue without another approval request. This authorizes pushing the already frozen repaired candidate to public PR #73 and transmitting that exact candidate to one fresh detector-blind ChatGPT reader. It does not authorize another Pangram call, registered `master.html` promotion, or Substack publication.
+
+## SOMATIC-R15-REPAIR-004
+
+Status: **READY TO SEND / NO REQUEST OUTSTANDING YET**
+
+The bounded repair was pushed without alteration to public PR #73. Its required new independent reader then ran once in a genuinely separate ordinary ChatGPT conversation, with all detector, repair-history, source-defense, prior-reader, and supervision context withheld. The reader-facing article, packet, and exact response are bound at SHA-256 `9a8db472…`, `f8605693…`, and `5bc13888…`; the visible work duration was 18 minutes 18 seconds.
+
+The reader independently found unresolved Shaking proportionality and range-reference problems, a still-perceived double ending, the unchanged EFT mechanism bridge, speaker-role ambiguity, and remaining physical-state weighting pressure. It also identified lower-confidence generic texture, energetic compression, and humor-placement concerns. The controller applied no edit authority. `REPAIR-FINAL-READER.md` contains the full privacy-safe diagnosis and adjudication.
+
+The next action is to commit and push this exact reader receipt, then send one packet beginning `WORKER_SUPERVISION_REQUEST SOMATIC-R15-REPAIR-004` from the resulting exact branch head. No Pangram call or registered-authority change is pending.

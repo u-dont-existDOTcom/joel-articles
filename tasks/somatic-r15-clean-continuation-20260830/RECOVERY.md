@@ -63,7 +63,7 @@ The request was recovered in the exact conversation after a browser timeout, wit
 1. The four source/provenance ledgers, change whitelists, touched preservation units, and forbidden side effects were frozen before drafting.
 2. The minimum combined repair is locally frozen at SHA-256 `85c09a28…` and local commit `ac5eaef…`; forward/reverse traceability, zero unexplained substantive deltas, architecture/multiscale, cold-audit, link, and native-placeholder gates pass.
 3. The initial host gate blocked pushing the full candidate because `u-dont-existDOTcom/joel-articles` is confirmed PUBLIC and the article contains personal/health material. The browser policy separately required action-time confirmation before transmitting the repaired article to a fresh ChatGPT reader.
-4. Joel explicitly confirmed both transmissions in the current Codex chat on 2026-08-30. Push the already frozen candidate to PR #73, run one genuinely separate detector-blind reader, and return `WORKER_SUPERVISION_REQUEST SOMATIC-R15-REPAIR-004`; no Pangram call, `master.html` promotion, or Substack publication is authorized by that confirmation.
+4. Joel explicitly confirmed both transmissions in the current Codex chat on 2026-08-30. The candidate is now on PR #73 and the genuinely separate detector-blind reader is complete. Its exact response is bound at SHA-256 `5bc13888…`; it found unresolved Shaking weighting/range, coda, EFT mechanism, speaker-role, and physical-state concerns. Return them as `WORKER_SUPERVISION_REQUEST SOMATIC-R15-REPAIR-004` before any further prose edit. No Pangram call, `master.html` promotion, or Substack publication is authorized by that confirmation.
 
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
@@ -76,6 +76,8 @@ Historical `d5101f…` is valid near-boundary evidence for the same immutable R1
 The exact Pangram 4.0 result is Human `0.1547368467`, AI `0.8452631831`, AI-assisted `0.0`, `STAGE_SUCCESS`, with exact UTF-8 History binding. The single authorized new call is consumed; the related ledger totals three calls and no further paid action is authorized. No detector-driven rewrite has begun.
 
 The independent reader input article is bound at SHA-256 `460dc342…`, its transmitted packet at `6cc91944…`, and its response at `3d9d96d…`. It identified multiple high-confidence editorial questions and several secondary ones. The controller adjudicated them against R15 preservation and architecture; `FINAL-READER.md` records the privacy-safe gate receipt, while the detailed local ledger and exact response remain outside the public branch. No reader-suggested change has been applied.
+
+The required post-repair fresh reader is separately bound at article SHA-256 `9a8db472…`, packet SHA-256 `f8605693…`, and response SHA-256 `5bc13888…`. `REPAIR-FINAL-READER.md` records the privacy-safe findings and authority adjudication. No post-reader edit has been made; the unresolved findings await `SOMATIC-R15-REPAIR-004`.
 
 ## Completion boundary
 

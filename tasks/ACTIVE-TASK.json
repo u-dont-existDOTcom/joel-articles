@@ -35,7 +35,7 @@
     "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004"
   },
   "repair": {
-    "status": "candidate_push_and_blind_reader_authorized",
+    "status": "fresh_reader_complete_supervision_request_pending",
     "authorizedScopes": ["A", "B", "C", "D"],
     "candidatePath": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
     "candidateSha256": "85c09a28036a80ff25afd3e3474ad6160fe162f2e120db711fe8ce7c7bc9ea00",
@@ -50,6 +50,15 @@
       "freshReaderTransmission": "owner_confirmed_in_current_chat_20260830",
       "scopeNote": "Confirmation covers the repaired candidate push to public PR #73 and its transmission to one fresh detector-blind ChatGPT reader. It does not authorize another Pangram call, registered master promotion, or Substack publication."
     }
+  },
+  "repairFinalReader": {
+    "status": "complete_diagnostic_only_unresolved_findings",
+    "articleInputSha256": "9a8db47224a704cbdcdcc0ed0c21b155fbb2b39da113fb346eb87d18377260b4",
+    "packetSha256": "f8605693dbe4c3848a3ea447d70892a80ffdd88ecaefaa9ecf6eb7dcb9349e16",
+    "responseSha256": "5bc138887c529024dc5c48819f564e3832677bc05c86056805d6eaaef9049e0d",
+    "findingsPath": "tasks/somatic-r15-clean-continuation-20260830/REPAIR-FINAL-READER.md",
+    "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004",
+    "editAuthority": false
   },
   "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
   "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",
