@@ -2,6 +2,12 @@
 
 Updated: 2026-08-24
 
+## Exclusive Somatic recovery override — 2026-08-30
+
+Current owner instructions supersede the older Somatic next-action text below for the active task only. The exclusive task is `somatic-r15-clean-continuation-20260830` on branch `task/somatic-r15-clean-continuation-20260830`; run `python scripts/check_somatic_r15_task.py --preflight` before consulting older queues or handoffs. Its recovery checkpoint is `tasks/somatic-r15-clean-continuation-20260830/RECOVERY.md`.
+
+The active non-authoritative reconstruction frontier is exact historical R15. R16, R17–R58, R59–R65, draft PR #72, stale Codex-V5 instructions, old Work/Codex conversations, generic roadmaps, and unrelated Shaking reservations are suspended as next-task selectors. The registered Somatic `master.html` remains unchanged authority. Ordinary tests or a high Pangram result do not complete this task; readiness is governed by `python scripts/check_somatic_r15_task.py --acceptance` and the owner/supervisor gates in the task checkpoint.
+
 ## Goal
 
 Maintain exact GitHub-canonical authority and recoverable state for Joel's registered articles while completing requested editorial work without allowing detector results, stale artifacts, or unverified runtime output to overwrite owner meaning.

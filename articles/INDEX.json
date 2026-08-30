@@ -164,6 +164,31 @@
           "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-PRESERVATION-20260822.json",
           "sha256": "5af954f5be94c56f07de20efc9be00fc69c8a5f4fe62b283dad989d5e993c992",
           "role": "preservation_proof"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-CHECKPOINT-20260825.md",
+          "sha256": "4f1a7b7fcb67f515de6da6b610852a7b7514cae8675ea1f3006aa601b0bdd708",
+          "role": "non_authoritative_recovery_checkpoint"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md",
+          "sha256": "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee",
+          "role": "non_authoritative_experiment_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260825.md",
+          "sha256": "be2b848cfa483425c994eb2fe1fafc8cd6e3221632bac608d9940b6550fa4367",
+          "role": "preservation_and_cold_audit_receipt"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+          "sha256": "9a81bd04252a2ee851dd111040c600837bdf0a7bbf71c42c293e3b763c99a707",
+          "role": "exact_detector_input_boundary"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R59-R65-PR72-SUPERSESSION-20260830.md",
+          "sha256": "0def36bea2cbadc4f6420bca08369853379642ba28854278b6ecba224c0a7cf4",
+          "role": "failed_branch_supersession_record"
         }
       ]
     }

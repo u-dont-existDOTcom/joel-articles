@@ -4,3 +4,8 @@
 articles/romance/master.md whitespace=-blank-at-eol
 work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-master.md whitespace=-blank-at-eol
 work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-part-1.txt whitespace=-blank-at-eof
+
+# Preserve the immutable historical R15 receipt and the exact GUI transport
+# convention without weakening whitespace checks for surrounding task files.
+articles/somatic-therapies/experiments/R15-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260825.md whitespace=-blank-at-eol
+articles/somatic-therapies/experiments/R15-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt whitespace=-blank-at-eof
