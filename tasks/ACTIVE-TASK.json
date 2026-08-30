@@ -30,7 +30,15 @@
     "packetSha256": "6cc91944b27a645dc47b533db6f11dc0f1642455a011cbcd9b3487a66251f711",
     "responseSha256": "3d9d96d8b968211712f6c89d22762eeacde25212107465af4227f10528fee6f2",
     "findingsPath": "tasks/somatic-r15-clean-continuation-20260830/FINAL-READER.md",
-    "nextSupervisionRequest": "SOMATIC-R15-READER-003"
+    "decision": "bounded_repair_authorized",
+    "decisionResponseSha256": "46e58fffc6e0c0d04acc2fb17ab33cb1c2625079fec3f5c121646114d05ff825",
+    "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004"
+  },
+  "repair": {
+    "status": "source_recovery_and_whitelist_pending",
+    "authorizedScopes": ["A", "B", "C", "D"],
+    "pangramAuthorized": false,
+    "masterPromotionAuthorized": false
   },
   "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
   "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",

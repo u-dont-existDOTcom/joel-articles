@@ -68,8 +68,18 @@ The reader diagnoses only; it does not rewrite. Persist its exact input identity
 
 ## SOMATIC-R15-READER-003
 
-Status: **PREPARED / NOT YET SENT**
+Status: **DECIDED / BOUNDED REPAIR AUTHORIZED**
 
 The genuinely separate detector-blind reader is complete. It ran in a new ordinary ChatGPT conversation outside the article project and supervising conversation, received no detector or drafting-history context, and had diagnostic authority only. Its input article, transmitted packet, and exact response are frozen at SHA-256 `460dc342…`, `6cc91944…`, and `3d9d96d…` respectively.
 
-The durable ranked findings and controller adjudication are in `FINAL-READER.md`. They will be returned to the exact supervising conversation in one packet. No article prose changed and no paid action occurred while this request was prepared.
+The privacy-safe reader receipt is in `FINAL-READER.md`; detailed findings stayed outside the public branch. The full packet was sent once to the exact supervising conversation. The send interaction timed out, but a fresh view proved exactly one user request, an empty follow-up composer, and an active supervisor response, so the packet was not resent.
+
+Matching response prefix:
+
+`SUPERVISOR_DECISION SOMATIC-R15-READER-003`
+
+Decision: **BOUNDED REPAIR AUTHORIZED**.
+
+The response is bound locally at SHA-256 `46e58fffc6e0c0d04acc2fb17ab33cb1c2625079fec3f5c121646114d05ff825` (9,924 Unicode characters / 9,968 UTF-8 bytes). It authorized four independently diagnosed, source-grounded repair scopes and required separate provenance/whitelist/preservation gates before drafting. It rejected the uncorroborated W4 hypothesis, broad rewriting, protected-personality removal, failed-branch reuse, detector optimization, another Pangram call, and `master.html` promotion.
+
+After a minimum combined repair passes traceability, preservation, architecture, multiscale and cold-audit gates, run a new genuinely separate detector-blind reader on that repaired candidate. Then return `WORKER_SUPERVISION_REQUEST SOMATIC-R15-REPAIR-004`; no Pangram call or promotion may occur first.
