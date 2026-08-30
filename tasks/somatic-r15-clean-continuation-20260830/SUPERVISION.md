@@ -90,10 +90,29 @@ Joel explicitly confirmed both transmissions in the current Codex chat on 2026-0
 
 ## SOMATIC-R15-REPAIR-004
 
-Status: **READY TO SEND / NO REQUEST OUTSTANDING YET**
+Status: **DECIDED / BOUNDED MICRO-REPAIR AUTHORIZED**
 
 The bounded repair was pushed without alteration to public PR #73. Its required new independent reader then ran once in a genuinely separate ordinary ChatGPT conversation, with all detector, repair-history, source-defense, prior-reader, and supervision context withheld. The reader-facing article, packet, and exact response are bound at SHA-256 `9a8db472…`, `f8605693…`, and `5bc13888…`; the visible work duration was 18 minutes 18 seconds.
 
 The reader independently found unresolved Shaking proportionality and range-reference problems, a still-perceived double ending, the unchanged EFT mechanism bridge, speaker-role ambiguity, and remaining physical-state weighting pressure. It also identified lower-confidence generic texture, energetic compression, and humor-placement concerns. The controller applied no edit authority. `REPAIR-FINAL-READER.md` contains the full privacy-safe diagnosis and adjudication.
 
-The next action is to commit and push this exact reader receipt, then send one packet beginning `WORKER_SUPERVISION_REQUEST SOMATIC-R15-REPAIR-004` from the resulting exact branch head. No Pangram call or registered-authority change is pending.
+The reader receipt was committed and pushed at exact branch head `6cc8ddb3f2951e46c607c906a4a3833819bfdf7d`. One request was sent from that head. A browser read timed out while the response was pending; the exact conversation was recovered without resending and the matching response was present.
+
+Matching response prefix:
+
+`SUPERVISOR_DECISION SOMATIC-R15-REPAIR-004`
+
+Decision: **AUTHORIZE BOUNDED MICRO-REPAIR. DO NOT PROPOSE READY_FOR_OWNER_REVIEW YET.**
+
+Exact response identity: SHA-256 `7f5a3219d507edcde6810e06a97a962816dfdb1a479acfd6ab1f7f57cf879d7d` (6,300 Unicode characters / 6,350 UTF-8 bytes).
+
+Authorized only:
+
+- repair the orphaned 10–45-minute antecedent while preserving the range/applications and its imagined/non-class provenance;
+- substantially compress overlapping Shaking explanations while preserving every enumerated semantic and safety unit, placement, parent architecture and link;
+- compress the optional Sky/Vagal coda in place by removing the second full event-versus-diffuse explanation while preserving links, early-use/not-prerequisite distinction, cautions, outcome/avoidance function and native object;
+- reframe the EFT brain/tapping thought as Joel's interpretation only, without deletion or new neuroscience.
+
+Explicitly closed: global speaker-role edits, physical-state edits, findings 7–9, detector optimization, broad cleanup, movement of Shaking or the coda, and any registered-authority change.
+
+After full gates, run a bounded blind verification on the changed Shaking/EFT/coda material with immediate context. If it passes, freeze the new exact whole-document boundary and perform cache/reservation/History recovery. If exact final text has never been measured, one Pangram 4 whole-document GUI measurement is authorized without another approval request. Return as `WORKER_SUPERVISION_REQUEST SOMATIC-R15-POSTREPAIR-005`.

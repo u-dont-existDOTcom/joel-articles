@@ -52,13 +52,26 @@
     }
   },
   "repairFinalReader": {
-    "status": "complete_diagnostic_only_unresolved_findings",
+    "status": "complete_diagnostic_only_bounded_micro_repair_authorized",
     "articleInputSha256": "9a8db47224a704cbdcdcc0ed0c21b155fbb2b39da113fb346eb87d18377260b4",
     "packetSha256": "f8605693dbe4c3848a3ea447d70892a80ffdd88ecaefaa9ecf6eb7dcb9349e16",
     "responseSha256": "5bc138887c529024dc5c48819f564e3832677bc05c86056805d6eaaef9049e0d",
     "findingsPath": "tasks/somatic-r15-clean-continuation-20260830/REPAIR-FINAL-READER.md",
     "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004",
     "editAuthority": false
+  },
+  "microRepair": {
+    "status": "whitelist_frozen_before_editing",
+    "decision": "bounded_micro_repair_authorized",
+    "decisionResponseSha256": "7f5a3219d507edcde6810e06a97a962816dfdb1a479acfd6ab1f7f57cf879d7d",
+    "whitelistPath": "tasks/somatic-r15-clean-continuation-20260830/R15-MICRO-REPAIR-WHITELIST-20260830.md",
+    "authorizedBlocks": [
+      "EFT attribution only",
+      "Shaking proportionality and range",
+      "optional Sky/Vagal coda compression in place"
+    ],
+    "nextSupervisionRequest": "SOMATIC-R15-POSTREPAIR-005",
+    "pangramEligibility": "only after repair gates and bounded blind verification pass, then exact cache/reservation/History recovery"
   },
   "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
   "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",
