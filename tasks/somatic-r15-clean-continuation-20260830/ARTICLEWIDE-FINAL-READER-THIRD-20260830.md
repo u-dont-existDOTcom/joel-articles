@@ -34,4 +34,21 @@ The reader confirmed the article's major distinctions remain coherent and that c
 - candidate SHA-256: `9bf286b53945c22fb57ca0e5b57c7f4c8c411de829be07bcf07d85d6f77eccd0`;
 - reader-visible words: 3,702.
 
-All deterministic and manual source/preservation/architecture gates pass. The final reader is resolved subject only to a fresh bounded blind check of the changed physical-state attribution with immediate context; that check has no authority to reopen unrelated surfaces.
+All deterministic and manual source/preservation/architecture gates pass.
+
+## Bounded post-repair verification
+
+A fourth new ordinary ChatGPT context received only the changed physical-state section and the narrow actor/source/referent remit.
+
+- exact excerpt SHA-256: `4a76decdb09fa996980ce4c58bb13cad84c62ef37626d8f113cbe2492a6800c3`;
+- transmitted packet SHA-256: `d715b35bf533acf751d317a3977a45b2fcbcd91ef8b941a738475963842e5b7f`;
+- exact visible response SHA-256: `75be76f8eb5d48fd116bc9d0f2765c924603c944dee7b60114f0ae9d89e127fa`;
+- response size: 874 Unicode characters / 906 UTF-8 bytes.
+
+The verifier explicitly found the target attribution clear: the friends' sequence is observed while `what I understood as physical neuroinflammation` marks neuroinflammation as Joel's interpretation, and the named interventions attach naturally to what the friends did.
+
+It returned `BOUNDED_VERIFICATION_FAIL` only because `these therapies` has no plural antecedent inside the deliberately isolated excerpt, while acknowledging that the full article may supply it. The literal full candidate does supply that context through the preceding modality route and the section's opening therapy/session reference. The phrase is inherited source meaning, not introduced by the repair. This is an isolation artifact, not a new full-article defect.
+
+Bounded target verification: **PASS / ATTRIBUTION DEFECT RESOLVED / NO PROSE CHANGE**.
+
+Final-reader gate: **RESOLVED**.
