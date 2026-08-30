@@ -202,9 +202,9 @@ Subjectively, I could move from the more settled side with the blissful tingles 
 
 What I care about is the version of me an hour later, not the one enjoying the last minute of the exercise. Am I still stewing just as hard? Then the change was probably temporary, and I may need to try again. Can I remember what happened without getting grabbed in the same way? That is interesting. I don't expect every useful method to wipe out a trigger in one pass. EMDR often takes more than one session as well.
 
-For a bigger intervention, I watch the wake. How did I sleep? Am I irritable the next day, more dissociated, in more pain, weirdly compelled to keep processing? Am I treating people better or worse? A calm ten minutes at the end of a session can coexist with a dose that was much too big.
+A bigger intervention leaves a wake, and sometimes I only notice it the next day: sleep is off, I am irritable or more dissociated, pain is worse, or I have this weird compulsion to keep processing. How I treat people belongs in the wake too. The session might have ended with ten calm minutes and still have been far too much.
 
-Research matters to me. I just don't use the size of a literature as a ranking algorithm for my nervous system. If a shaking, qigong, breathwork, or somatic community says it can release decades of trauma, awaken kundalini, clear stored emotion, or rapidly heal the whole nervous system, I take that as a claim to test in life. I look at people whose patterns resemble mine. I change one thing at a time when I can. And I return to the least glamorous question in the article: am I actually doing better?
+Research matters to me. I just don't use the size of a literature as a ranking algorithm for my nervous system. A shaking, qigong, breathwork, or somatic community may say that a practice releases decades of trauma, awakens kundalini, clears stored emotion, or rapidly heals the whole nervous system. My own result cannot prove all of those explanations. What I can test is whether the practice does anything useful in my life. I look at people whose patterns resemble mine, change one thing at a time when I can, and return to the least glamorous question in the article: am I actually doing better?
 
 ---
 
