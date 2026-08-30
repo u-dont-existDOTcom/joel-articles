@@ -22,7 +22,9 @@ The only active reconstruction frontier is the historical non-authoritative R15 
 - historical checkpoint blob: `18136e5205cae3317bb41417a633a402aba902da`;
 - preservation/cold-audit receipt blob: `9bba365c498bc9f51bd16fe2761455a6b233d1bf`.
 
-The exact current whole-document Pangram input was independently materialized from the immutable R15 candidate using the historical GUI-boundary convention. The generator reproduces the frozen R16 GUI boundary byte-for-byte before it is trusted for R15.
+The exact current whole-document Pangram input was deterministically materialized directly from the immutable R15 candidate. Its identity chain is R15 candidate blob `e6210eb2742de156f0bd7b01fdde269f9b9625c6` -> deterministic materialization -> exact R15 boundary SHA-256 `9a81bd04252a2ee851dd111040c600837bdf0a7bbf71c42c293e3b763c99a707`.
+
+The historical R16 boundary was used only to regression-test the general extraction convention. It is not an identity oracle for R15, and the two boundary blobs are not claimed to be identical.
 
 - boundary path: `articles/somatic-therapies/experiments/R15-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt`;
 - SHA-256: `9a81bd04252a2ee851dd111040c600837bdf0a7bbf71c42c293e3b763c99a707`;
@@ -54,12 +56,14 @@ Before any Pangram submission, send and resolve exactly one matching bootstrap r
 
 Only one monotonically numbered supervision request may be outstanding. A timeout after sending requires exact request-id recovery in the same conversation before any resend.
 
+The request was recovered in the exact conversation after a browser timeout, without resending. The matching assistant response began `SUPERVISOR_DECISION SOMATIC-R15-BOOTSTRAP-001` and authorized cold preflight, exhaustive read-only detector recovery, and exactly one whole-document Pangram 4 GUI measurement only if the exact action is proven never submitted. The decision and its required provenance correction are recorded in `SUPERVISION.md`.
+
 ## Current step
 
-1. Verify the exact supervisor conversation and complete bootstrap request `SOMATIC-R15-BOOTSTRAP-001`.
-2. Cold-read literal R15 under current production gates.
-3. Recover exact-boundary cache, reservations, Pangram application History, browser recovery state, and GitHub detector evidence.
-4. Persist one of `EXACT_R15_RESULT_EXISTS`, `EXACT_R15_ACTION_AMBIGUOUS`, or `EXACT_R15_NEVER_SUBMITTED` before any click.
+1. Cold-read literal R15 under current production gates.
+2. Recover exact-boundary cache, reservations, Pangram application History, browser recovery state, and GitHub detector evidence.
+3. Persist one of `EXACT_R15_RESULT_EXISTS`, `EXACT_R15_ACTION_AMBIGUOUS`, or `EXACT_R15_NEVER_SUBMITTED` before any click.
+4. If and only if the preflight and exact-action classification permit it, reserve and perform the single authorized whole-document Pangram 4 GUI measurement.
 
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
