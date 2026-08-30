@@ -60,16 +60,16 @@ The request was recovered in the exact conversation after a browser timeout, wit
 
 ## Current step
 
-1. Send `WORKER_SUPERVISION_REQUEST SOMATIC-R15-RESULT-002` to the same verified Chat supervisor.
-2. Include the exact result, nine-window localization, cold diagnosis, historical negative evidence, quarantine boundaries, and controller recommendation.
-3. Wait for the matching `SUPERVISOR_DECISION SOMATIC-R15-RESULT-002` before any detector-driven edit.
-4. Continue automatically through the direction that decision establishes.
+1. Correct the two mistyped full branch heads and refresh stale PR #73/#144 descriptions; do not change article prose.
+2. Run one genuinely separate fresh-context, detector-blind final reader on the literal reader-facing article and neutral native-media positions.
+3. Persist the exact blind input identity and the reader's diagnosis without granting it edit authority.
+4. Return findings and controller adjudication as `WORKER_SUPERVISION_REQUEST SOMATIC-R15-READER-003`; do not edit or make a paid detector call before its matching decision.
 
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
 Cold production preflight is durably **PASS / PROVISIONAL SAME-CONTEXT AUDIT** in `R15-PRODUCTION-PREFLIGHT-20260830.md`. No concrete high-confidence defect was found and no semantic edit was made.
 
-Exact detector recovery and the authorized GUI measurement are complete in Pangram-lab draft PR #144 at `0d032643ba554f968969716ad36cac5d27fb63578`. The durable current classification is **`EXACT_R15_RESULT_EXISTS`** for reader-visible boundary `9a81bd…`; see `DETECTOR-STATE.json` and `R15-EXACT-PANGRAM-RESULT-20260830.md`.
+Exact detector recovery and the authorized GUI measurement are complete in Pangram-lab draft PR #144 at `0d03264302bb7deaf168dae0842c97b7b80ccb57`. The durable current classification is **`EXACT_R15_RESULT_EXISTS`** for reader-visible boundary `9a81bd…`; see `DETECTOR-STATE.json` and `R15-EXACT-PANGRAM-RESULT-20260830.md`.
 
 Historical `d5101f…` is valid near-boundary evidence for the same immutable R15 candidate, but it retained four source-only Markdown italics asterisks and had one fewer terminal newline. It is not exact or accepted-transport-normalized evidence for `9a81bd…`. Related paid-call history remains counted.
 

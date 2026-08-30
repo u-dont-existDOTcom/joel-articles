@@ -10,7 +10,7 @@ Candidate SHA-256: `e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad71
 
 Exact reader-visible boundary SHA-256: `9a81bd04252a2ee851dd111040c600837bdf0a7bbf71c42c293e3b763c99a707`
 
-Detector evidence repository: `u-dont-existDOTcom/pangram-humanization-lab`, branch `task/somatic-r15-exact-recovery-20260830`, head `0d032643ba554f968969716ad36cac5d27fb63578`, draft PR #144.
+Detector evidence repository: `u-dont-existDOTcom/pangram-humanization-lab`, branch `task/somatic-r15-exact-recovery-20260830`, head `0d03264302bb7deaf168dae0842c97b7b80ccb57`, draft PR #144.
 
 ## Exact result
 
