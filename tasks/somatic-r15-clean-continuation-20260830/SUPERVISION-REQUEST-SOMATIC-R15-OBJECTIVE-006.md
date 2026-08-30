@@ -2,7 +2,9 @@
 
 Task: `somatic-r15-clean-continuation-20260830`
 
-Request status: **PREPARED / NOT YET SENT**
+Request status: **SENT ONCE / DECIDED**
+
+Matching decision: `SUPERVISOR_DECISION SOMATIC-R15-OBJECTIVE-006` — **APPROVED / CONTINUE HUMANIZATION**. Exact visible-response SHA-256: `10147a9654109186e913e134ac86793f421f73f8675e190e47576cb60ba3702f`.
 
 ## Exact branch and candidate
 

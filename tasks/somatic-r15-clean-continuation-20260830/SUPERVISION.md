@@ -141,7 +141,7 @@ Explicit boundary: do not modify or promote `master.html`, reconstruct raw-edito
 
 ## OWNER-OUTCOME HOTFIX / SOMATIC-R15-OBJECTIVE-006
 
-Status: **PENDING SEND / ROOT TASK REOPENED**
+Status: **DECIDED / ARTICLE-WIDE R15 RECONSTRUCTION AUTHORIZED**
 
 Joel's later explicit correction fixed the task's measured target at 100% Pangram Human and directed the controller to continue humanizing until done, then return a link to the existing chat containing the exact commentable diff and final draft. The superseding shared supervision bootstrap was independently recovered at Universal architecture commit `90a230e85f78063080dc627ec36a0237c3234f72` and adopted without restarting this task.
 
@@ -158,3 +158,24 @@ Dual alignment:
 `SOMATIC-R15-POSTREPAIR-005` remains historical editorial evidence but no longer authorizes root terminalization. The next packet must ask the supervisor to compare the repaired contract against the independently acquired owner source first, then decide the next source-grounded repair boundary. It must not ask the supervisor to approve a proxy finish line.
 
 The nonblocking `SDF-SOMATIC-20260830-001` packet must also be routed to the shared Pro meta-review scope `supervision-architecture/20260830-owner-outcome-hotfix`; it does not change article authority and does not pause Somatic work.
+
+The complete packet was sent once to the exact existing supervisor conversation from branch head `7b238ffeb8ef75ea8985abdc59b947e8fd2332c9`. The matching response began exactly `SUPERVISOR_DECISION SOMATIC-R15-OBJECTIVE-006`.
+
+Decision: **APPROVED — CONTINUE HUMANIZATION**.
+
+Exact response identity: SHA-256 `10147a9654109186e913e134ac86793f421f73f8675e190e47576cb60ba3702f` (7,822 Unicode characters / 7,854 UTF-8 bytes).
+
+Authorized direction:
+
+- freeze one new article-wide whitelist and reconstruct the three broad red regions as a coordinated R15-derived candidate;
+- recover each section's thought from exact R15, R05/R06, registered owner locks/source evidence and registered same-function Somatic owner source rather than paraphrasing the repaired candidate sentence by sentence;
+- preserve every hard semantic, provenance, link, placeholder and no-failed-branch boundary;
+- repeat unpaid editorial work until the controller genuinely expects a Human result;
+- run one new detector-blind whole-candidate reader after editorial stability;
+- after all gates and exact recovery, perform at most one new whole-document Pangram 4.0 GUI measurement, consuming at most the fifth related paid call;
+- on exact Human `1.0`, freeze immediately and place the exact final draft and commentable R15-to-final diff in the existing supervisor chat;
+- below `1.0`, keep the root task open and return a diagnosis to this same supervisor without an unbounded variant loop.
+
+Current alignment remains worker-to-contract `GREEN`, contract-to-owner `MATCH`, completion claim `WORKING`, terminal comparator `OWNER_OUTCOME_UNMET`, directive `CONTINUE_HUMANIZATION`.
+
+The nonblocking design packet `SDF-SOMATIC-20260830-001` was also sent once to the existing shared Pro meta-review conversation under `supervision-architecture/20260830-owner-outcome-hotfix`. It has no article edit authority.
