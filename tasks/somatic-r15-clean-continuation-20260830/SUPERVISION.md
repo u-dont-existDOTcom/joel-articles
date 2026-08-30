@@ -116,3 +116,5 @@ Authorized only:
 Explicitly closed: global speaker-role edits, physical-state edits, findings 7–9, detector optimization, broad cleanup, movement of Shaking or the coda, and any registered-authority change.
 
 After full gates, run a bounded blind verification on the changed Shaking/EFT/coda material with immediate context. If it passes, freeze the new exact whole-document boundary and perform cache/reservation/History recovery. If exact final text has never been measured, one Pangram 4 whole-document GUI measurement is authorized without another approval request. Return as `WORKER_SUPERVISION_REQUEST SOMATIC-R15-POSTREPAIR-005`.
+
+The exact whitelist was committed before prose editing. The resulting candidate is frozen at blob `082b613f5d5217ebb8b289ee0460a788a66e2639` / SHA-256 `7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6`. Deterministic comparison proves only the EFT, linked Shaking, and optional-coda blocks changed from the pre-micro candidate. All pre-reader gates pass; the next action is the authorized bounded blind verification, not Pangram.

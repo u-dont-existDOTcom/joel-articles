@@ -67,6 +67,8 @@ The request was recovered in the exact conversation after a browser timeout, wit
 5. `SUPERVISOR_DECISION SOMATIC-R15-REPAIR-004`, exact response SHA-256 `7f5a3219…`, authorizes a bounded micro-repair only: EFT attribution, Shaking proportionality/range, and in-place coda compression. Speaker role, physical-state wording, texture, energetic bridge, CBT, Brainspotting, and humor are closed. The exact whitelist is frozen in `R15-MICRO-REPAIR-WHITELIST-20260830.md` before editing.
 6. After the micro-repair and full gates, run one bounded blind verification, recover exact final-boundary detector state, and follow the one-call eligibility in the matching decision. Return as `WORKER_SUPERVISION_REQUEST SOMATIC-R15-POSTREPAIR-005`. No `master.html` promotion or Substack publication is authorized.
 
+The bounded micro-repair is now frozen at candidate blob `082b613f5d5217ebb8b289ee0460a788a66e2639` / SHA-256 `7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6`. Exactly the EFT, Shaking and optional-coda blocks changed from the pre-micro candidate; all source, preservation, architecture, cold, link and native-placeholder gates pass. `R15-MICRO-REPAIR-PREFLIGHT-20260830.md` is the current pre-reader receipt.
+
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
 Cold production preflight is durably **PASS / PROVISIONAL SAME-CONTEXT AUDIT** in `R15-PRODUCTION-PREFLIGHT-20260830.md`. No concrete high-confidence defect was found and no semantic edit was made.

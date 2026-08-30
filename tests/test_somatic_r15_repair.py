@@ -20,6 +20,9 @@ class SomaticR15RepairTest(unittest.TestCase):
         self.assertEqual(result["status"], "PASS")
         self.assertEqual(result["ordinaryLinks"], 16)
         self.assertEqual(result["nativePlaceholders"], 7)
+        self.assertEqual(
+            set(result["microChangedSections"]), MODULE.MICRO_AUTHORIZED_HEADINGS
+        )
 
 
 if __name__ == "__main__":

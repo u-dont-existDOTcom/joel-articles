@@ -106,27 +106,21 @@ One good therapy session does not help much if I spend the rest of the week rebu
 
 EFT is very nice for that. Tapping gives my hands and attention something to do besides ride the whole reaction.
 
-You can also literally activate different parts of the brain by tapping different parts, so it is interesting to notice how you feel as you move through the tapping points. And it is a little bit of a massage. Actually, I mentioned earlier that shaving my head and massaging it works really well for me. Sometimes I feel like that works even better than EFT.
+I think of tapping different points as activating different parts of the brain, so it is interesting to notice how I feel as I move through them. And it is a little bit of a massage. Actually, I mentioned earlier that shaving my head and massaging it works really well for me. Sometimes I feel like that works even better than EFT.
 
 Where EFT earns its keep is portability. I can use it before a hard conversation, right after somebody triggers me, or when my mind is looping and my body has joined the loop. I think of that as taking the pressure down. I do not mistake it for having finished the deeper trauma work.
 
 ## [Shaking Qigong](http://shakingclass.innersignalselfhypnosis.com/) / Shaking Medicine
 
-My friend Louka is why I am linking this particular class. What I know about the class starts with his experience: he had tried many different healing and somatic modalities, including basic TRE. TRE itself did nothing for him, and nothing helped him much until he got into this class, which costs $10 per month on Skool.
+My friend Louka is why I am linking this $10-per-month Skool class. He had tried many healing and somatic modalities, including basic TRE; TRE did nothing for him, and nothing helped much until he got into the class. It has many movements and positions, which is what I mean by more than TRE. My hypothesis is that some people may need the right position or movement, combined with tremoring, to find where their blockage is.
 
-When I say the class is much more than just TRE, I mean that it includes many movements and positions. My inference is that some people may need to find the right position or movement, combined with TRE, before they find where their blockage is.
+By “blockage” I mean stuck energy. I often have the natural shaking animals have, rather than getting much from intentional therapeutic techniques. Especially on psychedelics, it is as if my body knows exactly which part to shake and how. To me, it is not simply “shaking = mental health”: when the right thing is shaken the right way, things loosen and the energy flows.
 
-By “blockage” I mean what energy is stuck in you. I often have the kind of natural shaking that animals have, rather than noticing much benefit from intentional therapeutic techniques. Especially on psychedelics, it is like my body knows exactly which part to shake and how. So it is not just “shaking = mental health.” When the right thing is shaken the right way, things loosen up as they should and the energy flows.
+TRE has to be teachable en masse, so it distills what works most often for most people. More angles may mean more chances of success—and fewer chances of being called an expert. “Just try lots of stuff till it works” is how my expertise runs on this. I did not try the linked class; my firsthand part is qigong, which has helped me move energy. What interests me is its guided but not completely standardized middle ground between one fixed TRE protocol and unstructured shaking, plus the social setting. That may help someone who needs guidance, gets nowhere with standard TRE, or benefits from seeing others get results.
 
-TRE is a system they are trying to teach en masse, so they had to distill the method down to what seems to work most of the time for most people. Obviously, if you could get more angles at it, you would get more chance of success—and less chance of being called an expert. “Just try lots of stuff till it works” is how my expertise runs on this.
+I could imagine 10–45 minutes of regular shaking or qigong for chronic freeze, non-verbal emotional processing, stress accumulating between therapy sessions, or activation left after deeper work. I did not learn or test that range in the linked class. It is a different dose from the exploratory shakes above, with a simple limit: I still need to be able to stop and settle afterward.
 
-I did not try the Shaking Qigong class. My firsthand part is narrower: I have done qigong and found it very helpful for moving energy.
-
-What interests me about Louka’s class is that it gives people more ways in than one fixed TRE protocol. It is guided without being completely standardized, and you are doing it around other people instead of alone. That may matter for somebody who gets nowhere with the stripped-down version.
-
-As a regular practice, this is also a different dose from the little exploratory shakes above. I did not get the 10–45-minute range from trying the class; it is what I could imagine for shaking or qigong as a regular practice for chronic freeze, non-verbal emotional processing, stress that keeps accumulating between therapy sessions, or activation left over after deeper work. The basic limit is simple: I still need to be able to stop and settle afterward.
-
-I do not know exactly what deserves the credit when shaking helps. Maybe the movement lets muscles and defensive impulses do something they never got to finish. Maybe it changes arousal because you are moving and paying close attention to the body. Qigong would say stuck qi is moving again. I am comfortable leaving those as different explanations rather than forcing one to prove the other.
+I do not know what deserves credit when shaking helps. Movement may let muscles and defensive impulses do something they never got to finish, or alter arousal through movement and close attention to the body. Qigong would say stuck qi is moving again. I leave those as different possibilities rather than forcing one to prove the other.
 
 The place I would stop is when shaking turns into a catharsis competition, or when somebody starts treating it as a complete treatment for severe PTSD. If a person is highly dissociative or unstable, this is not where I would substitute experimentation for skilled help.
 
@@ -216,10 +210,10 @@ I do not ignore the research, but I also do not use the size of the literature a
 
 # Optional High-Intensity Practices: Sky Hypnosis and Vagal Blitz
 
-The ordinary-life test matters especially with [Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best). I keep them outside the main route because they are different animals from ordinary regulation practices: high-intensity state-shifters that a stable person may find useful even before doing any of the therapies above, not prerequisites for healing.
+[Sky Hypnosis](https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind) and [Vagal Blitz](https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best) are different animals from ordinary regulation practices: high-intensity state-shifters that a stable person may find useful even before doing any of the therapies above, but not prerequisites for healing. I keep them outside the main route.
 
 Sky Hypnosis can make you lightheaded. Vagal Blitz is a lying-down-only practice with cardiovascular and mental-health cautions. I would use the complete guide, start with the least intense version that gives a useful shift, and stop when balance, orientation, or recovery becomes unreliable. I do not chase fainting or loss of consciousness.
 
-I also do not count “wow” as an outcome measure. A huge release, a lot of bliss, or an altered-state shift can feel profound and still leave the actual problem basically untouched. The test follows the problem I was trying to change. With a discrete event, can I remember it later with less restimulation? With diffuse material, does the relevant body pattern or ordinary-life aftermath actually change? Either way, am I more able to handle pain, boundaries, conflict, and ordinary life? If the practice is mainly helping me avoid grief, conflict, practical problems, or deeper relational healing, the extraordinary state does not rescue it.
+I also do not count “wow” as an outcome measure. A huge release, a lot of bliss, or an altered-state shift can feel profound and still leave the actual problem basically untouched. I use the ordinary-life test above: am I more able to handle pain, boundaries, conflict, and ordinary life, or is the practice mainly helping me avoid grief, conflict, practical problems, or deeper relational healing? The extraordinary state does not rescue it.
 
 **[EXISTING SKY HYPNOSIS NATIVE EMBED — exact object retained in HTML promotion]**

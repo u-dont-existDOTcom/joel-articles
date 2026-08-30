@@ -35,11 +35,11 @@
     "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004"
   },
   "repair": {
-    "status": "fresh_reader_complete_supervision_request_pending",
+    "status": "micro_repair_frozen_for_bounded_reader",
     "authorizedScopes": ["A", "B", "C", "D"],
     "candidatePath": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
-    "candidateSha256": "85c09a28036a80ff25afd3e3474ad6160fe162f2e120db711fe8ce7c7bc9ea00",
-    "candidateGitBlob": "91054075329b51b566535881e5ea9a64775798a1",
+    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "candidateGitBlob": "082b613f5d5217ebb8b289ee0460a788a66e2639",
     "localCandidateCommit": "ac5eaefcf970b511562909d082b993cebb582716",
     "remoteHeadBeforeCandidate": "a982733f8c0a77df07a28fe54e099ac57418d0e6",
     "pangramAuthorized": false,
@@ -61,7 +61,7 @@
     "editAuthority": false
   },
   "microRepair": {
-    "status": "whitelist_frozen_before_editing",
+    "status": "pre_reader_gates_pass",
     "decision": "bounded_micro_repair_authorized",
     "decisionResponseSha256": "7f5a3219d507edcde6810e06a97a962816dfdb1a479acfd6ab1f7f57cf879d7d",
     "whitelistPath": "tasks/somatic-r15-clean-continuation-20260830/R15-MICRO-REPAIR-WHITELIST-20260830.md",
@@ -70,6 +70,24 @@
       "Shaking proportionality and range",
       "optional Sky/Vagal coda compression in place"
     ],
+    "preMicroCandidateSha256": "85c09a28036a80ff25afd3e3474ad6160fe162f2e120db711fe8ce7c7bc9ea00",
+    "preMicroCandidateGitBlob": "91054075329b51b566535881e5ea9a64775798a1",
+    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "candidateGitBlob": "082b613f5d5217ebb8b289ee0460a788a66e2639",
+    "r15ToCandidateZeroContextDiffSha256": "cc24b25a62e7217a218da264184b2bd319f04e2fe9680e6eb8e40bd023da784a",
+    "preMicroToCandidateZeroContextDiffSha256": "2ba992b188835ad9e5d93f642a59e9a5a0be59868077bb872271f8c612e06404",
+    "preflightPath": "tasks/somatic-r15-clean-continuation-20260830/R15-MICRO-REPAIR-PREFLIGHT-20260830.md",
+    "gates": {
+      "sourceIntegrity": "PASS",
+      "forwardTraceability": "PASS",
+      "reverseTraceability": "PASS",
+      "unexplainedSubstantiveDeltas": 0,
+      "semanticSanity": "PASS",
+      "architectureMultiscale": "PASS",
+      "coldAudit": "PASS",
+      "ordinaryLinks": 16,
+      "nativePlaceholders": 7
+    },
     "nextSupervisionRequest": "SOMATIC-R15-POSTREPAIR-005",
     "pangramEligibility": "only after repair gates and bounded blind verification pass, then exact cache/reservation/History recovery"
   },
