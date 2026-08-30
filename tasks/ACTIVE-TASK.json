@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "taskId": "somatic-r15-clean-continuation-20260830",
   "title": "Finish Somatic Therapies humanization from the exact R15 checkpoint",
-  "status": "ready_for_owner_review",
+  "status": "active",
   "exclusive": true,
+  "ownerOutcome": {
+    "ownerRequestId": "OR-SOMATIC-HUMANIZATION-20260830",
+    "epoch": 3,
+    "sha256": "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a",
+    "sourceReceipt": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json",
+    "normalizedResult": "Exact R15-derived final candidate reaches Pangram 4.0 Human fraction 1.0 while every preservation/editorial gate remains green, then the existing supervisor chat receives the final draft and commentable diff."
+  },
+  "taskContract": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/TASK-CONTRACT-V2.json",
+    "revision": 2,
+    "sha256": "241a0e0dcbf1cc97ff244bf0435a11206a40ad51b657a61555cfddad300b076c"
+  },
+  "objectiveReconciliation": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/OBJECTIVE-RECONCILIATION.json",
+    "reconciliationId": "ORC-SOMATIC-20260830-001",
+    "workerToContractAlignment": "GREEN",
+    "contractToOwnerAlignment": "MATCH",
+    "typedCompletionClaim": "WORKING",
+    "requiredDirective": "CONTINUE_HUMANIZATION"
+  },
   "repository": "u-dont-existDOTcom/joel-articles",
   "requiredBranch": "task/somatic-r15-clean-continuation-20260830",
   "pullRequest": 73,
@@ -127,7 +147,7 @@
     "proseChangedAfterResult": false
   },
   "ownerReview": {
-    "status": "READY_FOR_OWNER_REVIEW",
+    "status": "HISTORICAL_NONTERMINAL_INVALIDATED_BY_OWNER_CORRECTION",
     "supervisionRequest": "SOMATIC-R15-POSTREPAIR-005",
     "decision": "approved",
     "decisionResponseSha256": "ba758af6dc6275c39c0860b5e6a5fc2c43b95f9d678440784c8a1f20fdabb9ee",
@@ -138,7 +158,10 @@
     "terminalBoundary": "not_complete_not_ready_for_merge_not_publication_ready",
     "masterPromotionAuthorized": false,
     "rawEditorReconstructionAuthorized": false,
-    "publicationAuthorized": false
+    "publicationAuthorized": false,
+    "invalidatedAt": "2026-08-30T19:52:00Z",
+    "invalidatedBy": "PANGRAM-TARGET-001",
+    "rootTaskEffect": "none; the root task remains active until the repaired owner outcome is achieved"
   },
   "mechanicalCloseout": {
     "status": "complete",
@@ -165,7 +188,7 @@
   },
   "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
   "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",
-  "completionClaimRule": "Ordinary tests or a high Pangram score are prerequisites/evidence only. Readiness requires every task artifact and editorial gate; completion does not include master.html promotion or Substack publication without explicit later approval.",
+  "completionClaimRule": "OWNER_OUTCOME_ACHIEVED requires exact whole-document Pangram 4.0 fractionHuman == 1.0, all fidelity/editorial gates, a final independent reader, and exact final-draft/commentable-diff delivery in the existing supervisor chat. READY_FOR_OWNER_REVIEW, ordinary tests, supervisor approval, or a lower Pangram score are nonterminal proxies.",
   "suspendedTaskSources": [
     "R16",
     "R17-R58",
@@ -185,7 +208,11 @@
       "tasks/somatic-r15-clean-continuation-20260830/READY-FOR-OWNER-REVIEW.md",
       "tasks/somatic-r15-clean-continuation-20260830/FINAL-READINESS-RECEIPT-20260830.md",
       "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md",
-      "tasks/somatic-r15-clean-continuation-20260830/PRE-MICRO-SECTION-IDENTITY-MANIFEST.json"
+      "tasks/somatic-r15-clean-continuation-20260830/PRE-MICRO-SECTION-IDENTITY-MANIFEST.json",
+      "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json",
+      "tasks/somatic-r15-clean-continuation-20260830/TASK-CONTRACT-V2.json",
+      "tasks/somatic-r15-clean-continuation-20260830/OBJECTIVE-RECONCILIATION.json",
+      "tasks/somatic-r15-clean-continuation-20260830/SUPERVISION-DESIGN-FEEDBACK-20260830.json"
     ],
     "requiredDocumentation": [
       "articles/somatic-therapies/experiments/R59-R65-PR72-SUPERSESSION-20260830.md"

@@ -138,3 +138,23 @@ Exact response identity: SHA-256 `ba758af6dc6275c39c0860b5e6a5fc2c43b95f9d678440
 The supervisor accepted the exact red detector result as a valid negative result rather than an unresolved transport or editorial defect. It directed no further prose editing, Pangram action or score optimization and kept every failed branch quarantined. It authorized only the mechanical closeout: create `READY-FOR-OWNER-REVIEW.md` and the final readiness receipt, set the exclusive task to `ready_for_owner_review`, rerun acceptance and repository gates, and update PR #73/checkpoints.
 
 Explicit boundary: do not modify or promote `master.html`, reconstruct raw-editor HTML, merge as article authority, or publish/export to Substack. Terminal state is `READY_FOR_OWNER_REVIEW`, not `COMPLETE`, not `READY_FOR_MERGE`, and not publication-ready.
+
+## OWNER-OUTCOME HOTFIX / SOMATIC-R15-OBJECTIVE-006
+
+Status: **PENDING SEND / ROOT TASK REOPENED**
+
+Joel's later explicit correction fixed the task's measured target at 100% Pangram Human and directed the controller to continue humanizing until done, then return a link to the existing chat containing the exact commentable diff and final draft. The superseding shared supervision bootstrap was independently recovered at Universal architecture commit `90a230e85f78063080dc627ec36a0237c3234f72` and adopted without restarting this task.
+
+Independent owner-source receipt: `OWNER-SOURCE-RECEIPT.json`, owner outcome `OR-SOMATIC-HUMANIZATION-20260830` epoch 3, SHA-256 `d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a`.
+
+Dual alignment:
+
+- prior worker-to-contract: `GREEN`;
+- prior contract-to-owner: `DIVERGED`;
+- repaired contract-to-owner: `MATCH`;
+- current typed completion claim: `WORKING`;
+- current gap: exact candidate Human `0.1381948739` versus required `1.0`, plus a new final-reader pass and exact ChatGPT delivery artifacts after any substantive repair.
+
+`SOMATIC-R15-POSTREPAIR-005` remains historical editorial evidence but no longer authorizes root terminalization. The next packet must ask the supervisor to compare the repaired contract against the independently acquired owner source first, then decide the next source-grounded repair boundary. It must not ask the supervisor to approve a proxy finish line.
+
+The nonblocking `SDF-SOMATIC-20260830-001` packet must also be routed to the shared Pro meta-review scope `supervision-architecture/20260830-owner-outcome-hotfix`; it does not change article authority and does not pause Somatic work.

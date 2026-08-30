@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "reconciliationId": "ORC-SOMATIC-20260830-001",
+  "taskId": "somatic-r15-clean-continuation-20260830",
+  "trigger": "OWNER_CORRECTION_AND_SUPERVISION_BOOTSTRAP_SUPERSESSION",
+  "reconciledAt": "2026-08-30T19:52:00Z",
+  "ownerSource": {
+    "ownerRequestId": "OR-SOMATIC-HUMANIZATION-20260830",
+    "canonicalLocator": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json",
+    "sha256": "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a",
+    "capturedAt": "2026-08-30T19:52:00Z",
+    "capturedBy": "deterministic-tool",
+    "corrections": [
+      "PUBLISHING-CONTINUATION-001",
+      "PANGRAM-TARGET-001",
+      "HUMANIZATION-GOAL-001",
+      "SUPERVISION-HOTFIX-AND-DELIVERY-001"
+    ]
+  },
+  "independentSupervisorReceipt": {
+    "receiptId": "osr-somatic-humanization-20260830-001",
+    "collector": "deterministic-tool",
+    "sourceSha256": "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a",
+    "workerSuppliedCopySha256": null,
+    "comparison": "WORKER_COPY_ABSENT",
+    "limitations": [
+      "Complete source messages are bound by individual byte hashes; the durable receipt contains bounded exact excerpts because the Codex session has no portable public message URL."
+    ]
+  },
+  "taskContract": {
+    "taskContractId": "TC-SOMATIC-R15-CLEAN-CONTINUATION",
+    "revision": 2,
+    "path": "tasks/somatic-r15-clean-continuation-20260830/TASK-CONTRACT-V2.json",
+    "sha256": "241a0e0dcbf1cc97ff244bf0435a11206a40ad51b657a61555cfddad300b076c"
+  },
+  "normalizedResult": "An exact R15-derived final candidate reaches Pangram 4.0 Human fraction 1.0 without sacrificing source integrity, preservation, semantics, architecture, links, native objects, or owner constraints; the exact final draft and commentable diff are then placed in the existing supervising ChatGPT conversation and its link is returned to Joel.",
+  "currentGap": {
+    "latestExactCandidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "latestExactPangramHuman": 0.1381948739,
+    "targetExactPangramHuman": 1.0,
+    "unmetOutcomeIds": ["RO-002", "RO-004", "RO-005"],
+    "unknownOutcomeIds": [],
+    "summary": "The existing candidate is preservation-clean supporting work, but its red exact result leaves the principal measured humanization outcome unmet; any new final candidate also requires a fresh independent reader and the requested ChatGPT delivery artifacts."
+  },
+  "nonSatisfyingProxies": [
+    "READY_FOR_OWNER_REVIEW",
+    "source-integrity PASS",
+    "supervisor approval",
+    "independent-reader PASS",
+    "repository tests PASS",
+    "Pangram Human below fraction 1.0"
+  ],
+  "alignment": {
+    "workerToContract": {
+      "status": "GREEN",
+      "evidenceRefs": [
+        "git:705a052c0558609f9e97970c151a13804ccb8bd4",
+        "tasks/somatic-r15-clean-continuation-20260830/FINAL-READINESS-RECEIPT-20260830.md"
+      ],
+      "findings": [
+        "The worker faithfully completed the prior narrowed readiness contract and preserved its evidence.",
+        "The worker has now reopened the same task under the repaired contract without restarting or broadening it."
+      ]
+    },
+    "contractToOwner": {
+      "status": "MATCH",
+      "unmappedOwnerRequirementIds": [],
+      "divergences": [],
+      "authorizedScopeChanges": [
+        "PANGRAM-TARGET-001 fixes the explicit target at 100% Human.",
+        "SUPERVISION-HOTFIX-AND-DELIVERY-001 requires commentable diff and final draft delivery in the existing supervisor chat."
+      ],
+      "historicalFinding": "The superseded revision was DIVERGED because READY_FOR_OWNER_REVIEW terminally bypassed RO-002 at Pangram Human 0.1381948739."
+    }
+  },
+  "requirements": [
+    {
+      "ownerRequirementId": "RO-001",
+      "ownerRequirementText": "Continue the exact R15 clean line and quarantine R16-R65/PR72 prose.",
+      "workerInterpretation": "Use the preserved exact R15 candidate and source ledgers; do not assemble from failed branches.",
+      "taskCriterionIds": ["RO-001"],
+      "acceptanceEvidence": ["exact Git identities", "source-integrity/quarantine receipt"],
+      "status": "MAPPED_DIRECT",
+      "authorizedChangeRef": null
+    },
+    {
+      "ownerRequirementId": "RO-002",
+      "ownerRequirementText": "Reach 100% Human on Pangram for the exact whole final candidate.",
+      "workerInterpretation": "Require authenticated Pangram 4.0 GUI fractionHuman == 1.0 bound to the exact UTF-8 final boundary.",
+      "taskCriterionIds": ["RO-002"],
+      "acceptanceEvidence": ["exact Pangram result and History binding"],
+      "status": "MAPPED_DIRECT",
+      "authorizedChangeRef": "PANGRAM-TARGET-001"
+    },
+    {
+      "ownerRequirementId": "RO-003",
+      "ownerRequirementText": "Preserve meaning, source integrity, architecture, safety, links, native objects, and owner constraints.",
+      "workerInterpretation": "No candidate is eligible for a paid detector call until every production gate passes with zero unexplained substantive deltas.",
+      "taskCriterionIds": ["RO-003"],
+      "acceptanceEvidence": ["preservation, source, architecture, cold-audit, link and native-object receipts"],
+      "status": "MAPPED_DIRECT",
+      "authorizedChangeRef": null
+    },
+    {
+      "ownerRequirementId": "RO-004",
+      "ownerRequirementText": "Use a genuinely independent final reader when the article is otherwise stable.",
+      "workerInterpretation": "Run a detector-blind fresh reader on the literal changed final candidate and adjudicate findings without granting edit authority.",
+      "taskCriterionIds": ["RO-004"],
+      "acceptanceEvidence": ["reader packet/response identities and disposition ledger"],
+      "status": "MAPPED_VERIFYING",
+      "authorizedChangeRef": null
+    },
+    {
+      "ownerRequirementId": "RO-005",
+      "ownerRequirementText": "Give Joel a link to a chat containing the new commentable diff and the final draft.",
+      "workerInterpretation": "Post exact hash-bound artifacts in the existing supervisor conversation and preserve its URL.",
+      "taskCriterionIds": ["RO-005"],
+      "acceptanceEvidence": ["conversation URL and posted artifact hashes"],
+      "status": "MAPPED_DIRECT",
+      "authorizedChangeRef": "SUPERVISION-HOTFIX-AND-DELIVERY-001"
+    }
+  ],
+  "completionClaim": {
+    "type": "WORKING",
+    "proposedTerminal": false,
+    "candidateRef": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
+    "evidenceRefs": [
+      "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md"
+    ]
+  },
+  "terminalComparator": {
+    "status": "OWNER_OUTCOME_UNMET",
+    "evaluatedOutcomeIds": ["RO-001", "RO-002", "RO-003", "RO-004", "RO-005"],
+    "metOutcomeIds": ["RO-001", "RO-003"],
+    "unmetOutcomeIds": ["RO-002", "RO-004", "RO-005"],
+    "rootTerminalizationAllowed": false
+  },
+  "result": {
+    "overallTraffic": "YELLOW",
+    "rootTerminalizationAllowed": false,
+    "requiredDirective": "CONTINUE_HUMANIZATION",
+    "findings": [
+      "Historical worker-to-contract GREEN did not cure historical contract-to-owner DIVERGED.",
+      "The repaired revision now MATCHES the owner outcome and preserves all useful supporting work.",
+      "SOMATIC-R15-POSTREPAIR-005 remains historical but cannot authorize root completion after PANGRAM-TARGET-001."
+    ]
+  },
+  "previousReconciliationId": null,
+  "recurringReconciliationTriggers": [
+    "material editorial discovery",
+    "before each paid detector call",
+    "after each owner correction",
+    "before final-reader transition",
+    "before final ChatGPT artifact delivery",
+    "before any OWNER_OUTCOME_ACHIEVED claim"
+  ]
+}

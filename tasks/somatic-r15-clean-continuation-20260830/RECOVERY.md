@@ -1,6 +1,6 @@
 # Somatic R15 clean continuation — recovery checkpoint
 
-Status: **READY_FOR_OWNER_REVIEW / EXCLUSIVE / NOT COMPLETE**
+Status: **WORKING / EXCLUSIVE / OWNER OUTCOME NOT YET ACHIEVED**
 
 Task id: `somatic-r15-clean-continuation-20260830`
 
@@ -9,6 +9,31 @@ Required branch: `task/somatic-r15-clean-continuation-20260830`
 Draft recovery PR: #73
 
 Baseline: current canonical `main` at `6d78c638e1e7edd7e937e5992b328c0212dfbfe2`
+
+## Superseding owner-outcome reconciliation
+
+The 2026-08-30 shared supervision bootstrap at Universal architecture commit `90a230e85f78063080dc627ec36a0237c3234f72` was adopted at this checkpoint. A deterministic collector recovered the originating owner message and material corrections from the raw Codex session record; the content-addressed receipt is `OWNER-SOURCE-RECEIPT.json`.
+
+Normalized owner outcome: continue this same clean R15 task until an exact frozen final candidate reaches Pangram 4.0 Human fraction `1.0` while all source-integrity, bidirectional preservation, semantic, architecture, cold-audit, independent-reader, link, native-object and failed-branch-contamination gates pass; then put the exact final draft and a commentable R15-to-final diff in the existing supervising ChatGPT conversation and return its link to Joel.
+
+Current alignment:
+
+- `worker_to_contract_alignment: GREEN` for the prior revision's supporting work;
+- historical `contract_to_owner_alignment: DIVERGED` because `READY_FOR_OWNER_REVIEW` replaced the measured humanization outcome at Human `0.1381948739`;
+- repaired revision-2 `contract_to_owner_alignment: MATCH`;
+- typed completion claim: `WORKING`;
+- current directive: `CONTINUE_HUMANIZATION`.
+
+The prior `SOMATIC-R15-POSTREPAIR-005` decision remains valid historical editorial evidence but is invalid as a root-task terminal decision after Joel's explicit 100%-Human correction. The exact red candidate, its preservation receipts and every valid supporting gate remain usable evidence; nothing has been restarted or discarded.
+
+Current machine records:
+
+- `TASK-CONTRACT-V2.json`;
+- `OBJECTIVE-RECONCILIATION.json`;
+- `OWNER-SOURCE-RECEIPT.json`;
+- `SUPERVISION-DESIGN-FEEDBACK-20260830.json`.
+
+The architecture feedback packet records one nonblocking machine-schema gap and must reach the shared `supervision-architecture/20260830-owner-outcome-hotfix` Pro meta-review lane. It does not block article work.
 
 ## Authority and exact frontier
 
@@ -77,9 +102,9 @@ That recovery completed as `EXACT_FINAL_NEVER_SUBMITTED`; all 60 retained dedica
 
 The next action is the required `WORKER_SUPERVISION_REQUEST SOMATIC-R15-POSTREPAIR-005`, recommending `READY_FOR_OWNER_REVIEW`. No detector-driven edit, registered-authority change or publication is implied.
 
-The matching `SUPERVISOR_DECISION SOMATIC-R15-POSTREPAIR-005` approved `READY_FOR_OWNER_REVIEW`. Exact decision response SHA-256 is `ba758af6dc6275c39c0860b5e6a5fc2c43b95f9d678440784c8a1f20fdabb9ee`. The terminal task state is readiness for owner review, not completion, merge readiness or publication readiness. Mechanical acceptance and repository gates are the only remaining closeout work; article prose, `master.html`, raw-editor HTML and publication state must not change.
+The matching `SUPERVISOR_DECISION SOMATIC-R15-POSTREPAIR-005` historically approved `READY_FOR_OWNER_REVIEW`. Exact decision response SHA-256 is `ba758af6dc6275c39c0860b5e6a5fc2c43b95f9d678440784c8a1f20fdabb9ee`. That approval was coherent against the narrowed contract then in force, but Joel's later correction proves it was not a valid root-task finish line. It is now a nonterminal historical checkpoint.
 
-Mechanical closeout is complete: task acceptance PASS, 109 tests PASS, Codex/GitHub audit PASS with 0 errors and four known warnings, and `git diff --check` PASS. The repair audit now has a tested shallow-checkout fallback bound to an exact prose-free pre-micro section-hash manifest, so GitHub CI does not depend on local branch history. The repository-wide content validator reports only three unchanged out-of-scope Romance findings; canonical `main` contains the same three, and this branch changes none of their files. `FINAL-READINESS-RECEIPT-20260830.md` records the exact comparison. The Somatic task remains `READY_FOR_OWNER_REVIEW` at the owner-review boundary.
+The old readiness mechanics remain preserved: task acceptance PASS under the superseded check, 109 tests PASS, Codex/GitHub audit PASS with 0 errors and four known warnings, and `git diff --check` PASS. They are supporting evidence only. The task-specific acceptance command must now fail closed until the repaired owner outcome is met.
 
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
@@ -97,4 +122,6 @@ The required post-repair fresh reader is separately bound at article SHA-256 `9a
 
 ## Completion boundary
 
-Ordinary tests and a high Pangram score do not complete this task. `python scripts/check_somatic_r15_task.py --acceptance` must pass, the supervisor must propose/approve `READY_FOR_OWNER_REVIEW`, and the final candidate must satisfy every source-integrity, preservation, semantic, architecture, multiscale, cold-audit, independent-reader, exact detector-binding, link, and native-placeholder gate. Registered `master.html` stays unchanged until a later explicit approval; Substack publication is outside this task's automatic authority.
+Ordinary tests, editorial readiness, supervisor approval, independent-reader PASS, and a Pangram result below Human fraction `1.0` do not complete this task. `python scripts/check_somatic_r15_task.py --acceptance` must fail closed until the exact final candidate satisfies the measured target and every source-integrity, preservation, semantic, architecture, multiscale, cold-audit, final-reader, exact detector-binding, link, native-object, failed-branch, and requested ChatGPT-delivery condition. Registered `master.html` remains unchanged unless the article-promotion boundary is separately reached.
+
+Next safe action: push this repaired contract/checkpoint, send `WORKER_SUPERVISION_REQUEST SOMATIC-R15-OBJECTIVE-006` to the existing exact supervisor conversation with the independent owner-source receipt and dual-alignment matrix, and ask for the next source-grounded repair diagnosis under the restored 100%-Human target. Continue automatically after the matching decision.

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "taskContractId": "TC-SOMATIC-R15-CLEAN-CONTINUATION",
+  "revision": 2,
+  "taskId": "somatic-r15-clean-continuation-20260830",
+  "parentOwnerOutcome": {
+    "ownerRequestId": "OR-SOMATIC-HUMANIZATION-20260830",
+    "epoch": 3,
+    "sha256": "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a",
+    "sourceReceipt": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json"
+  },
+  "normalizedResult": "Continue the existing clean R15 line until one exact frozen Somatic Therapies candidate returns Pangram 4.0 Human fraction 1.0 in the authenticated whole-document GUI and also passes source-integrity, bidirectional preservation, semantic, architecture, cold-audit, independent-reader, link, native-object, and failed-branch-contamination gates; then place the exact final draft and a commentable R15-to-final diff in the existing supervising ChatGPT conversation and return that conversation link to Joel.",
+  "constraints": [
+    "The registered master.html remains authority until the final candidate is explicitly promoted under the article protocol.",
+    "R16, R17-R58, R59-R65, and PR #72 prose remain quarantined as insertion or assembly authority.",
+    "Pangram is required outcome evidence but never authorizes semantic loss, invented detail, source transplantation, or owner-constraint violations.",
+    "Whole-document Pangram measurements use the authenticated GUI with exact cache, reservation, and History recovery before any click.",
+    "Only one Codex executor/controller works on the Somatic task; editorial judgment is routed to the existing supervising ChatGPT conversation.",
+    "No unlimited detector-variant loop: every paid measurement must test a preservation-clean candidate and answer a decision-relevant question."
+  ],
+  "requiredOutcomes": [
+    {
+      "id": "RO-001",
+      "text": "Continue from the exact R15 authority line without failed-branch prose contamination.",
+      "terminalRequired": true,
+      "target": {"type": "exact_state", "value": "R15-derived clean candidate; R16-R65/PR72 quarantined"},
+      "requiredEvidence": ["exact Git identities", "source-integrity and quarantine receipt"]
+    },
+    {
+      "id": "RO-002",
+      "text": "The exact frozen whole-document candidate reaches 100% Human on Pangram 4.0.",
+      "terminalRequired": true,
+      "target": {"type": "threshold", "field": "fractionHuman", "operator": "==", "value": 1.0},
+      "requiredEvidence": ["authenticated GUI result", "exact UTF-8 boundary SHA-256", "History/report identity", "detector version and status"]
+    },
+    {
+      "id": "RO-003",
+      "text": "The exact final candidate preserves every owner/source obligation and remains valid article-wide.",
+      "terminalRequired": true,
+      "target": {"type": "exact_state", "value": "all editorial and preservation gates PASS; unexplained substantive deltas 0"},
+      "requiredEvidence": ["forward traceability", "reverse traceability", "source integrity", "semantic sanity", "architecture/multiscale", "cold audit", "links and native objects"]
+    },
+    {
+      "id": "RO-004",
+      "text": "A genuinely independent detector-blind reader's material findings are adjudicated before final delivery.",
+      "terminalRequired": true,
+      "target": {"type": "qualitative_judgment", "value": "resolved under source and preservation authority"},
+      "requiredEvidence": ["exact reader input identity", "diagnostic response identity", "finding dispositions"]
+    },
+    {
+      "id": "RO-005",
+      "text": "The existing supervisor conversation contains the exact final draft and a commentable R15-to-final diff, and Joel receives its link.",
+      "terminalRequired": true,
+      "target": {"type": "artifact", "value": "one existing ChatGPT supervision conversation with final draft and commentable diff"},
+      "requiredEvidence": ["conversation URL", "exact posted artifact hashes", "matching supervision decision"]
+    }
+  ],
+  "nonSatisfyingProxies": [
+    "READY_FOR_OWNER_REVIEW",
+    "editorial or preservation PASS without the Pangram target",
+    "supervisor approval of a narrower packet",
+    "independent-reader PASS",
+    "tests or repository validation PASS",
+    "a Pangram result below Human fraction 1.0",
+    "a Pangram Human result for text other than the exact final candidate"
+  ],
+  "currentGap": {
+    "candidate": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
+    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "latestPangramHuman": 0.1381948739,
+    "targetPangramHuman": 1.0,
+    "unmetRequiredOutcomeIds": ["RO-002", "RO-004", "RO-005"],
+    "note": "RO-004 must be rerun on any substantively changed final candidate; the prior independent reader remains historical diagnostic evidence."
+  },
+  "completionRule": "OWNER_OUTCOME_ACHIEVED is allowed only when RO-001 through RO-005 are MET with exact-candidate evidence. READY_FOR_OWNER_REVIEW is nonterminal unless Joel explicitly changes the root outcome."
+}

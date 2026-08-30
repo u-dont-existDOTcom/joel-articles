@@ -15,6 +15,9 @@ LOCK_PATH = ROOT / "tasks/ACTIVE-TASK.json"
 EXPECTED_TASK = "somatic-r15-clean-continuation-20260830"
 EXPECTED_BRANCH = "task/somatic-r15-clean-continuation-20260830"
 EXPECTED_MASTER_SHA256 = "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"
+EXPECTED_OWNER_OUTCOME_SHA256 = "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a"
+EXPECTED_TASK_CONTRACT_SHA256 = "241a0e0dcbf1cc97ff244bf0435a11206a40ad51b657a61555cfddad300b076c"
+EXPECTED_TARGET_HUMAN = 1.0
 EXPECTED_FILES = {
     "articles/somatic-therapies/experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md": (
         "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee"
@@ -59,12 +62,45 @@ def preflight() -> list[str]:
     lock = json.loads(LOCK_PATH.read_text(encoding="utf-8"))
     if lock.get("taskId") != EXPECTED_TASK:
         failures.append("TASK_ID_MISMATCH")
-    if lock.get("status") not in {"active", "ready_for_owner_review"} or lock.get("exclusive") is not True:
+    if lock.get("status") not in {"active", "owner_outcome_achieved"} or lock.get("exclusive") is not True:
         failures.append("ACTIVE_EXCLUSIVE_LOCK_MISSING")
     if lock.get("requiredBranch") != EXPECTED_BRANCH or git("branch", "--show-current") != EXPECTED_BRANCH:
         failures.append("REQUIRED_BRANCH_MISMATCH")
     if set(lock.get("suspendedTaskSources", [])) != SUSPENDED:
         failures.append("SUSPENDED_TASK_SOURCES_MISMATCH")
+
+    owner_outcome = lock.get("ownerOutcome", {})
+    if owner_outcome.get("sha256") != EXPECTED_OWNER_OUTCOME_SHA256:
+        failures.append("OWNER_OUTCOME_IDENTITY_MISMATCH")
+
+    task_contract = lock.get("taskContract", {})
+    contract_path = ROOT / task_contract.get("path", "")
+    if (
+        not contract_path.is_file()
+        or task_contract.get("sha256") != EXPECTED_TASK_CONTRACT_SHA256
+        or sha256(contract_path) != EXPECTED_TASK_CONTRACT_SHA256
+    ):
+        failures.append("TASK_CONTRACT_IDENTITY_MISMATCH")
+
+    reconciliation = lock.get("objectiveReconciliation", {})
+    reconciliation_path = ROOT / reconciliation.get("path", "")
+    if not reconciliation_path.is_file():
+        failures.append("OBJECTIVE_RECONCILIATION_MISSING")
+    else:
+        reconciliation_record = json.loads(reconciliation_path.read_text(encoding="utf-8"))
+        alignment = reconciliation_record.get("alignment", {})
+        if alignment.get("contractToOwner", {}).get("status") != "MATCH":
+            failures.append("CONTRACT_TO_OWNER_NOT_MATCH")
+        if reconciliation_record.get("ownerSource", {}).get("sha256") != EXPECTED_OWNER_OUTCOME_SHA256:
+            failures.append("RECONCILIATION_OWNER_SOURCE_MISMATCH")
+
+    receipt_path = ROOT / owner_outcome.get("sourceReceipt", "")
+    if not receipt_path.is_file():
+        failures.append("OWNER_SOURCE_RECEIPT_MISSING")
+    else:
+        receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+        if receipt.get("ownerOutcomeSha256") != EXPECTED_OWNER_OUTCOME_SHA256:
+            failures.append("OWNER_SOURCE_RECEIPT_MISMATCH")
 
     checkpoint = ROOT / lock.get("currentStatePath", "")
     checkpoint_text = checkpoint.read_text(encoding="utf-8") if checkpoint.is_file() else ""
@@ -86,11 +122,60 @@ def preflight() -> list[str]:
     return failures
 
 
+def outcome_acceptance_failures(lock: dict, reconciliation: dict) -> list[str]:
+    """Return fail-closed owner-outcome findings for already-loaded records."""
+    failures: list[str] = []
+    if lock.get("status") != "owner_outcome_achieved":
+        failures.append("OWNER_OUTCOME_NOT_ACHIEVED")
+    if lock.get("objectiveReconciliation", {}).get("typedCompletionClaim") != "OWNER_OUTCOME_ACHIEVED":
+        failures.append("COMPLETION_CLAIM_NOT_OWNER_OUTCOME_ACHIEVED")
+    if reconciliation.get("completionClaim", {}).get("type") != "OWNER_OUTCOME_ACHIEVED":
+        failures.append("RECONCILIATION_COMPLETION_CLAIM_MISMATCH")
+    terminal = reconciliation.get("terminalComparator", {})
+    if terminal.get("rootTerminalizationAllowed") is not True or terminal.get("unmetOutcomeIds") != []:
+        failures.append("TERMINAL_COMPARATOR_REJECTED")
+
+    final_outcome = lock.get("finalOutcome", {})
+    pangram = final_outcome.get("pangram", {})
+    if pangram.get("fractionHuman") != EXPECTED_TARGET_HUMAN:
+        failures.append("PANGRAM_100_PERCENT_HUMAN_MISSING")
+    if not pangram.get("exactBoundarySha256") or pangram.get("candidateSha256") != final_outcome.get("candidateSha256"):
+        failures.append("FINAL_PANGRAM_CANDIDATE_BINDING_MISSING")
+    gates = final_outcome.get("gates", {})
+    required_pass_gates = {
+        "sourceIntegrity",
+        "forwardTraceability",
+        "reverseTraceability",
+        "semanticSanity",
+        "architectureMultiscale",
+        "coldAudit",
+        "independentFinalReader",
+        "linksAndNativeObjects",
+        "failedBranchContamination",
+    }
+    for gate in required_pass_gates:
+        if gates.get(gate) != "PASS":
+            failures.append(f"FINAL_GATE_NOT_PASS:{gate}")
+    if final_outcome.get("unexplainedSubstantiveDeltas") != 0:
+        failures.append("UNEXPLAINED_SUBSTANTIVE_DELTAS")
+    delivery = final_outcome.get("chatDelivery", {})
+    if not delivery.get("conversationUrl"):
+        failures.append("FINAL_CHAT_URL_MISSING")
+    if not delivery.get("finalDraftSha256") or not delivery.get("commentableDiffSha256"):
+        failures.append("FINAL_CHAT_ARTIFACT_BINDING_MISSING")
+    return failures
+
+
 def acceptance() -> list[str]:
     failures = preflight()
     lock = json.loads(LOCK_PATH.read_text(encoding="utf-8"))
-    if lock.get("status") != "ready_for_owner_review":
-        failures.append("TASK_NOT_READY_FOR_OWNER_REVIEW")
+    reconciliation_path = ROOT / lock.get("objectiveReconciliation", {}).get("path", "")
+    reconciliation = (
+        json.loads(reconciliation_path.read_text(encoding="utf-8"))
+        if reconciliation_path.is_file()
+        else {}
+    )
+    failures.extend(outcome_acceptance_failures(lock, reconciliation))
     for category in ("requiredArtifacts", "requiredDocumentation"):
         for relative in lock.get("acceptance", {}).get(category, []):
             if not (ROOT / relative).is_file():
