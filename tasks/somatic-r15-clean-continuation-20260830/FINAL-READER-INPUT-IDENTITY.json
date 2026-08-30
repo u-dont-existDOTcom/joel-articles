@@ -28,6 +28,15 @@
       "neutral native-media position labels"
     ]
   },
+  "reader": {
+    "context": "new ordinary ChatGPT conversation outside the article project and supervising conversation",
+    "authority": "diagnostic_only_no_edit_authority",
+    "visibleWorkDuration": "10m26s",
+    "responseSha256": "3d9d96d8b968211712f6c89d22762eeacde25212107465af4227f10528fee6f2",
+    "responseCharacters": 18911,
+    "responseUtf8Bytes": 19213,
+    "durableFindings": "tasks/somatic-r15-clean-continuation-20260830/FINAL-READER.md"
+  },
   "withheldContext": [
     "Pangram and detector scores or windows",
     "round identifiers and detector-oriented filenames",

@@ -24,6 +24,14 @@
     "r15PangramBoundarySha256": "9a81bd04252a2ee851dd111040c600837bdf0a7bbf71c42c293e3b763c99a707"
   },
   "currentStatePath": "tasks/somatic-r15-clean-continuation-20260830/RECOVERY.md",
+  "finalReader": {
+    "status": "complete_diagnostic_only",
+    "articleInputSha256": "460dc342fdbda67f6df23400eef310abcc330d84991becf542ff6203563aa302",
+    "packetSha256": "6cc91944b27a645dc47b533db6f11dc0f1642455a011cbcd9b3487a66251f711",
+    "responseSha256": "3d9d96d8b968211712f6c89d22762eeacde25212107465af4227f10528fee6f2",
+    "findingsPath": "tasks/somatic-r15-clean-continuation-20260830/FINAL-READER.md",
+    "nextSupervisionRequest": "SOMATIC-R15-READER-003"
+  },
   "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
   "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",
   "completionClaimRule": "Ordinary tests or a high Pangram score are prerequisites/evidence only. Readiness requires every task artifact and editorial gate; completion does not include master.html promotion or Substack publication without explicit later approval.",

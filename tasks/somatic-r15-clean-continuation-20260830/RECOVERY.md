@@ -60,10 +60,10 @@ The request was recovered in the exact conversation after a browser timeout, wit
 
 ## Current step
 
-1. Correct the two mistyped full branch heads and refresh stale PR #73/#144 descriptions; do not change article prose.
-2. Run one genuinely separate fresh-context, detector-blind final reader on the literal reader-facing article and neutral native-media positions.
-3. Persist the exact blind input identity and the reader's diagnosis without granting it edit authority.
-4. Return findings and controller adjudication as `WORKER_SUPERVISION_REQUEST SOMATIC-R15-READER-003`; do not edit or make a paid detector call before its matching decision.
+1. The mistyped full branch heads and stale PR #73/#144 descriptions are corrected; no article prose changed.
+2. The genuinely separate fresh-context, detector-blind final reader is complete and exact input/response identities are frozen.
+3. Its ranked diagnosis and controller adjudication are durable in `FINAL-READER.md`; the reader has no edit authority.
+4. Send the findings as `WORKER_SUPERVISION_REQUEST SOMATIC-R15-READER-003`, wait for the exact matching decision, and do not edit or make a paid detector call first.
 
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
@@ -74,6 +74,8 @@ Exact detector recovery and the authorized GUI measurement are complete in Pangr
 Historical `d5101f…` is valid near-boundary evidence for the same immutable R15 candidate, but it retained four source-only Markdown italics asterisks and had one fewer terminal newline. It is not exact or accepted-transport-normalized evidence for `9a81bd…`. Related paid-call history remains counted.
 
 The exact Pangram 4.0 result is Human `0.1547368467`, AI `0.8452631831`, AI-assisted `0.0`, `STAGE_SUCCESS`, with exact UTF-8 History binding. The single authorized new call is consumed; the related ledger totals three calls and no further paid action is authorized. No detector-driven rewrite has begun.
+
+The independent reader input article is bound at SHA-256 `460dc342…`, its transmitted packet at `6cc91944…`, and its response at `3d9d96d…`. It identified multiple high-confidence editorial questions and several secondary ones. The controller adjudicated them against R15 preservation and architecture; `FINAL-READER.md` records the privacy-safe gate receipt, while the detailed local ledger and exact response remain outside the public branch. No reader-suggested change has been applied.
 
 ## Completion boundary
 

@@ -65,3 +65,11 @@ The supervisor accepted the controller diagnosis for W0, W2, W4, W6, and W8, exp
 Before the reader, mechanically correct the false full-head references and stale PR descriptions without changing article prose. Then give one genuinely separate fresh context only the reader-facing article beginning at `# Introduction`, ordinary headings/prose in order, neutral native-media positions, and the minimal description that it is a first-person practical article for readers considering somatic approaches. Withhold Pangram, `R15`, detector filenames, all later-round history, preservation defenses, prior audits/rationales, this supervision conversation, and rejected alternatives.
 
 The reader diagnoses only; it does not rewrite. Persist its exact input identity and findings, adjudicate them against source/preservation/architecture, then return as `WORKER_SUPERVISION_REQUEST SOMATIC-R15-READER-003`. Do not edit the candidate or make a paid detector call before the matching reader decision.
+
+## SOMATIC-R15-READER-003
+
+Status: **PREPARED / NOT YET SENT**
+
+The genuinely separate detector-blind reader is complete. It ran in a new ordinary ChatGPT conversation outside the article project and supervising conversation, received no detector or drafting-history context, and had diagnostic authority only. Its input article, transmitted packet, and exact response are frozen at SHA-256 `460dc342…`, `6cc91944…`, and `3d9d96d…` respectively.
+
+The durable ranked findings and controller adjudication are in `FINAL-READER.md`. They will be returned to the exact supervising conversation in one packet. No article prose changed and no paid action occurred while this request was prepared.
