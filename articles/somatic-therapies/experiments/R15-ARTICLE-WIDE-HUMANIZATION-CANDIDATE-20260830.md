@@ -22,7 +22,7 @@ This matters to me for inner-child work in particular. I can know exactly what a
 
 I don't put “therapy” on one side and the physical state of the nervous system doing the therapy on the other. The same session can go very differently depending on sleep, pain, substances or medication, nutrition, fear learning, inflammation, dissociation, glutamate/GABA balance, autonomic tone, or just how physiologically stable I am that day.
 
-I have watched friends get almost nothing from these therapies until they dealt with physical neuroinflammation—with things such as low-dose naltrexone, phosphatidylserine, DMSO, and so on. My own version is that I can't do any real healing work when I feel like I have toxins in my gut. Ozonated zeolite helps me a lot with that. So does ozonated charcoal water when I feel surrounded by chaotic energy fields, whether I interpret them as EMF or auric.
+I have watched friends get almost nothing from these therapies until they addressed what I understood as physical neuroinflammation, using things such as low-dose naltrexone, phosphatidylserine, DMSO, and so on. My own version is that I can't do any real healing work when I feel like I have toxins in my gut. Ozonated zeolite helps me a lot with that. So does ozonated charcoal water when I feel surrounded by chaotic energy fields, whether I interpret them as EMF or auric.
 
 This is important to me, and it connects with my other articles. I call it neurological de-armoring—not another trauma exercise, but the ground I am asking the exercise to work on. I wrote separate guides on [sleep](https://sleep.u-dont-exist.com/) and [neurological de-armoring](http://dearmor.u-dont-exist.com/) for anyone who suspects the ground is the problem.
 
