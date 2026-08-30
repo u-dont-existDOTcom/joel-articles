@@ -96,5 +96,5 @@
       "furtherPaidMeasurementAuthorized": false
     }
   },
-  "nextAction": "Send WORKER_SUPERVISION_REQUEST SOMATIC-R15-POSTREPAIR-005 to the exact existing supervisor with the final result and READY_FOR_OWNER_REVIEW recommendation; do not begin detector-driven editing."
+  "nextAction": "READY_FOR_OWNER_REVIEW approved. No further detector action is authorized; run mechanical closeout gates without changing prose or registered article authority."
 }

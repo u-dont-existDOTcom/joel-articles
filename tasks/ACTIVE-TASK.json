@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taskId": "somatic-r15-clean-continuation-20260830",
   "title": "Finish Somatic Therapies humanization from the exact R15 checkpoint",
-  "status": "active",
+  "status": "ready_for_owner_review",
   "exclusive": true,
   "repository": "u-dont-existDOTcom/joel-articles",
   "requiredBranch": "task/somatic-r15-clean-continuation-20260830",
@@ -126,6 +126,43 @@
     "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/BOUNDED-VERIFICATION.md",
     "proseChangedAfterResult": false
   },
+  "ownerReview": {
+    "status": "READY_FOR_OWNER_REVIEW",
+    "supervisionRequest": "SOMATIC-R15-POSTREPAIR-005",
+    "decision": "approved",
+    "decisionResponseSha256": "ba758af6dc6275c39c0860b5e6a5fc2c43b95f9d678440784c8a1f20fdabb9ee",
+    "decisionResponseCharacters": 2594,
+    "decisionResponseUtf8Bytes": 2604,
+    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "readinessPath": "tasks/somatic-r15-clean-continuation-20260830/READY-FOR-OWNER-REVIEW.md",
+    "terminalBoundary": "not_complete_not_ready_for_merge_not_publication_ready",
+    "masterPromotionAuthorized": false,
+    "rawEditorReconstructionAuthorized": false,
+    "publicationAuthorized": false
+  },
+  "mechanicalCloseout": {
+    "status": "complete",
+    "acceptance": "PASS",
+    "unitTests": {
+      "status": "PASS",
+      "count": 108
+    },
+    "codexGithubAudit": {
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 4
+    },
+    "diffCheck": "PASS",
+    "contentRepositoryValidation": {
+      "status": "THREE_PREEXISTING_OUT_OF_SCOPE_ROMANCE_FINDINGS",
+      "somaticFindings": 0,
+      "romanceFindings": 3,
+      "sameRomanceFindingsOnCanonicalMain": true
+    },
+    "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/FINAL-READINESS-RECEIPT-20260830.md",
+    "proseChanged": false,
+    "masterChanged": false
+  },
   "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
   "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",
   "completionClaimRule": "Ordinary tests or a high Pangram score are prerequisites/evidence only. Readiness requires every task artifact and editorial gate; completion does not include master.html promotion or Substack publication without explicit later approval.",
@@ -145,7 +182,9 @@
       "tasks/somatic-r15-clean-continuation-20260830/DETECTOR-STATE.json",
       "tasks/somatic-r15-clean-continuation-20260830/SUPERVISION.md",
       "tasks/somatic-r15-clean-continuation-20260830/FINAL-READER.md",
-      "tasks/somatic-r15-clean-continuation-20260830/READY-FOR-OWNER-REVIEW.md"
+      "tasks/somatic-r15-clean-continuation-20260830/READY-FOR-OWNER-REVIEW.md",
+      "tasks/somatic-r15-clean-continuation-20260830/FINAL-READINESS-RECEIPT-20260830.md",
+      "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md"
     ],
     "requiredDocumentation": [
       "articles/somatic-therapies/experiments/R59-R65-PR72-SUPERSESSION-20260830.md"

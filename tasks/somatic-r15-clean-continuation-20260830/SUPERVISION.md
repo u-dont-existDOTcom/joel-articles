@@ -120,3 +120,21 @@ After full gates, run a bounded blind verification on the changed Shaking/EFT/co
 The exact whitelist was committed before prose editing. The resulting candidate is frozen at blob `082b613f5d5217ebb8b289ee0460a788a66e2639` / SHA-256 `7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6`. Deterministic comparison proves only the EFT, linked Shaking, and optional-coda blocks changed from the pre-micro candidate. All pre-reader gates pass; the next action is the authorized bounded blind verification, not Pangram.
 
 The authorized bounded blind verification is complete in a genuinely separate ordinary ChatGPT context. Its exact response SHA-256 is `beccea6a3af28be1ad554d0ed6602b1cabdd21ca76bd96439d0d6ee60ba81014`; EFT attribution, Shaking, and the optional ending each received PASS, with overall `BOUNDED_VERIFICATION_PASS`. No prose changed afterward. Exact final-boundary detector recovery is now eligible under the matching decision.
+
+## SOMATIC-R15-POSTREPAIR-005
+
+Status: **DECIDED / READY_FOR_OWNER_REVIEW APPROVED**
+
+The final packet was sent once from article branch head `5709e17815ac6e74073304f665d4191021fb0814` and detector branch head `be3b2692f98e0d55a04c35536fa26a53c8df9964`. The first pointer click timed out before dispatch and left the full packet in the composer; exact inspection proved it unsent. The subsequent Enter send timed out at the browser-control boundary, so the conversation was recovered before any retry. It contained exactly one new user message, an empty follow-up composer and an active supervisor response. The packet was not resent.
+
+Matching response prefix:
+
+`SUPERVISOR_DECISION SOMATIC-R15-POSTREPAIR-005`
+
+Decision: **APPROVED — designate the exact frozen candidate `READY_FOR_OWNER_REVIEW`.**
+
+Exact response identity: SHA-256 `ba758af6dc6275c39c0860b5e6a5fc2c43b95f9d678440784c8a1f20fdabb9ee` (2,594 Unicode characters / 2,604 UTF-8 bytes).
+
+The supervisor accepted the exact red detector result as a valid negative result rather than an unresolved transport or editorial defect. It directed no further prose editing, Pangram action or score optimization and kept every failed branch quarantined. It authorized only the mechanical closeout: create `READY-FOR-OWNER-REVIEW.md` and the final readiness receipt, set the exclusive task to `ready_for_owner_review`, rerun acceptance and repository gates, and update PR #73/checkpoints.
+
+Explicit boundary: do not modify or promote `master.html`, reconstruct raw-editor HTML, merge as article authority, or publish/export to Substack. Terminal state is `READY_FOR_OWNER_REVIEW`, not `COMPLETE`, not `READY_FOR_MERGE`, and not publication-ready.

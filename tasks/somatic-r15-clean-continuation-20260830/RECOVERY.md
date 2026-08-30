@@ -1,6 +1,6 @@
 # Somatic R15 clean continuation — recovery checkpoint
 
-Status: **ACTIVE / EXCLUSIVE / INCOMPLETE**
+Status: **READY_FOR_OWNER_REVIEW / EXCLUSIVE / NOT COMPLETE**
 
 Task id: `somatic-r15-clean-continuation-20260830`
 
@@ -76,6 +76,10 @@ The exact final repair-candidate boundary is now frozen at `articles/somatic-the
 That recovery completed as `EXACT_FINAL_NEVER_SUBMITTED`; all 60 retained dedicated-profile History records were inspected and no prior exact action or ambiguous reservation existed. The deterministic runner then pushed its reservation before the only supervisor-authorized GUI click. The exact final result is Pangram 4.0 `STAGE_SUCCESS`, Human `0.1381948739`, AI `0.861805141`, AI-assisted `0.0`, exact UTF-8 History-bound to boundary `129fee7e…`. The completed report displayed three broad AI Highlight regions covering most of the document. Their breadth, and the 1.654-percentage-point Human decrease after independently validated editorial repair, provide no credible new edit target. See `R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md`.
 
 The next action is the required `WORKER_SUPERVISION_REQUEST SOMATIC-R15-POSTREPAIR-005`, recommending `READY_FOR_OWNER_REVIEW`. No detector-driven edit, registered-authority change or publication is implied.
+
+The matching `SUPERVISOR_DECISION SOMATIC-R15-POSTREPAIR-005` approved `READY_FOR_OWNER_REVIEW`. Exact decision response SHA-256 is `ba758af6dc6275c39c0860b5e6a5fc2c43b95f9d678440784c8a1f20fdabb9ee`. The terminal task state is readiness for owner review, not completion, merge readiness or publication readiness. Mechanical acceptance and repository gates are the only remaining closeout work; article prose, `master.html`, raw-editor HTML and publication state must not change.
+
+Mechanical closeout is complete: task acceptance PASS, 108 tests PASS, Codex/GitHub audit PASS with 0 errors and four known warnings, and `git diff --check` PASS. The repository-wide content validator reports only three unchanged out-of-scope Romance findings; canonical `main` contains the same three, and this branch changes none of their files. `FINAL-READINESS-RECEIPT-20260830.md` records the exact comparison. The Somatic task remains `READY_FOR_OWNER_REVIEW` at the owner-review boundary.
 
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 

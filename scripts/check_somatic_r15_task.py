@@ -59,7 +59,7 @@ def preflight() -> list[str]:
     lock = json.loads(LOCK_PATH.read_text(encoding="utf-8"))
     if lock.get("taskId") != EXPECTED_TASK:
         failures.append("TASK_ID_MISMATCH")
-    if lock.get("status") != "active" or lock.get("exclusive") is not True:
+    if lock.get("status") not in {"active", "ready_for_owner_review"} or lock.get("exclusive") is not True:
         failures.append("ACTIVE_EXCLUSIVE_LOCK_MISSING")
     if lock.get("requiredBranch") != EXPECTED_BRANCH or git("branch", "--show-current") != EXPECTED_BRANCH:
         failures.append("REQUIRED_BRANCH_MISMATCH")
