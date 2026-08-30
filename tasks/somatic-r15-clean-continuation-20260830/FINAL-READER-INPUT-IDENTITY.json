@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "taskId": "somatic-r15-clean-continuation-20260830",
+  "purpose": "genuinely_separate_detector_blind_final_reader",
+  "source": {
+    "candidateGitBlob": "e6210eb2742de156f0bd7b01fdde269f9b9625c6",
+    "candidateSha256": "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee",
+    "startMarker": "# Introduction"
+  },
+  "materializer": "scripts/materialize_somatic_final_reader_packet.py",
+  "articleInput": {
+    "sha256": "460dc342fdbda67f6df23400eef310abcc330d84991becf542ff6203563aa302",
+    "words": 3616,
+    "characters": 22169,
+    "utf8Bytes": 22267,
+    "ordinaryProseTransformation": "none",
+    "nativeObjectTransformation": "seven repository-only promotion placeholders replaced by neutral native-media position labels"
+  },
+  "transmittedPacket": {
+    "sha256": "6cc91944b27a645dc47b533db6f11dc0f1642455a011cbcd9b3487a66251f711",
+    "words": 3760,
+    "characters": 23173,
+    "utf8Bytes": 23271,
+    "containsOnly": [
+      "diagnostic-only reader instructions",
+      "minimal first-person practical-article context",
+      "reader-facing article beginning at # Introduction",
+      "neutral native-media position labels"
+    ]
+  },
+  "withheldContext": [
+    "Pangram and detector scores or windows",
+    "round identifiers and detector-oriented filenames",
+    "later failed branches",
+    "preservation defenses and prior audits",
+    "drafting rationale and rejected alternatives",
+    "supervision conversation"
+  ],
+  "repositoryPrivacyBoundary": "The full reader article and packet are not duplicated in this public recovery branch. They are deterministically regenerated from the already-authorized source and bound here by exact hashes."
+}
