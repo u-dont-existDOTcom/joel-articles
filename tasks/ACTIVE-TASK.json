@@ -35,10 +35,20 @@
     "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004"
   },
   "repair": {
-    "status": "source_recovery_and_whitelist_pending",
+    "status": "local_candidate_frozen_privacy_confirmation_pending",
     "authorizedScopes": ["A", "B", "C", "D"],
+    "candidatePath": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
+    "candidateSha256": "85c09a28036a80ff25afd3e3474ad6160fe162f2e120db711fe8ce7c7bc9ea00",
+    "candidateGitBlob": "91054075329b51b566535881e5ea9a64775798a1",
+    "localCandidateCommit": "ac5eaefcf970b511562909d082b993cebb582716",
+    "remoteHeadBeforeCandidate": "a982733f8c0a77df07a28fe54e099ac57418d0e6",
     "pangramAuthorized": false,
-    "masterPromotionAuthorized": false
+    "masterPromotionAuthorized": false,
+    "privacyGate": {
+      "repositoryVisibility": "PUBLIC",
+      "candidatePush": "explicit_action_time_confirmation_required",
+      "freshReaderTransmission": "explicit_action_time_confirmation_required"
+    }
   },
   "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
   "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",

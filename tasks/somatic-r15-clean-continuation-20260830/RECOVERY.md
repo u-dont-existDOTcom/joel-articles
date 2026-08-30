@@ -60,10 +60,10 @@ The request was recovered in the exact conversation after a browser timeout, wit
 
 ## Current step
 
-1. `SUPERVISOR_DECISION SOMATIC-R15-READER-003` authorized four bounded repair scopes and explicit exclusions.
-2. Freeze separate source/provenance ledgers, change whitelists, touched preservation units, and forbidden side effects before drafting.
-3. Draft only the minimum combined source-grounded repair, then prove forward/reverse traceability, zero unexplained substantive deltas, architecture/multiscale, cold-audit, link, and native-placeholder gates.
-4. Run one new genuinely separate detector-blind reader on the repaired candidate and return `WORKER_SUPERVISION_REQUEST SOMATIC-R15-REPAIR-004`; no Pangram call or `master.html` promotion is authorized.
+1. The four source/provenance ledgers, change whitelists, touched preservation units, and forbidden side effects were frozen before drafting.
+2. The minimum combined repair is locally frozen at SHA-256 `85c09a28…` and local commit `ac5eaef…`; forward/reverse traceability, zero unexplained substantive deltas, architecture/multiscale, cold-audit, link, and native-placeholder gates pass.
+3. The host gate blocked pushing the full candidate because `u-dont-existDOTcom/joel-articles` is confirmed PUBLIC and the article contains personal/health material. The browser policy separately requires action-time confirmation before transmitting the repaired article to a fresh ChatGPT reader. No workaround is permitted.
+4. After Joel explicitly confirms those two transmissions, push the existing local candidate to PR #73, run one genuinely separate detector-blind reader, and return `WORKER_SUPERVISION_REQUEST SOMATIC-R15-REPAIR-004`; no Pangram call or `master.html` promotion is authorized.
 
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
