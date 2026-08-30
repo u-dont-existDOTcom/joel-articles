@@ -6,6 +6,8 @@ Task id: `somatic-r15-clean-continuation-20260830`
 
 Required branch: `task/somatic-r15-clean-continuation-20260830`
 
+Draft recovery PR: #73
+
 Baseline: current canonical `main` at `6d78c638e1e7edd7e937e5992b328c0212dfbfe2`
 
 ## Authority and exact frontier
@@ -54,11 +56,12 @@ Only one monotonically numbered supervision request may be outstanding. A timeou
 
 ## Current step
 
-1. Push this clean checkpoint and supersede/close PR #72 without deleting its branch/history.
-2. Verify the exact supervisor conversation and complete bootstrap request `SOMATIC-R15-BOOTSTRAP-001`.
-3. Cold-read literal R15 under current production gates.
-4. Recover exact-boundary cache, reservations, Pangram application History, browser recovery state, and GitHub detector evidence.
-5. Persist one of `EXACT_R15_RESULT_EXISTS`, `EXACT_R15_ACTION_AMBIGUOUS`, or `EXACT_R15_NEVER_SUBMITTED` before any click.
+1. Verify the exact supervisor conversation and complete bootstrap request `SOMATIC-R15-BOOTSTRAP-001`.
+2. Cold-read literal R15 under current production gates.
+3. Recover exact-boundary cache, reservations, Pangram application History, browser recovery state, and GitHub detector evidence.
+4. Persist one of `EXACT_R15_RESULT_EXISTS`, `EXACT_R15_ACTION_AMBIGUOUS`, or `EXACT_R15_NEVER_SUBMITTED` before any click.
+
+Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
 ## Completion boundary
 

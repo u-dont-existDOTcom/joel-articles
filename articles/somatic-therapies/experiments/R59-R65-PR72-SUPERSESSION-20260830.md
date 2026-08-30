@@ -9,7 +9,7 @@ Joel explicitly corrected the recovery frontier on 2026-08-30: R65 was not the f
 ## Superseded line
 
 - branch: `experiment/somatic-source-clean-recovery-20260829` at `63642da06ff3da50188cae2c497036cc27f1dc81`;
-- draft PR: #72, `Recover Somatic from source-clean R15 checkpoint`;
+- former draft PR: #72, `Recover Somatic from source-clean R15 checkpoint`, closed as owner-superseded on 2026-08-30 with branch/history retained;
 - artifacts: R59 through R65, including `R65-SOURCE-CLEAN-WHOLE-CANDIDATE-20260829.md`;
 - disposition: preserved as failed working history and provenance; not an active candidate, baseline, assembly source, or detector target.
 
@@ -20,6 +20,7 @@ The branch's useful historical finding that R15 preceded the R16 Cancer-syntax r
 - exact R15 candidate Git blob: `e6210eb2742de156f0bd7b01fdde269f9b9625c6`;
 - exact R15 receipt Git blob: `9bba365c498bc9f51bd16fe2761455a6b233d1bf`;
 - clean task branch: `task/somatic-r15-clean-continuation-20260830` from current canonical `main`;
+- draft recovery PR: #73;
 - exclusive task id: `somatic-r15-clean-continuation-20260830`.
 
 ## Reuse rule
