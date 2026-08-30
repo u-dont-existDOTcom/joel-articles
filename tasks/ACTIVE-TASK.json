@@ -145,7 +145,7 @@
     "acceptance": "PASS",
     "unitTests": {
       "status": "PASS",
-      "count": 108
+      "count": 109
     },
     "codexGithubAudit": {
       "status": "PASS",
@@ -184,7 +184,8 @@
       "tasks/somatic-r15-clean-continuation-20260830/FINAL-READER.md",
       "tasks/somatic-r15-clean-continuation-20260830/READY-FOR-OWNER-REVIEW.md",
       "tasks/somatic-r15-clean-continuation-20260830/FINAL-READINESS-RECEIPT-20260830.md",
-      "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md"
+      "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md",
+      "tasks/somatic-r15-clean-continuation-20260830/PRE-MICRO-SECTION-IDENTITY-MANIFEST.json"
     ],
     "requiredDocumentation": [
       "articles/somatic-therapies/experiments/R59-R65-PR72-SUPERSESSION-20260830.md"

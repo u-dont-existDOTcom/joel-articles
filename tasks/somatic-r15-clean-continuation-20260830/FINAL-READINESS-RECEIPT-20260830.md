@@ -13,7 +13,7 @@ No article prose changed during closeout.
 ## Final command results
 
 - `python scripts/check_somatic_r15_task.py --acceptance`: **PASS** (`SOMATIC_R15_TASK_ACCEPTANCE_PASS`);
-- `python -m unittest discover -s tests`: **PASS**, 108 tests;
+- `python -m unittest discover -s tests`: **PASS**, 109 tests;
 - `python scripts/audit_codex_github.py --root . --fail-on error`: **PASS**, 0 errors, four known repository warnings;
 - `git diff --check`: **PASS**;
 - candidate SHA-256 recheck: **PASS**, `7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6`;
@@ -33,5 +33,9 @@ The same command on canonical `main` at `6d78c638e1e7edd7e937e5992b328c0212dfbfe
 ## Audit warnings
 
 The four non-blocking audit warnings are unchanged repository governance facts: default-branch rules recorded disabled, push-protection unverified, secret-scanning unverified, and no public-repository license. No audit error exists.
+
+## Shallow-checkout portability
+
+The first GitHub check revealed that the repair audit depended on pre-micro blob `910540…` being present in local Git history; the one-commit CI checkout correctly failed closed with `PRE_MICRO_BLOB_UNAVAILABLE`. The validator now uses the Git blob when available and an exact, prose-free heading-section SHA-256 manifest when history is shallow. A dedicated test forces the fallback and passes. No candidate prose or evidence disposition changed.
 
 The exclusive task lock now terminates at `READY_FOR_OWNER_REVIEW`. It is not complete, merge-ready, master-promotion-ready or publication-ready.

@@ -20,6 +20,11 @@ MASTER = ROOT / "articles/somatic-therapies/master.html"
 BASE_SHA256 = "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee"
 MASTER_SHA256 = "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"
 PRE_MICRO_BLOB = "91054075329b51b566535881e5ea9a64775798a1"
+PRE_MICRO_SHA256 = "85c09a28036a80ff25afd3e3474ad6160fe162f2e120db711fe8ce7c7bc9ea00"
+PRE_MICRO_MANIFEST = (
+    ROOT
+    / "tasks/somatic-r15-clean-continuation-20260830/PRE-MICRO-SECTION-IDENTITY-MANIFEST.json"
+)
 
 AUTHORIZED_HEADINGS = {
     "## Your Physical State Can Change What Therapy Does": (
@@ -106,6 +111,41 @@ def git_blob_text(blob: str) -> str:
     return result.stdout.decode("utf-8")
 
 
+def section_identities(text: str) -> list[tuple[str, str]]:
+    return [
+        (heading, hashlib.sha256(section.encode("utf-8")).hexdigest())
+        for heading, section in heading_sections(text)
+    ]
+
+
+def pre_micro_section_identities() -> tuple[list[tuple[str, str]], str]:
+    """Load exact pre-micro identities from Git, with a shallow-clone-safe manifest."""
+    try:
+        text = git_blob_text(PRE_MICRO_BLOB)
+    except (subprocess.CalledProcessError, UnicodeDecodeError):
+        manifest = json.loads(PRE_MICRO_MANIFEST.read_text(encoding="utf-8"))
+        if (
+            manifest.get("schemaVersion") != 1
+            or manifest.get("gitBlob") != PRE_MICRO_BLOB
+            or manifest.get("sha256") != PRE_MICRO_SHA256
+            or not isinstance(manifest.get("sections"), list)
+        ):
+            raise ValueError("invalid pre-micro section identity manifest")
+        identities = [
+            (record["heading"], record["sha256"])
+            for record in manifest["sections"]
+            if isinstance(record, dict)
+            and isinstance(record.get("heading"), str)
+            and re.fullmatch(r"[0-9a-f]{64}", str(record.get("sha256", "")))
+        ]
+        if len(identities) != len(manifest["sections"]):
+            raise ValueError("invalid pre-micro section identity record")
+        return identities, "manifest"
+    if hashlib.sha256(text.encode("utf-8")).hexdigest() != PRE_MICRO_SHA256:
+        raise ValueError("pre-micro Git blob SHA-256 mismatch")
+    return section_identities(text), "git_blob"
+
+
 def audit() -> dict[str, object]:
     failures: list[str] = []
     if not CANDIDATE.is_file():
@@ -118,10 +158,11 @@ def audit() -> dict[str, object]:
     base_text = BASE.read_text(encoding="utf-8")
     candidate_text = CANDIDATE.read_text(encoding="utf-8")
     try:
-        pre_micro_text = git_blob_text(PRE_MICRO_BLOB)
-    except (subprocess.CalledProcessError, UnicodeDecodeError):
-        pre_micro_text = ""
-        failures.append("PRE_MICRO_BLOB_UNAVAILABLE")
+        pre_micro_identities, pre_micro_identity_source = pre_micro_section_identities()
+    except (OSError, json.JSONDecodeError, KeyError, TypeError, ValueError):
+        pre_micro_identities = []
+        pre_micro_identity_source = "unavailable"
+        failures.append("PRE_MICRO_IDENTITY_UNAVAILABLE")
     base_sections = heading_sections(base_text)
     candidate_sections = heading_sections(candidate_text)
     if len(base_sections) != len(candidate_sections):
@@ -137,20 +178,20 @@ def audit() -> dict[str, object]:
                 failures.append(f"OUTSIDE_WHITELIST_CHANGED:{base_heading}")
 
     micro_changed_sections: list[str] = []
-    if pre_micro_text:
-        pre_micro_sections = heading_sections(pre_micro_text)
-        if len(pre_micro_sections) != len(candidate_sections):
+    if pre_micro_identities:
+        candidate_identities = section_identities(candidate_text)
+        if len(pre_micro_identities) != len(candidate_identities):
             failures.append("MICRO_HEADING_SECTION_COUNT_CHANGED")
         else:
-            for (pre_heading, pre_section), (candidate_heading, candidate_section) in zip(
-                pre_micro_sections, candidate_sections, strict=True
+            for (pre_heading, pre_hash), (candidate_heading, candidate_hash) in zip(
+                pre_micro_identities, candidate_identities, strict=True
             ):
                 if pre_heading in MICRO_AUTHORIZED_HEADINGS:
                     if candidate_heading != pre_heading:
                         failures.append(f"MICRO_AUTHORIZED_HEADING_CHANGED:{pre_heading}")
-                    if candidate_section != pre_section:
+                    if candidate_hash != pre_hash:
                         micro_changed_sections.append(pre_heading)
-                elif pre_heading != candidate_heading or pre_section != candidate_section:
+                elif pre_heading != candidate_heading or pre_hash != candidate_hash:
                     failures.append(f"OUTSIDE_MICRO_WHITELIST_CHANGED:{pre_heading}")
         if set(micro_changed_sections) != MICRO_AUTHORIZED_HEADINGS:
             failures.append("MICRO_CHANGED_SECTION_SET_MISMATCH")
@@ -197,6 +238,7 @@ def audit() -> dict[str, object]:
         "nativePlaceholders": len(candidate_objects),
         "authorizedSections": len(AUTHORIZED_HEADINGS),
         "microChangedSections": micro_changed_sections,
+        "preMicroIdentitySource": pre_micro_identity_source,
     }
 
 
