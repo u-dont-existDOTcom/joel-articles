@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
   "taskId": "somatic-r15-clean-continuation-20260830",
-  "classification": "EXACT_R15_NEVER_SUBMITTED",
+  "classification": "EXACT_R15_RESULT_EXISTS",
+  "preSubmissionClassification": "EXACT_R15_NEVER_SUBMITTED",
   "candidateGitBlob": "e6210eb2742de156f0bd7b01fdde269f9b9625c6",
   "candidateSha256": "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee",
   "exactBoundary": {
@@ -9,15 +10,15 @@
     "words": 3548,
     "characters": 20989,
     "utf8Bytes": 21087,
-    "cacheResultExists": false,
+    "cacheResultExists": true,
     "ambiguousReservationExists": false,
-    "exactHistoryRecordExists": false
+    "exactHistoryRecordExists": true
   },
   "recoveryEvidence": {
     "repository": "u-dont-existDOTcom/pangram-humanization-lab",
     "branch": "task/somatic-r15-exact-recovery-20260830",
     "pullRequest": 144,
-    "commit": "027bfc7bb399b5ca43cb8d51da2d636acd19241e",
+    "commit": "0d032643ba554f968969716ad36cac5d27fb63578",
     "statePath": "state/recovery/somatic-r15-clean-continuation-20260830/detector-state.json",
     "standardHistoryCandidates": 10,
     "dedicatedProfileReportRoutes": 55,
@@ -34,6 +35,25 @@
     "difference": "Retains four source-only Markdown italics asterisks around subcortical/restimulation and has one fewer terminal newline.",
     "reusableForExactCurrentBoundary": false
   },
+  "exactMeasurement": {
+    "status": "complete",
+    "transport": "authenticated local Playwright/Brave Pangram GUI",
+    "reservationCommit": "73d60339",
+    "resultCommit": "134f5191a8142cf91427d22098439763ba276597",
+    "model": "pangram-4",
+    "version": "4.0",
+    "detectorStage": "STAGE_SUCCESS",
+    "headline": "AI Detected",
+    "fractionHuman": 0.1547368467,
+    "fractionAi": 0.8452631831,
+    "fractionAiAssisted": 0.0,
+    "storedTextSha256": "9a81bd04252a2ee851dd111040c600837bdf0a7bbf71c42c293e3b763c99a707",
+    "storedWordCount": 3548,
+    "historyTransportMatch": "exact_utf8",
+    "diagnosisPath": "tasks/somatic-r15-clean-continuation-20260830/R15-EXACT-PANGRAM-RESULT-20260830.md",
+    "furtherPaidMeasurementAuthorized": false
+  },
   "relatedHistoricalPaidGuiCalls": 2,
-  "nextAction": "After immediate read-only rechecks, write/push a fresh exact reservation and perform the single authorized whole-document Pangram 4 GUI measurement."
+  "totalRelatedPaidGuiCalls": 3,
+  "nextAction": "Send WORKER_SUPERVISION_REQUEST SOMATIC-R15-RESULT-002 to the existing supervisor Chat and wait for the matching decision before detector-driven editing."
 }

@@ -8,6 +8,8 @@ Current owner instructions supersede the older Somatic next-action text below fo
 
 The active non-authoritative reconstruction frontier is exact historical R15. R16, R17–R58, R59–R65, draft PR #72, stale Codex-V5 instructions, old Work/Codex conversations, generic roadmaps, and unrelated Shaking reservations are suspended as next-task selectors. The registered Somatic `master.html` remains unchanged authority. Ordinary tests or a high Pangram result do not complete this task; readiness is governed by `python scripts/check_somatic_r15_task.py --acceptance` and the owner/supervisor gates in the task checkpoint.
 
+Exact detector recovery classified boundary `9a81bd…` as never previously submitted, after which the supervisor-authorized single authenticated GUI measurement completed with Pangram 4.0 Human `0.1547368467`, AI `0.8452631831`, AI-assisted `0.0`, and exact UTF-8 History binding. The current classification is `EXACT_R15_RESULT_EXISTS`; no detector-driven edit or additional paid action is authorized before `SUPERVISOR_DECISION SOMATIC-R15-RESULT-002`. Current result/diagnosis: `tasks/somatic-r15-clean-continuation-20260830/R15-EXACT-PANGRAM-RESULT-20260830.md`.
+
 ## Goal
 
 Maintain exact GitHub-canonical authority and recoverable state for Joel's registered articles while completing requested editorial work without allowing detector results, stale artifacts, or unverified runtime output to overwrite owner meaning.

@@ -33,7 +33,7 @@ The historical R16 boundary was used only to regression-test the general extract
 - 20,989 Unicode characters;
 - final blank line preserved.
 
-No Pangram action for this exact boundary has been taken by this task.
+The one supervisor-authorized exact Pangram GUI measurement has now been taken and durably bound to this boundary. No semantic edit has followed it.
 
 ## Mandatory quarantine
 
@@ -60,18 +60,20 @@ The request was recovered in the exact conversation after a browser timeout, wit
 
 ## Current step
 
-1. Reverify exact candidate/boundary hashes and authenticated profile read-only.
-2. Recheck the exact cache/History state immediately before the paid boundary.
-3. Write and push the fresh exact submission reservation.
-4. Perform the single authorized whole-document Pangram 4 GUI measurement and bind the result to exact History text.
+1. Send `WORKER_SUPERVISION_REQUEST SOMATIC-R15-RESULT-002` to the same verified Chat supervisor.
+2. Include the exact result, nine-window localization, cold diagnosis, historical negative evidence, quarantine boundaries, and controller recommendation.
+3. Wait for the matching `SUPERVISOR_DECISION SOMATIC-R15-RESULT-002` before any detector-driven edit.
+4. Continue automatically through the direction that decision establishes.
 
 Bootstrap durability completed: clean branch pushed; draft recovery PR #73 opened; superseded PR #72 closed with its branch/history retained.
 
 Cold production preflight is durably **PASS / PROVISIONAL SAME-CONTEXT AUDIT** in `R15-PRODUCTION-PREFLIGHT-20260830.md`. No concrete high-confidence defect was found and no semantic edit was made.
 
-Exact detector recovery is complete in Pangram-lab draft PR #144 at `027bfc7bb399b5ca43cb8d51da2d636acd19241e`. The durable classification is **`EXACT_R15_NEVER_SUBMITTED`** for current reader-visible boundary `9a81bd…`; see `DETECTOR-STATE.json`.
+Exact detector recovery and the authorized GUI measurement are complete in Pangram-lab draft PR #144 at `0d032643ba554f968969716ad36cac5d27fb63578`. The durable current classification is **`EXACT_R15_RESULT_EXISTS`** for reader-visible boundary `9a81bd…`; see `DETECTOR-STATE.json` and `R15-EXACT-PANGRAM-RESULT-20260830.md`.
 
 Historical `d5101f…` is valid near-boundary evidence for the same immutable R15 candidate, but it retained four source-only Markdown italics asterisks and had one fewer terminal newline. It is not exact or accepted-transport-normalized evidence for `9a81bd…`. Related paid-call history remains counted.
+
+The exact Pangram 4.0 result is Human `0.1547368467`, AI `0.8452631831`, AI-assisted `0.0`, `STAGE_SUCCESS`, with exact UTF-8 History binding. The single authorized new call is consumed; the related ledger totals three calls and no further paid action is authorized. No detector-driven rewrite has begun.
 
 ## Completion boundary
 
