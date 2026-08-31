@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "status": "preservation_r14_candidate_not_owner_final_article",
+  "source": {
+    "master": "43d98cdb0df5fc9437f89ba56187e3a5586951375ccbf69e6e6a82e82569925f",
+    "part1": "f272bf6fab784a4e1922374a36573f216f29c6c691deba0fe0394a2aaad3fd83",
+    "part2": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "canonical_master": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "fafdc70e9f9a3554e1fb46bd7d4e011db77379f1993629f7885e90ac9c9c1cf2",
+      "word_count_whitespace": 20383
+    },
+    "part1": {
+      "sha256": "d2374e29f0c08b979ffa78bfe6ce8949fa867abe41cc35d68feb9d2461a10d64",
+      "word_count_whitespace": 10047
+    },
+    "part2": {
+      "sha256": "c20e97cd3b168b4c9c7f5688a8e5c8f0a6d7fc558b875bc0ce02538c3579c515",
+      "word_count_whitespace": 10185
+    },
+    "full_reader_visible": {
+      "sha256": "6db337289008c2d150a312f17794ef6c19469a74a773c767a452b5c0460132e1",
+      "word_count_whitespace": 20232
+    }
+  },
+  "operations": [
+    {
+      "type": "higher_authority_canonical_rollback",
+      "scope": "Affection and the simmer",
+      "source_task_section_sha256": "6dfad1cb1b44ba750ece375a6ba5ecabca3555d77e99b4caac7b09d0e4624a6d",
+      "canonical_section_sha256": "f618a179cf1d33bfe88389e3155b7d5039f4bbcc9e76a762cb0ca68940910371",
+      "reader_source_sha256": "d4dfeb1b077934cea351cd52d325bab6ef2250bbe0a0fbbcea52bc9c3e75f258",
+      "reader_candidate_sha256": "c307f3ae443c05eee135a459c01fba42a981bf1094bdb0fc83039dd3bc75dcc0",
+      "reason": "Restore richer registered-main wording after the task candidate compressed four canonical paragraph jobs into one assistant-composed paragraph. No local Affection detector call is authorized or used."
+    },
+    {
+      "type": "aggregate_boundary_relocation_only",
+      "old_boundary": "inside Maturity Levels immediately before Key/guru continuation",
+      "rejected_diagnostic_boundary": "before Primal attraction (r13; caused Part-2 regression)",
+      "new_boundary": "before the complete Maturity Levels section",
+      "article_prose_changed_by_boundary": false,
+      "reason": "Keep the entire patient/guru/self-responsibility thought together while retaining the exact previously 100%-Human old Part-2 stream as a byte-for-byte suffix."
+    }
+  ],
+  "invariant_audit": {
+    "headings_identical": true,
+    "native_markers_identical": true,
+    "markdown_link_destinations_identical": true,
+    "required_missing": [],
+    "protected_anchors_missing": [],
+    "affection_master_exact_canonical": true,
+    "affection_reader_exact_canonical": true,
+    "talk_reader_byte_identical": true,
+    "casual_reader_byte_identical": true,
+    "slow_exact_known_human_match": true,
+    "full_visible_reassembled_exactly_after_affection_only_edit": true,
+    "new_part1_excludes_maturity_section": true,
+    "new_part2_starts_at_complete_maturity_section": true,
+    "new_part2_contains_old_part2_byte_for_byte": true,
+    "new_part2_contains_primal_heading": true,
+    "source_part2_text_unchanged_inside_new_part2": true,
+    "article_master_change_confined_to_affection_section": true,
+    "detector_boundary_change_only_outside_affection_edit": true,
+    "passed": true
+  },
+  "preservation": {
+    "unexplained_deltas": 0,
+    "talk": "byte-identical to r12; 6/6 hard capped",
+    "casual": "byte-identical to r12; final local call conserved",
+    "slow_steady": "exact accepted 100%-Human r11 realization retained",
+    "patient": "r12 compact wording retained; whole Maturity section moved as detector boundary only",
+    "part2_old_stream": "byte-identical source Part 2 retained inside new Part 2",
+    "links": "all Markdown link destinations unchanged",
+    "native_objects": "unchanged"
+  },
+  "detector_plan": "After an explicit preservation proof receipt is committed, certify both exact r14 halves as aggregate boundaries. Do not spend a local Affection, Talk, Primal, or Casual call for this operation."
+}

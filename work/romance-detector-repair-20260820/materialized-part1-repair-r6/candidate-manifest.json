@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "status": "part1_affection_transition_repair_candidate_not_owner_final_article",
+  "source": {
+    "master": "d205393b1724256416291050fdeb41c18afb9669fddc45cf713559e9ecd9e406",
+    "part1": "e6b9e546bb2f07af8e18fc65fb6883d27bf0106d93f5f02d6674a88e034d572d",
+    "part2": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "53790d7234df72f9f48678c331debff9b89eb238007af0b68cd69a6aa90669f7",
+      "word_count_whitespace": 19734,
+      "operations": [
+        {
+          "label": "affection-transition-stop-at-live-thought",
+          "old_sha256": "3e2911088eec278078e4393f6b3e24ae558ff5a3fc8fd4d7ffa76dce8edab7af",
+          "new_sha256": "3b8296f34ce3441c0827e28e777576544f585f0d91bba2a5b99dbd08ce92bad7"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "required_missing": [],
+        "deleted_duplicate_casual_tail_absent": true,
+        "passed": true,
+        "r6_affection_new_present": true,
+        "r6_affection_old_absent": true
+      }
+    },
+    "part1": {
+      "sha256": "ff3c6d77a848d36c51776f76a6643aaae2262b4cffa458b1f54319dfe54971eb",
+      "word_count_whitespace": 9880,
+      "operations": [
+        {
+          "label": "affection-transition-stop-at-live-thought",
+          "old_sha256": "cd81dab410ed15151a44e37653939452a97a6a4bcec21fc67275957634c9d115",
+          "new_sha256": "a5f42685e0038fbd30ce5eaf9e39d697bda67e23b8dc4269905b193f6f23610a"
+        }
+      ]
+    },
+    "part2": {
+      "sha256": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2",
+      "word_count_whitespace": 9703,
+      "operations": [],
+      "unchanged": true
+    }
+  },
+  "detector_evidence": {
+    "transition_experiment": "romance-detector-repair-20260820-part1-affection-transition-r6-20260821",
+    "transition_text_sha256": "f1798598a2ab68535f63261296e590f584b6afc337af9b862052b85070faea18",
+    "transition_words": 274,
+    "pangram4_fraction_human": 1.0,
+    "affection_section_calls_used": 6,
+    "affection_section_cap": 6
+  },
+  "selection_rationale": {
+    "source_r5_aggregate_human": 0.9838229417800903,
+    "source_r5_residual": "156-word AI window crossing Affection ending into Casual opening",
+    "reason": "The 274-word widened transition boundary reached 100% Human only after stopping Affection after its two live source-derived observations instead of adding the generalized barometer/responsibility wrap-up. Casual opening remains unchanged."
+  },
+  "detector_plan": {
+    "part1": "fresh exact aggregate measurement; no further Affection section calls allowed"
+  }
+}

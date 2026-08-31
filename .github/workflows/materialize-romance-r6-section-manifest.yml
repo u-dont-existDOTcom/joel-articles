@@ -1,0 +1,48 @@
+name: Materialize Romance r6 section diff manifest
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - 'scripts/build_section_diff_manifest.py'
+      - 'tests/test_build_section_diff_manifest.py'
+      - '.github/workflows/materialize-romance-r6-section-manifest.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+      - run: python -m unittest tests.test_build_section_diff_manifest -q
+      - name: Build exact changed-section manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git show origin/main:articles/romance/master.md > /tmp/romance-canonical.md
+          cp work/romance-detector-repair-20260820/materialized-part1-semantic-r6/candidate-master.md /tmp/romance-r6.md
+          echo 'af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe  /tmp/romance-canonical.md' | sha256sum -c -
+          echo '2830b1906ce1515edcb36b4d9a6ebe75fc6e2cf59e953a7072c8dc2890b62134  /tmp/romance-r6.md' | sha256sum -c -
+          python scripts/build_section_diff_manifest.py \
+            --source /tmp/romance-canonical.md \
+            --candidate /tmp/romance-r6.md \
+            --output work/romance-detector-repair-20260820/source-diff-r6/changed-sections.json
+      - name: Commit generated manifest
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/source-diff-r6/changed-sections.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize Romance r6 changed-section manifest'
+          git push origin HEAD:task/romance-detector-repair-20260820

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-r20-casual-two-deletions",
+  "base": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-master.md",
+    "sha256": "b31af3c2f692d44b63e43dbfed99436584228f2ac7b8177045f5a3b751ea1ea8",
+    "word_count_whitespace": 20374
+  },
+  "candidate": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r20-casual-two-deletions/candidate-master.md",
+    "sha256": "8b60f2916a4c050c6295b858889c3a7e3e80c87e18307a2c3e2cf9e276e8637d",
+    "word_count_whitespace": 20343
+  },
+  "operations": [
+    {
+      "type": "owner-deleted",
+      "text": "Oxytocin, vasopressin, and the rest can start attaching you anyway.",
+      "sha256": "d4d87ecd9b99f878c18c9770f951da72c3d576ce3ef119fca5292dac29d4deb7",
+      "word_count": 10
+    },
+    {
+      "type": "duplicate-function-consolidation",
+      "text": "You can both mean it when you say this is only sex and still have one of you get attached afterward.",
+      "sha256": "db141dc2e3bccd2c3f72b7068f901adb86ee6bf9f521b6b8f3b05fd7523ab8d0",
+      "word_count": 21,
+      "surviving_realization": "casual-agreement setup + next-morning attachment consequence + candid-intention quote"
+    }
+  ],
+  "native_object_count_source": 11,
+  "native_object_count_candidate": 11,
+  "markdown_link_count_source": 22,
+  "markdown_link_count_candidate": 22,
+  "unexplained_deltas": 0,
+  "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+  "part2_exact_prior_human": 1.0,
+  "status": "task candidate only; canonical main unchanged"
+}

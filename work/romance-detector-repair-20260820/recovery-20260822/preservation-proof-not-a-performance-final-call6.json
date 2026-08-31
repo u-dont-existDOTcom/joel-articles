@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-part-2.txt",
+    "revision": "semantic-r9 traceability-passed baseline",
+    "sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  },
+  "changed_scope": "Romance / Primal attraction / Not A Performance",
+  "mode": "P2S",
+  "edit_dose": "D3",
+  "preservation_units": [
+    {"unit_id":"PU-PRIMAL-01","source_ref":"r9 opening identity-defense consequence","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Having to prove masculinity makes the role fake and requires repeated defense whenever Joel hesitates, cries, needs help or is wrong.","required_context":"section opening","allowed_disposition":"may-reword-semantically","candidate_mapping":"first paragraph: prove is fake + defend the role all over again after hesitation/crying/help/error","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-02","source_ref":"r9 vulnerability/Bee-wife anecdote","authority":"semantic-r9 traceability-passed source","type":"example","meaning":"Joel cries, needs help and gets things wrong; Bee called him her wife; the joke remains.","required_context":"male anti-performance","allowed_disposition":"must-remain-exact","candidate_mapping":"second paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-03","source_ref":"r9 appreciation sentence","authority":"semantic-r9 traceability-passed source","type":"causality","meaning":"A woman's appreciation of Joel's masculine side tends to draw it out without performance.","required_context":"follows vulnerability example","allowed_disposition":"must-remain-exact","candidate_mapping":"third paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-04","source_ref":"r9 female anti-performance","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"A woman should not have to continuously perform softness, helplessness or cuteness to prove femininity.","required_context":"female parallel to male performance","allowed_disposition":"may-reword-semantically","candidate_mapping":"fourth paragraph first two sentences","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-05","source_ref":"r9 chosen surrender + erotic value","authority":"semantic-r9 traceability-passed source","type":"judgment","meaning":"Surrender means more when a strong woman retains the ability to take control and chooses not to; Joel finds that erotic.","required_context":"female anti-performance paragraph","allowed_disposition":"may-reword-semantically","candidate_mapping":"fourth paragraph final two sentences","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-06","source_ref":"r9 female overcorrection","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Fear that Joel does not find her beautiful enough or that she is too emotional, difficult, insufficiently logical or needy can overcorrect into needing nobody and experiencing receiving as weakness.","required_context":"Toft beauty + Anami receiving context","allowed_disposition":"may-reword-semantically","candidate_mapping":"fifth paragraph middle sentence","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-07","source_ref":"r9 receiving-care claims","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Receiving help, leadership or pleasure does not make a strong woman helpless; a man receiving care does not make him a child.","required_context":"receiving discussion","allowed_disposition":"must-remain-exact","candidate_mapping":"fifth paragraph final two sentences","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-08","source_ref":"r9 Toft/Anami provenance","authority":"semantic-r9 traceability-passed source","type":"attribution","meaning":"Toft still tells his aging wife she is beautiful; Anami talks about women learning to receive.","required_context":"receiving/beauty paragraph","allowed_disposition":"must-remain-exact","candidate_mapping":"fifth paragraph first two sentences","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-09","source_ref":"r9 driving and reciprocal-help examples","authority":"semantic-r9 traceability-passed source","type":"example","meaning":"A capable woman may ask Joel to drive for the experience; Joel may invite her intuitive view and she may invite his practical thinking.","required_context":"chosen reciprocal roles","allowed_disposition":"must-remain-exact","candidate_mapping":"sixth paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-10","source_ref":"r9 invitational analogy","authority":"semantic-r9 traceability-passed source","type":"function","meaning":"Polarity/leadership should be invited rather than forced, expressed through party invitation versus war draft analogy.","required_context":"after reciprocal examples","allowed_disposition":"must-remain-exact","candidate_mapping":"seventh paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-11","source_ref":"r9 manufactured-crisis close","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"A woman unable to gently invite a man to lead may manufacture a crisis until he must take charge; Joel reports seeing this often.","required_context":"contrast with invitation","allowed_disposition":"must-remain-exact","candidate_mapping":"final two paragraphs","status":"preserved"}
+  ],
+  "change_whitelist": [
+    {"change_id":"CH-PRIMAL-01","description":"Use the previously 100% Human r3 backbone unchanged where it already carried the section, then reintroduce every r9-restored function at its natural semantic home. May change realization only; no claims, attribution, agency, certainty or examples may be deleted."}
+  ],
+  "candidate_deltas": [
+    {"delta_id":"DELTA-PRIMAL-01","classification":"authorized-rewording","description":"Reintroduces identity-defense consequence as defending the role all over again after hesitation/crying/help/error.","authority_ref":"CH-PRIMAL-01","status":"authorized"},
+    {"delta_id":"DELTA-PRIMAL-02","classification":"authorized-rewording","description":"Reintroduces female anti-performance and chosen-surrender erotic value after the unchanged appreciation sentence.","authority_ref":"CH-PRIMAL-01","status":"authorized"},
+    {"delta_id":"DELTA-PRIMAL-03","classification":"authorized-rewording","description":"Reintroduces female overcorrection and both receiving-care claims inside the existing Toft/Anami receiving paragraph.","authority_ref":"CH-PRIMAL-01","status":"authorized"}
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Final permitted local Primal candidate. Reader-visible SHA-256 fd83bf90ac1f6a0c122753cd9a9a7df34fd1717456d63be868b7c04debbc5dab; 359 whitespace words. Uses exact previously 100% Human r3 backbone wherever possible while restoring every r9 semantic function."
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "status": "semantic_traceability_pass_candidate_not_owner_final_article",
+  "method": {
+    "decision": "adapt",
+    "model": "requirements traceability plus atomic/summary content-unit alignment",
+    "mechanical_scope": "exact Markdown heading sequence and section hashes",
+    "semantic_scope": "human-reviewed registered/owner argumentative functions",
+    "promotion_rule": "zero unsuperseded lost units"
+  },
+  "authority": {
+    "registered_master_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+    "candidate_master_sha256": "6c094f6a011783fce65455143c27b03d14d33b64d7d4f4b3cf530b0e73045a53",
+    "candidate_part1_sha256": "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9",
+    "candidate_part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "changed_section_manifest": "source-diff-r9/changed-sections.json",
+    "word_diff": "source-diff-r9/canonical-to-r9.worddiff.txt",
+    "candidate_manifest": "materialized-semantic-r9/candidate-manifest.json"
+  },
+  "scope": {
+    "heading_count": 44,
+    "changed_section_count": 16,
+    "registered_loss_units_found_total": 10,
+    "restored_in_r7": 7,
+    "restored_in_r8": 2,
+    "restored_in_r9": 1,
+    "remaining_unsuperseded_lost_units": 0
+  },
+  "sections": [
+    {
+      "heading": "Talk about making love before you do it",
+      "disposition": "preserved_plus_owner_addition",
+      "blocking": false,
+      "notes": "Registered talk-before-sex/body/kink/history/unknowns/sex-meaning/drive-mismatch/naked-honesty/trust functions remain, with father/readiness owner addition as governing spine."
+    },
+    {
+      "heading": "Affection and the simmer",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "No-agenda affection, simmer examples, both-needs claim, no-homework caveat, barometer diagnostic, personal responsibility, and intentional-time claim remain."
+    },
+    {
+      "heading": "Can Casual Sex or a Situationship Actually Be Honest?",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Attachment/pregnancy/STI/responsibility argument remains; fulfillment-awareness and free-love-community/children-village consequence restored."
+    },
+    {
+      "heading": "The window of clarity, and how it closes",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Ordinary behavior/time still outranks self-description and intense question sessions."
+    },
+    {
+      "heading": "If slow isn’t realistic for you",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Loss of tribal brakes, self-imposed brakes, Gandarussa pregnancy function, and attachment limitation remain."
+    },
+    {
+      "heading": "Are you ready for the crucible?",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Terror/control remains outside the mutual-trigger communication frame; outside help and safety remain explicit."
+    },
+    {
+      "heading": "The Queen of Orgasms",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Polarity/trust/love/safety claim and laboratory-evidence uniqueness claim were restored exactly; remaining compression preserves cervical/whole-body-orgasm distinction."
+    },
+    {
+      "heading": "Can making love be a spiritual practice?",
+      "disposition": "preserved_compressed",
+      "blocking": false,
+      "notes": "Anami spillover reports, jade-egg solo practice, and Brad/Pam Keene awakening example remain."
+    },
+    {
+      "heading": "Muses & Directors",
+      "disposition": "owner_superseded",
+      "blocking": false,
+      "authority": "OWNER-MUSES-REWRITE-LESSON-20260821.md",
+      "notes": "Direct Joel rewrite supersedes prior registered/assistant realization for this span; only already-authorized typo normalizations apply."
+    },
+    {
+      "heading": "Not A Performance",
+      "disposition": "preserved_rephrased_after_restoration",
+      "blocking": false,
+      "notes": "Male identity-performance/vulnerability consequence, female anti-performance, chosen surrender meaning and erotic value, overcorrection into needing nobody, strong-woman receiving, man receiving without becoming a child, concrete choice/driver example, invitation, and manufactured-crisis consequence all remain."
+    },
+    {
+      "heading": "Two Pillars Don't Hold The Roof Up",
+      "disposition": "preserved_moved_concretized",
+      "blocking": false,
+      "notes": "Partner-as-everything overload is established earlier; practical two-person fragility remains; shared-reality and wrong-helper functions are concretized in the B./commune-friends examples."
+    },
+    {
+      "heading": "What are you actually choosing together?",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Same words/different imagined futures and practical partnership remain."
+    },
+    {
+      "heading": "Attraction and exclusivity",
+      "disposition": "owner_superseded",
+      "blocking": false,
+      "authority": "OWNER-EXCLUSIVITY-REWRITE-20260821.md",
+      "notes": "Direct owner rewrite supersedes prior assistant realization and preserves the intended historical/behavioral argument."
+    },
+    {
+      "heading": "Psychedelics in relationship discernment",
+      "disposition": "preserved_compressed",
+      "blocking": false,
+      "notes": "The ordinary-life limitation remains: psychedelic intimacy may be real without showing whether the pair works together sober; H.D. opposite-case remains."
+    },
+    {
+      "heading": "If you’re already in it",
+      "disposition": "owner_superseded_local_span",
+      "blocking": false,
+      "authority": "OWNER-PINKEST-REWRITE-20260821.md",
+      "notes": "Owner-final dance/pinkest-elephants replacement outranks prior local realization."
+    },
+    {
+      "heading": "After leaving",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Public demonization/truth, self-contribution, ex-perspective, parsimonious explanation, outside perspective, spiritual practice without bypass, mirror limits, Devadatta, Mr. Rogers, and curiosity-as-therapeutic function remain."
+    }
+  ],
+  "gate": {
+    "heading_alignment_passed": true,
+    "semantic_function_traceability_passed": true,
+    "owner_authority_preserved": true,
+    "remaining_unsuperseded_lost_units": 0,
+    "passed": true
+  },
+  "limitations": "This pass certifies semantic traceability of the candidate against registered and direct-owner authority for the 16 changed sections. It does not make the candidate owner-final, canonical, or approved for merge. Detector and final editorial/architecture/provenance closeout remain separate gates."
+}

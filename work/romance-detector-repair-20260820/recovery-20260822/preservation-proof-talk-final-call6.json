@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "articles/romance/master.md + recovery-20260821/RECOVERY-AUTHORITY-CORRECTION.md",
+    "revision": "registered main Romance master plus direct owner correction",
+    "sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe"
+  },
+  "changed_scope": "Romance / Talk about making love before you do it + opening father-provenance dependency",
+  "mode": "P2S",
+  "edit_dose": "D3",
+  "preservation_units": [
+    {"unit_id":"PU-TALK-01","source_ref":"registered Talk definition","authority":"registered master","type":"claim","meaning":"Making love is bodily connection between people who care deeply and feel connected; sex is the physical act and may itself create connection.","required_context":"Talk section","allowed_disposition":"may-reword-semantically","candidate_mapping":"first two prose paragraphs","status":"preserved"},
+    {"unit_id":"PU-TALK-02","source_ref":"registered opening father memory","authority":"owner exact memory + registered master","type":"quotation","meaning":"Father's remembered words remain only the exact childhood sentence in the opening and are not replaced by the readiness formulation.","required_context":"article opening","allowed_disposition":"must-remain-exact","candidate_mapping":"local candidate contains no false father quote; retrospective paragraph says what Joel eventually took from the advice","status":"preserved"},
+    {"unit_id":"PU-TALK-03","source_ref":"direct owner recovery correction","authority":"direct owner correction","type":"attribution","meaning":"Would we like to raise children together / are we ready is Joel's later interpretation, not father's wording.","required_context":"explicit retrospective attribution","allowed_disposition":"must-remain-here","candidate_mapping":"paragraph beginning What I eventually took from my dad's advice","status":"preserved"},
+    {"unit_id":"PU-TALK-04","source_ref":"owner correction + registered Talk","authority":"direct owner correction + registered master","type":"function","meaning":"Readiness/co-parenting opens the broader life, child-rearing and sex-meaning conversation.","required_context":"same paragraph","allowed_disposition":"must-remain-here","candidate_mapping":"readiness paragraph and four follow-up questions","status":"preserved"},
+    {"unit_id":"PU-TALK-05","source_ref":"registered timing paragraph","authority":"registered master","type":"function","meaning":"Honest sexual discussion should happen before sex/nudity because truth becomes harder once passion and possible disappointment are active.","required_context":"follows readiness/life questions","allowed_disposition":"may-reword-semantically","candidate_mapping":"paragraph beginning Most couples don't talk honestly about any of this","status":"preserved"},
+    {"unit_id":"PU-TALK-06","source_ref":"registered body/kink/history paragraph","authority":"registered master","type":"claim","meaning":"Partners discuss bodily openness, kink, past-shaped wants/avoidance and what does not work.","required_context":"pre-sex honesty","allowed_disposition":"may-reword-semantically","candidate_mapping":"paragraph beginning What do you actually want","status":"preserved"},
+    {"unit_id":"PU-TALK-07","source_ref":"registered unknown-answers paragraph","authority":"registered master","type":"function","meaning":"Not knowing all answers is acceptable when there is willingness to discover them honestly.","required_context":"same disclosure paragraph","allowed_disposition":"may-reword-semantically","candidate_mapping":"Neither of us has to know every answer yet + quoted answer","status":"preserved"},
+    {"unit_id":"PU-TALK-08","source_ref":"registered meanings-of-sex paragraph","authority":"registered master","type":"claim","meaning":"Sex can serve different purposes for different partners and at different times.","required_context":"sexual conversation","allowed_disposition":"may-reword-semantically","candidate_mapping":"paragraph beginning Sex doesn't even have to mean the same thing every time","status":"preserved"},
+    {"unit_id":"PU-TALK-09","source_ref":"registered libido mismatch paragraph","authority":"registered master","type":"claim","meaning":"Sex drives change and mismatch; discuss the mismatch before hurt/quiet resentment accumulates.","required_context":"same paragraph after sex meanings","allowed_disposition":"may-reword-semantically","candidate_mapping":"Our sex drives will change too through quiet resentment","status":"preserved"},
+    {"unit_id":"PU-TALK-10","source_ref":"registered naked-honesty test","authority":"registered master","type":"function","meaning":"Partners must still be able to say uncomfortable wants while naked and anticipating disappointment; bodily fit is insufficient.","required_context":"after prior conversation content","allowed_disposition":"may-reword-semantically","candidate_mapping":"paragraph beginning And once we're naked","status":"preserved"},
+    {"unit_id":"PU-TALK-11","source_ref":"registered trust/willingness consequence","authority":"registered master","type":"function","meaning":"Talking before clothes come off practices trust, attention and willingness to be seen required for making love.","required_context":"section close","allowed_disposition":"may-reword-semantically","candidate_mapping":"final paragraph first sentence","status":"preserved"},
+    {"unit_id":"PU-TALK-12","source_ref":"direct owner correction","authority":"direct owner correction","type":"function","meaning":"The conversation naturally slows premature sex; inability to have it is a relationship red flag.","required_context":"section stopping point","allowed_disposition":"must-remain-here","candidate_mapping":"final two sentences","status":"preserved"}
+  ],
+  "change_whitelist": [
+    {"change_id":"CH-TALK-01","description":"Preserve the already-Human definition/readiness core while moving the timing warning after it and re-realizing only the practical tail; may not change father provenance, delete readiness/co-parenting, or delete the early-sex/red-flag consequence."},
+    {"change_id":"CH-TALK-02","description":"Reword body-disclosure, sex-meaning, libido-mismatch, naked-honesty and trust material without changing propositions, certainty, agency, chronology or section function."}
+  ],
+  "candidate_deltas": [
+    {"delta_id":"DELTA-TALK-01","classification":"movement","description":"Moves timing warning from section opening to after the Human definition/readiness core.","authority_ref":"CH-TALK-01","status":"authorized"},
+    {"delta_id":"DELTA-TALK-02","classification":"authorized-rewording","description":"Re-realizes body/kink/history and unknown-answer material as one conversational paragraph.","authority_ref":"CH-TALK-02","status":"authorized"},
+    {"delta_id":"DELTA-TALK-03","classification":"authorized-rewording","description":"Re-realizes sex meanings and libido mismatch as one causal paragraph while retaining quiet-resentment consequence.","authority_ref":"CH-TALK-02","status":"authorized"},
+    {"delta_id":"DELTA-TALK-04","classification":"authorized-rewording","description":"Re-realizes naked-honesty and trust/early-sex/red-flag close without changing functions.","authority_ref":"CH-TALK-02","status":"authorized"}
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Final permitted local Talk candidate. Reader-visible SHA-256 94f3c4b20bb4509126a435af0fcb7530228e3e960160d91ded58dcac24754041."
+}

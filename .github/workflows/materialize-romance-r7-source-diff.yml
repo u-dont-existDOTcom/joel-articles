@@ -1,0 +1,59 @@
+name: Materialize exact Romance r7 source diff
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - '.github/workflows/materialize-romance-r7-source-diff.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+      - name: Build exact registered-vs-r7 traceability scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          mkdir -p work/romance-detector-repair-20260820/source-diff-r7
+          git show origin/main:articles/romance/master.md > /tmp/romance-canonical.md
+          cp work/romance-detector-repair-20260820/materialized-semantic-r7/candidate-master.md /tmp/romance-r7.md
+          echo 'af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe  /tmp/romance-canonical.md' | sha256sum -c -
+          echo '00698c96b42b5f4a24ea1078c6fbcb8ff068a403720d3bc38e091e1656db8c3c  /tmp/romance-r7.md' | sha256sum -c -
+          python scripts/build_section_diff_manifest.py \
+            --source /tmp/romance-canonical.md \
+            --candidate /tmp/romance-r7.md \
+            --output work/romance-detector-repair-20260820/source-diff-r7/changed-sections.json
+          diff -u --label registered-main --label semantic-r7 /tmp/romance-canonical.md /tmp/romance-r7.md > work/romance-detector-repair-20260820/source-diff-r7/canonical-to-r7.diff || test $? -eq 1
+          git diff --no-index --word-diff=plain -- /tmp/romance-canonical.md /tmp/romance-r7.md > work/romance-detector-repair-20260820/source-diff-r7/canonical-to-r7.worddiff.txt || test $? -eq 1
+          cat > work/romance-detector-repair-20260820/source-diff-r7/manifest.json <<'JSON'
+          {
+            "schema_version": 1,
+            "registered_master_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+            "candidate_master_sha256": "00698c96b42b5f4a24ea1078c6fbcb8ff068a403720d3bc38e091e1656db8c3c",
+            "candidate_status": "not_owner_final_article",
+            "purpose": "exact registered-vs-r7 scope for final semantic traceability; not an article authority file"
+          }
+          JSON
+      - name: Verify reusable section-manifest regression tests
+        run: python -m unittest tests.test_build_section_diff_manifest -q
+      - name: Commit exact diff scope
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/source-diff-r7
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize exact Romance r7 source diff'
+          git push origin HEAD:task/romance-detector-repair-20260820
