@@ -1,6 +1,6 @@
 # Somatic R15 — Fail-Closed Humanization Control
 
-**Status:** CONTROLLING SAFETY SHELL / EXECUTION HOLD  
+**Status:** CONTROLLING SAFETY SHELL / DSMR ARCHITECTURE AUDIT ONLY  
 **Date:** 2026-08-31  
 **Task:** `somatic-r15-clean-continuation-20260830`
 
@@ -14,13 +14,23 @@ The controlling reasoning correction is:
 
 The earlier semantic-packet generation route and the later source-bound null-first route are preserved in Git history as failed/superseded strategy evidence. **Neither is current execution authority.**
 
+The currently specified successor candidate is:
+
+`SOMATIC-DELIBERATIVE-SEQUENTIAL-MICROREALIZATION-005.md`
+
+Its architecture has **not** been accepted. The only current execution authority is the independent audit transport:
+
+`SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md`
+
+That packet must stop after capturing the architecture audit regardless of verdict. Even exact `VERDICT: ACCEPT` does not authorize a prose writer until Chat reads the audit and issues a separate execution decision.
+
 ## Current hard hold
 
-Until a successor strategy is fully specified and audited:
-
 ```text
+ARCHITECTURE_AUDIT_TRANSPORT_ALLOWED = true
 WRITER_TRANSPORT_ALLOWED = false
-VALIDATOR_TRANSPORT_ALLOWED = false
+SEMANTIC_AUDITOR_TRANSPORT_ALLOWED = false
+COLD_SHAPE_READER_TRANSPORT_ALLOWED = false
 UNGATED_HUMANIZATION_ALLOWED = false
 PANGRAM_SUBMISSION_ALLOWED = false
 PAID_DETECTOR_CALL_ALLOWED = false
@@ -46,42 +56,68 @@ No unrelated Human text, owner exemplar, donor prose, Pangram-green filler, or q
 
 Before any successor writer receives a prose task, freeze the changed-scope preservation units and authorized-change whitelist required by `docs/HUMANIZATION-PRESERVATION-GATE.md`.
 
-The full ledger may be withheld from the writer to prevent checklist servicing, but it must exist before drafting and must control every allowed deletion, movement, rewording, certainty change, attribution change, link/object change, or other substantive delta.
+For the first-paragraph DSMR pilot, that pre-draft escrow is already frozen at:
+
+`SOMATIC-INTRO-P1-PRESERVATION-ESCROW-001.md`
+
+The full ledger is deliberately withheld from the future writer to prevent checklist servicing, but it exists before drafting and controls every permitted substantive delta.
 
 `Inferable`, `redundant`, `smoother`, `better for Pangram`, or generic reader availability are not deletion authority. A removed unit needs an allowed disposition such as exact duplicate-function consolidation with a named surviving realization/destination, named movement, owner supersession, or owner deletion.
 
-### 4. Chat reasons; Codex executes mechanically
+### 4. Chat reasons; Codex orchestrates and executes mechanically
 
-Chat owns provenance classification, semantic/function judgment, strategy, prose, discourse diagnosis, adaptive semantic-reveal decisions, preservation adjudication, and any decision about what a failed attempt teaches.
+Chat owns provenance classification, semantic/function judgment, strategy, prose authority, discourse diagnosis, adaptive decisions, preservation adjudication, and every decision about what a failed attempt teaches.
 
-Codex may verify identities, transport exact messages between authorized chats, capture exact responses, hash/store artifacts, and run deterministic checks. Codex may not invent semantic inputs, choose the next semantic unit, repair prose, judge human/AI shape, or self-certify preservation.
+Codex may verify identities, mechanically open fresh authorized reasoning/writing contexts, transport exact messages, capture exact responses, hash/store artifacts, and route typed states only when an already-approved state machine makes the route mechanical. Codex may not invent semantic inputs, choose a substantive correction, repair prose, judge human/AI shape, or self-certify preservation.
 
-The owner should receive one owner-facing launch instruction when execution is eventually authorized. Internal subordinate-chat prompts are Codex transport payloads, not additional owner tasks.
+The owner receives one owner-facing launch instruction. Internal subordinate-chat prompts are Codex transport payloads, not additional owner tasks.
 
 ### 5. A successor must change the generation process
 
-A hard reject is not by itself a humanization method. The next strategy must explain how a diagnostic failure changes the next generation process or information exposure rather than merely adding another anti-pattern instruction, longer prompt, synonym pass, or fresh sample of the same complete-plan objective.
+A hard reject is not by itself a humanization method. A viable strategy must explain how the generation process itself differs from the failed family and how a diagnostic failure changes the next generation input or process rather than merely adding another broad anti-pattern instruction, longer prompt, synonym pass, or fresh sample of the same complete-plan objective.
 
-A successor writer must not be given a complete semantic inventory in a form that simply recreates the previously failed coverage problem unless a later supervisor explicitly demonstrates why that is a new causal family.
+The current DSMR hypothesis is deliberately narrow: Joel reports that Pro/Work Ultra humanization improves when one paragraph receives sustained private rewrite/read/rewrite iteration, sometimes for roughly ten minutes, whereas the recorded failed high-compute Somatic trials asked Pro/Extra-High to realize an entire roughly 4,000-word article in one response. DSMR therefore tests `tiny visible scope × high-compute repeated private revision × no visible future coverage plan`, with external semantic certification afterward. This is an empirical hypothesis under audit, not established fact.
 
-### 6. Detector last
+### 6. Internal iteration is search, not certification
 
-Pangram is unavailable during prose-design strategy work. No short-fragment or whole-document detector result may be used as an edit oracle. Any later detector authorization requires an exact frozen candidate that has already passed the required preservation, attribution, architecture/coherence, cold-reader, link/native-object, and owner gates for its scope.
+A future high-compute writer, if later authorized, may privately rewrite repeatedly before emitting one visible paragraph. Its confidence that the prose is done is not fidelity evidence. A separate semantic custodian must prove forward/reverse traceability against the pre-frozen escrow with zero unexplained substantive deltas before any cold-shape or owner gate.
 
-### 7. Bounded falsifiability
+No chain-of-thought, draft history, private candidate pool, or iteration transcript is requested or treated as evidence.
 
-Every successor family requires an explicit maximum attempt budget and kill condition. After kill, do not lengthen the prompt, create same-family variants, switch models while retaining the same objective, or reopen a quarantined method unless genuinely new evidence changes the causal design.
+### 7. Detector last
 
-## Current reasoning direction — not execution authority
+Pangram is unavailable during architecture review and paragraph-design work. No short-fragment or whole-document detector result may be used as an edit oracle. Any later detector authorization requires an exact frozen whole-document candidate that has already passed the required preservation, attribution, architecture/coherence, cold-reader, link/native-object, supervisor, and owner gates.
 
-`SUPERVISOR-CORRECTION-SOMATIC-HUMANIZATION-REASONING-004.md` records one candidate successor direction: **incremental semantic escrow / adaptive progressive disclosure**. The idea is to freeze the complete preservation ledger before drafting while revealing only one minimal currently relevant unit at a time to prose writers, with later semantic reveals chosen by a reasoning custodian in response to the growing text.
+### 8. Bounded falsifiability
 
-That direction is **not yet an executable packet**. Do not improvise it from this summary. It must first receive exact controller/writer/Codex contracts and an adversarial audit proving that semantic decisions remain in Chat, the writer never receives the full latent coverage plan, and failure changes the next generation process.
+Every production family requires an explicit maximum attempt budget and kill condition. The frozen DSMR candidate permits at most two visible writer candidates for the pilot paragraph, sharing one corrective slot. That budget is not executable unless the architecture audit is accepted and Chat separately releases the pilot.
+
+After kill, do not lengthen the prompt, create same-family variants, switch models while retaining the same failed objective, or reopen a quarantined method unless genuinely new evidence changes the causal design.
+
+## Current candidate architecture — audit evidence only
+
+`SOMATIC-DELIBERATIVE-SEQUENTIAL-MICROREALIZATION-005.md` is fully specified enough to be attacked by an independent reasoning context but is not self-authorizing.
+
+The pilot boundary is only the first 43-word Introduction paragraph. Its preservation escrow, conditional writer treatment, semantic-auditor contract, and cold-shape-reader contract are frozen so the auditor reviews a concrete state machine rather than a vague idea.
+
+The independent audit contract is:
+
+`SOMATIC-DSMR-ARCHITECTURE-AUDIT-001.md`
+
+The single owner-facing mechanical launch packet is:
+
+`SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md`
+
+No prose candidate may be generated in this state.
 
 ## Current next state
 
 Follow `HUMANIZATION-CONTROL-STATE-20260831.json`.
 
-Current workflow state: `strategy_reaudit_hold`.
+Current workflow state: `awaiting_dsmr_architecture_audit_transport`.
 
-No prose generation, validator launch, Pangram call, article application, registered-master change, or publication action is authorized.
+Exact next owner-facing action:
+
+`Execute tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md exactly.`
+
+No separate Chat instruction is required; Codex orchestrates the fresh auditor. After capture, stop and return the audit evidence to Chat. No prose generation, semantic/cold reader launch, Pangram call, article application, registered-master change, or publication action is authorized.
