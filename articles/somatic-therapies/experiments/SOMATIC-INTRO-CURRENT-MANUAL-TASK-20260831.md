@@ -15,9 +15,10 @@ For this task also read immediately before drafting:
 
 1. `articles/somatic-therapies/experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-20260831.md`
 2. `articles/somatic-therapies/experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-20260831.md`
-3. current Pangram-humanization lesson index/working lessons required by `SKILL.md`
+3. `articles/somatic-therapies/experiments/SOMATIC-INTRO-EXTERNAL-PROGRESS-CONTROLLER-20260831.md`
+4. current Pangram-humanization lesson index/working lessons required by `SKILL.md`
 
-The active lesson contract is blocking. A known lesson regression must be repaired before the candidate is shown to Joel.
+The active lesson contract is blocking. The external progress controller supersedes any interpretation of a hard reject as sufficient learning architecture: raw generations are disposable; only externally verified frontier advances may become owner-facing passes. A known lesson regression must be repaired before the candidate is shown to Joel.
 
 ## Current task
 
@@ -74,6 +75,7 @@ After Joel responds:
 
 1. treat his correction as new cognition, not merely line-edit feedback;
 2. update the manual writer-state and active lesson contract when the correction is substantive/reusable;
-3. reread the active lesson contract before the next attempt;
-4. reconstruct rather than cosmetically edit when the problem is thought movement;
-5. show one next candidate.
+3. update the external progress-controller state when the correction changes adjudication, learning retention, or promotion architecture;
+4. reread the active lesson contract and external progress controller before the next attempt;
+5. reconstruct rather than cosmetically edit when the problem is thought movement;
+6. do not show a newer raw generation merely because it is newer; show one next candidate only when it is a verified frontier advance.
