@@ -69,7 +69,11 @@ Article-wide state:
 - article status: `working`, not `owner_final` or `published`;
 - publication exports: none registered.
 
-## Remaining / publication gates
+## Blockers / unresolved
+
+- Citation review and the future fresh whole-article editorial pass remain open publication gates.
+
+## Remaining
 
 - Keep citation review and a future fresh whole-article editorial pass explicit; do not infer either from the bounded r23r2 correction.
 - Do not run another Pangram Part-2 call solely to increase detector confidence; Joel accepted the exact local result.
