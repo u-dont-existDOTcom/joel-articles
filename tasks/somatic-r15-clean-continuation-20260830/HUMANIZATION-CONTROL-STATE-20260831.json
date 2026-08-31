@@ -1,8 +1,8 @@
 {
-  "schema_version": 7,
+  "schema_version": 8,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "owner_facing_intro_mvi_candidate_pending_owner_verdict",
-  "last_authoritative_head_before_state_update": "6da643869344b90a238557d1ea53001a2a9ba267",
+  "workflow_state": "owner_direct_live_mutational_composition_experiment",
+  "last_authoritative_head_before_state_update": "248c532126ac26be59d89f611398276f5a756735",
   "role_boundary": {
     "reasoning_owner": "Chat",
     "mechanical_executor": "Codex",
@@ -13,74 +13,60 @@
     "path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SUPPLIED-INTRO-BOUNDARY-20260831.md",
     "revision": "owner-supplied-current-conversation-2026-08-31",
     "changed_scope": "Complete Introduction from # Introduction through the final inner-child paragraph, stopping before the next article section.",
-    "authority": "Current direct owner-supplied semantic/prose boundary for this bounded retry; current owner instruction outranks prior task state."
+    "authority": "Current direct owner-supplied semantic/prose boundary for later reconciliation; current owner instruction temporarily permits exploratory generation without exact semantic matching."
   },
   "owner_override": {
-    "path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-OVERRIDE-MANUAL-INTRO-RETRY-20260831.md",
-    "status": "ACTIVE_FOR_OWNER_FACING_MVI_RETRY",
-    "authorization": "Joel instructed the Chat to fix the rejected Introduction, then explicitly requested use of the Mixture of Village Idiots method and asked to see what it produces.",
-    "scope": "Complete supplied Introduction only.",
-    "cold_pass_rule": "Two consecutive cold clears on the unchanged literal candidate remain required; any substantive rewrite resets the count. Same-context clears are not independent evidence. Any genuine AI-shape uncertainty routes to Joel instead of self-certification."
+    "status": "ACTIVE_FOR_LIVE_MUTATIONAL_COMPOSITION",
+    "authorization": "Joel explicitly told Chat to stop writing for an audience, allow incomplete scratch, process thoughts in parallel, mate thoughts like genetics to generate useful mutations, and then move mutation-to-mutation in coherent prose while deleting every sentence that overexplains. Joel also explicitly authorized exact source matching to be optimized afterward rather than controlling the exploratory generation pass.",
+    "scope": "Complete supplied Introduction as eventual reconciliation target; current experiment may produce a smaller exploratory paragraph.",
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
+    "persona_boundary": "A provisional Joel stance may guide judgment/taste only; it may not fabricate autobiography, symptoms, chronology, evidence, or unauthorized claims."
   },
   "strategy": {
-    "active_family": "OWNER_DIRECT_MANUAL_RECONSTRUCTION_WITH_DYNAMIC_ANTI_PULL_AND_MVI_CHECKER",
-    "method": "Generate disposable prose from the frozen owner-supplied boundary without using the checker as a composition outline. Treat the first/default model-shaped trajectory as latent-pull evidence. After realization, attack the literal candidate with narrow Mixture-of-Village-Idiots checks plus semantic custody; any credible blocking flag kills the sample. Do not use majority vote or allow a smart generalist to balance a defect against strengths elsewhere.",
-    "anti_pull_guard_path": "tasks/somatic-r15-clean-continuation-20260830/ANTI-PULL-GUARD-CONCEPTION-20260831.md",
-    "mvi_checker_path": "tasks/somatic-r15-clean-continuation-20260830/MIXTURE-OF-VILLAGE-IDIOTS-CHECKER-001.md",
+    "active_family": "LIVE_MUTATIONAL_COMPOSITION_WITH_SENTENCE_LEVEL_OVEREXPLANATION_KILL",
+    "method": "Keep a small parallel pool of live thoughts; recombine thoughts to create genuinely new relations; write one sentence from a live mutation; reread the literal sentence; delete it if it merely restates, diagnoses, summarizes, justifies, or explains what already landed; otherwise allow another thought to interrupt or mutate the line. No paragraph quota, audience obligation, semantic coverage plan, or forced closure. Reconcile source obligations only after a live passage exists.",
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
     "known_pull_signature": "body/mind mismatch premise -> complex-trauma qualification -> readiness checklist -> regulation verdict -> EMDR exception -> bodily-discharge exception -> polished inner-child transfer/closure",
-    "rejected_candidate_authority": "NONE",
-    "dsmr_candidate_strategy_id": "SOMATIC-DSMR-005",
-    "dsmr_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_OVERRIDE_NOT_CANCELLED",
-    "dsmr_candidate_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DELIBERATIVE-SEQUENTIAL-MICROREALIZATION-005.md"
+    "mvi_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_INSTRUCTION",
+    "anti_pull_status": "INCORPORATED_ONLY_AS_BACKGROUND_AWARENESS_NOT_ACTIVE_COMPOSITION_OUTLINE",
+    "dsmr_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_OVERRIDE_NOT_CANCELLED"
   },
-  "current_candidate": {
+  "prior_candidate": {
     "path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-MVI-CANDIDATE-20260831.md",
     "receipt_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-MVI-RECEIPT-20260831.md",
-    "status": "OWNER_FACING_TEST_CANDIDATE_NOT_ARTICLE_AUTHORITY",
-    "substantive_passage_rewrite_iterations_this_mvi_round": 21,
-    "preservation": "PASS_ZERO_UNEXPLAINED_DELTAS",
-    "mvi": "PASS_NO_BLOCKING_FLAGS",
-    "cold_passes": 2,
-    "cold_passes_same_context": true,
-    "post_clear_literal_challenge": "PASS",
-    "chat_current_belief": "looks human enough to justify owner evaluation",
-    "borderline_ai_shape_uncertainty": null
+    "status": "BLOCKED_HISTORICAL_EXPERIMENT_NOT_ARTICLE_AUTHORITY",
+    "note": "Earlier same-context MVI/cold-clear confidence was later withdrawn after literal reread exposed the familiar regulation-versus-EMDR flowchart."
   },
-  "architecture_audit": {
-    "audit_contract_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-001.md",
-    "codex_transport_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md",
-    "status": "deferred_during_current_owner_direct_retry",
-    "rule": "The pending DSMR architecture audit does not block this specifically owner-authorized MVI retry and does not automatically resume or authorize later prose after the owner verdict."
-  },
+  "current_candidate": null,
   "gates": {
     "authority_reconciliation": "PASS_CURRENT_OWNER_OVERRIDE_RECORDED",
-    "writer_transport": "COMPLETE_FOR_CURRENT_MVI_RETRY",
-    "semantic_preservation": "PASS_ZERO_UNEXPLAINED_DELTAS",
-    "mvi_checker": "PASS_NO_BLOCKING_FLAGS",
-    "cold_reader": "PASS_TWO_CONSECUTIVE_SAME_CANDIDATE_CLEARS_PLUS_POST_CLEAR_CHALLENGE",
-    "independent_reader": "NOT_AVAILABLE_CURRENT_CHAT",
-    "owner_read": "pending"
+    "exploratory_generation": "AUTHORIZED",
+    "semantic_preservation": "DEFERRED_DURING_EXPLORATORY_PASS_BY_DIRECT_OWNER_INSTRUCTION",
+    "cold_reader": "NOT_YET_APPLICABLE",
+    "owner_read": "PENDING_AFTER_NEXT_EXPLORATORY_PASS",
+    "detector": "BLOCKED",
+    "candidate_promotion": "BLOCKED"
   },
   "release": {
-    "candidate_visibility": "authorized_to_show_owner_for_test",
+    "candidate_visibility": "owner-facing exploratory prose allowed",
     "publication_edit": "blocked",
     "detector_eligibility": "blocked",
-    "candidate_promotion": "blocked_until_owner_acceptance_and_normal_downstream_gates",
+    "candidate_promotion": "blocked until later semantic reconciliation, normal gates, and owner acceptance",
     "blockers": [
-      "Owner has not yet evaluated the MVI candidate.",
-      "No detector action is authorized by this retry.",
+      "Current work is an exploratory generation experiment, not a preservation-clean candidate.",
+      "No detector action is authorized.",
       "Registered article master has not been changed."
     ]
   },
   "detector": {
-    "policy": "No Pangram or other paid detector call is authorized by this MVI retry override.",
+    "policy": "No Pangram or other paid detector call is authorized by this exploratory mutation experiment.",
     "status": "not-authorized",
     "submitted_candidate_sha256": null,
     "result": null
   },
   "next_action": {
-    "type": "OWNER_READ_AND_OPTIONAL_OWNER_PANGRAM_TEST",
-    "instruction": "Show the exact current MVI candidate to Joel. Classify his response literally. If he supplies a substantive correction, persist it before another rewrite. Do not infer acceptance or rejection from a question alone.",
+    "type": "OWNER_FACING_LIVE_MUTATIONAL_PARAGRAPH",
+    "instruction": "Generate one short exploratory paragraph using LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md. After every sentence, kill overexplanation rather than completing the thought. Stop when the next live move is not genuinely interesting. Do not reconcile missing source obligations yet unless they arise naturally.",
     "automatic_action_after_owner_response": false
   }
 }
