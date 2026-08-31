@@ -209,6 +209,16 @@
           "path": "articles/somatic-therapies/experiments/R59-R65-PR72-SUPERSESSION-20260830.md",
           "sha256": "21d55e646beff7d254771bca860c4dfc7fd4c7bc66412b6a2fff6d17c1c56aa0",
           "role": "failed_branch_supersession_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-CANDIDATE-20260831.md",
+          "sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
+          "role": "non_authoritative_supervisor_authorized_repair_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-BOUNDARY-20260831.txt",
+          "sha256": "d5c0b510a89ab6f7c97d9cdbe6069cccd197cd6470eac5ddc4a86ffcb14735bb",
+          "role": "exact_non_authoritative_repair_candidate_detector_input_boundary"
         }
       ]
     }
