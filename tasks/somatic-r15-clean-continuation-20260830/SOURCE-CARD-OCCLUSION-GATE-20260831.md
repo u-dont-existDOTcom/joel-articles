@@ -48,6 +48,20 @@ When a minimum length is active:
 6. **No aphorism substitution.** Compact cleverness, metaphor, or quotable closure does not compensate for failing the requested length or for lack of sustained thought.
 7. **Window audit still applies.** Reaching the floor does not authorize cumulative convergence. The resulting 50+ word passage must still survive the 2–4 sentence directional-sign audit.
 
+## Pre-propositional mutation gate
+
+Owner-directed `eval` on 2026-08-31 found that the multi-seed repair itself reproduced semantic-card succession. The 50-word candidate was built from three supposedly independent mutations, but each mutation was already a complete proposition: intensity can be praised before it helps; a person may want to stop; cognition and bodily reaction can diverge. Removing bridges did not make these live thoughts. It merely concatenated outline bullets.
+
+The mutation pool must therefore exist **before proposition-level completion**:
+
+1. **No bullet-ready seeds.** A seed is disqualified if it could stand unchanged as an outline bullet, thesis sentence, source-unit summary, treatment rule, contrast, or complete claim.
+2. **Allowed seed forms are unfinished pressure.** Examples of form, not content: a word that feels wrong; a partial relation; an unresolved verb/object; a snag in a phrase; a fragment whose consequence is not yet known; an incomplete sentence germ; a local irritation in the literal wording. Do not turn these examples into a fixed template.
+3. **No hidden semantic labels.** Do not privately translate a fragment into `this is the stopping point`, `this is mind/body mismatch`, `this will become the calm distinction`, etc. If the fragment already has a named article job, it is too complete for the pool.
+4. **Realize before interpreting.** Let a seed acquire meaning through the sentence actually written. Do not decide its claim first and then find natural-sounding wording for it.
+5. **Pool switching cannot equal card switching.** When one thread dies, another seed may enter only if it remains pre-propositional at the moment of entry. Do not retrieve a prepared claim simply because the length floor still needs words.
+6. **Discard elegant seed packages.** If two or three seeds already look complementary, balanced, comprehensive, or collectively representative of the source, regenerate the pool; the outline has reappeared upstream.
+7. **Audit the pool causally on `eval`.** If a candidate looks like card succession without explicit bridges, inspect whether the cards were already encoded in the mutation seeds. Repair the seed representation, not just the prose sequence.
+
 ## `eval` consequence
 
 When an `eval` finds card succession, diagnose whether the cause was latent source coverage rather than merely a bad transition. If so, restart from the last live seed with all unreconciled source topics occluded from topic selection.
@@ -55,3 +69,5 @@ When an `eval` finds card succession, diagnose whether the cause was latent sour
 When an `eval` finds a smooth rhetorical descent despite locally acceptable sentences, run the cumulative thesis-gravity audit. Delete back to the last sentence before the window became one-directional, then resume only if a genuinely different live pressure exists. Do not repair the passage by inserting an artificial counterpoint.
 
 When an `eval` finds the candidate below an active minimum length, treat that as a process failure. Re-enter from a small pre-existing mutation pool and satisfy the floor without padding a dead thread or reopening source coverage.
+
+When an `eval` finds bridge-free semantic cards after a multi-seed pass, inspect the seed pool itself. If the seeds were complete propositions, discard them and restart from pre-propositional pressure; do not try to humanize their realization downstream.
