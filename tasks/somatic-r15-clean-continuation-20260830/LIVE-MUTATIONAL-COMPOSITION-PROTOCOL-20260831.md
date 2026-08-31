@@ -19,6 +19,22 @@ Joel's current direction is to stop treating prose generation as completion of a
 9. **Joel stance may guide taste, not fabricate biography.** A provisional 'Joel' persona may help with judgment, skepticism, humor, or what feels worth pursuing, but it may not invent experiences, memories, symptoms, chronology, evidence, or claims not authorized by source/owner material.
 10. **Reconciliation comes later.** After a live exploratory passage exists, compare it against the authoritative source/preservation units. Recover missing functions selectively without reinstalling the original model-shaped architecture. Any production candidate still requires normal preservation, provenance, architecture, cold-audit, owner, and detector gates.
 
+## Semantic-amnesia / opaque-collision gate
+
+Owner correction, 2026-08-31: the protocol still relapsed when a later thought interrupted an earlier one and the prose then explained the relationship between them. `A -> B interruption -> explanation of A/B relationship` is another completion attractor.
+
+Apply this before accepting each new clause:
+
+1. **Semantic amnesia after landing.** Once a clause is accepted, drop the internal semantic label, intended paragraph job, source-unit name, and explanation of why it was written. The next clause may use only the literal words now on the page plus the still-live private thought pool. Do not carry forward `this was the stopping thought`, `this was the inner-child analogue`, etc.
+2. **Opaque collision.** Two thoughts may touch, interrupt, or alter one another without the prose naming what their relationship is. A collision is allowed to remain uninterpreted.
+3. **No relationship sentence.** Reject any clause whose primary function is to classify the previous thoughts as the same problem, different problems, another version, an example, an exception, a contrast, a parallel, or a synthesis.
+4. **No bridge admission.** A new thought may not enter through a bridge whose job is to announce topic switching or spontaneity (`then there's`, `this reminds me`, `same thing`, `different problem`, `I keep mixing these up`, `what's interesting is`, etc.). This is a structural rule, not a phrase blacklist: equivalent bridge functions also fail.
+5. **Direct-entry test.** If the new thought cannot enter as content without a bridge or explanation of why it belongs, it is not ready to enter. Leave it private and continue, mutate, or stop.
+6. **Clause-level refractory period.** After a clause lands, its most obvious completion, clarification, balancing opposite, distilled insight, or explanatory consequence is temporarily ineligible. Another live possibility must compete before that family can return.
+7. **No repair reflex.** When an audit identifies a defect, do not immediately generate the inverse correction. Return to the last live text and allow the private pool to reorganize first.
+
+The aim is not randomness or incoherence. Coherence should emerge because the actual words exert pressure on what can follow, not because the model announces the conceptual relation among pre-existing semantic cards.
+
 ## Known failure modes this protocol is meant to prevent
 
 - semantic obligation -> rhetorical card sequence;
@@ -29,7 +45,10 @@ Joel's current direction is to stop treating prose generation as completion of a
 - polished bridges inserted only to make separate thoughts look planned;
 - serial processing that prevents later thoughts from changing earlier ones;
 - 'mutations' that only paraphrase existing content;
-- treating a successful mutation as something that must immediately be explained.
+- treating a successful mutation as something that must immediately be explained;
+- card succession disguised as interruption;
+- performed spontaneity (`I almost wrote...`, `I keep mixing...`) used to introduce the next semantic obligation;
+- meta-conclusions that explain how two adjacent thoughts relate.
 
 ## Current experiment rule
 
