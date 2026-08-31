@@ -26,6 +26,8 @@ Current alignment:
 
 Current recurring reconciliation at the source-recovery checkpoint: worker-to-contract `GREEN`; contract-to-owner `MATCH`; completion claim `WORKING`; terminal comparator `OWNER_OUTCOME_UNMET`. The frozen direct-owner candidate is editorially stable but has no exact Pangram result because the production surprise gate is `NO`. `SOMATIC-R15-SOURCE-MATERIALIZATION-011` is outstanding exactly once in the existing supervisor conversation; the sixth call remains unused and ineligible.
 
+`SUPERVISOR_DECISION SOMATIC-R15-PROGRESS-AUDIT-012` now falsifies the model-led preservation-clean rewrite method as a Pangram-improvement strategy. Stop refining or measuring the frozen direct-owner candidate. The required replacement is article-scale owner-language acquisition followed by transcript-led reconstruction; the exact compact request is `OWNER-LANGUAGE-ACQUISITION-PROMPT-20260831.md`. Current state remains worker-to-contract `GREEN`, contract-to-owner `MATCH`, completion `WORKING`, terminal comparator `OWNER_OUTCOME_UNMET`; the next safe substantive action requires Joel's new rough owner-source response rather than approval.
+
 The prior `SOMATIC-R15-POSTREPAIR-005` decision remains valid historical editorial evidence but is invalid as a root-task terminal decision after Joel's explicit 100%-Human correction. The exact red candidate, its preservation receipts and every valid supporting gate remain usable evidence; nothing has been restarted or discarded.
 
 Current machine records:

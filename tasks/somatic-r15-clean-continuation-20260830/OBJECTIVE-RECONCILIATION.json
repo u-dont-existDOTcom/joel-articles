@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "reconciliationId": "ORC-SOMATIC-20260830-001",
   "taskId": "somatic-r15-clean-continuation-20260830",
-  "trigger": "RECURRING_RECONCILIATION_AFTER_SOURCE_RECOVERY_DISCOVERY",
-  "reconciledAt": "2026-08-31T00:16:39Z",
+  "trigger": "PROGRESS_AUDIT_METHOD_REPLACEMENT",
+  "reconciledAt": "2026-08-31T00:34:47Z",
   "ownerSource": {
     "ownerRequestId": "OR-SOMATIC-HUMANIZATION-20260830",
     "canonicalLocator": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json",
@@ -44,7 +44,7 @@
     "targetExactPangramHuman": 1.0,
     "unmetOutcomeIds": ["RO-002", "RO-005"],
     "unknownOutcomeIds": [],
-    "summary": "The frozen direct-owner candidate passes preservation and two detector-blind reader rounds, but it has not been submitted because the production surprise gate is NO. Source recovery has found only likely narrow new direct-spoken Sky coverage so far; major SE/yoga/gentle-TRE/Light-CBT functions still lack natural-owner source. The 100% Pangram result and exact ChatGPT delivery artifacts remain unmet."
+    "summary": "Pro falsified the model-led preservation-clean rewrite strategy: detector movement was downward and the current candidate still retains a majority of known-red R15 surface. The required next method is article-scale owner-language acquisition followed by transcript-led reconstruction. The immediate required input is Joel's rough response to the frozen nine-question content prompt. The 100% Pangram result and exact ChatGPT delivery artifacts remain unmet."
   },
   "nonSatisfyingProxies": [
     "READY_FOR_OWNER_REVIEW",
@@ -147,7 +147,8 @@
     "findings": [
       "Worker-to-contract remains GREEN and contract-to-owner remains MATCH.",
       "The current frozen direct-owner candidate is editorially and preservation clean, but the surprise gate blocks spending the sixth call.",
-      "SOMATIC-R15-SOURCE-MATERIALIZATION-011 is outstanding exactly once; no prose or Pangram action may occur until its source boundary is resolved.",
+      "SOMATIC-R15-PROGRESS-AUDIT-012 rejects further refinement or measurement of the current candidate and requires owner-transcript reconstruction.",
+      "The next substantive step requires new owner source; it cannot be manufactured by another model paraphrase.",
       "The task cannot terminalize before exact Human 1.0 and hash-bound ChatGPT delivery artifacts."
     ]
   },

@@ -2,7 +2,11 @@
 
 Task: `somatic-r15-clean-continuation-20260830`
 
-Status: `SENT ONCE / AWAITING MATCHING PRO RESPONSE`
+Status: `DECIDED / OWNER-TRANSCRIPT RECONSTRUCTION REQUIRED`
+
+Matching response: `SUPERVISOR_DECISION SOMATIC-R15-PROGRESS-AUDIT-012`
+
+Exact response SHA-256: `0f089d536fa2dca7c63d5bddf2a61b5dcda50f9d4f58feb62d18c723679e5022` (`11,973` Unicode characters / `12,017` UTF-8 bytes)
 
 Branch/head at send: `task/somatic-r15-clean-continuation-20260830 @ cb2a05f`
 
@@ -20,3 +24,5 @@ Current state:
 - no prose, reservation, or paid action pending
 
 Exact next action: execute the replacement method automatically after the matching decision; ask Joel only if genuinely missing owner source is required input.
+
+Decision: the model-led preservation-clean rewrite method is falsified by the downward detector sequence. Stop measuring/refining the frozen candidate and stop treating R15 surface text as a wording substrate. Acquire one article-scale rough owner-language batch, then reconstruct from owner verbatim/minimum normalization plus at most one necessary bridge sentence per natural section. No intact R15 paragraph may remain in a previously unresourced section. The compact source request is frozen in `OWNER-LANGUAGE-ACQUISITION-PROMPT-20260831.md`.
