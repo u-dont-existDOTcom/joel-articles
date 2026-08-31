@@ -1,6 +1,6 @@
 # Somatic R15 clean continuation — recovery checkpoint
 
-Status: **WORKING / EXCLUSIVE / OWNER OUTCOME NOT YET ACHIEVED / STRATEGY RE-AUDIT HOLD**
+Status: **WORKING / EXCLUSIVE / OWNER OUTCOME NOT YET ACHIEVED / DSMR ARCHITECTURE AUDIT PENDING**
 
 Task id: `somatic-r15-clean-continuation-20260830`
 
@@ -10,7 +10,7 @@ Required branch: `task/somatic-r15-clean-continuation-20260830`
 
 Continue the same clean R15 task until an exact frozen final whole-document candidate reaches Pangram 4.0 Human fraction `1.0` while source-integrity, bidirectional preservation, semantic, architecture, cold-audit, independent-reader, link, native-object, failed-branch-contamination, and owner gates pass.
 
-Chats own substantive reasoning and prose. Codex is a mechanical executor/orchestrator only.
+Chats own substantive reasoning and prose. Codex is the mechanical executor/orchestrator and should give Joel one owner-facing launch point rather than making him relay subordinate-chat prompts.
 
 ## Registered article authority
 
@@ -50,9 +50,9 @@ That result remains the clean recovery baseline. It does not satisfy the owner o
 - R59–R65 and draft PR #72 are superseded failed working history.
 - Detector results and methodological negatives from quarantined branches may remain evidence; their prose is not a baseline, donor, or assembly source.
 
-## Current bounded Introduction reasoning source
+## Current bounded Introduction source
 
-Current non-authoritative source used only to define the present four-paragraph reasoning boundary:
+Current non-authoritative source used to define the present Introduction reasoning boundary:
 
 `articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-CANDIDATE-20260831.md`
 
@@ -64,27 +64,34 @@ SHA-256:
 
 `1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e`
 
-Current bounded target: the four prose paragraphs after `# Introduction` and before `## Your Physical State Can Change What Therapy Does`.
+The broader bounded target remains the four prose paragraphs after `# Introduction` and before `## Your Physical State Can Change What Therapy Does`.
 
-This source identity does not authorize prose editing while the strategy hold is active.
+The current possible pilot is narrower: only the first 43-word prose paragraph. Its exact target SHA-256 is:
 
-## Current controlling humanization state
+`b2cbeec01b3a209a845911c99e3d4810d3ccbcc5ebd77ee38a4e221fcb44a1c9`
+
+No prose editing is currently authorized.
+
+## Controlling humanization state
 
 Read in this order for the active bounded strategy problem:
 
 1. `HUMANIZATION-FAIL-CLOSED-CONTROL-20260831.md`
 2. `HUMANIZATION-CONTROL-STATE-20260831.json`
 3. `SUPERVISOR-CORRECTION-SOMATIC-HUMANIZATION-REASONING-004.md`
+4. `DSMR-CURRENT-RECOVERY-OVERRIDE-20260831.md`
 
 Current workflow state:
 
-`strategy_reaudit_hold`
+`awaiting_dsmr_architecture_audit_transport`
 
 Current execution permissions:
 
 ```text
+ARCHITECTURE_AUDIT_TRANSPORT_ALLOWED = true
 WRITER_TRANSPORT_ALLOWED = false
-VALIDATOR_TRANSPORT_ALLOWED = false
+SEMANTIC_AUDITOR_TRANSPORT_ALLOWED = false
+COLD_SHAPE_READER_TRANSPORT_ALLOWED = false
 PANGRAM_SUBMISSION_ALLOWED = false
 ARTICLE_MUTATION_ALLOWED = false
 CANDIDATE_PROMOTION_ALLOWED = false
@@ -94,46 +101,88 @@ CANDIDATE_PROMOTION_ALLOWED = false
 
 `SUPERVISOR-DECISION-SOMATIC-HUMANIZATION-FRESH-REASONING-003.md` and its `SOMATIC-INTRO-NULL-FIRST-*` writer/Codex launch packets are superseded and explicitly revoked.
 
-The re-audit found:
-
-1. the strategy changed generation authority without reconciling the still-controlling fail-closed route;
-2. it placed exhaustive semantic/preservation custody after drafting even though the blocking preservation gate requires the preservation-unit ledger and change whitelist before drafting;
-3. it used an insufficient deletion rule based on material being available elsewhere rather than a pre-authorized disposition;
-4. source-only deletion/relocation could not adequately explain how missing live thought movement would be created when the source realization itself is model-shaped;
-5. its validators mostly rejected bad output rather than causally changing the generation process that would produce the next pass.
+The re-audit found that strategy changed generation authority without clean reconciliation, violated the required pre-draft preservation order, delegated deletion authority too loosely, overstated what source-only topology surgery could create, and used validators mostly as rejection gates rather than as a mechanism that changed the next generation process.
 
 Do not execute those historical packets from Git history or chat memory.
 
-## Reasoning that survives
+## New owner process evidence
 
-- A compressed semantic brief can still function as a latent complete coverage plan and is not demonstrably outside the failed whole-inventory realization family.
-- The writer should not receive detector history, prior candidates, donor prose, unrelated owner exemplars, or a full anti-AI symptom checklist.
-- A complete preservation ledger must exist before drafting but can remain in semantic escrow rather than being shown wholesale to the prose writer.
-- Codex should give Joel one owner-facing launch point and mechanically orchestrate subordinate chats; Joel should not have to manually relay internal writer prompts.
-- Pangram remains downstream only.
-- A future failure gate is useful only if it changes the next generation process or information exposure, not merely rejects the result or adds more instructions.
+Joel reports a materially different model behavior that prior Somatic experiments did not actually test:
 
-## Current successor direction — not yet executable
+- use Pro or Work Ultra;
+- work on approximately one paragraph rather than the whole article;
+- explicitly allow repeated private rewrite/read/rewrite iteration before returning anything;
+- a single paragraph can take roughly ten minutes of model work;
+- Joel qualitatively estimates such results can reach roughly `70% humanized` by his own reading.
 
-The strongest current reasoning direction is **incremental semantic escrow / adaptive progressive disclosure**:
+This is preserved in:
 
-- freeze the full preservation ledger and allowed dispositions before drafting;
-- keep that complete ledger in a reasoning custodian rather than exposing it as a writer checklist;
-- reveal only one minimal currently relevant semantic/function unit to a prose writer at a time;
-- let each micro-generation append to the accumulated text without seeing the future inventory;
-- have the reasoning custodian choose later reveals in response to the live pressure created by the growing text rather than following a published complete outline;
-- if a diagnostic reader finds an earliest point where movement becomes visibly precommitted, any second attempt must change the process by truncating before that point and regenerating the suffix under a different adaptive reveal path rather than requesting a friendlier rewrite of the same complete plan.
+`OWNER-OBSERVATION-DELIBERATIVE-MICROREWRITE-20260831.md`
 
-This is a reasoning direction only. No ad-hoc execution is allowed until exact controller/writer/Codex contracts and a bounded kill condition are specified and audited against the blocking preservation rules.
+`70% humanized` is qualitative owner judgment, not a Pangram fraction.
 
-## Next safe action
+The recorded prior Pro and Extra-High Somatic trials instead used one roughly 4,500-word whole-article prompt and requested one complete whole-article realization. They therefore do not falsify the interaction `tiny scope × high-compute repeated private revision × no visible future coverage plan`.
 
-**Reasoning only:** specify and adversarially audit the successor generation mechanism. Do not write the Introduction, open a writer/validator chat, run Pangram, mutate an article candidate, change `master.html`, or publish anything until the state advances from `strategy_reaudit_hold` through a new controlling decision.
+## Current candidate strategy — not yet executable
+
+Strategy candidate:
+
+`SOMATIC-DELIBERATIVE-SEQUENTIAL-MICROREALIZATION-005.md`
+
+ID:
+
+`SOMATIC-DSMR-005`
+
+Core hypothesis: use high-compute internal iteration as a **search mechanism** on one tiny natural prose unit while preserving the complete semantic ledger externally in escrow. The writer does not self-certify fidelity. A separate semantic custodian must prove bidirectional preservation with zero unexplained substantive deltas before any cold-shape or owner gate.
+
+For the first 43-word paragraph, the following are already frozen solely so the architecture can be audited concretely:
+
+- `SOMATIC-INTRO-P1-PRESERVATION-ESCROW-001.md`
+- `SOMATIC-INTRO-P1-DELIBERATIVE-WRITER-001.md`
+- `SOMATIC-INTRO-P1-SEMANTIC-AUDITOR-001.md`
+- `SOMATIC-INTRO-P1-COLD-SHAPE-READER-001.md`
+
+They are **not executable writer/validator authority** in the current state.
+
+The proposed family permits at most two visible paragraph candidates sharing one corrective slot if it is later accepted and released. A failed first candidate changes Candidate 2's input by exactly one isolated semantic correction or one concrete cold-shape defect; Candidate 2 starts again from the authoritative source rather than patching Candidate 1. No Pangram is used during the paragraph pilot.
+
+## Independent architecture audit — exact next action
+
+The candidate strategy is not self-authorizing because the previous supervisor reasoning produced multiple logical failures.
+
+Fresh audit contract:
+
+`SOMATIC-DSMR-ARCHITECTURE-AUDIT-001.md`
+
+Single owner-facing Codex transport:
+
+`SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md`
+
+Exact next instruction for Joel to give Codex:
+
+`Execute tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md exactly.`
+
+Codex must mechanically open one genuinely fresh high-compute reasoning auditor, preferably Work Ultra if mechanically available and otherwise GPT-5.6 Sol Pro 5/5, transmit the exact internal audit payload, capture/store the typed result, then stop.
+
+**Even exact `VERDICT: ACCEPT` does not automatically authorize the paragraph writer.** Chat must inspect the audit and issue a separate execution decision first.
+
+No separate owner instruction to the fresh auditor is required; Codex orchestrates it.
+
+## Stop boundary
+
+Until the architecture audit is captured and reviewed by Chat:
+
+- do not write or rewrite the Introduction;
+- do not open the conditional writer packet;
+- do not open the semantic or cold-shape readers;
+- do not run Pangram or another detector;
+- do not mutate an article candidate or registered `master.html`;
+- do not publish/export anything.
 
 ## Historical chronology
 
-The previous detailed recovery chronology is preserved in Git history. The immediately superseded recovery blob was:
+Earlier detailed recovery chronology remains preserved in Git history. The immediately superseded recovery blob was:
 
-`f59c94f864a9713c8f7c581430b070260a416b38`
+`b83c0a471c222bed7a2bab61dbfc5fbe0e5be2d7`
 
-Use it only for historical evidence, never as a next-action selector when it conflicts with this checkpoint or current owner instruction.
+Use historical recovery blobs only as evidence, never as next-action selectors when they conflict with this checkpoint, the current control state, or Joel's current instruction.
