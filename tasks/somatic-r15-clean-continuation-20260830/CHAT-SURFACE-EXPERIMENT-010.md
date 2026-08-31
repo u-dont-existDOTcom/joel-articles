@@ -135,28 +135,28 @@ Path:
 `tasks/somatic-r15-clean-continuation-20260830/surface-experiment-010/B-current-housemate-green-plus-direct-next-day-tail.txt`
 
 Git blob:
-`8abd8a69c3888e5d36573c1e91f0efddf79200bc`
+`3d47d8e09f7f3520a1aeaccd81b0d9172f4de806`
 
 UTF-8 SHA-256:
-`eedca5b98a04a0b20c43c1424382c363f0ccc5933bf198a3d463f36e8dd63bc1`
+`0c46ea5ff3fb23cd51df4df9d0c667d65836afbcaacd23df7670998eb3ab11e4`
 
 Identity:
 
-- 347 whitespace words;
-- 1925 Unicode characters;
-- 1925 UTF-8 bytes;
+- 355 whitespace words;
+- 1969 Unicode characters;
+- 1969 UTF-8 bytes;
 - no terminal newline.
 
 Exact appended paragraph:
 
-`After a bigger intervention I wait and see what the next day is like. Did I sleep? Am I more irritable, more dissociated, or in more pain? Do I feel compelled to keep processing? Am I treating people better or worse? Ten calm minutes at the end don't tell me whether the dose was right.`
+`After a bigger intervention I wait and see what the next day is like. Sometimes that's when I notice what it did. Did I sleep? Am I more irritable, more dissociated, or in more pain? Do I feel compelled to keep processing? Am I treating people better or worse? Ten calm minutes at the end don't tell me whether the dose was right.`
 
 Tail identity:
 
-- SHA-256 `8c42722a030640d2fe6c1e7f6458e39dcd0d306e2519edc71294c94cbd6752d3`;
-- 55 whitespace words;
-- 286 Unicode characters;
-- 286 UTF-8 bytes;
+- SHA-256 `a9b3ed9717baed21209cc2fa4f75739209468cfaacb5e32210128bebbffa00de`;
+- 63 whitespace words;
+- 330 Unicode characters;
+- 330 UTF-8 bytes;
 - no terminal newline.
 
 ## Mechanical identity and source assertions
