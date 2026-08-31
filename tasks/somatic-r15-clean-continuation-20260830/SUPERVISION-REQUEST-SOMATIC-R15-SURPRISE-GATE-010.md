@@ -2,7 +2,9 @@
 
 Task: `somatic-r15-clean-continuation-20260830`
 
-Status: `AWAITING_SUPERVISOR_DECISION`
+Status: `DECIDED / SURPRISE-GATE NO / SOURCE-RECOVERY PASS AUTHORIZED`
+
+Decision response SHA-256: `6b809ab480141dcdac6012a390b9f772f20eb7a5e7f75e31f44a6ca61c736d02`.
 
 Typed completion claim: `WORKING`
 
@@ -17,4 +19,3 @@ Paid/irreversible action pending: **yes**, but not currently eligible. No reserv
 Exact next action after decision: recover and bind any newly identified direct-owner source, freeze its section/function whitelist, rebuild only affected unresourced sections, repeat all gates and a fresh reader, and reassess surprise before the final call. If no source exists, persist the exhaustion classification and determine the genuinely new method required to reach the owner outcome.
 
 Evidence: `R15-PRODUCTION-SURPRISE-GATE-20260831.md`.
-

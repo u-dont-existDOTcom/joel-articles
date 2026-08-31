@@ -64,12 +64,23 @@
         "At your next safe checkpoint, adopt its independent owner-source receipt, objective-reconciliation matrix, separate worker-to-contract and contract-to-owner alignment states, typed completion claim, and recurring reconciliation rules.",
         "Continue unaffected task work automatically."
       ]
+    },
+    {
+      "correctionId": "AUTONOMOUS-CONTINUATION-002",
+      "recordedAt": "2026-08-30T22:35:54.838Z",
+      "sha256": "0a7bc242299a0eedd829177fc0056d6815abeceb83064e4b6e36ec319e21f475",
+      "utf8Bytes": 67,
+      "relation": "reasserts_autonomous_interaction_boundary",
+      "exactExcerpts": [
+        "you don't need to ask me, just do it unless there's a reason not to"
+      ]
     }
   ],
   "workerSuppliedCopySha256": null,
   "comparison": "WORKER_COPY_ABSENT",
   "limitations": [
     "The Codex session has no repository-portable message URL; complete-message hashes and bounded exact excerpts are preserved here instead.",
-    "The latest correction makes 100% Pangram Human explicit; it does not make detector evidence sufficient without the preservation and editorial gates retained from the originating request."
+    "The 100% Pangram Human correction does not make detector evidence sufficient without the preservation and editorial gates retained from the originating request.",
+    "AUTONOMOUS-CONTINUATION-002 changes no substantive acceptance criterion; it reaffirms that routine safe continuation must not be turned into approval requests."
   ]
 }

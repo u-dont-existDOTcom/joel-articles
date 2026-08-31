@@ -12,7 +12,7 @@ Baseline: current canonical `main` at `6d78c638e1e7edd7e937e5992b328c0212dfbfe2`
 
 ## Superseding owner-outcome reconciliation
 
-The 2026-08-30 shared supervision bootstrap at Universal architecture commit `90a230e85f78063080dc627ec36a0237c3234f72` was adopted at this checkpoint. A deterministic collector recovered the originating owner message and material corrections from the raw Codex session record; the content-addressed receipt is `OWNER-SOURCE-RECEIPT.json`.
+The shared supervision bootstrap was re-read and re-adopted at the current safe checkpoint from Universal architecture branch `architecture/codex-pro-supervision-mission-control-20260830`, commit `e76dc37d7116bfe865f2fbef52299f7d05e1e86d`, bootstrap Git blob `3741d32fa2ea95fbe294281fe1b9f385a689dc42`, exact content SHA-256 `c8a490c33310afe8a3a238f1b66d31a58ccb133a7d942cce537f7d3e9c67d8ea`. The prior adoption at `90a230e8…` remains historical. A deterministic collector recovered the originating owner message and append-only material corrections from the raw Codex session record; the content-addressed receipt is `OWNER-SOURCE-RECEIPT.json`.
 
 Normalized owner outcome: continue this same clean R15 task until an exact frozen final candidate reaches Pangram 4.0 Human fraction `1.0` while all source-integrity, bidirectional preservation, semantic, architecture, cold-audit, independent-reader, link, native-object and failed-branch-contamination gates pass; then put the exact final draft and a commentable R15-to-final diff in the existing supervising ChatGPT conversation and return its link to Joel.
 
@@ -23,6 +23,8 @@ Current alignment:
 - repaired revision-2 `contract_to_owner_alignment: MATCH`;
 - typed completion claim: `WORKING`;
 - current directive: `CONTINUE_HUMANIZATION`.
+
+Current recurring reconciliation at the source-recovery checkpoint: worker-to-contract `GREEN`; contract-to-owner `MATCH`; completion claim `WORKING`; terminal comparator `OWNER_OUTCOME_UNMET`. The frozen direct-owner candidate is editorially stable but has no exact Pangram result because the production surprise gate is `NO`. `SOMATIC-R15-SOURCE-MATERIALIZATION-011` is outstanding exactly once in the existing supervisor conversation; the sixth call remains unused and ineligible.
 
 The prior `SOMATIC-R15-POSTREPAIR-005` decision remains valid historical editorial evidence but is invalid as a root-task terminal decision after Joel's explicit 100%-Human correction. The exact red candidate, its preservation receipts and every valid supporting gate remain usable evidence; nothing has been restarted or discarded.
 
