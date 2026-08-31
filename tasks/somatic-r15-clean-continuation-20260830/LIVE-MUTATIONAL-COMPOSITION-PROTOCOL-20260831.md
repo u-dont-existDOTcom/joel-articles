@@ -33,7 +33,16 @@ Apply this before accepting each new clause:
 6. **Clause-level refractory period.** After a clause lands, its most obvious completion, clarification, balancing opposite, distilled insight, or explanatory consequence is temporarily ineligible. Another live possibility must compete before that family can return.
 7. **No repair reflex.** When an audit identifies a defect, do not immediately generate the inverse correction. Return to the last live text and allow the private pool to reorganize first.
 
-The aim is not randomness or incoherence. Coherence should emerge because the actual words exert pressure on what can follow, not because the model announces the conceptual relation among pre-existing semantic cards.
+## Matched-pair / concept-extraction relapse gate
+
+Owner-directed `eval` on 2026-08-31 found another attractor: local completion can survive semantic amnesia by producing a matched pair (`someone can X / someone else can Y`) and then extracting a tidy conceptual label from the pair (`maybe the real thing is Z`).
+
+Before accepting a clause or sentence:
+
+1. **Matched-opposite quarantine.** If the immediately available continuation mirrors the prior sentence's syntax, actor, or slot structure while supplying the opposite case, it is presumptively completion-driven and temporarily ineligible. Do not write a counterexample merely because an example has created an empty complementary slot.
+2. **No concept harvesting.** After examples, contrasts, or fragments accumulate, do not immediately name the abstract concept they seem to illustrate (`presence`, `capacity`, `choice`, `regulation`, etc.). A label may appear later only if the ongoing prose independently needs the word; it cannot be the reward for completing a pattern.
+3. **Unpaired residue preference.** Prefer whatever detail, irritation, uncertainty, wording problem, or stray implication remains asymmetric after a sentence lands. Do not complete the other half of a pair for elegance.
+4. **Asymmetry can remain.** One example may stand without its counterexample; one question may remain unanswered; one thought may be more developed than another. Do not equalize them.
 
 ## Standing `eval` command
 
@@ -64,7 +73,9 @@ Thus `eval` means: **evaluate -> causal failure diagnosis -> programming/protoco
 - treating a successful mutation as something that must immediately be explained;
 - card succession disguised as interruption;
 - performed spontaneity (`I almost wrote...`, `I keep mixing...`) used to introduce the next semantic obligation;
-- meta-conclusions that explain how two adjacent thoughts relate.
+- meta-conclusions that explain how two adjacent thoughts relate;
+- matched example/counterexample symmetry generated because the first example opened a complementary slot;
+- abstract label extraction immediately after a contrast or example pair.
 
 ## Current experiment rule
 
