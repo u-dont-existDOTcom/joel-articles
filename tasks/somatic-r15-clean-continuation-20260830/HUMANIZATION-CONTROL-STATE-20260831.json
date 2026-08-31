@@ -1,78 +1,124 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "awaiting_reasoning_packet",
+  "workflow_state": "awaiting_null_first_writer_transport",
+  "last_authoritative_head_before_state_update": "82364ad06b7a9aad7f608d042b709dd27ba1e079",
   "role_boundary": {
     "reasoning_owner": "Chat",
     "mechanical_executor": "Codex",
     "writer_context_id": null,
-    "rule": "Chat performs provenance classification, semantic extraction, writing, and adversarial judgment. Codex may hash, validate, store, test, transport exact bytes, and mechanically apply an approved replacement only."
+    "rule": "Chat performs provenance classification, strategy, substantive editing/writing, discourse judgment, and semantic adjudication. Codex may verify, transport exact prompts/results, hash, store, and run deterministic syntax/provenance checks only."
   },
   "source": {
     "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-CANDIDATE-20260831.md",
     "revision": "git-blob:22126723d8c585ca8bde54f00c4ade6c925f354e",
     "sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
     "line_count": 233,
-    "changed_scope": "Introduction heading and first four prose paragraphs, lines 11-19, pending fresh Chat provenance and semantic/function packet review"
+    "changed_scope": "The four Introduction prose paragraphs after # Introduction and before ## Your Physical State Can Change What Therapy Does."
   },
   "authorized_reasoning_scope": {
-    "line_start": 11,
+    "line_start": 13,
     "line_end": 19,
     "stop_before_exact_heading": "## Your Physical State Can Change What Therapy Does",
-    "publication_edit_authorized": false
+    "publication_edit_authorized": false,
+    "detector_action_authorized": false
   },
   "provenance_spans": [
     {
-      "span_id": "SPAN-UNREVIEWED-FROZEN-01",
-      "classification": "UNKNOWN",
-      "line_start": 1,
-      "line_end": 233,
-      "sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
+      "span_id": "INTRO-HEADING-LOCK-01",
+      "classification": "UNKNOWN_FROZEN",
+      "line_start": 11,
+      "line_end": 11,
       "frozen": true,
-      "writer_access": "none",
-      "authority_note": "No executable provenance map has yet been approved by the reasoning supervisor. The complete source stays frozen until the fresh Chat packet is reviewed and mechanically bound."
+      "writer_access": "read_only",
+      "authority_note": "Heading is outside the prose repair target and must remain exact."
+    },
+    {
+      "span_id": "INTRO-AI-TARGET-01",
+      "classification": "AI_TARGET",
+      "line_start": 13,
+      "line_end": 19,
+      "frozen": false,
+      "writer_access": "source_bound_edit_only",
+      "authority_note": "Current direct owner instruction classifies the four prose paragraphs as the bounded AI-written repair target. This operational class does not credit retained wording as owner-Human evidence."
+    },
+    {
+      "span_id": "NEXT-HEADING-LOCK-01",
+      "classification": "UNKNOWN_FROZEN",
+      "line_start": 21,
+      "line_end": 21,
+      "frozen": true,
+      "writer_access": "stop_boundary_only",
+      "authority_note": "Exact stop heading and all later material are outside scope."
     }
   ],
-  "reasoning_packet_request": {
-    "packet_builder_prompt": {
-      "path": "tasks/somatic-r15-clean-continuation-20260830/FRESH-EXTRA-HIGH-PROVENANCE-SEMANTIC-PACKET-001.md",
-      "sha256": "7be120fc46fd5db643545e32d262294af82acd04e4246210b0ec18d3468cbdf9"
-    },
-    "adversarial_strategy_evidence": {
-      "path": "tasks/somatic-r15-clean-continuation-20260830/SUPERVISOR-DECISION-SOMATIC-R15-DIRECT-EXTRA-HIGH-RESULT-035.md",
-      "sha256": "956adf4e6bfcf977cdd165aa612f797475b30020ec77c03b3a32704d5e0782c6"
-    },
-    "mechanical_transport_directive": {
-      "path": "tasks/somatic-r15-clean-continuation-20260830/CHAT-TO-CODEX-BUILD-PROVENANCE-SEMANTIC-PACKET-001.md",
-      "sha256": "820e12a441f6efeaf3ccd4d64f9e5cb30ecc977bb3df3e9e956999631a3d7fbf"
-    }
+  "strategy": {
+    "decision_id": "SOMATIC-INTRO-SOURCE-BOUND-NULL-FIRST-001",
+    "family": "SOURCE-BOUND NULL-FIRST DISCOURSE-OPERATION SURGERY",
+    "disposition": "REVISE_STRATEGY",
+    "decision_path": "tasks/somatic-r15-clean-continuation-20260830/SUPERVISOR-DECISION-SOMATIC-HUMANIZATION-FRESH-REASONING-003.md",
+    "independent_conception_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-HUMANIZATION-INDEPENDENT-CONCEPTION-SNAPSHOT-003.md",
+    "writer_packet_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-NULL-FIRST-WRITER-001.md",
+    "blind_validator_packet_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-BLIND-MOTION-VALIDATOR-001.md",
+    "semantic_custodian_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-SEMANTIC-CUSTODIAN-001.md",
+    "codex_packet_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-NULL-FIRST-CODEX-001.md",
+    "generation_rule": "No complete-section regeneration and no semantic inventory is given to the writer. Cycle 1 allows source-only deletion, intact relocation, paragraph-boundary changes, and mechanically required punctuation/capitalization, with zero new lexical tokens.",
+    "primary_signal": "Blind discourse movement and owner judgment; not Pangram.",
+    "supersedes_for_generation": [
+      "tasks/somatic-r15-clean-continuation-20260830/FRESH-WRITER-LOW-STRUCTURE-BRIEF-002.md",
+      "tasks/somatic-r15-clean-continuation-20260830/FRESH-WRITER-LOW-STRUCTURE-BRIEF-002-SUPERVISOR-GATE.md"
+    ]
   },
-  "writer_packet": null,
-  "rejected_strategy_ledger": null,
+  "cycle_budget": {
+    "maximum_writer_candidates": 2,
+    "blind_validators_per_candidate": 2,
+    "semantic_audits_per_shape_survivor": 1,
+    "pangram_calls": 0,
+    "cycle_2_rule": "Allowed only after a mechanically valid first candidate and only for one exact topology interaction or one deleted protected function. At most one exact source span may become a new non-deletable lock."
+  },
   "candidate": null,
   "validation_receipt": null,
   "gates": {
-    "provenance_lock": "pending",
-    "semantic_only_writer_input": "pending",
-    "rejected_strategy_isolation": "pending",
-    "preservation": "pending",
-    "attribution": "pending",
-    "structural_recurrence": "pending",
-    "separate_adversarial_validation": "pending"
+    "provenance_lock": "approved_for_bounded_experiment",
+    "writer_information_firewall": "frozen",
+    "mechanical_edit_algebra": "pending",
+    "blind_discourse_motion_reader_1": "pending",
+    "blind_discourse_motion_reader_2": "pending",
+    "semantic_preservation": "pending",
+    "attribution_and_scope": "pending",
+    "owner_read": "pending"
   },
   "release": {
-    "candidate_visibility": "blocked",
+    "candidate_visibility": "blocked_until_internal_gates",
+    "publication_edit": "blocked",
     "detector_eligibility": "blocked",
     "blockers": [
-      "The fresh Chat provenance and semantic/function packet has not been captured and approved.",
-      "No writer packet or rejected-strategy ledger is frozen.",
-      "No candidate or separate adversarial validation exists."
+      "No fresh source-bound writer result exists.",
+      "No mechanical edit-algebra receipt exists.",
+      "No two independent blind-motion verdicts exist.",
+      "No downstream semantic/provenance audit exists.",
+      "No owner read exists."
     ]
   },
   "detector": {
-    "policy": "detector-last",
-    "status": "not-run",
+    "policy": "detector unavailable during prose-design experiment; any later call must use an exact whole-document candidate and separate authority",
+    "status": "not-authorized",
     "submitted_candidate_sha256": null,
     "result": null
+  },
+  "kill_condition": {
+    "same_context_retry_allowed": false,
+    "best_of_n_allowed": false,
+    "prompt_lengthening_allowed": false,
+    "family_killed_if": [
+      "new lexical prose or paraphrase is introduced",
+      "both blind readers locate the same remaining visible-plan defect and no source-only topology change remains",
+      "a blind-shape survivor loses or changes more than one protected function",
+      "cycle 2 repeats the same earliest visible-plan defect",
+      "semantic completion would require two or more new constraints or new connective prose",
+      "the owner rejects an internally admitted candidate as still obviously AI-shaped",
+      "a frozen span changes",
+      "detector output is used to choose an edit"
+    ]
   }
 }
