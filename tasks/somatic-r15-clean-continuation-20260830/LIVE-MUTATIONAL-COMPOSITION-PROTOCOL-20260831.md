@@ -44,6 +44,18 @@ Before accepting a clause or sentence:
 3. **Unpaired residue preference.** Prefer whatever detail, irritation, uncertainty, wording problem, or stray implication remains asymmetric after a sentence lands. Do not complete the other half of a pair for elegance.
 4. **Asymmetry can remain.** One example may stand without its counterexample; one question may remain unanswered; one thought may be more developed than another. Do not equalize them.
 
+## Dialectic / self-correction relapse gate
+
+Owner-directed `eval` on 2026-08-31 found that after matched-pair completion was blocked, the generator substituted a self-contained dialectic: `assertion -> rhetorical question -> immediate answer -> self-doubt -> concession -> provisional closure`. This is still completion, merely performed as thoughtfulness.
+
+Apply before accepting any clause:
+
+1. **Question quarantine.** A question that genuinely arises may remain on the page, but its obvious answer, clarification, or lesson is temporarily unavailable. Do not use a rhetorical question as scaffolding for the next sentence.
+2. **Self-rebuttal quarantine.** After a judgment or claim lands, do not immediately soften, defend, qualify, reverse, concede against, or adjudicate it merely because the claim creates a complementary argumentative slot. A correction may enter only when a genuinely new thought or factual conflict independently forces it.
+3. **No uncertainty-as-closure.** `I don't know`, `I'm not sure`, `maybe`, `I don't need to decide`, and similar uncertainty language do not count as openness when their function is to neatly terminate a miniature argument. Genuine uncertainty must remain consequentially unresolved rather than serving as a closing gesture.
+4. **No performed internal dialogue.** Do not simulate human thought by staging both sides of a debate inside a paragraph. Private competing thoughts may coexist; the prose does not need to dramatize the competition.
+5. **One-sided survival.** A judgment may simply stand for a while. Do not manufacture fairness, balance, or intellectual modesty around it before another live thought actually challenges it.
+
 ## Standing `eval` command
 
 Owner correction, 2026-08-31: whenever Joel says `eval`, treat it as an automatic diagnose-repair-retry command, not a request for a verdict alone.
@@ -75,7 +87,10 @@ Thus `eval` means: **evaluate -> causal failure diagnosis -> programming/protoco
 - performed spontaneity (`I almost wrote...`, `I keep mixing...`) used to introduce the next semantic obligation;
 - meta-conclusions that explain how two adjacent thoughts relate;
 - matched example/counterexample symmetry generated because the first example opened a complementary slot;
-- abstract label extraction immediately after a contrast or example pair.
+- abstract label extraction immediately after a contrast or example pair;
+- rhetorical-question scaffolding that immediately supplies its own answer;
+- self-conscious fairness or self-correction used to complete a local dialectic;
+- uncertainty language used as a polished ending rather than genuine unresolved thought.
 
 ## Current experiment rule
 
