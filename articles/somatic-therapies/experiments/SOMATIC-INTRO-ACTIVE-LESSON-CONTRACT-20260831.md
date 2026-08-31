@@ -125,7 +125,7 @@ The literal wording may differ. This check concerns the hidden package.
 
 **Repair:** block output, discard/reconstruct, and rerun the literal-candidate receipt. Do not externalize known-rule uncertainty to Joel.
 
-**Enforcement:** hard output interlock.
+**Enforcement:** hard output interlock in the task protocol, but **not by itself a guarantee** because the same Chat can mis-self-certify.
 
 ### A10 — owner utterance classification must be literal
 
@@ -139,11 +139,43 @@ The literal wording may differ. This check concerns the hidden package.
 
 **Enforcement:** process + authority.
 
+### A11 — instruction accretion is not a forcing function
+
+**Trigger:** any failure where the violated rule was already explicit before the failure.
+
+**Required behavior:** distinguish `missing rule` from `execution failure of an existing rule`. If the rule already existed, do not call a reworded/restated instruction the solution. Change the process so the failure has to cross an additional stop condition.
+
+For the current Somatic Introduction lane, that additional stop condition is **candidate quarantine plus a separate adversarial admission phase**:
+
+1. generation produces provisional/quarantined text, not an owner-facing candidate;
+2. the generation mindset ends;
+3. the Chat re-enters only as an adversarial admission checker reading the literal candidate and active contract;
+4. the checker tries to find one credible blocking violation rather than justify delivery;
+5. any credible A1/A2/A3/A6/A8 match blocks the candidate;
+6. only a candidate surviving that attack may become owner-facing.
+
+When a genuinely independent verifier is practically available, prefer it to same-context self-certification. A second self-prompt in the same saturated context is not independent verification.
+
+**FAIL if:** after an execution failure of an already-clear rule, the remedy consists only of stronger wording, another reminder, or another self-attestation with no changed stop condition.
+
+**Repair:** restore quarantine/adversarial separation and fail closed. If no independent or platform-level interlock is available, state that limitation rather than claiming the recurrence is impossible.
+
+**Enforcement:** process architecture.
+
+## Candidate quarantine and adversarial admission
+
+A freshly written Introduction is **not yet a candidate for Joel**. It is provisional text in quarantine.
+
+The Chat must end the drafting mindset before admission review. Admission review receives the literal provisional text and this contract. Its purpose is asymmetric: **find a reason to block**. Semantic fidelity or general improvement cannot compensate for one credible known-pattern violation.
+
+This is a mitigation against correlated writer/self-review failure, not a claim of formal independence. If a truly independent fresh verifier is available without making Joel supervise another writing workflow, use it. If not, do not pretend same-context review is independent.
+
 ## Pre-delivery admission gate
 
-Before showing Joel any new Introduction candidate, the Chat writer must privately execute this receipt against the **literal candidate**:
+Before showing Joel any new Introduction candidate, the Chat writer must privately execute this receipt against the **literal quarantined candidate**:
 
 ```text
+QUARANTINE STATUS: provisional / not yet owner-facing
 A1 semantic obligations not rhetorical cards: PASS / FAIL — literal evidence
 A2 architectural change, not casual surface: PASS / FAIL — literal evidence
 A3 no over-completed packaging: PASS / FAIL — literal evidence
@@ -153,6 +185,8 @@ A6 preservation did not become outline/catch-up: PASS / FAIL — literal evidenc
 A7 source-integrity/no fabricated humanity: PASS / FAIL
 A8 known Somatic failed package absent: PASS / FAIL — literal evidence
 A9 positive belief that all blocking lessons are actually cleared: PASS / FAIL — state why
+A11 adversarial checker found no credible blocking violation: PASS / FAIL — strongest attempted case against admission
+Independent verifier: PASS / FAIL / NOT_AVAILABLE — evidence if used
 Contract freshness after latest Joel correction: CURRENT / STALE
 ADMISSION: ADMITTED / BLOCKED
 ```
@@ -161,7 +195,7 @@ Every PASS must be supported by evidence from the literal candidate/process. Any
 
 `I read the lesson`, `I remembered it`, `the prompt said not to do it`, `this seems improved`, and `Joel can test it` are not PASS evidence.
 
-The gate is a **hard output interlock**, not advisory self-critique. A candidate that the Chat itself would criticize for an active known failure cannot be shown merely because owner feedback might be informative.
+The gate is a **fail-closed output interlock in the operating procedure**, not advisory self-critique. It reduces the chance of recurrence but is not a platform-enforced guarantee when the same Chat is both writer and checker.
 
 ## Owner-response classification gate
 
@@ -186,4 +220,4 @@ If Joel asks a question without supplying an editorial verdict, answer the quest
 
 This is the intended loop:
 
-**lessons stored → relevant lessons activated → one Chat attempt → hard admission gate → Joel evaluates → literal owner-response classification → correction stored when present → contract refreshed → next attempt.**
+**lessons stored → relevant lessons activated → quarantined Chat attempt → separate adversarial admission gate → Joel evaluates → literal owner-response classification → correction stored when present → contract refreshed → next attempt.**
