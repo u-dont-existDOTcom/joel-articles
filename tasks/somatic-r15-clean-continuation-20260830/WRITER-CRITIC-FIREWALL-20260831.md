@@ -27,6 +27,22 @@ The writer receives only the minimum positive state needed to compose:
 
 The writer does **not** consult the rejection catalog, source-unit coverage map, named AI patterns, detector history, prior candidate autopsies, or an explicit list of forbidden rhetorical structures while choosing the next word/sentence.
 
+### Microburst no-lookahead mode
+
+Owner-directed `eval` on 2026-08-31 found that the first firewall attempt still compressed a snag into a clean abstraction (`Bodies don't know propositions`) and then resolved that abstraction inside the same paragraph. The writer was no longer carrying the blacklist, but it was still generating at sentence/paragraph scale with enough semantic lookahead to discover and finish a compact insight.
+
+For the next exploratory passes, change the composition unit:
+
+1. **Generate in short continuation bursts.** Advance by a few words or a short clause at a time rather than deciding the whole sentence or paragraph before realizing it.
+2. **No destination variable.** The active writer state contains the literal text-so-far and the current local verbal pressure only. Do not privately decide what claim the paragraph will establish, where the sentence should land, or what the ending will mean.
+3. **No semantic recap between bursts.** Do not summarize `what I am saying now` before choosing the next burst. Continue from wording, cadence, irritation, association, or unresolved local pressure instead of a conceptual paragraph plan.
+4. **Permit ordinary connective tissue.** A burst need not contain an insight, novelty, aphorism, contrast, or argumentative move. Plain continuation is allowed. The writer does not have to make each sentence earn quotation value.
+5. **Let wording detours survive provisionally.** If a phrase produces a side irritation or linguistic question, it may occupy several bursts without being converted immediately into the article thesis.
+6. **Minimum length still applies.** Continue to at least 50 words by following available local pressure or another already-live pre-propositional seed. Do not pad a dead argument and do not terminate early with a clever line.
+7. **Critic only after the attempt exists.** The accumulated structural gates remain post-draft diagnostics. They do not steer individual bursts.
+
+This is an operational approximation inside one model context; literal information hiding is impossible. The key test is whether the resulting prose appears to have known its payoff several sentences in advance. If so, the no-lookahead mode failed even if the words are natural.
+
 ### Critic packet
 
 Only after a complete >=50-word attempt exists does the critic reopen the accumulated gates and inspect the literal passage for:
@@ -41,7 +57,8 @@ Only after a complete >=50-word attempt exists does the critic reopen the accumu
 - thesis gravity;
 - aphoristic substitution;
 - truncation / minimum-length failure;
-- semantic or provenance violations.
+- semantic or provenance violations;
+- evidence that the prose knew its payoff several sentences in advance.
 
 The critic diagnoses; it does not line-edit the rejected candidate into compliance.
 
