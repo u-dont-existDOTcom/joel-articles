@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "taskId": "somatic-r15-clean-continuation-20260830",
+  "controlId": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
+  "status": "ACTIVE_HARD_GATE",
+  "ownerCorrection": "Do not count owner-authored Human prose as model humanization; stop repeating previously falsified conversational/direct-paraphrase strategies.",
+  "currentStrategyFamily": {
+    "familyId": "SOMATIC-HUMANIZATION-DIRECT-PARAPHRASE-CONVERSATIONALIZATION",
+    "state": "FAILED_AND_FORBIDDEN",
+    "descendantContinuationAllowed": false,
+    "fingerprint": [
+      "same source conceptual cards or order",
+      "sentence-by-sentence or paragraph-by-paragraph paraphrase",
+      "conversational surface substitutions",
+      "contractions or first-person skin as primary mechanism",
+      "local cadence variation without structural reconstruction",
+      "preserved significance staging, explanatory aftercare, balanced taxonomy, or tidy setup-qualification-conclusion rhythm"
+    ],
+    "nonNovelChanges": [
+      "synonyms",
+      "sentence length",
+      "punctuation",
+      "contractions",
+      "generic transitions",
+      "first-person conversion",
+      "surface informality"
+    ]
+  },
+  "sourceClasses": [
+    "OWNER_LOCK",
+    "AI_TARGET",
+    "UNKNOWN_FROZEN"
+  ],
+  "generationInputPolicy": {
+    "writerPrimaryInput": [
+      "semantic_function_packet",
+      "exact_owner_lock_text_needed_for_continuity",
+      "minimal_immediate_article_context"
+    ],
+    "withholdFromWriter": [
+      "rejected_candidate_corpus",
+      "detector_phrase_menu",
+      "original_ai_target_realization_after_semantic_packet_is_frozen"
+    ],
+    "validatorReceivesNegativeEvidence": true
+  },
+  "requiredGates": {
+    "provenance": "PENDING",
+    "semanticPacket": "PENDING",
+    "failedStrategyLineage": "PENDING",
+    "attributionAndPreservation": "PENDING",
+    "independentDiagnosticValidation": "PENDING"
+  },
+  "blockedActions": {
+    "ungatedHumanization": true,
+    "pangramSubmission": true,
+    "paidDetectorCall": true,
+    "candidatePromotion": true
+  },
+  "detectorPolicy": "DETECTOR_LAST",
+  "currentIntroductionScope": {
+    "knownAiShapeRepairBoundary": "first four Introduction paragraphs ending immediately before ## Your Physical State Can Change What Therapy Does",
+    "laterMaterial": "FROZEN_UNLESS_SEPARATELY_PROVENANCED",
+    "priorMixedChatRewrite": "NOT_DETECTOR_ELIGIBLE"
+  },
+  "nextAuthorizedCycle": [
+    "build provenance map",
+    "freeze semantic/function packet for AI_TARGET only",
+    "generate one fresh realization without original AI prose as primary input",
+    "run separate diagnostic-only lineage and preservation validation",
+    "owner inspection",
+    "detector only after all gates pass"
+  ]
+}
