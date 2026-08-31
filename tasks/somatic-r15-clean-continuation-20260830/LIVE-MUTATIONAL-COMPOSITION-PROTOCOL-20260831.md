@@ -35,6 +35,22 @@ Apply this before accepting each new clause:
 
 The aim is not randomness or incoherence. Coherence should emerge because the actual words exert pressure on what can follow, not because the model announces the conceptual relation among pre-existing semantic cards.
 
+## Standing `eval` command
+
+Owner correction, 2026-08-31: whenever Joel says `eval`, treat it as an automatic diagnose-repair-retry command, not a request for a verdict alone.
+
+Required sequence:
+
+1. Evaluate the literal current candidate for human/AI shape.
+2. If any credible AI-shaped defect remains, identify the strongest defect.
+3. Diagnose **why the generation process produced that defect** — name the attractor or protocol failure, not merely the bad sentence.
+4. Change the active generation mechanism so the same failure is less likely on the next attempt. Do not merely add a wording prohibition or generate the direct opposite of the defect.
+5. Persist any genuinely reusable protocol correction to GitHub before treating it as durable.
+6. Immediately generate the next candidate using the repaired mechanism unless Joel explicitly asks to stop.
+7. Do not claim success merely because the new candidate differs. The next `eval` repeats this full loop.
+
+Thus `eval` means: **evaluate -> causal failure diagnosis -> programming/protocol repair -> retry**.
+
 ## Known failure modes this protocol is meant to prevent
 
 - semantic obligation -> rhetorical card sequence;
