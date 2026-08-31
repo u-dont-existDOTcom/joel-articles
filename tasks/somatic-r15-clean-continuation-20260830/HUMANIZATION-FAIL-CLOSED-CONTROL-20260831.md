@@ -1,6 +1,6 @@
 # Somatic R15 — Fail-Closed Humanization Control
 
-**Status:** CONTROLLING TASK-LOCAL CORRECTION / MECHANICALLY ENFORCED AT `prewrite_ready`
+**Status:** CONTROLLING TASK-LOCAL CORRECTION / MECHANICALLY ENFORCED AT `awaiting_reasoning_packet`
 **Date:** 2026-08-31  
 **Task:** `somatic-r15-clean-continuation-20260830`  
 **Owner correction:** do not count owner-authored Human prose as model humanization; stop repeating previously falsified conversational/paraphrase strategies.
@@ -230,13 +230,14 @@ No further "cold pass" on the same mixed prose is an authorized strategy.
 
 The prose rules above are now projected into separate hash-bound artifacts:
 
-- `HUMANIZATION-CONTROL-STATE-20260831.json` — exact provenance coverage, state machine, release block, and detector ordering;
-- `INTRO-SEMANTIC-WRITER-INPUT-20260831.json` — the only input permitted to the Chat writer for this Introduction cycle;
-- `INTRO-REJECTED-STRATEGY-LEDGER-20260831.json` — withheld from the writer and supplied only to the separate adversarial Chat;
+- `HUMANIZATION-CONTROL-STATE-20260831.json` — exact source coverage, state machine, release block, and detector ordering;
+- `FRESH-EXTRA-HIGH-PROVENANCE-SEMANTIC-PACKET-001.md` — the reasoning-only Chat packet-builder contract;
+- `SUPERVISOR-DECISION-SOMATIC-R15-DIRECT-EXTRA-HIGH-RESULT-035.md` — rejected-strategy evidence that the eventual writer must not receive;
+- `CHAT-TO-CODEX-BUILD-PROVENANCE-SEMANTIC-PACKET-001.md` — exact mechanical transport contract;
 - `../../scripts/validate_humanization_control.py` — mechanical identity/state validator;
 - `../../tests/test_validate_humanization_control.py` — causal mutations for provenance, input leakage, strategy coverage, attribution, structural recurrence, adversarial independence, fail-closed release, and detector order.
 
-Current workflow state is `prewrite_ready`. That is a valid control state but not a candidate pass: candidate visibility and detector eligibility remain blocked. No earlier whole-article revoice or mixed Chat rewrite is grandfathered into this cycle.
+Current workflow state is `awaiting_reasoning_packet`. Every source byte is classified `UNKNOWN`, frozen, and withheld until the fresh Chat packet is reviewed and bound. No Codex-authored provenance decision or semantic packet is accepted. Candidate visibility and detector eligibility remain blocked, and no earlier whole-article revoice or mixed Chat rewrite is grandfathered into this cycle.
 
 Validate mechanically from the repository root:
 

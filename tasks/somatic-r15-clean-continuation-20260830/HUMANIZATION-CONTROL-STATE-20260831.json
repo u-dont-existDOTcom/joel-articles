@@ -1,71 +1,60 @@
 {
   "schema_version": 1,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "prewrite_ready",
+  "workflow_state": "awaiting_reasoning_packet",
   "role_boundary": {
     "reasoning_owner": "Chat",
     "mechanical_executor": "Codex",
     "writer_context_id": null,
-    "rule": "Chat performs provenance classification, semantic extraction, writing, and adversarial judgment. Codex may hash, validate, store, test, and mechanically apply an approved replacement only."
+    "rule": "Chat performs provenance classification, semantic extraction, writing, and adversarial judgment. Codex may hash, validate, store, test, transport exact bytes, and mechanically apply an approved replacement only."
   },
   "source": {
-    "path": "articles/somatic-therapies/experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md",
-    "revision": "git-blob:e6210eb2742de156f0bd7b01fdde269f9b9625c6",
-    "sha256": "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee",
-    "line_count": 223,
-    "changed_scope": "Introduction lines 15-21: the first four prose paragraphs, ending before Your Physical State Can Change What Therapy Does"
+    "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-CANDIDATE-20260831.md",
+    "revision": "git-blob:22126723d8c585ca8bde54f00c4ade6c925f354e",
+    "sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
+    "line_count": 233,
+    "changed_scope": "Introduction heading and first four prose paragraphs, lines 11-19, pending fresh Chat provenance and semantic/function packet review"
+  },
+  "authorized_reasoning_scope": {
+    "line_start": 11,
+    "line_end": 19,
+    "stop_before_exact_heading": "## Your Physical State Can Change What Therapy Does",
+    "publication_edit_authorized": false
   },
   "provenance_spans": [
     {
-      "span_id": "SPAN-FROZEN-BEFORE-01",
+      "span_id": "SPAN-UNREVIEWED-FROZEN-01",
       "classification": "UNKNOWN",
       "line_start": 1,
-      "line_end": 14,
-      "sha256": "b8786edf5def086e68b35ce0dbbbd0db3cb6e3b9cba090a3ec76eeab278a242e",
+      "line_end": 233,
+      "sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
       "frozen": true,
       "writer_access": "none",
-      "authority_note": "Outside the authorized rewrite boundary; frozen regardless of likely provenance."
-    },
-    {
-      "span_id": "SPAN-INTRO-AI-01",
-      "classification": "AI_TARGET",
-      "line_start": 15,
-      "line_end": 21,
-      "sha256": "89af288ec262e062a1c2e0201d4ec8e8944dc36df051ff6a321264f85a413fe1",
-      "frozen": false,
-      "writer_access": "semantics-only",
-      "authority_note": "The realization is the diagnosed AI-shaped target. Owner-derived concepts remain protected as semantic and attribution constraints, not falsely claimed verbatim locks."
-    },
-    {
-      "span_id": "SPAN-FROZEN-AFTER-01",
-      "classification": "UNKNOWN",
-      "line_start": 22,
-      "line_end": 223,
-      "sha256": "8dd56eb402a51b9f1289ffb6a1b1058ad599a27fa9063803f88d784220872366",
-      "frozen": true,
-      "writer_access": "none",
-      "authority_note": "Everything from the blank line before the next heading through the end of r15 is outside scope and frozen."
+      "authority_note": "No executable provenance map has yet been approved by the reasoning supervisor. The complete source stays frozen until the fresh Chat packet is reviewed and mechanically bound."
     }
   ],
-  "writer_packet": {
-    "path": "tasks/somatic-r15-clean-continuation-20260830/INTRO-SEMANTIC-WRITER-INPUT-20260831.json",
-    "sha256": "d08702f448e30b727a0f380bf81339bd55c9366ee8ab7214a34a79118f80df61",
-    "source_prose_withheld": true,
-    "rejected_strategy_ledger_withheld": true,
-    "semantic_units_frozen": true
+  "reasoning_packet_request": {
+    "packet_builder_prompt": {
+      "path": "tasks/somatic-r15-clean-continuation-20260830/FRESH-EXTRA-HIGH-PROVENANCE-SEMANTIC-PACKET-001.md",
+      "sha256": "7be120fc46fd5db643545e32d262294af82acd04e4246210b0ec18d3468cbdf9"
+    },
+    "adversarial_strategy_evidence": {
+      "path": "tasks/somatic-r15-clean-continuation-20260830/SUPERVISOR-DECISION-SOMATIC-R15-DIRECT-EXTRA-HIGH-RESULT-035.md",
+      "sha256": "956adf4e6bfcf977cdd165aa612f797475b30020ec77c03b3a32704d5e0782c6"
+    },
+    "mechanical_transport_directive": {
+      "path": "tasks/somatic-r15-clean-continuation-20260830/CHAT-TO-CODEX-BUILD-PROVENANCE-SEMANTIC-PACKET-001.md",
+      "sha256": "820e12a441f6efeaf3ccd4d64f9e5cb30ecc977bb3df3e9e956999631a3d7fbf"
+    }
   },
-  "rejected_strategy_ledger": {
-    "path": "tasks/somatic-r15-clean-continuation-20260830/INTRO-REJECTED-STRATEGY-LEDGER-20260831.json",
-    "sha256": "a98ded01d8239d5fbe0b1c4bed49a6535ad2d78b393f3eb236ecf62dbee8314f",
-    "writer_withheld": true,
-    "adversarial_validator_only": true
-  },
+  "writer_packet": null,
+  "rejected_strategy_ledger": null,
   "candidate": null,
   "validation_receipt": null,
   "gates": {
-    "provenance_lock": "pass",
-    "semantic_only_writer_input": "pass",
-    "rejected_strategy_isolation": "pass",
+    "provenance_lock": "pending",
+    "semantic_only_writer_input": "pending",
+    "rejected_strategy_isolation": "pending",
     "preservation": "pending",
     "attribution": "pending",
     "structural_recurrence": "pending",
@@ -75,10 +64,9 @@
     "candidate_visibility": "blocked",
     "detector_eligibility": "blocked",
     "blockers": [
-      "No candidate has been written by a Chat writer from the semantic-only packet.",
-      "Preservation and attribution checks have not run.",
-      "Structural recurrence has not been checked against the rejected-strategy ledger.",
-      "A separate adversarial Chat has not attempted to prove recurrence."
+      "The fresh Chat provenance and semantic/function packet has not been captured and approved.",
+      "No writer packet or rejected-strategy ledger is frozen.",
+      "No candidate or separate adversarial validation exists."
     ]
   },
   "detector": {

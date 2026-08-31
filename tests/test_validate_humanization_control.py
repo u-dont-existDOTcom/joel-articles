@@ -166,6 +166,33 @@ class ControlFixture:
         self.control["writer_packet"] = self._record("writer.json")
         self.control["rejected_strategy_ledger"] = self._record("ledger.json")
 
+    def await_reasoning_packet(self) -> None:
+        for name in ("builder.md", "strategy.md", "transport.md"):
+            (self.root / name).write_text(f"frozen {name}\n", encoding="utf-8")
+        source = (self.root / "source.md").read_bytes()
+        self.control["workflow_state"] = "awaiting_reasoning_packet"
+        self.control["provenance_spans"] = [
+            {
+                "span_id": "UNKNOWN-ALL",
+                "classification": "UNKNOWN",
+                "line_start": 1,
+                "line_end": 3,
+                "sha256": digest(source),
+                "frozen": True,
+                "writer_access": "none",
+                "authority_note": "Awaiting Chat provenance review.",
+            }
+        ]
+        self.control["reasoning_packet_request"] = {
+            "packet_builder_prompt": self._record("builder.md"),
+            "adversarial_strategy_evidence": self._record("strategy.md"),
+            "mechanical_transport_directive": self._record("transport.md"),
+        }
+        self.control["writer_packet"] = None
+        self.control["rejected_strategy_ledger"] = None
+        self.control["gates"] = {name: "pending" for name in MODULE.GATE_NAMES}
+        self.control["release"]["blockers"] = ["Chat reasoning packet is pending."]
+
     def advance_to_candidate(self) -> None:
         candidate = b"Fresh candidate sentence.\n"
         (self.root / "candidate.md").write_bytes(candidate)
@@ -242,6 +269,29 @@ class HumanizationControlTests(unittest.TestCase):
 
     def test_valid_prewrite_control_passes_while_release_stays_blocked(self) -> None:
         self.assertEqual(validate_control(self.fixture.control, self.root), [])
+
+    def test_valid_pending_reasoning_state_freezes_every_source_byte(self) -> None:
+        self.fixture.await_reasoning_packet()
+        self.assertEqual(validate_control(self.fixture.control, self.root), [])
+
+    def test_pending_reasoning_state_rejects_executor_preclassification(self) -> None:
+        self.fixture.await_reasoning_packet()
+        self.fixture.control["provenance_spans"][0].update(
+            classification="AI_TARGET",
+            frozen=False,
+            writer_access="semantics-only",
+        )
+        self.assertIn("control.pending-provenance", self.codes())
+
+    def test_pending_reasoning_state_rejects_unreviewed_writer_input(self) -> None:
+        self.fixture.await_reasoning_packet()
+        self.fixture.control["writer_packet"] = self.fixture._record("writer.json")
+        self.assertIn("control.pending-inputs", self.codes())
+
+    def test_pending_reasoning_state_binds_request_artifacts(self) -> None:
+        self.fixture.await_reasoning_packet()
+        (self.root / "builder.md").write_text("drift\n", encoding="utf-8")
+        self.assertIn("reasoning_packet_request.packet_builder_prompt.hash", self.codes())
 
     def test_source_hash_mutation_fails(self) -> None:
         self.fixture.control["source"]["sha256"] = "0" * 64

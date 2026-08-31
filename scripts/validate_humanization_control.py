@@ -20,7 +20,12 @@ from typing import Any, Iterable
 
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 ID_RE = re.compile(r"^[A-Za-z][A-Za-z0-9-]*$")
-ALLOWED_STATES = {"prewrite_ready", "candidate_validated", "detector_recorded"}
+ALLOWED_STATES = {
+    "awaiting_reasoning_packet",
+    "prewrite_ready",
+    "candidate_validated",
+    "detector_recorded",
+}
 ALLOWED_PROVENANCE = {"OWNER_LOCK", "AI_TARGET", "UNKNOWN"}
 GATE_NAMES = {
     "provenance_lock",
@@ -133,6 +138,32 @@ def _load_bound_json(
         return path, None
 
 
+def _validate_bound_file(
+    root: Path,
+    record: object,
+    prefix: str,
+    findings: list[dict[str, str]],
+) -> None:
+    if not isinstance(record, dict):
+        findings.append(_finding(f"{prefix}.record", f"{prefix} must be an object."))
+        return
+    path = _resolve(root, record.get("path"))
+    expected = record.get("sha256")
+    if path is None:
+        findings.append(_finding(f"{prefix}.path", f"{prefix}.path must be a safe relative path."))
+        return
+    if not isinstance(expected, str) or not SHA256_RE.fullmatch(expected):
+        findings.append(_finding(f"{prefix}.sha256", f"{prefix}.sha256 must be lowercase SHA-256."))
+        return
+    try:
+        actual = _sha256(path.read_bytes())
+    except OSError as exc:
+        findings.append(_finding(f"{prefix}.read", f"Could not read {prefix}: {exc}"))
+        return
+    if actual != expected:
+        findings.append(_finding(f"{prefix}.hash", f"{prefix} hash does not match the frozen artifact."))
+
+
 def _walk(value: object, trail: tuple[str, ...] = ()) -> Iterable[tuple[tuple[str, ...], object]]:
     yield trail, value
     if isinstance(value, dict):
@@ -154,7 +185,11 @@ def _ngrams(tokens: list[str], width: int = 8) -> set[tuple[str, ...]]:
 
 
 def _validate_source_and_provenance(
-    data: dict[str, Any], root: Path, findings: list[dict[str, str]]
+    data: dict[str, Any],
+    root: Path,
+    findings: list[dict[str, str]],
+    *,
+    require_ai_target: bool = True,
 ) -> tuple[bytes, set[str]]:
     source = data.get("source")
     if not isinstance(source, dict):
@@ -221,8 +256,10 @@ def _validate_source_and_provenance(
             findings.append(_finding("control.provenance.authority", f"{prefix}.authority_note must be nonblank."))
     if next_line != len(lines) + 1:
         findings.append(_finding("control.provenance.coverage", "Provenance spans must cover every source line exactly once."))
-    if not ai_ids:
+    if require_ai_target and not ai_ids:
         findings.append(_finding("control.provenance.no-target", "At least one AI_TARGET span is required."))
+    if not require_ai_target and ai_ids:
+        findings.append(_finding("control.pending-provenance", "Pending reasoning state cannot pre-classify an AI_TARGET."))
     return source_bytes, ai_ids
 
 
@@ -460,18 +497,41 @@ def validate_control(data: object, root: Path) -> list[dict[str, str]]:
     if not isinstance(roles, dict) or roles.get("reasoning_owner") != "Chat" or roles.get("mechanical_executor") != "Codex" or not _nonblank(roles.get("rule")):
         findings.append(_finding("control.roles", "The role boundary must assign reasoning to Chat and mechanical execution to Codex."))
 
-    source_bytes, ai_ids = _validate_source_and_provenance(data, root, findings)
-    _, writer = _load_bound_json(root, data.get("writer_packet"), "writer_packet", findings)
-    writer_record = data.get("writer_packet")
-    if not isinstance(writer_record, dict) or any(writer_record.get(field) is not True for field in ("source_prose_withheld", "rejected_strategy_ledger_withheld", "semantic_units_frozen")):
-        findings.append(_finding("writer.isolation", "Writer isolation declarations must all be true."))
-    _validate_writer_packet(writer, ai_ids, source_bytes, data, findings)
+    awaiting_reasoning = state == "awaiting_reasoning_packet"
+    source_bytes, ai_ids = _validate_source_and_provenance(
+        data,
+        root,
+        findings,
+        require_ai_target=not awaiting_reasoning,
+    )
+    family_ids: set[str] = set()
+    structural_checks: set[str] = set()
+    if awaiting_reasoning:
+        request = data.get("reasoning_packet_request")
+        required_records = {
+            "packet_builder_prompt",
+            "adversarial_strategy_evidence",
+            "mechanical_transport_directive",
+        }
+        if not isinstance(request, dict) or set(request) != required_records:
+            findings.append(_finding("control.reasoning-request", "Pending state must bind exactly the three reasoning-packet request artifacts."))
+        else:
+            for name in sorted(required_records):
+                _validate_bound_file(root, request[name], f"reasoning_packet_request.{name}", findings)
+        if data.get("writer_packet") is not None or data.get("rejected_strategy_ledger") is not None:
+            findings.append(_finding("control.pending-inputs", "Pending state cannot contain an unreviewed writer packet or rejected-strategy ledger."))
+    else:
+        _, writer = _load_bound_json(root, data.get("writer_packet"), "writer_packet", findings)
+        writer_record = data.get("writer_packet")
+        if not isinstance(writer_record, dict) or any(writer_record.get(field) is not True for field in ("source_prose_withheld", "rejected_strategy_ledger_withheld", "semantic_units_frozen")):
+            findings.append(_finding("writer.isolation", "Writer isolation declarations must all be true."))
+        _validate_writer_packet(writer, ai_ids, source_bytes, data, findings)
 
-    _, ledger = _load_bound_json(root, data.get("rejected_strategy_ledger"), "rejected_strategy_ledger", findings)
-    ledger_record = data.get("rejected_strategy_ledger")
-    if not isinstance(ledger_record, dict) or ledger_record.get("writer_withheld") is not True or ledger_record.get("adversarial_validator_only") is not True:
-        findings.append(_finding("ledger.isolation", "Rejected-strategy ledger must be withheld from the writer and reserved for the validator."))
-    family_ids, structural_checks = _validate_ledger(ledger, findings)
+        _, ledger = _load_bound_json(root, data.get("rejected_strategy_ledger"), "rejected_strategy_ledger", findings)
+        ledger_record = data.get("rejected_strategy_ledger")
+        if not isinstance(ledger_record, dict) or ledger_record.get("writer_withheld") is not True or ledger_record.get("adversarial_validator_only") is not True:
+            findings.append(_finding("ledger.isolation", "Rejected-strategy ledger must be withheld from the writer and reserved for the validator."))
+        family_ids, structural_checks = _validate_ledger(ledger, findings)
 
     gates = data.get("gates")
     if not isinstance(gates, dict) or set(gates) != GATE_NAMES:
@@ -483,7 +543,16 @@ def validate_control(data: object, root: Path) -> list[dict[str, str]]:
         findings.append(_finding("detector.policy", "Detector policy must be detector-last."))
         detector = {}
 
-    if state == "prewrite_ready":
+    if state == "awaiting_reasoning_packet":
+        if any(gates.get(gate) != "pending" for gate in GATE_NAMES):
+            findings.append(_finding("control.pending-gates", "Every gate must remain pending until the Chat packet is reviewed and frozen."))
+        if data.get("candidate") is not None or data.get("validation_receipt") is not None:
+            findings.append(_finding("control.pending-candidate", "Pending reasoning state cannot contain a candidate or validation receipt."))
+        if not isinstance(release, dict) or release.get("candidate_visibility") != "blocked" or release.get("detector_eligibility") != "blocked" or not release.get("blockers"):
+            findings.append(_finding("control.fail-closed", "Pending reasoning state must block candidate visibility and detector eligibility with reasons."))
+        if detector.get("status") != "not-run" or detector.get("submitted_candidate_sha256") is not None or detector.get("result") is not None:
+            findings.append(_finding("detector.early", "Detector must not run while the reasoning packet is pending."))
+    elif state == "prewrite_ready":
         for gate in GATE_NAMES:
             expected = "pass" if gate in PREWRITE_PASS else "pending"
             if gates.get(gate) != expected:
