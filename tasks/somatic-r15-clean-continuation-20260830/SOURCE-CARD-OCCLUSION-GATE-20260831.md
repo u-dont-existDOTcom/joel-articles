@@ -32,10 +32,26 @@ Apply this across the last 2–4 accepted sentences, not only to the proposed ne
 4. **Residue over reinforcement.** After one reinforcing move, prefer an unassimilated detail, wording irritation, genuine complication, changed premise, or another thought that alters the pressure. If none exists, stop.
 5. **Do not manufacture opposition.** Breaking convergence does not mean inserting a counterargument, caveat, matched opposite, rhetorical question, or staged uncertainty. Those remain separately quarantined. Interruption must come from genuinely live residue, not an anti-thesis slot.
 6. **No retroactive arc discovery.** After several sentences exist, do not reinterpret them into a hidden coherent argument and then write the sentence that completes that argument. If the emerging arc suddenly looks elegant, treat the elegance itself as evidence of gravitational capture and inspect whether the last sentence should be removed.
-7. **Short survival is valid.** A two-sentence fragment that leaves pressure unresolved is preferable to four sentences that all make the same point increasingly inevitable.
+7. **Short survival is valid.** A two-sentence fragment that leaves pressure unresolved is preferable to four sentences that all make the same point increasingly inevitable — **unless the current owner task has an explicit minimum-length requirement**, in which case use the anti-truncation routing below rather than padding the same thread.
+
+## Anti-truncation / minimum-length routing
+
+Owner-directed `eval` on 2026-08-31 found that the cumulative-convergence gate could itself become an escape hatch. The generator stopped at 16 words and substituted a polished aphorism (`Apparently memory has a basement`) for sustained composition, despite the experiment requiring at least 50 words.
+
+When a minimum length is active:
+
+1. **The length floor is a real execution constraint.** Do not return a shorter fragment and call it successful restraint.
+2. **No padding the current thread.** If the live thread has reached its stopping point, do not add examples, explanations, consequences, qualifications, or rhetorical flourish merely to reach the floor.
+3. **Preload a tiny multi-seed pool.** Before prose begins, hold two or three independently live mutations/fragments from the allowed exploratory field. These are not a coverage checklist and need not correspond one-to-one with source obligations.
+4. **Switch only to an already-live seed.** If one thread dies before the length floor, another pre-existing live mutation may take the microphone without a bridge or explanation of why it belongs. Do not invent a new source card just because more words are needed.
+5. **No bridge tax.** A switch does not require `another thing`, `this reminds me`, `on the other hand`, or other transition machinery. Let juxtaposition stand if the literal prose remains intelligible.
+6. **No aphorism substitution.** Compact cleverness, metaphor, or quotable closure does not compensate for failing the requested length or for lack of sustained thought.
+7. **Window audit still applies.** Reaching the floor does not authorize cumulative convergence. The resulting 50+ word passage must still survive the 2–4 sentence directional-sign audit.
 
 ## `eval` consequence
 
 When an `eval` finds card succession, diagnose whether the cause was latent source coverage rather than merely a bad transition. If so, restart from the last live seed with all unreconciled source topics occluded from topic selection.
 
 When an `eval` finds a smooth rhetorical descent despite locally acceptable sentences, run the cumulative thesis-gravity audit. Delete back to the last sentence before the window became one-directional, then resume only if a genuinely different live pressure exists. Do not repair the passage by inserting an artificial counterpoint.
+
+When an `eval` finds the candidate below an active minimum length, treat that as a process failure. Re-enter from a small pre-existing mutation pool and satisfy the floor without padding a dead thread or reopening source coverage.
