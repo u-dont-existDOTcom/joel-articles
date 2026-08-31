@@ -1,0 +1,118 @@
+{
+  "schema": "somatic-fresh-pro-whole-article-revoice-transport-receipt-v1",
+  "task_id": "somatic-r15-clean-continuation-20260830",
+  "execution_id": "SOMATIC-R15-WHOLE-ARTICLE-REVOICE-001",
+  "strategy": "somatic-r15-whole-article-fresh-pro-revoice-v1",
+  "state": "WAITING_FOR_REASONING_REVIEW",
+  "repository": "u-dont-existDOTcom/joel-articles",
+  "branch": "task/somatic-r15-clean-continuation-20260830",
+  "starting_article_branch_head": "e881ba87a9fa97038ddae986f65496b159370a0a",
+  "ending_article_branch_head_before_transport_artifact_commit": "e881ba87a9fa97038ddae986f65496b159370a0a",
+  "input_candidate": {
+    "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-CANDIDATE-20260831.md",
+    "git_blob": "22126723d8c585ca8bde54f00c4ade6c925f354e",
+    "utf8_sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
+    "extraction_start_line": "# Introduction",
+    "extraction_end_line": "**[EXISTING SKY HYPNOSIS NATIVE EMBED — exact object retained in HTML promotion]**",
+    "extracted_article_utf8_sha256": "7b96aa6e4218039b57016b48019f44c84d3b4df957ff1b483ee540e8ba74101a",
+    "extracted_article_utf8_bytes": 24014
+  },
+  "prompt": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/fresh-pro-whole-article-revoice-001/PROMPT.md",
+    "git_blob": "fae1b056417bffc8f33f3d2aa8375240efc6cfa6",
+    "utf8_sha256": "3180bc04a7fafa43f1942d6f6f6031530671f3a9a2ffdabf4d71d8d2620375a2",
+    "utf8_bytes": 28132,
+    "unicode_characters": 28020,
+    "whitespace_words": 4477,
+    "terminal_newline": true,
+    "user_messages_sent": 1
+  },
+  "transport": {
+    "fresh_chat_url": "https://chatgpt.com/c/6a955b02-8e5c-83ea-b714-480b771d6d04",
+    "account_alias": null,
+    "account_identity_note": "Authenticated local ChatGPT account; no non-secret alias was exposed by the controller.",
+    "visibly_selected_model": "GPT-5.6 Sol",
+    "visibly_selected_mode": "Pro, 5 of 5",
+    "request_submitted_at": "2026-08-31T10:44:15.007Z",
+    "response_completed_at": "2026-08-31T10:55:55.439Z",
+    "continuation_required": false,
+    "continuation_messages_sent": 0,
+    "transport_deviations": [
+      "ChatGPT initially represented the long paste as a text-field attachment. The controller used the UI's Show in text field action before submission. Composer innerText with the UI-only trailing presentation newline removed matched the exact prompt SHA-256, and the prompt was submitted once."
+    ]
+  },
+  "raw_responses": [
+    {
+      "path": "tasks/somatic-r15-clean-continuation-20260830/fresh-pro-whole-article-revoice-001/RAW-RESPONSE-1.md",
+      "git_blob": "3ca4721cb47f0ff668d0d1458a4262112fb499ab",
+      "utf8_sha256": "b8df564fcc9b50a6c23dc33307d40278bb01ac425a76f6bd8b47c4fc4282db56",
+      "utf8_bytes": 24309,
+      "unicode_characters": 24211,
+      "whitespace_words": 3946,
+      "terminal_newline": true,
+      "begins_with_introduction_heading": true
+    }
+  ],
+  "captured_response_sequence": {
+    "contains_final_required_placeholder": true,
+    "markdown_heading_sequence": [
+      "# Introduction",
+      "## Your Physical State Can Change What Therapy Does",
+      "## Don’t be so serious, you silly willy!",
+      "# Where I Would Start",
+      "# Somatic Work and Inner-Child Reparenting",
+      "# Building Enough Safety to Stay Present",
+      "## Somatic Experiencing",
+      "## Trauma-Sensitive / Restorative Yoga",
+      "## Gentle Shaking / TRE",
+      "# What I Use Between Deeper Sessions",
+      "## EFT / Tapping",
+      "## [Shaking Qigong](http://shakingclass.innersignalselfhypnosis.com/) / Shaking Medicine",
+      "## A Discharge → Settle Sequence",
+      "# When the Body Knows More Than the Story",
+      "## Brainspotting",
+      "# When I Can Point to the Memory",
+      "## EMDR",
+      "# Making Sense of What Changed",
+      "## Light CBT / Narrative Integration",
+      "# How I Know Whether It Actually Helped",
+      "# Sky Hypnosis and Vagal Blitz"
+    ],
+    "url_multiset_count": 16,
+    "url_multiset": {
+      "http://dearmor.u-dont-exist.com/": 1,
+      "http://hypnosis.u-dont-exist.com/": 1,
+      "http://innerchild.u-dont-exist.com/": 2,
+      "http://loveyhuasca.info": 1,
+      "http://shakingclass.innersignalselfhypnosis.com/": 3,
+      "http://sleep.u-dont-exist.com/": 1,
+      "http://traumahealing.org/": 1,
+      "https://ibogaqueen.substack.com/p/try-this-10-second-sky-hypnosis-bodymind": 1,
+      "https://ibogaqueen.substack.com/p/vagal-blitz-breathwork-gives-best": 1,
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8835026/": 1,
+      "https://sleep.u-dont-exist.com/": 1,
+      "https://traumaprevention.com/frequently-asked-questions/": 1,
+      "https://www.mayoclinic.org/diseases-conditions/whiplash/symptoms-causes/syc-20378921": 1
+    },
+    "native_placeholder_strings": [
+      "**[EXISTING PROFESSOR BABY SHEEP NATIVE EMBED — exact object retained in HTML promotion]**",
+      "**[EXISTING SHARE BUTTON — exact object retained in HTML promotion]**",
+      "**[EXISTING SOMATIC EXPERIENCING YOUTUBE EMBED — exact object retained in HTML promotion]**",
+      "**[EXISTING TRE YOUTUBE EMBED — exact object retained in HTML promotion]**",
+      "**[EXISTING BRAINSPOTTING YOUTUBE EMBED — exact object retained in HTML promotion]**",
+      "**[EXISTING EMDR YOUTUBE EMBED — exact object retained in HTML promotion]**",
+      "**[EXISTING SKY HYPNOSIS NATIVE EMBED — exact object retained in HTML promotion]**"
+    ]
+  },
+  "article_candidate_created": false,
+  "registered_master_mutations": 0,
+  "detector_actions": 0,
+  "whole_document_calls": 0,
+  "surface_014_packaging_resumed": false,
+  "privacy": {
+    "credentials_persisted": false,
+    "cookies_persisted": false,
+    "storage_values_persisted": false,
+    "unrelated_chat_content_persisted": false
+  }
+}
