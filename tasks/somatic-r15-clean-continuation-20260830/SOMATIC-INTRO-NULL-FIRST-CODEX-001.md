@@ -2,7 +2,11 @@
 
 Task: `somatic-r15-clean-continuation-20260830`
 
-Role: **Codex mechanical executor only**
+Role: **Codex mechanical executor and fresh-chat orchestrator only**
+
+This packet is the **single owner-facing launch point** for the next cycle. Joel should give Codex only the instruction to execute this packet. The fresh-writer instruction embedded below is an **internal transport payload for Codex to send**, not a second instruction Joel must separately run.
+
+Codex must mechanically open the fresh reasoning/writing chat, transmit the exact payload, capture the result, and return execution evidence. It does not reason about the prose or delegate that reasoning to itself.
 
 This packet authorizes one writer transport and capture. It does not authorize prose generation by Codex, substantive editing, validation judgment, article mutation, or detector use.
 
@@ -76,6 +80,8 @@ Open one new reasoning/writing context with no prior Somatic conversation histor
 Transmit only this instruction:
 
 > GitHub is canonical. On branch `task/somatic-r15-clean-continuation-20260830`, execute `tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-NULL-FIRST-WRITER-001.md` exactly. Follow its authority read and information firewall. Return only the packet's required output.
+
+This quoted instruction is for **Codex to transmit to the fresh chat**. Do not return it to Joel as an additional action item.
 
 Do not append a summary, semantic notes, detector history, prior failures, owner exemplars, or advice.
 
