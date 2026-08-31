@@ -15,6 +15,22 @@ Therefore the current writing route is:
 
 Do not replace this loop with a closed model-only sequence of semantic graph -> model writer -> model critic -> model rewrite unless Joel explicitly asks for that experiment again.
 
+## Runtime role boundary — Chat writes, Codex executes
+
+Owner correction, 2026-08-31: Joel does **not** want to conduct the editorial/humanization conversation with a Codex worker. Codex is not the reasoning/writing authority for this lane.
+
+The runtime split is:
+
+- **ChatGPT reasoning/writing chat:** talks with Joel, writes prose, interprets Joel's corrections, performs editorial reasoning, decides what the next attempt should change, and remains the humanization interlocutor.
+- **Codex/execution worker:** mechanical implementation only when needed — repository edits already decided by the Chat/Joel loop, file movement, scripted validation, tests, hashes, packaging, or other execution the Chat cannot directly perform. It must not independently decide prose, infer new editorial architecture, reinterpret Joel's correction, or ask Joel to supervise its writing.
+- **Joel:** interacts with the Chat writer. He should not be routed to a Codex worker merely because durable state or mechanical execution is required.
+
+When Chat can persist a correction directly through connected GitHub, do so directly. Do not create a Codex handoff merely to save state.
+
+If Codex is needed for local/repository execution, the Chat supplies it a bounded mechanical contract after the editorial decision has already been made. Codex returns execution evidence to the Chat; the Chat interprets that evidence and continues with Joel.
+
+This role boundary applies to the current Somatic manual-humanization lane and should not be silently reversed by a later worker.
+
 ## What must persist between attempts
 
 Before every new Somatic humanization attempt, read this file fresh. After every substantive Joel correction, update this file before the correction can be considered durably learned.
@@ -103,20 +119,20 @@ The crucial correction is that the writer **honored the semantic packet too visi
 
 For the next attempt:
 
-1. Read GitHub canonical article authority as usual.
-2. Read this writer-state file fresh.
+1. The **Chat writer**, not Codex, reads GitHub canonical article authority as usual.
+2. The Chat writer reads this writer-state file fresh.
 3. Use only the bounded semantic/function authority for the target span; do not retrieve rejected Introduction prose as a writing source.
 4. Write **one** new realization. Do not run three autonomous model-only rewrites before Joel sees it.
 5. Perform a light self-check only for obvious semantic loss, invented material, and the known architecture failures above. Do not build a new formal architecture around the draft.
-6. Give Joel the candidate.
+6. Give Joel the candidate directly in Chat.
 7. Treat Joel's response as the primary next-step signal.
-8. Before writing again, persist any new substantive owner correction and the generative lesson here.
+8. Before writing again, persist any new substantive owner correction and the generative lesson here. Prefer direct connected-GitHub persistence; use Codex only if mechanical execution genuinely requires it.
 9. Reconstruct rather than line-edit when the correction concerns thought movement.
 10. Continue until Joel says the prose is good enough or authorizes a different route.
 
 ## Hard memory rule
 
-A fresh worker must never say or assume `I know the humanization lessons from the prior chat` without reading this file and current GitHub lessons. Chat memory is not the durable store.
+A fresh writer must never say or assume `I know the humanization lessons from the prior chat` without reading this file and current GitHub lessons. Chat memory is not the durable store.
 
 If the writer begins repeating a failure already recorded here, stop the attempt before delivery and reread the relevant lesson. The purpose of this file is specifically to prevent the cycle: progress with Joel -> context loss -> rediscovery -> regression.
 
