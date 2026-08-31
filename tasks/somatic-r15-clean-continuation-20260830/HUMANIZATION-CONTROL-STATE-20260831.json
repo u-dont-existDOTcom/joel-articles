@@ -1,8 +1,8 @@
 {
-  "schema_version": 5,
+  "schema_version": 6,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "owner_direct_manual_intro_retry_active",
-  "last_authoritative_head_before_state_update": "67d3197e2d82440750e63d04be332f98e295faa4",
+  "workflow_state": "owner_facing_intro_retry_candidate_pending_owner_verdict",
+  "last_authoritative_head_before_state_update": "8b7b84a7983a1a6fe0f65e6366892ea89e86128e",
   "role_boundary": {
     "reasoning_owner": "Chat",
     "mechanical_executor": "Codex",
@@ -24,36 +24,50 @@
     "cold_pass_rule": "Two consecutive cold clears on the unchanged literal candidate remain required; after both clears, perform one final literal post-clear challenge. Same-context clears are not independent evidence. Any genuine AI-shape uncertainty routes to Joel rather than self-certification."
   },
   "strategy": {
-    "active_family": "OWNER_DIRECT_MANUAL_RECONSTRUCTION",
-    "method": "Reconstruct from the frozen owner-supplied boundary and accumulated thought-shape lessons; do not patch the rejected candidate. Iterate privately as search. Preservation is checked after realization and must not determine visible topology.",
+    "active_family": "OWNER_DIRECT_MANUAL_RECONSTRUCTION_WITH_DYNAMIC_ANTI_PULL",
+    "method": "Reconstruct from the frozen owner-supplied boundary; the first/default model-shaped trajectory is treated as evidence of latent pull rather than a draft to polish. Dynamically block recurrence of that topology while preserving meaning externally. Do not mechanically invert the pull or create a permanent opposite style.",
+    "anti_pull_guard_path": "tasks/somatic-r15-clean-continuation-20260830/ANTI-PULL-GUARD-CONCEPTION-20260831.md",
+    "known_pull_signature": "body/mind mismatch premise -> complex-trauma qualification -> readiness checklist -> regulation verdict -> EMDR exception -> bodily-discharge exception -> polished inner-child transfer/closure",
     "rejected_candidate_authority": "NONE",
     "dsmr_candidate_strategy_id": "SOMATIC-DSMR-005",
     "dsmr_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_OVERRIDE_NOT_CANCELLED",
     "dsmr_candidate_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DELIBERATIVE-SEQUENTIAL-MICROREALIZATION-005.md"
   },
+  "current_candidate": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-OWNER-RETRY-CANDIDATE-20260831.md",
+    "receipt_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-OWNER-RETRY-RECEIPT-20260831.md",
+    "status": "OWNER_FACING_TEST_CANDIDATE_NOT_ARTICLE_AUTHORITY",
+    "substantive_rewrite_iterations_this_retry": 13,
+    "preservation": "PASS_ZERO_UNEXPLAINED_DELTAS",
+    "cold_passes": 2,
+    "cold_passes_same_context": true,
+    "post_clear_literal_challenge": "PASS",
+    "chat_current_belief": "looks human enough to be worth owner test",
+    "borderline_ai_shape_uncertainty": null
+  },
   "architecture_audit": {
     "audit_contract_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-001.md",
     "codex_transport_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md",
     "status": "deferred_during_current_owner_direct_retry",
-    "rule": "The pending DSMR architecture audit is historical/current strategy work but does not block this specifically owner-authorized manual retry. It does not automatically resume or authorize later prose after this retry."
+    "rule": "The pending DSMR architecture audit does not block this specifically owner-authorized manual retry and does not automatically resume or authorize later prose after the owner verdict."
   },
   "gates": {
     "authority_reconciliation": "PASS_CURRENT_OWNER_OVERRIDE_RECORDED",
-    "writer_transport": "AUTHORIZED_CURRENT_CHAT_ONLY",
-    "semantic_preservation": "required_before_delivery_zero_unexplained_deltas",
-    "cold_reader": "required_two_consecutive_same_candidate_clears_plus_post_clear_challenge",
-    "independent_reader": "not_available_in_current_chat_unless_separately_orchestrated",
+    "writer_transport": "COMPLETE_FOR_CURRENT_RETRY",
+    "semantic_preservation": "PASS_ZERO_UNEXPLAINED_DELTAS",
+    "cold_reader": "PASS_TWO_CONSECUTIVE_SAME_CANDIDATE_CLEARS_PLUS_POST_CLEAR_CHALLENGE",
+    "independent_reader": "NOT_AVAILABLE_CURRENT_CHAT",
     "owner_read": "pending"
   },
   "release": {
-    "candidate_visibility": "blocked_until_current_retry_admission_gate_passes",
+    "candidate_visibility": "authorized_to_show_owner_for_test",
     "publication_edit": "blocked",
     "detector_eligibility": "blocked",
-    "candidate_promotion": "blocked_until_owner_acceptance_and_normal downstream gates",
+    "candidate_promotion": "blocked_until_owner_acceptance_and_normal_downstream_gates",
     "blockers": [
-      "No current retry candidate has yet passed preservation review.",
-      "No current retry candidate has yet received two consecutive cold clears plus the final post-clear challenge.",
-      "Owner has not yet evaluated the retry candidate."
+      "Owner has not yet evaluated the retry candidate.",
+      "No detector action is authorized by this retry.",
+      "Registered article master has not been changed."
     ]
   },
   "detector": {
@@ -63,8 +77,8 @@
     "result": null
   },
   "next_action": {
-    "type": "CHAT_MANUAL_INTRO_RETRY",
-    "instruction": "Iterate privately from the frozen owner-supplied Introduction, preserve all substantive meaning with zero unexplained deltas, require two consecutive cold clears on the unchanged candidate plus a final literal challenge, then show exactly one candidate if the Chat still affirmatively believes it looks human. If genuinely uncertain about an exact span, ask Joel instead of guessing.",
+    "type": "OWNER_READ_AND_OPTIONAL_OWNER_PANGRAM_TEST",
+    "instruction": "Show the exact current candidate to Joel. Classify his response literally. If he supplies a substantive correction, persist it before another rewrite. Do not infer acceptance or rejection from a question alone.",
     "automatic_action_after_owner_response": false
   }
 }
