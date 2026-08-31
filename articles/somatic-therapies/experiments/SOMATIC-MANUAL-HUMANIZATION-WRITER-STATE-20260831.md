@@ -115,6 +115,29 @@ The failed fresh Introduction of 2026-08-31 was AI/high-confidence according to 
 
 The crucial correction is that the writer **honored the semantic packet too visibly**. The next attempt must not make the reader feel the preservation checklist underneath the prose.
 
+## 2026-08-31 admission-gate failure — owner correction
+
+Joel asked, `you believe that looks human?` This was a **question, not a rejection**. The Chat incorrectly converted it into a rejection before Joel had supplied that judgment.
+
+The more important failure happened one turn earlier: the Chat delivered a candidate that its own active lesson contract should have blocked. On literal reread, that candidate still visibly reproduced the known package: premise/qualification/explanation, organized readiness logic, a conditional treatment menu, and a polished inner-child transfer. It therefore should not have reached Joel as a candidate worth testing.
+
+Underlying generative mistake:
+
+- the Chat treated the admission receipt as a soft self-review rather than a hard output interlock;
+- it rationalized a draft that it did not positively believe had escaped the learned model architecture;
+- it effectively used Joel as the first-line quality filter for a regression already detectable from the stored lessons;
+- after Joel questioned the result, it inferred a rejection that he had not actually stated.
+
+New operating rule:
+
+> **Owner time is not the fallback QA layer for a known lesson. If the Chat cannot affirmatively defend that the literal candidate clears every active blocking lesson, the candidate is BLOCKED and must not be shown. `Maybe`, `better`, `worth testing`, `Joel can tell me`, or uncertainty about a known failure pattern are not admission states.**
+
+Before delivery, every PASS must have literal-candidate evidence. Any doubt about whether A1/A2/A3/A6/A8 is actually absent is a FAIL for admission purposes, not a reason to externalize the uncertainty to Joel.
+
+Owner-response classification is also blocking: do not silently translate a question, probe, hesitation, or request for explanation into `accepted`, `rejected`, or `corrected`. Record an owner judgment only when Joel actually supplies one or when the semantic content unambiguously entails it.
+
+Validation status of this repair: **process correction is owner-confirmed; prose repair is not yet validated.**
+
 ## Manual iteration protocol
 
 For the next attempt:
@@ -124,8 +147,8 @@ For the next attempt:
 3. Use only the bounded semantic/function authority for the target span; do not retrieve rejected Introduction prose as a writing source.
 4. Write **one** new realization. Do not run three autonomous model-only rewrites before Joel sees it.
 5. Perform a light self-check only for obvious semantic loss, invented material, and the known architecture failures above. Do not build a new formal architecture around the draft.
-6. Give Joel the candidate directly in Chat.
-7. Treat Joel's response as the primary next-step signal.
+6. Give Joel the candidate directly in Chat **only if the active admission gate is affirmatively satisfied; otherwise discard/reconstruct before delivery.**
+7. Treat Joel's response as the primary next-step signal without inventing an acceptance/rejection he did not state.
 8. Before writing again, persist any new substantive owner correction and the generative lesson here. Prefer direct connected-GitHub persistence; use Codex only if mechanical execution genuinely requires it.
 9. Reconstruct rather than line-edit when the correction concerns thought movement.
 10. Continue until Joel says the prose is good enough or authorizes a different route.
