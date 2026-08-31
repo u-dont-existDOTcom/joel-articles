@@ -1,95 +1,76 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "strategy_reaudit_hold",
-  "last_authoritative_head_before_state_update": "8df689ff7d03279bd64cfe53da81425649796db5",
+  "workflow_state": "awaiting_dsmr_architecture_audit_transport",
+  "last_authoritative_head_before_state_update": "7864ad0d43edb4c3c5309b49c705bcce24213efd",
   "role_boundary": {
     "reasoning_owner": "Chat",
     "mechanical_executor": "Codex",
     "writer_context_id": null,
-    "rule": "Chat performs provenance classification, strategy, substantive editing/writing, discourse judgment, semantic adjudication, and any adaptive semantic-reveal decision. Codex may verify, transport exact prompts/results, hash, store, and run deterministic syntax/provenance checks only."
+    "rule": "Chat owns strategy, provenance, semantic/editorial judgment, writing authority, adaptive decisions, and release decisions. Codex may orchestrate fresh chats mechanically, verify exact identities and typed outputs, hash, store, and route only when an already-approved state machine makes the branch mechanical."
   },
   "source": {
     "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-CANDIDATE-20260831.md",
     "revision": "git-blob:22126723d8c585ca8bde54f00c4ade6c925f354e",
     "sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
-    "line_count": 233,
     "changed_scope": "The four Introduction prose paragraphs after # Introduction and before ## Your Physical State Can Change What Therapy Does."
   },
-  "authorized_reasoning_scope": {
-    "line_start": 13,
-    "line_end": 19,
-    "stop_before_exact_heading": "## Your Physical State Can Change What Therapy Does",
-    "publication_edit_authorized": false,
-    "detector_action_authorized": false,
-    "writer_transport_authorized": false
+  "current_pilot_boundary": {
+    "status": "AUDIT_ONLY_NO_PROSE_EXECUTION",
+    "target": "first prose paragraph after # Introduction only",
+    "target_sha256": "b2cbeec01b3a209a845911c99e3d4810d3ccbcc5ebd77ee38a4e221fcb44a1c9",
+    "whitespace_words": 43,
+    "preservation_escrow_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-P1-PRESERVATION-ESCROW-001.md",
+    "preservation_escrow_blob": "13f64b06c6e3a582548f47b209ce764304ab2092"
   },
-  "provenance_spans": [
-    {
-      "span_id": "INTRO-HEADING-LOCK-01",
-      "classification": "UNKNOWN_FROZEN",
-      "line_start": 11,
-      "line_end": 11,
-      "frozen": true,
-      "writer_access": "none_while_hold",
-      "authority_note": "Heading is outside the prose repair target and must remain exact."
-    },
-    {
-      "span_id": "INTRO-AI-TARGET-01",
-      "classification": "AI_TARGET",
-      "line_start": 13,
-      "line_end": 19,
-      "frozen": true,
-      "writer_access": "none_while_hold",
-      "authority_note": "Operational AI_TARGET classification remains a reasoning boundary only. No current writer transformation is authorized."
-    },
-    {
-      "span_id": "NEXT-HEADING-LOCK-01",
-      "classification": "UNKNOWN_FROZEN",
-      "line_start": 21,
-      "line_end": 21,
-      "frozen": true,
-      "writer_access": "none_while_hold",
-      "authority_note": "Exact stop heading and all later material are outside scope."
-    }
-  ],
   "strategy": {
-    "active_strategy_id": null,
-    "status": "NO_EXECUTABLE_STRATEGY_AUTHORIZED",
     "controlling_correction_path": "tasks/somatic-r15-clean-continuation-20260830/SUPERVISOR-CORRECTION-SOMATIC-HUMANIZATION-REASONING-004.md",
-    "revoked_strategy": {
-      "decision_id": "SOMATIC-INTRO-SOURCE-BOUND-NULL-FIRST-001",
-      "family": "SOURCE-BOUND NULL-FIRST DISCOURSE-OPERATION SURGERY",
-      "decision_path": "tasks/somatic-r15-clean-continuation-20260830/SUPERVISOR-DECISION-SOMATIC-HUMANIZATION-FRESH-REASONING-003.md",
-      "writer_packet_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-NULL-FIRST-WRITER-001.md",
-      "blind_validator_packet_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-BLIND-MOTION-VALIDATOR-001.md",
-      "semantic_custodian_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-SEMANTIC-CUSTODIAN-001.md",
-      "codex_packet_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-NULL-FIRST-CODEX-001.md",
-      "execution_status": "REVOKED_DO_NOT_EXECUTE",
-      "revocation_reasons": [
-        "generation authority conflicted with the still-controlling task-local fail-closed control",
-        "semantic/preservation custody was placed after drafting rather than before drafting",
-        "deletion authority was weaker than the blocking preservation gate permits",
-        "source-only topology surgery could not justify how missing thought movement would be created",
-        "validator rejection did not sufficiently alter the next generation process"
-      ]
-    },
-    "candidate_successor_direction": {
-      "family": "INCREMENTAL SEMANTIC ESCROW / ADAPTIVE PROGRESSIVE DISCLOSURE",
-      "status": "REASONING_DIRECTION_ONLY_NOT_AUTHORIZED",
-      "rule": "Freeze the full preservation ledger before drafting, keep it in a reasoning custodian, reveal only one minimal currently relevant unit to a prose writer at a time, and choose later reveals adaptively from the growing text. Codex may only shuttle exact messages and evidence."
-    }
+    "controlling_correction_blob": "d95c9c18a8b7a2d3b91cf8e4da5d58cd954f15d0",
+    "candidate_strategy_id": "SOMATIC-DSMR-005",
+    "candidate_family": "DELIBERATIVE SEQUENTIAL MICRO-REALIZATION",
+    "candidate_status": "FROZEN_PENDING_FRESH_ARCHITECTURE_AUDIT",
+    "candidate_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DELIBERATIVE-SEQUENTIAL-MICROREALIZATION-005.md",
+    "candidate_blob": "c105977a851e5197c9ef28fe871b852efee98999",
+    "owner_observation_path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-OBSERVATION-DELIBERATIVE-MICROREWRITE-20260831.md",
+    "owner_observation_blob": "64f4b522c94da973ea4b6780ca84b3a319ca5ba5",
+    "hypothesis": "A tiny visible semantic scope, high-compute mode, repeated private rewrite/read/rewrite search, and no visible future coverage plan may permit a stronger realization search than the previously tested one-shot whole-document Pro/Extra-High rewrites. Internal iteration is search, not certification.",
+    "revoked_strategy_id": "SOMATIC-INTRO-SOURCE-BOUND-NULL-FIRST-001",
+    "revoked_execution_status": "REVOKED_DO_NOT_EXECUTE"
   },
-  "candidate": null,
-  "validation_receipt": null,
+  "architecture_audit": {
+    "audit_contract_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-001.md",
+    "audit_contract_blob": "2f1c604e5b390319b171f2e94e56b1321b3fb6a8",
+    "codex_transport_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md",
+    "codex_transport_blob": "89aebaee5873d34fd6110d46850a2781df25907d",
+    "transport_authorized": true,
+    "fresh_context_required": true,
+    "preferred_mode": "Work Ultra if mechanically available; otherwise GPT-5.6 Sol Pro 5 of 5",
+    "lower_compute_substitution_allowed": false,
+    "raw_result_path": "tasks/somatic-r15-clean-continuation-20260830/dsmr-architecture-audit-001/AUDITOR-RAW.md",
+    "mechanical_receipt_path": "tasks/somatic-r15-clean-continuation-20260830/dsmr-architecture-audit-001/MECHANICAL-RECEIPT.json",
+    "status": "pending",
+    "rule": "Only this architecture audit transport is currently executable. The transport stops after storing the audit regardless of verdict. Even exact ACCEPT does not authorize a prose writer until Chat reads the audit and issues a separate execution decision."
+  },
+  "future_pilot_artifacts_frozen_but_not_executable": {
+    "writer_packet_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-P1-DELIBERATIVE-WRITER-001.md",
+    "writer_packet_blob": "83d78e72bb9c38ada2ff755a8e69771e4c1caab5",
+    "semantic_auditor_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-P1-SEMANTIC-AUDITOR-001.md",
+    "semantic_auditor_blob": "b14bba929c154e5a4c87f9a4bc17f273476abaf5",
+    "cold_shape_reader_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-P1-COLD-SHAPE-READER-001.md",
+    "cold_shape_reader_blob": "7f998e934e13773d6dba356b6b6684f485594b24",
+    "writer_transport_authorized": false,
+    "semantic_auditor_transport_authorized": false,
+    "cold_shape_transport_authorized": false
+  },
   "gates": {
-    "authority_reconciliation": "pending_successor_specification",
-    "pre_draft_preservation_ledger": "required_before_any_writer",
-    "change_whitelist": "required_before_any_writer",
-    "writer_information_firewall": "blocked_until_successor_specification",
+    "authority_reconciliation": "PASS_FOR_ARCHITECTURE_AUDIT_ONLY",
+    "pre_draft_preservation_ledger": "FROZEN_FOR_P1_BUT_NOT_RELEASED_TO_WRITER",
+    "change_whitelist": "FROZEN_FOR_P1_BUT_NOT_WRITER_INPUT",
+    "fresh_architecture_audit": "pending",
     "writer_transport": "blocked",
     "semantic_preservation": "not_started",
     "cold_reader": "not_started",
+    "supervisor_read": "not_started",
     "owner_read": "not_started"
   },
   "release": {
@@ -97,26 +78,21 @@
     "publication_edit": "blocked",
     "detector_eligibility": "blocked",
     "blockers": [
-      "Decision 003 and its writer/Codex packets were revoked by Supervisor Correction 004.",
-      "No successor strategy has been fully specified and audited.",
-      "No pre-draft preservation ledger/change whitelist has been frozen for a successor writer.",
-      "No writer transport is authorized."
+      "Fresh DSMR architecture audit has not been captured and reviewed by Chat.",
+      "No prose-writer transport has been authorized.",
+      "No candidate exists.",
+      "Semantic, cold-shape, supervisor, and owner gates have not run."
     ]
   },
   "detector": {
-    "policy": "detector unavailable during prose-design strategy work; any later call requires separate exact whole-document authority",
+    "policy": "No detector is available during this architecture audit or paragraph-design pilot. Any future Pangram action requires separate exact whole-document authority after preservation and editorial gates.",
     "status": "not-authorized",
     "submitted_candidate_sha256": null,
     "result": null
   },
-  "next_reasoning_requirement": {
-    "objective": "Specify and adversarially audit a successor generation mechanism that satisfies Supervisor Correction 004 before creating any executable writer transport.",
-    "must_address": [
-      "pre-draft preservation order",
-      "writer exposure without a complete latent coverage plan",
-      "how diagnostic failure changes the next generation process rather than merely rejecting it",
-      "how Codex remains mechanical while Chat owns adaptive semantic decisions",
-      "bounded attempt budget and kill condition"
-    ]
+  "next_action": {
+    "type": "CODEX_AUDIT_TRANSPORT_ONLY",
+    "owner_facing_instruction": "Execute tasks/somatic-r15-clean-continuation-20260830/SOMATIC-DSMR-ARCHITECTURE-AUDIT-CODEX-001.md exactly.",
+    "automatic_writer_after_accept": false
   }
 }
