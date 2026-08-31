@@ -138,6 +138,31 @@ Owner-response classification is also blocking: do not silently translate a ques
 
 Validation status of this repair: **process correction is owner-confirmed; prose repair is not yet validated.**
 
+## 2026-08-31 second owner correction — instruction accretion is not enforcement
+
+Joel then pointed out that the positive-belief rule was substantively **already present in the prior contract**: the old gate already said any substantive FAIL blocked delivery and specifically named the same Somatic architecture as reject-before-owner. Therefore adding A9 cannot be treated as though a new sentence solved the failure.
+
+This is a correction to the process architecture, not another style lesson.
+
+Underlying failure:
+
+- the weakness is not primarily missing policy text;
+- the same Chat both generates the prose and judges whether its own generation violates abstract semantic rules, which creates a correlated self-certification failure mode;
+- adding more instructions to that same judge can improve salience and traceability but cannot guarantee compliance;
+- therefore **do not report a wording-only contract amendment as a reliable fix for an execution failure of an already-clear contract.**
+
+Current mitigation:
+
+1. **Candidate quarantine.** A newly generated Introduction is not yet an owner-facing candidate. Hold it as provisional text while the generation mindset is considered finished.
+2. **Separate adversarial admission phase.** Re-read only the literal provisional candidate plus the active lesson contract. The purpose of this phase is to find a reason to block, not to defend the draft or balance strengths against defects.
+3. **Fail closed on a credible known-pattern match.** One credible A1/A2/A3/A6/A8 failure blocks the candidate. Do not average it against semantic fidelity or general improvement.
+4. **Independent verification when genuinely available.** A fresh independent context/model given only the literal candidate and active contract is stronger evidence than same-context self-certification and should be used when practically available without routing Joel into another writing workflow. A second self-prompt in the same saturated context is not independent verification.
+5. **No false guarantee.** In a runtime where no genuinely independent verifier or platform-level output interlock exists, this remains a stronger fail-closed mitigation, not a mathematical guarantee. Do not tell Joel that another instruction line makes recurrence impossible.
+
+This follows the established human-factors distinction between warnings/checklists and stronger error-proofing: a process defect should be addressed by changing the process and introducing a stop/constraint or independent check where possible, not merely by telling the same operator to be more vigilant.
+
+Validation status: **owner has correctly challenged the sufficiency of the first enforcement repair. The stronger quarantine/adversarial mitigation is now active; its effectiveness on the next prose attempt is not yet owner-validated.**
+
 ## Manual iteration protocol
 
 For the next attempt:
@@ -145,8 +170,8 @@ For the next attempt:
 1. The **Chat writer**, not Codex, reads GitHub canonical article authority as usual.
 2. The Chat writer reads this writer-state file fresh.
 3. Use only the bounded semantic/function authority for the target span; do not retrieve rejected Introduction prose as a writing source.
-4. Write **one** new realization. Do not run three autonomous model-only rewrites before Joel sees it.
-5. Perform a light self-check only for obvious semantic loss, invented material, and the known architecture failures above. Do not build a new formal architecture around the draft.
+4. Write **one** new realization into candidate quarantine. Do not run three autonomous model-only rewrites before Joel sees a valid candidate.
+5. End the generation mindset. Perform the separate adversarial admission phase against the literal quarantined text, looking specifically for a blocking reason rather than reasons to accept.
 6. Give Joel the candidate directly in Chat **only if the active admission gate is affirmatively satisfied; otherwise discard/reconstruct before delivery.**
 7. Treat Joel's response as the primary next-step signal without inventing an acceptance/rejection he did not state.
 8. Before writing again, persist any new substantive owner correction and the generative lesson here. Prefer direct connected-GitHub persistence; use Codex only if mechanical execution genuinely requires it.
