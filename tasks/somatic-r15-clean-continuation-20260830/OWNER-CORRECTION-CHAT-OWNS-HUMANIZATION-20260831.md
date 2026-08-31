@@ -64,3 +64,7 @@ Codex must not:
 - Codex execution state is `WAITING_FOR_EXACT_CHAT_EDIT_PACKET`.
 
 The next substantive humanization work occurs in the supervising Chat. Codex resumes only when given a byte-exact edit/materialization/test packet.
+
+## Executable enforcement update
+
+The task is now `prewrite_ready` under `HUMANIZATION-CONTROL-STATE-20260831.json`. The Chat writer's only authorized input for the four-paragraph Introduction cycle is `INTRO-SEMANTIC-WRITER-INPUT-20260831.json`; the writer must not receive the source realization or `INTRO-REJECTED-STRATEGY-LEDGER-20260831.json`. A different Chat performs the adversarial validation. Codex remains mechanical and cannot advance candidate visibility or detector eligibility unless the exact state validator passes every required gate.

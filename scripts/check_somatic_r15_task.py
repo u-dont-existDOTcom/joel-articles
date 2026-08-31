@@ -12,6 +12,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCK_PATH = ROOT / "tasks/ACTIVE-TASK.json"
+HUMANIZATION_CONTROL_PATH = (
+    ROOT
+    / "tasks"
+    / "somatic-r15-clean-continuation-20260830"
+    / "HUMANIZATION-CONTROL-STATE-20260831.json"
+)
+HUMANIZATION_CONTROL_VALIDATOR = ROOT / "scripts" / "validate_humanization_control.py"
 EXPECTED_TASK = "somatic-r15-clean-continuation-20260830"
 EXPECTED_BRANCH = "task/somatic-r15-clean-continuation-20260830"
 EXPECTED_MASTER_SHA256 = "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"
@@ -57,8 +64,29 @@ def git(*args: str) -> str:
     return subprocess.check_output(["git", *args], cwd=ROOT, text=True).strip()
 
 
+def humanization_control_failures() -> list[str]:
+    """Require the exact task-local control to be in a structurally valid state."""
+    if not HUMANIZATION_CONTROL_PATH.is_file() or not HUMANIZATION_CONTROL_VALIDATOR.is_file():
+        return ["HUMANIZATION_CONTROL_MISSING"]
+    result = subprocess.run(
+        [
+            "python3",
+            str(HUMANIZATION_CONTROL_VALIDATOR),
+            str(HUMANIZATION_CONTROL_PATH),
+            "--root",
+            str(ROOT),
+        ],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    return [] if result.returncode == 0 else ["HUMANIZATION_CONTROL_INVALID"]
+
+
 def preflight() -> list[str]:
     failures: list[str] = []
+    failures.extend(humanization_control_failures())
     lock = json.loads(LOCK_PATH.read_text(encoding="utf-8"))
     if lock.get("taskId") != EXPECTED_TASK:
         failures.append("TASK_ID_MISMATCH")

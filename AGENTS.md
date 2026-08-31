@@ -32,6 +32,8 @@ For P2S/P3/P4 humanization, D3/D4 reconstruction, or detector-driven semantic ed
 
 For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is also blocking: re-run the article-wide architecture regression after every detector-driven edit. Do not narrow the editorial field of view to the last detector window.
 
+When a prior humanization strategy has failed, the active task's fail-closed humanization control is blocking before another candidate or detector call. Keep provenance, semantic-only writer input, and the rejected-strategy ledger in separate hash-bound artifacts; require a separate adversarial Chat, structural-recurrence and attribution checks, fail-closed release, and detector-last ordering. Chat performs semantic/editorial reasoning and Codex performs only mechanical hashing, validation, testing, storage, and application of an already-approved replacement. Codex may not fill missing semantic inputs, generate the candidate, or self-certify the reasoning gates. For the active Somatic task, use `tasks/somatic-r15-clean-continuation-20260830/HUMANIZATION-FAIL-CLOSED-CONTROL-20260831.md` and its bound state file.
+
 Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invitation/de-escalation language belongs or when an owner-approved AI/synthetic draft carries useful thought architecture. Protected function and correct placement are separate judgments.
 
 ## Reader-facing realization gate

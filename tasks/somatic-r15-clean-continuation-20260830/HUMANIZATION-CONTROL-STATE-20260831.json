@@ -1,74 +1,90 @@
 {
-  "schemaVersion": 1,
-  "taskId": "somatic-r15-clean-continuation-20260830",
-  "controlId": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "status": "ACTIVE_HARD_GATE",
-  "ownerCorrection": "Do not count owner-authored Human prose as model humanization; stop repeating previously falsified conversational/direct-paraphrase strategies.",
-  "currentStrategyFamily": {
-    "familyId": "SOMATIC-HUMANIZATION-DIRECT-PARAPHRASE-CONVERSATIONALIZATION",
-    "state": "FAILED_AND_FORBIDDEN",
-    "descendantContinuationAllowed": false,
-    "fingerprint": [
-      "same source conceptual cards or order",
-      "sentence-by-sentence or paragraph-by-paragraph paraphrase",
-      "conversational surface substitutions",
-      "contractions or first-person skin as primary mechanism",
-      "local cadence variation without structural reconstruction",
-      "preserved significance staging, explanatory aftercare, balanced taxonomy, or tidy setup-qualification-conclusion rhythm"
-    ],
-    "nonNovelChanges": [
-      "synonyms",
-      "sentence length",
-      "punctuation",
-      "contractions",
-      "generic transitions",
-      "first-person conversion",
-      "surface informality"
+  "schema_version": 1,
+  "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
+  "workflow_state": "prewrite_ready",
+  "role_boundary": {
+    "reasoning_owner": "Chat",
+    "mechanical_executor": "Codex",
+    "writer_context_id": null,
+    "rule": "Chat performs provenance classification, semantic extraction, writing, and adversarial judgment. Codex may hash, validate, store, test, and mechanically apply an approved replacement only."
+  },
+  "source": {
+    "path": "articles/somatic-therapies/experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md",
+    "revision": "git-blob:e6210eb2742de156f0bd7b01fdde269f9b9625c6",
+    "sha256": "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee",
+    "line_count": 223,
+    "changed_scope": "Introduction lines 15-21: the first four prose paragraphs, ending before Your Physical State Can Change What Therapy Does"
+  },
+  "provenance_spans": [
+    {
+      "span_id": "SPAN-FROZEN-BEFORE-01",
+      "classification": "UNKNOWN",
+      "line_start": 1,
+      "line_end": 14,
+      "sha256": "b8786edf5def086e68b35ce0dbbbd0db3cb6e3b9cba090a3ec76eeab278a242e",
+      "frozen": true,
+      "writer_access": "none",
+      "authority_note": "Outside the authorized rewrite boundary; frozen regardless of likely provenance."
+    },
+    {
+      "span_id": "SPAN-INTRO-AI-01",
+      "classification": "AI_TARGET",
+      "line_start": 15,
+      "line_end": 21,
+      "sha256": "89af288ec262e062a1c2e0201d4ec8e8944dc36df051ff6a321264f85a413fe1",
+      "frozen": false,
+      "writer_access": "semantics-only",
+      "authority_note": "The realization is the diagnosed AI-shaped target. Owner-derived concepts remain protected as semantic and attribution constraints, not falsely claimed verbatim locks."
+    },
+    {
+      "span_id": "SPAN-FROZEN-AFTER-01",
+      "classification": "UNKNOWN",
+      "line_start": 22,
+      "line_end": 223,
+      "sha256": "8dd56eb402a51b9f1289ffb6a1b1058ad599a27fa9063803f88d784220872366",
+      "frozen": true,
+      "writer_access": "none",
+      "authority_note": "Everything from the blank line before the next heading through the end of r15 is outside scope and frozen."
+    }
+  ],
+  "writer_packet": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/INTRO-SEMANTIC-WRITER-INPUT-20260831.json",
+    "sha256": "d08702f448e30b727a0f380bf81339bd55c9366ee8ab7214a34a79118f80df61",
+    "source_prose_withheld": true,
+    "rejected_strategy_ledger_withheld": true,
+    "semantic_units_frozen": true
+  },
+  "rejected_strategy_ledger": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/INTRO-REJECTED-STRATEGY-LEDGER-20260831.json",
+    "sha256": "a98ded01d8239d5fbe0b1c4bed49a6535ad2d78b393f3eb236ecf62dbee8314f",
+    "writer_withheld": true,
+    "adversarial_validator_only": true
+  },
+  "candidate": null,
+  "validation_receipt": null,
+  "gates": {
+    "provenance_lock": "pass",
+    "semantic_only_writer_input": "pass",
+    "rejected_strategy_isolation": "pass",
+    "preservation": "pending",
+    "attribution": "pending",
+    "structural_recurrence": "pending",
+    "separate_adversarial_validation": "pending"
+  },
+  "release": {
+    "candidate_visibility": "blocked",
+    "detector_eligibility": "blocked",
+    "blockers": [
+      "No candidate has been written by a Chat writer from the semantic-only packet.",
+      "Preservation and attribution checks have not run.",
+      "Structural recurrence has not been checked against the rejected-strategy ledger.",
+      "A separate adversarial Chat has not attempted to prove recurrence."
     ]
   },
-  "sourceClasses": [
-    "OWNER_LOCK",
-    "AI_TARGET",
-    "UNKNOWN_FROZEN"
-  ],
-  "generationInputPolicy": {
-    "writerPrimaryInput": [
-      "semantic_function_packet",
-      "exact_owner_lock_text_needed_for_continuity",
-      "minimal_immediate_article_context"
-    ],
-    "withholdFromWriter": [
-      "rejected_candidate_corpus",
-      "detector_phrase_menu",
-      "original_ai_target_realization_after_semantic_packet_is_frozen"
-    ],
-    "validatorReceivesNegativeEvidence": true
-  },
-  "requiredGates": {
-    "provenance": "PENDING",
-    "semanticPacket": "PENDING",
-    "failedStrategyLineage": "PENDING",
-    "attributionAndPreservation": "PENDING",
-    "independentDiagnosticValidation": "PENDING"
-  },
-  "blockedActions": {
-    "ungatedHumanization": true,
-    "pangramSubmission": true,
-    "paidDetectorCall": true,
-    "candidatePromotion": true
-  },
-  "detectorPolicy": "DETECTOR_LAST",
-  "currentIntroductionScope": {
-    "knownAiShapeRepairBoundary": "first four Introduction paragraphs ending immediately before ## Your Physical State Can Change What Therapy Does",
-    "laterMaterial": "FROZEN_UNLESS_SEPARATELY_PROVENANCED",
-    "priorMixedChatRewrite": "NOT_DETECTOR_ELIGIBLE"
-  },
-  "nextAuthorizedCycle": [
-    "build provenance map",
-    "freeze semantic/function packet for AI_TARGET only",
-    "generate one fresh realization without original AI prose as primary input",
-    "run separate diagnostic-only lineage and preservation validation",
-    "owner inspection",
-    "detector only after all gates pass"
-  ]
+  "detector": {
+    "policy": "detector-last",
+    "status": "not-run",
+    "submitted_candidate_sha256": null,
+    "result": null
+  }
 }

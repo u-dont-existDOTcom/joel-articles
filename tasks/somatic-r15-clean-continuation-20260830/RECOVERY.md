@@ -24,6 +24,12 @@ Current alignment:
 - typed completion claim: `WORKING`;
 - current directive: `CONTINUE_HUMANIZATION`.
 
+### 2026-08-31 executable humanization control
+
+The task-local fail-closed correction is now mechanically enforced rather than only described. `HUMANIZATION-CONTROL-STATE-20260831.json` is the single current control record and validates at `prewrite_ready`. It binds complete R15 source coverage, the exact four-paragraph `AI_TARGET`, frozen surrounding `UNKNOWN` spans, a semantics-only Chat-writer packet, and a rejected-strategy ledger withheld for a separate adversarial Chat. The validator and 15 causal regressions enforce attribution, structural-lineage, independent-context, release, and detector-last conditions.
+
+No candidate exists in this controlled cycle. Earlier revoices remain evidence/history and are not implicitly approved. The next substantive step belongs to Chat: one Chat writes only from `INTRO-SEMANTIC-WRITER-INPUT-20260831.json`; a different Chat receives the resulting candidate and `INTRO-REJECTED-STRATEGY-LEDGER-20260831.json` and attempts to prove failed-strategy descent. Codex resumes only to bind and validate the resulting exact artifacts. Candidate display and Pangram remain blocked until the control reaches `candidate_validated`.
+
 Current recurring reconciliation at the source-recovery checkpoint: worker-to-contract `GREEN`; contract-to-owner `MATCH`; completion claim `WORKING`; terminal comparator `OWNER_OUTCOME_UNMET`. The frozen direct-owner candidate is editorially stable but has no exact Pangram result because the production surprise gate is `NO`. `SOMATIC-R15-SOURCE-MATERIALIZATION-011` is outstanding exactly once in the existing supervisor conversation; the sixth call remains unused and ineligible.
 
 `SUPERVISOR_DECISION SOMATIC-R15-PROGRESS-AUDIT-012` now falsifies the model-led preservation-clean rewrite method as a Pangram-improvement strategy. Stop refining or measuring the frozen direct-owner candidate. The required replacement is article-scale owner-language acquisition followed by transcript-led reconstruction; the exact compact request is `OWNER-LANGUAGE-ACQUISITION-PROMPT-20260831.md`. Current state remains worker-to-contract `GREEN`, contract-to-owner `MATCH`, completion `WORKING`, terminal comparator `OWNER_OUTCOME_UNMET`; the next safe substantive action requires Joel's new rough owner-source response rather than approval.

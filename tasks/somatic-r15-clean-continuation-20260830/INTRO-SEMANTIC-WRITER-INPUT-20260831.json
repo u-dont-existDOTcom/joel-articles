@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "packet_id": "somatic-r15-intro-writer-20260831",
+  "writer_role": "chat_reasoning",
+  "executor_role": "mechanical_only",
+  "source_sha256": "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee",
+  "target_span_ids": [
+    "SPAN-INTRO-AI-01"
+  ],
+  "authorized_exact_owner_language": [],
+  "semantic_units": [
+    {
+      "unit_id": "SEM-INTRO-01",
+      "proposition": "The danger may have ended while bodily threat responses continue.",
+      "function": "Establish the bodily persistence problem.",
+      "provenance_plane": "registered article meaning; realization is not owner-locked",
+      "certainty": "possibility, not universality",
+      "attribution_constraint": "Keep as a general claim; do not convert it into autobiography."
+    },
+    {
+      "unit_id": "SEM-INTRO-02",
+      "proposition": "Cognitive awareness of safety can coexist with bracing, scanning, numbing, freezing, collapsing, or flooding.",
+      "function": "Give concrete examples of the mismatch without turning the examples into an exhaustive checklist.",
+      "provenance_plane": "registered article meaning; realization is not owner-locked",
+      "certainty": "can occur",
+      "attribution_constraint": "Do not claim that the author personally experiences every listed response."
+    },
+    {
+      "unit_id": "SEM-INTRO-03",
+      "proposition": "For complex or developmental trauma, tolerance for contact with traumatic material matters before increasing intensity.",
+      "function": "Introduce the readiness problem.",
+      "provenance_plane": "general therapeutic judgment in the registered article",
+      "certainty": "context-dependent judgment",
+      "attribution_constraint": "Do not present a universal clinical rule or invented personal treatment history."
+    },
+    {
+      "unit_id": "SEM-INTRO-04",
+      "proposition": "Relevant capacities include remaining present, stopping voluntarily, and returning to ordinary functioning afterward.",
+      "function": "Preserve the readiness criteria without preserving the old three-card cadence.",
+      "provenance_plane": "registered article meaning",
+      "certainty": "practical criteria, not a validated scale",
+      "attribution_constraint": "Do not turn the criteria into an autobiographical checklist without owner evidence."
+    },
+    {
+      "unit_id": "SEM-INTRO-05",
+      "proposition": "Overwhelm is not evidence that processing is deep or useful.",
+      "function": "Correct the depth-equals-intensity assumption.",
+      "provenance_plane": "registered article judgment",
+      "certainty": "direct judgment",
+      "attribution_constraint": "Preserve the judgment without a polished recap or slogan unless independently authored."
+    },
+    {
+      "unit_id": "SEM-INTRO-06",
+      "proposition": "The useful next move depends on the actual problem: regulation, movement or discharge of persistent activation, or direct trauma-focused work may each fit.",
+      "function": "Preserve conditional choice without a staged program or balanced three-option display.",
+      "provenance_plane": "registered article framework",
+      "certainty": "conditional alternatives",
+      "attribution_constraint": "Do not imply a mandatory sequence or equal evidence for every option."
+    },
+    {
+      "unit_id": "SEM-INTRO-07",
+      "proposition": "Clear intellectual understanding of a younger part's needs may fail to create felt access when the body remains organized around trauma.",
+      "function": "Connect somatic work with inner-child therapy.",
+      "provenance_plane": "owner framework represented in the registered article; exact wording is not locked",
+      "certainty": "may occur",
+      "attribution_constraint": "Preserve the distinction between understanding and access; do not invent a personal episode."
+    },
+    {
+      "unit_id": "SEM-INTRO-08",
+      "proposition": "Some bodily easing may make inner-child work tolerable without the person being engulfed by the child-state.",
+      "function": "State the practical somatic-to-reparenting relationship.",
+      "provenance_plane": "owner framework represented in the registered article; exact wording is not locked",
+      "certainty": "sometimes, not always",
+      "attribution_constraint": "Keep the inner-child link destination attached to this concept and do not upgrade it to a universal mechanism."
+    }
+  ],
+  "hard_constraints": [
+    "Realize the semantic units from a blank page rather than paraphrasing the source realization.",
+    "Do not use the old paragraph count, conceptual-card order, or sentence cadence as an outline.",
+    "Do not invent autobiography, clinical authority, evidence strength, mechanisms, anecdotes, or certainty.",
+    "Do not add surface quirks, errors, slang, contractions, first-person framing, or short sentences merely to appear human.",
+    "Return only replacement prose for the four-paragraph Introduction opening; do not touch later article text."
+  ]
+}

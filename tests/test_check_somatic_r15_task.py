@@ -11,6 +11,9 @@ SPEC.loader.exec_module(MODULE)
 
 
 class SomaticOwnerOutcomeAcceptanceTests(unittest.TestCase):
+    def test_current_humanization_control_is_a_preflight_gate(self):
+        self.assertEqual(MODULE.humanization_control_failures(), [])
+
     def test_review_ready_at_13_82_percent_cannot_close_root_task(self):
         lock = {
             "status": "ready_for_owner_review",

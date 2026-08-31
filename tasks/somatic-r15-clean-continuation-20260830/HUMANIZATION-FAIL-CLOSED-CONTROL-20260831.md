@@ -1,6 +1,6 @@
 # Somatic R15 — Fail-Closed Humanization Control
 
-**Status:** CONTROLLING TASK-LOCAL CORRECTION  
+**Status:** CONTROLLING TASK-LOCAL CORRECTION / MECHANICALLY ENFORCED AT `prewrite_ready`
 **Date:** 2026-08-31  
 **Task:** `somatic-r15-clean-continuation-20260830`  
 **Owner correction:** do not count owner-authored Human prose as model humanization; stop repeating previously falsified conversational/paraphrase strategies.
@@ -38,14 +38,14 @@ Before prose generation, every natural source span in the requested boundary mus
 ```text
 OWNER_LOCK
 AI_TARGET
-UNKNOWN_FROZEN
+UNKNOWN
 ```
 
 Rules:
 
 - `OWNER_LOCK`: owner-authored or explicitly owner-adopted language. Preserve byte-for-byte unless the owner explicitly authorizes editing it.
 - `AI_TARGET`: provenance and task authority permit realization-only replacement.
-- `UNKNOWN_FROZEN`: do not edit and do not count as successful humanization.
+- `UNKNOWN`: freeze it, withhold it from the writer, do not edit it, and do not count it as successful humanization.
 
 No candidate may be evaluated as a humanization improvement by looking at the mixed section as a whole without separately accounting for the untouched `OWNER_LOCK` contribution.
 
@@ -208,6 +208,8 @@ independent_validation_gate = PASS
 
 The exact tested boundary must be hashed and frozen before submission.
 
+The `candidate_validated` control must also be saved as a separate hash-bound checkpoint while its detector status is still `not-run`. A later `detector_recorded` state is invalid unless it points back to that exact checkpoint and the submitted candidate hash matches it.
+
 A negative result updates the failed-family ledger. It must not trigger synonym spinning or immediate local variants.
 
 ## 12. Next permitted cycle
@@ -223,3 +225,25 @@ For the Introduction:
 7. Pangram only after owner inspection or explicit authorization.
 
 No further "cold pass" on the same mixed prose is an authorized strategy.
+
+## 13. Mechanical enforcement and current state
+
+The prose rules above are now projected into separate hash-bound artifacts:
+
+- `HUMANIZATION-CONTROL-STATE-20260831.json` — exact provenance coverage, state machine, release block, and detector ordering;
+- `INTRO-SEMANTIC-WRITER-INPUT-20260831.json` — the only input permitted to the Chat writer for this Introduction cycle;
+- `INTRO-REJECTED-STRATEGY-LEDGER-20260831.json` — withheld from the writer and supplied only to the separate adversarial Chat;
+- `../../scripts/validate_humanization_control.py` — mechanical identity/state validator;
+- `../../tests/test_validate_humanization_control.py` — causal mutations for provenance, input leakage, strategy coverage, attribution, structural recurrence, adversarial independence, fail-closed release, and detector order.
+
+Current workflow state is `prewrite_ready`. That is a valid control state but not a candidate pass: candidate visibility and detector eligibility remain blocked. No earlier whole-article revoice or mixed Chat rewrite is grandfathered into this cycle.
+
+Validate mechanically from the repository root:
+
+```bash
+python3 scripts/validate_humanization_control.py \
+  tasks/somatic-r15-clean-continuation-20260830/HUMANIZATION-CONTROL-STATE-20260831.json \
+  --root .
+```
+
+The validator proves hashes, input isolation, recorded gate completion, and legal state transitions. It does not write prose, decide semantic equivalence, or substitute for the two required Chat reasoning contexts.
