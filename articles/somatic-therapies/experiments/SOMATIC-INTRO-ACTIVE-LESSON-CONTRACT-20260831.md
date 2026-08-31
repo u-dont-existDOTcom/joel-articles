@@ -115,26 +115,63 @@ The literal wording may differ. This check concerns the hidden package.
 
 **Enforcement:** semantic + owner-evaluated.
 
+### A9 — positive-belief admission / owner time is not fallback QA
+
+**Trigger:** immediately before any candidate is shown to Joel.
+
+**Required behavior:** the Chat must positively believe, based on the literal candidate, that every active blocking lesson is cleared. The owner is evaluating genuinely unresolved quality, not filtering a regression the Chat already has enough information to detect.
+
+**FAIL if:** the Chat's internal state is `maybe`, `probably`, `better than before`, `worth testing`, `Joel can tell me`, or otherwise uncertain about whether a known blocking failure remains. Doubt about A1/A2/A3/A6/A8 counts as a failed admission state.
+
+**Repair:** block output, discard/reconstruct, and rerun the literal-candidate receipt. Do not externalize known-rule uncertainty to Joel.
+
+**Enforcement:** hard output interlock.
+
+### A10 — owner utterance classification must be literal
+
+**Trigger:** every Joel response in the manual loop.
+
+**Required behavior:** distinguish questions, probes, requests for explanation, hesitation, acceptance, rejection, and substantive correction. Do not infer a stronger owner judgment than the utterance supplies.
+
+**FAIL if:** a question such as `you believe that looks human?` is recorded as a rejection; or a skeptical/probing response is silently converted into acceptance, correction, or owner-final authority.
+
+**Repair:** correct the state record before continuing. If the utterance is only a question, answer the question; do not manufacture an editorial verdict.
+
+**Enforcement:** process + authority.
+
 ## Pre-delivery admission gate
 
 Before showing Joel any new Introduction candidate, the Chat writer must privately execute this receipt against the **literal candidate**:
 
 ```text
-A1 semantic obligations not rhetorical cards: PASS / FAIL — evidence
-A2 architectural change, not casual surface: PASS / FAIL — evidence
-A3 no over-completed packaging: PASS / FAIL — evidence
-A4 latest owner correction actually changed realization: PASS / FAIL / N/A — evidence
+A1 semantic obligations not rhetorical cards: PASS / FAIL — literal evidence
+A2 architectural change, not casual surface: PASS / FAIL — literal evidence
+A3 no over-completed packaging: PASS / FAIL — literal evidence
+A4 latest owner correction actually changed realization: PASS / FAIL / N/A — literal evidence
 A5 manual Joel↔Chat loop preserved: PASS / FAIL
-A6 preservation did not become outline/catch-up: PASS / FAIL — evidence
+A6 preservation did not become outline/catch-up: PASS / FAIL — literal evidence
 A7 source-integrity/no fabricated humanity: PASS / FAIL
-A8 known Somatic failed package absent: PASS / FAIL — evidence
+A8 known Somatic failed package absent: PASS / FAIL — literal evidence
+A9 positive belief that all blocking lessons are actually cleared: PASS / FAIL — state why
 Contract freshness after latest Joel correction: CURRENT / STALE
 ADMISSION: ADMITTED / BLOCKED
 ```
 
-Any substantive FAIL or STALE blocks delivery. Repair/reconstruct first and rerun the receipt.
+Every PASS must be supported by evidence from the literal candidate/process. Any substantive FAIL, any STALE contract, or any uncertainty under A9 blocks delivery.
 
-`I read the lesson`, `I remembered it`, or `the prompt said not to do it` is not a PASS. The evidence must be about the literal candidate/process.
+`I read the lesson`, `I remembered it`, `the prompt said not to do it`, `this seems improved`, and `Joel can test it` are not PASS evidence.
+
+The gate is a **hard output interlock**, not advisory self-critique. A candidate that the Chat itself would criticize for an active known failure cannot be shown merely because owner feedback might be informative.
+
+## Owner-response classification gate
+
+Before changing writer state after Joel replies, classify only what the literal response establishes:
+
+```text
+QUESTION / PROBE / REQUEST_FOR_EXPLANATION / HESITATION / ACCEPTANCE / REJECTION / SUBSTANTIVE_CORRECTION / MIXED
+```
+
+Do not promote QUESTION/PROBE/HESITATION into REJECTION or ACCEPTANCE by inference. A substantive correction may coexist with a question, but record only the correction actually supplied.
 
 ## After Joel responds
 
@@ -145,6 +182,8 @@ If Joel gives a substantive new correction:
 3. mark the old contract stale until that is done;
 4. only then write the next attempt.
 
+If Joel asks a question without supplying an editorial verdict, answer the question and leave acceptance/rejection state unchanged.
+
 This is the intended loop:
 
-**lessons stored → relevant lessons activated → one Chat attempt → admission gate → Joel evaluates → correction stored → contract refreshed → next attempt.**
+**lessons stored → relevant lessons activated → one Chat attempt → hard admission gate → Joel evaluates → literal owner-response classification → correction stored when present → contract refreshed → next attempt.**
