@@ -84,10 +84,25 @@
     "boundary": "clean isolated strategist and shadow-writer contexts; memory/skill learning disabled or segregated; no article authority",
     "installed_version": "0.21.0",
     "upstream_commit": "1b47277067f23441e40296040885f775ce16330f",
-    "dedicated_home": "somatic-intro-overnight/hermes-home",
     "bundled_skills_installed": false,
     "browser_installed": false,
     "computer_use_installed": false,
+    "profiles": {
+      "somatic-writer": {
+        "zero_tool_assertion": "PASS",
+        "memory_disabled": true,
+        "skills_seeded": false,
+        "plugins_enabled": false,
+        "mcp_servers_enabled": false
+      },
+      "somatic-strategist": {
+        "zero_tool_assertion": "PASS",
+        "memory_disabled": true,
+        "skills_seeded": false,
+        "plugins_enabled": false,
+        "mcp_servers_enabled": false
+      }
+    },
     "model_provider_available": false,
     "n8n_mcp_configured": false,
     "blocker": "NO_MODEL_PROVIDER_AND_NO_N8N_API_KEY; OPTIONAL_SETUP_DOES_NOT_BLOCK_PRIMARY_LOOP"
