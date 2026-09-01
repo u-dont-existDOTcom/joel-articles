@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "READY_TO_START",
+  "status": "EVALUATION_PENDING",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -51,28 +51,44 @@
     "no_repeat_rule": true,
     "ambiguous_action_rule": "RECOVER_BEFORE_REPEAT"
   },
-  "next_writer_packet": {
+  "next_writer_packet": null,
+  "pending_eval_candidate": {
+    "candidate_text": "The body can be halfway into its reaction before there’s even a name for what’s happening. That doesn’t mean choice has vanished. It may be a smaller choice than we’d like, and it may arrive later than we’d like, but it’s still there: in what we do next, in what we don’t say yet, in whether we follow the reaction wherever it wants to go. Sometimes the body keeps reacting anyway.",
+    "candidate_sha256": "2543f5b29aedb324cd9957171c6913959998aaca37e3e0144de18941d6aa24c3",
+    "word_count": 71,
     "packet_id": "ISO-WRITER-001",
-    "lane_preference": "FRESH_CHAT_SAME_MODEL",
-    "live_pressure_fragment": "still have choice while the body is reacting",
-    "instructions": [
-      "Write one non-authoritative exploratory Somatic Introduction paragraph from this live pressure without trying to cover the whole Introduction or land a takeaway.",
-      "At least 50 words.",
-      "Do not invent autobiography, symptoms, chronology, evidence, clinical facts, or factual specificity not supplied.",
-      "Do not imitate or borrow unrelated Human prose.",
-      "Do not mention detectors, AI, the experiment, prior drafts, or evaluator criteria.",
-      "Return prose only."
-    ]
+    "strategy_epoch_ordinal": 1,
+    "writer_lane": "FRESH_CHAT_SAME_MODEL",
+    "writer_runtime": "CHATGPT_WORK_FRESH_CONVERSATION",
+    "writer_context_id": "6a962f87-d550-83ea-b123-de79ccd44503",
+    "provider_label": "CHATGPT_WORK",
+    "model_label": "PROJECT_DEFAULT_UNDISCLOSED",
+    "cold_evaluator_payload": "eval\\n\\n<exact candidate>",
+    "evaluator_has_received_candidate": false
   },
-  "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
   "n8n_shadow": {
-    "status": "SETUP_REQUIRED",
-    "boundary": "localhost/private-only; orchestration and execution metadata only; GitHub remains canonical; no PASS/FAIL authority"
+    "status": "READY_INACTIVE_METADATA_ONLY",
+    "boundary": "localhost/private-only; orchestration and execution metadata only; GitHub remains canonical; no PASS/FAIL authority",
+    "container": "somatic-intro-n8n-20260901",
+    "listen": "127.0.0.1:5678",
+    "workflow_count": 6,
+    "all_workflows_active": false,
+    "public_api_enabled": false,
+    "detector_action_allowed": false
   },
   "hermes_shadow": {
-    "status": "SETUP_REQUIRED",
-    "boundary": "clean isolated strategist and shadow-writer contexts; memory/skill learning disabled or segregated; no article authority"
+    "status": "OPTIONAL_SHADOW_SETUP_BLOCKED",
+    "boundary": "clean isolated strategist and shadow-writer contexts; memory/skill learning disabled or segregated; no article authority",
+    "installed_version": "0.21.0",
+    "upstream_commit": "1b47277067f23441e40296040885f775ce16330f",
+    "dedicated_home": "somatic-intro-overnight/hermes-home",
+    "bundled_skills_installed": false,
+    "browser_installed": false,
+    "computer_use_installed": false,
+    "model_provider_available": false,
+    "n8n_mcp_configured": false,
+    "blocker": "NO_MODEL_PROVIDER_AND_NO_N8N_API_KEY; OPTIONAL_SETUP_DOES_NOT_BLOCK_PRIMARY_LOOP"
   },
   "last_cold_verdict": {
     "candidate_sha256": "3e557db96d7e1b46094e59ca2ebcaf788d6fe5d5365e2cb0f9ac6b9191366a5c",
@@ -80,5 +96,5 @@
     "strongest_literal_defect": "Engineered visible-versus-hidden contrast culminating in a compact looks-impressive/leaves-worse-off antithesis.",
     "strategy_implication": "Contrastive attention correction is becoming a binary rhetorical organizer; immediate meta-audit selected radical reset rather than another local prose gate."
   },
-  "next_action": "CODEX_SETUP_OVERNIGHT_DRIVER_THEN_LAUNCH_ISOLATED_WRITER_001"
+  "next_action": "CODEX_SEND_EXACT_CANDIDATE_TO_EVALUATOR_WITHOUT_METADATA"
 }
