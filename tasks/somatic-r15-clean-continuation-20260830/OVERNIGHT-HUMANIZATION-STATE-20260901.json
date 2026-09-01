@@ -48,16 +48,16 @@
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
     "seed": "afterward",
     "relay_candidate_ordinal": 2,
-    "buffer": "Afterward, the reaction may still be moving even when the moment that stirred it has passed. The body does not always notice at once that it is no longer answering the same moment.",
-    "buffer_word_count": 33,
-    "sentence_count": 2,
-    "next_sentence_writer_ordinal": 3,
+    "buffer": "Afterward, the reaction may still be moving even when the moment that stirred it has passed. The body does not always notice at once that it is no longer answering the same moment. It may go on answering for a while.",
+    "buffer_word_count": 41,
+    "sentence_count": 3,
+    "next_sentence_writer_ordinal": 4,
     "writer_context_policy": "NEW_FRESH_CONTEXT_FOR_EVERY_SENTENCE",
     "writer_receives_length_target": false,
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_RECOVER_RELAY_002_SENTENCE_WRITER_003_RESULT",
+    "next_action": "CODEX_LAUNCH_RELAY_002_SENTENCE_WRITER_004",
     "sentence_history": [
       {
         "ordinal": 1,
@@ -74,18 +74,21 @@
         "writer_context_id": "6a9639be-e744-83e9-989d-290701f80de3",
         "writer_lane": "FRESH_CHAT_SAME_MODEL",
         "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
+      },
+      {
+        "ordinal": 3,
+        "sentence_text": "It may go on answering for a while.",
+        "sentence_sha256": "81bf799b3b8dbf3688ac0881050bd42a7b84dc7d826dd8f960ceb2a8024a9135",
+        "writer_context_id": "6a963e2d-e99c-83ea-9df4-b58d6bc9f1bc",
+        "writer_lane": "FRESH_CHAT_SAME_MODEL",
+        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
       }
     ],
     "buffer_sha256": null,
     "frozen": false,
     "frozen_candidate_sha256": null,
     "frozen_at_first_sentence_boundary_at_or_above_50": false,
-    "pending_sentence_writer": {
-      "ordinal": 3,
-      "client_thread_id": "local-chatgpt:42251a02-1d5e-4dfc-a42a-30164dfed9a6",
-      "status": "PROVISIONING_OR_RUNNING",
-      "fresh_context": true
-    }
+    "pending_sentence_writer": null
   },
   "next_writer_packet": null,
   "pending_eval_candidate": null,
@@ -157,5 +160,5 @@
       "failure_family": "SERIAL_RELAY_BALANCED_PARADOX_TO_AGENCY_HARVEST"
     }
   ],
-  "next_action": "CODEX_RECOVER_RELAY_002_SENTENCE_WRITER_003_RESULT_THEN_APPLY_HIDDEN_LENGTH_CONTROLLER"
+  "next_action": "CODEX_LAUNCH_RELAY_002_SENTENCE_WRITER_004_THEN_APPLY_HIDDEN_LENGTH_CONTROLLER"
 }
