@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "RADICAL_RESET_RELAY_REQUIRED",
+  "status": "EVALUATION_PENDING",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -84,10 +84,31 @@
         "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
       }
     ],
-    "buffer_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c"
+    "buffer_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
+    "frozen": true,
+    "frozen_candidate_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
+    "frozen_at_first_sentence_boundary_at_or_above_50": true
   },
   "next_writer_packet": null,
-  "pending_eval_candidate": null,
+  "pending_eval_candidate": {
+    "candidate_text": "Afterward, there is still the awkward question of what to do with a reaction that has already begun but has not yet decided everything. It can feel too late for choice and still be too early to know what the reaction will become. Sometimes the only choice available there is whether to rush in behind it.",
+    "candidate_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
+    "word_count": 56,
+    "packet_id": "SERIAL-RELAY-E2-CANDIDATE-001",
+    "strategy_epoch_ordinal": 2,
+    "writer_lane": "FRESH_CHAT_SAME_MODEL",
+    "writer_runtime": "CHATGPT_WORK_SERIAL_FRESH_SENTENCE_RELAY",
+    "sentence_count": 3,
+    "writer_context_ids": [
+      "6a9636be-c710-83e9-998f-a2785113210b",
+      "6a96372d-e12c-83e9-81e6-b78ba2fe77ac",
+      "6a963826-752c-83ea-9f33-fd28d8d938b7"
+    ],
+    "provider_label": "CHATGPT_WORK",
+    "model_label": "PROJECT_DEFAULT_UNDISCLOSED",
+    "cold_evaluator_payload": "eval\\n\\n<exact candidate>",
+    "evaluator_has_received_candidate": false
+  },
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -147,5 +168,5 @@
       "failure_family": "LOW_INFORMATION_SEED_TO_POLISHED_PARADOXICAL_MINI_ESSAY"
     }
   ],
-  "next_action": "CODEX_FREEZE_EXACT_RELAY_CANDIDATE_FOR_COLD_EVAL"
+  "next_action": "CODEX_SEND_EXACT_RELAY_CANDIDATE_TO_EVALUATOR_WITHOUT_METADATA"
 }
