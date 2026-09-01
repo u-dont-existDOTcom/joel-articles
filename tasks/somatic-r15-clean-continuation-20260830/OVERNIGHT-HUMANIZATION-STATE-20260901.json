@@ -1,7 +1,7 @@
 {
   "schema_version": 6,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "EVAL_REQUIRED",
+  "status": "EVAL_PENDING",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -52,7 +52,7 @@
     "runtime_identity_must_be_known": true,
     "same_model_fresh_chat_does_not_count": true,
     "candidate_results": [],
-    "next_action": "CODEX_SEND_ALT_RUNTIME_BLIND_001_EXACT_CANDIDATE_TO_EVALUATOR"
+    "next_action": "CODEX_RECOVER_ALT_RUNTIME_BLIND_001_VERDICT_THEN_REVEAL_AND_PERSIST_RUNTIME_IDENTITY"
   },
   "pending_eval_candidate": {
     "candidate_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153",
@@ -62,7 +62,10 @@
     "writer_lane": "ALTERNATE_RUNTIME_IDENTITY_WITHHELD_UNTIL_VERDICT",
     "runtime_identity_status": "KNOWN_TO_CODEX_WITHHELD_FROM_EVALUATOR_UNTIL_VERDICT",
     "eval_payload_rule": "eval\\n\\n<exact candidate only>",
-    "evaluator_blinding": "REQUIRED"
+    "evaluator_blinding": "REQUIRED",
+    "dispatched_to_evaluator_chat": "6a961bbd-6318-83ea-8444-31bc8ffaa654",
+    "dispatch_status": "SENT_EXACT_BLINDED_PAYLOAD",
+    "dispatch_payload_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153"
   },
   "pending_pangram_authorization": null,
   "n8n_shadow": {
@@ -141,5 +144,5 @@
       "failure_family": "SERIAL_RELAY_SEMANTIC_ORBIT_TO_TIDY_FINAL_DISTINCTION"
     }
   ],
-  "next_action": "CODEX_SEND_ALT_RUNTIME_BLIND_001_EXACT_CANDIDATE_TO_EVALUATOR"
+  "next_action": "CODEX_RECOVER_ALT_RUNTIME_BLIND_001_VERDICT_THEN_REVEAL_AND_PERSIST_RUNTIME_IDENTITY"
 }
