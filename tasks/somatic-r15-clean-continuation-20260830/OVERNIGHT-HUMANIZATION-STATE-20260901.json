@@ -48,16 +48,16 @@
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
     "seed": "afterward",
     "relay_candidate_ordinal": 1,
-    "buffer": "Afterward, there is still the awkward question of what to do with a reaction that has already begun but has not yet decided everything. It can feel too late for choice and still be too early to know what the reaction will become.",
-    "buffer_word_count": 43,
-    "sentence_count": 2,
-    "next_sentence_writer_ordinal": 3,
+    "buffer": "Afterward, there is still the awkward question of what to do with a reaction that has already begun but has not yet decided everything. It can feel too late for choice and still be too early to know what the reaction will become. Sometimes the only choice available there is whether to rush in behind it.",
+    "buffer_word_count": 56,
+    "sentence_count": 3,
+    "next_sentence_writer_ordinal": null,
     "writer_context_policy": "NEW_FRESH_CONTEXT_FOR_EVERY_SENTENCE",
     "writer_receives_length_target": false,
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_RECOVER_RELAY_SENTENCE_WRITER_003_RESULT",
+    "next_action": "CODEX_FREEZE_RELAY_AT_FIRST_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
     "sentence_history": [
       {
         "ordinal": 1,
@@ -74,14 +74,17 @@
         "writer_context_id": "6a96372d-e12c-83e9-81e6-b78ba2fe77ac",
         "writer_lane": "FRESH_CHAT_SAME_MODEL",
         "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
+      },
+      {
+        "ordinal": 3,
+        "sentence_text": "Sometimes the only choice available there is whether to rush in behind it.",
+        "sentence_sha256": "885803296bcc4355ce7bca91d64ef733b889f80533bf2fed112e2fd847387103",
+        "writer_context_id": "6a963826-752c-83ea-9f33-fd28d8d938b7",
+        "writer_lane": "FRESH_CHAT_SAME_MODEL",
+        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
       }
     ],
-    "pending_sentence_writer": {
-      "ordinal": 3,
-      "client_thread_id": "local-chatgpt:7ab4e211-75ba-483b-94a5-0ede8348d8ca",
-      "status": "PROVISIONING_OR_RUNNING",
-      "fresh_context": true
-    }
+    "buffer_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c"
   },
   "next_writer_packet": null,
   "pending_eval_candidate": null,
@@ -144,5 +147,5 @@
       "failure_family": "LOW_INFORMATION_SEED_TO_POLISHED_PARADOXICAL_MINI_ESSAY"
     }
   ],
-  "next_action": "CODEX_RECOVER_RELAY_SENTENCE_WRITER_003_RESULT_THEN_APPLY_HIDDEN_LENGTH_CONTROLLER"
+  "next_action": "CODEX_FREEZE_EXACT_RELAY_CANDIDATE_FOR_COLD_EVAL"
 }
