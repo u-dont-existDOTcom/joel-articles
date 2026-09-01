@@ -48,16 +48,16 @@
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
     "seed": "afterward",
     "relay_candidate_ordinal": 1,
-    "buffer": "Afterward, there is still the awkward question of what to do with a reaction that has already begun but has not yet decided everything.",
-    "buffer_word_count": 24,
-    "sentence_count": 1,
-    "next_sentence_writer_ordinal": 2,
+    "buffer": "Afterward, there is still the awkward question of what to do with a reaction that has already begun but has not yet decided everything. It can feel too late for choice and still be too early to know what the reaction will become.",
+    "buffer_word_count": 43,
+    "sentence_count": 2,
+    "next_sentence_writer_ordinal": 3,
     "writer_context_policy": "NEW_FRESH_CONTEXT_FOR_EVERY_SENTENCE",
     "writer_receives_length_target": false,
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_RECOVER_RELAY_SENTENCE_WRITER_002_RESULT",
+    "next_action": "CODEX_LAUNCH_RELAY_SENTENCE_WRITER_003",
     "sentence_history": [
       {
         "ordinal": 1,
@@ -66,14 +66,16 @@
         "writer_context_id": "6a9636be-c710-83e9-998f-a2785113210b",
         "writer_lane": "FRESH_CHAT_SAME_MODEL",
         "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
+      },
+      {
+        "ordinal": 2,
+        "sentence_text": "It can feel too late for choice and still be too early to know what the reaction will become.",
+        "sentence_sha256": "ec9f96091c59981c79f55223555f70e1d133f012b56b2832dac9d9484e67bcff",
+        "writer_context_id": "6a96372d-e12c-83e9-81e6-b78ba2fe77ac",
+        "writer_lane": "FRESH_CHAT_SAME_MODEL",
+        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
       }
-    ],
-    "pending_sentence_writer": {
-      "ordinal": 2,
-      "client_thread_id": "local-chatgpt:e79f7b98-0147-4d7b-aff3-e291a34ecd66",
-      "status": "PROVISIONING_OR_RUNNING",
-      "fresh_context": true
-    }
+    ]
   },
   "next_writer_packet": null,
   "pending_eval_candidate": null,
@@ -136,5 +138,5 @@
       "failure_family": "LOW_INFORMATION_SEED_TO_POLISHED_PARADOXICAL_MINI_ESSAY"
     }
   ],
-  "next_action": "CODEX_RECOVER_RELAY_SENTENCE_WRITER_002_RESULT_THEN_APPLY_HIDDEN_LENGTH_CONTROLLER"
+  "next_action": "CODEX_CONTINUE_SERIAL_FRESH_WRITER_RELAY_BELOW_50_WORDS"
 }
