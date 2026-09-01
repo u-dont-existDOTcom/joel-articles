@@ -60,10 +60,20 @@
         "failure_family": "LYRICAL_ATMOSPHERIC_ABSTRACTION_TO_POLISHED_NONINTERPRETIVE_CLOSURE",
         "strongest_literal_defect": "Stacked atmospheric abstractions such as 'thin membrane of silence', 'vessel emptied of its immediate purpose', and 'subtle vibrations of existence' create a highly manufactured literary register, while the paragraph carries a no-demand/no-interpretation theme to a polished close.",
         "pangram": "NOT_AUTHORIZED",
-        "runtime_identity_reveal_status": "CODEX_MAY_REVEAL_AND_PERSIST_AFTER_FROZEN_VERDICT"
+        "runtime_identity_reveal_status": "REVEALED_AFTER_FROZEN_VERDICT_AND_PERSISTED",
+        "runtime_identity": {
+          "family": "Qwen",
+          "runtime": "Ollama",
+          "model": "orcarouter/Qwen3.8-27B-Uncensored:latest",
+          "architecture": "qwen35",
+          "parameters": "27.3B",
+          "quantization": "Q4_K_M",
+          "model_digest": "6fac2f98fdf7",
+          "provider": "LOCAL_INSTALLED_MODEL"
+        }
       }
     ],
-    "next_action": "CODEX_REVEAL_ALT_RUNTIME_001_IDENTITY_THEN_OBTAIN_SECOND_GENUINELY_DISTINCT_RUNTIME_CANDIDATE"
+    "next_action": "CODEX_OBTAIN_ALT_RUNTIME_BLIND_002_FROM_SECOND_GENUINELY_DISTINCT_KNOWN_MODEL_FAMILY"
   },
   "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
@@ -97,5 +107,5 @@
     "pangram_authorized": false
   },
   "history_note": "Prior five FAILs remain preserved in earlier schema versions and Git history; cumulative counters retain them.",
-  "next_action": "CODEX_REVEAL_ALT_RUNTIME_001_IDENTITY_THEN_OBTAIN_SECOND_GENUINELY_DISTINCT_RUNTIME_CANDIDATE"
+  "next_action": "CODEX_OBTAIN_ALT_RUNTIME_BLIND_002_FROM_SECOND_GENUINELY_DISTINCT_KNOWN_MODEL_FAMILY"
 }
