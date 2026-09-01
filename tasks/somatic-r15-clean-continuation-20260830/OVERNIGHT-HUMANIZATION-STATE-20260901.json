@@ -1,14 +1,14 @@
 {
   "schema_version": 8,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "RUNTIME_IDENTITY_REVEAL_REQUIRED",
+  "status": "STOPPED_ABANDON_LANE_NO_AUTHORIZED_SUCCESSOR",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
     "ordinal": 3,
     "family": "ALTERNATE_RUNTIME_WRITER_TOURNAMENT",
-    "disposition": "AWAIT_ALT_002_RUNTIME_IDENTITY_BEFORE_TOURNAMENT_CLOSEOUT",
-    "reason": "ALT-RUNTIME-BLIND-002 cold-FAILed under blinded evaluation. Its surface was more interesting than ALT-001 but remained manufactured: stacked metaphors, repeated self-reframing, and a polished conceptual close. The tournament can close with ABANDON_GENERATIVE_RECONSTRUCTION_AS_PRIMARY_LANE only after Codex reveals and persists that ALT-002 is a genuinely distinct known model family from ALT-001/Qwen.",
+    "disposition": "ABANDON_GENERATIVE_RECONSTRUCTION_AS_PRIMARY_LANE",
+    "reason": "The evaluator's frozen conditional disposition is now mechanically satisfied: ALT-001 used Qwen and ALT-002 used Claude Opus 5, two genuinely distinct known model families, and both cold-FAILed. Per the active tournament protocol, synthetic generative reconstruction is abandoned as the primary lane.",
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/ALTERNATE-RUNTIME-WRITER-TOURNAMENT-20260901.md",
     "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md",
     "prior_epoch": "SERIAL_FRESH_WRITER_RELAY",
@@ -79,11 +79,27 @@
         "failure_family": "METAPHOR_STACK_AND_SELF_REFRAMING_TO_CONCEPTUALIZED_BODY_AGENCY_CLOSE",
         "strongest_literal_defect": "The paragraph repeatedly replaces one metaphorical frame with another—thinking, trailing hum, aftermath/residue, slow arithmetic—and closes by personifying the body as a polished conceptual agent arriving at conclusions it does not bother to translate.",
         "pangram": "NOT_AUTHORIZED",
-        "runtime_identity_reveal_status": "PENDING_CODEX_REVEAL_AFTER_FROZEN_VERDICT",
-        "runtime_identity": null
+        "runtime_identity_reveal_status": "REVEALED_AFTER_FROZEN_VERDICT_AND_PERSISTED",
+        "runtime_identity": {
+          "family": "Claude",
+          "runtime": "Claude Code",
+          "runtime_version": "2.1.241",
+          "model": "claude-opus-5",
+          "canonical_model": "claude-opus-5",
+          "provider": "firstParty",
+          "auth": "EXISTING_CLAUDE_AI_MAX_SESSION",
+          "execution_profile": "SAFE_MODE_NO_TOOLS_NO_SESSION_PERSISTENCE",
+          "subagents_spawned": 0
+        }
       }
     ],
-    "next_action": "CODEX_REVEAL_AND_PERSIST_ALT_RUNTIME_BLIND_002_IDENTITY_THEN_APPLY_TOURNAMENT_DECISION"
+    "next_action": "STOP_AND_CHECKPOINT_NO_AUTHORIZED_SUCCESSOR_LANE",
+    "distinct_model_families_tested": [
+      "Qwen",
+      "Claude"
+    ],
+    "minimum_distinct_model_families_satisfied": true,
+    "decision": "ABANDON_GENERATIVE_RECONSTRUCTION_AS_PRIMARY_LANE"
   },
   "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
@@ -117,5 +133,32 @@
     "pangram_authorized": false
   },
   "history_note": "Prior six FAILs remain preserved in earlier schema versions and Git history; cumulative counters retain them.",
-  "next_action": "CODEX_REVEAL_AND_PERSIST_ALT_RUNTIME_BLIND_002_IDENTITY_THEN_APPLY_TOURNAMENT_DECISION"
+  "next_action": "STOP_AND_REPORT_TOURNAMENT_CLOSEOUT_OWNER_REVIEW_POINT",
+  "stop_receipt": {
+    "stop_condition": "ABANDON_LANE_WITH_NO_AUTHORIZED_SUCCESSOR",
+    "completed_eval_cycles_total": 7,
+    "completed_eval_cycles_current_chat": 7,
+    "cold_passes": 0,
+    "cold_fails": 7,
+    "cold_uncertain": 0,
+    "false_pass_retractions": 1,
+    "pangram_new_paid_calls": 0,
+    "pangram_cache_hits": 0,
+    "strategy_audits_completed": 2,
+    "evaluator_handoffs_completed": 0,
+    "alternate_runtime_families_tested": [
+      "Qwen",
+      "Claude"
+    ],
+    "alternate_runtime_results": [
+      "FAIL",
+      "FAIL"
+    ],
+    "n8n_shadow": "READY_INACTIVE_METADATA_ONLY",
+    "hermes_shadow": "OPTIONAL_SHADOW_SETUP_BLOCKED_NO_PROVIDER",
+    "article_authority_mutation": "BLOCKED_UNCHANGED",
+    "registered_master_edited": false,
+    "article_promotion": false,
+    "unrelated_human_donor_prose_inserted": false
+  }
 }
