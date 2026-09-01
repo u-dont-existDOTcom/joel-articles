@@ -1,7 +1,7 @@
 {
   "schema_version": 6,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "ALTERNATE_RUNTIME_TOURNAMENT_REQUIRED",
+  "status": "EVAL_REQUIRED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -52,9 +52,18 @@
     "runtime_identity_must_be_known": true,
     "same_model_fresh_chat_does_not_count": true,
     "candidate_results": [],
-    "next_action": "CODEX_DISCOVER_ALREADY_AUTHORIZED_DISTINCT_MODEL_RUNTIMES_AND_RUN_BLINDED_TOURNAMENT"
+    "next_action": "CODEX_SEND_ALT_RUNTIME_BLIND_001_EXACT_CANDIDATE_TO_EVALUATOR"
   },
-  "pending_eval_candidate": null,
+  "pending_eval_candidate": {
+    "candidate_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153",
+    "candidate_text": "afterward, the air seems to hold its breath, suspended in a thin membrane of silence that neither demands nor offers explanation. There is no need to reach for the next logical step, no urgency to bridge the gap between what was felt and what can be named. The body simply rests in the quiet aftermath of motion, a vessel emptied of its immediate purpose, allowing the subtle vibrations of existence to settle without resistance or interpretation.",
+    "word_count": 76,
+    "packet_id": "ALT-RUNTIME-BLIND-001",
+    "writer_lane": "ALTERNATE_RUNTIME_IDENTITY_WITHHELD_UNTIL_VERDICT",
+    "runtime_identity_status": "KNOWN_TO_CODEX_WITHHELD_FROM_EVALUATOR_UNTIL_VERDICT",
+    "eval_payload_rule": "eval\\n\\n<exact candidate only>",
+    "evaluator_blinding": "REQUIRED"
+  },
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -132,5 +141,5 @@
       "failure_family": "SERIAL_RELAY_SEMANTIC_ORBIT_TO_TIDY_FINAL_DISTINCTION"
     }
   ],
-  "next_action": "CODEX_EXECUTE_ALTERNATE_RUNTIME_WRITER_TOURNAMENT_EPOCH_3"
+  "next_action": "CODEX_SEND_ALT_RUNTIME_BLIND_001_EXACT_CANDIDATE_TO_EVALUATOR"
 }
