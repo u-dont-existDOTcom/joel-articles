@@ -1,5 +1,5 @@
 {
-  "schema_version": 12,
+  "schema_version": 13,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
   "workflow_state": "owner_direct_live_mutational_composition_experiment",
   "last_authoritative_head_before_state_update": "248c532126ac26be59d89f611398276f5a756735",
@@ -23,13 +23,15 @@
     "persona_boundary": "A provisional Joel stance may guide judgment/taste only; it may not fabricate autobiography, symptoms, chronology, evidence, or unauthorized claims."
   },
   "strategy": {
-    "active_family": "LIVE_MUTATIONAL_COMPOSITION_WITH_WRITER_BLIND_CONTROLLER_AND_PROVISIONAL_BURST_BUFFER",
-    "method": "Keep a small parallel pool of live pre-propositional pressures; compose from literal text and local pressure rather than a semantic coverage plan; keep critic history outside the writer packet; after one real lexical clarification temporarily evict that repaired anchor from generative attention. The numerical minimum-length requirement remains controller-only state. During production, sentence boundaries create provisional text only: do not conceptually accept/reject each sentence or require each sentence to change the thought. The external controller may return only CONTINUE or STOP after provisional sentence boundaries. STOP freezes the entire buffer, after which the critic reopens structural and overexplanation gates. Reconcile source obligations only after a live passage exists.",
+    "active_family": "LIVE_MUTATIONAL_COMPOSITION_WITH_PROVISIONAL_BUFFER_AND_CONTRASTIVE_ATTENTION_SCHEDULER",
+    "method": "Keep a genuinely pre-propositional reserve of two or three incomplete pressures while exposing only one to the writer at a time. Compose into a provisional burst buffer without sentence-level conceptual review; keep critic history and the numerical minimum outside the writer. After provisional sentence boundaries, a separate contrastive attention scheduler checks only whether the newest pair are substantially interchangeable realizations of one proposition. If so, it temporarily masks that semantic center and exposes a peripheral literal pressure or dormant pre-propositional reserve item without revealing the diagnosis or consulting source coverage. The length controller independently returns only CONTINUE or STOP. STOP freezes the whole buffer for critic review. Reconcile source obligations only after a live passage exists.",
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
     "writer_critic_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/WRITER-CRITIC-FIREWALL-20260831.md",
     "source_occlusion_and_floor_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SOURCE-CARD-OCCLUSION-GATE-20260831.md",
     "attention_eviction_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/POST-REPAIR-ANCHOR-EVICTION-GATE-20260901.md",
     "provisional_burst_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/PROVISIONAL-BURST-BUFFER-GATE-20260901.md",
+    "semantic_orbit_snapshot_path": "tasks/somatic-r15-clean-continuation-20260830/SEMANTIC-ORBIT-DIAGNOSTIC-SNAPSHOT-20260901.md",
+    "contrastive_scheduler_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/CONTRASTIVE-ATTENTION-SCHEDULER-GATE-20260901.md",
     "known_pull_signature": "body/mind mismatch premise -> complex-trauma qualification -> readiness checklist -> regulation verdict -> EMDR exception -> bodily-discharge exception -> polished inner-child transfer/closure",
     "mvi_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_INSTRUCTION",
     "anti_pull_status": "INCORPORATED_ONLY_AS_BACKGROUND_AWARENESS_NOT_ACTIVE_COMPOSITION_OUTLINE",
@@ -70,9 +72,10 @@
   },
   "next_action": {
     "type": "OWNER_FACING_LIVE_MUTATIONAL_PARAGRAPH",
-    "writer_instruction": "Generate exploratory Somatic Introduction prose from one small pre-propositional snag, literal text-so-far, and local curiosity/association. Do not receive or reason from any numerical length target, word count, countdown, expected sentence count, or stopping horizon. Treat sentence endings as provisional punctuation rather than conceptual review points. Do not ask after each sentence whether it changed the thought, earned its place, or should be deleted. Immediate interruption is reserved for material semantic/provenance violations, invented facts/autobiography, unintelligibility, or hard owner boundaries. Do not reconcile missing source obligations yet unless they arise naturally.",
-    "controller_instruction": "After each provisional sentence, privately count the frozen buffer. Return only CONTINUE while the owner's minimum-length requirement is unmet and STOP at the first provisional sentence boundary that satisfies it. Do not disclose count, distance, threshold, semantic feedback, or editorial judgment to the writer.",
-    "critic_instruction": "Only after STOP, evaluate the whole frozen buffer for AI shape, repetition, concept harvesting, thesis gravity, source/provenance violations, and true stopping point. Do not retroactively line-edit it under the writer role.",
+    "writer_instruction": "Generate exploratory Somatic Introduction prose from the currently exposed pre-propositional pressure and literal text-so-far. Do not receive the whole reserve, source-coverage map, critic diagnosis, scheduler judgment, numerical length target, word count, countdown, expected sentence count, or stopping horizon. Treat sentence endings as provisional punctuation rather than conceptual review points. Immediate interruption is reserved for material semantic/provenance violations, invented facts/autobiography, unintelligibility, or hard owner boundaries.",
+    "scheduler_instruction": "Maintain two or three incomplete pre-propositional pressures outside the writer view. After each provisional sentence, check only whether the newest sentence and its predecessor are substantially interchangeable realizations of one proposition. If yes, temporarily mask that semantic center and expose a different peripheral literal pressure or dormant reserve item; reveal neither the reason nor any semantic label to the writer. Do not consult source coverage, create a complementary claim, or force an incoherent shift.",
+    "controller_instruction": "After each provisional sentence, privately count the frozen buffer. Return only CONTINUE while the owner's minimum-length requirement is unmet and STOP at the first provisional sentence boundary that satisfies it. Do not disclose count, distance, threshold, semantic feedback, or editorial judgment to the writer or scheduler.",
+    "critic_instruction": "Only after STOP, evaluate the whole frozen buffer for AI shape, semantic orbit, card succession, arbitrary wandering, repetition, concept harvesting, thesis gravity, source/provenance violations, and true stopping point. Do not retroactively line-edit it under the writer role.",
     "automatic_action_after_owner_response": false
   }
 }
