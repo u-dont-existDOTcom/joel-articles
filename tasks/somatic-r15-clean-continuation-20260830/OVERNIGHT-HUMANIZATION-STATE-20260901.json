@@ -1,27 +1,27 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "EVALUATION_PENDING",
+  "status": "RELAY_WRITER_REQUIRED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
     "ordinal": 2,
     "family": "SERIAL_FRESH_WRITER_RELAY",
-    "disposition": "RADICAL_RESET",
-    "reason": "Three primary physically isolated same-model whole-paragraph writers all cold-FAILed, including trial 003 from the low-information lexical seed 'afterward'. Whole-paragraph horizon remains sufficient for the model to reconstruct polished mini-essay closure. Stop refining packet semantics; remove paragraph-level writer horizon by resetting context at every sentence boundary.",
+    "disposition": "CONTINUE_UNCHANGED_FOR_SECOND_RELAY_BENCHMARK",
+    "reason": "Relay candidate 001 cold-FAILed with the same broad mini-essay/closure family despite physical context reset at every sentence boundary. Per the epoch-2 protocol, run exactly one second relay paragraph under the unchanged relay architecture before another strategy meta-audit.",
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
     "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md",
     "prior_epoch": "PHYSICAL_ROLE_ISOLATION_WITH_WHOLE_PARAGRAPH_WRITER",
     "prior_epoch_result": "FAILED_3_OF_3_COLD_EVAL_ZERO_PANGRAM_ELIGIBLE"
   },
   "counters": {
-    "completed_eval_cycles_total": 3,
-    "completed_eval_cycles_current_chat": 3,
-    "completed_eval_cycles_since_strategy_audit": 0,
+    "completed_eval_cycles_total": 4,
+    "completed_eval_cycles_current_chat": 4,
+    "completed_eval_cycles_since_strategy_audit": 1,
     "strategy_audits_completed": 1,
     "handoffs_completed": 0,
     "cold_passes": 0,
-    "cold_fails": 3,
+    "cold_fails": 4,
     "cold_uncertain": 0,
     "false_pass_retractions": 1,
     "pangram_new_paid_calls": 0,
@@ -47,70 +47,25 @@
   "relay": {
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
     "seed": "afterward",
-    "relay_candidate_ordinal": 1,
-    "buffer": "Afterward, there is still the awkward question of what to do with a reaction that has already begun but has not yet decided everything. It can feel too late for choice and still be too early to know what the reaction will become. Sometimes the only choice available there is whether to rush in behind it.",
-    "buffer_word_count": 56,
-    "sentence_count": 3,
-    "next_sentence_writer_ordinal": null,
+    "relay_candidate_ordinal": 2,
+    "buffer": "",
+    "buffer_word_count": 0,
+    "sentence_count": 0,
+    "next_sentence_writer_ordinal": 1,
     "writer_context_policy": "NEW_FRESH_CONTEXT_FOR_EVERY_SENTENCE",
     "writer_receives_length_target": false,
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_FREEZE_RELAY_AT_FIRST_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "sentence_history": [
-      {
-        "ordinal": 1,
-        "sentence_text": "Afterward, there is still the awkward question of what to do with a reaction that has already begun but has not yet decided everything.",
-        "sentence_sha256": "f9acd4160452ed756d1ee51e5c8de34b41243a4e9fb725f8820da683382859bd",
-        "writer_context_id": "6a9636be-c710-83e9-998f-a2785113210b",
-        "writer_lane": "FRESH_CHAT_SAME_MODEL",
-        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
-      },
-      {
-        "ordinal": 2,
-        "sentence_text": "It can feel too late for choice and still be too early to know what the reaction will become.",
-        "sentence_sha256": "ec9f96091c59981c79f55223555f70e1d133f012b56b2832dac9d9484e67bcff",
-        "writer_context_id": "6a96372d-e12c-83e9-81e6-b78ba2fe77ac",
-        "writer_lane": "FRESH_CHAT_SAME_MODEL",
-        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
-      },
-      {
-        "ordinal": 3,
-        "sentence_text": "Sometimes the only choice available there is whether to rush in behind it.",
-        "sentence_sha256": "885803296bcc4355ce7bca91d64ef733b889f80533bf2fed112e2fd847387103",
-        "writer_context_id": "6a963826-752c-83ea-9f33-fd28d8d938b7",
-        "writer_lane": "FRESH_CHAT_SAME_MODEL",
-        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
-      }
-    ],
-    "buffer_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
-    "frozen": true,
-    "frozen_candidate_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
-    "frozen_at_first_sentence_boundary_at_or_above_50": true
+    "next_action": "CODEX_LAUNCH_FRESH_SENTENCE_WRITER_FOR_RELAY_CANDIDATE_002",
+    "sentence_history": [],
+    "buffer_sha256": null,
+    "frozen": false,
+    "frozen_candidate_sha256": null,
+    "frozen_at_first_sentence_boundary_at_or_above_50": false
   },
   "next_writer_packet": null,
-  "pending_eval_candidate": {
-    "candidate_text": "Afterward, there is still the awkward question of what to do with a reaction that has already begun but has not yet decided everything. It can feel too late for choice and still be too early to know what the reaction will become. Sometimes the only choice available there is whether to rush in behind it.",
-    "candidate_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
-    "word_count": 56,
-    "packet_id": "SERIAL-RELAY-E2-CANDIDATE-001",
-    "strategy_epoch_ordinal": 2,
-    "writer_lane": "FRESH_CHAT_SAME_MODEL",
-    "writer_runtime": "CHATGPT_WORK_SERIAL_FRESH_SENTENCE_RELAY",
-    "sentence_count": 3,
-    "writer_context_ids": [
-      "6a9636be-c710-83e9-998f-a2785113210b",
-      "6a96372d-e12c-83e9-81e6-b78ba2fe77ac",
-      "6a963826-752c-83ea-9f33-fd28d8d938b7"
-    ],
-    "provider_label": "CHATGPT_WORK",
-    "model_label": "PROJECT_DEFAULT_UNDISCLOSED",
-    "cold_evaluator_payload": "eval\\n\\n<exact candidate>",
-    "evaluator_has_received_candidate": true,
-    "evaluator_thread_id": "6a961bbd-6318-83ea-8444-31bc8ffaa654",
-    "eval_payload_dispatched": "eval\\n\\n<exact candidate>"
-  },
+  "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -131,14 +86,14 @@
     "blocker": "NO_MODEL_PROVIDER_AND_NO_N8N_API_KEY; OPTIONAL_SETUP_DOES_NOT_BLOCK_PRIMARY_LOOP"
   },
   "last_cold_verdict": {
-    "candidate_sha256": "8e9d943b14473aabde8172db699a5cd861a43894aec946a9b4e564e0ba61f3d8",
-    "word_count": 71,
-    "writer_lane": "FRESH_CHAT_SAME_MODEL",
-    "packet_id": "ISO-WRITER-003",
+    "candidate_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
+    "word_count": 56,
+    "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
+    "packet_id": "SERIAL-RELAY-E2-CANDIDATE-001",
     "verdict": "FAIL",
-    "strongest_literal_defect": "The passage forms a polished conceptual arc: interrogate 'afterward' -> complicate ending -> body/thought mismatch -> disclaim useful conclusion -> land on an elegant paradoxical payoff about being here while what happened is still happening.",
-    "causal_diagnosis": "After packet thesis removal and progressive seed thinning, the same fresh model/runtime still reconstructs a miniature essay whenever one execution owns the whole paragraph horizon. The remaining common factor is whole-paragraph autoregressive planning/completion capacity rather than saturated evaluator context or seed cardinality.",
-    "strategy_implication": "Trigger early meta-audit. Abandon whole-paragraph same-model isolated generation as the primary lane. Radical reset to one fresh writer context per sentence with a hidden external length controller.",
+    "strongest_literal_defect": "The assembled relay still forms a designed paradox: 'too late for choice / too early to know', then lands on a neat agency takeaway in the final sentence.",
+    "causal_diagnosis": "Removing whole-paragraph writer horizon was insufficient. Independent sentence writers reconstructed the same rhetorical attractor from literal accumulated text alone: balanced opposition followed by conceptual harvest. This suggests the attractor is recoverable from local continuation dynamics, not only paragraph-level planning continuity.",
+    "strategy_implication": "Do not add sentence-level bans. Run exactly one second relay paragraph under the unchanged architecture. If it cold-FAILs in the same broad mini-essay/closure family, immediately trigger a new strategy meta-audit and consider changing model/runtime or abandoning generative reconstruction as the primary lane.",
     "pangram_authorized": false
   },
   "history": [
@@ -168,7 +123,16 @@
       "verdict": "FAIL",
       "pangram": "NOT_AUTHORIZED",
       "failure_family": "LOW_INFORMATION_SEED_TO_POLISHED_PARADOXICAL_MINI_ESSAY"
+    },
+    {
+      "ordinal": 4,
+      "candidate_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
+      "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
+      "packet_id": "SERIAL-RELAY-E2-CANDIDATE-001",
+      "verdict": "FAIL",
+      "pangram": "NOT_AUTHORIZED",
+      "failure_family": "SERIAL_RELAY_BALANCED_PARADOX_TO_AGENCY_HARVEST"
     }
   ],
-  "next_action": "CODEX_WAIT_FOR_FROZEN_COLD_VERDICT"
+  "next_action": "CODEX_EXECUTE_SERIAL_RELAY_CANDIDATE_002_UNCHANGED_ARCHITECTURE"
 }
