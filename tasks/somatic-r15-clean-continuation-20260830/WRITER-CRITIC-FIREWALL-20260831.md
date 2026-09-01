@@ -17,7 +17,7 @@ Separate the live-composition pass from the accumulated failure detector.
 The writer receives only the minimum positive state needed to compose:
 
 - current task: exploratory Somatic Introduction prose;
-- minimum length when active: at least 50 words;
+- no numerical length target, word count, countdown, expected sentence count, or stopping horizon;
 - no invented autobiography, symptoms, chronology, evidence, or unauthorized factual specificity;
 - one small live snag / pre-propositional seed rather than a semantic outline;
 - permission to follow curiosity, association, irritation, or surprise word by word;
@@ -26,6 +26,25 @@ The writer receives only the minimum positive state needed to compose:
 - source reconciliation happens later.
 
 The writer does **not** consult the rejection catalog, source-unit coverage map, named AI patterns, detector history, prior candidate autopsies, or an explicit list of forbidden rhetorical structures while choosing the next word/sentence.
+
+### Writer-blind length controller — 2026-09-01
+
+Owner-directed `eval` found that the earlier floor-crossing stop still leaked the length horizon into generation. The writer packet itself contained `at least 50 words`, so the model could anticipate that a later sentence was likely to cross the floor and make that sentence function as a payoff. In the failed 57-word attempt, the final sentence (`processing` sounding like permission to continue) simultaneously crossed the minimum and supplied the clean rhetorical landing.
+
+This is **horizon leakage**: the termination rule was external only after a sentence had been written, while the writer still knew the target during sentence selection.
+
+Existing-work classification: **ADAPTATION / REUSE.** Length-controlled generation literature separates content generation from explicit length/EOS control, and work on EOS shows that termination cues can themselves create length-dependent internal behavior. This task uses a simple editorial analogue: keep the numerical floor in a controller rather than in the writer state.
+
+Operational mechanism:
+
+1. **Controller owns the floor.** The minimum word requirement exists in controller state only. The active writer packet does not state the number or say that a minimum exists.
+2. **Writer emits without horizon knowledge.** Generate the next accepted sentence from literal text and local live pressure without estimating remaining words, sentence count, or likely stopping position.
+3. **Controller checks only at accepted sentence boundaries.** It counts the frozen passage after the sentence is accepted.
+4. **Controller returns only `CONTINUE` or `STOP`.** Never return the count, distance from threshold, whether the passage is close, or why continuation is required.
+5. **`CONTINUE` carries no semantic instruction.** It authorizes another sentence but supplies no topic, transition, summary, ending, or completion pressure. The next sentence still comes from the writer's live local state.
+6. **`STOP` terminates before another writing decision.** No landing, takeaway, aftercare, or polish sentence is generated after `STOP`.
+7. **Do not infer the horizon from repeated controller calls.** A `CONTINUE` signal is not evidence that the writer is nearly done or that the next sentence should be broad, conclusive, or self-contained.
+8. **Same-context limitation remains explicit.** Perfect information hiding is impossible in one Chat context. The operational approximation is role separation: during the writer phase, do not retrieve or reason from the numerical floor even though the larger conversation contains it. The controller alone performs counting.
 
 ### Microburst no-lookahead mode
 
@@ -38,10 +57,10 @@ For the next exploratory passes, change the composition unit:
 3. **No semantic recap between bursts.** Do not summarize `what I am saying now` before choosing the next burst. Continue from wording, cadence, irritation, association, or unresolved local pressure instead of a conceptual paragraph plan.
 4. **Permit ordinary connective tissue.** A burst need not contain an insight, novelty, aphorism, contrast, or argumentative move. Plain continuation is allowed. The writer does not have to make each sentence earn quotation value.
 5. **Let wording detours survive provisionally.** If a phrase produces a side irritation or linguistic question, it may occupy several bursts without being converted immediately into the article thesis.
-6. **Minimum length still applies.** Continue to at least 50 words by following available local pressure or another already-live pre-propositional seed. Do not pad a dead argument and do not terminate early with a clever line.
-7. **Critic only after the attempt exists.** The accumulated structural gates remain post-draft diagnostics. They do not steer individual bursts.
+6. **Continuation is externally controlled.** The writer does not know the minimum length. After each accepted sentence, the controller supplies only `CONTINUE` or `STOP`; if `CONTINUE`, follow available local pressure or another already-live pre-propositional seed without treating continuation as evidence that an ending is approaching.
+7. **Critic only after the controller stops the attempt.** The accumulated structural gates remain post-draft diagnostics. They do not steer individual bursts.
 
-This is an operational approximation inside one model context; literal information hiding is impossible. The key test is whether the resulting prose appears to have known its payoff several sentences in advance. If so, the no-lookahead mode failed even if the words are natural.
+This is an operational approximation inside one model context; literal information hiding is impossible. The key test is whether the resulting prose appears to have known its payoff or stopping position several sentences in advance. If so, the no-lookahead / writer-blind controller failed even if the words are natural.
 
 ### Lexical-fixation attention reset
 
@@ -62,7 +81,7 @@ The critic should reject a passage when several successive sentences exist mainl
 
 ### Critic packet
 
-Only after a complete >=50-word attempt exists does the critic reopen the accumulated gates and inspect the literal passage for:
+Only after the writer-blind controller returns `STOP` does the critic reopen the accumulated gates and inspect the literal passage for:
 
 - card succession / source-card leakage;
 - propositional seed packaging;
@@ -75,7 +94,7 @@ Only after a complete >=50-word attempt exists does the critic reopen the accumu
 - aphoristic substitution;
 - truncation / minimum-length failure;
 - semantic or provenance violations;
-- evidence that the prose knew its payoff several sentences in advance;
+- evidence that the prose knew its payoff or stopping position several sentences in advance;
 - lexical fixation / serial repair of one term.
 
 The critic diagnoses; it does not line-edit the rejected candidate into compliance.
@@ -87,12 +106,12 @@ If the critic rejects a passage:
 1. Name the strongest causal process failure.
 2. Persist a reusable lesson when genuinely new.
 3. Discard the rejected realization as generation context except for the smallest live fragment that independently survived the critique.
-4. Build a new minimal writer packet that contains **positive generative affordances**, not the full rejection history.
-5. Generate a new complete >=50-word attempt from that packet.
+4. Build a new minimal writer packet that contains **positive generative affordances**, not the full rejection history and not the numerical length floor.
+5. Generate sentence by sentence under the writer-blind `CONTINUE` / `STOP` controller.
 6. Run the critic afterward.
 
 Do not ask the writer to remember twenty things not to do. Do not make the next pass the inverse of the last defect. Do not treat critic awareness as the composition mechanism.
 
 ## Same-context limitation
 
-Within one saturated Chat context, perfect informational isolation is impossible. The operational approximation is therefore strict role routing: anti-pattern history may inform post-draft rejection, but it is not used as the active next-token agenda during the writer pass. If the writer starts explicitly navigating the blacklist, declare firewall failure and restart rather than adding another compositional prohibition.
+Within one saturated Chat context, perfect informational isolation is impossible. The operational approximation is therefore strict role routing: anti-pattern history and the numerical floor may inform critic/controller decisions, but they are not used as the active next-token agenda during the writer pass. If the writer starts explicitly navigating the blacklist or length horizon, declare firewall failure and restart rather than adding another compositional prohibition.
