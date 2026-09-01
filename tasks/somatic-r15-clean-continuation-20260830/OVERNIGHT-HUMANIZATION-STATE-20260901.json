@@ -1,26 +1,27 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "EVALUATION_PENDING",
+  "status": "RADICAL_RESET_RELAY_REQUIRED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
-    "ordinal": 1,
-    "family": "PHYSICAL_ROLE_ISOLATION_WITH_N8N_HERMES_SHADOW",
-    "disposition": "CONTINUE_FOR_ONE_THINNER_PACKET_TRIAL_THEN_EARLY_AUDIT_IF_FAILS",
-    "reason": "Isolated writer trial 002 also cold-FAILed. Unlike trial 001, the packet was atomized, yet the fresh writer still expanded a minimal fragment into metaphor, repeated abstraction, and conceptual closure. Physical isolation alone is therefore not yet showing clear improvement. Run one third primary isolated trial with an even lower-information fragment before an early strategy audit if it also fails.",
-    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/PHYSICALLY-ISOLATED-WRITER-EXPERIMENT-20260901.md",
+    "ordinal": 2,
+    "family": "SERIAL_FRESH_WRITER_RELAY",
+    "disposition": "RADICAL_RESET",
+    "reason": "Three primary physically isolated same-model whole-paragraph writers all cold-FAILed, including trial 003 from the low-information lexical seed 'afterward'. Whole-paragraph horizon remains sufficient for the model to reconstruct polished mini-essay closure. Stop refining packet semantics; remove paragraph-level writer horizon by resetting context at every sentence boundary.",
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
     "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md",
-    "packet_representation_revision_commit": "9ef1e7c8ab33c23510c26f40b869a3b7e3f889aa"
+    "prior_epoch": "PHYSICAL_ROLE_ISOLATION_WITH_WHOLE_PARAGRAPH_WRITER",
+    "prior_epoch_result": "FAILED_3_OF_3_COLD_EVAL_ZERO_PANGRAM_ELIGIBLE"
   },
   "counters": {
-    "completed_eval_cycles_total": 2,
-    "completed_eval_cycles_current_chat": 2,
-    "completed_eval_cycles_since_strategy_audit": 2,
-    "strategy_audits_completed": 0,
+    "completed_eval_cycles_total": 3,
+    "completed_eval_cycles_current_chat": 3,
+    "completed_eval_cycles_since_strategy_audit": 0,
+    "strategy_audits_completed": 1,
     "handoffs_completed": 0,
     "cold_passes": 0,
-    "cold_fails": 2,
+    "cold_fails": 3,
     "cold_uncertain": 0,
     "false_pass_retractions": 1,
     "pangram_new_paid_calls": 0,
@@ -35,15 +36,6 @@
     "max_new_paid_pangram_calls": 6,
     "minimum_candidate_words": 50
   },
-  "early_strategy_audit_triggers": [
-    "PASS_RETRACTED_AFTER_NEUTRAL_CHALLENGE",
-    "TWO_COLD_PASS_PANGRAM_AI_OR_MIXED_MISMATCHES_IN_EPOCH",
-    "SAME_STRUCTURAL_FAILURE_RECURS_TWICE_AFTER_CAUSAL_REPAIR",
-    "MECHANISM_CHANGED_ON_MORE_THAN_HALF_OF_LAST_SIX_EVAL_CYCLES",
-    "THREE_CONSECUTIVE_COLD_FAILS_WITHOUT_UNCHANGED_MECHANISM_SURVIVAL",
-    "TWO_NEW_LOCAL_GATES_WITHOUT_COLD_PASS_PLUS_PANGRAM_HUMAN",
-    "SUPERVISOR_NOT_CONFIDENT_CANDIDATES_ARE_ACTUALLY_GETTING_MORE_HUMAN"
-  ],
   "detector": {
     "owner_authorization": "CONDITIONAL_EXPERIMENTAL_PANGRAM_AFTER_GENUINE_COLD_PASS",
     "model_required": "pangram-4",
@@ -52,23 +44,23 @@
     "no_repeat_rule": true,
     "ambiguous_action_rule": "RECOVER_BEFORE_REPEAT"
   },
-  "next_writer_packet": null,
-  "pending_eval_candidate": {
-    "candidate_text": "afterward. The word assumes something ended cleanly enough to stand on the other side of it. Sometimes nothing feels ended. A reaction has passed, perhaps, but the body hasn’t agreed to call it past, and thought keeps arriving with explanations that seem both late and premature. There may be no useful conclusion in that gap, only the odd fact of being here while some part of what happened is still happening.",
-    "candidate_sha256": "8e9d943b14473aabde8172db699a5cd861a43894aec946a9b4e564e0ba61f3d8",
-    "word_count": 71,
-    "packet_id": "ISO-WRITER-003",
-    "strategy_epoch_ordinal": 1,
-    "writer_lane": "FRESH_CHAT_SAME_MODEL",
-    "writer_runtime": "CHATGPT_WORK_FRESH_CONVERSATION",
-    "writer_context_id": "6a963587-40b4-83ea-b412-0e0b19d0b0d7",
-    "provider_label": "CHATGPT_WORK",
-    "model_label": "PROJECT_DEFAULT_UNDISCLOSED",
-    "cold_evaluator_payload": "eval\\n\\n<exact candidate>",
-    "evaluator_has_received_candidate": true,
-    "evaluator_thread_id": "6a961bbd-6318-83ea-8444-31bc8ffaa654",
-    "eval_payload_dispatched": "eval\\n\\n<exact candidate>"
+  "relay": {
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
+    "seed": "afterward",
+    "relay_candidate_ordinal": 1,
+    "buffer": "",
+    "buffer_word_count": 0,
+    "sentence_count": 0,
+    "next_sentence_writer_ordinal": 1,
+    "writer_context_policy": "NEW_FRESH_CONTEXT_FOR_EVERY_SENTENCE",
+    "writer_receives_length_target": false,
+    "writer_receives_sentence_ordinal": false,
+    "writer_receives_stop_horizon": false,
+    "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
+    "next_action": "CODEX_LAUNCH_RELAY_SENTENCE_WRITER_001"
   },
+  "next_writer_packet": null,
+  "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -82,41 +74,21 @@
   },
   "hermes_shadow": {
     "status": "OPTIONAL_SHADOW_SETUP_BLOCKED",
-    "boundary": "clean isolated strategist and shadow-writer contexts; memory/skill learning disabled or segregated; no article authority",
     "installed_version": "0.21.0",
-    "upstream_commit": "1b47277067f23441e40296040885f775ce16330f",
     "dedicated_home": "somatic-intro-overnight/hermes-home",
-    "bundled_skills_installed": false,
-    "browser_installed": false,
-    "computer_use_installed": false,
-    "profiles": {
-      "somatic-writer": {
-        "zero_tool_assertion": "PASS",
-        "memory_disabled": true,
-        "skills_seeded": false,
-        "plugins_enabled": false,
-        "mcp_servers_enabled": false
-      },
-      "somatic-strategist": {
-        "zero_tool_assertion": "PASS",
-        "memory_disabled": true,
-        "skills_seeded": false,
-        "plugins_enabled": false,
-        "mcp_servers_enabled": false
-      }
-    },
     "model_provider_available": false,
     "n8n_mcp_configured": false,
     "blocker": "NO_MODEL_PROVIDER_AND_NO_N8N_API_KEY; OPTIONAL_SETUP_DOES_NOT_BLOCK_PRIMARY_LOOP"
   },
   "last_cold_verdict": {
-    "candidate_sha256": "18622fdc611fd543692389e693afb29fb39903551572d17a62c80c945151a7ce",
-    "word_count": 70,
+    "candidate_sha256": "8e9d943b14473aabde8172db699a5cd861a43894aec946a9b4e564e0ba61f3d8",
+    "word_count": 71,
     "writer_lane": "FRESH_CHAT_SAME_MODEL",
+    "packet_id": "ISO-WRITER-003",
     "verdict": "FAIL",
-    "strongest_literal_defect": "The paragraph turns one thought into a polished abstraction loop: late naming -> water/fist metaphor -> moving moment -> delay-is-not-emptiness -> final conceptual restatement.",
-    "causal_diagnosis": "Trial 002 used an atomized packet, so the prior precompleted-thesis explanation is insufficient. The fresh isolated writer still defaulted to completing conceptual space around a minimal abstract fragment, including metaphor and closing restatement. This points toward a model/runtime composition tendency rather than merely same-context contamination or packet cardinality.",
-    "strategy_implication": "Physical isolation has not yet demonstrated improvement. Run one third primary same-model isolated trial using a lower-information lexical edge. If trial 003 also cold-FAILs, trigger an early strategy meta-audit rather than issuing another local packet refinement.",
+    "strongest_literal_defect": "The passage forms a polished conceptual arc: interrogate 'afterward' -> complicate ending -> body/thought mismatch -> disclaim useful conclusion -> land on an elegant paradoxical payoff about being here while what happened is still happening.",
+    "causal_diagnosis": "After packet thesis removal and progressive seed thinning, the same fresh model/runtime still reconstructs a miniature essay whenever one execution owns the whole paragraph horizon. The remaining common factor is whole-paragraph autoregressive planning/completion capacity rather than saturated evaluator context or seed cardinality.",
+    "strategy_implication": "Trigger early meta-audit. Abandon whole-paragraph same-model isolated generation as the primary lane. Radical reset to one fresh writer context per sentence with a hidden external length controller.",
     "pangram_authorized": false
   },
   "history": [
@@ -137,7 +109,16 @@
       "verdict": "FAIL",
       "pangram": "NOT_AUTHORIZED",
       "failure_family": "MINIMAL_ABSTRACT_SEED_TO_METAPHORIC_CONCEPT_COMPLETION"
+    },
+    {
+      "ordinal": 3,
+      "candidate_sha256": "8e9d943b14473aabde8172db699a5cd861a43894aec946a9b4e564e0ba61f3d8",
+      "writer_lane": "FRESH_CHAT_SAME_MODEL",
+      "packet_id": "ISO-WRITER-003",
+      "verdict": "FAIL",
+      "pangram": "NOT_AUTHORIZED",
+      "failure_family": "LOW_INFORMATION_SEED_TO_POLISHED_PARADOXICAL_MINI_ESSAY"
     }
   ],
-  "next_action": "CODEX_WAIT_FOR_FROZEN_COLD_VERDICT"
+  "next_action": "CODEX_EXECUTE_SERIAL_FRESH_WRITER_RELAY_EPOCH_2"
 }
