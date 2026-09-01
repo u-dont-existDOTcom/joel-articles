@@ -48,17 +48,26 @@
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
     "seed": "afterward",
     "relay_candidate_ordinal": 2,
-    "buffer": "",
-    "buffer_word_count": 0,
-    "sentence_count": 0,
-    "next_sentence_writer_ordinal": 1,
+    "buffer": "Afterward, the reaction may still be moving even when the moment that stirred it has passed.",
+    "buffer_word_count": 16,
+    "sentence_count": 1,
+    "next_sentence_writer_ordinal": 2,
     "writer_context_policy": "NEW_FRESH_CONTEXT_FOR_EVERY_SENTENCE",
     "writer_receives_length_target": false,
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_LAUNCH_FRESH_SENTENCE_WRITER_FOR_RELAY_CANDIDATE_002",
-    "sentence_history": [],
+    "next_action": "CODEX_LAUNCH_FRESH_SENTENCE_WRITER_002_FOR_RELAY_CANDIDATE_002",
+    "sentence_history": [
+      {
+        "ordinal": 1,
+        "sentence_text": "Afterward, the reaction may still be moving even when the moment that stirred it has passed.",
+        "sentence_sha256": "ca8fded3db8c487146ff43405bef1610faa945ba18af102fc062f0edbe186e7c",
+        "writer_context_id": "6a96395c-2db4-83ea-8f0f-d8eb13547212",
+        "writer_lane": "FRESH_CHAT_SAME_MODEL",
+        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
+      }
+    ],
     "buffer_sha256": null,
     "frozen": false,
     "frozen_candidate_sha256": null,
@@ -134,5 +143,5 @@
       "failure_family": "SERIAL_RELAY_BALANCED_PARADOX_TO_AGENCY_HARVEST"
     }
   ],
-  "next_action": "CODEX_EXECUTE_SERIAL_RELAY_CANDIDATE_002_UNCHANGED_ARCHITECTURE"
+  "next_action": "CODEX_CONTINUE_SERIAL_FRESH_WRITER_RELAY_BELOW_50_WORDS"
 }
