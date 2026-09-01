@@ -1,27 +1,27 @@
 {
-  "schema_version": 6,
+  "schema_version": 7,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "EVAL_PENDING",
+  "status": "ALT_RUNTIME_NEXT_CANDIDATE_REQUIRED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
     "ordinal": 3,
     "family": "ALTERNATE_RUNTIME_WRITER_TOURNAMENT",
-    "disposition": "RADICAL_RESET",
-    "reason": "The same ChatGPT runtime/model family cold-FAILed 3/3 fresh whole-paragraph trials and 2/2 serial fresh-sentence relay paragraphs. Relay candidate 002 remained in one semantic orbit and closed by compressing the same moment-over/response-not-over distinction. Prompt/context architecture changes are no longer producing affirmative convergence evidence.",
+    "disposition": "CONTINUE_TOURNAMENT_AFTER_ALT_001_FAIL",
+    "reason": "ALT-RUNTIME-BLIND-001 cold-FAILed under blinded evaluation. Its surface style differed markedly from the prior ChatGPT family, but it still manufactured literary completeness from the minimal fragment 'afterward': stacked atmospheric abstractions and a polished no-demand/no-interpretation close. One alternate runtime failure is insufficient to abandon the tournament; obtain at least one second genuinely distinct known model family under the same fixed task.",
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/ALTERNATE-RUNTIME-WRITER-TOURNAMENT-20260901.md",
     "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md",
     "prior_epoch": "SERIAL_FRESH_WRITER_RELAY",
     "prior_epoch_result": "FAILED_2_OF_2_SAME_BROAD_CLOSURE_FAMILY_ZERO_PANGRAM_ELIGIBLE"
   },
   "counters": {
-    "completed_eval_cycles_total": 5,
-    "completed_eval_cycles_current_chat": 5,
-    "completed_eval_cycles_since_strategy_audit": 0,
+    "completed_eval_cycles_total": 6,
+    "completed_eval_cycles_current_chat": 6,
+    "completed_eval_cycles_since_strategy_audit": 1,
     "strategy_audits_completed": 2,
     "handoffs_completed": 0,
     "cold_passes": 0,
-    "cold_fails": 5,
+    "cold_fails": 6,
     "cold_uncertain": 0,
     "false_pass_retractions": 1,
     "pangram_new_paid_calls": 0,
@@ -51,22 +51,21 @@
     "maximum_model_families": 3,
     "runtime_identity_must_be_known": true,
     "same_model_fresh_chat_does_not_count": true,
-    "candidate_results": [],
-    "next_action": "CODEX_RECOVER_ALT_RUNTIME_BLIND_001_VERDICT_THEN_REVEAL_AND_PERSIST_RUNTIME_IDENTITY"
+    "candidate_results": [
+      {
+        "packet_id": "ALT-RUNTIME-BLIND-001",
+        "candidate_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153",
+        "word_count": 76,
+        "verdict": "FAIL",
+        "failure_family": "LYRICAL_ATMOSPHERIC_ABSTRACTION_TO_POLISHED_NONINTERPRETIVE_CLOSURE",
+        "strongest_literal_defect": "Stacked atmospheric abstractions such as 'thin membrane of silence', 'vessel emptied of its immediate purpose', and 'subtle vibrations of existence' create a highly manufactured literary register, while the paragraph carries a no-demand/no-interpretation theme to a polished close.",
+        "pangram": "NOT_AUTHORIZED",
+        "runtime_identity_reveal_status": "CODEX_MAY_REVEAL_AND_PERSIST_AFTER_FROZEN_VERDICT"
+      }
+    ],
+    "next_action": "CODEX_REVEAL_ALT_RUNTIME_001_IDENTITY_THEN_OBTAIN_SECOND_GENUINELY_DISTINCT_RUNTIME_CANDIDATE"
   },
-  "pending_eval_candidate": {
-    "candidate_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153",
-    "candidate_text": "afterward, the air seems to hold its breath, suspended in a thin membrane of silence that neither demands nor offers explanation. There is no need to reach for the next logical step, no urgency to bridge the gap between what was felt and what can be named. The body simply rests in the quiet aftermath of motion, a vessel emptied of its immediate purpose, allowing the subtle vibrations of existence to settle without resistance or interpretation.",
-    "word_count": 76,
-    "packet_id": "ALT-RUNTIME-BLIND-001",
-    "writer_lane": "ALTERNATE_RUNTIME_IDENTITY_WITHHELD_UNTIL_VERDICT",
-    "runtime_identity_status": "KNOWN_TO_CODEX_WITHHELD_FROM_EVALUATOR_UNTIL_VERDICT",
-    "eval_payload_rule": "eval\\n\\n<exact candidate only>",
-    "evaluator_blinding": "REQUIRED",
-    "dispatched_to_evaluator_chat": "6a961bbd-6318-83ea-8444-31bc8ffaa654",
-    "dispatch_status": "SENT_EXACT_BLINDED_PAYLOAD",
-    "dispatch_payload_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153"
-  },
+  "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -87,62 +86,16 @@
     "blocker": "NO_MODEL_PROVIDER_AND_NO_N8N_API_KEY; OPTIONAL_SETUP_DOES_NOT_BLOCK_PRIMARY_LOOP"
   },
   "last_cold_verdict": {
-    "candidate_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
-    "word_count": 57,
-    "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
-    "packet_id": "SERIAL-RELAY-E2-CANDIDATE-002",
+    "candidate_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153",
+    "word_count": 76,
+    "writer_lane": "ALTERNATE_RUNTIME_IDENTITY_WITHHELD_UNTIL_VERDICT",
+    "packet_id": "ALT-RUNTIME-BLIND-001",
     "verdict": "FAIL",
-    "strongest_literal_defect": "The paragraph remains in one semantic orbit and closes by compressing the already-repeated distinction into a tidy formulation: the moment is over but the response is not.",
-    "causal_diagnosis": "Physical context reset at every sentence boundary did not prevent local continuation from reconstructing semantic orbit and conceptual compression. Together with the 3/3 whole-paragraph failures, the strongest remaining common factor is the current base model/runtime's reflective-expository continuation prior rather than paragraph-horizon or same-context contamination alone.",
-    "strategy_implication": "Close the same-model relay epoch. Radical reset to a bounded alternate-runtime tournament before any further prompt-architecture work. If genuinely distinct model families reproduce the same broad failure, abandon generative reconstruction as the primary lane.",
+    "strongest_literal_defect": "The paragraph is densely literary and abstract rather than naturally discovered: stacked atmospheric metaphors and abstractions culminate in a polished no-resistance/no-interpretation closure.",
+    "causal_diagnosis": "Changing runtime/model altered surface style substantially but did not remove the broader completion tendency. The alternate model generated literary completeness instead of reflective-expository completeness from the same minimal seed. One alternate runtime is not enough to conclude that the task itself causes the attractor.",
+    "strategy_implication": "Continue the bounded alternate-runtime tournament with at least one second genuinely distinct known model family. No Pangram call. If multiple alternate families fail in the same broad manufactured-completion family, abandon synthetic generative reconstruction as primary lane per tournament protocol.",
     "pangram_authorized": false
   },
-  "history": [
-    {
-      "ordinal": 1,
-      "candidate_sha256": "2543f5b29aedb324cd9957171c6913959998aaca37e3e0144de18941d6aa24c3",
-      "writer_lane": "FRESH_CHAT_SAME_MODEL",
-      "packet_id": "ISO-WRITER-001",
-      "verdict": "FAIL",
-      "pangram": "NOT_AUTHORIZED",
-      "failure_family": "PRECOMPLETED_PACKET_THESIS_TO_BALANCED_RUBRIC"
-    },
-    {
-      "ordinal": 2,
-      "candidate_sha256": "18622fdc611fd543692389e693afb29fb39903551572d17a62c80c945151a7ce",
-      "writer_lane": "FRESH_CHAT_SAME_MODEL",
-      "packet_id": "ISO-WRITER-002",
-      "verdict": "FAIL",
-      "pangram": "NOT_AUTHORIZED",
-      "failure_family": "MINIMAL_ABSTRACT_SEED_TO_METAPHORIC_CONCEPT_COMPLETION"
-    },
-    {
-      "ordinal": 3,
-      "candidate_sha256": "8e9d943b14473aabde8172db699a5cd861a43894aec946a9b4e564e0ba61f3d8",
-      "writer_lane": "FRESH_CHAT_SAME_MODEL",
-      "packet_id": "ISO-WRITER-003",
-      "verdict": "FAIL",
-      "pangram": "NOT_AUTHORIZED",
-      "failure_family": "LOW_INFORMATION_SEED_TO_POLISHED_PARADOXICAL_MINI_ESSAY"
-    },
-    {
-      "ordinal": 4,
-      "candidate_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
-      "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
-      "packet_id": "SERIAL-RELAY-E2-CANDIDATE-001",
-      "verdict": "FAIL",
-      "pangram": "NOT_AUTHORIZED",
-      "failure_family": "SERIAL_RELAY_BALANCED_PARADOX_TO_AGENCY_HARVEST"
-    },
-    {
-      "ordinal": 5,
-      "candidate_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
-      "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
-      "packet_id": "SERIAL-RELAY-E2-CANDIDATE-002",
-      "verdict": "FAIL",
-      "pangram": "NOT_AUTHORIZED",
-      "failure_family": "SERIAL_RELAY_SEMANTIC_ORBIT_TO_TIDY_FINAL_DISTINCTION"
-    }
-  ],
-  "next_action": "CODEX_RECOVER_ALT_RUNTIME_BLIND_001_VERDICT_THEN_REVEAL_AND_PERSIST_RUNTIME_IDENTITY"
+  "history_note": "Prior five FAILs remain preserved in earlier schema versions and Git history; cumulative counters retain them.",
+  "next_action": "CODEX_REVEAL_ALT_RUNTIME_001_IDENTITY_THEN_OBTAIN_SECOND_GENUINELY_DISTINCT_RUNTIME_CANDIDATE"
 }
