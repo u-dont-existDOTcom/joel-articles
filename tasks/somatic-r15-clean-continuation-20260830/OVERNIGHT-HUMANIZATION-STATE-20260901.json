@@ -1,27 +1,27 @@
 {
-  "schema_version": 7,
+  "schema_version": 8,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "EVAL_PENDING",
+  "status": "RUNTIME_IDENTITY_REVEAL_REQUIRED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
     "ordinal": 3,
     "family": "ALTERNATE_RUNTIME_WRITER_TOURNAMENT",
-    "disposition": "CONTINUE_TOURNAMENT_AFTER_ALT_001_FAIL",
-    "reason": "ALT-RUNTIME-BLIND-001 cold-FAILed under blinded evaluation. Its surface style differed markedly from the prior ChatGPT family, but it still manufactured literary completeness from the minimal fragment 'afterward': stacked atmospheric abstractions and a polished no-demand/no-interpretation close. One alternate runtime failure is insufficient to abandon the tournament; obtain at least one second genuinely distinct known model family under the same fixed task.",
+    "disposition": "AWAIT_ALT_002_RUNTIME_IDENTITY_BEFORE_TOURNAMENT_CLOSEOUT",
+    "reason": "ALT-RUNTIME-BLIND-002 cold-FAILed under blinded evaluation. Its surface was more interesting than ALT-001 but remained manufactured: stacked metaphors, repeated self-reframing, and a polished conceptual close. The tournament can close with ABANDON_GENERATIVE_RECONSTRUCTION_AS_PRIMARY_LANE only after Codex reveals and persists that ALT-002 is a genuinely distinct known model family from ALT-001/Qwen.",
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/ALTERNATE-RUNTIME-WRITER-TOURNAMENT-20260901.md",
     "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md",
     "prior_epoch": "SERIAL_FRESH_WRITER_RELAY",
     "prior_epoch_result": "FAILED_2_OF_2_SAME_BROAD_CLOSURE_FAMILY_ZERO_PANGRAM_ELIGIBLE"
   },
   "counters": {
-    "completed_eval_cycles_total": 6,
-    "completed_eval_cycles_current_chat": 6,
-    "completed_eval_cycles_since_strategy_audit": 1,
+    "completed_eval_cycles_total": 7,
+    "completed_eval_cycles_current_chat": 7,
+    "completed_eval_cycles_since_strategy_audit": 2,
     "strategy_audits_completed": 2,
     "handoffs_completed": 0,
     "cold_passes": 0,
-    "cold_fails": 6,
+    "cold_fails": 7,
     "cold_uncertain": 0,
     "false_pass_retractions": 1,
     "pangram_new_paid_calls": 0,
@@ -58,7 +58,6 @@
         "word_count": 76,
         "verdict": "FAIL",
         "failure_family": "LYRICAL_ATMOSPHERIC_ABSTRACTION_TO_POLISHED_NONINTERPRETIVE_CLOSURE",
-        "strongest_literal_defect": "Stacked atmospheric abstractions such as 'thin membrane of silence', 'vessel emptied of its immediate purpose', and 'subtle vibrations of existence' create a highly manufactured literary register, while the paragraph carries a no-demand/no-interpretation theme to a polished close.",
         "pangram": "NOT_AUTHORIZED",
         "runtime_identity_reveal_status": "REVEALED_AFTER_FROZEN_VERDICT_AND_PERSISTED",
         "runtime_identity": {
@@ -71,23 +70,22 @@
           "model_digest": "6fac2f98fdf7",
           "provider": "LOCAL_INSTALLED_MODEL"
         }
+      },
+      {
+        "packet_id": "ALT-RUNTIME-BLIND-002",
+        "candidate_sha256": "a26290b418d33ec55adf28f31bf90bcb80ca037c209add37133d6d2dc255faf8",
+        "word_count": 133,
+        "verdict": "FAIL",
+        "failure_family": "METAPHOR_STACK_AND_SELF_REFRAMING_TO_CONCEPTUALIZED_BODY_AGENCY_CLOSE",
+        "strongest_literal_defect": "The paragraph repeatedly replaces one metaphorical frame with another—thinking, trailing hum, aftermath/residue, slow arithmetic—and closes by personifying the body as a polished conceptual agent arriving at conclusions it does not bother to translate.",
+        "pangram": "NOT_AUTHORIZED",
+        "runtime_identity_reveal_status": "PENDING_CODEX_REVEAL_AFTER_FROZEN_VERDICT",
+        "runtime_identity": null
       }
     ],
-    "next_action": "CODEX_RECOVER_ALT_RUNTIME_BLIND_002_VERDICT_THEN_REVEAL_AND_PERSIST_RUNTIME_IDENTITY"
+    "next_action": "CODEX_REVEAL_AND_PERSIST_ALT_RUNTIME_BLIND_002_IDENTITY_THEN_APPLY_TOURNAMENT_DECISION"
   },
-  "pending_eval_candidate": {
-    "candidate_sha256": "a26290b418d33ec55adf28f31bf90bcb80ca037c209add37133d6d2dc255faf8",
-    "candidate_text": "afterward is where the body seems to do most of its thinking, though thinking is probably the wrong word for it. Something happens, and then there is a long trailing hum that has no content, only texture — a settling, or a refusal to settle. I keep wanting to describe this as aftermath, but aftermath implies the event was the important part and what follows is merely residue. That ordering may be backwards. The residue is what lasts, what gets consulted later, what shapes how the next thing is met before any decision is made about meeting it. Perhaps what interests me is not the moment of impact at all but the slow arithmetic the body performs in the hours after, quietly, without asking, arriving at conclusions it does not bother to translate.",
-    "word_count": 133,
-    "packet_id": "ALT-RUNTIME-BLIND-002",
-    "writer_lane": "ALTERNATE_RUNTIME_IDENTITY_WITHHELD_UNTIL_VERDICT",
-    "runtime_identity_status": "KNOWN_TO_CODEX_WITHHELD_FROM_EVALUATOR_UNTIL_VERDICT",
-    "eval_payload_rule": "eval\\n\\n<exact candidate only>",
-    "evaluator_blinding": "REQUIRED",
-    "dispatched_to_evaluator_chat": "6a961bbd-6318-83ea-8444-31bc8ffaa654",
-    "dispatch_status": "SENT_EXACT_BLINDED_PAYLOAD",
-    "dispatch_payload_sha256": "a26290b418d33ec55adf28f31bf90bcb80ca037c209add37133d6d2dc255faf8"
-  },
+  "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -108,16 +106,16 @@
     "blocker": "NO_MODEL_PROVIDER_AND_NO_N8N_API_KEY; OPTIONAL_SETUP_DOES_NOT_BLOCK_PRIMARY_LOOP"
   },
   "last_cold_verdict": {
-    "candidate_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153",
-    "word_count": 76,
+    "candidate_sha256": "a26290b418d33ec55adf28f31bf90bcb80ca037c209add37133d6d2dc255faf8",
+    "word_count": 133,
     "writer_lane": "ALTERNATE_RUNTIME_IDENTITY_WITHHELD_UNTIL_VERDICT",
-    "packet_id": "ALT-RUNTIME-BLIND-001",
+    "packet_id": "ALT-RUNTIME-BLIND-002",
     "verdict": "FAIL",
-    "strongest_literal_defect": "The paragraph is densely literary and abstract rather than naturally discovered: stacked atmospheric metaphors and abstractions culminate in a polished no-resistance/no-interpretation closure.",
-    "causal_diagnosis": "Changing runtime/model altered surface style substantially but did not remove the broader completion tendency. The alternate model generated literary completeness instead of reflective-expository completeness from the same minimal seed. One alternate runtime is not enough to conclude that the task itself causes the attractor.",
-    "strategy_implication": "Continue the bounded alternate-runtime tournament with at least one second genuinely distinct known model family. No Pangram call. If multiple alternate families fail in the same broad manufactured-completion family, abandon synthetic generative reconstruction as primary lane per tournament protocol.",
+    "strongest_literal_defect": "The candidate is rhetorically constructed through stacked metaphors and repeated self-reframing, culminating in a polished personification of the body as silently computing and reaching untranslated conclusions.",
+    "causal_diagnosis": "This alternate-runtime candidate differs in texture from both the ChatGPT family and Qwen ALT-001, but still turns the minimal seed into aesthetically and conceptually complete prose. The blinded verdict alone does not establish model-family independence; Codex must now reveal the pre-recorded runtime identity before the tournament can conclude.",
+    "strategy_implication": "No Pangram. If ALT-002 is a genuinely distinct known model family from Qwen, the minimum tournament evidence is satisfied with two alternate-family FAILs, supporting ABANDON_GENERATIVE_RECONSTRUCTION_AS_PRIMARY_LANE. If not distinct, obtain another known family instead.",
     "pangram_authorized": false
   },
-  "history_note": "Prior five FAILs remain preserved in earlier schema versions and Git history; cumulative counters retain them.",
-  "next_action": "CODEX_RECOVER_ALT_RUNTIME_BLIND_002_VERDICT_THEN_REVEAL_AND_PERSIST_RUNTIME_IDENTITY"
+  "history_note": "Prior six FAILs remain preserved in earlier schema versions and Git history; cumulative counters retain them.",
+  "next_action": "CODEX_REVEAL_AND_PERSIST_ALT_RUNTIME_BLIND_002_IDENTITY_THEN_APPLY_TOURNAMENT_DECISION"
 }
