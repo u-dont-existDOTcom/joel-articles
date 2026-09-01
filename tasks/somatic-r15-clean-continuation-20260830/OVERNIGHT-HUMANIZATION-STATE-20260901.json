@@ -1,7 +1,7 @@
 {
   "schema_version": 5,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "EVAL_REQUIRED",
+  "status": "EVAL_PENDING",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -57,7 +57,7 @@
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_SEND_EXACT_FROZEN_RELAY_002_TO_EVALUATOR",
+    "next_action": "CODEX_RECOVER_FROZEN_RELAY_002_BLINDED_VERDICT",
     "sentence_history": [
       {
         "ordinal": 1,
@@ -106,7 +106,10 @@
     "packet_id": "SERIAL-RELAY-E2-CANDIDATE-002",
     "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
     "eval_payload_rule": "eval\\n\\n<exact candidate only>",
-    "evaluator_blinding": "REQUIRED"
+    "evaluator_blinding": "REQUIRED",
+    "dispatched_to_evaluator_chat": "6a961bbd-6318-83ea-8444-31bc8ffaa654",
+    "dispatch_status": "SENT_EXACT_BLINDED_PAYLOAD",
+    "dispatch_payload_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d"
   },
   "pending_pangram_authorization": null,
   "n8n_shadow": {
@@ -176,5 +179,5 @@
       "failure_family": "SERIAL_RELAY_BALANCED_PARADOX_TO_AGENCY_HARVEST"
     }
   ],
-  "next_action": "CODEX_SEND_EXACT_FROZEN_RELAY_002_TO_EVALUATOR"
+  "next_action": "CODEX_RECOVER_FROZEN_RELAY_002_BLINDED_VERDICT_FROM_EVALUATOR_AND_GITHUB"
 }
