@@ -48,6 +48,26 @@ When a minimum length is active:
 6. **No aphorism substitution.** Compact cleverness, metaphor, or quotable closure does not compensate for failing the requested length or for lack of sustained thought.
 7. **Window audit still applies.** Reaching the floor does not authorize cumulative convergence. The resulting 50+ word passage must still survive the 2–4 sentence directional-sign audit.
 
+### Floor-crossing termination control — 2026-09-01
+
+Owner-directed `eval` found a distinct minimum-length failure after the anti-truncation repair. The candidate crossed the 50-word floor at the end of sentence four (54 words), then generated two short `I care...` sentences whose function was to turn the live passage into a finished value statement. The minimum had already been satisfied; generation continued because the model treated `>=50` as permission to construct an ending rather than as permission to stop.
+
+This is **post-floor closure reflex**. The repair is a deterministic stopping control, not a new prose prohibition.
+
+Existing-work classification: **ADAPTATION / REUSE OF STANDARD STOPPING-CONTROL IDEAS, NOT A CLAIMED NOVEL GENERATION ALGORITHM.** Neural text-generation literature already separates minimum-length/length control from explicit termination decisions; relevant examples include Huang, Zhao & Ma (EMNLP 2017), *When to Finish? Optimal Beam Search for Neural Text Generation (modulo beam size)*, and Belligoli et al. (2025), *Controlling Summarization Length Through EOS Token Weighting*. This experiment adapts that general separation to a sentence-boundary editorial generation control.
+
+When the current exploratory task has a hard minimum word floor:
+
+1. **Check count only at accepted sentence boundaries.** Do not steer sentence wording toward the number while the sentence is being generated.
+2. **Before the floor, continue normally.** If an accepted sentence ends below the floor, resume from live pressure or an already-live pre-propositional seed under the existing routing.
+3. **First boundary at or above the floor terminates discovery.** As soon as an accepted sentence ends with the passage at or above the minimum, stop the writer pass immediately.
+4. **No post-floor ending decision.** Do not ask what should come next, whether the paragraph feels complete, how to land it, what the takeaway is, or whether a final sentence would improve closure. The writer state terminates before that decision exists.
+5. **Crossing mid-sentence is harmless.** Finish the sentence already in progress, then stop at that boundary.
+6. **Critic acts on the frozen attempt.** If the resulting passage is weak, incomplete, or AI-shaped, reject and start the next `eval` pass from a repaired mechanism. Do not append aftercare to the frozen attempt.
+7. **Reconciliation is a different phase.** Later semantic/source reconciliation may add necessary material under its own gates; it does not reopen this discovery pass merely to make the paragraph feel finished.
+
+This control is diagnostic for the present live-composition experiment. It is not a general rule that publication prose should end near a numerical floor.
+
 ## Pre-propositional mutation gate
 
 Owner-directed `eval` on 2026-08-31 found that the multi-seed repair itself reproduced semantic-card succession. The 50-word candidate was built from three supposedly independent mutations, but each mutation was already a complete proposition: intensity can be praised before it helps; a person may want to stop; cognition and bodily reaction can diverge. Removing bridges did not make these live thoughts. It merely concatenated outline bullets.
@@ -69,5 +89,7 @@ When an `eval` finds card succession, diagnose whether the cause was latent sour
 When an `eval` finds a smooth rhetorical descent despite locally acceptable sentences, run the cumulative thesis-gravity audit. Delete back to the last sentence before the window became one-directional, then resume only if a genuinely different live pressure exists. Do not repair the passage by inserting an artificial counterpoint.
 
 When an `eval` finds the candidate below an active minimum length, treat that as a process failure. Re-enter from a small pre-existing mutation pool and satisfy the floor without padding a dead thread or reopening source coverage.
+
+When an `eval` finds post-floor wrap-up after the minimum was already satisfied at an accepted sentence boundary, freeze the passage at the first qualifying boundary and repair the termination control rather than line-editing the closing sentences.
 
 When an `eval` finds bridge-free semantic cards after a multi-seed pass, inspect the seed pool itself. If the seeds were complete propositions, discard them and restart from pre-propositional pressure; do not try to humanize their realization downstream.
