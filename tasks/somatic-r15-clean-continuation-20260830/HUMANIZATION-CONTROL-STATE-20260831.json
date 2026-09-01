@@ -1,13 +1,13 @@
 {
-  "schema_version": 14,
+  "schema_version": 15,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "owner_direct_human_consistency_qualification",
+  "workflow_state": "owner_direct_eval_adaptation_after_false_pass",
   "last_authoritative_head_before_state_update": "248c532126ac26be59d89f611398276f5a756735",
   "role_boundary": {
     "reasoning_owner": "Chat",
     "mechanical_executor": "Codex",
     "writer_context_id": "current_owner_chat",
-    "rule": "Chat owns strategy, provenance, semantic/editorial judgment, writing authority, adaptive decisions, eval verdicts, mechanism repairs, qualification verdicts, and release decisions. Codex may send eval commands, read persisted state, count cycles, and perform mechanical handoffs only."
+    "rule": "Chat owns strategy, provenance, semantic/editorial judgment, writing authority, blinded eval verdicts, causal diagnosis, mechanism repairs, qualification decisions, and release decisions. Codex may send eval commands, read persisted state, count cycles, and perform mechanical handoffs only."
   },
   "source": {
     "path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SUPPLIED-INTRO-BOUNDARY-20260831.md",
@@ -16,18 +16,19 @@
     "authority": "Current direct owner-supplied semantic/prose boundary for later reconciliation; current owner instruction temporarily permits exploratory generation without exact semantic matching."
   },
   "owner_override": {
-    "status": "ACTIVE_FOR_HUMAN_CONSISTENCY_QUALIFICATION",
-    "authorization": "Joel directed Chat to continue the eval-driven generation experiment and asked Codex to keep sending eval commands until Chat can produce human-looking paragraphs consistently, with handoff every 20 eval cycles. A current candidate has now cold-PASSed. The mechanism is frozen for consistency qualification; PASSes no longer trigger invented defects and instead advance a fixed streak while producing a fresh pending candidate under the unchanged mechanism.",
+    "status": "ACTIVE_FOR_EVAL_ADAPTATION",
+    "authorization": "Joel directed continuation after immediately challenging a recorded PASS. Chat withdrew that PASS because it did not actually believe the candidate looked human. The false PASS must remain retracted; qualification is reset. Continue the full eval-driven mechanism repair experiment before re-entering consistency qualification.",
     "scope": "Non-authoritative exploratory Somatic Introduction generation only. Semantic reconciliation, detector work, promotion, and registered-master editing remain blocked.",
     "qualification_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/HUMAN-CONSISTENCY-QUALIFICATION-PROTOCOL-20260901.md",
     "qualification_state_path": "tasks/somatic-r15-clean-continuation-20260830/HUMAN-CONSISTENCY-QUALIFICATION-STATE-20260901.json",
     "codex_driver_path": "tasks/somatic-r15-clean-continuation-20260830/CODEX-CONTINUOUS-EVAL-DRIVER-20260901.md",
+    "blinded_eval_gate_path": "tasks/somatic-r15-clean-continuation-20260830/BLINDED-EVAL-VERDICT-GATE-20260901.md",
     "persona_boundary": "A provisional Joel stance may guide judgment/taste only; it may not fabricate autobiography, symptoms, chronology, evidence, or unauthorized claims."
   },
   "strategy": {
-    "active_family": "FROZEN_LIVE_MUTATIONAL_COMPOSITION_WITH_WRITER_BLIND_CONTROLLER_PROVISIONAL_BUFFER_AND_CONTRASTIVE_ATTENTION_SCHEDULER",
-    "mechanism_status": "FROZEN_FOR_CURRENT_CONSECUTIVE_PASS_STREAK",
-    "method": "Keep a genuinely pre-propositional reserve of two or three incomplete pressures while exposing only one to the writer at a time. Compose into a provisional burst buffer without sentence-level conceptual review; keep critic history and the numerical minimum outside the writer. After provisional sentence boundaries, a separate contrastive attention scheduler checks only whether the newest pair are substantially interchangeable realizations of one proposition. If so, it temporarily masks that semantic center and exposes a peripheral literal pressure or dormant pre-propositional reserve item without revealing the diagnosis or consulting source coverage. The length controller independently returns only CONTINUE or STOP. STOP freezes the whole buffer for critic review. During consistency qualification, this generation mechanism must remain unchanged on PASS.",
+    "active_family": "LIVE_MUTATIONAL_COMPOSITION_WITH_PROVISIONAL_BUFFER_CONTRASTIVE_ATTENTION_AND_ATOMIZED_RESERVE",
+    "mechanism_status": "UNFROZEN_AFTER_REPAIR_PENDING_NEXT_COLD_VERDICT",
+    "method": "Maintain two or three genuinely pre-propositional reserve pressures, but atomize each reserve item to one unresolved semantic edge before exposure. Expose only one atom at a time. Compose into a provisional burst buffer without sentence-level conceptual review; keep critic history and numerical minimum outside the writer. The contrastive scheduler may mask a redundant semantic center and expose one peripheral atomized pressure without revealing diagnosis or consulting source coverage. The length controller independently returns only CONTINUE or STOP. STOP freezes the whole buffer for critic review. Cold eval verdict must be frozen before qualification counters/consequences are read.",
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
     "writer_critic_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/WRITER-CRITIC-FIREWALL-20260831.md",
     "source_occlusion_and_floor_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SOURCE-CARD-OCCLUSION-GATE-20260831.md",
@@ -35,6 +36,8 @@
     "provisional_burst_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/PROVISIONAL-BURST-BUFFER-GATE-20260901.md",
     "semantic_orbit_snapshot_path": "tasks/somatic-r15-clean-continuation-20260830/SEMANTIC-ORBIT-DIAGNOSTIC-SNAPSHOT-20260901.md",
     "contrastive_scheduler_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/CONTRASTIVE-ATTENTION-SCHEDULER-GATE-20260901.md",
+    "reserve_atomization_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/RESERVE-ATOMIZATION-GATE-20260901.md",
+    "blinded_eval_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/BLINDED-EVAL-VERDICT-GATE-20260901.md",
     "known_pull_signature": "body/mind mismatch premise -> complex-trauma qualification -> readiness checklist -> regulation verdict -> EMDR exception -> bodily-discharge exception -> polished inner-child transfer/closure",
     "mvi_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_INSTRUCTION",
     "anti_pull_status": "INCORPORATED_ONLY_AS_BACKGROUND_AWARENESS_NOT_ACTIVE_COMPOSITION_OUTLINE",
@@ -42,25 +45,26 @@
   },
   "qualification": {
     "id": "SOMATIC-INTRO-HUMAN-CONSISTENCY-20260901",
-    "phase": "SAME_CONTEXT_QUALIFICATION",
+    "phase": "ADAPTATION",
     "same_context_required": 5,
-    "same_context_current": 1,
+    "same_context_current": 0,
     "fresh_context_required": 3,
     "fresh_context_current": 0,
     "max_eval_cycles_per_chat": 20,
-    "rule": "Any FAIL resets consecutive PASS qualification and returns to full causal diagnose-repair-retry. PASS does not authorize mechanism modification; it increments the streak and produces one fresh unevaluated >=50-word candidate under the unchanged mechanism. Fifth same-context PASS triggers immediate fresh-Chat handoff for three more consecutive PASSes."
+    "false_pass_retracted": true,
+    "rule": "Verdict first under blinded evaluator gate; bookkeeping second. Any FAIL or UNCERTAIN resets qualification and returns to causal diagnose-repair-retry. A genuine PASS may begin a new frozen-mechanism streak."
   },
   "current_candidate": {
     "status": "PENDING_NEXT_EVAL_NON_AUTHORITATIVE",
-    "sha256": "b29b4f714a8a5f5badbced8dc722d27ecfab86e492ce8423627c7c53260a4f23",
+    "sha256": "3e557db96d7e1b46094e59ca2ebcaf788d6fe5d5365e2cb0f9ac6b9191366a5c",
     "word_count": 57,
-    "text": "What happens after trauma work bothers me almost as much as what happens during it. A session can feel enormous while it is happening, and that doesn't tell me much about the person once it is over. Intensity has a weird way of looking meaningful from the inside. “Deep” is another word I don’t entirely trust here."
+    "text": "A huge reaction is hard to ignore. It fills the room and starts becoming the thing everyone is watching. I can see how that happens. It is right there. What is harder to see is whether the person is still themselves when the whole thing settles down. The session can look impressive and leave somebody worse off."
   },
   "gates": {
     "authority_reconciliation": "PASS_CURRENT_OWNER_OVERRIDE_RECORDED",
     "exploratory_generation": "AUTHORIZED",
-    "semantic_preservation": "DEFERRED_DURING_EXPLORATORY_QUALIFICATION_BY_DIRECT_OWNER_INSTRUCTION",
-    "cold_reader": "ACTIVE_INTERNAL_EVAL_ONLY",
+    "semantic_preservation": "DEFERRED_DURING_EXPLORATORY_ADAPTATION_BY_DIRECT_OWNER_INSTRUCTION",
+    "cold_reader": "ACTIVE_BLINDED_INTERNAL_EVAL_ONLY",
     "owner_read": "ONGOING_THROUGH_EVAL_LOOP",
     "detector": "BLOCKED",
     "candidate_promotion": "BLOCKED"
@@ -71,20 +75,20 @@
     "detector_eligibility": "blocked",
     "candidate_promotion": "blocked until later semantic reconciliation, normal gates, and owner acceptance",
     "blockers": [
-      "Current work is an internal consistency qualification experiment, not a preservation-clean publication candidate.",
+      "Current work is an internal generation/evaluation experiment, not a preservation-clean publication candidate.",
       "No detector action is authorized.",
       "Registered article master has not been changed."
     ]
   },
   "detector": {
-    "policy": "No Pangram or other paid detector call is authorized by this consistency qualification experiment.",
+    "policy": "No Pangram or other paid detector call is authorized by this experiment.",
     "status": "not-authorized",
     "submitted_candidate_sha256": null,
     "result": null
   },
   "next_action": {
-    "type": "CODEX_CONTINUOUS_EVAL_LOOP",
-    "instruction": "Follow CODEX-CONTINUOUS-EVAL-DRIVER-20260901.md mechanically. Send eval for the exact pending candidate, wait for Chat completion and GitHub persistence, then continue automatically. Handoff after at most 20 completed eval cycles in one Chat, or immediately after the fifth same-context consecutive PASS for fresh-context verification.",
+    "type": "BLINDED_EVAL_PENDING_RETRY",
+    "instruction": "On the next eval, cold-read the exact pending candidate before reading qualification counters or consequences. If it fails or is uncertain, perform the full causal repair loop. If it genuinely passes, only then read qualification state and begin a new frozen-mechanism consistency streak.",
     "automatic_action_after_owner_response": true
   }
 }
