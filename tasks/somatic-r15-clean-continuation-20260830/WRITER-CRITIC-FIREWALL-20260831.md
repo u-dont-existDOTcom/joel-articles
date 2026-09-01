@@ -43,6 +43,23 @@ For the next exploratory passes, change the composition unit:
 
 This is an operational approximation inside one model context; literal information hiding is impossible. The key test is whether the resulting prose appears to have known its payoff several sentences in advance. If so, the no-lookahead mode failed even if the words are natural.
 
+### Lexical-fixation attention reset
+
+Owner-directed `eval` on 2026-08-31 found that microburst generation can still become a serial repair machine. In the failed attempt, `stop` was introduced, then questioned, disambiguated with shaking, redefined as changing one's mind, and finally restated twice. No individual burst required paragraph-level lookahead; the failure came from keeping attention locked on one lexical ambiguity until the ambiguity was fully closed.
+
+This is **lexical fixation**: local uncertainty becomes repair debt, and each new burst is spent paying that debt rather than continuing to think.
+
+Use the following positive routing inside the writer packet:
+
+1. **Local roughness may remain.** If the literal meaning is intelligible enough to continue, a slightly loose word does not need immediate repair.
+2. **One repair burst maximum before attention resets.** A real comprehension problem may receive one short clarification. After that, move attention back to another live pressure in the text rather than continuing to define the same word.
+3. **Attention reset, not topic reset.** The next burst need not import a new source topic. It may pick up a different consequence, association, irritation, case, or unresolved piece already latent in the words on the page.
+4. **Do not accumulate definition debt.** The writer does not maintain a private list of terms that must be made exact before the paragraph can proceed. Publication-level precision is a later revision concern unless current wording would materially misstate the thought.
+5. **No serial self-edit narration.** `I mean`, `what I mean is`, `I'm using X too loosely`, and similar repair language may occur naturally, but the writer cannot use them repeatedly as the engine of continuation.
+6. **Return is allowed later.** A loose term can be clarified later if another thought makes the distinction newly necessary. It does not have to be resolved at first contact.
+
+The critic should reject a passage when several successive sentences exist mainly to clean up one prior word, even if the resulting distinction is correct.
+
 ### Critic packet
 
 Only after a complete >=50-word attempt exists does the critic reopen the accumulated gates and inspect the literal passage for:
@@ -58,7 +75,8 @@ Only after a complete >=50-word attempt exists does the critic reopen the accumu
 - aphoristic substitution;
 - truncation / minimum-length failure;
 - semantic or provenance violations;
-- evidence that the prose knew its payoff several sentences in advance.
+- evidence that the prose knew its payoff several sentences in advance;
+- lexical fixation / serial repair of one term.
 
 The critic diagnoses; it does not line-edit the rejected candidate into compliance.
 
