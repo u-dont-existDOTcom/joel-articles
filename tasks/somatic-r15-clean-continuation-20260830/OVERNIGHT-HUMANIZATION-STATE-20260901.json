@@ -57,7 +57,7 @@
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_LAUNCH_RELAY_SENTENCE_WRITER_002",
+    "next_action": "CODEX_RECOVER_RELAY_SENTENCE_WRITER_002_RESULT",
     "sentence_history": [
       {
         "ordinal": 1,
@@ -67,7 +67,13 @@
         "writer_lane": "FRESH_CHAT_SAME_MODEL",
         "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
       }
-    ]
+    ],
+    "pending_sentence_writer": {
+      "ordinal": 2,
+      "client_thread_id": "local-chatgpt:e79f7b98-0147-4d7b-aff3-e291a34ecd66",
+      "status": "PROVISIONING_OR_RUNNING",
+      "fresh_context": true
+    }
   },
   "next_writer_packet": null,
   "pending_eval_candidate": null,
@@ -130,5 +136,5 @@
       "failure_family": "LOW_INFORMATION_SEED_TO_POLISHED_PARADOXICAL_MINI_ESSAY"
     }
   ],
-  "next_action": "CODEX_CONTINUE_SERIAL_FRESH_WRITER_RELAY_BELOW_50_WORDS"
+  "next_action": "CODEX_RECOVER_RELAY_SENTENCE_WRITER_002_RESULT_THEN_APPLY_HIDDEN_LENGTH_CONTROLLER"
 }
