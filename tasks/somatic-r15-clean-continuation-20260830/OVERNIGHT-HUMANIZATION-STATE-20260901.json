@@ -57,7 +57,7 @@
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_LAUNCH_RELAY_002_SENTENCE_WRITER_003",
+    "next_action": "CODEX_RECOVER_RELAY_002_SENTENCE_WRITER_003_RESULT",
     "sentence_history": [
       {
         "ordinal": 1,
@@ -80,7 +80,12 @@
     "frozen": false,
     "frozen_candidate_sha256": null,
     "frozen_at_first_sentence_boundary_at_or_above_50": false,
-    "pending_sentence_writer": null
+    "pending_sentence_writer": {
+      "ordinal": 3,
+      "client_thread_id": "local-chatgpt:42251a02-1d5e-4dfc-a42a-30164dfed9a6",
+      "status": "PROVISIONING_OR_RUNNING",
+      "fresh_context": true
+    }
   },
   "next_writer_packet": null,
   "pending_eval_candidate": null,
@@ -152,5 +157,5 @@
       "failure_family": "SERIAL_RELAY_BALANCED_PARADOX_TO_AGENCY_HARVEST"
     }
   ],
-  "next_action": "CODEX_LAUNCH_RELAY_002_SENTENCE_WRITER_003_THEN_APPLY_HIDDEN_LENGTH_CONTROLLER"
+  "next_action": "CODEX_RECOVER_RELAY_002_SENTENCE_WRITER_003_RESULT_THEN_APPLY_HIDDEN_LENGTH_CONTROLLER"
 }
