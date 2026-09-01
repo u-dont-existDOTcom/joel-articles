@@ -45,11 +45,26 @@ Each candidate is generated in a **fresh context/process**. Preferred implementa
 The writer receives only:
 
 - this is exploratory Somatic Introduction prose;
-- the currently authorized semantic field or one small positive live-pressure packet supplied by the supervisor;
+- one small positive live-pressure packet supplied by the supervisor;
 - no invented autobiography, symptoms, chronology, evidence, or unauthorized factual specificity;
 - no requirement to cover all source functions in this discovery pass;
 - source reconciliation occurs later;
 - one complete candidate is required and must be at least 50 words.
+
+### Writer-packet representation rule — added after isolated trial 001
+
+The first physically isolated writer still produced a model-shaped paragraph because the packet itself supplied a nearly complete thesis: `still have choice while the body is reacting`. The fresh writer then rhetorically unpacked that proposition into balanced qualification plus a three-part agency list.
+
+Therefore physical isolation is necessary but **not sufficient if the packet carries a pre-completed argument**.
+
+For subsequent isolated trials:
+
+1. The live-pressure field must be **pre-propositional**: a fragment, temporal snag, verb/object tension, unfinished observation, or local question pressure—not a sentence-ready claim.
+2. Do not give the writer an `A while B`, `A despite B`, `X does not mean Y`, recommendation, exception structure, or other relation that already determines the paragraph's argument.
+3. One packet may expose only one unresolved edge. If the packet naturally decomposes into criteria, reasons, cases, or a contrast pair, it is too complete and must be reduced before dispatch.
+4. The generic instruction may request coherent prose, but it must not request a takeaway, conclusion, balanced treatment, persuasive explanation, or explicit contrast.
+5. The supervisor authors the packet; Codex only transports it. Packet repair is representation/architecture work, not a prose blacklist.
+6. A fresh writer remains free to discover a relation. The rule is only that the relation may not be supplied in advance by the packet.
 
 The writer must **not** receive:
 
@@ -123,7 +138,7 @@ Use a fresh workspace/agent identity or otherwise disable/segregate persistent l
 
 A normal cycle under this experiment is:
 
-1. Supervisor persists a minimal positive `writer_packet` and mechanism/epoch identity.
+1. Supervisor persists a minimal positive **pre-propositional** `writer_packet` and mechanism/epoch identity.
 2. Codex creates a fresh writer execution.
 3. Writer returns one exact >=50-word candidate.
 4. Codex records exact text + hash and sends only the candidate with `eval` to the evaluator Chat.
