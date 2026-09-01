@@ -1,27 +1,27 @@
 {
-  "schema_version": 5,
+  "schema_version": 6,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "EVAL_PENDING",
+  "status": "ALTERNATE_RUNTIME_TOURNAMENT_REQUIRED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
-    "ordinal": 2,
-    "family": "SERIAL_FRESH_WRITER_RELAY",
-    "disposition": "CONTINUE_UNCHANGED_FOR_SECOND_RELAY_BENCHMARK",
-    "reason": "Relay candidate 001 cold-FAILed with the same broad mini-essay/closure family despite physical context reset at every sentence boundary. Per the epoch-2 protocol, run exactly one second relay paragraph under the unchanged relay architecture before another strategy meta-audit.",
-    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
+    "ordinal": 3,
+    "family": "ALTERNATE_RUNTIME_WRITER_TOURNAMENT",
+    "disposition": "RADICAL_RESET",
+    "reason": "The same ChatGPT runtime/model family cold-FAILed 3/3 fresh whole-paragraph trials and 2/2 serial fresh-sentence relay paragraphs. Relay candidate 002 remained in one semantic orbit and closed by compressing the same moment-over/response-not-over distinction. Prompt/context architecture changes are no longer producing affirmative convergence evidence.",
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/ALTERNATE-RUNTIME-WRITER-TOURNAMENT-20260901.md",
     "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md",
-    "prior_epoch": "PHYSICAL_ROLE_ISOLATION_WITH_WHOLE_PARAGRAPH_WRITER",
-    "prior_epoch_result": "FAILED_3_OF_3_COLD_EVAL_ZERO_PANGRAM_ELIGIBLE"
+    "prior_epoch": "SERIAL_FRESH_WRITER_RELAY",
+    "prior_epoch_result": "FAILED_2_OF_2_SAME_BROAD_CLOSURE_FAMILY_ZERO_PANGRAM_ELIGIBLE"
   },
   "counters": {
-    "completed_eval_cycles_total": 4,
-    "completed_eval_cycles_current_chat": 4,
-    "completed_eval_cycles_since_strategy_audit": 1,
-    "strategy_audits_completed": 1,
+    "completed_eval_cycles_total": 5,
+    "completed_eval_cycles_current_chat": 5,
+    "completed_eval_cycles_since_strategy_audit": 0,
+    "strategy_audits_completed": 2,
     "handoffs_completed": 0,
     "cold_passes": 0,
-    "cold_fails": 4,
+    "cold_fails": 5,
     "cold_uncertain": 0,
     "false_pass_retractions": 1,
     "pangram_new_paid_calls": 0,
@@ -44,73 +44,17 @@
     "no_repeat_rule": true,
     "ambiguous_action_rule": "RECOVER_BEFORE_REPEAT"
   },
-  "relay": {
-    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
-    "seed": "afterward",
-    "relay_candidate_ordinal": 2,
-    "buffer": "Afterward, the reaction may still be moving even when the moment that stirred it has passed. The body does not always notice at once that it is no longer answering the same moment. It may go on answering for a while. For a while, “over” may be true of the moment but not yet of the response.",
-    "buffer_word_count": 57,
-    "sentence_count": 4,
-    "next_sentence_writer_ordinal": 5,
-    "writer_context_policy": "NEW_FRESH_CONTEXT_FOR_EVERY_SENTENCE",
-    "writer_receives_length_target": false,
-    "writer_receives_sentence_ordinal": false,
-    "writer_receives_stop_horizon": false,
-    "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_RECOVER_FROZEN_RELAY_002_BLINDED_VERDICT",
-    "sentence_history": [
-      {
-        "ordinal": 1,
-        "sentence_text": "Afterward, the reaction may still be moving even when the moment that stirred it has passed.",
-        "sentence_sha256": "ca8fded3db8c487146ff43405bef1610faa945ba18af102fc062f0edbe186e7c",
-        "writer_context_id": "6a96395c-2db4-83ea-8f0f-d8eb13547212",
-        "writer_lane": "FRESH_CHAT_SAME_MODEL",
-        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
-      },
-      {
-        "ordinal": 2,
-        "sentence_text": "The body does not always notice at once that it is no longer answering the same moment.",
-        "sentence_sha256": "2e441795536eab5459b2473e5f61da1875cf58b349958b14c68f8976cd4eb5c1",
-        "writer_context_id": "6a9639be-e744-83e9-989d-290701f80de3",
-        "writer_lane": "FRESH_CHAT_SAME_MODEL",
-        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
-      },
-      {
-        "ordinal": 3,
-        "sentence_text": "It may go on answering for a while.",
-        "sentence_sha256": "81bf799b3b8dbf3688ac0881050bd42a7b84dc7d826dd8f960ceb2a8024a9135",
-        "writer_context_id": "6a963e2d-e99c-83ea-9df4-b58d6bc9f1bc",
-        "writer_lane": "FRESH_CHAT_SAME_MODEL",
-        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
-      },
-      {
-        "ordinal": 4,
-        "sentence_text": "For a while, “over” may be true of the moment but not yet of the response.",
-        "sentence_sha256": "a3934f13782b56d6290acfe1c9f54e2ff6ee375080a821406f7c4737365716d7",
-        "writer_context_id": "6a963eee-7744-83ea-a703-009d1ce254a4",
-        "writer_lane": "FRESH_CHAT_SAME_MODEL",
-        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
-      }
-    ],
-    "buffer_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
-    "frozen": true,
-    "frozen_candidate_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
-    "frozen_at_first_sentence_boundary_at_or_above_50": true,
-    "pending_sentence_writer": null
+  "alternate_runtime_tournament": {
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/ALTERNATE-RUNTIME-WRITER-TOURNAMENT-20260901.md",
+    "fixed_fragment": "afterward",
+    "minimum_distinct_model_families": 2,
+    "maximum_model_families": 3,
+    "runtime_identity_must_be_known": true,
+    "same_model_fresh_chat_does_not_count": true,
+    "candidate_results": [],
+    "next_action": "CODEX_DISCOVER_ALREADY_AUTHORIZED_DISTINCT_MODEL_RUNTIMES_AND_RUN_BLINDED_TOURNAMENT"
   },
-  "next_writer_packet": null,
-  "pending_eval_candidate": {
-    "candidate_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
-    "candidate_text": "Afterward, the reaction may still be moving even when the moment that stirred it has passed. The body does not always notice at once that it is no longer answering the same moment. It may go on answering for a while. For a while, “over” may be true of the moment but not yet of the response.",
-    "word_count": 57,
-    "packet_id": "SERIAL-RELAY-E2-CANDIDATE-002",
-    "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
-    "eval_payload_rule": "eval\\n\\n<exact candidate only>",
-    "evaluator_blinding": "REQUIRED",
-    "dispatched_to_evaluator_chat": "6a961bbd-6318-83ea-8444-31bc8ffaa654",
-    "dispatch_status": "SENT_EXACT_BLINDED_PAYLOAD",
-    "dispatch_payload_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d"
-  },
+  "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -131,14 +75,14 @@
     "blocker": "NO_MODEL_PROVIDER_AND_NO_N8N_API_KEY; OPTIONAL_SETUP_DOES_NOT_BLOCK_PRIMARY_LOOP"
   },
   "last_cold_verdict": {
-    "candidate_sha256": "85c6ed09a878c15bb14e8e8b99ed03bddb4bc8c17959c47e2a8edd01a353cb5c",
-    "word_count": 56,
+    "candidate_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
+    "word_count": 57,
     "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
-    "packet_id": "SERIAL-RELAY-E2-CANDIDATE-001",
+    "packet_id": "SERIAL-RELAY-E2-CANDIDATE-002",
     "verdict": "FAIL",
-    "strongest_literal_defect": "The assembled relay still forms a designed paradox: 'too late for choice / too early to know', then lands on a neat agency takeaway in the final sentence.",
-    "causal_diagnosis": "Removing whole-paragraph writer horizon was insufficient. Independent sentence writers reconstructed the same rhetorical attractor from literal accumulated text alone: balanced opposition followed by conceptual harvest. This suggests the attractor is recoverable from local continuation dynamics, not only paragraph-level planning continuity.",
-    "strategy_implication": "Do not add sentence-level bans. Run exactly one second relay paragraph under the unchanged architecture. If it cold-FAILs in the same broad mini-essay/closure family, immediately trigger a new strategy meta-audit and consider changing model/runtime or abandoning generative reconstruction as the primary lane.",
+    "strongest_literal_defect": "The paragraph remains in one semantic orbit and closes by compressing the already-repeated distinction into a tidy formulation: the moment is over but the response is not.",
+    "causal_diagnosis": "Physical context reset at every sentence boundary did not prevent local continuation from reconstructing semantic orbit and conceptual compression. Together with the 3/3 whole-paragraph failures, the strongest remaining common factor is the current base model/runtime's reflective-expository continuation prior rather than paragraph-horizon or same-context contamination alone.",
+    "strategy_implication": "Close the same-model relay epoch. Radical reset to a bounded alternate-runtime tournament before any further prompt-architecture work. If genuinely distinct model families reproduce the same broad failure, abandon generative reconstruction as the primary lane.",
     "pangram_authorized": false
   },
   "history": [
@@ -177,7 +121,16 @@
       "verdict": "FAIL",
       "pangram": "NOT_AUTHORIZED",
       "failure_family": "SERIAL_RELAY_BALANCED_PARADOX_TO_AGENCY_HARVEST"
+    },
+    {
+      "ordinal": 5,
+      "candidate_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
+      "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
+      "packet_id": "SERIAL-RELAY-E2-CANDIDATE-002",
+      "verdict": "FAIL",
+      "pangram": "NOT_AUTHORIZED",
+      "failure_family": "SERIAL_RELAY_SEMANTIC_ORBIT_TO_TIDY_FINAL_DISTINCTION"
     }
   ],
-  "next_action": "CODEX_RECOVER_FROZEN_RELAY_002_BLINDED_VERDICT_FROM_EVALUATOR_AND_GITHUB"
+  "next_action": "CODEX_EXECUTE_ALTERNATE_RUNTIME_WRITER_TOURNAMENT_EPOCH_3"
 }
