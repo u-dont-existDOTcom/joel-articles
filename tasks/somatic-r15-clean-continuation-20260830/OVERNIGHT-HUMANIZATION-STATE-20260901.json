@@ -107,7 +107,9 @@
     "provider_label": "CHATGPT_WORK",
     "model_label": "PROJECT_DEFAULT_UNDISCLOSED",
     "cold_evaluator_payload": "eval\\n\\n<exact candidate>",
-    "evaluator_has_received_candidate": false
+    "evaluator_has_received_candidate": true,
+    "evaluator_thread_id": "6a961bbd-6318-83ea-8444-31bc8ffaa654",
+    "eval_payload_dispatched": "eval\\n\\n<exact candidate>"
   },
   "pending_pangram_authorization": null,
   "n8n_shadow": {
@@ -168,5 +170,5 @@
       "failure_family": "LOW_INFORMATION_SEED_TO_POLISHED_PARADOXICAL_MINI_ESSAY"
     }
   ],
-  "next_action": "CODEX_SEND_EXACT_RELAY_CANDIDATE_TO_EVALUATOR_WITHOUT_METADATA"
+  "next_action": "CODEX_WAIT_FOR_FROZEN_COLD_VERDICT"
 }
