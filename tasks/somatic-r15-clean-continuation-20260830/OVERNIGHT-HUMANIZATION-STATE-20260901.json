@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "WRITER_REQUIRED",
+  "status": "EVALUATION_PENDING",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -52,21 +52,21 @@
     "no_repeat_rule": true,
     "ambiguous_action_rule": "RECOVER_BEFORE_REPEAT"
   },
-  "next_writer_packet": {
+  "next_writer_packet": null,
+  "pending_eval_candidate": {
+    "candidate_text": "afterward. The word assumes something ended cleanly enough to stand on the other side of it. Sometimes nothing feels ended. A reaction has passed, perhaps, but the body hasn’t agreed to call it past, and thought keeps arriving with explanations that seem both late and premature. There may be no useful conclusion in that gap, only the odd fact of being here while some part of what happened is still happening.",
+    "candidate_sha256": "8e9d943b14473aabde8172db699a5cd861a43894aec946a9b4e564e0ba61f3d8",
+    "word_count": 71,
     "packet_id": "ISO-WRITER-003",
-    "lane_preference": "FRESH_CHAT_SAME_MODEL",
-    "live_pressure_fragment": "afterward",
-    "packet_representation": "single low-information lexical edge; no supplied proposition, contrast, causal relation, or conclusion",
-    "instructions": [
-      "Write one non-authoritative exploratory Somatic Introduction paragraph beginning from the fragment 'afterward'. Follow whatever local thought occurs from it; do not try to cover the whole Introduction or manufacture a takeaway.",
-      "At least 50 words.",
-      "Do not invent autobiography, symptoms, chronology, evidence, clinical facts, or factual specificity not supplied.",
-      "Do not imitate or borrow unrelated Human prose.",
-      "Do not mention detectors, AI, the experiment, prior drafts, or evaluator criteria.",
-      "Return prose only."
-    ]
+    "strategy_epoch_ordinal": 1,
+    "writer_lane": "FRESH_CHAT_SAME_MODEL",
+    "writer_runtime": "CHATGPT_WORK_FRESH_CONVERSATION",
+    "writer_context_id": "6a963587-40b4-83ea-b412-0e0b19d0b0d7",
+    "provider_label": "CHATGPT_WORK",
+    "model_label": "PROJECT_DEFAULT_UNDISCLOSED",
+    "cold_evaluator_payload": "eval\\n\\n<exact candidate>",
+    "evaluator_has_received_candidate": false
   },
-  "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -137,5 +137,5 @@
       "failure_family": "MINIMAL_ABSTRACT_SEED_TO_METAPHORIC_CONCEPT_COMPLETION"
     }
   ],
-  "next_action": "CODEX_LAUNCH_ISOLATED_WRITER_003_THEN_SEND_EXACT_CANDIDATE_TO_EVALUATOR"
+  "next_action": "CODEX_SEND_EXACT_CANDIDATE_TO_EVALUATOR_WITHOUT_METADATA"
 }
