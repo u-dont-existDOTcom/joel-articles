@@ -1,94 +1,83 @@
 {
-  "schema_version": 15,
+  "schema_version": 16,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "owner_direct_eval_adaptation_after_false_pass",
-  "last_authoritative_head_before_state_update": "248c532126ac26be59d89f611398276f5a756735",
+  "workflow_state": "owner_direct_overnight_physical_isolation_experiment",
   "role_boundary": {
-    "reasoning_owner": "Chat",
+    "reasoning_owner": "Evaluator/supervisor Chat",
     "mechanical_executor": "Codex",
-    "writer_context_id": "current_owner_chat",
-    "rule": "Chat owns strategy, provenance, semantic/editorial judgment, writing authority, blinded eval verdicts, causal diagnosis, mechanism repairs, qualification decisions, and release decisions. Codex may send eval commands, read persisted state, count cycles, and perform mechanical handoffs only."
+    "candidate_writer": "fresh isolated writer execution selected by current overnight state",
+    "rule": "Evaluator Chat owns blinded prose verdicts, causal diagnosis, strategy, writer-packet authoring, detector interpretation, and authority decisions. Codex owns mechanics only. Candidate generation is physically separated from the evaluator during this epoch."
   },
-  "source": {
-    "path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SUPPLIED-INTRO-BOUNDARY-20260831.md",
-    "revision": "owner-supplied-current-conversation-2026-08-31",
-    "changed_scope": "Complete Introduction from # Introduction through the final inner-child paragraph, stopping before the next article section.",
-    "authority": "Current direct owner-supplied semantic/prose boundary for later reconciliation; current owner instruction temporarily permits exploratory generation without exact semantic matching."
+  "article_authority": {
+    "article_id": "somatic-therapies",
+    "registered_master": "articles/somatic-therapies/master.html",
+    "registered_master_status": "UNCHANGED_BLOCKING_AUTHORITY",
+    "experiment_candidates_are_authority": false
   },
   "owner_override": {
-    "status": "ACTIVE_FOR_EVAL_ADAPTATION",
-    "authorization": "Joel directed continuation after immediately challenging a recorded PASS. Chat withdrew that PASS because it did not actually believe the candidate looked human. The false PASS must remain retracted; qualification is reset. Continue the full eval-driven mechanism repair experiment before re-entering consistency qualification.",
-    "scope": "Non-authoritative exploratory Somatic Introduction generation only. Semantic reconciliation, detector work, promotion, and registered-master editing remain blocked.",
-    "qualification_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/HUMAN-CONSISTENCY-QUALIFICATION-PROTOCOL-20260901.md",
-    "qualification_state_path": "tasks/somatic-r15-clean-continuation-20260830/HUMAN-CONSISTENCY-QUALIFICATION-STATE-20260901.json",
-    "codex_driver_path": "tasks/somatic-r15-clean-continuation-20260830/CODEX-CONTINUOUS-EVAL-DRIVER-20260901.md",
-    "blinded_eval_gate_path": "tasks/somatic-r15-clean-continuation-20260830/BLINDED-EVAL-VERDICT-GATE-20260901.md",
-    "persona_boundary": "A provisional Joel stance may guide judgment/taste only; it may not fabricate autobiography, symptoms, chronology, evidence, or unauthorized claims."
+    "status": "ACTIVE_OVERNIGHT_EXPERIMENT",
+    "authorization": "Joel directed Codex to run the eval loop overnight, run Pangram on exact candidates only after Chat genuinely cold-PASSes them, audit the entire strategy every 5-10 turns with willingness to radically reset if stuck, hand off evaluator Chat every 20 eval cycles, and actually trial n8n and Nous Research Hermes Agent rather than debating them abstractly.",
+    "scope": "Non-authoritative Somatic Introduction mechanism-discovery experiment only.",
+    "detector_authorization": "CONDITIONAL_PANGRAM_4_RESEARCH_MEASUREMENT_AFTER_GENUINE_COLD_PASS_ONLY",
+    "detector_claim_boundary": "Short paragraph Pangram result is research evidence only and cannot establish article-level humanization, preservation, or promotion."
   },
   "strategy": {
-    "active_family": "LIVE_MUTATIONAL_COMPOSITION_WITH_PROVISIONAL_BUFFER_CONTRASTIVE_ATTENTION_AND_ATOMIZED_RESERVE",
-    "mechanism_status": "UNFROZEN_AFTER_REPAIR_PENDING_NEXT_COLD_VERDICT",
-    "method": "Maintain two or three genuinely pre-propositional reserve pressures, but atomize each reserve item to one unresolved semantic edge before exposure. Expose only one atom at a time. Compose into a provisional burst buffer without sentence-level conceptual review; keep critic history and numerical minimum outside the writer. The contrastive scheduler may mask a redundant semantic center and expose one peripheral atomized pressure without revealing diagnosis or consulting source coverage. The length controller independently returns only CONTINUE or STOP. STOP freezes the whole buffer for critic review. Cold eval verdict must be frozen before qualification counters/consequences are read.",
-    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
-    "writer_critic_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/WRITER-CRITIC-FIREWALL-20260831.md",
-    "source_occlusion_and_floor_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SOURCE-CARD-OCCLUSION-GATE-20260831.md",
-    "attention_eviction_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/POST-REPAIR-ANCHOR-EVICTION-GATE-20260901.md",
-    "provisional_burst_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/PROVISIONAL-BURST-BUFFER-GATE-20260901.md",
-    "semantic_orbit_snapshot_path": "tasks/somatic-r15-clean-continuation-20260830/SEMANTIC-ORBIT-DIAGNOSTIC-SNAPSHOT-20260901.md",
-    "contrastive_scheduler_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/CONTRASTIVE-ATTENTION-SCHEDULER-GATE-20260901.md",
-    "reserve_atomization_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/RESERVE-ATOMIZATION-GATE-20260901.md",
-    "blinded_eval_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/BLINDED-EVAL-VERDICT-GATE-20260901.md",
-    "known_pull_signature": "body/mind mismatch premise -> complex-trauma qualification -> readiness checklist -> regulation verdict -> EMDR exception -> bodily-discharge exception -> polished inner-child transfer/closure",
-    "mvi_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_INSTRUCTION",
-    "anti_pull_status": "INCORPORATED_ONLY_AS_BACKGROUND_AWARENESS_NOT_ACTIVE_COMPOSITION_OUTLINE",
-    "dsmr_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_OVERRIDE_NOT_CANCELLED"
+    "active_family": "PHYSICAL_ROLE_ISOLATION_WITH_N8N_HERMES_SHADOW",
+    "strategy_epoch": 1,
+    "disposition": "RADICAL_RESET",
+    "reason": "The same-context gate stack showed constraint accretion/local-repair oscillation, produced a false PASS, and the latest contrastive-scheduler candidate cold-FAILed as an engineered visible/hidden binary argument. Do not add another same-context prose gate as the next move.",
+    "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md",
+    "physical_isolation_path": "tasks/somatic-r15-clean-continuation-20260830/PHYSICALLY-ISOLATED-WRITER-EXPERIMENT-20260901.md",
+    "evaluator_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/OVERNIGHT-EVALUATOR-PROTOCOL-20260901.md",
+    "codex_driver_path": "tasks/somatic-r15-clean-continuation-20260830/CODEX-OVERNIGHT-HUMANIZATION-DRIVER-20260901.md",
+    "overnight_state_path": "tasks/somatic-r15-clean-continuation-20260830/OVERNIGHT-HUMANIZATION-STATE-20260901.json",
+    "blinded_eval_path": "tasks/somatic-r15-clean-continuation-20260830/BLINDED-EVAL-VERDICT-GATE-20260901.md",
+    "legacy_same_context_strategy_status": "PRESERVED_AS_BASELINE_NOT_SOLE_NEXT_STRATEGY"
   },
-  "qualification": {
-    "id": "SOMATIC-INTRO-HUMAN-CONSISTENCY-20260901",
-    "phase": "ADAPTATION",
-    "same_context_required": 5,
-    "same_context_current": 0,
-    "fresh_context_required": 3,
-    "fresh_context_current": 0,
-    "max_eval_cycles_per_chat": 20,
-    "false_pass_retracted": true,
-    "rule": "Verdict first under blinded evaluator gate; bookkeeping second. Any FAIL or UNCERTAIN resets qualification and returns to causal diagnose-repair-retry. A genuine PASS may begin a new frozen-mechanism streak."
-  },
-  "current_candidate": {
-    "status": "PENDING_NEXT_EVAL_NON_AUTHORITATIVE",
-    "sha256": "3e557db96d7e1b46094e59ca2ebcaf788d6fe5d5365e2cb0f9ac6b9191366a5c",
+  "last_eval": {
+    "candidate_sha256": "3e557db96d7e1b46094e59ca2ebcaf788d6fe5d5365e2cb0f9ac6b9191366a5c",
     "word_count": 57,
-    "text": "A huge reaction is hard to ignore. It fills the room and starts becoming the thing everyone is watching. I can see how that happens. It is right there. What is harder to see is whether the person is still themselves when the whole thing settles down. The session can look impressive and leave somebody worse off."
+    "verdict": "FAIL",
+    "strongest_literal_defect": "The passage organizes itself as a polished visible-versus-hidden contrast and lands on a compact looks-impressive/leaves-worse-off antithesis.",
+    "causal_diagnosis": "The contrastive attention scheduler's corrective shift became a binary rhetorical organizer; coupled with the accumulated same-context rule stack this is evidence of strategy-level oscillation rather than clean convergence.",
+    "pangram_authorized": false
   },
-  "gates": {
-    "authority_reconciliation": "PASS_CURRENT_OWNER_OVERRIDE_RECORDED",
-    "exploratory_generation": "AUTHORIZED",
-    "semantic_preservation": "DEFERRED_DURING_EXPLORATORY_ADAPTATION_BY_DIRECT_OWNER_INSTRUCTION",
-    "cold_reader": "ACTIVE_BLINDED_INTERNAL_EVAL_ONLY",
-    "owner_read": "ONGOING_THROUGH_EVAL_LOOP",
-    "detector": "BLOCKED",
-    "candidate_promotion": "BLOCKED"
+  "meta_audit": {
+    "default_interval_eval_cycles": 7,
+    "owner_requested_range": "5-10",
+    "immediate_audit_result": "RADICAL_RESET_REQUIRED",
+    "next_required_audit_after_eval_cycles": 7,
+    "early_triggers_in_state": true
   },
-  "release": {
-    "candidate_visibility": "owner-facing exploratory prose allowed",
-    "publication_edit": "blocked",
-    "detector_eligibility": "blocked",
-    "candidate_promotion": "blocked until later semantic reconciliation, normal gates, and owner acceptance",
-    "blockers": [
-      "Current work is an internal generation/evaluation experiment, not a preservation-clean publication candidate.",
-      "No detector action is authorized.",
-      "Registered article master has not been changed."
-    ]
+  "handoff": {
+    "max_completed_eval_cycles_per_evaluator_chat": 20,
+    "fresh_evaluator_required_at_limit": true
   },
   "detector": {
-    "policy": "No Pangram or other paid detector call is authorized by this experiment.",
-    "status": "not-authorized",
-    "submitted_candidate_sha256": null,
-    "result": null
+    "policy": "Cold FAIL/UNCERTAIN receives no Pangram. After a genuine blinded cold PASS, Chat must persist exact-hash authorization before Codex may run one cache-safe Pangram 4 measurement. Existing lab no-repeat/ambiguity/call-ledger safeguards remain binding.",
+    "model_required": "pangram-4",
+    "version_required": "4.0",
+    "max_new_paid_calls_overnight": 6,
+    "article_promotion_from_detector": "BLOCKED"
   },
+  "shadow_components": {
+    "n8n": "TRIAL_AUTHORIZED_AS_LOCAL_PRIVATE_ORCHESTRATION_ONLY",
+    "hermes": "TRIAL_AUTHORIZED_AS_CLEAN_ISOLATED_STRATEGIST_AND_SHADOW_WRITER_ONLY",
+    "github": "CANONICAL_SOURCE_OF_TRUTH",
+    "memory_boundary": "Hermes writer memory/skill learning must be disabled or segregated; critic/strategy memory may not leak into writer trials."
+  },
+  "hard_boundaries": [
+    "NO_REGISTERED_MASTER_EDIT",
+    "NO_ARTICLE_PROMOTION",
+    "NO_UNRELATED_HUMAN_DONOR_PROSE",
+    "NO_INVENTED_AUTOBIOGRAPHY_OR_FACTUAL_SPECIFICITY",
+    "NO_PANGRAM_ON_COLD_FAIL_OR_UNCERTAIN",
+    "NO_REPEAT_AFTER_AMBIGUOUS_PAID_ACTION_WITHOUT_RECOVERY",
+    "NO_CODEX_EDITORIAL_JUDGMENT"
+  ],
   "next_action": {
-    "type": "BLINDED_EVAL_PENDING_RETRY",
-    "instruction": "On the next eval, cold-read the exact pending candidate before reading qualification counters or consequences. If it fails or is uncertain, perform the full causal repair loop. If it genuinely passes, only then read qualification state and begin a new frozen-mechanism consistency streak.",
+    "type": "CODEX_OVERNIGHT_DRIVER",
+    "instruction": "Execute tasks/somatic-r15-clean-continuation-20260830/CODEX-OVERNIGHT-HUMANIZATION-DRIVER-20260901.md. First set up/attempt n8n and Hermes shadow infrastructure without blocking the main loop; then launch ISO-WRITER-001 in a genuinely fresh writer context from OVERNIGHT-HUMANIZATION-STATE-20260901.json, return the exact candidate to the evaluator Chat as eval + candidate only, and continue from persisted state.",
     "automatic_action_after_owner_response": true
   }
 }
