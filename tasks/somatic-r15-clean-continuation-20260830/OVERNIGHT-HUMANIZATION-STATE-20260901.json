@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "WRITER_REQUEST_READY",
+  "status": "EVALUATION_PENDING",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -52,22 +52,21 @@
     "no_repeat_rule": true,
     "ambiguous_action_rule": "RECOVER_BEFORE_REPEAT"
   },
-  "next_writer_packet": {
+  "next_writer_packet": null,
+  "pending_eval_candidate": {
+    "candidate_text": "Words come late. Something has already shifted before there is a name for it, and trying to name it too quickly can feel like reaching into water and closing a fist around nothing. By the time a sentence forms, the moment it was meant to describe may have moved somewhere else. Still, the delay is not emptiness. There is something there before explanation, even when language has not caught up.",
+    "candidate_sha256": "18622fdc611fd543692389e693afb29fb39903551572d17a62c80c945151a7ce",
+    "word_count": 70,
     "packet_id": "ISO-WRITER-002",
-    "lane_preference": "FRESH_CHAT_SAME_MODEL",
-    "live_pressure_fragment": "words come late",
-    "instructions": [
-      "Write one non-authoritative exploratory Somatic Introduction paragraph from this unfinished pressure without trying to cover the whole Introduction or land a takeaway.",
-      "At least 50 words.",
-      "Do not invent autobiography, symptoms, chronology, evidence, clinical facts, or factual specificity not supplied.",
-      "Do not imitate or borrow unrelated Human prose.",
-      "Do not mention detectors, AI, the experiment, prior drafts, or evaluator criteria.",
-      "Return prose only."
-    ],
-    "packet_shape": "PRE_PROPOSITIONAL_SINGLE_EDGE",
-    "note": "The writer is not told what the late words imply, what they contrast with, or what conclusion to reach."
+    "strategy_epoch_ordinal": 1,
+    "writer_lane": "FRESH_CHAT_SAME_MODEL",
+    "writer_runtime": "CHATGPT_WORK_FRESH_CONVERSATION",
+    "writer_context_id": "6a963455-7b8c-83ea-9e64-f215934a9dda",
+    "provider_label": "CHATGPT_WORK",
+    "model_label": "PROJECT_DEFAULT_UNDISCLOSED",
+    "cold_evaluator_payload": "eval\\n\\n<exact candidate>",
+    "evaluator_has_received_candidate": false
   },
-  "pending_eval_candidate": null,
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -128,5 +127,5 @@
       "failure_family": "PRECOMPLETED_PACKET_THESIS_TO_BALANCED_RUBRIC"
     }
   ],
-  "next_action": "CODEX_LAUNCH_ISOLATED_WRITER_002_FROM_NEXT_WRITER_PACKET"
+  "next_action": "CODEX_SEND_EXACT_CANDIDATE_TO_EVALUATOR_WITHOUT_METADATA"
 }
