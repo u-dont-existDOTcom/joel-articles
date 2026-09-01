@@ -1,5 +1,5 @@
 {
-  "schema_version": 9,
+  "schema_version": 10,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
   "workflow_state": "owner_direct_live_mutational_composition_experiment",
   "last_authoritative_head_before_state_update": "248c532126ac26be59d89f611398276f5a756735",
@@ -23,10 +23,11 @@
     "persona_boundary": "A provisional Joel stance may guide judgment/taste only; it may not fabricate autobiography, symptoms, chronology, evidence, or unauthorized claims."
   },
   "strategy": {
-    "active_family": "LIVE_MUTATIONAL_COMPOSITION_WITH_POST_REPAIR_ANCHOR_EVICTION",
-    "method": "Keep a small parallel pool of live thoughts; recombine thoughts to create genuinely new relations; write one sentence from a live mutation; reread the literal sentence; delete it if it merely restates, diagnoses, summarizes, justifies, or explains what already landed; otherwise allow another thought to interrupt or mutate the line. When a real lexical/semantic ambiguity receives one clarification burst, temporarily evict that repaired anchor from generative attention for the next two accepted continuation bursts so semantic descendants of the same repair cannot masquerade as new live pressure. No paragraph quota, audience obligation, semantic coverage plan, or forced closure. Reconcile source obligations only after a live passage exists.",
+    "active_family": "LIVE_MUTATIONAL_COMPOSITION_WITH_POST_REPAIR_ANCHOR_EVICTION_AND_FLOOR_STOP",
+    "method": "Keep a small parallel pool of live thoughts; recombine thoughts to create genuinely new relations; write one sentence from a live mutation; reread the literal sentence; delete it if it merely restates, diagnoses, summarizes, justifies, or explains what already landed; otherwise allow another thought to interrupt or mutate the line. When a real lexical/semantic ambiguity receives one clarification burst, temporarily evict that repaired anchor from generative attention for the next two accepted continuation bursts so semantic descendants of the same repair cannot masquerade as new live pressure. While the current >=50-word floor is active, check length only at accepted sentence boundaries and terminate the discovery pass immediately at the first boundary that reaches or exceeds the floor, before any rhetorical ending decision is made. No paragraph quota, audience obligation, semantic coverage plan, or forced closure. Reconcile source obligations only after a live passage exists.",
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
     "writer_critic_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/WRITER-CRITIC-FIREWALL-20260831.md",
+    "source_occlusion_and_floor_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SOURCE-CARD-OCCLUSION-GATE-20260831.md",
     "attention_eviction_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/POST-REPAIR-ANCHOR-EVICTION-GATE-20260901.md",
     "known_pull_signature": "body/mind mismatch premise -> complex-trauma qualification -> readiness checklist -> regulation verdict -> EMDR exception -> bodily-discharge exception -> polished inner-child transfer/closure",
     "mvi_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_INSTRUCTION",
@@ -68,7 +69,7 @@
   },
   "next_action": {
     "type": "OWNER_FACING_LIVE_MUTATIONAL_PARAGRAPH",
-    "instruction": "Generate one complete exploratory paragraph of at least 50 words using LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md, WRITER-CRITIC-FIREWALL-20260831.md, and POST-REPAIR-ANCHOR-EVICTION-GATE-20260901.md. After one necessary clarification of a lexical/semantic snag, evict that repaired anchor from generative attention for the next two accepted bursts rather than continuing its semantic descendants. Do not reconcile missing source obligations yet unless they arise naturally.",
+    "instruction": "Generate one complete exploratory passage of at least 50 words using LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md, WRITER-CRITIC-FIREWALL-20260831.md, SOURCE-CARD-OCCLUSION-GATE-20260831.md, and POST-REPAIR-ANCHOR-EVICTION-GATE-20260901.md. Check length only at accepted sentence boundaries. At the first accepted sentence boundary where the passage reaches or exceeds 50 words, terminate the discovery writer immediately without generating a closing/takeaway sentence. Do not reconcile missing source obligations yet unless they arise naturally.",
     "automatic_action_after_owner_response": false
   }
 }
