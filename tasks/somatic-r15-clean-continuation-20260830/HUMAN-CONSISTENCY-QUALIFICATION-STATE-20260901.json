@@ -1,13 +1,14 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "qualification_id": "SOMATIC-INTRO-HUMAN-CONSISTENCY-20260901",
-  "status": "SAME_CONTEXT_QUALIFICATION",
+  "status": "ADAPTATION",
   "article_authority_mutation": "BLOCKED",
   "detector": "BLOCKED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/HUMAN-CONSISTENCY-QUALIFICATION-PROTOCOL-20260901.md",
-  "frozen_generation_mechanism": {
-    "status": "FROZEN_FOR_CURRENT_STREAK",
+  "evaluator_gate_path": "tasks/somatic-r15-clean-continuation-20260830/BLINDED-EVAL-VERDICT-GATE-20260901.md",
+  "generation_mechanism": {
+    "status": "UNFROZEN_AFTER_REPAIR_PENDING_NEXT_COLD_VERDICT",
     "files": [
       {
         "path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
@@ -32,6 +33,10 @@
       {
         "path": "tasks/somatic-r15-clean-continuation-20260830/CONTRASTIVE-ATTENTION-SCHEDULER-GATE-20260901.md",
         "blob_sha": "5c95d4bfbe1dea74d4e52a1ee25e252ee86ea295"
+      },
+      {
+        "path": "tasks/somatic-r15-clean-continuation-20260830/RESERVE-ATOMIZATION-GATE-20260901.md",
+        "blob_sha": "pending_readback"
       }
     ]
   },
@@ -41,32 +46,42 @@
     "max_eval_cycles_per_chat": 20
   },
   "streak": {
-    "same_context_consecutive_passes": 1,
+    "same_context_consecutive_passes": 0,
     "fresh_context_consecutive_passes": 0,
-    "total_consecutive_passes_under_frozen_mechanism": 1,
+    "total_consecutive_passes_under_frozen_mechanism": 0,
     "current_chat_qualification_eval_cycles": 1
   },
   "last_evaluated_candidate": {
     "sha256": "3e5948bf658d57b5a195b77821d3a9c05f67bb2a6ba29356b0de0f146ee30499",
     "word_count": 55,
-    "verdict": "PASS_HUMAN_LEANING_NO_CREDIBLE_AI_DEFECT",
+    "verdict": "FALSE_PASS_RETRACTED_FAIL_AI_SHAPED",
+    "strongest_literal_defect": "The final sentence turns retained functioning into a clean three-part readiness rubric, completing a tidy reaction-versus-capacity argument.",
+    "evaluator_failure": "qualification-outcome leakage / self-certification incentive",
+    "writer_failure": "bundled reserve expansion / latent rubric unpacking",
     "text": "Sometimes there is just nothing useful left to explain. The person understands the danger is over and their body keeps reacting anyway. Crying or shaking doesn't tell me much by itself. Somebody can be having a huge reaction and still know exactly where they are, what is happening, and whether they want to keep going."
   },
-  "pending_eval_candidate": {
+  "stale_candidate": {
     "sha256": "b29b4f714a8a5f5badbced8dc722d27ecfab86e492ce8423627c7c53260a4f23",
     "word_count": 57,
-    "provenance": "non_authoritative_fresh_qualification_trial_generated_under_frozen_mechanism",
+    "reason": "Generated as a consequence of the retracted PASS under a generation mechanism that has since been repaired; not eligible for qualification or eval continuation.",
     "text": "What happens after trauma work bothers me almost as much as what happens during it. A session can feel enormous while it is happening, and that doesn't tell me much about the person once it is over. Intensity has a weird way of looking meaningful from the inside. “Deep” is another word I don’t entirely trust here."
+  },
+  "pending_eval_candidate": {
+    "sha256": "3e557db96d7e1b46094e59ca2ebcaf788d6fe5d5365e2cb0f9ac6b9191366a5c",
+    "word_count": 57,
+    "provenance": "non_authoritative_retry_after_blinded-evaluator-and-reserve-atomization-repair",
+    "text": "A huge reaction is hard to ignore. It fills the room and starts becoming the thing everyone is watching. I can see how that happens. It is right there. What is harder to see is whether the person is still themselves when the whole thing settles down. The session can look impressive and leave somebody worse off."
   },
   "history": [
     {
       "ordinal": 1,
       "candidate_sha256": "3e5948bf658d57b5a195b77821d3a9c05f67bb2a6ba29356b0de0f146ee30499",
       "word_count": 55,
-      "verdict": "PASS",
-      "context_phase": "same_context"
+      "verdict": "FALSE_PASS_RETRACTED",
+      "context_phase": "same_context",
+      "note": "Immediate owner challenge exposed that Chat did not actually believe the passage looked human. Streak reset."
     }
   ],
-  "next_action": "CODEX_SEND_EVAL_FOR_PENDING_CANDIDATE",
+  "next_action": "OWNER_OR_CODEX_SEND_EVAL_FOR_PENDING_CANDIDATE_USING_BLINDED_VERDICT_FIRST",
   "qualification_claim_boundary": "Internal cold-eval repeatability only; not human authorship proof, Pangram evidence, semantic reconciliation, publication readiness, or article authority."
 }
