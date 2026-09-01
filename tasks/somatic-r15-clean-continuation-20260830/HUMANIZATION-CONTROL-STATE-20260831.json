@@ -1,13 +1,13 @@
 {
-  "schema_version": 13,
+  "schema_version": 14,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "owner_direct_live_mutational_composition_experiment",
+  "workflow_state": "owner_direct_human_consistency_qualification",
   "last_authoritative_head_before_state_update": "248c532126ac26be59d89f611398276f5a756735",
   "role_boundary": {
     "reasoning_owner": "Chat",
     "mechanical_executor": "Codex",
     "writer_context_id": "current_owner_chat",
-    "rule": "Chat owns strategy, provenance, semantic/editorial judgment, writing authority, adaptive decisions, and release decisions. Codex may orchestrate or execute mechanically only when an already-approved state makes the route mechanical."
+    "rule": "Chat owns strategy, provenance, semantic/editorial judgment, writing authority, adaptive decisions, eval verdicts, mechanism repairs, qualification verdicts, and release decisions. Codex may send eval commands, read persisted state, count cycles, and perform mechanical handoffs only."
   },
   "source": {
     "path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SUPPLIED-INTRO-BOUNDARY-20260831.md",
@@ -16,15 +16,18 @@
     "authority": "Current direct owner-supplied semantic/prose boundary for later reconciliation; current owner instruction temporarily permits exploratory generation without exact semantic matching."
   },
   "owner_override": {
-    "status": "ACTIVE_FOR_LIVE_MUTATIONAL_COMPOSITION",
-    "authorization": "Joel explicitly told Chat to stop writing for an audience, allow incomplete scratch, process thoughts in parallel, mate thoughts like genetics to generate useful mutations, and then move mutation-to-mutation in coherent prose while deleting every sentence that overexplains. Joel also explicitly authorized exact source matching to be optimized afterward rather than controlling the exploratory generation pass.",
-    "scope": "Complete supplied Introduction as eventual reconciliation target; current experiment may produce a smaller exploratory paragraph.",
-    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
+    "status": "ACTIVE_FOR_HUMAN_CONSISTENCY_QUALIFICATION",
+    "authorization": "Joel directed Chat to continue the eval-driven generation experiment and asked Codex to keep sending eval commands until Chat can produce human-looking paragraphs consistently, with handoff every 20 eval cycles. A current candidate has now cold-PASSed. The mechanism is frozen for consistency qualification; PASSes no longer trigger invented defects and instead advance a fixed streak while producing a fresh pending candidate under the unchanged mechanism.",
+    "scope": "Non-authoritative exploratory Somatic Introduction generation only. Semantic reconciliation, detector work, promotion, and registered-master editing remain blocked.",
+    "qualification_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/HUMAN-CONSISTENCY-QUALIFICATION-PROTOCOL-20260901.md",
+    "qualification_state_path": "tasks/somatic-r15-clean-continuation-20260830/HUMAN-CONSISTENCY-QUALIFICATION-STATE-20260901.json",
+    "codex_driver_path": "tasks/somatic-r15-clean-continuation-20260830/CODEX-CONTINUOUS-EVAL-DRIVER-20260901.md",
     "persona_boundary": "A provisional Joel stance may guide judgment/taste only; it may not fabricate autobiography, symptoms, chronology, evidence, or unauthorized claims."
   },
   "strategy": {
-    "active_family": "LIVE_MUTATIONAL_COMPOSITION_WITH_PROVISIONAL_BUFFER_AND_CONTRASTIVE_ATTENTION_SCHEDULER",
-    "method": "Keep a genuinely pre-propositional reserve of two or three incomplete pressures while exposing only one to the writer at a time. Compose into a provisional burst buffer without sentence-level conceptual review; keep critic history and the numerical minimum outside the writer. After provisional sentence boundaries, a separate contrastive attention scheduler checks only whether the newest pair are substantially interchangeable realizations of one proposition. If so, it temporarily masks that semantic center and exposes a peripheral literal pressure or dormant pre-propositional reserve item without revealing the diagnosis or consulting source coverage. The length controller independently returns only CONTINUE or STOP. STOP freezes the whole buffer for critic review. Reconcile source obligations only after a live passage exists.",
+    "active_family": "FROZEN_LIVE_MUTATIONAL_COMPOSITION_WITH_WRITER_BLIND_CONTROLLER_PROVISIONAL_BUFFER_AND_CONTRASTIVE_ATTENTION_SCHEDULER",
+    "mechanism_status": "FROZEN_FOR_CURRENT_CONSECUTIVE_PASS_STREAK",
+    "method": "Keep a genuinely pre-propositional reserve of two or three incomplete pressures while exposing only one to the writer at a time. Compose into a provisional burst buffer without sentence-level conceptual review; keep critic history and the numerical minimum outside the writer. After provisional sentence boundaries, a separate contrastive attention scheduler checks only whether the newest pair are substantially interchangeable realizations of one proposition. If so, it temporarily masks that semantic center and exposes a peripheral literal pressure or dormant pre-propositional reserve item without revealing the diagnosis or consulting source coverage. The length controller independently returns only CONTINUE or STOP. STOP freezes the whole buffer for critic review. During consistency qualification, this generation mechanism must remain unchanged on PASS.",
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/LIVE-MUTATIONAL-COMPOSITION-PROTOCOL-20260831.md",
     "writer_critic_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/WRITER-CRITIC-FIREWALL-20260831.md",
     "source_occlusion_and_floor_protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SOURCE-CARD-OCCLUSION-GATE-20260831.md",
@@ -37,19 +40,28 @@
     "anti_pull_status": "INCORPORATED_ONLY_AS_BACKGROUND_AWARENESS_NOT_ACTIVE_COMPOSITION_OUTLINE",
     "dsmr_status": "DEFERRED_BY_CURRENT_DIRECT_OWNER_OVERRIDE_NOT_CANCELLED"
   },
-  "prior_candidate": {
-    "path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-MVI-CANDIDATE-20260831.md",
-    "receipt_path": "tasks/somatic-r15-clean-continuation-20260830/SOMATIC-INTRO-MVI-RECEIPT-20260831.md",
-    "status": "BLOCKED_HISTORICAL_EXPERIMENT_NOT_ARTICLE_AUTHORITY",
-    "note": "Earlier same-context MVI/cold-clear confidence was later withdrawn after literal reread exposed the familiar regulation-versus-EMDR flowchart."
+  "qualification": {
+    "id": "SOMATIC-INTRO-HUMAN-CONSISTENCY-20260901",
+    "phase": "SAME_CONTEXT_QUALIFICATION",
+    "same_context_required": 5,
+    "same_context_current": 1,
+    "fresh_context_required": 3,
+    "fresh_context_current": 0,
+    "max_eval_cycles_per_chat": 20,
+    "rule": "Any FAIL resets consecutive PASS qualification and returns to full causal diagnose-repair-retry. PASS does not authorize mechanism modification; it increments the streak and produces one fresh unevaluated >=50-word candidate under the unchanged mechanism. Fifth same-context PASS triggers immediate fresh-Chat handoff for three more consecutive PASSes."
   },
-  "current_candidate": null,
+  "current_candidate": {
+    "status": "PENDING_NEXT_EVAL_NON_AUTHORITATIVE",
+    "sha256": "b29b4f714a8a5f5badbced8dc722d27ecfab86e492ce8423627c7c53260a4f23",
+    "word_count": 57,
+    "text": "What happens after trauma work bothers me almost as much as what happens during it. A session can feel enormous while it is happening, and that doesn't tell me much about the person once it is over. Intensity has a weird way of looking meaningful from the inside. “Deep” is another word I don’t entirely trust here."
+  },
   "gates": {
     "authority_reconciliation": "PASS_CURRENT_OWNER_OVERRIDE_RECORDED",
     "exploratory_generation": "AUTHORIZED",
-    "semantic_preservation": "DEFERRED_DURING_EXPLORATORY_PASS_BY_DIRECT_OWNER_INSTRUCTION",
-    "cold_reader": "NOT_YET_APPLICABLE",
-    "owner_read": "PENDING_AFTER_NEXT_EXPLORATORY_PASS",
+    "semantic_preservation": "DEFERRED_DURING_EXPLORATORY_QUALIFICATION_BY_DIRECT_OWNER_INSTRUCTION",
+    "cold_reader": "ACTIVE_INTERNAL_EVAL_ONLY",
+    "owner_read": "ONGOING_THROUGH_EVAL_LOOP",
     "detector": "BLOCKED",
     "candidate_promotion": "BLOCKED"
   },
@@ -59,23 +71,20 @@
     "detector_eligibility": "blocked",
     "candidate_promotion": "blocked until later semantic reconciliation, normal gates, and owner acceptance",
     "blockers": [
-      "Current work is an exploratory generation experiment, not a preservation-clean candidate.",
+      "Current work is an internal consistency qualification experiment, not a preservation-clean publication candidate.",
       "No detector action is authorized.",
       "Registered article master has not been changed."
     ]
   },
   "detector": {
-    "policy": "No Pangram or other paid detector call is authorized by this exploratory mutation experiment.",
+    "policy": "No Pangram or other paid detector call is authorized by this consistency qualification experiment.",
     "status": "not-authorized",
     "submitted_candidate_sha256": null,
     "result": null
   },
   "next_action": {
-    "type": "OWNER_FACING_LIVE_MUTATIONAL_PARAGRAPH",
-    "writer_instruction": "Generate exploratory Somatic Introduction prose from the currently exposed pre-propositional pressure and literal text-so-far. Do not receive the whole reserve, source-coverage map, critic diagnosis, scheduler judgment, numerical length target, word count, countdown, expected sentence count, or stopping horizon. Treat sentence endings as provisional punctuation rather than conceptual review points. Immediate interruption is reserved for material semantic/provenance violations, invented facts/autobiography, unintelligibility, or hard owner boundaries.",
-    "scheduler_instruction": "Maintain two or three incomplete pre-propositional pressures outside the writer view. After each provisional sentence, check only whether the newest sentence and its predecessor are substantially interchangeable realizations of one proposition. If yes, temporarily mask that semantic center and expose a different peripheral literal pressure or dormant reserve item; reveal neither the reason nor any semantic label to the writer. Do not consult source coverage, create a complementary claim, or force an incoherent shift.",
-    "controller_instruction": "After each provisional sentence, privately count the frozen buffer. Return only CONTINUE while the owner's minimum-length requirement is unmet and STOP at the first provisional sentence boundary that satisfies it. Do not disclose count, distance, threshold, semantic feedback, or editorial judgment to the writer or scheduler.",
-    "critic_instruction": "Only after STOP, evaluate the whole frozen buffer for AI shape, semantic orbit, card succession, arbitrary wandering, repetition, concept harvesting, thesis gravity, source/provenance violations, and true stopping point. Do not retroactively line-edit it under the writer role.",
-    "automatic_action_after_owner_response": false
+    "type": "CODEX_CONTINUOUS_EVAL_LOOP",
+    "instruction": "Follow CODEX-CONTINUOUS-EVAL-DRIVER-20260901.md mechanically. Send eval for the exact pending candidate, wait for Chat completion and GitHub persistence, then continue automatically. Handoff after at most 20 completed eval cycles in one Chat, or immediately after the fifth same-context consecutive PASS for fresh-context verification.",
+    "automatic_action_after_owner_response": true
   }
 }
