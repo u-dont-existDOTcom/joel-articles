@@ -1,7 +1,7 @@
 {
   "schema_version": 5,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "RELAY_WRITER_REQUIRED",
+  "status": "EVAL_REQUIRED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -48,16 +48,16 @@
     "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/SERIAL-FRESH-WRITER-RELAY-20260901.md",
     "seed": "afterward",
     "relay_candidate_ordinal": 2,
-    "buffer": "Afterward, the reaction may still be moving even when the moment that stirred it has passed. The body does not always notice at once that it is no longer answering the same moment. It may go on answering for a while.",
-    "buffer_word_count": 41,
-    "sentence_count": 3,
-    "next_sentence_writer_ordinal": 4,
+    "buffer": "Afterward, the reaction may still be moving even when the moment that stirred it has passed. The body does not always notice at once that it is no longer answering the same moment. It may go on answering for a while. For a while, “over” may be true of the moment but not yet of the response.",
+    "buffer_word_count": 57,
+    "sentence_count": 4,
+    "next_sentence_writer_ordinal": 5,
     "writer_context_policy": "NEW_FRESH_CONTEXT_FOR_EVERY_SENTENCE",
     "writer_receives_length_target": false,
     "writer_receives_sentence_ordinal": false,
     "writer_receives_stop_horizon": false,
     "controller_stop_rule": "STOP_AT_FIRST_ACCEPTED_SENTENCE_BOUNDARY_AT_OR_ABOVE_50_WORDS",
-    "next_action": "CODEX_RECOVER_RELAY_002_SENTENCE_WRITER_004_RESULT",
+    "next_action": "CODEX_SEND_EXACT_FROZEN_RELAY_002_TO_EVALUATOR",
     "sentence_history": [
       {
         "ordinal": 1,
@@ -82,21 +82,32 @@
         "writer_context_id": "6a963e2d-e99c-83ea-9df4-b58d6bc9f1bc",
         "writer_lane": "FRESH_CHAT_SAME_MODEL",
         "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
+      },
+      {
+        "ordinal": 4,
+        "sentence_text": "For a while, “over” may be true of the moment but not yet of the response.",
+        "sentence_sha256": "a3934f13782b56d6290acfe1c9f54e2ff6ee375080a821406f7c4737365716d7",
+        "writer_context_id": "6a963eee-7744-83ea-a703-009d1ce254a4",
+        "writer_lane": "FRESH_CHAT_SAME_MODEL",
+        "mechanical_contract": "PASS_EXACTLY_ONE_SENTENCE"
       }
     ],
-    "buffer_sha256": null,
-    "frozen": false,
-    "frozen_candidate_sha256": null,
-    "frozen_at_first_sentence_boundary_at_or_above_50": false,
-    "pending_sentence_writer": {
-      "ordinal": 4,
-      "client_thread_id": "local-chatgpt:153879fd-e330-499d-9267-dccfd57dfbce",
-      "status": "PROVISIONING_OR_RUNNING",
-      "fresh_context": true
-    }
+    "buffer_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
+    "frozen": true,
+    "frozen_candidate_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
+    "frozen_at_first_sentence_boundary_at_or_above_50": true,
+    "pending_sentence_writer": null
   },
   "next_writer_packet": null,
-  "pending_eval_candidate": null,
+  "pending_eval_candidate": {
+    "candidate_sha256": "d390cb05b71c0a7f23f7443a68e95312136bdea990410703c020e8d3eeb3e26d",
+    "candidate_text": "Afterward, the reaction may still be moving even when the moment that stirred it has passed. The body does not always notice at once that it is no longer answering the same moment. It may go on answering for a while. For a while, “over” may be true of the moment but not yet of the response.",
+    "word_count": 57,
+    "packet_id": "SERIAL-RELAY-E2-CANDIDATE-002",
+    "writer_lane": "FRESH_CHAT_SAME_MODEL_SERIAL_SENTENCE_RELAY",
+    "eval_payload_rule": "eval\\n\\n<exact candidate only>",
+    "evaluator_blinding": "REQUIRED"
+  },
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -165,5 +176,5 @@
       "failure_family": "SERIAL_RELAY_BALANCED_PARADOX_TO_AGENCY_HARVEST"
     }
   ],
-  "next_action": "CODEX_RECOVER_RELAY_002_SENTENCE_WRITER_004_RESULT_THEN_APPLY_HIDDEN_LENGTH_CONTROLLER"
+  "next_action": "CODEX_SEND_EXACT_FROZEN_RELAY_002_TO_EVALUATOR"
 }
