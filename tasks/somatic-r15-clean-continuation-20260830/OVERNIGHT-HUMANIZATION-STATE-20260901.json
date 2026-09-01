@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
+  "status": "READY_TO_START",
+  "branch": "task/somatic-r15-clean-continuation-20260830",
+  "article_authority_mutation": "BLOCKED",
+  "strategy_epoch": {
+    "ordinal": 1,
+    "family": "PHYSICAL_ROLE_ISOLATION_WITH_N8N_HERMES_SHADOW",
+    "disposition": "RADICAL_RESET",
+    "reason": "Same-context constraint accretion, local-repair oscillation, one false PASS, and latest engineered visible/hidden contrast despite reserve atomization.",
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/PHYSICALLY-ISOLATED-WRITER-EXPERIMENT-20260901.md",
+    "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md"
+  },
+  "counters": {
+    "completed_eval_cycles_total": 0,
+    "completed_eval_cycles_current_chat": 0,
+    "completed_eval_cycles_since_strategy_audit": 0,
+    "strategy_audits_completed": 0,
+    "handoffs_completed": 0,
+    "cold_passes": 0,
+    "cold_fails": 0,
+    "cold_uncertain": 0,
+    "false_pass_retractions": 1,
+    "pangram_new_paid_calls": 0,
+    "pangram_cache_hits": 0,
+    "pangram_human_results": 0,
+    "pangram_ai_or_mixed_results": 0
+  },
+  "limits": {
+    "strategy_audit_every_eval_cycles": 7,
+    "strategy_audit_requested_range": "5-10",
+    "max_eval_cycles_per_evaluator_chat": 20,
+    "max_new_paid_pangram_calls": 6,
+    "minimum_candidate_words": 50
+  },
+  "early_strategy_audit_triggers": [
+    "PASS_RETRACTED_AFTER_NEUTRAL_CHALLENGE",
+    "TWO_COLD_PASS_PANGRAM_AI_OR_MIXED_MISMATCHES_IN_EPOCH",
+    "SAME_STRUCTURAL_FAILURE_RECURS_TWICE_AFTER_CAUSAL_REPAIR",
+    "MECHANISM_CHANGED_ON_MORE_THAN_HALF_OF_LAST_SIX_EVAL_CYCLES",
+    "THREE_CONSECUTIVE_COLD_FAILS_WITHOUT_UNCHANGED_MECHANISM_SURVIVAL",
+    "TWO_NEW_LOCAL_GATES_WITHOUT_COLD_PASS_PLUS_PANGRAM_HUMAN",
+    "SUPERVISOR_NOT_CONFIDENT_CANDIDATES_ARE_ACTUALLY_GETTING_MORE_HUMAN"
+  ],
+  "detector": {
+    "owner_authorization": "CONDITIONAL_EXPERIMENTAL_PANGRAM_AFTER_GENUINE_COLD_PASS",
+    "model_required": "pangram-4",
+    "expected_version": "4.0",
+    "short_passage_caveat": "Research signal only; short paragraph result does not establish article-level humanization or fidelity.",
+    "no_repeat_rule": true,
+    "ambiguous_action_rule": "RECOVER_BEFORE_REPEAT"
+  },
+  "next_writer_packet": {
+    "packet_id": "ISO-WRITER-001",
+    "lane_preference": "FRESH_CHAT_SAME_MODEL",
+    "live_pressure_fragment": "still have choice while the body is reacting",
+    "instructions": [
+      "Write one non-authoritative exploratory Somatic Introduction paragraph from this live pressure without trying to cover the whole Introduction or land a takeaway.",
+      "At least 50 words.",
+      "Do not invent autobiography, symptoms, chronology, evidence, clinical facts, or factual specificity not supplied.",
+      "Do not imitate or borrow unrelated Human prose.",
+      "Do not mention detectors, AI, the experiment, prior drafts, or evaluator criteria.",
+      "Return prose only."
+    ]
+  },
+  "pending_eval_candidate": null,
+  "pending_pangram_authorization": null,
+  "n8n_shadow": {
+    "status": "SETUP_REQUIRED",
+    "boundary": "localhost/private-only; orchestration and execution metadata only; GitHub remains canonical; no PASS/FAIL authority"
+  },
+  "hermes_shadow": {
+    "status": "SETUP_REQUIRED",
+    "boundary": "clean isolated strategist and shadow-writer contexts; memory/skill learning disabled or segregated; no article authority"
+  },
+  "last_cold_verdict": {
+    "candidate_sha256": "3e557db96d7e1b46094e59ca2ebcaf788d6fe5d5365e2cb0f9ac6b9191366a5c",
+    "verdict": "FAIL",
+    "strongest_literal_defect": "Engineered visible-versus-hidden contrast culminating in a compact looks-impressive/leaves-worse-off antithesis.",
+    "strategy_implication": "Contrastive attention correction is becoming a binary rhetorical organizer; immediate meta-audit selected radical reset rather than another local prose gate."
+  },
+  "next_action": "CODEX_SETUP_OVERNIGHT_DRIVER_THEN_LAUNCH_ISOLATED_WRITER_001"
+}
