@@ -1,7 +1,7 @@
 {
   "schema_version": 7,
   "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
-  "status": "ALT_RUNTIME_NEXT_CANDIDATE_REQUIRED",
+  "status": "EVAL_REQUIRED",
   "branch": "task/somatic-r15-clean-continuation-20260830",
   "article_authority_mutation": "BLOCKED",
   "strategy_epoch": {
@@ -73,9 +73,18 @@
         }
       }
     ],
-    "next_action": "CODEX_OBTAIN_ALT_RUNTIME_BLIND_002_FROM_SECOND_GENUINELY_DISTINCT_KNOWN_MODEL_FAMILY"
+    "next_action": "CODEX_SEND_ALT_RUNTIME_BLIND_002_EXACT_CANDIDATE_TO_EVALUATOR"
   },
-  "pending_eval_candidate": null,
+  "pending_eval_candidate": {
+    "candidate_sha256": "a26290b418d33ec55adf28f31bf90bcb80ca037c209add37133d6d2dc255faf8",
+    "candidate_text": "afterward is where the body seems to do most of its thinking, though thinking is probably the wrong word for it. Something happens, and then there is a long trailing hum that has no content, only texture — a settling, or a refusal to settle. I keep wanting to describe this as aftermath, but aftermath implies the event was the important part and what follows is merely residue. That ordering may be backwards. The residue is what lasts, what gets consulted later, what shapes how the next thing is met before any decision is made about meeting it. Perhaps what interests me is not the moment of impact at all but the slow arithmetic the body performs in the hours after, quietly, without asking, arriving at conclusions it does not bother to translate.",
+    "word_count": 133,
+    "packet_id": "ALT-RUNTIME-BLIND-002",
+    "writer_lane": "ALTERNATE_RUNTIME_IDENTITY_WITHHELD_UNTIL_VERDICT",
+    "runtime_identity_status": "KNOWN_TO_CODEX_WITHHELD_FROM_EVALUATOR_UNTIL_VERDICT",
+    "eval_payload_rule": "eval\\n\\n<exact candidate only>",
+    "evaluator_blinding": "REQUIRED"
+  },
   "pending_pangram_authorization": null,
   "n8n_shadow": {
     "status": "READY_INACTIVE_METADATA_ONLY",
@@ -107,5 +116,5 @@
     "pangram_authorized": false
   },
   "history_note": "Prior five FAILs remain preserved in earlier schema versions and Git history; cumulative counters retain them.",
-  "next_action": "CODEX_OBTAIN_ALT_RUNTIME_BLIND_002_FROM_SECOND_GENUINELY_DISTINCT_KNOWN_MODEL_FAMILY"
+  "next_action": "CODEX_SEND_ALT_RUNTIME_BLIND_002_EXACT_CANDIDATE_TO_EVALUATOR"
 }
