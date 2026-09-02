@@ -107,7 +107,20 @@ as for the prose you wrote, it's too repetitive and i hate it when you say "i ca
 
 #### Next candidate — exact
 
-`PENDING — must be recorded here exactly when produced, before owner-facing delivery.`
+```text
+# Introduction
+
+An event can be over while your body keeps reacting to a danger you know is no longer there. Some of that activation may need to discharge or resolve through the body. With complex or developmental trauma, going straight to the deepest memory can take away the person's ability to stay present enough to stop or leave them not basically themselves afterward. I would back up to regulation rather than call that overwhelm “deep processing.” If the stability is already there, I may go straight to EMDR or another trauma-focused method.
+
+You may know exactly what a younger part needs, but be too caught in the child-state to give it. The body sometimes has to settle enough before you can relate to that younger part from an adult perspective. I go into that here: http://innerchild.u-dont-exist.com/
+```
+
+#### Pre-delivery process record
+
+- substantive rewrite iterations before delivery: `8`
+- exact final candidate received two consecutive same-context cold clears without prose change
+- same-context cold clears are not represented as independent verification
+- Pangram: `NOT RUN`
 
 ---
 
