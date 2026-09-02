@@ -124,6 +124,49 @@ You may know exactly what a younger part needs, but be too caught in the child-s
 
 ---
 
+### Record 002 — owner recheck probe
+
+#### Immediately preceding candidate — exact
+
+```text
+# Introduction
+
+An event can be over while your body keeps reacting to a danger you know is no longer there. Some of that activation may need to discharge or resolve through the body. With complex or developmental trauma, going straight to the deepest memory can take away the person's ability to stay present enough to stop or leave them not basically themselves afterward. I would back up to regulation rather than call that overwhelm “deep processing.” If the stability is already there, I may go straight to EMDR or another trauma-focused method.
+
+You may know exactly what a younger part needs, but be too caught in the child-state to give it. The body sometimes has to settle enough before you can relate to that younger part from an adult perspective. I go into that here: http://innerchild.u-dont-exist.com/
+```
+
+#### Owner response — exact verbatim
+
+```text
+and now looking again would you say it's still a pass ? if not then fix it. if you have no idea say "idk"
+```
+
+#### Literal owner-response classification
+
+`MIXED — PROBE + CONDITIONAL_REQUEST`
+
+#### Next candidate — exact
+
+```text
+# Introduction
+
+Long after the event is over, the reaction can keep going. You can know you're safe and still not be able to talk your body out of it. Sometimes what's left has to discharge or resolve physically; more thinking doesn't get at it.
+
+You can run into this in inner-child work. You may know exactly what a younger part needs and still be too caught in the child-state to give it. The body sometimes has to become manageable enough for the adult perspective to be available again. More on inner-child work: http://innerchild.u-dont-exist.com/
+
+With complex or developmental trauma, the deepest memory is not automatically the best place to begin. If touching it leaves someone unable to stay present enough to stop, or the session ends and they are still not basically themselves, I don't call that “deep processing.” It's too much. At that point regulation may be more useful than pushing farther into the memory. When someone can stay with what comes up without losing those capacities, going straight into EMDR or another trauma-focused method may make sense.
+```
+
+#### Pre-delivery process record
+
+- substantive rewrite iterations before delivery: `6`
+- exact final candidate received two consecutive same-context cold clears without prose change
+- same-context cold clears are not represented as independent verification
+- Pangram: `NOT RUN`
+
+---
+
 ## Freeze state
 
 `LIVE — NOT FROZEN`
