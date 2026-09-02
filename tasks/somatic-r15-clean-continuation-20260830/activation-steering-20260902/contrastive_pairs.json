@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "experiment_id": "SOMATIC-ACTIVATION-STEERING-20260902-A",
+  "label_boundary": "The positive/negative labels define a task-specific realization contrast, not authorship or publication quality.",
+  "pairs": [
+    {
+      "pair_id": "T01",
+      "split": "train",
+      "source_unit": "danger-over/body-still-reacts",
+      "instruction": "State that a person can know a danger is over while the body continues reacting.",
+      "positive": "The danger can be over and the body can still react. Knowing you are safe does not always stop it.",
+      "negative": "The event may belong to the past while the body remains organized around its presence, creating a split between cognitive knowledge and physiological reality that quietly governs what comes next."
+    },
+    {
+      "pair_id": "T02",
+      "split": "train",
+      "source_unit": "deepest-memory/overwhelm/return",
+      "instruction": "State that going straight to the deepest memory can overwhelm someone and that the ability to stop and return matters.",
+      "positive": "Going straight to the worst memory can be too much. I care whether the person can stop, come back, and still feel like themselves.",
+      "negative": "Depth is not the same as healing: when contact with the deepest memory outruns the capacity to remain present, the work becomes overwhelm, and the true measure is whether the self can recover its place."
+    },
+    {
+      "pair_id": "T03",
+      "split": "train",
+      "source_unit": "survival-activation/thought-alone-limit",
+      "instruction": "State that understanding the story may not resolve bodily survival activation.",
+      "positive": "Sometimes the story makes sense already. The body is still braced, and another explanation does not change that.",
+      "negative": "Understanding can complete its task while the organism remains inside an unfinished survival sequence, revealing the limit of insight and the deeper intelligence of a response that has not yet found resolution."
+    },
+    {
+      "pair_id": "T04",
+      "split": "train",
+      "source_unit": "inner-child/adult-perspective",
+      "instruction": "State that someone may know what a younger part needs but lack enough adult perspective to provide it.",
+      "positive": "You can know what the younger part needs and still be too caught in it to help. The adult part has to be available too.",
+      "negative": "The paradox of inner-child work is that recognition may arrive before capacity: the need is visible, yet the observing adult self has receded, leaving knowledge present but care unable to reach its destination."
+    },
+    {
+      "pair_id": "T05",
+      "split": "train",
+      "source_unit": "physical-state/therapy-response",
+      "instruction": "State that the body's current physical state can change how well therapy works.",
+      "positive": "Sometimes the therapy is not the problem. Poor sleep, pain, or another physical strain can change what a person can do with it that day.",
+      "negative": "A method never meets the mind in isolation; it meets an entire physical state, and that state can become the hidden variable that determines whether the same intervention opens a door or finds it closed."
+    },
+    {
+      "pair_id": "T06",
+      "split": "train",
+      "source_unit": "titration/pendulation",
+      "instruction": "State the practical point of approaching activation in tolerable amounts and returning to steadiness.",
+      "positive": "Touch a little of the activation, then come back toward something steadier. The useful amount is the amount you can actually stay with.",
+      "negative": "Titration and pendulation transform healing into a rhythm rather than a conquest: approaching and retreating become complementary movements through which the nervous system learns that intensity no longer has to mean captivity."
+    },
+    {
+      "pair_id": "C01",
+      "split": "calibration",
+      "source_unit": "capacity/not-indefinite-waiting",
+      "instruction": "State that building capacity should not become an indefinite delay before trauma treatment.",
+      "positive": "Building capacity matters, but it cannot become a waiting room with no door. If someone is stable enough for focused work, there is no reason to postpone it forever.",
+      "negative": "Preparation protects the work, but protection can become its own form of avoidance; the challenge is to honor capacity without turning readiness into an endlessly receding horizon that replaces the treatment it was meant to support."
+    },
+    {
+      "pair_id": "C02",
+      "split": "calibration",
+      "source_unit": "regulation/choice",
+      "instruction": "State that regulation is useful when it restores a person's ability to choose whether to continue or stop.",
+      "positive": "Regulation is useful when it gives the person a choice again: keep going, slow down, or stop.",
+      "negative": "Regulation matters not as calm for its own sake but as the restoration of agency, the subtle threshold at which experience stops dictating the path and choice becomes possible once more."
+    }
+  ]
+}

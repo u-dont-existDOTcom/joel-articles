@@ -1,0 +1,15 @@
+{
+  "alpha_zero_logits_bit_identical": true,
+  "alpha_zero_max_abs_logit_delta": 0.0,
+  "sign_reversal_projection_delta": {
+    "-1.0": -3.2126834392547607,
+    "1.0": 3.2126824855804443
+  },
+  "layer": 12,
+  "alpha_zero_full_generation_token_ids_identical": true,
+  "alpha_zero_full_generation_text_identical": true,
+  "alpha_zero_full_generation_candidate_sha256": "bc768b55aa19d8b23a77666c019ca9affd9dfc36604b6882b38c44465f2b9c43",
+  "alpha_zero_full_generation_baseline_sha256": "bc768b55aa19d8b23a77666c019ca9affd9dfc36604b6882b38c44465f2b9c43",
+  "alpha_zero_full_generation_prompt_id": "H01",
+  "alpha_zero_full_generation_tokens": 64
+}

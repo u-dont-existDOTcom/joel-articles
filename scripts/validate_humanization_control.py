@@ -485,6 +485,8 @@ def validate_control(data: object, root: Path) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
     if not isinstance(data, dict):
         return [_finding("control.invalid-root", "Control root must be a JSON object.")]
+    if data.get("schema_version") in {17, 18}:
+        return _validate_current_recovery_control(data, root)
     if data.get("schema_version") != 1:
         findings.append(_finding("control.schema", "schema_version must be 1."))
     if not _nonblank(data.get("control_id")):
@@ -590,6 +592,180 @@ def validate_control(data: object, root: Path) -> list[dict[str, str]]:
                 findings.append(_finding("detector.checkpoint", "Detector use requires an exact prior candidate_validated control checkpoint with detector not run."))
             if detector.get("status") != "recorded" or detector.get("submitted_candidate_sha256") != candidate_hash or not isinstance(detector.get("result"), dict):
                 findings.append(_finding("detector.binding", "Recorded detector result must bind to the validated candidate hash."))
+    return findings
+
+
+def _validate_current_recovery_control(
+    data: dict[str, Any], root: Path
+) -> list[dict[str, str]]:
+    """Validate the current owner-correction / activation-steering state family.
+
+    Schema 1 remains the production-writer gate above. Schemas 17/18 are a
+    deliberately separate no-article-mutation mechanism-research state and
+    must not be coerced into writer-packet fields that do not apply.
+    """
+    findings: list[dict[str, str]] = []
+    if data.get("control_id") != "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831":
+        findings.append(_finding("recovery.id", "Current recovery control ID is not exact."))
+    roles = data.get("role_boundary")
+    if (
+        not isinstance(roles, dict)
+        or roles.get("reasoning_owner") != "Chat"
+        or roles.get("mechanical_executor") not in {"Codex", "Codex/Work"}
+        or not _nonblank(roles.get("rule"))
+    ):
+        findings.append(_finding("recovery.roles", "Recovery state must preserve the Chat/Codex role boundary."))
+    authority = data.get("article_authority")
+    if (
+        not isinstance(authority, dict)
+        or authority.get("registered_master") != "articles/somatic-therapies/master.html"
+        or authority.get("registered_master_status") != "UNCHANGED_BLOCKING_AUTHORITY"
+        or authority.get("experiment_candidates_are_authority") is not False
+    ):
+        findings.append(_finding("recovery.authority", "Registered article authority boundary is not exact."))
+
+    required_holds = {
+        "NO_MODEL_TOURNAMENT",
+        "NO_REGISTERED_MASTER_EDIT",
+        "NO_ARTICLE_PROMOTION",
+        "NO_UNRELATED_HUMAN_DONOR_PROSE",
+    }
+    if not required_holds.issubset(set(data.get("hard_boundaries", []))):
+        findings.append(_finding("recovery.holds", "Current recovery state is missing required hard holds."))
+    evidence = data.get("evidence_boundary")
+    if (
+        not isinstance(evidence, dict)
+        or not str(evidence.get("pangram", "")).startswith("NO_NEW_CALL_AUTHORIZED")
+    ):
+        findings.append(_finding("recovery.pangram", "Recovery state must keep Pangram unauthorized."))
+
+    strategy = data.get("strategy")
+    activation_strategy = (
+        strategy.get("activation_steering", {})
+        if isinstance(strategy, dict)
+        and strategy.get("active_family") == "PARALLEL_ATTRACTOR_MECHANISM_EXPERIMENTS"
+        else strategy
+    )
+    protocol_value = (
+        activation_strategy.get("protocol_path")
+        if isinstance(activation_strategy, dict)
+        else None
+    )
+    protocol_path = _resolve(root, protocol_value)
+    if protocol_path is None or not protocol_path.is_file():
+        findings.append(_finding("recovery.protocol", "Frozen activation-steering protocol is missing."))
+
+    if data.get("schema_version") == 17:
+        if data.get("workflow_state") != "owner_correction_attractor_experiment_recovery":
+            findings.append(_finding("recovery.state", "Schema-17 owner-correction workflow state is invalid."))
+        return findings
+
+    if data.get("workflow_state") not in {
+        "activation_steering_sweep_complete_awaiting_chat_evaluation",
+        "parallel_attractor_experiments_activation_complete",
+    }:
+        findings.append(_finding("activation.state", "Schema-18 activation workflow state is invalid."))
+    if (
+        not isinstance(strategy, dict)
+        or strategy.get("active_family")
+        not in {
+            "FIXED_MODEL_ACTIVATION_REPRESENTATION_STEERING",
+            "PARALLEL_ATTRACTOR_MECHANISM_EXPERIMENTS",
+        }
+        or not isinstance(activation_strategy, dict)
+        or activation_strategy.get("fixed_model")
+        != "Qwen/Qwen2.5-0.5B-Instruct@7ae557604adf67be50417f59c2c2f167def9a775"
+        or activation_strategy.get("model_substitution_allowed") is not False
+    ):
+        findings.append(_finding("activation.strategy", "Fixed-model activation strategy identity is not exact."))
+
+    if strategy.get("active_family") == "PARALLEL_ATTRACTOR_MECHANISM_EXPERIMENTS":
+        teaching = strategy.get("owner_teaching_trajectory")
+        if (
+            not isinstance(teaching, dict)
+            or teaching.get("status") != "READY_FOR_OWNER_DISCOVERY_EPISODE_001"
+            or teaching.get("discovery_generation")
+            != "OWNER_DRIVEN_NATURAL_CHAT_ONLY_NOT_AUTOMATED"
+        ):
+            findings.append(_finding("recovery.teaching-state", "Parallel owner-teaching state was not preserved."))
+        else:
+            for field in ("protocol_path", "state_path"):
+                teaching_path = _resolve(root, teaching.get(field))
+                if teaching_path is None or not teaching_path.is_file():
+                    findings.append(_finding("recovery.teaching-path", f"Owner-teaching {field} is missing."))
+
+    result = data.get("activation_steering_result")
+    if not isinstance(result, dict):
+        findings.append(_finding("activation.result", "Completed activation result is missing."))
+        result = {}
+    if (
+        result.get("status") != "COMPLETE_AWAITING_BLINDED_CHAT_EVALUATION"
+        or result.get("candidate_count") != 63
+        or result.get("verification") != "PASS"
+        or result.get("pangram_run") is not False
+        or result.get("registered_master_edited") is not False
+    ):
+        findings.append(_finding("activation.result-state", "Completed activation result boundaries are invalid."))
+
+    packet_path = _resolve(root, result.get("blinded_packet"))
+    packet_hash = result.get("blinded_packet_sha256")
+    if (
+        packet_path is None
+        or not packet_path.is_file()
+        or not isinstance(packet_hash, str)
+        or not SHA256_RE.fullmatch(packet_hash)
+        or _sha256(packet_path.read_bytes()) != packet_hash
+    ):
+        findings.append(_finding("activation.packet", "Blinded packet path/hash binding is invalid."))
+    manifest_path = _resolve(root, result.get("run_manifest"))
+    if manifest_path is None or not manifest_path.is_file():
+        findings.append(_finding("activation.manifest", "Run manifest is missing."))
+    else:
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeError, json.JSONDecodeError):
+            manifest = None
+        if (
+            not isinstance(manifest, dict)
+            or manifest.get("candidate_count") != 63
+            or manifest.get("pangram_run") is not False
+            or manifest.get("article_authority_mutation") is not False
+        ):
+            findings.append(_finding("activation.manifest-state", "Run manifest boundaries are invalid."))
+
+    verification_path = (
+        manifest_path.parent / "VERIFICATION.json"
+        if manifest_path is not None
+        else None
+    )
+    if verification_path is None or not verification_path.is_file():
+        findings.append(_finding("activation.verification", "Verification record is missing."))
+    else:
+        try:
+            verification = json.loads(verification_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeError, json.JSONDecodeError):
+            verification = None
+        if (
+            not isinstance(verification, dict)
+            or verification.get("status") != "PASS"
+            or verification.get("candidate_count") != 63
+            or verification.get("candidate_hashes_verified") != 63
+            or verification.get("pangram_run") is not False
+            or verification.get("registered_master_edited") is not False
+        ):
+            findings.append(_finding("activation.verification-state", "Verification record is not a complete clean pass."))
+
+    next_action = data.get("next_action")
+    if (
+        not isinstance(next_action, dict)
+        or next_action.get("type")
+        not in {
+            "CHAT_BLINDED_EDITORIAL_EVALUATION",
+            "PARALLEL_CHAT_EVALUATE_ACTIVATION_OR_OWNER_DISCOVERY_EPISODE",
+        }
+        or next_action.get("automatic_action_after_owner_response") is not False
+    ):
+        findings.append(_finding("activation.next-action", "Next action must remain non-automatic blinded Chat evaluation."))
     return findings
 
 

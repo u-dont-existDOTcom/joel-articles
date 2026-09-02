@@ -270,6 +270,40 @@ class HumanizationControlTests(unittest.TestCase):
     def test_valid_prewrite_control_passes_while_release_stays_blocked(self) -> None:
         self.assertEqual(validate_control(self.fixture.control, self.root), [])
 
+    def test_current_activation_control_passes_separate_recovery_schema(self) -> None:
+        control_path = (
+            ROOT
+            / "tasks"
+            / "somatic-r15-clean-continuation-20260830"
+            / "HUMANIZATION-CONTROL-STATE-20260831.json"
+        )
+        control = json.loads(control_path.read_text(encoding="utf-8"))
+        self.assertEqual(validate_control(control, ROOT), [])
+
+    def test_current_activation_control_rejects_pangram_or_master_mutation(self) -> None:
+        control_path = (
+            ROOT
+            / "tasks"
+            / "somatic-r15-clean-continuation-20260830"
+            / "HUMANIZATION-CONTROL-STATE-20260831.json"
+        )
+        control = json.loads(control_path.read_text(encoding="utf-8"))
+        control["activation_steering_result"]["pangram_run"] = True
+        codes = {item["code"] for item in validate_control(control, ROOT)}
+        self.assertIn("activation.result-state", codes)
+
+    def test_current_parallel_control_rejects_teaching_lane_mutation(self) -> None:
+        control_path = (
+            ROOT
+            / "tasks"
+            / "somatic-r15-clean-continuation-20260830"
+            / "HUMANIZATION-CONTROL-STATE-20260831.json"
+        )
+        control = json.loads(control_path.read_text(encoding="utf-8"))
+        control["strategy"]["owner_teaching_trajectory"]["status"] = "AUTOMATED"
+        codes = {item["code"] for item in validate_control(control, ROOT)}
+        self.assertIn("recovery.teaching-state", codes)
+
     def test_valid_pending_reasoning_state_freezes_every_source_byte(self) -> None:
         self.fixture.await_reasoning_packet()
         self.assertEqual(validate_control(self.fixture.control, self.root), [])

@@ -1,5 +1,17 @@
 # Somatic R15 clean continuation — recovery checkpoint
 
+## Direct-owner activation-steering override — 2026-09-02
+
+Joel has now selected the direct internal-attractor experiment that the earlier owner-correction checkpoint required Chat to explain before execution. The active bounded action is `activation-steering-20260902/PROTOCOL.md`: one fixed `Qwen/Qwen2.5-0.5B-Instruct` Transformers runtime at pinned revision `7ae557604adf67be50417f59c2c2f167def9a775`, contrastive residual-stream direction extraction, causal activation addition, sign reversal, matched-norm random control, held-out prompts, causal telemetry, and blinded Chat evaluation.
+
+This override does not authorize Pangram, a model tournament, model substitution, registered-master edits, candidate promotion, publication, unrelated Human donor prose, or Codex editorial PASS/FAIL. The older DSMR audit and production-humanization queues below remain historical/current-task context but are not the next-action selector for this owner-authorized mechanism experiment.
+
+Execution is now complete. The mechanical report is `activation-steering-20260902/RUN-REPORT.md`; the hash-bound output manifest is `activation-steering-20260902/run-20260902-a/RUN-MANIFEST.json`; and the next action is Chat's cold evaluation of `activation-steering-20260902/run-20260902-a/BLINDED-EVALUATION-PACKET.md` before the condition map is revealed. The run used one pinned model, produced 63 verified candidates, passed alpha-zero/sign-reversal/hash/grid gates, made no Pangram call, and did not edit registered article authority.
+
+The separately authorized owner-teaching-trajectory lane remains exactly `READY_FOR_OWNER_DISCOVERY_EPISODE_001`. This activation result does not execute, modify, interpret, or supply prose to that owner-driven natural-chat experiment; the two result streams remain separate unless Chat later authorizes an explicit bridge analysis.
+
+The legacy whole-task owner-outcome acceptance command remains `python scripts/check_somatic_r15_task.py --acceptance`; the activation experiment does not claim that outcome or run that command as its next action.
+
 Status: **WORKING / EXCLUSIVE / OWNER OUTCOME NOT YET ACHIEVED / DSMR ARCHITECTURE AUDIT PENDING**
 
 Task id: `somatic-r15-clean-continuation-20260830`

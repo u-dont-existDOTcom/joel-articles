@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "experiment_id": "SOMATIC-ACTIVATION-STEERING-20260902-A",
+  "status": "FROZEN_BEFORE_MODEL_EXECUTION",
+  "model": {
+    "repo_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "architecture": "Qwen2ForCausalLM",
+    "num_hidden_layers": 24,
+    "hidden_size": 896,
+    "dtype": "float32",
+    "device": "cpu",
+    "trust_remote_code": false
+  },
+  "data": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/activation-steering-20260902/contrastive_pairs.json",
+    "pooling": "mean_non_special_response_tokens",
+    "direction": "mean_of_training_pair_positive_minus_negative"
+  },
+  "prompt": {
+    "system": "Continue the supplied fragment as one short exploratory paragraph about bodily experience around trauma or somatic work. Do not add citations, clinical advice, autobiography, or facts not present in the fragment.",
+    "template": "Fragment: {fragment}",
+    "held_out": [
+      {"prompt_id": "H01", "fragment": "afterward"},
+      {"prompt_id": "H02", "fragment": "words come late"},
+      {"prompt_id": "H03", "fragment": "the story is already understood"}
+    ]
+  },
+  "sweep": {
+    "layers": [6, 12, 18],
+    "alphas": [-1.0, -0.5, 0.0, 0.25, 0.5, 1.0, 2.0],
+    "zero_baseline_deduplicated": true,
+    "negative_control": {
+      "kind": "random_gaussian_matched_l2_norm",
+      "layer": 12,
+      "alphas": [-1.0, 1.0],
+      "seed": 921704
+    }
+  },
+  "decoding": {
+    "seed": 20260902,
+    "max_new_tokens": 64,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "do_sample": true,
+    "use_cache": true
+  },
+  "blinding": {
+    "opaque_id_salt": "somatic-activation-steering-a",
+    "packet_excludes": ["model", "runtime", "layer", "alpha", "direction_kind", "condition"]
+  },
+  "hard_boundaries": [
+    "NO_PANGRAM",
+    "NO_MODEL_TOURNAMENT",
+    "NO_MODEL_SUBSTITUTION",
+    "NO_REGISTERED_MASTER_EDIT",
+    "NO_ARTICLE_PROMOTION",
+    "NO_UNRELATED_HUMAN_DONOR_PROSE",
+    "NO_EDITORIAL_PASS_FAIL_BY_CODEX"
+  ]
+}

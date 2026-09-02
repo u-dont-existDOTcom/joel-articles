@@ -1,7 +1,7 @@
 {
   "schema_version": 18,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "owner_selected_parallel_attractor_experiments",
+  "workflow_state": "parallel_attractor_experiments_activation_complete",
   "role_boundary": {
     "reasoning_owner": "Chat",
     "mechanical_executor": "Codex/Work",
@@ -23,9 +23,12 @@
     "active_family": "PARALLEL_ATTRACTOR_MECHANISM_EXPERIMENTS",
     "tournament_status": "HISTORICAL_STOPPED_NOT_AUTHORIZED_SUCCESSOR",
     "activation_steering": {
-      "status": "AUTHORIZED_AND_DISPATCHED_TO_WORK",
+      "status": "COMPLETE_AWAITING_BLINDED_CHAT_EVALUATION",
       "objective": "Test causal hidden-state steering on one fixed open/interceptable model; no model tournament.",
-      "pangram": "BLOCKED_UNTIL_LATER_EXACT_COLD_PASS_AUTHORIZATION"
+      "pangram": "BLOCKED_UNTIL_LATER_EXACT_COLD_PASS_AUTHORIZATION",
+      "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/activation-steering-20260902/PROTOCOL.md",
+      "fixed_model": "Qwen/Qwen2.5-0.5B-Instruct@7ae557604adf67be50417f59c2c2f167def9a775",
+      "model_substitution_allowed": false
     },
     "owner_teaching_trajectory": {
       "status": "READY_FOR_OWNER_DISCOVERY_EPISODE_001",
@@ -39,13 +42,17 @@
     "task_vector_research": "MECHANISTIC_MOTIVATION_ONLY_NOT_PROOF_OF_CHATGPT_HUMAN_WRITER_MODE",
     "prior_gpt_success": "LIMITED_PRIOR_EVIDENCE; DO_NOT_ASSUME_TRAJECTORY_EFFECT",
     "n8n_process_isolation": "DIAGNOSTIC_OR_ORCHESTRATION_ONLY_NOT_INTERNAL_STEERING",
+    "activation_steering": "BOUNDED_SWEEP_COMPLETE_CAUSAL_TELEMETRY_AND_BLINDED_PACKET_PERSISTED",
     "eloquent_structural_ood": "SEPARATE_DETECTOR_DISTRIBUTION_RESEARCH_NOT_CURRENT_PRIMARY_LANE",
     "pangram": "NO_NEW_CALL_AUTHORIZED_BY_DEFAULT"
   },
   "hard_boundaries": [
     "NO_MODEL_TOURNAMENT",
+    "NO_SOMATIC_GENERATION_OUTSIDE_FROZEN_ACTIVATION_STEERING_PROTOCOL",
     "NO_REGISTERED_MASTER_EDIT",
     "NO_ARTICLE_PROMOTION",
+    "NO_PROMPT_ARCHITECTURE_EXPANSION_OUTSIDE_FROZEN_PROTOCOL",
+    "NO_N8N_OR_HERMES_EXPERIMENT_BY_INFERENCE",
     "NO_UNRELATED_HUMAN_DONOR_PROSE",
     "NO_INVENTED_AUTOBIOGRAPHY_OR_FACTUAL_SPECIFICITY",
     "NO_PANGRAM_BY_DEFAULT",
@@ -53,9 +60,21 @@
     "DO_NOT_RETROFIT_CAUSAL_STORY_FROM_ONE_SUCCESS",
     "DO_NOT_MIX_TEACHING_TRAJECTORY_RESULTS_WITH_ACTIVATION_STEERING_RESULTS_WITHOUT_EXPLICIT_BRIDGE_ANALYSIS"
   ],
+  "activation_steering_result": {
+    "status": "COMPLETE_AWAITING_BLINDED_CHAT_EVALUATION",
+    "fixed_model": "Qwen/Qwen2.5-0.5B-Instruct@7ae557604adf67be50417f59c2c2f167def9a775",
+    "candidate_count": 63,
+    "run_report": "tasks/somatic-r15-clean-continuation-20260830/activation-steering-20260902/RUN-REPORT.md",
+    "run_manifest": "tasks/somatic-r15-clean-continuation-20260830/activation-steering-20260902/run-20260902-a/RUN-MANIFEST.json",
+    "blinded_packet": "tasks/somatic-r15-clean-continuation-20260830/activation-steering-20260902/run-20260902-a/BLINDED-EVALUATION-PACKET.md",
+    "blinded_packet_sha256": "6405dc1a43c63f0d3c7df1d9d34e6426c6769d7179a780d59b65377cac770313",
+    "verification": "PASS",
+    "pangram_run": false,
+    "registered_master_edited": false
+  },
   "next_action": {
-    "type": "PARALLEL_WAIT_FOR_RESULTS_OR_OWNER_DISCOVERY_EPISODE",
-    "instruction": "Activation-steering Work lane proceeds independently under its dispatched directive. For the teaching-trajectory lane, Joel starts or identifies a fresh natural teaching chat; when he judges a candidate as a genuine apparent escape, freeze the exact episode immediately before further coaching and begin the replay/ablation protocol only afterward.",
+    "type": "PARALLEL_CHAT_EVALUATE_ACTIVATION_OR_OWNER_DISCOVERY_EPISODE",
+    "instruction": "For activation steering, evaluate the exact opaque-ID texts in the blinded packet before consulting CONDITION-MAP.json; Codex must not make the final prose-human PASS/FAIL judgment. Separately, Joel may start or identify a fresh natural teaching chat and, if he judges a candidate a genuine apparent escape, freeze the exact episode before further coaching. No Pangram or follow-up sweep is automatic.",
     "automatic_action_after_owner_response": false
   }
 }
