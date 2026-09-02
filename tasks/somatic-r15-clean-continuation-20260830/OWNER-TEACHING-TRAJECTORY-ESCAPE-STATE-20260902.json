@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "experiment_id": "SOMATIC-OWNER-TEACHING-TRAJECTORY-ESCAPE-20260902",
+  "status": "READY_FOR_OWNER_DISCOVERY_EPISODE_001",
+  "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-TEACHING-TRAJECTORY-ESCAPE-EXPERIMENT-20260902.md",
+  "branch": "task/somatic-r15-clean-continuation-20260830",
+  "article_authority_mutation": "BLOCKED",
+  "pangram": "BLOCKED_PENDING_EXPLICIT_EXACT_CANDIDATE_AUTHORIZATION",
+  "parallel_activation_steering_experiment": "ACTIVE_SEPARATE_DO_NOT_MODIFY",
+  "hypotheses": [
+    "STOCHASTIC_ESCAPE",
+    "INSTRUCTION_CONTENT_EFFECT",
+    "TRAJECTORY_PATH_DEPENDENT_IN_CONTEXT_EFFECT",
+    "EVALUATOR_OR_OWNER_ANCHORING",
+    "PROMPT_TASK_SPECIFICITY"
+  ],
+  "research_boundary": "Task/function-vector and demonstration-ordering research motivates testing path dependence but does not establish reliable ChatGPT human-writing mode induction.",
+  "discovery_episode": {
+    "next_episode_id": "TEACH-ESCAPE-DISCOVERY-001",
+    "chat_status": "NOT_STARTED_OR_NOT_IDENTIFIED",
+    "teacher": "JOEL",
+    "learner": "FRESH_CHATGPT_CHAT_SAME_INTENDED_MODEL_CONFIG_WHERE_POSSIBLE",
+    "teacher_behavior": "NATURAL_UNSCRIPTED",
+    "experiment_bookkeeping_visible_to_learner": false,
+    "freeze_trigger": "OWNER_STATES_CANDIDATE_GENUINELY_LOOKS_HUMAN_OR_EQUIVALENT",
+    "success_candidate": null,
+    "nearest_preceding_fail_candidate": null,
+    "exact_transcript_identity": null
+  },
+  "episode_registry": [],
+  "baseline": {
+    "target_replicates": 5,
+    "completed": 0,
+    "cold_passes": 0,
+    "cold_fails": 0,
+    "cold_uncertain": 0
+  },
+  "replay": {
+    "started": false,
+    "prefix_conditions": [],
+    "threshold_candidate": null,
+    "exact_replay_results": [],
+    "ablation_results": [],
+    "order_control_results": [],
+    "compression_control_results": [],
+    "semantic_only_results": [],
+    "negative_history_results": []
+  },
+  "persistence_decay": {
+    "started": false,
+    "probe_positions": [1, 2, 3, 5],
+    "results": []
+  },
+  "transfer": {
+    "started": false,
+    "held_out_prompts": [],
+    "results": []
+  },
+  "provisional_reproducibility_criterion": {
+    "baseline_pass_ceiling": "<=1/5",
+    "trajectory_replay_pass_floor": ">=3/5",
+    "held_out_transfer_requirement": ">=1 blinded cold PASS",
+    "small_n_claim_boundary": "RAW_COUNTS_AND_UNCERTAINTY_ONLY_NO_SIGNIFICANCE_CLAIM"
+  },
+  "mechanistic_bridge": {
+    "status": "DEFERRED_UNTIL_REPRODUCIBLE_TRAJECTORY_EXISTS",
+    "target": "OPEN_INTERCEPTABLE_MODEL_HIDDEN_ACTIVATION_COMPARISON_AND_STEERING",
+    "claim_boundary": "Open-model latent-state evidence cannot establish identical proprietary ChatGPT mechanism."
+  },
+  "next_action": "JOEL_START_OR_IDENTIFY_A_GENUINELY_FRESH_NATURAL_TEACHING_CHAT; WHEN_AN_APPARENT_ESCAPE_OCCURS_FREEZE_THE_EXACT_EPISODE_BEFORE_FURTHER_TEACHING",
+  "hard_boundaries": [
+    "DO_NOT_SCRIPT_JOELS_DISCOVERY_TEACHING",
+    "DO_NOT_AUTO_GENERATE_DISCOVERY_CANDIDATES",
+    "DO_NOT_RETROFIT_CAUSAL_STORY_FROM_ONE_SUCCESS",
+    "DO_NOT_EXPOSE_EVALUATION_CONDITION_TO_LEARNER",
+    "DO_NOT_RUN_PANGRAM_BY_DEFAULT",
+    "DO_NOT_EDIT_REGISTERED_MASTER",
+    "DO_NOT_PROMOTE_EXPERIMENTAL_PROSE",
+    "DO_NOT_IMPORT_UNRELATED_HUMAN_DONOR_PROSE"
+  ]
+}
