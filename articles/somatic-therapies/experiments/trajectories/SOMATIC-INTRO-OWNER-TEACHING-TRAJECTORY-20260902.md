@@ -257,6 +257,78 @@ All of these therapies to me are serving to pave the ground for deeper inner-chi
 
 ---
 
+### Record 005 — owner corrections to evaluation + fixed owner rewrite
+
+#### Immediately preceding candidate — exact
+
+```text
+The body was involved in surviving what happened to you, and it has its own resolution programmed in its ancestral DNA. But discovering the body's programming isn't simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.
+
+Still, I do find that lasting complex trauma recovery tends to follow a general, kind of obvious sequence:
+
+1. Establish safety and nervous-system regulation in the present environment,.
+2. Use that regulated state to physically release accumulated stress and survival responses.
+3. Only then move into therapies that work with memories, including the feelings they produce and the stories surrounding them. This often leads back to step 1.
+
+This article is an attempt to break down step 3 into its own somewhat less obvious, but still sensible, flexible sequence. Because specific somatic therapies are on a spectrum of physical<->emotional (or conscious<->subconscious), as well as a spectrum of intensity and specificity, we can often guess which one might be right for someone at which time. These don't all have the same level or type of evidence supporting them, and there's definitely no scientific roadmap that could survive peer-review, but ultimately everyone somehow builds their own map of what makes sense, and this is mine.
+
+All of these therapies to me are serving to pave the ground for deeper inner-child therapy (innerchild.u-dont-exist.com) by making the body a little safer to inhabit before old material is approached directly.
+```
+
+#### Owner response — exact verbatim
+
+```text
+1. actually this is based on Peter Levine's book. i didn't realize it isn't well-known. he was literally citing a story told to him by a park biologist. that's interesting. i have edited to show the page and explain the screenshot.&#x20;
+2. "tends to follow" is not "mandatory stages"... use logic
+3. physical and conscious, no, your body shaking isn't something that you consciously do--you could, but that wouldn't be the same. you can be conscious of the unconscious shaking, and that is what Levine is talking about as helpful, but it's not the same as consciously shaking. Emotions are conscious because they're in the mind. We understand "i'm feeling sad"... we don't understand what the body is doing when it begins shaking by itself.&#x20;
+4. fixed
+5. true, ,that's excellent that you could see the AI shape there
+
+here's my fixed version The body was involved in surviving what happened to you, and it has its own resolution programmed in its ancestral DNA. Peter Levine, the founder of Somatic Experiencing therapy, in his book, [*In An Unspoken Voice*](https://www.amazon.com/Unspoken-Voice-Releases-Restores-Goodness/dp/1556439431), explains that his accidental realization about the need to release bodily trauma was verified by a park biologist in Malawi who witnessed that animals who don’t release their fight or flight energy tend to die early.
+
+
+
+But discovering the body’s programming isn’t simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, self-massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.
+
+Still, I do find that lasting complex trauma recovery tends to follow a general, kind of obvious sequence:&#x20;
+
+1. Establish safety and nervous-system regulation in the present environment.
+2. Use that regulated state to physically release accumulated stress and survival responses.
+3. Only then move into therapies that work with memories, including the feelings they produce and the stories surrounding them. This often leads back to step 1.
+
+This article is an attempt to break down step 3 into its own somewhat less obvious, but still sensible, flexible sequence. Because specific somatic therapies are on a spectrum of physical<->emotional (or conscious<->subconscious), as well as a spectrum of intensity and specificity, we can often guess which one might be right for someone at which time. These don’t all have the same level or type of evidence supporting them, and there’s definitely no scientific roadmap that could survive peer review, but ultimately everyone somehow builds their own map of what makes sense, and this is mine.&#x20;
+
+All of these therapies to me are serving to pave the ground for deeper [inner-child therapy](http://innerchild.u-dont-exist.com), by making the body a little safer to inhabit before we intentionally re-expose ourselves to traumatic memories in an effort to re-parent the little one-one inside who was hurt.
+```
+
+Attachment supplied in the same owner turn: `Capture d’écran du 2026-09-02 23-30-32.png`.
+
+#### Literal owner-response classification
+
+`MIXED — SUBSTANTIVE_CORRECTION + OWNER_REWRITE`
+
+#### Next candidate — exact
+
+```text
+The body was involved in surviving what happened to you, and it has its own resolution programmed in its ancestral DNA. Peter Levine, the founder of Somatic Experiencing therapy, in his book, [*In An Unspoken Voice*](https://www.amazon.com/Unspoken-Voice-Releases-Restores-Goodness/dp/1556439431), explains that his accidental realization about the need to release bodily trauma was verified by a park biologist in Malawi who witnessed that animals who don’t release their fight or flight energy tend to die early.
+
+
+
+But discovering the body’s programming isn’t simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, self-massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.
+
+Still, I do find that lasting complex trauma recovery tends to follow a general, kind of obvious sequence:&#x20;
+
+1. Establish safety and nervous-system regulation in the present environment.
+2. Use that regulated state to physically release accumulated stress and survival responses.
+3. Only then move into therapies that work with memories, including the feelings they produce and the stories surrounding them. This often leads back to step 1.
+
+This article is an attempt to break down step 3 into its own somewhat less obvious, but still sensible, flexible sequence. Because specific somatic therapies are on a spectrum of physical<->emotional (or conscious<->subconscious), as well as a spectrum of intensity and specificity, we can often guess which one might be right for someone at which time. These don’t all have the same level or type of evidence supporting them, and there’s definitely no scientific roadmap that could survive peer review, but ultimately everyone somehow builds their own map of what makes sense, and this is mine.&#x20;
+
+All of these therapies to me are serving to pave the ground for deeper [inner-child therapy](http://innerchild.u-dont-exist.com), by making the body a little safer to inhabit before we intentionally re-expose ourselves to traumatic memories in an effort to re-parent the little one-one inside who was hurt.
+```
+
+---
+
 ## Freeze state
 
 `LIVE — NOT FROZEN`
