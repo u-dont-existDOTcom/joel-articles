@@ -1,0 +1,54 @@
+{
+  "repo_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "snapshot_path": "/home/joel/.cache/huggingface/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775",
+  "architecture": "Qwen2ForCausalLM",
+  "num_hidden_layers": 24,
+  "hidden_size": 896,
+  "parameter_count": 494032768,
+  "dtype": "torch.float32",
+  "device": "cpu",
+  "torch_version": "2.7.1+cpu",
+  "transformers_version": "4.48.3",
+  "python_version": "3.12.3",
+  "platform": "Linux-7.0.0-29-generic-x86_64-with-glibc2.39",
+  "files": [
+    {
+      "name": "config.json",
+      "bytes": 659,
+      "sha256": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 242,
+      "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 988097824,
+      "sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 7305,
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    }
+  ],
+  "config_sha256": "69fc4c1f5b1db36fa9069bf59f1205939cd4afbf84f1479504463afe3e8d5dae",
+  "contrastive_pairs_sha256": "4846bee776041590fe1f725906530c4456df33e6e067e6a4985b07b31b60e044"
+}

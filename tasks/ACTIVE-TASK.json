@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "taskId": "somatic-r15-clean-continuation-20260830",
+  "title": "Finish Somatic Therapies humanization from the exact R15 checkpoint",
+  "status": "active",
+  "exclusive": true,
+  "ownerOutcome": {
+    "ownerRequestId": "OR-SOMATIC-HUMANIZATION-20260830",
+    "epoch": 3,
+    "sha256": "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a",
+    "sourceReceipt": "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json",
+    "normalizedResult": "Exact R15-derived final candidate reaches Pangram 4.0 Human fraction 1.0 while every preservation/editorial gate remains green, then the existing supervisor chat receives the final draft and commentable diff."
+  },
+  "taskContract": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/TASK-CONTRACT-V2.json",
+    "revision": 2,
+    "sha256": "52c0ce0bebb03adc51a32b8f4832523d01e643dedccee1735a05f987391ce7b8"
+  },
+  "objectiveReconciliation": {
+    "path": "tasks/somatic-r15-clean-continuation-20260830/OBJECTIVE-RECONCILIATION.json",
+    "reconciliationId": "ORC-SOMATIC-20260830-001",
+    "workerToContractAlignment": "GREEN",
+    "contractToOwnerAlignment": "MATCH",
+    "typedCompletionClaim": "WORKING",
+    "requiredDirective": "CONTINUE_HUMANIZATION"
+  },
+  "repository": "u-dont-existDOTcom/joel-articles",
+  "requiredBranch": "task/somatic-r15-clean-continuation-20260830",
+  "pullRequest": 73,
+  "detectorRecovery": {
+    "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "branch": "task/somatic-r15-exact-recovery-20260830",
+    "pullRequest": 144,
+    "head": "52d43351",
+    "classification": "EXACT_R15_RESULT_EXISTS",
+    "finalCandidateClassification": "EXACT_FINAL_RESULT_EXISTS",
+    "articlewideCandidateClassification": "EXACT_ARTICLEWIDE_RESULT_EXISTS"
+  },
+  "ownerAuthorized": true,
+  "source": {
+    "repository": "u-dont-existDOTcom/joel-articles",
+    "mainSha": "6d78c638e1e7edd7e937e5992b328c0212dfbfe2",
+    "r15CandidateGitBlob": "e6210eb2742de156f0bd7b01fdde269f9b9625c6",
+    "r15CandidateSha256": "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee",
+    "r15ReceiptGitBlob": "9bba365c498bc9f51bd16fe2761455a6b233d1bf",
+    "r15PangramBoundarySha256": "9a81bd04252a2ee851dd111040c600837bdf0a7bbf71c42c293e3b763c99a707"
+  },
+  "currentStatePath": "tasks/somatic-r15-clean-continuation-20260830/RECOVERY.md",
+  "finalReader": {
+    "status": "complete_diagnostic_only",
+    "articleInputSha256": "460dc342fdbda67f6df23400eef310abcc330d84991becf542ff6203563aa302",
+    "packetSha256": "6cc91944b27a645dc47b533db6f11dc0f1642455a011cbcd9b3487a66251f711",
+    "responseSha256": "3d9d96d8b968211712f6c89d22762eeacde25212107465af4227f10528fee6f2",
+    "findingsPath": "tasks/somatic-r15-clean-continuation-20260830/FINAL-READER.md",
+    "decision": "bounded_repair_authorized",
+    "decisionResponseSha256": "46e58fffc6e0c0d04acc2fb17ab33cb1c2625079fec3f5c121646114d05ff825",
+    "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004"
+  },
+  "repair": {
+    "status": "final_candidate_frozen_postrepair_supervision_next",
+    "authorizedScopes": ["A", "B", "C", "D"],
+    "candidatePath": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
+    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "candidateGitBlob": "082b613f5d5217ebb8b289ee0460a788a66e2639",
+    "localCandidateCommit": "7f9410ab559c39c507f6c15ace5af64e071325dc",
+    "remoteHeadBeforeCandidate": "a982733f8c0a77df07a28fe54e099ac57418d0e6",
+    "pangramAuthorized": false,
+    "pangramAuthorizationConsumed": true,
+    "masterPromotionAuthorized": false,
+    "privacyGate": {
+      "repositoryVisibility": "PUBLIC",
+      "candidatePush": "owner_confirmed_in_current_chat_20260830",
+      "freshReaderTransmission": "owner_confirmed_in_current_chat_20260830",
+      "scopeNote": "Confirmation covers the repaired candidate push to public PR #73 and its transmission to one fresh detector-blind ChatGPT reader. It does not authorize another Pangram call, registered master promotion, or Substack publication."
+    }
+  },
+  "repairFinalReader": {
+    "status": "complete_diagnostic_only_bounded_micro_repair_authorized",
+    "articleInputSha256": "9a8db47224a704cbdcdcc0ed0c21b155fbb2b39da113fb346eb87d18377260b4",
+    "packetSha256": "f8605693dbe4c3848a3ea447d70892a80ffdd88ecaefaa9ecf6eb7dcb9349e16",
+    "responseSha256": "5bc138887c529024dc5c48819f564e3832677bc05c86056805d6eaaef9049e0d",
+    "findingsPath": "tasks/somatic-r15-clean-continuation-20260830/REPAIR-FINAL-READER.md",
+    "nextSupervisionRequest": "SOMATIC-R15-REPAIR-004",
+    "editAuthority": false
+  },
+  "microRepair": {
+    "status": "exact_final_result_complete_postrepair_supervision_next",
+    "decision": "bounded_micro_repair_authorized",
+    "decisionResponseSha256": "7f5a3219d507edcde6810e06a97a962816dfdb1a479acfd6ab1f7f57cf879d7d",
+    "whitelistPath": "tasks/somatic-r15-clean-continuation-20260830/R15-MICRO-REPAIR-WHITELIST-20260830.md",
+    "authorizedBlocks": [
+      "EFT attribution only",
+      "Shaking proportionality and range",
+      "optional Sky/Vagal coda compression in place"
+    ],
+    "preMicroCandidateSha256": "85c09a28036a80ff25afd3e3474ad6160fe162f2e120db711fe8ce7c7bc9ea00",
+    "preMicroCandidateGitBlob": "91054075329b51b566535881e5ea9a64775798a1",
+    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "candidateGitBlob": "082b613f5d5217ebb8b289ee0460a788a66e2639",
+    "candidateCommit": "7f9410ab559c39c507f6c15ace5af64e071325dc",
+    "r15ToCandidateZeroContextDiffSha256": "cc24b25a62e7217a218da264184b2bd319f04e2fe9680e6eb8e40bd023da784a",
+    "preMicroToCandidateZeroContextDiffSha256": "2ba992b188835ad9e5d93f642a59e9a5a0be59868077bb872271f8c612e06404",
+    "preflightPath": "tasks/somatic-r15-clean-continuation-20260830/R15-MICRO-REPAIR-PREFLIGHT-20260830.md",
+    "gates": {
+      "sourceIntegrity": "PASS",
+      "forwardTraceability": "PASS",
+      "reverseTraceability": "PASS",
+      "unexplainedSubstantiveDeltas": 0,
+      "semanticSanity": "PASS",
+      "architectureMultiscale": "PASS",
+      "coldAudit": "PASS",
+      "ordinaryLinks": 16,
+      "nativePlaceholders": 7
+    },
+    "nextSupervisionRequest": "SOMATIC-R15-POSTREPAIR-005",
+    "pangramEligibility": "supervisor-authorized for at most one exact final-candidate Pangram 4 GUI measurement, only after exact cache/reservation/History recovery proves never submitted",
+    "exactFinalBoundary": {
+      "path": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+      "sha256": "129fee7e8ab844fcd65db38807841c51db9883d85ed5079c93323a01cf640f9e",
+      "gitBlob": "31cabafedfe2433dd6fa8fd1badc31f31491bc28",
+      "words": 3585,
+      "characters": 21260,
+      "utf8Bytes": 21356,
+      "finalBlankLinePreserved": true
+    },
+    "exactFinalMeasurement": {
+      "status": "complete",
+      "detectorRepositoryHead": "be3b2692f98e0d55a04c35536fa26a53c8df9964",
+      "detectorVersion": "4.0",
+      "detectorStage": "STAGE_SUCCESS",
+      "fractionHuman": 0.1381948739,
+      "fractionAi": 0.861805141,
+      "fractionAiAssisted": 0.0,
+      "historyTransportMatch": "exact_utf8",
+      "displayedAiHighlightRegions": 3,
+      "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md",
+      "furtherPaidMeasurementAuthorized": false
+    }
+  },
+  "articlewideHumanization": {
+    "status": "exact_negative_result_complete_supervision_next",
+    "decision": "articlewide_r15_reconstruction_authorized",
+    "decisionResponseSha256": "10147a9654109186e913e134ac86793f421f73f8675e190e47576cb60ba3702f",
+    "candidatePath": "articles/somatic-therapies/experiments/R15-ARTICLE-WIDE-HUMANIZATION-CANDIDATE-20260830.md",
+    "candidateSha256": "9bf286b53945c22fb57ca0e5b57c7f4c8c411de829be07bcf07d85d6f77eccd0",
+    "candidateGitBlob": "68d62fd3a613e2f51941da3a640bfaaeba78f0e9",
+    "boundaryPath": "articles/somatic-therapies/experiments/R15-ARTICLE-WIDE-HUMANIZATION-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+    "boundarySha256": "fc5a8e49c499c4e4165ff3e6aded4f26c88bacdd9475e9e799a482a19c7a504a",
+    "boundaryGitBlob": "10db8f1d586c5e93fe794e50f6b3e16a1bf721ee",
+    "words": 3585,
+    "characters": 20969,
+    "utf8Bytes": 21061,
+    "detectorRepositoryHead": "52d43351",
+    "detectorVersion": "4.0",
+    "detectorStage": "STAGE_SUCCESS",
+    "fractionHuman": 0.1231321841,
+    "fractionAi": 0.8768678308,
+    "fractionAiAssisted": 0.0,
+    "historyTransportMatch": "exact_utf8",
+    "displayedAiHighlightRegions": 3,
+    "displayedAiHighlightWords": 3585,
+    "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/R15-ARTICLE-WIDE-PANGRAM-RESULT-20260830.md",
+    "nextSupervisionRequest": "SOMATIC-R15-RESULT-007",
+    "furtherPaidMeasurementAuthorized": false
+  },
+  "directOwnerVoiceRecovery": {
+    "status": "authorized_whitelist_frozen_drafting_next",
+    "decisionResponseSha256": "586ddea100f8ad1097834616f8ef5f80d3575aad624d4b007b11d7b7caad08d7",
+    "whitelistPath": "tasks/somatic-r15-clean-continuation-20260830/R15-DIRECT-OWNER-VOICE-WHITELIST-20260830.md",
+    "strategy": "source_native_owner_realization_not_uniform_editorial_reconstruction",
+    "maximumRelatedPaidGuiCallOrdinal": 6,
+    "authorizedNewWholeDocumentGuiMeasurements": 1,
+    "consumedNewWholeDocumentGuiMeasurements": 0,
+    "nextSupervisionRequestIfBelowTarget": "SOMATIC-R15-STRATEGY-EXHAUSTED-008",
+    "furtherPaidMeasurementAuthorizedNow": false
+  },
+  "boundedVerification": {
+    "status": "PASS",
+    "authority": "diagnostic_only_no_edit_authority",
+    "materialSha256": "cdcb857ff5e144a57b045b66491c9a4ae2b13f31fcb86786a5e6808f17a45afb",
+    "packetSha256": "0ec10c2c6d510b15bf390389c6391f8c577677a2a4926f66044451e122f32c6a",
+    "responseSha256": "beccea6a3af28be1ad554d0ed6602b1cabdd21ca76bd96439d0d6ee60ba81014",
+    "disposition": "BOUNDED_VERIFICATION_PASS",
+    "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/BOUNDED-VERIFICATION.md",
+    "proseChangedAfterResult": false
+  },
+  "ownerReview": {
+    "status": "HISTORICAL_NONTERMINAL_INVALIDATED_BY_OWNER_CORRECTION",
+    "supervisionRequest": "SOMATIC-R15-POSTREPAIR-005",
+    "decision": "approved",
+    "decisionResponseSha256": "ba758af6dc6275c39c0860b5e6a5fc2c43b95f9d678440784c8a1f20fdabb9ee",
+    "decisionResponseCharacters": 2594,
+    "decisionResponseUtf8Bytes": 2604,
+    "candidateSha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+    "readinessPath": "tasks/somatic-r15-clean-continuation-20260830/READY-FOR-OWNER-REVIEW.md",
+    "terminalBoundary": "not_complete_not_ready_for_merge_not_publication_ready",
+    "masterPromotionAuthorized": false,
+    "rawEditorReconstructionAuthorized": false,
+    "publicationAuthorized": false,
+    "invalidatedAt": "2026-08-30T19:52:00Z",
+    "invalidatedBy": "PANGRAM-TARGET-001",
+    "rootTaskEffect": "none; the root task remains active until the repaired owner outcome is achieved"
+  },
+  "mechanicalCloseout": {
+    "status": "complete",
+    "acceptance": "PASS",
+    "unitTests": {
+      "status": "PASS",
+      "count": 109
+    },
+    "codexGithubAudit": {
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 4
+    },
+    "diffCheck": "PASS",
+    "contentRepositoryValidation": {
+      "status": "THREE_PREEXISTING_OUT_OF_SCOPE_ROMANCE_FINDINGS",
+      "somaticFindings": 0,
+      "romanceFindings": 3,
+      "sameRomanceFindingsOnCanonicalMain": true
+    },
+    "receiptPath": "tasks/somatic-r15-clean-continuation-20260830/FINAL-READINESS-RECEIPT-20260830.md",
+    "proseChanged": false,
+    "masterChanged": false
+  },
+  "preflightCommand": "python scripts/check_somatic_r15_task.py --preflight",
+  "completionCommand": "python scripts/check_somatic_r15_task.py --acceptance",
+  "completionClaimRule": "OWNER_OUTCOME_ACHIEVED requires exact whole-document Pangram 4.0 fractionHuman == 1.0, all fidelity/editorial gates, a final independent reader, and exact final-draft/commentable-diff delivery in the existing supervisor chat. READY_FOR_OWNER_REVIEW, ordinary tests, supervisor approval, or a lower Pangram score are nonterminal proxies.",
+  "suspendedTaskSources": [
+    "R16",
+    "R17-R58",
+    "R59-R65",
+    "PR #72",
+    "stale Codex-V5 instructions",
+    "old Work/Codex conversations",
+    "generic roadmaps",
+    "historical Shaking reservations unrelated to the exact R15 candidate"
+  ],
+  "acceptance": {
+    "requiredArtifacts": [
+      "tasks/somatic-r15-clean-continuation-20260830/RECOVERY.md",
+      "tasks/somatic-r15-clean-continuation-20260830/DETECTOR-STATE.json",
+      "tasks/somatic-r15-clean-continuation-20260830/SUPERVISION.md",
+      "tasks/somatic-r15-clean-continuation-20260830/FINAL-READER.md",
+      "tasks/somatic-r15-clean-continuation-20260830/READY-FOR-OWNER-REVIEW.md",
+      "tasks/somatic-r15-clean-continuation-20260830/FINAL-READINESS-RECEIPT-20260830.md",
+      "tasks/somatic-r15-clean-continuation-20260830/R15-FINAL-CANDIDATE-PANGRAM-RESULT-20260830.md",
+      "tasks/somatic-r15-clean-continuation-20260830/PRE-MICRO-SECTION-IDENTITY-MANIFEST.json",
+      "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json",
+      "tasks/somatic-r15-clean-continuation-20260830/TASK-CONTRACT-V2.json",
+      "tasks/somatic-r15-clean-continuation-20260830/OBJECTIVE-RECONCILIATION.json",
+      "tasks/somatic-r15-clean-continuation-20260830/SUPERVISION-DESIGN-FEEDBACK-20260830.json"
+    ],
+    "requiredDocumentation": [
+      "articles/somatic-therapies/experiments/R59-R65-PR72-SUPERSESSION-20260830.md"
+    ],
+    "requiredCommands": [
+      "python -m unittest discover -s tests",
+      "python scripts/validate_content_repository.py --root .",
+      "python scripts/audit_codex_github.py --root . --fail-on error",
+      "git diff --check"
+    ]
+  }
+}

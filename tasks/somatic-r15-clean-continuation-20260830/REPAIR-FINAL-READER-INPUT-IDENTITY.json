@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "taskId": "somatic-r15-clean-continuation-20260830",
+  "purpose": "genuinely_separate_detector_blind_reader_after_bounded_repair",
+  "source": {
+    "candidatePath": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
+    "candidateGitBlob": "91054075329b51b566535881e5ea9a64775798a1",
+    "candidateSha256": "85c09a28036a80ff25afd3e3474ad6160fe162f2e120db711fe8ce7c7bc9ea00",
+    "startMarker": "# Introduction"
+  },
+  "materializer": "scripts/materialize_somatic_final_reader_packet.py",
+  "articleInput": {
+    "sha256": "9a8db47224a704cbdcdcc0ed0c21b155fbb2b39da113fb346eb87d18377260b4",
+    "words": 3788,
+    "characters": 23197,
+    "utf8Bytes": 23295,
+    "ordinaryProseTransformation": "none",
+    "nativeObjectTransformation": "seven repository-only promotion placeholders replaced by neutral native-media position labels"
+  },
+  "transmittedPacket": {
+    "sha256": "f8605693dbe4c3848a3ea447d70892a80ffdd88ecaefaa9ecf6eb7dcb9349e16",
+    "words": 3932,
+    "characters": 24201,
+    "utf8Bytes": 24299,
+    "containsOnly": [
+      "diagnostic-only reader instructions",
+      "minimal first-person practical-article context",
+      "reader-facing repaired article beginning at # Introduction",
+      "neutral native-media position labels"
+    ]
+  },
+  "reader": {
+    "context": "new ordinary ChatGPT conversation outside the article project, prior reader conversation, and supervising conversation",
+    "authority": "diagnostic_only_no_edit_authority",
+    "visibleWorkDuration": "18m18s",
+    "responseSha256": "5bc138887c529024dc5c48819f564e3832677bc05c86056805d6eaaef9049e0d",
+    "responseCharacters": 18706,
+    "responseUtf8Bytes": 19004,
+    "durableFindings": "tasks/somatic-r15-clean-continuation-20260830/REPAIR-FINAL-READER.md"
+  },
+  "withheldContext": [
+    "Pangram and detector scores or windows",
+    "R15 and round identifiers",
+    "later failed branches",
+    "preservation defenses and prior audits",
+    "drafting rationale and rejected alternatives",
+    "source and repair whitelists",
+    "prior reader findings and supervision decisions",
+    "supervision conversation"
+  ],
+  "transmissionAuthorization": "Joel explicitly confirmed the public candidate push and fresh-reader transmission in the current Codex chat on 2026-08-30.",
+  "repositoryPrivacyBoundary": "The full reader article, packet, private conversation URL, and exact response are not duplicated in this public recovery branch. The input is deterministically regenerated from the already-public candidate and exact identities are bound here by hashes."
+}

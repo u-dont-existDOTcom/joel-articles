@@ -1,0 +1,164 @@
+{
+  "schema_version": 8,
+  "experiment_id": "SOMATIC-INTRO-OVERNIGHT-ISOLATION-20260901",
+  "status": "STOPPED_ABANDON_LANE_NO_AUTHORIZED_SUCCESSOR",
+  "branch": "task/somatic-r15-clean-continuation-20260830",
+  "article_authority_mutation": "BLOCKED",
+  "strategy_epoch": {
+    "ordinal": 3,
+    "family": "ALTERNATE_RUNTIME_WRITER_TOURNAMENT",
+    "disposition": "ABANDON_GENERATIVE_RECONSTRUCTION_AS_PRIMARY_LANE",
+    "reason": "The evaluator's frozen conditional disposition is now mechanically satisfied: ALT-001 used Qwen and ALT-002 used Claude Opus 5, two genuinely distinct known model families, and both cold-FAILed. Per the active tournament protocol, synthetic generative reconstruction is abandoned as the primary lane.",
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/ALTERNATE-RUNTIME-WRITER-TOURNAMENT-20260901.md",
+    "meta_audit_path": "tasks/somatic-r15-clean-continuation-20260830/STRATEGY-META-AUDIT-AND-RADICAL-RESET-20260901.md",
+    "prior_epoch": "SERIAL_FRESH_WRITER_RELAY",
+    "prior_epoch_result": "FAILED_2_OF_2_SAME_BROAD_CLOSURE_FAMILY_ZERO_PANGRAM_ELIGIBLE"
+  },
+  "counters": {
+    "completed_eval_cycles_total": 7,
+    "completed_eval_cycles_current_chat": 7,
+    "completed_eval_cycles_since_strategy_audit": 2,
+    "strategy_audits_completed": 2,
+    "handoffs_completed": 0,
+    "cold_passes": 0,
+    "cold_fails": 7,
+    "cold_uncertain": 0,
+    "false_pass_retractions": 1,
+    "pangram_new_paid_calls": 0,
+    "pangram_cache_hits": 0,
+    "pangram_human_results": 0,
+    "pangram_ai_or_mixed_results": 0
+  },
+  "limits": {
+    "strategy_audit_every_eval_cycles": 7,
+    "strategy_audit_requested_range": "5-10",
+    "max_eval_cycles_per_evaluator_chat": 20,
+    "max_new_paid_pangram_calls": 6,
+    "minimum_candidate_words": 50
+  },
+  "detector": {
+    "owner_authorization": "CONDITIONAL_EXPERIMENTAL_PANGRAM_AFTER_GENUINE_COLD_PASS",
+    "model_required": "pangram-4",
+    "expected_version": "4.0",
+    "short_passage_caveat": "Research signal only; short paragraph result does not establish article-level humanization or fidelity.",
+    "no_repeat_rule": true,
+    "ambiguous_action_rule": "RECOVER_BEFORE_REPEAT"
+  },
+  "alternate_runtime_tournament": {
+    "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/ALTERNATE-RUNTIME-WRITER-TOURNAMENT-20260901.md",
+    "fixed_fragment": "afterward",
+    "minimum_distinct_model_families": 2,
+    "maximum_model_families": 3,
+    "runtime_identity_must_be_known": true,
+    "same_model_fresh_chat_does_not_count": true,
+    "candidate_results": [
+      {
+        "packet_id": "ALT-RUNTIME-BLIND-001",
+        "candidate_sha256": "4afd7057209d0563af029e1e5a0265d82b6f3f047c62bb78ba58c899c0b6d153",
+        "word_count": 76,
+        "verdict": "FAIL",
+        "failure_family": "LYRICAL_ATMOSPHERIC_ABSTRACTION_TO_POLISHED_NONINTERPRETIVE_CLOSURE",
+        "pangram": "NOT_AUTHORIZED",
+        "runtime_identity_reveal_status": "REVEALED_AFTER_FROZEN_VERDICT_AND_PERSISTED",
+        "runtime_identity": {
+          "family": "Qwen",
+          "runtime": "Ollama",
+          "model": "orcarouter/Qwen3.8-27B-Uncensored:latest",
+          "architecture": "qwen35",
+          "parameters": "27.3B",
+          "quantization": "Q4_K_M",
+          "model_digest": "6fac2f98fdf7",
+          "provider": "LOCAL_INSTALLED_MODEL"
+        }
+      },
+      {
+        "packet_id": "ALT-RUNTIME-BLIND-002",
+        "candidate_sha256": "a26290b418d33ec55adf28f31bf90bcb80ca037c209add37133d6d2dc255faf8",
+        "word_count": 133,
+        "verdict": "FAIL",
+        "failure_family": "METAPHOR_STACK_AND_SELF_REFRAMING_TO_CONCEPTUALIZED_BODY_AGENCY_CLOSE",
+        "strongest_literal_defect": "The paragraph repeatedly replaces one metaphorical frame with another—thinking, trailing hum, aftermath/residue, slow arithmetic—and closes by personifying the body as a polished conceptual agent arriving at conclusions it does not bother to translate.",
+        "pangram": "NOT_AUTHORIZED",
+        "runtime_identity_reveal_status": "REVEALED_AFTER_FROZEN_VERDICT_AND_PERSISTED",
+        "runtime_identity": {
+          "family": "Claude",
+          "runtime": "Claude Code",
+          "runtime_version": "2.1.241",
+          "model": "claude-opus-5",
+          "canonical_model": "claude-opus-5",
+          "provider": "firstParty",
+          "auth": "EXISTING_CLAUDE_AI_MAX_SESSION",
+          "execution_profile": "SAFE_MODE_NO_TOOLS_NO_SESSION_PERSISTENCE",
+          "subagents_spawned": 0
+        }
+      }
+    ],
+    "next_action": "STOP_AND_CHECKPOINT_NO_AUTHORIZED_SUCCESSOR_LANE",
+    "distinct_model_families_tested": [
+      "Qwen",
+      "Claude"
+    ],
+    "minimum_distinct_model_families_satisfied": true,
+    "decision": "ABANDON_GENERATIVE_RECONSTRUCTION_AS_PRIMARY_LANE"
+  },
+  "pending_eval_candidate": null,
+  "pending_pangram_authorization": null,
+  "n8n_shadow": {
+    "status": "READY_INACTIVE_METADATA_ONLY",
+    "boundary": "localhost/private-only; orchestration and execution metadata only; GitHub remains canonical; no PASS/FAIL authority",
+    "container": "somatic-intro-n8n-20260901",
+    "listen": "127.0.0.1:5678",
+    "workflow_count": 6,
+    "all_workflows_active": false,
+    "public_api_enabled": false,
+    "detector_action_allowed": false
+  },
+  "hermes_shadow": {
+    "status": "OPTIONAL_SHADOW_SETUP_BLOCKED",
+    "installed_version": "0.21.0",
+    "dedicated_home": "somatic-intro-overnight/hermes-home",
+    "model_provider_available": false,
+    "n8n_mcp_configured": false,
+    "blocker": "NO_MODEL_PROVIDER_AND_NO_N8N_API_KEY; OPTIONAL_SETUP_DOES_NOT_BLOCK_PRIMARY_LOOP"
+  },
+  "last_cold_verdict": {
+    "candidate_sha256": "a26290b418d33ec55adf28f31bf90bcb80ca037c209add37133d6d2dc255faf8",
+    "word_count": 133,
+    "writer_lane": "ALTERNATE_RUNTIME_IDENTITY_WITHHELD_UNTIL_VERDICT",
+    "packet_id": "ALT-RUNTIME-BLIND-002",
+    "verdict": "FAIL",
+    "strongest_literal_defect": "The candidate is rhetorically constructed through stacked metaphors and repeated self-reframing, culminating in a polished personification of the body as silently computing and reaching untranslated conclusions.",
+    "causal_diagnosis": "This alternate-runtime candidate differs in texture from both the ChatGPT family and Qwen ALT-001, but still turns the minimal seed into aesthetically and conceptually complete prose. The blinded verdict alone does not establish model-family independence; Codex must now reveal the pre-recorded runtime identity before the tournament can conclude.",
+    "strategy_implication": "No Pangram. If ALT-002 is a genuinely distinct known model family from Qwen, the minimum tournament evidence is satisfied with two alternate-family FAILs, supporting ABANDON_GENERATIVE_RECONSTRUCTION_AS_PRIMARY_LANE. If not distinct, obtain another known family instead.",
+    "pangram_authorized": false
+  },
+  "history_note": "Prior six FAILs remain preserved in earlier schema versions and Git history; cumulative counters retain them.",
+  "next_action": "STOP_AND_REPORT_TOURNAMENT_CLOSEOUT_OWNER_REVIEW_POINT",
+  "stop_receipt": {
+    "stop_condition": "ABANDON_LANE_WITH_NO_AUTHORIZED_SUCCESSOR",
+    "completed_eval_cycles_total": 7,
+    "completed_eval_cycles_current_chat": 7,
+    "cold_passes": 0,
+    "cold_fails": 7,
+    "cold_uncertain": 0,
+    "false_pass_retractions": 1,
+    "pangram_new_paid_calls": 0,
+    "pangram_cache_hits": 0,
+    "strategy_audits_completed": 2,
+    "evaluator_handoffs_completed": 0,
+    "alternate_runtime_families_tested": [
+      "Qwen",
+      "Claude"
+    ],
+    "alternate_runtime_results": [
+      "FAIL",
+      "FAIL"
+    ],
+    "n8n_shadow": "READY_INACTIVE_METADATA_ONLY",
+    "hermes_shadow": "OPTIONAL_SHADOW_SETUP_BLOCKED_NO_PROVIDER",
+    "article_authority_mutation": "BLOCKED_UNCHANGED",
+    "registered_master_edited": false,
+    "article_promotion": false,
+    "unrelated_human_donor_prose_inserted": false
+  }
+}

@@ -26,14 +26,14 @@
         },
         "current_state": {
           "path": "articles/romance/CURRENT-STATE.md",
-          "sha256": "994437d5b4dac35ccb4da9d6885b4e4a302a01a05bacf4272f4d606068c51a17"
+          "sha256": "686f91c1bc2a57efd3bd56f7f021aeba711f42abc75c4a6a5984573af0fb438c"
         }
       },
       "review": {
         "citations": {
           "path": "articles/romance/CITATIONS.json",
-          "sha256": "89beb1748aaef689b666658755b54076fb56c80f3234707adea650e9460f8cce",
-          "status": "pending"
+          "sha256": "37e33cf1b9846c8883cadfa1018a7719597d41164ade87ce93693a3f6167fc83",
+          "status": "blocked"
         },
         "detector": {
           "path": "articles/romance/DETECTOR-EVIDENCE.json",
@@ -52,6 +52,11 @@
           "path": "articles/romance/ARCHITECTURE.md",
           "sha256": "9599021e42d3459b879da2f0a1023a4a54f56bac4041731ed11ecd8db08e7421",
           "role": "architecture_map"
+        },
+        {
+          "path": "articles/romance/review/FINAL-CORRECTIONS-20260824.md",
+          "sha256": "71c6bb57b7e580f91387f40b1143a8d57619b39fc8abb80a2e9300e2722e9e72",
+          "role": "historical_editorial_corrections"
         }
       ]
     },
@@ -94,7 +99,7 @@
         },
         "editorial": {
           "path": "articles/somatic-therapies/EDITORIAL-STATUS.json",
-          "sha256": "04d691b135931dd73905e7a92f7cb79a42fd4b2ea1740e784fde20fac2581e57e",
+          "sha256": "04d691b135931dd73905e7a92f7cb79a42fd4b2ea174e784fde20fac2581e57e",
           "status": "pending"
         }
       },
@@ -164,6 +169,76 @@
           "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-PRESERVATION-20260822.json",
           "sha256": "5af954f5be94c56f07de20efc9be00fc69c8a5f4fe62b283dad989d5e993c992",
           "role": "preservation_proof"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-CHECKPOINT-20260825.md",
+          "sha256": "4f1a7b7fcb67f515de6da6b610852a7b7514cae8675ea1f3006aa601b0bdd708",
+          "role": "non_authoritative_recovery_checkpoint"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-PANGRAM-LOCALIZED-REWRITE-CANDIDATE-20260825.md",
+          "sha256": "e7a541e75cf06878c206bcd7d78440bb73593a0a5a2169df1446ce42ad7186ee",
+          "role": "non_authoritative_experiment_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-CANDIDATE-20260830.md",
+          "sha256": "7600316ff4895f694e430b317a750a80c4ed2848b474bf475757ae3c6f0e26b6",
+          "role": "non_authoritative_supervisor_authorized_repair_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-ARTICLE-WIDE-HUMANIZATION-CANDIDATE-20260830.md",
+          "sha256": "9bf286b53945c22fb57ca0e5b57c7f4c8c411de829be07bcf07d85d6f77eccd0",
+          "role": "non_authoritative_historical_humanization_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-ARTICLE-WIDE-HUMANIZATION-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+          "sha256": "fc5a8e49c499c4e4165ff3e6aded4f26c88bacdd9475e9e799a482a19c7a504a",
+          "role": "historical_non_authoritative_detector_input_boundary"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-DIRECT-OWNER-VOICE-CANDIDATE-20260830.md",
+          "sha256": "9c2e8fe57335d51ac925bc9b63cee8125c24e471e2b9b8fda50cc44cf28f5b31",
+          "role": "non_authoritative_historical_owner_voice_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-EFT-REPAIR-CANDIDATE-20260831.md",
+          "sha256": "5a6226ca0056610b4492de7713a43bb152dde1079d81b5c05896c70fcf138679",
+          "role": "non_authoritative_supervisor_authorized_repair_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-PRESERVATION-AND-COLD-AUDIT-RECEIPT-20260825.md",
+          "sha256": "be2b848cfa483425c994eb2fe1fafc8cd6e3221632bac608d9940b6550fa4367",
+          "role": "preservation_and_cold_audit_receipt"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+          "sha256": "9a81bd04252a2ee851dd111040c600837bdf0a7bbf71c42c293e3b763c99a707",
+          "role": "exact_detector_input_boundary"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-CLEAN-REPAIR-WHOLE-ARTICLE-PANGRAM-BOUNDARY-20260830.txt",
+          "sha256": "129fee7e8ab844fcd65db38807841c51db9883d85ed5079c93323a01cf640f9e",
+          "role": "exact_non_authoritative_repair_candidate_detector_input_boundary"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-EFT-REPAIR-BOUNDARY-20260831.txt",
+          "sha256": "16cb68d7694dda6e1c088fc0a7c615eafb211b5ce44bc5e111ec4357052bb6f0",
+          "role": "exact_non_authoritative_repair_candidate_detector_input_boundary"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R59-R65-PR72-SUPERSESSION-20260830.md",
+          "sha256": "21d55e646beff7d254771bca860c4dfc7fd4c7bc66412b6a2fff6d17c1c56aa0",
+          "role": "failed_branch_supersession_record"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-CANDIDATE-20260831.md",
+          "sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
+          "role": "non_authoritative_supervisor_authorized_repair_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-BOUNDARY-20260831.txt",
+          "sha256": "d5c0b510a89ab6f7c97d9cdbe6069cccd197cd6470eac5ddc4a86ffcb14735bb",
+          "role": "exact_non_authoritative_repair_candidate_detector_input_boundary"
         }
       ]
     }

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "feedbackId": "SDF-SOMATIC-20260830-001",
+  "createdAt": "2026-08-30T19:52:00Z",
+  "taskId": "somatic-r15-clean-continuation-20260830",
+  "workerRunId": "codex-session-01a05030-b0a2-7d53-aa35-d5f061bf5356",
+  "ownerOutcome": {
+    "ownerOutcomeId": "OR-SOMATIC-HUMANIZATION-20260830",
+    "epoch": 3,
+    "sha256": "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a"
+  },
+  "supervisionArchitecture": {
+    "repository": "u-dont-existDOTcom/universal-dev-architecture",
+    "branchOrCommit": "architecture/codex-pro-supervision-mission-control-20260830",
+    "architectureEpoch": "20260830-owner-outcome-hotfix",
+    "sha256OrCommit": "90a230e85f78063080dc627ec36a0237c3234f72"
+  },
+  "type": "IMPROVEMENT",
+  "category": "MACHINE_CHECKING_GAP",
+  "severity": "MATERIAL",
+  "blocksCurrentBoundary": false,
+  "exactIssue": "The shared bootstrap requires normalized result, current gaps, unmet outcomes, non-satisfying proxies, recurring reconciliation, and a terminal comparator, but templates/OBJECTIVE-RECONCILIATION.json does not contain explicit machine fields for several of those required controls. A structurally valid packet can therefore omit information the normative text makes mandatory.",
+  "relevantRule": {
+    "path": "templates/CURRENT-CODEX-WORKER-SUPERVISION-BOOTSTRAP.md",
+    "section": "1 and 4",
+    "excerpt": "List every required outcome, required evidence, current gap, and unmet or unknown outcome. List supporting states that do not by themselves satisfy the outcome."
+  },
+  "observedOrHypotheticalFailure": "The Somatic worker previously satisfied a narrowed ready-for-review contract at Pangram Human 0.1381948739. Without explicit required schema fields and validation, another implementation can again carry every current template field while omitting the parent target gap or proxy list.",
+  "evidenceRefs": [
+    "tasks/ACTIVE-TASK.json@pre-hotfix-sha256:2402e6922bac0a0288c6848c5de859315d10545ea1afd162a29aafa181777a30",
+    "tasks/somatic-r15-clean-continuation-20260830/OWNER-SOURCE-RECEIPT.json",
+    "tasks/somatic-r15-clean-continuation-20260830/OBJECTIVE-RECONCILIATION.json"
+  ],
+  "proposedChange": "Rev the objective-reconciliation schema to include normalizedResult, currentGap, unmetOutcomeIds, unknownOutcomeIds, nonSatisfyingProxies, reconciliationTrigger/history, and a typed terminalComparator object; add a validator that rejects packets missing them and retain the 13.82% Human regression fixture.",
+  "alternativesConsidered": [
+    "Leave the fields as free-form findings; rejected because implementations cannot reliably fail closed.",
+    "Store the fields only in the task contract; rejected because a supervision packet can carry a stale or narrowed contract while still satisfying the current reconciliation template."
+  ],
+  "risks": [
+    "A schema revision requires migration/default handling for existing Mission Control records.",
+    "Overly verbose packets could increase context load; content-addressed references and compact current-gap fields mitigate this."
+  ],
+  "workerRecommendation": "ACCEPT_WITH_REVISION: add explicit fields and fail-closed validation while keeping verbose evidence content-addressed.",
+  "workerUncertainty": "The Mission Control implementation may already plan equivalent fields outside this template; meta-review should decide whether the template, event schema, or both own the invariant.",
+  "decisionThatCanChange": "Whether a packet that conforms to templates/OBJECTIVE-RECONCILIATION.json is sufficient evidence that the bootstrap's owner-outcome controls were applied.",
+  "routing": {
+    "extraHighPacketPrepared": false,
+    "proMetaReviewRequired": true,
+    "reviewPriority": "IMMEDIATE",
+    "sharedProScopeKey": "supervision-architecture/20260830-owner-outcome-hotfix"
+  },
+  "status": "PENDING_PRO_META_REVIEW",
+  "proMetaReview": null,
+  "ownerDecisionRef": null,
+  "repositoryChangeRefs": [],
+  "testRefs": []
+}
