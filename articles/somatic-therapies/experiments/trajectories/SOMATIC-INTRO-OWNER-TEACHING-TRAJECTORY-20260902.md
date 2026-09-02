@@ -56,7 +56,24 @@ why is work mode trying to edit prose? work is not for that
 
 #### Next candidate — exact
 
-`PENDING — must be recorded here exactly when produced, before owner-facing delivery.`
+```text
+# Introduction
+
+A traumatic event can end before the body stops reacting to it. The person can know the danger is over, look around and understand that they are safe, while the body is still answering the old danger. At that point another explanation may not be what is missing. The accumulated survival activation may need some bodily way to discharge or resolve instead of another attempt to think it away.
+
+In inner-child work, you can know exactly what a younger part needs and still be too caught in that younger state to provide it. Getting the body manageable enough can be what makes an adult perspective available again. Without that, the right answer may be sitting there in your head while the part of you that could actually give it is not very available.
+
+I also do not assume that the answer is to go straight to the deepest memory. With complex or developmental trauma, that can be too much. I care whether the person can stay present without losing the ability to stop. I care what happens afterward, too—whether they can get back to being basically themselves. If the work takes those capacities away, calling the overwhelm “deep processing” does not make it useful. When the stability is already there, I may go directly to EMDR or another trauma-focused method. Without it, I would rather work on regulation than use the hardest material to test how much someone can endure.
+
+http://innerchild.u-dont-exist.com/
+```
+
+#### Pre-delivery process record
+
+- substantive rewrite iterations before delivery: `16`
+- exact final candidate received two consecutive same-context cold clears without prose change
+- same-context cold clears are not represented as independent verification
+- Pangram: `NOT RUN`
 
 ---
 
