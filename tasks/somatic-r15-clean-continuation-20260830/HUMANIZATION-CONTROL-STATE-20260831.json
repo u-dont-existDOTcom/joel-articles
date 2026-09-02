@@ -31,11 +31,13 @@
       "model_substitution_allowed": false
     },
     "owner_teaching_trajectory": {
-      "status": "READY_FOR_OWNER_DISCOVERY_EPISODE_001",
+      "status": "DISCOVERY_EPISODE_001_ACTIVE",
       "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-TEACHING-TRAJECTORY-ESCAPE-EXPERIMENT-20260902.md",
       "state_path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-TEACHING-TRAJECTORY-ESCAPE-STATE-20260902.json",
       "objective": "Capture a natural Joel teaching episode, then test exact-prefix replay, ablation, ordering, compression, persistence/decay, and transfer to distinguish reproducible trajectory conditioning from stochastic escape.",
-      "discovery_generation": "OWNER_DRIVEN_NATURAL_CHAT_ONLY_NOT_AUTOMATED"
+      "discovery_generation": "OWNER_DRIVEN_NATURAL_CHAT_ONLY_NOT_AUTOMATED",
+      "raw_ledger_path": "tasks/somatic-r15-clean-continuation-20260830/teaching-trajectories/TRAJECTORY-20260902-a-RAW.md",
+      "initial_candidate_sha256": "77ca2414c30dc8d0e3d6051102a4c79ef5a6e1a92aca8dcc6d6532b982bd2951"
     }
   },
   "evidence_boundary": {
@@ -73,8 +75,8 @@
     "registered_master_edited": false
   },
   "next_action": {
-    "type": "PARALLEL_CHAT_EVALUATE_ACTIVATION_OR_OWNER_DISCOVERY_EPISODE",
-    "instruction": "For activation steering, evaluate the exact opaque-ID texts in the blinded packet before consulting CONDITION-MAP.json; Codex must not make the final prose-human PASS/FAIL judgment. Separately, Joel may start or identify a fresh natural teaching chat and, if he judges a candidate a genuine apparent escape, freeze the exact episode before further coaching. No Pangram or follow-up sweep is automatic.",
+    "type": "PARALLEL_CHAT_EVALUATE_ACTIVATION_OR_CONTINUE_OWNER_DISCOVERY_EPISODE",
+    "instruction": "For activation steering, evaluate the exact opaque-ID texts in the blinded packet before consulting CONDITION-MAP.json; Codex must not make the final prose-human PASS/FAIL judgment. Separately, owner teaching-trajectory episode TEACH-ESCAPE-DISCOVERY-001 is active at tasks/somatic-r15-clean-continuation-20260830/teaching-trajectories/TRAJECTORY-20260902-a-RAW.md. Joel teaches naturally; exact corrections and candidates are captured before each next attempt. On 'freeze trajectory', stop before new generation and freeze the exact episode. No Pangram or follow-up sweep is automatic.",
     "automatic_action_after_owner_response": false
   }
 }
