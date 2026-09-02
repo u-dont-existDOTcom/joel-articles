@@ -1,11 +1,11 @@
 {
-  "schema_version": 17,
+  "schema_version": 18,
   "control_id": "SOMATIC-HUMANIZATION-FAIL-CLOSED-20260831",
-  "workflow_state": "owner_correction_attractor_experiment_recovery",
+  "workflow_state": "owner_selected_parallel_attractor_experiments",
   "role_boundary": {
     "reasoning_owner": "Chat",
-    "mechanical_executor": "Codex",
-    "rule": "Chat owns research interpretation, strategy selection, prose judgment, and owner-facing explanation. Codex performs only bounded mechanics after a current Chat-authored authorization."
+    "mechanical_executor": "Codex/Work",
+    "rule": "Chat owns research interpretation, strategy selection, prose judgment, and owner-facing explanation. Codex/Work performs only bounded mechanics under the current experiment protocols."
   },
   "article_authority": {
     "article_id": "somatic-therapies",
@@ -14,43 +14,48 @@
     "experiment_candidates_are_authority": false
   },
   "owner_override": {
-    "status": "ACTIVE_DIRECT_OWNER_CORRECTION_20260902",
-    "correction_path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-CORRECTION-ATTRACTOR-EXPERIMENT-RECOVERY-20260902.md",
-    "authorization": "Joel states that the alternate-model tournament had already been rejected because he tried that approach before and it did not work. Do not resume it. Recover and explain the earlier research-derived attractor experiments before authorizing another generation lane.",
-    "scope": "Research recovery/explanation only until Joel selects the next experiment."
+    "status": "ACTIVE_DIRECT_OWNER_SELECTION_20260902",
+    "prior_correction_path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-CORRECTION-ATTRACTOR-EXPERIMENT-RECOVERY-20260902.md",
+    "authorization": "Joel rejected the alternate-model tournament, selected the actual activation/representation-steering experiment, and also approved setting up a separate owner-teaching-trajectory experiment to test whether his natural step-by-step coaching sometimes induces a reproducible transient writing mode rather than a lucky sample.",
+    "scope": "Two parallel non-authoritative research lanes only: activation steering in one fixed open/interceptable model, and natural owner teaching-trajectory discovery/replay."
   },
   "strategy": {
-    "active_family": "ATTRACTOR_EXPERIMENT_RECOVERY_NO_GENERATION",
-    "disposition": "OWNER_REJECTED_MODEL_TOURNAMENT_RECOVER_RESEARCH",
-    "required_distinctions": [
-      "PROCESS_CONTEXT_ISOLATION_N8N_DIAGNOSTIC",
-      "STRUCTURAL_OOD_ELOQUENT_DETECTOR_DISTRIBUTION_EXPERIMENT",
-      "ACTIVATION_REPRESENTATION_STEERING_INTERNAL_GENERATOR_INTERVENTION"
-    ],
-    "overnight_state_path": "tasks/somatic-r15-clean-continuation-20260830/OVERNIGHT-HUMANIZATION-STATE-20260901.json",
+    "active_family": "PARALLEL_ATTRACTOR_MECHANISM_EXPERIMENTS",
     "tournament_status": "HISTORICAL_STOPPED_NOT_AUTHORIZED_SUCCESSOR",
-    "generation_status": "BLOCKED_PENDING_OWNER_CHOICE"
+    "activation_steering": {
+      "status": "AUTHORIZED_AND_DISPATCHED_TO_WORK",
+      "objective": "Test causal hidden-state steering on one fixed open/interceptable model; no model tournament.",
+      "pangram": "BLOCKED_UNTIL_LATER_EXACT_COLD_PASS_AUTHORIZATION"
+    },
+    "owner_teaching_trajectory": {
+      "status": "READY_FOR_OWNER_DISCOVERY_EPISODE_001",
+      "protocol_path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-TEACHING-TRAJECTORY-ESCAPE-EXPERIMENT-20260902.md",
+      "state_path": "tasks/somatic-r15-clean-continuation-20260830/OWNER-TEACHING-TRAJECTORY-ESCAPE-STATE-20260902.json",
+      "objective": "Capture a natural Joel teaching episode, then test exact-prefix replay, ablation, ordering, compression, persistence/decay, and transfer to distinguish reproducible trajectory conditioning from stochastic escape.",
+      "discovery_generation": "OWNER_DRIVEN_NATURAL_CHAT_ONLY_NOT_AUTOMATED"
+    }
   },
   "evidence_boundary": {
-    "n8n_process_isolation": "DESIGNED_NOT_DEMONSTRATED_AS_PROSE_INTERVENTION",
-    "activation_steering": "NOT_RUN_REQUIRES_OPEN_INTERCEPTABLE_MODEL_RUNTIME_WITH_HIDDEN_ACTIVATION_OR_LOGIT_ACCESS",
-    "eloquent_structural_ood": "HISTORICAL_DESIGN_RECOVERED_OUTSIDE_CANONICAL_REPO_COMPLETION_NOT_ESTABLISHED",
-    "pangram": "NO_NEW_CALL_AUTHORIZED"
+    "task_vector_research": "MECHANISTIC_MOTIVATION_ONLY_NOT_PROOF_OF_CHATGPT_HUMAN_WRITER_MODE",
+    "prior_gpt_success": "LIMITED_PRIOR_EVIDENCE; DO_NOT_ASSUME_TRAJECTORY_EFFECT",
+    "n8n_process_isolation": "DIAGNOSTIC_OR_ORCHESTRATION_ONLY_NOT_INTERNAL_STEERING",
+    "eloquent_structural_ood": "SEPARATE_DETECTOR_DISTRIBUTION_RESEARCH_NOT_CURRENT_PRIMARY_LANE",
+    "pangram": "NO_NEW_CALL_AUTHORIZED_BY_DEFAULT"
   },
   "hard_boundaries": [
     "NO_MODEL_TOURNAMENT",
-    "NO_NEW_SOMATIC_CANDIDATE_GENERATION_UNTIL_OWNER_SELECTS_EXPERIMENT",
-    "NO_PANGRAM_CALL",
     "NO_REGISTERED_MASTER_EDIT",
     "NO_ARTICLE_PROMOTION",
-    "NO_PROMPT_ARCHITECTURE_EXPANSION_BY_INFERENCE",
-    "NO_N8N_OR_HERMES_EXPERIMENT_BY_INFERENCE",
     "NO_UNRELATED_HUMAN_DONOR_PROSE",
-    "NO_INVENTED_AUTOBIOGRAPHY_OR_FACTUAL_SPECIFICITY"
+    "NO_INVENTED_AUTOBIOGRAPHY_OR_FACTUAL_SPECIFICITY",
+    "NO_PANGRAM_BY_DEFAULT",
+    "DO_NOT_SCRIPT_JOELS_NATURAL_DISCOVERY_TEACHING",
+    "DO_NOT_RETROFIT_CAUSAL_STORY_FROM_ONE_SUCCESS",
+    "DO_NOT_MIX_TEACHING_TRAJECTORY_RESULTS_WITH_ACTIVATION_STEERING_RESULTS_WITHOUT_EXPLICIT_BRIDGE_ANALYSIS"
   ],
   "next_action": {
-    "type": "CHAT_EXPLAIN_RECOVERED_ATTRACTOR_MECHANISMS_TO_OWNER",
-    "instruction": "Explain exactly what the recovered ELOQUENT structural-OOD, n8n process-isolation, and activation/representation-steering experiments are; state what actually ran versus what remained only designed; explain concretely how activation steering would be implemented and measured; then wait for Joel to choose the next experiment.",
+    "type": "PARALLEL_WAIT_FOR_RESULTS_OR_OWNER_DISCOVERY_EPISODE",
+    "instruction": "Activation-steering Work lane proceeds independently under its dispatched directive. For the teaching-trajectory lane, Joel starts or identifies a fresh natural teaching chat; when he judges a candidate as a genuine apparent escape, freeze the exact episode immediately before further coaching and begin the replay/ablation protocol only afterward.",
     "automatic_action_after_owner_response": false
   }
 }
