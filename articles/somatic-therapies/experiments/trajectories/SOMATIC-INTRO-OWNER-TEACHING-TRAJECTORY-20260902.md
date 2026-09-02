@@ -197,6 +197,66 @@ ok i mean it's not getting less model shaped so idk, you want me to just fix it
 
 ---
 
+### Record 004 — owner-authored rewrite and detector report
+
+#### Immediately preceding candidate — exact
+
+```text
+# Introduction
+
+Long after the event is over, the reaction can keep going. You can know you're safe and still not be able to talk your body out of it. Sometimes what's left has to discharge or resolve physically; more thinking doesn't get at it.
+
+You can run into this in inner-child work. You may know exactly what a younger part needs and still be too caught in the child-state to give it. The body sometimes has to become manageable enough for the adult perspective to be available again. More on inner-child work: http://innerchild.u-dont-exist.com/
+
+With complex or developmental trauma, the deepest memory is not automatically the best place to begin. If touching it leaves someone unable to stay present enough to stop, or the session ends and they are still not basically themselves, I don't call that “deep processing.” It's too much. At that point regulation may be more useful than pushing farther into the memory. When someone can stay with what comes up without losing those capacities, going straight into EMDR or another trauma-focused method may make sense.
+```
+
+#### Owner response — exact verbatim
+
+```text
+oh it's actually good i did rewrite it because even if you had made it sound human it would not have been as good as this. i went back to the original AI one on substack and rewrote that. now it's human high conf on pangram and i think much better. what do you think?&#x20;
+
+
+
+The body was involved in surviving what happened to you, and it has its own resolution programmed in its ancestral DNA. But discovering the body's programming isn't simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.
+
+Still, I do find that lasting complex trauma recovery tends to follow a general, kind of obvious sequence:
+
+1. Establish safety and nervous-system regulation in the present environment,.
+2. Use that regulated state to physically release accumulated stress and survival responses.
+3. Only then move into therapies that work with memories, including the feelings they produce and the stories surrounding them. This often leads back to step 1.
+
+This article is an attempt to break down step 3 into its own somewhat less obvious, but still sensible, flexible sequence. Because specific somatic therapies are on a spectrum of physical<->emotional (or conscious<->subconscious), as well as a spectrum of intensity and specificity, we can often guess which one might be right for someone at which time. These don't all have the same level or type of evidence supporting them, and there's definitely no scientific roadmap that could survive peer-review, but ultimately everyone somehow builds their own map of what makes sense, and this is mine.
+
+All of these therapies to me are serving to pave the ground for deeper inner-child therapy (innerchild.u-dont-exist.com) by making the body a little safer to inhabit before old material is approached directly.
+```
+
+#### Literal owner-response classification
+
+`MIXED — SUBSTANTIVE_CORRECTION + OWNER_REWRITE + OWNER_REPORTED_DETECTOR_RESULT + REQUEST_FOR_EVALUATION`
+
+#### Next candidate — exact
+
+```text
+The body was involved in surviving what happened to you, and it has its own resolution programmed in its ancestral DNA. But discovering the body's programming isn't simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.
+
+Still, I do find that lasting complex trauma recovery tends to follow a general, kind of obvious sequence:
+
+1. Establish safety and nervous-system regulation in the present environment,.
+2. Use that regulated state to physically release accumulated stress and survival responses.
+3. Only then move into therapies that work with memories, including the feelings they produce and the stories surrounding them. This often leads back to step 1.
+
+This article is an attempt to break down step 3 into its own somewhat less obvious, but still sensible, flexible sequence. Because specific somatic therapies are on a spectrum of physical<->emotional (or conscious<->subconscious), as well as a spectrum of intensity and specificity, we can often guess which one might be right for someone at which time. These don't all have the same level or type of evidence supporting them, and there's definitely no scientific roadmap that could survive peer-review, but ultimately everyone somehow builds their own map of what makes sense, and this is mine.
+
+All of these therapies to me are serving to pave the ground for deeper inner-child therapy (innerchild.u-dont-exist.com) by making the body a little safer to inhabit before old material is approached directly.
+```
+
+#### Detector status
+
+`OWNER-REPORTED Pangram: Human, high confidence. No new detector run performed by Chat.`
+
+---
+
 ## Freeze state
 
 `LIVE — NOT FROZEN`
