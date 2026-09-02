@@ -77,6 +77,40 @@ http://innerchild.u-dont-exist.com/
 
 ---
 
+### Record 001 — owner teaching correction
+
+#### Immediately preceding candidate — exact
+
+```text
+# Introduction
+
+A traumatic event can end before the body stops reacting to it. The person can know the danger is over, look around and understand that they are safe, while the body is still answering the old danger. At that point another explanation may not be what is missing. The accumulated survival activation may need some bodily way to discharge or resolve instead of another attempt to think it away.
+
+In inner-child work, you can know exactly what a younger part needs and still be too caught in that younger state to provide it. Getting the body manageable enough can be what makes an adult perspective available again. Without that, the right answer may be sitting there in your head while the part of you that could actually give it is not very available.
+
+I also do not assume that the answer is to go straight to the deepest memory. With complex or developmental trauma, that can be too much. I care whether the person can stay present without losing the ability to stop. I care what happens afterward, too—whether they can get back to being basically themselves. If the work takes those capacities away, calling the overwhelm “deep processing” does not make it useful. When the stability is already there, I may go directly to EMDR or another trauma-focused method. Without it, I would rather work on regulation than use the hardest material to test how much someone can endure.
+
+http://innerchild.u-dont-exist.com/
+```
+
+#### Owner response — exact verbatim
+
+```text
+update memory to ensure work mode is not used for thinking tasks, only for terminal work or very long-range bounded execution in github that chat oversees the reasoning of. most github work can be done in chat mode.&#x20;
+
+as for the prose you wrote, it's too repetitive and i hate it when you say "i care" it sounds super fake. what other ai slop can you fix there?
+```
+
+#### Literal owner-response classification
+
+`MIXED — SUBSTANTIVE_CORRECTION + REQUEST_FOR_EXPLANATION`
+
+#### Next candidate — exact
+
+`PENDING — must be recorded here exactly when produced, before owner-facing delivery.`
+
+---
+
 ## Freeze state
 
 `LIVE — NOT FROZEN`
