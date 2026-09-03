@@ -15,15 +15,25 @@
     },
     {
       "id": "owner-final-introduction-20260902",
-      "claim": "Joel supplied the final Introduction directly on 2026-09-02 after freezing the owner-teaching lessons. This bounded owner-final text outranks the older Introduction in master.html and all model candidates.",
+      "claim": "Joel supplied the final Introduction directly on 2026-09-02 after freezing the owner-teaching lessons, then on 2026-09-03 accepted the whole-sequence five-part-map rethink and directly changed the sentence that had said the article broke down coarse step 3. The updated bounded owner-final text outranks the older Introduction in master.html and all model candidates.",
       "support": {
         "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
-        "sha256": "6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c",
-        "locked_text_sha256": "ae091d8b67ebcd64ff27e5f80d18558e39425c44d8aa75bac018ce415c1f558f",
-        "provenance": "direct owner-final copy supplied in Chat on 2026-09-02"
+        "sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5",
+        "locked_text_sha256": "6439b0c1d26a11d1f40f55837efed5b89966620176466a8909a2d172d41f16d8",
+        "provenance": "direct owner-final copy supplied in Chat on 2026-09-02; direct owner conceptual acceptance and sentence correction on 2026-09-03"
       },
       "access_status": "complete",
-      "certainty": "owner-final for the bounded Introduction section; overall article remains working"
+      "certainty": "owner-final for the bounded Introduction section as corrected 2026-09-03; overall article remains working"
+    },
+    {
+      "id": "five-job-whole-sequence-mapping-20260903",
+      "claim": "Joel accepted the proposed conceptual mapping that the five-job map is a finer-grained breakdown of the whole coarse recovery sequence rather than coarse step 3 alone.",
+      "support": {
+        "provenance": "direct owner acceptance in Chat on 2026-09-03",
+        "accepted_intro_sentence": "This article is an attempt to break that general sequence down into a somewhat less obvious, but still sensible and flexible, five-part map."
+      },
+      "access_status": "complete",
+      "certainty": "owner-accepted conceptual architecture for continuing the Map section"
     },
     {
       "id": "owner-source-baseline",
@@ -61,9 +71,9 @@
     },
     {
       "id": "owner-final-introduction-detector-boundary",
-      "claim": "An earlier direct owner rewrite of the Introduction was reported by Joel as Pangram Human / high confidence, but the later final owner text has no matching exact-boundary Pangram result in this task record.",
+      "claim": "An earlier direct owner rewrite of the Introduction was reported by Joel as Pangram Human / high confidence, but the later final owner text, including the 2026-09-03 conceptual correction, has no matching exact-boundary Pangram result in this task record.",
       "support": {
-        "exact_final_intro_sha256": "6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c",
+        "exact_final_intro_sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5",
         "detector_status": "not measured in this task record"
       },
       "access_status": "complete",
@@ -79,7 +89,7 @@
     {
       "role": "owner_final_introduction",
       "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
-      "sha256": "6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c"
+      "sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5"
     },
     {
       "role": "humanization_report",
