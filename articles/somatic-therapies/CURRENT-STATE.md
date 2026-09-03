@@ -59,6 +59,9 @@ Accepted meaning:
 Durable writing-process lesson:
 `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260903-CBT-REORG.md`
 
+Active enforcement supplement:
+`experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`
+
 ## Current writing target
 
 The next owner-facing prose target is:
@@ -100,6 +103,7 @@ Before new model-authored Somatic prose read:
 - `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260903-CBT-REORG.md`
 - `experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-20260831.md`
 - `experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260902-FROZEN.md`
+- `experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`
 - `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`
 - current Pangram-humanization lessons.
 
@@ -115,4 +119,4 @@ Produce **one** fresh owner-facing attempt for `The Elephant in the Therapy Room
 
 ## Recovery rule
 
-After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-FINAL-INTRODUCTION-20260902.txt`, `ARCHITECTURE.md`, `experiments/SOMATIC-CBT-BODY-EPISTEMOLOGY-OWNER-DIRECTION-20260903.md`, `experiments/SOMATIC-CBT-EPISTEMOLOGY-REORG-PROPOSAL-20260903.md`, and the three writer-state files named above. GitHub is canonical; chat reconstruction is not authority.
+After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-FINAL-INTRODUCTION-20260902.txt`, `ARCHITECTURE.md`, `experiments/SOMATIC-CBT-BODY-EPISTEMOLOGY-OWNER-DIRECTION-20260903.md`, `experiments/SOMATIC-CBT-EPISTEMOLOGY-REORG-PROPOSAL-20260903.md`, the three writer-state files named above, and `experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`. GitHub is canonical; chat reconstruction is not authority.
