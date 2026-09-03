@@ -6,7 +6,7 @@ Updated: 2026-09-02
 
 Maintain the registered Somatic Therapies working article while preserving Joel's direct owner-final corrections, links, native media, safety functions, evidence distinctions, and exact detector provenance. Human editorial quality and owner authority outrank detector output.
 
-## Authority / current override
+## Authority / Baseline
 
 - Article id: `somatic-therapies`
 - Overall article status: **working** — not owner-final, published, or exported.
@@ -16,13 +16,23 @@ Maintain the registered Somatic Therapies working article while preserving Joel'
 - **Bounded Introduction override:** `articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt`
 - Owner-final Introduction file SHA-256: `6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c`
 - Owner-final Introduction locked-text SHA-256: `ae091d8b67ebcd64ff27e5f80d18558e39425c44d8aa75bac018ce415c1f558f`
-- Authority relation: Joel's direct 2026-09-02 owner-final Introduction **supersedes the Introduction currently present in `master.html` and every prior model candidate**. The remainder of `master.html` remains the registered working raw-editor authority.
-- The raw HTML master is therefore intentionally **stale for the Introduction span only** until exact Substack editor-HTML/list/link formatting is reconciled. Do not reconstruct that span from an older model draft.
+- Authority relation: Joel's direct 2026-09-02 owner-final Introduction supersedes the Introduction currently present in `master.html` and every prior model candidate. The remainder of `master.html` remains the registered working raw-editor authority.
+- The raw HTML master is intentionally **stale for the Introduction span only** until exact Substack editor-HTML/list/link formatting is reconciled. Do not reconstruct that span from an older model draft.
 - `one-one` is confirmed intentional owner language. Confirmed ordinary typos are not protected.
 
-## Introduction humanization closeout
+## Completed
 
-The 2026-09-02 owner-teaching episode and its post-freeze lessons are frozen. The required task-local recovery files are:
+- Froze the 2026-09-02 owner-teaching trajectory and post-freeze writer/admission lessons.
+- Preserved the exact final owner-authored Introduction in `OWNER-FINAL-INTRODUCTION-20260902.txt`.
+- Registered the bounded owner-final Introduction in `SOURCE-EVIDENCE.json` and the article registry as an `owner_final_section` artifact.
+- Preserved the Introduction as a protected function in `OWNER-LOCKS.json` without falsely claiming that its exact plaintext is already present in the stale raw-HTML master.
+- Recorded that `one-one` is intentional owner language and that ordinary confirmed typos are not protected.
+- Preserved the historical r01 full-article Pangram result and the distinction between that exact boundary and later owner-edited Introduction bytes.
+- No Pangram call was run during the 2026-09-02 final authority reconciliation.
+
+### Introduction humanization closeout
+
+The required task-local recovery files are:
 
 - `experiments/SOMATIC-INTRO-OWNER-FINAL-AS-SUPPLIED-20260902.md`
 - `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-20260831.md`
@@ -42,7 +52,11 @@ Durable owner-taught conclusions include:
 
 No further model-authored Introduction should be generated unless Joel explicitly reopens that task.
 
-## Detector status
+## Current checkpoint
+
+The bounded Introduction is owner-final and controls that section. The overall article remains working.
+
+The registered `master.html` remains the exact r01 raw-editor file and is authoritative for the rest of the article, but its Introduction is stale relative to the owner-final override. This split is explicit and temporary; it exists to avoid manufacturing Substack editor formatting from plaintext.
 
 Historical registered r01 full-article Pangram 4 result:
 
@@ -56,38 +70,43 @@ Historical r01 reader-visible normalized SHA-256:
 Historical Pangram-submitted file SHA-256:
 `613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e`
 
-Joel reported an earlier direct owner rewrite of the Introduction as Pangram **Human / high confidence**. The later final owner text has changed bytes and has **no matching exact-boundary Pangram measurement recorded here**. Do not inherit the earlier result by inference. No Pangram call was run during final authority reconciliation.
+Joel reported an earlier direct owner rewrite of the Introduction as Pangram **Human / high confidence**. The later final owner text has changed bytes and has **no matching exact-boundary Pangram measurement recorded here**. Do not inherit the earlier result by inference.
 
-## Other preserved Somatic state
+## Remaining
 
-The 2026-09-02 Introduction override does not reopen or reset unrelated detector/task state:
+- Capture/recover the exact final Substack editor HTML for the owner-final Introduction, including ordered-list and inline-link formatting.
+- Replace only the stale Introduction span in `master.html`; preserve every byte/native object outside that span.
+- Update the master SHA-256, reader-visible identity, source evidence, registry, and affected article-local review/status records after exact assembly.
+- Do not run Pangram unless Joel explicitly requests a new exact-boundary measurement or a current authorized protocol requires one for a decision.
+- Keep overall citation/health review pending unless separately requested.
+- Keep overall article status `working` until Joel explicitly completes owner-final review/publication work.
 
-- the historical inner-child audit reached its hard 6/6 cap and remains closed as a model-only detector-repair lane;
-- the historical Job 1 authorial-state A/B closed negative at two paid calls;
-- the Shaking Qigong r01 paid reservation remains ambiguous/quarantined and must not be repeated without transport-appropriate exact recovery;
-- earlier Authorial Flow V5/provider work remains historical/parallel evidence and is not authority for the final Introduction;
-- the article's safety warnings, five-job provisional-map function, evidence-plane distinctions, eight native/editor objects, ordinary links, and personal voice anchors remain protected;
-- citation/health review for the overall article remains pending unless separately requested.
+## Blockers / unresolved
 
-## Source / evidence posture
+- Exact live Substack editor HTML for the final Introduction has not been captured in this GitHub task, so the stale r01 Introduction cannot be safely replaced byte-for-byte yet.
+- The final owner Introduction does not have a matching exact-boundary Pangram result in this task record.
+- The historical inner-child model-only detector-repair lane remains closed at its prior cap.
+- The historical Job 1 authorial-state A/B remains closed negative at two paid calls.
+- The Shaking Qigong r01 paid reservation remains ambiguous/quarantined and must not be repeated without transport-appropriate exact recovery.
+- Overall article citation review remains pending.
+- The overall article is not owner-final or published.
 
-`SOURCE-EVIDENCE.json` distinguishes:
+## Evidence / artifacts
 
-1. the registered r01 raw-editor master;
-2. the direct owner-final Introduction override;
-3. the original owner-supplied baseline;
-4. historical detector boundaries/results.
-
-The owner supplied a Peter Levine book-page screenshot during the teaching episode supporting the Malawi park-biologist anecdote. That screenshot is conversational source evidence and has not been imported into the canonical article family by this state update. Do not fabricate or overstate source provenance.
+- `master.html` — exact registered r01 raw-editor HTML; stale only for the Introduction span.
+- `OWNER-FINAL-INTRODUCTION-20260902.txt` — controlling exact owner-final textual Introduction.
+- `OWNER-LOCKS.json` — protected owner-final Introduction function plus standing article locks.
+- `SOURCE-EVIDENCE.json` — source/provenance and detector-boundary distinctions.
+- `HUMANIZATION-REPORT.md` — historical r01 reconstruction/preservation report.
+- `ARCHITECTURE.md` — article-wide functional map.
+- `DETECTOR-EVIDENCE.json` — registered historical detector ledger.
+- Frozen Somatic Introduction trajectory and lesson supplements under `experiments/`.
+- Pangram fixed-batch evidence remains in `u-dont-existDOTcom/pangram-humanization-lab` under its current authority rules.
 
 ## Next safe action
 
-For the Introduction, the next operation is **mechanical assembly, not writing**:
+For the Introduction, the next operation is **mechanical assembly, not writing**: obtain exact final Substack editor HTML for the Introduction and replace only the stale span in `master.html`, then reconcile hash-bound article state. Until then, use `OWNER-FINAL-INTRODUCTION-20260902.txt` for the Introduction and `master.html` for the rest of the article.
 
-1. recover or capture the exact final Substack editor HTML for the owner-final Introduction, including its ordered-list and inline-link formatting; or perform a mechanically verified assembly only when those formatting decisions are explicitly fixed;
-2. replace only the stale Introduction span in `master.html`;
-3. preserve every byte/native object outside that span;
-4. update the master hash, reader-visible identity, registry, source evidence, and any affected article-local status;
-5. do not run Pangram unless Joel explicitly requests a new exact-boundary measurement or a current authorized protocol requires one for a decision.
+## Recovery rule
 
-Until that assembly is complete, a fresh worker must treat the owner-final Introduction file as controlling authority for the Introduction and the registered `master.html` as controlling authority for the rest of the working article.
+After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, and `OWNER-FINAL-INTRODUCTION-20260902.txt` before any Somatic Introduction work. For humanization/detector work, also read the frozen Introduction lesson supplements and current Pangram-humanization lessons. Do not infer current Introduction authority from the stale r01 span in `master.html`.
