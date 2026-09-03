@@ -64,3 +64,26 @@ Required next movement:
 - The section does not need to re-prove any Introduction premise.
 
 Validation status: prior attempt **REJECTED by owner**. Next prose not yet validated.
+
+## Owner rejection of second CBT-section attempt — cadence saturation / stop condition — 2026-09-03
+
+Joel then rejected the second full rebuild as having **the same exact cadence** and asked whether he now needed to write it himself.
+
+This is not another local wording problem. It confirms that the model-writing route for this section has saturated under the current representation even after:
+
+- article-level conceptual reorganization;
+- explicit cadence diagnosis;
+- a narrowed live question;
+- removal of the prior generic placeholder phrase;
+- removal of most duplicated Introduction material;
+- a fresh rebuild rather than line editing.
+
+The second attempt still reproduced the same underlying model rhythm: a compact CBT competence paragraph, a compact inadequacy/SE paragraph, then a compact epistemic synthesis paragraph. Different content was assigned to similarly weighted explanatory units, producing the same proposition -> explanation -> closure pulse Joel had already rejected.
+
+Durable stop condition:
+
+> **Do not generate another model-authored version of `The Elephant in the Therapy Room: CBT and Exposure` from the current semantic packet. Owner re-authoring / fresh owner cognition is now the required route.**
+
+Joel does not need to polish or preserve the model drafts. The highest-value input is fresh owner prose written from the thought itself, even if rough or incomplete. After that, Chat may help with sourcing, placement, factual precision, preservation, and minimal editing, but must not reconstruct the passage back into the rejected cadence.
+
+Validation status: model-writing route **SATURATED / STOPPED by owner**. Await fresh owner prose/cognition before any further model-authored realization of this section.
