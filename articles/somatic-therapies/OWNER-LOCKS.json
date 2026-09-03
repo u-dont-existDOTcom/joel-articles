@@ -8,16 +8,16 @@
       "description": "Preserve the exact owner-final Introduction in articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt as controlling authority for that bounded section until exact raw-editor HTML assembly is completed. Do not reconstruct it from an older model candidate."
     },
     {
-      "id": "five-part-map-provisional",
-      "description": "Preserve the five-part therapeutic map and the explicit statement that it is an author-developed/provisional synthesis rather than a scientifically validated universal protocol. Joel rejected `job` as the map label article-wide on 2026-09-03. Replacement nomenclature remains unresolved; `therapy stages` is a candidate, not yet owner-final."
+      "id": "five-stage-map-provisional",
+      "description": "Preserve the five-stage therapeutic map and the explicit statement that it is an author-developed/provisional synthesis rather than a scientifically validated universal protocol. Joel rejected `job` article-wide and accepted `stage` as the reader-facing label on 2026-09-03. Do not silently convert it into a mandatory universal stage protocol."
     },
     {
       "id": "capacity-not-waiting-room",
-      "description": "Preserve the warning that capacity-building should not become indefinite avoidance of actual trauma treatment."
+      "description": "Preserve the warning that capacity-building should not become indefinite avoidance of actual trauma treatment; its accepted destination is Stage 1."
     },
     {
       "id": "inner-child-overlap",
-      "description": "Preserve the Nurturer/Protector, borrowed-adulthood, gentle self-hypnosis, and heart-to-solar-plexus love-loop material and its placement as overlap with somatic work."
+      "description": "Preserve the Nurturer/Protector, borrowed-adulthood, gentle self-hypnosis, heart-to-solar-plexus love-loop material, and the function that more than one stage can be active at once."
     },
     {
       "id": "personal-oddness",
@@ -29,7 +29,7 @@
     },
     {
       "id": "evidence-plane-distinction",
-      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms."
+      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms. This function need not be repeated in the retired Map section; the Introduction and later evidence-boundary material can carry it."
     },
     {
       "id": "native-object-placement",
@@ -38,6 +38,6 @@
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel supplied and finalized the Introduction on 2026-09-02 after the owner-teaching episode and explicitly froze the resulting lessons. The Introduction is owner-final for that bounded section. On 2026-09-03 he accepted the whole-sequence five-part-map architecture, then rejected `job` as the map terminology article-wide and reopened the function of the Map section because it duplicated the revised Introduction. The overall Somatic Therapies article remains a working article, not owner-final or published."
+    "evidence": "Joel supplied and finalized the Introduction on 2026-09-02. On 2026-09-03 he accepted the whole-sequence five-part-map architecture, rejected `job` article-wide, accepted `stage` and `The Five Stages at a Glance`, and accepted retiring `This Is a Map, but You Are the Explorer` as a standalone explanatory section with unique functions redistributed. The overall article remains working, not owner-final or published."
   }
 }
