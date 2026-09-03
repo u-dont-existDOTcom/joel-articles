@@ -4,18 +4,30 @@
   "claims": [
     {
       "id": "authority-master-identity",
-      "claim": "The registered working master is the r01 humanized candidate explicitly authorized for registration by Joel on 2026-08-22.",
+      "claim": "The registered raw-editor working master remains the r01 humanized candidate explicitly authorized for registration by Joel on 2026-08-22; its Introduction is superseded by the later bounded owner-final Introduction until exact editor-HTML reconciliation is completed.",
       "support": {
         "path": "articles/somatic-therapies/master.html",
         "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202",
         "revision": "r01-candidate"
       },
       "access_status": "complete",
-      "certainty": "owner-authorized working identity"
+      "certainty": "owner-authorized working identity with explicit later Introduction override"
+    },
+    {
+      "id": "owner-final-introduction-20260902",
+      "claim": "Joel supplied the final Introduction directly on 2026-09-02 after freezing the owner-teaching lessons. This bounded owner-final text outranks the older Introduction in master.html and all model candidates.",
+      "support": {
+        "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
+        "sha256": "6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c",
+        "locked_text_sha256": "ae091d8b67ebcd64ff27e5f80d18558e39425c44d8aa75bac018ce415c1f558f",
+        "provenance": "direct owner-final copy supplied in Chat on 2026-09-02"
+      },
+      "access_status": "complete",
+      "certainty": "owner-final for the bounded Introduction section; overall article remains working"
     },
     {
       "id": "owner-source-baseline",
-      "claim": "The humanization baseline is the owner-supplied raw Substack editor HTML from 2026-08-21.",
+      "claim": "The original humanization baseline is the owner-supplied raw Substack editor HTML from 2026-08-21.",
       "support": {
         "provenance": "owner upload in the 2026-08-21/22 Somatic Therapies humanization task",
         "sha256": "0d7e03ccde3900277e7ee8e9a1f5aac3c4f780d5243396f9bb2a100ee57083f9"
@@ -24,18 +36,18 @@
       "certainty": "exact supplied source; source bytes retained in the working package, not duplicated into the canonical article family"
     },
     {
-      "id": "reader-visible-boundary",
-      "claim": "The r01 candidate reader-visible extraction is 3,412 words and is frozen for detector work.",
+      "id": "reader-visible-boundary-r01",
+      "claim": "The r01 candidate reader-visible extraction was 3,412 words and remains the exact historical full-article detector boundary.",
       "support": {
         "reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
         "packaged_file_sha256": "613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e",
         "word_count": 3412
       },
       "access_status": "complete",
-      "certainty": "exact packaged extraction; Pangram spec will persist exact submitted text"
+      "certainty": "historical exact packaged extraction; no longer current for the bounded Introduction after the owner-final override"
     },
     {
-      "id": "humanization-preservation",
+      "id": "humanization-preservation-r01",
       "claim": "The r01 humanization pass preserved the ordinary-link multiset and all eight native/editor objects byte-for-byte in the same order while reconstructing AI-shaped prose architecture.",
       "support": {
         "path": "articles/somatic-therapies/HUMANIZATION-REPORT.md",
@@ -45,14 +57,29 @@
         "candidate_sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"
       },
       "access_status": "complete",
-      "certainty": "deterministic local comparison"
+      "certainty": "deterministic local comparison for r01; not a preservation receipt for the later owner-final Introduction"
+    },
+    {
+      "id": "owner-final-introduction-detector-boundary",
+      "claim": "An earlier direct owner rewrite of the Introduction was reported by Joel as Pangram Human / high confidence, but the later final owner text has no matching exact-boundary Pangram result in this task record.",
+      "support": {
+        "exact_final_intro_sha256": "6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c",
+        "detector_status": "not measured in this task record"
+      },
+      "access_status": "complete",
+      "certainty": "do not inherit detector status across changed bytes"
     }
   ],
   "source_files": [
     {
-      "role": "humanized_working_master",
+      "role": "humanized_working_master_r01",
       "path": "articles/somatic-therapies/master.html",
       "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"
+    },
+    {
+      "role": "owner_final_introduction",
+      "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
+      "sha256": "6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c"
     },
     {
       "role": "humanization_report",
@@ -65,13 +92,13 @@
       "sha256": "0d7e03ccde3900277e7ee8e9a1f5aac3c4f780d5243396f9bb2a100ee57083f9"
     },
     {
-      "role": "external_reader_visible_detector_boundary",
+      "role": "external_reader_visible_detector_boundary_r01",
       "reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
       "word_count": 3412
     }
   ],
   "external_claim_review": {
     "status": "pending",
-    "note": "This registration and humanization task did not authorize or perform a new claim-by-claim health/factual review. Existing in-article sources and evidence-plane distinctions were preserved."
+    "note": "This authority reconciliation does not perform a new claim-by-claim health/factual review. The owner supplied source evidence for the Levine/Malawi material during the teaching episode, but that source-image evidence has not been imported into the canonical article family here."
   }
 }
