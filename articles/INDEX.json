@@ -66,11 +66,11 @@
         },
         "owner_locks": {
           "path": "articles/somatic-therapies/OWNER-LOCKS.json",
-          "sha256": "8ea87e9a3224adeab272f860195aa631f086f2e8966ac40787a12e61b42faf1f"
+          "sha256": "ddc5a4449a0ff08accebc9183d588d696f590eaa04ad43f8f56ad9b4c594528a"
         },
         "source_evidence": {
           "path": "articles/somatic-therapies/SOURCE-EVIDENCE.json",
-          "sha256": "77e655c4facb40cbe28d6216f25349504e7617148bcf04b2b19e69a93bc7aea7"
+          "sha256": "1f548727ae3a56251852dcc3e7ff5371ad083fea0ed5ec4c33271717222d65b0"
         },
         "unincorporated_ideas": {
           "path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md",
@@ -78,7 +78,7 @@
         },
         "current_state": {
           "path": "articles/somatic-therapies/CURRENT-STATE.md",
-          "sha256": "49f0ff644c29357868a5681deb6e02b84e45d6086b318be8eeeaf6d448e1ad97"
+          "sha256": "6ade332e0ea229be9aed15888fde229e914602751b77439cc5e6002f7fba69e4"
         }
       },
       "review": {
