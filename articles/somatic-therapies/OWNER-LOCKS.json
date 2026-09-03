@@ -8,8 +8,16 @@
       "description": "Preserve the exact owner-final Introduction in articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt as controlling authority for that bounded section until exact raw-editor HTML assembly is completed. Do not reconstruct it from an older model candidate."
     },
     {
+      "id": "cbt-somatic-methodological-fork",
+      "description": "Preserve the owner-accepted article argument that CBT/exposure have real strengths in reality testing, behavioral experiments, prediction testing, avoidance work, and cognitive updating, but were inadequate as a complete account/treatment of trauma; somatic alternatives were developed to address processes those approaches missed. Bodily signals deserve investigation rather than automatic obedience or automatic dismissal. CBT is cross-cutting, not confined to Stage 5."
+    },
+    {
+      "id": "se-inadequacy-genealogy",
+      "description": "Preserve the owner-accepted interpretation that Somatic Experiencing was developed to address inadequacies in prevailing cognitive/verbal/exposure approaches, while not misstating CBT/exposure as useless. Payne/Levine/Crane-Godreau's explicit critique of simple conditioning/talk-therapy adequacy and bottom-up alternative supports this interpretation. Do not require a literal one-sentence motive declaration before allowing the supported causal inference."
+    },
+    {
       "id": "five-stage-map-provisional",
-      "description": "Preserve the five-stage therapeutic map and the explicit statement that it is an author-developed/provisional synthesis rather than a scientifically validated universal protocol. Joel rejected `job` article-wide and accepted `stage` as the reader-facing label on 2026-09-03. Do not silently convert it into a mandatory universal stage protocol."
+      "description": "Preserve the five-stage therapeutic map as Joel's practical second-half map, not the article's entire intellectual thesis and not a scientifically validated universal protocol. Joel rejected `job` article-wide and accepted `stage` as the reader-facing label."
     },
     {
       "id": "capacity-not-waiting-room",
@@ -17,7 +25,7 @@
     },
     {
       "id": "inner-child-overlap",
-      "description": "Preserve the Nurturer/Protector, borrowed-adulthood, gentle self-hypnosis, heart-to-solar-plexus love-loop material, and the function that more than one stage can be active at once."
+      "description": "Preserve the Nurturer/Protector, borrowed-adulthood, gentle present-focused self-hypnosis, heart-to-solar-plexus love-loop material, and the function that more than one stage can be active at once."
     },
     {
       "id": "personal-oddness",
@@ -29,7 +37,7 @@
     },
     {
       "id": "evidence-plane-distinction",
-      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms. This function need not be repeated in the retired Map section; the Introduction and later evidence-boundary material can carry it."
+      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms. Do not imply evidence equivalence when comparing CBT, SE, TRE, Focusing, Sensorimotor, Alexander Technique, or 5Rhythms."
     },
     {
       "id": "native-object-placement",
@@ -38,6 +46,6 @@
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel supplied and finalized the Introduction on 2026-09-02. On 2026-09-03 he accepted the whole-sequence five-part-map architecture, rejected `job` article-wide, accepted `stage` and `The Five Stages at a Glance`, and accepted retiring `This Is a Map, but You Are the Explorer` as a standalone explanatory section with unique functions redistributed. The overall article remains working, not owner-final or published."
+    "evidence": "Joel finalized the Introduction on 2026-09-02. On 2026-09-03 he accepted the whole-sequence five-stage architecture, rejected `job`, accepted retiring the duplicate Map section, then accepted the larger CBT/somatic epistemology reorganization. He directly corrected the model's overly narrow reading of the SE genealogy: existing cognitive/verbal/exposure approaches were inadequate as a complete trauma model/treatment, and this inadequacy is part of why somatic alternatives such as SE were developed. The overall article remains working, not owner-final or published."
   }
 }
