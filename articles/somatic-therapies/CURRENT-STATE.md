@@ -14,23 +14,26 @@ Maintain the registered Somatic Therapies working article while preserving Joel'
 - Registered master revision: `r01-candidate`
 - Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202`
 - **Bounded Introduction override:** `articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt`
-- Owner-final Introduction file SHA-256: `6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c`
-- Owner-final Introduction locked-text SHA-256: `ae091d8b67ebcd64ff27e5f80d18558e39425c44d8aa75bac018ce415c1f558f`
-- Authority relation: Joel's direct 2026-09-02 owner-final Introduction supersedes the Introduction currently present in `master.html` and every prior model candidate. The remainder of `master.html` remains the registered working raw-editor authority.
+- Owner-final Introduction file SHA-256: `d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5`
+- Owner-final Introduction locked-text SHA-256: `6439b0c1d26a11d1f40f55837efed5b89966620176466a8909a2d172d41f16d8`
+- Authority relation: Joel's direct 2026-09-02 owner-final Introduction, as corrected by Joel on 2026-09-03, supersedes the Introduction currently present in `master.html` and every prior model candidate. The remainder of `master.html` remains the registered working raw-editor authority.
 - The raw HTML master is intentionally **stale for the Introduction span only** until final article-wide Substack editor-HTML reconciliation. Joel explicitly directed on 2026-09-03 not to fix `master.html` section-by-section while writing continues.
 - `one-one` is confirmed intentional owner language. Confirmed ordinary typos are not protected.
 
 ## Completed
 
 - Froze the 2026-09-02 owner-teaching trajectory and post-freeze writer/admission lessons.
-- Preserved the exact final owner-authored Introduction in `OWNER-FINAL-INTRODUCTION-20260902.txt`.
+- Preserved the exact owner-authored Introduction in `OWNER-FINAL-INTRODUCTION-20260902.txt`.
 - Registered the bounded owner-final Introduction in `SOURCE-EVIDENCE.json` and the article registry as an `owner_final_section` artifact.
 - Preserved the Introduction as a protected function in `OWNER-LOCKS.json` without falsely claiming that its exact plaintext is already present in the stale raw-HTML master.
 - Recorded that `one-one` is intentional owner language and that ordinary confirmed typos are not protected.
 - Preserved the historical r01 full-article Pangram result and the distinction between that exact boundary and later owner-edited Introduction bytes.
-- No Pangram call was run during the 2026-09-02 final authority reconciliation.
+- No Pangram call was run during the 2026-09-02 or 2026-09-03 owner-authority reconciliation.
 - On 2026-09-03 Joel explicitly deferred `master.html` reconciliation until the article is done and instructed the work to continue to the next section.
 - Created the active continuation handoff: `experiments/SOMATIC-NEXT-SECTION-HANDOFF-20260903.md`.
+- On 2026-09-03 Joel **accepted** the previously model-proposed conceptual rethink: the five-job map is a finer-grained map of the whole coarse three-step recovery sequence, not a breakdown of coarse step 3 alone.
+- Joel directly corrected the controlling Introduction sentence to: `This article is an attempt to break that general sequence down into a somewhat less obvious, but still sensible and flexible, five-part map.`
+- Joel supplied the live old-Substack working copy he is editing. In that copy, the previously proposed research/NICE deletion paragraph is already absent. The separate sentence beginning `But the evidence does not establish one universal sequence...` remains source material and was not the deletion target.
 
 ### Introduction humanization closeout
 
@@ -56,7 +59,7 @@ No further model-authored Introduction should be generated unless Joel explicitl
 
 ## Current checkpoint
 
-The bounded Introduction is owner-final and controls that section. The overall article remains working.
+The bounded Introduction is owner-final as corrected on 2026-09-03 and controls that section. The overall article remains working.
 
 The registered `master.html` remains the exact r01 raw-editor file and is authoritative for the rest of the article, but its Introduction is stale relative to the owner-final override. This split is explicit and intentionally remains until final article-wide reconciliation.
 
@@ -66,9 +69,9 @@ The **next active target** is:
 
 `This Is a Map, but You Are the Explorer`
 
-A model-proposed conceptual issue is currently unresolved and **not owner-accepted**: the owner-final Introduction says the article breaks down coarse recovery `step 3`, while the existing five-job map appears to span coarse steps 1, 2, and 3. Full reasoning, proposed repair, and downstream consequences are preserved in `experiments/SOMATIC-NEXT-SECTION-HANDOFF-20260903.md`.
+The prior whole-sequence-vs-step-3 conceptual proposal is now **RESOLVED / OWNER-ACCEPTED**. Draft this section on the whole-sequence interpretation.
 
-Do not silently install that rethink. The next writing conversation must recover it and let Joel accept, reject, modify, or replace it before prose is drafted around the changed concept.
+For this section, the live old-Substack copy supplied by Joel on 2026-09-03 is the immediate owner source to reconcile with registered r01 authority and the owner-final Introduction. Do not give Joel deletion instructions keyed only to the r01 rewrite when he is editing the old Substack version; identify source-version differences explicitly.
 
 Historical registered r01 full-article Pangram 4 result:
 
@@ -82,12 +85,11 @@ Historical r01 reader-visible normalized SHA-256:
 Historical Pangram-submitted file SHA-256:
 `613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e`
 
-Joel reported an earlier direct owner rewrite of the Introduction as Pangram **Human / high confidence**. The later final owner text has changed bytes and has **no matching exact-boundary Pangram measurement recorded here**. Do not inherit the earlier result by inference.
+Joel reported an earlier direct owner rewrite of the Introduction as Pangram **Human / high confidence**. The later final owner text, including the 2026-09-03 sentence correction, has changed bytes and has **no matching exact-boundary Pangram measurement recorded here**. Do not inherit the earlier result by inference.
 
 ## Remaining
 
-- Resolve the pending conceptual mapping for `This Is a Map, but You Are the Explorer` with Joel before installing any material change.
-- Continue section-by-section humanization/editing from that point, applying the frozen owner-taught cadence/rethink lessons.
+- Continue section-by-section humanization/editing with `This Is a Map, but You Are the Explorer`, applying the accepted whole-sequence architecture and the frozen owner-taught cadence/rethink lessons.
 - Keep the Professor Baby Sheep/play passage unchanged unless a genuine editorial/owner reason emerges.
 - Do not run Pangram unless Joel explicitly requests it or a later current authorized protocol requires it for a concrete decision.
 - Keep overall citation/health review pending unless separately requested.
@@ -97,8 +99,7 @@ Joel reported an earlier direct owner rewrite of the Introduction as Pangram **H
 
 ## Blockers / unresolved
 
-- The five-job-map relation to the owner-final Introduction's coarse `step 3` framing is an unresolved **model-proposed** rethink awaiting Joel's disposition; it is not article authority.
-- The final owner Introduction does not have a matching exact-boundary Pangram result in this task record; no measurement is currently requested.
+- The final owner Introduction as corrected 2026-09-03 does not have a matching exact-boundary Pangram result in this task record; no measurement is currently requested.
 - The historical inner-child model-only detector-repair lane remains closed at its prior cap.
 - The historical Job 1 authorial-state A/B remains closed negative at two paid calls.
 - The Shaking Qigong r01 paid reservation remains ambiguous/quarantined and must not be repeated without transport-appropriate exact recovery.
@@ -108,19 +109,19 @@ Joel reported an earlier direct owner rewrite of the Introduction as Pangram **H
 ## Evidence / artifacts
 
 - `master.html` — exact registered r01 raw-editor HTML; stale only for the owner-final Introduction span until final assembly.
-- `OWNER-FINAL-INTRODUCTION-20260902.txt` — controlling exact owner-final textual Introduction.
+- `OWNER-FINAL-INTRODUCTION-20260902.txt` — controlling exact owner-final textual Introduction, corrected 2026-09-03.
 - `OWNER-LOCKS.json` — protected owner-final Introduction function plus standing article locks.
-- `SOURCE-EVIDENCE.json` — source/provenance and detector-boundary distinctions.
+- `SOURCE-EVIDENCE.json` — source/provenance, accepted whole-sequence mapping, and detector-boundary distinctions.
 - `HUMANIZATION-REPORT.md` — historical r01 reconstruction/preservation report.
 - `ARCHITECTURE.md` — article-wide functional map.
 - `DETECTOR-EVIDENCE.json` — registered historical detector ledger.
-- `experiments/SOMATIC-NEXT-SECTION-HANDOFF-20260903.md` — active next-conversation continuation state and unresolved conceptual proposal.
+- `experiments/SOMATIC-NEXT-SECTION-HANDOFF-20260903.md` — continuation state; update it to reflect the resolved conceptual proposal and current Map-section work.
 - Frozen Somatic Introduction trajectory and lesson supplements under `experiments/`.
 - Pangram fixed-batch evidence remains in `u-dont-existDOTcom/pangram-humanization-lab` under its current authority rules.
 
 ## Next safe action
 
-Continue in Chat from `experiments/SOMATIC-NEXT-SECTION-HANDOFF-20260903.md`. First resolve the explicitly pending whole-sequence-vs-step-3 conceptual proposal with Joel. Then, if resolved, produce **one** new owner-facing attempt for `This Is a Map, but You Are the Explorer`, with the frozen cadence/rethink lessons applied. Do not rewrite the Professor Baby Sheep/play section by default. Do not update `master.html` during ordinary section writing; final HTML reconciliation is deferred until the article is done.
+Continue in Chat with one fresh owner-facing attempt for `This Is a Map, but You Are the Explorer`, using the accepted whole-sequence architecture and Joel's pasted old-Substack source as the immediate source-version reference. Apply the frozen cadence/rethink lessons. Do not rewrite the Professor Baby Sheep/play section by default. Do not update `master.html` during ordinary section writing; final HTML reconciliation is deferred until the article is done.
 
 ## Recovery rule
 
