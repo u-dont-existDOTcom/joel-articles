@@ -66,11 +66,11 @@
         },
         "owner_locks": {
           "path": "articles/somatic-therapies/OWNER-LOCKS.json",
-          "sha256": "2274290b71fa90f37c55af0c519ab0b6d6dca53e8f698546223e69b53881cda9"
+          "sha256": "771aa5b7bf84df59d309ca7ef31ba599f6d0133e57583d3ec07acb9ac4379a6f"
         },
         "source_evidence": {
           "path": "articles/somatic-therapies/SOURCE-EVIDENCE.json",
-          "sha256": "5d420dd919418c9648a2d5b2f776a9b3ec0fc12b9ffccc7cf4c2ecf938cbcda1"
+          "sha256": "203c3519c1599d65a5f6a73839e191b22d177834e050bf34284ad782f7f1feba"
         },
         "unincorporated_ideas": {
           "path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md",
@@ -78,7 +78,7 @@
         },
         "current_state": {
           "path": "articles/somatic-therapies/CURRENT-STATE.md",
-          "sha256": "6e0281f4b75664d611a4edceec18eb7f5ddc0129ba637d226505c1a0f94bcee7"
+          "sha256": "9c1f5aef1ae49dd872a20ae05fc5dde7e654b963a9b510c0cf310aa911d72a4e"
         }
       },
       "review": {
@@ -100,6 +100,11 @@
       },
       "publication_exports": [],
       "additional_artifacts": [
+        {
+          "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
+          "sha256": "6f4f514a6c01350604d4df1676f83e13799a78176b3fe41b0749c0c5c7054a9c",
+          "role": "owner_final_section"
+        },
         {
           "path": "articles/somatic-therapies/ARCHITECTURE.md",
           "sha256": "65716b893e5f80cf9105b08ab4102d0d40a20b8e0e42f106eb46816ea1c28d42",
