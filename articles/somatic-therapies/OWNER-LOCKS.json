@@ -8,8 +8,8 @@
       "description": "Preserve the exact owner-final Introduction in articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt as controlling authority for that bounded section until exact raw-editor HTML assembly is completed. Do not reconstruct it from an older model candidate."
     },
     {
-      "id": "five-job-map-provisional",
-      "description": "Preserve the five-job map and the explicit statement that it is an author-developed/provisional synthesis rather than a scientifically validated universal protocol."
+      "id": "five-part-map-provisional",
+      "description": "Preserve the five-part therapeutic map and the explicit statement that it is an author-developed/provisional synthesis rather than a scientifically validated universal protocol. Joel rejected `job` as the map label article-wide on 2026-09-03. Replacement nomenclature remains unresolved; `therapy stages` is a candidate, not yet owner-final."
     },
     {
       "id": "capacity-not-waiting-room",
@@ -38,6 +38,6 @@
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel supplied and finalized the Introduction on 2026-09-02 after the owner-teaching episode and explicitly froze the resulting lessons. The Introduction is owner-final for that bounded section. The overall Somatic Therapies article remains a working article, not owner-final or published."
+    "evidence": "Joel supplied and finalized the Introduction on 2026-09-02 after the owner-teaching episode and explicitly froze the resulting lessons. The Introduction is owner-final for that bounded section. On 2026-09-03 he accepted the whole-sequence five-part-map architecture, then rejected `job` as the map terminology article-wide and reopened the function of the Map section because it duplicated the revised Introduction. The overall Somatic Therapies article remains a working article, not owner-final or published."
   }
 }
