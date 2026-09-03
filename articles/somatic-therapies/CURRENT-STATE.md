@@ -62,36 +62,42 @@ Durable writing-process lesson:
 Active enforcement supplement:
 `experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`
 
-## Rejected first CBT-section attempt — owner correction 2026-09-03
+## CBT-section model-writing saturation — STOP CONDITION
 
-The first owner-facing attempt for `The Elephant in the Therapy Room: CBT and Exposure` is **REJECTED**.
+Two owner-facing model attempts for `The Elephant in the Therapy Room: CBT and Exposure` are now rejected.
 
-Owner corrections:
+First rejection:
+- `go do the thing` was overused/lazy AI shorthand;
+- paragraph 2 duplicated too much of the owner-final Introduction;
+- the cadence still followed compact rhetorical beats and mini-essay closure.
 
-- Do not generate `go do the thing` or close lazy placeholder action language; Joel identified it as overused and strongly AI-shaped. The rejected attempt repeated essentially the same placeholder twice in a very short span.
-- Do not re-explain the owner-final Introduction's cognition/body mismatch. The rejected second paragraph duplicated too much of the Introduction instead of advancing the CBT-specific thought.
-- The cadence was still AI-shaped. The attempt converted architecture obligations into consecutive rhetorical beats: credit CBT -> introduce an awkward case -> restate the body/cognition gap -> cite SE -> `what if the body is wrong?` -> `maybe / maybe / maybe` taxonomy -> synthesis -> modality sweep -> slogan.
+Second rejection:
+- after a full conceptual rebuild, narrowing, and explicit cadence repair, Joel judged the cadence **the same exact cadence**;
+- the model still produced three similarly weighted explanatory units: CBT competence -> SE/inadequacy -> epistemic synthesis;
+- therefore the current model-writing route is saturated rather than merely under-edited.
 
-Underlying generative failure and required repair are recorded in:
+Durable stop condition:
+
+> **Do not generate another model-authored version of this section from the current semantic packet. Await fresh owner prose or fresh owner cognition.**
+
+Once Joel supplies owner prose, Chat may help with sourcing, placement, factual precision, preservation, and minimal editing, but should not reconstruct it back into the rejected cadence.
+
+This stop condition is recorded in:
 `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260903-CBT-REORG.md`
-
-Blocking section-local checks A19–A21 are recorded in:
-`experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`
-
-The next attempt must treat the Introduction premise as already known and follow the live question: **what is CBT actually good at, and where does that strength stop being enough?** It should name concrete CBT operations rather than generic shorthand and must not force the adjacent-modality comparison into the same attempt unless the thought naturally reaches it.
 
 ## Current writing target
 
-The next owner-facing prose target remains:
-
-`The Elephant in the Therapy Room: CBT and Exposure`
+`The Elephant in the Therapy Room: CBT and Exposure` remains the next unresolved section, but **model drafting is paused**.
 
 Exact placement in the old Substack version Joel is viewing:
 
-- **insert after** the protected head-shaving/loveyhuasca paragraph and Share break;
-- **replace the retired map-preface material before** the future `The Five Stages at a Glance` overview.
+- insert after the protected head-shaving/loveyhuasca paragraph and Share break;
+- before `The Five Stages at a Glance`.
 
-The next attempt should be narrower than the rejected one. It does **not** need to satisfy every eventual section function at once. Start with the live CBT adequacy/inadequacy thought and stop where that thought actually stops.
+Next route:
+
+- Joel supplies fresh owner prose or rough owner thought movement for this section;
+- Chat then performs source/fidelity/placement/minimal-edit support without re-authoring it into model cadence.
 
 ## Later structural tasks already accepted
 
@@ -105,7 +111,7 @@ The next attempt should be narrower than the rejected one. It does **not** need 
 
 ## Humanization gates still active
 
-Before new model-authored Somatic prose read:
+Before any later model-authored Somatic prose read:
 
 - `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-20260831.md`
 - `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260902-FROZEN.md`
@@ -124,7 +130,7 @@ Historical registered r01 Pangram 4 result remains AI `0.9776151180`, Human `0.0
 
 ## Next safe action
 
-Produce **one** fresh, narrower owner-facing attempt for `The Elephant in the Therapy Room: CBT and Exposure` under A16–A21 and the existing cadence gate. Do not run Pangram. Do not update `master.html` yet. Persist any substantive Joel correction before the next attempt.
+Await Joel's fresh owner prose/cognition for `The Elephant in the Therapy Room: CBT and Exposure`. Do not generate another model version before that. Do not run Pangram. Do not update `master.html` yet.
 
 ## Recovery rule
 
