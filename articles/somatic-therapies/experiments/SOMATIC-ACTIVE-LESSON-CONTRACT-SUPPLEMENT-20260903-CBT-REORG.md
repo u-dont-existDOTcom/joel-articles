@@ -38,6 +38,43 @@ For the current Somatic CBT/SE section, Joel has directly accepted the interpret
 
 **FAIL if:** the section becomes a repeated template (`X asks...`, `Y asks...`, `Z asks...`) with similar rhetorical weight, a seven-item taxonomy disguised as prose, or an evidence-equivalence list.
 
+## A19 — no generic placeholder action language
+
+**Trigger:** model-authored Joel-byline prose describing what someone actually does in therapy or in a behavioral experiment.
+
+**Required behavior:** name the action at the level needed for the thought. If the point is testing a feared prediction, dropping a safety behavior, approaching a feared situation, observing what happened, or comparing outcome with prediction, say that rather than substituting generic model shorthand.
+
+**FAIL if:** generated prose uses `go do the thing`, `do the thing`, or a close vague placeholder where the concrete action is doing argumentative work. Joel explicitly identified `go do the thing` as lazy, overused, and strongly AI-shaped on 2026-09-03.
+
+This is an owner style correction, not Pangram evidence and not a universal ban on the ordinary noun `thing` when it is genuinely the exact word.
+
+## A20 — the CBT section must not re-explain the owner-final Introduction
+
+**Trigger:** any new paragraph under `The Elephant in the Therapy Room: CBT and Exposure`.
+
+**Required behavior:** treat the Introduction's established premise—that cognition can know present safety while bodily trauma processes continue—as available context. Advance from it.
+
+**FAIL if:** the section spends a paragraph re-establishing that same cognition/body mismatch, reuses substantially the same explanatory scenario, or otherwise functions as a second Introduction before reaching the CBT-specific question.
+
+**Repair:** begin from the unresolved CBT-specific pressure: what is cognitive/reality-testing work good at, and where does that strength cease to be a complete treatment model?
+
+## A21 — section-local cadence attack after the failed first CBT attempt
+
+**Trigger:** every new CBT-section candidate.
+
+The first attempt failed the general cadence gate by packaging the architecture into consecutive rhetorical beats: credit CBT -> `awkward case` -> body/cognition premise -> SE evidence -> `what if body wrong?` -> parallel possibilities -> synthesis -> modality sweep -> slogan.
+
+**Required behavior:** follow one unresolved thought for as long as it actually remains live. A paragraph may contain credit, limitation, evidence, and consequence if that is how the thought develops; these do not each deserve their own rhetorical beat.
+
+**FAIL if:** the candidate again:
+- creates a neat `CBT good / CBT inadequate` balance as two matched units;
+- announces a new mini-question every paragraph mainly to reset the essay;
+- uses a `maybe X / maybe Y / maybe both` cluster as a tidy possibility taxonomy;
+- closes a paragraph with a polished slogan and immediately restarts another explanatory unit;
+- gives several neighboring paragraphs comparable conceptual bar-length and verdict endings.
+
+This is an execution interlock on the already-existing A14 rhythm rule, not a claim that adding another instruction fixes cadence by itself. Admission must identify the strongest cadence attack against the literal candidate; credible doubt blocks delivery.
+
 ## Supplemented pre-delivery receipt
 
 For model-authored prose in the CBT/somatic methodological section, record privately:
@@ -46,7 +83,10 @@ For model-authored prose in the CBT/somatic methodological section, record priva
 A16 supported causal inference preserved without exaggeration: PASS / FAIL — evidence
 A17 CBT remains cross-cutting rather than Stage-5-only: PASS / FAIL / N/A — evidence
 A18 comparison is one thought rather than equalized modality cards: PASS / FAIL — strongest attack
+A19 no lazy placeholder action language: PASS / FAIL — evidence
+A20 no duplicate Introduction function: PASS / FAIL — evidence
+A21 section-local cadence escape: PASS / FAIL — strongest cadence attack
 CONTRACT SUPPLEMENT FRESHNESS: CURRENT / STALE
 ```
 
-Any substantive FAIL or STALE state blocks owner-facing prose.
+Any substantive FAIL, credible cadence doubt, or STALE state blocks owner-facing prose.
