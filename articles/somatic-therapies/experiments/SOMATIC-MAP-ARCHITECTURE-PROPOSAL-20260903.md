@@ -1,129 +1,56 @@
 # Somatic Therapies — Map-section architecture rethink — 2026-09-03
 
-Status: **MODEL-PROPOSED / NOT OWNER-ACCEPTED**
+Status: **OWNER-ACCEPTED 2026-09-03**
 
-This proposal follows Joel's direct 2026-09-03 corrections: reject `job` article-wide, treat `therapy stages` as a possible replacement rather than a settled term, reject opaque `used to resource` jargon, and rethink `This Is a Map, but You Are the Explorer` because the revised owner-final Introduction now performs much of its function.
+This began as a model-proposed rethink after Joel rejected `job`, rejected unexplained `used to resource` jargon, and said `This Is a Map, but You Are the Explorer` had become duplicative of the revised Introduction. Joel subsequently accepted the proposal in full.
 
-## Independent conception snapshot before existing-work scan
+## Problem recovered before the decision
 
-Problem:
+The owner-final Introduction now already:
 
-- The owner-final Introduction now already introduces the broad three-step recovery sequence, says the article breaks it into a flexible five-part map, explains that modalities differ by physical/emotional character, intensity and specificity, and says the evidence is heterogeneous and the map is Joel's rather than a scientifically validated roadmap.
-- The existing `This Is a Map, but You Are the Explorer` material repeats those same functions before reaching the five-part list.
-- `job` sounds occupational/managerial and is owner-rejected.
+- introduces the broad three-step recovery sequence;
+- says the article breaks it into a flexible five-part map;
+- explains that modalities differ by physical/emotional character, intensity, and specificity;
+- says evidence levels/types differ;
+- makes clear that this is Joel's working map rather than a scientifically validated universal roadmap.
 
-Candidate mechanism:
+The inherited Map section repeated much of that setup before reaching the actual five-part overview.
 
-- Stop treating the current heading as a section that needs to be preserved.
-- Let the Introduction establish why the map exists.
-- Move directly from the protected Professor Baby Sheep / head-shaving material to a compact overview heading and the five-part list.
-- Relocate only genuinely unique functions to the later locations where they naturally matter.
+## Existing-work scan considered before adoption
 
-Constraints:
+Trauma treatment already has a stage/phase tradition, including Herman's safety → remembrance/mourning → reconnection model and later phase-based complex-trauma approaches. The evidence does not establish a mandatory stabilization-first sequence for everyone, so Joel's exact five-part map should not be presented as a validated universal protocol.
 
-- Preserve the five-part conceptual map, safety/stop/return capacity, the warning against indefinite stabilization, real-life outcome assessment, modality flexibility/overlap, evidence-plane distinctions, and protected inner-child overlap.
-- Do not re-explain functions already performed by the Introduction merely to preserve inherited paragraphs.
-- Do not silently install a new clinical protocol claim.
+`Phase` is the more recognizably clinical literature term; `stage` is clearer ordinary-reader language and fits Joel's explicitly flexible map without implying that the five-part scheme itself comes from an established named clinical protocol.
 
-## Bounded existing-work scan
+## Owner-accepted nomenclature
 
-Established work:
+- Remove `job` from article prose throughout final reconciliation.
+- Use **`stage`** as the reader-facing label.
+- Use **`The Five Stages at a Glance`** as the compact overview heading.
+- Do not call these `the five stages of trauma recovery` as though the exact scheme were an established universal model.
 
-- Judith Herman's trauma-recovery model has long used stages: safety; remembrance/mourning; reconnection.
-- Complex-trauma literature has also used `phase-based` and `stage-based` treatment, often with stabilization before trauma processing and later integration/reconnection.
-- ISTSS-associated expert work historically showed strong expert endorsement for phase/sequenced treatment in complex PTSD.
+## Owner-accepted section architecture
 
-Important limitation / current evidence:
+- Retire `This Is a Map, but You Are the Explorer` as a standalone explanatory section.
+- After the protected Professor Baby Sheep / head-shaving material, move directly to `The Five Stages at a Glance`.
+- Keep the five-stage list there.
+- At most, add a short thought showing that the same therapy can appear at different stages depending on how it is used; later modality sections should demonstrate this concretely rather than a prefatory mini-essay explaining it.
 
-- The necessity of a mandatory stabilization phase before trauma-focused therapy has been disputed for years.
-- A 2016 critical review found weak evidence for requiring phase-based treatment before trauma-focused treatment in adults with complex PTSD.
-- A 2026 systematic review/meta-analysis comparing phase- and non-phase-based interventions found no clear difference across most outcomes, though some symptom domains may benefit from multi-phase approaches.
+## Accepted disposition of unique inherited functions
 
-Conclusion from scan:
+1. Five-part list → keep at the overview, renamed Stage 1–5.
+2. A modality can serve different parts of the map depending on dose/use/target/capacity → one concise overview statement plus later concrete examples.
+3. Several parts of the map can be active at once → later inner-child-overlap material.
+4. `Can I stay present / stop / return to ordinary life?` → Stage 1.
+5. Capacity-building must not become an endless waiting room → Stage 1.
+6. Sleep / relationships / functioning / freedom / symptom-change assessment → consolidate with the later multi-day dose-assessment passage.
+7. Evidence-plane distinction → Introduction plus later evidence-boundary passage; do not repeat it here.
+8. Generic non-universal-sequence disclaimer → do not repeat here; preserve local modality-specific exceptions where they matter.
 
-- The article should **adapt**, not present itself as inventing, the established stage/phase tradition.
-- It should not imply that Joel's exact five-part breakdown is a scientifically validated stage protocol or that every reader must complete each stage sequentially.
-- `phase` is the more recognizably clinical term in current literature, but may make Joel's personal five-part map sound more standardized than it is.
-- `stage` is more ordinary-reader language and matches Joel's own suggested replacement, but also implies sequence. If used, the article's already-existing `general sequence` / `flexible map` framing should control that implication.
+## `used to resource` correction
 
-Strongest current nomenclature recommendation:
+The rejected phrase referred to Brainspotting's own resource-oriented terminology: using attention/body focus to strengthen or orient toward a felt sense of safety, support, regulation, or resilience rather than entering highly activated trauma material. Do not use `resource` as an unexplained transitive verb in Joel-byline prose. Describe the concrete operation if it matters.
 
-- Use **`stage`** in article prose, not `job`.
-- Prefer formulations such as `the five stages in this map` or `The Five Stages at a Glance` rather than declaring `the five stages of trauma recovery` as though they were an established universal model.
-- Keep `phase-based treatment` only when discussing the established clinical literature, if that literature is later introduced.
+## Implementation boundary
 
-## Proposed section architecture
-
-### Delete as a standalone section
-
-Proposed operation:
-
-- Delete the standalone heading `This Is a Map, but You Are the Explorer` and its inherited explanatory mini-essay as a section unit.
-- Do **not** delete its unique functions; redistribute them as below.
-
-Why:
-
-- The owner-final Introduction now already performs the map/intellectual-humility/evidence-flexibility setup.
-- Repeating those ideas creates a second introduction to the same map.
-- The strongest remaining reader need is to see the five-part map and then understand it through the therapies themselves.
-
-### Replacement destination
-
-After the protected `Don’t be so serious, you silly willy!` / Professor Baby Sheep / head-shaving material, move directly to a compact heading such as:
-
-`The Five Stages at a Glance`
-
-Then present the five-stage list. At most one short sentence should be needed before or after it to establish that the same modality can appear in different stages depending on how it is used. Do not rebuild another disclaimer paragraph.
-
-## Disposition of inherited unique functions
-
-1. **Five-part list**
-   - KEEP at the overview location.
-   - Rename `Job 1` etc. only after Joel accepts final nomenclature.
-
-2. **A modality can serve different parts of the map depending on dose/use/target/capacity**
-   - KEEP.
-   - Best location: one concise statement adjacent to the overview list, then let later concrete examples demonstrate it.
-   - Avoid repeating several abstract modality examples before the reader reaches the actual modality sections.
-
-3. **Several parts of the map can be active at once**
-   - KEEP.
-   - Best location: integrate into the later inner-child-overlap discussion, which already demonstrates simultaneous work better than an abstract prefatory disclaimer.
-
-4. **Can I stay present / stop / return to ordinary life?**
-   - KEEP.
-   - MOVE to the Stage 1 safety/capacity material, where these questions are the actual decision criteria rather than generic map instructions.
-
-5. **Capacity-building must not become an endless waiting room**
-   - KEEP as a protected function.
-   - MOVE to the Stage 1/capacity discussion, where the warning directly constrains stabilization.
-
-6. **Judge progress by sleep, relationships, functioning, freedom and symptoms rather than session drama**
-   - KEEP the function.
-   - CONSOLIDATE with the later dose-assessment passage (`Assess the dose immediately, the next morning...`), which already tells the reader to watch sleep, irritability, dissociation, pain, relationships and ordinary functioning.
-
-7. **Evidence-plane distinction**
-   - DELETE from this location as duplicate function, not from the article.
-   - The Introduction already says evidence levels/types differ, and the later `Keep the explanation as modest as the evidence` passage explicitly distinguishes research, clinical use, experience, community reports and energetic explanations. That later passage can continue to carry the protected function.
-
-8. **No universal mandatory sequence / average trial does not determine one person's sequence**
-   - The generic non-universal-roadmap function is already carried by the owner-final Introduction.
-   - Do not restate a full disclaimer here.
-   - Preserve only any later local qualification needed where a specific modality is discussed (for example, the existing EMDR exception for a stable person with one discrete traumatic event).
-
-## `used to resource` clarification
-
-The model phrase referred to Brainspotting's own `Resource Model` / `body resource` terminology: using the method to focus on or strengthen a felt resource, safety, support, regulation or resilience rather than directly targeting highly activated trauma material.
-
-That is insider jargon and should not appear unexplained in Joel-byline prose. If the concept is needed, describe the concrete operation instead.
-
-## Owner decision required before prose
-
-Material architecture change proposed:
-
-- remove `This Is a Map, but You Are the Explorer` as a standalone section;
-- replace it with a compact five-stage overview after the protected play/personal section;
-- redistribute the unique functions to Stage 1, inner-child overlap, later dose assessment, and existing evidence-boundary passages;
-- use `stage` as the leading nomenclature candidate, with `phase` recognized as the more clinical established literature term but not preferred for Joel's personal map unless Joel chooses it.
-
-Do not install this architecture until Joel accepts, rejects, or modifies it.
+This architecture is now owner-accepted and may guide new prose. `master.html` remains deliberately unreconciled until the article-wide writing pass is complete. No Pangram call is authorized by this decision.
