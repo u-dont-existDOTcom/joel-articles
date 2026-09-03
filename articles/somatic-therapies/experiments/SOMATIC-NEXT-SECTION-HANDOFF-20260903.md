@@ -2,97 +2,54 @@
 
 Status: **ACTIVE HANDOFF / NON-AUTHORITATIVE WORKING STATE**
 
-GitHub is canonical. This handoff records the exact current continuation point after the Somatic Introduction owner-teaching episode; it does not override current owner instructions, the registered article family, or owner-final section authority.
+GitHub is canonical. Current owner instructions and registered article state outrank this handoff.
 
-## Owner workflow instructions still active
+## Owner instructions still active
 
-Direct owner instructions, 2026-09-03:
+- Continue section-by-section work in Chat.
+- Introduction is owner-final and closed unless Joel explicitly reopens it.
+- Do not run Pangram unless Joel explicitly asks.
+- Keep Professor Baby Sheep / `Don’t be so serious, you silly willy!` untouched absent a real editorial reason.
+- Write only one owner-facing attempt at a time.
+- Persist substantive owner corrections and accepted section state before treating them as durable.
+- Defer `master.html` / final Substack raw-HTML reconciliation until the article-wide writing pass is done.
 
-- defer `master.html` reconciliation until the article-wide writing/editing pass is done;
-- continue section-by-section work in Chat;
-- the Introduction is closed for writing unless Joel explicitly reopens it;
-- do not run Pangram unless Joel explicitly asks;
-- do not rewrite `Don’t be so serious, you silly willy!` / Professor Baby Sheep by default;
-- write only one owner-facing attempt at a time;
-- persist substantive owner corrections and accepted section state to GitHub.
+## Accepted whole-sequence architecture
 
-## Introduction state — owner-final as corrected 2026-09-03
-
-Controlling file:
-`articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt`
-
-Joel accepted the whole-sequence rethink and directly changed the relevant sentence to:
+Joel accepted that the five-part map refines the whole coarse three-step recovery sequence, not coarse step 3 alone. The controlling Introduction says:
 
 > This article is an attempt to break that general sequence down into a somewhat less obvious, but still sensible and flexible, five-part map.
 
-The accepted architecture is that the five-part map refines the **whole** coarse recovery sequence, not coarse step 3 alone.
+## Accepted terminology and Map-section rethink — 2026-09-03
+
+Joel rejected `job` throughout article prose and accepted **`stage`** as the replacement reader-facing label.
+
+Joel accepted the model-proposed architecture rethink in full:
+
+- retire `This Is a Map, but You Are the Explorer` as a standalone explanatory section;
+- after the protected play/personal material, go directly to **`The Five Stages at a Glance`**;
+- keep the five-stage list there;
+- allow at most one brief thought that a therapy can appear at different stages depending on how it is used;
+- move stay-present / stop / return questions and the capacity-not-waiting-room warning into Stage 1;
+- carry simultaneous-stage overlap in later inner-child material;
+- consolidate real-life outcome assessment with the later multi-day dose-assessment passage;
+- leave evidence-plane distinctions to the Introduction and later evidence-boundary material;
+- do not repeat generic universal-sequence disclaimers here.
+
+The detailed rationale and existing-work scan are preserved in `SOMATIC-MAP-ARCHITECTURE-PROPOSAL-20260903.md`, now marked owner-accepted.
+
+## Jargon correction
+
+Do not use `used to resource` or `resource` as an unexplained transitive verb. If the Brainspotting concept is needed, describe the concrete operation: orienting toward or strengthening a felt sense of safety/support/regulation rather than entering highly activated trauma material.
 
 ## Live source-version clarification
 
-Joel is editing the old Substack version, not the registered r01 rewrite, and supplied that live Substack text in Chat on 2026-09-03. Preserve that source-version distinction in executable edit instructions.
+Joel is editing the old Substack version he pasted on 2026-09-03, not the registered r01 rewrite. The corresponding old source span is preserved in `SOMATIC-MAP-OLD-SUBSTACK-SOURCE-20260903.md`. Translate edit instructions to that version.
 
-The previously discussed research/NICE deletion paragraph is already absent from the supplied Substack version. The sentence beginning `But the evidence does not establish one universal sequence...` was not the deletion target.
+## Exact next writing target
 
-Exact owner-supplied map source reference:
-`experiments/SOMATIC-MAP-OLD-SUBSTACK-SOURCE-20260903.md`
+`The Five Stages at a Glance`
 
-## Latest owner corrections — ACTIVE
+Produce one fresh owner-facing attempt only. It should not recreate the deleted Map mini-essay. The Introduction already did the conceptual setup; this replacement should briefly show how a therapy can move around the map and then give the five stages.
 
-Durable correction record:
-`experiments/SOMATIC-MAP-OWNER-CORRECTIONS-20260903.md`
-
-Joel's current corrections are:
-
-1. **Remove `job` from article map terminology throughout the article.** It sounds inappropriate for trauma work.
-2. `therapy stages` is a possible replacement, not yet final terminology.
-3. The model phrase `used to resource` was opaque insider jargon and should not be used unexplained.
-4. `This Is a Map, but You Are the Explorer` now feels duplicative of the revised Introduction, so the section's function is reopened rather than line-edited.
-
-`OWNER-LOCKS.json` now protects the five-part map function without protecting `job` terminology.
-
-## Existing-work scan / nomenclature
-
-A bounded scan found that trauma treatment has an established stage/phase tradition, especially Herman's safety → remembrance/mourning → reconnection model and later complex-trauma phase-based approaches. However, mandatory stabilization before trauma-focused treatment remains contested; current evidence does not establish a universal required phase sequence.
-
-Implication:
-
-- adapt the established stage/phase tradition rather than implying the article invented sequencing itself;
-- do not present Joel's exact five-part map as a validated universal stage protocol;
-- `phase` is the more recognizably clinical term, but may make this personal map sound more standardized;
-- `stage` is currently the strongest reader-facing candidate because Joel proposed it and the Introduction already establishes a rough, flexible sequence.
-
-No final nomenclature is owner-accepted yet.
-
-## Current architecture proposal — NOT OWNER-ACCEPTED
-
-Proposal file:
-`experiments/SOMATIC-MAP-ARCHITECTURE-PROPOSAL-20260903.md`
-
-Strongest model recommendation:
-
-- delete `This Is a Map, but You Are the Explorer` as a standalone explanatory section rather than trying to rewrite it;
-- after the protected Professor Baby Sheep / head-shaving material, move directly to a compact heading such as `The Five Stages at a Glance` and the five-part list;
-- preserve the unique inherited functions by moving them to where they naturally belong:
-  - stay-present / stop / return questions → Stage 1 safety/capacity material;
-  - capacity-not-waiting-room warning → Stage 1;
-  - several stages active at once → later inner-child overlap where simultaneous work is concretely demonstrated;
-  - modality can occupy different stages depending on use/dose/target → one concise overview statement plus concrete later examples;
-  - real-life outcome assessment → consolidate with the later multi-day dose-assessment passage;
-  - evidence-plane distinction → keep in the Introduction/later evidence-boundary passage, not redundantly here;
-  - local modality exceptions remain where they matter (for example, EMDR readiness for a stable person with a discrete event).
-
-Reason: the owner-final Introduction now already performs the map justification, flexible-roadmap, evidence-heterogeneity, and personal-synthesis functions. The standalone Map section has become a second introduction to the same idea.
-
-Do not install this material architecture change until Joel accepts, rejects, or modifies it.
-
-## `used to resource` clarification
-
-The phrase referred to Brainspotting's own `Resource Model` / `body resource` terminology: using Brainspotting to focus on or strengthen a felt resource, safety, regulation, support, or resilience rather than directly entering highly activated trauma material. This is jargon and should be expressed concretely if the concept survives.
-
-## Required writing route after owner disposition
-
-Before any new owner-facing prose, apply the frozen manual writer state, active lesson contract and cadence/thought-shape protocol. Do not merely vary sentence length; follow the actual thought duration and movement. No Pangram call is authorized.
-
-## Exact next conversational state
-
-The next owner decision is the architecture/nomenclature proposal above. If Joel accepts or modifies it, persist that disposition first, then produce **one** fresh owner-facing realization for the compact overview/next surviving section. Do not update `master.html` yet.
+Before delivery apply the frozen manual-humanization writer state, active lesson contract and supplement, `RHYTHM-AND-THOUGHT-SHAPE.md`, and current Pangram-humanization lessons. Cadence is blocking. No Pangram call is authorized.
