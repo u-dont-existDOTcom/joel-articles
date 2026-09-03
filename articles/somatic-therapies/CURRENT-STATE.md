@@ -64,40 +64,49 @@ Active enforcement supplement:
 
 ## CBT-section model-writing saturation — STOP CONDITION
 
-Two owner-facing model attempts for `The Elephant in the Therapy Room: CBT and Exposure` are now rejected.
+Two owner-facing model attempts for `The Elephant in the Therapy Room: CBT and Exposure` are rejected. After the second full conceptual rebuild, Joel judged the cadence the **same exact cadence**. Do not generate another model-authored version of this section from the prior semantic packet.
 
-First rejection:
-- `go do the thing` was overused/lazy AI shorthand;
-- paragraph 2 duplicated too much of the owner-final Introduction;
-- the cadence still followed compact rhetorical beats and mini-essay closure.
+## Fresh owner-authored CBT section realization — 2026-09-03
 
-Second rejection:
-- after a full conceptual rebuild, narrowing, and explicit cadence repair, Joel judged the cadence **the same exact cadence**;
-- the model still produced three similarly weighted explanatory units: CBT competence -> SE/inadequacy -> epistemic synthesis;
-- therefore the current model-writing route is saturated rather than merely under-edited.
+Joel supplied a new owner-authored section beginning:
 
-Durable stop condition:
+`# The Dominant Top-Down Exposure Therapies Are Missing Something`
 
-> **Do not generate another model-authored version of this section from the current semantic packet. Await fresh owner prose or fresh owner cognition.**
+Exact owner source:
+`experiments/SOMATIC-CBT-OWNER-PROSE-20260903.md`
 
-Once Joel supplies owner prose, Chat may help with sourcing, placement, factual precision, preservation, and minimal editing, but should not reconstruct it back into the rejected cadence.
+Status:
+- **direct owner prose / source realization / not yet owner-final**;
+- this is now the controlling prose source for the unresolved CBT/somatic section, outranking both rejected model attempts;
+- preserve its thought movement and cadence; do not reconstruct it into the rejected model cadence.
 
-This stop condition is recorded in:
-`experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260903-CBT-REORG.md`
+Bounded factual/source audit:
+`experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260903.md`
+
+Audit conclusions requiring owner disposition/minimum-dose repair before promotion:
+
+1. `All of these are exposure therapies` is inaccurate. PE is explicitly exposure-based; trauma-focused CBT is a family; EMDR is normally treated as a separate trauma-focused psychotherapy and should function as a bridge case rather than be forced into a pure top-down/exposure category.
+2. `slowly increase exposure ... then regular CBT` overgeneralizes the protocols. Trauma-focused CBT combines trauma-memory processing, emotion/meaning work and avoidance work in different ways; EMDR has its own eight-phase structure.
+3. The dropout critique is directionally supported but `drop-outs from the studies aren't studied` is false. Dropout is measured/meta-analysed; however, reasons for dropout and adverse events have often been poorly or inconsistently reported. Levine's re-traumatization critique should be attributed as his/SE's model rather than treated as settled evidence that exposure generally re-traumatizes patients.
+4. SIBAM itself is sound. Dissociation can be described as fragmentation/undercoupling; overcoupling can be associated with hyperarousal, but hyperarousal should not simply be defined as `the layers are too fused`. Dissociation/hyperarousal are manifestations/patterns of dysregulation rather than `root causes` themselves.
+5. The owner claim that cognitive meaning can often reorganize after bottom-up/autonomic/kinesthetic change is strongly supported by Payne/Levine/Crane-Godreau, which explicitly says cognitive re-evaluations often emerge spontaneously during or shortly after discharge while also preserving a role for cognitive restructuring.
+6. The draft's EMDR contrast (`body as barometer rather than intelligent instrument of self-healing`) is too reductive. EMDR's Adaptive Information Processing model itself assumes an innate information-processing/healing system and tracks physical sensations, beliefs, affect and imagery. Treat EMDR as a bridge case.
+
+Cadence/editorial disposition:
+- this owner realization is the first current CBT-section version whose cadence should be preserved rather than reconstructed;
+- the SIBAM list is legitimate taxonomy driven by the actual model, not a model-generated rhetorical card sequence;
+- apply only owner-approved factual replacements, ordinary typo cleanup and link correction.
 
 ## Current writing target
 
-`The Elephant in the Therapy Room: CBT and Exposure` remains the next unresolved section, but **model drafting is paused**.
+The unresolved target remains the CBT/somatic methodological section, but the route has changed:
 
-Exact placement in the old Substack version Joel is viewing:
+- **do not generate a fresh model section**;
+- reconcile the direct owner prose with the bounded factual audit;
+- once Joel accepts the factual repairs, preserve the resulting owner-edited text as the active/accepted section realization;
+- then continue to `The Five Stages at a Glance`.
 
-- insert after the protected head-shaving/loveyhuasca paragraph and Share break;
-- before `The Five Stages at a Glance`.
-
-Next route:
-
-- Joel supplies fresh owner prose or rough owner thought movement for this section;
-- Chat then performs source/fidelity/placement/minimal-edit support without re-authoring it into model cadence.
+Exact placement in Joel's old Substack copy remains after the protected head-shaving/loveyhuasca + Share material and before the five-stage overview.
 
 ## Later structural tasks already accepted
 
@@ -111,27 +120,16 @@ Next route:
 
 ## Humanization gates still active
 
-Before any later model-authored Somatic prose read:
-
-- `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-20260831.md`
-- `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260902-FROZEN.md`
-- `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260903-CBT-REORG.md`
-- `experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-20260831.md`
-- `experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260902-FROZEN.md`
-- `experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`
-- `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`
-- current Pangram-humanization lessons.
-
-Cadence is blocking. Follow actual thought duration and relation; do not rebuild semantic obligations as rhetorical cards, balanced contrasts, recursive mini-essays, equalized paragraphs, or randomized sentence-length variation.
+Before any later model-authored Somatic prose read the active Somatic writer-state and lesson-contract family plus `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md` and current Pangram-humanization lessons. For the current owner-authored CBT section, use minimum-dose editorial support rather than model reconstruction.
 
 ## Detector boundary
 
-Historical registered r01 Pangram 4 result remains AI `0.9776151180`, Human `0.0223849081`, AI-assisted `0.0`. The later owner-final Introduction has no matching exact-boundary Pangram measurement in this task record.
+Historical registered r01 Pangram 4 result remains AI `0.9776151180`, Human `0.0223849081`, AI-assisted `0.0`. The later owner-final Introduction and current owner CBT prose have no matching exact-boundary Pangram measurement in this task record.
 
 ## Next safe action
 
-Await Joel's fresh owner prose/cognition for `The Elephant in the Therapy Room: CBT and Exposure`. Do not generate another model version before that. Do not run Pangram. Do not update `master.html` yet.
+Present the bounded factual corrections to Joel without rewriting the section. After owner disposition, persist the corrected owner prose. Do not run Pangram. Do not update `master.html` yet.
 
 ## Recovery rule
 
-After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-FINAL-INTRODUCTION-20260902.txt`, `ARCHITECTURE.md`, `experiments/SOMATIC-CBT-BODY-EPISTEMOLOGY-OWNER-DIRECTION-20260903.md`, `experiments/SOMATIC-CBT-EPISTEMOLOGY-REORG-PROPOSAL-20260903.md`, the three writer-state files named above, and `experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`. GitHub is canonical; chat reconstruction is not authority.
+After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-FINAL-INTRODUCTION-20260902.txt`, `ARCHITECTURE.md`, `experiments/SOMATIC-CBT-OWNER-PROSE-20260903.md`, and `experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260903.md`. GitHub is canonical; chat reconstruction is not authority.
