@@ -4,56 +4,56 @@
   "claims": [
     {
       "id": "authority-master-identity",
-      "claim": "The registered raw-editor working master remains the r01 humanized candidate explicitly authorized for registration by Joel on 2026-08-22. Its Introduction is superseded by the bounded owner-final Introduction, and its use of `job` as the five-part map label is superseded article-wide by Joel's direct 2026-09-03 correction. Exact replacement nomenclature and Map-section architecture remain unresolved and will be assembled into raw editor HTML only after owner disposition/final article reconciliation.",
+      "claim": "The registered raw-editor working master remains r01-candidate as the source baseline, but current owner overrides supersede its Introduction and its `job` terminology until final editor-HTML reconciliation.",
       "support": {
         "path": "articles/somatic-therapies/master.html",
         "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202",
         "revision": "r01-candidate"
       },
       "access_status": "complete",
-      "certainty": "owner-authorized working identity with explicit later Introduction and map-terminology overrides"
+      "certainty": "owner-authorized working source baseline with explicit later overrides"
     },
     {
       "id": "owner-final-introduction-20260902",
-      "claim": "Joel supplied the final Introduction directly on 2026-09-02 after freezing the owner-teaching lessons, then on 2026-09-03 accepted the whole-sequence five-part-map rethink and directly changed the sentence that had said the article broke down coarse step 3. The updated bounded owner-final text outranks the older Introduction in master.html and all model candidates.",
+      "claim": "Joel supplied the final Introduction directly on 2026-09-02 and on 2026-09-03 accepted the whole-sequence five-part-map rethink and directly corrected the sentence that had described only coarse step 3.",
       "support": {
         "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
         "sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5",
         "locked_text_sha256": "6439b0c1d26a11d1f40f55837efed5b89966620176466a8909a2d172d41f16d8",
-        "provenance": "direct owner-final copy supplied in Chat on 2026-09-02; direct owner conceptual acceptance and sentence correction on 2026-09-03"
+        "provenance": "direct owner-final copy supplied 2026-09-02; direct owner correction 2026-09-03"
       },
       "access_status": "complete",
-      "certainty": "owner-final for the bounded Introduction section as corrected 2026-09-03; overall article remains working"
+      "certainty": "owner-final for the bounded Introduction; overall article remains working"
     },
     {
-      "id": "five-part-whole-sequence-mapping-20260903",
-      "claim": "Joel accepted the proposed conceptual mapping that the five-part map is a finer-grained breakdown of the whole coarse recovery sequence rather than coarse step 3 alone.",
+      "id": "five-stage-architecture-20260903",
+      "claim": "Joel accepted `stage` as the reader-facing label for the five-part map, accepted `The Five Stages at a Glance` as the compact overview heading, and accepted deletion of `This Is a Map, but You Are the Explorer` as a standalone explanatory section with its unique functions redistributed.",
       "support": {
         "provenance": "direct owner acceptance in Chat on 2026-09-03",
-        "accepted_intro_sentence": "This article is an attempt to break that general sequence down into a somewhat less obvious, but still sensible and flexible, five-part map."
+        "architecture_note": "protected play/personal material -> Five Stages at a Glance -> inner-child overlap -> Stages 1-5 -> later outcome/dose assessment -> optional high-intensity practices"
       },
       "access_status": "complete",
-      "certainty": "owner-accepted conceptual architecture"
+      "certainty": "owner-accepted section architecture and nomenclature"
     },
     {
-      "id": "map-terminology-and-section-rethink-20260903",
-      "claim": "Joel rejected `job` as the five-part map terminology throughout the article, proposed `therapy stages` as a possible replacement without locking it, rejected unexplained `used to resource` jargon, and reopened the function of `This Is a Map, but You Are the Explorer` because it now duplicates the revised Introduction.",
+      "id": "map-terminology-owner-correction-20260903",
+      "claim": "Joel rejected `job` as inappropriate map terminology article-wide and rejected unexplained `used to resource` phrasing as opaque jargon.",
       "support": {
         "path": "articles/somatic-therapies/experiments/SOMATIC-MAP-OWNER-CORRECTIONS-20260903.md",
-        "provenance": "direct owner corrections in Chat on 2026-09-03"
+        "provenance": "direct owner correction in Chat on 2026-09-03"
       },
       "access_status": "complete",
-      "certainty": "owner-final rejection of `job`; replacement nomenclature and section architecture remain pending owner disposition"
+      "certainty": "owner-final terminology/jargon correction"
     },
     {
       "id": "owner-source-baseline",
-      "claim": "The original humanization baseline is the owner-supplied raw Substack editor HTML from 2026-08-21.",
+      "claim": "The original humanization baseline is the owner-supplied raw Substack editor HTML from 2026-08-21, and Joel supplied the old Substack Map span he is currently viewing on 2026-09-03.",
       "support": {
-        "provenance": "owner upload in the 2026-08-21/22 Somatic Therapies humanization task",
-        "sha256": "0d7e03ccde3900277e7ee8e9a1f5aac3c4f780d5243396f9bb2a100ee57083f9"
+        "baseline_sha256": "0d7e03ccde3900277e7ee8e9a1f5aac3c4f780d5243396f9bb2a100ee57083f9",
+        "map_source_path": "articles/somatic-therapies/experiments/SOMATIC-MAP-OLD-SUBSTACK-SOURCE-20260903.md"
       },
       "access_status": "complete",
-      "certainty": "exact supplied source; source bytes retained in the working package, not duplicated into the canonical article family"
+      "certainty": "owner-supplied source material; current owner decisions outrank it"
     },
     {
       "id": "reader-visible-boundary-r01",
@@ -64,24 +64,11 @@
         "word_count": 3412
       },
       "access_status": "complete",
-      "certainty": "historical exact packaged extraction; no longer current for the bounded Introduction or owner-rejected map terminology"
-    },
-    {
-      "id": "humanization-preservation-r01",
-      "claim": "The r01 humanization pass preserved the ordinary-link multiset and all eight native/editor objects byte-for-byte in the same order while reconstructing AI-shaped prose architecture.",
-      "support": {
-        "path": "articles/somatic-therapies/HUMANIZATION-REPORT.md",
-        "source_links": 16,
-        "candidate_links": 16,
-        "native_objects": 8,
-        "candidate_sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"
-      },
-      "access_status": "complete",
-      "certainty": "deterministic local comparison for r01; not a preservation receipt for later owner overrides"
+      "certainty": "historical exact packaged extraction; not current for owner-overridden text"
     },
     {
       "id": "owner-final-introduction-detector-boundary",
-      "claim": "An earlier direct owner rewrite of the Introduction was reported by Joel as Pangram Human / high confidence, but the later final owner text, including the 2026-09-03 conceptual correction, has no matching exact-boundary Pangram result in this task record.",
+      "claim": "An earlier direct owner rewrite of the Introduction was reported by Joel as Pangram Human / high confidence, but the later final owner text has no matching exact-boundary Pangram result in this task record.",
       "support": {
         "exact_final_intro_sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5",
         "detector_status": "not measured in this task record"
@@ -102,27 +89,13 @@
       "sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5"
     },
     {
-      "role": "map_owner_corrections",
-      "path": "articles/somatic-therapies/experiments/SOMATIC-MAP-OWNER-CORRECTIONS-20260903.md"
-    },
-    {
-      "role": "humanization_report",
-      "path": "articles/somatic-therapies/HUMANIZATION-REPORT.md",
-      "sha256": "d0aba885d6ecadcf2a0b24bb47be0bc83da5cded4a2d3664a10109d639a12df1"
-    },
-    {
-      "role": "external_owner_source_baseline",
-      "provenance": "owner upload in current humanization task",
-      "sha256": "0d7e03ccde3900277e7ee8e9a1f5aac3c4f780d5243396f9bb2a100ee57083f9"
-    },
-    {
-      "role": "external_reader_visible_detector_boundary_r01",
-      "reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
-      "word_count": 3412
+      "role": "old_substack_map_source",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-MAP-OLD-SUBSTACK-SOURCE-20260903.md",
+      "provenance": "direct owner paste in Chat on 2026-09-03"
     }
   ],
   "external_claim_review": {
     "status": "pending",
-    "note": "This authority reconciliation does not perform a new claim-by-claim health/factual review. The bounded 2026-09-03 terminology/architecture scan is editorial context, not a completed article citation review."
+    "note": "No new claim-by-claim health/factual review is performed by this architecture reconciliation."
   }
 }
