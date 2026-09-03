@@ -62,9 +62,27 @@ Durable writing-process lesson:
 Active enforcement supplement:
 `experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`
 
+## Rejected first CBT-section attempt — owner correction 2026-09-03
+
+The first owner-facing attempt for `The Elephant in the Therapy Room: CBT and Exposure` is **REJECTED**.
+
+Owner corrections:
+
+- Do not generate `go do the thing` or close lazy placeholder action language; Joel identified it as overused and strongly AI-shaped. The rejected attempt repeated essentially the same placeholder twice in a very short span.
+- Do not re-explain the owner-final Introduction's cognition/body mismatch. The rejected second paragraph duplicated too much of the Introduction instead of advancing the CBT-specific thought.
+- The cadence was still AI-shaped. The attempt converted architecture obligations into consecutive rhetorical beats: credit CBT -> introduce an awkward case -> restate the body/cognition gap -> cite SE -> `what if the body is wrong?` -> `maybe / maybe / maybe` taxonomy -> synthesis -> modality sweep -> slogan.
+
+Underlying generative failure and required repair are recorded in:
+`experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260903-CBT-REORG.md`
+
+Blocking section-local checks A19–A21 are recorded in:
+`experiments/SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260903-CBT-REORG.md`
+
+The next attempt must treat the Introduction premise as already known and follow the live question: **what is CBT actually good at, and where does that strength stop being enough?** It should name concrete CBT operations rather than generic shorthand and must not force the adjacent-modality comparison into the same attempt unless the thought naturally reaches it.
+
 ## Current writing target
 
-The next owner-facing prose target is:
+The next owner-facing prose target remains:
 
 `The Elephant in the Therapy Room: CBT and Exposure`
 
@@ -73,16 +91,7 @@ Exact placement in the old Substack version Joel is viewing:
 - **insert after** the protected head-shaving/loveyhuasca paragraph and Share break;
 - **replace the retired map-preface material before** the future `The Five Stages at a Glance` overview.
 
-The section should not become a balanced therapy taxonomy. It needs one continuous thought:
-
-- CBT has a real and useful capability;
-- trauma exposed what cognitive/verbal/exposure approaches could not fully account for or change;
-- somatic methods arose to investigate those missing processes;
-- bodily information can be a false alarm, a real signal not yet formulated cognitively, or both;
-- investigation should precede premature correction;
-- then reality testing remains available.
-
-A compact comparison of CBT, SE, TRE, Focusing, Sensorimotor, Alexander, and 5Rhythms may appear inside the movement, but do not imply evidence equivalence or produce seven parallel cards.
+The next attempt should be narrower than the rejected one. It does **not** need to satisfy every eventual section function at once. Start with the live CBT adequacy/inadequacy thought and stop where that thought actually stops.
 
 ## Later structural tasks already accepted
 
@@ -115,7 +124,7 @@ Historical registered r01 Pangram 4 result remains AI `0.9776151180`, Human `0.0
 
 ## Next safe action
 
-Produce **one** fresh owner-facing attempt for `The Elephant in the Therapy Room: CBT and Exposure` under the accepted architecture and current owner corrections. Do not run Pangram. Do not update `master.html` yet. Persist any substantive Joel correction before the next attempt.
+Produce **one** fresh, narrower owner-facing attempt for `The Elephant in the Therapy Room: CBT and Exposure` under A16–A21 and the existing cadence gate. Do not run Pangram. Do not update `master.html` yet. Persist any substantive Joel correction before the next attempt.
 
 ## Recovery rule
 
