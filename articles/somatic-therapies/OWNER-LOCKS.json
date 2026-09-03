@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
   "article_id": "somatic-therapies",
-  "locked_passages": [],
+  "locked_passages": [
+    {
+      "id": "introduction-owner-final-20260902",
+      "text": "Introduction\nThe body was involved in surviving what happened to you, and it has its own innate resolution process. Peter Levine, the founder of Somatic Experiencing therapy, in his book, [In An Unspoken Voice](https://www.amazon.com/Unspoken-Voice-Releases-Restores-Goodness/dp/1556439431), explains that his accidental realization about the need to release bodily trauma was corroborated by a park biologist in Malawi. He told Levine that captured animals who hadn’t trembled and breathed spontaneously before being released were unlikely to survive in the wild.\n\nBut discovering the body’s programming isn’t simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, self-massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.\nStill, I do find that lasting complex trauma recovery tends to follow a general, kind of obvious sequence: \nEstablish safety and nervous-system regulation in the present environment.\nUse that regulated state to physically release accumulated stress and survival responses.\nOnly then move into therapies that work with memories, including the feelings they produce and the stories surrounding them. This often leads back to step 1.\nThis article is an attempt to break down step 3 into its own somewhat less obvious, but still sensible, flexible sequence. Because specific somatic therapies are on a spectrum of physical<->emotional (or conscious<->subconscious), as well as a spectrum of intensity and specificity, we can often guess which one might be right for someone at which time. These don’t all have the same level or type of evidence supporting them, and there’s definitely no scientific roadmap that could survive peer review, but ultimately everyone somehow builds their own map of what makes sense, and this is mine. \nI use these therapies partly to make the body safer to inhabit before going into deeper [inner-child therapy](http://innerchild.u-dont-exist.com), where we intentionally re-expose ourselves to traumatic memories in an effort to re-parent the little one-one inside who was hurt.",
+      "sha256": "ae091d8b67ebcd64ff27e5f80d18558e39425c44d8aa75bac018ce415c1f558f"
+    }
+  ],
   "protected_functions": [
     {
       "id": "five-job-map-provisional",
@@ -17,7 +23,7 @@
     },
     {
       "id": "personal-oddness",
-      "description": "Preserve supplied personal/material voice anchors including Professor Baby Sheep, Joel's head-shaving/massage experience with loveyhuasca, and Louka's report about the linked Shaking Qigong class unless Joel changes them."
+      "description": "Preserve supplied personal/material voice anchors including Professor Baby Sheep, Joel's head-shaving/massage experience with loveyhuasca, Louka's report about the linked Shaking Qigong class, and the confirmed intentional phrase `one-one` unless Joel changes them."
     },
     {
       "id": "safety-warnings",
@@ -34,6 +40,6 @@
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel explicitly instructed on 2026-08-22 to register the r01 humanized Somatic Therapies article in the public joel-articles repository and continue detector work. Registration confirms working-master identity, not owner-final prose approval."
+    "evidence": "Joel supplied and finalized the Introduction on 2026-09-02 after the owner-teaching episode and explicitly froze the resulting lessons. The Introduction lock is owner-final for that bounded section. The overall Somatic Therapies article remains a working article, not owner-final or published."
   }
 }
