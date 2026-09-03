@@ -38,3 +38,29 @@ New writing implication:
 - CBT is cross-cutting, while Stage 5 retains narrative/cognitive integration as one later use.
 
 Validation status: direct owner correction and direct owner acceptance.
+
+## Owner rejection of first CBT-section attempt — 2026-09-03
+
+Joel rejected the first owner-facing attempt for `The Elephant in the Therapy Room: CBT and Exposure` and supplied three concrete corrections:
+
+1. **Do not use `go do the thing`.** Joel identified it as overused, lazy, and strongly AI-shaped. The attempt used essentially the same generic placeholder twice within a very short span (`Go do the thing and see` / `deliberately doing the thing`). This was both lexical repetition and evidence that the model had substituted a vague stock phrase for the actual behavioral experiment.
+2. **Do not duplicate the Introduction.** The second paragraph spent substantial space re-establishing the already owner-final premise that cognition can know safety while the body continues reacting. That premise is already available to the reader. The new CBT section must begin from it, not explain it again.
+3. **Cadence remained AI-shaped.** The first attempt still moved in a sequence of compact rhetorical beats: credit CBT -> turn to the awkward case -> restate the body/cognition gap -> cite SE -> pose `what if the body is wrong?` -> run a `maybe / maybe / maybe` possibility cluster -> land a neat synthesis -> enumerate adjacent modalities -> close with a slogan. The surface was more conversational, but the section still behaved like several polished mini-essays joined together.
+
+Underlying generative mistake:
+
+- The model treated the accepted architecture as a list of functions that each required a compact rhetorical realization.
+- It tried to satisfy `credit CBT`, `show inadequacy`, `body may be right/wrong`, `compare modalities`, and `synthesize` in sequence rather than following one unresolved thought.
+- It also reached for generic model shorthand when the underlying action had not been concretely represented.
+- It failed the existing cadence gate despite having just reread it; this is an execution failure, not a missing-rule problem.
+
+Required next movement:
+
+- Treat the Introduction's body/cognition mismatch as **given context**.
+- Start from the live unresolved question: **what is CBT actually good at, and where does that strength stop being enough?**
+- Name concrete CBT operations when they matter (for example, test a feared prediction, drop a safety behavior, compare what happened with what was predicted) rather than using generic placeholder language.
+- Let the inadequacy argument emerge from the same thought, not as a balanced `CBT good / CBT bad` pair.
+- Do not force the adjacent modalities into the first attempt unless the thought naturally reaches them; comparison can wait for a later paragraph/attempt if necessary.
+- The section does not need to re-prove any Introduction premise.
+
+Validation status: prior attempt **REJECTED by owner**. Next prose not yet validated.
