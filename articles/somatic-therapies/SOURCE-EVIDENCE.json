@@ -37,7 +37,7 @@
     },
     {
       "id": "cbt-somatic-epistemology-architecture-20260903",
-      "claim": "Joel accepted insertion of `The Elephant in the Therapy Room: CBT and Exposure` after the protected play/personal material and before the five-stage overview. CBT/exposure are to receive genuine credit, while the article argues they were inadequate as the complete answer to trauma and that somatic methods investigate/process mechanisms and information channels those approaches missed.",
+      "claim": "Joel accepted insertion of the CBT/somatic methodological section after the protected play/personal material and before the five-stage overview. CBT/exposure are to receive genuine credit, while the article argues they were inadequate as the complete answer to trauma and that somatic methods investigate/process mechanisms and information channels those approaches missed.",
       "support": {
         "direction_path": "articles/somatic-therapies/experiments/SOMATIC-CBT-BODY-EPISTEMOLOGY-OWNER-DIRECTION-20260903.md",
         "architecture_path": "articles/somatic-therapies/experiments/SOMATIC-CBT-EPISTEMOLOGY-REORG-PROPOSAL-20260903.md",
@@ -63,6 +63,33 @@
       },
       "access_status": "complete",
       "certainty": "owner-accepted historical/causal interpretation supported by primary-source problem critique plus method design; not a claim that CBT is useless or that every somatic modality has identical genealogy"
+    },
+    {
+      "id": "owner-cbt-prose-realization-20260903",
+      "claim": "After two model-authored CBT-section attempts were rejected for repeating the same AI-shaped cadence, Joel supplied a fresh owner-authored realization beginning `The Dominant Top-Down Exposure Therapies Are Missing Something`. This owner prose is now the controlling source realization for the unresolved section, but is not yet owner-final because several factual/source points require minimum-dose reconciliation.",
+      "support": {
+        "owner_prose_path": "articles/somatic-therapies/experiments/SOMATIC-CBT-OWNER-PROSE-20260903.md",
+        "factual_audit_path": "articles/somatic-therapies/experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260903.md",
+        "provenance": "direct owner prose supplied in Chat on 2026-09-03"
+      },
+      "access_status": "complete",
+      "certainty": "owner-authored source realization; cadence/thought movement should be preserved; exact final wording pending owner-approved factual repairs"
+    },
+    {
+      "id": "cbt-owner-prose-factual-audit-20260903",
+      "claim": "A bounded factual audit found: EMDR should not be classified simply as an exposure/top-down therapy; trauma-focused CBT protocols do not all follow one exposure-then-CBT sequence; dropout is studied but reasons/adverse events are often poorly reported; Levine's re-traumatization critique should be attributed; SIBAM is substantively sound but hyperarousal/root-cause language needs precision; the SE paper directly supports spontaneous cognitive re-evaluation after autonomic/kinesthetic discharge; and EMDR's AIP model makes it a bridge case because it also posits an innate healing/information-processing system.",
+      "support": {
+        "path": "articles/somatic-therapies/experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260903.md",
+        "sources": [
+          "NICE NG116 PTSD recommendations",
+          "VA National Center for PTSD treatment overviews",
+          "Lewis et al. 2020 dropout systematic review/meta-analysis",
+          "Payne, Levine & Crane-Godreau 2015",
+          "EMDR International Association Adaptive Information Processing resources"
+        ]
+      },
+      "access_status": "complete",
+      "certainty": "bounded factual/source audit only; not an article-wide citation review"
     },
     {
       "id": "map-terminology-owner-correction-20260903",
@@ -126,6 +153,14 @@
       "path": "articles/somatic-therapies/experiments/SOMATIC-CBT-EPISTEMOLOGY-REORG-PROPOSAL-20260903.md"
     },
     {
+      "role": "owner_cbt_prose_source_realization",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-CBT-OWNER-PROSE-20260903.md"
+    },
+    {
+      "role": "owner_cbt_prose_factual_audit",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260903.md"
+    },
+    {
       "role": "old_substack_map_source",
       "path": "articles/somatic-therapies/experiments/SOMATIC-MAP-OLD-SUBSTACK-SOURCE-20260903.md",
       "provenance": "direct owner paste in Chat on 2026-09-03"
@@ -133,6 +168,6 @@
   ],
   "external_claim_review": {
     "status": "pending",
-    "note": "This architecture pass verified the primary Frontiers SE source only for the CBT/SE methodological-genealogy issue. It is not a complete article-wide health/citation review. Detailed TRE origin claims and new practical modality inclusions require their normal bounded source checks when drafted."
+    "note": "This task has performed bounded source checks on the CBT/EMDR/SE/dropout/SIBAM claims in the new owner section, but not a complete article-wide health/citation review. Detailed TRE origin claims and new practical modality inclusions require their normal bounded source checks when drafted."
   }
 }
