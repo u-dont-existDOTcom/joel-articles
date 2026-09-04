@@ -9,8 +9,7 @@ Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe842
 flowchart TD
     A[Owner-accepted Introduction: bodily resolution + exact five-stage map] --> B[Play / Professor Baby Sheep / personal body-work note + Jules/MCT anti-processing counterweight]
     B --> C[The Dominant Trauma-Memory Therapies Are Missing Something]
-    C --> E[Somatic work + inner-child reparenting overlap]
-    E --> S1[Stage 1: stay present and keep choice]
+    C --> S1[Stage 1: stay present and keep choice]
     S1 --> S2[Stage 2: regulate or discharge accumulated activation]
     S2 --> S3[Stage 3: trauma feelings before the story comes in]
     S3 --> S4[Stage 4: memories you can actually point to]
@@ -36,7 +35,7 @@ CBT/exposure retain real strengths: reality testing, behavioral experiments, tes
 
 The methodological synthesis is not `body good / thinking bad`. Bodily signals deserve investigation but not automatic obedience; cognition and reality testing remain useful tools without automatic sovereignty.
 
-Because the five stages are already present in the Introduction, **`The Five Stages at a Glance` is retired as a standalone section.** Do not recreate a second overview between the trauma-memory section and the detailed map. After the trauma-memory section, move through the existing somatic/inner-child overlap and then into the detailed stages.
+Because the five stages are already present in the Introduction, **`The Five Stages at a Glance` is retired as a standalone section.** The later standalone `Somatic Work and Inner-Child Reparenting Can Overlap` section is also retired by direct owner acceptance on 2026-09-04. Its unique functions are routed into Stages 1–4 instead of being realized as another conceptual bridge. After the trauma-memory section, move directly into Stage 1.
 
 `Stage` remains the accepted reader-facing label and does not imply a scientifically validated universal five-stage protocol or mandatory lock-step sequence.
 
@@ -44,7 +43,7 @@ Because the five stages are already present in the Introduction, **`The Five Sta
 
 Accepted H1: `The Dominant Trauma-Memory Therapies Are Missing Something`
 
-Placement: after Professor Baby Sheep/head-shaving/Jules-MCT/share material and before the somatic + inner-child overlap / detailed stage route.
+Placement: after Professor Baby Sheep/head-shaving/Jules-MCT/share material and immediately before detailed Stage 1.
 
 Required functions:
 
@@ -70,11 +69,12 @@ Owner report for that bounded realization: Pangram Human / high confidence. Do n
 Architectural consequences:
 
 - no standalone five-stage overview remains;
+- no standalone somatic/inner-child overlap bridge remains;
 - the map applies when doing therapeutic work is helping;
 - at any stage, the useful next move may instead be to stop processing for now and return attention to ordinary life;
 - one therapy can occupy different stages depending on use, dose, target, and capacity;
 - Stage 1 choice includes whether to continue processing at all;
-- simultaneous-stage overlap is carried by the inner-child material;
+- inner-child work can overlap multiple stages, with its unique functions now routed to the stage where they actually operate;
 - ordinary living is not reserved for Stage 5;
 - sleep / relationships / functioning / freedom / symptom-change assessment is consolidated into the later outcome section.
 
@@ -82,25 +82,41 @@ Architectural consequences:
 
 ### Stage 1 — Stay Present and Keep Choice
 
+Owner map wording: `Stay present so you can stay with what happens and choose what comes next.`
+
 Keep Somatic Experiencing, trauma-sensitive/restorative yoga, gentle shaking/TRE, stop/orient/return capacity, and the anti-endless-stabilization warning.
+
+Route here from the retired overlap section: flooded/child-state guidance; looking around the room; outside help; borrowing an adult perspective or neutral witness; Nurturer/Protector access; one ordinary Protector action; gentle present-focused self-hypnosis that does not pull the person deep into memories or child dialogue.
 
 `Keep choice` includes the choice to stop therapeutic processing for now. Stage 1 is not `before CBT`; reality testing can be useful whenever appropriate.
 
 ### Stage 2 — Regulate or Discharge Accumulated Activation
 
+Owner map wording: `Regulate or discharge accumulated activation energy`
+
 Keep EFT, Shaking Qigong/Shaking Medicine, and the Discharge → Settle stack. Keep TRE's specific historical origin with TRE/shaking rather than treating every somatic method as having identical genealogy.
+
+Route here from the retired overlap section: Joel's experiential sequence in which EFT, Somatic Experiencing, trauma-sensitive yoga, gentle shaking/qigong, non-forced longer exhales, and gentle Buteyko-style breathing can help the body loosen; solar-plexus/abdomen softening; easier access to heart-chakra love; and the heart-to-younger-part loop using naturally available love rather than going immediately into pain.
 
 ### Stage 3 — Trauma Feelings Before the Story Comes In
 
-The owner map wording is `Work with trauma feelings before the story comes in`. Keep Brainspotting. Sensorimotor Psychotherapy and Focusing are strong bounded inclusion candidates because they add distinct embodied experiments rather than merely more examples of attention to sensation.
+Owner map wording: `Work with trauma feelings before the story comes in`
+
+Keep Brainspotting. Sensorimotor Psychotherapy and Focusing are strong bounded inclusion candidates because they add distinct embodied experiments rather than merely more examples of attention to sensation.
+
+The Stage 3 → Stage 4 hinge carries the retired overlap material distinguishing resource-oriented/carefully titrated Brainspotting from highly charged developmental material, plus the observation that diffuse relational trauma may benefit from some Nurturer/Protector access before deeper memory work while a stable person with one discrete event may not need a long preliminary sequence.
 
 ### Stage 4 — Memories You Can Actually Point To
 
-The owner map wording is `Work with memories you can actually point to: the actual events and the triggering events`. Keep EMDR, neurological de-armoring support, post-session integration/safety, and the discrete-event exception.
+Owner map wording: `Work with memories you can actually point to: the actual events and the triggering events`
+
+Keep EMDR, neurological de-armoring support, post-session integration/safety, and the discrete-event exception.
+
+Route here from the retired overlap section: deep hypnosis, immersive child dialogue, suggestive exploration, and other deep memory work remain gated by the ability to stay present, stop voluntarily, and return to ordinary life afterward.
 
 ### Stage 5 — Integrate, Differentiate, and Build a Life of Meaning
 
-The owner map wording is `Integrate, differentiate, and build a life of meaning. Decide your boundaries, direction, relationships, and overall identity.`
+Owner map wording: `Integrate, differentiate, and build a life of meaning. Decide your boundaries, direction, relationships, and overall identity.`
 
 CBT itself is cross-cutting. Stage 5 is where cognition is used especially for integration, meaning, identity, values, boundaries, agency, relationships, and life direction. It does **not** mean `finally return to ordinary life`; ordinary life is available throughout the map.
 
@@ -124,7 +140,8 @@ Retire the one-line recap `Regulation → discharge → processing → integrati
 
 - Professor Baby Sheep and head-shaving/loveyhuasca remain protected early owner/native material.
 - The Jules Evans / MCT addition remains in the protected early `Don’t be so serious, you silly willy!` area and carries the cross-stage anti-rumination/off-ramp function. Exact corrected Substack bytes should be recovered during final source reconciliation rather than reconstructed from Chat.
-- Inner-child Nurturer/Protector, borrowed-adulthood, present-focused self-hypnosis, heart-loop, and simultaneous-stage material remain protected.
+- The standalone somatic/inner-child overlap heading is retired. Its Nurturer/Protector, borrowed-adulthood, present-focused self-hypnosis, heart-loop, Brainspotting-dose, and deep-memory safety functions are preserved at the Stage 1–4 destinations above.
+- The old overlap closing taxonomy `orientation, regulation, discharge, resourcing, processing, or integration` is retired rather than moved; the owner five-stage map now performs that organizing function.
 - Safety warnings stay adjacent to the practice/stage they govern.
 - The evidence-plane distinction remains protected but should not be repeated mechanically.
 - Sky Hypnosis and Vagal Blitz stay as optional high-intensity practices after the main map, retaining physical-safety and anti-bypassing functions.
@@ -135,6 +152,8 @@ Retire the one-line recap `Regulation → discharge → processing → integrati
 Do not turn the five-stage owner realization into polished explanatory cards. The prior assistant realization of the same five functions was owner-reported Pangram AI / high confidence; Joel's replacement realization was Human / high confidence. This is boundary-specific evidence, not a recipe about list length, punctuation, or particular words.
 
 Do not turn the Jules/MCT off-ramp into another therapy assignment, readiness checklist, or sixth stage. Its force is that sometimes **less therapy and more life** is the useful move.
+
+Do not replace the retired inner-child overlap section with another bridge paragraph. Let the detailed stages carry the material where it actually does work.
 
 ## Stopping point
 
