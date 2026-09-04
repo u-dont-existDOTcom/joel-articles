@@ -66,11 +66,11 @@
         },
         "owner_locks": {
           "path": "articles/somatic-therapies/OWNER-LOCKS.json",
-          "sha256": "adbc0648600de43d31df2ac413ec55ea12ef1fbe775e74e585c8837932109bf6"
+          "sha256": "8eca27669caac1737d042893ce5c81e440ee930fdf4ecb455469d15d797185d5"
         },
         "source_evidence": {
           "path": "articles/somatic-therapies/SOURCE-EVIDENCE.json",
-          "sha256": "7740fd6a72483cb5e8f188db69d73217a511fc26ace5f0b9e4b183163b922859"
+          "sha256": "08e8d943ef9998a66e53f1c68ea4b6bcfec205ae34bd8550bf4eefcb02894465"
         },
         "unincorporated_ideas": {
           "path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md",
@@ -78,7 +78,7 @@
         },
         "current_state": {
           "path": "articles/somatic-therapies/CURRENT-STATE.md",
-          "sha256": "ab1b2ddcf48c52775be3fdc12ad0f87baff01c87f3641504ef80950c424e71a2"
+          "sha256": "c2353081ff4bd658437f37661b0f49eca4d5a39e6dfe36db49e8d14b0c45e868"
         }
       },
       "review": {
@@ -106,8 +106,13 @@
           "role": "owner_final_section"
         },
         {
+          "path": "articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md",
+          "sha256": "4f40c602e5794ab6c9efe330ffdd2607f88f8fb9a08d497b0cc232e32e0f96ef",
+          "role": "owner_accepted_section"
+        },
+        {
           "path": "articles/somatic-therapies/ARCHITECTURE.md",
-          "sha256": "6304595be3e8e1368fdb7b693d0a1836510b7cbb114629b7b215f60fd9787ebb",
+          "sha256": "116a48fb13a3e60c00ac1c42eff9c763afb1f6c9fd4bc849f17e43324bd0e31b",
           "role": "architecture_map"
         },
         {
