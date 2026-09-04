@@ -4,7 +4,7 @@
   "claims": [
     {
       "id": "authority-master-identity",
-      "claim": "The registered raw-editor working master remains r01-candidate as the source baseline, but current owner overrides supersede its Introduction, map terminology/architecture, the accepted trauma-memory methodological section, and the later Jules/MCT early-section addition until final editor-HTML reconciliation.",
+      "claim": "The registered raw-editor working master remains r01-candidate as the source baseline, but current owner overrides supersede its Introduction, map architecture, accepted trauma-memory methodological section, and Jules/MCT early-section addition until final editor-HTML reconciliation.",
       "support": {
         "path": "articles/somatic-therapies/master.html",
         "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202",
@@ -14,130 +14,100 @@
       "certainty": "owner-authorized working source baseline with explicit later overrides"
     },
     {
-      "id": "owner-final-introduction-20260902",
-      "claim": "Joel supplied the final Introduction directly on 2026-09-02; it remains controlling for that bounded section and was not reopened by the Jules/MCT addition.",
+      "id": "owner-accepted-introduction-20260904",
+      "claim": "Joel's 2026-09-02 owner-final Introduction was later reopened only at its recovery-map span: on 2026-09-04 he replaced the coarse three-step sequence with his own five-stage realization and accepted retiring the duplicate standalone stage overview. The resulting current Introduction is preserved in OWNER-ACCEPTED-INTRODUCTION-20260904.md.",
       "support": {
-        "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
-        "sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5",
-        "provenance": "direct owner-final copy"
+        "path": "articles/somatic-therapies/OWNER-ACCEPTED-INTRODUCTION-20260904.md",
+        "prior_owner_final_path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
+        "owner_stage_source_path": "articles/somatic-therapies/experiments/SOMATIC-FIVE-STAGE-OWNER-HUMAN-HIGH-20260904.txt",
+        "provenance": "prior owner-final Introduction plus direct owner five-stage replacement and owner acceptance of the structural move"
       },
       "access_status": "complete",
-      "certainty": "owner-final for the bounded Introduction; overall article remains working"
+      "certainty": "owner-accepted current Introduction realization; overall article remains working"
     },
     {
-      "id": "five-stage-architecture-20260903",
-      "claim": "Joel accepted `stage` as the reader-facing label, `The Five Stages at a Glance` as the overview heading, retirement of the duplicate standalone Map section, and placement of the trauma-memory methodological section before the five-stage practical map. On 2026-09-04 he added a cross-stage option to stop processing for now and return attention to ordinary life rather than creating a sixth stage.",
+      "id": "five-stage-owner-detector-20260904",
+      "claim": "Joel reported the model-authored explanatory five-stage list as Pangram AI / high confidence and his replacement five-stage realization as Pangram Human / high confidence. The owner realization independently carries the correct article function and supersedes the model list.",
+      "support": {
+        "owner_source_path": "articles/somatic-therapies/experiments/SOMATIC-FIVE-STAGE-OWNER-HUMAN-HIGH-20260904.txt",
+        "detector_record": "u-dont-existDOTcom/pangram-humanization-lab/state/SOMATIC-FIVE-STAGE-OWNER-VS-MODEL-20260904.md",
+        "owner_visible_text": "Stay present so you can stay with what happens and choose what comes next. Regulate or discharge accumulated activation energy Work with trauma feelings before the story comes in Work with memories you can actually point to: the actual events and the triggering events Integrate, differentiate, and build a life of meaning. Decide your boundaries, direction, relationships, and overall identity.",
+        "owner_reported_result": "Human / high confidence",
+        "model_reported_result": "AI / high confidence"
+      },
+      "access_status": "owner_report_complete_detector_metadata_partial",
+      "certainty": "boundary-specific owner report; exact Pangram formatting, numerical fractions, model/version, and History identity were not supplied in the Chat turn"
+    },
+    {
+      "id": "five-stage-overview-retired-20260904",
+      "claim": "The standalone `The Five Stages at a Glance` section is retired because the actual five-stage map now appears in the Introduction in owner wording. After the trauma-memory section the article moves through the existing somatic/inner-child overlap and then the detailed stages.",
       "support": {
         "path": "articles/somatic-therapies/ARCHITECTURE.md",
-        "owner_direction_path": "articles/somatic-therapies/experiments/SOMATIC-JULES-MCT-OFFRAMP-OWNER-DIRECTION-20260904.md",
-        "provenance": "direct owner acceptance/correction in Chat on 2026-09-03 and 2026-09-04"
+        "provenance": "owner proposal accepted through supplied replacement realization and continuation instruction on 2026-09-04"
       },
       "access_status": "complete",
-      "certainty": "owner-accepted article architecture"
+      "certainty": "owner-accepted architecture"
     },
     {
       "id": "jules-mct-processing-offramp-20260904",
-      "claim": "Joel added a Jules Evans / Metacognitive Therapy paragraph to the early `Don’t be so serious, you silly willy!` area to establish that therapy/analysis can itself become a rumination loop and that sometimes the useful move is to stop processing for now and return attention to ordinary life; he also preserves the opposite possibility that `stop analyzing` can become avoidance of painful material that does need attention.",
+      "claim": "Joel added a Jules Evans / Metacognitive Therapy paragraph to the early `Don’t be so serious, you silly willy!` area to establish that therapy/analysis can itself become a rumination loop and that sometimes the useful move is to stop processing for now and return attention to ordinary life; `stop analyzing` can also become avoidance when painful material does need attention.",
       "support": {
         "owner_direction_path": "articles/somatic-therapies/experiments/SOMATIC-JULES-MCT-OFFRAMP-OWNER-DIRECTION-20260904.md",
-        "jules_evans_source": "Jules Evans, How to Stop Thinking, Ecstatic Integration, https://www.ecstaticintegration.org/p/how-to-think-less",
-        "mct_sources": [
-          "Wells A. Detached mindfulness in cognitive therapy: A metacognitive analysis and ten techniques. Journal of Rational-Emotive & Cognitive-Behavior Therapy. 2005;23(4). DOI: 10.1007/s10942-005-0018-6.",
-          "Wells A, Matthews G. Attention and Emotion: A Clinical Perspective. 1994. Source model for detached mindfulness / S-REF.",
-          "Detached mindfulness as a stand-alone intervention: a systematic review and meta-analysis. Front Psychiatry. 2026; DOI: 10.3389/fpsyt.2026.1771705."
-        ],
-        "factual_correction": "The first owner version said MCT was based on Buddhist beginner meditation. Chat source review found detached mindfulness arose from Wells/Matthews metacognitive theory and differs from meditation-based mindfulness; Joel replied `corrected`. Exact corrected local Substack wording was not repasted into Chat."
+        "jules_evans_source": "Jules Evans, How to Stop Thinking, Ecstatic Integration",
+        "factual_correction": "The first owner version incorrectly said MCT was based on Buddhist beginner meditation. Joel corrected that locally after source review; exact corrected local Substack wording was not repasted into Chat."
       },
       "access_status": "owner_function_complete_exact_local_bytes_pending_final_source_reconciliation",
-      "certainty": "owner-accepted architectural function; exact corrected paragraph wording remains local to the owner's Substack draft"
+      "certainty": "owner-accepted architectural function"
     },
     {
       "id": "owner-accepted-trauma-memory-section-20260904",
-      "claim": "Joel directly authored and accepted the section `The Dominant Trauma-Memory Therapies Are Missing Something` after rejecting two model-authored versions for repeating the same AI-shaped cadence. The exact accepted owner prose controls this bounded section and should not be reconstructed absent owner instruction or materially new contradictory evidence.",
+      "claim": "Joel directly authored and accepted `The Dominant Trauma-Memory Therapies Are Missing Something` after rejecting two model-authored versions for repeating the same AI-shaped cadence. The exact accepted owner prose controls this bounded section.",
       "support": {
         "path": "articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md",
         "sha256": "4f40c602e5794ab6c9efe330ffdd2607f88f8fb9a08d497b0cc232e32e0f96ef",
-        "locked_text_sha256": "7a380cb33b9f526f6f099c5f2d5f641dedbf13c2e93192d4950a498bc4fec50c",
-        "provenance": "direct owner prose supplied and iteratively corrected in Chat on 2026-09-04"
+        "locked_text_sha256": "7a380cb33b9f526f6f099c5f2d5f641dedbf13c2e93192d4950a498bc4fec50c"
       },
       "access_status": "complete",
-      "certainty": "owner-accepted bounded section; overall article remains working"
+      "certainty": "owner-accepted bounded section"
     },
     {
       "id": "se-inadequacy-inference",
       "claim": "The article's accepted interpretation is that Somatic Experiencing was developed to address inadequacies in prevailing cognitive/verbal/direct-exposure approaches as a complete account/treatment of trauma, while those approaches can still be useful.",
       "support": {
         "primary_source": "Payne P, Levine PA, Crane-Godreau MA. Somatic experiencing: using interoception and proprioception as core elements of trauma therapy. Front Psychol. 2015;6:93.",
-        "primary_source_points": [
-          "SE is described as developed by Levine from 1977 onward.",
-          "SE's strategy is contrasted with primarily cognitive intervention and direct/intense exposure.",
-          "The paper calls a simple stimulus/response conditioning model inadequate for explaining complex behavior.",
-          "The paper identifies a drawback in talk therapy for trauma and describes the targeted regulatory system as relatively unaffected by rational thought.",
-          "The paper emphasizes interoception, proprioception, autonomic regulation, procedural memory, and completion of incomplete defensive responses."
-        ],
         "owner_correction_path": "articles/somatic-therapies/experiments/SOMATIC-CBT-BODY-EPISTEMOLOGY-OWNER-DIRECTION-20260903.md"
       },
       "access_status": "complete",
       "certainty": "owner-accepted historical/causal interpretation supported by primary-source problem critique plus method design"
     },
     {
-      "id": "trauma-memory-mainstream-efficacy-and-dropout-context",
-      "claim": "The accepted section credits mainstream trauma-memory therapies with meaningful PTSD symptom benefit and uses dropout/adverse-event undercharacterization as context for Levine's re-traumatization critique rather than claiming dropout is unstudied.",
+      "id": "suppression-as-owner-argument",
+      "claim": "Joel intentionally characterizes new cognitive-behavioral learning as suppressing old conditioned fear responses. This is an argumentative/theoretical characterization at the level of the article's contrast, not a claim that clinicians literally instruct patients not to feel or that every named therapy has one identical mechanism.",
       "support": {
-        "review_sources": [
-          "VA National Center for PTSD treatment overviews",
-          "Lewis et al. 2020 dropout systematic review/meta-analysis",
-          "Payne, Levine & Crane-Godreau 2015"
-        ],
         "owner_section_path": "articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md"
       },
       "access_status": "complete",
-      "certainty": "bounded section-level evidence review; not a complete article-wide citation audit"
-    },
-    {
-      "id": "suppression-as-owner-argument",
-      "claim": "Joel intentionally characterizes new cognitive-behavioral learning as suppressing old conditioned fear responses. This is an argumentative/theoretical characterization at the level of the article's contrast, not a claim that clinicians literally instruct patients not to feel and not a claim that every named therapy has one identical mechanism.",
-      "support": {
-        "owner_section_path": "articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md",
-        "context": "modern extinction/inhibitory-learning models support persistence of old fear associations alongside new learning that inhibits their expression"
-      },
-      "access_status": "complete",
-      "certainty": "owner argument; preserve unless materially contrary evidence changes the reader-relevant claim"
-    },
-    {
-      "id": "emdr-se-distinction",
-      "claim": "The accepted section treats EMDR as bodily as well as cognitive/affective, but still principally organized around distress encoded in trauma-memory networks, while SE gives greater causal/therapeutic primacy to current sensorimotor/autonomic defensive organization and completion of blocked action.",
-      "support": {
-        "owner_section_path": "articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md",
-        "bounded_sources": [
-          "VA National Center for PTSD EMDR overview",
-          "EMDR Adaptive Information Processing materials",
-          "Payne, Levine & Crane-Godreau 2015"
-        ]
-      },
-      "access_status": "complete",
-      "certainty": "owner-accepted comparative interpretation"
+      "certainty": "owner argument"
     },
     {
       "id": "sibam-model-source-status",
-      "claim": "The accepted section uses Levine's SIBAM model to describe Sensation, Image, Behavior, Affect, and Meaning plus undercoupling/dissociation and overcoupling/hyperarousal. The formal SIBAM naming should receive a direct Levine/In an Unspoken Voice or suitable academic citation during citation cleanup.",
+      "claim": "The accepted trauma-memory section uses Levine's SIBAM model to describe Sensation, Image, Behavior, Affect, and Meaning plus undercoupling/dissociation and overcoupling/hyperarousal. Formal SIBAM naming still needs a direct Levine/In an Unspoken Voice or suitable academic citation during citation cleanup.",
       "support": {
         "owner_section_path": "articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md",
         "planned_direct_source": "Peter A. Levine, In an Unspoken Voice (2010)"
       },
       "access_status": "citation_cleanup_pending",
-      "certainty": "owner-accepted section content; direct formal-model citation still pending"
+      "certainty": "owner-accepted section content"
     },
     {
-      "id": "reader-visible-boundary-r01",
-      "claim": "The r01 candidate reader-visible extraction remains the exact historical full-article detector boundary; later owner-final/owner-accepted sections have no matching exact-boundary Pangram measurement in this task record.",
+      "id": "detector-boundary-status",
+      "claim": "The historical r01 detector boundary remains separate from all later owner revisions. The revised full Introduction, Jules/MCT local addition, and accepted trauma-memory section have no matching exact-boundary detector measurements in this task record. The owner five-stage Human/high result applies only to the separately reported bounded realization.",
       "support": {
-        "reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
-        "packaged_file_sha256": "613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e",
-        "word_count": 3412
+        "historical_reader_visible_sha256": "e79c3efe640dc87880e90aebaeae4eff0ad9a47cb11234a8a0144bd3eaa38677",
+        "historical_packaged_file_sha256": "613c3514844097ee4bd31e227a4624bde37cca280e8a3a15b566c92a51b25c1e"
       },
       "access_status": "complete",
-      "certainty": "historical exact detector boundary only"
+      "certainty": "exact-boundary discipline"
     }
   ],
   "source_files": [
@@ -147,9 +117,17 @@
       "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202"
     },
     {
-      "role": "owner_final_introduction",
+      "role": "superseded_owner_final_introduction_20260902",
       "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
       "sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5"
+    },
+    {
+      "role": "current_owner_accepted_introduction",
+      "path": "articles/somatic-therapies/OWNER-ACCEPTED-INTRODUCTION-20260904.md"
+    },
+    {
+      "role": "owner_five_stage_human_high_source",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-FIVE-STAGE-OWNER-HUMAN-HIGH-20260904.txt"
     },
     {
       "role": "owner_accepted_trauma_memory_section",
@@ -158,20 +136,15 @@
     },
     {
       "role": "jules_mct_offramp_owner_direction",
-      "path": "articles/somatic-therapies/experiments/SOMATIC-JULES-MCT-OFFRAMP-OWNER-DIRECTION-20260904.md",
-      "provenance": "direct owner addition/correction in Chat on 2026-09-04"
+      "path": "articles/somatic-therapies/experiments/SOMATIC-JULES-MCT-OFFRAMP-OWNER-DIRECTION-20260904.md"
     },
     {
       "role": "cbt_body_owner_direction",
       "path": "articles/somatic-therapies/experiments/SOMATIC-CBT-BODY-EPISTEMOLOGY-OWNER-DIRECTION-20260903.md"
-    },
-    {
-      "role": "accepted_cbt_reorganization",
-      "path": "articles/somatic-therapies/experiments/SOMATIC-CBT-EPISTEMOLOGY-REORG-PROPOSAL-20260903.md"
     }
   ],
   "external_claim_review": {
     "status": "pending",
-    "note": "The trauma-memory methodological section and Jules/MCT off-ramp have received bounded source review sufficient for their current owner arguments. This is not a complete article-wide citation/health review. Exact corrected Jules/MCT Substack bytes, SIBAM formal-model citation, detailed TRE origin claims, and later modality inclusions require their normal source cleanup when assembled."
+    "note": "This is not a complete article-wide citation/health review. Exact corrected Jules/MCT Substack bytes, SIBAM formal-model citation, detailed TRE origin claims, and later modality inclusions require normal source cleanup when assembled."
   }
 }
