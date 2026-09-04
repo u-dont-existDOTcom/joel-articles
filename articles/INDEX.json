@@ -66,11 +66,11 @@
         },
         "owner_locks": {
           "path": "articles/somatic-therapies/OWNER-LOCKS.json",
-          "sha256": "330549f6cccba27d05aa6582f415695e4d908d13361b11d54c226c098e596388"
+          "sha256": "2dc42eebd1d23ebb3eed65b188a739d0fed9504fae30de75ee91d55f5e772153"
         },
         "source_evidence": {
           "path": "articles/somatic-therapies/SOURCE-EVIDENCE.json",
-          "sha256": "67a6766cf4067da892dda2c4f7f6df53e681734849ab680545ff401e7850b945"
+          "sha256": "935a7360c5902289c02b329b2fa2e4334a7637bc351a879281928e74f951cfed"
         },
         "unincorporated_ideas": {
           "path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md",
@@ -78,7 +78,7 @@
         },
         "current_state": {
           "path": "articles/somatic-therapies/CURRENT-STATE.md",
-          "sha256": "04e47e02d142bf00e44d6610a88050ffaa578004d22fe9db1a6324d879ae2558"
+          "sha256": "17fdc64e80558ad1121afe7d43bf508e8eb6bb38d9a0b65e7211b033e22aaba3"
         }
       },
       "review": {
@@ -103,7 +103,17 @@
         {
           "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
           "sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5",
-          "role": "owner_final_section"
+          "role": "superseded_owner_final_section"
+        },
+        {
+          "path": "articles/somatic-therapies/OWNER-ACCEPTED-INTRODUCTION-20260904.md",
+          "sha256": "e610b9486e7b299fdd1cb72ac8f4f319d58257431a14a18ae32b62efb426a57a",
+          "role": "owner_accepted_section"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-FIVE-STAGE-OWNER-HUMAN-HIGH-20260904.txt",
+          "sha256": "13d449ce86ad6d0cf2c2b63aff5ba88a77a2026467cb26f4d6b544a66feb2b90",
+          "role": "owner_stage_map_source"
         },
         {
           "path": "articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md",
@@ -112,7 +122,7 @@
         },
         {
           "path": "articles/somatic-therapies/ARCHITECTURE.md",
-          "sha256": "008c606874dac69d28fb3cf076bdb9807c50014504bd15bb636819473d9a3d89",
+          "sha256": "95ccb0ac1198dc1f5bfcdf8ac05d5a4135b8e9ca4be218e36c1c64a52a5371df",
           "role": "architecture_map"
         },
         {
@@ -131,49 +141,9 @@
           "role": "detector_experiment_design"
         },
         {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-RESULTS-20260822.json",
-          "sha256": "23b950269b2e34ebb03317ac7f6dee9eb97d19e4f79da371417ed6d31fce404d",
-          "role": "detector_experiment_result"
-        },
-        {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-20260822.md",
-          "sha256": "b1487d7c257dcebc11570808df3b85ad72ad2da389fbb97f5d148f3d95d65947",
-          "role": "authorial_flow_input"
-        },
-        {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V2-PRESERVATION-20260822.json",
-          "sha256": "b64d116524b95e0148604bebfbb22c7b5fb29a90406b2f8ec1740e7dd064f2f6",
-          "role": "preservation_proof"
-        },
-        {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-20260822.md",
-          "sha256": "52a63183d11f9aad144bf0f3a9d30366b890d48cba04e818424f9692edae349e",
-          "role": "authorial_flow_input"
-        },
-        {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V3-PRESERVATION-20260822.json",
-          "sha256": "902c8e221adc6ba0f8537e6176d96b72a33a8f75b9b13a28ccc18deb3be57b74",
-          "role": "preservation_proof"
-        },
-        {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-20260822.md",
-          "sha256": "67681e72502113b12aa79eaa0959427354a4074fd43983a8e0d97fa02dc0c4cd",
-          "role": "authorial_flow_input"
-        },
-        {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V4-PRESERVATION-20260822.json",
-          "sha256": "e197329f263b6eb970b2e6e947116409753721ccee39db0be1d97c5d4351613d",
-          "role": "preservation_proof"
-        },
-        {
           "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-20260822.md",
           "sha256": "85caf10bb4f973cf9130a05bf20f0fe74297a5ab467e566e327a9556ecec51f2",
           "role": "authorial_flow_input"
-        },
-        {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-PRESERVATION-20260822.json",
-          "sha256": "5af954f5be94c56f07de20efc9be00fc69c8a5f4fe62b283dad989d5e993c992",
-          "role": "preservation_proof"
         }
       ]
     }
