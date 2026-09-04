@@ -1,19 +1,29 @@
 {
   "schema_version": 1,
   "article_id": "somatic-therapies",
-  "locked_passages": [],
+  "locked_passages": [
+    {
+      "id": "trauma-memory-therapies-owner-accepted-20260904",
+      "text": "# The Dominant Trauma-Memory Therapies Are Missing Something\n\nCurrently, as a PTSD or cPTSD patient, your health insurance (if you're lucky enough to have it) might cover the most scientifically validated trauma therapies: Eye Movement Desensitization and Reprocessing (EMDR) and trauma-focused Cognitive Behavioral Therapies.\n\nAll of these focus on the trauma memory itself, reactivating it in order to change the meaning and/or the processing and response to it. Their logic is simple: slowly increase your exposure to painful memories until you can fully re-live the experience without overwhelming your nervous system. The CBT trauma therapies also use regular CBT to re-narrate the meaning of the experiences, so that, for example, being abused as a child no longer creates a story that \"I deserve abuse.\"\n\nThose therapies do show meaningful impact for many people in terms of reducing hyperarousal, and sometimes dissociation. But there are two main problems with them that\nPeter Levine, et al. have [explained](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00093/full). On the one hand, as Levine points out, exposure desensitization therapy can itself be re-traumatizing, which isn't well-captured in the positive evidence, because reasons for dropout and adverse events were often poorly or inconsistently reported. On the other hand, even when these trauma-memory approaches \"work,\" they are working against the body's understanding of things by creating new cognitive-behavioral patterns that suppress the old conditioned fear responses as they come up. That can produce a reduction of symptoms without solving the root of them.\n\nThe philosophy behind somatic therapies starts from the other end. It assumes that the body actually knows how to release the tension it has stored. Instead of treating dissociation and hyperarousal as symptom endpoints to reduce, they use them to diagnose the structure of nervous system dysregulation. In Levine's SIBAM model (from Unspoken Voice), we can understand how dissociation and hyperarousal actually work by splitting up our ordinary holistic experience into five layers. Dissociation is when these layers are not well-connected. Hyperarousal is when channels are so tightly linked that one rapidly activates the others:\nSensation: feelings inside the body, like tension, balance, heat, etc.\nImage: what you see, remember, dream\nBehavior: voluntary, involuntary, and crucially, actions that got aborted mid-stream during the traumatic incident.\nAffect: emotions, like fear, anger, grief, disgust, and joy. Also bodily feelings like vulnerability, hyper-vigilant panic, or profound relief.\nMeaning: the story that explains all of these, containing beliefs and judgements.\n\nWith this therapeutic model, one can direct their attention toward  individual layers of experience that are either flattened/ignored, or hogging the show.\n\nLevine and many other somatic theorists believe that once the body can fully feel itself and unleash the energy that got stuck, the meaning layer that CBT addresses often handles itself. EMDR also works at the bodily level and allows the meaning level to handle itself, but it uses the body more as a barometer and metabolizer of distress encoded in memory networks rather than as the primary instrument of finishing the action that got blocked by trauma.\n\nHowever, other somatic therapists and even Levine himself (in academic writing like the article linked), agree that re-evaluating the meanings and narratives around trauma can still be useful for many people, especially if the bottom-up process is honored first or concurrently.",
+      "sha256": "7a380cb33b9f526f6f099c5f2d5f641dedbf13c2e93192d4950a498bc4fec50c"
+    }
+  ],
   "protected_functions": [
     {
       "id": "introduction-owner-final-20260902",
       "description": "Preserve the exact owner-final Introduction in articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt as controlling authority for that bounded section until exact raw-editor HTML assembly is completed. Do not reconstruct it from an older model candidate."
     },
     {
+      "id": "trauma-memory-therapies-owner-accepted-20260904",
+      "description": "Preserve the exact owner-accepted section `The Dominant Trauma-Memory Therapies Are Missing Something` from articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md. Do not reconstruct its cadence or reopen specialist-level protocol distinctions unless Joel asks or materially new contradictory evidence changes the reader-relevant argument. Ordinary mechanical cleanup remains allowed during final assembly."
+    },
+    {
       "id": "cbt-somatic-methodological-fork",
-      "description": "Preserve the owner-accepted article argument that CBT/exposure have real strengths in reality testing, behavioral experiments, prediction testing, avoidance work, and cognitive updating, but were inadequate as a complete account/treatment of trauma; somatic alternatives were developed to address processes those approaches missed. Bodily signals deserve investigation rather than automatic obedience or automatic dismissal. CBT is cross-cutting, not confined to Stage 5."
+      "description": "Preserve the owner-accepted article argument that mainstream trauma-memory therapies have real strengths but are incomplete as a complete account/treatment of trauma; somatic alternatives were developed to address processes those approaches missed. Bodily signals deserve investigation rather than automatic obedience or automatic dismissal. CBT/reality-testing is cross-cutting, not confined to Stage 5."
     },
     {
       "id": "se-inadequacy-genealogy",
-      "description": "Preserve the owner-accepted interpretation that Somatic Experiencing was developed to address inadequacies in prevailing cognitive/verbal/exposure approaches, while not misstating CBT/exposure as useless. Payne/Levine/Crane-Godreau's explicit critique of simple conditioning/talk-therapy adequacy and bottom-up alternative supports this interpretation. Do not require a literal one-sentence motive declaration before allowing the supported causal inference."
+      "description": "Preserve the owner-accepted interpretation that Somatic Experiencing was developed to address inadequacies in prevailing cognitive/verbal/exposure approaches, while not misstating those approaches as useless. Payne/Levine/Crane-Godreau's explicit critique of simple conditioning/talk-therapy adequacy and bottom-up alternative supports this interpretation. Do not require a literal one-sentence motive declaration before allowing the supported causal inference."
     },
     {
       "id": "five-stage-map-provisional",
@@ -46,6 +56,6 @@
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel finalized the Introduction on 2026-09-02. On 2026-09-03 he accepted the whole-sequence five-stage architecture, rejected `job`, accepted retiring the duplicate Map section, then accepted the larger CBT/somatic epistemology reorganization. He directly corrected the model's overly narrow reading of the SE genealogy: existing cognitive/verbal/exposure approaches were inadequate as a complete trauma model/treatment, and this inadequacy is part of why somatic alternatives such as SE were developed. The overall article remains working, not owner-final or published."
+    "evidence": "Joel finalized the Introduction on 2026-09-02. On 2026-09-03 he accepted the whole-sequence five-stage architecture and CBT/somatic reorganization. On 2026-09-04, after re-authoring the saturated CBT section himself and resolving the remaining material factual/label issues, he supplied the accepted exact section `The Dominant Trauma-Memory Therapies Are Missing Something`. The overall article remains working, not owner-final or published."
   }
 }
