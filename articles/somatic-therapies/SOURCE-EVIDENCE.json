@@ -4,7 +4,7 @@
   "claims": [
     {
       "id": "authority-master-identity",
-      "claim": "The registered raw-editor working master remains r01-candidate as the source baseline, but current owner overrides supersede its Introduction, map architecture, accepted trauma-memory methodological section, and Jules/MCT early-section addition until final editor-HTML reconciliation.",
+      "claim": "The registered raw-editor working master remains r01-candidate as the source baseline, but current owner overrides supersede its Introduction, map architecture, accepted trauma-memory methodological section, Jules/MCT early-section addition, and standalone inner-child-overlap section until final editor-HTML reconciliation.",
       "support": {
         "path": "articles/somatic-therapies/master.html",
         "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202",
@@ -40,13 +40,25 @@
     },
     {
       "id": "five-stage-overview-retired-20260904",
-      "claim": "The standalone `The Five Stages at a Glance` section is retired because the actual five-stage map now appears in the Introduction in owner wording. After the trauma-memory section the article moves through the existing somatic/inner-child overlap and then the detailed stages.",
+      "claim": "The standalone `The Five Stages at a Glance` section is retired because the actual five-stage map now appears in the Introduction in owner wording. No second stage overview should appear after the trauma-memory section.",
       "support": {
         "path": "articles/somatic-therapies/ARCHITECTURE.md",
         "provenance": "owner proposal accepted through supplied replacement realization and continuation instruction on 2026-09-04"
       },
       "access_status": "complete",
       "certainty": "owner-accepted architecture"
+    },
+    {
+      "id": "inner-child-overlap-section-retired-20260904",
+      "claim": "Joel accepted retiring `Somatic Work and Inner-Child Reparenting Can Overlap` as a standalone section. Its unique functions are preserved by routing them into Stages 1–4 rather than rewriting another bridge; the old orientation/regulation/discharge/resourcing/processing/integration taxonomy is retired.",
+      "support": {
+        "owner_acceptance_path": "articles/somatic-therapies/experiments/SOMATIC-INNER-CHILD-OVERLAP-RETIREMENT-OWNER-ACCEPTANCE-20260904.md",
+        "architecture_path": "articles/somatic-therapies/ARCHITECTURE.md",
+        "source_baseline": "articles/somatic-therapies/master.html",
+        "provenance": "direct owner acceptance in Chat on 2026-09-04"
+      },
+      "access_status": "complete",
+      "certainty": "owner-accepted architecture; exact downstream stage prose remains working"
     },
     {
       "id": "jules-mct-processing-offramp-20260904",
@@ -137,6 +149,10 @@
     {
       "role": "jules_mct_offramp_owner_direction",
       "path": "articles/somatic-therapies/experiments/SOMATIC-JULES-MCT-OFFRAMP-OWNER-DIRECTION-20260904.md"
+    },
+    {
+      "role": "inner_child_overlap_retirement_owner_acceptance",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INNER-CHILD-OVERLAP-RETIREMENT-OWNER-ACCEPTANCE-20260904.md"
     },
     {
       "role": "cbt_body_owner_direction",
