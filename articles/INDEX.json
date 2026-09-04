@@ -66,11 +66,11 @@
         },
         "owner_locks": {
           "path": "articles/somatic-therapies/OWNER-LOCKS.json",
-          "sha256": "2dc42eebd1d23ebb3eed65b188a739d0fed9504fae30de75ee91d55f5e772153"
+          "sha256": "4fc0d77e7df4e07ff55a8f820d9bf87f9ecac143a0f38b20275a03148d70f3e9"
         },
         "source_evidence": {
           "path": "articles/somatic-therapies/SOURCE-EVIDENCE.json",
-          "sha256": "935a7360c5902289c02b329b2fa2e4334a7637bc351a879281928e74f951cfed"
+          "sha256": "8956a73448236872a6f229af13f234e3ec6b30b3f77bce6b822506a934d9f1d3"
         },
         "unincorporated_ideas": {
           "path": "articles/somatic-therapies/UNINCORPORATED-IDEAS.md",
@@ -78,7 +78,7 @@
         },
         "current_state": {
           "path": "articles/somatic-therapies/CURRENT-STATE.md",
-          "sha256": "17fdc64e80558ad1121afe7d43bf508e8eb6bb38d9a0b65e7211b033e22aaba3"
+          "sha256": "07747d6a84e3a185d6dcf325d729bfb65432dea7abf747ce5212df30166fa1ee"
         }
       },
       "review": {
@@ -122,7 +122,7 @@
         },
         {
           "path": "articles/somatic-therapies/ARCHITECTURE.md",
-          "sha256": "95ccb0ac1198dc1f5bfcdf8ac05d5a4135b8e9ca4be218e36c1c64a52a5371df",
+          "sha256": "c7292853929aa4162513a4b1e71ac93daccf9f2358d02d13b083b55416062641",
           "role": "architecture_map"
         },
         {
@@ -136,9 +136,9 @@
           "role": "authorial_flow_input"
         },
         {
-          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-20260822.md",
-          "sha256": "6c3fdfd995977fda79f4018639228603421f6182227201b2208aaa962ed59db0",
-          "role": "detector_experiment_design"
+          "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-STATE-PILOT-RESULTS-20260822.json",
+          "sha256": "23b950269b2e34ebb03317ac7f6dee9eb97d19e4f79da371417ed6d31fce404d",
+          "role": "detector_experiment_result"
         },
         {
           "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-20260822.md",
