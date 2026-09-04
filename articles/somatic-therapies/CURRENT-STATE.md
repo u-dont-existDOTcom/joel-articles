@@ -1,6 +1,6 @@
 # Somatic Therapies — Current State
 
-Updated: 2026-09-03
+Updated: 2026-09-04
 
 ## Authority / baseline
 
@@ -21,7 +21,7 @@ Updated: 2026-09-03
 - Joel is editing the old Substack version supplied on 2026-09-03; executable edit instructions must be translated to that visible version.
 - Joel rejected unexplained `used to resource` as opaque jargon.
 
-## Accepted CBT / somatic article reorganization — 2026-09-03
+## Accepted CBT / somatic article reorganization
 
 Owner direction:
 `experiments/SOMATIC-CBT-BODY-EPISTEMOLOGY-OWNER-DIRECTION-20260903.md`
@@ -32,29 +32,27 @@ Accepted architecture record:
 Current architecture authority:
 `ARCHITECTURE.md`
 
-Accepted article-level changes:
+Accepted article-level movement:
 
 1. Keep the owner-final Introduction unchanged.
 2. Keep the protected Professor Baby Sheep / head-shaving material in place.
-3. Insert new H1 **`The Elephant in the Therapy Room: CBT and Exposure`** immediately afterward.
-4. CBT/exposure get genuine credit for reality testing, behavioral experiments, prediction testing, avoidance work, exposure, and cognitive/narrative updating.
-5. The article also argues that cognitive/verbal/exposure approaches were **inadequate as a complete account and treatment of trauma**; alternative/somatic approaches were developed to address processes and information channels those approaches missed.
-6. The methodological synthesis rejects both automatic bodily obedience and automatic cognitive supremacy. Bodily signals deserve investigation; cognition/reality testing remains a tool for testing what needs testing.
-7. `The Five Stages at a Glance` follows as the **practical map**, not the whole intellectual thesis.
-8. CBT is cross-cutting and must not be confined to Stage 5. Stage 5 retains narrative/cognitive integration as a use of cognition for meaning, identity, values, agency, and life direction.
-9. `How I Judge Whether Any of This Is Helping` expands to carry symptoms/function plus quality-of-life and actual-life outcome questions.
-10. Optional Sky Hypnosis/Vagal Blitz remains at the end with its existing safety and anti-bypassing functions.
+3. Insert the CBT/somatic methodological section immediately afterward.
+4. Give CBT/exposure genuine credit for reality testing, behavioral experiments, prediction testing, avoidance work, trauma processing, and cognitive/narrative updating.
+5. Also argue that cognitive/verbal/exposure approaches were **inadequate as a complete account and treatment of trauma**; somatic alternatives were developed to address processes and information channels those approaches missed.
+6. Reject both automatic bodily obedience and automatic cognitive supremacy.
+7. `The Five Stages at a Glance` follows as the practical map rather than carrying the whole thesis.
+8. CBT is cross-cutting and must not be confined to Stage 5; Stage 5 retains narrative/cognitive integration as one later use.
+9. `How I Judge Whether Any of This Is Helping` carries symptoms/function plus quality-of-life and actual-life outcome questions.
+10. Optional Sky Hypnosis/Vagal Blitz remains at the end with its safety/anti-bypassing functions.
 
-## Owner correction on Somatic Experiencing genealogy / inadequacy
-
-Joel directly corrected the Chat's prior overly literal source reading.
+## Somatic Experiencing genealogy / inadequacy
 
 Accepted meaning:
 
 - `Inadequate` does not mean CBT/exposure are useless. It means they were inadequate as the **complete** model/treatment of trauma.
-- The Payne/Levine/Crane-Godreau 2015 primary source supports the article's causal/historical interpretation that SE was developed to address those inadequacies: it describes Levine developing SE from 1977 onward; contrasts SE's bottom-up method with primarily cognitive intervention and direct/intense exposure; calls the simple stimulus/response conditioning model inadequate for complex behavior; identifies a drawback in talk therapy for trauma; and describes the relevant regulatory system as relatively unaffected by rational thought.
-- Do not demand a literal sentence saying `I invented SE because CBT failed` when the source explicitly identifies the predecessor model's inadequacy and presents the new method around the missing mechanism.
-- Do not automatically assign identical genealogy to every embodied practice. Detailed TRE origin claims and other modality genealogies remain separately sourced when material.
+- Payne/Levine/Crane-Godreau (2015) supports the causal/historical interpretation that SE was developed to address those inadequacies: Levine developed SE from 1977 onward; the paper contrasts SE's bottom-up method with primarily cognitive intervention and direct/intense exposure; calls the simple stimulus/response conditioning model inadequate for complex behavior; identifies drawbacks in talk therapy for trauma; and describes the targeted regulatory system as relatively unaffected by rational thought.
+- Do not require a literal `I invented SE because CBT failed` sentence when the source explicitly identifies the predecessor model's inadequacy and presents a method around the missing mechanism.
+- Do not automatically assign identical genealogy to every embodied practice.
 
 Durable writing-process lesson:
 `experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-SUPPLEMENT-20260903-CBT-REORG.md`
@@ -64,72 +62,88 @@ Active enforcement supplement:
 
 ## CBT-section model-writing saturation — STOP CONDITION
 
-Two owner-facing model attempts for `The Elephant in the Therapy Room: CBT and Exposure` are rejected. After the second full conceptual rebuild, Joel judged the cadence the **same exact cadence**. Do not generate another model-authored version of this section from the prior semantic packet.
+Two owner-facing model attempts were rejected. After the second full conceptual rebuild, Joel judged the cadence the **same exact cadence**. Do not generate another model-authored version of this section from the prior semantic packet.
 
-## Fresh owner-authored CBT section realization — 2026-09-03
+## Current owner-authored CBT section — v2, 2026-09-04
 
-Joel supplied a new owner-authored section beginning:
+Joel supplied a second owner revision beginning:
 
 `# The Dominant Top-Down Exposure Therapies Are Missing Something`
 
-Exact owner source:
+Exact current owner source:
+`experiments/SOMATIC-CBT-OWNER-PROSE-20260904-V2.md`
+
+Prior v1 source remains historical:
 `experiments/SOMATIC-CBT-OWNER-PROSE-20260903.md`
 
+Current bounded factual/source audit:
+`experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260904-V2.md`
+
 Status:
-- **direct owner prose / source realization / not yet owner-final**;
-- this is now the controlling prose source for the unresolved CBT/somatic section, outranking both rejected model attempts;
-- preserve its thought movement and cadence; do not reconstruct it into the rejected model cadence.
+- **direct owner prose / controlling source realization / not yet owner-final**;
+- v2 outranks v1 and both rejected model attempts;
+- preserve its thought movement and cadence; do not reconstruct it into model cadence.
 
-Bounded factual/source audit:
-`experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260903.md`
+### Current factual disposition
 
-Audit conclusions requiring owner disposition/minimum-dose repair before promotion:
+Substantially repaired/strong:
 
-1. `All of these are exposure therapies` is inaccurate. PE is explicitly exposure-based; trauma-focused CBT is a family; EMDR is normally treated as a separate trauma-focused psychotherapy and should function as a bridge case rather than be forced into a pure top-down/exposure category.
-2. `slowly increase exposure ... then regular CBT` overgeneralizes the protocols. Trauma-focused CBT combines trauma-memory processing, emotion/meaning work and avoidance work in different ways; EMDR has its own eight-phase structure.
-3. The dropout critique is directionally supported but `drop-outs from the studies aren't studied` is false. Dropout is measured/meta-analysed; however, reasons for dropout and adverse events have often been poorly or inconsistently reported. Levine's re-traumatization critique should be attributed as his/SE's model rather than treated as settled evidence that exposure generally re-traumatizes patients.
-4. SIBAM itself is sound. Dissociation can be described as fragmentation/undercoupling; overcoupling can be associated with hyperarousal, but hyperarousal should not simply be defined as `the layers are too fused`. Dissociation/hyperarousal are manifestations/patterns of dysregulation rather than `root causes` themselves.
-5. The owner claim that cognitive meaning can often reorganize after bottom-up/autonomic/kinesthetic change is strongly supported by Payne/Levine/Crane-Godreau, which explicitly says cognitive re-evaluations often emerge spontaneously during or shortly after discharge while also preserving a role for cognitive restructuring.
-6. The draft's EMDR contrast (`body as barometer rather than intelligent instrument of self-healing`) is too reductive. EMDR's Adaptive Information Processing model itself assumes an innate information-processing/healing system and tracks physical sensations, beliefs, affect and imagery. Treat EMDR as a bridge case.
+- dropout/adverse-event wording is now defensible: reasons for dropout and adverse events have often been poorly or inconsistently reported;
+- dissociation/hyperarousal are now framed as patterns used to understand nervous-system dysregulation rather than `root causes`;
+- SIBAM list shape is legitimate model structure rather than a model-generated rhetorical taxonomy;
+- `meaning can often handle itself` after bottom-up/autonomic/kinesthetic change is strongly supported by Payne/Levine/Crane-Godreau, while explicit cognitive restructuring remains useful in some cases;
+- the EMDR/SE final contrast is much more nuanced in v2: EMDR uses the body as a `barometer and metabolizer of distress`, whereas SE gives special primacy to incomplete defensive action and biological completion.
 
-Cadence/editorial disposition:
-- this owner realization is the first current CBT-section version whose cadence should be preserved rather than reconstructed;
-- the SIBAM list is legitimate taxonomy driven by the actual model, not a model-generated rhetorical card sequence;
-- apply only owner-approved factual replacements, ordinary typo cleanup and link correction.
+Remaining minimum-dose factual issues:
+
+1. **Exposure scope:** EMDR contains deliberate trauma-memory activation / imaginal exposure, and PE is formally exposure-based. But current standard CPT is cognitive-only and does not require its former written trauma-account exposure component. `All of these are exposure therapies` is therefore too broad if `trauma-focused CBT` includes current CPT, unless `exposure` is explicitly being used in the loose sense of bringing trauma memories/meanings/cues into active therapeutic attention.
+2. **Top-down scope:** EMDR is not straightforwardly top-down under its own AIP model. AIP is memory-network/information-processing centered, includes body sensations, and posits an intrinsic neurophysiological self-healing system. The cleaner contrast is memory-/appraisal-centered versus SE's sensorimotor/autonomic-process-centered emphasis.
+3. **Shared protocol logic:** `slowly increase your exposure ... until you can fully re-live` does not accurately describe current CPT or standard EMDR and oversimplifies PE. PE uses repeated imaginal/in-vivo exposure; EMDR activates selected aspects of a target memory during bilateral stimulation; CPT focuses on trauma-related stuck points and can omit a trauma narrative.
+4. **CBT sequencing:** `The CBT trauma therapies then go further after that into regular CBT` is not generally correct. Cognitive processing/restructuring is integral to CPT rather than a later generic-CBT phase after exposure.
+5. **Suppression sentence:** `suppressing, ignoring, or arguing away feelings` is too broad for PE, EMDR, and CPT. Levine's stronger/source-faithful critique concerns cortical executive suppression plus conditioning/appraisal models that may fail to engage incomplete subcortical/autonomic/motor processes.
+6. **Re-traumatization attribution:** Payne/Levine/Crane-Godreau explicitly warn about flooding and potential re-traumatization. Keep this as Levine/SE's theoretical/clinical critique rather than presenting exposure as empirically established to generally re-traumatize patients.
+7. **SIBAM source:** SIBAM terminology itself is not contained in the 2015 Frontiers paper and needs its own direct source if retained as a named formal model.
+
+### EMDR / SE distinction now controlling
+
+Do not flatten either side:
+
+- EMDR clearly includes trauma-memory activation / imaginal exposure and body sensations. Its AIP model treats inadequately processed trauma memory networks — including images, beliefs, affect and physical sensations — as the central therapeutic target and posits intrinsic psychological self-healing through adaptive information processing.
+- SE treats trauma as maladaptive procedural/sensorimotor/autonomic organization and gives special causal/therapeutic primacy to interoceptive/proprioceptive tracking, autonomic regulation, subtle motor impulses, discharge and completion of incomplete defensive responses.
+- The difference is **not** `EMDR has information / SE has action but no information`; Levine explicitly discusses implicit/procedural memory.
+- Biological completion in SE need not mean theatrical physical reenactment; the 2015 source allows subtle movement and imagined completion.
 
 ## Current writing target
 
-The unresolved target remains the CBT/somatic methodological section, but the route has changed:
+The unresolved target remains this owner-authored CBT/somatic methodological section.
+
+Route:
 
 - **do not generate a fresh model section**;
-- reconcile the direct owner prose with the bounded factual audit;
-- once Joel accepts the factual repairs, preserve the resulting owner-edited text as the active/accepted section realization;
+- present/resolve only the bounded factual issues above;
+- once Joel accepts the factual repairs, preserve the resulting owner-edited text as the accepted section realization;
 - then continue to `The Five Stages at a Glance`.
 
 Exact placement in Joel's old Substack copy remains after the protected head-shaving/loveyhuasca + Share material and before the five-stage overview.
 
 ## Later structural tasks already accepted
 
-- `The Five Stages at a Glance` follows the new CBT section.
+- `The Five Stages at a Glance` follows the CBT section.
 - Stage 1 keeps SE, trauma-sensitive/restorative yoga, gentle TRE/shaking, stop/orient/return capacity, and the anti-endless-stabilization warning.
 - Stage 2 keeps EFT, Shaking Qigong/Shaking Medicine, and the Discharge → Settle stack.
-- Stage 3 keeps Brainspotting; Sensorimotor and Focusing are strong bounded inclusion candidates requiring exact later editorial/source decisions.
+- Stage 3 keeps Brainspotting; Sensorimotor and Focusing remain bounded inclusion candidates.
 - Stage 4 keeps EMDR, neurological de-armoring support, post-session integration/safety, and the discrete-event exception.
-- Stage 5 becomes integration/differentiation/life-building; retire the implication that thinking first becomes legitimate there.
+- Stage 5 becomes integration/differentiation/life-building; thinking/reality testing is not confined there.
 - Re-evaluate the later one-line recap `Regulation → discharge → processing → integration → meaning` as potentially redundant.
 
-## Humanization gates still active
+## Humanization / detector boundary
 
-Before any later model-authored Somatic prose read the active Somatic writer-state and lesson-contract family plus `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md` and current Pangram-humanization lessons. For the current owner-authored CBT section, use minimum-dose editorial support rather than model reconstruction.
-
-## Detector boundary
-
-Historical registered r01 Pangram 4 result remains AI `0.9776151180`, Human `0.0223849081`, AI-assisted `0.0`. The later owner-final Introduction and current owner CBT prose have no matching exact-boundary Pangram measurement in this task record.
+For the current owner-authored CBT section, use minimum-dose factual/editorial support rather than model reconstruction. Historical registered r01 Pangram 4 remains AI `0.9776151180`, Human `0.0223849081`, AI-assisted `0.0`. The owner-final Introduction and current owner CBT prose have no matching exact-boundary Pangram measurement. Do not run Pangram unless Joel explicitly asks.
 
 ## Next safe action
 
-Present the bounded factual corrections to Joel without rewriting the section. After owner disposition, persist the corrected owner prose. Do not run Pangram. Do not update `master.html` yet.
+Resolve the remaining factual issues in v2 without rewriting its cadence. Preserve any owner-edited v3 exactly. Do not update `master.html` yet.
 
 ## Recovery rule
 
-After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-FINAL-INTRODUCTION-20260902.txt`, `ARCHITECTURE.md`, `experiments/SOMATIC-CBT-OWNER-PROSE-20260903.md`, and `experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260903.md`. GitHub is canonical; chat reconstruction is not authority.
+After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-FINAL-INTRODUCTION-20260902.txt`, `ARCHITECTURE.md`, `experiments/SOMATIC-CBT-OWNER-PROSE-20260904-V2.md`, and `experiments/SOMATIC-CBT-OWNER-PROSE-FACTUAL-AUDIT-20260904-V2.md`. GitHub is canonical; chat reconstruction is not authority.
