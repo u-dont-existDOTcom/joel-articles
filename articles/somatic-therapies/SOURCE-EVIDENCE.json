@@ -4,7 +4,7 @@
   "claims": [
     {
       "id": "authority-master-identity",
-      "claim": "The registered raw-editor working master remains r01-candidate as the source baseline, but current owner overrides supersede its Introduction, map terminology/architecture, and the accepted trauma-memory methodological section until final editor-HTML reconciliation.",
+      "claim": "The registered raw-editor working master remains r01-candidate as the source baseline, but current owner overrides supersede its Introduction, map terminology/architecture, the accepted trauma-memory methodological section, and the later Jules/MCT early-section addition until final editor-HTML reconciliation.",
       "support": {
         "path": "articles/somatic-therapies/master.html",
         "sha256": "1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe84275e136ff5202",
@@ -15,7 +15,7 @@
     },
     {
       "id": "owner-final-introduction-20260902",
-      "claim": "Joel supplied the final Introduction directly on 2026-09-02; it remains controlling for that bounded section.",
+      "claim": "Joel supplied the final Introduction directly on 2026-09-02; it remains controlling for that bounded section and was not reopened by the Jules/MCT addition.",
       "support": {
         "path": "articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt",
         "sha256": "d16bb3b1d9091b70e17eb4b3163951a7d2e0fb4e10acb2054d1e5919bbcb32c5",
@@ -26,13 +26,30 @@
     },
     {
       "id": "five-stage-architecture-20260903",
-      "claim": "Joel accepted `stage` as the reader-facing label, `The Five Stages at a Glance` as the overview heading, retirement of the duplicate standalone Map section, and placement of the trauma-memory methodological section before the five-stage practical map.",
+      "claim": "Joel accepted `stage` as the reader-facing label, `The Five Stages at a Glance` as the overview heading, retirement of the duplicate standalone Map section, and placement of the trauma-memory methodological section before the five-stage practical map. On 2026-09-04 he added a cross-stage option to stop processing for now and return attention to ordinary life rather than creating a sixth stage.",
       "support": {
         "path": "articles/somatic-therapies/ARCHITECTURE.md",
-        "provenance": "direct owner acceptance in Chat on 2026-09-03 and 2026-09-04"
+        "owner_direction_path": "articles/somatic-therapies/experiments/SOMATIC-JULES-MCT-OFFRAMP-OWNER-DIRECTION-20260904.md",
+        "provenance": "direct owner acceptance/correction in Chat on 2026-09-03 and 2026-09-04"
       },
       "access_status": "complete",
       "certainty": "owner-accepted article architecture"
+    },
+    {
+      "id": "jules-mct-processing-offramp-20260904",
+      "claim": "Joel added a Jules Evans / Metacognitive Therapy paragraph to the early `Don’t be so serious, you silly willy!` area to establish that therapy/analysis can itself become a rumination loop and that sometimes the useful move is to stop processing for now and return attention to ordinary life; he also preserves the opposite possibility that `stop analyzing` can become avoidance of painful material that does need attention.",
+      "support": {
+        "owner_direction_path": "articles/somatic-therapies/experiments/SOMATIC-JULES-MCT-OFFRAMP-OWNER-DIRECTION-20260904.md",
+        "jules_evans_source": "Jules Evans, How to Stop Thinking, Ecstatic Integration, https://www.ecstaticintegration.org/p/how-to-think-less",
+        "mct_sources": [
+          "Wells A. Detached mindfulness in cognitive therapy: A metacognitive analysis and ten techniques. Journal of Rational-Emotive & Cognitive-Behavior Therapy. 2005;23(4). DOI: 10.1007/s10942-005-0018-6.",
+          "Wells A, Matthews G. Attention and Emotion: A Clinical Perspective. 1994. Source model for detached mindfulness / S-REF.",
+          "Detached mindfulness as a stand-alone intervention: a systematic review and meta-analysis. Front Psychiatry. 2026; DOI: 10.3389/fpsyt.2026.1771705."
+        ],
+        "factual_correction": "The first owner version said MCT was based on Buddhist beginner meditation. Chat source review found detached mindfulness arose from Wells/Matthews metacognitive theory and differs from meditation-based mindfulness; Joel replied `corrected`. Exact corrected local Substack wording was not repasted into Chat."
+      },
+      "access_status": "owner_function_complete_exact_local_bytes_pending_final_source_reconciliation",
+      "certainty": "owner-accepted architectural function; exact corrected paragraph wording remains local to the owner's Substack draft"
     },
     {
       "id": "owner-accepted-trauma-memory-section-20260904",
@@ -140,6 +157,11 @@
       "sha256": "4f40c602e5794ab6c9efe330ffdd2607f88f8fb9a08d497b0cc232e32e0f96ef"
     },
     {
+      "role": "jules_mct_offramp_owner_direction",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-JULES-MCT-OFFRAMP-OWNER-DIRECTION-20260904.md",
+      "provenance": "direct owner addition/correction in Chat on 2026-09-04"
+    },
+    {
       "role": "cbt_body_owner_direction",
       "path": "articles/somatic-therapies/experiments/SOMATIC-CBT-BODY-EPISTEMOLOGY-OWNER-DIRECTION-20260903.md"
     },
@@ -150,6 +172,6 @@
   ],
   "external_claim_review": {
     "status": "pending",
-    "note": "The trauma-memory methodological section has received bounded source review sufficient for the accepted owner argument. This is not a complete article-wide citation/health review. SIBAM formal-model citation remains to be cleaned up; detailed TRE origin claims and later modality inclusions require normal bounded checks when drafted."
+    "note": "The trauma-memory methodological section and Jules/MCT off-ramp have received bounded source review sufficient for their current owner arguments. This is not a complete article-wide citation/health review. Exact corrected Jules/MCT Substack bytes, SIBAM formal-model citation, detailed TRE origin claims, and later modality inclusions require their normal source cleanup when assembled."
   }
 }
