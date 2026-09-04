@@ -8,7 +8,7 @@ Registered master SHA-256: `1e7e94717f40e7a4de77974a896f600a1bf2769d9c1846cbe842
 ```mermaid
 flowchart TD
     A[Owner-final Introduction: bodily resolution + coarse recovery sequence + flexible five-part map] --> B[Play / Professor Baby Sheep / personal body-work note]
-    B --> C[CBT and Exposure: cognitive strengths, inadequacy as complete trauma model, somatic methodological fork]
+    B --> C[The Dominant Trauma-Memory Therapies Are Missing Something]
     C --> D[The Five Stages at a Glance: practical map]
     D --> E[Somatic work + inner-child reparenting overlap]
     E --> S1[Stage 1: stay present and keep choice]
@@ -22,7 +22,7 @@ flowchart TD
 
 ## Governing movement
 
-The Introduction establishes that trauma involves bodily processes and that Joel uses a flexible five-part map. After the protected play/personal interruption, the article now explains **why somatic approaches exist at all** by putting them beside CBT/exposure rather than treating CBT as a late afterthought.
+The Introduction establishes that trauma involves bodily processes and that Joel uses a flexible five-part map. After the protected play/personal interruption, the article now explains **why somatic approaches exist at all** by putting them beside dominant trauma-memory therapies rather than treating CBT as a late afterthought.
 
 CBT/exposure retain real strengths: reality testing, behavioral experiments, testing feared predictions, changing avoidance, and cognitive/narrative updating. The accepted argument is also that cognitive/verbal/exposure approaches were **inadequate as a complete account and treatment of trauma**; if they had exhausted the problem, there would have been much less reason to develop alternative somatic methods. Somatic Experiencing is the clearest example: its own co-authored theoretical account critiques the adequacy of simple conditioning/talk-therapy models for the processes it targets and develops a bottom-up alternative/complement.
 
@@ -34,19 +34,24 @@ The five stages then become the **practical application** of that argument: give
 
 ## CBT / somatic methodological section
 
-Accepted H1: `The Elephant in the Therapy Room: CBT and Exposure`
+Accepted H1: `The Dominant Trauma-Memory Therapies Are Missing Something`
 
 Placement: immediately after Professor Baby Sheep/head-shaving/share material and before `The Five Stages at a Glance`.
 
 Required functions:
 
-- credit CBT/exposure accurately;
-- make the inadequacy argument without turning it into `CBT is useless`;
+- credit mainstream trauma-memory therapies accurately;
+- make the inadequacy argument without turning it into `CBT/EMDR/PE are useless`;
 - show the epistemic danger of deciding too early that a bodily signal is either truth or noise;
 - use SE as the clearest methodological/historical contrast;
 - compare different therapies by the question/experiment they bring without building equalized modality cards or implying evidence equivalence;
 - keep detailed TRE genealogy in its own later location;
 - `CBT Dad` is optional, not required.
+
+Current terminology rule:
+
+- `Exposure` may be used in Joel's broad functional sense of deliberately contacting avoided traumatic material, but that cannot serve as the main contrast because SE also approaches trauma-associated material through titration.
+- The stronger distinction is what each therapy is trying to make happen once traumatic material is activated: extinction/inhibitory learning, cognitive restructuring, adaptive memory reprocessing, or sensorimotor/autonomic completion and regulation.
 
 Potential comparison set: CBT, SE, TRE, Focusing, Sensorimotor Psychotherapy, Alexander Technique, 5Rhythms. Focusing and Sensorimotor are candidates for later practical Stage-3 inclusion; Alexander/5Rhythms remain adjacent embodied examples unless a later bounded decision expands them.
 
