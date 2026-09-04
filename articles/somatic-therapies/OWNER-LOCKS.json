@@ -14,6 +14,10 @@
       "description": "Preserve the exact owner-final Introduction in articles/somatic-therapies/OWNER-FINAL-INTRODUCTION-20260902.txt as controlling authority for that bounded section until exact raw-editor HTML assembly is completed. Do not reconstruct it from an older model candidate."
     },
     {
+      "id": "jules-mct-processing-offramp-20260904",
+      "description": "Preserve the function of Joel's Jules Evans / MCT addition in the early `Don’t be so serious, you silly willy!` area: sometimes therapy/analysis itself sustains the rumination loop, and the useful move is to stop processing for now and return attention to ordinary life; conversely, `stop analyzing` can itself become avoidance when painful material still needs to be faced. This is a cross-stage off-ramp, not Stage 0 or a sixth stage. Exact corrected Substack wording was not pasted back after Joel corrected the MCT-history sentence, so protect the function rather than reconstructing exact bytes by inference."
+    },
+    {
       "id": "trauma-memory-therapies-owner-accepted-20260904",
       "description": "Preserve the exact owner-accepted section `The Dominant Trauma-Memory Therapies Are Missing Something` from articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md. Do not reconstruct its cadence or reopen specialist-level protocol distinctions unless Joel asks or materially new contradictory evidence changes the reader-relevant argument. Ordinary mechanical cleanup remains allowed during final assembly."
     },
@@ -27,11 +31,11 @@
     },
     {
       "id": "five-stage-map-provisional",
-      "description": "Preserve the five-stage therapeutic map as Joel's practical second-half map, not the article's entire intellectual thesis and not a scientifically validated universal protocol. Joel rejected `job` article-wide and accepted `stage` as the reader-facing label."
+      "description": "Preserve the five-stage therapeutic map as Joel's practical second-half map, not the article's entire intellectual thesis and not a scientifically validated universal protocol. Joel rejected `job` article-wide and accepted `stage` as the reader-facing label. The map describes therapeutic work when therapeutic work is helping; it does not eliminate the cross-stage option to stop processing and return to ordinary life."
     },
     {
       "id": "capacity-not-waiting-room",
-      "description": "Preserve the warning that capacity-building should not become indefinite avoidance of actual trauma treatment; its accepted destination is Stage 1."
+      "description": "Preserve the warning that capacity-building should not become indefinite avoidance of actual trauma treatment; its accepted destination is Stage 1. Balance this with the Jules/MCT off-ramp: stopping therapy can be healthy disengagement or avoidance depending on what actually happens."
     },
     {
       "id": "inner-child-overlap",
@@ -56,6 +60,6 @@
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel finalized the Introduction on 2026-09-02. On 2026-09-03 he accepted the whole-sequence five-stage architecture and CBT/somatic reorganization. On 2026-09-04, after re-authoring the saturated CBT section himself and resolving the remaining material factual/label issues, he supplied the accepted exact section `The Dominant Trauma-Memory Therapies Are Missing Something`. The overall article remains working, not owner-final or published."
+    "evidence": "Joel finalized the Introduction on 2026-09-02; accepted the five-stage architecture and CBT/somatic reorganization on 2026-09-03; supplied the accepted owner-authored trauma-memory section on 2026-09-04; and then added/corrected the Jules Evans / MCT anti-rumination paragraph in the protected early section, establishing a cross-stage option to stop processing for now and return to ordinary life. The overall article remains working, not owner-final or published."
   }
 }
