@@ -12,6 +12,20 @@ Updated: 2026-09-05
 - `master.html` remains intentionally stale until final article-wide Substack/raw-HTML assembly. Do not reconcile it section-by-section.
 - Do not run Pangram unless Joel explicitly asks.
 
+## Latest owner correction — humanize before delivery
+
+On 2026-09-05 Joel asked whether the proposed Sensorimotor Psychotherapy and Focusing paragraphs had been humanized first and instructed: `pls always try to humanize first.` This is a process correction, not a rejection of either modality or acceptance of the proposed Stage-3 edits.
+
+Required active supplement:
+`experiments/SOMATIC-HUMANIZE-BEFORE-DELIVERY-SUPPLEMENT-20260905.md`
+
+Every new model-authored article sentence, including short additions inside a minimum-dose plan, must undergo the existing literal-candidate humanization and adversarial admission checks before owner delivery. Minimum dose limits the changed scope; it does not waive those checks. Preserve accepted owner prose. No Pangram call is authorized.
+
+The two first Stage-3 additions are withdrawn by the assistant for inadequate humanization, not recorded as owner-rejected. One replacement attempt and its bounded preservation/admission record are in:
+`experiments/SOMATIC-STAGE3-ADDITIONS-HUMANIZATION-ATTEMPT-20260905.md`
+
+The replacement is model-authored, unmeasured, and pending owner review. Same-context review is not independent or detector certification. Do not advance to Stage 4 or install the other Stage-3 proposed deletions on the strength of this process correction.
+
 ## Current Introduction architecture
 
 Joel directly replaced the earlier coarse three-step recovery sequence with this five-stage realization:
@@ -153,6 +167,8 @@ The current r01 section contains EFT, Shaking Qigong/Shaking Medicine, and the D
 
 Owner map wording: `Work with trauma feelings before the story comes in`
 
+Working Stage-3 proposal: `experiments/SOMATIC-STAGE3-MINIMUM-DOSE-EDIT-PLAN-20260905.md`. Inclusion, proposed deletions, and exact wording remain pending owner review.
+
 Keep Brainspotting. Sensorimotor Psychotherapy and Focusing remain strong bounded inclusion candidates. Carry the resource-oriented versus highly charged Brainspotting distinction into the Stage 3 → Stage 4 hinge.
 
 ### Stage 4 — Memories You Can Actually Point To
@@ -201,8 +217,8 @@ The revised full Introduction is unmeasured. The accepted trauma-memory section 
 
 ## Next writing target
 
-The active writing target is **Stage 2 — Regulate or Discharge Accumulated Activation Energy**. The minimum-dose plan exists but is not owner-accepted yet. Do not reconstruct the Stage-2 modality subsections.
+The immediate active target is **the Sensorimotor Psychotherapy and Focusing additions within Stage 3**. Joel's latest request requires humanization before delivery. One revised attempt has been prepared for owner review; neither its wording nor the whole Stage-3 plan is owner-accepted. The earlier `continue` allowed progress beyond the Stage-2 proposal without making every Stage-2 sentence an exact wording lock.
 
 ## Recovery rule
 
-After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-ACCEPTED-INTRODUCTION-20260904.md`, `OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md`, `ARCHITECTURE.md`, the Jules/MCT owner-direction record, the five-stage owner source, the inner-child-overlap retirement acceptance, `experiments/SOMATIC-STAGE1-MINIMUM-DOSE-EDIT-PLAN-20260904.md`, `experiments/SOMATIC-STAGE2-MINIMUM-DOSE-EDIT-PLAN-20260905.md`, and active Somatic writer-state/lesson-contract supplements. GitHub is canonical; chat reconstruction is not authority.
+After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-ACCEPTED-INTRODUCTION-20260904.md`, `OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md`, `ARCHITECTURE.md`, the Jules/MCT owner-direction record, the five-stage owner source, the inner-child-overlap retirement acceptance, `experiments/SOMATIC-STAGE1-MINIMUM-DOSE-EDIT-PLAN-20260904.md`, `experiments/SOMATIC-STAGE2-MINIMUM-DOSE-EDIT-PLAN-20260905.md`, `experiments/SOMATIC-HUMANIZE-BEFORE-DELIVERY-SUPPLEMENT-20260905.md`, and the other active Somatic writer-state/lesson-contract supplements. GitHub is canonical; chat reconstruction is not authority.
