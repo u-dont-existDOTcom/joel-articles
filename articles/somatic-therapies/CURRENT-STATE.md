@@ -1,6 +1,6 @@
 # Somatic Therapies — Current State
 
-Updated: 2026-09-04
+Updated: 2026-09-05
 
 ## Authority / baseline
 
@@ -88,7 +88,11 @@ SIBAM formal naming still needs a direct Levine/*In an Unspoken Voice* or other 
 
 Owner map wording: `Stay present so you can stay with what happens and choose what comes next.`
 
-Current raw-editor Stage 1 begins at `Job 1: Stay Present and Keep Choice` and contains Somatic Experiencing, trauma-sensitive/restorative yoga, and gentle shaking/TRE. It must be reconciled to current architecture rather than copied unchanged.
+Current raw-editor Stage 1 begins at `Job 1: Stay Present and Keep Choice` and contains Somatic Experiencing, trauma-sensitive/restorative yoga, and gentle shaking/TRE. The accepted Stage-1 edit direction is:
+
+`experiments/SOMATIC-STAGE1-MINIMUM-DOSE-EDIT-PLAN-20260904.md`
+
+Joel accepted that minimum-dose direction on 2026-09-05 and added a yoga/MCT correction.
 
 Keep:
 
@@ -108,19 +112,42 @@ Route in from the retired overlap section:
 - Nurturer/Protector access and one ordinary Protector action;
 - gentle present-focused self-hypnosis that does not pull the person deep into memories or child dialogue.
 
-Current Stage 1 issues to resolve before acceptance:
+New owner correction — yoga as functional interoception / MCT bridge:
 
-- change `Job 1` terminology to `Stage 1`;
-- remove any implication that a fixed three-to-six-month stabilization period is a norm or countdown; preserve only the useful point that some people need substantial capacity-building while others with one stable discrete target may not;
-- make sure capacity-building does not become the opposite error of endless preparation/avoidance;
-- avoid duplicating the Introduction's map explanation or the Jules/MCT off-ramp;
-- do not turn the routed inner-child material into a new checklist or bridge section.
+- yoga still contains interoception, but that body attention can remain functional rather than becoming obsessive self-monitoring;
+- the practical questions are things like `how does this feel when I move`, whether it helps someone relax better, sit straighter, meditate better, and get in shape at the same time;
+- put this inside the existing yoga subsection rather than adding another general MCT paragraph;
+- current minimum-dose assistant realization is recorded in the Stage-1 edit plan and remains assistant surface until Joel separately locks exact wording.
+
+Current Stage 1 issues already resolved at the direction level:
+
+- `Job 1` → `Stage 1`;
+- remove fixed three-to-six-month countdown language;
+- preserve capacity-building without making it endless preparation/avoidance;
+- route the inner-child capacity paragraph directly into Stage 1;
+- use yoga as the functional-interoception bridge;
+- preserve the remaining modality prose rather than reconstructing it.
 
 ### Stage 2 — Regulate or Discharge Accumulated Activation
 
 Owner map wording: `Regulate or discharge accumulated activation energy`
 
-Keep EFT, Shaking Qigong/Shaking Medicine, and the Discharge → Settle stack. Keep TRE-specific genealogy local to TRE/shaking. Route the body-loosening / solar-plexus / heart-loop owner material here.
+The active working plan is:
+
+`experiments/SOMATIC-STAGE2-MINIMUM-DOSE-EDIT-PLAN-20260905.md`
+
+Status: **working candidate / not yet owner-accepted**.
+
+The current r01 section contains EFT, Shaking Qigong/Shaking Medicine, and the Discharge → Settle stack. The working minimum-dose plan:
+
+- renames the heading to the owner Stage-2 wording;
+- removes the stale claim that Stage 2 is `the ordinary-life part`, because ordinary life is available throughout the map;
+- keeps EFT essentially unchanged;
+- removes `job` terminology from the Shaking Qigong distinction while preserving the small Stage-1 dose versus regular Stage-2 discharge use;
+- keeps the qigong evidence-plane paragraphs and catharsis warning;
+- keeps the Discharge → Settle stack, changing only stale `Job 1` reference;
+- routes the protected solar-plexus/abdomen softening and heart-to-younger-part love-loop material to the end of Stage 2;
+- does not require a bodily opening to become another dive into pain.
 
 ### Stage 3 — Trauma Feelings Before the Story Comes In
 
@@ -160,6 +187,7 @@ Retire the later recap `Regulation → discharge → processing → integration 
 
 - Professor Baby Sheep / `Don’t be so serious, you silly willy!`, head-shaving/loveyhuasca, Louka/Shaking, and intentional `one-one` remain protected.
 - The retired overlap section's Nurturer/Protector, borrowed-adulthood, present-focused self-hypnosis, heart-loop, Brainspotting-dose, and deep-memory safety functions remain protected at their routed stage destinations.
+- Stage-1 yoga now also carries the owner-directed functional-interoception bridge to the Jules/MCT anti-rumination point.
 - Safety warnings stay adjacent to the practices/stages they govern.
 - Evidence planes remain distinct without repetitive caveats.
 - All eight native/editor objects retain identity and placement until final Substack/raw-HTML assembly.
@@ -173,8 +201,8 @@ The revised full Introduction is unmeasured. The accepted trauma-memory section 
 
 ## Next writing target
 
-The active writing target is **Stage 1 — Stay Present and Keep Choice**. Work from the literal raw-editor source and the routed inner-child functions above. Do not create another bridge section before it.
+The active writing target is **Stage 2 — Regulate or Discharge Accumulated Activation Energy**. The minimum-dose plan exists but is not owner-accepted yet. Do not reconstruct the Stage-2 modality subsections.
 
 ## Recovery rule
 
-After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-ACCEPTED-INTRODUCTION-20260904.md`, `OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md`, `ARCHITECTURE.md`, the Jules/MCT owner-direction record, the five-stage owner source, the inner-child-overlap retirement acceptance, and active Somatic writer-state/lesson-contract supplements. GitHub is canonical; chat reconstruction is not authority.
+After interruption, read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `articles/INDEX.json`, this file, `OWNER-LOCKS.json`, `SOURCE-EVIDENCE.json`, `OWNER-ACCEPTED-INTRODUCTION-20260904.md`, `OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md`, `ARCHITECTURE.md`, the Jules/MCT owner-direction record, the five-stage owner source, the inner-child-overlap retirement acceptance, `experiments/SOMATIC-STAGE1-MINIMUM-DOSE-EDIT-PLAN-20260904.md`, `experiments/SOMATIC-STAGE2-MINIMUM-DOSE-EDIT-PLAN-20260905.md`, and active Somatic writer-state/lesson-contract supplements. GitHub is canonical; chat reconstruction is not authority.
