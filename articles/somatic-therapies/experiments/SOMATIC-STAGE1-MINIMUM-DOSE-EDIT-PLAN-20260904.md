@@ -1,10 +1,12 @@
 # Somatic Therapies — Stage 1 minimum-dose edit plan
 
-Status: **WORKING EDIT CANDIDATE / NOT OWNER-ACCEPTED YET**
+Status: **OWNER-ACCEPTED EDIT DIRECTION / exact final Stage-1 bytes not yet assembled**
 
-Date: 2026-09-04
+Updated: 2026-09-05
 
 Target: stale raw-editor source `articles/somatic-therapies/master.html`, bounded from `<h1>Job 1: Stay Present and Keep Choice</h1>` through the divider immediately before `Job 2`.
+
+Joel accepted the minimum-dose Stage 1 direction with `and good, continue` on 2026-09-05, then added one new owner correction: yoga should also function as a bridge to the Jules/MCT anti-rumination point because its interoception can remain practical and outwardly useful rather than becoming obsessive self-monitoring.
 
 Do not reconstruct the Stage 1 modality subsections. Preserve the existing Somatic Experiencing, yoga, and gentle shaking/TRE prose except for the exact operations below.
 
@@ -42,7 +44,30 @@ Immediately after the revised Somatic Experiencing capacity paragraph and before
 
 Preserve the existing link target in raw HTML during final assembly.
 
-## Operation 4 — remove stale `Job 1` wording in gentle shaking
+## Operation 4 — add the owner-directed yoga / MCT bridge
+
+Placement: inside `Trauma-Sensitive / Restorative Yoga`, immediately after the existing paragraph ending:
+
+`The useful version is slow, choice-based, and non-invasive, with body awareness, flexibility, enjoyment, and agency as the point.`
+
+and before the next existing paragraph beginning:
+
+`Good options include trauma-sensitive yoga...`
+
+Owner thought/function:
+
+- yoga still involves interoception;
+- the interoception is functional rather than an invitation to obsess over internal sensation;
+- the attention goes somewhere practical: `how does this feel when I move`, relaxing better, sitting straighter, meditating better, and getting in shape at the same time;
+- this makes yoga a natural bridge to the Jules/MCT point that more internal monitoring is not always better.
+
+Current minimum-dose realization for owner review:
+
+`I also like that yoga makes the interoception functional. How does this feel when I move? Can this help me relax better, sit straighter, meditate better, get in shape at the same time? It is body awareness without necessarily turning the body into another thing to obsess over.`
+
+This realization is assistant surface based closely on Joel's direct thought. It is not owner-final merely because the function is owner-authorized.
+
+## Operation 5 — remove stale `Job 1` wording in gentle shaking
 
 Replace:
 
@@ -56,7 +81,7 @@ with:
 
 - the first Somatic Experiencing paragraph;
 - the existing Somatic Experiencing YouTube embed and its position;
-- the trauma-sensitive/restorative yoga paragraphs;
+- the rest of the trauma-sensitive/restorative yoga paragraphs;
 - the yoga agency/consent language;
 - the gentle shaking/TRE examples;
 - the existing shaking YouTube embed and its position;
@@ -64,4 +89,4 @@ with:
 
 ## Admission rationale
 
-This is movement/deletion/minimum-dose repair rather than a fresh model rewrite. It removes stale architecture (`Job` and the 3–6 month countdown), preserves the accepted anti-endless-stabilization function, and routes one existing protected inner-child paragraph to its owner-accepted destination. It does not add a new stage preface, checklist, summary, or Jules/MCT restatement.
+This remains movement/deletion/minimum-dose repair rather than a fresh model rewrite. It removes stale architecture (`Job` and the 3–6 month countdown), preserves the accepted anti-endless-stabilization function, routes one existing protected inner-child paragraph to its owner-accepted destination, and gives yoga one new owner-directed function linking interoception to ordinary embodied usefulness rather than obsessive monitoring. It does not add a new stage preface, checklist, summary, or duplicate Jules/MCT explanation.
