@@ -1,9 +1,11 @@
-# Somatic Therapies — live-source best-of merge proposal
+# Somatic Therapies — live-source best-of merge direction
 
 Date: 2026-09-05
-Status: WORKING EDIT PROPOSAL / NOT OWNER-ACCEPTED / NO PANGRAM CLAIM
+Status: OWNER-ACCEPTED MERGE DIRECTION / exact raw-editor bytes pending / NO PANGRAM CLAIM
 
 Authority boundary: Joel's live Substack source pasted in Chat on 2026-09-05 controls current visible structure/content for this pass. Registered `master.html` is a stale comparison source only. The Chat paste is escaped/Markdown-transformed and therefore is not exact raw-editor byte authority.
+
+Owner acceptance: on 2026-09-05 Joel instructed `merge and give me the new substack clipboard helper ... then after that we will go thru and humanize`. This accepts the best-of merge operation below. It does not establish exact final bytes for model-authored replacement sentences, does not authorize Pangram, and does not make the chat-transformed HTML valid native-object authority.
 
 ## Governing merge decision
 
@@ -117,4 +119,8 @@ Leave current material for a later bounded pass. No architecture change is requi
 - normalize `Job 4` / `Job 5` to current `Stage` terminology.
 - remove the stray period from the Stage-1 H1 only if heading punctuation is being normalized globally; not substantive.
 
-No raw `master.html` edit, export, or Pangram call is authorized by this proposal.
+## Clipboard-helper delivery state
+
+Joel explicitly requested the latest validated Substack clipboard helper and prohibited invention. The canonical current path is `project-sources/substack_transfer_helper.py.txt` with `project-sources/html_islands.py.txt`, `project-sources/CONFIRMED-SUBSTACK-HELPER.json`, and blocking `docs/SUBSTACK-HELPER-DELIVERY-GATE.md`, run through `init -> build -> verify`.
+
+The live HTML pasted into Chat is not byte-exact raw editor HTML: URL-bearing attributes were rewritten by the chat surface into Markdown-link syntax, including inside native-object `data-attrs`. Under the delivery gate this transformed text cannot be used to reconstruct or infer native-object markup. No newer raw live Somatic source or destination-confirmed current Somatic helper exists in the repo. Therefore helper generation is fail-closed until exact raw Substack editor HTML for the live source is supplied as a file or otherwise made directly available without chat transformation. Do not hand-build a replacement helper and do not claim a verified helper from the stale registered `master.html`.
