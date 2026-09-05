@@ -1,6 +1,6 @@
 # Somatic Therapies — manual humanization writer state
 
-Updated: 2026-08-31
+Updated: 2026-09-02
 Status: **CURRENT OWNER-DIRECTED WORKING ROUTE / non-authoritative experiment state**
 
 This file exists to prevent the successful manual owner-correction loop from being lost across chats or workers. It is not article authority and does not overwrite `master.html`, owner locks, source evidence, or registered current state.
@@ -14,6 +14,8 @@ Therefore the current writing route is:
 **fresh attempt from the bounded meaning/function -> Joel reads/tests -> Joel supplies the highest-value correction -> writer treats that correction as new generative information -> reconstruct from scratch around it -> immediately persist the correction and generalized lesson here -> repeat.**
 
 Do not replace this loop with a closed model-only sequence of semantic graph -> model writer -> model critic -> model rewrite unless Joel explicitly asks for that experiment again.
+
+**2026-09-02 supersession / stop condition:** the frozen owner-teaching episode showed that this manual loop can itself saturate. Multiple Chat reconstructions remained model-shaped even after repeated substantive rewrites and two same-context cold clears. Once Joel says the attempts are not becoming less model-shaped, stop generating another model variant. The productive next move in this episode was owner re-authoring from the upstream article source, not more model paraphrase. See the post-hoc lesson section below.
 
 ## Runtime role boundary — Chat writes, Codex executes
 
@@ -163,6 +165,81 @@ This follows the established human-factors distinction between warnings/checklis
 
 Validation status: **owner has correctly challenged the sufficiency of the first enforcement repair. The stronger quarantine/adversarial mitigation is now active; its effectiveness on the next prose attempt is not yet owner-validated.**
 
+## 2026-09-02 frozen owner-teaching episode — post-hoc lessons
+
+Frozen raw trajectory:
+`articles/somatic-therapies/experiments/trajectories/SOMATIC-INTRO-OWNER-TEACHING-TRAJECTORY-20260902-FROZEN.md`
+
+Episode evidence:
+
+- The Chat produced successive owner-facing Introduction attempts after **16**, **8**, and **6** substantive rewrite iterations respectively; each literal delivered candidate had also received two consecutive same-context cold clears.
+- Joel still judged the sequence as not getting less model-shaped. His first explicit correction also identified repetition and the generated `I care` stance as fake.
+- Joel then returned to the original AI Introduction on Substack and rewrote the thought himself rather than continuing to repair the Chat realization.
+- Joel reported that first direct owner rewrite as Pangram **Human / high confidence** and said it was better writing than the model route would have produced even if the model had eventually sounded Human.
+- Joel then continued revising that owner-authored realization for source precision, factual wording, mechanics, and an AI-shaped final synthesis. Those later exact bytes were **not** separately reported as a fresh Pangram measurement in this chat; do not inherit the earlier detector result onto them by inference.
+
+### Lesson A — same-context cold clears are not human-shape certification
+
+This episode directly falsified any stronger interpretation of the two-cold-clear rule. Multiple model candidates survived two unchanged same-context clears and still remained visibly model-shaped to Joel.
+
+Use same-context cold passes as a **regression screen**, not as evidence that a passage has escaped the writer's own generative attractor. A cold-clear count can establish that the same context no longer sees a defect; it cannot establish that the defect is gone.
+
+### Lesson B — stop model rewriting when the bounded packet itself becomes the attractor
+
+The repeated model attempts changed wording, length, ordering, and compression while continuing to realize essentially the same bounded semantic packet in recognizably model-shaped form. Once Joel said the attempts were not becoming less model-shaped, continuing to generate variants was low-value.
+
+A bounded meaning/function packet is useful custody, but it can still preserve inherited model-born conceptual topology. When repeated reconstruction cannot escape that topology, **stop model regeneration**. The next route should be genuinely new owner cognition, owner re-authoring from the upstream source, or an owner-authorized reopening of the semantic/architectural authority—not another paraphrase of the same packet.
+
+### Lesson C — owner re-authoring may legitimately change the thought; the model may not do so silently
+
+Joel's successful rewrite did not merely restyle the prior packet. He introduced and reorganized substantive material: the Levine source and Malawi observation, concrete bodily possibilities, the bike-learning analogy, an actual probabilistic three-step recovery sequence, his own epistemic position about the lack of a scientific roadmap, and a different direct relationship to inner-child work.
+
+Those changes were legitimate because the owner made them. A model humanization pass may not infer equivalent semantic changes merely because changing the thought would improve style or detector performance. When the author rethinks the section, update authority from the author; do not pretend the result is only a stylistic rewrite.
+
+### Lesson D — the target is better authorial writing, not merely detector-Human surface
+
+Joel explicitly observed that even if the model had eventually made its version sound Human, his direct rewrite was better. The owner-reported Human/high-confidence result is useful corroboration, but the more important outcome was improved thought and prose.
+
+Do not optimize the Somatic lane toward `make the existing model thought pass`. The real target is the strongest faithful owner-authored article. Detector status remains secondary evidence.
+
+### Lesson E — do not manufacture first-person affect to simulate authorship
+
+Joel explicitly rejected the repeated `I care ... I care ...` construction as fake. The failure was not merely repetition. The model inserted a generic caring-therapist persona as a humanizing surface device.
+
+Use first person when it carries an actual owner judgment, experience, practice, or epistemic position supplied by Joel. Do not add first-person affect merely to make exposition sound personal.
+
+### Lesson F — anti-patterns are diagnoses, not bans; logic comes first
+
+The owner rewrite uses a numbered three-step sequence successfully because Joel is **actually making a sequential claim**. This does not contradict the existing warning against turning a semantic checklist into rhetorical cards.
+
+Do not ban lists, sequences, or explicit structure merely because model prose often abuses them. Ask whether the structure is the author's real thought. Likewise, `tends to follow a general sequence` is probabilistic language and must not be misread as `mandatory stages`. Semantic logic outranks stylistic pattern-matching.
+
+### Lesson G — compression does not cure repetition when the same topology remains
+
+The later Chat candidates became shorter and removed some repeated wording, but Joel still saw the same model shape. Repetition can exist at the level of **thought function and architecture**, not only repeated words or sentences.
+
+When compression leaves the same conceptual sequence intact, do not call that a repaired realization. Change the thought source or stop.
+
+### Lesson H — do not turn the owner's successful surface features into a new model recipe
+
+The owner rewrite contains concrete examples, `Bike Expert`, `kind of obvious`, an explicit sequence, personal epistemic positioning, and other features absent from the failed model attempts. Their value comes from the owner's actual thought and voice in that realization.
+
+Do **not** convert those features into instructions such as `add an analogy`, `add a joke`, `add a list`, or `sound rougher`. Preserve them when owner-authored and functionally right; do not synthesize them as detector tactics.
+
+### Lesson I — unfamiliar claims require source resolution, not automatic flattening
+
+The Levine/Malawi material initially looked stronger and less familiar than expected, but the owner supplied the exact book page. The source supported Levine's description of an innate self-regulatory capacity and the park biologist's observation about captured animals trembling and breathing before release.
+
+Do not weaken an unfamiliar owner claim merely because the model does not recognize it. Inspect the supplied source first. Then preserve the distinction between what the source literally supports, what it corroborates/reinforces, and any stronger owner interpretation.
+
+### Lesson J — protect confirmed idiolect from normalization
+
+`one-one` looked mechanically like a duplicated word, but Joel confirmed it was an intentional phrase he likes. Once confirmed, it is identity-bearing language, not a typo to normalize.
+
+Do not silently standardize unusual owner wording solely because it resembles an error. Ask or preserve when its status is unclear; once owner-confirmed, keep it unless Joel changes it.
+
+Validation status of these lessons: **episode-supported and owner-grounded.** Do not generalize the exact surface devices or detector outcome beyond this lane without new evidence.
+
 ## Manual iteration protocol
 
 For the next attempt:
@@ -176,7 +253,7 @@ For the next attempt:
 7. Treat Joel's response as the primary next-step signal without inventing an acceptance/rejection he did not state.
 8. Before writing again, persist any new substantive owner correction and the generative lesson here. Prefer direct connected-GitHub persistence; use Codex only if mechanical execution genuinely requires it.
 9. Reconstruct rather than line-edit when the correction concerns thought movement.
-10. Continue until Joel says the prose is good enough or authorizes a different route.
+10. Continue until Joel says the prose is good enough, authorizes a different route, **or says repeated model attempts are not becoming less model-shaped. In that saturation case, stop model generation and wait for genuinely new owner cognition/re-authoring rather than producing another variant.**
 
 ## Hard memory rule
 

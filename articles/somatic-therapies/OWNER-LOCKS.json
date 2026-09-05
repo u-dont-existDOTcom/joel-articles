@@ -1,39 +1,70 @@
 {
   "schema_version": 1,
   "article_id": "somatic-therapies",
-  "locked_passages": [],
+  "locked_passages": [
+    {
+      "id": "five-stage-owner-realization-20260904",
+      "text": "Stay present so you can stay with what happens and choose what comes next. Regulate or discharge accumulated activation energy Work with trauma feelings before the story comes in Work with memories you can actually point to: the actual events and the triggering events Integrate, differentiate, and build a life of meaning. Decide your boundaries, direction, relationships, and overall identity.",
+      "provenance": "direct owner realization supplied 2026-09-04; owner-reported Pangram Human / high confidence for this bounded visible text; exact detector formatting/model/version/fractions not supplied"
+    },
+    {
+      "id": "trauma-memory-therapies-owner-accepted-20260904",
+      "text": "# The Dominant Trauma-Memory Therapies Are Missing Something\n\nCurrently, as a PTSD or cPTSD patient, your health insurance (if you're lucky enough to have it) might cover the most scientifically validated trauma therapies: Eye Movement Desensitization and Reprocessing (EMDR) and trauma-focused Cognitive Behavioral Therapies.\n\nAll of these focus on the trauma memory itself, reactivating it in order to change the meaning and/or the processing and response to it. Their logic is simple: slowly increase your exposure to painful memories until you can fully re-live the experience without overwhelming your nervous system. The CBT trauma therapies also use regular CBT to re-narrate the meaning of the experiences, so that, for example, being abused as a child no longer creates a story that \"I deserve abuse.\"\n\nThose therapies do show meaningful impact for many people in terms of reducing hyperarousal, and sometimes dissociation. But there are two main problems with them that\nPeter Levine, et al. have [explained](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00093/full). On the one hand, as Levine points out, exposure desensitization therapy can itself be re-traumatizing, which isn't well-captured in the positive evidence, because reasons for dropout and adverse events were often poorly or inconsistently reported. On the other hand, even when these trauma-memory approaches \"work,\" they are working against the body's understanding of things by creating new cognitive-behavioral patterns that suppress the old conditioned fear responses as they come up. That can produce a reduction of symptoms without solving the root of them.\n\nThe philosophy behind somatic therapies starts from the other end. It assumes that the body actually knows how to release the tension it has stored. Instead of treating dissociation and hyperarousal as symptom endpoints to reduce, they use them to diagnose the structure of nervous system dysregulation. In Levine's SIBAM model (from Unspoken Voice), we can understand how dissociation and hyperarousal actually work by splitting up our ordinary holistic experience into five layers. Dissociation is when these layers are not well-connected. Hyperarousal is when channels are so tightly linked that one rapidly activates the others:\nSensation: feelings inside the body, like tension, balance, heat, etc.\nImage: what you see, remember, dream\nBehavior: voluntary, involuntary, and crucially, actions that got aborted mid-stream during the traumatic incident.\nAffect: emotions, like fear, anger, grief, disgust, and joy. Also bodily feelings like vulnerability, hyper-vigilant panic, or profound relief.\nMeaning: the story that explains all of these, containing beliefs and judgements.\n\nWith this therapeutic model, one can direct their attention toward  individual layers of experience that are either flattened/ignored, or hogging the show.\n\nLevine and many other somatic theorists believe that once the body can fully feel itself and unleash the energy that got stuck, the meaning layer that CBT addresses often handles itself. EMDR also works at the bodily level and allows the meaning level to handle itself, but it uses the body more as a barometer and metabolizer of distress encoded in memory networks rather than as the primary instrument of finishing the action that got blocked by trauma.\n\nHowever, other somatic therapists and even Levine himself (in academic writing like the article linked), agree that re-evaluating the meanings and narratives around trauma can still be useful for many people, especially if the bottom-up process is honored first or concurrently.",
+      "sha256": "7a380cb33b9f526f6f099c5f2d5f641dedbf13c2e93192d4950a498bc4fec50c"
+    }
+  ],
   "protected_functions": [
     {
-      "id": "five-job-map-provisional",
-      "description": "Preserve the five-job map and the explicit statement that it is an author-developed/provisional synthesis rather than a scientifically validated universal protocol."
+      "id": "introduction-current-20260904",
+      "description": "Preserve the current Introduction realization in articles/somatic-therapies/OWNER-ACCEPTED-INTRODUCTION-20260904.md. It combines the prior owner-final Introduction with Joel's later owner replacement of the coarse three-step sequence by the five-stage realization and deletion of the now-redundant later-map sentence. The larger revised Introduction has no matching exact-boundary detector result."
+    },
+    {
+      "id": "five-stage-owner-realization-20260904",
+      "description": "Preserve Joel's five-stage wording as the map authority. Do not reconstruct it into explanatory stage cards. The owner reported this bounded realization Pangram Human / high confidence; that result does not transfer to different formatting or the full Introduction."
+    },
+    {
+      "id": "jules-mct-processing-offramp-20260904",
+      "description": "Preserve the function of Joel's Jules Evans / MCT addition in the early `Don’t be so serious, you silly willy!` area: sometimes therapy/analysis itself sustains the rumination loop, and the useful move is to stop processing for now and return attention to ordinary life; conversely, `stop analyzing` can itself become avoidance when painful material still needs to be faced. This is a cross-stage off-ramp, not Stage 0 or a sixth stage. Exact corrected Substack wording was not pasted back after Joel corrected the MCT-history sentence, so protect the function rather than reconstructing exact bytes by inference."
+    },
+    {
+      "id": "trauma-memory-therapies-owner-accepted-20260904",
+      "description": "Preserve the exact owner-accepted section `The Dominant Trauma-Memory Therapies Are Missing Something`. Do not reconstruct its cadence or reopen specialist-level protocol distinctions unless Joel asks or materially new contradictory evidence changes the reader-relevant argument."
+    },
+    {
+      "id": "cbt-somatic-methodological-fork",
+      "description": "Preserve the owner-accepted argument that mainstream trauma-memory therapies have real strengths but are incomplete as a total account/treatment of trauma; somatic alternatives address processes those approaches can miss. CBT/reality-testing remains cross-cutting, not confined to Stage 5."
+    },
+    {
+      "id": "five-stage-overview-retired",
+      "description": "Do not recreate `The Five Stages at a Glance` as a standalone section. The actual map now appears in the Introduction in owner wording; a second overview is duplicate function."
+    },
+    {
+      "id": "inner-child-overlap-section-retired-20260904",
+      "description": "Do not recreate `Somatic Work and Inner-Child Reparenting Can Overlap` as a standalone section. Preserve its unique functions at their accepted destinations: Stage 1 gets Nurturer/Protector, borrowed adult perspective, outside help, ordinary Protector action, and gentle present-focused self-hypnosis; Stage 2 gets the body-loosening/solar-plexus/heart-love loop material; the Stage 3→4 hinge gets Brainspotting dose and diffuse-versus-discrete-target distinctions; Stage 4 gets deep hypnosis/immersive child-dialogue/suggestive-memory safety gating. The old orientation/regulation/discharge/resourcing/processing/integration taxonomy is retired rather than moved."
     },
     {
       "id": "capacity-not-waiting-room",
-      "description": "Preserve the warning that capacity-building should not become indefinite avoidance of actual trauma treatment."
-    },
-    {
-      "id": "inner-child-overlap",
-      "description": "Preserve the Nurturer/Protector, borrowed-adulthood, gentle self-hypnosis, and heart-to-solar-plexus love-loop material and its placement as overlap with somatic work."
+      "description": "Preserve the warning that capacity-building should not become indefinite avoidance of actual trauma treatment; its accepted destination is Stage 1. Balance this with the Jules/MCT off-ramp."
     },
     {
       "id": "personal-oddness",
-      "description": "Preserve supplied personal/material voice anchors including Professor Baby Sheep, Joel's head-shaving/massage experience with loveyhuasca, and Louka's report about the linked Shaking Qigong class unless Joel changes them."
+      "description": "Preserve Professor Baby Sheep, Joel's head-shaving/massage experience with loveyhuasca, Louka's Shaking Qigong report, and confirmed intentional `one-one` unless Joel changes them."
     },
     {
       "id": "safety-warnings",
-      "description": "Preserve the substantive safety boundaries: stop/return capacity, neck support during tremoring, non-coercive yoga, post-session integration, caution stacking intense modalities, and Sky Hypnosis/Vagal Blitz physical and mental-health cautions."
+      "description": "Preserve stop/return capacity, neck support during tremoring, non-coercive yoga, post-session integration, caution stacking intense modalities, and Sky Hypnosis/Vagal Blitz safety boundaries."
     },
     {
       "id": "evidence-plane-distinction",
-      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms."
+      "description": "Preserve distinctions among published research, clinical practice, personal experience, community signal, traditional/energetic explanations, and proposed mechanisms without mechanically repeating caveats."
     },
     {
       "id": "native-object-placement",
-      "description": "Preserve the eight native/editor objects, their exact identity/metadata, and source positions unless publication-source evidence or Joel authorizes a change."
+      "description": "Preserve the eight native/editor objects, their exact identity/metadata, and source positions until final Substack/raw-HTML assembly unless Joel authorizes a change."
     }
   ],
   "owner_review": {
     "status": "confirmed",
-    "evidence": "Joel explicitly instructed on 2026-08-22 to register the r01 humanized Somatic Therapies article in the public joel-articles repository and continue detector work. Registration confirms working-master identity, not owner-final prose approval."
+    "evidence": "Joel finalized the earlier Introduction on 2026-09-02; accepted the five-stage architecture and CBT/somatic reorganization on 2026-09-03; supplied the accepted trauma-memory section and Jules/MCT off-ramp on 2026-09-04; then replaced the model five-stage overview with his own Human/high-confidence five-stage realization, accepted moving that map into the Introduction while retiring the duplicate standalone overview, and accepted retiring the standalone somatic/inner-child overlap section with its functions routed into Stages 1–4. The overall article remains working, not published."
   }
 }
