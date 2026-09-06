@@ -32,7 +32,7 @@
       "review": {
         "citations": {
           "path": "articles/romance/CITATIONS.json",
-          "sha256": "89beb1748aaef689b666658755b54076fb56c80f3234707adea650e9460f8cce",
+          "sha256": "89beb1748aaef59b666658755b54076fb56c80f3234707adea650e9460f8cce",
           "status": "pending"
         },
         "detector": {
@@ -78,7 +78,7 @@
         },
         "current_state": {
           "path": "articles/somatic-therapies/CURRENT-STATE.md",
-          "sha256": "2b0903abbee94502d30b6f5e854ecb1730bab1036bd9e3c8863290fac50e5747"
+          "sha256": "37bf8e9dfe6b20b22f84e70b1ce5e541a2cec2d6df1f1737b42905b2b433cee5"
         }
       },
       "review": {
