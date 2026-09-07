@@ -40,6 +40,12 @@ A useful escalation signal is not a fixed attempt count. Escalate when any of th
 
 After escalation, preserve the useful lessons from the failed method as evaluator/supervisor gates unless there is evidence they should also remain generative constraints.
 
+## COMMITMENT EXECUTION GATE
+
+Read and apply `project-sources/COMMITMENT-EXECUTION-GATE-20260907.md`.
+
+When Chat explicitly promises a substantive operation, method, comparison, audit, experiment, or artifact, keep it as an open obligation until it is actually executed, explicitly superseded by Joel, or explicitly invalidated by new evidence. Adjacent analysis, planning, partial preparation, or a different method is not completion. Before declaring progress complete, switching away from the promised method, or crediting an improvement as evidence, identify the observable result that proves the promised operation really occurred.
+
 ## PROJECT APPLICATION
 
 This is a reasoning supplement, not a replacement for current project instructions. Resolve the active task/branch and read its authoritative entrypoints fresh. Canonical protocols, owner locks, privacy, budgets and action gates control over this supplement. Reasoning selection grants no new execution, spending, publication or release authority. Keep strategic and semantic decisions with the authorized reasoning chat; execution-only workers remain bounded by its current directive. Preserve validated reusable work in the correct GitHub repository without private data. Continue the next safe authorized step; isolate blockers rather than stopping unrelated work.
