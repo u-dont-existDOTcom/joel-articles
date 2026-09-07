@@ -111,6 +111,55 @@ Durable lesson: do not protect an `If X, Y -> explanation of Y -> statement of w
 
 This does **not** ban conditionals or negative sentences. A conditional can be necessary; a negative can carry real new content. The failure is the interaction when they form a tidy rule-plus-aftercare package.
 
+## Owner correction — nested enumeration, compact program shape, and method evidence, 2026-09-07
+
+Joel then rejected three surfaces that the assistant had provisionally allowed:
+
+1. `Titration, pendulation, and orientation are all ways of asking: can you touch something difficult in a small enough dose, notice what happens, and come back?`
+2. `When you're completely inside the child-state, adult perspective can be hard to find. Sometimes you have to borrow one from somebody else. A neutral witness can do that.`
+3. the complete Yoga candidate in `SOMATIC-STAGE1-YOGA-HYBRID-HUMANIZATION-20260907.md`.
+
+### Nested enumeration
+
+The SE sentence contains a technical triad and a second procedural triad in the same sentence. The problem is not the literal number three. The sentence serializes several protected terms into one list and then translates them into another list. This is a high-risk shape whenever one coordinated enumeration exists mainly to compact or operationalize another.
+
+Blocking check: if a substantive sentence can be diagrammed as `A / B / C -> X / Y / Z`, deletion-test the packaging aggressively. Do not repair by changing one side to two or four items.
+
+### Compact program shape
+
+The `Borrowing an Adult Perspective` movement can be diagrammed as:
+
+`condition/state -> problem -> remedy -> implementation`.
+
+Plain words and short sentences do not make this human-shaped when every sentence occupies one clean algorithmic slot. Reject the same failure when it appears as `state -> instruction -> operational example` or another compact procedural chain whose completeness is doing more work than the live thought.
+
+### Preservation-unit serialization
+
+The broader causal diagnosis is **preservation-unit serialization**. When the model knows several functions must survive, it tends to emit them as data fields:
+
+- terminology triads;
+- action triads;
+- recommendation catalogues;
+- short rule sequences;
+- one paragraph per inventory class.
+
+This can persist after bullet removal, sentence-length variation, and local word changes. Semantic legitimacy does not rescue the topology.
+
+### Owner text is not generator evidence
+
+Joel's direct replacement sentence may improve production prose, but inserting it does not demonstrate that the model's generation method improved.
+
+Future evaluation must separate:
+
+- direct owner text;
+- restored source text;
+- structural deletion/movement;
+- new model-generated surface.
+
+Only the last category directly tests the current generator. Do not use an improved mixed boundary to claim generation success when the improvement came from owner substitution or source restoration.
+
+Full audit: `SOMATIC-STAGE1-TRIAD-PROGRAM-SHAPE-OWNER-CORRECTION-AUDIT-20260907.md`.
+
 ## Detector boundary
 
 Do not run Pangram unless Joel explicitly asks. Cadence maps and cold audits are editorial/generation tools, not detector substitutes or promises of detector outcome. Exact detector evidence remains boundary-specific.
