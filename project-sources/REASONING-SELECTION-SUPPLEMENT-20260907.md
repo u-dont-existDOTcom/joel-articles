@@ -20,6 +20,26 @@ Select by function:
 
 For consequential conclusions, test the strongest relevant objection or counterexample and verify load-bearing premises with sources, tools or discriminating tests. Agreement, fluency and repeated self-review are not independent evidence. Revise the model when warranted, not merely its wording. Report the conclusion, decisive support, material uncertainty and next action—not a ritual tour of methods. Separate facts, inferences, hypotheses and values; state disagreement directly. Follow current project authority and non-waivable gates. Before substantial bespoke design, preserve independent ideas when needed, scan existing work, choose reuse/adapt/compose/invent/experiment, and benchmark the remainder. Stop when the decision is supported or the unresolved uncertainty is explicitly bounded.
 
+## METHOD ESCALATION AND INDEPENDENCE TRIGGER
+
+Do not let `continue`, `try again`, or local improvement requests automatically mean another iteration of the same method.
+
+When a targeted repair fails to remove the same underlying failure family, or when a method becomes confounded by information already present in the working context, **pause local refinement and compare at least one structurally different approach before another same-method attempt**. Tell Joel proactively when that threshold has been reached.
+
+Same-context role separation is not independent evidence. A model instructed to `ignore`, `seal`, `forget`, or pretend not to know information that is already in its actual context is still non-isolated. If the validity of a conclusion depends on blindness, independence, or hidden-target exclusion, require a genuinely fresh context or independent source. If that is unavailable, label the result non-isolated and do not use target-aligned output as evidence that isolation worked.
+
+Treat repeated self-critique as increasingly correlated evidence. When the critic becomes better while the generator accumulates more anti-pattern rules, consider whether the rules themselves are over-constraining generation. Prefer changing the architecture—such as separating rich supervision from a minimal fresh writer—over adding another prohibition when the prohibition set is becoming the writing environment.
+
+A useful escalation signal is not a fixed attempt count. Escalate when any of these occurs:
+
+- the same structural defect recurs after a repair aimed specifically at that defect;
+- the proposed test cannot discriminate between the competing explanations because the context already contains the hidden target;
+- each new correction mainly adds another negative rule rather than improving the underlying generative model;
+- the local method can explain its own failures after the fact but cannot produce clean output without increasingly elaborate supervision;
+- a structurally different method is available and its result would materially change the next decision.
+
+After escalation, preserve the useful lessons from the failed method as evaluator/supervisor gates unless there is evidence they should also remain generative constraints.
+
 ## PROJECT APPLICATION
 
 This is a reasoning supplement, not a replacement for current project instructions. Resolve the active task/branch and read its authoritative entrypoints fresh. Canonical protocols, owner locks, privacy, budgets and action gates control over this supplement. Reasoning selection grants no new execution, spending, publication or release authority. Keep strategic and semantic decisions with the authorized reasoning chat; execution-only workers remain bounded by its current directive. Preserve validated reusable work in the correct GitHub repository without private data. Continue the next safe authorized step; isolate blockers rather than stopping unrelated work.
@@ -37,3 +57,5 @@ Generate structure, imagery and sentences only within the authorized edit scope;
 ## Application note for the active Somatic Stage-1 lane
 
 For the next map, use the smallest sufficient combination: interpretive/whole-argument reasoning to distinguish what the reader already knows from the actual Stage-1 gap; analytic reasoning to test redundancy, heading fit and preservation; abductive/causal reasoning only to diagnose why a generation architecture failed and to choose discriminating counterfactual tests. Do not invoke empirical, dialectical, systems or decision frameworks unless the specific next question requires them.
+
+For the current Stage-1 generation lane, the method-escalation trigger has fired. Keep reader-state, preservation, cadence, chronology, role-strength, and aftercare lessons on the supervisor/evaluator side. Use `articles/somatic-therapies/experiments/SOMATIC-STAGE1-ISOLATED-WRITER-PACKET-20260907.md` in a genuinely fresh writer context for the next prose experiment rather than refining the saturated same-context map again.
