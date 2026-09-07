@@ -91,6 +91,26 @@ The point is to delay closure where the thought is genuinely still alive. Do not
 
 `SOMATIC-STAGE1-DUAL-CADENCE-MAP-EXPERIMENT-20260906.md` adds semantic persistence. It intentionally stops before self-hypnosis and later Stage-1 units because the bounded live thought has not naturally reached them. This latest candidate remains non-authoritative and pending Joel's judgment; no Pangram result exists.
 
+## Owner correction — conditional aftercare, 2026-09-07
+
+Joel rejected the Stage-1 paragraph:
+
+`If you are stable and have one clear target, you may already be ready for focused trauma work. Capacity-building should not become an endless waiting room where the actual trauma is never treated.`
+
+His diagnosis was more specific than the prior generic `if X / but if Y` rule:
+
+- `If X, Y` itself can sound model-shaped when it turns a nuanced readiness judgment into a clean decision rule;
+- the following sentence can worsen the shape when it **explains the prior sentence** rather than moving the thought;
+- negative explanatory completion (`and here is what should not happen`) is especially suspect when it merely closes the conceptual space around the prior claim.
+
+Joel replaced the paragraph with:
+
+`To know how ready you are for focused trauma work, ask yourself how stable you are, and whether you need to work on something specific, or a more broad feeling or pattern.`
+
+Durable lesson: do not protect an `If X, Y -> explanation of Y -> statement of what not to do` realization merely because the underlying exception or warning is semantically valid. Preserve the function separately and let the live thought choose its surface and destination.
+
+This does **not** ban conditionals or negative sentences. A conditional can be necessary; a negative can carry real new content. The failure is the interaction when they form a tidy rule-plus-aftercare package.
+
 ## Detector boundary
 
 Do not run Pangram unless Joel explicitly asks. Cadence maps and cold audits are editorial/generation tools, not detector substitutes or promises of detector outcome. Exact detector evidence remains boundary-specific.
