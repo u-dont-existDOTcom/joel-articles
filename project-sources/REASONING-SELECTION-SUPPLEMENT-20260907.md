@@ -56,8 +56,18 @@ Generate structure, imagery and sentences only within the authorized edit scope;
 
 ## Application note for the active Somatic Stage-1 lane
 
-For the current Stage-1 lane, use the smallest sufficient combination: interpretive/whole-argument reasoning to distinguish what the reader already knows from the actual Stage-1 gap; analytic reasoning to test redundancy, heading fit, preservation, and placement; abductive/causal reasoning only to diagnose why a generation architecture failed and to choose a genuinely discriminating alternative. Do not invoke empirical, dialectical, systems, or decision frameworks unless the specific next question requires them.
+For the current Stage-1 lane, use the smallest sufficient combination: interpretive/whole-argument reasoning to distinguish what the reader already knows from the actual Stage-1 gap; analytic reasoning to test redundancy, heading fit, preservation, placement, and enumeration density; abductive/causal reasoning only to diagnose why a generation architecture failed and to choose a genuinely discriminating alternative. Do not invoke empirical, dialectical, systems, or decision frameworks unless the specific next question requires them.
 
-The generation-method escalation has now progressed through and **closed** same-context map refinement, isolated full-paragraph generation, and isolated sentence chaining. Do not resurrect those lanes merely because they are documented. The active strategy is the source-first / hybrid reconstruction recorded in `articles/somatic-therapies/experiments/SOMATIC-STAGE1-SOURCE-FIRST-BOUNDARY-AUDIT-STRATEGY-20260907.md`.
+The generation-method escalation has progressed through and **closed** same-context map refinement, isolated full-paragraph generation, and isolated sentence chaining. Do not resurrect those lanes merely because they are documented. The source-first / hybrid lane remains useful for recovering functions and owner/source material, but its latest model surfaces are not validated prose.
 
-Keep reader-state, preservation, cadence, chronology, role-strength, and aftercare lessons on the supervisor/evaluator side. Exhaust existing same-function source material first. Preserve useful semantic cores, but do not preserve a source surface merely because it exists when Joel has already rejected that surface as tidy-list/model-shaped. For the current Somatic Experiencing subsection, the concrete titration/pendulation/orientation approach-return sentence and the anti-endless-capacity function are provisional survivors; the flooded/inner-child/self-hypnosis functions remain Stage-1 obligations but their current checklist realization and under-SE placement are reopened for architecture/realization review.
+Owner correction on 2026-09-07 now explicitly rejects:
+
+- the model SE lead `Titration, pendulation, and orientation ... touch / notice / come back` because it serializes one three-part list into another;
+- the model `Borrowing an Adult Perspective` movement because it reads as a compact `condition -> problem -> remedy -> implementation` program;
+- the Yoga hybrid candidate because it continues to serialize the preservation inventory into recommendation, cue, and safety lists.
+
+Do not treat any of those as provisional survivors. Their semantic functions remain protected, but their surfaces are reopened.
+
+Keep Joel's direct readiness sentence separate: it can improve production prose, but because it is direct owner text it is **not evidence that the model generator passed a test**. Future method evaluation must distinguish direct owner text, restored source text, structural deletion/movement, and newly model-generated text. Only the newly generated surface directly tests the generator.
+
+The current causal diagnosis is **preservation-unit serialization**. When multiple protected units are visible, the model tends to emit them as coordinated lists, nested enumerations, or compact procedural chains. Do not repair this by changing the number of items. Generate one locally necessary relation at a time, then reconcile the untouched function bank afterward. Apply the nested-enumeration/program-shape gate in `articles/somatic-therapies/experiments/SOMATIC-STAGE1-TRIAD-PROGRAM-SHAPE-OWNER-CORRECTION-AUDIT-20260907.md` before owner delivery.
