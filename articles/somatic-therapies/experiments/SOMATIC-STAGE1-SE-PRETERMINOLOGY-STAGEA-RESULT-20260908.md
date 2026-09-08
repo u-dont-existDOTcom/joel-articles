@@ -1,12 +1,10 @@
 # Somatic Stage 1 — SE pre-terminology Stage-A result — 2026-09-08
 
-Status: **NON-AUTHORITATIVE GENERATION EXPERIMENT / LONG STAGE-A PROBE REJECTED / MINIMAL PRODUCTION CANDIDATE PROVISIONAL / NO PANGRAM**.
+Status: **NON-AUTHORITATIVE GENERATION EXPERIMENT / LONG STAGE-A PROBE REJECTED / COMPACT COMBINED SE BOUNDARY OWNER-REPORTED HUMAN / LOW CONFIDENCE / NO NEW CHAT-RUN PANGRAM**.
 
 This executes the revised strategy in `SOMATIC-STAGE1-SE-LONG-PROBE-REAUDIT-STRATEGY-20260907.md` after Joel abandoned the Muse 1.3 comparison lane and instructed the canonical Chat to proceed.
 
 Important independence limitation: this Chat already contains the SE terminology, prior failed prose, owner corrections, and hidden preservation bank. Therefore this is **not an isolated-writer result** and must not be presented as evidence that terminology was informationally hidden from the generator. It is still useful as a direct production/method probe of what happens when the current Chat deliberately does not use terminology as the composition outline.
-
-No Pangram call was run.
 
 ## Stage A hypothesis
 
@@ -68,7 +66,7 @@ A long cadence test should move to a richer natural boundary (Yoga is the curren
 
 Use the minimum natural movement, then apply Stage C terminology reconciliation as labels attached to an already intelligible relation rather than as glossary units.
 
-### Provisional model-written SE realization after Stage C
+### Model-written SE realization after Stage C
 
 `Somatic Experiencing can work with only a small part of a difficult reaction at a time (titration), with room to move away and come back later (pendulation).`
 
@@ -80,7 +78,7 @@ This is newly model-written production prose. It is **not** enough text to valid
 
 This remains direct owner prose and is not generator evidence.
 
-### Combined provisional SE boundary
+### Combined SE boundary shown to owner
 
 Somatic Experiencing can work with only a small part of a difficult reaction at a time (titration), with room to move away and come back later (pendulation).
 
@@ -88,9 +86,30 @@ To know how ready you are for focused trauma work, ask yourself how stable you a
 
 Then preserve the existing SE YouTube embed.
 
+## Owner-reported detector result — 2026-09-08
+
+Joel reported: **Human / low confidence** after the combined compact SE candidate above was shown.
+
+Boundary discipline:
+
+- safest recorded interpretation: the result applies to the **exact two-sentence combined boundary shown above**;
+- model-written bytes inside that boundary: the first sentence only;
+- owner-written bytes inside that boundary: the readiness sentence only;
+- **do not transfer this Human result to the first model sentence alone** unless Joel later confirms that only the first sentence was submitted;
+- do not transfer it to a larger Stage-1 section, to the SE embed context, or to any later edited wording;
+- exact Pangram formatting, detector/model version, numerical fractions, History identity, and exact submission wrapper were not supplied in Chat, so none are claimed here;
+- this is owner-reported detector evidence, not a new Pangram call executed by Chat.
+
+Interpretation:
+
+- production evidence: positive for the exact compact mixed-provenance boundary;
+- generator evidence: encouraging but limited, because the passing boundary contains one model sentence plus one owner sentence and is short / low-confidence;
+- cadence evidence: none; the model contribution is only one sentence;
+- editorial authority: unchanged; detector status does not itself promote the boundary into article authority.
+
 ## Local cold audit of combined boundary
 
-Provisional **PASS for owner review**, not final certification.
+Provisional **PASS for owner review**, now accompanied by owner-reported Human / low-confidence detector evidence for the exact combined boundary.
 
 Positive:
 
@@ -106,7 +125,8 @@ Residual risk:
 
 - `small part ... with room to move away and come back later` is compact and may still feel compressed/model-written;
 - the sentence maps pendulation onto the article's simplified approach/return function, not a full technical definition;
-- because the model-written span is one sentence, it cannot support any claim that generator cadence is solved.
+- because the model-written span is one sentence, it cannot support any claim that generator cadence is solved;
+- the low-confidence Human result should not be inflated into a strong detector claim.
 
 ## Preservation disposition
 
@@ -129,7 +149,8 @@ Deferred, not deleted:
 ## Strategy after this result
 
 1. Do **not** lengthen the SE subsection merely to benchmark the generator.
-2. Keep the provisional compact SE production boundary available for owner audit.
-3. Move the next adequately sized model-generation/cadence test to the richer Yoga boundary.
-4. In Yoga, distinguish natural prose movement from genuine reference inventories; an actual recommendation/safety list may be better represented as navigation than disguised as prose, but no list-format decision is made by this file.
-5. No Pangram unless Joel explicitly requests it.
+2. Keep the compact two-sentence SE boundary as the current strongest production candidate, with owner-reported Human / low-confidence evidence applying only to that exact boundary.
+3. Do not claim the model sentence alone is Pangram-Human unless separately tested or owner-confirmed as the exact submitted boundary.
+4. Move the next adequately sized model-generation/cadence test to the richer Yoga boundary.
+5. In Yoga, distinguish natural prose movement from genuine reference inventories; an actual recommendation/safety list may be better represented as navigation than disguised as prose, but no list-format decision is made by this file.
+6. No additional Pangram call unless Joel explicitly requests it.
