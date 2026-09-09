@@ -14,6 +14,7 @@ It does not supersede registered article authority, owner locks, current accepte
 3. `articles/somatic-therapies/experiments/SOMATIC-SE-TRE-THEORY-CORRECTION-AND-V4-CANDIDATE-AUDIT-20260909.md` — **current factual/editorial correction**.
 4. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-V5-OWNER-SOURCE-MINIMUM-TRANSFORMATION-20260909.md` — **current production strategy for this lane**.
 5. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-V5-FIRST-OWNER-REPORTED-DETECTOR-SIGNAL-20260909.md` — **first prospective supporting signal; Human / low confidence; short boundary**.
+6. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-SHAKING-V5-MINIMUM-TRANSFORMATION-PROSPECTIVE-001-20260909.md` — **current non-authoritative production candidate; preservation PASS; provisional same-context cold audit; no Pangram**.
 
 For any detector/humanization continuation, fresh-read the current Pangram lab normally. Do not infer exact Pangram metadata from this handoff.
 
@@ -111,21 +112,50 @@ Interpretation:
 - it does **not** validate V5 because the boundary is short, confidence is low, natural article context is absent, and exact detector version/fractions/History identity were not supplied;
 - do not repeat/optimize this 83-word text merely to improve detector confidence.
 
+## V5 production prospective-001 — COMPLETE / AWAITING OWNER JUDGMENT
+
+Current candidate:
+`SOMATIC-STAGE2-SHAKING-V5-MINIMUM-TRANSFORMATION-PROSPECTIVE-001-20260909.md`
+
+Exact 306-word candidate boundary SHA-256:
+`5f2fd8b7c87b941d49e30db325f8788bddef213f9d139692150edb7fd894bf3d`
+
+What changed:
+
+- the primary Shaking movement is now a minimum transformation of Joel's direct thought: SE can already shake/discharge; it can help the person feel the body; more deliberate shaking remains an option when more active movement is wanted or relatively little is felt from SE;
+- stop/orient/settle remains adjacent safety;
+- the 10–45 range and four use contexts survive separately as finite reference material rather than driving the owner-thought paragraph;
+- the old `you do not have to accept...` / `different explanatory language... one does not prove the other` mechanism mini-essay pair is compressed into one Route-4 technical/evidence paragraph while preserving all mechanism items and evidence-plane attribution;
+- the rigid three-step `Discharge → Settle Stack` is replaced by `After Shaking`, with EFT, massage, restorative yoga, and gentle yin as optional grounding/soft-exploration possibilities rather than a mandatory protocol;
+- catharsis/dissociation safety and downstream solar-plexus/heart-love material remain untouched.
+
+Preservation proof: **PASS / 21 units / 0 unexplained substantive deltas**.
+Structural recurrence: **PASS** — the rejected `stage role -> contrast -> safety -> duration -> use inventory` allocation no longer structures the primary owner-thought paragraph.
+Cold audit: **PROVISIONAL SAME-CONTEXT PASS**, not independent certification.
+
+Strongest residual risk:
+`A regular practice might run 10–45 minutes, especially for...` remains a dense finite reference inventory. It is source-derived and editorially legitimate, but may still interact with a later larger detector boundary.
+
+Pangram: **NOT RUN**.
+
+Do not install prospective-001 into the working reader or master unless Joel accepts it or gives a correction.
+
 ## Current next action
 
-If Joel says continue writing:
+Current next action is **owner substantive judgment on V5 prospective-001**.
 
-1. use V5 production lane;
-2. minimally transform the literal owner thought rather than regenerating it;
-3. keep protected Louka material unchanged;
-4. keep research correction outside prose unless the reader genuinely needs a brief factual clarification;
-5. keep the `10–45 minute` range and source-derived use-context inventory out of the primary live realization unless the owner thought naturally reaches them;
-6. preserve post-shaking alternatives without restoring a rigid `stack`;
-7. run preservation proof and a context-contaminated cold audit before owner delivery;
-8. do not claim independent validation;
-9. do not run Pangram unless Joel explicitly requests it.
+If Joel accepts or gives only a local correction:
 
-If the V5 minimum transformation still sounds model-shaped, do not make another same-method paraphrase. Fall back to literal owner clauses with only factual/grammatical/deictic repair, or obtain one missing owner sentence if genuinely necessary.
+1. record the owner judgment/correction durably;
+2. apply only the accepted/corrected local operation to the working-reader state if he authorizes installation;
+3. re-run preservation/architecture checks on the exact accepted realization;
+4. do not run Pangram unless Joel explicitly requests it.
+
+If Joel says the prospective still sounds model-shaped:
+
+- do not do another V5 paraphrase;
+- invoke the V5 fallback: retain literal owner clauses with only factual/grammatical/deictic repair, or identify one genuinely missing owner sentence;
+- keep generator-R&D separate.
 
 ## Article authority unchanged
 
