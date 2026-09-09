@@ -13,8 +13,9 @@ It does not supersede registered article authority, owner locks, current accepte
 2. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-SHAKING-V4-OWNER-ROUTE-CANDIDATE-20260909.md` — **REJECTED candidate; exact historical prose only; do not install**.
 3. `articles/somatic-therapies/experiments/SOMATIC-SE-TRE-THEORY-CORRECTION-AND-V4-CANDIDATE-AUDIT-20260909.md` — **current factual/editorial correction**.
 4. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-V5-OWNER-SOURCE-MINIMUM-TRANSFORMATION-20260909.md` — **current production strategy for this lane**.
+5. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-V5-FIRST-OWNER-REPORTED-DETECTOR-SIGNAL-20260909.md` — **first prospective supporting signal; Human / low confidence; short boundary**.
 
-For any detector/humanization continuation, fresh-read the current Pangram lab normally. No detector call was made in this sequence.
+For any detector/humanization continuation, fresh-read the current Pangram lab normally. Do not infer exact Pangram metadata from this handoff.
 
 ## Factual correction controlling future Shaking prose
 
@@ -86,6 +87,30 @@ Do not turn this into:
 - a stage-boundary taxonomy explanation;
 - a complete duration/use-case/mechanism/safety paragraph.
 
+## First V5 detector-compatible signal
+
+After the V4 rejection and V5 strategy change, the assistant supplied the following 83-word thought specification, explicitly as a thought specification rather than publication prose:
+
+```text
+SE can already include shaking. You may use it initially to get in contact with what the body is doing, and sometimes the SE process itself will move into discharge. But if not much is happening, or you want a more active way of getting the body moving, TRE/Shaking Qigong gives you another way to evoke that. Afterward, EFT, massage, yin/restorative yoga, etc. may help with grounding or gentler continued contact with the body. None of that needs to be a fixed sequence.
+```
+
+Exact UTF-8 SHA-256:
+`cb78e47d97f787417001a0fd43256e94d02b500695384b6340f565fd8ffc9bc3`
+
+Joel immediately reported the exact specification as **Pangram Human / low confidence**.
+
+Raw detector evidence record:
+`u-dont-existDOTcom/pangram-humanization-lab/state/experiments/somatic-v5-thought-spec-owner-reported-human-low-20260909.md`
+
+Interpretation:
+
+- this is a prospective signal in the direction V5 predicted;
+- the specific V4 failure architecture did not recur in the specification;
+- it supports continuing V5 rather than switching again;
+- it does **not** validate V5 because the boundary is short, confidence is low, natural article context is absent, and exact detector version/fractions/History identity were not supplied;
+- do not repeat/optimize this 83-word text merely to improve detector confidence.
+
 ## Current next action
 
 If Joel says continue writing:
@@ -111,4 +136,4 @@ If the V5 minimum transformation still sounds model-shaped, do not make another 
 - aquatic exact candidate status: unchanged;
 - massage fuller realization: still unresolved except for the new owner-supported post-shaking settling function;
 - publication/export: not authorized;
-- Pangram: not run.
+- no assistant Pangram call was made in this sequence; the Human/low result above is owner-reported.
