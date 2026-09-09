@@ -1,16 +1,6 @@
-# Somatic Aquatic Bodywork — tail redistribution candidate — 2026-09-09
+# Somatic Aquatic Bodywork — redistributed candidate — 2026-09-09
 
-Status: **NON-AUTHORITATIVE PRODUCTION CANDIDATE / HUMAN-MEDIUM OPENING PRESERVED EXACTLY / FAILING TAIL REBUILT / MASSAGE ROUTED ELSEWHERE / NO PANGRAM CALL BY CHAT**
-
-## Controlling evidence
-
-Joel reported the prior candidate Human / medium confidence through the ear paragraph and AI / high confidence beginning `The bigger problem Hale has noticed...`.
-
-Article-local blocking lesson:
-`SOMATIC-ACTIVE-LESSON-CONTRACT-SUPPLEMENT-20260909-OWNER-THOUGHT-TOPOLOGY.md`
-
-General rule:
-`project-sources/OWNER-THOUGHT-TOPOLOGY-AND-SOURCE-WEIGHTING-20260909.md`
+Status: **NON-AUTHORITATIVE PRODUCTION CANDIDATE / OWNER-REPORTED HUMAN-MEDIUM FOR FULL EXACT CANDIDATE / MASSAGE REMAINS PROTECTED / NO PANGRAM CALL BY CHAT**
 
 ## Exact candidate
 
@@ -22,36 +12,53 @@ Some people are just prone to ear infections, even with clean water and earplugs
 
 Hale says water therapy can open someone up emotionally a lot more than expected. Before the water, she likes to do some inner-child work and see what the person is feeling and what they want to work on. I would ask a water therapist about this before booking: if a lot gets opened up, are you still available afterward if I need more help with it?
 
+## Owner-reported detector result
+
+Joel reported the **full exact candidate above Human / medium confidence**.
+
+No numerical fractions, Pangram model/version, History identity, or exact detector-window metadata were supplied. Do not infer them.
+
+A separate assistant-created record had incorrectly attributed a Human/AI split to an earlier aquatic candidate. Joel directly corrected that misattribution. That false record is retracted and must not be used to interpret this candidate.
+
 ## Provenance / preservation
 
-Unchanged opening two paragraphs: exact model/editorial candidate text that Joel reported Human / medium confidence at that exact local boundary.
+Owner thought/provenance carried:
 
-New tail:
-- owner thought/provenance: Hale practitioner report; emotional opening; pre-water inner-child orientation; reader should ask practitioner about handling/closure;
-- model/editorial realization: sentence surface and compression;
-- no invented Joel autobiographical experience.
+- Hale practitioner report;
+- direct inner-child connection;
+- womb-like/very-young phenomenology;
+- unusual water-enabled stretching/movement;
+- ear-infection downside;
+- emotional-opening warning;
+- pre-water inner-child orientation/check-in;
+- reader should ask practitioner about support/closure;
+- continued practitioner availability preserved inside the final practical question.
 
-Intentionally not consumed in this Stage-3 tail:
+Model/editorial realization:
+- sentence surface and compression.
+
+No invented Joel autobiographical experience.
+
+Intentionally not consumed in this Stage-3 candidate:
 - post-water massage grounding;
 - fuller massage-modality treatment.
 
-Those functions remain protected and are routed to Stage 2 rather than deleted.
-
-Continued practitioner availability is preserved inside the final practical question instead of rendered as a separate aftercare step.
+Those massage functions remain protected and require later Stage-2 realization or another owner-approved placement; they are not deleted.
 
 ## Admission audit
 
-- earlier Human/medium text untouched: PASS;
-- no `problem -> prep -> water -> massage -> availability` staircase: PASS;
+- no benefits/evidence/safety/recommendation card decomposition: PASS;
+- owner thought order and asymmetry preserved: PASS;
+- no procedural staircase consuming the whole Hale sequence: PASS;
 - no significance-staging opener: PASS;
 - no invented first-person experience: PASS;
 - ear issue remains short/secondary: PASS;
-- emotional opening is the dominant next concern: PASS;
-- massage remains protected outside this tail: PASS;
+- emotional opening remains the dominant next concern: PASS;
+- massage remains protected outside this candidate: PASS;
 - availability preserved: PASS;
 - no research/evidence reset: PASS;
 - no prenatal-memory rebuttal: PASS;
 - no backstage editorial rationale inside reader prose: PASS;
 - stopping point is the owner-directed practitioner question: PASS.
 
-No detector result is claimed for this candidate and Chat did not run Pangram.
+Detector result is boundary-specific and does not demonstrate independent model thought generation.
