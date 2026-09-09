@@ -1,207 +1,34 @@
-# Somatic conversation handoff supplement — Humanization V3 — 2026-09-09
+# Somatic conversation handoff supplement — Humanization V3/V4 — 2026-09-09
 
-Status: **ACTIVE SUPPLEMENT TO `SOMATIC-CONVERSATION-HANDOFF-20260909.md` / STRATEGY RECOVERY AID / NOT ARTICLE PROSE AUTHORITY / NO PANGRAM AUTHORIZATION**
+Status: **ACTIVE STRATEGY RECOVERY AID / V3 SEQUENCING SUPERSEDED BY V4 WHERE CONFLICTING / NOT ARTICLE PROSE AUTHORITY / NO PANGRAM AUTHORIZATION**
 
-Read the main handoff and repository authority first. This supplement contains later same-day humanization-strategy developments and should control over the older handoff where strategy sequencing differs. It does **not** change accepted article prose, detector boundaries, publication state, or owner-final authority.
+Read the main handoff and repository authority first. This supplement records the later same-day strategy sequence and the failed first prospective V3 retrieval candidate.
 
-## Additional read order after the main 2026-09-09 handoff
+## Current controlling strategy read order
+
+After the main 2026-09-09 Somatic handoff, read:
 
 1. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-INDEPENDENT-SNAPSHOT-20260909.md`
 2. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-V2-DYNAMIC-THOUGHT-ORIGINATION-20260909.md`
 3. `articles/somatic-therapies/experiments/SOMATIC-DYNAMIC-THOUGHT-ORIGINATION-ABC-TEST-PACKET-20260909.md`
 4. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-V3-ROUTER-AND-OWNER-COGNITION-20260909.md`
 5. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-V3-SUPPLEMENT-MIXED-ROUTE-BOUNDARIES-20260909.md`
-6. `articles/somatic-therapies/experiments/JOEL-BYLINE-REVISION-TRAJECTORY-LEARNING-FALLBACK-20260909.md`
-7. `articles/somatic-therapies/experiments/JOEL-BYLINE-REVISION-TRAJECTORY-CORPUS-FEASIBILITY-AUDIT-20260909.md`
-8. `articles/somatic-therapies/experiments/trajectories/JOEL-BYLINE-REVISION-TRAJECTORY-SEED-LEDGER-20260909.json`
-9. `articles/somatic-therapies/experiments/JOEL-BYLINE-TRAJECTORY-RETRIEVAL-PROTOCOL-20260909.md`
-10. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-V3-DRY-RUN-STAGE2-SHAKING-QIGONG-20260909.md`
-11. `articles/somatic-therapies/experiments/SOMATIC-MASSAGE-STAGE2-BOUNDED-INCLUSION-CANDIDATE-20260909.md`
-12. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-SHAKING-QIGONG-V3-RETRIEVAL-PROSPECTIVE-CANDIDATE-20260909.md`
+6. `articles/somatic-therapies/experiments/JOEL-BYLINE-TRAJECTORY-RETRIEVAL-PROTOCOL-20260909.md`
+7. `articles/somatic-therapies/experiments/trajectories/JOEL-BYLINE-REVISION-TRAJECTORY-SEED-LEDGER-20260909.json`
+8. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-V3-DRY-RUN-STAGE2-SHAKING-QIGONG-20260909.md`
+9. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-SHAKING-QIGONG-V3-RETRIEVAL-PROSPECTIVE-CANDIDATE-20260909.md` — **historical failed candidate; do not use**
+10. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-SHAKING-QIGONG-V3-PROSPECTIVE-001-AUDIT-AND-STRATEGY-SWITCH-20260909.md`
+11. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-V4-AUTHORITY-FIRST-COMPOSITION-ROUTING-20260909.md` — **current controlling sequencing**
+12. `articles/somatic-therapies/experiments/JOEL-BYLINE-REVISION-TRAJECTORY-LEARNING-FALLBACK-20260909.md`
+13. `articles/somatic-therapies/experiments/JOEL-BYLINE-REVISION-TRAJECTORY-CORPUS-FEASIBILITY-AUDIT-20260909.md`
+14. `articles/somatic-therapies/experiments/SOMATIC-MASSAGE-STAGE2-BOUNDED-INCLUSION-CANDIDATE-20260909.md`
 
-For any detector claim, still read the Pangram lab fresh under `SKILL.md`. Do not infer detector state from this supplement.
+For detector/humanization work also fresh-read `u-dont-existDOTcom/pangram-humanization-lab` under `SKILL.md`. Do not infer detector state from this handoff.
 
-## Strategy decision now
+## V3 prospective-001 result — REJECTED
 
-### Production Somatic humanization
-
-Use the V3 router. Do **not** treat `humanize this section` as one generic rewrite instruction.
-
-Route current material by what actually exists:
-
-- Route 0: owner-final / owner-accepted / exact known-green boundary -> preserve unless a real editorial defect is named;
-- Route 1: direct owner thought topology -> realize that topology with minimum model re-architecture;
-- Route 2: one source-grounded live relation but insufficient thought for a full subsection -> realize only that relation;
-- Route 3: required article function but missing authorial cognition -> search current sources, then ask Joel one highest-information cognition question rather than free-writing a full replacement;
-- Route 4: intrinsically technical/evidence/safety/navigation material -> preserve appropriate finite genre and humanize only unnecessary packaging;
-- Route 5: inherited model scaffold with no unique function -> delete/consolidate with preservation authority rather than rewriting empty filler.
-
-### Mixed-route correction
-
-Do not automatically assign one route to a whole heading.
-
-Use the **smallest natural movement with a shared source/genre/thought relation** when adjacent material genuinely requires different editing operations. This is not permission to atomize the article into preservation cards.
-
-The Stage-2 Shaking Qigong dry run established the usability of this distinction:
-- protected Louka callout remained protected;
-- only the Stage-2 placement/dose/use movement earned humanization retrieval;
-- technical mechanism/evidence material remained Route 4;
-- evidence-plane contrast remained Route 4;
-- the catharsis/instability warning remained Route 4 safety.
-
-Thus `list`, `contrast`, `negative sentence`, and `safety close` are not causal humanization diagnoses by themselves; tolerated technical/safety controls contain these features too.
-
-## Current causal hypothesis — keep qualified
-
-Do **not** reduce the aquatic/night-walk evidence to `owner ideas = Human`.
-
-Owner-rich model attempts have also failed.
-
-The current better-supported production hypothesis is:
-
-**When a real author/source thought route exists, model prose improves when the model is constrained from replacing that route with its own complete conceptual allocation.**
-
-Evidence supporting this includes:
-- owner-rich Stage-1 failures where the model serialized semantic obligations into compact programs/lists;
-- rejected massage/aquatic prose where the model reorganized one owner thought into editorial cards;
-- successful full aquatic candidate that preserved owner order/asymmetry and was owner-reported Human / medium;
-- independent bare-topic night-walk generation that was owner-reported AI / high.
-
-Still unresolved:
-- surface/statistical/idiosyncratic style mismatch may contribute independently of topology;
-- detector boundary/composition sensitivity remains a separate explanation for detector-only changes;
-- current evidence does not prove a universal Pangram mechanism.
-
-## Independent generator research remains separate
-
-The A/B/C packet is the current experimental design:
-
-A. ordinary direct full passage;
-B. static complete outline -> fresh writer;
-C. genuinely fresh independent one-thought seeds -> fresh selector -> fresh writer follows one thought -> only after literal prose exists does another fresh context decide STOP or one next local thought.
-
-Do not run this experiment in a saturated context and claim independence. Same-context role labels are not isolation.
-
-No Pangram unless Joel explicitly asks.
-
-## Revision-trajectory fallback
-
-If a correct externally supplied thought route still repeatedly becomes model-shaped in realization, stop accumulating prompt bans.
-
-The next materially different architecture is revision-trajectory assistance based on:
-
-`source/context -> model candidate -> Joel feedback/correction -> accepted realization`
-
-Current decision:
-- retrieval-only/case-based assistance is justified now;
-- parameter training is **not yet justified**;
-- selector/reviser training becomes plausible only after trajectory normalization and prospective retrieval results;
-- DPO/Pangram-reward optimization is premature;
-- independent thought-originator training remains separate and premature.
-
-## Seed trajectory corpus
-
-Current high-precision seed ledger has seven trajectory clusters:
-
-1. Somatic Introduction owner-teaching trajectory;
-2. Somatic Stage-1 triad/program correction;
-3. Somatic Yoga contrast-completion correction;
-4. Somatic massage/aquatic topology correction and successful redistributed realization;
-5. Romance E18 unique-function dedup correction;
-6. Romance R7 minimum-dose assistant-surface realization repair;
-7. Romance R23R2 local owner-final order/realization correction.
-
-The corpus unit is a **natural-boundary owner decision chain**, not a file. Many repository files are successive revisions/audits of the same chain and must not be counted as independent examples.
-
-The retracted false aquatic split is excluded from labels/evidence.
-
-## Retrieval protocol — critical writer-context rule
-
-Trajectory retrieval is a **supervisor aid**, not a writer prompt library.
-
-Before retrieval:
-1. freeze the literal live case;
-2. name primary failure stage from current evidence;
-3. name strongest competing failure stage;
-4. run a specificity/control check.
-
-Then retrieve at most **one primary structurally analogous trajectory**. Retrieve a second only for disconfirmation/mechanism discrimination.
-
-The writer normally should **not** see:
-- historical rejected prose;
-- Pangram labels;
-- trajectory anti-pattern tags;
-- long owner criticism;
-- unrelated Joel examples;
-- the whole preservation inventory.
-
-The writer should see only:
-- literal current context;
-- current source thought/owner cognition;
-- claims/provenance/certainty that must survive;
-- one local relation/live pressure;
-- authorized delta;
-- needed stop/genre/safety constraint.
-
-This prevents retrieval from becoming another stacked prohibition environment.
-
-## Retrieval scoring — current uncalibrated heuristic
-
-With only seven clusters, use transparent deterministic retrieval rather than embeddings/trained similarity:
-
-- +5 primary failure-stage match;
-- +3 secondary failure-stage match;
-- +3 per genuinely equivalent failure tag, max +6;
-- +2 operation match;
-- +2 compatible owner-thought-topology state;
-- +2 genuinely relevant genre/function-class match;
-- +1 cross-article analogy bonus when the relation survives topic change;
-- −5 topic/entity-only similarity;
-- −5 if using the trajectory would require importing historical prose/facts;
-- exclude retracted/superseded evidence.
-
-These are provisional routing weights, not calibrated science and never tuned to Pangram.
-
-## Prospective evaluation
-
-Do not replay the seven seed cases and call retrieval validated.
-
-Future independent/live boundaries compare conceptually:
-
-A. V3 router alone;
-B. V3 router + one retrieved correction relation at the supervisor layer.
-
-Primary outcomes, in order:
-1. semantic/preservation fidelity;
-2. Joel acceptance/judgment;
-3. recurrence of predicted failure;
-4. amount of owner correction required;
-5. provenance/actor/certainty errors;
-6. unnecessary scaffold/overcompletion;
-7. genuinely fresh final-reader quality where required;
-8. Pangram only if separately authorized.
-
-If true A/B isolation is unavailable, use retrieval prospectively and log owner correction burden rather than creating a pseudo-blinded comparison.
-
-## First prospective use — Shaking Qigong
-
-The first live production candidate under V3 + retrieval now exists:
-
-`articles/somatic-therapies/experiments/SOMATIC-STAGE2-SHAKING-QIGONG-V3-RETRIEVAL-PROSPECTIVE-CANDIDATE-20260909.md`
-
-Status:
-- non-authoritative;
-- preservation proof PASS for the bounded movement;
-- no unexplained substantive deltas;
-- Pangram not run;
-- same-context audit provisional;
-- owner judgment pending.
-
-Operation actually used:
-- preserve Louka and the Route-4 mechanism/evidence/safety movements;
-- split the current mixed paragraph at the genre boundary;
-- rewrite only the Stage-1 -> Stage-2 narrative relation;
-- preserve the duration/use-case tail exactly as finite reference content rather than inventing a fuller Joel rationale for it.
+Exact candidate SHA-256:
+`b02b225c84cdc2f031224c0593b843d27e57db82a20fc0161b1c36fb21632812`
 
 Exact candidate:
 
@@ -211,27 +38,95 @@ In Stage 1 I keep the shaking small and exploratory. In Stage 2 it can become a 
 A regular practice might run 10–45 minutes. I think of the use cases as chronic freeze, non-verbal emotional processing, stress that accumulates between therapy sessions, and leftover activation after a deeper session.
 ```
 
-Candidate SHA-256:
-`b02b225c84cdc2f031224c0593b843d27e57db82a20fc0161b1c36fb21632812`
+Current disposition: **EDITORIAL / ARCHITECTURE FAIL. DO NOT INSTALL. DO NOT GENERATE A V3 PROSPECTIVE-002 FROM THE SAME PACKET.**
 
-Do not treat this as an accepted article edit until Joel judges it. If Joel rejects it for the same underlying failure, record that correction against this exact candidate and switch according to the failure stage rather than adding another generic anti-pattern.
+No Pangram was run.
 
-## Current article-specific boundaries remain unchanged
+### Failure
+
+The original mixed paragraph had this hidden allocation:
+
+`Stage-2 role -> Stage-1 contrast -> safety -> duration -> use-case inventory`
+
+The V3 prospective candidate changed it to:
+
+`Stage-1/Stage-2 contrast card`
+
+plus
+
+`duration/use-case reference card`.
+
+This was not a structural repair. It redistributed the same conceptual allocation and made the supervisor's source/route segmentation visible as publication paragraphing.
+
+The cold-audit verdict is **FAIL**, despite semantic preservation of the tracked units.
+
+### Preservation correction
+
+Do not misread the failure as evidence that the 10–45 minute range was model-invented. `articles/somatic-therapies/HUMANIZATION-REPORT.md` explicitly records the r01 fidelity pass as preserving the `10–45 minute shaking-practice range` from Joel's supplied source.
+
+The correction is different:
+
+- source-derived semantic custody does not freeze the current wrapper or placement;
+- a working-copy fact/function must be classified by source authority before it becomes a composition obligation;
+- `must survive` does not mean `must drive this paragraph`;
+- preservation PASS does not imply architecture PASS.
+
+The current repository records inspected in this audit did not independently establish the exact four-item `I think of the use cases as...` wrapper as natural owner wording. Do not promote that wrapper to owner realization by inference.
+
+## V4 correction — current strategy
+
+V4 inserts four gates before prose:
+
+1. **Authority/source-role classification** — exact owner realization vs owner topology vs source semantic unit vs architecture obligation vs technical object vs model realization vs unresolved provenance.
+2. **Custody/destination classification** — where must each real semantic unit survive?
+3. **Composition frontier** — which units are genuinely `LIVE_NOW` or minimum `SUPPORT_NOW`, versus merely `CUSTODY_ONLY`, `TECHNICAL_SURFACE`, or `NEEDS_AUTHOR_COGNITION`?
+4. **Sufficiency gate** — after model scaffold and custody-only obligations are removed, is there enough authorial/source thought movement left to justify prose?
+
+Only then assign/use V3 Route 0–5.
+
+Critical V4 rule:
+
+**Diagnostic maps are supervisor controls, not composition plans.**
+
+Movement/source-role/route labels may determine what can change or must survive, but they may not determine paragraph count/order or force one paragraph per source role.
+
+### Structural recurrence gate
+
+After generation, compare hidden conceptual allocation—not wording—with the failure that triggered the repair.
+
+If the same allocation survives under new paragraphing, cadence, labels, or wrappers, the candidate **FAILS automatically** and another same-method paraphrase is blocked.
+
+## Retrieval under V4
+
+Trajectory retrieval remains supervisor-side and is still experimental.
+
+A retrieved lesson earns influence only if it changes an authority/custody/composition/sufficiency decision. It may not become a paragraph plan.
+
+The JBT-002 retrieval in Shaking was structurally relevant, but the supervisor misapplied it by turning `narrative relation` and `finite reference content` into two publication cards. This is an execution failure, not positive evidence for or against retrieval as a whole.
+
+## Current Shaking disposition
+
+Do not generate more Shaking prose yet.
+
+Next operation is **source reconstruction + placement audit**:
+
+- recover the owner-supplied Shaking source topology as far as GitHub evidence allows;
+- classify Stage-1/Stage-2 distinction, stop/orient/settle, 10–45 minute range, and current use-context items by source role and destination obligation;
+- keep protected Louka material, mechanism/evidence-plane material, catharsis warning, Discharge→Settle sequence, and other current protected functions intact;
+- if the narrative frontier remains too thin once model scaffold is removed, use Route 3 rather than free-writing a complete Shaking explanation.
+
+## Other current article boundaries unchanged
 
 - Yoga is not a blocker.
 - Exact aquatic candidate remains keep-exact unless Joel reopens; full exact owner-reported Human / medium.
-- Compact exact SE two-sentence Human/low boundary remains closed for detector reasons.
+- Compact exact Somatic Experiencing two-sentence Human/low boundary remains closed for detector reasons.
 - Accepted Introduction/five-stage map and trauma-memory section remain controlling.
-- Fuller massage wording remains unresolved; bounded Stage-2 Hale sentence is non-authoritative and awaiting Joel judgment.
+- Fuller massage wording remains unresolved; bounded Stage-2 Hale sentence remains non-authoritative pending Joel judgment.
 - Do not publish/export or mark owner-final.
 - Do not run Pangram unless Joel explicitly asks.
 
-## Next strategic operation
+## Evidence status
 
-Current immediate state is **owner judgment pending on prospective Shaking candidate 001**. Do not generate another Shaking variant before that judgment unless a new factual/provenance defect is discovered.
+The V3 prospective-001 audit and V4 strategy are same-context editorial findings. They are not independent validation and not Pangram evidence.
 
-After that judgment:
-- if accepted, record the owner acceptance and use the prospective result as one bounded retrieval-supervision data point;
-- if rejected, preserve the exact owner correction and classify whether the remaining defect is the Stage relation realization, the still-untouched finite use-case surface, or a different failure stage;
-- if fuller authorial reasoning about duration/use cases is needed, escalate that specific material to Route 3 rather than inventing the rationale;
-- no Pangram unless Joel separately authorizes it.
+V4 remains Somatic-experimental until future prospective boundaries show reduced structural recurrence/owner correction burden without fidelity or provenance loss.
