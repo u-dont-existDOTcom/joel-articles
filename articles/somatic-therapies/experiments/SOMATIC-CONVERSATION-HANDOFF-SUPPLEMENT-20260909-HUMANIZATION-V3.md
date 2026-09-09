@@ -17,6 +17,7 @@ Read the main handoff and repository authority first. This supplement contains l
 9. `articles/somatic-therapies/experiments/JOEL-BYLINE-TRAJECTORY-RETRIEVAL-PROTOCOL-20260909.md`
 10. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-V3-DRY-RUN-STAGE2-SHAKING-QIGONG-20260909.md`
 11. `articles/somatic-therapies/experiments/SOMATIC-MASSAGE-STAGE2-BOUNDED-INCLUSION-CANDIDATE-20260909.md`
+12. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-SHAKING-QIGONG-V3-RETRIEVAL-PROSPECTIVE-CANDIDATE-20260909.md`
 
 For any detector claim, still read the Pangram lab fresh under `SKILL.md`. Do not infer detector state from this supplement.
 
@@ -182,6 +183,39 @@ Primary outcomes, in order:
 
 If true A/B isolation is unavailable, use retrieval prospectively and log owner correction burden rather than creating a pseudo-blinded comparison.
 
+## First prospective use — Shaking Qigong
+
+The first live production candidate under V3 + retrieval now exists:
+
+`articles/somatic-therapies/experiments/SOMATIC-STAGE2-SHAKING-QIGONG-V3-RETRIEVAL-PROSPECTIVE-CANDIDATE-20260909.md`
+
+Status:
+- non-authoritative;
+- preservation proof PASS for the bounded movement;
+- no unexplained substantive deltas;
+- Pangram not run;
+- same-context audit provisional;
+- owner judgment pending.
+
+Operation actually used:
+- preserve Louka and the Route-4 mechanism/evidence/safety movements;
+- split the current mixed paragraph at the genre boundary;
+- rewrite only the Stage-1 -> Stage-2 narrative relation;
+- preserve the duration/use-case tail exactly as finite reference content rather than inventing a fuller Joel rationale for it.
+
+Exact candidate:
+
+```text
+In Stage 1 I keep the shaking small and exploratory. In Stage 2 it can become a regular practice for autonomic discharge and energetic decompression, as long as you can still stop, orient, and settle afterward.
+
+A regular practice might run 10–45 minutes. I think of the use cases as chronic freeze, non-verbal emotional processing, stress that accumulates between therapy sessions, and leftover activation after a deeper session.
+```
+
+Candidate SHA-256:
+`b02b225c84cdc2f031224c0593b843d27e57db82a20fc0161b1c36fb21632812`
+
+Do not treat this as an accepted article edit until Joel judges it. If Joel rejects it for the same underlying failure, record that correction against this exact candidate and switch according to the failure stage rather than adding another generic anti-pattern.
+
 ## Current article-specific boundaries remain unchanged
 
 - Yoga is not a blocker.
@@ -194,14 +228,10 @@ If true A/B isolation is unavailable, use retrieval prospectively and log owner 
 
 ## Next strategic operation
 
-For the next unresolved humanization boundary, do **not** broad-rewrite by heading.
+Current immediate state is **owner judgment pending on prospective Shaking candidate 001**. Do not generate another Shaking variant before that judgment unless a new factual/provenance defect is discovered.
 
-1. inspect the literal current span and owner/source provenance;
-2. split only if different natural movements genuinely require different V3 routes;
-3. freeze the live diagnosis before trajectory retrieval;
-4. retrieve at most one analogue on failure relation, not topic;
-5. select a concrete operation before writing;
-6. keep historical anti-pattern material out of the writer packet;
-7. log the result prospectively.
-
-The Stage-2 Shaking Qigong dry run is method-usability evidence only and made no prose change.
+After that judgment:
+- if accepted, record the owner acceptance and use the prospective result as one bounded retrieval-supervision data point;
+- if rejected, preserve the exact owner correction and classify whether the remaining defect is the Stage relation realization, the still-untouched finite use-case surface, or a different failure stage;
+- if fuller authorial reasoning about duration/use cases is needed, escalate that specific material to Route 3 rather than inventing the rationale;
+- no Pangram unless Joel separately authorizes it.
