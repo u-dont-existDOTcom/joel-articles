@@ -80,6 +80,24 @@ Freeze the proven useful boundary provisionally, diagnose the first structural c
 
 Detector labels remain exact-boundary evidence, not authorship proof or permanent style authority.
 
+## Owner-thought realization is not independent-generation evidence
+
+Keep two performance ledgers separate:
+
+1. **Owner-thought realization** — Joel supplies the substantive cognition, examples, weighting, or thought topology; the model realizes that thought in reader-facing prose.
+2. **Independent thought generation** — the model receives only a bare topic/question and must originate both the cognition and the prose architecture.
+
+A successful owner-fed passage does not prove independent generation improved.
+
+Current direct evidence from 2026-09-09:
+
+- the full redistributed Somatic aquatic-bodywork passage, built from Joel's Hale/water-therapy thought topology, was owner-reported **Human / medium confidence**;
+- a separate fully model-originated passage from only the prompt `write about why people enjoy walking at night` was owner-reported **high-confidence AI**.
+
+Therefore the supported production lesson is narrow: preserving Joel's cognition/topology can materially improve model realization, while fully independent human-shaped thought generation remains unproven and in this direct probe failed.
+
+Do not claim generator-wide improvement from owner substitution, owner topology, restored source prose, or mixed boundaries. Score those contributions separately.
+
 ## Required pre-delivery questions
 
 For substantial Joel-byline source realization, answer privately:
@@ -92,5 +110,6 @@ For substantial Joel-byline source realization, answer privately:
 6. Am I consuming preservation units because they remain on the ledger, or because the live thought has reached them?
 7. If a sequence is real, did I preserve its causal relations without turning it into a staircase merely for clarity?
 8. If part of the boundary already works, am I leaving it untouched?
+9. Am I mistaking a successful owner-thought realization for evidence of independent generation ability?
 
 A failure on any substantive question blocks delivery until repaired or explicitly justified.
