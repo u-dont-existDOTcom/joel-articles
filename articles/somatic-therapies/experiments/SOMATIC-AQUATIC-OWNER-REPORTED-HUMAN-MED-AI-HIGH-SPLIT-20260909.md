@@ -1,38 +1,24 @@
-# Somatic aquatic bodywork — owner-reported detector split — 2026-09-09
+# Somatic aquatic bodywork — mistaken detector split record — RETRACTED — 2026-09-09
 
-Status: **OWNER-REPORTED DETECTOR LOCALIZATION / BOUNDARY-SPECIFIC / NO CHAT PANGRAM CALL**.
+Status: **RETRACTED / ASSISTANT MISATTRIBUTION / NOT DETECTOR EVIDENCE**.
 
-## Exact candidate
+This file previously claimed that Joel had reported the earlier aquatic-bodywork candidate Human / medium confidence through the ear paragraph and AI / high confidence beginning `The bigger problem Hale has noticed...`.
 
-The tested candidate was:
+That attribution was wrong.
 
-```text
-## Aquatic Bodywork / Water Therapy
+Joel directly corrected the assistant:
 
-Hale is trained in aquatic bodywork, and she finds the water especially effective for bringing people back toward their inner child. Sometimes people get so young in the water that they feel as if they're back in the womb. There's also a physical side to it that I find interesting: floating lets somebody stretch and move you through positions that would be difficult or impossible to get into the same way on land.
+`what the heck are you talking about? i'm not talking about the earlier aquatic candidate at all`
 
-Some people are just prone to ear infections, even with clean water and earplugs, and for them this may not be worth doing very often.
+Therefore:
 
-The bigger problem Hale has noticed is how emotionally open people can become. She doesn't like starting with the water before knowing what somebody is already feeling and what they want to work on, so she'll do some inner-child work with them first. Then the aquatic work can take them further into it. She uses massage afterward to help ground them again, and she stays available in case something is still open and they need more help with it after the session.
+- the previously recorded aquatic Human/AI split is **invalid**;
+- it must not be used as detector evidence, editorial localization, or method evidence;
+- do not infer any Pangram fractions, model/version, History identity, or detector windows from the mistaken record;
+- any downstream rule that depended specifically on that alleged split must be removed or corrected.
 
-That's something I'd ask a water therapist about beforehand: if the session opens up much more than expected, what do you actually do then?
-```
+The broader owner-thought-topology audit remains independently valid because it was based on Joel's direct editorial judgment that the first massage/aquatic candidate looked AI-shaped and on the literal structural defects in that candidate, not on this mistaken detector split.
 
-## Owner report
+The valid later aquatic result is separate: Joel reported the complete redistributed aquatic candidate in `SOMATIC-AQUATIC-BODYWORK-TAIL-REDISTRIBUTION-CANDIDATE-20260909.md` **Human / medium confidence for the full candidate**.
 
-Joel reported:
-
-- through the end of the ear-infection paragraph, immediately before `The bigger problem Hale has noticed...`: **Human / medium confidence**;
-- beginning with `The bigger problem Hale has noticed...` and continuing through the remaining tail: **AI / high confidence**.
-
-No numerical fractions, Pangram model/version, History identity, or exact detector-window metadata were supplied. Do not infer them.
-
-## Editorial interpretation
-
-This is strong boundary-local evidence that the first two paragraphs should not be reopened merely because the tail fails.
-
-The AI-shaped tail coincides with the point where the model compresses Hale's care sequence into a complete explanatory/procedural movement: problem statement -> pre-water preparation -> water -> massage grounding -> continued availability -> reader screening question.
-
-The sequence itself remains owner-protected content. The detector/editorial problem is the model realization/topology, not the existence of an ordered practitioner sequence.
-
-Do not locally optimize the Human/medium prefix. Do not treat `The bigger` as a banned phrase. Change the architecture of the tail rather than token-editing it.
+The later high-confidence AI report applied to the separate fully model-originated `why people enjoy walking at night` generation test, not to aquatic bodywork.
