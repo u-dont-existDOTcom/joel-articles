@@ -14,8 +14,10 @@ Joel's `keep going` / `continue` instruction authorizes continued non-authoritat
 4. `SOMATIC-STAGE2-V7-AUTHORITY-ISLAND-ASSEMBLY-002-SE-SHAKING-SETTLING-20260910.md` — owner-topology relation recovery; safety-incomplete as a full reader boundary
 5. `SOMATIC-STAGE2-V7-AUTHORITY-ISLAND-RECOVERY-003-SOLAR-HEART-20260910.md` — solar-plexus / heart-love island recovery
 6. `SOMATIC-STAGE2-V7-TECHNICAL-SAFETY-RECOVERY-004-SHAKING-YIN-20260910.md` — source-exact adjacent safety recovery
-7. `SOMATIC-STAGE2-V7-AUTHORITY-GRAPH-005-20260910.md` — **current supported-relation graph and explicit gaps; not a prose outline**
-8. `SOMATIC-STAGE2-V6-CUSTODY-DESTINATION-LEDGER-20260909.md` — semantic custody only; never use its row order as prose order
+7. `SOMATIC-STAGE2-V7-AUTHORITY-GRAPH-005-20260910.md` — supported-relation graph and explicit gaps; not a prose outline
+8. `SOMATIC-STAGE2-V7-PARTIAL-ASSEMBLY-006-20260910.md` — **current partial Stage-2 assembly surface using supported relations + explicit gaps**
+9. `SOMATIC-STAGE2-V7-SHAKING-TECHNICAL-REFERENCE-SURFACE-007-20260910.md` — preservation-clean non-narrative candidate for dose/use/mechanism bank; placement unresolved
+10. `SOMATIC-STAGE2-V6-CUSTODY-DESTINATION-LEDGER-20260909.md` — semantic custody only; never use its row order as prose order
 
 For detector/humanization work also fresh-read the Pangram lab under the repository skill. The broad Job-2 model-only stop rule remains active. No Pangram has been run in this continuation.
 
@@ -85,6 +87,25 @@ Important yin yoga caveat: Yin yoga can be helpful, but only if it is gentle, pr
 
 Treat both as technical/reference safety objects. Do not write another polished warning paragraph merely to consume them.
 
+## Shaking technical reference surface 007
+
+A preservation-clean non-narrative realization now exists for the source-derived duration/use/mechanism bank:
+
+```markdown
+**Shaking Qigong / TRE — reference notes**
+
+- **Regular practice:** 10–45 minutes.
+- **Use contexts:** non-verbal emotional processing; chronic freeze patterns; stress accumulation between therapy sessions; post-therapy discharge when activation remains in the body.
+- **Possible non-qigong explanations:** rhythmic movement; reduced muscular armoring; greater awareness of bodily sensation; a possible shift from fight-or-flight toward a calmer state; tremor-mediated release of chronic tension; completion of interrupted defensive impulses.
+- **Qigong explanation:** in qigong, *qi* means vital energy. From that perspective: removing energetic stagnation; increasing qi circulation; dissolving stored emotional charge; reconnecting breath, body, and movement.
+```
+
+Preservation: PASS.
+Placement: unresolved.
+Whole-boundary structural effect: untested until placed.
+
+This reduces G4 from `no viable realization` to `viable reference surface exists; placement remains unresolved`.
+
 ## Placement findings
 
 ### Resolved
@@ -94,7 +115,8 @@ Treat both as technical/reference safety objects. Do not write another polished 
 - stronger-shaking stop/orient/settle and instability/catharsis limits require local adjacency when stronger shaking is reader-visible.
 - yin safety requires local adjacency wherever yin is actually offered.
 - massage is owner-authorized primarily as a Stage-2 regulation/settling/body-contact modality, and directly as one optional post-shaking grounding/soft-exploration tool.
-- **local P -> EFT assembly is supportable:** the EFT recovery record explicitly says a subsequent V7 assembly may combine the direct optional post-shaking EFT/massage/yin relation with the exact recovered tapping/head-massage paragraph. This supports assembly 001 as a bounded local relation.
+- **local post-shaking -> EFT assembly is supportable:** the EFT recovery record explicitly says a subsequent V7 assembly may combine the direct optional post-shaking EFT/massage/yin relation with the exact recovered tapping/head-massage paragraph. This supports assembly 001 as a bounded local relation.
+- the technical Shaking bank now has a preservation-clean reference-surface candidate; it no longer needs a narrative mini-essay to survive.
 
 ### Still unresolved
 
@@ -115,9 +137,10 @@ Treat both as technical/reference safety objects. Do not write another polished 
    - what remains unresolved is whether the final Stage should globally place EFT there, whether another island comes earlier, and whether immediate adjacency survives the eventual whole-Stage assembly.
    - do not call local eligibility `EFT first` authority.
 
-4. **Technical dose/use/mechanism/evidence placement**
-   - full semantic custody remains;
-   - current source/card order does not determine final prose order.
+4. **Technical reference surface placement**
+   - surface 007 is preservation-clean;
+   - no authority currently decides its position relative to Louka, S, or the stronger-shaking safety object;
+   - do not restore inherited source order by inertia.
 
 ## Important correction to earlier continuation reasoning
 
@@ -135,9 +158,11 @@ This is a safety-gate correction, not a strategy switch.
 
 Also correct the earlier statement that the recovered EFT paragraph's adjacency to the post-shaking alternatives was wholly unresolved. The recovery record itself authorizes combining those two islands locally. Only the **global Stage-order consequence** remains unresolved.
 
-## Current authority graph
+## Current authority graph / partial assembly
 
 Use `SOMATIC-STAGE2-V7-AUTHORITY-GRAPH-005-20260910.md` rather than prose-order intuition.
+
+Use `SOMATIC-STAGE2-V7-PARTIAL-ASSEMBLY-006-20260910.md` as the current partial assembly record.
 
 Supported local path:
 
@@ -147,34 +172,35 @@ This path does **not** establish that Stage 2 begins there or that all final nod
 
 Solar/heart remains a separate authorized end-of-Stage island before Stage 3.
 
-Louka and the technical Shaking bank remain in the Shaking area with unresolved relative placement.
+Louka and the technical Shaking reference surface remain in the Shaking area with unresolved relative placement.
 
 ## What not to do next
 
 - no broad Stage-2 rewrite;
 - no `Shaking prospective-002` style complete modality profile;
 - no new prose from the Stage-2 opening merely because it feels like the natural frontier;
-- no `EFT first` inference from the locally supportable P -> EFT assembly;
+- no `EFT first` inference from the locally supportable post-shaking -> EFT assembly;
 - no further same-source attempts to infer Louka before/after S;
 - no `Goal / Mechanism / Best use / Not ideal` reconstruction;
 - no rigid Shaking -> yin -> EFT stack;
-- no deletion of 10–45 minute range, use contexts, mechanisms/evidence planes, or safety banks merely because their final surface is unresolved;
+- no prettier paraphrase of reference surface 007 if its eventual placement creates a structural problem; change architecture/placement instead;
+- no deletion of 10–45 minute range, use contexts, mechanisms/evidence planes, or safety banks merely because their final placement is unresolved;
 - no Pangram unless Joel explicitly requests it.
 
 ## Next best operation
 
-The V7 source-recovery phase has now resolved what can be resolved from the currently named sources without repeating correlated inference.
+Stage 2 now has a legitimate **partial assembly**, not a complete Stage.
 
-Next:
+The remaining G1/G2/G3 placement issues require authorial authority, not more same-context prose ingenuity. They are not an article-wide blocker.
 
-1. use the authority graph to build only a **partial Stage-2 assembly surface** from supported local edges plus explicit gaps;
-2. represent stronger-shaking and yin safety as technical/reference material, not as another modality-profile narrative cycle;
-3. keep the Stage-2 opening wording as a gap rather than regenerating it;
-4. keep Louka relative placement as a gap rather than selecting it for smoothness;
-5. preserve the solar/heart island intact at the current Stage-2 end;
-6. only when a complete reader assembly actually requires G1/G3 resolution should the supervisor ask Joel the smallest placement/cognition question.
+If continuing autonomously without a new Joel placement decision:
 
-Do not rewrite the solar/heart island while this assembly proceeds.
+1. do **not** keep attacking G1/G3 with the same sources;
+2. preserve Stage 2 at partial-assembly status;
+3. continue humanization/recovery on the next independent owner-backed article boundary (Stage 3) without pretending Stage 2 is complete;
+4. return to G1/G3 only when Joel supplies a placement/cognition correction or when final whole-article assembly requires the smallest explicit owner decision.
+
+If Joel does provide a Stage-2 placement correction, it immediately outranks this unresolved state and should be recorded before further assembly.
 
 ## Authority unchanged
 
