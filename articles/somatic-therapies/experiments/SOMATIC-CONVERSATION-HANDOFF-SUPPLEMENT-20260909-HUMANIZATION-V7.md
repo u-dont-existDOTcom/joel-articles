@@ -10,9 +10,10 @@ Read repository authority and prior V3–V6 handoffs first. This supplement cont
 2. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-V6-MOVEMENT-001-AUDIT-AND-STRATEGY-SWITCH-20260909.md` — **current audit / corrected preservation and method verdict**
 3. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-V7-AUTHORITY-ISLAND-ASSEMBLY-20260909.md` — **current Stage-2 production strategy**
 4. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-V6-CUSTODY-DESTINATION-LEDGER-20260909.md` — retained custody inventory only; not a writing outline
-5. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-RECOVERY-20260910.md` — **current EFT source-recovery result / same-function PASS with separate placement authority**
+5. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-RECOVERY-20260910.md` — **EFT source-recovery result / same-function PASS with separate placement authority**
+6. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-ASSEMBLY-001-20260910.md` — **current local EFT authority-island assembly / awaiting owner judgment**
 
-For humanization/detector continuation, fresh-read the Pangram lab under `SKILL.md`, including the current Job-2 model-only stop-rule lesson. No Pangram was run in this audit/switch or the V7 EFT recovery.
+For humanization/detector continuation, fresh-read the Pangram lab under `SKILL.md`, including the current Job-2 model-only stop-rule lesson. No Pangram was run in this audit/switch, V7 EFT recovery, or assembly 001.
 
 ## V6 movement 001 disposition
 
@@ -103,17 +104,50 @@ The r07b tapping/head-massage span's historical High-confidence Human detector s
 Full recovery record:
 `articles/somatic-therapies/experiments/SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-RECOVERY-20260910.md`
 
+## V7 EFT authority-island assembly 001 — 2026-09-10
+
+Assembly 001 is **COMPLETE / NON-AUTHORITATIVE / AWAITING OWNER JUDGMENT**.
+
+Prospective local micro-boundary:
+
+```markdown
+After shaking, EFT, massage, or yin yoga could help with grounding as well as a soft physical exploration of the body.
+
+## EFT / Tapping
+
+EFT tapping has been useful for me as a regulation practice, and for me it partly works by diverting attention while I am activated. I also notice different changes at different tapping points, and some of it feels a little like massage. I sometimes get an even bigger calming effect from shaving my head and massaging it.
+```
+
+Transformation is intentionally minimal:
+- the relation sentence is the 2026-09-09 direct owner clause with conversational `and then` removed and the parenthetical alternatives converted to ordinary list punctuation;
+- the recovered EFT paragraph has **0 wording changes**;
+- no causal bridge, timing inventory, therapy-substitution claim, rigid protocol, or explanatory synthesis was added.
+
+Preservation/reverse-traceability: **PASS**.
+Source-integrity gate: **PASS**.
+Order/placement custody: **BOUNDED PASS** — local placement only; it does not establish global `EFT first` authority.
+Structural/model-shape audit: **PROVISIONAL PASS / SAME-CONTEXT / NOT INDEPENDENT CERTIFICATION**.
+
+Primary residual risk is that listing EFT/massage/yin and immediately opening the EFT subsection may be read as editorial priority. That is acceptable only as a local candidate for owner judgment, not as final order by inertia.
+
+Full assembly record:
+`articles/somatic-therapies/experiments/SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-ASSEMBLY-001-20260910.md`
+
 ## Next production action
 
-The next bounded V7 operation is **authority-island assembly, not another EFT rewrite**.
+**Owner judgment on assembly 001 is now the next authority-changing step.**
 
-Build a non-authoritative local Stage-2 candidate only from:
-1. the direct 2026-09-09 owner relation that, after stronger shaking, EFT **or** massage **or** restorative/gentle yin can optionally support grounding/settling and softer physical exploration; and
-2. the exact recovered tapping/head-massage paragraph above for EFT's substantive owner-grounded content.
+Do not free-paraphrase EFT again while waiting for that judgment.
 
-Do not import the r07b surrounding scaffold, r01 `EFT first` ordering, the old `Discharge → Settle Stack`, V6's rejected therapy-waiting contrast, or any new model-written causal/sequence relation.
+If Joel accepts the micro-boundary or gives a local correction:
+1. record the owner judgment/correction;
+2. carry only the accepted/corrected local boundary into the next whole-Stage preservation/architecture pass;
+3. do not infer broader Stage-2 ordering from that local acceptance;
+4. do not install into the working reader unless the owner judgment authorizes installation or the subsequent accepted whole-Stage operation does so.
 
-Any connective wording must be limited to factual/grammatical/deictic repair needed to make the two authority-backed islands readable in place. Run the normal preservation and architecture checks on that local candidate. Do not install it into the working reader without owner acceptance/authority. Do not run Pangram unless Joel explicitly asks.
+If Joel rejects the placement or wording as still model-shaped, revise only from his direct correction. Do not respond with another autonomous EFT paraphrase.
+
+Do not run Pangram unless Joel explicitly asks.
 
 ## Authority unchanged
 
