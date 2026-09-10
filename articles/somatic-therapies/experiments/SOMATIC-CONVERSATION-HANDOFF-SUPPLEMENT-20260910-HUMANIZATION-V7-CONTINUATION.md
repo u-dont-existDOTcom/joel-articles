@@ -10,11 +10,12 @@ Joel's `keep going` / `continue` instruction authorizes continued non-authoritat
 
 1. `SOMATIC-HUMANIZATION-STRATEGY-V7-AUTHORITY-ISLAND-ASSEMBLY-20260909.md` — active Stage-2 method
 2. `SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-RECOVERY-20260910.md` — recovered EFT same-function owner island
-3. `SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-ASSEMBLY-001-20260910.md` — local EFT placement candidate; not accepted
-4. `SOMATIC-STAGE2-V7-AUTHORITY-ISLAND-ASSEMBLY-002-SE-SHAKING-SETTLING-20260910.md` — owner-topology relation recovery
+3. `SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-ASSEMBLY-001-20260910.md` — locally supportable EFT assembly; not owner-accepted/global-order authority
+4. `SOMATIC-STAGE2-V7-AUTHORITY-ISLAND-ASSEMBLY-002-SE-SHAKING-SETTLING-20260910.md` — owner-topology relation recovery; safety-incomplete as a full reader boundary
 5. `SOMATIC-STAGE2-V7-AUTHORITY-ISLAND-RECOVERY-003-SOLAR-HEART-20260910.md` — solar-plexus / heart-love island recovery
 6. `SOMATIC-STAGE2-V7-TECHNICAL-SAFETY-RECOVERY-004-SHAKING-YIN-20260910.md` — source-exact adjacent safety recovery
-7. `SOMATIC-STAGE2-V6-CUSTODY-DESTINATION-LEDGER-20260909.md` — semantic custody only; never use its row order as prose order
+7. `SOMATIC-STAGE2-V7-AUTHORITY-GRAPH-005-20260910.md` — **current supported-relation graph and explicit gaps; not a prose outline**
+8. `SOMATIC-STAGE2-V6-CUSTODY-DESTINATION-LEDGER-20260909.md` — semantic custody only; never use its row order as prose order
 
 For detector/humanization work also fresh-read the Pangram lab under the repository skill. The broad Job-2 model-only stop rule remains active. No Pangram has been run in this continuation.
 
@@ -88,11 +89,12 @@ Treat both as technical/reference safety objects. Do not write another polished 
 
 ### Resolved
 
-- Solar/heart material belongs in Stage 2.
+- Solar/heart material belongs in Stage 2 and currently has accepted end-of-Stage placement before the Stage-3 boundary.
 - Louka's testimonial remains in the Shaking location/subsection.
 - stronger-shaking stop/orient/settle and instability/catharsis limits require local adjacency when stronger shaking is reader-visible.
 - yin safety requires local adjacency wherever yin is actually offered.
 - massage is owner-authorized primarily as a Stage-2 regulation/settling/body-contact modality, and directly as one optional post-shaking grounding/soft-exploration tool.
+- **local P -> EFT assembly is supportable:** the EFT recovery record explicitly says a subsequent V7 assembly may combine the direct optional post-shaking EFT/massage/yin relation with the exact recovered tapping/head-massage paragraph. This supports assembly 001 as a bounded local relation.
 
 ### Still unresolved
 
@@ -103,14 +105,19 @@ Treat both as technical/reference safety objects. Do not write another polished 
 
 2. **Louka relative to the SE/shaking owner-topology paragraph**
    - Louka belongs in the Shaking location;
-   - no recovered authority yet decides whether the protected callout should appear before or after the SE/shaking relation.
-   - do not infer the adjacency from r01/V5 order.
+   - original supplied-source order puts Louka before the old Phase distinction, but V4 already ruled that card-source order insufficient to establish natural owner topology;
+   - Joel's later direct SE/shaking thought does not mention the testimonial;
+   - repeated inference from the same sources has reached the method threshold.
+   - **Disposition: PLACEMENT_UNRESOLVED. Do not keep iterating the same evidence.**
 
-3. **Recovered EFT paragraph relative to the post-shaking alternatives sentence**
-   - Joel directly authorized EFT as one optional post-shaking settling tool;
-   - the recovered EFT paragraph independently carries EFT's personal regulation/tactile function;
-   - immediate adjacency is plausible but not established as global order.
-   - assembly 001 remains a local candidate, not an accepted placement decision.
+3. **Local EFT adjacency versus final global Stage order**
+   - local post-shaking relation -> recovered EFT paragraph is supported for a bounded V7 assembly;
+   - what remains unresolved is whether the final Stage should globally place EFT there, whether another island comes earlier, and whether immediate adjacency survives the eventual whole-Stage assembly.
+   - do not call local eligibility `EFT first` authority.
+
+4. **Technical dose/use/mechanism/evidence placement**
+   - full semantic custody remains;
+   - current source/card order does not determine final prose order.
 
 ## Important correction to earlier continuation reasoning
 
@@ -126,12 +133,29 @@ Withheld result:
 
 This is a safety-gate correction, not a strategy switch.
 
+Also correct the earlier statement that the recovered EFT paragraph's adjacency to the post-shaking alternatives was wholly unresolved. The recovery record itself authorizes combining those two islands locally. Only the **global Stage-order consequence** remains unresolved.
+
+## Current authority graph
+
+Use `SOMATIC-STAGE2-V7-AUTHORITY-GRAPH-005-20260910.md` rather than prose-order intuition.
+
+Supported local path:
+
+`SE/shaking owner relation -> mandatory stronger-shaking safety -> optional post-shaking settling relation -> mandatory yin safety if yin remains -> recovered EFT paragraph may follow locally`
+
+This path does **not** establish that Stage 2 begins there or that all final nodes must remain consecutive.
+
+Solar/heart remains a separate authorized end-of-Stage island before Stage 3.
+
+Louka and the technical Shaking bank remain in the Shaking area with unresolved relative placement.
+
 ## What not to do next
 
 - no broad Stage-2 rewrite;
 - no `Shaking prospective-002` style complete modality profile;
 - no new prose from the Stage-2 opening merely because it feels like the natural frontier;
-- no immediate EFT placement by inertia;
+- no `EFT first` inference from the locally supportable P -> EFT assembly;
+- no further same-source attempts to infer Louka before/after S;
 - no `Goal / Mechanism / Best use / Not ideal` reconstruction;
 - no rigid Shaking -> yin -> EFT stack;
 - no deletion of 10–45 minute range, use contexts, mechanisms/evidence planes, or safety banks merely because their final surface is unresolved;
@@ -139,17 +163,18 @@ This is a safety-gate correction, not a strategy switch.
 
 ## Next best operation
 
-Continue **source/authority placement recovery**, not prose generation.
+The V7 source-recovery phase has now resolved what can be resolved from the currently named sources without repeating correlated inference.
 
-Priority order:
+Next:
 
-1. search current owner/history sources for a real relation fixing Louka before/after the SE/shaking paragraph;
-2. search for a real relation fixing the recovered EFT paragraph relative to the post-shaking alternatives sentence;
-3. if neither is recoverable, preserve both as explicit placement gaps rather than choose for smoothness;
-4. then construct a partial Stage-2 authority map showing islands + mandatory safety objects + gaps, without pretending it is a prose outline;
-5. only ask Joel for the smallest missing placement/cognition after recovery is exhausted.
+1. use the authority graph to build only a **partial Stage-2 assembly surface** from supported local edges plus explicit gaps;
+2. represent stronger-shaking and yin safety as technical/reference material, not as another modality-profile narrative cycle;
+3. keep the Stage-2 opening wording as a gap rather than regenerating it;
+4. keep Louka relative placement as a gap rather than selecting it for smoothness;
+5. preserve the solar/heart island intact at the current Stage-2 end;
+6. only when a complete reader assembly actually requires G1/G3 resolution should the supervisor ask Joel the smallest placement/cognition question.
 
-The solar/heart island need not be rewritten while this placement work proceeds.
+Do not rewrite the solar/heart island while this assembly proceeds.
 
 ## Authority unchanged
 
