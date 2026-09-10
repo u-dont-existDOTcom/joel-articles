@@ -1,3 +1,9 @@
+# Current routing — r02 guide update
+
+The owner-authorized updated guide is now registered on this task branch as `inner-signal` in `articles/INDEX.json`. Read `articles/inner-signal/CURRENT-STATE.md` and its source/locks before editing. The r02 working master and canonical clipboard exports supersede the research prototype as the article-working artifact. The research/reference below remains provenance and app-knowledge material, not deployed functionality. No publication or owner-final status is implied.
+
+---
+
 # Inner Signal hypnosis-guide research: current checkpoint
 
 Updated: 2026-09-10, after Joel accepted the audit recommendations and requested completion of important app-reference reading and a non-academic citation design.

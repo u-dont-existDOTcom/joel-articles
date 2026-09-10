@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-signal",
+  "status": "passed",
+  "checks": [
+    {
+      "id": "preservation",
+      "status": "pass",
+      "description": "26 recorded reversible edits; 24 forward source-function mappings; reverse authority mapping for each edit; zero unexplained substantive deltas."
+    },
+    {
+      "id": "literal-proofread",
+      "status": "pass",
+      "description": "Source comparison and assembled-text same-context passes; not independent."
+    },
+    {
+      "id": "native-transfer",
+      "status": "pass",
+      "description": "Exact canonical init/build/verify. Real destination pending."
+    }
+  ],
+  "limitations": [
+    "Owner review pending",
+    "Existing legacy factual claims not exhaustively reverified",
+    "Independent clinical/voice/destination tests not completed"
+  ]
+}

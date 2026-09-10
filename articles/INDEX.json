@@ -166,6 +166,140 @@
           "role": "preservation_proof"
         }
       ]
+    },
+    {
+      "id": "inner-signal",
+      "title": "Inner Signal: self-hypnosis and inner communion",
+      "status": "working",
+      "authority": {
+        "master": {
+          "path": "articles/inner-signal/master.html",
+          "sha256": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9"
+        },
+        "owner_locks": {
+          "path": "articles/inner-signal/OWNER-LOCKS.json",
+          "sha256": "63c1b999e7ef1566f9a0a06cbcabd528ff75fbaaf5088b76a63d46e5f9c80e08"
+        },
+        "source_evidence": {
+          "path": "articles/inner-signal/SOURCE-EVIDENCE.json",
+          "sha256": "f2e08ef7b38d621aef04d89ec0ae0f109730f9045f95e3938ad0f7fcda0fc5bf"
+        },
+        "unincorporated_ideas": {
+          "path": "articles/inner-signal/UNINCORPORATED-IDEAS.md",
+          "sha256": "38df8df49ca965228c40e24f036f9972472bc68f248c1fc3ae0b299bb720598d"
+        },
+        "current_state": {
+          "path": "articles/inner-signal/CURRENT-STATE.md",
+          "sha256": "7ec78cf99087bf18918bf2936d2df261997f0961e3277c426b58083fef1c9281"
+        }
+      },
+      "review": {
+        "citations": {
+          "path": "articles/inner-signal/CITATIONS.json",
+          "sha256": "8cb046196ade62ab044ae967ea1f9f28f98fc7f33c5ce19f5579b1912609e426",
+          "status": "pending"
+        },
+        "detector": {
+          "path": "articles/inner-signal/DETECTOR-EVIDENCE.json",
+          "sha256": "28dfd48ddfa945dda1f1434e138caef30ce7d968c0ab46befdf2c5ef12151e7e",
+          "status": "not_run"
+        },
+        "editorial": {
+          "path": "articles/inner-signal/EDITORIAL-STATUS.json",
+          "sha256": "d2c39c6177719438375e37e3f8319d6146140f077e28802ecfe0d3f6d1a2de36",
+          "status": "passed"
+        }
+      },
+      "publication_exports": [
+        {
+          "path": "articles/inner-signal/exports/COPY-TO-SUBSTACK.html",
+          "sha256": "f2779a7788220fd6d73ab956f108c3e4365bec6ce9f34684444c4ef6309223e0",
+          "destination": "substack",
+          "source_authority": "articles/inner-signal/master.html@sha256:06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+          "status": "draft",
+          "role": "clipboard_helper"
+        },
+        {
+          "path": "articles/inner-signal/exports/inner-signal-r02-candidate.html",
+          "sha256": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+          "destination": "substack",
+          "source_authority": "articles/inner-signal/master.html@sha256:06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+          "status": "draft",
+          "role": "archival_html"
+        }
+      ],
+      "additional_artifacts": [
+        {
+          "path": "articles/inner-signal/ARCHITECTURE.md",
+          "sha256": "2f9145386ec2b62a3efcf21135f97664bdcca0efb8f0b0632ed8b31da17e22d7",
+          "role": "architecture_map"
+        },
+        {
+          "path": "articles/inner-signal/EDIT-CONTRACT.md",
+          "sha256": "4bc70887ff58159eb8b9c03297e04fa85a7e03297789e7e77ff3dba768e88af1",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/EDITORIAL-REPORT.md",
+          "sha256": "892866f156b555cc459949f25cf45c3fbb70c84514e5b464d47f2cfcc4eed236",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/OWNER-DIRECTIONS-R02.json",
+          "sha256": "5678171b141f44022e2ea294d8250d9c6ab19d937f6db6ea09549f93ab128b9f",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/PARAGRAPH-LEDGER.json",
+          "sha256": "9fcde03dae43192982c7688b4950da81b81926c842509c9aa65cfb6edf1d58d7",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/PATCHES-R02.json",
+          "sha256": "6e837c8579ae79e73a0f2df6419f96918eca8593a6da15b9c5dde35ede08c0de",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/PRESERVATION-RECEIPT.json",
+          "sha256": "ea28a88b675d0b6ab0b015f0b51cf933981bc49bf6443afc722096610e719593",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/exports/HELPER-RECEIPT.json",
+          "sha256": "2960183e4cff92e561c1ab9f57f9b84f25498fd1f96054a5d9f552083018f695",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/exports/helper-interaction.json",
+          "sha256": "dc9eb118b5545e27d52545a19b167fd2961f809721dc801c347f1b4a2c00bc8c",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/exports/objects.json",
+          "sha256": "a2a10398f53b1578b1bfd06aed0ec64844e17627cad3988fabb1bfdffc2aa00c",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/exports/transfer-plan.json",
+          "sha256": "480d1e30ce67292d171a87b77109e3869b2e61bca399870ae2a1fcef225a69bf",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/exports/transfer-report.md",
+          "sha256": "8f5dedb6006d1f33646f35cf5e171639b4af2c0a841a9a885515d54d76fcc7c7",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-signal/source/owner-editor-original.html",
+          "sha256": "d7e923898a10edad0601c7cbd581fec7b0c90233f16ae005ca1fad61b6082893",
+          "role": "source_archive"
+        },
+        {
+          "path": "articles/inner-signal/source/sleep-only-r01.html",
+          "sha256": "b2f34f89b5b2c6c668f6b34983a5fc6a05acc462ae7c568f031f643a6f0a70ac",
+          "role": "source_archive"
+        }
+      ]
     }
   ]
 }

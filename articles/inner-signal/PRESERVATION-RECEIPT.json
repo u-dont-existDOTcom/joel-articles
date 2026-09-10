@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-signal",
+  "candidate_sha256": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+  "baseline_sha256": "b2f34f89b5b2c6c668f6b34983a5fc6a05acc462ae7c568f031f643a6f0a70ac",
+  "original_sha256": "d7e923898a10edad0601c7cbd581fec7b0c90233f16ae005ca1fad61b6082893",
+  "mode": "P3 owner-authorized bounded instructional reconstruction; no detector",
+  "changed_span_count": 26,
+  "protected_complete_sections": 17,
+  "source_links_preserved_in_order": 32,
+  "candidate_links": 37,
+  "source_units": [
+    {
+      "id": "P01",
+      "source_function": "physical orientation",
+      "candidate_text_anchor": "Name the day or date.",
+      "candidate_text_offset": 46552,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P02",
+      "source_function": "choice and setting",
+      "candidate_text_anchor": "Choose the question or quality you want to explore",
+      "candidate_text_offset": 35404,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P03",
+      "source_function": "stop and full alertness",
+      "candidate_text_anchor": "No inner part has to approve your decision to stop.",
+      "candidate_text_offset": 36388,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P04",
+      "source_function": "fractionation and optional depth",
+      "candidate_text_anchor": "Optional fractionation: practice coming back",
+      "candidate_text_offset": 42248,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P05",
+      "source_function": "actual response, no manufacture",
+      "candidate_text_anchor": "silence is not proof that a hidden process is working",
+      "candidate_text_offset": 50878,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P06",
+      "source_function": "whole mind communion",
+      "candidate_text_anchor": "Higher Self, universal heart-mind, wise subconscious, body intelligence, inner child, inner adults",
+      "candidate_text_offset": 47729,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P07",
+      "source_function": "values and direction",
+      "candidate_text_anchor": "truth, beauty, love, God, source, nature, universe, dharma, Tao",
+      "candidate_text_offset": 20101,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P08",
+      "source_function": "no exile or forced trust",
+      "candidate_text_anchor": "No part is exiled from the meeting",
+      "candidate_text_offset": 52249,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P09",
+      "source_function": "inherited versus chosen adulthood",
+      "candidate_text_anchor": "inherited parent",
+      "candidate_text_offset": 20987,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P10",
+      "source_function": "borrowed adulthood",
+      "candidate_text_anchor": "begin as the witness and borrow one credible function",
+      "candidate_text_offset": 52719,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P11",
+      "source_function": "three adult functions",
+      "candidate_text_anchor": "The Nurturer can change the tone",
+      "candidate_text_offset": 52527,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P12",
+      "source_function": "practical care and action",
+      "candidate_text_anchor": "A meal, a boundary, rest, a repaired relationship",
+      "candidate_text_offset": 53861,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P13",
+      "source_function": "learn responsive invitation",
+      "candidate_text_anchor": "And as I notice that tightening",
+      "candidate_text_offset": 49421,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P14",
+      "source_function": "channels without compulsory reports",
+      "candidate_text_anchor": "you don’t need to fill every category",
+      "candidate_text_offset": 49188,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P15",
+      "source_function": "voluntary movement and no movement",
+      "candidate_text_anchor": "or imagined without moving",
+      "candidate_text_offset": 51830,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P16",
+      "source_function": "capacity before content",
+      "candidate_text_anchor": "Capacity before content",
+      "candidate_text_offset": 56632,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P17",
+      "source_function": "gratitude and selected learning",
+      "candidate_text_anchor": "Thank the parts or capacities you worked with",
+      "candidate_text_offset": 53782,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P18",
+      "source_function": "complete return",
+      "candidate_text_anchor": "All instructions to deepen or remain in this session are finished",
+      "candidate_text_offset": 46031,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P19",
+      "source_function": "independent learning and retained recording choice",
+      "candidate_text_anchor": "Keep recordings when you enjoy them",
+      "candidate_text_offset": 55481,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P20",
+      "source_function": "daily/weekly review",
+      "candidate_text_anchor": "Was there something to explore, or capacity to build?",
+      "candidate_text_offset": 55771,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P21",
+      "source_function": "weekly owner dishes observation",
+      "candidate_text_anchor": "leaving the dishes exactly where they were",
+      "candidate_text_offset": 56588,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P22",
+      "source_function": "optional journal fields",
+      "candidate_text_anchor": "Include a phrase, bodily signal, child’s need, protector’s concern",
+      "candidate_text_offset": 54474,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P23",
+      "source_function": "positive practice",
+      "candidate_text_anchor": "Or spend the session developing love, play, courage, or curiosity",
+      "candidate_text_offset": 53376,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    },
+    {
+      "id": "P24",
+      "source_function": "ongoing judgment and later verification",
+      "candidate_text_anchor": "Keep the analytical mind available throughout",
+      "candidate_text_offset": 54020,
+      "disposition": "preserved or explicitly consolidated",
+      "status": "pass"
+    }
+  ],
+  "reverse_traceability": [
+    {
+      "edit_id": "E01",
+      "authority": "Repair navigation after full-script consolidation; no personal or native object removed.",
+      "units": [
+        "P02",
+        "P13",
+        "P19"
+      ],
+      "source_start": 4330,
+      "source_end": 4862,
+      "candidate_start": 4330,
+      "candidate_end": 4806
+    },
+    {
+      "edit_id": "E02",
+      "authority": "Replace duplicate mini-script with main-route instructions and accepted positive/non-leading scope.",
+      "units": [
+        "P01",
+        "P02",
+        "P03",
+        "P13",
+        "P18",
+        "P23"
+      ],
+      "source_start": 7756,
+      "source_end": 8973,
+      "candidate_start": 7700,
+      "candidate_end": 8794
+    },
+    {
+      "edit_id": "E12",
+      "authority": "Accepted observation-before-attribution boundary beside existing protector framing; existing account and examples retained.",
+      "units": [
+        "P09",
+        "P13"
+      ],
+      "source_start": 36925,
+      "source_end": 36957,
+      "candidate_start": 36746,
+      "candidate_end": 37059
+    },
+    {
+      "edit_id": "E11",
+      "authority": "Apply the accepted no-compulsory-parts correction to its earlier duplicate instruction; no personal account altered.",
+      "units": [
+        "P05",
+        "P09",
+        "P13"
+      ],
+      "source_start": 39857,
+      "source_end": 39914,
+      "candidate_start": 39959,
+      "candidate_end": 40094
+    },
+    {
+      "edit_id": "E03",
+      "authority": "Consolidate three overlapping process lists into preparation and guiding principle, preserve chosen-world humor and all methods through main practice/K.",
+      "units": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P13",
+        "P14",
+        "P15",
+        "P23"
+      ],
+      "source_start": 52017,
+      "source_end": 58316,
+      "candidate_start": 52197,
+      "candidate_end": 55894
+    },
+    {
+      "edit_id": "E04",
+      "authority": "Owner-liked rich prototype entry; consistent chosen sound/contact anchor; retained five-count and independent return.",
+      "units": [
+        "P01",
+        "P05",
+        "P14",
+        "P18"
+      ],
+      "source_start": 58316,
+      "source_end": 59568,
+      "candidate_start": 55894,
+      "candidate_end": 58508
+    },
+    {
+      "edit_id": "E05",
+      "authority": "Owner-requested deliberate re-entry cue with father recollection and accepted distinction from alert calming.",
+      "units": [
+        "P19",
+        "P18"
+      ],
+      "source_start": 64240,
+      "source_end": 64240,
+      "candidate_start": 63180,
+      "candidate_end": 65215
+    },
+    {
+      "edit_id": "E06",
+      "authority": "Reconcile explicit session ending with optional deliberately retained future cue.",
+      "units": [
+        "P18",
+        "P19"
+      ],
+      "source_start": 64788,
+      "source_end": 64896,
+      "candidate_start": 65763,
+      "candidate_end": 65958
+    },
+    {
+      "edit_id": "E07",
+      "authority": "Do not demand fabricated report categories; retain literal return and ordinary-life follow-through.",
+      "units": [
+        "P18",
+        "P22"
+      ],
+      "source_start": 65367,
+      "source_end": 65443,
+      "candidate_start": 66429,
+      "candidate_end": 66620
+    },
+    {
+      "edit_id": "E08",
+      "authority": "Replace duplicate scripted roll-call with responsive learned middle; full-script unique functions mapped to explicit existing and new destinations.",
+      "units": [
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P22",
+        "P23",
+        "P24"
+      ],
+      "source_start": 67490,
+      "source_end": 73573,
+      "candidate_start": 68667,
+      "candidate_end": 75098
+    },
+    {
+      "edit_id": "E09",
+      "authority": "Consolidate timed repeated induction/roles/exit into one self-led practice and learning progression.",
+      "units": [
+        "P19",
+        "P20",
+        "P22"
+      ],
+      "source_start": 73573,
+      "source_end": 76250,
+      "candidate_start": 75098,
+      "candidate_end": 76531
+    },
+    {
+      "edit_id": "E10",
+      "authority": "Consolidate repeated full-session checklist, preserve extra-time option and exact dishes/action paragraph.",
+      "units": [
+        "P20",
+        "P21"
+      ],
+      "source_start": 76250,
+      "source_end": 77655,
+      "candidate_start": 76531,
+      "candidate_end": 77145
+    },
+    {
+      "edit_id": "E13",
+      "authority": "Distinguish rejected wording from an inferred protective explanation, preserving conditional prompts.",
+      "units": [
+        "P09",
+        "P13"
+      ],
+      "source_start": 80204,
+      "source_end": 80251,
+      "candidate_start": 79694,
+      "candidate_end": 79898
+    },
+    {
+      "edit_id": "E14",
+      "authority": "No answer is not evidence of hidden mistrust; preserve sourced trust example as conditional.",
+      "units": [
+        "P05",
+        "P09",
+        "P13"
+      ],
+      "source_start": 80929,
+      "source_end": 80994,
+      "candidate_start": 80576,
+      "candidate_end": 80716
+    },
+    {
+      "edit_id": "E15",
+      "authority": "No compulsory guardian when no child image appears.",
+      "units": [
+        "P09",
+        "P13"
+      ],
+      "source_start": 81304,
+      "source_end": 81345,
+      "candidate_start": 81026,
+      "candidate_end": 81138
+    },
+    {
+      "edit_id": "E16",
+      "authority": "Accepted negotiated scope: chosen tolerable difficulty does not automatically terminate exploration.",
+      "units": [
+        "P03",
+        "P16"
+      ],
+      "source_start": 81698,
+      "source_end": 81772,
+      "candidate_start": 81491,
+      "candidate_end": 81686
+    },
+    {
+      "edit_id": "E17",
+      "authority": "Dependent trigger wording distinguishes voluntary future practice from hidden or unreviewable effects.",
+      "units": [
+        "P18",
+        "P19"
+      ],
+      "source_start": 85877,
+      "source_end": 86061,
+      "candidate_start": 85791,
+      "candidate_end": 86088
+    },
+    {
+      "edit_id": "E18",
+      "authority": "Owner-accepted urgent-support timing and clinician-present methods; preserve original guideline evidence/link and concluding personal evaluation.",
+      "units": [
+        "P03",
+        "P16",
+        "P18",
+        "P20"
+      ],
+      "source_start": 86223,
+      "source_end": 88087,
+      "candidate_start": 86250,
+      "candidate_end": 88836
+    },
+    {
+      "edit_id": "E19",
+      "authority": "Apply explicit owner app positioning; no claim a live voice feature is implemented; retain app/survey/contact URLs.",
+      "units": [
+        "P19",
+        "P24"
+      ],
+      "source_start": 88835,
+      "source_end": 89141,
+      "candidate_start": 89584,
+      "candidate_end": 90431
+    },
+    {
+      "edit_id": "E20",
+      "authority": "Accepted cue teaching and distinction from maximal trauma activation; preserve general anchoring function.",
+      "units": [
+        "P19"
+      ],
+      "source_start": 101485,
+      "source_end": 101605,
+      "candidate_start": 102775,
+      "candidate_end": 103137
+    },
+    {
+      "edit_id": "E21",
+      "authority": "Consistent cue retirement without claiming instant removal.",
+      "units": [
+        "P19"
+      ],
+      "source_start": 105165,
+      "source_end": 105205,
+      "candidate_start": 106697,
+      "candidate_end": 106756
+    },
+    {
+      "edit_id": "E22",
+      "authority": "Prevent cancellation-as-proof while preserving original orientation cue.",
+      "units": [
+        "P19"
+      ],
+      "source_start": 105317,
+      "source_end": 105376,
+      "candidate_start": 106868,
+      "candidate_end": 107026
+    },
+    {
+      "edit_id": "E23",
+      "authority": "Add owner-approved practitioner evaluation in existing outside-guidance appendix; no original prose moved.",
+      "units": [
+        "P24"
+      ],
+      "source_start": 122097,
+      "source_end": 122097,
+      "candidate_start": 123747,
+      "candidate_end": 124790
+    },
+    {
+      "edit_id": "E24",
+      "authority": "Accepted correction: response guides next care, not a diagnosis of internal/external metaphysical origin.",
+      "units": [
+        "P13",
+        "P24"
+      ],
+      "source_start": 130631,
+      "source_end": 131722,
+      "candidate_start": 133324,
+      "candidate_end": 134405
+    },
+    {
+      "edit_id": "E25",
+      "authority": "Consolidate common choices, actual-response checks and full return once; retain each of the eight distinct techniques, handoffs and technique-specific undoing. Final no-trance block remains exact.",
+      "units": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P10",
+        "P14",
+        "P15",
+        "P18"
+      ],
+      "source_start": 140360,
+      "source_end": 148098,
+      "candidate_start": 143043,
+      "candidate_end": 147144
+    },
+    {
+      "edit_id": "E26",
+      "authority": "Append approved section-matched source appendix after final no-trance library block. No source codes inside spoken passages.",
+      "units": [
+        "P24"
+      ],
+      "source_start": 149033,
+      "source_end": 149033,
+      "candidate_start": 148079,
+      "candidate_end": 151672
+    }
+  ],
+  "unexplained_substantive_deltas": 0,
+  "mechanical_checks": {
+    "exact_reversal": "pass",
+    "protected_section_bytes_and_order": "pass",
+    "source_link_order": "pass",
+    "spoken_passage_citation_codes_absent": "pass",
+    "empty_headings_absent": "pass"
+  },
+  "semantic_review": "Two same-context passes: source-function comparison and assembled-text proofread. Not independent clinical or usability evidence.",
+  "accepted_supersessions": [
+    "Old fixed role/report/checklist obligations become optional responsive operations.",
+    "Bracing/no response does not diagnose wording or a protector.",
+    "Hidden/indefinite cue caution does not bar a chosen future-session cue.",
+    "Two-breath diagnostic is replaced with a practical response check.",
+    "Urgent assessment is separated from multiweek practice review."
+  ],
+  "corrections_during_audit": [
+    "Restored original utilization link and sentence-design instruction.",
+    "Retained metaphor exploration and restored three-two-one sensory induction as an option.",
+    "Retained original trauma-guidelines statement, ongoing-help indications and concluding judgment.",
+    "Fixed earlier duplicate compulsory-protector instruction within accepted scope.",
+    "Corrected duplicated article in app-link sentence."
+  ]
+}

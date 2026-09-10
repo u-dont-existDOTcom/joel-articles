@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-signal",
+  "claims": [
+    {
+      "id": "SRC01",
+      "role": "owner-supplied HTML authority",
+      "path": "source/owner-editor-original.html",
+      "sha256": "d7e923898a10edad0601c7cbd581fec7b0c90233f16ae005ca1fad61b6082893"
+    },
+    {
+      "id": "SRC02",
+      "role": "owner-authorized sleep-only editing baseline",
+      "path": "source/sleep-only-r01.html",
+      "sha256": "b2f34f89b5b2c6c668f6b34983a5fc6a05acc462ae7c568f031f643a6f0a70ac"
+    },
+    {
+      "id": "SRC03",
+      "role": "accepted design/reference, not all wording owner-final",
+      "path": "research/inner-signal/reference-v1/GUIDE-CITATIONS-AND-REWRITE.md"
+    },
+    {
+      "id": "SRC04",
+      "role": "source-linked teaching reference; original paraphrases, no book redistribution",
+      "path": "research/inner-signal/reference-v1/TEACHING-REFERENCE.md"
+    }
+  ]
+}

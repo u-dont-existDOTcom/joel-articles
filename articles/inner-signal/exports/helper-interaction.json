@@ -1,0 +1,13 @@
+{
+  "primary_rich_html_hash": "2b02aa78c38b6bab8bd85744e65c5be48ef4ee6fe9cebd9c58a533675a060ab5",
+  "format": "joel-substack-transfer-helper-v4",
+  "source_sha256": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+  "helper_sha256": "f2779a7788220fd6d73ab956f108c3e4365bec6ce9f34684444c4ef6309223e0",
+  "copy_buttons": 1,
+  "fallback_text_and_link_order": "pass",
+  "page_errors": [],
+  "status": "pass",
+  "navigation": "exact HTML via page.set_content; local URL blocked by environment",
+  "clipboard": "ClipboardItem availability and clipboard sink injected for about:blank; Blob payload captured; execCommand fallback captured, not real OS clipboard",
+  "destination": "Opera-to-Substack not tested; no publication"
+}
