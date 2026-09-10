@@ -10,8 +10,9 @@ Read repository authority and prior V3–V6 handoffs first. This supplement cont
 2. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-V6-MOVEMENT-001-AUDIT-AND-STRATEGY-SWITCH-20260909.md` — **current audit / corrected preservation and method verdict**
 3. `articles/somatic-therapies/experiments/SOMATIC-HUMANIZATION-STRATEGY-V7-AUTHORITY-ISLAND-ASSEMBLY-20260909.md` — **current Stage-2 production strategy**
 4. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-V6-CUSTODY-DESTINATION-LEDGER-20260909.md` — retained custody inventory only; not a writing outline
+5. `articles/somatic-therapies/experiments/SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-RECOVERY-20260910.md` — **current EFT source-recovery result / same-function PASS with separate placement authority**
 
-For humanization/detector continuation, fresh-read the Pangram lab under `SKILL.md`, including the current Job-2 model-only stop-rule lesson. No Pangram was run in this audit/switch.
+For humanization/detector continuation, fresh-read the Pangram lab under `SKILL.md`, including the current Job-2 model-only stop-rule lesson. No Pangram was run in this audit/switch or the V7 EFT recovery.
 
 ## V6 movement 001 disposition
 
@@ -49,7 +50,7 @@ Reader curiosity remains useful to test transitions; it is not authority for dec
 
 The current Pangram-humanization lessons record that the broad Somatic Job-2 boundary already exhausted model-only holistic rewriting after two materially different preservation-clean rewrites both remained Pangram AI 1.0 / High. The resulting rule requires fresh owner language or independently human same-content realization before further broad model-generated author imitation in that boundary.
 
-Later fresh-owner reconstruction materially improved the region, including contextual Human material around tapping/head-massage. Therefore the next EFT operation is **source recovery**, not another model EFT rewrite.
+Later fresh-owner reconstruction materially improved the region, including contextual Human material around tapping/head-massage. V7 therefore recovered that material from exact Git/Pangram history rather than generating another EFT replacement.
 
 ## Current strategy — V7 authority-island assembly
 
@@ -78,26 +79,41 @@ If no authority-backed relation exists between two valid islands, leave a `NEEDS
 ## Current known Stage-2 authority islands
 
 - Stage-2 function/map: owner accepted.
-- EFT current r01/merged prose: model-only realization pending owner-source recovery.
+- EFT content function: **recovered V7 authority island** from later fresh-owner/contextual Job-2 history. Exact eligible span:
+  > EFT tapping has been useful for me as a regulation practice, and for me it partly works by diverting attention while I am activated. I also notice different changes at different tapping points, and some of it feels a little like massage. I sometimes get an even bigger calming effect from shaving my head and massaging it.
+- EFT placement/order: **not authored by the historical tapping island**. Current optional post-shaking placement is supplied separately by direct 2026-09-09 owner topology: after stronger shaking, EFT or massage or restorative/gentle yin may help with grounding/settling and softer physical exploration; no rigid sequence.
 - SE ↔ shaking relation: direct 2026-09-09 owner topology + factual correction; V5 minimum transformation eligible.
 - Louka Shaking Qigong testimonial: protected.
 - post-shaking EFT/massage/restorative yoga/gentle yin as optional grounding/soft physical exploration: direct owner topology.
 - solar-plexus/heart-love loop: routed owner/personal material.
 - duration/use/mechanism/evidence/safety banks: technical custody; not composition order.
 
+## V7 EFT recovery disposition — 2026-09-10
+
+Source recovery is **COMPLETE** for the bounded EFT content question.
+
+The exact tapping/head-massage paragraph was recovered from immutable Joel Articles blob `01825fbd46497c17eac14aa709e29429f5caf05b`, pinned by Pangram experiment `somatic-therapies-r07b-job2-to-end-20260824-a`. The candidate was frozen before the detector call and the paragraph is unchanged from the preceding r06 candidate, so it was not created as an r07b detector-targeted repair.
+
+Same-function result:
+- **PASS** for EFT as regulation while activated, differentiated felt effects across tapping points, massage-like/tactile quality, and the related shaved-head massage calming observation.
+- **NOT SUPPLIED** for `EFT first`, fixed shaking → EFT order, the old stack, or any other sequence relation.
+
+The r07b tapping/head-massage span's historical High-confidence Human detector signal remains detector evidence only; it is not the source of editorial authority.
+
+Full recovery record:
+`articles/somatic-therapies/experiments/SOMATIC-STAGE2-EFT-V7-AUTHORITY-ISLAND-RECOVERY-20260910.md`
+
 ## Next production action
 
-**Do not write another Stage-2 sentence yet.**
+The next bounded V7 operation is **authority-island assembly, not another EFT rewrite**.
 
-First recover the strongest available later fresh-owner Job-2 realization for EFT/tapping from exact Git/Pangram history, especially the owner reconstruction associated with the later contextual Human region around tapping/head-massage.
+Build a non-authoritative local Stage-2 candidate only from:
+1. the direct 2026-09-09 owner relation that, after stronger shaking, EFT **or** massage **or** restorative/gentle yin can optionally support grounding/settling and softer physical exploration; and
+2. the exact recovered tapping/head-massage paragraph above for EFT's substantive owner-grounded content.
 
-Then:
-1. verify whether that owner material carries the current Stage-2 EFT function;
-2. if yes, make it an authority island and separately determine placement;
-3. if no, keep EFT prose unresolved rather than generating another replacement;
-4. ask Joel for only the smallest missing cognition if source recovery is exhausted.
+Do not import the r07b surrounding scaffold, r01 `EFT first` ordering, the old `Discharge → Settle Stack`, V6's rejected therapy-waiting contrast, or any new model-written causal/sequence relation.
 
-Do not let the current r01 ordering decide `EFT first` by inertia.
+Any connective wording must be limited to factual/grammatical/deictic repair needed to make the two authority-backed islands readable in place. Run the normal preservation and architecture checks on that local candidate. Do not install it into the working reader without owner acceptance/authority. Do not run Pangram unless Joel explicitly asks.
 
 ## Authority unchanged
 
