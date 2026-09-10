@@ -70,7 +70,7 @@ Close reading included the foundational clinical accounts, nine building blocks,
 
 Supplied PDF SHA-256: `34b9f3b84925c73a2e44b127e636512f5bf2722909ff993ae0443bbcd20551e3`.
 
-Close reading included the introduction, preparation and early hypnosis chapters, selected ego-strengthening and ego-state passages, the renurturing/SE integration, and selected later developmental, body-oriented, and memory passages. Not every disorder-specific case, medication discussion, or reference was closely read. Printed pages generally correspond to PDF page plus 28.
+Close reading included the introduction, preparation and early hypnosis chapters, selected ego-strengthening and ego-state passages, the renurturing/SE integration, and selected later developmental, body-oriented, and memory passages. Not every disorder-specific case, medication discussion, or reference was closely read. For ordinary numbered text pages, PDF page generally equals printed page plus 28.
 
 - Introduction, printed p.xviii / PDF p.24: explicitly a professional clinical text, not a self-help manual. Its population includes significant dissociative disorders; this setting cannot be silently transferred to a public app.
 - Printed pp.25-27 / PDF pp.53-55: cooperative hypnosis, interactive trance, mastery of beginning/stopping, reorientation, and fractionation. Interaction and hypnosis are compatible.
