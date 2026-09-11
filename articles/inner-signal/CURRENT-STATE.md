@@ -1,32 +1,25 @@
-# Inner Signal hypnosis guide — r02 candidate
+# Inner Signal hypnosis guide — r03 candidate
 
 ## Goal
-Deliver the owner-authorized responsive self-hypnosis update and exact repository Substack copy helper.
+Synchronize the current owner hypnosis editor HTML with the current inner-child method, repair its graph representation, and supply the canonical Substack copy helper.
 
 ## Authority / baseline
-Article ID: inner-signal. Exact owner editor source: source/owner-editor-original.html, SHA-256 d7e923898a10edad0601c7cbd581fec7b0c90233f16ae005ca1fad61b6082893. Authorized sleep-only editing baseline: source/sleep-only-r01.html, SHA-256 b2f34f89b5b2c6c668f6b34983a5fc6a05acc462ae7c568f031f643a6f0a70ac. Working r02 master: master.html, SHA-256 06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9. Current owner directions control; r02 is not owner-final or published. Registration and this rewrite are delivered together on the research task branch, not inferred from a filename.
+Owner source: source/owner-editor-20260911.html, SHA-256 75492a8ac9b1cfb9adc34a6e5e29d04af5efacdb245eaf52dd2a1b409d714373. Current supplied companion: source/inner-child-owner-20260911.md, SHA-256 0067dd79c8366a2ce9370529564ba7be1b65162c6fbba860684076de951395da. Working master: master.html, SHA-256 842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab. The current owner paste supersedes r02; no new whole-guide owner-final or publication claim.
 
 ## Completed
-Applied 26 reversible edits under EDIT-CONTRACT.md. Preserved 17 complete personal/mixed sections byte-for-byte and all unchanged intervals; retained all 32 previous links in order and seven native source objects. Added responsive teaching, deliberate re-entry, accepted reasoning/support fixes, practitioner questions and Appendix L. Kept the actual inner meeting and personal testimony in place.
+24 exact reversible local edits from the current paste. 31 complete unchanged sections locked; all eight native source objects retained byte-for-byte and in order. Current source placements and A-K numbering preserved. Love/trust, relational repair, witness reuse, borrowed functions, outward reality, checking loops, spiritual struggle, peer support and self-forgiveness synchronized. Exact source research remains separately attributed.
 
 ## Current checkpoint
-Ready for owner review/clipboard transfer. Source-function proof has 24 units and zero unexplained substantive deltas. Candidate reader-visible count: 18,285 words versus 19,259 original and 17,666 sleep-only baseline. New teaching/source material adds 619 words over sleep-only; 974 fewer than original. No claim of a drastic whole-guide reduction.
+Candidate prepared for owner review/clipboard transfer. Exact patches and preservation proof are current. Prior r02 registry/actual-byte discrepancy is recorded in sync-r03/SOURCE-INTEGRITY-R02.json rather than hidden. The current registry is re-bound to these exact bytes.
 
 ## Remaining
-Owner wording review and real Opera-to-Substack draft paste/media confirmation. Existing legacy factual claims were preserved, not exhaustively re-fact-checked. The five new source links were opened and attributed; books are documented by locators.
+Actual downloaded-helper Opera-to-Substack paste and media reconstruction. Independent semantic review, live voice/interrupt behavior and clinical usefulness remain separate uncompleted gates. Existing unrelated factual claims are preserved, not newly certified.
 
 ## Blockers / unresolved
-No competing owner source is unresolved. Clinical validation, independent clinical review, voice implementation, retrieval integration and detector work were not performed. Browser file/loopback navigation is environment-blocked; exact-HTML interaction tests are a different validation plane.
+No source ambiguity blocks this revision: direct owner input establishes the new baseline. Graph/library work is candidate development only; do not install, publish or promote stable.
 
 ## Evidence / artifacts
-PRESERVATION-RECEIPT.json, PATCHES-R02.json, OWNER-DIRECTIONS-R02.json, EDITORIAL-REPORT.md, ARCHITECTURE.md, SOURCE-EVIDENCE.json and draft exports. Research foundation remains research/inner-signal/reference-v1; it is not a deployed app.
+PRESERVATION-RECEIPT.json; sync-r03/PATCHES-R03.json and source comparison; exports/COPY-TO-SUBSTACK.html and transfer reports; exact owner source archives; graph task task/hypnosis-ic-sync-r03-20260911 in innerSignalGraph. External knowledge sources remain research/inner-signal/reference-v1.
 
 ## Next safe action
-Use the delivered COPY-TO-SUBSTACK.html from the current exact master. Paste into an editor draft and inspect native objects, especially the sky-hypnosis video-post card. Do not publish automatically, buy detector calls, replace personal material or infer an app capability. Apply later owner edits surgically and regenerate the helper when the source changes.
-
-## 2026-09-11 infographic sync
-- Owner direction U10 audited both embedded infographics against r02 and replaced both stale image objects with r02-aligned assets.
-- The top overview now uses response-led notice-before-labeling, flexible pacing, an explicit full return, and optional app support.
-- The intensity graphic now removes the old 4–12 week delay for serious warning signs, preserves metaphysical uncertainty, and distinguishes urgent help from prompt assessment and ongoing support.
-- `master.html` and `exports/inner-signal-r02-candidate.html` remain byte-identical after the image update.
-- Canonical Substack helper artifacts were regenerated and statically verified; actual Opera-to-Substack destination retest remains pending.
+Use the current copy helper in a draft, inspect all media/cards, and review the graph candidate independently before any live integration. No source change without a fresh binding and derivative rebuild.

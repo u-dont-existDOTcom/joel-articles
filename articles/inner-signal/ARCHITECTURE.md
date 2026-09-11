@@ -1,31 +1,29 @@
-# Inner Signal architecture
+# Inner Signal r03 architecture
 
 <!-- article-id: inner-signal -->
 
-Indexes: `articles/inner-signal/CURRENT-STATE.md` + `articles/inner-signal/master.html`
-
-## Overview
+Authority: `articles/inner-signal/CURRENT-STATE.md`, `master.html`, and current owner-source/patch records.
 
 ```mermaid
 flowchart TD
-  intro["Personal introduction, evidence and why self-hypnosis"] --> relationship["Mind map, inner child, adults, identity and influence"]
-  relationship --> induction["Induction and full return"]
-  induction --> meeting["Inner meeting and practice learning"]
-  meeting --> care["Capacity, troubleshooting and appropriate support"]
-  care --> closing["Closing and optional app"]
-  closing --> appendices["A–L: specialist tools, personal material, induction library and sources"]
+  orientation["Orientation, personal introduction and owner-placed influence material"] --> mind["Mind map and self-hypnosis experience"]
+  mind --> child["Worth, borrowed adulthood, love and trust, adult functions"]
+  child --> identity["Identity, differentiation and influence"]
+  identity --> entry["Rich induction choices and complete return"]
+  entry --> practice["Inner meeting and response-led practice"]
+  practice --> reality["Outward reality, care, pacing and optional action"]
+  reality --> support["Troubleshooting, limits and support"]
+  support --> tools["Appendices A-K: tools, sleep resource, induction library, sources"]
 ```
-
-## Important dependencies
 
 ```mermaid
 flowchart LR
-  adult["Three adult functions and borrowed adulthood"] --> practice["Responsive practice"]
-  induction["Induction choices"] --> return["Complete waking return"]
-  language["Appendix B indirect NLP"] --> practice
-  body["Appendix D body-based pacing"] --> practice
-  source["Original owner HTML"] --> objects["Native objects preserved in place"]
+  companion["Current owner-supplied inner-child guide"] --> child["Localized method synchronization"]
+  child --> practice["Responsive practice and troubleshooting"]
+  nlp["Appendix B rich language and sensory/state/strategy tools"] --> practice
+  raw["Exact current owner editor HTML"] --> native["All native objects and personal placements preserved"]
+  practice --> graph["Separate graph candidate plus reference layer"]
+  raw --> helper["Canonical Substack transfer generator"]
 ```
 
-## Authority / placement notes
-Personal/human and mixed sections remain in place. Only the accepted practice and cue refinements, Appendix H response-check correction and urgent-support timing correction permit substantive changes. Instructional duplicates may be consolidated with explicit destinations; no word target overrides preservation. Research prototype is a model, not a competing master. Sources follow Appendix K without moving its final no-trance block. The full-script slot now teaches responsive practice; the actual inner meeting stays at its source location.
+The owner-placed extreme influence account stays in the main guide; owner-deleted triage text is not restored. Sources are in Appendix K and the induction library is Appendix J. Added relational distinctions remain in the main relevant sections, not an appendix relocation. The graph is a derivative candidate and cannot change article authority or installed policy.

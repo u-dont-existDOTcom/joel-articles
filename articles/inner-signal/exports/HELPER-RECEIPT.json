@@ -1,15 +1,88 @@
 {
   "format": "joel-substack-transfer-helper-v4",
-  "source_file": "inner-signal-r02-candidate.html",
-  "source_sha256": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3",
-  "editor_body_sha256": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3",
-  "plan_sha256": "5637891f1411e598893e71ad87aa9cf8b511a8dd6a321694bb8fe4b889cdebbc",
+  "source_file": "master.html",
+  "source_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+  "editor_body_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+  "plan_sha256": "5a4aa7189bf8fb84947288d9261682b60ef4bbd5e6fe7b684ac73088f0f48f25",
   "compatibility_profile_name": "Opera local-file native-object helper with native-video segmentation",
   "compatibility_profile_sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734",
-  "helper_sha256": "b255e8dca202a16624599a29c26ddcb9566f8a61e4d87ba4aa1027ff393dc90e",
+  "payload_mode": "single_rich_html",
+  "native_video_count": 0,
+  "substack_video_post_embed_count": 2,
+  "segment_count": 1,
+  "sequence": [
+    {
+      "kind": "copy_segment",
+      "segment_index": 0,
+      "label": "Copy Article",
+      "required": true
+    }
+  ],
+  "helper_sha256": "763e4b50f5b1bee15684acff8759556cd0eb1934b265145c1b929f270d78e95b",
+  "generator_path": "project-sources/substack_transfer_helper.py.txt",
   "generator_sha256": "322e4738243806570fd01de4389150144f13f959de30d78579b69fb57c9352f4",
+  "parser_path": "project-sources/html_islands.py.txt",
   "parser_sha256": "e82e5b862e197adb56bfd484c453433d11b8b2cad0dcf45d5bf3280b9f24ddc9",
+  "object_signatures": [
+    {
+      "id": 1,
+      "type": "subscribe",
+      "source_sha256": "474c8ba2a6dc0bb57b37cea98711cef7a2256abe6535ab5dc45dc597769665f3",
+      "preceding_anchor": null,
+      "following_anchor": "How to use this very large guide"
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "source_sha256": "507175b79ce3ab034541cab6d1efddc36956125b67e3addba900225d35e112fd",
+      "preceding_anchor": null,
+      "following_anchor": "How to use this very large guide"
+    },
+    {
+      "id": 3,
+      "type": "share",
+      "source_sha256": "7eda394a82d0306399a9e00267872888154d66ceb28d22658b7cbd6248dcbd09",
+      "preceding_anchor": "How to use this very large guide",
+      "following_anchor": "The table of contents is hiding on the left"
+    },
+    {
+      "id": 4,
+      "type": "youtube",
+      "source_sha256": "d80a0c91e7423c9dc1531c7ae578b6a37d0b2c3e2accd822edf665d3985e81f0",
+      "preceding_anchor": "Protecting Yourself from Hypnotists",
+      "following_anchor": "The Most Extreme Example"
+    },
+    {
+      "id": 5,
+      "type": "image",
+      "source_sha256": "7c4a3479f60a110cf5a3940518d44f23d3b8cf548a115c165b216b551534ee13",
+      "preceding_anchor": "The Most Extreme Example",
+      "following_anchor": "Affirmations Done Right"
+    },
+    {
+      "id": 6,
+      "type": "substack_video_post_embed",
+      "source_sha256": "60e3858e7da2eb8c2d623e3ebf05eb61884b2564d50ba63b9f216bf1c749852c",
+      "preceding_anchor": "Why doing it myself worked better for me",
+      "following_anchor": "A useful map of the mind"
+    },
+    {
+      "id": 7,
+      "type": "image",
+      "source_sha256": "12a74fa977dbf5ffee90393ec20374bd167860cf8ee08b59d0c40ba440099433",
+      "preceding_anchor": "Appendix D: Anxiety — body first",
+      "following_anchor": "Inner child love"
+    },
+    {
+      "id": 8,
+      "type": "substack_video_post_embed",
+      "source_sha256": "208b23cfd1512a962b6b0bec004d60039805f678e55f933af77faec533c1eec4",
+      "preceding_anchor": "Stabilize before you interpret",
+      "following_anchor": "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”"
+    }
+  ],
   "verify": "pass",
-  "destination_status": "pending actual Opera-to-Substack paste after infographic replacement",
-  "note": "Static init/build/verify completed after owner-authorized infographic sync; destination behavior is not inferred."
+  "compatibility_comparison": "sync-r03/HELPER-COMPATIBILITY.md",
+  "clipboard_interaction": "injected ClipboardItem and execCommand paths passed; exports/helper-interaction.json",
+  "destination_status": "not tested: actual Opera local-file to Substack draft reconstruction required"
 }

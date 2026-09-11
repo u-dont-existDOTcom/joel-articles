@@ -1,14 +1,14 @@
 {
   "format": "joel-substack-transfer-plan-v4",
-  "source_file": "inner-signal-r02-candidate.html",
-  "source_sha256": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3",
-  "editor_body_sha256": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3",
+  "source_file": "master.html",
+  "source_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+  "editor_body_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
   "editor_body_boundary": {
     "mode": "fragment",
     "outer_start": 0,
     "inner_start": 0,
-    "inner_end": 151336,
-    "outer_end": 151336
+    "inner_end": 162901,
+    "outer_end": 162901
   },
   "destination": "Substack editor",
   "browser": "Opera",
@@ -32,11 +32,21 @@
     {
       "id": 2,
       "type": "image",
-      "source_sha256": "57aaba8f985689282b29247be12c4e67d3503eabd9e98748fb7c3ce5af4f2fe9",
+      "source_sha256": "507175b79ce3ab034541cab6d1efddc36956125b67e3addba900225d35e112fd",
       "preceding_anchor": null,
       "following_anchor": "How to use this very large guide",
       "candidate_urls": [
-        "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/research/hypnosis-bottom-up-six-books-20260910/articles/inner-signal/assets/self-hypnosis-at-a-glance-r02.png"
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substack-post-media.s3.amazonaws.com/public/images/fa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://ibogaqueen.substack.com/i/202810155?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!MdOl!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa2a00e7-a1f6-4eea-8090-e3505eca6139_1024x1536.png"
       ],
       "canonical_url": null,
       "media_id": null,
@@ -63,8 +73,8 @@
       "id": 4,
       "type": "youtube",
       "source_sha256": "d80a0c91e7423c9dc1531c7ae578b6a37d0b2c3e2accd822edf665d3985e81f0",
-      "preceding_anchor": "What I mean by hypnosis",
-      "following_anchor": "Affirmations Done Right",
+      "preceding_anchor": "Protecting Yourself from Hypnotists",
+      "following_anchor": "The Most Extreme Example",
       "candidate_urls": [
         "https://www.youtube-nocookie.com/embed/c1SIEWq0HOc?rel=0&autoplay=0&showinfo=0&enablejsapi=1",
         "https://substackcdn.com/image/youtube/w_728,c_limit/l_youtube_play_qyqt8q,w_120/c1SIEWq0HOc"
@@ -78,8 +88,33 @@
     },
     {
       "id": 5,
+      "type": "image",
+      "source_sha256": "7c4a3479f60a110cf5a3940518d44f23d3b8cf548a115c165b216b551534ee13",
+      "preceding_anchor": "The Most Extreme Example",
+      "following_anchor": "Affirmations Done Right",
+      "candidate_urls": [
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substack-post-media.s3.amazonaws.com/public/images/f52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
+        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png"
+      ],
+      "canonical_url": null,
+      "media_id": null,
+      "strategy": "rich_html",
+      "profile_status": "confirmed_path_retest_each_final",
+      "add_can_restack_if_missing": true,
+      "destination_result": "final_destination_retest_pending"
+    },
+    {
+      "id": 6,
       "type": "substack_video_post_embed",
-      "source_sha256": "97d5c49357ba42c4e52d1583e1f96b319601e75e3fdc735ee854dd2edbbf2e9b",
+      "source_sha256": "60e3858e7da2eb8c2d623e3ebf05eb61884b2564d50ba63b9f216bf1c749852c",
       "preceding_anchor": "Why doing it myself worked better for me",
       "following_anchor": "A useful map of the mind",
       "candidate_urls": [
@@ -104,13 +139,23 @@
       "destination_result": "final_destination_retest_pending"
     },
     {
-      "id": 6,
+      "id": 7,
       "type": "image",
-      "source_sha256": "d928fa34f7114e953ecadb67ca61bc50c90f0415e7ce7bb7d8142425c11cf5c4",
+      "source_sha256": "12a74fa977dbf5ffee90393ec20374bd167860cf8ee08b59d0c40ba440099433",
       "preceding_anchor": "Appendix D: Anxiety — body first",
       "following_anchor": "Inner child love",
       "candidate_urls": [
-        "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/research/hypnosis-bottom-up-six-books-20260910/articles/inner-signal/assets/when-self-hypnosis-gets-intense-r02.png"
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substack-post-media.s3.amazonaws.com/public/images/91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://ibogaqueen.substack.com/i/202810155?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png",
+        "https://substackcdn.com/image/fetch/$s_!eEqS!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91184505-c567-42db-93b8-0f4b72676f83_1024x1536.png"
       ],
       "canonical_url": null,
       "media_id": null,
@@ -120,28 +165,24 @@
       "destination_result": "final_destination_retest_pending"
     },
     {
-      "id": 7,
-      "type": "image",
-      "source_sha256": "7c4a3479f60a110cf5a3940518d44f23d3b8cf548a115c165b216b551534ee13",
-      "preceding_anchor": "Appendix J: The extreme influence story, quarantined from the evidence",
-      "following_anchor": "Appendix K: A practical induction library",
+      "id": 8,
+      "type": "substack_video_post_embed",
+      "source_sha256": "208b23cfd1512a962b6b0bec004d60039805f678e55f933af77faec533c1eec4",
+      "preceding_anchor": "Stabilize before you interpret",
+      "following_anchor": "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”",
       "candidate_urls": [
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substack-post-media.s3.amazonaws.com/public/images/f52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png",
-        "https://substackcdn.com/image/fetch/$s_!t8_i!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff52a25a8-8797-4b6d-940c-515aac7868de_1182x1330.png"
+        "https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself",
+        "https://substack.com/profile/355021294-u-dont-existcom",
+        "https://substack-post-media.s3.amazonaws.com/public/images/7b5776e0-efde-4ee9-8910-514d12ee5fd2_1024x1024.jpeg",
+        "https://substackcdn.com/image/youtube/w_728,c_limit/1aBjoARwlOY",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "http://www.w3.org/2000/svg"
       ],
-      "canonical_url": null,
+      "canonical_url": "https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself",
       "media_id": null,
-      "strategy": "rich_html",
-      "profile_status": "confirmed_path_retest_each_final",
-      "add_can_restack_if_missing": true,
+      "strategy": "canonical_url_in_payload",
+      "profile_status": "owner_confirmed_strategy_retest_each_final",
+      "add_can_restack_if_missing": false,
       "destination_result": "final_destination_retest_pending"
     }
   ]

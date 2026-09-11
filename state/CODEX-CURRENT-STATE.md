@@ -2,6 +2,12 @@
 
 Updated: 2026-08-24
 
+## Inner Signal owner-source synchronization — 2026-09-11
+
+On the hypnosis research task branch, `articles/INDEX.json` now binds the r03 working candidate to the owner’s current pasted editor HTML plus the exact recorded companion-method synchronization. Start from `articles/inner-signal/CURRENT-STATE.md` and `sync-r03/SYNC-REPORT.md`. The prior infographic change left stale registry hashes; this is explicitly recorded and corrected rather than accepted as verified authority. All eight owner-pasted native objects and unchanged personal sections remain intact.
+
+The separate graph task `task/hypnosis-ic-sync-r03-20260911` in InnerSignalGraph contains the proposed source/reference and phase-control repair. It is not an installed app/voice service or stable promotion. The historical Romance/Somatic state below is not a hypnosis authority source.
+
 ## Goal
 
 Maintain exact GitHub-canonical authority and recoverable state for Joel's registered articles while completing requested editorial work without allowing detector results, stale artifacts, or unverified runtime output to overwrite owner meaning.

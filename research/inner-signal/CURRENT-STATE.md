@@ -1,6 +1,8 @@
-# Current routing — r02 guide update
+# Current routing — r03 owner-source synchronization
 
-The owner-authorized updated guide is now registered on this task branch as `inner-signal` in `articles/INDEX.json`. Read `articles/inner-signal/CURRENT-STATE.md` and its source/locks before editing. The r02 working master and canonical clipboard exports supersede the research prototype as the article-working artifact. The research/reference below remains provenance and app-knowledge material, not deployed functionality. No publication or owner-final status is implied.
+The exact current owner editor paste and current inner-child companion are archived and registered in `articles/inner-signal/`. Read `CURRENT-STATE.md`, `sync-r03/SYNC-REPORT.md`, `OWNER-LOCKS.json` and the current master before editing. The old image update’s unreconciled registry hashes are recorded, not assumed correct.
+
+The source-linked research below remains separate provenance. Its 36 cards and source/consultation records are now copied as attributed reference records into the separate InnerSignalGraph r2 candidate library; this is not deployed model training, voice implementation or stable policy. No outside-source claim is silently made an owner-guide claim.
 
 ---
 

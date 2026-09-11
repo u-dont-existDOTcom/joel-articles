@@ -4,24 +4,25 @@
   "status": "passed",
   "checks": [
     {
+      "id": "source-sync",
+      "status": "pass",
+      "description": "24 exact source-anchored local operations; no unrelated source/placement changes."
+    },
+    {
       "id": "preservation",
       "status": "pass",
-      "description": "26 recorded reversible edits; 24 forward source-function mappings; reverse authority mapping for each edit; zero unexplained substantive deltas."
+      "description": "Full reverse-byte proof, native-object order/identity, locked unchanged sections."
     },
     {
-      "id": "literal-proofread",
+      "id": "literal-review",
       "status": "pass",
-      "description": "Source comparison and assembled-text same-context passes; not independent."
-    },
-    {
-      "id": "native-transfer",
-      "status": "pass",
-      "description": "Exact canonical init/build/verify. Real destination pending."
+      "description": "Two non-isolated source and assembled-text passes; not independent."
     }
   ],
   "limitations": [
-    "Owner review pending",
-    "Existing legacy factual claims not exhaustively reverified",
-    "Independent clinical/voice/destination tests not completed"
+    "New wording owner review pending",
+    "Independent semantic/clinical review not performed",
+    "Real destination paste not tested",
+    "Unrelated legacy claims not reverified"
   ]
 }
