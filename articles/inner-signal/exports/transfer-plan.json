@@ -1,14 +1,14 @@
 {
   "format": "joel-substack-transfer-plan-v4",
   "source_file": "inner-signal-r02-candidate.html",
-  "source_sha256": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
-  "editor_body_sha256": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+  "source_sha256": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3",
+  "editor_body_sha256": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3",
   "editor_body_boundary": {
     "mode": "fragment",
     "outer_start": 0,
     "inner_start": 0,
-    "inner_end": 151679,
-    "outer_end": 151679
+    "inner_end": 151336,
+    "outer_end": 151336
   },
   "destination": "Substack editor",
   "browser": "Opera",
@@ -32,21 +32,11 @@
     {
       "id": 2,
       "type": "image",
-      "source_sha256": "57828c3f49967511ed3b0fa18bf959d16b7cf964f6a1a6809f593a7d3e013896",
+      "source_sha256": "57aaba8f985689282b29247be12c4e67d3503eabd9e98748fb7c3ce5af4f2fe9",
       "preceding_anchor": null,
       "following_anchor": "How to use this very large guide",
       "candidate_urls": [
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substack-post-media.s3.amazonaws.com/public/images/4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://ibogaqueen.substack.com/i/202810155?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!cbCZ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png"
+        "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/research/hypnosis-bottom-up-six-books-20260910/articles/inner-signal/assets/self-hypnosis-at-a-glance-r02.png"
       ],
       "canonical_url": null,
       "media_id": null,
@@ -116,21 +106,11 @@
     {
       "id": 6,
       "type": "image",
-      "source_sha256": "01ee1d5268759fb08f5418b441299ad477c6175fc60342fda552996630a2a11f",
+      "source_sha256": "d928fa34f7114e953ecadb67ca61bc50c90f0415e7ce7bb7d8142425c11cf5c4",
       "preceding_anchor": "Appendix D: Anxiety — body first",
       "following_anchor": "Inner child love",
       "candidate_urls": [
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substack-post-media.s3.amazonaws.com/public/images/9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://ibogaqueen.substack.com/i/202810155?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
-        "https://substackcdn.com/image/fetch/$s_!bzyw!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png"
+        "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/research/hypnosis-bottom-up-six-books-20260910/articles/inner-signal/assets/when-self-hypnosis-gets-intense-r02.png"
       ],
       "canonical_url": null,
       "media_id": null,

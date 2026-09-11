@@ -23,3 +23,10 @@ PRESERVATION-RECEIPT.json, PATCHES-R02.json, OWNER-DIRECTIONS-R02.json, EDITORIA
 
 ## Next safe action
 Use the delivered COPY-TO-SUBSTACK.html from the current exact master. Paste into an editor draft and inspect native objects, especially the sky-hypnosis video-post card. Do not publish automatically, buy detector calls, replace personal material or infer an app capability. Apply later owner edits surgically and regenerate the helper when the source changes.
+
+## 2026-09-11 infographic sync
+- Owner direction U10 audited both embedded infographics against r02 and replaced both stale image objects with r02-aligned assets.
+- The top overview now uses response-led notice-before-labeling, flexible pacing, an explicit full return, and optional app support.
+- The intensity graphic now removes the old 4–12 week delay for serious warning signs, preserves metaphysical uncertainty, and distinguishes urgent help from prompt assessment and ongoing support.
+- `master.html` and `exports/inner-signal-r02-candidate.html` remain byte-identical after the image update.
+- Canonical Substack helper artifacts were regenerated and statically verified; actual Opera-to-Substack destination retest remains pending.

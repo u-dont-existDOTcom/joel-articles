@@ -55,6 +55,12 @@
       "quote": "the app may need to know quite a lot more than just what's in the guide",
       "status": "implemented",
       "resolution": "Reference-v1 retained separately; deployed app not changed or claimed trained."
+    },
+    {
+      "id": "U10",
+      "quote": "now check if these images need to be updated in the guide. if so, update them",
+      "status": "implemented",
+      "resolution": "Audited both infographics against r02, replaced both stale image objects with r02-aligned versions, and regenerated the canonical Substack transfer artifacts."
     }
   ],
   "scope_note": "App implementation, publication, destination testing and clinical efficacy not requested/completed by this editorial pass."
