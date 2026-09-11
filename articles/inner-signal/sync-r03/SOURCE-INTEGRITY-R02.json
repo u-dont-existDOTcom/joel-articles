@@ -1,0 +1,9 @@
+{
+  "format": "prior-authority-discrepancy-v1",
+  "upstream_commit": "defc51d43fa291dcb00c93468e111c967094164a",
+  "path": "articles/inner-signal/master.html",
+  "registered_sha256": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+  "actual_sha256": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3",
+  "result": "MISMATCH before this task; prior image update not re-bound in registry",
+  "resolution": "Preserve exact prior bytes, then use and register the current explicitly supplied owner HTML plus authorized r03 patches. Do not describe the old registration as verified."
+}

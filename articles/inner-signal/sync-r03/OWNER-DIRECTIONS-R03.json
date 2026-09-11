@@ -1,0 +1,17 @@
+{
+  "format": "owner-directed-sync-v1",
+  "request": "Check the recently updated inner-child guide first, update hypnosis guide where needed, update graph with the earlier audit repairs, update current pasted Substack HTML and supply the validated clipboard helper.",
+  "inputs": [
+    {
+      "file": "Pasted markdown(6).md",
+      "sha256": "0067dd79c8366a2ce9370529564ba7be1b65162c6fbba860684076de951395da",
+      "role": "current inner-child source"
+    },
+    {
+      "file": "Pasted text (2)(2).txt",
+      "sha256": "75492a8ac9b1cfb9adc34a6e5e29d04af5efacdb245eaf52dd2a1b409d714373",
+      "role": "current hypnosis editor HTML"
+    }
+  ],
+  "protected": "Unrelated owner text/placement/media untouched; no runtime promotion or external publication."
+}

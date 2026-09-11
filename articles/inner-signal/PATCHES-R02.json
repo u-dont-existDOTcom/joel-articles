@@ -1,0 +1,457 @@
+{
+  "source_sha256": "b2f34f89b5b2c6c668f6b34983a5fc6a05acc462ae7c568f031f643a6f0a70ac",
+  "candidate_sha256": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+  "patches": [
+    {
+      "id": "E01",
+      "start": 4330,
+      "end": 4862,
+      "old": "<p>This guide is enormous, but you can begin without reading the whole thing. The main path teaches the practice, from induction and inner listening through reparenting, reality-testing, and a complete return to ordinary life. Start with <strong>Quick start</strong> and <strong>The 15-minute daily practice</strong>. The appendices are a tool shed for the situations that actually need them: prompts, NLP language, anxiety, daydreaming, altered states, hostile-presence experiences, sleep, influence, and additional inductions.</p>",
+      "new": "<p>Begin with <strong>Quick start</strong>, learn one induction and the complete return, then use <strong>Let the next response guide you</strong> for the part no recording can decide in advance. The daily and weekly sections help you make the practice your own. The appendices hold extra tools for questions, NLP language, anxiety, daydreaming, altered states, hostile-presence experiences, sleep, influence, and additional inductions. Sources are together in Appendix L.</p>",
+      "reason": "Repair navigation after full-script consolidation; no personal or native object removed.",
+      "preservation_units": [
+        "P02",
+        "P13",
+        "P19"
+      ],
+      "old_sha256": "b9c95aa26bca05ecf6aba885b2bcebf06c3da17eff2ecf4b01d7b0c7f7420041",
+      "candidate_start": 4330,
+      "candidate_end": 4806,
+      "new_sha256": "bf088751eb343b8d777e022046f50ed9e7d8b79f4e9b921387a8638af2f46470"
+    },
+    {
+      "id": "E02",
+      "start": 7756,
+      "end": 8973,
+      "old": "<h1>Quick start: do this first</h1><p>Here’s the whole method in one paragraph:</p><blockquote><p><strong>Gather attention. Listen inwardly. Ask what needs warmth, what needs safety, and what needs action. Then return to ordinary life and do one small real thing.</strong></p><ol><li><p>Sit upright. Feel the room, body, and breath.</p></li><li><p>Say: “I do not need to force trance. I only need to gather attention.”</p></li><li><p>Ask: “Wise subconscious, body, inner child, protectors, and adult self: what is useful, kind, stabilizing, and real?”</p></li><li><p>Wait quietly for a phrase, sensation, image, emotion, resistance, silence, or next action.</p></li><li><p>Ask: “What needs warmth?”</p></li><li><p>Ask: “What needs safety in real life?”</p></li><li><p>Ask: “What is the next small action?”</p></li><li><p>Return to the room. Write one phrase, one body signal, and one action.</p></li></ol></blockquote><p>Nothing dramatic may happen. Fine. Silence can mean the system wants rest before another question.</p><p>If you become anxious, panicky, dissociated, grandiose, or less able to function, stop deepening. Come back to the room, the body, food, sleep, grounding, and outside support when needed.</p>",
+      "new": "<h1>Quick start: do this first</h1><p>Gather attention, notice what is here, offer one fitting response, wait, then come all the way back. You can meet a difficulty or develop love, curiosity, play, or confidence. Nothing dramatic has to happen.</p><p>Before the first session, read the induction and full return below while awake. Set aside time somewhere physically secure. Choose one purpose and what you are leaving alone today. Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.</p><p>As you listen, a sensation, image, phrase, feeling, objection, or silence may become noticeable. Let the next invitation follow that response. Use warmth, a boundary, direction, or more time as needed. Finish with the complete return, then note what happened and any real-world action it calls for.</p><p>When you become panicky, disoriented, increasingly unreal, or less able to function, stop deepening and return to the room and appropriate support. A difficult feeling you freely choose to stay with while present is a different situation.</p>",
+      "reason": "Replace duplicate mini-script with main-route instructions and accepted positive/non-leading scope.",
+      "preservation_units": [
+        "P01",
+        "P02",
+        "P03",
+        "P13",
+        "P18",
+        "P23"
+      ],
+      "old_sha256": "9566bf30422442f9ff42ae739167914f15ca7199da94db6a070ea9d700ff71b2",
+      "candidate_start": 7700,
+      "candidate_end": 8794,
+      "new_sha256": "dc6c45fc27c847650bd1e002c3f54356214a2c2954f3ab5e27b1dc6a91cbbe50"
+    },
+    {
+      "id": "E12",
+      "start": 36925,
+      "end": 36957,
+      "old": "<h2>Working with protectors</h2>",
+      "new": "<h2>Working with protectors</h2><p>Use this parts language when you actually recognize a protective pattern or find it useful to explore. A sensation, distraction, or objection doesn’t establish its cause. Notice it first; hunger may need food, skepticism may be reasonable, and a sentence may simply not fit.</p>",
+      "reason": "Accepted observation-before-attribution boundary beside existing protector framing; existing account and examples retained.",
+      "preservation_units": [
+        "P09",
+        "P13"
+      ],
+      "old_sha256": "f5720922d6e61731be043e9c2d375f27b3a63a69a203c90bc708734a1f8ce090",
+      "candidate_start": 36746,
+      "candidate_end": 37059,
+      "new_sha256": "3fd09c7127099279f47a22b6305e3d780ccacee24cf8e506e7c55a17dd6c2c84"
+    },
+    {
+      "id": "E11",
+      "start": 39857,
+      "end": 39914,
+      "old": "Sometimes no child appears. Then stay with the protector.",
+      "new": "Sometimes no child appears. Stay with a recognizable protector, or with the sensation, feeling, or preference that is actually present.",
+      "reason": "Apply the accepted no-compulsory-parts correction to its earlier duplicate instruction; no personal account altered.",
+      "preservation_units": [
+        "P05",
+        "P09",
+        "P13"
+      ],
+      "old_sha256": "b97d59a08cdbe0cd72fd4573d150657d3be908713a8a61ae38ba46523c826b18",
+      "candidate_start": 39959,
+      "candidate_end": 40094,
+      "new_sha256": "1ac2831f3be114c788bec97d9a9065cf8f229be17b725235a29655402c395c5f"
+    },
+    {
+      "id": "E03",
+      "start": 52017,
+      "end": 58316,
+      "old": "<h2>What an induction is actually doing</h2><p>Counting backward is only one possible induction. I separate the process into four functions:</p><ol><li><p><strong>Preparation:</strong> name the purpose, boundaries, expectations, and exit.</p></li><li><p><strong>Absorption:</strong> organize attention around one meaningful process.</p></li><li><p><strong>Deepening:</strong> optionally intensify absorption when that is useful and stable.</p></li><li><p><strong>Handoff:</strong> let the narrator speak less while an inner signal or dialogue becomes primary.</p></li></ol><p>For a simple, chosen target, you can test the suggestion before deepening. If the useful response is already happening, build from it; induction is a tool for organizing responsiveness, not a ceremonial requirement.</p><p>Conversation, story, movement, repeated sound, and curiosity can also organize attention. Say so when you use them; elegance doesn’t excuse a covert induction.</p><h2>Please don’t put six metaphors in one trance</h2><p>Choose five things before you begin:</p><ol><li><p>one primary practice target;</p></li><li><p>one induction family or governing metaphor;</p></li><li><p>one preferred sensory channel;</p></li><li><p>one adult inner role—the Nurturer, Protector, Leader, or neutral witness;</p></li><li><p>one exit style.</p></li></ol><p>Let one premise carry the session: how attention gathers, what sensations matter, what language repeats, how depth changes, and how you return. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.</p><p>Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all.</p><h2>The standard Inner Signal sequence</h2><ol><li><p><strong>Preview:</strong> name the exact purpose, expected duration and depth, techniques, any eye closure or fractionation, and the complete exit. For a recording, read the script first when possible.</p></li><li><p><strong>Orient:</strong> confirm place, posture, support beneath the body, and the ability to stop. Do not begin by withdrawing all awareness from the environment.</p></li><li><p><strong>Pace three reliable experiences:</strong> notice breath moving, contact with a surface, sound arriving, the eyes focusing, or a small voluntary movement.</p></li><li><p><strong>Ask the Protector:</strong> continue, make it lighter, switch the metaphor or sensory channel, remain in no-trance mode, or stop. Silence and uncertainty do not count as approval.</p></li><li><p><strong>Organize attention:</strong> stay with one governing metaphor while ordinary adult awareness remains available in the background.</p></li><li><p><strong>Invite one observable microresponse:</strong> perhaps a breath shifts, one finger moves, attention changes location, a word appears, or the body signals “unsure.” This is communication, not proof of submission.</p><p>Make the first suggestion small enough to be believable, then ratify only what actually happens. Let the next invitation grow from the response you got—not the response the script expected—and switch sensory channels when another channel answers more easily.</p></li><li><p><strong>Deepen only if useful:</strong> use repetition with variation, meaningful counting, a matched body path, or disclosed fractionation. Depth is not the goal.</p></li><li><p><strong>Hand off:</strong> “Let the next useful signal come in its own form. I do not have to manufacture one. The adult in me can listen without agreeing in advance.” Then let the guide speak less.</p></li><li><p><strong>Integrate tentatively:</strong> treat what appeared as a signal, image, feeling, association, metaphor, or hypothesis. Ask what small ordinary action—if any—would honor it.</p></li><li><p><strong>Exit fully:</strong> reverse the metaphor, restore ordinary body ownership and adult orientation, name the place and day, move, look around, and confirm that the session has ended.</p></li></ol><h2>Notice, invite, and give the choice back</h2><p>A trustworthy invitation has three parts:</p><blockquote><p><strong>Observable:</strong> “Notice one place your body is already supported.”<br><strong>Permissive possibility:</strong> “If it feels welcome, that support may become easier to notice.”<br><strong>Agency check:</strong> “If not, keep the original sensation, choose another anchor, remain fully alert, or stop.”</p></blockquote><p>Movement often helps: stretch, press the feet, move a finger, orient the eyes, change posture, or place a hand where support is easy to feel. Include a no-movement option for pain, disability, fatigue, or preference.</p><p>Notice what actually changes. No change is information too; don’t announce that an invisible response must have happened somewhere offstage.</p><p><strong>Use what actually happens.</strong> A sound, wandering thought, skepticism, movement, or lack of response can become part of the practice instead of an obstacle. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques\">Utilization</a> never turns refusal or distress into secret compliance: a no remains no, and loss of orientation means lighten, ground, or stop.</p><h2>Keep the language inside one world</h2><p>Keep the language inside the chosen world. When you count, let the numbers mean something there. Pick one central verb, one sensory quality, one short refrain, and one transition phrase, then read the script aloud; long elegant sentences become soup during an induction. Borrow qualities—warmth, steadiness, curiosity—without replacing your identity. Keep consent, contraindications, safety, and exit instructions plain.</p><p>A metaphor can become a working model rather than decoration. Let the scene develop before deciding what it means or how it should resolve; if one resource, boundary, distance, or action seems missing, introduce only that and see what changes. Treat the result as symbolic information or a hypothesis, never as proof of history or hidden truth.</p><blockquote><p>“If this problem had its own image or story, what would appear—and what wants to happen next?”</p></blockquote>",
+      "new": "<h2>What an induction is actually doing</h2><p>Prepare the session, gather attention, deepen only when that helps, then let the words become less important than what you notice. Counting is one way in. Conversation, story, movement, repeated sound, and curiosity can also organize attention. Say so when you use them; elegance doesn’t excuse a covert induction.</p><p>For a simple, chosen target, you can test the suggestion before deepening. If the useful response is already happening, build from it. An induction helps you find a receptive way of listening; you don’t need to complete a ceremony before you’re allowed to respond.</p><h2>Please don’t put six metaphors in one trance</h2><p>Choose one purpose, one starting anchor or image, and a way back. Decide whether warmth, a firm boundary, direction, or neutral witnessing would help. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.</p><p>Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all. Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish. Borrow qualities such as warmth or steadiness without replacing your identity.</p><p>Pick one central verb, one sensory quality, one short refrain, and one transition phrase, then read the script aloud; long elegant sentences become soup during an induction.</p><h2>Before you begin</h2><p>Read the induction and <strong>Come all the way back</strong> while fully awake. Choose the question or quality you want to explore, what you’re leaving alone today, and how much time you have. Love, play, confidence, creativity, and communion are worthwhile purposes; you don’t have to find a problem. Leave several minutes for returning and reflecting.</p><p>Choose a physically secure place without driving, water, machinery, or anyone needing your supervision. When intoxicated, acutely confused, or unable to keep yourself safe, deal with immediate support rather than exploratory hypnosis. The later <strong>Already open?</strong> practice is for orientation, not permission to intensify an unstable state.</p><p>Decide what kind of encouragement is welcome: spacious listening, warm company, or a firmer invitation to stay with a feeling. Preview eye closure, any repeated exit and re-entry, and the return. For a recording, read the script beforehand when possible. “Stop” ends the exercise; “less” reduces the demand; “quiet” stops the words. You can simply open your eyes and finish. No inner part has to approve your decision to stop.</p><p>When entry and return are unfamiliar, first rehearse them without a difficult subject. Once you know how to change direction, you don’t need to supervise every moment. Let a useful response become easier and less effortful. A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to.</p><p><strong>Let the next invitation grow from the response you got—not the response the script expected.</strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques\">Utilization</a> means working with what actually happens: a thought, sound, movement, or objection may change where the practice goes. Notice what actually happens; no change doesn’t mean secret success. Keep safety and exit instructions plain. Appendix B teaches the richer language tools, and <strong>Let the next response guide you</strong> shows how to use them after the induction.</p>",
+      "reason": "Consolidate three overlapping process lists into preparation and guiding principle, preserve chosen-world humor and all methods through main practice/K.",
+      "preservation_units": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P13",
+        "P14",
+        "P15",
+        "P23"
+      ],
+      "old_sha256": "db367856bcf223dba8e6bace120b6d7dabee2686d9ce7c4958d65ce8bd810c7a",
+      "candidate_start": 52197,
+      "candidate_end": 55894,
+      "new_sha256": "9827fc145089f45ec428ad82bf09f9b6f4739ec810cd2cfdffec578e719ecae8"
+    },
+    {
+      "id": "E04",
+      "start": 58316,
+      "end": 59568,
+      "old": "<h2>Sober induction: 3–5 minutes</h2><blockquote><p>Sit upright. Let the spine rise without stiffness. Let the hands rest somewhere simple.</p><p>Pick one point in the room. Let the eyes rest there.</p><p>Say inwardly: “I do not need to force trance. I only need to gather attention.”</p><p>Notice three things you can see. Three things you can hear. Three sensations in the body.</p><p>Now notice two things you can see. Two things you can hear. Two sensations in the body.</p><p>Then one thing you can see. One thing you can hear. One thing you can feel.</p><p>Let the breath become a little quieter. On each exhale, allow one unnecessary effort to soften: forehead, jaw, tongue, shoulders, belly, hands.</p><p>Let the eyes close, or remain half-open if that feels safer. Count down from five to one, moving inward into listening while remaining conscious and present.</p><p>Five — the room remains here.<br>Four — the body remains here.<br>Three — the breath becomes a rhythm.<br>Two — the deeper mind may begin to listen.<br>One — I am present enough to begin.</p><p>“Higher Self, wise subconscious, body intelligence, inner child, protectors, and adult self: please help me understand what is useful, kind, stabilizing, and real.”</p></blockquote>",
+      "new": "<h2>Sober induction: 3–5 minutes</h2><p>Read this slowly into a recorder, or learn its movement and speak inwardly. Choose one anchor—a sound, bodily contact, or your two-hand practice—and an opening phrase. Keep using the same anchor where the words refer to it. Pause between paragraphs; don’t read the delivery directions aloud.</p><blockquote data-role=\"spoken-practice\"><p>Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and notice the difference between looking for something and letting what is already there come into view.</p><p>There is a surface beneath you. Notice where you meet it … the contact, the pressure, whatever you can actually feel. And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one.</p><p>You can give this a little time.</p><p>A thought about the day may still be here. A thought about whether you’re doing this properly may be here too. There is room to notice a thought and return to the anchor you chose, without finishing the thought first.</p><p>And as you return, you may find one detail that holds your interest … something about the sound, or the contact, or that particular way of listening … and let attention stay with it long enough to become curious.</p><p>Perhaps you can give yourself the time you would give someone you care about who has begun to speak and hasn’t yet found the words. You can remain nearby, listening, without finishing their sentence for them.</p><p>Let your chosen phrase come to mind now. Say it as an invitation, and notice how it is received.</p><p>As you continue, your eyes can close, soften, or stay open. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background.</p><p>Count slowly from five to one. Give each number its own moment.</p><p><strong>Five.</strong> Notice your chosen anchor again.<br><strong>Four.</strong> Let attention gather around what you find.<br><strong>Three.</strong> Leave a little space after the words.<br><strong>Two.</strong> Listen into that space, without preparing an answer.<br><strong>One.</strong> Stay here for a moment.</p><p>Bring your chosen concern lightly to mind, or remain with your wish for contact. Let it be present without rehearsing its whole story.</p><p>What am I noticing now?</p><p>Give the response time to take its own form. It might be a sensation, a few words, an image, a feeling, or an impulse to move. There may be nothing clear yet.</p><p>Let the words become less important while you listen.</p></blockquote>",
+      "reason": "Owner-liked rich prototype entry; consistent chosen sound/contact anchor; retained five-count and independent return.",
+      "preservation_units": [
+        "P01",
+        "P05",
+        "P14",
+        "P18"
+      ],
+      "old_sha256": "e6f7b8a7ab2da5b55c791583a68f595f4be199723536263b07a2e63b5096e64d",
+      "candidate_start": 55894,
+      "candidate_end": 58508,
+      "new_sha256": "f1d0c1e455c636c7e276dd7939034ca30063d9df5ef12325f18ba2425ab724a0"
+    },
+    {
+      "id": "E05",
+      "start": 64240,
+      "end": 64240,
+      "old": "",
+      "new": "<h2>A shortcut back into hypnosis</h2><p>Learn a useful induction and the full return below before developing a shortcut. My dad brought two fingers together in a mudra like the OK sign to help himself relax, including while driving. That’s his experience, not a recommendation to enter trance at the wheel. Keep alert calming and inward hypnosis on different cues.</p><p>Choose a distinctive word, phrase, or optional gesture. During a familiar, welcome hypnotic state, pair it with that receptive way of listening—not peak emotional intensity, a child-state, or a traumatic scene. Give it the meaning you choose:</p><blockquote data-role=\"spoken-practice\"><p>When I’ve set aside time, settled somewhere appropriate, and deliberately use my cue to begin, I can return to this familiar way of listening. I can change direction or finish.</p></blockquote><p>Return fully. On a later suitable occasion, deliberately begin practice and try the cue. Give it time; gradually shorten the longer induction when the shortcut helps, and use the familiar route when it doesn’t. No fixed repetition count, instant depth, or particular sensation is required.</p><p>Check usefulness and selectivity: does it help when chosen, remain absent when unchosen, and leave changing direction and returning workable? It mustn’t become obedience to a narrator, notification, or overheard word. Faster entry doesn’t determine what material you can handle.</p><p><strong>Never train, test, or use hypnotic re-entry while driving or doing anything requiring active attention.</strong> Open eyes and conditional wording are not safeguards.</p><p>To retire the cue, stop rehearsing it, remove it from recordings or active app instructions, and return to the familiar induction. State your decision while awake; a cancellation sentence does not prove the association vanished instantly. Persistent unwanted responses or disorientation need qualified help. Any retained cue is for a future, separately chosen session; today’s altered state ends with the return.</p>",
+      "reason": "Owner-requested deliberate re-entry cue with father recollection and accepted distinction from alert calming.",
+      "preservation_units": [
+        "P19",
+        "P18"
+      ],
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "candidate_start": 63180,
+      "candidate_end": 65215,
+      "new_sha256": "7379f5dc6dc0edfd400d1a113d4f564c7b2b236ea3fed8c190dddd0be627e202"
+    },
+    {
+      "id": "E06",
+      "start": 64788,
+      "end": 64896,
+      "old": "All suggestions for this session are complete unless I consciously chose a specific ordinary-life intention.",
+      "new": "All instructions to deepen or remain in this session are finished. I keep only the ordinary-life intention or future-practice cue I consciously chose; neither keeps today’s altered state running.",
+      "reason": "Reconcile explicit session ending with optional deliberately retained future cue.",
+      "preservation_units": [
+        "P18",
+        "P19"
+      ],
+      "old_sha256": "77a3901ee6325cec8e4f77c47c31416394a0c449b9963ba9a41386502fcfc5a9",
+      "candidate_start": 65763,
+      "candidate_end": 65958,
+      "new_sha256": "60eaae55b104f6444155e984a4209a328d59590f58259227edf7c9b25f1bfe4e"
+    },
+    {
+      "id": "E07",
+      "start": 65367,
+      "end": 65443,
+      "old": "Write one phrase, one body signal, and one action. Then do something normal.",
+      "new": "Check that you are actually oriented and alert; repeating the count is not proof of a complete return. Note only what actually appeared, and any action it calls for. Then do something normal.",
+      "reason": "Do not demand fabricated report categories; retain literal return and ordinary-life follow-through.",
+      "preservation_units": [
+        "P18",
+        "P22"
+      ],
+      "old_sha256": "86590389de3d315e3fe064a481f88281f8d770a7d6124b9f88962d2a13c1473d",
+      "candidate_start": 66429,
+      "candidate_end": 66620,
+      "new_sha256": "abcc077f21da21450cb18242b7b99a14d4f5308a52bc8fa4f117ec712fc412ec"
+    },
+    {
+      "id": "E08",
+      "start": 67490,
+      "end": 73573,
+      "old": "<h1>The full script</h1><p>Read this slowly into a recorder in your own voice, or learn the rhythm well enough to speak it inwardly.</p><blockquote><p>I sit here as the adult self.<br>Not perfect.<br>Not finished.<br>But present enough to begin.</p><p>The room is here.<br>The body is here.<br>The breath is moving.<br>The deeper mind is listening.</p><p>I let attention gather gently.</p><p>I notice one thing I can see.<br>One thing I can hear.<br>One thing I can feel in the body.</p><p>I do not need to disappear.<br>I do not need to surrender control.<br>I only allow attention to become more whole.</p><p>Before I deepen, I ask the Protector:<br>Is this acceptable as written?<br>Would you prefer lighter contact, a different anchor, no-trance listening, or stopping?<br>A no is a no. Silence or uncertainty means I remain fully alert until there is a clear choice.</p><p>With each exhale, one unnecessary effort may soften.<br>The jaw.<br>The shoulders.<br>The belly.<br>The hands.</p><p>Counting from five to one, I enter the inner meeting space.</p><p>Five — the room remains here.<br>Four — the body remains here.<br>Three — the breath becomes a rhythm.<br>Two — the heart becomes easier to hear.<br>One — I am present enough to begin.</p><p>I begin from the universal heart.<br>I begin from Higher Self.<br>I begin from the part of me that belongs to life before it belongs to any wound, role, tribe, identity, trauma, fantasy, fear, or story.</p><p>Wise subconscious, body intelligence, inner child, protectors, Nurturer, Protector, Leader, and all that serves truth and love:<br>please help me understand what I need to know, only in the form and timing that is useful, kind, stabilizing, and real.</p><p>I am not here to command the subconscious.<br>I am not here to defeat resistance.<br>I am not here to force the inner child to heal.<br>I am here to listen, to learn, to protect, and to become trustworthy.</p><p>I am here for inner communion.</p><p>Conscious mind, bring your clarity.<br>Subconscious mind, bring your signals.<br>Body, bring your truth.<br>Inner child, bring your need.<br>Protectors, bring your concerns.<br>Higher Self, bring the love large enough to hold all of it.</p><p>Let no part of me be exiled from the meeting.</p><p>If it is useful, the body may give a small signal that the inner meeting space is forming.<br>A finger may twitch.<br>A hand may warm.<br>The breath may change.<br>The chest may soften.<br>Or nothing obvious may happen at all.</p><p>I do not force the signal.<br>I do not perform the signal.<br>I simply wait with love.</p><p>Please tell me what I need to know, or ask what you need to know.<br>I will wait silently.</p><p>I do not need a dramatic answer.<br>I am fertilizing the relationship by listening.<br>Even silence can be communion if I am truly here.</p><p>If nothing comes, nothing has failed.<br>Silence is welcome.<br>Numbness is welcome.<br>Skepticism is welcome.<br>The urge to stop is welcome.<br>The protector at the door is welcome.</p><p>To any protective part:<br>thank you for guarding what was too much, too young, too lonely, too confusing, too shameful, or too dangerous to feel alone.<br>You do not have to step aside before you feel safe.<br>You may simply show me what you are protecting, or what you fear would happen if I knew too much too quickly.</p><p>To the inner child:<br>you do not have to trust me all at once.<br>I know I may have ignored you, rushed you, analyzed you, spiritualized you, silenced you, or left you alone with adult problems.<br>I am beginning again.<br>Not with a grand promise.<br>With one real act of care.</p><p>If these adult voices do not feel available yet:<br>I begin as the witness who notices.<br>I may borrow one sentence, boundary, or direction from somebody safe.<br>The borrowed figure stays beside me while I choose the words and carry one small part myself.</p><p>To the Nurturer in me:<br>bring warmth without pressure.<br>Let love be simple.<br>A softer voice.<br>A hand on the heart.<br>A little less cruelty.<br>A little more patience.</p><p>To the Protector in me:<br>show me one real-world action that would make this child safer.<br>A boundary.<br>A meal.<br>A rest.<br>A task completed.<br>A message sent.<br>A conversation ended.<br>A room cleaned.<br>A promise kept.</p><p>To the Leader, Guide, Guru, Wise One in me:<br>orient us toward what is larger than fear.<br>Not bypass.<br>Not grandiosity.<br>Not performance.<br>Toward truth, nature, God, source, life, dharma, Tao, love, beauty, and the benefit of all beings.</p><p>Let the analytical mind remain bright.<br>Let the loving mind remain warm.<br>Let neither overpower the other.<br>Let peace and precision cooperate.<br>Let intuition speak in signals.<br>Let reason test the signals.<br>Let the body confirm what words cannot yet prove.<br>Let action reveal what is real.</p><p>If there is a truth I am not ready to know, do not force it through.<br>Show me the capacity before the content.<br>Show me the next stabilizing step.<br>Show me the boundary, support, rest, humility, or love that would make truth safe enough to arrive.</p><p>What is the next loving, structured action?</p><p>I listen.<br>I wait.<br>I receive only what is useful now.</p><p>Thank you, subconscious.<br>Thank you, body.<br>Thank you, inner child.<br>Thank you, protectors.<br>Thank you, universal heart.</p><p>I bring back one phrase, one body signal, and one action.<br>I return to ordinary life, where the work becomes real.</p><p>I now reverse the path I used to enter.<br>I keep only the qualities and practical intention I consciously choose.<br>I release the altered state, role, and imagery.<br>One — body and chosen weight.<br>Two — ordinary breath.<br>Three — room and day.<br>Four — movement and vision.<br>Five — eyes open, present, ordinary, clear. The session has ended.</p></blockquote><p>Afterward, write only five things:</p><ol><li><p>Phrase:</p></li><li><p>Body signal:</p></li><li><p>Inner child need:</p></li><li><p>Protector concern:</p></li><li><p>One real-world action:</p></li></ol>",
+      "new": "<h1>Let the next response guide you</h1><p>The induction and inner meeting bring you to a place where you can listen. From here, learn to answer what happens instead of reciting a speech that has already decided what every part will say. Read these examples before practicing, then put the screen aside.</p><p>Notice one thing accurately. Offer a small, believable invitation, an act of care, or more time. Acknowledge only what actually happens, then wait. A sensation can lead to an image, a gesture, a feeling, or words; you don’t need to fill every category.</p><h2>Finding your own words</h2><p>Suppose you notice, “My chest tightened when I imagined asking for help.” Start with that, rather than deciding you’ve found an abandoned child or a protective mechanism.</p><blockquote data-role=\"spoken-practice\"><p>And as I notice that tightening, I can give myself a little time before deciding what it means … and notice whether there’s something I’d like to say, change, or simply stay with.</p></blockquote><p>Then listen. That is enough language for one invitation. A plain “What happens next?” may be better than an elegant sentence. When a feeling is developing, stop supplying words and give it room.</p><p>You can be firmer when that is the help you chose: “Let the explanation wait a moment. What do I feel as I say that?” Directness can focus attention without deciding the answer. A difficult feeling needn’t become pleasant before you can stay with it. When you remain present, can change direction, and want to continue, sadness or tension alone doesn’t require an exit.</p><h2>Let the response change the invitation</h2><p>“My shoulders tightened” and “that wording feels wrong” are different observations. Tightening alone doesn’t explain itself. Ask what happened and whether the invitation fits. An explicit no needs no further justification; change the words, the pace, or the approach. Don’t repeat an unwelcome suggestion more persuasively.</p><blockquote data-role=\"spoken-practice\"><p>I notice the tightness. I can leave it as it is for a moment. Does this invitation fit, or would I prefer something different?</p></blockquote><p>Sometimes the sentence was simply wrong. Sometimes an unfamiliar possibility brings a feeling worth meeting. You don’t have to decide which before making space to find out. Skepticism is not automatically a protector, and silence is not proof that a hidden process is working.</p><h2>Change the amount of contact</h2><p>When you need less, widen attention to the room, the chair, a sound, or somewhere in the body that is easier to meet. Let that support become noticeable alongside the difficulty. Moving between difficult and more manageable experience is often called <em>pendulation</em>; approaching in smaller amounts is <em>titration</em>. Use the actual response to set the pace, rather than counting compulsory cycles.</p><blockquote data-role=\"spoken-practice\"><p>I can let this much be here and notice the support beside it.</p></blockquote><p>Return to the difficult material only when you choose. If you’re losing track of the present, becoming increasingly unreal, or unable to shift or stop, end inward exploration and use the full return. Persistent disorientation needs human help rather than a stronger induction.</p><p>An impulse to turn, reach, push away, or change posture can also be explored through a small, voluntary, physically comfortable movement—or imagined without moving. Notice what follows. You’re not obliged to enact an impulse, shake, or produce a release. Stop movement that causes pain or concerning symptoms.</p><h2>Offer the care that is actually wanted</h2><p>When a younger feeling appears, offer company without making it become literally younger or explain its history. When a protector is recognizable, listen to its concern without demanding that it step aside. No part is exiled from the meeting, and none has to disappear or trust you immediately.</p><blockquote data-role=\"spoken-practice\"><p>I’m here. Would company help, or would you prefer some space?</p></blockquote><p>“Don’t come closer” is information you can act on. Stay at the chosen distance and notice what receiving that response is like. The Nurturer can change the tone; the Protector can carry out a boundary; the Leader can point toward the life you want. They don’t each need a speech. When those capacities aren’t available, begin as the witness and borrow one credible function, as described earlier.</p><p>You can also deliberately try support: a welcome hand placement, an imagined presence, words you’d like to hear, a different posture, or more distance. Introduce one change and discover its effect. A comforting-sounding resource earns its place by helping this person now.</p><p>A metaphor can develop before you decide what it means. “If this problem had its own image or story, what would appear—and what wants to happen next?” Try only the missing resource, boundary, distance, or action that seems useful. The result is symbolic information or a hypothesis, never proof of history.</p><p>Or spend the session developing love, play, courage, or curiosity. Let a pleasant experience have time to grow. Rehearse a chosen action and notice what it would take to carry it out. Hypnosis can invite something new as well as listen to what is already present.</p><h2>Finish without forcing a revelation</h2><p>When you’ve received enough, stop opening new questions. Ask what would help you leave this here for now. Thank the parts or capacities you worked with, in whatever words you can mean. A meal, a boundary, rest, a repaired relationship, or a promise kept may matter more than another insight. There needn’t be an action when none is called for.</p><p>Keep the analytical mind available throughout: you can question, disagree, and stop. Save extended factual checking and consequential commitments for after the return. An image can be meaningful without being a historical memory; a bodily shift or relief doesn’t make an interpretation true.</p><p>Use <strong>Come all the way back</strong>, even when you ended early. Afterwards, write a few lines: <strong>what was there before; what I tried; what happened; what remains uncertain.</strong> Include a phrase, bodily signal, child’s need, protector’s concern, boundary, repair, or what not to force only when it actually appeared. You don’t owe the notebook a complete cast of characters.</p>",
+      "reason": "Replace duplicate scripted roll-call with responsive learned middle; full-script unique functions mapped to explicit existing and new destinations.",
+      "preservation_units": [
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P22",
+        "P23",
+        "P24"
+      ],
+      "old_sha256": "3e482891f8ea5aa3ac359bb8d016919674bc6ed4e0431a28e5c4217a2edc9f2e",
+      "candidate_start": 68667,
+      "candidate_end": 75098,
+      "new_sha256": "1c33efe5c5d608ef36b7917daaec13be88d7c965ce39a682837f9a840ee2bfdd"
+    },
+    {
+      "id": "E09",
+      "start": 73573,
+      "end": 76250,
+      "old": "<h1>The 15-minute daily practice</h1><h2>Minutes 1–3: Induction</h2><p>Before starting the clock, choose one target, one simple metaphor or anchor, and the exit. Ask the Protector whether to continue, stay fully alert, make it lighter, or stop.</p><p>Treat recordings as training wheels rather than the final practice. After several familiar runs, shorten the recording to cue words or section headings, then practice entering, listening, reality-testing, and returning without playback.</p><p>Sit upright. Feel the room and the body. Let the breathing get quieter without turning it into a contest.</p><blockquote><p>“I do not need to force trance. I only need to gather attention.”</p></blockquote><p>Notice three things you see, three you hear, and three sensations. Then two of each, then one. Count from five to one.</p><blockquote><p>“At one, I am present enough to listen.”</p></blockquote><h2>Minute 4: Invoke communion</h2><blockquote><p>“Higher Self, universal heart, wise subconscious, please help me listen. Let the conscious and subconscious mind meet in truth, kindness, and right timing.”</p></blockquote><p>You can also ask for a small body signal, although you don’t need one:</p><blockquote><p>“If useful, the body may give a small signal that the inner meeting space is ready. I will not force it. I will not perform it. I will simply notice.”</p></blockquote><h2>Minutes 5–9: Silent listening</h2><blockquote><p>“Please tell me what I need to know, or ask what you need to know. I will wait silently.”</p></blockquote><h2>Minutes 10–14: Three adults and action</h2><blockquote><p>Minute 10: “What needs warmth?”</p><p>Minute 11: “What needs safety in real life?”</p><p>Minute 12: “What direction serves truth, love, life, and the benefit of all beings?”</p><p>Minute 13: “Is there content to know, or capacity to build?”</p><p>Minute 14: “If [cue] happens, then I will [small action].”</p></blockquote><p>If one of the adult voices is unavailable, use that minute as an apprenticeship minute. Name a safe adult, mentor, future self, value, or written plan; borrow one exact sentence or action; then carry five percent yourself. A neutral witness counts when no parent image feels safe.</p><h2>Minute 15: Return</h2><blockquote><p>“Thank you. I return with one phrase, one body signal, and one action.<br>I reverse the path I used to enter. I release the imagery and altered state.<br>One — body. Two — breath. Three — room and day. Four — movement. Five — eyes open, present, ordinary, clear. The session has ended.”</p></blockquote><p>Write:</p><blockquote><p>Phrase:<br>Body signal:<br>Action:<br>Boundary or repair:<br>What not to force:</p></blockquote>",
+      "new": "<h1>The 15-minute daily practice</h1><p>Use the same practice rather than learning a second script: <strong>gather attention, listen, respond, wait, return.</strong> Fifteen minutes is a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings must follow. Use a few minutes to enter, leave several minutes to return, and let the middle unfold at its own pace. Five minutes of silent listening is available when useful; you can interrupt it to change direction.</p><p>Another simple entry is to notice three things you see, three you hear, and three bodily sensations; then two of each, then one. Count from five to one and begin listening. Use the entry that suits you, rather than stacking inductions.</p><p>After familiar runs, shorten a recording to the cues you still need, then try practicing without playback. Keep recordings when you enjoy them; independence means being able to guide yourself, not having to refuse help. The optional re-entry cue can shorten an already familiar induction.</p><p>Afterward, ask what needed warmth, what needed protection, and what direction serves truth, love, and life. Was there something to explore, or capacity to build? What can you carry yourself now? When action is needed, make it concrete: <strong>“If [cue] happens, then I will [small action].”</strong> Check how you sleep, relate, and function later, not only how impressive the session felt.</p>",
+      "reason": "Consolidate timed repeated induction/roles/exit into one self-led practice and learning progression.",
+      "preservation_units": [
+        "P19",
+        "P20",
+        "P22"
+      ],
+      "old_sha256": "3432b14073694efd64351e27230e85cc9db01396ae9c9c223b890e8941815c62",
+      "candidate_start": 75098,
+      "candidate_end": 76531,
+      "new_sha256": "339c91671c0abb4cbf7f3d0e7f5b0eacc9ee94682a71596620579eb74417e653"
+    },
+    {
+      "id": "E10",
+      "start": 76250,
+      "end": 77655,
+      "old": "<h1>The weekly deeper practice</h1><p>Once or twice a week, give the practice more time.</p><blockquote><ol><li><p>Sit upright.</p></li><li><p>Begin from Higher Self, or begin as the neutral witness if that language does not open.</p></li><li><p>Listen for five minutes.</p></li><li><p>Let the first part appear.</p></li><li><p>If the protector appears, speak to the protector.</p></li><li><p>If the child appears and the Nurturer is available, bring the Nurturer. Otherwise borrow one narrow function from a safe figure and keep that figure beside you.</p></li><li><p>Ask the Protector what real-world action is needed.</p></li><li><p>Ask the Leader/Guru what direction serves wholeness.</p></li><li><p>Ask what five percent you can carry yourself now.</p></li><li><p>Ask whether you are bypassing anything.</p></li><li><p>Ask whether there is content to know or capacity to build.</p></li><li><p>Form one if–then plan.</p></li><li><p>Complete the full exit: reverse the imagery, return to the room and day, move, open the eyes, and confirm that the session has ended.</p></li><li><p>Then do one ordinary action immediately.</p></li></ol></blockquote><p>Do the ordinary action immediately when possible. That teaches the subconscious that the adult heard and acted, instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were.</p><hr contenteditable=\"false\">",
+      "new": "<h1>The weekly deeper practice</h1><p>Once or twice a week, give the same practice more time when that is useful. More time needn’t mean greater intensity. Start from Higher Self or neutral witnessing, follow what appears, borrow an adult function when needed, and ask whether anything important is being bypassed. Leave room for the full exit and any ordinary action needed afterward.</p><p>Do the ordinary action immediately when possible. That teaches the subconscious that the adult heard and acted, instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were.</p>",
+      "reason": "Consolidate repeated full-session checklist, preserve extra-time option and exact dishes/action paragraph.",
+      "preservation_units": [
+        "P20",
+        "P21"
+      ],
+      "old_sha256": "44633e41582ca2f8ae5754a762d9c1a63cc1775d874a33e1351ce2086f1b6ead",
+      "candidate_start": 76531,
+      "candidate_end": 77145,
+      "new_sha256": "f190ea4ab558f0d18231c28a8daf5527e9843d954a2c8a711faa862e0823d9f0"
+    },
+    {
+      "id": "E13",
+      "start": 80204,
+      "end": 80251,
+      "old": "Talk directly to the part saying it feels fake.",
+      "new": "First ask what feels fake: the wording, the image, the expectation, or the role you’re trying to perform. Correct an explicitly unwanted invitation. If you recognize a protective part, you can talk to it:",
+      "reason": "Distinguish rejected wording from an inferred protective explanation, preserving conditional prompts.",
+      "preservation_units": [
+        "P09",
+        "P13"
+      ],
+      "old_sha256": "b6070995bfb20c3efb782f74edb66015374796b4859beb4f6cb7626ff1f0c525",
+      "candidate_start": 79694,
+      "candidate_end": 79898,
+      "new_sha256": "7ef88d04099b57b391f31f23137ad81b49dc2d0d07be555bf5d44c71884eec32"
+    },
+    {
+      "id": "E14",
+      "start": 80929,
+      "end": 80994,
+      "old": "Ask what the subconscious needs from the adult before it answers.",
+      "new": "There may be no answer, or the question may not help. You can change it, rest, or finish. If a concern about trust is actually present, ask:",
+      "reason": "No answer is not evidence of hidden mistrust; preserve sourced trust example as conditional.",
+      "preservation_units": [
+        "P05",
+        "P09",
+        "P13"
+      ],
+      "old_sha256": "099839954987b445266f3052ab311ddd1e9e17d735fd1c81379a6cdd3f906fa9",
+      "candidate_start": 80576,
+      "candidate_end": 80716,
+      "new_sha256": "ab0ceb171597e7563e4fa20dfa634cbcdeb7f93efd513e57aedc31cd8c5266dd"
+    },
+    {
+      "id": "E15",
+      "start": 81304,
+      "end": 81345,
+      "old": "Speak to whoever is guarding the doorway.",
+      "new": "If a guard is recognizable, speak to it; otherwise stay with the feeling or preference that is actually present.",
+      "reason": "No compulsory guardian when no child image appears.",
+      "preservation_units": [
+        "P09",
+        "P13"
+      ],
+      "old_sha256": "52466a745a0167486a8d7dafaec1b0e61dc667f60e3d48881a4b4390a753b6e5",
+      "candidate_start": 81026,
+      "candidate_end": 81138,
+      "new_sha256": "dd086dba594d6731abf408f6a7afb761cc1e23f6bf02857f813e6ed1ccfa1c4b"
+    },
+    {
+      "id": "E16",
+      "start": 81698,
+      "end": 81772,
+      "old": "Stop searching for content. Don’t debate the anxiety; help the body first.",
+      "new": "Notice whether the anxiety is manageable and you want to stay with it, or whether you need less contact. When it is escalating or overwhelming, stop searching for content and help the body first.",
+      "reason": "Accepted negotiated scope: chosen tolerable difficulty does not automatically terminate exploration.",
+      "preservation_units": [
+        "P03",
+        "P16"
+      ],
+      "old_sha256": "9e1fd42d9d8ec3e25e75902faedb3da392abdf66ede3a4d901993e4f5e96126f",
+      "candidate_start": 81491,
+      "candidate_end": 81686,
+      "new_sha256": "b486d924e08b3c4167ead28fb4c8ec93cf271aa7a7f1dd48e3355310026bef8d"
+    },
+    {
+      "id": "E17",
+      "start": 85877,
+      "end": 86061,
+      "old": "Do not use hidden or indefinite triggers, involuntary behavior, third-party activation, identity switching, amnesia, or post-session cues the user cannot plainly review and deactivate.",
+      "new": "Do not install hidden instructions, undisclosed third-party activation, compulsory behavior, identity switching, or amnesia. A consciously chosen reusable cue should have a clear purpose, remain reviewable, and be retired if it becomes unwanted; saying “cancel” does not guarantee instant erasure.",
+      "reason": "Dependent trigger wording distinguishes voluntary future practice from hidden or unreviewable effects.",
+      "preservation_units": [
+        "P18",
+        "P19"
+      ],
+      "old_sha256": "4a81d2d81295d4451d014ff66f0bb990d4af3a5a557eb64e1a20ce4e72384752",
+      "candidate_start": 85791,
+      "candidate_end": 86088,
+      "new_sha256": "152a05266d826da4c77cb6e21c2a96db9313bee04280d7c3a81d7662d47d678e"
+    },
+    {
+      "id": "E18",
+      "start": 86223,
+      "end": 88087,
+      "old": "<h1>When this needs more support than a guide can provide</h1><p>Use self-hypnosis as a relationship with yourself. When the situation needs actual care, the guide shouldn’t become a substitute for it.</p><p><strong>During the next 24–72 hours,</strong> keep sessions short. Focus on regulation, listening, inner-child warmth, one Protector action, and a full return to ordinary awareness. Avoid trauma excavation, forced revelations, recovered-memory attempts, and prolonging altered states.</p><p><strong>During the next 1–2 weeks,</strong> track one target: anxiety, daydreaming, relationship repair, an avoided task, sleep, emotional regulation, or intuitive accuracy. Judge the practice by ordinary life rather than the magnificence of the session.</p><p><strong>During the next 4–12 weeks,</strong> involve a qualified clinician when the material includes trauma, panic, severe dissociation, compulsive behavior, substance destabilization, suicidality, mania-like or psychosis-like symptoms, severe insomnia, or major relationship instability. Major trauma guidelines emphasize treatments such as trauma-focused CBT variants, CPT, PE, and EMDR depending on the person and guideline. Self-hypnosis and inner-child practice may support that process, but high-risk trauma work needs a larger container.</p><p>Escalate sooner if the practice leads to less sleep or function, more grandiosity or dissociation, psychosis-like experiences, suicidal thoughts, inability to communicate normally, or growing certainty about memories that can’t be verified.</p><blockquote><p>If the practice makes ordinary life more loving, honest, functional, relational, grounded, and precise, continue gently.<br>If it makes ordinary life less stable, stop deepening and return to sleep, food, grounding, boundaries, and outside support.</p></blockquote><hr contenteditable=\"false\">",
+      "new": "<h1>When this needs more support than a guide can provide</h1><p>Use self-hypnosis as a relationship with yourself. When the situation needs actual care, the guide shouldn’t become a substitute for it.</p><p><strong>Get urgent help now</strong> for immediate danger, severe confusion, inability to keep yourself safe, or concerning physical symptoms such as chest pain or fainting. New or worsening suicidal thoughts, severe insomnia, mania-like or psychosis-like symptoms, or dissociation that disrupts functioning need prompt professional assessment, not a four-to-twelve-week practice schedule.</p><p>For ordinary learning, start with shorter sessions, warmth, a manageable subject, and a full return. Over a week or two, track one target—anxiety, daydreaming, relationship repair, an avoided task, sleep, emotional regulation, or intuitive accuracy. Worsening function or growing certainty about unverifiable memories calls for reassessment, not more intensity.</p><p>Seek suitable ongoing help for recurring panic, compulsive behavior, substance-related destabilization, or major relationship instability.</p><h2>Methods to explore with a trained person present</h2><p><strong>Use a trauma-informed clinician trained in the method, present with you, for deliberate trauma-focused regression, searching for unknown traumatic origins through an affect or somatic bridge, or work with substantial flashbacks or dissociative reactions.</strong> A bridge follows associations from a feeling or sensation; regression revisits recalled or imagined younger experience. Either can have different uses, including resourcing. Ask what is intended and how uncertainty and unexpected reactions will be handled. Hypnosis cannot prove a historical event, even with a clinician present.</p><p>Trauma history, tears, or wanted difficult feelings don’t automatically exclude self-practice. Choose the working range with attention to the actual response and available support. Some people need a narrow range; others much broader. Confidence alone doesn’t supply missing support.</p><p>Major trauma guidelines emphasize treatments such as trauma-focused CBT variants, CPT, PE, and EMDR depending on the person and guideline. Self-hypnosis and inner-child practice may support that process, but high-risk trauma work needs a larger container.</p><p>If the practice makes ordinary life more loving, honest, functional, relational, grounded, and precise, continue gently.<br>If it makes ordinary life less stable, stop deepening and return to sleep, food, grounding, boundaries, and outside support.</p>",
+      "reason": "Owner-accepted urgent-support timing and clinician-present methods; preserve original guideline evidence/link and concluding personal evaluation.",
+      "preservation_units": [
+        "P03",
+        "P16",
+        "P18",
+        "P20"
+      ],
+      "old_sha256": "d9009324d047a5e43de3666634067c1401c799fc8f14e4340d4336319ca7d504",
+      "candidate_start": 86250,
+      "candidate_end": 88836,
+      "new_sha256": "ed0faa7dc19a3e52da1156ef17c9c7b7008c64abfd3523efa4193049e0fbf01d"
+    },
+    {
+      "id": "E19",
+      "start": 88835,
+      "end": 89141,
+      "old": "<p>You can now run the practice interactively in <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://innersignal.u-dont-exist.com/\"><strong>the Inner Signal app</strong></a>. It walks through the method and analyzes what you report so you can notice patterns and pull out useful lessons.</p>",
+      "new": "<p>Use <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://innersignal.u-dont-exist.com/\"><strong>the Inner Signal app</strong></a> to learn the method, develop your own language, reflect on what you report, and ask questions about a hypnotist’s approach. Self-hypnosis doesn’t require an app, and finding a practitioner is an option rather than a graduation requirement.</p><p>Text suits teaching and script-writing. For a session you want narrated, the experience needs voice; check the app’s current feature information rather than treating text chat as a substitute. Even with voice, an app has to ask what is happening. It cannot feel your body, share a practitioner’s embodied intuition, or know an unreported response. Its role is to help you learn and make better-informed choices, not pretend to be a skilled therapist.</p>",
+      "reason": "Apply explicit owner app positioning; no claim a live voice feature is implemented; retain app/survey/contact URLs.",
+      "preservation_units": [
+        "P19",
+        "P24"
+      ],
+      "old_sha256": "cbc8a2651171c95642fc9b08e94be4c21ede70d7c076183540e5b527e059cd65",
+      "candidate_start": 89584,
+      "candidate_end": 90431,
+      "new_sha256": "cfe876e972e44578db4a07bdeddfdc7a60211199731252e10b14f244cf013a38"
+    },
+    {
+      "id": "E20",
+      "start": 101485,
+      "end": 101605,
+      "old": "Find a real state you want easier access to, feel it, and pair the cue at its peak with the phrase, “This is available.”",
+      "new": "Find a real state you want easier access to, feel it, and pair the cue while it is clearly present with the phrase, “This is available.” For hypnotic re-entry, choose a usable receptive state rather than peak emotional intensity; follow “A shortcut back into hypnosis” in the main induction section. Keep alert calming and the synchronicity wake-up cue separate.",
+      "reason": "Accepted cue teaching and distinction from maximal trauma activation; preserve general anchoring function.",
+      "preservation_units": [
+        "P19"
+      ],
+      "old_sha256": "bad58ea630aefa0bdc28ccd660fa9acede5527801c4c5df6ec1171a1fba02968",
+      "candidate_start": 102775,
+      "candidate_end": 103137,
+      "new_sha256": "5d2bf28aa93e8cf9d151c36ab51774e38e4ce0aa852eb5b9e7e2de64ac792e94"
+    },
+    {
+      "id": "E21",
+      "start": 105165,
+      "end": 105205,
+      "old": "To deactivate it, say while fully awake:",
+      "new": "To retire it, stop rehearsing it and say while fully awake:",
+      "reason": "Consistent cue retirement without claiming instant removal.",
+      "preservation_units": [
+        "P19"
+      ],
+      "old_sha256": "531ba9531f34615b78e0619ffcedc4494be7c15dcdcad4e4f1653180b50c437f",
+      "candidate_start": 106697,
+      "candidate_end": 106756,
+      "new_sha256": "cfb58d9c49624e517731fb3a7acde5630ffd2840df5479a6adf9542c8d0482ad"
+    },
+    {
+      "id": "E22",
+      "start": 105317,
+      "end": 105376,
+      "old": "Remove it from the written cue list and stop rehearsing it.",
+      "new": "Remove it from the written cue list and stop rehearsing it. The statement expresses your decision; it does not prove the association has vanished immediately.",
+      "reason": "Prevent cancellation-as-proof while preserving original orientation cue.",
+      "preservation_units": [
+        "P19"
+      ],
+      "old_sha256": "908202e05f97ccaee1f2e3d5de9a9a9a31313d9a4052f9b589d8738aad29beb6",
+      "candidate_start": 106868,
+      "candidate_end": 107026,
+      "new_sha256": "2f5b66f014972e587265fd13dde47beb243dc8444a8d35435ce0f30250fbe753"
+    },
+    {
+      "id": "E23",
+      "start": 122097,
+      "end": 122097,
+      "old": "",
+      "new": "<h2>Finding a hypnotist who can work with you</h2><p>Ask what they are trained to treat, how they use hypnosis, and how they respond when a suggestion doesn’t fit. For trauma work, ask about actual trauma and dissociation training, not only a hypnosis certificate. Credentials matter without guaranteeing competent care.</p><p>Describe what has helped, what hasn’t, your preferred directness, acceptable touch and imagery, and how you’ll stop. Ask about unexpected reactions, uncertain memories, and the full return. Firm encouragement can fit; refusal still ends it.</p><p>Evaluate what actually happened, not the method’s name. Was its purpose explained? Did you agree? How did the practitioner respond to you? Discomfort alone doesn’t settle the question; treating every objection as proof you need more of the same deserves scrutiny. Ask the app or another informed person for explanation, without expecting a practitioner to be certified from a brief account. Self-hypnosis, combined work, or another practitioner remain your choices.</p>",
+      "reason": "Add owner-approved practitioner evaluation in existing outside-guidance appendix; no original prose moved.",
+      "preservation_units": [
+        "P24"
+      ],
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "candidate_start": 123747,
+      "candidate_end": 124790,
+      "new_sha256": "c694b011c7b240883b3802492c2b4baf60990963380a34d6aca7e8d16c8fd917"
+    },
+    {
+      "id": "E24",
+      "start": 130631,
+      "end": 131722,
+      "old": "<h2>A two-breath diagnostic</h2><p>Once you’re stable enough to stay present, use a small diagnostic. Don’t flee, attack, or launch a metaphysics conference. Put one hand on the heart, take one comfortable slow breath through the nose, and look toward the image or feeling without merging with it.</p><blockquote><p>“If you are a part of me wearing a scary face to keep me safe, show me your fear. If you are an unattached presence with no love for this system, you have no authority here, and your words are empty air.”</p></blockquote><p>A protective part will often reveal vulnerability: a knot in the throat, a childhood memory, sadness, abandonment fear, shame, or a sense of “I’m trying to protect you.” Then bring in the Nurturer.</p><blockquote><p>“Thank you. I see the fear underneath the mask. You do not have to scare me to be heard.”</p></blockquote><p>If the presence remains cold, mocking, seductive, grandiose, parasitic, or empty—or keeps escalating terror without revealing protective fear—stop analyzing it as an ordinary part. Return to love, boundary, body, and room.</p>",
+      "new": "<h2>A response check, not a verdict about what it is</h2><p>Once you’re stable enough to stay present, notice what helps without turning the response into a metaphysical test. Put a hand on the heart if that feels welcome, take a comfortable breath, and keep the room available.</p><blockquote data-role=\"spoken-practice\"><p>I don’t have to decide what this is right now. I can notice whether warmth or distance helps, and keep my boundary either way. Nothing here requires my obedience.</p></blockquote><p>If vulnerability appears—a knot in the throat, sadness, fear, or a sense of trying to protect something—you can bring in the Nurturer. If the experience remains hostile or becomes more frightening, stop engaging with it and return to the body and room.</p><p>Neither response establishes its origin. A protective part needn’t reveal its fear quickly; a comforting response doesn’t prove an interpretation either. The useful question is whether this way of responding helps you become clearer, steadier, and less hooked. Love and boundaries don’t require a verdict first.</p>",
+      "reason": "Accepted correction: response guides next care, not a diagnosis of internal/external metaphysical origin.",
+      "preservation_units": [
+        "P13",
+        "P24"
+      ],
+      "old_sha256": "cf59ec91f0bdbe90fc2f1514dcd239df4b903b7d1f7864f5210e165c5a877273",
+      "candidate_start": 133324,
+      "candidate_end": 134405,
+      "new_sha256": "75319edcb76f2672d52a690b4a2956b92cff952870ed0ebe9737172989890f7e"
+    },
+    {
+      "id": "E25",
+      "start": 140360,
+      "end": 148098,
+      "old": "<h1>Appendix K: A practical induction library</h1><p>These are building blocks rather than commandments. Preview the full sequence, pick one target, get clear Protector approval, and use the complete exit after every waking session. Each family can be done lightly, with eyes open, or replaced by ordinary no-trance contact.</p><p>If vivid images don’t come, translate the metaphor into words, rhythm, spatial sense, touch, movement, or simple knowing. The mind doesn’t owe anybody a movie.</p><h2>1. Stretch and release</h2><blockquote><p><strong>Observable pacing:</strong> Feel the chair or floor supporting you and notice the current position of one hand or foot.<br><strong>Invitation:</strong> If welcome, press gently, stretch slightly, and release; or imagine the movement without making it.<br><strong>Genuine choice:</strong> Move, imagine, choose a different area, remain still, or stop.<br><strong>Autonomous signal:</strong> Notice whether ease, tension, warmth, breath, or nothing changes.<br><strong>Deepener:</strong> Repeat with no more than three areas, letting “release” remain the central verb.<br><strong>Handoff:</strong> Ask which area or inner voice wants attention now.<br><strong>Integration and exit:</strong> Ask what support is needed, then restore ordinary movement, look around, and confirm the session has ended.</p></blockquote><h2>2. Supported floating</h2><blockquote><p><strong>Observable pacing:</strong> Notice where your weight is already being carried by the chair, bed, or floor.<br><strong>Invitation:</strong> Let support carry 1% more effort, as if the body could float without losing contact.<br><strong>Genuine choice:</strong> Float lightly, stay with ordinary weight, switch to pressure and contact, or stop.<br><strong>Autonomous signal:</strong> Notice a breath change, settling, image, word, or no change.<br><strong>Deepener:</strong> Inhale toward ordinary awareness; exhale toward support—only if you deliberately choose this disclosed fractionation.<br><strong>Handoff:</strong> Ask what becomes easier to hear when effort is supported.<br><strong>Integration and exit:</strong> Keep the quality of support, regain chosen weight and firm contact, move, orient, and end.</p></blockquote><h2>3. Rhythmic breath or pulse</h2><blockquote><p><strong>Observable pacing:</strong> Notice that breath, sound, or a gentle finger tap already has rhythm.<br><strong>Invitation:</strong> Let attention accompany the rhythm without trying to control the body.<br><strong>Genuine choice:</strong> Use breath, humming on a comfortable exhale, tapping, an outside sound, silent counting, or no rhythm at all.<br><strong>Autonomous signal:</strong> Notice where attention naturally lands between repetitions.<br><strong>Deepener:</strong> Repeat one simple phrase with variation, such as “here, and here again.”<br><strong>Handoff:</strong> Stop the rhythm cleanly and notice the first quiet beat after it. Don’t make the mind blank; just notice whether a word, feeling, or need becomes easier to hear.<br><strong>Integration and exit:</strong> Name the next action, stop the deliberate rhythm, let the body resume its ordinary rhythm, orient, and end.</p></blockquote><h2>4. Unwinding object</h2><blockquote><p><strong>Observable pacing:</strong> Notice one thought, task, or feeling that has several strands.<br><strong>Invitation:</strong> Imagine yarn unwinding, bubbles settling, or knots being placed visibly beside you one at a time.<br><strong>Genuine choice:</strong> Unwind one strand, keep the object unchanged, label it in words, or stop.<br><strong>Autonomous signal:</strong> Notice whether one concern becomes clearer or asks not to be set aside.<br><strong>Deepener:</strong> Count only the strands you actually place down; calm is not blankness and nothing is erased.<br><strong>Handoff:</strong> Ask which strand needs warmth, protection, or action.<br><strong>Integration and exit:</strong> Keep one useful strand, place the others in a visible holding area, return to the room, and end.</p></blockquote><h2>5. Sensory journey</h2><blockquote><p><strong>Observable pacing:</strong> Hear the actual room and feel the actual body before imagining a first step.<br><strong>Invitation:</strong> Travel toward a disclosed destination, such as a garden bench or inner meeting room.<br><strong>Genuine choice:</strong> Continue, change the scenery, keep the eyes open, skip directly to dialogue, or stop.<br><strong>Autonomous signal:</strong> Let curiosity notice one chosen detail without assigning it a hidden meaning.<br><strong>Deepener:</strong> Use footsteps, repeated textures, or meaningful landmarks; mystery concerns how the scene unfolds, not what will be done to you.<br><strong>Handoff:</strong> At the destination, ask who or what needs to speak first.<br><strong>Integration and exit:</strong> Return by the same route, close the imagined space, name the present place and day, move, and end.</p></blockquote><h2>6. Gradual wave</h2><blockquote><p><strong>Observable pacing:</strong> Choose one small neutral area of the body and notice what is already there.<br><strong>Invitation:</strong> Imagine warmth, steadiness, or attention spreading only to the next comfortable area.<br><strong>Genuine choice:</strong> Let it spread, keep it localized, move it, switch channels, or stop.<br><strong>Autonomous signal:</strong> Notice the actual response without claiming a physical or medical change.<br><strong>Deepener:</strong> Proceed one area at a time, pausing after each step.<br><strong>Handoff:</strong> Ask whether the body wants contact, space, words, or ordinary care.<br><strong>Integration and exit:</strong> Let the attentional image recede, feel the whole body and its real contact points, orient, and end.</p></blockquote><h2>7. Care workshop</h2><blockquote><p><strong>Observable pacing:</strong> Notice that the adult self can prepare time, tools, boundaries, and a place of patient care.<br><strong>Invitation:</strong> Let a signal, feeling, or younger state approach the workspace only as closely as it wants.<br><strong>Genuine choice:</strong> Use “parts,” “signals,” “feelings,” a non-fragmenting metaphor, no imagery, or stop.<br><strong>Autonomous signal:</strong> Ask permission before inspection or response; silence is not permission.<br><strong>Deepener:</strong> Prepare, inspect, ask, respond once, wait, reconnect, rest, and reassess.<br><strong>Handoff:</strong> Let an available inner adult—or one consciously borrowed safe function—provide the care while the guide gets quieter. The borrowed figure offers a model; you still choose the words, pace, and action.<br><strong>Integration and exit:</strong> Aim for “good as you,” not erased history; close the workspace, confirm wholeness and adult presence, orient, and end.</p></blockquote><h2>8. Resource embodiment</h2><blockquote><p><strong>Observable pacing:</strong> Name two or three qualities you already understand, such as warmth, boundary, steadiness, curiosity, or dignity.<br><strong>Invitation:</strong> Imagine how posture, voice, or attention might feel with 1% more access to those qualities.<br><strong>Genuine choice:</strong> Borrow one quality, choose another, observe without embodying, or stop.<br><strong>Autonomous signal:</strong> Notice a small voluntary posture change, word, image, or no response.<br><strong>Deepener:</strong> Let each repetition strengthen access to the quality, not replace your identity.<br><strong>Handoff:</strong> Ask how the quality would respond to today’s actual situation.<br><strong>Integration and exit:</strong> Keep the chosen quality and one action; release the image or role, affirm “I am myself,” orient, and end.</p></blockquote>",
+      "new": "<h1>Appendix K: A practical induction library</h1><p>Preview the sequence, choose one purpose, and decide whether you want to begin. Each family can be light, eyes-open, or replaced by no-trance contact. Notice the actual response—including no change—and let it determine the next move. Move, imagine, change the sensory channel, remain still, or stop. Use the complete waking return after every induction.</p><p>If vivid images don’t come, translate the metaphor into words, rhythm, spatial sense, touch, movement, or simple knowing. The mind doesn’t owe anybody a movie.</p><h2>1. Stretch and release</h2><p>Feel the support beneath you and the position of one hand or foot. Press gently, stretch slightly, and release—or imagine it. Notice ease, tension, warmth, breath, or no change. Repeat with no more than three areas, letting “release” guide the sequence. Which area or inner voice wants attention? What support is needed? Restore ordinary movement and return.</p><h2>2. Supported floating</h2><p>Notice where your weight is carried. Let support carry 1% more effort, as if floating without losing contact, or keep ordinary weight and pressure. Notice the response. You may deliberately alternate attention toward ordinary awareness on the inhale and support on the exhale; name this fractionation beforehand. What becomes easier to hear? Keep the support, regain chosen weight and firm contact, then return.</p><h2>3. Rhythmic breath or pulse</h2><p>Accompany a natural rhythm: breath, a comfortable hum, a finger tap, outside sound, or silent counting. No rhythm is also an option. Repeat “here, and here again,” noticing where attention lands between repetitions. Stop the deliberate rhythm and notice the first quiet beat, without trying to become blank. Is a word, feeling, need, or action clearer? Let ordinary rhythm resume and return.</p><h2>4. Unwinding object</h2><p>Notice a concern with several strands. Imagine yarn unwinding, bubbles settling, or knots placed visibly beside you. Leave the object unchanged or label it in words when that fits better. Count only strands you actually set down; nothing is erased. Which needs warmth, protection, or action? Keep one useful strand, give the others a visible holding place, and return.</p><h2>5. Sensory journey</h2><p>Hear the actual room and feel the body before imagining a step toward a chosen destination. Use footsteps, textures, or landmarks to gather attention. Change scenery or skip directly to dialogue when useful. Notice a detail without assigning hidden meaning; the mystery is how the scene develops, not what will be done to you. Who or what needs to speak? Return by the same route and close the imagined space.</p><h2>6. Gradual wave</h2><p>Start with a small neutral area and what is already there. Imagine warmth, steadiness, or attention spreading to the next comfortable area, or keep it localized. Pause at each step and notice what changes without claiming medical repair. Does the body want contact, space, words, or ordinary care? Let the image recede, feel the whole body and real contact points, and return.</p><h2>7. Care workshop</h2><p>Prepare time, a place, tools, and boundaries for patient care. Let a signal, feeling, or younger state approach only as closely as welcome; choose language that doesn’t make you feel fragmented. Ask before responding, wait, reconnect only where welcome, rest, and reassess. An available inner adult or one borrowed function can help; you choose words, pace, and action. Aim for “good as you,” not erased history. Close the workspace, affirm wholeness and adult presence, and return.</p><h2>8. Resource embodiment</h2><p>Choose qualities you understand: warmth, boundary, steadiness, curiosity, or dignity. Imagine posture, voice, or attention with 1% more access to one quality. Observe rather than embody it when preferred. Notice a movement, word, image, or no response. Repeat to strengthen access, not replace identity. How would that quality meet today’s situation? Keep the quality and one useful action, release the role, affirm “I am myself,” and return.</p>",
+      "reason": "Consolidate common choices, actual-response checks and full return once; retain each of the eight distinct techniques, handoffs and technique-specific undoing. Final no-trance block remains exact.",
+      "preservation_units": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P10",
+        "P14",
+        "P15",
+        "P18"
+      ],
+      "old_sha256": "e4a8cdcd59009caf6c48ca7fe07b0b16776e56e180ee3e51045331f936f89cfe",
+      "candidate_start": 143043,
+      "candidate_end": 147144,
+      "new_sha256": "178391ae52697b0a670ae7c707ca435790e07950da21c544a943c8c8740f5513"
+    },
+    {
+      "id": "E26",
+      "start": 149033,
+      "end": 149033,
+      "old": "",
+      "new": "<hr><h1>Appendix L: Sources and further reading</h1><p>The personal accounts and the way I arrange this practice are mine. The revised teaching brings them together with body-oriented and hypnotic approaches described below. That combination is an adaptation, not a treatment validated as a whole. These notes are for readers who want to follow an idea further; you don’t need them open while practicing.</p><h2>Learning, entering, and returning</h2><p>Maggie Phillips and Claire Frederick, <em>Healing the Divided Self</em> (1995), especially pp.24–27, 45–50, and 83–90, discusses interactive hypnosis, sensory learning, self-hypnosis, and a definite return. It is a professional clinical book, not a self-help manual; its case procedures and historical claims shouldn’t be imported wholesale into solo practice. Adam Eason and Benjamin Parris’s <a href=\"https://www.ishhypnosis.org/encyclopedia/self-hypnosis/\" target=\"_blank\" rel=\"noopener noreferrer\">ISH article on self-hypnosis</a> discusses self-directed learning and its relationship to another hypnotist and recordings.</p><h2>Indirect language and re-entry cues</h2><p>Phillips and Frederick, pp.53–57 and 96–100, explain pacing, utilization, metaphor, and associational cues. Nimja’s <a href=\"https://learn.nimja.com/techniques/hypnotic_language\" target=\"_blank\" rel=\"noopener noreferrer\">hypnotic-language tutorial</a> and <a href=\"https://learn.nimja.com/techniques/triggers\" target=\"_blank\" rel=\"noopener noreferrer\">trigger tutorial</a> describe language and cueing techniques. They are technique sources, not evidence that every NLP claim is established or every example suits trauma work. The original wording and deliberately chosen re-entry sequence here are adaptations; Nimja did not write or endorse this guide.</p><h2>Body awareness and changing the amount of contact</h2><p>Peter Levine, <em>In an Unspoken Voice</em> (2010), chapters 5 and 7; Levine and Maggie Phillips, <em>Freedom from Pain</em> (2012), chapters 3–4; and Levine, <em>Healing Trauma</em>, chapter 4, inform bodily tracking, resources, titration, pendulation, and attention across sensation, imagery, behavior, emotion, and meaning. The invitation to try a movement or image is not a claim that a particular physiological repair has occurred.</p><h2>Inner-child care and adult capacities</h2><p><em>Healing the Divided Self</em>, pp.148–153 and 171–174, discusses renurturing, somatic work, and developing nurturing capacities. Levine and Maggie Kline’s <em>Trauma Through a Child’s Eyes</em>, especially chapters 4–5 and 10, discusses attunement and individual responses in actual children and caregiving. Applying those ideas to an adult’s younger feeling-states is an adaptation. My three-adult arrangement and borrowed-adulthood sequence are not presented as those authors’ tested protocol.</p><h2>Memory, support, and choosing a practitioner</h2><p>Levine’s <em>Trauma and Memory</em> (2015), chapter 7, is useful on the difference between compelling experience and historical verification. The <a href=\"https://www.va.gov/WHOLEHEALTHLIBRARY/tools/hypnosis.asp\" target=\"_blank\" rel=\"noopener noreferrer\">VA’s hypnosis overview</a> includes cautions about strong reactions and false memories. ASCH’s <a href=\"https://asch.net/what-is-certification/\" target=\"_blank\" rel=\"noopener noreferrer\">explanation of certification</a> distinguishes professional preparation from a guarantee of someone’s competence. The existing links in the evidence and specialist sections point to their particular claims rather than validating every use of hypnosis.</p>",
+      "reason": "Append approved section-matched source appendix after final no-trance library block. No source codes inside spoken passages.",
+      "preservation_units": [
+        "P24"
+      ],
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "candidate_start": 148079,
+      "candidate_end": 151672,
+      "new_sha256": "4e788a3c12757cc73a905f4a150ab3f6e77ae8716b70c6512caa648086f992af"
+    }
+  ]
+}
