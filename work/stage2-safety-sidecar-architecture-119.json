@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "decision_id": "stage2-safety-sidecar-architecture-119",
+  "mainline_checkpoint": 117,
+  "editorial_form": "NATIVE_SUBSTACK_FOOTNOTES",
+  "reason": [
+    "KEEP_REQUIRED_SAFETY_ADJACENT_WITHOUT_REINTRODUCING_VISIBLE_WARNING_CARD_RHYTHM",
+    "PRESERVE_SEPARATION_BETWEEN_MAINLINE_THOUGHT_AND_SAFETY_CUSTODY"
+  ],
+  "sidecars": [
+    {
+      "id": "STRONGER_SHAKING_SAFETY",
+      "attachment": "IMMEDIATELY_AFTER_STRONGER_SHAKING_CONTROL_MOVEMENT",
+      "surface_generation": "FRESH_CONTEXT_REQUIRED"
+    },
+    {
+      "id": "YIN_SAFETY",
+      "attachment": "IMMEDIATELY_AFTER_GENTLE_YIN_YOGA_MENTION",
+      "surface_generation": "FRESH_CONTEXT_REQUIRED"
+    }
+  ],
+  "substack_editor_support": "CURRENT_OFFICIAL_FEATURE_GUIDE_LISTS_FOOTNOTES",
+  "clipboard_helper_support": "UNVERIFIED_NOT_IN_CONFIRMED_HELPER_PROFILE",
+  "transfer_plan": "MANUAL_NATIVE_FOOTNOTE_INSERTION_AFTER_CLIPBOARD_TRANSFER_PLUS_DESTINATION_READBACK",
+  "custom_html_allowed": false,
+  "technical_reference_plane": "SEPARATE_LATER_AUDIT",
+  "pangram": "NOT_RUN_NOT_AUTHORIZED"
+}
