@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "protocol": "docs/CANDIDATE-INGRESS-AND-LINEAGE.md",
+  "last_completed_iteration": 112,
+  "last_completed_candidate_sha256": "3ef20715ead430af843079cec85bef338b091386b88f7dec8eb6e9886ad80686",
+  "last_candidate_ingress": {
+    "sha256": "035cd4c2b063812fab05d87565f97e998f1d8c69ed2dde7422ab99c51d123906",
+    "historical_exact_match_iteration": 102,
+    "is_immediately_previous_completed_candidate": false,
+    "advanced_cursor": false
+  },
+  "active_expected_iteration": 113,
+  "rules": {
+    "hash_current_ingress_first": true,
+    "resolve_immediate_previous_separately_from_historical_match": true,
+    "historical_match_does_not_rewind": true,
+    "ambiguous_same_previous_last_language_forbidden": true
+  }
+}
