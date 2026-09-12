@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "iteration": "107b",
+  "candidate_sha256": "e2ac6831f803329069c9857aa9f93162834507d02056a4c83bf4863826457a16",
+  "utf8_bytes": 364,
+  "whitespace_words": 62,
+  "architecture": "PROVISIONAL_PASS",
+  "preservation": "PASS",
+  "reverse_traceability": "PASS",
+  "unexplained_substantive_deltas": 0,
+  "combined_boundary_architecture": "PROVISIONAL_PASS",
+  "disposition": "RETAIN_EXACT_MOVEMENT_AS_REPLACEMENT_FOR_FAILED_107",
+  "notes": [
+    "paired negative clauses express one intensity/progress proposition rather than separate custody fields",
+    "voluntary-control criterion is expressed without a multi-action control list",
+    "no explanatory-aftercare sentence follows the control criterion"
+  ],
+  "pangram": "NOT_RUN_NOT_AUTHORIZED"
+}
