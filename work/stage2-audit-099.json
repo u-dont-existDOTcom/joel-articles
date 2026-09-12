@@ -8,5 +8,16 @@
   "forward_traceability": "PASS",
   "reverse_traceability": "FAIL",
   "same_context_independent": false,
-  "next_method": "AMEND_PRESENTATION_ARCHITECTURE_AND_USE_GENUINELY_FRESH_WRITER"
+  "next_method": "AMEND_PRESENTATION_ARCHITECTURE_AND_USE_GENUINELY_FRESH_WRITER",
+  "strategy_100": {
+    "parent": "V7",
+    "creates_v8": false,
+    "planes_are_custody_destinations_not_required_visible_blocks": true,
+    "same_context_writing_is_not_evidence": true,
+    "fresh_writer_required": true,
+    "container_swap_is_not_method_success": true,
+    "progressive_disclosure_for_reference_details": true,
+    "architecture_review_before_preservation_defense": true,
+    "destination_transfer_check_required": true
+  }
 }
