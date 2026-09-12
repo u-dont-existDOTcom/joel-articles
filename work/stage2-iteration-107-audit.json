@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "iteration": 107,
+  "candidate_sha256": "c39a142e8478ac875d3a0aac6ed0e399e965d9f3c79eb67cef0a178f1fccd9f7",
+  "utf8_bytes": 334,
+  "whitespace_words": 56,
+  "architecture": "PROVISIONAL_PASS",
+  "preservation": "PASS",
+  "reverse_traceability": "PASS",
+  "unexplained_substantive_deltas": 0,
+  "combined_boundary_sha256": "79e03f1f1710c941935bc13a3566466e02df9395b7ba6722f5e49b9fbafd45a3",
+  "combined_boundary_architecture": "PROVISIONAL_PASS",
+  "disposition": "RETAIN_EXACT_MOVEMENT",
+  "pangram": "NOT_RUN_NOT_AUTHORIZED",
+  "next_method": "ADVANCE_BY_NEXT_READER_QUESTION"
+}
