@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "iteration": 113,
+  "candidate_sha256": "9602d95398e6379edc731e5b4277840715426907b3932cea8dce8ee451301fb1",
+  "utf8_bytes": 157,
+  "whitespace_words": 25,
+  "ingress_class": "ON_CURSOR_NEW_INGRESS",
+  "historical_exact_match": false,
+  "architecture": "PROVISIONAL_PASS",
+  "preservation": "PASS",
+  "reverse_traceability": "PASS",
+  "unexplained_substantive_deltas": 0,
+  "blocking_defects": [],
+  "nonblocking_note": "READER_FACING_NAME_ALTERNATIVES_ARE_REDUNDANT_AND_CAN_BE_NORMALIZED_DURING_NAMING_CLEANUP",
+  "disposition": "RETAIN_EXACT_MOVEMENT_AS_WORKING_SURFACE",
+  "pangram": "NOT_RUN_NOT_AUTHORIZED"
+}
