@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "checkpoint": 124,
+  "status": "FRESH_RENDERED_BOUNDARY_AUDIT_REQUIRED",
+  "mainline": {
+    "sha256": "e8d52c96d605350f4e2f0eb4e0b311dcef0529aac5d84754d521b1849bb93d52",
+    "utf8_bytes": 1705,
+    "whitespace_words": 276,
+    "architecture_prior": "PASS_AT_CHECKPOINT_117_AFTER_IMPLEMENTATION_118"
+  },
+  "technical_footnote": {
+    "sha256": "b94cd3832890f26e9abafbf6ab1460060b9237e7977e52366701fd662f24fddf",
+    "utf8_bytes": 736,
+    "whitespace_words": 87,
+    "source_assembly_path": "work/stage2-technical-footnote-source-exact-123.md"
+  },
+  "shaking_safety_footnote": {
+    "sha256": "e4f076045e0504e22f8c6c58bc9c8b01d47640ce1f5a0a99532a302310d08609",
+    "utf8_bytes": 201,
+    "whitespace_words": 27,
+    "source_authority": "SOMATIC-STAGE2-V7-TECHNICAL-SAFETY-RECOVERY-004-SHAKING-YIN-20260910.md"
+  },
+  "yin_safety_footnote": {
+    "sha256": "6f543f1f19ec9bb5172ce0e2d930cf81f9f98ca59eff8aeb9ff3e5463bfff59c",
+    "utf8_bytes": 298,
+    "whitespace_words": 48,
+    "source_authority": "SOMATIC-STAGE2-V7-TECHNICAL-SAFETY-RECOVERY-004-SHAKING-YIN-20260910.md"
+  },
+  "rendered_simulation": {
+    "sha256": "f44c3abdd128d73091cbe7c64d1ad2053eb1dd6611d65298f9bdd602f95ddbdd",
+    "utf8_bytes": 2970,
+    "whitespace_words": 442
+  },
+  "audit_scope": [
+    "DO_FOOTNOTES_RECREATE_MANUAL_OR_MODALITY_CARD_FEEL",
+    "IS_TECHNICAL_FOOTNOTE_TOO_DENSE_OR_TAXONOMIC",
+    "DO_THREE_FOOTNOTES_COMPETE_WITH_MAINLINE",
+    "ARE_ATTACHMENT_POINTS_INTUITIVE",
+    "DO_SAFETY_FOOTNOTES_READ_AS_NECESSARY_ADJACENCY_RATHER_THAN_PROFILE_COMPLETION",
+    "STRONGEST_REMAINING_RENDERED_ARCHITECTURE_WEAKNESS"
+  ],
+  "critic_independence": "GENUINELY_FRESH_CONTEXT_REQUIRED",
+  "critic_must_not_rewrite": true,
+  "pangram": "NOT_RUN_NOT_AUTHORIZED"
+}
