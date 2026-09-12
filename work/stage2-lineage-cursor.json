@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "protocol": "docs/CANDIDATE-INGRESS-AND-LINEAGE.md",
-  "last_completed_iteration": 114,
-  "last_completed_candidate_sha256": "777b17082f245637195660da7c07a75e1197add398ab79938323aaed5394e877",
+  "last_completed_iteration": 116,
+  "last_completed_candidate_sha256": "b9936be103334612f8867bb2c2204b3fb6a5d0d73b16e2665b121a77d2f86ab5",
   "last_candidate_ingress": {
-    "sha256": "12b8c6d92189600933a4d1fa7a74ac84fbfec4588fe8ef370418e9c223c39ded",
+    "sha256": "b9936be103334612f8867bb2c2204b3fb6a5d0d73b16e2665b121a77d2f86ab5",
     "historical_exact_match_iteration": null,
-    "is_immediately_previous_completed_candidate": false,
-    "advanced_cursor": false,
-    "iteration": 115,
-    "status": "SEMANTIC_FAIL"
+    "is_immediately_previous_completed_candidate": true,
+    "advanced_cursor": true,
+    "iteration": 116,
+    "status": "PROVISIONAL_PASS"
   },
-  "active_expected_iteration": "115b",
+  "active_expected_iteration": "ARCHITECTURE_CHECKPOINT_117",
   "rules": {
     "hash_current_ingress_first": true,
     "resolve_immediate_previous_separately_from_historical_match": true,
