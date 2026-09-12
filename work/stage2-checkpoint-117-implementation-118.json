@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "decision_id": "stage2-checkpoint-117-implementation-118",
+  "source_checkpoint": 117,
+  "mainline_architecture": "PASS",
+  "operations": [
+    {
+      "operation": "DELETE_FROM_MAINLINE",
+      "target_function": "MASSAGE_DIRECT_MUSCULAR_TENSION_UNIT",
+      "reason": "REDUCE_EMERGING_MINI_PROFILE_CATALOGUE_SHAPE"
+    },
+    {
+      "operation": "ROUTE_TO_TECHNICAL_REFERENCE_PLANE",
+      "target_function": "MASSAGE_PHYSICAL_MUSCULAR_RELEASE_FUNCTION",
+      "reason": "PRESERVE_OWNER_AUTHORIZED_FUNCTION_WITHOUT_FORCING_IT_INTO_MAINLINE"
+    }
+  ],
+  "semantic_deletion": false,
+  "mainline_after_operation_requires_new_prose": false,
+  "next_required_architecture_work": "ADJACENT_SAFETY_SIDECARS_FOR_STRONGER_SHAKING_AND_YIN",
+  "pangram": "NOT_RUN_NOT_AUTHORIZED"
+}
