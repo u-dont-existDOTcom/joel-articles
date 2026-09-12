@@ -1,14 +1,7 @@
 {
   "schema_version": 1,
   "movement_id": "stage2-scope-boundary-108",
-  "reader_question": "ROLE_AND_SCOPE_BOUNDARY",
-  "source": "articles/somatic-therapies/experiments/SOMATIC-STAGE2-V7-TECHNICAL-SAFETY-RECOVERY-004-SHAKING-YIN-20260910.md",
-  "semantic_unit_count": 3,
-  "surface_neutral_packet_required": true,
-  "fresh_writer_required": true,
-  "prior_candidate_prose_forbidden": true,
-  "technical_reference_material_withheld": true,
-  "post_practice_material_withheld": true,
-  "architecture_review_before_preservation_defense": true,
+  "status": "SUPERSEDED_BEFORE_EXECUTION",
+  "reason": "Iteration 107 was owner-corrected from provisional PASS to architecture FAIL. Do not advance to scope until the intensity/control movement is repaired.",
   "pangram_authorized": false
 }
