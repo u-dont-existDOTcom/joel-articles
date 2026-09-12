@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "candidate_id": "098",
+  "chat_literal_sha256": "aa69fb14846dfc6922a0e738f048bfa7103ed190ae75d7e97d12e1d67b4d9be5",
+  "rendered_sha256": "0e31c5bae7ed5fa9750a266c0858481d30b908c95071e56dd995aa0a835b1ea3",
+  "verdict": "REJECT",
+  "architecture": "FAIL",
+  "forward_traceability": "PASS",
+  "reverse_traceability": "FAIL",
+  "same_context_independent": false,
+  "next_method": "AMEND_PRESENTATION_ARCHITECTURE_AND_USE_GENUINELY_FRESH_WRITER"
+}
