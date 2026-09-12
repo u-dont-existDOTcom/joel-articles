@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "movement_id": "stage2-deliberate-shaking-choice-rationale-104",
+  "reader_question": "WHY_USE_DELIBERATE_SHAKING_IF_SE_CAN_ALREADY_INCLUDE_TREMOR",
+  "semantic_units": [
+    "DELIBERATE_PRACTICE_CREATES_OR_SUSTAINS_MORE_ACTIVE_MOVEMENT",
+    "CAN_FOLLOW_ALREADY_NOTICED_ACTIVATION_WHEN_MORE_ACTIVE_ENGAGEMENT_IS_WANTED",
+    "CAN_BE_USEFUL_WHEN_SUBTLER_SE_PRODUCES_LITTLE_FELT_MOVEMENT",
+    "NOT_A_MANDATORY_SEQUENCE"
+  ],
+  "surface_neutral_packet_required": true,
+  "fresh_writer_required": true,
+  "prior_candidate_prose_forbidden": true,
+  "safety_reference_and_settling_material_withheld": true,
+  "architecture_review_before_preservation_defense": true,
+  "pangram_authorized": false
+}
