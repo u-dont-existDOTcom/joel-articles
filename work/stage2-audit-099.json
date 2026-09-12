@@ -39,13 +39,24 @@
     "candidate_sha256": "035cd4c2b063812fab05d87565f97e998f1d8c69ed2dde7422ab99c51d123906",
     "utf8_bytes": 433,
     "whitespace_words": 70,
-    "architecture": "FAIL",
+    "as_submitted_architecture": "FAIL",
     "preservation": "PASS",
     "forward_traceability": "PASS",
     "reverse_traceability": "PASS",
     "unexplained_substantive_deltas": 0,
     "blocking_defect": "OVERCOMPLETED_SYMMETRIC_RECAP",
-    "disposition": "REJECT_FULL_MOVEMENT_AND_RECONSTRUCT_FRESH",
-    "next_iteration_rule": "RECONSTRUCT_FROM_SURFACE_NEUTRAL_SEMANTICS_WITH_ABSTRACT_DEFECT_ONLY_NO_PRIOR_CANDIDATE_PROSE"
+    "repair_type": "DELETE_REDUNDANT_FINAL_SENTENCE",
+    "repair_authority": "GENUINE_DUPLICATE_FUNCTION_CONSOLIDATION",
+    "repaired_candidate_sha256": "eae6db0cdaf25efacfd47e546bcd7618bdc8a4e3cfec3240cc34c795097d7f22",
+    "repaired_utf8_bytes": 241,
+    "repaired_whitespace_words": 38,
+    "repaired_architecture": "PROVISIONAL_PASS",
+    "repaired_preservation": "PASS",
+    "disposition": "RETAIN_REPAIRED_TWO_SENTENCE_MOVEMENT",
+    "next_method": "ADVANCE_TO_NEXT_READER_QUESTION_WITHOUT_REWRITING_ACCEPTED_MOVEMENT"
+  },
+  "strategy_103": {
+    "critic_may_use_deletion_only_repair_when_redundant_aftercare_is_fully_carried_by_surviving_realization": true,
+    "do_not_restart_generation_when_pure_deletion_repairs_architecture_without_semantic_loss": true
   }
 }
