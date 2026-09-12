@@ -62,7 +62,7 @@ Before substantial drafting or editing, record the primary reader's role, expect
 
 - Make the smallest effective changes.
 - Preserve architecture, meaning, links, headings, jokes, punctuation habits, em-dashes, emojis, exact phrases, and emotional temperature. Pure P1 spelling, punctuation, capitalization, spacing, literal-agreement, and broken-link corrections retain prior detector status when visible semantic wording and tested boundaries do not change.
-- Apply the exact redundancy rule and flag anything still academic, generic, or off-voice.
+- Apply the functional repetition check in `MASTER-INSTRUCTIONS.md` within the selected edit level. P1 does not authorize a stylistic cut. In P2, preserve meaning, necessary recurrence, and owner-locked wording while making the smallest authorized repair; flag unresolved problems rather than widening the task.
 - A clean reconstruction is not a line edit.
 
 ## Critique or reviewer-feedback pass — P0
