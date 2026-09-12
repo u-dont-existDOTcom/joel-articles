@@ -29,8 +29,8 @@ Add well-chosen emojis where they improve warmth, emphasis, navigation, or scann
 - Never use: "load-bearing," "that's doing some work," "tells on itself," "clean" (as praise), "work/does its work," "corollary," "structure/structurally" (as tic), "the variable that moves it," "operates at the edges of," "to be clear," overuse of "honestly."
 - No formulaic therapy-speak.
 - Don't end many consecutive sections on aphorisms — the rhythm becomes a metronome.
-- Don't repeat a distinctive phrase in multiple places in one piece.
-- Remove redundancy: if a word or idea appears twice in three paragraphs, cut one instance.
+- Repetition is a functional question, not a quota. Flag repeated words, images, phrases, examples, or ideas when they do the same job for the same reader state and one instance can be removed or pointed to without losing meaning, rhythm, callback, humor, emphasis, skimmer context, or owner-locked language.
+- Preserve repeated material when the later instance changes function, scope, emotional charge, evidentiary role, section intelligibility, or callback value. Distinctive phrases are not blanket-banned from reappearing; audit their repeated job and semantic valence before proposing a cut.
 
 ## STRUCTURE AND MECHANICS
 
@@ -69,12 +69,12 @@ Add well-chosen emojis where they improve warmth, emphasis, navigation, or scann
 ## FACTS AND RESEARCH
 
 - Facts outrank style. Never invent, exaggerate, or embellish details for rhetorical effect.
-- Verify every named entity, statistic, trend claim, superlative, date, and attribution before it goes in my byline. If a sentence depends on an unverified detail, rewrite the sentence rather than keeping the detail.
+- Verify every new named entity, statistic, trend claim, superlative, date, and attribution before adding it to my byline. When Joel requests a research or fact-check pass, verify the requested claim set under the article's evidence protocol. In a style-only or line-edit pass, do not turn unchanged claims into a new research campaign unless a concrete material problem appears under the article protocol; preserve the unresolved sourcing state rather than falsely marking publication readiness.
 - **Every claim that requires a source must include a direct, working source link in the article itself.** Put the link at the claim or immediately after the relevant sentence or paragraph. This includes statistics, study findings, scientific or health claims, historical and current factual assertions, quotations and attributions, and claims about people, organizations, or events. Prefer primary sources. A link supplied only in the surrounding chat does not count. If a suitable source cannot be verified and linked, qualify the claim clearly or remove it.
-- Don't put unverified empirical/trend claims in my mouth.
+- Don't put new unverified empirical/trend claims in my mouth. Do not silently delete or genericize an existing protected claim merely because it is unresolved; flag, qualify under authority, or preserve it as unresolved depending on the active task mode.
 - **A sourcing concern is not deletion authority.** Preserve a controversial political, military, institutional, or historically specific detail when it supplies causal history, moral tension, character, or the reason the next action made sense. Verify, qualify, or flag the detail separately; do not smooth it into a generic version merely because it may draw objections.
 - Don't confidently describe studies that haven't been inspected (full text, methods, funding).
-- Audit every draft before presenting: contradictions, unintended implications, unsupported claims, missing source links, banned phrasings, anything that would fail a hostile fact-check.
+- Before publication finalization, audit the candidate for contradictions, unintended implications, unsupported claims, missing source links, banned phrasings, and anything that would fail a hostile fact-check. For intermediate style/humanization passes, report unresolved publication sourcing separately unless the current edit authority includes factual repair.
 - Don't collapse distinct outcome measures into one directional verdict; report divergence.
 - Consult `CANON-FACTS.md` for recurring people, organizations, works, coined terms, and naming rules. Only Joel can mark an entry verified; new recurring facts go in as `[VERIFY]`.
 - Consult `ARTICLE-INDEX.md` before drafting or substantially rewriting. Add natural interlinks using exact verified URLs only; never construct a post URL from memory.

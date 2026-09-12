@@ -62,7 +62,8 @@ Before substantial drafting or editing, record the primary reader's role, expect
 
 - Make the smallest effective changes.
 - Preserve architecture, meaning, links, headings, jokes, punctuation habits, em-dashes, emojis, exact phrases, and emotional temperature. Pure P1 spelling, punctuation, capitalization, spacing, literal-agreement, and broken-link corrections retain prior detector status when visible semantic wording and tested boundaries do not change.
-- Apply the exact redundancy rule and flag anything still academic, generic, or off-voice.
+- Apply the functional repetition check in `MASTER-INSTRUCTIONS.md`: repeated language is cut or pointed only when it performs the same job and removal is authorized by the active edit level, owner locks, necessary reference, and surrounding dependencies. P1 never authorizes stylistic cuts merely because a word, idea, or distinctive phrase repeats.
+- Flag anything still academic, generic, or off-voice without converting P1 into a style rewrite.
 - A clean reconstruction is not a line edit.
 
 ## Critique or reviewer-feedback pass — P0
@@ -80,6 +81,7 @@ Before substantial drafting or editing, record the primary reader's role, expect
 
 - Use a claim ledger and separate fact, mechanism, association, anecdote, speculation, and opinion.
 - Follow the saved permission matrix before changing article text.
+- Distinguish new assertions, an owner-requested research pass, unchanged claims encountered during style-only editing, and publication finalization. Unchanged unresolved claims remain unresolved unless the active task authorizes factual repair; required source links still belong in the article itself before publication-ready status.
 - List every authorized substantive change.
 
 ## Spoken transcript adaptation — P2/P3
