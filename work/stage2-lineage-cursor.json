@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "protocol": "docs/CANDIDATE-INGRESS-AND-LINEAGE.md",
-  "last_completed_iteration": 112,
-  "last_completed_candidate_sha256": "3ef20715ead430af843079cec85bef338b091386b88f7dec8eb6e9886ad80686",
+  "last_completed_iteration": 114,
+  "last_completed_candidate_sha256": "777b17082f245637195660da7c07a75e1197add398ab79938323aaed5394e877",
   "last_candidate_ingress": {
-    "sha256": "035cd4c2b063812fab05d87565f97e998f1d8c69ed2dde7422ab99c51d123906",
-    "historical_exact_match_iteration": 102,
-    "is_immediately_previous_completed_candidate": false,
-    "advanced_cursor": false
+    "sha256": "40c9d1fc5aecaa28d774d7773189cb093c1f6109ee5f87e9b679476c2a59a33f",
+    "historical_exact_match_iteration": null,
+    "is_immediately_previous_completed_candidate": true,
+    "advanced_cursor": true
   },
-  "active_expected_iteration": 113,
+  "active_expected_iteration": 115,
   "rules": {
     "hash_current_ingress_first": true,
     "resolve_immediate_previous_separately_from_historical_match": true,
