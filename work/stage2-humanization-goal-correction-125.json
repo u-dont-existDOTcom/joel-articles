@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "correction_id": "stage2-humanization-goal-correction-125",
+  "date": "2026-09-12",
+  "owner_correction": "The point is to learn to humanize; do not veer into article-completion, publishing, sidecar, or other adjacent avenues before the method itself has been learned and demonstrated.",
+  "diagnosis": {
+    "failure": "OBJECTIVE_DRIFT_AFTER_ARCHITECTURE_PASS",
+    "description": "After the assembled Stage-2 passage received an architecture PASS, the supervisor treated remaining preservation, safety, technical, and publishing obligations as the next work. That converted a humanization-learning experiment back into an article-completion workflow.",
+    "mechanism": [
+      "Architecture PASS was incorrectly interpreted as completion authority rather than experimental evidence.",
+      "Unrealized preservation/safety units created closure pressure, so the supervisor began placing them into footnotes/sidecars instead of stopping to extract and test the generation lesson.",
+      "Repository publishing/preservation machinery was allowed to outrank the experiment's top-level objective.",
+      "The active 094 strategy's orchestration checkpoint and success criterion were not honored literally."
+    ]
+  },
+  "top_level_objective": "LEARN_AND_VALIDATE_A_GENERALIZABLE_HUMANIZATION_METHOD",
+  "not_current_objectives": [
+    "FINISH_STAGE2",
+    "PLACE_ALL_REMAINING_SAFETY_MATERIAL",
+    "DESIGN_SUBSTACK_FOOTNOTES_OR_CALLOUTS",
+    "SOLVE_CLIPBOARD_HELPER_TRANSPORT",
+    "INSTALL_OR_PUBLISH_ARTICLE_PROSE",
+    "COMPLETE_CITATION_OR_TECHNICAL_REFERENCE_ARCHITECTURE"
+  ],
+  "evidence_status": {
+    "assembled_passage_architecture": "PASS",
+    "interpretation": "Useful evidence that the fresh-writer + local-pressure + architecture-first + deletion/assembly process can produce one acceptable boundary.",
+    "not_proven": [
+      "The generator has internalized the method.",
+      "The method transfers to a held-out passage.",
+      "The method works without heavy sentence-specific prompting or critic repair.",
+      "Owner correction burden has materially decreased.",
+      "The same structural failures will not recur on a new target."
+    ]
+  },
+  "post_pass_work_status": {
+    "footnote_sidecar_and_publishing_work_after_checkpoint_117": "DEFERRED_OUT_OF_SCOPE_FOR_CURRENT_LEARNING_LANE",
+    "authority_effect": "NONE",
+    "note": "Retain artifacts only as provenance of the drift. Do not advance or install them unless Joel later explicitly returns to article-completion/publishing work."
+  },
+  "next_method_test": {
+    "type": "HELD_OUT_TRANSFER_TEST",
+    "purpose": "Test whether the learned humanization method generalizes rather than continuing to optimize the same passage.",
+    "protocol": [
+      "Extract the smallest process lessons actually supported by the Stage-2 iterations; do not turn them into a long anti-pattern blacklist.",
+      "Choose a different existing model-shaped passage with authoritative semantics and no owner-final wording as a held-out target.",
+      "Give a genuinely fresh writer only the semantic/source thought, local article context, and live reader pressure needed to write naturally; withhold failed prose, preservation ledgers, detector feedback, and sentence-specific repair history.",
+      "Have a genuinely fresh architecture critic judge the literal output before preservation is allowed to defend it.",
+      "Only after architecture passes, run preservation/reverse-traceability checks.",
+      "Measure learning by first-pass architecture quality, recurrence of known failure classes, amount/type of critic repair, and owner correction burden, not by whether all article obligations were placed.",
+      "If the same structural failure recurs, change the generation architecture rather than adding another prohibition."
+    ]
+  },
+  "pangram_authorized": false,
+  "article_install_authorized": false,
+  "publishing_work_authorized": false,
+  "source_strategy": "articles/somatic-therapies/experiments/SOMATIC-STAGE2-FRESH-WRITER-SEMANTIC-CUSTODY-STRATEGY-094-20260911.md",
+  "related_owner_correction": "work/stage2-owner-correction-109.json"
+}
