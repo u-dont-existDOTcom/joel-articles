@@ -19,5 +19,20 @@
     "progressive_disclosure_for_reference_details": true,
     "architecture_review_before_preservation_defense": true,
     "destination_transfer_check_required": true
+  },
+  "iteration_101": {
+    "candidate_sha256": "6918d63c769bc9ac28fc3092854fbd841709ad1b7af10213218f234abe14a8e0",
+    "architecture": "PROVISIONAL_PASS",
+    "preservation": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "method_evidence": "DEGRADED_PACKET_SURFACE_LEAKAGE",
+    "disposition": "RETAIN_AS_PRODUCTION_CANDIDATE_NOT_AS_STRONG_GENERATOR_EVIDENCE"
+  },
+  "strategy_102": {
+    "surface_neutral_semantic_encoding": true,
+    "advance_by_reader_question": true,
+    "do_not_embed_near_publication_sentences_in_writer_packet": true,
+    "split_spontaneous_vs_deliberate_distinction_from_choice_rationales": true
   }
 }
