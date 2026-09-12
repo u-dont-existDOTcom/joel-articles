@@ -34,5 +34,18 @@
     "advance_by_reader_question": true,
     "do_not_embed_near_publication_sentences_in_writer_packet": true,
     "split_spontaneous_vs_deliberate_distinction_from_choice_rationales": true
+  },
+  "iteration_102": {
+    "candidate_sha256": "035cd4c2b063812fab05d87565f97e998f1d8c69ed2dde7422ab99c51d123906",
+    "utf8_bytes": 433,
+    "whitespace_words": 70,
+    "architecture": "FAIL",
+    "preservation": "PASS",
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "blocking_defect": "OVERCOMPLETED_SYMMETRIC_RECAP",
+    "disposition": "REJECT_FULL_MOVEMENT_AND_RECONSTRUCT_FRESH",
+    "next_iteration_rule": "RECONSTRUCT_FROM_SURFACE_NEUTRAL_SEMANTICS_WITH_ABSTRACT_DEFECT_ONLY_NO_PRIOR_CANDIDATE_PROSE"
   }
 }
