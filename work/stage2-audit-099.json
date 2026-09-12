@@ -58,5 +58,33 @@
   "strategy_103": {
     "critic_may_use_deletion_only_repair_when_redundant_aftercare_is_fully_carried_by_surviving_realization": true,
     "do_not_restart_generation_when_pure_deletion_repairs_architecture_without_semantic_loss": true
+  },
+  "iteration_104": {
+    "candidate_sha256": "a825e585d503066011c8fe72753b9d4dcaa7f1e7d34f759d0f7faef6a1689601",
+    "utf8_bytes": 577,
+    "whitespace_words": 97,
+    "as_submitted_architecture": "FAIL",
+    "preservation": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "blocking_defects": [
+      "ABSTRACT_RATIONALE_STAGING",
+      "PRESERVATION_UNIT_SERIALIZATION",
+      "TIDY_NONSEQUENCE_CLOSE"
+    ],
+    "repair_type": "DELETE_ABSTRACT_OPEN_AND_ROUTE_NONSEQUENCE_CAVEAT_FORWARD",
+    "repaired_candidate_sha256": "41c94a70dde5511e5e217e26ba9dad3cb31c3a3e80bd99bc97519dee04fcd84e",
+    "repaired_utf8_bytes": 328,
+    "repaired_whitespace_words": 53,
+    "repaired_architecture": "PROVISIONAL_PASS",
+    "repaired_reverse_traceability": "PASS",
+    "unexplained_substantive_deltas_after_repair": 0,
+    "residual_function_routed_forward": "NOT_A_MANDATORY_SEQUENCE",
+    "disposition": "RETAIN_MIDDLE_TWO_SENTENCES_AS_CURRENT_RATIONALE_MOVEMENT"
+  },
+  "strategy_105": {
+    "do_not_use_abstract_reason_announcement_when_the_next_sentence_already_performs_the_reason": true,
+    "route_required_caveat_to_the_first_boundary_where_the_misreading_it_prevents_becomes_live": true,
+    "do_not_force_every_semantic_unit_in_a_writer_packet_into_the_same_paragraph": true
   }
 }
