@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "decision_id": "stage2-technical-source-recovery-122",
+  "exact_source": {
+    "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "experiment_id": "somatic-therapies-shaking-qigong-r02-original-source-20260822-a",
+    "variant": "SHAKING_QIGONG_R02_ORIGINAL_SOURCE",
+    "blob_sha": "726371cd3786c7d539bafa6ed41b855dfa6fc9b5"
+  },
+  "recovered_units": {
+    "mainstream_interpretation_items": 6,
+    "qigong_interpretation_items": 4,
+    "regular_practice_range": "10-45_MINUTES",
+    "use_context_items": 4,
+    "safety_items": 4,
+    "legacy_settle_stack_items": 3
+  },
+  "evidence_link_recovery": {
+    "links_in_exact_source_blob": 0,
+    "links_in_frozen_r01_shaking_blob": 0,
+    "links_in_current_v7_reference_notes": 0,
+    "registered_shaking_specific_evidence_links": 0,
+    "conclusion": "DO_NOT_TREAT_MECHANISM_INVENTORY_AS_EMPIRICALLY_SOURCED_BY_PLACEMENT_IN_REFERENCE_FOOTNOTE"
+  },
+  "technical_note_policy": [
+    "PRESERVE_DURATION_AND_USE_CONTEXTS_AS_SOURCE_DERIVED_REFERENCE_CONTENT",
+    "PRESERVE_MAINSTREAM_AND_QIGONG_ITEMS_AS_DISTINCT_EXPLANATORY_FRAMES",
+    "DO_NOT_PRESENT_THE_TWO_FRAMES_AS_EQUIVALENT_EVIDENCE",
+    "DO_NOT_INVENT_OR_INFER_SUPPORTING_CITATIONS",
+    "KEEP_SAFETY_IN_SEPARATE_ADJACENT_FOOTNOTES",
+    "DO_NOT_RESTORE_LEGACY_DISCHARGE_SETTLE_STACK_AS_MANDATORY_SEQUENCE"
+  ],
+  "citation_cleanup": "PENDING_SEPARATE_REVIEW",
+  "pangram": "NOT_RUN_NOT_AUTHORIZED"
+}
