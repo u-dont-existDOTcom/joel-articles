@@ -1,0 +1,166 @@
+name: Materialize Romance r19 owner-final Talk
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - '.github/workflows/materialize-romance-r19-owner-final-talk.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+
+      - name: Materialize exact owner-final Talk tail into Markdown
+        shell: bash
+        run: |
+          set -euo pipefail
+          SRC='work/romance-detector-repair-20260820/materialized-preservation-r18-owner-talk-dedup/candidate-master.md'
+          echo 'e6572535bdb699f7330d7397cd19880a24bb01660507967e472ce1a5b1176d2a  '"$SRC" | sha256sum -c -
+
+          git show '27440f8f6641c31a4333b6646aa66d806514844a:work/romance-detector-repair-20260820/recovery-20260822/OWNER-TALK-FINAL-TAIL-20260822.md' > /tmp/owner-talk-final.md
+
+          python - <<'PY'
+          import hashlib, json, re
+          from pathlib import Path
+
+          src_path = Path('work/romance-detector-repair-20260820/materialized-preservation-r18-owner-talk-dedup/candidate-master.md')
+          source = src_path.read_text(encoding='utf-8')
+          owner_md = Path('/tmp/owner-talk-final.md').read_text(encoding='utf-8')
+
+          marker1 = '## Verbatim owner wording\n\n'
+          marker2 = '\n\n## Provenance / supersession guard'
+          if owner_md.count(marker1) != 1 or owner_md.count(marker2) != 1:
+              raise SystemExit('owner-source markers not unique')
+          owner_text = owner_md.split(marker1, 1)[1].split(marker2, 1)[0]
+
+          bridge = 'That conversation is already part of making love.\n\n'
+          if source.count(bridge) != 1:
+              raise SystemExit(f'expected one standalone bridge, found {source.count(bridge)}')
+          text = source.replace(bridge, '', 1)
+
+          start_anchor = "It's important to talk about sexual compatibility before getting undressed, even if that kills the vibe."
+          end_anchor = '\n\n## Affection and the simmer'
+          if text.count(start_anchor) != 1:
+              raise SystemExit(f'expected one Talk-tail start, found {text.count(start_anchor)}')
+          start = text.index(start_anchor)
+          end = text.find(end_anchor, start)
+          if end < 0:
+              raise SystemExit('Talk-tail end anchor not found')
+          old_tail = text[start:end]
+          text = text[:start] + owner_text + text[end:]
+
+          must_survive = [
+              "What I eventually took from my dad's advice was a bigger question: would we like to raise children together? Are we ready?",
+              "What do you actually want? You may know some of it and not the rest.",
+              "You may not know all the answers yet. “I don’t know, but I’m willing to find out honestly with you” is a perfectly good answer.",
+              "And what is sex for each of you? One person may mainly think of bonding while the other thinks of play.",
+              "It doesn’t have to mean the same thing every time.",
+              '## Affection and the simmer',
+              '## Can Casual Sex or a Situationship Actually Be Honest?',
+              '[Gandarussa](https://thediplomat.com/2013/09/a-male-contraceptive-pill-for-indonesia/)',
+          ]
+          missing = [x for x in must_survive if x not in text]
+          if missing:
+              raise SystemExit(f'protected article anchors missing: {missing}')
+
+          owner_required = [
+              "Or even especially if it does kill the vibe, actually, since that's a red flag if talking ruins things.",
+              "And this applies whether you're leaning to libertine *or* too traditional.  \nAnd once you are undressed, the communication doesn't stop there either.",
+              'It\'s that psychological trust & intimacy that builds the bridge between "having sex" and "making love."',
+              "I remember reading a Christian magazine's letter from a newlywed Christian woman",
+              "I had a relationship with E. that was a bit like that about 15yrs ago.",
+              "communication should remain open beyond a simple interview.",
+          ]
+          missing_owner = [x for x in owner_required if x not in text]
+          if missing_owner:
+              raise SystemExit(f'owner-final prose missing: {missing_owner}')
+
+          forbidden_old = [
+              'That conversation is already part of making love.',
+              "And can you actually say all that once you're naked?",
+              'Bodies fitting is not enough.',
+              'This will naturally prevent sex from happening too soon',
+              "If we can't, that's a red flag for the relationship's chances of success.",
+          ]
+          survived = [x for x in forbidden_old if x in text]
+          if survived:
+              raise SystemExit(f'superseded Talk prose survived: {survived}')
+
+          native_count_source = source.count('[NATIVE ')
+          native_count_candidate = text.count('[NATIVE ')
+          if native_count_source != native_count_candidate:
+              raise SystemExit(f'native object count changed: {native_count_source} -> {native_count_candidate}')
+
+          link_re = re.compile(r'\[[^\]]+\]\([^\)]+\)')
+          link_count_source = len(link_re.findall(source))
+          link_count_candidate = len(link_re.findall(text))
+          if link_count_source != link_count_candidate:
+              raise SystemExit(f'markdown link count changed: {link_count_source} -> {link_count_candidate}')
+
+          out_dir = Path('work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk')
+          out_dir.mkdir(parents=True, exist_ok=True)
+          out = out_dir / 'candidate-master.md'
+          out.write_text(text, encoding='utf-8')
+
+          manifest = {
+              'schema_version': 1,
+              'candidate_id': 'romance-detector-repair-20260820-preservation-r19-owner-final-talk-tail',
+              'base': {
+                  'path': str(src_path),
+                  'sha256': hashlib.sha256(source.encode()).hexdigest(),
+                  'word_count_whitespace': len(source.split()),
+              },
+              'owner_source': {
+                  'commit': '27440f8f6641c31a4333b6646aa66d806514844a',
+                  'path': 'work/romance-detector-repair-20260820/recovery-20260822/OWNER-TALK-FINAL-TAIL-20260822.md',
+                  'verbatim_markdown_sha256': hashlib.sha256(owner_text.encode()).hexdigest(),
+                  'word_count_whitespace': len(owner_text.split()),
+              },
+              'candidate': {
+                  'path': str(out),
+                  'sha256': hashlib.sha256(text.encode()).hexdigest(),
+                  'word_count_whitespace': len(text.split()),
+              },
+              'operations': [
+                  {
+                      'type': 'duplicate-function-consolidation',
+                      'deleted_text': 'That conversation is already part of making love.',
+                      'surviving_owner_function': 'psychological trust & intimacy builds the bridge between having sex and making love',
+                  },
+                  {
+                      'type': 'owner-supersession',
+                      'old_tail_sha256': hashlib.sha256(old_tail.encode()).hexdigest(),
+                      'old_tail_word_count': len(old_tail.split()),
+                      'new_tail_sha256': hashlib.sha256(owner_text.encode()).hexdigest(),
+                      'new_tail_word_count': len(owner_text.split()),
+                  },
+              ],
+              'native_object_count_source': native_count_source,
+              'native_object_count_candidate': native_count_candidate,
+              'markdown_link_count_source': link_count_source,
+              'markdown_link_count_candidate': link_count_candidate,
+              'unexplained_deltas': 0,
+              'status': 'task candidate only; canonical main unchanged',
+          }
+          (out_dir / 'candidate-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit materialized r19 candidate
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize Romance r19 owner-final Talk candidate'
+          git push origin HEAD:task/romance-detector-repair-20260820

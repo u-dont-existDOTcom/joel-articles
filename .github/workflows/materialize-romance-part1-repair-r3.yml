@@ -1,0 +1,49 @@
+name: Materialize Romance Part 1 repair r3
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - 'work/romance-detector-repair-20260820/apply_part1_repair_r3.py'
+      - 'tests/test_romance_part1_final_residual_materializer.py'
+      - '.github/workflows/materialize-romance-part1-repair-r3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+      - run: python -m unittest tests.test_romance_part1_final_residual_materializer -q
+      - name: Materialize exact candidate
+        run: |
+          rm -rf work/romance-detector-repair-20260820/materialized-part1-repair-r3
+          python work/romance-detector-repair-20260820/apply_part1_repair_r3.py \
+            --source-master work/romance-detector-repair-20260820/materialized-part1-repair-r2/candidate-master.md \
+            --source-part1 work/romance-detector-repair-20260820/materialized-part1-repair-r2/candidate-part-1.txt \
+            --source-part2 work/romance-detector-repair-20260820/materialized-part1-repair-r2/candidate-part-2.txt \
+            --output-dir work/romance-detector-repair-20260820/materialized-part1-repair-r3
+      - name: Run repository integrity gates
+        run: |
+          python -m unittest discover -s tests
+          python scripts/validate_content_repository.py --root .
+          python scripts/validate_article_architecture_maps.py --root .
+          python scripts/audit_codex_github.py --root . --fail-on error
+          git diff --check
+      - name: Commit generated candidate
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-part1-repair-r3
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize Romance Part 1 repair r3'
+          git push origin HEAD:task/romance-detector-repair-20260820

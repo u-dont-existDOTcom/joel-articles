@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-patient-known-green-plus-pattern-probe-20260823",
+  "status": "diagnostic-only; not article authority",
+  "mode": "local detector probe on known-green backbone",
+  "authority": {
+    "known_green_source": {
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "b7d133de83ac94706b55d36bc6bb790e2baadb95",
+      "experiment": "romance-detector-repair-20260820-part1-residuals-r2b-20260821",
+      "variant": "MATURITY_PATIENT_R2B",
+      "text_sha256": "b52861615ae49e1059b7b035e70e6f0b624240b70b5486c51523e4a34048695d",
+      "word_count": 273,
+      "pangram_4_human": 1.0,
+      "confidence": "High"
+    },
+    "restored_current_function": "But enough moments become a pattern."
+  },
+  "candidate": {
+    "sha256": "45d79fa428a737131113e0eb75e65d8d326e270196f01fbf5cb0165f3cf732f4",
+    "word_count": 279
+  },
+  "preservation_units": [
+    {
+      "unit_id": "PU-PAT-PROBE-01",
+      "meaning": "Role takeover / parent-child inequality framing remains exactly the known-green realization.",
+      "disposition": "must-remain-exact",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PAT-PROBE-02",
+      "meaning": "All three women had a basis for saying they felt like Joel's patient; they brought medical, mental-health, and practical problems to him.",
+      "disposition": "must-remain-exact",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PAT-PROBE-03",
+      "meaning": "Concrete sick/sad questions remain.",
+      "disposition": "must-remain-exact",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PAT-PROBE-04",
+      "meaning": "Joel usually had some idea, so answering/helping was natural rather than inherently wrong.",
+      "disposition": "must-remain-exact",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PAT-PROBE-05",
+      "meaning": "Repeated individual helping moments can accumulate into a default patient/caregiver relationship pattern.",
+      "disposition": "must-remain-here",
+      "status": "restored-from-current-r20-exact-sentence"
+    },
+    {
+      "unit_id": "PU-PAT-PROBE-06",
+      "meaning": "Key guru anecdote, Joel's condescension/accountability, and helping/being-needed self-reflection remain exactly as in the known-green backbone.",
+      "disposition": "must-remain-exact",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-PAT-PROBE-01",
+      "description": "Add exactly `But enough moments become a pattern.` immediately after `I usually had some idea, so of course I answered.` on the exact 273-word known-green MATURITY_PATIENT_R2B backbone."
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible-diagnostic-only",
+  "promotion_rule": "Even if detector-green, do not promote this assistant/known-green realization into the article without Joel's acceptance or stronger owner authority. Use the result only to decide whether the current `pattern` function is compatible with the known-green backbone."
+}

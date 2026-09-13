@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "whole_article_semantic_restoration_r8_candidate_not_owner_final_article",
+  "source": {
+    "master": "00698c96b42b5f4a24ea1078c6fbcb8ff068a403720d3bc38e091e1656db8c3c",
+    "part1": "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9",
+    "part2": "c7f96beaae57d7f9e70502ae5869cd592d5753746c7e3ac07f0f8842a6d44d06"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "184b37c612c78d565c4c1a23691f38e0c0ceb2e7d9041ef1c98adee3ce48961f",
+      "word_count_whitespace": 20490,
+      "operations": [
+        {
+          "label": "not-performance-identity-defense-r8",
+          "old_sha256": "db824cd67789e10411f141fa51ec587afa1e53539ca56c632a48a4918dbf7c23",
+          "new_sha256": "491f398961b39d0fc907451c2d0a32e191378b4c6d5146f2fcf0e839a8995e0a"
+        },
+        {
+          "label": "not-performance-chosen-surrender-r8",
+          "old_sha256": "dab830457d3776e499582cca9c8cf3f5507d831e77077ec0e345e988709a2815",
+          "new_sha256": "75a39ecea66ceb5ac2d6b9b3d089ab19e1441929fd9f7e364dab449b5dbe0479"
+        }
+      ],
+      "semantic_invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "base_required_missing": [],
+        "semantic_required_missing": [],
+        "passed": true,
+        "part2_semantic_required_missing": [],
+        "owner_authority_missing": [],
+        "r8_semantic_required_missing": []
+      }
+    },
+    "part1": {
+      "sha256": "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9",
+      "word_count_whitespace": 10459,
+      "operations": [],
+      "unchanged_from_semantic_r6": true
+    },
+    "part2": {
+      "sha256": "9b1fbe32be4429baddbda636d2eb8861d5cc7163fa8bee764dc235502c027005",
+      "word_count_whitespace": 9880,
+      "operations": [
+        {
+          "label": "not-performance-identity-defense-r8",
+          "old_sha256": "db824cd67789e10411f141fa51ec587afa1e53539ca56c632a48a4918dbf7c23",
+          "new_sha256": "491f398961b39d0fc907451c2d0a32e191378b4c6d5146f2fcf0e839a8995e0a"
+        },
+        {
+          "label": "not-performance-chosen-surrender-r8",
+          "old_sha256": "dab830457d3776e499582cca9c8cf3f5507d831e77077ec0e345e988709a2815",
+          "new_sha256": "75a39ecea66ceb5ac2d6b9b3d089ab19e1441929fd9f7e364dab449b5dbe0479"
+        }
+      ]
+    }
+  },
+  "traceability": {
+    "registered_lost_units_corrected_total": 9,
+    "restored_in_r7": 7,
+    "restored_in_r8": 2,
+    "remaining_known_unsuperseded_lost_units": 0,
+    "r7_correction_note": "SEMANTIC-FIDELITY-R7-ADDENDUM-20260821.md",
+    "owner_authority_spans_preserved": true
+  },
+  "detector_plan": {
+    "status": "do_not_dispatch_until_final_registered_to_r8_traceability_passes",
+    "part1_affection_local": "hard-capped 6/6; no more local calls",
+    "part2_paid_baseline": "recover exact already-reserved owner-integrated-r2 result; never resubmit duplicate"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "status": "blocking_candidate_audit",
+  "method": {
+    "decision": "adapt",
+    "model": "requirements traceability plus atomic/summary content-unit alignment",
+    "mechanical_scope": "exact Markdown heading sequence and section hashes",
+    "semantic_scope": "human-reviewed argumentative functions",
+    "promotion_rule": "zero unsuperseded lost units"
+  },
+  "authority": {
+    "registered_master_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+    "candidate_master_sha256": "2830b1906ce1515edcb36b4d9a6ebe75fc6e2cf59e953a7072c8dc2890b62134",
+    "changed_section_manifest": "source-diff-r6/changed-sections.json",
+    "audit_note": "SEMANTIC-FIDELITY-AUDIT-20260821.md"
+  },
+  "sections": [
+    {
+      "heading": "Talk about making love before you do it",
+      "disposition": "preserved_plus_owner_addition",
+      "blocking": false,
+      "notes": "Father/readiness question restored as owner-required spine; all registered sexual-conversation functions restored in r6."
+    },
+    {
+      "heading": "Affection and the simmer",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "No-agenda affection, simmer examples, both-needs claim, no-homework caveat, barometer diagnostic, personal responsibility, and intentional-time claim all present in r6."
+    },
+    {
+      "heading": "Can Casual Sex or a Situationship Actually Be Honest?",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "General fulfillment-awareness claim and free-love/community/children-village consequence restored."
+    },
+    {
+      "heading": "The window of clarity, and how it closes",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Ordinary-time epistemic test remains."
+    },
+    {
+      "heading": "If slow isn’t realistic for you",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Tribal-brakes problem, self-imposed brakes, Gandarussa pregnancy function, and attachment limitation remain."
+    },
+    {
+      "heading": "Are you ready for the crucible?",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Coercion/terror remains outside the mutual-trigger frame; safety and other people remain required."
+    },
+    {
+      "heading": "The Queen of Orgasms",
+      "disposition": "lost",
+      "blocking": true,
+      "lost_units": [
+        {
+          "id": "queen.polarity_trust_love_safety",
+          "source": "Many people are not even aware of how incredible sex can be when the polarity, trust, love & safety are all where they should be."
+        },
+        {
+          "id": "queen.lab_evidence_uniqueness",
+          "source": "That laboratory evidence establishes the uniqueness of the phenomenon."
+        }
+      ]
+    },
+    {
+      "heading": "Can making love be a spiritual practice?",
+      "disposition": "preserved_compressed",
+      "blocking": false,
+      "notes": "Anami spillover reports, jade-egg solo practice, and Brad/Pam Keene example remain."
+    },
+    {
+      "heading": "Muses & Directors",
+      "disposition": "owner_superseded",
+      "blocking": false,
+      "authority": "OWNER-MUSES-REWRITE-LESSON-20260821.md",
+      "notes": "Direct owner rewrite outranks prior canonical/assistant realization; only explicitly authorized typo normalizations applied."
+    },
+    {
+      "heading": "Not A Performance",
+      "disposition": "lost",
+      "blocking": true,
+      "lost_units": [
+        {
+          "id": "performance.identity_defense_when_vulnerable",
+          "source": "Then I have to defend the identity every time I hesitate, cry, need help, or get something wrong."
+        },
+        {
+          "id": "performance.female_anti_performance",
+          "source": "The same is true for a woman. She should not have to perform softness, helplessness, or cuteness every minute to prove she is feminine."
+        },
+        {
+          "id": "performance.chosen_surrender_meaning",
+          "source": "Surrender means so much more when she could take control but prefers not to at that moment."
+        },
+        {
+          "id": "performance.chosen_surrender_erotic_value",
+          "source": "When a strong woman surrenders, she is choosing to, which is sexy."
+        },
+        {
+          "id": "performance.overcorrection_needing_nobody",
+          "source": "She may worry that I don’t find her beautiful enough, or that she’s too emotional, too difficult, not logical enough, or too needy. Then she can overcorrect into needing nobody and make receiving care or letting a man lead feel like weakness."
+        },
+        {
+          "id": "performance.strong_woman_receiving",
+          "source": "Letting a man help, lead, or give her pleasure doesn’t make a strong woman helpless."
+        },
+        {
+          "id": "performance.man_receiving_not_child",
+          "source": "A man receiving care doesn’t make him a child either."
+        }
+      ],
+      "notes": "The final three missing functions were discovered during exact registered-to-r7/r8 prose re-audits after the initial seven restorations."
+    },
+    {
+      "heading": "Two Pillars Don't Hold The Roof Up",
+      "disposition": "preserved_moved_concretized",
+      "blocking": false,
+      "notes": "Partner-as-everything overload is already covered earlier; practical two-person fragility remains; shared-reality and wrong-helper functions are concretized in the B./commune-friends examples immediately following the compressed summary."
+    },
+    {
+      "heading": "What are you actually choosing together?",
+      "disposition": "preserved_rephrased",
+      "blocking": false,
+      "notes": "Same-words/different-futures claim and practical-partnership transition remain."
+    },
+    {
+      "heading": "Attraction and exclusivity",
+      "disposition": "owner_superseded",
+      "blocking": false,
+      "authority": "OWNER-EXCLUSIVITY-REWRITE-20260821.md",
+      "notes": "Direct owner HIGH-confidence-Human rewrite supersedes prior assistant realizations."
+    },
+    {
+      "heading": "Psychedelics in relationship discernment",
+      "disposition": "preserved_compressed",
+      "blocking": false,
+      "notes": "Specific sober stressors are compressed into whether the pair actually works together sober; same ordinary-life limitation and H.D. opposite case remain."
+    },
+    {
+      "heading": "If you’re already in it",
+      "disposition": "owner_superseded_local_span",
+      "blocking": false,
+      "authority": "OWNER-PINKEST-REWRITE-20260821.md",
+      "notes": "Owner-final dance/pinkest-elephants span supersedes prior local realization."
+    },
+    {
+      "heading": "After leaving",
+      "disposition": "lost",
+      "blocking": true,
+      "lost_units": [
+        {
+          "id": "after_leaving.curiosity_therapeutic",
+          "source": "even the curiosity itself can be therapeutic for you."
+        }
+      ],
+      "notes": "Other registered functions in the section remain."
+    }
+  ],
+  "gate": {
+    "changed_sections": 16,
+    "blocking_sections": 3,
+    "lost_unsuperseded_units": 10,
+    "passed": false
+  }
+}

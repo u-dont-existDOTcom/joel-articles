@@ -1,0 +1,50 @@
+name: Materialize exact Romance r6 source diff
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - '.github/workflows/materialize-romance-r6-source-diff.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+      - name: Build exact canonical-vs-r6 diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          mkdir -p work/romance-detector-repair-20260820/source-diff-r6
+          git show origin/main:articles/romance/master.md > /tmp/romance-canonical.md
+          cp work/romance-detector-repair-20260820/materialized-part1-semantic-r6/candidate-master.md /tmp/romance-r6.md
+          echo 'af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe  /tmp/romance-canonical.md' | sha256sum -c -
+          echo '2830b1906ce1515edcb36b4d9a6ebe75fc6e2cf59e953a7072c8dc2890b62134  /tmp/romance-r6.md' | sha256sum -c -
+          diff -u --label registered-main --label semantic-r6 /tmp/romance-canonical.md /tmp/romance-r6.md > work/romance-detector-repair-20260820/source-diff-r6/canonical-to-r6.diff || test $? -eq 1
+          git diff --no-index --word-diff=plain -- /tmp/romance-canonical.md /tmp/romance-r6.md > work/romance-detector-repair-20260820/source-diff-r6/canonical-to-r6.worddiff.txt || test $? -eq 1
+          cat > work/romance-detector-repair-20260820/source-diff-r6/manifest.json <<'JSON'
+          {
+            "schema_version": 1,
+            "registered_master_sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe",
+            "candidate_master_sha256": "2830b1906ce1515edcb36b4d9a6ebe75fc6e2cf59e953a7072c8dc2890b62134",
+            "candidate_status": "not_owner_final_article",
+            "purpose": "exact source diff for semantic traceability audit; not an article authority file"
+          }
+          JSON
+      - name: Commit exact diff
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/source-diff-r6
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize exact Romance r6 source diff'
+          git push origin HEAD:task/romance-detector-repair-20260820

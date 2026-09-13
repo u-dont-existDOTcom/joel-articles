@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-part-2.txt",
+    "revision": "semantic-r9 traceability-passed baseline",
+    "sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  },
+  "changed_scope": "Romance / Primal attraction / Not A Performance",
+  "mode": "P2S",
+  "edit_dose": "D3",
+  "preservation_units": [
+    {"unit_id":"PU-PRIMAL-01","source_ref":"r9 opening","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Having to prove masculinity makes the role fake and forces repeated defense of the identity whenever Joel hesitates, cries, needs help or is wrong.","required_context":"section opening","allowed_disposition":"may-reword-semantically","candidate_mapping":"first paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-02","source_ref":"r9 Joel vulnerability/Bee wife anecdote","authority":"semantic-r9 traceability-passed source","type":"example","meaning":"Joel cries, needs help and gets things wrong; Bee called him her wife; the joke remains.","required_context":"male anti-performance","allowed_disposition":"must-remain-exact","candidate_mapping":"second paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-03","source_ref":"r9 appreciation sentence","authority":"semantic-r9 traceability-passed source","type":"causality","meaning":"A woman's appreciation of Joel's masculine side tends to draw it out by itself.","required_context":"follows vulnerability example","allowed_disposition":"must-remain-exact","candidate_mapping":"third paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-04","source_ref":"r9 female anti-performance/surrender paragraph","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"A woman should not have to perform femininity; surrender has more meaning when she retains agency and chooses it; Joel finds that erotic.","required_context":"parallel female application","allowed_disposition":"may-reword-semantically","candidate_mapping":"fourth paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-05","source_ref":"r9 female overcorrection paragraph","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Fear of being undesirable/emotional/difficult/illogical/needy can overcorrect into needing nobody and experiencing care or male leadership as weakness.","required_context":"female anti-performance","allowed_disposition":"may-reword-semantically","candidate_mapping":"fifth paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-06","source_ref":"r9 Toft/Anami receiving-care claims","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Toft still tells his aging wife she is beautiful; Anami emphasizes receiving; a strong woman is not helpless for receiving help/leadership/pleasure, and a man is not a child for receiving care.","required_context":"receiving-care discussion","allowed_disposition":"may-reword-semantically","candidate_mapping":"sixth paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-07","source_ref":"r9 driving and reciprocal-help examples","authority":"semantic-r9 traceability-passed source","type":"example","meaning":"A capable woman may ask Joel to drive for the experience; Joel may request her intuitive view and she may request his practical thinking; these are chosen reciprocal roles.","required_context":"receiving-care discussion","allowed_disposition":"may-reword-semantically","candidate_mapping":"seventh paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-08","source_ref":"r9 invitational analogy","authority":"semantic-r9 traceability-passed source","type":"function","meaning":"Polarity/leadership should be invitational rather than forced, expressed with party invitation vs war draft analogy.","required_context":"after reciprocal examples","allowed_disposition":"may-reword-semantically","candidate_mapping":"eighth paragraph","status":"preserved"},
+    {"unit_id":"PU-PRIMAL-09","source_ref":"r9 manufactured-crisis close","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"A woman who cannot gently invite a man to lead may manufacture a crisis until he must take charge; Joel has seen this often.","required_context":"contrast with invitation","allowed_disposition":"may-reword-semantically","candidate_mapping":"final paragraph","status":"preserved"}
+  ],
+  "change_whitelist": [
+    {"change_id":"CH-PRIMAL-01","description":"Re-realize the identity-defense consequence without deleting it or weakening male vulnerability."},
+    {"change_id":"CH-PRIMAL-02","description":"Re-realize the female anti-performance, surrender, overcorrection, receiving-care, reciprocal-role and invitation/crisis sequence without deleting or adding substantive claims."}
+  ],
+  "candidate_deltas": [
+    {"delta_id":"DELTA-PRIMAL-01","classification":"authorized-rewording","description":"Rewords repeated identity-defense consequence as being stuck proving masculinity again after vulnerability/error.","authority_ref":"CH-PRIMAL-01","status":"authorized"},
+    {"delta_id":"DELTA-PRIMAL-02","classification":"authorized-rewording","description":"Rewords female anti-performance and chosen-surrender/erotic claim without changing agency or judgment.","authority_ref":"CH-PRIMAL-02","status":"authorized"},
+    {"delta_id":"DELTA-PRIMAL-03","classification":"authorized-rewording","description":"Rewords female overcorrection while preserving all named fears and care/leadership weakness consequence.","authority_ref":"CH-PRIMAL-02","status":"authorized"},
+    {"delta_id":"DELTA-PRIMAL-04","classification":"authorized-rewording","description":"Separates receiving-care claims from driving/reciprocal-role examples and rephrases them without narrowing the male receiving-care claim.","authority_ref":"CH-PRIMAL-02","status":"authorized"},
+    {"delta_id":"DELTA-PRIMAL-05","classification":"authorized-rewording","description":"Rephrases invitation analogy lead-in and manufactured-crisis close while retaining both functions and Joel's frequency judgment.","authority_ref":"CH-PRIMAL-02","status":"authorized"}
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Primal local call 5 candidate. Reader-visible SHA-256 b569d887677b298c9abd184aeda53303f699db46c5318a19378c4a0b654462e8."
+}

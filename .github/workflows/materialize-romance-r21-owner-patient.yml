@@ -1,0 +1,140 @@
+name: Materialize Romance r21 owner patient
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - '.github/workflows/materialize-romance-r21-owner-patient.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+
+      - name: Materialize exact accepted patient block
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json, re
+          from pathlib import Path
+
+          src_path = Path('work/romance-detector-repair-20260820/materialized-preservation-r20-casual-two-deletions/candidate-master.md')
+          source = src_path.read_text(encoding='utf-8')
+          expected = '8b60f2916a4c050c6295b858889c3a7e3e80c87e18307a2c3e2cf9e276e8637d'
+          actual = hashlib.sha256(source.encode()).hexdigest()
+          if actual != expected:
+              raise SystemExit(f'r20 source hash mismatch: {actual}')
+
+          old = '''All three women told me at some point that they felt like my patient. Which is true, I really was the one they asked about almost every medical, mental-health, and practical problem:
+
+“I’m sick. What should I take?”
+
+“I’m sad. What should I do?”
+
+Of course I helped. Saying, “I’m not your doctor or therapist,” every time would have been cold. But enough moments become a pattern.'''
+
+          new = '''All three women told me at some point that they felt like my patient, and I couldn't exactly argue with them. They asked me about almost every medical, mental-health, and practical problem:
+
+“I’m sick. What should I take?”
+
+“I’m sad. What should I do?”
+
+I usually had some idea, so of course I answered. But enough moments become a pattern.'''
+
+          if source.count(old) != 1:
+              raise SystemExit(f'expected old patient block exactly once, found {source.count(old)}')
+          text = source.replace(old, new, 1)
+
+          must_survive = [
+              'The problem is when the role takes over the relationship.',
+              'It can run the other way too. If I expect her to regulate me, soothe every wound, organize my life, and keep me functional, then I’ve made her Mom.',
+              'Key at first asked me innocently, "Can you be my guru?"',
+              'I also have to admit, I can become condescending when somebody stops taking responsibility for their behavior.',
+              'I know what can happen on my side. Helping feels good. Being needed can feel good too.',
+              '## Different levels in different domains can be complementary',
+              '## Affection and the simmer',
+              '## Can Casual Sex or a Situationship Actually Be Honest?',
+              '[Gandarussa](https://thediplomat.com/2013/09/a-male-contraceptive-pill-for-indonesia/)'
+          ]
+          missing = [x for x in must_survive if x not in text]
+          if missing:
+              raise SystemExit(f'protected anchors missing: {missing}')
+
+          required_new = [
+              "felt like my patient, and I couldn't exactly argue with them.",
+              'They asked me about almost every medical, mental-health, and practical problem:',
+              '“I’m sick. What should I take?”',
+              '“I’m sad. What should I do?”',
+              'I usually had some idea, so of course I answered. But enough moments become a pattern.'
+          ]
+          missing_new = [x for x in required_new if x not in text]
+          if missing_new:
+              raise SystemExit(f'accepted patient anchors missing: {missing_new}')
+
+          forbidden_old = [
+              'Which is true, I really was the one they asked about almost every medical, mental-health, and practical problem:',
+              'Saying, “I’m not your doctor or therapist,” every time would have been cold.'
+          ]
+          survived = [x for x in forbidden_old if x in text]
+          if survived:
+              raise SystemExit(f'superseded patient prose survived: {survived}')
+
+          native_src = source.count('[NATIVE ')
+          native_new = text.count('[NATIVE ')
+          if native_src != native_new:
+              raise SystemExit(f'native object count changed {native_src}->{native_new}')
+          link_re = re.compile(r'\[[^\]]+\]\([^\)]+\)')
+          links_src = len(link_re.findall(source))
+          links_new = len(link_re.findall(text))
+          if links_src != links_new:
+              raise SystemExit(f'link count changed {links_src}->{links_new}')
+
+          out_dir = Path('work/romance-detector-repair-20260820/materialized-preservation-r21-owner-patient')
+          out_dir.mkdir(parents=True, exist_ok=True)
+          out = out_dir / 'candidate-master.md'
+          out.write_text(text, encoding='utf-8')
+          manifest = {
+              'schema_version': 1,
+              'candidate_id': 'romance-detector-repair-20260820-r21-owner-patient',
+              'base': {'path': str(src_path), 'sha256': actual, 'word_count_whitespace': len(source.split())},
+              'candidate': {'path': str(out), 'sha256': hashlib.sha256(text.encode()).hexdigest(), 'word_count_whitespace': len(text.split())},
+              'owner_acceptance_commit': '4c2d6eef27369b5597ff44356ce95c941fb32f6e',
+              'operations': [{
+                  'type': 'owner-accepted-replacement',
+                  'old_sha256': hashlib.sha256(old.encode()).hexdigest(),
+                  'new_sha256': hashlib.sha256(new.encode()).hexdigest(),
+                  'old_word_count': len(old.split()),
+                  'new_word_count': len(new.split())
+              }],
+              'native_object_count_source': native_src,
+              'native_object_count_candidate': native_new,
+              'markdown_link_count_source': links_src,
+              'markdown_link_count_candidate': links_new,
+              'section_order_changed': False,
+              'unexplained_deltas': 0,
+              'part2_sha256': '9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85',
+              'part2_exact_prior_human': 1.0,
+              'status': 'task candidate only; canonical main unchanged'
+          }
+          (out_dir / 'candidate-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit r21 materialization
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-preservation-r21-owner-patient
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize Romance r21 owner patient candidate'
+          git push origin HEAD:task/romance-detector-repair-20260820

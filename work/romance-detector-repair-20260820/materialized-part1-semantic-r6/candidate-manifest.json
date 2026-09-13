@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "status": "part1_semantic_restoration_candidate_not_owner_final_article",
+  "source": {
+    "master": "d205393b1724256416291050fdeb41c18afb9669fddc45cf713559e9ecd9e406",
+    "part1": "e6b9e546bb2f07af8e18fc65fb6883d27bf0106d93f5f02d6674a88e034d572d",
+    "part2": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "2830b1906ce1515edcb36b4d9a6ebe75fc6e2cf59e953a7072c8dc2890b62134",
+      "word_count_whitespace": 20313,
+      "operations": [
+        {
+          "label": "talk-semantic-restore-r6",
+          "old_sha256": "365d42980382f817b66fd4f7244a1191459fcb83e958c774eaf28de71e4b370d",
+          "new_sha256": "040ed5f3230ba97e0274bb90de98f5ea0f0165d9f64e2352000417747080a6a1",
+          "old_word_count": 270,
+          "new_word_count": 576
+        },
+        {
+          "label": "affection-semantic-restore-r6",
+          "old_sha256": "2ec431c4d6c31157927f07cca624269d80ca00eeef4d6b24a5635ab2698702fe",
+          "new_sha256": "c5add075d6e7f6ea548155e583a7b9f04023dac9ce16df839b8dafc6138eddd1",
+          "old_word_count": 133,
+          "new_word_count": 300
+        },
+        {
+          "label": "casual-awareness-restore-r6",
+          "old_sha256": "60ce85a5b7dbce6e4ca921bc9245e6632b3b6cb3a72f6cdbd7ef895ce6ee9724",
+          "new_sha256": "8f0ec5a832046c70f17f2203b9360353b9e80e8edd73df226ed89e55089b7cc9"
+        },
+        {
+          "label": "casual-village-restore-r6",
+          "old_sha256": "c061968802d0d1c3d1b458eb27b502809118c4d928e0e0ab68e5c7afecd4883c",
+          "new_sha256": "a209e5092275babe314212ab41d9711ff4306ce2a97a9bc449acf38d59652790"
+        },
+        {
+          "label": "patient-pattern-restore-r6",
+          "old_sha256": "d023dd7337eb671938ac40b4572de6e77f85a9d4b014a0537353419d9cd06061",
+          "new_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685"
+        }
+      ],
+      "semantic_invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "base_required_missing": [],
+        "semantic_required_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "sha256": "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9",
+      "word_count_whitespace": 10459,
+      "operations": [
+        {
+          "label": "talk-semantic-restore-r6",
+          "old_sha256": "2d97500b36b4543ceec4537c7d1c7d2af29148c0549794e9b5b0e5593e06151e",
+          "new_sha256": "0da7d8a296e8ec1f62fb59022bd5a8037a4d5aef6e3ef818224f2c9135f24476",
+          "old_word_count": 269,
+          "new_word_count": 575
+        },
+        {
+          "label": "affection-semantic-restore-r6",
+          "old_sha256": "2a8af491afba83a3b9960569a157bf6e0dd5e9dde1ebaa92e6f60012a8ff0102",
+          "new_sha256": "17bfac877c300bdaa213f4a6a2882ac69f4b2e40683c2f47bcb8acf6580a2e7d",
+          "old_word_count": 132,
+          "new_word_count": 299
+        },
+        {
+          "label": "casual-awareness-restore-r6",
+          "old_sha256": "60ce85a5b7dbce6e4ca921bc9245e6632b3b6cb3a72f6cdbd7ef895ce6ee9724",
+          "new_sha256": "8f0ec5a832046c70f17f2203b9360353b9e80e8edd73df226ed89e55089b7cc9"
+        },
+        {
+          "label": "casual-village-restore-r6",
+          "old_sha256": "c061968802d0d1c3d1b458eb27b502809118c4d928e0e0ab68e5c7afecd4883c",
+          "new_sha256": "a209e5092275babe314212ab41d9711ff4306ce2a97a9bc449acf38d59652790"
+        },
+        {
+          "label": "patient-pattern-restore-r6",
+          "old_sha256": "d023dd7337eb671938ac40b4572de6e77f85a9d4b014a0537353419d9cd06061",
+          "new_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685"
+        }
+      ]
+    },
+    "part2": {
+      "sha256": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2",
+      "word_count_whitespace": 9703,
+      "operations": [],
+      "unchanged": true
+    }
+  },
+  "source_detector_result": {
+    "part1_sha256": "e6b9e546bb2f07af8e18fc65fb6883d27bf0106d93f5f02d6674a88e034d572d",
+    "pangram4_fraction_human": 0.9838229417800903,
+    "rejected_for_semantic_loss": true
+  },
+  "traceability": {
+    "method": "requirements-traceability plus atomic-content-unit adaptation",
+    "audit": "SEMANTIC-FIDELITY-AUDIT-20260821.md",
+    "decision": "restore all unsuperseded canonical argumentative functions before further detector optimization"
+  },
+  "detector_plan": {
+    "status": "do not dispatch aggregate yet",
+    "reason": "first inspect exact r6 materialization and freeze the final semantic-function ledger; preserve remaining local-section calls for decision-changing final variants"
+  }
+}

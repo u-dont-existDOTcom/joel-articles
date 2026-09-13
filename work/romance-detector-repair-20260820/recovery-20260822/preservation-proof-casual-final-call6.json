@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r10-part1/candidate-part-1.txt",
+    "revision": "preservation-r10 Part 1 exact aggregate baseline",
+    "sha256": "4ab1ad34f171bb75d2f93e261757cca469a655b629508eb3b91ab05ebc83c0ef"
+  },
+  "changed_scope": "Romance / Can Casual Sex or a Situationship Actually Be Honest?",
+  "mode": "P2S",
+  "edit_dose": "D2",
+  "preservation_units": [
+    {
+      "unit_id": "PU-CASUAL-01",
+      "source_ref": "section opening",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "A casual-sex agreement does not prevent bodily attachment; post-sex attachment can arise despite stated intentions.",
+      "required_context": "section opening",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "opening paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-02",
+      "source_ref": "uncertain-intention direct speech",
+      "authority": "preservation-r10 source",
+      "type": "example",
+      "meaning": "A person may candidly want sex while honestly not knowing whether they want a serious relationship.",
+      "required_context": "follows attachment-risk opening",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "direct-speech paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-03",
+      "source_ref": "pregnancy/responsibility paragraph",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Candor about present intentions does not settle obligations if sex creates pregnancy; contraception is imperfect and concrete responsibility questions remain.",
+      "required_context": "follows uncertain-intention quote",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "pregnancy paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-04",
+      "source_ref": "STI disclosure clause",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Partners can test/disclose STI knowledge and must explicitly admit when they do not know.",
+      "required_context": "contrasted with attachment uncertainty",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "You can test for STIs and tell each other what you know. If you don't know, say so.",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-05",
+      "source_ref": "feelings/attachment clause",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Mutual sincere agreement that sex is casual does not control later attachment.",
+      "required_context": "contrasted with comparatively tractable STI disclosure",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "Attachment is less cooperative. Both of you can mean it when you say this is only sex, and then one of you wakes up attached anyway.",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-06",
+      "source_ref": "numb/robotic caveat",
+      "authority": "preservation-r10 source",
+      "type": "certainty",
+      "meaning": "Joel leaves open the possibility that people who are very numb/robotic about sex may not attach.",
+      "required_context": "qualifies attachment claim",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "final sentence of changed paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-07",
+      "source_ref": "loving poly community / mutual use paragraph",
+      "authority": "preservation-r10 source",
+      "type": "judgment",
+      "meaning": "Outside a loving poly community or tribe Joel considers honest casual sex nearly impossible because partners must care what happens afterward; reciprocal use does not redeem using another for pleasure.",
+      "required_context": "follows attachment risk",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-08",
+      "source_ref": "I only want fun paragraph",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Claims of wanting only fun can conceal a hope for love that may be recognized only when it fails.",
+      "required_context": "casual-sex motive analysis",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-09",
+      "source_ref": "situationship definition and responsibility sequence",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Situationships are often sex-based, under-defined relationships; refusing the label does not erase responsibility or superficiality.",
+      "required_context": "situationship subsection within same natural section",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "situationship definition and responsibility paragraphs unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-10",
+      "source_ref": "why are you making this heavy exchange",
+      "authority": "preservation-r10 source",
+      "type": "function",
+      "meaning": "The section acknowledges the genuine appeal/cost question behind resistance to making casual arrangements serious, then answers by asking whether the arrangement fulfills or drains.",
+      "required_context": "after responsibility analysis",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "exchange unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-11",
+      "source_ref": "H. example",
+      "authority": "preservation-r10 source",
+      "type": "example",
+      "meaning": "Joel's relationship with H. was deep and non-superficial but romantically uneven, so it only partly resembles a situationship.",
+      "required_context": "personal counterexample/complication",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "H. paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-12",
+      "source_ref": "labels / relational depth paragraphs",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "Labels do not create commitment but can reveal whether partners understand the relationship similarly; lived relational depth creates practical commitment.",
+      "required_context": "follows H. example",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "two paragraphs unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-13",
+      "source_ref": "four-girlfriends example",
+      "authority": "preservation-r10 source",
+      "type": "example",
+      "meaning": "The person apparently winning a casual arrangement can still be miserable and empty.",
+      "required_context": "supports fulfillment judgment",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-14",
+      "source_ref": "full conversation conclusion",
+      "authority": "preservation-r10 source",
+      "type": "judgment",
+      "meaning": "Taking pregnancy, attachment, and post-sex obligations seriously would make casual sex much rarer; Joel judges many defenses of it as self-dishonest.",
+      "required_context": "section conclusion",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "penultimate paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-CASUAL-15",
+      "source_ref": "free-love community ending",
+      "authority": "preservation-r10 source",
+      "type": "judgment",
+      "meaning": "A less damaging form of casual lovemaking would require a community where people and bonds are not disposable and children have a village.",
+      "required_context": "true stopping point",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "final paragraph unchanged",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-CASUAL-01",
+      "description": "Re-realize only the STI-versus-attachment paragraph. Preserve explicit disclosure of both known and unknown STI status, uncontrollability of attachment despite sincere casual intent, and the numb/robotic caveat. No other wording, claim, example, certainty, actor, attribution, order, or stopping point may change."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-CASUAL-01",
+      "classification": "semantic reword",
+      "description": "Replaces the four-sentence STI/feelings paragraph with a five-sentence realization that keeps STI testing/disclosure, explicit unknown disclosure, attachment unpredictability, sincere-intent contrast, and the numb/robotic caveat.",
+      "authority_ref": "CH-CASUAL-01",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Exact candidate SHA-256 e59a9cf974a6252930f774d8246512d68d1137b64481194571488e3814897d04, 866 whitespace words. The r10 body is otherwise byte-preserved. Prior Pangram evidence is diagnostic only: the 2026-08-15 full Casual assembly classified the final free-love-community paragraph Human and isolated the old STI paragraph as its only AI window; 2026-08-21 call 5 classified a different STI realization inside a Human tail. This receipt relies on source fidelity, not those scores, for authorization."
+}

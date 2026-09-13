@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "status": "preservation_r11_candidate_not_owner_final_article",
+  "source": {
+    "master": "2546d719ccd87d8f34fe947ba6f6158baeb7e15f4a85bfbfc8d35cc45b93afd0",
+    "part1": "4ab1ad34f171bb75d2f93e261757cca469a655b629508eb3b91ab05ebc83c0ef",
+    "part2": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "459c138e901686ca9067add545c5cf8bce9b1d60bab99c9a3318211d0c7b9c52",
+      "word_count_whitespace": 20366,
+      "operations": [
+        {
+          "label": "slow-steady-delete-abstract-preview-lived-example-performs-function",
+          "old_sha256": "226207fe7a3d86b1362f524693ee718c2cd68f33b431a5a6478a885ba55a0fba",
+          "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "old_word_count": 10,
+          "new_word_count": 0
+        },
+        {
+          "label": "patient-cross-split-green-semantic-equivalent-rollback",
+          "old_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685",
+          "new_sha256": "69092f713e4ee39acbe0e913d356f0ea3660b7455b02abf9583913fb094a276a",
+          "old_word_count": 67,
+          "new_word_count": 84
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "required_missing": [],
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "talk_section_byte_identical": true,
+        "affection_section_byte_identical": true,
+        "casual_section_byte_identical": true,
+        "slow_preview_absent": true,
+        "slow_local_sha256": "2def6737f8763f6e3a92405166dd27f9d0e30ec043a57a216ffbc05bf6bb72f4",
+        "slow_exact_known_human_match": true,
+        "patient_part1_tail_sha256": "e686af397002316cfd94b4975225a16a739dc619c79a512a9670a8223b30d9cd",
+        "patient_part1_tail_exact": true,
+        "patient_cross_split_sha256": "7d60bc1c38669848e7e27d313603e4ee8970e34bf3896673160ea6a61c106002",
+        "patient_cross_split_exact_known_human_match": true,
+        "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+        "part2_byte_identical_to_r10": true,
+        "source_to_candidate_edits_confined_to_slow_preview_and_patient_rollback": true,
+        "passed": true
+      }
+    },
+    "part1": {
+      "sha256": "851662d72ff3d7c8179b49656c4f6bebc06a9c60c22b5d783bc5ef1b11886c50",
+      "word_count_whitespace": 10323,
+      "operations": [
+        {
+          "label": "slow-steady-delete-abstract-preview-lived-example-performs-function",
+          "old_sha256": "226207fe7a3d86b1362f524693ee718c2cd68f33b431a5a6478a885ba55a0fba",
+          "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "old_word_count": 10,
+          "new_word_count": 0
+        },
+        {
+          "label": "patient-cross-split-green-semantic-equivalent-rollback",
+          "old_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685",
+          "new_sha256": "69092f713e4ee39acbe0e913d356f0ea3660b7455b02abf9583913fb094a276a",
+          "old_word_count": 67,
+          "new_word_count": 84
+        }
+      ]
+    },
+    "part2": {
+      "sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+      "word_count_whitespace": 9892,
+      "operations": [],
+      "unchanged": true
+    }
+  },
+  "preservation_proof": {
+    "slow_steady": "work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-slow-steady-r11.json",
+    "patient_cross_split": "work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-patient-green-rollback.json",
+    "talk": "byte-identical to preservation-r10; local section is 6/6 hard capped",
+    "affection": "byte-identical to preservation-r10; local section is 6/6 hard capped",
+    "casual": "byte-identical to preservation-r10 / semantic-r9; final local call conserved",
+    "part2": "byte-identical to preservation-r10 / semantic-r9 exact 100% Human aggregate",
+    "unexplained_deltas": 0
+  },
+  "detector_evidence": {
+    "slow_steady": {
+      "text_sha256": "2def6737f8763f6e3a92405166dd27f9d0e30ec043a57a216ffbc05bf6bb72f4",
+      "pangram_version": "4.0",
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "experiment": "romance-detector-repair-20260820-slow-steady-r11-20260822"
+    },
+    "patient_cross_split": {
+      "text_sha256": "7d60bc1c38669848e7e27d313603e4ee8970e34bf3896673160ea6a61c106002",
+      "pangram_version": "4.0",
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "experiment": "romance-detector-repair-20260820-semantic-r9-part1-local-r1-20260821",
+      "measurement_id": "SEMANTIC_R9_PATIENT_R1"
+    },
+    "part2_source": {
+      "text_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+      "pangram_version": "4.0",
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "experiment": "romance-detector-repair-20260820-preservation-r10-aggregates-20260822"
+    }
+  },
+  "detector_plan": {
+    "part1": "fresh exact aggregate Pangram 4 certification after materialization; aggregate scope is not section capped",
+    "part2": "do not rerun; byte-identical exact 100% Human aggregate evidence remains current"
+  }
+}

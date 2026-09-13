@@ -1,0 +1,132 @@
+name: Materialize Romance r17 owner Talk
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - '.github/workflows/materialize-romance-r17-owner-talk.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+
+      - name: Build exact r17 Markdown candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+
+          base_path = Path('work/romance-detector-repair-20260820/materialized-preservation-r14-affection-maturity-split/candidate-master.md')
+          owner_path = Path('work/romance-detector-repair-20260820/recovery-20260822/OWNER-TALK-SEXUAL-COMPATIBILITY-20260822.md')
+          base = base_path.read_text(encoding='utf-8')
+          if hashlib.sha256(base.encode()).hexdigest() != 'fafdc70e9f9a3554e1fb46bd7d4e011db77379f1993629f7885e90ac9c9c1cf2':
+              raise SystemExit('r14 base SHA mismatch')
+
+          owner_md = owner_path.read_text(encoding='utf-8')
+          marker1 = '## Verbatim owner wording\n\n'
+          marker2 = '\n\n## Provenance / interpretation guard'
+          if owner_md.count(marker1) != 1 or owner_md.count(marker2) != 1:
+              raise SystemExit('owner-source markers not unique')
+          owner_text = owner_md.split(marker1, 1)[1].split(marker2, 1)[0]
+          if hashlib.sha256(owner_text.encode()).hexdigest() != '68716bc63f5a0b84945cb33cf12595ee9fcacbd48cad05e607e862e62d925ff0':
+              raise SystemExit('owner paragraph SHA mismatch')
+
+          old_mismatch = ("Sex drives are independently alive and always changing. For some stretch, one of you will want more, less, or something different. "
+                          "When the discordance comes, it's one of the saddest sources of quiet resentment. Talk about what you’ll do when that happens before either person is already hurt. "
+                          "It won’t solve it in advance, but at least you’ll have somewhere to begin.")
+          old_commit = "True commitment grows out of relational depth, not a label. If we spend hours telling each other our deepest longings, fears, and problems, I’ll naturally be ready to help when you need me; I don't need a promise on paper to make me want to. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that's a red flag."
+          new_commit = "True commitment grows out of relational depth, not a label. If we spend hours telling each other our deepest longings, fears, and problems, I’ll naturally be ready to help when you need me. I don’t need to promise that on paper. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that's a red flag."
+          old_friend = "The person getting more of what they want may think the arrangement is fulfilling. Usually they’re just less aware that it isn’t. In college I had a friend with four girlfriends who boasted about it to girls while trying to get a fifth. If anybody was supposed to be winning that arrangement, it was him. I asked him, “But are you really happy?” He said, “No, I’m miserable, dude. I feel empty inside.”"
+          new_friend = "The person getting more of what they want may think the arrangement is fulfilling. Usually they’re just less aware that it isn’t. In college I had a friend with four girlfriends who boasted about it to girls while trying to get a fifth. I asked him, “But are you really happy?” He said, “No, I’m miserable, dude. I feel empty inside.”"
+
+          text = base
+          ops = []
+          for label, old, new, authority in [
+              ('r16-canonical-casual-paper-promise', old_commit, new_commit, 'registered main'),
+              ('r16-canonical-casual-four-girlfriends', old_friend, new_friend, 'registered main'),
+              ('r17-owner-talk-libido-mismatch', old_mismatch, owner_text, 'direct owner 2026-08-22'),
+          ]:
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f'{label}: expected one source occurrence, found {count}')
+              text = text.replace(old, new, 1)
+              ops.append({
+                  'id': label,
+                  'old_sha256': hashlib.sha256(old.encode()).hexdigest(),
+                  'new_sha256': hashlib.sha256(new.encode()).hexdigest(),
+                  'authority': authority,
+              })
+
+          protected = [
+              "What I eventually took from my dad's advice was a bigger question: would we like to raise children together? Are we ready?",
+              "And can you actually say all that once you're naked? Even if you think she'll be disappointed?",
+              "Bodies fitting is not enough. Can you stay honest while you’re completely exposed?",
+              "This will naturally prevent sex from happening too soon if we can talk about it with each other.",
+              "If we can't, that's a red flag for the relationship's chances of success.",
+              "## Affection and the simmer",
+              "## Can Casual Sex or a Situationship Actually Be Honest?",
+          ]
+          missing = [p for p in protected if p not in text]
+          if missing:
+              raise SystemExit(f'protected anchors missing: {missing}')
+          if text.count('[NATIVE ') != base.count('[NATIVE '):
+              raise SystemExit('native object count changed')
+          if text.count('](http') != base.count('](http'):
+              raise SystemExit('ordinary markdown link count changed')
+
+          outdir = Path('work/romance-detector-repair-20260820/materialized-preservation-r17-owner-talk')
+          outdir.mkdir(parents=True, exist_ok=True)
+          out = outdir / 'candidate-master.md'
+          out.write_text(text, encoding='utf-8')
+          manifest = {
+              'schema_version': 1,
+              'candidate_id': 'romance-detector-repair-20260820-preservation-r17-owner-talk',
+              'base': {
+                  'path': str(base_path),
+                  'sha256': hashlib.sha256(base.encode()).hexdigest(),
+              },
+              'candidate': {
+                  'path': str(out),
+                  'sha256': hashlib.sha256(text.encode()).hexdigest(),
+                  'word_count_whitespace': len(text.split()),
+              },
+              'pangram_part1': {
+                  'repository': 'u-dont-existDOTcom/pangram-humanization-lab',
+                  'ref': 'automation/pangram-fixed-batch',
+                  'sha256': '0e32a7c1482f5a1e6c4fe5aaba492743bc5cc0d96e860518fb8c4a62c379ca08',
+                  'word_count_whitespace': 10400,
+              },
+              'stable_part2': {
+                  'sha256': '9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85',
+                  'pangram_4_fraction_human': 1.0,
+              },
+              'operations': ops,
+              'native_object_count_unchanged': True,
+              'markdown_link_count_unchanged': True,
+              'unexplained_deltas': 0,
+              'status': 'task candidate only; canonical main unchanged',
+          }
+          (outdir / 'candidate-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit r17 Markdown candidate
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-preservation-r17-owner-talk
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize Romance r17 owner Talk candidate'
+          git push origin HEAD:task/romance-detector-repair-20260820

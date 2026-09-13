@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-part-2.txt",
+    "revision": "task/romance-detector-repair-20260820 baseline at 430d5d3223dd560a0142c2cccdcf791190a9e12e",
+    "sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  },
+  "changed_scope": "Romance / Primal attraction / Not A Performance natural section — exact semantic-r9 baseline diagnostic",
+  "mode": "P2S",
+  "edit_dose": "D0",
+  "preservation_units": [
+    {
+      "unit_id": "PU-PRIMAL-01",
+      "source_ref": "r9 Not A Performance opening",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "claim",
+      "meaning": "Having to prove masculinity makes the performance fake and creates a burden to defend the identity whenever vulnerability or error appears.",
+      "required_context": "opens Not A Performance",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "‘The moment I have to prove... Then I have to defend the identity...’",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PRIMAL-02",
+      "source_ref": "r9 self-description/Bee wife anecdote",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "example",
+      "meaning": "Joel cries, needs help, and gets things wrong; Bee calling him her wife is the lived joke/example.",
+      "required_context": "male vulnerability is compatible with masculine polarity",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "paragraph beginning ‘I don’t actually walk around thinking I’m some super-masculine guy.’",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PRIMAL-03",
+      "source_ref": "r9 appreciation sentence",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "causality",
+      "meaning": "Appreciation of Joel’s masculine side tends to draw it out without performance.",
+      "required_context": "follows vulnerability example",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "‘When a woman appreciates that masculine side of me, it tends to come out by itself.’",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PRIMAL-04",
+      "source_ref": "r9 female anti-performance + surrender paragraph",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "claim",
+      "meaning": "A woman should not have to perform femininity; surrender means more when she retains agency to take control and chooses not to, and Joel finds that erotic.",
+      "required_context": "parallel application to feminine polarity",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "paragraph beginning ‘The same is true for a woman.’",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PRIMAL-05",
+      "source_ref": "r9 female overcorrection paragraph",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "claim",
+      "meaning": "Women can overcorrect from fears of being undesirable or needy into needing nobody and treating receiving care or male leadership as weakness.",
+      "required_context": "female anti-performance argument",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "paragraph beginning ‘Women can get pulled in two directions here.’",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PRIMAL-06",
+      "source_ref": "r9 Toft/Anami receiving-care paragraph",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "claim",
+      "meaning": "Receiving care, leadership, or pleasure does not make a strong woman helpless, and a man receiving care does not make him a child.",
+      "required_context": "receiving-care examples",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "paragraph beginning ‘Toft says that after fifty years...’ including ‘A man receiving care doesn’t make him a child either.’",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PRIMAL-07",
+      "source_ref": "r9 driving/intuitive-help examples",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "example",
+      "meaning": "Chosen driving and reciprocal intuitive/practical help illustrate invited polarity rather than incapacity.",
+      "required_context": "receiving-care paragraph",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "same Toft/Anami paragraph from ‘Sometimes that’s as ordinary...’ onward",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PRIMAL-08",
+      "source_ref": "r9 invitational analogy",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "function",
+      "meaning": "Leadership/polarity should be invitational rather than drafted or coerced.",
+      "required_context": "follows reciprocal invitation examples",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "‘That's called invitational: Would you rather go to a party where you were invited or a war you got drafted into?’",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PRIMAL-09",
+      "source_ref": "r9 manufactured-crisis claim",
+      "authority": "semantic-r9 traceability-passed source",
+      "type": "claim",
+      "meaning": "When a woman cannot gently invite a man to lead, she may manufacture a crisis that forces him to take charge; Joel reports seeing this often.",
+      "required_context": "contrast with invitation",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "final two paragraphs beginning ‘When a woman doesn't know...’ and ‘Unfortunately...’",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [],
+  "candidate_deltas": [],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Exact r9 natural-section diagnostic; no prose changes. Reader-visible SHA-256 d5e8f0f04ccb38f04688c8a208963360d694a4b37719412d54175a8ba2a66509."
+}

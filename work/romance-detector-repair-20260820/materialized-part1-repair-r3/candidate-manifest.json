@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "status": "part1_final_residual_candidate_not_owner_final_article",
+  "source": {
+    "master": "485726dc6c5215903050a0d5893805ba48e556974569dbef3dc2cec6ddaa877d",
+    "part1": "9ea0f9b15415292835c1e8eeff32757940fb05b304eeef6e1ac63b95fedbbd3b",
+    "part2": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "45ac64347d1cf98503e83d9cf5200db1e4623a732559158587e93851a650f2be",
+      "word_count_whitespace": 19764,
+      "operations": [
+        {
+          "label": "casual-opening-lived-causality",
+          "old_sha256": "18a0967abe6ba93060bd4599015979df4cf7efb58896c9c637813648546bf11a",
+          "new_sha256": "1ed973124bb1c839cf40036879b0b812612e7dd2167f043eaef05760276bb0c7"
+        },
+        {
+          "label": "casual-honesty-limit-spoken",
+          "old_sha256": "9aab197c7c77cfdee951cff6e3339b231561fe8cb3aa7035351ee4f2ae70b5b5",
+          "new_sha256": "01396b7d928984ce3ed2c9fa0d944d6536aefe9a2874db773b4ce40125b63c68"
+        },
+        {
+          "label": "ordinary-time-not-mirrored-verdict",
+          "old_sha256": "4de8f4819b5cbe5cf8f64700cfb7486d98837a1995e34d61e60c25b612202dbd",
+          "new_sha256": "111c9fa6d69efd3a3295324123006da593879dcdbb29a782e662b105c26ecddc"
+        },
+        {
+          "label": "slow-community-to-gandarussa-causal",
+          "old_sha256": "c967b189d0b12bdefbcb3780d0aa9e63164ece393279995f7f1d605460b9766e",
+          "new_sha256": "04fcc534fe91f6951062bff8a1db3bac71ad40351e9de1bf3233aca1fac69918"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "required_missing": [],
+        "deleted_duplicate_casual_tail_absent": true,
+        "passed": true,
+        "r3_required_missing": [],
+        "r3_old_spans_absent": true
+      }
+    },
+    "part1": {
+      "sha256": "4e2b49532a047be34e1c5e6a645a4cf264e921d402a708bb9565d54379487c61",
+      "word_count_whitespace": 9910,
+      "operations": [
+        {
+          "label": "casual-opening-lived-causality",
+          "old_sha256": "18a0967abe6ba93060bd4599015979df4cf7efb58896c9c637813648546bf11a",
+          "new_sha256": "1ed973124bb1c839cf40036879b0b812612e7dd2167f043eaef05760276bb0c7"
+        },
+        {
+          "label": "casual-honesty-limit-spoken",
+          "old_sha256": "9aab197c7c77cfdee951cff6e3339b231561fe8cb3aa7035351ee4f2ae70b5b5",
+          "new_sha256": "01396b7d928984ce3ed2c9fa0d944d6536aefe9a2874db773b4ce40125b63c68"
+        },
+        {
+          "label": "ordinary-time-not-mirrored-verdict",
+          "old_sha256": "4de8f4819b5cbe5cf8f64700cfb7486d98837a1995e34d61e60c25b612202dbd",
+          "new_sha256": "111c9fa6d69efd3a3295324123006da593879dcdbb29a782e662b105c26ecddc"
+        },
+        {
+          "label": "slow-community-to-gandarussa-causal",
+          "old_sha256": "1c9fe21f32f4e035bc0a718de538fe1a9277f61da0ced5e660b52bccca4687e6",
+          "new_sha256": "5686151ba7c6cb0723fbc35ef029b96e88fb221d517329afe6b0aa303ee6c077"
+        }
+      ]
+    },
+    "part2": {
+      "sha256": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2",
+      "word_count_whitespace": 9703,
+      "operations": [],
+      "unchanged": true
+    }
+  },
+  "source_aggregate_result": {
+    "part1_sha256": "9ea0f9b15415292835c1e8eeff32757940fb05b304eeef6e1ac63b95fedbbd3b",
+    "pangram4_fraction_human": 0.9847978949546814,
+    "residual_ai_segments": 4
+  },
+  "detector_plan": {
+    "part1": "fresh exact aggregate measurement; aggregate is authoritative over local short diagnostics"
+  }
+}

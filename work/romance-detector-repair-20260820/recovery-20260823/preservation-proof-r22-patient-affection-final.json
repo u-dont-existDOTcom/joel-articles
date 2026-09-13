@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-r22-patient-affection",
+  "source_proof": "work/romance-detector-repair-20260820/recovery-20260823/preservation-proof-r22-patient-affection-pre.json",
+  "authority": {
+    "canonical_main_unchanged": true,
+    "task_base_master_sha256": "8b60f2916a4c050c6295b858889c3a7e3e80c87e18307a2c3e2cf9e276e8637d",
+    "patient_owner_acceptance": "work/romance-detector-repair-20260820/recovery-20260823/OWNER-ACCEPTED-PATIENT-R21-20260823.md",
+    "affection_owner_acceptance": "work/romance-detector-repair-20260820/recovery-20260823/OWNER-ACCEPTED-AFFECTION-R22-20260823.md"
+  },
+  "exact_candidate_identity": {
+    "master_path": "work/romance-detector-repair-20260820/materialized-preservation-r22-patient-affection/candidate-master.md",
+    "master_git_blob_sha": "9f6bf7ed77093569a98fe606fda96ac277839f99",
+    "master_sha256": "f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9",
+    "master_word_count_whitespace": 20282,
+    "part1_path": "work/romance-detector-repair-20260820/materialized-preservation-r22-patient-affection/part1.txt",
+    "part1_git_blob_sha": "70d8fa0bca4bfe52e00f5721f55cf5b7819cf899",
+    "part1_sha256": "5ed333800b9ae7b402f26aa03e751ef8296c7e27ab70e39bc39bb9896b23e62d",
+    "part1_word_count_whitespace": 10239,
+    "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "part2_exact_prior_human": 1.0
+  },
+  "operations": [
+    {
+      "id": "CH-R22-01",
+      "classification": "owner-accepted-patient-replacement",
+      "status": "applied-exactly-once",
+      "forward_traceability": "pass — patient basis, repeated medical/mental-health/practical questions, sick/sad examples, natural helping motive and cumulative pattern all survive",
+      "reverse_traceability": "pass — all changed wording maps to direct owner acceptance"
+    },
+    {
+      "id": "CH-R22-02",
+      "classification": "owner-accepted-holistic-production-repair",
+      "status": "applied-exactly-once",
+      "forward_traceability": "pass — Toft/safe-affection pressure, Anami simmer/link/examples, lack-of-desire warning, sex-life-change observation, first-person responsibility and exhausted-leftovers stopping point survive; explicitly superseded counseling/recap/checklist realizations are removed by owner acceptance",
+      "reverse_traceability": "pass — all changed wording and deletions map to OWNER-ACCEPTED-AFFECTION-R22-20260823.md"
+    }
+  ],
+  "preservation_units": {
+    "total": 22,
+    "preserved_or_owner_superseded": 22,
+    "unresolved": 0,
+    "unexplained": 0
+  },
+  "artifact_integrity": {
+    "native_objects_source": 11,
+    "native_objects_candidate": 11,
+    "markdown_links_source": 22,
+    "markdown_links_candidate": 22,
+    "toft_link_preserved": true,
+    "anami_link_preserved": true,
+    "gandarussa_link_preserved": true,
+    "section_order_changed": false,
+    "part2_changed": false
+  },
+  "literal_readback": {
+    "talk_to_affection_to_casual_sequence": "pass",
+    "affection_heading_fit": "pass",
+    "affection_curiosity_chain": "pass — Toft safe affection -> Anami simmer/desire -> changed sex-life question -> personal responsibility/exhausted-leftovers stopping point",
+    "patient_placement": "pass — after Mom-role paragraph and before Key guru anecdote",
+    "patient_following_accountability_material_unchanged": true,
+    "gandarussa_anchor_present": true
+  },
+  "editorial_audit": {
+    "semantic_sanity": "pass",
+    "reality_contact": "pass",
+    "heading_fit": "pass",
+    "architecture_dependency_gate": "pass",
+    "cold_audit_1": "pass — no residual balanced therapist/explainer recap in the repaired Affection tail that the editor actually believes is model-shaped",
+    "cold_audit_2": "pass — patient replacement is direct, concrete and coherent; no new aftercare introduced",
+    "largest_remaining_known_detector_uncertainty": "the remote idealization/dependability passage is historically composition-sensitive and may appear/disappear in the aggregate without edits; it is not current edit authority"
+  },
+  "production_preflight": {
+    "mode": "production humanization",
+    "all_credible_affection_ai_shape_problems_addressed_before_paid_call": true,
+    "remaining_affection_model_shape_issue_actually_believed": "none",
+    "owner_manual_affection_result": "100% Human, medium confidence",
+    "owner_manual_patient_result": "Human, low confidence on short snippet",
+    "wider_patient_control": "patient realization previously sat inside a High-confidence Human 223-word region; detector signal moved downstream",
+    "would_local_ai_result_now_be_genuinely_surprising": true,
+    "aggregate_call_role": "certification/context check after two preservation-proved owner-accepted changes; not a drafting oracle"
+  },
+  "forward_traceability": "PASS",
+  "reverse_traceability": "PASS",
+  "owner_provenance_separation": "PASS — both changed passages are assistant-produced owner-accepted wording, not mislabelled as natural owner authorship",
+  "unexplained_deltas": [],
+  "detector_eligibility": "ELIGIBLE",
+  "detector_plan": "Measure exact 10,239-word Part 1 once through trusted self-hosted Pangram 4 fixed-batch route after exact cache/ledger/request safety check. Reuse unchanged exact Part 2 at prior Human 1.0. Do not run a seventh local Affection call."
+}

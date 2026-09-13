@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-r22-patient-affection",
+  "base_master": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r20-casual-two-deletions/candidate-master.md",
+    "sha256": "8b60f2916a4c050c6295b858889c3a7e3e80c87e18307a2c3e2cf9e276e8637d",
+    "word_count_whitespace": 20343
+  },
+  "candidate_master": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r22-patient-affection/candidate-master.md",
+    "sha256": "f0f9a47eba2ac9ab1a56bdd6793316d41e7c23072b0b0c030285caf5e12f83c9",
+    "word_count_whitespace": 20282
+  },
+  "base_part1": {
+    "git_blob_sha": "7982862512ad6dae2b3573af23b410442eb047b5",
+    "sha256": "04ea13442d4044ee56733b75771cb62c5cd44ba1b5da1bbb57d637c4f2ec4316",
+    "word_count_whitespace": 10300
+  },
+  "candidate_part1": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r22-patient-affection/part1.txt",
+    "sha256": "5ed333800b9ae7b402f26aa03e751ef8296c7e27ab70e39bc39bb9896b23e62d",
+    "word_count_whitespace": 10239
+  },
+  "operations": [
+    {
+      "id": "CH-R22-01",
+      "type": "owner-accepted-patient-replacement",
+      "old_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685",
+      "new_sha256": "745ea6829f2079a87cc36f59935f43994179eb638af31b7d59399798125175fa"
+    },
+    {
+      "id": "CH-R22-02",
+      "type": "owner-accepted-holistic-Affection-repair",
+      "old_markdown_sha256": "a37e96b3e60a575d230c6287ed3816659c595b9d00f91d829bf9437665b0e524",
+      "new_markdown_sha256": "0af97a5d2f82909fcd55c3dd039c202d6a25d8e0114eb2072fba6da875af6cec",
+      "old_plain_sha256": "edf03f675272cca86047b3eba382ad4d99bbbc1487410d75ab04031d3c489100",
+      "new_plain_sha256": "2c9172573b1550e95e4cf4abb582d4f2a822ea0c18f7f12a1a35cf4314dcc9f4"
+    }
+  ],
+  "native_object_count_source": 11,
+  "native_object_count_candidate": 11,
+  "markdown_link_count_source": 22,
+  "markdown_link_count_candidate": 22,
+  "section_order_changed": false,
+  "unexplained_deltas": 0,
+  "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+  "part2_exact_prior_human": 1.0,
+  "canonical_main_changed": false,
+  "status": "task candidate only; final preservation receipt required before detector submission"
+}
