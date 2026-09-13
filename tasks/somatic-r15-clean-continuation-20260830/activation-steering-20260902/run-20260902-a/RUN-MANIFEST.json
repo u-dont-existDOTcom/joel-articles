@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "experiment_id": "SOMATIC-ACTIVATION-STEERING-20260902-A",
+  "status": "BOUNDED_SWEEP_COMPLETE_AWAITING_BLINDED_CHAT_EVALUATION",
+  "repository": "u-dont-existDOTcom/joel-articles",
+  "branch": "task/somatic-r15-clean-continuation-20260830",
+  "repository_head_before_experiment_commit": "dc0c5fee19b175a63393ea55ec31bed45086a2bf",
+  "config_sha256": "69fc4c1f5b1db36fa9069bf59f1205939cd4afbf84f1479504463afe3e8d5dae",
+  "artifacts": [
+    {
+      "path": "ANALYSIS.json",
+      "bytes": 9895,
+      "sha256": "915fc55c548fa21be6aa1d0e3c5d7151e8f1a4892d2eb9efe552278a4d05b4b4"
+    },
+    {
+      "path": "BLINDED-EVALUATION-PACKET.json",
+      "bytes": 55533,
+      "sha256": "27865a5bd1ed798d1cd064061e0b37c70a5a1d1c85a6964bc001b4ca3b4e9600"
+    },
+    {
+      "path": "BLINDED-EVALUATION-PACKET.md",
+      "bytes": 28884,
+      "sha256": "6405dc1a43c63f0d3c7df1d9d34e6426c6769d7179a780d59b65377cac770313"
+    },
+    {
+      "path": "BLINDED-OUTCOME-TABLE.csv",
+      "bytes": 10351,
+      "sha256": "8ae8d48661bd45be1f1678c8b091ee25aa36b25fd5cede51c0b00db4651de056"
+    },
+    {
+      "path": "CONDITION-MAP.json",
+      "bytes": 19860,
+      "sha256": "c2a679f901e8d32396b4a034afed572d6df081b1dc444945bd01ae2316b274ad"
+    },
+    {
+      "path": "DIRECTION-METADATA.json",
+      "bytes": 12338,
+      "sha256": "b8ebfca7c32f26aa67bcd2b8e4313f2c7b1cd706e360887ec5a1033b7e6a2709"
+    },
+    {
+      "path": "RAW-RESULTS.jsonl",
+      "bytes": 1479450,
+      "sha256": "2a7c7623bd347b1cae25db11862594f7a6013a5549b72a436cf442e1cee139a6"
+    },
+    {
+      "path": "RUNTIME-MANIFEST.json",
+      "bytes": 1837,
+      "sha256": "37ea99bf821cd91f9251c29446f50430e7aa370612bebf0b567a111db2e39a31"
+    },
+    {
+      "path": "SMOKE-RESULTS.json",
+      "bytes": 644,
+      "sha256": "a384d3ba7a94054f845b9f0b806872f7c6eeefa7b01b75a0ff58df1434d696f7"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 244,
+      "sha256": "1df845856a59f38bd8fd53e918fa3861a583b93b1ddf1245629740aa639d8f78"
+    },
+    {
+      "path": "vectors.npz",
+      "bytes": 85607,
+      "sha256": "5d0d74d377677fbf0c73dab6deba7cfdef3850cbd6e9aa01b6defd648500218d"
+    }
+  ],
+  "candidate_count": 63,
+  "pangram_run": false,
+  "article_authority_mutation": false
+}

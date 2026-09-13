@@ -1,0 +1,7 @@
+# Introduction
+
+The event can be over and a person can know perfectly well that it is over, while the body is still reacting as though danger is present. With complex or developmental trauma, the deepest memory can be a bad place to begin for exactly that reason.
+
+Once someone is no longer present enough to have a real choice about stopping, I care a lot less about how “deep” the work is supposed to be. At that point regulation is not a sidetrack; it is part of making the work possible. I also want the person basically back to themselves afterward. If that is not happening, “deep processing” may just be a nicer name for overwhelm. If they do have that stability, I would not make them do somatic preparation simply because it makes a cleaner treatment sequence; going straight to EMDR or another trauma-focused method may make more sense. And sometimes stability is not the problem at all: the story is understood, but accumulated survival activation is still being carried in the body, and some bodily way for it to discharge or resolve may reach what more thinking does not.
+
+In inner-child work ([http://innerchild.u-dont-exist.com/](http://innerchild.u-dont-exist.com/)), a person can know exactly what the younger part needs and still be too caught in the trauma/child-state to give it. Sometimes the body has to become manageable enough for the adult perspective to be available at all.

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "progress_receipt_id": "OPR-SOMATIC-R15-PROCESS-FAILURE-033",
+  "task_id": "somatic-r15-clean-continuation-20260830",
+  "owner_outcome": {
+    "owner_request_id": "OR-SOMATIC-HUMANIZATION-20260830",
+    "epoch": 3,
+    "sha256": "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a",
+    "target": {
+      "metric": "pangram_4_whole_document_fraction_human",
+      "operator": "==",
+      "value": 1.0
+    }
+  },
+  "direct_outcome_evidence": {
+    "baseline": {
+      "candidate": "exact clean R15",
+      "fraction_human": 0.1547368467
+    },
+    "previous": {
+      "candidate": "preservation-clean micro candidate",
+      "fraction_human": 0.1381948739
+    },
+    "latest": {
+      "candidate": "coordinated article-wide reconstruction",
+      "fraction_human": 0.1231321841
+    },
+    "best": {
+      "candidate": "exact clean R15",
+      "fraction_human": 0.1547368467
+    },
+    "change_from_baseline": -0.0316046626,
+    "change_from_previous": -0.0150626898,
+    "direction": "higher_is_better"
+  },
+  "current_unmeasured_candidate": {
+    "path": "articles/somatic-therapies/experiments/R15-EFT-SHAKING-SOCIAL-REPAIR-CANDIDATE-20260831.md",
+    "sha256": "1e08284ce544b851b516eebdf38f3f8efb2497e477a0104270880f49aab7d81e",
+    "classification": "UNPROVEN_SUPPORTING_CANDIDATE",
+    "whole_document_measurement": "NONE"
+  },
+  "alignment": {
+    "worker_to_contract": "GREEN",
+    "contract_to_owner": "MATCH"
+  },
+  "outcome_advancement": "REGRESSING",
+  "strategy": {
+    "previous_strategy_id": "somatic-r15-local-fragment-detector-optimization",
+    "previous_strategy_efficacy": "EXHAUSTED",
+    "same_strategy_continuation_allowed": false,
+    "replacement_strategy_id": "somatic-r15-whole-article-fresh-pro-revoice-v1",
+    "replacement_strategy_state": "AUTHORIZED_NOT_STARTED"
+  },
+  "work_since_last_direct_whole_document_evidence": {
+    "direct_outcome_advancement": [],
+    "valid_supporting_work": [
+      "two source-integrity-preserving local repairs",
+      "detector transport calibration",
+      "anchor-dependence and non-compositionality evidence",
+      "CI full-history repair",
+      "exact detector recovery and duplicate-call safeguards"
+    ],
+    "classifications": [
+      "STRATEGY_LEARNING",
+      "EVIDENCE_ACQUISITION",
+      "RISK_REDUCTION",
+      "PROCESS_OR_TOOLING",
+      "SUPPORTING_WORK_DOMINANCE",
+      "MEASUREMENT_AVOIDANCE"
+    ]
+  },
+  "owner_forced_progress_review": true,
+  "overall_control_state": "RED",
+  "completion_claim": "NOT_COMPLETE",
+  "required_directive": "STOP_FRAGMENT_WORK_AND_CAPTURE_ONE_FRESH_PRO_WHOLE_ARTICLE_REVOICE",
+  "owner_action": "NONE",
+  "next_direct_evidence_boundary": "A complete fresh-Pro whole-article candidate must pass whole-document fidelity review, then receive a separately authorized exact Pangram 4 GUI whole-document measurement."
+}

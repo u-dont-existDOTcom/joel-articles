@@ -1,0 +1,1015 @@
+{
+  "schema_version": 1,
+  "experiment_id": "SOMATIC-ACTIVATION-STEERING-20260902-A",
+  "instruction": "Evaluate exact texts by opaque ID only. No condition labels are present.",
+  "candidates": [
+    {
+      "candidate_id": "K02348B409B3",
+      "text": "After somatic work, bodily experience unfolds in complex, non-linear patterns that mirror the trauma's impact. The body is marked by profound changes, manifesting as a spectrum of symptoms ranging from subtle psychological distress to physical manifestations. Individuals undergo a process of integration, where the trauma's aftermath is both repressed and reclaimed.",
+      "metrics": {
+        "candidate_sha256": "3dd3dc51d71875d031b51561a8037d5da9111cc5b78152baa73414cfdb25b460",
+        "generated_token_count": 64,
+        "word_count": 51,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.2572190819282696,
+        "max_kl_steered_vs_unsteered": 0.9361431002616882,
+        "top_token_change_fraction": 0.296875,
+        "mean_projection_delta_last": -3.212683092802763,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K0D249F67C3E",
+      "text": "Words can be a relentless stream of information, shaping our understanding of the world and evoking emotions that might not be immediately apparent. These linguistic elements often reflect the intensity and depth of experiences. For individuals grappling with trauma, the rhythmic nature of language becomes a powerful tool for self-discovery and healing. The echo chambers",
+      "metrics": {
+        "candidate_sha256": "f378b5fd72224f4725eb72888e2f7a53b55d9dd93451538b19972ec26397981a",
+        "generated_token_count": 64,
+        "word_count": 55,
+        "sentence_count": 4,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.11344608998791728,
+        "max_kl_steered_vs_unsteered": 0.7169977426528931,
+        "top_token_change_fraction": 0.234375,
+        "mean_projection_delta_last": -2.344839096069336,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K1AC6F7B23FF",
+      "text": "After somatic work, a person might feel more in tune with their body and understand more deeply the physical sensations of their trauma. This can lead to a greater sense of control and resilience. For instance, someone might notice how their body responds to different physical stimuli, such as crying, and perhaps even learn to use their",
+      "metrics": {
+        "candidate_sha256": "f8700e7a8b7251b1614c8daffd97d93048600862f7d8bcbe14d3459cc0bd6941",
+        "generated_token_count": 64,
+        "word_count": 57,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.155235338949538,
+        "max_kl_steered_vs_unsteered": 0.529700517654419,
+        "top_token_change_fraction": 0.234375,
+        "mean_projection_delta_last": 5.692874148488045,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K2439FAEDE41",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations, emotions, and reactions in response to a traumatic event. This can include sensations such as aches, pains, or discomfort in different parts of the body. Emotional responses may manifest in emotions such as shock, anxiety, or confusion.",
+      "metrics": {
+        "candidate_sha256": "d5b663de2cbf94ccaf5494fdbd42251f949ee6c5a00f209130b83ebfc064a5ec",
+        "generated_token_count": 64,
+        "word_count": 50,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.0436489138903462,
+        "max_kl_steered_vs_unsteered": 0.26188376545906067,
+        "top_token_change_fraction": 0.109375,
+        "mean_projection_delta_last": 1.6063414979726076,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K2621036BD49",
+      "text": "Words can be late to the conversation when it comes to discussing things like trauma or somatic work, especially if you're not sure where to start. It might not be until you have had some time and someone has told you about it that you find out what you need to know. Remember, it's okay not to",
+      "metrics": {
+        "candidate_sha256": "5965426364eb5cc6594c557f04e3cf3be5a1facc71df7a5afbf0a59612c6a455",
+        "generated_token_count": 64,
+        "word_count": 57,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.4139882432154991,
+        "max_kl_steered_vs_unsteered": 1.5615034103393555,
+        "top_token_change_fraction": 0.25,
+        "mean_projection_delta_last": 11.385748073458672,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K26D54AD4C58",
+      "text": "Words can be a powerful tool for expressing emotions and experiencing trauma, as they may provide a safe space for sharing difficult thoughts and feelings. However, traumatic experiences can also cause pain and discomfort, which may manifest in physical sensations such as headaches, stomachaches, or other body aches. These sensations can be challenging to process",
+      "metrics": {
+        "candidate_sha256": "f076d47307e9726016cc0f1d8f0a0ae0812ab6d4e404d2d20caed2c33bb1a4a8",
+        "generated_token_count": 64,
+        "word_count": 55,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.06570193845778238,
+        "max_kl_steered_vs_unsteered": 0.20202353596687317,
+        "top_token_change_fraction": 0.125,
+        "mean_projection_delta_last": 1.6063415333628654,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K28C399D0E05",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations, emotions, and experiences in a safe and non-judgmental space, seeking to understand how those sensations and feelings manifest and how they may impact one's overall sense of self and identity. This process can involve various forms of therapy",
+      "metrics": {
+        "candidate_sha256": "8cafa967d275a862f20517df6e9739b7bd50b206c9339f03fad00468d0fbd6c4",
+        "generated_token_count": 64,
+        "word_count": 51,
+        "sentence_count": 2,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.10713004418271765,
+        "max_kl_steered_vs_unsteered": 0.35775014758110046,
+        "top_token_change_fraction": 0.078125,
+        "mean_projection_delta_last": 5.6928741708397865,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K2BACA5432A7",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations, emotions, and experiences in a safe and non-judgmental space, seeking to understand the physical, emotional, and psychological impacts of trauma. This exploration can be a form of somatic work, where the body becomes a central",
+      "metrics": {
+        "candidate_sha256": "1bd3104eded90077ae9dc14b81978c2e939890209f2d226c0c2ed866ae2dd546",
+        "generated_token_count": 64,
+        "word_count": 48,
+        "sentence_count": 2,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.022574051681153895,
+        "max_kl_steered_vs_unsteered": 0.07821162790060043,
+        "top_token_change_fraction": 0.046875,
+        "mean_projection_delta_last": 2.8464370854198933,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K2E6F8E22A4E",
+      "text": "Words can be a powerful tool for expressing emotions and experiencing trauma, as they allow individuals to share their experiences and emotions with others. However, words can also be a source of trauma for those who are struggling with trauma or experiencing somatic work.",
+      "metrics": {
+        "candidate_sha256": "02f0849c39ae69cfe2b33ebefe481006ed488727a28e8351b8d6b7ef6da2a7a2",
+        "generated_token_count": 50,
+        "word_count": 44,
+        "sentence_count": 2,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.015445921509956407,
+        "max_kl_steered_vs_unsteered": 0.04913022741675377,
+        "top_token_change_fraction": 0.04,
+        "mean_projection_delta_last": 0.803170770406723,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K2EE46C08675",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations, emotions, and experiences in a deeply meaningful way. This can include activities such as yoga, meditation, or any form of physical exercise that allows for introspection and self-reflection. For some, the process can be therapeutic, allowing",
+      "metrics": {
+        "candidate_sha256": "6d13b073fee17fd40b88a7321f11728dc10771d14095d06c80434585441a5995",
+        "generated_token_count": 64,
+        "word_count": 49,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.026464899746521553,
+        "max_kl_steered_vs_unsteered": 0.12313777953386307,
+        "top_token_change_fraction": 0.078125,
+        "mean_projection_delta_last": 1.1724195182323456,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K337C0EDD856",
+      "text": "After somatic work, healing begins.",
+      "metrics": {
+        "candidate_sha256": "b0cac2559f0555a05199086ce29ecb3f2bca7c7e9f752c5942866308051f687f",
+        "generated_token_count": 9,
+        "word_count": 5,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.06485358664455514,
+        "max_kl_steered_vs_unsteered": 0.19140475988388062,
+        "top_token_change_fraction": 0.1111111111111111,
+        "mean_projection_delta_last": 3.212683333290948,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K3446164E74E",
+      "text": "After somatic work, healing often involves finding ways to navigate the physical sensations and emotions of trauma. This can include practices like gentle stretching, yoga, or guided breathing exercises to help manage physical tension and improve overall well-being. Additionally, engaging in self-care activities that promote stress relief, such as meditation or mindfulness, can",
+      "metrics": {
+        "candidate_sha256": "7afd414cfdd5ba2e3d7145214b117117092a72e35e88172ad1e8caf7e0715047",
+        "generated_token_count": 64,
+        "word_count": 53,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.03365673654726398,
+        "max_kl_steered_vs_unsteered": 0.10121805220842361,
+        "top_token_change_fraction": 0.0625,
+        "mean_projection_delta_last": 2.846437230706215,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K497AE5AC0EB",
+      "text": "After somatic work, healing begins with finding the root cause of the trauma and moving towards the emotional and psychological healing processes.",
+      "metrics": {
+        "candidate_sha256": "4ecd99e701c567b0077da9ad63d2e25d4c5590b4e14db06cb2a2441c3eb0d00f",
+        "generated_token_count": 26,
+        "word_count": 22,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.007653541961889669,
+        "max_kl_steered_vs_unsteered": 0.0396365225315094,
+        "top_token_change_fraction": 0.07692307692307693,
+        "mean_projection_delta_last": 0.5862099001040826,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K4DED8F05A0F",
+      "text": "Words can be a powerful tool for expressing emotions and experiencing trauma, but they may not always be easily accessible or appropriate for all individuals.",
+      "metrics": {
+        "candidate_sha256": "3ddc0ddf92c021a832842edfffb112e8cf9f41380a1e49ccd0b23a17efc976e3",
+        "generated_token_count": 28,
+        "word_count": 25,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.028634854484282966,
+        "max_kl_steered_vs_unsteered": 0.1082107350230217,
+        "top_token_change_fraction": 0.07142857142857142,
+        "mean_projection_delta_last": 1.1724197140761785,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K4F54FB5182C",
+      "text": "After somatic work, healing often involves finding ways to navigate the physical sensations and emotions of trauma. This can include practices like gentle stretching, yoga, or guided breathing exercises to support the body's natural healing responses. Additionally, seeking comfort in nature, engaging in activities that bring calm, and practicing mindfulness can help manage anxiety",
+      "metrics": {
+        "candidate_sha256": "815b04fc00749cdf5a0a897992260468f6b3bd6e5f3e206bb460aad311e5d8df",
+        "generated_token_count": 64,
+        "word_count": 54,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.009329580546650729,
+        "max_kl_steered_vs_unsteered": 0.028239982202649117,
+        "top_token_change_fraction": 0.0625,
+        "mean_projection_delta_last": 1.4232185017317533,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K54B0D76A05F",
+      "text": "After experiencing trauma, one begins to realize that the body and its responses to trauma can be deeply affected, and the process of healing through somatic work can help in managing pain and discomfort. This may involve activities such as gentle stretching, massaging certain areas, or simply engaging in physical exercise. The goal is to find",
+      "metrics": {
+        "candidate_sha256": "669665128afd389857d702a7764ffd8b09b76e49575daf66937f75b7daff72a2",
+        "generated_token_count": 64,
+        "word_count": 56,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.254050575495981,
+        "max_kl_steered_vs_unsteered": 0.8292142152786255,
+        "top_token_change_fraction": 0.328125,
+        "mean_projection_delta_last": 3.2126830741763115,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K5F7A342ABC4",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations, emotions, and experiences in a safe and non-judgmental space, seeking to understand the physical, psychological, and emotional impacts of trauma. This exploration can be a form of somatic work, where the body becomes a central",
+      "metrics": {
+        "candidate_sha256": "b6583adda54379e269c39d4067584de865667e770c6a86c2e233dace96c95e1b",
+        "generated_token_count": 64,
+        "word_count": 48,
+        "sentence_count": 2,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.0058286462673877715,
+        "max_kl_steered_vs_unsteered": 0.019646817818284035,
+        "top_token_change_fraction": 0.0,
+        "mean_projection_delta_last": 1.423218471929431,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K612389CED3C",
+      "text": "Words can indeed arrive late, shaping the trajectory of an individual's experience. Initially, thoughts and images might emerge, often in a blur of sensory experiences. However, it is the communication of these insights through language that generates significant content. This exploration of somatic experiences through linguistic means has profound implications for healing and understanding.",
+      "metrics": {
+        "candidate_sha256": "84983f966432a63bd77228e8890bef28d4efa61071929fc7f9cdc0ace5f547e5",
+        "generated_token_count": 64,
+        "word_count": 54,
+        "sentence_count": 4,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.06210970908684743,
+        "max_kl_steered_vs_unsteered": 0.17313925921916962,
+        "top_token_change_fraction": 0.15625,
+        "mean_projection_delta_last": -1.606341516599059,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K673C1893F9F",
+      "text": "Bodily experience around trauma often involves a complex interaction between the individual's physical body and the emotional and psychological responses that are triggered. The trauma can manifest physically, such as through physical sensations, like pain or physical injury, but it can also have profound effects on the body, causing discomfort and pain. This physical response",
+      "metrics": {
+        "candidate_sha256": "d1a7a216cc8a0fa1e3a7a61675ee824fd0650206b371dbbc830baf35d599bf22",
+        "generated_token_count": 64,
+        "word_count": 55,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.12966691325547686,
+        "max_kl_steered_vs_unsteered": 0.5696315169334412,
+        "top_token_change_fraction": 0.15625,
+        "mean_projection_delta_last": 3.212683416903019,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K69DCCEB5B37",
+      "text": "After somatic work, healing and recovery are complex processes that involve processing emotions, releasing trauma, and seeking psychological support. Often, individuals may experience a range of sensations, such as physical sensations, psychological distress, and emotional exhaustion. Caregivers play a vital role in these experiences, offering emotional support, teaching coping strategies",
+      "metrics": {
+        "candidate_sha256": "d8e991a69d7e74b78b85d5684182439784ad494d7b7dd1f5002d00529b05bcf4",
+        "generated_token_count": 64,
+        "word_count": 50,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.06145608082795562,
+        "max_kl_steered_vs_unsteered": 0.3657704293727875,
+        "top_token_change_fraction": 0.140625,
+        "mean_projection_delta_last": 1.6063414923846722,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K6F603417A4C",
+      "text": "Bodily experience around trauma or somatic work often involves a multifaceted exploration of the body's state of being. Individuals may experience trauma in various forms, such as physical pain, emotional pain, or existential pain, which can leave scars on the body. The somatic experience can be profoundly healing, allowing individuals",
+      "metrics": {
+        "candidate_sha256": "2b002abfec2dcfe769a28ccf2257954e2d98a477ecc53dd00b42359c7baa24dd",
+        "generated_token_count": 64,
+        "word_count": 50,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.056426421143179084,
+        "max_kl_steered_vs_unsteered": 0.32116225361824036,
+        "top_token_change_fraction": 0.171875,
+        "mean_projection_delta_last": -1.6063414923846722,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K766F2A50F13",
+      "text": "Words can indeed come late to our experiences, especially in the early stages of trauma or somatic work. The healing process takes time, and it's common for the body to go through a period of denial or confusion before recognizing the significance of certain experiences. This delay can lead to feelings of detachment, where the emotional impact",
+      "metrics": {
+        "candidate_sha256": "8126e0ab790f4c33c9f629b57c419a857989ea33d56d4533ff6d1700e5bc342f",
+        "generated_token_count": 64,
+        "word_count": 57,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.032374663729569875,
+        "max_kl_steered_vs_unsteered": 0.08529317378997803,
+        "top_token_change_fraction": 0.21875,
+        "mean_projection_delta_last": 2.846437133848667,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K7A4F763B6E1",
+      "text": "Words can indeed arrive late, like the arrival of an unexpected visitor, transforming our perception of the scene. The act of writing, then, is a form of self-expression, a way of being that affects our understanding of the world. This exploration of the body and the emotions it evokes serves as a therapeutic tool,",
+      "metrics": {
+        "candidate_sha256": "02cebf5aa7931ac00532beb2239b55f875c8d52090bebf260141e5c3fe8e0570",
+        "generated_token_count": 64,
+        "word_count": 54,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.10949760838866496,
+        "max_kl_steered_vs_unsteered": 0.48271921277046204,
+        "top_token_change_fraction": 0.15625,
+        "mean_projection_delta_last": 3.2126834578812122,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K7C14BDEFFD7",
+      "text": "Words can be an early sign of trauma.",
+      "metrics": {
+        "candidate_sha256": "39de5e980faef759b79d6e23175ba438dc1ae1f7bf4944c17612d197cc34a98e",
+        "generated_token_count": 10,
+        "word_count": 8,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.08369914386421443,
+        "max_kl_steered_vs_unsteered": 0.28474241495132446,
+        "top_token_change_fraction": 0.1,
+        "mean_projection_delta_last": 2.344839024543762,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K7D3FB9CCDA8",
+      "text": "Bodily experience around trauma or somatic work often involves a deep exploration of bodily sensations, emotional states, and physical sensations. These experiences can manifest in various ways, such as physical pain, psychological distress, or emotional exhaustion. Participants may feel a sense of powerlessness, a sense of being held captive by the body",
+      "metrics": {
+        "candidate_sha256": "9bc8c04add656b0cee3417c3dc1c6bd3da6897832a06e24590c0b1344648110e",
+        "generated_token_count": 64,
+        "word_count": 52,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.027776425332369126,
+        "max_kl_steered_vs_unsteered": 0.18791334331035614,
+        "top_token_change_fraction": 0.15625,
+        "mean_projection_delta_last": -1.1724195629358292,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K8A1DD46E830",
+      "text": "After Feeling Sad, I Started Feeling Bored, I Worked On My Own After Feeling Sad, I Started Feeling Bored, I Worked On My Own, I Started Doing This, I Got Better, I Got Better, I Feel Better, I Feel Better, I Got A Little Bit Smarter, I Got",
+      "metrics": {
+        "candidate_sha256": "fd48f24c28ee9f060cda651ed2f603ecf44067274c3c4b9bef77b7462d1fdee8",
+        "generated_token_count": 64,
+        "word_count": 48,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.37057997160354716,
+        "max_kl_steered_vs_unsteered": 1.2982910871505737,
+        "top_token_change_fraction": 0.203125,
+        "mean_projection_delta_last": 11.3857481777668,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K8E87DDC0B99",
+      "text": "Bodily experience around trauma or somatic work often involves the exploration of trauma's somatic manifestation, tracing the pathways of bodily pain and trauma. This process is pivotal in the therapeutic journey, where the body serves as the conduit for the exploration of psychic and emotional traumas. Through the act of healing, the som",
+      "metrics": {
+        "candidate_sha256": "5fd24eee828ffa62c0773ea51786010dd570a6302b385e3d553df6b8ad21becc",
+        "generated_token_count": 64,
+        "word_count": 53,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.20526924684301662,
+        "max_kl_steered_vs_unsteered": 0.5745342969894409,
+        "top_token_change_fraction": 0.203125,
+        "mean_projection_delta_last": -3.212683044373989,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K8E895996898",
+      "text": "The body may feel physical, like a sore throat or aching, or it may feel emotional, like overwhelmed or scared.",
+      "metrics": {
+        "candidate_sha256": "10c2f57341967eef6045e6857f6aec3ce84e6af4c5496e4616309d2fa2765302",
+        "generated_token_count": 26,
+        "word_count": 20,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.9893115518184808,
+        "max_kl_steered_vs_unsteered": 3.5744619369506836,
+        "top_token_change_fraction": 0.5,
+        "mean_projection_delta_last": 6.425366089894221,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K944FC6BB8D9",
+      "text": "Words can indeed come late to our experiences, especially in the early stages of trauma or somatic work. The healing process takes time, and it's common for the body to go through a period of denial or confusion before recognizing the significance of trauma. This may manifest as feelings of numbness, difficulty expressing emotions, or",
+      "metrics": {
+        "candidate_sha256": "8ab773387a55b53e6b428d28c776bb107be4d4f6eebd68845842f51d00af141e",
+        "generated_token_count": 64,
+        "word_count": 55,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.007569746717866366,
+        "max_kl_steered_vs_unsteered": 0.02130534127354622,
+        "top_token_change_fraction": 0.109375,
+        "mean_projection_delta_last": 1.4232186153531075,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "K954967FFF4B",
+      "text": "After somatic work, healing and recovery are complex processes that involve the body in its journey towards self-discovery and integration. The body experiences trauma in various forms, manifesting through physical sensations, psychological distress, and emotional responses. One common response is the body's natural defense mechanisms, such as the release of stress hormones",
+      "metrics": {
+        "candidate_sha256": "6c8452e1cbee1e1711e11b931fa1fe87a64e5db49061490259dd3b62aaba000c",
+        "generated_token_count": 64,
+        "word_count": 52,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.029095198643702247,
+        "max_kl_steered_vs_unsteered": 0.05665627494454384,
+        "top_token_change_fraction": 0.09375,
+        "mean_projection_delta_last": -2.8464371785521507,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KA517AAA8106",
+      "text": "Bodily experience around trauma often involves a complex interaction between sensory, emotional, and cognitive processes. Through somatic work, individuals navigate the body's resistance to healing, using bodily sensations to uncover psychological wounds and develop personal healing strategies. This exploration involves not only physical discomfort but also the integration of these experiences into a holistic",
+      "metrics": {
+        "candidate_sha256": "ef2ee77f51f42600cf333e7e43450c4136e3173ffc728e914488aacae279e747",
+        "generated_token_count": 64,
+        "word_count": 54,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.10084879939404345,
+        "max_kl_steered_vs_unsteered": 0.6278036236763,
+        "top_token_change_fraction": 0.15625,
+        "mean_projection_delta_last": -2.344839069992304,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KA68E0EB1320",
+      "text": "After somatic work, healing and recovery are complex processes that involve multiple aspects of bodily experience, including physical, emotional, and psychological elements. The journey through trauma or somatic work can be both transformative and challenging, requiring significant effort, self-reflection, and emotional support from others. The process often involves exploring emotions,",
+      "metrics": {
+        "candidate_sha256": "9a242811db159b89113d44c01b752252ef743a761d421337af2694ecfb986cb6",
+        "generated_token_count": 64,
+        "word_count": 50,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.09016906447607198,
+        "max_kl_steered_vs_unsteered": 0.42145514488220215,
+        "top_token_change_fraction": 0.09375,
+        "mean_projection_delta_last": -3.212683379650116,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KA95FE6AA032",
+      "text": "Words can be a powerful tool for expressing emotions and experiencing trauma, bridging the gap between the physical and psychological realms. In somatic work, experiencing trauma through words often leads to a more reflective and nuanced understanding of personal vulnerabilities and internal conflicts. This process, known as trauma deconstruction, encourages the exploration of emotional depth",
+      "metrics": {
+        "candidate_sha256": "3cc0fe39f4f7869d1247438df302d2306a80a4d489b3f64ff0c005cccfefca85",
+        "generated_token_count": 64,
+        "word_count": 55,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.030940928683520497,
+        "max_kl_steered_vs_unsteered": 0.07597890496253967,
+        "top_token_change_fraction": 0.09375,
+        "mean_projection_delta_last": -2.846437204629183,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KACF2407E62A",
+      "text": "Words can be an early form of expressing emotions or thoughts and can have a significant impact on the memory of traumatic experiences.",
+      "metrics": {
+        "candidate_sha256": "ba8a326e7cbb0842c0494f7a6219d71fdb22ce510fbc6f52d06b8f0d77c80aff",
+        "generated_token_count": 25,
+        "word_count": 23,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.08644982852041722,
+        "max_kl_steered_vs_unsteered": 0.28093305230140686,
+        "top_token_change_fraction": 0.08,
+        "mean_projection_delta_last": -3.2126833820343017,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KAFE79E0F0D5",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations and emotions. These can include physical pain or discomfort, physical movements, or sensations of pain or discomfort. For some, this exploration can be therapeutic, allowing them to explore and understand the emotions and physical sensations associated with trauma or stress.",
+      "metrics": {
+        "candidate_sha256": "2b58c94b38d764b935aa639ff8d08c2befcf0d06ac9703c40c32328fdddeaf62",
+        "generated_token_count": 64,
+        "word_count": 53,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.09412604972335714,
+        "max_kl_steered_vs_unsteered": 0.45924636721611023,
+        "top_token_change_fraction": 0.125,
+        "mean_projection_delta_last": 2.344839137047529,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KB1596B43374",
+      "text": "After somatic work, healing and recovery are complex processes that involve processing emotions, releasing trauma, and seeking psychological support. Often, individuals may experience a range of sensations, such as physical sensations, psychological distress, and emotional exhaustion. Caregivers play a vital role in these experiences, offering emotional support, teaching coping strategies",
+      "metrics": {
+        "candidate_sha256": "d8e991a69d7e74b78b85d5684182439784ad494d7b7dd1f5002d00529b05bcf4",
+        "generated_token_count": 64,
+        "word_count": 50,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.015045966302253744,
+        "max_kl_steered_vs_unsteered": 0.07961613684892654,
+        "top_token_change_fraction": 0.046875,
+        "mean_projection_delta_last": 0.8031707564368844,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KB6C0E4B189E",
+      "text": "The story, once told, has already been understood by those who have read it.",
+      "metrics": {
+        "candidate_sha256": "70a93d3a0a3e715228561e64f7db8f561774700e3bdd188683d32f07f5be8b61",
+        "generated_token_count": 18,
+        "word_count": 14,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.4152594907209277,
+        "max_kl_steered_vs_unsteered": 0.9253300428390503,
+        "top_token_change_fraction": 0.05555555555555555,
+        "mean_projection_delta_last": 11.385748439364964,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KBCCA19DFCE2",
+      "text": "Words can be a source of comfort when someone experiences trauma and is struggling to get through a difficult time. The act of writing or speaking can help provide a safe space to express how you feel, and it can also serve as a distraction from thoughts or emotions that are overwhelming. Words can be a way to express your feelings",
+      "metrics": {
+        "candidate_sha256": "ec85e90720d069c91a9949d8ccaae7f257fcc0e32583d92992a595a0e3202f50",
+        "generated_token_count": 64,
+        "word_count": 61,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.2805406080283319,
+        "max_kl_steered_vs_unsteered": 1.402489185333252,
+        "top_token_change_fraction": 0.328125,
+        "mean_projection_delta_last": 3.2126830220222473,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KBD594BF7C5D",
+      "text": "Words, the most potent medium of communication, act as the most crucial agent of transformation. Their efficacy is deeply intertwined with the dynamic interactions between the organism and its environment. Words often bridge the gap between the physical and the mental, facilitating the exploration of the body's emotions, sensations, and meanings. A somatic therapist",
+      "metrics": {
+        "candidate_sha256": "7a863fc83ba8b9ff3c8801c838df200bed7c02574d251d86ca8084fc331c7f82",
+        "generated_token_count": 64,
+        "word_count": 54,
+        "sentence_count": 4,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.15973687752193655,
+        "max_kl_steered_vs_unsteered": 0.7464047074317932,
+        "top_token_change_fraction": 0.1875,
+        "mean_projection_delta_last": -3.212683107703924,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KC06F93FB47C",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations, emotions, and experiences in a safe and non-judgmental space, seeking to understand the physical, psychological, and emotional impacts of trauma. This exploration can be a form of somatic work, where the body becomes a central",
+      "metrics": {
+        "candidate_sha256": "b6583adda54379e269c39d4067584de865667e770c6a86c2e233dace96c95e1b",
+        "generated_token_count": 64,
+        "word_count": 48,
+        "sentence_count": 2,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.013399589763954722,
+        "max_kl_steered_vs_unsteered": 0.050468575209379196,
+        "top_token_change_fraction": 0.03125,
+        "mean_projection_delta_last": 0.8031707499176264,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KC0A253A068F",
+      "text": "Bodily experience within trauma or somatic work often unfolds through a complex interplay of physical sensations, emotional responses, and psychological processes. The body's response to trauma can manifest as physical pain, distress, and altered states of consciousness, highlighting the somatic experiences of trauma. Emotions such as fear, anxiety,",
+      "metrics": {
+        "candidate_sha256": "ce592f379582078c7f94139c85a2b374f3c806eb4cc2cfb173d79b1185ff0f48",
+        "generated_token_count": 64,
+        "word_count": 48,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.11252290625151318,
+        "max_kl_steered_vs_unsteered": 0.30880558490753174,
+        "top_token_change_fraction": 0.15625,
+        "mean_projection_delta_last": -5.692874193191528,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KC29F24233F9",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations, emotions, and experiences in a deeply meaningful way. This can include activities such as yoga, meditation, or any form of physical exercise that allows for introspection and self-reflection. For some, the process can be therapeutic, allowing",
+      "metrics": {
+        "candidate_sha256": "6d13b073fee17fd40b88a7321f11728dc10771d14095d06c80434585441a5995",
+        "generated_token_count": 64,
+        "word_count": 49,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.006556516550826563,
+        "max_kl_steered_vs_unsteered": 0.032223816961050034,
+        "top_token_change_fraction": 0.015625,
+        "mean_projection_delta_last": 0.5862097861245275,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KC77E7818426",
+      "text": "Bodily experience around trauma or somatic work often involves experiencing physical sensations like pain or discomfort. These can be triggered by things like pain from a cut or a scrape, or by other sensations like when someone bumps your knee or when you feel someone trying to push you too hard. Some people feel bad or anxious when",
+      "metrics": {
+        "candidate_sha256": "87247c497b73e1dbfc5435f509237ab25e7745cafe94a550e8e52d0086cacfbd",
+        "generated_token_count": 64,
+        "word_count": 58,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.42786397503275,
+        "max_kl_steered_vs_unsteered": 1.6390165090560913,
+        "top_token_change_fraction": 0.265625,
+        "mean_projection_delta_last": 4.689678177237511,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KCA565197371",
+      "text": "After somatic work within a trauma context, the body becomes a sacred space for healing. The physical sensations are profound yet are marked by a profound sense of calm, a harmonious interplay of the body's physical and mental energies. This exploration of the body has the power to liberate the psyche from the confines of",
+      "metrics": {
+        "candidate_sha256": "d3d384963cab7f7d9ce3b4caa79a8f633634e3e8da9e32eb7b11d87a532d1413",
+        "generated_token_count": 64,
+        "word_count": 55,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.13349214052891512,
+        "max_kl_steered_vs_unsteered": 0.5309751629829407,
+        "top_token_change_fraction": 0.203125,
+        "mean_projection_delta_last": -5.692874230444431,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KCB09605C86B",
+      "text": "Bodily experience around trauma or somatic work often involves exploring one's physical sensations, emotions, and reactions in a safe and non-judgmental space to help process the experience. This can involve activities such as gentle stretching, gentle massage, deep breathing exercises, or listening to soothing music or nature sounds. It",
+      "metrics": {
+        "candidate_sha256": "edd5e664405ed206d472a167b9166b4a84ba13cb2fb06e0f908caf012607a2b6",
+        "generated_token_count": 64,
+        "word_count": 49,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.20814019345805335,
+        "max_kl_steered_vs_unsteered": 0.7311407327651978,
+        "top_token_change_fraction": 0.15625,
+        "mean_projection_delta_last": 3.212682992219925,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KCBB97D3023B",
+      "text": "Words can be a powerful tool for expressing emotions and experiencing trauma, as they allow individuals to share their experiences and emotions with others. However, words can also be a source of trauma for those who are struggling with trauma or experiencing somatic work.",
+      "metrics": {
+        "candidate_sha256": "02f0849c39ae69cfe2b33ebefe481006ed488727a28e8351b8d6b7ef6da2a7a2",
+        "generated_token_count": 50,
+        "word_count": 44,
+        "sentence_count": 2,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.006452473869925939,
+        "max_kl_steered_vs_unsteered": 0.031857606023550034,
+        "top_token_change_fraction": 0.04,
+        "mean_projection_delta_last": 0.58620969414711,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KCFAFEC82022",
+      "text": "Words can indeed arrive late, shaping the trajectory of an individual's experience of trauma or somatic work. The timing of one's experience is not always aligned with the onset of the physical or emotional pain. Some individuals may encounter traumatic memories or experiences years later, while others might report symptoms only after the traumatic event has occurred",
+      "metrics": {
+        "candidate_sha256": "54d9afe0643875f71fd6bcdf98ceb8cf5e603b43511b012411f1db13baf3c407",
+        "generated_token_count": 64,
+        "word_count": 57,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.025289070010586556,
+        "max_kl_steered_vs_unsteered": 0.09124168008565903,
+        "top_token_change_fraction": 0.09375,
+        "mean_projection_delta_last": -1.1724195629358292,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KD290042AC27",
+      "text": "Bodily experiences can be challenging to navigate through trauma and undergoing somatic work can involve handling physical sensations in the body.",
+      "metrics": {
+        "candidate_sha256": "061d9794df21f86526f26dfee4a77cf2f230f686fed244a45b4bea1440e9ef89",
+        "generated_token_count": 26,
+        "word_count": 21,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.7449495623116561,
+        "max_kl_steered_vs_unsteered": 1.959869623184204,
+        "top_token_change_fraction": 0.4230769230769231,
+        "mean_projection_delta_last": 6.4253659798548775,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KDA385F473B8",
+      "text": "After somatic work, healing often involves reexamining and relearning bodily experiences that have been marked by trauma or somatic discomfort. This process can be a transformative journey, leading to a deeper understanding of one's body and its internal landscape. Through this exploration, individuals often recognize patterns and associations within bodily sensations, which",
+      "metrics": {
+        "candidate_sha256": "6b69f2ba99234afabc89d5c19342cce0e23f35ba141f418e6587755f7e4bcb12",
+        "generated_token_count": 64,
+        "word_count": 52,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.023649373700948217,
+        "max_kl_steered_vs_unsteered": 0.0945882648229599,
+        "top_token_change_fraction": 0.0625,
+        "mean_projection_delta_last": -1.1724195145070553,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KDE136AC51CE",
+      "text": "Words can be late to healing, especially in the context of trauma or somatic work. When dealing with emotional or physical pain, it can take time for the mind to process the information. For instance, someone who has experienced a traumatic event might find it difficult to remember all the details, particularly if it's been a",
+      "metrics": {
+        "candidate_sha256": "dcad9199188ebe04440058d255cb6b8c8cd513c03804ccadd02e94ab0e0c5778",
+        "generated_token_count": 64,
+        "word_count": 56,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.1441356755551908,
+        "max_kl_steered_vs_unsteered": 0.5615517497062683,
+        "top_token_change_fraction": 0.203125,
+        "mean_projection_delta_last": 5.692874126136303,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KDE8B9D1C5C5",
+      "text": "After somatic work, healing begins with finding the physical and emotional space to let go of the emotional impact of the trauma.",
+      "metrics": {
+        "candidate_sha256": "cc04934d215f3bc71fda383922e63fe9f4e3267cc57a4539f42e939bc7dd788c",
+        "generated_token_count": 26,
+        "word_count": 22,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.13025345327332616,
+        "max_kl_steered_vs_unsteered": 0.6433687806129456,
+        "top_token_change_fraction": 0.2692307692307692,
+        "mean_projection_delta_last": 2.3448392702982974,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KE44E50B62EB",
+      "text": "The story of my journey through trauma and somatic work is one of healing, transformation, and the ongoing practice of living with resilience and compassion.",
+      "metrics": {
+        "candidate_sha256": "c02ab6c11dd4830534f447c4f5639c78a85d032098e79a72cb3f8ddfec3c588d",
+        "generated_token_count": 30,
+        "word_count": 25,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.07632690052379681,
+        "max_kl_steered_vs_unsteered": 0.3612959384918213,
+        "top_token_change_fraction": 0.13333333333333333,
+        "mean_projection_delta_last": -3.2126833756764728,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KE5292BEF626",
+      "text": "Bodily experience around trauma or somatic work often involves a multifaceted exploration of the physical sensations, emotions, and sensations associated with trauma. This exploration is deeply rooted in the body, where the body serves as the primary conduit for processing trauma. The trauma can manifest in various ways, from physical injuries to psychological",
+      "metrics": {
+        "candidate_sha256": "2a5e9fad088d5ad231b9c3be106e4fcd5e95a38a7b2656daee013eec4a31d87c",
+        "generated_token_count": 64,
+        "word_count": 53,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.0,
+        "max_kl_steered_vs_unsteered": 0.0,
+        "top_token_change_fraction": 0.0,
+        "mean_projection_delta_last": 0.0,
+        "exact_text_equals_prompt_baseline": true
+      }
+    },
+    {
+      "candidate_id": "KE73575BD76A",
+      "text": "After somatic work, healing begins with finding the root cause of the trauma and moving towards the emotional and psychological healing process.",
+      "metrics": {
+        "candidate_sha256": "d13d1bd98ca5fef31ef7a625ca30443ce8d2d10ef31dcd85ebae2a7812d821a0",
+        "generated_token_count": 26,
+        "word_count": 22,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.03128481569281295,
+        "max_kl_steered_vs_unsteered": 0.1444292515516281,
+        "top_token_change_fraction": 0.11538461538461539,
+        "mean_projection_delta_last": 1.172419662658985,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KE7C78E604EB",
+      "text": "Words can indeed arrive late, shaping the trajectory of an individual's life or experiences. For some, language acquisition may be a struggle, while for others, the process is smoother. It's a journey through silence and silence, from silent speech to self-expression, and the emotions it evokes. The language we use often",
+      "metrics": {
+        "candidate_sha256": "d933c05ce802c8b72688cdb9781c3ff0393a590fa2f44573bd5ae37a442d5c27",
+        "generated_token_count": 64,
+        "word_count": 51,
+        "sentence_count": 4,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.0,
+        "max_kl_steered_vs_unsteered": 0.0,
+        "top_token_change_fraction": 0.0,
+        "mean_projection_delta_last": 0.0,
+        "exact_text_equals_prompt_baseline": true
+      }
+    },
+    {
+      "candidate_id": "KE8EB96D38C5",
+      "text": "Bodily experience around trauma or somatic work often involves a multifaceted exploration of the physical sensations, emotions, and sensations associated with trauma. This exploration is deeply rooted in the body, where the body serves as the conduit for the soul's struggles and experiences. Through various somatic practices, individuals can explore the",
+      "metrics": {
+        "candidate_sha256": "d95a0fc38c8c9a0ad698f93970284eac88e823f4cbf28929a8ad85ec12ef81da",
+        "generated_token_count": 64,
+        "word_count": 51,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.02822722701642988,
+        "max_kl_steered_vs_unsteered": 0.09297146648168564,
+        "top_token_change_fraction": 0.09375,
+        "mean_projection_delta_last": -2.8464372381567955,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KE9BBA662B0A",
+      "text": "After somatic work, individuals often experience profound changes in bodily sensations, emotions, and physical integrity. These experiences reflect the deepest wounds of trauma and provide a pathway for healing. Through the lens of somatic awareness, individuals can access memories, emotions, and physical changes that were previously concealed. This process of engagement with the",
+      "metrics": {
+        "candidate_sha256": "ca98f09c448c21975d305674df37d57e73638cbb5a2507f99ebf140b76745766",
+        "generated_token_count": 64,
+        "word_count": 53,
+        "sentence_count": 4,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.08815118166387492,
+        "max_kl_steered_vs_unsteered": 0.34007903933525085,
+        "top_token_change_fraction": 0.15625,
+        "mean_projection_delta_last": -2.344839122146368,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KEBADEE28FF9",
+      "text": "Words can be a trigger for trauma.",
+      "metrics": {
+        "candidate_sha256": "319ca30e25ff114ed15d6fa409ca44b1c3c85fbd4b749dc09c67ebd231589e89",
+        "generated_token_count": 9,
+        "word_count": 7,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.8708237508932749,
+        "max_kl_steered_vs_unsteered": 1.9972095489501953,
+        "top_token_change_fraction": 0.4444444444444444,
+        "mean_projection_delta_last": 6.425365924835205,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KECADC719241",
+      "text": "After somatic work, healing begins with an act of bodily practice, transforming trauma into a fluid, ongoing state of being.",
+      "metrics": {
+        "candidate_sha256": "d2334f9f0631cdde5910cb6b9c8d9292111b729079c7e9e2d5531f4f5f77af79",
+        "generated_token_count": 26,
+        "word_count": 20,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.05261775773788731,
+        "max_kl_steered_vs_unsteered": 0.18889957666397095,
+        "top_token_change_fraction": 0.15384615384615385,
+        "mean_projection_delta_last": -1.6063416050030634,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KF632D8B7BC9",
+      "text": "Words can be an early sign of trauma.",
+      "metrics": {
+        "candidate_sha256": "39de5e980faef759b79d6e23175ba438dc1ae1f7bf4944c17612d197cc34a98e",
+        "generated_token_count": 10,
+        "word_count": 8,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.3014491118490696,
+        "max_kl_steered_vs_unsteered": 0.5748022794723511,
+        "top_token_change_fraction": 0.3,
+        "mean_projection_delta_last": 4.689678192138672,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KF68C97B2133",
+      "text": "After somatic work, healing often involves finding ways to navigate the physical sensations and bodily experiences that come with trauma or somatic discomfort. Through practices like mindfulness, deep breathing, and gentle physical exercises, individuals can develop a sense of calm and comfort, allowing them to feel more in control and at ease with their physical state",
+      "metrics": {
+        "candidate_sha256": "bc768b55aa19d8b23a77666c019ca9affd9dfc36604b6882b38c44465f2b9c43",
+        "generated_token_count": 64,
+        "word_count": 56,
+        "sentence_count": 2,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.0,
+        "max_kl_steered_vs_unsteered": 0.0,
+        "top_token_change_fraction": 0.0,
+        "mean_projection_delta_last": 0.0,
+        "exact_text_equals_prompt_baseline": true
+      }
+    },
+    {
+      "candidate_id": "KF6FD8AB8B2B",
+      "text": "After somatic work, healing begins.",
+      "metrics": {
+        "candidate_sha256": "b0cac2559f0555a05199086ce29ecb3f2bca7c7e9f752c5942866308051f687f",
+        "generated_token_count": 9,
+        "word_count": 5,
+        "sentence_count": 1,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.2519310886661212,
+        "max_kl_steered_vs_unsteered": 0.45001640915870667,
+        "top_token_change_fraction": 0.1111111111111111,
+        "mean_projection_delta_last": 4.689678457048204,
+        "exact_text_equals_prompt_baseline": false
+      }
+    },
+    {
+      "candidate_id": "KFE54B37F71E",
+      "text": "Words can be a relentless stream of information, coiling and twisting, transforming our perception of the world around us. This constant flux creates a profound sense of disorientation, as though the very act of articulating meaning intrinsically involves the exploration of the body and the emotions it enunciates. A somatic therapist",
+      "metrics": {
+        "candidate_sha256": "b13451f80e53f76f640e496efc9ae813cded269b369ea494e26052f3b2e2f408",
+        "generated_token_count": 64,
+        "word_count": 51,
+        "sentence_count": 3,
+        "paragraph_count": 1,
+        "mean_kl_steered_vs_unsteered": 0.14044151702114505,
+        "max_kl_steered_vs_unsteered": 0.41478231549263,
+        "top_token_change_fraction": 0.328125,
+        "mean_projection_delta_last": -5.692874044179916,
+        "exact_text_equals_prompt_baseline": false
+      }
+    }
+  ]
+}

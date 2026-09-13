@@ -1,7 +1,7 @@
 {
-  "schema_version": 2,
+  "schema_version": 1,
   "article_id": "romance",
-  "status": "completed_with_corrections_pending",
+  "status": "blocked",
   "audited_master": {
     "path": "articles/romance/master.md",
     "sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c",

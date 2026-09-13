@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "experiment_id": "SOMATIC-ACTIVATION-STEERING-20260902-A",
+  "pooling": "mean_non_special_response_tokens",
+  "direction": "mean_of_training_pair_positive_minus_negative",
+  "block_output_hidden_state_offset": 1,
+  "pairs": [
+    {
+      "pair_id": "T01",
+      "split": "train",
+      "instruction_sha256": "ddb926b0912339e8994cf608f70c6e5880e35ce0e18c3866dfebe16a455c58f0",
+      "positive_sha256": "61640572b0294281adb54e6c5016b7d63538f2f04682b287ce6b80267d197918",
+      "negative_sha256": "aa2c703025cd1b16f4ad630931723ba19a1938b02189749510b0789936d34e74"
+    },
+    {
+      "pair_id": "T02",
+      "split": "train",
+      "instruction_sha256": "abdf6bdeac2336f13042bd6630d1f93641ee9344e0bb367903b515ede69731dd",
+      "positive_sha256": "e9bce7e6b18ab1891970a186272bda59cf08fe08a88812dd513d68409854872a",
+      "negative_sha256": "399e9f4c8ae01a6372c4e4e839fcabec6295a4ca73ff041d0b8eeb82c02304ac"
+    },
+    {
+      "pair_id": "T03",
+      "split": "train",
+      "instruction_sha256": "2405e5631562daf2cb0146e97f6ca0f2e9844e84c8ddcb1d307770672cccc13c",
+      "positive_sha256": "d7da880166e301fe82b0e91c36c5ee8502832aa7818da4bc548b9aa7d73de285",
+      "negative_sha256": "d695c9c4b9303fc8094cbbae0aca46c5c2b134bbda507cd10c42a2a9a270b766"
+    },
+    {
+      "pair_id": "T04",
+      "split": "train",
+      "instruction_sha256": "98cbfa9d9421d776d1e903f55ee094fdeb51f7279647235ce0bbf7aff987d13d",
+      "positive_sha256": "a9e134fe3296d9f9ac6b3cea82defdf033ed3b3a973f6df0c5b209d637fa794d",
+      "negative_sha256": "5a7d326673ddfebacf9e8b26b62f30c944ea06a01a9a601b3bb7d59d2e88b529"
+    },
+    {
+      "pair_id": "T05",
+      "split": "train",
+      "instruction_sha256": "7c02ce34f8b97439d4396103e7ad5e42e240259c585bf65e8cf16e398cf35444",
+      "positive_sha256": "8119d0a3455871fa15e4b233db7e1d2cec8cb2c96f46986fc4f7ec599ce4b6df",
+      "negative_sha256": "89e578535ebc7f8e14d87501177831bcc45757581966bdf7e1434dab90d28b5e"
+    },
+    {
+      "pair_id": "T06",
+      "split": "train",
+      "instruction_sha256": "6fed997aeeea8eab5ea08100edb3efa4754fbe20a61c90f0dd83ac584e767d71",
+      "positive_sha256": "5e856ecac8d609f861b06ee5bb047f4cf3cda192af1f6ada36f559162735979f",
+      "negative_sha256": "da2381780711a3e1ef092792d448799f5a400888dc3a858155ed8b87ea321443"
+    },
+    {
+      "pair_id": "C01",
+      "split": "calibration",
+      "instruction_sha256": "8708ebdaa4a8456b7bb1a6727239bd370287725dac71d2afb42b0fcb451e3b46",
+      "positive_sha256": "770ac34d4dbb7dc47401ed249f7d6005401cd5d4616cd7bb6839d7b3b2c9981a",
+      "negative_sha256": "93800e9b4344138709cbab9b08b7b9d13f53517d0d5fbc1a55abeb0bcd27994a"
+    },
+    {
+      "pair_id": "C02",
+      "split": "calibration",
+      "instruction_sha256": "e7937b163cb333a06b47965cdc738c6706b7fb8a4f701f41ff70601265ab5569",
+      "positive_sha256": "d52bd9ade995d0ab70b502a7bd6510932e484358d7b367daa456e94e3e7e185b",
+      "negative_sha256": "a14504c4ad702e122d7bf66672b9c9a6685a133b95b27855681fd6ee354740a3"
+    }
+  ],
+  "vectors": [
+    {
+      "layer": 0,
+      "l2_norm": 0.8162286281585693,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 0.42942747473716736
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 0.44678694009780884
+        }
+      ],
+      "calibration_mean_projection_gap": 0.4381072074174881
+    },
+    {
+      "layer": 1,
+      "l2_norm": 1.122186303138733,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 0.5945650339126587
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 0.6269853115081787
+        }
+      ],
+      "calibration_mean_projection_gap": 0.6107751727104187
+    },
+    {
+      "layer": 2,
+      "l2_norm": 1.4257643222808838,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 0.7313098907470703
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 0.8659785985946655
+        }
+      ],
+      "calibration_mean_projection_gap": 0.7986442446708679
+    },
+    {
+      "layer": 3,
+      "l2_norm": 1.6909043788909912,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 0.8631988763809204
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 1.2006967067718506
+        }
+      ],
+      "calibration_mean_projection_gap": 1.0319477915763855
+    },
+    {
+      "layer": 4,
+      "l2_norm": 2.010385274887085,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 1.0950281620025635
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 1.454033613204956
+        }
+      ],
+      "calibration_mean_projection_gap": 1.2745308876037598
+    },
+    {
+      "layer": 5,
+      "l2_norm": 2.1449718475341797,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 1.2398221492767334
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 1.6637532711029053
+        }
+      ],
+      "calibration_mean_projection_gap": 1.4517877101898193
+    },
+    {
+      "layer": 6,
+      "l2_norm": 2.344839334487915,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 1.3600142002105713
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 1.792327642440796
+        }
+      ],
+      "calibration_mean_projection_gap": 1.5761709213256836
+    },
+    {
+      "layer": 7,
+      "l2_norm": 2.5154340267181396,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 1.5585366487503052
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 2.082667589187622
+        }
+      ],
+      "calibration_mean_projection_gap": 1.8206021189689636
+    },
+    {
+      "layer": 8,
+      "l2_norm": 2.6599340438842773,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 1.6656811237335205
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 2.320239543914795
+        }
+      ],
+      "calibration_mean_projection_gap": 1.9929603338241577
+    },
+    {
+      "layer": 9,
+      "l2_norm": 2.7740721702575684,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 1.766083836555481
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 2.5054945945739746
+        }
+      ],
+      "calibration_mean_projection_gap": 2.135789215564728
+    },
+    {
+      "layer": 10,
+      "l2_norm": 2.989638090133667,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 1.981810450553894
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 2.704535961151123
+        }
+      ],
+      "calibration_mean_projection_gap": 2.3431732058525085
+    },
+    {
+      "layer": 11,
+      "l2_norm": 3.04101300239563,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 2.1503751277923584
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 2.984853506088257
+        }
+      ],
+      "calibration_mean_projection_gap": 2.5676143169403076
+    },
+    {
+      "layer": 12,
+      "l2_norm": 3.2126834392547607,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 2.2924904823303223
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 3.0970757007598877
+        }
+      ],
+      "calibration_mean_projection_gap": 2.694783091545105
+    },
+    {
+      "layer": 13,
+      "l2_norm": 3.3106298446655273,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 2.3518409729003906
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 3.0861682891845703
+        }
+      ],
+      "calibration_mean_projection_gap": 2.7190046310424805
+    },
+    {
+      "layer": 14,
+      "l2_norm": 3.5520148277282715,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 2.2716383934020996
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 3.0234904289245605
+        }
+      ],
+      "calibration_mean_projection_gap": 2.64756441116333
+    },
+    {
+      "layer": 15,
+      "l2_norm": 3.7794809341430664,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 2.4498772621154785
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 3.3662421703338623
+        }
+      ],
+      "calibration_mean_projection_gap": 2.9080597162246704
+    },
+    {
+      "layer": 16,
+      "l2_norm": 4.117598533630371,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 2.378469228744507
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 3.5629351139068604
+        }
+      ],
+      "calibration_mean_projection_gap": 2.9707021713256836
+    },
+    {
+      "layer": 17,
+      "l2_norm": 5.212683200836182,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 2.997145175933838
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 4.673616886138916
+        }
+      ],
+      "calibration_mean_projection_gap": 3.835381031036377
+    },
+    {
+      "layer": 18,
+      "l2_norm": 5.692873477935791,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 3.044857978820801
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 4.794387340545654
+        }
+      ],
+      "calibration_mean_projection_gap": 3.9196226596832275
+    },
+    {
+      "layer": 19,
+      "l2_norm": 7.046477317810059,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 3.9252967834472656
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 6.0959272384643555
+        }
+      ],
+      "calibration_mean_projection_gap": 5.0106120109558105
+    },
+    {
+      "layer": 20,
+      "l2_norm": 8.28624439239502,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 4.635004997253418
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 7.372902870178223
+        }
+      ],
+      "calibration_mean_projection_gap": 6.00395393371582
+    },
+    {
+      "layer": 21,
+      "l2_norm": 9.23324966430664,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 4.933375358581543
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 7.987978458404541
+        }
+      ],
+      "calibration_mean_projection_gap": 6.460676908493042
+    },
+    {
+      "layer": 22,
+      "l2_norm": 10.194363594055176,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 5.02982234954834
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 8.61019229888916
+        }
+      ],
+      "calibration_mean_projection_gap": 6.82000732421875
+    },
+    {
+      "layer": 23,
+      "l2_norm": 48.697845458984375,
+      "training_pair_count": 6,
+      "calibration": [
+        {
+          "pair_id": "C01",
+          "projection_gap": 25.62835693359375
+        },
+        {
+          "pair_id": "C02",
+          "projection_gap": 53.91457748413086
+        }
+      ],
+      "calibration_mean_projection_gap": 39.771467208862305
+    }
+  ],
+  "vector_file": {
+    "path": "vectors.npz",
+    "sha256": "5d0d74d377677fbf0c73dab6deba7cfdef3850cbd6e9aa01b6defd648500218d",
+    "bytes": 85607
+  }
+}

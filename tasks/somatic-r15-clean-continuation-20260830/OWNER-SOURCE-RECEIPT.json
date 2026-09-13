@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "osr-somatic-humanization-20260830-001",
+  "ownerRequestId": "OR-SOMATIC-HUMANIZATION-20260830",
+  "ownerOutcomeEpoch": 3,
+  "ownerOutcomeSha256": "d851f7ac7cd7289947b6766600c490e3344b48aac652aece20a645b7b0f3200a",
+  "capturedAt": "2026-08-30T19:52:00Z",
+  "collector": "deterministic-tool",
+  "collectionMethod": "Exact user-message payloads were selected by timestamp from the raw Codex session JSONL; each complete message was hashed byte-for-byte with jq -j output and SHA-256. The excerpts below are bounded exact excerpts, not worker paraphrases.",
+  "canonicalLocator": "codex-session:01a05030-b0a2-7d53-aa35-d5f061bf5356",
+  "messages": [
+    {
+      "correctionId": "ORIGINAL",
+      "recordedAt": "2026-08-30T01:02:52.936Z",
+      "sha256": "659b84836bd2439cf680f7e4ecbe7c79c0be0c159ef4d062d74ffb756d28ea56",
+      "utf8Bytes": 16926,
+      "relation": "originates",
+      "exactExcerpts": [
+        "Finish the Somatic Therapies article humanization task as the single Codex Pro controller/executor.",
+        "Ordinary tests or a high Pangram score do not constitute task completion.",
+        "Do not call the article finished merely because Pangram says Human.",
+        "Do not promote `master.html` before the supervisor/Joel explicitly approves the final article."
+      ]
+    },
+    {
+      "correctionId": "PUBLISHING-CONTINUATION-001",
+      "recordedAt": "2026-08-30T12:44:49.953Z",
+      "sha256": "da18dcc917a23a0ca2b48470081002aafb992a133862eaa3fcec17b1df646eb0",
+      "utf8Bytes": 50,
+      "relation": "amends_interaction_boundary",
+      "exactExcerpts": [
+        "never ask me for approval for publishing, continue"
+      ]
+    },
+    {
+      "correctionId": "PANGRAM-TARGET-001",
+      "recordedAt": "2026-08-30T14:55:18.950Z",
+      "sha256": "10f9a1db365b7ca88a2ba08940779b161237b64cf467f274b2a81b4da3f8edec",
+      "utf8Bytes": 514,
+      "relation": "clarifies_target_and_requires_bootstrap",
+      "exactExcerpts": [
+        "i don't understand, it looks like you've done absolutely nothing this whole time. the point was to reach 100% human on pangram?",
+        "Do not replace, restart, or broaden your current task. Continue automatically afterward."
+      ]
+    },
+    {
+      "correctionId": "HUMANIZATION-GOAL-001",
+      "recordedAt": "2026-08-30T14:57:06.336Z",
+      "sha256": "25146fb2db704b0437f8eb36e634306acae5dda330568cc2e20d3778cde54c40",
+      "utf8Bytes": 67,
+      "relation": "reasserts_original_goal",
+      "exactExcerpts": [
+        "are you saying i never explained that the point was to humanize it?"
+      ]
+    },
+    {
+      "correctionId": "SUPERVISION-HOTFIX-AND-DELIVERY-001",
+      "recordedAt": "2026-08-30T19:48:25.417Z",
+      "sha256": "a9ec740aeaaa6cbf654a7d7a206b288831a7aec1560905c327138613eb27a917",
+      "utf8Bytes": 1405,
+      "relation": "amends_supervision_and_delivery",
+      "exactExcerpts": [
+        "implement these instructions then continue with humanizing until done, then give me the link to a chat that contains the new commentable diff we developed as well as the final draft i can see.",
+        "At your next safe checkpoint, adopt its independent owner-source receipt, objective-reconciliation matrix, separate worker-to-contract and contract-to-owner alignment states, typed completion claim, and recurring reconciliation rules.",
+        "Continue unaffected task work automatically."
+      ]
+    },
+    {
+      "correctionId": "AUTONOMOUS-CONTINUATION-002",
+      "recordedAt": "2026-08-30T22:35:54.838Z",
+      "sha256": "0a7bc242299a0eedd829177fc0056d6815abeceb83064e4b6e36ec319e21f475",
+      "utf8Bytes": 67,
+      "relation": "reasserts_autonomous_interaction_boundary",
+      "exactExcerpts": [
+        "you don't need to ask me, just do it unless there's a reason not to"
+      ]
+    }
+  ],
+  "workerSuppliedCopySha256": null,
+  "comparison": "WORKER_COPY_ABSENT",
+  "limitations": [
+    "The Codex session has no repository-portable message URL; complete-message hashes and bounded exact excerpts are preserved here instead.",
+    "The 100% Pangram Human correction does not make detector evidence sufficient without the preservation and editorial gates retained from the originating request.",
+    "AUTONOMOUS-CONTINUATION-002 changes no substantive acceptance criterion; it reaffirms that routine safe continuation must not be turned into approval requests."
+  ]
+}
