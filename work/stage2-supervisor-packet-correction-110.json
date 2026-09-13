@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "correction_id": "stage2-supervisor-packet-correction-110",
+  "trigger": "iteration_107b",
+  "durable_lessons": [
+    "Fresh-writer isolation does not rescue a packet that already bundles multiple custody units into one movement.",
+    "Before dispatch, audit the semantic packet itself for preservation-unit serialization.",
+    "A local reader question should normally expose one governing semantic pressure, not every related warning or qualification.",
+    "When a packet contains a governing thought plus related safety details, keep the governing thought in the writer packet and route the details to safety custody unless the reader-facing thought independently earns them.",
+    "If a candidate faithfully serializes an overpacked packet, treat the failure as supervisor architecture error rather than adding more prohibitions to the writer."
+  ],
+  "packet_gate": {
+    "one_live_pressure": true,
+    "no_related_unit_completion_requirement": true,
+    "no_safety_inventory_hidden_as_semantic_context": true,
+    "architecture_check_before_fresh_writer_dispatch": true
+  },
+  "pangram_authorized": false
+}

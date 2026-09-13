@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "iteration": 115,
+  "candidate_sha256": "12b8c6d92189600933a4d1fa7a74ac84fbfec4588fe8ef370418e9c223c39ded",
+  "utf8_bytes": 129,
+  "whitespace_words": 21,
+  "ingress_class": "ON_CURSOR_NEW_INGRESS",
+  "historical_exact_match": false,
+  "semantic_sanity": "FAIL",
+  "architecture": "NOT_ADMITTED_AFTER_SEMANTIC_FAILURE",
+  "preservation": "INTENDED_FUNCTION_PRESENT_BUT_SURFACE_RELATION_DISTORTED",
+  "blocking_defect": "GRAMMATICAL_AGENCY_DISTORTION",
+  "diagnosis": "The surface grammar assigns muscular tension the wrong syntactic role, so the intended relation is not stated cleanly enough to retain by interpretation.",
+  "repair_route": "FRESH_WRITER_RERUN_SAME_MOVEMENT",
+  "deletion_only_repair_available": false,
+  "cursor_advance": false,
+  "next_target": "115b",
+  "pangram": "NOT_RUN_NOT_AUTHORIZED"
+}

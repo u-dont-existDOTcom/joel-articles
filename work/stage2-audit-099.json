@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "candidate_id": "098",
+  "chat_literal_sha256": "aa69fb14846dfc6922a0e738f048bfa7103ed190ae75d7e97d12e1d67b4d9be5",
+  "rendered_sha256": "0e31c5bae7ed5fa9750a266c0858481d30b908c95071e56dd995aa0a835b1ea3",
+  "verdict": "REJECT",
+  "architecture": "FAIL",
+  "forward_traceability": "PASS",
+  "reverse_traceability": "FAIL",
+  "same_context_independent": false,
+  "next_method": "AMEND_PRESENTATION_ARCHITECTURE_AND_USE_GENUINELY_FRESH_WRITER",
+  "strategy_100": {
+    "parent": "V7",
+    "creates_v8": false,
+    "planes_are_custody_destinations_not_required_visible_blocks": true,
+    "same_context_writing_is_not_evidence": true,
+    "fresh_writer_required": true,
+    "container_swap_is_not_method_success": true,
+    "progressive_disclosure_for_reference_details": true,
+    "architecture_review_before_preservation_defense": true,
+    "destination_transfer_check_required": true
+  },
+  "iteration_101": {
+    "candidate_sha256": "6918d63c769bc9ac28fc3092854fbd841709ad1b7af10213218f234abe14a8e0",
+    "architecture": "PROVISIONAL_PASS",
+    "preservation": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "method_evidence": "DEGRADED_PACKET_SURFACE_LEAKAGE",
+    "disposition": "RETAIN_AS_PRODUCTION_CANDIDATE_NOT_AS_STRONG_GENERATOR_EVIDENCE"
+  },
+  "strategy_102": {
+    "surface_neutral_semantic_encoding": true,
+    "advance_by_reader_question": true,
+    "do_not_embed_near_publication_sentences_in_writer_packet": true,
+    "split_spontaneous_vs_deliberate_distinction_from_choice_rationales": true
+  },
+  "iteration_102": {
+    "candidate_sha256": "035cd4c2b063812fab05d87565f97e998f1d8c69ed2dde7422ab99c51d123906",
+    "utf8_bytes": 433,
+    "whitespace_words": 70,
+    "as_submitted_architecture": "FAIL",
+    "preservation": "PASS",
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "blocking_defect": "OVERCOMPLETED_SYMMETRIC_RECAP",
+    "repair_type": "DELETE_REDUNDANT_FINAL_SENTENCE",
+    "repair_authority": "GENUINE_DUPLICATE_FUNCTION_CONSOLIDATION",
+    "repaired_candidate_sha256": "eae6db0cdaf25efacfd47e546bcd7618bdc8a4e3cfec3240cc34c795097d7f22",
+    "repaired_utf8_bytes": 241,
+    "repaired_whitespace_words": 38,
+    "repaired_architecture": "PROVISIONAL_PASS",
+    "repaired_preservation": "PASS",
+    "disposition": "RETAIN_REPAIRED_TWO_SENTENCE_MOVEMENT",
+    "next_method": "ADVANCE_TO_NEXT_READER_QUESTION_WITHOUT_REWRITING_ACCEPTED_MOVEMENT"
+  },
+  "strategy_103": {
+    "critic_may_use_deletion_only_repair_when_redundant_aftercare_is_fully_carried_by_surviving_realization": true,
+    "do_not_restart_generation_when_pure_deletion_repairs_architecture_without_semantic_loss": true
+  },
+  "iteration_104": {
+    "candidate_sha256": "a825e585d503066011c8fe72753b9d4dcaa7f1e7d34f759d0f7faef6a1689601",
+    "utf8_bytes": 577,
+    "whitespace_words": 97,
+    "as_submitted_architecture": "FAIL",
+    "preservation": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "blocking_defects": [
+      "ABSTRACT_RATIONALE_STAGING",
+      "PRESERVATION_UNIT_SERIALIZATION",
+      "TIDY_NONSEQUENCE_CLOSE"
+    ],
+    "repair_type": "DELETE_ABSTRACT_OPEN_AND_ROUTE_NONSEQUENCE_CAVEAT_FORWARD",
+    "repaired_candidate_sha256": "41c94a70dde5511e5e217e26ba9dad3cb31c3a3e80bd99bc97519dee04fcd84e",
+    "repaired_utf8_bytes": 328,
+    "repaired_whitespace_words": 53,
+    "repaired_architecture": "PROVISIONAL_PASS",
+    "repaired_reverse_traceability": "PASS",
+    "unexplained_substantive_deltas_after_repair": 0,
+    "residual_function_routed_forward": "NOT_A_MANDATORY_SEQUENCE",
+    "disposition": "RETAIN_MIDDLE_TWO_SENTENCES_AS_CURRENT_RATIONALE_MOVEMENT"
+  },
+  "strategy_105": {
+    "do_not_use_abstract_reason_announcement_when_the_next_sentence_already_performs_the_reason": true,
+    "route_required_caveat_to_the_first_boundary_where_the_misreading_it_prevents_becomes_live": true,
+    "do_not_force_every_semantic_unit_in_a_writer_packet_into_the_same_paragraph": true
+  }
+}

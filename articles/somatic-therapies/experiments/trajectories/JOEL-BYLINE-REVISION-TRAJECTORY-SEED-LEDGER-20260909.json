@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "created": "2026-09-09",
+  "status": "experimental_retrieval_seed_ledger",
+  "purpose": "High-precision seed corpus for retrieving structurally analogous Joel-byline correction trajectories. Retrieve lessons and operation relations, never unrelated prose as a publication donor.",
+  "training_status": "retrieval_only_baseline_authorized_by_strategy; parameter_training_not_justified",
+  "detector_policy": "Pangram metadata is secondary exact-boundary evidence only. Do not optimize retrieval or generation directly for detector labels and do not run Pangram unless Joel explicitly asks.",
+  "split_policy": "Cluster all revisions/audits/detector records for the same natural boundary into one trajectory. Never split near-duplicate revisions of one boundary across train/evaluation sets.",
+  "excluded_global_evidence": [
+    {
+      "path": "articles/somatic-therapies/experiments/SOMATIC-AQUATIC-OWNER-REPORTED-HUMAN-MED-AI-HIGH-SPLIT-20260909.md",
+      "reason": "retracted false assistant detector attribution; never use as label or method evidence"
+    }
+  ],
+  "clusters": [
+    {
+      "trajectory_id": "JBT-001-somatic-introduction-owner-teaching",
+      "article_id": "somatic-therapies",
+      "boundary_family": "Introduction manual humanization and owner teaching",
+      "source_paths": [
+        {
+          "path": "articles/somatic-therapies/experiments/trajectories/SOMATIC-INTRO-OWNER-TEACHING-TRAJECTORY-20260902.md",
+          "blob_sha": "de2529ca3521788bfc6955cc2c73a86ab3b55787",
+          "role": "raw_chronological_trajectory"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/trajectories/SOMATIC-INTRO-OWNER-TEACHING-TRAJECTORY-20260902-FROZEN.md",
+          "blob_sha": "1fe501cfe5e3f42dba2e9abb51144aba36071084",
+          "role": "frozen_summary_and_lessons"
+        }
+      ],
+      "owner_thought_topology_available": "partial_then_direct_owner_rewrite",
+      "failure_stages": [
+        "REALIZATION",
+        "SEMANTIC_FIDELITY",
+        "OVERCOMPLETION_STOPPING"
+      ],
+      "failure_tags": [
+        "model_revision_plateau",
+        "generic_humanization_surface",
+        "semantic_rethinking_required",
+        "owner_rewrite_strategy_switch"
+      ],
+      "operation_types": [
+        "rewrite",
+        "owner_correction",
+        "strategy_switch",
+        "freeze"
+      ],
+      "lesson_abstract": "Repeated same-method model revisions did not become less model-shaped. Joel's eventual rewrite changed both prose and parts of the reasoning. When the model is revising the wrong or insufficiently authorial thought, stop polishing realization and recover/correct the cognition first.",
+      "what_must_not_be_learned": [
+        "copy Joel's Introduction wording into unrelated sections",
+        "treat owner substitution as generator improvement",
+        "infer that every model-shaped passage requires a complete owner rewrite"
+      ],
+      "retrieval_keys": [
+        "same-method revision plateau",
+        "owner cognition missing or wrong",
+        "surface humanization not improving",
+        "strategy switch to owner thought recovery"
+      ],
+      "detector_evidence": "trajectory includes owner-reported detector judgments; use only at their recorded exact boundaries"
+    },
+    {
+      "trajectory_id": "JBT-002-somatic-stage1-triad-program",
+      "article_id": "somatic-therapies",
+      "boundary_family": "Stage 1 Somatic Experiencing / borrowed-adult / Yoga generation",
+      "source_paths": [
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-STAGE1-TRIAD-PROGRAM-SHAPE-OWNER-CORRECTION-AUDIT-20260907.md",
+          "blob_sha": "062c1817f70c3a938dd2e136c076751a2deac237",
+          "role": "owner_correction_audit"
+        }
+      ],
+      "owner_thought_topology_available": "semantic_functions_available_but_generator_controlled_architecture",
+      "failure_stages": [
+        "REALIZATION",
+        "ROUTE_SELECTION",
+        "OVERCOMPLETION_STOPPING"
+      ],
+      "failure_tags": [
+        "preservation_unit_serialization",
+        "nested_enumeration",
+        "compact_program_shape",
+        "inventory_as_composition_outline"
+      ],
+      "operation_types": [
+        "reject",
+        "owner_substitution",
+        "method_escalation"
+      ],
+      "lesson_abstract": "Correct owner/source functions can still become model-shaped when the generator serializes them into nested lists or condition-problem-remedy programs. Preserve the functions in the ledger, but do not make the generator consume them together or in ledger order.",
+      "what_must_not_be_learned": [
+        "ban all lists or conditionals",
+        "change list length as the repair",
+        "count inserted owner text as evidence that the generator improved"
+      ],
+      "retrieval_keys": [
+        "preservation inventory visible in prose",
+        "nested term/action enumeration",
+        "compact state-problem-remedy program",
+        "semantic obligations correct but topology wrong"
+      ],
+      "detector_evidence": "mixed boundary-specific owner reports; no global transfer"
+    },
+    {
+      "trajectory_id": "JBT-003-somatic-yoga-contrast-completion",
+      "article_id": "somatic-therapies",
+      "boundary_family": "Stage 1 Yoga functional interoception natural-boundary probe",
+      "source_paths": [
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-STAGE1-YOGA-MEDIUM-AI-OWNER-CORRECTION-20260908.md",
+          "blob_sha": "839a2641cfa8404108202a14901f6890ceff3b10",
+          "role": "exact_probe_owner_detector_correction_and_method_escalation"
+        }
+      ],
+      "owner_thought_topology_available": "owner_nucleus_available; reference_inventory_separate",
+      "failure_stages": [
+        "REALIZATION",
+        "OVERCOMPLETION_STOPPING"
+      ],
+      "failure_tags": [
+        "contrast_completion",
+        "conceptual_space_completion",
+        "positive_then_negated_alternative",
+        "category_then_excluded_opposite"
+      ],
+      "operation_types": [
+        "reject",
+        "method_close",
+        "architecture_separation"
+      ],
+      "lesson_abstract": "After list/triad repairs, the model still repeatedly completed each conceptual space by supplying the opposite or negated category. The repair is not token substitution; close the same-method narrative lane and separate the owner conceptual nucleus from genuine reference/inventory material.",
+      "what_must_not_be_learned": [
+        "ban the word not",
+        "ban contrast when contrast is the real thought",
+        "treat Yoga content as blocked"
+      ],
+      "retrieval_keys": [
+        "positive proposition followed by unnecessary negated complement",
+        "category selection followed by excluded opposite",
+        "conceptual completion after live thought already sufficient",
+        "critic improves but generator repeats deeper prior"
+      ],
+      "detector_evidence": "exact visible Yoga probe owner-reported AI / medium confidence; no numeric fractions/model metadata"
+    },
+    {
+      "trajectory_id": "JBT-004-somatic-massage-aquatic-topology",
+      "article_id": "somatic-therapies",
+      "boundary_family": "Massage and Aquatic Bodywork owner-source realization",
+      "source_paths": [
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-MASSAGE-AQUATIC-BODYWORK-INTEGRATION-CANDIDATE-20260908.md",
+          "blob_sha": "4a9e81b7ea54f609542fec426096c551b015e5e6",
+          "role": "rejected_initial_candidate"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-MASSAGE-AQUATIC-COLD-AUDIT-STRATEGY-20260909.md",
+          "blob_sha": "076774fc4d0a77beed951875c59dabadd4b4cb55",
+          "role": "failure_audit_and_strategy_switch"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-AQUATIC-BODYWORK-TAIL-REDISTRIBUTION-CANDIDATE-20260909.md",
+          "blob_sha": "dd078bac93a69a9da536143ae3904d2eaf89b215",
+          "role": "successful_owner_thought_realization_candidate"
+        }
+      ],
+      "owner_thought_topology_available": "yes_direct_connected_owner_thought_and_weighting",
+      "failure_stages": [
+        "ROUTE_SELECTION",
+        "REALIZATION",
+        "PROVENANCE",
+        "PLACEMENT",
+        "OVERCOMPLETION_STOPPING"
+      ],
+      "failure_tags": [
+        "owner_thought_atomization",
+        "editorial_card_decomposition",
+        "source_type_reset",
+        "invented_first_person",
+        "forced_subsection_completeness",
+        "procedural_staircase"
+      ],
+      "operation_types": [
+        "reject",
+        "recover_owner_topology",
+        "redistribute",
+        "bank_unconsumed_function"
+      ],
+      "lesson_abstract": "One irregular owner thought was damaged when reorganized into modality, evidence, advice, and safety cards. The improved realization preserved Joel's/Hale's connected order, asymmetry, and stopping point, left massage functions banked rather than forcing completeness, and kept provenance with Hale.",
+      "what_must_not_be_learned": [
+        "copy aquatic wording into other modalities",
+        "assume owner input alone causes Human classification",
+        "infer general generator improvement from a successful owner-fed realization",
+        "use the retracted false aquatic split"
+      ],
+      "retrieval_keys": [
+        "owner thought reorganized into editorial cards",
+        "practitioner observation turned into Joel autobiography",
+        "research source becomes separate mini-essay",
+        "heading forces unsupported subsection completeness",
+        "preserve owner weighting and stop"
+      ],
+      "detector_evidence": "full exact redistributed aquatic candidate owner-reported Human / medium confidence; result supports owner-thought realization only"
+    },
+    {
+      "trajectory_id": "JBT-005-romance-e18-unique-function-dedup",
+      "article_id": "romance",
+      "boundary_family": "E18 outside support / community-building dedup review",
+      "source_paths": [
+        {
+          "path": "work/romance-owner-manual-dedup-20260827/REVIEW-V3-OWNER-FEEDBACK-20260827.md",
+          "blob_sha": "8e1d9b355b65a18ec8b55e2599f221b969554684",
+          "role": "owner_review_correction"
+        }
+      ],
+      "owner_thought_topology_available": "owner_identified_unique_function_after_overcompression",
+      "failure_stages": [
+        "SEMANTIC_FIDELITY",
+        "ROUTE_SELECTION",
+        "PLACEMENT"
+      ],
+      "failure_tags": [
+        "false_redundancy",
+        "unique_function_swallowed_by_dedup",
+        "topical_similarity_mistaken_for_functional_duplication"
+      ],
+      "operation_types": [
+        "restore_function",
+        "preserve_dedup_operation_where_valid"
+      ],
+      "lesson_abstract": "An editor can correctly identify repeated surface material yet still delete a unique function hidden inside it. Here, relying on friends was not merely outside support; it was itself part of creating/deepening community. Dedup must compare rhetorical/causal function, not topic overlap.",
+      "what_must_not_be_learned": [
+        "restore every repeated paragraph",
+        "treat inferability as deletion authority",
+        "replace all consolidation with verbatim preservation"
+      ],
+      "retrieval_keys": [
+        "dedup deletes unique function",
+        "same topic different rhetorical job",
+        "consolidation needs function routing",
+        "owner says I liked this idea"
+      ],
+      "detector_evidence": "not the controlling supervision for this trajectory"
+    },
+    {
+      "trajectory_id": "JBT-006-romance-r7-minimum-dose-realization",
+      "article_id": "romance",
+      "boundary_family": "R7 surviving assistant realization inside owner-approved structural operations",
+      "source_paths": [
+        {
+          "path": "work/romance-owner-manual-dedup-20260827/R7-HUMANIZATION-AND-SUBSTACK-MERGE-20260827.md",
+          "blob_sha": "bb2fb67dae80462976b5ccf9438a93f8429668b5",
+          "role": "result_and_reusable_editorial_lesson"
+        },
+        {
+          "path": "work/romance-owner-manual-dedup-20260827/R7-HUMANIZATION-PRESERVATION-RECEIPT.json",
+          "blob_sha": "81e831728f63123ab529d4d460483fb71c8a66a7",
+          "role": "preservation_receipt"
+        }
+      ],
+      "owner_thought_topology_available": "approved_operations_and_owner_prose_available",
+      "failure_stages": [
+        "REALIZATION"
+      ],
+      "failure_tags": [
+        "assistant_surface_survives_after_operation_approval",
+        "minimum_edit_dose",
+        "structural_approval_not_wording_approval"
+      ],
+      "operation_types": [
+        "minimum_dose_rewrite",
+        "owner_language_rollback",
+        "preserve_approved_structure"
+      ],
+      "lesson_abstract": "Once Joel approves a structural move/consolidation, that does not lock the assistant wording used to realize it. Humanize only the surviving assistant surface, preserve untouched owner prose, restore real owner wording where it still performs the approved operation, and generate fresh syntax only for genuinely necessary relations.",
+      "what_must_not_be_learned": [
+        "broad rewrite after structural approval",
+        "treat detector success as permission for semantic change",
+        "assume every approved assistant sentence is owner-final"
+      ],
+      "retrieval_keys": [
+        "approved structure but assistant wording remains",
+        "minimum-dose humanization",
+        "rollback to owner language",
+        "do not reopen untouched owner prose"
+      ],
+      "detector_evidence": "exact R7 candidate owner-reported 100% Human / high confidence; zero unexplained substantive deltas"
+    },
+    {
+      "trajectory_id": "JBT-007-romance-r23r2-local-owner-order",
+      "article_id": "romance",
+      "boundary_family": "Two Pillars local owner-final order/realization correction",
+      "source_paths": [
+        {
+          "path": "work/romance-r22-reconciliation-20260823/R23R2-OWNER-FINAL-DELTA.json",
+          "blob_sha": "f090fd9df4e468ba51fa5e1a3245bb1f349f15a2",
+          "role": "exact_owner_final_local_delta_and_preservation_mapping"
+        }
+      ],
+      "owner_thought_topology_available": "yes_exact_owner_local_order",
+      "failure_stages": [
+        "REALIZATION"
+      ],
+      "failure_tags": [
+        "local_order_sensitivity",
+        "meaning_matched_realization_difference",
+        "minimum_delta"
+      ],
+      "operation_types": [
+        "reorder",
+        "owner_final_local_rewrite"
+      ],
+      "lesson_abstract": "A very small local order/realization change can matter while all semantic functions remain fixed. This is high-value reviser/reranker data because content authority and preservation are controlled more tightly than in a complete owner rewrite.",
+      "what_must_not_be_learned": [
+        "copy idiosyncratic typo/spacing into unrelated prose",
+        "infer phrase-level Pangram causality",
+        "normalize owner-final bytes because they look irregular"
+      ],
+      "retrieval_keys": [
+        "meaning matched but local order wrong",
+        "minimum realization delta",
+        "owner exact local ordering",
+        "detector boundary changes without semantic change"
+      ],
+      "detector_evidence": "prior local realization owner-reported AI / low confidence; exact owner-final local realization Human / low confidence and accepted good enough"
+    }
+  ],
+  "next_evaluation": {
+    "baseline_A": "V3 production router without trajectory retrieval",
+    "baseline_B": "V3 production router plus one to three structurally analogous trajectory lessons",
+    "primary_outcomes": [
+      "repeat owner-identified failure rate",
+      "amount of owner rewriting required",
+      "preservation and provenance failures",
+      "unnecessary model scaffold",
+      "owner acceptance or preference"
+    ],
+    "pangram": "only if separately requested by Joel"
+  }
+}

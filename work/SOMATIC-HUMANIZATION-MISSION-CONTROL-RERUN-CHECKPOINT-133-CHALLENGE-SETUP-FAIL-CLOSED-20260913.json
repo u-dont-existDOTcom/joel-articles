@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "checkpoint_id": "somatic-humanization-mission-control-133-challenge-setup-fail-closed-20260913",
+  "recorded_at": "2026-09-13T01:35:02Z",
+  "directive": "SOMATIC-HUMANIZATION-MISSION-CONTROL-RERUN-DIRECTIVE-133-20260913.md",
+  "setup_request_source": "pasted operational request continuing checkpoint 6718781e936ee36fb89187fb7c5d90777dde6e4d",
+  "target_repository": "u-dont-existDOTcom/joel-articles",
+  "target_branch": "task/somatic-intro-progress-controller-20260831",
+  "prior_checkpoint_commit": "6718781e936ee36fb89187fb7c5d90777dde6e4d",
+  "execution_state": "STOPPED_FAIL_CLOSED_BEFORE_CHALLENGE_ROTATION",
+  "runtime_identity": {
+    "primary_configured_url": "http://127.0.0.1:3000",
+    "primary_submission_authority_url": "http://127.0.0.1:3000/api/submission-authority",
+    "observed_runtime_container": "mission-control-issue90-live",
+    "railway_service_identity_proven": false,
+    "required_service": "mission-control-hotfix",
+    "production_service_touched": false
+  },
+  "challenge_rotation": {
+    "existing_registrations_read": true,
+    "registrations_mutated": false,
+    "new_challenges_issued": 0,
+    "public_nonce_fixtures_written": 0,
+    "primary_registry_mutated": false,
+    "secondary_modified": false
+  },
+  "capability_refresh": {
+    "provider_capability_send_count": 0,
+    "mcp_preflight_attempts": 0,
+    "capabilities_attempts": 0,
+    "receipts": []
+  },
+  "experiment": {
+    "rerun_133_entered": false,
+    "candidate_count": 0,
+    "role_count": 0,
+    "controller_cycles": 0,
+    "pangram_calls": 0
+  },
+  "preservation": {
+    "primary_health_before_stop": "READY",
+    "primary_lock_before_stop": "FREE",
+    "secondary_health_before_stop": "STANDBY_READY",
+    "relay_lock_correction_preserved": true,
+    "active_lease_changed": false,
+    "pacing_changed": false,
+    "browser_ownership_changed": false,
+    "ordinary_task_sending_enabled": false,
+    "humanization_methodology_changed": false,
+    "workstation_browser_or_clipboard_used": false
+  },
+  "stop_reason": "CHATGPT_MISSION_CONTROL_PRIMARY_URL_IS_LOOPBACK_AND_LIVE_PROCESS_IS_NOT_PROVABLY_THE_EXISTING_RAILWAY_MISSION_CONTROL_HOTFIX_SERVICE",
+  "owner_action_required": "Provide or restore the established service-scoped Railway control path sufficient to prove mission-control-hotfix identity and mutate only its private configuration. Do not proceed against the loopback runtime by inference, and do not touch the separate production service.",
+  "final_state": "FAIL_CLOSED_NO_CHALLENGE_SETUP_NO_PROVIDER_SEND_NO_EXPERIMENT"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "decision_id": "stage2-safety-footnote-placement-120",
+  "source_authority": "articles/somatic-therapies/experiments/SOMATIC-STAGE2-V7-TECHNICAL-SAFETY-RECOVERY-004-SHAKING-YIN-20260910.md",
+  "source_blob_sha": "dea391b72845df94abc0795e6777b2abf95750bc",
+  "placements": [
+    {
+      "source_object": "SHAKING_SCOPE_INSTABILITY_OBJECT",
+      "surface": "NATIVE_SUBSTACK_FOOTNOTE",
+      "anchor": "END_OF_STRONGER_SHAKING_VOLUNTARY_CONTROL_MOVEMENT",
+      "wording_policy": "SOURCE_EXACT_TECHNICAL_CUSTODY"
+    },
+    {
+      "source_object": "YIN_SAFETY_OBJECT",
+      "surface": "NATIVE_SUBSTACK_FOOTNOTE",
+      "anchor": "FIRST_STAGE2_GENTLE_YIN_YOGA_MENTION",
+      "wording_policy": "SOURCE_EXACT_TECHNICAL_CUSTODY"
+    }
+  ],
+  "clipboard_helper_footnote_transport": "UNVERIFIED",
+  "destination_plan": "MANUAL_NATIVE_INSERTION_PLUS_ATTACHMENT_AND_CONTENT_READBACK",
+  "mainline_rewrite_required": false,
+  "combined_rendered_boundary_audit_required": true,
+  "pangram": "NOT_RUN_NOT_AUTHORIZED"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "checkpoint_id": "somatic-humanization-mission-control-132-20260912-fail-closed",
+  "recorded_at": "2026-09-12T22:51:25Z",
+  "directive": "SOMATIC-HUMANIZATION-MISSION-CONTROL-WORK-DIRECTIVE-132-20260912.md",
+  "objective": "LEARN_AND_VALIDATE_A_GENERALIZABLE_HUMANIZATION_METHOD",
+  "target_repository": "u-dont-existDOTcom/joel-articles",
+  "target_branch": "task/somatic-intro-progress-controller-20260831",
+  "target_head_verified_before_checkpoint": "4255b0525535f7017bf5594bcec324e6fe4d8a99",
+  "execution_state": "STOPPED_FAIL_CLOSED_BEFORE_EXPERIMENT_START",
+  "candidate_identities": [],
+  "roles_created": [],
+  "writer_controller_cycles": 0,
+  "pangram_calls": 0,
+  "second_held_out_target_run": false,
+  "runtime_preflight": {
+    "existing_runtime": "PRESENT",
+    "mission_control_single_writer": "HEALTHY",
+    "active_lease": "PRIMARY",
+    "global_minimum_interval_ms": 60000,
+    "primary_health": "UNAVAILABLE",
+    "secondary_health": "STANDBY_READY",
+    "registered_supervisor_reachability": "UNAVAILABLE",
+    "primary_health_service": "FAILED",
+    "primary_health_failure": "Another relay process holds /home/cloudbrowser/.local/state/mission-control-chatgpt-relay/relay.lock.",
+    "blocking_process": "/tmp/chatgpt-direct-cadence-test.mjs",
+    "blocking_process_started": "2026-09-12T22:47:36Z",
+    "recovery_attempt": "Existing worker adapter poll completed with authenticated transport observation; it did not restore primary relay health."
+  },
+  "work_reasoning_preflight": {
+    "requested_level": "LOW / lowest available sufficient",
+    "actual_setting_observable": false,
+    "action": "No semantic or methodological reasoning was performed; mechanical execution stopped at runtime gate."
+  },
+  "gates": {
+    "mc_only_ownership": "NOT_ENTERED",
+    "exact_model_and_thinking_controls": "NOT_ENTERED",
+    "fresh_context_separation": "NOT_ENTERED",
+    "provider_send_admission": "NOT_ENTERED",
+    "pangram": "NOT_ELIGIBLE"
+  },
+  "stop_reason": "STOP_FAIL_CLOSED_PRIMARY_RELAY_HEALTH_UNAVAILABLE_AND_EXCLUSIVE_RELAY_LOCK_HELD_BY_PREEXISTING_PROCESS",
+  "owner_action_required": "Release or otherwise resolve the existing relay lock through the authorized runtime owner process, then rerun this directive. Do not start the experiment against the standby host or bypass the shared relay/queue authority.",
+  "prose_or_article_changes": "NONE",
+  "runtime_changes": "NONE",
+  "publication_or_install": "NONE"
+}

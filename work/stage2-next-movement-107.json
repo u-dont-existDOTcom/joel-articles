@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "movement_id": "stage2-more-active-not-more-intense-107",
+  "reader_question": "IF_DELIBERATE_SHAKING_IS_MORE_ACTIVE_DOES_THAT_MEAN_MORE_INTENSE_IS_BETTER",
+  "semantic_units": [
+    "DELIBERATE_SHAKING_IS_NOT_A_PROGRESS_LADDER",
+    "DO_NOT_CHASE_CATHARSIS_OR_INTENSITY_AS_THE_GOAL",
+    "THE_PRACTICE_SHOULD_REMAIN_STOPPABLE_ORIENTABLE_AND_SETTLEABLE"
+  ],
+  "withheld_for_later": [
+    "SEVERE_PTSD_SCOPE",
+    "HIGH_DISSOCIATION_OR_INSTABILITY_SKILLED_HELP_SCOPE",
+    "DURATION_AND_USE_CONTEXT_REFERENCE",
+    "MECHANISM_AND_QIGONG_EXPLANATION",
+    "POST_SHAKING_SETTLING_OPTIONS"
+  ],
+  "surface_neutral_packet_required": true,
+  "fresh_writer_required": true,
+  "prior_candidate_prose_forbidden": true,
+  "architecture_review_before_preservation_defense": true,
+  "pangram_authorized": false
+}

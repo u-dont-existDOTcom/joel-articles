@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "correction_id": "humanization-pangram-antidrift-owner-correction-131",
+  "date": "2026-09-12",
+  "owner_correction": "Use Pangram in the humanization-learning flow when the supervisor genuinely expects the candidate to pass. Pangram can serve as a check on mistaken model judgments that prose looks human. Do not let a detector miss trigger another open-ended experimental loop or drift into adjacent work.",
+  "top_level_objective": "LEARN_AND_VALIDATE_A_GENERALIZABLE_HUMANIZATION_METHOD",
+  "pangram_role": {
+    "purpose": "FALSIFY_FALSE_HUMAN_JUDGMENTS",
+    "not_role": [
+      "WRITE_THE_PROSE",
+      "EXPLAIN_WHY_THE_PROSE_IS_AI",
+      "AUTHORIZE_PHRASE_HUNTING",
+      "OVERRIDE_SEMANTIC_OR_ARCHITECTURE_FAILURE"
+    ],
+    "admission": "Run Pangram only on an exact frozen candidate that has passed architecture review and preservation/reverse-traceability, and that the supervisor predicts should be Human.",
+    "interpretation": "A Pangram AI/Mixed result proves the supervisor's human-likeness prediction failed at that exact boundary; diagnose the literal prose independently rather than treating detector windows as causal explanations."
+  },
+  "anti_drift_budget": {
+    "held_out_target": "Stage 3 / Brainspotting",
+    "maximum_method_level_candidates": 2,
+    "maximum_new_pangram_calls": 2,
+    "maximum_writer_controller_cycles_per_candidate": 4,
+    "on_first_detector_failure": "One bounded diagnosis and one materially changed generation-method attempt are allowed.",
+    "after_second_detector_result_or_second_method_candidate": "Mandatory owner checkpoint. Do not open a new experiment family, run factorial/minimal-pair searches, hunt phrases, continue article completion, or consume another paid call without new owner direction."
+  },
+  "progress_rule": "Count a negative result as STRATEGY_LEARNING only when it eliminates or narrows a live method hypothesis. Activity volume is not progress.",
+  "article_install_authorized": false,
+  "publishing_work_authorized": false,
+  "citation_work_authorized": false,
+  "related_correction": "work/stage2-humanization-goal-correction-125.json",
+  "active_experiment": "articles/somatic-therapies/experiments/SOMATIC-HELDOUT-STAGE3-MC-SPOKEN-STOP-CONTROLLER-130-20260912.md"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "protocol": "docs/CANDIDATE-INGRESS-AND-LINEAGE.md",
+  "last_completed_iteration": 116,
+  "last_completed_candidate_sha256": "b9936be103334612f8867bb2c2204b3fb6a5d0d73b16e2665b121a77d2f86ab5",
+  "last_candidate_ingress": {
+    "sha256": "b9936be103334612f8867bb2c2204b3fb6a5d0d73b16e2665b121a77d2f86ab5",
+    "historical_exact_match_iteration": null,
+    "is_immediately_previous_completed_candidate": true,
+    "advanced_cursor": true,
+    "iteration": 116,
+    "status": "PROVISIONAL_PASS"
+  },
+  "active_expected_iteration": "ARCHITECTURE_CHECKPOINT_117",
+  "rules": {
+    "hash_current_ingress_first": true,
+    "resolve_immediate_previous_separately_from_historical_match": true,
+    "historical_match_does_not_rewind": true,
+    "ambiguous_same_previous_last_language_forbidden": true
+  }
+}

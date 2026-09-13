@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "iteration": 107,
+  "candidate_sha256": "c39a142e8478ac875d3a0aac6ed0e399e965d9f3c79eb67cef0a178f1fccd9f7",
+  "utf8_bytes": 334,
+  "whitespace_words": 56,
+  "architecture": "FAIL",
+  "preservation": "PASS",
+  "reverse_traceability": "PASS",
+  "unexplained_substantive_deltas": 0,
+  "combined_boundary_sha256": "79e03f1f1710c941935bc13a3566466e02df9395b7ba6722f5e49b9fbafd45a3",
+  "combined_boundary_architecture": "FAIL",
+  "blocking_defects": [
+    "HIDDEN_THREE_PART_CONTROL_LIST",
+    "EXPLANATORY_AFTERCARE_FINAL_SENTENCE"
+  ],
+  "owner_correction": "The penultimate sentence serializes stop / orient / settle as a three-part list. The final sentence explains the prior sentence instead of making a necessary next move.",
+  "disposition": "REJECT_EXACT_MOVEMENT",
+  "pangram": "NOT_RUN_NOT_AUTHORIZED",
+  "next_method": "DO_NOT_ADVANCE; RECONSTRUCT THIS MOVEMENT WITH ONE GOVERNING CONTROL_THOUGHT AND ROUTE SPECIFIC CONTROL FUNCTIONS SEPARATELY"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "boundary_id": "stage2-louka-through-deliberate-shaking-rationale-106",
+  "as_assembled_sha256": "c544cb13ab957a3225711f52bba93cb4ca65118f64b1a28bd8d80f4b90ba42ec",
+  "as_assembled_utf8_bytes": 1101,
+  "as_assembled_whitespace_words": 173,
+  "architecture": "FAIL",
+  "preservation": "PASS",
+  "blocking_defects": [
+    "THREE_CONSECUTIVE_TWO_SENTENCE_EXPLANATORY_UNITS",
+    "CROSS_MOVEMENT_DUPLICATE_SE_SPONTANEOUS_DISTINCTION"
+  ],
+  "repair_operations": [
+    "MERGE_GENERATION_CHUNKS_INTO_ONE_PUBLICATION_PARAGRAPH",
+    "DELETE_ITERATION_102_FIRST_SENTENCE_AS_CROSS_MOVEMENT_DUPLICATE_FUNCTION"
+  ],
+  "repaired_sha256": "9fba4e1342a9df50154e7aec4712d569c1ebd44d78ac204e0ec3a3013d7319d6",
+  "repaired_utf8_bytes": 936,
+  "repaired_whitespace_words": 148,
+  "repaired_architecture": "PROVISIONAL_PASS",
+  "repaired_preservation": "PASS",
+  "unexplained_substantive_deltas": 0,
+  "residual_function_routed_forward": "NOT_A_MANDATORY_SEQUENCE",
+  "strategy_106": {
+    "generation_unit_is_not_publication_paragraph": true,
+    "audit_contiguous_assembled_boundary_before_advancing": true,
+    "cross_movement_duplicate_function_may_emerge_only_after_assembly": true,
+    "do_not_preserve_micro_probe_paragraph_breaks_by_default": true
+  },
+  "pangram_authorized": false
+}

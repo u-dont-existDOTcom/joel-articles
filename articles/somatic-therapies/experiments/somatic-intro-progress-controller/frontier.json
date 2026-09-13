@@ -1,0 +1,36 @@
+{
+  "active_lesson_contract": {
+    "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-20260831.md",
+    "sha256": "a222eaa50b4d8885a3a03a4bf801b21f1358b83384ce05c2115a11043515b65e"
+  },
+  "append_only_history": {
+    "adjudications": "history/adjudications.jsonl",
+    "controller_decisions": "history/controller-decisions.jsonl",
+    "promotions": "history/promotions.jsonl",
+    "samples": "history/samples.jsonl"
+  },
+  "article_id": "somatic-therapies",
+  "best_promoted_owner_facing_candidate": null,
+  "cleared_dimensions": [],
+  "controller_version": "1.0.0",
+  "last_promotion_receipt": null,
+  "next_search_target": {
+    "description": "Review the controller implementation before supplying an initial bounded generation search target or running any real candidate.",
+    "id": "reasoning-chat-controller-review",
+    "kind": "CONTROLLER_REVIEW"
+  },
+  "retained_nondominated_alternatives": [],
+  "revision": 0,
+  "schema_version": 1,
+  "scope": {
+    "end_before": "## Your Physical State Can Change What Therapy Does",
+    "heading": "# Introduction"
+  },
+  "semantic_provenance_hard_constraint_status": "UNASSESSED",
+  "semantic_task": {
+    "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-CURRENT-MANUAL-TASK-20260831.md",
+    "sha256": "3b9eef4a46a2c712ec40e694a24c75e7525241aac1ef6753a15fb831f6cb2cad"
+  },
+  "strongest_known_generative_failure_pattern": null,
+  "unresolved_defects": []
+}

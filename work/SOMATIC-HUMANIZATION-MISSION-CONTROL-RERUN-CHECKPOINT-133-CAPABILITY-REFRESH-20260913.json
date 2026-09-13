@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "checkpoint_id": "somatic-humanization-mission-control-133-capability-refresh-fail-closed-20260913",
+  "recorded_at": "2026-09-13T01:24:20Z",
+  "directive": "SOMATIC-HUMANIZATION-MISSION-CONTROL-RERUN-DIRECTIVE-133-20260913.md",
+  "target_repository": "u-dont-existDOTcom/joel-articles",
+  "target_branch": "task/somatic-intro-progress-controller-20260831",
+  "prior_checkpoint_commit": "937e50d37952c1a419b88f427ae827d797d0b481",
+  "execution_state": "STOPPED_FAIL_CLOSED_BEFORE_EXPERIMENT_START",
+  "capability_refresh_state": "STOPPED_ON_FIRST_CHAT_PRECHECK",
+  "capability_related_provider_send_count": 0,
+  "capability_send_boundaries": [
+    {
+      "operation": "mcp-preflight",
+      "chat_registration": "specialist-relay-smoke",
+      "admission": "NOT_ADMITTED",
+      "result": "CAPABILITY_CHALLENGE_MISSING",
+      "provider_send": false
+    }
+  ],
+  "chats_not_attempted": ["mc-project-manager", "specialist-failover-probe"],
+  "capability_operations_not_attempted": ["capabilities"],
+  "experiment_entered": false,
+  "candidate_identities": [],
+  "roles_created": [],
+  "writer_controller_cycles": 0,
+  "pangram_calls": 0,
+  "second_held_out_target_run": false,
+  "runtime_preflight_after_stop": {
+    "primary_health": "READY",
+    "primary_lock": "FREE",
+    "secondary_health": "STANDBY_READY",
+    "active_lease": "PRIMARY",
+    "deployment_epoch": 3,
+    "queue_depth": 0,
+    "unresolved_admission": null,
+    "ledger_valid": true,
+    "last_submission_at": "2026-09-12T22:28:30.878Z",
+    "ordinary_task_sending_enabled": false,
+    "capability_test_setting_restored": true,
+    "registered_chat_capabilities": {
+      "specialist-relay-smoke": {"challengeAvailable": false, "allCurrent": false, "capabilityReceiptId": null, "modeReceiptId": null},
+      "mc-project-manager": {"challengeAvailable": false, "allCurrent": false, "capabilityReceiptId": null, "modeReceiptId": null},
+      "specialist-failover-probe": {"challengeAvailable": false, "allCurrent": false, "capabilityReceiptId": null, "modeReceiptId": null}
+    },
+    "browser_ownership_unchanged": true,
+    "secondary_modified": false,
+    "relay_lock_correction_preserved": true,
+    "methodology_modified": false,
+    "workstation_browser_or_clipboard_used": false
+  },
+  "work_reasoning_preflight": {
+    "requested_level": "LOW / lowest available sufficient",
+    "actual_setting_observable": false,
+    "action": "Mechanical execution only; no semantic or methodological reasoning performed."
+  },
+  "stop_reason": "STOP_FAIL_CLOSED_PRIMARY_CANONICAL_MCP_PREFLIGHT_CAPABILITY_CHALLENGE_MISSING",
+  "owner_action_required": "Refresh the missing canonical capability challenge for the registered Mission Control chats through the authorized runtime owner, then rerun the capability refresh from this checkpoint. Do not infer receipts, use direct-send bypasses, alter SECONDARY, or enter the experiment without three current validated receipts.",
+  "publication_or_install": "NONE"
+}
