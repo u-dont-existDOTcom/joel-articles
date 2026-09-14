@@ -38,7 +38,7 @@ for run_id in "${run_ids[@]}"; do
 done
 set +e
 "$work/gitleaks" git --no-banner --no-color --redact=100 --report-format=json --report-path="$work/git.json" --log-opts='--all' "$PWD" >"$work/git.log" 2>&1; gs=$?
-"$work/gitleaks" dir --no-banner --no-color --redact=100 --report-format=json --report-path="$work/hosted.json" "$work/hosted" >"$work/hosted.log" 2>&1; hs=$?
+(cd "$work" && "$work/gitleaks" dir --no-banner --no-color --redact=100 --report-format=json --report-path="$work/hosted.json" hosted >"$work/hosted.log" 2>&1); hs=$?
 set -e
 python3 - "$work/git.json" "$gs" "$work/hosted.json" "$hs" "$fetched_logs" "$unavailable_logs" <<'PY'
 import json,sys

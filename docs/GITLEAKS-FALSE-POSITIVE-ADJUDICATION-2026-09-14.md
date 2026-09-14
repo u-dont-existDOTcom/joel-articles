@@ -9,7 +9,7 @@ The publication audit reported six historical `generic-api-key` findings. Each f
 - the four findings in the historical infographic workflow and receipt are UUID-style infographic object/file identifiers;
 - the two findings in the historical current-state commits are SHA-256 provenance hashes.
 
-The root `.gitleaksignore` contains only the six exact Gitleaks fingerprints approved for those findings. It does not suppress the rule, any whole path, any whole commit, or any history range. A new occurrence receives a different fingerprint and remains detectable.
+The root `.gitleaksignore` contains the six exact Git-history fingerprints approved for those findings, plus two exact hosted-log fingerprints for the same first two reviewed identifiers as echoed by historical Actions run `34550531021`. It does not suppress the rule, any whole path, any whole commit, any whole run, or any history range. A new occurrence receives a different fingerprint and remains detectable.
 
 ## Approved fingerprints
 
@@ -20,7 +20,11 @@ defc51d43fa291dcb00c93468e111c967094164a:articles/inner-signal/INFOGRAPHIC-UPDAT
 defc51d43fa291dcb00c93468e111c967094164a:articles/inner-signal/INFOGRAPHIC-UPDATE-RECEIPT.json:generic-api-key:19
 4229009b35f9cdff71d835d2a6c7df398fa15206:state/CODEX-CURRENT-STATE.md:generic-api-key:31
 0ff49c99fdfe275b596bda72c1338f80fec14941:state/CODEX-CURRENT-STATE.md:generic-api-key:31
+hosted/actions/run-34550531021.log:generic-api-key:330
+hosted/actions/run-34550531021.log:generic-api-key:336
 ```
+
+The hosted audit now scans from its temporary root so hosted fingerprints are stable and relative. Diagnostic run `34859376003` established that hosted lines 330 and 336 are the log echoes of source lines 67 and 73 in commit `9b85154309c90bef820923b43d44ea1222b4a91d`; both are the already-reviewed UUID-style infographic filenames.
 
 ## Required proof
 

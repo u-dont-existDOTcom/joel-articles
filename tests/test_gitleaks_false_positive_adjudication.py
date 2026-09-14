@@ -13,6 +13,8 @@ EXPECTED_FINGERPRINTS = {
     "defc51d43fa291dcb00c93468e111c967094164a:articles/inner-signal/INFOGRAPHIC-UPDATE-RECEIPT.json:generic-api-key:19",
     "4229009b35f9cdff71d835d2a6c7df398fa15206:state/CODEX-CURRENT-STATE.md:generic-api-key:31",
     "0ff49c99fdfe275b596bda72c1338f80fec14941:state/CODEX-CURRENT-STATE.md:generic-api-key:31",
+    "hosted/actions/run-34550531021.log:generic-api-key:330",
+    "hosted/actions/run-34550531021.log:generic-api-key:336",
 }
 
 
@@ -27,7 +29,8 @@ class GitleaksAdjudicationTests(unittest.TestCase):
 
     def test_fingerprints_are_finding_specific(self) -> None:
         pattern = re.compile(
-            r"^[0-9a-f]{40}:[^:*?\[\]]+:generic-api-key:[1-9][0-9]*$"
+            r"^(?:[0-9a-f]{40}:[^:*?\[\]]+|hosted/actions/run-[0-9]+\.log)"
+            r":generic-api-key:[1-9][0-9]*$"
         )
         for fingerprint in EXPECTED_FINGERPRINTS:
             with self.subTest(fingerprint=fingerprint):
