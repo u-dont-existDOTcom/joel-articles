@@ -26,13 +26,13 @@
         },
         "current_state": {
           "path": "articles/romance/CURRENT-STATE.md",
-          "sha256": "994437d5b4dac35ccb4da9d6885b4e4a302a01a05bacf4272f4d606068c51a17"
+          "sha256": "52bd2834b328be649a294679a4896de7945a610dee68d08ce226b1b9c0680bfb"
         }
       },
       "review": {
         "citations": {
           "path": "articles/romance/CITATIONS.json",
-          "sha256": "89beb1748aaef689b666658755b54076fb56c80f3234707adea650e9460f8cce",
+          "sha256": "c65f606585b30a059d9cf07641d82a96ef706da01447736cb7100621a35e989a",
           "status": "pending"
         },
         "detector": {
@@ -52,6 +52,11 @@
           "path": "articles/romance/ARCHITECTURE.md",
           "sha256": "9599021e42d3459b879da2f0a1023a4a54f56bac4041731ed11ecd8db08e7421",
           "role": "architecture_map"
+        },
+        {
+          "path": "articles/romance/review/FINAL-CORRECTIONS-20260824.md",
+          "sha256": "71c6bb57b7e580f91387f40b1143a8d57619b39fc8abb80a2e9300e2722e9e72",
+          "role": "editorial_correction_packet"
         }
       ]
     },
@@ -94,7 +99,7 @@
         },
         "editorial": {
           "path": "articles/somatic-therapies/EDITORIAL-STATUS.json",
-          "sha256": "04d691b135931dd73905e7a92f7cb79a42fd4b2ea1740e784fde20fac2581e57e",
+          "sha256": "04d691b135931dd73905e7a92f7cb79a42fd4b2ea174e784fde20fac2581e57e",
           "status": "pending"
         }
       },
@@ -164,6 +169,41 @@
           "path": "articles/somatic-therapies/experiments/JOB1-AUTHORIAL-FLOW-INPUT-V5-PRESERVATION-20260822.json",
           "sha256": "5af954f5be94c56f07de20efc9be00fc69c8a5f4fe62b283dad989d5e993c992",
           "role": "preservation_proof"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-20260831.md",
+          "sha256": "a222eaa50b4d8885a3a03a4bf801b21f1358b83384ce05c2115a11043515b65e",
+          "role": "active_lesson_contract"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-CURRENT-MANUAL-TASK-20260831.md",
+          "sha256": "3b9eef4a46a2c712ec40e694a24c75e7525241aac1ef6753a15fb831f6cb2cad",
+          "role": "manual_task_contract"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-EXTERNAL-PROGRESS-CONTROLLER-20260831.md",
+          "sha256": "40c39dc8d96d81a483b15127f05569af4eec19bb9c4cc0a8c75234829ff86a48",
+          "role": "progress_controller_contract"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-OWNER-COLD-PASS-RULE-20260831.md",
+          "sha256": "4ed78dbca7b714c9fa22e96bdeb61d41e3dc522e345c9583347b7a9cf84cc01f",
+          "role": "owner_process_rule"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-PROGRESS-CONTROLLER-CODEX-WORKER-20260831.md",
+          "sha256": "2da3669847771bd5e0c4990bbc019743e2e82e53210fa8f7685bfe458f057925",
+          "role": "worker_contract"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-SUPERVISED-WRITING-20260831.md",
+          "sha256": "ad7938f16b004a761037f069791ef75fc949d7513f1966ec565a140d7486709b",
+          "role": "supervised_writing_contract"
+        },
+        {
+          "path": "articles/somatic-therapies/experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-20260831.md",
+          "sha256": "5926f1600efea678d0182a0d75c2f6a344387fbbdb8ba9e42c3ba239b5fde6bd",
+          "role": "writer_state"
         }
       ]
     }
