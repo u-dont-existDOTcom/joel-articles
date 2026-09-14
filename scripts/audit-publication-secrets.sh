@@ -6,6 +6,8 @@ GITLEAKS_SHA256="e4eb209d04e20339d77122a3bdf9cd41351255cfb27ebcb75e85325e04f8892
 GITLEAKS_URL="https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
 repository="${GITHUB_REPOSITORY:-$EXPECTED_REPOSITORY}"
 [[ "$repository" == "$EXPECTED_REPOSITORY" ]] || { echo 'publication-audit: unexpected repository' >&2; exit 2; }
+ignore_path="$PWD/.gitleaksignore"
+[[ -f "$ignore_path" ]] || { echo 'publication-audit: .gitleaksignore missing' >&2; exit 2; }
 umask 077
 work="$(mktemp -d /tmp/joel-articles-publication-audit.XXXXXX)"
 trap 'rm -rf -- "$work"' EXIT
@@ -38,7 +40,7 @@ for run_id in "${run_ids[@]}"; do
 done
 set +e
 "$work/gitleaks" git --no-banner --no-color --redact=100 --report-format=json --report-path="$work/git.json" --log-opts='--all' "$PWD" >"$work/git.log" 2>&1; gs=$?
-"$work/gitleaks" dir --no-banner --no-color --redact=100 --report-format=json --report-path="$work/hosted.json" "$work/hosted" >"$work/hosted.log" 2>&1; hs=$?
+(cd "$work" && "$work/gitleaks" dir --no-banner --no-color --redact=100 --gitleaks-ignore-path="$ignore_path" --report-format=json --report-path="$work/hosted.json" hosted >"$work/hosted.log" 2>&1); hs=$?
 set -e
 python3 - "$work/git.json" "$gs" "$work/hosted.json" "$hs" "$fetched_logs" "$unavailable_logs" <<'PY'
 import json,sys
@@ -46,8 +48,10 @@ from pathlib import Path
 def check(p,s,label):
  d=json.loads(Path(p).read_text()); s=int(s)
  if not isinstance(d,list) or s not in (0,1) or (s==0)!=(len(d)==0): raise SystemExit(f'publication-audit: invalid {label} result')
- return len(d)
-g=check(sys.argv[1],sys.argv[2],'git'); h=check(sys.argv[3],sys.argv[4],'hosted')
-print(json.dumps({'status':'pass' if not(g or h) else 'blocked','git_secret_findings':g,'hosted_secret_findings':h,'actions_logs_scanned':int(sys.argv[5]),'actions_logs_unavailable_or_expired':int(sys.argv[6])},sort_keys=True))
-raise SystemExit(1 if g or h else 0)
+ return d
+git_findings=check(sys.argv[1],sys.argv[2],'git'); hosted_findings=check(sys.argv[3],sys.argv[4],'hosted')
+def safe_metadata(rows):
+ return [{'rule_id': row.get('RuleID'), 'file': row.get('File'), 'line': row.get('StartLine'), 'fingerprint': row.get('Fingerprint')} for row in rows]
+print(json.dumps({'status':'pass' if not(git_findings or hosted_findings) else 'blocked','git_secret_findings':len(git_findings),'hosted_secret_findings':len(hosted_findings),'actions_logs_scanned':int(sys.argv[5]),'actions_logs_unavailable_or_expired':int(sys.argv[6]),'finding_metadata':{'git':safe_metadata(git_findings),'hosted':safe_metadata(hosted_findings)}},sort_keys=True))
+raise SystemExit(1 if git_findings or hosted_findings else 0)
 PY
