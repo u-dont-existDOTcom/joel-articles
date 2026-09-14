@@ -6,6 +6,8 @@ GITLEAKS_SHA256="e4eb209d04e20339d77122a3bdf9cd41351255cfb27ebcb75e85325e04f8892
 GITLEAKS_URL="https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
 repository="${GITHUB_REPOSITORY:-$EXPECTED_REPOSITORY}"
 [[ "$repository" == "$EXPECTED_REPOSITORY" ]] || { echo 'publication-audit: unexpected repository' >&2; exit 2; }
+ignore_path="$PWD/.gitleaksignore"
+[[ -f "$ignore_path" ]] || { echo 'publication-audit: .gitleaksignore missing' >&2; exit 2; }
 umask 077
 work="$(mktemp -d /tmp/joel-articles-publication-audit.XXXXXX)"
 trap 'rm -rf -- "$work"' EXIT
@@ -38,7 +40,7 @@ for run_id in "${run_ids[@]}"; do
 done
 set +e
 "$work/gitleaks" git --no-banner --no-color --redact=100 --report-format=json --report-path="$work/git.json" --log-opts='--all' "$PWD" >"$work/git.log" 2>&1; gs=$?
-(cd "$work" && "$work/gitleaks" dir --no-banner --no-color --redact=100 --report-format=json --report-path="$work/hosted.json" hosted >"$work/hosted.log" 2>&1); hs=$?
+(cd "$work" && "$work/gitleaks" dir --no-banner --no-color --redact=100 --gitleaks-ignore-path="$ignore_path" --report-format=json --report-path="$work/hosted.json" hosted >"$work/hosted.log" 2>&1); hs=$?
 set -e
 python3 - "$work/git.json" "$gs" "$work/hosted.json" "$hs" "$fetched_logs" "$unavailable_logs" <<'PY'
 import json,sys
