@@ -46,8 +46,10 @@ from pathlib import Path
 def check(p,s,label):
  d=json.loads(Path(p).read_text()); s=int(s)
  if not isinstance(d,list) or s not in (0,1) or (s==0)!=(len(d)==0): raise SystemExit(f'publication-audit: invalid {label} result')
- return len(d)
-g=check(sys.argv[1],sys.argv[2],'git'); h=check(sys.argv[3],sys.argv[4],'hosted')
-print(json.dumps({'status':'pass' if not(g or h) else 'blocked','git_secret_findings':g,'hosted_secret_findings':h,'actions_logs_scanned':int(sys.argv[5]),'actions_logs_unavailable_or_expired':int(sys.argv[6])},sort_keys=True))
-raise SystemExit(1 if g or h else 0)
+ return d
+git_findings=check(sys.argv[1],sys.argv[2],'git'); hosted_findings=check(sys.argv[3],sys.argv[4],'hosted')
+def safe_metadata(rows):
+ return [{'rule_id': row.get('RuleID'), 'file': row.get('File'), 'line': row.get('StartLine'), 'fingerprint': row.get('Fingerprint')} for row in rows]
+print(json.dumps({'status':'pass' if not(git_findings or hosted_findings) else 'blocked','git_secret_findings':len(git_findings),'hosted_secret_findings':len(hosted_findings),'actions_logs_scanned':int(sys.argv[5]),'actions_logs_unavailable_or_expired':int(sys.argv[6]),'finding_metadata':{'git':safe_metadata(git_findings),'hosted':safe_metadata(hosted_findings)}},sort_keys=True))
+raise SystemExit(1 if git_findings or hosted_findings else 0)
 PY
