@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-15",
+  "status": "owner-reported boundary interaction; article-specific evidence",
+  "paragraph_1": {
+    "text": "But here’s the chicken-and-egg problem. What if you’re so far inside the child-state that you can’t become the adult? This is much easier when you can already reach one of those adult roles. But when you can't, it's like you sit there trying to be loving while your mind is becoming controlled again by the inherited critic voice, or you start going numb, throwing a fit, or panicking.",
+    "sha256_no_terminal_newline": "04378a6a51cc40b8bab131f72480c28e8cc3969d16612f9ba0448cc1083d7ef1",
+    "owner_reported_result": "Human / low confidence; checked four times"
+  },
+  "paragraph_2": {
+    "text": "I think the missing first phase is borrowed adulthood. Before you can reliably become the inner parent, you may need to borrow one adult function first. Maybe you experience it with somebody, maybe you imagine it, maybe you copy what you've seen. Then you practice some of it with help and start doing little pieces yourself. Over time, you don't have to borrow as much.",
+    "sha256_no_terminal_newline": "60392ce22a9592448c962e32c324903058f4ae14b70be76e43ef060c58022231",
+    "owner_reported_result": "Human / low confidence; checked four times"
+  },
+  "combined_exact_surface": {
+    "join": "two ASCII spaces between paragraph texts in the owner-tested paste",
+    "sha256_no_terminal_newline": "7da9ffeb9bb3408d9c4f292b6344bc643f21980b73df03732914f9b15ad6124b",
+    "owner_reported_result": "AI / medium confidence"
+  },
+  "editorial_diagnosis": {
+    "primary": "The larger boundary reveals a polished problem-to-labeled-solution progression that is not visible when either short paragraph is judged alone. Paragraph 1 poses and dramatizes the chicken-and-egg difficulty; paragraph 2 immediately names a concept ('borrowed adulthood'), defines it, enumerates three acquisition routes, advances through staged practice, and closes with a neat tapering conclusion. Together they form a compact recursive mini-essay: problem -> concept label -> mechanism/list -> progression -> closure.",
+    "secondary": "The 'Maybe..., maybe..., maybe...' triad plus 'Then...' and 'Over time...' creates unusually explicit staged sequencing. The conceptual label 'missing first phase' also sounds like a retrospective framework imposed on the lived problem rather than the next naturally emerging thought.",
+    "not_claimed": "This record does not claim a phrase-level Pangram cause or that the two-space join is causal. The detector result is interpreted with independent editorial evidence and existing boundary-interaction lessons.",
+    "production_implication": "Do not optimize paragraph 2 in isolation. Humanize the full natural boundary as one continuous thought, preserving both substantive functions while removing the nested mini-essay shape."
+  }
+}
