@@ -41,6 +41,9 @@ routing aids; they do not establish article authority.
 - `project-sources/BANNED-PATTERNS.md`
 - the relevant current material in `u-dont-existDOTcom/pangram-humanization-lab`,
   following the fresh-read order in `SKILL.md`
+- for **generation or transfer-learning humanization**, also read `u-dont-existDOTcom/pangram-humanization-lab/state/generation/RETRIEVAL-FIRST-OWNER-TEACHING-PROTOCOL.md` and `state/generation/OWNER-ALIGNED-TRANSFORMATION-CORPUS-v1.json` before drafting. Retrieve literal aligned teaching episodes instead of reconstructing earlier owner lessons from abstract anti-pattern summaries.
+
+When Joel rewrites a paragraph while deliberately preserving essentially the same thought, treat that exact before→after pair as a durable teaching episode. Capture it immediately, along with any subsequent model output that successfully transfers the correction. Whole-article or paragraph rewrites that add/remove/reroute substantive thought are still authoritative owner cognition, but classify them as owner re-authoring rather than clean same-thought realization examples.
 
 The preservation gate changes the execution order: freeze the authoritative changed scope, enumerate protected semantic/function units and the authorized-change whitelist, draft inside that delta, then require bidirectional source↔candidate traceability with **zero unexplained substantive deltas** before any paid/certification detector call. Re-run that proof after every detector-driven semantic edit. A detector-green candidate that fails preservation is rejected.
 
