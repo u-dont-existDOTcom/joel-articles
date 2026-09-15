@@ -31,15 +31,33 @@ The correct distinction is:
 
 This correction is about the acceptance criterion, not detector authorship provenance. Pangram red does not prove AI authorship, and Pangram green does not override editorial defects. Meaning, fidelity, owner language, and article architecture still outrank detector optimization.
 
+## Direct owner correction — owner-facing admission is blocking
+
+Joel's 2026-09-15 correction: **do not give him a humanization candidate to check when the model's own cold read already sees a credible AI-shaped problem in it.**
+
+The earlier Episode 001/003 behavior violated the operation goal by detecting a residual weakness and then surfacing the same candidate for Joel to catch or confirm. The cold audit is therefore not commentary; it is an owner-facing admission gate.
+
+Before showing Joel any new humanization candidate:
+
+1. Run the normal cold audits on the literal candidate and natural boundary.
+2. Ask whether any credible model-shaped feature remains that the editor actually believes is present: tidy close, explanatory aftercare, generic synthesis, artificial sequencing, equalized cadence, abstract relationship announcement, or another substantive AI-shape problem.
+3. If **yes**, mark `OWNER_DELIVERY_ADMISSION = FAIL`, withhold the candidate, and revise internally. Do not use Joel as the first-line critic for a defect already detected here.
+4. Re-run the cold audit after repair. Repeat until `OWNER_DELIVERY_ADMISSION = PASS` or the method has genuinely exhausted faithful repairs.
+5. If faithful repair is exhausted, make an explicit narrow authorial handoff explaining what is unresolved and what cognition is needed. Do not disguise a knowingly weak draft as a candidate for routine checking.
+6. A Pangram Human result never overrides this gate; a candidate that passes the detector but retains a known editorial/model-shaped defect remains blocked from delivery.
+
+This is the task-local enforcement of the existing repository rule that a legitimate cold-audit weakness must be fixed before delivery. It adds no phrase blacklist and does not require artificial roughness.
+
 ## Current production method
 
 1. Retrieve the closest literal owner-teaching demonstrations before generation.
 2. Preserve the complete source thought and paragraph job.
-3. Cold-read the whole natural boundary. If a credible model-shaped feature remains, repair it before paying Pangram.
+3. Cold-read the whole natural boundary. If a credible model-shaped feature remains, repair it before paying Pangram **or showing the candidate to Joel**.
 4. Use Pangram to validate a fully considered candidate, not to draft by trial and error.
 5. If fresh exact repeats expose a real Human/AI flip, preserve the repeat distribution and treat the candidate as detector-unstable rather than averaging the labels into a pass.
 6. Continue faithful repair until the intended delivery boundary meets Joel's standing Humanization gate. Do not manufacture quirks, factual changes, or owner imitation merely to create detector margin.
 7. Use repeat testing selectively when instability is already demonstrated or when a repeat will change the acceptance decision; do not repeatedly buy confidence on every short paragraph.
+8. `OWNER_DELIVERY_ADMISSION` must be `PASS` before routine owner review.
 
 ## Episode 003 disposition
 
