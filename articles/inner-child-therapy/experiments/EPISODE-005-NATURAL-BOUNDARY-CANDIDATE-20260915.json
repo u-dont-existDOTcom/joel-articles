@@ -1,0 +1,56 @@
+{
+  "episode_id": "inner-child-natural-boundary-repair-005-20260915",
+  "status": "pending-owner-detector-judgment",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
+  "changed_scope": "The Chicken-and-Egg Problem transition: owner-aligned chicken-and-egg paragraph plus the source borrowed-adulthood paragraph",
+  "input": {
+    "paragraph_1_owner_aligned": "But here’s the chicken-and-egg problem. What if you’re so far inside the child-state that you can’t become the adult? This is much easier when you can already reach one of those adult roles. But when you can't, it's like you sit there trying to be loving while your mind is becoming controlled again by the inherited critic voice, or you start going numb, throwing a fit, or panicking.",
+    "paragraph_1_sha256_no_terminal_newline": "04378a6a51cc40b8bab131f72480c28e8cc3969d16612f9ba0448cc1083d7ef1",
+    "paragraph_2_source": "I think the missing first phase is borrowed adulthood. Before you can reliably become the inner parent, you may need to experience, imagine, imitate, and practice one adult function with help. You receive care, observe how it is given, participate in it, initiate a small part yourself, and gradually internalize it.",
+    "paragraph_2_source_sha256_no_terminal_newline": "0c8b60c79cf096edecf37bd2ed27952997ce22aafc1b937208f3ebd06b0e0ef3",
+    "prior_combined_owner_result": "AI / medium confidence",
+    "prior_individual_results": "both component paragraphs owner-reported Human / low confidence; each checked four times"
+  },
+  "candidate": {
+    "paragraph_1": "But here’s the chicken-and-egg problem. What if you’re so far inside the child-state that you can’t become the adult? This is much easier when you can already reach one of those adult roles. But when you can't, it's like you sit there trying to be loving while your mind is becoming controlled again by the inherited critic voice, or you start going numb, throwing a fit, or panicking.",
+    "paragraph_2": "Sometimes somebody else may have to do one part of the adult role with you or for you first. You get to feel what that is like and watch how they do it. Maybe you copy one small thing you've seen them do, or imagine them there when they're not, and try one piece yourself while they're still helping with the rest. That's what I mean by borrowed adulthood. You may still need help with almost all of it for a while, but over time there are more and more of those little parts you can do yourself.",
+    "paragraph_2_sha256_no_terminal_newline": "5addc95501dec11dcb5ad1d7c5681242047899ac4f6b3dccd38578de150d616e",
+    "combined_join": "single blank line between paragraphs",
+    "combined_sha256_no_terminal_newline": "7011597dd41eefb5ec292d36d7bb37f0c3f5376fe58014a1615dec5a64ab07d6",
+    "combined_word_count_whitespace": 166
+  },
+  "preservation": {
+    "edit_dose": "bounded realization repair of the full natural boundary; owner paragraph retained byte-for-byte",
+    "authorized_delta": "repair paragraph-2 realization and the cross-paragraph thought shape; no claim, actor, chronology, attribution, or function change",
+    "units": [
+      {"id":"PU-1","meaning":"child-state can prevent access to the adult role","mapping":"candidate paragraph 1 exact owner-aligned text","status":"preserved"},
+      {"id":"PU-2","meaning":"without adult-role access, attempts at loving self-talk can be overtaken by inherited critic voice, numbness, throwing a fit, or panic","mapping":"candidate paragraph 1 exact owner-aligned text","status":"preserved"},
+      {"id":"PU-3","meaning":"an earlier supported phase may be needed before reliable inner-parent access","mapping":"Sometimes somebody else may have to do one part of the adult role with you or for you first.","status":"preserved"},
+      {"id":"PU-4","meaning":"learning may begin with one adult function/part rather than the full adult identity","mapping":"one part of the adult role","status":"preserved"},
+      {"id":"PU-5","meaning":"the adult function can first be experienced through another person","mapping":"do one part ... with you or for you; You get to feel what that is like","status":"preserved"},
+      {"id":"PU-6","meaning":"observation and imitation contribute to learning","mapping":"watch how they do it; copy one small thing you've seen them do","status":"preserved"},
+      {"id":"PU-7","meaning":"imagining the adult function/person can support the process","mapping":"imagine them there when they're not","status":"preserved"},
+      {"id":"PU-8","meaning":"supported practice precedes greater self-initiation","mapping":"try one piece yourself while they're still helping with the rest","status":"preserved"},
+      {"id":"PU-9","meaning":"the process is called borrowed adulthood","mapping":"That's what I mean by borrowed adulthood.","status":"preserved"},
+      {"id":"PU-10","meaning":"gradual internalization reduces reliance on borrowing","mapping":"over time there are more and more of those little parts you can do yourself","status":"preserved"}
+    ],
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "claim_changes": "none"
+  },
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT",
+    "candidate_1": {"span":"Sometimes somebody else may have to do one part of the adult role with you or for you first.","diagnosis":"could become a framework announcement if followed by abstract definition","disposition":"preserve-with-reason: it directly answers the live problem and is immediately grounded in experience rather than definition"},
+    "candidate_2": {"span":"Maybe you copy one small thing you've seen them do, or imagine them there when they're not, and try one piece yourself while they're still helping with the rest.","diagnosis":"contains several learning routes and could become checklist-shaped","disposition":"preserve-with-reason: the routes are source preservation units and are integrated into one uneven sentence rather than a menu or triad"},
+    "candidate_3": {"span":"You may still need help with almost all of it for a while, but over time there are more and more of those little parts you can do yourself.","diagnosis":"could read as a tidy tapering close","disposition":"preserve-with-reason: gradual internalization/reduced borrowing is an explicit source function, and the sentence states that function without a moral or abstract synthesis"},
+    "recursive_mini_essay_check": "PASS: borrowed adulthood is named after the process is made concrete; no missing-phase thesis, definition, menu, staged five-step sequence, or separate takeaway remains",
+    "reader_question_continuity": "PASS",
+    "cadence": "PASS",
+    "stopping_point": "PASS",
+    "owner_delivery_admission": "PASS",
+    "largest_remaining_weakness": "same-context audit cannot independently certify absence of residual model shape; no substantive defect is currently identified"
+  },
+  "pangram_status": "not run; owner will judge/test the natural boundary",
+  "provenance": "model-authored experimental realization; paragraph 1 is exact owner-aligned text; not canonical article prose"
+}
