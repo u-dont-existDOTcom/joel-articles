@@ -1,6 +1,6 @@
 {
   "episode_id": "inner-child-natural-boundary-repair-005-20260915",
-  "status": "pending-owner-detector-judgment",
+  "status": "owner-accepted-working-boundary-repeat-stable-within-owner-checks",
   "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
   "changed_scope": "The Chicken-and-Egg Problem transition: owner-aligned chicken-and-egg paragraph plus the source borrowed-adulthood paragraph",
   "input": {
@@ -41,16 +41,24 @@
   },
   "cold_audit": {
     "context_status": "PROVISIONAL SAME-CONTEXT AUDIT",
-    "candidate_1": {"span":"Sometimes somebody else may have to do one part of the adult role with you or for you first.","diagnosis":"could become a framework announcement if followed by abstract definition","disposition":"preserve-with-reason: it directly answers the live problem and is immediately grounded in experience rather than definition"},
-    "candidate_2": {"span":"Maybe you copy one small thing you've seen them do, or imagine them there when they're not, and try one piece yourself while they're still helping with the rest.","diagnosis":"contains several learning routes and could become checklist-shaped","disposition":"preserve-with-reason: the routes are source preservation units and are integrated into one uneven sentence rather than a menu or triad"},
-    "candidate_3": {"span":"You may still need help with almost all of it for a while, but over time there are more and more of those little parts you can do yourself.","diagnosis":"could read as a tidy tapering close","disposition":"preserve-with-reason: gradual internalization/reduced borrowing is an explicit source function, and the sentence states that function without a moral or abstract synthesis"},
+    "candidate_1": {"span":"Sometimes somebody else may have to do one part of the adult role with you or for you first.","diagnosis":"could become a framework announcement if followed by abstract definition","best_possible_repair_if_needed":"ground the sentence immediately in the received/observed adult function rather than explaining the concept abstractly","disposition":"preserve-with-reason: it directly answers the live problem and is immediately grounded in experience rather than definition"},
+    "candidate_2": {"span":"Maybe you copy one small thing you've seen them do, or imagine them there when they're not, and try one piece yourself while they're still helping with the rest.","diagnosis":"contains several learning routes and could become checklist-shaped","best_possible_repair_if_needed":"keep the routes inside one developing action and subordinate them to the supported attempt instead of presenting them as equal menu items","disposition":"preserve-with-reason: the routes are source preservation units and are integrated into one uneven sentence rather than a menu or triad"},
+    "candidate_3": {"span":"You may still need help with almost all of it for a while, but over time there are more and more of those little parts you can do yourself.","diagnosis":"could read as a tidy tapering close","best_possible_repair_if_needed":"when later context permits, let the next live consequence carry gradual internalization so this sentence does not have to close the developmental arc by itself; do not delete the gradual-internalization claim merely to avoid closure","disposition":"preserve-with-reason for this boundary; keep as a future repair watch item if a larger natural boundary gives the same source function a less closing-shaped realization"},
     "recursive_mini_essay_check": "PASS: borrowed adulthood is named after the process is made concrete; no missing-phase thesis, definition, menu, staged five-step sequence, or separate takeaway remains",
     "reader_question_continuity": "PASS",
     "cadence": "PASS",
     "stopping_point": "PASS",
     "owner_delivery_admission": "PASS",
-    "largest_remaining_weakness": "same-context audit cannot independently certify absence of residual model shape; no substantive defect is currently identified"
+    "largest_remaining_weakness": "same-context audit cannot independently certify absence of residual model shape; candidate 3 remains a future-watch item if larger context permits a less tapering realization without semantic loss"
   },
-  "pangram_status": "not run; owner will judge/test the natural boundary",
+  "owner_detector_evidence": {
+    "exact_combined_sha256_no_terminal_newline": "7011597dd41eefb5ec292d36d7bb37f0c3f5376fe58014a1615dec5a64ab07d6",
+    "owner_reported_repeat_count_total": 5,
+    "owner_reported_predictions": "all five checks Human",
+    "confidence_detail": "the first reported result was Human / medium confidence; confidence levels for the remaining four checks were not individually supplied",
+    "owner_working_interpretation": "repeat-instability concern should be concentrated on low-confidence results and small boundaries; do not impose routine repeat testing on a larger natural boundary that is already Human at medium/high confidence absent contradictory evidence",
+    "evidentiary_limit": "owner working rule for this production loop, not a universal Pangram law"
+  },
+  "pangram_status": "owner-reported Human on five checks for the exact 166-word natural boundary; first explicitly medium confidence",
   "provenance": "model-authored experimental realization; paragraph 1 is exact owner-aligned text; not canonical article prose"
 }
