@@ -1,0 +1,58 @@
+{
+  "episode_id": "inner-child-five-stage-map-boundary-006-20260915",
+  "status": "prior-final-candidate-withheld-after-second-cold-audit; revised candidate frozen",
+  "audit_context": "PROVISIONAL SAME-CONTEXT / context-contaminated by prior drafting and detector history",
+  "audited_candidate_sha256_no_terminal_newline": "aa0ef9f2f17153e592dc825db5f10f924d93461757262f3ece2c2f8fa30498cb",
+  "audited_candidate_disposition": "OWNER_DELIVERY_ADMISSION_FAIL_ON_REAUDIT",
+  "strongest_objections": [
+    {
+      "span": "I made a five-stage map for myself from all of this. Some of the pieces have direct research behind them; the way I've put them into five stages is my own and still provisional.",
+      "diagnosis": "still sounds like model/editorial throat-clearing followed by a compact methodological disclaimer; the ownership/provisionality information is necessary but the realization remains over-composed",
+      "best_faithful_repair": "fold provisionality into ordinary temporal language and keep provenance to one direct contrast: 'For now, I think of it in five stages. There's direct research behind some of the pieces, but the arrangement is mine.'",
+      "applied": true
+    },
+    {
+      "span": "Borrowed adult — that's the part we were just talking about. The adult may be someone who's actually there, somebody you remember or imagine, or a symbolic figure.",
+      "diagnosis": "the callback phrase is a conspicuous generated connective and makes a reference map less self-contained while still spending two sentences on a stage already explained above",
+      "best_faithful_repair": "remove the conversational callback and state only the protected stage function once: 'Borrowed adult — experience one reliable adult function through someone real, remembered, imagined, or symbolic.'",
+      "applied": true
+    },
+    {
+      "span": "Adult and child in relationship — the adult leads without pushing the child away, and the child doesn't have to run the whole life alone. [exact quote]",
+      "diagnosis": "the long balanced clause plus exact quotation still creates a polished capstone; the quote is protected and cannot simply be deleted",
+      "best_faithful_repair": "break the stage function into two plain assertions and leave the protected quote standing by itself with no interpretive aftercare: 'the adult leads. The child isn't pushed away and doesn't have to run the whole life alone.'",
+      "applied": true
+    }
+  ],
+  "revised_candidate": {
+    "text": "For now, I think of it in five stages. There's direct research behind some of the pieces, but the arrangement is mine.\n\n1. Child alone — orient to the present and make sure there's enough safety around you to begin.\n2. Borrowed adult — experience one reliable adult function through someone real, remembered, imagined, or symbolic.\n3. Adult apprentice — do at least one part of the caring yourself while support is still there.\n4. Inner adult — with repetition, warmth, protection, and direction get easier to call up on your own.\n5. Adult and child in relationship — the adult leads. The child isn't pushed away and doesn't have to run the whole life alone.\n\n“I am still this child, and I am also becoming the adult who stays.”",
+    "sha256_no_terminal_newline": "0425d4f6eed7f89b9b99701340a7a97da21d49c1e4a270e93b6261bacfcf20fd",
+    "word_count_whitespace": 130,
+    "combined_with_accepted_episode005_sha256_no_terminal_newline": "7f10854c004abb8dc0fafa11c2960dc0bfdf8eb7c2508bdb5e21c5aaff66905a",
+    "combined_word_count_whitespace": 296
+  },
+  "preservation": {
+    "accepted_episode005_prefix": "retained byte-for-byte",
+    "five_stage_order": "preserved",
+    "research_vs_owner_synthesis_provenance": "preserved through 'direct research behind some pieces' + 'arrangement is mine' + 'For now' provisionality",
+    "stage_1_function": "preserved",
+    "stage_2_real_remembered_imagined_symbolic_distinction": "preserved",
+    "stage_3_supported_self-initiation": "preserved",
+    "stage_4 repeated warmth/protection/direction becoming easier to summon": "preserved",
+    "stage_5 adult leadership without child exile / child no longer runs life alone": "preserved",
+    "child_not_eliminated_and_simultaneous_identity": "preserved through stage 5 plus exact quotation",
+    "exact_quote": "preserved",
+    "unexplained_substantive_deltas": 0
+  },
+  "revised_candidate_cold_audit": {
+    "strongest_remaining_risk_1": "the numbered map remains necessarily regular, but this is now the content object's real function rather than a second explanatory essay",
+    "strongest_remaining_risk_2": "the provenance contrast is still compact and somewhat expository, but further deletion would lose a required epistemic distinction",
+    "strongest_remaining_risk_3": "the exact quotation still gives the boundary a memorable ending; it is protected source language and no explanatory sentence now follows it",
+    "reader_facing_realization": "PASS",
+    "inherited_scaffold": "PASS after removing callback and methodological throat-clearing",
+    "recursive_mini_essay": "PASS_PROVISIONAL: accepted prose carries the explanation; map is now a compact reference object",
+    "owner_delivery_admission": "PASS_PROVISIONAL_SAME_CONTEXT",
+    "independent_reader_status": "not available in this context; no claim of independent certification"
+  },
+  "detector_status": "not run"
+}
