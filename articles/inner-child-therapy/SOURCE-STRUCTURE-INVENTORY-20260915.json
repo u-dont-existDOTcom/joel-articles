@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "source_sha256": "5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1",
+  "source_bytes": 153734,
+  "source_surface": "raw_substack_editor_body_html",
+  "counts": {
+    "raw_anchor_elements": 66,
+    "article_h1": 19,
+    "article_h2_excluding_embedded_card_headings": 26,
+    "article_h3_nonempty_excluding_embedded_card_headings": 19,
+    "empty_article_h3_editor_nodes": 1,
+    "article_h4": 1,
+    "captioned_image_containers": 4,
+    "native_audio_embeds": 1,
+    "native_video_embeds": 1,
+    "digest_post_embeds": 3,
+    "youtube_embeds": 1,
+    "high_value_editor_native_containers_total": 10
+  },
+  "article_h1_sequence": [
+    "Listen & Watch:",
+    "The Chicken-and-Egg Problem",
+    "My Journey",
+    "Before You Try to Go Deep",
+    "Borrow the Adult Before You Can Be the Adult",
+    "The Three Adult Functions",
+    "When the Adult Voice Feels Fake",
+    "Sometimes There Isn’t a Clear Child Yet",
+    "The Inner Guide Comes Later",
+    "Simple Practices",
+    "When Love Still Feels Missing",
+    "If You Want to Kill Yourself",
+    "Altered States Can Deepen the Therapy",
+    "When the Practice Feels Real but Stays Shallow",
+    "How to Forgive Without Forgetting",
+    "When One Life Has Ended and the Next Hasn’t Begun",
+    "Borrowed Adulthood in Relationship",
+    "You Are Worthy of Love. Always.",
+    "Appendix"
+  ],
+  "native_objects_in_source_order": [
+    {"type": "captioned_image_container", "ordinal": 1},
+    {"type": "native_audio_embed", "mediaUploadId": "bc40d36b-6d3d-470d-a25d-14eb7eb067fb"},
+    {"type": "native_video_embed", "mediaUploadId": "f302980e-0c6a-40c5-b6db-1e89ab887e3d"},
+    {"type": "captioned_image_container", "ordinal": 2},
+    {"type": "digest_post_embed", "nodeId": "ad6a6e28-4573-4d0d-b6ea-16a83968e72f"},
+    {"type": "digest_post_embed", "nodeId": "057b7e30-cd1c-4032-bbf6-336f0689a8cf"},
+    {"type": "digest_post_embed", "nodeId": "921ecc78-795b-4d21-a15e-8082bab74a97"},
+    {"type": "youtube_embed", "videoId": "foHCbX0xjAU", "startTime": "54"},
+    {"type": "captioned_image_container", "ordinal": 3},
+    {"type": "captioned_image_container", "ordinal": 4}
+  ],
+  "notes": [
+    "Heading counts exclude h2 elements rendered inside digest-post embed cards.",
+    "One empty h3 editor node is present in the raw source and is recorded rather than silently normalized away.",
+    "This inventory is source-integrity evidence only; it does not replace the literal source bytes or establish editorial quality."
+  ]
+}
