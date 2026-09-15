@@ -1,1 +1,13 @@
-{"candidate_sha256":"95cd572da40a2588744d7958ec5fb3938880eb42de092fbfc9ed40ad7c7684d4","owner_result":"AI low confidence","status":"failed"}
+{
+  "source_sha256": "5acf50e37dc76ec20df9060206a84475d37402bc1a2e687156b933a2e52e3061",
+  "model_candidate": "But here’s the chicken-and-egg problem. What if you’re so far inside the child-state that you can’t become the adult? This is much easier when you can already reach one of those adult roles. Without that, you can sit there trying to say all the loving things while the old critic, numbness, panic, or urge to get away is running the whole thing.",
+  "model_candidate_sha256": "95cd572da40a2588744d7958ec5fb3938880eb42de092fbfc9ed40ad7c7684d4",
+  "initial_owner_detector_result": "AI / low confidence",
+  "owner_note_on_model_candidate": "The exact candidate is near the detector boundary and has sometimes returned Human, motivating a four-repeat Pangram API stability check.",
+  "owner_aligned_rewrite": "But here’s the chicken-and-egg problem. What if you’re so far inside the child-state that you can’t become the adult? This is much easier when you can already reach one of those adult roles. But when you can't, it's like you sit there trying to be loving while your mind is becoming controlled again by the inherited critic voice, or you start going numb, throwing a fit, or panicking.",
+  "owner_aligned_rewrite_sha256": "04378a6a51cc40b8bab131f72480c28e8cc3969d16612f9ba0448cc1083d7ef1",
+  "owner_rewrite_detector_result": "Human / low confidence",
+  "alignment_class": "ALIGNED_SAME_THOUGHT",
+  "alignment_note": "The governing thought and paragraph job are preserved. There is one local manifestation substitution: the model/source route includes urge to escape, while the owner rewrite uses throwing a fit. Preserve that difference rather than claiming byte-level semantic identity.",
+  "status": "owner-aligned teaching pair captured; repeat stability experiment pending"
+}
