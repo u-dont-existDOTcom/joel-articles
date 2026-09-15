@@ -1,0 +1,55 @@
+{
+  "episode_id": "inner-child-five-stage-map-boundary-006-20260915",
+  "status": "three-structurally-distinct-options-frozen-for-owner-comparison",
+  "trigger": "prior map candidate tested AI / medium alone and AI / high when appended to accepted Episode 005 boundary",
+  "strategy_rule": "do not continue same-method local polishing after repeated larger-boundary structural failure; compare materially different architectures",
+  "accepted_prefix": {
+    "sha256_no_terminal_newline": "7011597dd41eefb5ec292d36d7bb37f0c3f5376fe58014a1615dec5a64ab07d6",
+    "word_count_whitespace": 166,
+    "owner_result": "five checks, all Human; first explicitly reported confidence Medium"
+  },
+  "shared_preservation": [
+    "five-stage arrangement is Joel's own synthesis and provisional as a whole",
+    "some component ideas have direct research support",
+    "stage 1 present orientation + enough outside safety",
+    "stage 2 reliable adult function through real/remembered/imagined/symbolic figure",
+    "stage 3 supported care + at least one part self-initiated",
+    "stage 4 repeated warmth/protection/direction become easier to summon",
+    "stage 5 adult leads without exiling child and child no longer runs life alone",
+    "child is not eliminated",
+    "quoted sentence meaning and wording retained"
+  ],
+  "option_1_compact_map_callback": {
+    "strategy": "keep accepted prefix byte-for-byte; preserve the five stage names once, then explain only the missing/unique functions while referring back to the already-explained middle rather than restating it",
+    "candidate_text": "I use five stage names for the movement: the child alone, the child with a borrowed adult, the adult apprentice, the inner adult, and the adult and child in relationship. I put those five stages together myself. Some of the pieces have direct research behind them, but the sequence as a whole is still provisional.\n\nThe first step is getting oriented to the present and making the outside situation safe enough to begin. The middle is what I just described: borrowing one reliable adult function from someone real, remembered, imagined, or symbolic, then taking pieces of it yourself while support is still there. Warmth, protection, and direction become easier to call up with repetition. At the other end, the adult can lead without pushing the child away, and the child no longer has to run the whole life alone.\n\nYou don’t have to stop being the child. “I am still this child, and I am also becoming the adult who stays.”",
+    "candidate_sha256_no_terminal_newline": "bb49d2c18605ea533c20148327ac12bd29c410f9dc8d9b8e947fc34c474e93e1",
+    "combined_sha256_no_terminal_newline": "924873f55a32c7fa5cd97871b6288ea93d446b59401032e85401399c41d36dd7",
+    "combined_word_count_whitespace": 327,
+    "strongest_objection": "the opening still exposes a five-name taxonomy and the first/middle/other-end compression may remain visibly schematic",
+    "best_repair_if_that_objection_is_real": "use Option 2, which removes the separate taxonomy block and lets stage labels arise from the continuous developmental movement",
+    "editorial_tradeoff": "best compromise if stage names need to remain skimmable without repeating five full definitions"
+  },
+  "option_2_continuous_callback": {
+    "strategy": "keep accepted prefix byte-for-byte; remove the numbered/taxonomy reset and let the five stage labels arise inside one continuous continuation that explicitly treats the accepted borrowed-adulthood paragraph as the middle of the map",
+    "candidate_text": "What I just described is the middle of a five-stage map I use. It starts one step earlier, with the child alone: get oriented to the present and make the outside situation safe enough to begin. Borrowed adulthood comes next; the adult figure can be real, remembered, imagined, or symbolic. The point where you begin taking one part yourself while help is still there is what I call the adult apprentice. Keep repeating warmth, protection, and direction and they become easier to call up; that's the inner adult. At the last stage, the adult can lead without pushing the child away, and the child no longer has to run the whole life alone. I call that the adult and child in relationship.\n\nI put the five-stage sequence together myself. Some of the pieces have direct research behind them, but the sequence as a whole is still provisional.\n\nYou don’t have to stop being the child. “I am still this child, and I am also becoming the adult who stays.”",
+    "candidate_sha256_no_terminal_newline": "b7c8c54eff02e640cb3e1dabeb88b78c5f8fdf69cf950d52ad3f00416e909384",
+    "combined_sha256_no_terminal_newline": "85073527bf38bd02215dd0ac4d0af8318d278cd25e9d3b5cdfef75d8fb37f488",
+    "combined_word_count_whitespace": 335,
+    "strongest_objection": "explicit developmental markers still make the sequence orderly, but there is no second list/definition layer and each label follows the action it names",
+    "best_repair_if_that_objection_is_real": "Option 3 reallocates progression out of the accepted borrowed-adulthood paragraph so the explicit map carries each function only once",
+    "editorial_tradeoff": "strongest current recommendation for humanization because it removes the list reset without sacrificing stage names or changing the already-stable prefix"
+  },
+  "option_3_reallocate_progression_to_map": {
+    "strategy": "more invasive: shorten the accepted borrowed-adulthood paragraph so it defines/grounds borrowed adulthood but no longer carries the whole apprenticeship/internalization progression; let an explicit numbered map carry the five stages once rather than repeating them",
+    "shortened_borrowed_adulthood_paragraph": "Sometimes somebody else may have to do one part of the adult role with you or for you first. You get to feel what that is like and watch how they do it. Maybe you copy one small thing you've seen them do, or imagine them there when they're not. That's what I mean by borrowed adulthood.",
+    "map_text": "I think of the whole process in five stages. I put the sequence together myself. Some of the pieces have direct research behind them, but the five-stage arrangement is still provisional:\n\n1. The child alone — get oriented to the present and make the outside situation safe enough to begin.\n2. The child with a borrowed adult — get one reliable adult function from someone real, remembered, imagined, or symbolic.\n3. The adult apprentice — do the caring with support and take one part yourself.\n4. The inner adult — keep repeating warmth, protection, and direction until you can call them up more easily.\n5. The adult and child in relationship — the adult leads without pushing the child away, and the child doesn't have to run the whole life alone.\n\nYou don’t have to stop being the child. “I am still this child, and I am also becoming the adult who stays.”",
+    "map_sha256_no_terminal_newline": "901fcc557c1c01eed6365f59857e230c3192b763b8eb002ea1607d0fd411294a",
+    "combined_full_sha256_no_terminal_newline": "c61665661e49c0dd3722210baef09b068580d9e26318427e83b2d6b8a5174a2a",
+    "combined_word_count_whitespace": 278,
+    "strongest_objection": "the visible numbered map still has inherently regular structure and this option reopens a prefix that already passed five times",
+    "best_repair_if_that_objection_is_real": "prefer Option 2 unless the explicit skimmable numbered map is important enough to justify changing the accepted prefix",
+    "editorial_tradeoff": "cleanest way to preserve an actual numbered practical map without explaining the same developmental sequence twice"
+  },
+  "recommendation": "Option 2 first; Option 1 if skimmable stage names matter more; Option 3 only if an explicit numbered practical map is important enough to justify reopening the accepted borrowed-adulthood paragraph",
+  "detector_status": "untested alternatives; no Pangram call made by Chat"
+}
