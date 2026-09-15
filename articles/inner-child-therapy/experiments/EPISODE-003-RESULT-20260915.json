@@ -20,7 +20,14 @@
       {"id":"R4","prediction":"AI","confidence":"Medium","fraction_ai":1.0,"fraction_human":0.0,"ai_assistance_score":0.5677530169487}
     ],
     "summary": "Three of four fresh API repeats classified the exact candidate Human and one classified it AI. All four windows were Medium confidence. The exact passage is detector-unstable near a decision boundary; a single AI or Human result is not a stable characterization of this 68-word text.",
+    "production_implication": "The repeat distribution does not prove AI authorship. It does prove that this exact candidate is not detector-robust enough for Joel's current production humanization target. Do not average away the AI run or treat majority-Human repeats as acceptance; continue faithful repair or use a stronger owner-aligned realization before certification.",
     "call_accounting": {"paid_api_calls":4,"cache_hits":0,"pending_resumes":0,"estimated_credits":4,"estimated_cost_usd":0.2}
   },
-  "status": "owner-aligned teaching pair captured; repeat stability experiment complete"
+  "owner_correction_after_repeat": "Supersedes the prior inference that a borderline passage should be left alone because one AI result may be noise. For this task, the target is robust Pangram-Human behavior on the intended delivery boundary, not a pass-once or majority-vote label. Detector instability changes how the evidence is described; it does not satisfy the acceptance criterion.",
+  "production_acceptance": {
+    "model_candidate": "REJECTED_DETECTOR_UNSTABLE",
+    "owner_aligned_rewrite": "PROMISING_HUMAN_LOW_NOT_YET_REPEAT_STABILITY_CERTIFIED",
+    "known_green_guard_applies_to_model_candidate": false
+  },
+  "status": "owner-aligned teaching pair captured; repeat instability confirmed; prior stop inference superseded"
 }
