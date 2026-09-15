@@ -1,6 +1,6 @@
 {
   "episode_id": "inner-child-five-stage-map-boundary-006-20260915",
-  "status": "source-frozen-before-owner-delivery",
+  "status": "pending-owner-detector-judgment",
   "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
   "source_provenance": "reader-visible extraction recovered from the 2026-09-15 owner-supplied raw Substack editor source; exact raw-source authority remains bound in INTAKE-20260915.md",
   "source_boundary": "five-stage practical map plus immediate closing sentence under The Chicken-and-Egg Problem",
@@ -19,5 +19,59 @@
     "retain the quoted sentence: I am still this child, and I am also becoming the adult who stays"
   ],
   "authorized_delta": "realization/cadence/paragraph and list wording may change; may not change research provenance, five-stage order, stage functions, anti-exile relationship, or quoted sentence meaning",
-  "delivery_contract": "before owner delivery, record strongest objections, best faithful repair for each, whether applied, and then one final integrated fixed version; do not show a knowingly defective draft as the candidate"
+  "candidate": {
+    "map_boundary_text": "I use a five-stage map. Some of the pieces have direct research behind them, but I put the sequence together myself, so I still think of the whole thing as provisional:\n\n1. **The child alone:** Get oriented to the present and make the situation around you safe enough to begin.\n2. **The child with a borrowed adult:** Borrow one reliable adult function from a real person, somebody you remember or imagine, or a symbolic figure.\n3. **The adult apprentice:** Do the caring together. Take at least one part yourself while the support is still there.\n4. **The inner adult:** Keep practicing warmth, protection, and direction until those things are easier to call up on your own.\n5. **The adult and child in relationship:** The adult leads without pushing the child away, and the child no longer has to run the whole life alone.\n\nYou don’t have to stop being the child. Sometimes I put it this way: “I am still this child, and I am also becoming the adult who stays.”",
+    "map_boundary_sha256_no_terminal_newline": "f3dbb8ca2f6194f2fe4c196230ef56e799f24c9a7f2da5c8ebc6f3709dbbc8e6",
+    "map_boundary_word_count_whitespace": 171,
+    "combined_with_episode005_text_sha256_no_terminal_newline": "9d4c867a67c7e737df2f3b34676eac1f658335f5c71dbc2d5991f345eec9eaef",
+    "combined_with_episode005_word_count_whitespace": 337,
+    "combined_join": "single blank line between accepted Episode 005 boundary and this map boundary"
+  },
+  "preservation_mapping": [
+    {"unit":"overall sequence is Joel's own synthesis / provisional","mapping":"I put the sequence together myself, so I still think of the whole thing as provisional","status":"preserved"},
+    {"unit":"some components have direct research support","mapping":"Some of the pieces have direct research behind them","status":"preserved"},
+    {"unit":"stage 1 present orientation + enough outside safety","mapping":"Get oriented to the present and make the situation around you safe enough to begin","status":"preserved"},
+    {"unit":"stage 2 one adult function through real/remembered/imagined/symbolic figure","mapping":"Borrow one reliable adult function from a real person, somebody you remember or imagine, or a symbolic figure","status":"preserved"},
+    {"unit":"stage 3 participate with support + do at least one part yourself","mapping":"Do the caring together. Take at least one part yourself while the support is still there","status":"preserved"},
+    {"unit":"stage 4 repetition makes warmth/protection/direction more summonable","mapping":"Keep practicing warmth, protection, and direction until those things are easier to call up on your own","status":"preserved"},
+    {"unit":"stage 5 adult leads without exiling child / child no longer runs life alone","mapping":"The adult leads without pushing the child away, and the child no longer has to run the whole life alone","status":"preserved"},
+    {"unit":"child not eliminated and identity becomes larger than child-state","mapping":"You don’t have to stop being the child + retained quotation expressing simultaneous child/adult identity","status":"preserved"},
+    {"unit":"quoted sentence retained","mapping":"I am still this child, and I am also becoming the adult who stays.","status":"preserved-exact"}
+  ],
+  "forward_traceability": "PASS",
+  "reverse_traceability": "PASS",
+  "unexplained_substantive_deltas": 0,
+  "claim_changes": "none",
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT",
+    "objection_1": {
+      "span":"I use a five-stage map. Some of the pieces have direct research behind them, but I put the sequence together myself, so I still think of the whole thing as provisional:",
+      "risk":"provenance/setup could still sound like an academic framework announcement before an orderly taxonomy",
+      "best_faithful_repair":"replace the source's abstract 'provisional synthesis/components/full arrangement' packaging with direct personal ownership and plain provisionality while retaining the evidence distinction",
+      "applied":true,
+      "result":"the provenance distinction remains, but the reader gets Joel's relationship to the map rather than a formal methodological disclaimer"
+    },
+    "objection_2": {
+      "span":"the five numbered stages",
+      "risk":"a five-item developmental map is inherently vulnerable to checklist/equalized-cadence shape",
+      "best_faithful_repair":"preserve the protected five-stage order but make each item action-led and let sentence structure follow the actual stage job rather than forcing identical definitions",
+      "applied":true,
+      "result":"stage 3 uses two actions/sentences, the other stages vary in syntax and duration, and no extra summary is added after each item"
+    },
+    "objection_3": {
+      "span":"You don’t have to stop being the child. You become larger than the child-state. A useful sentence is...",
+      "risk":"source ending is a three-step abstract developmental synthesis followed by a polished quotation, creating a tidy tapering close",
+      "best_faithful_repair":"let the exact quotation carry the simultaneous-child-and-adult meaning instead of explaining that meaning once in abstraction and again in the quote",
+      "applied":true,
+      "result":"final version keeps 'You don’t have to stop being the child' and moves directly to the exact quote; the abstract 'become larger than the child-state' restatement is realized through the quote rather than repeated separately"
+    },
+    "reader_question_continuity":"PASS",
+    "recursive_mini_essay_check":"PASS: the map is an actual protected content object rather than invented completion; provenance is stated once, the five stages are the substance, and the ending does not add a separate conceptual takeaway beyond the source quote",
+    "cadence":"PASS",
+    "stopping_point":"PASS",
+    "owner_delivery_admission":"PASS",
+    "largest_remaining_weakness":"the list format necessarily creates more visible structure than surrounding prose; this is source-authorized structure, so further de-structuring would sacrifice the map rather than humanize its realization"
+  },
+  "pangram_status":"not run; owner judgment/test next",
+  "delivery_contract":"strongest objections + best faithful repair + applied/not-applied rationale + one final integrated fixed version; do not show a knowingly defective draft as the candidate"
 }
