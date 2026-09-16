@@ -18,7 +18,7 @@ If your solar plexus, abdomen, or somewhere else feels clenched and it's hard to
 
 Sometimes you need more bottom-up help than that: Shaking, tapping (Emotional Freedom Technique), EMDR, Brainspotting, Somatic Experiencing, Water Therapy, Massage, Energy Healing, or another approach that works from the body upward.
 
-Sometimes the words are all there and they're doing absolutely nothing. You understand the problem, you can explain it, and the body is still clenched exactly where it was. That's when I would stay with the body-first work in the roadmap below for a while instead of trying to talk harder.
+Sometimes the words are all there and they're doing absolutely nothing. You understand the problem, you can explain it, and the body is still clenched exactly where it was. Stay with the body-first work in the roadmap below for a while instead of trying to talk harder.
 
 [EXISTING SOMATIC THERAPY MODALITIES EMBED — UNCHANGED]
 
