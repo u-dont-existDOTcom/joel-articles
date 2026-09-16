@@ -57,8 +57,8 @@ Candidate:
 Receipt:
 `articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-R11-PRESERVATION-AND-COLD-AUDIT-20260916.json`
 
-- SHA-256 no terminal newline: `36682097f8ce19b1ff224cf16ecb17add34aa79cd43d827075bc4ae0522d8c63`
-- whitespace words: 351
+- SHA-256 no terminal newline: `9216e48d3cc0be9036affcdd8fc1ab9b2402bbd53338e39398e49c67f5932a7e`
+- whitespace words: 336
 - owner Human/high block: exact lock
 - source-required remainder functions added only around the lock: Guide/direction, ten-minute send/consume/promise/decide delay, later-word versus in-the-moment-word distinction, and stop/external-support safety condition
 - forward traceability: PASS
