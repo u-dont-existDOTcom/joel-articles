@@ -2,7 +2,7 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R8 GENERATED / PRESERVATION PASS / COLD-AUDIT FAIL / OWNER MINIMAL REPAIRS NEXT**
+Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R8 GENERATED / PRESERVATION PASS / COLD-AUDIT FAIL / DECOMPRESSION OPTIONS PENDING OWNER ADJUDICATION**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916S.md` for recovery.
 
@@ -65,30 +65,42 @@ Audit/preservation receipt:
 - prior known-green massage paragraph: preserved byte-for-byte
 - Pangram: NOT RUN
 - cold audit: FAIL / context-contaminated same-context
-- owner-facing output admission: BLOCKED
+- owner-facing output admission: previously BLOCKED for routine candidate approval; owner has now explicitly requested to see the current imperfect R8 as working material, so full-text display is authorized as diagnostic work, not as a claimed pass.
 - detector eligibility: BLOCKED
 
-## R8 strongest remaining failures
+## Owner correction after R8 cold-audit failure
 
-1. Inner-monologue alternatives still form a complete capability ladder: verbal route -> representational route -> bodily route -> caring action -> reassurance.
-2. Relationship-assessment material still completes a full counselor account: qualification -> repeated-pattern test -> can't/won't uncertainty -> promises vs behavior -> protection -> guilt/repair -> interaction goal -> Witness/Protector/Guide synthesis.
-3. Unsent-draft material still reads as a complete edit protocol followed by a complete care-for-writer protocol.
-4. Healing/checking tail still resolves as an evaluator rubric: movement test -> checking distinction -> grief qualification -> unresolved-thought rule -> outcome test -> stop/keep/replace -> ritual warning.
+Joel clarified that he **agrees with the current order of ideas**. He does not think the next missing ingredient is a new owner-supplied sequence or fresh cognition. The problem is the realization itself: the prose is still written in a **predictable compressed way** that is obvious and unpleasant to read.
 
-These are believed editorial defects, not merely detector superstition. Therefore R8 must not be sent to Pangram or routinely surfaced as a candidate for owner approval.
+Therefore do not ask Joel to reorder the content or supply broad audio merely to solve this humanization defect. The next discriminating question is whether the model can preserve the current idea order while changing thought-duration, rhetorical pressure, and social movement.
 
-## Owner minimal-repair route
+Joel also explicitly requested the current imperfect R8 so he can work from it. This supersedes the earlier routine-output admission block for this diagnostic handoff only; it does not make R8 detector-ready or accepted prose.
 
-Current preferred next step is owner minimal same-thought repair, not broad audio.
+## Revised R8 diagnosis
 
-Exact handoff:
-`articles/inner-child-therapy/experiments/EPISODE-008-R8-OWNER-MINIMAL-REPAIR-HANDOFF-20260916.md`
+The dominant defect is predictable compression rather than idea order:
 
-It contains four exact spans, their protected functions, and why each remains model-shaped. Rough same-thought rewrites are preferred. Each owner response must be classified before reuse:
-- `ALIGNED_SAME_THOUGHT` -> eligible as clean humanization teaching evidence;
-- `OWNER_REAUTHORING` -> article authority/cognition, but not a clean style-transfer pair.
+- multiple semantic jobs are packed efficiently into one sentence;
+- a question is often resolved almost immediately after it appears;
+- caveats/qualifications arrive in exactly the expected guide position;
+- examples are compressed into coverage rather than allowed unequal weight;
+- lived uncertainty becomes a concise test/rule/criterion;
+- paragraph thought-duration remains short and regular even after listicle repair.
 
-## Stronger alternatives currently deferred
+## Three owner-review repair hypotheses
+
+Current options artifact:
+`articles/inner-child-therapy/experiments/EPISODE-008-R8-DECOMPRESSION-OPTIONS-20260916.md`
+
+A. **Decompress thought without adding content.** Preserve order but let the reader's live problem stay unresolved longer; use more natural connective syntax and unequal emphasis; do not mechanically expand.
+
+B. **Turn exposition into actual reader dialogue.** Preserve order but let real reader objections/questions create the next sentence where structurally warranted; avoid turning the section into a Q&A template.
+
+C. **Let source-supported concrete action carry more explanation.** Preserve order but let actions already present in the source do the explanatory work instead of stating the rule first and then examples; no fabricated scenes.
+
+Current provisional preference before owner adjudication: hybrid weighted toward A, with B used only for genuine reader uncertainty and C only where source-supported actions are rich enough.
+
+## Stronger alternatives deferred
 
 - broad owner audio / voice dump: useful later for Target #2 ownerization, but confounds realization repair with new thought/selection/priority;
 - delete large portions of guide: no owner deletion authority;
@@ -97,6 +109,6 @@ It contains four exact spans, their protected functions, and why each remains mo
 
 ## Next action
 
-Joel provides rough minimal same-thought rewrites for any or all four frozen R8 owner-repair targets. Integrate the aligned corrections, preserve all unsuperseded functions, capture exact before/after teaching pairs, then re-run preservation and cold audit before any further Pangram call.
+Show Joel the complete current R8 plus the three repair hypotheses with concrete examples. Joel identifies which assumption(s) are on target or supplies a better mechanism. Only then generate R9. Preserve the current idea order unless Joel explicitly changes it.
 
 Target #2 remains banked in `OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane-exhaustion review.
