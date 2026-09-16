@@ -2,7 +2,7 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R8 GENERATED / PRESERVATION PASS / COLD-AUDIT FAIL / DECOMPRESSION OPTIONS PENDING OWNER ADJUDICATION**
+Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R8 OWNER-TESTED / R9 STRATEGY-A PLAYFUL SENTENCE GUIDE FROZEN**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916S.md` for recovery.
 
@@ -16,24 +16,28 @@ Inner Child Therapy remains unregistered in `articles/INDEX.json`; all current p
 - Episode 006 owner-final five-stage map: owner-reported Human / high confidence; keep.
 - Episode 007 My Journey R8F: owner-reported 100% Human / high confidence.
 
-## Episode 008 detector evidence through R7
+## Episode 008 detector evidence through R8
 
 - R2 owner result: AI/high, approximately 94.6% AI by displayed segment word share; 277 AI/high -> 89 Human/high -> 1284 AI/high.
 - R3 exact Pangram 4: AI `0.9364346862`, Human `0.0635653436`; 259 AI/high -> same 89-word Human/high somatic island -> 1157 AI/high.
 - R4 exact Pangram 4: AI `1.0`, Human `0.0`; full boundary AI/high.
 - R5 exact Pangram 4: AI `0.9421896935`, Human `0.0578103140`; 306 AI/high -> same 89-word Human/high island -> 1262 AI/high.
 - R6 delayed application of a broader section-level guide was preservation-clean but was not Pangram-tested; later owner correction established that R6 did not faithfully reproduce the successful Episode 007 method fingerprint.
-- R7 faithfully applied the frozen sentence/span -> operation -> positive-target table after a real turn boundary. Owner screenshot result: 1719 UI words; 334 AI/high -> 32 Human/medium -> 1353 AI/high. Displayed segment word share ~= 98.14% AI / 1.86% Human. R7 is rejected for the detector target.
+- R7 faithfully applied the frozen sentence/span -> operation -> positive-target table after a real turn boundary. Owner screenshot result: 1719 UI words; 334 AI/high -> 32 Human/medium -> 1353 AI/high. Displayed segment word share ~= 98.14% AI / 1.86% Human. R7 rejected.
+- R8 owner screenshot result: 1549 UI words; 209 AI/high -> 94 Human/high -> 174 AI/high -> 22 Human/medium -> 1050 AI/high. Displayed word share ~= 92.51% AI / 7.49% Human. R8 is a slight improvement over R7 but remains rejected for the detector target.
 
-R7 result artifact:
-`articles/inner-child-therapy/experiments/EPISODE-008-R7-OWNER-SCREENSHOT-RESULT-20260916.json`
+R8 result artifact:
+`articles/inner-child-therapy/experiments/EPISODE-008-R8-OWNER-SCREENSHOT-RESULT-20260916.json`
 
-The text-first prediction artifact was frozen before deliberate screenshot inspection and matched the observed topology closely: broad AI opening, tiny concrete somatic Human island, broad AI tail beginning at the roadmap transition. Because the screenshot existed in the same owner turn, this is explicitly non-isolated evidence rather than a genuinely independent blind test.
+R8 text-first prediction artifact:
+`articles/inner-child-therapy/experiments/EPISODE-008-R8-TEXT-FIRST-PREDICTION-BEFORE-SCREENSHOT-20260916.md`
+
+The R8 prediction was frozen before deliberate screenshot inspection (but was non-isolated because the screenshot existed in the same turn). It closely matched the observed topology: broad AI opening, Human somatic island, AI roadmap/imagery/early-hook span, tiny Human Pema attribution, broad AI tail. The magnitude estimate (roughly 75-90% AI) was slightly optimistic versus the displayed ~92.51% AI share.
 
 ## Calibration locks
 
-- Freeze byte-for-byte the current paragraph beginning `Sometimes you need more bottom-up help than that:` through `...another approach that works from the body upward.`
-- Do not rewrite for detector reasons the preceding owner-shaped massage paragraph beginning `If your solar plexus...`. It sits inside the current red window but was part of earlier exact Human/high evidence and has no independent editorial defect sufficient to reopen it. Treat current red inclusion as contextual/distributed evidence.
+- Freeze the current Human/high block under `## Maybe Calm the Body First` beginning `If your solar plexus...` through the bottom-up modalities paragraph unless an independent editorial defect appears.
+- Freeze the current Pema/*shenpa* attribution for the next pass unless a larger-context repair gives an independent editorial reason to change it.
 - Preserve both native embeds in position.
 
 ## Active method fingerprint
@@ -46,69 +50,52 @@ The earlier drift that reduced this method to `write instructions, then apply th
 
 ## R8 current candidate
 
-Instruction source:
-`articles/inner-child-therapy/experiments/EPISODE-008-R7-TO-R8-MINIMAL-REPAIR-GUIDE-20260916.md`
-
 Candidate:
 `articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R8-MINIMAL-REPAIR-20260916.md`
 
-Audit/preservation receipt:
-`articles/inner-child-therapy/experiments/EPISODE-008-R8-PRESERVATION-AND-COLD-AUDIT-20260916.json`
-
 - SHA-256, no terminal newline: `d7ea10bca09cb30714ffafa70ae8e1e58f649652c4da4849801c2b78294326b3`
-- whitespace words: 1473
 - preservation: PASS forward/reverse
 - unexplained substantive deltas: 0
 - claim/certainty/attribution/agency changes: none
 - native object positions: preserved
-- current Human/medium bottom-up paragraph: preserved byte-for-byte
-- prior known-green massage paragraph: preserved byte-for-byte
-- Pangram: NOT RUN
-- cold audit: FAIL / context-contaminated same-context
-- owner-facing output admission: previously BLOCKED for routine candidate approval; owner has now explicitly requested to see the current imperfect R8 as working material, so full-text display is authorized as diagnostic work, not as a claimed pass.
-- detector eligibility: BLOCKED
+- owner Pangram screenshot: mostly AI/high as recorded above
+- production disposition: REJECTED for detector target
 
-## Owner correction after R8 cold-audit failure
+## Owner correction after R8 and A/B/C probes
 
-Joel clarified that he **agrees with the current order of ideas**. He does not think the next missing ingredient is a new owner-supplied sequence or fresh cognition. The problem is the realization itself: the prose is still written in a **predictable compressed way** that is obvious and unpleasant to read.
+Joel agrees with the **current order of ideas**. The missing ingredient is not a new sequence or broad owner cognition. The realization is still too **predictably compressed**: each sentence advances too smoothly and efficiently, making the prose obvious and unpleasant to read.
 
-Therefore do not ask Joel to reorder the content or supply broad audio merely to solve this humanization defect. The next discriminating question is whether the model can preserve the current idea order while changing thought-duration, rhetorical pressure, and social movement.
+Owner reports on the three hypothetical repair styles shown after R8:
+- **Strategy A (decompress thought / unequal thought duration):** first sample paragraph Human/low, second sample paragraph AI/low. Joel thinks A may have helped somewhat, but the second paragraph still felt more predictable/smooth than the first.
+- **Strategy B (reader-dialogue realization):** both sample paragraphs AI; owner strongly dislikes the predictable, condensed feel.
+- **Strategy C (concrete actions carry explanation):** both sample paragraphs AI; owner likewise sees predictable advancement.
 
-Joel also explicitly requested the current imperfect R8 so he can work from it. This supersedes the earlier routine-output admission block for this diagnostic handoff only; it does not make R8 detector-ready or accepted prose.
+Owner-specific style correction: generated standalone micro-verdicts such as **`Fine.` / `Good.` / `Great.`** sound strongly AI and should not be used as Joel-byline connective beats.
 
-## Revised R8 diagnosis
+Owner next-direction correction: focus on **Strategy A**, and also make the prose playful/captivating rather than a dry manual. Cultural references, meme-shaped analogies, and clearly hypothetical imaginative images are authorized when they genuinely illuminate the thought. They must not fabricate Joel biography, friends, memories, or factual experiences.
 
-The dominant defect is predictable compression rather than idea order:
+## R9 frozen guide
 
-- multiple semantic jobs are packed efficiently into one sentence;
-- a question is often resolved almost immediately after it appears;
-- caveats/qualifications arrive in exactly the expected guide position;
-- examples are compressed into coverage rather than allowed unequal weight;
-- lived uncertainty becomes a concise test/rule/criterion;
-- paragraph thought-duration remains short and regular even after listicle repair.
+`articles/inner-child-therapy/experiments/EPISODE-008-R8-TO-R9-A-DECOMPRESSION-PLAYFUL-SENTENCE-GUIDE-20260916.md`
 
-## Three owner-review repair hypotheses
+The guide keeps the current idea order and works sentence/span by sentence. Its central move is uneven thought duration: give the psychologically live thought more space; let caveats/examples hitchhike rather than each receiving a complete teaching unit; permit one thought to linger or circle once; and use at most one useful playful/cultural/meme lens where it makes an invisible dynamic visible or restores reader contact.
 
-Current options artifact:
-`articles/inner-child-therapy/experiments/EPISODE-008-R8-DECOMPRESSION-OPTIONS-20260916.md`
-
-A. **Decompress thought without adding content.** Preserve order but let the reader's live problem stay unresolved longer; use more natural connective syntax and unequal emphasis; do not mechanically expand.
-
-B. **Turn exposition into actual reader dialogue.** Preserve order but let real reader objections/questions create the next sentence where structurally warranted; avoid turning the section into a Q&A template.
-
-C. **Let source-supported concrete action carry more explanation.** Preserve order but let actions already present in the source do the explanatory work instead of stating the rule first and then examples; no fabricated scenes.
-
-Current provisional preference before owner adjudication: hybrid weighted toward A, with B used only for genuine reader uncertainty and C only where source-supported actions are rich enough.
-
-## Stronger alternatives deferred
-
-- broad owner audio / voice dump: useful later for Target #2 ownerization, but confounds realization repair with new thought/selection/priority;
-- delete large portions of guide: no owner deletion authority;
-- merge/remove H3 headings: prior R4 consolidation regressed to Pangram AI 1.0 and headings perform real navigation;
-- rewrite known-green somatic wording because of latest red window: rejected without independent editorial defect.
+Three preserved implementation variants for future comparison:
+1. maximum-A: uneven decompression without playful additions;
+2. A + playful lens: current experimental priority per owner request;
+3. A + local owner-language restoration: lower edit dose but less informative about fresh model generation.
 
 ## Next action
 
-Show Joel the complete current R8 plus the three repair hypotheses with concrete examples. Joel identifies which assumption(s) are on target or supplies a better mechanism. Only then generate R9. Preserve the current idea order unless Joel explicitly changes it.
+On the next owner turn that asks to continue:
+1. read the frozen R8->R9 Strategy-A playful sentence guide literally;
+2. generate R9 without redesigning the guide during writing;
+3. preserve current idea order, calibration locks, links and native embeds;
+4. avoid standalone `Fine/Good/Great` verdict beats;
+5. run bidirectional preservation proof;
+6. adversarially cold-audit R9, including strongest attacks and rejected alternatives;
+7. run Pangram only if no concrete model-shaped defect remains that the audit actually believes.
+
+If R9 remains broadly AI, switch to owner minimal same-thought repairs of selected spans and capture them prospectively as aligned teaching evidence rather than requesting broad audio first.
 
 Target #2 remains banked in `OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane-exhaustion review.
