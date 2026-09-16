@@ -2,7 +2,7 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R6 DELAYED-GUIDE APPLICATION PENDING OWNER/PANGRAM CHECK**
+Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R6 AUDITED / R7 POSITIVE SENTENCE GUIDE FROZEN**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916S.md` for recovery.
 
@@ -25,22 +25,12 @@ Inner Child Therapy remains unregistered in `articles/INDEX.json`; all current p
 
 The exact Human/high somatic island beginning `If your solar plexus...` through `...another approach that works from the body upward.` remains a detector-known-green calibration anchor and is frozen byte-for-byte unless a separate editorial defect is identified.
 
-## Owner method correction after R5
-
-Joel observed that Episode 007's successful process separated `write the repair instructions` from `apply the repair instructions` across an owner turn. Episode 008's earlier repair guides were generally written and executed inside the same assistant turn. Joel explicitly authorized one experiment that applies the already-frozen instructions after this turn boundary before concluding the method is exhausted.
-
-This supersedes the prior same-context stop only for this delayed-execution experiment. It does not erase the R3/R4/R5 failure evidence.
-
-## Current R6
+## R6 delayed-guide experiment
 
 Candidate:
 `articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R6-DELAYED-GUIDE-APPLICATION-20260916.md`
 
-Instruction source applied:
-`articles/inner-child-therapy/experiments/EPISODE-008-R3-TO-R4-SENTENCE-REPAIR-GUIDE-20260916.md`
-
-Audit/preservation receipt:
-`articles/inner-child-therapy/experiments/EPISODE-008-R6-DELAYED-GUIDE-PRESERVATION-AND-AUDIT-20260916.json`
+R6 was generated on a later owner turn from the previously frozen R3->R4 guide to test whether instruction-writing and instruction-application benefit from a real turn boundary.
 
 - SHA-256, no terminal newline: `1b81fb684bfb924f5ad9c2e38a645c9b31a8f03375a2ecc74a134d0735b9adeb`
 - whitespace words: 1533
@@ -48,11 +38,25 @@ Audit/preservation receipt:
 - unexplained substantive deltas: 0
 - native object positions: preserved
 - exact known-green somatic island: preserved byte-for-byte
-- cold audit: provisional same-context/delayed-execution pass; no independent certification
-- Pangram: not yet run on R6
+- Pangram: not run on R6
+
+## Owner process correction after R6
+
+Joel clarified that the successful Episode 007 method was more specific than the section-level R3->R4 guide. The productive format was:
+
+`literal current sentence/span -> explicit operation (keep / merge / rewrite / compress / delete as separate sentence) -> precise positive generation target`
+
+Joel also wants the strongest alternative attacks/repairs surfaced, including why they were rejected, so he has options rather than seeing only one accepted path.
+
+Current frozen R6 audit/fix guide:
+`articles/inner-child-therapy/experiments/EPISODE-008-R6-TO-R7-POSITIVE-SENTENCE-REPAIR-GUIDE-20260916.md`
+
+The guide uses positive concrete sentence jobs and separately records rejected attacks: aggressive deletion, heading removal/continuous essay, generic compression, fake quirk/anecdote injection, blanket short-sentence freezing, blanket list-of-three bans, flattening all uncertainty, and reopening the known Human/high somatic island.
+
+## Admission status
+
+R6 is **not detector-ready** after the current cold audit. Residual model shape is distributed across equalized option-giving, repeated mini-lesson closure, counselor/explainer register, and some abstract checklist questions. The known-green somatic island remains frozen.
 
 ## Next action
 
-Owner checks/tests exact R6. If it materially improves, continue the proven instruction-first/delayed-application loop on only the remaining residuals. If it repeats the same broad R5 topology, the delayed-execution hypothesis is falsified for this boundary and fresh owner cognition or genuinely isolated generation becomes the next structurally different route. Do not average mixed detector labels into acceptance.
-
-Target #2 remains banked in `OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane-exhaustion review.
+On the next owner turn that asks to continue, apply the already-frozen R6->R7 positive sentence-level guide to R6 without rewriting the guide in that same turn. Re-run preservation, then cold-audit the full R7 boundary. Surface both the strongest remaining attacks and rejected alternatives. Run Pangram only if no substantive model-shape issue remains that the audit actually believes.
