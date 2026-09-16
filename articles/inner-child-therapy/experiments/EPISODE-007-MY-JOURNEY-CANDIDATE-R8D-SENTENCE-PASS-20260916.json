@@ -1,0 +1,40 @@
+{
+  "episode_id": "inner-child-my-journey-007-r8d-sentence-pass-20260916",
+  "status": "pending-owner-detector-judgment",
+  "supersedes_candidate": "EPISODE-007-MY-JOURNEY-CANDIDATE-R8C-20260916.json",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
+  "source_reader_visible_sha256_no_terminal_newline": "eae9b5e774d5b9111330d682fa59897272fb2b3cd6b4ae3fa9e7aa0554457875",
+  "candidate_markdown_sha256_no_terminal_newline": "1df78ef135579076e0b52b7f448d1854df8129a140c1a30c0f9eb4e446e15039",
+  "candidate_whitespace_word_count": 748,
+  "method": "Owner explicitly instructed Chat to execute its own frozen sentence-level rewrite guide sentence by sentence rather than imagining a whole rewrite at once. Only the three previously AI/high regions were regenerated. Each sentence was processed using its frozen disposition: rewrite, merge, delete-as-separate-sentence, or keep; then the complete section was integrated and cold-audited twice.",
+  "candidate_markdown": "# My Journey\n\nI used to preach [Buddhist enlightenment](http://mindset.u-dont-exist.com/) a lot. But an old childhood wound could still hit and suddenly I was the same little kid again, even when the spiritual part of me felt completely free.\n\nThe way I picture it is almost stupidly simple. Imagine you're broke and starving, and your baby is starving too. *Understandable*: there is no food. Then a food bank opens nearby and suddenly you've got lots of nutritious munchies. But you're eating all of it yourself while baby you is still starving. *Unforgivable.*\n\nNobody leaves a baby starving on purpose. I just didn't believe there was a baby. Inner-child stuff sounded silly to me until I could actually feel him. Then there was this little me actually hurting, and I could send some of the love I'd already found his way.\n\nI think most people who chase spiritual freedom are also trying to get away from something painful in themselves, and a lot of it goes back to childhood. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I did it too. It doesn't mean you're stupid or crazy.\n\nSpending your whole life processing the wounded kid isn't freedom either. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.\n\n### Don’t Give the Inner Adult Away\n\nIf you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and handing them the steering wheel can actually help for a while. But they can know things you don't and still be wrong about you.\n\nEven [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-book/) comes from a tradition where devotion to a teacher is a big deal, and she still says a teacher should “wean us from dependency altogether” and help us grow up.\n\nIf something in your life is actually dangerous, sometimes you have to leave or get practical help. Meditation can help with the pain while you're dealing with it. It can't replace getting out of danger, and calling the danger merely “your story” doesn't protect the kid from it.\n\nSay you grew up learning that what you wanted didn't matter. Now you're finally figuring out what you think, maybe even learning to say no, and somebody tells you there is no self. Maybe years later that feels freeing. Right then it can sound like the old message all over again. Sometimes learning what you want and being able to say no has to come first.\n\nIf you tell a therapist, “No, that's not right for me,” and they say the disagreement itself is resistance, then how could you ever tell them they're wrong? Maybe they've misunderstood you, or maybe what they're doing just isn't right for you. They have to be able to hear that without turning your no into more proof that they were right all along.\n\nBorrow adulthood. Do not surrender it.\n\nMy own case was weird. I was well-loved as a child, but from age twelve to twenty-six I was depressed and cried every night from feeling the pain of the world. [Loving-kindness (metta) meditation](http://love.u-dont-exist.com/) healed that depression almost instantly for me.\n\nI wasn't lacking love. My parents had given me a lot of it. I found more in [Buddhist teachings—which, it turns out, also include inner-child self-love!](https://substack.com/profile/355021294-u-dont-existcom/note/c-297324975) and later in [loveyhuasca](http://soma.u-dont-exist.com/). Metta gave all that love somewhere to land.\n\nBut it didn't reach everything. A lot of the child stuff around my attachment to women was still there. When I later tried [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm), it felt like I was making it up at first. I used San Pedro cactus and CBD tea with sublingual mapacho, and that cracked it open; structured sessions with an inner-child therapist deepened it.\n\n“Find the wounded child and love them” sounded simple until I tried it. A protective part could stop me before I even got close to the child. And when I did get through, sometimes I wasn't sitting with the child anymore—I was him. The three adult jobs from the map don't work too well when the adult has vanished, so I started looking for a way to have an adult there before I could reliably be that adult myself.\n\nThe image below maps out the details as best as I can fit:",
+  "preservation": {
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "claim_changes": "none",
+    "notes": [
+      "All 17 frozen Episode 007 preservation units remain represented.",
+      "All required links and the Pema attribution/quote remain.",
+      "No new memory, named person, symptom, chronology, spiritual claim, or therapeutic fact was added.",
+      "The red-region sentence count was allowed to change under the frozen sentence-level guide; deleted or merged sentences were realization scaffold, not deleted source function.",
+      "General criteria contain no first-person preference/permission wrappers."
+    ]
+  },
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT / saturated",
+    "pass_1_repairs": [
+      "Compressed the spiritual-bypassing move from generalization -> childhood restatement -> label into one causal sentence plus the required label.",
+      "Removed the balanced meditation-versus-action sentence shape and made practical action the main safety point.",
+      "Kept the final method-origin material as lived sequence rather than two equal obstacle branches plus a named-solution sentence."
+    ],
+    "strongest_candidate_1": "The broad most-people spiritual-bypassing claim still ends in a concept label; preserve-with-reason because the strong scope and term are explicit owner/source functions and the prior taxonomic motive pair is gone.",
+    "strongest_candidate_2": "The no-self paragraph still contains a later-versus-now timing contrast; preserve-with-reason because the developmental timing relation is the protected claim itself and is grounded in learning what one thinks and saying no.",
+    "strongest_candidate_3": "The therapist paragraph ends with an explicit anti-self-sealing criterion; preserve-with-reason because disagreement must remain capable of counting against the helper's interpretation, and the criterion is embedded in the actual exchange rather than a generic helper moral.",
+    "listicle_check": "PASS",
+    "register_check": "PASS_PROVISIONAL",
+    "recursive_mini_essay_check": "PASS_PROVISIONAL",
+    "owner_delivery_admission": "PASS_PROVISIONAL_SAME_CONTEXT",
+    "detector_status": "not run; owner exact-boundary check next"
+  }
+}
