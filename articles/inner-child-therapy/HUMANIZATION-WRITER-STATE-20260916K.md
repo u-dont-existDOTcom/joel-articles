@@ -48,13 +48,21 @@ R7 displayed AI share was about 40.24%; R8C is about 39.67%. Outcome progress is
 
 Generating another broad or materially similar same-context paraphrase is no longer justified. The critic can localize the defects, but the same generator repeatedly rebuilds the protected content into compact explanatory mini-essays.
 
-Joel explicitly offered to help if the remaining problems could not be fixed confidently. **Targeted owner language/cognition is now the preferred next route.** Ask only for the three surviving red functions, not a whole-section rewrite:
+Joel initially offered targeted help, then proposed a more diagnostic route: Chat should tell him **sentence by sentence how each red sentence should be generated differently**, while Joel supplies the natural realization. That route is now active.
 
-1. natural wording for child-becomes-real -> reparenting -> spiritual-bypassing thought;
-2. natural wording for actual danger / no-self-too-early / disagreement-not-resistance material;
-3. natural wording for protective-parts / becoming-the-child / borrowed-adulthood origin.
+Exact sentence-level owner rewrite guide:
 
-After owner input, integrate it into the complete section, rerun preservation and cold audit, and return the **whole integrated section** for checking.
+`experiments/EPISODE-007-OWNER-SENTENCE-REWRITE-GUIDE-20260916.md`
+
+The guide assigns each R8C red-region sentence a disposition (`rewrite`, `merge`, `delete-as-separate-sentence`, or `keep`) and gives generation instructions without requiring a one-for-one sentence mapping. Important: the owner may merge/delete model scaffold as long as the frozen preservation functions survive.
+
+After Joel supplies rewritten red material:
+
+1. classify each change as aligned realization vs new owner cognition;
+2. rerun Episode 007 forward/reverse preservation proof;
+3. integrate owner language into the complete `My Journey` boundary;
+4. cold-audit the full integrated section;
+5. return the **whole integrated section** for checking, never a splice packet.
 
 ## Authority boundary
 
