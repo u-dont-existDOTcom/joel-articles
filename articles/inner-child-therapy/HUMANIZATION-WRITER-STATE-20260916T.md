@@ -2,7 +2,7 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R9 STRATEGY-A PLAYFUL DECOMPRESSION FROZEN / PRESERVATION PASS / PROVISIONAL COLD-AUDIT PASS / PANGRAM PENDING**
+Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R9 STRATEGY-A PLAYFUL DECOMPRESSION FROZEN / PRESERVATION PASS / SECOND COLD-AUDIT FAIL / PANGRAM BLOCKED**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916S.md` for recovery.
 
@@ -69,8 +69,11 @@ Frozen Strategy-A guide:
 Candidate:
 `articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R9-A-PLAYFUL-DECOMPRESSION-20260916.md`
 
-Audit/preservation receipt:
+First audit/preservation receipt:
 `articles/inner-child-therapy/experiments/EPISODE-008-R9-PRESERVATION-AND-COLD-AUDIT-20260916.json`
+
+Second cold audit:
+`articles/inner-child-therapy/experiments/EPISODE-008-R9-SECOND-COLD-AUDIT-20260916.md`
 
 - SHA-256, no terminal newline: `20fbb910fdb8b8f5bd759278c8ee93597dd123ff87575507673ff37872535e33`
 - whitespace words: 2273
@@ -83,21 +86,44 @@ Audit/preservation receipt:
 - Pema/*shenpa* attribution: preserved byte-for-byte
 - standalone `Fine/Good/Great` verdict beats: absent
 - Pangram: NOT RUN
-- cold audit: PROVISIONAL PASS / context-contaminated same-context
-- owner-facing output admission: PASS
+- first cold audit: PROVISIONAL PASS / context-contaminated same-context
+- second cold audit: **FAIL**
+- owner-facing output admission: candidate may be shown diagnostically because Joel requested the working material; do not present as detector-ready
+- detector eligibility: **BLOCKED**
 
-R9 implements Strategy A rather than generic expansion: psychologically live thoughts receive more rhetorical time while caveats and preserved secondary functions are subordinated. Sparse playful lenses are used as genuine explanatory/social acts, including the steering-wheel image, Pixar inner-narrator image, movie/theater reorientation, Supreme Court relationship pause, customer-support reversal, note-under-door draft image, and original-footage/subtitles distinction.
+## R9 second-audit diagnosis
 
-## R9 strongest surviving attacks
+The initial provisional PASS was too permissive. R9 is materially more readable than R8, but Strategy A was applied too uniformly. The prose often **expands each conceptual station rather than truly giving unequal rhetorical time to the hot thought**, and the playful layer itself becomes regularized.
 
-1. Inner-monologue alternatives still carry several protected modalities and may retain a latent capability ladder. Current disposition: preserve-with-reason because R9 gives them unequal duration and derives later routes from failure of the verbal route rather than presenting an equal menu.
-2. The warmth/protection/direction triad remains genuine article architecture and can still resemble framework-card prose. Current disposition: preserve-with-reason because R9 searches for one available adult move and explicitly allows waiting when none is reachable.
-3. The repeated-behavior paragraph still carries many necessary qualifications (one event vs pattern, another person's boundary, can't/won't uncertainty, behavior change, promises, protection). Current disposition: preserve-with-reason because the ambiguity/pattern thought now dominates the rhetorical time and no faithful removal is currently justified.
+Strongest current defects:
 
-Largest remaining weakness: long-guide accumulation may still create distributed instructional rhythm that this saturated context cannot independently rule out; no specific local defect is currently believed mandatory to repair before new owner/Pangram evidence.
+1. **Playfulness became another predictable layer.** Individually useful images (steering wheel, Pixar committee, movie/theater, Supreme Court, customer support, note under door, footage/subtitles) accumulate into a recurring `explain -> crafted image -> continue` pulse. Repair by keeping only locally indispensable images rather than giving many conceptual units their own meme-ready line.
+2. **Inner-monologue material still completes a capability ladder.** Under the extra words, the sequence remains `no inner voice -> deliberate sentence -> define ask -> verbal route -> representation -> body -> caring action -> reassurance -> timing -> later analysis -> anti-preverbal-truth close`.
+3. **`Don't Assume It's All You` remains a complete counselor mini-essay.** It still covers other-person behavior, reversal example, Gibson, pattern/can't-won't/promises/protection, guilt/repair, desire to be understood, interaction goal, and Witness/Protector/Guide in a polished sequence.
+4. **The unsent-draft exercise still reads as a full protocol.** The note-under-door material is stronger, but the editing pass still explicitly covers unfairness, truth, responsibility, protest/request/boundary, send/wait/no-send, tomorrow, protection, return to writer, and writer need.
+5. **The checking tail still completes the concept.** The recursive opening and dinner image are stronger, but the section still resolves real change vs checking, grief qualification, unresolved thought, return to life, outcome mismatch, method change, and ritual/checking closure.
+
+Strong material to preserve unless new evidence gives a reason:
+- exact known-green somatic block;
+- exact Pema/*shenpa* attribution;
+- `Sometimes the words are all there and they're doing absolutely nothing.` and the following contrast;
+- `The thought can still be there while you go eat dinner; it doesn't have to be settled first.`;
+- the core angry-draft / writer distinction;
+- current idea order.
+
+## R9 detector prediction before any result
+
+If exact full R9 is tested now, current text-first prediction is **majority AI, likely roughly 70-90% AI by displayed word share**, with likely Human islands around the known-green somatic material, Pema attribution, and possibly a few concrete/decompressed spans. This is an editorial prediction, not a detector result.
 
 ## Next action
 
-Owner/Pangram evaluates exact R9. If residual windows remain, predict them text-first and freeze a new literal span -> operation -> positive-target guide before further generation. If R9 remains broadly AI, switch to owner minimal same-thought repairs of selected spans and capture them prospectively as aligned teaching evidence rather than requesting broad audio first.
+Do not Pangram exact R9 yet. The next repair should keep the literal-span -> operation -> positive-target method but interpret Strategy A more strictly:
+- expand only the genuinely hot thought;
+- compress/subordinate neighboring housekeeping harder;
+- remove playful images that merely decorate a conceptual station;
+- permit secondary implications to remain implicit when preservation allows;
+- do not give every preserved function its own rhetorical stop.
+
+After those repairs, re-run preservation and adversarial cold audit before any detector call. If the model cannot materially break the smooth guide architecture, switch to owner minimal same-thought repairs on selected spans and capture them as aligned teaching evidence.
 
 Target #2 remains banked in `OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane-exhaustion review.
