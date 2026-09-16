@@ -2,55 +2,77 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 008 R10 OWNER-TESTED / NEXT PASS NARROWED TO `Catch the Hook` / SENTENCE-LEVEL GUIDE FROZEN / APPLY NEXT OWNER TURN**
+Status: **EPISODE 008 R10 OWNER-TESTED / INNER-MONOLOGUE OWNER ISLAND HUMAN/HIGH / CATCH-THE-HOOK OWNER-FINAL LOCAL REALIZATION HUMAN/HIGH / R11 OWNER-LOCK-PLUS-REMAINDER CANDIDATE FROZEN**
 
-This file supersedes `HUMANIZATION-WRITER-STATE-20260916U.md` for current recovery. Read U first for detector history and the R10 result, then this overlay.
+This file supersedes `HUMANIZATION-WRITER-STATE-20260916U.md` for current recovery. Read U only when the full detector ladder before R10 is needed.
 
 ## Authority
 
-Inner Child Therapy remains unregistered in `articles/INDEX.json`; all current prose is non-authoritative experimental realization on `task/inner-child-therapy-intake-20260915`.
+Inner Child Therapy remains unregistered in `articles/INDEX.json`; all current prose remains non-authoritative experimental realization on `task/inner-child-therapy-intake-20260915`.
 
-## Current owner instruction
+## Current detector posture
 
-- Do not plan and apply the repair in the same assistant turn.
-- Generate sentence-by-sentence repair instructions now, then apply them on the next owner turn.
-- Continue showing three different predicted realizations so Joel can inspect the model's competing assumptions before the final application.
+- R7: ~98.14% AI displayed share.
+- R8: ~92.51% AI displayed share.
+- R9 broad playful decompression: ~97.56% AI displayed share; regressed.
+- R10 owner-calibrated long boundary: 1781 UI words -> 142 AI/high -> 200 Human/high -> 1439 AI/high, ~88.77% AI / 11.23% Human displayed share.
 
-## Current method decision
+R10 established that literal owner repair can create a Human/high island while fresh model prose around it remains broadly AI/high. Global long-boundary self-rewrite is no longer the active route.
 
-The long-boundary global rewrite lane has reached the escalation threshold. R10 improved to ~88.77% AI displayed share but the fresh model tail stayed broadly AI/high while the owner-fixed inner-monologue realization formed the substantial Human/high island.
+## Active method
 
-The next test is one still-red natural subsection only:
-`### Catch the Hook Before the Story Takes Over` through the safety sentence immediately before `### Don't Assume It's All You`.
+Work one still-red natural subsection at a time. Use literal owner teaching evidence, then a frozen sentence/span -> operation -> positive-target guide, with a real owner-turn separation between critic/planning and writer application when the method is being tested. Preserve owner-final Human blocks exactly. Run preservation and cold audit before detector testing.
 
-Use the exact owner AI/high -> Human/high inner-monologue pair as literal transformation evidence. Do not ask the writer only to follow abstract anti-pattern rules.
+## Inner-monologue lock
 
-## Frozen guide
+Owner-preferred inner-monologue realization is Human/high and stays exact. Do not token-hunt inside it.
 
-`articles/inner-child-therapy/experiments/EPISODE-008-R10-CATCH-HOOK-SENTENCE-GUIDE-20260916.md`
+## Catch-the-Hook owner calibration
 
-The guide contains:
-- literal R10 span -> explicit operation -> positive generation target;
-- subsection-level enforcement against one-sentence-per-preservation-unit realization;
-- three >=100-word predicted realizations for owner calibration;
-- next-turn contract requiring literal application without redesigning the guide during generation.
+Owner iterated the model’s Prediction C through multiple detector checks.
 
-## Three current hypotheses
+Article-local exact ladder:
+`articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`
 
-A. **Late-recognition dominance / minimal cleverness** — most rhetorical time goes to noticing the reaction only after action has already begun; other behaviors and later meaning trail.
+Pangram-lab method record:
+`u-dont-existDOTcom/pangram-humanization-lab@task/humanization-method-fingerprint-20260916:state/generation/INNER-CHILD-EPISODE008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`
 
-B. **One running text-message scene** — the unsent message carries recognition, pause, and later reality-checking; secondary protected functions hitchhike rather than opening separate mini-lessons.
+Observed lessons:
+- local Human status did not immunize a larger boundary; adding the old third paragraph could regress Human/medium -> AI/high;
+- removing the explicit `Later, ask the ... question` procedural bridge improved the three-paragraph boundary;
+- changing `notice the hook` from neutral procedure into a positive social act (`free honesty`, appreciation of noticing) materially altered the realization;
+- a locally Human first paragraph could still combine with a model-shaped adjacent paragraph into AI;
+- the final owner version adds explicit authorial disagreement with a New Age self-created-problems frame; this is owner re-authoring, not a clean same-thought detector pair;
+- do not infer phrase rules from emoji, `and/or`, `being/not doing`, `happy place`, or other isolated wording.
 
-C. **Associative/sideways thought** — preserve idea order but allow brief self-correction and uneven emphasis, closer to the thought movement visible in the owner's Human/high inner-monologue repair.
+## Catch-the-Hook owner-final lock
 
-No hypothesis is owner-approved yet. Current model preference is C, then A, then B, but owner calibration controls.
+The owner-final three-paragraph realization is owner-reported Human/high and must remain byte-for-byte unless Joel changes it.
+
+## R11 Catch-the-Hook candidate
+
+Candidate:
+`articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-R11-OWNER-LOCK-PLUS-REMAINDER-20260916.md`
+
+Receipt:
+`articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-R11-PRESERVATION-AND-COLD-AUDIT-20260916.json`
+
+- SHA-256 no terminal newline: `36682097f8ce19b1ff224cf16ecb17add34aa79cd43d827075bc4ae0522d8c63`
+- whitespace words: 351
+- owner Human/high block: exact lock
+- source-required remainder functions added only around the lock: Guide/direction, ten-minute send/consume/promise/decide delay, later-word versus in-the-moment-word distinction, and stop/external-support safety condition
+- forward traceability: PASS
+- reverse traceability: PASS
+- unexplained substantive deltas: 0
+- cold audit: PROVISIONAL PASS / same-context
+- Pangram: NOT RUN
+
+## Current owner instruction on process
+
+Keep showing three predicted realizations so Joel can inspect the model’s competing assumptions. Current owner calibration says Prediction C was closest to his style, but all three model predictions were AI/high before owner editing.
 
 ## Next action
 
-On the next owner turn:
-1. apply any calibration Joel gives on A/B/C;
-2. otherwise use the frozen guide as written;
-3. rewrite only `Catch the Hook` while keeping the rest of R10 unchanged;
-4. run local preservation proof and adversarial audit;
-5. show strongest remaining attacks/rejected alternatives;
-6. do not Pangram a candidate the audit still believes is model-shaped.
+Owner tests/inspects exact R11 Catch-the-Hook subsection. If residuals localize to assistant-added remainder material, repair only those spans and leave the owner-final Human/high block untouched. If R11 is accepted, reintegrate the subsection into the full Episode 008 boundary while preserving the Human/high inner-monologue island and other known-green material.
+
+Target #2 ownerization overlay remains banked for post-Pangram or genuine humanization-lane exhaustion.
