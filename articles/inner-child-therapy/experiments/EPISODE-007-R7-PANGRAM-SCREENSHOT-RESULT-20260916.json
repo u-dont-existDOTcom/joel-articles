@@ -1,0 +1,27 @@
+{
+  "episode_id": "inner-child-my-journey-007-r7-result-20260916",
+  "status": "owner-reported-screenshot-evidence",
+  "authority_boundary": "non-authoritative detector evidence; Inner Child Therapy remains unregistered",
+  "candidate_markdown_sha256_no_terminal_newline": "a7bc8b51370d707789c0e6536d0436f4221c4ed169e05d743c8c755ba57bbfbe",
+  "owner_summary": "down to 40% ai",
+  "pangram_ui_segments": [
+    {"label":"HUMAN WRITTEN","confidence":"High","ui_word_count":303,"preview":"My Journey I used to preach Buddhist..."},
+    {"label":"AI","confidence":"High","ui_word_count":86,"preview":"Don’t Give the Inner Adult Away If you..."},
+    {"label":"HUMAN WRITTEN","confidence":"High","ui_word_count":55,"preview":"Even Pema Chödrön comes from a trad..."},
+    {"label":"AI","confidence":"High","ui_word_count":176,"preview":"If your actual life is unsafe, spiritual pr..."},
+    {"label":"HUMAN WRITTEN","confidence":"High","ui_word_count":150,"preview":"Borrow adulthood. Do not surrender it...."},
+    {"label":"AI","confidence":"Medium","ui_word_count":80,"preview":"“Find the wounded child and love the..."}
+  ],
+  "derived_ui_ai_fraction": 0.4023529411764706,
+  "blind_prediction_record": "EPISODE-007-R7-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+  "blind_prediction_comparison": {
+    "matched_high_confidence_predictions": [
+      "first paragraph under Don’t Give the Inner Adult Away / borrowed-helper setup",
+      "practical-danger + no-self + disagreement/resistance run",
+      "final method recap"
+    ],
+    "borderline_prediction_that_scored_human": "broad spiritual-bypassing and therapy-versus-spirituality material before the subheading",
+    "interpretation": "The three red regions were all predicted before screenshot inspection. This materially increases confidence that the residuals are real editorial/model-shape problems rather than post-hoc detector chasing. The earlier section material and the Pema/autobiographical spans should be treated as known-green exact text for the next minimum-dose repair."
+  },
+  "next_strategy": "Freeze the exact Human/high spans and repair only the three predicted red regions. Do not rewrite the whole section again."
+}
