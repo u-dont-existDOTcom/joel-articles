@@ -1,0 +1,56 @@
+{
+  "episode_id": "inner-child-five-stage-map-boundary-006-20260916",
+  "status": "model-only-repair-threshold-reached-owner-realization-requested",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
+  "owner_request": "audit the latest map candidate; if the model cannot fix it cleanly, say so and let Joel try",
+  "accepted_prefix": {
+    "sha256_no_terminal_newline": "7011597dd41eefb5ec292d36d7bb37f0c3f5376fe58014a1615dec5a64ab07d6",
+    "word_count_whitespace": 166,
+    "disposition": "retain unchanged"
+  },
+  "audited_candidate": {
+    "text": "For now, I think of it in five stages. There's direct research behind some of the pieces, but the arrangement is mine.\n\n1. Child alone — orient to the present and make sure there's enough safety around you to begin.\n2. Borrowed adult — experience one reliable adult function through someone real, remembered, imagined, or symbolic.\n3. Adult apprentice — do at least one part of the caring yourself while support is still there.\n4. Inner adult — with repetition, warmth, protection, and direction get easier to call up on your own.\n5. Adult and child in relationship — the adult leads. The child isn't pushed away and doesn't have to run the whole life alone.\n\n“I am still this child, and I am also becoming the adult who stays.”",
+    "sha256_no_terminal_newline": "0425d4f6eed7f89b9b99701340a7a97da21d49c1e4a270e93b6261bacfcf20fd",
+    "word_count_whitespace": 130,
+    "combined_with_accepted_prefix_sha256_no_terminal_newline": "7f10854c004abb8dc0fafa11c2960dc0bfdf8eb7c2508bdb5e21c5aaff66905a",
+    "combined_word_count_whitespace": 296
+  },
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT / SATURATED",
+    "verdict": "OWNER_DELIVERY_ADMISSION_FAIL",
+    "strongest_objection_1": {
+      "span": "For now, I think of it in five stages. There's direct research behind some of the pieces, but the arrangement is mine.",
+      "diagnosis": "framework announcement immediately followed by a polished evidence/provenance qualification; it still reads like model/editor methodology before the actual material",
+      "best_available_repair": "remove prose throat-clearing entirely; if the map survives, let it present itself directly and move the provenance distinction outside the rhetorical opening"
+    },
+    "strongest_objection_2": {
+      "span": "the five numbered stage definitions",
+      "diagnosis": "despite wording changes, the model keeps recreating an equalized taxonomy: label -> compact definition/action, repeated five times. This is now the recurring structural failure, not a sentence-level defect",
+      "best_available_repair": "a genuinely owner-authored realization of the map, or a source-authorized architecture that does not require the model to invent another five-rung explanatory ladder"
+    },
+    "strongest_objection_3": {
+      "span": "stage 5 followed by the detached exact quotation",
+      "diagnosis": "the relationship stage already completes the developmental arc; the quotation then acts as a polished epilogue/restatement, recreating tapering closure",
+      "best_available_repair": "owner determines the natural rhetorical job/placement of the quotation rather than another model attempt mechanically moving it within the same five-stage package"
+    },
+    "preservation_assessment": "the semantic units remain recoverable, but further model-only reshuffling is increasingly correlated and risks optimizing packaging rather than recovering Joel's natural realization",
+    "paid_call_surprise_gate": "FAIL: given repeated failures of structurally similar map realizations, an AI result on another model-generated five-stage rewrite would not be genuinely surprising",
+    "owner_delivery_admission": "FAIL for another model-generated candidate",
+    "method_escalation": "STOP materially similar model-only rewriting. The generator and critic are now operating in the same saturated context and repeatedly reproduce the same taxonomy/closure prior. Request owner realization rather than add more anti-pattern constraints."
+  },
+  "owner_handoff": {
+    "request": "Joel supplies his natural version of the five-stage map while preserving the source meanings; no need to polish for Pangram. The assistant will then check preservation, classify any same-thought realization pair, and audit the combined natural boundary.",
+    "must_preserve": [
+      "overall five-stage arrangement is Joel's own provisional synthesis, while some component ideas have direct research support",
+      "stage 1: orient to present and establish enough outside safety to begin",
+      "stage 2: one reliable adult function through a real, remembered, imagined, or symbolic figure",
+      "stage 3: care with support while doing at least one part yourself",
+      "stage 4: warmth, protection, and direction become familiar/easier to summon through repetition",
+      "stage 5: adult leads without exiling child; child no longer has to run life alone",
+      "child is not eliminated / identity becomes larger than the child-state",
+      "exact quotation meaning: I am still this child, and I am also becoming the adult who stays"
+    ],
+    "avoid_overconstraining_owner": "Do not prescribe cadence, fragments, list punctuation, joke insertion, roughness, or detector tricks. Joel should realize the thought naturally."
+  },
+  "detector_status": "do not spend another production Pangram call until a genuinely new owner realization or materially different architecture exists"
+}
