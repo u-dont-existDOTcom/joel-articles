@@ -2,7 +2,7 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R7 REJECTED / R8 MINIMAL-REPAIR GUIDE FROZEN**
+Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R8 GENERATED / PRESERVATION PASS / COLD-AUDIT FAIL / OWNER MINIMAL REPAIRS NEXT**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916S.md` for recovery.
 
@@ -32,48 +32,71 @@ The text-first prediction artifact was frozen before deliberate screenshot inspe
 
 ## Calibration locks
 
-- Freeze byte-for-byte the current Human/medium paragraph beginning `Sometimes you need more bottom-up help than that:` through `...another approach that works from the body upward.`
+- Freeze byte-for-byte the current paragraph beginning `Sometimes you need more bottom-up help than that:` through `...another approach that works from the body upward.`
 - Do not rewrite for detector reasons the preceding owner-shaped massage paragraph beginning `If your solar plexus...`. It sits inside the current red window but was part of earlier exact Human/high evidence and has no independent editorial defect sufficient to reopen it. Treat current red inclusion as contextual/distributed evidence.
 - Preserve both native embeds in position.
 
-## Current method fingerprint
-
-The active repair method remains:
+## Active method fingerprint
 
 `literal current sentence/span -> explicit operation -> precise positive generation target`
 
 Then freeze the guide; cross a real owner turn before application when testing phase separation; apply literally; re-run preservation; adversarially cold-audit the complete boundary; surface strongest attacks and rejected alternatives; run Pangram only when no concrete model-shaped defect remains that the audit actually endorses.
 
-## Current R7 diagnosis
+The earlier drift that reduced this method to `write instructions, then apply them later` is separately captured for Mission Control and as a provisional Pangram-lab method-fingerprint lesson.
 
-R7 improved local realization but not long-boundary detector shape. The critic's strongest diagnosis, confirmed by the screenshot topology, is distributed guide architecture rather than one magic phrase:
+## R8 current candidate
 
-- FAQ/decision-tree sequencing in the opening and inner-monologue material;
-- repeated conditional reader-state -> prescribed-move syntax;
-- many preserved inventories that are less listicle-shaped locally but still accumulate as comprehensive coverage;
-- repeated teaching-card closure/reset across hook, outward-assessment, response-editing, and checking material;
-- counselor/explainer conclusions that close one micro-protocol before the next begins.
-
-## Minimal repair vs owner audio
-
-Current owner hypothesis: minimal aligned repairs will teach more about the humanization transformation than a broad rough audio/voice dump. Current disposition: agree for the humanization-learning target. Minimal same-thought owner edits can become clean before/after teaching pairs; a broad audio may introduce new thought, selection, priority, examples, or deletions and therefore becomes owner reauthoring rather than clean realization evidence. Audio remains valuable later for Target #2 ownerization or if aligned minimal repair genuinely stalls.
-
-## Frozen R7 -> R8 guide
-
+Instruction source:
 `articles/inner-child-therapy/experiments/EPISODE-008-R7-TO-R8-MINIMAL-REPAIR-GUIDE-20260916.md`
 
-This guide is deliberately minimal rather than another broad rewrite. It keeps prior known-green somatic wording, targets high-leverage scaffold/closure spans, and includes stronger attacks that were considered but deferred.
+Candidate:
+`articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R8-MINIMAL-REPAIR-20260916.md`
+
+Audit/preservation receipt:
+`articles/inner-child-therapy/experiments/EPISODE-008-R8-PRESERVATION-AND-COLD-AUDIT-20260916.json`
+
+- SHA-256, no terminal newline: `d7ea10bca09cb30714ffafa70ae8e1e58f649652c4da4849801c2b78294326b3`
+- whitespace words: 1473
+- preservation: PASS forward/reverse
+- unexplained substantive deltas: 0
+- claim/certainty/attribution/agency changes: none
+- native object positions: preserved
+- current Human/medium bottom-up paragraph: preserved byte-for-byte
+- prior known-green massage paragraph: preserved byte-for-byte
+- Pangram: NOT RUN
+- cold audit: FAIL / context-contaminated same-context
+- owner-facing output admission: BLOCKED
+- detector eligibility: BLOCKED
+
+## R8 strongest remaining failures
+
+1. Inner-monologue alternatives still form a complete capability ladder: verbal route -> representational route -> bodily route -> caring action -> reassurance.
+2. Relationship-assessment material still completes a full counselor account: qualification -> repeated-pattern test -> can't/won't uncertainty -> promises vs behavior -> protection -> guilt/repair -> interaction goal -> Witness/Protector/Guide synthesis.
+3. Unsent-draft material still reads as a complete edit protocol followed by a complete care-for-writer protocol.
+4. Healing/checking tail still resolves as an evaluator rubric: movement test -> checking distinction -> grief qualification -> unresolved-thought rule -> outcome test -> stop/keep/replace -> ritual warning.
+
+These are believed editorial defects, not merely detector superstition. Therefore R8 must not be sent to Pangram or routinely surfaced as a candidate for owner approval.
+
+## Owner minimal-repair route
+
+Current preferred next step is owner minimal same-thought repair, not broad audio.
+
+Exact handoff:
+`articles/inner-child-therapy/experiments/EPISODE-008-R8-OWNER-MINIMAL-REPAIR-HANDOFF-20260916.md`
+
+It contains four exact spans, their protected functions, and why each remains model-shaped. Rough same-thought rewrites are preferred. Each owner response must be classified before reuse:
+- `ALIGNED_SAME_THOUGHT` -> eligible as clean humanization teaching evidence;
+- `OWNER_REAUTHORING` -> article authority/cognition, but not a clean style-transfer pair.
+
+## Stronger alternatives currently deferred
+
+- broad owner audio / voice dump: useful later for Target #2 ownerization, but confounds realization repair with new thought/selection/priority;
+- delete large portions of guide: no owner deletion authority;
+- merge/remove H3 headings: prior R4 consolidation regressed to Pangram AI 1.0 and headings perform real navigation;
+- rewrite known-green somatic wording because of latest red window: rejected without independent editorial defect.
 
 ## Next action
 
-On the next owner turn that asks to continue:
-1. read the frozen R7->R8 minimal-repair guide literally;
-2. apply only those operations to R7 without redesigning the guide during generation;
-3. preserve the locked somatic spans and native embeds;
-4. re-run bidirectional preservation proof with zero unexplained substantive deltas;
-5. cold-audit exact R8 and surface strongest attacks/rejected alternatives;
-6. run Pangram only if no concrete model-shaped defect remains that the audit actually believes.
-
-If R8 remains broadly red, switch to owner-supplied minimal same-thought repairs on selected spans rather than requesting a broad audio first. Capture each aligned owner correction prospectively as generation teaching evidence.
+Joel provides rough minimal same-thought rewrites for any or all four frozen R8 owner-repair targets. Integrate the aligned corrections, preserve all unsuperseded functions, capture exact before/after teaching pairs, then re-run preservation and cold audit before any further Pangram call.
 
 Target #2 remains banked in `OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane-exhaustion review.
