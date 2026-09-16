@@ -1,0 +1,28 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-catch-hook-r11-20260916",
+  "status": "owner-tested-rejected",
+  "authority_boundary": "non-authoritative experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-R11-OWNER-LOCK-PLUS-REMAINDER-20260916.md",
+  "candidate_sha256_no_terminal_newline": "36682097f8ce19b1ff224cf16ecb17add34aa79cd43d827075bc4ae0522d8c63",
+  "owner_reported_result": {
+    "label": "AI",
+    "confidence": "high",
+    "share_description": "owner reports 100% AI / high confidence for the complete R11 subsection"
+  },
+  "additional_owner_evidence": {
+    "three_model_predictions": "all three predicted realizations were owner-reported AI / medium confidence",
+    "owner_final_three_paragraph_block": "Human / high confidence when tested as the owner-final local realization before assistant remainder was appended"
+  },
+  "diagnosis": {
+    "primary": "boundary-completion regression: appending assistant-written remainder after the Human/high owner block rebuilt a complete practical-guide arc and caused the combined natural subsection to regress",
+    "secondary": "transfer failure: model generations still realize protected functions as orderly explanation/procedure even after literal owner teaching examples",
+    "preservation_pressure_issue": "the workflow treated every source-required remainder function as needing explicit adjacent prose rather than first re-auditing whether the function was already carried elsewhere in the natural section, could be consolidated, or required an owner-authorized placement change",
+    "not_supported": [
+      "do not infer that any isolated emoji, phrase, typo, slang item, or punctuation mark caused the flip",
+      "do not infer that the owner-final Human/high block itself became intrinsically AI-shaped",
+      "do not infer which appended sentence is causal without localization evidence"
+    ]
+  },
+  "method_decision": "Stop model-only remainder rewriting for this subsection. Preserve the owner-final Human/high block. Before any new prose generation, run a preservation-reallocation audit across the complete Episode 008 natural section to identify the smallest genuinely uncovered functions and whether any are already equivalently carried elsewhere. If owner-authorized new wording is still required, request or generate only that minimal missing unit rather than reconstructing another complete subsection.",
+  "pangram_repeat": "not requested; exact R11 result is already decisive for production rejection"
+}
