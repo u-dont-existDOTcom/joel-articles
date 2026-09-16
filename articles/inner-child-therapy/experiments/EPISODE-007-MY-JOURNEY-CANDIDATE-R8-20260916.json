@@ -1,0 +1,57 @@
+{
+  "episode_id": "inner-child-my-journey-007-r8-20260916",
+  "status": "pending-owner-detector-judgment",
+  "supersedes_candidate": "EPISODE-007-MY-JOURNEY-CANDIDATE-R7-20260916.json",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
+  "source_reader_visible_sha256_no_terminal_newline": "eae9b5e774d5b9111330d682fa59897272fb2b3cd6b4ae3fa9e7aa0554457875",
+  "candidate_markdown_sha256_no_terminal_newline": "cfd4af90275452531e35868f582c042918e1304d28b1bcd48c3d61d70c6682ac",
+  "candidate_whitespace_word_count": 738,
+  "strategy": "Known-green freeze + red-only minimum-dose repair. All R7 Human/high spans are preserved byte-for-byte. Only the three Pangram-red regions that were independently predicted before screenshot inspection are changed.",
+  "r7_detector_evidence": "EPISODE-007-R7-PANGRAM-SCREENSHOT-RESULT-20260916.json",
+  "blind_prediction_evidence": "EPISODE-007-R7-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+  "candidate_markdown": "# My Journey\n\nI used to preach [Buddhist enlightenment](http://mindset.u-dont-exist.com/) a lot. Eventually I realized you can feel spiritually free and still feel like the same little kid underneath when an old wound gets touched. The old childhood stuff can keep running your life even while the spiritual part feels free.\n\nThe way I picture it is almost stupidly simple. Imagine you're broke and starving, and your baby is starving too. *Understandable*: there is no food. Then a food bank opens nearby and suddenly you've got lots of nutritious munchies. But you're eating all of it yourself while baby you is still starving. *Unforgivable.*\n\nNobody leaves a baby starving on purpose. The problem was that I didn't believe there was a baby. Until a few years ago, inner-child stuff sounded pretty silly to me. Then I could feel him directly. Reparenting stopped sounding silly because there was actually someone there to take care of, and I could give him some of the love I'd found instead of trying to get above the pain.\n\nI came to think most people who chase spiritual freedom are also trying to get above childhood pain, or get away from some part of themselves they don't want to meet. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I don't think people bypass because they're stupid or crazy. I did it too.\n\nTherapy can also become endless processing of the hurt kid. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.\n\n### Don’t Give the Inner Adult Away\n\nIf you still feel like a kid inside, someone who seems genuinely grown-up can feel like salvation. You feel small, they seem to know how life works, and some part of you says: okay, you drive. Sometimes that really does help. But they can know things you don't and still be wrong about you.\n\nEven [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-book/) comes from a tradition where devotion to a teacher is a big deal, and she still says a teacher should “wean us from dependency altogether” and help us grow up.\n\nIf your actual life is unsafe, spiritual practice doesn't make it safe. Sometimes you have to leave or get practical help. Calling real danger merely “your story” leaves the kid alone with it.\n\nNo-self can be terrible timing too. If you grew up learning that what you wanted didn't matter, you may only just be starting to figure out what you think and learning to say no. Then somebody tells you there is no self. Maybe one day that's freeing. It doesn't have to be now.\n\nIf every disagreement in therapy gets called “resistance,” there's no way to tell the therapist they're wrong. Maybe they are. Maybe the method is going somewhere you don't want to go. They have to be able to hear that without turning your disagreement into proof that they're right.\n\nBorrow adulthood. Do not surrender it.\n\nMy own case was weird. I was well-loved as a child, but from age twelve to twenty-six I was depressed and cried every night from feeling the pain of the world. [Loving-kindness (metta) meditation](http://love.u-dont-exist.com/) healed that depression almost instantly for me.\n\nI wasn't lacking love. My parents had given me a lot of it. I found more in [Buddhist teachings—which, it turns out, also include inner-child self-love!](https://substack.com/profile/355021294-u-dont-existcom/note/c-297324975) and later in [loveyhuasca](http://soma.u-dont-exist.com/). Metta gave all that love somewhere to land.\n\nBut it didn't reach everything. A lot of the child stuff around my attachment to women was still there. When I later tried [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm), it felt like I was making it up at first. I used San Pedro cactus and CBD tea with sublingual mapacho, and that cracked it open; structured sessions with an inner-child therapist deepened it.\n\n“Find the wounded child and love them” sounded simple until I tried it. Protective parts could stop me before I got near the child. Even when I got through, I could get pulled so far into being the child that the grown-up me disappeared. At that point, who's doing the three adult jobs from the map? Borrowed adulthood came from that.\n\nThe image below maps out the details as best as I can fit:",
+  "preservation": {
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "claim_changes": "none",
+    "notes": [
+      "All 17 frozen Episode 007 source units remain represented.",
+      "The R7 Human/high opening through the pre-subheading material is byte-identical.",
+      "The R7 Human/high Pema span beginning 'Even Pema Chödrön...' is byte-identical.",
+      "The R7 Human/high span beginning 'Borrow adulthood. Do not surrender it.' through the autobiographical San Pedro/CBD/mapacho material is byte-identical.",
+      "Red-region repair 1 removes the explicit borrowed-adulthood mini-definition and tidy helper-return criterion while preserving temporary-help and helper-fallibility functions; anti-dependency remains explicit in the adjacent Pema quote and protected slogan.",
+      "Red-region repair 2 preserves actual-danger/practical-action, no-self-too-early, disagreement-not-resistance, helper/method-fallibility, and helper-must-consider-disagreement functions while removing repeated therapist mini-essay aftercare.",
+      "Red-region repair 3 preserves protective parts, child-state loss of adult capacity, the three adult jobs callback, borrowed-adulthood origin, and image handoff while changing the two-case taxonomy into a lived causal question."
+    ]
+  },
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT / detector-history-contaminated",
+    "strongest_candidate_1": {
+      "span": "If you still feel like a kid inside... But they can know things you don't and still be wrong about you.",
+      "diagnosis": "Still moves from felt dependence to a helper-fallibility conclusion, but no longer defines the concept or adds a neat role-return criterion in the same paragraph.",
+      "disposition": "preserve-with-reason",
+      "reason": "The remaining movement is the actual source pressure and hands directly into the known-green Pema evidence rather than closing a mini-essay."
+    },
+    "strongest_candidate_2": {
+      "span": "No-self can be terrible timing too... It doesn't have to be now.",
+      "diagnosis": "The source itself contains a developmental timing relation, so some explanatory sequence is unavoidable.",
+      "disposition": "preserve-with-reason",
+      "reason": "The paragraph now stays close to the reader learning what they think and how to say no, with no taxonomy or additional theoretical synthesis."
+    },
+    "strongest_candidate_3": {
+      "span": "If every disagreement in therapy gets called resistance... proof that they're right.",
+      "diagnosis": "The logic is still explicit and could read polished, but it performs the source's necessary falsifiability/disagreement function directly.",
+      "disposition": "preserve-with-reason",
+      "reason": "Further compression would remove the distinction between helper error and method mismatch or weaken the anti-self-sealing-theory point."
+    },
+    "listicle_check": "PASS",
+    "first_person_preference_permission_check": "PASS",
+    "known_green_freeze_check": "PASS",
+    "recursive_mini_essay_check": "PASS_PROVISIONAL after deleting concept-definition and criterion aftercare from the first red region, shortening the 176-word advice run, and converting the final two-case recap into one continuous lived failure.",
+    "owner_delivery_admission": "PASS_PROVISIONAL_SAME_CONTEXT",
+    "fresh_owner_input_needed": "not yet; the blind prediction matched all three Pangram-red regions exactly enough to justify this one red-only minimum-dose repair. If a repaired region remains materially AI after R8, request targeted owner language for that exact surviving span rather than starting another broad rewrite loop.",
+    "largest_remaining_weakness": "the no-self timing paragraph remains the most inherently explanatory span because the source claim itself is sequential."
+  },
+  "detector_status": "not run; owner judgment/test next"
+}
