@@ -2,7 +2,7 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R6 AUDITED / R7 POSITIVE SENTENCE GUIDE FROZEN**
+Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R7 SENTENCE-GUIDE APPLICATION FROZEN / PANGRAM PENDING**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916S.md` for recovery.
 
@@ -27,36 +27,58 @@ The exact Human/high somatic island beginning `If your solar plexus...` through 
 
 ## R6 delayed-guide experiment
 
+R6 applied the earlier R3->R4 guide after a real owner-turn boundary and remained preservation-clean, but a later audit established that this was not a faithful reproduction of Episode 007's successful method. It preserved the delayed-application dimension while using a broader section/thought guide rather than the literal sentence/span-level operation table that had worked.
+
 Candidate:
 `articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R6-DELAYED-GUIDE-APPLICATION-20260916.md`
 
-R6 was generated on a later owner turn from the previously frozen R3->R4 guide to test whether instruction-writing and instruction-application benefit from a real turn boundary.
-
 - SHA-256, no terminal newline: `1b81fb684bfb924f5ad9c2e38a645c9b31a8f03375a2ecc74a134d0735b9adeb`
-- whitespace words: 1533
+- Pangram: not run on R6
+
+## Owner method correction / method fingerprint
+
+The successful Episode 007 method is now defined structurally, not by the loose label `instruction-first`:
+
+`literal current sentence/span -> explicit operation (keep / merge / rewrite / compress / delete as separate sentence) -> precise positive generation target`
+
+For the current experimental lane, the full method fingerprint is:
+
+1. audit the literal current candidate;
+2. freeze sentence/span-level instructions using the schema above;
+3. when testing phase separation, cross a real owner turn before application;
+4. apply the frozen guide without rewriting the instructions during generation;
+5. re-run preservation proof;
+6. cold-audit the complete natural boundary;
+7. surface strongest remaining attacks and stronger rejected alternatives so Joel has options;
+8. use Pangram only when no concrete model-shaped defect remains that the audit actually endorses.
+
+The failure to preserve this fingerprint was separately captured for Mission Control as a task-time method-fingerprint drift defect.
+
+## R7 current candidate
+
+Instruction source:
+`articles/inner-child-therapy/experiments/EPISODE-008-R6-TO-R7-POSITIVE-SENTENCE-REPAIR-GUIDE-20260916.md`
+
+Candidate:
+`articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R7-SENTENCE-GUIDE-APPLICATION-20260916.md`
+
+Audit/preservation receipt:
+`articles/inner-child-therapy/experiments/EPISODE-008-R7-PRESERVATION-AND-COLD-AUDIT-20260916.json`
+
+- SHA-256, no terminal newline: `2ccea4ed22e6755b4fc1a15eb3396aa1ec042e56b17fd7de21b6d1ef8108530e`
+- whitespace words: 1637
 - preservation: PASS forward/reverse
 - unexplained substantive deltas: 0
 - native object positions: preserved
 - exact known-green somatic island: preserved byte-for-byte
-- Pangram: not run on R6
+- cold audit: provisional same-context PASS
+- owner-facing output admission: PASS
+- Pangram: not yet run on R7
 
-## Owner process correction after R6
-
-Joel clarified that the successful Episode 007 method was more specific than the section-level R3->R4 guide. The productive format was:
-
-`literal current sentence/span -> explicit operation (keep / merge / rewrite / compress / delete as separate sentence) -> precise positive generation target`
-
-Joel also wants the strongest alternative attacks/repairs surfaced, including why they were rejected, so he has options rather than seeing only one accepted path.
-
-Current frozen R6 audit/fix guide:
-`articles/inner-child-therapy/experiments/EPISODE-008-R6-TO-R7-POSITIVE-SENTENCE-REPAIR-GUIDE-20260916.md`
-
-The guide uses positive concrete sentence jobs and separately records rejected attacks: aggressive deletion, heading removal/continuous essay, generic compression, fake quirk/anecdote injection, blanket short-sentence freezing, blanket list-of-three bans, flattening all uncertainty, and reopening the known Human/high somatic island.
-
-## Admission status
-
-R6 is **not detector-ready** after the current cold audit. Residual model shape is distributed across equalized option-giving, repeated mini-lesson closure, counselor/explainer register, and some abstract checklist questions. The known-green somatic island remains frozen.
+Strongest surviving attacks are preserved in the receipt rather than suppressed: the alternate communication routes still contain many protected modalities; `Don’t Assume It’s All You` still contains several necessary epistemic/safety qualifications; and the hook section still contains grouped adult-role and ten-minute harm-reduction actions. Current disposition is preserve-with-reason because further simplification would delete protected content, while R7 has changed the realization from equalized taxonomies into sequences and live actions.
 
 ## Next action
 
-On the next owner turn that asks to continue, apply the already-frozen R6->R7 positive sentence-level guide to R6 without rewriting the guide in that same turn. Re-run preservation, then cold-audit the full R7 boundary. Surface both the strongest remaining attacks and rejected alternatives. Run Pangram only if no substantive model-shape issue remains that the audit actually believes.
+Owner or external Pangram evaluation of exact R7. If R7 materially improves, continue the same frozen sentence/span -> operation -> positive-target process only on actual residuals. If R7 repeats the broad R3/R5 topology, do not call this method successful for the current long boundary; use a structurally different source/authorial route rather than another approximate paraphrase loop.
+
+Target #2 remains banked in `OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane-exhaustion review.
