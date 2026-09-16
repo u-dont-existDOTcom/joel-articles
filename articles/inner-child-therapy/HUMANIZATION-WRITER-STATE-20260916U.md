@@ -2,7 +2,7 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R10 OWNER-CALIBRATED CANDIDATE FROZEN / PRESERVATION PASS / PROVISIONAL COLD-AUDIT PASS / OWNER TEST NEXT**
+Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R10 OWNER-TESTED / 88.77% AI DISPLAY SHARE / OWNER INNER-MONOLOGUE ISLAND HUMAN/HIGH / NEXT ROUTE = LITERAL OWNER-PAIR TRANSFER BY SUBSECTION**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916T.md` for recovery.
 
@@ -16,81 +16,75 @@ Inner Child Therapy remains unregistered in `articles/INDEX.json`; all current p
 - Episode 006 owner-final five-stage map: owner-reported Human / high confidence; keep.
 - Episode 007 My Journey R8F: owner-reported 100% Human / high confidence.
 
-## Episode 008 detector history through R9
+## Episode 008 detector ladder
 
 - R7: owner screenshot ~98.14% AI displayed share.
 - R8: owner screenshot ~92.51% AI displayed share.
-- R9 Strategy-A broad playful decompression: owner screenshot reports 2379 UI words, 4 segments, 3 AI; only visible Human segment 58 words Human/high. If the segment counts partition the UI total, implied displayed share ~97.56% AI / 2.44% Human. R9 regressed.
+- R9 Strategy-A broad playful decompression: ~97.56% AI displayed share; regressed after broad expansion.
+- R10 HOT/CARRY/LOCK/SCAFFOLD + owner-calibrated inner-monologue passage: owner screenshot 1781 UI words / 3 segments = 142 AI/high -> 200 Human/high -> 1439 AI/high by arithmetic remainder = **88.77% AI / 11.23% Human displayed share**.
 
-R9 regression diagnosis remains: instruction design and execution both failed, with design upstream. The guide distributed rewrite/decompression opportunities too evenly, made play salient at too many stations, and lacked a whole-boundary edit-dose constraint; the writer then over-expanded housekeeping and used too many optional images.
+R10 result artifact:
+`articles/inner-child-therapy/experiments/EPISODE-008-R10-OWNER-SCREENSHOT-RESULT-20260916.json`
 
-## R10 method correction
-
-Current long-boundary roles:
-- `HOT`: selectively expand only the psychologically live thought;
-- `CARRY`: preserve function without a standalone rhetorical stop;
-- `LOCK`: preserve exact wording;
-- `SCAFFOLD`: remove/replace realization-only packaging without one-for-one prose replacement.
-
-Global enforcement:
-- current idea order preserved unless Joel changes it;
-- roughly 1600–1850 UI/whitespace-word target as an anti-global-expansion check;
-- at most two new crafted playful/cultural/metaphorical images, only when they replace explanation;
-- several preservation units may map to one sentence/paragraph;
-- no paragraph must conclude itself.
-
-Frozen guide:
-`articles/inner-child-therapy/experiments/EPISODE-008-R9-TO-R10-HOT-THOUGHT-SPARSE-REALIZATION-GUIDE-20260916.md`
-
-## New owner teaching: inner-monologue paragraph interaction
-
-Joel took model Prediction 3 and supplied bounded variants. The results establish a paragraph-level interaction:
-- P2-owner rewrite + P3-model remained AI/high;
-- P2-model + P3-owner rewrite remained AI/high;
-- P2-owner + P3-owner became Human/high with both tested P1 versions;
-- P1 wording was therefore not decisive in the observed endpoint.
-
-No additional minimal-pair test is needed for production. Further tests would only isolate subchanges inside P2/P3 as detector research.
-
-Article-local record:
-`articles/inner-child-therapy/experiments/EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`
-
-Pangram-lab research record:
-`u-dont-existDOTcom/pangram-humanization-lab@task/humanization-method-fingerprint-20260916:state/generation/INNER-CHILD-EPISODE008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`
-
-Owner-preferred three-paragraph realization is Human/high and is local authority for R10. It changes/removes some model examples; those local realization/example changes are direct owner supersession rather than assistant deletion authority.
-
-## R10 current candidate
-
-Candidate:
+R10 candidate:
 `articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R10-HOT-SPARSE-OWNER-CALIBRATED-20260916.md`
 
-Receipt:
-`articles/inner-child-therapy/experiments/EPISODE-008-R10-PRESERVATION-AND-COLD-AUDIT-20260916.json`
+## Owner teaching: inner-monologue paragraph interaction
 
-- SHA-256 no terminal newline: `b613b16c4114de43892360f9d0c1225f16df849cda8b087d72580ee2e532ae3b`
-- whitespace words: 1695
-- current idea order: preserved
-- both native embed placeholders: preserved in source order
-- known-green somatic passage: preserved byte-for-byte
-- owner-preferred Human/high inner-monologue realization: inserted verbatim
-- forward traceability: PASS
-- reverse traceability: PASS
-- unexplained substantive deltas: 0
-- current owner-authorized local supersessions: inner-monologue example/realization narrowing recorded in receipt
-- cold audit: PROVISIONAL PASS / context-contaminated
-- Pangram: NOT RUN
+Joel took model Prediction 3 and supplied bounded variants. Observed production evidence:
+- paragraph-1 wording did not determine the endpoint;
+- owner paragraph-2 repair + old paragraph 3 remained AI/high;
+- old paragraph 2 + owner paragraph-3 repair remained AI/high;
+- owner paragraph-2 + owner paragraph-3 repairs together became Human/high with both tested paragraph-1 versions.
 
-## R10 strongest residual risks
+The useful causal unit is therefore the adjacent paragraph-2 + paragraph-3 realization interaction, not a token or one isolated sentence. Additional token-level minimal pairs are detector research, not the highest-value production next step.
 
-1. Lindsay Gibson / repeated-pattern paragraph still carries several source-required qualifications and may retain some counselor-register density.
-2. The acute hook response still contains a genuine practical sequence that could be detector-sensitive despite tighter realization.
-3. The final checking section still carries several protected distinctions, though R10 now centers the lived mismatch of profound session versus unchanged problem.
+Article-local exact teaching record:
+`articles/inner-child-therapy/experiments/EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`
 
-No specific residual is currently believed mandatory to repair before new owner/Pangram evidence. Same-context audit cannot independently certify full absence of distributed instructional rhythm.
+Pangram-lab teaching record:
+`u-dont-existDOTcom/pangram-humanization-lab@task/humanization-method-fingerprint-20260916:state/generation/INNER-CHILD-EPISODE008-OWNER-INNER-MONOLOGUE-PAIR-20260916.md`
 
-## Next action
+## R10 text-first audit vs screenshot
 
-Owner tests exact R10. If Pangram localizes residual red windows, make a text-first prediction and freeze a new literal span -> role/operation -> positive-target guide before generation. Do not run token-level minimal-pair research on the already Human/high owner inner-monologue endpoint unless Joel explicitly wants detector mechanism research.
+The screenshot was present in the same owner turn, so the audit is non-isolated. Before deliberately zooming/reading it, the predicted topology was:
+- opening still AI-shaped;
+- exact owner-fixed inner-monologue material likely forms a Human island and may blend into owner-shaped somatic prose;
+- broad fresh model tail likely remains AI because hook/relationship/draft/checking sections still advance as a complete practical guide.
 
-If R10 remains broadly AI, use owner minimal same-thought repairs on the highest-value red spans and capture each aligned pair immediately. Target #2 ownerization overlay remains banked for post-Pangram or genuine humanization-lane exhaustion.
+Observed screenshot closely matches that topology: AI 142 -> Human 200 -> AI 1439 inferred.
+
+## R10 failure diagnosis
+
+### Strategy design: improved but incomplete
+
+HOT/CARRY/LOCK/SCAFFOLD plus a whole-section word budget repaired R9's global over-expansion and materially improved the detector share. But the plan still treated nearly every protected semantic function as an ordered obligation. It improved **where rhetorical time was allocated** without sufficiently changing **how the thought traveled from sentence to sentence**.
+
+The design also failed to make the exact owner AI/high -> Human/high inner-monologue transformation the primary literal generation demonstration for the still-model-generated spans. The owner endpoint was mostly inserted as a locked island instead of being used as the dominant transfer example.
+
+### Execution: partial transfer failure
+
+The writer did compress R9 substantially and preserved the exact owner Human/high passage. But fresh prose repeatedly returned to efficient manual architecture:
+- opening: state -> explanation -> advice -> return condition;
+- hook: recognition -> pause -> adult move -> ten-minute rule -> later meaning -> observation/judgment -> stop condition;
+- relationship: repeated behavior -> caveats -> promises/protection -> guilt -> interaction goal -> roles;
+- draft: write -> edit -> decide -> care for writer;
+- checking: identify -> evaluate -> distinguish -> return to life -> outcome audit -> change method.
+
+The owner pair's deeper realization changes—less complete modality coverage, ordinary register, nonparallel examples, associative/sideways motion, and stopping without conceptual synthesis—were not transferred reliably to the model-generated tail.
+
+## Method decision
+
+Do **not** run another global HOT/CARRY rewrite next. The long-boundary global self-rewrite lane has reached the method-escalation threshold.
+
+Next route:
+1. use the exact owner AI/high -> Human/high inner-monologue pair as literal few-shot teaching evidence;
+2. choose one still-red natural subsection at a time;
+3. freeze target meaning/functions and known-green neighbors;
+4. generate a fresh same-thought realization from the literal teaching pair rather than an abstract anti-pattern list;
+5. cold-audit before Pangram;
+6. if transfer still fails, request a minimal same-thought owner repair of that subsection and capture it prospectively.
+
+Preserve current Human/high material and current idea order. Do not token-hunt inside the already Human/high inner-monologue endpoint.
+
+Target #2 ownerization overlay remains banked in `OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine humanization-lane exhaustion.
