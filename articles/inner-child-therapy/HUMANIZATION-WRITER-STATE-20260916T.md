@@ -2,7 +2,7 @@
 
 Updated: 2026-09-16
 
-Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R8 OWNER-TESTED / R9 STRATEGY-A PLAYFUL SENTENCE GUIDE FROZEN**
+Status: **EPISODE 007 ACCEPTED HUMAN/HIGH; EPISODE 008 R9 STRATEGY-A PLAYFUL DECOMPRESSION FROZEN / PRESERVATION PASS / PROVISIONAL COLD-AUDIT PASS / PANGRAM PENDING**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916S.md` for recovery.
 
@@ -37,7 +37,7 @@ The R8 prediction was frozen before deliberate screenshot inspection (but was no
 ## Calibration locks
 
 - Freeze the current Human/high block under `## Maybe Calm the Body First` beginning `If your solar plexus...` through the bottom-up modalities paragraph unless an independent editorial defect appears.
-- Freeze the current Pema/*shenpa* attribution for the next pass unless a larger-context repair gives an independent editorial reason to change it.
+- Freeze the current Pema/*shenpa* attribution unless a larger-context repair gives an independent editorial reason to change it.
 - Preserve both native embeds in position.
 
 ## Active method fingerprint
@@ -47,19 +47,6 @@ The R8 prediction was frozen before deliberate screenshot inspection (but was no
 Then freeze the guide; cross a real owner turn before application when testing phase separation; apply literally; re-run preservation; adversarially cold-audit the complete boundary; surface strongest attacks and rejected alternatives; run Pangram only when no concrete model-shaped defect remains that the audit actually endorses.
 
 The earlier drift that reduced this method to `write instructions, then apply them later` is separately captured for Mission Control and as a provisional Pangram-lab method-fingerprint lesson.
-
-## R8 current candidate
-
-Candidate:
-`articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R8-MINIMAL-REPAIR-20260916.md`
-
-- SHA-256, no terminal newline: `d7ea10bca09cb30714ffafa70ae8e1e58f649652c4da4849801c2b78294326b3`
-- preservation: PASS forward/reverse
-- unexplained substantive deltas: 0
-- claim/certainty/attribution/agency changes: none
-- native object positions: preserved
-- owner Pangram screenshot: mostly AI/high as recorded above
-- production disposition: REJECTED for detector target
 
 ## Owner correction after R8 and A/B/C probes
 
@@ -74,28 +61,43 @@ Owner-specific style correction: generated standalone micro-verdicts such as **`
 
 Owner next-direction correction: focus on **Strategy A**, and also make the prose playful/captivating rather than a dry manual. Cultural references, meme-shaped analogies, and clearly hypothetical imaginative images are authorized when they genuinely illuminate the thought. They must not fabricate Joel biography, friends, memories, or factual experiences.
 
-## R9 frozen guide
+## R9 current candidate
 
+Frozen Strategy-A guide:
 `articles/inner-child-therapy/experiments/EPISODE-008-R8-TO-R9-A-DECOMPRESSION-PLAYFUL-SENTENCE-GUIDE-20260916.md`
 
-The guide keeps the current idea order and works sentence/span by sentence. Its central move is uneven thought duration: give the psychologically live thought more space; let caveats/examples hitchhike rather than each receiving a complete teaching unit; permit one thought to linger or circle once; and use at most one useful playful/cultural/meme lens where it makes an invisible dynamic visible or restores reader contact.
+Candidate:
+`articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R9-A-PLAYFUL-DECOMPRESSION-20260916.md`
 
-Three preserved implementation variants for future comparison:
-1. maximum-A: uneven decompression without playful additions;
-2. A + playful lens: current experimental priority per owner request;
-3. A + local owner-language restoration: lower edit dose but less informative about fresh model generation.
+Audit/preservation receipt:
+`articles/inner-child-therapy/experiments/EPISODE-008-R9-PRESERVATION-AND-COLD-AUDIT-20260916.json`
+
+- SHA-256, no terminal newline: `20fbb910fdb8b8f5bd759278c8ee93597dd123ff87575507673ff37872535e33`
+- whitespace words: 2273
+- current idea order: preserved
+- preservation: PASS forward/reverse
+- unexplained substantive deltas: 0
+- claim/certainty/attribution/agency changes: none
+- both native embeds: preserved in source order
+- Human/high somatic calibration block: preserved byte-for-byte
+- Pema/*shenpa* attribution: preserved byte-for-byte
+- standalone `Fine/Good/Great` verdict beats: absent
+- Pangram: NOT RUN
+- cold audit: PROVISIONAL PASS / context-contaminated same-context
+- owner-facing output admission: PASS
+
+R9 implements Strategy A rather than generic expansion: psychologically live thoughts receive more rhetorical time while caveats and preserved secondary functions are subordinated. Sparse playful lenses are used as genuine explanatory/social acts, including the steering-wheel image, Pixar inner-narrator image, movie/theater reorientation, Supreme Court relationship pause, customer-support reversal, note-under-door draft image, and original-footage/subtitles distinction.
+
+## R9 strongest surviving attacks
+
+1. Inner-monologue alternatives still carry several protected modalities and may retain a latent capability ladder. Current disposition: preserve-with-reason because R9 gives them unequal duration and derives later routes from failure of the verbal route rather than presenting an equal menu.
+2. The warmth/protection/direction triad remains genuine article architecture and can still resemble framework-card prose. Current disposition: preserve-with-reason because R9 searches for one available adult move and explicitly allows waiting when none is reachable.
+3. The repeated-behavior paragraph still carries many necessary qualifications (one event vs pattern, another person's boundary, can't/won't uncertainty, behavior change, promises, protection). Current disposition: preserve-with-reason because the ambiguity/pattern thought now dominates the rhetorical time and no faithful removal is currently justified.
+
+Largest remaining weakness: long-guide accumulation may still create distributed instructional rhythm that this saturated context cannot independently rule out; no specific local defect is currently believed mandatory to repair before new owner/Pangram evidence.
 
 ## Next action
 
-On the next owner turn that asks to continue:
-1. read the frozen R8->R9 Strategy-A playful sentence guide literally;
-2. generate R9 without redesigning the guide during writing;
-3. preserve current idea order, calibration locks, links and native embeds;
-4. avoid standalone `Fine/Good/Great` verdict beats;
-5. run bidirectional preservation proof;
-6. adversarially cold-audit R9, including strongest attacks and rejected alternatives;
-7. run Pangram only if no concrete model-shaped defect remains that the audit actually believes.
-
-If R9 remains broadly AI, switch to owner minimal same-thought repairs of selected spans and capture them prospectively as aligned teaching evidence rather than requesting broad audio first.
+Owner/Pangram evaluates exact R9. If residual windows remain, predict them text-first and freeze a new literal span -> operation -> positive-target guide before further generation. If R9 remains broadly AI, switch to owner minimal same-thought repairs of selected spans and capture them prospectively as aligned teaching evidence rather than requesting broad audio first.
 
 Target #2 remains banked in `OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane-exhaustion review.
