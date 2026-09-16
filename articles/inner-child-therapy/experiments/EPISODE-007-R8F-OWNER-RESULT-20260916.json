@@ -1,0 +1,14 @@
+{
+  "episode_id": "inner-child-my-journey-007-r8f-owner-result-20260916",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R8F-FINAL-RESIDUAL-20260916.json",
+  "candidate_sha256": "10edc05c65b42876eb4f179fef6d9294faf72c2ac020f7a31ff520a2884ed9da",
+  "owner_report": {
+    "detector": "Pangram",
+    "label": "Human",
+    "confidence": "High",
+    "displayed_human_share": "100%",
+    "exact_owner_words": "perfect, 100% human high conf. looks like we've nailed the process now at least for this style of writing."
+  },
+  "interpretation": "The staged critic->sentence-level instruction->local execution method succeeded on this My Journey style/boundary after broad same-context paraphrase had plateaued. This is boundary/style-specific transfer evidence, not a universal promise that every section will pass or that Pangram proves authorship.",
+  "production_disposition": "accepted as the current detector-passing Episode 007 experimental realization, still non-authoritative because Inner Child Therapy is unregistered"
+}
