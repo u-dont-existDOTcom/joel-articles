@@ -1,6 +1,8 @@
 # Inner Child Therapy — humanized article so far
 
-> **Working review assembly only.** Inner Child Therapy remains unregistered/non-authoritative. This file is the stable owner-review link for the cumulative humanized material. It contains the current accepted/locked humanized prose in article order. Source sections that have not yet been humanized, or whose latest model candidate failed audit, are not silently represented as finished here.
+> **Working review assembly only.** Inner Child Therapy remains unregistered/non-authoritative. This file is the stable owner-review link for the cumulative humanized material. It contains current accepted/locked humanized prose in article order plus explicit comments for unresolved assembly boundaries. Source sections that have not yet been humanized, or whose latest model candidate failed audit, are not silently represented as finished here.
+
+<!-- OPENING ASSEMBLY WATCH: Joel supplied new Pangram screenshot evidence on 2026-09-17 showing the opening paste split 54 UI words Human/medium beginning at the title/Céline material and 99 UI words AI/medium beginning `So I stopped asking the child to heal it...`. Episodes 001-005 show that the current component prose has not been lost and includes locally/overlapping-boundary Human results, but the complete assembled opening was never durably certified as one boundary. Revisit this after the current Episode 008 subsection lane. See EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md. -->
 
 # The Chicken-and-Egg Problem
 
@@ -76,16 +78,6 @@ When you catch it, look around and just take a moment to enjoy some free honesty
 
 Here's where I want to clearly depart from the new age wisdom that all your problems are self-created: Somebody may really have crossed a boundary and still have hit something old in you. You felt your stomach tighten up, and that somehow meant “They're evil.” But you can defer that judgement for when you're in your happy place.
 
-<!-- R13 below is the current model owner-review candidate. It passed local preservation and same-context provisional cold audit; it is not owner-final and has not been Pangram-tested. -->
+<!-- The next subsection remains unresolved. R12 and R13 both failed output + producing-method audit. R13 was materially better, but retained the same hidden comprehensive counselor architecture in compressed form. Do not treat either as current humanized prose. -->
 
-### What Keeps Happening Between You?
-
-You tell somebody they hurt you. They get upset. Somehow the conversation ends with you comforting them, and the thing you originally brought up has disappeared. If that keeps happening, that's information. One bad conversation proves very little—people need time, and they get boundaries too—but the same weird little role reversal over and over is harder to explain away.
-
-[Lindsay Gibson's work](https://www.youtube.com/watch?v=VlNpgFWOLPw) on emotional immaturity is useful here because it keeps the focus on what somebody repeatedly does. People can disagree with you without making your whole experience disappear, and sometimes come back later and own their part. You may never know why they couldn't meet you there that day—or whether they ever will. You can still decide what you can count on now and change your mind if the behavior changes. A promise isn't the change yet, and you don't have to collect another injury just to be sure.
-
-Guilt can scramble the whole thing. You may really owe them an apology and still find yourself giving up the rest of your position because you can't stand how disappointed they are. Feeling guilty doesn't tell you how much of this is yours, or prove they're manipulating you either.
-
-Then comes the little fantasy that if you explain it one more time—properly this time—they'll finally understand. Maybe they don't. Eventually you're still explaining and the conversation is going in circles. You can stop anyway, even while they think you're wrong. If the rest of the argument is still yelling in your head, give it somewhere private to yell first.
-
-<!-- The following source material, beginning with the private-draft practice, remains under humanization and is not silently presented here as finished. -->
+<!-- The following source material, beginning with the private-draft practice, remains under humanization and is not silently represented here as finished. -->
