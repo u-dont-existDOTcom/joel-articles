@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "purpose": "Inner Child Therapy humanization supervisor chat",
+  "owned_branch": "chat/inner-child-therapy-supervisor-20260917-2326",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "integration_base_sha": "5d1fa55aff38a059d81260ac69ceb9e37f148058",
+  "rule": "This chat may write only to owned_branch. The integration branch is read/reconcile-only for this chat. If owned_branch advances unexpectedly outside this chat's known writes, fail closed and reconcile before further mutation.",
+  "closeout": "Integrate accepted commits explicitly into the integration branch after comparison; never silently fast-forward or overwrite competing state."
+}
