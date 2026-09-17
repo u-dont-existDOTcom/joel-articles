@@ -1,15 +1,25 @@
-# Episode 008 R15 — coarse-to-fine broad-phase candidate
+# Episode 008 R15 — coarse-to-fine broad Phase-A candidate
 
 Date: 2026-09-17
 
-Status: **CURRENT OWNER-REVIEW CANDIDATE ON ISOLATED COARSE-TO-FINE BRANCH / PHASE A / NOT OWNER-FINAL / NO RESULT YET**
+Status: **REJECTED BEFORE PANGRAM / RETAINED AS PHASE-A DIAGNOSTIC HISTORY / SUPERSEDED BY OUTPUT-STRATEGY-EXECUTION RE-AUDIT**
 
 Branch: `task/inner-child-episode008-coarse-to-fine-20260917`
 
 Frozen plan:
 `articles/inner-child-therapy/experiments/EPISODE-008-R15-COARSE-TO-FINE-PLAN-20260917.md`
 
-Exact candidate SHA-256, no terminal newline: `ce6ae4988cbe4888acec2ca2f53539e7ed0057b46cdb7a6576b2798ffbe4ec4f`
+Original admission audit, superseded:
+`articles/inner-child-therapy/experiments/EPISODE-008-R15-COARSE-TO-FINE-AUDIT-20260917.md`
+
+Superseding re-audit:
+`articles/inner-child-therapy/experiments/EPISODE-008-R15-OUTPUT-STRATEGY-EXECUTION-REAUDIT-20260917.md`
+
+Original frozen prediction:
+`articles/inner-child-therapy/experiments/EPISODE-008-R15-PRE-RESULT-PREDICTION-20260917.md`
+
+Exact candidate prose SHA-256, no terminal newline:
+`ce6ae4988cbe4888acec2ca2f53539e7ed0057b46cdb7a6576b2798ffbe4ec4f`
 
 Whitespace words including heading: 197.
 
@@ -25,12 +35,22 @@ If next time they actually show up differently, great—change your mind. A prom
 
 ## Boundary placement
 
-Insert immediately after owner-final `Catch the Hook Before the Story Takes Over`, after the sentence:
+This candidate was intended to sit immediately after the locked owner-final `Catch the Hook Before the Story Takes Over` paragraph ending:
 
 `But you can defer that judgement for when you're in your happy place.`
 
-Stop immediately before:
+and immediately before:
 
 `### Write It. Don't Send It Yet.`
 
-The downstream private-draft practice remains separate and unchanged.
+## Superseding disposition
+
+No R15 Pangram result is claimed.
+
+The deeper re-audit rejects this candidate before detector because:
+- P2 substantially preserves the rejected one-event -> recurrence -> Gibson -> motive-uncertainty framework;
+- the full framework merely crosses from P2 into P3 rather than disappearing;
+- several protected source functions are narrowed, blurred, or over-strengthened (`harm requiring repair`, the one-event qualification, demonstrated relational capacity, and the optional/possible ending function);
+- the whole subsection remains a compact comprehensive counselor/explainer progression.
+
+The coarse-to-fine campaign method remains active. This exact candidate is diagnostic history only and must not be inserted into the rolling article.
