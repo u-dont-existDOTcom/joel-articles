@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **R13 re-audit FAIL / same hidden architecture survived R12 -> R13 / R13 removed from rolling article / assembled-opening detector gap queued / next = architecture discrimination before R14**
+Status: **OWNER-CORRECTED METHOD RECOVERY / R13 REJECTED / STRATEGY-SWITCH RECOMMENDATION SUPERSEDED / NEXT = REUSE EPISODE 007 COARSE-TO-FINE METHOD AT BROAD-SUBSECTION PHASE / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -19,21 +19,23 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
    - `articles/INDEX.json`
 3. Confirm Inner Child Therapy remains unregistered.
 4. Read current writer state:
-   - `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917D.md`
-5. Read current R13 re-audit:
+   - `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917E.md`
+5. Read the corrected full successful-method reconstruction:
+   - `articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`
+6. Read the R13 re-audit only as failed-output/method evidence:
    - `articles/inner-child-therapy/experiments/EPISODE-008-R13-OUTPUT-PLAN-METHOD-REAUDIT-20260917.md`
-6. Read queued opening screenshot audit when the current Episode 008 subsection is resolved:
+7. Read queued opening screenshot audit when the current Episode 008 subsection is resolved:
    - `articles/inner-child-therapy/experiments/EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md`
-7. For exact Episode 008 source/owner evidence, load only what the current task needs from:
+8. For exact Episode 008 source/owner evidence, load only what the current task needs from:
    - `EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json`
    - `EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`
    - `EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`
    - R12/R13 only as rejected diagnostic history.
-8. Because this is humanization work, fresh-read `u-dont-existDOTcom/pangram-humanization-lab` according to `SKILL.md`, especially the method fingerprint and current Catch-the-Hook owner calibration case.
+9. Because this is humanization work, fresh-read `u-dont-existDOTcom/pangram-humanization-lab` according to `SKILL.md`, especially the corrected current method fingerprint and relevant owner-teaching cases.
 
-Do not run Pangram on R13. It failed editorial/method admission before detector testing.
+Do not run Pangram on R13. It failed editorial admission before detector testing.
 
-## Current authority boundary
+## Authority boundary
 
 Inner Child Therapy is unregistered/non-authoritative. Owner-final Human/high blocks remain local prose authority.
 
@@ -52,6 +54,26 @@ Joel identifies owner-final `Catch the Hook Before the Story Takes Over` as the 
 
 Transfer the reader relationship and pragmatic/social act, not surface tokens.
 
+## Correct successful method
+
+Joel corrected the recent process interpretation. Episode 007 did **not** succeed by starting with one 39-word residual repair.
+
+The actual successful method was a multi-turn coarse-to-fine convergence over a large natural section:
+
+1. initial / R2 / R3 worked across roughly 1,000-word full-section realizations;
+2. blind audit + screenshot comparison exposed broad explanatory architecture;
+3. R4 / R5 / R6 continued broad/full-region structural and register repair;
+4. R7 made another structural full-section change and then produced stable Human/high islands plus three red regions;
+5. only then did R8 freeze the known-green spans and repair red regions only;
+6. R8D reduced displayed AI to about 29.74%;
+7. R8E reduced it to one 39-word AI/high residual, about 94.65% displayed Human;
+8. R8F repaired only that final residual and the complete boundary became owner-reported 100% Human/high.
+
+Short method name:
+**coarse-to-fine iterative convergence with progressive locking**.
+
+The literal `span -> operation -> positive target` table is the late regional/residual submethod, not the whole campaign method.
+
 ## R13 disposition
 
 Exact candidate:
@@ -62,45 +84,48 @@ Exact candidate SHA-256, no terminal newline:
 
 Status: **AUDIT-FAILED / diagnostic history only / no Pangram call**.
 
-R13 was materially better than R12 and preservation-clean, but retained the same hidden comprehensive counselor architecture in compressed form.
+The R13 output diagnosis remains valid:
+- Gibson paragraph compresses a diagnostic inventory into declarative prose;
+- guilt paragraph retains balanced counselor clarification under new syntax;
+- final repeated-explanation paragraph is the strongest and closest to the gold-standard reader relationship.
 
-Strongest output failure: the Lindsay Gibson/current-reliance paragraph serially discharges repeated behavior, disagreement tolerance, ownership, motive uncertainty, current reliance, revisability, promises, and protection as declarative criteria. The two-question checklist disappeared syntactically but survived structurally.
+What is superseded is the claim that R13 failed because its edit scope was too broad compared with a supposedly sparse Episode 007 method.
 
-The guilt paragraph similarly removed the literal `Maybe / Maybe / both` construction while retaining the same balanced clarification architecture.
+### Correct producing-method diagnosis
 
-The final `one more explanation` paragraph is the strongest R13 material and closest to the gold-standard mode, but it does not rescue the whole subsection.
+- Source/authority: PASS.
+- Preservation: PASS, zero unexplained substantive deltas.
+- Output: FAIL.
+- Admission: FAIL because credible model-shape concerns were still waved through.
+- Plan/generation: FAIL because enumerated preservation functions and prior predictions visibly organized the realization.
+- Strategy: **NOT EXHAUSTED**. The validated Episode 007 method has not been given a faithful new coarse-to-fine campaign on this current subsection.
 
-## Producing-method failure
+## Current Episode 008 phase
 
-### Plan generation
+The outward-looking subsection after `Catch the Hook` has:
+- no Pangram-certified internal Human/high islands;
+- only rejected R12/R13 model candidates;
+- a locked Human/high upstream block;
+- a known downstream handoff into `Write It. Don't Send It Yet.`
 
-The R13 plan restored `literal span -> operation -> positive target` syntax but not the sparsity of the final successful Episode 007 repair.
+Therefore this subsection belongs in **Phase A: broad natural-boundary realization**.
 
-The plan was ~18.6 KB for a 265-word candidate and contained ten repair jobs, many preservation constraints, three complete prose predictions, and an explicit recommendation for Prediction A. This recreated a comprehensive writing environment.
+Do not force terminal sentence-level repair yet. Do not switch to a different architecture merely because the first broad candidates failed.
 
-### Prediction-stage contamination
+## Next safe action
 
-Prediction A remained fully visible and recommended in the same context. R13 tracked it closely, including a near-identical final handoff. Owner-facing predictions remain required as diagnostics, but same-context instructions to ignore a selected full prediction do not create informational isolation.
+Reuse the method that worked:
 
-### Implementation
+1. freeze the upstream owner-final `Catch the Hook` block;
+2. preserve the current outward-looking source/function ledger as a fidelity check, not generation order;
+3. generate/repair the **whole outward-looking subsection** as one natural boundary, calibrated to the Catch-the-Hook communication standard;
+4. cold-audit the whole subsection;
+5. if editorially admissible, let owner/Pangram evidence localize the internal green/red spans;
+6. freeze reliable Human/high islands;
+7. repair only the remaining red regions;
+8. progressively narrow through region and residual phases just as Episode 007 did.
 
-The writer complied with plan rows while preserving failed hidden outlines under new syntax. Future implementation audit must include an anti-isomorphism check, not merely row compliance.
-
-### Admission
-
-The initial cold audit explicitly identified the Gibson mini-framework / soft-criteria / advice-rule risk and still passed it because the functions were source-protected. This repeated the R12 admission error. Protected function does not authorize a failing realization.
-
-### Source/authority
-
-PASS. No owner-final prose changed; attribution/link survived; no owner-removed material was restored; preservation had zero unexplained substantive deltas.
-
-### Strategy
-
-The same structural failure survived R12 -> R13. Do not write another ten-span same-template R14 or add more prohibitions.
-
-Next step is architecture discrimination. One option that must be compared is genuinely fresh-context retrieval-first generation using exact target meaning + locked context + 2–4 eligible literal teaching demonstrations, while excluding R12/R13 prediction prose and accumulated rationale. Another is a true local-residual route only after a genuinely Human subsection backbone exists.
-
-Do not claim a same-context writer that has seen the predictions is independent/blind.
+Fresh-context retrieval-first generation is a contingency only if the faithful coarse-to-fine campaign actually stalls. It is not the current recommended primary route.
 
 ## Opening assembly issue queued
 
@@ -118,12 +143,6 @@ Return to this opening immediately after the current Episode 008 subsection is r
 
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 
-- R13 has been removed.
+- R13 remains removed.
 - unresolved next subsection is marked explicitly.
-- opening assembly watch is marked explicitly without altering the retained prose.
-
-## Next safe action
-
-Do not generate R14 yet. Compare materially different generation architectures first, with explicit attention to how to keep owner-facing prediction probes out of any generation context that is supposed to test transfer independently.
-
-After the current subsection is resolved, execute the queued assembled-opening audit/repair.
+- opening assembly watch remains marked explicitly without altering retained prose.
