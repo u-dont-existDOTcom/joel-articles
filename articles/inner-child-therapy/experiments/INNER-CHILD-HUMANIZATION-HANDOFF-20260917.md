@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **R16 CLEAR FRESH-WRITER FAIL / R17 RICH-CALIBRATION PACKET FROZEN / NEXT = ONE GENUINELY FRESH R17 RUN / NO PANGRAM / OPENING ASSEMBLY GAP QUEUED**
+Status: **R17 RICH-CALIBRATION + OWNER CADENCE SUPPLEMENT READY / NEXT = ONE GENUINELY FRESH R17 RUN / NO PANGRAM / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -12,20 +12,21 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
 1. Fresh-read `u-dont-existDOTcom/universal-dev-architecture` default-branch `AGENTS.md` on the current turn.
 2. Fresh-read in `u-dont-existDOTcom/joel-articles`: `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
-4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917P.md`.
+4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917Q.md`.
 5. Read the successful-method reconstruction: `articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`.
 6. Read current owner correction and preservation supplement:
    - `EPISODE-008-R16-OWNER-REAUTHORING-20260917.md`
    - `EPISODE-008-R16-PRESERVATION-SUPPLEMENT-20260917.md`
-7. Read R17 strategy and packet:
+7. Read R17 strategy and current fresh-writer interface:
    - `EPISODE-008-R17-STRATEGY-DECISION-20260917.md`
    - `EPISODE-008-R17-RICH-CALIBRATION-FRESH-WRITER-PACKET-20260917.md`
+   - `EPISODE-008-R17-OWNER-CADENCE-SUPPLEMENT-20260917.md`
 8. R12–R16 model candidates and R15 prediction prose are rejected diagnostic history only unless a later audit specifically needs them.
-9. Because this is humanization work, fresh-read the current relevant `u-dont-existDOTcom/pangram-humanization-lab` materials according to `SKILL.md`, including:
+9. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` materials according to `SKILL.md`, especially:
    - `state/generation/POSITIVE-CALIBRATION-ENTRYPOINT-20260917.md`
+   - `state/generation/OWNER-CALIBRATION-MARCHING-EFFICIENCY-20260917.md`
    - `state/generation/POSITIVE-HUMANNESS-FORECAST-CALIBRATION-20260917.md`
    - `state/generation/RETRIEVAL-FIRST-OWNER-TEACHING-PROTOCOL.md`
-   - the pinned positive-calibration writer bundle at commit `ef62a22df58565575b3cc25419fe13fa0b5f0509` as needed.
 10. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
 
 ## Authority boundary
@@ -39,38 +40,42 @@ Exact SHA-256, no terminal newline:
 
 ## R16 disposition
 
-R16 fresh generation clearly failed. The model wrapper remained obviously AI-shaped and introduced one substantive guilt error. No model-written R16 span is green or likely-green. Do not Pangram R16 and do not rerun its two-demo packet unchanged.
+R16 clearly failed. The model wrapper remained obviously AI-shaped and introduced one substantive guilt error. No model-written R16 span is green or likely-green. Do not Pangram R16 and do not rerun its two-demo packet unchanged.
 
 ## R17 evidence/strategy
 
-The Pangram Humanization Lab has now recovered a materially richer, source-verified positive calibration bundle. The active entry point is:
+The Pangram Humanization Lab now contains a richer source-verified calibration bundle plus a direct owner correction about a missing whole-boundary style axis.
 
+Active lab entry point:
 `u-dont-existDOTcom/pangram-humanization-lab/state/generation/POSITIVE-CALIBRATION-ENTRYPOINT-20260917.md`
 
-The writer-facing bundle contains three substantial literal transformations plus the complete Catch-the-Hook benchmark, and broad-section calibration includes the complete successful `My Journey` model revision that Joel reported 100% Human/high.
+Owner cadence calibration:
+`u-dont-existDOTcom/pangram-humanization-lab/state/generation/OWNER-CALIBRATION-MARCHING-EFFICIENCY-20260917.md`
 
-Frozen strategy comparison:
-`articles/inner-child-therapy/experiments/EPISODE-008-R17-STRATEGY-DECISION-20260917.md`
+The owner correction is that AI prose often has **predictable marching advancement**: sentence after sentence is optimized for near-maximum semantic efficiency, every sentence has an obvious function, and the passage advances like an instruction manual. Occasional maximum efficiency is fine. Do not repair this by padding. Preserve natural variability in thought duration, attention, social movement, and source-grounded digression instead of compressing every line into one clean job.
 
-Decision: run **one** genuinely fresh R17 attempt with the richer literal apprenticeship because this directly tests the contextual-calibration hypothesis. If R17 is still obviously AI-shaped, do not answer with more rules or another similar packet; switch to owner-led/manual composition or another materially different generator architecture.
+Direct owner ban for fresh humanization generation: do not generate the clipped standalone `Great.`. Existing owner-authored/locked prose is not automatically changed because it contains it. Em-dash concern remains local calibration, not a universal ban.
 
-## R17 fresh-writer packet
+## Fresh-writer interface
 
+Primary packet:
 `articles/inner-child-therapy/experiments/EPISODE-008-R17-RICH-CALIBRATION-FRESH-WRITER-PACKET-20260917.md`
 
-After the universal bootstrap, the fresh writer should read only this packet and return only the requested subsection.
+Authorized companion:
+`articles/inner-child-therapy/experiments/EPISODE-008-R17-OWNER-CADENCE-SUPPLEMENT-20260917.md`
 
-The packet excludes the failed R12–R16 prose and saturated critic rationale. It includes exact destination context, Joel's locked paragraph, active meaning, and richer literal positive calibration.
+The supplement explicitly amends the packet's `use only this packet` clause. After the universal bootstrap, a genuinely fresh writer reads **only those two files** and returns only the requested subsection.
 
 ## Evaluation after R17 returns
 
 1. Verify Joel's paragraph byte-for-byte.
 2. Run preservation proof and reject unexplained substantive deltas.
-3. Same-model negative audit may block obvious AI-shaped prose; it does not positively certify green islands.
-4. Joel supplies the first decisive style label.
-5. Do not Pangram while obvious AI shape remains.
-6. If Joel no longer sees obvious AI and preservation is clean, use Pangram on the integrated natural boundary for actual localization, then resume Episode 007-style progressive locking.
-7. If R17 clearly fails, switch architecture rather than making an R18 variation of the same writer interface.
+3. Whole-boundary audit: reduce each model-written sentence to its apparent job. A near-perfect one-job-per-sentence staircase is now an owner-calibrated AI-shape warning.
+4. Do not repair that warning by padding or fake naturalness.
+5. Same-model positive forecast creates no green locks.
+6. Joel supplies the first decisive style label.
+7. Do not Pangram while obvious AI shape remains.
+8. If this attempt still clearly fails, switch architecture rather than issuing another similar whole-subsection packet.
 
 ## Opening assembly issue queued
 
@@ -80,4 +85,4 @@ After this subsection is resolved, return immediately to the earlier assembled-o
 
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 
-Rejected model candidates remain excluded. R17 has not yet generated article prose.
+Rejected model candidates remain excluded. No new article prose has been inserted.
