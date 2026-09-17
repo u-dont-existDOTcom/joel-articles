@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **R15B OWNER-REVIEW CANDIDATE / PRESERVATION PASS / TWO SAME-CONTEXT COLD AUDITS PROVISIONAL PASS / NO PANGRAM / OPENING ASSEMBLY GAP QUEUED**
+Status: **R15B ADVERSARIAL EDITORIAL FAIL / PRESERVATION PASS / NO PANGRAM / NEXT = PHASE-A BROAD REPAIR OF MIDDLE OVERCOMPLETION / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -12,42 +12,32 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
 1. Fresh-read `u-dont-existDOTcom/universal-dev-architecture` default-branch `AGENTS.md` on the current turn.
 2. Fresh-read in `u-dont-existDOTcom/joel-articles`: `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
-4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917H.md`.
+4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917I.md`.
 5. Read the successful-method reconstruction: `articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`.
-6. Read the current R15 artifacts:
+6. Read current R15 artifacts as needed:
    - `EPISODE-008-R15-BROAD-REPAIR-PLAN-20260917.md`
    - `EPISODE-008-R15-OWNER-CALIBRATION-PREDICTION-ROLE-20260917.md`
    - `EPISODE-008-R15B-POST-COLD-AUDIT-CANDIDATE-20260917.md`
-   - `EPISODE-008-R15B-PRESERVATION-AND-COLD-AUDIT-20260917.md`
+   - `EPISODE-008-R15B-ADVERSARIAL-OUTPUT-AND-METHOD-AUDIT-20260917.md`
 7. `EPISODE-008-R15-OWNER-FACING-PREDICTIONS-20260917.md` is diagnostic history only. Joel judged all three prediction prose samples AI-shaped; C supplied only the preferred structural movement.
 8. For exact source/owner evidence, load only what the task needs from `EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json`, `EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`, and `EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`.
 9. R12/R13/R14 remain rejected diagnostic history only.
 10. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` lessons/generation protocol according to `SKILL.md`.
 11. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
 
-Do not run Pangram on R12, R13, or R14. R15B has not yet been owner-cleared for a detector call.
+Do not run Pangram on R12, R13, R14, or R15B. Each currently fails editorial admission before detector testing.
 
 ## Authority boundary
 
-Inner Child Therapy remains unregistered/non-authoritative. Owner-final Human/high blocks remain local prose authority. Locked material includes Episode 005 repaired natural boundary, Episode 006 owner-final five-stage map, Episode 007 `My Journey` R8F, Episode 008 `You Don't Need an Inner Monologue`, and Episode 008 `Catch the Hook Before the Story Takes Over`.
-
-Never split, normalize, insert inside, or re-sequence owner-final Human/high blocks without explicit Joel authorization.
+Inner Child Therapy remains unregistered/non-authoritative. Owner-final Human/high blocks remain local prose authority. Never split, normalize, insert inside, or re-sequence them without explicit Joel authorization.
 
 ## Communication gold standard
 
-Owner-final `Catch the Hook Before the Story Takes Over` remains the communication target: friendly, cute/warm, socially alive, low-friction, and useful to readers who do not want a huge guide.
+Owner-final `Catch the Hook Before the Story Takes Over` remains the target: friendly, cute/warm, socially alive, low-friction, useful to readers who do not want a huge therapy guide, and able to change pragmatic/social act rather than exhaustively discharge every framework implication.
 
 ## Correct successful method
 
-Episode 007 succeeded through **coarse-to-fine iterative convergence with progressive locking**: full natural boundary -> broad architecture/register/thought-order repair -> cold audit -> owner/detector localization -> freeze reliable Human/high islands -> repair red regions -> progressively narrow -> residual repair.
-
-The current outward-looking subsection is still Phase A until detector/owner evidence establishes reliable internal green islands.
-
-## Prediction-role correction
-
-Predictions are owner-facing probes for hidden structural assumptions. They are related to the final writer through **owner calibration**, not by serving as approved prose. Joel preferred C's movement but rejected all A/B/C wording as AI-shaped.
-
-In a same-context generation run, the predictions are already visible and cannot honestly be claimed to have zero influence. R15B is therefore explicitly non-isolated. Strict prediction-blindness requires a fresh context.
+Episode 007 succeeded through **coarse-to-fine iterative convergence with progressive locking**. The current outward-looking subsection still has no detector-certified internal Human/high islands and remains in Phase A broad realization.
 
 ## R15B disposition
 
@@ -57,22 +47,44 @@ Exact candidate:
 Exact SHA-256, no terminal newline:
 `e213fbb99490d3c1930c6dfc5ab387a0bb236c95eaf62ce0b38ceb97671a18ae`
 
-Preservation: PASS, unexplained substantive deltas 0.
-Two same-context cold audits: provisional PASS for owner review.
+Preservation: PASS, zero unexplained substantive deltas.
+Editorial admission: **FAIL on superseding adversarial audit**.
 Pangram: not run.
 
-The candidate now enters through repeated explaining, discovers the relational pattern from the interaction, leaves motive uncertain, folds guilt into the same exchange, allows the conversation to end without agreement, and hands unresolved speech into `Write It. Don't Send It Yet.`
+Strongest provisional material, not known-green locks:
+- opening social sentence about explaining the same hurt and ending up comforting the other person;
+- final paragraph and especially the `whole speech bouncing around` handoff.
+
+Highest-risk material:
+- compact fairness qualification;
+- polished `Gibson is useful here because...` source-significance bridge;
+- middle paragraph, which still serially exhausts motive uncertainty, evidence, revisability, promises, no-extra-injury, guilt, repair, self-abandonment, and non-mind-reading.
+
+Predicted detector topology is editorial only: a robust whole-boundary Human/high result is not expected; the middle is the likeliest red region; opening/final regions look more Human-like but are uncertified and must not be frozen yet.
+
+## Producing-method correction
+
+The R15 plan successfully removed visible R14 checklist/listicle forms, but its anti-isomorphism gate was too literal and failed to block a new equivalent: serial decision rules compressed into conversational prose. The same-context writer also still had access to the full preservation ledger and prior predictions.
+
+The previous two cold-audit passes were too permissive because they mainly asked whether known R14 defects had been removed. The corrected admission question is whether the whole candidate now matches the owner-final communication benchmark strongly enough that an AI result would actually be surprising.
 
 ## Next safe action
 
-Joel reviews exact R15B. If he identifies a prose defect, continue Phase-A repair and audit the producing method if he says `audit`. If he regards it as editorially clean, decide whether a Pangram natural-boundary test has enough information value to localize green/red spans and enter progressive locking.
+Remain in Phase A. Do not Pangram R15B.
+
+Next broad pass should:
+1. preserve the socially alive opening and unresolved private-draft handoff as available backbone, not locks;
+2. solve the middle-paragraph overcompletion rather than decorate it;
+3. integrate Gibson/qualification without pausing for a polished framework explanation;
+4. preserve all source meanings with zero unexplained substantive deltas;
+5. run both output audit and producing-method audit before any detector call.
 
 ## Opening assembly issue queued
 
-After this subsection is resolved, return immediately to the earlier assembled-opening screenshot gap. Current evidence still shows no accepted prose was lost; overlapping local Human results were never equivalent to certifying the full assembled opening boundary.
+After this subsection is resolved, return immediately to the earlier assembled-opening screenshot gap. Current evidence still shows no accepted prose was lost; overlapping local Human results were never equivalent to certifying the complete assembled opening boundary.
 
 ## Rolling article
 
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 
-R15B is not inserted yet. The unresolved subsection gap and opening-assembly watch remain explicit.
+R15B remains excluded.
