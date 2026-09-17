@@ -2,7 +2,18 @@
 
 Date: 2026-09-17
 
-Status: **PRESERVATION PASS / PLAN-IMPLEMENTATION PASS / PROVISIONAL SAME-CONTEXT COLD-AUDIT PASS / PRE-RESULT PREDICTION FROZEN / OWNER REVIEW NEXT**
+Status: **SUPERSEDED ADMISSION AUDIT / ORIGINAL PASS VERDICT WITHDRAWN / RETAINED AS METHOD-FAILURE HISTORY**
+
+Superseding re-audit:
+`articles/inner-child-therapy/experiments/EPISODE-008-R15-OUTPUT-STRATEGY-EXECUTION-REAUDIT-20260917.md`
+
+The superseding audit finds preservation failure and whole-boundary architectural isomorphism that this same-context audit missed. R15 is rejected before Pangram. The historical text below is retained to show exactly how the false admission occurred.
+
+---
+
+## Historical original audit
+
+Original status at freeze: **PRESERVATION PASS / PLAN-IMPLEMENTATION PASS / PROVISIONAL SAME-CONTEXT COLD-AUDIT PASS / PRE-RESULT PREDICTION FROZEN / OWNER REVIEW NEXT**
 
 Branch: `task/inner-child-episode008-coarse-to-fine-20260917`
 
@@ -20,7 +31,7 @@ Pre-result prediction:
 
 ## 1. Plan-implementation audit
 
-Verdict: **PASS**.
+Historical verdict: **PASS**.
 
 - R15 uses chosen Route A: it continues directly from the just-deferred `they're evil` judgment and blocks the overcorrection into total self-blame.
 - No R14 sentence is treated as a detector lock. The realization was rebuilt rather than locally polished.
@@ -41,7 +52,7 @@ R15 hidden outline:
 - P2: possible one-off answer to that live question -> concrete recurrence of the grievance disappearing -> Gibson support -> motive remains unresolved / further injury does not solve it.
 - P3: genuinely new later behavior can revise the judgment -> promise is not that later behavior -> external conversation may already have ended in disagreement -> internal conversation remains active.
 
-Verdict: **PASS**. The candidate does not depend on conversational diction as evidence of Human shape and does not reconstruct the R14 P3 teaching skeleton.
+Historical verdict: **PASS**. The candidate does not depend on conversational diction as evidence of Human shape and does not reconstruct the R14 P3 teaching skeleton.
 
 ## 3. R13/R14 Gibson-sequence check
 
@@ -50,7 +61,7 @@ Rejected sequence:
 
 R15 does contain the source-required local run `one-off possibility -> recurrence -> Gibson -> motive uncertainty`, but it does **not** complete the same mini-framework inside that paragraph. The paragraph ends with the motive question still unresolved and turns the additional-injury function into an epistemic observation rather than another advice rule. Revisability and promises are deferred to the next temporal move.
 
-Verdict: **PASS, watch region remains P2**.
+Historical verdict: **PASS, watch region remains P2**.
 
 ## 4. Preservation proof
 
@@ -60,7 +71,7 @@ Authorized delta: heading, realization, cadence, paragraphing, thought order, co
 
 ### Forward traceability
 
-| Unit | Required meaning/function | R15 mapping | Status |
+| Unit | Required meaning/function | R15 mapping | Historical status |
 |---|---|---|---|
 | OUT-1 | Not every hook is mainly old; actual relational behavior and room for one's experience matter versus repeated self-abandonment | P1 blocks `triggered -> all my fault`; apology must not become the whole conversation; P2 tracks whether the original thing keeps disappearing | PASS |
 | OUT-2 | Lindsay Gibson attribution/link; repeated demonstrated behavior/capacity matters more than motive-solving | P2 retains exact link and makes repeated relational behavior the object of attention rather than motive resolution | PASS |
@@ -70,7 +81,7 @@ Authorized delta: heading, realization, cadence, paragraphing, thought order, co
 | OUT-6 | Inside / between-us / next-move functions survive without naming/rebuilding Witness/Protector/Guide taxonomy | Inside = triggered/guilt; between-us = grievance disappearing/repeated behavior; next = apology, later evidence, saying/no/ending. No hidden role triad | PASS |
 | HANDOFF | Leave live verbal pressure for private-draft practice | `Your head may hate it and keep writing another one.` | PASS |
 
-Forward traceability: **PASS**.
+Historical forward traceability: **PASS**.
 
 ### Reverse traceability
 
@@ -82,11 +93,11 @@ Forward traceability: **PASS**.
 - `Getting hurt again probably won't explain them any better` realizes the source-protected rule that protection need not wait for another injury while preserving uncertainty about motive.
 - `That's the ending / head may ... keep writing another one` is a rhetorical handoff into the already-protected private-draft practice.
 
-Reverse traceability: **PASS**.
+Historical reverse traceability: **PASS**.
 
-Unexplained substantive deltas: **0**.
+Historical unexplained substantive deltas: **0**.
 
-Claim/certainty changes: **none identified**.
+Historical claim/certainty changes: **none identified**.
 
 ## 5. Architecture / curious-reader chain
 
@@ -104,7 +115,7 @@ Exit state: unresolved internal argument naturally requires the following privat
 
 No duplicate upstream conclusion, hidden role taxonomy, listicle, or miniature moral after the handoff.
 
-Architecture: **PASS**.
+Historical architecture verdict: **PASS**.
 
 ## 6. Cold audit on exact candidate
 
@@ -120,7 +131,7 @@ Span: `If you were mean, apologize. Good. Now what were you trying to say before
 
 Diagnosis: `Good.` could be superficial conversational seasoning if it had no interactional job.
 
-Disposition: **preserve-with-reason**. Here it acknowledges the completed repair step and immediately turns the reader back toward the live swallowed grievance. Removing the social turn would make the movement more like neutral instruction; it is not present merely as detector camouflage.
+Historical disposition: **preserve-with-reason**. Here it acknowledges the completed repair step and immediately turns the reader back toward the live swallowed grievance. Removing the social turn would make the movement more like neutral instruction; it is not present merely as detector camouflage.
 
 ### Strongest candidate 2
 
@@ -128,7 +139,7 @@ Span: P2 opening through the Gibson sentence.
 
 Diagnosis: source-dense region still contains a one-event caveat, recurrence, and an attributed conceptual source. It is the most plausible remaining place for explanatory organization to dominate the live thought.
 
-Disposition: **preserve-with-reason, lowest-confidence region**. The caveat directly answers P1's open question rather than pre-empting an objection; recurrence is instantiated by the same issue disappearing; Gibson occupies one support sentence and does not launch a diagnostic checklist. No stronger faithful alternative is currently identified **and the paragraph is not passed merely for that reason**; it is passed because the live question remains continuous and the inherited full mini-framework has been broken.
+Historical disposition: **preserve-with-reason, lowest-confidence region**. The caveat directly answers P1's open question rather than pre-empting an objection; recurrence is instantiated by the same issue disappearing; Gibson occupies one support sentence and does not launch a diagnostic checklist. No stronger faithful alternative is currently identified **and the paragraph is not passed merely for that reason**; it is passed because the live question remains continuous and the inherited full mini-framework has been broken.
 
 ### Strongest candidate 3
 
@@ -136,17 +147,17 @@ Span: `If next time they actually show up differently, great—change your mind.
 
 Diagnosis: compact positive/negative verdict cadence could become model-like if it existed to produce neat closure.
 
-Disposition: **preserve-with-reason**. This performs the required temporal move from present uncertainty to future observed behavior and immediately distinguishes a promise from that future event. It is followed by unresolved disagreement rather than a synthesis/lesson close.
+Historical disposition: **preserve-with-reason**. This performs the required temporal move from present uncertainty to future observed behavior and immediately distinguishes a promise from that future event. It is followed by unresolved disagreement rather than a synthesis/lesson close.
 
 Anecdote inflation: **PASS** — no autobiography or fake event invented.
 
 Fresh owner input needed: **none** for this Phase-A candidate.
 
-Inherited scaffold: **PASS**.
+Inherited scaffold: historical **PASS**.
 
-Reader-facing realization: **PASS**.
+Reader-facing realization: historical **PASS**.
 
-Heading/antecedent: **PASS** — P1 visibly inherits `triggered`/judgment pressure from the owner-final paragraph immediately above.
+Heading/antecedent: historical **PASS** — P1 visibly inherits `triggered`/judgment pressure from the owner-final paragraph immediately above.
 
 Research-process compression: **PASS**.
 
@@ -156,13 +167,15 @@ Same-context status: **PROVISIONAL**.
 
 Independent-reader status: **not run in this lane**; the parallel fresh-context generation experiment is not an independent audit of these exact bytes.
 
-Largest remaining weakness: **P2 remains the densest and least-certain region because the source itself requires one-event uncertainty, recurrence, Gibson attribution, and motive uncertainty in close proximity. The current realization no longer reproduces the full rejected mini-framework, but this is the first place to inspect if external evidence localizes a problem.**
+Historical largest remaining weakness: **P2 remains the densest and least-certain region because the source itself requires one-event uncertainty, recurrence, Gibson attribution, and motive uncertainty in close proximity. The current realization no longer reproduces the full rejected mini-framework, but this is the first place to inspect if external evidence localizes a problem.**
 
-Cold-audit conclusion: **PROVISIONAL PASS FOR OWNER REVIEW**.
+Historical cold-audit conclusion: **PROVISIONAL PASS FOR OWNER REVIEW**.
 
 ## 7. Pre-result discipline
 
 Paragraph/region detector prediction was frozen before owner delivery at:
 `EPISODE-008-R15-PRE-RESULT-PREDICTION-20260917.md`
 
-No result may be retrofitted into that prediction. If P3 is AI again, the new pragmatic-act hypothesis is materially weakened. If all substantive paragraphs are AI again, this Phase-A realization route is failing and requires strategy replacement/parallel-method comparison rather than another conversational-diction rewrite.
+No result may be retrofitted into that prediction.
+
+The superseding re-audit was performed before any known R15 detector result and withdraws the historical admission PASS on editorial/preservation grounds alone.
