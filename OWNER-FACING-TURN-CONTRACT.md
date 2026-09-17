@@ -48,6 +48,16 @@ When the same underlying structural failure survives a targeted repair, stop mat
 
 For humanization specifically, keep the preservation ledger as a fidelity constraint rather than allowing its enumerated units to become the prose outline. A candidate can preserve every unit and still fail because the generation architecture is model-shaped.
 
+### Regression check before strategy replacement
+
+When a recent earlier loop has direct success evidence, do **not** infer strategy exhaustion from a later failed variant until the failed run is compared against the last validated successful method fingerprint.
+
+- If defining dimensions changed, classify the failure as **method drift** and restore the last validated method before inventing a replacement.
+- A failed variant does not falsify the successful method merely because both were given the same high-level label.
+- Only escalate to a new strategy when the validated method itself has been faithfully reproduced and fails materially, or when new evidence directly undermines its causal premise.
+
+For humanization, compare at minimum: literal span anchoring, explicit local operation, positive reader-facing target, instruction freeze, local versus broad generation scope, known-green locks, preservation role, audit behavior, and detector admission.
+
 ## Anti-listicle and anti-repetition owner rule
 
 Avoid checklist/listicle realization whenever and however reasonably possible. A genuine map, procedure, or enumeration may still require explicit structure, but do not turn prose into taxonomies, matched category lists, or comprehensive mini-checklists merely because the source functions can be enumerated.
@@ -60,4 +70,4 @@ When the active workflow asks for multiple predicted realizations before generat
 
 Abstract prediction descriptions are appropriate only when an unresolved architecture/boundary decision makes literal prose prematurely misleading. If used, state that reason explicitly. Once the architecture is sufficiently resolved, return to literal prose probes.
 
-Predicted realizations are diagnostic planning probes, not automatically the final candidate or article authority.
+Predicted realizations are diagnostic planning probes, not automatically the final candidate or article authority. When the active workflow requires three predictions, they must be materially different; do not combine two near-duplicates and present the result as a new architecture.
