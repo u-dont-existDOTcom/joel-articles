@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "article_id": "inner-child-therapy",
+  "reason": "Owner observed concurrent ChatGPT conversations interleaving commits and control-state changes on the same task branch.",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "integration_head_at_lock_creation": "cf170c58052d0ad1366ca756f090746b8e273dd2",
+  "integration_branch_policy": "read_and_reconcile_only_during_parallel_phase",
+  "writer_policy": "each concurrent chat or agent must create and use a unique child branch/worktree before any mutation",
+  "known_writer_branches": [
+    "chat/inner-child-therapy-supervisor-20260917-2326"
+  ],
+  "writer_lease_required": true,
+  "unexpected_head_advance_policy": "fail_closed_and_reconcile",
+  "integration_policy": "Only an explicit reconciliation step may update the integration branch; ordinary writer turns must not update handoff/current-state files there.",
+  "closeout": "After parallel work is reconciled, mark this lock complete or superseded and optionally return to single-writer branch use."
+}
