@@ -2,12 +2,18 @@
 
 Date: 2026-09-17
 
-Status: **CURRENT OWNER-REVIEW CANDIDATE ON ISOLATED COARSE-TO-FINE BRANCH / NOT OWNER-FINAL / NOT PANGRAM-TESTED**
+Status: **AUDIT-FAILED AS OWNER-REVIEW / DETECTOR CANDIDATE / RETAINED AS PHASE-A ITERATION HISTORY / NOT PANGRAM-TESTED**
 
 Branch: `task/inner-child-episode008-coarse-to-fine-20260917`
 
 Frozen plan:
 `articles/inner-child-therapy/experiments/EPISODE-008-R14-COARSE-TO-FINE-PLAN-20260917.md`
+
+Initial audit, superseded:
+`articles/inner-child-therapy/experiments/EPISODE-008-R14-COARSE-TO-FINE-AUDIT-20260917.md`
+
+Superseding output + method re-audit:
+`articles/inner-child-therapy/experiments/EPISODE-008-R14-OUTPUT-AND-METHOD-REAUDIT-20260917.md`
 
 Exact candidate SHA-256, no terminal newline: `6c95cef931fd30146fcc663a3b32069f5bf122d0b4a9c04fcdaf8bf0cf03df41`
 
@@ -36,3 +42,7 @@ Stop immediately before:
 `### Write It. Don't Send It Yet.`
 
 The downstream private-draft practice remains separate and unchanged.
+
+## Superseding disposition
+
+R14 made real broad-phase progress, especially in the heading, paragraph 1's social scene, paragraph 3, and the final handoff. It nevertheless failed re-audit because paragraph 2 retained almost the same hidden functional sequence as the rejected R13 Gibson paragraph: one-event caveat -> recurrence -> Gibson/repeated behavior -> motive uncertainty -> revisability -> promise-versus-behavior -> protection. The coarse-to-fine method remains active; this candidate is retained as Phase-A iteration evidence, not current prose.
