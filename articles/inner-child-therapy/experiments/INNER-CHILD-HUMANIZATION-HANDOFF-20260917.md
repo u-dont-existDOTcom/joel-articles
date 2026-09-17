@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **R15B OWNER CORRECTION / POSITIVE HUMANNESS FORECAST FAILED / NO KNOWN-GREEN R15B SPANS / NO PANGRAM / NEXT = PHASE-A BROAD REWRITE WITHOUT ENGINEERED CLOSURE / OPENING ASSEMBLY GAP QUEUED**
+Status: **POSITIVE SELF-FORECAST FAILED / R15B REJECTED / NO KNOWN-GREEN R15B SPANS / NEXT = MINIMAL OWNER-TEACHING -> FRESH TRANSFER -> OWNER LABEL -> PANGRAM LOCALIZATION / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -12,70 +12,67 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
 1. Fresh-read `u-dont-existDOTcom/universal-dev-architecture` default-branch `AGENTS.md` on the current turn.
 2. Fresh-read in `u-dont-existDOTcom/joel-articles`: `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
-4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917J.md`.
+4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917K.md`.
 5. Read the successful-method reconstruction: `articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`.
-6. Read current R15 evidence as needed:
-   - `EPISODE-008-R15-BROAD-REPAIR-PLAN-20260917.md`
-   - `EPISODE-008-R15B-POST-COLD-AUDIT-CANDIDATE-20260917.md`
-   - `EPISODE-008-R15B-ADVERSARIAL-OUTPUT-AND-METHOD-AUDIT-20260917.md`
-   - `EPISODE-008-R15B-OWNER-CORRECTION-POSITIVE-FORECAST-FAIL-20260917.md`
+6. Read current R15 evidence only as needed: `EPISODE-008-R15-BROAD-REPAIR-PLAN-20260917.md`, `EPISODE-008-R15B-POST-COLD-AUDIT-CANDIDATE-20260917.md`, `EPISODE-008-R15B-ADVERSARIAL-OUTPUT-AND-METHOD-AUDIT-20260917.md`, and `EPISODE-008-R15B-OWNER-CORRECTION-POSITIVE-FORECAST-FAIL-20260917.md`.
 7. `EPISODE-008-R15-OWNER-FACING-PREDICTIONS-20260917.md` is diagnostic history only. Joel judged all three prediction prose samples AI-shaped; C supplied only a preferred movement.
 8. For exact source/owner evidence, load only what the task needs from `EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json`, `EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`, and `EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`.
-9. R12/R13/R14 remain rejected diagnostic history only.
-10. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` lessons/generation protocol according to `SKILL.md`, including `state/generation/POSITIVE-HUMANNESS-FORECAST-CALIBRATION-20260917.md`.
+9. R12/R13/R14/R15B remain rejected diagnostic history only.
+10. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` lessons/generation protocol according to `SKILL.md`, including `state/generation/POSITIVE-HUMANNESS-FORECAST-CALIBRATION-20260917.md` and the retrieval-first owner-teaching protocol/corpus when generation resumes.
 11. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
-
-Do not run Pangram on R12, R13, R14, or R15B. All currently fail editorial admission before detector testing.
 
 ## Authority boundary
 
 Inner Child Therapy remains unregistered/non-authoritative. Owner-final Human/high blocks remain local prose authority. Never split, normalize, insert inside, or re-sequence them without explicit Joel authorization.
 
-## Communication gold standard
+## Communication benchmark
 
-Owner-final `Catch the Hook Before the Story Takes Over` remains the target: friendly, cute/warm, socially alive, low-friction, useful to readers who do not want a huge guide, able to change pragmatic/social act naturally, and not engineered to transition neatly merely because another heading follows.
+Owner-final `Catch the Hook Before the Story Takes Over` remains the gold-standard reader relationship: friendly, cute/warm, socially alive, low-friction, useful to readers who do not want a huge guide, and not engineered into polished transitions merely because another heading follows.
 
 ## Correct successful method
 
-Episode 007 succeeded through **coarse-to-fine iterative convergence with progressive locking**. The current outward-looking subsection has no owner/detector-certified internal Human/high islands and remains in Phase A broad realization.
+Episode 007 succeeded through **coarse-to-fine iterative convergence with progressive locking**. It was not autonomous model self-certification: owner judgment and Pangram evidence localized reliable green/red spans, then the edit scope progressively narrowed.
 
-## R15B owner correction
+## Current method correction
 
-Exact candidate:
-`articles/inner-child-therapy/experiments/EPISODE-008-R15B-POST-COLD-AUDIT-CANDIDATE-20260917.md`
+Joel correctly identified the production consequence of the R15B forecast failure: the model cannot be trusted to both generate model prose and positively certify that the same prose looks Human.
+
+Therefore:
+- same-model cold audit remains useful as a negative blocker for credible AI shape;
+- absence of known anti-patterns is not positive Human evidence;
+- model-generated prose is not frozen from same-model `likely Human` confidence;
+- positive green status requires Joel, Pangram, or genuinely independent evidence with appropriate authority.
+
+This invalidates **one-shot autonomous humanization + self-certification**, not the validated Episode 007 externally supervised convergence process.
+
+## R15B disposition
 
 Preservation: PASS, zero unexplained substantive deltas.
 Editorial admission: FAIL.
 Pangram: not run.
+Known-green internal spans: none.
 
-Joel explicitly rejected as AI-shaped two spans the assistant had forecast as the most Human-looking parts:
-- `Sometimes that's as far as the conversation gets. They still think you're wrong.`
-- `And if there's still a whole speech bouncing around inside you, there's somewhere safer to put it first.`
-
-Therefore the prior positive forecast is withdrawn. No R15B span is currently a known-green or likely-green lock.
-
-## Producing-method correction
-
-The R15 plan itself provisionally preserved the `whole speech...` sentence because the model thought it was a strong handoff. That was a plan-generation error: it protected model-written bridge prose using same-model aesthetic confidence.
-
-The generator mostly followed the plan, so the rejected close is not primarily implementation drift.
-
-Admission review also failed by treating negative conditions (`not a checklist`, `short`, `unresolved`, `socially recognizable`) as positive Human evidence. Same-context model review may block credible AI-shaped prose; it may not positively certify model-written prose as Human enough to freeze.
-
-The generic lesson is preserved in `u-dont-existDOTcom/pangram-humanization-lab/state/generation/POSITIVE-HUMANNESS-FORECAST-CALIBRATION-20260917.md`.
+Joel explicitly rejected two spans previously forecast by the model as the most Human-looking, so all positive R15B humanness forecasts are withdrawn.
 
 ## Next safe action
 
-Remain in Phase A. Do not Pangram R15B.
+The highest-information next move is a **minimal owner-teaching intervention**, not another self-scored whole-section rewrite.
 
-Next broad pass should:
-1. treat all R15B wording as editable; no positive locks;
-2. recover the live relational thought rather than designing a closing sentence;
-3. allow the thought to stop naturally;
-4. let `### Write It. Don't Send It Yet.` perform the next transition instead of manufacturing a bridge;
-5. preserve all source functions, certainty, and Lindsay Gibson attribution/link with zero unexplained substantive deltas;
-6. use model cold audit only as a negative blocker for credible AI-shape;
-7. require owner or detector evidence before freezing any new Human/high island.
+Ask Joel to naturally realize one compact core thought from the difficult middle, without asking him to rewrite the whole subsection:
+
+`You may never know whether the person can't meet you there, won't, or just can't right now. What matters for now is what they actually keep doing. If that changes, you can change your judgment. A promise isn't the change, and you don't need to get hurt once more just to prove the pattern.`
+
+Joel may rewrite, compress, split, or delete/implicitize any part so long as he expresses what he actually wants the reader to get.
+
+Then:
+1. capture exact model-before -> Joel-after as an owner-teaching episode, classifying semantic alignment before reuse;
+2. build a fresh-context whole-subsection writer packet using the exact source meaning plus the new aligned owner teaching and only eligible literal owner-teaching demonstrations;
+3. generate one complete subsection outside the saturated supervisor context;
+4. Joel gives the fast external label: `still AI` or `not obviously AI`, plus any narrow correction he wants;
+5. only once Joel no longer sees obvious AI shape does Pangram have high information value for localization;
+6. freeze only externally demonstrated Human/high islands and continue the validated progressive-locking loop.
+
+If Joel does not want to supply even that small rewrite, fallback is multiple genuinely fresh whole-subsection candidates with Joel acting only as selector/rejector; this is less information-efficient because negative labels alone provide less positive generation signal.
 
 ## Opening assembly issue queued
 
