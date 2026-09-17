@@ -1,6 +1,6 @@
 # Inner Child Therapy — humanized article so far
 
-> **Working review assembly only.** Inner Child Therapy remains unregistered/non-authoritative. This file is the stable owner-review link for the cumulative humanized material. It contains the current accepted/locked humanized prose in article order plus the current subsection candidate under review. Source sections that have not yet been humanized are not silently represented as finished here.
+> **Working review assembly only.** Inner Child Therapy remains unregistered/non-authoritative. This file is the stable owner-review link for the cumulative humanized material. It contains the current accepted/locked humanized prose in article order. Source sections that have not yet been humanized, or whose latest model candidate failed audit, are not silently represented as finished here.
 
 # The Chicken-and-Egg Problem
 
@@ -76,14 +76,4 @@ When you catch it, look around and just take a moment to enjoy some free honesty
 
 Here's where I want to clearly depart from the new age wisdom that all your problems are self-created: Somebody may really have crossed a boundary and still have hit something old in you. You felt your stomach tighten up, and that somehow meant “They're evil.” But you can defer that judgement for when you're in your happy place.
 
-<!-- CURRENT MODEL CANDIDATE UNDER OWNER REVIEW; NOT OWNER-FINAL -->
-
-### Don't Assume It's All You
-
-You tell somebody they hurt you. They get upset. Somehow the conversation ends with you comforting them, and the thing you originally brought up has disappeared. That one scene by itself doesn't tell you they're emotionally immature. Maybe they needed time, or maybe they were holding a boundary of their own. But if you keep ending up there, at some point “maybe it was just a bad conversation” stops explaining much.
-
-[Lindsay Gibson's work](https://www.youtube.com/watch?v=VlNpgFWOLPw) on emotional immaturity keeps the focus on the repeated behavior. You can spend forever trying to decide why somebody acts this way while the same thing keeps happening. Can your experience stay in the conversation when they disagree with it? Do they ever come back and own whatever part was theirs? You may never settle whether they couldn't meet you there, wouldn't, or just didn't that day. You still have to decide what you can rely on now. If their behavior changes, you can change your mind about them. A promise that it will change isn't the change itself, and you don't have to collect another injury just to be sure.
-
-Guilt can scramble the whole thing. Maybe you really did hurt them and owe an apology. Maybe you're also dropping your own position because you can't stand their disappointment. Those can both be true. Feeling guilty doesn't sort them for you, and it doesn't prove the other person is manipulating you either.
-
-Then there's the urge to make them understand before you're allowed to do anything. You explain it one more time because maybe this time they'll finally see what you mean. Sometimes they still don't. You can notice you're upset, see what's happening between you, and decide what to do next without winning the whole case. Say what actually needs saying. Sometimes you still have to end the conversation while they think you're wrong about the whole thing.
+<!-- The next subsection remains under strategy re-planning. R12 failed the output and producing-method audit and is retained only in experiment history, not as current humanized prose. -->
