@@ -63,7 +63,7 @@ Recent Episode 008 work drifted from that process:
 - local repair became whole-subsection reconstruction;
 - preservation units became an implicit generation outline;
 - concrete operations became higher-level architecture/prohibition language;
-- three predictions became process furniture even when they were not materially different;
+- three predictions were used as generation scaffolding even when A/C were not materially different, instead of remaining diagnostics around a literal repair plan;
 - valid supervisor rules accumulated into the writer's environment.
 
 R12 therefore does **not** falsify the Episode 007 method. The previous `strategy replacement required` conclusion is superseded as premature.
@@ -99,9 +99,11 @@ State causal mechanism and concrete repair for every applicable locus.
 
 Before declaring a strategy exhausted, compare the failed run against the last validated successful method fingerprint. A drifted method variant does not falsify the validated method.
 
-## Three predictions — current role
+## Three predictions — standing owner rule
 
-Three actual-prose predictions are optional diagnostics, not a mandatory step for every repair. Use them only when there are genuinely different live hypotheses that owner calibration can discriminate. Do not manufacture three versions of the same architecture.
+During planning, continue showing **three materially different actual-prose predictions**, substantial enough for Joel to inspect the model's assumptions.
+
+They are diagnostics around the literal executable plan, not a replacement for that plan and not automatically components to splice together into the final candidate. If two predictions are materially the same, treat that as a planning failure instead of combining them and calling the result a new architecture.
 
 ## Next safe action
 
@@ -111,12 +113,13 @@ Return to the validated Episode 007 method on the current failing `Don't Assume`
 2. freeze any span worth retaining on its own merits;
 3. assign each genuinely defective span one explicit operation: keep, merge, rewrite, compress, delete as separate sentence, re-sequence, demote, etc.;
 4. give each changed span one concrete reader-facing job;
-5. freeze the literal repair guide durably;
-6. do not use preservation units as generation order;
-7. on a later owner turn, apply the frozen guide locally without redesigning it;
-8. rerun preservation and cold audit;
-9. audit both prose quality and whether the frozen plan was actually implemented;
-10. only after a faithful reproduction of this validated process materially fails should the workflow compare a structurally different strategy.
+5. show three materially different actual-prose predictions for Joel's calibration;
+6. freeze the literal repair guide durably;
+7. do not use preservation units as generation order;
+8. on a later owner turn, apply the frozen guide locally without redesigning it;
+9. rerun preservation and cold audit;
+10. audit both prose quality and whether the frozen plan was actually implemented;
+11. only after a faithful reproduction of this validated process materially fails should the workflow compare a structurally different strategy.
 
 ## Rolling review link
 
