@@ -2,19 +2,29 @@
 
 Date: 2026-09-17
 
-Status: **MODEL CANDIDATE FOR OWNER REVIEW / NO PANGRAM CALL / NON-AUTHORITATIVE EXPERIMENT**
+Status: **AUDIT-FAILED / REJECTED AS PRODUCTION REALIZATION / DIAGNOSTIC HISTORY ONLY / NO PANGRAM CALL**
 
 Inner Child Therapy remains unregistered. This file does not alter any owner-final Human/high block.
 
-## Owner calibration incorporated
+R12 was originally produced as a model candidate for owner review. Its preservation proof passed, but a later full-boundary re-audit found recurring model architecture across the complete subsection. The subsequent producing-method audit found failures in plan generation, implementation/generation, admission review, and strategy; source/authority handling was not the failure.
 
-- Predictions A and C were both accepted directionally and were too similar as previously described. This realization deliberately combines their distinct useful parts: A's event-led opening plus C's cross-boundary continuity from the owner-final Catch-the-Hook ending.
-- Prediction B is not carried forward because the owner-final preceding paragraph already performs the anti-`all your problems are self-created` argument; repeating it here would violate the new owner no-repetition rule.
-- The prior abstract opener (`If every conflict turns into “this is my wound,” ...`) is dropped because the owner-final preceding paragraph now already establishes that the other person may actually have crossed a boundary.
-- `Witness` is not renamed to `Nurturer`. The source later defines Witness as a separate minimal observing stance. Because the current subsection uses the capitalized term before that introduction and falsely packages Witness/Protector/Guide as a three-role set, this candidate preserves the inside/between-us/next-move functions in ordinary prose and leaves the named Witness concept for its later introduction.
-- No checklist/listicle realization is added.
+Current superseding records:
 
-## Exact candidate
+- output re-audit: `EPISODE-008-DONT-ASSUME-R12-REAUDIT-20260917.md`
+- plan/implementation/admission/strategy audit: `EPISODE-008-R12-PLAN-IMPLEMENTATION-AUDIT-20260917.md`
+- current writer state: `../HUMANIZATION-WRITER-STATE-20260917A.md`
+
+Do not restore R12 as the current owner-review candidate merely because its semantic preservation proof passed.
+
+## Owner calibration incorporated at generation time
+
+- Predictions A and C were both accepted directionally and were too similar as previously described. This realization combined A's event-led opening plus C's cross-boundary continuity from the owner-final Catch-the-Hook ending.
+- Prediction B was not carried forward because the owner-final preceding paragraph already performs the anti-`all your problems are self-created` argument.
+- The prior abstract opener (`If every conflict turns into “this is my wound,” ...`) was dropped because the owner-final preceding paragraph already establishes that the other person may actually have crossed a boundary.
+- `Witness` was not renamed to `Nurturer`. The source later defines Witness as a separate minimal observing stance. R12 attempted to preserve the inside/between-us/next-move functions in ordinary prose, but the later audit found that it recreated the same triad structurally as `notice / see / decide`.
+- The generation plan said not to add a checklist/listicle realization, but the later method audit found that this remained an abstract prohibition rather than an effective structural constraint.
+
+## Exact rejected candidate
 
 ```text
 ### Don't Assume It's All You
@@ -31,46 +41,35 @@ Then there's the urge to make them understand before you're allowed to do anythi
 Exact candidate SHA-256, no terminal newline: `870d86fa81a44bb2c46b84dcf14066fbca567de304ca5cab4ff5183ebdb387e3`
 Whitespace word count: 320.
 
-## Preservation proof
+## Preservation proof retained as diagnostic evidence
 
-Authorized delta: realization, cadence, paragraphing, and local routing only. No owner-final upstream prose changed.
+Authorized delta at generation time: realization, cadence, paragraphing, and local routing only. No owner-final upstream prose changed.
 
-- Outward-look / not-all-old-material function: **already carried upstream** by the owner-final Catch-the-Hook line `Somebody may really have crossed a boundary and still have hit something old in you.` R12 intentionally does not restate it.
+- Outward-look / not-all-old-material function: already carried upstream by the owner-final Catch-the-Hook line `Somebody may really have crossed a boundary and still have hit something old in you.` R12 did not restate it in the body.
 - Concrete repeated self-abandonment interaction: preserved in paragraph 1.
 - One conversation / time / other person's boundary do not diagnose immaturity: preserved in paragraph 1.
 - Lindsay Gibson attribution and link: preserved in paragraph 2.
 - Repeated demonstrated capacity over motive-solving: preserved in paragraph 2.
 - Disagreement tolerance / room for experience / reflection-responsibility: preserved through `Can your experience stay...` and `Do they ever come back and own...`.
-- Cannot / will not / cannot-now uncertainty: preserved in `couldn't ... wouldn't ... just didn't that day` without requiring motive certainty.
-- Specific/revisable judgment: preserved through current reliance plus `If their behavior changes, you can change your mind about them.`
+- Cannot / will not / cannot-now uncertainty: preserved in `couldn't ... wouldn't ... just didn't that day`.
+- Specific/revisable judgment: preserved through current reliance plus the explicit behavior-change sentence.
 - Promise is not behavioral change: preserved.
-- Protection need not wait for repeated injury: preserved in `you don't have to collect another injury just to be sure.`
+- Protection need not wait for repeated injury: preserved.
 - Guilt does not decide wrongdoing or manipulation; harm-repair and self-abandonment can coexist: preserved in paragraph 3.
 - Realistic interaction outcome; action does not require mutual understanding: preserved in paragraph 4.
-- Inside / between-us / next-sane-move functions: preserved in ordinary prose (`notice you're upset`, `see what's happening between you`, `decide what to do next`) without prematurely naming Witness or creating a Witness/Protector/Guide pseudo-triad.
+- Inside / between-us / next-sane-move functions were semantically present, but their realization recreated a hidden parallel triad and therefore failed the later architecture audit.
 
-Forward traceability: **PASS**.
-Reverse traceability: **PASS**.
+Forward traceability: **PASS for exact R12 bytes**.
+Reverse traceability: **PASS for exact R12 bytes**.
 Unexplained substantive deltas: **0**.
 Claim changes: **none intended**.
 
-## Adversarial cold audit
+## Superseding audit conclusion
 
-### Attack 1 — paragraph 2 could still become a mini diagnostic checklist
+R12 is not cold-audit clean. Its governing pattern repeatedly returns to:
 
-The two adjacent questions (`Can your experience stay... ? Do they ever come back... ?`) are the strongest remaining risk. They survive this pass because they convert the source's abstract disagreement/reflection/responsibility inventory into two ordinary relational questions rather than a categorical menu. If Joel finds them checklist-shaped, this is the first place to compress.
+`concrete example -> responsible caveat -> balanced qualification -> neat decision rule/closure`
 
-### Attack 2 — the section still contains several qualification moves
+The failure is subsection-wide, not paragraph-2-only. The heading also repeats the preceding owner-final thesis, paragraph 3 uses matched therapeutic balance, and paragraph 4 recreates the removed role taxonomy under ordinary verbs.
 
-The source requires one-event uncertainty, cannot/will-not uncertainty, revisability, and guilt ambiguity. R12 keeps them attached to the same live relational problem rather than giving each one its own framework paragraph. The qualifications appear necessary for meaning rather than skeptical aftercare.
-
-### Attack 3 — the final line could sound like a neat takeaway
-
-`Sometimes you still have to end the conversation while they think you're wrong about the whole thing.` is concrete rather than a generalized moral and performs the source's needed action-without-understanding function. Keep provisionally; owner judgment should decide whether it feels too landed.
-
-### Witness disposition
-
-Do **not** substitute Nurturer for Witness. They are different functions. Do **not** name Witness here before its later dedicated introduction merely to preserve a source label. Preserve the observing function now; introduce the term where the article explains it.
-
-Cold-audit verdict: **PASS FOR OWNER REVIEW / NO PANGRAM YET**.
-Largest remaining weakness: paragraph 2 may still read slightly too diagnostically organized because several required Gibson/revisability functions cluster there.
+Do not Pangram R12. Do not locally polish it into R13. The next step is strategy discrimination across materially different subsection architectures, followed by a newly frozen recoverable plan before any new generation.
