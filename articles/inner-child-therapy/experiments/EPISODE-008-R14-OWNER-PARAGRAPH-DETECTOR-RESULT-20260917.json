@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-17",
+  "branch": "task/inner-child-episode008-coarse-to-fine-20260917",
+  "status": "OWNER_REPORTED_PARAGRAPH_LEVEL_DETECTOR_FAILURE",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-R14-COARSE-TO-FINE-CANDIDATE-20260917.md",
+  "candidate_sha256_no_terminal_newline": "6c95cef931fd30146fcc663a3b32069f5bf122d0b4a9c04fcdaf8bf0cf03df41",
+  "conversation_scope": "Immediate prior exchange discussed P1-P4 individually and asked whether P3 was predicted Human. Owner then reported: 'all of them are ai'. This record therefore binds the report to the four R14 paragraph-level checks. No whole-subsection detector result is inferred from that statement.",
+  "owner_exact_words": "all of them are ai",
+  "paragraph_results": [
+    {"paragraph": "P1", "label": "AI", "confidence": null},
+    {"paragraph": "P2", "label": "AI", "confidence": null},
+    {"paragraph": "P3", "label": "AI", "confidence": null},
+    {"paragraph": "P4", "label": "AI", "confidence": null}
+  ],
+  "detector_context": "Pangram testing context from the immediately preceding owner/assistant exchange; model/version/confidence and screenshot identities were not supplied in the owner's short result message and are not invented here.",
+  "whole_boundary_result": null,
+  "pre_result_prediction": {
+    "P1": "lean Human / uncertain",
+    "P2": "lean AI / highest-risk region",
+    "P3": "lean Human / strongest Human expectation among substantive paragraphs",
+    "P4": "Human-ish contextual handoff; separate short-span classification treated as weak evidence"
+  },
+  "prediction_outcome": {
+    "P1": "MISS",
+    "P2": "MATCH",
+    "P3": "MISS_STRONG",
+    "P4": "MISS_WITH_SHORT_SPAN_CAVEAT"
+  },
+  "interpretation": [
+    "R14 produced no paragraph-level green island that may be frozen for detector reasons.",
+    "The strongest critic-calibration failure is P3: the same-context editor explicitly expected it to be the most Human-like substantive paragraph, yet the owner reports AI.",
+    "The prior re-audit was therefore still too local when it treated P2 as the main detector risk. R14's entire realization route remains suspect for the owner's robust-Human target, even though some sentences may remain editorially better than R13.",
+    "Because P1-P4 were tested separately and short passages are lower-confidence evidence, this record does not claim that the complete R14 subsection itself was measured AI. The production decision is unchanged: R14 is rejected and no internal span receives a known-green lock.",
+    "This is one failed broad Phase-A cycle after recovery of the coarse-to-fine campaign method. It triggers a strategy-efficacy review before another materially similar broad realization, but does not by itself falsify the Episode 007 method that previously converged successfully over multiple iterations."
+  ]
+}
