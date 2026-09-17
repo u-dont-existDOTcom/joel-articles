@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **R12 rejected / validated Episode 007 method restored / communication gold standard frozen / R13 repair instructions frozen / next = apply plan on later owner turn**
+Status: **R13 local-repair candidate generated / frozen plan implemented / preservation pass / provisional same-context audit pass / owner review next**
 
 ## Mandatory recovery order
 
@@ -20,118 +20,81 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
 3. Confirm Inner Child Therapy remains unregistered. Do not invent registered authority.
 4. Read current writer state:
    - `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917C.md`
-5. Read the frozen next-section plan:
+5. Read the current candidate and validation receipt:
+   - `articles/inner-child-therapy/experiments/EPISODE-008-WHAT-KEEPS-HAPPENING-R13-CANDIDATE-20260917.md`
+   - `articles/inner-child-therapy/experiments/EPISODE-008-R13-PRESERVATION-PLAN-AND-COLD-AUDIT-20260917.md`
+6. Read the frozen plan when auditing implementation or making the next repair:
    - `articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R13-REPAIR-INSTRUCTIONS-20260917.md`
-6. For exact current Episode 008 source/owner evidence, load only what the task needs from:
-   - `EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json`
-   - `EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`
-   - `EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`
-   - rejected R12 only as failing diagnostic prose: `EPISODE-008-DONT-ASSUME-R12-A-C-HYBRID-20260917.md`
-7. Because this is humanization work, fresh-read `u-dont-existDOTcom/pangram-humanization-lab` according to `SKILL.md`, including the current method fingerprint on branch `task/humanization-method-fingerprint-20260916`:
-   - `state/generation/HUMANIZATION-METHOD-FINGERPRINT-20260916.md`
+7. Because this remains humanization work, fresh-read the current Pangram-humanization method files required by `SKILL.md`, especially the method fingerprint and current Catch-the-Hook owner calibration case.
 
-Do not run Pangram unless the current candidate passes preservation/coherence/cold-audit admission and the result can change the next decision.
+## Authority boundary
 
-## Current authority boundary
+Inner Child Therapy remains unregistered/non-authoritative. Owner-final Human/high blocks are local prose authority and remain untouched.
 
-Inner Child Therapy is unregistered/non-authoritative. Owner-final Human/high blocks are nevertheless the local prose authority within this experiment and must not be modified without Joel's permission.
+## Communication gold standard
 
-Locked material:
-- Episode 005 natural boundary: repeated owner-reported Human.
-- Episode 006 five-stage owner-final map: Human/high.
-- Episode 007 `My Journey` R8F: 100% Human/high.
-- Episode 008 inner-monologue owner realization: Human/high.
-- Episode 008 `Catch the Hook Before the Story Takes Over` owner-final three paragraphs: Human/high.
+Joel's current communication target for this article is the owner-final Human/high `Catch the Hook Before the Story Takes Over` subsection:
+- friendly;
+- cute/warm where natural;
+- low-friction;
+- written for readers who are not interested in reading a huge guide;
+- socially recognizable before theoretical;
+- theory/attribution rides lightly inside the useful thought.
 
-Never split, normalize, insert inside, or re-sequence owner-final Human/high blocks without explicit owner authorization.
+Do not imitate its surface tokens as a recipe.
 
-## Communication gold standard — owner correction
+## Current R13 candidate
 
-Joel identifies the owner-final `Catch the Hook Before the Story Takes Over` section as the **gold standard for the communication style of this article**: friendly, cute, and aimed at people who are not interested in reading a huge guide.
+Heading:
+`### What Keeps Happening Between You?`
 
-Transfer the reader relationship and pragmatic/social act, not surface tokens. Do not copy emoji, jokes, punctuation, slang, or catchphrases as a detector/style recipe.
+Candidate:
+`articles/inner-child-therapy/experiments/EPISODE-008-WHAT-KEEPS-HAPPENING-R13-CANDIDATE-20260917.md`
 
-Operationally:
-- concrete/socially recognizable before theoretical;
-- theory/attribution rides lightly inside the live problem;
-- one useful thought at a time;
-- avoid comprehensive therapist/manual coverage;
-- let obvious implications stay implicit;
-- stop when the next useful move is available;
-- if a new subsection becomes materially heavier/longer than the gold-standard section, audit whether the `huge guide` problem has returned.
+Exact candidate SHA-256, no terminal newline:
+`8ef3e92a000192d921b4a3bbe635e01da3252483c6c95feac59ca2a43b6dd232`
 
-## Validated method restored
+Whitespace words including heading: 265.
 
-Episode 007 R8F remains the strongest validated process evidence. The method fingerprint is:
+Validation:
+- frozen-plan implementation: PASS;
+- forward traceability: PASS;
+- reverse traceability: PASS;
+- unexplained substantive deltas: 0;
+- source integrity: PASS;
+- heading/upstream duplication: PASS;
+- hidden role triad: absent;
+- checklist/listicle topology: PASS;
+- `huge guide` regression: not observed;
+- cold audit: PROVISIONAL SAME-CONTEXT PASS FOR OWNER REVIEW;
+- Pangram: not run.
 
-`literal current sentence/span -> explicit local operation -> concrete positive generation target`
+Largest remaining weakness: the Gibson/current-reliance paragraph is the densest and most instructional part of the candidate. Do not rewrite it preemptively unless Joel identifies a problem or later evidence localizes one.
 
-followed by instruction freeze, later literal local application, preservation proof, adversarial cold audit, then detector testing only when warranted.
+## Method state
 
-R12 was not a faithful reproduction of that method; its failure does not falsify the validated process.
+The validated Episode 007 process was faithfully restored:
 
-## Current R12 disposition
+`literal current sentence/span -> explicit operation -> concrete positive target -> frozen guide -> later literal application`
 
-R12 `Don't Assume It's All You` is rejected diagnostic prose. No Pangram call was made. Its preservation proof remains diagnostic evidence about meaning retention only.
+R13 is therefore a valid test of the restored method, unlike R12.
 
-R12 is not current article prose and its architecture is not protected.
+If R13 fails materially, audit both the output and producing method before switching strategy. Do not respond by merely adding more prohibitions.
 
-## Frozen R13 repair plan
+## Owner-supersession protections
 
-`articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R13-REPAIR-INSTRUCTIONS-20260917.md`
-
-The plan:
-- replaces the repetitive heading; recommended target `What Keeps Happening Between You?`;
-- keeps the concrete opening interaction;
-- re-sequences/compresses the fairness caveat;
-- keeps Lindsay Gibson as a light attribution rather than a framework paragraph;
-- collapses checklist-like relational tests into one social observation;
-- centers the practical `what can I rely on now?` job without a motive taxonomy;
-- compresses revisability/promises/protection;
-- rewrites guilt as one messy human tangle rather than balanced therapy symmetry;
-- keeps the `one more explanation` pressure live;
-- deletes the hidden `notice / see / decide` triad and preserves its functions through action;
-- hands naturally into `Write It. Don't Send It Yet.` without a summary moral.
-
-Three materially different actual-prose predictions are frozen in the plan for owner calibration. Prediction A—one interaction carries almost everything—is recommended, but the later writer must apply the frozen local operations rather than copy/splice the prediction.
-
-## Owner-supersession protections remain active
-
-- Do not add back anything Joel removed merely because it existed in an earlier model/source realization.
-- After Joel rewrites a span, rebase preservation on his text.
-- If a prior function seems genuinely important and absent, show exact current overlap, residual gap, pros/cons, and recommendation; never restore silently.
-- Do not insert into owner-final/Human-high blocks without explicit permission.
-- Witness is not Nurturer; named Witness belongs at its later explicit introduction.
-
-## Audit owner rule
-
-Whenever Joel says `audit`, audit both output and producing method: plan generation, implementation/generation, admission/review, source/authority, and strategy. State causal mechanism and concrete repair.
-
-Before declaring strategy exhaustion, compare the failed run against the last validated successful method fingerprint.
-
-## Three predictions — standing owner rule
-
-During planning, show three materially different actual-prose predictions substantial enough for Joel to inspect the model's assumptions.
-
-They are diagnostics around the literal executable plan, not replacement plans and not components to splice together. If two are materially the same, that is a planning failure.
+- Do not restore anything Joel removed merely because it existed earlier.
+- Do not insert inside owner-final/Human-high blocks without explicit permission.
+- Rebase on any new Joel correction immediately.
+- Witness is not Nurturer; named Witness belongs later.
 
 ## Next safe action
 
-On the next owner turn, unless Joel changes the frozen instructions:
+Owner reviews/tests exact R13.
 
-1. apply the R13 repair plan literally without redesigning it;
-2. generate one complete subsection, not another set of alternatives;
-3. preserve upstream owner-final Human/high prose exactly;
-4. leave downstream `Write It. Don't Send It Yet.` unchanged;
-5. run preservation proof after generation;
-6. audit whether the candidate actually implemented the frozen plan;
-7. run adversarial cold audit;
-8. do not Pangram if either audit still finds a substantive defect;
-9. only if this faithful reproduction materially fails should a different strategy be compared.
+If Joel reports Pangram output, bind it only to the exact candidate bytes with SHA `8ef3e92a000192d921b4a3bbe635e01da3252483c6c95feac59ca2a43b6dd232` and the tested natural boundary. Do not infer a result from a different boundary.
 
-## Rolling review link
+If Joel rewrites any span while keeping the thought aligned, capture the before/after pair prospectively in the Pangram-humanization teaching corpus.
 
 Stable cumulative owner-review path:
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
-
-R12 is absent from the rolling article because it is audit-failed.
