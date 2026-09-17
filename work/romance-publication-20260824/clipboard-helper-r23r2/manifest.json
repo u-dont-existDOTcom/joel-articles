@@ -1,0 +1,286 @@
+{
+  "format": "joel-romance-r23r2-markdown-clipboard-fallback-v1",
+  "source": {
+    "repository": "u-dont-existDOTcom/joel-articles",
+    "ref": "5d169436b23c86017447222d06f6b7691bd0b591",
+    "branch": "main",
+    "task_branch": "clipboard/romance-r23r2-20260824",
+    "master_path": "articles/romance/master.md",
+    "master_sha256": "f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c",
+    "master_words_whitespace": 20364,
+    "registry_path": "articles/INDEX.json",
+    "registry_sha256": "84c630e512cbe907334ef7b5ba881b7f5e3300ddf2ad8e376c8b047de4d64f64",
+    "current_state_path": "articles/romance/CURRENT-STATE.md",
+    "current_state_sha256": "994437d5b4dac35ccb4da9d6885b4e4a302a01a05bacf4272f4d606068c51a17",
+    "candidate_id": "romance-r23r2-owner-final-20260824"
+  },
+  "authority_boundary": {
+    "raw_substack_editor_html_available": false,
+    "full_protocol_helper_status": "BLOCKED",
+    "blocker": "The repository contains no authoritative raw Substack editor HTML for Romance. Exact native-widget markup, metadata, and raw-source video classification cannot be certified from Markdown.",
+    "delivered_artifact_class": "conservative_markdown_and_registered_identity_transport_fallback",
+    "invented_native_widget_metadata": false
+  },
+  "transport": {
+    "browser": "Opera",
+    "opening_context": "downloaded local HTML file opened directly",
+    "destination": "Substack editor",
+    "wrapper": {
+      "tag": "div",
+      "attributes": {
+        "dir": "auto",
+        "class": "body markup"
+      }
+    },
+    "segment_count": 1,
+    "payload_mode": "single_rich_html_from_registered_marker_inventory",
+    "registered_standalone_native_uploaded_video_marker_count": 0,
+    "raw_source_certified_native_uploaded_video_count": null,
+    "registered_substack_video_post_marker_count": 0,
+    "raw_source_certified_substack_video_post_count": null,
+    "split_disposition": "No split: no registered marker represents a standalone native Substack-uploaded video. Raw-source absence prevents certifying the complete editor-object inventory."
+  },
+  "source_inventory": {
+    "headings": 44,
+    "markdown_links_including_share_action": 22,
+    "ordinary_links_transferred": 21,
+    "native_markers": 11,
+    "share_action_markers": 1,
+    "publication_objects_total": 12,
+    "object_counts": {
+      "image": 3,
+      "share": 1,
+      "subscribe": 1,
+      "substack_preview": 1,
+      "youtube": 6
+    },
+    "objects": [
+      {
+        "id": "native-01",
+        "source_order": 1,
+        "native_marker_order": 1,
+        "line": 1,
+        "type": "image",
+        "source_marker": "[NATIVE IMAGE — preserve from Substack source — https://substack-post-media.s3.amazonaws.com/public/images/6993d48e-37c8-4ccc-be3a-1e7fe695cb2a_1122x1402.png]",
+        "source_sha256": "3c8e346accc2cc2ffc7c436beca99c6a03a24b1e58d0d640b275e8537e7618d1",
+        "identity": "https://substack-post-media.s3.amazonaws.com/public/images/6993d48e-37c8-4ccc-be3a-1e7fe695cb2a_1122x1402.png",
+        "preceding_anchor": null,
+        "following_anchor": "[Share](%%share_url%%)",
+        "transfer_treatment": "standard_image_html_from_registered_url",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "share-01",
+        "source_order": 2,
+        "line": 3,
+        "type": "share",
+        "source_marker": "[Share](%%share_url%%)",
+        "source_sha256": "1d1551c3c2c80faab9c029f6c1225edf8c14aa3370bcf725b96f9e39b828ab0d",
+        "identity": "%%share_url%%",
+        "preceding_anchor": "[NATIVE IMAGE — preserve from Substack source — https://substack-post-media.s3.amazonaws.com/public/images/6993d48e-37c8-4ccc-be3a-1e7fe695cb2a_1122x1402.png]",
+        "following_anchor": "I asked my dad about sex when I was five, and he briefly explained:: “Sex is what you do when you are older and you find a friend you want to have children with.”",
+        "transfer_treatment": "manual_native_reinsertion",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-02",
+        "source_order": 3,
+        "native_marker_order": 2,
+        "line": 435,
+        "type": "substack_preview",
+        "source_marker": "[NATIVE SUBSTACK PREVIEW — Somatic Modalities Strategic Sequencing Roadmap — https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing]",
+        "source_sha256": "ace79e4979178bf3ec494cdff6f3ba8d4a233a4d6292a722e885329236a7dc2e",
+        "identity": "https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing",
+        "preceding_anchor": "Breathwork is one of the easiest ways I know to calm down. Reduced breathing or the Buteyko method is especially useful to me when my partner is getting me upset and flustered with drama. Sometimes she’s deliberately trying to do that. Othe",
+        "following_anchor": "Meditation matters a lot to me too. For most people I would still put inner-child reparenting, peer counseling, and body-based work first. Many people say they cannot meditate or have not gotten to that stage yet. Meditation is also an easy",
+        "transfer_treatment": "canonical_url_in_payload_fallback",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-03",
+        "source_order": 4,
+        "native_marker_order": 3,
+        "line": 505,
+        "type": "image",
+        "source_marker": "[NATIVE IMAGE — preserve from Substack source — https://substack-post-media.s3.amazonaws.com/public/images/cbf41294-3c6b-4ac7-b5b6-dd52b242b919_1055x1491.png]",
+        "source_sha256": "851f26639892122ebe85d8cb917f2dcc189ffe55a98e40c77c0817cf65bbfa5f",
+        "identity": "https://substack-post-media.s3.amazonaws.com/public/images/cbf41294-3c6b-4ac7-b5b6-dd52b242b919_1055x1491.png",
+        "preceding_anchor": "# Primal attraction: channeling the Divine Masculine & Feminine",
+        "following_anchor": "Everything I've been putting forward so far has leaned toward honesty, closeness, and equal dignity. I do believe in that basically for any type of relationship, but none of that by itself explains why two people still want to tear each oth",
+        "transfer_treatment": "standard_image_html_from_registered_url",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-04",
+        "source_order": 5,
+        "native_marker_order": 4,
+        "line": 549,
+        "type": "youtube",
+        "source_marker": "[NATIVE YOUTUBE — preserve from Substack source — videoId: QqP3p_ysd84]",
+        "source_sha256": "d368756fc78951ab5ff82539a0fad0a3afc64e2b896b37b4febe010023faeff2",
+        "identity": "QqP3p_ysd84",
+        "preceding_anchor": "Although the peanut gallery critics and lazy fact-checkers often cry fiction on this topic, Komisaruk and Whipple showed that cervical stimulation can produce orgasm even in women with a severed spinal cord, because the vagus nerve can carr",
+        "following_anchor": "## Can making love be a spiritual practice?",
+        "transfer_treatment": "canonical_youtube_url_in_payload",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-05",
+        "source_order": 6,
+        "native_marker_order": 5,
+        "line": 571,
+        "type": "youtube",
+        "source_marker": "[NATIVE YOUTUBE — preserve from Substack source — videoId: Li--FKwJu0Q]",
+        "source_sha256": "5c22b652836810a801693530e94bd24eccd7e6b22fe35d9d06fd0a0be16ce626",
+        "identity": "Li--FKwJu0Q",
+        "preceding_anchor": "Brad and Pam Keene are the example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself bec",
+        "following_anchor": "## Muses & Directors",
+        "transfer_treatment": "canonical_youtube_url_in_payload",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-06",
+        "source_order": 7,
+        "native_marker_order": 6,
+        "line": 634,
+        "type": "image",
+        "source_marker": "[NATIVE IMAGE — old source — https://substack-post-media.s3.amazonaws.com/public/images/abc295d2-f1ec-414c-83e0-c4df99fe5de3_1024x1535.png]",
+        "source_sha256": "23d146a29044cd47828b998931754bc4716685e3f190fb58b13df20faca11ed0",
+        "identity": "https://substack-post-media.s3.amazonaws.com/public/images/abc295d2-f1ec-414c-83e0-c4df99fe5de3_1024x1535.png",
+        "preceding_anchor": "# Twin Flames?",
+        "following_anchor": "In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TF) experience than ",
+        "transfer_treatment": "standard_image_html_from_registered_url",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-07",
+        "source_order": 8,
+        "native_marker_order": 7,
+        "line": 650,
+        "type": "youtube",
+        "source_marker": "[NATIVE YOUTUBE — old source — videoId: ysZ_O50hhgM]",
+        "source_sha256": "e2b5ac035ddd6f236d94a870be6395f49fa6a6b81dd52e9402943f875b10ff0e",
+        "identity": "ysZ_O50hhgM",
+        "preceding_anchor": "Then, in 2026, I met another Ultimate Woman, who even called herself “WOMAN” on her whatsapp profile, which I thought was hilarious and maybe a sign for me. You can see the video we made together while in love:",
+        "following_anchor": "Falling in love with Key really blew my mind. How could it be possible to fall in love with a different woman? I thought Bee was my forever, only Twin. The conclusion seemed inexorable to me: Bee could not have been the only person on Earth",
+        "transfer_treatment": "canonical_youtube_url_in_payload",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-08",
+        "source_order": 9,
+        "native_marker_order": 8,
+        "line": 656,
+        "type": "youtube",
+        "source_marker": "[NATIVE YOUTUBE — old source — videoId: Nc0NU5PWO8Q]",
+        "source_sha256": "729d428638c0aa9d5d8f5591e8225d541ab837f16d66d2738f253b305d199a93",
+        "identity": "Nc0NU5PWO8Q",
+        "preceding_anchor": "## De-ontologizing Twin Flames FTW 💗",
+        "following_anchor": "This part might seem unromantic to the TF community, but if people understood this, it would actually lead to much deeper unions and deeper love, in my opinion. I’ve basically synthesized the dialectic between the romance pragmatists who do",
+        "transfer_treatment": "canonical_youtube_url_in_payload",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-09",
+        "source_order": 10,
+        "native_marker_order": 9,
+        "line": 666,
+        "type": "youtube",
+        "source_marker": "[NATIVE YOUTUBE — old source — videoId: 450p7goxZqg]",
+        "source_sha256": "e120e68f3e7ba1ef18df1d3eacea649f1850b3f9cf280f3e8b3ca0e7dd7e018a",
+        "identity": "450p7goxZqg",
+        "preceding_anchor": "Anyway. If we don’t understand that the Twin Flame is an energy that a person can access… if we conflate the person’s egoic flaws that actually annoy us with their deepest, truest, most beautiful self, then we end up playing John Legend on ",
+        "following_anchor": "Ok I’m not trying to bash John Legend nor *All of Me*. It’s one of the most beautiful, most hopeless romantic songs in history. And there’s a part of it which really does apply to what I’m talking about because for your partner to feel trul",
+        "transfer_treatment": "canonical_youtube_url_in_payload",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-10",
+        "source_order": 11,
+        "native_marker_order": 10,
+        "line": 883,
+        "type": "youtube",
+        "source_marker": "[NATIVE YOUTUBE — preserve from Substack source — videoId: SitT9ojqV1U]",
+        "source_sha256": "967b0264ee69fc1c5b3fe61483ac71e8c815f0f04b0ee06dc6df90a621daa418",
+        "identity": "SitT9ojqV1U",
+        "preceding_anchor": "# Ending consciously",
+        "following_anchor": "Whether to leave and how to leave are separate questions.",
+        "transfer_treatment": "canonical_youtube_url_in_payload",
+        "raw_editor_identity_status": "unavailable"
+      },
+      {
+        "id": "native-11",
+        "source_order": 12,
+        "native_marker_order": 11,
+        "line": 953,
+        "type": "subscribe",
+        "source_marker": "[NATIVE BUTTON — Subscribe now — %%checkout_url%%]",
+        "source_sha256": "88020fa41c006c9835268893d6b3460bd08256efdbd872960035e9c0def3d5f7",
+        "identity": "%%checkout_url%%",
+        "preceding_anchor": "I believe Rumi was right: A sacred relationship will open and purify your hearts regardless of whether it ends.",
+        "following_anchor": null,
+        "transfer_treatment": "manual_native_reinsertion",
+        "raw_editor_identity_status": "unavailable"
+      }
+    ]
+  },
+  "manual_steps": [
+    {
+      "object_id": "share-01",
+      "type": "share",
+      "instruction": "Insert the native Share control after the opening image and before the first prose paragraph.",
+      "preceding_anchor": "[NATIVE IMAGE — preserve from Substack source — https://substack-post-media.s3.amazonaws.com/public/images/6993d48e-37c8-4ccc-be3a-1e7fe695cb2a_1122x1402.png]",
+      "following_anchor": "I asked my dad about sex when I was five, and he briefly explained:: “Sex is what you do when you are older and you find a friend you want to have children with.”"
+    },
+    {
+      "object_id": "native-11",
+      "type": "subscribe",
+      "instruction": "Insert the native Subscribe control at the article end after the final Rumi sentence.",
+      "preceding_anchor": "I believe Rumi was right: A sacred relationship will open and purify your hearts regardless of whether it ends.",
+      "following_anchor": null
+    }
+  ],
+  "validation": {
+    "registered_master_identity": "PASS",
+    "word_count": "PASS",
+    "prose_projection": "PASS",
+    "prose_projection_sha256": "3e972f355247ac241c0253b5d311343656a6719090f654a353bcece89cb149cb",
+    "heading_hierarchy_and_text": "PASS",
+    "owner_final_two_pillars_span": "PASS",
+    "owner_final_two_pillars_span_sha256": "cd8de93fda39fcdf13c4b1f6ba2f9250c11c40f8c8298f281055e37bafed6291",
+    "ordinary_link_order_and_destinations": "PASS",
+    "emphasis_lists_blockquotes_rules": "PASS",
+    "structural_counts": {
+      "emphasis": 13,
+      "strong": 2,
+      "blockquotes": 1,
+      "ordered_lists": 0,
+      "unordered_lists": 1,
+      "list_items": 6,
+      "horizontal_rules": 9
+    },
+    "publication_object_order": "PASS",
+    "unexplained_article_text_deltas": 0,
+    "authorized_transport_transformations": 12,
+    "destination_result": "PENDING_DISPOSABLE_OPERA_TO_SUBSTACK_TEST"
+  },
+  "segments": [
+    {
+      "index": 1,
+      "label": "Copy rich article",
+      "payload_sha256": "c578df31aa40e73cc22871d9d34949c1bffa83489013df5a5c5d59f86883edee",
+      "plain_text_sha256": "621ec25d826df0c0ed655fe517bf17a850ff5e8e12a4edb2618719af6ee355a2"
+    }
+  ],
+  "pangram": {
+    "called": false,
+    "status": "NOT_RUN_BY_OWNER_INSTRUCTION"
+  },
+  "deliverables": {
+    "helper": "romance-r23r2-substack-clipboard-helper.html",
+    "helper_sha256": "7dc20c72319f382a65765c803407d8d805c78cf59632b4dbff4619b683ea168f",
+    "manifest": "manifest.json",
+    "validation": "VALIDATION.md",
+    "readme": "README.md"
+  }
+}
