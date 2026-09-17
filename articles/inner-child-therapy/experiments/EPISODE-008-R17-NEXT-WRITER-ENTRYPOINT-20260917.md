@@ -1,10 +1,15 @@
 # Episode 008 R17 — next-writer entry point
 
-Use connected GitHub. After the mandatory universal bootstrap, on branch `task/inner-child-therapy-intake-20260915` read **only** these two files:
+Status: **COMPLETED / DO NOT RERUN**
 
-1. `articles/inner-child-therapy/experiments/EPISODE-008-R17-RICH-CALIBRATION-FRESH-WRITER-PACKET-20260917.md`
-2. `articles/inner-child-therapy/experiments/EPISODE-008-R17-OWNER-CADENCE-SUPPLEMENT-20260917.md`
+The R17 fresh-writer experiment was run and the returned candidate was rejected before Pangram. Do not start another writer from the old R17 packet or cadence supplement.
 
-The cadence supplement is an authorized companion and explicitly amends the packet's `use only this packet` isolation clause.
+Recover current state from:
 
-Follow them exactly and return only the requested subsection heading and prose. Do not read prior Inner Child candidates, audits, detector results, or other Project/chat history.
+`articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917Q.md`
+
+Current replacement plan:
+
+`articles/inner-child-therapy/experiments/EPISODE-008-POST-R17-EXAMPLE-FIRST-SUPERVISED-COMPOSITION-PLAN-20260917.md`
+
+The next work is supervised example-first composition, not another autonomous whole-subsection fresh-writer run.
