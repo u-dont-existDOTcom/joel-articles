@@ -54,7 +54,7 @@ The recent failures do **not** yet prove the validated Episode 007 method is exh
 1. **Local residual repair became broad subsection reconstruction.** R12 was a new four-paragraph realization rather than local execution against a frozen sentence/span repair table.
 2. **The preservation ledger became an implicit prose outline.** Required functions were visibly discharged one after another instead of being checked after generation.
 3. **Literal operations were replaced by higher-level architecture/prohibition language.** Event-led opening, boundary continuity, no listicle, no premature Witness, etc. were useful diagnoses but not equivalent to the validated executable repair table.
-4. **Three predictions became mandatory process furniture.** Predictions can be useful when they expose materially different assumptions, but they are not part of the validated R8F method and should not substitute for local repair. Joel had already noted R12 Predictions A and C were similar.
+4. **Three predictions changed function.** Joel's standing preference to see three materially different actual-prose predictions during planning remains active. The regression was treating the predictions themselves as generation scaffolding and then combining similar A/C variants, rather than using them as diagnostics around a literal executable repair plan.
 5. **Rule accumulation became the writing environment.** Owner-supersession, anti-listicle, anti-repetition, prediction-format, preservation, Witness, and cold-audit rules are individually useful, but they should remain supervisor checks rather than becoming the generator's internal outline.
 6. **The R12 method audit escalated too far.** It called for a new architecture strategy without first asking whether R12 faithfully reproduced the last validated method. It did not.
 
@@ -85,11 +85,11 @@ Before declaring a strategy exhausted, compare the failed run against the last v
 
 These protections are not the process regression and should remain.
 
-## Three predictions — corrected role
+## Three predictions — standing owner rule, corrected role
 
-Three actual-prose predictions are **optional diagnostics**, not a mandatory step for every repair.
+During a planning turn, continue showing **three materially different actual-prose predicted realizations**, substantial enough for Joel to inspect the model's assumptions.
 
-Use them only when there are genuinely different live hypotheses that owner calibration can discriminate. Do not manufacture three variants of the same architecture. The validated Episode 007 residual-repair loop does not require them.
+They are diagnostics around the plan, not a substitute for the literal span-by-span repair guide and not automatically the source from which the final candidate is assembled. If two predictions are materially the same, that is a planning failure; do not combine them and call the result a new architecture.
 
 ## R12 disposition
 
@@ -109,12 +109,13 @@ Return to the validated Episode 007 method on the current `Don't Assume` failing
 2. freeze any span worth keeping on its own merits;
 3. for each genuinely defective span, assign one explicit local operation;
 4. specify one concrete positive reader-facing job for each changed span;
-5. freeze the literal repair guide durably;
-6. do **not** use the preservation-unit list as generation order;
-7. on the following owner turn, apply the guide locally without redesigning it;
-8. rerun preservation proof and cold audit;
-9. audit both prose quality and plan implementation;
-10. only if a faithful reproduction of this validated process still fails materially should the workflow compare a structurally different strategy.
+5. show three materially different actual-prose predictions for Joel's calibration without using them as the replacement for the literal plan;
+6. freeze the literal repair guide durably;
+7. do **not** use the preservation-unit list as generation order;
+8. on the following owner turn, apply the guide locally without redesigning it;
+9. rerun preservation proof and cold audit;
+10. audit both prose quality and plan implementation;
+11. only if a faithful reproduction of this validated process still fails materially should the workflow compare a structurally different strategy.
 
 Target #2 ownerization/improvement remains banked in `articles/inner-child-therapy/OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane exhaustion.
 
