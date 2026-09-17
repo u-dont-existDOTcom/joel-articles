@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **R17 RICH-CALIBRATION WHOLE-WRITER FAILED / NO PANGRAM / AUTONOMOUS WHOLE-SUBSECTION GENERATION STOPPED / NEXT = EXAMPLE-FIRST SUPERVISED COMPOSITION / OPENING ASSEMBLY GAP QUEUED**
+Status: **POST-R17 EXAMPLE-FIRST SUPERVISED CANDIDATE READY / PRESERVATION PASS / OWNER STYLE JUDGMENT NEXT / NO PANGRAM / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -12,24 +12,23 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
 1. Fresh-read `u-dont-existDOTcom/universal-dev-architecture` default-branch `AGENTS.md` on the current turn.
 2. Fresh-read in `u-dont-existDOTcom/joel-articles`: `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
-4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917Q.md`.
+4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917R.md`.
 5. Read the successful-method reconstruction: `articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`.
 6. Read current owner correction and preservation supplement:
    - `EPISODE-008-R16-OWNER-REAUTHORING-20260917.md`
    - `EPISODE-008-R16-PRESERVATION-SUPPLEMENT-20260917.md`
-7. Read R17 result/audit and replacement plan:
-   - `EPISODE-008-R17-FRESH-CANDIDATE-RETURNED-20260917.md`
-   - `EPISODE-008-R17-OUTPUT-AND-METHOD-AUDIT-20260917.md`
+7. Read the replacement architecture and current candidate:
    - `EPISODE-008-POST-R17-EXAMPLE-FIRST-SUPERVISED-COMPOSITION-PLAN-20260917.md`
-8. The R17 fresh-writer packet and cadence supplement are now experiment history. Do not rerun them unchanged.
-9. R12–R16 model candidates and R15 prediction prose are rejected diagnostic history only unless a later audit specifically needs them.
-10. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` materials according to `SKILL.md`, especially:
+   - `EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-20260917.md`
+   - `EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-AUDIT-20260917.md`
+8. R12–R17 rejected model candidates are diagnostic history only unless a later audit specifically needs them.
+9. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` materials according to `SKILL.md`, especially:
    - `state/generation/POSITIVE-CALIBRATION-ENTRYPOINT-20260917.md`
    - `state/generation/OWNER-CALIBRATION-MARCHING-EFFICIENCY-20260917.md`
    - `state/generation/OWNER-CALIBRATION-READER-EXAMPLES-AND-CLIPPED-VERDICTS-20260917.md`
    - `state/generation/POSITIVE-HUMANNESS-FORECAST-CALIBRATION-20260917.md`
    - `state/generation/RETRIEVAL-FIRST-OWNER-TEACHING-PROTOCOL.md`
-11. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
+10. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
 
 ## Authority boundary
 
@@ -42,35 +41,22 @@ Exact SHA-256, no terminal newline:
 
 ## R17 disposition
 
-Exact returned candidate:
-`EPISODE-008-R17-FRESH-CANDIDATE-RETURNED-20260917.md`
+R17 autonomous whole-subsection generation failed editorially before Pangram despite richer calibration and explicit cadence guidance. Its exact returned candidate remains diagnostic history only. No model-written R17 green locks exist.
 
-Exact candidate SHA-256, no terminal newline:
-`89f55872ced64d9fff199d6f6345dc0f16a02adb7f44fe906b97a0267882e6b9`
+This failure triggered the strategy switch already frozen in:
+`EPISODE-008-POST-R17-EXAMPLE-FIRST-SUPERVISED-COMPOSITION-PLAN-20260917.md`.
 
-Status: **REJECTED BEFORE PANGRAM**.
-
-The exact owner paragraph is preserved. The model wrapper still shows strong predictable marching advancement: every sentence has a crisp job, each function advances immediately, and the prose reads like a compressed instruction/manual sequence.
-
-Preservation also fails one active source unit: the real-harm branch requires actual repair, while R17 weakens that to `Maybe there is something you need to repair.`
-
-No model-written R17 span is green-locked. Do not Pangram it.
-
-## Owner calibration now active
+## Active owner calibration
 
 ### Predictable marching advancement
 
-AI-shaped prose can remain model-like even without a specific banned local form when sentence after sentence is optimized for near-maximum semantic efficiency. Each sentence has one obvious function and the passage advances like a perfect staircase.
-
-Occasional efficiency is fine. Do not repair by padding.
+AI-shaped prose can remain model-like when sentence after sentence is optimized for near-maximum semantic efficiency, every sentence has one obvious function, and the passage advances like a perfect staircase. Occasional efficiency is fine. Do not repair by padding.
 
 ### Reader examples are allowed
 
-Do not invent Joel autobiography. But source-grounded real-life reader situations are valid: ask whether the reader has experienced a recognizable version of the problem, and let the social situation carry several protected functions together.
+Do not invent Joel autobiography. Source-grounded reader-life situations and questions are allowed when they stay inside supplied meaning and let the social situation carry multiple functions.
 
-### Flag owner-example opportunities
-
-When a genuine Joel life example would materially improve grounding, mark the exact slot rather than inventing it. Such examples are optional unless Joel's cognition is genuinely required to resolve the thought.
+Joel explicitly declined to provide his own life examples for the current pass. Optional owner-example slots are therefore not blockers.
 
 ### Clipped generated interjections banned
 
@@ -79,23 +65,42 @@ For fresh model-generated humanization prose, do not use standalone:
 - `Fine.`
 - `Good.`
 
-Do not alter locked owner prose solely because it contains one of these words. Do not silently generalize the ban to other words.
+Do not alter locked owner prose solely because it contains one of these words and do not silently generalize the ban.
 
-## Strategy switch
+## Current supervised candidate
 
-The richer calibration and cadence supplement were actually active in R17, yet the autonomous whole-subsection writer still marched through the preservation set. Therefore do **not** answer this failure with another similar fresh writer packet or larger prohibition list.
+Exact candidate:
+`EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-20260917.md`
 
-Active replacement plan:
-`EPISODE-008-POST-R17-EXAMPLE-FIRST-SUPERVISED-COMPOSITION-PLAN-20260917.md`
+Exact SHA-256, no terminal newline:
+`de9233151c47cf7280a3499dd61de83a7870f7678327ca10a3990a7f88a66a5d`
 
-Compose locally from three source-grounded social situations:
-1. one disastrous conversation versus a repeated relational pattern;
-2. really owing repair for one part while giving away the rest under guilt/disappointment;
-3. explaining repeatedly while waiting for agreement before acting.
+Status: **OWNER REVIEW / NOT PANGRAM-TESTED / NOT IN ROLLING ARTICLE**.
 
-Keep Joel's exact paragraph fixed. Assemble only after the local units work. Then run preservation and whole-boundary cadence audit. Joel gives the first decisive style judgment. Pangram only after obvious AI shape is gone.
+The candidate was assembled from three reader-situation units rather than generated from the preservation ledger in one pass:
+1. one bad conversation versus repeated behavior;
+2. real repair without surrendering the entire disagreement;
+3. explanation-chasing while waiting for agreement.
 
-Optional owner-life-example slots are recorded in the plan and are not blockers.
+The exact owner paragraph appears once unchanged.
+
+Audit:
+`EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-AUDIT-20260917.md`
+
+Current audit result:
+- preservation PASS;
+- reverse traceability PASS provisionally;
+- zero unexplained substantive deltas found;
+- no capitalized Witness;
+- no banned clipped generated verdicts;
+- no Pangram;
+- no green locks.
+
+Cadence is materially less ledger-like than R17, but same-model positive judgment cannot certify Human. Joel gives the next decisive visual style judgment.
+
+## Next safe action
+
+Show Joel the complete supervised candidate. If he still sees obvious AI shape, preserve the exact diagnosis and continue within this supervised composition architecture rather than returning to autonomous whole-subsection generation. If the prose no longer looks obviously AI and preservation stays clean, it may become eligible for natural-boundary Pangram localization under the existing coarse-to-fine campaign.
 
 ## Opening assembly issue queued
 
@@ -105,4 +110,4 @@ After this subsection is resolved, return immediately to the earlier assembled-o
 
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 
-Rejected model candidates remain excluded. No new article prose has been inserted.
+Rejected/unaccepted model candidates remain excluded.
