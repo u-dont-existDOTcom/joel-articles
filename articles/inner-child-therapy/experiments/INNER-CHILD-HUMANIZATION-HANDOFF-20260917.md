@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **OWNER-CORRECTED METHOD RECOVERY / R13 REJECTED / STRATEGY-SWITCH RECOMMENDATION SUPERSEDED / NEXT = REUSE EPISODE 007 COARSE-TO-FINE METHOD AT BROAD-SUBSECTION PHASE / OPENING ASSEMBLY GAP QUEUED**
+Status: **OWNER-AUTHORIZED FRESH RETRIEVAL-FIRST EXPERIMENT / EPISODE 007 FULL METHOD CORRECTION RETAINED / R13 REJECTED / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -19,21 +19,24 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
    - `articles/INDEX.json`
 3. Confirm Inner Child Therapy remains unregistered.
 4. Read current writer state:
-   - `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917E.md`
+   - `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917F.md`
 5. Read the corrected full successful-method reconstruction:
    - `articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`
 6. Read the R13 re-audit only as failed-output/method evidence:
    - `articles/inner-child-therapy/experiments/EPISODE-008-R13-OUTPUT-PLAN-METHOD-REAUDIT-20260917.md`
-7. Read queued opening screenshot audit when the current Episode 008 subsection is resolved:
+7. For the authorized isolation experiment, read the supervisor state above. The **fresh writer itself must read only**:
+   - `articles/inner-child-therapy/experiments/EPISODE-008-R14-FRESH-RETRIEVAL-WRITER-PACKET-20260917.md`
+   after any mandatory universal bootstrap.
+8. Read queued opening screenshot audit only after the current Episode 008 subsection is resolved:
    - `articles/inner-child-therapy/experiments/EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md`
-8. For exact Episode 008 source/owner evidence, load only what the current task needs from:
+9. For exact Episode 008 source/owner evidence in the supervisor context, load only what the current task needs from:
    - `EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json`
    - `EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`
    - `EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`
    - R12/R13 only as rejected diagnostic history.
-9. Because this is humanization work, fresh-read `u-dont-existDOTcom/pangram-humanization-lab` according to `SKILL.md`, especially the corrected current method fingerprint and relevant owner-teaching cases.
+10. Because this is humanization work, the supervisor fresh-reads `u-dont-existDOTcom/pangram-humanization-lab` according to `SKILL.md`. Do not contaminate the isolated writer with the full lab corpus beyond the two literal demonstrations already frozen in its packet.
 
-Do not run Pangram on R13. It failed editorial admission before detector testing.
+Do not run Pangram on R13 or on an unadmitted fresh-writer candidate.
 
 ## Authority boundary
 
@@ -74,6 +77,8 @@ Short method name:
 
 The literal `span -> operation -> positive target` table is the late regional/residual submethod, not the whole campaign method.
 
+The owner also corrected a second over-narrow comparison: the broader Episode 007 section was repaired by this method over numerous turns; do not use the final residual alone as the representative success case.
+
 ## R13 disposition
 
 Exact candidate:
@@ -91,41 +96,18 @@ The R13 output diagnosis remains valid:
 
 What is superseded is the claim that R13 failed because its edit scope was too broad compared with a supposedly sparse Episode 007 method.
 
-### Correct producing-method diagnosis
+## Current experiment
 
-- Source/authority: PASS.
-- Preservation: PASS, zero unexplained substantive deltas.
-- Output: FAIL.
-- Admission: FAIL because credible model-shape concerns were still waved through.
-- Plan/generation: FAIL because enumerated preservation functions and prior predictions visibly organized the realization.
-- Strategy: **NOT EXHAUSTED**. The validated Episode 007 method has not been given a faithful new coarse-to-fine campaign on this current subsection.
+The validated Episode 007 campaign remains the default method. Joel nevertheless explicitly authorized trying the fresh-context retrieval-first contingency now to see how it performs.
 
-## Current Episode 008 phase
+Frozen packet:
+`articles/inner-child-therapy/experiments/EPISODE-008-R14-FRESH-RETRIEVAL-WRITER-PACKET-20260917.md`
 
-The outward-looking subsection after `Catch the Hook` has:
-- no Pangram-certified internal Human/high islands;
-- only rejected R12/R13 model candidates;
-- a locked Human/high upstream block;
-- a known downstream handoff into `Write It. Don't Send It Yet.`
+The current supervising conversation is contaminated with R12/R13, prediction prose, and failure analyses. Therefore it must not generate the claimed isolated sample itself and then label it independent.
 
-Therefore this subsection belongs in **Phase A: broad natural-boundary realization**.
+The clean test is a genuinely fresh generation context that has not seen those materials. The easiest manual route is a new ordinary ChatGPT chat **outside the Article Skill Latest Project**, using the connected GitHub app to read only the frozen packet after any mandatory universal bootstrap.
 
-Do not force terminal sentence-level repair yet. Do not switch to a different architecture merely because the first broad candidates failed.
-
-## Next safe action
-
-Reuse the method that worked:
-
-1. freeze the upstream owner-final `Catch the Hook` block;
-2. preserve the current outward-looking source/function ledger as a fidelity check, not generation order;
-3. generate/repair the **whole outward-looking subsection** as one natural boundary, calibrated to the Catch-the-Hook communication standard;
-4. cold-audit the whole subsection;
-5. if editorially admissible, let owner/Pangram evidence localize the internal green/red spans;
-6. freeze reliable Human/high islands;
-7. repair only the remaining red regions;
-8. progressively narrow through region and residual phases just as Episode 007 did.
-
-Fresh-context retrieval-first generation is a contingency only if the faithful coarse-to-fine campaign actually stalls. It is not the current recommended primary route.
+When the candidate returns, the current supervisor can preservation-audit and cold-audit it. If editorially admissible, Joel/Pangram evidence can localize green/red islands and the workflow re-enters progressive locking.
 
 ## Opening assembly issue queued
 
