@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "part1_residual_repair_candidate_not_owner_final_article",
+  "source": {
+    "master": "1f2f25ce4f3f1c696ef5a66fadbf382caeef968e49812a24627102346bc82a59",
+    "part1": "ae48e720cd84eb88da3430a44e240d18bd7731d7ce0a40469e455027c43a7062",
+    "part2": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "485726dc6c5215903050a0d5893805ba48e556974569dbef3dc2cec6ddaa877d",
+      "word_count_whitespace": 19764,
+      "operations": [
+        {
+          "label": "affection-r4-compressed-functions",
+          "old_sha256": "a820e85039170219316b96e084fc58facbc038d955c3235e95d8fbd07ebc468a",
+          "new_sha256": "2ec431c4d6c31157927f07cca624269d80ca00eeef4d6b24a5635ab2698702fe",
+          "old_word_count": 269,
+          "new_word_count": 133
+        },
+        {
+          "label": "casual-sti-attachment-causal",
+          "old_sha256": "1370e37f293370da1a8d37d0a90dc0bb2b932a698569a912ceb24bfff2f6986b",
+          "new_sha256": "0737104108650991eb5267c538e7a5a403cd10b47b4fb1f8281df2bdddc45b53"
+        },
+        {
+          "label": "maturity-patient-remove-aftercare",
+          "old_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685",
+          "new_sha256": "d023dd7337eb671938ac40b4572de6e77f85a9d4b014a0537353419d9cd06061"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "required_missing": [],
+        "deleted_duplicate_casual_tail_absent": true,
+        "passed": true,
+        "r2_required_missing": [],
+        "old_sti_antithesis_absent": true,
+        "old_patient_aftercare_absent": true
+      }
+    },
+    "part1": {
+      "sha256": "9ea0f9b15415292835c1e8eeff32757940fb05b304eeef6e1ac63b95fedbbd3b",
+      "word_count_whitespace": 9910,
+      "operations": [
+        {
+          "label": "affection-r4-compressed-functions",
+          "old_sha256": "9d4e1cada2dd4bca541511b35f9d74ada095530e6bfc33567b8b50914c4ff0a5",
+          "new_sha256": "2a8af491afba83a3b9960569a157bf6e0dd5e9dde1ebaa92e6f60012a8ff0102",
+          "old_word_count": 268,
+          "new_word_count": 132
+        },
+        {
+          "label": "casual-sti-attachment-causal",
+          "old_sha256": "1370e37f293370da1a8d37d0a90dc0bb2b932a698569a912ceb24bfff2f6986b",
+          "new_sha256": "0737104108650991eb5267c538e7a5a403cd10b47b4fb1f8281df2bdddc45b53"
+        },
+        {
+          "label": "maturity-patient-remove-aftercare",
+          "old_sha256": "2fbaf32943d9d8277df93ac08741f5afe65f9b3227975297850faa2c02d97685",
+          "new_sha256": "d023dd7337eb671938ac40b4572de6e77f85a9d4b014a0537353419d9cd06061"
+        }
+      ]
+    },
+    "part2": {
+      "sha256": "20301b1bfb0052de694657411f231f82d9a45ae62ff9c4839015befce5c57dc2",
+      "word_count_whitespace": 9703,
+      "operations": [],
+      "unchanged": true
+    }
+  },
+  "source_aggregate_result": {
+    "part1_sha256": "ae48e720cd84eb88da3430a44e240d18bd7731d7ce0a40469e455027c43a7062",
+    "pangram4_fraction_human": 0.9666589498519897,
+    "residual_ai_segments": 3
+  },
+  "detector_plan": {
+    "part1": "fresh aggregate measurement on exact changed Part1; local residual probes are diagnostic"
+  }
+}

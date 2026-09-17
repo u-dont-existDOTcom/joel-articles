@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r10-part1/candidate-part-1.txt + candidate-part-2.txt",
+    "revision": "preservation-r10 cross-split maturity/patient boundary",
+    "part1_sha256": "4ab1ad34f171bb75d2f93e261757cca469a655b629508eb3b91ab05ebc83c0ef",
+    "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  },
+  "changed_scope": "Romance / When you and your partner are at different levels of maturity — patient-role tail crossing the Part 1/Part 2 split",
+  "mode": "P2S",
+  "edit_dose": "D2 rollback",
+  "preservation_units": [
+    {
+      "unit_id": "PU-PATIENT-01",
+      "source_ref": "role-takes-over paragraph",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "A daddy/little-girl dimension becomes unhealthy when the role takes over and the woman stops remaining responsible for her life and self-reparenting.",
+      "required_context": "maturity section",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "first paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-02",
+      "source_ref": "Mom reversal paragraph",
+      "authority": "preservation-r10 source",
+      "type": "claim",
+      "meaning": "The dependency can reverse if Joel expects a partner to regulate him, soothe wounds, organize life, and keep him functional.",
+      "required_context": "role asymmetry can run either direction",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "second paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-03",
+      "source_ref": "three women / patient attribution",
+      "authority": "preservation-r10 source",
+      "type": "memory",
+      "meaning": "All three reference partners eventually said they felt like Joel's patient, and Joel accepts that their experience had a real basis.",
+      "required_context": "follows role examples",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "All three women eventually told me they felt like my patient, and I could see why.",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-04",
+      "source_ref": "medical mental-health practical problem examples",
+      "authority": "preservation-r10 source",
+      "type": "example",
+      "meaning": "Joel was the person they brought nearly every medical, mental-health, and practical problem to, illustrated by sick/take and sad/do questions.",
+      "required_context": "explains patient feeling",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "I was the person they brought almost every medical, mental-health, and practical problem to + both exact example questions",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-05",
+      "source_ref": "helping versus cold refusal",
+      "authority": "preservation-r10 source",
+      "type": "judgment",
+      "meaning": "Helping was natural; repeatedly disclaiming doctor/therapist status whenever a partner was sick would have been cold, yet repetition created a patient-like pattern.",
+      "required_context": "explains why helping itself was not the problem but accumulation mattered",
+      "allowed_disposition": "may-reword-semantically",
+      "candidate_mapping": "Of course I was going to help... But after enough of those conversations, I understood why they used the word patient.",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-06",
+      "source_ref": "Part 2 Key guru anecdote",
+      "authority": "preservation-r10 source",
+      "type": "example",
+      "meaning": "Key first asked Joel to be her guru, then later reversed the status comparison; Joel refused guru identity and framed mutual learning.",
+      "required_context": "cross-split continuation after patient pattern",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "Part 2 opening paragraph unchanged",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-PATIENT-07",
+      "source_ref": "Joel condescension admission",
+      "authority": "preservation-r10 source",
+      "type": "judgment",
+      "meaning": "Joel admits he can become condescending when someone stops taking responsibility and says both partners must examine their roles when patient dynamics are named.",
+      "required_context": "prevents one-sided blame",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "Part 2 second paragraph unchanged",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-PATIENT-01",
+      "description": "Rollback only the Part-1 patient-role tail from the r10 realization to the exact previously measured semantic-equivalent realization. Do not alter the two preceding dependency-role paragraphs, the direct sick/sad questions, the cross-split Key guru anecdote, the condescension admission, actor attribution, or responsibility judgment."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-PATIENT-01",
+      "classification": "known-good rollback",
+      "description": "Re-realizes the three-women patient attribution and helping/pattern explanation while preserving every proposition, example, actor, and consequence; Part 2 continuation remains byte-identical.",
+      "authority_ref": "CH-PATIENT-01",
+      "status": "authorized"
+    }
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "detector_reuse": {
+    "measurement_key": "romance-detector-repair-20260820-semantic-r9-part1-local-r1-20260821_SEMANTIC_R9_PATIENT_R1",
+    "text_sha256": "7d60bc1c38669848e7e27d313603e4ee8970e34bf3896673160ea6a61c106002",
+    "word_count": 247,
+    "pangram_version": "4.0",
+    "fraction_human": 1.0,
+    "fraction_ai": 0.0,
+    "fraction_ai_assisted": 0.0,
+    "new_paid_call_required": false
+  },
+  "notes": "This exact 247-word cross-split natural section was previously measured 100% Human. It was a local candidate/evidence boundary, not byte-identical content already present in semantic-r9/r10. Materializing it therefore requires this preservation proof; the earlier recovery hold overstated its authority."
+}

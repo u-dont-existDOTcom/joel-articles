@@ -1,0 +1,134 @@
+name: Materialize Romance r20 Casual two deletions
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - '.github/workflows/materialize-romance-r20-casual-two-deletions.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+
+      - name: Apply exact two-deletion Casual edit
+        shell: bash
+        run: |
+          set -euo pipefail
+          SRC='work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-master.md'
+          echo 'b31af3c2f692d44b63e43dbfed99436584228f2ac7b8177045f5a3b751ea1ea8  '"$SRC" | sha256sum -c -
+
+          python - <<'PY'
+          import hashlib, json, re
+          from pathlib import Path
+
+          src_path = Path('work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-master.md')
+          source = src_path.read_text(encoding='utf-8')
+
+          delete1 = 'Oxytocin, vasopressin, and the rest can start attaching you anyway. '
+          delete2 = 'You can both mean it when you say this is only sex and still have one of you get attached afterward. '
+
+          for label, needle in [('delete1', delete1), ('delete2', delete2)]:
+              count = source.count(needle)
+              if count != 1:
+                  raise SystemExit(f'{label} expected exactly once, found {count}')
+
+          text = source.replace(delete1, '', 1).replace(delete2, '', 1)
+
+          must_survive = [
+              'Your body doesn’t know that you picked someone up at a bar and agreed it was only for fun. Then the next morning, you’re wondering why they didn’t call.',
+              'Well, not getting pulled in any further is the best outcome still available, actually, since you just played Russian Roulette with a potential life bond to a stranger.',
+              '“I don’t know whether I want something serious with you. I’m not pretending I do. I’d still like to have sex.”',
+              'That may be candid about what you expect now. It doesn’t settle what either of you will owe if the act creates something neither of you expected.',
+              'This is what penetrative sex can do. No contraception is perfect.',
+              'The STI part is easy: say what you know, or say you don’t know. Feelings aren’t. If you’re both really numb or robotic about sex, maybe not.',
+              'Outside a loving poly community or tribe, I think honest casual sex is almost impossible.',
+              '## Affection and the simmer',
+              '## Can Casual Sex or a Situationship Actually Be Honest?',
+              "It's important to talk about sexual compatibility before getting undressed, even if that kills the vibe.",
+              'Which is true, I really was the one they asked about almost every medical, mental-health, and practical problem:',
+              '[Gandarussa](https://thediplomat.com/2013/09/a-male-contraceptive-pill-for-indonesia/)'
+          ]
+          missing = [x for x in must_survive if x not in text]
+          if missing:
+              raise SystemExit(f'protected anchors missing: {missing}')
+
+          forbidden = [delete1.strip(), delete2.strip()]
+          survived = [x for x in forbidden if x in text]
+          if survived:
+              raise SystemExit(f'authorized deletions survived: {survived}')
+
+          native_count_source = source.count('[NATIVE ')
+          native_count_candidate = text.count('[NATIVE ')
+          if native_count_source != native_count_candidate:
+              raise SystemExit(f'native object count changed: {native_count_source} -> {native_count_candidate}')
+
+          link_re = re.compile(r'\[[^\]]+\]\([^\)]+\)')
+          link_count_source = len(link_re.findall(source))
+          link_count_candidate = len(link_re.findall(text))
+          if link_count_source != link_count_candidate:
+              raise SystemExit(f'markdown link count changed: {link_count_source} -> {link_count_candidate}')
+
+          out_dir = Path('work/romance-detector-repair-20260820/materialized-preservation-r20-casual-two-deletions')
+          out_dir.mkdir(parents=True, exist_ok=True)
+          out = out_dir / 'candidate-master.md'
+          out.write_text(text, encoding='utf-8')
+
+          manifest = {
+              'schema_version': 1,
+              'candidate_id': 'romance-detector-repair-20260820-r20-casual-two-deletions',
+              'base': {
+                  'path': str(src_path),
+                  'sha256': hashlib.sha256(source.encode()).hexdigest(),
+                  'word_count_whitespace': len(source.split()),
+              },
+              'candidate': {
+                  'path': str(out),
+                  'sha256': hashlib.sha256(text.encode()).hexdigest(),
+                  'word_count_whitespace': len(text.split()),
+              },
+              'operations': [
+                  {
+                      'type': 'owner-deleted',
+                      'text': delete1.strip(),
+                      'sha256': hashlib.sha256(delete1.strip().encode()).hexdigest(),
+                      'word_count': len(delete1.split()),
+                  },
+                  {
+                      'type': 'duplicate-function-consolidation',
+                      'text': delete2.strip(),
+                      'sha256': hashlib.sha256(delete2.strip().encode()).hexdigest(),
+                      'word_count': len(delete2.split()),
+                      'surviving_realization': 'casual-agreement setup + next-morning attachment consequence + candid-intention quote',
+                  }
+              ],
+              'native_object_count_source': native_count_source,
+              'native_object_count_candidate': native_count_candidate,
+              'markdown_link_count_source': link_count_source,
+              'markdown_link_count_candidate': link_count_candidate,
+              'unexplained_deltas': 0,
+              'part2_sha256': '9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85',
+              'part2_exact_prior_human': 1.0,
+              'status': 'task candidate only; canonical main unchanged',
+          }
+          (out_dir / 'candidate-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit materialized r20 candidate
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-preservation-r20-casual-two-deletions
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize Romance r20 Casual two-deletion candidate'
+          git push origin HEAD:task/romance-detector-repair-20260820

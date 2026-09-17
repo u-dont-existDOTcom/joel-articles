@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-preservation-r19-owner-final-talk-tail",
+  "base": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r18-owner-talk-dedup/candidate-master.md",
+    "sha256": "e6572535bdb699f7330d7397cd19880a24bb01660507967e472ce1a5b1176d2a",
+    "word_count_whitespace": 20403
+  },
+  "owner_source": {
+    "commit": "27440f8f6641c31a4333b6646aa66d806514844a",
+    "path": "work/romance-detector-repair-20260820/recovery-20260822/OWNER-TALK-FINAL-TAIL-20260822.md",
+    "verbatim_markdown_sha256": "fe24cbb37ae2e460e616e737a2d78a751ae11b29d950c96d5c6527eaf169b1b8",
+    "word_count_whitespace": 219
+  },
+  "candidate": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r19-owner-final-talk/candidate-master.md",
+    "sha256": "b31af3c2f692d44b63e43dbfed99436584228f2ac7b8177045f5a3b751ea1ea8",
+    "word_count_whitespace": 20374
+  },
+  "operations": [
+    {
+      "type": "duplicate-function-consolidation",
+      "deleted_text": "That conversation is already part of making love.",
+      "surviving_owner_function": "psychological trust & intimacy builds the bridge between having sex and making love"
+    },
+    {
+      "type": "owner-supersession",
+      "old_tail_sha256": "d4d2b0903140172aa945deb2bc5ce820114480d5bda9d58c23fb10f3cfb511fa",
+      "old_tail_word_count": 240,
+      "new_tail_sha256": "fe24cbb37ae2e460e616e737a2d78a751ae11b29d950c96d5c6527eaf169b1b8",
+      "new_tail_word_count": 219
+    }
+  ],
+  "native_object_count_source": 11,
+  "native_object_count_candidate": 11,
+  "markdown_link_count_source": 22,
+  "markdown_link_count_candidate": 22,
+  "unexplained_deltas": 0,
+  "status": "task candidate only; canonical main unchanged"
+}

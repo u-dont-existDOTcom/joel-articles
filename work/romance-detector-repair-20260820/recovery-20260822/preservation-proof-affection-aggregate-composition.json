@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-semantic-r9/candidate-part-1.txt",
+    "revision": "semantic-r9 traceability-passed baseline",
+    "sha256": "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9"
+  },
+  "changed_scope": "Romance / Affection and the simmer — aggregate-only composition after local 6/6 cap",
+  "mode": "P2S",
+  "edit_dose": "D3",
+  "preservation_units": [
+    {"unit_id":"PU-AFFECTION-01","source_ref":"r9 Toft no-agenda paragraph","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Touch and affection should sometimes be allowed to end without becoming a request for sex; otherwise affection can feel like a setup/pressure.","required_context":"section opening","allowed_disposition":"may-reword-semantically","candidate_mapping":"first paragraph","status":"preserved"},
+    {"unit_id":"PU-AFFECTION-02","source_ref":"r9 Anami simmer paragraph","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"A separate erotic current can remain alive between sexual encounters, including ordinary expressions of wanting.","required_context":"placed beside no-agenda affection rather than replacing it","allowed_disposition":"may-reword-semantically","candidate_mapping":"second paragraph opening through text/tell-later examples","status":"preserved"},
+    {"unit_id":"PU-AFFECTION-03","source_ref":"r9 homework caveat","authority":"semantic-r9 traceability-passed source","type":"certainty","meaning":"Showing desire between encounters should not become compulsory relationship homework.","required_context":"simmer discussion","allowed_disposition":"may-reword-semantically","candidate_mapping":"Not because couples need another homework assignment.","status":"preserved"},
+    {"unit_id":"PU-AFFECTION-04","source_ref":"r9 both-things-matter judgment","authority":"semantic-r9 traceability-passed source","type":"judgment","meaning":"Joel values both affection that may stop at affection and an erotic current that remains alive.","required_context":"juxtaposition of Toft and Anami","allowed_disposition":"may-reword-semantically","candidate_mapping":"I like putting that next to Kim Anami’s the simmer + first paragraph's no-agenda rule","status":"preserved"},
+    {"unit_id":"PU-AFFECTION-05","source_ref":"r9 missing-flirtation warning + sex barometer","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Barely showing desire is a warning to look beyond bedtime; changes in sex/desire may reflect resentment, stress, illness/health, medication, or feeling unwanted.","required_context":"simmer failure leads into diagnostic possibilities without claiming one deterministic cause","allowed_disposition":"may-reword-semantically","candidate_mapping":"if we supposedly want each other... something is happening; Maybe we're pissed... through Sex is a pretty sensitive barometer","status":"preserved"},
+    {"unit_id":"PU-AFFECTION-06","source_ref":"r9 personal sexual responsibility","authority":"semantic-r9 traceability-passed source","type":"claim","meaning":"Joel cannot put responsibility for his desire entirely on his partner; keeping some sexual life in himself is partly his responsibility.","required_context":"after possible relational/medical causes","allowed_disposition":"may-reword-semantically","candidate_mapping":"And I can’t just say she doesn’t turn me on enough... through partly my responsibility","status":"preserved"},
+    {"unit_id":"PU-AFFECTION-07","source_ref":"r9 intentional time consequence","authority":"semantic-r9 traceability-passed source","type":"judgment","meaning":"If sex is a main difference between romance and friendship, it should not receive only exhausted leftover time.","required_context":"section stopping point","allowed_disposition":"may-reword-semantically","candidate_mapping":"final sentence","status":"preserved"}
+  ],
+  "change_whitelist": [
+    {"change_id":"CH-AFFECTION-01","description":"Compose the already-required Affection functions into a more continuous owner-source realization for aggregate use only; may not delete no-agenda affection, erotic simmer, no-homework caveat, barometer possibilities, self-responsibility, or intentional-time consequence."}
+  ],
+  "candidate_deltas": [
+    {"delta_id":"DELTA-AFFECTION-01","classification":"consolidation","description":"Combines the simmer, warning-light/barometer, self-responsibility and intentional-time functions into one developing second paragraph while retaining every function.","authority_ref":"CH-AFFECTION-01","status":"authorized"},
+    {"delta_id":"DELTA-AFFECTION-02","classification":"authorized-rewording","description":"Rephrases setup/pressure and warning-light language without changing causal uncertainty or scope.","authority_ref":"CH-AFFECTION-01","status":"authorized"}
+  ],
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "Aggregate-only candidate because part1-affection-simmer local budget is hard-capped 6/6. Reader-visible SHA-256 0c55dcdf1b69b3a6639d58542d1802e129474801bbccd64ee23e8075c6e172b3."
+}

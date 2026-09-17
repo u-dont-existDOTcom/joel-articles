@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "status": "candidate_not_owner_final",
+  "source_pass1": {
+    "master": "97fdacfa54492b6ae7e977725532457830585c5401c3383ce96a27aeba38b554",
+    "part1": "51f4823cab86943cfa022c9139f97ed9f871cf4e7a5318ee8212816171f84e00",
+    "part2": "30f61fb0c490ec1275f3c39c834a38a956041865b63e5592c270d51cc22d5498"
+  },
+  "candidate": {
+    "master": {
+      "path": "candidate-master.md",
+      "sha256": "91b2186d1759fb5ff248363572de94354a12dacd5039c014e529efd1e72fb12e",
+      "word_count_whitespace": 20536,
+      "operations": [
+        {
+          "label": "restore-registered-part1-paragraph",
+          "source_occurrences": 1,
+          "old_sha256": "78e9f35f9e0c30208d492b8fc2be40e62f1856fc2e93857a0a132387147e5048",
+          "new_sha256": "ba20e94a4d2b384943b95a93edde267ec295026636e9680be2d8dcbe7d5a1fe8"
+        },
+        {
+          "label": "restore-one-dimensionalizing",
+          "source_occurrences": 1,
+          "old_sha256": "0d97e7e80fd4116d7cfe32256fb2f472dc324c0ac6ff901f2a6536d0339f4a84",
+          "new_sha256": "1c874f152bb7497f7f37ebebb0f17b5cdaa51dc2ce9abcaec256faa7354bed50"
+        },
+        {
+          "label": "remove-after-leaving-interpretive-aftercare",
+          "source_occurrences": 1,
+          "old_sha256": "3af9e35619cd2bf081e344ac028e2c14476585da1f9b242d7269e32da27b8bdb",
+          "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "protected_anchors_missing": [],
+        "passed": true
+      }
+    },
+    "part1": {
+      "path": "candidate-part-1.txt",
+      "sha256": "ae88df0f4156537239cb984337196703b88629c3588a5e58ee50c0888d3b39f8",
+      "word_count_whitespace": 10236,
+      "operations": [
+        {
+          "label": "restore-registered-part1-paragraph",
+          "source_occurrences": 1,
+          "old_sha256": "78e9f35f9e0c30208d492b8fc2be40e62f1856fc2e93857a0a132387147e5048",
+          "new_sha256": "ba20e94a4d2b384943b95a93edde267ec295026636e9680be2d8dcbe7d5a1fe8"
+        }
+      ],
+      "reuses_registered_detector_result": true
+    },
+    "part2": {
+      "path": "candidate-part-2.txt",
+      "sha256": "679daa77fb92ea71bb85716e6ece671e093b49412b149e2f5129079a204d24d2",
+      "word_count_whitespace": 10149,
+      "operations": [
+        {
+          "label": "restore-one-dimensionalizing",
+          "source_occurrences": 1,
+          "old_sha256": "0d97e7e80fd4116d7cfe32256fb2f472dc324c0ac6ff901f2a6536d0339f4a84",
+          "new_sha256": "1c874f152bb7497f7f37ebebb0f17b5cdaa51dc2ce9abcaec256faa7354bed50"
+        },
+        {
+          "label": "remove-after-leaving-interpretive-aftercare",
+          "source_occurrences": 1,
+          "old_sha256": "3af9e35619cd2bf081e344ac028e2c14476585da1f9b242d7269e32da27b8bdb",
+          "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  },
+  "detector_plan": {
+    "part1": "no_new_call_exact_registered_hash_restored",
+    "part2": "one_new_pangram4_measurement_only"
+  }
+}

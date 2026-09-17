@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "status": "preservation_r10_part2_candidate_not_owner_final_article",
+  "source": {
+    "master": "6c094f6a011783fce65455143c27b03d14d33b64d7d4f4b3cf530b0e73045a53",
+    "part1": "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9",
+    "part2": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85"
+  },
+  "candidate": {
+    "master": {
+      "sha256": "6b9ca16b4b698d9c950cf422c2452dfee27eebf2e82e957c2586f78e03c6eb45",
+      "word_count_whitespace": 20486,
+      "operations": [
+        {
+          "label": "not-a-performance-final-preservation-proofed",
+          "old_sha256": "74326bc5a0d591fcdfd943628dc1f679ebdfcc4801fcd22c7786d43143da9745",
+          "new_sha256": "57a1a3f7d28f3f8124f9af537e494f09b1680c5c87ae432908a0672dcde86f64",
+          "old_word_count": 376,
+          "new_word_count": 360
+        }
+      ],
+      "invariant_audit": {
+        "headings_identical": true,
+        "native_markers_identical": true,
+        "markdown_link_destinations_identical": true,
+        "required_missing": [],
+        "protected_anchors_missing": [],
+        "protected_exact_exemptions": [
+          "coercion-exits-mutual-crucible"
+        ],
+        "final_primal_reader_visible_sha256": "fd83bf90ac1f6a0c122753cd9a9a7df34fd1717456d63be868b7c04debbc5dab",
+        "final_primal_local_human": 0.8848329186439514,
+        "local_section_cap_reached": true,
+        "passed": true
+      }
+    },
+    "part1": {
+      "sha256": "35dea0c3fc5e1723a3d8d1f0c8192447525758dfb953910e1e0d353ae3dcf4d9",
+      "word_count_whitespace": 10459,
+      "operations": [],
+      "unchanged": true
+    },
+    "part2": {
+      "sha256": "7a9c95f7c4ce6600a4918455e3164f5bcb9720b4f9fd5c63e304670bca981bc2",
+      "word_count_whitespace": 9876,
+      "operations": [
+        {
+          "label": "not-a-performance-final-preservation-proofed",
+          "old_sha256": "d5e8f0f04ccb38f04688c8a208963360d694a4b37719412d54175a8ba2a66509",
+          "new_sha256": "ecf072c08899b73db585264fc1d2b7f62052e82e03fe33f8ebad0de58a1ab2a1",
+          "old_word_count": 375,
+          "new_word_count": 359
+        }
+      ]
+    }
+  },
+  "preservation_proof": {
+    "receipt": "work/romance-detector-repair-20260820/recovery-20260822/preservation-proof-not-a-performance-final-call6.json",
+    "unexplained_deltas": 0,
+    "local_section_calls": "6/6 hard cap reached; no more local Primal calls",
+    "crucible": "unchanged from semantic r9; current safety function is checked semantically rather than against the stale generic literal",
+    "aggregate_reason": "Part 2 is an aggregate certification boundary and the semantic-r9 Part 2 baseline was 99.141675% Human; this exact local repair improved the natural Primal section from 11.885% to 88.483% Human while preserving all restored functions."
+  },
+  "detector_plan": {
+    "part2": "fresh exact aggregate Pangram 4 measurement; no seventh local Primal call"
+  }
+}

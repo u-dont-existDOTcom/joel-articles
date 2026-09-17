@@ -1,0 +1,56 @@
+name: Materialize Romance owner-integrated residual r1
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - 'work/romance-detector-repair-20260820/apply_owner_integrated_r1.py'
+      - '.github/workflows/materialize-romance-owner-integrated-r1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out task branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+
+      - name: Materialize exact residual candidate
+        run: |
+          rm -rf work/romance-detector-repair-20260820/materialized-owner-integrated-r1
+          python work/romance-detector-repair-20260820/apply_owner_integrated_r1.py \
+            --source-master work/romance-detector-repair-20260820/materialized-owner-integrated/candidate-master.md \
+            --source-part1 work/romance-detector-repair-20260820/materialized-owner-integrated/candidate-part-1.txt \
+            --source-part2 work/romance-detector-repair-20260820/materialized-owner-integrated/candidate-part-2.txt \
+            --output-dir work/romance-detector-repair-20260820/materialized-owner-integrated-r1
+
+      - name: Run repository regression and authority gates
+        run: |
+          python -m unittest discover -s tests
+          python scripts/validate_content_repository.py --root .
+          python scripts/validate_article_architecture_maps.py --root .
+          python scripts/audit_codex_github.py --root . --fail-on error
+          git diff --check
+
+      - name: Commit generated candidate only if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-owner-integrated-r1
+          if git diff --cached --quiet; then
+            echo 'No materialized changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Materialize Romance owner-integrated residual r1'
+          git push origin HEAD:task/romance-detector-repair-20260820

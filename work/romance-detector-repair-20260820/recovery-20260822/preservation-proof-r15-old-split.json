@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r14-affection-maturity-split/candidate-master.md",
+    "revision": "task/romance-detector-repair-20260820@665863b17e9ca92c3fe8ae752fb827e185d5c6eb",
+    "sha256": "fafdc70e9f9a3554e1fb46bd7d4e011db77379f1993629f7885e90ac9c9c1cf2"
+  },
+  "changed_scope": "Romance aggregate detector boundary only: r14 split before complete Maturity section -> prior preservation-r12 split immediately before Key/guru continuation",
+  "mode": "detector aggregate boundary relocation",
+  "edit_dose": "D0 article prose / boundary-only",
+  "preservation_units": [
+    {
+      "unit_id": "PU-R15-ARTICLE-01",
+      "source_ref": "r14 full reader-visible article",
+      "authority": "preservation-r14 candidate with canonical-main Affection rollback and passed invariant audit",
+      "type": "object",
+      "meaning": "Every reader-visible article byte, heading, link destination, native object, protected owner anchor, actor, claim, example, and section order remains exactly the r14 article; r15 changes only where the detector half is cut.",
+      "required_context": "whole reader-visible article",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "r15 Part 1 + exact old Part 2 reassemble SHA-256 6db337289008c2d150a312f17794ef6c19469a74a773c767a452b5c0460132e1, identical to r14 full reader-visible article",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R15-AFFECTION-01",
+      "source_ref": "r14 / Affection and the simmer",
+      "authority": "registered-main higher-authority rollback proven in preservation-proof-r14-affection-maturity-split.json",
+      "type": "function",
+      "meaning": "The exact registered-main Affection realization and its separate Toft, simmer, both-needs, barometer, self-responsibility, and protected-time jobs remain unchanged.",
+      "required_context": "Part 1 before Casual",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "byte-identical Affection section inside r15 Part 1",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R15-SPLIT-01",
+      "source_ref": "aggregate split metadata only",
+      "authority": "detector localization evidence + exact prior Part-2 Pangram result",
+      "type": "context",
+      "meaning": "The detector boundary may move without changing article prose. r14's move before the complete Maturity section caused the formerly exact-Human downstream stream to classify at 95.65388560295105% Human with four AI windows; restoring the prior boundary yields an exact byte-for-byte Part 2 with existing Pangram 4.0 100% Human evidence.",
+      "required_context": "detector submission segmentation only",
+      "allowed_disposition": "may-move:previous preservation-r12 detector boundary immediately before Key/guru continuation",
+      "candidate_mapping": "r15 Part 1 SHA-256 ba2bb4d66c541732e03a181f31eb5419c8301c870330bd4bcd946626c8161fcf; r15 Part 2 SHA-256 9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+      "status": "moved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-R15-01",
+      "description": "Move only the aggregate Pangram split from r14's pre-Maturity location back to the prior preservation-r12 location immediately before the Key/guru continuation. Do not change, add, delete, reorder, paraphrase, reattribute, or reformat any reader-visible article prose or object."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-R15-01",
+      "classification": "movement",
+      "description": "Aggregate detector boundary returns to the previous split; article prose remains byte-identical to r14.",
+      "authority_ref": "CH-R15-01",
+      "status": "authorized"
+    }
+  ],
+  "candidate_identity": {
+    "master_sha256": "fafdc70e9f9a3554e1fb46bd7d4e011db77379f1993629f7885e90ac9c9c1cf2",
+    "full_reader_visible_sha256": "6db337289008c2d150a312f17794ef6c19469a74a773c767a452b5c0460132e1",
+    "part1_sha256": "ba2bb4d66c541732e03a181f31eb5419c8301c870330bd4bcd946626c8161fcf",
+    "part1_word_count": 10340,
+    "part2_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "part2_word_count": 9892
+  },
+  "detector_evidence": {
+    "r14_part2": {
+      "text_sha256": "c20e97cd3b168b4c9c7f5688a8e5c8f0a6d7fc558b875bc0ce02538c3579c515",
+      "fraction_human": 0.9565388560295105,
+      "fraction_ai": 0.04346117004752159,
+      "fraction_ai_assisted": 0.0,
+      "num_ai_segments": 4
+    },
+    "r15_part2_reused": {
+      "text_sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "new_paid_call_required": false
+    }
+  },
+  "unexplained_deltas": [],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "owner_provenance_separation": "pass",
+  "architecture_dependency_gate": "pass",
+  "detector_eligibility": "eligible",
+  "notes": "r15 is a detector-boundary experiment only. It neither promotes r14 to canonical authority nor changes the article. The exact r15 split was independently reconstructed from pinned r14 halves and the known old Part-2 suffix and hash-verified to reassemble the exact r14 full reader-visible SHA."
+}

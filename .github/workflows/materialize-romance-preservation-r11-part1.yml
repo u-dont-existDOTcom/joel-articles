@@ -1,0 +1,58 @@
+name: Materialize Romance preservation r11 Part 1
+
+on:
+  push:
+    branches:
+      - task/romance-detector-repair-20260820
+    paths:
+      - 'work/romance-detector-repair-20260820/apply_preservation_r11_part1.py'
+      - 'tests/test_romance_preservation_r11_part1.py'
+      - '.github/workflows/materialize-romance-preservation-r11-part1.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: romance-preservation-r11-materialize
+  cancel-in-progress: false
+
+# Retried after the task branch advanced while the first deterministic run was in flight.
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out Romance detector task branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2 — repository-proven pin
+        with:
+          ref: task/romance-detector-repair-20260820
+          fetch-depth: 0
+
+      - name: Run focused r11 materializer regression
+        run: python -m unittest tests.test_romance_preservation_r11_part1 -q
+
+      - name: Materialize exact r11 Part 1 candidate
+        run: |
+          rm -rf work/romance-detector-repair-20260820/materialized-preservation-r11-part1
+          python work/romance-detector-repair-20260820/apply_preservation_r11_part1.py \
+            --source-master work/romance-detector-repair-20260820/materialized-preservation-r10-part1/candidate-master.md \
+            --source-part1 work/romance-detector-repair-20260820/materialized-preservation-r10-part1/candidate-part-1.txt \
+            --source-part2 work/romance-detector-repair-20260820/materialized-preservation-r10-part1/candidate-part-2.txt \
+            --output-dir work/romance-detector-repair-20260820/materialized-preservation-r11-part1
+
+      - name: Run repository integrity gates
+        run: |
+          python -m unittest discover -s tests
+          python scripts/validate_content_repository.py --root .
+          python scripts/validate_article_architecture_maps.py --root .
+          python scripts/audit_codex_github.py --root . --fail-on error
+          git diff --check
+
+      - name: Commit generated r11 candidate
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/romance-detector-repair-20260820/materialized-preservation-r11-part1
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize Romance preservation r11 Part 1'
+          git push origin HEAD:task/romance-detector-repair-20260820

@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-preservation-r17-owner-talk",
+  "mode": "D2 direct-owner local replacement inside aggregate-certified Part 1",
+  "edit_dose": "D2 minimum-dose owner supersession",
+  "authority": {
+    "canonical_registered_master": {
+      "path": "articles/romance/master.md",
+      "ref": "main",
+      "sha256": "af50b7b93662daf00d484ad83faa0453ff0a2a4fda2867ecfd467166b4c984fe"
+    },
+    "task_source_part1": {
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "automation/pangram-fixed-batch",
+      "path": "state/candidates/romance-detector-repair-20260820-preservation-r16-canonical-casual-part1.txt",
+      "sha256": "055cf2f8bde035da3f97db5c7753391446b77c7159655c1431210a0233815dc0",
+      "word_count_whitespace": 10324
+    },
+    "direct_owner_source": {
+      "path": "work/romance-detector-repair-20260820/recovery-20260822/OWNER-TALK-SEXUAL-COMPATIBILITY-20260822.md",
+      "commit": "1f5669ec61f5453f91f844c4d86ac966cb73e8ec",
+      "git_blob_sha": "1d287171edbd7cc3e6f6ab8917aa65022362d9ec",
+      "verbatim_paragraph_sha256": "68716bc63f5a0b84945cb33cf12595ee9fcacbd48cad05e607e862e62d925ff0",
+      "word_count_whitespace": 138
+    },
+    "candidate_part1": {
+      "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+      "ref": "automation/pangram-fixed-batch",
+      "path": "state/candidates/romance-detector-repair-20260820-preservation-r17-owner-talk-part1.txt",
+      "git_blob_sha": "4fa36d5636facee4cf1cbabf63cd123de4836aa9",
+      "sha256": "0e32a7c1482f5a1e6c4fe5aaba492743bc5cc0d96e860518fb8c4a62c379ca08",
+      "word_count_whitespace": 10400
+    },
+    "stable_part2": {
+      "sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+      "word_count_whitespace": 9892,
+      "pangram_4_fraction_human": 1.0,
+      "reuse_without_rerun": true
+    }
+  },
+  "changed_scope": "Talk about making love before you do it — libido mismatch / sexual compatibility paragraph only",
+  "dependency_context": {
+    "preceding_job": "Partners discuss what sex means to each of them; the supplied owner paragraph then grounds sexual compatibility in concrete consequences.",
+    "following_job": "The unchanged naked-honesty and bodies-fitting paragraphs test whether openness survives exposure and preserve the trust/willingness-to-be-seen function.",
+    "section_close": "The unchanged early-sex-slowing / inability-to-talk red-flag consequence remains the stopping point."
+  },
+  "preservation_units": [
+    {
+      "unit_id": "PU-R17-TALK-01",
+      "authority": "registered/task preserved",
+      "type": "claim",
+      "meaning": "Making love is bodily connection between people who care deeply and feel connected; sex is the physical act and can sometimes create connection.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged Talk opening definition paragraphs",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-02",
+      "authority": "direct owner correction + registered dependency",
+      "type": "attribution/function",
+      "meaning": "The readiness/co-parenting question is Joel's later interpretation of his father's advice, not the father's remembered wording; it opens life/child/sex-meaning questions.",
+      "allowed_disposition": "must-remain-here",
+      "candidate_mapping": "unchanged paragraph beginning What I eventually took from my dad's advice",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-03",
+      "authority": "registered/task preserved",
+      "type": "function",
+      "meaning": "Sexual discussion should happen before nudity because truth can interrupt passion or disappoint someone once sex has begun.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged paragraph beginning Most couples don’t talk honestly about sex",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-04",
+      "authority": "registered/task preserved",
+      "type": "claim",
+      "meaning": "Partners discuss bodily openness, kink, history-shaped wants/avoidance, what does not work, and can honestly admit not knowing yet.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged What do you actually want + I don’t know paragraphs",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-05",
+      "authority": "registered/task preserved",
+      "type": "claim",
+      "meaning": "Sex can mean bonding, play, sacred practice, stress relief, or different things at different times.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged paragraph beginning And what is sex for each of you?",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-06",
+      "authority": "direct owner wording 2026-08-22",
+      "type": "claim/function",
+      "meaning": "Sexual compatibility, including libido mismatch, should be discussed before undressing even if that hurts the mood; compatibility can change, so communication must remain open beyond an initial interview.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "verbatim owner paragraph SHA 68716bc63f5a0b84945cb33cf12595ee9fcacbd48cad05e607e862e62d925ff0",
+      "status": "owner-superseded-old-realization"
+    },
+    {
+      "unit_id": "PU-R17-TALK-07",
+      "authority": "direct owner memory/report 2026-08-22",
+      "type": "example/provenance",
+      "meaning": "Joel remembers a Christian magazine letter from a newlywed woman who saved herself for marriage and then learned her husband had little sexual interest; in Joel's remembered account she felt trapped by religious resistance to divorce, while he explicitly notes it did not have to be nefarious.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "sentences 2–4 of verbatim owner paragraph",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-08",
+      "authority": "direct owner lived example 2026-08-22",
+      "type": "example/chronology",
+      "meaning": "About 15 years ago Joel had a relationship with E. in which she wanted sex about weekly while his libido was extremely high; the mismatch drove him nuts and she was not interested in trying an herb to increase desire.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "sentences 5–7 of verbatim owner paragraph",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-09",
+      "authority": "registered/task preserved",
+      "type": "function",
+      "meaning": "Partners must be able to say uncomfortable things once naked even when disappointment is possible; otherwise sex is being asked to resolve what they avoided saying.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged paragraph beginning And can you actually say all that once you're naked?",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-10",
+      "authority": "registered/task preserved",
+      "type": "function",
+      "meaning": "Physical fit is insufficient; talking before clothes come off practices trust, attention, honesty under exposure, and willingness to be seen.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged Bodies fitting is not enough paragraph",
+      "status": "preserved"
+    },
+    {
+      "unit_id": "PU-R17-TALK-11",
+      "authority": "direct owner correction preserved from task lineage",
+      "type": "function",
+      "meaning": "The conversation naturally slows sex from happening too soon, and inability to have it is a red flag for relationship success.",
+      "allowed_disposition": "must-remain-exact",
+      "candidate_mapping": "unchanged final Talk paragraph",
+      "status": "preserved"
+    }
+  ],
+  "change_whitelist": [
+    {
+      "change_id": "CH-R17-01",
+      "description": "Replace exactly the prior 62-word abstract libido-mismatch paragraph with Joel's exact 138-word 2026-08-22 owner paragraph. No assistant rephrasing, connective prose, deletion, movement, or changes to neighboring Talk functions are authorized."
+    }
+  ],
+  "candidate_deltas": [
+    {
+      "delta_id": "DELTA-R17-01",
+      "classification": "owner-supersession",
+      "description": "Delete prior task realization of the libido-mismatch sub-thought.",
+      "old_sha256": "ba20e94a4d2b384943b95a93edde267ec295026636e9680be2d8dcbe7d5a1fe8",
+      "authority_ref": "CH-R17-01",
+      "status": "authorized"
+    },
+    {
+      "delta_id": "DELTA-R17-02",
+      "classification": "direct-owner-addition",
+      "description": "Insert Joel's verbatim sexual-compatibility paragraph, including remembered Christian-magazine example, E. lived example, and ongoing-communication conclusion.",
+      "new_sha256": "68716bc63f5a0b84945cb33cf12595ee9fcacbd48cad05e607e862e62d925ff0",
+      "authority_ref": "CH-R17-01",
+      "status": "authorized"
+    }
+  ],
+  "forward_traceability": "pass",
+  "reverse_traceability": "pass",
+  "unexplained_deltas": [],
+  "owner_provenance_separation": "pass",
+  "owner_locks": "pass",
+  "architecture_regression": {
+    "status": "pass",
+    "heading_promise": "The new owner paragraph directly advances the Talk-before-sex heading by showing a concrete compatibility failure and why upfront discussion matters.",
+    "paragraph_jobs": "The new paragraph replaces an abstract mismatch explanation with lived/remembered evidence plus the time-variation consequence; neighboring naked-honesty and trust paragraphs keep distinct jobs.",
+    "live_question": "After defining possible meanings of sex, the reader naturally asks whether the pair are sexually compatible in practice; the owner paragraph answers with consequences, then the unchanged prose asks whether honesty survives nudity.",
+    "duplication": "The opening Talk-before-naked paragraph states timing; the new paragraph supplies compatibility stakes and lived evidence. The recurrence is functional rather than recap duplication.",
+    "stopping_point": "unchanged early-sex/red-flag paragraph remains the section close.",
+    "article_architecture": "Talk-before-sex remains inside the registered sex/honesty/affection/casual-responsibility architecture; no section order, native object, link, or dependency changes."
+  },
+  "detector_eligibility": "eligible",
+  "detector_plan": "Measure only exact r17 aggregate Part 1 SHA 0e32a7c1482f5a1e6c4fe5aaba492743bc5cc0d96e860518fb8c4a62c379ca08. Reuse exact Part 2 SHA 9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85 at prior 100% Human. No seventh local Talk call."
+}

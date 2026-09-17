@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "candidate_id": "romance-detector-repair-20260820-preservation-r17-owner-talk",
+  "base": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r14-affection-maturity-split/candidate-master.md",
+    "sha256": "fafdc70e9f9a3554e1fb46bd7d4e011db77379f1993629f7885e90ac9c9c1cf2"
+  },
+  "candidate": {
+    "path": "work/romance-detector-repair-20260820/materialized-preservation-r17-owner-talk/candidate-master.md",
+    "sha256": "7f3353498c31d6ee235d1b653d6fccfc41d7e4f3aed93684e238b96e622359c3",
+    "word_count_whitespace": 20443
+  },
+  "pangram_part1": {
+    "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "ref": "automation/pangram-fixed-batch",
+    "sha256": "0e32a7c1482f5a1e6c4fe5aaba492743bc5cc0d96e860518fb8c4a62c379ca08",
+    "word_count_whitespace": 10400
+  },
+  "stable_part2": {
+    "sha256": "9e4c6a522c95741c7dfc9e040b2dcc40773427cbc0aef8f45211de77208b0c85",
+    "pangram_4_fraction_human": 1.0
+  },
+  "operations": [
+    {
+      "id": "r16-canonical-casual-paper-promise",
+      "old_sha256": "3cb2da0a1db89a4e04443b5bec33fd7a14031a586f7fc22387c7c2a15d923566",
+      "new_sha256": "d03f18fbe297e6436040100197cee4b50f1c2955830356f88b161edc4e2e2d9e",
+      "authority": "registered main"
+    },
+    {
+      "id": "r16-canonical-casual-four-girlfriends",
+      "old_sha256": "8f0ec5a832046c70f17f2203b9360353b9e80e8edd73df226ed89e55089b7cc9",
+      "new_sha256": "9f7b5685541aa8ff1c97068aa3d9c9f2edd90d39d3702417e0e1a613ae9463ae",
+      "authority": "registered main"
+    },
+    {
+      "id": "r17-owner-talk-libido-mismatch",
+      "old_sha256": "ba20e94a4d2b384943b95a93edde267ec295026636e9680be2d8dcbe7d5a1fe8",
+      "new_sha256": "68716bc63f5a0b84945cb33cf12595ee9fcacbd48cad05e607e862e62d925ff0",
+      "authority": "direct owner 2026-08-22"
+    }
+  ],
+  "native_object_count_unchanged": true,
+  "markdown_link_count_unchanged": true,
+  "unexplained_deltas": 0,
+  "status": "task candidate only; canonical main unchanged"
+}
