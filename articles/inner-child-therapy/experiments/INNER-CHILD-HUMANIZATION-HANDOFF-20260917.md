@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **R16 FRESH OUTPUT = OBVIOUS AI-SHAPED MODEL WRAPPER / OWNER PARAGRAPH EXACT / PRESERVATION FAIL: 1 DELTA / NO PANGRAM / NEXT = RICHER CALIBRATION OR DIFFERENT GENERATOR ARCHITECTURE / OPENING ASSEMBLY GAP QUEUED**
+Status: **R16 CLEAR FRESH-WRITER FAIL / R17 RICH-CALIBRATION PACKET FROZEN / NEXT = ONE GENUINELY FRESH R17 RUN / NO PANGRAM / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -12,84 +12,65 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
 1. Fresh-read `u-dont-existDOTcom/universal-dev-architecture` default-branch `AGENTS.md` on the current turn.
 2. Fresh-read in `u-dont-existDOTcom/joel-articles`: `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
-4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917O.md`.
+4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917P.md`.
 5. Read the successful-method reconstruction: `articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`.
-6. Read current R16 evidence:
+6. Read current owner correction and preservation supplement:
    - `EPISODE-008-R16-OWNER-REAUTHORING-20260917.md`
    - `EPISODE-008-R16-PRESERVATION-SUPPLEMENT-20260917.md`
-   - `EPISODE-008-R16-CONTEXTUAL-HUMANNESS-CALIBRATION-AUDIT-20260917.md`
-   - `EPISODE-008-R16-FRESH-CANDIDATE-RETURNED-20260917.md`
-   - `EPISODE-008-R16-FRESH-CANDIDATE-PRESERVATION-AUDIT-20260917.md`
-   - `EPISODE-008-R16-SUPERVISOR-HUMANNESS-AUDIT-20260917.md`
-7. `EPISODE-008-R16-FRESH-WRITER-PACKET-20260917.md` is diagnostic history / insufficient positive calibration for a decisive durability test; do not rerun it unchanged and call that decisive.
-8. R12/R13/R14/R15B and R15 prediction prose are rejected diagnostic history only unless specifically needed.
-9. For exact original Episode 008 source evidence, load only what the supervisor task needs from `EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json`, `EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`, and `EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`.
-10. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` lessons/generation protocol according to `SKILL.md`, including positive-humanness forecast calibration and retrieval-first owner-teaching materials.
-11. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
+7. Read R17 strategy and packet:
+   - `EPISODE-008-R17-STRATEGY-DECISION-20260917.md`
+   - `EPISODE-008-R17-RICH-CALIBRATION-FRESH-WRITER-PACKET-20260917.md`
+8. R12–R16 model candidates and R15 prediction prose are rejected diagnostic history only unless a later audit specifically needs them.
+9. Because this is humanization work, fresh-read the current relevant `u-dont-existDOTcom/pangram-humanization-lab` materials according to `SKILL.md`, including:
+   - `state/generation/POSITIVE-CALIBRATION-ENTRYPOINT-20260917.md`
+   - `state/generation/POSITIVE-HUMANNESS-FORECAST-CALIBRATION-20260917.md`
+   - `state/generation/RETRIEVAL-FIRST-OWNER-TEACHING-PROTOCOL.md`
+   - the pinned positive-calibration writer bundle at commit `ef62a22df58565575b3cc25419fe13fa0b5f0509` as needed.
+10. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
 
 ## Authority boundary
 
-Inner Child Therapy remains unregistered/non-authoritative. Owner-final Human/high blocks remain local prose authority and must not be split, normalized, or rewritten without explicit owner authority.
+Inner Child Therapy remains unregistered/non-authoritative. Owner-final Human/high blocks remain local prose authority and must not be split, normalized, or rewritten without explicit Joel authority.
 
 Joel's relational-capacity paragraph remains exact owner-authored local prose authority for this subsection. Keep it byte-for-byte.
 
 Exact SHA-256, no terminal newline:
 `c82fdae1e45899654476fd85a60fb38ed48337ef56aa810726530fa9cbe49635`
 
-## Method boundary
+## R16 disposition
 
-Episode 007's validated controller remains **coarse-to-fine iterative convergence with progressive locking**, externally supervised by Joel/Pangram rather than autonomous same-model self-certification.
+R16 fresh generation clearly failed. The model wrapper remained obviously AI-shaped and introduced one substantive guilt error. No model-written R16 span is green or likely-green. Do not Pangram R16 and do not rerun its two-demo packet unchanged.
 
-Same-model cold audit may block credible AI-shaped prose. It may not positively certify model prose as Human enough to freeze. Owner/Pangram or genuinely independent evidence establishes green islands.
+## R17 evidence/strategy
 
-The portable-writer interface still has a contextual-calibration gap: the successful live apprenticeship accumulated much more literal owner/detector teaching than the current small fresh-writer packets activate.
+The Pangram Humanization Lab has now recovered a materially richer, source-verified positive calibration bundle. The active entry point is:
 
-## R16 returned output
+`u-dont-existDOTcom/pangram-humanization-lab/state/generation/POSITIVE-CALIBRATION-ENTRYPOINT-20260917.md`
 
-Exact candidate:
-`articles/inner-child-therapy/experiments/EPISODE-008-R16-FRESH-CANDIDATE-RETURNED-20260917.md`
+The writer-facing bundle contains three substantial literal transformations plus the complete Catch-the-Hook benchmark, and broad-section calibration includes the complete successful `My Journey` model revision that Joel reported 100% Human/high.
 
-Exact SHA-256, no terminal newline:
-`3dfe7ab09b8b4ff7a5f5fb04eec53a3e67ad6c6cc0b432b2f5d1eac79f0a480d`
+Frozen strategy comparison:
+`articles/inner-child-therapy/experiments/EPISODE-008-R17-STRATEGY-DECISION-20260917.md`
 
-The required owner paragraph appears exactly once and byte-for-byte unchanged.
+Decision: run **one** genuinely fresh R17 attempt with the richer literal apprenticeship because this directly tests the contextual-calibration hypothesis. If R17 is still obviously AI-shaped, do not answer with more rules or another similar packet; switch to owner-led/manual composition or another materially different generator architecture.
 
-## Preservation result
+## R17 fresh-writer packet
 
-Preservation: **FAIL with 1 unexplained substantive delta**.
+`articles/inner-child-therapy/experiments/EPISODE-008-R17-RICH-CALIBRATION-FRESH-WRITER-PACKET-20260917.md`
 
-Problem:
-`Guilt can tell you that you hurt somebody.`
+After the universal bootstrap, the fresh writer should read only this packet and return only the requested subsection.
 
-Current source/owner preservation requires that guilt alone does not prove wrongdoing and does not prove manipulation. The candidate wording materially strengthens guilt into something that can establish harm.
+The packet excludes the failed R12–R16 prose and saturated critic rationale. It includes exact destination context, Joel's locked paragraph, active meaning, and richer literal positive calibration.
 
-## Humanness result
+## Evaluation after R17 returns
 
-Supervisor negative audit:
-`EPISODE-008-R16-SUPERVISOR-HUMANNESS-AUDIT-20260917.md`
-
-The model-written wrapper is not borderline; it remains plainly AI-shaped.
-
-Visible failures include:
-- self-help lesson heading;
-- balanced qualification package in paragraph 1;
-- polished `Gibson can be useful here...` significance bridge;
-- stock `much messier version` pivot into a balanced guilt/repair module;
-- permission/slogan closure (`You don't necessarily have to... You can say no. You can stop...`).
-
-Joel's exact paragraph is qualitatively different and remains untouched owner authority.
-
-No model-written R16 span is green or likely-green. Do not Pangram this candidate.
-
-## Immediate next action
-
-Obtain Joel's external confirmation/correction on the exact R16 output. If Joel agrees the wrapper is obviously AI-shaped, preserve that as owner evidence.
-
-Then do **not** rerun the same two-demo packet or merely add another prohibition. Before another whole-subsection generation, compare materially stronger approaches:
-1. recover a richer literal calibration bundle from the successful live apprenticeship and closely matched owner/model transformations; and/or
-2. use a structurally different generator/evaluator architecture that does not rely on the writer's own positive notion of `human-sounding` prose.
-
-Keep Joel's exact owner paragraph fixed. Repair the guilt preservation error only inside a successor candidate after the next generation strategy is chosen.
+1. Verify Joel's paragraph byte-for-byte.
+2. Run preservation proof and reject unexplained substantive deltas.
+3. Same-model negative audit may block obvious AI-shaped prose; it does not positively certify green islands.
+4. Joel supplies the first decisive style label.
+5. Do not Pangram while obvious AI shape remains.
+6. If Joel no longer sees obvious AI and preservation is clean, use Pangram on the integrated natural boundary for actual localization, then resume Episode 007-style progressive locking.
+7. If R17 clearly fails, switch architecture rather than making an R18 variation of the same writer interface.
 
 ## Opening assembly issue queued
 
@@ -99,4 +80,4 @@ After this subsection is resolved, return immediately to the earlier assembled-o
 
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 
-The R16 returned candidate is not inserted.
+Rejected model candidates remain excluded. R17 has not yet generated article prose.
