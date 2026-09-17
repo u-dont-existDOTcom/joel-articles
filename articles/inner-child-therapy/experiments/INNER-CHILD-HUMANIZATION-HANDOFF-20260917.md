@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **POST-R17 EXAMPLE-FIRST SUPERVISED CANDIDATE READY / PRESERVATION PASS / OWNER STYLE JUDGMENT NEXT / NO PANGRAM / OPENING ASSEMBLY GAP QUEUED**
+Status: **EXAMPLE-FIRST ASSEMBLED CANDIDATE REJECTED BEFORE PANGRAM / PRESERVATION FAIL 1 DELTA / SERIAL UNIT ADMISSION NOT DURABLY DEMONSTRATED / NEXT = UNIT A ONLY / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -17,18 +17,20 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
 6. Read current owner correction and preservation supplement:
    - `EPISODE-008-R16-OWNER-REAUTHORING-20260917.md`
    - `EPISODE-008-R16-PRESERVATION-SUPPLEMENT-20260917.md`
-7. Read the replacement architecture and current candidate:
-   - `EPISODE-008-POST-R17-EXAMPLE-FIRST-SUPERVISED-COMPOSITION-PLAN-20260917.md`
+7. Read the current rejected assembled candidate and controlling strict audit:
    - `EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-20260917.md`
-   - `EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-AUDIT-20260917.md`
-8. R12–R17 rejected model candidates are diagnostic history only unless a later audit specifically needs them.
-9. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` materials according to `SKILL.md`, especially:
+   - `EPISODE-008-EXAMPLE-FIRST-CANDIDATE-AUDIT-20260917.md`
+   - `EPISODE-008-POST-R17-EXAMPLE-FIRST-SUPERVISED-COMPOSITION-PLAN-20260917.md`
+8. `EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-AUDIT-20260917.md` is superseded; do not use its former preservation PASS.
+9. R12–R17 rejected model candidates are diagnostic history only unless a later audit specifically needs them.
+10. Because this is humanization work, fresh-read current relevant `u-dont-existDOTcom/pangram-humanization-lab` materials according to `SKILL.md`, especially:
    - `state/generation/POSITIVE-CALIBRATION-ENTRYPOINT-20260917.md`
    - `state/generation/OWNER-CALIBRATION-MARCHING-EFFICIENCY-20260917.md`
    - `state/generation/OWNER-CALIBRATION-READER-EXAMPLES-AND-CLIPPED-VERDICTS-20260917.md`
+   - `state/generation/OWNER-CALIBRATED-WRITER-REFERENCE-V2-20260917.md`
    - `state/generation/POSITIVE-HUMANNESS-FORECAST-CALIBRATION-20260917.md`
    - `state/generation/RETRIEVAL-FIRST-OWNER-TEACHING-PROTOCOL.md`
-10. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
+11. Read `EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md` only after the current Episode 008 subsection is resolved.
 
 ## Authority boundary
 
@@ -39,35 +41,7 @@ Joel's relational-capacity paragraph remains exact owner-authored local prose au
 Exact SHA-256, no terminal newline:
 `c82fdae1e45899654476fd85a60fb38ed48337ef56aa810726530fa9cbe49635`
 
-## R17 disposition
-
-R17 autonomous whole-subsection generation failed editorially before Pangram despite richer calibration and explicit cadence guidance. Its exact returned candidate remains diagnostic history only. No model-written R17 green locks exist.
-
-This failure triggered the strategy switch already frozen in:
-`EPISODE-008-POST-R17-EXAMPLE-FIRST-SUPERVISED-COMPOSITION-PLAN-20260917.md`.
-
-## Active owner calibration
-
-### Predictable marching advancement
-
-AI-shaped prose can remain model-like when sentence after sentence is optimized for near-maximum semantic efficiency, every sentence has one obvious function, and the passage advances like a perfect staircase. Occasional efficiency is fine. Do not repair by padding.
-
-### Reader examples are allowed
-
-Do not invent Joel autobiography. Source-grounded reader-life situations and questions are allowed when they stay inside supplied meaning and let the social situation carry multiple functions.
-
-Joel explicitly declined to provide his own life examples for the current pass. Optional owner-example slots are therefore not blockers.
-
-### Clipped generated interjections banned
-
-For fresh model-generated humanization prose, do not use standalone:
-- `Great.`
-- `Fine.`
-- `Good.`
-
-Do not alter locked owner prose solely because it contains one of these words and do not silently generalize the ban.
-
-## Current supervised candidate
+## Assembled candidate disposition
 
 Exact candidate:
 `EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-20260917.md`
@@ -75,32 +49,57 @@ Exact candidate:
 Exact SHA-256, no terminal newline:
 `de9233151c47cf7280a3499dd61de83a7870f7678327ca10a3990a7f88a66a5d`
 
-Status: **OWNER REVIEW / NOT PANGRAM-TESTED / NOT IN ROLLING ARTICLE**.
+Status: **REJECTED BEFORE PANGRAM / NOT IN ROLLING ARTICLE**.
 
-The candidate was assembled from three reader-situation units rather than generated from the preservation ledger in one pass:
-1. one bad conversation versus repeated behavior;
-2. real repair without surrendering the entire disagreement;
-3. explanation-chasing while waiting for agreement.
+Controlling strict audit:
+`EPISODE-008-EXAMPLE-FIRST-CANDIDATE-AUDIT-20260917.md`
 
-The exact owner paragraph appears once unchanged.
+### Cadence failure
 
-Audit:
-`EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-AUDIT-20260917.md`
+The model-written paragraphs still show strong predictable marching advancement at paragraph scale:
+- P1: reader example -> hindsight -> fairness alternatives -> recurrence -> Gibson capstone;
+- P3: category announcement -> reader example -> mechanism -> compact guilt adjudication;
+- P4: reader example -> diagnosis -> desired agreement -> failed agreement -> action close.
 
-Current audit result:
-- preservation PASS;
-- reverse traceability PASS provisionally;
-- zero unexplained substantive deltas found;
-- no capitalized Witness;
-- no banned clipped generated verdicts;
-- no Pangram;
-- no green locks.
+`Have you ever...` occurs three times and became a repeated template. Reader examples remain allowed, but they are not a Human-style marker and should not become a new wrapper around the preservation ledger.
 
-Cadence is materially less ledger-like than R17, but same-model positive judgment cannot certify Human. Joel gives the next decisive visual style judgment.
+### Preservation failure
+
+**1 unexplained substantive delta.**
+
+`you still have to decide what you're going to do` adds an obligation stronger than the active source. The source allows action without agreement and treats saying no / ending repetitive self-defense as possible valid outcomes; it does not require a new decision.
+
+The real-harm / real-repair obligation is otherwise restored correctly, and Joel's exact paragraph is unchanged.
+
+No Pangram call. No model-written green locks.
+
+## Method execution evidence
+
+The frozen post-R17 plan required a serial observable gate:
+Unit A -> local audit/re-realization -> Unit B -> local audit/re-realization -> Unit C -> local audit/re-realization -> assembly.
+
+The durable Git trace contains the complete 432-word assembled candidate first and then its audit. It does not contain separate Unit A/B/C candidate-and-admission artifacts before assembly. This does not prove no scratch drafting occurred; it means the required serial admission gate is **not durably demonstrated** and cannot be credited as a successful test of the method.
+
+Therefore do not conclude that example-first serial composition has failed. The assembled realization failed; the decisive local admission mechanism remains unproven.
+
+## Active owner calibration
+
+- sustained near-maximal semantic efficiency / predictable marching advancement is a whole-boundary AI-shape warning;
+- occasional efficiency is fine; do not repair by padding;
+- source-grounded reader-life examples/questions are allowed but are not Human-style charms;
+- Joel declined to supply autobiography for this pass; do not ask for it as a blocker;
+- standalone fresh generated `Great.`, `Fine.`, and `Good.` are banned;
+- owner visual judgment and Pangram outcome remain separate evidence planes.
 
 ## Next safe action
 
-Show Joel the complete supervised candidate. If he still sees obvious AI shape, preserve the exact diagnosis and continue within this supervised composition architecture rather than returning to autonomous whole-subsection generation. If the prose no longer looks obviously AI and preservation stays clean, it may become eligible for natural-boundary Pangram localization under the existing coarse-to-fine campaign.
+Generate **Unit A only**: one disastrous conversation versus a repeated relational pattern, with Lindsay Gibson included only if it belongs naturally inside that local movement.
+
+Do not make the guilt/repair unit, failed-understanding unit, heading, or full subsection current generation objectives.
+
+Save Unit A separately, audit it literally for source fidelity, engineered rhetorical-question use, and marching advancement, and re-realize/reject it before any Unit B work. That observable checkpoint is required before claiming the serial composition architecture has been tested.
+
+Same-context positive review is not independent evidence. Joel remains the first decisive positive style judge. No Pangram while obvious AI shape remains or preservation is not clean.
 
 ## Opening assembly issue queued
 
