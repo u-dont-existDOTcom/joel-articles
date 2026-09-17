@@ -28,6 +28,26 @@ When asking Joel whether a possibly missing function should be restored, added, 
 
 For material editorial choices generally, state the relevant pros, cons, and recommendation in plain language instead of asking Joel to infer the tradeoff from abstract descriptions.
 
+## Audit means output + method audit
+
+Whenever Joel says `audit`, do not audit only the current prose/artifact. Audit the producing chain as well.
+
+Recover the literal prior plan when one exists and classify any failure across these loci:
+
+- **plan generation** — the plan itself encoded the wrong architecture, assumption, scope, sequencing, or constraint;
+- **implementation/generation** — the plan was sound or partly sound but the produced artifact did not actually implement it;
+- **admission/review** — a gate or cold audit admitted a defect it should have blocked;
+- **source/authority** — stale, wrong, or superseded authority was used;
+- **strategy** — repeated evidence shows the current method's causal premise is not producing the owner outcome.
+
+For every applicable locus, state the causal mechanism and the concrete process change that should prevent the same failure next time. Do not substitute `make a new plan` for this diagnosis.
+
+If the prior plan was not durably captured, say so rather than reconstructing it from memory. Missing plan traceability is itself a process defect and must be repaired before relying on plan-versus-implementation claims.
+
+When the same underlying structural failure survives a targeted repair, stop materially similar local refinement. Compare at least one structurally different approach before another same-method attempt, and switch strategy when the evidence supports it. Do not keep accumulating prohibitions around a generator that is reproducing the same architecture.
+
+For humanization specifically, keep the preservation ledger as a fidelity constraint rather than allowing its enumerated units to become the prose outline. A candidate can preserve every unit and still fail because the generation architecture is model-shaped.
+
 ## Anti-listicle and anti-repetition owner rule
 
 Avoid checklist/listicle realization whenever and however reasonably possible. A genuine map, procedure, or enumeration may still require explicit structure, but do not turn prose into taxonomies, matched category lists, or comprehensive mini-checklists merely because the source functions can be enumerated.
