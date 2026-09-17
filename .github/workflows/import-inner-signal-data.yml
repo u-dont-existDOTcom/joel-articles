@@ -1,0 +1,112 @@
+name: Import hash-bound Inner Signal data
+on:
+  push:
+    branches: [research/hypnosis-bottom-up-six-books-20260910]
+    paths: [research/inner-signal/import-request.json]
+permissions:
+  contents: write
+concurrency:
+  group: inner-signal-data-import
+  cancel-in-progress: false
+jobs:
+  import:
+    if: github.actor == 'u-dont-existDOTcom'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/hypnosis-bottom-up-six-books-20260910
+      - name: Import exact data and reproduce canonical clipboard helper
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import base64, hashlib, importlib.util, io, json, lzma, os, pathlib, re, stat, subprocess, urllib.request, zipfile
+          root = pathlib.Path('.')
+          req = json.loads((root/'research/inner-signal/import-request.json').read_text())
+          assert req['format'] == 'joel-git-blob-article-import-v1'
+          assert 1 <= len(req['parts']) <= 40
+          pieces = []
+          for part in req['parts']:
+              sha = part['git_blob_sha']
+              assert re.fullmatch('[0-9a-f]{40}', sha)
+              assert 0 < part['size'] <= 12000
+              url = 'https://api.github.com/repos/u-dont-existDOTcom/joel-articles/git/blobs/'+sha
+              request = urllib.request.Request(url, headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'], 'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(request, timeout=30) as stream:
+                  obj = json.load(stream)
+              assert obj['encoding'] == 'base64'
+              data = base64.b64decode(obj['content'])
+              assert len(data) == part['size']
+              assert hashlib.sha256(data).hexdigest() == part['sha256']
+              assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest() == sha
+              pieces.append(data)
+          compressed = b''.join(pieces)
+          assert hashlib.sha256(compressed).hexdigest() == req['compressed_sha256']
+          decoder = lzma.LZMADecompressor(memlimit=256*1024*1024)
+          raw = decoder.decompress(compressed, max_length=50000001)
+          assert len(raw) <= 50000000 and decoder.eof and not decoder.unused_data
+          assert hashlib.sha256(raw).hexdigest() == req['archive_sha256']
+          files = req['files']
+          assert isinstance(files, dict) and 1 <= len(files) <= 80
+          allowed_global = {'articles/INDEX.json', 'ARTICLE-META-MAP.md', 'research/inner-signal/CURRENT-STATE.md'}
+          previous_index = json.loads((root/'articles/INDEX.json').read_text())
+          with zipfile.ZipFile(io.BytesIO(raw)) as z:
+              assert len(z.namelist()) == len(set(z.namelist()))
+              assert set(z.namelist()) == set(files)
+              assert sum(x.file_size for x in z.infolist()) <= 50000000
+              staged = {}
+              for name, expected in files.items():
+                  path = pathlib.PurePosixPath(name)
+                  assert not path.is_absolute() and '..' not in path.parts and '\\' not in name
+                  assert name in allowed_global or name.startswith('articles/inner-signal/')
+                  assert path.suffix.lower() in {'.html','.md','.json','.txt','.csv'}
+                  assert not stat.S_ISLNK(z.getinfo(name).external_attr >> 16)
+                  data = z.read(name)
+                  assert hashlib.sha256(data).hexdigest() == expected
+                  text = data.decode('utf-8')
+                  assert not re.search(r'(?:github_pat_|gh[pousr]_[A-Za-z0-9]{20}|-----BEGIN .*PRIVATE KEY|[?&]sig=)', text), 'Credential-shaped data'
+                  staged[name] = data
+              updated_index = json.loads(staged['articles/INDEX.json'])
+              assert [x for x in previous_index['articles'] if x['id'] != 'inner-signal'] == [x for x in updated_index['articles'] if x['id'] != 'inner-signal'], 'Another article changed'
+              for name, data in staged.items():
+                  target = root/name
+                  assert not target.is_symlink()
+                  assert not any(p.is_symlink() for p in target.parents)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(data)
+          helper = 'articles/inner-signal/exports/COPY-TO-SUBSTACK.html'
+          article = 'articles/inner-signal/exports/inner-signal-r02-candidate.html'
+          plan = 'articles/inner-signal/exports/transfer-plan.json'
+          generator = 'project-sources/substack_transfer_helper.py.txt'
+          profile = 'project-sources/CONFIRMED-SUBSTACK-HELPER.json'
+          subprocess.run(['python',generator,'build',article,'--plan',plan,'--compat-profile',profile,'--out',helper,'--report','/tmp/inner-signal-transfer-report.md'],check=True)
+          assert hashlib.sha256(pathlib.Path(helper).read_bytes()).hexdigest() == req['generated_helper_sha256'], 'Helper reproduction mismatch'
+          subprocess.run(['python',generator,'verify',article,'--plan',plan,'--compat-profile',profile,'--helper',helper],check=True)
+          spec = importlib.util.spec_from_file_location('validator','scripts/validate_content_repository.py')
+          validator = importlib.util.module_from_spec(spec); spec.loader.exec_module(validator)
+          item = next(a for a in updated_index['articles'] if a['id'] == 'inner-signal')
+          findings = validator._validate_article(root,item,0)
+          assert not findings, findings
+          subprocess.run(['python','scripts/validate_article_architecture_maps.py','--root','.'],check=True)
+          subprocess.run(['git','diff','--check'],check=True)
+          subprocess.run(['git','config','user.name','github-actions[bot]'],check=True)
+          subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True)
+          names = list(files)+[helper]
+          subprocess.run(['git','add','--',*names],check=True)
+          changed = subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines()
+          assert set(changed).issubset(set(names))
+          if changed:
+              subprocess.run(['git','commit','-m',req['message']],check=True)
+              subprocess.run(['git','push','origin','HEAD:research/hypnosis-bottom-up-six-books-20260910'],check=True)
+          receipt = {'status':'pass','files':files,'helper_sha256':req['generated_helper_sha256'],'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'scope':'Target article validation, exact data hashes, canonical helper build/verify, architecture maps; no destination paste or publication.'}
+          pathlib.Path('/tmp/inner-signal-import-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          print('Imported verified article data:',len(files),'files plus reproduced helper.')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inner-signal-r02-import-receipt
+          path: /tmp/inner-signal-import-receipt.json
+          retention-days: 14
+          if-no-files-found: error

@@ -1,0 +1,27 @@
+name: Prepare exact editorial toolkit
+on:
+  push:
+    branches: [research/hypnosis-bottom-up-six-books-20260910]
+    paths: [.github/workflows/prepare-editorial-toolkit.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bundle tracked tools and task references without Git metadata
+        shell: bash
+        run: |
+          mkdir -p toolkit
+          git ls-files -z SKILL.md AGENTS.md CANONICAL-REPO-MAP.md ARTICLE-META-MAP.md articles/INDEX.json docs scripts templates tests project-sources state/CODEX-CURRENT-STATE.md research/inner-signal | tar --null -T - -cf - | tar -xf - -C toolkit
+          printf '%s\n' "$GITHUB_SHA" > toolkit/TOOLKIT-COMMIT.txt
+          (cd toolkit && find . -type f ! -name TOOLKIT-SHA256SUMS -print0 | sort -z | xargs -0 sha256sum > TOOLKIT-SHA256SUMS)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: editorial-toolkit-${{ github.sha }}
+          path: toolkit/
+          include-hidden-files: false
+          retention-days: 7
+          if-no-files-found: error

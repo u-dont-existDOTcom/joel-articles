@@ -1,0 +1,224 @@
+name: Sync Inner Signal infographics
+
+on:
+  push:
+    branches:
+      - research/hypnosis-bottom-up-six-books-20260910
+    paths:
+      - .github/workflows/update-inner-signal-infographics.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/hypnosis-bottom-up-six-books-20260910
+          fetch-depth: 0
+
+      - name: Install SVG rasterizer
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y librsvg2-bin
+
+      - name: Materialize r02-aligned infographic assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import base64, gzip
+          from pathlib import Path
+          pairs = [
+              ('articles/inner-signal/assets/.self-hypnosis-at-a-glance-r02.svg.gz.b64', 'articles/inner-signal/assets/self-hypnosis-at-a-glance-r02.svg'),
+              ('articles/inner-signal/assets/.when-self-hypnosis-gets-intense-r02.svg.gz.b64', 'articles/inner-signal/assets/when-self-hypnosis-gets-intense-r02.svg'),
+          ]
+          for seed, out in pairs:
+              Path(out).write_bytes(gzip.decompress(base64.b64decode(Path(seed).read_text().strip())))
+          PY
+          rsvg-convert -w 1024 -h 1536 articles/inner-signal/assets/self-hypnosis-at-a-glance-r02.svg -o articles/inner-signal/assets/self-hypnosis-at-a-glance-r02.png
+          rsvg-convert -w 1024 -h 1536 articles/inner-signal/assets/when-self-hypnosis-gets-intense-r02.svg -o articles/inner-signal/assets/when-self-hypnosis-gets-intense-r02.png
+          rm articles/inner-signal/assets/.self-hypnosis-at-a-glance-r02.svg.gz.b64 articles/inner-signal/assets/.when-self-hypnosis-gets-intense-r02.svg.gz.b64
+
+      - name: Replace stale infographic image objects and record owner direction
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+          import hashlib, html, importlib.util, json, re, sys
+          from importlib.machinery import SourceFileLoader
+          from pathlib import Path
+
+          root = Path('.')
+          loader = SourceFileLoader('html_islands', str(root / 'project-sources/html_islands.py.txt'))
+          spec = importlib.util.spec_from_loader(loader.name, loader)
+          if spec is None or spec.loader is None:
+              raise RuntimeError('Could not load canonical native-object parser')
+          mod = importlib.util.module_from_spec(spec)
+          sys.modules[spec.name] = mod
+          spec.loader.exec_module(mod)
+
+          branch = 'research/hypnosis-bottom-up-six-books-20260910'
+          raw_base = f'https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/{branch}/articles/inner-signal/assets'
+          replacements = [
+              {
+                  'old_token': '4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png',
+                  'new_url': f'{raw_base}/self-hypnosis-at-a-glance-r02.png',
+                  'alt': 'Self-Hypnosis at a Glance: response-led inner communion, adult capacities, flexible induction options, full return, and grounded action.',
+                  'reason': 'Old image imposed a fixed 2/5/5/2/1 timetable, overgeneralized Protector-first causality, and omitted the revised response-contingent full-return sequence.'
+              },
+              {
+                  'old_token': '9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png',
+                  'new_url': f'{raw_base}/when-self-hypnosis-gets-intense-r02.png',
+                  'alt': 'When Self-Hypnosis Gets Intense: stabilize before interpreting, notice before labeling, preserve metaphysical uncertainty, return fully, and seek urgent or prompt help when indicated.',
+                  'reason': 'Old image inferred Protector causality from nonspecific experiences, reduced daydreaming to a false binary, and delayed clinician review for serious warning signs.'
+              },
+          ]
+
+          master_path = root / 'articles/inner-signal/master.html'
+          text = master_path.read_text(encoding='utf-8')
+          original = text
+          spans = list(mod.find_protected_spans(text))
+          edits = []
+          for item in replacements:
+              matches = [(s, e) for s, e in spans if item['old_token'] in text[s:e]]
+              if len(matches) != 1:
+                  raise RuntimeError(f"Expected one image object containing {item['old_token']}, found {len(matches)}")
+              start, end = matches[0]
+              old_raw = text[start:end]
+              token = re.escape(item['old_token'])
+              url_pattern = re.compile(r'https?://(?:(?!&quot;|[\"\'<>\s]).)*' + token + r'(?:(?!&quot;|[\"\'<>\s]).)*')
+              new_raw, url_count = url_pattern.subn(item['new_url'], old_raw)
+              if url_count < 1:
+                  raise RuntimeError(f"No old infographic URLs replaced for {item['old_token']}")
+              new_raw, alt_count = re.subn(r'alt=([\"\']).*?\1', 'alt="' + html.escape(item['alt'], quote=True) + '"', new_raw, count=1, flags=re.S)
+              if alt_count != 1:
+                  raise RuntimeError(f"Expected one alt attribute for {item['old_token']}")
+              edits.append((start, end, new_raw, old_raw, item, url_count))
+
+          for start, end, new_raw, *_ in sorted(edits, reverse=True):
+              text = text[:start] + new_raw + text[end:]
+          if text == original:
+              raise RuntimeError('Infographic replacement produced no change')
+          master_path.write_text(text, encoding='utf-8')
+          candidate_path = root / 'articles/inner-signal/exports/inner-signal-r02-candidate.html'
+          candidate_path.write_text(text, encoding='utf-8')
+
+          directions_path = root / 'articles/inner-signal/OWNER-DIRECTIONS-R02.json'
+          directions = json.loads(directions_path.read_text(encoding='utf-8'))
+          if not any(x.get('id') == 'U10' for x in directions.get('items', [])):
+              directions.setdefault('items', []).append({
+                  'id': 'U10',
+                  'quote': 'now check if these images need to be updated in the guide. if so, update them',
+                  'status': 'implemented',
+                  'resolution': 'Audited both infographics against r02, replaced both stale image objects with r02-aligned versions, and regenerated the canonical Substack transfer artifacts.'
+              })
+          directions['unresolved_owner_direction_count'] = 0
+          directions_path.write_text(json.dumps(directions, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          receipt = {
+              'format': 'inner-signal-infographic-update-v1',
+              'owner_direction': 'U10',
+              'source_branch': branch,
+              'master_sha256_before': hashlib.sha256(original.encode()).hexdigest(),
+              'master_sha256_after': hashlib.sha256(text.encode()).hexdigest(),
+              'candidate_matches_master': candidate_path.read_bytes() == master_path.read_bytes(),
+              'updates': []
+          }
+          for _, _, new_raw, old_raw, item, url_count in edits:
+              asset_name = 'self-hypnosis-at-a-glance-r02.png' if '4622' in item['old_token'] else 'when-self-hypnosis-gets-intense-r02.png'
+              asset_path = root / 'articles/inner-signal/assets' / asset_name
+              receipt['updates'].append({
+                  'old_token': item['old_token'],
+                  'new_url': item['new_url'],
+                  'reason': item['reason'],
+                  'old_object_sha256': hashlib.sha256(old_raw.encode()).hexdigest(),
+                  'new_object_sha256': hashlib.sha256(new_raw.encode()).hexdigest(),
+                  'new_asset_sha256': hashlib.sha256(asset_path.read_bytes()).hexdigest(),
+                  'url_replacements': url_count,
+              })
+          (root / 'articles/inner-signal/INFOGRAPHIC-UPDATE-RECEIPT.json').write_text(json.dumps(receipt, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          state_path = root / 'articles/inner-signal/CURRENT-STATE.md'
+          state = state_path.read_text(encoding='utf-8')
+          note = (
+              '\n## 2026-09-11 infographic sync\n'
+              '- Owner direction U10 audited both embedded infographics against r02 and replaced both stale image objects with r02-aligned assets.\n'
+              '- The top overview now uses response-led notice-before-labeling, flexible pacing, an explicit full return, and optional app support.\n'
+              '- The intensity graphic now removes the old 4–12 week delay for serious warning signs, preserves metaphysical uncertainty, and distinguishes urgent help from prompt assessment and ongoing support.\n'
+              '- `master.html` and `exports/inner-signal-r02-candidate.html` remain byte-identical after the image update.\n'
+              '- Canonical Substack helper artifacts were regenerated and statically verified; actual Opera-to-Substack destination retest remains pending.\n'
+          )
+          if '## 2026-09-11 infographic sync' not in state:
+              state_path.write_text(state.rstrip() + '\n' + note, encoding='utf-8')
+          PY
+
+      - name: Regenerate and verify canonical Substack helper
+        shell: bash
+        run: |
+          set -euo pipefail
+          SRC=articles/inner-signal/exports/inner-signal-r02-candidate.html
+          PLAN=articles/inner-signal/exports/transfer-plan.json
+          INV=articles/inner-signal/exports/objects.json
+          PROFILE=project-sources/CONFIRMED-SUBSTACK-HELPER.json
+          HELPER=articles/inner-signal/exports/COPY-TO-SUBSTACK.html
+          REPORT=articles/inner-signal/exports/transfer-report.md
+          python project-sources/substack_transfer_helper.py.txt init "$SRC" --plan "$PLAN" --inventory "$INV" --compat-profile "$PROFILE"
+          python project-sources/substack_transfer_helper.py.txt build "$SRC" --plan "$PLAN" --compat-profile "$PROFILE" --out "$HELPER" --report "$REPORT"
+          python project-sources/substack_transfer_helper.py.txt verify "$SRC" --plan "$PLAN" --compat-profile "$PROFILE" --helper "$HELPER"
+
+      - name: Refresh helper receipt and verify invariants
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('.')
+          sha = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          master = root / 'articles/inner-signal/master.html'
+          candidate = root / 'articles/inner-signal/exports/inner-signal-r02-candidate.html'
+          if master.read_bytes() != candidate.read_bytes():
+              raise RuntimeError('master/candidate divergence')
+          plan_path = root / 'articles/inner-signal/exports/transfer-plan.json'
+          plan = json.loads(plan_path.read_text())
+          image_urls = [u for o in plan.get('objects', []) if o.get('type') == 'image' for u in o.get('candidate_urls', [])]
+          expected = ['self-hypnosis-at-a-glance-r02.png', 'when-self-hypnosis-gets-intense-r02.png']
+          missing = [name for name in expected if not any(name in u for u in image_urls)]
+          if missing:
+              raise RuntimeError(f'Updated image objects missing from transfer plan: {missing}')
+          data = master.read_text(encoding='utf-8')
+          for token in ['4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png', '9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png']:
+              if token in data:
+                  raise RuntimeError(f'Stale infographic token remains: {token}')
+          receipt = {
+              'format': 'joel-substack-transfer-helper-v4',
+              'source_file': candidate.name,
+              'source_sha256': sha(candidate),
+              'editor_body_sha256': plan.get('editor_body_sha256'),
+              'plan_sha256': sha(plan_path),
+              'compatibility_profile_name': plan.get('compatibility_profile_name'),
+              'compatibility_profile_sha256': sha(root / 'project-sources/CONFIRMED-SUBSTACK-HELPER.json'),
+              'helper_sha256': sha(root / 'articles/inner-signal/exports/COPY-TO-SUBSTACK.html'),
+              'generator_sha256': sha(root / 'project-sources/substack_transfer_helper.py.txt'),
+              'parser_sha256': sha(root / 'project-sources/html_islands.py.txt'),
+              'verify': 'pass',
+              'destination_status': 'pending actual Opera-to-Substack paste after infographic replacement',
+              'note': 'Static init/build/verify completed after owner-authorized infographic sync; destination behavior is not inferred.'
+          }
+          (root / 'articles/inner-signal/exports/HELPER-RECEIPT.json').write_text(json.dumps(receipt, indent=2) + '\n')
+          PY
+
+      - name: Commit infographic sync
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add articles/inner-signal .github/workflows/update-inner-signal-infographics.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "[inner-signal] sync r02 infographics with guide"
+          git push origin HEAD:research/hypnosis-bottom-up-six-books-20260910
