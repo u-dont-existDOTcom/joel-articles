@@ -1,0 +1,7 @@
+diff --git a/project-sources/html_islands.py.txt b/project-sources/html_islands.py.txt
+--- a/project-sources/html_islands.py.txt
++++ b/project-sources/html_islands.py.txt
+@@
+-    if "youtube.com" in low or "youtu.be" in low or "node-youtube" in low or "component-name=\"youtube" in low:
++    if "youtube.com" in low or "youtube-nocookie.com" in low or "youtu.be" in low or "node-youtube" in low or "component-name=\"youtube" in low:
+         return "youtube", "rich_html"
