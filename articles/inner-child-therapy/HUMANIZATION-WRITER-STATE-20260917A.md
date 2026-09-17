@@ -2,7 +2,7 @@
 
 Updated: 2026-09-17
 
-Status: **EPISODE 008 OWNER-FINAL HUMAN/HIGH BLOCKS LOCKED / R11 REJECTED 100% AI HIGH / R12 RE-AUDIT FAIL / PANGRAM BLOCKED / NEXT WORK = PLAN FULL DON'T-ASSUME REPAIR**
+Status: **EPISODE 008 OWNER-FINAL HUMAN/HIGH BLOCKS LOCKED / R11 REJECTED 100% AI HIGH / R12 OUTPUT + METHOD AUDIT FAIL / SAME-FAMILY ITERATION STOPPED / NEXT = STRATEGY DISCRIMINATION**
 
 This file supersedes `HUMANIZATION-WRITER-STATE-20260916W.md` for current recovery. Read W only for the immediately preceding R11 diagnosis and detailed disposition notes.
 
@@ -46,6 +46,23 @@ Current Joel instructions and owner-final rewrites outrank every earlier assista
 
 Repository-wide owner-facing version of these rules is preserved on this branch in `OWNER-FACING-TURN-CONTRACT.md`.
 
+## Audit means output + producing-method audit — blocking owner rule
+
+Joel's 2026-09-17 correction: whenever he says `audit`, audit both the literal artifact and the chain that produced it. Do not respond to a failed artifact merely by producing another plan.
+
+Every such audit must recover the prior plan if it exists and classify the failure across:
+
+- plan generation;
+- implementation/generation;
+- admission/review;
+- source/authority;
+- strategy.
+
+For each applicable locus, state the causal mechanism and concrete process repair. If the plan was not durably frozen, say so; missing plan traceability is itself a process defect. If the same structural failure survives a targeted repair, compare a materially different strategy before another same-method attempt.
+
+Current detailed R12 method audit:
+`articles/inner-child-therapy/experiments/EPISODE-008-R12-PLAN-IMPLEMENTATION-AUDIT-20260917.md`
+
 ## Catch-the-Hook exact authority
 
 Exact owner-final Human/high prose is preserved in:
@@ -80,34 +97,57 @@ Therefore the old R10 opener:
 
 `If every conflict turns into “this is my wound,” eventually the other person barely exists in the analysis. So look at what actually happens between you.`
 
-became substantially repetitive. This is a real upstream-boundary change, but it does **not** require redesigning the downstream subsection's substantive function. It requires dropping the repeated thesis and allowing the next section to begin with the concrete interaction.
+became substantially repetitive. This is a real upstream-boundary change. It does not authorize repeating the same thesis in a heading or downstream opener.
 
-Joel directionally accepted Predictions A and C; they were too similar as originally described. R12 combined A's event-led opening with C's boundary continuity and did not continue Prediction B's anti-New-Age argument because the owner-final preceding paragraph already performs it.
+Joel directionally accepted Predictions A and C but also observed that they were too similar. R12 combined A's event-led opening with C's boundary continuity and did not continue Prediction B's anti-New-Age argument because the owner-final preceding paragraph already performs it.
 
 R12 candidate:
 `articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R12-A-C-HYBRID-20260917.md`
 
-R12 re-audit:
+R12 output re-audit:
 `articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R12-REAUDIT-20260917.md`
 
-### R12 re-audit result — blocking
+R12 plan/implementation/strategy audit:
+`articles/inner-child-therapy/experiments/EPISODE-008-R12-PLAN-IMPLEMENTATION-AUDIT-20260917.md`
 
-The earlier provisional R12 PASS localized the risk too narrowly to the Lindsay Gibson paragraph. A fresh literal audit across the whole boundary found the same model architecture recurring through all four paragraphs:
+### R12 output failure
+
+The same model architecture recurs through all four paragraphs:
 
 `concrete example -> responsible caveat -> balanced qualification -> neat decision rule/closure`
 
-Specific repairs required before Pangram:
+- The heading `Don't Assume It's All You` repeats the immediately preceding owner-final point.
+- Paragraph 1's strong interaction is prematurely converted into a responsible mini-essay.
+- Paragraph 2 tries to visibly discharge nearly every Gibson/revisability preservation function and becomes diagnostically organized.
+- Paragraph 3's `Maybe... Maybe... Those can both be true` is formulaic therapeutic balance.
+- Paragraph 4 removed premature role labels but recreated the same taxonomy as `notice / see / decide` and closes generically rather than handing into the following practice.
 
-- The heading `Don't Assume It's All You` itself repeats the immediately preceding owner-final anti-self-created-problems point. Keep the outward-looking heading function but move the heading forward rather than restating the just-completed thesis.
-- Paragraph 1's opening interaction is strong, but its immediate `one scene does not diagnose / maybe time / maybe their own boundary / repeated pattern means more` package turns the scene into a responsible mini-essay. Preserve those qualifications but change their placement/realization.
-- Paragraph 2 tries to visibly discharge nearly every Gibson/revisability preservation function. It remains comprehensive and diagnostically organized. Consolidate functions rather than giving each a sentence-sized discharge.
-- Paragraph 3's `Maybe... Maybe... Those can both be true` is formulaic therapeutic balance. Preserve the actual coexistence of harm/repair and self-abandonment without the mirrored package.
-- Paragraph 4 removed the premature role labels but recreated the same taxonomy as `notice you're upset / see what's happening between you / decide what to do next`. Preserve inside/between-us/next-action function in one continuous interaction rather than a hidden triad.
-- The final movement should hand naturally into the following `Write It. Don't Send It Yet.` practice instead of closing with generic advice and then restarting.
+R12 preservation evidence remains valid for the exact R12 bytes: recorded forward/reverse traceability passed with zero unexplained substantive deltas. That does **not** rescue the realization.
 
-R12 preservation evidence remains useful for the exact R12 bytes: its recorded forward/reverse traceability passed with zero unexplained substantive deltas. That does **not** require preserving R12's model packaging. The next candidate must rerun the proof.
+### R12 producing-method failure
 
-Current audit state: **FAIL / PROVISIONAL SAME-CONTEXT DIAGNOSIS / DO NOT PANGRAM R12**.
+Failure loci:
+
+- **Plan generation: FAIL.** The plan chose an opening and exclusions but did not freeze one governing movement, pragmatic act, stopping point, or hidden-taxonomy test for the full subsection. A/C were too similar to constitute a real architecture comparison.
+- **Implementation/generation: FAIL.** The generator violated even the plan's abstract anti-listicle intent by recreating serial qualifications, matched balance, and the role triad under different words.
+- **Admission/review: FAIL.** The first audit named a credible paragraph-2 checklist defect and still passed the candidate for owner review. It was anchored by preservation completeness and failed to audit the heading, paragraph 3, hidden triad, and whole-boundary mode seam.
+- **Source/authority: PASS.** Current owner authority and source functions were handled correctly.
+- **Strategy: FAIL.** R11 and R12 reproduce the same deeper pattern: preservation-complete model completion around Human owner prose. Another local same-family polish is not justified.
+
+## Strategy switch — current required direction
+
+Do **not** respond by writing a more detailed R13 version of the same counselor/explainer plan.
+
+Primary strategy to test: **single-scene chronological realization**. Keep one concrete interaction as the governing movement from beginning to end. Let Gibson enter briefly because repeated behavior matters more than motive-solving. Let one-event uncertainty, guilt, and the need to be understood arise only where the interaction creates them. Let the action threshold flow directly into `Write It. Don't Send It Yet.`
+
+Preservation-unit enumeration is a **post-generation fidelity validator, not the prose outline**.
+
+Before freezing the next plan, compare the single-scene route with at least two materially different architectures, such as:
+
+- authorial-argument continuation from Joel's explicit disagreement with the `all problems are self-created` frame, using Gibson as support rather than framework;
+- dialogue/decision-pressure progression where guilt and the need to be understood emerge chronologically inside the exchange.
+
+The comparison must discriminate architecture, not offer cosmetic rewrites of the same plan. After selecting the best-supported route, freeze a literal durable plan before generation so later audit can distinguish plan failure from implementation failure.
 
 ## Witness correction
 
@@ -121,7 +161,7 @@ At the end of every Joel Articles owner-facing turn, provide the current full hu
 
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 
-The rolling file contains current accepted/locked humanized prose in article order plus the current subsection candidate under review, with unhumanized gaps explicitly marked rather than silently represented as finished. R12 is now audit-failed and must not be described as detector-ready merely because it remains visible in the rolling review assembly.
+The rolling file contains current accepted/locked humanized prose in article order. Audit-failed prose must not be labeled a current owner-review candidate.
 
 ## Mission Control durability
 
@@ -134,13 +174,13 @@ Truth state: **CAPTURED_BRANCH_ONLY** until that PR is merged.
 
 ## Next safe action
 
-Plan a **full-subsection R13 repair**, not a paragraph-2-only polish. Under the standing owner rule, planning and generation remain separated:
+Do **strategy discrimination before successor planning**:
 
-1. freeze literal R12 span -> operation -> positive reader-facing target instructions;
-2. preserve the strong concrete interaction while removing the repeated heading/thesis and comprehensive counselor architecture;
-3. consolidate source functions rather than one-sentence-per-preservation-unit realization;
-4. provide three materially different **actual-prose** predicted realizations for Joel to inspect;
-5. do not apply/finalize the chosen plan in that same turn;
-6. on the following owner turn, generate R13, rerun forward/reverse traceability and adversarial cold audit, and Pangram only if no credible model-shape defect remains.
+1. compare at least three materially different full-subsection architectures against the current owner-final upstream paragraph and downstream `Write It. Don't Send It Yet.` practice;
+2. choose/recommend the route that best breaks the repeated R11/R12 failure mechanism while preserving source function;
+3. only then freeze a literal durable plan with governing movement, pragmatic act, stopping point/handoff, exact preservation constraints, and hidden-outline anti-isomorphism check;
+4. keep planning and generation separated;
+5. generate only from the selected governing movement and retrieved literal owner-teaching examples; use preservation units afterward as the fidelity validator;
+6. before owner delivery, audit both the output and whether it actually implemented the frozen plan; any known substantive model-shape defect blocks delivery/Pangram.
 
 Target #2 ownerization/improvement overlay remains banked in `articles/inner-child-therapy/OWNERIZATION-SUGGESTION-BANK-20260916.md` for post-Pangram or genuine lane exhaustion.
