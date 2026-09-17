@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **R12 rejected / post-R8F process regression identified / restore validated Episode 007 method before inventing a replacement**
+Status: **R12 rejected / validated Episode 007 method restored / communication gold standard frozen / R13 repair instructions frozen / next = apply plan on later owner turn**
 
 ## Mandatory recovery order
 
@@ -19,10 +19,10 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
    - `articles/INDEX.json`
 3. Confirm Inner Child Therapy remains unregistered. Do not invent registered authority.
 4. Read current writer state:
-   - `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917B.md`
-5. Read current process-regression audit:
-   - `articles/inner-child-therapy/experiments/EPISODE-008-POST-R8F-PROCESS-REGRESSION-AUDIT-20260917.md`
-6. For exact current Episode 008 source/owner evidence, read only what the task needs from:
+   - `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917C.md`
+5. Read the frozen next-section plan:
+   - `articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R13-REPAIR-INSTRUCTIONS-20260917.md`
+6. For exact current Episode 008 source/owner evidence, load only what the task needs from:
    - `EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json`
    - `EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`
    - `EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`
@@ -45,36 +45,55 @@ Locked material:
 
 Never split, normalize, insert inside, or re-sequence owner-final Human/high blocks without explicit owner authorization.
 
-## Key correction: the workflow recently drifted from the method that worked
+## Communication gold standard — owner correction
 
-Episode 007 R8F is the strongest validated process evidence. Joel's exact owner report was:
+Joel identifies the owner-final `Catch the Hook Before the Story Takes Over` section as the **gold standard for the communication style of this article**: friendly, cute, and aimed at people who are not interested in reading a huge guide.
 
-`perfect, 100% human high conf. looks like we've nailed the process now at least for this style of writing.`
+Transfer the reader relationship and pragmatic/social act, not surface tokens. Do not copy emoji, jokes, punctuation, slang, or catchphrases as a detector/style recipe.
 
-The successful method was not merely `plan on one turn, write on the next`. Its structural fingerprint was:
+Operationally:
+- concrete/socially recognizable before theoretical;
+- theory/attribution rides lightly inside the live problem;
+- one useful thought at a time;
+- avoid comprehensive therapist/manual coverage;
+- let obvious implications stay implicit;
+- stop when the next useful move is available;
+- if a new subsection becomes materially heavier/longer than the gold-standard section, audit whether the `huge guide` problem has returned.
+
+## Validated method restored
+
+Episode 007 R8F remains the strongest validated process evidence. The method fingerprint is:
 
 `literal current sentence/span -> explicit local operation -> concrete positive generation target`
 
-followed by frozen instructions, local application, preservation proof, adversarial cold audit, then detector testing only when warranted.
+followed by instruction freeze, later literal local application, preservation proof, adversarial cold audit, then detector testing only when warranted.
 
-The final R8E -> R8F repair changed exactly one 39-word AI/high residual while keeping the following Human/high sentence byte-for-byte. The full boundary then tested 100% Human/high.
-
-Recent Episode 008 work drifted from that process:
-- local repair became whole-subsection reconstruction;
-- preservation units became an implicit generation outline;
-- concrete operations became higher-level architecture/prohibition language;
-- three predictions were used as generation scaffolding even when A/C were not materially different, instead of remaining diagnostics around a literal repair plan;
-- valid supervisor rules accumulated into the writer's environment.
-
-R12 therefore does **not** falsify the Episode 007 method. The previous `strategy replacement required` conclusion is superseded as premature.
+R12 was not a faithful reproduction of that method; its failure does not falsify the validated process.
 
 ## Current R12 disposition
 
-R12 `Don't Assume It's All You` is rejected diagnostic prose. No Pangram call was made.
+R12 `Don't Assume It's All You` is rejected diagnostic prose. No Pangram call was made. Its preservation proof remains diagnostic evidence about meaning retention only.
 
-Its preservation proof remains evidence that the exact R12 bytes retained source function, but the realization is model-shaped and must not be promoted.
+R12 is not current article prose and its architecture is not protected.
 
-Do not preserve R12's architecture merely because its semantics traced cleanly.
+## Frozen R13 repair plan
+
+`articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R13-REPAIR-INSTRUCTIONS-20260917.md`
+
+The plan:
+- replaces the repetitive heading; recommended target `What Keeps Happening Between You?`;
+- keeps the concrete opening interaction;
+- re-sequences/compresses the fairness caveat;
+- keeps Lindsay Gibson as a light attribution rather than a framework paragraph;
+- collapses checklist-like relational tests into one social observation;
+- centers the practical `what can I rely on now?` job without a motive taxonomy;
+- compresses revisability/promises/protection;
+- rewrites guilt as one messy human tangle rather than balanced therapy symmetry;
+- keeps the `one more explanation` pressure live;
+- deletes the hidden `notice / see / decide` triad and preserves its functions through action;
+- hands naturally into `Write It. Don't Send It Yet.` without a summary moral.
+
+Three materially different actual-prose predictions are frozen in the plan for owner calibration. Prediction A—one interaction carries almost everything—is recommended, but the later writer must apply the frozen local operations rather than copy/splice the prediction.
 
 ## Owner-supersession protections remain active
 
@@ -86,44 +105,33 @@ Do not preserve R12's architecture merely because its semantics traced cleanly.
 
 ## Audit owner rule
 
-Whenever Joel says `audit`, audit both the output and the producing method.
+Whenever Joel says `audit`, audit both output and producing method: plan generation, implementation/generation, admission/review, source/authority, and strategy. State causal mechanism and concrete repair.
 
-Recover the literal plan when possible and distinguish:
-- plan generation;
-- implementation/generation;
-- admission/review;
-- source/authority;
-- strategy.
-
-State causal mechanism and concrete repair for every applicable locus.
-
-Before declaring a strategy exhausted, compare the failed run against the last validated successful method fingerprint. A drifted method variant does not falsify the validated method.
+Before declaring strategy exhaustion, compare the failed run against the last validated successful method fingerprint.
 
 ## Three predictions — standing owner rule
 
-During planning, continue showing **three materially different actual-prose predictions**, substantial enough for Joel to inspect the model's assumptions.
+During planning, show three materially different actual-prose predictions substantial enough for Joel to inspect the model's assumptions.
 
-They are diagnostics around the literal executable plan, not a replacement for that plan and not automatically components to splice together into the final candidate. If two predictions are materially the same, treat that as a planning failure instead of combining them and calling the result a new architecture.
+They are diagnostics around the literal executable plan, not replacement plans and not components to splice together. If two are materially the same, that is a planning failure.
 
 ## Next safe action
 
-Return to the validated Episode 007 method on the current failing `Don't Assume` text:
+On the next owner turn, unless Joel changes the frozen instructions:
 
-1. inspect exact R12 sentences/spans;
-2. freeze any span worth retaining on its own merits;
-3. assign each genuinely defective span one explicit operation: keep, merge, rewrite, compress, delete as separate sentence, re-sequence, demote, etc.;
-4. give each changed span one concrete reader-facing job;
-5. show three materially different actual-prose predictions for Joel's calibration;
-6. freeze the literal repair guide durably;
-7. do not use preservation units as generation order;
-8. on a later owner turn, apply the frozen guide locally without redesigning it;
-9. rerun preservation and cold audit;
-10. audit both prose quality and whether the frozen plan was actually implemented;
-11. only after a faithful reproduction of this validated process materially fails should the workflow compare a structurally different strategy.
+1. apply the R13 repair plan literally without redesigning it;
+2. generate one complete subsection, not another set of alternatives;
+3. preserve upstream owner-final Human/high prose exactly;
+4. leave downstream `Write It. Don't Send It Yet.` unchanged;
+5. run preservation proof after generation;
+6. audit whether the candidate actually implemented the frozen plan;
+7. run adversarial cold audit;
+8. do not Pangram if either audit still finds a substantive defect;
+9. only if this faithful reproduction materially fails should a different strategy be compared.
 
 ## Rolling review link
 
 Stable cumulative owner-review path:
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 
-R12 has been removed from the rolling humanized article because it is audit-failed.
+R12 is absent from the rolling article because it is audit-failed.
