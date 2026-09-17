@@ -3,7 +3,7 @@
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
 Branch: `task/inner-child-therapy-intake-20260915`
-Status: **REDESIGNED SERIAL A1 FROZEN / FIDELITY PASS / OWNER STYLE JUDGMENT NEXT / NO A2 / NO PANGRAM / OPENING ASSEMBLY GAP QUEUED**
+Status: **REDESIGNED SERIAL A1 REJECTED BEFORE PANGRAM / FIDELITY PASS / SYNTHETIC DEMONSTRATION ARC REMAINS / NEXT = RE-REALIZE A1 WITH DIFFERENT PRAGMATIC ACT / OPENING ASSEMBLY GAP QUEUED**
 
 ## Mandatory recovery order
 
@@ -12,15 +12,15 @@ Before substantive reasoning, writing, detector analysis, or article-state chang
 1. Fresh-read `u-dont-existDOTcom/universal-dev-architecture` default-branch `AGENTS.md`.
 2. Fresh-read `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
-4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917U.md`.
+4. Read current writer state: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917V.md`.
 5. Read:
    - `EPISODE-008-SERIAL-A1-CANDIDATE-20260917.md`
-   - `EPISODE-008-SERIAL-A1-AUDIT-20260917.md`
-   - `EPISODE-008-SERIAL-UNIT-A-REAUDIT-20260917.md`
+   - `EPISODE-008-SERIAL-A1-REAUDIT-20260917.md`
    - `EPISODE-008-R16-PRESERVATION-SUPPLEMENT-20260917.md`
-6. The former six-function Unit A remains rejected; do not use it as current prose.
-7. Fresh-read current relevant Pangram-humanization-lab calibration per `SKILL.md`, especially owner marching-efficiency calibration, reader-example/clipped-verdict calibration, owner-calibrated writer reference v2, retrieval-first protocol, and the relevant literal positive examples.
-8. Return to the opening-assembly audit only after Episode 008 is resolved.
+6. The earlier A1 audit's positive style conclusion is superseded.
+7. The former six-function Unit A remains rejected.
+8. Fresh-read current relevant Pangram-humanization-lab calibration per `SKILL.md`, especially owner marching-efficiency calibration, reader-example/clipped-verdict calibration, owner-calibrated writer reference v2, retrieval-first protocol, and the relevant literal positive examples.
+9. Return to the opening-assembly audit only after Episode 008 is resolved.
 
 ## Authority boundary
 
@@ -31,11 +31,7 @@ Joel's relational-capacity paragraph remains exact owner-authored local authorit
 
 No model A1 prose is article authority or detector green.
 
-## Prior Unit A
-
-The earlier Unit A bundled one-event caution, time, disagreement, boundary, recurrence, and Gibson into one local realization and remained a compact mini-essay. It is rejected before Pangram.
-
-## Current redesigned A1
+## Current A1
 
 Exact candidate:
 `EPISODE-008-SERIAL-A1-CANDIDATE-20260917.md`
@@ -43,36 +39,41 @@ Exact candidate:
 Exact prose SHA-256:
 `7947d517ac0913ad97a0629797fb25b0278a424c8ab3ed24062231db81111d02`
 
-Controlling audit:
-`EPISODE-008-SERIAL-A1-AUDIT-20260917.md`
+Controlling re-audit:
+`EPISODE-008-SERIAL-A1-REAUDIT-20260917.md`
 
-A1 deliberately carries only:
-- one ugly interaction;
-- sweeping character inference after it;
-- later return to the original issue;
-- continuing disagreement;
-- a continuing disliked boundary.
+Disposition: **REJECTED BEFORE PANGRAM**.
 
-The explicit one-event conclusion, recurrence, and Lindsay Gibson are deferred rather than deleted. They remain protected for later end-to-end assembly.
+## Why A1 still fails
 
-Same-context audit:
-- fidelity PASS;
-- zero unexplained substantive deltas;
-- no obvious former-style marching staircase identified;
-- no Pangram;
-- no green lock.
+Reducing the function bundle helped, but the passage still forms a synthetic demonstration arc:
+`bad interaction -> later return -> disagreement/boundary retained inside better engagement -> summary of contrast`.
 
-The unit ends with unresolved juxtaposition rather than a diagnostic conclusion.
+The strongest defects:
+- sentence 3 visibly packs multiple protected functions into a balanced construction;
+- sentence 4 explains the contrast already demonstrated;
+- the social situation exists almost entirely to prove the assigned point.
+
+The problem is no longer simply number of functions per unit. It is the pragmatic act: the prose is still behaving as a miniature instructional demonstration.
+
+Preservation remains PASS with zero unexplained substantive deltas.
 
 ## Next safe action
 
-Joel gives the next decisive visual style judgment on **A1 only**.
+Re-realize **A1 only** with a different pragmatic/social act.
 
-Do not generate A2, guilt/repair Unit B, failed-understanding Unit C, heading, or full subsection until that checkpoint.
+The next A1 should let the reader inhabit uncertainty or let the author react to the uncertainty without immediately converting the interaction into a proof.
 
-If A1 is accepted as visually plausible, provisionally freeze it and proceed to A2. If Joel identifies a concrete AI-shaped feature, capture it and revise A1 locally.
+Do not:
+- restore recurrence or Lindsay Gibson to A1;
+- add fake biography, incidental details, or padding;
+- write A2, Unit B, Unit C, heading, or full subsection in the same step;
+- run Pangram.
 
-No Pangram on the 72-word A1.
+Deferred functions remain protected for later end-to-end assembly:
+- explicit one-event diagnostic caution;
+- recurrence;
+- Lindsay Gibson.
 
 ## Active owner calibration
 
