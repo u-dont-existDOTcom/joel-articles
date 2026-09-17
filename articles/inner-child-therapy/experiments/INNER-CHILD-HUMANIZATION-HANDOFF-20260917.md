@@ -1,130 +1,40 @@
-# Inner Child Therapy humanization — current handoff
+# Inner Child Therapy — isolated lane recovery handoff
 
 Date: 2026-09-17
 Repository: `u-dont-existDOTcom/joel-articles`
-Branch: `task/inner-child-therapy-intake-20260915`
-Status: **OWNER-AUTHORIZED FRESH RETRIEVAL-FIRST EXPERIMENT / EPISODE 007 FULL METHOD CORRECTION RETAINED / R13 REJECTED / OPENING ASSEMBLY GAP QUEUED**
+Branch: `task/inner-child-episode008-coarse-to-fine-20260917`
+Status: **POSITIVE CALIBRATION RECOVERED, STUDIED AND SOURCE-VERIFIED / FRESH TRANSFER PREPARED, NOT EXECUTED**
 
-## Mandatory recovery order
+This replaces the stale handoff copied from the parent at branch creation. It changes this isolated branch only. The parent `task/inner-child-therapy-intake-20260915` remains a separate lane; do not overwrite its handoff, state, or rolling article.
 
-Before substantive reasoning, writing, detector analysis, or article-state changes:
+## Recovery order
 
-1. Fresh-read `u-dont-existDOTcom/universal-dev-architecture` default-branch `AGENTS.md` on the current turn.
-2. Fresh-read in `u-dont-existDOTcom/joel-articles`:
-   - `SKILL.md`
-   - `CANONICAL-REPO-MAP.md`
-   - `AGENTS.md`
-   - `docs/INDEX.md`
-   - `state/CODEX-CURRENT-STATE.md`
-   - `articles/INDEX.json`
-3. Confirm Inner Child Therapy remains unregistered.
-4. Read current writer state:
-   - `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917F.md`
-5. Read the corrected full successful-method reconstruction:
-   - `articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`
-6. Read the R13 re-audit only as failed-output/method evidence:
-   - `articles/inner-child-therapy/experiments/EPISODE-008-R13-OUTPUT-PLAN-METHOD-REAUDIT-20260917.md`
-7. For the authorized isolation experiment, read the supervisor state above. The **fresh writer itself must read only**:
-   - `articles/inner-child-therapy/experiments/EPISODE-008-R14-FRESH-RETRIEVAL-WRITER-PACKET-20260917.md`
-   after any mandatory universal bootstrap.
-8. Read queued opening screenshot audit only after the current Episode 008 subsection is resolved:
-   - `articles/inner-child-therapy/experiments/EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md`
-9. For exact Episode 008 source/owner evidence in the supervisor context, load only what the current task needs from:
-   - `EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json`
-   - `EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md`
-   - `EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md`
-   - R12/R13 only as rejected diagnostic history.
-10. Because this is humanization work, the supervisor fresh-reads `u-dont-existDOTcom/pangram-humanization-lab` according to `SKILL.md`. Do not contaminate the isolated writer with the full lab corpus beyond the two literal demonstrations already frozen in its packet.
+1. Live-read `u-dont-existDOTcom/universal-dev-architecture` default-branch `AGENTS.md` for the current user turn.
+2. Fresh-read Joel Articles `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`.
+3. Inner Child Therapy remains unregistered. Read this lane's current checkpoint: `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917K-CALIBRATION.md`.
+4. Fresh-read the relevant Pangram-lab material under the skill's normal order. Current positive generation route: `state/generation/POSITIVE-CALIBRATION-ENTRYPOINT-20260917.md` on the lab's default branch. Its retrieval-first protocol now points there.
+5. Use the entry point's immutable writer examples and whole successful Journey section for generation; use its study, curriculum and full thirteen-candidate history for supervisor recovery. Do not reconstruct the successful method from the final 39-word operation.
+6. Before any content work, refresh current owner changes on the parent lane. At this checkpoint its state is O and its exact R16 owner paragraph remains local authority. Its failed model wrapper is not article authority.
 
-Do not run Pangram on R13 or on an unadmitted fresh-writer candidate.
+## Current work
 
-## Authority boundary
+The recovered bundle contains twenty classified study cases across fourteen source families, not twenty independent aligned pairs. Twenty-nine source snapshots, fifteen controlled input identities, thirteen campaign text identities and the writer quotations were checked. Historical identity warnings are recorded rather than silently corrected. Four older legacy triples remain unrecovered.
 
-Inner Child Therapy is unregistered/non-authoritative. Owner-final Human/high blocks remain local prose authority.
+No new Pangram call, new article candidate, independent recognition result, or positive generation certification occurred. The recovery/comparative study is complete for the verified bundle; prospective transfer is the next evidence gap.
 
-Locked material includes:
-- Episode 005 repaired natural boundary;
-- Episode 006 owner-final five-stage map;
-- Episode 007 `My Journey` R8F;
-- Episode 008 `You Don't Need an Inner Monologue` owner-final block;
-- Episode 008 `Catch the Hook Before the Story Takes Over` owner-final block.
+Repeated rhetorical labels are not a definition of AI prose. Recovered successes include direct advice, reassurance, sources, contrast and similar broad thought order. Retain current owner preferences and source fidelity, but do not force a new outline merely to satisfy an overgeneralized anti-pattern rule.
 
-Never split, normalize, insert inside, or re-sequence owner-final Human/high blocks without explicit owner authorization.
+## Next safe action
 
-## Communication gold standard
+Use `articles/inner-child-therapy/experiments/POSITIVE-CALIBRATION-FRESH-TRANSFER-20260917.md` in a genuinely fresh writing context. It includes the exact target and owner paragraph and names both required positive calibration companions. The writer returns one subsection and does not mutate GitHub or call Pangram.
 
-Joel identifies owner-final `Catch the Hook Before the Story Takes Over` as the communication gold standard: friendly, cute/warm, socially alive, low-friction, and useful to readers who do not want a huge guide.
+On return: capture exact output, verify the owner paragraph and remaining meanings, evaluate the model-written wrapper separately, then use external owner/detector evidence under the existing contract. Positive self-confidence cannot establish a green lock. Keep coarse-to-fine iterative convergence with progressive locking as the campaign, not one-shot self-certification.
 
-Transfer the reader relationship and pragmatic/social act, not surface tokens.
+## Protected state
 
-## Correct successful method
+Never change owner-final prose, restore material Joel removed, or treat historical model candidates as the preservation base after his correction. The later owner relational-capacity paragraph supersedes the old model taxonomy and additional-injury framing; read the active R16 preservation supplement rather than restoring them.
 
-Joel corrected the recent process interpretation. Episode 007 did **not** succeed by starting with one 39-word residual repair.
+The opening assembly issue remains queued until the current subsection is resolved. Do not infer lost accepted prose from the newly documented historical hash discrepancies.
 
-The actual successful method was a multi-turn coarse-to-fine convergence over a large natural section:
-
-1. initial / R2 / R3 worked across roughly 1,000-word full-section realizations;
-2. blind audit + screenshot comparison exposed broad explanatory architecture;
-3. R4 / R5 / R6 continued broad/full-region structural and register repair;
-4. R7 made another structural full-section change and then produced stable Human/high islands plus three red regions;
-5. only then did R8 freeze the known-green spans and repair red regions only;
-6. R8D reduced displayed AI to about 29.74%;
-7. R8E reduced it to one 39-word AI/high residual, about 94.65% displayed Human;
-8. R8F repaired only that final residual and the complete boundary became owner-reported 100% Human/high.
-
-Short method name:
-**coarse-to-fine iterative convergence with progressive locking**.
-
-The literal `span -> operation -> positive target` table is the late regional/residual submethod, not the whole campaign method.
-
-The owner also corrected a second over-narrow comparison: the broader Episode 007 section was repaired by this method over numerous turns; do not use the final residual alone as the representative success case.
-
-## R13 disposition
-
-Exact candidate:
-`EPISODE-008-WHAT-KEEPS-HAPPENING-R13-CANDIDATE-20260917.md`
-
-Exact candidate SHA-256, no terminal newline:
-`8ef3e92a000192d921b4a3bbe635e01da3252483c6c95feac59ca2a43b6dd232`
-
-Status: **AUDIT-FAILED / diagnostic history only / no Pangram call**.
-
-The R13 output diagnosis remains valid:
-- Gibson paragraph compresses a diagnostic inventory into declarative prose;
-- guilt paragraph retains balanced counselor clarification under new syntax;
-- final repeated-explanation paragraph is the strongest and closest to the gold-standard reader relationship.
-
-What is superseded is the claim that R13 failed because its edit scope was too broad compared with a supposedly sparse Episode 007 method.
-
-## Current experiment
-
-The validated Episode 007 campaign remains the default method. Joel nevertheless explicitly authorized trying the fresh-context retrieval-first contingency now to see how it performs.
-
-Frozen packet:
-`articles/inner-child-therapy/experiments/EPISODE-008-R14-FRESH-RETRIEVAL-WRITER-PACKET-20260917.md`
-
-The current supervising conversation is contaminated with R12/R13, prediction prose, and failure analyses. Therefore it must not generate the claimed isolated sample itself and then label it independent.
-
-The clean test is a genuinely fresh generation context that has not seen those materials. The easiest manual route is a new ordinary ChatGPT chat **outside the Article Skill Latest Project**, using the connected GitHub app to read only the frozen packet after any mandatory universal bootstrap.
-
-When the candidate returns, the current supervisor can preservation-audit and cold-audit it. If editorially admissible, Joel/Pangram evidence can localize green/red islands and the workflow re-enters progressive locking.
-
-## Opening assembly issue queued
-
-New owner screenshot evidence shows an early assembled boundary split:
-- 54 UI words Human/medium beginning at the article heading/Céline material;
-- 99 UI words AI/medium beginning `So I stopped asking the child to heal it...`.
-
-Current audit finds **no evidence of lost humanized prose**. Episodes 001–005 preserve the exact current component text and prior local/overlapping Human results. The failure was evidence/state integration: component-level Human status was later easy to misread as whole assembled-opening certification.
-
-The screenshot does not reveal exact segment endpoints or exact submitted bytes, so do not invent them.
-
-Return to this opening immediately after the current Episode 008 subsection is resolved.
-
-## Rolling article
-
-`articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
-
-- R13 remains removed.
-- unresolved next subsection is marked explicitly.
-- opening assembly watch remains marked explicitly without altering retained prose.
+End owner-facing turns with the current parent rolling article link:
+`articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md` on `task/inner-child-therapy-intake-20260915`.
