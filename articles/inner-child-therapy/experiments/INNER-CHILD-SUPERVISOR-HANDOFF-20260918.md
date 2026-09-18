@@ -1,7 +1,7 @@
 # Inner Child Therapy — isolated supervisor handoff
 
 Date: 2026-09-18
-Status: **B11 OWNER-REJECTED / OWNER PARAGRAPH FROZEN / PHASE B RED-REGION REPAIR / NO PANGRAM**
+Status: **RED1 SAME-CONTEXT LOOP CLOSED / FRESH-CONTEXT WRITER PACKET READY / OWNER PARAGRAPH FROZEN / RED2-RED3 UNTOUCHED / NO PANGRAM**
 
 ## Branch ownership
 
@@ -22,56 +22,55 @@ The integration branch remains read/reconcile-only during the parallel phase.
 2. Fresh-read Joel `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
 4. Read branch lease + article `PARALLEL-WRITE-LOCK.json`.
-5. Read `HUMANIZATION-WRITER-STATE-20260918F.md`.
+5. Read `HUMANIZATION-WRITER-STATE-20260918G.md`.
 6. Read:
    - `EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`
-   - `EPISODE-008-R16-PRESERVATION-SUPPLEMENT-20260917.md`
-   - `EPISODE-008-COARSE-TO-FINE-B11-CANDIDATE-20260918.md`
    - `EPISODE-008-B11-OWNER-LOCALIZATION-AND-PHASE-B-TRANSITION-20260918.md`
-7. Fresh-read current Pangram-humanization calibration, including `OWNER-CALIBRATION-CONCESSIVE-BALANCE-TIC-20260918.md`.
+   - `EPISODE-008-PHASE-B-RED1-R5-LITERAL-GUIDE-AUDIT-20260918.md`
+7. Fresh-read current Pangram-humanization calibration, including the active concessive-balance correction.
 
-## Owner judgment now controlling
+## Current method state
 
-Joel judged:
-- his exact owner paragraph is the only B11 prose that does not sound AI;
-- all model-written B11 prose still marches lockstep;
-- repeated concessive balancing such as `can be X but/and still Y` is an overused model tic.
+Joel's owner paragraph is the only reliable green island in the current subsection.
 
-Do not preserve any B11 model-written prose as green based on prior same-context optimism.
+Red Region 1 was repaired five times in this same conversation:
+- R1 recurrence-first;
+- R2 source-first;
+- R3 later-conversation-first;
+- R4 unequal-paragraph architecture;
+- R5 literal span/disposition guide.
 
-## Method
+Every attempt preserved meaning with zero unexplained substantive deltas.
 
-The validated Episode 007 method remains:
-**broad convergence -> owner/detector localization -> freeze reliable Human islands -> progressively narrower repair**.
+Every attempt retained the same deeper style failure: the preservation ledger remained visible as a compact sentence-job sequence.
 
-Owner feedback now supplies the localization:
-- owner paragraph = frozen green;
-- model region 1 = red;
-- model region 2 = red;
-- model region 3 = red.
+The explicit R5 stop condition is therefore active:
+**do not generate another same-context Red1 variant.**
 
-Therefore the task has moved to **Phase B region repair**.
+## Next valid action
 
-## Next action
+Use a genuinely fresh conversation/context.
 
-Repair **Red region 1 only**:
-- one-event caution;
-- need-time;
-- disagreement;
-- other person's boundary;
-- recurrence;
-- Lindsay Gibson attribution/link.
+Controlling fresh writer packet:
+`articles/inner-child-therapy/experiments/EPISODE-008-RED1-FRESH-WRITER-PACKET-20260918.md`
 
-Do not turn those functions into one sentence each.
-Do not default to repeated `A but/and still B` balancing.
-Do not use matched `maybe A / maybe B` alternatives as a checklist.
-Let one thought dominate and give the functions unequal rhetorical weight.
+The fresh writer must not inspect B11 or R1-R5 before writing.
 
-Keep Joel's exact paragraph frozen.
+It returns Red1 prose only.
 
-Do not generate Red 2 or Red 3 in the same pass.
-Do not Pangram yet.
-Do not green-lock model prose without owner/external evidence.
+This supervisor then:
+1. runs preservation proof;
+2. audits the complete integrated boundary;
+3. gets owner visual judgment;
+4. only then considers Red2.
+
+## Do not
+
+- do not simulate independence inside this conversation;
+- do not generate Red1 R6 here;
+- do not touch Red2 or Red3 yet;
+- do not Pangram;
+- do not green-lock model prose without owner/external evidence.
 
 ## Queued afterward
 
