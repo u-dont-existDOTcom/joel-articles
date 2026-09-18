@@ -1,7 +1,7 @@
 # Inner Child Therapy — isolated supervisor handoff
 
 Date: 2026-09-18
-Status: **FRESH RED1 F1 REJECTED / LEDGER-HIDDEN F2 FRESH WRITER NEXT / OWNER PARAGRAPH FROZEN / RED2-RED3 UNTOUCHED / NO PANGRAM**
+Status: **RED1 F2 PARTIAL IMPROVEMENT / PARA1 PROVISIONALLY HELD / PARA2 REJECTED / F3 FRESH PARA2 WRITER NEXT / NO PANGRAM**
 
 ## Branch ownership
 
@@ -21,54 +21,52 @@ The integration branch remains read/reconcile-only during the parallel phase.
 1. Fresh-read universal `AGENTS.md`.
 2. Fresh-read Joel `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
-4. Read branch lease + article `PARALLEL-WRITE-LOCK.json`.
-5. Read `HUMANIZATION-WRITER-STATE-20260918H.md`.
+4. Read branch lease + article parallel-write lock.
+5. Read `HUMANIZATION-WRITER-STATE-20260918I.md`.
 6. Read:
-   - `EPISODE-008-RED1-FRESH-WRITER-RETURN-F1-20260918.md`
-   - `EPISODE-008-RED1-FRESH-WRITER-F1-AUDIT-20260918.md`
-   - `EPISODE-008-RED1-FRESH-WRITER-PACKET-F2-LEDGER-HIDDEN-20260918.md`
+   - `EPISODE-008-RED1-FRESH-WRITER-RETURN-F2-20260918.md`
+   - `EPISODE-008-RED1-FRESH-WRITER-F2-AUDIT-20260918.md`
+   - `EPISODE-008-RED1-FRESH-WRITER-PACKET-F3-PARA2-20260918.md`
 7. Fresh-read current Pangram-humanization calibration.
 
-## Fresh F1 result
+## F2 result
 
-The first genuinely fresh Red1 writer preserved all required meaning but still marched almost one function per sentence.
+The ledger-hidden F2 fresh writer preserved all Red1 meaning with zero unexplained substantive deltas.
 
-This weakens the hypothesis that prior-candidate contamination was the main cause.
+Paragraph 1 materially improved:
+- several sentences stay inside one thought;
+- the preservation ledger is no longer exposed sentence-by-sentence.
 
-The stronger current hypothesis is **packet-induced ledger writing**: the F1 packet exposed six semantic obligations as bullets, and the fresh output reproduced those obligations almost one-to-one.
+It is **provisionally held byte-for-byte**, not owner-green and not Human-certified.
 
-Do not add more style prohibitions.
+Paragraph 2 remains obviously model-shaped:
+- Gibson principle;
+- question;
+- matched `Maybe...` healthy-disagreement branch;
+- matched `Maybe...` recurrence branch.
 
-## Next method
+It also reuses one active concessive-balance form.
 
-Use the **ledger-hidden F2 packet**:
-`articles/inner-child-therapy/experiments/EPISODE-008-RED1-FRESH-WRITER-PACKET-F2-LEDGER-HIDDEN-20260918.md`
+## Next action
 
-The fresh writer does not see the six-item preservation ledger. The supervisor keeps it and performs fidelity checking afterward.
+Use a genuinely fresh context with:
+`articles/inner-child-therapy/experiments/EPISODE-008-RED1-FRESH-WRITER-PACKET-F3-PARA2-20260918.md`
 
-The F2 writer must not inspect:
-- B11;
-- Red1 R1-R5;
-- F1;
-- their audits.
+That writer sees only the fixed F2 paragraph 1 and writes paragraph 2.
 
-## After F2 return
-
-Supervisor:
-1. freezes exact returned bytes;
-2. checks all Red1 preservation functions;
-3. rejects any unexplained substantive delta;
-4. audits lockstep/whole-boundary shape;
-5. asks Joel for visual judgment only if the candidate is no longer obviously model-shaped.
-
-Do not automatically patch a missing semantic unit sentence-by-sentence if that would recreate the ledger architecture.
+After return:
+1. freeze exact bytes;
+2. assemble Red1;
+3. rerun preservation;
+4. audit complete Red1 + subsection context;
+5. get Joel visual judgment before green-locking anything or touching Red2.
 
 ## Do not
 
-- do not generate Red1 in this saturated supervisor conversation;
-- do not touch Red2 or Red3;
+- do not regenerate F2 paragraph 1 in this supervisor context;
+- do not touch Red2/Red3;
 - do not Pangram;
-- do not green-lock model prose without owner/external evidence.
+- do not declare paragraph 1 green without owner/external evidence.
 
 ## Queued afterward
 
