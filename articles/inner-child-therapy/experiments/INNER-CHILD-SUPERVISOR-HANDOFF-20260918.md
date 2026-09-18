@@ -1,7 +1,7 @@
 # Inner Child Therapy — isolated supervisor handoff
 
 Date: 2026-09-18
-Status: **B11 OWNER-REVIEW CHECKPOINT / PRESERVATION PASS / NO PANGRAM / NO GREEN LOCKS**
+Status: **B11 OWNER-REJECTED / OWNER PARAGRAPH FROZEN / PHASE B RED-REGION REPAIR / NO PANGRAM**
 
 ## Branch ownership
 
@@ -14,82 +14,65 @@ Active writer lease:
 Shared integration branch:
 `task/inner-child-therapy-intake-20260915`
 
-During the parallel phase, the integration branch is read/reconcile-only for this writer.
+The integration branch remains read/reconcile-only during the parallel phase.
 
 ## Recovery order
 
 1. Fresh-read universal `AGENTS.md`.
 2. Fresh-read Joel `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
-4. Read the branch lease and `articles/inner-child-therapy/PARALLEL-WRITE-LOCK.json`.
-5. Read `articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260918E.md`.
+4. Read branch lease + article `PARALLEL-WRITE-LOCK.json`.
+5. Read `HUMANIZATION-WRITER-STATE-20260918F.md`.
 6. Read:
    - `EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`
    - `EPISODE-008-R16-PRESERVATION-SUPPLEMENT-20260917.md`
    - `EPISODE-008-COARSE-TO-FINE-B11-CANDIDATE-20260918.md`
-   - `EPISODE-008-COARSE-TO-FINE-B11-AUDIT-20260918.md`
-7. Fresh-read current Pangram-humanization calibration required by Joel `SKILL.md`.
+   - `EPISODE-008-B11-OWNER-LOCALIZATION-AND-PHASE-B-TRANSITION-20260918.md`
+7. Fresh-read current Pangram-humanization calibration, including `OWNER-CALIBRATION-CONCESSIVE-BALANCE-TIC-20260918.md`.
 
-## Strategy
+## Owner judgment now controlling
 
-Use the validated Episode 007 method:
-**full natural boundary -> repeated broad convergence -> owner/detector localization -> freeze reliable Human islands -> progressively narrower repair**.
+Joel judged:
+- his exact owner paragraph is the only B11 prose that does not sound AI;
+- all model-written B11 prose still marches lockstep;
+- repeated concessive balancing such as `can be X but/and still Y` is an overused model tic.
 
-Do not return to the abandoned A1/example-first micro-generation lane.
+Do not preserve any B11 model-written prose as green based on prior same-context optimism.
 
-Do not automatically run Pangram merely because a same-context audit becomes uncertain. The successful Episode 007 transition used owner/external localization after a complete broad candidate.
+## Method
 
-When Pangram is actually warranted, ordinary programmatic measurement uses the current self-hosted API route unless Joel explicitly asks for GUI/History/visual evidence.
+The validated Episode 007 method remains:
+**broad convergence -> owner/detector localization -> freeze reliable Human islands -> progressively narrower repair**.
 
-## Current candidate
+Owner feedback now supplies the localization:
+- owner paragraph = frozen green;
+- model region 1 = red;
+- model region 2 = red;
+- model region 3 = red.
 
-`EPISODE-008-COARSE-TO-FINE-B11-CANDIDATE-20260918.md`
-
-Controlling audit:
-`EPISODE-008-COARSE-TO-FINE-B11-AUDIT-20260918.md`
-
-Audit result:
-- semantic sanity PASS;
-- preservation PASS;
-- forward traceability PASS;
-- reverse traceability PASS;
-- 0 unexplained substantive deltas;
-- exact owner relational-capacity paragraph preserved once unchanged;
-- no synthetic-specificity blocker;
-- no Pangram;
-- no green locks.
-
-## Broad convergence history since B7
-
-- B8: architecture improved, but one-event insufficiency became only inferable and invented `A day or two later` timing appeared. Rejected.
-- B9: both repaired, but ending repetitive self-defense remained only implied and mimetic `Then another.` repetition was not reliable Human evidence. Rejected.
-- B10: preservation clean and architecture strong, but `halfway through` was unsupported micro-timing. Rejected.
-- B11: removes that blocker and retains B10's stronger architecture.
-
-## Frozen residual predictions before owner judgment
-
-Strongest remaining risk:
-- paragraph 2 still advances in an orderly sequence from one-event limit -> time -> disagreement/boundary -> recurrence -> recognition -> Gibson.
-
-Secondary:
-- the final two guilt distinctions may remain more doctrinal than surrounding prose.
-
-The final paragraph is currently the strongest model-written region.
+Therefore the task has moved to **Phase B region repair**.
 
 ## Next action
 
-Joel visually judges B11 as a complete subsection.
+Repair **Red region 1 only**:
+- one-event caution;
+- need-time;
+- disagreement;
+- other person's boundary;
+- recurrence;
+- Lindsay Gibson attribution/link.
 
-If Joel still sees obvious AI:
-- capture the first catching region and why;
-- continue broad/region convergence from that evidence.
+Do not turn those functions into one sentence each.
+Do not default to repeated `A but/and still B` balancing.
+Do not use matched `maybe A / maybe B` alternatives as a checklist.
+Let one thought dominate and give the functions unequal rhetorical weight.
 
-If Joel finds it visually plausible:
-- use ordinary Pangram API only if detector localization will change the next edit;
-- freeze reliable Human regions;
-- repair only AI regions;
-- progressively narrow from there.
+Keep Joel's exact paragraph frozen.
+
+Do not generate Red 2 or Red 3 in the same pass.
+Do not Pangram yet.
+Do not green-lock model prose without owner/external evidence.
 
 ## Queued afterward
 
-Return to the opening assembled-boundary certification gap after Episode 008 is resolved.
+After Episode 008 is resolved, return to the opening assembled-boundary certification gap.
