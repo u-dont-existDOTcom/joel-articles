@@ -1,0 +1,22 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-r5-h4-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0 / BEST CONTINUOUS SIGNAL",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H4-20260918.md",
+    "reader_visible_sha256": "7ffc226195af5f0ced44203c4130b24e10e4d656a55c321fac6c2a2d596ddf26",
+    "runner_word_count": 180
+  },
+  "result": {
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.8884661198
+  },
+  "comparison": {
+    "r5_baseline": 0.9357032776,
+    "h2_final_rewrite": 0.8971986771,
+    "h4_delete_compact_slogan": 0.8884661198
+  },
+  "interpretation": "Removing the compact Better/nicer slogan improved the continuous signal again. Keep H4 as base and probe the matched Maybe response-option pair next.",
+  "repeat_policy": "Do not repeat H4."
+}
