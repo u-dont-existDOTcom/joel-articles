@@ -1,0 +1,18 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-candidate-d-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-D-20260918.md",
+    "reader_visible_sha256": "45db1606dc57d58aa7c14eedde79689af428977ac538bd7bff47f3187cc8e41a",
+    "runner_word_count": 215
+  },
+  "result": {
+    "headline": "AI Generated",
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.9999896884
+  },
+  "method_implication": "Source-grounded situation alone did not change detector outcome. Shift to a single concrete editing scene rather than abstract practice description.",
+  "repeat_policy": "Do not repeat exact Candidate D."
+}
