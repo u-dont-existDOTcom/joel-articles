@@ -78,6 +78,14 @@ When you catch it, look around and just take a moment to enjoy some free honesty
 
 Here's where I want to clearly depart from the new age wisdom that all your problems are self-created: Somebody may really have crossed a boundary and still have hit something old in you. You felt your stomach tighten up, and that somehow meant “They're evil.” But you can defer that judgement for when you're in your happy place.
 
-<!-- The next subsection remains unresolved. R12 and R13 both failed output + producing-method audit. R13 was materially better, but retained the same hidden comprehensive counselor architecture in compressed form. Do not treat either as current humanized prose. -->
+### Also Look Outward
+
+Have you ever had a fight where you were absolutely sure you'd finally seen who somebody was, and then they came back later and had a basically normal conversation with you? Irritating. They can still disagree with you. Their boundary can still make you mad. Now the first fight has company. What matters more is when the subject changes but somehow you keep ending up in the same role: taking care of their reaction while your own experience disappears. [Lindsay Gibson](https://www.youtube.com/watch?v=VlNpgFWOLPw) writes about those repeated relational patterns in her work on emotional immaturity.
+
+You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change, that's probably as useful as their prior promises were. Think about how long it has taken you to become more healthy. Could you have done that from one moment to the next based on a promise? Sometimes we can be a better support for someone when we maintain a realistic boundary, so that we can hold high expectations, and still feel prepared for their failure to meet them.
+
+If you really did hurt them, repair it.
+
+You can mean the apology. Then notice what happens next. Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. But if you've said what you mean and said no, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was yours, and it doesn't prove they're manipulating you.
 
 <!-- The following source material, beginning with the private-draft practice, remains under humanization and is not silently represented here as finished. -->
