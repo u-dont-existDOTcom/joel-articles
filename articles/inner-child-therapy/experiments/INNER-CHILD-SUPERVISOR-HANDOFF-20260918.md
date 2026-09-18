@@ -1,7 +1,7 @@
 # Inner Child Therapy — isolated supervisor handoff
 
 Date: 2026-09-18
-Status: **RED1 SAME-CONTEXT LOOP CLOSED / FRESH-CONTEXT WRITER PACKET READY / OWNER PARAGRAPH FROZEN / RED2-RED3 UNTOUCHED / NO PANGRAM**
+Status: **FRESH RED1 F1 REJECTED / LEDGER-HIDDEN F2 FRESH WRITER NEXT / OWNER PARAGRAPH FROZEN / RED2-RED3 UNTOUCHED / NO PANGRAM**
 
 ## Branch ownership
 
@@ -22,53 +22,51 @@ The integration branch remains read/reconcile-only during the parallel phase.
 2. Fresh-read Joel `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
 4. Read branch lease + article `PARALLEL-WRITE-LOCK.json`.
-5. Read `HUMANIZATION-WRITER-STATE-20260918G.md`.
+5. Read `HUMANIZATION-WRITER-STATE-20260918H.md`.
 6. Read:
-   - `EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md`
-   - `EPISODE-008-B11-OWNER-LOCALIZATION-AND-PHASE-B-TRANSITION-20260918.md`
-   - `EPISODE-008-PHASE-B-RED1-R5-LITERAL-GUIDE-AUDIT-20260918.md`
-7. Fresh-read current Pangram-humanization calibration, including the active concessive-balance correction.
+   - `EPISODE-008-RED1-FRESH-WRITER-RETURN-F1-20260918.md`
+   - `EPISODE-008-RED1-FRESH-WRITER-F1-AUDIT-20260918.md`
+   - `EPISODE-008-RED1-FRESH-WRITER-PACKET-F2-LEDGER-HIDDEN-20260918.md`
+7. Fresh-read current Pangram-humanization calibration.
 
-## Current method state
+## Fresh F1 result
 
-Joel's owner paragraph is the only reliable green island in the current subsection.
+The first genuinely fresh Red1 writer preserved all required meaning but still marched almost one function per sentence.
 
-Red Region 1 was repaired five times in this same conversation:
-- R1 recurrence-first;
-- R2 source-first;
-- R3 later-conversation-first;
-- R4 unequal-paragraph architecture;
-- R5 literal span/disposition guide.
+This weakens the hypothesis that prior-candidate contamination was the main cause.
 
-Every attempt preserved meaning with zero unexplained substantive deltas.
+The stronger current hypothesis is **packet-induced ledger writing**: the F1 packet exposed six semantic obligations as bullets, and the fresh output reproduced those obligations almost one-to-one.
 
-Every attempt retained the same deeper style failure: the preservation ledger remained visible as a compact sentence-job sequence.
+Do not add more style prohibitions.
 
-The explicit R5 stop condition is therefore active:
-**do not generate another same-context Red1 variant.**
+## Next method
 
-## Next valid action
+Use the **ledger-hidden F2 packet**:
+`articles/inner-child-therapy/experiments/EPISODE-008-RED1-FRESH-WRITER-PACKET-F2-LEDGER-HIDDEN-20260918.md`
 
-Use a genuinely fresh conversation/context.
+The fresh writer does not see the six-item preservation ledger. The supervisor keeps it and performs fidelity checking afterward.
 
-Controlling fresh writer packet:
-`articles/inner-child-therapy/experiments/EPISODE-008-RED1-FRESH-WRITER-PACKET-20260918.md`
+The F2 writer must not inspect:
+- B11;
+- Red1 R1-R5;
+- F1;
+- their audits.
 
-The fresh writer must not inspect B11 or R1-R5 before writing.
+## After F2 return
 
-It returns Red1 prose only.
+Supervisor:
+1. freezes exact returned bytes;
+2. checks all Red1 preservation functions;
+3. rejects any unexplained substantive delta;
+4. audits lockstep/whole-boundary shape;
+5. asks Joel for visual judgment only if the candidate is no longer obviously model-shaped.
 
-This supervisor then:
-1. runs preservation proof;
-2. audits the complete integrated boundary;
-3. gets owner visual judgment;
-4. only then considers Red2.
+Do not automatically patch a missing semantic unit sentence-by-sentence if that would recreate the ledger architecture.
 
 ## Do not
 
-- do not simulate independence inside this conversation;
-- do not generate Red1 R6 here;
-- do not touch Red2 or Red3 yet;
+- do not generate Red1 in this saturated supervisor conversation;
+- do not touch Red2 or Red3;
 - do not Pangram;
 - do not green-lock model prose without owner/external evidence.
 
