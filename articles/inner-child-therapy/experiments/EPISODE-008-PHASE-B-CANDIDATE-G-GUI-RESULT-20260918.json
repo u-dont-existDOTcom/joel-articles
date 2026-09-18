@@ -1,0 +1,37 @@
+{
+  "episode_id": "inner-child-episode008-phase-b-candidate-g-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / MIXED / START-END-AI",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-G-20260918.md",
+    "reader_visible_sha256": "a82dcf4cba3758b16e3364b8c87bfe0247fccbad0372cff91797d5322a53bb91",
+    "runner_word_count": 256,
+    "pangram_ui_words_scanned": 269
+  },
+  "transport": {
+    "route": "Remote Desktop Commander -> Joel HP ProBook -> local Playwright Pangram GUI",
+    "headed": false,
+    "api_used": false,
+    "detector_version": "4.0",
+    "stage": "STAGE_SUCCESS",
+    "exact_history_binding": "PASS",
+    "captured_at_utc": "2026-09-18T17:50:54.614656Z"
+  },
+  "result": {
+    "headline": "AI Detected",
+    "prediction_short": "Mixed",
+    "fraction_ai": 0.4243027866,
+    "fraction_human": 0.5756971836,
+    "fraction_ai_assisted": 0.0,
+    "record_prediction_probability": 0.3749210238,
+    "report_body_summary": "AI-generated content appears at the start and end"
+  },
+  "comparison": {
+    "candidate_f_fraction_ai": 0.5329530835,
+    "candidate_g_fraction_ai": 0.4243027866,
+    "absolute_ai_fraction_change": -0.1086502969,
+    "interpretation": "Direct GUI-driven localized repair is producing measurable progress. Continue repairing start/end regions while preserving the middle contextual block."
+  },
+  "repeat_policy": "Do not repeat Candidate G."
+}
