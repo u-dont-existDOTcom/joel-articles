@@ -1,0 +1,18 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-candidate-e-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-E-20260918.md",
+    "reader_visible_sha256": "3c9fed513b23d456623c7d8746d6ed7ab10e8b9d6ef86241c894e061f18ae144",
+    "runner_word_count": 216
+  },
+  "result": {
+    "headline": "AI Generated",
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.9993895888
+  },
+  "method_implication": "Five measured variants A-E have produced no detector progress. The current broad direct-article generation family is flat and must be replaced before another attempt.",
+  "repeat_policy": "Do not repeat exact Candidate E."
+}
