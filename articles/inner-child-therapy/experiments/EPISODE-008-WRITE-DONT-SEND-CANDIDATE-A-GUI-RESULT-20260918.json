@@ -1,0 +1,27 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-candidate-a-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-A-20260918.md",
+    "reader_visible_sha256": "adab829c7a8e5600b1ec81175568f411bcc4fc44f70ff3126d64687731ed3e41",
+    "runner_word_count": 227
+  },
+  "transport": {
+    "route": "Remote Desktop Commander -> Joel HP ProBook -> local Playwright Pangram GUI",
+    "api_used": false,
+    "detector_version": "4.0",
+    "stage": "STAGE_SUCCESS",
+    "exact_history_binding": "PASS"
+  },
+  "result": {
+    "headline": "AI Generated",
+    "prediction_short": "AI",
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.9997871518,
+    "record_prediction": "We believe that this entire text is AI."
+  },
+  "method_implication": "No usable green islands. Stay in broad realization; do not pseudo-localize.",
+  "repeat_policy": "Do not repeat exact Candidate A."
+}
