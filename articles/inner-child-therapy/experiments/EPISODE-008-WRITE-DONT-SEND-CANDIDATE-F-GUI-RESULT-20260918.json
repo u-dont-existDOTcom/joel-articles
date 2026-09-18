@@ -1,0 +1,18 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-candidate-f-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-F-20260918.md",
+    "reader_visible_sha256": "d8fee1f827df7714c8364bd2f026c79e7bc567591f633cb72c51e34cfef4661c",
+    "runner_word_count": 214
+  },
+  "result": {
+    "headline": "AI Generated",
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.9921720028
+  },
+  "method_implication": "Oral-friend intermediate did not produce detector movement. Retire that architecture for this target.",
+  "repeat_policy": "Do not repeat exact Candidate F."
+}
