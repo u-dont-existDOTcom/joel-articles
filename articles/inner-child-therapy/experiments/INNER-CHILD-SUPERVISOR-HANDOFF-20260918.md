@@ -1,7 +1,7 @@
 # Inner Child Therapy — isolated supervisor handoff
 
 Date: 2026-09-18
-Status: **RED1 F4A OWNER-REVIEW CHECKPOINT / PRESERVATION PASS / NO PANGRAM / RED2-RED3 UNTOUCHED**
+Status: **RED1 F4A REJECTED / F2 PARA1 UNLOCKED / ONLY OWNER PARAGRAPH GREEN / NO PANGRAM**
 
 ## Branch ownership
 
@@ -22,57 +22,58 @@ The integration branch remains read/reconcile-only during the parallel phase.
 2. Fresh-read Joel `SKILL.md`, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, `articles/INDEX.json`.
 3. Confirm Inner Child Therapy remains unregistered.
 4. Read branch lease + article parallel-write lock.
-5. Read `HUMANIZATION-WRITER-STATE-20260918K.md`.
+5. Read `HUMANIZATION-WRITER-STATE-20260918L.md`.
 6. Read:
-   - `EPISODE-008-RED1-FRESH-WRITER-RETURN-F4-PARA2-20260918.md`
-   - `EPISODE-008-RED1-FRESH-WRITER-F4-AUDIT-20260918.md`
    - `EPISODE-008-RED1-F4A-OWNER-REVIEW-CANDIDATE-20260918.md`
-   - `EPISODE-008-RED1-F4A-AUDIT-20260918.md`
+   - `EPISODE-008-RED1-F4A-STRICT-REAUDIT-20260918.md`
 7. Fresh-read current Pangram-humanization calibration.
 
-## Current Red1
+## Controlling judgment
 
-F4 restored the missing `emotional immaturity` function and removed the F3 provenance drift.
+F4A is rejected.
 
-F4 sentence 2 was then deleted as redundant explanatory aftercare.
+The prior owner-review admission was too optimistic.
 
-Current candidate:
-`EPISODE-008-RED1-F4A-OWNER-REVIEW-CANDIDATE-20260918.md`
+### Fidelity issue
 
-Preservation:
-- PASS;
-- forward traceability PASS;
-- reverse traceability PASS;
-- unexplained substantive deltas 0.
+F2 paragraph 1 contains:
+`I wouldn't trust that feeling too quickly.`
 
-## Style state
+That is an unsupported Joel-personal preference wrapper around general advice.
 
-No current same-context defect is strong enough to justify another rewrite before owner judgment.
+The paragraph also uses stronger-than-needed rhetorical intensifiers:
+- `completely different`
+- `perfectly well`
 
-Residual flags:
-- one `hear you perfectly well and still disagree` construction;
-- one compact `rather than` source contrast.
+### Style issue
 
-These are not repeated enough in F4A to establish the prior lockstep/concessive-balance failure by themselves.
+Red1 still forms a neat mini-essay:
+`salience -> overgeneralization -> caution -> later interaction -> disagreement/boundary -> Gibson synthesis`.
 
-## Next action
+The first two sentences have more natural thought duration than F1, but the entire region remains designed around a complete explanatory arc.
 
-Joel visually judges the complete F4A Red1 boundary.
+## Method correction
 
-If owner rejects:
-- capture exact defect;
-- continue from owner evidence.
+F2 paragraph 1 was only a same-context provisional hold.
 
-If owner finds it visually plausible:
-- freeze Red1 provisionally;
-- proceed to Red Region 2;
-- Pangram only if it will change localization.
+It had no owner/detector/independent evidence.
 
-## Do not
+Fixing it while narrowing all later work to paragraph 2 created a pseudo-green.
 
-- do not touch Red2/Red3 before owner judgment on Red1;
-- do not Pangram automatically;
-- do not promote F4A to rolling article yet.
+Correct current locks:
+- Joel exact paragraph = green/frozen;
+- all model-written Red1 prose = red/unlocked.
+
+## Next strategy
+
+Do not continue paragraph-2 residual repair.
+
+Before another writer attempt, compare a structurally different full-Red1 interface:
+1. fresh full-Red1 realization from a very light semantic brief with no model pseudo-green;
+2. owner-natural-language route if Joel directly authors this region.
+
+Do not Pangram.
+Do not touch Red2/Red3.
 
 ## Queued afterward
 
