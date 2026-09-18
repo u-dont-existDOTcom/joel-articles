@@ -1,0 +1,23 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-r5-h5-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0 / LARGE CONTINUOUS-SIGNAL IMPROVEMENT",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H5-20260918.md",
+    "reader_visible_sha256": "034490825ceaa299c8eb7b1f52d59fe835c6cf9e0c76be028ed65f66f293f3e9",
+    "runner_word_count": 184
+  },
+  "result": {
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.7955443859
+  },
+  "comparison": {
+    "r5_baseline": 0.9357032776,
+    "h2": 0.8971986771,
+    "h4": 0.8884661198,
+    "h5": 0.7955443859
+  },
+  "interpretation": "Collapsing the matched Maybe response-choice pair produced the largest improvement so far. Continue controlled edits from H5 rather than broad rewriting.",
+  "repeat_policy": "Do not repeat H5."
+}
