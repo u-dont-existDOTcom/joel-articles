@@ -1,0 +1,25 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-candidate-g-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-G-20260918.md",
+    "reader_visible_sha256": "40d82ad8e42eb0cc0c33eb3ff3ba3af72b17f820ad4c01bee369e12c53587063",
+    "runner_word_count": 210
+  },
+  "result": {
+    "headline": "AI Generated",
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.9999442101
+  },
+  "comparison": {
+    "best_probability_so_far": {
+      "candidate": "F",
+      "probability": 0.9921720028
+    },
+    "note": "All A-G are still detector AI 1.0; oral-intermediate F has the weakest AI probability but no Human segment."
+  },
+  "method_implication": "Seven generated attempts are flat at the segment level. Stop generating and measure the best available pre-existing literal subsection before choosing another architecture.",
+  "repeat_policy": "Do not repeat exact Candidate G."
+}
