@@ -1,0 +1,54 @@
+{
+  "episode_id": "inner-child-episode008-lean-fresh-owner-pangram-localization-20260918",
+  "date": "2026-09-18",
+  "status": "OWNER-SUPPLIED-PANGRAM-GUI-LOCALIZATION / 3 SEGMENTS / RED-GREEN-RED",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "tested_candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-LEAN-LITERAL-FRESH-WRITER-RETURNED-20260918.md",
+    "sha256_no_terminal_newline": "5c4169e8624b57b52af3e15672eea9b04cc6dd5f82bb61356a82171d4e7302a5",
+    "identification_basis": "Screenshot visibly contains the uncorrected phrase 'Then there's the thing that keeps happening', so this result is bound to the raw fresh-writer return, not the later mechanically corrected localization probe."
+  },
+  "detector": {
+    "surface": "Pangram GUI screenshot supplied by owner",
+    "version": "not visible in supplied screenshot",
+    "overall_ui": "2 of 3 segments are AI",
+    "ui_total_words": 300
+  },
+  "segments": [
+    {
+      "ordinal": 1,
+      "label": "AI",
+      "confidence": "High",
+      "ui_words": 97,
+      "visible_start": "### Also Look Outward One ugly conv...",
+      "literal_boundary": "heading plus complete opening model paragraph",
+      "literal_sha256_no_terminal_newline": "bc5788f5b97b3da8061c64284f077f2aed20de894695d33248052b17b917ccd8"
+    },
+    {
+      "ordinal": 2,
+      "label": "Human Written",
+      "confidence": "High",
+      "ui_words": 105,
+      "visible_start": "You may not know for certain whether...",
+      "literal_boundary": "exact 96-word owner paragraph plus the following model sentence 'If you really did hurt them, repair it.'; the screenshot's third segment begins at 'You can own what you did and still noti...'",
+      "literal_sha256_no_terminal_newline": "78f1b175317c05f1ae86aa8e511950cc83bd1f5fd108c3bf7bb0d1c1140bd6a0",
+      "interpretation": "External detector evidence supports freezing this combined block in the next integrated candidate. Do not infer that the 8-word model sentence would test Human/high by itself; most of the segment is owner-authored prose."
+    },
+    {
+      "ordinal": 3,
+      "label": "AI",
+      "confidence": "High",
+      "ui_words": 98,
+      "visible_start": "You can own what you did and still noti...",
+      "literal_boundary": "all remaining model prose after 'If you really did hurt them, repair it.'",
+      "literal_sha256_no_terminal_newline": "974783877a7d7ca94472d05d8b400d7a648c8466c07715a20173bfbecc9d3c2e"
+    }
+  ],
+  "editorial_overrides": [
+    "The opening AI/high region contains Joel's independently rejected vague 'the thing' tic.",
+    "The raw fresh-writer output dropped the source-required Lindsay Gibson hyperlink; repair this inside red segment 1.",
+    "Human/high detector status never overrides an explicit owner/editorial rejection."
+  ],
+  "method_implication": "External localization has now earned a Phase-B red/green/red map. Freeze segment 2 exactly as a combined boundary; repair only segments 1 and 3; keep checking the complete integrated boundary.",
+  "pangram_repeat": "Do not repeat this exact candidate. The screenshot already supplies the decision-changing localization evidence."
+}
