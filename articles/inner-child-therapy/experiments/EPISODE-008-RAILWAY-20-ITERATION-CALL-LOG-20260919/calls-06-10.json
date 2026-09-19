@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "call_range": [
+    6,
+    10
+  ],
+  "prompt_resolution": "Each call's prompt_template resolves to the exact text in prompt-templates.json.",
+  "calls": [
+    {
+      "call_number": 6,
+      "project_ref": "mission_control",
+      "thread_id": "5353b6df-ad89-406f-afb0-c31b240e1684",
+      "thread_mode": "fresh",
+      "prompt_template": "CURRENT_MINIMAL",
+      "output_exact": "You reread the thing before sending it and there is usually a slightly embarrassing moment where you can hear yourself trying too hard to win. Maybe one sentence is doing courtroom drama, another is pretending not to care, and some little phrase like “which is fine” is very obviously not fine. So you take that stuff out. You make the message cleaner, easier for the other person to receive, less likely to start three new arguments you never wanted to have. But the part of you who wrote the first version still has a point. He may have said it badly, or made the charge too large, but he was not necessarily confused about being hurt. That is the odd turn: editing the message can be wise while editing your own account of what happened can become a kind of surrender. The more adult voice does not need to drag the angry one away from the keyboard and call him embarrassing. It can sit down beside him, more or less, and say, yeah, I see why you wrote that. We are not sending all of it. Still, this sentence here—this ugly, overstated sentence—was trying to keep something from getting brushed aside, and maybe that part stays, just in words you can stand behind.",
+      "output_word_count_whitespace": 213,
+      "output_character_count": 1168,
+      "output_sha256_no_terminal_newline": "b86f3be8b96e38409a7c734d541a382b67b5c03e72b8cfea8b6ac2eee3381d67",
+      "railway_tool_calls": [
+        "updateWorkingMemory",
+        "sandboxRunTool_failed"
+      ],
+      "internal_audit_code": "INVALID_CLEAN_CONTEXT_PROJECT_MEMORY"
+    },
+    {
+      "call_number": 7,
+      "project_ref": "isolated",
+      "thread_id": "20f7b46e-af51-482a-9501-ea1bc2c1c98f",
+      "thread_mode": "fresh",
+      "prompt_template": "CURRENT_MINIMAL",
+      "output_exact": "The point of writing it without sending it yet is that you get to be honest before you have to be wise. Put down the angry version, the defensive version, the courtroom speech where you prove beyond a reasonable doubt that the other person is an idiot—whatever is actually there. Then leave it alone for ten minutes, an hour, or overnight if you can. When you come back, you can usually tell which parts communicate something important and which parts are just trying to make the other person feel as bad as you felt. Keep the first kind. Delete the second.",
+      "output_word_count_whitespace": 101,
+      "output_character_count": 557,
+      "output_sha256_no_terminal_newline": "8997f19bcfe82848725380f5557d6df431d1df5d16df2e67befc8d3c598aecff",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "FAIL_APHORISM_MENU_TIMING"
+    },
+    {
+      "call_number": 8,
+      "project_ref": "isolated",
+      "thread_id": "20f7b46e-af51-482a-9501-ea1bc2c1c98f",
+      "thread_mode": "continued",
+      "prompt_template": "ISOLATED_BASELINE_CRITIQUE",
+      "output_exact": "Sometimes I'll write the harsh version first and then, reading it back, realize I don't quite mean what I wrote. The hurt is real, and I may still think the other person was unfair or careless, but the wording makes it sound like I think they're always that way, or like I know why they did it, or like I want to hurt them back. Usually I don't. I just want them to understand why what happened hurt.",
+      "output_word_count_whitespace": 78,
+      "output_character_count": 400,
+      "output_sha256_no_terminal_newline": "18cc206e78bd51fddd9ac23756b594307a5b5bdef6f2a204adc97d383c2e8c24",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "NEAR_PASS_EXAMPLES_CLOSURE"
+    },
+    {
+      "call_number": 9,
+      "project_ref": "isolated",
+      "thread_id": "20f7b46e-af51-482a-9501-ea1bc2c1c98f",
+      "thread_mode": "continued",
+      "prompt_template": "SPEECH_DETOUR",
+      "output_exact": "Because sometimes I write it and then I read it back and think, well, okay, I am that hurt, but that’s not exactly what I mean. Like, I’ll make it sound as if they’re just a selfish person, when really I mean that this one thing they did felt selfish to me, and those aren’t the same thing. Or I’ll realize I’m saying they meant to hurt me when I don’t actually know that. I’m still upset, though, so it’s not like the whole draft is false. It’s more that I can hear myself reaching past what happened because I want them to feel how much it got to me.",
+      "output_word_count_whitespace": 110,
+      "output_character_count": 552,
+      "output_sha256_no_terminal_newline": "db5a4034c2da18a35f56311b115a84a891b47d86ea8e5481983fbb01b82e59f3",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "NEAR_PASS_UNSTATED_QUESTION"
+    },
+    {
+      "call_number": 10,
+      "project_ref": "isolated",
+      "thread_id": "20f7b46e-af51-482a-9501-ea1bc2c1c98f",
+      "thread_mode": "continued",
+      "prompt_template": "CONTEXTUAL_ADJUST",
+      "output_exact": "Sometimes I write it and then I read it back and think, well, okay, I am that hurt, but that’s not exactly what I mean. Like, I’ll make it sound as if they’re just a selfish person, when really I mean that this one thing they did felt selfish to me, and those aren’t the same thing. Or I’ll realize I’m saying they meant to hurt me when I don’t actually know that. I’m still upset, though, so it’s not like the whole draft is false. It’s more that I can hear myself reaching past what happened because I want them to feel how much it got to me.",
+      "output_word_count_whitespace": 109,
+      "output_character_count": 544,
+      "output_sha256_no_terminal_newline": "6938c3de260d8b873d20ee905681597e1a8e34d6ef347ea5ebac34be3808c69e",
+      "railway_tool_calls": [],
+      "internal_audit_code": "PASS_HUMAN_MOVEMENT"
+    }
+  ]
+}
