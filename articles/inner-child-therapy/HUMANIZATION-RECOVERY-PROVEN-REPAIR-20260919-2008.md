@@ -1,86 +1,86 @@
-# Direct Chat repair — current checkpoint
+# Inner Child Therapy — recovered-method / wider-passage checkpoint
 
 Updated: 2026-09-19
-Owned branch: `chat/inner-child-proven-repair-20260919-2008`
-Owner outcome: OPEN.
-Status: PRIOR P3 DETECTOR PASS NOT OWNER-ACCEPTED; ACTUAL MODEL-TEXT A MIXED, B AI, C UNMEASURED AFTER PLATFORM TOOL BLOCK.
+Owned article branch: `chat/inner-child-proven-repair-20260919-2008`
+Owned evidence branch: `evidence/inner-child-proven-repair-20260919-2008` in the Pangram lab.
+Parent owner outcome: **OPEN — actual model-written prose improved, with preserved meaning and acceptable voice, not owner reauthoring or a mixed-boundary detector pass.**
 
-## Current owner correction and durable display rule
+## Current owner direction
 
-Joel says prior P3 still looks more AI than his prose: compact, assigning every sentence a clear next function. He also raised loss of the owning-wrongdoing thought. Do not label that candidate accepted, a fully Human style exemplar, or autonomous model-generation competence.
+Work across sections and paragraphs rather than remain trapped in one paragraph. Compare where a method works and where it does not. Keep paragraph evidence separate from larger-section evidence. Do not overwrite accepted/owner prose, ask Joel to write every difficult passage, or substitute another Railway search for the recovered direct editorial process.
 
-The wrongdoing/directness distinction is still present in unchanged P1 of the cumulative article. P3 by itself does not display it. This does not settle every nuance of Joel's concern; future comparison must show the actual source and complete relevant passage rather than require him to recall missing context. Do not silently rewrite P1/P2 or add old model functions back into owner text.
+The comparison-display rule is already merged into `main/SKILL.md`: whenever asking Joel to compare, show both exact versions in the same response, with context.
 
-The new comparative-display rule is now MERGED into canonical `main/SKILL.md`, Reporting, via PR 82; merge commit `a6396ee6d40c49976789d2462c2f0d9b36f8d1b5`. Whenever asking Joel whether wording is better/different/preferable, show both exact versions in the same response, clearly labeled, with necessary context. Long artifacts: show changed spans and link complete versions. Links or version IDs alone do not satisfy the rule.
+## Current article authority / preservation
 
-Rule verification: one additive paragraph, no deleted text; 111 unit tests passed; content validator passed; repository audit 0 errors / 4 pre-existing warnings; git diff --check passed; content-integrity hosted check succeeded; canonical main readback verified.
+Inner Child Therapy remains unregistered. The current review assembly is `HUMANIZED-ARTICLE-SO-FAR.md`; its blob remains `7b0b21d6a8fdfd527a3deeb730b82c671b76e1e5`, unchanged by this pass.
 
-## What the previous pass established
+My Journey P9's good-enough owner acceptance and its independent Human result remain in force. Do not polish it again merely because the detector work expanded.
 
-Prior P3 exact SHA: `60db8c5a4994591ec9cd442c7d6455cd8cc989884434a879b17cc4d6f935eaa4`.
-One direct Chat candidate and one standalone GUI test in that replay returned Human 1.0, but source thought and hand/pencil image were supplied by Joel. Preserve that outcome as evidence of source-backed editorial realization, not free generation.
+Write It P1/P2 remain as recorded in the current assembly. The owning-wrongdoing/directness-versus-honesty distinction is still in P1. The owner raised a fidelity/voice concern about the separately shown P3; no P1/P2 change or silent restoration has been made.
 
-It was the first candidate/test in that replay, NOT the first use of sentence-level instructions. Earlier Railway whole-paragraph and local-ticket variants failed. Multiple variables differ, so neither addressing instructions to Joel nor changing execution surface is established as causal. Do not claim to know Pangram's internal reason for this pass.
+## Prior P3 result — do not overclaim
 
-Exact prior operation/candidate records:
-- `experiments/PROVEN-REPAIR-EXECUTION-20260919-2008.md`
-- `experiments/PROVEN-REPAIR-P3-A-20260919-2008.md`
+`experiments/PROVEN-REPAIR-P3-A-20260919-2008.md` independently measured Human 1.0 at exact SHA `60db8c5a4994591ec9cd442c7d6455cd8cc989884434a879b17cc4d6f935eaa4`.
 
-## Current actual model-written target
+It was the first measured candidate of that local direct-Chat replay, not the first historical use of sentence instructions. It still edits Joel-sourced thought/metaphor. Joel subsequently found it more model-shaped and compressed than his prose. Therefore it remains **unaccepted**, not evidence of a reliably learned autonomous writing ability. No insertion into the current article occurred.
 
-The owner requested moving to AI prose rather than editing more of his wording.
+The recoverable operation trace remains `experiments/PROVEN-REPAIR-EXECUTION-20260919-2008.md`.
 
-Selected source: `experiments/EPISODE-008-TRANSFER-PILOT-T1-CHECKING-20260919.md`.
-Original exact SHA: `96fb536722ead01963aed0249a40534bfd2fbecf79a47d72638861ee804c13f5`, 104 words, model-written, existing Pangram 4.0 AI 1.0 result. No raw owner paragraph, hand/pencil image or owner autobiography is used in the new repairs.
+## Actual-model checking continuation
 
-The whole R5 checking subsection was read for source functions and placement. This paragraph is a bounded method test for the next checking subsection, not a replacement for its entire safety/practical-action or exercise-evaluation material.
+T1 exact source was model-generated and previously AI 1.0.
+Direct repair A: 117 words, SHA `9b9f0550e8e89e7ad69d03a578ebfada988df11f9d97659f16ea23658e04af01`, Human 0.3409090936 / AI 0.6590909362. Read-only localization identified an AI opening and Human ending within that tested paragraph; those windows were not independently certified sentences.
+Direct repair B: 112 words, SHA `aca6d0ef4b21485f913c74e31dfafdf82a7030674f9509b24d4dfc7cc5d629bb`, AI 1.0.
+Direct repair C: formerly blocked before file preparation; now successfully resumed exactly once. 120 words, SHA `d991de22776cb28483b6ed8aa092348775b960b74e2e736659bc601cd2c8647b`, Pangram 4.0 AI 1.0, captured `2026-09-19T21:44:58.146944Z`. No repeated submission.
 
-## Actual work this turn
+C remains failed. Do not make another C paraphrase merely because the user said continue.
 
-Frozen contract: `experiments/ACTUAL-MODEL-REPAIR-2103-CONTRACT.md`.
+## Wider pass completed
 
-A: `experiments/ACTUAL-MODEL-REPAIR-2103-A.md`
-- SHA `9b9f0550e8e89e7ad69d03a578ebfada988df11f9d97659f16ea23658e04af01`
-- 117 words
-- Pangram 4.0 / STAGE_SUCCESS / exact_utf8 identity
-- Human `0.3409090936`; AI `0.6590909362`; AI-assisted `0.0`
-- captured `2026-09-19T21:12:41.827383Z`
-- source missing child-request function restored; unsupported useful-early/unhelpful-later partition removed.
-- Read-only localization succeeded: [0,435) AI/Medium, [435,660) Human/Medium. Suffix is contextual evidence only, not an isolated-short-text pass.
+Workboard: `experiments/ARTICLE-WIDE-WORKBOARD-20260919.md`.
+Exact block inventory, lineage and detector joins: `experiments/ARTICLE-WIDE-COVERAGE-20260919.json`.
+Batch contract: `experiments/MULTI-PASSAGE-FIRST-BATCH-20260919.md`.
+Specific local operations: `experiments/MULTI-PASSAGE-LOCAL-REPAIR-OPERATIONS-20260919.md`.
+Both before/after pairs and fidelity reads: `experiments/MULTI-PASSAGE-LOCAL-REPAIRS-A-20260919.md`.
 
-B: `experiments/ACTUAL-MODEL-REPAIR-2103-B.md`
-- SHA `aca6d0ef4b21485f913c74e31dfafdf82a7030674f9509b24d4dfc7cc5d629bb`
-- 112 words
-- Pangram 4.0 / STAGE_SUCCESS / exact_utf8 identity
-- Human `0.0`; AI `1.0`; AI-assisted `0.0`
-- captured `2026-09-19T21:15:39.067211Z`
-- opening turned into illustrative inner questions; A's suffix stayed exact.
-- Regression: the plan was followed but did not improve the detector result. Narrating the thinking process is not a validated substitute for better reasoning. No claim that quoted questions themselves cause AI scoring.
+Coverage:
+- all 19 recorded H1 headings;
+- 33 current review blocks plus 11 additional unresolved R5 blocks;
+- 43 prose paragraphs plus one numbered-list block;
+- nine exact standalone cached paragraph results recovered by input hash, including six current My Journey Human paragraphs and owner-derived Write It P1;
+- nineteen short recovered blocks still individually unmeasured;
+- full later-section body coverage not claimed.
 
-C: `experiments/ACTUAL-MODEL-REPAIR-2103-C.md`
-- SHA `d991de22776cb28483b6ed8aa092348775b960b74e2e736659bc601cd2c8647b`
-- 120 words
-- UNMEASURED. The attempt to write the exact input file through Remote Desktop Commander was blocked by OpenAI: safety status could not be determined. No Pangram submission or reservation for C was made in this execution. Do not represent it as a score, a credit/authentication failure, or a permanently unavailable GUI route. No rerouting around this platform block was attempted.
-- Structural alternative compared before drafting: improve the causal account of certainty as a stopping condition rather than add another inner-monologue performance. Meaning/placement checks completed; subjective style remains provisional.
+Five new GUI inputs this pass, all independent paragraphs and exact History-bound:
+1. C — AI 1.0.
+2. Readiness baseline, 69 words — AI 1.0.
+3. Readiness repair A, 67 words — AI 1.0.
+4. Exercise-evaluation baseline, 81 words — AI 1.0.
+5. Exercise-evaluation repair A, 95 words — AI 1.0.
 
-Raw A/B results and A localization are pushed under:
-`u-dont-existDOTcom/pangram-humanization-lab@evidence/inner-child-proven-repair-20260919-2008:state/gui-runs/pangram-4/<SHA>/`.
-Both result files were read back through connected GitHub. Two new GUI submissions, one read-only localization, no paid API and no exact repeat. Prior six checking-target tests remain in the history; no budget reset is claimed.
+No paid API route, no exact repeats, no owner-Human filler. Immutable raw evidence is in Pangram lab commit `23aa43385da7a3dd46f669ca66ff80f9d9236501`; exact result paths are in the workboard/JSON.
 
-## Editorial/learning disposition
+## Method audit / honest implication
 
-No new paragraph has met both detector and owner-editorial acceptance in this continuation. A is the best measured result; B is rejected as a regression; C has clearer explicit reasoning but remains untested and may still have model-shaped compression. Do not promote another global theory based on this small, correlated sequence.
+The readiness repair clarified what adult availability meant and removed vague computer/deep-dive packaging. The evaluation repair unpacked its parenthetical and kept real benefits distinct from solving the original problem. They executed those local operations, but both retained compact, deliberately arranged instructional sequences and both remained AI 1.0.
 
-There is no need for Joel to provide more source prose. Any owner help should be a diagnosis/authorial distinction tied to the displayed before/after, not a request to write the replacement himself.
+Those are unsuccessful humanization attempts, not newly proven learning. The results also show that the difficulty was not confined to the single checking argument. Conversely, they do not prove that sentence-level editing never works, that a Human anchor is required, or that a particular phrase/addressee causes a pass.
 
-## Stop admission and next action
+Use the broader workboard to compare real content/provenance/edit types. Do not spend more calls merely to fill every cell or promote internal-probability movement as success. No failed repair becomes current prose.
 
-Parent outcome OPEN. Independent actions completed: durable comparison rule merged and verified; prior success reclassified under owner critique; exact model source recovered; two direct repairs tested; read-only localization completed; third repair saved with preservation/strategy audit.
+## RDC status
 
-Current execution boundary: platform blocked the preparatory file write for C. Do not work around the safety-status block through another transport. Preserve C as unmeasured; no claim of background work.
+The unchanged previously blocked C write succeeded through the same ordinary tool path. All five detector inputs completed afterward. A separate source-file search request again received the platform message that safety status could not be determined. Root cause remains unknown. This is not evidence of exhausted Pangram credits, failed login, laptop failure, or a total RDC outage. No alternate route was used to evade the blocked source search.
 
-Next permitted progress when the ordinary execution path is available: assess C's literal quality, then at most its justified standalone measurement under valid authorization, retaining all prior results. Owner may also supply a local diagnosis of the visible comparison; no request for more authored material is currently justified.
+## Full-source recovery boundary
 
-## Article state and link
+The GitHub receipt binds the 153734-byte raw editor HTML with SHA `5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1`. The complete raw body was not verified or installed in this execution. Current Library search finds September 15 raw/derived references, but multiple versions exist and a related edit receipt binds a different source hash. Search excerpts, names and timestamps are not a byte-level authority match.
 
-Inner Child remains unregistered/experimental. The cumulative `HUMANIZED-ARTICLE-SO-FAR.md` is unchanged (blob `7b0b21d6a8fdfd527a3deeb730b82c671b76e1e5`). Neither prior P3 nor A/B/C was silently inserted. Keep its link at the end of each owner-facing article turn.
+The verified material is sufficient for the completed comparisons and further reading of the recorded R5 remainder. It is not sufficient to claim a current all-article paragraph inventory or rewrite all fifteen later H1 bodies. The minimal owner input for that expansion is reattaching the full raw September 15 editor body (or explicitly supplying the intended replacement source); no new authored paragraph is requested.
+
+## Next action
+
+Recover the exact complete source, reconcile it against the current accepted assembly and owner supersessions, then extend the same workboard across the remaining section bodies. Use representative passages with different concrete defects and preserve complete before/operation/after/result records. Continue working inside the existing owner-authorized prose scope; no new global generator protocol is needed.
+
+Article outcome remains open. No paragraph, section, source recovery, or writing capability is called complete merely because this inventory and batch are complete.
