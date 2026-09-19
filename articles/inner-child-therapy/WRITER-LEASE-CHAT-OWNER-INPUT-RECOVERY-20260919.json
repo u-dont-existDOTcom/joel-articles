@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "complete",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-owner-input-recovered-20260919-1839",
   "parent_branch": "chat/inner-child-pass-c-premise-correction-20260919-1825",
@@ -8,5 +8,7 @@
   "integration_branch": "task/inner-child-therapy-intake-20260915",
   "scope": "Correct the recovery state after recovering Joel's already-supplied rough cognition and prior owner-cognition experiments for Write It. Don't Send It Yet.",
   "writer_role": "humanization strategy supervisor",
-  "created_at_utc": "2026-09-19T18:39:00+00:00"
+  "created_at_utc": "2026-09-19T18:39:00+00:00",
+  "completed_at_utc": "2026-09-19T18:40:00+00:00",
+  "result": "Recovered Joel's prior rough cognition and existing Human evidence; corrected the missing-owner-input diagnosis; mapped only the remaining outward residual functions around immutable Human owner spans."
 }
