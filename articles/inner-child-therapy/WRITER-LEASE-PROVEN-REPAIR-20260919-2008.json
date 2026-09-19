@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-proven-repair-20260919-2008",
+  "integration_branch": "chat/inner-child-humanization-recovery-20260918-0037",
+  "integration_base_sha": "0ec2d6d503d1459ed4ab1dfe17a31cbf82171d50",
+  "scope": "Recover actual successful local editorial operations and apply them directly in Chat to the unresolved Write It P3. No Railway generation. No changes to completed P1/P2 or other writers' branches. No candidate promotion without owner acceptance.",
+  "owner_outcome": "OPEN: reusable model-written editorial improvement, not owner reauthoring or mixed-boundary detector camouflage"
+}
