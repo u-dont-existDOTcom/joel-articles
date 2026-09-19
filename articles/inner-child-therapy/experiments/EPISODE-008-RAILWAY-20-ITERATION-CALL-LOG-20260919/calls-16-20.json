@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "call_range": [
+    16,
+    20
+  ],
+  "prompt_resolution": "Each call's prompt_template resolves to the exact text in prompt-templates.json.",
+  "calls": [
+    {
+      "call_number": 16,
+      "project_ref": "isolated",
+      "thread_id": "de2fc22f-5fe4-415d-8703-93c84eb3d5b9",
+      "thread_mode": "continued",
+      "prompt_template": "P3_REMOVE_TEACHING_QUOTE",
+      "output_exact": "And I think returning to the person who wrote that first version is part of it, too, because when the emotion first comes up, that person is often the inner child. The adult isn’t taking the pencil away because what the child wrote was embarrassing. He’s just sitting down beside him, putting a hand over his for a moment, and helping him keep writing.",
+      "output_word_count_whitespace": 64,
+      "output_character_count": 352,
+      "output_sha256_no_terminal_newline": "f3c0177094d1562ae913b758438b3bee36b67545f26ede9104bcb3253ada9713",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "PASS_SOURCE_DRIVEN"
+    },
+    {
+      "call_number": 17,
+      "project_ref": "isolated",
+      "thread_id": "502abda7-dda2-4041-83b4-ecb1d88789a4",
+      "thread_mode": "fresh",
+      "prompt_template": "P3_MINIMAL_SOURCE",
+      "output_exact": "And I think returning to the person who wrote that first version is part of the practice too. Usually that version came from the younger part of me who was hurt and grabbed the pencil first. Revising it isn’t the adult showing up to snatch the pencil away because the child said something embarrassing. It’s more like putting a hand over his and saying, yeah, I know what you’re trying to say—let’s find a way they might actually hear it.",
+      "output_word_count_whitespace": 80,
+      "output_character_count": 438,
+      "output_sha256_no_terminal_newline": "5c6f0cc9d1bf9007b7ceb621e7fb64e5460bf210b66d40ce29b7cb04e5b131f8",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "FAIL_QUOTE_REINTRODUCED"
+    },
+    {
+      "call_number": 18,
+      "project_ref": "isolated",
+      "thread_id": "36fabb42-69f7-4d2f-83c4-e89f3e6222a7",
+      "thread_mode": "fresh",
+      "prompt_template": "P3_SPEECH_NO_QUOTE",
+      "output_exact": "And I think part of not sending it yet is going back for the person who wrote that first version. You don’t snatch the pencil away because they got upset and made a mess of the sentence. You put your hand over theirs for a minute and help them write it in a way the other person might actually be able to hear. The upset is still there. You’re just not leaving that part of you alone with the send button.",
+      "output_word_count_whitespace": 81,
+      "output_character_count": 405,
+      "output_sha256_no_terminal_newline": "916d930200d0bc820df11da0544531201fe3432402abff8d127a62b02156d3f3",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "NEAR_PASS_PUNCHLINE"
+    },
+    {
+      "call_number": 19,
+      "project_ref": "isolated",
+      "thread_id": "36fabb42-69f7-4d2f-83c4-e89f3e6222a7",
+      "thread_mode": "continued",
+      "prompt_template": "P3_REMOVE_PUNCHLINE",
+      "output_exact": "And I think part of not sending it yet is going back for the person who wrote that first version. You don’t snatch the pencil away because they got upset and made a mess of the sentence. You put your hand over theirs for a minute and help them write it in a way the other person might actually be able to hear, while the upset is still there and they’re still trying to say what happened.",
+      "output_word_count_whitespace": 77,
+      "output_character_count": 388,
+      "output_sha256_no_terminal_newline": "b70e534c0deed4fc88783554ad530a8af530c990b97caf10ed658b4bc2485145",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "PASS_SOURCE_DRIVEN_SELECTED"
+    },
+    {
+      "call_number": 20,
+      "project_ref": "isolated",
+      "thread_id": "97baae5b-50f5-4c4e-ab46-a222d1c13a5e",
+      "thread_mode": "fresh",
+      "prompt_template": "P3_FINAL_TRANSFER",
+      "output_exact": "And I think going back to the person who wrote that first version is part of it too, because usually that person was upset and just trying to get something onto the page. You don’t have to act embarrassed by him or grab the pencil out of his hand. You can leave his hand there, put yours around it, and start going through what he wrote with him, changing a word here, slowing down a sentence there, trying to help him say what he was actually reaching for.",
+      "output_word_count_whitespace": 88,
+      "output_character_count": 457,
+      "output_sha256_no_terminal_newline": "af528caa3380d123c6f58ba9704bcadd47f494219d3813bff60dadc8fc834bc4",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "NEAR_PASS_TRIAD_TIDY"
+    }
+  ]
+}
