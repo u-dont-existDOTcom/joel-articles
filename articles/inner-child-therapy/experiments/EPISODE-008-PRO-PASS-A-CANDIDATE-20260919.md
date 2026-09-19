@@ -6,10 +6,12 @@ Branch: `chat/inner-child-humanization-recovery-20260918-0037`
 
 ## Provenance
 
-Generated in a genuinely fresh GPT-5.6 Pro chat from:
+Owner returned this output to the supervising Chat immediately after the requested fresh GPT-5.6 Pro Pass A handoff using:
 `EPISODE-008-PRO-PASS-A-FRESH-CONTINUATION-PACKET-20260919.md`
 
-The writer was not shown the known failed Episode 008 prose or detector history.
+Provider/model provenance is **owner-context asserted, not independently provider-read back**. This is sufficient for the working experiment but must not be upgraded to independently verified model identity.
+
+Under the Pass A protocol, the writer was not to inspect the known failed Episode 008 prose or detector history.
 
 Owner pasted the exact output back into the supervising Chat on 2026-09-19.
 
