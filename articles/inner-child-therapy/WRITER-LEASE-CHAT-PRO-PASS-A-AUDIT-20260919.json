@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-pro-pass-a-audit-20260919-1645",
+  "parent_branch": "chat/inner-child-humanization-recovery-20260918-0037",
+  "parent_head_sha": "3f5b79fdd53b5521ba152d672c375cf30c3cb35f",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "scope": "Audit the exact GPT-5.6 Pro Pass A candidate and its writer instructions after the parent branch admitted the candidate for guarded Pangram measurement; preserve disagreement without mutating the moving parent branch.",
+  "writer_role": "independent editorial and instruction-architecture auditor",
+  "created_at_utc": "2026-09-19T16:45:00+00:00"
+}
