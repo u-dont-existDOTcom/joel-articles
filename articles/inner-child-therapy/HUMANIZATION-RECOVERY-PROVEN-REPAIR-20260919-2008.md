@@ -1,78 +1,86 @@
-# Recovered-method P3 repair — result and continuation checkpoint
+# Direct Chat repair — current checkpoint
 
-Updated: 2026-09-19 20:18 UTC
+Updated: 2026-09-19
 Owned branch: `chat/inner-child-proven-repair-20260919-2008`
-Status: P3 CANDIDATE A INDEPENDENT PARAGRAPH HUMAN 1.0 / OWNER EDITORIAL JUDGMENT PENDING
+Owner outcome: OPEN.
+Status: PRIOR P3 DETECTOR PASS NOT OWNER-ACCEPTED; ACTUAL MODEL-TEXT A MIXED, B AI, C UNMEASURED AFTER PLATFORM TOOL BLOCK.
 
-## Owner request followed
+## Current owner correction and durable display rule
 
-Recover and use the plans that actually worked in this conversation, Romance and Nibbana rather than run another Railway generator strategy.
+Joel says prior P3 still looks more AI than his prose: compact, assigning every sentence a clear next function. He also raised loss of the owning-wrongdoing thought. Do not label that candidate accepted, a fully Human style exemplar, or autonomous model-generation competence.
 
-The source-linked execution record is:
-`experiments/PROVEN-REPAIR-EXECUTION-20260919-2008.md`.
-It identifies the exact My Journey sentence guide AND the subsequent artifact explicitly recording Chat's execution, the later independent P9 repair, and concrete Romance/Nibbana operations. This is not a new learning-compiler protocol.
+The wrongdoing/directness distinction is still present in unchanged P1 of the cumulative article. P3 by itself does not display it. This does not settle every nuance of Joel's concern; future comparison must show the actual source and complete relevant passage rather than require him to recall missing context. Do not silently rewrite P1/P2 or add old model functions back into owner text.
 
-## Action completed
+The new comparative-display rule is now MERGED into canonical `main/SKILL.md`, Reporting, via PR 82; merge commit `a6396ee6d40c49976789d2462c2f0d9b36f8d1b5`. Whenever asking Joel whether wording is better/different/preferable, show both exact versions in the same response, clearly labeled, with necessary context. Long artifacts: show changed spans and link complete versions. Links or version IDs alone do not satisfy the rule.
 
-One direct Chat editor performed sentence-specific agency, sequence, redundancy and meaning repairs on the existing P3 model draft, then reread the integrated paragraph in its actual article position.
+Rule verification: one additive paragraph, no deleted text; 111 unit tests passed; content validator passed; repository audit 0 errors / 4 pre-existing warnings; git diff --check passed; content-integrity hosted check succeeded; canonical main readback verified.
 
-Candidate and two same-context audits:
-`experiments/PROVEN-REPAIR-P3-A-20260919-2008.md`.
+## What the previous pass established
 
-P1/P2 and all accepted article prose remain unchanged. The candidate has not been inserted into the accepted cumulative article.
+Prior P3 exact SHA: `60db8c5a4994591ec9cd442c7d6455cd8cc989884434a879b17cc4d6f935eaa4`.
+One direct Chat candidate and one standalone GUI test in that replay returned Human 1.0, but source thought and hand/pencil image were supplied by Joel. Preserve that outcome as evidence of source-backed editorial realization, not free generation.
 
-## Exact candidate
+It was the first candidate/test in that replay, NOT the first use of sentence-level instructions. Earlier Railway whole-paragraph and local-ticket variants failed. Multiple variables differ, so neither addressing instructions to Joel nor changing execution surface is established as causal. Do not claim to know Pangram's internal reason for this pass.
 
-Once I've worked out what to say to the other person, I still want to go back to whoever wrote the first reply. When emotions pop up, that's often my inner child. I could get so busy making him sound reasonable that I forget to ask what he needed in the first place. What was he trying to get somebody to understand? Was he asking them to stop? Maybe he needs protection, reassurance, some actual help. Even if he didn't put it very well, he may have had every reason to protest. I want to hold his hand and help him say it better, without just taking the pencil away.
+Exact prior operation/candidate records:
+- `experiments/PROVEN-REPAIR-EXECUTION-20260919-2008.md`
+- `experiments/PROVEN-REPAIR-P3-A-20260919-2008.md`
 
-## Detector evidence
+## Current actual model-written target
 
-Input: ONLY the 110-word paragraph above. No heading, preceding owner paragraph, following paragraph, filler, duplication or merged short-text control.
+The owner requested moving to AI prose rather than editing more of his wording.
 
-SHA-256, exact UTF-8/no terminal newline:
-`60db8c5a4994591ec9cd442c7d6455cd8cc989884434a879b17cc4d6f935eaa4`.
+Selected source: `experiments/EPISODE-008-TRANSFER-PILOT-T1-CHECKING-20260919.md`.
+Original exact SHA: `96fb536722ead01963aed0249a40534bfd2fbecf79a47d72638861ee804c13f5`, 104 words, model-written, existing Pangram 4.0 AI 1.0 result. No raw owner paragraph, hand/pencil image or owner autobiography is used in the new repairs.
 
-Pangram 4.0, captured `2026-09-19T20:16:18.376747Z`:
-- stage: `STAGE_SUCCESS`
-- headline: `Human Written`
-- fraction_human: `1.0`
-- fraction_ai: `0.0`
-- fraction_ai_assisted: `0.0`
-- exact stored History input binding: `exact_utf8`, identical SHA/110 words.
+The whole R5 checking subsection was read for source functions and placement. This paragraph is a bounded method test for the next checking subsection, not a replacement for its entire safety/practical-action or exercise-evaluation material.
 
-Transport: existing authorized local Playwright GUI on Joel's HP laptop, headless dedicated profile through Remote Desktop Commander. No paid API detector route. One new GUI submission in this execution; no repeat or generation search.
+## Actual work this turn
 
-Immutable result:
-`u-dont-existDOTcom/pangram-humanization-lab@54b706e54b35f9c33b6a03fa9ebbc2de00e6dec7:state/gui-runs/pangram-4/60db8c5a4994591ec9cd442c7d6455cd8cc989884434a879b17cc4d6f935eaa4/result.json`.
-Result blob SHA: `803e6d6ed26932b5e4ea0bc5315eb1816b50f2c2`.
-Hosted result readback completed.
+Frozen contract: `experiments/ACTUAL-MODEL-REPAIR-2103-CONTRACT.md`.
 
-No high-confidence label or repeat-stability result is claimed. The internal prediction probability is not interpreted as a percentage of Human text.
+A: `experiments/ACTUAL-MODEL-REPAIR-2103-A.md`
+- SHA `9b9f0550e8e89e7ad69d03a578ebfada988df11f9d97659f16ea23658e04af01`
+- 117 words
+- Pangram 4.0 / STAGE_SUCCESS / exact_utf8 identity
+- Human `0.3409090936`; AI `0.6590909362`; AI-assisted `0.0`
+- captured `2026-09-19T21:12:41.827383Z`
+- source missing child-request function restored; unsupported useful-early/unhelpful-later partition removed.
+- Read-only localization succeeded: [0,435) AI/Medium, [435,660) Human/Medium. Suffix is contextual evidence only, not an isolated-short-text pass.
 
-## What this does and does not establish
+B: `experiments/ACTUAL-MODEL-REPAIR-2103-B.md`
+- SHA `aca6d0ef4b21485f913c74e31dfafdf82a7030674f9509b24d4dfc7cc5d629bb`
+- 112 words
+- Pangram 4.0 / STAGE_SUCCESS / exact_utf8 identity
+- Human `0.0`; AI `1.0`; AI-assisted `0.0`
+- captured `2026-09-19T21:15:39.067211Z`
+- opening turned into illustrative inner questions; A's suffix stayed exact.
+- Regression: the plan was followed but did not improve the detector result. Narrating the thinking process is not a validated substitute for better reasoning. No claim that quoted questions themselves cause AI scoring.
 
-This paragraph passes the standalone detector condition, unlike a full-section score dominated by an owner-Human paragraph. Its thought and hand/pencil image are still Joel-sourced; the result is model editorial realization, not invented author experience.
+C: `experiments/ACTUAL-MODEL-REPAIR-2103-C.md`
+- SHA `d991de22776cb28483b6ed8aa092348775b960b74e2e736659bc601cd2c8647b`
+- 120 words
+- UNMEASURED. The attempt to write the exact input file through Remote Desktop Commander was blocked by OpenAI: safety status could not be determined. No Pangram submission or reservation for C was made in this execution. Do not represent it as a score, a credit/authentication failure, or a permanently unavailable GUI route. No rerouting around this platform block was attempted.
+- Structural alternative compared before drafting: improve the causal account of certainty as a stopping condition rather than add another inner-monologue performance. Meaning/placement checks completed; subjective style remains provisional.
 
-No global writing ability, causal effect of a particular sentence, or cross-target transfer reliability is established by one result. The absence of surrounding owner prose in the test does rule out explaining THIS pass by adjacent owner-paragraph masking.
+Raw A/B results and A localization are pushed under:
+`u-dont-existDOTcom/pangram-humanization-lab@evidence/inner-child-proven-repair-20260919-2008:state/gui-runs/pangram-4/<SHA>/`.
+Both result files were read back through connected GitHub. Two new GUI submissions, one read-only localization, no paid API and no exact repeat. Prior six checking-target tests remain in the history; no budget reset is claimed.
 
-The prior categorical restriction that sentence-level repair only works around detector-green neighboring text was too strong. The independent My Journey P9 repair and this independent candidate are counterexamples to treating that condition as necessary. They do not establish that every all-red paragraph is repairable by the same local operation.
+## Editorial/learning disposition
 
-The old P3 diagnostic source was marked unmeasured in its own record; do not fabricate an exact before-score comparison for that text. Other Railway P3 failures are separate candidates.
+No new paragraph has met both detector and owner-editorial acceptance in this continuation. A is the best measured result; B is rejected as a regression; C has clearer explicit reasoning but remains untested and may still have model-shaped compression. Do not promote another global theory based on this small, correlated sequence.
 
-Finding disposition: article-specific candidate evidence; no new universal lesson or automatic promotion. Keep the actual operation trace and exact result together instead of reducing them to another slogan.
+There is no need for Joel to provide more source prose. Any owner help should be a diagnosis/authorial distinction tied to the displayed before/after, not a request to write the replacement himself.
 
-## Stop admission / next action
+## Stop admission and next action
 
-Parent outcome: OPEN. Remaining gap: Joel's editorial acceptance of this exact P3, followed by integration and the applicable combined-boundary check.
+Parent outcome OPEN. Independent actions completed: durable comparison rule merged and verified; prior success reclassified under owner critique; exact model source recovered; two direct repairs tested; read-only localization completed; third repair saved with preservation/strategy audit.
 
-The current owner-authorized repair, preservation check and standalone GUI measurement have been completed. No additional authorial material was needed, and no request for Joel to rewrite P3 is justified by this result.
+Current execution boundary: platform blocked the preparatory file write for C. Do not work around the safety-status block through another transport. Preserve C as unmeasured; no claim of background work.
 
-Next actor: Joel, for the irreducible judgment whether this exact wording is acceptable for his byline. Do not present detector success as his acceptance or continue polishing a passing candidate without a concrete defect.
+Next permitted progress when the ordinary execution path is available: assess C's literal quality, then at most its justified standalone measurement under valid authorization, retaining all prior results. Owner may also supply a local diagnosis of the visible comparison; no request for more authored material is currently justified.
 
-If accepted: insert ONLY this P3 after the current P2 in this isolated branch; preserve all current owner locks; check the three-paragraph sequence and any applicable integrated detector gate; reconcile deliberately with the integration branch rather than overwrite contemporary branch work.
+## Article state and link
 
-If rejected: preserve Joel's exact sentence-level criticism and apply the already-recovered local editing process to that defect. Do not restart a Railway search, use owner prose as detector filler, or solicit a complete owner-written replacement.
-
-## Cumulative article link target
-
-`articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md` on this child branch inherits the explicitly reconciled snapshot `0ec2d6d503d1459ed4ab1dfe17a31cbf82171d50`. It contains accepted work through P1/P2 and marks P3 unresolved. No candidate has silently become accepted prose.
+Inner Child remains unregistered/experimental. The cumulative `HUMANIZED-ARTICLE-SO-FAR.md` is unchanged (blob `7b0b21d6a8fdfd527a3deeb730b82c671b76e1e5`). Neither prior P3 nor A/B/C was silently inserted. Keep its link at the end of each owner-facing article turn.
