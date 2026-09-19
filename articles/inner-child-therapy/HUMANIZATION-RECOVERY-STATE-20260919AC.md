@@ -91,7 +91,7 @@ The next experiment should target **P3 only**.
 
 `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md` remains the stable cumulative owner-review artifact.
 
-Its note should reflect the recovered paragraph state above rather than implying the subsection is wholly unresolved.
+It now includes the completed P1 + P2 under `### Write It. Don't Send It Yet.` and marks only P3 unresolved.
 
 ## Current outcome
 
