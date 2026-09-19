@@ -172,6 +172,8 @@ Preserve claims/certainty, exact memories/quotations, actors, chronology, causal
 
 ## Reporting
 
+**Map-source display — direct owner rule, 2026-09-19.** When using or proposing a symbolic paragraph map, cadence map, or source-derived writing pattern, show the literal donor paragraph(s) in the same response as the comparison. Keep the donor separate from the target-before and target-after. Identify its actual authorship history: natural owner prose, owner rewrite during collaboration, assistant-produced owner-accepted, mixed/unknown, or detector-only evidence. Do not equate owner approval or a Pangram Human result with untouched owner authorship; disclose unknown prior model involvement. A source title, link, hash, map label, or abstract summary does not substitute for showing the text. For a long source, show the complete corresponding donor passage, with a link to the full source. Preserve the source pointer and hash in the working record. Donor prose remains calibration, not insertion authority.
+
 After substantive passes report, as applicable: preservation-proof status; unexplained-delta count; heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; independent-final-reader status/findings; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect-retention role; largest remaining weakness; and next task.
 
 Return complete paste-ready passages except when Joel asks for isolated fragments or the artifact is exceptionally long.
