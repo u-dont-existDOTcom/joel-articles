@@ -42,7 +42,7 @@ These are relations between thoughts, not a required sentence count. A node may 
 
 ## Source-linked contour catalogue, not invented templates
 
-The companion `SOURCE-BOUND-MAP-CARDS-20260919.json` expands retrieval detail by attaching exact source spans and nested thought/sentence observations to twelve instances from the inspected source set. These are twelve observed instances within overlapping families, NOT a claim that Joel has exactly twelve maps or that twelve is representative of his entire writing.
+The companion `SOURCE-BOUND-MAP-CARDS-20260919.json` expands retrieval detail by attaching exact source spans and nested thought/sentence observations to thirteen instances from the inspected source set. These are thirteen observed instances within overlapping families, NOT a claim that Joel has exactly thirteen maps or that thirteen is representative of his entire writing.
 
 Source prose stays calibration only. Its claims, experiences, vocabulary, jokes and metaphors may not be imported to the target. Owner-authored and owner-controlled provenance are recorded separately; neither is automatically an independently measured paragraph-Human result.
 
