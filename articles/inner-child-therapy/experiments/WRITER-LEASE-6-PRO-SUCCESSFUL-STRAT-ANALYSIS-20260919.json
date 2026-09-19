@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/6-pro-successful-strat-analysis-20260919-2100",
+  "integration_branch": "chat/inner-child-context-reset-handoff-20260919-1915",
+  "integration_base_sha": "d17fc81cadf18a8718ceb47abf27976678aceae3",
+  "scope": "Analyze September 15 vs September 19 Railway Agent continuation behavior for Inner Child Therapy humanization recovery; preserve experimental outputs without mutating integration branch state.",
+  "owner_chat_title_request": "6 pro successful strat analysis",
+  "created_utc": "2026-09-19T21:00:00Z"
+}
