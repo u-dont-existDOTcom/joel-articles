@@ -1,13 +1,21 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "completed",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-railway-strat-analysis-6pro-20260919-1928",
   "parent_read_branch": "chat/inner-child-context-reset-handoff-20260919-1915",
   "canonical_integration_branch": "task/inner-child-therapy-intake-20260915",
   "integration_base_sha": "d17fc81cadf18a8718ceb47abf27976678aceae3",
   "created_at": "2026-09-19T19:28:11Z",
+  "completed_at": "2026-09-19T20:00:54Z",
   "scope": "Recover the causal difference between the successful September 15 Railway Agent continuation and the regularized September 19 Railway attempts; run and preserve an isolated Railway Agent strategy experiment of up to 20 calls; do not mutate other experiment lanes or canonical integration state.",
   "owner_outcome": "Produce a concise evidence-grounded diagnosis and a human continuation paragraph that survives internal audit, with Pangram used only after internal admission.",
-  "write_policy": "Only this chat may mutate this branch. The parent and canonical integration branches remain read-only. Unexpected branch movement fails closed pending explicit reconciliation."
+  "outcome": "Completed 20 Railway writing calls. Recovered task/source/unit differences, discovered persistent Railway project memory as a fresh-thread confound, produced one internally admitted autonomous candidate and one fresh-target transfer, and attempted Pangram only after internal admission. Pangram redirected to signup before scoring, so no detector result exists.",
+  "durable_artifacts": [
+    "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-HISTORICAL-DIFFERENCE-AND-20-STRATEGY-ITERATIONS-20260919.md",
+    "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-RECOVERED-HUMAN-CANDIDATE-20260919.json",
+    "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-20-ITERATION-CALL-LOG-20260919.json",
+    "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-20-ITERATION-CALL-LOG-20260919/"
+  ],
+  "write_policy": "This branch is closed for this chat. The parent and canonical integration branches remained read-only. Any further work must open a new lease or receive explicit owner direction."
 }
