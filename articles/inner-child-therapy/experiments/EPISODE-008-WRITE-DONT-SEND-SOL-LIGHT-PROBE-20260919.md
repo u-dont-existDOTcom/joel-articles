@@ -13,13 +13,15 @@ This is not evidence for the GPT-5.6 Pro experiment. It exists to test whether m
 
 ### Write It. Don't Send It Yet.
 
-If your head is still arguing with them, give it somewhere private to go. Write the reply. Don't send it.
+Write the reply you keep having in your head. Just don't send it.
 
-Write the version you're actually thinking, including the parts you'd be embarrassed to have them read. Then leave it alone. When you come back, one sentence may jump out immediately: that was just there to hurt them. Fine, cut it. Maybe they were right about something you did. The apology stays.
+Don't clean it up while you're writing it. They aren't reading it. Get to the end, close it, and come back later.
 
-Then you start imagining their reaction again, and the edits spread. Now the complaint starts shrinking too. Maybe it was unfair. Maybe you said it badly. Read it again. But don't assume either means you never had a complaint in the first place. You can change a sentence without talking yourself out of what you were trying to say.
+When you read it again, one line may be obvious: you wrote it to hurt them. Take it out. Maybe they were right about something you did. Keep the apology.
 
-At some point, stop editing and decide what, if anything, you still want to send. If you tell them you'll answer more fully later, only say it if you mean to come back. And if something needs protecting now, deal with that now. The draft can sit there.
+But then you picture them reading it, and something else can happen. You start editing the complaint too. Maybe you were unfair. Maybe you said it badly. Read it again. Just don't slide from “I said this badly” into “I had no right to say it.”
+
+When you're done, look at what's left. Maybe it's two sentences. Maybe nothing needs sending. If you say you'll come back with a fuller answer, make sure you mean it. And if you need to protect yourself now, stop writing and do that. The draft can wait.
 
 ## Post-generation gate receipt
 
@@ -34,12 +36,17 @@ Preservation:
 - immediate protection is not delayed: PASS;
 - invented Joel autobiography/facts/motives/therapeutic claims: NONE.
 
-Same-context cold audit:
-- no one-function-per-sentence coverage of the original eight-unit ledger;
-- no symmetrical outcome list;
-- no explanation of why the exercise works after the practical movement lands;
-- no fabricated anecdote or ornamental hesitation;
-- remaining risk: the final paragraph is still more directive and compressed than the middle movement. It is acceptable as a Sol probe but should not be promoted without owner judgment and, if the Pro path is executed, comparison against the fresh Pro output.
+Cold audit 1:
+- moving the source ledger out of the writer prompt materially reduced one-unit-per-sentence marching;
+- no symmetrical four-outcome list;
+- no fabricated anecdote or fake hesitation;
+- the first version's final paragraph was still too directive and compressed.
+
+Cold audit 2 after repair:
+- the rereading event now carries the fairness/self-erasure tension rather than an abstract explanation;
+- the complaint/apology distinction remains unresolved long enough to feel like an actual edit decision;
+- the final possibilities arise from looking at what remains on the page rather than from enumerating the preservation ledger;
+- no further same-context stylistic iteration is justified without fresh-model evidence.
 
 Detector:
 - not submitted;
