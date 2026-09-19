@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "complete",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-valid-railway-continuation-20260919-1910",
   "parent_branch": "chat/inner-child-railway-regression-result-20260919-1903",
@@ -8,5 +8,7 @@
   "integration_branch": "task/inner-child-therapy-intake-20260915",
   "scope": "Correct the invalid Railway paraphrase test and capture valid held-out continuation controls using owner-Human P1 with unseen P2 meaning/source.",
   "writer_role": "humanization regression supervisor",
-  "created_at_utc": "2026-09-19T19:10:00+00:00"
+  "created_at_utc": "2026-09-19T19:10:00+00:00",
+  "completed_at_utc": "2026-09-19T19:14:00+00:00",
+  "result": "Invalidated the first Railway P3 paraphrase. Ran two fresh held-out P2 semantic-cue continuations in separate Railway projects plus one source-paragraph control. All three regularized the next thought into compact requirement-mapped prose; Railway failed to reproduce September 15 continuation behavior."
 }
