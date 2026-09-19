@@ -1,3 +1,48 @@
+# Current continuation — owner-calibrated source disclosure and accepted readiness
+
+2026-09-19. This section supersedes earlier pending-readiness and next-action language retained below as history.
+
+## Owner decision applied
+
+The exact readiness paragraph (`cd10e45f15191062a79d82a76a34abc204679cbc41ccbb4567dc51043b97fce1`, 71 words) is accepted as a short practical entry gate, not as the ideal voice for every paragraph. It was inserted after `# Before You Try to Go Deep` and before the existing inner-monologue section. The original bottom-up-healing embed gap is explicitly marked, not reconstructed. All prior article prose is unchanged; P1/P2 and My Journey were not reopened.
+
+User confidence is modest because the paragraph is short. Keep the prior exact Human 1.0 score and the owner's qualified acceptance separate from unsupported high-confidence/repeat-stability claims.
+
+## Source-display rule is globally durable
+
+`SKILL.md` now requires literal map-donor text in every relevant comparison, alongside target before/after, with the actual authorship history and unknown prior model influence disclosed. The task-branch rule was also merged independently to default `main` through documentation-only PR 83, merge `794bac9c42f0c3d8b03e8c6fa8110f2a3acaeea8`. The hosted regression/content/architecture/policy job passed; default SKILL readback contains the addition and retains the existing comparison rule. No article experiment or corpus was merged to main.
+
+Controlling local owner record: `experiments/OWNER-CALIBRATION-SOURCE-DISCLOSURE-20260919.md`.
+
+M13 (used for readiness and orientation) is a recorded owner formulation during collaboration, not an independently proven untouched article paragraph. M06 (prior failed evaluation map) is recorded owner-authored accepted prose, but no claim is made that earlier model influence was excluded. Do not label the entire thirteen-card collection natural-owner gold on the basis of filenames, acceptance or Pangram.
+
+## New measured continuation
+
+`experiments/CONTINUATION-RESULTS-2235.json` binds all raw evidence.
+- Orientation original: 63 words, AI 1.0.
+- Orientation local/map-guided repair: 69 words, AI 1.0.
+- Exercise evaluation purpose-first local repair: 104 words, AI 1.0.
+
+Three new standalone GUI submissions; no API, no attached owner text, no repeats. Neither repair is accepted or inserted. The two source scopes passed the recorded forward/reverse fidelity check; that does not turn a failed writing result into progress.
+
+Operations and literal before/after: `experiments/CONTINUATION-TWO-PARAGRAPH-OPERATIONS-20260919-2235.md` and `experiments/CONTINUATION-CANDIDATES-2235.md`.
+
+## What failed, and next useful evidence
+
+The evaluation change connected more clauses and centered the original goal, but still made a complete orderly lesson. The orientation change reproduced the practical-question operation that helped readiness, without a passing result on this different paragraph. These results do not establish that maps are useless or that owner rewrites are required everywhere; they show these exact instantiations did not solve the local problem.
+
+Stop further minor variants of these same two realizations in this pass. Joel has offered a correction sample. Recommend a free rewrite of the same evaluation thought rather than a minimal detector-only edit, because the remaining weakness is whole-paragraph organization. He need not write both alternatives or add new experiences. Preserve exact model-before, exact owner-after, any meaning differences, and the next different-target model attempt. An owner replacement is not autonomous model-learning proof.
+
+No new blanket generation protocol is created. There is still independent experimental work available; the purpose of requesting one owner example is high-information calibration, not a gate that requires him to finish all paragraphs. This conversation already contains the drafts, so subsequent same-context transfer is not a blind holdout test.
+
+## Tool state
+
+A documentation-read batch encountered the same platform safety-status error; it was not rerouted. Independent routine reads/writes and all three GUI calls succeeded. The failure is not evidence of a broken GUI runner or exhausted credits. Prior authorized API fallback remains available for a genuine GUI outage, not for bypassing a platform safety denial.
+
+---
+
+## Previous checkpoint (history; superseded where noted above)
+
 # Inner Child — recovered-map continuation state
 
 2026-09-19. Owned branch: `chat/inner-child-map-toolbox-recovery-20260919-2200`.
