@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-pro-pass-b2-natural-substrate-20260919-1750",
+  "parent_branch": "chat/inner-child-humanization-recovery-20260918-0037",
+  "parent_head_sha": "bc27872070ff27630cc6ba572c5c454c87b6cfb7",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "scope": "Revise the Pro Pass B writer-facing architecture so the generator sees a natural continuation substrate instead of editorial/checklist framing; prepare a fresh Pro seed task without mutating the parent branch.",
+  "writer_role": "prompt/substrate architecture repair",
+  "created_at_utc": "2026-09-19T17:50:00+00:00"
+}
