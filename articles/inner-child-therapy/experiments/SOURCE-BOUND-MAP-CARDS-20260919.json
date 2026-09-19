@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-09-19",
-  "scope": "Twelve source-linked instances within overlapping recovered map families; NOT a representative or exhaustive twelve-map grammar of Joel writing. No new detector score is assigned to donor prose.",
+  "scope": "Thirteen source-linked instances within overlapping recovered map families; NOT a representative or exhaustive thirteen-map grammar of Joel writing. No new detector score is assigned to donor prose.",
   "notation": {
     ">": "genuine change in thought state",
     "~": "remain on/develop current concern",
@@ -28,9 +28,9 @@
       "source_path": "articles/somatic-therapies/OWNER-ACCEPTED-INTRODUCTION-20260904.md",
       "source_git_blob": "acfbba53785704717ddfb54f3d28e386bf031193",
       "source_provenance": "owner-controlled accepted prose; not a claim of untouched authorship for every byte",
-      "literal_source": "But discovering the body’s programming isn’t simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, self-massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.\nStill, I do find that lasting complex trauma recovery tends to follow a general, kind of obvious sequence: \nStay present so you can stay with what happens and choose what comes next.\nRegulate or discharge accumulated activation energy\nWork with trauma feelings before the story comes in\nWork with memories you can actually point to: the actual events and the triggering events\nIntegrate, differentiate, and build a life of meaning. Decide your boundaries, direction, relationships, and overall identity.\nBecause specific somatic therapies are on a spectrum of physical<->emotional (or conscious<->subconscious), as well as a spectrum of intensity and specificity, we can often guess which one might be right for someone at which time. These don’t all have the same level or type of evidence supporting them, and there’s definitely no scientific roadmap that could survive peer review, but ultimately everyone somehow builds their own map of what makes sense, and this is mine. \nI use these therapies partly to make the body safer to inhabit before going into deeper [inner-child therapy](http://innerchild.u-dont-exist.com), where we intentionally re-expose ourselves to traumatic memories in an effort to re-parent the little one-one inside who was hurt.",
-      "source_span_sha256": "3790ec8c5b4568dc9f92cbecf7aafbcd3a03287458a93552bb06bf4dc421cf96",
-      "source_whitespace_words": 286,
+      "literal_source": "But discovering the body’s programming isn’t simply something you can read a book for. Some bodies are frozen and need to shake. Some are dissociated and need to feel, cry, laugh, self-massage, breathe more, less, in new ways, etc. Learning to feel the body, connect with it, and let the energy flow the way it needs to, is like learning to ride a bike. You can read about it and follow the practices, and even pay lots of money to a Bike Expert, but ultimately, you have to feel it out and see what works.",
+      "source_span_sha256": "b7000f52212c8501c1bceb2e634b6b4cd35212a73a570b1c87fb29c63b46d63c",
+      "source_whitespace_words": 95,
       "symbolic_relation_map": "REVERSAL{book knowledge insufficient} ~ VARIATION{short case, longer open accumulation} ~ ANALOGY > PRACTICAL-RETURN",
       "sentence_clause_annotation": "S1 changes the mode from reading to practice. S2/S3 dwell on the same variability with unequal duration. S4 extends it through an analogy. S5 keeps the analogy active through an aside before returning.",
       "selection_condition": "Use when genuine variation makes a fixed prescription inadequate; do not invent an analogy solely to fill a slot.",
@@ -175,6 +175,20 @@
       "sentence_clause_annotation": "The long middle sentence contains interruption and two unequal effects of inquiry. Last sentence makes a real offer, not a takeaway.",
       "selection_condition": "Requires real epistemic history with a reader-facing function. Not permission to invent an I-researched narrative.",
       "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+    },
+    {
+      "id": "M13",
+      "family": "B",
+      "source_path": "articles/somatic-therapies/experiments/SOMATIC-OWNER-POSITIVE-THOUGHT-SHAPE-MAP-20260907.md",
+      "source_git_blob": "d77be612110f4b403112e5ada7755c8e8559b2a6",
+      "source_provenance": "literal owner readiness realization quoted in the recovered map record; not new model prose",
+      "literal_source": "To know how ready you are for focused trauma work, ask yourself how stable you are, and whether you need to work on something specific, or a more broad feeling or pattern.",
+      "source_span_sha256": "a8eb4871e8b4f6c8f37d771886b0ed06b1b2c9c546b055510150b6648d26057e",
+      "source_whitespace_words": 32,
+      "symbolic_relation_map": "PRACTICAL-PURPOSE > READER-DISCERNMENT{two live dimensions within one ongoing sentence} > STOP",
+      "sentence_clause_annotation": "A single sentence carries purpose, action, and two dimensions; it is not three separate verdict sentences. No appended explanation of the rule.",
+      "selection_condition": "Use for a real readiness/decision question whose dimensions are already in target source. A longer target may need an additional necessary action; do not drop it to copy this short contour.",
+      "status": "source-instance description, not an independently validated generator recipe"
     }
   ]
 }
