@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "status": "SHARDED_EXACT_CALL_LOG",
+  "description": "Manifest for the exact 20-call Railway writing log. Concatenate nothing; load metadata, prompt templates, and call shards by the listed paths.",
+  "base_directory": "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-20-ITERATION-CALL-LOG-20260919",
+  "files": [
+    {
+      "path": "metadata.json",
+      "bytes": 14611,
+      "sha256": "92727802c72d27433706b86773a9c8f25474d393f7082d2c070ee0adbe0969f0"
+    },
+    {
+      "path": "prompt-templates.json",
+      "bytes": 17619,
+      "sha256": "e6cdd0aec659f4a51b9cba201f04dc2dc120f4d2a5996d8e8ac482f30fb8fbbf"
+    },
+    {
+      "path": "calls-01-05.json",
+      "bytes": 5697,
+      "sha256": "c364dd3c67a1b6abb8fcbb06b5f9886337c3cc1b16551a2c495c34611fa7e991"
+    },
+    {
+      "path": "calls-06-10.json",
+      "bytes": 6247,
+      "sha256": "fe53590507df0d419e32172ce36676f3c34e19f289c1c2ee4577ec0b3b2a7f86"
+    },
+    {
+      "path": "calls-11-15.json",
+      "bytes": 5104,
+      "sha256": "180caa9f2871a5305f4f4b5b18f8ed21be49176e44ba0010fc09f58327a82867"
+    },
+    {
+      "path": "calls-16-20.json",
+      "bytes": 5016,
+      "sha256": "2fa74e82a656f90336b19a145ae0da05278b0a94c41b7013ae536247f2a208af"
+    }
+  ],
+  "integrity_note": "Hashes are over the exact UTF-8 file bytes, including terminal newline."
+}
