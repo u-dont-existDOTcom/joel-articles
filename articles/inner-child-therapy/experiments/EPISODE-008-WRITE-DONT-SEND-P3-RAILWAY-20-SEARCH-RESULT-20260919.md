@@ -15,6 +15,29 @@ Execution followed that boundary:
 - only candidates judged materially plausible were measured;
 - stop at generation 20 because no pass was found.
 
+## Railway thread provenance
+
+- R1: `8f69eca5-2cac-49a9-b4ad-c8d330b90aa7`
+- R2: `26d4fa6b-0a66-46ab-a23a-4baa9155c2f9`
+- R3: `4cc33de6-3509-41ab-958b-cc66f63c64b2`
+- R4: `29598b43-40df-42a1-b4e5-ca0610df7279`
+- R5: `503c9c10-ac1e-433f-9b75-a15ab6d67324`
+- R6: `7936e0cd-47a2-4448-a08c-cded4a34f95c`
+- R7: `9f0481a2-a8c2-4c77-b599-4a0be68de2cd`
+- R8: `6a88b8c8-0eef-42ea-9ba3-8588038ca75b`
+- R9: `c95d2845-4572-4e85-8a79-f28811e413fd`
+- R10: `aff898ef-c746-4975-a228-907d09285ce8`
+- R11: `7512b6e7-cd25-4e5e-8d90-d4fad17fd852`
+- R12: `4fa90742-484d-452e-90a2-f941114c0f99`
+- R13: `fa1b1c8e-0355-4220-b0af-0cd9bc2b8e69`
+- R14: `86330aed-ac4e-41b9-91e3-5e2faab48aa4`
+- R15: `ffcbd884-ffaa-4c98-9f80-018482ae8382`
+- R16: `5292c371-67cc-46e4-a728-7b128eae8dbb`
+- R17: `2343f010-8bd4-44c9-8ab0-8af164148195`
+- R18: `cc946df9-3fd9-4b4d-bad2-679683ba7421`
+- R19: `2ef4bbaf-16f0-41ba-9f59-bba39ddba0db`
+- R20: `ffd9d03c-498e-4138-9376-5a265417260c`
+
 ## Generation accounting
 
 R1 — first-person pencil image; rejected pre-detector: tidy explicit `one job / another job` closure.
