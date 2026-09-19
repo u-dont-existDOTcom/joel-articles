@@ -42,7 +42,7 @@ Even [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-
 
 If you're actually in danger, maybe you need to get out or get some help, even if meditation is helping with the pain. Calling it “your story” doesn't protect the kid from what's happening.
 
-Say you grew up learning that what you wanted didn't matter. You're only just starting to figure out what you actually think, maybe even learning to say no, and then somebody tells you there is no self—maybe freeing later, but right then it can sound like: what you want still doesn't matter. You say to a therapist, “No, that's not right for me,” and they call the disagreement resistance. What if they're wrong about you, or just taking you somewhere you don't want to go—how are you supposed to say so?
+Say you grew up learning that what you wanted didn't matter. Now you're only just finding out what you actually think, maybe even learning to say no. Then somebody tells you there is no self. That might be freeing at another point in your life; right now it can sound a lot like the message you already know: what you want doesn't matter. Or you tell a therapist, “No, that's not right for me,” and they call it resistance. Maybe they're right. But maybe they're wrong about you, or taking you somewhere you don't want to go. You still have to be able to say so.
 
 Borrow adulthood. Do not surrender it.
 
