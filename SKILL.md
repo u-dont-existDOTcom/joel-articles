@@ -172,6 +172,8 @@ Preserve claims/certainty, exact memories/quotations, actors, chronology, causal
 
 ## Reporting
 
+**Comparative review display — direct owner rule, 2026-09-19.** Whenever asking Joel whether wording, a passage, or another artifact is better, different, or preferable, show both the exact before/current version and the proposed alternative in the same response, clearly labeled. Include enough immediate context to make their meaning and placement comparable. Do not show only the replacement, substitute revision IDs or links for the comparison, or require Joel to remember/search for the other version. For a long artifact, show the corresponding changed spans and link the complete versions. Give the material tradeoff and recommendation without treating a detector pass as editorial acceptance. Before delivery, check that both sides of every requested comparison are actually visible.
+
 After substantive passes report, as applicable: preservation-proof status; unexplained-delta count; heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; independent-final-reader status/findings; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect-retention role; largest remaining weakness; and next task.
 
 Return complete paste-ready passages except when Joel asks for isolated fragments or the artifact is exceptionally long.
