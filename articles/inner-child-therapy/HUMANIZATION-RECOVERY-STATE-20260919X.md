@@ -2,7 +2,7 @@
 
 Updated: 2026-09-19
 Owned branch: `chat/inner-child-humanization-recovery-20260918-0037`
-Status: **PASS A EXECUTION INVALID / LIGHT WRITER PAYLOAD READY / SOL PROBE COMPLETE / TRUE PRO PASS STILL UNEXECUTED**
+Status: **PASS A EXECUTION INVALID / LIGHT WRITER PAYLOAD READY / SOL LIGHT PROBE COLD-AUDITED / TRUE PRO PASS STILL UNEXECUTED**
 
 This file supersedes `HUMANIZATION-RECOVERY-STATE-20260919W.md`.
 
@@ -49,10 +49,12 @@ The ledger is applied only after prose exists.
 
 ## Current same-turn probe
 
-A Sol probe using the light architecture is stored at:
+The current Sol probe using the light architecture is stored at:
 `experiments/EPISODE-008-WRITE-DONT-SEND-SOL-LIGHT-PROBE-20260919.md`.
 
-It is experimental only, preservation-clean by same-context audit, and has not been sent to Pangram. It is not a Pro result and is not article authority.
+It is experimental only, preservation-clean by two same-context cold audits, and has not been sent to Pangram. The second cold audit removed a directive-heavy ending and kept the thought inside the rereading event.
+
+It is not a Pro result and is not article authority.
 
 ## Inference boundary
 
@@ -70,7 +72,7 @@ Work completed now:
 - corrected the writer architecture rather than adding more anti-pattern rules;
 - separated generation from preservation;
 - persisted the new payload and post-generation gate;
-- produced a usable Sol light-prompt probe for immediate owner evaluation;
+- produced and twice cold-audited a usable Sol light-prompt probe for immediate owner evaluation;
 - preserved its non-Pro provenance.
 
 Exact remaining boundary:
