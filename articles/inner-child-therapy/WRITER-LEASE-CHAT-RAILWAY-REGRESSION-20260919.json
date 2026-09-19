@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-railway-regression-result-20260919-1903",
+  "parent_branch": "chat/inner-child-writer-environment-regression-20260919-1845",
+  "parent_head_sha": "1d048d7fefd0ce387dc0fb42d8f951d4e2824359",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "scope": "Capture and interpret the isolated Railway Agent regression test of continuing one paragraph from Joel's Human prose.",
+  "writer_role": "humanization regression supervisor",
+  "created_at_utc": "2026-09-19T19:03:00+00:00"
+}
