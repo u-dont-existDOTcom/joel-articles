@@ -1,12 +1,16 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "complete",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-railway-20-analysis-20260919",
   "integration_branch": "chat/inner-child-context-reset-handoff-20260919-1915",
   "integration_base_sha": "d17fc81cadf18a8718ceb47abf27976678aceae3",
   "scope": "Historical comparison and twenty Railway text-generation trials with standalone Pangram outcome; experimental evidence only, no article-master or existing-state changes.",
+  "completion_scope": "Requested twenty-generation experiment and selected-paragraph GUI check; evidence preserved, not humanization success.",
   "owner_outcome": "Recover fresh natural model continuation from Joel Human prose",
-  "owner_outcome_status": "OPEN",
-  "current_result": "Twenty generations completed; selected paragraph self-audit provisional PASS; Pangram 4.0 AI 1.0 / Human 0.0."
+  "owner_outcome_status": "OPEN / UNMET",
+  "current_result": "Twenty generations completed; selected paragraph self-audit provisional PASS; Pangram 4.0 AI 1.0 / Human 0.0.",
+  "result_path": "articles/inner-child-therapy/experiments/RAILWAY-20-HISTORICAL-COMPARISON-RESULT-20260919.md",
+  "exact_trial_evidence_repository": "u-dont-existDOTcom/pangram-humanization-lab",
+  "exact_trial_evidence_commit": "f2e4f2c8a45848795f4b77680c05d868d28212b7"
 }
