@@ -5,7 +5,9 @@
   "owned_branch": "chat/inner-child-proven-repair-20260919-2008",
   "integration_branch": "chat/inner-child-humanization-recovery-20260918-0037",
   "integration_base_sha": "0ec2d6d503d1459ed4ab1dfe17a31cbf82171d50",
-  "scope": "Current owner request: continue direct Chat repair on genuinely model-written prose; stop counting edits of owner material as autonomous humanization. Diagnose and repair the existing T1 checking paragraph, retaining source functions. No Railway generation or owner-wording substitute; all accepted article prose remains unchanged.",
-  "owner_outcome": "OPEN: reusable writing improvement, not near-copy preservation or detector-only success",
-  "comparison_rule": "Whenever asking Joel to compare versions, display both exact versions and enough context in the same response; active canonical rule is being added to SKILL.md via scoped PR 82."
+  "scope": "Current owner direction: continue direct Chat humanization but compare progress across article sections/paragraphs rather than repeatedly optimize one paragraph. Inventory all source headings and all recovered current paragraphs; reuse exact prior results; select a bounded first batch of genuinely model-written unresolved passages. Preserve owner-final and accepted prose; do not use Human anchors to mask paragraphs; no Railway or Replit.",
+  "owner_outcome": "OPEN: usable model-side writing improvement and accurate cross-passage evidence, not aggregate detector gaming",
+  "current_pass": "Resume already-frozen checking C once if ordinary RDC path permits; compare two additional R5 unresolved model paragraphs (readiness and exercise evaluation) with at most one local repair each. At most five new GUI submissions this pass, no exact repeats. Prior section spending remains recorded; this is the current owner's broader continuation, not a reset of past counters.",
+  "comparison_rule": "Show both versions in any requested comparison, with actual context. Canonical rule is merged in main/SKILL.md via PR 82.",
+  "source_boundary": "Full raw source has a GitHub-recorded exact hash but is not installed as a registered master. Article-wide heading inventory and recovered prose are separate coverage levels; do not invent or substitute missing later section bodies."
 }
