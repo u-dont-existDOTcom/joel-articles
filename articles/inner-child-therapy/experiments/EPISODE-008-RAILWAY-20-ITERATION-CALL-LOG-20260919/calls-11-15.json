@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "call_range": [
+    11,
+    15
+  ],
+  "prompt_resolution": "Each call's prompt_template resolves to the exact text in prompt-templates.json.",
+  "calls": [
+    {
+      "call_number": 11,
+      "project_ref": "isolated",
+      "thread_id": "48cdc8d7-145b-4cd0-897b-a967a15b914f",
+      "thread_mode": "fresh",
+      "prompt_template": "CURRENT_MINIMAL",
+      "output_exact": "Usually the first draft is the one where I'm still trying to win, even if I tell myself I'm only trying to explain. Then I read it back as if it had been sent to me, and I can hear the little digs I pretended weren't digs, or the sentence that technically says one thing but clearly means, “You should feel bad now.” That's normally where I start changing it—not to make it nicer than I mean, exactly, but to make it more honest about what I'm actually upset about.",
+      "output_word_count_whitespace": 90,
+      "output_character_count": 465,
+      "output_sha256_no_terminal_newline": "c708f06ea08d8621a97bc6a113b73bc36d6d2a0a73cacf8babe3ade8e385a126",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "NEAR_PASS_TIDY"
+    },
+    {
+      "call_number": 12,
+      "project_ref": "isolated",
+      "thread_id": "de236a41-cec4-43e2-afaa-92da827df9c4",
+      "thread_mode": "fresh",
+      "prompt_template": "CURRENT_SPEECH_FRESH",
+      "output_exact": "Sometimes I reread what I wrote and realize the sentence I thought was the most honest one is actually the sentence where I’m trying hardest to make them feel bad. I don’t always delete it right away, either. I’ll just sit there looking at it, because maybe the feeling underneath it is real, but the sentence itself is doing something else, and I’m still trying to work out what.",
+      "output_word_count_whitespace": 69,
+      "output_character_count": 380,
+      "output_sha256_no_terminal_newline": "9ac0b159b7343911b0318584e44487c7375d9f2abdca3f023f8ea82923464300",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "PASS_SELECTED_AUTONOMOUS"
+    },
+    {
+      "call_number": 13,
+      "project_ref": "isolated",
+      "thread_id": "c6490bb9-d71e-48c5-b988-ce81756cf5de",
+      "thread_mode": "fresh",
+      "prompt_template": "EP5_SPEECH_TRANSFER",
+      "output_exact": "So maybe the first step isn’t becoming that adult all by yourself. Maybe you have to borrow someone else’s adulthood for a while—not just have them care for you, but notice what they’re doing, let them help you do some of it, and then try one small part yourself. I mean, that may be how the adult gets inside you in the first place: not because you suddenly know how to parent yourself, but because you’ve been close enough to someone doing it that, little by little, you can begin to do what they did.",
+      "output_word_count_whitespace": 95,
+      "output_character_count": 503,
+      "output_sha256_no_terminal_newline": "a167d2013e7e3be238e586df4df266a381f610114516eaad28dbff110f625e5b",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "PASS_TRANSFER"
+    },
+    {
+      "call_number": 14,
+      "project_ref": "isolated",
+      "thread_id": "caa682bd-e9f3-4ff9-8610-3eb5c6c0c59e",
+      "thread_mode": "fresh",
+      "prompt_template": "EP5_MINIMAL_TRANSFER",
+      "output_exact": "I think there may be a first phase before inner parenting, where you have to borrow adulthood. Someone else helps hold the adult position long enough for you to feel what care is like from the receiving end, watch how they do it, and begin doing a little of it alongside them. Gradually, the part they were helping you hold becomes something you can reach for yourself.",
+      "output_word_count_whitespace": 67,
+      "output_character_count": 369,
+      "output_sha256_no_terminal_newline": "5913803bed4850bd39bdc189f1e398243f1855d46d3ae3bb8a6617c347f97189",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "NEAR_PASS_ABSTRACT_TIDY"
+    },
+    {
+      "call_number": 15,
+      "project_ref": "isolated",
+      "thread_id": "de2fc22f-5fe4-415d-8703-93c84eb3d5b9",
+      "thread_mode": "fresh",
+      "prompt_template": "P3_SPEECH_SOURCE",
+      "output_exact": "And I think returning to the person who wrote that first version is part of it, too, because when the emotion first comes up, that person is often the inner child. The adult isn’t taking the pencil away because what the child wrote was embarrassing; he’s sitting down beside him, holding his hand, and saying, okay, I see what you’re trying to say—let’s find a way to say it that the other person might actually be able to hear.",
+      "output_word_count_whitespace": 79,
+      "output_character_count": 428,
+      "output_sha256_no_terminal_newline": "e0d5859fe97b094332fb6a265396403694efcd3919a9e6c6399d58cd893806be",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "FAIL_TEACHING_QUOTE"
+    }
+  ]
+}
