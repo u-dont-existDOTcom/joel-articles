@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-19",
+  "pass": "continuation-2235",
+  "new_gui_calls": 3,
+  "new_api_detector_calls": 0,
+  "results": [
+    {
+      "name": "orientation-original-2235",
+      "sha256": "ff33166eee18645d6237cef2e1967ce3ff2aef7924c5022293e8f4c1410cb5bf",
+      "words": 63,
+      "detector": "Pangram 4.0",
+      "captured_at_utc": "2026-09-19T22:33:06.717732Z",
+      "summary": {
+        "fraction_ai": 1.0,
+        "fraction_ai_assisted": 0.0,
+        "fraction_human": 0.0,
+        "fraction_lightly_ai_assisted": null,
+        "fraction_moderately_ai_assisted": null
+      },
+      "stage": "STAGE_SUCCESS",
+      "exact_identity": "exact_utf8",
+      "input_provenance": "model-written source",
+      "raw_evidence_commit": "5484a942c81ca9db0b210e566495d16bd5ca9e63",
+      "raw_evidence_path": "state/gui-runs/pangram-4/ff33166eee18645d6237cef2e1967ce3ff2aef7924c5022293e8f4c1410cb5bf/result.json"
+    },
+    {
+      "name": "orientation-repair-2235",
+      "sha256": "504f7756d05cfc59249df0b43c73d96cd1ecb3612160e7ee995ba7c4c7398303",
+      "words": 69,
+      "detector": "Pangram 4.0",
+      "captured_at_utc": "2026-09-19T22:34:41.731853Z",
+      "summary": {
+        "fraction_ai": 1.0,
+        "fraction_ai_assisted": 0.0,
+        "fraction_human": 0.0,
+        "fraction_lightly_ai_assisted": null,
+        "fraction_moderately_ai_assisted": null
+      },
+      "stage": "STAGE_SUCCESS",
+      "exact_identity": "exact_utf8",
+      "input_provenance": "direct Chat edit of model-written source",
+      "raw_evidence_commit": "5484a942c81ca9db0b210e566495d16bd5ca9e63",
+      "raw_evidence_path": "state/gui-runs/pangram-4/504f7756d05cfc59249df0b43c73d96cd1ecb3612160e7ee995ba7c4c7398303/result.json"
+    },
+    {
+      "name": "evaluation-purpose-repair-2235",
+      "sha256": "58fc70b5f87ef5b59278f8ee7d603d7e98d3bf12fed06e8b53c6b57d0c0b8a30",
+      "words": 104,
+      "detector": "Pangram 4.0",
+      "captured_at_utc": "2026-09-19T22:33:35.247809Z",
+      "summary": {
+        "fraction_ai": 1.0,
+        "fraction_ai_assisted": 0.0,
+        "fraction_human": 0.0,
+        "fraction_lightly_ai_assisted": null,
+        "fraction_moderately_ai_assisted": null
+      },
+      "stage": "STAGE_SUCCESS",
+      "exact_identity": "exact_utf8",
+      "input_provenance": "direct Chat edit of model-written source",
+      "raw_evidence_commit": "5484a942c81ca9db0b210e566495d16bd5ca9e63",
+      "raw_evidence_path": "state/gui-runs/pangram-4/58fc70b5f87ef5b59278f8ee7d603d7e98d3bf12fed06e8b53c6b57d0c0b8a30/result.json"
+    }
+  ],
+  "accepted_readiness_repeated": false,
+  "new_candidate_insertions": 0,
+  "owner_acceptance_applied": "71-word readiness candidate from previous pass inserted exactly; accepted locally, not a blanket style exemplar",
+  "producing_plan_audit": {
+    "evaluation": "Implemented purpose-first opening and longer clause development, but still traverses purpose, qualified benefit, failure conditions and advice as a complete miniature lesson. This local realization did not escape that architecture. No improvement is claimed from changed sentence count.",
+    "orientation": "Implemented practical-question grouping while preserving immediate orientation and after-session warning. Both baseline and repair are AI 1.0. The previously successful readiness operation does not automatically transfer even to another brief practical check."
+  },
+  "source_disclosure": "M13 is an owner formulation recorded in a collaborative drafting context, not proven untouched article prose. Earlier M06 is recorded owner-authored accepted text; earlier model influence is not established. Both must be shown literally when used/discussed as map donors.",
+  "safety_status_event": "An unrelated batched documentation-read command was blocked because platform safety status could not be determined. That exact blocked request was not retried or rerouted. Separate authorized article/skill writes and GUI detector actions succeeded normally; root cause remains unknown.",
+  "next_owner_input_recommendation": "One freely worded, same-meaning rewrite of the stuck evaluation paragraph would be useful learning evidence; no requirement for two versions, new autobiography, or completing the article. Preserve any owner meaning changes separately and test transfer on a different target rather than count copying as model skill."
+}
