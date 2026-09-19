@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "complete",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-pro-pass-a-audit-20260919-1645",
   "parent_branch": "chat/inner-child-humanization-recovery-20260918-0037",
@@ -8,5 +8,8 @@
   "integration_branch": "task/inner-child-therapy-intake-20260915",
   "scope": "Audit the exact GPT-5.6 Pro Pass A candidate and its writer instructions after the parent branch admitted the candidate for guarded Pangram measurement; preserve disagreement without mutating the moving parent branch.",
   "writer_role": "independent editorial and instruction-architecture auditor",
-  "created_at_utc": "2026-09-19T16:45:00+00:00"
+  "created_at_utc": "2026-09-19T16:45:00+00:00",
+  "completed_at_utc": "2026-09-19T16:52:00+00:00",
+  "audit_commit_sha": "a6f7d2525688b86d46bd2c53d0d0b9a232b2713a",
+  "result": "semantic preservation pass; writer architecture and whole-boundary Human-shape fail; same-method continuation rejected"
 }
