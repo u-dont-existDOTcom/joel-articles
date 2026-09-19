@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-pro-pass-b2-failure-diagnosis-20260919-1817",
+  "parent_branch": "chat/inner-child-pro-pass-b2-natural-substrate-20260919-1750",
+  "parent_head_sha": "07f6b9c238cb0e4692b755e794ab663427208937",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "scope": "Capture and diagnose the owner-rejected Pro Pass B2 output, identify the causal prompt failure, and select a materially different next architecture without mutating parent branches.",
+  "writer_role": "humanization strategy supervisor",
+  "created_at_utc": "2026-09-19T18:17:00+00:00"
+}
