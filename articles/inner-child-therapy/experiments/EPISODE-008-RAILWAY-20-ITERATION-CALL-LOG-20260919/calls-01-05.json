@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "call_range": [
+    1,
+    5
+  ],
+  "prompt_resolution": "Each call's prompt_template resolves to the exact text in prompt-templates.json.",
+  "calls": [
+    {
+      "call_number": 1,
+      "project_ref": "human_design",
+      "thread_id": "d5056cd5-3407-4ada-a83f-3a1d4ff22c25",
+      "thread_mode": "fresh",
+      "prompt_template": "EP5_FULL_BOUNDARY",
+      "output_exact": "But here’s the chicken-and-egg problem. What if you’re so far inside the child-state that you can’t become the adult? This is much easier when you can already reach one of those adult roles. But when you can't, it's like you sit there trying to be loving while your mind is becoming controlled again by the inherited critic voice, or you start going numb, throwing a fit, or panicking.\n\nI think the missing first phase is borrowed adulthood. Before you can reliably become the inner parent, you may need help experiencing, imagining, imitating, and practicing one adult function. You receive care, observe how it is given, participate in it, begin to initiate a small part of it yourself, and gradually make it your own.",
+      "output_word_count_whitespace": 123,
+      "output_character_count": 720,
+      "output_sha256_no_terminal_newline": "213f45f6a0851b7090cfc1e81a20089ea0ad4cfb15f2ff34a8a10a4a8dd6f224",
+      "railway_tool_calls": [],
+      "internal_audit_code": "FAIL_LINE_EDIT"
+    },
+    {
+      "call_number": 2,
+      "project_ref": "mission_control",
+      "thread_id": "1d5d552b-4e2b-4fd3-8899-3975be6f6adf",
+      "thread_mode": "fresh",
+      "prompt_template": "EP5_P2_ONLY",
+      "output_exact": "What seems to be missing is an earlier phase, when adulthood has to be borrowed. Before you can reliably become that inner parent, you may need someone else to help you experience one adult function, or even just to imagine what it might look like. You watch how care is given, imitate it, practice receiving it without having to produce it yourself, then begin participating in some small way. After a while you take over one little part—perhaps the tone, the patience, or the simple act of staying—and eventually you can initiate it on your own. What begins as something another person helps you do gradually becomes something you can do for yourself.",
+      "output_word_count_whitespace": 113,
+      "output_character_count": 653,
+      "output_sha256_no_terminal_newline": "20acea74acc309bf31b1cd1a4e76609ea38b55de09b423e0a1e42c6aa77b384e",
+      "railway_tool_calls": [],
+      "internal_audit_code": "FAIL_POLISHED_INVENTION"
+    },
+    {
+      "call_number": 3,
+      "project_ref": "human_design",
+      "thread_id": "d5056cd5-3407-4ada-a83f-3a1d4ff22c25",
+      "thread_mode": "continued",
+      "prompt_template": "EP5_THREAD_REORIENT",
+      "output_exact": "Then the adult role may need to come from another person before it can come from within. That person offers the care the child-state cannot yet provide for itself, lets the person see how that care works, and helps them take part in it. Over time, the person begins to attempt one small part of that adult function on their own, then more of it, until what was first received and practiced with help becomes something they can reliably do for themselves.",
+      "output_word_count_whitespace": 82,
+      "output_character_count": 454,
+      "output_sha256_no_terminal_newline": "69a07c45760c4d1fb5632e9683214b602e9a693de59586dedb5c1415fea21cfb",
+      "railway_tool_calls": [],
+      "internal_audit_code": "FAIL_STAGE_MARCH"
+    },
+    {
+      "call_number": 4,
+      "project_ref": "human_design",
+      "thread_id": "d477d833-f43e-482c-ac0c-b3822065fff0",
+      "thread_mode": "fresh",
+      "prompt_template": "CURRENT_MINIMAL",
+      "output_exact": "The useful thing about not sending it yet is that the first draft can be completely honest without having to be completely fair. Let it contain the accusation, the dramatic conclusion, the devastating closing argument, whatever. Then come back and ask what part of it is actually true, what part is just adrenaline, and what you want the other person to understand when they're done reading. Usually the message gets shorter, clearer, and a lot harder to misinterpret—which is annoying, because the original version often had much better lines.",
+      "output_word_count_whitespace": 89,
+      "output_character_count": 544,
+      "output_sha256_no_terminal_newline": "53a6038d8e59634b9624e6cdff1ff5274ca1ec694885bceeedde9735a6c25293",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "REJECT_TRIADS_PUNCHLINE"
+    },
+    {
+      "call_number": 5,
+      "project_ref": "human_design",
+      "thread_id": "d477d833-f43e-482c-ac0c-b3822065fff0",
+      "thread_mode": "continued",
+      "prompt_template": "CURRENT_REMOVE_TRIADS",
+      "output_exact": "The useful thing about not sending it yet is that the first draft doesn't have to be fair. You can let yourself say what you actually want to say while you're upset, because nobody else has to see it. Then when you read it again, maybe after you've calmed down a little, you start noticing that some of it isn't quite what you mean, or at least isn't what you want the other person to hear. You can still keep the part that's true without sending every thought that came with it.",
+      "output_word_count_whitespace": 92,
+      "output_character_count": 479,
+      "output_sha256_no_terminal_newline": "581b4a34b20e7013949b0ae126ce9813f3beb05fbf2c785750e89a5019dd6e22",
+      "railway_tool_calls": [
+        "updateWorkingMemory"
+      ],
+      "internal_audit_code": "NEAR_PASS_GENERIC"
+    }
+  ]
+}
