@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-context-reset-handoff-20260919-1915",
+  "parent_branch": "chat/inner-child-valid-railway-continuation-20260919-1910",
+  "parent_head_sha": "c86b7230d18ab64d9e82f368de0a4bff9b454532",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "scope": "Correct the unsupported GPT-5.6 Pro attribution for the earlier continuation success, capture the reasoning-regression mechanism, and prepare a compact fresh-chat supervisor handoff.",
+  "writer_role": "context-reset supervisor",
+  "created_at_utc": "2026-09-19T19:15:00+00:00"
+}
