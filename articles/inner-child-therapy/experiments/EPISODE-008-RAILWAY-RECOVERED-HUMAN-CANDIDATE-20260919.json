@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "status": "INTERNAL_AUDIT_PASS_PANGRAM_NOT_SCORED",
+  "authority_boundary": "Non-authoritative experimental prose; not canonical article text.",
+  "repository": "u-dont-existDOTcom/joel-articles",
+  "branch": "chat/inner-child-railway-strat-analysis-6pro-20260919-1928",
+  "railway_call_number": 12,
+  "railway_project": {
+    "name": "inner-child-humanization-exp",
+    "id": "7f9e2bb5-b3ae-4e88-87e4-c6e320b4d4c7",
+    "thread_id": "de236a41-cec4-43e2-afaa-92da827df9c4",
+    "thread_mode": "fresh"
+  },
+  "preceding_context_sha256_no_terminal_newline": "c7c6c32ae8279bbbeacedf2fa4534b8ed1b1e0868df1a3b2abfbe21f76e1bc07",
+  "generation_condition": "Open next-paragraph continuation framed as spoken thought to a friend while still finding the meaning; no supplied semantic checklist; no advice or wrap-up.",
+  "candidate": {
+    "text": "Sometimes I reread what I wrote and realize the sentence I thought was the most honest one is actually the sentence where I’m trying hardest to make them feel bad. I don’t always delete it right away, either. I’ll just sit there looking at it, because maybe the feeling underneath it is real, but the sentence itself is doing something else, and I’m still trying to work out what.",
+    "word_count_whitespace": 69,
+    "character_count": 380,
+    "sha256_no_terminal_newline": "9ac0b159b7343911b0318584e44487c7375d9f2abdca3f023f8ea82923464300"
+  },
+  "internal_audit": {
+    "admission": "PASS",
+    "reasons": [
+      "Follows one locally live thought rather than mapping supplied requirements.",
+      "Contains real-time qualification and self-correction.",
+      "Does not invent a chronology, outside facts, or autobiographical detail beyond the supplied first-person frame.",
+      "Does not turn into advice, a list, an aphorism, a framework, or a concluding lesson.",
+      "Stops while the speaker is still trying to work out the thought."
+    ],
+    "remaining_watch_item": "The 'feeling underneath / sentence doing something else' distinction is articulate; detector evidence is needed before stronger admission."
+  },
+  "pangram": {
+    "status": "NOT_SCORED_AUTHENTICATION_BLOCKED",
+    "exact_candidate_submitted": true,
+    "candidate_identity_verified": true,
+    "redirect": "signup before scoring",
+    "score": null
+  },
+  "transfer_evidence": {
+    "railway_call_number": 13,
+    "target": "Episode 005 borrowed-adulthood source paragraph",
+    "text": "So maybe the first step isn’t becoming that adult all by yourself. Maybe you have to borrow someone else’s adulthood for a while—not just have them care for you, but notice what they’re doing, let them help you do some of it, and then try one small part yourself. I mean, that may be how the adult gets inside you in the first place: not because you suddenly know how to parent yourself, but because you’ve been close enough to someone doing it that, little by little, you can begin to do what they did.",
+    "sha256_no_terminal_newline": "a167d2013e7e3be238e586df4df266a381f610114516eaad28dbff110f625e5b",
+    "internal_audit": "PASS",
+    "limit": "One fresh transfer output; no Pangram score and no repeated-decoding persistence."
+  }
+}
