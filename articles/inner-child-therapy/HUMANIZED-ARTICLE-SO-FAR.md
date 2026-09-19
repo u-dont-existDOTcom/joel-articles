@@ -60,6 +60,10 @@ The image below maps out the details as best as I can fit:
 
 # Before You Try to Go Deep
 
+How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later. You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child.
+
+<!-- The original bottom-up-healing embed belongs after readiness; exact native source remains source-recovery pending. -->
+
 ## You Don’t Need an Inner Monologue
 
 If you don't hear a little kid talking in your head, don't invent one. Actually, this is one place where the usual inner-child prompt can get confusing, because “ask” sounds like you're supposed to ask a question and then wait for a second voice to answer. Maybe that's what happens for some people, but you might not be some people.
