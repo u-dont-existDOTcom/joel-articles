@@ -212,3 +212,44 @@ Saturation:
 
 Owner-help:
 `genuine cognition/authority blocker -> show exact sentence maps + failed evidence -> ask narrow question`.
+
+
+## No failed-prose leakage in progress updates
+
+Ordinary progress/status updates may report:
+- current gate;
+- whether a candidate failed;
+- whether strategy changed;
+- whether detector evidence is pending/green/red;
+- whether owner help is required.
+
+They must **not expose the failed candidate prose itself** before owner-delivery admission unless:
+- Joel explicitly asks to inspect the failure; or
+- Chat genuinely needs owner help, in which case use the sentence-map escalation packet above.
+
+The owner must not become an involuntary intermediate reviewer through commentary.
+
+## Exact-byte detector binding
+
+A Pangram PASS applies only to:
+- the exact submitted bytes;
+- the exact detector/model/version;
+- the exact paragraph/natural-boundary scope;
+- the exact recorded text hash.
+
+Any textual edit after Pangram, including punctuation or wording changes that alter the submitted bytes, invalidates that detector result for delivery admission and requires:
+1. all materially affected internal gates to be re-run; and
+2. Pangram to be run again on the new exact final bytes when the detector result remains part of admission.
+
+Never transfer a Human result from a near-identical prior candidate to revised prose.
+
+## Final owner-delivery receipt
+
+When a candidate is finally shown to Joel, report only concise completion evidence:
+- plain-reader comprehension: PASS;
+- semantic/fidelity/preservation: PASS / zero unexplained substantive deltas;
+- architecture/humanization reviews: PASS;
+- Pangram: PASS on exact model-written boundaries, with exact result/model/version where available;
+- any review that was genuinely unavailable, explicitly named rather than silently assumed.
+
+Do not burden Joel with the internal failed-candidate history unless it materially explains a remaining tradeoff or he asks for it.
