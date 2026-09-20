@@ -7,7 +7,7 @@ This file is the fast loader for ChatGPT and other workers. It does not replace 
 - Repository: `u-dont-existDOTcom/joel-articles`
 - Default branch: `main`
 - Current content posture: active governance + editorial skill/tooling home with registered article authority.
-- Article authority: `articles/INDEX.json` currently registers **Romance** and **Somatic Therapies** as working canonical articles. Follow the target article's registered current-state/master/locks/evidence read order and exact hashes; historical branches and detached packets are provenance, not competing authority.
+- Article authority: `articles/INDEX.json` currently registers **Romance**, **Somatic Therapies**, and **Inner Child Therapy** as working canonical articles. Follow the target article's registered current-state/master/locks/evidence read order and exact hashes; historical branches and detached packets are provenance, not competing authority.
 
 ## Always read for substantial work
 
