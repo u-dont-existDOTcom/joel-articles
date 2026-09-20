@@ -206,6 +206,2373 @@
           "role": "writer_state"
         }
       ]
+    },
+    {
+      "id": "inner-child-therapy",
+      "title": "Inner Child Therapy",
+      "status": "working",
+      "authority": {
+        "master": {
+          "path": "articles/inner-child-therapy/master.html",
+          "sha256": "372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd"
+        },
+        "owner_locks": {
+          "path": "articles/inner-child-therapy/OWNER-LOCKS.json",
+          "sha256": "2d64706596129fd23d90ad2e8ae5d965305a5e38941ff95b4623458974c130e2"
+        },
+        "source_evidence": {
+          "path": "articles/inner-child-therapy/SOURCE-EVIDENCE.json",
+          "sha256": "b847f06f19f7bc800a01784417b0a90ea84888b442815f234596380fda984561"
+        },
+        "unincorporated_ideas": {
+          "path": "articles/inner-child-therapy/UNINCORPORATED-IDEAS.md",
+          "sha256": "9749da8f06bd97a14fe51571065da3e44640771b70eeddf7cb3cf7ae7aba3e1e"
+        },
+        "current_state": {
+          "path": "articles/inner-child-therapy/CURRENT-STATE.md",
+          "sha256": "5f7bd9484fe05520c0f2d3b41ea48e7789d43a28b7b8ec6b8d5379918c3369c8"
+        }
+      },
+      "review": {
+        "citations": {
+          "path": "articles/inner-child-therapy/CITATIONS.json",
+          "sha256": "18fb8a389a7841974043439e2c7aa44f232fb91358ffde21d73c67dd527895ef",
+          "status": "pending"
+        },
+        "detector": {
+          "path": "articles/inner-child-therapy/DETECTOR-EVIDENCE.json",
+          "sha256": "e780f50f9ea20d965a90bc3b217a42608c7c5d4ce4c96f43ccc2c40b9a4fba3b",
+          "status": "not_run"
+        },
+        "editorial": {
+          "path": "articles/inner-child-therapy/EDITORIAL-STATUS.json",
+          "sha256": "0e3d24be319c916803a71018762495dcc269a15c5f497d5781477fdb4ff6be24",
+          "status": "pending"
+        }
+      },
+      "publication_exports": [],
+      "additional_artifacts": [
+        {
+          "path": "articles/inner-child-therapy/ARCHITECTURE.md",
+          "sha256": "4724513f1b889f983c31992c6c398d91b2fd9543be666f81c1dbd28bd03486c6",
+          "role": "architecture_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-MAP-TOOLBOX-STATE-20260919.md",
+          "sha256": "9807db199ba8486ec138b99864b19fbae6edc9b115c05306d0506d5ff7bc5c33",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-PROVEN-REPAIR-20260919-2008.md",
+          "sha256": "d5d4f9c323ea5bac6f45618f4643bb35b7f775af528f1b5fd4e58340c7c78f04",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918A.md",
+          "sha256": "b3c0a3727323d5732a3e445ca7115ac63c6301d898bbc50fdda860269fa6f65a",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918B.md",
+          "sha256": "fded9264c44fbe38ef807cde66f79d559878e62d493226aaba8e91426f73045b",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918C.md",
+          "sha256": "0756ad178cd90746b490362871df8120f1484442abe1cc0667ec79ac125c5bcb",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918D.md",
+          "sha256": "8aafc03cbfa48e15de670768d0e0e8a38a2e0fc65e8e77edd8fa3b46591c68aa",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918E.md",
+          "sha256": "0b7d27ee24a1d2c5c2d49e61a7a440ded9090aefef03e185187a86d18c38e139",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918F.md",
+          "sha256": "44b6c57105a65a9ea30fa677b04c7d86a33b6aa68a1edc698ecf280624b14711",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918G.md",
+          "sha256": "24e7282337418c13630317615153a5737b9863a3f61eb8da07107c75d169e232",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918H.md",
+          "sha256": "943bb1df33f25c7edac28190e0342a5491b3e21c41307422df2066a52307bde5",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918I.md",
+          "sha256": "346f7a2bc0961f370619a8c2f2297e4b54d45802a4c77f3670ed4cceeae9b6a9",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918J.md",
+          "sha256": "85efef7f868dbd0d041a1ec8883bbc952e972d59a0f235242e5ff007c59ee951",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918K.md",
+          "sha256": "3972ac0e63609d2289377238abc291d488880fbf5a652ae1ba8fc84f4370b4ee",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918L.md",
+          "sha256": "f83ff568028b1035eb2e3a79c3c0e4114c67666539179b6ce21c5923addc6046",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918M.md",
+          "sha256": "25a957bd0f6ae013d37db86b5bb3dc7b5b8476c309d42b32ca05876c572f9312",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918N.md",
+          "sha256": "8a6d42bf5214baeee32149534bcb2d5a7ce6c819b04d70055431ef722b094355",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260918O.md",
+          "sha256": "26f6e588435fb4159d648efce52b2ff12078aab953afb4de00123651cfae0b78",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919AA.md",
+          "sha256": "cde54cf09556f48dbc6eeba926ebcf64a9b1f36c54cf9ed241056f6648b6a86f",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919AB.md",
+          "sha256": "bd82231188b9c22dccf0f47c3939e3557d17e4621867d9a3f4d0a4d440f027f8",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919AC.md",
+          "sha256": "80fde45b254f75b974fbf464624be7c07a8ed67ddc7bbe7e1d36fcd8581e9564",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919AD.md",
+          "sha256": "61b72e2b9eec1fc5cc2f03380535d00a8a4ee2387bfabebe66c956615d2b4688",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919AE.md",
+          "sha256": "293787321670de52761928ae9006d09576f9c833b26c88993dba81d2ba084dd2",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919AF.md",
+          "sha256": "e1edacf7a091f4d96643a4cb320dfda78109bff73f52ed9a91c0196c2ade2891",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919AG.md",
+          "sha256": "5c5d2df4fb4c9f878fc5ca6a721330e79aa7f79f7aff8f58c34c95e2154206c8",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919AH.md",
+          "sha256": "fd0efc54589fcdf627b9b0409fb57eb05c2667e7c9984a4e2039c433aaf676ed",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919P.md",
+          "sha256": "8e47a885192a283c1d7634203f4f13d9460c98f0914aba38ef42a775c6b25cb2",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919Q.md",
+          "sha256": "ec07e379d1b05896a2920269cfedfc904df30f1c10fb99e6baedb68083b9fad3",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919R.md",
+          "sha256": "a09104f85ffc418c5ce48b82544eb466d09c2b1f1eeb2e78843807521d0f9b46",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919S.md",
+          "sha256": "f6a041d1fa11dd87da1d04d9bbf83c70285e8ee246bbbf263347f88a6ca2b1fb",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919T.md",
+          "sha256": "9865680b74573fc1722165a0b98fc44fe5164aa1af6998566a08947c49bf9a39",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919U.md",
+          "sha256": "c1e9692401704bb77080ce811d08955aa6c5808b24a196100be2ffb492df6012",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919V.md",
+          "sha256": "ac7311a759a619080ae43230c5e987f1eef14d9d9c2f619d52d9790dd5b2bad9",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919W.md",
+          "sha256": "15061bb91427ee3c9624cac8199223d65a50b936f1b2e46b7bf610a942e69513",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919X.md",
+          "sha256": "22b6130088d4f8de8b53ac8d220a58c9dc358e41caefeca34c7ded1be80444ac",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919Y.md",
+          "sha256": "95a490c894ae6d6263baa3122da3dec9c3b48e6ecaa46f885c9f4ba45431a4de",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260919Z.md",
+          "sha256": "c778f653f7ddcbe904ab6e928e178d77caa3d051687872eb84a67abeb85223bd",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-RECOVERY-STATE-20260920A.md",
+          "sha256": "aa10059cbb6678084089e8930bc1d002879d76068ac96e71b81be824c1f49d8f",
+          "role": "historical_humanization_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260915.md",
+          "sha256": "090aebcbbfe7d3a2f60983e10ba585e13d3b992fa03dd8b35ffdebd52037e2cb",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916.md",
+          "sha256": "e33e93ae164c8afa2133cebca072d2e8c099a84d28dce3e57bb6c88653307531",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916B.md",
+          "sha256": "861118ec431f3c4ac1f9223deee46971ab88ce762cd1c151329d3d8a7089d830",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916C.md",
+          "sha256": "b1ca9c92c579b88f428b103abe6e9be63855de4d445e098802e3b3ee8cf1b0c5",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916D.md",
+          "sha256": "7f22eb2cd8191730e9ef5de4a49ffd968753c11889ae21cfbfd1acd81ede39fe",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916E.md",
+          "sha256": "302015a090dff39ec992e47e547af4f4babc5db5d4b4342a321dd84732dd03be",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916F.md",
+          "sha256": "694551c57ed2ab0bd267d9cff00c9a02108216be6a9ff6e2c71013817efaed9c",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916G.md",
+          "sha256": "6a9510b051d5cd73802e995c05718dde9765547f0e76fdd86fa96770930a9856",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916H.md",
+          "sha256": "68b2d9fe5b663a6d5719e3a076bd931b258774e5df1d62a86a2de62cf675e9a8",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916I.md",
+          "sha256": "b40699b37be60f77cd87e207c6d3ff128fa91628ea3b916f7f8e8def1ce9eb6e",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916J.md",
+          "sha256": "baa4862a2f036ead96b5125115351801012f95c9f036271a6b8d09aa08505a53",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916K.md",
+          "sha256": "06d1d02280250a1468920fd8aeeade89b38adecda08ccb97137f70887d751b33",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916L.md",
+          "sha256": "e8930ec09f687e4b44587c5de3734570620d0a3698bdfb53aa2e167ebaebad56",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916M.md",
+          "sha256": "8323c91103355fe9ee4b1043e11c4263c1e5368be1c5f7664ec9465a02b7823e",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916N.md",
+          "sha256": "8b9b0a7dabad48a2219b92765a82112f244daf3d13042f460ebf8bc8a67f7488",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916O.md",
+          "sha256": "5bbc82c037dec5dae939cf7b015aa4cd68375102c99f8bf8e675c54ae3584637",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916P.md",
+          "sha256": "ec863799ad766b8c658183beb08a5c7ca8d97b43937bc842e0cda92dba74f3a7",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916Q.md",
+          "sha256": "b8f256e28bb4b99b039af88a8407b231bb3cc92b1006982e2801b2eff5b86548",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916R.md",
+          "sha256": "05aaa79558551e21fbe5e4100bee5cd2dd01d216cee33c7e853bc82bd3c980a4",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916S.md",
+          "sha256": "9575ee6448a6672bfb7db88c7aacb64a0e92d6ea2a519102ffff3738547988a0",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916T.md",
+          "sha256": "80ef0e4b8e1db7fad9166e9b1b19ba9d58ef71b1bb907090bbd3c029e8771ee3",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916U.md",
+          "sha256": "8a89e74e916edb0deb79333d582c1f97ff453b8654ce77b237145109f39bd928",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916V.md",
+          "sha256": "90fe7313c0584707bb22bd1c3d93956364c4347fafdd05a723139998f7fd6d81",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260916W.md",
+          "sha256": "988f38834f97f6fd34e1a65396e3f7d729e1966e151d8396184f35e06e7cf68e",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917A.md",
+          "sha256": "56dbd78ea91a6be87e351fd579cdd6b9bf065b003f37a1dd8d0d379d7d0e95aa",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917B.md",
+          "sha256": "2b6640c28b2b9c95d7d729c98ccbca8bfd66005cf1904d53465b3e172c734177",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917C.md",
+          "sha256": "c0c564f0b6ede6563af228ef7730bfe5f34d86d44ae2d9d03639cd01aa7c8589",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917D.md",
+          "sha256": "150fbdc7ffe68c4d959072e2840e81d760eea1abbfccb7461a28f00915b89259",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917E.md",
+          "sha256": "d2e0d78cc0d5d207a0403ea08e015e45bfc91d30f1b4b9baa8b6fd9dd4bb81b6",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917F.md",
+          "sha256": "9c069496bc0697b31d94fc03e48b3ac93d8a965d5aea89c3b54d3038fc2c2b45",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917G.md",
+          "sha256": "b0b6f916258053f4b297c59565839cf464f69856e212eb771ea678e5ec599b09",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917H.md",
+          "sha256": "e4035f6978c83f1c879a513d354b704a608e9c61daff3b17e14957d71f7eb457",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917I.md",
+          "sha256": "50e9032e674d4fa6f0a9352497b73c8976e22a8b5140cb1ce162e70017ba9abd",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917J.md",
+          "sha256": "467da45fa756e10039d4e767732e24a601baa9a72398bf2fb6ace08ee9dee7b0",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917K.md",
+          "sha256": "e8e65c41ee90e3d823bfafa59f282255773fc707c028d940b1955411e3522418",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917L.md",
+          "sha256": "76268a17ccee9faa911a5898024dd9892b876c698593ad295c97b7e22e27506e",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917M.md",
+          "sha256": "e582b61cb020c94a118e845a38694d9593f756e2271d34214bffad8e82f77eef",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917N.md",
+          "sha256": "0a5f57393a7fee0abe70b99752a43c74223881758450d1bc0ca9cd23177f9478",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917O.md",
+          "sha256": "77a4c82dc523d97b307b387ab947c7bfce1b504435406e2aae0ed9b36b2ee5dd",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917P.md",
+          "sha256": "a8df1091ad7d3bd458c84a6e0c17ef6f3722717b7a23530cb972c2a68a96ca35",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917Q.md",
+          "sha256": "79194f3966f3b656aebe3f577d09a6b26b44c4094112bca289260a27ba0f7ccc",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917R.md",
+          "sha256": "56206ec7f51d255990a2f24ab777dd3eed39b83b012a7de9b64ef4fea6c00e5f",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917S.md",
+          "sha256": "b16f544189e1816087bad3bbaf2c5013c884cbed492f19350b8924ac81e14c3f",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917T.md",
+          "sha256": "fdc4de457896b68320f9bb9fda281761a6ea3679948b7b907d65d865c438c825",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917U.md",
+          "sha256": "5044b5a2fdf2e6d32776b52cd666176ae37b4d2f0d3f2ae826cd520f1f0d9b24",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917V.md",
+          "sha256": "fada01145bf3dd51ac6cf824c91bd50f47d2fcdccc2901c8ac1d23a491f64499",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-WRITER-STATE-20260917W.md",
+          "sha256": "61273c2c17b5dc92a40b562579dff89529c3c744fdd7a845a02da86772987667",
+          "role": "historical_writer_state"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+          "sha256": "0a0b98abb0d3538715e05bfa6dd7b28fa919620a830d347495e30f1947468cdb",
+          "role": "historical_humanization_review_assembly"
+        },
+        {
+          "path": "articles/inner-child-therapy/INTAKE-20260915.md",
+          "sha256": "4c863a699528a2f0eeccb6a268cd35315f95be11263ac1f27bc3fd6a1587c561",
+          "role": "intake_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/OWNERIZATION-SUGGESTION-BANK-20260916.md",
+          "sha256": "00c098c68ee1ec4fe04fe9c0bea2c6b5d4d20bd7454cefacc77fd858b6ae8f76",
+          "role": "article_working_artifact"
+        },
+        {
+          "path": "articles/inner-child-therapy/PARALLEL-WRITE-LOCK.json",
+          "sha256": "03193186ff7294619b9051036f1a54384e78a78159ae0a1003d6f2edcf701a07",
+          "role": "historical_task_coordination"
+        },
+        {
+          "path": "articles/inner-child-therapy/SOURCE-IMPORT-RECEIPT-20260915.md",
+          "sha256": "e7d7b4815e8b90e38c205583fbf00fc52f68d7972a535d17046367dc51692ff9",
+          "role": "source_import_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260915.json",
+          "sha256": "5529400f41a2bc0975d1a6b068f0093ab1001398b1150f7d8e61c53636ae58ac",
+          "role": "source_structure_inventory"
+        },
+        {
+          "path": "articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260920.json",
+          "sha256": "3974f794f5c4ed840b2dbc317e7b4c59d867e3adc1022ba3e37504ff04fdcf45",
+          "role": "source_structure_inventory"
+        },
+        {
+          "path": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md",
+          "sha256": "cf7431d3f8224582ef279e01f9d6b17a7e1922181df17a5c4b0c449232b40a84",
+          "role": "source_reconciliation"
+        },
+        {
+          "path": "articles/inner-child-therapy/WRITER-LEASE-CHAT-HUMANIZATION-RECOVERY-20260918.json",
+          "sha256": "52edb90f7c26860404a5ed8a8e53ec760ea695a774ee6d675a7839fd2f52c798",
+          "role": "historical_task_coordination"
+        },
+        {
+          "path": "articles/inner-child-therapy/WRITER-LEASE-MAP-TOOLBOX-20260919-2200.json",
+          "sha256": "7a08afdccf3873721b9ff31b33ba68c75a7d916353074edb80147c72820c07f4",
+          "role": "historical_task_coordination"
+        },
+        {
+          "path": "articles/inner-child-therapy/WRITER-LEASE-PROVEN-REPAIR-20260919-2008.json",
+          "sha256": "82ed2f1ef4ee03d34424e3e5d94ba26800cb894a55f9d2fe0522204fe48cf830",
+          "role": "historical_task_coordination"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/ACTUAL-MODEL-REPAIR-2103-A.md",
+          "sha256": "80e12597a89a23b2f50c53487b977920d95986790b7f1f3a16589bfe17c872e2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/ACTUAL-MODEL-REPAIR-2103-B.md",
+          "sha256": "d162024cd96601f745cb139a440f7f1bf60b09c95ec547a6cd0a666df340cac5",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/ACTUAL-MODEL-REPAIR-2103-C.md",
+          "sha256": "73f25274cf472a76031d2c28d4a0801d60b419c4b717fe346fca5bb9c9076279",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/ACTUAL-MODEL-REPAIR-2103-CONTRACT.md",
+          "sha256": "2a5a47d29b80722728e36e2e93587bbd38b3a49c6723b41a3ed08d52a43d4a8c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/ARTICLE-WIDE-COVERAGE-20260919.json",
+          "sha256": "212df939b9cf7007ac33c04f25ec16ef52998a961a71b7ce537e4a837514f7ef",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/ARTICLE-WIDE-WORKBOARD-20260919.md",
+          "sha256": "94ab5fcb7edc47c4d371d4616a26c4830f37f341f4be82b18aea102671055635",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-LEDGER-V2-FOUR-REALIZATIONS-R5-R8-20260920.md",
+          "sha256": "b53c28374220c8123bf69c2f8d8e38208d87c13d76c7124ee1b5b3b57affc6e7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-LEDGER-V3-R9-R12-20260920.md",
+          "sha256": "8715dc5f608b2e62129e4227194e712910b73022c56a1f6f851d717e8b9ca502",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-NATURAL-MAP-PLUS-SENTENCE-ENGINEERING-D-20260920.md",
+          "sha256": "8fbded7c6f2aaaee4d5499c81874506366376900731e887dca4d5315429f737c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-R10-DETECTOR-RESULT-LEDGER-V3-FAILURE-20260920.md",
+          "sha256": "4995227851dcd9e3d3a3d8c29895e483cf775794648ed876ccfde96dd33e52fc",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-R13-P2-FOUR-RESIDUAL-REALIZATIONS-20260920.md",
+          "sha256": "212c7dddaef980d4e3aee51b63dc85316a0566adfc1749ae85c8324a973f0444",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-R13-R14-RESULT-OWNER-HELP-GATE-20260920.md",
+          "sha256": "5787fab10d3509494f26c0703f660550ff5cd13d4a0305fdeadccac8079717e0",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-R13-TRUE-SENTENCE-ENGINEERING-EXECUTION-20260920.md",
+          "sha256": "44d295040dceac9a6a07f168a133277df2b18d2ce20555fe99a7995108586652",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-R4-DETECTOR-RESULT-LEDGER-V2-CORRECTION-20260920.md",
+          "sha256": "8f0c11b5359354d03999c28b4d2f6a104214d8c7ac5c4eabe0543b3a8e02c491",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-SECTION-MESOSCALE-NATURAL-MAP-E-20260920.md",
+          "sha256": "23fbebb9af62599919f7fc51e1bf62169d27e935dc15b4b26c2fc8e2d4f7fe21",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-SENTENCE-TELL-LEDGER-FOUR-REALIZATIONS-20260920.md",
+          "sha256": "33c6c2ef7d1e8aa69eaf824c5e3f0c1deb65fd1610cfab0c5dc9de0b005e67ff",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-TRUE-SENTENCE-ENGINEERING-GUIDE-R13-20260920.md",
+          "sha256": "e54f4a93308ec548b2b1d55d0e63d12a81729d6b4ddbb9771f4d35e861ab408b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CONTINUATION-CANDIDATES-2235.md",
+          "sha256": "b3bc71220c1ffdb898555743b7e43a03d257419f9522334ec5a5454e90f2e154",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CONTINUATION-RESULTS-2235.json",
+          "sha256": "2294b59af2a3fdefd2e3b725bf6e5bc3006d53b9d7c4420546b33afd17ce3f0e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CONTINUATION-TWO-PARAGRAPH-OPERATIONS-20260919-2235.md",
+          "sha256": "242118ea089ac9d0af43b44750d4e988d081825d3c83cf35c66e33318fabe9ab",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-001-005-ASSEMBLED-OPENING-SCREENSHOT-AUDIT-20260917.md",
+          "sha256": "ed096022ab11b39da9ea717d6bdcbb29ef74a02fdf02071ba11df52063ea3e06",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-003-PENDING-20260915.json",
+          "sha256": "f8ce51570be089dd12d6b9016d3dca2b57a368a441134368aa872f391c6eda4a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-003-RESULT-20260915.json",
+          "sha256": "8b9f8eb79db1a4bfa0cac19e51e54316772ae278025ae71259a38b72b871fbb1",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-004-BOUNDARY-INTERACTION-20260915.json",
+          "sha256": "4c892a29def9541a4a63f659dc31585c7ed890b190f828aaf7a01f4f1b178382",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-004-PENDING-20260915.json",
+          "sha256": "e3d23eac8a08bb97ff0c21d83c58ec1226bfff41458b75715ac8082ddd25a56f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-005-NATURAL-BOUNDARY-CANDIDATE-20260915.json",
+          "sha256": "ac12a85d9c9c579c97d502c00c83dc6e43ee6cb13d57ca394942950926a50bd9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-006-ALTERNATIVES-20260915.json",
+          "sha256": "de79b578d9d2e315cd13e61755978aea7854f6828ec41213bc8147e9d3965124",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-006-MAP-BOUNDARY-PENDING-20260915.json",
+          "sha256": "17fd1e4d7d3268f6999899e198dabba3497b383b40eae24638c7a8ef2c290794",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-006-MODEL-LIMIT-HANDOFF-20260916.json",
+          "sha256": "7c0a92e287d7b518710155cea0b3406c31747c7e70f605a6c69ac028ffeb1902",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-006-OPTIONS-COLD-AUDIT-AND-STRATEGY-SWITCH-20260915.json",
+          "sha256": "422a30cdc54b0b35a13328953ef1779b626e77d66b12876247699d5d90e11d6a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-006-OWNER-FINAL-LISTICLE-RESULT-20260916.json",
+          "sha256": "b89bc6632d5715dc1b03923dd9459c9c0eb463a23e14ada763178416bf993f56",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-006-REGISTER-LISTICLE-CORRECTION-20260916.json",
+          "sha256": "72cb3f2520c4dd62099c3408938b5c9d9854c168c6ce183fa4a10de2b2bc42b0",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-006-SECOND-COLD-AUDIT-20260915.json",
+          "sha256": "fc97d02ec273e525c3617bb5885866a519821bb04ef2b3866be0ffc1119898df",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-BLIND-AUDIT-BEFORE-SCREENSHOT-20260916.json",
+          "sha256": "6bdb604b445b4f6f700fe8a9551220e0f99f708d21e2517accc3e540d7e118e5",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-BLIND-SCREENSHOT-AUDIT-AND-REPAIR-20260916.md",
+          "sha256": "4a0bbb22c9063054ac1c53d3df5b0860b82d4e040630ba45fa114d9ab63b8006",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-FULL-SUCCESSFUL-METHOD-RECONSTRUCTION-20260917.md",
+          "sha256": "752f4dbff0e6f8095e4e2bb2137e6ccc0f4eb4824d3933bcbcd629fa43550e37",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-20260916.json",
+          "sha256": "18f023d48a76295dbfe2021d8d45761a30b8923675b959d423f69323fecbb72c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R2-20260916.json",
+          "sha256": "9bf315b4db6032922523c65579681089c76cdb51e557696a7fbeade098691a96",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R3-20260916.json",
+          "sha256": "4481ef0eb40e775344ae2c2b02fab895177d5a0e3779eb0c7b91d4c0f1304e27",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R4-20260916.json",
+          "sha256": "a4fb0993c26ca5dfd8c83a0cd93cc38f4e3592a7a63400d4c346b659dc60c8a9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R5-20260916.json",
+          "sha256": "99fbbce0c8862ee6c95404de80abeb96a1e4027d4f0751c89153244bc9feb8ab",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R6-20260916.json",
+          "sha256": "44c100d5546bf140c702d698999c714d98db43002469e4ee0ca67df0f22e775e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R7-20260916.json",
+          "sha256": "c1e78fdfaceed3e4fbe94619b41e4d41a3e7fb1a3c53e1a59a78ae2db3b1f892",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R8-20260916.json",
+          "sha256": "b6d7515efff9db0762901dfc38d0dce13bcc30b5cc113e47a62a8ee4c1ad4f99",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R8B-20260916.json",
+          "sha256": "07ffe42fb362ab085aa1bf794eebab5a57fc01815edf01b491e3c3f05186fe20",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R8C-20260916.json",
+          "sha256": "eae0b0e34e1efe5a64876ff972a997f0f8256e91f5bc10447b3adb1149829347",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R8D-SENTENCE-PASS-20260916.json",
+          "sha256": "e8179f8ee6c5384b8788125cbb4a3e6afafcd7bebf8da1347d3a66057fec821c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R8E-SECOND-SENTENCE-PASS-20260916.json",
+          "sha256": "ec3fd78be04f6e43012aeda94d6eab4cc4db8f9fbc90f3caaf0ede35237bc9e8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-CANDIDATE-R8F-FINAL-RESIDUAL-20260916.json",
+          "sha256": "5a813453632db9786a0cbd2b3aa3633096b39d01037b8e746b519a93028facb9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-P09-OWNER-ACCEPTANCE-20260919.md",
+          "sha256": "66000d64a6fc8e90c0c4f4f8708f5e9792764a52386f5b48c6c5b949d35aa864",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-P09-REPAIR-B-20260918.md",
+          "sha256": "ac3632d6d67ce26949e8f50f43bfa5faec68f3e2559f73aa102fc74bdcbe88ff",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-PARAGRAPH-LEVEL-AUDIT-20260918.md",
+          "sha256": "1e6f10a330273418f1cb56fed1c80333db18aff58d83436ab52ad38d09b72854",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-MY-JOURNEY-SOURCE-20260916.json",
+          "sha256": "5865d0925032e51f8d7866bfa8c608216bde26ce7400c6062fa68c14fa4547af",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-OWNER-CORRECTION-FULL-TEXT-DELIVERY-20260916.json",
+          "sha256": "30f5e7c7bc62e589f70fd4d774c46305784815a6e48557680789bd300d93fe28",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-OWNER-CORRECTION-PREFERENCE-PERMISSION-REGISTER-20260916.json",
+          "sha256": "3c4b908d14431ce99aa1e89abd1128f0da9e7c62835041f41218f0f154655a4d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-OWNER-PARAGRAPH-LEVEL-HUMAN-GATE-20260918.md",
+          "sha256": "7b613af74810dd6192854066803212e00973822b533615a09053bf4a40eecc6f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-OWNER-SENTENCE-REWRITE-GUIDE-20260916.md",
+          "sha256": "c53e617315dbe365cd5cc0abbacd5a5fe0f4613d17650972ae67ba4c90a74ec8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R6-FIRST-PARAGRAPH-AI-RESULT-20260916.json",
+          "sha256": "9b92e9e3ab49474543fe9d8259f929b9ec6b3304b0496fc64340bb49321dad68",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R7-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+          "sha256": "621420e3110cf7cf71de2198a326d4594e4c15433a00a950863acbd1a3f343f2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R7-PANGRAM-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "dd9e0023bd897002971f895c13fee04bf26d0fa85e6b58168ce4063e141fe49a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+          "sha256": "0a989294f4abd1c6d4975e5456616624ff6e09d45ff5fcfc5fabfb0d5056a9a9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8C-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+          "sha256": "8c3894c0e35bfbf617d285dfd9113d288393bbdd75b70c89e7b1517c2bc51a4d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8C-PANGRAM-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "98c6c5840513125283c36a5ec47e00c20b3fc8b802b5ea9fb815915a0f4ea07a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8D-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+          "sha256": "bc4636b8ec5ecb9ff7700bfb2d99ef5232a74ccc66ad3cb3ac878e9f22d979fd",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8D-PANGRAM-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "51eda3569679efe08699aa305984344f296397c78f94b8ddcec969e71a4b602b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8D-RESIDUAL-SENTENCE-FIX-GUIDE-20260916.md",
+          "sha256": "f646c09d4059089b1b0cdc4ed46d9be25cd5414b65dbed46351834eb3bad06f4",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8E-FINAL-RESIDUAL-FIX-GUIDE-20260916.md",
+          "sha256": "60b05700fb737939563026457f88f83c45218dc94ca1f768a8925fecb0747edb",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8E-PANGRAM-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "2d2c1167e97744a9c14d0dd786adbbf55366241c5905a75e1ae4c6c25d1e510a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8E-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+          "sha256": "f18877850f5a41ec5b128e77207c2c6669e5e89db1503fe6ec43cfb5ecb561e5",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-R8F-OWNER-RESULT-20260916.json",
+          "sha256": "6a8877cd3c31b9d73b85203380b0f83a6e7f42c8c9db0dfab032b73fc2326056",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-007-UPLOADED-SCREENSHOT-CANDIDATE-MISMATCH-20260916.md",
+          "sha256": "c3ad04bfb63d19f88cbd581c30e1b8778778f10b42771fb9cf7e1d6cd7ff1402",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-A1-STRATEGY-REPLACEMENT-OWNER-COGNITION-20260917.md",
+          "sha256": "c164a00754592229e10760022c9bd8afcd7162a3fb1f3b61c8e5bcf8f46faf16",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-ALSO-LOOK-OUTWARD-OWNER-ACCEPTANCE-20260918.md",
+          "sha256": "4409dd4decf39224e25c61ed2442efcaf993237750ba46bc1a9c263f944a586f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-ANCHORED-RED-REGION-CONVERGENCE-METHOD-20260918.md",
+          "sha256": "617ed6eeeb350f730b6026b05dbaa217fdff546cc6556985bea68ff799bb4028",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-B2-SUBTRACTION-ONLY-DECOMPOSITION-20260918.md",
+          "sha256": "f69452301283d5f84e1372e6f988e5ff6288bc7ab789e074887156e689b00009",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-CHAT-ONLY-CANDIDATE-20260916.json",
+          "sha256": "89886815a2d29eb2f5a96a28088799b3e4cdc4ec4a6cae9cd1ca43c8566ce88a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R10-HOT-SPARSE-OWNER-CALIBRATED-20260916.md",
+          "sha256": "d60c12bd4e43061c2281170d0f74cbafdf9c7b27ad904849a94f8ee35603dd42",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R2-PREPANGRAM-20260916.json",
+          "sha256": "d74e67f3e675dc384a82435343163f6f003d0a813c7514b765c8d35b5cbe26de",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R3-PREPANGRAM-20260916.json",
+          "sha256": "365874ca6c738aa6d2efd0f44f54cabc691cae7b840ac5c47fa985e9ba5fd5ce",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R4-PREPANGRAM-20260916.md",
+          "sha256": "b3bd2699007a5fcb73ef37367e752b8c6636ab2a83ce0cdc2d067277364d906f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R5-PREPANGRAM-20260916.md",
+          "sha256": "8c4d158a46ef848b068c52fe1c69b310a6bf50a5eb4f7603ed01b215fc37c8f3",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R6-DELAYED-GUIDE-APPLICATION-20260916.md",
+          "sha256": "1b81fb684bfb924f5ad9c2e38a645c9b31a8f03375a2ecc74a134d0735b9adeb",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R7-SENTENCE-GUIDE-APPLICATION-20260916.md",
+          "sha256": "2ccea4ed22e6755b4fc1a15eb3396aa1ec042e56b17fd7de21b6d1ef8108530e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R8-MINIMAL-REPAIR-20260916.md",
+          "sha256": "d7ea10bca09cb30714ffafa70ae8e1e58f649652c4da4849801c2b78294326b3",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R9-A-PLAYFUL-DECOMPRESSION-20260916.md",
+          "sha256": "f578c7d71323d95e4896f561d06f776ee77588fb6a07959f041865b27bbe8cc9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json",
+          "sha256": "ac055332f2110a291428491d0d9e0cf99f5236a5d7759d940908af3210dde3ae",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-BROAD-VS-SENTENCE-ENGINEERING-COMPARISON-20260919.md",
+          "sha256": "e7b4dea47016f0cbd77c6fe7beaa77a99503288418e31401918a7161f5ee2ce1",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CANDIDATE-A-OWNER-CORRECTION-FINAL-PARAGRAPH-MOST-AI-20260918.md",
+          "sha256": "f43a8878e23cd7adb2fee111d5eefe7b60c91f8ca75c5439669dcf5372082484",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CANDIDATE-A-TO-B-LOCAL-REPAIR-GUIDE-20260918.md",
+          "sha256": "a33ebd8ab4bb7cf86a1421052bbb274b217a521b926a8ef10de17d717030e275",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CANDIDATE-A-TO-B-LOCAL-REPAIR-GUIDE-V2-20260918.md",
+          "sha256": "7ba82f8340ece1e0f89f68a35294c1c2e071d7b23554473dbcae3750b26c9ba4",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md",
+          "sha256": "8152f38a730a2f03f85bbae3d44dc85d59a0b3c91e7c9d526d8b7d4f0ebeb586",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-R11-OWNER-LOCK-PLUS-REMAINDER-20260916.md",
+          "sha256": "9216e48d3cc0be9036affcdd8fc1ab9b2402bbd53338e39398e49c67f5932a7e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-R11-OWNER-RESULT-20260916.json",
+          "sha256": "a3a93ebde6be9d8a35485f4dc104cbcca9536b990d32ab32fd05b0fb19fce428",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-R11-PRESERVATION-AND-COLD-AUDIT-20260916.json",
+          "sha256": "0e0978baf471fe8bd0f73a3f1ca048532991df06636bfbd8fcd230640c7de61c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CHECKING-INTERNAL-MONOLOGUE-M1-20260919.md",
+          "sha256": "267434a77b560b6144c8ceefd0e1ca49f327b8ddb2e714266dfb62fc41f1f71d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CHECKING-INTERNAL-MONOLOGUE-M1-AUDIT-20260919.md",
+          "sha256": "131ad3fb5b4ce0e3e4c82a353ba837130fa0a395e3f9525330ebe64e53c51813",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CHECKING-SENTENCE-ENGINEERING-GUIDE-E1-20260919.md",
+          "sha256": "cfc13e42c3e4887dabf1aa35ea119daf100a9a6bdc0dbda49d73602875d6ed4b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-CHECKING-SENTENCE-ENGINEERING-GUIDE-E3-20260919.md",
+          "sha256": "2b160f7a97c06a975a5f3a0d8bc329b1b299a1847b74eefee7eb6883b653abad",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-COMPRESSED-CAVEAT-OWNER-ANCHOR-AUDIT-20260917.md",
+          "sha256": "4052bcc2ae344f946608db524b363fb01635c0463f4fa87f8e2c3a5221d400ba",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-COMPRESSED-CAVEAT-OWNER-ANCHOR-CANDIDATE-20260917.md",
+          "sha256": "b8af1db5f7c46111ec37121c8f756710a7be1c99ce42668f8a7cdb0a62656762",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-DETECTOR-FEEDBACK-LOOP-CORRECTION-20260918.md",
+          "sha256": "65edf3fd4e17b2457e8cdeb4fafc91331d723bba668a350236c266975844838c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R12-A-C-HYBRID-20260917.md",
+          "sha256": "4f08f1765025788c26cb769cdcdf82374e50a8be5e7b373310a601a919a84e49",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R12-REAUDIT-20260917.md",
+          "sha256": "2d0e4dc2f948f9da6911b2f7015dd0c13267694fb9d35895301054154d4f7303",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-DONT-ASSUME-R13-REPAIR-INSTRUCTIONS-20260917.md",
+          "sha256": "8f268c54bc06327ec774f6263eac9ecc8e05b09df62b32248b3fdfabd7d9e054",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-EXAMPLE-FIRST-CANDIDATE-AUDIT-20260917.md",
+          "sha256": "eb539b0c9217cd90e2beca3744537c48b374cdf02a858d83e723eb12f5a940fd",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-20260917.md",
+          "sha256": "3832121704d4d0aaddbcbca4a92e159dda4f064b83a86221f5000294b308f21d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-AUDIT-20260917.md",
+          "sha256": "c1c15600beb66616dfee5104687ecf2caceebc57de62cb9f4a7a3b53b3089bbb",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-FORWARD-CONSTRUCTION-BEAT1-PRO-PACKET-20260919.md",
+          "sha256": "be55b6f44b77534088bf530dd9d21585ef9543eb7f2d5e5ab4dad9cbf53dfbc1",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-FRESH-TRANSFER-WRITER-PACKET-T2-20260919.md",
+          "sha256": "23e6e44b18177ef735e4c03a1afba99535bb6c744ab1d2c1059640987b2e0493",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-HUMANIZATION-TEST-IDENTITY-CORRECTION-20260918.md",
+          "sha256": "7a20f3803d276e93c293c0d230215327767fc179e2ec852daa9f2abc57a43a6b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md",
+          "sha256": "5e39d21c597f2615962ca9da67f43d88bc3f8061d7563d331093fcef2f7c39ca",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-LEAN-FRESH-LOCALIZATION-PROBE-20260918.md",
+          "sha256": "7d80a3cdc0153051b823c529469b601efed934e219b0486db18b484e4ea1c879",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-LEAN-FRESH-OWNER-PANGRAM-RESULT-20260918.json",
+          "sha256": "f6ef3974a25c9bd3f2f3a46496656d485fbf0c854dd05e6d52a536f2623eaf5f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-LEAN-LITERAL-FRESH-WRITER-AUDIT-20260918.md",
+          "sha256": "ee8d51fa2671ef9d59330f7f3644d5127c047024cd78c57434d7877ea98746aa",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-LEAN-LITERAL-FRESH-WRITER-PACKET-20260918.md",
+          "sha256": "987c5ccddea3e49e406a37d5a2bc32d2c7c7729c89263d5ce72ce0ecc1e7a00d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-LEAN-LITERAL-FRESH-WRITER-RETURNED-20260918.md",
+          "sha256": "2474fb77315211840b636b6e050e663176c8f426c0d4258bf06b3208dbc80f78",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-A-20260918.md",
+          "sha256": "e856b686d4c1e29d45939486adb1fdf923ec82d0ead1e0562f0e4a7225de472d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-A-AUDIT-20260918.md",
+          "sha256": "79d7c84685921d580ff566abf183dab0041c1ba94c147fcbfcd8676294d8baf8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-A-REAUDIT-20260918.md",
+          "sha256": "a96701ae73b985a6677b610ec36ff68ad79d5992f6bf1bda57014f74a6aa07d1",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-B-20260918.md",
+          "sha256": "8b6144123abd7b4bf70744d8e3271b92ef529863e18d96289605721f8666fa2e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-B-AUDIT-20260918.md",
+          "sha256": "b24e4e56d89d374acb3f6d66fb2bd07a5ef0c0a5bb3c7339e52d7c64c3ec18f2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-B2-20260918.md",
+          "sha256": "d83103b06352429e402789c62d5d3b61ba8d8cdb4ba0cbf34b289728b50056ab",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-B2-AUDIT-20260918.md",
+          "sha256": "c458d940afef59aa0d6d969ba8aa82609873925dd0c501a63f94557a9d67adaa",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-B2-STRICT-AUDIT-20260918.md",
+          "sha256": "b2f8bf7627bf89ad8e947cc8552bbf2d5d183313be364987e9bbd23b80d64836",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-C-20260918.md",
+          "sha256": "89562b5ef87dad964b97eb7eda9a92dd33e2079d1de2c8139926a0de62392eca",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-C-AUDIT-20260918.md",
+          "sha256": "3dfe9d265856b8836a7e8b8d0abbe82d141a46a5a83a951d4f751392ecef1746",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-C-STRICT-AUDIT-20260918.md",
+          "sha256": "cf745f065a37e7e9b7902292e6f95d1927c48ae8960c810822dcf3716809b5e3",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-D-20260918.md",
+          "sha256": "d0f5a23346f53f4eaacc73f0d4fd0fecfa09284136a8bc9962fd91c18c2807a4",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-D-AUDIT-20260918.md",
+          "sha256": "855ce04150e04673abadaf365ba3cf4b7ba4befff9b41534eef36d4dc98aa86f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-MODEL-ONLY-HUMANIZATION-RECOVERY-CANDIDATE-D-STRICT-AUDIT-20260918.md",
+          "sha256": "cc40de4c8a2fc024bca9f5b19169d412afe0d3f161fb61d90c761f96a5f9d811",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-OWNER-CORRECTION-BOUNDARY-PASS-NOT-HUMANIZATION-20260918.md",
+          "sha256": "463e873bc70a359bf8233ecbf807fea12e6864a4c6a08e872bbabc87aa17d5d9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PARALLEL-R17-ROLE-CORRECTION-20260917.md",
+          "sha256": "a15022cb80f62616475448b5d98f2cdb64e58e1ec74dca01817ce99fd05fb133",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-CANDIDATE-E-OWNER-PANGRAM-RESULT-20260918.json",
+          "sha256": "5b95b873c01eeb5d104508972dd1158502bdbe095f390c43276d2617e6325f5a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-CANDIDATE-F-GUI-RESULT-20260918.json",
+          "sha256": "9c207ba62614a8aa0f412c00c6c89bcac2d4dcbeb813d3553eab5d5d74f6b865",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-CANDIDATE-G-GUI-RESULT-20260918.json",
+          "sha256": "2bc95037436abbfb85bbede69dec3c1120bbe10e4109b83eb481d81d24c122c0",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-CANDIDATE-H-GUI-RESULT-20260918.json",
+          "sha256": "37cc011d2fb9934fe48c69423e7c46d2e01e78dca44b51e6503f2bbe000d52c8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-E-20260918.md",
+          "sha256": "aa21f3d44c17c1b160c1ed8ed0c55b7df51b2a5f27cf44ffa54f2d2109c1db07",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-E-AUDIT-20260918.md",
+          "sha256": "21cbccec03bf59704e038d44cef9b0d5f763c634b10df313e5d52c6580a9092d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-F-20260918.md",
+          "sha256": "414f028a02ad986347b46acfdfbcb9fb5a043eb9f2e444bb453b5255055cef83",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-F-AUDIT-20260918.md",
+          "sha256": "66680b29bf01f1c439c709b1915fbf0073809721bc2a9c2dd9267fd03b8c040a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-G-20260918.md",
+          "sha256": "51d8e8a71a162ead890a4d9093aa45ff5ad614921097ba54bdcc942e51e6ac69",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-G-AUDIT-20260918.md",
+          "sha256": "2e4fdd7396bc29e8d639a81c1f090225ac85ebaef272e1b8d4568318d69deede",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-H-20260918.md",
+          "sha256": "d83fa8fc7d079fd343b636a6ac960f364f84767133cecc24d883d548eb01a26a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-H-AUDIT-20260918.md",
+          "sha256": "c8c962022ac20fc66b4600dad92b58011fdfdfcb4a1904564aaf837da1011b3f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-RED-REGION-REPAIR-GUIDE-20260918.md",
+          "sha256": "944a04e789d199fb12df4310694a522908d2855eb368ca179ef822c12a38a8ce",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-B2-SUBTRACTIVE-STRATEGY-20260918.md",
+          "sha256": "da05c7e339a48226714f09340b42972a44485ad9b50c4b974c144d2f0a9db575",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-C-PHASE-A-STRATEGY-CORRECTION-20260918.md",
+          "sha256": "640d492b88920013fdfc79b63b4f78a939233884fef1fa60d237577cdf4086e9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-D-LEAN-ISOLATED-STRATEGY-20260918.md",
+          "sha256": "5dd87d401f4a44ea5e40d2eb1c1a10c4ddd0a73f553ce5e66918e0d0a6e3c5bb",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-E-GUI-CONVERGENCE-STRATEGY-20260918.md",
+          "sha256": "5a19aa9a97e662fbc3859747f4306618405ae7ccc7e95d1b7a253e9032dbf349",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-LEAN-FRESH-LOCALIZATION-STRATEGY-20260918.md",
+          "sha256": "108d42d8c38c1f8c4a8a3ea755f60fa9bd3e0c5d3b69fcef8b7ce952eb90a676",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-LOCALIZATION-PHASE-B-STRATEGY-20260918.md",
+          "sha256": "4c2cbec0f107514a97c5e9229a4fe8493bb10046fb4fc9171fbb31120185707c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-R17-EXAMPLE-FIRST-SUPERVISED-COMPOSITION-PLAN-20260917.md",
+          "sha256": "3c6631213667bc7c9d36441904fbdd07b14b7ff0d45241bc09fe839188ce0846",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-R8F-PROCESS-REGRESSION-AUDIT-20260917.md",
+          "sha256": "b7eb5eed71ba9b9f5521a6773336ee85866b08935c4c74a0d892bff818d1c3a2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-POST-R8F-PROCESS-REGRESSION-AUDIT-AMENDMENT-20260917.md",
+          "sha256": "2d88a58ce3d5648424b7bdee41572767c790c89d320c37ba415abc66601ba89e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PRO-PASS-A-CANDIDATE-20260919.md",
+          "sha256": "8a751f81a7ffbb96704bc676d8163f8f8bbfcc4fe2fb052b71799105b3fe585c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PRO-PASS-A-FRESH-CONTINUATION-PACKET-20260919.md",
+          "sha256": "35c24672d7580f3bd669ad124f23108efe4d0e2af07b9abbedfa97be701c8f46",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PRO-PASS-A-OWNER-REJECTION-20260919.md",
+          "sha256": "22daaf175c0b1662a0d93cb06f88d3e24c488812f750272730e5234eeccf1da4",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PRO-PASS-A-PRESERVATION-PREFLIGHT-20260919.md",
+          "sha256": "f1462ce2f1bd25a70490ba780611a4efaaac191eeb888c02d8b6888508e57210",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PRO-PASS-B-LAUNCH-PROMPT-20260919.txt",
+          "sha256": "6199144643bf7c4b0512ba9be5521178852b712bc473fe8c4e4757f9107569d4",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PRO-PASS-B-LIGHT-WRITER-PAYLOAD-20260919.md",
+          "sha256": "2ca2c2d3d0a3a74bbcdf8c50032da521b2238589d38ff5db80b16b0fe8036016",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PRO-PASS-B-POSTGEN-GATE-20260919.md",
+          "sha256": "ac88b0ebd5f04eb5ae99bec97e4a79ffd01e022163670fbc132e1bc3e96955a8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-PROGRESSIVE-FORWARD-CONSTRUCTION-STRATEGY-20260919.md",
+          "sha256": "bcdaf2c38b76e9e9406a2f66c8ac6e0213fdb86d03cb67f7185de473cbf47bd7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R1-REAUDIT-AND-FIX-GUIDE-20260916.md",
+          "sha256": "896fc5cc874ee99531da8bb3fec2807c46a7961c494fb0c73a7765cb5184a35a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R10-CATCH-HOOK-SENTENCE-GUIDE-20260916.md",
+          "sha256": "16887bf277aa157aa141c527d9b885d9327746cb8a323333505b762f5e78876c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R10-OWNER-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "9cc298bf18d871d4a10f84a554c234b57ffa877b1f7001dc9e3b5f9aad74498d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R10-PRESERVATION-AND-COLD-AUDIT-20260916.json",
+          "sha256": "6bdf73435cf970dcaa713525b0e89f0c373affb7da3dae88de1787be7eb21951",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R12-PLAN-IMPLEMENTATION-AUDIT-20260917.md",
+          "sha256": "f96dd1e460c139cf662c8933504b5f0db731efb916193138733a3545524cfd74",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R13-METHOD-AUDIT-AMENDMENT-20260917.md",
+          "sha256": "64cf2bde0a51dbddd701b81e930fa8e4951c2a2b8aba5ca501ab2fb20bc69f79",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R13-OUTPUT-PLAN-METHOD-REAUDIT-20260917.md",
+          "sha256": "350ae7e5c4ef908339524bc7e53dec490120cdf3359caeeb99e02b099183aac9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R13-PRESERVATION-PLAN-AND-COLD-AUDIT-20260917.md",
+          "sha256": "43a1213bcfba06b97ee13870e175dad0380b8d23624fb26fc693e9b50efaef8b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R14-FRESH-RETRIEVAL-AUDIT-20260917.md",
+          "sha256": "3bc67b6df904f7ccdb5c7c5c491589b78a7e82715b009d882de2eeeead35c091",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R14-FRESH-RETRIEVAL-CANDIDATE-20260917.md",
+          "sha256": "8c4d5b44929f8d0ff8dcfa6fcdd458f08625fd25d8fffa0535021be6ea971366",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R14-FRESH-RETRIEVAL-WRITER-PACKET-20260917.md",
+          "sha256": "f7734fd5110a6d82777eaa6a1212e81eb4ca8b5e41ee69f6f96a5e32638b0e91",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R15-BROAD-REPAIR-PLAN-20260917.md",
+          "sha256": "0f3c97c3065bc4e3d535e094f1c83b04d17b554a27ce49b930cc7f91ceeca071",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R15-OWNER-CALIBRATION-PREDICTION-ROLE-20260917.md",
+          "sha256": "694fa84d90e24c9708867677c4ae67ebb0634e172e9ddbe238c886efa7de90a3",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R15-OWNER-FACING-PREDICTIONS-20260917.md",
+          "sha256": "f8653238d9e309551387be62c29b245abe6db71f482657f5c3fe7da4bb57bccf",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R15-SAME-CONTEXT-BROAD-CANDIDATE-20260917.md",
+          "sha256": "cb4237acb20169081be7e604c74a215149b9c584fe484546bf7585450f6690ef",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R15B-ADVERSARIAL-OUTPUT-AND-METHOD-AUDIT-20260917.md",
+          "sha256": "8bd7931f67343b237a6f7c54150793ba9a70329747e55bc7b61c5ae1b5ccea93",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R15B-OWNER-CORRECTION-POSITIVE-FORECAST-FAIL-20260917.md",
+          "sha256": "784ab4e639b807e2f30143e9bb8ad1876e1d51a83dc35a863a1224830502b4f4",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R15B-POST-COLD-AUDIT-CANDIDATE-20260917.md",
+          "sha256": "8d5fa0de577d9596dc715c150fe9f23840c0cabf709c4b2166c8a7db76065182",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R15B-PRESERVATION-AND-COLD-AUDIT-20260917.md",
+          "sha256": "f5a0575181bc3bc936e6dc9c475e598ff57742009ef4f00087652c1eeb1be16b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R16-CONTEXTUAL-HUMANNESS-CALIBRATION-AUDIT-20260917.md",
+          "sha256": "9ab41a5991663f4e666d36d0dfd614c8cb9fb5b30f4705dc6875af8ba2cc3b7c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R16-FRESH-CANDIDATE-PRESERVATION-AUDIT-20260917.md",
+          "sha256": "c839f95cad651403737d5b7c36ba4dc170c6f35b2fb0df8460afabd65681446a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R16-FRESH-CANDIDATE-RETURNED-20260917.md",
+          "sha256": "9cdec7287772300a5b7cb61fcc5c33c573218ed9b0cf434ece6bb28e28a88f5c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R16-FRESH-WRITER-PACKET-20260917.md",
+          "sha256": "1966588223a8d725998de77159f9a40608e64205dcc1b1c478314412bc866727",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R16-OWNER-REAUTHORING-20260917.md",
+          "sha256": "6be0a732ff754feda45ed384b4e7dd4dd73998bda26b63aeea380eb3ce273183",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R16-PRESERVATION-SUPPLEMENT-20260917.md",
+          "sha256": "5c5b380c7e76054a2bb71c71699aec9862af5f129813d41eb6e3533d7ef3048d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R16-SUPERVISOR-HUMANNESS-AUDIT-20260917.md",
+          "sha256": "c01bcaf443bfc91f7a0b1dd6ee7d726dbad512317892f2338d2c34edfc18edec",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R17-FRESH-CANDIDATE-RETURNED-20260917.md",
+          "sha256": "0dd0d04664a2308f8e93c8c7e17e7211a64ca2ad747e257dfb3de48c2002f537",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R17-NEXT-WRITER-ENTRYPOINT-20260917.md",
+          "sha256": "23e04e26575d0413a53770f5e5821a7981cf92a860d6993d9c92a16b6e6df004",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R17-OUTPUT-AND-METHOD-AUDIT-20260917.md",
+          "sha256": "75047c74c4c97abd69a1b2485037e48410a0177903172bfea459aadb29e2b072",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R17-OWNER-CADENCE-SUPPLEMENT-20260917.md",
+          "sha256": "e73c42772dd21d3a517e3928869f14ddab86967a0354e851676a3440f1d7d848",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R17-OWNER-VISUAL-CALIBRATION-QUESTIONS-20260917.md",
+          "sha256": "64b7edc2b04605402c6c9447af2e8801d98b20ee046fffddaa431b5e6fe42d99",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R17-RICH-CALIBRATION-FRESH-WRITER-PACKET-20260917.md",
+          "sha256": "125311da78b9d55c930ce592fbcaa59e8bc4b6d3f62b9297fe7e5ded1af3965f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R17-STRATEGY-DECISION-20260917.md",
+          "sha256": "a1e0335809064c01ada2d9745736d80e55fa73325cbd1e022882b1943ec8aa54",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R2-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+          "sha256": "3fafad7714c42f119077ce48209f44866d31bfb0228414ab6c768396e576b80d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R2-OWNER-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "49854f6d12b6bea56700af05595dff5c9a532933c5d61d23c790aaab3939d398",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R2-PANGRAM-REQUEST-20260916.json",
+          "sha256": "1f56b8d3a6d9e06d594ea71bf2ee9143f966d2110b87d02b229e558d89345a46",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R2-PANGRAM-SYNC-FAILURE-RECOVERY-20260916.json",
+          "sha256": "2c53faa617201cc18a9820d76268d52e8e2eeb2198ef7ab462418c1731d3e9cf",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R2-TO-R3-FIX-GUIDE-20260916.md",
+          "sha256": "b0d58dcfd28ce0d4772c8dfbe03356346b768c68c1ec5edd7409a93d531c74c9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R3-PANGRAM-RESULT-20260916.json",
+          "sha256": "b5f45eb0ea2aaeda8497298d05d2e9972f111ce3a3eedcd8912f07728513e082",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R3-TO-R4-SENTENCE-REPAIR-GUIDE-20260916.md",
+          "sha256": "aae36619121db9dfcea4362bdbcf07debe29be20e440f253a7e0095571b7bfd2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R4-PANGRAM-RESULT-20260916.json",
+          "sha256": "adc12b363635f4cf6ebf4214aad2710af2eb78bf1a5e99030381066bef2d846e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R4-PRESERVATION-AND-PREFLIGHT-20260916.json",
+          "sha256": "5144b862690ada2d1a606da74394bc6be55be4ebff21c302e16d1fd55977e40d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R5-PANGRAM-RESULT-20260916.json",
+          "sha256": "28ae42525d16fdd109689418488cabac11c65e6504fff9d9acffc6a7047f7dc7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R5-PRESERVATION-AND-PREFLIGHT-20260916.json",
+          "sha256": "a324c5379a9a4c2fdc40101038bcc71892c19970f62484561b669a174d88d421",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R6-DELAYED-GUIDE-PRESERVATION-AND-AUDIT-20260916.json",
+          "sha256": "6d65f156e299b1df89a0d564e526a01a1924a9f62c72f67b3682be5cc3711e15",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R6-TO-R7-POSITIVE-SENTENCE-REPAIR-GUIDE-20260916.md",
+          "sha256": "0367dd7a66de30e0b910873ea416407ff0ada17898b4bf6628abf5630e3f11b7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R7-OWNER-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "0af6b708e0f7e09839c30bdb1eb99beee54262455ada0f0fab5719baf8057859",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R7-PRESERVATION-AND-COLD-AUDIT-20260916.json",
+          "sha256": "3018ea314dd1c4427fd6865b3c4096329649ad6dfc1fbdc02c90676842bef7b8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R7-TEXT-FIRST-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+          "sha256": "cb1b0cd1ac6340abfdf1564d5d2699cbadabe94a5ebc4f1efc07b1e0f9299624",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R7-TO-R8-MINIMAL-REPAIR-GUIDE-20260916.md",
+          "sha256": "0d13d9fd00856479d321ed900c34968ad734fa89ceb7e85cadcb9ce85d6f1cc0",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R8-DECOMPRESSION-OPTIONS-20260916.md",
+          "sha256": "88ca596fa76f3b57c1eab5807c3267d121187524930d07b7efd06772c07043e4",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R8-OWNER-MINIMAL-REPAIR-HANDOFF-20260916.md",
+          "sha256": "1fbad3eeef1466e2eedcc2e7ab4ae67d0befee4ac07841e8713d99a55c4c9d2c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R8-OWNER-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "5187e79095f0266b053cc7fcb722e468772f2f3192afd15ac0ae225c2eade314",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R8-PRESERVATION-AND-COLD-AUDIT-20260916.json",
+          "sha256": "7426380929ad3c4fcf77b42cd688544d0b5472fd392293f1ace42353216111fa",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R8-TEXT-FIRST-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+          "sha256": "f86b9bad637356fcf2d53d7d145dd366298d7672d46347b7f97d610537391f09",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R8-TO-R9-A-DECOMPRESSION-PLAYFUL-SENTENCE-GUIDE-20260916.md",
+          "sha256": "9f48794b9d1b3ced41cd375712c6aeb5b409228f9d42570df311139d121a0e69",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R9-OWNER-SCREENSHOT-RESULT-20260916.json",
+          "sha256": "bae4b41749b8cdb9944fba28b155f16da9db7c2307618048b3716b932b9cf6e8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R9-PRESERVATION-AND-COLD-AUDIT-20260916.json",
+          "sha256": "5a685244f44d39d4b32255f6cffdea54a8a6d7fb34fa2864f2fdf068e291891e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R9-SECOND-COLD-AUDIT-20260916.md",
+          "sha256": "a52c7a7cd21ce64ef6f34f8c21abd74fc8dd5bee52cca5df5a4d994d239f3756",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-R9-TO-R10-HOT-THOUGHT-SPARSE-REALIZATION-GUIDE-20260916.md",
+          "sha256": "a3d33c830c36d193308b4b80827e73859bbc0a9adfa775b2ccb0bfc33e8711c2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-BROAD-GENERATOR-G1-20260919.md",
+          "sha256": "8f0111db89e908e09ced2a36276a969573a23336af0a6c8d22f07694db858e5f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-SENTENCE-ENGINEERING-E1-20260919.md",
+          "sha256": "2878600fa871656bf708f66efaac897b1ddf6b496ca8e657478fd1b5d792025a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-SENTENCE-ENGINEERING-E2-20260919.md",
+          "sha256": "bc857d3c22d3326f08d702b4070abb36d4a9a5bf326df687d786b9350a5ef3ca",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-SENTENCE-ENGINEERING-E3-20260919.md",
+          "sha256": "ed77efb34b0e545bea2267804b07e063f6c4b490617930ad1dc71cc3dd3a53cd",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-RAILWAY-SENTENCE-ENGINEERING-E4-20260919.md",
+          "sha256": "eb7cb06365838098c15ccb9374d4a05e5cf7a626481698313898979e96dfd328",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-SERIAL-A1-AUDIT-20260917.md",
+          "sha256": "c386504db903e5d44602fd6b79fa36ba6a0beda5447a51fc921388eb979bfcc7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-SERIAL-A1-CANDIDATE-20260917.md",
+          "sha256": "225f2eb9ce5bb04ec6534f30c9fd4735b62cfb35b700e3595e3205663b4280ab",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-SERIAL-A1-R2-CANDIDATE-20260917.md",
+          "sha256": "19064a435af959a111fb1f228259ce8c1b07ffdf9e1fbad8f69fc83dda99d51d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-SERIAL-A1-REAUDIT-20260917.md",
+          "sha256": "c4ec3c082899aef6b08dad312108cc21263ba8cb63b05851acbdb7091464e5a0",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-SERIAL-UNIT-A-AUDIT-20260917.md",
+          "sha256": "670ecfdb55d9d75c457930da766add1d65426b63271e671ffcc0e46972e5aeb9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-SERIAL-UNIT-A-CANDIDATE-20260917.md",
+          "sha256": "02bca9850116e3b135bc6d5ab38fc67efe3f1b4552a73b970fd95334824fdb17",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-SERIAL-UNIT-A-REAUDIT-20260917.md",
+          "sha256": "1eb05c592d736e021c0887cc5e0901ed2e8c9fb4bf2108541e736fd44a7d0971",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-STRONG-IDEA-FOLLOWUP-RESULTS-20260919.md",
+          "sha256": "fc94f31c113fd5a063078cdad03566ff793df49bb2299dd1557dfcb986cc404f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-TRANSFER-PILOT-T1-CHECKING-20260919.md",
+          "sha256": "f34cc1127fb8bfe76d0e63160c7741f2d989a768868dcd47a3f5affbfe2cdcd9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-TRANSFER-PILOT-T1-CHECKING-AUDIT-20260919.md",
+          "sha256": "83a9bf9ffed69e80add4ee10060b4c516c05c588e8c252acfe266ef95de9ff1a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-TRANSFER-PILOT-T1-CHECKING-RESULT-20260919.md",
+          "sha256": "7e880589e48c44b3bd32aed2ce51689cec3c75160cf5004ef55d5b6c1ed8d423",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WHAT-KEEPS-HAPPENING-R13-CANDIDATE-20260917.md",
+          "sha256": "c490bd5c1c27a02eb744852be02a456aa4d5edbe6fac6db5ddf0e847ee153984",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-BUDGET-AUTH-20260918.md",
+          "sha256": "433f6a0d542b1c997e6d7e79e7c55123cbd43c3c2af14a75f1a3c91e8b83fe7c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-G-20260918.md",
+          "sha256": "673119dac1b9566c356a539cb47c878bf68dab006d6fd778c535c9aa9c503118",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-G-AUDIT-20260918.md",
+          "sha256": "234e47f7f34042ec0f430311fc2eae42d81a7a98e2f3f2dcdf6ce1ac86e40522",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-G-GUI-RESULT-20260918.json",
+          "sha256": "219fcf0a4e8962d6b603bc59587eb5ded6381fa618be3929923eb948408a0f20",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-H-20260918.md",
+          "sha256": "d5e63f435b3a8e765c2e7cbe11eb1b3d2f6a6d1b46e7dbb073e6e179e91a4f73",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-H-AUDIT-20260918.md",
+          "sha256": "a87c915d8cb260a837b7bfbc46b0b93ec6ef2e98dd6aa050ac382b91a78054ae",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-H-GUI-RESULT-20260918.json",
+          "sha256": "a1ce691061919caa723bc48d5d205bdac68fb322b0216f63b368e3b7d5bc22c3",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-I-20260918.md",
+          "sha256": "497b9224c90be15f1975ef2b52eac7be4325f446b2b6342c8c97e47cbf4dcf32",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-I-AUDIT-20260918.md",
+          "sha256": "e109499d70ced5eadc9c711e598774524fd7dc4abeea0234bb847e4bb6435716",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-I-GUI-RESULT-20260918.json",
+          "sha256": "fec4e49dce1322ca83372bad197112f986560cb886dd360ef5969c027b79fc2c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-J-20260918.md",
+          "sha256": "5a77755f8b59e27544d2d31601564f2496cc00a7fb1eb124efbbd9d9dd2d9f4b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-J-AUDIT-20260918.md",
+          "sha256": "18a279a4fcc5e894c5e478ca28964de1c8c6e1505184be6b78fcc82b648457a0",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-J-GUI-RESULT-20260918.json",
+          "sha256": "d73b1957dd20f24fc2346ff001eaf4d3e33a3a74fb366c8d793b82d5299b5ecf",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-K-20260918.md",
+          "sha256": "081d9bb7e40d2bb2fc757c277ba46a9cde973ba0027684b98f5076823990a7db",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-K-AUDIT-20260918.md",
+          "sha256": "d7df21f40c43468c81c0022ecb39f851399b5365a684711e3d73656f3b1cb6a2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-K-GUI-RESULT-20260918.json",
+          "sha256": "c25fc534671da63bd365161bda1b822dc29b3b656bc839ceb134b9826431eac2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-BASELINE-MEASUREMENT-STRATEGY-20260918.md",
+          "sha256": "a20a9cc2718b9ac35b3fd2ae829ff354d98f46194bdb819056a2ad8f4b308bf9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-A-20260918.md",
+          "sha256": "d9f92af30b263008d52220fa1b0cf71d77b73c178afb16717e31f920cf1094f8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-A-AUDIT-20260918.md",
+          "sha256": "29781aef389688ad377158b0ecbb32c04c878d9558c4979679af7a3e186afecd",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-A-GUI-RESULT-20260918.json",
+          "sha256": "57085c17996f1537130456e0a5ed7ff27479ede89d99706b4b4b531e1716ec3f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-B-20260918.md",
+          "sha256": "e07ba5ea0e70cfd1a03f7c272e67563a503994fca21df9a456657118e6bc2786",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-B-AUDIT-20260918.md",
+          "sha256": "9b92846f83c3331e3d4d490f129aa34c96bc6640abed4c5502d63176c6d5f91c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-B-GUI-RESULT-20260918.json",
+          "sha256": "13a48d8301ce3fc07ffb41be23c0cba5a76631aaadd9aa0c4b69d898fe7abc01",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-C-20260918.md",
+          "sha256": "1ac7444e1d01618a851790117cf651bb449e2f0e46d6de65c2b550f03483ee09",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-C-AUDIT-20260918.md",
+          "sha256": "7db514a83072e158ff8b7b8bdc3afcb434b1cea9bd17a70e64074634a7b1f1dc",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-C-GUI-RESULT-20260918.json",
+          "sha256": "267126894992763258f94ab5afc9bc780346d03f2e33cd59b2111dce37aa1a9f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-D-20260918.md",
+          "sha256": "f107a1c32367425fd493db41419eee4d448a69c1a234b126eac9685b70e63bc4",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-D-AUDIT-20260918.md",
+          "sha256": "05d41b1bb295d47c71b09ba20e94a64ca5b4c5b53de4fb9d99e7a2889861989f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-D-GUI-RESULT-20260918.json",
+          "sha256": "bf538daeb683f978332c1a9d1b6498b307581cd5f85be71dc443f4c7941c3a8d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-E-20260918.md",
+          "sha256": "db121307e97d2c527b675605fbe9e8d3be59be7bc4c84fce2d2d1f3ef2da6ea8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-E-AUDIT-20260918.md",
+          "sha256": "c192df1565d94c532f3f930136ec271fd3ba37210be33fc7d319c23952fdaa87",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-E-GUI-RESULT-20260918.json",
+          "sha256": "66948cafae3c736fb8417a38c73a581ec4878a83f67973ba64e4b4302258eae7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-F-20260918.md",
+          "sha256": "73a8471bf4220736f516e4ea474c9f922fdac78eca0fe1dd1b91e505c6b188e3",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-F-AUDIT-20260918.md",
+          "sha256": "0440b285a97cdc12610dfd9479f024a6dad755966e9531c92cc5d924b75a8ced",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-F-GUI-RESULT-20260918.json",
+          "sha256": "16f3aa2f0cd9846ef8c67f7716bd6eea3d097221200a7e4ef2316a2d757a31e2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-G-20260918.md",
+          "sha256": "ebc601519148edc3bfa304b1a481955995638145b79021d5170d0794bfaa246f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-G-AUDIT-20260918.md",
+          "sha256": "35f02ece2c8bd7f7a1d381a11a25856a093d94e6fb16349f3155d9b61cebf3de",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-G-GUI-RESULT-20260918.json",
+          "sha256": "4ec10cab5ebc0e18cfb96b5d66cf0bc439d2867e94dd10f44d0db4be408c2f98",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-K1-20260918.md",
+          "sha256": "05355bc886099ed1821b8f5a537267a0eea46b61b5c4ab6ea274e7adb7a75007",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-K1-AUDIT-20260918.md",
+          "sha256": "fe43b403ea7238af2dd981f68b0595bf9b31b1fa4af116ae579313397d4a41d8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-K1-GUI-RESULT-20260918.json",
+          "sha256": "ce1271e8a9017107537abac256bdddc0f109409ba78e7b60f729b9f989909188",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-N-RESULTS-20260919.md",
+          "sha256": "a25c4819767bbbe7514eb6d08487fa8ec5f78cc9db5b55d801695585b819895b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-O-RESULTS-20260919.md",
+          "sha256": "47ddbe636b7276106a8bf3ed6c19ea6db0236dfdaf2db7aa8d6a40ea4cb71d49",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ORAL-INTERMEDIATE-20260918.md",
+          "sha256": "042e595b8ed9b2981e2c569d5a56cef052016e289330f1df2a5da5959ae285d7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-OWNER-ATTRIBUTION-CORRECTION-20260918.md",
+          "sha256": "5c26ecd8534752aae0f3ab6661a99829cb5d077dddb701efe4802905bfec34b7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-OWNER-COGNITION-CANDIDATE-N-20260919.md",
+          "sha256": "eb2b517780e7f7ed2a40b463eec6c47e3d9e25263d2a48e49fcbf322bdb23135",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-OWNER-COGNITION-CANDIDATE-N-AUDIT-20260919.md",
+          "sha256": "a41b4f3c19a7406812e929a8cd3f14662e0ef2e72aef88827a96c4fb34f2df7a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-OWNER-HUMAN-ANCHOR-20260918.md",
+          "sha256": "e2125c3d3a503d135213f2deb6937b67d266efdd549f386dcd1fa3b81fcb0daa",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-OWNER-NEAR-VERBATIM-CANDIDATE-O-20260919.md",
+          "sha256": "1992e095c4a6b852eb9e6ffeba01e915124ecd87cf19f7252e905f801923715d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-OWNER-P3-20260919.md",
+          "sha256": "a1acb14abaacdfc87b3467a865897b71703a4625bbde48bdb698de7e4f21931f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-OWNER-ROUGH-COGNITION-20260919.md",
+          "sha256": "dec255ae98e70b8ae17202d0e2e1ebf44c9d7dbfaa931e4119d0d4aeaf99663d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P1-EXEMPLAR-ENGINEERING-X1-20260919.md",
+          "sha256": "d8e76853e748107edc8694b53ce56d051be93316fc24c534f672d80b0e78b9c8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P1-EXEMPLAR-ENGINEERING-X1-RESULT-20260919.md",
+          "sha256": "11c9f3f28c176eb1d020f9dd9e30c03c515747e12d58b5ba58f429aa401d36bc",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-ISOLATED-GUI-RESULTS-20260919.md",
+          "sha256": "3976744de3c9c2246cde1841b9d56815bf7075b548f477562528eed228be57a6",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-MODEL-CANDIDATE-20260919.md",
+          "sha256": "93e573c82e1aa02d4aaaf2e058bfc0b2d0037bcf64daaa83c85d4b75760dff1f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-RAILWAY-20-SEARCH-RESULT-20260919.md",
+          "sha256": "edb69e54bb0d11fb29b36e2591480b8e348c8d44bc8b1dc81da953263095494f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-RAILWAY-FINAL-CANDIDATES-20260919.md",
+          "sha256": "0e0b4104bc24f1cd9a23673e1b4701ede002ea039b16dde9411d3851e00e40be",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-RAILWAY-R10-20260919.md",
+          "sha256": "3862a53f53851a46f0a4de8f6349a4b37f12e67af0d6c6f8635e22f8045ea194",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-RAILWAY-R18-20260919.md",
+          "sha256": "702cef473bff74af4d6b0a8666e2ca237c49ac13e909f48163188568dd44366b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-RAILWAY-R3-20260919.md",
+          "sha256": "8d83ca28b9882a470d950f901739de36bdf68eac7369442f0758843617fd7ae8",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-RAILWAY-R5-20260919.md",
+          "sha256": "9930a4b030b6427975937d75d9a4fd0b0513ed1e699046c6590eaa62b4eb02a9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-RAILWAY-R8-20260919.md",
+          "sha256": "11d6641004fd22c200d43367e0e69f4242948dfd9a20c9644b66eb49177cb259",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-SCENE-SEED-PRESERVATION-20260919.md",
+          "sha256": "ce8ec4d9f3d98c629a233bf06747da374d194eab3ea3740e80f8f5b08d23f0be",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-SCENE-SEED-PRO-CANDIDATE-20260919.md",
+          "sha256": "17f2c5d9b18021801c59de5ffcf34beb5b568fa8f5bd9668782756c29b87a0ac",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-P3-SCENE-SEED-PRO-RESULT-20260919.md",
+          "sha256": "70781beb34e2405718d4809ef4c0009c254da2878fde2e2b9ccfa0cac5b8fe3f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-PARAGRAPH-FIRST-CANDIDATE-L-20260919.md",
+          "sha256": "66c58e0035600361b94d4c1f27cd7120bc9d97827f4f0a388fef9f79d38fe602",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-PARAGRAPH-FIRST-CANDIDATE-L-AUDIT-20260919.md",
+          "sha256": "2c0f1b90f92da85407d684a2f916b76e2c6d14f8c2e4e6cea553a09b3ae0a35f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-PARAGRAPH-FIRST-CANDIDATE-M-20260919.md",
+          "sha256": "dbd1c03042dbafaa196253a3cdd630996cf20558e1c5ea6af0073a5ca27826db",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-PARAGRAPH-FIRST-RESULTS-20260919.md",
+          "sha256": "52ce5f4d1f14a622ddb0002c8fc099a220054d84b8f24e679f3280e6259003d9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-PARAGRAPH-FIRST-STRATEGY-20260919.md",
+          "sha256": "292fbaf9b4b0063ba64d70ce262f4a1bfa0b4dc59b8139d1175785ccf3f4d682",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-POST-E-ORAL-INTERMEDIATE-STRATEGY-20260918.md",
+          "sha256": "65148e0003c99dc2c7a6f95da9eac851bb65514ad9a40535aa2712d351af07ce",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-POST-F-ARGUMENT-FIRST-STRATEGY-20260918.md",
+          "sha256": "c12292341a1301ba90c21f5d5218858578dc1bf78d34dfb1759d6e3566da3711",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-POST-J-ARCHITECTURE-SWITCH-20260918.md",
+          "sha256": "ffae0608368df9789d650fc9ba35ea4a949e25b186281c13e42a2470b8e4457c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-BASELINE-GUI-RESULT-20260918.json",
+          "sha256": "f5d30f305aa55e5c99648c63e04baca61286bc0f7a678fa67b74e7370c40b5cc",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-CONTROLLER-STRATEGY-20260918.md",
+          "sha256": "431f73ebe01a93ec39393a9d8260e01075885dfb4440d811ff1804bf9002bec9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H1-20260918.md",
+          "sha256": "751c5fdbfd1a69d5d0388e78b38a7ed63805300448a5bb1a2ca8cdf1b42eb236",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H1-AUDIT-20260918.md",
+          "sha256": "e151127b76edf8704c30b44c722547f9bae6f6edd7ec60b655608732f163cfef",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H1-GUI-RESULT-20260918.json",
+          "sha256": "f64fc3f93f7daa60713e1ce959c85da42a2adc7848a60d48ac014062038ca4a0",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H2-20260918.md",
+          "sha256": "8c966c00e6aefcae835249914cf04e27ad6fc04ee4ec8a1c513639b69ae0d508",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H2-AUDIT-20260918.md",
+          "sha256": "b028739d9854c6381da2e3f27e7687f343c4599feb9a83a9807d5fd1c682c655",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H2-GUI-RESULT-20260918.json",
+          "sha256": "7dcda6aca33f3197a83798d8e6fe6de96ff209129eda93ae503ba489320a8e29",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H3-20260918.md",
+          "sha256": "3ea219af0abc696e09401fa8a16ae5ebd40205536279e9515deda408f0359d0f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H3-AUDIT-20260918.md",
+          "sha256": "20820e3ab9914026aee73a5d9abf1c6cc68d2a7570beeeb070c7e5ba87472334",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H3-GUI-RESULT-20260918.json",
+          "sha256": "1616492e12c58163d126adeeb1214ac952b668eab597a7905d6c6385fbe75019",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H4-20260918.md",
+          "sha256": "71cf8d9c360579d17b666ce5a8dfcd64c97f513c7c8e56e54395ecc2170a0b46",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H4-AUDIT-20260918.md",
+          "sha256": "7932c782984975295012306276376940d3035ee4cb981de56092415ae7d7b52e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H4-GUI-RESULT-20260918.json",
+          "sha256": "f203216b1610c4e72ab18d87c179cd3c6aa320418e174bfb5018bb0025ffc137",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H5-20260918.md",
+          "sha256": "3e76121fc543815c5098d44bd7f126cea41050a1ef8398cb374dbde3024bc0af",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H5-AUDIT-20260918.md",
+          "sha256": "db1cbdb34fed4dd87c987d4950d00d74dca9ef9a9e58dfed600a7ffa66974a27",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H5-GUI-RESULT-20260918.json",
+          "sha256": "3adfbad2be851acd5b25e84e51f363d6aa8928112102ec8fff88d094f93ffd14",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H6-20260918.md",
+          "sha256": "8c097ed7104d94c6179f831f81653f3631ea8271c88a2898bc9bd9c6a268f555",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H6-AUDIT-20260918.md",
+          "sha256": "aef0225e283a72300a18bcb8ecc7cbaa7e0144a1f93b6007d4361d6ab4da5db7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H6-GUI-RESULT-20260918.json",
+          "sha256": "9fbcade7550bd89a631a44eb5e50753306c41aa9f8f425337824455d2cab8f0d",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H7-20260918.md",
+          "sha256": "7e4e605567c5a9c064414d22967b00240e0500c3b0d6b75417c923ca3a1a396a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H7-AUDIT-20260918.md",
+          "sha256": "f26e5b26b282005dc1cee6ff62ab769f02a5a0a6c4867a06da2a23e098c249cd",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-LITERAL-BASELINE-PROBE-20260918.md",
+          "sha256": "120c7542ccb16c8f43914cb92b008ec7900895c6526dd1fa6f0da47c29d5dce6",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-SOL-LIGHT-PROBE-20260919.md",
+          "sha256": "8a33fa88bea36f6888352d493934013cc8bc5b239f79bffa9bff511f0ca963c0",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-SOURCE-20260918.md",
+          "sha256": "276a4a3c417f8eb04000cddfe8669eaeb56a3898284a4fd3e4d6976ccdcc4861",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/HUMANIZATION-AUTHOR-STYLE-PRIOR-WORK-SCAN-20260919.md",
+          "sha256": "59484f92766054b58aa9389e4926c087abc3521e0846a87d72d2560016e6058b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/HUMANIZATION-CORRECTION-NEAR-COPY-NOT-THOUGHT-SHAPE-COMPETENCE-20260919.md",
+          "sha256": "5591c706aad92f5d44c4ddb1cbbd9cd843513563d9eeac185806838653aa17d6",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/HUMANIZATION-OWNER-GOAL-CORRECTION-LEARN-TO-WRITE-20260919.md",
+          "sha256": "d35a6a5350efed4cf09209e123f28ef257840c0756e84a29f8938daa2efce0a3",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/INNER-CHILD-HUMANIZATION-HANDOFF-20260917.md",
+          "sha256": "0b71fae40efc7e42502246ec6b7f6c66f971ca9ea99caa46bb4b631c2823c048",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/INNER-CHILD-OWNER-TEACHING-EPISODE-001-PENDING-20260915.md",
+          "sha256": "bfbeea0dcc7584d2faf2078b5d46462f90fc27d4b0b184cdafe15ff816a2e77c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/INNER-CHILD-OWNER-TEACHING-EPISODE-001-RESULT-20260915.md",
+          "sha256": "4bd107f065fae5e49241c1de1727f667b4027b3f199d529d6ac5f4257dada45a",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/INNER-CHILD-OWNER-TEACHING-EPISODE-002-PENDING-20260915.md",
+          "sha256": "64b80b59353986dbb9672246c7890ee45c4e5bb6d5f89a39b084e2b4a3ae15cb",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/INNER-CHILD-OWNER-TEACHING-EPISODE-002-RESULT-20260915.md",
+          "sha256": "4a873d4e39067420f2ff609e95c1be84d142b6e80d0db52edddcfe44468a937e",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/MAP-CHOICE-RESULTS-20260919.json",
+          "sha256": "ae9f5d8cb3a183239a6e611319c3fb56e6dcab408904cb150ec51e5b319ceb26",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/MAP-CHOICE-TWO-TARGET-CANDIDATES-20260919.md",
+          "sha256": "14b5fd415e35b20ae4351acd6779f6fa3034a7fd7841d1cd5e72557bee6ad6e6",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/MAP-CHOICE-TWO-TARGET-CONTRACT-20260919.md",
+          "sha256": "54711989ea69fb9f28dd24fa0d3a7363b1fb06ac72c12078d20c78032d17a981",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/MAP-TOOLBOX-RECOVERY-20260919.md",
+          "sha256": "e7e6533cc7313fd829d75509fd6cbdf2657b8ede420b29d03bbaac6052f256f9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/MULTI-PASSAGE-FIRST-BATCH-20260919.md",
+          "sha256": "8311bc15041284478d7809fd85ab232238f2f5bac76d5e58af3fcf7ad164ae08",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/MULTI-PASSAGE-LOCAL-REPAIR-OPERATIONS-20260919.md",
+          "sha256": "7e0a20d0ab66125ab9075f33a93f8690efa32e0389539033816e62771425a90b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/MULTI-PASSAGE-LOCAL-REPAIRS-A-20260919.md",
+          "sha256": "ffd2d0af06c52a13764113732aeded4ed1ea16b84d4628fc30c9fe6bec478236",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/NATURAL-MAP-TRANSFER-5MEO-RESULTS-20260920.json",
+          "sha256": "17458756db98eb22d996744a9a90ef56b254e84e90aebadde970e9622117fcd9",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/NATURAL-MAP-TRANSFER-5MEO-TWO-TARGETS-20260920.md",
+          "sha256": "2c650609504e07c4e84f9a26be78a1eab204a07807799c6e544e43ce0c67fe6f",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/NATURAL-SOURCE-5MEO-GUIDE-MAPS-20260920.md",
+          "sha256": "903922ca09056c0317094d74ed3aacb8f50109ad550e30a03631ec7c37f8e069",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/OWNER-CALIBRATION-SOURCE-DISCLOSURE-20260919.md",
+          "sha256": "26185d4eb6baf48c4cf11347d419db5df1169d048ce18ed52e33c34cd2033ce1",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/OWNER-CORRECTION-CORPUS-AND-EVALUATION-20260920.md",
+          "sha256": "6b7c19197cbca6b9b543763663fc80d77c45cb52fbf6e9bf97ae59df7b3ae1ee",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/OWNER-CORRECTION-MAP-FIT-AND-SCALE-20260920.md",
+          "sha256": "f773ba6db7069c666de9e8dc7a40554597f3588def9fbc40ce8c57aec42fc4b2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/OWNER-CORRECTION-MAPS-MESOSCALE-20260920.md",
+          "sha256": "cd70391264b55d9021502871f17b8d8b38dc6d6b87fe52a6236e7ff66ed25e11",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/OWNER-FINAL-WRITE-IT-P1-20260920.md",
+          "sha256": "1d11239e64665c2d6ea7f8bbeb4b649565ad964447cb6967fcf5ffc2d71b55a2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/PROVEN-REPAIR-EXECUTION-20260919-2008.md",
+          "sha256": "7c032699bf13e2d21e994a6f7205284262837a52b0316630279ef4fec1e64dbb",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/PROVEN-REPAIR-P3-A-20260919-2008.md",
+          "sha256": "112dfd9feec10ae75d207c3eee4f9a6d4d4e55061626b0fd0a4de670df64adf7",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/RAILWAY-AGENT-INFERENCE-SURFACE-NOTE-20260919.md",
+          "sha256": "bdf4f921541f03b38ef1ff183b4bdc2ca7d1a15e46af7f5426efca0902e295c2",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/SOURCE-BOUND-MAP-CARDS-20260919.json",
+          "sha256": "f1f3043a64351b4527d7b47dbcc38c8610c6f06758a97191abeb8c3cd87f4e3c",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/STATE-PROVENANCE-REPAIR-WRITE-IT-20260920.md",
+          "sha256": "0b9f13be4edd91e02a65b7204f6df7a89eb9e5bcaeb190912cb8aacac0ec247b",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/WRITE-IT-CHAT-ONLY-P1-RECOVERY-CANDIDATES-20260920.md",
+          "sha256": "6ffc4fd0a023763d900bc28ed2c200a1f142269b974eee3142fbd3f90ee66370",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/WRITE-IT-P1-PROMOTION-RECEIPT-20260920.json",
+          "sha256": "d5f29f3c979512f9403dfac0ce948f2cc28ec0cd787a576fd18576c82203e931",
+          "role": "historical_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/WRITER-LEASE-STATE-PROVENANCE-REPAIR-20260920.json",
+          "sha256": "c8bad725182284e09f4ea03a6d5c5e92cef4343fc1c4700bd0468ebd6795caa7",
+          "role": "historical_task_coordination"
+        }
+      ]
     }
   ]
 }
