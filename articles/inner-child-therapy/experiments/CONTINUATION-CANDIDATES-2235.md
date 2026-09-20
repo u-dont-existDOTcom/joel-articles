@@ -1,3 +1,5 @@
+> **Owner correction — 2026-09-20:** The evaluation candidate below is fidelity-rejected because its opening reduces the practice-purpose + evidence-of-effectiveness question to a hoped-for change on another attempt. The prior forward-preservation PASS is superseded. M13 is also confirmed as detector-targeted owner rewriting of AI prose, not a natural donor. Historical candidate text and detector identities remain diagnostic evidence only.
+
 # Two continuation candidates — exact text and audit
 
 2026-09-19. Neither candidate is owner-accepted or inserted. Source authority and frozen operations: `CONTINUATION-TWO-PARAGRAPH-OPERATIONS-20260919-2235.md`.
