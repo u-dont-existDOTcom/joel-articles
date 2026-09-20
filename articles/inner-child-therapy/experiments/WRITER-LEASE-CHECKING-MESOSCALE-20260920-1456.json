@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-checking-mesoscale-repair-20260920-1456",
+  "integration_branch": "chat/inner-child-map-toolbox-recovery-20260919-2200",
+  "integration_base_sha": "84e28d8a0822165b7c776a916146701529bc4763",
+  "scope": "Continue the checking-section mesoscale map experiment by locally repairing only P2/P3 while preserving P1, Joel's exact P4, and P5."
+}
