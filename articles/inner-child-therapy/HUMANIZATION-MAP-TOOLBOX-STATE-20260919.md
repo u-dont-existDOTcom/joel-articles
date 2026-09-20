@@ -1,3 +1,9 @@
+## 2026-09-20 map-fit and scale correction
+
+Owner correction: the failed checking experiment used the wrong rhetorical map and then expanded a 29-word complete thought into 60+ words, recreating model overcompletion. Candidate D is withdrawn before detector work. Maps now constrain thought relations, **not target length**; source scale is preserved unless an unsatisfied meaning/function requires expansion. Short prose is never padded merely to make the map visible or to cross a Pangram threshold.
+
+For the checking opening, the closest current natural donor relation is 5M03's valid/real condition -> coexisting complication, not 5M01's recurring inquiry. A 31-word minimal candidate is frozen in `experiments/OWNER-CORRECTION-MAP-FIT-AND-SCALE-20260920.md`, but remains unaccepted and deliberately untested. The original may be preferable.
+
 # 2026-09-20 correction — natural corpus reset and exact owner evaluation
 
 Joel confirms that M06 and M13 were his Pangram-oriented rewrites of AI prose, not natural unaided writing. Those two are excluded from natural-map calibration, and other Somatic-derived cards are quarantined pending passage-specific provenance. The prior evaluation candidate is also fidelity-rejected because it reduced the purpose + evidence question to a hoped-for change on another attempt.
