@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "status": "registration_pending",
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "raw-substack-source-identity",
+      "description": "Do not normalize or reconstruct the owner-supplied raw Substack editor master during registration; preserve exact 153734-byte source identity SHA-256 5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1."
+    },
+    {
+      "id": "native-object-order",
+      "description": "Preserve the ten high-value editor/native containers and their source order from SOURCE-STRUCTURE-INVENTORY-20260915.json unless later owner authority explicitly changes placement."
+    },
+    {
+      "id": "experiment-not-authority",
+      "description": "Humanization experiment candidates, review assemblies, detector passes, and rough cognition do not modify the registered working master without an explicit exact-byte promotion receipt."
+    }
+  ],
+  "owner_review": {
+    "status": "registration_pending",
+    "evidence": "Current owner corrections control experiment provenance; no whole-article owner-final claim is made by initial registration."
+  }
+}
