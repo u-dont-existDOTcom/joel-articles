@@ -253,3 +253,42 @@ When a candidate is finally shown to Joel, report only concise completion eviden
 - any review that was genuinely unavailable, explicitly named rather than silently assumed.
 
 Do not burden Joel with the internal failed-candidate history unless it materially explains a remaining tradeoff or he asks for it.
+
+
+## Conjunctive acceptance / no compensation
+
+Delivery admission is **all-gates-pass**, not a weighted score.
+
+A candidate cannot compensate:
+- weak comprehension with stronger Human-tell counts;
+- fidelity problems with a Pangram Human result;
+- AI-shaped cadence with semantic correctness;
+- weak Pangram evidence with owner prose elsewhere in the section;
+- better detector probability with worse readability.
+
+Any blocking FAIL means the candidate remains internal.
+
+## Baseline no-regression gate
+
+Before Pangram, compare the candidate to the best available comprehensible baseline/current version.
+
+Require:
+- no loss of immediate intelligibility;
+- no added ambiguity;
+- no harder sentence parsing;
+- no new source/provenance uncertainty;
+- no worse reader orientation;
+- no semantic compression that makes the protected distinction harder to understand.
+
+A humanization rewrite that is less readable than the baseline fails even if it removes named AI tells.
+
+## Pangram stability boundary
+
+A single Human label is not automatically sufficient when:
+- confidence is low/borderline;
+- the exact bytes have already shown Human/AI instability;
+- nearby exact repeats have demonstrated evaluator variance material to acceptance.
+
+In those cases, follow the current Pangram protocol for exact-byte repeat/stability evidence rather than treating the first Human result as solid admission.
+
+Do not average contradictory exact-byte labels into a pass.
