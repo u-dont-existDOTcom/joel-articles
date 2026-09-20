@@ -246,9 +246,9 @@
         "version": null,
         "captured_at": "2026-09-18T23:31:42.465814Z",
         "summary": {
-          "fraction_ai": 0.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 1.0,
+          "fraction_ai": 0,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 1,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -288,9 +288,9 @@
         "version": "4.0",
         "captured_at": "2026-09-18T23:32:09.450329Z",
         "summary": {
-          "fraction_ai": 0.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 1.0,
+          "fraction_ai": 0,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 1,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -316,9 +316,9 @@
         "version": "4.0",
         "captured_at": "2026-09-18T23:32:28.973884Z",
         "summary": {
-          "fraction_ai": 0.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 1.0,
+          "fraction_ai": 0,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 1,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -386,9 +386,9 @@
         "version": "4.0",
         "captured_at": "2026-09-18T23:38:38.145763Z",
         "summary": {
-          "fraction_ai": 0.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 1.0,
+          "fraction_ai": 0,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 1,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -456,9 +456,9 @@
         "version": "4.0",
         "captured_at": "2026-09-18T23:32:51.401209Z",
         "summary": {
-          "fraction_ai": 0.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 1.0,
+          "fraction_ai": 0,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 1,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -484,9 +484,9 @@
         "version": "4.0",
         "captured_at": "2026-09-18T23:33:11.109107Z",
         "summary": {
-          "fraction_ai": 0.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 1.0,
+          "fraction_ai": 0,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 1,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -664,14 +664,14 @@
       "whitespace_words": 137,
       "text": "Yeah, I mean, this happens all the time. I'll be writing out a reply to someone and, if I'm doing good, I might suddenly think, wait, that's not the best way to put it. It's not like I'm suppressing my feelings; I'm expressing them in a way that can be heard. It's actually way easier to do this with texts than with speaking, of course, but texts are good practice. Owning anything I did wrong is the tricky part because often what I did wrong was mostly just not being very high-IQ and high-EQ in how I communicated. If I actually did do something I know was wrong aside from that, it's easier for me at least. It can be hard to apologize for just being too direct because I associate that with honesty at some level.",
       "detector_status": "standalone_exact_cached_result",
-      "editorial_status": "preserve_current_assembly",
+      "editorial_status": "historical_experimental_snapshot_not_article_final",
       "detector": {
         "version": "4.0",
         "captured_at": "2026-09-19T00:46:13.951513Z",
         "summary": {
-          "fraction_ai": 0.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 1.0,
+          "fraction_ai": 0,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 1,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -679,7 +679,10 @@
         "identity": "exact_utf8",
         "evidence_path": "state/gui-runs/pangram-4/22a66e2aa4d8906e43459f9680f8ab173012a4592b92095730bc0d29ba653e0c/result.json"
       },
-      "authorship_evidence": "near-verbatim owner cognition with light model normalization; not autonomous model generation"
+      "authorship_evidence": "owner rough cognition preserved near-verbatim for a humanization experiment; Pangram Human 1.0; not owner-final article prose",
+      "known_context_note": "Provenance correction 2026-09-20: these bytes came from Joel's rough cognition and were temporarily mislabeled P1 'solved' in recovery state Q after a Human detector result. Recovery state R immediately superseded Q and restored 'Write It. Don't Send It Yet.' to unresolved. Do not use this paragraph as current/final article context.",
+      "authority_status": "NOT_ARTICLE_AUTHORITY",
+      "promotion_receipt": null
     },
     {
       "id": "current_assembly-033",
@@ -712,9 +715,9 @@
         "version": "4.0",
         "captured_at": "2026-09-19T21:46:26.071711Z",
         "summary": {
-          "fraction_ai": 1.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 0.0,
+          "fraction_ai": 1,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 0,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -852,9 +855,9 @@
         "version": "4.0",
         "captured_at": "2026-09-19T21:46:45.812194Z",
         "summary": {
-          "fraction_ai": 1.0,
-          "fraction_ai_assisted": 0.0,
-          "fraction_human": 0.0,
+          "fraction_ai": 1,
+          "fraction_ai_assisted": 0,
+          "fraction_human": 0,
           "fraction_lightly_ai_assisted": null,
           "fraction_moderately_ai_assisted": null
         },
@@ -883,7 +886,9 @@
     "Accepted/owner blocks are not rewritten or retested in this pass.",
     "An exact cached paragraph score is separate from editorial acceptance and wider-section scoring.",
     "No exact cache hit is not proof that a text has never been tested on another branch.",
-    "Short blocks are not padded or surrounded with owner prose to manufacture a pass."
+    "Short blocks are not padded or surrounded with owner prose to manufacture a pass.",
+    "2026-09-20 provenance repair: `current_assembly` is a historical review-snapshot label, not article authority. In particular current_assembly-032 is rough owner cognition used in an experiment, not the final/saved first paragraph under `Write It. Don't Send It Yet.`",
+    "A detector Human result or assistant-authored `solved` state does not promote prose. Promotion requires explicit owner/article-state authority and must survive later supersession."
   ],
   "current_pass_results": [
     {
@@ -896,9 +901,9 @@
       "identity": "exact_utf8",
       "headline": "AI Generated",
       "summary": {
-        "fraction_ai": 1.0,
-        "fraction_ai_assisted": 0.0,
-        "fraction_human": 0.0,
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
         "fraction_lightly_ai_assisted": null,
         "fraction_moderately_ai_assisted": null
       },
@@ -914,9 +919,9 @@
       "identity": "exact_utf8",
       "headline": "AI Generated",
       "summary": {
-        "fraction_ai": 1.0,
-        "fraction_ai_assisted": 0.0,
-        "fraction_human": 0.0,
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
         "fraction_lightly_ai_assisted": null,
         "fraction_moderately_ai_assisted": null
       },
@@ -932,9 +937,9 @@
       "identity": "exact_utf8",
       "headline": "AI Generated",
       "summary": {
-        "fraction_ai": 1.0,
-        "fraction_ai_assisted": 0.0,
-        "fraction_human": 0.0,
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
         "fraction_lightly_ai_assisted": null,
         "fraction_moderately_ai_assisted": null
       },
@@ -950,9 +955,9 @@
       "identity": "exact_utf8",
       "headline": "AI Generated",
       "summary": {
-        "fraction_ai": 1.0,
-        "fraction_ai_assisted": 0.0,
-        "fraction_human": 0.0,
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
         "fraction_lightly_ai_assisted": null,
         "fraction_moderately_ai_assisted": null
       },
@@ -968,9 +973,9 @@
       "identity": "exact_utf8",
       "headline": "AI Generated",
       "summary": {
-        "fraction_ai": 1.0,
-        "fraction_ai_assisted": 0.0,
-        "fraction_human": 0.0,
+        "fraction_ai": 1,
+        "fraction_ai_assisted": 0,
+        "fraction_human": 0,
         "fraction_lightly_ai_assisted": null,
         "fraction_moderately_ai_assisted": null
       },
