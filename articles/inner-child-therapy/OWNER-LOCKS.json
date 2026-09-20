@@ -2,15 +2,24 @@
   "schema_version": 1,
   "article_id": "inner-child-therapy",
   "status": "registration_pending",
-  "locked_passages": [],
+  "locked_passages": [
+    {
+      "id": "write-it-dont-send-it-p1-owner-final-20260920",
+      "heading": "Write It. Don't Send It Yet.",
+      "paragraph_role": "P1",
+      "text": "If you've got something burning you up that you wanna say, write it out as a reply. There. That got it out. Ahh. Breathing easier. But don't send it. Take that breather you earned and then come back to it from a cooler place.",
+      "sha256": "fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392",
+      "status": "owner_final_pending_new_master_reconciliation"
+    }
+  ],
   "protected_functions": [
     {
       "id": "raw-substack-source-identity",
-      "description": "Do not normalize or reconstruct the owner-supplied raw Substack editor master during registration; preserve exact 153734-byte source identity SHA-256 5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1."
+      "description": "The 2026-09-15 raw Substack source (153734 bytes; SHA-256 5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1) is a historical exact baseline. Do not register it as current after Joel announced a newer map-updated Substack source on 2026-09-20."
     },
     {
       "id": "native-object-order",
-      "description": "Preserve the ten high-value editor/native containers and their source order from SOURCE-STRUCTURE-INVENTORY-20260915.json unless later owner authority explicitly changes placement."
+      "description": "Preserve and compare the 2026-09-15 native-object inventory as a historical baseline. Re-inventory the newly supplied Substack source before registration because map additions or other owner edits may change structure/object order."
     },
     {
       "id": "experiment-not-authority",
@@ -18,7 +27,7 @@
     }
   ],
   "owner_review": {
-    "status": "registration_pending",
-    "evidence": "Current owner corrections control experiment provenance; no whole-article owner-final claim is made by initial registration."
+    "status": "partial_confirmed",
+    "evidence": "Joel directly finalized Write-It P1 on 2026-09-20. Whole-article registration awaits the newer owner-updated Substack source and is not owner-final publication status."
   }
 }
