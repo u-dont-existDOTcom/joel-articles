@@ -1,0 +1,55 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r3-result-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_record": "EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R3-PREPANGRAM-20260916.json",
+  "reader_text_sha256": "3be5590edff9d0dc152782bb89dcb609509561b473723757d47303425ab9008e",
+  "reader_text_whitespace_words": 1431,
+  "detector": "Pangram 4.0",
+  "transport": "local Playwright GUI / exact stored History binding",
+  "captured_at_utc": "2026-09-16T18:08:47.360756Z",
+  "overall": {
+    "headline": "AI Detected",
+    "prediction_short": "AI",
+    "fraction_ai": 0.9364346861839294,
+    "fraction_ai_assisted": 0.0,
+    "fraction_human": 0.06356534361839294,
+    "prediction_probability": 0.8961325287818909,
+    "ui_word_count": 1505
+  },
+  "segments": [
+    {
+      "label": "AI-Generated",
+      "confidence": "High",
+      "ui_words": 259,
+      "start_index": 0,
+      "end_index": 1377,
+      "ai_likelihood": 0.7814236879348755,
+      "visible_start": "# Before You Try to Go Deep"
+    },
+    {
+      "label": "Human",
+      "confidence": "High",
+      "ui_words": 89,
+      "start_index": 1377,
+      "end_index": 1914,
+      "ai_likelihood": 0.20786774158477783,
+      "visible_start": "If your solar plexus, abdomen, or somewhere else feels clenched"
+    },
+    {
+      "label": "AI-Generated",
+      "confidence": "High",
+      "ui_words": 1157,
+      "start_index": 1914,
+      "end_index": 8448,
+      "ai_likelihood": 0.9768720865249634,
+      "visible_start": "The order matters here; sometimes you have to get the body down a notch before talking works."
+    }
+  ],
+  "comparison_to_r2": {
+    "r2_displayed_ai_share": 0.9460606061,
+    "r3_fraction_ai": 0.9364346861839294,
+    "interpretation": "Only a small improvement. The same two-large-red-regions plus one Human/high somatic island architecture survived. Broad R2->R3 realization repair did not materially solve the detector/editorial problem."
+  },
+  "production_disposition": "REJECT_R3_AND_SWITCH_METHOD",
+  "next_method": "Freeze the exact Human/high somatic island. Do not run another whole-section paraphrase. Use sentence-/thought-level repair instructions inside a single continuous reader scenario/through-line so the guide no longer resets into independent teaching cards. Re-run preservation before another detector call."
+}

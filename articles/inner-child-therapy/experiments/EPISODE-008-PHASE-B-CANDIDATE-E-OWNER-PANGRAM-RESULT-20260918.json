@@ -1,0 +1,44 @@
+{
+  "episode_id": "inner-child-episode008-phase-b-candidate-e-owner-pangram-20260918",
+  "date": "2026-09-18",
+  "status": "OWNER-SUPPLIED-PANGRAM-GUI-RESULT / CANDIDATE-E-FAIL / RED-GREEN-RED",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-E-20260918.md"
+  },
+  "detector": {
+    "surface": "Pangram GUI screenshot supplied by owner",
+    "overall_ui": "2 of 3 segments are AI",
+    "ui_total_words": 297,
+    "segments": [
+      {
+        "ordinal": 1,
+        "label": "AI",
+        "confidence": "High",
+        "ui_words": 113,
+        "visible_start": "Also Look Outward One ugly conversati...",
+        "interpretation": "opening model-written region remains AI/high"
+      },
+      {
+        "ordinal": 2,
+        "label": "Human Written",
+        "confidence": "High",
+        "ui_words": 110,
+        "visible_start": "You may not know for certain whether...",
+        "literal_boundary": "exact owner paragraph + 'If you really did hurt them, repair it.' + 'You can mean the apology.'",
+        "interpretation": "green segment is dominated by known owner-authored prose; this does not constitute meaningful evidence that the surrounding model prose humanized"
+      },
+      {
+        "ordinal": 3,
+        "label": "AI",
+        "confidence": "High",
+        "ui_words": 74,
+        "visible_start": "Then you notice you're also apologizin...",
+        "interpretation": "repaired final model-written region remains AI/high"
+      }
+    ]
+  },
+  "owner_correction": "Joel correctly noted that the earlier localization run largely reconfirmed a paragraph already known to be owner-authored Human; the Candidate E result also shows the new model repair failed.",
+  "method_implication": "Do not count owner-dominated detector green as model-humanization progress. Treat Candidate E as a failed Phase-B repair. Keep exact owner authority locked; use detector results to measure the model-written red regions and iterate them directly.",
+  "repeat_policy": "Do not repeat exact Candidate E."
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "status": "pending",
+  "checks": [
+    {
+      "id": "exact-working-master-identity",
+      "status": "passed",
+      "evidence": "Exact owner-supplied 2026-09-20 raw editor body materialized and independently hash-verified at 150330 bytes / SHA-256 372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd."
+    },
+    {
+      "id": "native-object-inventory",
+      "status": "passed",
+      "evidence": "SOURCE-STRUCTURE-INVENTORY-20260920.json records current heading counts and ten high-value editor/native containers in source order."
+    },
+    {
+      "id": "humanization-source-reconciliation",
+      "status": "pending",
+      "evidence": "SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md finds only 1/39 exact normalized block survivors across the worked humanization frontier; prior accepted/owner-final spans require explicit reconciliation."
+    },
+    {
+      "id": "owner-write-it-p1-placement",
+      "status": "pending",
+      "evidence": "Direct owner-final P1 fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392 is absent from the new source because section architecture changed; placement remains unresolved."
+    },
+    {
+      "id": "citation-review",
+      "status": "pending",
+      "evidence": "No claim-by-claim citation/health review is asserted by registration."
+    }
+  ],
+  "meaning_fidelity": "Registration preserves the exact current raw source. It does not claim that source-overwritten humanization is accepted, detector-green, or owner-final.",
+  "detector_role": "No detector result is promoted into current master authority. Detector work resumes only after reconciliation produces a stable reader-visible boundary.",
+  "owner_final_boundary": "No whole-article owner-final claim. Direct owner corrections remain higher authority and are tracked separately when absent from the raw source.",
+  "largest_remaining_editorial_weakness": "The new source and accumulated humanization lane diverged across almost the entire worked frontier, so section-level reconciliation is required before further humanization can be meaningfully evaluated."
+}

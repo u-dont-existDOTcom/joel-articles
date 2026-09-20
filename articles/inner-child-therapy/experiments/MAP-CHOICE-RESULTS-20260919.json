@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-19",
+  "status": "ONE STANDALONE HUMAN CANDIDATE, ONE AI CANDIDATE; NO ARTICLE INSERTION",
+  "source_catalogue_validation": "13 unique cards; every literal span and SHA checked against its exact Git blob",
+  "results": [
+    {
+      "name": "map-readiness-b",
+      "sha256": "cd10e45f15191062a79d82a76a34abc204679cbc41ccbb4567dc51043b97fce1",
+      "words": 71,
+      "detector": "Pangram 4.0",
+      "captured_at_utc": "2026-09-19T22:06:37.210695Z",
+      "stage": "STAGE_SUCCESS",
+      "summary": {
+        "fraction_ai": 0.0,
+        "fraction_ai_assisted": 0.0,
+        "fraction_human": 1.0,
+        "fraction_lightly_ai_assisted": null,
+        "fraction_moderately_ai_assisted": null
+      },
+      "transport": "local_playwright GUI, via RDC command/file channel",
+      "api_detector_calls": 0,
+      "independent_of_owner_anchor": true,
+      "owner_editorial_acceptance": "pending",
+      "raw_result_repo": "u-dont-existDOTcom/pangram-humanization-lab",
+      "raw_result_commit": "dda9e8afd0b97067ae6792c7fb7db5724d7e3458",
+      "raw_result_path": "state/gui-runs/pangram-4/cd10e45f15191062a79d82a76a34abc204679cbc41ccbb4567dc51043b97fce1/result.json"
+    },
+    {
+      "name": "map-evaluation-c",
+      "sha256": "46183fd6c34aad0a86c898cc0081c4354ff6ed9c01c8559c482b0ee10a4ccaf4",
+      "words": 90,
+      "detector": "Pangram 4.0",
+      "captured_at_utc": "2026-09-19T22:06:54.053105Z",
+      "stage": "STAGE_SUCCESS",
+      "summary": {
+        "fraction_ai": 1.0,
+        "fraction_ai_assisted": 0.0,
+        "fraction_human": 0.0,
+        "fraction_lightly_ai_assisted": null,
+        "fraction_moderately_ai_assisted": null
+      },
+      "transport": "local_playwright GUI, via RDC command/file channel",
+      "api_detector_calls": 0,
+      "independent_of_owner_anchor": true,
+      "owner_editorial_acceptance": "not accepted",
+      "raw_result_repo": "u-dont-existDOTcom/pangram-humanization-lab",
+      "raw_result_commit": "dda9e8afd0b97067ae6792c7fb7db5724d7e3458",
+      "raw_result_path": "state/gui-runs/pangram-4/46183fd6c34aad0a86c898cc0081c4354ff6ed9c01c8559c482b0ee10a4ccaf4/result.json"
+    }
+  ],
+  "previous_results_reused": "The five-result cross-passage batch at 7b983dafd12178df4cbed30885556049ad85e39c was read, not repeated.",
+  "causal_limits": "Single candidates on different targets; no isolated causal test of map choice, no representative corpus validation and no demonstrated durable skill. Readiness is model editing of model text with source-structure calibration, not owner reauthoring or adjacent-Human masking."
+}

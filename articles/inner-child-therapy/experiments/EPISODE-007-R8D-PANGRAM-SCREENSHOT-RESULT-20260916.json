@@ -1,0 +1,19 @@
+{
+  "episode_id": "inner-child-my-journey-007-r8d-sentence-pass-20260916",
+  "candidate_sha256_no_terminal_newline": "1df78ef135579076e0b52b7f448d1854df8129a140c1a30c0f9eb4e446e15039",
+  "owner_report": "about 29% AI",
+  "screenshot_segmentation": [
+    {"label":"Human","confidence":"High","ui_words":348,"visible_start":"My Journey I used to preach Buddhist ..."},
+    {"label":"AI","confidence":"High","ui_words":187,"visible_start":"If something in your life is actually dan..."},
+    {"label":"Human","confidence":"High","ui_words":150,"visible_start":"Borrow adulthood. Do not surrender it...."},
+    {"label":"AI","confidence":"High","ui_words":45,"visible_start":"“Find the wounded child and love the..."},
+    {"label":"Human","confidence":"Medium","ui_words":50,"visible_start":"The three adult jobs from the map don..."}
+  ],
+  "displayed_total_ui_words": 780,
+  "displayed_ai_ui_words": 232,
+  "displayed_ai_share": 0.2974358974,
+  "blind_prediction_record": "EPISODE-007-R8D-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+  "blind_prediction_match": "The blind audit predicted the 187-word practical-danger/no-self/therapy run as AI/high, the first part of the final method-origin paragraph through 'I was him' as AI/high, and the final three-adult-jobs sentence as more likely Human/lower confidence. The screenshot matches all three predictions and leaves the opening + Pema material Human/high.",
+  "production_interpretation": "Sentence-by-sentence generation materially improved the displayed AI share from R8C 39.67% to R8D 29.74%, but two independently predicted residual regions remain. Do not reopen known-green spans. Continue only with targeted sentence/paragraph operations on the residuals.",
+  "authority_boundary": "detector evidence for non-authoritative experiment; Inner Child Therapy remains unregistered"
+}

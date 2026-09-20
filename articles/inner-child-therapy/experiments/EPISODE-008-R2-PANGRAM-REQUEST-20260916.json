@@ -1,0 +1,26 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r2-prepangram-20260916",
+  "status": "PANGRAM_REQUEST_QUEUED_NO_STEPS",
+  "candidate_record": "EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R2-PREPANGRAM-20260916.json",
+  "candidate_markdown_sha256": "0fc5cbd6c98d53d65d737b14a0113161a692a09e6840074640ca5a15af77a11a",
+  "pangram_reader_text_sha256": "95a394e75134ae5be4081ce04fcfa180014e7cbe610dd9e27086fa7cb880560a",
+  "pangram_spec": {
+    "repo": "u-dont-existDOTcom/pangram-humanization-lab",
+    "branch": "automation/pangram-fixed-batch",
+    "path": "experiments/inner-child-episode008-r2-20260916-a.json",
+    "sha256": "b7f04cda1c3f482c41ff35583f18c9ec9656cf8929cade98ddb2ab9daa644821"
+  },
+  "private_executor_request": {
+    "repo": "u-dont-existDOTcom/pangram-private-executor",
+    "path": "requests/inner-child-episode008-r2-20260916-a.json",
+    "request_commit": "10419791a17bb9aa50f9c7617bf0dd432c4f2c7c",
+    "workflow_run_id": 35122566722,
+    "workflow_name": "Execute Pangram 4 fixed batch",
+    "job_id": 104883689677,
+    "observed_status": "queued",
+    "observed_steps": null
+  },
+  "paid_call_interpretation": "The workflow has not started any steps. No Pangram result exists yet. Do not create a replacement request or resubmit the exact text. On continuation, inspect this same workflow/public-lab cache first; if the job later ran, recover its exact result. If it remains queued with zero steps, the self-hosted runner has not accepted the job.",
+  "owner_authorization": "Current owner turn explicitly requested a Pangram check and up to three audit-repair-detector loops only while progress is significant.",
+  "next_action": "On the next user turn, recover workflow run 35122566722 and the exact public-lab cache/result before any new detector action."
+}

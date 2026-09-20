@@ -1,0 +1,48 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r6-delayed-guide-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "owner_method_correction": "Test the previously written repair instructions after a user-turn boundary before concluding that the method is exhausted.",
+  "base_candidate": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R5-PREPANGRAM-20260916.md",
+  "instruction_source": "articles/inner-child-therapy/experiments/EPISODE-008-R3-TO-R4-SENTENCE-REPAIR-GUIDE-20260916.md",
+  "candidate": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R6-DELAYED-GUIDE-APPLICATION-20260916.md",
+  "candidate_sha256_no_terminal_newline": "1b81fb684bfb924f5ad9c2e38a645c9b31a8f03375a2ecc74a134d0735b9adeb",
+  "candidate_whitespace_words": 1533,
+  "method": "Apply the already-frozen local sentence/thought repair instructions after the intervening owner turn, rather than writing a new guide and executing it in the same turn. The R5 Human/high somatic island is frozen byte-for-byte.",
+  "preservation": {
+    "source_record": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json",
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "claim_changes": "none",
+    "native_embed_positions": "PASS; both existing markers remain at frozen positions",
+    "attributions_links": "PASS; Pema Chodron/shenpa and Lindsay Gibson links/functions retained",
+    "known_green_island": "PASS; exact R5 Human/high somatic island retained byte-for-byte",
+    "notes": [
+      "Opening still preserves enough adult capacity to pause/choose/act plus outside support and delayed deep dialogue.",
+      "Inner-monologue material preserves spontaneous-vs-deliberate inner speech, nonverbal alternatives, quiet-mind/imagery distinction, variable feeling/word order, later verbal analysis, and nonverbal-not-automatically-truer function.",
+      "Hook material preserves all named body/urge/action examples, Pema/shenpa, acute pause/safety/adult-function/harm-reduction sequence, truth uncertainty, later meaning work, observation-vs-verdict, literal-at-time words vs later translation, and stop/external-support safeguards.",
+      "Outward-assessment material preserves disagreement/reflection/responsibility/room-for-reader, Gibson repeated-behavior focus, qualification/revisability, can't/won't/can't-now uncertainty in compressed form, promises-vs-behavior, protection, guilt/repair/self-abandonment, realistic outcomes, and Witness/Protector/Guide functions.",
+      "Draft/caring-editor and overprocessing/checking functions remain represented, including no-response possibility, later care for the first-draft writer, meaningful revisiting vs certainty checking, unresolved-thought return-to-life, observable practice outcomes, and ritual-before-living warning."
+    ]
+  },
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT; execution occurred after an owner-turn boundary but is not genuinely independent evidence",
+    "strongest_remaining_objection_1": {
+      "span": "alternate-channel examples under You Don’t Need an Inner Monologue",
+      "diagnosis": "Still necessarily names several possible contact channels and could read list-like.",
+      "disposition": "preserve-with-reason; all channels are source-protected, and R6 makes them uneven examples rather than a closed taxonomy."
+    },
+    "strongest_remaining_objection_2": {
+      "span": "Witness / Protector / Guide application near the end of Don't Assume It's All You",
+      "diagnosis": "The three roles can inherently resemble a tidy framework recap.",
+      "disposition": "preserve-with-reason; the three role functions are source-protected and are kept attached to the immediate interaction rather than expanded into a synthesis."
+    },
+    "strongest_remaining_objection_3": {
+      "span": "When Healing Turns Into Checking",
+      "diagnosis": "Instructional source material still requires a distinction between meaningful revisiting and certainty-seeking plus an outcome check.",
+      "disposition": "preserve-with-reason; R6 avoids turning each distinction into a separate teaching-card conclusion and does not add explanatory aftercare after the final ritual warning."
+    },
+    "owner_delivery_admission": "PASS_PROVISIONAL_FOR_EXPERIMENTAL_OWNER_CHECK",
+    "pangram_status": "NOT_RUN_ON_R6"
+  }
+}

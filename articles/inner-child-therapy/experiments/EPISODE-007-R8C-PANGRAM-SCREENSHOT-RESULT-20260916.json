@@ -1,0 +1,33 @@
+{
+  "episode_id": "inner-child-my-journey-007-r8c-screenshot-result-20260916",
+  "candidate": "EPISODE-007-MY-JOURNEY-CANDIDATE-R8C-20260916.json",
+  "candidate_markdown_sha256_no_terminal_newline": "27c16d7d97ad93324a6ce913144f076f62b1a92404735c67a4274d0570c3e09c",
+  "identity_status": "MATCHED",
+  "identity_basis": [
+    "screenshot AI segment begins 'Then reparenting stopped being a theo...' which is exact R8C wording",
+    "screenshot Human segment begins 'Plenty of seekers and gurus do it too; I\'...' which is exact R8C wording",
+    "screenshot AI segment begins 'If your life is actually unsafe, meditatio...' which is exact R8C wording",
+    "screenshot Human segment begins 'Borrow adulthood. Do not surrender it...' which is exact R8C wording",
+    "screenshot AI segment begins '\u201cFind the wounded child and love the...' which is exact R8C wording"
+  ],
+  "owner_report_context": "Owner asked Chat to audit/predict before inspecting screenshot and then compare/fix if possible.",
+  "blind_prediction_record": "EPISODE-007-R8C-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+  "segments": [
+    {"label": "Human Written", "confidence": "High", "ui_words": 122, "visible_start": "My Journey I used to preach Buddhist ..."},
+    {"label": "AI", "confidence": "High", "ui_words": 62, "visible_start": "Then reparenting stopped being a theo..."},
+    {"label": "Human Written", "confidence": "High", "ui_words": 172, "visible_start": "Plenty of seekers and gurus do it too; I'..."},
+    {"label": "AI", "confidence": "High", "ui_words": 150, "visible_start": "If your life is actually unsafe, meditatio..."},
+    {"label": "Human Written", "confidence": "High", "ui_words": 150, "visible_start": "Borrow adulthood. Do not surrender it..."},
+    {"label": "AI", "confidence": "High", "ui_words": 80, "visible_start": "\u201cFind the wounded child and love the..."}
+  ],
+  "displayed_segment_word_total": 736,
+  "displayed_ai_word_total": 292,
+  "displayed_ai_share": 0.3967391304,
+  "interpretation": {
+    "blind_audit_match": "STRONG: all three strongest blind-predicted residuals map to the three screenshot AI/high regions. Prediction 1 localized the post-food-bank reparenting/interpretive transition; Prediction 2 localized the unsafe/no-self/resistance run; Prediction 3 localized the final method-origin recap.",
+    "overall_progress": "FLAT versus R7 by displayed AI share: R7 was about 40.24% AI and R8C is about 39.67% AI. Local wording changed, but the same three functional regions remain AI/high.",
+    "method_status": "METHOD_ESCALATION_REQUIRED",
+    "next_route": "Do not launch another broad or materially similar same-context paraphrase. Prefer targeted owner language/cognition for the three surviving red functions, or a genuinely fresh independent writing context. Owner has explicitly offered to help if needed."
+  },
+  "authority_boundary": "detector evidence only; Inner Child Therapy remains unregistered and this result does not promote any prose to canonical article authority"
+}

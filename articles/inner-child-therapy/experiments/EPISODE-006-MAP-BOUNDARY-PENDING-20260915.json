@@ -1,0 +1,53 @@
+{
+  "episode_id": "inner-child-five-stage-map-boundary-006-20260915",
+  "status": "failed-owner-detector-judgment-strategy-escalated",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
+  "source_provenance": "reader-visible extraction recovered from the 2026-09-15 owner-supplied raw Substack editor source; exact raw-source authority remains bound in INTAKE-20260915.md",
+  "source_boundary": "five-stage practical map plus immediate closing sentence under The Chicken-and-Egg Problem",
+  "source_reader_visible_text": "I developed this practical map from the rest of the method. Treat the complete sequence as a provisional synthesis: some components have direct research behind them, while the full arrangement is my own:\n\n1. The child alone: orient to the present and establish enough outside safety to begin.\n2. The child with a borrowed adult: experience one reliable adult function through a real, remembered, imagined, or symbolic figure.\n3. The adult apprentice: care for the child together with support and do at least one part yourself.\n4. The inner adult: repeat warmth, protection, and direction until those capacities become familiar enough to summon.\n5. The adult and child in relationship: the adult leads without exiling the child, and the child no longer has to run the whole life alone.\n\nYou don’t have to stop being the child. You become larger than the child-state. A useful sentence is: “I am still this child, and I am also becoming the adult who stays.”",
+  "source_reader_visible_sha256_no_terminal_newline": "76910b76be833f16011f6d82c99c0758713dc97cba57366e835599f8f35e8bce",
+  "preservation_units": [
+    "the overall five-stage arrangement is Joel's own synthesis rather than a validated package",
+    "some component ideas have direct research support",
+    "stage 1: orient to the present and establish enough outside safety",
+    "stage 2: experience one reliable adult function through a real, remembered, imagined, or symbolic figure",
+    "stage 3: participate in care with support and do at least one part yourself",
+    "stage 4: repeat warmth, protection, and direction until those capacities become more summonable",
+    "stage 5: adult leads without exiling child; child no longer has to carry/run life alone",
+    "the child is not eliminated by development of the adult role",
+    "development means becoming larger than total identification with the child-state",
+    "retain the quoted sentence: I am still this child, and I am also becoming the adult who stays"
+  ],
+  "authorized_delta": "realization/cadence/paragraph and list wording may change; may not change research provenance, five-stage order, stage functions, anti-exile relationship, or quoted sentence meaning",
+  "failed_candidate": {
+    "map_boundary_text": "I use a five-stage map. Some of the pieces have direct research behind them, but I put the sequence together myself, so I still think of the whole thing as provisional:\n\n1. The child alone: Get oriented to the present and make the situation around you safe enough to begin.\n2. The child with a borrowed adult: Borrow one reliable adult function from a real person, somebody you remember or imagine, or a symbolic figure.\n3. The adult apprentice: Do the caring together. Take at least one part yourself while the support is still there.\n4. The inner adult: Keep practicing warmth, protection, and direction until those things are easier to call up on your own.\n5. The adult and child in relationship: The adult leads without pushing the child away, and the child no longer has to run the whole life alone.\n\nYou don’t have to stop being the child. Sometimes I put it this way: “I am still this child, and I am also becoming the adult who stays.”",
+    "map_boundary_sha256_no_terminal_newline": "f21f5c3f36d5dbd092f8a748936d6b4a7507fa2ec8b02ce7836ff41838fb8888",
+    "map_boundary_word_count_whitespace": 171,
+    "combined_with_episode005_text_sha256_no_terminal_newline": "fb118cdb8fda59723a2c6da99af1853c07db04b32423e627eecdc5d711e7728f",
+    "combined_with_episode005_word_count_whitespace": 337,
+    "combined_join": "single blank line between accepted Episode 005 boundary and this map boundary"
+  },
+  "owner_detector_result": {
+    "map_boundary_alone": "AI / medium confidence",
+    "combined_with_accepted_episode005_boundary": "AI / high confidence",
+    "interpretation": "The first structural repair failed both locally and more strongly in the larger natural boundary. This is not a low-confidence instability case; the larger-boundary result materially strengthens the diagnosis that the map realization remains model-shaped in context."
+  },
+  "preservation_mapping_status": "PASS with zero unexplained substantive deltas on the failed candidate; detector failure therefore does not license semantic deletion",
+  "prior_cold_audit_failure": {
+    "status": "FALSE_PASS_IN_SAME_CONTEXT",
+    "note": "The same-context audit identified three plausible risks but rationalized all three as preserved-with-reason and admitted the candidate. Owner detector evidence then returned AI / medium alone and AI / high in context. The next attempt must not simply strengthen the same numbered-map realization."
+  },
+  "method_escalation": {
+    "trigger": "targeted realization repair failed to remove the same larger-boundary structural failure",
+    "required_next_action": "compare materially different architectures before another same-method attempt",
+    "candidate_architectures": [
+      "retain explicit numbering but radically reduce parallel definition/closure",
+      "hybrid: list stage names only, explain the developmental movement in continuous prose",
+      "continuous prose: preserve all five ordered functions without a visible numbered taxonomy",
+      "integrate the five-stage movement into the already-Human borrowed-adulthood passage so the map does not reset the section into a new mini-essay"
+    ],
+    "owner_request": "show multiple best fix options rather than one"
+  },
+  "production_disposition": "REJECTED; do not reuse as production baseline",
+  "delivery_contract": "for each option, expose strongest objection and best faithful repair; do not show an option that the cold audit already judges substantively defective"
+}

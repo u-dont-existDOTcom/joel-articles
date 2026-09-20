@@ -28,6 +28,8 @@ The validator proves registered structure and hashes, not article truth or edito
 
 Use one article-scoped task branch/worktree and a pull request. Keep owner-final prose, reconstruction state, source evidence, detector experiments, and promoted lessons distinguishable. Persist decisions and recovery state in Git before ending a substantive pass.
 
+When parallel chats/agents may touch the same article task, the article task branch becomes an integration branch, not a shared writer branch. Before any mutation, check the target article for an active `PARALLEL-WRITE-LOCK.json`; if present, each writer must use a unique child branch/worktree with its own writer lease and only the designated integrator may mutate the integration branch. Follow the fresh universal `patterns/parallel-chat-write-isolation.md` rule. Unexpected branch advancement fails closed and must be reconciled explicitly.
+
 For P2S/P3/P4 humanization, D3/D4 reconstruction, or detector-driven semantic edits, `docs/HUMANIZATION-PRESERVATION-GATE.md` is blocking **before detector submission**. Freeze the authoritative changed scope, enumerate preservation units and the authorized-change whitelist before drafting, then require bidirectional source↔candidate traceability with **zero unexplained substantive deltas**. Re-run that proof after every detector-driven semantic edit. A detector-green candidate that fails preservation is fidelity-rejected and cannot be promoted.
 
 For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is also blocking: re-run the article-wide architecture regression after every detector-driven edit. Do not narrow the editorial field of view to the last detector window.

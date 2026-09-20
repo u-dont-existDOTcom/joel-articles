@@ -1,0 +1,24 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-k1-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / MIXED / FACT-CORRECTION REGRESSION",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-K1-20260918.md",
+    "reader_visible_sha256": "cd10fd0ce6bb91480d19b5fb5fc9a1e0147449385e673e41533e5f4c8800454e",
+    "runner_word_count": 234
+  },
+  "result": {
+    "headline": "AI Detected",
+    "fraction_ai": 0.4598316848,
+    "fraction_human": 0.540168345,
+    "record_prediction_probability": 0.2465831786,
+    "report_body_summary": "AI-generated content appears in the later part"
+  },
+  "delta_from_k": {
+    "only_intended_text_change": "Lao Tsu -> Sun Tzu",
+    "k_fraction_ai": 0.0,
+    "k1_fraction_ai": 0.4598316848,
+    "interpretation": "The one-name correction changed whole-boundary segmentation non-locally. Do not infer that the corrected token itself is AI-causal."
+  },
+  "editorial_disposition": "Joel said the accidental Lao Tsu attribution was not intended but could be okay as a joke. Keep Human-1.0 K as detector provenance unless Joel explicitly prefers the factual correction."
+}

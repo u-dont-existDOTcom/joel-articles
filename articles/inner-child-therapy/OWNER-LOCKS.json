@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "working-master-source-identity",
+      "description": "Preserve the exact 2026-09-20 owner-supplied raw Substack editor source as the registered working master: 150330 UTF-8 bytes, SHA-256 372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd. Do not normalize editor/native-object markup merely to make the source prettier."
+    },
+    {
+      "id": "native-editor-object-integrity",
+      "description": "Preserve current native/editor object identity and source order unless later owner authority changes placement. SOURCE-STRUCTURE-INVENTORY-20260920.json is the current inventory; the 2026-09-15 inventory is historical baseline evidence only."
+    },
+    {
+      "id": "owner-final-write-it-p1-pending-placement",
+      "description": "Joel directly finalized a replacement P1 on 2026-09-20 at SHA-256 fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392. It is not present in the new raw master because the source now uses the heading Keep the Draft. Edit the Response. Care for the Writer. This owner correction outranks the working master semantically but remains placement-reconciliation pending; do not silently drop or insert it."
+    },
+    {
+      "id": "humanization-history-not-master-authority",
+      "description": "Historical humanization assemblies, detector experiments, writer states, and model candidates remain provenance/evidence. They do not override the registered working master or a direct owner correction without an exact promotion record."
+    },
+    {
+      "id": "checking-owner-corrections-pending-reconciliation",
+      "description": "Earlier owner-final checking/evaluation wording and stop language were replaced in the newest raw source by When More Processing Becomes the Hook. Preserve the conflict as a reconciliation question; do not infer that source recency alone canceled the direct owner corrections."
+    }
+  ],
+  "owner_review": {
+    "status": "pending",
+    "evidence": "Initial registration is working-source authority only. Joel supplied the exact updated Substack editor body on 2026-09-20 and separately finalized Write-It P1 the same evening; source/humanization conflicts are recorded in SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md and require reconciliation before owner-final status."
+  }
+}

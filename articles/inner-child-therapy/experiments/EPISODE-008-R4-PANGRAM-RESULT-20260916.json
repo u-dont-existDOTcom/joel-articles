@@ -1,0 +1,33 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r4-result-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R4-PREPANGRAM-20260916.md",
+  "reader_text_sha256": "8d33457e4db34e0dee3de5f02778cf2296ef307c33c7652393a83af5f40fa709",
+  "reader_text_whitespace_words": 1506,
+  "detector": "Pangram 4.0",
+  "transport": "local Playwright GUI / exact stored History binding",
+  "captured_at_utc": "2026-09-16T18:25:07.157611Z",
+  "overall": {
+    "headline": "AI Generated",
+    "prediction_short": "AI",
+    "fraction_ai": 1.0,
+    "fraction_ai_assisted": 0.0,
+    "fraction_human": 0.0,
+    "prediction_probability": 0.973307728767395,
+    "ui_word_count": 1582
+  },
+  "segments": [
+    {
+      "label": "AI-Generated",
+      "confidence": "High",
+      "ui_words": 1582,
+      "start_index": 0,
+      "end_index": 8822,
+      "ai_likelihood": 0.973307728767395,
+      "visible_start": "# Before You Try to Go Deep"
+    }
+  ],
+  "comparison": "R4 regressed from R3 AI 0.9364 / Human 0.0636 to AI 1.0 / Human 0.0. The paragraph-consolidation / continuous-through-line variant caused the previously Human/high somatic island to be swallowed into a single AI/high window.",
+  "production_disposition": "REJECT_R4",
+  "method_conclusion": "Do not continue the R4 paragraph-consolidation strategy. The next candidate must use a materially different reader-facing architecture/register rather than another tightened version of R4."
+}

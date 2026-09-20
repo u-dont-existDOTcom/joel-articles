@@ -1,0 +1,64 @@
+{
+  "episode_id": "inner-child-my-journey-007-r8f-final-residual-local-repair-20260916",
+  "status": "pending-owner-detector-judgment",
+  "supersedes_candidate": "EPISODE-007-MY-JOURNEY-CANDIDATE-R8E-SECOND-SENTENCE-PASS-20260916.json",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
+  "source_reader_visible_sha256_no_terminal_newline": "eae9b5e774d5b9111330d682fa59897272fb2b3cd6b4ae3fa9e7aa0554457875",
+  "candidate_markdown_sha256_no_terminal_newline": "10edc05c65b42876eb4f179fef6d9294faf72c2ac020f7a31ff520a2884ed9da",
+  "candidate_whitespace_word_count": 680,
+  "method": "Owner explicitly instructed Chat to fix the final residual now. Only the exact 39-word R8E AI/high sentence was replaced. The replacement follows the frozen final-residual guide: protective-part interference is subordinated within a chronological sequence, loss of the adult position is the dominant thought, the prior paired contrast and semicolon reveal are removed, and the following 50-word Human/high causal tail remains byte-for-byte unchanged.",
+  "changed_span": {
+    "r8e_before": "A protective part could stop me before I even reached the child, but when I did get through I could get pulled so far into being the child that I wasn't sitting with him anymore; I was him.",
+    "r8f_after": "Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore.",
+    "following_frozen_tail": "The three adult jobs from the map don't work too well when the adult has vanished, so I started looking for a way to have an adult there before I could reliably be that adult myself."
+  },
+  "candidate_markdown": "# My Journey\n\nI used to preach [Buddhist enlightenment](http://mindset.u-dont-exist.com/) a lot. But an old childhood wound could still hit and suddenly I was the same little kid again, even when the spiritual part of me felt completely free.\n\nThe way I picture it is almost stupidly simple. Imagine you're broke and starving, and your baby is starving too. *Understandable*: there is no food. Then a food bank opens nearby and suddenly you've got lots of nutritious munchies. But you're eating all of it yourself while baby you is still starving. *Unforgivable.*\n\nNobody leaves a baby starving on purpose. I just didn't believe there was a baby. Inner-child stuff sounded silly to me until I could actually feel him. Then there was this little me actually hurting, and I could send some of the love I'd already found his way.\n\nI think most people who chase spiritual freedom are also trying to get away from something painful in themselves, and a lot of it goes back to childhood. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I did it too. It doesn't mean you're stupid or crazy.\n\nSpending your whole life processing the wounded kid isn't freedom either. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.\n\n### Don’t Give the Inner Adult Away\n\nIf you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and handing them the steering wheel can actually help for a while. But they can know things you don't and still be wrong about you.\n\nEven [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-book/) comes from a tradition where devotion to a teacher is a big deal, and she still says a teacher should “wean us from dependency altogether” and help us grow up.\n\nIf you're actually in danger, maybe you need to get out or get some help, even if meditation is helping with the pain. Calling it “your story” doesn't protect the kid from what's happening.\n\nSay you grew up learning that what you wanted didn't matter. You're only just starting to figure out what you actually think, maybe even learning to say no, and then somebody tells you there is no self—maybe freeing later, but right then it can sound like: what you want still doesn't matter. You say to a therapist, “No, that's not right for me,” and they call the disagreement resistance. What if they're wrong about you, or just taking you somewhere you don't want to go—how are you supposed to say so?\n\nBorrow adulthood. Do not surrender it.\n\nMy own case was weird. I was well-loved as a child, but from age twelve to twenty-six I was depressed and cried every night from feeling the pain of the world. [Loving-kindness (metta) meditation](http://love.u-dont-exist.com/) healed that depression almost instantly for me.\n\nI wasn't lacking love. My parents had given me a lot of it. I found more in [Buddhist teachings—which, it turns out, also include inner-child self-love!](https://substack.com/profile/355021294-u-dont-existcom/note/c-297324975) and later in [loveyhuasca](http://soma.u-dont-exist.com/). Metta gave all that love somewhere to land.\n\nBut it didn't reach everything. A lot of the child stuff around my attachment to women was still there. When I later tried [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm), it felt like I was making it up at first. I used San Pedro cactus and CBD tea with sublingual mapacho, and that cracked it open; structured sessions with an inner-child therapist deepened it.\n\nSometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore. The three adult jobs from the map don't work too well when the adult has vanished, so I started looking for a way to have an adult there before I could reliably be that adult myself.\n\nThe image below maps out the details as best as I can fit:",
+  "preservation": {
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "claim_changes": "none",
+    "notes": [
+      "All 17 frozen Episode 007 preservation units remain represented.",
+      "Protective-parts interference remains present.",
+      "Loss of adult perspective after reaching/entering the child-state remains present and is now the dominant thought.",
+      "All 690 previously Human/high UI words are unchanged.",
+      "The 50-word sentence beginning 'The three adult jobs from the map...' remains byte-for-byte unchanged from R8E.",
+      "No new memory, named person, symptom, chronology, spiritual claim, or therapeutic fact was added."
+    ]
+  },
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT / saturated",
+    "strongest_candidate_1": {
+      "span": "Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him...",
+      "diagnosis": "The sentence still contains a chronological sequence of protective-part interference, access, and deeper identification; preserve-with-reason because the sequence is the actual source mechanism rather than a categorical list, and the protective part is now subordinate to the loss of adult position.",
+      "disposition": "preserve-with-reason"
+    },
+    "strongest_candidate_2": {
+      "span": "...there wasn't a grown-up me around anymore. The three adult jobs from the map don't work too well when the adult has vanished...",
+      "diagnosis": "The two sentences touch the same state, but they perform different jobs: the first reports the lived state and the known-Human next sentence supplies its practical consequence. The next sentence is frozen known-green text.",
+      "disposition": "preserve-with-reason"
+    },
+    "strongest_candidate_3": {
+      "span": "being him",
+      "diagnosis": "This is compressed identity language, but it directly realizes the protected child-state identification more concretely than an abstract phrase such as 'loss of adult perspective.'",
+      "disposition": "preserve-with-reason"
+    },
+    "listicle_check": "PASS",
+    "register_check": "PASS_PROVISIONAL",
+    "recursive_mini_essay_check": "PASS_PROVISIONAL",
+    "owner_delivery_admission": "PASS_PROVISIONAL_SAME_CONTEXT",
+    "largest_remaining_weakness": "Same-context saturation. This exact local repair now requires owner boundary testing; if it remains AI/high, same-context generation for Episode 007 is exhausted under the existing stop rule.",
+    "detector_status": "not run; owner exact-boundary check next"
+  },
+  "precall_receipt": {
+    "mode": "production humanization / non-authoritative article experiment",
+    "natural_boundary": "My Journey through image handoff",
+    "preservation_proof": "PASS",
+    "architecture_coherence": "PASS_PROVISIONAL",
+    "remaining_model_shape_issue_actually_believed": "none substantive in the changed residual after local repair",
+    "would_ai_result_surprise_same_context_editor": "yes, subject to saturated-context limitation",
+    "exact_text_sha256": "10edc05c65b42876eb4f179fef6d9294faf72c2ac020f7a31ff520a2884ed9da",
+    "detector_eligibility": "ELIGIBLE_FOR_OWNER_EXACT_BOUNDARY_CHECK"
+  }
+}

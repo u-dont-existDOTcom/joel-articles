@@ -1,0 +1,22 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-anchored-i-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / REGRESSION",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-I-20260918.md",
+    "reader_visible_sha256": "36c2a392d2628ce3204363366837120638014097b50d6ffa06fdb33753419924",
+    "runner_word_count": 276
+  },
+  "result": {
+    "headline": "AI Detected",
+    "fraction_ai": 0.4466216266,
+    "fraction_human": 0.5533784032,
+    "record_prediction_probability": 0.3706013858,
+    "report_body_summary": "AI-generated content appears throughout"
+  },
+  "comparison": {
+    "anchored_h_ai": 0.3021335304,
+    "anchored_i_ai": 0.4466216266,
+    "interpretation": "Candidate I regressed. Revert to H as the control and try a different opening-only mutation rather than carrying I forward."
+  }
+}

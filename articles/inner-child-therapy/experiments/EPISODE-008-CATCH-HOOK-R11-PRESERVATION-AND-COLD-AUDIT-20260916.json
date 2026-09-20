@@ -1,0 +1,89 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-catch-hook-r11-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-R11-OWNER-LOCK-PLUS-REMAINDER-20260916.md",
+  "candidate_sha256_no_terminal_newline": "9216e48d3cc0be9036affcdd8fc1ab9b2402bbd53338e39398e49c67f5932a7e",
+  "whitespace_words": 336,
+  "owner_lock": {
+    "status": "LOCKED VERBATIM",
+    "description": "The owner's final three-paragraph Catch-the-Hook realization is preserved byte-for-byte inside the candidate and was owner-reported Human/high. Only source-required remainder functions not covered by that local realization were added around it."
+  },
+  "preservation": {
+    "source_freeze": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json",
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "mappings": [
+      {
+        "source_function": "notice hook before requiring child/protector/origin identification; preserve bodily/behavioral activation examples",
+        "candidate": "owner-final first paragraph: hook may be noticed before part identity; jaw/stomach/text example; parts detective work deferred"
+      },
+      {
+        "source_function": "Pema Chodron attribution + shenpa concept",
+        "candidate": "owner-final exact attribution retained"
+      },
+      {
+        "source_function": "orient/notice hook; unless immediate safety requires action, pause one to three breaths",
+        "candidate": "owner-final second paragraph: look around, acknowledge hook, danger exception, breath or three"
+      },
+      {
+        "source_function": "identify needed adult function and take one small adult action or wait/continue day",
+        "candidate": "owner-final warmth and Protector lines; added Guide 'not yet' line; added ten-minutes-later indifference as a natural continue-day exit"
+      },
+      {
+        "source_function": "next-ten-minutes harm reduction: do not say/send/consume/promise/decide while highly activated",
+        "candidate": "added ten-minute paragraph: text remains unsent; drink/promise/large relationship decision wait; owner line 'finish whatever you were doing' carries immediate say/do restraint"
+      },
+      {
+        "source_function": "hook is not a truth detector; present grievance and old activation can coexist",
+        "candidate": "owner-final third paragraph explicitly states a real crossed boundary may coexist with old material"
+      },
+      {
+        "source_function": "observation/sensation versus judgment",
+        "candidate": "owner-final stomach-tightening -> 'They're evil' jump"
+      },
+      {
+        "source_function": "literal words present at the time versus later verbal translation; later words can still support understanding",
+        "candidate": "added final paragraph asks whether 'They're evil' was literally present; later wording remains usable without being retrojected into the original moment"
+      },
+      {
+        "source_function": "one breath may suffice; worsened orientation/function/compulsion calls for stop + external support",
+        "candidate": "owner-final breath-or-three includes one-breath sufficiency; added final safety line covers more-gone orientation, daily-life/function worsening, stickier urge, stop and grounded external support"
+      }
+    ],
+    "owner_authorized_reauthoring": [
+      "explicit authorial departure from New Age self-created-problems framing",
+      "celebratory/free-honesty response to noticing the hook",
+      "being/not-doing line and emojis",
+      "owner-selected wording, example weighting, and local sequencing within the three locked paragraphs"
+    ],
+    "claim_or_certainty_changes_not_owner_authorized": "none"
+  },
+  "cold_audit": {
+    "context": "same-context / saturated; not independent",
+    "conclusion": "PROVISIONAL PASS FOR OWNER TEST",
+    "strongest_attacks": [
+      {
+        "span": "If you can give it ten minutes... Sometimes ten minutes later you don't even care anymore.",
+        "diagnosis": "Source-required acute harm-reduction functions can still resemble a compact micro-protocol.",
+        "disposition": "preserve-with-reason",
+        "reason": "The paragraph is subordinate to the owner material, centers the socially simple Guide function 'not yet', and lets the practical list trail instead of turning it into a conceptual explanation."
+      },
+      {
+        "span": "Also, was 'They're evil' actually a sentence in your head...",
+        "diagnosis": "The literal-words versus later-translation distinction can sound editorially tidy.",
+        "disposition": "preserve-with-reason",
+        "reason": "It stays inside the owner's existing concrete example, uses an ordinary question, and stops without abstractly restating the epistemic principle."
+      },
+      {
+        "span": "And if doing all this leaves you more gone than when you started...",
+        "diagnosis": "Safety aftercare can revert to clinical/manual register.",
+        "disposition": "preserve-with-reason",
+        "reason": "The line is compressed around one lived condition ('more gone than when you started') and subordinates function/urge consequences rather than presenting a screening checklist."
+      }
+    ],
+    "owner_delivery_admission": "PASS",
+    "pangram": "NOT RUN",
+    "next_action": "Owner tests the complete Catch-the-Hook subsection or inspects it before reintegration. Preserve the locked Human/high owner block regardless of detector results on added remainder material unless a concrete editorial issue exists."
+  }
+}

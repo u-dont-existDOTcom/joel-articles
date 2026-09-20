@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-16",
+  "status": "ACTIVE OWNER DELIVERY RULE",
+  "scope": "Inner Child Therapy manual humanization loop; reusable for owner-facing candidate delivery unless Joel explicitly requests fragments",
+  "owner_correction": "Stop giving cut-and-paste replacement jobs instead of the whole text. When a candidate is revised, deliver the complete integrated passage/section for checking rather than isolated replacement snippets.",
+  "rule": "Owner-facing candidate delivery must include the full integrated text of the current natural boundary. Fragments may be used in the audit explanation to identify objections/repairs, but they do not substitute for the complete final candidate. Only omit the full text when Joel explicitly asks for isolated fragments or the artifact is exceptionally long and a file/artifact is provided instead.",
+  "reason": "The owner should not have to reconstruct the candidate or manually splice multiple replacements before testing/reviewing it.",
+  "current_application": "Episode 007 R8B is delivered as one complete My Journey section through the image handoff."
+}

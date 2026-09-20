@@ -1,0 +1,42 @@
+{
+  "episode_id": "inner-child-my-journey-007-blind-audit-before-screenshot-20260916",
+  "status": "FROZEN_BEFORE_SCREENSHOT_INSPECTION",
+  "audited_candidate_sha256_no_terminal_newline": "ef3c4e5cc051ad3b9d3657f4e7bc2fa118156d9b8d32859d7760d79aa7d3e30a",
+  "owner_instruction": "Do not inspect the detector screenshot until after independently guessing which parts still look AI-shaped.",
+  "predicted_strongest_ai_shaped_regions": [
+    {
+      "span": "The opening from 'The old childhood stuff can keep running your life...' through 'Dalai Lama as one example.'",
+      "diagnosis": "After a strong lived opening, the prose turns into generalized thesis -> label/definition -> population generalization -> example/citation. Academic explanatory register replaces the felt child-state."
+    },
+    {
+      "span": "If all you're ever doing is managing the hurt kid... through ...whether something deeper is possible can become very hard to ignore.",
+      "diagnosis": "Two abstract synthesis paragraphs: therapy-versus-spirituality horizon, then balanced caveat/qualification. Strong mini-essay closure and elevated register."
+    },
+    {
+      "span": "A helper can see something you can't see and still be wrong about you... through the Pema Chodron sentence.",
+      "diagnosis": "Balanced helper-authority aphorisms followed by evidence/citation packaging; reads like a responsible therapist/explainer paragraph."
+    },
+    {
+      "span": "Spiritual practice can change how pain feels... through ...has stopped protecting the child.",
+      "diagnosis": "Neat principle -> outside-problem rule -> safety case -> moral conclusion sequence. Content is useful, but packaging is conspicuously complete and instructional."
+    },
+    {
+      "span": "Disagreement is not automatically resistance to healing... through ...doing adulthood correctly.",
+      "diagnosis": "Generalized therapy-boundary language and a polished autonomy test; formal/clinical register compared with the intended reader who still feels like a child."
+    },
+    {
+      "span": "Borrow adulthood. Do not surrender it. The right helper stands beside you... hands your life back.",
+      "diagnosis": "Clipped antithesis plus polished maxim/closure; strong model cadence even if rhetorically effective."
+    },
+    {
+      "span": "That's how the method grew beyond... through ...Borrowed adulthood is what I was missing for that last problem.",
+      "diagnosis": "Retrospective method recap turns the personal story back into a compact conceptual inventory and explanatory conclusion."
+    }
+  ],
+  "predicted_more_human_regions": [
+    "The broke/starving baby and food-bank analogy, especially Understandable/Unforgivable.",
+    "The no-self paragraph beginning 'If you grew up learning that what you wanted didn't matter...' because it stays close to the felt trap and speaks directly to the reader.",
+    "The autobiographical depression/metta and later inner-child/San Pedro/CBD/mapacho paragraphs because chronology and specific lived stakes drive the prose rather than an explanatory framework."
+  ],
+  "overall_blind_verdict": "FAIL_OWNER_DELIVERY_ADMISSION. The previous same-context audit passed too much model-shaped material. The section still contains multiple abstract mini-essays and therapist/explainer passages despite no overt listicles."
+}

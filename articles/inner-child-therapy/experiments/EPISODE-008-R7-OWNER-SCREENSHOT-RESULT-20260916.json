@@ -1,0 +1,38 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r7-owner-screenshot-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R7-SENTENCE-GUIDE-APPLICATION-20260916.md",
+  "reader_text_sha256_writer_state": "2ccea4ed22e6755b4fc1a15eb3396aa1ec042e56b17fd7de21b6d1ef8108530e",
+  "detector": "Pangram 4 UI / owner screenshot",
+  "reported_at_utc": "2026-09-16T19:25:00Z",
+  "ui_total_words": 1719,
+  "segments": [
+    {
+      "label": "AI",
+      "confidence": "High",
+      "ui_words": 334,
+      "visible_start": "# Before You Try to Go Deep If you feel..."
+    },
+    {
+      "label": "Human Written",
+      "confidence": "Medium",
+      "ui_words": 32,
+      "visible_start": "Sometimes you need more bottom-up..."
+    },
+    {
+      "label": "AI",
+      "confidence": "High",
+      "ui_words": 1353,
+      "visible_start": "If your body is still too clenched for tal..."
+    }
+  ],
+  "displayed_word_share": {
+    "ai_words": 1687,
+    "human_words": 32,
+    "ai_fraction_by_ui_word_share": 0.981384526,
+    "human_fraction_by_ui_word_share": 0.018615474
+  },
+  "interpretation": "R7 did not improve the long-boundary detector outcome despite a faithful delayed application of the positive sentence-level repair table. The text-first prediction frozen before deliberate screenshot inspection matched the observed topology closely: a broad AI opening, a tiny concrete somatic Human island, and a broad AI tail beginning at the roadmap transition. The 32-word Human island is the paragraph beginning 'Sometimes you need more bottom-up help than that'. The preceding specific somatic massage paragraph is inside the red window in this boundary despite having been part of an earlier known-Human island, so the red window is contextual/distributed evidence and does not by itself authorize rewriting that paragraph.",
+  "next_strategy": "Do not broad-rewrite or request a rough owner audio yet. Freeze the current Human island and prior known-green somatic wording. Use a new minimal-repair instruction pass on high-leverage red scaffolding and section-level closures, preserving the literal sentence/span -> operation -> concrete positive target method across a turn boundary. If owner supplies minimal same-thought repairs, capture them as aligned teaching evidence; this is cleaner generation learning than a broad audio reauthoring that may add/reroute thought.",
+  "production_disposition": "REJECT_R7_FOR_DETECTOR_TARGET; CONTINUE_MINIMAL_REPAIR_METHOD_WITHOUT_PANGRAM_REPEAT"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-humanization-recovery-20260918-0037",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "integration_base_sha": "1ac521443c6a63e2022f51896f5fade83e8b841f",
+  "scope": "Recover the model-only Inner Child humanization method after owner correction; do not mutate the integration branch or parallel R17 writer branch.",
+  "writer_role": "supervisor / humanization-method recovery",
+  "parallel_r17_lane": "separate; read only through durable GitHub reconciliation",
+  "created_at_utc": "2026-09-18T00:37:41+00:00"
+}

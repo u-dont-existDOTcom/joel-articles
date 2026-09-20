@@ -1,0 +1,18 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-r5-h1-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0 / REGRESSION",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H1-20260918.md",
+    "reader_visible_sha256": "ecc23762e46c0916297cafc8ea3a943d19c6e6e1e45ac1bafae9cf6eb940c456",
+    "runner_word_count": 195
+  },
+  "result": {
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.9708775282
+  },
+  "baseline_probability": 0.9357032776,
+  "interpretation": "Middle-paragraph rewrite worsened the continuous AI probability. Revert the R5 middle paragraph exactly and probe another region.",
+  "repeat_policy": "Do not repeat H1."
+}

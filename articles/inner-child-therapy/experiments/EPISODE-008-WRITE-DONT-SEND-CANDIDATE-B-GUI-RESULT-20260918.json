@@ -1,0 +1,18 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-candidate-b-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-CANDIDATE-B-20260918.md",
+    "reader_visible_sha256": "55ac3bc1418cf873b5aca41826d8863970408c6a7e45ebf108de3e398e32d682",
+    "runner_word_count": 234
+  },
+  "result": {
+    "headline": "AI Generated",
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.9999877214
+  },
+  "method_implication": "Second broad realization is also all-AI. Do not preserve any Candidate B model span; change the pragmatic architecture again.",
+  "repeat_policy": "Do not repeat exact Candidate B."
+}
