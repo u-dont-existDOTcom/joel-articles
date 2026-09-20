@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "promotion_id": "inner-child-write-it-p1-owner-final-20260920",
+  "status": "PROMOTED_TO_CURRENT_OWNER_LOCK_PENDING_MASTER_RECONCILIATION",
+  "article_id": "inner-child-therapy",
+  "artifact": {
+    "prior_text": "Write the reply you keep having in your head. Just don't send it. Don't clean it up while you're writing it. They aren't reading it. Get to the end, close it, and come back later.",
+    "prior_sha256": "191b002cd6807bbc2ce79c5ec3866b37d5a877cd02915bcbbdf0674a2578a23c",
+    "prior_authority_class": "recovered_chat_only_saved_current_candidate_not_owner_final",
+    "promoted_text": "If you've got something burning you up that you wanna say, write it out as a reply. There. That got it out. Ahh. Breathing easier. But don't send it. Take that breather you earned and then come back to it from a cooler place.",
+    "promoted_sha256": "fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392",
+    "promoted_authority_class": "direct_owner_final_correction"
+  },
+  "destination": {
+    "authority_role": "owner_final_paragraph_lock_pending_registered_master_reconciliation",
+    "heading": "Write It. Don't Send It Yet.",
+    "paragraph_role": "P1",
+    "review_assembly_path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md"
+  },
+  "acceptance": {
+    "authority_actor": "Joel Rosenblum",
+    "evidence": "Direct current-chat rewrite after confirming recovered candidate B fit best but still read AI-shaped.",
+    "accepted_at": "2026-09-20"
+  },
+  "supersession": {
+    "displaced_artifact_sha256": "191b002cd6807bbc2ce79c5ec3866b37d5a877cd02915bcbbdf0674a2578a23c",
+    "disposition": "SUPERSEDED",
+    "stale_rough_cognition_disposition": "SOURCE_ONLY_NOT_ARTICLE_P1"
+  },
+  "detector": {
+    "status": "NOT_RUN",
+    "reason": "44-word untouched natural owner prose; short-boundary detector evidence would not change authority or editorial decision."
+  },
+  "registration": {
+    "status": "PENDING_NEW_SUBSTACK_SOURCE",
+    "reconciliation_rule": "Compare exact P1 against the newly supplied Substack source. Newer direct source differences supersede this lock only through explicit reconciliation."
+  }
+}
