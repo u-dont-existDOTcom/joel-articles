@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "status": "registration_pending",
+  "checks": [
+    {
+      "id": "exact-master-materialization",
+      "status": "blocked",
+      "evidence": "Owner source identified at 153734 bytes / SHA-256 5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1 but not yet materialized in GitHub."
+    },
+    {
+      "id": "article-registration",
+      "status": "blocked",
+      "evidence": "articles/INDEX.json must not be updated until master.html exists and exact hash readback passes."
+    },
+    {
+      "id": "humanization-state-provenance",
+      "status": "passed",
+      "evidence": "2026-09-20 state repair demoted rough Write-It owner cognition and restored unresolved authority where exact promotion could not be proven."
+    }
+  ],
+  "owner_final_boundary": "No whole-article owner-final claim. Initial registration will create working authority only.",
+  "detector_role": "Detector evidence is secondary and never promotes experimental prose into article authority."
+}
