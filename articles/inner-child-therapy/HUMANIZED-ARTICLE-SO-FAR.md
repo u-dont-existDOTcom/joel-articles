@@ -99,3 +99,11 @@ Yeah, I mean, this happens all the time. I'll be writing out a reply to someone 
 It doesn't mean you need to hide your upset, or apply for a permit to protest, but choose your battles and execute them wisely, so you don't end up regretting how you communicated later. As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), a war with no casualties is the best possible war. When high IQ & EQ communication hits a writer's block, sometimes the best thing is to simply say, "I need some time to think about my response." And if the conflict really requires a response right now, then obviously just do your best rather than wait for the perfect timing.
 
 <!-- P3 remains unresolved. A bounded owner-authorized Railway Agent search completed 20 generations; seven structurally varied candidates were Pangram-tested and all seven returned AI 1.0 / Human 0.0 with exact History binding. Do not insert any Railway P3 candidate here or reopen completed P1/P2. See HUMANIZATION-RECOVERY-STATE-20260919AH.md and EPISODE-008-WRITE-DONT-SEND-P3-RAILWAY-20-SEARCH-RESULT-20260919.md. -->
+### When Healing Turns Into Checking
+
+<!-- The preceding checking/return-to-life material remains unresolved and is intentionally not reconstructed here. -->
+
+Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, and how would I know if it's helping?" This sovereign, gently curious stance should apply to everything in life. Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy, just like real growing up is not something you do forever. And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.
+
+<!-- The following ritual-warning material and later sections remain unresolved. -->
+
