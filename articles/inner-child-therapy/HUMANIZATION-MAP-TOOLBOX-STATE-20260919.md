@@ -1,3 +1,9 @@
+## 2026-09-20 checking sentence-engineering stop
+
+True sentence/span engineering was executed after three tell-ledger iterations. R13 model-only section and long paragraph remained Pangram AI 1.0; R14's final local residual also remained AI 1.0 and regressed on the detector's internal prediction score. Exact evidence: `experiments/CHECKING-R13-R14-RESULT-OWNER-HELP-GATE-20260920.md`.
+
+Same-context local rewriting on this paragraph is now stopped under the method-escalation rule. The next decision-relevant evidence is one free same-meaning owner rewrite of the 81-word original discrimination paragraph. That rewrite will be teaching evidence, not publication work delegated to Joel: the required next model proof is transfer to a different paragraph whose wording Joel has not supplied.
+
 ## 2026-09-20 map-fit and scale correction
 
 Owner correction: the failed checking experiment used the wrong rhetorical map and then expanded a 29-word complete thought into 60+ words, recreating model overcompletion. Candidate D is withdrawn before detector work. Maps now constrain thought relations, **not target length**; source scale is preserved unless an unsatisfied meaning/function requires expansion. Short prose is never padded merely to make the map visible or to cross a Pangram threshold.
