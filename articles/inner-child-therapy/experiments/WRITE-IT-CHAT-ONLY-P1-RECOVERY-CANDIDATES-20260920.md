@@ -55,3 +55,49 @@ Before either candidate is used as current article context:
 - show both candidates if still relevant;
 - obtain current explicit Joel selection/correction;
 - save exact selected bytes with a promotion receipt.
+
+
+## Recovered chronology from prior conversation state
+
+This chronology is recovered conversation evidence, not article authority.
+
+### Earlier detector endpoint — Candidate K, 2026-09-18
+
+> Write the angry response somewhere private first. Don't send it yet.
+
+This was the first paragraph of anchored Candidate K, whose **whole 234-word subsection** tested Pangram Human 1.0. Later work correctly separated detector-boundary success from genuine paragraph-level/model-learning success.
+
+### September 19 saved candidate A
+
+At approximately 03:08 UTC the assistant described this as saved article output:
+
+> Write the reply you actually want to give them, without sending it. You can say it in your head instead. For now, let yourself get through what you have to say, even if you wouldn't want them to read all of it. And if you need to protect yourself now, do that rather than waiting until you've worked out the reply.
+
+No explicit Joel acceptance/rejection was recovered.
+
+### September 19 later saved/current candidate B
+
+At approximately 03:38 UTC the assistant explicitly called this the **current candidate** and said it was durably saved:
+
+> Write the reply you keep having in your head. Just don't send it. Don't clean it up while you're writing it. They aren't reading it. Get to the end, close it, and come back later.
+
+No explicit Joel acceptance/rejection was recovered.
+
+### Later rough-owner cognition
+
+The later paragraph beginning:
+
+> Yeah, I mean, this happens all the time...
+
+was supplied by Joel as rough thought-shape input after model failures. It was then normalized near-verbatim for Candidate O and tested Human 1.0. That later experiment did not erase the earlier saved/current candidate merely because its detector result was strong.
+
+## Best current reconstruction
+
+Absent a direct current owner correction, the **best-supported intended saved P1 before the stale-state promotion was candidate B**, because:
+- it is later than candidate A;
+- it was explicitly called the `current candidate` and durably saved;
+- the rough-owner Candidate O was provenance-labeled as thought-shape/experimental input, not a deliberate replacement article paragraph.
+
+This remains a reconstruction from conversation evidence, not canonical authority.
+
+Owner confirmation should promote exact B bytes or supply a correction.
