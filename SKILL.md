@@ -13,7 +13,7 @@ Use this skill only for work intended for Joel Rosenblum's byline and related ar
 
 Direct Joel rewrites supersede model candidates. Chat, Project memory, File Library copies, rendered previews, old helpers, and detached drafts are working context only and never override registered Git authority.
 
-This repository now has registered article authority: `articles/INDEX.json` currently registers **Romance** and **Somatic Therapies** as working articles. For any registered article, load its registered current state/master/locks/evidence from the registry and never infer a newer master from chat, filenames, summaries, Project Sources, historical Pangram branches, or an external packet.
+This repository now has registered article authority: `articles/INDEX.json` currently registers **Romance**, **Somatic Therapies**, and **Inner Child Therapy** as working articles. For any registered article, load its registered current state/master/locks/evidence from the registry and never infer a newer master from chat, filenames, summaries, Project Sources, historical Pangram branches, or an external packet.
 
 At the start of substantial work read this file, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`, then load only the least additional task-relevant material.
 
