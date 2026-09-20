@@ -1,3 +1,15 @@
+# 2026-09-20 correction — natural corpus reset and exact owner evaluation
+
+Joel confirms that M06 and M13 were his Pangram-oriented rewrites of AI prose, not natural unaided writing. Those two are excluded from natural-map calibration, and other Somatic-derived cards are quarantined pending passage-specific provenance. The prior evaluation candidate is also fidelity-rejected because it reduced the purpose + evidence question to a hoped-for change on another attempt.
+
+Exact owner replacement has been inserted in the review assembly under `### When Healing Turns Into Checking`; it is owner-reported Human / medium confidence and classified as owner reauthoring, not same-thought style transfer.
+
+A newly uploaded `5-MeO-DMT ("Bufo") Guide` is directly confirmed by Joel as written without AI. Exact PDF SHA-256 `54a48f2e187c8c8dec99617e11a48d6e3e5e0641c9a40cadbeeaf0cd6c7d3b6e`. Six source-linked structural instances are recorded in `experiments/NATURAL-SOURCE-5MEO-GUIDE-MAPS-20260920.md`. Its health/drug claims are calibration content only, never factual authority for Inner Child prose.
+
+Next method work must retrieve maps only from securely natural owner sources or clearly labeled pre-LLM owner writing. Show every donor passage and provenance with the target before/after. Continue experimentation on unresolved model prose; do not use owner reauthoring as proof of model learning.
+
+---
+
 # Current continuation — owner-calibrated source disclosure and accepted readiness
 
 2026-09-19. This section supersedes earlier pending-readiness and next-action language retained below as history.
