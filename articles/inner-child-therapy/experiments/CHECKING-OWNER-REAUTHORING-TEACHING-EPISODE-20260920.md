@@ -1,6 +1,6 @@
 # Checking owner rewrite teaching episode — 2026-09-20
 
-Status: **DIRECT OWNER REAUTHORING / EXACT BYTES PRESERVED / NOT A CLEAN SAME-THOUGHT STYLE PAIR**
+Status: **CONTEXT-LIMITED OWNER REAUTHORING / EXACT BYTES PRESERVED / NOT YET ELIGIBLE AS A CLEAN PARAGRAPH-LEVEL TEACHING PAIR**
 
 Authority boundary: Inner Child Therapy remains unregistered/non-authoritative.
 
@@ -94,3 +94,29 @@ It must not receive the target's preservation ledger as a prose outline.
 Then apply the full hard delivery admission:
 `plain-reader -> fidelity -> architecture -> AI-shape -> second cold read -> preservation -> Pangram`.
 
+
+
+## 2026-09-20 context correction
+
+Joel later established a standing rule that he needs the surrounding context in order to write well.
+
+The checking rewrite above was elicited without showing the complete neighboring section in the same owner-help turn. In particular, the owner was not shown the downstream exact owner paragraph that already carries:
+- how to know whether the practice is helping;
+- initial progress markers;
+- daily-life improvement;
+- reduced need for therapy;
+- improvement in the inner-child / inner-adult relationship;
+
+nor the final ritual-stop paragraph.
+
+Therefore this rewrite remains valuable owner cognition, but its omissions cannot yet be interpreted solely as a general authorial preference to drop those functions. Some omissions may simply reflect the unseen surrounding text already carrying them.
+
+Revised classification:
+**CONTEXT-LIMITED OWNER REAUTHORING**.
+
+Do not:
+- promote its thought route as a production skill by itself;
+- infer that Joel would make the same omissions in a different placement;
+- use it as a clean same-thought realization pair.
+
+Next valid owner elicitation must show the complete relevant section and identify suspected duplicate functions before asking for any further rewrite.
