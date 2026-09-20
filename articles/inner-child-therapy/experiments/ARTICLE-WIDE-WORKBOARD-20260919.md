@@ -1,6 +1,8 @@
 # Inner Child Therapy — article-wide workboard
 
-2026-09-19. **Partial body coverage; complete recorded H1 inventory.** This is an editorial/evidence workboard, not an article master or a new humanization protocol.
+2026-09-19. **Partial body coverage; complete recorded H1 inventory.** This is a historical editorial/evidence workboard, not an article master, not current article authority, and not a new humanization protocol.
+
+**2026-09-20 provenance correction:** the `current_assembly` label below means only that a block was present in the then-current review snapshot. It does **not** prove owner acceptance, owner-final status, or current authority. In particular, the first `Write It. Don't Send It Yet.` paragraph in that snapshot was a near-verbatim normalization of Joel's **rough cognition** used for an experiment. Recovery state Q temporarily called it P1 `solved` after a Human detector result, but recovery state R superseded Q and explicitly restored the subsection to **unresolved**. Do not treat that paragraph as the final/saved article paragraph.
 
 The owner asked to broaden work across sections and paragraphs rather than repeatedly optimize one paragraph. This board separates that larger field of view from the smaller exact unit edited or measured.
 
@@ -9,7 +11,7 @@ The owner asked to broaden work across sections and paragraphs rather than repea
 Machine-readable companion: `ARTICLE-WIDE-COVERAGE-20260919.json`.
 
 - 19 top-level source headings, from the repository's source-structure inventory.
-- 33 blocks in the current accepted/locked review assembly.
+- 33 blocks in a historical review assembly snapshot. Some blocks are owner/current and some are experimental; the snapshot itself is not an authority classification.
 - 11 additional unresolved R5 blocks in readiness, body regulation, and checking.
 - Total: 43 prose paragraphs and one numbered-list block. These are **not all the paragraphs in the full article**.
 - Nine exact standalone cached paragraph results joined by submitted-text SHA: seven Human and two AI. Six of those Human results are current My Journey paragraphs; the other is near-verbatim owner-derived Write It P1. These are different authorship/provenance classes, not seven examples of autonomous generation.
@@ -88,4 +90,4 @@ This turn the previously blocked C write succeeded unchanged through the same no
 
 ## Current article disposition
 
-No new candidate is accepted or inserted. The review assembly remains byte-identical to the starting blob `7b0b21d6a8fdfd527a3deeb730b82c671b76e1e5`. P3 remains editorially unresolved despite its earlier standalone Human score. Owner meaning, paragraph-level evidence and editorial acceptance remain separate.
+No new candidate is accepted or inserted. The historical review assembly remains byte-identical to the starting blob `7b0b21d6a8fdfd527a3deeb730b82c671b76e1e5`, but that blob is **not** authoritative article state. `Write It. Don't Send It Yet.` remains unresolved; its rough-owner P1 must not be treated as final merely because it tested Human. P3 remains editorially unresolved despite its earlier standalone Human score. Owner meaning, rough cognition, paragraph-level detector evidence, article placement, and editorial acceptance remain separate.
