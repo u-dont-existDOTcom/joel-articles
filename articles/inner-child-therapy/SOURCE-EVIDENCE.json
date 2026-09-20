@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "status": "registration_pending_exact_master_materialization",
+  "claims": [
+    {
+      "id": "owner-raw-source-identity-20260915",
+      "claim": "Joel supplied the raw Substack editor body as the authoritative working source for Inner Child Therapy on 2026-09-15.",
+      "support": {
+        "path": "articles/inner-child-therapy/SOURCE-IMPORT-RECEIPT-20260915.md",
+        "source_surface": "raw_substack_editor_body_html",
+        "source_bytes": 153734,
+        "source_sha256": "5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1",
+        "structure_inventory": "articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260915.json"
+      },
+      "access_status": "source_identified_not_yet_materialized_as_master",
+      "certainty": "owner-supplied exact source identity"
+    }
+  ],
+  "source_files": [
+    {
+      "role": "source_import_receipt",
+      "path": "articles/inner-child-therapy/SOURCE-IMPORT-RECEIPT-20260915.md"
+    },
+    {
+      "role": "source_structure_inventory",
+      "path": "articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260915.json",
+      "source_sha256": "5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1"
+    }
+  ],
+  "external_claim_review": {
+    "status": "pending",
+    "note": "Initial registration establishes working content authority only; claim/citation verification remains separate."
+  }
+}
