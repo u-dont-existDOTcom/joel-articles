@@ -10,6 +10,16 @@ Next method work must retrieve maps only from securely natural owner sources or 
 
 ---
 
+## 2026-09-20 natural-source transfer result
+
+Two new model-written paragraphs were produced using maps from the directly owner-confirmed, no-AI 5-MeO guide and tested alone through Pangram 4.0 GUI:
+- checking-opening / 5M01 recurrent-question map: **AI 1.0**;
+- orientation / 5M05 direct-application+caveat map: **AI 1.0**.
+
+Exact results: `experiments/NATURAL-MAP-TRANSFER-5MEO-RESULTS-20260920.json`.
+
+This falsifies the idea that simply selecting a natural Joel paragraph map is enough to pull generation out of the model attractor. Do not respond with more map-only holistic rewrites. Keep the natural map as the macro thought-relation constraint, then use the previously successful sentence/span engineering representation for the actual repair. The next candidate must survive preservation and cold editorial review before another detector call.
+
 # Current continuation — owner-calibrated source disclosure and accepted readiness
 
 2026-09-19. This section supersedes earlier pending-readiness and next-action language retained below as history.
