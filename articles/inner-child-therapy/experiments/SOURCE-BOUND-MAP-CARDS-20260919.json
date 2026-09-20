@@ -20,7 +20,8 @@
       "symbolic_relation_map": "CLAIM > ORIGIN{named source, accidental discovery, independent encounter} > REPORTED-CONSEQUENCE",
       "sentence_clause_annotation": "S1 claim. S2 stays inside the origin story through multiple clauses. S3 completes that evidence, not a separate moral.",
       "selection_condition": "Use when a source origin legitimately explains why this claim exists.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "QUARANTINED from natural-writing maps until passage-specific provenance is established",
+      "natural_map_eligible": false
     },
     {
       "id": "M02",
@@ -34,7 +35,8 @@
       "symbolic_relation_map": "REVERSAL{book knowledge insufficient} ~ VARIATION{short case, longer open accumulation} ~ ANALOGY > PRACTICAL-RETURN",
       "sentence_clause_annotation": "S1 changes the mode from reading to practice. S2/S3 dwell on the same variability with unequal duration. S4 extends it through an analogy. S5 keeps the analogy active through an aside before returning.",
       "selection_condition": "Use when genuine variation makes a fixed prescription inadequate; do not invent an analogy solely to fill a slot.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "QUARANTINED from natural-writing maps until passage-specific provenance is established",
+      "natural_map_eligible": false
     },
     {
       "id": "M03",
@@ -48,7 +50,8 @@
       "symbolic_relation_map": "QUALIFIED-PATTERN{actual finite list} > WHY-ROUGH{two dimensions} ~ LIMIT{evidence, ownership} > PERSONAL-DESTINATION",
       "sentence_clause_annotation": "Multi-paragraph movement with a real list. The limitations modify the asserted map rather than balancing every item. This is not a single-paragraph template.",
       "selection_condition": "Use for a real provisional framework; not an excuse to force guide prose into a numbered inventory.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "QUARANTINED from natural-writing maps until passage-specific provenance is established",
+      "natural_map_eligible": false
     },
     {
       "id": "M04",
@@ -62,7 +65,8 @@
       "symbolic_relation_map": "SITUATION{reader role + resource contingency aside} > AVAILABLE-OPTIONS",
       "sentence_clause_annotation": "One sentence contains the reader condition, an unequal aside, and options. No introductory thesis or final takeaway surrounds it.",
       "selection_condition": "Use only with a real institutional/resource situation in target source.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "QUARANTINED from natural-writing maps until passage-specific provenance is established",
+      "natural_map_eligible": false
     },
     {
       "id": "M05",
@@ -76,21 +80,24 @@
       "symbolic_relation_map": "COMMON-MECHANISM ~ PROCESS-DETAIL ~ ONE-CONCRETE-INSTANCE",
       "sentence_clause_annotation": "Three sentences remain on what the approaches do. The last is an instance of the same mechanism, not a new semantic obligation.",
       "selection_condition": "Use to unpack a mechanism with a source-backed instance; do not generate an anecdote to satisfy the last node.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "QUARANTINED from natural-writing maps until passage-specific provenance is established",
+      "natural_map_eligible": false
     },
     {
       "id": "M06",
       "family": "C/E",
       "source_path": "articles/somatic-therapies/OWNER-ACCEPTED-TRAUMA-MEMORY-THERAPIES-20260904.md",
       "source_git_blob": "a032de2bbecd2537bd8818b66948fc67afd6e04c",
-      "source_provenance": "recorded direct owner-authored accepted section",
+      "source_provenance": "detector-targeted owner rewrite of AI prose; direct owner correction 2026-09-20",
       "literal_source": "Those therapies do show meaningful impact for many people in terms of reducing hyperarousal, and sometimes dissociation. But there are two main problems with them that\nPeter Levine, et al. have [explained](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00093/full). On the one hand, as Levine points out, exposure desensitization therapy can itself be re-traumatizing, which isn't well-captured in the positive evidence, because reasons for dropout and adverse events were often poorly or inconsistently reported. On the other hand, even when these trauma-memory approaches \"work,\" they are working against the body's understanding of things by creating new cognitive-behavioral patterns that suppress the old conditioned fear responses as they come up. That can produce a reduction of symptoms without solving the root of them.",
       "source_span_sha256": "c40842387ec942a47b8dbf378c2a7aacd64ca0002deb24f0a5e3fb5c35095cbc",
       "source_whitespace_words": 115,
       "symbolic_relation_map": "CONCESSION > LIVE-OBJECTIONS{A[cause + evidence-limit], B[apparent success + remaining mechanism]} > CONSEQUENCE",
       "sentence_clause_annotation": "The benefit receives less space than the two different objections. Each objection develops internally; they are not mirrored mini-essays.",
       "selection_condition": "Use where real benefits coexist with unequal unresolved problems. The target decides number/length of complications.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "EXCLUDED from natural-writing maps; retain as collaborative/detector-targeted editing evidence only",
+      "natural_map_eligible": false,
+      "previous_source_provenance": "recorded direct owner-authored accepted section"
     },
     {
       "id": "M07",
@@ -104,7 +111,8 @@
       "symbolic_relation_map": "PERSPECTIVE-REVERSAL ~ PREMISE ~ REINTERPRETATION > MODEL{named because useful; actual finite parts}",
       "sentence_clause_annotation": "Several explanatory sentences stay within the reversal before the model and its list enter. The list is external content, not decorative symmetry.",
       "selection_condition": "Use only when source supplies an alternative explanatory model. This donor includes a list and is a section movement.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "QUARANTINED from natural-writing maps until passage-specific provenance is established",
+      "natural_map_eligible": false
     },
     {
       "id": "M08",
@@ -118,7 +126,8 @@
       "symbolic_relation_map": "ATTRIBUTED-CLAIM ~ NEARBY-CASE{overlap, different role of same object}",
       "sentence_clause_annotation": "Two sentences; the second develops a comparison inside a long dependency rather than making matched pro/con cards.",
       "selection_condition": "Use for a genuine neighboring-case comparison; preserve whose claim it is.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "QUARANTINED from natural-writing maps until passage-specific provenance is established",
+      "natural_map_eligible": false
     },
     {
       "id": "M09",
@@ -132,7 +141,8 @@
       "symbolic_relation_map": "RETURN-QUALIFICATION{same authorities, narrower context} ~ PRACTICAL-TIMING > STOP",
       "sentence_clause_annotation": "One longer sentence reopens a limitation of the preceding claim and ends on its actual condition. No second sentence explains why that qualification was included.",
       "selection_condition": "Use when an already-stated argument needs a specific qualification, not a new miniature conclusion.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "QUARANTINED from natural-writing maps until passage-specific provenance is established",
+      "natural_map_eligible": false
     },
     {
       "id": "M10",
@@ -146,7 +156,8 @@
       "symbolic_relation_map": "PRESENT-EVENT{personal relation, circumstance} > VALUE-RESPONSE ~ TWO-PERSON-WISH",
       "sentence_clause_annotation": "A factual personal occasion prompts reflection and care. These are social acts, not alternating evidence and lesson.",
       "selection_condition": "Requires real owner-provenanced occasion. Never fill its event slot with invented autobiography.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "MIXED-SOURCE CANDIDATE: use only after exact span is reconciled to owner-confirmed natural segment",
+      "natural_map_eligible": false
     },
     {
       "id": "M11",
@@ -160,7 +171,8 @@
       "symbolic_relation_map": "PARADOX > EVENT{problem -> spontaneous response -> consequence} > RELATED-CASE ~ OPEN-CURIOSITY",
       "sentence_clause_annotation": "The event occupies a long central sentence. Another case extends rather than resolves the oddity. The final comment leaves the curiosity open.",
       "selection_condition": "Requires source-backed odd observation; not available for every instructional paragraph.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "MIXED-SOURCE CANDIDATE: use only after exact span is reconciled to owner-confirmed natural segment",
+      "natural_map_eligible": false
     },
     {
       "id": "M12",
@@ -174,21 +186,26 @@
       "symbolic_relation_map": "ORIGINAL-STAKE > UNDERESTIMATED-TASK{aside} ~ REVISION{old belief weakened, new options found} > INVITATION",
       "sentence_clause_annotation": "The long middle sentence contains interruption and two unequal effects of inquiry. Last sentence makes a real offer, not a takeaway.",
       "selection_condition": "Requires real epistemic history with a reader-facing function. Not permission to invent an I-researched narrative.",
-      "status": "manually recovered/annotated source instance, not a validated generative recipe; source claims are calibration only"
+      "status": "MIXED-SOURCE CANDIDATE: use only after exact span is reconciled to owner-confirmed natural segment",
+      "natural_map_eligible": false
     },
     {
       "id": "M13",
       "family": "B",
       "source_path": "articles/somatic-therapies/experiments/SOMATIC-OWNER-POSITIVE-THOUGHT-SHAPE-MAP-20260907.md",
       "source_git_blob": "d77be612110f4b403112e5ada7755c8e8559b2a6",
-      "source_provenance": "literal owner readiness realization quoted in the recovered map record; not new model prose",
+      "source_provenance": "detector-targeted owner rewrite of AI prose; direct owner correction 2026-09-20",
       "literal_source": "To know how ready you are for focused trauma work, ask yourself how stable you are, and whether you need to work on something specific, or a more broad feeling or pattern.",
       "source_span_sha256": "a8eb4871e8b4f6c8f37d771886b0ed06b1b2c9c546b055510150b6648d26057e",
       "source_whitespace_words": 32,
       "symbolic_relation_map": "PRACTICAL-PURPOSE > READER-DISCERNMENT{two live dimensions within one ongoing sentence} > STOP",
       "sentence_clause_annotation": "A single sentence carries purpose, action, and two dimensions; it is not three separate verdict sentences. No appended explanation of the rule.",
       "selection_condition": "Use for a real readiness/decision question whose dimensions are already in target source. A longer target may need an additional necessary action; do not drop it to copy this short contour.",
-      "status": "source-instance description, not an independently validated generator recipe"
+      "status": "EXCLUDED from natural-writing maps; retain as collaborative/detector-targeted editing evidence only",
+      "natural_map_eligible": false,
+      "previous_source_provenance": "literal owner readiness realization quoted in the recovered map record; not new model prose"
     }
-  ]
+  ],
+  "status": "NATURAL-CALIBRATION SUSPENDED pending provenance reconciliation; historical map descriptions retained",
+  "owner_correction": "2026-09-20: Joel confirms M06 and M13 were his detector-targeted rewrites of AI prose, not natural unaided writing. Other Somatic-derived cards require passage-specific provenance before natural-map use."
 }
