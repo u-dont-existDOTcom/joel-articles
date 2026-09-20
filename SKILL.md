@@ -99,6 +99,28 @@ For several changes, provide an ordered placement map. Prefer stable text anchor
 
 “Add this near X,” “this could go under Y,” or a paste-ready passage without an exact destination is incomplete. Do not make Joel rediscover the article architecture in order to use a recommendation. If the current article has not been inspected closely enough to establish a reliable anchor, inspect it before proposing the change.
 
+## Experiment-to-article promotion gate
+
+Experimental, detector, or review prose does **not** become current article prose merely because it:
+- scores Human on Pangram;
+- is called `solved`, `current`, `accepted`, or similar by an assistant;
+- appears in a rolling/review assembly;
+- receives no immediate owner objection;
+- preserves owner rough cognition closely;
+- is the newest-looking candidate.
+
+Promotion requires an explicit authority event binding:
+- the exact text/hash;
+- provenance class;
+- owner/editorial status;
+- exact article destination;
+- disposition of the displaced text;
+- the state/master/lock artifact that now carries it.
+
+Later superseding state must invalidate earlier `solved` or `current` labels. If an earlier state promotes a passage but a later controlling state restores the section to `unresolved`, all downstream assemblies/inventories must fail closed to `unresolved`.
+
+For unregistered articles, a `current_assembly`, review snapshot, experiment result, or historical rolling draft is never a substitute for registered authority. When exact current prose cannot be proven, report `AUTHORITY UNRESOLVED` and recover owner authority rather than selecting by filename, recency, detector result, or remembered chat.
+
 ## Owner prose, provenance, interviews, and source pools
 
 Reuse good owner prose freely in real article work. In explicit model-generation training experiments, first recover the thought and generate fresh syntax without borrowing Joel's realization, then compare.
