@@ -4,7 +4,7 @@ Updated: 2026-09-20
 
 ## Status
 
-**REGISTRATION PENDING — exact owner source identified; master bytes not yet materialized**
+**REGISTRATION PENDING — newer owner-updated Substack source announced; waiting for exact bytes**
 
 ## Intended registered authority
 
@@ -12,11 +12,11 @@ Updated: 2026-09-20
 - title: `Inner Child Therapy`
 - intended status: **working**
 - intended master: `articles/inner-child-therapy/master.html`
-- exact source bytes: **153,734**
-- exact source SHA-256: `5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1`
-- source surface: raw Substack editor body HTML
+- historical baseline source bytes: **153,734**
+- historical baseline SHA-256: `5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1`
+- intended current source surface: the newer raw Substack editor body Joel is preparing with map additions
 
-The master is not yet present on this branch because the exact File Library source can be read but cannot be byte-preservingly transferred to GitHub through the active connector. Do not substitute a reconstructed copy.
+Do **not** register the September 15 source as current now. Joel announced a newer Substack guide on 2026-09-20 and will provide it. Registration must use those exact new bytes, then compare them against the September 15 baseline and the accumulated humanization locks.
 
 ## Authority boundary
 
@@ -35,8 +35,8 @@ Until `master.html` is materialized and hash-verified and `articles/INDEX.json` 
 
 ## Current editing correction
 
-The rough owner-cognition paragraph beginning `Yeah, I mean...` under the historical `Write It. Don't Send It Yet.` experiments is not final article prose. The latest recovered intended saved P1 before state drift is the candidate beginning `Write the reply you keep having in your head. Just don't send it.`, subject to Joel's current confirmation.
+The rough owner-cognition paragraph beginning `Yeah, I mean...` is not article P1. Recovered candidate B has now been directly superseded by Joel. Current owner-final P1 under `Write It. Don't Send It Yet.` is exact SHA-256 `fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392`: `If you've got something burning you up that you wanna say...`. Reconcile it against the new Substack source; if the new source differs, the newer owner source controls after explicit reconciliation.
 
 ## Next safe action
 
-Materialize and hash-verify the exact owner source, then create/update the registry and meta-map. Do not register a reconstructed or partial master.
+Receive the newly updated Substack source, freeze its exact bytes/hash, diff it against the September 15 baseline, and specifically audit whether any previously humanized or owner-final spans changed. Reconcile those changes first; then register the exact new master and article family.
