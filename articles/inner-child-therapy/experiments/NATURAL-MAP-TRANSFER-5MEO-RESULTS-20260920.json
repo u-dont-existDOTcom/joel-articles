@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-20",
+  "source": "owner-confirmed natural 5-MeO-DMT guide",
+  "new_gui_calls": 2,
+  "new_api_calls": 0,
+  "results": [
+    {
+      "target": "checking opening",
+      "input_sha256": "c48eb34c0482058c9da5aa513448f8f79ea737a3ae213b5940dd8ea81893f21e",
+      "words": 60,
+      "map": "5M01 recurrent question -> specific contrast -> open inquiry",
+      "pangram_version": "4.0",
+      "captured_at_utc": "2026-09-20T02:02:52.548825Z",
+      "result": {
+        "human": 0,
+        "ai": 1,
+        "ai_assisted": 0
+      },
+      "prediction_probability": 0.9986820220947266,
+      "identity": "exact_utf8",
+      "disposition": "failed"
+    },
+    {
+      "target": "orientation during/after practice",
+      "input_sha256": "0b0205138c5f562df1e1587162d4da6e9da995b878541702c3b9641578e03958",
+      "words": 76,
+      "map": "5M05 direct self-application -> broader caution -> return to specific case",
+      "pangram_version": "4.0",
+      "captured_at_utc": "2026-09-20T02:03:34.981131Z",
+      "result": {
+        "human": 0,
+        "ai": 1,
+        "ai_assisted": 0
+      },
+      "prediction_probability": 0.9988780617713928,
+      "identity": "exact_utf8",
+      "disposition": "failed"
+    }
+  ],
+  "interpretation": "Using securely natural owner-derived thought maps as holistic paragraph instructions was not sufficient on either target. This is negative evidence about these two implementations, not about the donor prose and not proof that all map retrieval is useless. Do not add more vague map-only rewrites as the next step.",
+  "next_method": "Retain natural maps as a selection/diagnostic layer, but return to the historically successful local editorial operation traces: exact sentence/span -> defect -> protected function -> rewrite/merge/delete/move/subordinate, while using a natural map only to constrain the larger thought relation. No detector call should be spent until the resulting prose survives cold editorial review."
+}
