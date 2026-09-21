@@ -169,7 +169,17 @@ After literal candidate prose exists and before final detector admission:
 
 Do not skip this layer merely because relational-thought generation or independent-reader review already passed. Conversely, do not move the tell ledger upstream into the writer prompt.
 
-A completed tell ledger is **not** a completeness certificate. `No AI-shaped operation identified` means only that the current ledger/reviewer did not identify one; it does not establish that no Pangram-relevant model signal remains. The Inner Child checking RT2 control on 2026-09-21 remained Pangram AI 1.0 after all currently identified tell defects were repaired and a fresh reader saw no obvious remaining model-shaped operation. Treat the tell system as useful but incomplete and keep the paid detector gate separate.
+A completed tell ledger is **not** a completeness certificate. `No AI-shaped operation identified` means only that the current ledger/reviewer did not identify one.
+
+The Inner Child checking RT2 re-audit on 2026-09-21 showed a more basic failure: a paragraph can contain concrete examples, self-talk, fragments, and other Human-looking forms while the **mesoscale semantic staircase remains intact**. The supposed tell-clean diagnostic still had obvious AI-shaped operations: one source function per scene beat, synthetic didactic prop selection, fake-spontaneity markers, generic therapeutic abstraction, and concrete image followed by explanatory aftercare.
+
+Therefore the tell ledger must audit both:
+- **local realization** — sentence/phrase tells;
+- **paragraph-level function topology** — whether one coherent/cute scene merely skins the same preservation-ledger order.
+
+Do not call a candidate tell-clean merely because Human-facing devices are present. Ask whether the details are causally load-bearing or interchangeable props, whether filler/hesitation is earned or stage-managed, and whether the paragraph still advances each protected function with suspiciously efficient equality.
+
+The current catalog may still be incomplete, but RT2 does **not** establish that; its `tell-clean` premise was false. Keep the paid detector gate separate.
 
 When Joel explicitly asks for the tell ledger or tell fixes, show both the literal ledger and the exact integrated result; do not summarize them invisibly.
 
