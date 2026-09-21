@@ -230,7 +230,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "50f06cead31772fbc614b0ac6dd4503e6dcede0fc868c95beda7aed6d883fcdc"
+          "sha256": "dcdf4d267bcfc5a4449fe9decb3cf3bd6c576d7a25a506c27a954618781774eb"
         }
       },
       "review": {
@@ -2616,6 +2616,11 @@
           "path": "articles/inner-child-therapy/experiments/OWNER-CORRECTION-RT2-STILL-HAD-OBVIOUS-AI-TELLS-20260921.md",
           "sha256": "562c0be3ad285c616dc68b2162a86f21fa0a54403d8878136d040a9a89647e71",
           "role": "owner_process_correction"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-HANDOFF-20260921.md",
+          "sha256": "b0ad2a72297c8f0e6e2557b5bc7cbdb7ab53a7738145f84e2e058a347d77ba8d",
+          "role": "active_humanization_handoff"
         }
       ]
     }

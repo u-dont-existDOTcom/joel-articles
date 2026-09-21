@@ -109,6 +109,8 @@ the successful production path was owner cognition -> owner-derived substrate ->
 
 ## Evidence / artifacts
 
+- Current continuation handoff: `articles/inner-child-therapy/HUMANIZATION-HANDOFF-20260921.md`
+
 - Raw working master: `articles/inner-child-therapy/master.html`
 - Active humanization assembly: `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 - Owner locks / protected functions: `articles/inner-child-therapy/OWNER-LOCKS.json`
@@ -122,4 +124,4 @@ the successful production path was owner cognition -> owner-derived substrate ->
 
 ## Next safe action
 
-Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations and do not reopen unaffected accepted prose. The checking section is closed unless new owner/source evidence changes it. Write-It remains on its existing humanization authority.
+Before continuing in a fresh chat, read `articles/inner-child-therapy/HUMANIZATION-HANDOFF-20260921.md` after the normal repository/article bootstrap. Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations and do not reopen unaffected accepted prose. The checking section is closed unless new owner/source evidence changes it. Write-It remains on its existing humanization authority.
