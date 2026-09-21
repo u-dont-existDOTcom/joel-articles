@@ -58,7 +58,7 @@ The blocking order is:
 
 Re-run the preservation proof after every detector-driven semantic edit. A 100% Human candidate with an unexplained deletion, addition, provenance change, actor/cause change, certainty change, or misplaced protected function is a failed candidate and cannot be promoted. If such a candidate has already been measured, preserve the detector result as diagnostic evidence but mark the prose fidelity-rejected.
 
-`Inferable`, `redundant`, `smoother`, and `better for Pangram` are never deletion authority. Similar topic does not prove duplicate function. Source wording, remembered quotation, later interpretation, and synthesis must remain separate provenance objects unless Joel explicitly merges them.
+`Inferable`, `redundant`, `smoother`, and `better for Pangram` are never, by themselves, deletion authority for a genuinely independent thought/function. But preservation is not a requirement to restate every source sentence or explanatory point explicitly. When a sentence is only realization scaffolding, unpacking, or aftercare for cognition already carried unambiguously elsewhere, the rewrite may leave that implication implicit if a cold reader still gets the same substantive thought and no independent claim, qualification, agency, certainty, attribution, chronology, causality, decision rule, example, or protected rhetorical function is lost. Do not atomize prose into preservation units merely because each sentence says something. Similar topic still does not prove duplicate function, and source wording, remembered quotation, later interpretation, and synthesis must remain separate provenance objects unless Joel explicitly merges them.
 
 Use the smallest useful proof scope: the changed natural section plus load-bearing dependencies for a local repair, and article-wide units only for genuinely article-wide reconstruction.
 
@@ -171,6 +171,21 @@ Do not skip this layer merely because relational-thought generation or independe
 
 A completed tell ledger is **not** a completeness certificate. `No AI-shaped operation identified` means only that the current ledger/reviewer did not identify one.
 
+### Owner-calibrated fresh-context tell loop
+
+When Joel is actively calibrating whether model-written realization sounds Human, do not self-approve the candidate from the same saturated drafting context. Use this loop on the **best current literal candidate**:
+
+1. show Joel the exact candidate plus three visibly separate classes: **definite AI tells**, **mixed/ambiguous tells**, and **genuine Human-facing tells**;
+2. let Joel correct the classifications, causal diagnoses, and rubric;
+3. make that correction durable before another substantial iteration;
+4. repair the candidate using the corrected rubric without turning the rubric into a writer checklist;
+5. send the literal repaired candidate and the corrected rubric to a **genuinely fresh context**—Railway Agent when that fresh-context surface is available—without prior candidate history, defenses, detector scores, or same-context reasoning;
+6. ask the fresh critic to diagnose only, classifying definite AI / mixed / Human tells and checking both local realization and mesoscale function topology;
+7. if it finds a definite AI tell, repair and use a **new fresh context**, not the same thread, for the next audit;
+8. continue until fresh contexts find **no definite AI tells and at least one genuine Human-facing tell**, while preserving mixed/uncertain findings explicitly.
+
+Fresh-context non-detection is still not proof of human authorship and does not replace Pangram or semantic/editorial gates. The purpose of this loop is to prevent same-context self-critique from becoming its own evidence.
+
 The Inner Child checking RT2 re-audit on 2026-09-21 showed a more basic failure: a paragraph can contain concrete examples, self-talk, fragments, and other Human-looking forms while the **mesoscale semantic staircase remains intact**. The supposed tell-clean diagnostic still had obvious AI-shaped operations: one source function per scene beat, synthetic didactic prop selection, fake-spontaneity markers, generic therapeutic abstraction, and concrete image followed by explanatory aftercare.
 
 Therefore the tell ledger must audit both:
@@ -198,7 +213,9 @@ Blocking order:
 
 Any substantive edit invalidates affected reviews and all downstream gates; a prior candidate's PASS never transfers to revised bytes. Do not pad short text merely to manufacture a detector boundary, and do not use known-Human owner prose to conceal a red model-written paragraph.
 
-If a candidate fails, keep the prose internal and continue automatically. If repeated structurally different attempts saturate and genuine owner cognition is required, the help packet must show the full surrounding context plus the **contemporaneous pre-prose map actually used for every affected sentence**: sentence, source meaning, local map/move, placement reason, intended next move, failed review, and Pangram result when measured. Never reconstruct a supposedly exact sentence map after failure.
+If a candidate fails, keep the prose internal and continue automatically. Repeated AI-shaped realization failure does **not** establish missing owner cognition. When the authoritative article/source already represents Joel's cognition and Joel approves the thought, keep that cognition fixed and change the realization/review architecture. Use the owner-calibrated fresh-context tell loop above rather than asking Joel to re-supply rough cognition.
+
+Ask for new owner cognition only when the underlying thought itself is genuinely missing, contradictory, underdetermined, or explicitly rejected by Joel—not merely because model-written wording or structure remains AI-shaped. If that genuine cognition boundary is reached, the help packet must show the full surrounding context plus the **contemporaneous generative substrate actually used**; never reconstruct a supposedly exact sentence map after failure.
 
 Ordinary progress updates may report gate status or method changes but must not leak failed candidate prose unless Joel explicitly asks to inspect it or a genuine owner-help packet is required.
 
