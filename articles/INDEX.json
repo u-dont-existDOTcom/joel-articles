@@ -230,7 +230,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "0b1a73c877a2d734b8d0c26125138a31201701178c8c160316aaae97d4dbc269"
+          "sha256": "9ac76b915e8a76a00b7a4e5263cea8c2464e09fd9996eb14104adec5ba202eea"
         }
       },
       "review": {
@@ -2571,6 +2571,11 @@
           "path": "articles/inner-child-therapy/experiments/WRITER-LEASE-STATE-PROVENANCE-REPAIR-20260920.json",
           "sha256": "c8bad725182284e09f4ea03a6d5c5e92cef4343fc1c4700bd0468ebd6795caa7",
           "role": "historical_task_coordination"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-CONTEXT-AWARE-OWNER-HELP-20260921.md",
+          "sha256": "2c98ec6b24eba945abe5b57c6cf3ff2d9f97206b46fcea8b2e796bc9b76fc510",
+          "role": "active_humanization_experiment"
         }
       ]
     }
