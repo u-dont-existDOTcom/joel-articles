@@ -1,9 +1,9 @@
 # Inner Child Therapy — source-delta safety two-audience candidate + tell ledger
 
 Date: 2026-09-21
-Status: **POST-GENERATION TELL REPAIR EXECUTED / FRESH READ PENDING / NOT ARTICLE AUTHORITY**
+Status: **POST-GENERATION TELL REPAIR EXECUTED / SECOND FRESH READ PENDING / NOT ARTICLE AUTHORITY**
 
-## Exact candidate
+## Exact candidate v2
 
 ### Central protective-intent qualification
 
@@ -15,100 +15,85 @@ Status: **POST-GENERATION TELL REPAIR EXECUTED / FRESH READ PENDING / NOT ARTICL
 >
 > Being calm and present doesn't make the adult safe for the child. If you currently enjoy frightening or humiliating vulnerable people, want to exploit them, or want therapy to make you better at manipulation, don't bring the child forward—not even briefly to see how the child reacts. The child's fear is not a diagnostic test, and it can't become another source of gratification.
 >
-> If you recognize yourself in that description, don't ask the child to help you sort it out. Stay with present-day you. Start with what you actually want from help—what you're suffering from or hoping to change. If harming vulnerability is tied up with an identity you hold, look at the identity itself: what is it giving you, what is it costing you, whom is it serving, and has it produced the life and happiness you expected? If you call yourself sovereign but also feel you have to obey an urge, doctrine, group, spirit, or master, can you pause, question it, refuse, or change your mind?
+> If you recognize yourself in that description, don't ask the child to help you sort it out. Stay with present-day you. Start with what you actually want from help—what you're suffering from or hoping to change. If harming vulnerability is tied up with an identity you hold, keep the work there: what is that identity doing for you, who does it serve, what is it costing, and is it actually giving you the life and happiness you expected? If “sovereign” is part of that identity, I mean something practical by it here: can you pause, question, refuse, or revise when an urge, doctrine, group, spirit, or master demands obedience?
 >
-> If you're helping someone in this position, don't infer current harmful intent from a religious identity, unusual belief, intrusive thought, anger, unwanted fantasy, charged language, or something harmful they did in the past. Ask what they actually endorse and intend now. If they say that intent has changed, don't treat the promise alone as proof that child work is safe to restart. Look for repeated non-harmful choices, including when exploitation would feel rewarding. You can still listen and care without flattering cruelty, arguing theology, or helping them get better at exploiting people.
+> If you're helping someone in this position, don't treat a religious identity, unusual belief, intrusive thought, anger, unwanted fantasy, charged language, or past harmful act as proof of current harmful intent. Ask what the person actually endorses and intends now. And if they say the intent has changed, a promise alone is not enough reason to restart child work; look for repeated non-harmful choices, including when exploitation would feel rewarding.
 >
-> Either way, while harmful intent remains, don't try to reach the child through dialogue, childhood photos, hypnosis, borrowed-parent imagery, spiritual figures, or another indirect route. Some people here may need sustained care from a real human being more than another inner exercise or a bot.
+> Either way, while harmful intent remains, don't try to reach the child through dialogue, childhood photos, hypnosis, borrowed-parent imagery, spiritual figures, or another indirect route. If you're helping, you can still listen and care without flattering cruelty, arguing theology, or helping them get better at exploiting people. Some people here may need sustained care from a real human being more than another inner exercise or a bot.
 
-## Post-generation tell ledger
+## Why v1 was revised
+
+Fresh isolated review of v1 found:
+- audience split: clear;
+- promise/repeated-choice rule: clear;
+- remaining weakness: identity/sovereignty branch was still overly comprehensive;
+- remaining weakness: the helper evidence paragraph also carried care/enabling, making the middle feel like a complete protocol.
+
+Those are substantive findings, so v1 downstream review does not transfer to v2.
+
+## Post-generation tell ledger v2
 
 ### Common opening
 
-**Risk checked**
-- false equation of regulation with safety;
-- abstract rule then duplicate action;
-- child used as diagnostic/experiential prop.
+**Disposition: KEEP.**
 
-**Disposition**
-- KEEP.
-
-**Why**
-- the first sentence is the exact dependency created by the preceding readiness paragraph;
-- the harmful-intent examples and hard child-contact stop are causally joined in one movement;
-- `not even briefly` closes the explicit source loophole rather than simulating spontaneity.
+The capacity-vs-safety dependency is necessary after the readiness paragraph.
+The hard child-contact stop and diagnostic/gratification reason are carried as one causal movement.
+No decorative scene, filler, or explanatory-aftercare is used.
 
 ### Self-reader branch
 
-**Structural repair**
-- explicitly names the audience: `If you recognize yourself in that description`.
-- adult-focused work no longer appears as a helper's questionnaire imposed on an unspecified person.
+**v1 risk**
+- four consecutive identity questions;
+- sovereignty/doctrine/spirit/master sequence read as a conceptual detour.
 
-**AI-shape risks checked**
-- one question per protected function;
-- identity/sovereignty as a detached conceptual branch;
-- model-balanced `identity is good/bad` debate.
+**Repairs executed**
+- compress the identity functions into one question cluster tied explicitly to `harming vulnerability ... tied up with an identity`;
+- retain gives / serves / costs / expected life-happiness inside that one adult-level inquiry;
+- make `sovereign` explicitly local and behavioral: `I mean something practical by it here`;
+- preserve pause / question / refuse / revise and compelled obedience without opening a theology debate.
 
-**Repair executed**
-- begin with one live adult-level purpose: what the person actually wants help with;
-- identity inquiry is conditional on harmful intent being tied to identity;
-- sovereignty appears only as behavioral agency inside that identity inquiry;
-- no theology/religion qualification occurs in this branch.
+**Mesoscale role**
+- adult work remains adult work;
+- identity is conditional and subordinate;
+- sovereignty is a concrete agency test within identity, not a new theme.
 
-**Remaining source-required enumeration**
-- gives/costs/serves/expected life-happiness.
-This is preserved as one identity-evaluation cluster rather than four sentence jobs.
+### Helper evidence branch
 
-### Helper branch
+**v1 risk**
+- evidence + promise + repeated choices + care/enabling all accumulated in one paragraph.
 
-**Structural repair**
-- explicitly names the second audience: `If you're helping someone in this position`.
-- evidence rules now have a clear evaluator.
-
-**Integrated function movement**
-- do not infer current harmful intent from labels/thoughts/past conduct;
-- inspect current endorsement/intent;
-- if changed intent is claimed, a verbal promise alone is insufficient evidence to restart child work;
-- repeated non-harmful choices are credibility evidence;
-- care/listening may continue without enabling cruelty/exploitation.
+**Repairs executed**
+- keep only evidence classification here:
+  - labels/thoughts/past act alone do not establish current harmful intent;
+  - current endorsement/intent is the relevant object;
+  - a claimed change of intent is not cleared by the verbal promise alone;
+  - repeated non-harmful choices are credibility evidence;
+- move care/enabling guidance out of this paragraph.
 
 **Gate precision**
-- no automatic time/count threshold is invented.
-- repeated choices establish credibility evidence; the source still does not define a mechanical reopening formula.
+- no automatic count/duration threshold is invented;
+- `not enough reason to restart child work` names exactly what the promise cannot establish by itself.
 
 ### Reunified close
 
-**Current span**
-> Either way, while harmful intent remains...
+**Repair executed**
+- first sentence reunites both audiences at the source-protected no-contact boundary;
+- helper care remains available without assisting exploitation;
+- sustained real-human care is the final available action, not an explanatory summary.
 
-**Function**
-- reunites self-reader and helper branches at the same hard boundary;
-- preserves all source-protected indirect routes;
-- ends on the source-authorized possibility of sustained real-human care.
+### Local / mesoscale tell checks
 
-**AI-shape risks checked**
-- generic synthesis sentence;
-- exhaustive-list-as-conclusion;
-- moral/aftercare after the real stop.
+- scene-skinned staircase: N/A; no synthetic scene used;
+- interchangeable didactic props: N/A;
+- generic therapeutic abstraction: limited to source-required terms `harmful intent`, `vulnerability`, `child work`; each has a defined local safety function;
+- simulated spontaneity: none;
+- image -> explanatory aftercare: none;
+- equalized semantic efficiency: reduced; the self-reader identity/agency branch receives more space because it has the harder conceptual dependency, while the evidence and close are shorter;
+- one protected function per sentence: no;
+- significance staging / mini-conclusion: none identified.
 
-**Disposition**
-- KEEP pending fresh read.
-- `Either way` performs a genuine audience-branch reunion, not thematic aftercare.
-- the method list is safety-critical source content, not detector camouflage.
-- final human-care sentence changes the available action rather than summarizing the lesson.
-
-## Mesoscale topology
-
-`readiness capacity != safety -> common hard gate -> self-reader adult work -> helper evidence/care -> shared no-child-contact boundary`
-
-This topology is audience-driven rather than preservation-ledger-driven.
-
-No invented scene, filler, or concrete prop is used to disguise the structure.
-
-## Same-context conclusion
-
-- comprehension: provisional PASS;
-- preservation: pending exact proof;
-- tell ledger: executed;
-- independent/fresh read: pending;
-- detector: BLOCKED until fresh read + preservation + architecture gates pass.
+Same-context conclusion:
+- **PROVISIONAL PASS**;
+- fresh reread required;
+- preservation/architecture proof and detector remain downstream.
