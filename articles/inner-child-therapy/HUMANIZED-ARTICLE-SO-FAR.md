@@ -105,9 +105,12 @@ It doesn't mean you need to hide your upset, or apply for a permit to protest, b
 <!-- P1 above is Joel's direct owner-final 2026-09-20 rewrite of recovered candidate B. It is intentionally not Pangram-tested because it is short, untouched natural owner prose. The five targeted 2026-09-20/21 source edits do not touch this subsection, so P1 remains current humanization authority even though the humanization branch has not yet been synced to Substack. P3 remains unresolved. A bounded owner-authorized Railway Agent search completed 20 generations; seven structurally varied candidates were Pangram-tested and all seven returned AI 1.0 / Human 0.0 with exact History binding. Do not insert any Railway P3 candidate here. -->
 ### When Healing Turns Into Checking
 
-<!-- The preceding checking/return-to-life material remains unresolved and is intentionally not reconstructed here. The five targeted source edits do not touch this section; do not reopen accepted checking work merely because the raw Substack branch is intentionally unsynced from the humanization branch. -->
+You can get hooked on healing too. The wound can be completely real while you're checking it for the hundredth time to see whether you've finally grieved it correctly.
+
+Going back can still matter, since realizations are a real part of life. But returning to the same wound can also become a search for certainty in an inherently uncertain existence. Spending all day asking, "Did I process it properly? Did I grieve it enough?" is clearly not what we're after here.
+
+If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?
 
 Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, and how would I know if it's helping?" This sovereign, gently curious stance should apply to everything in life. Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy, just like real growing up is not something you do forever. And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.
 
-<!-- The following ritual-warning material and later sections remain unresolved. -->
-
+If these exercises start feeling like a ritual you have to complete before you're allowed to live, stop there.

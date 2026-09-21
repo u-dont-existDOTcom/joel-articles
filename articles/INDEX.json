@@ -218,7 +218,7 @@
         },
         "owner_locks": {
           "path": "articles/inner-child-therapy/OWNER-LOCKS.json",
-          "sha256": "3b3ebe5f9e9bce687448dce485cddecd5788f44e09702eeef6421a01c8595ce0"
+          "sha256": "2ff649730f390c79e3a2cb1d335aedabd413a2922a9a977a6d3268bd2fd5d356"
         },
         "source_evidence": {
           "path": "articles/inner-child-therapy/SOURCE-EVIDENCE.json",
@@ -230,7 +230,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "7f7ce0bc8f108c1c3efa6be663551da6cbabf2d1cac9b683e2f495702d9829e1"
+          "sha256": "8e344f9479db03e4fe8a538c029b51a81093d7c1b017a93acf3556d4041f98fc"
         }
       },
       "review": {
@@ -679,7 +679,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "15480c194136c7da15f1ee509d2f4ba0e6fa566ee26ad51145fcd316e4d2037c",
+          "sha256": "dd69faa1babef864b0587983c2c20e386050dfc8bf843a2294d24af94c257c39",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2606,6 +2606,11 @@
           "path": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-DERIVED-DELIVERY-READY-20260921.md",
           "sha256": "269287d9eb6be61b71dd113b89b061256f9546e95eba511f28f441e4f3a28719",
           "role": "delivery_ready_candidate_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-ACCEPTANCE-PROMOTION-20260921.json",
+          "sha256": "d32cb9d4a81412ad3999f4ea0e0e85c3d470950bdeb524d1f52369a192bd99f8",
+          "role": "promotion_receipt"
         }
       ]
     }

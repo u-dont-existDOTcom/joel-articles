@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
   "article_id": "inner-child-therapy",
-  "locked_passages": [],
+  "locked_passages": [
+    {
+      "id": "checking-p3-owner-accepted-20260921",
+      "heading": "When Healing Turns Into Checking",
+      "paragraph_role": "P3",
+      "text": "If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?",
+      "sha256": "8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b",
+      "status": "owner_accepted_exact_wording"
+    }
+  ],
   "protected_functions": [
     {
       "id": "working-master-source-identity",
@@ -45,7 +54,7 @@
     }
   ],
   "owner_review": {
-    "status": "pending",
-    "evidence": "Whole-article owner-final review remains pending. Joel clarified on 2026-09-21 that the latest Substack update contained only five targeted source edits and that the humanized branch had not yet been synced to Substack; SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md records the corrected impact analysis."
+    "status": "partial_confirmed",
+    "evidence": "Joel directly accepted checking P3 exact wording on 2026-09-21. Whole-article owner-final review remains pending."
   }
 }

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "promotion_id": "inner-child-checking-p3-owner-accepted-20260921",
+  "status": "PROMOTED_TO_ACTIVE_HUMANIZATION_ASSEMBLY",
+  "article_id": "inner-child-therapy",
+  "heading": "When Healing Turns Into Checking",
+  "paragraph_role": "P3",
+  "accepted_text": "If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?",
+  "accepted_sha256": "8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b",
+  "complete_section_sha256": "e234d0fac18ff60f412e2bf84c77d570f3240f6cbb0e208eb70a14f30b171f69",
+  "acceptance": {
+    "authority_actor": "Joel Rosenblum",
+    "evidence": "Direct current-chat response: accepted.",
+    "accepted_at": "2026-09-21"
+  },
+  "provenance": {
+    "class": "owner-derived plus post-generation tell repairs"
+  },
+  "quality_gates": {
+    "independent_reader": "PASS",
+    "preservation_forward": "PASS",
+    "preservation_reverse": "PASS",
+    "unexplained_substantive_deltas": 0
+  },
+  "pangram": {
+    "detector_version": "4.0",
+    "p3": {
+      "words": 86,
+      "sha256": "8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b",
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "ai_probability": 0.015982024371623993
+    },
+    "opening": {
+      "words": 167,
+      "sha256": "dc2e2006af89d9404086dbae2d209e3edaf2d05bcf069c1bb8e4c5e3af24118c",
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "ai_probability": 0.04337630793452263
+    },
+    "full_section": {
+      "words": 318,
+      "sha256": "e234d0fac18ff60f412e2bf84c77d570f3240f6cbb0e208eb70a14f30b171f69",
+      "fraction_human": 1.0,
+      "fraction_ai": 0.0,
+      "fraction_ai_assisted": 0.0,
+      "ai_probability": 0.06802033632993698
+    }
+  },
+  "supersession": {
+    "prior_state": "P3 unresolved placeholder",
+    "disposition": "RESOLVED_AND_REPLACED"
+  }
+}
