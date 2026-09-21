@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "blocked_owner_cognition",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
   "canonical_base_branch": "main",
@@ -14,5 +14,23 @@
   "last_reconciled_head": "b7cf38c5a224ffefc1b8c4663616a0476c3760ff",
   "reconciled_utc": "2026-09-21T19:26:00Z",
   "reconciliation_note": "Eight linear in-scope commits appeared after the prior visible writer checkpoint. They were explicitly compared and semantically reconciled: V8 preservation/architecture PASS, one exact Pangram production failure with recovery/no duplicate resubmission, V8 rejection/re-audit, and structurally different V9 authorial-thought candidate. No article authority was promoted. Branch mutation resumes only from this reconciled head.",
-  "last_known_writer_head": "b7cf38c5a224ffefc1b8c4663616a0476c3760ff"
+  "last_known_writer_head": "2849b417d24f225231d57623b0f6b0fa5ab0db8f",
+  "stop_admission": {
+    "parent_outcome": "OPEN",
+    "remaining_gap": "Humanize and certify the new dangerous-present-adult H2 without protocol/checklist model shape; the short protective-intent qualification is internally ready but unpromoted.",
+    "next_action": "Obtain fresh owner rough cognition/natural thought route for the saturated H2, then regenerate from that owner substrate and rerun tell/preservation/architecture/Pangram gates.",
+    "responsible_actor": "owner supplies cognition; Chat resumes generation and gating automatically afterward",
+    "current_authority": "registered Inner Child source + owner locks + source-update reconciliation + current handoff",
+    "blocker": "Repeated structurally different autonomous generations V8-V14/V13 etc. remained visibly protocol-shaped; V8 additionally failed Pangram AI 1.0. Canonical source recovery found no separate owner rough-cognition artifact.",
+    "independent_work_completed": [
+      "V8 exact production Pangram result recovered without duplicate resubmission",
+      "V8 post-failure topology re-audit",
+      "multiple strategy replacements through V14",
+      "canonical source-recovery scan",
+      "owner-help packet created",
+      "short protective-intent qualification independently passed and frozen as ready"
+    ],
+    "publication_or_promotion_performed": false
+  },
+  "blocked_at_utc": "2026-09-21T19:26:00Z"
 }
