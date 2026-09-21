@@ -73,3 +73,37 @@ Mesoscale:
 
 Same-context conclusion: **PROVISIONAL PASS**.
 Next: fresh final read on v8, then preservation/architecture proof if no new substantive defect.
+
+
+## V8 isolated final-reader result
+
+Fresh ephemeral read-only Codex context, supplied only:
+- the literal relevant article context;
+- the exact V8 insertion and section;
+- the publication-readiness questions.
+
+It did **not** receive:
+- drafting rationale;
+- detector results;
+- prior candidates;
+- prior critiques.
+
+Result: **PASS**.
+
+Fresh reader findings:
+- no substantive publication defect;
+- adult presence, adult agency, and harmful intent are distinguishable;
+- current endorsement is separate from identity, intrusive thought, and past conduct;
+- changed-intent rule covers both self-reader and helper;
+- repeated non-harmful choices are evidence without a numerical threshold or guarantee;
+- identity questions are dense but intelligible and retain distinct functions;
+- indirect-route prohibition is a real safety function rather than recap.
+
+Strongest residual weakness:
+- `sovereignty` arrives abruptly as terminology, but is immediately defined behaviorally; fresh reader classified this as a minor terminology bump, not a substantive comprehension defect.
+
+Exact UTF-8 identities, no terminal newline:
+- central qualification: 17 whitespace words; SHA-256 `410092296a6a80ebd40fdbb7c849e3b538e7645cb5eae2076b5dd91c706b0d85`
+- full H2 including heading: 359 whitespace words; SHA-256 `879bd8737f01a8262ee93037483a1c9208fedbd5a36182bcecfc89ad9ad12dd8`
+
+V8 now advances to exact bidirectional preservation and architecture proof. It is still not article authority and has not been shown to the owner as candidate prose.
