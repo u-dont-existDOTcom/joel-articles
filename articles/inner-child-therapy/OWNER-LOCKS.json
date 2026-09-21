@@ -1,16 +1,7 @@
 {
   "schema_version": 1,
   "article_id": "inner-child-therapy",
-  "locked_passages": [
-    {
-      "id": "checking-p3-owner-accepted-20260921",
-      "heading": "When Healing Turns Into Checking",
-      "paragraph_role": "P3",
-      "text": "If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?",
-      "sha256": "8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b",
-      "status": "owner_accepted_exact_wording"
-    }
-  ],
+  "locked_passages": [],
   "protected_functions": [
     {
       "id": "working-master-source-identity",
@@ -51,10 +42,14 @@
     {
       "id": "humanization-assembly-active",
       "description": "HUMANIZED-ARTICLE-SO-FAR.md is the active accepted/locked humanization review assembly for worked material, not merely historical evidence. Experimental candidates still require explicit promotion into that assembly."
+    },
+    {
+      "id": "checking-p3-owner-accepted-active-humanization",
+      "description": "Joel accepted exact checking P3 wording on 2026-09-21 for the active unsynced humanization assembly, SHA-256 8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b. Preserve it in HUMANIZED-ARTICLE-SO-FAR.md until the humanization branch is later reconciled into the raw master; do not require it to appear in the current raw Substack master yet."
     }
   ],
   "owner_review": {
-    "status": "partial_confirmed",
-    "evidence": "Joel directly accepted checking P3 exact wording on 2026-09-21. Whole-article owner-final review remains pending."
+    "status": "pending",
+    "evidence": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-ACCEPTANCE-PROMOTION-20260921.json"
   }
 }
