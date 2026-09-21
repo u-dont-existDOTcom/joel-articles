@@ -83,11 +83,12 @@ Before drafting, every unit receives one of:
 - `must-remain-exact`;
 - `owner-superseded:<authority>`;
 - `owner-deleted:<authority>`;
-- `duplicate-function-consolidation:<named surviving realization and destination>`.
+- `duplicate-function-consolidation:<named surviving realization and destination>`;
+- `implicit-equivalent:<named surviving span + cold-reader proof>` — only for realization scaffolding, explanatory unpacking, or aftercare that adds no independent proposition/function and whose meaning remains unambiguous without explicit restatement.
 
-There is **no generic `omit`, `inferable`, `redundant`, `smoother`, `not needed`, or `better for Pangram` disposition** available to the assistant.
+There is **no generic `omit`, `inferable`, `redundant`, `smoother`, `not needed`, or `better for Pangram` disposition** available to the assistant for an independent substantive unit.
 
-If a unit seems genuinely dispensable but no existing authority permits its removal, preserve it or make an explicit deletion proposal to Joel.
+Do not create a preservation unit merely because a sentence explicitly spells out an implication. Preserve the cognition/function, not every item of explanatory packaging. `implicit-equivalent` is valid only when removing explicit restatement leaves no independent claim, qualification, agency, certainty, attribution, chronology, causality, decision rule, unique example, or protected rhetorical function behind, and a cold reader still understands the same thought. If that cannot be shown, preserve the unit or make an explicit deletion proposal to Joel.
 
 ## 4. Change whitelist — before drafting
 
@@ -212,11 +213,12 @@ Do not narrow review to the Pangram red window. A local detector edit can delete
 
 ## 11. Consolidation and deletion rules
 
-Deletion/consolidation requires a proof stronger than `the reader can infer it`.
+Deletion/consolidation requires a proof stronger than `the reader can infer it`, but it does **not** require every explanatory point to remain explicitly stated.
 
 For each removed source unit record one of:
 
 - exact surviving equivalent span and why it performs the same function;
+- `implicit-equivalent`: the surviving span that makes the same cognition/function unambiguous, plus why the removed wording added only scaffolding/unpacking/aftercare and no independent substantive content;
 - named destination after movement;
 - owner-superseded authority;
 - owner-deleted authority.
