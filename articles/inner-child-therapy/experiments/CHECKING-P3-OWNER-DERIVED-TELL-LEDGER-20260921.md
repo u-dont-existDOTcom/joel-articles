@@ -5,7 +5,7 @@ Status: **POST-GENERATION DIAGNOSTIC / OWNER-DERIVED PROSE / ONE TELL REPAIR REQ
 
 ## Literal owner-derived candidate before tell repair
 
-> If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for it. That's natural, but doesn't mean there's something new to look at. That background checker can ask if you're really listening, and you can listen to the checker itself. No need to respond. Life is for living. So live it! 🙂
+> If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. That background checker can ask if you're really listening, and you can listen to the checker itself. No need to respond. Life is for living. So live it! 🙂
 
 Provenance:
 - first seven sentences are near-verbatim/direct owner suggestions from the active Chat;
@@ -66,7 +66,7 @@ with:
 
 **Current exact text**
 
-> Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for it. That's natural, but doesn't mean there's something new to look at.
+> Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at.
 
 **AI-shaped operation / risk**
 - `That's natural, but doesn't mean...` has the surface form of a compact concession;
@@ -85,7 +85,8 @@ with:
 
 **Chat execution**
 - change `you refused to put it on, and you got blamed for breaking your collar bone in a crash`
-- to `you refused to put it on, broke your collar bone in a crash, and then got blamed for it`.
+- to `you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it`.
+- This preserves the owner's causal/example meaning while removing the ambiguous pronoun and making the blame target explicit.
 
 This is a sequencing/clarity repair under **HT07 chronology/perception**, not a conceptual rewrite.
 
@@ -197,7 +198,7 @@ Why:
 
 ## Integrated tell-repaired P3
 
-> If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?
+> If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?
 
 ## Preservation impact of tell repair
 
