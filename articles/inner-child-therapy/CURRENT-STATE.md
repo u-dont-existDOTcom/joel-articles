@@ -95,7 +95,7 @@ the successful production path was owner cognition -> owner-derived substrate ->
 
 - Humanize/incorporate the protective-intent qualification at the central reparenting premise.
 - Humanize the new dangerous-present-adult H2 as a bounded section in full surrounding context.
-- Keep Write-It on its current accepted state. For checking P3, run the new owner-authorized relational-thought architecture exactly once through the full delivery gate before deciding whether owner help is still needed.
+- Keep Write-It on its current accepted state. The checking section is resolved and owner-accepted; do not reopen it absent new owner/source evidence.
 - When later sections are reached, preserve the identity-development harm gate, vow harm gate, and harmful spiritual-authority exclusion.
 - Run normal comprehension/preservation/architecture/humanization/Pangram gates only on boundaries actually changed by the humanization work.
 - Citation/health claim review remains pending unless separately requested or materially required.
@@ -104,7 +104,7 @@ the successful production path was owner cognition -> owner-derived substrate ->
 
 - New dangerous-present-adult safety section is source-valid but not yet humanized.
 - The central protective-intent qualification is not yet incorporated into the accepted humanized opening.
-- Write-It remains open only on its preexisting unresolved continuation. Checking P3 is no longer blocked on missing owner cognition: Joel supplied a materially different relational-thought architecture on 2026-09-21. Its next result determines whether the lane resumes or returns to owner-help status.
+- Write-It remains open only on its preexisting unresolved continuation. The checking section has no remaining content blocker.
 - No publication/export action is authorized by registration.
 
 ## Evidence / artifacts
@@ -122,4 +122,4 @@ the successful production path was owner cognition -> owner-derived substrate ->
 
 ## Next safe action
 
-Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations and do not reopen unaffected accepted prose. For the checking lane, the next safe action is one fresh full-context P3 generation using the relational-thought architecture: no sentence jobs, shared concrete example/self-talk substrate, then independent review, preservation re-proof, and Pangram if eligible. Write-It remains on its existing humanization authority.
+Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations and do not reopen unaffected accepted prose. The checking section is closed unless new owner/source evidence changes it. Write-It remains on its existing humanization authority.
