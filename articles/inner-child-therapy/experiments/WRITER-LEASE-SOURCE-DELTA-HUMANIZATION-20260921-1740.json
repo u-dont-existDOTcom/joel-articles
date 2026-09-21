@@ -10,5 +10,9 @@
   "lock_integration_head_observed": "1ac521443c6a63e2022f51896f5fade83e8b841f",
   "isolation_note": "Active lock integration branch is stale/diverged from current canonical main; this writer branches from current owner-designated canonical main and will not mutate main or the stale shared integration branch.",
   "scope": "Humanize the two current-frontier Inner Child Therapy source-delta safety obligations, run required gates, and preserve Write-It/checking authority.",
-  "created_utc": "2026-09-21T17:40:00Z"
+  "created_utc": "2026-09-21T17:40:00Z",
+  "last_reconciled_head": "b7cf38c5a224ffefc1b8c4663616a0476c3760ff",
+  "reconciled_utc": "2026-09-21T19:26:00Z",
+  "reconciliation_note": "Eight linear in-scope commits appeared after the prior visible writer checkpoint. They were explicitly compared and semantically reconciled: V8 preservation/architecture PASS, one exact Pangram production failure with recovery/no duplicate resubmission, V8 rejection/re-audit, and structurally different V9 authorial-thought candidate. No article authority was promoted. Branch mutation resumes only from this reconciled head.",
+  "last_known_writer_head": "b7cf38c5a224ffefc1b8c4663616a0476c3760ff"
 }
