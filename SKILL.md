@@ -99,6 +99,18 @@ For several changes, provide an ordered placement map. Prefer stable text anchor
 
 “Add this near X,” “this could go under Y,” or a paste-ready passage without an exact destination is incomplete. Do not make Joel rediscover the article architecture in order to use a recommendation. If the current article has not been inspected closely enough to establish a reliable anchor, inspect it before proposing the change.
 
+## Parallel raw-source and transformation lineages
+
+When a registered raw/editor source and an active rewrite/humanization branch are intentionally unsynced, never treat a whole-document raw-source-vs-transformed diff as evidence of what the owner changed in the source.
+
+Use two stages:
+1. compare current raw source to the prior raw source (or use direct owner change authority) to identify the actual source deltas;
+2. project only those deltas onto the transformation branch by function and placement.
+
+Unaffected accepted/owner-final transformed prose remains current for that branch even when absent from the raw source. Raw-source absence is not supersession. A transformed branch may legitimately be ahead of the publication/source surface.
+
+Record the lineage role explicitly in state/artifact metadata: raw source authority, active transformation assembly, historical experiment, or promoted owner-final content. Do not collapse these classes because they share an article title.
+
 ## Experiment-to-article promotion gate
 
 Experimental, detector, or review prose does **not** become current article prose merely because it:
