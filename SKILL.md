@@ -147,6 +147,14 @@ Never show Draft 0 by default. After drafting, audit the literal completed prose
 
 The cold audit is not a substitute for the preservation proof. Preservation units and authorized deltas are checked mechanically/explicitly before detector eligibility; the cold audit asks whether the preserved material is still coherent, well placed, and good writing.
 
+## Relational-thought generation for humanization
+
+For Joel humanization generation, do **not** preallocate one sentence per protected function or assign fixed sentence jobs such as `S1=function A, S2=function B...`. That representation itself can create the model-shaped instructional sequence later criticized as one-function-per-sentence marching.
+
+Hold preservation functions outside the prose outline. Give the writer a small interacting thought-world instead: a concrete or playful example, a consequence, self-talk, a parenthetical realization, an ordinary reaction, or another source-grounded move that can carry several functions together. Let later thoughts grow out of, answer, or reinterpret earlier ones. Uneven cadence, parenthetical realizations, cute/interesting examples, and self-talk are available compositional affordances when they arise naturally from the thought; do not require one of each as a checklist.
+
+If owner-help escalation later requires a contemporaneous map, preserve the **actual generative substrate** used while writing. Do not convert that requirement into a pre-writing sentence-job plan. If multiple sentences emerged from one shared example/thought-field, record that shared substrate and each sentence's actual emergence; never fabricate a sentence-specific job after failure.
+
 ## Humanization owner-delivery admission
 
 For Joel humanization work, the owner is not an intermediate QA surface. Do not show a generated candidate as proposed article prose until all applicable internal gates pass and the exact eligible boundary has passed the required Pangram check.
