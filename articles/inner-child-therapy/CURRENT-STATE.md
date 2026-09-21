@@ -64,11 +64,38 @@ The five targeted source edits do not modify the current humanization authority 
 - `Write It. Don't Send It Yet.`;
 - the current checking-section lane.
 
+### Checking lane — current owner-help boundary
+
+The context-aware checking repair has now saturated across materially different model routes.
+
+Current fixed surrounding authority:
+- P1 warning remains fixed;
+- P2 is Joel's direct owner rewrite beginning `Going back can still matter...`;
+- P4 is Joel's direct owner evaluation paragraph beginning `Don't be afraid to ask your therapist/yourself...`;
+- P5 is the fixed ritual-before-living stop;
+- P3 alone remains unresolved.
+
+The registered raw-source functions still missing from P3 are:
+- real safety/practical action takes priority over substituting more inner analysis;
+- grief may revisit familiar ground without recurrence itself proving a new child request or another required round;
+- the checking thought may remain unresolved without being argued with or pushed away;
+- ordinary life/activity/relationship may resume while uncertainty remains;
+- caring for the child does not require answering every returning thought.
+
+Recent context-aware routes:
+- explicit function-inventory generation failed independent naturalness review;
+- governing-thought-only generation passed independent human-facing review but exact standalone P3 returned Pangram 4.0 **AI 1.0**, Human 0.0, prediction probability `0.9973030090332031`, SHA-256 `46635891b4b51d934e55603b2c899e693ce35dae0d54a05b7a4a5e44d7ccf114`;
+- raw-source P3 failed independent naturalness review;
+- an instrumented diagnostic writer captured its exact pre-prose five-sentence map and then failed independent naturalness/redundancy review before Pangram.
+
+Do not generate another nearby P3 candidate before new owner cognition. The valid owner-help packet is:
+`articles/inner-child-therapy/experiments/CHECKING-CONTEXT-AWARE-OWNER-HELP-20260921.md`.
+
 ## Remaining
 
 - Humanize/incorporate the protective-intent qualification at the central reparenting premise.
 - Humanize the new dangerous-present-adult H2 as a bounded section in full surrounding context.
-- Continue the existing Write-It/checking humanization from its current accepted state; do not reopen it due to raw-source mismatch.
+- Keep Write-It on its current accepted state. For checking P3, stop model-only refinement until Joel supplies a natural rewrite or authorial thought move using the full surrounding section.
 - When later sections are reached, preserve the identity-development harm gate, vow harm gate, and harmful spiritual-authority exclusion.
 - Run normal comprehension/preservation/architecture/humanization/Pangram gates only on boundaries actually changed by the humanization work.
 - Citation/health claim review remains pending unless separately requested or materially required.
@@ -77,7 +104,7 @@ The five targeted source edits do not modify the current humanization authority 
 
 - New dangerous-present-adult safety section is source-valid but not yet humanized.
 - The central protective-intent qualification is not yet incorporated into the accepted humanized opening.
-- Current checking/Write-It humanization remains open on its preexisting issues only; the five targeted source edits add no new blocker there.
+- Write-It remains open only on its preexisting unresolved continuation. Checking P3 is now specifically blocked on missing owner cognition after model-only saturation; the five targeted source edits add no new checking blocker.
 - No publication/export action is authorized by registration.
 
 ## Evidence / artifacts
@@ -95,4 +122,4 @@ The five targeted source edits do not modify the current humanization authority 
 
 ## Next safe action
 
-Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations, but do not reopen unaffected accepted prose. For the currently active Write-It/checking lane, continue from its existing humanization authority and review/detector state.
+Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations and do not reopen unaffected accepted prose. For the checking lane, the next safe action is Joel's full-context P3 rewrite using the owner-help packet; do not launch another model-only P3 attempt first. Write-It remains on its existing humanization authority.

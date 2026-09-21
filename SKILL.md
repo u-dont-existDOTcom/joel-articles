@@ -147,6 +147,25 @@ Never show Draft 0 by default. After drafting, audit the literal completed prose
 
 The cold audit is not a substitute for the preservation proof. Preservation units and authorized deltas are checked mechanically/explicitly before detector eligibility; the cold audit asks whether the preserved material is still coherent, well placed, and good writing.
 
+## Humanization owner-delivery admission
+
+For Joel humanization work, the owner is not an intermediate QA surface. Do not show a generated candidate as proposed article prose until all applicable internal gates pass and the exact eligible boundary has passed the required Pangram check.
+
+Blocking order:
+1. plain-reader comprehension and continuity;
+2. semantic/reality/fidelity preservation with zero unexplained substantive deltas;
+3. architecture / paragraph-role review;
+4. model-shapedness/humanization review;
+5. second literal cold read after any style repair;
+6. final preservation re-proof;
+7. Pangram on each materially model-written paragraph where technically meaningful and on the complete changed natural boundary.
+
+Any substantive edit invalidates affected reviews and all downstream gates; a prior candidate's PASS never transfers to revised bytes. Do not pad short text merely to manufacture a detector boundary, and do not use known-Human owner prose to conceal a red model-written paragraph.
+
+If a candidate fails, keep the prose internal and continue automatically. If repeated structurally different attempts saturate and genuine owner cognition is required, the help packet must show the full surrounding context plus the **contemporaneous pre-prose map actually used for every affected sentence**: sentence, source meaning, local map/move, placement reason, intended next move, failed review, and Pangram result when measured. Never reconstruct a supposedly exact sentence map after failure.
+
+Ordinary progress updates may report gate status or method changes but must not leak failed candidate prose unless Joel explicitly asks to inspect it or a genuine owner-help packet is required.
+
 ## Independent final-reader audit
 
 For substantial P3/P4 reconstruction, final publication copy, or any pass where the drafting context has accumulated enough rationale, repair history, detector feedback, or local decisions to create anchoring risk, run one **genuinely independent final-reader audit** when a fresh model/context is practically available and its marginal value is nontrivial. This is separate from the ordinary cold audit.
