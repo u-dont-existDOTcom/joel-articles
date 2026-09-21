@@ -106,3 +106,27 @@ The promise rule must not invent a mechanical reopening threshold. It may say on
 - the source does not define an automatic time/count threshold.
 
 Disposition: **SELECTED after neutral-architecture failure**.
+
+
+## Third strategy checkpoint
+
+V4 fresh review still identified the same concentrated model-shape risk:
+- identity consequences plus sovereignty/obedience in one self-reader paragraph felt like a comprehensive assessment framework;
+- sovereignty remained only partly motivated even after local compression.
+
+Repeated compression has therefore reached diminishing returns.
+
+### D. Separate identity consequence from agency evidence
+
+New topology:
+- self-reader branch keeps only adult help/change + identity gives/costs/serves/expected-life functions;
+- sovereignty moves out of the identity paragraph;
+- a shared evidence paragraph now asks one coherent question: **what is evidence of present harmful intent/safety?**
+  - religion/belief/thought/past act are not sufficient evidence of current harmful intent;
+  - a self-description such as `sovereign` is also not sufficient;
+  - behavioral ability to pause/question/refuse/revise under demanded obedience is the relevant sovereignty function;
+  - current endorsement/intent remains the target.
+
+This is structurally different from another identity-paragraph wording pass because the sovereignty function changes paragraph role and joins the evidence distinction rather than the identity assessment.
+
+Disposition: **SELECTED**.
