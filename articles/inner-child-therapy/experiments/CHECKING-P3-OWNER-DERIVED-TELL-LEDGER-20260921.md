@@ -75,24 +75,42 @@ Provenance:
 > That background checker can ask if you're really listening, and you can listen to the checker itself. No need to respond.
 
 **AI-shaped operation / risk**
-- `background checker` is conceptual language, but the self-talk makes it an enacted voice instead of a named therapeutic category;
-- no blocking tell defect.
+- the self-talk move is good, but `listen to the checker itself` can be read as another monitoring instruction;
+- fresh independent review identified that ambiguity as the remaining semantic/tell defect.
 
 **Source-earned Human-facing tells already working**
-- **HT14 — social-act/register change:** prose shifts from example narration into internal dialogue;
-- **HT06 — one lived/cognitive move carries several functions:** hearing the checker simultaneously preserves awareness, non-suppression, and non-response;
-- **HT13 — earned short stop:** `No need to respond.` is sufficient and does not translate the move into therapy-speak.
+- **HT14 — social-act/register change:** prose shifts naturally from example narration into internal voice;
+- **HT06 — one lived/cognitive move carries several functions:** the checker can be noticed without opening a new analysis round;
+- **HT13 — earned short stop:** the move should stop once the checker is noticed rather than explaining the therapeutic principle.
 
 **Disposition**
-- **KEEP owner wording.**
+- **REWRITE minimally around the ambiguity; preserve owner self-talk.**
+
+**Positive repair instruction**
+- let the checker speak;
+- notice its arrival in ordinary self-talk;
+- do not turn `noticing` into a new monitoring task;
+- do not explain non-suppression afterward.
+
+**Chat execution**
+
+Replace:
+
+> That background checker can ask if you're really listening, and you can listen to the checker itself. No need to respond.
+
+with:
+
+> Then the background checker goes, “But are you really listening?” There it is.
 
 **Protected meaning**
-- the checking thought may be noticed/listened to without being answered, argued with, or suppressed;
-- care/attention remains implicit.
+- checking thought is heard/noticed;
+- it is neither answered nor fought;
+- care/attention stays implicit.
 
 **Invalid repair**
 - do not add `this is still caring for the child`;
-- do not explain `not responding is different from suppressing`.
+- do not explain `you can observe without engaging`;
+- do not turn the checker into a formal named part.
 
 ---
 
@@ -133,13 +151,13 @@ Replace:
 
 with:
 
-> Anyway, you were going somewhere.
+> Seat belt's on. Where were we?
 
 Why:
-- continues the same scene;
-- carries the return-to-life function;
-- changes register lightly without starting a new conceptual layer;
-- stops without explanatory aftercare.
+- stays inside the same seat-belt scene;
+- carries the return-to-life function through ordinary self-talk rather than a therapeutic instruction;
+- uses **HT13 earned short stop** and **HT14 social-act/register change** without creating a second conceptual layer;
+- avoids the prior slogan and avoids the slightly installed `Anyway...` callback.
 
 **Invalid simulations to reject**
 - `Return to your chosen activity.`
@@ -149,16 +167,16 @@ Why:
 
 ## Integrated tell-repaired P3
 
-> If you're feeling guilty because you didn't put your seat belt on, just put it on. Save the inquiry for later. Perhaps now and then you feel bad about that time you refused to put it on, and you got blamed for breaking your collar bone in a crash. That's natural, but doesn't mean there's something new to look at. That background checker can ask if you're really listening, and you can listen to the checker itself. No need to respond. Anyway, you were going somewhere.
+> If you're feeling guilty because you didn't put your seat belt on, just put it on. Save the inquiry for later. Perhaps now and then you feel bad about that time you refused to put it on, and you got blamed for breaking your collar bone in a crash. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?
 
 ## Preservation impact of tell repair
 
-Only the ending realization changes.
+Two local realizations change.
 
-- return-to-life meaning: preserved;
+- checker-noticing meaning: preserved, but the ambiguous `listen to the checker itself` formulation is removed;
+- return-to-life meaning: preserved and kept inside the same scene;
 - practical action: unchanged;
 - recurring grief / no automatic new inquiry: unchanged;
-- checker noticed without response: unchanged;
 - care remains implicit: unchanged;
 - no new fact, diagnosis, mechanism, treatment claim, or autobiography.
 
