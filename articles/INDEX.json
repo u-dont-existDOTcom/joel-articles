@@ -230,7 +230,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "9ac76b915e8a76a00b7a4e5263cea8c2464e09fd9996eb14104adec5ba202eea"
+          "sha256": "7f7ce0bc8f108c1c3efa6be663551da6cbabf2d1cac9b683e2f495702d9829e1"
         }
       },
       "review": {
@@ -2576,6 +2576,36 @@
           "path": "articles/inner-child-therapy/experiments/CHECKING-CONTEXT-AWARE-OWNER-HELP-20260921.md",
           "sha256": "2c98ec6b24eba945abe5b57c6cf3ff2d9f97206b46fcea8b2e796bc9b76fc510",
           "role": "active_humanization_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/OWNER-CORRECTION-RELATIONAL-THOUGHT-NOT-SENTENCE-JOBS-20260921.md",
+          "sha256": "c1921fd181f8ddda5801555a5ec8e74be55e954f01a1790cbfc5bfa9cf862d4f",
+          "role": "owner_process_rule"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/OWNER-CORRECTION-POST-GENERATION-TELL-LEDGER-20260921.md",
+          "sha256": "8361b69c650d9b219e5949793ca0328f47aef342a5a996968f4494a558c6febd",
+          "role": "owner_process_rule"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-RELATIONAL-THOUGHT-RT2-PREPANGRAM-20260921.md",
+          "sha256": "b95a9e7dfe9a5728884f336597752a977965a3521ed12a6e4c3294f56335a436",
+          "role": "humanization_experiment"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-DERIVED-TELL-LEDGER-20260921.md",
+          "sha256": "f4b53001edef2364ea783143717b32fbeef7d3aad54cc399584a2b7f6c0121d2",
+          "role": "active_tell_ledger"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-DERIVED-PRESERVATION-20260921.md",
+          "sha256": "62b85529002c3b54b707bddcf92a2299044db4dc5696113b40991c6de03ebf62",
+          "role": "preservation_proof"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-DERIVED-DELIVERY-READY-20260921.md",
+          "sha256": "269287d9eb6be61b71dd113b89b061256f9546e95eba511f28f441e4f3a28719",
+          "role": "delivery_ready_candidate_receipt"
         }
       ]
     }

@@ -64,38 +64,54 @@ The five targeted source edits do not modify the current humanization authority 
 - `Write It. Don't Send It Yet.`;
 - the current checking-section lane.
 
-### Checking lane — current owner-help boundary
+### Checking lane — delivery-ready owner-derived P3
 
-The context-aware checking repair has now saturated across materially different model routes.
+Joel's 2026-09-21 correction superseded the sentence-job generation architecture.
 
-Current fixed surrounding authority:
-- P1 warning remains fixed;
-- P2 is Joel's direct owner rewrite beginning `Going back can still matter...`;
-- P4 is Joel's direct owner evaluation paragraph beginning `Don't be afraid to ask your therapist/yourself...`;
-- P5 is the fixed ritual-before-living stop;
-- P3 alone remains unresolved.
+Durable process correction:
+- do not preassign one sentence per protected function;
+- generate from interacting thought/examples/self-talk;
+- run the Human-facing tell ledger **after** literal prose exists;
+- execute the tell repairs before downstream review/Pangram.
 
-The registered raw-source functions still missing from P3 are:
-- real safety/practical action takes priority over substituting more inner analysis;
-- grief may revisit familiar ground without recurrence itself proving a new child request or another required round;
-- the checking thought may remain unresolved without being argued with or pushed away;
-- ordinary life/activity/relationship may resume while uncertainty remains;
-- caring for the child does not require answering every returning thought.
+Fresh autonomous relational-thought Railway transfer still failed Pangram:
+- exact 67-word candidate SHA `f4eb41cadae4d91e477b26002743449c2903536e82006ab9dfce0225d52f571b`;
+- Pangram 4.0 AI **1.0**, Human 0.0, prediction probability `0.9988531470298767`.
 
-Recent context-aware routes:
-- explicit function-inventory generation failed independent naturalness review;
-- governing-thought-only generation passed independent human-facing review but exact standalone P3 returned Pangram 4.0 **AI 1.0**, Human 0.0, prediction probability `0.9973030090332031`, SHA-256 `46635891b4b51d934e55603b2c899e693ce35dae0d54a05b7a4a5e44d7ccf114`;
-- raw-source P3 failed independent naturalness review;
-- an instrumented diagnostic writer captured its exact pre-prose five-sentence map and then failed independent naturalness/redundancy review before Pangram.
+Production then switched to owner-derived substrate rather than another autonomous rewrite.
 
-Do not generate another nearby P3 candidate before new owner cognition. The valid owner-help packet is:
-`articles/inner-child-therapy/experiments/CHECKING-CONTEXT-AWARE-OWNER-HELP-20260921.md`.
+Current delivery-ready P3:
+
+> If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?
+
+Exact P3 SHA:
+`8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b`.
+
+Internal gates:
+- post-generation tell ledger PASS after three realization repairs + one chronology clarification;
+- independent comprehension/fidelity/naturalness/continuity/redundancy PASS;
+- preservation forward/reverse traceability PASS, zero unexplained substantive deltas.
+
+Pangram 4.0 exact UTF-8:
+- P3, 86 words: Human **1.0**, AI 0.0, AI probability `0.015982024371623993`;
+- P1+P2+P3, 167 words: Human **1.0**, AI 0.0, AI probability `0.04337630793452263`;
+- complete section, 318 words: Human **1.0**, AI 0.0, AI probability `0.06802033632993698`.
+
+Delivery receipt:
+`articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-DERIVED-DELIVERY-READY-20260921.md`.
+
+Tell ledger:
+`articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-DERIVED-TELL-LEDGER-20260921.md`.
+
+Promotion status:
+**OWNER ACCEPTANCE PENDING.** Do not silently insert the candidate into `HUMANIZED-ARTICLE-SO-FAR.md` before Joel accepts the exact wording.
+
 
 ## Remaining
 
 - Humanize/incorporate the protective-intent qualification at the central reparenting premise.
 - Humanize the new dangerous-present-adult H2 as a bounded section in full surrounding context.
-- Keep Write-It on its current accepted state. For checking P3, stop model-only refinement until Joel supplies a natural rewrite or authorial thought move using the full surrounding section.
+- Keep Write-It on its current accepted state. For checking P3, run the new owner-authorized relational-thought architecture exactly once through the full delivery gate before deciding whether owner help is still needed.
 - When later sections are reached, preserve the identity-development harm gate, vow harm gate, and harmful spiritual-authority exclusion.
 - Run normal comprehension/preservation/architecture/humanization/Pangram gates only on boundaries actually changed by the humanization work.
 - Citation/health claim review remains pending unless separately requested or materially required.
@@ -104,7 +120,7 @@ Do not generate another nearby P3 candidate before new owner cognition. The vali
 
 - New dangerous-present-adult safety section is source-valid but not yet humanized.
 - The central protective-intent qualification is not yet incorporated into the accepted humanized opening.
-- Write-It remains open only on its preexisting unresolved continuation. Checking P3 is now specifically blocked on missing owner cognition after model-only saturation; the five targeted source edits add no new checking blocker.
+- Write-It remains open only on its preexisting unresolved continuation. Checking P3 is no longer blocked on missing owner cognition: Joel supplied a materially different relational-thought architecture on 2026-09-21. Its next result determines whether the lane resumes or returns to owner-help status.
 - No publication/export action is authorized by registration.
 
 ## Evidence / artifacts
@@ -122,4 +138,4 @@ Do not generate another nearby P3 candidate before new owner cognition. The vali
 
 ## Next safe action
 
-Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations and do not reopen unaffected accepted prose. For the checking lane, the next safe action is Joel's full-context P3 rewrite using the owner-help packet; do not launch another model-only P3 attempt first. Write-It remains on its existing humanization authority.
+Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations and do not reopen unaffected accepted prose. For the checking lane, the next safe action is one fresh full-context P3 generation using the relational-thought architecture: no sentence jobs, shared concrete example/self-talk substrate, then independent review, preservation re-proof, and Pangram if eligible. Write-It remains on its existing humanization authority.
