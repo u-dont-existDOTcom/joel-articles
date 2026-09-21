@@ -230,7 +230,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "8e344f9479db03e4fe8a538c029b51a81093d7c1b017a93acf3556d4041f98fc"
+          "sha256": "50f06cead31772fbc614b0ac6dd4503e6dcede0fc868c95beda7aed6d883fcdc"
         }
       },
       "review": {
@@ -2611,6 +2611,11 @@
           "path": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-ACCEPTANCE-PROMOTION-20260921.json",
           "sha256": "d32cb9d4a81412ad3999f4ea0e0e85c3d470950bdeb524d1f52369a192bd99f8",
           "role": "promotion_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/OWNER-CORRECTION-RT2-STILL-HAD-OBVIOUS-AI-TELLS-20260921.md",
+          "sha256": "562c0be3ad285c616dc68b2162a86f21fa0a54403d8878136d040a9a89647e71",
+          "role": "owner_process_correction"
         }
       ]
     }
