@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "awaiting_owner_tell_calibration_on_repaired_v19",
+  "status": "active_rebase_on_clear_raw_source_after_v19_rejection",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
   "canonical_base_branch": "main",
@@ -11,23 +11,22 @@
   "isolation_note": "Active lock integration branch is stale/diverged from current canonical main; this writer branches from current owner-designated canonical main and will not mutate main or the stale shared integration branch.",
   "scope": "Humanize the two current-frontier Inner Child Therapy source-delta safety obligations, run required gates, and preserve Write-It/checking authority.",
   "created_utc": "2026-09-21T17:40:00Z",
-  "last_reconciled_head": "d4affb5d42edebd840b6c458e4950e0d52ed0eab",
-  "reconciled_utc": "2026-09-21T23:10:00Z",
-  "reconciliation_note": "Unexpected linear advancement containing V15-V18 was explicitly reconciled. Direct owner correction then required repairing known AI tells before owner review. V19 is the best current repaired owner-review candidate; known V14 defects were not intentionally left for owner cleanup.",
-  "last_known_writer_head": "f7b50eb65c919735f7a3b3282c9937f9b67f1f18",
+  "last_reconciled_head": "a7a41648c66ccf4f101f0f1f88648a0957e2677f",
+  "reconciled_utc": "2026-09-21T23:46:00Z",
+  "reconciliation_note": "V19 owner review received. V19 rejected as clearly AI. Owner identified fake personal stake, cumulative compressed command/listicle cadence, optimal-efficiency teaching units, abrupt unsupported complication, and compressed lesson sound bites. Current raw AI-guide H2 is preferred clarity baseline.",
+  "last_known_writer_head": "005c0eeb92ecc52d44c23a414f7c6045174e1fcd",
   "stop_admission": {
     "parent_outcome": "OPEN",
-    "remaining_gap": "Owner calibrates residual tell uncertainty on repaired V19; then Chat repairs and runs genuinely fresh Railway critic threads until no definite AI tells remain and at least one Human-facing tell is found, followed by preservation/architecture/Pangram gates.",
-    "next_action": "Receive Joel's comments from the V19 highlighted review page, persist the corrected tell rubric, repair V19, then start a new Railway Agent thread on the repaired bytes.",
-    "responsible_actor": "Joel comments on residual tell uncertainty; Chat resumes automatically afterward.",
-    "current_authority": "registered Inner Child source + owner locks + source-update reconciliation + canonical SKILL fresh-context loop + direct repair-before-owner-review correction",
-    "blocker": "Owner calibration is now requested only on residual uncertain tells in V19, not on known AI defects.",
+    "remaining_gap": "Produce a natural H2 that preserves the current raw guide's clarity without fake-personal humanization or manual/listicle accumulation; short protective-intent qualification remains ready but unpromoted.",
+    "next_action": "Reconstruct from the exact current raw H2 as the clarity baseline, remove known fake-personal/manual tells, then audit the repaired candidate in genuinely fresh Railway Agent contexts before any new owner review or Pangram call.",
+    "responsible_actor": "Chat continues autonomously; owner input is not currently required.",
+    "current_authority": "registered raw H2 + owner locks + corrected preservation rule + V19 owner tell correction",
+    "blocker": "No owner blocker. V19 method is rejected; replace it from the raw clarity baseline.",
     "independent_work_completed": [
-      "reconciled V15-V18 lane advancement",
-      "repaired known V14 tell defects before owner review",
-      "created V19 repaired candidate",
-      "created commentable highlighted owner review artifact",
-      "canonicalized rule that known AI defects are repaired before owner calibration"
+      "V19 owner calibration captured",
+      "fake personal stake identified as AI-shaped in this guide genre",
+      "cumulative instruction-manual/listicle cadence identified as mesoscale AI pattern",
+      "raw current AI-guide H2 selected as preferred clarity baseline"
     ],
     "publication_or_promotion_performed": false
   }
