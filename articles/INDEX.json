@@ -218,19 +218,19 @@
         },
         "owner_locks": {
           "path": "articles/inner-child-therapy/OWNER-LOCKS.json",
-          "sha256": "2d64706596129fd23d90ad2e8ae5d965305a5e38941ff95b4623458974c130e2"
+          "sha256": "3b3ebe5f9e9bce687448dce485cddecd5788f44e09702eeef6421a01c8595ce0"
         },
         "source_evidence": {
           "path": "articles/inner-child-therapy/SOURCE-EVIDENCE.json",
-          "sha256": "b847f06f19f7bc800a01784417b0a90ea84888b442815f234596380fda984561"
+          "sha256": "363af3b8841008e22bde08d532fb4850a5af9bbc7d9f7540041ee4859227a543"
         },
         "unincorporated_ideas": {
           "path": "articles/inner-child-therapy/UNINCORPORATED-IDEAS.md",
-          "sha256": "9749da8f06bd97a14fe51571065da3e44640771b70eeddf7cb3cf7ae7aba3e1e"
+          "sha256": "1e7573437be0dcfa7c361fe13255759aa3260432c7d02f726c3143425cc6a694"
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "5f7bd9484fe05520c0f2d3b41ea48e7789d43a28b7b8ec6b8d5379918c3369c8"
+          "sha256": "0b1a73c877a2d734b8d0c26125138a31201701178c8c160316aaae97d4dbc269"
         }
       },
       "review": {
@@ -246,7 +246,7 @@
         },
         "editorial": {
           "path": "articles/inner-child-therapy/EDITORIAL-STATUS.json",
-          "sha256": "0e3d24be319c916803a71018762495dcc269a15c5f497d5781477fdb4ff6be24",
+          "sha256": "d3be7ed4d14d9081a6e57a7b194128ae396b1095b2095fdc1a6aebf70373a1bf",
           "status": "pending"
         }
       },
@@ -679,8 +679,8 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "0a0b98abb0d3538715e05bfa6dd7b28fa919620a830d347495e30f1947468cdb",
-          "role": "historical_humanization_review_assembly"
+          "sha256": "15480c194136c7da15f1ee509d2f4ba0e6fa566ee26ad51145fcd316e4d2037c",
+          "role": "active_humanization_review_assembly"
         },
         {
           "path": "articles/inner-child-therapy/INTAKE-20260915.md",
@@ -714,8 +714,8 @@
         },
         {
           "path": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md",
-          "sha256": "cf7431d3f8224582ef279e01f9d6b17a7e1922181df17a5c4b0c449232b40a84",
-          "role": "source_reconciliation"
+          "sha256": "b890518e362b2b59cc1c027c35102655667915a11c172e6776710319078dda1d",
+          "role": "source_delta_humanization_impact"
         },
         {
           "path": "articles/inner-child-therapy/WRITER-LEASE-CHAT-HUMANIZATION-RECOVERY-20260918.json",
