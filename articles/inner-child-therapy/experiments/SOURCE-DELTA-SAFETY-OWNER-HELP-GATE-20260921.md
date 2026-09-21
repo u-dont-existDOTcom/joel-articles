@@ -1,7 +1,9 @@
 # Inner Child Therapy — source-delta safety owner-help gate
 
 Date: 2026-09-21
-Status: **OWNER COGNITION REQUIRED / AUTONOMOUS GENERATION SATURATED / NO CANDIDATE PROMOTED**
+Status: **SUPERSEDED BY DIRECT OWNER CORRECTION / HISTORICAL FAILED ESCALATION / NO CANDIDATE PROMOTED**
+
+> Superseded 2026-09-21 by `OWNER-CORRECTION-AI-TELL-FRESH-CONTEXT-LOOP-20260921.md`. The article already represents Joel's cognition; repeated AI-shaped realization failure did not establish missing owner cognition. Preserve this packet only as history of the failed escalation and V8–V14 evidence.
 
 ## Why this packet exists
 
