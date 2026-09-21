@@ -196,6 +196,17 @@ Do not call a candidate tell-clean merely because Human-facing devices are prese
 
 The current catalog may still be incomplete, but RT2 does **not** establish that; its `tell-clean` premise was false. Keep the paid detector gate separate.
 
+### Fake personal stake and instruction-manual accumulation
+
+Direct owner correction, 2026-09-21:
+
+- In explanatory or therapeutic guide prose, first person is **not** Human-facing merely because it sounds personal. Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision. Ask: **why should the reader care what Joel personally cares/wants here?** If there is no real answer, state the substantive judgment directly.
+- This failure can sound oddly arrogant or performatively intimate: the prose inserts the author as an authority/personality where the section is actually giving general guidance.
+- A clear direct sentence may be acceptable once. The tell emerges cumulatively when repeated compressed commands, verdicts, questions, or short lessons create an **instruction-manual/listicle cadence**. Audit the passage as a sequence, not merely sentence by sentence.
+- `Optimal efficiency` is itself a risk pattern when nearly every sentence cleanly performs one teaching job and then hands off to the next. Humanization must not replace an explicit source checklist with a smoother sequence of maximally efficient mini-lessons.
+- Abrupt complication is another risk: a sentence can be substantively correct but still feel model-written when it introduces a new concern with no reader-visible reason for why the topic just changed.
+- When a clear AI-written source is better than a supposedly humanized rewrite, **rollback toward the clear source**. Do not preserve a fake-personal, cute, colloquial, or self-conscious repair merely because it contains more Human-looking surface forms. Humanization must improve naturalness without sacrificing clarity, dignity, or rhetorical fit.
+
 When Joel explicitly asks for the tell ledger or tell fixes, show both the literal ledger and the exact integrated result; do not summarize them invisibly.
 
 ## Humanization owner-delivery admission
