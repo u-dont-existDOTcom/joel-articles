@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "blocked_owner_cognition",
+  "status": "active_owner_calibrated_tell_loop",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
   "canonical_base_branch": "main",
@@ -11,26 +11,24 @@
   "isolation_note": "Active lock integration branch is stale/diverged from current canonical main; this writer branches from current owner-designated canonical main and will not mutate main or the stale shared integration branch.",
   "scope": "Humanize the two current-frontier Inner Child Therapy source-delta safety obligations, run required gates, and preserve Write-It/checking authority.",
   "created_utc": "2026-09-21T17:40:00Z",
-  "last_reconciled_head": "b7cf38c5a224ffefc1b8c4663616a0476c3760ff",
-  "reconciled_utc": "2026-09-21T19:26:00Z",
-  "reconciliation_note": "Eight linear in-scope commits appeared after the prior visible writer checkpoint. They were explicitly compared and semantically reconciled: V8 preservation/architecture PASS, one exact Pangram production failure with recovery/no duplicate resubmission, V8 rejection/re-audit, and structurally different V9 authorial-thought candidate. No article authority was promoted. Branch mutation resumes only from this reconciled head.",
-  "last_known_writer_head": "2849b417d24f225231d57623b0f6b0fa5ab0db8f",
+  "last_reconciled_head": "c99c9238dd1877aac17311baf9e902fad6abf599",
+  "reconciled_utc": "2026-09-21T20:05:00Z",
+  "reconciliation_note": "Direct owner correction supersedes the owner-cognition blocker. The article already represents Joel's cognition; failure is in AI realization/review. Resume from best current candidate with owner-visible AI/mixed/Human tell calibration, then genuinely fresh Railway Agent critic threads until no definite AI tells and at least one genuine Human-facing tell.",
+  "last_known_writer_head": "82a9f3ae5ca780542cfd1fe73f1db6b575bd585a",
   "stop_admission": {
     "parent_outcome": "OPEN",
-    "remaining_gap": "Humanize and certify the new dangerous-present-adult H2 without protocol/checklist model shape; the short protective-intent qualification is internally ready but unpromoted.",
-    "next_action": "Obtain fresh owner rough cognition/natural thought route for the saturated H2, then regenerate from that owner substrate and rerun tell/preservation/architecture/Pangram gates.",
-    "responsible_actor": "owner supplies cognition; Chat resumes generation and gating automatically afterward",
-    "current_authority": "registered Inner Child source + owner locks + source-update reconciliation + current handoff",
-    "blocker": "Repeated structurally different autonomous generations V8-V14/V13 etc. remained visibly protocol-shaped; V8 additionally failed Pangram AI 1.0. Canonical source recovery found no separate owner rough-cognition artifact.",
+    "remaining_gap": "Humanize and certify the dangerous-present-adult H2; short protective-intent qualification remains internally ready but unpromoted.",
+    "next_action": "Expose the best current H2 candidate's definite AI, mixed/ambiguous, and Human-facing tells to Joel for rubric correction; then repair and audit each revision in a new genuinely fresh Railway Agent context until fresh contexts find no definite AI tells and at least one genuine Human-facing tell, followed by preservation/architecture/Pangram gates.",
+    "responsible_actor": "Chat continues; Joel's only required role in this phase is tell/rubric calibration on the visible best candidate.",
+    "current_authority": "registered Inner Child source + owner locks + source-update reconciliation + current handoff + direct 2026-09-21 owner correction",
+    "blocker": "No owner-cognition blocker. Current blocker is model-shaped realization requiring owner-calibrated tell diagnosis and fresh-context independent audits.",
     "independent_work_completed": [
       "V8 exact production Pangram result recovered without duplicate resubmission",
       "V8 post-failure topology re-audit",
-      "multiple strategy replacements through V14",
-      "canonical source-recovery scan",
-      "owner-help packet created",
-      "short protective-intent qualification independently passed and frozen as ready"
+      "structurally different V9-V14 attempts",
+      "short protective-intent qualification independently passed and frozen as ready",
+      "incorrect owner-cognition escalation superseded durably"
     ],
     "publication_or_promotion_performed": false
-  },
-  "blocked_at_utc": "2026-09-21T19:26:00Z"
+  }
 }
