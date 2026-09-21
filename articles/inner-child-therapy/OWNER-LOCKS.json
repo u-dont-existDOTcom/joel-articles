@@ -5,27 +5,47 @@
   "protected_functions": [
     {
       "id": "working-master-source-identity",
-      "description": "Preserve the exact 2026-09-20 owner-supplied raw Substack editor source as the registered working master: 150330 UTF-8 bytes, SHA-256 372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd. Do not normalize editor/native-object markup merely to make the source prettier."
+      "description": "Preserve the exact 2026-09-20 owner-supplied raw Substack editor source as the registered working raw-source master: 150330 UTF-8 bytes, SHA-256 372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd. This master is not the fully humanized branch."
     },
     {
       "id": "native-editor-object-integrity",
-      "description": "Preserve current native/editor object identity and source order unless later owner authority changes placement. SOURCE-STRUCTURE-INVENTORY-20260920.json is the current inventory; the 2026-09-15 inventory is historical baseline evidence only."
+      "description": "Preserve current raw-source native/editor object identity and source order unless later owner authority changes placement. SOURCE-STRUCTURE-INVENTORY-20260920.json is the current raw-source inventory."
     },
     {
-      "id": "owner-final-write-it-p1-pending-placement",
-      "description": "Joel directly finalized a replacement P1 on 2026-09-20 at SHA-256 fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392. It is not present in the new raw master because the source now uses the heading Keep the Draft. Edit the Response. Care for the Writer. This owner correction outranks the working master semantically but remains placement-reconciliation pending; do not silently drop or insert it."
+      "id": "parallel-source-humanization-lineages",
+      "description": "The raw Substack master and HUMANIZED-ARTICLE-SO-FAR.md are intentionally unsynced lineages. Raw-vs-humanized whole-document differences are not source-change evidence. Identify actual owner changes by raw-source-to-prior-raw-source comparison, then project only those deltas onto the humanization branch."
     },
     {
-      "id": "humanization-history-not-master-authority",
-      "description": "Historical humanization assemblies, detector experiments, writer states, and model candidates remain provenance/evidence. They do not override the registered working master or a direct owner correction without an exact promotion record."
+      "id": "protective-intent-central-qualification",
+      "description": "After the central reparenting premise, preserve the new function that present-day adulthood alone is insufficient: the adult must at least be willing to protect vulnerability rather than exploit it. This function must be incorporated into the humanized Chicken-and-Egg section."
     },
     {
-      "id": "checking-owner-corrections-pending-reconciliation",
-      "description": "Earlier owner-final checking/evaluation wording and stop language were replaced in the newest raw source by When More Processing Becomes the Hook. Preserve the conflict as a reconciliation question; do not infer that source recency alone canceled the direct owner corrections."
+      "id": "dangerous-present-adult-safety-gate",
+      "description": "Preserve the new When the Present-Day Adult Is Dangerous to the Child safety section and its functions: harmful/exploitative present intent blocks direct or indirect child contact; the child is not a diagnostic test; work remains adult-focused; sovereignty is behavioral capacity to pause/question/refuse/revise; identity/belief/charged thoughts alone do not establish current harmful intent; verbal promises alone do not clear child work; care may continue without assisting exploitation; sustained real-human care may be needed."
+    },
+    {
+      "id": "identity-development-harm-gate",
+      "description": "Preserve the source correction that identity-building and reparenting can usually proceed together, except when a firmly held identity currently includes exploiting or harming vulnerability; then identity/adult-agency work comes first and the child is not used to dismantle the identity."
+    },
+    {
+      "id": "vow-harm-gate",
+      "description": "Preserve the gate before the inner-child vow: if the present adult still intends to frighten, exploit, or harm vulnerability, skip the vow and child-contact exercise and work first on adult choice/non-harm."
+    },
+    {
+      "id": "harmful-spiritual-authority-exclusion",
+      "description": "Preserve the exclusion that any presence/authority that delights in fear, demands harmful obedience, or directs exploitation of vulnerability cannot serve as Nurturer, Protector, Guide, or borrowed adult, regardless of claimed identity."
+    },
+    {
+      "id": "owner-final-write-it-p1",
+      "description": "Joel directly finalized the Write-It P1 on 2026-09-20 at SHA-256 fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392. Its absence from raw Substack is expected because the humanization branch has not yet been synced there. The five targeted source edits do not touch this subsection."
+    },
+    {
+      "id": "humanization-assembly-active",
+      "description": "HUMANIZED-ARTICLE-SO-FAR.md is the active accepted/locked humanization review assembly for worked material, not merely historical evidence. Experimental candidates still require explicit promotion into that assembly."
     }
   ],
   "owner_review": {
     "status": "pending",
-    "evidence": "Initial registration is working-source authority only. Joel supplied the exact updated Substack editor body on 2026-09-20 and separately finalized Write-It P1 the same evening; source/humanization conflicts are recorded in SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md and require reconciliation before owner-final status."
+    "evidence": "Whole-article owner-final review remains pending. Joel clarified on 2026-09-21 that the latest Substack update contained only five targeted source edits and that the humanized branch had not yet been synced to Substack; SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md records the corrected impact analysis."
   }
 }
