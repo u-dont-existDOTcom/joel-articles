@@ -29,23 +29,33 @@
     },
     {
       "id": "humanization-source-divergence-20260920",
-      "claim": "The updated raw source materially diverges from the accumulated humanization review assembly across the worked frontier; only one of 39 checked normalized prose/list blocks survived exactly.",
+      "claim": "The raw Substack source and active humanization assembly differ across most worked blocks because they are intentionally unsynced lineages. The earlier 1/39 exact-overlap result is not evidence that Joel newly overwrote 38 humanized blocks.",
       "support": {
         "path": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md"
       },
       "access_status": "complete",
-      "certainty": "deterministic text comparison"
+      "certainty": "owner-corrected interpretation of deterministic cross-lineage comparison"
     },
     {
-      "id": "owner-write-it-p1-conflict",
-      "claim": "Joel's direct 2026-09-20 owner-final Write-It P1 correction is not present in the updated raw source and therefore remains a higher-authority semantic correction with unresolved placement, not a silently discarded paragraph.",
+      "id": "owner-write-it-p1-unsynced",
+      "claim": "Joel's direct 2026-09-20 owner-final Write-It P1 is absent from the raw Substack master because the humanization branch has not yet been synced to Substack. The five targeted source edits do not touch that subsection, so absence from the raw source is not a placement conflict or supersession.",
       "support": {
         "owner_text_sha256": "fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392",
         "promotion_evidence": "articles/inner-child-therapy/experiments/WRITE-IT-P1-PROMOTION-RECEIPT-20260920.json",
         "reconciliation": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md"
       },
       "access_status": "complete",
-      "certainty": "direct owner correction plus exact source comparison"
+      "certainty": "direct owner clarification plus exact branch provenance"
+    },
+    {
+      "id": "five-targeted-source-edits-20260921",
+      "claim": "Joel clarified that the latest Substack revision was limited to five targeted edits: central protective-intent qualification; dangerous-present-adult safety section; identity-development harm gate; vow harm gate; and harmful spiritual-authority exclusion.",
+      "support": {
+        "reconciliation": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md",
+        "raw_master": "articles/inner-child-therapy/master.html"
+      },
+      "access_status": "complete",
+      "certainty": "direct owner correction"
     }
   ],
   "source_files": [
