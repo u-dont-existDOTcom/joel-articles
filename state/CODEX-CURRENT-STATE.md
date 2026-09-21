@@ -1,21 +1,19 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-09-20
+Updated: 2026-09-21
 
-## 2026-09-20 controlling article-authority update
+## 2026-09-21 controlling Inner Child lineage correction
 
-This section supersedes older article-count, registration, and root next-action language retained below as history.
+This section supersedes the 2026-09-20 interpretation that broad raw-source/humanized-assembly divergence represented a new Substack rewrite.
 
-- Repository status: **active**.
-- Registered working articles: **Romance**, **Somatic Therapies**, and **Inner Child Therapy**.
-- Inner Child Therapy working master: `articles/inner-child-therapy/master.html`.
-- Inner Child Therapy master identity: **150,330 bytes**, SHA-256 `372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd`.
-- The master is the exact raw Substack/ProseMirror editor body Joel supplied on 2026-09-20. It is a **working source master**, not whole-article owner-final publication copy.
-- Source/humanization reconciliation is OPEN: only **1 of 39** checked normalized blocks in the previously worked humanization frontier survived exactly in the updated source.
-- Joel's direct owner-final Write-It P1 at SHA-256 `fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392` is absent from the new raw source because the section architecture changed; it remains higher semantic authority with unresolved placement.
-- Historical humanization assemblies, detector results, and experiment states are evidence/provenance, not competing article masters.
-- Current Inner Child next action: reconcile the new source against accepted/owner-final humanization section by section, beginning with `Keep the Draft. Edit the Response. Care for the Writer.` and `When More Processing Becomes the Hook`. Do not resume detector optimization against stale pre-update prose.
-- Publication/export remains a separate explicit owner action.
+- Inner Child Therapy remains a registered **working** article.
+- Raw Substack master: 150,330 bytes, SHA-256 `372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd`.
+- `HUMANIZED-ARTICLE-SO-FAR.md` is the active unsynced humanization assembly for worked prose; it is not merely historical because its wording is absent from raw Substack.
+- Joel clarified that the latest Substack revision contained only **five targeted edits**.
+- Only two of those touch the already-humanized frontier: protective-intent qualification after the central reparenting premise, and a new dangerous-present-adult safety H2 after the accepted readiness paragraph.
+- The identity-development gate, vow gate, and harmful-spiritual-authority exclusion are later-source obligations for sections not yet humanized.
+- `Write It. Don't Send It Yet.` and the active checking-section work are unaffected by the five source edits. Joel's owner-final Write-It P1 remains current humanization authority; raw-source absence is expected unsynced-branch state, not a placement conflict.
+- Future source-change analysis must use raw-source-to-prior-raw-source (or direct owner delta authority) before projecting deltas onto an unsynced transformation branch.
 
 ## Goal
 
