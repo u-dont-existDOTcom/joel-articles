@@ -64,47 +64,31 @@ The five targeted source edits do not modify the current humanization authority 
 - `Write It. Don't Send It Yet.`;
 - the current checking-section lane.
 
-### Checking lane — delivery-ready owner-derived P3
+### Checking lane — resolved and owner-accepted
 
-Joel's 2026-09-21 correction superseded the sentence-job generation architecture.
+Joel accepted the exact delivery-ready P3 on 2026-09-21.
 
-Durable process correction:
-- do not preassign one sentence per protected function;
-- generate from interacting thought/examples/self-talk;
-- run the Human-facing tell ledger **after** literal prose exists;
-- execute the tell repairs before downstream review/Pangram.
-
-Fresh autonomous relational-thought Railway transfer still failed Pangram:
-- exact 67-word candidate SHA `f4eb41cadae4d91e477b26002743449c2903536e82006ab9dfce0225d52f571b`;
-- Pangram 4.0 AI **1.0**, Human 0.0, prediction probability `0.9988531470298767`.
-
-Production then switched to owner-derived substrate rather than another autonomous rewrite.
-
-Current delivery-ready P3:
+Accepted P3:
 
 > If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, broke your collar bone in a crash, and then got blamed for not wearing it. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?
 
-Exact P3 SHA:
-`8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b`.
+Exact P3 SHA-256:
+8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b
 
-Internal gates:
-- post-generation tell ledger PASS after three realization repairs + one chronology clarification;
-- independent comprehension/fidelity/naturalness/continuity/redundancy PASS;
-- preservation forward/reverse traceability PASS, zero unexplained substantive deltas.
+The complete five-paragraph checking section is now installed in HUMANIZED-ARTICLE-SO-FAR.md.
 
-Pangram 4.0 exact UTF-8:
-- P3, 86 words: Human **1.0**, AI 0.0, AI probability `0.015982024371623993`;
-- P1+P2+P3, 167 words: Human **1.0**, AI 0.0, AI probability `0.04337630793452263`;
-- complete section, 318 words: Human **1.0**, AI 0.0, AI probability `0.06802033632993698`.
+Quality/detector status:
+- independent reader PASS;
+- preservation forward/reverse PASS with zero unexplained substantive deltas;
+- P3 Pangram Human 1.0 / AI 0.0;
+- P1+P2+P3 Pangram Human 1.0 / AI 0.0;
+- complete section Pangram Human 1.0 / AI 0.0.
 
-Delivery receipt:
-`articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-DERIVED-DELIVERY-READY-20260921.md`.
+Promotion receipt:
+articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-ACCEPTANCE-PROMOTION-20260921.json
 
-Tell ledger:
-`articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-DERIVED-TELL-LEDGER-20260921.md`.
-
-Promotion status:
-**OWNER ACCEPTANCE PENDING.** Do not silently insert the candidate into `HUMANIZED-ARTICLE-SO-FAR.md` before Joel accepts the exact wording.
+Process lesson:
+the successful production path was owner cognition -> owner-derived substrate -> post-generation tell ledger -> executed tell repairs -> preservation -> Pangram. This does not establish fresh autonomous Railway transfer.
 
 
 ## Remaining

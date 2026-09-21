@@ -42,10 +42,14 @@
     {
       "id": "humanization-assembly-active",
       "description": "HUMANIZED-ARTICLE-SO-FAR.md is the active accepted/locked humanization review assembly for worked material, not merely historical evidence. Experimental candidates still require explicit promotion into that assembly."
+    },
+    {
+      "id": "checking-p3-owner-accepted-active-humanization",
+      "description": "Joel accepted exact checking P3 wording on 2026-09-21 for the active unsynced humanization assembly, SHA-256 8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b. Preserve it in HUMANIZED-ARTICLE-SO-FAR.md until the humanization branch is later reconciled into the raw master; do not require it to appear in the current raw Substack master yet."
     }
   ],
   "owner_review": {
     "status": "pending",
-    "evidence": "Whole-article owner-final review remains pending. Joel clarified on 2026-09-21 that the latest Substack update contained only five targeted source edits and that the humanized branch had not yet been synced to Substack; SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md records the corrected impact analysis."
+    "evidence": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-ACCEPTANCE-PROMOTION-20260921.json"
   }
 }
