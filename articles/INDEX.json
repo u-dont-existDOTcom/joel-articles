@@ -2616,6 +2616,11 @@
           "path": "articles/inner-child-therapy/experiments/OWNER-CORRECTION-RT2-STILL-HAD-OBVIOUS-AI-TELLS-20260921.md",
           "sha256": "562c0be3ad285c616dc68b2162a86f21fa0a54403d8878136d040a9a89647e71",
           "role": "owner_process_correction"
+        },
+        {
+          "path": "articles/inner-child-therapy/HUMANIZATION-HANDOFF-20260921.md",
+          "sha256": "382ad9622e2332664bc6ce4c75803dcfefed4061",
+          "role": "active_humanization_handoff"
         }
       ]
     }
