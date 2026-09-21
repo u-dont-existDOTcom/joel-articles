@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "active_owner_calibrated_tell_loop",
+  "status": "awaiting_owner_tell_calibration_on_repaired_v19",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
   "canonical_base_branch": "main",
@@ -11,23 +11,23 @@
   "isolation_note": "Active lock integration branch is stale/diverged from current canonical main; this writer branches from current owner-designated canonical main and will not mutate main or the stale shared integration branch.",
   "scope": "Humanize the two current-frontier Inner Child Therapy source-delta safety obligations, run required gates, and preserve Write-It/checking authority.",
   "created_utc": "2026-09-21T17:40:00Z",
-  "last_reconciled_head": "c99c9238dd1877aac17311baf9e902fad6abf599",
-  "reconciled_utc": "2026-09-21T21:30:00Z",
-  "reconciliation_note": "Owner requested the next four H2 realizations. V15-V18 were generated as materially different exploratory candidates under the corrected preservation rule; no Pangram calls or article promotion performed.",
-  "last_known_writer_head": "de6ddd72731276124d1b5ead2c89c6580899bdd5",
+  "last_reconciled_head": "d4affb5d42edebd840b6c458e4950e0d52ed0eab",
+  "reconciled_utc": "2026-09-21T23:10:00Z",
+  "reconciliation_note": "Unexpected linear advancement containing V15-V18 was explicitly reconciled. Direct owner correction then required repairing known AI tells before owner review. V19 is the best current repaired owner-review candidate; known V14 defects were not intentionally left for owner cleanup.",
+  "last_known_writer_head": "f7b50eb65c919735f7a3b3282c9937f9b67f1f18",
   "stop_admission": {
     "parent_outcome": "OPEN",
-    "remaining_gap": "Humanize and certify the dangerous-present-adult H2; short protective-intent qualification remains internally ready but unpromoted.",
-    "next_action": "Owner reviews V15-V18. Persist tell corrections or preference, then continue the fresh-context Railway critic/repair loop on the best candidate.",
-    "responsible_actor": "Chat continues; Joel's only required role in this phase is tell/rubric calibration on the visible best candidate.",
-    "current_authority": "registered Inner Child source + owner locks + source-update reconciliation + current handoff + direct 2026-09-21 owner correction",
-    "blocker": "No owner-cognition blocker. Current blocker is model-shaped realization requiring owner-calibrated tell diagnosis and fresh-context independent audits.",
+    "remaining_gap": "Owner calibrates residual tell uncertainty on repaired V19; then Chat repairs and runs genuinely fresh Railway critic threads until no definite AI tells remain and at least one Human-facing tell is found, followed by preservation/architecture/Pangram gates.",
+    "next_action": "Receive Joel's comments from the V19 highlighted review page, persist the corrected tell rubric, repair V19, then start a new Railway Agent thread on the repaired bytes.",
+    "responsible_actor": "Joel comments on residual tell uncertainty; Chat resumes automatically afterward.",
+    "current_authority": "registered Inner Child source + owner locks + source-update reconciliation + canonical SKILL fresh-context loop + direct repair-before-owner-review correction",
+    "blocker": "Owner calibration is now requested only on residual uncertain tells in V19, not on known AI defects.",
     "independent_work_completed": [
-      "V8 exact production Pangram result recovered without duplicate resubmission",
-      "V8 post-failure topology re-audit",
-      "structurally different V9-V14 attempts",
-      "short protective-intent qualification independently passed and frozen as ready",
-      "incorrect owner-cognition escalation superseded durably"
+      "reconciled V15-V18 lane advancement",
+      "repaired known V14 tell defects before owner review",
+      "created V19 repaired candidate",
+      "created commentable highlighted owner review artifact",
+      "canonicalized rule that known AI defects are repaired before owner calibration"
     ],
     "publication_or_promotion_performed": false
   }
