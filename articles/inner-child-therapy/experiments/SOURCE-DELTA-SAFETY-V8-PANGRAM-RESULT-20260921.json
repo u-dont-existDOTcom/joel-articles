@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-21",
+  "status": "DETECTOR_FAIL_REJECTED_NOT_PROMOTED",
+  "article_id": "inner-child-therapy",
+  "boundary": "complete H2 When the Present-Day Adult Is Dangerous to the Child, heading included",
+  "word_count": 359,
+  "input_sha256": "879bd8737f01a8262ee93037483a1c9208fedbd5a36182bcecfc89ad9ad12dd8",
+  "pangram": {
+    "model": "pangram-4",
+    "detector_version": "4.0",
+    "stage": "STAGE_SUCCESS",
+    "headline": "AI Generated",
+    "fraction_ai": 1,
+    "fraction_human": 0,
+    "fraction_ai_assisted": 0,
+    "prediction_probability": 0.9873712062835693,
+    "exact_history_binding": true,
+    "transport_match_mode": "exact_utf8"
+  },
+  "production_gates_before_detector": {
+    "comprehension": "PASS",
+    "preservation": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "architecture": "PASS",
+    "post_generation_tell_ledger": "PASS_AT_THE_TIME_BUT_NOW_REOPENED_BY_DETECTOR_FAILURE",
+    "independent_final_reader": "PASS"
+  },
+  "submission_history": {
+    "new_paid_submissions_for_section": 1,
+    "first_runner_timeout_seconds": 120,
+    "paid_action_ambiguous_after_timeout": true,
+    "duplicate_resubmission": false,
+    "exact_record_late_arrival_seconds_from_reservation": 225.404,
+    "recovery": "Direct authenticated History API retrieval exact-bound the stored record without detector resubmission."
+  },
+  "pangram_evidence": {
+    "repository": "u-dont-existDOTcom/pangram-humanization-lab",
+    "branch": "chat/inner-child-safety-v8-pangram-20260921",
+    "branch_head": "ae6866633d453316642c5b79c97e82b71eac11e3",
+    "path": "state/gui-runs/pangram-4/879bd8737f01a8262ee93037483a1c9208fedbd5a36182bcecfc89ad9ad12dd8/result.json"
+  },
+  "interpretation": {
+    "promotion_allowed": false,
+    "article_assembly_changed": false,
+    "owner_delivery_allowed": false,
+    "tell_catalog_incompleteness_established": false,
+    "reason": "Detector failure falsifies the V8 Pangram-readiness prediction. The prior tell-clean premise must be re-audited for missed local or mesoscale AI-shaped operations before attributing failure to unknown detector features."
+  },
+  "next_action": "Re-audit V8 at mesoscale, record missed model-shape operations, stop local V8 refinement, and generate a structurally different authorial-thought candidate before another detector call."
+}
