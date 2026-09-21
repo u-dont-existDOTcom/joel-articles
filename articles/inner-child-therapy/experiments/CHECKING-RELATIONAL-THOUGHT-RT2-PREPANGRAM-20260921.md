@@ -1,7 +1,7 @@
 # Checking P3 — relational-thought candidate RT2 pre-Pangram receipt
 
 Date: 2026-09-21
-Status: **INTERNAL GATES PASS / EXACT BYTES FROZEN / PANGRAM PENDING**
+Status: **INTERNAL GATES PASS / PANGRAM AI 1.0 / PRODUCTION REJECTED**
 
 ## Owner architecture
 
@@ -103,7 +103,38 @@ No explanatory S5 is appended.
 
 No edit was made after the independent reader or preservation proof.
 
-## Detector admission
+## Pangram result
+
+Pangram 4.0 local GUI, exact UTF-8 P3:
+- AI: **1.0**
+- Human: **0.0**
+- AI-assisted: **0.0**
+- prediction probability: **0.9988531470298767**
+- captured: `2026-09-21T14:53:38.096502Z`
+- exact History-bound SHA-256: `f4eb41cadae4d91e477b26002743449c2903536e82006ab9dfce0225d52f571b`
+- words: **67**
+
+Disposition:
+**REJECTED FOR OWNER DELIVERY.**
+
+No active-opening or full-section Pangram calls were spent because the primary model-written paragraph failed.
+
+## Interpretation
+
+Joel's relational-thought correction materially improved the generator's human-facing structure:
+- independent reviewer passed naturalness;
+- one scene carried multiple functions;
+- no sentence-job checklist or explanatory S5 remained.
+
+But the fresh Railway model still produced a Pangram-AI boundary.
+
+Therefore:
+- the owner correction is valuable and remains active;
+- this specific fresh transfer **did not establish detector-level generator learning**;
+- do not add another nearby prompt variant on the same target;
+- switch production architecture to source-relevant owner-prose restoration/minimal assembly rather than asking the model to synthesize another P3.
+
+## Historical detector admission notes
 
 Primary boundary:
 P3 exact SHA `f4eb41cadae4d91e477b26002743449c2903536e82006ab9dfce0225d52f571b`.
