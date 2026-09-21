@@ -173,9 +173,9 @@ A completed tell ledger is **not** a completeness certificate. `No AI-shaped ope
 
 ### Owner-calibrated fresh-context tell loop
 
-When Joel is actively calibrating whether model-written realization sounds Human, do not self-approve the candidate from the same saturated drafting context. Use this loop on the **best current literal candidate**:
+When Joel is actively calibrating whether model-written realization sounds Human, do not self-approve the candidate from the same saturated drafting context. **Do not use Joel as QA for defects the current context already believes are definite. Repair all currently identified definite AI tells first. Owner calibration begins on the best current repaired candidate, not on a version already known to be AI-shaped.** Use this loop on that best current literal candidate:
 
-1. show Joel the exact candidate plus three visibly separate classes: **definite AI tells**, **mixed/ambiguous tells**, and **genuine Human-facing tells**;
+1. show Joel the exact candidate plus three visibly separate classes: **definite AI tells found only after the latest repair or still genuinely disputed**, **mixed/ambiguous tells**, and **genuine Human-facing tells**;
 2. let Joel correct the classifications, causal diagnoses, and rubric;
 3. make that correction durable before another substantial iteration;
 4. repair the candidate using the corrected rubric without turning the rubric into a writer checklist;
