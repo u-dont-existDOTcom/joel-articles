@@ -1,81 +1,98 @@
 # Inner Child Therapy current state
 
-Updated: 2026-09-20
+Updated: 2026-09-21
 
 ## Goal
 
-Maintain the exact newest owner-supplied Substack editor body as registered working source authority while reconciling it with direct owner-final corrections and earlier humanization work without silently losing either side.
+Humanize Inner Child Therapy from the exact registered raw Substack source while preserving accepted/owner-final humanization work and incorporating later owner source edits without confusing the raw-source lineage with the unsynced humanization lineage.
 
 ## Authority / baseline
 
-- Article id: inner-child-therapy
-- Article status: working
-- Canonical working master: articles/inner-child-therapy/master.html
-- Master bytes: 150,330
-- Master SHA-256: 372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd
-- Source surface: raw Substack/ProseMirror editor body supplied directly by Joel on 2026-09-20
-- Historical 2026-09-15 source: 153,734 bytes / SHA-256 5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1
-- Whole-article owner-final status: not claimed
-- Publication status: not published by this repository action
+- Article id: `inner-child-therapy`
+- Article status: **working**
+- Raw-source master: `articles/inner-child-therapy/master.html`
+- Raw-source master bytes: **150,330**
+- Raw-source SHA-256: `372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd`
+- Active humanization assembly: `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
+- Whole-article owner-final status: **not claimed**
+- Publication status: **not published by this repository action**
 
-Current explicit Joel corrections outrank the working master and must be reconciled back into it. In particular, the direct owner-final Write-It P1 at SHA-256 fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392 is not present in the new raw source because the section architecture changed.
+The raw master and humanization assembly are intentionally different lineages. The humanized prose has not yet been synced back to Substack. Therefore a raw-vs-humanized whole-document diff is not evidence that Joel changed or overwrote the humanized prose.
 
 ## Completed
 
-- Materialized the exact 2026-09-20 uploaded raw editor body byte-for-byte as master.html.
-- Independently verified master size and SHA-256 after GitHub materialization.
-- Recorded current heading structure and native/editor object sequence in SOURCE-STRUCTURE-INVENTORY-20260920.json.
-- Preserved the September 15 source receipt/inventory as historical baseline evidence.
-- Compared the accumulated humanization review assembly against the new source across the worked frontier: 1 of 39 checked normalized prose/list blocks survived exactly.
-- Recorded section-level source/humanization divergence in SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md.
-- Preserved Joel's direct owner-final Write-It P1 as unresolved placement authority rather than silently discarding it.
-- Separated historical detector/humanization evidence from current master authority.
+- Registered and independently hash-verified the exact 2026-09-20 raw Substack editor body.
+- Preserved the active humanization assembly and historical experiment/detector evidence separately from raw-source authority.
+- Joel directly clarified on 2026-09-21 that the latest Substack revision contained **five targeted edits**, not a broad rewrite of the humanized frontier.
+- Corrected the prior wrong-baseline diagnosis: the earlier `1/39 exact survivor` result measured cross-lineage difference, not source-update magnitude.
+- Classified the five actual source edits against the current humanization frontier.
+- Confirmed that only two current-frontier obligations are new: a protective-intent qualification in `The Chicken-and-Egg Problem`, and a new dangerous-present-adult H2 after `Before You Try to Go Deep`.
+- Confirmed that the owner-final `Write It. Don't Send It Yet.` P1 remains current humanization authority and is unaffected by the five edits.
+- Confirmed that the active checking-section humanization work is unaffected by the five edits.
+- Preserved the three later edits as future humanization obligations: identity-development gate, vow gate, and harmful spiritual-authority exclusion.
 
 ## Current checkpoint
 
-The exact raw Substack source is now the working master.
+The current humanization branch remains valid.
 
-The source update is not map-only. The checked humanized frontier was broadly rewritten:
-- The Chicken-and-Egg Problem is re-realized and gains a five-stage map + YouTube embed.
-- My Journey and Don't Give the Inner Adult Away are extensively rewritten.
-- Before You Try to Go Deep is replaced and gains When the Present-Day Adult Is Dangerous to the Child.
-- You Don't Need an Inner Monologue, the hook section, and Also Look Outward are re-realized.
-- Write It. Don't Send It Yet. is replaced by Keep the Draft. Edit the Response. Care for the Writer.
-- When Healing Turns Into Checking is replaced by When More Processing Becomes the Hook.
+### Existing humanized location requiring a local addition
 
-Only the sentence The image below maps out the details as best as I can fit: survived exactly among the 39 checked blocks.
+After:
+
+> So I stopped asking the child to heal itself. I started being the grown-up instead—the Nurturer, Protector, and Leader or Guide.
+
+incorporate the new source function that the present-day adult must at least be willing to protect vulnerability rather than exploit it.
+
+Do not replace the accepted paragraph merely because raw Substack uses a different realization.
+
+### New section requiring humanization
+
+Keep the accepted `Before You Try to Go Deep` readiness paragraph.
+
+Immediately after it, before `You Don’t Need an Inner Monologue`, add and humanize:
+
+`When the Present-Day Adult Is Dangerous to the Child`
+
+with the protected functions recorded in `OWNER-LOCKS.json` and `SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md`.
+
+### Unaffected active work
+
+The five targeted source edits do not modify the current humanization authority for:
+- `You Don’t Need an Inner Monologue`;
+- `Catch the Hook Before the Story Takes Over`;
+- `Also Look Outward`;
+- `Write It. Don't Send It Yet.`;
+- the current checking-section lane.
 
 ## Remaining
 
-- Reconcile the new source against prior accepted/humanized prose section by section.
-- Classify each changed section as intentional source improvement, map/content addition with realization repair, superseded prior humanization, accidental overwrite/regression, or genuine owner decision required.
-- Resolve placement of Joel's owner-final Write-It P1 inside or relative to the new Keep the Draft architecture.
-- Reconcile When More Processing Becomes the Hook against earlier owner-final checking/evaluation wording.
-- After reconciliation, rerun comprehension, preservation, architecture, humanization, and applicable Pangram gates on exact stabilized boundaries.
-- Citation/health claim review remains pending unless separately requested or required for publication.
+- Humanize/incorporate the protective-intent qualification at the central reparenting premise.
+- Humanize the new dangerous-present-adult H2 as a bounded section in full surrounding context.
+- Continue the existing Write-It/checking humanization from its current accepted state; do not reopen it due to raw-source mismatch.
+- When later sections are reached, preserve the identity-development harm gate, vow harm gate, and harmful spiritual-authority exclusion.
+- Run normal comprehension/preservation/architecture/humanization/Pangram gates only on boundaries actually changed by the humanization work.
+- Citation/health claim review remains pending unless separately requested or materially required.
 
 ## Blockers / unresolved
 
-- Owner-placement reconciliation: direct owner-final Write-It P1 is not present in the newest raw source.
-- Checking reconciliation: newer raw-source prose overlaps/supersedes the surface of earlier owner-final checking/evaluation wording, but source recency alone cannot silently cancel that wording.
-- Humanization status: the new source must not be called fully humanized; historical Pangram results do not transfer to changed bytes.
+- New dangerous-present-adult safety section is source-valid but not yet humanized.
+- The central protective-intent qualification is not yet incorporated into the accepted humanized opening.
+- Current checking/Write-It humanization remains open on its preexisting issues only; the five targeted source edits add no new blocker there.
 - No publication/export action is authorized by registration.
 
 ## Evidence / artifacts
 
-- Working master: articles/inner-child-therapy/master.html
-- Owner locks / protected functions: articles/inner-child-therapy/OWNER-LOCKS.json
-- Source/evidence index: articles/inner-child-therapy/SOURCE-EVIDENCE.json
-- Current source inventory: articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260920.json
-- Historical source receipt: articles/inner-child-therapy/SOURCE-IMPORT-RECEIPT-20260915.md
-- Historical source inventory: articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260915.json
-- Source/humanization reconciliation: articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md
-- Humanization review assembly: articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md, historical comparison evidence
-- Citation state: articles/inner-child-therapy/CITATIONS.json
-- Detector state: articles/inner-child-therapy/DETECTOR-EVIDENCE.json
-- Editorial state: articles/inner-child-therapy/EDITORIAL-STATUS.json
-- Unincorporated/reconciliation ledger: articles/inner-child-therapy/UNINCORPORATED-IDEAS.md
+- Raw working master: `articles/inner-child-therapy/master.html`
+- Active humanization assembly: `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
+- Owner locks / protected functions: `articles/inner-child-therapy/OWNER-LOCKS.json`
+- Corrected source-delta / humanization impact analysis: `articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md`
+- Source/evidence index: `articles/inner-child-therapy/SOURCE-EVIDENCE.json`
+- Current raw-source inventory: `articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260920.json`
+- Citation state: `articles/inner-child-therapy/CITATIONS.json`
+- Detector state: `articles/inner-child-therapy/DETECTOR-EVIDENCE.json`
+- Editorial state: `articles/inner-child-therapy/EDITORIAL-STATUS.json`
+- Unincorporated/future-source obligations: `articles/inner-child-therapy/UNINCORPORATED-IDEAS.md`
 
 ## Next safe action
 
-Use the exact registered master as the current source snapshot and perform context-aware reconciliation of the changed humanized frontier. Start with Keep the Draft. Edit the Response. Care for the Writer. and When More Processing Becomes the Hook, showing Joel full surrounding context whenever an owner decision is actually required. Do not resume detector optimization against stale pre-update prose.
+Continue humanization from the active humanization assembly. Preserve the two newly relevant source obligations at their exact locations, but do not reopen unaffected accepted prose. For the currently active Write-It/checking lane, continue from its existing humanization authority and review/detector state.
