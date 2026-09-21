@@ -169,6 +169,8 @@ After literal candidate prose exists and before final detector admission:
 
 Do not skip this layer merely because relational-thought generation or independent-reader review already passed. Conversely, do not move the tell ledger upstream into the writer prompt.
 
+A completed tell ledger is **not** a completeness certificate. `No AI-shaped operation identified` means only that the current ledger/reviewer did not identify one; it does not establish that no Pangram-relevant model signal remains. The Inner Child checking RT2 control on 2026-09-21 remained Pangram AI 1.0 after all currently identified tell defects were repaired and a fresh reader saw no obvious remaining model-shaped operation. Treat the tell system as useful but incomplete and keep the paid detector gate separate.
+
 When Joel explicitly asks for the tell ledger or tell fixes, show both the literal ledger and the exact integrated result; do not summarize them invisibly.
 
 ## Humanization owner-delivery admission
