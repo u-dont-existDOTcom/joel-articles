@@ -5,7 +5,7 @@ Status: **POST-GENERATION DIAGNOSTIC / OWNER-DERIVED PROSE / ONE TELL REPAIR REQ
 
 ## Literal owner-derived candidate before tell repair
 
-> If you're feeling guilty because you didn't put your seat belt on, just put it on. Save the inquiry for later. Perhaps now and then you feel bad about that time you refused to put it on, and you got blamed for breaking your collar bone in a crash. That's natural, but doesn't mean there's something new to look at. That background checker can ask if you're really listening, and you can listen to the checker itself. No need to respond. Life is for living. So live it! 🙂
+> If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, and you got blamed for breaking your collar bone in a crash. That's natural, but doesn't mean there's something new to look at. That background checker can ask if you're really listening, and you can listen to the checker itself. No need to respond. Life is for living. So live it! 🙂
 
 Provenance:
 - first seven sentences are near-verbatim/direct owner suggestions from the active Chat;
@@ -18,7 +18,7 @@ Provenance:
 
 **Current exact text**
 
-> If you're feeling guilty because you didn't put your seat belt on, just put it on. Save the inquiry for later.
+> If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine.
 
 **AI-shaped operation / risk**
 - none blocking;
@@ -30,14 +30,35 @@ Provenance:
 - **HT13 — earned short stop:** `Save the inquiry for later.` stops because the practical action is enough for now.
 
 **Disposition**
-- **KEEP owner wording.**
+- **REWRITE one sentence only.**
+
+**Tell defect found on independent read**
+- `Save the inquiry for later.` can imply that inquiry remains an obligation merely postponed;
+- that conflicts slightly with the later realization that there may be nothing new requiring investigation.
+
+**Positive repair instruction**
+- keep the practical interruption;
+- make later inquiry optional rather than deferred homework;
+- stay colloquial and short.
+
+**Chat execution**
+
+Replace:
+
+> Save the inquiry for later.
+
+with:
+
+> If you still want to investigate it later, fine.
 
 **Protected meaning**
-- practical/safety action takes priority over another analysis round.
+- practical/safety action takes priority over another analysis round;
+- later reflection remains available but not required.
 
 **Invalid repair**
 - do not expand into `first handle the practical issue...`;
-- do not explain why seat-belt action is an example of grounding.
+- do not explain why seat-belt action is an example of grounding;
+- do not imply that later processing must happen.
 
 ---
 
@@ -167,11 +188,11 @@ Why:
 
 ## Integrated tell-repaired P3
 
-> If you're feeling guilty because you didn't put your seat belt on, just put it on. Save the inquiry for later. Perhaps now and then you feel bad about that time you refused to put it on, and you got blamed for breaking your collar bone in a crash. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?
+> If you're feeling guilty because you didn't put your seat belt on, just put it on. If you still want to investigate it later, fine. Perhaps now and then you feel bad about that time you refused to put it on, and you got blamed for breaking your collar bone in a crash. That's natural, but doesn't mean there's something new to look at. Then the background checker goes, “But are you really listening?” There it is. Seat belt's on. Where were we?
 
 ## Preservation impact of tell repair
 
-Two local realizations change.
+Three local realizations change.
 
 - checker-noticing meaning: preserved, but the ambiguous `listen to the checker itself` formulation is removed;
 - return-to-life meaning: preserved and kept inside the same scene;
