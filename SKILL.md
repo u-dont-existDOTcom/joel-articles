@@ -155,6 +155,22 @@ Hold preservation functions outside the prose outline. Give the writer a small i
 
 If owner-help escalation later requires a contemporaneous map, preserve the **actual generative substrate** used while writing. Do not convert that requirement into a pre-writing sentence-job plan. If multiple sentences emerged from one shared example/thought-field, record that shared substrate and each sentence's actual emergence; never fabricate a sentence-specific job after failure.
 
+## Post-generation tell ledger and repair
+
+For humanization work, the Human-facing tell catalog is a **post-generation diagnostic/repair layer**, not a composition checklist.
+
+After literal candidate prose exists and before final detector admission:
+1. inspect each material span for current AI-shaped operation/tell risk;
+2. record which source-earned Human-facing relations already work and which are missing or misapplied;
+3. assign a concrete disposition: KEEP / DELETE / REWRITE / MERGE / SUBORDINATE / MOVE;
+4. state the exact positive structural repair while protecting source meaning;
+5. execute the repair in Chat;
+6. rerun all affected downstream gates because the prose changed.
+
+Do not skip this layer merely because relational-thought generation or independent-reader review already passed. Conversely, do not move the tell ledger upstream into the writer prompt.
+
+When Joel explicitly asks for the tell ledger or tell fixes, show both the literal ledger and the exact integrated result; do not summarize them invisibly.
+
 ## Humanization owner-delivery admission
 
 For Joel humanization work, the owner is not an intermediate QA surface. Do not show a generated candidate as proposed article prose until all applicable internal gates pass and the exact eligible boundary has passed the required Pangram check.
