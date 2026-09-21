@@ -1,9 +1,9 @@
 # Inner Child Therapy — source-delta safety two-audience candidate + tell ledger
 
 Date: 2026-09-21
-Status: **POST-GENERATION TELL REPAIR EXECUTED / SECOND FRESH READ PENDING / NOT ARTICLE AUTHORITY**
+Status: **POST-GENERATION TELL REPAIR EXECUTED / V3 FRESH READ PENDING / NOT ARTICLE AUTHORITY**
 
-## Exact candidate v2
+## Exact candidate v3
 
 ### Central protective-intent qualification
 
@@ -15,85 +15,78 @@ Status: **POST-GENERATION TELL REPAIR EXECUTED / SECOND FRESH READ PENDING / NOT
 >
 > Being calm and present doesn't make the adult safe for the child. If you currently enjoy frightening or humiliating vulnerable people, want to exploit them, or want therapy to make you better at manipulation, don't bring the child forward—not even briefly to see how the child reacts. The child's fear is not a diagnostic test, and it can't become another source of gratification.
 >
-> If you recognize yourself in that description, don't ask the child to help you sort it out. Stay with present-day you. Start with what you actually want from help—what you're suffering from or hoping to change. If harming vulnerability is tied up with an identity you hold, keep the work there: what is that identity doing for you, who does it serve, what is it costing, and is it actually giving you the life and happiness you expected? If “sovereign” is part of that identity, I mean something practical by it here: can you pause, question, refuse, or revise when an urge, doctrine, group, spirit, or master demands obedience?
+> If you recognize yourself in that description, don't ask the child to help you sort it out. Stay with present-day you. Start with what you actually want from help—what you're suffering from or hoping to change. If harming vulnerability is tied up with an identity you hold, stay with what that identity is doing in your life: what it gives you, what it costs, who it serves, and whether the life and happiness it produces are actually what you expected. If “sovereign” is part of that identity, I only need a practical meaning here: can you pause, question, refuse, or revise when an urge, doctrine, group, spirit, or master demands obedience?
 >
-> If you're helping someone in this position, don't treat a religious identity, unusual belief, intrusive thought, anger, unwanted fantasy, charged language, or past harmful act as proof of current harmful intent. Ask what the person actually endorses and intends now. And if they say the intent has changed, a promise alone is not enough reason to restart child work; look for repeated non-harmful choices, including when exploitation would feel rewarding.
+> If you're helping someone in this position, don't treat a religious identity, unusual belief, intrusive thought, anger, unwanted fantasy, charged language, or past harmful act as proof of current harmful intent. Ask what the person actually endorses and intends now. You can still listen and care without flattering cruelty, arguing theology, or helping them get better at exploiting people.
 >
-> Either way, while harmful intent remains, don't try to reach the child through dialogue, childhood photos, hypnosis, borrowed-parent imagery, spiritual figures, or another indirect route. If you're helping, you can still listen and care without flattering cruelty, arguing theology, or helping them get better at exploiting people. Some people here may need sustained care from a real human being more than another inner exercise or a bot.
+> If the harmful intent seems to have changed—whether this is you or someone you're helping—don't use the statement alone as proof that child work is safe to restart. Repeated non-harmful choices, including when exploitation would feel rewarding, are part of the evidence. While harmful intent remains, don't try to reach the child through dialogue, childhood photos, hypnosis, borrowed-parent imagery, spiritual figures, or another indirect route. Some people here may need sustained care from a real human being more than another inner exercise or a bot.
 
-## Why v1 was revised
+## Why v2 was revised
 
-Fresh isolated review of v1 found:
-- audience split: clear;
-- promise/repeated-choice rule: clear;
-- remaining weakness: identity/sovereignty branch was still overly comprehensive;
-- remaining weakness: the helper evidence paragraph also carried care/enabling, making the middle feel like a complete protocol.
+Fresh isolated review of v2 found:
+- two audiences were clear;
+- identity/sovereignty was locally motivated rather than an unrelated detour;
+- promise/repeated-choice rule was understandable and did not invent a numeric threshold;
+- remaining ambiguity: repeated-choice evidence sounded grammatically helper-only;
+- remaining model-shape risk: identity paragraph retained a multi-question assessment cadence.
 
-Those are substantive findings, so v1 downstream review does not transfer to v2.
+Those findings are substantive, so v2 downstream review does not transfer.
 
-## Post-generation tell ledger v2
+## Post-generation tell ledger v3
 
 ### Common opening
 
-**Disposition: KEEP.**
-
-The capacity-vs-safety dependency is necessary after the readiness paragraph.
-The hard child-contact stop and diagnostic/gratification reason are carried as one causal movement.
-No decorative scene, filler, or explanatory-aftercare is used.
+**KEEP.**
+Necessary capacity-vs-safety dependency; no duplicate abstract rule/action pair; no fabricated detail or aftercare.
 
 ### Self-reader branch
 
-**v1 risk**
-- four consecutive identity questions;
-- sovereignty/doctrine/spirit/master sequence read as a conceptual detour.
-
-**Repairs executed**
-- compress the identity functions into one question cluster tied explicitly to `harming vulnerability ... tied up with an identity`;
-- retain gives / serves / costs / expected life-happiness inside that one adult-level inquiry;
-- make `sovereign` explicitly local and behavioral: `I mean something practical by it here`;
-- preserve pause / question / refuse / revise and compelled obedience without opening a theology debate.
+**v2 repairs executed**
+- convert four consecutive identity questions into one subordinate identity-function clause;
+- preserve exact functions: what identity gives, costs, whom it serves, and whether it produced expected life/happiness;
+- preserve sovereignty as behavioral pause/question/refuse/revise capacity;
+- keep urge/doctrine/group/spirit/master as the source-protected compelled-obedience contrast;
+- retain first-person `I only need a practical meaning here` to prevent sovereignty from becoming a general philosophical definition.
 
 **Mesoscale role**
-- adult work remains adult work;
-- identity is conditional and subordinate;
-- sovereignty is a concrete agency test within identity, not a new theme.
+- self-reader adult work, not diagnostic screening;
+- identity remains conditional on harming vulnerability being tied to it.
 
-### Helper evidence branch
+### Helper branch
 
-**v1 risk**
-- evidence + promise + repeated choices + care/enabling all accumulated in one paragraph.
+**v2 repair executed**
+- remove promise/repeated-choice reopening evidence from helper-only grammar;
+- keep only helper-specific evidence caution and care-without-enabling here:
+  - labels/thoughts/past act alone are not current harmful intent;
+  - inspect current endorsement/intent;
+  - listening/care does not require flattering cruelty, theology debate, or exploitative coaching.
 
-**Repairs executed**
-- keep only evidence classification here:
-  - labels/thoughts/past act alone do not establish current harmful intent;
-  - current endorsement/intent is the relevant object;
-  - a claimed change of intent is not cleared by the verbal promise alone;
-  - repeated non-harmful choices are credibility evidence;
-- move care/enabling guidance out of this paragraph.
+### Shared evidence + no-contact close
 
-**Gate precision**
-- no automatic count/duration threshold is invented;
-- `not enough reason to restart child work` names exactly what the promise cannot establish by itself.
+**v2 repair executed**
+- explicitly bind the changed-intent evidence rule to both audiences:
+  `whether this is you or someone you're helping`;
+- avoid inventing a clearance threshold:
+  repeated non-harmful choices are `part of the evidence`, not an automatic formula;
+- preserve the hard no-contact rule while harmful intent remains;
+- preserve all protected indirect routes;
+- preserve sustained real-human-care possibility.
 
-### Reunified close
+### Two-level tell check
 
-**Repair executed**
-- first sentence reunites both audiences at the source-protected no-contact boundary;
-- helper care remains available without assisting exploitation;
-- sustained real-human care is the final available action, not an explanatory summary.
+Local:
+- no simulated spontaneity;
+- no synthetic examples;
+- no image/interpretation aftercare;
+- no generic `what matters is` significance staging;
+- no duplicate mini-conclusions.
 
-### Local / mesoscale tell checks
+Mesoscale:
+- common gate -> self adult work -> helper evidence/care -> shared evidence/no-contact;
+- audience structure, not preservation-unit order, determines topology;
+- source-required lists remain subordinate to one live safety decision;
+- paragraph durations are unequal;
+- no scene-skinned staircase.
 
-- scene-skinned staircase: N/A; no synthetic scene used;
-- interchangeable didactic props: N/A;
-- generic therapeutic abstraction: limited to source-required terms `harmful intent`, `vulnerability`, `child work`; each has a defined local safety function;
-- simulated spontaneity: none;
-- image -> explanatory aftercare: none;
-- equalized semantic efficiency: reduced; the self-reader identity/agency branch receives more space because it has the harder conceptual dependency, while the evidence and close are shorter;
-- one protected function per sentence: no;
-- significance staging / mini-conclusion: none identified.
-
-Same-context conclusion:
-- **PROVISIONAL PASS**;
-- fresh reread required;
-- preservation/architecture proof and detector remain downstream.
+Same-context result: **PROVISIONAL PASS**.
+Fresh read required before preservation/architecture proof and detector eligibility.
