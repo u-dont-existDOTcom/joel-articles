@@ -10,6 +10,8 @@ Céline’s song is called *On ne change pas*—“we don’t change.” I think
 
 So I stopped asking the child to heal itself. I started being the grown-up instead—the Nurturer, Protector, and Leader or Guide.
 
+<!-- SOURCE DELTA 2026-09-21: Joel added a protective-intent qualification to the raw source here. Preserve the accepted paragraph above; humanize/incorporate the new function locally before this section is complete. The required function is that present-day adulthood alone is insufficient if the adult still intends to exploit or harm vulnerability. -->
+
 But here’s the chicken-and-egg problem. What if you’re so far inside the child-state that you can’t become the adult? This is much easier when you can already reach one of those adult roles. But when you can't, it's like you sit there trying to be loving while your mind is becoming controlled again by the inherited critic voice, or you start going numb, throwing a fit, or panicking.
 
 Sometimes somebody else may have to do one part of the adult role with you or for you first. You get to feel what that is like and watch how they do it. Maybe you copy one small thing you've seen them do, or imagine them there when they're not, and try one piece yourself while they're still helping with the rest. That's what I mean by borrowed adulthood. You may still need help with almost all of it for a while, but over time there are more and more of those little parts you can do yourself.
@@ -62,6 +64,8 @@ The image below maps out the details as best as I can fit:
 
 How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later. You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child.
 
+<!-- SOURCE DELTA 2026-09-21: keep the accepted readiness paragraph above. A new H2, `When the Present-Day Adult Is Dangerous to the Child`, belongs immediately after it and before `You Don’t Need an Inner Monologue`. That new section has not yet been humanized and must not be silently presented here as finished. -->
+
 <!-- The original bottom-up-healing embed belongs after readiness; exact native source remains source-recovery pending. -->
 
 ## You Don’t Need an Inner Monologue
@@ -98,10 +102,10 @@ If you've got something burning you up that you wanna say, write it out as a rep
 
 It doesn't mean you need to hide your upset, or apply for a permit to protest, but choose your battles and execute them wisely, so you don't end up regretting how you communicated later. As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), a war with no casualties is the best possible war. When high IQ & EQ communication hits a writer's block, sometimes the best thing is to simply say, "I need some time to think about my response." And if the conflict really requires a response right now, then obviously just do your best rather than wait for the perfect timing.
 
-<!-- P1 above is Joel's direct owner-final 2026-09-20 rewrite of recovered candidate B. It is intentionally not Pangram-tested because it is short, untouched natural owner prose. P3 remains unresolved. A bounded owner-authorized Railway Agent search completed 20 generations; seven structurally varied candidates were Pangram-tested and all seven returned AI 1.0 / Human 0.0 with exact History binding. Do not insert any Railway P3 candidate here. Reconcile this P1 and all accepted humanized spans against the newly updated Substack source when Joel supplies it. -->
+<!-- P1 above is Joel's direct owner-final 2026-09-20 rewrite of recovered candidate B. It is intentionally not Pangram-tested because it is short, untouched natural owner prose. The five targeted 2026-09-20/21 source edits do not touch this subsection, so P1 remains current humanization authority even though the humanization branch has not yet been synced to Substack. P3 remains unresolved. A bounded owner-authorized Railway Agent search completed 20 generations; seven structurally varied candidates were Pangram-tested and all seven returned AI 1.0 / Human 0.0 with exact History binding. Do not insert any Railway P3 candidate here. -->
 ### When Healing Turns Into Checking
 
-<!-- The preceding checking/return-to-life material remains unresolved and is intentionally not reconstructed here. -->
+<!-- The preceding checking/return-to-life material remains unresolved and is intentionally not reconstructed here. The five targeted source edits do not touch this section; do not reopen accepted checking work merely because the raw Substack branch is intentionally unsynced from the humanization branch. -->
 
 Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, and how would I know if it's helping?" This sovereign, gently curious stance should apply to everything in life. Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy, just like real growing up is not something you do forever. And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.
 

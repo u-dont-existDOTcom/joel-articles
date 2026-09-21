@@ -1,222 +1,159 @@
-# Inner Child Therapy — updated Substack source vs humanized frontier
+# Inner Child Therapy — raw-source delta vs active humanization branch
 
-Date: 2026-09-20
-Status: **SOURCE UPDATE FROZEN / MAJOR HUMANIZED-PROSE DIVERGENCE / RECONCILIATION REQUIRED BEFORE HUMANIZATION PROMOTION**
+Date: 2026-09-21
+Status: **OWNER CORRECTION / WRONG-BASELINE DIAGNOSIS / FIVE TARGETED SOURCE EDITS ONLY**
 
-## Exact updated Substack source
+## Owner correction
 
-Owner supplied the current raw Substack editor body directly in Chat on 2026-09-20.
+The previous reconciliation pass compared the newly uploaded raw Substack source directly against `HUMANIZED-ARTICLE-SO-FAR.md` and treated the resulting broad difference as if Joel had newly rewritten the already-humanized frontier on Substack.
 
-- bytes: **150330**
-- SHA-256: `372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd`
-- encoding: UTF-8
-- source surface: raw Substack/ProseMirror editor HTML
-- role: newest owner-supplied working-source snapshot
-- whole-article owner-final status: **not claimed**
+That inference was wrong.
 
-This source supersedes the September 15 raw source as the newest source snapshot, but it does **not** silently supersede exact owner-final locks or accepted humanization decisions where the new source diverges. Those conflicts require reconciliation.
+Joel clarified that the Substack guide had **not yet been updated with the humanized branch**. The raw Substack source and the humanization review assembly are intentionally different lineages.
 
-Historical baseline:
-- bytes: 153734
-- SHA-256: `5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1`
+Therefore:
+- raw-source → humanized-assembly difference measures the existence of the unsynced humanization branch;
+- it does **not** measure what Joel changed in Substack;
+- the earlier `1 of 39 exact survivors` observation remains a factual cross-lineage overlap statistic, but it is **not evidence that 38 humanized blocks were newly overwritten**.
 
-## Structural delta from September 15 raw source
+The correct source-change baseline is:
 
-Old -> new:
-- H1: 19 -> 19
-- H2: 26 -> 27
-- nonempty H3: 19 -> 19
-- empty H3 editor nodes: 1 -> 0 observed in current parse
-- H4: 1 -> 1
-- captioned images: 4 -> 4
-- native audio: 1 -> 1
-- native video: 1 -> 1
-- digest-post embeds: 3 -> 2
-- YouTube embeds: 1 -> 2
-- high-value editor/native containers total: 10 -> 10
+`prior raw Substack source -> current raw Substack source`
 
-The object count is stable but the composition/identities are not.
+Then only the actual raw-source deltas should be projected onto the active humanization branch.
 
-### Current native/editor object sequence
+## The five actual source edits
 
-1. captioned image — `c8b6db18-b893-47be-8103-c8fb3e6dfaf7_1122x1402.png`
-2. native audio — `bc40d36b-6d3d-470d-a25d-14eb7eb067fb`
-3. native video — `f302980e-0c6a-40c5-b6db-1e89ab887e3d`
-4. YouTube — `4PxC3zZ2Mus`
-5. captioned image — `eba3d518-8cc9-4d23-a220-5f2165f3082d_1122x1402.png`
-6. digest post — `a31729e6-1788-4a82-8439-aa87294bbfef`
-7. digest post — `2ecaff46-0fe2-4cce-9467-5df40c39bc57`
-8. YouTube — `foHCbX0xjAU`, start 54
-9. captioned image — `c4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png`
-10. captioned image — `969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg`
+Joel directly identified the current source update as **five targeted edits**.
 
-The September 15 digest nodes `ad6a6e28...`, `057b7e30...`, and `921ecc78...` are absent from the new source.
+### 1. Protective-intent qualification after the central reparenting premise
 
-## Humanized-frontier overlap audit
+Current raw-source addition:
 
-The current cumulative humanized review assembly was compared against the new source at the paragraph/list-block level through the currently worked frontier.
+> That assumes the present-day person is at least willing to protect vulnerability rather than exploit it; I return to that safety gate below.
 
-Substantive humanized/review blocks checked: **39**
+Function: chronological/present-day adulthood alone does not qualify a person to contact the child; protective intent is a prerequisite.
 
-Exact normalized-text survivors in the updated Substack source: **1 / 39**.
+### 2. New safety section under `Before You Try to Go Deep`
 
-The sole exact surviving block is:
-
-> The image below maps out the details as best as I can fit:
-
-Therefore this is **not** a small map-only delta from the humanized branch. Nearly all previously humanized realization in the checked frontier has been replaced or substantially rewritten.
-
-This does not mean the new prose is wrong. It means the source update and the humanization work are now two distinct branches of owner/editorial development that must be reconciled intentionally.
-
-## High-impact section changes
-
-### The Chicken-and-Egg Problem
-
-The entire humanized opening realization is replaced.
-
-The new source uses a more formal/structured route:
-- child remains / leadership changes;
-- explicit present-day adult roles;
-- borrowed adulthood defined;
-- a five-stage ordered map;
-- new YouTube embed `4PxC3zZ2Mus`.
-
-Do not call earlier accepted/humanized prose preserved here.
-
-### My Journey
-
-The humanized review assembly's My Journey prose is extensively replaced.
-
-Only the line:
-
-> The image below maps out the details as best as I can fit:
-
-survives exactly in the checked humanized frontier.
-
-The new source also extensively rewrites `Don’t Give the Inner Adult Away` and adds/changes surrounding explanation.
-
-### Before You Try to Go Deep
-
-The previously accepted short readiness paragraph is replaced by:
-
-> Reparenting needs enough adult capacity to pause, compare options, remain in the present, and act. It also needs enough protective intent that bringing the child forward will not put vulnerability in the hands of somebody who wants to exploit it. When somebody is flooded or identified almost completely with a frightened child-state, those capacities can be hard to reach. The immediate task may be outside support and regulation. Deeper dialogue can wait.
-
-A new H2 follows:
+New heading:
 
 `When the Present-Day Adult Is Dangerous to the Child`
 
-This is a material architecture and prose change, not just a map insertion.
+Protected functions:
+- reparenting requires protective intent, not only regulation/adult capacity;
+- a person currently intending or enjoying exploitation/harm of vulnerability must not contact the child;
+- the child is not used as a diagnostic test of adult safety;
+- therapy remains adult-focused and asks what help/change is actually wanted, what the identity gives/costs, whom it serves, and whether it produces the expected life/happiness;
+- sovereignty is behavioral capacity to pause, question, refuse, and revise;
+- religious identity, unusual beliefs, intrusive thoughts, anger, unwanted fantasy, charged language, or past wrongdoing alone do not establish current harmful intent;
+- care/listening may continue without flattering cruelty, arguing theology, or improving exploitative skill;
+- a verbal promise alone does not clear the person for child work;
+- while harmful intent remains, no direct or indirect child contact through dialogue, photos, hypnosis, borrowed-parent imagery, spiritual figures, or another route;
+- some people may primarily need sustained real-human care rather than another internal/bot exercise.
 
-### You Don’t Need an Inner Monologue
+### 3. Identity-development gate
 
-All three previously humanized paragraphs are replaced by a different three-paragraph explanation.
+Current source now states that identity-building and reparenting can **usually** proceed together, but when a firmly held identity includes current intent to exploit or harm vulnerability:
 
-### Catch the Hook
+> identity and adult-agency work come first; do not bring the child forward to help dismantle the identity.
 
-Old humanized heading:
-`Catch the Hook Before the Story Takes Over`
+### 4. Gate before the reparenting vow
 
-New source:
-`Catch the Hook Before You Interpret It`
+Current source addition:
 
-The section is fully re-realized and now includes a five-step list plus separate acute-work / meaning-work / sensation-vs-judgment distinctions.
+> If the present adult still intends to frighten, exploit, or harm vulnerability, skip the vow and the child-contact exercise; work first on adult choice and non-harm.
 
-### Also Look Outward
+### 5. Harmful spiritual-authority exclusion
 
-The previously humanized paragraphs are replaced.
+Current source addition:
 
-The prior exact bridge:
+> A presence that delights in fear, demands harmful obedience, or directs you to exploit vulnerability cannot serve as the Nurturer, Protector, Guide, or borrowed adult, whatever identity it claims.
 
-> If you really did hurt them, repair it.
+## Impact on the already-humanized branch
 
-does not appear as its own paragraph in the new source.
+### Existing humanized prose that must change
 
-### Write It. Don't Send It Yet.
+Only **one existing humanized location** needs a new function incorporated:
 
-The heading itself is absent from the new source.
+#### `The Chicken-and-Egg Problem`
 
-It is replaced by:
+Current accepted humanized premise:
 
-`Keep the Draft. Edit the Response. Care for the Writer.`
+> So I stopped asking the child to heal itself. I started being the grown-up instead—the Nurturer, Protector, and Leader or Guide.
 
-with three new paragraphs.
+The new protective-intent qualification belongs immediately after this premise.
 
-Joel's direct 2026-09-20 owner-final P1:
+Do **not** replace the accepted humanized premise merely because the raw source has a different realization. Humanize/incorporate the new safety qualification locally.
+
+### New material that must be humanized and inserted
+
+Under `Before You Try to Go Deep`, keep the existing accepted humanized readiness paragraph.
+
+Immediately after it, before `You Don’t Need an Inner Monologue`, the new H2:
+
+`When the Present-Day Adult Is Dangerous to the Child`
+
+must be humanized as a new section while preserving the protected functions above.
+
+This is an addition, not evidence that the existing readiness paragraph was superseded.
+
+### Source edits outside the already-humanized frontier
+
+Edits 3–5 occur later in the article and do not invalidate current accepted humanization:
+- identity-development gate — preserve when `Sometimes There Isn’t a Clear Child Yet` is humanized;
+- vow gate — preserve when `Make a Simple Vow` is humanized;
+- harmful spiritual-authority exclusion — preserve when the altered-state/spiritual-support passage is humanized.
+
+### Existing humanized work unaffected by the five edits
+
+The five source edits do **not** modify the humanization authority for:
+- `You Don’t Need an Inner Monologue`;
+- `Catch the Hook Before the Story Takes Over`;
+- `Also Look Outward`;
+- `Write It. Don't Send It Yet.`;
+- the active checking-section humanization work.
+
+In particular, Joel's direct owner-final `Write It` P1 remains current humanization authority:
 
 > If you've got something burning you up that you wanna say, write it out as a reply. There. That got it out. Ahh. Breathing easier. But don't send it. Take that breather you earned and then come back to it from a cooler place.
 
-SHA-256:
-`fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392`
+Its absence from the raw Substack master is expected because the humanization branch has not yet been synced to Substack. It is **not a placement conflict** and not evidence of supersession.
 
-is **not present** in the uploaded source.
+The same principle applies to the checking section: differences between raw Substack prose and the active humanization work are expected unless one of the five actual source edits touches that function. None does.
 
-Because that owner correction and the source update were produced in overlapping work, do not silently call either one a supersession of the other. The conflict is now explicitly recorded for owner reconciliation.
+## Correct two-lineage model
 
-### Checking section
+### Registered raw master
 
-Old humanized heading:
-`When Healing Turns Into Checking`
+`articles/inner-child-therapy/master.html`
 
-New source:
-`When More Processing Becomes the Hook`
+Role: exact current Substack/source authority, including the five targeted source edits. It is not the fully humanized article.
 
-The new section is five paragraphs and reintroduces/expands several functions that had been under active deduplication/humanization review:
-- real wound + unhelpful response coexist;
-- feeling/understanding/decision/response change as evaluation;
-- grief recurrence caveat;
-- checking-vs-new-request distinction;
-- return to activity/relationship while unresolved;
-- practice-outcome evaluation;
-- ritual-before-life stopping point.
+### Active humanization assembly
 
-The prior exact owner evaluation paragraph beginning:
+`articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`
 
-> Don't be afraid to ask your therapist/yourself "What is this practice supposed to help...
+Role: active accepted/locked humanization work product for the portions already worked.
 
-is **not present verbatim**.
+It is intentionally ahead of / different from Substack and must not be demoted merely because it is absent from the raw master.
 
-The prior exact ritual-warning wording is also replaced by:
+### Merge rule
 
-> The exercises here should not become a ritual you must complete before you are allowed to live.
+When source and humanization branches are intentionally unsynced:
 
-## Authority disposition
+1. diff raw source against the prior raw source to identify actual owner/source changes;
+2. classify only those source deltas for impact on humanized functions;
+3. preserve unaffected accepted humanized prose;
+4. incorporate only impacted new functions/sections;
+5. do not use whole-document raw-source vs humanized-branch mismatch as evidence of overwrite or regression.
 
-Newest raw Substack source:
-**CURRENT SOURCE SNAPSHOT / exact identity frozen**
+## Current next action
 
-Previously humanized review assembly:
-**HISTORICAL HUMANIZATION/OWNER-ACCEPTANCE EVIDENCE / not current raw source**
+Continue the existing humanization program from the active humanization assembly.
 
-Direct owner-final P1:
-**CURRENT OWNER CORRECTION / placement conflict with new source requires reconciliation**
+Before resuming the checking/Write-It work, preserve the two newly relevant source obligations:
+- protective-intent qualification after the central reparenting premise;
+- new dangerous-present-adult safety section after the readiness paragraph.
 
-Do not:
-- overwrite the humanized history with the new source;
-- restore old humanized prose mechanically into the new source;
-- assume all new source changes were deliberate humanization reversals;
-- assume a newer source timestamp automatically defeats a direct owner-final wording correction created during overlapping work;
-- call the new raw source fully humanized.
-
-## Registration consequence
-
-The uploaded source is the correct byte-level candidate for the initial registered working master because it is the newest owner-supplied raw editor source.
-
-However, registration must preserve the distinction between:
-1. **what is currently in Substack**; and
-2. **what Joel has separately accepted/finalized in the humanization lane**.
-
-Initial registration may therefore register the exact raw source as a **working** master while carrying explicit owner-lock/reconciliation records for overlapping humanization decisions. It must not falsely claim those locks are already incorporated when they are absent from the raw master.
-
-## Next humanization/reconciliation action
-
-Before resuming paragraph generation:
-1. register/freeze this exact raw source;
-2. treat all old humanization as comparison evidence, not current text;
-3. resolve the changed humanized frontier section by section;
-4. for each section classify new-source change as:
-   - intentional owner/source improvement to keep;
-   - map/content addition to preserve while restoring prior humanized realization;
-   - superseded prior humanization;
-   - accidental overwrite/regression;
-   - needs owner decision;
-5. restart detector/humanization only on the resulting reconciled current boundary.
+They can be humanized as their own bounded work. The five source edits do not require reopening the already accepted `Write It` or current checking work.
