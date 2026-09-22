@@ -71,9 +71,13 @@ Ask:
 
 If you can still name a substantive AI-shape problem you genuinely believe, revise again **without spending Pangram**. Re-run preservation/architecture checks as required after substantive edits.
 
-Continue until the answer is effectively: **no, not at all**—not because the prose has been made quirky, but because there is no remaining model-shape diagnosis you actually endorse.
+Do not let preservation success clear a style/shape objection. A required claim/function may force the cognition to remain while leaving its current realization fully editable. Likewise, do not clear several `mixed` findings one-by-one without checking whether they aggregate into one definite paragraph/section pattern.
+
+Continue until the answer is effectively: **no, not at all**—not because the prose has been made quirky, but because there is no remaining model-shape diagnosis you actually endorse **after cumulative-pattern, reader-model, why-now, and antecedent checks**.
 
 ## 5. Paid-call surprise gate
+
+When fresh-context non-detection is part of the evidence, `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` is blocking. Freshness alone is not critic validation.
 
 Immediately before a production Pangram call ask:
 
@@ -86,6 +90,10 @@ The candidate is detector-ready only after:
 - preservation proof passes with zero unexplained substantive deltas;
 - architecture/coherence gates pass;
 - the AI-shape sweep has been exhausted editorially;
+- any fresh-critic non-detection used as gate evidence came from a **natural-boundary, audience-aware adversarial packet**, not target text alone;
+- the critic setup has a current **two-sided same-register calibration**: it accepts at least one blind owner-accepted/known-good control and detects at least one blind owner-rejected/known-bad control;
+- no unresolved or cumulatively blocking `mixed` AI-shape finding remains;
+- reader model, why-now, and antecedent checks pass independently of preservation;
 - the exact boundary/hash/call-ledger safety checks pass.
 
 A failed Pangram call can still reveal new context/boundary behavior. When that happens, diagnose the whole resulting boundary again rather than automatically toggling the highlighted sentence.
@@ -133,6 +141,12 @@ Natural boundary: <section / transition>
 Preservation proof: PASS / FAIL
 Architecture/coherence: PASS / FAIL
 AI-shape sweep: <all credible issues considered>
+Cumulative mixed-pattern aggregation: NONE / <blocking pattern>
+Fresh-critic packet: natural boundary + intended reader + heading/local purpose / INVALID
+Fresh-critic calibration: known-good PASS/FAIL/NOT CURRENT; known-bad PASS/FAIL/NOT CURRENT
+Primary reader here: <who>
+Why now: <what preceding thought creates this section>
+Antecedent/referent check: PASS / FAIL
 Remaining model-shape issue I actually believe: none / <exact issue>
 Would an AI result genuinely surprise me?: yes / no
 Exact text SHA-256: <sha>

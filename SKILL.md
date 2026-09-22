@@ -173,18 +173,11 @@ A completed tell ledger is **not** a completeness certificate. `No AI-shaped ope
 
 ### Owner-calibrated fresh-context tell loop
 
-When Joel is actively calibrating whether model-written realization sounds Human, do not self-approve the candidate from the same saturated drafting context. **Do not use Joel as QA for defects the current context already believes are definite. Repair all currently identified definite AI tells first. Owner calibration begins on the best current repaired candidate, not on a version already known to be AI-shaped.** Use this loop on that best current literal candidate:
+When Joel is actively calibrating whether model-written realization sounds Human, do not self-approve the candidate from the same saturated drafting context and do not use Joel as QA for defects already believed definite. Repair known definite defects first.
 
-1. show Joel the exact candidate plus three visibly separate classes: **definite AI tells found only after the latest repair or still genuinely disputed**, **mixed/ambiguous tells**, and **genuine Human-facing tells**;
-2. let Joel correct the classifications, causal diagnoses, and rubric;
-3. make that correction durable before another substantial iteration;
-4. repair the candidate using the corrected rubric without turning the rubric into a writer checklist;
-5. send the literal repaired candidate and the corrected rubric to a **genuinely fresh context** without prior candidate history, defenses, detector scores, or same-context reasoning. Acceptable fresh-context surfaces include a new Railway Agent thread, a stateless/fresh OpenRouter API request, a stateless/fresh Venice.ai API request, or another genuinely isolated model session. Provider identity is secondary to informational isolation;
-6. ask the fresh critic to diagnose only, classifying definite AI / mixed / Human tells and checking both local realization and mesoscale function topology;
-7. if it finds a definite AI tell, repair and use a **new fresh context/request**, not the same thread/session, for the next audit;
-8. continue until fresh contexts find **no definite AI tells and at least one genuine Human-facing tell**, while preserving mixed/uncertain findings explicitly.
+Before using a fresh critic as pre-Pangram gate evidence, read and apply **`docs/HUMANIZATION-FRESH-CRITIC-GATE.md`**. The critic is an adversarial falsification surface, not a vote. Its packet must include the natural reading boundary plus intended reader/local purpose; mixed findings must be aggregated; protected meaning cannot justify model-shaped realization; and the critic configuration must demonstrate both same-register specificity and sensitivity with blind known-good **and** known-bad controls.
 
-Fresh-context non-detection is still not proof of human authorship and does not replace Pangram or semantic/editorial gates. The purpose of this loop is to prevent same-context self-critique from becoming its own evidence.
+A bare `no definite AI tells` result is non-gating. After Joel corrects a tell classification or causal diagnosis, make that correction durable, repair internally, and use a new genuinely fresh context/request on changed bytes. Fresh-critic PASS remains separate from preservation, architecture/cold-read, final preservation, and Pangram.
 
 The Inner Child checking RT2 re-audit on 2026-09-21 showed a more basic failure: a paragraph can contain concrete examples, self-talk, fragments, and other Human-looking forms while the **mesoscale semantic staircase remains intact**. The supposed tell-clean diagnostic still had obvious AI-shaped operations: one source function per scene beat, synthetic didactic prop selection, fake-spontaneity markers, generic therapeutic abstraction, and concrete image followed by explanatory aftercare.
 
