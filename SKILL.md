@@ -179,9 +179,9 @@ When Joel is actively calibrating whether model-written realization sounds Human
 2. let Joel correct the classifications, causal diagnoses, and rubric;
 3. make that correction durable before another substantial iteration;
 4. repair the candidate using the corrected rubric without turning the rubric into a writer checklist;
-5. send the literal repaired candidate and the corrected rubric to a **genuinely fresh context**—Railway Agent when that fresh-context surface is available—without prior candidate history, defenses, detector scores, or same-context reasoning;
+5. send the literal repaired candidate and the corrected rubric to a **genuinely fresh context** without prior candidate history, defenses, detector scores, or same-context reasoning. Acceptable fresh-context surfaces include a new Railway Agent thread, a stateless/fresh OpenRouter API request, a stateless/fresh Venice.ai API request, or another genuinely isolated model session. Provider identity is secondary to informational isolation;
 6. ask the fresh critic to diagnose only, classifying definite AI / mixed / Human tells and checking both local realization and mesoscale function topology;
-7. if it finds a definite AI tell, repair and use a **new fresh context**, not the same thread, for the next audit;
+7. if it finds a definite AI tell, repair and use a **new fresh context/request**, not the same thread/session, for the next audit;
 8. continue until fresh contexts find **no definite AI tells and at least one genuine Human-facing tell**, while preserving mixed/uncertain findings explicitly.
 
 Fresh-context non-detection is still not proof of human authorship and does not replace Pangram or semantic/editorial gates. The purpose of this loop is to prevent same-context self-critique from becoming its own evidence.
