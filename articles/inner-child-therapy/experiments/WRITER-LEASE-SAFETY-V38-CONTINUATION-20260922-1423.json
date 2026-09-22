@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "owner_calibration_required_after_tell_clean_detector_ai",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-safety-v38-continuation-20260922-1423",
   "integration_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
@@ -8,5 +8,15 @@
   "parent_integrator": "chat/inner-child-source-delta-humanization-20260921-1740",
   "scope": "Continue dangerous-present-adult H2 from V38 through fresh Venice tell/preservation/editorial/Pangram gates without mutating the advancing upstream lane.",
   "created_utc": "2026-09-22T14:23:00Z",
-  "last_known_writer_head": "c7150c22bf3945f4f06fed0a880e971efc33f600"
+  "last_known_writer_head": "dac29e1024c0eb82eb366637a51c67acaf13fbf6",
+  "reconciled_utc": "2026-09-22T17:53:00Z",
+  "reconciliation_note": "Stopped V42-V48 same-method preservation-repair loop. Fresh semantic architecture audit established V35 as semantically sufficient under corrected article-wide preservation. Exact V35 then passed preservation and cold audits but Pangram 4.0 returned AI 1.0 / Human 0.0, probability 0.9835429191589355. Do not generate further same-method variants. Next action is owner tell calibration on exact V35.",
+  "stop_admission": {
+    "parent_outcome": "OPEN",
+    "remaining_gap": "Identify detector-relevant AI tells in exact V35 that fresh critics missed; repair with owner-calibrated rubric before another fresh critic/detector cycle.",
+    "next_action": "Show Joel exact V35 with current mixed/Human tell hypotheses for calibration. Persist correction before any new prose.",
+    "responsible_actor": "Joel calibrates missed tells; Chat then resumes autonomously.",
+    "blocker": "Automated fresh critics report no definite AI tells, but exact Pangram 4.0 classifies V35 as AI with 0.9835429191589355 probability.",
+    "publication_or_promotion_performed": false
+  }
 }
