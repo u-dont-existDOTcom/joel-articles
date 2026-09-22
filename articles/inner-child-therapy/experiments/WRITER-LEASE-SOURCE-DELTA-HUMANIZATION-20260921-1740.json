@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "active_rebase_on_clear_raw_source_after_v19_rejection",
+  "status": "blocked_external_fresh_critic_transport",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
   "canonical_base_branch": "main",
@@ -11,22 +11,23 @@
   "isolation_note": "Active lock integration branch is stale/diverged from current canonical main; this writer branches from current owner-designated canonical main and will not mutate main or the stale shared integration branch.",
   "scope": "Humanize the two current-frontier Inner Child Therapy source-delta safety obligations, run required gates, and preserve Write-It/checking authority.",
   "created_utc": "2026-09-21T17:40:00Z",
-  "last_reconciled_head": "a7a41648c66ccf4f101f0f1f88648a0957e2677f",
-  "reconciled_utc": "2026-09-21T23:46:00Z",
-  "reconciliation_note": "V19 owner review received. V19 rejected as clearly AI. Owner identified fake personal stake, cumulative compressed command/listicle cadence, optimal-efficiency teaching units, abrupt unsupported complication, and compressed lesson sound bites. Current raw AI-guide H2 is preferred clarity baseline.",
-  "last_known_writer_head": "005c0eeb92ecc52d44c23a414f7c6045174e1fcd",
+  "last_reconciled_head": "62f489b74218b568595952401357fd4df2346ecc",
+  "reconciled_utc": "2026-09-21T23:59:00Z",
+  "reconciliation_note": "Owner V19 correction fully incorporated. Canonical skill and Pangram tell library updated/merged. V20 rebuilt from raw clarity baseline and kept internal. Fresh Railway Agent and fresh Codex critic transports did not return a completed semantic audit; no result was fabricated or counted.",
+  "last_known_writer_head": "dd42b0a1405e7aad8324634abca70173bf7dc61a",
   "stop_admission": {
     "parent_outcome": "OPEN",
-    "remaining_gap": "Produce a natural H2 that preserves the current raw guide's clarity without fake-personal humanization or manual/listicle accumulation; short protective-intent qualification remains ready but unpromoted.",
-    "next_action": "Reconstruct from the exact current raw H2 as the clarity baseline, remove known fake-personal/manual tells, then audit the repaired candidate in genuinely fresh Railway Agent contexts before any new owner review or Pangram call.",
-    "responsible_actor": "Chat continues autonomously; owner input is not currently required.",
-    "current_authority": "registered raw H2 + owner locks + corrected preservation rule + V19 owner tell correction",
-    "blocker": "No owner blocker. V19 method is rejected; replace it from the raw clarity baseline.",
+    "remaining_gap": "Fresh-context audit and further repair of V20, then normal preservation/architecture/Pangram gates; protective-intent qualification remains ready but unpromoted.",
+    "next_action": "Resume the V19-corrected fresh-context critic loop on exact V20 bytes when an independent critic transport returns; repair any definite tell before owner delivery.",
+    "responsible_actor": "Chat; no owner input currently required.",
+    "current_authority": "registered raw H2 + owner locks + canonical fake-personal/manual-cadence correction + V19 owner correction",
+    "blocker": "External independent-critic transports failed to return a completed critique in this turn. Same-context review is not accepted as substitute evidence.",
     "independent_work_completed": [
-      "V19 owner calibration captured",
-      "fake personal stake identified as AI-shaped in this guide genre",
-      "cumulative instruction-manual/listicle cadence identified as mesoscale AI pattern",
-      "raw current AI-guide H2 selected as preferred clarity baseline"
+      "V19 rejected and owner correction persisted",
+      "fake-personal/manual/listicle tells merged into joel-articles main",
+      "same tells merged into Pangram humanization library",
+      "local Railway CLI repaired and project linking verified",
+      "V20 rebuilt from raw clarity baseline and preserved internal-only"
     ],
     "publication_or_promotion_performed": false
   }
