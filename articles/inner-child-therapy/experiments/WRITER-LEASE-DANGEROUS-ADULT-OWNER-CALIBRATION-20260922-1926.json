@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "owner_calibration_waiting",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-dangerous-adult-owner-calibration-20260922-1926",
   "integration_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
@@ -9,5 +9,27 @@
   "parent_handoff_head": "d5ab44b40ed7d4f29b025355b7e108d8d06ff0fa",
   "scope": "Owner tell-calibration review surface for the exact dangerous-present-adult H2. No article promotion, no prose rewrite, and no paid Pangram submission.",
   "created_utc": "2026-09-22T19:26:00Z",
-  "last_known_writer_head": "d5ab44b40ed7d4f29b025355b7e108d8d06ff0fa"
+  "last_known_writer_head": "d5ab44b40ed7d4f29b025355b7e108d8d06ff0fa",
+  "review_artifact": {
+    "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-OWNER-TELL-CALIBRATION-REVIEW-20260922.html",
+    "sha256": "cae2994f22e6d9e04b9c008f80c9c3264440a24074cc2e1942b3dada10a14008",
+    "verification_path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-OWNER-TELL-CALIBRATION-REVIEW-VERIFICATION-20260922.json"
+  },
+  "stop_admission": {
+    "parent_outcome": "OPEN",
+    "remaining_gap": "Owner must identify the detector-relevant AI tell or structural relation that current automated critics miss in the exact 109-word H2.",
+    "next_action": "After Joel exports or supplies the calibration correction, persist it, repair once under the corrected owner rubric, and send exact repaired bytes to a genuinely fresh Venice/OpenRouter/Railway critic; re-run preservation/editorial gates as needed.",
+    "responsible_actor": "Joel supplies the tell calibration; this child lane performs the subsequent repair/audit after that input.",
+    "blocker": "The next discriminating observation is owner judgment. Automated critics report no definite AI tell; the section's six paid Pangram calls are exhausted and no seventh call is authorized.",
+    "independent_work_completed": [
+      "recovered live Universal, Joel Articles, Pangram, and design authorities",
+      "verified exact detector-tested boundary and baseline SHA-256 identities",
+      "created commentable owner-calibration surface with exact Pangram red overlay",
+      "passed interface generator selftest",
+      "passed full Playwright review-interface regression offline",
+      "passed exact three-span detector-overlay DOM check",
+      "made zero new Pangram calls"
+    ],
+    "publication_or_promotion_performed": false
+  }
 }
