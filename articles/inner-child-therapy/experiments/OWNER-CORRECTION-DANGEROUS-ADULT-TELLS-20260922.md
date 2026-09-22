@@ -45,12 +45,18 @@ Source check:
 
 The automated tell gate already contained the relevant rules but failed to apply them.
 
+### Sequence correction
+
+The primary failure happened **before Pangram**. The production preflight/tell audit marked the candidate internally clean enough for detector submission even though Joel later identified obvious AI-N16/AI-N17 defects. Pangram did not cause that initial PASS and must not be described as the basis for it.
+
+The later Pangram-Human result for the no-H2 boundary was a secondary reinforcing signal only: it made the already-wrong assumption that the accepted surrounding prose was editorially Human-facing easier to leave unchallenged. That is downstream anchoring, not the cause of the original audit failure.
+
 The generating failure was:
-1. the review became anchored to semantic-preservation success and the assumption that accepted/known-green surroundings were editorially sound;
+1. the internal audit became anchored to semantic-preservation success and the assumption that accepted surroundings were editorially sound;
 2. compression from the four-module source was mistaken for removal of the instruction-manual topology;
 3. the critic noted compact distinction / clean Q&A / efficient sequence but classified them as mixed instead of recognizing their cumulative AI-N16 teaching cadence;
 4. the reader-facing gate did not ask strongly enough who the H2 was speaking to, why that reader needed this sequence now, or whether the next section still had visible antecedents after transformation;
-5. Pangram Human status on the no-H2 boundary was allowed to reinforce the false premise that the surrounding prose was Human-facing, even though detector status is explicitly not editorial authority.
+5. after the false internal PASS already existed, Pangram Human status on the no-H2 boundary reinforced rather than created the mistaken trust in the surrounding prose.
 
 This is not evidence that owner rough cognition is missing. It is a failure of the current audit/application architecture.
 
