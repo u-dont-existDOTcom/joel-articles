@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-dangerous-adult-owner-calibration-20260922-1926",
+  "integration_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
+  "integration_base_sha": "fffee0a56b2e4ad34dbbf57002d033c91fd043c7",
+  "parent_handoff_branch": "chat/inner-child-safety-v38-continuation-20260922-1423",
+  "parent_handoff_head": "d5ab44b40ed7d4f29b025355b7e108d8d06ff0fa",
+  "scope": "Owner tell-calibration review surface for the exact dangerous-present-adult H2. No article promotion, no prose rewrite, and no paid Pangram submission.",
+  "created_utc": "2026-09-22T19:26:00Z",
+  "last_known_writer_head": "d5ab44b40ed7d4f29b025355b7e108d8d06ff0fa"
+}
