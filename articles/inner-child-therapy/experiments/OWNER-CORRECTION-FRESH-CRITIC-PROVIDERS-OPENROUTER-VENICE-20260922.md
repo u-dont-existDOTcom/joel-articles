@@ -45,3 +45,20 @@ Once a Venice or current OpenRouter key is securely connected to an accessible e
 2. any definite AI tell -> repair internally;
 3. use a second new stateless request on the repaired bytes;
 4. owner delivery only after the fresh-context tell gate is actually satisfied.
+
+
+## 2026-09-22 credential-placement recovery
+
+Owner reported the Venice key had been added.
+
+Verification found:
+- `inner-child-humanization-exp` initially had no service, so Railway could not inject shared variables into a local critic command;
+- an empty `critic-runner` service was created with no deployment;
+- `VENICE_API_KEY=${{shared.VENICE_API_KEY}}` was attached by reference without reading/copying a secret;
+- the rendered service value was zero-length;
+- Railway GraphQL `variables(projectId, environmentId)` returned **no shared variables** for `inner-child-humanization-exp`;
+- the same shared-variable query returned none for the other accessible Railway projects;
+- therefore no Venice secret is presently stored in accessible Railway shared-variable state.
+
+Required human-only action:
+set `VENICE_API_KEY` **directly on the existing `critic-runner` service in production**, not in Shared Variables. This overwrites the empty reference without exposing the secret to Chat.
