@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "blocked_human_secret_connection",
+  "status": "awaiting_owner_calibration_on_v37",
   "exclusive_writer": true,
   "owned_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
   "canonical_base_branch": "main",
@@ -11,23 +11,25 @@
   "isolation_note": "Active lock integration branch is stale/diverged from current canonical main; this writer branches from current owner-designated canonical main and will not mutate main or the stale shared integration branch.",
   "scope": "Humanize the two current-frontier Inner Child Therapy source-delta safety obligations, run required gates, and preserve Write-It/checking authority.",
   "created_utc": "2026-09-21T17:40:00Z",
-  "last_reconciled_head": "a59e28cce6fd64e54399da63d1e6d8d152c95d14",
-  "reconciled_utc": "2026-09-22T12:58:00Z",
-  "reconciliation_note": "Owner said Venice credential setup was done, but direct Railway verification found no shared variable in any accessible project. An empty critic-runner service was created and its shared reference resolves to zero length. Exact remaining gesture: set VENICE_API_KEY directly on critic-runner production service.",
-  "last_known_writer_head": "a114dd2eaeecbc2baf3267f8ecf58041d0d00345",
+  "last_reconciled_head": "c7150c22bf3945f4f06fed0a880e971efc33f600",
+  "reconciled_utc": "2026-09-22T14:30:00Z",
+  "reconciliation_note": "Fresh Venice loop through V38 reconciled. V37 is best current candidate: fresh tell-clean and preservation-pass; V38 repair regressed to definite AI. Method escalation threshold reached; further autonomous rewriting would be correlated churn.",
+  "last_known_writer_head": "4197897196a654190310eca30c6533ba9ca27f32",
   "stop_admission": {
     "parent_outcome": "OPEN",
-    "remaining_gap": "Run fresh Venice critic loop on V20, repair definite tells, then preservation/architecture/Pangram.",
-    "next_action": "After VENICE_API_KEY is set directly on inner-child-humanization-exp/critic-runner production service, verify nonempty without printing it and immediately run stateless Venice GPT-5.6 Sol critic on exact V20.",
-    "responsible_actor": "Owner performs one unavoidable secret-entry gesture; Chat resumes automatically afterward.",
-    "current_authority": "registered raw H2 + owner locks + V19 corrections + canonical provider-generalized fresh-context rule",
-    "blocker": "VENICE_API_KEY is not present in accessible Railway shared variables; critic-runner reference resolves to zero length.",
+    "remaining_gap": "Owner calibrates residual mixed/Human tells on V37; then Chat persists corrections and either performs bounded repair + fresh audit or, if owner sees no definite AI, completes remaining editorial/Pangram gates.",
+    "next_action": "Deliver commentable highlighted V37 owner-calibration page. After owner comments, persist exact corrections and resume automatically.",
+    "responsible_actor": "Joel supplies tell/editorial calibration on the best current candidate; Chat resumes immediately afterward.",
+    "current_authority": "registered source + owner locks + canonical fresh-context loop + V19 fake-personal correction + V20-V38 Venice evidence",
+    "blocker": "Genuine owner calibration boundary after repeated correlated structural failures. No current candidate with known definite AI tells is being presented.",
     "independent_work_completed": [
-      "fresh canonical bootstrap",
-      "created empty critic-runner service without deployment",
-      "wired secret by shared reference without reading it",
-      "verified shared reference resolves empty",
-      "queried Railway shared-variable state across accessible projects without exposing values"
+      "Venice credential route established securely",
+      "multiple fresh stateless critic contexts executed",
+      "V37 fresh tell audit no definite AI tells",
+      "V37 semantic preservation PU1-PU8 PASS",
+      "V37 first local cold audit all PASS",
+      "V38 repair tested and rejected after definite AI regression",
+      "no Pangram spend on V20-V38"
     ],
     "publication_or_promotion_performed": false
   }
