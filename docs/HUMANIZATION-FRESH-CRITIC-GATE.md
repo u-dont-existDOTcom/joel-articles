@@ -47,6 +47,24 @@ It must inspect:
 - explanatory aftercare;
 - source/requirements ledger made reader-visible.
 
+### Content-neutralized scaffold test
+
+Before crediting vivid detail, self-talk, humor, metaphor, direct reader address, unresolvedness, first person, strong opinion, or another Human-looking device, mentally replace topic nouns, names, doctrines, therapies, objects, and examples with placeholders and reduce each sentence/beat to its function.
+
+If the remaining passage is still an unusually clean semantic staircase—such as setup -> qualification -> example -> distinction -> verdict, command -> exception -> contingency, or problem -> taxonomy -> synthesis—the surface device does **not** rehabilitate it merely because it is concrete, apt, emotionally plausible, or source-grounded.
+
+A model can deliberately simulate:
+- concrete reaction and self-talk;
+- relevant-seeming authorial judgment;
+- unresolved endings;
+- reader recognition/social address;
+- sustained metaphor;
+- colloquial friction.
+
+Count a Human-facing feature against the AI hypothesis only when it creates **Human surplus** that materially disrupts the optimized scaffold: unnecessary-but-real context dependence, uneven attention not optimized for instruction, unresolved social residue, authorial partiality beyond the passage's thesis, recurrence/digression with a separate lived function, or non-interchangeable detail that changes more than delivery of the lesson.
+
+Purpose-built concreteness can skin a staircase. Engineered unresolvedness can also be part of a staircase. If every vivid element maps neatly to one teaching obligation, that mapping is AI-shape evidence rather than Human evidence.
+
 ## 4. Mixed aggregation
 
 A finding does not become nonblocking merely because it is individually labelled `mixed`.
@@ -72,19 +90,26 @@ Before PASS, disposition the three strongest credible AI-shape candidates, or al
 
 A non-detection can gate only when the critic configuration has current evidence of both specificity and sensitivity.
 
-For each materially changed rubric/provider/model configuration, blind-test the same setup on:
-1. at least one same-register owner-accepted/known-good control; and
-2. at least one same-register owner-rejected/known-bad control representing a relevant failure class.
+The one-good/one-bad pair is a **smoke test only**, not sufficient general calibration.
+
+For the current Joel-byline humanization critic, a materially changed rubric/provider/model configuration must also pass a frozen **20-item blinded provenance holdout at 20/20** before its non-detection can function as a production Pangram-admission gate. Treat 20/20 as a starting calibration threshold, not proof of universal authorship detection.
+
+Benchmark rules:
+1. use balanced, provenance-secure Human and AI passages in the relevant Joel registers;
+2. `HUMAN` ground truth comes from natural/unaided owner provenance or other explicit Human authorship, not Pangram status;
+3. `AI` ground truth comes from explicit model provenance even when Pangram happened to classify the passage Human;
+4. freeze passages, labels, prompt, shuffle/order, and hashes before the first classification response;
+5. hide provenance, labels, detector results, prior judgments, and neighboring benchmark answers from the critic;
+6. if the rubric is changed after seeing an error, that set becomes development data permanently. A later 20/20 validation claim requires a **new untouched holdout**;
+7. keep Pangram-passing model prose as a useful detector-disagreement stress set, but never let Pangram passing redefine it as Human ground truth.
 
 Do not reveal labels, provenance, or detector status to the critic.
 
-Accepting the good control alone proves only that the critic can avoid overcalling AI. It does not show that the critic can detect the target failure class.
+Accepting Human controls alone proves only that the critic can avoid overcalling AI. It does not show adequate sensitivity to model prose. Missing any known-AI holdout means its target non-detection is **non-gating evidence**.
 
-If the critic misses the known-bad control, its non-detection on the target is **non-gating evidence**.
+Reuse a still-current successful holdout result for the same materially unchanged critic configuration; do not rerun the benchmark on every candidate.
 
-Reuse a still-current calibration result. Do not rerun controls on every candidate.
-
-Current regression fixtures and expected classifications are in `HUMANIZATION-AUDIT-ADMISSION-REGRESSION-20260922.md`.
+Current small regression fixtures and expected classifications are in `HUMANIZATION-AUDIT-ADMISSION-REGRESSION-20260922.md`. Versioned larger benchmark evidence lives in the Pangram humanization lab.
 
 ## 7. Admission
 
@@ -93,11 +118,12 @@ Current regression fixtures and expected classifications are in `HUMANIZATION-AU
 Fresh-critic PASS requires all of:
 - no unresolved credible AI-shape candidate;
 - no cumulative mixed pattern;
+- content-neutralized functional-skeleton check passes;
+- any claimed Human-facing signal provides Human surplus that **materially breaks** rather than merely decorates the model-shaped scaffold;
 - reader-model check passes;
 - why-now check passes;
 - antecedent/referent check passes;
-- at least one source-grounded Human-facing relation that is not merely a surface device;
-- two-sided critic calibration passes for the current configuration.
+- the current materially unchanged critic configuration has passed the required blinded provenance calibration.
 
 A PASS here still does not prove human authorship. Continue separately through preservation, architecture/cold-read, final preservation, and Pangram in the normal order.
 

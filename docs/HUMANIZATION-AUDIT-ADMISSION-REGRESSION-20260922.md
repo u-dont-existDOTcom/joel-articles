@@ -64,3 +64,25 @@ A critic non-detection is **non-gating** if:
 - preservation/source necessity is used to defend the exact realization rather than the cognition.
 
 No Pangram call is required to run this regression.
+
+
+## 2026-09-22 blinded provenance benchmark result
+
+A 20-item blind benchmark was frozen before classification:
+- 10 provenance-secure Human passages;
+- 10 provenance-secure model-written passages;
+- Human/AI labels were based on authorship provenance, not Pangram outcome;
+- the critic used stateless GPT-5.6 Sol through the authenticated UDA Venice gateway;
+- labels remained hidden until all 20 literal responses were frozen.
+
+Result under the then-current critic logic:
+- overall: **14/20 (70%)**;
+- Human: **10/10**;
+- AI: **4/10**;
+- six errors were all model-written passages classified Human.
+
+The critic often identified the model-shaped semantic topology but then let a concrete reaction, strong judgment, unresolved ending, social address, or sustained metaphor override that topology. This demonstrates that Human-looking devices cannot operate as positive votes merely because they are apt. They count only when they create Human surplus that materially disrupts the optimized functional scaffold.
+
+The 20 examples used for this diagnosis are now development data. Any later calibration claim requires a new untouched holdout. A revised rubric was frozen for development, but its first rerun was not scored because the Venice gateway returned HTTP 402 on all requests after the first benchmark consumed the available API payment balance/credit.
+
+No Pangram call was used for this benchmark.
