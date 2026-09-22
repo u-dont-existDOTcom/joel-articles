@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-safety-v38-continuation-20260922-1423",
+  "integration_branch": "chat/inner-child-source-delta-humanization-20260921-1740",
+  "integration_base_sha": "c7150c22bf3945f4f06fed0a880e971efc33f600",
+  "parent_integrator": "chat/inner-child-source-delta-humanization-20260921-1740",
+  "scope": "Continue dangerous-present-adult H2 from V38 through fresh Venice tell/preservation/editorial/Pangram gates without mutating the advancing upstream lane.",
+  "created_utc": "2026-09-22T14:23:00Z",
+  "last_known_writer_head": "c7150c22bf3945f4f06fed0a880e971efc33f600"
+}
