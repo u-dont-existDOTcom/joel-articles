@@ -173,11 +173,11 @@ A completed tell ledger is **not** a completeness certificate. `No AI-shaped ope
 
 ### Owner-calibrated fresh-context tell loop
 
-When Joel is actively calibrating whether model-written realization sounds Human, do not self-approve the candidate from the same saturated drafting context and do not use Joel as QA for defects already believed definite. Repair known definite defects first.
+During Joel tell calibration, repair already-definite defects before owner QA and do not self-approve from the saturated drafting context.
 
-Before using a fresh model as pre-Pangram gate evidence, read and apply **`docs/HUMANIZATION-FRESH-CRITIC-GATE.md`**. Do **not** ask one global critic to certify Human/AI authorship or overall prose quality. Use calibrated narrow falsification audits for concrete observable defects—currently reader-purpose/pragmatic act, antecedent/referent coherence, and cumulative instruction-manual/listicle cadence—inside the natural reading boundary.
+Before using fresh-model evidence pre-Pangram, apply **`docs/HUMANIZATION-FRESH-CRITIC-GATE.md`**: use narrow defect auditors on the natural boundary, with current positive/negative controls for that exact axis/model/prompt/provider configuration—never a global Human/AI vote. An axis PASS clears only that axis.
 
-A bare `no definite AI tells`, a global Human/AI verdict, or the absence of narrow FAILs is non-gating. Each narrow auditor must pass positive/negative controls for that exact defect under the current prompt/model configuration; a failed auditor is advisory only. After Joel corrects a tell classification or causal diagnosis, make that correction durable, repair internally, rerun the affected narrow audit(s) on changed bytes, and keep direct natural-boundary editorial review separate from preservation, architecture/cold-read, final preservation, and Pangram.
+After Joel corrects a diagnosis, persist it, update any failed axis control, repair internally, and use a new fresh request on changed bytes. Final unpaid admission remains the complete editorial/cold audit, separately from preservation, architecture, final preservation, and Pangram.
 
 The Inner Child checking RT2 re-audit on 2026-09-21 showed a more basic failure: a paragraph can contain concrete examples, self-talk, fragments, and other Human-looking forms while the **mesoscale semantic staircase remains intact**. The supposed tell-clean diagnostic still had obvious AI-shaped operations: one source function per scene beat, synthetic didactic prop selection, fake-spontaneity markers, generic therapeutic abstraction, and concrete image followed by explanatory aftercare.
 

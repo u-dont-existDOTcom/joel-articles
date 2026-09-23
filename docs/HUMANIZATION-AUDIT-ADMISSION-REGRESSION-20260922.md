@@ -53,17 +53,19 @@ Expected audit result:
 
 ## Admission assertions
 
-A critic configuration is **not calibrated** merely because it accepts the positive control.
+Fresh-model evidence is calibrated **per defect axis**, not as a global Human/AI verdict.
 
-A critic non-detection is **non-gating** if:
-- the target was not supplied in its natural reading boundary;
-- intended reader/local purpose was omitted when relevant;
-- a known-bad same-register control is missed;
-- unresolved `mixed` findings remain;
-- several mixed findings aggregate into a known cumulative AI-shape;
-- preservation/source necessity is used to defend the exact realization rather than the cognition.
+A specialized audit is **non-gating** if:
+- the target lacks the natural context needed for that axis;
+- the audit question mixes several defect classes into one global judgment;
+- the exact current axis/model/prompt/provider configuration lacks both a known-present and known-absent control;
+- the auditor misses a current regression control;
+- an owner-found false positive/negative has not yet been incorporated into corrected controls;
+- preservation/source necessity is being used to defend the realization rather than the cognition.
 
-No Pangram call is required to run this regression.
+A narrow PASS clears only its named axis. It cannot cancel another FAIL, clear an unresolved editorial concern, prove Human authorship, or make the candidate Pangram-ready.
+
+No Pangram call is required to run these regressions.
 
 
 ## 2026-09-22 blinded provenance benchmark result
