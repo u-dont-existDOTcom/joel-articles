@@ -77,7 +77,7 @@ Continue until the answer is effectively: **no, not at all**—not because the p
 
 ## 5. Paid-call surprise gate
 
-When fresh-context non-detection is part of the evidence, `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` is blocking. Freshness alone is not critic validation.
+When fresh-model audit evidence is part of the unpaid pre-Pangram review, `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` is blocking. Freshness alone is not competence, and a global Human/AI verdict is not admission evidence.
 
 Immediately before a production Pangram call ask:
 
@@ -90,12 +90,12 @@ The candidate is detector-ready only after:
 - preservation proof passes with zero unexplained substantive deltas;
 - architecture/coherence gates pass;
 - the AI-shape sweep has been exhausted editorially;
-- any fresh-critic non-detection used as gate evidence came from a **natural-boundary, audience-aware adversarial packet**, not target text alone;
-- the critic setup has a current successful **20/20 frozen blinded provenance holdout** for the materially unchanged rubric/provider/model configuration; one known-good + one known-bad pair is only a smoke test;
-- scaffold/content-neutralization analysis, when used, is treated as a diagnostic probe and checked against provenance-secure Human counterexamples; a clean functional skeleton is not an AI veto by itself;
-- any claimed Human-facing relation is supported by the literal passage and is not merely surface camouflage, without requiring Human prose to be inefficient, digressive, or structurally messy;
-- no unresolved or cumulatively blocking `mixed` AI-shape finding remains after discriminative Human/AI calibration;
-- reader model, why-now, and antecedent checks pass independently of preservation;
+- fresh-model evidence, when used, comes from **narrow observable defect audits** on the natural reading boundary rather than one global Human/AI verdict;
+- every model axis whose result affects admission has a current positive/negative calibration for that exact defect; malformed excerpt controls and hidden-authorship labels do not count;
+- all applicable calibrated axes have no unresolved FAIL, and uncalibrated-axis model output is advisory only;
+- scaffold/content-neutralization analysis, when used, is treated as a diagnostic probe rather than an authorship veto;
+- no unresolved or cumulatively blocking `mixed` AI-shape finding remains after the direct editorial read;
+- reader model, why-now, antecedent/referent, and any implicated cadence/overclosure checks pass independently of preservation;
 - the exact boundary/hash/call-ledger safety checks pass.
 
 A failed Pangram call can still reveal new context/boundary behavior. When that happens, diagnose the whole resulting boundary again rather than automatically toggling the highlighted sentence.
@@ -146,8 +146,9 @@ AI-shape sweep: <all credible issues considered>
 Cumulative mixed-pattern aggregation: NONE / <blocking pattern>
 Scaffold diagnostic: <suspected topology + Human-counterexample/discrimination check> / NONE
 Human-facing relation check: <literal/source-grounded relation> / SURFACE-ONLY / NONE
-Fresh-critic packet: natural boundary + intended reader + heading/local purpose / INVALID
-Fresh-critic calibration: <holdout score, e.g. 20/20> / NOT CURRENT
+Fresh-audit bundle: <applicable narrow axes + exact boundary> / INVALID
+Axis calibration: <axis=control result, e.g. cadence 4/4; antecedent 4/4> / NOT CURRENT
+Axis results: <reader-purpose / antecedent / cadence / other implicated axes>
 Primary reader here: <who>
 Why now: <what preceding thought creates this section>
 Antecedent/referent check: PASS / FAIL

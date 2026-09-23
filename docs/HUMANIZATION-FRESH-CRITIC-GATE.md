@@ -1,140 +1,152 @@
-# Humanization Fresh-Critic Gate
+# Humanization Fresh-Context Defect Audit Gate
 
-Status: **BLOCKING** when a fresh model/context is used as pre-Pangram model-shape evidence in Joel-byline humanization.
+Status: **BLOCKING** when fresh-model audit evidence is used before a paid Pangram call in Joel-byline humanization.
 
 Use with `HUMANIZATION-COLD-AUDIT-GATE.md`, `project-sources/PRODUCTION-HUMANIZATION-PREFLIGHT.md`, the current post-generation tell library, and the preservation/architecture gates.
 
 ## 1. Role
 
-A fresh critic is a **falsification surface**, not a voting surface.
+Freshness solves only one problem: same-context contamination. It does **not** make a model a competent global Human/AI judge.
 
-Its task is to find a reason the candidate is still model-shaped before detector admission. Positive Human-facing features never offset an unresolved AI-shaped operation.
+Do not ask one fresh critic to certify hidden authorship or emit a global `Human vs AI` verdict for production admission. That family failed to generalize across multiple blinded experiments.
 
-Freshness addresses context contamination. It does **not** establish critic competence, sensitivity, or completeness.
+Use fresh models as **specialized falsification auditors** for concrete observable defects. Each auditor asks one narrow question, cites exact spans, and stays inside its axis.
+
+A narrow FAIL is a repair candidate. It is not proof of AI authorship.
+A set of PASS results is not proof of Human authorship.
 
 ## 2. Packet
 
-Give the critic:
-- the literal target candidate **inside its natural reading boundary**;
-- enough accepted prose immediately before/after to judge continuity, antecedents, register, and section placement;
-- intended reader;
-- heading promise/local purpose;
-- current post-generation tell rubric.
+Give each applicable auditor:
+- the literal target inside its natural reading boundary;
+- enough accepted prose immediately before/after to judge that axis;
+- heading/local purpose when relevant;
+- only the instructions needed for that axis.
 
 Withhold:
-- prior candidate history;
-- prior defenses;
 - detector scores/windows;
-- preservation-unit ledgers and source-obligation checklists;
-- same-context reasoning about why the candidate should work.
+- prior defenses;
+- preservation-unit ledgers and source-obligation checklists unless the axis specifically requires them;
+- prior global Human/AI judgments;
+- same-context reasoning about why the candidate should pass.
 
-`candidate + rubric` alone is invalid when the possible defect concerns audience, transition, antecedent, or section function.
+Context must be sufficient but not artificially clipped. Do not create a false orphan/continuity failure by withholding context the real reader has.
 
-## 3. Adversarial order
+## 3. Current specialized audit axes
 
-Before cataloguing Human-facing features, require the critic to make the strongest case that the prose is model-shaped.
+These are the initial production axes proven useful by the dangerous-present-adult debugging. They are not exhaustive.
 
-It must inspect:
-- local realization;
-- paragraph/section topology;
-- reader model: **who is this talking to?**
-- live reader pressure: **why does this matter now?**
-- antecedents/referents;
+### Reader-purpose / pragmatic act
+
+Ask only:
+- who is the visible reader here?
+- what live question/pressure makes this passage necessary now?
+- what practical or interpretive job does it perform for that reader?
+
+FAIL when the passage silently switches audience/role, introduces a new decision with no visible reason, or requires inventing a clinician/evaluator/hypothetical-reader frame not established by the article.
+
+### Antecedent / referent coherence
+
+Audit only context-dependent references:
+- quoted/metalinguistic terms;
+- pronouns/demonstratives;
+- explicit backward references;
+- references to earlier prompts, wording, examples, or claims.
+
+Distinguish:
+- introduction/definition;
+- explicit backward reference;
+- bridging/generic reference;
+- forward reference;
+- self-contained use.
+
+FAIL only when a **material explicit backward reference** lacks visible setup and the missing setup affects normal reading. Generic category language is not automatically orphaned.
+
+Prefer controlled calibration where the same target is tested with and without the relevant antecedent.
+
+### Cumulative instruction-manual / listicle cadence
+
+Map consecutive speech-act/function beats.
+
+FAIL only when the cumulative movement becomes a procedural/teaching staircase: several consecutive beats each perform one clean instructional/explanatory job, producing manual/checklist/listicle rhythm.
+
+A list, imperative, rhetorical question, direct advice, concise explanation, or polished sentence alone is not a failure. Genuine enumeration of hypotheses/examples may be Human.
+
+### Other narrow axes
+
+Add another specialized auditor only when a concrete defect class is actually implicated and there is enough evidence to calibrate that question. Examples include explanatory aftercare/overclosure, abrupt audience/topic complication, or another owner-identified operation.
+
+Do not turn every tell in the library into a mandatory model call.
+
+## 4. Calibration
+
+**Calibration labels are editorial defect judgments, not hidden authorship provenance.**
+
+For each axis whose model result will affect detector admission:
+1. use positive and negative controls for that exact defect;
+2. prefer controlled context ablation/restoration or closely matched realizations when possible;
+3. hide expected labels from the auditor;
+4. include at least one known PASS and one known FAIL;
+5. if a control is malformed or omits context the real reader would have, fix the experiment rather than teaching the model to reproduce the artifact;
+6. if the auditor misses a control, its output for that axis is non-gating until repaired;
+7. reuse a still-current calibration for the materially unchanged model/prompt/axis; do not rerun controls on every candidate.
+
+Current project evidence in the Pangram lab, 2026-09-23:
+- reader-purpose/pragmatic act: **2/2** seeded controls;
+- cumulative instruction-manual/listicle cadence: **4/4** seeded controls, including Human list/advice counterexamples;
+- corrected antecedent/referent coherence: **4/4** controlled cases.
+
+These are scoped development results, not universal accuracy estimates.
+
+### Retired global-judge calibration
+
+Do **not** require or rely on a 20/20 hidden-authorship classifier.
+
+The global-judge family failed to generalize:
+- abstract provenance classifier v1: 14/20;
+- hard scaffold-veto v2: 10/20;
+- seven-pair absolute contrastive holdout v3: 10/20 after 11/12 development;
+- matched pairwise realization-defect chooser: 5/8.
+
+Those experiments are useful research evidence about method failure. They are not production admission gates.
+
+## 5. Admission
+
+There is no single `fresh-critic PASS`.
+
+Fresh-audit admission requires:
+- every **applicable calibrated axis** reports no unresolved FAIL;
+- any model FAIL has been repaired or explicitly rejected as a false positive with an exact editorial reason;
+- uncalibrated-axis model output is treated as advisory only;
+- direct natural-boundary editorial reading still finds no substantive model-shape/coherence defect the editor actually believes;
+- preservation and architecture/coherence gates pass separately.
+
+Absence of narrow FAILs is not a completeness certificate. The editor must still ask the plain questions the model may miss.
+
+For the dangerous-present-adult incident, unpaid review should have blocked before Pangram on at least three independently observable grounds:
 - cumulative instruction-manual/listicle cadence;
-- one-clean-teaching-job-per-beat / optimal semantic efficiency;
-- abrupt complication;
-- checklist/taxonomy flow;
-- explanatory aftercare;
-- source/requirements ledger made reader-visible.
+- missing reader-purpose/pragmatic setup;
+- the orphaned `“ask”` reference after removal of the source `voice / ask / answer` setup.
 
-### Scaffold analysis is diagnostic, not an authorship veto
+## 6. Failure handling
 
-Reducing a passage to sentence/beat functions can reveal hidden instruction-manual topology. Use that reduction as a **diagnostic probe**, not as a binary authorship rule.
+If a calibrated axis reports FAIL:
+1. inspect the cited span and verify the defect editorially;
+2. repair internally;
+3. invalidate affected downstream gates;
+4. use a new fresh context/request on changed bytes when model re-audit is needed;
+5. do not spend Pangram while a substantive unpaid FAIL remains.
 
-A language model can simulate concrete reaction, self-talk, humor, metaphor, direct reader address, unresolvedness, first person, strong opinion, and colloquial friction. But the converse is also true: genuine Human prose can be compact, coherent, instructional, causal, polished, and highly functional. Almost any coherent paragraph can be summarized after the fact as a sequence of functions.
+If the model result conflicts with direct owner/editorial evidence:
+- owner/editorial authority controls;
+- record the disagreement;
+- update or retire the affected calibration control if needed;
+- do not train the model by merely adding another global prohibition.
 
-Therefore:
+## 7. Research boundary
 
-- do not classify prose as AI merely because a content-neutralized summary forms a clean semantic staircase;
-- do not erase names, stakes, history, and context and then treat the information lost by that erasure as evidence against Human authorship;
-- do not require Human prose to contain inefficiency, digression, dangling residue, or functionally unnecessary material;
-- do not treat an apt Human-facing device as positive evidence merely because it is vivid or emotionally plausible;
-- judge whether the **literal relations among details, attention, social act, context, and paragraph movement** are more consistent with the calibrated Human controls or AI controls.
+Hidden-authorship classification, broad Human/AI scoring, detector-passing stress sets, and pairwise global judges may still be studied in the Pangram lab.
 
-Content-neutralization remains useful for asking whether a vivid surface is merely skinning a requirements ledger. It is non-dispositive unless the suspected topology actually discriminates AI from Human prose in the current calibration evidence.
+They are detector/method research, not production certification.
 
-Prefer literal contrast against provenance-secure Human and AI examples over an abstract purity test. If the same heuristic repeatedly flags both classes, that heuristic is not gating evidence.
-
-## 4. Mixed aggregation
-
-A finding does not become nonblocking merely because it is individually labelled `mixed`.
-
-Before PASS, aggregate mixed findings at paragraph/section scale. If several features combine into a known model-shaped operation, the aggregate is blocking even when each feature could occur naturally by itself.
-
-Human-facing features are recorded separately. They do not cancel AI-shape.
-
-## 5. Candidate dispositions
-
-Before PASS, disposition the three strongest credible AI-shape candidates, or all if fewer than three:
-
-- `REPAIR`
-- `PRESERVE-EXACT-REALIZATION-WITH-SPECIFIC-REASON`
-- `NOT PRESENT`
-- `UNRESOLVED`
-
-`UNRESOLVED` blocks.
-
-**Protected meaning/function is never by itself a reason to preserve current wording, cadence, paragraph topology, or another realization choice.** A preserve disposition must explain why the exact realization—not merely the cognition—is required by owner wording, quotation/provenance, safety, architecture, evidence, or genre.
-
-## 6. Two-sided critic calibration
-
-A non-detection can gate only when the critic configuration has current evidence of both specificity and sensitivity.
-
-The one-good/one-bad pair is a **smoke test only**, not sufficient general calibration.
-
-For the current Joel-byline humanization critic, a materially changed rubric/provider/model configuration must also pass a frozen **20-item blinded provenance holdout at 20/20** before its non-detection can function as a production Pangram-admission gate. Treat 20/20 as a starting calibration threshold, not proof of universal authorship detection.
-
-Benchmark rules:
-1. use balanced, provenance-secure Human and AI passages in the relevant Joel registers;
-2. `HUMAN` ground truth comes from natural/unaided owner provenance or other explicit Human authorship, not Pangram status;
-3. `AI` ground truth comes from explicit model provenance even when Pangram happened to classify the passage Human;
-4. freeze passages, labels, prompt, shuffle/order, and hashes before the first classification response;
-5. hide provenance, labels, detector results, prior judgments, and neighboring benchmark answers from the critic;
-6. if the rubric is changed after seeing an error, that set becomes development data permanently. A later 20/20 validation claim requires a **new untouched holdout**;
-7. keep Pangram-passing model prose as a useful detector-disagreement stress set, but never let Pangram passing redefine it as Human ground truth.
-
-If successive abstract rubric revisions swing between false-Human and false-AI errors, stop adding prohibitions or exceptions. Treat that as a classifier-architecture failure. Move to a materially different approach—preferably literal contrastive calibration with provenance-secure Human/AI examples—before freezing another holdout.
-
-Do not reveal labels, provenance, or detector status to the critic.
-
-Accepting Human controls alone proves only that the critic can avoid overcalling AI. It does not show adequate sensitivity to model prose. Missing any known-AI holdout means its target non-detection is **non-gating evidence**. Conversely, correctly catching AI while rejecting provenance-secure Human prose does not establish a useful critic either.
-
-Reuse a still-current successful holdout result for the same materially unchanged critic configuration; do not rerun the benchmark on every candidate.
-
-Current small regression fixtures and expected classifications are in `HUMANIZATION-AUDIT-ADMISSION-REGRESSION-20260922.md`. Versioned larger benchmark evidence lives in the Pangram humanization lab.
-
-## 7. Admission
-
-`no definite AI tells` is not an admission result.
-
-Fresh-critic PASS requires all of:
-- no unresolved credible AI-shape candidate;
-- no cumulative mixed pattern that remains discriminative after checking calibrated Human counterexamples;
-- scaffold/content-neutralization observations are treated as diagnostic evidence rather than an automatic AI veto;
-- any credited Human-facing relation is supported by the literal prose and is not merely decorative camouflage, without requiring Human prose to be inefficient or structurally messy;
-- reader-model check passes;
-- why-now check passes;
-- antecedent/referent check passes;
-- the current materially unchanged critic configuration has passed the required blinded provenance calibration.
-
-A PASS here still does not prove human authorship. Continue separately through preservation, architecture/cold-read, final preservation, and Pangram in the normal order.
-
-## 8. Failure handling
-
-If the critic finds a blocking issue:
-1. repair internally;
-2. invalidate affected downstream gates;
-3. use a new genuinely fresh context/request on the repaired target;
-4. do not spend Pangram until this gate and the remaining non-detector gates pass.
-
-If the same failure class recurs despite materially similar repairs, apply the strategy-efficacy rule and change architecture rather than adding another local prohibition.
+Pangram remains downstream. It cannot rescue a failed unpaid editorial or specialized audit.
