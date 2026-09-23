@@ -10,9 +10,16 @@ Freshness solves only one problem: same-context contamination. It does **not** m
 
 Do not ask one fresh critic to certify hidden authorship or emit a global `Human vs AI` verdict for production admission. That family failed to generalize across multiple blinded experiments.
 
-Use fresh models as **specialized falsification auditors** for concrete observable defects. Each auditor asks one narrow question, cites exact spans, and stays inside its axis.
+Use fresh models in two layers:
 
-**These narrow auditors do not replace or shorten the full Human-facing tell catalog.** The full post-generation tell ledger remains the master audit: every applicable known AI-shaped operation/tell must still receive an explicit disposition on the literal candidate. Narrow auditors are an execution strategy for checking one tell or coherent tell-family reliably in fresh context. If an applicable catalog tell has no calibrated narrow auditor yet, it remains a manual/editorial blocking check rather than silently disappearing from the gate.
+1. **global tell-ledger sweep** — inspect the complete current tell catalog in one pass and return one PRESENT / ABSENT / UNCERTAIN row per tell, with exact evidence and no global Human/AI verdict;
+2. **specialized falsification audits** — ask one narrow question for a tell or coherent tell-family when the global sweep returns PRESENT/UNCERTAIN, when the tell is high-risk, or when direct editorial review still disputes the result.
+
+**Neither layer replaces or shortens the full Human-facing tell catalog.** The full post-generation tell ledger remains the master audit: every applicable known AI-shaped operation/tell must still receive an explicit disposition on the literal candidate. If an applicable catalog tell has no reliable model check yet, it remains a manual/editorial blocking check rather than silently disappearing from the gate.
+
+Current bounded evidence favors **Claude Opus 5.5 with explicit max reasoning** for the global sweep. On the same frozen six-case / twelve owner-grounded tell cells, Opus max scored 11/12 exact with 0 wrong-polarity calls; GPT-6 Sol max scored 8/12 and GPT-6 Astra max 7/12, both retaining confident polarity errors. Therefore, when the OpenRouter spend is authorized and the model remains available, prefer Opus 5.5 max for the high-rigor global sweep. Treat its UNCERTAIN as unresolved, never as ABSENT.
+
+TypeSafe Jev may be used only as optional cheap triage: a Jev PRESENT can prioritize inspection, but a Jev ABSENT cannot clear a tell.
 
 A narrow FAIL is a repair candidate. It is not proof of AI authorship.
 A set of PASS results is not proof of Human authorship, and it cannot clear tell families that were not audited.
@@ -34,7 +41,24 @@ Withhold:
 
 Context must be sufficient but not artificially clipped. Do not create a false orphan/continuity failure by withholding context the real reader has.
 
-## 3. Current specialized audit axes
+## 3. Global sweep protocol
+
+For the preferred high-rigor sweep:
+- use a genuinely fresh stateless request;
+- use the literal natural reading boundary plus enough context for the tell definitions to be meaningful;
+- supply the complete current tell inventory;
+- require every tell ID exactly once;
+- require PRESENT / ABSENT / UNCERTAIN plus minimal exact evidence;
+- prohibit an overall Human/AI classification;
+- do not allow Human-looking features to cancel a tell that is actually present;
+- do not force a tell merely because another tell is present or because the prose is model-authored;
+- treat any missing row, malformed row, PRESENT, or UNCERTAIN as unresolved.
+
+When Opus 5.5 is used, request explicit maximum reasoning rather than provider/default adaptive reasoning. Do not assume `temperature=0` implies maximum reasoning.
+
+The global sweep is an execution aid, not a completeness certificate. Direct editorial review remains responsible for noticing defects outside the current catalog.
+
+## 4. Current specialized audit axes
 
 These are the initial production axes proven useful by the dangerous-present-adult debugging. They are not exhaustive.
 
@@ -80,7 +104,7 @@ Add another specialized auditor only when a concrete defect class is actually im
 
 Do not turn every tell in the library into a mandatory model call.
 
-## 4. Calibration
+## 5. Calibration
 
 **Calibration labels are editorial defect judgments, not hidden authorship provenance.**
 
@@ -112,12 +136,14 @@ The global-judge family failed to generalize:
 
 Those experiments are useful research evidence about method failure. They are not production admission gates.
 
-## 5. Admission
+## 6. Admission
 
 There is no single `fresh-critic PASS`.
 
 Fresh-audit admission requires:
-- every **applicable calibrated axis** reports no unresolved FAIL;
+- the complete tell ledger has been dispositioned on the literal candidate;
+- when a fresh global sweep is used, every tell row is present and every PRESENT/UNCERTAIN finding has been resolved rather than averaged away;
+- every **applicable calibrated narrow axis** reports no unresolved FAIL;
 - any model FAIL has been repaired or explicitly rejected as a false positive with an exact editorial reason;
 - uncalibrated-axis model output is treated as advisory only;
 - direct natural-boundary editorial reading still finds no substantive model-shape/coherence defect the editor actually believes;
@@ -130,7 +156,7 @@ For the dangerous-present-adult incident, unpaid review should have blocked befo
 - missing reader-purpose/pragmatic setup;
 - the orphaned `“ask”` reference after removal of the source `voice / ask / answer` setup.
 
-## 6. Failure handling
+## 7. Failure handling
 
 If a calibrated axis reports FAIL:
 1. inspect the cited span and verify the defect editorially;
@@ -145,7 +171,7 @@ If the model result conflicts with direct owner/editorial evidence:
 - update or retire the affected calibration control if needed;
 - do not train the model by merely adding another global prohibition.
 
-## 7. Research boundary
+## 8. Research boundary
 
 Hidden-authorship classification, broad Human/AI scoring, detector-passing stress sets, and pairwise global judges may still be studied in the Pangram lab.
 

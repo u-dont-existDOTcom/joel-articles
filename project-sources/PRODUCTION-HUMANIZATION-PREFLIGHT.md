@@ -90,8 +90,10 @@ The candidate is detector-ready only after:
 - preservation proof passes with zero unexplained substantive deltas;
 - architecture/coherence gates pass;
 - the AI-shape sweep has been exhausted editorially;
-- fresh-model evidence, when used, comes from **narrow observable defect audits** on the natural reading boundary rather than one global Human/AI verdict;
-- every model axis whose result affects admission has a current positive/negative calibration for that exact defect; malformed excerpt controls and hidden-authorship labels do not count;
+- fresh-model evidence, when used, may include a **full tell-ledger sweep** plus narrow observable defect audits, but never a global Human/AI authorship verdict;
+- the full tell-ledger sweep, when used, returns every tell exactly once as PRESENT / ABSENT / UNCERTAIN; all PRESENT/UNCERTAIN rows are resolved before admission;
+- for high-rigor fresh global sweeps, prefer Claude Opus 5.5 at explicit max reasoning when authorized/available; do not substitute default/adaptive reasoning and assume equivalence;
+- every narrow model axis whose result affects admission has a current positive/negative calibration for that exact defect; malformed excerpt controls and hidden-authorship labels do not count;
 - all applicable calibrated axes have no unresolved FAIL, and uncalibrated-axis model output is advisory only;
 - scaffold/content-neutralization analysis, when used, is treated as a diagnostic probe rather than an authorship veto;
 - no unresolved or cumulatively blocking `mixed` AI-shape finding remains after the direct editorial read;
@@ -146,6 +148,8 @@ AI-shape sweep: <all credible issues considered>
 Cumulative mixed-pattern aggregation: NONE / <blocking pattern>
 Scaffold diagnostic: <suspected topology + Human-counterexample/discrimination check> / NONE
 Human-facing relation check: <literal/source-grounded relation> / SURFACE-ONLY / NONE
+Global tell sweep: <model + reasoning effort + exact boundary + complete ledger> / NOT USED / INVALID
+Global unresolved tells: NONE / <PRESENT or UNCERTAIN tell IDs>
 Fresh-audit bundle: <applicable narrow axes + exact boundary> / INVALID
 Axis calibration: <axis=control result, e.g. cadence 4/4; antecedent 4/4> / NOT CURRENT
 Axis results: <reader-purpose / antecedent / cadence / other implicated axes>
