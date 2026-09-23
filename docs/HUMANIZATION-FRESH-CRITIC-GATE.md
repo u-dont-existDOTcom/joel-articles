@@ -17,7 +17,7 @@ Use fresh models in two layers:
 
 **Neither layer replaces or shortens the full Human-facing tell catalog.** The full post-generation tell ledger remains the master audit: every applicable known AI-shaped operation/tell must still receive an explicit disposition on the literal candidate. If an applicable catalog tell has no reliable model check yet, it remains a manual/editorial blocking check rather than silently disappearing from the gate.
 
-Current bounded evidence favors **Claude Opus 5.5 with explicit max reasoning** for the global sweep. On the same frozen six-case / twelve owner-grounded tell cells, Opus max scored 11/12 exact with 0 wrong-polarity calls; GPT-6 Sol max scored 8/12 and GPT-6 Astra max 7/12, both retaining confident polarity errors. Therefore, when the OpenRouter spend is authorized and the model remains available, prefer Opus 5.5 max for the high-rigor global sweep. Treat its UNCERTAIN as unresolved, never as ABSENT.
+Current bounded evidence favors **Claude Opus 5.5 with explicit xhigh reasoning** for the routine high-rigor global sweep. On the same frozen six-case / twelve owner-grounded tell cells, xhigh scored 11/12 and 10/12 across two runs with 0 wrong-polarity calls at roughly $0.45–$0.48 per six-case run; max scored 11/12 with 0 wrong polarity at roughly $3.00. Lower efforts were materially less decisive. Therefore, when the OpenRouter spend is authorized and the model remains available, use xhigh by default and reserve max for decision-changing unresolved or editorially disputed tells. Treat UNCERTAIN as unresolved, never as ABSENT.
 
 TypeSafe Jev may be used only as optional cheap triage: a Jev PRESENT can prioritize inspection, but a Jev ABSENT cannot clear a tell.
 
@@ -54,7 +54,7 @@ For the preferred high-rigor sweep:
 - do not force a tell merely because another tell is present or because the prose is model-authored;
 - treat any missing row, malformed row, PRESENT, or UNCERTAIN as unresolved.
 
-When Opus 5.5 is used, request explicit maximum reasoning rather than provider/default adaptive reasoning. Do not assume `temperature=0` implies maximum reasoning.
+When Opus 5.5 is used, request explicit **xhigh** reasoning rather than provider/default adaptive reasoning. Do not assume `temperature=0` implies the desired reasoning effort. Escalate to max only when an xhigh uncertainty/dispute is consequential enough to justify the extra cost/latency.
 
 The global sweep is an execution aid, not a completeness certificate. Direct editorial review remains responsible for noticing defects outside the current catalog.
 
