@@ -17,7 +17,7 @@ Use fresh models in two layers:
 
 **Neither layer replaces or shortens the full Human-facing tell catalog.** The full post-generation tell ledger remains the master audit: every applicable known AI-shaped operation/tell must still receive an explicit disposition on the literal candidate. If an applicable catalog tell has no reliable model check yet, it remains a manual/editorial blocking check rather than silently disappearing from the gate.
 
-Current bounded evidence favors **Claude Opus 5.5 with explicit xhigh reasoning** for the routine high-rigor global sweep. On the same frozen six-case / twelve owner-grounded tell cells, xhigh scored 11/12 and 10/12 across two runs with 0 wrong-polarity calls at roughly $0.45–$0.48 per six-case run; max scored 11/12 with 0 wrong polarity at roughly $3.00. Lower efforts were materially less decisive. Therefore, when the OpenRouter spend is authorized and the model remains available, use xhigh by default and reserve max for decision-changing unresolved or editorially disputed tells. Treat UNCERTAIN as unresolved, never as ABSENT.
+Current bounded evidence favors **Claude Opus 5.5** as the full-ledger sweep model, but the reasoning-effort ladder was measured through **OpenRouter API**, not Claude Code CLI. UDA routing therefore applies first: use an already-authenticated provider-native Claude CLI when it can provide the required model/effort/output/isolation; use OpenRouter only as an authorized fallback or when provider/API behavior itself is the evidence target. On OpenRouter, xhigh scored 11/12 and 10/12 across two runs with 0 wrong-polarity calls at roughly $0.45–$0.48 per six-case run; max scored 11/12 with 0 wrong polarity at roughly $3.00. Thus **OpenRouter fallback** uses xhigh routinely and max only for decision-changing unresolved/disputed tells. Claude CLI effort remains a separate calibration question and must not inherit the API effort result. Treat UNCERTAIN as unresolved, never as ABSENT.
 
 TypeSafe Jev may be used only as optional cheap triage: a Jev PRESENT can prioritize inspection, but a Jev ABSENT cannot clear a tell.
 
@@ -54,7 +54,7 @@ For the preferred high-rigor sweep:
 - do not force a tell merely because another tell is present or because the prose is model-authored;
 - treat any missing row, malformed row, PRESENT, or UNCERTAIN as unresolved.
 
-When Opus 5.5 is used, request explicit **xhigh** reasoning rather than provider/default adaptive reasoning. Do not assume `temperature=0` implies the desired reasoning effort. Escalate to max only when an xhigh uncertainty/dispute is consequential enough to justify the extra cost/latency.
+When Opus 5.5 is used, set an explicit reasoning effort on the selected route rather than assuming `temperature=0` implies the desired effort. **Do not transfer effort calibration across surfaces.** For OpenRouter fallback, current evidence supports xhigh routinely and max only when an xhigh uncertainty/dispute is consequential enough to justify the extra cost/latency. For Claude Code CLI, use only an effort level separately validated on that CLI route; until such calibration exists, record the CLI effort as experimental rather than treating the OpenRouter ladder as authority.
 
 The global sweep is an execution aid, not a completeness certificate. Direct editorial review remains responsible for noticing defects outside the current catalog.
 

@@ -31,7 +31,7 @@ routing aids; they do not establish article authority.
 ### P2S/P3/P4, detector repair, and humanization
 
 - `docs/HUMANIZATION-PRESERVATION-GATE.md` — **blocking before substantive rewritten text is detector-eligible**
-- `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` — **blocking whenever fresh-model evidence is used as pre-Pangram gate evidence; global authorship judges are retired in favor of calibrated narrow defect audits plus direct natural-boundary editorial review**
+- `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` — **blocking whenever fresh-model evidence is used as pre-Pangram gate evidence; the full tell catalog remains authoritative, a fresh global tell-ledger sweep may be followed by calibrated narrow defect audits, and global Human/AI authorship judges remain retired**
 - `project-sources/PRODUCTION-HUMANIZATION-PREFLIGHT.md` — **blocking before paid Pangram calls in production humanization; diagnose and repair the whole model-shaped pattern, repeat unpaid cold AI-shape audits until no credible problem remains, then test**
 - `project-sources/HUMANIZATION-AND-COHERENCE.md`
 - `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`

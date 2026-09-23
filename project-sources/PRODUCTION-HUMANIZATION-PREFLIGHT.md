@@ -92,7 +92,7 @@ The candidate is detector-ready only after:
 - the AI-shape sweep has been exhausted editorially;
 - fresh-model evidence, when used, may include a **full tell-ledger sweep** plus narrow observable defect audits, but never a global Human/AI authorship verdict;
 - the full tell-ledger sweep, when used, returns every tell exactly once as PRESENT / ABSENT / UNCERTAIN; all PRESENT/UNCERTAIN rows are resolved before admission;
-- for high-rigor fresh global sweeps, prefer Claude Opus 5.5 at explicit xhigh reasoning when authorized/available; escalate to max only for a decision-changing unresolved/disputed tell; do not substitute default/adaptive reasoning and assume equivalence;
+- for high-rigor fresh global sweeps, prefer an authenticated provider-native Claude CLI when it can provide the required Opus model/effort/output/isolation; otherwise use the authorized OpenRouter fallback. Do not transfer reasoning-effort calibration across surfaces: current OpenRouter-only evidence supports xhigh as the API fallback default and max for decision-changing unresolved/disputed tells; Claude CLI effort requires separate CLI-route calibration;
 - every narrow model axis whose result affects admission has a current positive/negative calibration for that exact defect; malformed excerpt controls and hidden-authorship labels do not count;
 - all applicable calibrated axes have no unresolved FAIL, and uncalibrated-axis model output is advisory only;
 - scaffold/content-neutralization analysis, when used, is treated as a diagnostic probe rather than an authorship veto;
