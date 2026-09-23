@@ -1,0 +1,49 @@
+{
+  "format": "inner-child-dangerous-adult-reader-reset-specialized-audits-v1",
+  "candidate_artifact_sha256": "692e502b7b6c6976aa7648666a230890c50126e73c8dbd7c83ce951c59d940f2",
+  "candidate_branch_commit": "252f839a68349029c297e5537c184b3c7348af28",
+  "model": "openai-gpt-6-sol",
+  "pangram_calls_authorized": 0,
+  "prompts": {
+    "reader_purpose": "Audit ONLY reader-purpose / pragmatic-act continuity. Do not classify Human vs AI and do not comment on style, truth, safety policy, or whether you agree with the claims.\n\nYou will see PREVIOUS CONTEXT, TARGET, and NEXT CONTEXT.\n\nPASS only if the visible text lets you state, without inventing missing setup:\n1. who the target is addressing at this point;\n2. what live reader question/pressure creates a reason for this target to appear here;\n3. what practical or interpretive job the target performs for that reader.\n\nFAIL if the target silently changes audience/role (for example from ordinary guide user to clinician/evaluator/hypothetical dangerous actor), or if its reason for appearing here cannot be recovered from visible context.\n\nReturn JSON only:\n{\"status\":\"PASS or FAIL\",\"reader\":\"...\",\"why_now\":\"...\",\"pragmatic_act\":\"...\",\"exact_evidence\":[\"...\"],\"failure\":\"none or concise defect\"}",
+    "cadence": "Audit ONLY cumulative instruction-manual/listicle cadence. Do not classify Human vs AI and do not judge factual quality.\n\nMap the TARGET into consecutive rhetorical/speech-act beats (for example: question, imperative, condition, distinction, verdict, diagnostic statement, list item, exception, closing rule).\n\nFAIL only when the paragraph's cumulative movement becomes a procedural/teaching staircase: several consecutive beats each perform one clean instructional or explanatory job, producing a manual/checklist/listicle rhythm. A list, imperative, rhetorical question, polished sentence, or direct advice by itself is NOT a failure. Genuine enumeration of hypotheses/examples is not automatically instruction-manual cadence.\n\nPASS when the beat sequence does not form that cumulative manual topology, even if the passage contains advice or a literal list.\n\nReturn JSON only:\n{\"status\":\"PASS or FAIL\",\"beats\":[\"...\"],\"cumulative_pattern\":\"...\",\"exact_evidence\":[\"...\"],\"failure\":\"none or concise defect\"}",
+    "antecedent": "Audit ONLY material antecedent/referent coherence. Do not classify Human vs AI and do not comment on general style.\n\nYou will see PREVIOUS CONTEXT, TARGET, and NEXT CONTEXT. Treat the supplied context as the complete local context relevant to the TARGET.\n\nFor each potentially context-dependent span, classify its role:\n- INTRODUCTION/DEFINITION: the TARGET itself introduces or defines the term.\n- EXPLICIT BACKWARD REFERENCE: the wording presupposes a specific earlier term, instruction, person, claim, or wording.\n- BRIDGING/GENERIC REFERENCE: a conventional category can be understood without a specific earlier sentence (for example \"the usual inner-child prompt\").\n- FORWARD REFERENCE: the wording explicitly points ahead.\n- SELF-CONTAINED USE: locally intelligible without other setup.\n\nQuoted/metalinguistic wording is important. If the TARGET talks about a particular quoted word as wording from an instruction/prompt, check whether visible context has actually made that word available. Do not treat generic category language as orphaned merely because no earlier sentence defined the category.\n\nFAIL only when a material EXPLICIT BACKWARD REFERENCE lacks visible setup and the missing setup affects how a normal reader understands the TARGET. Do not fail on harmless discourse particles or names merely because a larger document might have said more.\n\nReturn JSON only:\n{\"status\":\"PASS or FAIL\",\"references_checked\":[{\"span\":\"...\",\"role\":\"INTRODUCTION/DEFINITION or EXPLICIT BACKWARD REFERENCE or BRIDGING/GENERIC REFERENCE or FORWARD REFERENCE or SELF-CONTAINED USE\",\"antecedent\":\"... or NONE\",\"assessment\":\"resolved or orphaned\"}],\"failure\":\"none or concise defect\"}"
+  },
+  "cases": [
+    {
+      "case_id": "RR-RP1",
+      "axis": "reader_purpose",
+      "previous": "# Before You Try to Go Deep",
+      "target": "Sometimes there just isn't much grown-up around yet. You sit down to talk to the child and realize you're basically still the frightened kid yourself—you can't even decide what to do next. The deeper conversation can wait; maybe the next move is simply getting back into the room, or having somebody steady there with you.",
+      "next": "## When the Present-Day Adult Is Dangerous to the Child\n\nThere is another reason to leave the child alone: sometimes the adult is there, but the adult is not trying to protect the child. If the present-day person actually wants to frighten or exploit the vulnerable part, bringing the child into the work to “see what happens” is already putting the child in front of the problem; a frightened reaction only proves that the child is frightened. This isn't about every disturbing thought or unusual belief, or even about the fact that somebody has done harm before. The question is what the adult is choosing now, and until that changes, the work stays with the adult, not the child."
+    },
+    {
+      "case_id": "RR-RP2",
+      "axis": "reader_purpose",
+      "previous": "# Before You Try to Go Deep\n\nSometimes there just isn't much grown-up around yet. You sit down to talk to the child and realize you're basically still the frightened kid yourself—you can't even decide what to do next. The deeper conversation can wait; maybe the next move is simply getting back into the room, or having somebody steady there with you.",
+      "target": "## When the Present-Day Adult Is Dangerous to the Child\n\nThere is another reason to leave the child alone: sometimes the adult is there, but the adult is not trying to protect the child. If the present-day person actually wants to frighten or exploit the vulnerable part, bringing the child into the work to “see what happens” is already putting the child in front of the problem; a frightened reaction only proves that the child is frightened. This isn't about every disturbing thought or unusual belief, or even about the fact that somebody has done harm before. The question is what the adult is choosing now, and until that changes, the work stays with the adult, not the child.",
+      "next": "## You Don’t Need an Inner Monologue\n\nIf you don't hear a little kid talking in your head, don't invent one. Talking to the child can sound like you're supposed to ask a question and wait for a second voice to answer, but it doesn't have to work that way. Maybe that's what happens for some people, but you might not be some people."
+    },
+    {
+      "case_id": "RR-CD1",
+      "axis": "cadence",
+      "previous": "# Before You Try to Go Deep",
+      "target": "Sometimes there just isn't much grown-up around yet. You sit down to talk to the child and realize you're basically still the frightened kid yourself—you can't even decide what to do next. The deeper conversation can wait; maybe the next move is simply getting back into the room, or having somebody steady there with you.",
+      "next": "## When the Present-Day Adult Is Dangerous to the Child"
+    },
+    {
+      "case_id": "RR-CD2",
+      "axis": "cadence",
+      "previous": "## When the Present-Day Adult Is Dangerous to the Child",
+      "target": "There is another reason to leave the child alone: sometimes the adult is there, but the adult is not trying to protect the child. If the present-day person actually wants to frighten or exploit the vulnerable part, bringing the child into the work to “see what happens” is already putting the child in front of the problem; a frightened reaction only proves that the child is frightened. This isn't about every disturbing thought or unusual belief, or even about the fact that somebody has done harm before. The question is what the adult is choosing now, and until that changes, the work stays with the adult, not the child.",
+      "next": "## You Don’t Need an Inner Monologue"
+    },
+    {
+      "case_id": "RR-AN1",
+      "axis": "antecedent",
+      "previous": "## When the Present-Day Adult Is Dangerous to the Child\n\nThere is another reason to leave the child alone: sometimes the adult is there, but the adult is not trying to protect the child. If the present-day person actually wants to frighten or exploit the vulnerable part, bringing the child into the work to “see what happens” is already putting the child in front of the problem; a frightened reaction only proves that the child is frightened. This isn't about every disturbing thought or unusual belief, or even about the fact that somebody has done harm before. The question is what the adult is choosing now, and until that changes, the work stays with the adult, not the child.\n\n## You Don’t Need an Inner Monologue",
+      "target": "If you don't hear a little kid talking in your head, don't invent one. Talking to the child can sound like you're supposed to ask a question and wait for a second voice to answer, but it doesn't have to work that way. Maybe that's what happens for some people, but you might not be some people.",
+      "next": "You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose. Try it and see. If words are there, speak or write them. You might feel more comfortable that way than just staying in imagination land. And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually requiring your attention now is a knot in your stomach. Or perhaps you're in a place you want to leave. Sometimes nothing “answers” and you just know what would be nice to do for yourself."
+    }
+  ]
+}
