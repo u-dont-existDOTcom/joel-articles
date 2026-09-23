@@ -81,8 +81,33 @@ Result under the then-current critic logic:
 - AI: **4/10**;
 - six errors were all model-written passages classified Human.
 
-The critic often identified the model-shaped semantic topology but then let a concrete reaction, strong judgment, unresolved ending, social address, or sustained metaphor override that topology. This demonstrates that Human-looking devices cannot operate as positive votes merely because they are apt. They count only when they create Human surplus that materially disrupts the optimized functional scaffold.
+The critic often identified the model-shaped semantic topology but then let a concrete reaction, strong judgment, unresolved ending, social address, or sustained metaphor override that topology. This establishes that Human-looking devices are not positive votes merely because they are apt. It did **not** establish that genuine Human prose must contain surplus that breaks a clean functional scaffold.
 
-The 20 examples used for this diagnosis are now development data. Any later calibration claim requires a new untouched holdout. A revised rubric was frozen for development, but its first rerun was not scored because the Venice gateway returned HTTP 402 on all requests after the first benchmark consumed the available API payment balance/credit.
+The 20 examples used for this diagnosis became development data. A revised rubric then made content-neutralized scaffold analysis a hard veto and required Human evidence to materially break that scaffold.
 
-No Pangram call was used for this benchmark.
+## 2026-09-23 untouched holdout v2 — overcorrection result
+
+A new untouched 20-item provenance holdout was frozen before classification:
+- 10 Human / 10 AI;
+- 61–201 words;
+- zero exact-SHA overlap with v1;
+- labels stored separately until all 20 Venice responses were frozen;
+- same GPT-5.6 Sol Venice route and temperature 0.
+
+Result:
+- overall: **10/20 (50%)**;
+- Human: **1/10**;
+- AI: **9/10**.
+
+The v2 hard-veto theory is therefore falsified. Genuine Human prose can be compact, coherent, instructional, causal, self-contained, carefully sequenced, and easy to summarize as a functional staircase. Requiring Human evidence to “break” the scaffold caused massive false-AI overcalling.
+
+The two tests together establish a method boundary:
+- v1 was too permissive toward model-simulated Human-facing features;
+- v2 was too aggressive toward structured Human prose;
+- adding another abstract prohibition/exception layer is no longer justified.
+
+The next classifier architecture must be materially different. Prefer literal contrastive calibration against provenance-secure Human/AI examples, with abstract tells used as explanatory vocabulary rather than absolute decision rules. Any new production-gating classifier still requires a new untouched 20/20 provenance holdout.
+
+The earlier HTTP 402 event was transient transport evidence only; later neutral probes and the complete holdout v2 run succeeded through the same Venice gateway. Do not treat the 402 as a lasting credit-state fact.
+
+No Pangram call was used for either benchmark.
