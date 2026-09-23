@@ -71,9 +71,13 @@ Ask:
 
 If you can still name a substantive AI-shape problem you genuinely believe, revise again **without spending Pangram**. Re-run preservation/architecture checks as required after substantive edits.
 
-Continue until the answer is effectively: **no, not at all**—not because the prose has been made quirky, but because there is no remaining model-shape diagnosis you actually endorse.
+Do not let preservation success clear a style/shape objection. A required claim/function may force the cognition to remain while leaving its current realization fully editable. Likewise, do not clear several `mixed` findings one-by-one without checking whether they aggregate into one definite paragraph/section pattern.
+
+Continue until the answer is effectively: **no, not at all**—not because the prose has been made quirky, but because there is no remaining model-shape diagnosis you actually endorse **after cumulative-pattern, reader-model, why-now, and antecedent checks**.
 
 ## 5. Paid-call surprise gate
+
+When fresh-model audit evidence is part of the unpaid pre-Pangram review, `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` is blocking. Freshness alone is not competence, and a global Human/AI verdict is not admission evidence.
 
 Immediately before a production Pangram call ask:
 
@@ -86,6 +90,12 @@ The candidate is detector-ready only after:
 - preservation proof passes with zero unexplained substantive deltas;
 - architecture/coherence gates pass;
 - the AI-shape sweep has been exhausted editorially;
+- fresh-model evidence, when used, comes from **narrow observable defect audits** on the natural reading boundary rather than one global Human/AI verdict;
+- every model axis whose result affects admission has a current positive/negative calibration for that exact defect; malformed excerpt controls and hidden-authorship labels do not count;
+- all applicable calibrated axes have no unresolved FAIL, and uncalibrated-axis model output is advisory only;
+- scaffold/content-neutralization analysis, when used, is treated as a diagnostic probe rather than an authorship veto;
+- no unresolved or cumulatively blocking `mixed` AI-shape finding remains after the direct editorial read;
+- reader model, why-now, antecedent/referent, and any implicated cadence/overclosure checks pass independently of preservation;
 - the exact boundary/hash/call-ledger safety checks pass.
 
 A failed Pangram call can still reveal new context/boundary behavior. When that happens, diagnose the whole resulting boundary again rather than automatically toggling the highlighted sentence.
@@ -133,6 +143,15 @@ Natural boundary: <section / transition>
 Preservation proof: PASS / FAIL
 Architecture/coherence: PASS / FAIL
 AI-shape sweep: <all credible issues considered>
+Cumulative mixed-pattern aggregation: NONE / <blocking pattern>
+Scaffold diagnostic: <suspected topology + Human-counterexample/discrimination check> / NONE
+Human-facing relation check: <literal/source-grounded relation> / SURFACE-ONLY / NONE
+Fresh-audit bundle: <applicable narrow axes + exact boundary> / INVALID
+Axis calibration: <axis=control result, e.g. cadence 4/4; antecedent 4/4> / NOT CURRENT
+Axis results: <reader-purpose / antecedent / cadence / other implicated axes>
+Primary reader here: <who>
+Why now: <what preceding thought creates this section>
+Antecedent/referent check: PASS / FAIL
 Remaining model-shape issue I actually believe: none / <exact issue>
 Would an AI result genuinely surprise me?: yes / no
 Exact text SHA-256: <sha>

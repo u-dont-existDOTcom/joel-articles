@@ -30,7 +30,7 @@ Give three independent judgments:
 
 Only prose shape controls the human/AI/mixed verdict. Give that verdict first.
 
-Run content-neutralization: replace names, technical terms, doctrines, and facts with placeholders. Ask whether the remaining architecture is portable across unrelated topics. Do not count accuracy, caution, calibrated uncertainty, evidentiary restraint, doctrinal specificity, fairness, or first-person grammar as evidence of human voice.
+Run content-neutralization: replace names, technical terms, doctrines, and facts with placeholders. Ask whether the remaining architecture is portable across unrelated topics. Do not count accuracy, caution, calibrated uncertainty, evidentiary restraint, doctrinal specificity, fairness, or first-person grammar as evidence of human voice. **This is a diagnostic stress test, not an authorship veto:** coherent Human prose can also reduce to a clean functional sequence, and the literal relations among context, details, stakes, and attention may themselves carry discriminative shape. Never classify AI merely because the neutralized skeleton is efficient or portable.
 
 For short analytical prose, inspect clusters: completed abstract inference; nested hedging; immediate prophylactic caveat; comprehensive closure of possible overreadings; first-person epistemic framing without visible reasoning; symmetrical claim–limitation architecture. “I take this as evidence” is not visible reasoning by itself. Look for encounter, friction, revision, observation, failed expectation, or live uncertainty.
 

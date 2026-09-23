@@ -58,7 +58,7 @@ The blocking order is:
 
 Re-run the preservation proof after every detector-driven semantic edit. A 100% Human candidate with an unexplained deletion, addition, provenance change, actor/cause change, certainty change, or misplaced protected function is a failed candidate and cannot be promoted. If such a candidate has already been measured, preserve the detector result as diagnostic evidence but mark the prose fidelity-rejected.
 
-`Inferable`, `redundant`, `smoother`, and `better for Pangram` are never deletion authority. Similar topic does not prove duplicate function. Source wording, remembered quotation, later interpretation, and synthesis must remain separate provenance objects unless Joel explicitly merges them.
+`Inferable`, `redundant`, `smoother`, and `better for Pangram` are never, by themselves, deletion authority for a genuinely independent thought/function. But preservation is not a requirement to restate every source sentence or explanatory point explicitly. When a sentence is only realization scaffolding, unpacking, or aftercare for cognition already carried unambiguously elsewhere, the rewrite may leave that implication implicit if a cold reader still gets the same substantive thought and no independent claim, qualification, agency, certainty, attribution, chronology, causality, decision rule, example, or protected rhetorical function is lost. Do not atomize prose into preservation units merely because each sentence says something. Similar topic still does not prove duplicate function, and source wording, remembered quotation, later interpretation, and synthesis must remain separate provenance objects unless Joel explicitly merges them.
 
 Use the smallest useful proof scope: the changed natural section plus load-bearing dependencies for a local repair, and article-wide units only for genuinely article-wide reconstruction.
 
@@ -171,6 +171,14 @@ Do not skip this layer merely because relational-thought generation or independe
 
 A completed tell ledger is **not** a completeness certificate. `No AI-shaped operation identified` means only that the current ledger/reviewer did not identify one.
 
+### Owner-calibrated fresh-context tell loop
+
+When Joel is actively calibrating whether model-written realization sounds Human, do not self-approve the candidate from the same saturated drafting context and do not use Joel as QA for defects already believed definite. Repair known definite defects first.
+
+Before using a fresh model as pre-Pangram gate evidence, read and apply **`docs/HUMANIZATION-FRESH-CRITIC-GATE.md`**. Do **not** ask one global critic to certify Human/AI authorship or overall prose quality. Use calibrated narrow falsification audits for concrete observable defects—currently reader-purpose/pragmatic act, antecedent/referent coherence, and cumulative instruction-manual/listicle cadence—inside the natural reading boundary.
+
+A bare `no definite AI tells`, a global Human/AI verdict, or the absence of narrow FAILs is non-gating. Each narrow auditor must pass positive/negative controls for that exact defect under the current prompt/model configuration; a failed auditor is advisory only. After Joel corrects a tell classification or causal diagnosis, make that correction durable, repair internally, rerun the affected narrow audit(s) on changed bytes, and keep direct natural-boundary editorial review separate from preservation, architecture/cold-read, final preservation, and Pangram.
+
 The Inner Child checking RT2 re-audit on 2026-09-21 showed a more basic failure: a paragraph can contain concrete examples, self-talk, fragments, and other Human-looking forms while the **mesoscale semantic staircase remains intact**. The supposed tell-clean diagnostic still had obvious AI-shaped operations: one source function per scene beat, synthetic didactic prop selection, fake-spontaneity markers, generic therapeutic abstraction, and concrete image followed by explanatory aftercare.
 
 Therefore the tell ledger must audit both:
@@ -180,6 +188,17 @@ Therefore the tell ledger must audit both:
 Do not call a candidate tell-clean merely because Human-facing devices are present. Ask whether the details are causally load-bearing or interchangeable props, whether filler/hesitation is earned or stage-managed, and whether the paragraph still advances each protected function with suspiciously efficient equality.
 
 The current catalog may still be incomplete, but RT2 does **not** establish that; its `tell-clean` premise was false. Keep the paid detector gate separate.
+
+### Fake personal stake and instruction-manual accumulation
+
+Direct owner correction, 2026-09-21:
+
+- In explanatory or therapeutic guide prose, first person is **not** Human-facing merely because it sounds personal. Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision. Ask: **why should the reader care what Joel personally cares/wants here?** If there is no real answer, state the substantive judgment directly.
+- This failure can sound oddly arrogant or performatively intimate: the prose inserts the author as an authority/personality where the section is actually giving general guidance.
+- A clear direct sentence may be acceptable once. The tell emerges cumulatively when repeated compressed commands, verdicts, questions, or short lessons create an **instruction-manual/listicle cadence**. Audit the passage as a sequence, not merely sentence by sentence.
+- `Optimal efficiency` is itself a risk pattern when nearly every sentence cleanly performs one teaching job and then hands off to the next. Humanization must not replace an explicit source checklist with a smoother sequence of maximally efficient mini-lessons.
+- Abrupt complication is another risk: a sentence can be substantively correct but still feel model-written when it introduces a new concern with no reader-visible reason for why the topic just changed.
+- When a clear AI-written source is better than a supposedly humanized rewrite, **rollback toward the clear source**. Do not preserve a fake-personal, cute, colloquial, or self-conscious repair merely because it contains more Human-looking surface forms. Humanization must improve naturalness without sacrificing clarity, dignity, or rhetorical fit.
 
 When Joel explicitly asks for the tell ledger or tell fixes, show both the literal ledger and the exact integrated result; do not summarize them invisibly.
 
@@ -198,7 +217,9 @@ Blocking order:
 
 Any substantive edit invalidates affected reviews and all downstream gates; a prior candidate's PASS never transfers to revised bytes. Do not pad short text merely to manufacture a detector boundary, and do not use known-Human owner prose to conceal a red model-written paragraph.
 
-If a candidate fails, keep the prose internal and continue automatically. If repeated structurally different attempts saturate and genuine owner cognition is required, the help packet must show the full surrounding context plus the **contemporaneous pre-prose map actually used for every affected sentence**: sentence, source meaning, local map/move, placement reason, intended next move, failed review, and Pangram result when measured. Never reconstruct a supposedly exact sentence map after failure.
+If a candidate fails, keep the prose internal and continue automatically. Repeated AI-shaped realization failure does **not** establish missing owner cognition. When the authoritative article/source already represents Joel's cognition and Joel approves the thought, keep that cognition fixed and change the realization/review architecture. Use the owner-calibrated fresh-context tell loop above rather than asking Joel to re-supply rough cognition.
+
+Ask for new owner cognition only when the underlying thought itself is genuinely missing, contradictory, underdetermined, or explicitly rejected by Joel—not merely because model-written wording or structure remains AI-shaped. If that genuine cognition boundary is reached, the help packet must show the full surrounding context plus the **contemporaneous generative substrate actually used**; never reconstruct a supposedly exact sentence map after failure.
 
 Ordinary progress updates may report gate status or method changes but must not leak failed candidate prose unless Joel explicitly asks to inspect it or a genuine owner-help packet is required.
 

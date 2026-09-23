@@ -13,10 +13,14 @@ Cold audit should be detector-blind and rationale-blind as far as practical. Wit
 Before a PASS, identify the three strongest credible model-shape candidates in the natural boundary, or all candidates if fewer than three exist. Anchor each span, diagnose the actual pattern, and give one disposition:
 
 - `repair` — real editorial defect;
-- `preserve-with-reason` — genuinely required by evidence, safety, architecture, owner intent, or genre;
-- `unresolved` — plausible defect but insufficient authority/evidence to change it.
+- `preserve-exact-realization-with-specific-reason` — the **current realization itself**, not merely its underlying meaning/function, is genuinely required by evidence, safety, architecture, owner intent, quotation/provenance, or genre;
+- `unresolved` — plausible defect but insufficient evidence to clear or repair it.
 
 An unresolved substantive defect means the prose is not cold-audit clean. A PASS cannot consist only of `I see no remaining problem`.
+
+**Preservation authority cannot discharge the humanization audit.** `This function is source-protected`, `this distinction is required`, `preservation passes`, or `the source is dense` may justify retaining the cognition; none, by itself, justifies the present wording, cadence, paragraph allocation, checklist topology, or other realization. If the meaning must stay but the packaging is model-shaped, repair the packaging.
+
+Before dispositioning the candidates independently, aggregate them at paragraph/section scale. Several individually `mixed` features can form one definite cumulative failure. In particular, repeated question/command/verdict/lesson units, compact distinctions, efficient causal summaries, and short hard stops can collectively become instruction-manual/listicle cadence even when none is independently disqualifying.
 
 ## 3. Saturated same-context audits are provisional
 
@@ -46,7 +50,20 @@ Registered authority determines the controlling article/source. It does not impl
 
 Research/practical writing legitimately needs mechanisms, evidence distinctions, citations, warnings, and instructions. Do not convert necessary technical material into autobiography. The repair target is unnecessary packaging: false symmetry, duplicate caveat architecture, comprehensive closure, generic recap, or taxonomy that exists mainly to complete the form.
 
-## 8. Owner-source wording must survive public-facing context
+## 8. Reader model and why-now are blocking
+
+Before a PASS on any new or substantially rewritten section, state explicitly:
+
+- **primary reader at this exact point:** who the prose is talking to;
+- **reader state:** what the reader has just learned, felt, or is trying to do;
+- **why now:** what preceding thought creates the need for this section/sentence now;
+- **reader consequence:** what understanding, decision, recognition, or action changes because this passage exists.
+
+If those answers are unclear, conflict with the article's audience contract, or require inventing a clinician/helper/evaluator audience that the surrounding article did not establish, the passage fails reader-facing realization even when every sentence is locally coherent.
+
+Ask the plain question Joel used in the Inner Child safety correction: **Who are you talking to, and why would they care about what you're saying?** Treat inability to answer from the visible article as a structural defect, not a request for more explanatory aftercare.
+
+## 9. Owner-source wording must survive public-facing context
 
 Owner interviews, chat answers, and editorial explanations are source pools, not transcripts. A sentence can be exact owner language and still be wrong for publication because it was spoken to the editor/model rather than to the reader.
 
@@ -60,7 +77,7 @@ Cold-read the **literal first paragraph under every heading** and every paragrap
 
 If exact owner wording says things like `this is important because it connects with my other articles`, or otherwise carries private-chat rationale, preserve the thought/provenance but rewrite the wrapper into self-contained reader-facing prose. Verbatimness is not a coherence exemption.
 
-## 9. Publish the conclusion, not the backstage research diary
+## 10. Publish the conclusion, not the backstage research diary
 
 Source notes often contain epistemic process language: `I thought X`, `I had heard Y`, `I checked it`, `I wasn't sure what the word was`, `the check I did here showed...`. That history can be useful internally without belonging in the article.
 
@@ -68,7 +85,7 @@ Default publication rule: state the best current conclusion directly, with the n
 
 During cold audit, flag research-process narration that exists merely because the source interview contained it.
 
-## 10. The paid-call surprise test is secondary
+## 11. The paid-call surprise test is secondary
 
 `Would an AI result surprise me?` cannot override an identified editorial defect. First complete the adverse-span audit, genre/anecdote check, inherited-scaffold check, reader-facing realization check, and research-process compression check; only then use subjective surprise as an additional readiness question.
 
@@ -82,6 +99,11 @@ Genre target: <type>
 Strongest candidate 1: <span + diagnosis + disposition>
 Strongest candidate 2: <span + diagnosis + disposition>
 Strongest candidate 3: <span + diagnosis + disposition>
+Cumulative mixed-pattern aggregation: NONE / <pattern + disposition>
+Primary reader here: <who>
+Reader state / live pressure: <what is happening for them here>
+Why now: <preceding thought that creates this need>
+Reader consequence: <what changes for the reader>
 Anecdote-inflation check: PASS / FAIL
 Fresh owner input needed: judgment/reasoning/etc. / lived example genuinely needed / none
 Inherited-scaffold check: PASS / FAIL
