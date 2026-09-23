@@ -106,8 +106,49 @@ The two tests together establish a method boundary:
 - v2 was too aggressive toward structured Human prose;
 - adding another abstract prohibition/exception layer is no longer justified.
 
-The next classifier architecture must be materially different. Prefer literal contrastive calibration against provenance-secure Human/AI examples, with abstract tells used as explanatory vocabulary rather than absolute decision rules. Any new production-gating classifier still requires a new untouched 20/20 provenance holdout.
+A literal contrastive global classifier was then tried as a materially different architecture. Development looked promising, but the untouched seven-pair GPT-6 Sol holdout collapsed to **10/20**, and a matched pairwise realization-defect chooser scored **5/8**. The global-judge family is therefore retired for production admission.
 
-The earlier HTTP 402 event was transient transport evidence only; later neutral probes and the complete holdout v2 run succeeded through the same Venice gateway. Do not treat the 402 as a lasting credit-state fact.
+The production benchmark target was also corrected: hidden model authorship is not the same thing as a remaining model-shaped editorial defect. A model-authored passage can become Human-facing; Human-authored prose can still have manual/listicle cadence. Authorship provenance remains useful experiment metadata but is not the production gold label.
 
-No Pangram call was used for either benchmark.
+### Specialized defect-audit replacement — 2026-09-23
+
+The production task was decomposed into narrow observable audits using GPT-6 Sol:
+- reader-purpose / pragmatic act: **2/2** seeded controls;
+- cumulative instruction-manual/listicle cadence: **4/4** seeded controls, including Human list/advice counterexamples;
+- corrected antecedent/referent coherence: **4/4** controlled cases using the same target with/without its required setup plus self-contained/corrupted Human controls.
+
+Combined current owner-correction-relevant controls: **10/10**.
+
+This is scoped process evidence, not an authorship detector. The new rule is:
+- one axis per audit;
+- exact spans and observable defect only;
+- axis-specific positive/negative calibration;
+- owner/editorial defect judgment, not hidden provenance, supplies the label;
+- an auditor that misses its controls is non-gating;
+- a narrow FAIL is a repair candidate, not proof of AI authorship;
+- absence of narrow FAILs still requires a direct natural-boundary editorial read;
+- Pangram remains downstream and cannot rescue a failed unpaid audit.
+
+The earlier HTTP 402 event was transient transport evidence only; later neutral probes and complete GPT-6 Sol runs succeeded through the same Venice gateway. Do not treat the 402 as a lasting credit-state fact.
+
+No Pangram call was used for these debugging benchmarks.
+
+
+## Requirement-accretion correction — 2026-09-23
+
+The prior mandatory `20/20 hidden-authorship holdout` was an **ASSISTANT_INFERENCE**, not an owner-required production outcome.
+
+Parent owner outcome: prevent obvious model-shaped defects from reaching paid Pangram and stop process loops that miss defects Joel can immediately see.
+
+What the 20/20 requirement was supposed to protect: critic sensitivity/specificity.
+
+Strongest simpler alternative: narrow defect auditors calibrated on the exact observable failure classes, plus direct natural-boundary editorial review.
+
+Evidence:
+- global authorship/good-vs-bad judge variants failed to generalize across four materially different designs;
+- the hidden-authorship label diverged from the actual production question;
+- narrow reader-purpose, cadence, and corrected antecedent audits reproduced the owner-correction-relevant defects at 10/10 scoped controls.
+
+Necessity state for the global 20/20 authorship prerequisite: **NOT_NECESSARY**.
+
+Disposition: remove it as a production blocker; preserve the benchmark history as research evidence.
