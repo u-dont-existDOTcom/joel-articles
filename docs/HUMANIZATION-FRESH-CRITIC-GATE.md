@@ -47,23 +47,23 @@ It must inspect:
 - explanatory aftercare;
 - source/requirements ledger made reader-visible.
 
-### Content-neutralized scaffold test
+### Scaffold analysis is diagnostic, not an authorship veto
 
-Before crediting vivid detail, self-talk, humor, metaphor, direct reader address, unresolvedness, first person, strong opinion, or another Human-looking device, mentally replace topic nouns, names, doctrines, therapies, objects, and examples with placeholders and reduce each sentence/beat to its function.
+Reducing a passage to sentence/beat functions can reveal hidden instruction-manual topology. Use that reduction as a **diagnostic probe**, not as a binary authorship rule.
 
-If the remaining passage is still an unusually clean semantic staircase—such as setup -> qualification -> example -> distinction -> verdict, command -> exception -> contingency, or problem -> taxonomy -> synthesis—the surface device does **not** rehabilitate it merely because it is concrete, apt, emotionally plausible, or source-grounded.
+A language model can simulate concrete reaction, self-talk, humor, metaphor, direct reader address, unresolvedness, first person, strong opinion, and colloquial friction. But the converse is also true: genuine Human prose can be compact, coherent, instructional, causal, polished, and highly functional. Almost any coherent paragraph can be summarized after the fact as a sequence of functions.
 
-A model can deliberately simulate:
-- concrete reaction and self-talk;
-- relevant-seeming authorial judgment;
-- unresolved endings;
-- reader recognition/social address;
-- sustained metaphor;
-- colloquial friction.
+Therefore:
 
-Count a Human-facing feature against the AI hypothesis only when it creates **Human surplus** that materially disrupts the optimized scaffold: unnecessary-but-real context dependence, uneven attention not optimized for instruction, unresolved social residue, authorial partiality beyond the passage's thesis, recurrence/digression with a separate lived function, or non-interchangeable detail that changes more than delivery of the lesson.
+- do not classify prose as AI merely because a content-neutralized summary forms a clean semantic staircase;
+- do not erase names, stakes, history, and context and then treat the information lost by that erasure as evidence against Human authorship;
+- do not require Human prose to contain inefficiency, digression, dangling residue, or functionally unnecessary material;
+- do not treat an apt Human-facing device as positive evidence merely because it is vivid or emotionally plausible;
+- judge whether the **literal relations among details, attention, social act, context, and paragraph movement** are more consistent with the calibrated Human controls or AI controls.
 
-Purpose-built concreteness can skin a staircase. Engineered unresolvedness can also be part of a staircase. If every vivid element maps neatly to one teaching obligation, that mapping is AI-shape evidence rather than Human evidence.
+Content-neutralization remains useful for asking whether a vivid surface is merely skinning a requirements ledger. It is non-dispositive unless the suspected topology actually discriminates AI from Human prose in the current calibration evidence.
+
+Prefer literal contrast against provenance-secure Human and AI examples over an abstract purity test. If the same heuristic repeatedly flags both classes, that heuristic is not gating evidence.
 
 ## 4. Mixed aggregation
 
@@ -103,9 +103,11 @@ Benchmark rules:
 6. if the rubric is changed after seeing an error, that set becomes development data permanently. A later 20/20 validation claim requires a **new untouched holdout**;
 7. keep Pangram-passing model prose as a useful detector-disagreement stress set, but never let Pangram passing redefine it as Human ground truth.
 
+If successive abstract rubric revisions swing between false-Human and false-AI errors, stop adding prohibitions or exceptions. Treat that as a classifier-architecture failure. Move to a materially different approach—preferably literal contrastive calibration with provenance-secure Human/AI examples—before freezing another holdout.
+
 Do not reveal labels, provenance, or detector status to the critic.
 
-Accepting Human controls alone proves only that the critic can avoid overcalling AI. It does not show adequate sensitivity to model prose. Missing any known-AI holdout means its target non-detection is **non-gating evidence**.
+Accepting Human controls alone proves only that the critic can avoid overcalling AI. It does not show adequate sensitivity to model prose. Missing any known-AI holdout means its target non-detection is **non-gating evidence**. Conversely, correctly catching AI while rejecting provenance-secure Human prose does not establish a useful critic either.
 
 Reuse a still-current successful holdout result for the same materially unchanged critic configuration; do not rerun the benchmark on every candidate.
 
@@ -117,9 +119,9 @@ Current small regression fixtures and expected classifications are in `HUMANIZAT
 
 Fresh-critic PASS requires all of:
 - no unresolved credible AI-shape candidate;
-- no cumulative mixed pattern;
-- content-neutralized functional-skeleton check passes;
-- any claimed Human-facing signal provides Human surplus that **materially breaks** rather than merely decorates the model-shaped scaffold;
+- no cumulative mixed pattern that remains discriminative after checking calibrated Human counterexamples;
+- scaffold/content-neutralization observations are treated as diagnostic evidence rather than an automatic AI veto;
+- any credited Human-facing relation is supported by the literal prose and is not merely decorative camouflage, without requiring Human prose to be inefficient or structurally messy;
 - reader-model check passes;
 - why-now check passes;
 - antecedent/referent check passes;

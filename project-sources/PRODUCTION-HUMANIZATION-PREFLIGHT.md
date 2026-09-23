@@ -92,9 +92,9 @@ The candidate is detector-ready only after:
 - the AI-shape sweep has been exhausted editorially;
 - any fresh-critic non-detection used as gate evidence came from a **natural-boundary, audience-aware adversarial packet**, not target text alone;
 - the critic setup has a current successful **20/20 frozen blinded provenance holdout** for the materially unchanged rubric/provider/model configuration; one known-good + one known-bad pair is only a smoke test;
-- the critic has content-neutralized the passage and checked the functional skeleton before crediting concrete detail, metaphor, self-talk, opinion, unresolvedness, or other Human-looking forms;
-- any claimed Human-facing signal provides genuine Human surplus that materially disrupts, rather than merely decorates, the model-shaped scaffold;
-- no unresolved or cumulatively blocking `mixed` AI-shape finding remains;
+- scaffold/content-neutralization analysis, when used, is treated as a diagnostic probe and checked against provenance-secure Human counterexamples; a clean functional skeleton is not an AI veto by itself;
+- any claimed Human-facing relation is supported by the literal passage and is not merely surface camouflage, without requiring Human prose to be inefficient, digressive, or structurally messy;
+- no unresolved or cumulatively blocking `mixed` AI-shape finding remains after discriminative Human/AI calibration;
 - reader model, why-now, and antecedent checks pass independently of preservation;
 - the exact boundary/hash/call-ledger safety checks pass.
 
@@ -144,8 +144,8 @@ Preservation proof: PASS / FAIL
 Architecture/coherence: PASS / FAIL
 AI-shape sweep: <all credible issues considered>
 Cumulative mixed-pattern aggregation: NONE / <blocking pattern>
-Content-neutralized functional skeleton: PASS / <blocking scaffold>
-Human surplus: <what materially breaks the scaffold> / NONE
+Scaffold diagnostic: <suspected topology + Human-counterexample/discrimination check> / NONE
+Human-facing relation check: <literal/source-grounded relation> / SURFACE-ONLY / NONE
 Fresh-critic packet: natural boundary + intended reader + heading/local purpose / INVALID
 Fresh-critic calibration: <holdout score, e.g. 20/20> / NOT CURRENT
 Primary reader here: <who>

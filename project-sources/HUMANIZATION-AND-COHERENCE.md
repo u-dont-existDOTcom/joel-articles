@@ -332,6 +332,6 @@ Report independently:
 2. thought provenance;
 3. fidelity and editorial quality.
 
-Use content-neutralization to remove subject-specific nouns and test the remaining architecture for portability. Do not count caution, accuracy, doctrinal specificity, calibrated uncertainty, fairness, or first-person grammar as human-shape evidence. In short analytical prose, inspect clusters of completed inference, nested hedge, immediate caveat, closure of overreadings, first-person wrapper without visible reasoning, and symmetrical claim/limitation. No single device decides the verdict.
+Use content-neutralization to remove subject-specific nouns and test the remaining architecture for portability. Treat that reduction as diagnostic rather than dispositive: Human prose can also reduce to a clean, efficient sequence, and replacing context/details with placeholders must not erase genuine relational evidence and then count the erasure against Human authorship. Do not count caution, accuracy, doctrinal specificity, calibrated uncertainty, fairness, or first-person grammar as human-shape evidence. In short analytical prose, inspect clusters of completed inference, nested hedge, immediate caveat, closure of overreadings, first-person wrapper without visible reasoning, and symmetrical claim/limitation. No single device decides the verdict.
 
 For the complete cold-audit protocol and controlled minimal-pair record, use `FINGERPRINT-PASS.md` and `EDIT-CONTRACT-AND-LEDGERS.md`.
