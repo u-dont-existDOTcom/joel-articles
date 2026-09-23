@@ -89,7 +89,7 @@ For each axis whose model result will affect detector admission:
 4. include at least one known PASS and one known FAIL;
 5. if a control is malformed or omits context the real reader would have, fix the experiment rather than teaching the model to reproduce the artifact;
 6. if the auditor misses a control, its output for that axis is non-gating until repaired;
-7. reuse a still-current calibration for the materially unchanged model/prompt/axis; do not rerun controls on every candidate.
+7. reuse a still-current calibration only for the materially unchanged axis/model/prompt/provider configuration; do not rerun controls on every candidate.
 
 Current project evidence in the Pangram lab, 2026-09-23:
 - reader-purpose/pragmatic act: **2/2** seeded controls;
