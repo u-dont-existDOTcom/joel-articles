@@ -12,8 +12,10 @@ Do not ask one fresh critic to certify hidden authorship or emit a global `Human
 
 Use fresh models as **specialized falsification auditors** for concrete observable defects. Each auditor asks one narrow question, cites exact spans, and stays inside its axis.
 
+**These narrow auditors do not replace or shorten the full Human-facing tell catalog.** The full post-generation tell ledger remains the master audit: every applicable known AI-shaped operation/tell must still receive an explicit disposition on the literal candidate. Narrow auditors are an execution strategy for checking one tell or coherent tell-family reliably in fresh context. If an applicable catalog tell has no calibrated narrow auditor yet, it remains a manual/editorial blocking check rather than silently disappearing from the gate.
+
 A narrow FAIL is a repair candidate. It is not proof of AI authorship.
-A set of PASS results is not proof of Human authorship.
+A set of PASS results is not proof of Human authorship, and it cannot clear tell families that were not audited.
 
 ## 2. Packet
 

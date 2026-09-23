@@ -175,7 +175,7 @@ A completed tell ledger is **not** a completeness certificate. `No AI-shaped ope
 
 During Joel tell calibration, repair already-definite defects before owner QA and do not self-approve from the saturated drafting context.
 
-Before using fresh-model evidence pre-Pangram, apply **`docs/HUMANIZATION-FRESH-CRITIC-GATE.md`**: use narrow defect auditors on the natural boundary, with current positive/negative controls for that exact axis/model/prompt/provider configuration—never a global Human/AI vote. An axis PASS clears only that axis.
+Before using fresh-model evidence pre-Pangram, apply **`docs/HUMANIZATION-FRESH-CRITIC-GATE.md`**. **This does not replace or shorten the full post-generation tell ledger above.** The complete current tell catalog remains the master checklist: every applicable AI-shaped tell/operation must still be dispositioned on the literal candidate. Fresh-model narrow auditors are only a more reliable way to execute or independently check one tell or coherent tell-family at a time, with current positive/negative controls for that exact axis/model/prompt/provider configuration—never a global Human/AI vote. An axis PASS clears only that axis; it cannot clear untested tells elsewhere in the catalog.
 
 After Joel corrects a diagnosis, persist it, update any failed axis control, repair internally, and use a new fresh request on changed bytes. Final unpaid admission remains the complete editorial/cold audit, separately from preservation, architecture, final preservation, and Pangram.
 
