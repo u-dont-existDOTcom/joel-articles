@@ -1,0 +1,11 @@
+## When the Present-Day Adult Is Dangerous to the Child
+
+The last check asked whether enough of the adult is here at all. This one catches something different. You can be fully present, calm, able to pause and choose, and still be unsafe for a vulnerable child if you currently want to frighten, humiliate, exploit, or hurt vulnerability—or enjoy doing it. Adult capacity and protective intent are not the same thing.
+
+If that's where you are, leave the child out of the work. Don't bring them forward for a minute to see how they react. A frightened reaction tells you the child is frightened, not that you're safe; if fear is rewarding to you, using the child to produce it has already turned the exercise into part of the harm.
+
+The child being off-limits does not make the work pointless. It keeps the work with the present-day adult. Something brought you here: maybe something is hurting, maybe something isn't working, or maybe you want something in your life to change. You can look at the identity or stance from there—what it gives you and costs you, whom it serves, whether it has given you the life and happiness you expected. The word "sovereign" only means much here if it shows up in what you can actually do. If an urge, doctrine, group, spirit, or master has to be obeyed, can you pause, question it, refuse it, or revise? If not, that is part of the adult work.
+
+Keep the gate narrow. Religion, unusual beliefs, intrusive thoughts, anger, charged language, an unwanted fantasy, or a harmful act in the past do not by themselves mean someone intends harm now. The gate is about what the person currently endorses and intends to do. Care and listening can continue without flattering cruelty, arguing theology, or helping someone become more effective at exploiting people.
+
+A promise by itself doesn't clear the gate either. Protective credibility has to come from repeated non-harmful choices, including times when exploiting vulnerability would feel rewarding and the person doesn't do it. Until then, child contact stays out—inner dialogue, childhood photographs, hypnosis, borrowed-parent imagery, spiritual figures, or another route that reaches the child indirectly. For some people, sustained care from real humans may matter more here than another internal exercise or one done with a bot.
