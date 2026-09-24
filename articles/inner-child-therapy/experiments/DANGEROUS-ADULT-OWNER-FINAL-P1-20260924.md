@@ -44,3 +44,24 @@ The child-as-test / fear-as-gratification point, the thoughts/beliefs/history ex
 ## Claude's reading of the lesson (NOT owner-confirmed)
 
 After the setup sentence, Joel's version does not go on to complete the predictable next job (dramatize and refute the tempting test). It gives a short, opinionated verdict ("clearly not the place to start") and redirects to something the reader didn't see coming (deconstruct the adult identity), then stops. Third person ("such folks") keeps the reader from being accused.
+
+## P2 — Claude-written, owner-accepted (2026-09-24 21:02 UTC)
+
+Joel: "good, that's fine now, although if you wrote a whole paragraph in that exact pattern obviously it would look like you planned everything".
+
+```text
+Some of them even call themselves sovereign. But when you talk to them a bit, it turns out they have to obey some master.
+```
+
+- SHA-256 (UTF-8, no terminal newline): `a5bd0d73ef3a74a98994869b24a11d00099ef68539d9f51eae7c7b8989972dbf`
+- words: 24
+- provenance: model-written (Claude), owner-accepted wording; not owner-authored
+- carries: sovereignty contradiction (claimed sovereignty vs. obedience); the behavioral-capacity meaning of sovereignty is left implicit
+
+Rejected steps on the way (Joel's corrections):
+- "…right up until some urge or master tells them what to do and they do it." — reads well but is "optimized code translated into english": one sentence engineered setup -> hinge -> payoff.
+- "…have to obey some urge, or a master, or whatever it is." — enumeration; "or whatever it is" is a dodge of the no-listicle rule, not a fix. Don't enumerate; say the one thing that makes the point.
+- Claude over-applied two rules: generic "you" ("when you talk to them") is fine and does not recast the reader; things the article obviously presupposes (Joel has met such people; some call themselves sovereign) are not invented facts.
+- Feel must inform the rules, not replace them.
+
+See `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md` for the current post-draft checklist.
