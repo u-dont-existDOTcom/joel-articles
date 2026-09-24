@@ -132,6 +132,21 @@ Current project evidence in the Pangram lab, 2026-09-23:
 
 These are scoped development results, not universal accuracy estimates.
 
+### Additional scoped tell axes — 2026-09-24
+
+**T01 fake personal stake / irrelevant first-person authority** now has a dedicated one-axis Claude Opus 5.5 CLI-high audit with a **2/2 fresh held-out transfer** after the global-rubric version proved unstable.
+
+The deciding counterfactual must compare not only proposition but also **speech act and epistemic force**. If removing first person turns a situated/provisional authorial judgment into a more categorical rule, the first person was doing real work and T01 is not established. If the first-person want/care merely wraps a general criterion with no author-specific function, T01 is supported.
+
+Use the specialized T01 audit when the global sweep returns T01 PRESENT/UNCERTAIN or direct editorial review disputes T01. It remains scoped model evidence; owner/editorial judgment controls conflicts.
+
+**T10 generic permission syntax:** a compact portability + local-logical-anchor decision rule scored **2/2 on one fresh positive/negative pair**. Treat this as promising narrow-development evidence, not broad certification. One earlier negative control was malformed because owner preference had been mistaken for an ABSENT label.
+
+**T11 generic bridge/connective tissue:** the compact subject-matter state-change + deletion rule currently passes the consumed positive/negative regression pair, but no genuinely fresh tell-specific holdout has been established. Keep T11 manual/editorial when disputed rather than claiming it is calibrated.
+
+Exact lab evidence:
+`state/generation/global-tell-model-comparison-20260923/T01-SPECIALIZED-AUDIT-RESULT-20260924.md`.
+
 ### Current full-ledger rubric-development boundary — 2026-09-24
 
 A first attempt to make the global rubric more explicit by expanding every tell into gates/subtests **failed** a new T01/T10/T11 development holdout and cost more tokens/latency than the compact V1 prompt. Do not promote that expanded V2.
