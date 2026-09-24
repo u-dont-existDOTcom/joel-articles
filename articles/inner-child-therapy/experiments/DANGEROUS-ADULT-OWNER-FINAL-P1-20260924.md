@@ -65,3 +65,26 @@ Rejected steps on the way (Joel's corrections):
 - Feel must inform the rules, not replace them.
 
 See `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md` for the current post-draft checklist.
+
+## P3 — Claude compilation of Joel's thoughts, owner-accepted, owner-reported Pangram pass (2026-09-24 21:44 UTC)
+
+Joel: "good, that passes pangram and it reads well to me, no obv ai tells, it has real valuable thought ... AI often doesn't have deep insight, and if it does, it tends to set it up too much rather than throw it in where it naturally arises. of course i can't credit you with my thoughts, but anyway this is a successful compilation."
+
+```text
+This part tends to scare the wrong people, like somebody who's horrified by their own thoughts. Everybody gets thoughts like that sometimes, and they don't make you a bad person, but why would you bring your inner child into the middle of them? The nice thing about inner child therapy is that you can wait until you're calm and actually ready. A real parent doesn't get to do that, which is one reason nobody manages to be a perfect one.
+```
+
+- SHA-256 (UTF-8, no terminal newline): `23145fdf6be610aa9a05920e7669601dc7820fec6a01662766f0f014a21a7170`
+- words: 80
+- provenance: Claude-written compilation of Joel's in-chat cognition (first sentence Claude-originated and accepted earlier; the rest compiles Joel's chat statements below)
+- owner cognition supplied in chat (use as source authority):
+  - intrusive/horrifying thoughts don't make you a bad person, but they do mean you're not safe for this right then — "why would you want to have your inner child in there with your horrifying thoughts?"
+  - everyone has those AT TIMES
+  - the nice thing about inner child therapy is you can do it when calm and ready, not taking care of a kid at all times like real parents — one reason nobody can be a perfect real parent (Joel recalls this being in the guide; Claude could not find it in the current master or humanized assembly — treat as new owner cognition here)
+- **owner change to preservation claim 5:** thoughts don't decide who you are, but they do decide *when* (not safe for the exercise while they're present). This supersedes the all-thoughts-are-irrelevant reading of the compression amendment.
+
+Rejected on the way: "They'll read this and think, 'Oh no, is that me?' Probably not, if the thought makes them feel sick. And testing it on the kid wouldn't settle it anyway." — Joel: people aren't generally wondering if they're malicious; the last sentence reads AI and was only there to deliver a ledger item; and if someone does wonder whether they're malicious, "probably YES, not probably not". Also rejected: "…and they can go ahead with all of this." (wrong: horrifying thoughts mean not now).
+
+## Owner cognition for the next beat (not yet written)
+
+"if someone thinks they are [malicious] i mean we don't need to diagnose them but they should first do some meditation and find out why they are asking that. are they really feeling malicious or is it just some voices in their head maybe like inherited critic which we mentioned already before"
