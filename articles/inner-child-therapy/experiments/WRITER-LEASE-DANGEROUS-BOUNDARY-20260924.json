@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-dangerous-boundary-repair-20260924-0201",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "integration_base_sha": "1ac521443c6a63e2022f51896f5fade83e8b841f",
+  "authority_base_ref": "main",
+  "authority_base_sha": "a5c400e5a6a4b5cc2cc4e4a22c7bb5ae40cf4e87",
+  "scope": "Repair the complete dangerous-adult natural boundary: Before You Try to Go Deep readiness paragraph, new dangerous-present-adult H2, and opening of You Don’t Need an Inner Monologue; preserve all registered meanings while fixing known cadence, reader-purpose, and antecedent defects.",
+  "parent_integrator": "task/inner-child-therapy-intake-20260915",
+  "created_utc": "2026-09-24T02:01:00Z",
+  "notes": [
+    "Supersedes the earlier H2-only writer lane after unexpected branch advancement and after evidence showed H2-only optimization was structurally insufficient.",
+    "Start from current registered main authority, not the stale integration branch.",
+    "Do not mutate main or the integration branch.",
+    "No Pangram call is authorized by this lease."
+  ]
+}
