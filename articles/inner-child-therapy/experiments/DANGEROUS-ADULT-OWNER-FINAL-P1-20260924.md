@@ -88,3 +88,43 @@ Rejected on the way: "They'll read this and think, 'Oh no, is that me?' Probably
 ## Owner cognition for the next beat (not yet written)
 
 "if someone thinks they are [malicious] i mean we don't need to diagnose them but they should first do some meditation and find out why they are asking that. are they really feeling malicious or is it just some voices in their head maybe like inherited critic which we mentioned already before"
+
+## P4 + P5 — Claude compilation of Joel's cognition; owner-reported Pangram pass (2026-09-24 23:44 UTC)
+
+Joel at 23:44: "good so that also passes pangram so it seems like we might be learning something here." The message followed P5; whether P4 was in the tested text is not stated. P4 has not been separately accepted.
+
+P4 (current):
+
+```text
+And if somebody actually wonders whether they're malicious, they'd do better to meditate on it and find out why they're asking before they bring their inner child anywhere near it. Are they really feeling malicious, or is it some voice in their head saying so, like the inherited critic? There may be some malice in there too, and then the kid can wait.
+```
+
+- SHA-256 (UTF-8, straight apostrophes, no terminal newline): `36d5d2333dccc8345cf253f93294673d0f4b276fd2d15a324bd22cbd08fafdb5`
+
+P5 (owner-reported Pangram pass):
+
+```text
+In one of the Buddha's own accounts of how he woke up, ill will shows up in his mind and he sees it's hurting him. If he had to figure that out by watching, it's not obvious. Ill will can make you feel powerful. Being on fire probably does too, but it burns you first. So it's worth noticing what it's doing to you. Has it ever left anybody at ease, with nothing to regret afterward? Of course not.
+```
+
+- SHA-256: `21924181e38eb5a6bc67fa0014231e4f3a2cfa69d8be85aba06fc19d605b1030`
+- Joel then asked to make the fire point more striking and obvious. Candidate revision (not yet accepted or tested), SHA `f49916365a1456b07968c8f38aa536d26b8dffa2e6df14d8f1b53a1802310c6d`:
+
+```text
+In one of the Buddha's own accounts of how he woke up, ill will shows up in his mind and he sees it's hurting him. If he had to figure that out by watching, it's not obvious. Ill will can make you feel powerful. Being on fire would too, and people would definitely get out of your way, but you'd be the one burning. So it's worth noticing what it's doing to you. Has it ever left anybody at ease, with nothing to regret afterward? Of course not.
+```
+
+Owner cognition for P5 (source authority, verbatim excerpts): "the more useful advice there is that ill will harms the person who feels it before it harms anyone else, so i would have them notice how it harms them ... the problem is that he has to tell us this. which means it's not obvious ... anger makes you feel POWERFUL ... just as being literally on fire can make you powerful, it burns you first ... does the ill will lead to feeling at ease, content, without regrets, loving? of course not". Then: "let's not conflate anger with ill will they aren't the same thing." Then: the golden opportunity is that the Buddha himself had ill will arise in his own awakening account.
+
+Source checks (Claude, verified): "drinking poison and expecting the other person to die" is a fake Buddha quote (Emmet Fox → AA; fakebuddhaquotes.com). The hot-coal / "first burns himself" image is Buddhaghosa, Visuddhimagga, not the Buddha (quoteinvestigator.com/2018/06/18/hot/). Kodhana Sutta AN 7.60 is about anger (kodha), not ill will. MN 19 Dvedhavitakka is the ill-will text: "Thinking imbued with ill will has arisen in me; and that leads to my own affliction or to the affliction of others or to the affliction of both" — "before my self-awakening, when I was still just an unawakened Bodhisatta"; the sutta does not date it to the night itself, but runs straight on into the jhānas and "the first watch of the night".
+
+Rejected on the way (each a Joel correction; the lesson trail matters more than the final text):
+1. "…It's worth staying with that for a while and looking at what it's been giving them." — dangerous: for someone who gets a rush from cruelty this is savoring/rehearsal; and cutting the source's "what does it give you, what does it cost" to only "give" deleted the counterweight.
+2. "…looking honestly at whether it's gotten them the life they expected." — for many manipulators the answer is yes (permission); for the rest, "get better at it" — which is what P1 says some want from therapy. Also: "staying with that" still invites dwelling (MN 19: what you keep thinking bends the mind).
+3. "And if it really is them, where's that coming from?" — turns a question about malice into a verdict that they ARE malicious. Truthful, non-damning version: there may be malice in them.
+4. "Either way, the one to stay with is the grown-up. What are they actually suffering from…?" — "either way" waves the malice off; the jump skips the step; "suffering / hoping to change" is generic therapy language pointing at nothing.
+5. "…while the grown-up gets honest about what they wanted from the kid in the first place." — worse and more dangerous: points a person with malice at what they want from a child.
+6. "…watches how it comes up in them and how it goes away again." — not useful: in 10 minutes it may never go away; if it does, that's only a starting point. The useful teaching is what ill will does to the one who has it.
+7. "Anger makes you feel powerful" — conflates anger with ill will.
+8. "Even the Buddha, back before he woke up…" — blurs the most striking fact into vague timing.
+9. "Being on fire probably does too, but it burns you first." — passed, but the point isn't obvious; make the concrete sense in which fire is power visible.
