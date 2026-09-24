@@ -213,9 +213,14 @@ Blocking order:
 4. model-shapedness/humanization review;
 5. second literal cold read after any style repair;
 6. final preservation re-proof;
-7. Pangram on each materially model-written paragraph where technically meaningful and on the complete changed natural boundary.
+7. Pangram on each materially model-written paragraph/section where technically meaningful;
+8. only after the changed unit has its own result, Pangram the complete changed natural boundary when context interaction/integration status is decision-relevant.
 
-Any substantive edit invalidates affected reviews and all downstream gates; a prior candidate's PASS never transfers to revised bytes. Do not pad short text merely to manufacture a detector boundary, and do not use known-Human owner prose to conceal a red model-written paragraph.
+**Detector-boundary selection is not the same thing as editorial-context selection.** Editorial/fresh-reader audits should usually inspect the complete natural boundary because context is needed to judge reader purpose, transitions, and referents. Pangram certification of a newly model-written paragraph, H2, or section must first test the **smallest complete changed reader-visible unit itself** when that unit is technically meaningful. Do not substitute a larger natural boundary for that unit-level call merely because the larger boundary was used for editorial audit.
+
+If surrounding prose is already known-bad, unresolved, detector-red, or otherwise capable of contaminating the score, it must not be included in the first certification call for the changed unit. A later natural-boundary call is a separate integration/context test. A failure on a larger boundary containing known-bad neighboring prose is non-localizing and cannot be attributed to the changed unit.
+
+Any substantive edit invalidates affected reviews and all downstream gates; a prior candidate's PASS never transfers to revised bytes. Do not pad short text merely to manufacture a detector boundary, do not use known-Human owner prose to conceal a red model-written paragraph, and do not use known-bad neighboring prose to contaminate a changed unit's first certification measurement.
 
 If a candidate fails, keep the prose internal and continue automatically. Repeated AI-shaped realization failure does **not** establish missing owner cognition. When the authoritative article/source already represents Joel's cognition and Joel approves the thought, keep that cognition fixed and change the realization/review architecture. Use the owner-calibrated fresh-context tell loop above rather than asking Joel to re-supply rough cognition.
 
