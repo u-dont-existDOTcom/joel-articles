@@ -159,7 +159,14 @@ Current experimental repair:
 - T10 negative controls must pass the permission gate and be logically anchored to the local passage, not merely owner-authored;
 - T11 should use a subject-matter state-change/deletion test so necessary time/case/premise transitions are not confused with generic relevance/connective statements.
 
-A compact V2.1 exists in the Pangram lab as **experimental only** and must pass a genuinely fresh tell-specific holdout before production promotion. Do not use the consumed development cases as validation.
+A compact V2.1 exists in the Pangram lab as **experimental only** and is **not promoted**. A later partial fresh test improved T10 but regressed T01, confirming that more global-rubric logic is the wrong architecture for under-calibrated tells. Use tell-specific narrow auditors instead when an axis has its own calibration.
+
+Current narrow-audit status:
+- **T11 generic bridge/connective tissue:** a low-effort Opus narrow auditor passes 4/4 post-freeze cross-domain controls plus 2/2 real regression controls on the current prompt/configuration. It may be used as a cheap specialized audit; its PASS clears only T11.
+- **T01 fake personal stake:** narrow auditor remains advisory/manual. One hard real negative is still falsely flagged.
+- **T10 generic permission syntax:** attempted narrow calibration is rejected. The proposed negative-control theory was malformed, and both known model-shaped permission endings were missed. T10 needs a genuine tell-specific gate-passing negative control before model clearance is trusted.
+
+Do not infer a tell-negative label from owner authorship, owner preference, detector status, or a nearby repair instruction.
 
 ### Retired global-judge calibration
 
