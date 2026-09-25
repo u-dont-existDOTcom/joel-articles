@@ -1,6 +1,6 @@
 # Write It. Don't Send It Yet. — P3 (the unresolved continuation) — Claude, 2026-09-25
 
-Status: **SHOWN TO JOEL / NOT ACCEPTED / NOT INSTALLED**. Lane: `handoff/claude-dangerous-adult-20260924-1631`. Joel 20:24 UTC: "let's continue now to next section". In reading order after Regulation, this is the first open item. Catch the Hook, Also Look Outward, Write-It P1–P2 and Checking are already humanized. The handoff lists "Write-It continuation" as the open task.
+Status: **v4b OWNER-ACCEPTED (Joel 2026-09-25 20:55 UTC: "good continue") / INSTALLED** in `HUMANIZED-ARTICLE-SO-FAR.md` as the Write-It P3. Lane: `handoff/claude-dangerous-adult-20260924-1631`. Joel 20:24 UTC: "let's continue now to next section". In reading order after Regulation, this is the first open item. Catch the Hook, Also Look Outward, Write-It P1–P2 and Checking are already humanized. The handoff lists "Write-It continuation" as the open task.
 
 ## Inputs (bird's-eye)
 
