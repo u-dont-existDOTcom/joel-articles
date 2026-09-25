@@ -35,3 +35,14 @@ A11. After writing an image or claim, ask what counterexample the reader will th
 12. Keep "sovereign"; keep source meaning (checked per beat under A1, and again at assembly).
 13. A pattern that worked once becomes a tell when repeated. Don't write a whole paragraph (or consecutive paragraphs) in one successful pattern; that looks planned.
 14. What Joel says TO me (how to approach it, what not to do — e.g. "we don't need to diagnose them") is instruction, not prose. Carry the substance into the text; don't transcribe his meta-remarks as sentences.
+
+## C. Human moves seen in passing paragraphs (the thinking to do — never a surface feature to reproduce)
+
+Warning: copying these features is how rule 13 gets broken. A pop-culture reference, "of course not" or a register jump pasted in without the thought behind it is a new tell. Each one is what showed up when the writer actually thought about something:
+- Imagine the actual reader and follow their next thought, even when it's silly (the Human Torch). Don't imagine a function slot.
+- When a teaching or fact exists, ask why it had to be said, and say what that implies (it isn't obvious).
+- Admit why the bad thing is attractive before saying what it costs.
+- Take your own metaphor literally for a moment and see what's true inside it.
+- Use plain words for lofty things, and say precisely how much the source supports ("one of his accounts").
+- When you know the answer to your own question, give it flatly.
+Source: P5 (Human, medium confidence), 2026-09-25.

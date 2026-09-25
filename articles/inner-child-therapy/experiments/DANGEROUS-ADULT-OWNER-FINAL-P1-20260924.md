@@ -136,3 +136,17 @@ Joel on the "people would definitely get out of your way" version: "that's bette
 ```text
 In one of the Buddha's own accounts of how he woke up, ill will shows up in his mind and he sees it's hurting him. If he had to figure that out by watching, it's not obvious. Ill will can make you feel powerful. Being on fire would too, and people would definitely get out of your way, but unless you're the Human Torch from the Fantastic Four, you'd be the one burning. So it's worth noticing what it's doing to you. Has it ever left anybody at ease, with nothing to regret afterward? Of course not.
 ```
+
+### P5 Human Torch version — owner-reported Pangram: Human, medium confidence (2026-09-25 00:22 UTC)
+
+Joel: "pangram says it's human, medium confidence. that's quite good (it has enough words to get to medium confidence). low confidence pangrams can still flip in larger sections but medium confidence don't do that generally." Tested text = the Human Torch P5 above (SHA `1beb72ff…c603`); whether P4 was included is not stated.
+
+Human tells Claude identified afterward (editorial reading, not detector evidence), with who supplied each move:
+- Register collision: the Buddha's awakening and a comic-book character three sentences apart (Human Torch: Joel).
+- Answering the reader's actual next thought mid-sentence, even when it's undignified ("unless you're the Human Torch"): Joel.
+- A real-time inference about why the teaching exists, not a stated thesis ("If he had to figure that out by watching, it's not obvious"): Joel's thought.
+- Conceding the appeal of the bad thing ("Ill will can make you feel powerful"): Joel.
+- Taking the metaphor literally and reasoning inside it (on fire → people get out of your way): Claude, on Joel's push to make it obvious.
+- Plain, deflating words for lofty things ("woke up", not "attained enlightenment"); honest source precision ("one of the Buddha's own accounts"): Claude.
+- Committed answer to its own question, no hedge ("Of course not."); slight comic overcommitment ("definitely"): Joel / Claude.
+Common root: each came from thinking about the real situation (a real reader, a real image, a real question about why) rather than from building a sentence to fill a function. Most of the moves were Joel's, so the transferable thing is the thinking that produced them, not the surface features.
