@@ -233,3 +233,17 @@ Some of them even call themselves sovereign, and then somehow, once you talk to 
 ```
 
 The H2 with P2 r2 has body SHA `c83333298d5d7e4c4a838e1208d6c7befc50a15c50e4f2d87bc9319b15ad50d3` (468 words). Not yet Pangram-tested.
+
+## P2 r3 — Joel on r2: "hm idk i feel like there's a premise that's never explained here"
+
+Diagnosis (Claude): r2's second sentence ("If they can't ever tell that master no, then that's who'd end up raising their little one") leaps over two unstated premises:
+- that in this work the grown-up is the one raising the little one. The article never says "raise" or "parent" before this point; P3's parent comparison comes after P2.
+- that the master would want something hurtful. Without it, "can't tell that master no" makes having any master sound dangerous — the religion test the owner lock rules out.
+
+Fix: say the premise from the little one's side — it needs a grown-up who could *still* say no if the master wanted something hurtful. "Still" keeps following a master in general out of the question; only a hurtful demand counts. SHA `4eeed5c0b9ca89acec62ca68207d06c472a1752dc133166e9c026825a68f36c3`, 51 words:
+
+```text
+Some of them even call themselves sovereign, and then somehow, once you talk to them a bit, there's a master they have to obey. Their little one needs a grown-up who could still say no if that master ever wanted something hurtful, or else it's really the master doing the raising.
+```
+
+The H2 with P2 r3 has body SHA `f32bdeb923b0d4e7983792b485b57802b2dff7490e82821be52bd58947ee45d0` (478 words).
