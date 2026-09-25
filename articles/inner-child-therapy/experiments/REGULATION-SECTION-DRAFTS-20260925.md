@@ -1,6 +1,6 @@
 # "Regulation May Come Before Dialogue" — Claude drafts — 2026-09-25
 
-Status: **ROUND 2 SHOWN TO JOEL / NOT ACCEPTED / NOT INSTALLED** (round 1 tested 36% AI; see below). Chicken-and-Egg options A/B at the end are superseded by Joel's own rewrite (`CHICKEN-EGG-OWNER-FINAL-OPENING-20260925.md`). Lane: `handoff/claude-dangerous-adult-20260924-1631`. Joel 03:46 UTC: "and then continue and work on the next section also".
+Status: **ROUND 3 SHOWN TO JOEL / NOT ACCEPTED / NOT INSTALLED** (round 1 tested 36% AI; round 2 Mixed, AI/high from the flood sentence on; round 3 tested Human on Claude-run checks; see below). Chicken-and-Egg options A/B at the end are superseded by Joel's own rewrite (`CHICKEN-EGG-OWNER-FINAL-OPENING-20260925.md`). Lane: `handoff/claude-dangerous-adult-20260924-1631`. Joel 03:46 UTC: "and then continue and work on the next section also".
 
 Placement: after the owner-final `## You Don’t Need an Inner Monologue` blocks, replacing the "Regulation material … remains under humanization" comment, before `### Catch the Hook Before the Story Takes Over`.
 
@@ -107,3 +107,58 @@ The plain AI answer for this beat: "The order in which you try these matters, so
 - "less able to function" and "rather than trying to win a contest with your own nervous system" (F6): the Checking section covers both.
 
 Optional, Joel's own line (not added): his somatic article says "what actually works better for me than all of these therapies is shaving my head and massaging it". It could follow the modality list.
+
+## Round 2 Pangram — Joel, 2026-09-25 19:40 UTC
+
+"your regulation rewrite actually went more AI for some reason. i definitely see some AI in here, what are you not seeing? you need hints? and you can check pangram yourself also if that helps you. i have tons of credit on the website (gui path). but sometimes i notice that it helps and sometimes it seems like it doesn't so make sure you're not going in loops with it."
+
+He also said: "i never heard anyone say EFTs btw. is that like a new version? nobody knows what EFTs means. i hear EFT..." Round 2 never said "EFTs"; the parenthesis spelled out "Emotional Freedom Techniques". Round 3 uses "tapping (EFT)", the way people say it and like EMDR in the same list.
+
+Screenshot: **Mixed**, 1 of 2 segments AI. Human/high for 107 words (heading, R1, the modality list). AI/high for 143 words, starting at "When your nervous system is flooded" and running to the end. The flood sentence had read Human in round 1; this time it sat at the head of the AI run.
+
+## What Claude wasn't seeing (diagnosis after round 2)
+
+1. **Provenance.** Round 2's new content was mined from `articles/somatic-therapies/master.html` and treated as Joel's thinking. That file is `r01-candidate`, a model reconstruction of a "mostly AI-shaped source" (its `CURRENT-STATE.md`), and it measured AI 0.978 on Pangram 4. Its only Human stretch was the Professor Baby Sheep / head-shaving material. Compressing an AI guide's claims (sleep over drama, "without being clear", map by job, waiting room, lighter reparenting) gives back an AI guide.
+2. **Shape.** After the flood sentence, round 2 was five tips in five sentences: a bulleted list with the bullets removed. The audit ran sentence by sentence and never looked at the paragraph as a list.
+3. **Tells the audit waved through:**
+   - "I'd trust how you sleep … more than how dramatic it felt": a compressed thesis line in first person (rule 1).
+   - "collect modalities like Pokémon": a stock AI simile, the surface humor section C warns about.
+   - "so I made a map that sorts them by what your nervous system needs help with right now": a product pitch in therapy-speak.
+   - "I'd hate for the somatic stuff to become a waiting room for your little one, though": the gentle-caveat metaphor.
+   - "Lighter reparenting can run right alongside it": a reassuring closer.
+   - Plus "nervous system" twice and two "I'd" opinions in a row.
+4. **The coda moved instead of being cut.** Round 1's safety coda came back as round 2's R3, one paragraph higher.
+
+## Round 3 (shown 2026-09-25 ~20:10 UTC; Claude-run Pangram checks; not accepted)
+
+R1 unchanged. R2 keeps the modality list with "tapping (EFT)" and adds Joel's head-shaving line from the somatic article, the only part of that article that tested Human. R3 keeps the flood sentence, then shows the wrong order as something people do, then gives a plain pointer to the embed. Everything else from round 2 is cut. The markdown version would link Shaking as before; the embed stays unchanged.
+
+Test A, with the head-shaving line (SHA `ba6f022f9bd10cad220c8ef5c131f81391c90d933fb6f368598131f831c4f4b8`):
+
+```text
+## Your Body Might Need Some Love First
+
+If you notice tension in your solar plexus or abdomen, or anywhere else that seems to be keeping you from relaxing into that heart chakra love, try some non-forced, slower exhales and a little gentle self-massage. I love using one foot to massage the other foot like a yin-yang symbol, but you can start with some nice circular or spiral massage right on the tense spot.
+
+If that's not enough, there's deeper somatic stuff like Shaking, tapping (EFT), EMDR, Brainspotting, Somatic Experiencing, Water Therapy, Massage, Energy Healing, or some other bottom-up approach. In my personal experience, what actually works better for me than all of these is shaving my head and massaging it.
+
+When your nervous system is flooded, your protective parts are busy with the flood, so they're not going to let your little one come out and talk much anyway. Some people go straight into EMDR on their worst memory before they can even stay in the room. Then they get flooded all over again and decide EMDR doesn't work. Here's a map of what to try when:
+```
+
+Test B is identical minus the sentence "In my personal experience, what actually works better for me than all of these is shaving my head and massaging it." (SHA `1b131e21252e2c0275bea9bb3d9dc93b7dee195b2c4fda1c3c67528550b37428`).
+
+Claude-run Pangram 4.0 results (web dashboard in the built-in browser; not signed in to Joel's account, so the free checks were used and the result shows "Confidence limited — short text" instead of low/medium/high; ~19:45–19:55 UTC):
+- A: **100% Human**, 196 words scanned.
+- B: **100% Human**, 175 words scanned, so the new sentences pass without Joel's line.
+- Three checks in all, counting the whole-H2 check recorded in the P1 file (9 of the 20 free credits). No loop.
+
+### Audit (A, B, D)
+
+- R2 s2 (head-shaving): Joel's own line (E3). It's there for the reader, not the detector; B passes without it. Rule 13 risk: it's the section's second first-person massage aside after R1's foot line.
+- R3 s1 (flood): unchanged from round 2 ("protective parts", E19). It passed this time, which suggests round 2 flagged it for what followed it.
+- R3 s2–s3 (EMDR): the source's "the order in which they're used matters" (F4) told as something people do (A10) rather than stated. There's one example and a wry consequence (they write off a good tool).
+  - Checked: EMDR's own protocol puts a preparation phase before reprocessing, and "some clients need quite a bit of time in phases 1 and 2" (EMDRIA, https://www.emdria.org/blog/the-eight-phases-of-emdr-therapy/).
+  - "Decide EMDR doesn't work" is a general observation, not a sourced claim; flagged for Joel.
+- R3 s4 "Here's a map of what to try when:": a pointer to the embed. The source has one too ("Check the roadmap here:").
+- D2: the AI answer says "the order matters; start with stabilization before trauma processing; see this roadmap". Round 3 shows the wrong order happening and what it costs, adds no rule, no safety coda and no reassurance, and carries the owner's contrarian aside.
+- Cut from round 2: the sleep/shorter paragraph, Pokémon, the waiting room and "lighter reparenting". The waiting room and lighter reparenting weren't in the Regulation source; they came from the AI-shaped somatic text. The eyes-open version was already proposed for deletion.

@@ -329,3 +329,25 @@ I've been writing this whole guide as if everybody who tries it wants to take ca
 - s3–s4 are Joel's and unchanged.
 
 If the pair tests Human, install P1 r2 + P2 r6 together and re-run the whole H2. Otherwise keep the installed r5 version (whole H2 Human/high).
+
+## P1 r3 — Joel's own rewrite, installed (2026-09-25 19:40 UTC)
+
+Joel: "your P1 tested the same. i fixed it, now it's human, med. connf and it doesn't have a dangling reference:"
+
+P1 r3 (owner-final), SHA `a9ed6e9e384bcbd5127761ae9ea2c11fb676c2d4e14a274a0bf589149ac6b5e3` (57 words):
+
+```text
+I've been writing this whole guide as if everybody who tries it wants to take care of the inner child. Some people get a little rush out of making somebody scared or small, though. For such folks, inner child therapy is clearly not the place to start. They need to first deconstruct the adult identity they've got.
+```
+
+- Claude's P1 r2 + P2 r6 tested the same as the previous pair (owner-reported), so splitting the sentence and loosening the join wasn't enough.
+- Joel's fix keeps the split and cuts the second group entirely ("or they're honestly hoping therapy will make them better at working people"). His reason: no dangling reference. Nothing later in the H2 picks up the manipulators; P3–P7 are about malice, ill will and scaring somebody.
+- P1 r3 + P2 r6 (pair SHA `bcf7e7e06946c3ad1649d01d34255d02aaccba47b745aa6339e94fb0485fa85c`): **Human, medium confidence** (owner-reported).
+- Whole H2 with P1 r3 + P2 r6 (body SHA `a6377d7d589f7b57b6ce906a53400568e7580bc46d43e19926bc1241e1a620c6`, 464 words; test text with the H2 heading, SHA `45e2f4626e0cbe1d9e4c7872bb518b1e97c3bd327b3d2fd8301241b7fa562cac`): **100% Human**. Claude ran it on the Pangram 4.0 web dashboard in the built-in browser (not signed in; free checks), 500 words scanned, ~19:55 UTC.
+- Installed in `HUMANIZED-ARTICLE-SO-FAR.md` together with P2 r6; the receipt has a revision entry.
+
+Lesson (E2, E5): the cut group was the dangling reference, and the owner's fix was a deletion, not a better join. Claude's r2 repaired the sentence's shape and kept a group nothing downstream used.
+
+### Lock question raised with Joel (E4)
+
+P1 r3 no longer names exploitation. The `dangerous-present-adult-safety-gate` lock names "harmful/exploitative present intent" and "care may continue without assisting exploitation"; the promotion receipt had mapped the first to P1's "working people" and the second to P7's "won't laugh along", which covers cruelty only. "Scared or small" covers frightening and humiliating, not using people. Raised with Joel on 2026-09-25 (~20:10 UTC) with one option: put it back where it's picked up, in P7 ("…who likes them and won't laugh along or help them work people…"). Otherwise the lock is recorded as narrowed by owner decision. Pending his call.

@@ -64,13 +64,13 @@ The image below maps out the details as best as I can fit:
 
 How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later. You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child.
 
-<!-- Dangerous-adult H2 installed 2026-09-25 from writer branch `handoff/claude-dangerous-adult-20260924-1631`. P1–P7 are each owner-accepted with owner-reported Pangram passes. The final text below tested Human/high confidence as a whole (owner-reported 2026-09-25 14:22 UTC); the P1+P2 pair alone tested AI/medium, and an optional fix is recorded. Receipt: `experiments/DANGEROUS-ADULT-H2-PROMOTION-RECEIPT-20260925.json`. -->
+<!-- Dangerous-adult H2 installed 2026-09-25 from writer branch `handoff/claude-dangerous-adult-20260924-1631`; P1 and P2 revised 2026-09-25 (P1 r3 is Joel's own rewrite, 19:40 UTC; P2 r6). P1–P7 are each owner-accepted. P1 r3 + P2 r6 tested Human/medium as a pair (owner-reported), and the whole H2 below tested 100% Human on Pangram 4.0 (Claude-run web check, 500 words scanned, 2026-09-25 ~19:55 UTC). The earlier version tested Human/high as a whole (owner-reported 14:22 UTC). P1 r3 no longer names exploitation ("working people"); that lock question is recorded in `experiments/DANGEROUS-ADULT-OWNER-FINAL-P1-20260924.md`. Receipt: `experiments/DANGEROUS-ADULT-H2-PROMOTION-RECEIPT-20260925.json`. -->
 
 ## When the Present-Day Adult Is Dangerous to the Child
 
-I've been writing this whole guide as if everybody who tries it wants to take care of the inner child, but some people get a little rush out of making somebody scared or small, and a few are honestly hoping therapy will make them better at working people. For such folks, inner child therapy is clearly not the place to start. They need to first deconstruct the adult identity they've got.
+I've been writing this whole guide as if everybody who tries it wants to take care of the inner child. Some people get a little rush out of making somebody scared or small, though. For such folks, inner child therapy is clearly not the place to start. They need to first deconstruct the adult identity they've got.
 
-That mostly means looking at what the identity gets them and what it costs, and especially what it's really serving. Some of them even call themselves sovereign, and then somehow, once you talk to them a bit, there's an urge they have to obey, which sounds more like slavery to me.
+When I talk with folks like that, I mostly want to know what the identity gets them and what it costs, and especially what it's really serving. Some of them even call themselves sovereign, and then somehow there's an urge they have to obey, which sounds more like slavery to me.
 
 This part tends to scare the wrong people, like somebody who's horrified by their own thoughts. Everybody gets thoughts like that sometimes, and they don't make you a bad person, but why would you bring your inner child into the middle of them? The nice thing about inner child therapy is that you can wait until you're calm and actually ready. A real parent doesn't get to do that, which is one reason nobody manages to be a perfect one.
 
