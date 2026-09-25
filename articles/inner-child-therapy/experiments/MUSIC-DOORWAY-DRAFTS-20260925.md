@@ -1,6 +1,6 @@
 # Music as a doorway (owner insertion in the opening) — Claude drafts — 2026-09-25
 
-Status: **ROUND 3 SHOWN TO JOEL / NOT INSTALLED** (round 1 superseded; round 2 not shown)
+Status: **ROUND 4 INSTALLED (owner-directed, Joel 22:45 UTC)**. Rounds 1 and 3 were superseded; round 2 was never shown. The ex's name is still withheld pending Joel.
 
 ## Owner instruction (Joel, 2026-09-25 21:27 UTC)
 
@@ -191,3 +191,52 @@ Three checks. Round 3 alone wasn't run separately; it sits inside check 3.
 - Name the ex or not.
 - The two drops listed above.
 - My Journey's "cried every night" now reads as a callback to these nights, and its metta/inner-child path matches line 7.
+
+## Joel's direction on round 3 (2026-09-25 22:45 UTC)
+
+> "hm yeah i'd also mention music can help with feeling love, not just sadness, altho sadness if often the first step to open up. and Celine's song as well as the It's Alright to Cry song by Grier, (didn't mention it in the article text but it's there right after 1st para of chicken and egg, my sister used to sing that song to me almost daily in such a silly way it was really sweet of her)"
+
+- **The embed.** The source's YouTube embed after the first Chicken-and-Egg paragraph (`youtube2-4PxC3zZ2Mus`) has the oEmbed title "Free To Be.... You And Me - Rosey Grier Performs Its Alright To Cry" (channel `roseygrier`).
+- **The song.** Its official title is "It's All Right to Cry" (Carol Hall, sung by Rosey Grier on *Free to Be… You and Me*):
+  - https://secondhandsongs.com/performance/1253148/all
+  - https://en.wikipedia.org/wiki/Free_to_Be..._You_and_Me
+  - https://slate.com/culture/2012/10/free-to-be-you-and-me-40th-anniversary-rosey-grier-tells-boys-its-all-right-to-cry.html
+
+## Round 4 (installed)
+
+Markdown as installed, SHA `1d8067451dc4714171ba868ab750c5acd6a88355cb1a7ce9d440da36a4231c03`. Tested as plain text, SHA `fa61cad67c0c66eb51ccc8a759749194f66bd575ab5afdea1e38e44dc18cd67e`, 214 words.
+
+```markdown
+If that got to you at all, good. That was half the idea. I used to listen to Suzanne Vega's *The Queen and the Soldier* every night because it reliably got the tears out.
+
+The crying helped me a lot in terms of not going numb inside. It didn't help me develop insight, though. I could have kept crying forever. It was Buddhism and then inner child therapy which helped create a new perspective that was more healthy. But I'm really happy I did do the crying that was needed at the time.
+
+Music can help with feeling love, not just sadness, although sadness is often the first step to open up. So if you sit down to try any of this and feel nothing, that's when I'd put a song on. Céline's right up there if you don't have one, and Rosey Grier's *It's All Right to Cry* is a little further down. My sister used to sing that one to me almost daily in such a silly way it was really sweet of her.
+
+Some people, like another ex of mine, got so deep into crying that it became traumatizing. She actually had panic attacks from it. If you start getting scared of your own crying, turn the song off for tonight.
+```
+
+### Sentence audit of the changes (the rest is round 3, audited above)
+
+- **P3 S1** "Music can help with feeling love, not just sadness, although sadness is often the first step to open up." Joel's words. It opens the paragraph right after his crying story, so "the first step" reads as what happened to him. This restores the love half of the source list that round 3 dropped (A8, E39).
+- **P3 S2** "So if you sit down… that's when I'd put a song on." Mine, unchanged from round 3.
+- **P3 S3** "Céline's right up there if you don't have one, and Rosey Grier's *It's All Right to Cry* is a little further down." Mine: round 3's line plus Grier. Checks:
+  - The official title replaces "It's Alright to Cry".
+  - "A little further down" is right: the embed sits after the first Chicken-and-Egg paragraph.
+  - "One" = a song (A12).
+- **P3 S4** "My sister used to sing that one to me almost daily in such a silly way it was really sweet of her." Joel's words, with "that song" changed to "that one". The run-on reads as "so silly it was sweet". It's the concrete case of music and love, and it ends the paragraph with no lesson after it.
+
+### Pangram 4.0 (Joel's account, Claude-run, 2026-09-25 about 22:50 UTC)
+
+1. My lines only: **100% Human**, 76 words, short text.
+
+   ```text
+If that got to you at all, good. That was half the idea.
+
+So if you sit down to try any of this and feel nothing, that's when I'd put a song on. Céline's right up there if you don't have one, and Rosey Grier's It's All Right to Cry is a little further down.
+
+If you start getting scared of your own crying, turn the song off for tonight.
+   ```
+2. Assembled opening with round 4 (the three intro lines, round 4, and the whole Chicken-and-Egg section with the stages list): **100% Human**, 845 words, no short-text caveat.
+
+Two checks.
