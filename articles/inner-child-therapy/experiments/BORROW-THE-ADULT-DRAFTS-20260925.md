@@ -54,3 +54,20 @@ Pangram 4.0 (Joel's account, via the built-in browser, ~21:05 UTC, markdown link
 - Risks:
   - N2 runs tip → example → joke → evidence.
   - N3's last line lands like a closer (rule 7), but it's his image and it hands off to the next h2, `Borrow One Function at a Time`.
+
+## Joel's note on round 1 (2026-09-25 21:10 UTC)
+
+"nice job! there is one problem i see which you inherited from the bad AI prose, and it's not an AI tell, it's a bad referent. do you see it?"
+
+The problem is "Little Joel is terrified. What does Joel need right now?" The one who's terrified, and who needs something, is Little Joel; plain "Joel" now points at the adult who's asking the question. The source had the same muddle: "A younger part of Joel is terrified. What does Joel need from an adult right now?" Naming the child "Little Joel" made it worse, because the two names now clearly mean two different people.
+
+Round 1b changes only N2's question. SHA `0fec2106af0f3b1effcdcb4e249d2184242cd9e84a05fcb55959ae8450619ca1`:
+
+```text
+It can help to use your own name. For me, instead of "I'm terrified," that'd be "Little Joel is terrified. What does Little Joel need right now?" You'll sound a bit like Elmo. In [lab studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC5495792/), though, people who talked to themselves this way reacted less to upsetting pictures and memories, and their brains didn't seem to be working any harder to do it.
+```
+
+Repeating the name keeps the third-person move and sets up the Elmo line. Not re-tested (one-word change); round 1 was 100% Human alone and joined.
+
+Lesson: self-audit rule A12.
+

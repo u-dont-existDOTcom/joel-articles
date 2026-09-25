@@ -18,6 +18,7 @@ A8. When you cut part of a source list, check what's left. If the items balance 
 A9. Make a metaphor's sense obvious: show the concrete way the image is true (on fire → people get out of your way) instead of asserting it.
 A10. When the source is a story, tell it happening (verbs, present tense), not as a citation.
 A11. After writing an image or claim, ask what counterexample the reader will think of right away, and throw it in plainly, the way a person talking would (on fire → "unless you're the Human Torch"). Leaving the obvious objection unanswered makes the point feel unconsidered.
+A12. Check every referent, especially in examples lifted from the source (Joel, 2026-09-25: "it's not an AI tell, it's a bad referent"). For each name and pronoun, ask who it points to, and in self-talk between parts, who has the need. The source's "A younger part of Joel is terrified. What does Joel need from an adult right now?" asks about the wrong person. Round 1 carried it over as "Little Joel is terrified. What does Joel need right now?", and the fix is "What does Little Joel need right now?". Section B's tell audit won't catch it, because it's a meaning problem, not a tell.
 
 ## B. After drafting — run on every sentence before showing Joel (post-draft only, not a writing prompt)
 
