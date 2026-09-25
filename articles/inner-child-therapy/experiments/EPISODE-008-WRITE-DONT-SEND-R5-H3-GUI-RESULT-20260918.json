@@ -1,0 +1,21 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-r5-h3-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0 / STRONG REGRESSION",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H3-20260918.md",
+    "reader_visible_sha256": "aefd4e076465b28a6307a97ce12f0491b8c12a819f7b480e00cd72a1d5f20e0a",
+    "runner_word_count": 194
+  },
+  "result": {
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.9986186624
+  },
+  "best_base": {
+    "candidate": "H2",
+    "probability": 0.8971986771
+  },
+  "interpretation": "Changing the short opening destroyed the H2 improvement. Revert opening exactly to R5. H2 remains the measured base.",
+  "repeat_policy": "Do not repeat H3."
+}

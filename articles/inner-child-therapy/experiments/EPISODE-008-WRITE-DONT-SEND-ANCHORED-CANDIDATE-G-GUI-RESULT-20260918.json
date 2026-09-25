@@ -1,0 +1,48 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-anchored-g-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / MIXED / OWNER-ANCHOR-HYPOTHESIS-SUPPORTED",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-G-20260918.md",
+    "reader_visible_sha256": "95af5947d900088d3e23a3a79d22fcd523b969ba1b366a7ed3a1943cb3b0ec9e",
+    "runner_word_count": 288
+  },
+  "owner_anchor": {
+    "sha256_no_terminal_newline": "ede0b45eb5fa1fd53f3a008477c13402cca21e8d8d5016d0bb0d31af660033ed",
+    "whitespace_words": 113,
+    "owner_reported_detector_status": "Human / medium confidence"
+  },
+  "transport": {
+    "route": "Remote Desktop Commander -> Joel HP ProBook -> local Playwright Pangram GUI",
+    "api_used": false,
+    "detector_version": "4.0",
+    "stage": "STAGE_SUCCESS",
+    "exact_history_binding": "PASS",
+    "captured_at_utc": "2026-09-18T21:54:18.247405Z"
+  },
+  "result": {
+    "headline": "AI Detected",
+    "prediction_short": "Mixed",
+    "fraction_ai": 0.6144040823,
+    "fraction_human": 0.3855959177,
+    "fraction_ai_assisted": 0.0,
+    "record_prediction_probability": 0.5791977644,
+    "report_body_summary": "AI-generated content appears throughout"
+  },
+  "interpretation": {
+    "prior_all_model_candidates_a_to_f": "all AI 1.0 / Human 0.0",
+    "anchored_candidate": "Human fraction 0.3856",
+    "anchor_share_of_runner_words": 0.3923611111,
+    "note": "The Human fraction is strikingly close to the owner's 113-word anchor share of the 288-word runner boundary. This strongly supports that the owner anchor created a real Human island, while the model flanks likely remained predominantly AI. It does not yet show that the flanks themselves humanized."
+  },
+  "localization": {
+    "read_only_localizer_attempt": "FAILED at bind_exact_history_record",
+    "detector_submission_attempted_by_localizer": false,
+    "repeat_submission": false
+  },
+  "budget": {
+    "prior_section_calls": 6,
+    "anchored_discriminating_exception_calls": 1,
+    "status": "No further detector call authorized by the current one-shot anchor test without owner approval to exceed the existing section budget."
+  }
+}

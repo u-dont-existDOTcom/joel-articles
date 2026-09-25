@@ -1,0 +1,22 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-r5-h2-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / AI-1.0 / CONTINUOUS-SIGNAL IMPROVEMENT",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-R5-H2-20260918.md",
+    "reader_visible_sha256": "cc5dad19af35eb70889c1f5af6899efdec9453fff6e576391728186d6e480c3f",
+    "runner_word_count": 185
+  },
+  "result": {
+    "fraction_ai": 1.0,
+    "fraction_human": 0.0,
+    "record_prediction_probability": 0.8971986771
+  },
+  "comparison": {
+    "r5_baseline_probability": 0.9357032776,
+    "h1_middle_rewrite_probability": 0.9708775282,
+    "h2_final_rewrite_probability": 0.8971986771
+  },
+  "interpretation": "Final-paragraph rewrite improved the continuous detector signal while the segment label remains saturated AI. Keep H2 final paragraph provisionally as the current measured-best region and probe the short opening next.",
+  "repeat_policy": "Do not repeat H2."
+}

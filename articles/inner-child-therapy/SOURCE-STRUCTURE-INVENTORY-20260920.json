@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "source_sha256": "372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd",
+  "source_bytes": 150330,
+  "source_surface": "raw_substack_editor_body_html",
+  "captured_at": "2026-09-20",
+  "counts": {
+    "article_h1": 19,
+    "article_h2_excluding_embedded_card_headings": 27,
+    "article_h3_nonempty_excluding_embedded_card_headings": 19,
+    "article_h4": 1,
+    "captioned_image_containers": 4,
+    "native_audio_embeds": 1,
+    "native_video_embeds": 1,
+    "digest_post_embeds": 2,
+    "youtube_embeds": 2,
+    "high_value_editor_native_containers_total": 10
+  },
+  "article_h1_sequence": [
+    "Listen & Watch:",
+    "The Chicken-and-Egg Problem",
+    "My Journey",
+    "Before You Try to Go Deep",
+    "Borrow the Adult Before You Can Be the Adult",
+    "The Three Adult Functions",
+    "When the Adult Voice Feels Fake",
+    "Sometimes There Isn’t a Clear Child Yet",
+    "The Inner Guide Comes Later",
+    "Simple Practices",
+    "When Love Still Feels Missing",
+    "If You Want to Kill Yourself",
+    "Altered States Can Deepen the Therapy",
+    "When the Practice Feels Real but Stays Shallow",
+    "How to Forgive Without Forgetting",
+    "When One Life Has Ended and the Next Hasn’t Begun",
+    "Borrowed Adulthood in Relationship",
+    "You Are Worthy of Love. Always.",
+    "Appendix"
+  ],
+  "native_objects_in_source_order": [
+    {
+      "type": "captioned_image_container",
+      "source_image": "c8b6db18-b893-47be-8103-c8fb3e6dfaf7_1122x1402.png"
+    },
+    {
+      "type": "native_audio_embed",
+      "mediaUploadId": "bc40d36b-6d3d-470d-a25d-14eb7eb067fb"
+    },
+    {
+      "type": "native_video_embed",
+      "mediaUploadId": "f302980e-0c6a-40c5-b6db-1e89ab887e3d"
+    },
+    {
+      "type": "youtube_embed",
+      "videoId": "4PxC3zZ2Mus",
+      "startTime": null
+    },
+    {
+      "type": "captioned_image_container",
+      "source_image": "eba3d518-8cc9-4d23-a220-5f2165f3082d_1122x1402.png"
+    },
+    {
+      "type": "digest_post_embed",
+      "nodeId": "a31729e6-1788-4a82-8439-aa87294bbfef"
+    },
+    {
+      "type": "digest_post_embed",
+      "nodeId": "2ecaff46-0fe2-4cce-9467-5df40c39bc57"
+    },
+    {
+      "type": "youtube_embed",
+      "videoId": "foHCbX0xjAU",
+      "startTime": "54"
+    },
+    {
+      "type": "captioned_image_container",
+      "source_image": "c4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png"
+    },
+    {
+      "type": "captioned_image_container",
+      "source_image": "969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg"
+    }
+  ],
+  "baseline_20260915": {
+    "source_sha256": "5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1",
+    "source_bytes": 153734,
+    "digest_post_embeds": 3,
+    "youtube_embeds": 1,
+    "high_value_editor_native_containers_total": 10
+  },
+  "notes": [
+    "Heading counts exclude headings rendered inside digest-post embed cards.",
+    "The new source keeps 19 H1 headings and ten high-value editor/native containers but changes the H2 count and the composition/identity of digest/YouTube objects.",
+    "This inventory is source-integrity evidence only; it does not establish that source prose is fully humanized or owner-final."
+  ]
+}

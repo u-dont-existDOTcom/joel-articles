@@ -1,0 +1,23 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-anchored-h-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / MIXED / STRONG-GRADIENT",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-H-20260918.md",
+    "reader_visible_sha256": "420ac334ee1020a5591369360b34e931fef71b89c36bc335b02c2aeaad7061ab",
+    "runner_word_count": 267
+  },
+  "result": {
+    "headline": "AI Detected",
+    "fraction_ai": 0.3021335304,
+    "fraction_human": 0.6978664994,
+    "record_prediction_probability": 0.2924494445,
+    "report_body_summary": "AI-generated content appears in the earlier part"
+  },
+  "comparison": {
+    "anchored_g_ai": 0.6144040823,
+    "anchored_h_ai": 0.3021335304,
+    "absolute_ai_change": -0.3122705519,
+    "interpretation": "The anchored controller now has a strong gradient. The report localizes remaining AI to the earlier part, so preserve the owner anchor and current post-anchor model ending while repairing only the opening."
+  }
+}

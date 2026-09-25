@@ -1,0 +1,58 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r10-20260916",
+  "authority_boundary": "non-authoritative experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R10-HOT-SPARSE-OWNER-CALIBRATED-20260916.md",
+  "candidate_sha256_no_terminal_newline": "b613b16c4114de43892360f9d0c1225f16df849cda8b087d72580ee2e532ae3b",
+  "whitespace_words": 1695,
+  "instruction_source": "articles/inner-child-therapy/experiments/EPISODE-008-R9-TO-R10-HOT-THOUGHT-SPARSE-REALIZATION-GUIDE-20260916.md",
+  "owner_calibration_source": "articles/inner-child-therapy/experiments/EPISODE-008-INNER-MONOLOGUE-OWNER-INTERACTION-20260916.md",
+  "preservation": {
+    "authoritative_source_freeze": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json",
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "idea_order": "preserved",
+    "native_objects": "both embed placeholders preserved in source order",
+    "links_and_attributions": "Pema Chodron and Lindsay Gibson preserved",
+    "known_green_somatic_material": "preserved byte-for-byte",
+    "owner_human_high_inner_monologue": "owner-preferred three-paragraph realization inserted verbatim",
+    "owner_authorized_local_supersessions": [
+      "The owner-preferred Human/high inner-monologue realization narrows/removes some prior model/source examples such as drawing/picture/song and the separate vivid-imagery/resistance reassurance. This is treated as direct owner supersession for the local realization, not assistant deletion authority.",
+      "The owner-preferred realization also removes the separate polished model closure that explicitly said plain analysis is not avoidance / preverbal feeling is not inherently truer. The core chronology/uncertainty function remains in the owner text and later interpretation functions remain elsewhere in the section."
+    ],
+    "claim_or_certainty_changes": "none except the explicit owner-authorized local example/realization supersessions above",
+    "agency_or_chronology_changes": "none unexplained"
+  },
+  "cold_audit": {
+    "context": "context-contaminated / saturated same-context",
+    "conclusion": "PROVISIONAL PASS",
+    "strongest_candidates": [
+      {
+        "span": "Lindsay Gibson paragraph beginning 'One ugly conversation can still just be one ugly conversation.'",
+        "diagnosis": "Still carries several necessary qualifications and may retain some counselor-register density.",
+        "disposition": "preserve-with-reason",
+        "reason": "The source separately protects one-event-vs-pattern, another person's boundary/time, can't-vs-won't uncertainty, changed behavior vs promises, and protection without repeated injury. R10 gives recurrence most of the rhetorical time and subordinates the rest. No faithful mandatory repair is currently identified."
+      },
+      {
+        "span": "Hook response from 'Once you catch it...' through the ten-minute pause.",
+        "diagnosis": "A necessary practical sequence can still resemble protocol prose.",
+        "disposition": "preserve-with-reason",
+        "reason": "The one-to-three-breath pause, immediate-safety exception, adult function, and temporary no-send/no-consume/no-promise functions are source-protected safety content. R10 removes R9's playful aftercare and compresses the sequence without deleting function."
+      },
+      {
+        "span": "Final checking section beginning 'Take care of any real safety issue...' through the ending.",
+        "diagnosis": "The distinction between meaningful processing and checking plus method-reconsideration could still over-complete the concept.",
+        "disposition": "preserve-with-reason",
+        "reason": "R10 centers the lived mismatch—profound session, unchanged problem—and gives the treatment conclusion much less space. The grief/repetition and ritual functions are separately protected."
+      }
+    ],
+    "inherited_scaffold_check": "PASS provisionally; R10 materially reduces the capability ladders and mini-essay closures present in R9",
+    "reader_facing_realization": "PASS",
+    "heading_and_antecedent_check": "PASS",
+    "playfulness_density": "PASS; no new model-created cultural/metaphorical layer was added beyond owner language",
+    "largest_remaining_weakness": "Distributed instructional rhythm may still remain in the relationship and hook sections; saturated same-context audit cannot independently certify its absence.",
+    "owner_delivery_admission": "PASS for diagnostic/owner testing",
+    "detector_eligibility": "ELIGIBLE FOR OWNER TEST; Pangram not run by Chat"
+  },
+  "pangram": "NOT RUN"
+}

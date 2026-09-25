@@ -1,0 +1,37 @@
+{
+  "episode_id": "inner-child-episode008-phase-b-candidate-h-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / HUMAN-1.0 / OWNER-EDITORIAL-JUDGMENT-PENDING",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-H-20260918.md",
+    "reader_visible_sha256": "5923eb8c62f0f604b299c7c19d680ff35ec00325aba5b6ed3fea5fa6f39e862f",
+    "runner_word_count": 277
+  },
+  "transport": {
+    "route": "Remote Desktop Commander -> Joel HP ProBook -> clean Pangram evidence worktree -> local Playwright Pangram GUI",
+    "headed": false,
+    "api_used": false,
+    "detector_version": "4.0",
+    "stage": "STAGE_SUCCESS",
+    "exact_history_binding": "PASS",
+    "captured_at_utc": "2026-09-18T17:53:08.504307Z"
+  },
+  "result": {
+    "headline": "Human Written",
+    "prediction_short": "Human",
+    "fraction_ai": 0.0,
+    "fraction_ai_assisted": 0.0,
+    "fraction_human": 1.0,
+    "record_prediction_probability": 0.1905579269,
+    "record_prediction": "We believe that this entire text is human-written."
+  },
+  "comparison": {
+    "candidate_f_fraction_ai": 0.5329530835,
+    "candidate_g_fraction_ai": 0.4243027866,
+    "candidate_h_fraction_ai": 0.0,
+    "interpretation": "Restoring immediate GUI feedback to the Phase-B red-region loop produced monotonic measured improvement and a complete Human 1.0 boundary on Candidate H."
+  },
+  "editorial_boundary": "Detector success does not override Joel's visual/editorial judgment. Candidate H is not article authority until owner acceptance and reconciliation.",
+  "repeat_policy": "Do not repeat Candidate H solely to reconfirm detector confidence absent contradictory evidence."
+}

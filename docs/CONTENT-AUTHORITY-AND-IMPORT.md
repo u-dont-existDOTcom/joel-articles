@@ -2,7 +2,7 @@
 
 ## Current truth
 
-No article master or source package is currently imported. `articles/INDEX.json` is intentionally empty and the repository remains a governance incubator. A passing repository gate confirms that this absence is represented truthfully; it does not elevate scaffolding, chat, detached files, or an external packet into article authority.
+`articles/INDEX.json` is active and currently registers Romance, Somatic Therapies, and Inner Child Therapy as working article families with exact hash-bound authority. Registration establishes current working authority; it does not by itself make an article owner-final, citation-complete, detector-certified, or published. For an unregistered article, scaffolding, chat, detached files, review assemblies, and external packets remain non-authoritative until the complete family is imported and registered.
 
 ## Authority order
 
@@ -71,4 +71,4 @@ Publication tooling is destination-specific. When an owner-approved protocol nam
 8. Review unique-claim preservation and every deletion/relocation against the article map.
 9. Update both current-state layers and merge through a focused pull request.
 
-Until these steps are complete, content import remains **BLOCKED**.
+For an unregistered article, until these steps are complete, that article's content import remains **BLOCKED**. Existing registered article families continue under their own current-state authority.

@@ -1,0 +1,67 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r7-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R7-SENTENCE-GUIDE-APPLICATION-20260916.md",
+  "candidate_sha256_no_terminal_newline": "2ccea4ed22e6755b4fc1a15eb3396aa1ec042e56b17fd7de21b6d1ef8108530e",
+  "candidate_whitespace_words": 1637,
+  "instruction_source": "articles/inner-child-therapy/experiments/EPISODE-008-R6-TO-R7-POSITIVE-SENTENCE-REPAIR-GUIDE-20260916.md",
+  "method_test": {
+    "instruction_generation_turn_separated_from_application": true,
+    "instruction_schema": "literal current sentence/span -> explicit operation -> concrete positive generation target",
+    "guide_rewritten_during_application": false,
+    "whole-section_improvisation_before_local_operations": false
+  },
+  "preservation": {
+    "authoritative_source": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json",
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "substantive_claim_changes": "none",
+    "native_object_positions": "PASS; both frozen embed placeholders remain at the same semantic positions",
+    "known_green_somatic_island": "PASS; byte-for-byte preserved from `If your solar plexus...` through `...another approach that works from the body upward.`",
+    "owner_provenance_separation": "PASS"
+  },
+  "cold_audit": {
+    "status": "PROVISIONAL_SAME_CONTEXT_PASS",
+    "output_admission": "PASS",
+    "defects_repaired_before_freeze": [
+      "Removed a matched if-it-works/if-it-does-not explanatory close in the inner-monologue opening and replaced it with a more direct use-or-skip move.",
+      "Removed `huge` from the promise example because the source protects a promise example without that strengthening.",
+      "Reworked the guilt paragraph so the source-protected wrongdoing/manipulation uncertainty and simultaneous repair/self-abandonment possibility remain without a single symmetrical taxonomy sentence.",
+      "Removed the synthetic `three lines` quantity from the draft-editing exercise."
+    ],
+    "strongest_remaining_attacks": [
+      {
+        "span": "The alternative communication routes under `You Don’t Need an Inner Monologue`.",
+        "attack": "There are still many modalities close together, which can read like a disguised menu.",
+        "disposition": "PRESERVE_WITH_REASON",
+        "reason": "Speech, writing, drawing, picture/song, sensation/urge, and caring action are distinct frozen source routes. R7 turns them into an unequal verbal -> nonverbal -> sensation -> action progression rather than equal bullet-like categories. Further reduction would delete protected content."
+      },
+      {
+        "span": "The qualification run in `Don’t Assume It’s All You` from one terrible conversation through guilt.",
+        "attack": "The section still carries several therapist-like qualifications in succession: one interaction is not a pattern; capacity/motivation may be uncertain; promises are not behavior; guilt does not settle the case.",
+        "disposition": "PRESERVE_WITH_REASON",
+        "reason": "These are separate source-protected epistemic and safety functions. R7 anchors them in repeated interactions and concrete reliance rather than presenting a diagnostic framework. Removing one would change the protected argument."
+      },
+      {
+        "span": "The adult-role question and ten-minute pause in `Catch the Hook`.",
+        "attack": "The three adult jobs and temporary no-send/no-drink/no-promise/no-decision boundary are still grouped content and therefore remain list-shape risks.",
+        "disposition": "PRESERVE_WITH_REASON",
+        "reason": "Both groupings perform genuine operational jobs rather than decorative completeness. The adult roles are the article's actual three-role model; the ten-minute actions are the explicit harm-reduction boundary. R7 makes each grouping one live decision/action instead of a taxonomy."
+      }
+    ],
+    "stronger_alternatives_not_selected": [
+      "Delete most examples/inventories: rejected because protected unique routes and safety actions would be lost.",
+      "Remove most headings and merge into one essay: rejected because Episode 008 R4 already tested a consolidation route and regressed to Pangram AI 1.0, while the headings perform real guide navigation.",
+      "Aggressively shorten the section: rejected as a global rule because necessary safety/meaning sequence would be amputated; local overcompletion was removed instead.",
+      "Add slang, quirks, anecdotes, friends, or personal scenes: rejected because that would invent authorship signals without owner provenance.",
+      "Ban all triads: rejected because some threes are the actual content model, not decorative listicles.",
+      "Remove all qualifications: rejected because uncertainty about current grievance, repeated pattern, ability/willingness, guilt, and manipulation is source-protected meaning."
+    ],
+    "largest_remaining_risk": "The full natural boundary is still a long practical guide with several sequential exercises. Same-context review may under-detect distributed guide cadence even though no specific sentence-level defect remains that this audit actually believes should be changed without deleting source-protected functions."
+  },
+  "detector": {
+    "pangram_run": false,
+    "reason_not_run": "R7 is frozen for owner/external detector evaluation after the delayed sentence-level method test. No exact R7 detector result exists yet."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "episode_id": "inner-child-my-journey-007-r6-opening-regression-20260916",
+  "status": "R6_REJECTED_OPENING_AI_OWNER_REPORT",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "owner_report": "R6 regressed; the first paragraph is AI.",
+  "confidence": "not supplied",
+  "exact_first_paragraph_markdown": "I used to preach [Buddhist enlightenment](http://mindset.u-dont-exist.com/) a lot. Then I noticed I could feel spiritually free and still turn right back into the same little kid when an old wound got hit. Whatever had become free in me hadn't reached that kid. I started thinking most people who chase spiritual freedom are partly trying to get above childhood pain, or get away from parts of ourselves we don't want to meet. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). I think plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m).",
+  "exact_first_paragraph_sha256_no_terminal_newline": "c47b1918c176d1bd0eccc3896b7ff1f99f84e4814a41c27e4fbcf3f3bc5e2f46",
+  "whitespace_word_count": 93,
+  "identity_note": "This first paragraph is byte-identical in R5 and R6, so the owner-reported AI result applies to that exact opening realization in both candidates.",
+  "comparison": {
+    "r3_opening_text_sha256_no_terminal_newline": "6425c4b2cf701d97bedac5ff97342585625f15b8bba2c0faf000e7dfbe94aea0",
+    "r3_contextual_detector_evidence": "In the prior Pangram screenshot, the visible opening/top region was Human/high, but this was screenshot-region evidence rather than a separately frozen standalone first-paragraph certification.",
+    "editorial_note": "Joel also said some Human/high green prose still looked model-shaped to him, so rollback is a detector-stability baseline, not automatic final copy."
+  },
+  "audit_diagnosis": {
+    "failure_1": "The opening runs a model-clean funnel: personal observation -> interpretive restatement -> broad generalization -> concept label -> external example.",
+    "failure_2": "Whatever had become free in me hadn't reached that kid functions as a polished interpretive bridge immediately after the lived contradiction rather than advancing the scene/thought.",
+    "failure_3": "The broad most-people claim plus two-part get-above/get-away formulation then resolves into the named term spiritual bypassing, producing compressed essay architecture even though the register is conversational.",
+    "section_level_note": "R6 also retains several orderly explainer sequences later in the section. The opening regression is evidence that repeated same-context paraphrase is no longer a reliable route by itself."
+  },
+  "method_escalation": {
+    "same_method_status": "STOP",
+    "reason": "Multiple same-context rewrite/audit cycles have now produced regression, including an opening that moved from a previously greener contextual region to an owner-reported AI paragraph.",
+    "next_structurally_different_options": [
+      "rollback the opening to the earlier higher-performing R3 realization as a stable baseline, then leave it alone unless a named editorial defect justifies reopening",
+      "separate the personal child/spiritual contradiction from the broad spiritual-bypassing generalization by moving the general claim/label later, after the food-bank/lived material, instead of forcing both jobs into one opening paragraph"
+    ],
+    "owner_help": "not yet required; a materially different structural move remains available. If that move also fails, request owner wording/judgment for the opening rather than continue model-only paraphrase."
+  }
+}

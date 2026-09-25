@@ -1,0 +1,18 @@
+{
+  "episode_id": "inner-child-my-journey-007-r8e-second-sentence-pass-20260916",
+  "candidate_sha256": "82813aa364ee0100b35ed332a7766d8ad9f737eefc4accf09db0e6ae58047e64",
+  "candidate_whitespace_words": 691,
+  "owner_summary": "about 95% Human",
+  "screenshot_ui_segments": [
+    {"label": "HUMAN WRITTEN", "confidence": "High", "ui_words": 640, "starts_with": "My Journey I used to preach Buddhist ..."},
+    {"label": "AI", "confidence": "High", "ui_words": 39, "starts_with": "A protective part could stop me before ..."},
+    {"label": "HUMAN WRITTEN", "confidence": "High", "ui_words": 50, "starts_with": "The three adult jobs from the map don'..."}
+  ],
+  "displayed_total_ui_words": 729,
+  "displayed_ai_share": 0.053497942386831275,
+  "displayed_human_share": 0.9465020576131687,
+  "interpretation": "R8E materially improves from R8D's 29.74% displayed AI share to 5.35%. The sole residual is the 39-word first sentence of the final method-origin paragraph. The following 50-word tail, byte-identical to the prior R8D Human/medium tail, is now Human/high in the new boundary and remains frozen.",
+  "prediction_record": "EPISODE-007-R8E-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+  "prediction_match": "exact dominant residual match",
+  "authority_boundary": "non-authoritative detector evidence; Inner Child Therapy remains unregistered"
+}

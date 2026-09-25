@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-state-provenance-repair-20260920-2047",
+  "integration_branch": "chat/inner-child-map-toolbox-recovery-20260919-2200",
+  "integration_base_sha": "aa592f6ec33c44403357cc23b16a8b33ce8e2a0b",
+  "scope": "Repair Inner Child Therapy state/provenance bookkeeping for Write It. Don't Send It Yet.; correct stale article-wide assembly metadata and add promotion/supersession guard. No article prose promotion."
+}

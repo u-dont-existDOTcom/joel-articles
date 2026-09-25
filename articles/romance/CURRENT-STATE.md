@@ -69,7 +69,7 @@ Article-wide state:
 - article status: `working`, not `owner_final` or `published`;
 - publication exports: none registered.
 
-## Remaining / publication gates
+## Remaining
 
 - Keep citation review and a future fresh whole-article editorial pass explicit; do not infer either from the bounded r23r2 correction.
 - Do not run another Pangram Part-2 call solely to increase detector confidence; Joel accepted the exact local result.
@@ -78,6 +78,11 @@ Article-wide state:
 - Copyright/license posture remains a separate owner decision.
 
 No competing Romance master remains unresolved. Exact r23r2 on `main` is the current registered working authority.
+
+## Blockers / unresolved
+
+- Publication remains blocked on the owner decisions recorded in `review/FINAL-CORRECTIONS-20260824.md`, including factual and citation corrections that require owner-approved prose.
+- Copyright and license posture remain separate owner decisions.
 
 ## Evidence / artifacts
 

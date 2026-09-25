@@ -1,0 +1,69 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r8-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "source_record": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-SOURCE-20260916.json",
+  "prior_candidate": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R7-SENTENCE-GUIDE-APPLICATION-20260916.md",
+  "instruction_source": "articles/inner-child-therapy/experiments/EPISODE-008-R7-TO-R8-MINIMAL-REPAIR-GUIDE-20260916.md",
+  "candidate": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R8-MINIMAL-REPAIR-20260916.md",
+  "candidate_sha256_no_terminal_newline": "d7ea10bca09cb30714ffafa70ae8e1e58f649652c4da4849801c2b78294326b3",
+  "candidate_whitespace_words": 1473,
+  "application_contract": {
+    "guide_frozen_previous_turn": true,
+    "applied_without_redesigning_operations": true,
+    "mode": "minimal repair, literal span -> explicit operation -> positive generation target",
+    "pangram_run": false
+  },
+  "calibration_locks": {
+    "somatic_massage_paragraph_preserved_byte_for_byte": true,
+    "bottom_up_modalities_paragraph_preserved_byte_for_byte": true,
+    "native_embed_positions_preserved": true
+  },
+  "preservation_proof": {
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "claim_changes": "none",
+    "certainty_scope_changes": "none",
+    "attribution_changes": "none",
+    "actor_action_object_changes": "none",
+    "chronology_causality_changes": "none",
+    "native_object_changes": "none",
+    "notes": "R8 changes realization, compression, paragraph-local sequencing, and model-scaffold placement only within the frozen authorized delta. All source safety functions, alternate inner-speech/contact routes, Pema/shenpa attribution, acute hook functions, present-vs-old-material distinction, Gibson attribution, relationship-assessment qualifications, guilt/repair distinction, Witness/Protector/Guide functions, draft exercise, checking-loop functions, and ritual warning remain represented."
+  },
+  "cold_audit": {
+    "context": "context-contaminated / same-context",
+    "status": "FAIL",
+    "owner_delivery_admission": "BLOCKED",
+    "detector_eligibility": "BLOCKED",
+    "strongest_model_shape_candidates": [
+      {
+        "span": "When I say ‘ask the child,’ say it out loud or write it down if that works... Some minds are simply quieter in words and pictures...",
+        "diagnosis": "Still behaves as an exhaustive capability ladder: verbal route -> representational route -> bodily route -> caring action -> reassurance. The sequence is more unequal than R7 but remains a complete decision tree rather than one naturally pressured thought.",
+        "disposition": "unresolved; best next evidence is a minimal same-thought owner repair rather than another broad model rewrite"
+      },
+      {
+        "span": "One terrible conversation isn't a pattern... through ... The Guide only has to choose the next move.",
+        "diagnosis": "Still has counselor/explainer architecture: qualification -> repeated-pattern test -> uncertainty about cause -> promise-vs-behavior rule -> injury/safety rule -> guilt/repair distinction -> conversation-goal rule -> archetype synthesis. Local sentences improved, but the paragraph chain still completes the whole responsible account.",
+        "disposition": "unresolved; owner minimal repair preferred"
+      },
+      {
+        "span": "Read it again as the adult who's on the writer's side... through ... the angry draft may be the first place you actually said what was wrong or what needed to stop.",
+        "diagnosis": "Exercise still reads as a full edit protocol with responsibility/protest/request/boundary, send/wait/no-response, tomorrow promise, immediate protection, then a second care-for-writer pass. The content is protected but the realization remains procedural and comprehensive.",
+        "disposition": "unresolved; owner minimal repair preferred"
+      },
+      {
+        "span": "Take care of whatever safety issue... through the final stop sentence.",
+        "diagnosis": "The checking section still resolves into an evaluator rubric: did it move anything -> checking vs real processing -> unresolved thought rule -> meeting metaphor -> calm/insight vs behavior outcome -> stop/keep/replace treatment conclusion. It is less listicle-shaped but still strongly organized as a complete teaching card.",
+        "disposition": "unresolved; owner minimal repair preferred"
+      }
+    ],
+    "stronger_attacks_considered": [
+      "Delete large amounts of protected instructional content: rejected without owner deletion authority.",
+      "Merge/remove H3 headings: deferred because R4 consolidation regressed to Pangram AI 1.0 and headings perform real navigation.",
+      "Rewrite the somatic massage paragraph because it fell inside the latest red window: rejected due prior exact known-green evidence and no independent editorial defect.",
+      "Request broad owner audio: deferred because minimal same-thought owner edits create cleaner aligned teaching evidence and avoid confounding realization with new authorial thought."
+    ],
+    "largest_remaining_weakness": "Distributed practical-guide completeness remains: several sections still feel like finished mini-protocols even after sentence-level listicle repair.",
+    "next_action": "Do not Pangram R8. Ask Joel for minimal same-thought repairs on a small number of exact unresolved spans; capture each correction as aligned teaching evidence, then integrate and re-audit before another detector call."
+  }
+}

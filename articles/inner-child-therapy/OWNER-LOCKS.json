@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "working-master-source-identity",
+      "description": "Preserve the exact 2026-09-20 owner-supplied raw Substack editor source as the registered working raw-source master: 150330 UTF-8 bytes, SHA-256 372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd. This master is not the fully humanized branch."
+    },
+    {
+      "id": "native-editor-object-integrity",
+      "description": "Preserve current raw-source native/editor object identity and source order unless later owner authority changes placement. SOURCE-STRUCTURE-INVENTORY-20260920.json is the current raw-source inventory."
+    },
+    {
+      "id": "parallel-source-humanization-lineages",
+      "description": "The raw Substack master and HUMANIZED-ARTICLE-SO-FAR.md are intentionally unsynced lineages. Raw-vs-humanized whole-document differences are not source-change evidence. Identify actual owner changes by raw-source-to-prior-raw-source comparison, then project only those deltas onto the humanization branch."
+    },
+    {
+      "id": "protective-intent-central-qualification",
+      "description": "After the central reparenting premise, preserve the new function that present-day adulthood alone is insufficient: the adult must at least be willing to protect vulnerability rather than exploit it. This function must be incorporated into the humanized Chicken-and-Egg section."
+    },
+    {
+      "id": "dangerous-present-adult-safety-gate",
+      "description": "Preserve the new When the Present-Day Adult Is Dangerous to the Child safety section and its functions: harmful/exploitative present intent blocks direct or indirect child contact; the child is not a diagnostic test; work remains adult-focused; sovereignty is behavioral capacity to pause/question/refuse/revise; identity/belief/charged thoughts alone do not establish current harmful intent; verbal promises alone do not clear child work; care may continue without assisting exploitation; sustained real-human care may be needed."
+    },
+    {
+      "id": "identity-development-harm-gate",
+      "description": "Preserve the source correction that identity-building and reparenting can usually proceed together, except when a firmly held identity currently includes exploiting or harming vulnerability; then identity/adult-agency work comes first and the child is not used to dismantle the identity."
+    },
+    {
+      "id": "vow-harm-gate",
+      "description": "Preserve the gate before the inner-child vow: if the present adult still intends to frighten, exploit, or harm vulnerability, skip the vow and child-contact exercise and work first on adult choice/non-harm."
+    },
+    {
+      "id": "harmful-spiritual-authority-exclusion",
+      "description": "Preserve the exclusion that any presence/authority that delights in fear, demands harmful obedience, or directs exploitation of vulnerability cannot serve as Nurturer, Protector, Guide, or borrowed adult, regardless of claimed identity."
+    },
+    {
+      "id": "owner-final-write-it-p1",
+      "description": "Joel directly finalized the Write-It P1 on 2026-09-20 at SHA-256 fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392. Its absence from raw Substack is expected because the humanization branch has not yet been synced there. The five targeted source edits do not touch this subsection."
+    },
+    {
+      "id": "humanization-assembly-active",
+      "description": "HUMANIZED-ARTICLE-SO-FAR.md is the active accepted/locked humanization review assembly for worked material, not merely historical evidence. Experimental candidates still require explicit promotion into that assembly."
+    },
+    {
+      "id": "checking-p3-owner-accepted-active-humanization",
+      "description": "Joel accepted exact checking P3 wording on 2026-09-21 for the active unsynced humanization assembly, SHA-256 8efe36e24e6ccfef0cd78393aff12a55942b7da313fa05b771935e027543584b. Preserve it in HUMANIZED-ARTICLE-SO-FAR.md until the humanization branch is later reconciled into the raw master; do not require it to appear in the current raw Substack master yet."
+    }
+  ],
+  "owner_review": {
+    "status": "pending",
+    "evidence": "articles/inner-child-therapy/experiments/CHECKING-P3-OWNER-ACCEPTANCE-PROMOTION-20260921.json"
+  }
+}

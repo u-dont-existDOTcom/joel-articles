@@ -1,0 +1,31 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r8-owner-screenshot-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R8-MINIMAL-REPAIR-20260916.md",
+  "detector": "Pangram 4 UI / owner screenshot",
+  "reported_at_utc": "2026-09-16T20:28:00Z",
+  "ui_total_words": 1549,
+  "segments": [
+    {"label":"AI","confidence":"High","ui_words":209,"visible_start":"# Before You Try to Go Deep If you're..."},
+    {"label":"Human Written","confidence":"High","ui_words":94,"visible_start":"## Maybe Calm the Body First If your ..."},
+    {"label":"AI","confidence":"High","ui_words":174,"visible_start":"If talking still doesn't work because yo..."},
+    {"label":"Human Written","confidence":"Medium","ui_words":22,"visible_start":"[Pema Chödrön](https://pemachodronf..."},
+    {"label":"AI","confidence":"High","ui_words":1050,"visible_start":"Once you catch it, look around and say,..."}
+  ],
+  "displayed_word_share": {
+    "ai_words": 1433,
+    "human_words": 116,
+    "ai_fraction_by_ui_word_share": 0.9251129761,
+    "human_fraction_by_ui_word_share": 0.0748870239
+  },
+  "text_first_prediction_path": "articles/inner-child-therapy/experiments/EPISODE-008-R8-TEXT-FIRST-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+  "prediction_match": "Strong topology match: predicted broad AI opening, somatic Human island, AI roadmap/imagery/early-hook span, possible tiny Pema/shenpa Human island, and broad AI tail. Magnitude estimate (roughly 75-90% AI) was slightly optimistic; displayed AI share was about 92.51%.",
+  "owner_additional_controls": {
+    "strategy_A": "Owner reports first A example paragraph Human / low confidence; second A example paragraph AI / low confidence. Owner's reading: A helped somewhat, but the second paragraph still advanced more predictably/smoothly than the first.",
+    "strategy_B": "Owner reports both B example paragraphs AI. Owner strongly disliked the realization as predictable and condensed.",
+    "strategy_C": "Owner reports both C example paragraphs AI. Owner likewise perceived predictable advancement.",
+    "owner_style_correction": "Do not use standalone micro-verdicts such as 'Fine.', 'Good.', or 'Great.' as generated Joel-byline connective beats; owner identifies these as strongly AI-shaped.",
+    "next_direction": "Use strategy A (decompress thought / unequal thought duration) as the primary repair architecture. Add playful/captivating realization where functionally appropriate, including optional cultural references or meme-shaped analogies, while preserving claims and avoiding fabricated owner biography."
+  },
+  "production_disposition": "REJECT_R8_FOR_DETECTOR_TARGET; FREEZE HUMAN SEGMENTS; WRITE R8_TO_R9_A_STRATEGY_SENTENCE_GUIDE BEFORE NEXT GENERATION"
+}

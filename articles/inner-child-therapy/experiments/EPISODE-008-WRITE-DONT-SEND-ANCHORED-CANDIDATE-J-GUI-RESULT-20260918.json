@@ -1,0 +1,22 @@
+{
+  "episode_id": "inner-child-episode008-write-dont-send-anchored-j-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / REGRESSION",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-WRITE-DONT-SEND-ANCHORED-CANDIDATE-J-20260918.md",
+    "reader_visible_sha256": "cfd377c47c2f4af7a99e484e0ce74946b06bcd3f0b806ad4f8d950b3b7fefb73",
+    "runner_word_count": 256
+  },
+  "result": {
+    "headline": "AI Detected",
+    "fraction_ai": 0.5706174374,
+    "fraction_human": 0.4293825328,
+    "record_prediction_probability": 0.5771503448
+  },
+  "comparison": {
+    "best_control_h_ai": 0.3021335304,
+    "candidate_i_ai": 0.4466216266,
+    "candidate_j_ai": 0.5706174374,
+    "interpretation": "Two opening-only stylistic rewrites both regressed from H. Stop same-method opening paraphrase and change subsection architecture while retaining the exact owner anchor."
+  }
+}

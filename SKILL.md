@@ -13,7 +13,7 @@ Use this skill only for work intended for Joel Rosenblum's byline and related ar
 
 Direct Joel rewrites supersede model candidates. Chat, Project memory, File Library copies, rendered previews, old helpers, and detached drafts are working context only and never override registered Git authority.
 
-This repository now has registered article authority: `articles/INDEX.json` currently registers **Romance** and **Somatic Therapies** as working articles. For any registered article, load its registered current state/master/locks/evidence from the registry and never infer a newer master from chat, filenames, summaries, Project Sources, historical Pangram branches, or an external packet.
+This repository now has registered article authority: `articles/INDEX.json` currently registers **Romance**, **Somatic Therapies**, and **Inner Child Therapy** as working articles. For any registered article, load its registered current state/master/locks/evidence from the registry and never infer a newer master from chat, filenames, summaries, Project Sources, historical Pangram branches, or an external packet.
 
 At the start of substantial work read this file, `CANONICAL-REPO-MAP.md`, `AGENTS.md`, `docs/INDEX.md`, `state/CODEX-CURRENT-STATE.md`, and `articles/INDEX.json`, then load only the least additional task-relevant material.
 
@@ -58,7 +58,7 @@ The blocking order is:
 
 Re-run the preservation proof after every detector-driven semantic edit. A 100% Human candidate with an unexplained deletion, addition, provenance change, actor/cause change, certainty change, or misplaced protected function is a failed candidate and cannot be promoted. If such a candidate has already been measured, preserve the detector result as diagnostic evidence but mark the prose fidelity-rejected.
 
-`Inferable`, `redundant`, `smoother`, and `better for Pangram` are never deletion authority. Similar topic does not prove duplicate function. Source wording, remembered quotation, later interpretation, and synthesis must remain separate provenance objects unless Joel explicitly merges them.
+`Inferable`, `redundant`, `smoother`, and `better for Pangram` are never, by themselves, deletion authority for a genuinely independent thought/function. But preservation is not a requirement to restate every source sentence or explanatory point explicitly. When a sentence is only realization scaffolding, unpacking, or aftercare for cognition already carried unambiguously elsewhere, the rewrite may leave that implication implicit if a cold reader still gets the same substantive thought and no independent claim, qualification, agency, certainty, attribution, chronology, causality, decision rule, example, or protected rhetorical function is lost. Do not atomize prose into preservation units merely because each sentence says something. Similar topic still does not prove duplicate function, and source wording, remembered quotation, later interpretation, and synthesis must remain separate provenance objects unless Joel explicitly merges them.
 
 Use the smallest useful proof scope: the changed natural section plus load-bearing dependencies for a local repair, and article-wide units only for genuinely article-wide reconstruction.
 
@@ -99,6 +99,40 @@ For several changes, provide an ordered placement map. Prefer stable text anchor
 
 “Add this near X,” “this could go under Y,” or a paste-ready passage without an exact destination is incomplete. Do not make Joel rediscover the article architecture in order to use a recommendation. If the current article has not been inspected closely enough to establish a reliable anchor, inspect it before proposing the change.
 
+## Parallel raw-source and transformation lineages
+
+When a registered raw/editor source and an active rewrite/humanization branch are intentionally unsynced, never treat a whole-document raw-source-vs-transformed diff as evidence of what the owner changed in the source.
+
+Use two stages:
+1. compare current raw source to the prior raw source (or use direct owner change authority) to identify the actual source deltas;
+2. project only those deltas onto the transformation branch by function and placement.
+
+Unaffected accepted/owner-final transformed prose remains current for that branch even when absent from the raw source. Raw-source absence is not supersession. A transformed branch may legitimately be ahead of the publication/source surface.
+
+Record the lineage role explicitly in state/artifact metadata: raw source authority, active transformation assembly, historical experiment, or promoted owner-final content. Do not collapse these classes because they share an article title.
+
+## Experiment-to-article promotion gate
+
+Experimental, detector, or review prose does **not** become current article prose merely because it:
+- scores Human on Pangram;
+- is called `solved`, `current`, `accepted`, or similar by an assistant;
+- appears in a rolling/review assembly;
+- receives no immediate owner objection;
+- preserves owner rough cognition closely;
+- is the newest-looking candidate.
+
+Promotion requires an explicit authority event binding:
+- the exact text/hash;
+- provenance class;
+- owner/editorial status;
+- exact article destination;
+- disposition of the displaced text;
+- the state/master/lock artifact that now carries it.
+
+Later superseding state must invalidate earlier `solved` or `current` labels. If an earlier state promotes a passage but a later controlling state restores the section to `unresolved`, all downstream assemblies/inventories must fail closed to `unresolved`.
+
+For unregistered articles, a `current_assembly`, review snapshot, experiment result, or historical rolling draft is never a substitute for registered authority. When exact current prose cannot be proven, report `AUTHORITY UNRESOLVED` and recover owner authority rather than selecting by filename, recency, detector result, or remembered chat.
+
 ## Owner prose, provenance, interviews, and source pools
 
 Reuse good owner prose freely in real article work. In explicit model-generation training experiments, first recover the thought and generate fresh syntax without borrowing Joel's realization, then compare.
@@ -112,6 +146,87 @@ Treat interviews and notes as source pools, not transcripts. Preserve raw answer
 Never show Draft 0 by default. After drafting, audit the literal completed prose as if someone else wrote it. Run two cold audits normally; a third only when needed. Check semantic sanity, reality contact, curious-reader continuity, unnecessary recap/interpretive aftercare, functional redundancy, pre-completed reasoning, generic bridges, false symmetry/completeness, fidelity, and the true stopping point. If a legitimate weakness is found, fix it before delivery or explicitly justify why it must remain.
 
 The cold audit is not a substitute for the preservation proof. Preservation units and authorized deltas are checked mechanically/explicitly before detector eligibility; the cold audit asks whether the preserved material is still coherent, well placed, and good writing.
+
+## Relational-thought generation for humanization
+
+For Joel humanization generation, do **not** preallocate one sentence per protected function or assign fixed sentence jobs such as `S1=function A, S2=function B...`. That representation itself can create the model-shaped instructional sequence later criticized as one-function-per-sentence marching.
+
+Hold preservation functions outside the prose outline. Give the writer a small interacting thought-world instead: a concrete or playful example, a consequence, self-talk, a parenthetical realization, an ordinary reaction, or another source-grounded move that can carry several functions together. Let later thoughts grow out of, answer, or reinterpret earlier ones. Uneven cadence, parenthetical realizations, cute/interesting examples, and self-talk are available compositional affordances when they arise naturally from the thought; do not require one of each as a checklist.
+
+If owner-help escalation later requires a contemporaneous map, preserve the **actual generative substrate** used while writing. Do not convert that requirement into a pre-writing sentence-job plan. If multiple sentences emerged from one shared example/thought-field, record that shared substrate and each sentence's actual emergence; never fabricate a sentence-specific job after failure.
+
+## Post-generation tell ledger and repair
+
+For humanization work, the Human-facing tell catalog is a **post-generation diagnostic/repair layer**, not a composition checklist.
+
+After literal candidate prose exists and before final detector admission:
+1. inspect each material span for current AI-shaped operation/tell risk;
+2. record which source-earned Human-facing relations already work and which are missing or misapplied;
+3. assign a concrete disposition: KEEP / DELETE / REWRITE / MERGE / SUBORDINATE / MOVE;
+4. state the exact positive structural repair while protecting source meaning;
+5. execute the repair in Chat;
+6. rerun all affected downstream gates because the prose changed.
+
+Do not skip this layer merely because relational-thought generation or independent-reader review already passed. Conversely, do not move the tell ledger upstream into the writer prompt.
+
+A completed tell ledger is **not** a completeness certificate. `No AI-shaped operation identified` means only that the current ledger/reviewer did not identify one.
+
+### Owner-calibrated fresh-context tell loop
+
+During Joel tell calibration, repair already-definite defects before owner QA and do not self-approve from the saturated drafting context.
+
+Before using fresh-model evidence pre-Pangram, apply **`docs/HUMANIZATION-FRESH-CRITIC-GATE.md`**. **This does not replace or shorten the full post-generation tell ledger above.** The complete current tell catalog remains the master checklist: every applicable AI-shaped tell/operation must still be dispositioned on the literal candidate. Follow UDA provider routing: prefer an already-authenticated **provider-native Claude CLI** when it can supply the required Opus model, effort, structured output, freshness, and isolation; otherwise use the authorized OpenRouter fallback. Return one PRESENT / ABSENT / UNCERTAIN row per tell and **no global Human/AI verdict**. Treat PRESENT and UNCERTAIN as unresolved. Do not transfer OpenRouter effort calibration to Claude CLI: calibrate CLI effort separately on the CLI route. Current OpenRouter-only evidence supports xhigh as the API fallback default and max only for decision-changing unresolved/disputed tells. Then use narrow calibrated auditors or direct editorial review to resolve disputed/high-risk tells. A narrow PASS clears only that axis; it cannot clear untested tells elsewhere in the catalog.
+
+After Joel corrects a diagnosis, persist it, update any failed axis control, repair internally, and use a new fresh request on changed bytes. Final unpaid admission remains the complete editorial/cold audit, separately from preservation, architecture, final preservation, and Pangram.
+
+The Inner Child checking RT2 re-audit on 2026-09-21 showed a more basic failure: a paragraph can contain concrete examples, self-talk, fragments, and other Human-looking forms while the **mesoscale semantic staircase remains intact**. The supposed tell-clean diagnostic still had obvious AI-shaped operations: one source function per scene beat, synthetic didactic prop selection, fake-spontaneity markers, generic therapeutic abstraction, and concrete image followed by explanatory aftercare.
+
+Therefore the tell ledger must audit both:
+- **local realization** — sentence/phrase tells;
+- **paragraph-level function topology** — whether one coherent/cute scene merely skins the same preservation-ledger order.
+
+Do not call a candidate tell-clean merely because Human-facing devices are present. Ask whether the details are causally load-bearing or interchangeable props, whether filler/hesitation is earned or stage-managed, and whether the paragraph still advances each protected function with suspiciously efficient equality.
+
+The current catalog may still be incomplete, but RT2 does **not** establish that; its `tell-clean` premise was false. Keep the paid detector gate separate.
+
+### Fake personal stake and instruction-manual accumulation
+
+Direct owner correction, 2026-09-21:
+
+- In explanatory or therapeutic guide prose, first person is **not** Human-facing merely because it sounds personal. Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision. Ask: **why should the reader care what Joel personally cares/wants here?** If there is no real answer, state the substantive judgment directly.
+- This failure can sound oddly arrogant or performatively intimate: the prose inserts the author as an authority/personality where the section is actually giving general guidance.
+- A clear direct sentence may be acceptable once. The tell emerges cumulatively when repeated compressed commands, verdicts, questions, or short lessons create an **instruction-manual/listicle cadence**. Audit the passage as a sequence, not merely sentence by sentence.
+- `Optimal efficiency` is itself a risk pattern when nearly every sentence cleanly performs one teaching job and then hands off to the next. Humanization must not replace an explicit source checklist with a smoother sequence of maximally efficient mini-lessons.
+- Abrupt complication is another risk: a sentence can be substantively correct but still feel model-written when it introduces a new concern with no reader-visible reason for why the topic just changed.
+- When a clear AI-written source is better than a supposedly humanized rewrite, **rollback toward the clear source**. Do not preserve a fake-personal, cute, colloquial, or self-conscious repair merely because it contains more Human-looking surface forms. Humanization must improve naturalness without sacrificing clarity, dignity, or rhetorical fit.
+
+When Joel explicitly asks for the tell ledger or tell fixes, show both the literal ledger and the exact integrated result; do not summarize them invisibly.
+
+## Humanization owner-delivery admission
+
+For Joel humanization work, the owner is not an intermediate QA surface. Do not show a generated candidate as proposed article prose until all applicable internal gates pass and the exact eligible boundary has passed the required Pangram check.
+
+Blocking order:
+1. plain-reader comprehension and continuity;
+2. semantic/reality/fidelity preservation with zero unexplained substantive deltas;
+3. architecture / paragraph-role review;
+4. model-shapedness/humanization review;
+5. second literal cold read after any style repair;
+6. final preservation re-proof;
+7. Pangram on each materially model-written paragraph/section where technically meaningful;
+8. only after the changed unit has its own result, Pangram the complete changed natural boundary when context interaction/integration status is decision-relevant.
+
+**Detector-boundary selection is not the same thing as editorial-context selection.** Editorial/fresh-reader audits should usually inspect the complete natural boundary because context is needed to judge reader purpose, transitions, and referents. Pangram certification of a newly model-written paragraph, H2, or section must first test the **smallest complete changed reader-visible unit itself** when that unit is technically meaningful. Do not substitute a larger natural boundary for that unit-level call merely because the larger boundary was used for editorial audit.
+
+If surrounding prose is already known-bad, unresolved, detector-red, or otherwise capable of contaminating the score, it must not be included in the first certification call for the changed unit. A later natural-boundary call is a separate integration/context test. A failure on a larger boundary containing known-bad neighboring prose is non-localizing and cannot be attributed to the changed unit.
+
+Any substantive edit invalidates affected reviews and all downstream gates; a prior candidate's PASS never transfers to revised bytes. Do not pad short text merely to manufacture a detector boundary, do not use known-Human owner prose to conceal a red model-written paragraph, and do not use known-bad neighboring prose to contaminate a changed unit's first certification measurement.
+
+If a candidate fails, keep the prose internal and continue automatically. Repeated AI-shaped realization failure does **not** establish missing owner cognition. When the authoritative article/source already represents Joel's cognition and Joel approves the thought, keep that cognition fixed and change the realization/review architecture. Use the owner-calibrated fresh-context tell loop above rather than asking Joel to re-supply rough cognition.
+
+Ask for new owner cognition only when the underlying thought itself is genuinely missing, contradictory, underdetermined, or explicitly rejected by Joel—not merely because model-written wording or structure remains AI-shaped. If that genuine cognition boundary is reached, the help packet must show the full surrounding context plus the **contemporaneous generative substrate actually used**; never reconstruct a supposedly exact sentence map after failure.
+
+Ordinary progress updates may report gate status or method changes but must not leak failed candidate prose unless Joel explicitly asks to inspect it or a genuine owner-help packet is required.
 
 ## Independent final-reader audit
 
@@ -171,6 +286,10 @@ Never commit secrets or API keys. Never overwrite current authority with a probe
 Preserve claims/certainty, exact memories/quotations, actors, chronology, causality, attribution, links, media, headings, native-object placement, and severe-claim agency. Never silently soften or change Joel's argument; disagreement must be raised directly.
 
 ## Reporting
+
+**Comparative review display — direct owner rule, 2026-09-19.** Whenever asking Joel whether wording, a passage, or another artifact is better, different, or preferable, show both the exact before/current version and the proposed alternative in the same response, clearly labeled. Include enough immediate context to make their meaning and placement comparable. Do not show only the replacement, substitute revision IDs or links for the comparison, or require Joel to remember/search for the other version. For a long artifact, show the corresponding changed spans and link the complete versions. Give the material tradeoff and recommendation without treating a detector pass as editorial acceptance. Before delivery, check that both sides of every requested comparison are actually visible.
+
+**Map-source display — direct owner rule, 2026-09-19.** When using or proposing a symbolic paragraph map, cadence map, or source-derived writing pattern, show the literal donor paragraph(s) in the same response as the comparison. Keep the donor separate from the target-before and target-after. Identify its actual authorship history: natural owner prose, owner rewrite during collaboration, assistant-produced owner-accepted, mixed/unknown, or detector-only evidence. Do not equate owner approval or a Pangram Human result with untouched owner authorship; disclose unknown prior model involvement. A source title, link, hash, map label, or abstract summary does not substitute for showing the text. For a long source, show the complete corresponding donor passage, with a link to the full source. Preserve the source pointer and hash in the working record. Donor prose remains calibration, not insertion authority.
 
 After substantive passes report, as applicable: preservation-proof status; unexplained-delta count; heading fit; semantic sanity; reality check; architecture; curious-reader chain; cold-audit passes; independent-final-reader status/findings; source weighting; paragraph chain; coherence/fidelity; provenance; exact source span; omissions; claim changes; stopping point; detector role; idiolect-retention role; largest remaining weakness; and next task.
 

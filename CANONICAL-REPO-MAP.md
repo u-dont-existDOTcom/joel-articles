@@ -7,7 +7,7 @@ This file is the fast loader for ChatGPT and other workers. It does not replace 
 - Repository: `u-dont-existDOTcom/joel-articles`
 - Default branch: `main`
 - Current content posture: active governance + editorial skill/tooling home with registered article authority.
-- Article authority: `articles/INDEX.json` currently registers **Romance** and **Somatic Therapies** as working canonical articles. Follow the target article's registered current-state/master/locks/evidence read order and exact hashes; historical branches and detached packets are provenance, not competing authority.
+- Article authority: `articles/INDEX.json` currently registers **Romance**, **Somatic Therapies**, and **Inner Child Therapy** as working canonical articles. Follow the target article's registered current-state/master/locks/evidence read order and exact hashes; historical branches and detached packets are provenance, not competing authority.
 
 ## Always read for substantial work
 
@@ -31,6 +31,7 @@ routing aids; they do not establish article authority.
 ### P2S/P3/P4, detector repair, and humanization
 
 - `docs/HUMANIZATION-PRESERVATION-GATE.md` — **blocking before substantive rewritten text is detector-eligible**
+- `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` — **blocking whenever fresh-model evidence is used as pre-Pangram gate evidence; the full tell catalog remains authoritative, a fresh global tell-ledger sweep may be followed by calibrated narrow defect audits, and global Human/AI authorship judges remain retired**
 - `project-sources/PRODUCTION-HUMANIZATION-PREFLIGHT.md` — **blocking before paid Pangram calls in production humanization; diagnose and repair the whole model-shaped pattern, repeat unpaid cold AI-shape audits until no credible problem remains, then test**
 - `project-sources/HUMANIZATION-AND-COHERENCE.md`
 - `project-sources/RHYTHM-AND-THOUGHT-SHAPE.md`
@@ -41,6 +42,9 @@ routing aids; they do not establish article authority.
 - `project-sources/BANNED-PATTERNS.md`
 - the relevant current material in `u-dont-existDOTcom/pangram-humanization-lab`,
   following the fresh-read order in `SKILL.md`
+- for **generation or transfer-learning humanization**, also read `u-dont-existDOTcom/pangram-humanization-lab/state/generation/RETRIEVAL-FIRST-OWNER-TEACHING-PROTOCOL.md` and `state/generation/OWNER-ALIGNED-TRANSFORMATION-CORPUS-v1.json` before drafting. Retrieve literal aligned teaching episodes instead of reconstructing earlier owner lessons from abstract anti-pattern summaries.
+
+When Joel rewrites a paragraph while deliberately preserving essentially the same thought, treat that exact before→after pair as a durable teaching episode. Capture it immediately, along with any subsequent model output that successfully transfers the correction. Whole-article or paragraph rewrites that add/remove/reroute substantive thought are still authoritative owner cognition, but classify them as owner re-authoring rather than clean same-thought realization examples.
 
 The preservation gate changes the execution order: freeze the authoritative changed scope, enumerate protected semantic/function units and the authorized-change whitelist, draft inside that delta, then require bidirectional source↔candidate traceability with **zero unexplained substantive deltas** before any paid/certification detector call. Re-run that proof after every detector-driven semantic edit. A detector-green candidate that fails preservation is rejected.
 

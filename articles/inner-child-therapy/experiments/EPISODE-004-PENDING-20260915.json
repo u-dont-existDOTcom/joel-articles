@@ -1,0 +1,36 @@
+{
+  "episode_id": "inner-child-owner-teaching-episode-004-20260915",
+  "status": "pending-owner-judgment",
+  "source_boundary_role": "next paragraph under The Chicken-and-Egg Problem; reader-visible plaintext",
+  "source_text": "I think the missing first phase is borrowed adulthood. Before you can reliably become the inner parent, you may need to experience, imagine, imitate, and practice one adult function with help. You receive care, observe how it is given, participate in it, initiate a small part yourself, and gradually internalize it.",
+  "source_sha256_no_terminal_newline": "0c8b60c79cf096edecf37bd2ed27952997ce22aafc1b937208f3ebd06b0e0ef3",
+  "candidate_text": "I think the missing first phase is borrowed adulthood. Before you can reliably become the inner parent, you may need to borrow one adult function first. Maybe you experience it with somebody, maybe you imagine it, maybe you copy what you've seen. Then you practice some of it with help and start doing little pieces yourself. Over time, you don't have to borrow as much.",
+  "candidate_sha256_no_terminal_newline": "60392ce22a9592448c962e32c324903058f4ae14b70be76e43ef060c58022231",
+  "preservation_units": [
+    "borrowed adulthood is proposed as the missing first phase",
+    "reliable access to the inner-parent role may require an earlier supported phase",
+    "work can begin with one adult function rather than a complete adult identity",
+    "the function can first be experienced or imagined",
+    "observation/imitation contributes to learning the function",
+    "supported participation/practice precedes greater self-initiation",
+    "the person begins doing small parts themselves",
+    "repetition reduces reliance on borrowing / gradually internalizes the function"
+  ],
+  "cold_audit_1": {
+    "semantic_sanity": "PASS",
+    "fidelity": "PASS",
+    "model_shape": "PASS",
+    "stopping_point": "PASS",
+    "notes": "No explanatory aftercare or abstract synthesis was retained after the supported sequence. The final sentence states the practical consequence in ordinary language rather than naming a conceptual relationship."
+  },
+  "cold_audit_2": {
+    "reader_question_continuity": "PASS",
+    "cadence": "PASS",
+    "voice": "PASS",
+    "known_model_shaped_residual": "none identified",
+    "notes": "The paragraph answers the live question created by the preceding chicken-and-egg problem, preserves the learning sequence, and stops after internalization rather than extending into a mini-conclusion."
+  },
+  "owner_delivery_admission": "PASS",
+  "pangram_status": "not run; owner judgment first",
+  "provenance": "model-authored experimental candidate; not canonical article prose"
+}

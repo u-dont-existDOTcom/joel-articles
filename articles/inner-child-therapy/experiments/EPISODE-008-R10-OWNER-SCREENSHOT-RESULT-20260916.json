@@ -1,0 +1,47 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r10-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R10-HOT-SPARSE-OWNER-CALIBRATED-20260916.md",
+  "candidate_blob_sha": "8599806f51d2f4c209015572867149095f7bad4a",
+  "candidate_whitespace_words_repo": 1695,
+  "owner_pangram_screenshot": {
+    "ui_total_words": 1781,
+    "segments_total": 3,
+    "segments_ai": 2,
+    "segment_1": {
+      "label": "AI",
+      "confidence": "High",
+      "words": 142,
+      "visible_start": "# Before You Try to Go Deep Sometimes..."
+    },
+    "segment_2": {
+      "label": "Human Written",
+      "confidence": "High",
+      "words": 200,
+      "visible_start": "Maybe that's what happens for some p..."
+    },
+    "segment_3": {
+      "label": "AI",
+      "confidence": "High",
+      "words_inferred_from_partition": 1439,
+      "inference_note": "1781 total - 142 AI - 200 Human = 1439. This is arithmetic from displayed partition, not a separately visible segment count."
+    },
+    "displayed_word_share": {
+      "ai_words": 1581,
+      "human_words": 200,
+      "ai_fraction": 0.8877035373385738,
+      "human_fraction": 0.11229646266142616
+    }
+  },
+  "text_first_prediction_status": "NON_ISOLATED because screenshot was present in the same owner turn; audit was performed before deliberate screenshot zoom/readback but cannot be called genuinely blind",
+  "text_first_prediction": "opening likely AI; owner-fixed inner-monologue material likely Human and may blend into known-green somatic material; broad model-generated tail likely AI because hook/relationship/draft/checking sections still execute a predictable practical-guide sequence",
+  "prediction_match": "close topology match: screenshot is AI 142 -> Human 200 -> AI 1439 inferred",
+  "diagnosis": {
+    "strategy_design": "IMPROVED_BUT_INCOMPLETE",
+    "strategy_design_mechanism": "HOT/CARRY/LOCK/SCAFFOLD and the global word budget repaired R9's over-expansion, but the plan still organized nearly every protected function as an ordered semantic obligation. It targeted rhetorical allocation/sparsity more than sentence-to-sentence trajectory. It did not make the exact owner AI->Human transformation the primary generative demonstration for untouched model spans.",
+    "execution": "PARTIAL_TRANSFER_FAILURE",
+    "execution_mechanism": "The writer compressed R9 substantially and inserted the exact owner Human/high inner-monologue realization, but fresh prose reverted to efficient manual architecture: state -> instruction -> caveat -> next instruction. The owner passage was used mainly as a locked island rather than transferred as a realization lesson to the hook, relationship, unsent-draft, and checking sections.",
+    "net": "R10 materially improves detector share versus R9 (~97.56% AI) and R8 (~92.51% AI), but the improvement is concentrated in the owner-repaired/owner-shaped island while most fresh model realization remains AI/high."
+  },
+  "next_method": "Do not run another global HOT/CARRY rewrite. Treat the exact owner minimal repair as literal few-shot teaching evidence and test transfer on one still-red natural subsection at a time, preserving current Human/high material and current idea order. Use owner minimal same-thought repairs if the model still cannot transfer after a bounded subsection attempt."
+}

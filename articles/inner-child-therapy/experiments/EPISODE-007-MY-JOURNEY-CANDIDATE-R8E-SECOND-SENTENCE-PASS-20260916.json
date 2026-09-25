@@ -1,0 +1,52 @@
+{
+  "episode_id": "inner-child-my-journey-007-r8e-second-sentence-pass-20260916",
+  "status": "pending-owner-detector-judgment",
+  "supersedes_candidate": "EPISODE-007-MY-JOURNEY-CANDIDATE-R8D-SENTENCE-PASS-20260916.json",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
+  "source_reader_visible_sha256_no_terminal_newline": "eae9b5e774d5b9111330d682fa59897272fb2b3cd6b4ae3fa9e7aa0554457875",
+  "candidate_markdown_sha256_no_terminal_newline": "82813aa364ee0100b35ed332a7766d8ad9f737eefc4accf09db0e6ae58047e64",
+  "candidate_whitespace_word_count": 691,
+  "method": "Second targeted sentence-level pass executed from the frozen R8D residual fix guide. Known Human/high spans and the Human/medium three-adult-jobs tail were frozen byte-for-byte. Only the 187-word danger/no-self/therapy AI/high region and the 45-word method-origin AI/high region were rewritten, sentence by sentence, then reintegrated into the full section.",
+  "candidate_markdown": "# My Journey\n\nI used to preach [Buddhist enlightenment](http://mindset.u-dont-exist.com/) a lot. But an old childhood wound could still hit and suddenly I was the same little kid again, even when the spiritual part of me felt completely free.\n\nThe way I picture it is almost stupidly simple. Imagine you're broke and starving, and your baby is starving too. *Understandable*: there is no food. Then a food bank opens nearby and suddenly you've got lots of nutritious munchies. But you're eating all of it yourself while baby you is still starving. *Unforgivable.*\n\nNobody leaves a baby starving on purpose. I just didn't believe there was a baby. Inner-child stuff sounded silly to me until I could actually feel him. Then there was this little me actually hurting, and I could send some of the love I'd already found his way.\n\nI think most people who chase spiritual freedom are also trying to get away from something painful in themselves, and a lot of it goes back to childhood. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I did it too. It doesn't mean you're stupid or crazy.\n\nSpending your whole life processing the wounded kid isn't freedom either. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.\n\n### Don’t Give the Inner Adult Away\n\nIf you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and handing them the steering wheel can actually help for a while. But they can know things you don't and still be wrong about you.\n\nEven [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-book/) comes from a tradition where devotion to a teacher is a big deal, and she still says a teacher should “wean us from dependency altogether” and help us grow up.\n\nIf you're actually in danger, maybe you need to get out or get some help, even if meditation is helping with the pain. Calling it “your story” doesn't protect the kid from what's happening.\n\nSay you grew up learning that what you wanted didn't matter. You're only just starting to figure out what you actually think, maybe even learning to say no, and then somebody tells you there is no self—maybe freeing later, but right then it can sound like: what you want still doesn't matter. You say to a therapist, “No, that's not right for me,” and they call the disagreement resistance. What if they're wrong about you, or just taking you somewhere you don't want to go—how are you supposed to say so?\n\nBorrow adulthood. Do not surrender it.\n\nMy own case was weird. I was well-loved as a child, but from age twelve to twenty-six I was depressed and cried every night from feeling the pain of the world. [Loving-kindness (metta) meditation](http://love.u-dont-exist.com/) healed that depression almost instantly for me.\n\nI wasn't lacking love. My parents had given me a lot of it. I found more in [Buddhist teachings—which, it turns out, also include inner-child self-love!](https://substack.com/profile/355021294-u-dont-existcom/note/c-297324975) and later in [loveyhuasca](http://soma.u-dont-exist.com/). Metta gave all that love somewhere to land.\n\nBut it didn't reach everything. A lot of the child stuff around my attachment to women was still there. When I later tried [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm), it felt like I was making it up at first. I used San Pedro cactus and CBD tea with sublingual mapacho, and that cracked it open; structured sessions with an inner-child therapist deepened it.\n\nA protective part could stop me before I even reached the child, but when I did get through I could get pulled so far into being the child that I wasn't sitting with him anymore; I was him. The three adult jobs from the map don't work too well when the adult has vanished, so I started looking for a way to have an adult there before I could reliably be that adult myself.\n\nThe image below maps out the details as best as I can fit:",
+  "preservation": {
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "claim_changes": "none",
+    "notes": [
+      "All 17 frozen Episode 007 preservation units remain represented.",
+      "All required links and the Pema attribution/quote remain unchanged.",
+      "The R8D Human/high opening/Pema span remains byte-identical.",
+      "The R8D Human/high span beginning 'Borrow adulthood. Do not surrender it.' through the autobiographical treatment history remains byte-identical.",
+      "The R8D Human/medium sentence beginning 'The three adult jobs from the map...' remains byte-identical.",
+      "Danger/practical-action retains both outside protection and the limited pain-relief function of meditation while removing the prior three-sentence mini-essay.",
+      "No-self timing and therapy disagreement are now one continuous emerging-self/no thought; later possible freedom, childhood suppression, helper fallibility, method/goal mismatch, and anti-resistance functions remain.",
+      "Final method-origin repair preserves protective-parts interference and loss of adult perspective but removes the separate 'simple until I tried it' thesis and equal obstacle cadence.",
+      "No new memory, named person, symptom, chronology, spiritual claim, or therapeutic fact was added."
+    ]
+  },
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT / saturated",
+    "strongest_candidate_1": {
+      "span": "If you're actually in danger... doesn't protect the kid from what's happening.",
+      "diagnosis": "Still contains an action plus meditation qualification, but the practical action now dominates and the qualification is subordinate rather than a separate balanced mini-essay.",
+      "disposition": "preserve-with-reason"
+    },
+    "strongest_candidate_2": {
+      "span": "Say you grew up learning... how are you supposed to say so?",
+      "diagnosis": "Still carries a timing qualification and explicit therapy self-sealing logic, but no-self now flows directly into the therapy disagreement through the person's newly developing no rather than closing and restarting.",
+      "disposition": "preserve-with-reason"
+    },
+    "strongest_candidate_3": {
+      "span": "A protective part could stop me... I was him.",
+      "diagnosis": "Contains both source obstacles in one causal sequence, with loss of adult perspective given the dominant weight before handing directly into the frozen Human tail.",
+      "disposition": "preserve-with-reason"
+    },
+    "listicle_check": "PASS",
+    "first_person_preference_permission_check": "PASS",
+    "recursive_mini_essay_check": "PASS_PROVISIONAL",
+    "owner_delivery_admission": "PASS_PROVISIONAL_SAME_CONTEXT",
+    "largest_remaining_weakness": "Same-context saturation remains; if either repaired region stays AI/high, the frozen stop condition requires owner wording or a genuinely fresh context rather than another same-context rewrite.",
+    "detector_status": "not run; owner exact-boundary check next"
+  }
+}

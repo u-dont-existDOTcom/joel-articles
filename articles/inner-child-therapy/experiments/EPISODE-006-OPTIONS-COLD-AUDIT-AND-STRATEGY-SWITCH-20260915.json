@@ -1,0 +1,87 @@
+{
+  "episode_id": "inner-child-five-stage-map-boundary-006-20260915",
+  "status": "prior-three-options-cold-audit-failed-strategy-switched",
+  "owner_request": "audit the previously supplied options before testing; if they still look AI-shaped, fix the strategy",
+  "accepted_prefix": {
+    "sha256_no_terminal_newline": "7011597dd41eefb5ec292d36d7bb37f0c3f5376fe58014a1615dec5a64ab07d6",
+    "word_count_whitespace": 166,
+    "owner_result": "five checks, all Human; first explicitly reported confidence Medium",
+    "disposition": "retain byte-for-byte under the new strategy"
+  },
+  "prior_option_audits": {
+    "option_1_compact_map_callback": {
+      "verdict": "OWNER_DELIVERY_ADMISSION_FAIL",
+      "strongest_ai_shape": [
+        "opens with a five-name taxonomy before the thought moves",
+        "compresses the remaining explanation into first/middle/other-end schematic packaging",
+        "still adds a second explanatory layer after the accepted prose"
+      ],
+      "repair_implication": "do not locally polish; remove the separate taxonomy/explanation architecture"
+    },
+    "option_2_continuous_callback": {
+      "verdict": "OWNER_DELIVERY_ADMISSION_FAIL",
+      "strongest_ai_shape": [
+        "stage-by-stage textbook exposition remains explicit in nearly every sentence",
+        "developmental markers and labels produce an orderly definition ladder",
+        "provenance paragraph and quote create separate closure layers after the sequence"
+      ],
+      "repair_implication": "do not test; continuous prose still behaves like an instructional mini-essay"
+    },
+    "option_3_reallocate_progression_to_map": {
+      "verdict": "OWNER_DELIVERY_ADMISSION_FAIL",
+      "strongest_ai_shape": [
+        "five parallel numbered definitions remain strongly regular",
+        "formal setup plus complete five-step list plus quote forms a closed explanatory package",
+        "requires reopening a prefix already Human on five checks"
+      ],
+      "repair_implication": "retain the useful insight that one layer should carry the progression, but do not pay for it by rewriting the known-good prefix"
+    }
+  },
+  "failed_assumption": "Changing where or how the same full five-stage explanation is presented would be enough. All three alternatives still treat the map as another explanatory essay after the accepted prose.",
+  "new_strategy": {
+    "name": "single-layer callback map",
+    "structural_change": "keep the accepted 166-word prose unchanged and stop rewriting the map as natural expository prose. Present one compact map whose entries carry only the stage function not already explained, using callbacks for the middle stages instead of restating the prior progression.",
+    "rules": [
+      "no separate stage-name taxonomy sentence before another explanation",
+      "no first/middle/other-end synthesis paragraph",
+      "no stage-by-stage prose definition ladder",
+      "no second explanation of borrowed adulthood/apprenticeship/internalization when the accepted prefix already carries it",
+      "keep the real/remembered/imagined/symbolic distinction because it is protected source content",
+      "keep stage 1 and stage 5 concrete because they add unique functions not fully carried by the accepted prefix",
+      "integrate the exact quote into stage 5 instead of adding a separate polished epilogue",
+      "state research provenance once, plainly"
+    ]
+  },
+  "final_candidate_map": {
+    "text": "I made a five-stage map for myself from all of this. Some of the pieces have direct research behind them; the way I've put them into five stages is my own and still provisional.\n\n1. Child alone — get oriented to the present and make things around you safe enough to begin.\n2. Borrowed adult — that's the part we were just talking about. The adult may be someone who's actually there, somebody you remember or imagine, or a symbolic figure.\n3. Adult apprentice — do one part of the caring yourself while the support is still there.\n4. Inner adult — keep practicing warmth, protection, and direction until they're easier to call up when you need them.\n5. Adult and child in relationship — the adult leads without pushing the child away, and the child doesn't have to run the whole life alone. “I am still this child, and I am also becoming the adult who stays.”",
+    "sha256_no_terminal_newline": "aa0ef9f2f17153e592dc825db5f10f924d93461757262f3ece2c2f8fa30498cb",
+    "word_count_whitespace": 158,
+    "combined_with_accepted_prefix_sha256_no_terminal_newline": "9e77182b0ea8ee7861f02e9434f92d2d447ae7f61c62c7c15113f2b0761c95b1",
+    "combined_word_count_whitespace": 324
+  },
+  "final_candidate_cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT",
+    "objection_1": {
+      "span": "five numbered entries",
+      "risk": "the map remains visibly structured and therefore can still carry detector risk",
+      "best_faithful_repair": "do not disguise a real map as prose; minimize explanatory duplication instead. The structure is now functionally necessary rather than a second mini-essay.",
+      "applied": true
+    },
+    "objection_2": {
+      "span": "Some of the pieces have direct research behind them; the way I've put them into five stages is my own and still provisional.",
+      "risk": "provenance sentence retains a mildly formal register",
+      "best_faithful_repair": "keep it to one plain sentence and avoid methodological aftercare; further compression risks losing the research-versus-own-synthesis distinction",
+      "applied": true
+    },
+    "objection_3": {
+      "span": "stage 5 plus exact quotation",
+      "risk": "the quote can still feel like a polished close",
+      "best_faithful_repair": "embed it inside stage 5 so it performs the anti-exile/simultaneous-identity function instead of serving as a separate epilogue",
+      "applied": true
+    },
+    "recursive_mini_essay_check": "PASS under the new architecture: the accepted prose remains the explanation; the map is a compact reference object rather than a second explanation",
+    "owner_delivery_admission": "PASS_PROVISIONAL_SAME_CONTEXT",
+    "largest_remaining_weakness": "numbered stage structure itself remains detector-visible, but removing it would sacrifice the map function rather than repair duplicated prose"
+  },
+  "detector_status": "not run; this candidate replaces the three unaudited alternatives as the next owner-test candidate"
+}

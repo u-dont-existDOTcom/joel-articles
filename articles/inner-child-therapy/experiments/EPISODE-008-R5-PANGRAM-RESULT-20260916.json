@@ -1,0 +1,56 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r5-result-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_path": "articles/inner-child-therapy/experiments/EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R5-PREPANGRAM-20260916.md",
+  "reader_text_sha256": "3ab5e83faa20e8d1d2cc873572146f30c74b3752669f7b7c4ee584bf40d2c308",
+  "reader_text_whitespace_words": 1576,
+  "detector": "Pangram 4.0",
+  "transport": "local Playwright GUI / exact stored History binding",
+  "captured_at_utc": "2026-09-16T18:32:18.016653Z",
+  "overall": {
+    "headline": "AI Detected",
+    "prediction_short": "AI",
+    "fraction_ai": 0.9421896934509277,
+    "fraction_ai_assisted": 0.0,
+    "fraction_human": 0.05781031399965286,
+    "prediction_probability": 0.9378191828727722
+  },
+  "segments": [
+    {
+      "label": "AI-Generated",
+      "confidence": "High",
+      "ui_words": 306,
+      "start_index": 0,
+      "end_index": 1644,
+      "ai_likelihood": 0.9348820447921753,
+      "visible_start": "# Before You Try to Go Deep"
+    },
+    {
+      "label": "Human",
+      "confidence": "High",
+      "ui_words": 89,
+      "start_index": 1644,
+      "end_index": 2181,
+      "ai_likelihood": 0.3854326903820038,
+      "visible_start": "If your solar plexus, abdomen, or somewhere else feels clenched"
+    },
+    {
+      "label": "AI-Generated",
+      "confidence": "High",
+      "ui_words": 1262,
+      "start_index": 2181,
+      "end_index": 9289,
+      "ai_likelihood": 0.9802305698394775,
+      "visible_start": "Order matters. If the body is still freaking out, conversation can wait."
+    }
+  ],
+  "comparison": {
+    "r3_fraction_ai": 0.9364346861839294,
+    "r4_fraction_ai": 1.0,
+    "r5_fraction_ai": 0.9421896934509277,
+    "interpretation": "R5 restored the R3-style three-window shape after R4's regression but did not materially improve the owner outcome. The same exact 89-word somatic island remains Human/high while nearly all model-realized prose remains AI/high."
+  },
+  "production_disposition": "REJECT_R5_AND_STOP_SAME_CONTEXT_MODEL_ONLY_GENERATION",
+  "strategy_threshold": "Reached. Broad whole-section repair (R3), sentence/thought consolidation (R4), and materially different direct-reader/register architecture (R5) all failed to produce meaningful Pangram progress. Do not spend another production detector call on another same-context paraphrase.",
+  "next_required_evidence": "Fresh owner cognition/natural owner realization for the red boundary, or a genuinely fresh independent writer context that can be preservation-gated before using any remaining detector slot."
+}

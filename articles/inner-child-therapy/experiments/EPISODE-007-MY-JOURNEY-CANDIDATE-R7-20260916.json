@@ -1,0 +1,54 @@
+{
+  "episode_id": "inner-child-my-journey-007-r7-20260916",
+  "status": "pending-owner-detector-judgment",
+  "supersedes_candidate": "EPISODE-007-MY-JOURNEY-CANDIDATE-R6-20260916.json",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy article family remains unregistered",
+  "source_reader_visible_sha256_no_terminal_newline": "eae9b5e774d5b9111330d682fa59897272fb2b3cd6b4ae3fa9e7aa0554457875",
+  "candidate_markdown_sha256_no_terminal_newline": "a7bc8b51370d707789c0e6536d0436f4221c4ed169e05d743c8c755ba57bbfbe",
+  "candidate_whitespace_word_count": 800,
+  "method_switch": "R7 does not paraphrase R6 locally. It separates the personal opening from the broad spiritual-bypassing theory, moves the theory until after the food-bank/inner-child realization, removes explanatory aftercare, and states helper/no-self/therapy criteria directly rather than through first-person preference/permission wrappers.",
+  "owner_register_correction": "See EPISODE-007-OWNER-CORRECTION-PREFERENCE-PERMISSION-REGISTER-20260916.json. Advice/general-criterion prose must not be staged as 'I want ...', 'I get to ...', 'I don't get to ...', or similar author-preference/permission language unless Joel's personal preference itself is actually the subject.",
+  "candidate_markdown": "# My Journey\n\nI used to preach [Buddhist enlightenment](http://mindset.u-dont-exist.com/) a lot. Eventually I realized you can feel spiritually free and still feel like the same little kid underneath when an old wound gets touched. The old childhood stuff can keep running your life even while the spiritual part feels free.\n\nThe way I picture it is almost stupidly simple. Imagine you're broke and starving, and your baby is starving too. *Understandable*: there is no food. Then a food bank opens nearby and suddenly you've got lots of nutritious munchies. But you're eating all of it yourself while baby you is still starving. *Unforgivable.*\n\nNobody leaves a baby starving on purpose. The problem was that I didn't believe there was a baby. Until a few years ago, inner-child stuff sounded pretty silly to me. Then I could feel him directly. Reparenting stopped sounding silly because there was actually someone there to take care of, and I could give him some of the love I'd found instead of trying to get above the pain.\n\nI came to think most people who chase spiritual freedom are also trying to get above childhood pain, or get away from some part of themselves they don't want to meet. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I don't think people bypass because they're stupid or crazy. I did it too.\n\nTherapy can also become endless processing of the hurt kid. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.\n\n### Don’t Give the Inner Adult Away\n\nIf you still feel like a kid inside, someone who seems genuinely grown-up can feel like salvation. You feel small, they seem to know how life works, and some part of you says: okay, you drive. Sometimes that really does help. Borrowed adulthood is letting somebody help with one grown-up thing while you learn it too. They're not supposed to keep the job.\n\nA helper can teach you something real and still be wrong about you. Even [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-book/) comes from a tradition where devotion to a teacher is a big deal, and she still says a teacher should “wean us from dependency altogether” and help us grow up.\n\nIf your actual life is unsafe, spiritual practice doesn't make it safe. Meditation might change the pain, but sometimes the grown-up thing is still to get out or get practical help. Calling real danger merely “your story” leaves the kid alone with it.\n\nNo-self teachings can hit like a trap if you grew up learning that what you wanted didn't matter. You're finally trying to work out what you actually think, maybe just learning that you can say no, and then somebody tells you there is no you. Maybe that becomes freeing later. At first it can just be another way to disappear. You may need enough of a self to stand somewhere before you start loosening it.\n\nTherapy can pull the same move if every disagreement gets called “resistance.” Maybe the helper is wrong about you. Or maybe the method is heading somewhere you don't want to go. A good helper has to be able to consider that. Otherwise whatever you say gets folded back into the same theory. Borrow adulthood. Do not surrender it.\n\nMy own case was weird. I was well-loved as a child, but from age twelve to twenty-six I was depressed and cried every night from feeling the pain of the world. [Loving-kindness (metta) meditation](http://love.u-dont-exist.com/) healed that depression almost instantly for me.\n\nI wasn't lacking love. My parents had given me a lot of it. I found more in [Buddhist teachings—which, it turns out, also include inner-child self-love!](https://substack.com/profile/355021294-u-dont-existcom/note/c-297324975) and later in [loveyhuasca](http://soma.u-dont-exist.com/). Metta gave all that love somewhere to land.\n\nBut it didn't reach everything. A lot of the child stuff around my attachment to women was still there. When I later tried [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm), it felt like I was making it up at first. I used San Pedro cactus and CBD tea with sublingual mapacho, and that cracked it open; structured sessions with an inner-child therapist deepened it.\n\n“Find the wounded child and love them” sounded simple until I tried it. A protective part could get in the way before I reached the child. And if I got pulled all the way into being the child, there was no grown-up me left to do those three adult jobs from the map. Borrowed adulthood came from those times when there wasn't an adult there.\n\nThe image below maps out the details as best as I can fit:",
+  "preservation": {
+    "forward_traceability": "PASS",
+    "reverse_traceability": "PASS",
+    "unexplained_substantive_deltas": 0,
+    "claim_changes": "none",
+    "notes": [
+      "All 17 frozen Episode 007 preservation units remain represented.",
+      "The broad spiritual-bypassing claim, label, seekers/gurus point, and Dalai Lama link are moved later within the same section; movement is authorized by the source freeze.",
+      "The child-as-real / reparenting / escape-above-pain distinction remains explicit after the food-bank analogy.",
+      "The helper-return function and protected line 'Borrow adulthood. Do not surrender it.' remain.",
+      "The no-self timing claim, real-danger/practical-action claim, disagreement/resistance claim, complete autobiographical chronology, treatment history, and method-origin functions remain."
+    ]
+  },
+  "cold_audit": {
+    "context_status": "PROVISIONAL SAME-CONTEXT AUDIT / saturated and detector-history-contaminated",
+    "strongest_candidate_1": {
+      "span": "first three sentences under My Journey",
+      "diagnosis": "the second and third sentences both describe the split between spiritual freedom and the child-state, so there is some repetition risk",
+      "disposition": "preserve-with-reason",
+      "reason": "the second sentence states the felt contradiction; the third adds the consequential fact that old childhood material can still run behavior. The broad theory and terminology have been removed from this opening, so it no longer forms the R6 mini-essay."
+    },
+    "strongest_candidate_2": {
+      "span": "Therapy can also become endless processing... through kept looking for something deeper.",
+      "diagnosis": "still contains a therapy/spirituality contrast and a brief reader caveat, so it could become a balanced explainer paragraph",
+      "disposition": "preserve-with-reason",
+      "reason": "the contrast, non-universality, and Joel's radical insufficiency judgment are distinct source functions; the paragraph now states them directly and stops without a conceptual synthesis."
+    },
+    "strongest_candidate_3": {
+      "span": "No-self teachings can hit like a trap... before you start loosening it.",
+      "diagnosis": "the timing argument necessarily moves from suppressed selfhood to later possible freedom and could read like a complete explanatory mini-essay",
+      "disposition": "preserve-with-reason",
+      "reason": "the timing relation is the source claim itself. It is now grounded in trying to work out what you think and learning that you can say no, with no taxonomy or academic terminology added."
+    },
+    "listicle_check": "PASS",
+    "first_person_preference_permission_check": "PASS — no 'I want', 'I get to', 'I don't get to', or 'I need' wrapper is used to justify a general criterion.",
+    "register_check": "PASS_PROVISIONAL — child-state-facing ordinary language dominates.",
+    "recursive_mini_essay_check": "PASS_PROVISIONAL after moving the broad theory out of the opening and stripping several criterion/aftercare sentences.",
+    "owner_delivery_admission": "PASS_PROVISIONAL_SAME_CONTEXT",
+    "fresh_owner_input_needed": "none for the currently identified realization defects; if R7 still fails materially, stop model-only paraphrase and request owner language for the failing boundary.",
+    "largest_remaining_weakness": "same-context saturation; R7 is the promised structurally different attempt and should not trigger an R8-style local paraphrase loop if it fails."
+  },
+  "detector_status": "not run; owner judgment/test next"
+}

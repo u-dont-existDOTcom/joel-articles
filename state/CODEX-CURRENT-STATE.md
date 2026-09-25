@@ -1,6 +1,19 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-08-24
+Updated: 2026-09-21
+
+## 2026-09-21 controlling Inner Child lineage correction
+
+This section supersedes the 2026-09-20 interpretation that broad raw-source/humanized-assembly divergence represented a new Substack rewrite.
+
+- Inner Child Therapy remains a registered **working** article.
+- Raw Substack master: 150,330 bytes, SHA-256 `372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd`.
+- `HUMANIZED-ARTICLE-SO-FAR.md` is the active unsynced humanization assembly for worked prose; it is not merely historical because its wording is absent from raw Substack.
+- Joel clarified that the latest Substack revision contained only **five targeted edits**.
+- Only two of those touch the already-humanized frontier: protective-intent qualification after the central reparenting premise, and a new dangerous-present-adult safety H2 after the accepted readiness paragraph.
+- The identity-development gate, vow gate, and harmful-spiritual-authority exclusion are later-source obligations for sections not yet humanized.
+- `Write It. Don't Send It Yet.` and the active checking-section work are unaffected by the five source edits. Joel's owner-final Write-It P1 remains current humanization authority; raw-source absence is expected unsynced-branch state, not a placement conflict.
+- Future source-change analysis must use raw-source-to-prior-raw-source (or direct owner delta authority) before projecting deltas onto an unsynced transformation branch.
 
 ## Goal
 

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "status": "pending",
+  "checks": [
+    {
+      "id": "exact-working-master-identity",
+      "status": "passed",
+      "evidence": "Exact owner-supplied 2026-09-20 raw editor body materialized and independently hash-verified at 150330 bytes / SHA-256 372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd."
+    },
+    {
+      "id": "native-object-inventory",
+      "status": "passed",
+      "evidence": "SOURCE-STRUCTURE-INVENTORY-20260920.json records current heading counts and ten high-value editor/native containers in source order."
+    },
+    {
+      "id": "citation-review",
+      "status": "pending",
+      "evidence": "No claim-by-claim citation/health review is asserted by registration."
+    },
+    {
+      "id": "source-lineage-baseline",
+      "status": "passed",
+      "evidence": "Owner correction 2026-09-21 establishes that raw Substack and HUMANIZED-ARTICLE-SO-FAR.md are intentionally unsynced lineages; whole-document raw-vs-humanized differences are not source-edit evidence."
+    },
+    {
+      "id": "five-targeted-edit-impact",
+      "status": "passed",
+      "evidence": "Only two current-frontier impacts are identified: incorporate the protective-intent qualification after the humanized central reparenting premise, and add/humanize the new dangerous-present-adult H2 after the existing readiness paragraph. Edits 3-5 are outside the humanized frontier."
+    },
+    {
+      "id": "owner-write-it-p1-authority",
+      "status": "passed",
+      "evidence": "Direct owner-final Write-It P1 remains current humanization authority. Its absence from raw Substack is expected unsynced-branch state, not a placement conflict; none of the five source edits touches that subsection."
+    }
+  ],
+  "meaning_fidelity": "Keep raw-source authority and active humanization authority distinct. Preserve accepted humanized prose unless an actual raw-source delta changes its function; incorporate only the five owner-identified source edits.",
+  "detector_role": "Historical detector results remain valid only for their exact humanized boundaries. The five targeted source edits do not invalidate unaffected tested prose. New/changed safety material requires its own normal humanization and detector gates when worked.",
+  "owner_final_boundary": "No whole-article owner-final claim. Direct owner-final passages in the active humanization assembly remain current even when absent from unsynced Substack source.",
+  "largest_remaining_editorial_weakness": "The new dangerous-present-adult safety material has not yet been humanized, and the central protective-intent qualification still needs to be incorporated into the accepted Chicken-and-Egg realization."
+}

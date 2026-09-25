@@ -4,11 +4,15 @@ This is the repository-wide visual index of registered articles, explicit interl
 
 <!-- article-id: romance -->
 <!-- article-id: somatic-therapies -->
+<!-- article-id: inner-child-therapy -->
 
 ```mermaid
 flowchart LR
     romance["Romance — working canonical authority"]
     somatic["Somatic Therapies — working canonical authority"]
+    innerchild["Inner Child Therapy — working canonical authority"]
 ```
 
 Romance and Somatic Therapies are registered working articles. No direct cross-article edge between them is currently established. Add relationship edges only when a real and useful editorial relationship is confirmed; do not infer one from generic topic overlap.
+
+Inner Child Therapy is registered as a working source authority. Its current raw Substack master is under active reconciliation with earlier humanization decisions; no cross-article edge is established merely from topic overlap.

@@ -1,0 +1,36 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r2-prepangram-20260916",
+  "status": "PAID_DETECTOR_COMPLETED_RESULT_NOT_DURABLY_RECOVERED_YET",
+  "candidate_markdown_sha256": "0fc5cbd6c98d53d65d737b14a0113161a692a09e6840074640ca5a15af77a11a",
+  "pangram_text_sha256": "95a394e75134ae5be4081ce04fcfa180014e7cbe610dd9e27086fa7cb880560a",
+  "paid_executor_run": {
+    "run_id": 35122566722,
+    "job_id": 104883689677,
+    "conclusion": "failure_after_detector_completion",
+    "pangram_task_id": "d7c556d5-f1ac-40ee-b6c6-3dc0c0d696a4",
+    "detector_terminal_status": "STAGE_SUCCESS",
+    "paid_submission_created": true,
+    "cache_before_submission": "no cached equivalent",
+    "local_result_commit_created": true,
+    "durable_push_succeeded": false,
+    "push_failure": "ssh: connect to host github.com port 22: Connection timed out",
+    "important_interpretation": "The Pangram measurement completed and must NOT be resubmitted. The result label/fractions were not printed in the private-executor log, and the public cache remains at its earlier pending checkpoint because the local result commit could not be pushed."
+  },
+  "public_cache_checkpoint": {
+    "path": "cache/pangram-4/4.0/95a394e75134ae5be4081ce04fcfa180014e7cbe610dd9e27086fa7cb880560a/inner-child-episode008-r2-20260916-a_R2.json",
+    "durable_status": "pending",
+    "task_id": "d7c556d5-f1ac-40ee-b6c6-3dc0c0d696a4",
+    "note": "This durable pending status is stale relative to the executor log, which proves STAGE_SUCCESS and a locally committed result before GitHub push failure."
+  },
+  "read_only_recovery": {
+    "request_path": "u-dont-existDOTcom/pangram-private-executor:recovery-requests/inner-child-episode008-r2-recovery-20260916-a.json",
+    "request_commit": "2d9687ef28ca1b1c2d218f7f697005d7b02813bf",
+    "workflow_run_id": 35123443738,
+    "job_id": 104886613604,
+    "last_observed_status": "queued",
+    "steps_observed": null,
+    "evidence_branch": "evidence/pangram-history-recovery/inner-child-episode008-r2-20260916-a",
+    "paid": false
+  },
+  "next_action": "On the next owner turn, recover workflow run 35123443738 first. Do not submit R2 again. Once the exact History-bound result is durable, decide whether another audit-repair-detector loop is justified by the observed residuals and amount of progress."
+}

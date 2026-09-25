@@ -1,0 +1,41 @@
+{
+  "episode_id": "inner-child-episode008-phase-b-candidate-f-gui-20260918",
+  "date": "2026-09-18",
+  "status": "DIRECT-CHAT-PANGRAM-GUI / COMPLETE / MIXED / START-END-AI",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate": {
+    "path": "articles/inner-child-therapy/experiments/EPISODE-008-PHASE-B-LOCALIZED-CANDIDATE-F-20260918.md",
+    "reader_visible_sha256": "a9459086a9bd52cfd521edaa097e45c6b13ae0256d9f8f6e232c6137df5e8b42",
+    "runner_word_count": 266,
+    "pangram_ui_words_scanned": 284
+  },
+  "transport": {
+    "route": "Remote Desktop Commander -> Joel HP ProBook -> local Playwright Pangram GUI",
+    "headed": false,
+    "profile": "dedicated persistent pangram-local profile",
+    "api_used": false,
+    "detector_version": "4.0",
+    "stage": "STAGE_SUCCESS",
+    "captured_at_utc": "2026-09-18T17:46:25.866498Z",
+    "exact_history_binding": "PASS"
+  },
+  "result": {
+    "headline": "AI Detected",
+    "prediction_short": "Mixed",
+    "fraction_ai": 0.5329530835,
+    "fraction_ai_assisted": 0.0,
+    "fraction_human": 0.4670468867,
+    "record_prediction_probability": 0.5562835335731506,
+    "report_body_summary": "AI-generated content appears at the start and end"
+  },
+  "localization": {
+    "structured_localizer": "failed read-only at bind_exact_history_record after completion; no repeat detector submission",
+    "usable_direction": "start and end remain AI; middle remains Human"
+  },
+  "comparison": {
+    "candidate_e_owner_screenshot": "2 of 3 segments AI; 113 AI/high + 110 Human/high + 74 AI/high",
+    "candidate_f": "53.30% AI / 46.70% Human overall; start and end AI",
+    "interpretation": "Candidate F is still a failure endpoint, but the overall AI fraction moved downward enough to justify continuing the same two-red-region convergence loop rather than changing architecture again."
+  },
+  "repeat_policy": "Do not repeat Candidate F; exact result is durably bound."
+}

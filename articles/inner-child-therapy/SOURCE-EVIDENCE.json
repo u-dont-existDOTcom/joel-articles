@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-child-therapy",
+  "claims": [
+    {
+      "id": "working-master-owner-source-20260920",
+      "claim": "The registered working master is the exact raw Substack/ProseMirror editor body Joel supplied on 2026-09-20 after updating the guide with map additions and other edits.",
+      "support": {
+        "path": "articles/inner-child-therapy/master.html",
+        "sha256": "372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd",
+        "bytes": 150330,
+        "source_surface": "raw_substack_editor_body_html",
+        "structure_inventory": "articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260920.json"
+      },
+      "access_status": "complete",
+      "certainty": "direct owner-supplied exact source identity"
+    },
+    {
+      "id": "historical-source-baseline-20260915",
+      "claim": "The earlier 2026-09-15 raw editor source remains exact historical baseline evidence and is superseded as the current source snapshot.",
+      "support": {
+        "receipt": "articles/inner-child-therapy/SOURCE-IMPORT-RECEIPT-20260915.md",
+        "inventory": "articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260915.json",
+        "sha256": "5915bc972083109ce3c8ee32628212c67fb171fc8a27a363d2e724924e044ac1",
+        "bytes": 153734
+      },
+      "access_status": "complete",
+      "certainty": "exact historical source identity"
+    },
+    {
+      "id": "humanization-source-divergence-20260920",
+      "claim": "The raw Substack source and active humanization assembly differ across most worked blocks because they are intentionally unsynced lineages. The earlier 1/39 exact-overlap result is not evidence that Joel newly overwrote 38 humanized blocks.",
+      "support": {
+        "path": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md"
+      },
+      "access_status": "complete",
+      "certainty": "owner-corrected interpretation of deterministic cross-lineage comparison"
+    },
+    {
+      "id": "owner-write-it-p1-unsynced",
+      "claim": "Joel's direct 2026-09-20 owner-final Write-It P1 is absent from the raw Substack master because the humanization branch has not yet been synced to Substack. The five targeted source edits do not touch that subsection, so absence from the raw source is not a placement conflict or supersession.",
+      "support": {
+        "owner_text_sha256": "fb580ff880c246d60267e449f711a3486d784967d08782181d7607bbc02d5392",
+        "promotion_evidence": "articles/inner-child-therapy/experiments/WRITE-IT-P1-PROMOTION-RECEIPT-20260920.json",
+        "reconciliation": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md"
+      },
+      "access_status": "complete",
+      "certainty": "direct owner clarification plus exact branch provenance"
+    },
+    {
+      "id": "five-targeted-source-edits-20260921",
+      "claim": "Joel clarified that the latest Substack revision was limited to five targeted edits: central protective-intent qualification; dangerous-present-adult safety section; identity-development harm gate; vow harm gate; and harmful spiritual-authority exclusion.",
+      "support": {
+        "reconciliation": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md",
+        "raw_master": "articles/inner-child-therapy/master.html"
+      },
+      "access_status": "complete",
+      "certainty": "direct owner correction"
+    }
+  ],
+  "source_files": [
+    {
+      "role": "current_working_master",
+      "path": "articles/inner-child-therapy/master.html",
+      "sha256": "372a43cb69b3f736ae2df4bcce1a627aa5a0318ec4ecf55ee7a2b4edafbf13bd"
+    },
+    {
+      "role": "current_source_structure_inventory",
+      "path": "articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260920.json"
+    },
+    {
+      "role": "source_humanization_reconciliation",
+      "path": "articles/inner-child-therapy/SOURCE-UPDATE-HUMANIZATION-RECONCILIATION-20260920.md"
+    },
+    {
+      "role": "historical_source_import_receipt",
+      "path": "articles/inner-child-therapy/SOURCE-IMPORT-RECEIPT-20260915.md"
+    },
+    {
+      "role": "historical_source_structure_inventory",
+      "path": "articles/inner-child-therapy/SOURCE-STRUCTURE-INVENTORY-20260915.json"
+    }
+  ],
+  "external_claim_review": {
+    "status": "pending",
+    "note": "Initial registration establishes exact working content authority and provenance. It does not verify medical, psychological, spiritual, historical, or other external factual claims."
+  }
+}

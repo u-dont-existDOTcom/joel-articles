@@ -1,0 +1,41 @@
+{
+  "episode_id": "inner-child-before-you-try-to-go-deep-008-r2-owner-result-20260916",
+  "authority_boundary": "non-authoritative humanization experiment; Inner Child Therapy remains unregistered",
+  "candidate_record": "EPISODE-008-BEFORE-YOU-TRY-TO-GO-DEEP-R2-PREPANGRAM-20260916.json",
+  "pangram_reader_text_sha256": "95a394e75134ae5be4081ce04fcfa180014e7cbe610dd9e27086fa7cb880560a",
+  "owner_report": {
+    "overall": "AI / high confidence",
+    "owner_clarification": "last turn it was 100% ai high conf",
+    "screenshot_segments": [
+      {
+        "label": "AI",
+        "confidence": "High",
+        "ui_words": 277,
+        "visible_start": "# Before You Try to Go Deep If you're s..."
+      },
+      {
+        "label": "HUMAN WRITTEN",
+        "confidence": "High",
+        "ui_words": 89,
+        "visible_start": "If your solar plexus, abdomen, or some..."
+      },
+      {
+        "label": "AI",
+        "confidence": "High",
+        "ui_words": 1284,
+        "visible_start": "The roadmap below puts these in sequ..."
+      }
+    ],
+    "ui_total_words": 1650,
+    "displayed_segment_word_share_human": 0.0539393939,
+    "displayed_segment_word_share_ai": 0.9460606061
+  },
+  "blind_prediction_record": "EPISODE-008-R2-BLIND-PREDICTION-BEFORE-SCREENSHOT-20260916.md",
+  "blind_prediction_assessment": "Strong match: predicted two large AI/high spans separated by a short Human/high island centered on owner-specific somatic regulation; predicted the long second AI span would begin around the roadmap sequencing sentence.",
+  "production_disposition": "REJECT_R2_AND_REPAIR",
+  "notes": [
+    "Owner screenshot resolves the prior result-recovery ambiguity for editorial iteration; do not resubmit exact R2 bytes.",
+    "The Human/high 89-word island should be frozen for detector reasons unless a separate editorial defect is identified.",
+    "The dominant remaining defect is section-scale recursive guide-card / therapist-explainer architecture, not isolated vocabulary."
+  ]
+}

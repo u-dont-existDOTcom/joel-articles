@@ -71,9 +71,13 @@ Ask:
 
 If you can still name a substantive AI-shape problem you genuinely believe, revise again **without spending Pangram**. Re-run preservation/architecture checks as required after substantive edits.
 
-Continue until the answer is effectively: **no, not at all**—not because the prose has been made quirky, but because there is no remaining model-shape diagnosis you actually endorse.
+Do not let preservation success clear a style/shape objection. A required claim/function may force the cognition to remain while leaving its current realization fully editable. Likewise, do not clear several `mixed` findings one-by-one without checking whether they aggregate into one definite paragraph/section pattern.
+
+Continue until the answer is effectively: **no, not at all**—not because the prose has been made quirky, but because there is no remaining model-shape diagnosis you actually endorse **after cumulative-pattern, reader-model, why-now, and antecedent checks**.
 
 ## 5. Paid-call surprise gate
+
+When fresh-model audit evidence is part of the unpaid pre-Pangram review, `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` is blocking. Freshness alone is not competence, and a global Human/AI verdict is not admission evidence.
 
 Immediately before a production Pangram call ask:
 
@@ -86,9 +90,33 @@ The candidate is detector-ready only after:
 - preservation proof passes with zero unexplained substantive deltas;
 - architecture/coherence gates pass;
 - the AI-shape sweep has been exhausted editorially;
+- fresh-model evidence, when used, may include a **full tell-ledger sweep** plus narrow observable defect audits, but never a global Human/AI authorship verdict;
+- the full tell-ledger sweep, when used, returns every tell exactly once as PRESENT / ABSENT / UNCERTAIN; all PRESENT/UNCERTAIN rows are resolved before admission;
+- for high-rigor fresh global sweeps, prefer an authenticated provider-native Claude CLI when it can provide the required Opus model/effort/output/isolation; otherwise use the authorized OpenRouter fallback. Do not transfer reasoning-effort calibration across surfaces: current OpenRouter-only evidence supports xhigh as the API fallback default and max for decision-changing unresolved/disputed tells; Claude CLI effort requires separate CLI-route calibration;
+- every narrow model axis whose result affects admission has a current positive/negative calibration for that exact defect; malformed excerpt controls and hidden-authorship labels do not count;
+- all applicable calibrated axes have no unresolved FAIL, and uncalibrated-axis model output is advisory only;
+- scaffold/content-neutralization analysis, when used, is treated as a diagnostic probe rather than an authorship veto;
+- no unresolved or cumulatively blocking `mixed` AI-shape finding remains after the direct editorial read;
+- reader model, why-now, antecedent/referent, and any implicated cadence/overclosure checks pass independently of preservation;
 - the exact boundary/hash/call-ledger safety checks pass.
 
 A failed Pangram call can still reveal new context/boundary behavior. When that happens, diagnose the whole resulting boundary again rather than automatically toggling the highlighted sentence.
+
+### 5a. Separate editorial context from detector certification boundary
+
+The unpaid review boundary and the paid detector boundary serve different jobs.
+
+- **Editorial/fresh-reader audit:** use enough surrounding natural context to judge why-now, audience, transitions, antecedents, and section fit.
+- **First Pangram certification of a changed model-written unit:** submit the smallest complete changed reader-visible unit that can stand on its own (for example, the revised paragraph, H2, or section).
+- **Natural-boundary Pangram:** run later only when context interaction or integrated publication behavior is itself decision-relevant.
+
+Do not use a context-rich natural boundary as a substitute for the changed-unit measurement. In particular, if any neighboring prose is already known-bad, unresolved, or detector-red, exclude it from the first certification call for the changed unit. Otherwise a whole-boundary failure cannot tell whether the changed unit failed or the neighbor contaminated the score.
+
+Execution order for a technically meaningful changed section is therefore:
+
+**changed unit alone → interpret exact result → natural boundary only if still useful for integration/context**.
+
+If a larger boundary was mistakenly tested first and contains known-bad neighboring prose, preserve that result as boundary-level evidence but do not treat it as evidence that the changed unit itself failed. The corrective next call is the changed unit alone, not another rewrite.
 
 ## 6. Controlled experiments belong to detector-research mode
 
@@ -133,6 +161,17 @@ Natural boundary: <section / transition>
 Preservation proof: PASS / FAIL
 Architecture/coherence: PASS / FAIL
 AI-shape sweep: <all credible issues considered>
+Cumulative mixed-pattern aggregation: NONE / <blocking pattern>
+Scaffold diagnostic: <suspected topology + Human-counterexample/discrimination check> / NONE
+Human-facing relation check: <literal/source-grounded relation> / SURFACE-ONLY / NONE
+Global tell sweep: <model + reasoning effort + exact boundary + complete ledger> / NOT USED / INVALID
+Global unresolved tells: NONE / <PRESENT or UNCERTAIN tell IDs>
+Fresh-audit bundle: <applicable narrow axes + exact boundary> / INVALID
+Axis calibration: <axis=control result, e.g. cadence 4/4; antecedent 4/4> / NOT CURRENT
+Axis results: <reader-purpose / antecedent / cadence / other implicated axes>
+Primary reader here: <who>
+Why now: <what preceding thought creates this section>
+Antecedent/referent check: PASS / FAIL
 Remaining model-shape issue I actually believe: none / <exact issue>
 Would an AI result genuinely surprise me?: yes / no
 Exact text SHA-256: <sha>
