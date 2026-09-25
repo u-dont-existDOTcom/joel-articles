@@ -1,7 +1,13 @@
 {
  "schema_version": 1,
  "promotion_id": "inner-child-dangerous-adult-h2-20260925",
- "status": "PROMOTED_TO_ACTIVE_HUMANIZATION_ASSEMBLY_PENDING_FINAL_OWNER_PANGRAM",
+ "status": "PROMOTED_TO_ACTIVE_HUMANIZATION_ASSEMBLY",
+ "final_h2_pangram": {
+  "tested_body_sha256": "4586d6b84934e49595fedaf8291604c35c67561a587e67fa9f1c6551d6ac8b58",
+  "result": "Human, high confidence (owner-reported 2026-09-25 14:22 UTC)",
+  "pair_results": {"P2 alone": "Human, low confidence", "P1 + P2": "AI, medium confidence (pair SHA 0237870b6ac04801e5a278cc92bb6585031c48529f48c05a82d7aafa8e36bb97)", "P2 + P3": "Human, medium confidence (pair SHA 2a9733bbd28e7e8e1c7ccd3dd580db05128d852e368b7c94bd455d1baadd3705)"},
+  "note": "owner: the P1+P2 pair doesn't matter for his purposes; an optional fix (P2 r6) is recorded in the record file"
+ },
  "article_id": "inner-child-therapy",
  "heading": "When the Present-Day Adult Is Dangerous to the Child",
  "writer_branch": "handoff/claude-dangerous-adult-20260924-1631",

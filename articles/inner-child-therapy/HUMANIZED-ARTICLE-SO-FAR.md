@@ -64,7 +64,7 @@ The image below maps out the details as best as I can fit:
 
 How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later. You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child.
 
-<!-- Dangerous-adult H2 installed 2026-09-25 from writer branch `handoff/claude-dangerous-adult-20260924-1631`. P1–P7 are each owner-accepted with owner-reported Pangram passes. The full H2 tested Human/high confidence before P2 r5 (owner-requested fix, accepted 2026-09-25 03:28 UTC); the text below still awaits the owner's Pangram re-run. Receipt: `experiments/DANGEROUS-ADULT-H2-PROMOTION-RECEIPT-20260925.json`. -->
+<!-- Dangerous-adult H2 installed 2026-09-25 from writer branch `handoff/claude-dangerous-adult-20260924-1631`. P1–P7 are each owner-accepted with owner-reported Pangram passes. The final text below tested Human/high confidence as a whole (owner-reported 2026-09-25 14:22 UTC); the P1+P2 pair alone tested AI/medium, and an optional fix is recorded. Receipt: `experiments/DANGEROUS-ADULT-H2-PROMOTION-RECEIPT-20260925.json`. -->
 
 ## When the Present-Day Adult Is Dangerous to the Child
 

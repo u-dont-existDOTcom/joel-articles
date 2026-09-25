@@ -34,3 +34,12 @@ The accepted P2 is kept and one sentence is appended, carrying the source's "Tha
 ```text
 So I stopped asking the child to heal itself. I started being the grown-up instead—the Nurturer, Protector, and Leader or Guide. Of course that only works if the grown-up actually wants to protect your little one, and some don't, which I'll get to later.
 ```
+
+## Chicken-and-Egg placeholder — two options shown to Joel with context (2026-09-25 ~14:35 UTC)
+
+Joel: "as for placeholder show me a couple examples of the fixes i don't have the context here".
+
+- Option A (new last sentence of the accepted P2; SHA of full P2 `d67c58e6…f810`): "…and Leader or Guide. Of course that only works if the grown-up actually wants to protect your little one, and some don't, which I'll get to later."
+- Option B (parenthetical in P2's second sentence): "I started being the grown-up instead—the Nurturer, Protector, and Leader or Guide (assuming the grown-up actually wants to protect your little one, which I'll come back to)."
+
+Both carry the SOURCE DELTA function (being the grown-up isn't enough if the grown-up doesn't want to protect), and both point ahead to the dangerous-adult H2 as the source did ("I return to that safety gate below"). Claude recommends A: it's a safety point, and a parenthesis makes it easy to skim past.

@@ -288,3 +288,23 @@ Lesson: the source's list ("an urge, doctrine, group, spirit, or master") began 
 ## P2 r5 accepted; H2 installed on the writer branch (2026-09-25 03:28–03:45 UTC)
 
 Joel: "good continue". The full H2 (P1, P2 r5, P3, P4 named, P5, P6 named, P7) is now installed in `HUMANIZED-ARTICLE-SO-FAR.md` on this branch, replacing the 2026-09-21 SOURCE DELTA placeholder, with a status comment saying the final text still awaits the owner's Pangram re-run. Body SHA `4586d6b84934e49595fedaf8291604c35c67561a587e67fa9f1c6551d6ac8b58` (478 words); every installed paragraph's SHA matches the receipt `DANGEROUS-ADULT-H2-PROMOTION-RECEIPT-20260925.json`, which also holds the owner-lock table and the rounds-to-acceptance counts.
+
+## Final H2 Pangram and a pair anomaly — Joel, 2026-09-25 14:22 UTC
+
+"P2 tests human low conf, the whole thing tested human high conf, altho strangely, P1 + P1 [P2] tested AI med conf. P2 + P3 tested human med conf. Only thing I can think of is P1 + P2 produced more predictable marching order than the whole thing or P2 itself. It doesn't really matter for my purposes I guess but it would be nice to save this and if possible fix it but if not possible forget it for now."
+
+Read as the installed H2 (Claude's reading; the H2 was the pending Pangram run):
+- P2 r5 alone (`ca360dd3…492e`): Human, low confidence.
+- Full installed H2 (`4586d6b8…8b58`, 478 words): Human, high confidence. The promotion is now complete on this branch.
+- P1 + P2 r5 (`0237870b6ac04801e5a278cc92bb6585031c48529f48c05a82d7aafa8e36bb97`): AI, medium confidence.
+- P2 r5 + P3 (`2a9733bbd28e7e8e1c7ccd3dd580db05128d852e368b7c94bd455d1baadd3705`): Human, medium confidence.
+
+Claude's diagnosis, agreeing with Joel's "marching order": P1 ends on a prescription ("They need to first deconstruct the adult identity they've got") and P2 r5 opens by defining it ("That mostly means looking at what the identity gets them and what it costs, and especially what it's really serving"). That pair is the textbook staircase — prescribe, define, list criteria, give an example, deliver a verdict — and each step is the one a reader predicts. Alone, P2's second sentence carries it; after P1 the join is fully predictable.
+
+Candidate fix P2 r6 (not tested, not installed): the definitional "That mostly means…" becomes a first-person scene, grounded in Joel's original "when you talk to them a bit", which moves to the front. SHA `d57f1cb3b245380a89451f5b1ec22e882f4a82c1fcaf89efcc78dc00de1f938b`; P1 + P2 r6 pair `052db256ebc183c84bd60a66693b46166b8704f2c8e13513d05d4af74853e657`; H2 with r6 `5ef37d16fe96a7c738485e06c799d4a9bd65b444fbb58b2a03a97d57d0b95c50`.
+
+```text
+When I talk with folks like that, I mostly want to know what the identity gets them and what it costs, and especially what it's really serving. Some of them even call themselves sovereign, and then somehow there's an urge they have to obey, which sounds more like slavery to me.
+```
+
+If P1 + r6 doesn't test better, keep r5 — the installed whole passes.
