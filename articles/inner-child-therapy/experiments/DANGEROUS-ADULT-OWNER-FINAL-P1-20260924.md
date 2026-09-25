@@ -261,3 +261,15 @@ Proposed fix: merge P2 into P1 as its last sentence, keeping r2's sequence wordi
 ```text
 I've been writing this whole guide as if everybody who tries it wants to take care of the inner child, but some people get a little rush out of making somebody scared or small, and a few are honestly hoping therapy will make them better at working people. For such folks, inner child therapy is clearly not the place to start. They need to first deconstruct the adult identity they've got. Some of them even call themselves sovereign, and then somehow, once you talk to them a bit, there's a master they have to obey.
 ```
+
+## P2 merge rejected; P2 r4 — Joel: "really? you think that actually follows from the last sentence there? this is real simple just look at the original AI paragraph again to see what is missing to make this make any sense"
+
+Claude's diagnosis: "deconstruct the adult identity" → "some call themselves sovereign… a master they have to obey" only follows once you know *how* the identity gets taken apart. In the source that's the inquiry right before it: "What does this identity give you, what does it cost, and whom does it serve?" The sovereign/master example is the answer to "whom does it serve". Claude had cut that question early on as a list to avoid, and so the example was orphaned from the start — which is why P2 was weird. Process failure: for P2 r2, r3 and the merge, Claude never reread the source beat (rule A1); it tried to fix P2 from the H2 text alone.
+
+P2 r4 restores the inquiry in one sentence, with "especially" pointing at the question the example hangs on, and turns the source's "ask how those claims fit together / sovereignty begins with the ability to … refuse" into the question itself. SHA `fb7fc89ff58291916605c7c9de3da4e07a4dd10b3aa6fedda6b221a8244dda47`, 52 words:
+
+```text
+That mostly means looking at what the identity gets them and what it costs, and especially who it's really working for. Some of them even call themselves sovereign, and then somehow, once you talk to them a bit, there's a master they have to obey. So can they tell that master no?
+```
+
+The H2 with P2 r4 has body SHA `7beb3e6bce452fcae4d9342073b8cf794afa71b74b97a2236517fdd457c25597` (479 words).
