@@ -175,3 +175,25 @@ Claude's delete/merge proposal for the remaining source (for Joel to decide):
 - "Listen without flattering cruelty, arguing theology, or helping somebody become more effective at exploiting people." → delete; it's addressed to a helper, which switches audience in a self-help guide. P1 already covers "better at working people".
 - "Until then, keep the work adult-focused and present-focused." → delete; P1 + P4 already say it.
 - "Real human care may be more important here than another internal exercise." → keep, as a short last paragraph. It's the reader's next question after P7 ("what about a real person, then?"), and it's where "cares about you but won't cheer on the cruelty" fits.
+
+### P6/P7 r1 — Claude's own re-read after Joel's questions (2026-09-25 01:02 UTC)
+
+Joel: "you didn't show an audit for ai tells there, did you skip that? if so whhy? and now re-reading what you wrote, what do you think of it?" Claude had run the audit only loosely in its head (spot checks on P6) and didn't show it.
+
+Verdict: P6/P7 r1 are the AI answer in costume. The AI answer to this beat is "Real sovereignty is being able to refuse harmful impulses; claims and promises prove nothing, behavior does; never test yourself on the inner child, because if you fail the child is harmed and the test can gratify; imagined protectors don't help because they come from your own mind." P6/P7 make the same claims in the same order. Defects:
+- the fire image on its fourth beat, now organizing the section;
+- P6 explains P2's irony (rule 6);
+- P6 S4→S5 is a not-X/Y across two sentences ("doesn't answer that… They find out while it's burning");
+- P6 S5 makes real vulnerable people the testing ground, and P7's reason ("it's the kid who pays for it") applies just as much to them — a logic and safety seam;
+- P7 S2 is an optimized zinger (rush… rush);
+- P7 S3 "you're doing all the voices yourself" can read as saying inner child work is pretend, which undercuts the guide;
+- cadence: image → apply → test → what doesn't count → what counts, then prohibit → reason → reason → close loophole.
+
+Proposal: delete P6 and P7. P2's jab carries sovereignty without explaining it; P1 + P4 ("anywhere near it") already keep the kid out entirely. The promise, indirect-route and real-person-care claims are dropped or left implicit — Joel's call, especially on real-person care.
+Replacement closing, answering the reader's next question after P5 ("so what do I do about it?"). SHA `2ce647aecd251410710e297d3bd641d1894bcba641917f71ea5176ada1b475d2`, 53 words:
+
+```text
+The Buddha also told his son that loving-kindness is what gets rid of ill will, and compassion does the same for cruelty. I'm biased on loving-kindness, since it got me out of my depression. For these folks it starts with the grown-up they are now, though, and the kid stays out of it.
+```
+
+Source: MN 62 Mahārāhulovāda (Thanissaro: "Develop the meditation of good will. For when you are developing the meditation of good will, ill-will will be abandoned. Develop the meditation of compassion. For when you are developing the meditation of compassion, cruelty will be abandoned."; translator's intro: "The Buddha delivers meditation instructions to his son, the novice Rahula"). "Got me out of my depression" = My Journey's "Loving-kindness (metta) meditation healed that depression almost instantly for me."
