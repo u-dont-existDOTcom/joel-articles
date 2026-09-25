@@ -61,3 +61,10 @@ D7. Never describe the child's vulnerability in terms that could appeal to someo
 D8. Show the full sentence-by-sentence audit (A, B and the D2 disparity) with every draft. A check done silently is a check skipped: on P6/P7 r1 I ran it loosely in my head, spot checks only on P6, and missed an instruction-staircase cadence, a not-X/Y across two sentences, and a logic seam.
 D9. If the draft follows the source's logic chain sentence by sentence (claim, reason, loophole, reason), it's the source in costume, whatever the voice. The coverage map is a check, never an outline. P6/P7 r1 fell into exactly the failure the compression amendment named: contract claims treated as sentence obligations, including claims from paragraphs Joel had said could mostly be deleted.
 D10. After P6/P7 r1 the fire image was on its fourth beat. Stay with an image, but stop when it becomes the section's organizing device.
+
+## E. Added 2026-09-25 01:45
+
+E1. Naming (Joel): never "the kid" for the inner child; he finds it distant and distasteful. Use warm names — "inner child", "your little one", "your little boo", "your Lilliputian", "your lovey bunny" — or "their little one" when the subject is an impersonal "they". Save the goofy ones for light passages; in the malice paragraphs a jokey pet name could read as mocking. Check the whole article, not just the current section.
+E2. Diff every owner rewrite against my version and treat each change as a preference until he says otherwise. Joel changed "the kid" → "the inner child" in P1 on 2026-09-24, and I kept writing "the kid" in P4 and P6 until he said it outright.
+E3. When a paragraph passes with the owner's own life material in it (P6: his depression, from My Journey), credit that material. It shows that his lived facts, placed where they naturally belong, are a strong human signal; it does not show that my own moves worked.
+E4. Before promoting a section, check it against `OWNER-LOCKS.json`, not only the lane's preservation contract. Where the owner's later chat statement conflicts with a lock, put the conflict in front of him; don't settle it silently.

@@ -197,3 +197,20 @@ The Buddha also told his son that loving-kindness is what gets rid of ill will, 
 ```
 
 Source: MN 62 Mahārāhulovāda (Thanissaro: "Develop the meditation of good will. For when you are developing the meditation of good will, ill-will will be abandoned. Develop the meditation of compassion. For when you are developing the meditation of compassion, cruelty will be abandoned."; translator's intro: "The Buddha delivers meditation instructions to his son, the novice Rahula"). "Got me out of my depression" = My Journey's "Loving-kindness (metta) meditation healed that depression almost instantly for me."
+
+## P6 (MN 62 closing) — owner-accepted, owner-reported Pangram pass (2026-09-25 01:45 UTC)
+
+Joel: "that reads well to me. it passes pangram. of course you did use my own life story so that might be why it looks human." Tested text = SHA `2ce647ae…75d2` (with "the kid"). Max-thinking experiment: this beat took 2 rounds (r1 P6/P7 withdrawn on Claude's own re-read after Joel's questions; r2 accepted first time), against P4 ≈ 9 and P5 ≈ 6. Caveat (Joel's): the owner's own life story was in it, so the pass doesn't show that Claude's own moves worked.
+
+Naming (Joel, same message): "in general i prefer 'your little one' rather than 'the kid' -- ... i find it highly distasteful and distant so let's replace all instances of the kid with inner child, your little one, your little boo, your liliputian, your lovey bunny, or something like those". Applied: P4 "and then the kid can wait" → "and then the inner child can wait" (SHA `6d5d927e06e9cc0085b2251c9d291fa6e7f4db683ede9ec317a6376342a98800`); P6 "and the kid stays out of it" → "and their little one stays out of it" (SHA `46d667372c605de7c5a49c351fbbc6a5ff6d7781b5c0cf805bd8f277e38bd740`). Both changed after their Pangram passes. Missed signal: Joel had already changed "the kid" → "the inner child" in P1 on 2026-09-24, and Claude kept writing "the kid" afterwards.
+
+## P7 r1 — shown to Joel (2026-09-25 ~02:00 UTC)
+
+Reader's next question after P6: "when does my little one get a turn?" Carries the locked promise/behavior (implicit), care-without-assisting and real-human-care functions. SHA `cf7d678818f64ac6ffe807bea424f9d894632d3ce53a935c1dffd452bc3ec624`, 61 words:
+
+```text
+As for when their little one gets a turn, I'd say once scaring somebody has stopped sounding fun, and it's stayed that way through some bad days. Until then it helps a lot to have a real person in their life who likes them and won't laugh along, since loving-kindness is easier to pick up from someone who already has some.
+```
+
+AI comparison: a plain AI would say "when you've consistently managed your urges over a sustained period and feel emotionally stable; a mental-health professional can help you assess readiness." P7 contradicts the managing framing (the appetite has to fade — Joel's "thoughts decide when"), drops "you'll feel ready" (the reader is the least reliable judge), and swaps the professional assessor for a real person who likes them and won't laugh along, i.e. borrowed adulthood from a live example.
+Full assembled H2 and owner-lock table: `DANGEROUS-ADULT-H2-ASSEMBLED-20260925.md`.
