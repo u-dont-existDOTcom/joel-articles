@@ -308,3 +308,24 @@ When I talk with folks like that, I mostly want to know what the identity gets t
 ```
 
 If P1 + r6 doesn't test better, keep r5 — the installed whole passes.
+
+## P1 + P2 r6 Pangram — Joel, 2026-09-25 18:23 UTC
+
+"interesting, so the rewrite helped, it went from AI to 38% AI. and now it flags the earlier part, which actually does look a bit AI in the sense that it's a 3 part function list and quite condensed."
+
+- P1 + P2 r6 (`052db256…e657`): **38% AI** (was AI/medium with r5). The flag moved to P1's first sentence.
+- That sentence is Claude's (candidate C10), kept in Joel's owner-final P1: "I've been writing this whole guide as if everybody who tries it wants to take care of the inner child, but some people get a little rush out of making somebody scared or small, and a few are honestly hoping therapy will make them better at working people."
+- Diagnosis: a condensed function list. One sentence holds three jobs (the guide's assumption, group one, group two) on a quantifier ladder (everybody / some / a few). The ladder is the tidiest part. The same shape was flagged in Regulation R2 the same day (self-audit rule E15).
+
+Candidate P1 r2 (not tested, not installed). SHA `75f5705813b4b721777aadd3bb8cc97a8a360cbe8dea5e7335912ee70a86c716`; pair P1 r2 + P2 r6 `eef3a7fcf79b6dd49b2c043de7364186e2abcaab7f7bf3df49f278e06cddb10f`.
+
+```text
+I've been writing this whole guide as if everybody who tries it wants to take care of the inner child. Some people get a little rush out of making somebody scared or small, though, or they're honestly hoping therapy will make them better at working people. For such folks, inner child therapy is clearly not the place to start. They need to first deconstruct the adult identity they've got.
+```
+
+- s1 is split off at the comma, so the admission stands alone. With the Chicken-and-Egg forward pointer gone, it's the sentence that names the assumption at the gate.
+- "but some people … and a few are honestly hoping" → "Some people … though, or they're honestly hoping". This breaks the ladder, and one loose sentence about the same kind of person replaces a two-group taxonomy. Both motives stay (enjoying fear, wanting to exploit), as `dangerous-present-adult-safety-gate` needs (A8).
+- Rule 3 check: s2 contradicts s1's assumption, but it's the substance, not a short knock-down line.
+- s3–s4 are Joel's and unchanged.
+
+If the pair tests Human, install P1 r2 + P2 r6 together and re-run the whole H2. Otherwise keep the installed r5 version (whole H2 Human/high).
