@@ -91,4 +91,3 @@ One more trap: don’t define “I did it correctly” as “it worked.” And d
 - Fragment: `experiments/SOURCE-INSERT-20260925-MUSIC-DOORWAY.html`, 1450 bytes, SHA `8d168958a6647bf22fb0eb4f07ca33886364b816184e490d860602c9c881f39e`. Owner text as pasted: SHA `9ac0a5505a4109a8dd4b6f22d81085286335b0dcd3a7a38bccd3f48330c35314`.
 - Working AI version: `experiments/SOURCE-WORKING-20260925C.html` = `SOURCE-WORKING-20260925B.html` plus this fragment, inserted once. 154635 bytes, SHA `51bbe7a4e2a80332ce68f7c7c1691a8621c8cc012f320f775dad9855ecc96b06`. It supersedes version B as the working AI version. When `master.html` is next registered, use version C.
 - Projection: this lands in the opening, which is already humanized. Round 1 of the humanized version is in `experiments/MUSIC-DOORWAY-DRAFTS-20260925.md`, pending owner review.
-

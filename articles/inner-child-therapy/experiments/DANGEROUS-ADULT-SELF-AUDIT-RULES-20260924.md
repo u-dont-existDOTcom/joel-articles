@@ -127,3 +127,12 @@ E35. The with-and-without test (E27) on music round 1:
 - D9 and E31 predicted this. His one line carried the section, and the joined opening still tested 100% Human (780 words).
 - So it's a learning flag, not a blocker. The fix is his next thought, not better costumes for the functions.
 
+## J. Added 2026-09-25 22:45 — after Joel: "you're cheating a bit there by using my life story to hide your ai tells"
+
+E36. Generic-specific details are coaching, not human specifics. The song you skip in the car, "home alone" and "your face is still wet" feel concrete, but they fit every reader. In second-person advice they tested 100% AI (music round 2, my lines alone). Human specifics belong to someone: his song, his nights, his ex. When writing to the reader, use one of these instead:
+- a stance ("that's when I'd put a song on");
+- a flat answer to their next question ("Céline's right up there if you don't have one");
+- a warning sign taken from the owner's story ("scared of your own crying").
+Round 3's lines alone tested 100% Human.
+E37. Test my sentences without the owner's lines on every draft that has owner material, and report that result next to the joined one. A joined pass can come from his lines alone: music round 1 was 100% Human joined and 47% AI without his line. This makes E27's with/without test standard; it isn't optional.
+E38. When the owner names a third party along with a health detail (an ex's panic attacks), draft without the name, say so, and let him decide. Check the replacement against people already named in the piece. The intro says "my ex, Key", so the draft says "another ex of mine"; plain "my ex" would point at Key.

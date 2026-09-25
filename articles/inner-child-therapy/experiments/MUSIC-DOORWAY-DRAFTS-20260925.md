@@ -1,6 +1,6 @@
 # Music as a doorway (owner insertion in the opening) — Claude drafts — 2026-09-25
 
-Status: **ROUND 1 SHOWN TO JOEL / NOT INSTALLED**
+Status: **ROUND 3 SHOWN TO JOEL / NOT INSTALLED** (round 1 superseded; round 2 not shown)
 
 ## Owner instruction (Joel, 2026-09-25 21:27 UTC)
 
@@ -100,3 +100,94 @@ That is D9 and E31, and it's where Pangram points when Joel's line is removed. H
 
 - Was *The Queen and the Soldier* during the depression years in My Journey, or later? And did the crying change anything by itself?
 - "Suzanne Vega's" was added. Keep it?
+
+## Joel's feedback on round 1 (2026-09-25 22:23 UTC)
+
+> "right so you're cheating a bit there by using my life story to hide your ai tells, let's fix the ai tells also. and yes those were the same nights. i would say the crying helped me a lot in terms of not going numb inside. it didn't help me develop insight. i could have kept crying forever. it was buddhism and then inner child therapy which helped create a new perspective that was more healthy. but i'm really happy i did do the crying that was needed at the time.... although some people, like my ex [name withheld in this record], got so deep into crying that it became traumatizing, she actually had panic attacks from it"
+
+The ex's name is withheld here and in the draft because the detail is her health. Joel decides whether to name her.
+
+## Round 2 (not shown to Joel)
+
+Joel's cognition went in nearly verbatim. My own lines were rewritten around "relatable" details.
+
+```text
+If that got to you at all, good. That's partly why it's up there. I used to listen to Suzanne Vega's The Queen and the Soldier every night because it reliably got the tears out.
+
+The crying helped me a lot in terms of not going numb inside. It didn't help me develop insight, though. I could have kept crying forever. It was Buddhism and then inner child therapy which helped create a new perspective that was more healthy. But I'm really happy I did do the crying that was needed at the time.
+
+You've probably got your own crying song too, maybe the one you always skip when it comes on in the car. Sometime when you're home alone, put it on and let it play all the way through. When it's over and your face is still wet, that's a good time to check on your little one.
+
+Some people, like another ex of mine, got so deep into crying that it became traumatizing. She actually had panic attacks from it. If you notice yourself heading there, just turn the song off.
+```
+
+- Pangram 4.0 on my lines alone (87 words scanned): **AI Generated, 100% AI**, short-text confidence.
+- What was AI: the song you skip in the car, "home alone" and "your face is still wet" feel specific but fit every reader, and they came in second-person coaching. See E36.
+
+My lines alone, as tested:
+
+```text
+If that got to you at all, good. That's partly why it's up there.
+
+You've probably got your own crying song too, maybe the one you always skip when it comes on in the car. Sometime when you're home alone, put it on and let it play all the way through. When it's over and your face is still wet, that's a good time to check on your little one.
+
+If you notice yourself heading there, just turn the song off.
+```
+
+## Round 3
+
+Markdown as it would be installed, SHA `5e8c1daeada03bfb32ab0d00b3739d948558d37558bc62ee86d260c74ae03453`. Tested as plain text, SHA `af092ecb8ddd15ecf8fc123e1d8fb841b08da212e526fa381075831b1ed68373`, 160 words.
+
+```markdown
+If that got to you at all, good. That was half the idea. I used to listen to Suzanne Vega's *The Queen and the Soldier* every night because it reliably got the tears out.
+
+The crying helped me a lot in terms of not going numb inside. It didn't help me develop insight, though. I could have kept crying forever. It was Buddhism and then inner child therapy which helped create a new perspective that was more healthy. But I'm really happy I did do the crying that was needed at the time.
+
+So if you sit down to try any of this and feel nothing, that's when I'd put a song on. Céline's right up there if you don't have one.
+
+Some people, like another ex of mine, got so deep into crying that it became traumatizing. She actually had panic attacks from it. If you start getting scared of your own crying, turn the song off for tonight.
+```
+
+### Sentence audit
+
+1. "If that got to you at all, good." Mine, kept from round 1. It talks to the reader who just watched.
+2. "That was half the idea." Mine. "Half" leaves the other half (the song being about the inner child) implied, without a not-X/Y.
+3. His line, plus the artist.
+4–8. His words from 22:23, in his order. The only change is "though" added to "It didn't help me develop insight."
+9. "So if you sit down to try any of this and feel nothing, that's when I'd put a song on." Mine. It's the next thought from "not going numb inside": the song is for the numb moments. It's a stance ("I'd"), not an order, and it replaces the AI text's "use it deliberately before or during".
+10. "Céline's right up there if you don't have one." Mine. A flat answer to the reader's next question.
+11. His sentence, with "my ex [name]" changed to "another ex of mine". The intro already says "my ex, Key", so plain "my ex" would point at Key (A12).
+12. His, verbatim.
+13. "If you start getting scared of your own crying, turn the song off for tonight." Mine. The warning sign comes from her story: fear taking over from sadness. It replaces the AI text's five-sign list.
+
+### What's gone from the AI text, and where it went
+
+- "Music can be a doorway…" and its feelings list: his nights show it.
+- "Don't judge the session by how dramatic…" and the access-isn't-change sentence: his "didn't help me develop insight… could have kept crying forever".
+- "Once the door opens…", the questions, and "continue the practice… rather than chasing intensity": cut. The rest of the article teaches what to do next, and "I could have kept crying forever" is the don't-chase point.
+- The unreal/panicky/disoriented list and "come back to the room and the present": her story plus line 13. Before You Try to Go Deep covers coming back to the room.
+- Dropped outright:
+  - the love/courage songs (the adult half of the list);
+  - the reassurance that a small reaction counts too.
+
+### Pangram 4.0 (Joel's account, Claude-run, 2026-09-25 about 22:40 UTC)
+
+1. Round 2, my lines only: 100% AI, 87 words, short text.
+2. Round 3, my lines only: **100% Human**, 61 words, short text.
+
+   ```text
+If that got to you at all, good. That was half the idea.
+
+So if you sit down to try any of this and feel nothing, that's when I'd put a song on. Céline's right up there if you don't have one.
+
+If you start getting scared of your own crying, turn the song off for tonight.
+   ```
+3. Assembled opening with round 3 (the three intro lines, round 3, and the whole Chicken-and-Egg section with the stages list): **100% Human**, 789 words, no short-text caveat.
+
+Three checks. Round 3 alone wasn't run separately; it sits inside check 3.
+
+### Open for Joel
+
+- Name the ex or not.
+- The two drops listed above.
+- My Journey's "cried every night" now reads as a callback to these nights, and its metta/inner-child path matches line 7.

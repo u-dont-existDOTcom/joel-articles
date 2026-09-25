@@ -79,4 +79,3 @@ Lesson: self-audit rule A12.
 - The source h1 intro paragraph and W3 are deleted, as proposed.
 - Installed body SHA: `808d54c9c206c383f0e4d4335c563a7a4e926a4f7b4197a017c995947d093694`.
 - Joel's alternative name for the little one was "Joelito".
-
