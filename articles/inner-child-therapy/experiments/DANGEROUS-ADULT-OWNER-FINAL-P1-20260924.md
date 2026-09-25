@@ -247,3 +247,17 @@ Some of them even call themselves sovereign, and then somehow, once you talk to 
 ```
 
 The H2 with P2 r3 has body SHA `f32bdeb923b0d4e7983792b485b57802b2dff7490e82821be52bd58947ee45d0` (478 words).
+
+## P2 r2/r3 rejected — Joel: "no no this whole thing reads totally wrong. do you need me to explain everything"
+
+Claude's diagnosis:
+- **Wrong direction, not wrong wording.** r2/r3 moved the danger. P1's people are the danger (they get a rush from scaring people or want to get better at working them). r2/r3 made a master the danger and cast the person as a would-be protector who just has to resist it, which lets them off the hook.
+- **It contradicts P1.** P1 says inner child therapy isn't where these folks start, and then P2 talked about their little one's needs and who's raising it, as if the work were already under way.
+- **P2's real job** comes from the sentence right before it ("They need to first deconstruct the adult identity they've got"): it's one crack in that identity — they call themselves sovereign and yet have to obey. It needs no consequence sentence.
+- **Cause:** Claude over-applied its own new rule E7 ("say what it means for the reader of this guide") and reached for the inner child, instead of reading P2's place in the flow. E9's religion-test patch was fixing a problem r2 had created.
+
+Proposed fix: merge P2 into P1 as its last sentence, keeping r2's sequence wording and nothing after it (P1's owner text unchanged). SHA `0cfb1fc0d69b511c63a22fb95151b695ad8c9e8a217e4047845492635761740a`, 95 words:
+
+```text
+I've been writing this whole guide as if everybody who tries it wants to take care of the inner child, but some people get a little rush out of making somebody scared or small, and a few are honestly hoping therapy will make them better at working people. For such folks, inner child therapy is clearly not the place to start. They need to first deconstruct the adult identity they've got. Some of them even call themselves sovereign, and then somehow, once you talk to them a bit, there's a master they have to obey.
+```
