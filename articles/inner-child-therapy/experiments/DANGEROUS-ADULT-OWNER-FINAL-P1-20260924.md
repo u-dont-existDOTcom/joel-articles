@@ -284,3 +284,7 @@ That mostly means looking at what the identity gets them and what it costs, and 
 
 The H2 with P2 r5 has body SHA `4586d6b84934e49595fedaf8291604c35c67561a587e67fa9f1c6551d6ac8b58` (478 words).
 Lesson: the source's list ("an urge, doctrine, group, spirit, or master") began with the item that mattered. Claude picked the last and most charged-sounding item ("master"), which dragged in the religion problem, when the essential one was the first.
+
+## P2 r5 accepted; H2 installed on the writer branch (2026-09-25 03:28–03:45 UTC)
+
+Joel: "good continue". The full H2 (P1, P2 r5, P3, P4 named, P5, P6 named, P7) is now installed in `HUMANIZED-ARTICLE-SO-FAR.md` on this branch, replacing the 2026-09-21 SOURCE DELTA placeholder, with a status comment saying the final text still awaits the owner's Pangram re-run. Body SHA `4586d6b84934e49595fedaf8291604c35c67561a587e67fa9f1c6551d6ac8b58` (478 words); every installed paragraph's SHA matches the receipt `DANGEROUS-ADULT-H2-PROMOTION-RECEIPT-20260925.json`, which also holds the owner-lock table and the rounds-to-acceptance counts.

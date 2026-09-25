@@ -64,7 +64,23 @@ The image below maps out the details as best as I can fit:
 
 How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later. You may need somebody steady there with you, or to do whatever helps you come back a bit before you try to talk to the child.
 
-<!-- SOURCE DELTA 2026-09-21: keep the accepted readiness paragraph above. A new H2, `When the Present-Day Adult Is Dangerous to the Child`, belongs immediately after it and before `You Don’t Need an Inner Monologue`. That new section has not yet been humanized and must not be silently presented here as finished. -->
+<!-- Dangerous-adult H2 installed 2026-09-25 from writer branch `handoff/claude-dangerous-adult-20260924-1631`. P1–P7 are each owner-accepted with owner-reported Pangram passes. The full H2 tested Human/high confidence before P2 r5 (owner-requested fix, accepted 2026-09-25 03:28 UTC); the text below still awaits the owner's Pangram re-run. Receipt: `experiments/DANGEROUS-ADULT-H2-PROMOTION-RECEIPT-20260925.json`. -->
+
+## When the Present-Day Adult Is Dangerous to the Child
+
+I've been writing this whole guide as if everybody who tries it wants to take care of the inner child, but some people get a little rush out of making somebody scared or small, and a few are honestly hoping therapy will make them better at working people. For such folks, inner child therapy is clearly not the place to start. They need to first deconstruct the adult identity they've got.
+
+That mostly means looking at what the identity gets them and what it costs, and especially what it's really serving. Some of them even call themselves sovereign, and then somehow, once you talk to them a bit, there's an urge they have to obey, which sounds more like slavery to me.
+
+This part tends to scare the wrong people, like somebody who's horrified by their own thoughts. Everybody gets thoughts like that sometimes, and they don't make you a bad person, but why would you bring your inner child into the middle of them? The nice thing about inner child therapy is that you can wait until you're calm and actually ready. A real parent doesn't get to do that, which is one reason nobody manages to be a perfect one.
+
+And if somebody actually wonders whether they're malicious, they'd do better to meditate on it and find out why they're asking before they bring their inner child anywhere near it. Are they really feeling malicious, or is it some voice in their head saying so, like the inherited critic? There may be some malice in there too, and then the inner child can wait.
+
+In one of the Buddha's own accounts of how he woke up, ill will shows up in his mind and he sees it's hurting him. If he had to figure that out by watching, it's not obvious. Ill will can make you feel powerful. Being on fire would too, and people would definitely get out of your way, but unless you're the Human Torch from the Fantastic Four, you'd be the one burning. So it's worth noticing what it's doing to you. Has it ever left anybody at ease, with nothing to regret afterward? Of course not.
+
+The Buddha also told his son that loving-kindness is what gets rid of ill will, and compassion does the same for cruelty. I'm biased on loving-kindness, since it got me out of my depression. For these folks it starts with the grown-up they are now, though, and their little one stays out of it.
+
+As for when their little one gets a turn, I'd say once scaring somebody has stopped sounding fun, and it's stayed that way through some bad days. Until then it helps a lot to have a real person in their life who likes them and won't laugh along, since loving-kindness is easier to pick up from someone who already has some.
 
 <!-- The original bottom-up-healing embed belongs after readiness; exact native source remains source-recovery pending. -->
 

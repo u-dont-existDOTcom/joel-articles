@@ -1,0 +1,39 @@
+{
+ "schema_version": 1,
+ "promotion_id": "inner-child-dangerous-adult-h2-20260925",
+ "status": "PROMOTED_TO_ACTIVE_HUMANIZATION_ASSEMBLY_PENDING_FINAL_OWNER_PANGRAM",
+ "article_id": "inner-child-therapy",
+ "heading": "When the Present-Day Adult Is Dangerous to the Child",
+ "writer_branch": "handoff/claude-dangerous-adult-20260924-1631",
+ "review_assembly_path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+ "placement": "immediately after the accepted Before You Try to Go Deep readiness paragraph, replacing the 2026-09-21 SOURCE DELTA placeholder; the bottom-up-healing embed placeholder comment is left where it was, after this H2",
+ "body_sha256": "4586d6b84934e49595fedaf8291604c35c67561a587e67fa9f1c6551d6ac8b58",
+ "body_words": 478,
+ "paragraph_texts": "in review_assembly_path and in experiments/DANGEROUS-ADULT-OWNER-FINAL-P1-20260924.md",
+ "paragraphs": [
+  {"role": "P1", "sha256": "804bc313d5b4851384903fe7d7dda382f561d15ec6b6565bc391cb69744c6983", "words": 71, "acceptance": "Joel 2026-09-24 20:36 UTC: \"save it, because it's the one that i want and it passes pangram\"", "provenance": "owner-final (sentence 1 Claude C10 lightly edited; sentences 2-3 Joel)", "pangram": "owner-reported pass"},
+  {"role": "P2", "sha256": "ca360dd39c54329e70d79d135248faf04daff90317f8dc716ade283e1eb9492e", "words": 51, "acceptance": "Joel 2026-09-25 03:28 UTC: \"good continue\" (after r4 'that does work much better' and the urge/slavery correction)", "provenance": "Claude compilation of the source inquiry + Joel's observation + Joel's verdict ('it sounds more like slavery')", "pangram": "not yet tested (r5)"},
+  {"role": "P3", "sha256": "23145fdf6be610aa9a05920e7669601dc7820fec6a01662766f0f014a21a7170", "words": 80, "acceptance": "Joel 2026-09-24 21:44 UTC: \"good, that passes pangram ... this is a successful compilation\"", "provenance": "Claude compilation of Joel cognition", "pangram": "owner-reported pass"},
+  {"role": "P4", "sha256": "6d5d927e06e9cc0085b2251c9d291fa6e7f4db683ede9ec317a6376342a98800", "words": 64, "acceptance": "Joel 2026-09-24 23:44 UTC: \"that also passes pangram\" (after P4/P5); naming change applied 2026-09-25 01:45", "provenance": "Claude compilation of Joel cognition; 'the kid' -> 'the inner child'", "pangram": "owner-reported pass (before naming change)"},
+  {"role": "P5", "sha256": "1beb72ff0def1e3607f36795de8a110eab0ed3195141193dd1a451ab8864c603", "words": 97, "acceptance": "Joel 2026-09-25 00:22 UTC: \"pangram says it's human, medium confidence\"", "provenance": "Claude compilation of Joel cognition (Buddha/ill will, fire, Human Torch)", "pangram": "Human, medium confidence (owner-reported)"},
+  {"role": "P6", "sha256": "46d667372c605de7c5a49c351fbbc6a5ff6d7781b5c0cf805bd8f277e38bd740", "words": 54, "acceptance": "Joel 2026-09-25 01:45 UTC: \"that reads well to me. it passes pangram\"; naming change applied", "provenance": "Claude (MN 62) + Joel life fact from My Journey; 'the kid' -> 'their little one'", "pangram": "owner-reported pass (before naming change)"},
+  {"role": "P7", "sha256": "cf7d678818f64ac6ffe807bea424f9d894632d3ce53a935c1dffd452bc3ec624", "words": 61, "acceptance": "Joel 2026-09-25 02:07 UTC: \"your P7 is human on pangram (low conf because low word count)\"", "provenance": "Claude, answering the reader's question after P6", "pangram": "Human, low confidence (owner-reported)"}
+ ],
+ "full_h2_pangram": {
+  "tested_body_sha256": "f8068270dd03577d85decad809a4a10ad6213700df41f0485dc940ce9666d4f7",
+  "result": "Human, high confidence (owner-reported 2026-09-25 02:07 UTC)",
+  "note": "tested with the original 2-sentence P2; P2 r5 replaced it at the owner's request, so the installed body needs a re-run"
+ },
+ "owner_lock_check": {
+  "lock_id": "dangerous-present-adult-safety-gate",
+  "explicit": ["harmful/exploitative present intent blocks child contact (P1)", "work remains adult-focused (P1, P6, P7)", "charged thoughts alone don't establish harmful intent, though they decide when (P3)", "care may continue without assisting exploitation (P7)", "sustained real-human care may be needed (P7)"],
+  "implicit_only": ["indirect child contact (P4 'anywhere near it', P6 'stays out of it')", "the child is not a diagnostic test (P4)", "sovereignty as capacity to refuse (P2 'more like slavery')", "beliefs/identity alone not the gate (P2 concerns an urge, not obedience to a master)", "verbal promises do not clear child work (P7 criterion: a change that holds through bad days)"],
+  "owner_direction": "Joel 2026-09-24: the last two source paragraphs 'could mostly be deleted'. Claude raised the lock conflict on 2026-09-25 at 01:55 and 02:11 UTC; the owner proceeded ('good continue', 03:28 UTC) without asking for the implicit functions to be made explicit."
+ },
+ "method_notes": {
+  "rounds_to_acceptance": {"P4": "~9 (before max thinking)", "P5": "~6 (before max thinking)", "P6": "2", "P7": "1", "P2_fix": "5 (r2, r3, merge, r4, r5)"},
+  "rules_file": "experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
+  "record_file": "experiments/DANGEROUS-ADULT-OWNER-FINAL-P1-20260924.md"
+ },
+ "related_open_item": "Chicken-and-Egg SOURCE DELTA (2026-09-21) still asks for a local statement that present-day adulthood alone is insufficient if the adult intends harm; this H2's P1 carries the same function but nothing was installed there"
+}
