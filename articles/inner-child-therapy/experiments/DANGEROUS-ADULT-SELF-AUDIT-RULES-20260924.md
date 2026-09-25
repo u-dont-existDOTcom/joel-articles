@@ -46,3 +46,15 @@ Warning: copying these features is how rule 13 gets broken. A pop-culture refere
 - Use plain words for lofty things, and say precisely how much the source supports ("one of his accounts").
 - When you know the answer to your own question, give it flatly.
 Source: P5 (Human, medium confidence), 2026-09-25.
+
+## D. Drafting method (Joel, 2026-09-25 00:33–00:34, max thinking on)
+
+Joel: "use the extra thinking also to really do thinking inside the writing as a human does, rather than just birds eye view which is a separate part. humans look at everything then they go in and look at it from where the thought is. we are looking to provide unique, interesting, surprising, funny, captivating and helpful prose, not something someone could have just gotten simply from asking AI the question. use that as a regression. if AI could have answered this in this way, it's not good enough. that doesn't mean throw away the AI thinking, but go beyond it." And: "we don't need to keep everything, if it seems unneeded overexplanation just tell me 'i think this should be deleted' or merged or moved".
+
+D1. Two passes, in order. Bird's-eye first: reread the source beat, map the claims, and search the article itself and Joel's corpus for his own takes and for callbacks (e.g. "borrowed adulthood", "pausing before you act"). Then go inside: draft from the last sentence of the previous paragraph, as the person talking, asking what they'd actually think next — not what the section needs next.
+D2. AI regression: first write the answer a plain AI would give for this beat (the floor). Keep its correct content. The draft must add something the floor lacks — a verified specific, an image taken literally, the reader's real next question, a stance, a joke that's true. If the draft is the floor reworded, redo it.
+D3. Let required claims arrive as answers to the reader's next question, not on a schedule (P6 "they find out while it's burning" → reader: "so can I find out with the kid?" → P7 blocks it).
+D4. Keep an image that's working and look for what else is true inside it; AI brings in a new metaphor every paragraph. But check the mapping against the meaning first: "the Human Torch can turn it off" implied you must make ill will vanish (against claim 5) and was dropped; "stop, drop and roll" maps to pausing and not acting on it, and running really does feed the fire (NFPA school lesson).
+D5. Don't reuse a distinctive phrase that's already elsewhere in the piece (the promises line in Also Look Outward).
+D6. When source material is overexplanation, or addressed to someone other than the reader, say "I think this should be deleted / merged / moved" instead of forcing it in.
+D7. Never describe the child's vulnerability in terms that could appeal to someone who enjoys preying on it ("the easiest person to push around" was considered and rejected on this ground).

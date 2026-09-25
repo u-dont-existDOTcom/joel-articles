@@ -150,3 +150,28 @@ Human tells Claude identified afterward (editorial reading, not detector evidenc
 - Plain, deflating words for lofty things ("woke up", not "attained enlightenment"); honest source precision ("one of the Buddha's own accounts"): Claude.
 - Committed answer to its own question, no hedge ("Of course not."); slight comic overcommitment ("definitely"): Joel / Claude.
 Common root: each came from thinking about the real situation (a real reader, a real image, a real question about why) rather than from building a sentence to fill a function. Most of the moves were Joel's, so the transferable thing is the thinking that produced them, not the surface features.
+
+## P6 + P7 — round 1 at max thinking (2026-09-25 ~00:45 UTC), shown to Joel, not yet accepted
+
+Experiment: max thinking on from here. Metric = rounds to Joel's acceptance (baseline P4 ≈ 9, P5 ≈ 6) plus Pangram.
+
+P6 r1 (SHA `bc185e5082f56cfddf66b21a695d26004880ece918a7dfe86d4318a330f0e810`, 89 words):
+
+```text
+If you ever do catch fire, what they teach you in school is stop, drop and roll, because running around just feeds it. The stop part is what I'd want the ones who call themselves sovereign to try. When their master wants somebody hurt, can they stop? Saying so doesn't answer that, and neither does promising they'll be nice to the kid. They find out while it's burning, like the next time somebody's easy to push around and part of them would enjoy it, and the time after that.
+```
+
+P7 r1 (SHA `cb62b8378fb46ac47eab6271a698524b508fd470a9d2742c85921c1e5dd14146`, 74 words):
+
+```text
+But the kid is the one place not to find that out, because if it turns out they can't stop, it's the kid who pays for it. And for somebody who gets a rush out of scaring people, bringing the kid out just to check is the rush. Sending a borrowed grown-up in there doesn't get around it either, or an angel, since in this kind of work you're doing all the voices yourself.
+```
+
+Claims carried: sovereignty as the ability to pause/refuse (P6), promise ≠ safety and repeated behavior when it would feel rewarding (claim 6, P6), religion/belief not the gate — the master question is about harmful orders only (claim 5, implicit, P6), child not a test and no gratification (claim 3, P7), indirect/imagined routes blocked (claim 7, P7, via the article's own "borrowed adulthood").
+Fact check: NFPA Sparky School House grade 2 lesson — "Running will give the fire more oxygen and make the fire bigger, causing a more severe burn."
+
+Claude's delete/merge proposal for the remaining source (for Joel to decide):
+- "This is not a religion test…" paragraph → delete; thoughts/fantasies are in P3, and P6's question is only about a master that wants somebody hurt.
+- "Listen without flattering cruelty, arguing theology, or helping somebody become more effective at exploiting people." → delete; it's addressed to a helper, which switches audience in a self-help guide. P1 already covers "better at working people".
+- "Until then, keep the work adult-focused and present-focused." → delete; P1 + P4 already say it.
+- "Real human care may be more important here than another internal exercise." → keep, as a short last paragraph. It's the reader's next question after P7 ("what about a real person, then?"), and it's where "cares about you but won't cheer on the cruelty" fits.
