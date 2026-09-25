@@ -141,3 +141,17 @@ E40. A how-to section with no owner material came out 100% AI twice (Borrow One 
 - Round 1: tips, each paragraph ending on a small landing.
 - Round 2: a threaded "say it's late" scenario, with his source edit in nearly verbatim.
 Both kept the source's outline, one job per paragraph (D9), and a threaded hypothetical didn't break the list. When the only owner material is a line or two and two drafts fail, stop: ask the owner one targeted question about his own experience of the thing, and offer cuts to what the article already covers. Don't write a third round in costume.
+E41. The coach register is a tell of its own, even when every sentence passes rules B1–B14. A calm, validating voice that only reassures, instructs or anticipates feelings reads AI ("you can start by", "at some point you'll want", "it's tempting to… but", "you might still…", "that's fine", "the next step is"). Borrow One Function rounds 1–4 were all in it. What passed instead had someone thinking out loud: a stance, a reason, an argument, a real disagreement with the source, or humor that came out of the thought.
+E42. Pangram recognizes rewritten AI text. Round 5 came back "This text appears to have been paraphrased or rewritten". Five rounds kept the source's skeleton (its points, in its order, one job per paragraph), so fixing tells, adding stance or adding an image couldn't change the result. For a source section with no owner material:
+- close the source;
+- write what a person would want to say about the topic, in their own order;
+- then run the source's point list as a coverage check only (D9), and fold anything missing in as asides.
+And run the written audit before every Pangram check (D8). Rounds 1 and 2 were tested without it.
+E43. Before rewriting an AI source section, reread a stretch of Joel's own rewrite of AI prose (E20 made concrete). His published somatic v4.2 tests 100% Human against r01's AI 0.978. What he does:
+- absurd concrete examples in place of relatable ones ("Your pet monitor lizard peed on you");
+- parenthetical asides;
+- connections with names and dates (Mesmer in the 1770s; EMDR critiqued as distilled hypnosis);
+- first-person preferences ("One daily sequence I like");
+- comparisons with a joke inside ("You don't need a pool at home");
+- small slips.
+The coach voice does none of these.
