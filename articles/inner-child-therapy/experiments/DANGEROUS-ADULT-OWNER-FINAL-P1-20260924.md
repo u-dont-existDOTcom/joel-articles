@@ -214,3 +214,22 @@ As for when their little one gets a turn, I'd say once scaring somebody has stop
 
 AI comparison: a plain AI would say "when you've consistently managed your urges over a sustained period and feel emotionally stable; a mental-health professional can help you assess readiness." P7 contradicts the managing framing (the appetite has to fade — Joel's "thoughts decide when"), drops "you'll feel ready" (the reader is the least reliable judge), and swaps the professional assessor for a real person who likes them and won't laugh along, i.e. borrowed adulthood from a live example.
 Full assembled H2 and owner-lock table: `DANGEROUS-ADULT-H2-ASSEMBLED-20260925.md`.
+
+## P7 + full H2 — owner-reported Pangram (2026-09-25 02:07 UTC)
+
+Joel: "your P7 is human on pangram (low conf because low word count). the entire section is now human high conf. so it really looks like you're getting the hang of this." Full-H2 text tested = body SHA `f8068270dd03577d85decad809a4a10ad6213700df41f0485dc940ce9666d4f7` (P1–P7, 451 words; see the assembled file). Joel also said to leave "you're basically the frightened kid" and the map's role-name "the child" as they are.
+
+## P2 r2 — Joel: "i overlooked p2. that little paragraph is weird can you fix that?"
+
+Diagnosis (Claude):
+- It was a premise + short knock-down (rule 3): "…call themselves sovereign. But when you talk to them a bit, it turns out…" — a setup-and-reveal micro-structure.
+- It dangled: it raised the sovereign/master contradiction and nothing ever used it. Deleting P6 r1 (which had resolved it) turned it into an orphaned jab, and Claude didn't re-check P2 after that deletion.
+- It never said why sovereignty matters for inner child work.
+
+Fix: tell it as a sequence ("and then somehow, once you talk to them a bit, there's a master…"), then give the consequence for this guide — whoever they can't refuse ends up raising their little one. That also makes the locked sovereignty function (the ability to refuse) explicit. SHA `cfa37edf56757a3d2df0f139e28df139e9dd23ca31595a28271140ba54d37643`, 41 words:
+
+```text
+Some of them even call themselves sovereign, and then somehow, once you talk to them a bit, there's a master they have to obey. If they can't ever tell that master no, then that's who'd end up raising their little one.
+```
+
+The H2 with P2 r2 has body SHA `c83333298d5d7e4c4a838e1208d6c7befc50a15c50e4f2d87bc9319b15ad50d3` (468 words). Not yet Pangram-tested.

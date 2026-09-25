@@ -35,7 +35,7 @@ The lock lists every function below. Joel said on 2026-09-24 that the last two s
 | …including indirect contact | P4 "anywhere near it", P6 "stays out of it" | implicit only |
 | the child is not a diagnostic test | P4: the person wondering whether they're malicious finds out by meditating, before the inner child comes "anywhere near it" | implicit only (Joel's own P1 rewrite dropped the explicit test) |
 | work remains adult-focused | P1 "deconstruct the adult identity", P6 "starts with the grown-up they are now", P7 "until then" | explicit |
-| sovereignty is behavioral capacity to pause/question/refuse/revise | P2 jab (they obey a master) | implicit only (explaining it was rejected as rule-6 overexplanation) |
+| sovereignty is behavioral capacity to pause/question/refuse/revise | P2 jab (they obey a master); P2 r2 (2026-09-25 02:10) "If they can't ever tell that master no…" | implicit in P1–P7 as Pangram-tested; explicit (refuse) in P2 r2 |
 | identity/belief/charged thoughts alone don't establish harmful intent | P3 (thoughts don't make you a bad person, but not now — owner's revised claim 5) | thoughts explicit; beliefs/identity implicit |
 | verbal promises alone do not clear child work | P7: the criterion is a change that holds through bad days | implicit only |
 | care may continue without assisting exploitation | P7 "a real person … who likes them and won't laugh along" | explicit |
