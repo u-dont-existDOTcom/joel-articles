@@ -34,7 +34,7 @@ Nobody leaves a baby starving on purpose. I just didn't believe there was a baby
 
 I think most people who chase spiritual freedom are also trying to get away from something painful in themselves, and a lot of it goes back to childhood. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I did it too. It doesn't mean you're stupid or crazy.
 
-Spending your whole life processing the wounded kid isn't freedom either. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.
+Spending your whole life processing your wounded inner child isn't freedom either. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.
 
 ### Don’t Give the Inner Adult Away
 
@@ -42,7 +42,7 @@ If you still feel like a kid inside, somebody who seems grown-up can feel like s
 
 Even [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-book/) comes from a tradition where devotion to a teacher is a big deal, and she still says a teacher should “wean us from dependency altogether” and help us grow up.
 
-If you're actually in danger, maybe you need to get out or get some help, even if meditation is helping with the pain. Calling it “your story” doesn't protect the kid from what's happening.
+If you're actually in danger, maybe you need to get out or get some help, even if meditation is helping with the pain. Calling it “your story” doesn't protect your little one from what's happening.
 
 Say you grew up learning that what you wanted didn't matter. Now you're only just finding out what you actually think, maybe even learning to say no. Then somebody tells you there is no self. That might be freeing at another point in your life; right now it can sound a lot like the message you already know: what you want doesn't matter. Or you tell a therapist, “No, that's not right for me,” and they call it resistance. Maybe they're right. But maybe they're wrong about you, or taking you somewhere you don't want to go. You still have to be able to say so.
 
@@ -82,7 +82,7 @@ And it might not be the same order all the time. You could have a feeling before
 
 You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns you: you're supposed to be observing yourself. 😀 Pema Chödrön calls this tightening and urge before the story has finished forming, "shenpa." Maybe forget the parts detective work for a minute. You can figure that out later.  
 
-When you catch it, look around and just take a moment to enjoy some free honesty: "Oh! I'm hooked again! That's awesome I could notice it!" If nobody is in danger, take a breath or three before you finish whatever you were doing. Sometimes human beings need to be being, not always doing. 🙃 Maybe then you'll find there's enough adult around to be nice to the kid for a second. Or enough Protector to stop something you'd regret later.
+When you catch it, look around and just take a moment to enjoy some free honesty: "Oh! I'm hooked again! That's awesome I could notice it!" If nobody is in danger, take a breath or three before you finish whatever you were doing. Sometimes human beings need to be being, not always doing. 🙃 Maybe then you'll find there's enough adult around to be nice to your little boo for a second. Or enough Protector to stop something you'd regret later.
 
 Here's where I want to clearly depart from the new age wisdom that all your problems are self-created: Somebody may really have crossed a boundary and still have hit something old in you. You felt your stomach tighten up, and that somehow meant “They're evil.” But you can defer that judgement for when you're in your happy place.
 
