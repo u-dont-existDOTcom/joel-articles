@@ -17,6 +17,7 @@ A7. Verify quotes and attributions before using them (fake Buddha quotes; Buddha
 A8. When you cut part of a source list, check what's left. If the items balance each other (gives vs costs), the pair is the point; dropping one half changes the meaning.
 A9. Make a metaphor's sense obvious: show the concrete way the image is true (on fire → people get out of your way) instead of asserting it.
 A10. When the source is a story, tell it happening (verbs, present tense), not as a citation.
+A11. After writing an image or claim, ask what counterexample the reader will think of right away, and throw it in plainly, the way a person talking would (on fire → "unless you're the Human Torch"). Leaving the obvious objection unanswered makes the point feel unconsidered.
 
 ## B. After drafting — run on every sentence before showing Joel (post-draft only, not a writing prompt)
 

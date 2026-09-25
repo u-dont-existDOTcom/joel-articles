@@ -128,3 +128,11 @@ Rejected on the way (each a Joel correction; the lesson trail matters more than 
 7. "Anger makes you feel powerful" — conflates anger with ill will.
 8. "Even the Buddha, back before he woke up…" — blurs the most striking fact into vague timing.
 9. "Being on fire probably does too, but it burns you first." — passed, but the point isn't obvious; make the concrete sense in which fire is power visible.
+
+### P5 fire revision — Joel's addition (2026-09-25 00:02 UTC)
+
+Joel on the "people would definitely get out of your way" version: "that's better, altho i'd have added a reference to that fire guy on Fantastic Four superheros since he's the guy on fire people might think about". The Human Torch doesn't feel heat from his own fire (marvel.com character page), so he's the reader's obvious counterexample. Current P5 candidate, not yet Pangram-tested, SHA `1beb72ff0def1e3607f36795de8a110eab0ed3195141193dd1a451ab8864c603`:
+
+```text
+In one of the Buddha's own accounts of how he woke up, ill will shows up in his mind and he sees it's hurting him. If he had to figure that out by watching, it's not obvious. Ill will can make you feel powerful. Being on fire would too, and people would definitely get out of your way, but unless you're the Human Torch from the Fantastic Four, you'd be the one burning. So it's worth noticing what it's doing to you. Has it ever left anybody at ease, with nothing to regret afterward? Of course not.
+```
