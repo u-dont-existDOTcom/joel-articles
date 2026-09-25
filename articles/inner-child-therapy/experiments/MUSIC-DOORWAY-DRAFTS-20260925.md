@@ -240,3 +240,7 @@ If you start getting scared of your own crying, turn the song off for tonight.
 2. Assembled opening with round 4 (the three intro lines, round 4, and the whole Chicken-and-Egg section with the stages list): **100% Human**, 845 words, no short-text caveat.
 
 Two checks.
+
+## Accepted (Joel, 2026-09-25 23:02 UTC)
+
+"good continue". Round 4, as installed, is owner-accepted. The ex's name stays withheld unless Joel says otherwise.
