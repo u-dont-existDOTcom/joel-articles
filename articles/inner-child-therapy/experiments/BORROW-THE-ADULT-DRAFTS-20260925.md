@@ -71,3 +71,12 @@ Repeating the name keeps the third-person move and sets up the Elmo line. Not re
 
 Lesson: self-audit rule A12.
 
+## Accepted and installed (Joel, 2026-09-25 21:27 UTC)
+
+"yes you can repeat it once that's fine altho i was gonna say "Joelito" but you're right that it does lad into the elmo thing so that's good. and yeah no need to repangram that."
+
+- Round 1b is installed in `HUMANIZED-ARTICLE-SO-FAR.md` under the h1 `Borrow the Adult Before You Can Be the Adult`.
+- The source h1 intro paragraph and W3 are deleted, as proposed.
+- Installed body SHA: `808d54c9c206c383f0e4d4335c563a7a4e926a4f7b4197a017c995947d093694`.
+- Joel's alternative name for the little one was "Joelito".
+

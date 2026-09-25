@@ -116,3 +116,14 @@ E29. One owner practice per section. Joel cut his head-shaving line: "i don't wa
 E30. Owner scope: manipulators are outside what the article can help. "they will simply manipulate anyone who tries to help them. they are not part of what i can help with. but if they fall into the simpler category of people with malice then they are already covered." When the later identity-development and vow gates come up, cover malice and don't add manipulator-specific material. The lock's "exploitative" wording is narrowed by this decision.
 E31. When the owner has already supplied rough cognition for a paragraph, start from it verbatim and add only the next thought, not the source functions it's missing. Write-It P3: v3 (the functions one per sentence inside his pencil scene) tested 100% AI. v4b (his 44 words, with only the dashes changed, plus one question the adult would ask and its flat answer) tested 100% Human, and the whole section 100% Human. Earlier, Candidate O had added three function sentences to the same cognition and tested AI 1.0.
 E32. Pangram with Joel's account: texts under about 100 words still show "Confidence limited — short text". Test the whole section as well to get a reading without that caveat. This turn used three checks.
+
+## I. Added 2026-09-25 21:45 — after the music insertion in the opening
+
+E33. An owner insertion lands at a new position, so re-run E8 against that position. The music text says "the Nurturer", "the Protector" and "the practice". It now sits before Chicken-and-Egg introduces any of them, so the humanized version can't use those words yet.
+E34. Owner facts can collide across sections. The opening's "I used to listen to The Queen and the Soldier every night because it reliably got the tears out" and My Journey's "from age twelve to twenty-six I was depressed and cried every night" will be read as the same nights. Ask the owner which period it was; don't join or separate them yourself.
+E35. The with-and-without test (E27) on music round 1:
+- With his line: 100% Human (158 words).
+- Without it: 47% AI, in the later part, where each of my sentences carried one source function in the source's order.
+- D9 and E31 predicted this. His one line carried the section, and the joined opening still tested 100% Human (780 words).
+- So it's a learning flag, not a blocker. The fix is his next thought, not better costumes for the functions.
+
