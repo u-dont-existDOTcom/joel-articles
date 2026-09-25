@@ -92,7 +92,17 @@ You might barely have spontaneous words in your mind and yet still be able to th
 
 And it might not be the same order all the time. You could have a feeling before thoughts, or thoughts might come first and provoke a feeling. They say hindsight is 20/20, but you actually might not even know which happened first. That's ok, too.
 
-<!-- Regulation material between these owner-final blocks remains under humanization and is not silently presented here as finished. -->
+<!-- Regulation section (source H2 `Regulation May Come Before Dialogue`) installed 2026-09-25 from writer branch `handoff/claude-dangerous-adult-20260924-1631`. Owner-accepted: round 3 without the head-shaving sentence (Joel 20:24 UTC: "your round 3 is good but let's remove my shaving head sentence"). That exact text tested 100% Human on Pangram 4.0 (Claude-run web check, 175 words, short-text confidence). Record: `experiments/REGULATION-SECTION-DRAFTS-20260925.md`. -->
+
+## Your Body Might Need Some Love First
+
+If you notice tension in your solar plexus or abdomen, or anywhere else that seems to be keeping you from relaxing into that heart chakra love, try some non-forced, slower exhales and a little gentle self-massage. I love using one foot to massage the other foot like a yin-yang symbol, but you can start with some nice circular or spiral massage right on the tense spot.
+
+If that's not enough, there's deeper somatic stuff like [Shaking](https://www.skool.com/shakingmedicine/about?ref=ee69b2178e96491f88530789dc160291), tapping (EFT), EMDR, Brainspotting, Somatic Experiencing, Water Therapy, Massage, Energy Healing, or some other bottom-up approach.
+
+When your nervous system is flooded, your protective parts are busy with the flood, so they're not going to let your little one come out and talk much anyway. Some people go straight into EMDR on their worst memory before they can even stay in the room. Then they get flooded all over again and decide EMDR doesn't work. Here's a map of what to try when:
+
+<!-- Native Substack embed from source, unchanged: "Somatic Therapy Modalities Map & Free Intro Sessions!" (https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing); the live post title is now v4.2 (Sept 22, 2026). -->
 
 ### Catch the Hook Before the Story Takes Over
 

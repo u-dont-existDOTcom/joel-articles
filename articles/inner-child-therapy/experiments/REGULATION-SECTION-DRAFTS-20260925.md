@@ -1,6 +1,6 @@
 # "Regulation May Come Before Dialogue" — Claude drafts — 2026-09-25
 
-Status: **ROUND 3 SHOWN TO JOEL / NOT ACCEPTED / NOT INSTALLED** (round 1 tested 36% AI; round 2 Mixed, AI/high from the flood sentence on; round 3 tested Human on Claude-run checks; see below). Chicken-and-Egg options A/B at the end are superseded by Joel's own rewrite (`CHICKEN-EGG-OWNER-FINAL-OPENING-20260925.md`). Lane: `handoff/claude-dangerous-adult-20260924-1631`. Joel 03:46 UTC: "and then continue and work on the next section also".
+Status: **OWNER-ACCEPTED (round 3 without the head-shaving sentence) / INSTALLED 2026-09-25** (round 1 tested 36% AI; round 2 Mixed, AI/high from the flood sentence on; round 3 tested Human on Claude-run checks; see below). Chicken-and-Egg options A/B at the end are superseded by Joel's own rewrite (`CHICKEN-EGG-OWNER-FINAL-OPENING-20260925.md`). Lane: `handoff/claude-dangerous-adult-20260924-1631`. Joel 03:46 UTC: "and then continue and work on the next section also".
 
 Placement: after the owner-final `## You Don’t Need an Inner Monologue` blocks, replacing the "Regulation material … remains under humanization" comment, before `### Catch the Hook Before the Story Takes Over`.
 
@@ -162,3 +162,15 @@ Claude-run Pangram 4.0 results (web dashboard in the built-in browser; not signe
 - R3 s4 "Here's a map of what to try when:": a pointer to the embed. The source has one too ("Check the roadmap here:").
 - D2: the AI answer says "the order matters; start with stabilization before trauma processing; see this roadmap". Round 3 shows the wrong order happening and what it costs, adds no rule, no safety coda and no reassurance, and carries the owner's contrarian aside.
 - Cut from round 2: the sleep/shorter paragraph, Pokémon, the waiting room and "lighter reparenting". The waiting room and lighter reparenting weren't in the Regulation source; they came from the AI-shaped somatic text. The eyes-open version was already proposed for deletion.
+
+## Final — owner-accepted and installed (Joel, 2026-09-25 20:24 UTC)
+
+"your round 3 is good but let's remove my shaving head sentence, i don't want to say that except in the article since i already talked about one of my own practices there."
+
+The installed text is Test B (100% Human, 175 words), with the Shaking link and the map embed restored. It's in `HUMANIZED-ARTICLE-SO-FAR.md` under `## Your Body Might Need Some Love First`, replacing the "Regulation material … remains under humanization" comment.
+
+SHAs (markdown as installed): R1 `b2c7ff723c08e1b6f4999adc18fc8106c4c04b3dbef4207b5850fcc0e6419eaa`, R2 `c1a061d7c62e1fb2a7c2f6f76f956de49b900d0b63b8000f3bf13512cdb90b05`, R3 `03331a506e1a9f0f82881258bce37263138ad5940050ae06b2c80067760c5e21`; body `f1b5f1d6ded42c7f3d94ea854b42f02fefebb8725a87b59c2f13d11c7b7b0e1b`.
+
+Joel's published view supports R3. The live map article (v4.2, Sept 22, 2026) says: "While EMDR is often treated as a therapy for anyone with trauma, the truth is that going directly into the trauma memory can sometimes be re-traumatizing. Not everyone handles EMDR well, which is one reason I have all these other layers here."
+
+Correction to the round-2 diagnosis: Joel says the published somatic article is fully humanized and tests 100% Human. The repo copy Claude mined (`articles/somatic-therapies/master.html`, r01 of 2026-08-23) was stale. See E22 and `articles/somatic-therapies/experiments/OWNER-PUBLISHED-V4-2-TEXT-20260925.md`. Round 2's failure is still explained by its shape (E23–E26).

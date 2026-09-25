@@ -351,3 +351,9 @@ Lesson (E2, E5): the cut group was the dangling reference, and the owner's fix w
 ### Lock question raised with Joel (E4)
 
 P1 r3 no longer names exploitation. The `dangerous-present-adult-safety-gate` lock names "harmful/exploitative present intent" and "care may continue without assisting exploitation"; the promotion receipt had mapped the first to P1's "working people" and the second to P7's "won't laugh along", which covers cruelty only. "Scared or small" covers frightening and humiliating, not using people. Raised with Joel on 2026-09-25 (~20:10 UTC) with one option: put it back where it's picked up, in P7 ("…who likes them and won't laugh along or help them work people…"). Otherwise the lock is recorded as narrowed by owner decision. Pending his call.
+
+### Owner decision on the lock question (Joel, 2026-09-25 20:24 UTC)
+
+> "for P1, the reason i'm thinking there's no need to talk about people who use therapy to manipulate people is because i don't think those people can be dealt with. they will simply manipulate anyone who tries to help them. they are not part of what i can help with. but if they fall into the simpler category of people with malice then they are already covered."
+
+Disposition: P1 r3 stays as installed. The `dangerous-present-adult-safety-gate` lock is narrowed by owner decision for this H2. Manipulators who use therapy to work people are out of the article's scope. Malicious ones are covered by the malice material (P1 "a little rush out of making somebody scared or small", P3–P7). "Care may continue without assisting exploitation" has no separate carrier. The lock text in `OWNER-LOCKS.json` still names exploitation and should be amended at the next registration/reconciliation step; this writer branch doesn't edit it. Apply the same scope to the later identity-development and vow gates (self-audit rule E30).

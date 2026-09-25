@@ -62,3 +62,23 @@ To register:
 2. Update those references.
 3. Regenerate the structure inventory. The changes to cover: one added text paragraph, one added empty paragraph, and two new image asset IDs.
 4. Move the 2026-09-20 identity to a historical claim, as was done for 2026-09-15.
+
+## Addendum — owner-supplied insertion (Joel, 2026-09-25 20:24 UTC)
+
+> "also, i'm adding this to right before "When the urge to escape arrives" still needs humanizing tho: … so put that into the AI version of the article"
+
+The new h3 section goes right before `<h3>When the Urge to Escape Arrives</h3>`, under `Start With Whatever Showed Up` in the h1 `When the Adult Voice Feels Fake`. Joel's text as pasted (SHA `cfa9ffb9d6121d5c8a8f21596ed76c67ae430256fde2d35679435e8127d24132`):
+
+```text
+When to Change the Strategy
+If you keep trying something and not much seems to change, don’t immediately decide the whole method has failed—and don’t protect it by repeating the same thing forever either. First find out what actually happened.
+Did you really get to the step you meant to practice, or did you mostly think, read, talk, or prepare for it? Was the adult function you needed actually available? Did fear, distrust, confusion, exhaustion, lack of skill, a practical barrier, or a protective part get in the way? If one concrete blockage shows up, work on that blockage and keep the larger goal.
+For example, if you are trying to comfort the child but the loving adult position is not really there yet, the next move may be to borrow that adult function first—not to force more loving sentences at the child and not to declare reparenting useless. Then try the adjusted version and decide beforehand what small change would tell you it helped.
+Some effects should be visible quickly; others are skills that develop through repetition. Don’t invent a magic number of attempts. Change or stop the approach sooner when it is making things worse, you genuinely don’t want to do it, it is not feasible, the target turns out to be wrong, or something the method specifically predicted should happen keeps failing under the conditions where it was supposed to happen. A clearly better-supported route is also a reason to switch.
+One more trap: don’t define “I did it correctly” as “it worked.” And don’t add a new invisible prerequisite every time it disappoints you. The point of reviewing the strategy is to learn what is actually helping, what is blocked, and what should change next—not to make the method impossible to disprove.
+```
+
+- HTML fragment, in the source's plain `<h3>`/`<p>` markup: `experiments/SOURCE-INSERT-20260925-WHEN-TO-CHANGE-THE-STRATEGY.html` (1802 bytes, SHA `78a035eff88d71f7663c4f8cb40e4094f79c32e22b06450ab9fd7fd31b951551`).
+- Working AI version: `experiments/SOURCE-WORKING-20260925B.html` = the exact 2026-09-25 snapshot with the fragment inserted once before the anchor (153185 bytes, SHA `2825e53bcbe3da787c3acb15bf35c7eec063c688dbaecc7d564aca9532f81b60`). This isn't an editor paste; the snapshot stays the exact owner paste.
+- Projection: no humanized text exists for `When the Adult Voice Feels Fake` yet. The section gets humanized when that part is reached.
+- Registration: use the working version, not the bare snapshot, when `master.html` is next registered.
