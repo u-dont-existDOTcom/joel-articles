@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). P4 FAILED FIVE TIMES (100% AI), THE LAST THREE AFTER THE FULL INVENTORY. STOPPED; P4 (FIFTH ATTEMPT, JOINED TO ITS RESEARCH) IS WITH JOEL FOR A MINIMAL FIX.**
+Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). P4 PASSES (SIXTH ATTEMPT, 100% HUMAN) AFTER JOEL'S MARCHING-ORDER POINT. P5 (IDEALISTIC ADVICE) FAILED THREE TIMES AND GOES TO JOEL.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -456,4 +456,155 @@ Linter: REVIEW, no hard fails; B1 as above. If this fails, P4 goes to Joel.
 ### P4, fifth attempt: result
 
 Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 79 words, short text. I'm stopping here. P4 goes to Joel for a minimal fix, and nothing more of the section gets drafted until his fix shows what I'm missing (E59).
+
+## Joel, 18:30
+
+> "it's immediately obviously ai to me without needing pangram, you don't see the marching order? like all planned from advance so each sentence has the next function, perfectly optimized. it would be simple to fix this, you really need me to?"
+
+Every P4 draft marched. Each sentence did the next planned job, then handed off: exercise → it works → its name → mechanism → my note. That's T02 and T09, and my inventory marked both ABSENT because no single sentence looked wrong. The tell is in the sequence, not in any sentence. Recorded as E66.
+
+## P4, sixth attempt (recorded before its call)
+
+The fix is to let the paragraph dwell where the material gets interesting, which is King Solomon:
+- His famous ruling was about a baby (in an article about the baby in you).
+- He was brilliant about other people's lives and then wrecked his own.
+- The name of the effect comes last, almost as an aside.
+- Nothing translates the story afterward (T08). The baby echo is left to the reader.
+
+Article version:
+
+> Or picture somebody you care about living your exact life, your family and your bank account included, and ask what you'd tell them. It [works weirdly well](https://pubmed.ncbi.nlm.nih.gov/21728454/), for the same reason King Solomon could sort out two women fighting over a baby. He offered to cut it in half, and the real mother was the one who'd rather give him up than let that happen. Then he married seven hundred women, and his kingdom fell apart right after him. Psychologists actually call this [Solomon's paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/).
+
+Plain text as tested: 85 words, sha256 5eb0aeafce7f5bc2ddabdc2665063c36f46c42dc7cf021cf2bd369d004fe0d3c.
+
+Sources for the story, Bible Gateway, NIV (https://www.biblegateway.com/passage/?search=1%20Kings%203%3A16-28%3B%201%20Kings%2011%3A1-13&version=NIV):
+- 1 Kings 3:16–28: two women each claimed the living baby; Solomon ordered it cut in two; the real mother begged him to give it to the other woman instead.
+- 1 Kings 11:3: "He had seven hundred wives of royal birth and three hundred concubines."
+- 1 Kings 11:11–13: the kingdom is torn away after his death, in his son's time.
+- The research links are as before. "Works weirdly well" goes to the distance study (21728454), and "Solomon's paradox" goes to 24916084.
+
+Preservation:
+- BL-U6: the question's idea.
+- BL-U7: "your exact life". The tidier-life caution moves to the next paragraph, with BL-U9.
+- BL-U8:
+  - "People wise up" is now "works weirdly well".
+  - Solomon's paradox is named and linked.
+  - "Distance narrows the gap" is carried by the link and by "for the same reason".
+  - "My practical version" is implicit: the question is offered as the article's own, with the studies as the reason it works.
+
+Inventory, the rows that matter here:
+- T02/T09 (sequence): the paragraph goes exercise → comparison → story, two sentences → an afterthought name. Most of the attention goes to the story.
+- T08: nothing explains the story after it.
+- T20: the last line tags the name. It's plain, not a quip. The earlier ending "Great with other people's babies, apparently." was cut as both aftercare and a landing.
+- T25: the colon in the story was changed to two sentences.
+- C02: "him" is the baby, then Solomon, and each resolves from its subject.
+- C04: every fact is sourced above.
+- Every other row is ABSENT, as in the fifth attempt.
+
+Linter: REVIEW, no hard fails.
+
+Before the call, the linter flagged the last line ("Psychologists actually call this Solomon's paradox.") as a short landing. That's right: ending on the name is a reveal. So, REWRITE: the name moves into a parenthetical aside, and the paragraph ends where the story ends. This is the version tested:
+
+> Or picture somebody you care about living your exact life, your family and your bank account included, and ask what you'd tell them. It [works weirdly well](https://pubmed.ncbi.nlm.nih.gov/21728454/), for the same reason King Solomon (psychologists actually call this [Solomon's paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/)) could sort out two women fighting over a baby. He offered to cut it in half, and the real mother was the one who'd rather give him up than let that happen. Then he married seven hundred women, and his kingdom fell apart right after him.
+
+Plain text: 85 words, sha256 887833701db844457b6ec0d7d2dbcbe18d7d4381f75c008b306519ef4fd45dc7. Linter: CLEAR.
+
+### P4, sixth attempt: result
+
+Pangram 4.0, Joel's account: **Human Written, 100% Human**, 88 words, short text. P4 stands, as the article version above.
+
+## P5 (recorded before its Pangram call)
+
+BL-U9, plus BL-U7's tidier-life caution moved here, since it's the same worry.
+
+Research, from the paper itself (Danziger, Montal & Barkan, Journal of Personality and Social Psychology 2012, 102(6); PDF https://www.tau.ac.il/sites/coller-english.tau.ac.il/files/RP_217_Danziger.pdf; PubMed https://pubmed.ncbi.nlm.nih.gov/22268816/):
+- The abstract: "advice is more idealistic than choice in decisions that trade off idealistic and pragmatic considerations".
+- Study 3, the medical school (lifelong dream) versus pharmaceutical company (lucrative job) dilemma: 69.4% of advisers picked medical school, against 42.8% of people choosing for themselves.
+- So "about seven in ten" and "fewer than half" are the paper's figures.
+
+> Friends are great at telling you to just quit the job, since it's not their rent. In [one set of studies](https://pubmed.ncbi.nlm.nih.gov/22268816/), about seven in ten people advising someone else said go to med school and chase the dream, while fewer than half of the people deciding for themselves picked it over a well-paid job at a drug company. Med school is easy to sign somebody else up for. So don't slip your stand-in a trust fund, and keep the kind part you could actually pull off with what you've got.
+
+Plain text: 90 words, sha256 17328132616391024a8e7a2ea44a34ed590a7d1a2c0598397944b7eca1a0f0f5.
+
+Trace:
+- BL-U9:
+  - Idealistic because the adviser doesn't pay: "since it's not their rent", and the study.
+  - "Don't borrow advice just because it sounds generous" and "keep what's compassionate, sane, realistic and fits the actual options": "keep the kind part you could actually pull off with what you've got".
+- BL-U7, moved here: "don't slip your stand-in a trust fund".
+- Added: "Med school is easy to sign somebody else up for", a reaction with no claim.
+
+Marching check (E66): example and reason → the study with its numbers → a reaction that does no job → the instruction. The reaction is the break. An earlier draft had a bridge ("That's the flip side of Solomon."). The linter flagged it as a short knock-down, and it went.
+
+Inventory:
+
+| row | result |
+|---|---|
+| T02, T09 | Resolved (above). |
+| T05 | KEEP. "Trust fund" is the idiom for an easier life, and the rent line is the familiar instance. |
+| T13 | ABSENT. "Not their rent", and the reaction. |
+| T17 | UNCERTAIN, KEEP. The opening generalization is wry and carries its reason. |
+| T20 | ABSENT. It ends on the instruction. |
+| T25 | ABSENT. No colon. |
+| C04 | ABSENT. Every figure is from the paper, above. |
+| All other rows | ABSENT. |
+
+Linter: CLEAR.
+
+### P5 result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 95 words, short text.
+
+It still marched: example → evidence → "reaction" → "So…" lesson. The reaction ("Med school is easy to sign somebody else up for.") wasn't a reaction. It re-said the finding, which is aftercare (T08). And the "So" instruction at the end is the takeaway step. I also told the study the way an explainer does ("In one set of studies, about seven in ten…"), not the way a person does.
+
+## P5, second attempt (recorded before its call)
+
+- The instruction comes first, where it follows on from P4 ("And don't slip your stand-in a trust fund…").
+- Its reason carries BL-U9's point that generous isn't enough: "very kind advice you can't use".
+- The paragraph ends on the study, told the way a person tells it ("There's actually a study where…"), with "mostly" and "leaned toward" in place of percentages. Both match the paper: 69.4% of advisers picked medical school, 42.8% of choosers did.
+- Choosers were a separate group in the study, so it doesn't say "when it was their own choice".
+
+> And don't slip your stand-in a trust fund, or you'll end up with very kind advice you can't use. Friends are great at telling you to just quit the job, since it's not their rent. There's actually [a study](https://pubmed.ncbi.nlm.nih.gov/22268816/) where people advising someone else mostly said go to med school and follow the dream, while people choosing for themselves leaned toward the well-paid job at the drug company.
+
+Plain text: 68 words, sha256 9f13e8ad1cbba3e7ddef43b4cd61bec2c8059c7c0b84b56b2d1ff62cae9fc5bc.
+
+- Marching check (E66): the instruction and its reason, then two sentences of why, which stay with the rent and the study. No lesson line at the end.
+- Inventory: T08, T18, T20, T25 and T28 are ABSENT now. T12 is UNCERTAIN, KEEP: the adviser/chooser contrast is the study's own, and the phrasing isn't mirrored. C04 is ABSENT, sourced above. Every other row is as in the first attempt.
+- Linter: REVIEW. E41 fires on "you can't use" because the pattern `\byou can\b` matches inside "can't". It isn't coach register: KEEP. (The linter should exclude "can't"; noted for the next tooling pass.)
+
+### P5, second attempt: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 75 words, short text.
+
+The difference from P4, which passed:
+- P4 told a named person's story (Solomon).
+- P5 talks about categories: "friends", "people advising someone else". That's the game's editorial-explainer voice.
+- The paper's own scenario has a named person: its advisers were helping "someone named Ben" (Study 3).
+
+## P5, third attempt (recorded before its call)
+
+- It tells the study through Ben, which is the study's own detail.
+- The adviser-doesn't-pay point becomes an aside, "(easy for them to say)".
+- The generalization about friends goes.
+- It ends on the finding.
+
+> And don't slip your stand-in a trust fund, or you'll end up with very kind advice you can't use. [One study](https://pubmed.ncbi.nlm.nih.gov/22268816/) had people help a made-up guy named Ben choose between med school, his lifelong dream, and a well-paid job at a drug company. Most of them told Ben to chase the dream (easy for them to say), while people making the same choice for themselves mostly took the money.
+
+Plain text: 70 words, sha256 817c96f4ac4fc2f186657b6e557dd3adb06e000f8b5fd7223b5653e32b58c0a8.
+
+- C04: "Most of them told Ben to chase the dream" matches 69.4% of advisers. "People… for themselves mostly took the money" matches 57.2% of choosers taking the pharmaceutical job.
+- Inventory:
+  - T05: Ben is the study's own detail, so it's load-bearing.
+  - T18: the choosers' result sits inside the same sentence, so there's no knock-down.
+  - T12: the contrast is the study's own, and the phrasing isn't mirrored.
+  - T02/T09: one instruction, then the Ben story gets the attention.
+  - Every other row as before.
+
+### P5, third attempt: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 76 words, short text. Three attempts, each with a structural reason: the lesson-last order, then the instruction first and the study last, then the study told through Ben. None moved it. I'm stopping here rather than keep going blind, and P5 goes to Joel.
+
+My best guesses:
+- A lab-study summary is explainer voice however it's dressed. Ben is a scenario, not a story like Solomon's.
+- The opening line has a crafted paradox ("very kind advice you can't use").
+- "(easy for them to say)" is a stock aside.
 
