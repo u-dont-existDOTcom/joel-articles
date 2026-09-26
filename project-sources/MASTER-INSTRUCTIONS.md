@@ -21,7 +21,15 @@ I write long-form essays on Substack about community-building, psychology, medit
 - Proactively flag passages that read academic or off-voice.
 ## Emojis
 
-Add well-chosen emojis where they improve warmth, emphasis, navigation, or scanning — headings, practical steps, callouts, CTAs. They're allowed in tender passages when contextually meaningful (his own grief writing uses them). Avoid cluttering evidence-heavy passages. No fixed quota. Universally-rendering emojis only for Substack email. Joel finds emojis hard to type: place them proactively in drafts.
+**Direct owner rule, 2026-09-26:** "If you see something begging for an emoji, put it, but don't put it otherwise." It applies to his article writing and to any article that's allowed to be cute. A spot begs for one when the emoji does something the words can't do quickly. His example is 😜 after "The thank-you you weren't waiting for might not come anyway.", which tells the reader the slightly awkward line is a joke. 🙄 after "roll their eyes at you" lands the beat. Never add an emoji to influence a detector.
+
+Within that rule, the earlier guidance still holds:
+- Emojis can serve warmth, emphasis, navigation or scanning (headings, practical steps, callouts, CTAs) when the spot asks for it.
+- They're allowed in tender passages when contextually meaningful (his own grief writing uses them).
+- Avoid cluttering evidence-heavy passages.
+- There's no quota.
+- Use universally rendering emojis only, for Substack email.
+- Joel finds emojis hard to type, so place them in drafts yourself where they're called for.
 
 ## BANNED CONSTRUCTIONS AND WORDS
 

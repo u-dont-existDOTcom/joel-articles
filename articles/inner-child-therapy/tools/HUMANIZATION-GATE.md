@@ -68,11 +68,12 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - On Borrow round 11 every paragraph passed alone, yet the section was flagged "at the close". Its last paragraph was tying things up: a callback to an earlier line, and the section's thesis word restated in the last sentence.
 8. **Pangram (E27, E37; SKILL.md owner-delivery admission).**
    - Check every paragraph I wrote on its own, and then the whole section. A section can pass while one of its paragraphs is AI, which is the cheating the per-paragraph rule exists to stop (Joel, 2026-09-26).
-   - The reverse happens too. On Borrow round 11 every paragraph passed alone, P6 and P7 failed together at 100% AI, and the section failed at the close. So the whole-section check stays. When it fails, localize the failure with the flagged span and neighboring pairs before changing anything.
+   - The reverse happens too. On Borrow round 11 every paragraph passed alone, P6 and P7 failed together at 100% AI, and the section failed at the close. So the whole-section check stays. When it fails, change the sentence where Pangram's flagged span starts, recheck, and follow the start if it moves (E62). Check any REVIEW-level coach phrase inside the span first. Don't fix the end of the span on a theory.
    - Run the checks side by side in separate browser tabs.
    - At most about three rounds per turn, where a round is one set of checks on one draft. Never recheck unchanged text.
    - Read results from the page text.
 9. **Record and deliver.** Put the preservation ledger, the linter report, the tell ledger and the Pangram results in the drafts file. Show Joel the prose only if every gate passed; otherwise report gate status and keep working.
+   - **Clock (Joel, 2026-09-26: "a quick check at beginning and then at the end so i know how long it took… nothing in the middle").** Read the clock once when a turn starts and once at the end, and report both. Date each Pangram record and name its turn; don't read the clock mid-turn to time it. Never write a minute that wasn't read.
 
 **Repairing a failed draft (B10, Joel 2026-09-26).** Don't fix it by swapping its phrases for less likely ones. Rewording while the structure and the other tells stay is what humanizer bots do, and it's what Pangram's "paraphrased or rewritten" flag describes. A phrase from a failed draft is judged like any other phrase, on whether it looks AI. The repair has to change what the draft says and how it's built.
 
@@ -101,7 +102,7 @@ The linter covers a handful of mechanical tells. It is not the tell ledger, and 
 
 ## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds)
 
-Twenty-two texts with known Pangram 4.0 results. The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
+Twenty-four texts with known Pangram 4.0 results. The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
 
 Not included:
 - the ablation variants of Joel's P5 fix;
@@ -133,12 +134,14 @@ They're near-copies of texts already in the set and would weight one paragraph s
 | Borrow P5, Joel's minimal fix | Human, medium confidence (Joel's check) | REVIEW | — (coach 1.85/100, close to the limit) |
 | Borrow P6, the Guide, r8e | 100% Human | REVIEW | — |
 | Borrow P7 r11 | 100% Human | REVIEW | — |
+| Borrow One Competency r13, whole section with Joel's P6 + P7 | 12% AI, "at the end" | REVIEW (miss) | none |
+| Borrow One Competency r14b, whole section, one P7 sentence changed | 100% Human | REVIEW | — |
 
 Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Since the second-person hard fail became a review note (2026-09-26), it hard-fails two (r2, r3b), still none of the Human ones.
 
 With the one-paragraph rounds added:
-- It hard-fails four of the twelve AI texts (r2, r3b, and both P5 attempts) and none of the ten Human ones.
+- It hard-fails four of the thirteen AI texts (r2, r3b, and both P5 attempts) and none of the eleven Human ones.
 - At paragraph level, coach density separated the two failing P5 attempts (2.3, 2.4) from every Human paragraph (at most 1.85).
-- It misses both context failures, the P6 + P7 pair and the whole section, where every paragraph passes alone. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
+- It misses all three context failures (the P6 + P7 pair and the whole section in rounds 11 and 13), where every paragraph passes alone. In round 13 its only coach flag in P7 was the sentence where Pangram's span started, which is why E62 says to check that flag first. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
 
 That's a small set, and the thresholds were set on it, so expect misses. A CLEAR or REVIEW only means the mechanical tells weren't found; it doesn't mean the draft reads human. Add every new Pangram result to the calibration set and retune the thresholds if they start letting AI through.

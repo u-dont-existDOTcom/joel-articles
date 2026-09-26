@@ -1,6 +1,8 @@
 # "Borrow One Function at a Time" — Claude drafts — 2026-09-25
 
-Status: **ONE PARAGRAPH AT A TIME. P3 AND P5 ARE JOEL'S FIXES (HUMAN); P4 AND P6 ARE MINE (HUMAN); P7 AND A SMALL ABLATION OF JOEL'S P5 FIX BEING TESTED**
+Status: **THE WHOLE SECTION PASSES (round 14, 100% Human, both variants). Every paragraph passed alone first. Joel's opening and his fixes to P3, P5 and P6 are his. P4, P7 (with Joel's two emojis) and the round-14 sentence are mine. Next: Joel picks 14a or 14b and says whether to install. Then the pilot and the two studies move to "When the Adult Voice Feels Fake".**
+
+Where to pick up: read this status line, then the last three headings of this file (Joel's pair fix, rounds 13 and 14). The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
 ## Trigger
 
@@ -1049,4 +1051,95 @@ What this shows:
 - A reading, not a finding: P7 only works as a closer when something comes before it, and that's when its callback and wrap-up read as AI. Alone, it's just a scene.
 
 Per the rule recorded above, the pair goes to Joel for a minimal fix rather than another attempt from me.
+
+## Joel's fix of the P6 + P7 pair, 2026-09-26 15:37 UTC
+
+Version A, his first edits. His check: Human until "A wise tradition", then AI, both medium confidence.
+
+> The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. Think back to what (and how) you decided about something like this the last time you were calm. Or ask what the wise person you respect would have you practice today. A wise tradition (like "What would Jesus do?" or "What would Buddha do?") can carry some of it for a while, too, until you can hold the direction yourself.
+>
+> The thank-you you weren't waiting for might not come anyway. 😜 You might get more like "Oh, so NOW you care?" Which, fair enough, you did take a while. Your first instinct might be "But I'm trying!", and then it's just two six-year-olds arguing. Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you. 🙄
+
+His edits in A, against the pair as it failed:
+- "What did you decide the last time you were calm? If you didn't write it down, that's probably the first thing a good guide would have told you to do." became "Think back to what (and how) you decided about something like this the last time you were calm."
+- "A tradition" became "A wise tradition (like "What would Jesus do?" or "What would Buddha do?")".
+- In P7, 😜 after the first sentence and 🙄 at the end. They aren't there for Pangram. They "seemed to beg to go right there", and the first one tells the reader the slightly awkward line is a joke.
+
+Version B, one more edit. His check: 100% Human, medium confidence.
+- "can carry some of it for a while, too, until you can hold the direction yourself." became "can give some direction, too, until you develop your own internal compass."
+
+> The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. Think back to what (and how) you decided about something like this the last time you were calm. Or ask what the wise person you respect would have you practice today. A wise tradition (like "What would Jesus do?" or "What would Buddha do?") can give some direction, too, until you develop your own internal compass.
+>
+> The thank-you you weren't waiting for might not come anyway. 😜 You might get more like "Oh, so NOW you care?" Which, fair enough, you did take a while. Your first instinct might be "But I'm trying!", and then it's just two six-year-olds arguing. Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you. 🙄
+
+His ablation:
+- With all his other edits stripped out, that one line alone flips the pair to Human (medium).
+- Without the parenthetical in that line, it's Human until "You might get more" (P7's second sentence), then AI (medium) to the end.
+- He likes all the edits and wants them kept, so version B is the pair as it stands.
+
+What I take from it (E62):
+1. Follow where the flagged span starts. It began at P6's third sentence. His first edit moved the start to "A wise tradition", and the edit at the new start cleared it. I had changed the end of the span instead (P7's last line, following the paper's conclusion signal), which only moved 24% to 16%.
+2. The trigger was my crafted image pair: a tradition "can carry" it "until you can hold" it. The same promise in words people actually use ("give some direction", "your own internal compass") reads human.
+3. The abstract "tradition" needed a familiar instance ("What would Jesus do?"). Without it, the flag moved into P7, so the texture of one paragraph changes how the next one reads.
+4. P7's closing thesis word ("borrow") stays. It wasn't the problem.
+
+Preservation of B:
+- U7: the calm decision is kept, with Joel's "(and how)"; the wise person is kept; the tradition is kept, with his two examples. "Until you can hold it yourself" is kept as "until you develop your own internal compass".
+- The written-plan line is cut by Joel, an owner edit.
+- U8 is unchanged.
+- Linter: REVIEW, no hard fails, for P6 alone, P7 alone, the pair, and the section.
+
+## Round 13: the whole section with Joel's pair (recorded before its call)
+
+Heading plus six paragraphs: Joel's opening, P3 (Joel's fix), P4, P5 (Joel's fix), and P6 + P7 as in his version B. 543 words.
+- Plain text for Pangram: sha256 c664452c4f34f9aac34037230b86c96eaca532b486bf2cabee2b8aea5c4e5c70.
+- Markdown: sha256 64c6f7c6afddbf9e4a82778258110578e33e8f0b42953f16b2470da102aaa673.
+
+Owner lines for the linter: P1, P3 and P5 as before, plus Joel's two new P6 sentences.
+
+### Round 13 result
+
+Pangram 4.0, Joel's account, 2026-09-26, in the turn that answered Joel's 15:37 message. The textarea's sha256 matched the recorded one before submitting. Result: **AI Detected, 12% AI / 88% Human**, 566 words scanned, "appears at the end".
+
+The flagged span now starts right after P7's first sentence: "😜 You might get more like "Oh, so NOW you care?"…" and runs to the end. That's the same place Joel's no-parenthetical variant was flagged. So P7 from its second sentence is borderline: the pair alone passes, but the full section before it tips it over.
+
+A note on P7: it has four "might"s in about 75 words ("might not come", "might get", "might be", "might still roll"). None of the other five paragraphs has one.
+
+## Round 14: one sentence at the span's start, two ways (recorded before the calls)
+
+Following E62, the change is at the sentence where the span starts, and nothing else. The second sentence of P7 is either:
+
+| variant | new sentence | words | sha256 of the section |
+|---|---|---|---|
+| 14a | You're more likely to get "Oh, so NOW you care?" | 543 | bf9bb59d470d922737c6c2941e7a73798237a5f11d9612cf46bcbd046ecc01f9 |
+| 14b | More like "Oh, so NOW you care?" | 540 | 3be7c60dbc41525733c073e8b1cead9234f735f104ebc7a59af1de4db8b1470d |
+
+- Preservation: unchanged. The little one's line is the same; only the frame around it changes, and one "might" goes.
+- Linter: REVIEW, no hard fails, for P7 alone and for the section, in both variants.
+- If neither clears, the section goes back to Joel with the span. It doesn't get a third attempt from me.
+
+### Round 14 results
+
+Pangram 4.0, Joel's account, 2026-09-26, same turn as round 13. Both textareas' sha256 matched the recorded ones before submitting.
+
+| variant | words scanned | result |
+|---|---|---|
+| 14a, "You're more likely to get…" | 567 | **Human Written, 100% Human** |
+| 14b, "More like…" | 563 | **Human Written, 100% Human** |
+
+- E62's method worked on the first try: change the sentence where the flagged span starts, and nothing else.
+- The linter had pointed at that sentence all along. "You might get more like…" was P7's only E41 coach phrase, a REVIEW flag I had kept. Inside a flagged span, a REVIEW-level coach phrase is the first suspect (added to E62).
+
+Tell ledger for P7 (14b), the linter's REVIEW items:
+- B1 finished principle ("The thank-you you weren't waiting for might not come anyway."): KEEP. It's the joke callback to P3's thank-you, and Joel's 😜 marks it as a joke.
+- Heavy second person (11.1 per 100): KEEP. It's a review note only, and the paragraph is a scene addressed to the reader.
+- Coach phrases: none left.
+
+Architecture, one literal read of the section in place:
+- "The Guide can be you too" follows the Protector paragraph, where you're the one acting.
+- "Your future healed self" calls back to Joel's opening, and P7's thank-you calls back to P3.
+- Mr. Rogers appears twice (the opening and P4's fallback), both in Joel's words.
+- No broken referents. The section still ends on the little one's eye-roll, not a summary.
+
+My pick is 14b: it's shorter, it picks straight up from "might not come", and it sounds like talking. It's Joel's call, since both pass.
 
