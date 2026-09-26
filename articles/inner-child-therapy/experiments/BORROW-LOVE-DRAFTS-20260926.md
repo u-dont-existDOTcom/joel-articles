@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:54 NAMED WHAT DOESN'T MAKE SENSE IN P4 (IT PUTS THEM IN YOUR EXACT LIFE, THEN TALKS ABOUT BEING OUTSIDE A LIFE). P4 IS JOEL'S MINIMAL FIX (HUMAN, 19:23). P6 (WHAT TO DO WITH THE ANSWER) FAILED FOUR TIMES (100% AI) AND GOES TO JOEL.**
+Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:54 NAMED WHAT DOESN'T MAKE SENSE IN P4 (IT PUTS THEM IN YOUR EXACT LIFE, THEN TALKS ABOUT BEING OUTSIDE A LIFE). P4 IS JOEL'S MINIMAL FIX (HUMAN, 19:23). EVERY h2 PARAGRAPH PASSES ALONE (P4 AND P6 ARE JOEL'S FIXES), BUT THE h2 BODY FAILS AS A WHOLE (35% AI, IN PATCHES). MY SPAN-START FIX MADE IT WORSE (65%) AND IS REVERTED. WITH JOEL.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -868,4 +868,68 @@ If this fails, P6 goes to Joel.
 ### P6, fourth attempt: result
 
 Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 83 words, short text. I'm stopping here; P6 goes to Joel.
+
+## Joel's P6 fix, 2026-09-26 20:44 UTC (his checks)
+
+> "i didn't understand what your last sentences were doing and this looked a lot better to me, but still tested AI"
+
+He made three versions:
+1. My first sentence, plus "hand it to yourself", the teeth example, and "That's how you learn as a kid, and it works now, too." Tested AI.
+2. The same, with "one sentence or one small action" changed to "one bit" ("sounded AI to me") and "five percent of that" kept. Tested Human.
+3. The one he likes best, which is Human:
+
+> Then take a small piece of whatever you'd tell them and hand it to yourself. If the advice was "get more sleep," then for now just try brushing your teeth before midnight instead of at two. That's how you learn as a kid, and it works now, too. The technical term for this is "scaffolding."
+
+55 words, sha256 456af89890fd8a413d0dfbe24cf84308187061d6203bc18aca2a07cc8f4f826b.
+
+What his fix shows (E69):
+- **"One sentence or one small action" is a paired abstraction,** the X-or-Y formula that stands in for naming the thing. Plain words ("one bit", "a small piece") passed.
+- **"Hand it to yourself"** says the borrowing move in physical words.
+- **The sideways line comes from the article's own frame, childhood** ("That's how you learn as a kid, and it works now, too"). It doesn't come from the procedure.
+- **An offhand technical term closes it** ("The technical term for this is 'scaffolding.'").
+- **He couldn't tell what my last two sentences were doing,** so they were doing nothing. Cut.
+
+Owner edits carried:
+- "Five percent" and "sold on it or not" became "for now just try". The later `Become the Adult Apprentice` can bring in five percent itself.
+- The stop-rerunning point (BL-U12) goes.
+
+"Scaffolding" is checked against Wikipedia's "Instructional scaffolding" (https://en.wikipedia.org/wiki/Instructional_scaffolding): "the support given to a student by an instructor throughout the learning process", gradually removed as the learner takes over. That fits, and the link goes on the word in the article version.
+
+## The h2 body as a whole (recorded before its call)
+
+Heading plus P1, P2, P4 (Joel) and P6 (Joel). Each passed alone. 355 words, sha256 1330893ffbae471f5ae11e404a8e96f94e0248109e0b828b7fd2a71e56f41565.
+
+Literal read, in place:
+- P1–P2 borrow love: the dog first, then some of it for your little one, watching how it lands.
+- P4–P6 borrow the perspective: the stand-in in your exact life, you as the outsider, then a small piece handed to yourself.
+- The heading's two halves in order. Every "they" resolves: the little one in P2, the stand-in in P4 and P6.
+
+This check is for context failures like Borrow's P6 + P7 pair, before the h3s are drafted.
+
+### The h2 body: result
+
+Pangram 4.0, Joel's account (the dashboard's layout has changed; the result card now says "a mix of AI and human-written content"): **AI Detected, 35% AI / 65% Human**, 373 words, "AI-generated content appears in scattered patches".
+
+Flagged spans:
+1. From P2's options sentence ("So give them more room, skip the hug, or let somebody else's voice do the caring for a while.") through P2's end and P4's first two sentences ("Or put somebody… ask what you'd tell them. It's a cheap trick…").
+2. All of P6 (Joel's version, which passed alone).
+
+It's a context failure again, like Borrow's P6 + P7. At section scale the openers form a procedure: "Sometimes… / If nothing moves… / Or… / Then…".
+
+## The h2 body, second check (recorded before its call)
+
+Following E62, the first thing to try is the sentence where span 1 starts, and only that sentence. The options list becomes a callback to the paragraph's own aunt: "So back off to about where that aunt should have stayed."
+- It keeps BL-U4's more-distance option.
+- "No touch" and "another voice" are compressed (whitelist: examples).
+- Everything else is unchanged.
+
+347 words, sha256 7058934e1c53e342a81cda5780afe33a34ec426aeae282caea2d430e04778135. If span 2 (P6) stays flagged, that part goes to Joel, since the text is his.
+
+### The h2 body, second check: result
+
+Pangram 4.0, Joel's account: **AI Detected, 65% AI / 35% Human**, 364 words, "appears throughout". It's worse. Span 1 now starts back in P1 ("Just feel that for a minute…") and runs through all of P2 and P4's first two sentences. Span 2 is still all of P6.
+
+The aunt callback read as a quip, and the flag spread backward. **Reverted:** P2 stays as it passed alone. Per E62's caveat, the span start wasn't the cause here.
+
+My reading: at section scale, the h2 body is now just a chain of exercises. The paragraph openers go "Sometimes / If nothing moves / Or / Then". Cutting the repeats (P3, P5, "Big whoop") took out the non-exercise material. That's the march from E66 one level up, and no single sentence fix reaches it. It goes to Joel.
 
