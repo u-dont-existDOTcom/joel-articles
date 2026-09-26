@@ -155,3 +155,7 @@ E43. Before rewriting an AI source section, reread a stretch of Joel's own rewri
 - comparisons with a joke inside ("You don't need a pool at home");
 - small slips.
 The coach voice does none of these.
+
+## K. Added 2026-09-26 00:10 — the gate (Joel: "how is it possible you're still not following the basic instructions to check the list of tells?")
+
+E44. The written audit is a gate, not an intention: run `tools/HUMANIZATION-GATE.md` for every draft. The linter (`tools/tells_lint.py`) runs first; a FAIL means rewrite. Then comes the manual table for its REVIEW items and for the judgment checks it can't do. Only then Pangram. On the 2026-09-25 calibration set, the linter failed all six AI-tested texts and cleared or reviewed all five Human-tested ones; it would have stopped every Borrow One Function round before Pangram.
