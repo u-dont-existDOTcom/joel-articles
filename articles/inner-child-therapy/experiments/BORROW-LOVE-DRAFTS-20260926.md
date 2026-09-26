@@ -1554,3 +1554,20 @@ His other two points:
 - He asked for the full humanized article at the end of every turn. That's `OWNER-FACING-TURN-CONTRACT.md`, which I hadn't loaded. It's reinstated: the candidate is now in `HUMANIZED-ARTICLE-SO-FAR.md` under a visible "waiting for your OK" note, and `tools/render_article_so_far.py` makes the HTML.
 - On the repeats: they aren't close enough to look weird. He's right, and I agree on reading them again. They stay.
 
+## Joel, 23:48: "i searched but can't find "love precedes anything you could earn""
+
+It isn't in the humanized article. It's in the source: the 2026-09-25 snapshot of his Substack draft (`experiments/SOURCE-SNAPSHOT-20260925-OWNER-SUBSTACK.html`, and the working copies B and C), in the last h1, `You Are Worthy of Love. Always.`. It's the paragraph that starts "Be patient and gentle": "…and you belong to life, nature, and the whole universe. Love precedes anything you could earn. Trust is different." That section hasn't been humanized, so it's not in the article file he has.
+
+When I flagged it, I said "the last section's" and gave no location. That made it sound like article text. It's source text: the working draft, written in his voice but not his own wording. The note for later (E71, rule 4): when `You Are Worthy of Love. Always.` is humanized, read it against Goodwill's "then they actually would be lovable", which will be installed by then. The later section is the one that gets written to fit.
+
+## Joel, 2026-09-27 00:09: universal love and personal love
+
+> "ok i see what you mean about the conflict now. to be clear, what i'm trying to say is that love as a universal force (whether from God, or the universe itself or whatever) precedes anything you could earn. But love from another person as in the case we were talking about here, obviously is more conditional than that. so the ending might need a bit more clarity"
+
+Stance, stated by Joel. It goes into the ledger for the last section, `You Are Worthy of Love. Always.`:
+- Love as a universal force (from God, the universe, whatever) comes before anything you could earn.
+- Love from another person is more conditional.
+- When the ending is humanized, it should make that distinction clear, so "Love precedes anything you could earn" reads as the universal kind.
+
+It fits what's in Borrow Love already: Ask God's "a love that's a whole different size", and Goodwill's "then they actually would be lovable", which is about love between people. Nothing in Borrow Love changes.
+

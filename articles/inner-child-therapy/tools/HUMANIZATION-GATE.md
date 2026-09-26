@@ -24,7 +24,7 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
   - audit meaning output plus method;
   - no listicles and no repeats;
   - the prediction format.
-  
+
   It wasn't on this list until 2026-09-26, so I didn't load it or follow it (E73).
 - **Fresh-context review:** `docs/HUMANIZATION-FRESH-CRITIC-GATE.md`, whenever fresh-model evidence is used before Pangram. It never replaces the full tell ledger.
 

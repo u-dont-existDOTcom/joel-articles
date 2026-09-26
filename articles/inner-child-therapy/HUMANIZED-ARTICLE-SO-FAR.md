@@ -212,4 +212,3 @@ Get as close to it as you really can right now, and bring your little one in wit
 If a spiritual teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now. Kids quit piano over one bad teacher, and this is way worse. But if you let an abuser control your appreciation of life, then you've given them an unearned win.
 
 And being the grown-up doesn't mean controlling everything. That's pretty much the Serenity Prayer: change what's yours to change, and accept what isn't, which is where other people's choices go.
-
