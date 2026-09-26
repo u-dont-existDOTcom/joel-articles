@@ -50,6 +50,7 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - Every REVIEW item from the linter, with a disposition (KEEP, DELETE, REWRITE, MERGE, SUBORDINATE or MOVE) and why.
    - **First, a literal sense read of the paragraph as a reader who doesn't know the point (E67).** Then check it for marching order: can every sentence be labelled with its next job (E66)?
    - **Every row of `docs/HUMANIZATION-TELL-INVENTORY.md` (T01–T28, C01–C04), on the literal draft, before every Pangram call (E65).** The linter's flags are a subset. A draft that still looks AI to me doesn't go to Pangram.
+   - **Before a whole-section check, run the inventory on the assembled section too (E70).** T02, T03, T08 and T20 show up between paragraphs, and a flag on owner text can come from my paragraph beside it.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
    - Execute the repairs, then rerun steps 4–6 on the changed text.
    - **Fresh-context sweep before Pangram.** Required for every section my sentences carry (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Build the prompt from the numbered inventory (`docs/HUMANIZATION-TELL-INVENTORY.md`, T01–T28 and C01–C04) with `tools/build_sweep_prompt.py`, give it the previous accepted prose (and any owner paragraphs) as context and my paragraphs as the target, and send it to a fresh subagent or another fresh route. Withhold the Pangram history and my reasons. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
@@ -103,9 +104,9 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
 
 The linter covers a handful of mechanical tells. It is not the tell ledger, and a CLEAR never skips step 6.
 
-## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds)
+## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds and the Borrow Love h2 body)
 
-Twenty-four texts with known Pangram 4.0 results. The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
+Twenty-eight texts with known Pangram 4.0 results. The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
 
 Not included:
 - the ablation variants of Joel's P5 fix;
@@ -139,12 +140,16 @@ They're near-copies of texts already in the set and would weight one paragraph s
 | Borrow P7 r11 | 100% Human | REVIEW | — |
 | Borrow One Competency r13, whole section with Joel's P6 + P7 | 12% AI, "at the end" | REVIEW (miss) | none |
 | Borrow One Competency r14b, whole section, one P7 sentence changed | 100% Human | REVIEW | — |
+| Borrow Love h2 body r1, every paragraph passed alone | 35% AI, "scattered patches" | REVIEW (miss) | none |
+| Borrow Love h2 body r2, one P2 sentence swapped for a quip | 65% AI, "throughout" | REVIEW (miss) | none |
+| Borrow Love P2 r3 | 100% Human | REVIEW | — |
+| Borrow Love h2 body r3, with P2 r3 | 100% Human | REVIEW | — |
 
 Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Since the second-person hard fail became a review note (2026-09-26), it hard-fails two (r2, r3b), still none of the Human ones.
 
 With the one-paragraph rounds added:
-- It hard-fails four of the thirteen AI texts (r2, r3b, and both P5 attempts) and none of the eleven Human ones.
+- It hard-fails four of the fifteen AI texts (r2, r3b, and both P5 attempts) and none of the thirteen Human ones.
 - At paragraph level, coach density separated the two failing P5 attempts (2.3, 2.4) from every Human paragraph (at most 1.85).
-- It misses all three context failures (the P6 + P7 pair and the whole section in rounds 11 and 13), where every paragraph passes alone. In round 13 its only coach flag in P7 was the sentence where Pangram's span started, which is why E62 says to check that flag first. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
+- It misses all five context failures (the P6 + P7 pair, the whole section in rounds 11 and 13, and the Borrow Love h2 body r1 and r2), where every paragraph passes alone. For the h2 body, the inventory run on the assembled section found them (E70). In round 13 its only coach flag in P7 was the sentence where Pangram's span started, which is why E62 says to check that flag first. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
 
 That's a small set, and the thresholds were set on it, so expect misses. A CLEAR or REVIEW only means the mechanical tells weren't found; it doesn't mean the draft reads human. Add every new Pangram result to the calibration set and retune the thresholds if they start letting AI through.

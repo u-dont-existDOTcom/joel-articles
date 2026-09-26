@@ -1,8 +1,8 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:54 NAMED WHAT DOESN'T MAKE SENSE IN P4 (IT PUTS THEM IN YOUR EXACT LIFE, THEN TALKS ABOUT BEING OUTSIDE A LIFE). P4 IS JOEL'S MINIMAL FIX (HUMAN, 19:23). EVERY h2 PARAGRAPH PASSES ALONE (P4 AND P6 ARE JOEL'S FIXES), BUT THE h2 BODY FAILS AS A WHOLE (35% AI, IN PATCHES). MY SPAN-START FIX MADE IT WORSE (65%) AND IS REVERTED. WITH JOEL.**
+Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:54 NAMED WHAT DOESN'T MAKE SENSE IN P4 (IT PUTS THEM IN YOUR EXACT LIFE, THEN TALKS ABOUT BEING OUTSIDE A LIFE). P4 IS JOEL'S MINIMAL FIX (HUMAN, 19:23). EVERY h2 PARAGRAPH PASSES ALONE (P4 AND P6 ARE JOEL'S FIXES). THE h2 BODY FAILED AS A WHOLE TWICE (35%, THEN 65% AI) AND PASSES AT 100% HUMAN WITH MY THIRD P2, JOEL'S TEXT UNCHANGED (E70). NEXT: THE GOODWILL h3, ONE PARAGRAPH AT A TIME.**
 
-Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
+Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E70 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
 ## Trigger
 
@@ -931,5 +931,88 @@ Pangram 4.0, Joel's account: **AI Detected, 65% AI / 35% Human**, 364 words, "ap
 
 The aunt callback read as a quip, and the flag spread backward. **Reverted:** P2 stays as it passed alone. Per E62's caveat, the span start wasn't the cause here.
 
-My reading: at section scale, the h2 body is now just a chain of exercises. The paragraph openers go "Sometimes / If nothing moves / Or / Then". Cutting the repeats (P3, P5, "Big whoop") took out the non-exercise material. That's the march from E66 one level up, and no single sentence fix reaches it. It goes to Joel.
+My reading: at section scale, the h2 body is now just a chain of exercises. The paragraph openers go "Sometimes / If nothing moves / Or / Then". Cutting the repeats (P3, P5, "Big whoop") took out the non-exercise material. That's the march from E66 one level up, and no single sentence fix reaches it.
 
+## The h2 body at section scale: the inventory I hadn't run
+
+Every inventory run so far was on one paragraph at a time. Run on the whole body, several rows come out PRESENT, and they sit where Pangram flagged:
+- **T04 in P2's options sentence.** "Give them more room, skip the hug, or let somebody else's voice do the caring" is the source's list ("more distance, no touch, a different voice") walked through in order, in a scene costume. Span 1 of the first check starts on this sentence.
+- **T06, the same sentence.** "Somebody else's voice" is a placeholder; a reader can't tell whose.
+- **T08, P2's end.** The aunt's hug already makes the point. The next two sentences turn it into instructions.
+- **C02, P2's third sentence.** "If nothing moves, don't push it… Then watch how it lands." In that branch nothing is landing. I missed this in P2's sense read.
+- **T03 at the P2→P4 junction.** P4's "Or" (a second trick) comes right after the success branch ("do more of that"). It belongs after the case where the first trick fails.
+- **T20 across the section.** All four paragraphs end on a polished line: the chewing joke, the "squirm away" callback, Solomon, "scaffolding".
+- **T02 across the section.** Almost every paragraph is instructions handed from one to the next.
+
+My second check swapped the options sentence for a callback quip. That reworded the same move (T15) and added another landing (T20), which fits the flag spreading instead of shrinking.
+
+## P2, third attempt (recorded before its calls)
+
+P4 and P6 are Joel's, so I only touch P2, and only for the rows above:
+
+> Watch how it lands, though. "I care about you" can be patient, or it can be "I care about you, now hurry up and feel better." Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. And if nothing moves at all, don't push it. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do.
+
+92 words, sha256 2f8655a7515015d2169aa06f7408fc7f327ebdb136c178086a6858dd3488a077.
+
+What changed, and why:
+- **The options sentence and "Whatever they don't squirm away from, do more of that" are gone** (T04, T06, T08). The aunt's hug already shows what not to do.
+- **"And then climb all over the uncle who's just sitting there"** carries the BL-U4 point my P2 had dropped: trouble with one offer doesn't mean they can't take love. The same kids want closeness from the adult who isn't pushing it. It also shows what "more room, no hug" looks like.
+- **The no-move case moves to the end** (C02, T03). "Watch how it lands" picks up straight from P1's "see if some of it can go to your little one". "Don't push it" then leads into P4's "Or". I only re-read it because of the section check, but the new order is there for the sense: it removes the glitch, the second trick follows the case where the first one fails, and nothing is lost.
+- **The end is now a plain reason**, not a callback, which breaks the T20 run.
+
+Sense read in place, cold:
+1. After sending some love toward your little one, watch how it lands.
+2. The same words can come out patient or pushy.
+3. Closeness can be too much: kids squirm away from the aunt who pushes, and climb all over the uncle who doesn't.
+4. If nothing moves at all, don't push it. The love is in there, and you already know how to do this.
+5. P4: or try the other trick.
+
+"It" is the love from P1, and "they" is kids in general, standing in for your little one. Nothing contradicts P1 or P4.
+
+Trace:
+- BL-U3: "don't push it"; "Knowing that love is in you somewhere counts for a lot"; "you're borrowing something you already know how to do". Unchanged.
+- BL-U4:
+  - How it's offered: "watch how it lands" and the "I care about you" pair.
+  - Intrusive closeness and the change: the aunt's hug against the uncle "just sitting there". That's the distance and no-touch options, with the list compressed (whitelist).
+  - Doesn't show an inability to receive love: the same kids climb all over the uncle.
+  - Let the response teach you: "watch how it lands", and the kids show which adult works.
+  - "Another voice / another source" goes, since examples may be compressed.
+- Added: the uncle. It's an everyday observation about kids, not a claim about Joel.
+
+Linter: REVIEW. B4 (the aunt/uncle sentence): KEEP, one image with its turn. E1 "kids": KEEP, it means children. On the whole body, every other flag is on Joel's P4 and P6 or on P1 as passed.
+
+Inventory, every row (P2, and the body with it):
+
+| row | result |
+|---|---|
+| T01, T07, T10, T16, T18, T19, T24, T25, T27, T28 | ABSENT |
+| T02 | P2: ABSENT; one instruction, two examples that dwell, then the fallback. Body: UNCERTAIN, KEEP. Each paragraph still has one move, but P2's end now gives a reason, not a hand-off. |
+| T03 | ABSENT. The "Or" now follows the failure case. |
+| T04 | ABSENT. The source list is gone; one scene with one turn. |
+| T05 | UNCERTAIN, KEEP. The uncle is convenient, but he's the evidence for the BL-U4 point, not decoration. |
+| T06 | ABSENT. "Somebody else's voice" is gone. |
+| T08 | ABSENT. The image ends its sentence and nothing explains it. |
+| T09 | ABSENT. The aunt and uncle get the most words. |
+| T11 | ABSENT. "Though" and "And if…" are needed by the thought. |
+| T12 | UNCERTAIN, KEEP. There are two pairs, patient against pushy (the source's) and aunt against uncle; the nothing/something pair from my first fix idea was rejected. |
+| T13 | ABSENT. "Hurry up and feel better", the aunt and the uncle. |
+| T14 | ABSENT, with the note above: the section check made me re-read, and the new order is justified by the sense. |
+| T15 | ABSENT. Removed and reordered, not reworded. |
+| T17 | UNCERTAIN, KEEP. "Counts for a lot" is the source's BL-U3 claim, and it passed in place in the first check. |
+| T20 | ABSENT in P2. Body: the run of four landings is broken. |
+| T21, T22 | UNCERTAIN, KEEP. The last sentence reassures, but it gives the reason (you already know how). |
+| T23 | ABSENT. |
+| T26 | ABSENT. "Squirm" once now; "Then" opens P1's last sentence and P6. |
+| C01 | ABSENT. "Kids" means children; the inner child isn't named here. |
+| C02 | ABSENT. The glitch is gone. |
+| C03, C04 | ABSENT. |
+
+Checks planned: P2 alone first, then the h2 body with it (340 words, sha256 2af63927abf95d21b723ab58d27290902ca0f89fcfd47a024c730b3f4bd06f0b). If the body still flags P4's opening or P6, those are Joel's text and go to him with this inventory.
+
+### P2, third attempt, and the h2 body: results
+
+Pangram 4.0, Joel's account:
+- P2 alone: **Human Written, 100% Human**, 95 words, short text.
+- The h2 body with it: **Human Written, 100% Human**, 357 words scanned, with no short-text caveat. Nothing is flagged, including Joel's P4 opening and his P6, which both earlier checks flagged.
+
+Only P2 changed, so the flags on Joel's text were spillover from my paragraph next to it (E70). The h2 body now stands as tested (340 words, sha256 2af63927…). The h3s come next, each paragraph alone first, then the whole section.

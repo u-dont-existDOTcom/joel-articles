@@ -226,4 +226,10 @@ E69. Joel's P6 fix (2026-09-26 20:44).
 - The sideways sentence that works comes from the article's own frame ("That's how you learn as a kid, and it works now, too"), not from the procedure.
 - An offhand technical term can close a paragraph ("The technical term for this is 'scaffolding.'").
 - If the owner can't tell what a sentence is doing, it isn't doing anything.
-
+E70. Run the inventory on the assembled section before a whole-section check, not only paragraph by paragraph (Borrow Love h2, 2026-09-26). Every paragraph had passed alone, and the body came back 35% AI, with the flag running over Joel's own P4 opening and all of his P6. Run on the whole body, the inventory found what the paragraph passes couldn't see:
+- the source's options list, walked through in order inside the aunt scene (T04);
+- the image explained into instructions (T08);
+- a referent glitch ("If nothing moves… Then watch how it lands", C02);
+- the second trick's "Or" following the case where the first trick works (T03);
+- four paragraphs in a row ending on a polished line (T20).
+Fixing only those, in my own P2, took the body to 100% Human with Joel's text unchanged. So a flag on owner text can be spillover from my paragraph beside it. My first repair swapped the flagged sentence for a callback quip. That reworded the same move (T15) and added a landing, and the flag spread to 65%. When a span-start fix fails, check whether it removed the operation or only reworded it.
