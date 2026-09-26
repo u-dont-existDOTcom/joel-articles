@@ -5,8 +5,9 @@ Usage:
   python3 tells_lint.py DRAFT [--source SOURCE] [--owner OWNER] [--quiet]
 
 DRAFT, SOURCE and OWNER are plain-text or markdown files.
-  --source  the AI source section. Enables the AI marching-order check (D9): do my
-            paragraphs walk through the source's points in the source's order?
+  --source  the AI source section. Enables a review note (D9) when my paragraphs
+            walk through the source's points in the source's order. That's not a
+            failure by itself: organization is fine when the prose notices things.
   --owner   the owner's own lines, one per line. They're excluded from the
             sentence checks (they're his, not mine) but still counted in the metrics.
 There is deliberately no check against phrases from failed drafts (Joel, 2026-09-26):
@@ -157,8 +158,11 @@ def main():
         metrics['source_map'] = mapping; metrics['source_order_agreement'] = round(order, 2)
         metrics['paragraphs_mapped_to_source'] = round(coverage, 2)
         if coverage >= 0.6 and order >= 0.8 and len(set(matched)) >= 0.6*len(matched):
-            hard.append(f"D9 AI marching order: {len(matched)}/{len(ps)} paragraphs follow the source's points in the source's order "
-                        f"(agreement {order:.2f}). Rewrite from understanding with the source closed.")
+            # Review note, not a hard fail (Joel, 2026-09-26): following the source's order is fine when the
+            # sentences notice things along the way. The tell is nothing noticed (inventory T13) or equal weight (T09).
+            flag('REVIEW', 'D9 follows the source order',
+                 f"{len(matched)}/{len(ps)} paragraphs follow the source's points in its order (agreement {order:.2f}); "
+                 f"fine if each part notices something; check T13 and T09 in the tell ledger")
     fails = [f for f in flags if f[0] == 'FAIL']
     verdict = 'FAIL' if (hard or fails) else ('REVIEW' if flags else 'CLEAR')
     print(f'== tells_lint: {a.draft}')

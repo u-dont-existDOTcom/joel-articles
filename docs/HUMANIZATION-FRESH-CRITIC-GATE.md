@@ -2,7 +2,7 @@
 
 Status: **BLOCKING** when fresh-model audit evidence is used before a paid Pangram call in Joel-byline humanization.
 
-Use with `HUMANIZATION-COLD-AUDIT-GATE.md`, `project-sources/PRODUCTION-HUMANIZATION-PREFLIGHT.md`, the current post-generation tell library, and the preservation/architecture gates.
+Use with `HUMANIZATION-COLD-AUDIT-GATE.md`, `project-sources/PRODUCTION-HUMANIZATION-PREFLIGHT.md`, the current post-generation tell library (numbered inventory: `HUMANIZATION-TELL-INVENTORY.md`), and the preservation/architecture gates.
 
 ## 1. Role
 
@@ -46,7 +46,7 @@ Context must be sufficient but not artificially clipped. Do not create a false o
 For the preferred high-rigor sweep:
 - use a genuinely fresh stateless request;
 - use the literal natural reading boundary plus enough context for the tell definitions to be meaningful;
-- supply the complete current tell inventory;
+- supply the complete current tell inventory (`HUMANIZATION-TELL-INVENTORY.md`; `articles/inner-child-therapy/tools/build_sweep_prompt.py` builds the prompt from it);
 - require every tell ID exactly once;
 - require PRESENT / ABSENT / UNCERTAIN plus minimal exact evidence;
 - prohibit an overall Human/AI classification;

@@ -28,7 +28,13 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - Reread a stretch of Joel's own rewrite of AI prose (E43).
    - Read only the parts of the article and the rules the section needs (E47).
 2. **Preservation freeze.** Write the preservation units (what has to survive, one unit per inseparable meaning, not per sentence) and the change whitelist (what Joel has authorized: cuts, moves, research relocation). Anything not whitelisted is presumed invariant.
-3. **Close the source (E42).** Write two or three lines of what I actually want to say, in what order, and why a reader would care. Draft from those lines, not from the source.
+3. **Write inside the organization (Joel, 2026-09-26).** Keep the order the sense needs, which is usually the source's. Don't reorder, rank, cut or move material to get past the detector (inventory T14). Keep source sentences that already read right, and rewrite the ones that don't. The human part is what gets noticed while each piece is being said:
+   - the reader's obvious counterexample;
+   - why the thing is true, or hard;
+   - an irony inside the article's own frame;
+   - a callback.
+
+   Joel's rewrite of the Borrow opening is the model. It keeps "A complete ideal parent may be impossible to imagine" and "Borrow one function at a time from a figure who embodies it" word for word, and adds The Brady Bunch, imagination getting stamped out early, and "the adult is actually a baby when it comes to power to imagine". That last one becomes the reason to start small. Organization that's "reducible to code" (T13) is the tell, not organization itself.
 4. **Preservation trace.** Forward: every unit is in the draft, or has its authorized disposition. Reverse: every substantive thing in the draft maps to the source, an owner statement or the whitelist. Zero unexplained deltas. Fold a missing unit in as an aside or a single sentence, not a paragraph of its own.
 5. **Linter.**
 
@@ -42,12 +48,13 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - Every REVIEW item from the linter, with a disposition (KEEP, DELETE, REWRITE, MERGE, SUBORDINATE or MOVE) and why.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
    - Execute the repairs, then rerun steps 4–6 on the changed text.
-   - **Fresh-context sweep before Pangram.** Required for any section my sentences carry without owner lines (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Send a fresh subagent, or another fresh route, the lab's 12-tell prompt (`pangram-humanization-lab/state/generation/global-tell-model-comparison-20260923/global-tell-prompt.txt`) with the previous accepted section as context and the literal draft. Withhold the Pangram history and my reasons. Any PRESENT blocks Pangram until it's repaired or rejected with an exact editorial reason. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
+   - **Fresh-context sweep before Pangram.** Required for every section my sentences carry (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Build the prompt from the numbered inventory (`docs/HUMANIZATION-TELL-INVENTORY.md`, T01–T28 and C01–C04) with `tools/build_sweep_prompt.py`, give it the previous accepted prose (and any owner paragraphs) as context and my paragraphs as the target, and send it to a fresh subagent or another fresh route. Withhold the Pangram history and my reasons. Any PRESENT blocks Pangram until it's repaired or rejected with an exact editorial reason. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
    - **Stop rule.** If fixing one tell produces another (round 7: removing landings created six packed sentences), stop polishing. Diagnose at the level of structure, and take any change that moves or cuts preservation units to Joel.
 7. **Architecture.** Heading promise, entry and exit state, each paragraph's job, then one literal top-to-bottom read of the section in place.
-8. **Pangram (E27, E37).**
-   - At most about three checks per turn.
-   - Test with and without the owner's lines.
+8. **Pangram (E27, E37; SKILL.md owner-delivery admission).**
+   - Check every paragraph I wrote on its own, and then the whole section. A section can pass while one of its paragraphs is AI, which is the cheating the per-paragraph rule exists to stop (Joel, 2026-09-26).
+   - Run the checks side by side in separate browser tabs.
+   - At most about three rounds per turn, where a round is one set of checks on one draft. Never recheck unchanged text.
    - Read results from the page text.
 9. **Record and deliver.** Put the preservation ledger, the linter report, the tell ledger and the Pangram results in the drafts file. Show Joel the prose only if every gate passed; otherwise report gate status and keep working.
 
@@ -62,7 +69,6 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
   - two or more paragraphs that are strings of instructions (E23);
   - three or more paragraphs with the same opener (B13);
   - second person at 9 or more per 100 of my words (E36/E41);
-  - with `--source`: the AI marching order (D9), meaning 60% or more of the paragraphs follow the source's points in the source's order.
 - **REVIEW** (flags for the tell ledger):
   - contrast constructions (B2);
   - finished principles (B1);
@@ -72,7 +78,8 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
   - packed or list sentences (B4/E15);
   - short knock-downs (B3);
   - short paragraph-final lines;
-  - second person above 6 per 100.
+  - second person above 6 per 100;
+  - with `--source`: the draft follows the source's order (D9). That's a note, not a failure. Organization is fine when the prose notices things (T13); since 2026-09-26 this is no longer a hard fail.
 - **Not checked, on purpose:** phrases shared with failed drafts. Reuse isn't a tell by itself (see B10).
 
 The linter covers a handful of mechanical tells. It is not the tell ledger, and a CLEAR never skips step 6.
@@ -83,11 +90,11 @@ Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration
 
 | text | Pangram | linter | hard reasons |
 |---|---|---|---|
-| Borrow One Function r1 | 100% AI | FAIL | AI marching order |
+| Borrow One Function r1 | 100% AI | REVIEW (miss since D9 became a note) | — |
 | Borrow One Function r2 | 100% AI | FAIL | coach 3.3/100; landings 3/6 |
-| Borrow One Function r3 | 100% AI | FAIL | coach 2.8/100; AI marching order |
-| Borrow One Function r4 | 100% AI | FAIL | AI marching order (order 0.87) |
-| Borrow One Function r5 | 100% AI, "paraphrased" | FAIL | landings 3/6; AI marching order |
+| Borrow One Function r3 | 100% AI | FAIL | coach 2.8/100 |
+| Borrow One Function r4 | 100% AI | REVIEW (miss since D9 became a note) | — |
+| Borrow One Function r5 | 100% AI, "paraphrased" | FAIL | landings 3/6 |
 | Borrow One Job r6 (full gate) | 100% AI | REVIEW (miss) | none; the fresh sweep found T02, T09, T12 |
 | Music r2, my lines only | 100% AI | FAIL | second person 9.9/100 |
 | Dangerous-adult H2 | 100% Human | REVIEW | — |
@@ -96,6 +103,6 @@ Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration
 | Noticing Counts | 100% Human | REVIEW | — |
 | Your Body Might Need Some Love First | 100% Human | REVIEW | — |
 
-On the first eleven, every AI text fails and every Human text clears or goes to review. Round 6 is the first miss: an AI text that only reached REVIEW. The tells that sank it (teaching cadence, equalized efficiency, a tidy taxonomy) aren't mechanical, which is why the fresh sweep is now a required step.
+Since D9 became a note, the linter hard-fails four of the seven AI texts (r2, r3, r5, music r2) and none of the five Human ones. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
 
 That's a small set, and the thresholds were set on it, so expect misses. A CLEAR or REVIEW only means the mechanical tells weren't found; it doesn't mean the draft reads human. Add every new Pangram result to the calibration set and retune the thresholds if they start letting AI through.
