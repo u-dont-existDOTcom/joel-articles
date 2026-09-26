@@ -9,7 +9,7 @@
 5. Exact citation/editorial/detector records and Git history
 6. Relevant current patterns from `u-dont-existDOTcom/universal-dev-architecture`
 
-This repository is active and currently registers Romance, Somatic Therapies, and Inner Child Therapy as working canonical articles. Do not substitute historical branches, chat reconstruction, detached packets, or filenames for a registered article family.
+This repository is active and currently registers Romance, Somatic Therapies, Inner Child Therapy, and Inner Signal as working canonical articles. Do not substitute historical branches, chat reconstruction, detached packets, or filenames for a registered article family.
 
 ## Recovery before editing
 

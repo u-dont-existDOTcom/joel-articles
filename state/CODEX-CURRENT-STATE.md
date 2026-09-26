@@ -1,6 +1,18 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-09-21
+Updated: 2026-09-26
+
+## 2026-09-26 controlling Inner Signal registration
+
+This section supersedes older article-count language below and the branch-only wording of the 2026-09-11 Inner Signal section, which is retained as history.
+
+- Registered working articles: **Romance**, **Somatic Therapies**, **Inner Child Therapy**, and **Inner Signal**.
+- Inner Signal (the self-hypnosis guide) is registered on `main` from the exact r03 bytes of former PR #76 (`research/hypnosis-bottom-up-six-books-20260910` at `90fffafd4864d62b9d987272dab5a8c17a259e9e`); a branch/tree scan on 2026-09-26 found no later Inner Signal or hypnosis article version in this repository.
+- Working master: `articles/inner-signal/master.html`, SHA-256 `842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab`. It is a working candidate, not whole-guide owner-final or published copy.
+- Start from `articles/inner-signal/CURRENT-STATE.md` and `articles/inner-signal/sync-r03/SYNC-REPORT.md`. Remaining gates there (Opera-to-Substack paste check, independent semantic review, live voice/interrupt behavior) stay open.
+- The three one-shot import/infographic/toolkit workflows from PR #76 were bound to the research branch and were not carried to `main`; they remain in that branch's history.
+- r03 synchronized companion-method content against the 2026-09-11 inner-child companion snapshot, which predates the 2026-09-20 registered Inner Child master. Whether those later Inner Child source edits need an Inner Signal re-synchronization is an open owner question; do not infer it.
+- InnerSignalGraph PR #54 (`task/hypnosis-ic-sync-r03-20260911`) is the separate app-side graph candidate. It is not an installed app, voice service, or stable promotion.
 
 ## 2026-09-21 controlling Inner Child lineage correction
 
@@ -14,6 +26,12 @@ This section supersedes the 2026-09-20 interpretation that broad raw-source/huma
 - The identity-development gate, vow gate, and harmful-spiritual-authority exclusion are later-source obligations for sections not yet humanized.
 - `Write It. Don't Send It Yet.` and the active checking-section work are unaffected by the five source edits. Joel's owner-final Write-It P1 remains current humanization authority; raw-source absence is expected unsynced-branch state, not a placement conflict.
 - Future source-change analysis must use raw-source-to-prior-raw-source (or direct owner delta authority) before projecting deltas onto an unsynced transformation branch.
+
+## Inner Signal owner-source synchronization — 2026-09-11
+
+On the hypnosis research task branch, `articles/INDEX.json` now binds the r03 working candidate to the owner’s current pasted editor HTML plus the exact recorded companion-method synchronization. Start from `articles/inner-signal/CURRENT-STATE.md` and `sync-r03/SYNC-REPORT.md`. The prior infographic change left stale registry hashes; this is explicitly recorded and corrected rather than accepted as verified authority. All eight owner-pasted native objects and unchanged personal sections remain intact.
+
+The separate graph task `task/hypnosis-ic-sync-r03-20260911` in InnerSignalGraph contains the proposed source/reference and phase-control repair. It is not an installed app/voice service or stable promotion. The historical Romance/Somatic state below is not a hypnosis authority source.
 
 ## Goal
 

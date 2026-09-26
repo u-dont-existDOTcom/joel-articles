@@ -1,0 +1,351 @@
+{
+  "format": "exact-anchor-patches-v1",
+  "baseline_sha256": "75492a8ac9b1cfb9adc34a6e5e29d04af5efacdb245eaf52dd2a1b409d714373",
+  "candidate_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+  "patches": [
+    {
+      "id": "R03-01",
+      "operation": "replace",
+      "heading": "How to use this very large guide",
+      "source_anchors": [],
+      "reason": "Follow the owner-pasted appendix numbering; do not restore the moved anecdote.",
+      "before": "Sources are together in Appendix L.",
+      "after": "Sources are together in Appendix K.",
+      "before_sha256": "d5766f92e7701af58ab1bd533aacd94088817ccf4caa18a1872df38fcbc833dd",
+      "after_sha256": "d28e97130c7f9410ea67c3706b4008436a5eccf8853987d7fdd0a8a47e40a922",
+      "current_start": 4702
+    },
+    {
+      "id": "R03-02",
+      "operation": "replace",
+      "heading": "Sometimes start with the whole",
+      "source_anchors": [
+        "A Witness Is Enough to Begin",
+        "How This Relates to IFS"
+      ],
+      "reason": "Preserve spiritual entry while distinguishing witness access from developed adult capacities.",
+      "before": "<p>If Higher Self, the universal heart, or any sacred language feels unavailable or borrowed from somebody else, begin with plain witnessing instead. Notice the room, the body, and the younger state. The fact that something can notice is enough adult presence for the first step.</p>",
+      "after": "<p>If Higher Self, the universal heart, or any sacred language feels unavailable or borrowed from somebody else, begin with plain witnessing instead. Notice the room, the body, and the younger state. The fact that something can notice is enough adult presence for the first step.</p><p>If you can already notice and distinguish what is happening inside, you don’t need to keep rehearsing the Witness. Work with the warmth, protection, or direction that is actually missing. Higher Self language can help you gather around a meaningful source of care; it doesn’t establish that a perfectly capable inner parent is already available. Those adult functions still grow through practice.</p>",
+      "before_sha256": "9d8f0b420352db82db04af68956674c0d255ec2866026f04e56228fb4c776c08",
+      "after_sha256": "3ae443497ddf9bbb4f91150519cf605cd2f8df85a31049af4bc90d470bcedc50",
+      "current_start": 35192
+    },
+    {
+      "id": "R03-03",
+      "operation": "replace",
+      "heading": "The inner child, the guards, and the three inner adults",
+      "source_anchors": [
+        "The Three Adult Functions"
+      ],
+      "reason": "Carry worth/capacity distinction and positive child contribution, not only wound management.",
+      "before": "<p>I organize that adult capacity into three functions: <strong>Nurturer</strong>, <strong>Protector</strong>, and <strong>Leader/Guru</strong>. They aren’t three literal beings. They’re three ways the present-day person reparents the inner child.</p>",
+      "after": "<p>I organize that adult capacity into three functions: <strong>Nurturer</strong>, <strong>Protector</strong>, and <strong>Leader/Guru</strong>. They aren’t three literal beings. They’re three ways the present-day person reparents the inner child.</p><p>The child’s worth doesn’t depend on developing those capacities. Worth was never the missing skill. The child also brings play, tenderness, irreverence, creativity, and wonder. Those qualities belong inside the adult relationship, not just the wounds.</p>",
+      "before_sha256": "0e62f9265908e3e19e96a2df212e9813ca5fdd40ba6aac8103d2ed8fe7b047ed",
+      "after_sha256": "08106d98bc9aa54600844c14a62e3c55ed9f5580c8fd4ba6e6394d1f131eb699",
+      "current_start": 36483
+    },
+    {
+      "id": "R03-04",
+      "operation": "replace",
+      "heading": "When the adult role is not available yet",
+      "source_anchors": [
+        "A Witness Is Enough to Begin"
+      ],
+      "reason": "Avoid re-prescribing an acquired witness skill.",
+      "before": "<strong>Witness.</strong> Notice the younger state without demanding warmth, wisdom, or certainty.",
+      "after": "<strong>Witness, when needed.</strong> Notice what is present without demanding warmth, wisdom, or certainty. If you already distinguish the internal positions, move to the adult function you need.",
+      "before_sha256": "3948e36537f0e0b9172ccdcfa1fafd189f3ef2b1dd08360c7292658e4cbb62e0",
+      "after_sha256": "97bbf58fb8612931d7a8f086a7894401015f64c2401432eaa5ebe924eeb41d3b",
+      "current_start": 37594
+    },
+    {
+      "id": "R03-05",
+      "operation": "replace",
+      "heading": "When the adult role is not available yet",
+      "source_anchors": [
+        "Borrow One Function at a Time",
+        "Borrow Love—or Borrow the Perspective of Care",
+        "Become the Adult Apprentice"
+      ],
+      "reason": "Provide a realistic proxy without biography requirements and support the adult side of the relationship.",
+      "before": "<p>The borrowed figure stays beside your judgment rather than replacing it. The fuller sequence is in my <a target=\"_blank\" rel=\"noopener\" href=\"https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided\">Inner Child Self-Love Reparenting Guide</a>.</p>",
+      "after": "<p>The borrowed figure stays beside your judgment rather than replacing it. The fuller sequence is in my <a target=\"_blank\" rel=\"noopener\" href=\"https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided\">Inner Child Self-Love Reparenting Guide</a>.</p><p>You don’t need a history full of trustworthy people to borrow care. Use a remembered person when that helps, or an imagined adult whose intention is to take good care of you. Ask, “What would that person say or do with my actual history, limitations, and options?” Begin with the least cruel response you can believe if warmth is unavailable. Once you find one usable sentence or action, try it rather than repeating the exercise in different words.</p><p>Borrowing can also help the position trying to be the adult: how would a decent adult hear distrust without retaliating, defending their goodness, collapsing, or leaving? Borrow that one response. You may still feel young while doing it; adult identity can develop after the behavior.</p>",
+      "before_sha256": "3b2084ad9d110d1d95453ded237986272048d744c52b255964149d913c380c7b",
+      "after_sha256": "0514ea9448e3e5af798f024cce0fe8bfdcb6effa6b70461d0dbcee51aab79014",
+      "current_start": 38289
+    },
+    {
+      "id": "R03-06",
+      "operation": "replace",
+      "heading": "The inner child, the guards, and the three inner adults",
+      "source_anchors": [
+        "Love Doesn’t Have to Wait for Trust",
+        "Make the Protector Visible"
+      ],
+      "reason": "Add current central relational distinction without importing the companion article’s personal anecdotes.",
+      "before": "<h2>The two-hand practice</h2>",
+      "after": "<h2>Love doesn’t have to wait for trust</h2><p>When love is available, the younger state doesn’t have to believe in it before you can offer it. Trust can question your promises, remember failures of protection, and take its time. Love can remain present while that happens.</p><blockquote><p>“Okay. I believe that you don’t believe me. I still love you. You don’t have to love me back. Tell me what feels unsafe.”</p></blockquote><p>That isn’t a way to end the complaint. Listen for what is true in it and answer seriously. Hearing anger without retaliation, admitting a real failure, and repairing after an internal attack are evidence alongside meals, boundaries, appointments, and kept promises. Non-retaliation expresses love; it shouldn’t replace love with a colder performance of good behavior.</p><p>Notice what each position teaches the others. A vow followed by blame when it is doubted teaches that love depends on receiving it correctly. The blaming voice and the voice making the vow may be different positions, the same position, or a blend. Don’t decide from the person’s chronological age.</p><p>When a younger version of you becomes the defendant, ask what they understood then, what options they could see and tolerate, and what happened because of the choice. Harm can require responsibility and repair. Punishment cannot retroactively create the capacity that was missing.</p><h2>The two-hand practice</h2>",
+      "before_sha256": "6c7272039a985ccda70fa25d2f565b081db2c9aa5b14e7b2c5329155ed3a553f",
+      "after_sha256": "be5167e90d5175bf3639863f96566d2956904fdcd2f0de8e33f04e66bfadaf44",
+      "current_start": 40110
+    },
+    {
+      "id": "R03-07",
+      "operation": "replace",
+      "heading": "The Nurturer",
+      "source_anchors": [
+        "The Three Adult Functions"
+      ],
+      "reason": "Preserve enjoyment as a complete relational purpose.",
+      "before": "<p>The Nurturer brings warmth without trying to rush the feeling away.</p>",
+      "after": "<p>The Nurturer brings warmth without trying to rush the feeling away, and takes pleasure in the child’s company: “I’m glad you’re here.” The child needs to be enjoyed, not only comforted when hurt.</p>",
+      "before_sha256": "c1ce4b2eed6011e23a668b9e6b6ba160f0ecb8f38f87eff3c0703ff583c6f577",
+      "after_sha256": "849fe57720364ac51f1670366eecd5eb5f2380f4c1635a31e52512e22fee8eb3",
+      "current_start": 42036
+    },
+    {
+      "id": "R03-08",
+      "operation": "replace",
+      "heading": "The Protector",
+      "source_anchors": [
+        "Make the Protector Visible"
+      ],
+      "reason": "Keep real-world competence while avoiding productivity-only outcome judgments.",
+      "before": "<p>This is where inner-child practice often turns decorative. The voice says loving things while the adult sends the destabilizing message, skips the meal, avoids the task, and breaks the promise. Trust begins when you handle the consequence.</p>",
+      "after": "<p>This is where inner-child practice often turns decorative. The voice says loving things while the adult sends the destabilizing message, skips the meal, avoids the task, and breaks the promise. Trust begins when you handle the consequence.</p><p>If warmth is unavailable, a protective act can begin the relationship. Make it small enough to carry out and review what actually happened. A missed action might reflect fear, exhaustion, missing skills, a practical barrier, or a poor plan. Completion without immediate relief isn’t automatically failure, and a tick on a list doesn’t prove the action helped.</p>",
+      "before_sha256": "e8358888aa4d5c42ad92128736085aa563d415eea782ac82231fb14ae28ade44",
+      "after_sha256": "44beb005045e6b2d9b54845584eb783d4269df78064b8b792164cffd88366cec",
+      "current_start": 42867
+    },
+    {
+      "id": "R03-09",
+      "operation": "replace",
+      "heading": "The Leader, Guide, or Guru",
+      "source_anchors": [
+        "Make the Protector Visible",
+        "The Inner Guide Comes Later",
+        "Timing is individual"
+      ],
+      "reason": "Remove fixed ordering that conflicts with the current companion guide; preserve the spiritual invocation.",
+      "before": "<p>Warmth first. Safety second. Direction third. Devotion fourth. Action always.</p>",
+      "after": "<p>Begin with the adult function you can actually reach. Protection may come before warmth. Direction should help the child grow without erasing care, play, or support.</p>",
+      "before_sha256": "eede3f4e39532929f47def91b110be56e3dab56d12b8323ee3f4ac19fb3ce400",
+      "after_sha256": "c65a200357f7d408b25f9ef6b3601da0377b3133d37d58b6dccb978829cfe56e",
+      "current_start": 44035
+    },
+    {
+      "id": "R03-10",
+      "operation": "replace",
+      "heading": "The Leader, Guide, or Guru",
+      "source_anchors": [
+        "The Inner Guide Comes Later"
+      ],
+      "reason": "Preserve standards while correcting forced-adulthood overcontrol.",
+      "before": "<p>The Leader gives direction. You can call this function Leader, Guide, Guru, Wise One, Sage, Inner Teacher, Director, or Higher Adult. The label matters much less than the ability to orient the whole system toward a life.</p>",
+      "after": "<p>The Leader gives direction. You can call this function Leader, Guide, Guru, Wise One, Sage, Inner Teacher, Director, or Higher Adult. The label matters much less than the ability to orient the whole system toward a life.</p><p>Direction can ask for something difficult without turning life into perfect discipline and hidden needs. Sometimes the next adult move is asking for help, expressing a preference, or letting a safe person see an imperfection. Wanting closeness is legitimate; punishing someone for needing space is a different strategy. Find a way to meet the need without erasing either person.</p>",
+      "before_sha256": "bd9c2e4378d3dd9c17739f8acc668ab51ef125768156c2487979b1d9a30298ce",
+      "after_sha256": "22656cbbef6b6788fdfe009fefd56231103bf46802b27770ce8e5603a8440d8b",
+      "current_start": 43514
+    },
+    {
+      "id": "R03-11",
+      "operation": "replace",
+      "heading": "Non-dominant hand dialogue",
+      "source_anchors": [
+        "Love Doesn’t Have to Wait for Trust",
+        "Make a Simple Vow"
+      ],
+      "reason": "Align the hypothetical exchange with love plus accountable hearing, without demanding belief.",
+      "before": "<strong>Dominant hand:</strong> “That makes sense. I have abandoned you before. I will not demand trust. I will keep one small promise today.”",
+      "after": "<strong>Dominant hand:</strong> “I hear that you don’t trust me. I still love you. Tell me where I’ve let you down. I won’t demand trust; I’ll listen and keep one small promise today.”",
+      "before_sha256": "d64490f774edbf90de8e0095dfed3f26a0fd2bf572c0980e3e3b78da9a1d5181",
+      "after_sha256": "f0af143c0e5f94979d136e607de6913e367ec616bccfee9d6a9a50e0744399ab",
+      "current_start": 50827
+    },
+    {
+      "id": "R03-12",
+      "operation": "replace",
+      "heading": "Let the next response guide you",
+      "source_anchors": [
+        "Also Look Outward"
+      ],
+      "reason": "Keep present relational reality and personal responsibility alongside inward exploration.",
+      "before": "<h2>Change the amount of contact</h2>",
+      "after": "<h2>Look at the situation too</h2><p>When another person is involved, notice what they actually do before making the whole problem an inner-child reaction. Can they hear disagreement, take responsibility, and make room for your experience? Keep the judgment specific and revisable; disagreement or a boundary alone doesn’t establish emotional immaturity. You don’t need repeated exposure to danger before protecting yourself.</p><p>Notice your side too. Guilt doesn’t prove wrongdoing or manipulation. Did you cause harm that needs repair, abandon your position to make their disappointment go away, or both? Choose a realistic purpose for the next interaction. Sometimes it is mutual understanding; sometimes it is conveying information, saying no, or ending the exchange. You don’t have to make someone understand before you can act.</p><h2>Change the amount of contact</h2>",
+      "before_sha256": "be83baa49c8b8b942ca984264970913aacf72333e4796a6ab0fe63e8bba01003",
+      "after_sha256": "28615943fbb1cc9b27924ead694e5b96325aaade6a472b83a67b412e0ac339ec",
+      "current_start": 79078
+    },
+    {
+      "id": "R03-13",
+      "operation": "replace",
+      "heading": "Offer the care that is actually wanted",
+      "source_anchors": [
+        "A Witness Is Enough to Begin",
+        "Borrow One Function at a Time"
+      ],
+      "reason": "Repair the core-practice dependency, not only the earlier explanation.",
+      "before": "When those capacities aren’t available, begin as the witness and borrow one credible function, as described earlier.",
+      "after": "When a capacity isn’t available, borrow that one function. Use the Witness only if you need it to begin; don’t restart a step you can already do.",
+      "before_sha256": "d9eb1d6dbd657adbbf18fbf057b2b879b0962181ad6958039737e4e3b39bd033",
+      "after_sha256": "ee43f868635a52e6e97907ead53400049415ab46df0025a9d6df7c7b59dbee32",
+      "current_start": 81784
+    },
+    {
+      "id": "R03-14",
+      "operation": "replace",
+      "heading": "Offer the care that is actually wanted",
+      "source_anchors": [
+        "Borrow Love—or Borrow the Perspective of Care",
+        "Somatic Heart Opening"
+      ],
+      "reason": "Distinguish resource mismatch and grief following care from global incapacity.",
+      "before": "<p>You can also deliberately try support: a welcome hand placement, an imagined presence, words you’d like to hear, a different posture, or more distance. Introduce one change and discover its effect. A comforting-sounding resource earns its place by helping this person now.</p>",
+      "after": "<p>You can also deliberately try support: a welcome hand placement, an imagined presence, words you’d like to hear, a different posture, or more distance. Introduce one change and discover its effect. A comforting-sounding resource earns its place by helping this person now.</p><p>Care can bring grief for what was missing. That needn’t mean the love failed. Stay with the response when you want to and can remain present; more tears don’t prove more healing. If this particular voice, closeness, touch, or image feels intrusive, change it before concluding that you can’t receive love.</p>",
+      "before_sha256": "46dc899f5db5c199434270e526183fe51d0a0cb8b070ffe2cd98119c31a3600b",
+      "after_sha256": "3d5ef00a647420cdae3be6594c02df05366c38776b8900ed7dba565653553bd8",
+      "current_start": 81933
+    },
+    {
+      "id": "R03-15",
+      "operation": "replace",
+      "heading": "It feels fake",
+      "source_anchors": [
+        "A Witness Is Enough to Begin",
+        "Borrow Love—or Borrow the Perspective of Care"
+      ],
+      "reason": "Keep alternatives accessible and avoid a compulsory witness/bootstrap loop.",
+      "before": "<p>The fake feeling can also mean that no credible adult capacity is available yet. Stop demanding a convincing voice. Begin as the witness, borrow one narrow function from somebody safe, and choose one action you can complete. Let behavior make the voice believable.</p>",
+      "after": "<p>The fake feeling can also mean that a needed adult capacity isn’t available yet. Stop demanding a convincing voice. If you can already observe what is happening, borrow the particular warmth, boundary, or direction you lack. A real or imagined caring figure can help. Try one believable sentence or action and see how it is received.</p>",
+      "before_sha256": "934377197b6e970a75562cc7d1e325289ca1dac1dc3634c4aba58f1a158bc4bf",
+      "after_sha256": "fa5af9217b53d02a153babc020779543f5ae5726c8f228e27f0b788399e16aac",
+      "current_start": 89360
+    },
+    {
+      "id": "R03-16",
+      "operation": "replace",
+      "heading": "You get stuck in spiritual bypass",
+      "source_anchors": [
+        "When the Spiritual Relationship Hurts",
+        "How Much Happiness Do You Know Is Possible?",
+        "Timing is individual"
+      ],
+      "reason": "Preserve spiritual possibility and distinguish spiritual struggle from bypass.",
+      "before": "<h2>You get stuck in spiritual bypass</h2><blockquote><p>“Where has divine love not yet descended into the wound?”</p></blockquote>",
+      "after": "<h2>You get stuck in spiritual bypass</h2><blockquote><p>“Where has divine love not yet descended into the wound?”</p></blockquote><p>A genuine opening can show you a depth of love or freedom you hadn’t known was possible. Let that matter without demanding the child receive it on command. Prayer can also evoke abandonment or condemnation, or a teacher’s betrayal can damage something sacred. Ask what was lost and what needs questioning; more of the same practice isn’t automatically the answer.</p><p>Sometimes practical care helps while the available horizon of life still feels too small. Curiosity about deeper happiness is worth following without pretending to believe an explanation. Other people already have enough love and meaning for the life they want. Spirituality doesn’t need to become another assignment.</p>",
+      "before_sha256": "316db7deac09b9576488521a5e29a23db986382757fde80eb1ad806fbdc6f67b",
+      "after_sha256": "ff30776c930e135f6b6d4206e222a62d1334594ff33415d290ad793e654049ce",
+      "current_start": 92790
+    },
+    {
+      "id": "R03-17",
+      "operation": "replace",
+      "heading": "You get stuck in endless processing",
+      "source_anchors": [
+        "When More Processing Becomes the Hook"
+      ],
+      "reason": "Preserve the live-work versus repetitive-checking discriminator and ordinary-life endpoint.",
+      "before": "<h2>You get stuck in endless processing</h2><blockquote><p>“What direction would the Leader choose now?”</p></blockquote>",
+      "after": "<h2>You get stuck in endless processing</h2><p>A real wound and a checking loop can coexist. Ask whether this round helps you feel, understand, decide, or respond differently—or whether you’re checking the same question for reassurance. Grief and practice can revisit familiar ground; novelty isn’t required every time.</p><p>When it is a checking loop, let the thought remain without arguing with it or chasing it away, and return to a chosen activity or relationship. You don’t have to hold an inner meeting every time a thought appears or complete a ritual before you’re allowed to live.</p><blockquote><p>“What direction would the Leader choose now?”</p></blockquote>",
+      "before_sha256": "985ad1514512a6c70a765420a52372682579c4cf1f62a7536b6e6f2eaa51c549",
+      "after_sha256": "498cbefe105d88c9d32f6ccfe2b368c9043eb38fd3988f9ac49166291f20327e",
+      "current_start": 93615
+    },
+    {
+      "id": "R03-18",
+      "operation": "replace",
+      "heading": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+      "source_anchors": [],
+      "reason": "Repair the sandbox-origin URL to the actual article-local anchor.",
+      "before": "href=\"https://web-sandbox.oaiusercontent.com/?#synchronicity-wake-up-cue\"",
+      "after": "href=\"#synchronicity-wake-up-cue\"",
+      "before_sha256": "9bf5b01753e589d587d75c57e19dfd28f04a053af9fa3fcdd8359d448fb8197e",
+      "after_sha256": "117aaf752e95c433308ee16df1b5a68b7cdc31496c4f817eaa323b8b2e761c05",
+      "current_start": 133319
+    },
+    {
+      "id": "R03-19",
+      "operation": "replace",
+      "heading": "Appendix B: NLP without turning yourself into a sales seminar",
+      "source_anchors": [],
+      "reason": "Supply the unique target for the corrected in-article link.",
+      "before": "<h3>Using synchronicity as your own wake-up bell</h3>",
+      "after": "<h3 id=\"synchronicity-wake-up-cue\">Using synchronicity as your own wake-up bell</h3>",
+      "before_sha256": "33da4df0038424908a2275722fffc0229f0c44af05a67fa87e6f51ce3384e951",
+      "after_sha256": "954e49e7b9814eda4cd4cdd26ab8e885a45773b6631e314f85c115042cc36395",
+      "current_start": 113407
+    },
+    {
+      "id": "R03-20",
+      "operation": "replace",
+      "heading": "The council — internal first, then outward",
+      "source_anchors": [
+        "Borrowed Adulthood in Relationship"
+      ],
+      "reason": "Keep mutual peer support distinct from clinician hierarchy and permanent dependency.",
+      "before": "<p>The opposite danger is giving away your power. “Seek counsel” can quietly become “find an authority and obey.” Another person deserves neither automatic trust nor automatic dismissal.</p>",
+      "after": "<p>The opposite danger is giving away your power. “Seek counsel” can quietly become “find an authority and obey.” Another person deserves neither automatic trust nor automatic dismissal.</p><p>Peer support can lend a different kind of help. In <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling\">Hearthwork</a>, equal time, warmth, confidentiality, and respect for “no” let each person lend Nurturer and Protector without taking over the other’s Guide. Then you switch roles. A carefully timed question can help your own direction become audible; the peer doesn’t decide what the experience means.</p>",
+      "before_sha256": "73e43a2ea88870c14d8a835de19677833496ab6722a69e2baa6b1f71ec8772cf",
+      "after_sha256": "234f0c3d210c076893ae935b6039dddef63bd5932f710e8e45ce4e938b377f92",
+      "current_start": 136158
+    },
+    {
+      "id": "R03-21",
+      "operation": "replace",
+      "heading": "Forgiveness without bypass",
+      "source_anchors": [
+        "How to Forgive Without Forgetting"
+      ],
+      "reason": "Carry the owner’s causal framing without weakening accountability or boundaries.",
+      "before": "<p>Forgiveness can’t be forced. It grows from understanding, and pushing it too early creates bypass. Staying angry forever can also let the injury keep governing the present. All of these can remain true together: the harm happened, the boundary still matters, the person remains accountable, and forgiveness may come later when your relationship to the event changes on its own.</p>",
+      "after": "<p>Forgiveness can’t be forced. It grows from understanding, and pushing it too early creates bypass. Staying angry forever can also let the injury keep governing the present. All of these can remain true together: the harm happened, the boundary still matters, the person remains accountable, and forgiveness may come later when your relationship to the event changes on its own.</p><p>The understanding that helps me is seeing how conditioning, history, pain, and capacity shaped the harmful move. Given the total person they had become by that moment, the harmful move was the only one their accumulated nature had available. The harm remains real, and so do accountability, consequences, and the work of making a different response possible now. Understanding someone’s limitations should make expectations more realistic, not make the limitations less consequential.</p>",
+      "before_sha256": "fa6022450db16f0bc42ed0eadb3772349e544ef25714e540b45b38593aae8224",
+      "after_sha256": "93510faff004f4f3a2bd3b547ced206895a618dadfe6831b196387b831883974",
+      "current_start": 136869
+    },
+    {
+      "id": "R03-22",
+      "operation": "replace",
+      "heading": "Forgiveness without bypass",
+      "source_anchors": [
+        "How to Forgive Without Forgetting"
+      ],
+      "reason": "Add the current self-forgiveness procedure without requiring forgiveness as a safety prerequisite.",
+      "before": "<p>“What happened?”<br>“What was the impact?”<br>“What boundaries are still needed?”<br>“What shaped this person into someone capable of that harm?”<br>“What belongs to them?”<br>“What belongs to me?”<br>“What does accountability require?”<br>“What would release look like without denial?”</p></blockquote>",
+      "after": "<p>“What happened?”<br>“What was the impact?”<br>“What boundaries are still needed?”<br>“What shaped this person into someone capable of that harm?”<br>“What belongs to them?”<br>“What belongs to me?”<br>“What does accountability require?”<br>“What would release look like without denial?”</p></blockquote><p>For self-forgiveness, name what you did without taking responsibility for what wasn’t yours. Let remorse register the harm or violation of your values without making the person who acted a permanent criminal. Then move through <strong>responsibility, remorse, rectify, release</strong>: name the action and impact; allow the remorse; repair or prevent repetition where possible; and stop holding yourself hostage after responsibility has been faced.</p>",
+      "before_sha256": "2c2dd422ba62d256daaecf8dc430e30e267e44c6a611d921eda96f1ffc0ca97d",
+      "after_sha256": "d7005a2a89d2f2fb9c9359621875d3d3b31f92ec27102fcee371a476f2790290",
+      "current_start": 138010
+    },
+    {
+      "id": "R03-23",
+      "operation": "replace",
+      "heading": "Appendix G: Altered states",
+      "source_anchors": [
+        "Altered States Can Deepen the Therapy",
+        "How Much Happiness Do You Know Is Possible?"
+      ],
+      "reason": "Preserve experienced/conditional/reliable access instead of state chasing; do not restore owner-removed triage prose.",
+      "before": "<blockquote><p>Do not use altered states to force revelation. Use them to deepen listening, strengthen love, and improve ordinary life.</p></blockquote>",
+      "after": "<blockquote><p>Do not use altered states to force revelation. Use them to deepen listening, strengthen love, and improve ordinary life.</p></blockquote><p>A past opening can be a resource without becoming a state you must reproduce. Having experienced love once, being able to access it only in a particular state, and contacting it reliably in daily life are different things. Let the experience widen what seems possible while you build usable access. If the child cannot receive it, meet the difficulty rather than escalating the intensity.</p>",
+      "before_sha256": "bddf2f72177a847affeeda20d018f24e3e88d467b26c65fb1256df35994f278f",
+      "after_sha256": "ca25f17613216edbae8a013cb88c93f88238ad0697640b83313d89176839599c",
+      "current_start": 139019
+    },
+    {
+      "id": "R03-24",
+      "operation": "replace",
+      "heading": "Appendix K: Sources and further reading",
+      "source_anchors": [
+        "Related Clinical Work",
+        "The Three Adult Functions"
+      ],
+      "reason": "Make the current companion-method dependency visible without citations inside the spoken practice.",
+      "before": "<h2>Inner-child care and adult capacities</h2>",
+      "after": "<h2>Inner-child care and adult capacities</h2><p>The companion <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided\">Inner Child Self-Love Reparenting Guide</a> gives the fuller treatment of borrowed adulthood, love without compulsory trust, practical and relational repair, spiritual struggle, differentiation, and mutual peer support. The corresponding practices here follow that account while retaining the self-hypnosis entry, responsive language, and complete return.</p>",
+      "before_sha256": "ed7285b52f5488c29e381a8d06dc25c085d4caecdfbb472e80d027db305e82cc",
+      "after_sha256": "f4119073b361fb3a55efdd753976aadebe4e92e1df28adc3fb89ff50a28c9022",
+      "current_start": 160990
+    }
+  ]
+}
