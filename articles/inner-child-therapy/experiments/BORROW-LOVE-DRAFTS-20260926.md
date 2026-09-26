@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:54 NAMED WHAT DOESN'T MAKE SENSE IN P4 (IT PUTS THEM IN YOUR EXACT LIFE, THEN TALKS ABOUT BEING OUTSIDE A LIFE). EIGHTH ATTEMPT MAKES SENSE BUT IS 100% AI. STOPPED; IT GOES TO JOEL FOR A MINIMAL FIX.**
+Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:54 NAMED WHAT DOESN'T MAKE SENSE IN P4 (IT PUTS THEM IN YOUR EXACT LIFE, THEN TALKS ABOUT BEING OUTSIDE A LIFE). P4 IS JOEL'S MINIMAL FIX (HUMAN, 19:23). P6 (WHAT TO DO WITH THE ANSWER) FAILED FOUR TIMES (100% AI) AND GOES TO JOEL.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -720,4 +720,152 @@ Inventory:
 ### P4, eighth attempt: result
 
 Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 73 words, short text. The sense is fixed, since the swap is now explicit, but it reads as compressed explanation. The one P4 that passed did so by dwelling on the story, and that's the version that didn't make sense. I'm stopping instead of looping, and P4 goes to Joel for a minimal fix.
+
+## Joel's P4 fix, 2026-09-26 19:23 UTC (his check: Human)
+
+> "yeah it's again that marching order where the next sentence lands like code without a hitch. this one is human:"
+
+> Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them. It's a cheap trick for becoming the outsider to your own mess. The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move. And this trick even has a name, Solomon's paradox, after the king everybody brought their disputes to, who then wrecked his own life.
+
+89 words, sha256 42c496d1561b0c52b84dc564c9ece585028aa017e2424d87f9f31c4276fdce10.
+
+His changes to my eighth attempt:
+- He cut the explanatory clause "and most of us are way wiser as outsiders". It was the next logical step landing exactly on cue.
+- He added a sideways sentence that isn't the paragraph's next job: "The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move." It steps back to a bigger thought, then comes back practical.
+- "That even has a name" became "And this trick even has a name".
+
+Lesson (E68): a sentence that steps sideways, a reflection the plan didn't need, is what breaks the march. I'd have flagged his added sentence myself as a finished principle with a contrast. In context, it's the hitch that makes the paragraph read human.
+
+A note for Joel, not a change: strictly, Solomon's paradox is the problem the trick solves, not the trick. The linked paper's title ties the two together ("self-distancing eliminates the self-other asymmetry"), so the wording can stand. I'm mentioning it rather than touching his tested text.
+
+Linter on his text: REVIEW, no hard fails.
+
+## P6: what to do with the answer (BL-U10–U12), recorded before its call
+
+> Whatever you'd tell them is probably the Nurturer, the Protector or the Guide talking. Usually it's the Guide, since we're all so full of advice, but sometimes the honest answer is just "come here." Either way, take one sentence or one small action and do about five percent of it for yourself, whether or not you're sold on it. Five percent of "get more sleep" might be brushing your teeth before midnight. Then picture your stand-in shrugging and saying "Big whoop." Whatever care still stands after that (without their thanks or their agreement) is the kind your little one can take without it turning into a demand. And once you've got your one sentence, quit rerunning the question in new words, which is just the checking from earlier again.
+
+129 words, sha256 c3e5beeec9ef082ac94737fc01b1e78ee73cafbbfb387e0c237a3251da4f9160.
+
+Sense read, cold:
+1. Your answer comes from one of the three jobs from Borrow One Competency.
+2. It's usually advice (the Guide), but sometimes just "come here". That's the sideways noticing, and it points back at this section's subject, love.
+3. Take one sentence or action and do five percent of it, sold or not.
+4. The example: brushing your teeth before midnight for "get more sleep".
+5. The "Big whoop" test: what survives without their thanks or agreement is care that won't become a demand on your little one.
+6. Stop rerunning the question, because that's the checking loop from `When Healing Turns Into Checking`.
+
+No contradiction. The stand-in gets the advice, and you and your little one are where it's borrowed to.
+
+Marching check (E66): the procedure is the source's, but two sentences aren't steps. One is the Guide / "come here" aside, and the other is the teeth example, which dwells.
+
+Trace:
+- BL-U10: which function; one sentence or action; five percent; "whether or not you're sold on it" for not needing to feel convinced.
+- BL-U11: "Big whoop", and what stays true without their thanks or agreement (gratitude, agreement). "Trust" is compressed. It's borrowed without turning care into a demand.
+- BL-U12: stop rerunning, and do it.
+- Added: the "come here" aside, the teeth example, and the callback to checking.
+
+Linter: REVIEW. B4 is the instruction sentence: KEEP, it's one instruction.
+
+Inventory:
+
+| row | result |
+|---|---|
+| T02 | UNCERTAIN, KEEP. It's the source's procedure, broken by the aside and the example. |
+| T10, T22 | ABSENT. An earlier draft's "You don't have to believe in it first" was T10 permission syntax, and "It also helps to" was a coach phrase; both went. |
+| T16 | ABSENT. An earlier draft's "doing it, not believing it" went. |
+| T20 | ABSENT. It ends on the callback, not a quip. An earlier draft's "in a fancier outfit" was cut as a crafted image. |
+| T26 | ABSENT. |
+| C02 | ABSENT. "Them" and "their" are the stand-in. |
+| C04 | ABSENT. No claims. |
+| All other rows | ABSENT. |
+
+### P6 result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 135 words, short text.
+
+Read as a sequence, it's a staircase: classify, elaborate, step, example, step, explain, step. Every sentence lands on cue. My "sideways" sentence ("Usually it's the Guide…") wasn't sideways at all; it continued the classification. There were also too many moves for one paragraph.
+
+**Sense call: BL-U11, the "Big whoop" test, is consolidated.** Its idea is care that doesn't depend on their gratitude, trust or agreement. That's already Borrow One Competency's thank-you thread: P3 has "don't expect a thank-you for the session", and P7 has "The thank-you you weren't waiting for might not come anyway… 'Oh, so NOW you care?'". Joel asked at 17:10 not to keep repeating advice.
+
+Note for later sections: their "Big whoop" callbacks (Make the Protector Visible, Make a Simple Vow) will need to call back to "Oh, so NOW you care?" instead, or introduce the phrase themselves.
+
+## P6, second attempt (recorded before its call)
+
+> Whatever you'd tell them is probably coming from the Nurturer, the Protector or the Guide. Pick one sentence or one small action out of it and do maybe five percent of it for yourself, sold on it or not, like brushing your teeth before midnight when the advice was "get more sleep." Most of us already know what we'd tell a friend, and the doing is the hard part. And if you catch yourself rerunning the question in new words, that's just the checking from earlier again.
+
+87 words, sha256 850e9ba066ec7103738cfa126872cefd67dbb50139adcca9e2cd2c8e383cb0f1.
+
+Shape, after Joel's P4 fix:
+- two practical sentences;
+- a sideways reflection that the plan doesn't need ("Most of us already know what we'd tell a friend, and the doing is the hard part");
+- then an "And…" sentence that names the rerun habit as the checking loop, rather than giving another step.
+
+Sense read, cold:
+- The answer comes from one of the three jobs.
+- Do five percent of one piece, sold or not.
+- The teeth example.
+- We already know what we'd tell a friend; doing it is the hard part, which is why the five percent.
+- Rerunning the question is the checking loop.
+
+Consistent with P4, including its "best next move".
+
+Trace:
+- BL-U10: which function; one sentence or action; five percent; "sold on it or not" for not needing to feel convinced.
+- BL-U12: "Stop repeating the thought experiment" is carried by naming the rerun as the checking loop. "Try the sentence or do the action" is carried by the five-percent sentence.
+- BL-U11: consolidated (above).
+- Added: the teeth example, the reflection, and the checking callback.
+
+Inventory:
+
+| row | result |
+|---|---|
+| T02, T09 | ABSENT. Two steps, then the reflection gets attention; not a staircase. |
+| T17 | UNCERTAIN, KEEP. The reflection is the sideways sentence, the same move as Joel's P4 line. |
+| T18 | ABSENT. The reflection is one sentence, not a premise and a knock-down. |
+| T20 | ABSENT. It ends on an observation, not a quip. |
+| T10, T22 | ABSENT. |
+| C02 | ABSENT. "Them" is the stand-in. |
+| C04 | ABSENT. |
+| All other rows | ABSENT. |
+
+### P6, second attempt: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 90 words, short text.
+
+My "reflection" ("Most of us already know what we'd tell a friend, and the doing is the hard part") wasn't sideways either. It was the next logical step, justifying the five percent, and a cliché at that. Joel's P4 sentence goes somewhere the argument doesn't need: out to the life-long frame ("The quest for self-knowledge is a life's journey"), then back with a wry turn ("you don't have to wait for your life to finish").
+
+## P6, third attempt (recorded before its call)
+
+Only the third sentence changes. It's now a real digression out to the whole enterprise: "Reparenting yourself turns out to be mostly tiny, unimpressive stuff like that, and nobody claps." "Reparenting" is Joel's term from the Chicken-and-Egg list. "Nobody claps" also carries a little of the consolidated no-gratitude idea. "Instead" is added to the last sentence so the rerun contrasts with doing it.
+
+> Whatever you'd tell them is probably coming from the Nurturer, the Protector or the Guide. Pick one sentence or one small action out of it and do maybe five percent of it for yourself, sold on it or not, like brushing your teeth before midnight when the advice was "get more sleep." Reparenting yourself turns out to be mostly tiny, unimpressive stuff like that, and nobody claps. And if you catch yourself rerunning the question in new words instead, that's just the checking from earlier again.
+
+86 words, sha256 8577c7696b629ee52fc42af13d334957f46045df16a3702b1cf3a381133e65b7.
+
+Inventory:
+- The third sentence (T17): KEEP. It's the sideways move, as in E68.
+- The trace is otherwise as in the second attempt.
+- Every other row as before.
+
+### P6, third attempt: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 88 words, short text.
+
+Sense read (E67) on what's left: the opening sentence ("Whatever you'd tell them is probably coming from the Nurturer, the Protector or the Guide") does nothing. Nothing after it uses the classification. It's there because the source asks "Which adult function is speaking?", which is a slot filled from the ledger. **Sense cut:** that part of BL-U10 goes. The three jobs are already named in Borrow One Competency, and knowing which one is talking doesn't change what you do next.
+
+## P6, fourth attempt (recorded before its call)
+
+> Then take one sentence or one small action out of whatever you'd tell them and do maybe five percent of it for yourself, sold on it or not. If the advice was "get more sleep," five percent might be brushing your teeth before midnight instead of at two. Reparenting yourself turns out to be mostly tiny, unimpressive stuff like that, and nobody claps. And if you catch yourself rerunning the question in new words, that's just the checking from earlier again.
+
+81 words, sha256 3ea0cac205fac33b8e111beb28af848683f4161bc69b3d9100278cf68c369d34.
+
+- The example moves into its own sentence, with a bit of real texture: "instead of at two".
+- Sense read: take one piece of what you'd tell them and do five percent of it for yourself, sold or not. The example. The sideways reflection. The rerun is the checking loop.
+- The trace is as in the third attempt, minus the classification.
+
+If this fails, P6 goes to Joel.
+
+### P6, fourth attempt: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 83 words, short text. I'm stopping here; P6 goes to Joel.
 
