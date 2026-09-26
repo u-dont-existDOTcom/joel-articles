@@ -200,16 +200,20 @@ E61. Joel's P5 fix (2026-09-26 14:45): the result depends on an interaction. His
 - a half-rejected cliché ("'Fake it til you make it' isn't exactly it, but yeah");
 - "If it sounds funny, laugh!".
 Rewriting the feeling-plus-reassurance pair ("You may still feel… That's ok.") into one sentence ("Even if this still feels like the child acting like the adult, for now, that's ok") flipped it to Human. That same rewrite alone didn't flip my version. Look for coach-cadence pairs (a feeling or claim, then a short reassurance) and rewrite them, and give the paragraph enough texture of a person's own. Neither alone is enough.
-E62. When a whole section fails but its paragraphs pass, follow where the flagged span starts (Joel's P6 fix and round 14, 2026-09-26). On Borrow, every paragraph passed alone, but P6 and P7 failed together.
-- Joel's first edit moved the span's start from P6's third sentence to "A wise tradition". His edit at the new start cleared it.
-- In the full section, the span then started at P7's second sentence. Changing only that sentence cleared it on my first try, two different ways.
-- I had changed the end of the span instead, following a theory from another detector's paper (SlopShape's "conclusion restates the thesis"). That only moved it from 24% to 16%.
-- So: change the sentence where the span starts, recheck, and follow the start if it moves.
-- Inside the span, a REVIEW-level coach phrase from the linter is the first suspect. "You might get more like…" was P7's only one.
+E62. When a whole section fails but its paragraphs pass, a good first thing to try is the sentence where Pangram's flagged span starts. It's a heuristic, not a rule, and Joel didn't teach it as one. He corrected me at 16:10: "that's not always true, as you see sometimes the flagged part moves depending on what's done in a different part, but that doesn't mean the flagged part fix won't fix things either. but it's a good thing to try".
+- What happened on Borrow: every paragraph passed alone, and P6 and P7 failed together. After Joel's first edits the span started at "A wise tradition", and his edit to that sentence cleared the pair. In the full section, the span then started at P7's second sentence, and changing only that sentence cleared it (round 14, two ways).
+- The span moves with changes elsewhere. Without Joel's "What would Jesus do?" parenthetical in P6, the flag sat in P7. So the cause can be outside the flagged part. If the start-of-span fix doesn't clear it, look at what comes before the span.
+- Choose where to change from Pangram's own result, not from another detector's theory. Following SlopShape's "the conclusion restates the thesis", I changed the end of the span, and that only moved it from 24% to 16%.
+- Inside the span, a REVIEW-level coach phrase from the linter is a suspect. "You might get more like…" was P7's only one.
 - What the fixes had in common:
   - my crafted image pair ("can carry some of it… until you can hold the direction yourself") became the words people use ("can give some direction… until you develop your own internal compass");
   - the abstract "a tradition" got a familiar instance ("What would Jesus do?");
   - a hedged projection ("You might get more like…") became a plain one ("More like…").
-- The texture of one paragraph changes how the next one reads. Without Joel's "What would Jesus do?" parenthetical in P6, the flag moved into P7.
 E63. Emojis go only where a spot begs for one (Joel, 2026-09-26: "If you see something begging for an emoji, put it, but don't put it otherwise"). It applies to his article writing and to any article that's allowed to be cute. His example is 😜 after "The thank-you you weren't waiting for might not come anyway.": it tells the reader the slightly awkward line is a joke. 🙄 after the eye-roll lands the beat. Never add one for Pangram. The general rule is in `project-sources/MASTER-INSTRUCTIONS.md` under Emojis.
+E64. A guided exercise from the source reads as a script even in casual words (Borrow Love P1, 2026-09-26). The first draft kept the source's order (feel it, let your body remember, then see if) with my wording over it, and noticed one thing (the baby voice): 100% AI. The second attempt passed at 100% Human. It kept the exercise and changed what the paragraph says:
+- it adds why the exercise works, which is what a person notices about a dog: you forgive it for the chewed shoes before you've found the other one, and that's the love you can't give yourself;
+- it answers the reader's literal question (the dog doesn't have to be in the room);
+- it has two instructions instead of three;
+- it has a joke that carries the point (the little one "hasn't even chewed anything").
+P2 did the same with a familiar instance (kids squirming away from an aunt's big hug), and passed on the first try.
 

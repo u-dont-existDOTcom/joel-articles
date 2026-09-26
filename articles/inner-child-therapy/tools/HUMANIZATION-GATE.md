@@ -68,7 +68,7 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - On Borrow round 11 every paragraph passed alone, yet the section was flagged "at the close". Its last paragraph was tying things up: a callback to an earlier line, and the section's thesis word restated in the last sentence.
 8. **Pangram (E27, E37; SKILL.md owner-delivery admission).**
    - Check every paragraph I wrote on its own, and then the whole section. A section can pass while one of its paragraphs is AI, which is the cheating the per-paragraph rule exists to stop (Joel, 2026-09-26).
-   - The reverse happens too. On Borrow round 11 every paragraph passed alone, P6 and P7 failed together at 100% AI, and the section failed at the close. So the whole-section check stays. When it fails, change the sentence where Pangram's flagged span starts, recheck, and follow the start if it moves (E62). Check any REVIEW-level coach phrase inside the span first. Don't fix the end of the span on a theory.
+   - The reverse happens too. On Borrow round 11 every paragraph passed alone, P6 and P7 failed together at 100% AI, and the section failed at the close. So the whole-section check stays. When it fails, a good first try is the sentence where Pangram's flagged span starts, plus any REVIEW-level coach phrase inside the span (E62). It's a heuristic: the span moves with changes elsewhere, so if that doesn't clear it, look at what comes before the span. Choose the spot from Pangram's result, not from a theory.
    - Run the checks side by side in separate browser tabs.
    - At most about three rounds per turn, where a round is one set of checks on one draft. Never recheck unchanged text.
    - Read results from the page text.

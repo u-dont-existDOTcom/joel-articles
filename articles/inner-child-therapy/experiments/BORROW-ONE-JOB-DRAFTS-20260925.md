@@ -1078,7 +1078,7 @@ His ablation:
 - He likes all the edits and wants them kept, so version B is the pair as it stands.
 
 What I take from it (E62):
-1. Follow where the flagged span starts. It began at P6's third sentence. His first edit moved the start to "A wise tradition", and the edit at the new start cleared it. I had changed the end of the span instead (P7's last line, following the paper's conclusion signal), which only moved 24% to 16%.
+1. Try the sentence where the flagged span starts. It began at P6's third sentence, his first edits moved the start to "A wise tradition", and his edit there cleared it. I had changed the end of the span instead (P7's last line, following the paper's conclusion signal), which only moved 24% to 16%. Corrected by Joel, 16:10: this is "a good thing to try", not a rule, because the span moves with changes made elsewhere. It was my reading of his edits, not something he taught.
 2. The trigger was my crafted image pair: a tradition "can carry" it "until you can hold" it. The same promise in words people actually use ("give some direction", "your own internal compass") reads human.
 3. The abstract "tradition" needed a familiar instance ("What would Jesus do?"). Without it, the flag moved into P7, so the texture of one paragraph changes how the next one reads.
 4. P7's closing thesis word ("borrow") stays. It wasn't the problem.
@@ -1127,7 +1127,7 @@ Pangram 4.0, Joel's account, 2026-09-26, same turn as round 13. Both textareas' 
 | 14a, "You're more likely to get…" | 567 | **Human Written, 100% Human** |
 | 14b, "More like…" | 563 | **Human Written, 100% Human** |
 
-- E62's method worked on the first try: change the sentence where the flagged span starts, and nothing else.
+- Changing only the sentence where the flagged span started worked on the first try. That's one case of a heuristic (E62, as corrected by Joel), not a rule.
 - The linter had pointed at that sentence all along. "You might get more like…" was P7's only E41 coach phrase, a REVIEW flag I had kept. Inside a flagged span, a REVIEW-level coach phrase is the first suspect (added to E62).
 
 Tell ledger for P7 (14b), the linter's REVIEW items:
