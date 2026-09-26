@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:50: DON'T REWRITE P4 UNTIL I CAN SAY WHAT DOESN'T MAKE SENSE. THE SEVENTH ATTEMPT WAS ALREADY SENT (100% AI) AND IS DIAGNOSTIC ONLY.**
+Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:54 NAMED WHAT DOESN'T MAKE SENSE IN P4 (IT PUTS THEM IN YOUR EXACT LIFE, THEN TALKS ABOUT BEING OUTSIDE A LIFE). EIGHTH ATTEMPT MAKES SENSE BUT IS 100% AI. STOPPED; IT GOES TO JOEL FOR A MINIMAL FIX.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -677,4 +677,47 @@ No, I didn't. I rewrote before reading the sixth attempt properly. Reading it no
 5. The exercise stops at "ask what you'd tell them". The point of borrowing, turning that care back toward yourself and your little one, isn't there.
 
 Waiting for Joel before rewriting.
+
+## Joel, 18:54
+
+> "first sentence. it says "picture somebody... living *YOUR EXACT LIFE*" then you talk about someone NOT LIVING THEIR EXACT LIFE"
+
+That's the contradiction, and I missed it in all five of my points. The first sentence puts the stand-in inside your exact life. Everything after it (Solomon, "wiser about other people's messes") is about being outside a life. The paragraph never says that the trick is the swap: they go into your life, and you step out and look at it the way you'd look at a friend's. Without that, the explanation argues against the exercise. Added to E67: check that the explanation is about the same person, in the same position, as the instruction.
+
+## P4, eighth attempt (recorded before its call)
+
+> Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them. It's a [cheap trick for becoming the outsider to your own mess](https://pubmed.ncbi.nlm.nih.gov/21728454/), and most of us are way wiser as outsiders. That even has a name, [Solomon's paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the king everybody brought their disputes to, who then wrecked his own life.
+
+Plain text: 70 words, sha256 fab978aa75c93e54cf62819ae75b6d2fb807a89bec76a9980f941d84254948db.
+
+Sense read, cold:
+1. Put them into your exact life (family, bank account); you step outside and ask what you'd tell them.
+2. That makes you the outsider to your own mess, and we're wiser as outsiders.
+3. "That" (being wiser as outsiders) has a name, after the king who judged everyone else's disputes and wrecked his own life.
+
+Nothing argues against the exercise. "Exact life… bank account and all" carries the no-easier-life caution that P5 had.
+
+Marching check: one instruction, an explanation joined with "and", and the name as a trailing fact that ends on the king. Not a slot per sentence.
+
+Linter: REVIEW. Both B4s are KEEP:
+- the first sentence is one instruction with its details;
+- the last is one fact with its origin, the way Joel writes long sentences.
+
+Inventory:
+
+| row | result |
+|---|---|
+| T09 | UNCERTAIN, KEEP. See the marching check. |
+| T17 | KEEP. "Most of us are way wiser as outsiders" is the sourced finding. |
+| T20 | KEEP. It ends plainly on the king. |
+| T21 | KEEP. See B4. |
+| T24 | ABSENT. The name follows at once, so there's no suspense. |
+| T26 | KEEP. "Outsider" twice is the point of the sentence. |
+| C02 | ABSENT. "Step outside it" is your life; "It's a cheap trick" is the exercise; "That" is being wiser as outsiders. |
+| C04 | ABSENT. Links as before. |
+| All other rows | ABSENT. |
+
+### P4, eighth attempt: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 73 words, short text. The sense is fixed, since the swap is now explicit, but it reads as compressed explanation. The one P4 that passed did so by dwelling on the story, and that's the version that didn't make sense. I'm stopping instead of looping, and P4 goes to Joel for a minimal fix.
 
