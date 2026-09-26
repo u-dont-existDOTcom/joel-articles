@@ -99,7 +99,7 @@ Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration
 | Borrow One Function r2 | 100% AI | FAIL | coach 3.3/100; landings 3/6 |
 | Borrow One Function r3 | 100% AI | FAIL | coach 2.8/100 |
 | Borrow One Function r4 | 100% AI | REVIEW (miss since D9 became a note) | — |
-| Borrow One Function r5 | 100% AI, "paraphrased" | FAIL | landings 3/6 |
+| Borrow One Function r5 | 100% AI, "paraphrased" | REVIEW (miss since the "Mr." splitter fix, 2026-09-26) | — |
 | Borrow One Job r6 (full gate) | 100% AI | REVIEW (miss) | none; the fresh sweep found T02, T09, T12 |
 | Borrow One Competency r8e (with Joel's opening) | 91% AI, "paraphrased"; my paragraphs 5 of 6 at 100% AI | REVIEW (miss) | none |
 | Music r2, my lines only | 100% AI | FAIL | second person 9.9/100 |
@@ -109,6 +109,6 @@ Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration
 | Noticing Counts | 100% Human | REVIEW | — |
 | Your Body Might Need Some Love First | 100% Human | REVIEW | — |
 
-Since D9 became a note, the linter hard-fails four of the seven AI texts (r2, r3, r5, music r2) and none of the five Human ones. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
+Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
 
 That's a small set, and the thresholds were set on it, so expect misses. A CLEAR or REVIEW only means the mechanical tells weren't found; it doesn't mean the draft reads human. Add every new Pangram result to the calibration set and retune the thresholds if they start letting AI through.

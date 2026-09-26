@@ -1,6 +1,6 @@
 # "Borrow One Function at a Time" — Claude drafts — 2026-09-25
 
-Status: **STOPPED AFTER ROUND 9. THE DETECTOR TEST SHOWS SURFACE CHANGES DON'T MOVE PANGRAM EITHER WAY / WAITING ON JOEL'S CHOICE OF METHOD**
+Status: **ONE PARAGRAPH AT A TIME. P3 IS JOEL'S FIX (HUMAN); P4 IS 100% HUMAN; P5 FAILED TWICE AND IS WITH JOEL FOR A MINIMAL FIX**
 
 ## Trigger
 
@@ -810,3 +810,79 @@ What this shows:
 - Short-text verdicts carry little weight, and this is one small batch. It supports a direction; it isn't a law.
 
 Conclusion for the method: more rewriting by me, at any level we've tried, is unlikely to get this section past Pangram. The next move is Joel's to choose, and the options go to him with the evidence.
+
+## Joel's minimal fix, 2026-09-26 14:13 UTC
+
+Joel: "i'm thinking you wasted a lot of time trying to write an entire section. if you can't write one paragraph that passes, why would you continue onto all the others? so let's just start with one. this passes."
+
+His fix of my round-9 P3 (he reports it passes on Pangram):
+
+> If the love still isn't coming, you can at least stop judging your little one. Obviously no insults. Helpful advice is great, we all need advice. Let them absorb it at their pace. And don't expect a thank-you for the session, like they booked it. That's enough to start being the adult, even if it isn't enough yet for them to trust you.
+
+The diff against mine, by sentence:
+- He kept three of my six sentences word for word: the first, the thank-you line, and the last.
+- He replaced two:
+  - `- No insults, including the ones that sound like advice.` / `- No rushing them.`
+  - `+ Obviously no insults.` / `+ Helpful advice is great, we all need advice.` / `+ Let them absorb it at their pace.`
+
+What it teaches:
+1. **The AI was in two sentences, not everywhere.** My conclusion from the detector test ("whose word choices") was too broad. Corrected in rule E58.
+2. **"Including the ones that sound like advice" was a clever twist that sounds wise and isn't true.** Joel thinks advice is fine and the problem is pace, so he says that. My kind of noticing reaches for a contrarian reframe. His comes from a view a person actually holds.
+3. **A bare prohibition in a list became a positive instruction tied to the sentence before.** "No rushing them" became "Let them absorb it at their pace", where "it" is the advice.
+4. **"Obviously" is the stance of someone mildly embarrassed to list the obvious.** "We all need advice" is inclusive, and the comma splice is how people talk.
+5. **Keep what's already fine.** Minimal fixes are a method as well as a style.
+
+Process lesson (rule E59): get one paragraph to pass before writing the next. Don't write a whole section and then test it.
+
+## P4 (100% Human)
+
+The same method on my round-9 P4:
+- Kept the plain sentences.
+- Cut my clever image ("on the edge of the bed, not across a desk with a clipboard") and the grandmother twist ("might have been the warmest person you knew and still only been warm while…").
+- Turned the rule "Anybody whose care needed you to disappear comes off your list" into a positive instruction.
+- Used the words of Joel's own 2026-09-25 edit for the fallback.
+
+> Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us. That takes warmth, and if there isn't any yet, borrow some. Think of someone you remember fondly. How would they sit beside your little one? Just make sure it's someone who liked you the way you were. If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have.
+
+- Preservation:
+  - U4: the sit-beside question is kept.
+  - U5: the fond nurturer, Mr. Rogers and spiritual love are kept. Opening up and being taken care of are kept.
+  - U3 is kept in positive form ("someone who liked you the way you were"). Its scope narrows to the nurturer, where it bites hardest. The Protector and Guide don't need it restated for sense.
+  - Nothing added beyond that.
+- Linter: REVIEW, no hard fails. The recorded check ran the linter first, but the ledger was written here after the Pangram call, a slip. From P5 on, the record comes first.
+- Pangram 4.0, Joel's account, 2026-09-26 about 14:17 UTC: **Human Written, 100% Human**, 84 words, short text.
+
+## P5 (recorded before its Pangram call)
+
+The same method on my round-9 P5:
+- Kept: the question, the snack line, the safety sentence, and the source's closing quote.
+- Cut: the clever reveal "a lot of what your little one needs protecting from turns out to be you", and the quote-card line "Nobody checks your credentials before handing you a baby".
+- Restored the source's own sentence "You may still feel completely like the child while…", plus Joel's plain "That's ok" (his wording in the regulation section).
+- Carried "stop replying" as a callback to his own `Write It. Don't Send It Yet.`
+
+> For protecting, ask what a minimally competent adult would do in the next ten minutes. It's funny how often the answer is a snack. Sometimes it's going to bed, or writing that reply and not sending it yet. If the room itself isn't safe, the answer is to leave, or lock the door and get help. You may still feel completely like the child while you're doing it. That's ok. Afterward, you can tell your little one, "I did that for us. That was the Protector."
+
+- Preservation:
+  - U6: all six actions are kept (the snack; going to bed; the reply not sent yet; leaving; locking the door; getting help).
+  - U9: the source's sentence and quote are kept. The identity-after point comes through "Afterward".
+  - One callback was added ("that reply", pointing to `Write It. Don't Send It Yet.`).
+  - No unexplained deltas.
+- Linter: REVIEW, no hard fails; landings 1/4.
+- Linter fix made on the way: the sentence splitter broke "Mr. Rogers" into two sentences, which produced false short-landing and announcing flags. With that fixed, round 5 of the calibration set drops from FAIL to REVIEW. Its failure had partly depended on the bug.
+- Pangram 4.0, Joel's account, 2026-09-26 about 14:31 UTC: **AI Generated, 100% AI**, 91 words, short text.
+
+### P5, second attempt (recorded before its call)
+
+The earlier P5 still carried its own twist ("It's funny how often the answer is a snack") and a bare list of examples. This attempt says what a person would plainly say:
+- "Usually it's something basic, like eating or going to bed."
+- The reply becomes a hedged conditional in Joel's register ("maybe don't send it yet").
+- The safety line becomes a direct instruction.
+
+Everything else is unchanged.
+
+> For protecting, ask what a minimally competent adult would do in the next ten minutes. Usually it's something basic, like eating or going to bed. If you're about to send an angry text, maybe don't send it yet. If the room itself isn't safe, leave, or lock the door and get help. You may still feel completely like the child while you're doing it. That's ok. Afterward, you can tell your little one, "I did that for us. That was the Protector."
+
+- Preservation: U6's six actions are kept (eating; bed; not sending yet; leaving; locking the door; getting help), and so is U9. No new claims.
+- Linter: REVIEW, no hard fails.
+- If this fails too, it goes to Joel for a minimal fix rather than a third attempt from me.
+- Pangram 4.0, Joel's account, 2026-09-26 about 14:35 UTC: **AI Generated, 100% AI**, 88 words, short text. Sent to Joel for a minimal fix.

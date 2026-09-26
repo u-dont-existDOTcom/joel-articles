@@ -32,10 +32,20 @@ def paragraphs(t):
     # drop heading-like lines: short and without sentence punctuation at the end
     return [p for p in ps if not (len(p.split()) <= 12 and not p.rstrip().endswith(('.', '?', '!', '"', '”', ':')))]
 
+ABBREVIATIONS = ('Mr.', 'Mrs.', 'Ms.', 'Dr.', 'St.', 'vs.', 'e.g.', 'i.e.')
+
 def sentences(p):
     p = re.sub(r'\s+', ' ', p)
     parts = re.split(r'(?<=[.!?])["”]?\s+(?=["“]?[A-Z0-9])', p)
-    return [s.strip() for s in parts if s.strip()]
+    # Rejoin splits after an abbreviation: "Mr. Rogers" was read as two sentences,
+    # which produced false short-landing and announcing flags (2026-09-26).
+    out = []
+    for s in (x.strip() for x in parts if x.strip()):
+        if out and out[-1].endswith(ABBREVIATIONS):
+            out[-1] = out[-1] + ' ' + s
+        else:
+            out.append(s)
+    return out
 
 def words(s): return re.findall(r"[A-Za-z']+", s)
 
