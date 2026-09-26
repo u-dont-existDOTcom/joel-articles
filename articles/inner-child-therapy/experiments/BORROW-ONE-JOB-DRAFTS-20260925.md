@@ -850,7 +850,7 @@ The same method on my round-9 P4:
   - U3 is kept in positive form ("someone who liked you the way you were"). Its scope narrows to the nurturer, where it bites hardest. The Protector and Guide don't need it restated for sense.
   - Nothing added beyond that.
 - Linter: REVIEW, no hard fails. The recorded check ran the linter first, but the ledger was written here after the Pangram call, a slip. From P5 on, the record comes first.
-- Pangram 4.0, Joel's account, 2026-09-26 about 14:17 UTC: **Human Written, 100% Human**, 84 words, short text.
+- Pangram 4.0, Joel's account, 2026-09-26 about 14:15 UTC: **Human Written, 100% Human**, 84 words, short text.
 
 ## P5 (recorded before its Pangram call)
 
@@ -869,7 +869,7 @@ The same method on my round-9 P5:
   - No unexplained deltas.
 - Linter: REVIEW, no hard fails; landings 1/4.
 - Linter fix made on the way: the sentence splitter broke "Mr. Rogers" into two sentences, which produced false short-landing and announcing flags. With that fixed, round 5 of the calibration set drops from FAIL to REVIEW. Its failure had partly depended on the bug.
-- Pangram 4.0, Joel's account, 2026-09-26 about 14:31 UTC: **AI Generated, 100% AI**, 91 words, short text.
+- Pangram 4.0, Joel's account, 2026-09-26 about 14:18 UTC: **AI Generated, 100% AI**, 91 words, short text.
 
 ### P5, second attempt (recorded before its call)
 
@@ -885,4 +885,4 @@ Everything else is unchanged.
 - Preservation: U6's six actions are kept (eating; bed; not sending yet; leaving; locking the door; getting help), and so is U9. No new claims.
 - Linter: REVIEW, no hard fails.
 - If this fails too, it goes to Joel for a minimal fix rather than a third attempt from me.
-- Pangram 4.0, Joel's account, 2026-09-26 about 14:35 UTC: **AI Generated, 100% AI**, 88 words, short text. Sent to Joel for a minimal fix.
+- Pangram 4.0, Joel's account, 2026-09-26 about 14:20 UTC: **AI Generated, 100% AI**, 88 words, short text. Sent to Joel for a minimal fix.
