@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 FAILED TWICE (100% AI) AND IS WITH JOEL FOR A MINIMAL FIX. P4 WAITS FOR THAT LESSON.**
+Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). P4 FAILED TWICE (100% AI) AND IS WITH JOEL, WITH A QUESTION: ARE THE TWO BOLD QUESTIONS HIS EXACT WORDS?**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -228,4 +228,92 @@ My guess at what both attempts share, and P1 and P2 don't:
 - The source's therapy-manual phrases carried over ("somebody whose only plan is to take good care of you", "the least cruel, sanest thing").
 - The fallback ladder ("If even that feels fake… go smaller").
 - The second attempt also stacked three quips in a row.
+
+## Joel, 17:10: "what is this whole paragraph doing why are we repeating so much advice"
+
+He agreed with my guesses. He also pointed out that grown-ups getting worse at pretend was already said (his own Borrow opening), so it sounded repetitive.
+
+**Sense call: P3 is cut.** BL-U5 becomes duplicate-function-consolidation. Almost every piece of it is already in Borrow One Competency, which is installed, or comes back two lines later in this section:
+- Made-up and non-relative figures: Borrow's opening has Mr. Rogers and the future healed self.
+- The floor of just not being cruel: Borrow P3 ("you can at least stop judging your little one. Obviously no insults").
+- Someone sitting with you: Borrow P4 ("How would they sit beside your little one?… If nobody comes to mind… Mr. Rogers, or spiritual love").
+- The case where nobody is usable: this section's own second bold question ("What would somebody who genuinely wanted to take good care of me say or do next?"), which the source introduces with "If nobody usable comes to mind".
+
+Only one small point isn't elsewhere word for word: the stand-in needn't give advice or make you feel loving back. "Sit beside" already implies it, so it goes too. Both P3 drafts are diagnostic only.
+
+**The same repetition check for the rest of the section, before drafting:**
+- Goodwill: the clause "If goodwill is unavailable too, begin with non-cruelty and non-judgement" repeats Borrow P3, so it goes. The floor paragraph was already consolidated.
+- Ask God for a Loan: the ordinary-love examples (a friend, feeding someone hungry, protecting a child, an animal) repeat P1. They shrink to a callback, and only the new point stays: spiritual love is real too, and not the same thing.
+- "Big whoop" (BL-U11) sits near Borrow P7's "Oh, so NOW you care?". It stays, because its job is different (it's a test for which part of the advice to keep), and it should read that way.
+- Everything else is new here: the love you feel for someone else, the flip-it-around questions, the research, idealistic advice, five percent, and spiritual love and spiritual hurt.
+
+## P4 (recorded before its Pangram calls)
+
+P1–P2 lead straight into the questions. The source's S8 paragraph ("Let this person have your actual history…") moves to right after the first question, the one it's about. The second question comes last, as the fallback. Without that move, "this person" would be ambiguous in the source's order.
+
+> If the love won't budge, flip it around. Ask:
+>
+> "If somebody I cared about had my actual history, limitations, and bad options, what would I say to them?"
+>
+> Give them your real life, mess and all. If you hand them an easier life than yours, the advice won't fit you. Then answer the way you would for a friend, including what you'd protect them from, the thing you'd want them to quit today (there's usually something), and one small thing to try next. And if nobody you care about comes to mind at all, ask the other version:
+>
+> "What would somebody who genuinely wanted to take good care of me say or do next?"
+
+- Prose only (mine): 70 words, sha256 186ee52cd6584b7382808309f007d0292b30d7e29c3fdbb01e54a1de3cc2cf96.
+- Whole block with the lead-in and both questions: 114 words, sha256 fcdb6d94429a34c2170ecebda1973c1db844766a670e7cbfdcae4012bb01cfd6.
+
+Trace:
+- BL-U6: both bold questions word for word. The lead-in "If the love won't budge, flip it around" ties the questions to P1–P2's case.
+- BL-U7:
+  - "your actual history and constraints" becomes "your real life, mess and all". The specifics are already in the question, so they aren't listed again.
+  - "not a tidier life" becomes "If you hand them an easier life than yours, the advice won't fit you", which adds why.
+  - The four prompts are one sentence: answering as for a friend (what you'd say), protecting, what to quit today, and one small next thing.
+- Added: "(there's usually something)", an aside with no claim.
+
+Linter: REVIEW, no hard fails. B4 is the prompts sentence: KEEP. It's the source's four prompts, compressed, with an aside, and there's no second list now. An earlier draft had a colon list repeating the question's specifics, and it's gone.
+
+### P4 results
+
+Pangram 4.0, Joel's account, two checks side by side:
+- Prose only: **AI Generated, 100% AI**, 74 words.
+- Whole block: **AI Generated, 100% AI**, 119 words.
+
+My reading: the prose is pure procedure (give them, if you hand them, then answer, including, and if), and nothing in it is noticed except the aside.
+
+## P4, second attempt (recorded before its calls)
+
+What changes is what the prose says:
+- It names the familiar thing the reader has heard before (the "what would you tell a friend" trick), the way Joel reached for "What would Jesus do?".
+- It says what's new about this version, the catch: the friend gets your actual life.
+- It shows why that matters with a concrete case, the friend with a trust fund whose advice is "just quit".
+
+> It's the old "what would you tell a friend" trick, with one catch: the friend gets your actual life. If they've got a trust fund and no kids, of course your advice is going to be "just quit." Give them the same mess you've got, then answer the way you would for them: what you'd protect them from, the thing you'd want them to stop doing today (there's usually something), and one small thing to try next. And if nobody you care about comes to mind at all, ask it this way:
+
+- Prose: 92 words, sha256 2634b6e5eead6623ba8be08a590018a0c3cf57a35db7136babd448ac38379786.
+- Block (same lead-in and questions): 136 words, sha256 e2b20dc3e26884d252cc5a53073eb78c09e1701a6785265028e1bdd83b703cc1.
+
+Trace, BL-U7:
+- Actual history and constraints: "the friend gets your actual life"; "the same mess you've got".
+- Not a tidier life: the trust fund and "just quit".
+- The four prompts: answering as for them, protecting, stopping something today, one small next thing.
+- Nothing added beyond the illustration. "Just quit" also sets up BL-U9 (idealistic advice).
+
+Linter: REVIEW, no hard fails.
+- B4 (the prompts): KEEP, same reason as before.
+- E1 "kids": KEEP. It means a friend's children.
+
+If this fails too, P4 goes to Joel with the question of whether the two bold questions are his exact words or can be reworded.
+
+### P4, second attempt: results
+
+Pangram 4.0, Joel's account, two checks side by side:
+- Prose: **AI Generated, 100% AI**, 98 words.
+- Block: **AI Generated, 100% AI**, 143 words.
+
+It goes to Joel for a minimal fix (E59).
+
+My guesses:
+- The prose is still procedure.
+- Both attempts lean on colon reveals and colon lists ("with one catch:", "answer the way you would for them: …"). None of my passing paragraphs has a colon, though the first P1, which failed, had none either.
+- The bold questions may be part of it: a triad ("history, limitations, and bad options") and therapy-manual wording ("genuinely wanted to take good care of me"). I froze them as exact because the source calls the prompt "my practical version". Joel decides whether they're his words.
 
