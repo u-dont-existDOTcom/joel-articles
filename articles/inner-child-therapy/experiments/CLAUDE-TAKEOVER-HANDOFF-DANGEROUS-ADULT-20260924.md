@@ -3,6 +3,19 @@
 Date: 2026-09-24
 Status: **ACTIVE WRITER HANDOFF / CLAUDE PRIMARY WRITER**
 
+## Active gates for this lane (added 2026-09-26; read this first after any context summary)
+
+The lane has moved past the dangerous-adult H2 and now humanizes the article section by section. Every section, before any Pangram call and before any prose goes to Joel, runs `tools/HUMANIZATION-GATE.md`:
+
+- the repository's declared gates: the preservation proof, the architecture gate, the post-generation tell ledger, and the owner-delivery admission in `SKILL.md`;
+- Joel's own corrections, in `experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`;
+- the linter, `tools/tells_lint.py`.
+
+Two lines below are superseded for this lane (Joel, 2026-09-25 and 2026-09-26):
+
+- "Do not add another anti-pattern blacklist." Joel's list of tells is an owner-derived checklist and runs as a gate. It isn't a writer prompt: it's applied after drafting, as `SKILL.md` already says.
+- "Follow its routing only as needed for this task." UDA's root `AGENTS.md` is re-read on every turn, and the gates above are never trimmed as "not needed".
+
 ## Owner outcome
 
 Produce a faithful, genuinely human-sounding replacement for the new Inner Child Therapy H2:

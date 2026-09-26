@@ -2,13 +2,16 @@
 """tells_lint.py - run the written tells audit mechanically before any Pangram check.
 
 Usage:
-  python3 tells_lint.py DRAFT [--source SOURCE] [--failed F1 F2 ...] [--owner OWNER] [--quiet]
+  python3 tells_lint.py DRAFT [--source SOURCE] [--owner OWNER] [--quiet]
 
-DRAFT, SOURCE, FAILED and OWNER are plain-text or markdown files.
-  --source  the AI source section. Enables the skeleton check (D9/E42).
-  --failed  earlier drafts that tested AI. Enables the recycled-phrase check (B10).
+DRAFT, SOURCE and OWNER are plain-text or markdown files.
+  --source  the AI source section. Enables the AI marching-order check (D9): do my
+            paragraphs walk through the source's points in the source's order?
   --owner   the owner's own lines, one per line. They're excluded from the
             sentence checks (they're his, not mine) but still counted in the metrics.
+There is deliberately no check against phrases from failed drafts (Joel, 2026-09-26):
+an old phrase is judged like any other, on whether it looks AI. Swapping phrases
+between rounds while the structure stays is what humanizer bots do.
 Exit code: 2 = FAIL, 1 = REVIEW, 0 = CLEAR.
 A CLEAR only means no mechanical tells were found. The judgment checks
 (D2 disparity, A1 meaning and safety, referents) still have to be written by hand.
@@ -66,11 +69,9 @@ def cos(a, b):
     den = math.sqrt(sum(v*v for v in A.values()))*math.sqrt(sum(v*v for v in B.values()))
     return num/den if den else 0.0
 
-def ngrams(ws, n=4): return {' '.join(ws[i:i+n]) for i in range(len(ws)-n+1)}
-
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('draft'); ap.add_argument('--source'); ap.add_argument('--failed', nargs='*', default=[])
+    ap.add_argument('draft'); ap.add_argument('--source')
     ap.add_argument('--owner'); ap.add_argument('--quiet', action='store_true')
     a = ap.parse_args()
     text = clean(open(a.draft, encoding='utf-8').read())
@@ -139,7 +140,7 @@ def main():
         hard.append(f'E36/E41 second-person coaching: {you_density:.1f} "you" per 100 of my words (limit 9)')
     elif you_density > 6.0:
         flag('REVIEW', 'E36/E41 heavy second person', f'{you_density:.1f} "you" per 100 of my words')
-    # skeleton check against the source
+    # AI marching order: do my paragraphs walk through the source's points in the source's order?
     if a.source:
         src = clean(open(a.source, encoding='utf-8').read())
         spts = [q for q in re.split(r'\n\s*\n|\n- ', src) if len(q.split()) >= 8]
@@ -156,18 +157,8 @@ def main():
         metrics['source_map'] = mapping; metrics['source_order_agreement'] = round(order, 2)
         metrics['paragraphs_mapped_to_source'] = round(coverage, 2)
         if coverage >= 0.6 and order >= 0.8 and len(set(matched)) >= 0.6*len(matched):
-            hard.append(f'D9/E42 source skeleton: {len(matched)}/{len(ps)} paragraphs map onto source points in the source order '
-                        f'(agreement {order:.2f}). This is a paraphrase; rewrite from understanding with the source closed.')
-    # recycled phrases from failed drafts
-    if a.failed:
-        mine4 = ngrams([w.lower() for w in allw])
-        rec = set()
-        for f in a.failed:
-            rec |= mine4 & ngrams([w.lower() for w in words(clean(open(f, encoding='utf-8').read()))])
-        if rec:
-            metrics['recycled_4grams'] = len(rec)
-            flag('REVIEW', 'B10 recycled from a failed draft', '; '.join(sorted(rec)[:12]))
-            if len(rec) >= 15: hard.append(f'B10 recycled: {len(rec)} four-word runs shared with failed drafts')
+            hard.append(f"D9 AI marching order: {len(matched)}/{len(ps)} paragraphs follow the source's points in the source's order "
+                        f"(agreement {order:.2f}). Rewrite from understanding with the source closed.")
     fails = [f for f in flags if f[0] == 'FAIL']
     verdict = 'FAIL' if (hard or fails) else ('REVIEW' if flags else 'CLEAR')
     print(f'== tells_lint: {a.draft}')

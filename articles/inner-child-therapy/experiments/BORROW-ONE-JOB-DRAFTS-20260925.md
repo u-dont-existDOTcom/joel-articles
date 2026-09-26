@@ -169,7 +169,11 @@ Pangram 4.0: **100% AI**, 330 words, with a new flag: **"This text appears to ha
 
 ## Diagnosis
 
-Every round is a paraphrase of the AI source: the same points in the same order, one job per paragraph. Fixing the listed tells (round 3), adding stance and humor (round 4) and adding an image (round 5) all left the source's skeleton in place, and Pangram now says outright that it recognizes rewritten AI text. Surface work can't fix a paraphrase. This is D9 and E21 at section scale.
+Every round follows the AI marching order: the source's points in the source's order, one job per paragraph. Fixing the listed tells (round 3), adding stance and humor (round 4) and adding an image (round 5) all left that structure in place. This is D9 and E21 at section scale.
+
+(Corrected 2026-09-26 after Joel's reading of the flag.) The "paraphrased or rewritten" flag on round 5 describes how the rounds were repaired, not the structure: each round swapped its wording (the old B10 banned reusing phrases from failed drafts) and kept the same structure, which is what humanizer bots do. Surface rewording can't fix a marching order.
+
+Also missing from all five rounds: the repository's declared gates. None had a preservation ledger, an architecture check or the post-generation tell ledger, and the failed drafts went to Joel, which the owner-delivery admission in `SKILL.md` forbids. From round 6 on, `tools/HUMANIZATION-GATE.md` applies.
 
 ## Next approach
 
