@@ -27,6 +27,8 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - Search the article for overlaps and callbacks.
    - Reread a stretch of Joel's own rewrite of AI prose (E43).
    - Read only the parts of the article and the rules the section needs (E47).
+   - **Stance ledger (E71).** For each theme the section touches, write the article's stance and where it is: the installed text first, then the later source sections. Check every stance-bearing sentence against it before any Pangram call.
+   - **Joel's first person (E71).** The source's "I" is an AI draft of his ideas. Put an experience in his voice only if his own words (the installed article, his messages) say it. Otherwise use "you" or a general voice.
 2. **Preservation freeze.** Write the preservation units (what has to survive, one unit per inseparable meaning, not per sentence) and the change whitelist (what Joel has authorized: cuts, moves, research relocation). Anything not whitelisted is presumed invariant.
 3. **Write inside the organization (Joel, 2026-09-26).** Keep the order the sense needs, which is usually the source's. Don't reorder, rank, cut or move material to get past the detector (inventory T14). Keep source sentences that already read right, and rewrite the ones that don't. The human part is what gets noticed while each piece is being said:
    - the reader's obvious counterexample;
@@ -106,7 +108,7 @@ The linter covers a handful of mechanical tells. It is not the tell ledger, and 
 
 ## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds and the Borrow Love h2 body)
 
-Twenty-eight texts with known Pangram 4.0 results. The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
+Thirty-five texts with known Pangram 4.0 results. The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
 
 Not included:
 - the ablation variants of Joel's P5 fix;
@@ -144,11 +146,18 @@ They're near-copies of texts already in the set and would weight one paragraph s
 | Borrow Love h2 body r2, one P2 sentence swapped for a quip | 65% AI, "throughout" | REVIEW (miss) | none |
 | Borrow Love P2 r3 | 100% Human | REVIEW | — |
 | Borrow Love h2 body r3, with P2 r3 | 100% Human | REVIEW | — |
+| Borrow Love, Goodwill P1 r1 (later fidelity-rejected, E71) | 100% Human | REVIEW | — |
+| Borrow Love, Goodwill P1 r2 ("you" voice) | 100% Human | REVIEW | — |
+| Borrow Love, Goodwill h3 r3 ("you" voice) | 54% AI, "in the later part" | REVIEW (miss) | none |
+| Borrow Love, Ask God P1 | 100% Human | REVIEW | — |
+| Borrow Love, Ask God P2 | 100% Human | REVIEW | — |
+| Borrow Love, spiritual-hurt P1 r1 | 100% AI | REVIEW (miss) | none |
+| Borrow Love, spiritual-hurt P1 r2 | 100% AI | REVIEW (miss) | none |
 
 Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Since the second-person hard fail became a review note (2026-09-26), it hard-fails two (r2, r3b), still none of the Human ones.
 
 With the one-paragraph rounds added:
-- It hard-fails four of the fifteen AI texts (r2, r3b, and both P5 attempts) and none of the thirteen Human ones.
+- It hard-fails four of the eighteen AI texts (r2, r3b, and both P5 attempts) and none of the seventeen Human ones. The two spiritual-hurt paragraphs are 100% AI and only reach REVIEW: what sank them (a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical.
 - At paragraph level, coach density separated the two failing P5 attempts (2.3, 2.4) from every Human paragraph (at most 1.85).
 - It misses all five context failures (the P6 + P7 pair, the whole section in rounds 11 and 13, and the Borrow Love h2 body r1 and r2), where every paragraph passes alone. For the h2 body, the inventory run on the assembled section found them (E70). In round 13 its only coach flag in P7 was the sentence where Pangram's span started, which is why E62 says to check that flag first. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
 

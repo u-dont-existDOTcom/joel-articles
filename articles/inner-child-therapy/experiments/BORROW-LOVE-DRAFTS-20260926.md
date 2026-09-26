@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:54 NAMED WHAT DOESN'T MAKE SENSE IN P4 (IT PUTS THEM IN YOUR EXACT LIFE, THEN TALKS ABOUT BEING OUTSIDE A LIFE). P4 IS JOEL'S MINIMAL FIX (HUMAN, 19:23). EVERY h2 PARAGRAPH PASSES ALONE (P4 AND P6 ARE JOEL'S FIXES). THE h2 BODY FAILED AS A WHOLE TWICE (35%, THEN 65% AI) AND PASSES AT 100% HUMAN WITH MY THIRD P2, JOEL'S TEXT UNCHANGED (E70). NEXT: THE GOODWILL h3, ONE PARAGRAPH AT A TIME.**
+Status: **ONE PARAGRAPH AT A TIME (E59). THE h2 BODY PASSES AS A WHOLE (100% HUMAN). JOEL 21:52: THE FIRST GOODWILL h3 WENT TOO FAR ON FORGIVENESS AND INVENTED HIS EXPERIENCE; E71 ADDED. THE CORRECTED GOODWILL P1 PASSES ALONE, BUT THE h3 IS 54% AI IN "YOU" VOICE, AND THE FIRST PERSON WAITS ON JOEL. ASK GOD P1 AND P2 PASS ALONE. SPIRITUAL-HURT P1 FAILED TWICE AND IS WITH JOEL.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E70 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -1016,3 +1016,457 @@ Pangram 4.0, Joel's account:
 - The h2 body with it: **Human Written, 100% Human**, 357 words scanned, with no short-text caveat. Nothing is flagged, including Joel's P4 opening and his P6, which both earlier checks flagged.
 
 Only P2 changed, so the flags on Joel's text were spillover from my paragraph next to it (E70). The h2 body now stands as tested (340 words, sha256 2af63927…). The h3s come next, each paragraph alone first, then the whole section.
+
+## Goodwill h3, P1 (BL-U13), recorded before its call
+
+Joel, 21:22 UTC: "ok continue".
+
+> There are people I can't honestly say "I love you" to, especially the ones who've treated me badly, and even the usual loving-kindness line, "May you be happy," can feel like I'm rewarding them. But I can mean **"May you be loving, peaceful, and free."** If they were any of those things, they probably wouldn't have done it in the first place. Aimed at myself, it's "May I be peaceful and free," or just whatever I can sincerely wish my little one.
+
+Plain text: 82 words, sha256 9b62ebb6a8c1968c9dea0bb9daee573e22c05055aa86d00bbcaf5a1c3dbf6379.
+
+The source is in Joel's first person here ("a feeling I cannot honestly access", "I don't have to force that wording"), so the paragraph stays in his voice. After the h2's run of "you" instructions, it's his own case. Every first-person claim is his (C03 below).
+
+Research: "May you be happy" is the first of the four traditional loving-kindness phrases ("May you be happy / May you be healthy / May you be safe / May you live with ease"), with "I" used toward yourself: Tricycle, https://tricycle.org/magazine/four-loving-kindness-slogans/. That supports "the usual loving-kindness line".
+
+Sense read, cold:
+1. There are people I can't say "I love you" to, especially the ones who hurt me. Even the standard wish feels like a reward.
+2. But I can mean this one.
+3. Why it isn't a reward: someone loving, peaceful and free wouldn't have hurt me, so I'm wishing them into somebody who wouldn't.
+4. Aimed at myself, the source's inward version, or a sincere wish for my little one.
+
+"Them" is the people who hurt me, "it" (done it) is the hurt, and "it's" in the last sentence is the wish. The explanation is about the same people as the wish, so E67's check passes.
+
+Marching check: problem, alternative, reason, inward. Four sentences can be labelled. Sentence 1 builds in one breath ("and even…"). Sentence 3 is the noticing, a wry reason that comes out of the three words rather than restating the source.
+
+Trace, BL-U13:
+- "I love you" can ask for a feeling you can't reach, especially toward someone who treated you badly: sentence 1.
+- The wish, exact and bold as in the source: sentence 2.
+- "May you be happy" can feel like rewarding the behavior: sentence 1. Not having to use it is carried by "But I can mean…".
+- Wishing them the capacity to love, find peace and stop causing harm isn't celebrating what they did: sentence 3, implicit-equivalent. The forbidden reading (approval of the harm) is ruled out by the sentence itself.
+- Inward: "May I be peaceful and free" (the source's words) and the sincere wish for the younger self.
+- Added: "the usual loving-kindness line" (sourced above) and the reason in sentence 3.
+
+Linter: REVIEW. B4 is sentence 1: KEEP. It's one complaint escalating ("and even"). Split, it would march.
+
+Inventory, every row:
+
+| row | result |
+|---|---|
+| T01 | ABSENT. The first person is the source's. |
+| T02 | ABSENT. One wish offered, no chain of commands. |
+| T03, T04, T05, T07, T08, T10, T11, T15, T16, T18, T19, T22, T23, T24, T25, T27, T28 | ABSENT. The colons introduce real quotations. |
+| T06 | UNCERTAIN, KEEP. "Treated me badly" is the source's category; naming what happened would invent Joel's history. |
+| T09 | UNCERTAIN, KEEP. Sentence 3 gets the thought; the others are short. |
+| T12 | ABSENT. Three wishes compared because the source compares them. |
+| T13 | ABSENT. Sentence 3 is noticed, not supplied. |
+| T14 | ABSENT. "May you be happy" moves before the wish because the wish answers it. |
+| T17 | UNCERTAIN, KEEP. Sentence 3 is about these people, hedged ("probably"), not a maxim. |
+| T20 | ABSENT. It ends on the practical inward version. |
+| T21 | UNCERTAIN, KEEP. See B4. |
+| T26 | ABSENT. "Loving-kindness" last appeared in the Dangerous Adult section; here it names the phrase. |
+| C01 | ABSENT. "My little one". |
+| C02 | ABSENT. See the sense read. |
+| C03 | ABSENT. "Can't honestly say 'I love you'", "especially… treated me badly", "can feel like I'm rewarding them", the wish, and "May I be peaceful and free" are all the source's first person. "I can mean" follows the source's "available" and G3's "the wish you can actually mean". |
+| C04 | ABSENT. The loving-kindness claim is sourced above. |
+
+### Goodwill P1: result
+
+Pangram 4.0, Joel's account: **Human Written, 100% Human**, 88 words, short text. P1 stands.
+
+## Goodwill h3, P2 (BL-U14, BL-U16), recorded before its calls
+
+> It might open up a little warmth, or it might just stay a quiet intention. And no, wishing that for somebody who hurt me doesn't mean they're forgiven, or that they get to come over for coffee. I'm not even betting they'll ever get to be any of those things.
+
+50 words, sha256 492134094a4efd7cb2920841b33937bbf0c70b96bca2cac1aa0852098f05c68d.
+
+Two drafts didn't go to Pangram:
+- **The first had four sentences of nearly equal length** (the linter's sentence-length spread was 0.06), and they came as a row of negatives: doesn't buy them anything, not forgiveness, no coffee, not betting.
+- **Before that, a version put the access point straight after P1's inward turn** ("it doesn't buy them anything"), where "them" would read as my little one (C02). This one re-anchors: "wishing that for somebody who hurt me".
+
+Sense read, cold, after P1:
+1. The wish might warm something up, or stay an intention.
+2. The reader's worry, answered: wishing it for somebody who hurt me doesn't mean they're forgiven or let back in.
+3. And I'm not betting they'll become loving, peaceful or free.
+
+"It" and "that" are the wish; "they" is the person who hurt me.
+
+Marching check: three sentences. The middle one answers a worry the reader actually has ("And no,…"), and the last one reacts ("not even betting") rather than adding a rule.
+
+Trace:
+- BL-U14:
+  - Love, goodwill and non-cruelty are related but different. The heading ("A Smaller Doorway") and P1's "I love you" against the wish carry the love/goodwill difference. The non-cruelty floor is Borrow One Competency P3, and its clause here was cut as a repeat (the 17:10 repetition check).
+  - Find the wish you can mean: P1 ("But I can mean", "whatever I can sincerely wish my little one").
+  - It may open warmth or stay a quiet intention: sentence 1.
+  - No need to reach "I love you" right away: the doorway in the heading, and P1's first sentence. Implicit-equivalent.
+- BL-U16:
+  - Goodwill isn't access: "or that they get to come over for coffee".
+  - Forgiveness, trust, contact, reconciliation, accountability, consequences and boundaries stay separate: forgiveness and contact (coffee) are named; the rest of the list is compressed (whitelist, examples).
+  - The wish doesn't predict they'll change: sentence 3.
+- Added: the coffee.
+
+Linter: CLEAR (sentence-length spread 0.23).
+
+Inventory, every row:
+
+| row | result |
+|---|---|
+| T01, T03, T04, T06, T08, T11, T15, T16, T18, T19, T21, T22, T23, T25, T27 | ABSENT |
+| T02 | ABSENT. No commands. |
+| T05 | UNCERTAIN, KEEP. Coffee is the everyday picture of being let back in, and it's the only example. |
+| T07, T24 | UNCERTAIN, KEEP. "And no," answers the reader's real worry (does this mean I forgive them?). It isn't filler between beats. |
+| T09 | ABSENT. The middle sentence carries the weight. |
+| T10 | ABSENT. The draft's "I don't have to forgive them" was permission packaging and went. |
+| T12 | UNCERTAIN, KEEP. "Warmth or a quiet intention" is the source's pair. |
+| T13 | ABSENT. The coffee and "not even betting". |
+| T14 | ABSENT. Source order: outcome, then access, then prediction. |
+| T17 | ABSENT. |
+| T20 | UNCERTAIN, KEEP. It ends on a callback to P1's three words. That's one landing, and P1 ends plainly. |
+| T26 | UNCERTAIN, KEEP. "Any of those things" repeats P1 on purpose. It points back at the wish. |
+| T28 | ABSENT. The h3 ends on not expecting them to change, which is where the material stops, not uplift. |
+| C01, C04 | ABSENT. |
+| C02 | ABSENT. See above. |
+| C03 | UNCERTAIN, KEEP. The source states G5 in general terms. Here it's in Joel's voice as the principle applied to "somebody who hurt me", with no event from his life. |
+
+Section-scale rows on the h3 (P1 + P2, E70): T02, T03 and T08 ABSENT. T20: one callback ending, no run. T28 ABSENT. The h3 heading starts fresh after the h2's "scaffolding".
+
+Checks planned: P2 alone, then the h3 as a whole (heading, P1, P2: 136 words, sha256 b63cf4b921583951b03860b95c470a15b9a232c4d7e5b6eb388351e61a3a38ba).
+
+### Goodwill P2, and the Goodwill h3 as a whole: results
+
+Pangram 4.0, Joel's account:
+- P2 alone: **Human Written, 100% Human**, 54 words, short text.
+- The h3 (heading, P1, P2): **Human Written, 100% Human**, 146 words, short text.
+
+Both Goodwill paragraphs stand.
+
+## Ask God for a Loan, P1 and P2 (BL-U17–U21), recorded before their calls
+
+> **P1.** The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.
+>
+> **P2.** Get as close to it as you honestly can right now, and bring your little one in with you. They might go numb, or just say "Bullshit." That becomes the conversation, and it's worth listening to. If you pour more spirituality on top instead, it's the food bank all over again, and none of it is getting to them.
+
+- P1: 60 words, sha256 8d6655b3d211ca160ca6a229c4040211b504e0f64c84df710339cf0abab151a0.
+- P2: 59 words, sha256 965cdd3cd659fc0600e59b839279ed4a0c9a1c445a11dd60721410bba5cf60d2.
+- The h3 (heading, P1, P2): 124 words, sha256 ff36f2b97c45d86d0903880f838716f6da84010e14223abf367f4014cde611c7.
+
+Repetition decisions (the 17:10 check and E70):
+- **BL-U17's examples** (a friend, feeding someone hungry, protecting a child, an animal) become "the dog kind of love", a callback to the h2's P1. "That's real love" is kept, as the whitelist requires.
+- **BL-U20's "Don't force it"** is duplicate-function-consolidation with the h2's "don't push it", in the same section. What's new here stays: the reactions, listening to them, and not pouring more spirituality on top.
+- **BL-U21, the feast problem,** is My Journey's food bank. Noticing Counts already called back to it ("baby me was still starving"), so I don't use "starving" a third time. It's named ("the food bank all over again"), and the integration point is "none of it is getting to them".
+- **"That reaction becomes the work"** in the source would be a tic (T27, vague "work"). It's "That becomes the conversation".
+
+Sense read, cold:
+- P1: dog love is real love. Some people know a love of another size (God's, or what opened up in prayer or on retreat), and Joel won't treat the two as the same. If you know that love, don't reduce it to the stand-in trick.
+- P2: get as close to that love as you honestly can and bring your little one. If they go numb or say "Bullshit", that reaction is what you talk about. Pouring more on top is feeding yourself while none of it reaches them.
+
+"It" in P2's first sentence is P1's bigger love. "They" and "them" are your little one. "Instead" means instead of listening.
+
+Marching check:
+- P1: claim, second claim with Joel's reaction ("lump that in with the dog"), one instruction.
+- P2: one instruction, the little one's answer quoted, what to do with it, then the warning tied to the food bank.
+- The reaction and the quote dwell, so it isn't a slot per sentence.
+
+Trace:
+- BL-U17: both loves real and not the same (P1, sentences 1–2, with the source's first person); ordinary care as the pathway is the dog, which went first in the h2; "that's real love" is kept.
+- BL-U18: the other size of love (divine as God's; prayer or meditation as "prayer or… a long retreat"; a heart opening as "opened up"); the mystical-experience example is compressed (whitelist); don't shrink it into a thought experiment about a friend.
+- BL-U19: "Get as close to it as you honestly can right now, and bring your little one in with you".
+- BL-U20: the reactions compressed to going numb and "Bullshit" (the source's own word). Distrust and feeling threatened go (whitelist). "That becomes the conversation, and it's worth listening to"; don't pour more spirituality on top.
+- BL-U21: the food bank callback, and "none of it is getting to them".
+
+Linter: REVIEW.
+- B4 is P1's middle sentence: KEEP. It's one thought, ending on Joel's reaction.
+- Heavy second person in P2 is a review note: KEEP, it's instructions to the reader.
+- The two paragraphs are nearly the same length (60 and 59). Across the section, paragraph lengths run 50–97, so I'm leaving it.
+
+Inventory, every row (both paragraphs):
+
+| row | result |
+|---|---|
+| T01, T03, T04, T05, T07, T08, T10, T15, T16, T18, T19, T22, T23, T24, T25, T27 | ABSENT |
+| T02 | UNCERTAIN, KEEP. P2 has two instructions, with the little one's answer between them. |
+| T06 | ABSENT. "A whole different size" gets its examples at once. |
+| T09 | UNCERTAIN, KEEP. The "Bullshit" line gets its own sentence. |
+| T11 | ABSENT. "Instead" is needed. |
+| T12 | ABSENT. The two loves are the source's distinction. |
+| T13 | ABSENT. "Lump that in with the dog", "Bullshit", the food bank. |
+| T14 | ABSENT. Source order. |
+| T17 | UNCERTAIN, KEEP. "The dog kind of love is real love" is the required "that's real love". |
+| T20 | ABSENT. P1 ends on a plain instruction and P2 on the callback, so it's one landing. Across the section, endings alternate between plain and polished. |
+| T21 | UNCERTAIN, KEEP. See B4. |
+| T26 | UNCERTAIN, KEEP. The dog and the food bank are deliberate callbacks, one each. |
+| T28 | ABSENT. It ends on the problem, not on uplift. |
+| C01 | ABSENT. "Your little one". |
+| C02 | ABSENT. See the sense read. |
+| C03 | ABSENT. "I don't want to lump that in with the dog" is the source's "I don't want to flatten them into the same experience". |
+| C04 | ABSENT. No named claims. |
+
+Checks planned: P1 alone, P2 alone, then the h3.
+
+### Ask God for a Loan: results
+
+Pangram 4.0, Joel's account:
+- P1 alone: **Human Written, 100% Human**, 65 words, short text.
+- P2 alone: **Human Written, 100% Human**, 61 words, short text.
+
+The h3 on its own isn't checked separately. The whole-section check covers its junctions.
+
+## When the Spiritual Relationship Hurts, P1 and P2 (BL-U22, BL-U23), recorded before their calls
+
+> **P1.** If a teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them. Prayer can bring back the old feeling of being abandoned, too. Don't write that off as bypassing, or as your parents in disguise, at least not right away. Ask what you actually lost, and what you'd still want to keep, even if you'd practice it differently now.
+>
+> **P2.** And being the grown-up doesn't mean controlling everything. That's pretty much the Serenity Prayer: change what's yours to change, and accept what isn't, which is where other people's choices go.
+
+- P1: 66 words, sha256 0bc93dfbefdad5409472846299397446aa3f2884fcc3616b2620b6fa333a62f9.
+- P2: 30 words, sha256 1759621f197d5b65b8634aad4354f91869e4326b57ed9c64686d734c6605caeb. It's too short for Pangram alone (the minimum is 50), so it's checked as part of the h3.
+- The h3 (heading, P1, P2): 101 words, sha256 d68250089de1823bbe4b63b9aee49e5a65e27c6527ff473f6743d6f326a563b2.
+
+Two drafts went no further than the linter:
+- P1's first ending was "Some of it may be gone for good, and some of it you might still want to keep, even if that means practicing differently." It's a balanced some/some pair (T12, the linter's B1), with a hedged "you might".
+- P2's first version paraphrased the prayer as "what you can… what you can't". The linter counted two coach phrases in 34 words and failed it. One was the known false positive: `\byou can\b` matched "you can't". **Tool fix:** the pattern is now `\byou can\b(?!['’]t)`. The calibration set's results are unchanged (checked before and after). The other "you can" was real, and the paraphrase now avoids it.
+
+Research: the Serenity Prayer's best-known wording is "God grant me the serenity to accept the things I cannot change, Courage to change the things I can, and Wisdom to know the difference" (attributed to Reinhold Niebuhr; AA has used it since 1941): https://en.wikipedia.org/wiki/Serenity_Prayer. P2 paraphrases it rather than quoting it. Naming a familiar instance is Joel's own move from Borrow's Guide paragraph ("What would Jesus do?", E62).
+
+Sense read, cold:
+- P1: a teacher's betrayal can make even your practice feel like theirs; prayer can bring back feeling abandoned. Don't dismiss it as bypassing or parent stuff, not automatically. Ask what's lost and what you'd keep, even practicing differently.
+- P2: being the adult isn't controlling everything. The Serenity Prayer says as much, and other people's choices are in the accept pile.
+
+Referents: "them" is the teacher, "that" is both hurts, "it" (practice it) is what you keep, and "what isn't" is what isn't yours to change.
+
+Marching check:
+- P1 opens on two cases that dwell, then two instructions.
+- P2 is a claim and a familiar instance. It ends on a relative clause, not a punchline sentence.
+
+Trace:
+- BL-U22:
+  - Spiritual hurt: the heading and both cases.
+  - A teacher's betrayal damaging trust in what felt sacred: sentence 1.
+  - Prayer bringing up abandonment: sentence 2. Condemnation is compressed (whitelist).
+  - Don't automatically call it bypass or disguised parental conflict: sentence 3. "Lack of faith" is compressed (whitelist).
+  - Ask what's lost and what's worth keeping: sentence 4. "What needs questioning" is compressed.
+  - Grieve or change a relationship, practice or understanding: "even if you'd practice it differently now". **Grief is only implicit in "what you actually lost". Flagged for Joel.**
+  - Without giving up spirituality or forcing more of the same: "what you'd still want to keep" and "practice it differently". Implicit-equivalent.
+  - The teacher case comes before prayer so the h3 opens on the concrete case. It links back to Don't Give the Inner Adult Away (teachers).
+- BL-U23:
+  - The inner adult doesn't mean controlling everything: P2, sentence 1.
+  - Spiritual support helping you act where it's yours and let go of outcomes and other people's choices: the prayer (spiritual support) and its paraphrase.
+- Added: the Serenity Prayer (sourced), "can feel like it belongs to them", and "write that off".
+
+Linter:
+- P1: REVIEW.
+  - B1 (the last sentence): KEEP. It's the source's instruction, not a maxim.
+  - E23 (instructions): KEEP. Two of four sentences instruct, after the cases.
+  - Heavy second person: KEEP, a note only.
+- P2: CLEAR.
+- The h3: REVIEW, the same flags.
+
+Inventory, every row (P1, P2):
+
+| row | result |
+|---|---|
+| T01, T03, T04, T05, T07, T08, T10, T11, T15, T18, T19, T22, T23, T24, T27 | ABSENT |
+| T02 | UNCERTAIN, KEEP. See the marching check. |
+| T06 | UNCERTAIN, KEEP. "The old feeling of being abandoned": "old" points at childhood, which is the article's subject. |
+| T09 | ABSENT. The teacher case gets the weight. |
+| T12 | ABSENT. The some/some pair went. |
+| T13 | ABSENT. The practice "belongs to them"; "write that off"; the second pile. |
+| T14 | UNCERTAIN, KEEP. The teacher case moved first before any check, for a concrete opening. |
+| T16 | ABSENT. It answers real dismissals. |
+| T17 | UNCERTAIN, KEEP. P2's first sentence is BL-U23's claim. |
+| T20 | UNCERTAIN, KEEP. P2 is the section's last line. It ends on a relative clause about other people's choices, not a quote-card. |
+| T21 | UNCERTAIN, KEEP. P1's last sentence has two asks and a condition. |
+| T25 | ABSENT. The colon introduces the prayer's content. |
+| T26 | UNCERTAIN, KEEP. "Bypassing" last appeared in My Journey, where the article applied the label; here it says not to apply it automatically. |
+| T28 | ABSENT. The section ends on sorting what's yours from what isn't, not on uplift. |
+| C01 | ABSENT. |
+| C02 | ABSENT. See the sense read. |
+| C03 | ABSENT. No first person. |
+| C04 | ABSENT. The prayer is sourced above. |
+
+Checks planned: P1 alone, then the h3.
+
+### Spiritual hurt P1: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 69 words, short text.
+
+What I should have seen before sending it: it's the source's script (a case, a second case, don't label it, ask yourself), the same shape as E64.
+- "What you actually lost, and what you'd still want to keep" is a paired abstraction, E69's "one sentence or one small action" again.
+- "The old feeling of being abandoned" is generic therapy language (T06).
+- Only one thing in it is noticed: the practice "belongs to them".
+
+## Spiritual hurt P1, second attempt (recorded before its call)
+
+> If a teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now. Kids quit piano over one bad teacher, and this is way worse. I wouldn't call that bypassing, or your parents in disguise, at least not automatically. Grieve whatever's actually gone. Some of the practice might still be yours, even if you do it differently now.
+
+65 words, sha256 0441cfe3d8af9c496b47ac0336b24aa869dd67ed8c3be19949951854a40d6ea4.
+
+Changes, following E64, E68 and E69:
+- **A sideways line from the article's own frame (childhood):** kids quit piano over one bad teacher, "and this is way worse". It says why the whole practice gets spoiled, and why quitting everything is the pull.
+- **The paired abstraction is gone.** Grief is said plainly ("Grieve whatever's actually gone"). What's worth keeping is the practice itself, which is the thing the teacher case is about.
+- **"Don't write that off" becomes Joel's stance,** "I wouldn't call that…", which is the source's own directive.
+- **The prayer case is cut.** One example of the category is kept (whitelist), and the heading carries the category. Flagged for Joel: the prayer and condemnation case is the one aimed at readers who pray.
+
+Sense read, cold: a betrayal can spoil the practice itself. People abandon whole practices over one bad teacher, and this is worse. Don't automatically label it bypassing or a parent issue. Grieve what's gone. Some of the practice may still be yours, done differently. "Them" is the teacher; "that" and "this" are the betrayal and what it did.
+
+Marching check: case, sideways comparison, stance, one instruction, one possibility. The comparison and the stance aren't steps.
+
+Trace, BL-U22:
+- Spiritual hurt (a teacher's betrayal damaging trust in what felt sacred): sentence 1.
+- Don't automatically call it bypass or disguised parental conflict: sentence 3.
+- Ask what's lost, what's worth keeping, grieve or change the practice: sentences 4–5, with grief now explicit.
+- Without giving up or forcing more of the same: "might still be yours, even if you do it differently now".
+- Compressed: the prayer case, condemnation, "lack of faith", "what needs questioning".
+- Added: the piano.
+
+Linter: REVIEW.
+- B1 on the piano line: KEEP. It's the sideways comparison.
+- B1 on the last sentence: KEEP. It's hedged and about this reader's practice, not a maxim.
+- E1 "Kids": KEEP. It means children.
+- Heavy second person: a note only.
+
+Inventory, the rows that changed from the first attempt:
+
+| row | result |
+|---|---|
+| T01, C03 | ABSENT. "I wouldn't call that…" is the source's directive as Joel's stance, with no event from his life. |
+| T05 | UNCERTAIN, KEEP. The piano is an everyday case, and it's what explains the pull to quit everything. |
+| T06 | ABSENT. The generic abandonment line is gone. |
+| T08 | ABSENT. The piano compares; it doesn't explain sentence 1. |
+| T12 | ABSENT. |
+| T13 | ABSENT. The practice "belongs to them", the piano, "way worse". |
+| T14 | UNCERTAIN, KEEP. The prayer case goes as an example compression, recorded above, not moved elsewhere. |
+| T18 | ABSENT. "Grieve whatever's actually gone" follows from sentence 3; it doesn't flip it. |
+| T22 | ABSENT. |
+| All other rows | As in the first attempt. |
+
+If this fails too, P1 goes to Joel for a minimal fix.
+
+### Spiritual hurt P1, second attempt: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 67 words, short text. Per the stop rule, P1 goes to Joel for a minimal fix. P2 (the Serenity Prayer lines, 30 words) can't be checked alone, and it waits for the h3.
+
+My guesses at what both attempts share:
+- The paragraph is still a therapist's sequence: acknowledge the hurt, validate it ("way worse"), caution against labels, instruct (grieve), reassure (it "might still be yours"). The piano line is a crafted analogy rather than something that came up.
+- The hedges stack: "at least not automatically", "might still", "even if".
+- The ending reassures. T22 isn't only coach phrases; it's the validating voice itself.
+
+## The section up to Ask God for a Loan, as a whole (recorded before its call)
+
+Assembled: the h2 body (as passed), Goodwill P1–P2, Ask God P1–P2. 600 words, sha256 74c7469b72eaa4db32f30929fd025f0d44fb73b0ec4e58616a7a24f67d3d33f0.
+
+One change first, from the section-scale read (E70). "Honestly" appeared twice, in Goodwill P1 ("can't honestly say") and Ask God P2 ("as you honestly can"). Repeated "honestly" is one of Joel's tic words (T27). Ask God P2 now says "as you really can"; Goodwill P1 keeps its "honestly", which is the source's "cannot honestly access".
+
+Section-scale inventory (E70):
+- **T02:** the h2 gives instructions and dwells; Goodwill is Joel's own case in first person; Ask God is "you" with Joel's stance. It isn't one chain.
+- **T03:** each h3 opens on its own case under its own heading.
+- **T08:** nothing is explained after its image.
+- **T20:** the paragraph endings run joke, plain, Solomon, "scaffolding", plain, callback, plain, callback. They alternate; there's no run of landings.
+- **T26:**
+  - "the dog" (the h2, then Ask God's callback);
+  - "any of those things" (twice in Goodwill, on purpose);
+  - "honestly" (fixed above);
+  - "just" six times in 600 words, which is Joel's own rate in the installed sections.
+- **T28:** not applicable yet; the section's end is the spiritual-hurt h3, which is with Joel.
+- **The SlopShape shape questions:** no thesis restated, no stakes escalating, no summary stage.
+
+The spiritual-hurt h3 is left out because its P1 failed alone. This check tells us whether everything else holds together, so that only that h3 is left open.
+
+## Joel, 21:52
+
+> "ok well you went a bit too far on h3 i mean forgiveness is central to the inner child therapy, which is already in the guide, now you're ending by saying i will probably never forgive some folks. so you need some better rules to keep consistency with the long article and smaller parts of it.
+>
+> and when you created the experience of my own life it was wrong, i have no problem sending love to my little one. and i also don't see why if i did havea problem sending love to him it would require me to not wish him to be loving"
+
+He interrupted the Pangram read of the section-so-far check. That check had the old Goodwill h3 in it, so its result doesn't matter and I didn't go back for it.
+
+He's right on all three:
+- **Forgiveness.** Goodwill P2 ended in his voice on "doesn't mean they're forgiven… I'm not even betting they'll ever get to be any of those things". That's unforgiveness and cynicism, and the guide's forgiveness section says the opposite.
+- **His own experience.** "Aimed at myself, it's 'May I be peaceful and free'" invented a struggle. My Journey has him sending the love he'd found to little him.
+- **"Loving".** The inward wish dropped it only because the source did. My sense read noticed it and kept it.
+
+Dispositions:
+- **Goodwill P1 and P2 (the versions that passed): fidelity-rejected.** Their 100% Human results are diagnostic only.
+- **New rule E71:** a stance ledger before drafting; the source's "I" isn't Joel's biography; the source gets no pass on sense; consistency between the smaller parts. The gate's step 1 now includes the ledger.
+
+### Stance ledger for Borrow Love (E71)
+
+| theme | the article's stance | where |
+|---|---|---|
+| Forgiveness | Healing often comes to include it. It can arise from seeing how someone's conditioning shaped the harm. It can't be scheduled, it isn't a precondition for safety or boundaries, and it fits with even permanent no-contact. Premature forgiveness is one trap, and "permanent residence inside resentment" is another. | source `How to Forgive Without Forgetting`; `Just Like Me` ("not a demand to forgive an abuser… or open contact") |
+| Love and trust | Love doesn't have to wait for trust. Trust grows slowly, and goodwill isn't access. | source `Love Doesn't Have to Wait for Trust`, `You Are Worthy of Love. Always.`, G5 |
+| Joel and his little one | He wasn't lacking love. Once he could feel little him, he could send him the love he'd found. | installed My Journey, Don't Give the Inner Adult Away |
+| Self-love going flat | It's a reader's possibility, not Joel's. | installed h2 P1 ("goes flat"); source `When Love Still Feels Missing` |
+| Loving-kindness | Joel's practice, which healed his depression. The standard line is "May you be happy". | installed My Journey and Dangerous Adult; Tricycle |
+| Whether people change | Be realistic about promises ("probably as useful as their prior promises were"), but don't write people off. | installed Also Look Outward; source forgiveness section |
+| Teachers | They can know things you don't and still be wrong about you. Borrow adulthood; don't surrender it. | installed Don't Give the Inner Adult Away |
+| Bypassing | The article names it and says Joel did it. The source says not to label spiritual hurt as bypass automatically. | installed My Journey; source H1 |
+
+The other first-person lines in the section, checked against it:
+- Ask God P1, "I don't want to lump that in with the dog": the source's "I don't want to flatten them into the same experience", and it fits My Journey ("a much bigger horizon for me"). It stays.
+- Spiritual-hurt P1, "I wouldn't call that bypassing": an opinion, not an experience, and it fits the ledger. That paragraph is with Joel anyway.
+
+## Goodwill, corrected (recorded before its calls)
+
+> **P1.** Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly, and even the usual loving-kindness line, "May you be happy," can feel like rewarding them. **"May you be loving, peaceful, and free"** might be easier to mean. If they were any of those things, they probably wouldn't have done it in the first place. And it doesn't mean they get to come back over for coffee.
+>
+> **P2.** It might open up a little warmth, or it might just stay a quiet intention. And if "I love you" goes flat when you aim it at yourself or your little one, the same wish works there, too.
+
+- P1: 74 words, sha256 e7880c446f8d14ad045869cf5674bcaf03387daa3a4dfba3c3d95adb9502a3f0.
+- P2: 38 words, sha256 d2c8f5816573cfafae2d1d498236c76f80ccb1f1a0217e4f2c58cbe23e6b983d. Too short to check alone.
+- The h3: 116 words, sha256 4edb0355adbbce4523b2ba8ba0a5a8549b7ca54c1d5d8eb92e5fa04294c1ca77.
+
+What changed:
+- **General "you" throughout.** The source's first person here ("a feeling I cannot honestly access") isn't something Joel has said in his own words, so it isn't put in his mouth (E71, rule 2).
+- **Forgiveness isn't mentioned.** The guide's own section handles it later. What stays is the access point, which fits the ledger: the wish "doesn't mean they get to come back over for coffee".
+- **"Not a prediction that they'll change"** is carried by the coffee line (you don't let them back in on the strength of the wish). It's no longer said outright, which was where the cynicism came in.
+- **The inward turn is the reader's,** with the whole wish: "the same wish works there, too", aimed at yourself or your little one, with "loving" kept.
+
+Stance check (E71), sentence by sentence:
+- "If they were any of those things, they probably wouldn't have done it": matches the forgiveness section's conditioning frame ("Hurt people often pass forward pain they never processed").
+- The coffee line: love and goodwill aren't trust or access. It matches the ledger.
+- The inward sentence: self-love going flat is the reader's possibility, as in the h2's P1. No claim about Joel.
+
+Sense read, cold:
+1. Sometimes you can't honestly say "I love you", especially to someone who hurt you. Even the standard wish can feel like rewarding them.
+2. This wish may be easier to mean.
+3. Because someone loving, peaceful and free wouldn't have done it.
+4. It doesn't let them back in.
+5. It may warm something or stay an intention.
+6. If "I love you" goes flat toward yourself or your little one, the same wish works.
+
+"They" and "them" in P1 are the person who hurt you, and "it" is the wish. "It" in P2 is the wish. There's no pronoun jump, because the access point now sits in P1 with the people it's about.
+
+Trace:
+- BL-U13: sentences 1–3; "you don't have to use 'happy'" is carried by offering the other wish. The inward turn is the last sentence, with "or your little one" for the younger self. "May I be peaceful and free" becomes "the same wish" (sense fix, E71 rule 3).
+- BL-U14: P2 sentence 1. The rest of it, as in the earlier record: the doorway heading, and the non-cruelty clause cut as a repeat.
+- BL-U16: goodwill isn't access (the coffee). The rest of the list and the prediction are compressed or implicit, as above.
+
+Linter: REVIEW.
+- B4 is sentence 1: KEEP, one escalating complaint.
+- E41 on "more than you can honestly say": KEEP. It's the limit of what you can say, not coach register.
+- Heavy second person: a note only.
+
+Inventory, the rows that changed:
+
+| row | result |
+|---|---|
+| T01, C03 | ABSENT. No first person. |
+| T07, T24 | ABSENT. The "And no," turn went with the forgiveness line. |
+| T20 | UNCERTAIN, KEEP. P1 ends on the coffee, a landing; P2 ends plainly. |
+| T26 | UNCERTAIN, KEEP. "Goes flat" calls back the h2's P1 on purpose. It's the same problem, and the doorway is for it. |
+| C02 | ABSENT. See above. |
+| All other rows | As in the earlier record. |
+
+Checks planned: P1 alone, the h3, then the section up to Ask God (580 words, sha256 4cbb0d2741e0dc0f1dcfd409f907f92d00387954541eccb0356c8b04ea4ff232).
+
+### Corrected Goodwill: results
+
+Pangram 4.0, Joel's account (the dashboard now renders at a narrower width, with "Detail/Drawer"):
+- P1 alone: **Human Written, 100% Human**, 78 words, short text.
+- The h3 (heading, P1, P2): **AI Detected, 54% AI / 46% Human**, 120 words, "in the later part".
+  - Flagged: from P1's "If they were any of those things…" through the coffee line and all of P2.
+
+My reading: the first-person version passed as a whole because it was one person's case, and his reactions ("And no," / "not even betting") broke the run. In "you" voice, everything after the wish is an explainer's list of extras: the reason, the caveat, the reassurance, and a bonus tip (inward). That's E66 at h3 scale.
+
+The fix depends on whether the first person can come back. The source has, in Joel's voice, "Sometimes 'I love you' asks for a feeling I cannot honestly access, especially toward someone who has treated me badly." He didn't object to that line, but not objecting isn't his saying it (E71, rule 2). So it goes to him as a yes/no. If it's his, P1 can open in his voice, with the corrected coffee ending and the reader's inward line. If it isn't, the "you" version needs a different structure. I'm not making a second "you" attempt until he answers, since his answer decides which one is being written.
+

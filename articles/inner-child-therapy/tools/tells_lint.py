@@ -57,7 +57,7 @@ CONTRAST = [r"\b(isn't|is not|wasn't|aren't|not)\b[^.?!]{0,50}\b(it's|it is|they
 THESIS = [r"\band (still|yet)\b", r"\beven if\b", r"\beven though\b", r"\benough to\b[^.?!]*\b(but|not)\b",
           r"\bnot necessarily\b", r"\bstill counts\b", r"\banyway[.!]", r"\bonly gets you\b",
           r"^(Most|Nobody|Everyone|Everybody|People|Kids|Children|No one|Plenty of|Anybody who)\b"]
-COACH = [r"\byou can\b", r"\byou might\b", r"\byou'll (want|need|probably)\b", r"\bat some point\b",
+COACH = [r"\byou can\b(?!['’]t)", r"\byou might\b", r"\byou'll (want|need|probably)\b", r"\bat some point\b",
          r"\bthat's (fine|okay|ok|normal|all right)\b", r"\bit helps( to)?\b", r"\bstart (by|with)\b",
          r"\bthe next step\b", r"\bdon't be surprised\b", r"\bit's tempting\b", r"\byou don't (have|need) to\b",
          r"\bkeep in mind\b", r"\bremember (that|to)\b", r"\bgive yourself\b", r"\bit's okay to\b",

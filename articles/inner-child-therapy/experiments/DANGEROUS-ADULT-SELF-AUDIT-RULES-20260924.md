@@ -233,3 +233,24 @@ E70. Run the inventory on the assembled section before a whole-section check, no
 - the second trick's "Or" following the case where the first trick works (T03);
 - four paragraphs in a row ending on a polished line (T20).
 Fixing only those, in my own P2, took the body to 100% Human with Joel's text unchanged. So a flag on owner text can be spillover from my paragraph beside it. My first repair swapped the flagged sentence for a callback quip. That reworded the same move (T15) and added a landing, and the flag spread to 65%. When a span-start fix fails, check whether it removed the operation or only reworded it.
+E71. Consistency with the whole article, and between its smaller parts. Joel, 2026-09-26 21:52: "forgiveness is central to the inner child therapy, which is already in the guide, now you're ending by saying i will probably never forgive some folks. so you need some better rules to keep consistency with the long article and smaller parts of it". Also: "when you created the experience of my own life it was wrong, i have no problem sending love to my little one. and i also don't see why if i did havea problem sending love to him it would require me to not wish him to be loving".
+
+The Goodwill h3 failed three ways:
+- **Forgiveness.** P2 ended in Joel's voice on "doesn't mean they're forgiven… I'm not even betting they'll ever get to be any of those things." That reads as permanent unforgiveness and cynicism. The guide's own forgiveness section (`How to Forgive Without Forgetting`) says four things. Healing often comes to include forgiveness. It can arise from seeing how someone's conditioning shaped what they did. It fits with boundaries and even no contact. And "permanent residence inside resentment" is its own trap.
+- **An invented experience.** P1's "Aimed at myself, it's 'May I be peaceful and free'" gave Joel a struggle he doesn't have. My Journey has him sending the love he'd found to little him.
+- **Sense.** The inward wish dropped "loving" because the source did. I noticed that in the sense read and kept it anyway.
+
+Rules:
+1. **A stance ledger before drafting.**
+   - For each theme a section touches (forgiveness, trust, self-love, God, teachers, whether people change), look up what the installed article and the later source sections say.
+   - Write one line per stance, with where it's found, in the drafts file.
+   - Before any check, read every sentence that takes a stance on one of those themes against the ledger.
+   - A sentence in Joel's voice, or one that ends a paragraph or section, gets the closest read.
+2. **The working source's "I" isn't Joel's biography.**
+   - The source is an AI draft of his ideas (17:54: "i didn't write any of that but it's my basic ideas yeah").
+   - A first-person experience goes in only if Joel's own words say it: the installed article or his messages.
+   - If his words say otherwise, or say nothing, use "you" or a general voice.
+   - Never stretch a first-person line into a new claim about him. "The same doorway can face inward" became "Aimed at myself", and that was the invented experience.
+3. **The source gets no pass on sense.** If something in it doesn't hold up (a wish that drops "loving" when it faces inward), fix it or ask. "It's the source's" isn't a reason to keep it.
+4. **Smaller parts too.** The same stance has to hold across neighboring paragraphs and sections, and in the later sections they point to.
+
