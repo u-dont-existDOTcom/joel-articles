@@ -681,7 +681,7 @@ Plain text, with link anchors kept and URLs dropped, as a reader sees them.
 
 ### Pangram result, round 8e
 
-Pangram 4.0, Joel's account, 2026-09-26 about 03:55 UTC. One round of seven checks, run side by side in separate browser tabs. The text was pasted with the dashboard's form tool and submitted with a real click; a script click on the submit button doesn't start a scan.
+Pangram 4.0, Joel's account, 2026-09-26 about 04:00 UTC. One round of seven checks, run side by side in separate browser tabs. The text was pasted with the dashboard's form tool and submitted with a real click; a script click on the submit button doesn't start a scan.
 
 | check | words scanned | result |
 |---|---|---|
@@ -764,7 +764,7 @@ Pangram plan: the four changed paragraphs alone (P3, P4, P5, P7), then the whole
 
 ### Pangram result, round 9
 
-Pangram 4.0, Joel's account, 2026-09-26 about 04:35 UTC, five checks side by side:
+Pangram 4.0, Joel's account, 2026-09-26 about 04:25 UTC, five checks side by side:
 
 | check | words scanned | result |
 |---|---|---|
@@ -789,7 +789,7 @@ Next is one designed test, which is detector research and outside article author
 
 ### Designed detector test (detector research, outside article authority)
 
-Pangram 4.0, Joel's account, 2026-09-26 about 04:45–04:50 UTC, one batch side by side. Each variant changes one kind of surface feature. None of the variant texts goes into the article.
+Pangram 4.0, Joel's account, 2026-09-26 about 04:30–04:38 UTC, one batch side by side. Each variant changes one kind of surface feature. None of the variant texts goes into the article.
 
 | variant | what changed | words | result |
 |---|---|---|---|
