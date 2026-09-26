@@ -1,6 +1,6 @@
 # "Borrow One Function at a Time" — Claude drafts — 2026-09-25
 
-Status: **ROUND 8E TESTED: FIVE OF MY SIX PARAGRAPHS 100% AI, THE GUIDE PARAGRAPH 100% HUMAN, WHOLE SECTION 91% AI ("PARAPHRASED") / NEXT: ROUND 9 ON A LIST HYPOTHESIS**
+Status: **STOPPED AFTER ROUND 9. THE DETECTOR TEST SHOWS SURFACE CHANGES DON'T MOVE PANGRAM EITHER WAY / WAITING ON JOEL'S CHOICE OF METHOD**
 
 ## Trigger
 
@@ -711,3 +711,102 @@ Not delivered, and the prose stays internal. Round 8e is added to the calibratio
 **Hypothesis for round 9:** keep the order and the noticing, and change how the source's lists are carried. Keep the item that matters, or give items sentences of their own with something noticed; cut the rest where the whitelist allows ("compress example lists"), and never cut the safety items. Keep P6 as it is, since it passed and nothing about it needs changing for sense. Test the changed paragraphs one by one, then the whole section.
 
 On the pilot: its paragraph is a study summary for a claim Joel already made in his own voice. Joel has already said it can move ("you can cut the pilot and move the studies if that makes sense"), and it fits with the other two studies in `When the Adult Voice Feels Fake`, where the research is gathered. Round 9 moves it there. That's a cross-section move, so Joel gets a highlighted diff when that section is written.
+
+## Round 9 (sha256 d9a2bdbcd21cf8a7ba06111efbaefa045e030d1d611d0d29673ca8b3b27a7c7a)
+
+This round carries the source's lists differently and keeps everything else, including the order and the noticing. P6 (guiding) is unchanged from 8e, which passed. The pilot moves out, to `When the Adult Voice Feels Fake` (Joel, 01:42: "you can cut the pilot and move the studies if that makes sense"). It's pending there with the other two studies. The fresh sweep isn't run this round: it's advisory since the calibration check, and my own ledger below is the gate.
+
+```markdown
+## Borrow One Competency at a Time
+
+[Joel's paragraph, verbatim]
+
+If the love still isn't coming, you can at least stop judging your little one. No insults, including the ones that sound like advice. No rushing them. And don't expect a thank-you for the session, like they booked it. That's enough to start being the adult, even if it isn't enough yet for them to trust you.
+
+Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us. That takes warmth, and if there isn't any yet, borrow some. Think of someone you remember fondly. How would they sit beside your little one? Probably on the edge of the bed, not across a desk with a clipboard. Your grandmother might have been the warmest person you knew and still only been warm while you were quiet and easy. Anybody whose care needed you to disappear comes off your list. If that leaves nobody, Mr. Rogers is still on it, and so is spiritual love you've felt, if you have.
+
+For protecting, ask what a minimally competent adult would do in the next ten minutes. It's funny how often the answer is a snack. A lot of what your little one needs protecting from turns out to be you, running on no food and no sleep. If the room itself isn't safe, the answer is to leave, or lock the door and get help. The one doing it may still feel completely like the child. Nobody checks your credentials before handing you a baby, either. Afterward, you can tell your little one, "I did that for us. That was the Protector."
+
+The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. What did you decide the last time you were calm? If you didn't write it down, that's probably the first thing a good guide would have told you to do. Or ask what the wise person you respect would have you practice today. A tradition can carry some of it for a while, too, until you can hold the direction yourself.
+
+The thank-you you weren't waiting for might not come anyway. What comes instead might be "Oh, so NOW you care?" It's kind of a fair question. You did take a while. The natural move is to defend your goodness, and then it's just two six-year-olds arguing. A decent adult would probably just hear it out. Some days that's the only thing you'll manage to borrow.
+```
+
+Preservation trace (changes since 8e):
+- U10a, the pilot: MOVED to `When the Adult Voice Feels Fake` (pending; highlighted diff for Joel when that section is written).
+- U4: insults, rushing, and the thank-you for the session are kept. "Impossible standards" is compressed out. The sit-beside question is kept, now as a question.
+- U5: trust, opening up and being taken care of are kept (P3–P4). The fond nurturer, Mr. Rogers and spiritual love are kept.
+- U6: the snack; no sleep; leaving, locking the door and getting help are kept. "Stop replying" is compressed out (whitelist: example lists).
+- U8: sarcasm, in the quote; defending your goodness; the arguing; and "the only thing you'll manage to borrow" are kept. Distrust, contempt, falling apart and walking out are compressed into "A decent adult would probably just hear it out".
+- U9: "may still feel completely like the child" (the source's modal) is kept. Identity afterward is carried by the credentials line plus "Afterward… That was the Protector." The quote is exact.
+- New supported inference, flagged for Joel: "No insults, including the ones that sound like advice" (the article's inherited critic).
+- Unexplained deltas: none.
+
+Linter:
+- First version: FAIL (landings 3/6; second person 9.6 per 100). It was rewritten and rerun.
+- Final: REVIEW, no hard fails. Coach 0.71, second person 8.3, landings 1/6, source-order agreement 1.00 (a note: the order is the source's on purpose).
+
+Ledger:
+- KEEP: the "most of us" reason, the grandmother, the credentials line and the thank-you callback (B1 flags). Each is a reason, a counterexample or a callback.
+- KEEP: the Protector quote (B3, B7), the source's formula.
+- B5 on "For protecting, ask…": KEEP. It carries the question itself.
+- E41 "you can at least stop judging": KEEP, a concession.
+- E41 "until you can hold the direction yourself": KEEP, the source's phrase in the paragraph that passed.
+- E41 "you can tell your little one": KEEP, the source's instruction.
+- A12 referents: "any" is warmth, "it" is the protecting, "hear it out" is the question. E1: no "the kid".
+
+Architecture:
+- Entry: Joel's figure list → P3 (the floor).
+- Exit: P7 → `Borrow Love`.
+- One job per paragraph; read in place, with no broken referents.
+
+Pangram plan: the four changed paragraphs alone (P3, P4, P5, P7), then the whole section. P6 isn't rechecked alone because it's unchanged.
+
+### Pangram result, round 9
+
+Pangram 4.0, Joel's account, 2026-09-26 about 04:35 UTC, five checks side by side:
+
+| check | words scanned | result |
+|---|---|---|
+| P3, not judging | 62 | 100% AI (short text) |
+| P4, borrowed warmth | 116 | 100% AI (short text) |
+| P5, protecting | 103 | 100% AI (short text) |
+| P7, the sarcasm | 73 | 100% AI (short text) |
+| whole section with Joel's paragraph | 584 | **100% AI** (no paraphrase flag this time) |
+
+The list hypothesis failed. The whole section got worse (91% → 100% AI), even with Joel's Human paragraph in it.
+
+### Stop
+
+This is round 10 on this section. Here's what has now failed under Pangram:
+- structure: reordering, ranking, one job per paragraph;
+- noticing inside the organization;
+- removing the source's lists;
+- plainer sentences.
+The only pass is one 85-word paragraph at short-text confidence. Whatever Pangram is responding to sits below the level I've been changing, in my sentence-level choices themselves. No more rewrites of this section until that's understood.
+
+Next is one designed test, which is detector research and outside article authority (preservation gate, section 9). It uses minimal changes to Joel's Human paragraph and to one of my failing paragraphs. The question is which of Joel's features carry the Human result (casual wording, long run-on sentences, a list carried as separate sentences) and whether any of them changes my paragraph.
+
+### Designed detector test (detector research, outside article authority)
+
+Pangram 4.0, Joel's account, 2026-09-26 about 04:45–04:50 UTC, one batch side by side. Each variant changes one kind of surface feature. None of the variant texts goes into the article.
+
+| variant | what changed | words | result |
+|---|---|---|---|
+| A1 | Joel's opening with its casual wording neutralized ("kinda", "pretty", "genius mode unlock", "nice vibes", "the adult is actually a baby" → plain equivalents) | 131 | **100% Human** |
+| A2 | Joel's opening with its run-on sentences split into short ones, words kept | 136 | **100% Human** |
+| A3 | Joel's opening with his figure sentences compressed into one inline list | 109 | **100% Human** |
+| B1 | my round-9 sarcasm paragraph rewritten in first person, past tense | 71 | 100% AI |
+| B2 | the same paragraph with Joel-style run-ons and casual wording | 81 | 100% AI |
+| B3 | the same content written as a plain, deliberately AI-style control | 65 | 100% AI |
+| source | the source section itself (`SOURCE-WORKING-20260925C.html`, Borrow h2) | 378 | 91% AI, "AI-generated content appears throughout" |
+
+What this shows:
+- Pangram isn't responding to the surface features we've been editing: casual wording, sentence length, lists, grammatical person, or organization.
+- Joel's paragraph stays Human when his casual wording is taken out, and mine stays AI when his casual wording is put in.
+- What carries the result is at the level of which words and phrases were chosen, and by whom.
+- It fits the rest of this lane. The sections of mine that passed (Noticing Counts, the regulation section, the Write It P3) were built on Joel's own words: his rough notes or his lines. The Borrow rounds, written from the AI source with only his one edit, all failed.
+- The single pass today (the Guide paragraph, 85 words) came at short-text confidence and stays close to the source's own Guide sentences.
+- Short-text verdicts carry little weight, and this is one small batch. It supports a direction; it isn't a law.
+
+Conclusion for the method: more rewriting by me, at any level we've tried, is unlikely to get this section past Pangram. The next move is Joel's to choose, and the options go to him with the evidence.
