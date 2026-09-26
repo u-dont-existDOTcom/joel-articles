@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. NEXT: P3 (BL-U5), THEN P4 WITH THE TWO BOLD QUESTIONS. THREE ROUNDS USED IN THE 16:10 TURN.**
+Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 FAILED TWICE (100% AI) AND IS WITH JOEL FOR A MINIMAL FIX. P4 WAITS FOR THAT LESSON.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -59,6 +59,13 @@ Ask God for a Loan:
 When the Spiritual Relationship Hurts:
 - **BL-U22** (H1): sometimes the trouble is spiritual hurt (prayer that brings up abandonment or condemnation, a teacher's betrayal); don't automatically call it bypass, lack of faith or disguised parental conflict; ask what's been lost, what needs questioning, what's worth keeping; you may need to grieve or change a relationship, practice or understanding, without either giving up spirituality or forcing more of the same.
 - **BL-U23** (H2): an inner adult doesn't mean controlling everything; spiritual support can help you act where it's yours to act and let go of outcomes and other people's choices where it isn't.
+
+## Research check (BL-U8, BL-U9), 2026-09-26
+
+Checked against PubMed titles found by web search. The PubMed pages themselves didn't render for the fetch tool, and Europe PMC isn't used, per Joel.
+- https://pubmed.ncbi.nlm.nih.gov/24916084/ is "Exploring Solomon's paradox: self-distancing eliminates the self-other asymmetry in wise reasoning about close relationships in younger and older adults" (Grossmann & Kross, Psychological Science, 2014; https://journals.sagepub.com/doi/10.1177/0956797614535400). It fits "people reason more wisely about another person's conflict than their own".
+- https://pubmed.ncbi.nlm.nih.gov/21728454/ is "Boosting wisdom: distance from the self enhances wise reasoning, attitudes, and behavior" (Journal of Experimental Psychology: General, 2012). It fits "a more distanced perspective can narrow that gap".
+- https://pubmed.ncbi.nlm.nih.gov/22268816/ is "Idealistic advice and pragmatic choice: a psychological distance account" (Journal of Personality and Social Psychology, 2012). It fits "advice to other people can become too idealistic".
 
 ## Change whitelist
 
@@ -157,5 +164,68 @@ Tell ledger:
 
 ### P2 result
 
-Pangram 4.0, Joel's account, same turn: **Human Written, 100% Human**, 111 words, short text. P2 stands. That's three rounds this turn (P1, P1 again, P2), which is the gate's limit, so P3 starts next turn.
+Pangram 4.0, Joel's account, same turn: **Human Written, 100% Human**, 111 words, short text. P2 stands. That was three rounds that turn. The three-per-turn limit was dropped at 16:57 (Joel: checks aren't limited, only blind ones are wasteful).
+
+## P3 (recorded before its Pangram call)
+
+> Some people don't have anybody who works for this, not even a dog. So make somebody up whose only intention is to take good care of you, or borrow a character from a book. Kids do this with imaginary friends, and nobody makes them prove the friend exists. They don't need to give advice or get you to feel loving back; just having them sit with you is plenty. If even that feels fake, or a little threatening, go smaller: the least cruel, sanest thing a halfway decent grown-up would say to you right now.
+
+95 words, sha256 60233648f9eba4e82b5657f738171413f7f109d39dc076c44c6326faa07fe4d8.
+
+Trace, BL-U5:
+- No lucky biography: "Some people don't have anybody who works for this, not even a dog. So make somebody up…" This is implicit-equivalent: the exercise visibly doesn't depend on your history, and the imaginary-friend line shows no proof is needed.
+- The imagined caregiver: "make somebody up whose only intention is to take good care of you, or borrow a character from a book". The source's list is compressed to the two items Borrow One Competency's opening doesn't already have (invented, fictional). Ideal parent, therapist and future self are there already; the wise aunt comes back in `Become the Adult Apprentice`.
+- Not proving they existed: the imaginary friends.
+- No advice or loving back needed, and accompaniment is enough: "They don't need to give advice or get you to feel loving back; just having them sit with you is plenty."
+- The fallback: "the least cruel, sanest thing a halfway decent grown-up would say to you right now". This avoids repeating Borrow's distinctive "minimally competent adult".
+- Order: the fallback moves to the end, since it's the last resort. Nothing added beyond the imaginary friends and "not even a dog".
+
+Linter: REVIEW, no hard fails.
+
+Tell ledger:
+- B1 (imaginary friends): KEEP. It's the noticing, and it carries the unit.
+- B4 (the fallback sentence): KEEP. It's one idea, and it's the source's own.
+- E1 "kids": KEEP. It means children in general.
+- The first draft ended on a claim plus a short reassurance ("Sometimes just not being alone with it is enough."): REWRITE. Following E61, it's merged into the sentence before, and the paragraph now ends on the fallback.
+
+### P3 result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 98 words, short text, the whole paragraph flagged.
+
+My reading:
+- It's the source's logic chain, one function per sentence: problem, solution, justification, reassurance, fallback. Each "If even that…" step goes one rung down the ladder.
+- It speaks about "some people", so it's an explainer about a category (the game's voice signal).
+- The imaginary friends were the only thing noticed.
+
+## P3, second attempt (recorded before its call)
+
+What changes is what it says (B10):
+- It speaks to the reader as a case: "if there's nobody…, make somebody up".
+- It admits the reader's real objection, which is that it's playing pretend, calling back to Joel's own point that grown-ups got bad at imagining.
+- It gives the fallback a concrete line a decent grown-up would actually say.
+- "No advice" and "no loving back" are carried by that line and by a callback to P2's hug, not by a reassurance sentence.
+
+> And if there's nobody who works for this, not even a dog, make somebody up. Somebody whose only plan is to take good care of you, or a character out of a book. Yes, it's playing pretend, which grown-ups got bad at. Kids have imaginary friends and nobody asks for ID. If even that feels fake, or a little threatening, go smaller: the least cruel, sanest thing a halfway decent grown-up would say to you right now, like "Yeah, that's awful. I'm here." No advice, and you don't owe them a hug back.
+
+93 words, sha256 ba7e9e78f65c66de13a8c05e63d077eb4adf84d583b0b28842fbd88e80364a73.
+
+Trace, BL-U5:
+- No lucky biography and the imagined caregiver: "if there's nobody…, make somebody up. Somebody whose only plan is to take good care of you, or a character out of a book."
+- Not proving they existed: "nobody asks for ID".
+- The fallback: kept, with "Yeah, that's awful. I'm here." as the example. The line itself is accompaniment without advice.
+- No advice, and no loving in return: "No advice, and you don't owe them a hug back."
+- Added: "playing pretend, which grown-ups got bad at", a callback to Borrow One Competency's opening. It's Joel's claim, not a new one.
+
+Linter: REVIEW, no hard fails. B1 (the ID joke) is KEPT as the noticing. B4 (the fallback) is KEPT as one idea. E1 "Kids" is KEPT, since it means children.
+
+If this fails too, P3 goes to Joel for a minimal fix.
+
+### P3, second attempt: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 100 words, short text, the whole paragraph flagged. Per the rule above, it goes to Joel for a minimal fix. P4 waits for what his fix teaches (E59).
+
+My guess at what both attempts share, and P1 and P2 don't:
+- The source's therapy-manual phrases carried over ("somebody whose only plan is to take good care of you", "the least cruel, sanest thing").
+- The fallback ladder ("If even that feels fake… go smaller").
+- The second attempt also stacked three quips in a row.
 
