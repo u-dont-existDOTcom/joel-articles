@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). THE h2 BODY PASSES AS A WHOLE (100% HUMAN). JOEL 21:52: THE FIRST GOODWILL h3 WENT TOO FAR ON FORGIVENESS AND INVENTED HIS EXPERIENCE; E71 ADDED. THE CORRECTED GOODWILL P1 PASSES ALONE, BUT THE h3 IS 54% AI IN "YOU" VOICE, AND THE FIRST PERSON WAITS ON JOEL. ASK GOD P1 AND P2 PASS ALONE. SPIRITUAL-HURT P1 FAILED TWICE AND IS WITH JOEL.**
+Status: **THE WHOLE SECTION PASSES: 100% HUMAN, 710 WORDS (PANGRAM 4.0, 2026-09-26 ~23:25 UTC). SENT TO JOEL AS HTML FOR APPROVAL; INSTALL ONLY ON HIS OK.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E70 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -1469,4 +1469,73 @@ Pangram 4.0, Joel's account (the dashboard now renders at a narrower width, with
 My reading: the first-person version passed as a whole because it was one person's case, and his reactions ("And no," / "not even betting") broke the run. In "you" voice, everything after the wish is an explainer's list of extras: the reason, the caveat, the reassurance, and a bonus tip (inward). That's E66 at h3 scale.
 
 The fix depends on whether the first person can come back. The source has, in Joel's voice, "Sometimes 'I love you' asks for a feeling I cannot honestly access, especially toward someone who has treated me badly." He didn't object to that line, but not objecting isn't his saying it (E71, rule 2). So it goes to him as a yes/no. If it's his, P1 can open in his voice, with the corrected coffee ending and the reader's inward line. If it isn't, the "you" version needs a different structure. I'm not making a second "you" attempt until he answers, since his answer decides which one is being written.
+
+## Joel, 23:15: the Goodwill and spiritual-hurt fixes
+
+> "yes it is true that i can't always feel loving towards everyone (but not a problem toward myself) i can still wish them to be loving ,peaceful and free tho"
+
+He tried my "you" version with his own sentence in it, keeping the coffee line ("But until then, they don't get to come back over for coffee"). Everything but his sentence read AI. His final, which he wants to keep (his check: Human, medium confidence):
+
+> Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly. Even the usual whittled-down loving-kindness prayer, "May you be happy," can feel like rewarding them. That's why I go with Buddha's overall wish (paraphrasing): "May you be loving, peaceful, and free," since if they were all of those, they wouldn't have done what they did, and then they actually would be lovable.
+>
+> This goodwill isn't just for the target of it, though. You may find it bounces back and opens up a little warmth in your heart. And if "I love you" goes flat when you aim it at yourself or your little one, the same wish works there, too.
+
+The h3 with the heading is 122 words, sha256 9473f72beb6dc81974adf1aa8cb44f5f74b3418a948acd9c1fd9e889dd6a2f91.
+
+On the spiritual-hurt P1:
+
+> "it did read ai. Ai stuff overuses "i wouldn't call that X" and the 3 part conditional syntax. Then you have the instruction manual features and the ending is bringing it all together in the most defensible way possible. here's mine which is human, and i like it better:"
+>
+> If a spiritual teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now. Kids quit piano over one bad teacher, and this is way worse. But if you let an abuser control your appreciation of life, then you've given them an unearned win.
+
+That's 51 words, sha256 29da311b9b5fef07234892ae70bd5ad4d43199b23c8463196303da61f72aaa06. And on the Serenity Prayer paragraph: "your last paragraph looks good to me (altho if it continued it might end up looking like an ai pattern)".
+
+Dispositions:
+- **Goodwill: Joel's final, owner text.**
+  - BL-U16 (goodwill isn't access) is owner-deleted with the coffee line.
+  - BL-U14's outcome is carried by "bounces back and opens up a little warmth in your heart". The "quiet intention" half is owner-deleted.
+  - The first person is back where he confirmed it: he can't always feel loving toward everyone, and it's no problem toward himself. The inward line stays the reader's.
+- **Spiritual hurt P1: Joel's version, owner text.**
+  - BL-U22's prayer case, the don't-label clause, and the ask, grieve and change points are owner-deleted.
+  - "Without giving up spirituality" is carried by "an unearned win".
+- **Spiritual hurt P2 (the Serenity Prayer): owner-accepted.**
+
+Fact check on Joel's "Buddha's overall wish (paraphrasing)". The Buddha's own loving-kindness wish in the Karaniya Metta Sutta is "In gladness and in safety, May all beings be at ease" (https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.amar.html). That's close to "May you be happy", so a careful reader could say "May you be happy" is his wording rather than a whittled-down version. "Overall" and "(paraphrasing)" cover the wider aim, the love, peace and freedom his teaching points to. So it's flagged for Joel, not changed.
+
+The stance ledger (E71) on his text:
+- "Then they actually would be lovable" sits a little against the last section's "Love precedes anything you could earn" (`You Are Worthy of Love. Always.`). The Goodwill line is about what he can feel toward people who did harm, not about what they're worth. Flagged once, not changed.
+- Nothing else conflicts. Forgiveness isn't contradicted, and the inward line is the reader's.
+
+## The whole section (recorded before its call)
+
+The heading, the h2 body (as passed), Goodwill (Joel's final), Ask God P1–P2 (mine; P2 with "really"), and spiritual hurt (Joel's P1, my P2). 672 words, sha256 a50ae9b14e802d55db6ae152cf98006b6f9cac2cd0bbb60b59e9ef40dc340f9c.
+
+Section-scale inventory (E70) and fingerprint pass:
+- **T02:** instructions in the h2 and Ask God, Joel's own case in Goodwill, a stance in spiritual hurt. It isn't one chain.
+- **T03:** each h3 opens on its own case under its own heading.
+- **T20 and endings:** joke, plain, Solomon, "scaffolding", "lovable", plain, plain, food bank, "unearned win", plain. They vary, and the section ends on a plain relative clause.
+- **T26 and fingerprint:**
+  - Kid comparisons appear three times: the aunt and uncle, Joel's "how you learn as a kid", and the piano. There's also "your kid" in P1 (the reader's child).
+  - "…works…, too." closes two sentences: P6's "it works now, too" and Goodwill's "the same wish works there, too".
+  - "Dog" appears four times (the h2 and Ask God's callback).
+  - Both flagged to Joel. Neither is changed, since the lines involved are his or ones he kept.
+- **Paragraph lengths:** 97, 92, 89, 55, 70, 48, 60, 59, 51, 30.
+- **Linter:** REVIEW. Every flag is on a sentence of mine already dispositioned (B3 dog, B4 aunt/uncle, B4 Ask God, E1 kids). Joel's lines are excluded with the owner file.
+
+### The whole section: result
+
+Pangram 4.0, Joel's account: **Human Written, 100% Human**, 710 words scanned, with no short-text caveat. Nothing is flagged.
+
+The HTML for Joel (`borrow-love-section-r1.html`) has three links: 21728454 on "cheap trick for becoming the outsider to your own mess", 24916084 on "Solomon's paradox", and Wikipedia's Instructional scaffolding on "scaffolding". The wish is bold, as in the source. With the tags stripped, it's byte-identical to the tested text (sha256 a50ae9b1…).
+
+Still with Joel:
+- The Metta Sutta note on "Buddha's overall wish".
+- "Lovable" against "Love precedes anything you could earn".
+- The fingerprint note: three kid comparisons; "…works…, too." twice.
+- Installing, on his OK.
+
+Later, from the bird's-eye:
+- `When Love Still Feels Missing` repeats this section's moves (it even says "The exercise is a scaffold"), so it gets consolidated when we reach it.
+- The later "Big whoop" callbacks re-anchor to "Oh, so NOW you care?" (`Love Doesn't Have to Wait for Trust` has "Big fuckity whoopty doo").
+- The pilot and the two studies move to `When the Adult Voice Feels Fake`.
 

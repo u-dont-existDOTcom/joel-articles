@@ -253,4 +253,14 @@ Rules:
    - Never stretch a first-person line into a new claim about him. "The same doorway can face inward" became "Aimed at myself", and that was the invented experience.
 3. **The source gets no pass on sense.** If something in it doesn't hold up (a wish that drops "loving" when it faces inward), fix it or ask. "It's the source's" isn't a reason to keep it.
 4. **Smaller parts too.** The same stance has to hold across neighboring paragraphs and sections, and in the later sections they point to.
+E72. Joel's Goodwill and spiritual-hurt fixes (2026-09-26 23:15).
 
+Goodwill:
+- He confirmed the first person where it's true ("i can't always feel loving towards everyone (but not a problem toward myself)"), then used it for a choice with a reason: "That's why I go with Buddha's overall wish (paraphrasing)". The reason comes as a trailing "since" clause that ends warm: "and then they actually would be lovable".
+- He split my packed first sentence. The linter's B4 was right about it.
+- He cut the access line ("they don't get to come back over for coffee"). With it in, everything but his sentence read AI.
+- The outcome became something that happens to the person wishing: "You may find it bounces back and opens up a little warmth in your heart". It's no longer a reassurance ("it might just stay a quiet intention").
+
+Spiritual hurt, in his words: AI overuses "I wouldn't call that X" and "the 3 part conditional syntax"; then there are "the instruction manual features", and "the ending is bringing it all together in the most defensible way possible". His fix kept my first two sentences and ended on one committed stance: "But if you let an abuser control your appreciation of life, then you've given them an unearned win." End on something a reader could push back on, not the safest summary.
+
+The Serenity Prayer paragraph was fine, but a familiar-instance line that keeps going can turn into a pattern. Keep those short.
