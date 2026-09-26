@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). P4 PASSES (SIXTH ATTEMPT, 100% HUMAN) AFTER JOEL'S MARCHING-ORDER POINT. P5 (IDEALISTIC ADVICE) FAILED THREE TIMES AND GOES TO JOEL.**
+Status: **ONE PARAGRAPH AT A TIME (E59). P1 (second attempt) AND P2 PASS ALONE, 100% HUMAN. P3 IS CUT AS A DUPLICATE (Joel 17:10). JOEL 18:47: THE PASSING P4 DOESN'T MAKE SENSE, AND P5 CAN GO IF P4 DOES. P5 DELETED. JOEL 18:50: DON'T REWRITE P4 UNTIL I CAN SAY WHAT DOESN'T MAKE SENSE. THE SEVENTH ATTEMPT WAS ALREADY SENT (100% AI) AND IS DIAGNOSTIC ONLY.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E63 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -607,4 +607,74 @@ My best guesses:
 - A lab-study summary is explainer voice however it's dressed. Ben is a scenario, not a story like Solomon's.
 - The opening line has a crafted paradox ("very kind advice you can't use").
 - "(easy for them to say)" is a stock aside.
+
+## Joel, 18:47
+
+> "ok well first of all P4 doesn't even make sense. you can't see that? then P5 tries to rescue it but P5 looks like we could trash it entirely if P4 made sense"
+
+He's right. Read literally, the passing P4 never says why the question works:
+- "For the same reason King Solomon could sort out two women fighting over a baby" names a reason and never gives it.
+- The 700 wives only mean something to a reader who already knows the paradox.
+- The "(psychologists actually call this…)" aside has no "this" to point at.
+
+I chased the detector into a story and lost the sense, against E52 (sense first). The literal read (gate step 7) was only run on whole sections, never on a paragraph before its check. P5 was then patching the gap: the realistic-options caution that P4 should have carried.
+
+Dispositions:
+- **P4's sixth attempt:** its 100% Human is diagnostic-only and fidelity-rejected. It doesn't make sense, so it isn't promoted (preservation gate §9).
+- **P5, owner-deleted** (Joel, 18:47). Its point (give the stand-in your real life, since advice for others comes out idealistic) goes back into P4 as one clause. The Ben study link (22268816) goes with P5.
+- **E67:** a literal sense read of each paragraph before its check.
+
+## P4, seventh attempt: sense first (recorded before its call)
+
+> Or [picture somebody you care about living your exact life](https://pubmed.ncbi.nlm.nih.gov/21728454/), and ask what you'd tell them. Most of us are way wiser about other people's messes than our own, which psychologists call [Solomon's paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the king everybody brought their disputes to, who then made a mess of his own life. Just give your stand-in your real family and your real bank account, not an easier version, or the advice will be for a life you don't have.
+
+Plain text: 78 words, sha256 6a21491b7f937425be3e2f3e6eb36dda89ff6e2992217cd13a6becbb22f16670.
+
+The literal read, as a reader who doesn't know the point:
+1. The exercise.
+2. Why it works: we're wiser about other people's messes; that has a name; the king it's named after judged everyone else's disputes and wrecked his own life.
+3. The one caution, with its reason: an easier life gives advice for a life you don't have.
+
+Each sentence follows from the one before ("which", "Just… or"). None is a separate slot.
+
+Trace:
+- BL-U6: the question's idea.
+- BL-U7: "your exact life", and "your real family and your real bank account, not an easier version" for the tidier-life caution.
+- BL-U8:
+  - The self-other gap, named and linked (24916084).
+  - The distance study (21728454) is linked on the exercise itself, which is the distancing move.
+  - "My practical version" is implicit, as before.
+- BL-U9: "or the advice will be for a life you don't have" keeps the realistic-options point. The generosity and idealism wording and the study are owner-deleted with P5.
+
+Linter: REVIEW.
+- B1 and B4 fall on the second sentence: KEEP. It's the paradox itself, sourced, as one connected sentence the way Joel writes. Splitting it would march (E66).
+- Second person: KEEP.
+
+Inventory:
+
+| row | result |
+|---|---|
+| T02, T09 | ABSENT. Three connected sentences, not slots. |
+| T08 | ABSENT. The king is explained where he's mentioned, not after. |
+| T13 | ABSENT. The king, and "a life you don't have". |
+| T16 | UNCERTAIN, KEEP. "Not an easier version" is a plain aside, not a reveal. |
+| T21 | UNCERTAIN, KEEP. See B4. |
+| C02 | ABSENT. "Them" and "your stand-in" are the same person, and "his own life" is the king's. |
+| C04 | ABSENT. Links as sourced. The king's summary matches Wikipedia and 1 Kings. |
+| All other rows | ABSENT. |
+
+### P4, seventh attempt: result, and Joel at 18:50
+
+Pangram 4.0: **AI Generated, 100% AI**, 83 words. It had been sent before Joel's message arrived.
+
+> "don't rewrite p4 yet you didn't even see what's not making sense did you"
+
+No, I didn't. I rewrote before reading the sixth attempt properly. Reading it now:
+1. "It works weirdly well, for the same reason King Solomon could sort out two women fighting over a baby." That isn't the same reason. The exercise works because it isn't your own life, so you have distance. Solomon settled the baby case with a trick that exposed which mother loved the child. That's cleverness about people, not distance.
+2. The aside names the wrong thing. Solomon's paradox is the problem (wise about other people, foolish about yourself). It isn't the reason the exercise works, but the aside hangs it on "it works".
+3. "Then he married seven hundred women, and his kingdom fell apart right after him" is meant to be the foolish-about-himself half, but nothing says so. It reads as a polygamy joke, and the kingdom fell apart in his son's reign, not his own.
+4. The baby story, about a mother who'd rather lose her child than see it hurt, sounds as if it will connect to your little one and to love, which this section is about. Then it's used for "wisdom about others" instead, so it's a false lead.
+5. The exercise stops at "ask what you'd tell them". The point of borrowing, turning that care back toward yourself and your little one, isn't there.
+
+Waiting for Joel before rewriting.
 

@@ -48,6 +48,7 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    Run it on each new paragraph alone, not only on the section. Over a section, coach density gets diluted. P5's first attempt was REVIEW inside the text up to P5 (1.8 coach phrases per 100) but hard-fails alone (2.3), and Pangram put it at 100% AI (2026-09-26).
 6. **Tell ledger in the drafts file.**
    - Every REVIEW item from the linter, with a disposition (KEEP, DELETE, REWRITE, MERGE, SUBORDINATE or MOVE) and why.
+   - **First, a literal sense read of the paragraph as a reader who doesn't know the point (E67).** Then check it for marching order: can every sentence be labelled with its next job (E66)?
    - **Every row of `docs/HUMANIZATION-TELL-INVENTORY.md` (T01–T28, C01–C04), on the literal draft, before every Pangram call (E65).** The linter's flags are a subset. A draft that still looks AI to me doesn't go to Pangram.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
    - Execute the repairs, then rerun steps 4–6 on the changed text.
