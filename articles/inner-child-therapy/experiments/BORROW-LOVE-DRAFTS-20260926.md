@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **THE WHOLE SECTION PASSES: 100% HUMAN, 710 WORDS (PANGRAM 4.0, 2026-09-26 ~23:25 UTC). SENT TO JOEL AS HTML FOR APPROVAL; INSTALL ONLY ON HIS OK.**
+Status: **THE WHOLE SECTION PASSES: 100% HUMAN, 710 WORDS (PANGRAM 4.0, 2026-09-26, IN THE TURN ANSWERING JOEL'S 23:15 MESSAGE). SENT TO JOEL AS HTML FOR APPROVAL; INSTALL ONLY ON HIS OK.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E70 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -1538,4 +1538,3 @@ Later, from the bird's-eye:
 - `When Love Still Feels Missing` repeats this section's moves (it even says "The exercise is a scaffold"), so it gets consolidated when we reach it.
 - The later "Big whoop" callbacks re-anchor to "Oh, so NOW you care?" (`Love Doesn't Have to Wait for Trust` has "Big fuckity whoopty doo").
 - The pilot and the two studies move to `When the Adult Voice Feels Fake`.
-
