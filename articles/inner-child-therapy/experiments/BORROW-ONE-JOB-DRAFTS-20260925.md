@@ -1,6 +1,6 @@
 # "Borrow One Function at a Time" — Claude drafts — 2026-09-25
 
-Status: **SIX TESTED ROUNDS, ALL 100% AI; ROUND 7 STOPPED BEFORE PANGRAM / WAITING ON JOEL'S DECISION ABOUT RESTRUCTURING THE SECTION**
+Status: **ROUND 8E TESTED: FIVE OF MY SIX PARAGRAPHS 100% AI, THE GUIDE PARAGRAPH 100% HUMAN, WHOLE SECTION 91% AI ("PARAPHRASED") / NEXT: ROUND 9 ON A LIST HYPOTHESIS**
 
 ## Trigger
 
@@ -404,3 +404,310 @@ Make the section about the one thing in it that's actually interesting, and move
 - **The Protector question** (a minimally competent adult, the next ten minutes) and **the Guide questions** (a calmer day's decision, a trusted teacher's practice): into the Chicken-and-Egg stage list, at stages 2 and 3 ("Begin to borrow adulthood", "Practice adulting"), as the concrete first borrowings.
 - **"I did that for us. That was the Protector."**: with stage 3, where acting before feeling like the adult is the point.
 - **The research:** the pilot is cut here, and the other two studies go to `When the Adult Voice Feels Fake` as planned.
+
+## Round 8 (2026-09-26, after Joel rewrote the opening)
+
+Trigger: Joel, 01:42. He rewrote the first paragraph himself ("it's human (med conf)") and said:
+- "it's not that you can't have an organized essay. it's that your organization needs to be not reducible to code as i explained before. it needs to notice things naturally in the midst of the organization";
+- "first of all the stuff ahs to make sense then we look at humanizing, you can't just move stuff around willy nilly to humanize it";
+- "you can cut the pilot and move the studies if that makes sense ... i want you to tell me if they would make sense";
+- "we need to test each paragraph individually ... and the whole section at the end".
+
+That answers the restructuring proposal above: the section keeps its organization, and the moves into Chicken-and-Egg are off.
+
+### What his paragraph does (self-audit E51)
+
+- It keeps the source sentences that already read right, word for word ("A complete ideal parent may be impossible to imagine", "Borrow one function at a time from a figure who embodies it"), and the figure list I had cut.
+- The noticing produces the instruction: imagination gets stamped out of kids early, so "the adult is actually a baby when it comes to power to imagine", so start small.
+- The Brady Bunch is the obvious counterexample, as a joke.
+- Each figure quietly previews a job: the grandmother cared, the teacher guided, the sibling protected.
+- It ends on a callback ("if you can imagine that"), not a lesson.
+
+### Preservation freeze
+
+Written here after the fact: for round 8 I carried the freeze in the session and didn't write it down before drafting. The units are round 6's (U1–U10 above), with these changes:
+- U1 and U2 are carried by Joel's paragraph, which is owner-final and installed verbatim. His list replaces the source's (friend, spiritual figure and fictional character are gone; Mr. Rogers and the future healed self stay).
+- U3 ("not from anyone whose care requires you to disappear") isn't in his paragraph. It's a safety line, so it stays, in the nurturer part where it bites hardest, worded so it covers every figure.
+- The whitelist changes. The order is the one the sense needs, which is the source's: Nurturer, Protector, Guide, the little one's sarcasm, identity afterward. No reordering, ranking or cutting for the detector (inventory T14). Example lists may still be compressed.
+- U10a, the pilot: my call is to keep it, right after his paragraph. It's the one study of exactly this (imagining ideal parents), and it backs his "genius mode unlock".
+- U10b–d go to `When the Adult Voice Feels Fake`, as before.
+
+### Round 8 draft (sha256 9041126728158eb25418de6d5df83aa9c7da973d9de0cdb5ab1f65513fcd49cc)
+
+```markdown
+## Borrow One Competency at a Time
+
+[Joel's paragraph, verbatim]
+
+Imagining does seem to help, at least a little. In a [small pilot](https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/), seventeen adults with complex PTSD from childhood trauma did five weeks of therapy built around imagined ideal parents, and eight months later their symptoms were still down. There was no control group, so take it as a hint.
+
+If love feels out of reach, start with not judging: no insults, no rushing, no impossible standards, and no expecting your little one to thank you for the session, as if they'd booked it. That's enough to start being the adult, but it's not necessarily enough to ask them to trust you, open up, or let you take care of them.
+
+For that, find a nurturer you can remember fondly and picture how they'd sit beside your little one. Beside, like on the edge of the bed, not across a desk with a clipboard. Just skip anybody whose care needed you to disappear. That goes for everyone you borrow from, but it bites hardest here. Some of the warmest people were only warm while you were quiet and easy, and that part comes along with whatever you borrow. If nobody's left, that's where Mr. Rogers comes back in, or spiritual love you've felt, if you have.
+
+When it's protection your little one needs, ask what a minimally competent adult would do in the next ten minutes. It's funny how often the answer is a snack. Otherwise it's things like locking the door, not replying yet, leaving if the room isn't safe, asking for help, or going to sleep.
+
+For direction, ask what you decided when you were calm, and what the wise person you respect would ask you to practice today. The first one is borrowing from yourself, just a calmer you from last week, which is a lot closer than that future healed self. Until you can hold the direction on your own, it can live in a written plan, a value, a teacher, or a tradition.
+
+Borrowing helps the part that's trying to be the adult, too. Your little one might answer with sarcasm, distrust, or contempt, something like "Oh, so NOW you care?" The natural move is to defend yourself, and then it's just two six-year-olds arguing. So ask how a decent adult would hear that without defending their goodness, hitting back, falling apart, or leaving. Some days that'll be the only thing you manage to borrow.
+
+You may still feel completely like the child while you're doing the adult thing. Nobody checks your credentials before handing you a baby, either. The adult part tends to show up afterward, when you can say, "I did that for us. That was the Protector."
+```
+
+- Linter: REVIEW, no hard fails. Coach phrases 0.89 per 100 of my words, second person 6.2, landings 1/8, source-order agreement 0.79 (now a note, not a failure).
+- Fresh sweep (a fresh subagent with no tools, prompt built from the numbered inventory, Noticing Counts and Joel's paragraph as context, no Pangram history). Blocking PRESENT:
+  - T02: the same module cadence in every function paragraph (label, question, noticing, list);
+  - T12: a 3–4 item list closes each module, and the four failure modes cover every direction;
+  - T17: the closing paragraph's principles;
+  - T20: the quote ending plus the short line before it;
+  - T21: three packed sentences;
+  - T28: the section closes on reassurance and a victory line;
+  - C04: the study looked unsourced, because the builder had dropped the link. False positive; the builder now keeps link targets.
+- UNCERTAIN: T03, T09, T10, T11, T22, T26, C02.
+- No Pangram: the gate blocks it while the sweep has PRESENT rows.
+
+### Repairs for round 8b
+
+- **Pilot:** it now notices the obvious counterexample to "impossible to imagine": the people in the pilot did imagine whole ideal parents, with a therapist guiding them. Checked: the abstract describes "a 5-week psychotherapy programme based on the IPF method, a semi-structured visualization programme" (https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/; https://consensus.app/papers/details/f03e8b3b2ec755198e62201da35b2987/).
+- **Nurturer:**
+  - It opens on a callback to Noticing Counts ("the love isn't coming yet").
+  - It gives a reason why not judging isn't enough for trust.
+  - Joel's grandmother becomes the counterexample that produces the disappear rule, and "comes off your list" keeps the rule on every figure.
+  - Mr. Rogers "is still on it".
+- **Identity afterward (U9):** it moves inside the section, into the Protector paragraph, right after the protecting examples. The quote names the Protector, that's where the reader feels least like an adult, and the section then ends where the material runs out (T28). The source's "That is fine" is carried by the credentials line.
+- **Guide:** "The Guide can be you too, just a calmer you", a callback to the Protector quote and to Joel's future healed self.
+- **Sarcasm:** it opens on a callback to the thank-you in the nurturer part; the four failure modes are spread over two sentences.
+
+### Round 8b draft (sha256 9b8cdaae32c151c0f033748b05beceb37a65d4dc44a3c8cff17ab0f9a989aecc)
+
+```markdown
+## Borrow One Competency at a Time
+
+[Joel's paragraph, verbatim]
+
+There's even a therapy where people imagine whole ideal parents, no Brady Bunch required, with a therapist walking them through it. In a [small pilot](https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/), seventeen adults with complex PTSD from childhood trauma did five weeks of it, and eight months later their symptoms were still down. There was no control group, so take it as a hint.
+
+If the love still isn't coming, you can at least stop judging your little one. No insults, no rushing, no impossible standards, and no waiting for them to thank you for the session, like they booked it. That's enough to start being the adult. It might not be enough yet for them to trust you, or open up, or let you take care of them.
+
+Most of us wouldn't do that for somebody who'd only just stopped being mean. That takes some warmth, and if you can't find any for them yet, somebody else's will do for now. Think of someone you remember fondly and picture how they'd sit beside your little one. Beside, like on the edge of the bed, not across a desk with a clipboard. Your grandmother might have been the warmest person you knew and still only been warm while you were quiet and easy, though. Borrow from her and you borrow that too. So anybody whose care needed you to disappear comes off your list. If that leaves nobody, Mr. Rogers is still on it, and there's spiritual love you've felt, if you have.
+
+Protecting starts with the next ten minutes, and what a minimally competent adult would do with them. It's funny how often that's a snack. Other times it's not replying yet, or going to bed. If the room isn't safe, it's leaving, or locking the door and asking for help. You can do all of this while feeling completely like the child. Nobody checks your credentials before handing you a baby, either. The adult can show up afterward, when you tell your little one, "I did that for us. That was the Protector."
+
+The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. What did you decide the last time you were calm? Or what would the wise person you respect have you practice today? Until you can hold that direction yourself, it can live on paper, or with a teacher or a tradition.
+
+The thank-you you weren't waiting for might not come anyway. What you get instead could be sarcasm, distrust, or contempt, something like "Oh, so NOW you care?" The natural move is to defend your goodness or snap back, and then it's just two six-year-olds arguing. A decent adult could hear it without doing either, and without falling apart or leaving. Some days that'll be the only thing you manage to borrow.
+```
+
+### 8b preservation trace
+
+Forward:
+
+| unit | where | disposition |
+|---|---|---|
+| U1, U2 | Joel's paragraph | owner-final |
+| U3 | P4 | kept; "comes off your list" covers every figure |
+| U4 | P3, P4 | kept (the four no's; the sit-beside question) |
+| U5 | P3, P4 | kept. "not necessarily enough" became "might not be enough yet", still hedged; trust, open up and take care of them all kept; Mr. Rogers and spiritual love kept |
+| U6 | P5 | all six actions kept; the three safety ones grouped under "If the room isn't safe" |
+| U7 | P6 | both questions kept; "value" compressed out (whitelist) |
+| U8 | P7 | kept: sarcasm, distrust, contempt; defending goodness, snapping back, falling apart, leaving; "the only thing you manage to borrow" |
+| U9 | P5 | MOVED within the section (reason above); "can" kept; the quote exact |
+| U10a | P2 | kept; the figures match the abstract |
+| U10b–d | — | MOVE to `When the Adult Voice Feels Fake` (pending) |
+
+Reverse (what isn't in the source's words):
+
+| draft element | maps to |
+|---|---|
+| "no Brady Bunch required, with a therapist walking them through it" | callback to Joel's paragraph; the therapist is in the abstract |
+| "If the love still isn't coming" | the source's "if love feels inaccessible"; callback to Noticing Counts |
+| "like they booked it" | the source's "perform gratitude for the session" |
+| "Most of us wouldn't do that for somebody who'd only just stopped being mean" | **supported inference**: the reason for Joel's "not necessarily enough" |
+| the grandmother who was only warm while you were quiet and easy | U3, with Joel's own figure as the example |
+| "Mr. Rogers is still on it" | Joel's list and his edit |
+| "It's funny how often that's a snack" | U6 ("Eat") |
+| "Nobody checks your credentials before handing you a baby, either" | U9 ("That is fine") |
+| "The Guide can be you too, just a calmer you" | U7's first question; callback to Joel's future healed self |
+| "The thank-you you weren't waiting for might not come anyway" | U4's gratitude item, leading into U8 |
+| "two six-year-olds arguing" | U8 (what defending your goodness turns into) |
+
+Unexplained deltas: none. One supported inference is flagged for Joel.
+
+### 8b linter
+
+REVIEW, no hard fails. Coach phrases 0.84 per 100, second person 7.3 (review above 6, fail at 9), landings 1/7, one paragraph of instructions (the nurturer's second; fail at two), source-order agreement 0.76.
+
+Linter flags and dispositions:
+- B1 on four sentences (the "most of us" reason, the grandmother, the credentials line, the thank-you): KEEP. Each is a reason, a counterexample or a callback, not a moral.
+- B2 on "If the room isn't safe": false positive, since there's no contrast.
+- B3 and B7 on "That was the Protector.": KEEP, the source's quote.
+- B5 on "Rogers is still on it.": false positive (the sentence splitter broke at "Mr.").
+- E41 on four "you can" lines: sent to the sweep (see T10 below).
+
+### 8b fresh sweep (new fresh subagent on the changed bytes, same packet rules)
+
+| tell | status | the reviewer's evidence, briefly |
+|---|---|---|
+| T02 | **PRESENT** | each paragraph takes one competency and hands off; inside the Protector and Guide paragraphs every sentence does one teaching job, and each joke is one of the jobs |
+| T06 | **PRESENT** | "spiritual love you've felt" names a category with no giver or moment |
+| T08 | UNCERTAIN | two sentences after the grandmother beat spell out the consequence and the rule |
+| T09 | **PRESENT** | the two most interesting observations (the snack, "Oh, so NOW you care?") get one sentence each and are dropped |
+| T10 | **PRESENT** | the same permission shape three times: you lack X, a stand-in will do |
+| T12 | UNCERTAIN | one role per paragraph; the failure modes in two matched pairs |
+| T17 | **PRESENT** | "Borrow from her and you borrow that too." |
+| T20 | UNCERTAIN | three paragraphs end on short crafted lines, though not in a row |
+| T21 | **PRESENT** | "That takes some warmth, and if…"; "If that leaves nobody, Mr. Rogers is still on it, and…" |
+| T22 | **PRESENT** | the Guide paragraph is two prompts and a reassurance, with no stance or humor |
+| C02 | UNCERTAIN | the capitalized Protector and Guide |
+| C04 | UNCERTAIN | the reviewer couldn't check the pilot's figures |
+| all others | ABSENT | T13 absent: the grandmother, the snack, the credentials line and the six-year-olds come out of the material |
+
+Dispositions:
+- **C02 REJECT:** the article introduces "the loving Nurturer, safe Protector, and wise Guide" in its opening section (`HUMANIZED-ARTICLE-SO-FAR.md`), which the sweep's context didn't include.
+- **C04 REJECT:** 17 adults, a five-week programme, the eight-month follow-up and the missing control group are all in the abstract (links above).
+- **T06:** "spiritual love you've felt, if you have" is Joel's own wording from his 2026-09-25 edit, so the content stays. Round 8c ties it to love the reader has actually felt, without inventing anything.
+- **T17 DELETE** "Borrow from her and you borrow that too." The rule after it carries the point, which also settles T08.
+- **T21 REWRITE:** split both sentences.
+- **T02, T09, T10, T22:** structural; see the diagnosis.
+
+No Pangram on round 8b: the gate blocks it while PRESENT rows remain.
+
+### Diagnosis after 8b (stop rule)
+
+Two sweeps on Joel's organization agree. The noticing is there now (T13 is absent), but each noticing gets one sentence, and then the paragraph goes back to instructing. In Joel's paragraph the noticing produces the instruction. In mine the instruction comes first and the noticing trails it, so the jokes read as one more job. The stock stopgap lines ("somebody else's will do for now", "it can live on paper") are the permission shape the sweep caught.
+
+Round 8c keeps the order and the units. In the Protector, Guide and sarcasm parts, it starts from what's noticed and lets the instruction come out of it. One or two noticings get real room, and the stopgap lines are cut where the thought doesn't need them.
+
+## Round 8c (sha256 e2c066e275cfed5d98b4ecfdd0d5b76a9b4f3d8b6882c15e9bacaa0650c0f39a)
+
+The changes from 8b:
+- **Nurturer:** "That takes warmth, which is exactly what you're short on. So borrow some…", so the instruction comes out of the noticing. "Borrow from her and you borrow that too" is deleted. Spiritual love stays on the list "since it never needed you to disappear either" (Joel's own framing in My Journey: love "beyond the conditions of my life story").
+- **Protector:** it opens "Protecting starts smaller than it sounds". The snack gets room: "a lot of what your little one needs protecting from turns out to be you, running on no food and no sleep". The identity point rides on the credentials joke ("The credentials come afterward").
+- **Guide:** "Once you're upset it's gone, which is the whole case for writing it down. Paper doesn't panic."
+- **Sarcasm:** "It's kind of a fair question. You did take a while." The four failure modes are spread out.
+
+Linter: REVIEW, no hard fails (coach 0.59, second person 7.8, landings 1/7, no instruction paragraphs).
+
+Fresh sweep, blocking PRESENT: T02, T08, T09, T10, T12, T17, T20, T21, T28. T06 and T22 went ABSENT. T28 came back PRESENT on the same last sentence that the 8b sweep had called ABSENT.
+
+## Round 8d, and a calibration check on the sweep itself
+
+Round 8d (sha256 1d2ebb53a6ec8c43ec8848e3b3bd790e6d20841d1eb9c34a228c4084266f3f7b) makes these changes:
+- The Protector opener becomes "For protecting, the question is…", which drops the "smaller than it sounds" / "easier to imagine" pair the sweep had called parallel.
+- "The credentials come afterward" becomes "Afterward, you can tell your little one…".
+- In the Guide paragraph, "Paper doesn't panic" becomes "If you didn't write it down, that's probably the first thing a good guide would have told you to do."
+- The last sentence now carries the "only thing you'll manage to borrow" inside the decent-adult sentence.
+
+Three sweeps had flipped several rows between nearly identical texts, so I checked the sweep the way `docs/HUMANIZATION-FRESH-CRITIC-GATE.md` section 5 requires before its output can gate: known controls, blind, with the same prompt builder and route. That step should have run when the numbered inventory replaced the lab's 12-tell prompt, and it hadn't. All four ran in parallel on fresh subagents:
+
+| packet | known Pangram result | sweep PRESENT rows |
+|---|---|---|
+| A: `When Healing Turns Into Checking`, installed section | Human (100% Human inside the 502-word Checking + Noticing Counts test) | **10**: T02, T06, T08, T09, T10, T13, T17, T20, T21, T28 |
+| B: Joel's own Borrow opening | Human, medium confidence (Joel's check) | 2: T06 ("future healed self"), T16 (his "not just … It's actually") |
+| C: Borrow round 6 | 100% AI | 7: T02, T09, T12, T20, T21, T26, T28 |
+| round 8d | not yet tested | 11: T02, T06, T08, T09, T10, T11, T17, T20, T21, T22, C02 |
+
+Result: the sweep flags a known-Human section at least as heavily as a known-AI one. T02 and T09, the two rows that fired on every Borrow draft, fired on control A too. The row counts don't separate Human from AI here. Under the fresh-critic gate ("if the auditor misses a control, its output for that axis is non-gating until repaired"; "uncalibrated-axis model output is treated as advisory only"), the sweep's rows are advisory on this route. My lane gate had treated every PRESENT as blocking, which was stricter than the declared gate and not supported by evidence. The lane gate is corrected to match (step 6).
+
+What still gates is my own editorial read of each flagged span:
+- **C02 REPAIR:** 8d's "without doing either" had only one move before it, a real referent slip. Round 8e says "without doing that".
+- **T02 / T09 / T12 / T20 / T21 / T28 / T08 / T10 / T11 / T17 / T22 / T06:** advisory after the calibration failure. Each flagged span was reread:
+  - The grandmother-to-rule step is the source's own safety line (U3), not aftercare.
+  - "That's enough to start being the adult" is Joel's own edit.
+  - The quote ending the Protector paragraph is the source's formula, and it belongs right after the acts.
+  - "Spiritual love you've felt, if you have" is Joel's wording.
+  - The permission shape is the section's thesis (borrowing until you can do it yourself).
+  - No further repair.
+- **C04 REJECT:** as before, every figure is in the abstract.
+
+## Round 8e (sha256 1ab3299faf01cfe2a847a7600a08e4916c8f5fbeb72879c965954b82375120ab)
+
+8d with the C02 repair. The linter is unchanged: REVIEW, no hard fails.
+
+```markdown
+## Borrow One Competency at a Time
+
+[Joel's paragraph, verbatim]
+
+There's even a therapy where people imagine whole ideal parents, no Brady Bunch required, with a therapist walking them through it. In a [small pilot](https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/), seventeen adults with complex PTSD from childhood trauma did five weeks of it, and eight months later their symptoms were still down. There was no control group, so take it as a hint.
+
+If the love still isn't coming, you can at least stop judging your little one. No insults, no rushing, no impossible standards, and no waiting for them to thank you for the session, like they booked it. That's enough to start being the adult. It might not be enough yet for them to trust you, or open up, or let you take care of them.
+
+Most of us wouldn't do that for somebody who'd only just stopped being mean. That takes warmth, which is exactly what you're short on. So borrow some from someone you remember fondly, and picture how they'd sit beside your little one. Beside, like on the edge of the bed, not across a desk with a clipboard. Your grandmother might have been the warmest person you knew and still only been warm while you were quiet and easy, though. Anybody whose care needed you to disappear comes off your list. If that leaves nobody, Mr. Rogers is still on it. So is spiritual love you've felt, if you have, since it never needed you to disappear either.
+
+For protecting, the question is what a minimally competent adult would do in the next ten minutes, and it's funny how often the answer is a snack. Or going to bed, or not replying yet. A lot of what your little one needs protecting from turns out to be you, running on no food and no sleep. When the room itself isn't safe, it's leaving, or locking the door and getting help. Most of it gets done while you still feel completely like the child. Nobody checks your credentials before handing you a baby, either. Afterward, you can tell your little one, "I did that for us. That was the Protector."
+
+The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. What did you decide the last time you were calm? If you didn't write it down, that's probably the first thing a good guide would have told you to do. Or ask what the wise person you respect would have you practice today. A tradition can carry some of it for a while, too, until you can hold the direction yourself.
+
+The thank-you you weren't waiting for might not come anyway. What you get instead could be sarcasm, distrust, or contempt, something like "Oh, so NOW you care?" It's kind of a fair question. You did take a while. Defending your goodness is the natural move, and then it's just two six-year-olds arguing. Some days the only thing you'll manage to borrow is a decent adult who could hear it without doing that, or falling apart, or walking out.
+```
+
+### 8e preservation trace (changes since 8b)
+
+- U5: "If there was none… Mr. Rogers, or spiritual love you've felt, if you have" → "If that leaves nobody, Mr. Rogers is still on it. So is spiritual love you've felt, if you have, since it never needed you to disappear either". Kept; the reason clause is a supported inference from Joel's My Journey.
+- U6: all six actions kept (snack; going to bed; not replying yet; leaving; locking the door; getting help).
+- U7: the calm decision, writing it down, the wise person's practice today, a tradition, and "until you can hold the direction yourself" are kept. "Teacher" and "value" are compressed out; the whitelist allows compressing example lists.
+- U8: sarcasm, distrust and contempt; defending your goodness; snapping back, carried by "two six-year-olds arguing"; falling apart; walking out; "the only thing you'll manage to borrow". All kept.
+- U9: "feel completely like the child" is kept. "Adult identity can form after the behavior" is implicit-equivalent: the credentials line says nobody qualifies first, and "Afterward, you can tell your little one, 'I did that for us. That was the Protector.'" names the role only after the act. The quote is exact.
+
+New supported inferences, flagged for Joel:
+- "a lot of what your little one needs protecting from turns out to be you";
+- "If you didn't write it down, that's probably the first thing a good guide would have told you to do";
+- "It's kind of a fair question. You did take a while."
+
+Unexplained deltas: none.
+
+### Architecture
+
+- The heading promise is met.
+- Entry: from Joel's figure list.
+- Exit: toward `Borrow Love` ("Sometimes the missing capacity is not love itself").
+- Paragraph jobs:
+  - P2: evidence for his "genius mode unlock", with the counterexample handled;
+  - P3: the floor and its limit;
+  - P4: borrowed warmth and the disappear rule;
+  - P5: protecting, and feeling like the child while doing it;
+  - P6: guiding;
+  - P7: the little one's pushback, and the adult who can hear it.
+- Literal read in place after Noticing Counts: no dangling transitions or broken referents found.
+
+### Pangram plan (one round)
+
+Seven checks side by side:
+- each of my six paragraphs alone (58–116 words, so short-text confidence for the shortest);
+- the whole section with Joel's paragraph, 652 words.
+
+Plain text, with link anchors kept and URLs dropped, as a reader sees them.
+
+### Pangram result, round 8e
+
+Pangram 4.0, Joel's account, 2026-09-26 about 03:55 UTC. One round of seven checks, run side by side in separate browser tabs. The text was pasted with the dashboard's form tool and submitted with a real click; a script click on the submit button doesn't start a scan.
+
+| check | words scanned | result |
+|---|---|---|
+| P2, the pilot | 59 | AI Generated, 100% AI (short text) |
+| P3, not judging | 67 | AI Generated, 100% AI (short text) |
+| P4, borrowed warmth | 121 | AI Generated, 100% AI (short text) |
+| P5, protecting | 114 | AI Generated, 100% AI (short text) |
+| P6, guiding | 85 | **Human Written, 100% Human** (short text) |
+| P7, the sarcasm | 85 | AI Generated, 100% AI (short text) |
+| whole section with Joel's paragraph | 676 | AI Detected, 91% AI / 9% Human, "This text appears to have been paraphrased or rewritten" |
+
+Not delivered, and the prose stays internal. Round 8e is added to the calibration set as `tools/calibration/FAIL_borrow_r8e.txt`.
+
+### Diagnosis after round 8e
+
+- The noticing is there: every sweep, including the controls, calls T13 absent. So noticing alone doesn't make these paragraphs read human to Pangram.
+- The one paragraph that passed (P6, guiding) is the plainest. It has short sentences, a direct question to the reader, one joke about its own advice ("that's probably the first thing a good guide would have told you to do"), and no list.
+- Every failing paragraph carries at least one of the source's inline lists or an "or… or…" chain:
+  - "No insults, no rushing, no impossible standards, and no waiting…";
+  - "trust you, or open up, or let you take care of them";
+  - "Or going to bed, or not replying yet … leaving, or locking the door and getting help";
+  - "sarcasm, distrust, or contempt … without doing that, or falling apart, or walking out".
+  The pilot paragraph is a dense study summary.
+- Joel's paragraph kept the source's order, but not its lists. He turned the figure list into sentences of his own, each with an aside ("at some age", "if you felt some nice vibes from his show as a kid").
+- That's also the likeliest reading of "paraphrased or rewritten" on the whole section: the source's lists survive under new wording.
+
+**Hypothesis for round 9:** keep the order and the noticing, and change how the source's lists are carried. Keep the item that matters, or give items sentences of their own with something noticed; cut the rest where the whitelist allows ("compress example lists"), and never cut the safety items. Keep P6 as it is, since it passed and nothing about it needs changing for sense. Test the changed paragraphs one by one, then the whole section.
+
+On the pilot: its paragraph is a study summary for a claim Joel already made in his own voice. Joel has already said it can move ("you can cut the pilot and move the studies if that makes sense"), and it fits with the other two studies in `When the Adult Voice Feels Fake`, where the research is gathered. Round 9 moves it there. That's a cross-section move, so Joel gets a highlighted diff when that section is written.

@@ -48,7 +48,12 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - Every REVIEW item from the linter, with a disposition (KEEP, DELETE, REWRITE, MERGE, SUBORDINATE or MOVE) and why.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
    - Execute the repairs, then rerun steps 4–6 on the changed text.
-   - **Fresh-context sweep before Pangram.** Required for every section my sentences carry (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Build the prompt from the numbered inventory (`docs/HUMANIZATION-TELL-INVENTORY.md`, T01–T28 and C01–C04) with `tools/build_sweep_prompt.py`, give it the previous accepted prose (and any owner paragraphs) as context and my paragraphs as the target, and send it to a fresh subagent or another fresh route. Withhold the Pangram history and my reasons. Any PRESENT blocks Pangram until it's repaired or rejected with an exact editorial reason. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
+   - **Fresh-context sweep before Pangram.** Required for every section my sentences carry (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Build the prompt from the numbered inventory (`docs/HUMANIZATION-TELL-INVENTORY.md`, T01–T28 and C01–C04) with `tools/build_sweep_prompt.py`, give it the previous accepted prose (and any owner paragraphs) as context and my paragraphs as the target, and send it to a fresh subagent or another fresh route. Withhold the Pangram history and my reasons. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
+     **Advisory until calibrated (2026-09-26).** The fresh-critic gate lets a model sweep gate only on axes that pass known controls. The numbered-inventory sweep on this route (a fresh Claude subagent) failed its negative control:
+     - it reported 10 tells on the known-Human `When Healing Turns Into Checking`;
+     - it reported 7 on the known-AI Borrow round 6;
+     - T02 and T09 fired on both.
+     So its rows are leads for my editorial read, not blockers. The blocking check is my own disposition of each flagged span: repair the real ones (a referent slip, a packed sentence I agree with), and record the reason for the rest. Rerun the controls whenever the prompt, the model or the route changes, and let the sweep gate again only for axes that separate them.
    - **Stop rule.** If fixing one tell produces another (round 7: removing landings created six packed sentences), stop polishing. Diagnose at the level of structure, and take any change that moves or cuts preservation units to Joel.
 7. **Architecture.** Heading promise, entry and exit state, each paragraph's job, then one literal top-to-bottom read of the section in place.
 8. **Pangram (E27, E37; SKILL.md owner-delivery admission).**
@@ -96,6 +101,7 @@ Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration
 | Borrow One Function r4 | 100% AI | REVIEW (miss since D9 became a note) | — |
 | Borrow One Function r5 | 100% AI, "paraphrased" | FAIL | landings 3/6 |
 | Borrow One Job r6 (full gate) | 100% AI | REVIEW (miss) | none; the fresh sweep found T02, T09, T12 |
+| Borrow One Competency r8e (with Joel's opening) | 91% AI, "paraphrased"; my paragraphs 5 of 6 at 100% AI | REVIEW (miss) | none |
 | Music r2, my lines only | 100% AI | FAIL | second person 9.9/100 |
 | Dangerous-adult H2 | 100% Human | REVIEW | — |
 | Music r4 (installed) | 100% Human | CLEAR | — |

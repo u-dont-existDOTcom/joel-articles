@@ -181,3 +181,9 @@ E52. Sense before humanizing (Joel, 2026-09-26: "first of all the stuff has to m
 E53. Joel's own human text can use a not-X-but-Y line ("it's not just a foolish waste of time. It's actually a genius mode unlock") when it answers a dismissal readers really have. The ban stays for my drafts, because in mine it's a reflex (T16).
 E54. Don't ask about obvious gaps. A gate that needs a file that doesn't exist (the numbered tell inventory) is a gap to fill, not a rule to question (Joel, 2026-09-26: "isn't it obvious they need that?"). The flag-don't-ignore rule (E50) is for rules that look unhelpful, not for missing pieces.
 E55. Per-paragraph Pangram checks are the anti-cheating rule, not overhead (Joel, 2026-09-26: "some paragraphs were testing AI even tho the whole section was human, and that means the humanization is sort of cheating"). Every paragraph I wrote is checked alone, then the whole section, in parallel tabs.
+E56. Calibrate a reviewer before letting it block. I replaced the lab's 12-tell prompt with the 32-item inventory and treated every PRESENT as blocking without running controls, which the fresh-critic gate requires first. When I did run them:
+- it reported 10 tells on the known-Human Checking section;
+- it reported 7 on the known-AI round 6;
+- it reported 2 on Joel's opening.
+Three repair rounds (8b–8d) had been steered by it. Its rows are now leads, not blockers (`tools/HUMANIZATION-GATE.md`, step 6).
+E57. What Pangram passed in round 8e, and what it didn't. The one paragraph of mine that passed (Guide, 100% Human) has short sentences, a direct question to the reader, one joke about its own advice, and no list. All five that failed carry the source's inline lists or "or… or…" chains. Joel's opening kept the source's order but turned its list into sentences of his own, each with an aside. Next test: carry the source's lists that way, or keep only the item that matters.
