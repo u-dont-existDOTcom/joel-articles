@@ -193,3 +193,11 @@ E60. What Joel's minimal fix of P3 showed. He changed only two kinds of sentence
 - A clever twist that sounds wise but isn't what a person really thinks. "No insults, including the ones that sound like advice" became "Helpful advice is great, we all need advice".
 - A bare prohibition in a list. "No rushing them" became "Let them absorb it at their pace", a positive instruction tied to the sentence before it.
 He added one word of stance ("Obviously") and kept everything else. To repair a failing paragraph, find those two kinds of sentence and fix only them, with the view a person would actually hold.
+E61. Joel's P5 fix (2026-09-26 14:45): the result depends on an interaction. His texture edits alone left the paragraph medium-confidence AI:
+- one specific, funny, lived example instead of categories;
+- "hit pause";
+- "spidey sense";
+- a half-rejected cliché ("'Fake it til you make it' isn't exactly it, but yeah");
+- "If it sounds funny, laugh!".
+Rewriting the feeling-plus-reassurance pair ("You may still feel… That's ok.") into one sentence ("Even if this still feels like the child acting like the adult, for now, that's ok") flipped it to Human. That same rewrite alone didn't flip my version. Look for coach-cadence pairs (a feeling or claim, then a short reassurance) and rewrite them, and give the paragraph enough texture of a person's own. Neither alone is enough.
+

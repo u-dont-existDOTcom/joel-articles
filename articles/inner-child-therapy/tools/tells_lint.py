@@ -147,9 +147,10 @@ def main():
     if landing_rate >= 0.5 and len(ps) >= 3: hard.append(f'B7/B13 landings: {para_final_short}/{len(ps)} paragraphs end on a short line')
     if imper_heavy >= 2: hard.append(f'E23 listicle: {imper_heavy} paragraphs are strings of instructions')
     if rep_openers: hard.append(f'B13 repeated paragraph openers: {rep_openers}')
-    if you_density >= 9.0 and mine_words >= 60:
-        hard.append(f'E36/E41 second-person coaching: {you_density:.1f} "you" per 100 of my words (limit 9)')
-    elif you_density > 6.0:
+    # Review note only since 2026-09-26: second-person density doesn't separate Pangram
+    # results. The Guide paragraph passed at 13.4 per 100, and two failing P5 attempts
+    # sat at 4.7 and 6.1. Check what the "you" sentences are doing instead (coach register).
+    if you_density > 6.0:
         flag('REVIEW', 'E36/E41 heavy second person', f'{you_density:.1f} "you" per 100 of my words')
     # AI marching order: do my paragraphs walk through the source's points in the source's order?
     if a.source:

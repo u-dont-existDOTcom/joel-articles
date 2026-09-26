@@ -44,6 +44,8 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    ```
 
    A FAIL means rewrite the draft, not tweak it, then rerun. Never send a FAIL to Pangram.
+
+   Run it on each new paragraph alone, not only on the section. Over a section, coach density gets diluted. P5's first attempt was REVIEW inside the text up to P5 (1.8 coach phrases per 100) but hard-fails alone (2.3), and Pangram put it at 100% AI (2026-09-26).
 6. **Tell ledger in the drafts file.**
    - Every REVIEW item from the linter, with a disposition (KEEP, DELETE, REWRITE, MERGE, SUBORDINATE or MOVE) and why.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
@@ -56,8 +58,17 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
      So its rows are leads for my editorial read, not blockers. The blocking check is my own disposition of each flagged span: repair the real ones (a referent slip, a packed sentence I agree with), and record the reason for the rest. Rerun the controls whenever the prompt, the model or the route changes, and let the sweep gate again only for axes that separate them.
    - **Stop rule.** If fixing one tell produces another (round 7: removing landings created six packed sentences), stop polishing. Diagnose at the level of structure, and take any change that moves or cuts preservation units to Joel.
 7. **Architecture.** Heading promise, entry and exit state, each paragraph's job, then one literal top-to-bottom read of the section in place.
+   - **Shape questions, advisory (2026-09-26).** These come from SlopShape (Madler, [arXiv:2609.15369v2](https://arxiv.org/html/2609.15369v2)). It found AI blog posts share a structural shape that survives the model rewording them. Its core features include:
+     - an ending that restates the thesis or reframes it (its strongest single signal);
+     - a thesis stated before the first part;
+     - a summary or synthesis stage;
+     - stakes escalated;
+     - the editorial-explainer voice.
+   - Ask these of each section and of the article, where the paragraph checks can't see. They're review questions, not a gate. The paper tested 600–2,500-word commercial posts and single-pass AI text, not Pangram or edited text like ours.
+   - On Borrow round 11 every paragraph passed alone, yet the section was flagged "at the close". Its last paragraph was tying things up: a callback to an earlier line, and the section's thesis word restated in the last sentence.
 8. **Pangram (E27, E37; SKILL.md owner-delivery admission).**
    - Check every paragraph I wrote on its own, and then the whole section. A section can pass while one of its paragraphs is AI, which is the cheating the per-paragraph rule exists to stop (Joel, 2026-09-26).
+   - The reverse happens too. On Borrow round 11 every paragraph passed alone, P6 and P7 failed together at 100% AI, and the section failed at the close. So the whole-section check stays. When it fails, localize the failure with the flagged span and neighboring pairs before changing anything.
    - Run the checks side by side in separate browser tabs.
    - At most about three rounds per turn, where a round is one set of checks on one draft. Never recheck unchanged text.
    - Read results from the page text.
@@ -73,7 +84,6 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
   - half or more of the paragraphs ending on a short line (B7/B13);
   - two or more paragraphs that are strings of instructions (E23);
   - three or more paragraphs with the same opener (B13);
-  - second person at 9 or more per 100 of my words (E36/E41);
 - **REVIEW** (flags for the tell ledger):
   - contrast constructions (B2);
   - finished principles (B1);
@@ -83,15 +93,21 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
   - packed or list sentences (B4/E15);
   - short knock-downs (B3);
   - short paragraph-final lines;
-  - second person above 6 per 100;
+  - second person above 6 per 100 (a review note only since 2026-09-26: density didn't separate Pangram results);
   - with `--source`: the draft follows the source's order (D9). That's a note, not a failure. Organization is fine when the prose notices things (T13); since 2026-09-26 this is no longer a hard fail.
 - **Not checked, on purpose:** phrases shared with failed drafts. Reuse isn't a tell by itself (see B10).
 
 The linter covers a handful of mechanical tells. It is not the tell ledger, and a CLEAR never skips step 6.
 
-## Calibration (2026-09-25, rerun 2026-09-26 after the fixes)
+## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds)
 
-Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration/`.
+Twenty-two texts with known Pangram 4.0 results. The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
+
+Not included:
+- the ablation variants of Joel's P5 fix;
+- the section-level diagnostics of round 12.
+
+They're near-copies of texts already in the set and would weight one paragraph several times. Their results are in the Borrow drafts file.
 
 | text | Pangram | linter | hard reasons |
 |---|---|---|---|
@@ -108,7 +124,21 @@ Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration
 | Music r4, my lines only | 100% Human | REVIEW | — |
 | Noticing Counts | 100% Human | REVIEW | — |
 | Your Body Might Need Some Love First | 100% Human | REVIEW | — |
+| Borrow P5 r10, my first attempt | 100% AI | FAIL (alone; REVIEW inside the text up to P5) | coach 2.3/100 |
+| Borrow P5 r10b, my second attempt | 100% AI | FAIL | coach 2.4/100 |
+| Borrow P6 + P7 together, r12 | 100% AI | REVIEW (miss) | none |
+| Borrow One Competency r11, whole section | 24% AI, "at the close" | REVIEW (miss) | none |
+| Borrow P3, Joel's minimal fix | Human (Joel's check) | REVIEW | — |
+| Borrow P4 r10 | 100% Human | REVIEW | — |
+| Borrow P5, Joel's minimal fix | Human, medium confidence (Joel's check) | REVIEW | — (coach 1.85/100, close to the limit) |
+| Borrow P6, the Guide, r8e | 100% Human | REVIEW | — |
+| Borrow P7 r11 | 100% Human | REVIEW | — |
 
-Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
+Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Since the second-person hard fail became a review note (2026-09-26), it hard-fails two (r2, r3b), still none of the Human ones.
+
+With the one-paragraph rounds added:
+- It hard-fails four of the twelve AI texts (r2, r3b, and both P5 attempts) and none of the ten Human ones.
+- At paragraph level, coach density separated the two failing P5 attempts (2.3, 2.4) from every Human paragraph (at most 1.85).
+- It misses both context failures, the P6 + P7 pair and the whole section, where every paragraph passes alone. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
 
 That's a small set, and the thresholds were set on it, so expect misses. A CLEAR or REVIEW only means the mechanical tells weren't found; it doesn't mean the draft reads human. Add every new Pangram result to the calibration set and retune the thresholds if they start letting AI through.

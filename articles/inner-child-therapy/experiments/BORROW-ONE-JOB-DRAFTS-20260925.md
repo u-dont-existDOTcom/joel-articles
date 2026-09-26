@@ -1,6 +1,6 @@
 # "Borrow One Function at a Time" — Claude drafts — 2026-09-25
 
-Status: **ONE PARAGRAPH AT A TIME. P3 IS JOEL'S FIX (HUMAN); P4 IS 100% HUMAN; P5 FAILED TWICE AND IS WITH JOEL FOR A MINIMAL FIX**
+Status: **ONE PARAGRAPH AT A TIME. P3 AND P5 ARE JOEL'S FIXES (HUMAN); P4 AND P6 ARE MINE (HUMAN); P7 AND A SMALL ABLATION OF JOEL'S P5 FIX BEING TESTED**
 
 ## Trigger
 
@@ -868,6 +868,7 @@ The same method on my round-9 P5:
   - One callback was added ("that reply", pointing to `Write It. Don't Send It Yet.`).
   - No unexplained deltas.
 - Linter: REVIEW, no hard fails; landings 1/4.
+- Correction (2026-09-26, later): that run was on the text up to P5, where Joel's lines dilute the density. P5 alone hard-fails on coach density (2.3 per 100). The gate now says to lint each paragraph alone.
 - Linter fix made on the way: the sentence splitter broke "Mr. Rogers" into two sentences, which produced false short-landing and announcing flags. With that fixed, round 5 of the calibration set drops from FAIL to REVIEW. Its failure had partly depended on the bug.
 - Pangram 4.0, Joel's account, 2026-09-26 about 14:18 UTC: **AI Generated, 100% AI**, 91 words, short text.
 
@@ -886,3 +887,166 @@ Everything else is unchanged.
 - Linter: REVIEW, no hard fails.
 - If this fails too, it goes to Joel for a minimal fix rather than a third attempt from me.
 - Pangram 4.0, Joel's account, 2026-09-26 about 14:20 UTC: **AI Generated, 100% AI**, 88 words, short text. Sent to Joel for a minimal fix.
+
+## Joel's P5 fix, 2026-09-26 14:45 UTC
+
+Joel edited my second P5 attempt.
+- His version with every edit except one: medium-confidence AI.
+- With the last edit too: **medium-confidence Human**:
+
+> For protecting, ask what a minimally competent adult would do here. Maybe something simple, like actually smelling that old food you're about to eat and then trashing it if it smells a little weird. If you're about to send an angry text, hit pause. If the room itself triggers your spidey sense, leave, or lock the door and get help. Even if this still feels like the child acting like the adult, for now, that's ok. "Fake it til you make it" isn't exactly it, but yeah. Afterward, you can tell your little one, "I did that for us. That was the Protector." If it sounds funny, laugh!
+
+His finding: "If i take your orig para and make ONLY that change tho, it does not change the result, so the other changes did help even tho it didn't show that they helped until this iunstruction manual pattern was changed in one key place."
+
+What changed, against my attempt:
+1. "in the next ten minutes" → "here". He dropped the source's precise-sounding frame.
+2. "Usually it's something basic, like eating or going to bed" → "Maybe something simple, like actually smelling that old food you're about to eat and then trashing it if it smells a little weird". One specific, funny, lived example instead of two categories.
+3. "maybe don't send it yet" → "hit pause".
+4. "If the room itself isn't safe" → "If the room itself triggers your spidey sense". A pop-culture phrase for sensing danger.
+5. **The key one:** "You may still feel completely like the child while you're doing it. That's ok." → "Even if this still feels like the child acting like the adult, for now, that's ok."
+   - The feeling-plus-reassurance pair ("You may still feel… That's ok.") is coach register (inventory T22), in the source's own words.
+   - He folded the reassurance into one sentence with the article's own frame (the child acting like the adult) and "for now".
+6. Added: "\"Fake it til you make it\" isn't exactly it, but yeah." A cliché, half-rejected, thought out loud.
+7. Added: "If it sounds funny, laugh!"
+
+Lesson (rule E61): the result depends on an interaction.
+- The texture edits (2, 3, 4, 6, 7) didn't flip it while the feeling-plus-reassurance pair stayed.
+- Removing the pair didn't flip my version, which had no texture.
+- Both together did.
+- So fixing one "key" sentence isn't a recipe. A paragraph needs its coach-cadence sentence rewritten and enough human texture around it.
+
+### Joel's question: try many strategies on ~50 paragraphs in parallel?
+
+My view:
+- **Not the 50-paragraph version.** It would teach what Pangram rewards more than how people write, and that's the gaming Joel worries about. Short paragraphs sit near the line, so a few wins out of 50 could be luck and would say little about why. The cost would be hundreds of checks plus the tokens to generate and read them.
+- **The version worth doing is small.** After each of Joel's fixes, test his version with one change reverted at a time. Every variant sits between his human text and my AI text, so each result shows which of his moves carried the paragraph. That's what he did by hand with the key sentence.
+- A first pass runs now on his P5: six checks, detector research, outside article authority.
+
+Ablation variants of Joel's P5 (each reverts one of his changes and keeps the rest):
+- V1: "would do in the next ten minutes" instead of "would do here";
+- V2: "Usually it's something basic, like eating or going to bed." instead of the old-food sentence;
+- V3: "maybe don't send it yet" instead of "hit pause";
+- V4: "isn't safe" instead of "triggers your spidey sense";
+- V6: without the "Fake it til you make it" sentence;
+- V7: without "If it sounds funny, laugh!".
+
+(V5 would restore the feeling-plus-reassurance pair. That's Joel's first version, already known to be medium-confidence AI.)
+
+## P7, the sarcasm paragraph (recorded before its Pangram call)
+
+This applies both fixes:
+- Nothing clever that sounds wise.
+- No feeling-plus-reassurance pair.
+- No closing validation.
+- One quoted self-talk line ("But I'm trying!") instead of the source's "defend your goodness".
+- A thought-out-loud aside ("Which, fair enough, you did take a while").
+- The source's "only thing you borrow" folded into the decent-adult sentence, ending on a concrete, slightly funny image instead of a lesson.
+
+> The thank-you you weren't waiting for might not come anyway. You might get more like "Oh, so NOW you care?" Which, fair enough, you did take a while. Your first instinct might be "But I'm trying!", and then it's just two six-year-olds arguing. Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you.
+
+- Preservation (U8):
+  - Kept: sarcasm, in the quote; defending your goodness, as "But I'm trying!"; the arguing, carrying retaliation; the decent adult; "the only thing you'll manage to borrow".
+  - Compressed: distrust, contempt, collapsing and leaving, into "just hearing it out".
+  - New, and flagged:
+    - "Which, fair enough, you did take a while", the concession already flagged in round 6;
+    - "your little one might still roll their eyes at you", a light image that makes no claim.
+- Linter: REVIEW, no hard fails. The second-person hard fail is demoted to a review note, because the density doesn't separate Pangram results: the Guide paragraph passed at 13.4 per 100, while two failing P5 attempts sat at 4.7 and 6.1. With that change, the linter hard-fails 2 of the 8 AI calibration texts (r2, r3b) and none of the Human ones. Added to the calibration set: `PASS_borrow_guide_r8e.txt`, `PASS_borrow_p4_r10.txt` and `FAIL_borrow_p5_r10b.txt`.
+
+### Ablation of Joel's P5 fix: results
+
+Pangram 4.0, Joel's account, 2026-09-26 about 14:50 UTC (same batch as P7; the clock read 14:51 just after), six checks side by side (short text for all):
+
+| variant | reverted change | result |
+|---|---|---|
+| V1 | "here" back to "in the next ten minutes" | **58% AI**, "AI-generated content appears in the earlier part" |
+| V2 | the old-food example back to "Usually it's something basic, like eating or going to bed." | 100% Human |
+| V3 | "hit pause" back to "maybe don't send it yet" | 100% Human |
+| V4 | "spidey sense" back to "isn't safe" | 100% Human |
+| V6 | without "'Fake it til you make it' isn't exactly it, but yeah." | **100% AI** |
+| V7 | without "If it sounds funny, laugh!" | 100% Human |
+
+What carried Joel's fix, with the rest in place:
+- the rewritten feeling-plus-reassurance sentence (his own test);
+- the thought-out-loud aside that half-rejects a cliché ("isn't exactly it, but yeah"), whose removal flips it to 100% AI;
+- dropping the source's precise-sounding frame "in the next ten minutes".
+
+The old-food example, "hit pause", "spidey sense" and "laugh!" can each go on their own. Joel's test shows that some texture has to be there, though, so they may stand in for each other. One-at-a-time reverts can't show that.
+
+## P7: 100% Human
+
+Pangram 4.0, Joel's account, 2026-09-26 about 14:50 UTC: **Human Written, 100% Human**, 79 words, short text. It was the first attempt under the one-paragraph method, using both of Joel's fixes as the model.
+
+## The whole section, assembled from paragraphs that passed one by one (recorded before its call)
+
+Heading plus six paragraphs:
+- Joel's opening;
+- P3, Joel's fix;
+- P4, mine;
+- P5, Joel's fix;
+- P6, the Guide, mine from round 8e and unchanged;
+- P7, mine.
+
+546 words, sha256 9f5ff0223560ae26825c5161b23f8d4dc1769727172d18a6c543f77a761bc635 (Markdown). Pasted into Pangram as plain text without the heading marks, sha256 b64585774312a151d6577956a351116b092e52a167a53776e1289129e35abee4.
+
+Preservation over the whole section:
+- U1–U2 are in Joel's opening.
+- U3 is in P4, in positive form.
+- U4–U5 are in P3–P4. In Joel's P3 fix, "no impossible standards" became "Helpful advice is great, we all need advice"; that's an owner edit.
+- U6 and U9 are in P5, with Joel's changes: "the next ten minutes" and the sleep example are gone, and eating became the old-food check. Those are owner edits too.
+- U7 is in P6.
+- U8 is in P7. The reactions to avoid are compressed to defending (the "But I'm trying!" example), and hearing it out stands in for not leaving (whitelist: example lists).
+- U10a, the pilot, and U10b–d move to `When the Adult Voice Feels Fake` (pending).
+- No unexplained deltas.
+
+Architecture, one literal read in place after Noticing Counts:
+- P6's "The Guide can be you too" still refers back to the Protector quote.
+- P7's thank-you still calls back to P3's.
+- "Your future healed self" in P6 calls back to Joel's opening.
+- Mr. Rogers appears in Joel's opening and in his own fallback wording in P4, so the repeat is his.
+- No broken referents.
+
+### Whole-section result
+
+Pangram 4.0, Joel's account, 2026-09-26 14:57 UTC by the clock: **AI Detected, 24% AI / 76% Human**, 573 words scanned, "AI-generated content is concentrated at the close. The rest is human-written." The textarea's sha256 was checked against the file before submitting (8069044…, the file without its final newline).
+
+The flagged span runs from P6's third sentence ("What did you decide the last time you were calm?") to the end of P7. Both paragraphs passed alone at 100% Human. So paragraphs that pass on their own can still fail together. Here it's at the close, which is where the section does its tying-up:
+- P6 ends on a growth promise ("until you can hold the direction yourself").
+- P7 opens on a callback twist to P3's thank-you.
+- P7 closes by restating the section's thesis word ("the only thing you'll manage to borrow") before the wry last beat.
+
+Joel sent SlopShape (Madler, arXiv:2609.15369v2) the same minute. Its strongest single signal for AI commercial posts is "conclusion behavior: restated thesis or reframe". That study is about post-level structure in 600–2,500-word B2B blogs, not Pangram, so this is only a hypothesis to test.
+
+### Round 12: two diagnostics and one fix, recorded before the calls
+
+| check | text | words (split) | sha256 |
+|---|---|---|---|
+| D1 | P6 + P7 alone | 154 | 047512a48dc73d1e29a3e0b012a60d0784686f6e0307a5dcf260e99537a6c39e |
+| D2 | the section without P7 (it ends on P6) | 474 | e8b90fda788f66f7a66a6c4241bb151589f0b23278ae834a3a649f906a9b1f46 |
+| F1 | the whole section, with fix A in P7 | 542 | 8f35af20c612f762ac6aca3fbf592bb42f6737d593f0908614f630e6123fcfeb |
+
+Fix A is one change: "is the only thing you'll manage to borrow, and" becomes "is all you'll manage, and". That takes the thesis restatement out of the last sentence.
+- Preservation: U8's "may be the only job … for now" is kept ("all you'll manage", "Some days"). The word "borrowed" goes. The borrowed manner stays in "like a decent adult", and the section title carries the frame.
+- Nothing is added.
+- Linter on the changed P7: REVIEW, no hard fails. It flags the unchanged opener as a finished principle, which is noted and left alone for now (E60: change the fewest sentences).
+
+How to read the results:
+- If F1 passes, the restated thesis at the close was carrying the flag.
+- If F1 fails, D1 and D2 say whether the pair fails without the rest (content) or only at the end of a long text (position). Then it goes to Joel for a minimal fix rather than another attempt from me.
+
+### Round 12 results
+
+Pangram 4.0, Joel's account, 2026-09-26 about 15:00 UTC, three checks side by side. Each textarea's sha256 matched the recorded one before submitting.
+
+| check | words scanned | result |
+|---|---|---|
+| D1, P6 + P7 alone | 164, short text | **AI Generated, 100% AI** |
+| D2, the section without P7 | 494 | Human Written, 100% Human |
+| F1, the whole section with fix A | 569 | **AI Detected, 16% AI / 84% Human**, "appears at the end" |
+
+What this shows:
+- P6 and P7 each pass alone, but the pair fails outright. It's the pair, not the position: the long section ending on P6 is fully Human.
+- Taking the thesis word out of P7's last line moved the whole section from 24% to 16% AI. It helped, but it isn't enough.
+- A reading, not a finding: P7 only works as a closer when something comes before it, and that's when its callback and wrap-up read as AI. Alone, it's just a scene.
+
+Per the rule recorded above, the pair goes to Joel for a minimal fix rather than another attempt from me.
+
