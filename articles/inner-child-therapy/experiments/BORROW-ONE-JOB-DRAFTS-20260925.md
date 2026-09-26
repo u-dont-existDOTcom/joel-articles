@@ -1,6 +1,6 @@
 # "Borrow One Function at a Time" — Claude drafts — 2026-09-25
 
-Status: **FIVE TESTED ROUNDS, ALL 100% AI / NEXT: WRITE FROM UNDERSTANDING WITH THE SOURCE CLOSED**
+Status: **SIX TESTED ROUNDS, ALL 100% AI; ROUND 7 STOPPED BEFORE PANGRAM / WAITING ON JOEL'S DECISION ABOUT RESTRUCTURING THE SECTION**
 
 ## Trigger
 
@@ -205,3 +205,202 @@ Research: the Ideal Parent Figure pilot can stay, cited as a small uncontrolled 
 The r01 version of the same material is abstract and balanced: "They are not all doing the same thing, and they are not all even the same kind of thing."
 
 For round 6, use these moves only where the thought produces them (section C warning), with the source closed.
+
+## Round 6 (2026-09-26, through `tools/HUMANIZATION-GATE.md`)
+
+Trigger: Joel, 23:31 ("let's try to do this humanization thing without always needing my direct experience") and 00:47 ("continue and be smart not mechanical but not anarchist").
+
+### 0. Activation
+
+Reloaded after the context summary:
+- `tools/HUMANIZATION-GATE.md`;
+- `docs/HUMANIZATION-PRESERVATION-GATE.md` (sections 1–5, 8, 9 and 12);
+- `docs/HUMANIZATION-ARCHITECTURE-GATE.md` (opening and blocking regression);
+- `SKILL.md`, "Post-generation tell ledger and repair" and "Humanization owner-delivery admission";
+- `project-sources/BANNED-PATTERNS.md` (through "Genre-calibrated density guardrails");
+- `project-sources/STRUCTURAL-HUMANITY.md` (sections 1–2, 4–8, 10–14, 19 and 21–22);
+- the self-audit rules;
+- UDA root `AGENTS.md` on live main (e6eb98e, after PR #260).
+
+### 1. Bird's-eye
+
+- Entry: Noticing Counts ends "I was, and baby me was still starving." The live question is who does the feeding.
+- Terms already introduced: the three jobs (Chicken-and-Egg; My Journey's "three adult jobs"), the Protector, and Mr. Rogers (stage 2 of the Chicken-and-Egg list).
+- Overlaps: Chicken-and-Egg's borrowed-adulthood paragraph; Borrow Love's figure list; the research conclusion belongs to `When the Adult Voice Feels Fake`.
+- E43 reread: somatic v4.2, EFT through Brainspotting.
+
+### 2. Preservation freeze (before drafting)
+
+Units:
+- U1: borrow one job at a time from a figure who embodies it, since a complete ideal parent may be impossible to imagine.
+- U2: the figure list (therapist, grandmother, teacher, friend, older sibling, spiritual figure, fictional character, future self).
+- U3: not from anyone whose care requires you to disappear.
+- U4: the Nurturer starts from non-judgement when love feels out of reach (no insults, no rushing, no impossible standards, no demand for gratitude), with the question "How would this person sit beside the child?"
+- U5: Joel's edit. Non-judgement is enough to begin but not necessarily enough to ask for trust, openness or receiving care; next, a nurturer you remember fondly; if none, Mr. Rogers or spiritual love you've felt.
+- U6: the Protector question (a minimally competent adult, the next ten minutes) and its examples: eat, lock the door, stop replying, leave the unsafe room, ask for help, sleep.
+- U7: the Guide questions (what I decided when calm; what the wise person I respect would have me practice today); direction from a plan, value, teacher or tradition until you can hold it yourself.
+- U8: the adult part can borrow too. The little one's sarcasm, distrust or contempt is heard without defending, retaliating, collapsing or leaving, and that may be the only job borrowed for now.
+- U9: you may feel completely like the child while acting; adult identity forms afterward ("I did that for us. That was the Protector.").
+- U10: research. (a) The Ideal Parent Figure pilot; (b) compassion imagery and threat in self-critics; (c) the secure-attachment prime; (d) "this feels fake" means a bridge is needed.
+
+Whitelist:
+- order and architecture are free;
+- heading "Borrow One Job at a Time", using the article's own word ("three adult jobs");
+- cut U2 (Borrow Love carries it; Joel at 23:31 allowed cuts that keep the points);
+- compress example lists;
+- move U10b–d to `When the Adult Voice Feels Fake`, with the corrected wording in the research check above;
+- keep or cut U10a, cited as a small uncontrolled pilot.
+
+### 3. What I want to say (source closed)
+
+1. Nobody got a whole parent from one person, so take each job from whoever did it, and leave out anyone whose care cost you yourself, because that cost comes along.
+2. Protecting and guiding are the easy ones to borrow (practical, and they can live on paper). Nurturing is hard because warmth can't be faked, so it gets a floor (not judging) and a real source (someone warm you remember, Mr. Rogers, spiritual love).
+3. You'll feel like the little one while doing it, and the recognition comes afterward. The little one may push back, and the borrowed adult can hear it without flinching.
+
+### Draft (frozen before Pangram; sha256 71d07c15810a62d99019951fd51f254d244c5f4ba0662bfcb3a0924855da6005)
+
+```markdown
+## Borrow One Job at a Time
+
+Until you can feed the baby yourself, somebody else gets to, and it doesn't even have to be a real somebody. Some people can picture one ideal parent who does everything, and there's a whole method built on that, the Ideal Parent Figure method. In a [small pilot](https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/) with adults traumatized as children it seemed to help (seventeen people and no control group, so it's more of a hint).
+
+Hardly anybody gets all three jobs from one person, though. Most of us got them in pieces, and the person who made sure you ate usually wasn't the one who lit up when you walked in. So borrow them the same way, one at a time, from whoever did each one best. Anybody whose care needed you to disappear stays out of it, since that part comes along with whatever you borrow.
+
+Protecting is the easiest one to borrow, because it's so unglamorous. What would a minimally competent adult do in the next ten minutes? Something like eating, putting the phone down or going to bed. If it's actually unsafe, it's leaving, or locking the door and calling for help. Guiding can live on paper, which makes it almost as easy. Whatever you decided on a calmer day, or whatever the wise person you respect (or a tradition you trust) would want you practicing today, can sit there until you can hold it yourself.
+
+You'll probably feel about six while you're doing any of this. Six-year-olds don't feel brave in the dentist's chair either. Somebody tells them afterward, often with a sticker. This time you're the one with the stickers: "I did that for us. That was the Protector."
+
+Nurturing is the hard one, because warmth is almost impossible to fake and little ones notice. Not judging them doesn't take any, though: no insults, no hurrying them along, and no waiting around for a thank-you for finally showing up. That's enough to start being the adult in the room. It might not be enough for your little one to trust you, open up or let you take care of them. That takes some real warmth from a person who had it, so think of someone you remember fondly and how they'd sit next to your little one. If there wasn't anybody like that, Mr. Rogers is still on video and doesn't seem like he'd mind being borrowed, or there's spiritual love, if you've felt it.
+
+And your little one might not make any of this easy. You finally show up and get "Oh, so now you care?", which is kind of fair. The adult worth borrowing right then is the one who can hear that without arguing about how hard they're trying, snapping back, falling apart or walking out. On a bad day that might be the only job you borrow at all.
+```
+
+### 4. Preservation trace
+
+Forward:
+
+| unit | where | disposition |
+|---|---|---|
+| U1 | P1–P2 | kept: P1 names the imagined-parent route, P2 the pieces |
+| U2 | — | CUT (whitelist; Borrow Love) |
+| U3 | P2 | kept, with its reason |
+| U4 | P5 | kept; "impossible standards" compressed out; the sit-beside question kept ("how they'd sit next to your little one") |
+| U5 | P5 | kept, including trust, open up, take care of them |
+| U6 | P3 | kept; examples compressed, the unsafe-situation ones kept |
+| U7 | P3 | kept; "value" compressed out |
+| U8 | P6 | kept |
+| U9 | P4 | kept, with the quote |
+| U10a | P1 | kept, cited as a small uncontrolled pilot |
+| U10b–d | — | MOVE to `When the Adult Voice Feels Fake` (pending; wording in the research check above) |
+
+Reverse (things in the draft that aren't in the source's words):
+
+| draft element | maps to |
+|---|---|
+| "Until you can feed the baby yourself, somebody else gets to" | the h1 and Chicken-and-Egg's borrowed adulthood; callback to Noticing Counts' last line |
+| "it doesn't even have to be a real somebody" | U1/U2 (fictional characters, future selves) and the imagined figures of the IPF method |
+| "Hardly anybody gets all three jobs from one person" and the ate/lit-up example | U1 (why a complete ideal parent is hard to imagine; "a figure who embodies it") |
+| "since that part comes along with whatever you borrow" | U3, reason made explicit |
+| protecting easiest, guiding almost as easy, nurturing hardest | **supported inference, not in the source.** Follows from Joel's edit (not judging is enough to start, not for trust; warmth has to come from a remembered nurturer). Flagged to Joel. |
+| the dentist chair and the sticker | illustration of U9 |
+| Mr. Rogers "still on video" | U5; checked against the PBS KIDS video page (https://pbskids.org/videos/mister-rogers-neighborhood) |
+| "which is kind of fair" | U8, supported inference (a decent adult doesn't defend their goodness partly because the complaint has something to it). Flagged to Joel. |
+
+Unexplained deltas: none. Two interpretive additions are flagged for Joel.
+
+### 5. Linter
+
+REVIEW, no hard fails. Coach 0.63 per 100 words; second person 5.1 per 100; landings 1/6; no instruction paragraphs; source-order agreement 0.47, so not the marching order.
+
+### 6. Tell ledger
+
+Linter REVIEW items:
+
+| flag | sentence | disposition |
+|---|---|---|
+| B1 | "Most of us got them in pieces..." | KEEP: evidence for the paragraph's claim, not a moral |
+| B3, B7 | "That was the Protector." | KEEP: the source's quote, and the only paragraph that ends on a short line |
+| B4/E15 | "Not judging them doesn't take any, though: no insults..." | KEEP: the list is the content, and it's lumpy (the last item is long and funny) |
+| E41 | "Until you can feed the baby yourself..." | KEEP: "you can" is capacity, not coaching |
+| E41 | "...until you can hold it yourself." | KEEP: the source's phrase |
+| E41 | "You'll probably feel about six..." | KEEP: it anticipates a feeling, but what follows is an argument (the dentist chair), not reassurance |
+
+Catalog (BANNED-PATTERNS, STRUCTURAL-HUMANITY, SKILL.md, self-audit rules):
+- Canonical bans and Joel's tics: none.
+- Self-answered question: removed an earlier "So who feeds the baby? At first, maybe somebody else."
+- Colon reveal: the one colon list is a real list; the P4 colon introduces a quotation.
+- Repetition within three paragraphs: fixed "usually" (three times) and "unglamorous"/"unheroic". "Borrow" (six times) is the section's word; "little one" three times.
+- Fake personal stake (SKILL.md): removed "I'd borrow the same way".
+- A premise-and-flip ("People tend to wait until they feel grown-up ... it works better the other way around") replaced by the dentist chair.
+- Interpretive aftercare: none after the sticker or Mr. Rogers.
+- Paragraph-level function topology: the jobs are ranked and merged (protect and guide share a paragraph), not one per paragraph in the source's order.
+- Framework permeability (SH 6): the pushback paragraph borrows an adult stance that isn't one of the three jobs.
+- Closure (SH 13): ends on a plain practical stop.
+- First-person provenance (SH 22): no first-person claims.
+- A1 meaning and safety: the unsafe-situation actions (leave, lock the door, call for help) and the safety qualifier are kept.
+- A12 referents: "the baby" (Noticing Counts' "baby me"), "that part" (the disappearing), "any" (warmth).
+- D2: a plain AI answer lists the three jobs as parallel bullets with a question each, then "it's okay to still feel like a child", then the research. The draft ranks the jobs by difficulty with reasons, argues from how people actually got cared for, gives the recognition after the act an analogy, and concedes the little one's point.
+- E1: no "the kid". E8/E33: every term introduced earlier. E29: no owner practice. E36: no reader-fitting scenery.
+
+### 7. Architecture
+
+- Heading promise met.
+- Entry from "baby me was still starving"; exit into Borrow Love.
+- Paragraph jobs: P1 somebody else first (imagined parents); P2 in pieces, plus the exclusion; P3 the easy jobs; P4 feeling six, recognition afterward; P5 the hard job, its floor and its source; P6 the pushback.
+- Read top to bottom after Noticing Counts: no dangling transitions or broken referents found.
+
+### 8. Pangram plan (at most two checks this turn)
+
+1. The section alone (heading and six paragraphs). There are no owner lines to strip: Joel's edit is paraphrased, not quoted.
+2. Only if the first is Human: Noticing Counts and this section together, to test the join (E14).
+
+### 9. Pangram result
+
+Pangram 4.0, Joel's account, 2026-09-26 about 01:05 UTC: **AI Generated, 100% AI**, 502 words scanned. No "paraphrased or rewritten" flag this time. Per the plan, no second check.
+
+The linter had called this draft REVIEW with no hard fails, so it is the linter's first miss. The draft is added to the calibration set as `tools/calibration/FAIL_borrow_r6.txt`.
+
+### 10. Fresh-context tell sweep (after the result, score-blind)
+
+- Route: a fresh subagent with no access to this conversation, given the lab's 12-tell inventory prompt (`pangram-humanization-lab/state/generation/global-tell-model-comparison-20260923/global-tell-prompt.txt`), Noticing Counts as the previous context, and the literal draft.
+- It was not told the Pangram result or my reasons.
+- The effort level on this route isn't calibrated.
+
+| tell | status | the reviewer's evidence, briefly |
+|---|---|---|
+| T01 fake personal stake | ABSENT | no author first person |
+| T02 instruction-manual cadence | **PRESENT** | P3 and P5: verdict with reason, question, examples, condition, next verdict, instruction; each sentence does one teaching job and hands off |
+| T03 abrupt complication | ABSENT | each complication grows out of the sentence before |
+| T04 scene-skinned staircase | ABSENT | no extended scene |
+| T05 didactic props | UNCERTAIN | the six / dentist chair / sticker chain looks picked to carry the next teaching step |
+| T06 therapeutic abstraction | ABSENT | — |
+| T07 simulated spontaneity | ABSENT | "kind of fair" is a real concession |
+| T08 aftercare | ABSENT | — |
+| T09 equalized efficiency | **PRESENT** | each paragraph handles one function at about the same length; the lively moments are single clauses that go straight back to the task |
+| T10 permission syntax | UNCERTAIN | the opening sentence is shaped like a permission ("Until you can X yourself, somebody else gets to") |
+| T11 generic bridge | ABSENT | — |
+| T12 tidy taxonomy | **PRESENT** | the three jobs on a graded scale ("easiest", "almost as easy", "the hard one"), and fallbacks that make sure every reader has an option |
+
+My own tell ledger (step 6) kept every flagged sentence and missed all three PRESENT tells. The fresh reviewer and Pangram agreed.
+
+### Round 7 (not submitted)
+
+- Aim: dwell on the one interesting thing (the warmest person may be the one whose care needed you to disappear, which makes the Mr. Rogers and spiritual-love fallback earned), drop the graded scale and the pilot, and keep the practical jobs short.
+- First version: linter FAIL (landings 3/6, "announcing" openers, second person 7.0 per 100).
+- Fixing that produced six packed sentences (E15), so the fix moved the tell instead of removing it.
+- I stopped there instead of grinding. No fresh sweep and no Pangram were spent on it. Text: sha256 9b03601f4a77e78152e348a9cf09fde1b4887ef8cb73a04115d38a450dcf03db, kept in the session scratchpad and not installed.
+
+### Diagnosis after seven rounds
+
+- The section's content is itself a three-item how-to: three jobs, a question for each, caveats and fallbacks.
+- Every faithful realization so far carries that taxonomy (T12) and the teaching cadence (T02). The article already introduced the three jobs in Chicken-and-Egg.
+- Changing the order (round 6) removed the marching order and the paraphrase flag, but not these two.
+
+### Proposal to Joel (a structural change, so it's his call)
+
+Make the section about the one thing in it that's actually interesting, and move the rest where it works as an example rather than a list item. Every point stays in the article.
+
+- **This section:** borrowing warmth. The catch is that the warmest person may be the one whose care needed you to disappear. The way through is his own edit: not judging as the floor, then someone remembered fondly, or Mr. Rogers, or spiritual love. The little one's "Oh, so now you care?" stays here.
+- **The Protector question** (a minimally competent adult, the next ten minutes) and **the Guide questions** (a calmer day's decision, a trusted teacher's practice): into the Chicken-and-Egg stage list, at stages 2 and 3 ("Begin to borrow adulthood", "Practice adulting"), as the concrete first borrowings.
+- **"I did that for us. That was the Protector."**: with stage 3, where acting before feeling like the adult is the point.
+- **The research:** the pilot is cut here, and the other two studies go to `When the Adult Voice Feels Fake` as planned.

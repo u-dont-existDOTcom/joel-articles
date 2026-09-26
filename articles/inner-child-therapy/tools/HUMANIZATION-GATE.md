@@ -2,7 +2,7 @@
 
 Added 2026-09-25, revised 2026-09-26. Joel: "how is it possible you're still not following the basic instructions to check the list of tells? can we fix that or is it hopeless?" and "you should fix UDA since the inherited UDA rules must have allowed you to avoid doing the actual rule gates that were obviously required. i shouldn't have had to tell you to do that."
 
-**Why the checks got skipped.** From the 2026-09-24 handoff on, no record in this lane shows the repository's own blocking gates being run: the preservation proof, the architecture gate, the post-generation tell ledger and the owner-delivery admission in `SKILL.md`. Joel's corrections were collected in a separate rules file that I read at the start of a section and then drafted from memory. After each context compaction the summary I worked from named some of those rules but carried no obligation to run them, and I didn't re-read the universal bootstrap either. Nothing enforced a gate at the moment a draft went to Pangram. Some universal (UDA) defaults also read as permission to skip a declared gate when they're loaded. The fix for those is UDA pull request #260 ("Declared gates and owner-stated checks can't be waived by universal defaults"), open with its checks passing and waiting for Joel to merge it (2026-09-26).
+**Why the checks got skipped.** From the 2026-09-24 handoff on, no record in this lane shows the repository's own blocking gates being run: the preservation proof, the architecture gate, the post-generation tell ledger and the owner-delivery admission in `SKILL.md`. Joel's corrections were collected in a separate rules file that I read at the start of a section and then drafted from memory. After each context compaction the summary I worked from named some of those rules but carried no obligation to run them, and I didn't re-read the universal bootstrap either. Nothing enforced a gate at the moment a draft went to Pangram. Some universal (UDA) defaults also read as permission to skip a declared gate when they're loaded. The fix for those is UDA pull request #260 ("Declared gates and owner-stated checks can't be waived by universal defaults"), merged 2026-09-26 at Joel's direction (e6eb98e). It also says that an inherited rule that looks unhelpful gets flagged to Joel with a suggested change, and followed until he decides.
 
 **The fix.** This file is the lane's checkpoint of what has to run. Part of it is mechanical and has to happen in the open. No Pangram check without a linter report and a written ledger in the drafts file, and no prose goes to Joel until every gate below has passed.
 
@@ -42,6 +42,8 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - Every REVIEW item from the linter, with a disposition (KEEP, DELETE, REWRITE, MERGE, SUBORDINATE or MOVE) and why.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
    - Execute the repairs, then rerun steps 4–6 on the changed text.
+   - **Fresh-context sweep before Pangram.** Required for any section my sentences carry without owner lines (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Send a fresh subagent, or another fresh route, the lab's 12-tell prompt (`pangram-humanization-lab/state/generation/global-tell-model-comparison-20260923/global-tell-prompt.txt`) with the previous accepted section as context and the literal draft. Withhold the Pangram history and my reasons. Any PRESENT blocks Pangram until it's repaired or rejected with an exact editorial reason. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
+   - **Stop rule.** If fixing one tell produces another (round 7: removing landings created six packed sentences), stop polishing. Diagnose at the level of structure, and take any change that moves or cuts preservation units to Joel.
 7. **Architecture.** Heading promise, entry and exit state, each paragraph's job, then one literal top-to-bottom read of the section in place.
 8. **Pangram (E27, E37).**
    - At most about three checks per turn.
@@ -86,6 +88,7 @@ Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration
 | Borrow One Function r3 | 100% AI | FAIL | coach 2.8/100; AI marching order |
 | Borrow One Function r4 | 100% AI | FAIL | AI marching order (order 0.87) |
 | Borrow One Function r5 | 100% AI, "paraphrased" | FAIL | landings 3/6; AI marching order |
+| Borrow One Job r6 (full gate) | 100% AI | REVIEW (miss) | none; the fresh sweep found T02, T09, T12 |
 | Music r2, my lines only | 100% AI | FAIL | second person 9.9/100 |
 | Dangerous-adult H2 | 100% Human | REVIEW | — |
 | Music r4 (installed) | 100% Human | CLEAR | — |
@@ -93,6 +96,6 @@ Eleven texts with known Pangram 4.0 results. The files are in `tools/calibration
 | Noticing Counts | 100% Human | REVIEW | — |
 | Your Body Might Need Some Love First | 100% Human | REVIEW | — |
 
-On these eleven, every AI text fails and every Human text clears or goes to review.
+On the first eleven, every AI text fails and every Human text clears or goes to review. Round 6 is the first miss: an AI text that only reached REVIEW. The tells that sank it (teaching cadence, equalized efficiency, a tidy taxonomy) aren't mechanical, which is why the fresh sweep is now a required step.
 
 That's a small set, and the thresholds were set on it, so expect misses. A CLEAR or REVIEW only means the mechanical tells weren't found; it doesn't mean the draft reads human. Add every new Pangram result to the calibration set and retune the thresholds if they start letting AI through.
