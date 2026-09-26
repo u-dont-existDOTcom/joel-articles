@@ -2,7 +2,7 @@
 
 ## Current truth
 
-`articles/INDEX.json` is active and currently registers Romance, Somatic Therapies, and Inner Child Therapy as working article families with exact hash-bound authority. Registration establishes current working authority; it does not by itself make an article owner-final, citation-complete, detector-certified, or published. For an unregistered article, scaffolding, chat, detached files, review assemblies, and external packets remain non-authoritative until the complete family is imported and registered.
+`articles/INDEX.json` is active and currently registers Romance, Somatic Therapies, Inner Child Therapy, and Inner Signal as working article families with exact hash-bound authority. Registration establishes current working authority; it does not by itself make an article owner-final, citation-complete, detector-certified, or published. For an unregistered article, scaffolding, chat, detached files, review assemblies, and external packets remain non-authoritative until the complete family is imported and registered.
 
 ## Authority order
 

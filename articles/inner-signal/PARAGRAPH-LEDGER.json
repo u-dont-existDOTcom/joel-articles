@@ -1,0 +1,224 @@
+{
+  "format": "source-sync-function-ledger-v1",
+  "revision": "r03-candidate",
+  "source": "75492a8ac9b1cfb9adc34a6e5e29d04af5efacdb245eaf52dd2a1b409d714373",
+  "candidate": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+  "h1_sections": [
+    {
+      "heading": "How to use this very large guide",
+      "disposition": "localized sync",
+      "patches": [
+        "R03-01"
+      ]
+    },
+    {
+      "heading": "The table of contents is hiding on the left",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Introduction",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Quick start: do this first",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "What I mean by hypnosis",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Protecting Yourself from Hypnotists",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "The Most Extreme Example",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Affirmations Done Right",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Reversing Accidental Affirmations",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Hypnosis Evidence",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Forget the left-brain/right-brain cartoon",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Why doing it myself worked better for me",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "A useful map of the mind",
+      "disposition": "localized sync",
+      "patches": []
+    },
+    {
+      "heading": "The inner child, the guards, and the three inner adults",
+      "disposition": "localized sync",
+      "patches": [
+        "R03-03",
+        "R03-06"
+      ]
+    },
+    {
+      "heading": "When “your voice” is everybody else’s voice",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "De-hypnosis: wake up inside the influence",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Induction: gathering attention without disappearing",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Come all the way back",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "The actual inner meeting",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Let the next response guide you",
+      "disposition": "localized sync",
+      "patches": [
+        "R03-12"
+      ]
+    },
+    {
+      "heading": "The 15-minute daily practice",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "The weekly deeper practice",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Capacity before content",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Troubleshooting",
+      "disposition": "localized sync",
+      "patches": []
+    },
+    {
+      "heading": "What not to do",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "When this needs more support than a guide can provide",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Closing",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Try it in the Inner Signal app",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendices",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendix A: How to ask the subconscious a useful question",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendix B: NLP without turning yourself into a sales seminar",
+      "disposition": "localized sync",
+      "patches": [
+        "R03-19"
+      ]
+    },
+    {
+      "heading": "Appendix C: The extended de-hypnosis checklist",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendix D: Anxiety — body first",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendix E: Is the daydream helping or replacing your life?",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+      "disposition": "localized sync",
+      "patches": [
+        "R03-18"
+      ]
+    },
+    {
+      "heading": "Appendix G: Altered states",
+      "disposition": "localized sync",
+      "patches": [
+        "R03-23"
+      ]
+    },
+    {
+      "heading": "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendix I: Sleep hypnosis",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendix J: A practical induction library",
+      "disposition": "preserved",
+      "patches": []
+    },
+    {
+      "heading": "Appendix K: Sources and further reading",
+      "disposition": "localized sync",
+      "patches": [
+        "R03-24"
+      ]
+    }
+  ],
+  "detail": "sync-r03/PATCHES-R03.json contains subheading anchors and complete exact operations."
+}

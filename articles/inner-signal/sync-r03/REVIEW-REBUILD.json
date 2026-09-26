@@ -1,0 +1,93 @@
+{
+  "format": "canonical-review-rebuild-v1",
+  "reviews": {
+    "FULL-GUIDE-REVIEW.html": {
+      "metadata": {
+        "interface_format": "joel-commentable-diff-review-v4",
+        "generator_version": "4.2",
+        "title": "Inner Signal r03 — full guide review",
+        "artifact_id": "inner-signal-r03-full-guide-review",
+        "baseline_type": "full-draft-commentable",
+        "row_scope": "full-draft",
+        "view_mode": "full-draft",
+        "source_label": "Draft · r03-candidate",
+        "new_label": "Draft · r03-candidate",
+        "source_filename": "master.html",
+        "revised_filename": "master.html",
+        "source_version": "r03-candidate",
+        "new_version": "r03-candidate",
+        "source_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+        "revised_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+        "generated_utc": "2026-09-11T17:05:30.986698+00:00",
+        "export_basename": "inner-signal-r03-full-guide-review-review",
+        "required_features": [
+          "exact selected-text comments",
+          "whole-cell comments",
+          "Keep",
+          "Remove",
+          "Brainstorm",
+          "reasoning",
+          "Humor",
+          "Technical detail",
+          "Length",
+          "Bluntness",
+          "Copy JSON",
+          "Copy Markdown",
+          "Export JSON",
+          "Export Markdown",
+          "local persistence",
+          "search",
+          "changed-only filtering",
+          "full-draft commentable mode"
+        ],
+        "audience_contract": {},
+        "static_slider_behavior": "Humor, technical detail, length, and bluntness settings record passage-level revision instructions; they do not rewrite text inside this static file or authorize changes to claims, evidence, certainty, recommendations, attribution, causal meaning, links, or native-object placement."
+      },
+      "sha256": "267ab8ae032b696604ebd3cc9459e5958243b1cd3a3e9f1bd9224229af4fd5ea"
+    },
+    "CHANGES-REVIEW.html": {
+      "metadata": {
+        "interface_format": "joel-commentable-diff-review-v4",
+        "generator_version": "4.2",
+        "title": "Inner Signal r03 — current owner source versus synchronized guide",
+        "artifact_id": "inner-signal-r03-current-owner-source-versus-synchronized-guide",
+        "baseline_type": "previous-delivery-vs-corrected",
+        "row_scope": "changed-passages-only",
+        "view_mode": "comparison",
+        "source_label": "Original · owner-editor-20260911",
+        "new_label": "Revised · r03-candidate",
+        "source_filename": "owner-editor-20260911.html",
+        "revised_filename": "master.html",
+        "source_version": "owner-editor-20260911",
+        "new_version": "r03-candidate",
+        "source_sha256": "75492a8ac9b1cfb9adc34a6e5e29d04af5efacdb245eaf52dd2a1b409d714373",
+        "revised_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+        "generated_utc": "2026-09-11T17:05:30.129653+00:00",
+        "export_basename": "inner-signal-r03-current-owner-source-versus-synchronized-guide-review",
+        "required_features": [
+          "exact selected-text comments",
+          "whole-cell comments",
+          "Keep",
+          "Remove",
+          "Brainstorm",
+          "reasoning",
+          "Humor",
+          "Technical detail",
+          "Length",
+          "Bluntness",
+          "Copy JSON",
+          "Copy Markdown",
+          "Export JSON",
+          "Export Markdown",
+          "local persistence",
+          "search",
+          "changed-only filtering",
+          "full-draft commentable mode"
+        ],
+        "audience_contract": {},
+        "static_slider_behavior": "Humor, technical detail, length, and bluntness settings record passage-level revision instructions; they do not rewrite text inside this static file or authorize changes to claims, evidence, certainty, recommendations, attribution, causal meaning, links, or native-object placement."
+      },
+      "sha256": "f16da31d028a2276b3572816019db38f8094195ee740dc9badcd1437acb95e28"
+    }
+  }
+}
