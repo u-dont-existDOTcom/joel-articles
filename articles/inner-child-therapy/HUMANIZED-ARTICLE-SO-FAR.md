@@ -180,3 +180,36 @@ For protecting, ask what a minimally competent adult would do here. Maybe someth
 The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. Think back to what (and how) you decided about something like this the last time you were calm. Or ask what the wise person you respect would have you practice today. A wise tradition (like "What would Jesus do?" or "What would Buddha do?") can give some direction, too, until you develop your own internal compass.
 
 The thank-you you weren't waiting for might not come anyway. 😜 More like "Oh, so NOW you care?" Which, fair enough, you did take a while. Your first instinct might be "But I'm trying!", and then it's just two six-year-olds arguing. Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you. 🙄
+
+<!-- CANDIDATE: Waiting for your OK, not accepted yet. The whole Borrow Love section below tested 100% Human on Pangram 4.0 (710 words). -->
+
+<!-- Borrow Love candidate (2026-09-26), from writer branch `handoff/claude-dangerous-adult-20260924-1631`. Owner text: P4 (Joel 19:23 UTC), P6 (Joel 20:44), the Goodwill h3 (Joel 23:15, his check Human/medium) and the first spiritual-hurt paragraph (Joel 23:15, his check Human). The rest is Claude's, each paragraph checked alone first; the Serenity Prayer paragraph is owner-accepted (Joel 23:15). Whole section, plain text as tested: sha256 a50ae9b14e802d55db6ae152cf98006b6f9cac2cd0bbb60b59e9ef40dc340f9c. Record: `experiments/BORROW-LOVE-DRAFTS-20260926.md`. -->
+
+## Borrow Love—or Borrow the Perspective of Care
+
+Sometimes love isn't the missing part. Your dog can chew up your good shoes and be forgiven before you've found the other one. Try giving yourself a fraction of that and it goes flat, or starts to feel weirdly unsafe. So let the dog go first. Or your kid, or whoever you love without trying; they don't have to be in the room. Just feel that for a minute, in your body, before you try to turn it into self-love. Then see if some of it can go to your little one, who hasn't even chewed anything.
+
+Watch how it lands, though. "I care about you" can be patient, or it can be "I care about you, now hurry up and feel better." Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. And if nothing moves at all, don't push it. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do.
+
+Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them. It's a [cheap trick for becoming the outsider to your own mess](https://pubmed.ncbi.nlm.nih.gov/21728454/). The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move. And this trick even has a name, [Solomon's paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the king everybody brought their disputes to, who then wrecked his own life.
+
+Then take a small piece of whatever you'd tell them and hand it to yourself. If the advice was "get more sleep," then for now just try brushing your teeth before midnight instead of at two. That's how you learn as a kid, and it works now, too. The technical term for this is "[scaffolding](https://en.wikipedia.org/wiki/Instructional_scaffolding)."
+
+### A Smaller Doorway: Goodwill
+
+Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly. Even the usual whittled-down loving-kindness prayer, "May you be happy," can feel like rewarding them. That's why I go with Buddha's overall wish (paraphrasing): **"May you be loving, peaceful, and free,"** since if they were all of those, they wouldn't have done what they did, and then they actually would be lovable.
+
+This goodwill isn't just for the target of it, though. You may find it bounces back and opens up a little warmth in your heart. And if "I love you" goes flat when you aim it at yourself or your little one, the same wish works there, too.
+
+### Ask God for a Loan
+
+The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.
+
+Get as close to it as you really can right now, and bring your little one in with you. They might go numb, or just say "Bullshit." That becomes the conversation, and it's worth listening to. If you pour more spirituality on top instead, it's the food bank all over again, and none of it is getting to them.
+
+### When the Spiritual Relationship Hurts
+
+If a spiritual teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now. Kids quit piano over one bad teacher, and this is way worse. But if you let an abuser control your appreciation of life, then you've given them an unearned win.
+
+And being the grown-up doesn't mean controlling everything. That's pretty much the Serenity Prayer: change what's yours to change, and accept what isn't, which is where other people's choices go.
+

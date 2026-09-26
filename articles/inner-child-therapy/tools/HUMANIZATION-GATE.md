@@ -18,6 +18,14 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
 - **Architecture:** `docs/HUMANIZATION-ARCHITECTURE-GATE.md`. Heading promise, entry and exit state, one job per paragraph, and a literal top-to-bottom proofread. Before the first Pangram call and after every detector-driven edit.
 - **Post-generation tell ledger:** `SKILL.md`, "Post-generation tell ledger and repair". Every applicable tell gets a disposition on the literal candidate, covering both local wording and paragraph-level function topology (a scene that just skins the source's order still fails). The catalog is `project-sources/BANNED-PATTERNS.md`, `project-sources/STRUCTURAL-HUMANITY.md`, the `SKILL.md` sections, and Joel's corrections in `experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`.
 - **Owner-delivery admission:** `SKILL.md`, "Humanization owner-delivery admission". Joel isn't an intermediate QA surface. Failed candidate prose stays internal unless he asks to see it, and AI-shaped wording is never a reason to ask him for his own experience.
+- **Owner-facing turn contract:** `OWNER-FACING-TURN-CONTRACT.md` at the repo root, active since 2026-09-17. It covers:
+  - the full article so far at the end of every turn;
+  - how to present owner decisions;
+  - audit meaning output plus method;
+  - no listicles and no repeats;
+  - the prediction format.
+  
+  It wasn't on this list until 2026-09-26, so I didn't load it or follow it (E73).
 - **Fresh-context review:** `docs/HUMANIZATION-FRESH-CRITIC-GATE.md`, whenever fresh-model evidence is used before Pangram. It never replaces the full tell ledger.
 
 ## Steps
@@ -79,6 +87,9 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - No limit on checks per turn (Joel, 2026-09-26 16:57: "you don't need a 3 check rule per turn, but just don't use your checks blindly wasting time and tokens. i have plenty of credit on pangram that's not the problem"). Every check tests a recorded draft with a reason behind it. Never send rewordings to see what sticks, and never recheck unchanged text.
    - Read results from the page text.
 9. **Record and deliver.** Put the preservation ledger, the linter report, the tell ledger and the Pangram results in the drafts file. Show Joel the prose only if every gate passed; otherwise report gate status and keep working.
+   - **End of every owner-facing turn: the whole article (OWNER-FACING-TURN-CONTRACT; Joel, 2026-09-26 23:38: "always give me the full humanized article up til what we had, at the end of every turn").**
+     - Update `HUMANIZED-ARTICLE-SO-FAR.md` with the accepted prose and the current owner-review candidate in place. The candidate goes under a `<!-- CANDIDATE: … -->` note, so it's never shown as accepted.
+     - Run `tools/render_article_so_far.py`, and send the HTML file with the reply.
    - **Clock (Joel, 2026-09-26: "a quick check at beginning and then at the end so i know how long it took… nothing in the middle").** Read the clock once when a turn starts and once at the end, and report both. Date each Pangram record and name its turn; don't read the clock mid-turn to time it. Never write a minute that wasn't read.
 
 **Repairing a failed draft (B10, Joel 2026-09-26).** Don't fix it by swapping its phrases for less likely ones. Rewording while the structure and the other tells stay is what humanizer bots do, and it's what Pangram's "paraphrased or rewritten" flag describes. A phrase from a failed draft is judged like any other phrase, on whether it looks AI. The repair has to change what the draft says and how it's built.

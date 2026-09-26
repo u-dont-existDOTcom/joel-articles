@@ -1538,3 +1538,19 @@ Later, from the bird's-eye:
 - `When Love Still Feels Missing` repeats this section's moves (it even says "The exercise is a scaffold"), so it gets consolidated when we reach it.
 - The later "Big whoop" callbacks re-anchor to "Oh, so NOW you care?" (`Love Doesn't Have to Wait for Trust` has "Big fuckity whoopty doo").
 - The pilot and the two studies move to `When the Adult Voice Feels Fake`.
+
+## Joel, 23:38
+
+> "you didn't read the metta sutta well. it says not only at ease (at peace) but also: Let none through anger or ill-will Wish harm upon another. so this is pointing at may they be loving, especially the next part saying one should cherish all living beings, So he's wishing that all beings be free of deception, ill will, hardships. It's basically as i said, and i said i paraphrased. But my version is a lot closer than a simple "may they be happy" which isn't what he said."
+
+**The fact check above is withdrawn. Joel's paraphrase stands.** Re-read in full (https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.08.amar.html), the sutta has:
+- "Let none deceive another, / Or despise any being in any state. / Let none through anger or ill-will / Wish harm upon another";
+- "So with a boundless heart / Should one cherish all living beings";
+- "Radiating kindness over the entire world… Freed from hatred and ill-will".
+
+Loving, peaceful and free is a fair paraphrase of that, and closer than "May you be happy". My fetch had asked only for "the wish lines". E73.
+
+His other two points:
+- He asked for the full humanized article at the end of every turn. That's `OWNER-FACING-TURN-CONTRACT.md`, which I hadn't loaded. It's reinstated: the candidate is now in `HUMANIZED-ARTICLE-SO-FAR.md` under a visible "waiting for your OK" note, and `tools/render_article_so_far.py` makes the HTML.
+- On the repeats: they aren't close enough to look weird. He's right, and I agree on reading them again. They stay.
+
