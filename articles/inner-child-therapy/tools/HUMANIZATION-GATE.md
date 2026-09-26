@@ -64,6 +64,7 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
      - a summary or synthesis stage;
      - stakes escalated;
      - the editorial-explainer voice.
+   - Sonnet's 15 rounds of the paper's game add the figures and a few shared AI micro-patterns (question runs, triads, "isn't X, it's Y"): `experiments/SLOPSHAPE-GAME-FINDINGS-20260926.md`.
    - Ask these of each section and of the article, where the paragraph checks can't see. They're review questions, not a gate. The paper tested 600–2,500-word commercial posts and single-pass AI text, not Pangram or edited text like ours.
    - On Borrow round 11 every paragraph passed alone, yet the section was flagged "at the close". Its last paragraph was tying things up: a callback to an earlier line, and the section's thesis word restated in the last sentence.
 8. **Pangram (E27, E37; SKILL.md owner-delivery admission).**
