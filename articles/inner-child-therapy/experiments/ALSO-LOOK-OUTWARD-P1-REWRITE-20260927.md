@@ -104,3 +104,15 @@ That's new wording on the same skeleton (T15 at the level of structure; E58: sur
 **Next.** The two-failure rule: Joel gives a minimal fix, on the installed P1 or on r1, whichever he prefers. The spots most likely to be the problem, by E60 (clever lines a person wouldn't really think; formula sentences):
 - in the installed P1, "What matters more is when the subject changes but somehow you keep ending up in the same role: taking care of their reaction while your own experience disappears." (a colon reveal);
 - and the Gibson sentence, which only says she writes about it.
+
+## Correction, 2026-09-27 21:48 (Joel, 21:46: "look at it, it looks like this same paragraph that i told you before made no sense, do you recall that feedback?")
+
+The "likeliest problems" I named above were already tested. r1 changed the "Have you ever…?" opener, the "What matters more…:" line and the citation sentence, and it still failed at 100%. So that diagnosis is ruled out, not pending.
+
+What neither version fixed is Joel's 04:19 note, which covers the whole chain after "Irritating." ("and next and next"). I fixed only the first sentence. Read cold:
+- "Irritating." Irritating why? That they're normal? The joke (your verdict got spoiled) is left for the reader to supply.
+- "their boundaries" (installed) or "a 'no' from them" (r1): whose, from where? The first sentence is about a fight. Catch the Hook's boundary was one they crossed of yours.
+- "What matters more is when the subject changes…": more than what? Which subject?
+- The order is turned around. The heading promises looking at what the other person actually does, and so does Joel's source: can they tolerate disagreement, reflect, take responsibility, make room for your experience, "or does the interaction repeatedly end with you carrying their feelings and abandoning your own position?" The qualifier comes after that in his source ("Someone disagreeing with you, needing time, or setting their own boundary does not make them emotionally immature"). The installed P1 opens with the qualifier ("you might be wrong about them"), and r1 kept that order.
+
+**Hypothesis for a third try, if Joel OKs one:** it fails because it's points without the thought that connects them, in an order that contradicts the heading. A rebuild in the source's order (what they do, then the qualifier, then Gibson), with each sentence following from the one before, tests that. It doesn't reword.

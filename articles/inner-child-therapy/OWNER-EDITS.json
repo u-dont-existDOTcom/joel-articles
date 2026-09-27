@@ -96,12 +96,10 @@
   },
   {
    "id": "outward-p1-sense",
-   "status": "applied",
-   "what": "Also Look Outward P1 makes sense (Joel's flag; Claude's fix).",
-   "joel": "04:19: \"the first paragraph in Also Look Outward makes no sense…\"",
-   "must_contain": [
-    "Irritating. People disagree, and sometimes their boundaries make us mad, and none of that shows who somebody really is."
-   ]
+   "status": "pending",
+   "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48.",
+   "joel": "04:19: \"the first paragraph in Also Look Outward makes no sense. after 'irritating.' the next sentence is referring to what? and next and next... ?\"; 21:46: \"it looks like this same paragraph that i told you before made no sense, do you recall that feedback?\"",
+   "waits_for": "a rebuild of the whole paragraph, read cold sentence by sentence"
   },
   {
    "id": "tyler-story",

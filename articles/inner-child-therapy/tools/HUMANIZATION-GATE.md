@@ -75,6 +75,9 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
      - it reported 7 on the known-AI Borrow round 6;
      - T02 and T09 fired on both.
      So its rows are leads for my editorial read, not blockers. The blocking check is my own disposition of each flagged span: repair the real ones (a referent slip, a packed sentence I agree with), and record the reason for the rest. Rerun the controls whenever the prompt, the model or the route changes, and let the sweep gate again only for axes that separate them.
+   - **UNCERTAIN isn't a pass (E86, provisional).** More than three UNCERTAIN rows means rebuild before any Pangram call. Don't keep them with reasons.
+   - **Prediction (E86).** Before each call, write Human or AI and why. Score it against the result.
+   - **Retries (E86).** Each retry names its hypothesis. One that keeps the failed paragraph's skeleton, with the same order and the same moves, isn't a test.
    - **Stop rule.** If fixing one tell produces another (round 7: removing landings created six packed sentences), stop polishing. Diagnose at the level of structure, and take any change that moves or cuts preservation units to Joel.
 7. **Architecture.** Heading promise, entry and exit state, each paragraph's job, then one literal top-to-bottom read of the section in place.
    - **Shape questions, advisory (2026-09-26).** These come from SlopShape (Madler, [arXiv:2609.15369v2](https://arxiv.org/html/2609.15369v2)). It found AI blog posts share a structural shape that survives the model rewording them. Its core features include:
