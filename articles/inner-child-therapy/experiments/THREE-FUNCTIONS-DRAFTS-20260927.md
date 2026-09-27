@@ -1,6 +1,6 @@
 # "The Three Adult Functions" (h1 intro): Claude drafts, 2026-09-27
 
-Status: **THE HEADING WITH P1–P4 PASSES (100% HUMAN, 280 WORDS). P5 (THE GUIDE) FAILED TWICE AND IS WITH JOEL FOR A MINIMAL FIX (E59). P1–P4 ARE SHOWN AS A CANDIDATE IN THE ARTICLE FILE.**
+Status: **REOPENED BY JOEL (02:42). THE pl/ork PARAGRAPH IS PARKED FOR `Start With Whatever Showed Up`. THE SECTION'S EXPLAINER (TF-U2, TF-U3, EACH FUNCTION IN FULL) IS RESTORED. THE LABEL SWAP IS DROPPED. NEW P1 FAILED TWICE (100% AI) AND GOES TO JOEL FOR A MINIMAL FIX (E59). THE GUIDE PARAGRAPH SENT EARLIER IS WITHDRAWN: IT ALSO LEFT OUT PART OF ITS DEFINITION.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E73 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`; the process is `tools/HUMANIZATION-GATE.md`; every turn ends with the full article.
 
@@ -387,3 +387,119 @@ Why check it now: P3 and P4 passed alone, and P3, P4 and P5 are one paragraph pe
 **Result (Pangram 4.0, 2026-09-27, the turn that started 02:02):** Human Written, 100% Human, 280 words scanned. It's long enough that the short-text caveat doesn't apply. P3 and P4 hold in context.
 
 **Next.** P5 waits for Joel's fix. After it: TF-U7 (worth and capacity), TF-U8 to TF-U10 (the child's gifts, Joel's post, the loop and reaching out), then TF-U11 and TF-U12 (intuition and analysis, the test). Then the whole intro.
+
+## Joel, 2026-09-27 02:42 UTC: the section is reopened
+
+> "ok well first of all you're breaking the whole reparenting thing when you say call yourself your big sibling.
+>
+> the point of reparenting is to not turn into your parents. that's the whole point otherwise you basically have your inherited parents in your head all the time parenting you.
+>
+> try to keep the functions of the article in mind before you change things up ... told you that before.
+>
+> also, i notice the first paragraph really doesn't fit in this section. find where that is supposed to go. i think i just put the pl/ork def there because at that time pl/ork was first used there.
+>
+> also it looks like you're just way too wild with your editing now, like what happened to the main part of this section: [TF-U2 and TF-U3, quoted] did you just cut that?
+>
+> you brought up nurterer, protector, and guide as if they were already explained yet the explainer is gone now. how is this making any sense you are not reading the original first or what?"
+
+**What I did wrong.**
+1. **P2 broke the article's core idea.** "If you grew up swearing you'd never turn into your parents, being told to parent yourself can land a little weird. Call yourself your little one's guardian, then, or their big sibling." That makes reparenting sound like becoming your parents, and it trades the parent role for a sibling. Reparenting is the opposite: taking the adult position so the parents you inherited stop doing the parenting in your head. The source says so in `The Parent You Inherited` ("the inner parent 'script' you inherited from how you were treated… its first version is a critic or warden"). My stance ledger never had the article's central concept in it, only the section's themes. The source's label list (safe adult, guardian, advocate, older sibling, wise aunt, good host, captain, future self) came from the AI draft, and a swap of the word undercuts his point, so it's dropped.
+2. **P1 was in the wrong section.** pl/ork was defined here because this is where it was first used when Joel drafted it. In the humanized article, it's first used later (the installed Ask God line avoids it).
+3. **I cut the section's explainer.** I marked TF-U2 ("Most people are stuck identifying as the inner child… Reparenting begins when the present-day person occupies an adult position and cares for the child from there") as a duplicate of Chicken-and-Egg and dropped it. I reduced TF-U3 to "all you", dropped the Nurturer's pain half, and gave the Protector an example without its definition. Chicken-and-Egg and Borrow One only mention the three jobs; this section, under this heading, is where they're explained. I also didn't tell Joel about any of those cuts when I showed him the candidate. They were only in this file.
+
+**Lessons:** E76 to E78 in the rules file.
+
+## Where the pl/ork paragraph goes
+
+- In the humanized article, pl/ork isn't used anywhere yet.
+- In the source, the next use after this section is `Start With Whatever Showed Up` (h2 under `When the Adult Voice Feels Fake`): "The cynical voice, numbness, urge to scroll, anger, dissociation, or sudden need to do something else all belong inside the pl/ork." Nothing between here and there uses it.
+- So the definition goes there, at the first use, which is the reason Joel gave for its first placement.
+- It fits there too. The h1 intro just before has the voice saying "This is so silly" and "Suddenly the phone needs checking… a minor household task becomes emotionally urgent". The definition's point, that your little one wants to play too, answers that voice.
+- The other candidate is `Let the Child Be Bad at Things` ("This is pl/ork in its most literal form"), which is about play itself. But four uses come before it (`Start With Whatever Showed Up`, `A Bottom-Up Sequence`, `Sometimes There Isn't a Clear Child Yet`, `From Survival to Experimental Play`), so the term would appear before its definition.
+- **Parked:** the paragraph as Joel fixed it (sha256 in the 01:59 record) is kept for that section. When that section is humanized, it goes in with whatever joining it needs, and it's checked with the section.
+
+## Units, re-disposed (this section owns the explanation, E76)
+
+- **TF-U1 (pl/ork):** moved to `Start With Whatever Showed Up` (above).
+- **TF-U2: KEPT.** It's the premise the three jobs hang on. Only the feeling list is compressed, since Chicken-and-Egg already has "abandoned, helpless, impulsive, frightened".
+- **AA-U6, the label note: DROPPED** (owner correction, 02:42). What's left of its job, a reader for whom "parent" means their own parents, is answered by Joel's point instead: the inherited parents are what reparenting replaces. That goes into TF-U2's paragraph, from his message.
+- **TF-U3: KEPT, explicit.** "Three functions of one adult, not three separate inner people. One act can carry more than one function."
+- **TF-U4, the Nurturer: KEPT IN FULL.** The pain half (receives pain with warmth; the words; room without attacking) and the enjoying half. The passing P3 (enjoying) is reused inside it.
+- **TF-U5, the Protector: KEPT IN FULL.** "Makes the warmth believable through boundaries, competence, and ordinary action", outside and inside. The examples are compressed (whitelist), and the passing P4 (2 a.m.) can be the inside one.
+- **TF-U6, the Guide:** with Joel for a minimal fix, then checked against the full unit.
+- **TF-U7 to TF-U12:** as planned. Each one is checked against what this section owns before anything is called a duplicate.
+- The failed and superseded drafts (old P2, P3, P4) stay recorded above. The candidate in the article file is withdrawn until the new opening passes.
+
+## Stance ledger, added row (E78)
+
+| theme | the article's stance | where |
+|---|---|---|
+| **Reparenting (the article's central concept)** | Taking the adult position so the parents you inherited stop doing the parenting in your head; the new Nurturer, Protector and Guide replace the inherited script | Joel, 02:42; source `The Parent You Inherited`; installed Chicken-and-Egg P2 ("develop the qualities of a good inner parent") |
+
+## New P1 (TF-U2, Joel's point, TF-U3), recorded before its call
+
+> Most of us are so used to living from the inner child's small, scared place that we think it's just our personality. Reparenting starts when the present-day you steps into the grown-up's spot and takes care of your little one from there, instead of leaving that job to the parents you inherited, who've been doing it in your head the whole time. That grown-up has three jobs, the Nurturer, the Protector and the Guide. They're all you, not three more people moving in, and a lot of what you do is two of them at once.
+
+96 words, sha256 529b16e9f04e797b4779e24afd1ae5c272372b6907612fe2a1212c6fa1134b2d. Scratch: `threefn/new_p1_r1.txt`.
+
+**Preservation trace.**
+- Forward. TF-U2: "stuck identifying as the inner child" is living from that place until "we think it's just our personality"; "small, frightened" is "small, scared" (the rest of the list is in Chicken-and-Egg); "Reparenting begins when the present-day person occupies an adult position and cares for the child from there" is sentence 2 nearly word for word in meaning. Joel's point: "instead of leaving that job to the parents you inherited, who've been doing it in your head the whole time" ("you basically have your inherited parents in your head all the time parenting you"). TF-U3: "three functions of one adult" ("That grown-up has three jobs"), "not three separate inner people" ("not three more people moving in"), "One act can carry more than one function" ("a lot of what you do is two of them at once"). The names come here, where the section explains them.
+- Reverse: "we think it's just our personality" is what "identifying" means, said as a noticing. "Moving in" is the one joke. No unexplained delta.
+- "Wandering helplessly" is carried by "small, scared", not by its own image.
+
+**Linter.** REVIEW.
+- B1 on sentence 1: KEEP. It's a noticing about what identifying is, not a quote-card.
+- B2 on "instead of leaving that job…": KEEP. That's Joel's point, and the contrast is the point.
+- D9: the source's order is the order the sense needs here (step 3).
+- Second person 6.1: a note.
+
+**Sense read.** We're used to living as our scared little one, so it feels like who we are. Reparenting starts when the present-day you takes the adult's place and looks after your little one, instead of the parents in your head doing it. That adult has three jobs, and they're all you, often two at once. A reader who doesn't know the point can say it back. The three names are introduced here, and the next paragraphs explain each.
+
+**Marching.** A noticing, the definition with Joel's aside, the names, then the clarification with a joke. It's an explainer, so the order is the sense's. Two sentences react (the personality line, the inherited parents).
+
+**Last-sentence test (E74).** Without it, TF-U3 is missing. It adds the "not three people" and "two at once" units; it isn't a summary.
+
+**Inventory.** T01 ABSENT. T02 ABSENT (no commands). T03 n/a (first paragraph). T04 ABSENT. T05 ABSENT. T06 ABSENT: "small, scared place" names the feeling. T07 ABSENT. T08 ABSENT. T09 UNCERTAIN → KEEP: it's an explainer, and sentence 2 gets the most room, where Joel's point is. T10 ABSENT. T11 ABSENT. T12 ABSENT: the three names are the section's subject, not a tidy list. T13 ABSENT. T14 ABSENT. T15 ABSENT. T16 UNCERTAIN → KEEP: "all you, not three more people" answers a confusion the reader has, in an article full of parts. T17 UNCERTAIN → KEEP: sentence 1 is a general claim, but it's the source's premise, turned into what it feels like. T18 ABSENT. T19 ABSENT: "That grown-up has three jobs" names them; it isn't there only to announce the next paragraphs. T20 ABSENT. T21 UNCERTAIN → KEEP: sentence 2 is long, but it's one thought with Joel's aside at the end. T22 ABSENT (0.0 coach). T23 ABSENT. T24 ABSENT. T25 ABSENT. T26 ABSENT. T27 ABSENT: "that job" is parenting, named in the sentence. T28 n/a. T29 ABSENT. C01 ABSENT. C02 ABSENT: "that job" is taking care of your little one; "They" is the three jobs. C03 ABSENT: no first person. C04 ABSENT.
+
+**Stance ledger.** Matches the new row (reparenting replaces the inherited parents) and Chicken-and-Egg P2. "Most of us" includes Joel's own case (My Journey: "suddenly I was the same little kid again").
+
+**Check planned:** new P1 alone.
+
+**Result (Pangram 4.0, 2026-09-27, the turn that started 02:44):** AI Generated, 100% AI, 104 words scanned, short text. The whole text flagged, from the first sentence.
+
+**Why (B10).** It's an explainer built in the explainer's order: a general premise, the definition, the names, the clarification. Each sentence hands off to the next (E66), and it opens on a claim ("Most of us are so used to…"), where every paragraph of mine that passed today opened on a situation.
+
+**Repair.** Open on a situation that is the premise, a moment where you become the child. The premise sentence becomes a trailing clause on it. The definition follows, with Joel's point. TF-U3 and the three names move to the next paragraph, in the same order, so this one does one job (what reparenting is) and the next one another (what the grown-up's jobs are).
+
+## New P1, second attempt, recorded before its call
+
+> Your boss says "Got a minute?" and suddenly you're seven and in trouble, which for most of us happens so often it just feels like our personality. Reparenting starts when the present-day you shows up right there and takes care of that seven-year-old, instead of leaving the job to the parents you inherited, who've been doing it in your head the whole time.
+
+63 words, sha256 f45d6ab9fb69c69d6aa36e287d22b7183ebc31833fdf47f501ef85b7452c68b5. Scratch: `threefn/new_p1_r2.txt`.
+
+**Preservation trace.** Forward: TF-U2 in full ("stuck identifying" is the boss moment plus "feels like our personality"; "small, frightened… helpless" is "seven and in trouble"; the definition is sentence 2); Joel's point is the "instead of…" clause. TF-U3 goes to P2. Reverse: the boss is a familiar instance of the premise. No unexplained delta.
+
+**Linter.** REVIEW. B2 on "instead of…": KEEP (Joel's point). Second person 7.6: a note.
+
+**Sense read.** One line from your boss and you're a scared seven-year-old again; that happens so much it feels like who you are. Reparenting starts when the grown-up you shows up in that moment and looks after the seven-year-old, rather than the parents in your head doing it. Clear to a cold reader.
+
+**Marching.** A situation and what it means, then the definition. Two sentences.
+
+**Last-sentence test (E74).** Without it, the definition of reparenting is missing. It's the paragraph's unit, not a restatement.
+
+**Inventory.** T01 ABSENT. T02 ABSENT. T03 n/a. T04 ABSENT. T05 UNCERTAIN → KEEP: the boss is chosen to show the premise, but a work summons is exactly where people turn into the child. T06 ABSENT. T07 ABSENT. T08 UNCERTAIN → KEEP: the "which…" clause turns the moment into a claim, but it adds something (it's so frequent it feels like personality) instead of explaining the picture. T09 ABSENT. T10 ABSENT. T11 ABSENT. T12 ABSENT. T13 ABSENT. T14 ABSENT: same order; TF-U3 moves one paragraph down. T15 ABSENT: a new build. T16 ABSENT. T17 ABSENT. T18 ABSENT. T19 ABSENT. T20 ABSENT. T21 UNCERTAIN → KEEP: sentence 2 is the definition with Joel's point attached. T22 ABSENT (0.0 coach). T23 UNCERTAIN → KEEP: "your boss" fits many readers, but it's given as a familiar case, not dressed up as the reader's own. T24 ABSENT. T25 ABSENT. T26 ABSENT. T27 ABSENT. T28 n/a. T29 ABSENT. C01 ABSENT ("that seven-year-old" is you at seven, not "the kid"). C02 ABSENT. C03 ABSENT. C04 ABSENT.
+
+**Check planned:** new P1 alone.
+
+**Result (Pangram 4.0, 2026-09-27, the turn that started 02:44):** AI Generated, 100% AI, 68 words scanned, short text. The whole text flagged.
+
+**What both attempts share.** The definition sentence: "Reparenting starts when the present-day you [steps into the grown-up's spot / shows up right there] and takes care of [your little one / that seven-year-old] from there, instead of leaving [that / the] job to the parents you inherited, who've been doing it in your head the whole time." It's the source's "Reparenting begins when the present-day person occupies an adult position and cares for the child from there" with Joel's point attached, and a definitional "X starts when Y, instead of Z" in both. The openers differed (a claim, then a situation), and both failed. Per E59 it goes to Joel with the second attempt.
+
+**The Guide paragraph (P5 r2c) is withdrawn from Joel.** By E76 this section owns the Guide's definition, and r2c left "holds standards" and "helps the child grow toward a whole life" to `The Inner Guide Comes Later`. It gets redone with the full unit after the opening passes.
+
+**Plan once P1 passes.**
+- P2: the grown-up's three jobs, all one you, not three inner people, often two at once (TF-U3). The names are introduced here.
+- P3: the Nurturer, both halves. The pain half (receives it warmly, makes room without attacking, what it might say) and the enjoying half, reusing the passing enjoying paragraph where it fits.
+- P4: the Protector, its definition ("makes the warmth believable through boundaries, competence, and ordinary action", outside and inside), with the passing 2 a.m. paragraph as the inside example.
+- P5: the Guide in full.
+- Then TF-U7 to TF-U12, and the whole intro.
