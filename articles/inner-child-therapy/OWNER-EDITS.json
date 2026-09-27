@@ -1,0 +1,273 @@
+{
+ "schema_version": 1,
+ "article": "HUMANIZED-ARTICLE-SO-FAR.md",
+ "how": [
+  "Every edit Joel gives goes in here the same turn, with his words and the strings the article must (or must not) contain once it's done. Status pending until the article has it; then applied.",
+  "Every note or record that says the article covers something gets a claim entry (for example, which jobs a paragraph explains).",
+  "tools/check_owner_edits.py checks every entry against the article with comments removed. render_article_so_far.py runs it on every render, and a failure goes in a red box at the top of the article.",
+  "A record, note or message says a change is in the article (installed, applied, fixed, resolved, moved, explains) only after its entry passes. If it only exists in a draft, candidate or scratch file, it says so."
+ ],
+ "entries": [
+  {
+   "id": "ask-prompt",
+   "status": "applied",
+   "what": "Name the prompt where \"ask\" is first used (You Don't Need an Inner Monologue P1). Flagged 2026-09-24, called \"resolved\" in an audit of a candidate that was never installed, lost, fixed 2026-09-27.",
+   "joel": "04:19: \"i know i told you this before but you didn't fix it… where did 'ask' get introduced?\"",
+   "must_contain": [
+    "the usual inner-child prompt to \"ask your little one what they need\" can get confusing"
+   ],
+   "must_not_contain": [
+    "the usual inner-child prompt can get confusing"
+   ]
+  },
+  {
+   "id": "pema-intro",
+   "status": "applied",
+   "what": "Introduce Pema in Don't Give.",
+   "joel": "04:19: \"Even Pema Chodron, who inspired parts of this guide, comes from ...\"",
+   "must_contain": [
+    "Even Pema Chödrön, who inspired parts of this guide, comes from a tradition where devotion to a teacher is a big deal"
+   ]
+  },
+  {
+   "id": "danger-cut",
+   "status": "applied",
+   "what": "Cut the \"actually in danger\" paragraph and the sentence after it.",
+   "joel": "04:19: \"cut that + the sentence after\"",
+   "must_not_contain": [
+    "If you're actually in danger, maybe you need to get out or get some help",
+    "Calling it \"your story\" doesn't protect your little one"
+   ]
+  },
+  {
+   "id": "journey-move",
+   "status": "applied",
+   "what": "My Journey's four paragraphs go right before Don't Give, without \"My own case was weird.\"",
+   "joel": "04:19: \"the 4 paragraphs after 'borrow adulthood, do not surrender it' are supposed to be right before 'don't give the inner adult away' and remove the first 5 word serntence 'my own case was weird'\"",
+   "order": [
+    "The image below maps out the details",
+    "Don't Give the Inner Adult Away"
+   ],
+   "must_not_contain": [
+    "My own case was weird."
+   ]
+  },
+  {
+   "id": "scary-thoughts",
+   "status": "applied",
+   "what": "\"Everybody gets scary thoughts they'd rather not have sometimes.\"",
+   "joel": "04:19",
+   "must_contain": [
+    "Everybody gets scary thoughts they'd rather not have sometimes"
+   ],
+   "must_not_contain": [
+    "Everybody gets thoughts like that sometimes"
+   ]
+  },
+  {
+   "id": "hook-defined",
+   "status": "applied",
+   "what": "Define \"the hook\" where it's first used (Catch the Hook P1).",
+   "joel": "04:19: \"What is the 'hook'…?\"",
+   "must_contain": [
+    "Pema Chödrön calls the tightening and urge you get before the story has finished forming \"shenpa,\""
+   ]
+  },
+  {
+   "id": "wizdumb",
+   "status": "applied",
+   "what": "\"new-age wizdumb\".",
+   "joel": "04:19: \"change 'new age wisdom' to 'new-age wizdumb'\"",
+   "must_contain": [
+    "new-age wizdumb"
+   ],
+   "must_not_contain": [
+    "new age wisdom"
+   ]
+  },
+  {
+   "id": "boundary-crossing",
+   "status": "applied",
+   "what": "\"elevated the boundary crossing to\".",
+   "joel": "04:19",
+   "must_contain": [
+    "elevated the boundary crossing to"
+   ]
+  },
+  {
+   "id": "outward-p1-sense",
+   "status": "applied",
+   "what": "Also Look Outward P1 makes sense (Joel's flag; Claude's fix).",
+   "joel": "04:19: \"the first paragraph in Also Look Outward makes no sense…\"",
+   "must_contain": [
+    "Irritating. People disagree, and sometimes their boundaries make us mad, and none of that shows who somebody really is."
+   ]
+  },
+  {
+   "id": "tyler-story",
+   "status": "applied",
+   "what": "Tyler's story in Write It, named, told directly (P4 to P6).",
+   "joel": "16:29: \"yes include the smoking example with Tyler and name him\"; 20:29: \"tyler's story is good\"",
+   "order": [
+    "Write It. Don't Send It Yet.",
+    "My friend Tyler saw a guy smoking in front of a baby",
+    "That's exactly what made Tyler the right person to say something.",
+    "Tyler's an evangelical Christian who preaches on YouTube",
+    "When Healing Turns Into Checking"
+   ]
+  },
+  {
+   "id": "good-enough",
+   "status": "applied",
+   "what": "\"your five percent\" becomes \"good enough for a start\".",
+   "joel": "16:29",
+   "must_contain": [
+    "is good enough for a start, so try it before you call next time"
+   ],
+   "must_not_contain": [
+    "five percent"
+   ]
+  },
+  {
+   "id": "heart-chakra-stays",
+   "status": "applied",
+   "what": "\"that heart chakra love\" stays.",
+   "joel": "16:29: \"that's fine\"",
+   "must_contain": [
+    "that heart chakra love"
+   ]
+  },
+  {
+   "id": "dawns-on-you",
+   "status": "applied",
+   "what": "\"dawns on you\".",
+   "joel": "16:29: \"yes dawns on you\"",
+   "must_contain": [
+    "dawns on you"
+   ],
+   "must_not_contain": [
+    "dawns you"
+   ]
+  },
+  {
+   "id": "guide-overlooked",
+   "status": "applied",
+   "what": "The Guide as the one people overlook, in Joel's words (Chicken-and-Egg).",
+   "joel": "16:29: \"this is the most important one that people overlook, not that it's more important than the others per se…\"",
+   "must_contain": [
+    "The Guide is the one people overlook the most.",
+    "until Key pointed it out",
+    "Our lives can become small and like a never-ending therapy session when we focus only on caring for ourselves rather than giving ourselves a mission as well.",
+    "But then some people over-rely on their mission to avoid caring for themselves."
+   ]
+  },
+  {
+   "id": "worth-line",
+   "status": "applied",
+   "what": "The worth line in Chicken-and-Egg P2.",
+   "joel": "17:05 (decision 2); 20:29: \"worth line is good\"",
+   "order": [
+    "turn into an adult.",
+    "There was never anything wrong with the child's worth to begin with.",
+    "Instead, we need to separately develop"
+   ]
+  },
+  {
+   "id": "enjoying-in-borrow-love",
+   "status": "applied",
+   "what": "The enjoying Nurturer at the end of Borrow Love's h2 body.",
+   "joel": "17:05 (decision 1); 20:29: \"enjoying para in borrow love is good\"",
+   "order": [
+    "scaffolding",
+    "If the only time the Nurturer shows up is when something's wrong",
+    "A Smaller Doorway: Goodwill"
+   ]
+  },
+  {
+   "id": "lao-tsu-stays",
+   "status": "applied",
+   "what": "\"As Lao Tsu might have said…\" stays as a joke.",
+   "joel": "17:05: \"it's part of the joke now\"",
+   "must_contain": [
+    "As Lao Tsu might have said"
+   ]
+  },
+  {
+   "id": "three-jobs-covered",
+   "status": "claim",
+   "what": "The three-jobs paragraph covers the Nurturer and the Protector before the Guide.",
+   "joel": "20:29: \"three jobs paragraph is not three jobs tho it just talks about the guide. Don't we still need to put the nurturer and protector functions in there before guide?\"",
+   "span": {
+    "from": "That's one grown-up doing three jobs",
+    "to": "But here's the chicken-and-egg problem",
+    "must_contain": [
+     "Nurturer",
+     "Protector",
+     "Guide"
+    ]
+   },
+   "order": [
+    "That's one grown-up doing three jobs",
+    "the Nurturer tells them",
+    "The Guide is the one people overlook the most."
+   ]
+  },
+  {
+   "id": "guide-at-the-party",
+   "status": "applied",
+   "what": "Joel's sentence after \"bathroom.\" in the three-jobs paragraph.",
+   "joel": "21:18: \"I would add one more sentence after bathroom.:\" then \"continue\"",
+   "order": [
+    "even though mostly they hid in the bathroom.",
+    "And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing.",
+    "The Guide is the one people overlook the most."
+   ]
+  },
+  {
+   "id": "no-big-sibling",
+   "status": "applied",
+   "what": "No label swap to \"big sibling\" (it breaks reparenting).",
+   "joel": "02:42: \"you're breaking the whole reparenting thing when you say call yourself your big sibling\"",
+   "must_not_contain": [
+    "big sibling"
+   ]
+  },
+  {
+   "id": "plork-paragraph",
+   "status": "pending",
+   "what": "The pl/ork paragraph with Joel's last sentence goes where pl/ork is first used.",
+   "joel": "01:59 (his sentence); 02:42: \"find where that is supposed to go\"",
+   "waits_for": "Start With Whatever Showed Up",
+   "must_contain": [
+    "Play not only paves the way for therapy, but is a part of how successful therapy should be measured."
+   ]
+  },
+  {
+   "id": "dissolve-three-functions",
+   "status": "pending",
+   "what": "Dissolve the h1 The Three Adult Functions into shorter, earlier pieces, keeping every therapy principle.",
+   "joel": "16:29",
+   "waits_for": "the sections after the Apprentice (see experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md)",
+   "must_not_contain": [
+    "The Three Adult Functions"
+   ]
+  },
+  {
+   "id": "h1-building-trust",
+   "status": "pending",
+   "what": "The h1 over Make the Protector Visible, Love Doesn't Have to Wait for Trust and Make a Simple Vow is \"Building Trust With Your Little One\".",
+   "joel": "17:05 (decision 3); 20:29: \"your new heading is good\"",
+   "waits_for": "Make the Protector Visible",
+   "must_contain": [
+    "Building Trust With Your Little One"
+   ]
+  },
+  {
+   "id": "worth-universal-vs-personal",
+   "status": "pending",
+   "what": "Make the difference between universal love and love from a person clear.",
+   "joel": "00:09",
+   "waits_for": "You Are Worthy of Love. Always."
+  }
+ ]
+}

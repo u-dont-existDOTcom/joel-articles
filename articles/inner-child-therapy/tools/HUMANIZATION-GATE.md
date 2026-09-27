@@ -30,6 +30,12 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
 
 ## Steps
 
+0. **Owner edits and claims go in the ledger first (E85; Joel, 2026-09-27 21:18: "so how can we prevent that kind of error in future where you say you will write something and don't write it?").**
+   - Every edit Joel gives goes into `OWNER-EDITS.json` in the same turn, as `pending`, before any drafting. The entry has his words, plus the strings the article must contain, must not contain, or must have in order once the edit is done.
+   - When a sentence or heading I write promises named items ("three jobs", "two ways"), it gets a `claim` entry with a span check: each item must be in that paragraph, not just somewhere in the article.
+   - `tools/check_owner_edits.py` checks the ledger against the article. `render_article_so_far.py` runs it on every render; a failure goes in a red box at the top of the article and the render exits 1.
+   - A note, record or message says something is in the article (installed, applied, fixed, resolved, moved, "explains…") only after its entry passes. If it exists only in a draft, a candidate or a scratch file, the note says that.
+
 1. **Bird's-eye (D1).**
    - Reread the source beat and list its points.
    - Search the article for overlaps and callbacks.
@@ -90,6 +96,7 @@ These come from the repository's own authority (`AGENTS.md`, `SKILL.md`, `CANONI
    - **End of every owner-facing turn: the whole article (OWNER-FACING-TURN-CONTRACT; Joel, 2026-09-26 23:38: "always give me the full humanized article up til what we had, at the end of every turn").**
      - Update `HUMANIZED-ARTICLE-SO-FAR.md` with the accepted prose and the current owner-review candidate in place. The candidate goes under a `<!-- CANDIDATE: … -->` note, so it's never shown as accepted.
      - Run `tools/render_article_so_far.py`, and send the HTML file with the reply.
+   - **Owner edits (step 0).** The render's check has to pass. A red box means something a record calls done isn't in the article: fix it before sending, or correct the record.
    - **Clock (Joel, 2026-09-26: "a quick check at beginning and then at the end so i know how long it took… nothing in the middle").** Read the clock once when a turn starts and once at the end, and report both. Date each Pangram record and name its turn; don't read the clock mid-turn to time it. Never write a minute that wasn't read.
 
 **Repairing a failed draft (B10, Joel 2026-09-26).** Don't fix it by swapping its phrases for less likely ones. Rewording while the structure and the other tells stay is what humanizer bots do, and it's what Pangram's "paraphrased or rewritten" flag describes. A phrase from a failed draft is judged like any other phrase, on whether it looks AI. The repair has to change what the draft says and how it's built.
@@ -119,7 +126,7 @@ The linter covers a handful of mechanical tells. It is not the tell ledger, and 
 
 ## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds and the Borrow Love h2 body)
 
-Sixty-nine texts with known Pangram 4.0 results (the last twenty-nine added 2026-09-27). The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
+Seventy-one texts with known Pangram 4.0 results (the last thirty-one added 2026-09-27). The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
 
 Not included:
 - the ablation variants of Joel's P5 fix;
@@ -198,11 +205,13 @@ They're near-copies of texts already in the set and would weight one paragraph s
 | Chicken-and-Egg three jobs r1b (a definition sentence for each job) | 100% AI | REVIEW (miss) | none |
 | Chicken-and-Egg three jobs r2 (both jobs in one scene) | 100% Human | REVIEW | — |
 | Chicken-and-Egg Guide paragraph alone, without its old first sentence | 100% Human | CLEAR | — |
+| Chicken-and-Egg three jobs r3 (r2 with Joel's Guide sentence) | 100% Human | REVIEW | — |
+| Also Look Outward P1 rewrite r1 (the installed build, new wording) | 100% AI | REVIEW (miss) | none |
 
 Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Since the second-person hard fail became a review note (2026-09-26), it hard-fails two (r2, r3b), still none of the Human ones.
 
 With the one-paragraph rounds added:
-- It hard-fails four of the thirty-four AI texts (r2, r3b, and both P5 attempts) and one of the thirty-five Human ones (2026-09-27: 69 texts). The Human one is Catch the Hook P1 linted whole: three coach phrases ("You might notice…", "Or you might notice…", "You can figure that out later") in 97 words, and Pangram says 100% Human. So the coach limit can block human text when the phrases are short and casual. It's still a hard fail for my own drafts (what it was set on), but a coach FAIL on text someone else wrote, or on short paragraphs, gets read before it's trusted. The two spiritual-hurt paragraphs are 100% AI and only reach REVIEW: what sank them (a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical. Nor is what sank Three Adult Functions P1 r3b: a last sentence that concluded the paragraph (E74). Cutting only that sentence passed, so the pair is a clean control for T29.
+- It hard-fails four of the thirty-five AI texts (r2, r3b, and both P5 attempts) and one of the thirty-six Human ones (2026-09-27: 71 texts). The Human one is Catch the Hook P1 linted whole: three coach phrases ("You might notice…", "Or you might notice…", "You can figure that out later") in 97 words, and Pangram says 100% Human. So the coach limit can block human text when the phrases are short and casual. It's still a hard fail for my own drafts (what it was set on), but a coach FAIL on text someone else wrote, or on short paragraphs, gets read before it's trusted. The two spiritual-hurt paragraphs are 100% AI and only reach REVIEW: what sank them (a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical. Nor is what sank Three Adult Functions P1 r3b: a last sentence that concluded the paragraph (E74). Cutting only that sentence passed, so the pair is a clean control for T29.
 - At paragraph level, coach density separated the two failing P5 attempts (2.3, 2.4) from every Human paragraph (at most 1.85).
 - It misses all six context failures (the P6 + P7 pair, the whole section in rounds 11 and 13, the Borrow Love h2 body r1 and r2, and Borrow One Competency with the enjoying Nurturer), where every paragraph passes alone. In the last one a paragraph that passed alone, put in a section that passed without it, flagged itself and the Protector paragraph beside it: it restated the warmth paragraph's point, and it made the jobs march one per paragraph (E49). For the h2 body, the inventory run on the assembled section found them (E70). In round 13 its only coach flag in P7 was the sentence where Pangram's span started, which is why E62 says to check that flag first. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
 

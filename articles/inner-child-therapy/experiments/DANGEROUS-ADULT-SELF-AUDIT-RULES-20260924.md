@@ -304,3 +304,16 @@ E82. A consolidation has to be explained and has to leave the rest organized (Jo
 E83. Don't polish Joel's words (2026-09-27, the Guide paragraph for Chicken-and-Egg). I carried his chat sentences into the article with small smoothing: "get small, like", "all we do is", "Then again", "lean on… to get out of". Those two sentences were exactly Pangram's flagged span (44% AI, "in the later part"). His own wording, with only "ourself" and "themself" fixed, passed alone (100% Human), and the whole certified opening passed with it (950 words). His roughness ("become small and like", "rather than giving ourselves a mission as well", "over-rely") is part of why his text reads human. When his words go into the article, keep them as he wrote them. Fix only plain grammar slips, and say which.
 
 E84. When the article has to introduce a set of roles, show them working in one small scene and name them inside it (2026-09-27, Joel at 20:29: "three jobs paragraph is not three jobs tho it just talks about the guide"). My first repair gave the Nurturer and the Protector a sentence each: what the job does, plus a reason. Pangram put it at 100% AI (111 words), even though each sentence had something noticed in it. The same shape sank the enjoying paragraph in Borrow One Competency that afternoon (47% AI), where each paragraph names one job. The version that passed puts both jobs in one moment: the party is too much, the Protector gets you both out, and the Nurturer tells your little one they did great on the way home (100% Human alone; the opening 100% Human, 1,003 words). The rest of each job stays in the sections that own it (E76). When I cut material that way, I say where each piece is.
+
+E85. A claim that something is in the article gets checked against the article (Joel, 2026-09-27 21:18: "so how can we prevent that kind of error in future where you say you will write something and don't write it? it's happened at least twice now, once in that paragraph and once in the "ask" edit i gave you which landed in some scratchpad").
+- The "ask" fix: a 2026-09-24 audit said "The earlier orphaned "ask" defect is resolved". That was about Candidate I, which was never installed. The article kept the old sentence until 2026-09-27.
+- The three-jobs paragraph: its note said "the three jobs explained where they're first named", but the Nurturer and Protector weren't in it. The note described the plan (their units were assigned to later sections), not the paragraph.
+
+In both cases the claim was about something other than the article text, and nothing compared the two. E80's open-flags list tracks flags but checks nothing.
+
+The fix is mechanical:
+- `OWNER-EDITS.json` gets an entry for every edit Joel gives, in the same turn, and for every claim about what a paragraph covers. Each entry has strings to find in the article.
+- `tools/check_owner_edits.py` checks them.
+- The render runs the check every turn and puts a failure in a red box at the top of the article.
+
+Run on the article from before each fix, it fails on both errors (the "ask" entry on the version before the fix; the three-jobs entry on 5800a7b).

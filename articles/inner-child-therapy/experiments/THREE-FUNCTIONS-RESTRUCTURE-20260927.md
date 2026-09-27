@@ -1,6 +1,6 @@
 # The Three Adult Functions: dissolved into shorter, earlier pieces (proposal), 2026-09-27
 
-Status: **PIECES 2 AND 3 INSTALLED (Joel, 20:29). PIECE 1 REVISED (r2: THE NURTURER AND PROTECTOR IN ONE SCENE BEFORE THE GUIDE); ALL ITS CHECKS PASS, AND IT'S SHOWN AS A CANDIDATE FOR JOEL'S OK. THE REMAINING UNITS MOVE WHEN THEIR HOME SECTIONS ARE HUMANIZED.**
+Status: **PIECES 1–3 INSTALLED. Piece 1 is r3: the three jobs in one scene, with Joel's Guide sentence (21:18), then his Guide paragraph. THE REMAINING UNITS MOVE WHEN THEIR HOME SECTIONS ARE HUMANIZED.**
 
 ## Trigger
 
@@ -322,3 +322,35 @@ The Guide paragraph after it is unchanged.
 Installed in the article as a candidate, for Joel's OK.
 
 **Lesson.** A job explained by a definition sentence reads AI even with something noticed in it. A job shown doing its work in a scene, named inside the scene, reads human. Today's two failures (r1b here, and the enjoying paragraph in Borrow One Competency) and this pass point the same way. When the article has to introduce a set of roles, let one small scene carry them, and leave the explanations to the sections that own them (E76).
+
+## Joel, 2026-09-27 21:18 UTC
+
+> "I would add one more sentence after bathroom.:
+>
+> "And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing.""
+
+### r3 (r2 with Joel's sentence), recorded before its calls
+
+> That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom. And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing.
+
+His sentence is exactly as he wrote it (E83). The Guide paragraph after it is unchanged.
+
+- **Linter** (his sentence as owner): REVIEW. The same B1 on the scene sentence (KEEP), plus the D9 note.
+- **Sense read.** All three jobs are now in the one scene. The Guide's part is looking ahead: it helps your little one decide about the next party, so the bathroom doesn't happen again. The next paragraph then says why the Guide is the one people overlook. "another cycle" leads into Joel's "never-ending therapy session" two sentences later, which is the same point at life scale.
+- **Last-sentence test.** His sentence adds the third job, which is new.
+- **Inventory, changed rows:**
+  - T20: UNCERTAIN, KEEP. It ends on his joke ("bathroom vacationing"), and he wrote it.
+  - T26: ABSENT. "bathroom" twice in a row is his callback, and it's the joke.
+  - C02: ABSENT. "them" and "they" are your little one.
+  - Every other row as in r2.
+- **Stance.** The Guide helps the child grow toward a whole life (the source's TF-U6), here as choosing where to go next time. It isn't a rule imposed on the child.
+- **Ledger.** `OWNER-EDITS.json` entry `guide-at-the-party`, pending until installed.
+- **Checks planned:**
+  - the paragraph alone: 82 words, sha256 368e568877b320979277d3d5085e1dfc740356bbab979886a203964d8abe6f49;
+  - the certified opening with it: 980 words, sha256 e0172b259c9edeeaab6d7b2f389395e92a16d54ef20341bc4dba481532f634b0.
+
+**Results, r3 (Pangram 4.0, 2026-09-27, the turn that started 21:20):**
+- The paragraph with Joel's sentence, alone: Human Written, 100% Human, 84 words scanned (short text).
+- The certified opening with it: Human Written, 100% Human, 1,025 words scanned.
+
+Installed. Joel added his sentence and said "continue", which I've taken as his OK for the paragraph (said so to him). `OWNER-EDITS.json`: `guide-at-the-party` is applied, and `three-jobs-covered` passes.
