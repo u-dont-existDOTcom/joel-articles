@@ -354,3 +354,13 @@ The gate now starts with a sense step (HUMANIZATION-GATE.md, "Sense comes before
 - only then humanize.
 
 The first calibration of the cold reader: it caught the old three-jobs paragraph, and it passed the drifted Also Look Outward P1 while its line notes named its gaps. So the notes gate, not the verdict.
+
+E88. The tell list is written out row by row against the literal words, or it hasn't been run (Joel, 2026-09-27 22:38: "how did this pass even once thru the ai tells list? show me the tells list that it passed with flying colors then").
+
+Also Look Outward r2's recorded inventory had two UNCERTAIN rows and "Every other row, T01 to T29 and C01 to C04: ABSENT." Done row by row afterwards, it has 13 PRESENT rows (`experiments/ALSO-LOOK-OUTWARD-R2-TELL-AUDIT-20260927.md`). I had read my own draft through what I meant it to do, and cleared the rows in bulk. That's E85's failure (a claim nothing checked), in my own audits.
+
+The rule:
+- Every row gets its own line, with the quoted words it matches, or "no words match".
+- No line clears several rows at once.
+- A PRESENT row blocks the Pangram call until it's repaired, or has an exact editorial reason written against those words.
+- A "try", for the two-try rule, is a draft whose whole gate was actually run and recorded. A one-sentence owner-requested fix isn't a try at the paragraph, and a draft sent on a bulk-cleared list isn't a fair test.

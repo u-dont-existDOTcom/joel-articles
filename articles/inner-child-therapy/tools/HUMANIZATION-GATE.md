@@ -81,6 +81,7 @@ S5. **Owner notes about sense.** When Joel says a paragraph doesn't make sense, 
    - Every REVIEW item from the linter, with a disposition (KEEP, DELETE, REWRITE, MERGE, SUBORDINATE or MOVE) and why.
    - **First, a literal sense read of the paragraph as a reader who doesn't know the point (E67).** Then check it for marching order: can every sentence be labelled with its next job (E66)?
    - **Every row of `docs/HUMANIZATION-TELL-INVENTORY.md` (T01–T29, C01–C04), on the literal draft, before every Pangram call (E65).** The linter's flags are a subset. A draft that still looks AI to me doesn't go to Pangram.
+     **Row by row, with the words (E88).** Each row gets its own line: the quoted words it matches, or "no words match". No line may clear several rows at once ("every other row ABSENT" is how Also Look Outward r2 went out with 13 tells PRESENT). A PRESENT row blocks the call.
    - **Before a whole-section check, run the inventory on the assembled section too (E70).** T02, T03, T08 and T20 show up between paragraphs, and a flag on owner text can come from my paragraph beside it.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
    - Execute the repairs, then rerun steps 4–6 on the changed text.
