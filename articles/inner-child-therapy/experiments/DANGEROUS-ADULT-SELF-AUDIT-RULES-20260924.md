@@ -362,5 +362,7 @@ Also Look Outward r2's recorded inventory had two UNCERTAIN rows and "Every othe
 The rule:
 - Every row gets its own line, with the quoted words it matches, or "no words match".
 - No line clears several rows at once.
-- A PRESENT row blocks the Pangram call until it's repaired, or has an exact editorial reason written against those words.
+- A PRESENT row blocked the Pangram call. That part was withdrawn the same night: a blind calibration showed human prose carries most of these rows too (`tools/TELL-CALIBRATION-20260927.md`). The list is now a repair aid, and Pangram is the gate.
 - A "try", for the two-try rule, is a draft whose whole gate was actually run and recorded. A one-sentence owner-requested fix isn't a try at the paragraph, and a draft sent on a bulk-cleared list isn't a fair test.
+
+E89. The row the data flags is the one I explained away (2026-09-27, Also Look Outward r5). The blind calibration ranked T23 (generic-specific scenery) as the most AI-leaning row, 4 of 14 AI texts against 1 of 14 human ones. r5's repair pass then marked its textbook dinner vignette UNCERTAIN because it was "offered as a hypothetical", and r5 came back 100% AI. When the data says a row leans AI, a hit on it gets repaired, not reasoned with. What passes is a moment that's specific and a little strange, or real. What fails is the example anyone would reach for.
