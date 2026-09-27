@@ -79,6 +79,8 @@ General rules for every row:
 
 **T28 — forced closure or uplift.** The section ends on healing, a lesson, reassurance or a summary of what the reader learned, instead of where the material actually stops. Source: `project-sources/STRUCTURAL-HUMANITY.md` section 13; banned patterns.
 
+**T29 — thought completion.** The paragraph's last sentence completes the thought: a "So…" conclusion, a restatement, or the moral of the picture before it, when the point is already clear one sentence earlier. Test: read the paragraph without its last sentence. A new claim or consideration at the end isn't this tell. Source: Joel, 2026-09-27 ("that ai thing of ensuring the thought is fully complete and summed up perfectly"). Not the same as T20 (a clever closer) or T28 (a section ending on uplift).
+
 ## Part C — editorial checks the sweep also answers (uncalibrated)
 
 **C01 — naming.** The inner child is called "the kid". Warm names are required ("your little one", "the inner child"). Source: self-audit E1.

@@ -216,3 +216,15 @@ And being the grown-up doesn't mean controlling everything. That's pretty much t
 ## Become the Adult Apprentice
 
 Say a friend sits with you while you fall apart. Most of us feel better and call them again the next time, and they get a little better at it every time while we don't. So steal some of it. Usually what helped was how they just sat there without trying to fix you. Ten seconds of sitting with yourself like that is your five percent, so try it before you call next time.
+
+<!-- CANDIDATE: The Three Adult Functions (source h1 intro), in progress, not yet owner-accepted. P1 is Claude's first two sentences with Joel's last sentence (his minimal fix, 2026-09-27 01:59; Human on his check). P2 to P4 are Claude's and each passed alone at 100% Human (Pangram 4.0). The heading with P1 to P4 is 100% Human (280 words scanned). The label note from the Apprentice section opens P2, as Joel agreed. The next paragraph, on the Guide, is with Joel for a minimal fix; worth and capacity, the child's gifts, and intuition and the test come after it. Record: experiments/THREE-FUNCTIONS-DRAFTS-20260927.md. -->
+
+# The Three Adult Functions
+
+Your little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.
+
+If you grew up swearing you'd never turn into your parents, being told to parent yourself can land a little weird. Call yourself your little one's guardian, then, or their big sibling. Either way, the Nurturer, Protector and Guide are all you, and you're often doing two of them at once. A party gets to be too much for your little one, so you take them home and tell them they did great, even though mostly they hid in the bathroom.
+
+If the only time the Nurturer shows up is when something's wrong, your little one can start to feel like they're your job. Sometimes show up just to say "I'm glad you're here," and then enjoy them for a minute, the way you'd enjoy a little kid who wants to show you a rock they found.
+
+It's two in the morning, your little one is lonely, and the ex who dumped you by text is one text away. The Protector is the one who puts the phone in the other room, and in the morning, "I'm glad you're here" is a lot easier for your little one to believe.
