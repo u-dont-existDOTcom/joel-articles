@@ -18,7 +18,9 @@ Some people, like another ex of mine, got so deep into crying that it became tra
 
 Céline's song is called *On ne change pas*—"we don't change." I think that's both fortunately and unfortunately true for most of us. Fortunately in the sense that the sweet, innocent, curious, vivacious little one is still inside us, even if hiding. Unfortunate in the sense that we often don't truly develop the adult qualities that we might pretend to have, so we continue burdening that little one inside us with troubles they aren't made for handling. This shows up in how we may feel abandoned, helpless, impulsive, frightened, or desperate to be chosen.
 
-And I realized that it doesn't make sense to ask the child to heal itself, which is really a disguised request for the child to abandon its own nature and turn into an adult. Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide.
+<!-- CANDIDATE: one added sentence in Joel's paragraph below, "There was never anything wrong with the child's worth to begin with." It's the worth-and-capacity point from The Three Adult Functions, placed here at Joel's direction (2026-09-27 17:05, decision 2). Pangram 4.0: the paragraph with it 100% Human (74 words); the certified opening with it and the three-jobs paragraph 100% Human (963 words scanned). Record: experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md. -->
+
+And I realized that it doesn't make sense to ask the child to heal itself, which is really a disguised request for the child to abandon its own nature and turn into an adult. There was never anything wrong with the child's worth to begin with. Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide.
 
 <!-- CANDIDATE: the three jobs explained where they're first named, as the first of the shorter, earlier pieces that replace the h1 The Three Adult Functions (Joel, 2026-09-27 16:29). Sentences 2 to 5 carry Joel's own 16:29 words on the Guide; the last two are his as he wrote them (only "ourself"/"themself" fixed). Sentence 1 is Claude's. Pangram 4.0: the paragraph alone 100% Human (105 words); the certified opening with it, from the three intro lines through the stages list, 100% Human (950 words scanned). Record: experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md. -->
 
@@ -210,6 +212,10 @@ Watch how it lands, though. "I care about you" can be patient, or it can be "I c
 Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them. It's a [cheap trick for becoming the outsider to your own mess](https://pubmed.ncbi.nlm.nih.gov/21728454/). The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move. And this trick even has a name, [Solomon's paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the king everybody brought their disputes to, who then wrecked his own life.
 
 Then take a small piece of whatever you'd tell them and hand it to yourself. If the advice was "get more sleep," then for now just try brushing your teeth before midnight instead of at two. That's how you learn as a kid, and it works now, too. The technical term for this is "[scaffolding](https://en.wikipedia.org/wiki/Instructional_scaffolding)."
+
+<!-- CANDIDATE: the Nurturer's enjoying half, from The Three Adult Functions, placed at the end of this h2 body (Joel, 2026-09-27 17:05, decision 1). Claude's paragraph. Pangram 4.0: alone 100% Human (61 words); this whole section with it 100% Human (771 words scanned). In Borrow One Competency, after the warmth paragraph, it failed (47% AI, "paraphrased"), so it isn't there. Record: experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md. -->
+
+If the only time the Nurturer shows up is when something's wrong, your little one can start to feel like they're your job. Sometimes show up just to say "I'm glad you're here," and then enjoy them for a minute, the way you'd enjoy a little kid who wants to show you a rock they found.
 
 ### A Smaller Doorway: Goodwill
 

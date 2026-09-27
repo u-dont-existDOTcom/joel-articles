@@ -1,6 +1,6 @@
 # The Three Adult Functions: dissolved into shorter, earlier pieces (proposal), 2026-09-27
 
-Status: **PIECE 1 PASSES WITH JOEL'S OWN WORDING (100% HUMAN ALONE; THE CERTIFIED OPENING WITH IT 100% HUMAN, 950 WORDS). SHOWN AS A CANDIDATE. THE REST OF THE PLAN WAITS FOR JOEL'S DECISIONS.**
+Status: **PIECES 1–3 PASS AND ARE SHOWN AS CANDIDATES. Piece 1 is the three jobs and the Guide in Chicken-and-Egg; piece 2 is the enjoying Nurturer at the end of Borrow Love's h2 body; piece 3 is the worth line in Chicken-and-Egg P2. THE REMAINING UNITS MOVE WHEN THEIR HOME SECTIONS ARE HUMANIZED.**
 
 ## Trigger
 
@@ -82,3 +82,61 @@ The three jobs are first named in Chicken-and-Egg P2 ("the loving Nurturer, safe
 - The certified opening with it (three intro lines through the stages list): 100% Human, 950 words scanned, no short-text caveat.
 
 **Lesson (E83).** My light polish of Joel's two sentences was the only flagged span. His own wording of the same content passed. When I carry Joel's words from chat into the article, I don't smooth them; I only fix plain grammar slips.
+
+## Joel, 2026-09-27 17:05 UTC
+
+> "i agree with 1,2,3. Yes the mixup was a mistake but then when it was fixed it flipped to AI, so I kept it and it's part of the joke now."
+
+1. **The enjoying-Nurturer paragraph** goes to Borrow Love or next to Borrow One Competency's warmth paragraph. I recommended Borrow Love. Placing it showed that was the weaker spot:
+   - Between Borrow Love P2 and P3 it would break P3's opening "Or put somebody you care about…", which offers an alternative to borrowing love directly. That's the same "Or" problem E70 found there.
+   - At the end of the h2 body it would follow the scaffolding paragraph, which is about handing yourself advice, a jump.
+   - Right after Borrow One's warmth paragraph ("Just make sure it's someone who liked you the way you were…") it continues the warmth and names the Nurturer, as that section names each job ("That was the Protector", "The Guide can be you too"). And it comes before "For protecting…".
+
+   So it goes there, the other option I'd offered, and Joel is told why.
+2. **Worth and capacity:** one line in Chicken-and-Egg.
+3. **The three h2s keep their place under a new h1.** Proposed name: `Building Trust With Your Little One`. All three are about trust: the Protector's acts "accumulate into trust", love that doesn't wait for trust, and a vow "when promises still carry some credibility". It applies when those sections are humanized.
+
+"As Lao Tsu might have said…" stays; it's part of the joke. The flag is closed.
+
+## Piece 2: the enjoying Nurturer, after Borrow One Competency's warmth paragraph
+
+The paragraph is unchanged from its 100% Human check (61 words scanned; sha256 7c184fed32ad02c965c749bae58d79086410b835179a176fc41cc6885cc50d23), so it isn't rechecked alone. Check planned: the Borrow One Competency section with it, 596 words, sha256 0c0dbde0c388e1f5507356b61da92e515bf1db268e8bf1cf6acdfa5095b7a037. Its earlier certification was 563 words, 100% Human.
+
+## Piece 3: the worth line, in Chicken-and-Egg P2 (Joel's paragraph)
+
+> And I realized that it doesn't make sense to ask the child to heal itself, which is really a disguised request for the child to abandon its own nature and turn into an adult. **There was never anything wrong with the child's worth to begin with.** Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide.
+
+- **What it carries:** TF-U7's core ("The child did not become worthy when a reliable adult finally appeared. Worth was never the missing skill"). The capacity half is Joel's next sentence ("Instead, we need to separately develop the qualities of a good inner parent"). The capacity list is compressed away (whitelist: examples).
+- **Where:** between asking the child to heal itself and "Instead…". It gives the reason the request makes no sense, and it keeps P1's "fortunately… unfortunately" contrast intact.
+- **Stance:** Joel's 00:09 "love as a universal force… precedes anything you could earn". The paragraph doesn't say anyone is lovable to a particular person, which keeps Goodwill's line intact.
+- **Linter:** REVIEW. B4 on Joel's naming sentence (his list of three).
+- **Inventory on the new sentence:** T18 UNCERTAIN → KEEP (short, but it's the reason, not a flip). T17 UNCERTAIN → KEEP (a principle, the source's own). C02 ABSENT ("the child", as in the sentence before). The other rows are ABSENT.
+- **Checks planned:** P2 alone, 72 words, sha256 a809f51de1e95433cb1da5ac3cf8939ba1b756e57c06bc22f309645df274ef37. Then the certified opening with pieces 1 and 3: 918 words, sha256 34c061832a43a3c8c37ad1d71ee93db95aea0e3d0aaea7dce610b0c4332f79b2.
+
+## Results (Pangram 4.0, 2026-09-27, the turn that started 17:06)
+
+- **Piece 3, P2 alone:** Human Written, 100% Human, 74 words scanned (short text).
+- **The certified opening with pieces 1 and 3:** 100% Human, 963 words scanned.
+- **Piece 2, Borrow One Competency with the enjoying paragraph after the warmth paragraph:** AI Detected, **47% AI** / 53% Human, 624 words scanned, "This text appears to have been paraphrased or rewritten", "AI-generated content appears in scattered patches". Two spans were flagged. One is the enjoying paragraph itself. The other runs from the end of the Protector paragraph ("'Fake it til you make it' isn't exactly it… If it sounds funny, laugh!") into the start of the Guide paragraph. Both of those were Human in the certified section without it.
+
+**Why.** Two things, I think:
+- The new paragraph says the warmth paragraph's point a second way. "Someone who liked you the way you were" sits right before "enjoy them for a minute", which fits the "paraphrased" flag.
+- It turns the section into a run of paragraphs, each naming its job: Nurturer, Protector, Guide. That's the taxonomy of E49, and it spills onto Joel's text beside it.
+
+So my change from Borrow Love to Borrow One was wrong. Borrow One is where the jobs march.
+
+**Next, reasoned.** Joel's agreed placement is Borrow Love, at the end of its h2 body, after the scaffolding paragraph and before the Goodwill h3. There's no job-by-job run there, and no "Or" after it. If that fails too, the paragraph is parked for `Love Doesn't Have to Wait for Trust`, where love before trust is the subject.
+
+Check planned: the Borrow Love section (h2 and its three h3s) with it, 728 words. The Goodwill bold markers are stripped, as plain text. Its certification was 710 words, 100% Human.
+
+**Result, piece 2 in Borrow Love** (end of the h2 body; Pangram 4.0, the turn that started 17:06; input sha256 77aa60494625a74b…): Human Written, 100% Human, 771 words scanned. That's Joel's agreed placement, and it passes. Borrow One Competency is where the jobs march, one per paragraph, so a Nurturer paragraph there became the taxonomy. In Borrow Love it's a note on the love, not a step.
+
+## Where the rest goes (as sections come up)
+
+- **TF-U5, the Protector making warmth believable:** `Make the Protector Visible`. The passing 2 a.m. paragraph can open it.
+- **TF-U6's timing, standards and names:** `The Inner Guide Comes Later`.
+- **TF-U8 and TF-U9, the child's gifts and the "Cute AF" link:** with the parked pl/ork paragraph (`Start With Whatever Showed Up`).
+- **TF-U10, the loop, reaching out and the Hearthwork link:** `Borrowed Adulthood in Relationship`.
+- **TF-U11, intuition:** `Start With Whatever Showed Up`.
+- **TF-U12, the test line:** Don't Give (an installed section). One sentence, for Joel to OK when we get there.
+- **The h1 heading `The Three Adult Functions` becomes `Building Trust With Your Little One`** (proposed name) over its three h2s.
