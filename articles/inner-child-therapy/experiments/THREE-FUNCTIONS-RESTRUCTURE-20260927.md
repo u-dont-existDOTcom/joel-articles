@@ -1,6 +1,6 @@
 # The Three Adult Functions: dissolved into shorter, earlier pieces (proposal), 2026-09-27
 
-Status: **PIECES 1–3 PASS AND ARE SHOWN AS CANDIDATES. Piece 1 is the three jobs and the Guide in Chicken-and-Egg; piece 2 is the enjoying Nurturer at the end of Borrow Love's h2 body; piece 3 is the worth line in Chicken-and-Egg P2. THE REMAINING UNITS MOVE WHEN THEIR HOME SECTIONS ARE HUMANIZED.**
+Status: **PIECES 2 AND 3 INSTALLED (Joel, 20:29). PIECE 1 REVISED (r2: THE NURTURER AND PROTECTOR IN ONE SCENE BEFORE THE GUIDE); ALL ITS CHECKS PASS, AND IT'S SHOWN AS A CANDIDATE FOR JOEL'S OK. THE REMAINING UNITS MOVE WHEN THEIR HOME SECTIONS ARE HUMANIZED.**
 
 ## Trigger
 
@@ -133,10 +133,192 @@ Check planned: the Borrow Love section (h2 and its three h3s) with it, 728 words
 
 ## Where the rest goes (as sections come up)
 
-- **TF-U5, the Protector making warmth believable:** `Make the Protector Visible`. The passing 2 a.m. paragraph can open it.
+- **TF-U5, the Protector making warmth believable, and its inside half** (a surge doesn't get to run your messages, spending and so on): `Make the Protector Visible`. The passing 2 a.m. paragraph can open it. Moved there from piece 1 on 2026-09-27 (r2).
 - **TF-U6's timing, standards and names:** `The Inner Guide Comes Later`.
 - **TF-U8 and TF-U9, the child's gifts and the "Cute AF" link:** with the parked pl/ork paragraph (`Start With Whatever Showed Up`).
 - **TF-U10, the loop, reaching out and the Hearthwork link:** `Borrowed Adulthood in Relationship`.
 - **TF-U11, intuition:** `Start With Whatever Showed Up`.
 - **TF-U12, the test line:** Don't Give (an installed section). One sentence, for Joel to OK when we get there.
 - **The h1 heading `The Three Adult Functions` becomes `Building Trust With Your Little One`** (proposed name) over its three h2s.
+
+## Joel, 2026-09-27 20:29 UTC
+
+> "tyler's story is good
+> your new heading is good
+>
+> enjoying para in borrow love is good
+> worth line is good
+> three jobs paragraph is not three jobs tho it just talks about the guide. Don't we still need to put the nurturer and protector functions in there before guide?"
+
+Installed: Tyler's story, the worth line, the enjoying Nurturer. The h1 name `Building Trust With Your Little One` is approved; it applies when those h2s are humanized.
+
+He's right about piece 1. Its first sentence says "three jobs", and then only the Guide gets explained. The Nurturer's and Protector's jobs aren't anywhere in the opening, and the Borrow Love paragraph ("If the only time the Nurturer shows up is when something's wrong…") leans on a Nurturer the reader hasn't seen at work.
+
+## Piece 1 revised: the Nurturer and Protector before the Guide
+
+**Source units (the source's `The Three Adult Functions`; Joel's Substack snapshot has the same text):**
+- N1: the Nurturer receives pain with warmth.
+- N2: the Nurturer's words: "It is okay to feel this. You do not have to perform, solve it, or reassure me. I am here."
+- N3: it makes room for what is true without attacking the person who feels it.
+- N4: the enjoying half. Installed in Borrow Love.
+- P1: the Protector makes the warmth believable through boundaries, competence and ordinary action.
+- P2: the outside half: locking the door, ending the conversation, making the appointment. Borrow One Competency already has it ("leave, or lock the door and get help").
+- P3: the inside half: a surge of fear, rage, craving or shame doesn't get to control speech, messages, spending, substances, sex or relationship decisions.
+- U3: one adult, three functions, not three inner people; one act can carry more than one.
+- Joel, 16:29: each role balances the others.
+
+**Whitelist:** Joel's request (the Nurturer and Protector before the Guide); examples compressed (the source's lists of surges and areas).
+
+**Shape.** Two paragraphs, since one would be eight sentences.
+- The first is the old first sentence, then the Nurturer, the Protector, and both at once.
+- The second is Joel's Guide paragraph as it passed, without that first sentence.
+
+The party example is from the earlier Three Functions P2, which passed at 100% Human. The label swap Joel rejected was a different sentence, not this one.
+
+### r1, linted, not sent
+
+> That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. When your little one is hurting, the Nurturer says something like, "It's okay to feel this. You don't have to fix it or be brave for me. I'm here." The Protector is what makes that believable, since "I'm here" doesn't mean much from somebody who lets every wave of rage or craving make the decisions. Sometimes one move does both, like when a party gets to be too much for your little one, so you take them home and tell them they did great, even though mostly they hid in the bathroom.
+
+The linter gives REVIEW, with two coach phrases in 113 words (1.77 per 100). That's near the hard-fail limit of 2, and both phrases are the Nurturer's script ("It's okay to feel this", "You don't have to…"). That script is the permission formula of T10 and the coach voice of T22. It's the source's quote, but a quote isn't a reason to keep a formula.
+
+**Repair:**
+- The Nurturer's sentence says what the Nurturer does, not what it says.
+- The long party sentence is split, as it was when it passed.
+
+### r1b, recorded before its calls
+
+> That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. When something hurts, the Nurturer stays with your little one and lets it hurt, without needing them to fix anything or be brave for anybody. The Protector is what makes that believable, since it's hard to trust comfort from somebody who lets every wave of rage or craving make the decisions. You're often doing both at once. A party gets to be too much for your little one, so you take them home and tell them they did great, even though mostly they hid in the bathroom.
+>
+> The Guide is the one people overlook the most. I left it out of my first version of this guide until Key pointed it out, and without an inner Guide, it's easy to go looking for one in a cult. Our lives can become small and like a never-ending therapy session when we focus only on caring for ourselves rather than giving ourselves a mission as well. But then some people over-rely on their mission to avoid caring for themselves.
+
+**Whose words:**
+- The first paragraph is Claude's. Its first sentence is the one that passed, and the party example passed in the earlier P2.
+- The second paragraph is unchanged from its pass. Its first two sentences are Joel's 16:29 content in Claude's wording; the last two are his, as he wrote them.
+
+**Preservation trace:**
+- Forward:
+  - N1 and N3: "stays with your little one and lets it hurt".
+  - N2: "without needing them to fix anything [solve it] or be brave for anybody [perform, reassure me]". "I am here" is "stays with".
+  - N4: Borrow Love.
+  - P1: "The Protector is what makes that believable".
+  - P2: Borrow One Competency, and taking them home from the party.
+  - P3: "every wave of rage or craving make the decisions". The list of surges and areas is compressed to two surges (whitelist).
+  - U3: the first sentence, and "You're often doing both at once" with the party.
+  - Joel's balance: the first sentence. The Protector making the warmth trustworthy, and the Guide against only caring for yourself, show it.
+- Reverse: the reason in the Protector's sentence ("it's hard to trust comfort from somebody who…") is why the source says "makes the warmth believable". The party is an example. Nothing else is new.
+- Zero unexplained deltas.
+
+**Linter:**
+- The first paragraph alone gives REVIEW: B1 on the party sentence and the D9 source-order note. The B1 is a scene with an irony in it, not a thesis, so KEEP.
+- Both paragraphs together (Joel's two sentences as owner) give REVIEW: B1 on the same sentence.
+- No coach phrases.
+
+**Sense read, as a reader who doesn't know the point.** "That's" is P2's list: one adult, three jobs, each balancing the others. When something hurts, the Nurturer stays and lets it hurt, and doesn't ask your little one to fix it or hold it together for anybody. The Protector makes that comfort believable, because you can't trust comfort from someone who acts on every surge of rage or craving. A lot of the time it's one move doing both: you leave the party, and you tell your little one they did great, bathroom and all. Then comes the Guide, the one people overlook.
+
+It reads in order, and it sets up P3's question (what if you can't be the adult yet?). The Borrow Love paragraph now has its antecedent: it adds the enjoying half to a Nurturer the reader has seen comforting.
+
+**Marching check (E66).** The order is frame, Nurturer, Protector, both at once, then the Guide. That's P2's list, and Joel asked for this order. Each job comes with something noticed in it:
+- the Nurturer: the little one doesn't have to be brave for anybody;
+- the Protector: why it's needed (you can't trust comfort from someone who acts on every surge);
+- both at once: the bathroom;
+- the Guide: Key, the cult, and the mission.
+
+It isn't a bare walk through the slots, but the walk is there. Pangram decides.
+
+**Last-sentence test (E74).**
+- The first paragraph ends on the party scene, which is the example for "both at once", not a summary.
+- Without "both at once" and the party, it would end on the Protector's reason. The pair adds one act doing two jobs.
+- The second paragraph ends on Joel's flip side, which is a new consideration.
+
+**Inventory (the new paragraph; the Guide paragraph's rows are unchanged from its pass):**
+- T01: ABSENT.
+- T02: UNCERTAIN, KEEP. It's one job per sentence, but each sentence is a description with a reason or a detail, not a command, in the order of P2's list.
+- T03, T04: ABSENT.
+- T05: UNCERTAIN, KEEP. The party was picked to show two jobs at once; the bathroom is what makes it more than a prop.
+- T06: UNCERTAIN, KEEP. "every wave of rage or craving" is general, but it's the source's inside half named plainly. A concrete version (an angry text) would repeat Borrow One Competency.
+- T07, T08: ABSENT.
+- T09: UNCERTAIN, KEEP. The Nurturer's and Protector's sentences weigh the same; the party gets more, and the Guide gets the most, which is Joel's point.
+- T10: UNCERTAIN, KEEP. "without needing them to fix anything or be brave for anybody" says what the Nurturer doesn't ask of the child. It isn't a formula for the reader.
+- T11: ABSENT.
+- T12: UNCERTAIN, KEEP. The three jobs are Joel's list; "both at once" breaks the one-per-sentence walk.
+- T13, T14, T15, T16: ABSENT. On T16, "not three more people moving in" answers a real confusion.
+- T17: UNCERTAIN, KEEP. "it's hard to trust comfort from somebody who…" is general, but it's the reason, mid-paragraph.
+- T18: ABSENT.
+- T19: UNCERTAIN, KEEP. "You're often doing both at once" makes the claim the party shows.
+- T20 to T25: ABSENT.
+- T26: ABSENT. "hid" is near P1's "even if hiding" but isn't a repeated phrase. "somebody who" is also in Borrow One Competency ("somebody who'd only just stopped being mean"), a common phrase.
+- T27, T28, T29: ABSENT.
+- C01: ABSENT ("your little one").
+- C02: ABSENT. "That's" is P2's list; "that" is the Nurturer's staying; "both" is the two jobs just named; "them" is your little one.
+- C03, C04: ABSENT.
+
+**Stance ledger:**
+- Reparenting, the central concept: the Nurturer doesn't hand the child the adult's feelings ("be brave for anybody"). That's the opposite of the inherited critic voice in P3. The Protector stops surges from running things, not feelings from being felt; the Nurturer's "lets it hurt" is right before it.
+- Chicken-and-Egg P1 ("burdening that little one inside us with troubles they aren't made for handling") and stage 5 ("doesn't have to run the whole life alone") agree.
+- Borrow One Competency's protecting paragraph (the outside half) and Borrow Love's enjoying paragraph (the other half of the Nurturer) agree.
+- Don't Give ("handing them the steering wheel"): no driving image here, so the steering-wheel image isn't doubled.
+- `Make the Protector Visible` (source, later) opens on the same idea ("These acts accumulate into trust…"), so it can stay short on it.
+
+**Checks planned (Pangram 4.0; sha256 of the text without a final newline):**
+- The first paragraph alone: 107 words, sha256 8c22834a3b01f579a47503112fb6b72bfbf8171b4145c1212f722ca9875dde58.
+- The Guide paragraph alone, now without the sentence that opened it: 80 words, sha256 abbc863031e4a2c4e8ba48337bf7fc8d6104ee21d4169eeb07fadff4af122986.
+- The certified opening with both, the worth line in P2: 1005 words, sha256 bdc8ef63d55342e173a9fcd641555195adf092612278a3726299f3f90f1eb2e5.
+
+**Result, r1b's first paragraph alone (Pangram 4.0, 2026-09-27, the turn that started 20:30):** AI Generated, 100% AI, 111 words scanned, short text. The whole paragraph is flagged.
+
+**Why.** It's the job-by-job march again, this time in one paragraph: a sentence that defines the Nurturer, one that defines the Protector with its reason, then "both at once" and the example. What was noticed in each sentence (the brave face, the reason, the bathroom) didn't change that. Borrow One Competency failed the same way this afternoon, and the earlier passing texts showed each job doing something in a scene instead of being defined (the party in the old P2, the 2 a.m. Protector).
+
+**Repair (B10: change what it says and how it's built).** No definitions. The two jobs show up in one scene, the party that passed before, now with the jobs named in it. The rest of each job is either already in the installed article or has its home later:
+- The Nurturer's "you do not have to perform, solve it, or reassure me":
+  - the party (they hid, and they still "did great");
+  - Borrow Love's "I care about you, now hurry up and feel better" (not solving on command);
+  - Borrow One Competency's "don't expect a thank-you for the session, like they booked it" (not reassuring you).
+- The Nurturer not attacking: Borrow One Competency's "you can at least stop judging your little one. Obviously no insults."
+- The Protector making the warmth believable, and the inside half (a surge doesn't get to run your messages, spending and so on): `Make the Protector Visible`. That section opens on the same idea ("These acts accumulate into trust…"), and the passing 2 a.m. paragraph is planned to open it (the phone goes in the other room, and in the morning the warmth is easier to believe).
+- The outside half: getting out of the party, and Borrow One Competency's protecting paragraph.
+
+This is the second try. If it fails, it goes to Joel for a minimal fix.
+
+### r2, recorded before its calls
+
+> That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom.
+
+The Guide paragraph after it is unchanged.
+
+**Linter:**
+- Alone: REVIEW, with B1 on the scene sentence (KEEP: a scene with an irony in it, not a thesis) and the D9 note.
+- With the Guide paragraph (Joel's two sentences as owner): REVIEW, B1 on the same sentence.
+- No coach phrases.
+
+**Sense read.** "That's" is P2's list: one adult, three jobs. The party is too much, so the safe one gets you both out, and the loving one tells your little one they did great, bathroom and all. That's the two jobs doing what P2's adjectives promise ("safe", "loving"), and doing it together. Then the Guide paragraph gives the third job and shows the balance (caring against mission).
+
+**Marching check.** Frame, a setup, one scene with both jobs in it. Nothing is walked through slot by slot.
+
+**Last-sentence test.** The paragraph ends on the scene, which is its content; without it there's only a setup.
+
+**Inventory (changed rows; the rest as in r1b):**
+- T02: ABSENT. No run of teaching sentences.
+- T04: UNCERTAIN, KEEP. The scene has two beats, one per job, but they follow from each other (you leave, then you talk on the way home).
+- T05: UNCERTAIN, KEEP. As in r1b.
+- T06: ABSENT. The general "wave of rage or craving" is gone.
+- T09, T12: ABSENT. The jobs aren't given matched sentences.
+- T10, T17: ABSENT. The permission and the reason sentences are gone.
+- T19: ABSENT. "Say a party…" is the scene's premise.
+- T20: UNCERTAIN, KEEP. It ends on a joke, as it did when it passed before. P2 and the Guide paragraph don't end on landings.
+- C02: ABSENT. "you both" is you and your little one; "them" is your little one.
+
+**Stance ledger.** As in r1b. The Protector acts for your little one, not on them. The Nurturer's warmth doesn't depend on how the party went, which is the opposite of the inherited critic in P3.
+
+**Checks planned (sha256 of the text without a final newline):**
+- The first paragraph alone: 60 words, sha256 bf713a3cd3f607b3a88119266f64dd38c5e95fec64e937642a69a090b786df6a.
+- The Guide paragraph alone: as planned under r1b.
+- The certified opening with r2 and the Guide paragraph (the worth line in P2): 958 words, sha256 b53672389d209173a67b535c44f4d36a06f3b91ff79450afd3e832ada96ae0a5.
+
+**Results, r2 (Pangram 4.0, 2026-09-27, the turn that started 20:30):**
+- The first paragraph alone: Human Written, 100% Human, 62 words scanned (short text).
+- The Guide paragraph alone, without the sentence that used to open it: Human Written, 100% Human, 83 words scanned (short text).
+- The certified opening with both, the worth line in P2: Human Written, 100% Human, 1,003 words scanned.
+
+Installed in the article as a candidate, for Joel's OK.
+
+**Lesson.** A job explained by a definition sentence reads AI even with something noticed in it. A job shown doing its work in a scene, named inside the scene, reads human. Today's two failures (r1b here, and the enjoying paragraph in Borrow One Competency) and this pass point the same way. When the article has to introduce a set of roles, let one small scene carry them, and leave the explanations to the sections that own them (E76).

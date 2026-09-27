@@ -1,6 +1,6 @@
 # Write It. Don't Send It Yet.: the Tyler paragraphs, 2026-09-27
 
-Status: **ALL PASS: P4, P5, P5 + P6, AND THE WHOLE SECTION (100% HUMAN, 498 WORDS). SHOWN AS A CANDIDATE IN THE ARTICLE FILE.**
+Status: **INSTALLED 2026-09-27. Owner-accepted (Joel, 20:29 UTC: "tyler's story is good"). All pass: P4, P5, P5 + P6, and the whole section (100% Human, 498 words).**
 
 ## Trigger
 

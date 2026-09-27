@@ -119,7 +119,7 @@ The linter covers a handful of mechanical tells. It is not the tell ledger, and 
 
 ## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds and the Borrow Love h2 body)
 
-Sixty-six texts with known Pangram 4.0 results (the last twenty-six added 2026-09-27). The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
+Sixty-nine texts with known Pangram 4.0 results (the last twenty-nine added 2026-09-27). The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
 
 Not included:
 - the ablation variants of Joel's P5 fix;
@@ -195,11 +195,14 @@ They're near-copies of texts already in the set and would weight one paragraph s
 | Chicken-and-Egg P2 with the worth line (Joel's paragraph, one sentence mine) | 100% Human | CLEAR | — |
 | Borrow One Competency with the enjoying Nurturer after the warmth paragraph (every paragraph passed alone; the section passed without it) | 47% AI, "paraphrased", "scattered patches" | REVIEW (miss) | none |
 | Borrow Love, the whole section with the enjoying Nurturer at the end of the h2 body | 100% Human | REVIEW | — |
+| Chicken-and-Egg three jobs r1b (a definition sentence for each job) | 100% AI | REVIEW (miss) | none |
+| Chicken-and-Egg three jobs r2 (both jobs in one scene) | 100% Human | REVIEW | — |
+| Chicken-and-Egg Guide paragraph alone, without its old first sentence | 100% Human | CLEAR | — |
 
 Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Since the second-person hard fail became a review note (2026-09-26), it hard-fails two (r2, r3b), still none of the Human ones.
 
 With the one-paragraph rounds added:
-- It hard-fails four of the thirty-three AI texts (r2, r3b, and both P5 attempts) and one of the thirty-three Human ones (2026-09-27: 66 texts). The Human one is Catch the Hook P1 linted whole: three coach phrases ("You might notice…", "Or you might notice…", "You can figure that out later") in 97 words, and Pangram says 100% Human. So the coach limit can block human text when the phrases are short and casual. It's still a hard fail for my own drafts (what it was set on), but a coach FAIL on text someone else wrote, or on short paragraphs, gets read before it's trusted. The two spiritual-hurt paragraphs are 100% AI and only reach REVIEW: what sank them (a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical. Nor is what sank Three Adult Functions P1 r3b: a last sentence that concluded the paragraph (E74). Cutting only that sentence passed, so the pair is a clean control for T29.
+- It hard-fails four of the thirty-four AI texts (r2, r3b, and both P5 attempts) and one of the thirty-five Human ones (2026-09-27: 69 texts). The Human one is Catch the Hook P1 linted whole: three coach phrases ("You might notice…", "Or you might notice…", "You can figure that out later") in 97 words, and Pangram says 100% Human. So the coach limit can block human text when the phrases are short and casual. It's still a hard fail for my own drafts (what it was set on), but a coach FAIL on text someone else wrote, or on short paragraphs, gets read before it's trusted. The two spiritual-hurt paragraphs are 100% AI and only reach REVIEW: what sank them (a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical. Nor is what sank Three Adult Functions P1 r3b: a last sentence that concluded the paragraph (E74). Cutting only that sentence passed, so the pair is a clean control for T29.
 - At paragraph level, coach density separated the two failing P5 attempts (2.3, 2.4) from every Human paragraph (at most 1.85).
 - It misses all six context failures (the P6 + P7 pair, the whole section in rounds 11 and 13, the Borrow Love h2 body r1 and r2, and Borrow One Competency with the enjoying Nurturer), where every paragraph passes alone. In the last one a paragraph that passed alone, put in a section that passed without it, flagged itself and the Protector paragraph beside it: it restated the warmth paragraph's point, and it made the jobs march one per paragraph (E49). For the h2 body, the inventory run on the assembled section found them (E70). In round 13 its only coach flag in P7 was the sentence where Pangram's span started, which is why E62 says to check that flag first. Rounds 1, 4 and 6 only reach REVIEW. What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical, which is why the fresh sweep with the numbered inventory is a required step. The linter is a guard against obvious failures, not a writing guide.
 
