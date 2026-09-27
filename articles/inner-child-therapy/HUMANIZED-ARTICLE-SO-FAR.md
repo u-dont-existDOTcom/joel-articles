@@ -46,19 +46,7 @@ I think most people who chase spiritual freedom are also trying to get away from
 
 Spending your whole life processing your wounded inner child isn't freedom either. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning. Great. It didn't for me. Conditional love felt radically insufficient, so I kept looking for something deeper.
 
-### Don’t Give the Inner Adult Away
-
-If you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and handing them the steering wheel can actually help for a while. But they can know things you don't and still be wrong about you.
-
-Even [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-book/) comes from a tradition where devotion to a teacher is a big deal, and she still says a teacher should “wean us from dependency altogether” and help us grow up.
-
-If you're actually in danger, maybe you need to get out or get some help, even if meditation is helping with the pain. Calling it “your story” doesn't protect your little one from what's happening.
-
-Say you grew up learning that what you wanted didn't matter. Now you're only just finding out what you actually think, maybe even learning to say no. Then somebody tells you there is no self. That might be freeing at another point in your life; right now it can sound a lot like the message you already know: what you want doesn't matter. Or you tell a therapist, “No, that's not right for me,” and they call it resistance. Maybe they're right. But maybe they're wrong about you, or taking you somewhere you don't want to go. You still have to be able to say so.
-
-Borrow adulthood. Do not surrender it.
-
-My own case was weird. I was well-loved as a child, but from age twelve to twenty-six I was depressed and cried every night from feeling the pain of the world. [Loving-kindness (metta) meditation](http://love.u-dont-exist.com/) healed that depression almost instantly for me.
+I was well-loved as a child, but from age twelve to twenty-six I was depressed and cried every night from feeling the pain of the world. [Loving-kindness (metta) meditation](http://love.u-dont-exist.com/) healed that depression almost instantly for me.
 
 I wasn't lacking love. My parents had given me a lot of it. I found more in [Buddhist teachings—which, it turns out, also include inner-child self-love!](https://substack.com/profile/355021294-u-dont-existcom/note/c-297324975) and later in [loveyhuasca](http://soma.u-dont-exist.com/). Metta gave all that love somewhere to land.
 
@@ -67,6 +55,18 @@ But it didn't reach everything. A lot of the child stuff around my attachment to
 Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore. The three adult jobs from the map don't work too well when the adult has vanished, so I started looking for a way to have an adult there before I could reliably be that adult myself.
 
 The image below maps out the details as best as I can fit:
+
+<!-- Moved 2026-09-27 at Joel's direction (04:19 UTC): the four paragraphs of his own story, and the map line the last one points to, sat after "Borrow adulthood. Do not surrender it." (the working source's order); they belong to My Journey, before this h3. "My own case was weird." is cut. -->
+
+### Don’t Give the Inner Adult Away
+
+If you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and handing them the steering wheel can actually help for a while. But they can know things you don't and still be wrong about you.
+
+Even [Pema Chödrön](https://pemachodronfoundation.org/product/taking-the-leap-book/), who inspired parts of this guide, comes from a tradition where devotion to a teacher is a big deal, and she still says a teacher should “wean us from dependency altogether” and help us grow up.
+
+Say you grew up learning that what you wanted didn't matter. Now you're only just finding out what you actually think, maybe even learning to say no. Then somebody tells you there is no self. That might be freeing at another point in your life; right now it can sound a lot like the message you already know: what you want doesn't matter. Or you tell a therapist, “No, that's not right for me,” and they call it resistance. Maybe they're right. But maybe they're wrong about you, or taking you somewhere you don't want to go. You still have to be able to say so.
+
+Borrow adulthood. Do not surrender it.
 
 <!-- Source material between the accepted My Journey boundary and the next accepted Episode 008 blocks remains under humanization and is not silently presented here as finished. -->
 
@@ -82,7 +82,7 @@ I've been writing this whole guide as if everybody who tries it wants to take ca
 
 When I talk with folks like that, I mostly want to know what the identity gets them and what it costs, and especially what it's really serving. Some of them even call themselves sovereign, and then somehow there's an urge they have to obey, which sounds more like slavery to me.
 
-This part tends to scare the wrong people, like somebody who's horrified by their own thoughts. Everybody gets thoughts like that sometimes, and they don't make you a bad person, but why would you bring your inner child into the middle of them? The nice thing about inner child therapy is that you can wait until you're calm and actually ready. A real parent doesn't get to do that, which is one reason nobody manages to be a perfect one.
+This part tends to scare the wrong people, like somebody who's horrified by their own thoughts. Everybody gets scary thoughts they'd rather not have sometimes, and they don't make you a bad person, but why would you bring your inner child into the middle of them? The nice thing about inner child therapy is that you can wait until you're calm and actually ready. A real parent doesn't get to do that, which is one reason nobody manages to be a perfect one.
 
 And if somebody actually wonders whether they're malicious, they'd do better to meditate on it and find out why they're asking before they bring their inner child anywhere near it. Are they really feeling malicious, or is it some voice in their head saying so, like the inherited critic? There may be some malice in there too, and then the inner child can wait.
 
@@ -96,7 +96,9 @@ As for when their little one gets a turn, I'd say once scaring somebody has stop
 
 ## You Don’t Need an Inner Monologue
 
-If you don't hear a little kid talking in your head, don't invent one. Actually, this is one place where the usual inner-child prompt can get confusing, because “ask” sounds like you're supposed to ask a question and then wait for a second voice to answer. Maybe that's what happens for some people, but you might not be some people.
+<!-- 2026-09-27: the orphaned “ask” (Joel 2026-09-24, again 2026-09-27 04:19) now has its prompt. Pangram 4.0: P1 alone 100% Human (73 words); the section 100% Human (231 words). Record: experiments/OWNER-PUNCHLIST-20260927.md. -->
+
+If you don't hear a little kid talking in your head, don't invent one. Actually, this is one place where the usual inner-child prompt to “ask your little one what they need” can get confusing, because “ask” sounds like you're supposed to ask a question and then wait for a second voice to answer. Maybe that's what happens for some people, but you might not be some people.
 
 You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose. Try it and see. If words are there, speak or write them. You might feel more comfortable that way than just staying in imagination land.  And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually requiring your attention now is a knot in your stomach. Or perhaps you're in a place you want to leave. Sometimes nothing “answers” and you just know what would be nice to do for yourself.
 
@@ -116,15 +118,19 @@ When your nervous system is flooded, your protective parts are busy with the flo
 
 ### Catch the Hook Before the Story Takes Over
 
-You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns you: you're supposed to be observing yourself. 😀 Pema Chödrön calls this tightening and urge before the story has finished forming, "shenpa." Maybe forget the parts detective work for a minute. You can figure that out later.  
+<!-- 2026-09-27: "the hook" is now introduced before it's used (Joel 04:19); Pema's sentence moved to the front with her own gloss. Joel's items 7 and 8 are in P3. Pangram 4.0: P1 alone 100% Human (96 words); the section 100% Human (255 words). Record: experiments/OWNER-PUNCHLIST-20260927.md. -->
+
+Pema Chödrön calls the tightening and urge you get before the story has finished forming "shenpa," and she says "[hooked](https://www.lionsroar.com/how-we-get-hooked-shenpa-and-how-we-get-unhooked/)" is a more descriptive translation than the usual "attachment." You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns you: you're supposed to be observing yourself. 😀 Maybe forget the parts detective work for a minute. You can figure that out later.
 
 When you catch it, look around and just take a moment to enjoy some free honesty: "Oh! I'm hooked again! That's awesome I could notice it!" If nobody is in danger, take a breath or three before you finish whatever you were doing. Sometimes human beings need to be being, not always doing. 🙃 Maybe then you'll find there's enough adult around to be nice to your little boo for a second. Or enough Protector to stop something you'd regret later.
 
-Here's where I want to clearly depart from the new age wisdom that all your problems are self-created: Somebody may really have crossed a boundary and still have hit something old in you. You felt your stomach tighten up, and that somehow meant “They're evil.” But you can defer that judgement for when you're in your happy place.
+Here's where I want to clearly depart from the new-age wizdumb that all your problems are self-created: Somebody may really have crossed a boundary and still have hit something old in you. You felt your stomach tighten up, and that somehow elevated the boundary crossing to “They're evil.” But you can defer that judgement for when you're in your happy place.
 
 ### Also Look Outward
 
-Have you ever had a fight where you were absolutely sure you'd finally seen who somebody was, and then they came back later and had a basically normal conversation with you? Irritating. They can still disagree with you. Their boundary can still make you mad. Now the first fight has company. What matters more is when the subject changes but somehow you keep ending up in the same role: taking care of their reaction while your own experience disappears. [Lindsay Gibson](https://www.youtube.com/watch?v=VlNpgFWOLPw) writes about those repeated relational patterns in her work on emotional immaturity.
+<!-- 2026-09-27: P1's dangling middle ("They can still disagree with you. Their boundary can still make you mad. Now the first fight has company.") replaced with the point it was making (Joel 04:19). Pangram 4.0: the section 100% Human (284 words). P1 alone is 100% AI both before and after the fix (it passed on 2026-09-18 only as part of the section); a rewrite of P1 is proposed. Record: experiments/OWNER-PUNCHLIST-20260927.md. -->
+
+Have you ever had a fight where you were absolutely sure you'd finally seen who somebody was, and then they came back later and had a basically normal conversation with you? Irritating. People disagree, and sometimes their boundaries make us mad, and none of that shows who somebody really is. What matters more is when the subject changes but somehow you keep ending up in the same role: taking care of their reaction while your own experience disappears. [Lindsay Gibson](https://www.youtube.com/watch?v=VlNpgFWOLPw) writes about those repeated relational patterns in her work on emotional immaturity.
 
 You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change, that's probably as useful as their prior promises were. Think about how long it has taken you to become more healthy. Could you have done that from one moment to the next based on a promise? Sometimes we can be a better support for someone when we maintain a realistic boundary, so that we can hold high expectations, and still feel prepared for their failure to meet them.
 

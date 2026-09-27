@@ -287,3 +287,16 @@ E77. Every cut goes to Joel in the same message as the prose. When I show a cand
 E78. The article's central concept is always in the stance ledger, whatever the section (Joel, 02:42: "the point of reparenting is to not turn into your parents… otherwise you basically have your inherited parents in your head all the time parenting you"; "try to keep the functions of the article in mind before you change things up"). For this article: reparenting means taking the adult position so the parents you inherited stop running things in your head (source `The Parent You Inherited`). "Call yourself their big sibling", after "swearing you'd never turn into your parents", made reparenting sound like becoming them. A line that trades the parent role away breaks the article, even when the source's AI list offers it. E71 asked for consistency with the whole article; the ledger has to name the concept the whole article is about.
 
 E79. A term's definition goes where the term is first used in the humanized article (Joel, 02:42: "i think i just put the pl/ork def there because at that time pl/ork was first used there"). When a section is rewritten so that it stops using a term, check whether the definition now sits ahead of every use, and move it to the new first use.
+
+## P. Added 2026-09-27 04:40 — Joel's punch list
+
+E80. Owner flags get a living list. Joel flagged the orphaned "ask" on 2026-09-24. It was registered in a scope-extension file, carried by three candidates that were never installed, and then dropped (Joel, 04:19: "i know i told you this before but you didn't fix it"). Every flag Joel raises that isn't fixed the same turn goes into `OPEN-OWNER-FLAGS.md`, which is read at the start of each turn and before the article goes to him.
+
+E81. Read the whole assembled article for sense, not only the new section. Before sending the article each turn, and after any install or move, do one read from the top as a reader who hasn't seen the drafts. Look for:
+- names used before they're introduced (Pema in Don't Give);
+- terms used before they're defined ("the hook", "ask", "five percent");
+- sentences whose referent is gone (Also Look Outward's "They can still disagree with you");
+- paragraphs in the wrong section (Joel's own story after Don't Give's conclusion).
+A section that passed Pangram can still not make sense. Also Look Outward's first paragraph was accepted on its detector result alone.
+
+E82. A consolidation has to be explained and has to leave the rest organized (Joel, 04:19, on cutting the Three Adult Functions' premise: "you had some good instinct perhaps actually to begin with on that but it wasn't explained and it wasn't well organized"). E77 covers the explaining. The organizing part: after a cut, the text that stays can't lean on what was cut. My P2 introduced the three names as if they'd been explained. Before cutting a section's material, write down what job the section still has, and build it around that job.
