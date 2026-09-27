@@ -337,3 +337,20 @@ E86. My audit clears drafts that Pangram then flags, and adding rules hasn't cha
 - More than three UNCERTAIN rows means rebuild before any call, not KEEP with reasons. On today's records that would have stopped 6 of the 10 failures and 2 of the 9 passes.
 - Each retry names its hypothesis ("it failed because X; this version changes X"), and a retry that keeps the skeleton doesn't count as a test.
 - When Joel says a paragraph doesn't make sense, the fix is a rebuild of the paragraph, not the one sentence he pointed at. It stays open in `OWNER-EDITS.json` until the whole paragraph has been reread cold, each sentence checked for what it refers to and why it follows the one before.
+
+E87. Sense before humanization, and rebuild from the original (Joel, 2026-09-27 22:00: "fix the workflow because you shouldn't be checking for humanization before you even have something that makes sense"; on Also Look Outward P1: "look at the original ai one i guess maybe you whispered down the lane too much").
+
+The paragraph's history shows the drift. On 2026-09-17, the example-first candidate made sense: after an awful fight, the person comes back "and actually talk[s] about the thing you were trying to say", so the fight "looks pretty different in hindsight". Then comes what's harder to explain away (the same strange ending again and again), then Gibson on repeated behavior. Detector-driven localized rounds (A, B, B2, E, G, H) then cut the links:
+- "actually talk about the thing you were trying to say" became "had a basically normal conversation", which changes the meaning;
+- "Irritating." was added;
+- "Now the first fight has company" came in.
+
+Candidate H passed Pangram and was accepted on that result. My 2026-09-27 fix and my rewrite then worked from H, not from the source.
+
+The gate now starts with a sense step (HUMANIZATION-GATE.md, "Sense comes before humanization"):
+- start from the source;
+- write a per-sentence sense chain;
+- have a cold reader check every referent;
+- only then humanize.
+
+The first calibration of the cold reader: it caught the old three-jobs paragraph, and it passed the drifted Also Look Outward P1 while its line notes named its gaps. So the notes gate, not the verdict.

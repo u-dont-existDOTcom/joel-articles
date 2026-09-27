@@ -1,6 +1,6 @@
 # Also Look Outward P1: rewrite, 2026-09-27
 
-Status: **r1 FAILED (100% AI). WITH THE 2026-09-27 FIX, THAT'S TWO FAILURES OF MY PROSE ON THIS PARAGRAPH, SO IT GOES TO JOEL FOR A MINIMAL FIX. THE INSTALLED P1 STAYS; ITS SECTION PASSES.**
+Status: **r2 MAKES SENSE (FOUR COLD READS) BUT FAILS PANGRAM: THE FIRST PARAGRAPH 100% AI ALONE, THE SECTION 57% AI. THIRD FAILED TRY, SO IT GOES TO JOEL FOR A MINIMAL FIX ON r2. NOT INSTALLED; THE OLD P1 STAYS.**
 
 ## Why
 
@@ -116,3 +116,86 @@ What neither version fixed is Joel's 04:19 note, which covers the whole chain af
 - The order is turned around. The heading promises looking at what the other person actually does, and so does Joel's source: can they tolerate disagreement, reflect, take responsibility, make room for your experience, "or does the interaction repeatedly end with you carrying their feelings and abandoning your own position?" The qualifier comes after that in his source ("Someone disagreeing with you, needing time, or setting their own boundary does not make them emotionally immature"). The installed P1 opens with the qualifier ("you might be wrong about them"), and r1 kept that order.
 
 **Hypothesis for a third try, if Joel OKs one:** it fails because it's points without the thought that connects them, in an order that contradicts the heading. A rebuild in the source's order (what they do, then the qualifier, then Gibson), with each sentence following from the one before, tests that. It doesn't reword.
+
+## Joel, 2026-09-27 22:00
+
+> "yes try to make the paragraph make some sense or if you can't understand what you were trying to say then delete that part, idk look at the original ai one i guess maybe you whispered down the lane too much. fix the workflow because you shouldn't be checking for humanization before you even have something that makes sense"
+
+## r2: the sense step first (gate, "Sense comes before humanization")
+
+**S1, the original.**
+- Joel's source (Substack snapshot, `Also Look Outward`):
+  - P1: look at what the other person actually does ("Can they tolerate disagreement, reflect on their behavior, take responsibility, and make room for your experience—or does the interaction repeatedly end with you carrying their feelings and abandoning your own position?").
+  - P2: Gibson.
+  - P3: "Keep that assessment specific and revisable. Someone disagreeing with you, needing time, or setting their own boundary does not make them emotionally immature…"
+- The earliest humanized version that made sense: 2026-09-17, `EPISODE-008-EXAMPLE-FIRST-SUPERVISED-CANDIDATE-20260917.md`.
+- The drift after it: rounds A to H (E87).
+- Joel's P2 ("You may not know for certain…") is his own text, kept byte for byte since 09-17. So this paragraph has to lead into it.
+
+**What the fight example was trying to say** (the 09-17 version): after one awful fight they come back and actually engage with what you said, so that fight wasn't a diagnosis. That point is now the label caveat. The fight scene itself and "Irritating." are cut; they were the drifted part.
+
+**S2 and S3.** The sense draft went through four cold reads by fresh subagents that hadn't seen the source or the drafts. The line notes and what changed:
+1. First read (a blind batch with controls). It passed the drifted installed P1, but named its gaps in its line notes. It caught the old three-jobs paragraph. It found three snags in my sense draft: "it" with no noun; "emotional immaturity" attached to no one; a "fight" nothing sets up. All three fixed.
+2. Second read. Four notes:
+   - Gibson introduced cold: now "The psychologist Lindsay Gibson" (her site: PsyD).
+   - "the other person" across the heading: answered. It's the "Somebody" of the sentence right above the heading.
+   - "it" in "even when it stings": clause cut.
+   - The caveat had no reason: "Be careful with that label, though."
+3. Third read. Every sentence follows, and it delivers the heading. One real note: "disagreeing with you" flipped the direction of the disagreement from sentence 2. The subject is now explicit.
+4. Fourth read, after the humanizing edits below. Every sentence follows. Two notes fixed:
+   - whose term "emotionally immature" is: now "her word for them", matching her book titles;
+   - who "They" is in the last sentence: now "Someone".
+
+   Answered, not changed: "too", "their own part", "how it was for you", "something that hurt" and "twenty minutes" are ordinary inferences from the boundary-crossing sentence just before the heading. "footnotes" is the joke: the label as the same verdict with a citation.
+
+**Humanizing edits (after the sense step):**
+- The repeated ending made concrete: "you bring up something that hurt, and twenty minutes later you're the one comforting them" (the source's "carrying their feelings and abandoning your own position").
+- The caveat's reason tied to the previous section's verdict: "It can turn into 'They're evil' with footnotes."
+- Split into two paragraphs, since it's two beats: what to look at, then the caveat.
+
+### r2
+
+> Once you're in that happy place, look at the other person too. Can they hear you disagree, look at their own part, and make room for how it was for you? Or does every conversation go the same way, where you bring up something that hurt, and twenty minutes later you're the one comforting them? The psychologist [Lindsay Gibson](https://www.youtube.com/watch?v=VlNpgFWOLPw) writes about people like that, and her word for them is emotionally immature. She suggests noticing what someone is actually doing and what it's doing to you.
+>
+> Be careful with that label, though. It can turn into "They're evil" with footnotes. Someone can disagree with you, need time before they can talk, or set a boundary of their own without being emotionally immature.
+
+**Preservation trace:**
+- Forward:
+  - Source P1: the first paragraph's first three sentences.
+  - Source P2: Gibson, with only what's checked. She's a psychologist (https://www.lindsaycgibson.com/, "Psy.D."). "Emotionally immature" is her term (her book titles, https://www.lindsaycgibson.com/books.html). She suggests noticing what they do and what it does to you: the summary of *Adult Children of Emotionally Immature Parents*, pp. 146–150, "Notice and name (focus on observing the other person and on your internal reactions)" (https://www.findyourgoodspace.com/blog/book-summary-adult-children-of-emotionally-immature-parents).
+  - "Sometimes the problem is not that you have failed to explain yourself well enough" is in installed P4 ("Maybe your first explanation sucked…"). Adjusting expectations to what they repeatedly show is in Joel's P2 (promises).
+  - Source P3's first half: the second paragraph. Its second half is Joel's P2.
+  - The installed P1's units: the repeated role (kept), Gibson (kept), and disagreeing or their boundary not showing who someone is (the second paragraph). Cut: the fight scene and "Irritating."
+- **Not carried:** source P3's last sentence, "And you do not need repeated exposure to danger before protecting yourself." The installed version didn't have it either. It goes to Joel.
+- Reverse: the "twenty minutes" and "footnotes" details are the humanizing edits, above. Nothing else is new.
+
+**Linter:** REVIEW, only the D9 note, on each paragraph and on both. On the whole section, a B1 on Joel's P2 (his text).
+
+**Inventory:**
+- T12: UNCERTAIN. Two lists of three, both the source's.
+- T17: UNCERTAIN. "It can turn into 'They're evil' with footnotes" is a quip, but it's the reason for the caution.
+- Every other row, T01 to T29 and C01 to C04: ABSENT.
+- Two UNCERTAIN rows, under E86's limit of three.
+
+**Prediction (E86):** Human, low confidence. It keeps the source's order, as the failures did. But each sentence now comes out of the one before, and the two concrete bits carry points (the comforting as the pattern, the footnotes as the reason to be careful), instead of decorating them.
+
+**Checks planned (sha256 of the text without a final newline):**
+- The first paragraph alone: 86 words, sha256 d26237f735b695ac43d308720ad225338564cd28240c050e015c441261f70c42.
+- Both paragraphs: 122 words, sha256 e195ffde16143dca65c9a7802f70cd0010a2583a016136b25dc402e57571b8e1. The second is under 50 words, so it can't be checked alone.
+- The section (heading, both paragraphs, P2 to P4 as installed): 305 words, sha256 462a2cde65636a581616e1c0a7e516960027468c020fed9191a67c5f49c9ffe0.
+
+**Results (Pangram 4.0, 2026-09-27, the turn that started 22:01):**
+- The first paragraph alone: AI Generated, 100% AI, 89 words scanned, short text. The whole paragraph is flagged.
+- The section: AI Detected, 57% AI, 317 words scanned, "AI-generated content appears throughout". Two spans:
+  - from "Or does every conversation go the same way…" through the end of the second paragraph;
+  - installed P4 (the apology paragraph), which passed in the section with the old P1.
+- Both paragraphs together wasn't checked. The first paragraph failed alone, and the section check shows the second paragraph flagged too.
+
+**The prediction was wrong** (Human, low confidence). It's the first scored one (`tools/PREDICTIONS.md`).
+
+**What this shows.**
+- The sense step worked. The cold reads caught real gaps, and r2 says what the source says in an order a reader can follow.
+- Making sense doesn't make it read human. The failure now isn't the drift. It's an assessment paragraph in my voice: questions, a named expert, a caution, two lists of three.
+- It also pulls Joel's-lane P4 down with it, which the old P1 didn't.
+
+**Next.** Joel's minimal fix, on r2 rather than the drifted P1, because r2 is the version that makes sense. Until then the installed P1 stays, since its section passes. It's flagged as not making sense, and `OWNER-EDITS.json` shows it as waiting.
