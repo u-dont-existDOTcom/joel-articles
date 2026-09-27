@@ -1,6 +1,6 @@
 # "Become the Adult Apprentice": Claude drafts, 2026-09-27
 
-Status: **P1 PASSES ALONE (SECOND ATTEMPT). THE SECTION FAILED TWICE (100% AI BOTH TIMES), SO P2 GOES TO JOEL FOR A MINIMAL FIX. P3 (THE LABEL NOTE) IS PROPOSED TO MOVE TO THE START OF `The Three Adult Functions`.**
+Status: **INSTALLED 2026-09-27 AS HEADING + P1 (100% HUMAN). P2 CUT BY JOEL (01:19 UTC: "yes ok to cut it"). THE LABEL NOTE MOVED TO `The Three Adult Functions`.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E73 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`; the process is `tools/HUMANIZATION-GATE.md`; every turn ends with the full article (`OWNER-FACING-TURN-CONTRACT.md`, `tools/render_article_so_far.py`).
 
@@ -279,3 +279,52 @@ My guesses:
 - The last two sentences are a matched pair: a good helper does less, one who never does sold you a subscription. That's a balanced contrast (T12) ending on a punchline (T20).
 - "There's no schedule for this, but…" is a concessive opener that sets up the sign instead of just saying it.
 - At 41 words, P2 is three moves in a row: a sign, the helper's behavior, and the verdict. Nothing in it dwells.
+
+## Joel, 2026-09-27 00:55
+
+> "agreed matched pair ending on punchline gives it away. cut the punchline, done. altho idk how you tested that second para since it's under 50 words?
+>
+> agreed on moving it
+>
+> continue"
+
+- **P2, Joel's minimal fix:** the punchline ("One who never does has basically sold you a subscription.") is cut.
+  > There's no schedule for this, but one sign is skipping a day of practice without deciding you've blown the whole thing. Around then, a good helper starts doing less for you.
+
+  That's 31 words, sha256 cc01bd51f13179fd19a377d394c99900112a9bbbbc74e8cce0019563002c69fa.
+- **How P2 was tested:** it wasn't, not alone. It was under 50 words, so I only checked the whole section. P1 passed alone and the section with P2 failed, so I inferred that P2 was the cause. My message said "The second paragraph failed twice", which was wrong: it was the section that failed twice.
+- **AA-U6 (the label note) moves** to the opening of `The Three Adult Functions`. Owner decision.
+
+Check planned: the section (heading, P1, P2 as fixed). 109 words, sha256 81735b0261f828190181a70eb67d5b16fe6b2eefc9674f92e2d340eb622b1fa3. If it passes, it's installed on his "done … continue".
+
+### The section with Joel's fix: result
+
+Pangram 4.0, Joel's account: **AI Generated, 100% AI**, 112 words, short text. So cutting the punchline isn't enough. P1 alone was 100% Human at 75 words, and adding the heading and P2's 31 words flips it.
+
+A diagnostic check comes next, before anything else goes to Joel: the heading plus P1 only. If that passes, P2 is still the cause. If it fails, the heading or P1's borderline short-text pass is. This isn't a rewording; it tells us where to look.
+
+### Diagnostic: heading + P1 only
+
+Pangram 4.0, Joel's account: **Human Written, 100% Human**, 79 words, short text. That confirms the flip comes from P2, even without the punchline.
+
+What P2 still carries, and where the article already says it:
+- **"There's no schedule for this":** Chicken-and-Egg's stages, "You might be starting at any point here (and it may change even from hour to hour as well)".
+- **"A good helper starts doing less for you":** Chicken-and-Egg P2, "over time there are more and more of those little parts you can do yourself", and Borrow Love's "scaffolding".
+- **The missed-practice sign:** close to `When Healing Turns Into Checking`.
+
+So I'm proposing to Joel, with the pros, cons and a recommendation, per the contract: cut P2 and consolidate AA-U3 and AA-U5 there.
+- For: heading + P1 passes, and nothing is lost that the article doesn't already say.
+- Against: the section becomes one paragraph.
+- My recommendation: cut it. Nothing is installed until he answers.
+
+## Joel, 2026-09-27 01:19 UTC
+
+> "yes ok to cut it"
+
+- **P2 is cut.** AA-U5 and AA-U3 are consolidated where the article already carries them:
+  - no universal timeline: the Chicken-and-Egg stages ("You might be starting at any point here (and it may change even from hour to hour as well)");
+  - the helper handing the role back: Chicken-and-Egg P3 ("over time there are more and more of those little parts you can do yourself") and Borrow Love's "scaffolding";
+  - testing the five percent in daily life: P1's own "so try it before you call next time";
+  - the missed-practice sign: close to `When Healing Turns Into Checking`.
+- **The section is the heading and P1**, as tested in the diagnostic: 100% Human, 79 words scanned. Text sha256 (plain, as tested) 36a0a2bb4b1213d8449699c90f8d3acc1d7d30b0cd6373035efdd522a2e834b3.
+- **Installed** in `HUMANIZED-ARTICLE-SO-FAR.md` after Borrow Love, with an install comment. Owner acceptance: "cut the punchline, done" (00:55) for the section, and this message for cutting P2.

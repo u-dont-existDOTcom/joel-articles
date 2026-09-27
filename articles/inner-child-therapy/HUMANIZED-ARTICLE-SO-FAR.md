@@ -210,3 +210,9 @@ Get as close to it as you really can right now, and bring your little one in wit
 If a spiritual teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now. Kids quit piano over one bad teacher, and this is way worse. But if you let an abuser control your appreciation of life, then you've given them an unearned win.
 
 And being the grown-up doesn't mean controlling everything. That's pretty much the Serenity Prayer: change what's yours to change, and accept what isn't, which is where other people's choices go.
+
+<!-- Become the Adult Apprentice (source h2 of the same name) installed 2026-09-27 from writer branch `handoff/claude-dangerous-adult-20260924-1631`. Owner-accepted (Joel, 2026-09-27 00:55 UTC: "cut the punchline, done"; 01:19 UTC: "yes ok to cut it", cutting P2 entirely). Pangram 4.0: the heading and P1 together 100% Human (79 words scanned, short text); P1 alone 100% Human (75 words, short text). P1 is Claude's. The source's timeline, signs and hand-back (AA-U3, AA-U5) are consolidated where the article already carries them: the Chicken-and-Egg stages, "over time there are more and more of those little parts you can do yourself", and Borrow Love's "scaffolding". The label note (AA-U6) moves to the opening of The Three Adult Functions (owner decision, 00:55). Text sha256 (plain, as tested): 36a0a2bb4b1213d8449699c90f8d3acc1d7d30b0cd6373035efdd522a2e834b3. Record: `experiments/ADULT-APPRENTICE-DRAFTS-20260927.md`. -->
+
+## Become the Adult Apprentice
+
+Say a friend sits with you while you fall apart. Most of us feel better and call them again the next time, and they get a little better at it every time while we don't. So steal some of it. Usually what helped was how they just sat there without trying to fix you. Ten seconds of sitting with yourself like that is your five percent, so try it before you call next time.
