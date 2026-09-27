@@ -181,9 +181,7 @@ The Guide can be you too, just a calmer you. That's a lot easier to imagine than
 
 The thank-you you weren't waiting for might not come anyway. 😜 More like "Oh, so NOW you care?" Which, fair enough, you did take a while. Your first instinct might be "But I'm trying!", and then it's just two six-year-olds arguing. Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you. 🙄
 
-<!-- CANDIDATE: Waiting for your OK, not accepted yet. The whole Borrow Love section below tested 100% Human on Pangram 4.0 (710 words). -->
-
-<!-- Borrow Love candidate (2026-09-26), from writer branch `handoff/claude-dangerous-adult-20260924-1631`. Owner text: P4 (Joel 19:23 UTC), P6 (Joel 20:44), the Goodwill h3 (Joel 23:15, his check Human/medium) and the first spiritual-hurt paragraph (Joel 23:15, his check Human). The rest is Claude's, each paragraph checked alone first; the Serenity Prayer paragraph is owner-accepted (Joel 23:15). Whole section, plain text as tested: sha256 a50ae9b14e802d55db6ae152cf98006b6f9cac2cd0bbb60b59e9ef40dc340f9c. Record: `experiments/BORROW-LOVE-DRAFTS-20260926.md`. -->
+<!-- Borrow Love (source h2 `Borrow Love—or Borrow the Perspective of Care` and its three h3s) installed 2026-09-27 from writer branch `handoff/claude-dangerous-adult-20260924-1631`. Owner-accepted (Joel, 2026-09-27 00:24 UTC: "approved continue"). Pangram 4.0: the whole section 100% Human (710 words scanned); the h2 body 100% Human as a whole (357 words); every Claude paragraph passed alone first. Owner text: P4 (Joel 19:23 UTC), P6 (Joel 20:44), the Goodwill h3 (Joel 23:15; his check Human/medium) and the first spiritual-hurt paragraph (Joel 23:15; his check Human). The Serenity Prayer paragraph is owner-accepted (23:15). Claude's: P1, P2, both Ask God paragraphs and the Serenity Prayer paragraph. Text sha256 (plain, as tested): a50ae9b14e802d55db6ae152cf98006b6f9cac2cd0bbb60b59e9ef40dc340f9c. Record: `experiments/BORROW-LOVE-DRAFTS-20260926.md`. -->
 
 ## Borrow Love—or Borrow the Perspective of Care
 

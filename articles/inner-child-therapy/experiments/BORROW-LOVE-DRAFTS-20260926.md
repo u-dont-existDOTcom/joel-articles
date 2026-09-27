@@ -1,6 +1,6 @@
 # "Borrow Love—or Borrow the Perspective of Care" — Claude drafts — 2026-09-26
 
-Status: **THE WHOLE SECTION PASSES: 100% HUMAN, 710 WORDS (PANGRAM 4.0, 2026-09-26, IN THE TURN ANSWERING JOEL'S 23:15 MESSAGE). SENT TO JOEL AS HTML FOR APPROVAL; INSTALL ONLY ON HIS OK.**
+Status: **INSTALLED 2026-09-27 (JOEL 00:24 UTC: "approved continue"). THE WHOLE SECTION TESTED 100% HUMAN, 710 WORDS.**
 
 Where to pick up: read this status line, then the last heading of this file. The lessons are E59–E70 in `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, and the process is `tools/HUMANIZATION-GATE.md`.
 
@@ -1570,4 +1570,3 @@ Stance, stated by Joel. It goes into the ledger for the last section, `You Are W
 - When the ending is humanized, it should make that distinction clear, so "Love precedes anything you could earn" reads as the universal kind.
 
 It fits what's in Borrow Love already: Ask God's "a love that's a whole different size", and Goodwill's "then they actually would be lovable", which is about love between people. Nothing in Borrow Love changes.
-
