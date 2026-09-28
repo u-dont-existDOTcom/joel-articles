@@ -21,10 +21,18 @@
 - **Accounts.** Use Joel's Emulate and Pangram accounts only.
   - If either site asks you to sign in, stop and ask Joel to take over the browser and sign in.
   - Never create an account, type a password, buy anything, or change a plan or setting.
+- **Emulate's API first, the website as a fallback.** Joel has an Emulate API key.
+  - Read the key from the environment variable `EMULATE_API_KEY`. If Joel has to give it to you another way, keep it in memory only.
+  - Never print, log, save or commit the key, and never put it in a report.
+  - Use the API docs Joel points you to; they aren't public. Call the endpoint that does what the website's Humanize button does, with the same settings (Auto).
+  - Record each request's settings and the full response text in `emulate.jsonl`, without the key.
+  - Use the website for an input when the API is missing, fails twice in a row, or can't take that input, and note it.
+  - Probe D7 checks whether the API and the website give the same kind of output.
 - **Budgets.** Track both in `LEDGER.md` as you go.
-  - **Emulate:** at most 50,000 words in all, and at most 3,000 words per submission, which is Emulate's own limit. It charges the words you paste.
+  - **Emulate:** at most 50,000 words, and at most 3,000 words per submission, which is Emulate's own limit. It charges the words you paste.
     - Split: learning sets A–D up to 7,000; articles up to 40,000; reruns up to 3,000.
-    - If you run out, stop that kind of work and list what's left in the morning note. Don't go past it; Joel can raise it.
+    - Joel allows up to 59,000 if the articles need it (2026-09-28, 23:54). Use the extra only for articles, Hearthwork included.
+    - If you still run out, stop that kind of work and list what's left in the morning note.
   - **Pangram:** 1 credit per 100 words. Joel says credits aren't a problem. Still, read the balance before you start, log what each check costs, and stop checking if the balance drops below 300.
 - **Emulate's output never replaces Joel's own writing.** Only two things of his go to Emulate: the control C2, and the odd sentence of his inside a set A "before" text. Their outputs are data only.
   - In the articles, a paragraph that already reads Human in the baseline check stays exactly as it is, whoever wrote it. So does any passage `ARTICLES.md` marks as Joel's, even if Pangram flags it. Those paragraphs still go into the Pangram checks of their section.
@@ -58,7 +66,7 @@
   - C1 is Claude's.
   - C2 is Joel's own writing, so its output is data only.
 - `inputs/learning/CONTEXT_section_so_far.txt` is the inner child section as it stands: two headings, Joel's paragraph and Claude's paragraph. It's only for Pangram context checks and never goes to Emulate.
-- `inputs/learning/E_holdout/` holds 5 guide paragraphs and `BRIEF.md`, for the transfer test in Part 5. **They never go to Emulate.**
+- `inputs/learning/E_holdout/` holds 5 guide paragraphs and `BRIEF.md`. Claude will use them for a transfer test later. **They never go to Emulate, and nobody else writes them.**
 - `inputs/articles/` holds Joel's four articles as Markdown, converted from the Substack editor. The raw HTML is in `inputs/articles/raw/`. `ARTICLES.md` lists them in order, with notes.
 - `tools/tells_lint.py` is Claude's linter. Run it with `python3 tools/tells_lint.py FILE`.
 - `tools/JOEL-FIXES-CATALOGUE-20260928.md` is Joel's fixes grouped by kind.
@@ -109,7 +117,7 @@ Check every learning input as it is on Pangram, using the variant `baseline`.
 
 ## Part 2. Emulate runs (Work)
 
-Leave Style on Auto unless a probe below says otherwise. Paste one input per run, press Humanize, and copy the result. Don't chat with Emulate. Chat edits cost words and aren't part of the test.
+Leave Style on Auto unless a probe below says otherwise. Send one input per run, through the API or on the website (paste it, press Humanize, copy the result). Don't chat with Emulate. Chat edits cost words and aren't part of the test.
 
 Go in this order, and stop at the budget:
 
@@ -133,6 +141,7 @@ Go in this order, and stop at the budget:
    - **D4 (what do the Style settings change?):** run B01 twice more, once set to second person and casual, once to first person. Record the exact settings.
    - **D5 (does it write a paragraph differently inside a longer piece?):** compare the paragraphs in B03's output that cover B01's content with B01's own outputs.
    - **D6 (does it keep links?):** see Links, under Articles above.
+   - **D7 (do the API and the website match?):** if you can use both, run B01, A01 and A03 through each and compare. If they differ in kind, say so in the morning note. Keep using the API unless its outputs fail Pangram more often.
 
 ## Part 3. Check every output (Work)
 
@@ -194,6 +203,8 @@ Read everything in `runs/`, plus `inputs/MANIFEST.md`, `ARTICLES.md`, Joel's ref
    - how much of the input's meaning is kept.
 
    Separate the moves it makes everywhere, which are its style, from the moves the splice data ties to the verdict changing, which are the signal.
+
+   End with a short section, labelled as your opinion: what still reads machine-made to you in Emulate's outputs, with examples.
 3. **`SPLICES.md`**, what the splice experiments show:
    - whether the flip comes from particular sentences, from how many are changed, or only from the whole piece;
    - which kinds of units flip it;
@@ -201,15 +212,19 @@ Read everything in `runs/`, plus `inputs/MANIFEST.md`, `ARTICLES.md`, Joel's ref
 
    Use the flagged spans.
 4. **`FRAGILITY.md`**, the edit test turned into advice: which edits Emulate's output survives.
-5. **`LESSONS.md`**, rules Claude could follow when writing by hand. For each rule give:
+5. **`SLOP-PREP.md`,** groundwork for a question Claude will take on. Some readers say Emulate's output still sounds like AI, even when Pangram passes it. Don't judge that here; lay out the material:
+   - Run `tools/tells_lint.py` on every Emulate output, on every set A "before", on every Joel "after" in set A, and on Claude's own passing paragraphs (the `tools/calibration/PASS_*.txt` files without "joel" in the name).
+   - Put the four groups side by side in one table, with each linter rule's hits per 100 words.
+   - List the 10 Emulate outputs that passed Pangram but have the most linter hits, with the hits quoted.
+6. **`LESSONS.md`**, rules Claude could follow when writing by hand. For each rule give:
    - the rule in one sentence;
    - the evidence (pair ids, splice results);
    - how confident you are;
    - what result would prove it wrong.
 
    Mark any rule a chat model can't follow as such, for example one that depends on word probabilities. Don't write a rule the data doesn't support. Say "no clear pattern" where there isn't one.
-6. **Transfer test.** Pro writes E1–E5 by following `LESSONS.md` and `inputs/learning/E_holdout/BRIEF.md` only. Work checks them as BRIEF.md says, using the variant `transfer`. Add the results to `LESSONS.md`. This shows whether a model that knows the rules can pass without Emulate, which is what Claude needs to know.
-7. **`QUALITY-<slug>.md`, one per article,** going section by section:
+7. **Transfer test: not for Pro.** Claude will do it later with `inputs/learning/E_holdout/`, after reading this analysis. Don't read those files, and don't write paragraphs of your own.
+8. **`QUALITY-<slug>.md`, one per article,** going section by section:
    - List what the original says (its points, facts, names, numbers, links), and whether the humanized version keeps each one.
    - List anything added. **Any new "I…" experience or fact about Joel's life means the section is rejected** (Joel's rule).
    - List any of Joel's bans that appear (below).
@@ -217,7 +232,7 @@ Read everything in `runs/`, plus `inputs/MANIFEST.md`, `ARTICLES.md`, Joel's ref
    - List every coined word or catchy phrase of Joel's that the rewrite changed, such as "pl/ork", "Hearthwork", "wizdumb" or the emojis in headings. Joel wants them kept, and he decides.
    - Mark the paragraphs where Joel tells his own story, and say whether the rewrite still tells it truly.
    - Give each section a verdict: ready, needs a fix (say what), or failed Pangram.
-8. **`MORNING-NOTE.md`** for Joel, at most 10 lines: what's done, what passed, what needs him, and the budget used.
+9. **`MORNING-NOTE.md`** for Joel, at most 10 lines: what's done, what passed, what needs him, and the budget used.
 
 ## Part 6. Pro's follow-up checks (Work, if there's budget and time)
 
