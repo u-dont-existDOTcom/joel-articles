@@ -34,7 +34,7 @@ These are now in `tools/reviewer/owner_bans.txt`, in every writer and reviewer p
 - **P3. A brief's wording goes straight into the drafts.** That includes wording I wrote myself.
 - **P4. The side-by-side page is the review format** (`make-the-protector-visible-in-context.html`).
 
-## After reading all of Joel's fixes (21:31–22:40)
+## After reading all of Joel's fixes (21:31–21:44)
 
 **What I read:**
 - every before/after pair of his on record (`tools/JOEL-FIXES-CATALOGUE-20260928.md`);

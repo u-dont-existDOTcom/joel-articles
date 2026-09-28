@@ -63,6 +63,21 @@ Each Pangram call gets a prediction in its record before the call. This log scor
 | 2026-09-28 | My own afterward paragraph afA2 alone | not written beforehand (my lapse) | 100% AI (87 words) | — |
 | 2026-09-28 | Guide paragraph 1, my versions s1v1, s1v2, s1v3 (after Joel's 19:51 notes) | not written beforehand (my lapse) | 100% AI each (91, 94, 86 words) | — |
 | 2026-09-28 | Guide paragraph 1, my versions s1n1, s1n2, s1n3 (after reading all of Joel's fixes) | not written beforehand (my lapse) | 100% AI each (111, 97, 100 words) | — |
+| 2026-09-28 | Guide paragraph 1, s1n2 with Joel's minor changes ("So", moldy bread, the tax man and the Maryland DUIs) | (Joel's own check) | AI, medium (Joel's check) | — |
+| 2026-09-28 | Guide paragraph 1, Joel's one-change fix ("What's a 'boundary'?", I might be asking. That looks like saying no…) | (Joel's own check) | Human, medium (Joel's check) | — |
+| 2026-09-28 | Make the Protector Visible so far: heading, the 2 a.m. paragraph, Joel's paragraph 1 | Human (my call: both paragraphs pass alone, and nothing new joins them) | 100% AI (181 words); Joel's paragraph 1 alone rechecked 100% Human (121 words) | miss |
+| 2026-09-28 | Guide paragraph 2, my s2a alone (sarcasm, distrust; "Is it really protecting if I'm just sitting there taking it?" Yeah, kind of.) | Human, low (my call: a question breaks the run, as in Joel's boundary fix) | 100% AI (114 words) | miss |
+| 2026-09-28 | Guide paragraph 2, my s2b alone ("They… and you…" run, proof-vs-love last line) | AI (my call: five parallel sentences, then an antithesis to close) | 100% Human (107 words) | miss |
+| 2026-09-28 | Guide paragraph 2, my s2c alone ("So what else is there?" Well…) | Human, low (my call: the question breaks the run, and it ends on an act rather than a summary) | 100% Human (98 words) | hit |
+| 2026-09-28 | Diagnostic: the 2 a.m. paragraph + Joel's paragraph 1 without his "So" | Human, low (my call: "So" makes the list read as the lesson drawn from the scene) | | |
+| 2026-09-28 | Diagnostic: Joel's paragraph 1, then the 2 a.m. paragraph | Human, low (my call: the scene then reacts to the list instead of setting it up) | | |
+| 2026-09-28 | Joel's paragraph 1 + my s2c | AI, low (my call: both pass alone, but joins have failed twice today) | | |
+| 2026-09-28 | Diagnostic results: the 2 a.m. paragraph + Joel's paragraph 1 without "So" | (logged above) | 100% AI (176 words) | miss |
+| 2026-09-28 | Diagnostic results: Joel's paragraph 1, then the 2 a.m. paragraph | (logged above) | 100% AI (177 words) | miss |
+| 2026-09-28 | Joel's paragraph 1 + my s2c: result | (logged above) | 37% AI (219 words); the AI window runs from Joel's last line through s2c's first four sentences, up to "…but it's not the whole thing." | hit (mostly) |
+| 2026-09-28 | Guide paragraph 2, my s2d alone (opens by reacting to paragraph 1: "Will they, though? Maybe not right away.") | Human, low (my call) | 100% AI (115 words) | miss |
+| 2026-09-28 | Joel's paragraph 1 + my s2d | Human, low (my call: s2d's first lines react to his last line instead of starting a new run) | 100% AI (236 words), Joel's paragraph flagged too | miss |
+| 2026-09-28 | Heading + Joel's paragraph 1 + my s2d | Human, low (my call: same) | 100% AI (236 words), Joel's paragraph flagged too | miss |
 
 Joel rejected the four round-2 passes (19:51: invented scenes, a "Fine," clause, wry humor), so a Pangram pass that leaves the guide isn't a success here.
 

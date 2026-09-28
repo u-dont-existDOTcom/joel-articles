@@ -259,12 +259,13 @@
   },
   {
    "id": "h1-building-trust",
-   "status": "pending",
+   "status": "applied",
    "what": "The h1 over Make the Protector Visible, Love Doesn't Have to Wait for Trust and Make a Simple Vow is \"Building Trust With Your Little One\".",
    "joel": "17:05 (decision 3); 20:29: \"your new heading is good\"",
    "waits_for": "Make the Protector Visible",
    "must_contain": [
-    "Building Trust With Your Little One"
+    "Building Trust With Your Little One",
+    "# Building Trust With Your Little One"
    ]
   },
   {
@@ -303,6 +304,17 @@
     "Or can they hear you disagree and look at their own part?",
     "If it's the first, it can seem like",
     "You may not know for certain whether the other person"
+   ]
+  },
+  {
+   "id": "mpv-p1-boundary",
+   "status": "applied",
+   "what": "Make the Protector Visible P1: Joel's fix of Claude's draft (the boundary question), installed as the section's first paragraph, candidate (2026-09-28).",
+   "joel": "22:12 UTC: \"then look how i flipped it to human med conf with only one little change that broke up the marching order\"",
+   "must_contain": [
+    "\"What's a 'boundary'?\", I might be asking.",
+    "or your DUIs in Maryland",
+    "Throw the moldy bread in the trash."
    ]
   }
  ]

@@ -123,6 +123,30 @@ Joel, 2026-09-25: "Notice it still has listicles. Listicles are sometimes necess
 - "i told you to stop saying 'Fine, Good, Great' as clauses before" (2026-09-28)
 - "i'm not saying to ban made-up scenes, they can be useful, but you're overusing them here." (2026-09-28)
 
+## Minimal-fix lesson 1: the boundary question (2026-09-28 22:12)
+
+**My draft** (100% AI, 97 words): "Set one boundary. Say no to something that's costing you too much (money, time, whatever it is). Handle that task you've been putting off, or the money mess, even if all you do today is open the envelope. …"
+
+**His minor changes, AI/medium on his check:** "So set one boundary.", "Throw the moldy bread in the trash.", and "or the tax man, or your DUIs in Maryland" in place of "or the money mess".
+
+**His one change, Human/medium on his check** (100% Human, 121 words, on mine): "So set one boundary. \"What's a 'boundary'?\", I might be asking. That looks like saying no to something that's costing you too much (money, time, whatever it is). …"
+
+Joel: "look how i flipped it to human med conf with only one little change that broke up the marching order". The change has two parts:
+- a plain question in his own voice about the jargon word the list had just used;
+- the next item rewritten as the answer ("That looks like…").
+
+That turns a run of commands into sentences that react to each other. The summing-up last line stayed and still passed. The run was the problem, not the ending.
+
+**What it does in the section** (my checks, 2026-09-28):
+- Joined to the 2 a.m. paragraph, his paragraph tests 100% AI, in either order, with or without "So".
+- Followed by my paragraph 2 draft s2c, the pair is 37% AI (219 words). The flagged window is his last line plus s2c's first four sentences:
+  - a topic-sentence opener ("Some of it happens where nobody else can see.");
+  - two parallel "When…, don't…" lines;
+  - an "is a kind of love, … but it's not the whole thing" line.
+
+  It turns human again at s2c's question ("\"So what else is there?\" Well, …").
+- My try at an opening that reacts to his last line ("Will they, though? Maybe not right away.") failed alone. It also pulled the whole pair to 100% AI.
+
 ## The test after reading (2026-09-28)
 
 I wrote three versions of the guide's first "Make the Protector Visible" paragraph (the six-act list and its reason) with these moves:

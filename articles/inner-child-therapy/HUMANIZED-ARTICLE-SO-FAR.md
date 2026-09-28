@@ -248,3 +248,11 @@ And being the grown-up doesn't mean controlling everything. That's pretty much t
 ## Become the Adult Apprentice
 
 Say a friend sits with you while you fall apart. Most of us feel better and call them again the next time, and they get a little better at it every time while we don't. So steal some of it. Usually what helped was how they just sat there without trying to fix you. Ten seconds of sitting with yourself like that is good enough for a start, so try it before you call next time.
+
+<!-- CANDIDATE: Make the Protector Visible, in progress (2026-09-28). Paragraph 1 is Joel's fix of Claude's draft (22:12 UTC: the "What's a 'boundary'?" question), 100% Human alone on his check and on Claude's (121 words). The 2 a.m. paragraph that was meant to open the section is out for now: joined with this paragraph it tests 100% AI, in either order and without "So". Guide paragraphs 2–4 aren't done. The h1 replaces the dissolved "The Three Adult Functions" (Joel's OK). -->
+
+# Building Trust With Your Little One
+
+## Make the Protector Visible
+
+So set one boundary. "What's a 'boundary'?", I might be asking. That looks like saying no to something that's costing you too much (money, time, whatever it is). Throw the moldy bread in the trash. Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one. Clean your room! And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you.
