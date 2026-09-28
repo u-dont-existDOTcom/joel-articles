@@ -2,19 +2,24 @@
 
 Updated: 2026-09-28
 
-## 2026-09-28 Nibbāna pre-registration lineage recovery
+## 2026-09-28 controlling Nibbāna registration
 
-- **Nibbāna remains unregistered.** Do not add it to the registered-article count or infer current authority from archive filenames.
-- Joel states that he now has the **humanized final**, but that final has not yet been supplied to this repository.
-- Recovered historical material is under `archive/nibbana-pre-registration-2026-08/`, including the 2026-08-01 Substack-editor AI/hybrid baseline snapshot, the r07 owner-green rebuild review, the historical r09 merged candidate, the r10 repair handoff, the August 8 humanized/dedup candidate and its diff, and the later compression diff.
-- These are provenance/recovery artifacts only. A fresh worker should read `archive/nibbana-pre-registration-2026-08/README.md` before using them.
-- When Joel supplies the final, perform the normal first-import procedure and preserve this archive as lineage; do not promote an archived candidate by recency or filename.
+This section supersedes the pre-registration lineage-recovery note that previously occupied this position.
+
+- Registered working articles: **Romance**, **Somatic Therapies**, **Inner Child Therapy**, **Inner Signal**, and **Nibbāna**.
+- Nibbāna is registered from Joel's exact current Substack editor body supplied 2026-09-28.
+- Working master: `articles/nibbana/master.html`, SHA-256 `5e42c5a85ef8dfd20ed1386ee5a12028efdeab6bbb978028e2f61e426f4c5ee9`, 365,191 bytes.
+- Joel states that the current article has mixed provenance: some passages were written without AI and some were AI-assisted/humanized. Do not infer span authorship from detector status or style.
+- Joel reports that all current prose passes Pangram. This is recorded as owner-reported detector evidence, not as reconstructed raw run history and not as proof of natural-human authorship.
+- Start from `articles/nibbana/CURRENT-STATE.md` and `articles/nibbana/IMPORT-RECEIPT-20260928.md`.
+- The recovered August lineage at `archive/nibbana-pre-registration-2026-08/` remains historical provenance only and cannot supersede the registered master.
+- Fresh whole-article citation and editorial review remain pending; registration does not newly assert external publication status.
 
 ## 2026-09-26 controlling Inner Signal registration
 
 This section supersedes older article-count language below and the branch-only wording of the 2026-09-11 Inner Signal section, which is retained as history.
 
-- Registered working articles: **Romance**, **Somatic Therapies**, **Inner Child Therapy**, and **Inner Signal**.
+- Registered working articles: **Romance**, **Somatic Therapies**, **Inner Child Therapy**, **Inner Signal**, and **Nibbāna**.
 - Inner Signal (the self-hypnosis guide) is registered on `main` from the exact r03 bytes of former PR #76 (`research/hypnosis-bottom-up-six-books-20260910` at `90fffafd4864d62b9d987272dab5a8c17a259e9e`); a branch/tree scan on 2026-09-26 found no later Inner Signal or hypnosis article version in this repository.
 - Working master: `articles/inner-signal/master.html`, SHA-256 `842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab`. It is a working candidate, not whole-guide owner-final or published copy.
 - Start from `articles/inner-signal/CURRENT-STATE.md` and `articles/inner-signal/sync-r03/SYNC-REPORT.md`. Remaining gates there (Opera-to-Substack paste check, independent semantic review, live voice/interrupt behavior) stay open.
@@ -49,7 +54,7 @@ Maintain exact GitHub-canonical authority and recoverable state for Joel's regis
 
 The Project-source recovery, GitHub migration, ChatGPT Project cutover, and article-authority system are active.
 
-GitHub is the durable authority for governance, protocols, tooling, and registered article state. `articles/INDEX.json` registers **Romance** and **Somatic Therapies** as working canonical articles.
+GitHub is the durable authority for governance, protocols, tooling, and registered article state. `articles/INDEX.json` registers **Romance**, **Somatic Therapies**, **Inner Child Therapy**, **Inner Signal**, and **Nibbāna** as working canonical articles.
 
 GitHub hosted readback on 2026-08-20 confirmed repository visibility is public, the default branch is `main`, and `main` is not protected. Joel confirmed a standing public-working rule on 2026-08-22: assigned work may be stored in public GitHub repositories by default unless he explicitly says private/confidential. This does not authorize external publication or licensing and does not override credentials, third-party privacy, or existing explicit-private repository boundaries. `u-dont-existDOTcom/AskRigor-lessons` remains an explicit private exception.
 
