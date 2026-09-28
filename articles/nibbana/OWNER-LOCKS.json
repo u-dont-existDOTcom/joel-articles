@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article_id": "nibbana",
+  "owner_review": {
+    "status": "confirmed",
+    "evidence": "2026-09-28: Joel supplied the exact current humanized Substack editor body and identified it as the current humanized article. He stated that some passages were written without AI, some were AI-assisted/humanized, and all current prose passes Pangram. This confirms current working authority, not span-level authorship or independent detector certification."
+  },
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "PF01",
+      "description": "Preserve the autobiographical route from activism, psychedelics, meditation, relationship crisis, and Buddhist practice into the room and fingers nibbāna experiences."
+    },
+    {
+      "id": "PF02",
+      "description": "Preserve the distinction between oneness/unification experiences and the article's model of nibbāna as full unweaving."
+    },
+    {
+      "id": "PF03",
+      "description": "Preserve the spiritual-bypass correction: realization does not replace trauma work, inner-child reparenting, ethical conduct, or spiritual friendship."
+    },
+    {
+      "id": "PF04",
+      "description": "Preserve the degree/scope taxonomy: partial untying versus full unweaving, body-limited versus body-uncontained nibbāna, reassembly, and parinibbāna."
+    },
+    {
+      "id": "PF05",
+      "description": "Preserve the article's conditions/no-puppeteer argument while retaining accountability and the role of choices as conditions."
+    },
+    {
+      "id": "PF06",
+      "description": "Preserve the practical map-warning function: stage maps can accelerate insight and also create counterfeit attainment claims when readiness and verification are weak."
+    },
+    {
+      "id": "PF07",
+      "description": "Preserve the meditation invitation together with the success/confusion/danger distinctions and the instruction to stop deepening when orientation or functioning worsens."
+    },
+    {
+      "id": "PF08",
+      "description": "Preserve the article's owner-specific humor, personal admissions, captions, links, and native media placements as part of the current Substack source unless Joel authorizes a change."
+    }
+  ]
+}
