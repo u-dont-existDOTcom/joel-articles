@@ -99,6 +99,9 @@ Each Pangram call gets a prediction in its record before the call. This log scor
 | 2026-09-28 | h1 + the h2 "Do Something They Can See" + Joel's paragraph 1 + my s2j (looking for a heading that doesn't overlap the later "Make a Simple Vow") | Human, low (my call, written before the check) | 85% AI (250 words); flagged: the headings through "Throw the moldy bread in the trash.", and his last two sentences through the end of s2j | miss |
 | 2026-09-28 | h1 + the h2 "Let Them See It" + Joel's paragraph 1 + my s2j (looking for a heading that doesn't overlap the later "Make a Simple Vow") | Human, low (my call, written before the check) | 100% AI (249 words) | miss |
 | 2026-09-28 | h1 + the h2 "Show Up for Them" + Joel's paragraph 1 + my s2j (looking for a heading that doesn't overlap the later "Make a Simple Vow") | Human, low (my call, written before the check) | 18% AI (249 words); flagged: his last two sentences only | miss |
+| 2026-09-28 | Emulate baseline: my plain first draft of guide paragraph 3 (m3), alone | AI (my call, written before the check) | 100% AI (52 words) | hit |
+| 2026-09-28 | Emulate baseline: my plain first draft of guide paragraph 4 (m4), alone | AI (my call) | 100% AI (138 words) | hit |
+| 2026-09-28 | Emulate baseline: m3 + m4 together | AI (my call) | 100% AI (190 words) | hit |
 
 After Joel's 22:12 lesson (my calls, all written before the checks): 12 of 21. Paragraph drafts 6 of 8. Headings and context 6 of 13: I didn't expect a heading to flip his paragraph, and after that I couldn't tell which headings would pass.
 
