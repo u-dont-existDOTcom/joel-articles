@@ -2,15 +2,15 @@
 
 Status: **historical / non-authoritative**  
 Recovered to GitHub: 2026-09-28  
-Current article registration: **none** — Nibbāna is not yet in `articles/INDEX.json`.
+Current article registration: **working** — current authority is `articles/nibbana/master.html`.
 
 ## Why this exists
 
-Joel confirmed on 2026-09-28 that he now has the **humanized final**. That final has not yet been supplied to this repository, so this archive deliberately does **not** choose or manufacture a current Nibbāna master.
+Joel supplied the current humanized Substack editor body on 2026-09-28. It is now registered separately under `articles/nibbana/`; this archive deliberately remains historical and non-authoritative.
 
 These files recover the pre-registration lineage that was stranded in the old ChatGPT Project/Library when `joel-articles` moved to explicit GitHub article registration. They are here so a fresh Claude/ChatGPT worker can inspect the AI/hybrid baseline, owner corrections, intermediate humanization state, and later dedup/compression history before importing Joel's final.
 
-Do **not** register, publish, or promote any file in this directory as the current article merely because it is later-dated, called `final`, detector-green, owner-green, or was once described as authoritative. The 2026-09-28 owner statement controls: a newer humanized final exists outside GitHub and must be imported explicitly.
+Do **not** promote any file in this directory as the current article merely because it is later-dated, called `final`, detector-green, owner-green, or was once described as authoritative. The registered 2026-09-28 master and article-local current state control.
 
 ## Recovered lineage
 
@@ -39,12 +39,8 @@ Do **not** register, publish, or promote any file in this directory as the curre
 
 The August 8 Markdown/diff files were available as raw Library files. The August 1 editor snapshot, r07 DOCX, r09 Markdown, and r10 Markdown were available through Project/Library text extraction but not authorized raw-byte materialization in the current Files surface. Their text is preserved here for lineage inspection; do not use these archive copies to claim original binary-byte identity where that cannot be independently verified.
 
-## Next import action
+## Current routing
 
-When Joel supplies the humanized final:
+For current Nibbāna work, read `articles/nibbana/CURRENT-STATE.md`, then the registered master and article-local authority files from `articles/INDEX.json`.
 
-1. preserve that exact supplied file as the owner-designated current-master candidate;
-2. compare it against this lineage only for provenance/recovery, never to overwrite owner-final wording;
-3. build the normal `articles/nibbana/` authority family under `docs/CONTENT-AUTHORITY-AND-IMPORT.md`;
-4. register Nibbāna in `articles/INDEX.json` only after the required master, current state, owner locks, source evidence, architecture, citation/detector/editorial state, and hashes exist;
-5. retain this directory as historical provenance.
+Use this directory only for provenance, reconstruction history, and comparison with the current master. In particular, do not infer span authorship from old labels or from Pangram results; Joel states that the current article contains both writing done without AI and AI-assisted/humanized writing.

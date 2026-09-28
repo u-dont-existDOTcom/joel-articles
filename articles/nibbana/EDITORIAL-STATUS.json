@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "article_id": "nibbana",
+  "status": "pending",
+  "checks": [
+    {
+      "id": "source-identity",
+      "status": "pass",
+      "description": "Exact current owner-supplied editor body preserved as master.html; SHA-256 5e42c5a85ef8dfd20ed1386ee5a12028efdeab6bbb978028e2f61e426f4c5ee9."
+    },
+    {
+      "id": "historical-authority-separation",
+      "status": "pass",
+      "description": "Earlier AI/hybrid and humanization artifacts remain historical provenance and are not promoted over the current owner-supplied master."
+    },
+    {
+      "id": "mixed-provenance-boundary",
+      "status": "pass",
+      "description": "Registration records that current prose mixes unaided owner writing and AI-assisted/humanized writing; Pangram status is not used as authorship evidence."
+    },
+    {
+      "id": "fresh-editorial-review",
+      "status": "pending",
+      "description": "No new article-wide semantic/citation/editorial review was performed as part of this authority import."
+    }
+  ],
+  "limitations": [
+    "Citation verification remains pending.",
+    "No new independent final-reader audit was run during registration.",
+    "Pangram evidence is owner-reported; raw run receipts were not imported.",
+    "Publication/destination state was not independently verified."
+  ]
+}
