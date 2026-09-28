@@ -158,6 +158,16 @@ class ClaimIntegrityChecksTests(unittest.TestCase):
             with self.subTest(path=relative):
                 self.assertTrue((ROOT / relative).is_file(), f"missing {relative}")
 
+    def test_claim_check_text_is_self_contained(self) -> None:
+        paragraphs = [p for p in self.skill.split("\n\n")
+                      if p.strip().startswith(("When running the claim check,", "Skip the prose audit"))]
+        self.assertEqual(len(paragraphs), 2)
+        for paragraph in paragraphs:
+            with self.subTest(paragraph=paragraph[:40]):
+                self.assertNotIn("universal-dev-architecture", paragraph)
+                self.assertIsNone(re.search(r"\bUDA\b", paragraph))
+                self.assertIsNone(re.search(r"\bCI-(?:\d{2}|X1)\b", paragraph))
+
     def test_quoted_rules_are_exact(self) -> None:
         for relative, quote in QUOTED_RULES.items():
             with self.subTest(path=relative):
