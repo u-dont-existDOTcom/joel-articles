@@ -356,3 +356,13 @@ Every version of my prose here reads 100% AI alone, whatever the build. The cont
 **Options for Joel:**
 1. **Delete P1.** The section would open with his own P2. Its "the other person" and "a healthier response" point back to "Somebody may really have crossed a boundary" just above the heading, so it still reads. The pattern of caretaking and Gibson would go. The Gibson link could sit on a phrase in his P2 if he wants to keep the resource.
 2. **His minimal fix,** on r7 or r2.
+
+## Correction, 2026-09-28 00:46 (Joel, 00:44: "you look at that paragraph now and it looks human to you? you don't think it has the marching order optimal structure?")
+
+It does march. r7's sentences each take the next slot of the explainer template:
+- a thesis up front ("Some people really are hard to bring anything up with");
+- an example, with the lesson attached ("…twenty minutes later you're comforting them… it's probably not only your hook");
+- an authority ("The psychologist Lindsay Gibson has a whole shelf of books…");
+- a quip to close ("…which pretty much says what it's for").
+
+Each part is as efficient as it can be. My record said "no words match" on T02, T09 and T13, because there were no instructions and no branches. But the march isn't about instructions. It's the predictable job sequence. It's the same blind spot as before. The strategy is in `experiments/DETECTION-STRATEGY-20260928.md`.
