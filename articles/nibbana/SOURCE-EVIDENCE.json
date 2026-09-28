@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "article_id": "nibbana",
+  "claims": [
+    {
+      "id": "SRC01",
+      "role": "current owner-supplied Substack editor HTML; registered working master authority",
+      "path": "articles/nibbana/master.html",
+      "sha256": "5e42c5a85ef8dfd20ed1386ee5a12028efdeab6bbb978028e2f61e426f4c5ee9",
+      "access_status": "exact bytes supplied in current chat on 2026-09-28"
+    },
+    {
+      "id": "SRC02",
+      "role": "historical pre-registration AI/hybrid baseline and humanization lineage",
+      "path": "archive/nibbana-pre-registration-2026-08/README.md",
+      "access_status": "available in repository; historical provenance only"
+    },
+    {
+      "id": "SRC03",
+      "role": "authorship/provenance boundary",
+      "status": "owner statement",
+      "detail": "The current article is mixed-provenance: some passages were written without AI and some were AI-assisted/humanized. Do not infer span authorship from Pangram results, stylistic appearance, or historical filename labels."
+    }
+  ]
+}
