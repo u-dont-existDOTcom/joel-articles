@@ -87,7 +87,16 @@ S5. **Owner notes about sense.** When Joel says a paragraph doesn't make sense, 
    - **Before a whole-section check, run the inventory on the assembled section too (E70).** T02, T03, T08 and T20 show up between paragraphs, and a flag on owner text can come from my paragraph beside it.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
    - Execute the repairs, then rerun steps 4–6 on the changed text.
-   - **Fresh-context sweep before Pangram.** Required for every section my sentences carry (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Build the prompt from the numbered inventory (`docs/HUMANIZATION-TELL-INVENTORY.md`, T01–T29 and C01–C04) with `tools/build_sweep_prompt.py`, give it the previous accepted prose (and any owner paragraphs) as context and my paragraphs as the target, and send it to a fresh subagent or another fresh route. Withhold the Pangram history and my reasons. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
+   - **The reviewer-writer loop (2026-09-28; Joel, 00:56: "a subagent would give the instructions for fixing each sentence and the writer would follow those like an engineering task").** This is the review and repair step before Pangram. It replaces the numbered-inventory sweep below as the verdict.
+     - A fresh Opus reviewer, set up with our own Pangram-labeled paragraphs (`tools/reviewer/`), judges the draft and writes one ticket per sentence.
+     - A fresh writer carries the tickets out literally.
+     - A fresh reviewer judges the result. When two reviewers' tickets differ, carry out both and let the next review choose.
+     - When a reviewer says HUMAN, a cold reader checks sense. Its UNCLEAR notes go back through a reviewer as sense-only tickets.
+
+     Validation: Opus got 43 of 53 held-out paragraphs right and let no AI through, and it called all 19 of Joel's own passages Human (`tools/REVIEWER-VALIDATION-20260928.md`). It's strict. Its HUMAN has been right every time so far. Its AI at 60–65, once the march is broken, has twice been Pangram Human, so check Pangram then. First use: Also Look Outward P1 passed with sense intact after six rounds (`experiments/REVIEWER-WRITER-LOOP-20260928.md`).
+
+     Two rules. Never tell the reviewer a Pangram result when its verdict matters: it moved to HUMAN 95. And I don't write the tickets or the sentences myself. My reads of my own drafts scored 0 of 4 (`tools/PREDICTIONS.md`).
+   - **Fresh-context sweep before Pangram (superseded as the verdict, 2026-09-28; still usable for repair hints).** Required for every section my sentences carry (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Build the prompt from the numbered inventory (`docs/HUMANIZATION-TELL-INVENTORY.md`, T01–T29 and C01–C04) with `tools/build_sweep_prompt.py`, give it the previous accepted prose (and any owner paragraphs) as context and my paragraphs as the target, and send it to a fresh subagent or another fresh route. Withhold the Pangram history and my reasons. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
      **Advisory until calibrated (2026-09-26).** The fresh-critic gate lets a model sweep gate only on axes that pass known controls. The numbered-inventory sweep on this route (a fresh Claude subagent) failed its negative control:
      - it reported 10 tells on the known-Human `When Healing Turns Into Checking`;
      - it reported 7 on the known-AI Borrow round 6;
@@ -147,7 +156,7 @@ The linter covers a handful of mechanical tells. It is not the tell ledger, and 
 
 ## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds and the Borrow Love h2 body)
 
-Seventy-five texts with known Pangram 4.0 results (the last thirty-five added 2026-09-27 and 28). The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
+Eighty texts with known Pangram 4.0 results (the last forty added 2026-09-27 and 28; the five from the reviewer-writer loop on 2026-09-28). The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
 
 Not included:
 - the ablation variants of Joel's P5 fix;
@@ -232,6 +241,11 @@ They're near-copies of texts already in the set and would weight one paragraph s
 | Also Look Outward section with r2 | 57% AI, "throughout" | REVIEW (miss) | none (a B1 on Joel's P2) |
 | Also Look Outward r5, first paragraph (a textbook dinner vignette) | 100% AI | REVIEW (miss) | none |
 | Also Look Outward r7 (a three-sentence remark, no instructions) | 100% AI | REVIEW (miss) | none |
+| Also Look Outward P1, loop r3B2 (one long question, Gibson in parentheses inside it; fails the sense read) | 100% Human (short text) | REVIEW | — |
+| Also Look Outward P1, loop r4sf1 (r3B2 with sense tickets) | 100% Human (short text) | REVIEW | — |
+| Also Look Outward P1, loop r5v2 ("promising to be more careful how you bring things up") | 100% Human (short text) | REVIEW | — |
+| Also Look Outward P1, loop r6b (r4sf1 with a two-word sense fix; passes the sense read) | 100% Human (short text) | REVIEW | — |
+| Also Look Outward section with r6b as P1 | 100% Human (313 words, full confidence) | REVIEW | — |
 
 Since D9 became a note and the sentence splitter stopped breaking "Mr. Rogers" in two, the linter hard-fails three of the eight AI texts (r2, r3, music r2) and none of the five Human ones. Since the second-person hard fail became a review note (2026-09-26), it hard-fails two (r2, r3b), still none of the Human ones.
 

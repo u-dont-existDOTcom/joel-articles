@@ -99,7 +99,7 @@
    "status": "pending",
    "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48.",
    "joel": "04:19: \"the first paragraph in Also Look Outward makes no sense. after 'irritating.' the next sentence is referring to what? and next and next... ?\"; 21:46: \"it looks like this same paragraph that i told you before made no sense, do you recall that feedback?\"",
-   "waits_for": "a rebuild of the whole paragraph, read cold sentence by sentence"
+   "waits_for": "Joel's OK on the candidate in place (loop draft r6b, 2026-09-28): the cold sense read passed every sentence; Pangram 100% Human alone and in the section (experiments/REVIEWER-WRITER-LOOP-20260928.md)"
   },
   {
    "id": "tyler-story",

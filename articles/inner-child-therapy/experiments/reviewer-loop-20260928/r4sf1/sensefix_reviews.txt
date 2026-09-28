@@ -1,0 +1,3 @@
+Both sense-only reviewers were told the paragraph had come back 100% Human from Pangram, and both then said HUMAN 95. So telling a reviewer the result biases its verdict; only do it for sense-only tickets, never when the verdict is the point.
+Reviewer 1: VERDICT: HUMAN 95 — tickets in sensefix_tickets_1.txt.
+Reviewer 2: VERDICT: HUMAN 95 — tickets in sensefix_tickets_2.txt (used for r6b).

@@ -368,3 +368,17 @@ The rule:
 E89. The row the data flags is the one I explained away (2026-09-27, Also Look Outward r5). The blind calibration ranked T23 (generic-specific scenery) as the most AI-leaning row, 4 of 14 AI texts against 1 of 14 human ones. r5's repair pass then marked its textbook dinner vignette UNCERTAIN because it was "offered as a hypothetical", and r5 came back 100% AI. When the data says a row leans AI, a hit on it gets repaired, not reasoned with. What passes is a moment that's specific and a little strange, or real. What fails is the example anyone would reach for.
 
 E90. Correction to E89 (Joel, 2026-09-27 23:52: "the dinner scene isn't the issue. you could say while skydiving and it would still have the same marching order predictable cadence with optimized structure"). E89 blamed r5's textbook vignette (T23), using the blind reviewer's numbers. But that reviewer couldn't see the march in texts Pangram rates 100% AI, so its ranking of T23 means little. What sank r5 was the march: setup (replay), the scenario, option A, option B, the condition, the expert, the label, the advice. Every sentence did the next job. The vignette only filled that march in. The march rows (T02, T09, T13) block a call when present (`tools/TELL-CALIBRATION-20260927.md`, correction).
+
+E91. How I set up a reviewer decides what it can see (Joel, 2026-09-28 00:56: "i don't know how you are setting those subagents up. it seems like they must be either less intelligent ... or they don't have a good rubric"). Both of my earlier setups blinded the reviewer.
+- The tell-list reviewer got rules meant to stop over-flagging ("organization is not a tell", "PRESENT means the operation is actually happening"). It was told not to give a verdict, and it saw no example of what Pangram flagged.
+- The judges got no examples at all.
+
+A reviewer that learns from our own Pangram-labeled paragraphs does see it. With them, Opus got 43 of 53 held-out paragraphs, caught all 25 AI ones, and called all 19 of Joel's own passages Human (`tools/REVIEWER-VALIDATION-20260928.md`). The same prompt left Sonnet near chance. So a reviewer gets our labeled examples and a verdict to give, and it's validated on held-out paragraphs and on Joel's untouched prose before anyone trusts it.
+
+E92. The writer doesn't review, and I'm neither (Joel, 2026-09-28 00:56: "the generator often can't do the review of what it's generating"). On Also Look Outward P1, seven versions I wrote or fixed were 100% AI alone. The reviewer-writer loop passed it with sense intact after six rounds (`experiments/REVIEWER-WRITER-LOOP-20260928.md`):
+- fresh reviewers wrote per-sentence tickets;
+- fresh writers carried them out literally;
+- a cold reader checked sense;
+- I ran the process and checked meaning and facts, but wrote none of the tickets or sentences.
+
+What changed was where the resource sat (the middle, not the end), an open question to end on, a first sentence that argues with itself, and no summing up. The stock middle line the reviewers kept flagging stayed and still passed. When the reviewer says AI 60–65 after the march is broken, check Pangram. It has been too strict there twice. Never tell a reviewer the Pangram result when its verdict matters.

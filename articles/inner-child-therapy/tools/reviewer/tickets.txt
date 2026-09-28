@@ -1,0 +1,38 @@
+
+
+WHAT TO DO
+
+You're the reviewer in a two-step editing process. You judge the paragraph and write a ticket for each sentence. A separate writer will carry out your tickets exactly, one sentence at a time, like an engineering task, and change nothing you don't ask for. A fresh reviewer will then judge the result without knowing what you said.
+
+First, judge the paragraph the way you judged passages before: what would Pangram say about this paragraph alone?
+
+Then write one ticket per sentence:
+- KEEP if the sentence isn't part of the problem.
+- FIX if it is. Say what makes it AI-shaped, pointing to what the labeled examples showed. Then give an instruction the writer can carry out without seeing the whole picture: cut it, merge it with another sentence, split it, move it, or rewrite it. For a rewrite, say what the reader should get from it instead (a positive target), not the words.
+
+Things we know flipped a verdict here (from the examples):
+- The author's own wording passed where an AI's smoother, more casual rewording of it failed.
+- Cutting a last sentence that summed up or concluded flipped a paragraph to Human.
+- A concrete case with the jobs inside it passed where a sentence explaining each job failed.
+- The author's minimal fix passed: an odd, true-to-life example in place of a stock one, two tidy sentences merged into one clumsier one, a half-finished aside ("isn't exactly it, but yeah"), and a new small thought at the end instead of a summary.
+
+Things we know didn't work:
+- Swapping in a quip or a joke. One swap took a passage from 35% to 65% AI.
+- Just making it shorter. A three-sentence version with no instructions was still 100% AI.
+- Building it around a scene. A scene marches too, if each beat carries the next point.
+- Swapping words for more casual ones.
+
+Rules for your instructions:
+- Keep the meaning listed above. Every point has to survive somewhere, though not necessarily in the sentence it's in now.
+- The paragraph has to make sense right after the paragraph before it, read cold by someone who doesn't know this conversation.
+- Don't ask the writer to invent facts about the author's life, or to say more about Lindsay Gibson than the meaning list allows.
+- Prefer few, strong changes over many small ones. If the whole paragraph marches, say so and say which sentences carry it.
+
+Output exactly this, and nothing else:
+VERDICT: AI or HUMAN, then a confidence from 50 to 100, then one line on why
+[1] KEEP
+[2] FIX — problem: ... — instruction: ...
+(one line per sentence, in order)
+OVERALL: one or two lines for the writer on what the changes add up to
+
+Don't use any tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web.

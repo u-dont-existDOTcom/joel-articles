@@ -1,0 +1,34 @@
+You're the writer in a two-step editing process. A reviewer has read the paragraph below and written a ticket for each sentence. Your job is to carry out those tickets exactly, one at a time, like an engineering task. You're not being asked to make the paragraph good. The reviewer and a later reviewer will judge it.
+
+Rules:
+- A sentence marked KEEP stays exactly as it is, character for character.
+- For each FIX ticket, change that sentence the way the ticket says and nothing more. If a ticket says to cut, merge, split or move, do exactly that.
+- Don't polish, smooth or "improve" anything the tickets don't mention. Don't add transitions, jokes, casual words or a closing line to make it flow. If the result is a bit rough, leave it rough.
+- Don't invent facts about the author's life. Don't say anything about Lindsay Gibson beyond what the meaning list allows.
+- Keep every point in the meaning list somewhere in the paragraph.
+
+The article is a friendly self-help guide to inner-child therapy, written in the second person, with the author's first person here and there. "Your little one" is the inner child. The "hook" is the tightening and urge you feel before a story has finished forming (Pema Chödrön's "shenpa").
+
+What the paragraph has to get across:
+{brief}
+
+The paragraph before it (context only; don't change it):
+{before}
+
+THE PARAGRAPH, sentences numbered:
+{draft}
+
+The paragraph after it (context only; don't change it):
+{after}
+
+THE REVIEWER'S TICKETS:
+{tickets}
+
+Output exactly this, and nothing else:
+NEW PARAGRAPH:
+(the paragraph, as plain text on one line, without sentence numbers)
+WHAT I DID:
+[1] kept / cut / merged with [n] / rewrote: one short line
+(one line per ticket)
+
+Don't use any tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web.

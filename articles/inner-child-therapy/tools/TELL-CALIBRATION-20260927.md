@@ -81,3 +81,7 @@ Outside evidence says structure does predict AI. SlopShape's game figures (`expe
 - **Repair hints:** the other rows, each still written out with its words.
 - **The gate:** Pangram, with the sense step before it.
 - **No model judge**, Sonnet or Opus, stands in for Pangram. Neither was reliable on these paragraphs.
+
+## Superseded as a verdict, 2026-09-28
+
+A reviewer set up with our own Pangram-labeled paragraphs replaces this list's blind audit as the review before Pangram: `tools/REVIEWER-VALIDATION-20260928.md` (43 of 53 held out with Opus, all 25 AI caught, all 19 of Joel's own passages called Human). This list stays a repair aid.

@@ -2,6 +2,13 @@
 
 Joel, 00:44: "we need to develop a strategy to detect AI tells otherwise we can't generate human prose. pangram doesn't tell you how to fix it. it only tells you if you are good at detecting ai tells or not … i'm reluctant to continue this if we don't have a straetgy to move forward."
 
+
+**Outcome (2026-09-28, later the same day).** Joel redirected this at 00:56: a fresh subagent with a good rubric should review, and a writer should carry out its per-sentence instructions. Both parts are done:
+- The reviewer, trained on our labeled paragraphs, was validated on held-out paragraphs and on Joel's untouched prose (`tools/REVIEWER-VALIDATION-20260928.md`).
+- The reviewer-writer loop passed Also Look Outward P1 with sense intact (`experiments/REVIEWER-WRITER-LOOP-20260928.md`).
+
+The job-sequence labeling below wasn't needed for that. It stays a possible check on the reviewer.
+
 ## Where things stand
 
 - **Saved:** 75 texts with Pangram 4.0 results in `tools/calibration/` (36 Human, 39 AI), each tied to a draft record (what it was for, the audit, the result, usually the flagged span). The older lab cache (`pangram-humanization-lab/cache/pangram-4/`) has 12 more, with window-level scores.
