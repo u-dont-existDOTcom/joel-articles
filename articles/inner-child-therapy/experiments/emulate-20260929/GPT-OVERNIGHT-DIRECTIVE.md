@@ -22,14 +22,14 @@
   - If either site asks you to sign in, stop and ask Joel to take over the browser and sign in.
   - Never create an account, type a password, buy anything, or change a plan or setting.
 - **Budgets.** Track both in `LEDGER.md` as you go.
-  - **Emulate:** at most 30,000 words. Emulate charges the words you paste.
-    - Split: learning sets A–D up to 7,000; articles up to 20,000; reruns up to 3,000.
-    - If you run out, stop that kind of work and list what's left in the morning note. Joel can raise the budget. Don't go past it.
-  - **Pangram:** read the credit balance before you start. It costs 1 credit per 100 words.
-    - Use at most 1,800 credits, and never let the balance drop below 300.
+  - **Emulate:** at most 50,000 words in all, and at most 3,000 words per submission, which is Emulate's own limit. It charges the words you paste.
+    - Split: learning sets A–D up to 7,000; articles up to 40,000; reruns up to 3,000.
+    - If you run out, stop that kind of work and list what's left in the morning note. Don't go past it; Joel can raise it.
+  - **Pangram:** 1 credit per 100 words. Joel says credits aren't a problem. Still, read the balance before you start, log what each check costs, and stop checking if the balance drops below 300.
 - **Emulate's output never replaces Joel's own writing.** Only two things of his go to Emulate: the control C2, and the odd sentence of his inside a set A "before" text. Their outputs are data only.
-  - In the articles, any passage `ARTICLES.md` marks as Joel's stays exactly as it is. It goes into Pangram context checks with the rewritten parts around it, and nothing more.
-  - If you can't tell whether a passage is his, don't send it. Flag it.
+  - In the articles, a paragraph that already reads Human in the baseline check stays exactly as it is, whoever wrote it. So does any passage `ARTICLES.md` marks as Joel's, even if Pangram flags it. Those paragraphs still go into the Pangram checks of their section.
+  - A flagged paragraph where Joel tells his own story in the first person still goes to Emulate. Mark it in `QUALITY-<slug>.md` for Joel to approve.
+  - Nothing replaces anything in Joel's published articles. The humanized articles are candidates, saved next to the originals.
 - **Never edit Emulate's output with your own words,** not even one word. Your words are AI text, so they would spoil the data.
   - The only exception is the edit test in Part 4.3, where every edit is labelled.
   - Mechanical splicing is fine: cutting and joining whole sentences or paragraphs taken from the two versions.
@@ -59,7 +59,7 @@
   - C2 is Joel's own writing, so its output is data only.
 - `inputs/learning/CONTEXT_section_so_far.txt` is the inner child section as it stands: two headings, Joel's paragraph and Claude's paragraph. It's only for Pangram context checks and never goes to Emulate.
 - `inputs/learning/E_holdout/` holds 5 guide paragraphs and `BRIEF.md`, for the transfer test in Part 5. **They never go to Emulate.**
-- `inputs/articles/` and `ARTICLES.md` hold Joel's articles to humanize.
+- `inputs/articles/` holds Joel's four articles as Markdown, converted from the Substack editor. The raw HTML is in `inputs/articles/raw/`. `ARTICLES.md` lists them in order, with notes.
 - `tools/tells_lint.py` is Claude's linter. Run it with `python3 tools/tells_lint.py FILE`.
 - `tools/JOEL-FIXES-CATALOGUE-20260928.md` is Joel's fixes grouped by kind.
 
@@ -105,7 +105,7 @@ MORNING-NOTE.md               for Joel, at most 10 lines
 Check every learning input as it is on Pangram, using the variant `baseline`.
 
 - Where `MANIFEST.md` already gives a result, recheck only 5 of them, to see whether Pangram gives the same answer as before.
-- For the articles, check each section as it is, with its heading.
+- For the articles, check each h1 section as it is, with its headings, in chunks of up to 3,000 words if it's longer. Mark every paragraph inside a flagged span. Only those paragraphs get rewritten.
 
 ## Part 2. Emulate runs (Work)
 
@@ -114,19 +114,25 @@ Leave Style on Auto unless a probe below says otherwise. Paste one input per run
 Go in this order, and stop at the budget:
 
 1. **Set A.** Every `*_before.txt`.
-2. **Set B.** Every file.
-3. **Set C.** Both files.
-4. **Articles.**
-   - Send one h2 section per run. Paste its body without the heading, and keep the original headings for the assembled article.
-   - Take the links out of the paste but record them in `links.json` (anchor text, URL, paragraph number). Put them back afterwards on the same words, or on the rewritten words that mean the same. Note any link whose words vanished.
-   - Do the same for italics and bold.
-   - If Emulate won't take a section, split it at h3 headings, then at paragraph breaks, and note that you did.
+2. **Set C.** Both files.
+3. **Articles,** in the order `ARTICLES.md` gives.
+   - **Chunks.** Send the flagged paragraphs of one h1 section per run, if that's under 2,800 words. Otherwise split at h2, then h3, then paragraph breaks. Group sections under 150 words with their neighbours in the same h1.
+   - **Headings.** Keep the headings in the paste as lines, so Emulate sees the structure. The assembled article uses the original headings; note any heading Emulate changed.
+   - **Only flagged paragraphs.** If a section is only partly flagged, send each run of flagged paragraphs on its own, and put the results back between the paragraphs that stay.
+   - **Links.** Probe D6 decides how to handle them. Send the first chunk that has links with its Markdown links left in.
+     - If Emulate keeps every link on the same words, keep pasting links in.
+     - If it doesn't, take the links out of the paste and record them in `links.json` (anchor text, URL, paragraph). Afterwards, put each one back on the same words, or on the rewritten words that mean the same. Note any link whose words vanished.
+     - Treat italics and bold the same way.
+   - **Images and captions.** Leave them out of the paste, and put them back where they were.
+   - **Assembly.** Save `humanized.md` and `humanized.html` for each article. The HTML is clean and semantic: h1–h4, p, a, em, strong, lists, blockquote, and figure with the original image URL and caption. Joel works in HTML.
+4. **Set B.** Every file.
 5. **Probes (set D).** Each one answers one question:
    - **D1 (is it stable?):** run B01, A01 and A02 a second time with the same settings.
    - **D2 (what does a second pass do?):** run two outputs that passed back through Emulate.
    - **D3 (what does it do with headings?):** run B05, which is B01 with its two headings on top.
    - **D4 (what do the Style settings change?):** run B01 twice more, once set to second person and casual, once to first person. Record the exact settings.
    - **D5 (does it write a paragraph differently inside a longer piece?):** compare the paragraphs in B03's output that cover B01's content with B01's own outputs.
+   - **D6 (does it keep links?):** see Links, under Articles above.
 
 ## Part 3. Check every output (Work)
 
@@ -136,10 +142,10 @@ For each Emulate output:
 - **Each paragraph alone** (`output_paragraph`), when there's more than one.
 - **B01 in context** (`context`), and the same for D3 and D4: `CONTEXT_section_so_far.txt`, then a blank line, then the output. This is the real next step of the inner child article.
 - **Article sections:**
-  - Check each section with its heading (`section`).
+  - Check each section put back together, with its original headings and the paragraphs that stayed (`section`).
   - When an article is done, check it whole (`full_article`). If it's too long for one check, use chunks of whole sections that overlap by one section.
-  - If a seam between two sections is flagged and the budget allows, run the two original sections through Emulate together once, and check again.
-  - If a section shows any AI, run Emulate once more on the original section, not on the failed output. Keep both runs, and never hand-fix.
+  - If a seam between two sections is flagged and the budget allows, run the flagged paragraphs on both sides of it through Emulate together once, and check again.
+  - If a section shows any AI, run Emulate once more on the original text, not on the failed output. Keep both runs, and never hand-fix.
 - **Linter:** run `tools/tells_lint.py` on every output and save the report beside it.
 
 ## Part 4. Mechanical experiments (Work)
@@ -207,6 +213,9 @@ Read everything in `runs/`, plus `inputs/MANIFEST.md`, `ARTICLES.md`, Joel's ref
    - List what the original says (its points, facts, names, numbers, links), and whether the humanized version keeps each one.
    - List anything added. **Any new "I…" experience or fact about Joel's life means the section is rejected** (Joel's rule).
    - List any of Joel's bans that appear (below).
+   - **For neuro de-armoring:** every compound, dose, unit, timing, warning and study claim must match the original exactly. Any change means the section is rejected.
+   - List every coined word or catchy phrase of Joel's that the rewrite changed, such as "pl/ork", "Hearthwork", "wizdumb" or the emojis in headings. Joel wants them kept, and he decides.
+   - Mark the paragraphs where Joel tells his own story, and say whether the rewrite still tells it truly.
    - Give each section a verdict: ready, needs a fix (say what), or failed Pangram.
 8. **`MORNING-NOTE.md`** for Joel, at most 10 lines: what's done, what passed, what needs him, and the budget used.
 
