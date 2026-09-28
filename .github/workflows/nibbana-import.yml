@@ -1,0 +1,52 @@
+name: Nibbana one-shot source import
+
+on:
+  push:
+    branches:
+      - register/nibbana-current-20260928
+    paths:
+      - '.tmp/nibbana-import/**'
+      - '.github/workflows/nibbana-import.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: register/nibbana-current-20260928
+          fetch-depth: 0
+      - name: Assemble exact current source when all chunks exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in $(seq -w 1 9); do
+            test -f ".tmp/nibbana-import/part-${n}.b64" || { echo "waiting for part ${n}"; exit 0; }
+          done
+          python - <<'PY'
+          from pathlib import Path
+          import base64, bz2, hashlib
+          root=Path('.tmp/nibbana-import')
+          b64=''.join((root/f'part-{i:02d}.b64').read_text() for i in range(1,10))
+          raw=bz2.decompress(base64.b64decode(b64))
+          expected='5e42c5a85ef8dfd20ed1386ee5a12028efdeab6bbb978028e2f61e426f4c5ee9'
+          actual=hashlib.sha256(raw).hexdigest()
+          if actual != expected:
+              raise SystemExit(f'SHA mismatch: {actual}')
+          p=Path('articles/nibbana/master.html')
+          p.parent.mkdir(parents=True, exist_ok=True)
+          p.write_bytes(raw)
+          print(actual, len(raw))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add articles/nibbana/master.html
+          if git diff --cached --quiet; then
+            echo "master already exact"
+            exit 0
+          fi
+          git commit -m "registration: materialize exact current Nibbana source"
+          git push origin HEAD:register/nibbana-current-20260928
