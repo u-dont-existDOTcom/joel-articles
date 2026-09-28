@@ -1,6 +1,6 @@
 # Article documentation index
 
-Status: **ACTIVE.** `articles/INDEX.json` currently registers Romance and Somatic Therapies as working canonical articles.
+Status: **ACTIVE.** `articles/INDEX.json` currently registers Romance, Somatic Therapies, Inner Child Therapy, Inner Signal, and Nibbāna as working canonical articles.
 
 ## Read order
 
