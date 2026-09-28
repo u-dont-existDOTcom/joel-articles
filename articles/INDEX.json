@@ -2902,6 +2902,68 @@
           "role": "editorial_receipt"
         }
       ]
+    },
+    {
+      "id": "nibbana",
+      "title": "Nibbāna",
+      "status": "working",
+      "authority": {
+        "master": {
+          "path": "articles/nibbana/master.html",
+          "sha256": "5e42c5a85ef8dfd20ed1386ee5a12028efdeab6bbb978028e2f61e426f4c5ee9"
+        },
+        "owner_locks": {
+          "path": "articles/nibbana/OWNER-LOCKS.json",
+          "sha256": "203bd3418550d4c3591cc1168cf1d325dba619438e15f01c4ba363cb2432c8be"
+        },
+        "source_evidence": {
+          "path": "articles/nibbana/SOURCE-EVIDENCE.json",
+          "sha256": "337d818fef493fa1d0fb1bdd62897b427e7b5444c8bf2d7ac9e4636cca1eef3a"
+        },
+        "unincorporated_ideas": {
+          "path": "articles/nibbana/UNINCORPORATED-IDEAS.md",
+          "sha256": "3bc8b080af187ea2ef8197bdd3a350d97508f680c555c368b63abf3af8d8628d"
+        },
+        "current_state": {
+          "path": "articles/nibbana/CURRENT-STATE.md",
+          "sha256": "795317a117e9e5f8801e1dd7ed3f56a14dfee2690a503125511a8054d87e24d7"
+        }
+      },
+      "review": {
+        "citations": {
+          "path": "articles/nibbana/CITATIONS.json",
+          "sha256": "c06f73a361fec25fe9debdc45198709b778e610a27710783400d4a3ce826c3ac",
+          "status": "pending"
+        },
+        "detector": {
+          "path": "articles/nibbana/DETECTOR-EVIDENCE.json",
+          "sha256": "f5b8531b8ffc2685f20a32d65ea61b816e15efe3b3df64113c158d53d4a29de7",
+          "status": "recorded"
+        },
+        "editorial": {
+          "path": "articles/nibbana/EDITORIAL-STATUS.json",
+          "sha256": "d19d24e77a09df213beb935805f9c5e2395b39fb3f03b620055e4d72b79cae72",
+          "status": "pending"
+        }
+      },
+      "publication_exports": [],
+      "additional_artifacts": [
+        {
+          "path": "articles/nibbana/ARCHITECTURE.md",
+          "role": "architecture_map",
+          "sha256": "e18bdddd530d8f12ec294e1b2139e141755f64e554ca55e035e6aac3484e07ef"
+        },
+        {
+          "path": "articles/nibbana/SOURCE-STRUCTURE-INVENTORY-20260928.json",
+          "role": "source_inventory",
+          "sha256": "82a8e583fc908e3a0d5962f460e66847242dee30cb642146d58c24dd8d0e4756"
+        },
+        {
+          "path": "articles/nibbana/IMPORT-RECEIPT-20260928.md",
+          "role": "import_receipt",
+          "sha256": "f08ac41353742290b50f7298b58c60994924bfc3e45994ed1e5466d3e9cf34ba"
+        }
+      ]
     }
   ]
 }
