@@ -8,10 +8,21 @@ This is the method from 2026-09-28. The reviewer's validation is in `../REVIEWER
 - `output_verdicts.txt`: the verdict format for judging many passages (validation, the human-prose test).
 - `tickets.txt`: what a reviewer does with one draft. A verdict, then one ticket per sentence: KEEP, or FIX with the problem, an instruction, and what the reader should get from it.
 - `writer.txt`: the writer's instructions. Carry out the tickets literally and change nothing else.
+- `writer_draft.txt`: a first draft from the brief, for a paragraph that has no draft yet. It carries what Pangram has shown about shape, as observations, not a checklist or sentence jobs.
 - `sense.txt`: the cold reader's instructions. Sense only, one line per sentence.
 - `targets/*.json`: for each paragraph being worked on, the paragraph before, the paragraph after, and the meaning to keep. Write the meaning as bare points; writers reuse the brief's wording.
 - `human_items.manifest.json`: the human-prose test set, with sources and hashes. The texts go in `local/human_items.json`, which is kept out of git.
 - `reviewer.py`: builds every prompt. Run `python3 reviewer.py -h`.
+
+## The order (fastest first; Joel, 2026-09-28 16:29: "2hrs to humanize one paragraph is insane")
+
+The reviewer is the slow step: 5 to 15 minutes a run. Writers, cold readers and Pangram each take 1 to 5 minutes. So the slow step runs only when a fast one fails:
+1. Three fresh writers draft in parallel (`reviewer.py draft`). With an existing draft, skip this.
+2. Run a cold sense read on each draft, in parallel.
+3. Pangram each draft that passes sense: alone if it's 50 words or more, then in the section.
+4. Only if nothing passes, send the best draft to the reviewer for tickets, then the writer, then steps 2–3 again.
+
+On the expectations paragraph this took about 20 minutes. Two of three first drafts passed sense and Pangram, and the section passed, with no reviewer run at all. Also Look Outward P1, done in the old order (reviewer rounds first, Pangram last), took about two hours.
 
 ## Running a round
 

@@ -84,3 +84,37 @@ L7. **Cost.** 44 subagent runs in the loop: reviewers took 4–15 minutes each, 
   - write his own.
 - A cold reader of the near twin r6a stumbled on "granted". The clause supports the point rather than conceding against it, so it reads more like "after all". The reader of r6b didn't flag it.
 - The source's "you do not need repeated exposure to danger before protecting yourself" is still in no version.
+
+## Joel's final P1 (16:29)
+
+Joel changed "granted" to "after all" and "end up" to "then still end up", and shortened the parenthetical to "(The psychologist Lindsay Gibson wrote the book on this: Disentangling from Emotionally Immature People.)". It's still 100% Human, medium confidence, on his check. It's installed (`reviewer-loop-20260928/joel_final_p1.txt`).
+
+His note: "so yeah we don't need it to not make sense for it to be human." The tangle wasn't needed. r6b already made sense, and his plainer "after all" passed too.
+
+## The paragraph r6b left out, in the faster order
+
+Joel, 16:29: "you left out the last AI source part tho so i assume that will come next: 'Adjust your expectations to what the person repeatedly shows they can actually offer, rather than what one perfect explanation might finally unlock.'" And: "2hrs to humanize one paragraph is insane".
+
+What took the time on P1 was the reviewer: 5 to 15 minutes a run, in six sequential rounds, with Pangram, the fastest check, left for last. So this paragraph ran the fast checks first:
+1. Three fresh writers drafted it in parallel from a bare-point brief (`tools/reviewer/targets/also-look-outward-expectations.json`). The drafting prompt (`tools/reviewer/writer_draft.txt`) carried what Pangram has shown about shape, as observations: failed paragraphs march; failed endings sum up or rule; passed paragraphs have a sentence that reacts; plain words; detail only from having been there; it must make sense cold.
+2. A cold sense read ran on all three.
+   - d1 failed: "Afterward" had nothing to attach to, and it ended on an impression nothing answered.
+   - d2 passed every sentence.
+   - d3 passed every sentence.
+3. Pangram:
+   - d2 alone: 100% Human (66 words, short text).
+   - d3 alone: 100% Human (63 words, short text).
+   - The section with Joel's final P1 and d2: 100% Human (375 words, full confidence).
+
+No reviewer run was needed.
+
+d2 is in the article as a candidate, between P1 and Joel's P2:
+
+> If it's the first, it can seem like you haven't explained yourself well enough yet. You probably have, and it makes more sense to count on what they keep showing you they can do than on the right words finally getting through to them. Maybe what they can do is text you something kind the next day and not bring any of it up.
+
+It says "count on" rather than "expectations" because Joel's P2 ends on "hold high expectations".
+
+All three cold readers noted one thing in Joel's P2: "their prior promises" assumes promises the section hasn't mentioned. That's for Joel; his paragraph isn't changed.
+
+L8. **Fast checks first.** Fresh writers with the shape observations, then a cold reader and Pangram, got a passing paragraph on the first round. Save the reviewer for when every draft fails. It says why, and it's slow. My own predictions this round were 2 of 3; I called d3 AI and it passed.
+

@@ -17,6 +17,7 @@ Usage:
   reviewer.py validation OUTDIR          two fold prompts and their answer keys
   reviewer.py review DRAFT TARGET OUT [--sense NOTES] [--note TEXT]
   reviewer.py writer DRAFT TICKETS TARGET OUT
+  reviewer.py draft TARGET OUT              a first draft from the brief (writer_draft.txt)
   reviewer.py sense DRAFT TARGET OUT
   reviewer.py human-test OUTDIR          the human-prose test (needs local/human_items.json)
   reviewer.py score KEYS.json ANSWERS.txt [ANSWERS.txt ...]
@@ -224,6 +225,14 @@ def build_writer(draft, tickets, target):
     return w
 
 
+def build_draft(target):
+    t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
+    w = read('writer_draft.txt')
+    for k in ('brief', 'before', 'after'):
+        w = w.replace('{%s}' % k, t[k])
+    return w
+
+
 def build_sense(draft, target):
     t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
     s = read('sense.txt')
@@ -281,6 +290,7 @@ def main():
     s.add_argument('--note', default='', help='extra text placed before the instructions')
     s = sub.add_parser('writer'); s.add_argument('draft'); s.add_argument('tickets'); s.add_argument('target'); s.add_argument('out')
     s = sub.add_parser('sense'); s.add_argument('draft'); s.add_argument('target'); s.add_argument('out')
+    s = sub.add_parser('draft'); s.add_argument('target'); s.add_argument('out')
     s = sub.add_parser('human-test'); s.add_argument('outdir')
     s = sub.add_parser('score'); s.add_argument('key'); s.add_argument('answers', nargs='+')
     a = ap.parse_args()
@@ -295,6 +305,8 @@ def main():
         write(a.out, build_review(rd(a.draft), a.target, extra + a.note))
     elif a.cmd == 'writer':
         write(a.out, build_writer(rd(a.draft), rd(a.tickets), a.target))
+    elif a.cmd == 'draft':
+        write(a.out, build_draft(a.target))
     elif a.cmd == 'sense':
         write(a.out, build_sense(rd(a.draft), a.target))
     elif a.cmd == 'human-test':

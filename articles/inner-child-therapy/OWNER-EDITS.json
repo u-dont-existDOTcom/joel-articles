@@ -96,10 +96,17 @@
   },
   {
    "id": "outward-p1-sense",
-   "status": "pending",
-   "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48.",
+   "status": "applied",
+   "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48. Rebuilt by the reviewer-writer loop (r6b, 2026-09-28) and finished by Joel (entry outward-p1-joel-final).",
    "joel": "04:19: \"the first paragraph in Also Look Outward makes no sense. after 'irritating.' the next sentence is referring to what? and next and next... ?\"; 21:46: \"it looks like this same paragraph that i told you before made no sense, do you recall that feedback?\"",
-   "waits_for": "Joel's OK on the candidate in place (loop draft r6b, 2026-09-28): the cold sense read passed every sentence; Pangram 100% Human alone and in the section (experiments/REVIEWER-WRITER-LOOP-20260928.md)"
+   "waits_for": "",
+   "must_contain": [
+    "Once you're in that happy place, look at the other person too",
+    "Or can they hear you disagree and look at their own part?"
+   ],
+   "must_not_contain": [
+    "Have you ever had a fight where you were absolutely sure"
+   ]
   },
   {
    "id": "tyler-story",
@@ -266,6 +273,28 @@
    "what": "Make the difference between universal love and love from a person clear.",
    "joel": "00:09",
    "waits_for": "You Are Worthy of Love. Always."
+  },
+  {
+   "id": "outward-p1-joel-final",
+   "status": "applied",
+   "what": "Joel's final wording of Also Look Outward P1: \"after all\" for \"granted\", \"then still end up\", and the shorter Gibson parenthetical.",
+   "joel": "2026-09-28 16:29: \"i changed the \\\"granted\\\" to after all, it's still 100% human med conf ... i fixed the overly wordy paranthetical also, still human med conf ... here's my final version\"",
+   "must_contain": [
+    "after all, they're allowed to say no to you",
+    "and then still end up reassuring them they're not a bad person",
+    "The psychologist Lindsay Gibson wrote the book on this: Disentangling from Emotionally Immature People."
+   ],
+   "must_not_contain": [
+    "granted, they're allowed to say no to you",
+    "calls people like that emotionally immature"
+   ]
+  },
+  {
+   "id": "outward-expectations",
+   "status": "pending",
+   "what": "Also Look Outward carries the source's point that r6b left out: adjust your expectations to what the person repeatedly shows they can offer, not what one perfect explanation might unlock (with its reason: the problem may not be that you failed to explain yourself well enough).",
+   "joel": "2026-09-28 16:29: \"you left out the last AI source part tho so i assume that will come next: 'Adjust your expectations to what the person repeatedly shows they can actually offer, rather than what one perfect explanation might finally unlock.'\"",
+   "waits_for": "Joel's OK on the candidate in place (draft d2, 2026-09-28): the cold sense read passed every sentence; Pangram 100% Human alone (66 words) and in the section (375 words)"
   }
  ]
 }

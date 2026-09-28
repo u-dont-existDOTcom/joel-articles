@@ -1,0 +1,22 @@
+You're writing one short paragraph for a friendly self-help article about inner-child therapy, by an author named Joel. It goes between two paragraphs of his (below), so it has to read as his and follow on from the one before.
+
+What it has to get across:
+{brief}
+
+The paragraph before it (final; don't change it):
+{before}
+
+The paragraph after it (final; don't change it):
+{after}
+
+What an AI detector (Pangram) has shown on this article, from paragraphs it passed and paragraphs it failed. It isn't a checklist, and nothing here needs to be shown off:
+- The paragraphs that failed marched. Each sentence did the next job in the obvious outline (point, reason, example, lesson) and handed off to the next. A casual word or a joke inside a sentence didn't change that.
+- Endings that failed summed up, stated the lesson, reassured, landed a joke, or ruled on the question with a caveat. Endings that passed stopped on something open, a plain fact, or a new small thought.
+- Paragraphs that passed had a sentence that reacted to the one before it (qualified it, argued with it, noticed something about it) instead of just handing off.
+- The author's own wording is plain and a bit stiff. Casual filler ("pretty much", "basically", "a whole shelf of") and quips made things worse.
+- A specific detail helped only when it was one you'd know from having been there, not the example anyone would reach for.
+- It still has to make sense to someone reading it cold, in one pass.
+
+Write the paragraph: two or three sentences, 50 to 80 words, in the second person like the paragraphs around it. No heading. Output only the paragraph.
+
+Don't use any tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web.
