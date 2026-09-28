@@ -1,6 +1,14 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-09-26
+Updated: 2026-09-28
+
+## 2026-09-28 Nibbāna pre-registration lineage recovery
+
+- **Nibbāna remains unregistered.** Do not add it to the registered-article count or infer current authority from archive filenames.
+- Joel states that he now has the **humanized final**, but that final has not yet been supplied to this repository.
+- Recovered historical material is under `archive/nibbana-pre-registration-2026-08/`, including the 2026-08-01 Substack-editor AI/hybrid baseline snapshot, the r07 owner-green rebuild review, the historical r09 merged candidate, the r10 repair handoff, the August 8 humanized/dedup candidate and its diff, and the later compression diff.
+- These are provenance/recovery artifacts only. A fresh worker should read `archive/nibbana-pre-registration-2026-08/README.md` before using them.
+- When Joel supplies the final, perform the normal first-import procedure and preserve this archive as lineage; do not promote an archived candidate by recency or filename.
 
 ## 2026-09-26 controlling Inner Signal registration
 
