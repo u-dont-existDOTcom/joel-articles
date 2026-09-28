@@ -1,6 +1,6 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-09-26
+Updated: 2026-09-28
 
 ## 2026-09-26 controlling Inner Signal registration
 
@@ -63,6 +63,7 @@ Repository/platform recovery and governance:
 - Completed the public-visibility transition after credential/private-key audit.
 - Replaced redundant ChatGPT Project authority with GitHub-canonical routing.
 - Promoted Joel's public-GitHub-by-default owner rule into `SKILL.md` with publication/license/privacy boundaries.
+- Added the `SKILL.md` section `Claims about sources and reviews of Joel's writing` at Joel's 2026-09-27 request. It covers anchoring claims about a source, exact quotation, absence claims, claims about a field or tradition, stating what was checked, rechecking before conceding, facts added to Joel's text, reading his writing on its strongest reading, dropped flags, and consistency and estimates. `tests/test_claim_integrity_checks.py` pins the rules. No article content changed.
 
 Romance:
 - Resolved the historical Romance assembly and imported the exact canonical master with its complete article family.
