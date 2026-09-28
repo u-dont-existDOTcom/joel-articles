@@ -89,6 +89,8 @@ These checks govern the claims made in reviews, critiques, research notes, chat 
 
 Two research rules from the project sources also apply to reviews and chat replies, not only to drafts. Step 4 of the verification workflow in `project-sources/FACTS-HEALTH-FORMATTING.md` reads `Follow citation chains; do not trust a secondary characterization without checking the cited source.` Section 7 of `project-sources/ARGUMENT-AND-EVIDENCE-ARCHITECTURE.md` includes `Ten repetitions of one dependent allegation are not ten independent facts.` Before a figure, superlative, or secondary characterization goes into a conclusion, a review, or a claim added to Joel's text, trace it to the source it cites, and use that source when the two differ; two figures that trace to one source are one finding. Tell Joel when the only source available is weak.
 
+Before delivering a review or critique of Joel's article or a text he is answering, a draft that says what a source says, a fact added to text Joel will publish, or a claim that something was verified, run the claim-check mode of the **Independent final-reader audit** below. It never applies to companion or therapeutic replies.
+
 ## Synthetic specificity and fake concreteness
 
 Never invent casual day-of-week or clock-time details merely to make prose sound human or concrete. In particular, do not add phrases such as `on Tuesday`, `last Tuesday`, `Tuesday afternoon`, or similar arbitrary calendar specificity unless the day is a real source-derived fact and materially relevant to the thought.
@@ -251,6 +253,8 @@ For substantial P3/P4 reconstruction, final publication copy, or any pass where 
 
 Independence must be real, not role-play inside the same saturated context. Give the independent reader the literal article or natural section, intended audience/heading promise, and only the minimum locks or factual context required to avoid false findings. Withhold drafting rationale, detector scores, prior defenses, rejected alternatives, and explanations of why particular prose exists unless they are necessary to understand the text.
 
+When running the claim check, list every checkable claim in the draft with its type (`exact quotation`, `source content`, `inference`, `external fact`, `figure`, or `Joel's intended meaning`), its anchor (an exact passage, URL, or none), and what was checked. Give the list, the draft, and the sources—but not the drafting reasoning—to a genuinely separate model or context. Ask it to pass or fail each claim with a reason and add any claim the list missed. Fix every failure before delivery. Do not try to check what Joel intended; ask Joel. Fetch each source once, cap tool calls, and do not refetch an exact passage already supplied.
+
 Ask the independent reader to diagnose, without rewriting:
 
 - generic or model-shaped passages that the drafting context may have normalized;
@@ -262,7 +266,7 @@ Ask the independent reader to diagnose, without rewriting:
 
 The independent reader is **diagnostic evidence, never edit authority**. Every proposed change still requires owner authority, the current edit contract, source/provenance checks, and the preservation whitelist/proof; factual recommendations still require normal research verification. Record independently raised findings separately from implementation decisions, including important findings rejected because they conflict with owner intent, evidence, or preservation constraints.
 
-Skip this audit for P1, trivial local edits, or when no genuinely separate context/model is available. Do not label a second self-prompt in the same saturated context as independent; report it only as another cold audit.
+Skip the prose audit for P1, trivial local edits, or when no genuinely separate context/model is available. The claim check still applies to its named outputs. If no genuinely separate model or context is available, check every listed claim against its source immediately before delivery and describe it only as rechecked, not independently checked. Do not label a second self-prompt in the same saturated context as independent; report it only as another cold audit.
 
 ## Detector boundary
 

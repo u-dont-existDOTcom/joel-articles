@@ -1,10 +1,10 @@
 """Pins the claim checks in SKILL.md.
 
-SKILL.md's section "Claims about sources and reviews of Joel's writing" carries
-checks on what reviews, replies, and drafts say about sources and about Joel's
-writing. These are text-presence tests: they show that the rules are in the
-skill file and that the section's quotations of other project files are exact.
-They do not show that a model follows the rules.
+SKILL.md's section "Claims about sources and reviews of Joel's writing" and its
+independent final-reader audit carry checks on what reviews, replies, and drafts
+say about sources and about Joel's writing. These are text-presence tests: they
+show that the rules are in the skill file and that the section's quotations of
+other project files are exact. They do not show that a model follows the rules.
 
 Lineage, development side only: the checks are adapted from the claim-integrity
 pack v1 in u-dont-existDOTcom/universal-dev-architecture, and ANCHORS uses that
@@ -62,7 +62,20 @@ ANCHORS = {
         "Label estimates as estimates, and report a derived number at the "
         "resolution of its inputs"
     ),
+    "CI-11": (
+        "If no genuinely separate model or context is available, check every "
+        "listed claim against its source immediately before delivery and "
+        "describe it only as rechecked, not independently checked."
+    ),
 }
+
+CI_11_CLAUSES = (
+    "Before delivering a review or critique of Joel's article or a text he is answering",
+    "a draft that says what a source says, a fact added to text Joel will publish, or a claim that something was verified",
+    "It never applies to companion or therapeutic replies.",
+    "Give the list, the draft, and the sources—but not the drafting reasoning—to a genuinely separate model or context.",
+    "Ask it to pass or fail each claim with a reason and add any claim the list missed.",
+)
 
 # Clauses that keep the checks inside Joel's editorial rules.
 SCOPE_CLAUSES = (
@@ -90,7 +103,11 @@ QUOTED_RULES = {
 
 # Headings the section points readers to.
 POINTED_HEADINGS = {
-    "SKILL.md": ("## Authority and recovery", "## Cold audit"),
+    "SKILL.md": (
+        "## Authority and recovery",
+        "## Cold audit",
+        "## Independent final-reader audit",
+    ),
     "project-sources/FACTS-HEALTH-FORMATTING.md": ("## Verification workflow",),
     "project-sources/ARGUMENT-AND-EVIDENCE-ARCHITECTURE.md": (
         "## 7. Evaluate evidence separately and cumulatively",
@@ -113,13 +130,20 @@ def claims_section() -> str:
 
 class ClaimIntegrityChecksTests(unittest.TestCase):
     def setUp(self) -> None:
+        self.skill = SKILL.read_text(encoding="utf-8")
+        self.skill_normalized = normalize(self.skill)
         self.section = claims_section()
         self.normalized = normalize(self.section)
 
-    def test_section_carries_each_check(self) -> None:
+    def test_skill_carries_each_check(self) -> None:
         for check_id, anchor in ANCHORS.items():
             with self.subTest(check=check_id):
-                self.assertIn(normalize(anchor), self.normalized)
+                self.assertIn(normalize(anchor), self.skill_normalized)
+
+    def test_ci_11_keeps_its_scope_and_independent_path(self) -> None:
+        for clause in CI_11_CLAUSES:
+            with self.subTest(clause=clause):
+                self.assertIn(normalize(clause), self.skill_normalized)
 
     def test_section_keeps_joel_specific_scope(self) -> None:
         for clause in SCOPE_CLAUSES:
