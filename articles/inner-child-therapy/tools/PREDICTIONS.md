@@ -78,6 +78,29 @@ Each Pangram call gets a prediction in its record before the call. This log scor
 | 2026-09-28 | Guide paragraph 2, my s2d alone (opens by reacting to paragraph 1: "Will they, though? Maybe not right away.") | Human, low (my call) | 100% AI (115 words) | miss |
 | 2026-09-28 | Joel's paragraph 1 + my s2d | Human, low (my call: s2d's first lines react to his last line instead of starting a new run) | 100% AI (236 words), Joel's paragraph flagged too | miss |
 | 2026-09-28 | Heading + Joel's paragraph 1 + my s2d | Human, low (my call: same) | 100% AI (236 words), Joel's paragraph flagged too | miss |
+| 2026-09-28 | Joel's paragraph 1 + my s2f (Joel's lesson applied: opens "And repair after you attack yourself. \"Repair?\"", the jargon word asked about right at the seam, the next item as its answer) | Human, low (my call, written before the check) | 100% AI (218 words), Joel's paragraph flagged too | miss |
+| 2026-09-28 | Joel's paragraph 1 + my s2e (same move, but after a topic-sentence opener: "Some of the protecting happens between you and your little one, like repairing after an internal attack.") | AI, mixed (my call: the opener after his summing-up line is the seam that failed with s2c) | 100% AI (233 words) | hit (worse than I said) |
+| 2026-09-28 | Joel's paragraph 1 + my s2g (s2b's declarative lines, opened with "Then there's repairing after an internal attack." and the question about "internal attack") | Human, low (my call) | 24% AI (231 words); the only flagged window is the seam, from his last two sentences through "Then there's repairing after an internal attack." Everything after the question reads Human. | miss (closest yet) |
+| 2026-09-28 | Joel's paragraph 1 + my s2h (s2g with the seam sentence replaced by "If there's been an internal attack, repair it.", the "If…, do it" shape several passed paragraphs in the article open with) | Human, low (my call, written before the check) | 100% Human (232 words) | hit |
+| 2026-09-28 | Joel's paragraph 1 + my s2i (s2g opened with "Repair after an internal attack too.", which keeps his imperative list going) | AI, mixed (my call: s2f kept the list going and went 100% AI) | 67% AI (229 words); flagged from his last two sentences through the end of s2i | hit |
+| 2026-09-28 | Joel's paragraph 1 + my s2j (s2g opened with "You can protect your little one from yourself too, like by repairing after an internal attack.") | Human, low (my call) | 100% Human (239 words) | hit |
+| 2026-09-28 | My s2j alone | Human (my call, written before the check) | 100% Human (118 words) | hit |
+| 2026-09-28 | My s2h alone | Human (my call) | 100% Human (111 words) | hit |
+| 2026-09-28 | Both headings + Joel's paragraph 1 + my s2j | Human (my call) | 100% AI (249 words); without the two heading lines the same text is 100% Human | miss |
+| 2026-09-28 | Only the h2 ("Make the Protector Visible") + Joel's paragraph 1 + my s2j | Human (my call, written before the check: I suspect the new h1) | 41% AI (243 words); flagged from "Handle that task…" through s2j's first sentence | miss |
+| 2026-09-28 | Only the h1 ("Building Trust With Your Little One") + Joel's paragraph 1 + my s2j | AI (my call) | 18% AI (245 words); flagged: his last two sentences only | hit (mixed) |
+| 2026-09-28 | The h2 + Joel's paragraph 1 | Human (my call) | 100% AI (125 words); the same paragraph without the heading line is 100% Human | miss |
+| 2026-09-28 | Real context: the Adult Apprentice paragraph before it + both headings + Joel's paragraph 1 + my s2j | AI, mixed (my call, written before the check) | 70% AI (326 words); flagged from his third sentence through the end of s2j | hit |
+| 2026-09-28 | h1 + a different h2, "The Protector Can Go First" + Joel's paragraph 1 + my s2j | AI, mixed (my call) | 100% AI (250 words) | hit (worse) |
+| 2026-09-28 | h1 + a different h2, "Keep Your Word" + Joel's paragraph 1 + my s2j | AI, mixed (my call) | 100% Human (248 words) | miss |
+| 2026-09-28 | Real context with the h2 "Keep Your Word": the Adult Apprentice paragraph + h1 + h2 + Joel's paragraph 1 + my s2j | Human, low (my call, written before the check) | 100% Human (325 words) | hit |
+| 2026-09-28 | h1 + "Keep Your Word" + Joel's paragraph 1 only | Human, low (my call) | 100% Human (130 words) | hit |
+| 2026-09-28 | Real context with "Keep Your Word", s2h instead of s2j | Human, low (my call) | 100% Human (318 words) | hit |
+| 2026-09-28 | h1 + the h2 "Do Something They Can See" + Joel's paragraph 1 + my s2j (looking for a heading that doesn't overlap the later "Make a Simple Vow") | Human, low (my call, written before the check) | 85% AI (250 words); flagged: the headings through "Throw the moldy bread in the trash.", and his last two sentences through the end of s2j | miss |
+| 2026-09-28 | h1 + the h2 "Let Them See It" + Joel's paragraph 1 + my s2j (looking for a heading that doesn't overlap the later "Make a Simple Vow") | Human, low (my call, written before the check) | 100% AI (249 words) | miss |
+| 2026-09-28 | h1 + the h2 "Show Up for Them" + Joel's paragraph 1 + my s2j (looking for a heading that doesn't overlap the later "Make a Simple Vow") | Human, low (my call, written before the check) | 18% AI (249 words); flagged: his last two sentences only | miss |
+
+After Joel's 22:12 lesson (my calls, all written before the checks): 12 of 21. Paragraph drafts 6 of 8. Headings and context 6 of 13: I didn't expect a heading to flip his paragraph, and after that I couldn't tell which headings would pass.
 
 Joel rejected the four round-2 passes (19:51: invented scenes, a "Fine," clause, wry humor), so a Pangram pass that leaves the guide isn't a success here.
 

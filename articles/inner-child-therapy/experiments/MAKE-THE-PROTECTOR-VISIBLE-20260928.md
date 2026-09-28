@@ -46,3 +46,41 @@ These are now in `tools/reviewer/owner_bans.txt`, in every writer and reviewer p
 **What changed in the tools:** his pairs now go into the draft prompt (`reviewer.py draft`).
 
 **What's next:** a minimal-fix lesson from him on one of those three versions, so the diff shows what carries the signal.
+
+## Paragraph 2 with Joel's move, and the heading (after his 22:12 lesson)
+
+Every check below is on Joel's account, written down with a call before it ran (tools/PREDICTIONS.md). "Joined" means Joel's paragraph 1, a blank line, then the draft.
+
+| draft | its opening | joined | alone |
+|---|---|---|---|
+| s2c (before the lesson) | "Some of it happens where nobody else can see." | 37% AI: his last line through the "When…, don't…" run | 100% Human |
+| s2f | "And repair after you attack yourself. "Repair?"" | 100% AI, his paragraph too | — |
+| s2e | "Some of the protecting happens between you and your little one, like repairing after an internal attack. "Internal attack, what's that?"" | 100% AI | — |
+| s2g | "Then there's repairing after an internal attack. "What's an 'internal attack'?"" | 24% AI: only the seam, his last two sentences plus that first sentence | — |
+| s2i | "Repair after an internal attack too." | 67% AI | — |
+| s2h | "If there's been an internal attack, repair it." | 100% Human | 100% Human |
+| s2j | "You can protect your little one from yourself too, like by repairing after an internal attack." | 100% Human | 100% Human |
+
+s2g, s2h, s2i and s2j share everything after the first sentence (s2b's plain "They…, and you…" lines).
+
+**Headings.** Joel's paragraph 1 is 100% Human alone and 100% AI with only "Make the Protector Visible" above it (125 words). With the h1, an h2 and both paragraphs:
+
+| h2 | Pangram |
+|---|---|
+| Make the Protector Visible (the guide's) | 100% AI |
+| The Protector Can Go First | 100% AI |
+| Let Them See It | 100% AI |
+| Do Something They Can See | 85% AI |
+| Show Up for Them | 18% AI: his last two sentences |
+| (no h2, h1 only) | 18% AI: his last two sentences |
+| (no headings) | 100% Human |
+| Keep Your Word | 100% Human; also 100% Human over paragraph 1 alone (130 words) and with the Adult Apprentice paragraph above the headings (325 words, with s2j or s2h) |
+
+Installed as a candidate: "Keep Your Word" and s2j. The linter fails s2j (B11, B2, E36/E41, E41 coach), and it fails Joel's paragraph 1 on the same kind of rules (B1, B11, B4/E15, E36/E41), so I went by Pangram.
+
+**Lessons**
+
+- P5. His move carries over. Keep one of the guide's jargon words, let the reader ask what it means, and make the next item the answer. In s2g everything after the question read Human, and the flag stayed only on what came before it.
+- P6. At a seam, the new paragraph's first sentence gets scored with the last lines of the paragraph before. After his summing-up close, a topic opener ("Then there's…", "Some of the protecting happens…") was flagged, and so was carrying on his list of commands ("And repair…", "Repair… too."). Two openers passed: the article's own "If…, do it" shape, and a plain "You can… too, like by…".
+- P7. A heading is part of what Pangram reads, and it moves the windows. Five of six h2 wordings failed, and the flagged span always took in his last two sentences. So "Keep Your Word" passing is probably luck, not a fix. The fix that would last is at that span, and it's his text.
+
