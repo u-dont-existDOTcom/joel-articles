@@ -108,6 +108,10 @@ def main():
             mine_words += len(w)
             for r in TICS:
                 if re.search(r, s, re.I): flag('FAIL', 'B11 tic', s)
+            if re.search(r"\b(doesn['’]t|does not|don['’]t|do not|never) gets? to (decide|choose|pick|vote|call)|\bgets? (a|the) (vote|say)\b|\bgets? to (decide|choose)\b", s, re.I):
+                flag('FAIL', 'O1 owner ban: "doesn\'t get to decide" family (Joel 2026-09-28)', s)
+            if re.search(r"(^|[.!?]\s+)(Fine|Good|Great|Sure|Okay|OK|Fair enough)[,.!]\s", s):
+                flag('FAIL', 'O2 owner ban: Fine/Good/Great as a clause (Joel 2026-09-28)', s)
             for r in CONTRAST:
                 if re.search(r, s, re.I): flag('REVIEW', 'B2 contrast', s); break
             for r in THESIS:

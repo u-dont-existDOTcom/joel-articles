@@ -133,6 +133,16 @@ S5. **Owner notes about sense.** When Joel says a paragraph doesn't make sense, 
 
 **Repairing a failed draft (B10, Joel 2026-09-26).** Don't fix it by swapping its phrases for less likely ones. Rewording while the structure and the other tells stay is what humanizer bots do, and it's what Pangram's "paraphrased or rewritten" flag describes. A phrase from a failed draft is judged like any other phrase, on whether it looks AI. The repair has to change what the draft says and how it's built.
 
+## Owner bans (Joel, 2026-09-28 19:51)
+
+These go into every writer and reviewer prompt (`reviewer/owner_bans.txt`), and the linter fails the first two (O1, O2).
+- "doesn't get to decide" and its family (a feeling or thing that "doesn't get to", "gets to", "gets a vote"). Joel: "one of the phrases AI completely colonized", "an optimal efficiency quippy formulation which humans just rarely use for non-humans". It came into the Make the Protector Visible drafts from my own brief.
+- "Fine," "Good," "Great," as a clause of their own ("Fine, they're nice boots."). Joel: "super AI", and he had said it before.
+- Wry humor. Joel: "wry in a strange way which i can't pin down". His is goofy and glad.
+- Too many made-up scenes: a caution, not a ban. Joel, 20:13: "i'm not saying to ban made-up scenes, they can be useful, but you're overusing them here". Carry the guide's own examples first.
+- Over-explaining listicles. Lists themselves are fine: "I have human and humanized paras with instructions and lists that DO pass". His way with a list is in Borrow One Competency's first paragraph (each item its own sentence, "Perhaps… Perhaps… Maybe… Even…", ending on the oddest one).
+- Show every draft in context, next to the guide's original (Joel: "from now on, you need to show me your work in context").
+
 ## What the linter checks
 
 - **Hard FAIL:**

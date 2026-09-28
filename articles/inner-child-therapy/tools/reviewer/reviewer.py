@@ -225,12 +225,22 @@ def build_writer(draft, tickets, target):
     return w
 
 
+def joel_fixes():
+    # Joel's own before/after fixes, from JOEL-FIXES-CATALOGUE (2026-09-28). His rewrites teach more than
+    # paraphrased lessons, so the examples go in as he wrote them.
+    c = (HERE.parent / 'JOEL-FIXES-CATALOGUE-20260928.md').read_text(encoding='utf-8')
+    a, b = c.index('## What he cuts'), c.index('## In his words')
+    return ("How the author himself has fixed AI drafts, with his exact before and after wording. "
+            "These are examples of what he changes, not a checklist:\n\n" + c[a:b].strip())
+
+
 def build_draft(target):
     t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
     w = read('writer_draft.txt')
     for k in ('brief', 'before', 'after'):
         w = w.replace('{%s}' % k, t[k])
-    return w
+    i = w.index('Write the paragraph:')
+    return w[:i] + joel_fixes() + '\n\n' + w[i:]
 
 
 def build_sense(draft, target):

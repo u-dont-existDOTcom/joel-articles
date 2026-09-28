@@ -291,10 +291,19 @@
   },
   {
    "id": "outward-expectations",
-   "status": "pending",
+   "status": "applied",
    "what": "Also Look Outward carries the source's point that r6b left out: adjust your expectations to what the person repeatedly shows they can offer, not what one perfect explanation might unlock (with its reason: the problem may not be that you failed to explain yourself well enough).",
-   "joel": "2026-09-28 16:29: \"you left out the last AI source part tho so i assume that will come next: 'Adjust your expectations to what the person repeatedly shows they can actually offer, rather than what one perfect explanation might finally unlock.'\"",
-   "waits_for": "Joel's OK on the candidate in place (draft d2, 2026-09-28): the cold sense read passed every sentence; Pangram 100% Human alone (66 words) and in the section (375 words)"
+   "joel": "2026-09-28 16:29: \"you left out the last AI source part tho so i assume that will come next: 'Adjust your expectations to what the person repeatedly shows they can actually offer, rather than what one perfect explanation might finally unlock.'\"; 17:15: \"i prefer the candidate version so keep that\"",
+   "waits_for": "",
+   "must_contain": [
+    "If it's the first, it can seem like you haven't explained yourself well enough yet.",
+    "Maybe what they can do is text you something kind the next day and not bring any of it up."
+   ],
+   "order": [
+    "Or can they hear you disagree and look at their own part?",
+    "If it's the first, it can seem like",
+    "You may not know for certain whether the other person"
+   ]
   }
  ]
 }

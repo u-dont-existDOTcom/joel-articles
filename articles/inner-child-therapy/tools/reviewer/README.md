@@ -8,7 +8,8 @@ This is the method from 2026-09-28. The reviewer's validation is in `../REVIEWER
 - `output_verdicts.txt`: the verdict format for judging many passages (validation, the human-prose test).
 - `tickets.txt`: what a reviewer does with one draft. A verdict, then one ticket per sentence: KEEP, or FIX with the problem, an instruction, and what the reader should get from it.
 - `writer.txt`: the writer's instructions. Carry out the tickets literally and change nothing else.
-- `writer_draft.txt`: a first draft from the brief, for a paragraph that has no draft yet. It carries what Pangram has shown about shape, as observations, not a checklist or sentence jobs.
+- `writer_draft.txt`: a first draft from the brief, for a paragraph that has no draft yet. It carries what Pangram has shown about shape, as observations, not a checklist or sentence jobs. `reviewer.py draft` also adds Joel's own before/after fixes from `../JOEL-FIXES-CATALOGUE-20260928.md`, word for word.
+- `owner_bans.txt`: Joel's standing bans and cautions (2026-09-28). They're copied into the writer, ticket and draft prompts.
 - `sense.txt`: the cold reader's instructions. Sense only, one line per sentence.
 - `targets/*.json`: for each paragraph being worked on, the paragraph before, the paragraph after, and the meaning to keep. Write the meaning as bare points; writers reuse the brief's wording.
 - `human_items.manifest.json`: the human-prose test set, with sources and hashes. The texts go in `local/human_items.json`, which is kept out of git.
