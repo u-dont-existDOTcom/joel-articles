@@ -7,5 +7,6 @@ Each Pangram call gets a prediction in its record before the call. This log scor
 | 2026-09-27 | Also Look Outward r2, first paragraph alone | Human, low confidence | 100% AI | miss |
 | 2026-09-27 | Also Look Outward r2, the section | Human, low confidence | 57% AI | miss |
 | 2026-09-27 | Also Look Outward r5, first paragraph alone | Human, low confidence | 100% AI | miss |
+| 2026-09-28 | Also Look Outward r7 alone | Human, low confidence | 100% AI | miss |
 
-Hit rate so far: 0 of 3.
+Hit rate so far: 0 of 4. The two blind model judges (Sonnet, Opus) both called r6, r7's near twin, HUMAN.

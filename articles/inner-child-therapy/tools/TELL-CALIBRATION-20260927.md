@@ -59,3 +59,25 @@ AUC: 1.0 would separate them perfectly; 0.5 is chance.
 - **The list is a repair aid.** Every row gets a line with its words (no bulk clearing, E88). Repairs go first to the rows that lean AI in this data (T23, T10, T03, T02, T20) and to T05, T08 and T18 when they appear.
 - **7 or more flagged rows is a warning.** It means rebuild before spending a call, but it isn't a verdict.
 - **Rerun this calibration as texts accumulate** (the table in `HUMANIZATION-GATE.md` has 73), and redo the weights only on a leave-one-out basis.
+
+## Correction, 2026-09-28 (Joel, 2026-09-27 23:52)
+
+> "you could say while skydiving and it would still have the same marching order predictable cadence with optimized structure. you're telling me that's not a strong predictor of AI prose? … the idea that your independent reviewer said they aren't, shows the independent reviewer doesn't know what it's talking about."
+
+He's right. The table above measures the reviewer, not the tells. The blind reviewer gave Also Look Outward r2 no PRESENT row at all, although Pangram rates it 100% AI and its march is plain: a command, a test question, the counter-question, an authority, a method, a caution, a reason, a rule. A reviewer that can't see the march in that paragraph can't tell us whether the march predicts AI. So "most rows show up in human prose too" and "the count barely separates the groups" are findings about that reviewer. The tells' own value is unmeasured here.
+
+Outside evidence says structure does predict AI. SlopShape's game figures (`experiments/SLOPSHAPE-GAME-FINDINGS-20260926.md`):
+- a closing move that restates or reframes the thesis: 77% of AI posts, 12% of human ones;
+- the thesis stated before the first part: 93% against 51%.
+
+**Model judges were tested the same night** (`tools/calibration/JUDGE-BLIND-HUMAN-OR-AI-20260928.json`). A fresh Sonnet and a fresh Opus each labeled the same 28 paragraphs HUMAN or AI, blind.
+- Both got 18 of 28 right, and they agreed on only 12.
+- Opus caught 11 of the 14 AI paragraphs, and called 7 of the 14 human ones AI.
+- Sonnet let 8 of the 14 AI paragraphs through as human. It called two human paragraphs AI, and one of them was Joel's own P2.
+- Sonnet's 15 of 15 in the SlopShape game was on 600–2,500-word, single-pass AI blog posts against pre-ChatGPT human posts. That's an easier test than short, edited paragraphs judged against Pangram.
+
+**So the list is used like this:**
+- **Blocks the call:** T02 (instruction-manual cadence), T09 (equal efficiency) and T13 (nothing noticed), the marching order Joel names. If one is present, rebuild before any call, and don't explain it away.
+- **Repair hints:** the other rows, each still written out with its words.
+- **The gate:** Pangram, with the sense step before it.
+- **No model judge**, Sonnet or Opus, stands in for Pangram. Neither was reliable on these paragraphs.

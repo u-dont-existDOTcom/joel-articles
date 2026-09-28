@@ -1,6 +1,6 @@
 # Also Look Outward P1: rewrite, 2026-09-27
 
-Status: **r5, THE FIRST TRY THROUGH THE WHOLE NEW WORKFLOW (SENSE STEP, COLD READS, THE LIST AS A REPAIR AID, A PREDICTION), FAILED: THE FIRST PARAGRAPH 100% AI ALONE. NOT INSTALLED; THE OLD P1 STAYS. JOEL TO CHOOSE THE NEXT STEP.**
+Status: **r7, A THREE-SENTENCE REMARK WITH NO INSTRUCTIONS, FAILED ALONE (100% AI). THE CAVEAT PARAGRAPH IS DELETED (JOEL, 23:52). NOT INSTALLED; THE OLD P1 STAYS. JOEL TO CHOOSE: DELETE P1 SO THE SECTION OPENS WITH HIS P2, OR HIS MINIMAL FIX.**
 
 ## Why
 
@@ -289,3 +289,70 @@ That's eight flagged rows, none PRESENT, and eight is over the warning line of s
 1. One more try with a specific, less expected moment in place of the textbook vignette, with no invented facts.
 2. Joel's minimal fix on r5, which makes sense.
 3. Cut the first paragraph down to a short lead-in to his own P2, which carries the uncertainty and promises. It would be checked only as part of the section.
+
+## Joel, 2026-09-27 23:52
+
+> "ok i think first of all the 2nd para in what you wrote can be deleted … the dinner scene isn't the issue. you could say while skydiving and it would still have the same marching order predictable cadence with optimized structure."
+
+The caveat paragraph is deleted. The diagnosis is corrected (E90): r5 failed on the march, not the vignette.
+
+## r6 and r7: no march
+
+**r6** is a claim, the pattern with an inference back to the previous section ("probably not only your hook"), a label, and books.
+- The cold read: every sentence follows. Two real notes: the double "them" in the last sentence, and a book that isn't named.
+- Two blind model judges (the 28-text test above, with r6 hidden among them) both said HUMAN: Opus at 55, Sonnet at 68. Neither judge is reliable, so that's no evidence.
+
+**r7** merges the label into the books sentence, which removes the label step and the double "them", and names her actual title (verified on her site's list of books: https://www.lindsaycgibson.com/books.html).
+- The cold read: every sentence follows. The notes are strict ones, answered here:
+  - "Some people" is a new general claim.
+  - "the thing that hurt" is general by design.
+  - "which pretty much says what it's for" is the joke: the title says it.
+
+### r7
+
+> Some people really are hard to bring anything up with. You mention the thing that hurt, and twenty minutes later you're comforting them about how bad they feel, and if that's how it goes every time, it's probably not only your hook. The psychologist [Lindsay Gibson](https://www.youtube.com/watch?v=VlNpgFWOLPw) has a whole shelf of books about people like that, and one's called *Disentangling from Emotionally Immature People*, which pretty much says what it's for.
+
+**Preservation.**
+- Kept:
+  - look at the other person (the first sentence);
+  - the repeated ending, you carrying their feelings and dropping yours (the second sentence, "every time");
+  - the tie back to the hook section (the second sentence);
+  - Gibson and emotional immaturity (the third sentence, with her title).
+- Dropped:
+  - the source's capacity questions, as a list; the pattern stands for them;
+  - Gibson's "notice what they're doing";
+  - the caveat paragraph (Joel's deletion).
+- Still not carried, for Joel: "you do not need repeated exposure to danger before protecting yourself".
+
+**March rows (row by row):**
+- T02: no words match. It's a remark with an example and a pointer, and there's no instruction in it.
+- T09: no words match. The middle sentence gets the weight; the others are short.
+- T13: no words match. The hook inference and the title joke come out of the material.
+
+**Other rows:**
+- T23: UNCERTAIN, "twenty minutes later you're comforting them".
+- T20: UNCERTAIN. The title joke is a closer.
+- Every other row: no words match.
+
+**Prediction:** Human, low confidence. My predictions so far are 0 of 3.
+
+**Checks planned (sha256 of the text without a final newline):**
+- r7 alone: 71 words, sha256 7384ab665299da59e2dd68682dee0629c397274f8c129b42110f9856d986ed38.
+- The section (the heading, r7, then P2 to P4 as installed): 254 words, sha256 745d97af7c395d65441be4ab7fdf46d2db8fb5e652e5de2ed4220ca431d910b5.
+
+**Result, r7 alone (Pangram 4.0, 2026-09-28, the turn that started 2026-09-27 23:54):** AI Generated, 100% AI, 76 words scanned, short text. The whole paragraph is flagged. The prediction (Human) missed; that's 0 of 4.
+
+**The section without P1** (the heading, then Joel's P2, P3 and P4: 183 words, sha256 7394bafcf8b9e1753b8476174d88b4f004322c2a2df2fc7dc5ac5b2b88d5d5b7) wasn't checked. The browser pane lost its permission for pangram.com, and the page it still showed was stale: the visible box held the previous text, while the script read the new text. So nothing was submitted.
+
+**This slot has failed five times:**
+- the one-sentence fix;
+- r1, the old skeleton reworded;
+- r2, the sense-first version;
+- r5, the replayed scene;
+- r7, the short remark.
+
+Every version of my prose here reads 100% AI alone, whatever the build. The content is an assessment of another person with an expert pointer, and I haven't found a way to carry it that Pangram reads as human.
+
+**Options for Joel:**
+1. **Delete P1.** The section would open with his own P2. Its "the other person" and "a healthier response" point back to "Somebody may really have crossed a boundary" just above the heading, so it still reads. The pattern of caretaking and Gibson would go. The Gibson link could sit on a phrase in his P2 if he wants to keep the resource.
+2. **His minimal fix,** on r7 or r2.

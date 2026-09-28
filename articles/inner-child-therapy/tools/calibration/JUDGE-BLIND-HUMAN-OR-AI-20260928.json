@@ -1,0 +1,211 @@
+{
+ "opus": {
+  "X01": "H",
+  "X02": "A",
+  "X03": "A",
+  "X04": "A",
+  "X05": "A",
+  "X06": "A",
+  "X07": "A",
+  "X08": "A",
+  "X09": "A",
+  "X10": "A",
+  "X11": "A",
+  "X12": "H",
+  "X13": "H",
+  "X14": "A",
+  "X15": "A",
+  "X16": "H",
+  "X17": "H",
+  "X18": "A",
+  "X19": "A",
+  "X20": "H",
+  "X21": "A",
+  "X22": "H",
+  "X23": "A",
+  "X24": "H",
+  "X25": "A",
+  "X26": "H",
+  "X27": "H",
+  "X28": "A",
+  "X29": "H"
+ },
+ "sonnet": {
+  "X01": "H",
+  "X02": "A",
+  "X03": "H",
+  "X04": "H",
+  "X05": "A",
+  "X06": "H",
+  "X07": "H",
+  "X08": "A",
+  "X09": "H",
+  "X10": "H",
+  "X11": "A",
+  "X12": "H",
+  "X13": "A",
+  "X14": "H",
+  "X15": "H",
+  "X16": "H",
+  "X17": "H",
+  "X18": "H",
+  "X19": "H",
+  "X20": "H",
+  "X21": "A",
+  "X22": "A",
+  "X23": "H",
+  "X24": "H",
+  "X25": "H",
+  "X26": "H",
+  "X27": "A",
+  "X28": "H",
+  "X29": "H"
+ },
+ "key": {
+  "X01": {
+   "name": "FAIL_threefn_p5_r2c",
+   "label": "AI",
+   "words": 62
+  },
+  "X02": {
+   "name": "FAIL_threefn_p5_r1",
+   "label": "AI",
+   "words": 60
+  },
+  "X03": {
+   "name": "PASS_apprentice_p1_r2",
+   "label": "H",
+   "words": 74
+  },
+  "X04": {
+   "name": "PASS_threefn_p4_r1",
+   "label": "H",
+   "words": 53
+  },
+  "X05": {
+   "name": "FAIL_outward_p1a_r2_sense_first",
+   "label": "AI",
+   "words": 86
+  },
+  "X06": {
+   "name": "FAIL_outward_p1_rewrite_r1",
+   "label": "AI",
+   "words": 88
+  },
+  "X07": {
+   "name": "PASS_borrow_guide_r8e",
+   "label": "H",
+   "words": 82
+  },
+  "X08": {
+   "name": "FAIL_apprentice_p1_r1",
+   "label": "AI",
+   "words": 74
+  },
+  "X09": {
+   "name": "FAIL_threefn_p1_r2",
+   "label": "AI",
+   "words": 62
+  },
+  "X10": {
+   "name": "PASS_threefn_p3_r1b",
+   "label": "H",
+   "words": 56
+  },
+  "X11": {
+   "name": "FAIL_love_spirit_p1_r1",
+   "label": "AI",
+   "words": 71
+  },
+  "X12": {
+   "name": "PASS_love_askgod_p1",
+   "label": "H",
+   "words": 60
+  },
+  "X13": {
+   "name": "JOEL_outward_p2",
+   "label": "H",
+   "words": 96
+  },
+  "X14": {
+   "name": "FAIL_threefn_p1_r1b",
+   "label": "AI",
+   "words": 125
+  },
+  "X15": {
+   "name": "FAIL_love_spirit_p1_r2",
+   "label": "AI",
+   "words": 65
+  },
+  "X16": {
+   "name": "PASS_borrow_p4_r10",
+   "label": "H",
+   "words": 79
+  },
+  "X17": {
+   "name": "FAIL_borrow_p5_r10",
+   "label": "AI",
+   "words": 86
+  },
+  "X18": {
+   "name": "PASS_ce_jobs_r2_scene",
+   "label": "H",
+   "words": 60
+  },
+  "X19": {
+   "name": "FAIL_threefn_newp1_r1",
+   "label": "AI",
+   "words": 96
+  },
+  "X20": {
+   "name": "PASS_fix_ask_p1",
+   "label": "H",
+   "words": 68
+  },
+  "X21": {
+   "name": "FAIL_ce_jobs_r1b_definitions",
+   "label": "AI",
+   "words": 107
+  },
+  "X22": {
+   "name": "JOEL_chicken_egg_p1",
+   "label": "H",
+   "words": 93
+  },
+  "X23": {
+   "name": "FAIL_borrow_r6",
+   "label": "AI",
+   "words": 478
+  },
+  "X24": {
+   "name": "PASS_tyler_p4_r1",
+   "label": "H",
+   "words": 87
+  },
+  "X25": {
+   "name": "PASS_love_p2_r3",
+   "label": "H",
+   "words": 92
+  },
+  "X26": {
+   "name": "PASS_ce_guide_alone_r2",
+   "label": "H",
+   "words": 80
+  },
+  "X27": {
+   "name": "FAIL_outward_p1_accepted_20260918",
+   "label": "AI",
+   "words": 93
+  },
+  "X28": {
+   "name": "PASS_borrow_p7_r11",
+   "label": "H",
+   "words": 72
+  },
+  "X29": {
+   "name": "DRAFT_outward_r6",
+   "label": "?",
+   "words": 76
+  }
+ }
+}
