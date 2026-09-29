@@ -18,6 +18,7 @@
       "split_of": "intentional-communities-rewrite-0501",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "d41b82c832453ae497375b7b024d3663b7ba153f1b1cc62691bdc8f8bd2b7893",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0501-r2-s01.txt"
     },
     {
@@ -32,6 +33,7 @@
       "split_of": "intentional-communities-rewrite-0501",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "05e3b67ecfd88a8903ca62292ade08d6a9e5944c4717a47e1b62315b87fdf46f",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0501-r2-s02.txt"
     },
     {
@@ -46,6 +48,7 @@
       "split_of": "intentional-communities-rewrite-0501",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "2df4606abf84ad9fd7aef76d05c7819bbda833d1abdf410dff08d2f359bb0260",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0501-r2-s03.txt"
     },
     {
@@ -60,6 +63,7 @@
       "split_of": "intentional-communities-rewrite-0502",
       "split_index": 1,
       "split_total": 4,
+      "sha256": "0c0f192f5bffebfc5e4a976a204f6bb6e12b3290202ea7b7aa3a0c6a01e6ba1b",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502-s01.txt"
     },
     {
@@ -74,6 +78,7 @@
       "split_of": "intentional-communities-rewrite-0502",
       "split_index": 2,
       "split_total": 4,
+      "sha256": "846ad2fbd55070198c6ce284c26c332a01724c9822afdf5b1dac4b104142c61c",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502-s02.txt"
     },
     {
@@ -88,6 +93,7 @@
       "split_of": "intentional-communities-rewrite-0502",
       "split_index": 3,
       "split_total": 4,
+      "sha256": "a68c63004a2fde11bcbea319b79d16ccdab985ddfb5afa4a991e78f2c04b5169",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502-s03.txt"
     },
     {
@@ -102,6 +108,7 @@
       "split_of": "intentional-communities-rewrite-0502",
       "split_index": 4,
       "split_total": 4,
+      "sha256": "9c3348a9983b2ed3fe1f0eb81372f5e618245f8317b8bfa87672d8d7e147a13c",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502-s04.txt"
     },
     {
@@ -116,6 +123,7 @@
       "split_of": "intentional-communities-rewrite-0601",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "eb69545b0f242ba5952c433e127a05ffdbdb11928c9afdc92fc5340b21d5ff8f",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0601-s01.txt"
     },
     {
@@ -130,6 +138,7 @@
       "split_of": "intentional-communities-rewrite-0601",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "c2523605a88188dbefc9d5bab30ff04efac1123130c1ce3207b0fc4d26221b13",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0601-s02.txt"
     },
     {
@@ -170,6 +179,7 @@
       "split_of": "intentional-communities-rewrite-0802",
       "split_index": 1,
       "split_total": 6,
+      "sha256": "b41617f16999b3583e2d06da06f209a60fcae87b923e39e378ca0fb47313572b",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s01.txt"
     },
     {
@@ -184,6 +194,7 @@
       "split_of": "intentional-communities-rewrite-0802",
       "split_index": 2,
       "split_total": 6,
+      "sha256": "623939a48fc13c0292366b1c67022e18b5fb48afe89b4898a1e3fa4d52e72e52",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s02.txt"
     },
     {
@@ -198,6 +209,7 @@
       "split_of": "intentional-communities-rewrite-0802",
       "split_index": 3,
       "split_total": 6,
+      "sha256": "e94151f979b684430381d0961884b6635631a34721084c74a4f8b8fbb06b16ba",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s03.txt"
     },
     {
@@ -212,6 +224,7 @@
       "split_of": "intentional-communities-rewrite-0802",
       "split_index": 4,
       "split_total": 6,
+      "sha256": "b227132c54d38f77f065cd1a0d0dcf1ee87c81b541cf71af43028e5fdb0075c4",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s04.txt"
     },
     {
@@ -226,6 +239,7 @@
       "split_of": "intentional-communities-rewrite-0802",
       "split_index": 5,
       "split_total": 6,
+      "sha256": "8b04043c6ae299c08e845cf7d00bfef946d96a53b34e612b7fcbf0bcd87a265b",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s05.txt"
     },
     {
@@ -240,6 +254,7 @@
       "split_of": "intentional-communities-rewrite-0802",
       "split_index": 6,
       "split_total": 6,
+      "sha256": "771465b651f24ca227449d92a559cf152f7e4ac06c5f2db8dafd02c7fcb043fb",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s06.txt"
     },
     {
@@ -254,6 +269,7 @@
       "split_of": "intentional-communities-rewrite-0901",
       "split_index": 1,
       "split_total": 4,
+      "sha256": "9b288ef067c97ba76d8edb88e545d45fa2cb70f03dfee5ae453cf1be5bf89b3b",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901-s01.txt"
     },
     {
@@ -268,6 +284,7 @@
       "split_of": "intentional-communities-rewrite-0901",
       "split_index": 2,
       "split_total": 4,
+      "sha256": "d4842f8528c8c8b3fba2c369e02b7c9c422fa372ebd44fea648e65f8cf41fd85",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901-s02.txt"
     },
     {
@@ -282,6 +299,7 @@
       "split_of": "intentional-communities-rewrite-0901",
       "split_index": 3,
       "split_total": 4,
+      "sha256": "1fdfae66f7ca08a490b8be9c318be9483c58ff0985ebaf5a060bdb41662de2c5",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901-s03.txt"
     },
     {
@@ -296,6 +314,7 @@
       "split_of": "intentional-communities-rewrite-0901",
       "split_index": 4,
       "split_total": 4,
+      "sha256": "c8a35b8e1e0a4d3dc176cd6506cc432adb12749d4f945c99c4d33e0586c1b992",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901-s04.txt"
     },
     {
@@ -310,6 +329,7 @@
       "split_of": "intentional-communities-rewrite-1001",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "2166dcf6eb19247043711436849835300730d67a7a131d7474c49a762e641862",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1001-s01.txt"
     },
     {
@@ -324,6 +344,7 @@
       "split_of": "intentional-communities-rewrite-1001",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "a36c91c18508abd93a999f3327b38989fd4df9ff601c721912990ffeaaba1603",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1001-s02.txt"
     },
     {
@@ -338,6 +359,7 @@
       "split_of": "intentional-communities-rewrite-1001",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "039a2104c56930b4454684423117b178bcd85e41c5a098089998e4c9cc8dba33",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1001-s03.txt"
     },
     {
@@ -352,6 +374,7 @@
       "split_of": "intentional-communities-rewrite-1101",
       "split_index": 1,
       "split_total": 4,
+      "sha256": "50b93114bb14461bdff07d644de0a56d0323224fe36ab01c675ac8c0183561cd",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101-s01.txt"
     },
     {
@@ -366,6 +389,7 @@
       "split_of": "intentional-communities-rewrite-1101",
       "split_index": 2,
       "split_total": 4,
+      "sha256": "959112241f01bc45bd8b4df3aa904839b7ec274f5d8c54c9d8aba34cd686b0f8",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101-s02.txt"
     },
     {
@@ -380,6 +404,7 @@
       "split_of": "intentional-communities-rewrite-1101",
       "split_index": 3,
       "split_total": 4,
+      "sha256": "796dc19ab7fa9bd0dcbfa9712d9b6ad3b9213bb7bcebf54afd9e7836038d8d3e",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101-s03.txt"
     },
     {
@@ -394,6 +419,7 @@
       "split_of": "intentional-communities-rewrite-1101",
       "split_index": 4,
       "split_total": 4,
+      "sha256": "4ff4d18a8ff08ca6172cebbbbf53c2f0ba60180decc123aaa264a1b5dd853a1d",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101-s04.txt"
     },
     {
@@ -408,6 +434,7 @@
       "split_of": "intentional-communities-rewrite-1201",
       "split_index": 1,
       "split_total": 4,
+      "sha256": "d9718d9feaccdf5639eb03bf312db68e648bba1c5fb04f0556181205860b648d",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201-s01.txt"
     },
     {
@@ -422,6 +449,7 @@
       "split_of": "intentional-communities-rewrite-1201",
       "split_index": 2,
       "split_total": 4,
+      "sha256": "06fe1ac03d61703aa114f2367445ae05192445e5de5dc1415c01e83568f91827",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201-s02.txt"
     },
     {
@@ -436,6 +464,7 @@
       "split_of": "intentional-communities-rewrite-1201",
       "split_index": 3,
       "split_total": 4,
+      "sha256": "a7fa308a992f2ef7ed15fd17b0b084a3ef23215f3b9077b73baa7d23c97aa9a7",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201-s03.txt"
     },
     {
@@ -450,6 +479,7 @@
       "split_of": "intentional-communities-rewrite-1201",
       "split_index": 4,
       "split_total": 4,
+      "sha256": "c030aeacecc069492f97a5f4b8db74bf2d2ddfc9713128951c6ab3091da68f20",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201-s04.txt"
     },
     {
@@ -464,6 +494,7 @@
       "split_of": "intentional-communities-rewrite-1301",
       "split_index": 1,
       "split_total": 7,
+      "sha256": "f7a46d19994ae5f7db1134c3b27c7ff512f6bd3f450d333a8d7223590695c6e7",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s01.txt"
     },
     {
@@ -478,6 +509,7 @@
       "split_of": "intentional-communities-rewrite-1301",
       "split_index": 2,
       "split_total": 7,
+      "sha256": "e526505730bf4f14c2bd987c98e7b44dab635be5356d4394cac77277a07a62a0",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s02.txt"
     },
     {
@@ -492,6 +524,7 @@
       "split_of": "intentional-communities-rewrite-1301",
       "split_index": 3,
       "split_total": 7,
+      "sha256": "af141a39928345f93e9378c440455c85e367504a12fc23e6bd1d0caf38148308",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s03.txt"
     },
     {
@@ -506,6 +539,7 @@
       "split_of": "intentional-communities-rewrite-1301",
       "split_index": 4,
       "split_total": 7,
+      "sha256": "458b5e286d8bd0fbc16695019534c07f0167114faa03685ee877fb6953362fa6",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s04.txt"
     },
     {
@@ -520,6 +554,7 @@
       "split_of": "intentional-communities-rewrite-1301",
       "split_index": 5,
       "split_total": 7,
+      "sha256": "1a147fd1317ee86fc51d59825079b8191f25905bdd41b4f827d85441944bfe0f",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s05.txt"
     },
     {
@@ -534,6 +569,7 @@
       "split_of": "intentional-communities-rewrite-1301",
       "split_index": 6,
       "split_total": 7,
+      "sha256": "29da357b41efb05dc296fb843b77d39eba893db6c94b62a3f3bea9a6799cb646",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s06.txt"
     },
     {
@@ -548,6 +584,7 @@
       "split_of": "intentional-communities-rewrite-1301",
       "split_index": 7,
       "split_total": 7,
+      "sha256": "4633c532eb48e7524e0a59947c1666120d584d40c68cd179c2dafde17b9f0162",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s07.txt"
     },
     {
@@ -575,6 +612,7 @@
       "split_of": "intentional-communities-rewrite-1501",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "31299d0c1c6e5a6d10ce55f7729bcee0899330a1470bc60a7e27098520bcb927",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1501-s01.txt"
     },
     {
@@ -589,6 +627,7 @@
       "split_of": "intentional-communities-rewrite-1501",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "d9409e8c12645097525c2a40871d96af231f140a952d98e1420d8a7703afc765",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1501-s02.txt"
     },
     {
@@ -603,6 +642,7 @@
       "split_of": "intentional-communities-rewrite-1502",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "370c906bb3754d57496add8961ddfc225bc1e11db90fe18052a2afe0af7b1175",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1502-s01.txt"
     },
     {
@@ -617,6 +657,7 @@
       "split_of": "intentional-communities-rewrite-1502",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "9a652a9100a3122c53bff90867ae39694ec948d2973685f5d80261ce7184b262",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1502-s02.txt"
     },
     {
@@ -631,6 +672,7 @@
       "split_of": "intentional-communities-rewrite-1502",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "db6f228ad856499e20f9d67b07fecc1cf0ae26662c11affb4741c0c87d1c7c83",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1502-s03.txt"
     },
     {
@@ -645,6 +687,7 @@
       "split_of": "intentional-communities-rewrite-1601",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "c7cc7883942337a44d04f0b84d235c4a2373c6c3903e67130584c7386f5ce26d",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1601-s01.txt"
     },
     {
@@ -659,6 +702,7 @@
       "split_of": "intentional-communities-rewrite-1601",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "75f75978889352a730d0624757b3279acd60f4ddeb5edd69a9ecf2e8ae79deed",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1601-s02.txt"
     },
     {
@@ -673,6 +717,7 @@
       "split_of": "intentional-communities-rewrite-1601",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "9fd1bba8623bb33052cdef663026aba3b708bf4b1c624204c95b5ee5dd456df4",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1601-s03.txt"
     },
     {
@@ -687,6 +732,7 @@
       "split_of": "intentional-communities-rewrite-1701",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "bfb9ce38f5d0adc102a73f395192ec8dbb577fc48a5b9481d1b9bb2d21578b48",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1701-s01.txt"
     },
     {
@@ -701,6 +747,7 @@
       "split_of": "intentional-communities-rewrite-1701",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "af302dbee0794ca45cd7487ab3dbedbdb6d046dc87f831ea24d0b8838c386a1a",
       "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1701-s02.txt"
     },
     {
@@ -715,6 +762,7 @@
       "split_of": "hypnosis-guide-rewrite-0101",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "9f97529b112488b92a474487ea8b0475d96ab9658f29e50a8f7891c201978e35",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0101-s01.txt"
     },
     {
@@ -729,6 +777,7 @@
       "split_of": "hypnosis-guide-rewrite-0101",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "1d4ee8a9d77816a446e4d6a0ab26f47f6b233232e4f5f49b76f0e694c8950bd3",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0101-s02.txt"
     },
     {
@@ -743,6 +792,7 @@
       "split_of": "hypnosis-guide-rewrite-0101",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "11b60c319b0ec15fd63f912e98a0f2212059c4d81990d0326264a7f61f74e047",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0101-s03.txt"
     },
     {
@@ -757,6 +807,7 @@
       "split_of": "hypnosis-guide-rewrite-0201",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "4c056e5c863d7361e914d602a5d9d9a1296ecdbc5dbcc3d23dd645c6cead3a4c",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0201-s01.txt"
     },
     {
@@ -771,6 +822,7 @@
       "split_of": "hypnosis-guide-rewrite-0201",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "bd4680f9c4fec5d9e9df0a422f78661bee02696b5ec9a3097d0de92cecb99e36",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0201-s02.txt"
     },
     {
@@ -837,6 +889,7 @@
       "split_of": "hypnosis-guide-rewrite-0901",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "704a280d29287a02cf63f04f57b6f6a1f67fd3c5c4a6495658dcbe50e79b4fde",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0901-s01.txt"
     },
     {
@@ -851,6 +904,7 @@
       "split_of": "hypnosis-guide-rewrite-0901",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "ee4bf2e14221721cebb818e7a0897e9384ca39b5fbb6e9935979fa207662e4a6",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0901-s02.txt"
     },
     {
@@ -865,6 +919,7 @@
       "split_of": "hypnosis-guide-rewrite-0901",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "586a7b5af24157e53203fe575f84e5530a2d4b1c00528318a569af2938c447b8",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0901-s03.txt"
     },
     {
@@ -879,6 +934,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 1,
       "split_total": 10,
+      "sha256": "3df1f7160963f9b3fc52235b71cdeafda3f0fb84dd16f406292ee20557d34a81",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s01.txt"
     },
     {
@@ -893,6 +949,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 2,
       "split_total": 10,
+      "sha256": "ebc4e5648342b32055bf753833d0a949a09e2d37b65e26d12adbd51c77e79b9a",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s02.txt"
     },
     {
@@ -907,6 +964,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 3,
       "split_total": 10,
+      "sha256": "95fa63a0be19a0eeda9932b5efc244dc5a8fc9dff131d4d8951b384e1d86b2a9",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s03.txt"
     },
     {
@@ -921,6 +979,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 4,
       "split_total": 10,
+      "sha256": "23cd53d6903b4c723e03d8f2efce47ba6d581980c7f89bd25c5eb2915deb607c",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s04.txt"
     },
     {
@@ -935,6 +994,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 5,
       "split_total": 10,
+      "sha256": "fa672de3a8164762fbb6ef48d484a3ae66855bdcfbd2ab236965cd5a775f2194",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s05.txt"
     },
     {
@@ -949,6 +1009,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 6,
       "split_total": 10,
+      "sha256": "f483aae85bef16e1a54e221f0e2a00a2cd50460026e0955c797b93156723fccc",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s06.txt"
     },
     {
@@ -963,6 +1024,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 7,
       "split_total": 10,
+      "sha256": "9cae4e27f20bc0204ca170aa2dfcd6103c7e10fb476f45947b69201418005c86",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s07.txt"
     },
     {
@@ -977,6 +1039,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 8,
       "split_total": 10,
+      "sha256": "2c09ffb66801e708711444507b1c4729cf96bb258a47a1edbe365ecfaab38a92",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s08.txt"
     },
     {
@@ -991,6 +1054,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 9,
       "split_total": 10,
+      "sha256": "52b05af204a2f37bf7e844e49b5923a06179f6f537b6dc124d0a3930f091041c",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s09.txt"
     },
     {
@@ -1005,6 +1069,7 @@
       "split_of": "hypnosis-guide-rewrite-1001",
       "split_index": 10,
       "split_total": 10,
+      "sha256": "9f4dd95a17e44a20bc397887feb98f09ab5d99d08c076d773f09e9bac3fc6ff9",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s10.txt"
     },
     {
@@ -1019,6 +1084,7 @@
       "split_of": "hypnosis-guide-rewrite-1101",
       "split_index": 1,
       "split_total": 4,
+      "sha256": "56d35f8934bb43ca446dcd4581669a7235db9313987d0514056e8d8fdde237ed",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101-s01.txt"
     },
     {
@@ -1033,6 +1099,7 @@
       "split_of": "hypnosis-guide-rewrite-1101",
       "split_index": 2,
       "split_total": 4,
+      "sha256": "53745244569732b17f1fd3af15d552f4cd67a980a57a9ee75b477d9d5b8e8541",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101-s02.txt"
     },
     {
@@ -1047,6 +1114,7 @@
       "split_of": "hypnosis-guide-rewrite-1101",
       "split_index": 3,
       "split_total": 4,
+      "sha256": "7917f313f9422f0de803382fb6420dda46073868286331559ff345089f227ad0",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101-s03.txt"
     },
     {
@@ -1061,6 +1129,7 @@
       "split_of": "hypnosis-guide-rewrite-1101",
       "split_index": 4,
       "split_total": 4,
+      "sha256": "aacdb5879f8230f5e1c4f2e771df4ef021982768f869ef1c56a0c479b99f8e9b",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101-s04.txt"
     },
     {
@@ -1075,6 +1144,7 @@
       "split_of": "hypnosis-guide-rewrite-1201",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "0e5655300690552e0d904fcf371a8edddbfe24d1f72aebaca200815b6c8dd28e",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1201-s01.txt"
     },
     {
@@ -1089,6 +1159,7 @@
       "split_of": "hypnosis-guide-rewrite-1201",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "e16190327b6cbade5a89cf2dcee8e6ed81774858b757cc7793a9bfe970b8bed1",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1201-s02.txt"
     },
     {
@@ -1103,6 +1174,7 @@
       "split_of": "hypnosis-guide-rewrite-1201",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "4e10bc345f2fa658ccb2fcef65014dbfdf4f169edaa5c8026fcb8c0105359009",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1201-s03.txt"
     },
     {
@@ -1117,6 +1189,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 1,
       "split_total": 10,
+      "sha256": "18469b93fe0a97bab81b74717499c9520968f472b9e4fd1f13eb8146e3e6171d",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s01.txt"
     },
     {
@@ -1131,6 +1204,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 2,
       "split_total": 10,
+      "sha256": "8b34b605a315e8a4ebe7a26f72795d07f186acc552469ac1e3817edf19ea8a55",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s02.txt"
     },
     {
@@ -1145,6 +1219,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 3,
       "split_total": 10,
+      "sha256": "a0069277b96cb49c84769b5737ac25adf48f7b579d2ef1cbdf00626a748fe353",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s03.txt"
     },
     {
@@ -1159,6 +1234,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 4,
       "split_total": 10,
+      "sha256": "1faa37dca395bf29f39702c79e892020633555e9d1a68129e3541303a63bdb2e",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s04.txt"
     },
     {
@@ -1173,6 +1249,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 5,
       "split_total": 10,
+      "sha256": "daae42821194cad1019bd10371150570e517d9b84dbe31eecfc9ff8e894fe129",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s05.txt"
     },
     {
@@ -1187,6 +1264,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 6,
       "split_total": 10,
+      "sha256": "6df5ccdbcb9146b870242e7fd2843f32944f50a56a81b44b85f1b5e0abf1ee16",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s06.txt"
     },
     {
@@ -1201,6 +1279,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 7,
       "split_total": 10,
+      "sha256": "f7d75c31cc7565abafe47aac225bac5993266c757a3751cb89449dfd488ec826",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s07.txt"
     },
     {
@@ -1215,6 +1294,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 8,
       "split_total": 10,
+      "sha256": "520e741ca23fd5911d7f14738f8358db175cbff906b69e210c4929439ab64a27",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s08.txt"
     },
     {
@@ -1229,6 +1309,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 9,
       "split_total": 10,
+      "sha256": "b34030f918b06579e61717a3be8988131ee0862be6ada877e279349acac695bf",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s09.txt"
     },
     {
@@ -1243,6 +1324,7 @@
       "split_of": "hypnosis-guide-rewrite-1301",
       "split_index": 10,
       "split_total": 10,
+      "sha256": "a94b927f5aef74a0bf25c9df726f077cd9215a6b9a8b41f2a7a124578e4049ee",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s10.txt"
     },
     {
@@ -1257,6 +1339,7 @@
       "split_of": "hypnosis-guide-rewrite-1401",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "ac575bde9d99eda29f6b34996e9b8cc45273225810323e19c06f9a8e5533b55b",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1401-s01.txt"
     },
     {
@@ -1271,6 +1354,7 @@
       "split_of": "hypnosis-guide-rewrite-1401",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "b2157be9b1df4c8efeaf649daf05b5aac5e46e7cd0b30e4e5477887433528198",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1401-s02.txt"
     },
     {
@@ -1298,6 +1382,7 @@
       "split_of": "hypnosis-guide-rewrite-1601",
       "split_index": 1,
       "split_total": 7,
+      "sha256": "ddd5c005413431f62766eede85bc91f0fc2c514a136a706cea410a97235d7929",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s01.txt"
     },
     {
@@ -1312,6 +1397,7 @@
       "split_of": "hypnosis-guide-rewrite-1601",
       "split_index": 2,
       "split_total": 7,
+      "sha256": "22b73cc418a85e47bc5f3a3dbca4e17632c97157ab557a6d49d309efaa84841d",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s02.txt"
     },
     {
@@ -1326,6 +1412,7 @@
       "split_of": "hypnosis-guide-rewrite-1601",
       "split_index": 3,
       "split_total": 7,
+      "sha256": "d623658d92c410317d525f6984bae01bed2c9c73665edd45071c55e3665fc71d",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s03.txt"
     },
     {
@@ -1340,6 +1427,7 @@
       "split_of": "hypnosis-guide-rewrite-1601",
       "split_index": 4,
       "split_total": 7,
+      "sha256": "57b88e7cdbb5886d073a25c8309209148d6f667e006abeac717da0ae8b3c0404",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s04.txt"
     },
     {
@@ -1354,6 +1442,7 @@
       "split_of": "hypnosis-guide-rewrite-1601",
       "split_index": 5,
       "split_total": 7,
+      "sha256": "10e3c30203e857098b35f82458fe20b8a00b0f2dda3405119880bd7a0f936a86",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s05.txt"
     },
     {
@@ -1368,6 +1457,7 @@
       "split_of": "hypnosis-guide-rewrite-1601",
       "split_index": 6,
       "split_total": 7,
+      "sha256": "6d412344b7900b68c7d75816fb09316253e5dce67e857e3bc234214c80dbe274",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s06.txt"
     },
     {
@@ -1382,6 +1472,7 @@
       "split_of": "hypnosis-guide-rewrite-1601",
       "split_index": 7,
       "split_total": 7,
+      "sha256": "f4a621ad115ac1386d8768e4b72e4d4f3cc1c25b1e39ccc82fbf33de278ae55e",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s07.txt"
     },
     {
@@ -1409,6 +1500,7 @@
       "split_of": "hypnosis-guide-rewrite-1801",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "4a2b8cfe793a76658faec03e93f6ca889cc0f5393306bbdeb96dfe0e80a2ca3f",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1801-s01.txt"
     },
     {
@@ -1423,6 +1515,7 @@
       "split_of": "hypnosis-guide-rewrite-1801",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "bc354f0347dd56f6c4fb47d43f1c296da5a6ea8afcd5917141afa1d28b764ddf",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1801-s02.txt"
     },
     {
@@ -1437,6 +1530,7 @@
       "split_of": "hypnosis-guide-rewrite-1901",
       "split_index": 1,
       "split_total": 5,
+      "sha256": "2f63d5a859419b82eef22b50bcb12bb52b30063f303057740b596a8879c65295",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s01.txt"
     },
     {
@@ -1451,6 +1545,7 @@
       "split_of": "hypnosis-guide-rewrite-1901",
       "split_index": 2,
       "split_total": 5,
+      "sha256": "066e68b0df80ed81994ce274f4203b1e804c7ce0f2f61239bd6c85369768f72c",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s02.txt"
     },
     {
@@ -1465,6 +1560,7 @@
       "split_of": "hypnosis-guide-rewrite-1901",
       "split_index": 3,
       "split_total": 5,
+      "sha256": "a0b0767fa3035e5b2ee919e589fa0ba0b62646be6f9ae2984fa89521c8870df7",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s03.txt"
     },
     {
@@ -1479,6 +1575,7 @@
       "split_of": "hypnosis-guide-rewrite-1901",
       "split_index": 4,
       "split_total": 5,
+      "sha256": "121ef0d3283fe58ff01c3dccda17e398c1af4e0dd7275b67f40f1183852062d6",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s04.txt"
     },
     {
@@ -1493,6 +1590,7 @@
       "split_of": "hypnosis-guide-rewrite-1901",
       "split_index": 5,
       "split_total": 5,
+      "sha256": "9479e797c828b7099f3df12720efec77ae3e462b9c88fdb06589eb748f9b7788",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s05.txt"
     },
     {
@@ -1520,6 +1618,7 @@
       "split_of": "hypnosis-guide-rewrite-2101",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "d123db9f60e74a1d43d56163415909a1688a3b6f901d1f919a6f7f3f99dd8b9a",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2101-s01.txt"
     },
     {
@@ -1534,6 +1633,7 @@
       "split_of": "hypnosis-guide-rewrite-2101",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "cfb6ee8167370cdbfd431ff50d621c649532850d9338cf5aea76d0cc65e438ff",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2101-s02.txt"
     },
     {
@@ -1548,6 +1648,7 @@
       "split_of": "hypnosis-guide-rewrite-2201",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "f70242ec6999a53e31d7a9b06554d023968ca9c097685dbfe1e4dd3174912163",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2201-s01.txt"
     },
     {
@@ -1562,6 +1663,7 @@
       "split_of": "hypnosis-guide-rewrite-2201",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "1351828348433393506fa3afad44c77ece872d8ff15f61c09a6315a210cb5bbe",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2201-s02.txt"
     },
     {
@@ -1576,6 +1678,7 @@
       "split_of": "hypnosis-guide-rewrite-2301",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "53995a5f6efd7adffee84073ff71bfeeb6cb1037ee6f6692b986216211b37fab",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2301-s01.txt"
     },
     {
@@ -1590,6 +1693,7 @@
       "split_of": "hypnosis-guide-rewrite-2301",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "36bcde44c31c4b370ad84662cd765a6833bc229a7fb08007fd0aeccd25db689b",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2301-s02.txt"
     },
     {
@@ -1604,6 +1708,7 @@
       "split_of": "hypnosis-guide-rewrite-2301",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "bffa3018cbd39ea4c3cbf3acbaa725fe703d7eee02a372ca5dd67fd87901d57c",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2301-s03.txt"
     },
     {
@@ -1618,6 +1723,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 1,
       "split_total": 10,
+      "sha256": "833abbb0a52004614f53e3eb3e4ec15bad9c68332f43253fb6d4be441259c622",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s01.txt"
     },
     {
@@ -1632,6 +1738,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 2,
       "split_total": 10,
+      "sha256": "c928b6b71b9c121d839507279d55e9ddee3b9e642572c52e2d3b5b83ea766ab8",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s02.txt"
     },
     {
@@ -1646,6 +1753,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 3,
       "split_total": 10,
+      "sha256": "64da80f0974d10811c6ebb980fadc16d36b0067b2f6e8ab33860a9a7b02e80da",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s03.txt"
     },
     {
@@ -1660,6 +1768,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 4,
       "split_total": 10,
+      "sha256": "d02b4af817c6a930fac9a987e3b31a6c541f21a72f81eef7c683acbd39074ec5",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s04.txt"
     },
     {
@@ -1674,6 +1783,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 5,
       "split_total": 10,
+      "sha256": "830d441faf2edb6e6da41ff170de17b1b6305edadef3e5fe4209db84c1acf4a7",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s05.txt"
     },
     {
@@ -1688,6 +1798,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 6,
       "split_total": 10,
+      "sha256": "b43f6edf1daecd56ef1edb5305c068c8362f7946fba665eeb57d5525518f9231",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s06.txt"
     },
     {
@@ -1702,6 +1813,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 7,
       "split_total": 10,
+      "sha256": "c0274c26791b7f4ad9a1047f435e5dc3982bc8c5f61ca8116792c57255936ebf",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s07.txt"
     },
     {
@@ -1716,6 +1828,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 8,
       "split_total": 10,
+      "sha256": "a8c16bd48d7f1c0f3abd0d10752b97a2bb1f4c52b76d7b7bf19fa78ceee59039",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s08.txt"
     },
     {
@@ -1730,6 +1843,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 9,
       "split_total": 10,
+      "sha256": "79a0d127e74ce7c17703974a12cbf639ab0e17895d16fe5cba036083127e1530",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s09.txt"
     },
     {
@@ -1744,6 +1858,7 @@
       "split_of": "hypnosis-guide-rewrite-2401",
       "split_index": 10,
       "split_total": 10,
+      "sha256": "850b0336f38021f4aa1102496a9ff7b63760c38e29e53706322a56fb173afecd",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s10.txt"
     },
     {
@@ -1758,6 +1873,7 @@
       "split_of": "hypnosis-guide-rewrite-2501",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "14c68dfb058c6bab0599763322d3d2f153d112193ec4bc64bb19ae4f1c251460",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2501-s01.txt"
     },
     {
@@ -1772,6 +1888,7 @@
       "split_of": "hypnosis-guide-rewrite-2501",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "90d307dcd336c8a484a932f4aab8ebc8b5905c9dde80d9c02e79e6dd82521e21",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2501-s02.txt"
     },
     {
@@ -1786,6 +1903,7 @@
       "split_of": "hypnosis-guide-rewrite-2601",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "77399bc53d62f2a1123e5dddcc83760b3575ffa58f39bdf515ceae1b76c7e070",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2601-s01.txt"
     },
     {
@@ -1800,6 +1918,7 @@
       "split_of": "hypnosis-guide-rewrite-2601",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "cc8bb6fbe3cbe5d420a3bd13d18b3ef9a2653e7f6a62f0eb11ad6f520ddc5b47",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2601-s02.txt"
     },
     {
@@ -1814,6 +1933,7 @@
       "split_of": "hypnosis-guide-rewrite-2601",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "0127ee70906376b0cbf3236726a0b733edef4a61db5b93b2e2a6df4e3d25ee82",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2601-s03.txt"
     },
     {
@@ -1841,6 +1961,7 @@
       "split_of": "hypnosis-guide-rewrite-2801",
       "split_index": 1,
       "split_total": 4,
+      "sha256": "018978aec1caf8cd3c2c4683ee5c437f16b6e51a37fee1da1a93ddb0620c936a",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801-s01.txt"
     },
     {
@@ -1855,6 +1976,7 @@
       "split_of": "hypnosis-guide-rewrite-2801",
       "split_index": 2,
       "split_total": 4,
+      "sha256": "554f027eebc976cc0748466ce9866689d24aef9d7a40414da5c04c1d8031c7bd",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801-s02.txt"
     },
     {
@@ -1869,6 +1991,7 @@
       "split_of": "hypnosis-guide-rewrite-2801",
       "split_index": 3,
       "split_total": 4,
+      "sha256": "6559cb17d1334fa9cc7a66319264767be2e4b1cc956430344d9540ace75c8f75",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801-s03.txt"
     },
     {
@@ -1883,6 +2006,7 @@
       "split_of": "hypnosis-guide-rewrite-2801",
       "split_index": 4,
       "split_total": 4,
+      "sha256": "85746b605458d8f6b00c9f8aa9b1e3834a09e6ad22ada61e3485ed2fb329cc55",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801-s04.txt"
     },
     {
@@ -1897,6 +2021,7 @@
       "split_of": "hypnosis-guide-rewrite-2901",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "69fb12da0764878a7eccea051c2d16e345716eaca3190e21b4deca3b33243508",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2901-s01.txt"
     },
     {
@@ -1911,6 +2036,7 @@
       "split_of": "hypnosis-guide-rewrite-2901",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "af7864fde2a88ccb52a3bcfc122624d60fa0ba4b892b32786d7345906867d2d4",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2901-s02.txt"
     },
     {
@@ -1925,6 +2051,7 @@
       "split_of": "hypnosis-guide-rewrite-3001",
       "split_index": 1,
       "split_total": 5,
+      "sha256": "ed56e46d89d8b4ef6e6048a07ab86787fc46db2a1e95e410d6d6856b76de7db0",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s01.txt"
     },
     {
@@ -1939,6 +2066,7 @@
       "split_of": "hypnosis-guide-rewrite-3001",
       "split_index": 2,
       "split_total": 5,
+      "sha256": "7fad2186d832afb5a66ba7d3b462c0e6b5c21072efc824a89800b274ab7cb16d",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s02.txt"
     },
     {
@@ -1953,6 +2081,7 @@
       "split_of": "hypnosis-guide-rewrite-3001",
       "split_index": 3,
       "split_total": 5,
+      "sha256": "2b8ccb9ec280c7b90da8520dbc34852866c80d5dec500732a9c13b0f0f43ff3e",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s03.txt"
     },
     {
@@ -1967,6 +2096,7 @@
       "split_of": "hypnosis-guide-rewrite-3001",
       "split_index": 4,
       "split_total": 5,
+      "sha256": "1d026405adf8ef65947fadb1fb4c5b7bfbdd6f6407f7e8a041d2ae442d383b85",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s04.txt"
     },
     {
@@ -1981,6 +2111,7 @@
       "split_of": "hypnosis-guide-rewrite-3001",
       "split_index": 5,
       "split_total": 5,
+      "sha256": "314ea6fe234585e67e65055b050f0ec0fc2b0a54c4596a0a7278ab96f088e254",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s05.txt"
     },
     {
@@ -1995,6 +2126,7 @@
       "split_of": "hypnosis-guide-rewrite-3101",
       "split_index": 1,
       "split_total": 4,
+      "sha256": "51c8de9ec691cd1754254f4d74eed79bd1fa78c8196a377cbf4e8b96c34922e8",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101-s01.txt"
     },
     {
@@ -2009,6 +2141,7 @@
       "split_of": "hypnosis-guide-rewrite-3101",
       "split_index": 2,
       "split_total": 4,
+      "sha256": "bfbbc01ef60af938332121e2e92df42a6324449575ff4d4bbef92e16763b5fec",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101-s02.txt"
     },
     {
@@ -2023,6 +2156,7 @@
       "split_of": "hypnosis-guide-rewrite-3101",
       "split_index": 3,
       "split_total": 4,
+      "sha256": "b8001356f388ceaa2a76c3046856222ee4a791397912a547de253f7970584972",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101-s03.txt"
     },
     {
@@ -2037,6 +2171,7 @@
       "split_of": "hypnosis-guide-rewrite-3101",
       "split_index": 4,
       "split_total": 4,
+      "sha256": "ca73c55e540258b0abbb8c680e5442a0bbacb15dd8fd0e2f3cde95b8c919894c",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101-s04.txt"
     },
     {
@@ -2051,6 +2186,7 @@
       "split_of": "hypnosis-guide-rewrite-3201",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "a4ef304b8d541229ba6df6859b135a72723aacc04f82e51b5bd02d48eb9e0968",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3201-s01.txt"
     },
     {
@@ -2065,6 +2201,7 @@
       "split_of": "hypnosis-guide-rewrite-3201",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "1698fd06f2394c2d6b022b7c5aa8e6add69f9e6428b337108a8f2431ebfffffc",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3201-s02.txt"
     },
     {
@@ -2079,6 +2216,7 @@
       "split_of": "hypnosis-guide-rewrite-3201",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "55c738c736b8491b997d0a71f6a8d520b6a270e10b589dc4a4cf2c3abfc57b98",
       "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3201-s03.txt"
     },
     {
@@ -2093,6 +2231,7 @@
       "split_of": "neuro-de-armoring-rewrite-0101",
       "split_index": 1,
       "split_total": 3,
+      "sha256": "199cd85a6320bd4d8af11642eb0fbf9f26e8489d1d6073d92ef48e1d59ddf342",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0101-s01.txt"
     },
     {
@@ -2107,6 +2246,7 @@
       "split_of": "neuro-de-armoring-rewrite-0101",
       "split_index": 2,
       "split_total": 3,
+      "sha256": "81fa34620c61f2113dba38bf619c5b76912e1e866cf89469c141c5013e41b673",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0101-s02.txt"
     },
     {
@@ -2121,6 +2261,7 @@
       "split_of": "neuro-de-armoring-rewrite-0101",
       "split_index": 3,
       "split_total": 3,
+      "sha256": "a785efcca533570aa9ac6358c2e88476fabd96a233972ce73e0669ac7de204eb",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0101-s03.txt"
     },
     {
@@ -2135,6 +2276,7 @@
       "split_of": "neuro-de-armoring-rewrite-0102",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "5e14d521e006ad811554298b313d1a3d5310de0b3e0e7074de45a1231fa58230",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0102-s01.txt"
     },
     {
@@ -2149,6 +2291,7 @@
       "split_of": "neuro-de-armoring-rewrite-0102",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "c46acf9fd56bc7b23448cdbf9de24a5472018cd4dfb574750f9009ddc01fe0d8",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0102-s02.txt"
     },
     {
@@ -2189,6 +2332,7 @@
       "split_of": "neuro-de-armoring-rewrite-0105",
       "split_index": 1,
       "split_total": 2,
+      "sha256": "5c690bc0a751f5c9d93f11aa1a91abf966d8cf057c181b49e50f83402e7f47fc",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0105-s01.txt"
     },
     {
@@ -2203,6 +2347,7 @@
       "split_of": "neuro-de-armoring-rewrite-0105",
       "split_index": 2,
       "split_total": 2,
+      "sha256": "2dbbd3c977638af1104b3449c7e5346c2f0bf4216ad1827b1dfe9412fe909249",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0105-s02.txt"
     },
     {
@@ -2217,6 +2362,7 @@
       "split_of": "neuro-de-armoring-rewrite-0201",
       "split_index": 1,
       "split_total": 7,
+      "sha256": "ebe204475041357d5a10ebf551ad3d8eb275c91fe90f3c24651a0a4d5ea95b3a",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s01.txt"
     },
     {
@@ -2231,6 +2377,7 @@
       "split_of": "neuro-de-armoring-rewrite-0201",
       "split_index": 2,
       "split_total": 7,
+      "sha256": "9041109ad4d2d681ce7e6b6c5d4f6d8c0891ba9c2c002040f2c847c154e00ab7",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s02.txt"
     },
     {
@@ -2245,6 +2392,7 @@
       "split_of": "neuro-de-armoring-rewrite-0201",
       "split_index": 3,
       "split_total": 7,
+      "sha256": "23cb59aea02544ccd54c54ed4d853df062d5b9ec2da604443b387cafc69888c8",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s03.txt"
     },
     {
@@ -2259,6 +2407,7 @@
       "split_of": "neuro-de-armoring-rewrite-0201",
       "split_index": 4,
       "split_total": 7,
+      "sha256": "3f5002287e45c701367a99c9fc0cdb45182664c09c3f2b4577bb57db69983ed4",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s04.txt"
     },
     {
@@ -2273,6 +2422,7 @@
       "split_of": "neuro-de-armoring-rewrite-0201",
       "split_index": 5,
       "split_total": 7,
+      "sha256": "e79816e70474f5734c01993808784e3257a9ab90be59b6f832c2c12153345c51",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s05.txt"
     },
     {
@@ -2287,6 +2437,7 @@
       "split_of": "neuro-de-armoring-rewrite-0201",
       "split_index": 6,
       "split_total": 7,
+      "sha256": "d45d7c625292f54eb3eedb06bbc2335e07dd0ae019d20d17163c975c589a8fb2",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s06.txt"
     },
     {
@@ -2301,6 +2452,7 @@
       "split_of": "neuro-de-armoring-rewrite-0201",
       "split_index": 7,
       "split_total": 7,
+      "sha256": "1f7145ca052c67c83e4281c656b53abd23873382b80c6c59b7040d324d57fbb9",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s07.txt"
     },
     {
@@ -2328,6 +2480,7 @@
       "split_of": "neuro-de-armoring-rewrite-0301",
       "split_index": 1,
       "split_total": 4,
+      "sha256": "2d001fbc0b7be5bdcaf74ef556413c28e8bb90b7b04258afbb64ffc33b4f89f4",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301-s01.txt"
     },
     {
@@ -2342,6 +2495,7 @@
       "split_of": "neuro-de-armoring-rewrite-0301",
       "split_index": 2,
       "split_total": 4,
+      "sha256": "1e836ad0d2c6167f6bbbaa8c31a5af61977f88cca30d207ba5fe9cf910c12c21",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301-s02.txt"
     },
     {
@@ -2356,6 +2510,7 @@
       "split_of": "neuro-de-armoring-rewrite-0301",
       "split_index": 3,
       "split_total": 4,
+      "sha256": "99478c7fc9708682a99542b3bbef1442ac3ab0bfdb70db8571f784e981a18512",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301-s03.txt"
     },
     {
@@ -2370,6 +2525,7 @@
       "split_of": "neuro-de-armoring-rewrite-0301",
       "split_index": 4,
       "split_total": 4,
+      "sha256": "c5ffc56d06d389148af9ccee1beddd6e84d91701e4e64dd36502c7d3138eb87b",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301-s04.txt"
     },
     {
@@ -2384,6 +2540,7 @@
       "split_of": "neuro-de-armoring-rewrite-0302",
       "split_index": 1,
       "split_total": 5,
+      "sha256": "3458f76b18ed2c5422377f55dc2bef5a08915e5449a0bce2e42ecda808147596",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s01.txt"
     },
     {
@@ -2398,6 +2555,7 @@
       "split_of": "neuro-de-armoring-rewrite-0302",
       "split_index": 2,
       "split_total": 5,
+      "sha256": "6600c9a40e80fd0fc5c7491dfb90bc59f1d6dd6ae839316da9ec829109b70bf1",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s02.txt"
     },
     {
@@ -2412,6 +2570,7 @@
       "split_of": "neuro-de-armoring-rewrite-0302",
       "split_index": 3,
       "split_total": 5,
+      "sha256": "38380206f4ca531944431272db70bc832e756e8da78faf318520dd936f6739b2",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s03.txt"
     },
     {
@@ -2426,6 +2585,7 @@
       "split_of": "neuro-de-armoring-rewrite-0302",
       "split_index": 4,
       "split_total": 5,
+      "sha256": "5d666bb15348dcdff98061bf10606b1b86a14b3c468394a2fa52d1f94b5dfc07",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s04.txt"
     },
     {
@@ -2440,6 +2600,7 @@
       "split_of": "neuro-de-armoring-rewrite-0302",
       "split_index": 5,
       "split_total": 5,
+      "sha256": "462ee5cb728eb523db75708c6d1e7802086b0f741732bbc7103644416f511032",
       "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s05.txt"
     }
   ]
