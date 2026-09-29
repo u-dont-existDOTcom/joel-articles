@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B14_api_r1",
+  "input_file": "inputs/learning/B_protector/B14_pick_a.txt",
+  "input_words": 76,
+  "input_sha256": "296b50c937ca159c040c6207b2bf17f0f0b6cbd3b22597b231a4d07407fd1e2f",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:37:11.724408+00:00",
+  "status": "completed",
+  "balance_before": 54099,
+  "provider_id": "e1b9df8e-6154-4050-8d0e-2b728c14c37b",
+  "words_charged": 76
+}
