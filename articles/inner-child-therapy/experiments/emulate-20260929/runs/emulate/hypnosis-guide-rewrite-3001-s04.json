@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3001-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/ec185020-4c05-43a1-9169-899960910537",
+  "input_sha256": "1d026405adf8ef65947fadb1fb4c5b7bfbdd6f6407f7e8a041d2ae442d383b85",
+  "input_words": 216,
+  "before": 23247,
+  "after": 23031,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 260,
+      "sha256": "4bad7caccfd7a79d0c1df141d0977198e19bc538b9921d590ed31403cb3f304b",
+      "page_sha256": "4bad7caccfd7a79d0c1df141d0977198e19bc538b9921d590ed31403cb3f304b",
+      "has_list": false,
+      "last": "imagery, but tell them that unless it helps you wash the dishes, clean up your room, or do whatever mundane tasks you need to do, it’s not helpful on your path."
+    },
+    {
+      "option": "B",
+      "words": 295,
+      "sha256": "b0580af15bda36a489bb4d0e8613c94d97d66447e324158be0782fccee1943e1",
+      "page_sha256": "b0580af15bda36a489bb4d0e8613c94d97d66447e324158be0782fccee1943e1",
+      "has_list": false,
+      "last": " imagery. If the information you are giving me does not lead to simple acts like washing dishes, cleaning my room, etc., then it is of no use to me on my path.”"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3201-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/f914844a-4bbe-4b75-8eac-8a9c0ce8094d",
+  "input_sha256": "1698fd06f2394c2d6b022b7c5aa8e6add69f9e6428b337108a8f2431ebfffffc",
+  "input_words": 184,
+  "before": 22013,
+  "after": 21829,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 341,
+      "sha256": "87128c96c440fd64159c785944c76c468d8a09bca72a982488367d0340548d90",
+      "page_sha256": "87128c96c440fd64159c785944c76c468d8a09bca72a982488367d0340548d90",
+      "has_list": false,
+      "last": "process involving three adults, all of whom are adult human beings, and thus the process of “borrowing” adulthood can follow the sequence we have outlined here."
+    },
+    {
+      "option": "B",
+      "words": 243,
+      "sha256": "b5435b9771ac675484f535c0fdb54bca5b7d1e2ff1e29002ec814df1208288a8",
+      "page_sha256": "b5435b9771ac675484f535c0fdb54bca5b7d1e2ff1e29002ec814df1208288a8",
+      "has_list": false,
+      "last": "ing is my adaptation of some of those ideas for adults. The authors may not have tried working with three adults in the sequence for borrowing adulthood, below."
+    }
+  ]
+}

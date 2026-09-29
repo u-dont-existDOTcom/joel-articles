@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3001-s05",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/a9798b90-e2b7-4449-a9bf-61e98bcd4559",
+  "input_sha256": "314ea6fe234585e67e65055b050f0ec0fc2b0a54c4596a0a7278ab96f088e254",
+  "input_words": 63,
+  "before": 23031,
+  "after": 22968,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 76,
+      "sha256": "bdf34528a039b002aac6ff855daef84e4d484b76d061a15a90d383ce9db9dedd",
+      "page_sha256": "bdf34528a039b002aac6ff855daef84e4d484b76d061a15a90d383ce9db9dedd",
+      "has_list": false,
+      "last": "ngly true to healthy boundaries at the same time. You are going to have to get your mind a little tougher. I don’t want you to become an entity hobbyist, but..."
+    },
+    {
+      "option": "B",
+      "words": 75,
+      "sha256": "87173625d871db9cec790b5b88c15422b659a064c5a0b21ae2ac51ae68166813",
+      "page_sha256": "87173625d871db9cec790b5b88c15422b659a064c5a0b21ae2ac51ae68166813",
+      "has_list": false,
+      "last": "t is that you need to train yourself to be loving but not susceptible to being emotionally hooked. I do not want you to become a hobbyist for entities, however."
+    }
+  ]
+}

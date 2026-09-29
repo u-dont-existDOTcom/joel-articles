@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3101-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/31de1621-2ad3-4632-84aa-5b94010f67cd",
+  "input_sha256": "51c8de9ec691cd1754254f4d74eed79bd1fa78c8196a377cbf4e8b96c34922e8",
+  "input_words": 223,
+  "before": 22968,
+  "after": 22745,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 321,
+      "sha256": "317e055207c4f05bf760c64c2f2f58b69f867526edfb521675624c0c37bdbf1e",
+      "page_sha256": "317e055207c4f05bf760c64c2f2f58b69f867526edfb521675624c0c37bdbf1e",
+      "has_list": false,
+      "last": " on the way out pay attention to the support. Come back to normal by deliberately deciding to take on your normal weight and have firm contact with the support."
+    },
+    {
+      "option": "B",
+      "words": 375,
+      "sha256": "2208bbd7d22041f7dc1a3cf7a1af243160ac9b88d639ac3bc3fd6af2f7c80ee3",
+      "page_sha256": "2208bbd7d22041f7dc1a3cf7a1af243160ac9b88d639ac3bc3fd6af2f7c80ee3",
+      "has_list": true,
+      "last": " it's like to hear his inner voice in each state. Have him return to normal, feeling his chosen amount of weight, firmly in contact with the supporting surface."
+    }
+  ]
+}

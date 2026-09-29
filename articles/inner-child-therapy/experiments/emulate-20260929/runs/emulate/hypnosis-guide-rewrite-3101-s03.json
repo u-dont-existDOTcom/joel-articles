@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3101-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/57953e62-2ccd-4ab2-8ab8-8b7e98907726",
+  "input_sha256": "b8001356f388ceaa2a76c3046856222ee4a791397912a547de253f7970584972",
+  "input_words": 214,
+  "before": 22543,
+  "after": 22329,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 303,
+      "sha256": "26087f6b59a5a8336f7336c6bca3c32336116d0f943628720e3dac8a1379a321",
+      "page_sha256": "dba5d2b86f6918214c7ed5913fd84847b475c1ad85953518446f1529205f71e6",
+      "has_list": true,
+      "last": " want to do, say, imagine or if you want to do nothing. Return keeping the resource and one thing that you want to do with it. Remind yourself that you are you."
+    },
+    {
+      "option": "B",
+      "words": 335,
+      "sha256": "4947272d2dfb2fab62920a84f20683c7f165e38f4475d1865ffd98d6554631e2",
+      "page_sha256": "4947272d2dfb2fab62920a84f20683c7f165e38f4475d1865ffd98d6554631e2",
+      "has_list": true,
+      "last": "you’re in now? Thank the resource and ‘come back’, keeping any qualities of the resource and one action you can take in the world. Affirm that you are yourself."
+    }
+  ]
+}

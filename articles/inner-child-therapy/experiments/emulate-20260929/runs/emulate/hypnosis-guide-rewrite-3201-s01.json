@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3201-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/3e92f16c-1011-40d7-b681-33abfbd77f14",
+  "input_sha256": "a4ef304b8d541229ba6df6859b135a72723aacc04f82e51b5bd02d48eb9e0968",
+  "input_words": 200,
+  "before": 22213,
+  "after": 22013,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 277,
+      "sha256": "6454fe0f840ee2937cb15f7befe0fe6b64d63930b0bc074673ea3ec4c3a10783",
+      "page_sha256": "6454fe0f840ee2937cb15f7befe0fe6b64d63930b0bc074673ea3ec4c3a10783",
+      "has_list": false,
+      "last": "e is not written by Nimja or an endorsement of her work; rather, I've adapted her discussion of language and cueing to work in this context, using my own words."
+    },
+    {
+      "option": "B",
+      "words": 290,
+      "sha256": "8f6ed3946ee33ceedf765f8326ae43cbd3610820ff25d675173e10f2e95b2138",
+      "page_sha256": "8f6ed3946ee33ceedf765f8326ae43cbd3610820ff25d675173e10f2e95b2138",
+      "has_list": false,
+      "last": "ue. Please understand that I have rewritten the language a bit and designed a specific cue to use for getting back. Nimja neither wrote nor endorses this guide."
+    }
+  ]
+}

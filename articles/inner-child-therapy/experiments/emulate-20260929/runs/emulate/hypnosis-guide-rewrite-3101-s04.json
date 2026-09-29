@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3101-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/5491b94f-7a3c-4f86-9684-91ab6f9df70f",
+  "input_sha256": "ca73c55e540258b0abbb8c680e5442a0bbacb15dd8fd0e2f3cde95b8c919894c",
+  "input_words": 116,
+  "before": 22329,
+  "after": 22213,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 103,
+      "sha256": "426d118b9d1808f6748621774ff3b7fa21e46954fd8d32a8b5249a9e6d29ce08",
+      "page_sha256": "942f1a706b3da1a0aa9ce96dd367d8871c2783ea24a8f207419c415d78279dab",
+      "has_list": true,
+      "last": "ner required. Integration is a process of reality testing and taking action based on what you have found out. Exit from the exercise is simply to stop doing it."
+    },
+    {
+      "option": "B",
+      "words": 196,
+      "sha256": "5f5568eb085b8d651c61ecc940044413afa3d83a4596b001aeba0bcd3fe8d155",
+      "page_sha256": "5f5568eb085b8d651c61ecc940044413afa3d83a4596b001aeba0bcd3fe8d155",
+      "has_list": true,
+      "last": "o begin implementing your answer. You can exit the exercise at any time, since you don’t have to put yourself into an altered state in order to do the exercise."
+    }
+  ]
+}

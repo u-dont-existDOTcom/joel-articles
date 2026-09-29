@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3101-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/d3287e36-9bef-4ad6-b769-4a120320d494",
+  "input_sha256": "bfbbc01ef60af938332121e2e92df42a6324449575ff4d4bbef92e16763b5fec",
+  "input_words": 202,
+  "before": 22745,
+  "after": 22543,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 310,
+      "sha256": "2ecc58723525fb99f874905478c77df1812dc79acd97b1baa9c60ed67b37f14e",
+      "page_sha256": "8bfe25b3d5f83ee568a4681258ba2dd0479285b1a25a5530819672ac4576f7e5",
+      "has_list": true,
+      "last": " see. The idea is that you don’t know what will happen when you get there. When you’re ready just go back the same way and close the space when you’re finished."
+    },
+    {
+      "option": "B",
+      "words": 233,
+      "sha256": "d57222f5e4286df8a0ab5fdddcbb6ede205bba090dc496dc26cd1c94ff287dec",
+      "page_sha256": "d57222f5e4286df8a0ab5fdddcbb6ede205bba090dc496dc26cd1c94ff287dec",
+      "has_list": true,
+      "last": "r/feel, just notice that you don’t know what’s going to happen next; see who or what you want to talk to; return the same way and close up the space you created"
+    }
+  ]
+}

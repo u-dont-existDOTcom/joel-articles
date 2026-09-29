@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3001-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/09c694c6-93dc-4c5c-bc02-c7f30d494cf9",
+  "input_sha256": "2b8ccb9ec280c7b90da8520dbc34852866c80d5dec500732a9c13b0f0f43ff3e",
+  "input_words": 228,
+  "before": 23475,
+  "after": 23247,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 258,
+      "sha256": "4cc3c1f257bd3e77e894e90022d959d9b4cfb13d9125cb1ff9844f706419bb02",
+      "page_sha256": "4cc3c1f257bd3e77e894e90022d959d9b4cfb13d9125cb1ff9844f706419bb02",
+      "has_list": false,
+      "last": "ish all suffering well by returning it to where it belongs, the boundary of my skin is an adult thing, and I’m not giving you permission to come into my house.”"
+    },
+    {
+      "option": "B",
+      "words": 275,
+      "sha256": "5fb07e11ee139f5ba66dcbdcedad6871d5aca2e38785fb7cd46c334599ad8c36",
+      "page_sha256": "5fb07e11ee139f5ba66dcbdcedad6871d5aca2e38785fb7cd46c334599ad8c36",
+      "has_list": false,
+      "last": " to alleviate your suffering, I want to make it very clear that the boundary of my skin is the boundary of my adult life and you are not allowed into my house.”"
+    }
+  ]
+}
