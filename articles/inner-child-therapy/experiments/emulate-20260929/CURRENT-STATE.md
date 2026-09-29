@@ -1,6 +1,6 @@
 # Overnight run checkpoint
 
-2026-09-29T04:08:06.360775+00:00. Owner outcome OPEN. External submissions approved; PDF downloads disabled after disruptive native Save As dialogs. Detector evidence is exact text snapshots and highlighted spans.
+2026-09-29T04:35:42.381162+00:00. Owner outcome OPEN. External submissions approved; PDF downloads disabled after disruptive native Save As dialogs. Detector evidence is exact text snapshots and highlighted spans.
 
 Worker scans saved: 26; latest Pangram balance 2127; logged worker credit charges 38. Five historical rechecks matched earlier labels. Baselines left: 68; GUI minimum exclusions: 10.
 
