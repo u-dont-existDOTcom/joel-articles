@@ -1,0 +1,28 @@
+{
+  "directive_commit": "236e3a3891fe1970ecee95993bacd431cc3015c7",
+  "directive_blob": "b8e19f39ee2b8c46d2a962aa0706b01d37ba1858",
+  "method": "Chinese notes with exact KEEP strings; English atomic-slot fallback only if primary misses",
+  "selected_passages": 40,
+  "old_failures": 30,
+  "new_unprocessed": 8,
+  "technical": 10,
+  "primary_thresholds": {
+    "total_accepted": 28,
+    "old_failures_accepted": 18,
+    "technical_accepted": 5
+  },
+  "gpu_trial_limit_seconds": 5400,
+  "gpu_rate_usd_per_hour": 0.44,
+  "gpu_reserve_usd": 0.66,
+  "instance_reserve_usd_at_0_549_hour": 0.8235,
+  "wallet_observed_usd": 12.68,
+  "wallet_observed_utc": "2026-09-29T17:12:00Z",
+  "gpu_actual_billed_before_usd": 4.63,
+  "gpu_cap_usd": 40,
+  "pangram_credits_used": 48,
+  "pangram_trial_additional_cap": 30,
+  "emulate_trial_words": 0,
+  "instance_id": 53306647,
+  "instance_before_start": "STOPPED",
+  "admission": "ADMITTED: same preserved instance, no new purchase, no full generation before primary/fallback threshold and cost projection"
+}
