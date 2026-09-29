@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1801-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/1056236f-f6ee-4352-b6a8-1ad5b4ab9407",
+  "input_sha256": "4a2b8cfe793a76658faec03e93f6ca889cc0f5393306bbdeb96dfe0e80a2ca3f",
+  "input_words": 189,
+  "before": 31086,
+  "after": 30897,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 275,
+      "sha256": "9d2c859218cead6e156b44096273ab7e9e67a79e21a8ba05eaead917cdfee631",
+      "page_sha256": "9d2c859218cead6e156b44096273ab7e9e67a79e21a8ba05eaead917cdfee631",
+      "has_list": false,
+      "last": "ut illness, a spiritual calling, an addiction, a question of identity, or a moral issue. To go into an altered state and interrogate your self, saying, \"Tell me"
+    },
+    {
+      "option": "B",
+      "words": 234,
+      "sha256": "47a83bb8df77162c2db4a45e6f1a05a931a8d69fc962f9c24909ccb8cbdec5ca",
+      "page_sha256": "47a83bb8df77162c2db4a45e6f1a05a931a8d69fc962f9c24909ccb8cbdec5ca",
+      "has_list": false,
+      "last": "r\n\nYou may feel the need to interrogate the subconscious:\n\n“I demand you tell me right now!”\n\n“Tell me everything right this second!”\n\n“Stop hiding it from me!”"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1601-s07",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/0acf45df-f37d-42c7-93da-207e7c4d9c4d",
+  "input_sha256": "f4a621ad115ac1386d8768e4b72e4d4f3cc1c25b1e39ccc82fbf33de278ae55e",
+  "input_words": 167,
+  "before": 31475,
+  "after": 31308,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 310,
+      "sha256": "f22e0940e60f746246d53b14cdd742b99ce342576005e712e2ea2ac983a72f63",
+      "page_sha256": "f22e0940e60f746246d53b14cdd742b99ce342576005e712e2ea2ac983a72f63",
+      "has_list": false,
+      "last": "set, ways you need to repair relationships with others or yourself, or things you need to not force. However, only do this if it is relevant to your experience."
+    },
+    {
+      "option": "B",
+      "words": 216,
+      "sha256": "ea4555371976dfb2e3f9b693c90fd9ca7342138dc0406a018836d2ae6fa8681b",
+      "page_sha256": "ea4555371976dfb2e3f9b693c90fd9ca7342138dc0406a018836d2ae6fa8681b",
+      "has_list": false,
+      "last": " than what really came up. You do not have to include: a particular phrase, a body message, a little one, a protector, a boundary, a repair or a don't force it."
+    }
+  ]
+}

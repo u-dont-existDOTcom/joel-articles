@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1601-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/021ab1c9-0972-4c49-86f6-720d03d4712b",
+  "input_sha256": "57b88e7cdbb5886d073a25c8309209148d6f667e006abeac717da0ae8b3c0404",
+  "input_words": 185,
+  "before": 32040,
+  "after": 31855,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 157,
+      "sha256": "33a1308754716acc95670dd03544417d5d9d370b2d3214d7281d3b5d45687093",
+      "page_sha256": "33a1308754716acc95670dd03544417d5d9d370b2d3214d7281d3b5d45687093",
+      "has_list": false,
+      "last": "re doing mentally, stop exploring inside and do a full return . If you find that you are unable to do so, please reach out for human help as this is not normal."
+    },
+    {
+      "option": "B",
+      "words": 233,
+      "sha256": "3bf6c1f4fa1d31e287c88084c4ee97d4cfaac2ba5882a9a890e99457bc207d61",
+      "page_sha256": "3bf6c1f4fa1d31e287c88084c4ee97d4cfaac2ba5882a9a890e99457bc207d61",
+      "has_list": false,
+      "last": "hange or stop what you are doing, then stop exploring internally and use the process for a full return. If you continue to feel lost, seek out human assistance."
+    }
+  ]
+}

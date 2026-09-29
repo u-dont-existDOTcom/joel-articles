@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1601-s06",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/b4f246d1-f6b6-44cf-beae-3d5e38865338",
+  "input_sha256": "6d412344b7900b68c7d75816fb09316253e5dce67e857e3bc234214c80dbe274",
+  "input_words": 190,
+  "before": 31665,
+  "after": 31475,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 260,
+      "sha256": "97b25f8ef19de0764a45a8eb1a8584cb18da61e31651431dff85e33e8d9a9a00",
+      "page_sha256": "97b25f8ef19de0764a45a8eb1a8584cb18da61e31651431dff85e33e8d9a9a00",
+      "has_list": false,
+      "last": " rehearse some useful action that your client has chosen to take. Remember that hypnosis is not just about listening, it can also be a powerful tool for change."
+    },
+    {
+      "option": "B",
+      "words": 235,
+      "sha256": "6e0a9ad724a6e4bab881c2bcf8148b443a6cd06adc881347a1877b954adf5da1",
+      "page_sha256": "6e0a9ad724a6e4bab881c2bcf8148b443a6cd06adc881347a1877b954adf5da1",
+      "has_list": false,
+      "last": "eloping something useful like love, play, courage, or curiosity, or rehearse taking an action that the client wants to take. There’s a lot that hypnosis can do!"
+    }
+  ]
+}

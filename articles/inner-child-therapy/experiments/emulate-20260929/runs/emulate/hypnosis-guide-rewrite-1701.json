@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1701",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/82ae9440-828f-4e98-8992-76c03f7f3e4c",
+  "input_sha256": "f4a9eb6bc00647e275611a60ce353021bb0c742f9771ff434a29d935cccf1071",
+  "input_words": 222,
+  "before": 31308,
+  "after": 31086,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 290,
+      "sha256": "07accad55f1844b4c358988db416737c745ed0be9e713598c10984463541c3bf",
+      "page_sha256": "07accad55f1844b4c358988db416737c745ed0be9e713598c10984463541c3bf",
+      "has_list": false,
+      "last": "it: “If _________ happens, then I will do ________.” Check back later to see how it’s working out for you in terms of sleep, relationships and general function."
+    },
+    {
+      "option": "B",
+      "words": 337,
+      "sha256": "918ba1464c9c876bf2fea60b748238c790fc0f33a3996cf3dfb97c0371d99335",
+      "page_sha256": "918ba1464c9c876bf2fea60b748238c790fc0f33a3996cf3dfb97c0371d99335",
+      "has_list": false,
+      "last": "o take a specific small action that will help you to achieve your goal. Then just notice later how you're sleeping, how you're relating, how you're functioning."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1901-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/809044a0-2609-4218-9f5d-8752f13d2676",
+  "input_sha256": "2f63d5a859419b82eef22b50bcb12bb52b30063f303057740b596a8879c65295",
+  "input_words": 219,
+  "before": 30680,
+  "after": 30461,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 255,
+      "sha256": "6ea5c6515d23529df3fe00fe51dab4dcf22cca2c1eadc6d02b45efe27733a341",
+      "page_sha256": "6ea5c6515d23529df3fe00fe51dab4dcf22cca2c1eadc6d02b45efe27733a341",
+      "has_list": false,
+      "last": "you?\n\nMaybe there is no answer or it’s not a helpful question. Change the question or rest or end it for now. If you suspect it’s that they don’t trust you ask,"
+    },
+    {
+      "option": "B",
+      "words": 224,
+      "sha256": "bc273e31461def7f310bb4ad4a28d12a7c5b746a485b2cde4522002713695bd2",
+      "page_sha256": "bc273e31461def7f310bb4ad4a28d12a7c5b746a485b2cde4522002713695bd2",
+      "has_list": false,
+      "last": "r adult capacities, whether from a real or imaginary person. Try out a sentence or an action and see how it’s received.\n\nYour subconscious isn’t going to answer"
+    }
+  ]
+}

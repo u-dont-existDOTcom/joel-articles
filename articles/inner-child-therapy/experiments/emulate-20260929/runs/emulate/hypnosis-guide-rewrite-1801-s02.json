@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1801-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/aeff41c5-5034-4f3e-98a8-463b8287e6f7",
+  "input_sha256": "bc354f0347dd56f6c4fb47d43f1c296da5a6ea8afcd5917141afa1d28b764ddf",
+  "input_words": 217,
+  "before": 30897,
+  "after": 30680,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 303,
+      "sha256": "2bb9b1fe769bda57946bcb9c3ca074ab6bc4a2200c40a54c785e943ffba13e95",
+      "page_sha256": "2bb9b1fe769bda57946bcb9c3ca074ab6bc4a2200c40a54c785e943ffba13e95",
+      "has_list": false,
+      "last": " someone to help you with this. Your mind is symbolic and it compresses information and distorts it, and it gets a lot of its imagery from pop culture and fear."
+    },
+    {
+      "option": "B",
+      "words": 332,
+      "sha256": "cb8491f841ea11e7c83d10f4ccc137efdce3363f4aa73d20fd9fc19ce4071979",
+      "page_sha256": "cb8491f841ea11e7c83d10f4ccc137efdce3363f4aa73d20fd9fc19ce4071979",
+      "has_list": false,
+      "last": "he mind uses symbols, compression, distortion, cultural influences, fears etc. Get support from others if you are using this to work through trauma or memories."
+    }
+  ]
+}

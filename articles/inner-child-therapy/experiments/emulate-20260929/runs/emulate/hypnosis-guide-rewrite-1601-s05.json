@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1601-s05",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/d2099655-acd2-4413-80e3-c3401534b791",
+  "input_sha256": "10e3c30203e857098b35f82458fe20b8a00b0f2dda3405119880bd7a0f936a86",
+  "input_words": 190,
+  "before": 31855,
+  "after": 31665,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 235,
+      "sha256": "52d8500b07f5a5abc32f63deaeb1b909532ffadf0b3ca5f4792eab259785a318",
+      "page_sha256": "52d8500b07f5a5abc32f63deaeb1b909532ffadf0b3ca5f4792eab259785a318",
+      "has_list": false,
+      "last": "fe yet, tell him. Just do the one function that isn’t available to you yet. Except for the Witness, don’t start over; just do the step if it isn’t already done."
+    },
+    {
+      "option": "B",
+      "words": 248,
+      "sha256": "f6223aecdd91f5427bb2965936efe5a098e04a2af7244daed5b62cd5894947d9",
+      "page_sha256": "f6223aecdd91f5427bb2965936efe5a098e04a2af7244daed5b62cd5894947d9",
+      "has_list": false,
+      "last": " take on their function until you can do that function yourself. Only use the Witness to get you started in a step, don’t start any steps over with the Witness."
+    }
+  ]
+}
