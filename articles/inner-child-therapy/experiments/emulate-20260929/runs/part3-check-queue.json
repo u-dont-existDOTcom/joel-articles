@@ -900,7 +900,7 @@
     "text_sha256": "8ae28a5c763674f57fdf2cc8178e7215982589d96f6c69dc0ecdb9a6822b7784",
     "variant": "output",
     "words": 54,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B24_api_r1"
   },
   {
@@ -909,7 +909,7 @@
     "text_sha256": "02b8a1927597a1ace519f84be298f9b77e52e54af116d019b6f7edccb92c1bdf",
     "variant": "output",
     "words": 57,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_D1_A01_api_r2"
   },
   {
@@ -918,7 +918,7 @@
     "text_sha256": "e3fe444ec1be2b0d3686402c2a797ebb3ff79c86831173ba47870524b1ddc58c",
     "variant": "output",
     "words": 144,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_D1_A02_api_r2"
   },
   {
@@ -927,7 +927,7 @@
     "text_sha256": "bdef8dc8011ae14d76de0dd8ad54a80cbb5f163816cc1fd2af590aef32e746b4",
     "variant": "output",
     "words": 216,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_D2_B01_opt1_secondpass"
   },
   {
@@ -936,7 +936,7 @@
     "text_sha256": "2b29095b54244f3ad91dd33be85792bac3220f7f53e263adaaf3f160f86f3b5b",
     "variant": "output_paragraph",
     "words": 77,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_D2_B01_opt1_secondpass",
     "output_start": 0,
     "output_end": 383
@@ -947,7 +947,7 @@
     "text_sha256": "1af0033f579042655e87fec037f35833cfd3360a44d052ff1b083d2cc5471e58",
     "variant": "output_paragraph",
     "words": 139,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_D2_B01_opt1_secondpass",
     "output_start": 383,
     "output_end": 1112
@@ -958,7 +958,7 @@
     "text_sha256": "988f1af624b7040bc7315e1d7e2269d04f1049eddf221967f5b6fb10ae6085f8",
     "variant": "context",
     "words": 454,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_D2_B01_opt1_secondpass",
     "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
     "join": "exact context bytes + two LF + exact output bytes"
@@ -969,7 +969,7 @@
     "text_sha256": "7b80d774586ff554a46ef3cc686a06e36db677a9ea9ddfc5ea93f5c7f0a00d67",
     "variant": "output",
     "words": 152,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_D2_B02_opt1_secondpass"
   }
 ]
