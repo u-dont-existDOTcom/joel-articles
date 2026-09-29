@@ -1,0 +1,57 @@
+{
+  "source_sha256": "d3bc42eea3fc038e123471865e8bd1a6a5a9620d6decc070fb5560348b3ac933",
+  "output_sha256": "053dff56eea64013a46d368d8db49c9d3ea50f84015b05f40ed8ce63da4dbb95",
+  "source_sentence_count": 3,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 136,
+      "output_start": 0,
+      "output_end": 49,
+      "source_text": "The order gets murky too. Feeling can precede language, language can expose a feeling, and afterward you may not know which came first. ",
+      "output_text": "It can be a bit confusing as to what came first. ",
+      "word_overlap": 0.23529411764705882,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        1,
+        2
+      ],
+      "source_start": 136,
+      "source_end": 236,
+      "output_start": 49,
+      "output_end": 191,
+      "source_text": "I don't think you need to solve that before using whatever words eventually help you understand it.\n",
+      "output_text": "Sometimes you have to feel first before you can put it into words. Sometimes you have to put it into words to understand what you're feeling. ",
+      "word_overlap": 0.26666666666666666,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 236,
+      "source_end": 236,
+      "output_start": 191,
+      "output_end": 225,
+      "source_text": "",
+      "output_text": "And sometimes you just never know.",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
