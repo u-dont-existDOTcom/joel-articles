@@ -12,7 +12,7 @@ Everything else in `TRAINING-PROPOSAL.md` waits until this is answered: preferen
 
 Stop and report if any of these would run over:
 - **Cash:** at most $100 in all, of which at most $40 is GPU time.
-- **Pangram:** at most 500 credits.
+- **Pangram:** at most 500 credits, through the dashboard in your cloud browser with Joel signed in. Joel says the API is too costly.
 - **Emulate:** at most 3,000 words.
 
 **Shut the GPU down whenever it isn't in use**, and always at the end. Joel chooses the GPU provider and signs in himself; he has used a GPU VPS before. Training needs one 80 GB GPU. Serving the finished model can use a smaller one.
@@ -49,7 +49,8 @@ Stop and report if any of these would run over:
    - **The format:** "Rewrite this so it reads like a person wrote it. Keep every fact." followed by the draft. The target is the human original.
    - **Record:** exact model IDs, the tool and its version, every setting, time taken and cost.
 4. **The test set, reusing tonight's overnight run.**
-   - Sets A and B in `articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/` have 53 AI inputs. The overnight run has Emulate's version of each with its Pangram result, so Emulate costs nothing extra here. For Emulate, compare only its first version of each input.
+   - Sets A and B in `articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/` have 53 AI inputs. The Emulate run (branch `gpt/emulate-overnight-20260929`) has Emulate's version of each, so Emulate costs nothing extra here. For Emulate, compare only its first version of each input.
+   - Some of those versions may still lack a Pangram result. If so, check them yourself within this budget.
    - Add 20 general AI paragraphs, made as in step 2 from the set-aside human passages. Run those through Emulate's API too (about 3,000 words).
    - Don't touch `E_holdout/`. It's reserved for Claude.
 5. **Run both models on the test set,** one output each at temperature 0.8.
