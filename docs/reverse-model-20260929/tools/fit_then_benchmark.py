@@ -10,7 +10,9 @@ ROOT=Path('/workspace/reverse-pilot-20260929')
 
 def main(args):
     while True:
-        status=subprocess.check_output(['supervisorctl','status','reverse-pilot-fit'],text=True).strip()
+        status=subprocess.run(['supervisorctl','status','reverse-pilot-fit'],
+                              text=True,capture_output=True).stdout.strip()
+        assert status.startswith('reverse-pilot-fit'), 'Fit service status is unavailable'
         report=json.loads((ROOT/'gpu-fit.json').read_text()) if (ROOT/'gpu-fit.json').exists() else {}
         if report.get('status')=='FAIL':
             raise SystemExit('Fit failed; benchmark not started. Diagnose the recorded failure.')
@@ -18,6 +20,11 @@ def main(args):
             assert report.get('status')=='PASS' and len(report.get('steps',[]))==2,status
             break
         if 'FATAL' in status or 'STOPPED' in status:
+            download = subprocess.run(['supervisorctl','status','reverse-pilot-download'],
+                                      text=True,capture_output=True).stdout
+            if 'STOPPED' in status and 'RUNNING' in download:
+                time.sleep(10)
+                continue
             raise SystemExit('Fit is not running; benchmark not started.')
         time.sleep(10)
     repo=ROOT/'repo';data=repo/'docs/reverse-model-20260929/data'
