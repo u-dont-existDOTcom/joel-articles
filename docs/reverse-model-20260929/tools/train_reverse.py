@@ -40,9 +40,13 @@ def validate_complete_generation(data_path, originals, rows):
     audit = [json.loads(line) for line in audit_path.read_text().splitlines()]
     assert len(audit) == len(originals) == 1200, 'Complete all 1,200 counterparts before either training'
     assert len({r['id'] for r in audit}) == 1200 and {r['id'] for r in audit} == set(originals)
+    assert not any(r.get('copy_repair_pending') for r in audit), 'Complete the authorized copy repair before training'
     accepted = {r['id']: r for r in audit if r['accepted'] and r['split'] == 'train'}
     assert len(rows) == len(accepted) and {r['id'] for r in rows} == set(accepted)
     assert all(row == accepted[row['id']] for row in rows), 'Train on the exact open-judge-accepted rows'
+    from copy_check import regeneration_guard
+    assert all(row['method'] != 'notes_regeneration' or
+               regeneration_guard(row['human'], row['notes'], row['ai'])['passed'] for row in rows), 'Copied regeneration cannot enter training'
     return hashlib.sha256(audit_path.read_bytes()).hexdigest()
 
 def run(args):

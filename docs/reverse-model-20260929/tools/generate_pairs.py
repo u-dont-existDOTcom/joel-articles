@@ -6,6 +6,8 @@ import os
 import random
 import time
 from pathlib import Path
+from copy_check import regeneration_guard, POLICY, MAX_SHARED_WORDS
+from prepare_copy_repair import atomic_text, write_splits
 os.environ.setdefault('HF_HOME', '/workspace/.hf_home')
 os.environ.setdefault('TOKENIZERS_PARALLELISM', 'false')
 os.environ.setdefault('HF_HUB_DISABLE_XET', '1')
@@ -20,7 +22,11 @@ PARAPHRASE = 'Rewrite this paragraph to be clearer and more polished.'
 NOTES = ('Extract a complete numbered list of the content of the passage below. '
          'Include every fact, example, number, name, qualification, negation, cause, '
          'comparison, opinion and relationship. Preserve uncertainty and who said what. '
-         'Do not summarize away details or add facts. Output only the notes.\n\nPASSAGE:\n')
+         'Do not summarize away details or add facts. Use short fragments in your own words, '
+         'never sentences copied from the passage. Keep names, numbers, dates, units, links '
+         'and quotations exact; put quoted speech inside quotation marks. '
+         'Outside quotations, do not copy a run of more than 10 consecutive words. '
+         'Output only the notes.\n\nPASSAGE:\n')
 REGEN = ['Write this up as a blog paragraph.', 'Turn these notes into a section.',
          'Improve this into a clear paragraph.', 'Draft a paragraph from these notes.',
          'Write a short explanatory paragraph using these points.']
@@ -64,7 +70,21 @@ def run(args):
     request_path = args.output / 'model-requests.jsonl'
     source = [json.loads(line) for line in args.input.read_text().splitlines()]
     assert sha(args.input.read_text()) == SOURCE_SHA256, 'Source differs from the frozen licensed split'
-    done = {json.loads(line)['id'] for line in pairs_path.read_text().splitlines()} if pairs_path.exists() else set()
+    existing = [json.loads(line) for line in pairs_path.read_text().splitlines()] if pairs_path.exists() else []
+    assert len({row['id'] for row in existing}) == len(existing)
+    by_id = {row['id']: row for row in existing}
+    attempts_path = args.output / 'pair-attempt-history.jsonl'
+    attempts = [json.loads(line) for line in attempts_path.read_bytes().split(b'\n')[:-1] if line] if attempts_path.exists() else []
+    exhausted_initial_ids = {row['id'] for row in attempts if row.get('outcome') == 'COPY_FAILURE_SINGLE_FRESH_RETRY'}
+    for row in attempts:
+        if 'accepted' in row and (row['id'] not in by_id or by_id[row['id']].get('copy_repair_pending')):
+            by_id[row['id']] = row
+    if attempts:
+        atomic_text(pairs_path, ''.join(json.dumps(by_id[row['id']], ensure_ascii=False)+'\n'
+                                      for row in source if row['id'] in by_id))
+        write_splits(args.output, list(by_id.values()))
+    repair_ids = {row['id'] for row in by_id.values() if row.get('copy_repair_pending')}
+    done = set(by_id) - repair_ids
     todo = [row for row in source if row['id'] not in done]
     if args.limit:
         todo = todo[:args.limit]
@@ -81,6 +101,9 @@ def run(args):
     started = time.time()
     request_number = sum(1 for _ in request_path.open()) if request_path.exists() else 0
     manifest = {'model': MODEL, 'revision': REVISION, 'seed': SEED,
+                'pipeline_revision': 2, 'copy_policy': POLICY,
+                'copy_maximum_shared_words': MAX_SHARED_WORDS,
+                'copy_retry_limit': 1, 'existing_repairs_are_the_single_retry': True,
                 'input_sha256': sha(args.input.read_text()), 'batch_size': args.batch_size,
                 'generation_temperature': 0.7, 'judge_temperature': 0,
                 'max_context': 4096, 'thinking': 'non-thinking checkpoint',
@@ -144,13 +167,36 @@ def run(args):
             fresh = generate([ids[i] for i in regenerated], 'fresh_notes_regeneration', prompts, 512, True)
             for i, result in zip(regenerated, fresh):
                 drafts[i] = result
-        forward = generate(ids, 'human_claims_in_ai',
-                           [JUDGE.format(source=r['human'], candidate=d['text']) for r, d in zip(batch, drafts)],
-                           768, False)
-        backward = generate(ids, 'ai_claims_in_human',
-                            [JUDGE.format(source=d['text'], candidate=r['human']) for r, d in zip(batch, drafts)],
-                            768, False)
-        for row, first_result, draft, f, b in zip(batch, first, drafts, forward, backward):
+        guards = {i: regeneration_guard(batch[i]['human'], first[i]['text'], drafts[i]['text'])
+                  for i in regenerated}
+        retry_indexes = [i for i in regenerated if not guards[i]['passed'] and
+                         ids[i] not in repair_ids | exhausted_initial_ids]
+        # Each fresh regeneration sees notes alone, including the one permitted retry.
+        if retry_indexes:
+            for i in retry_indexes:
+                append(args.output/'pair-attempt-history.jsonl', {
+                    'id': ids[i], 'attempt': 0, 'notes': first[i], 'draft': drafts[i],
+                    'copy_guard': guards[i], 'outcome': 'COPY_FAILURE_SINGLE_FRESH_RETRY',
+                    'pipeline_revision': 2})
+            retry_first = generate([ids[i] for i in retry_indexes], 'fresh_retry_notes',
+                                   [NOTES + batch[i]['human'] for i in retry_indexes], 1024, True)
+            retry_drafts = generate([ids[i] for i in retry_indexes], 'fresh_retry_regeneration',
+                [REGEN[(int(ids[i][1:])-1) % len(REGEN)] + REGEN_SUFFIX + notes['text']
+                 for i, notes in zip(retry_indexes, retry_first)], 512, True)
+            for i, notes, draft in zip(retry_indexes, retry_first, retry_drafts):
+                first[i], drafts[i] = notes, draft
+                guards[i] = regeneration_guard(batch[i]['human'], notes['text'], draft['text'])
+        admitted = [i for i in range(len(batch)) if i not in guards or guards[i]['passed']]
+        forward, backward = {}, {}
+        if admitted:
+            forward = dict(zip(admitted, generate([ids[i] for i in admitted], 'human_claims_in_ai',
+                [JUDGE.format(source=batch[i]['human'], candidate=drafts[i]['text']) for i in admitted], 768, False)))
+            backward = dict(zip(admitted, generate([ids[i] for i in admitted], 'ai_claims_in_human',
+                [JUDGE.format(source=drafts[i]['text'], candidate=batch[i]['human']) for i in admitted], 768, False)))
+        for i, (row, first_result, draft) in enumerate(zip(batch, first, drafts)):
+            copy_failure = i in guards and not guards[i]['passed']
+            f = forward.get(i, {'text': '', 'truncated': False})
+            b = backward.get(i, {'text': '', 'truncated': False})
             judgments = {'human_claims_in_ai': parse_judge(f['text']),
                          'ai_claims_in_human': parse_judge(b['text'])}
             reasons = []
@@ -158,20 +204,29 @@ def run(args):
                 reasons.append('truncated_model_response')
             if not draft['text']:
                 reasons.append('empty_draft')
-            for direction, judgment in judgments.items():
-                if not judgment['all_supported']:
-                    reasons.append(direction)
-            append(pairs_path, {**row, 'ai': draft['text'], 'ai_sha256': sha(draft['text']),
+            if copy_failure:
+                reasons.append('copy_guard_failed_after_single_fresh_retry')
+                judgments = {'status': 'NOT_RUN_MECHANICAL_COPY_REJECTION'}
+            else:
+                for direction, judgment in judgments.items():
+                    if not judgment['all_supported']:
+                        reasons.append(direction)
+            record = {**row, 'ai': draft['text'], 'ai_sha256': sha(draft['text']),
                                 'notes': first_result['text'] if row['method'] == 'notes_regeneration' else None,
                                 'judgments': judgments, 'accepted': not reasons,
                                 'rejection_reasons': reasons, 'open_model': MODEL,
-                                'open_model_revision': REVISION})
+                                'open_model_revision': REVISION, 'pipeline_revision': 2,
+                                'copy_guard': guards.get(i),
+                                'copy_retry_count': int(i in retry_indexes or ids[i] in repair_ids | exhausted_initial_ids)}
+            append(args.output/'pair-attempt-history.jsonl', record)
+            by_id[row['id']] = record
+        records = [by_id[row['id']] for row in source if row['id'] in by_id]
+        atomic_text(pairs_path, ''.join(json.dumps(row, ensure_ascii=False)+'\n' for row in records))
+        write_splits(args.output, records)
         print(json.dumps({'completed_this_run': min(offset+len(batch), len(todo)),
                           'run_total': len(todo), 'elapsed_seconds': time.time()-started}), flush=True)
     records = [json.loads(line) for line in pairs_path.read_text().splitlines()] if pairs_path.exists() else []
-    for split in ['train', 'dev', 'test']:
-        accepted = [r for r in records if r['split'] == split and r['accepted']]
-        (args.output / f'{split}-pairs.jsonl').write_text(''.join(json.dumps(r, ensure_ascii=False)+'\n' for r in accepted))
+    write_splits(args.output, records)
     summary = {'processed': len(records), 'accepted': sum(r['accepted'] for r in records),
                'split_accepted': {s: sum(r['accepted'] and r['split'] == s for r in records) for s in ['train','dev','test']},
                'elapsed_seconds_this_run': time.time()-started, 'requests': request_number}

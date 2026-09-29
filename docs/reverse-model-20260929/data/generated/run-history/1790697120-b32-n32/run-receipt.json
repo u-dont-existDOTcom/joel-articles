@@ -1,0 +1,15 @@
+{
+  "started_unix": 1790697120.3211775,
+  "run_id": "1790697120-b32-n32",
+  "repo_commit": "7981690beff7eb83f9f133b87536d02ee972c155",
+  "generator_sha256": "315ab81ce1da8f183d8556fe4193508f948f24174cbaefc5671c56c0e66d3555",
+  "source_sha256": "56869801ee7f95dfea1681170c745cacf112f93c117a185177c515568c80b089",
+  "processed_before": 28,
+  "batch_size": 32,
+  "new_passage_limit": 32,
+  "deadline_seconds": 3600,
+  "termination_grace_seconds": 120,
+  "status": "COMPLETE",
+  "ended_unix": 1790698194.0809367,
+  "returncode": 0
+}

@@ -1,0 +1,33 @@
+{
+  "authority": "Owner-authorized Claude designer clarification, connected GitHub verified file blob 09a1b518980a61d07f96bd4f287a0674d2215ec0",
+  "candidate_sha256": "6bdf0b4bd0f32788a7871d5c8421dbfa48c9ba08dd80296d8350e820f7726f69",
+  "selection_sha256": "d9d1bd47d5d565c59a80eb250d693d664a1cd77ae5166368217f520a5db3607b",
+  "selected_ids": [
+    "B01_m34",
+    "A24_before",
+    "A07_before",
+    "A02_before",
+    "A05_before",
+    "A28_before",
+    "A10_before"
+  ],
+  "cases": 7,
+  "systems_per_case": 3,
+  "total_results": 21,
+  "cached_results": 1,
+  "new_scans": 20,
+  "selection_rule": "B01 cached context plus six cheapest candidates >=150 fixed context words, at most one per section heading, ties lower ID, before model outputs/results",
+  "strict_pass_label": "Human Written",
+  "primary_alone_scope": "48 inputs with exact first Emulate cached scores; never cut",
+  "matched_denominator_exclusion": "If either adapter output is under 50 words, exclude that case from all three denominators and report exclusions; do not conceal short outputs",
+  "scoring_spending_order": [
+    "48 cached-common learning inputs, both adapters",
+    "21 matched in-context results",
+    "20 general cases across all three systems"
+  ],
+  "overflow_policy": "Quote all actual output lengths before first paid scoring; remove longest general cases as matched triples, then context triples down to five; stop if primary standalone alone exceeds remaining credits",
+  "credits_cap": 500,
+  "already_used": 48,
+  "remaining": 452,
+  "selection_bias": "Shorter real contexts, one per heading; not a random sample; no new detector-driven training selection"
+}
