@@ -1,0 +1,60 @@
+{
+  "source_sha256": "626a3a5f1548180555e0f7a80567337134ca6d30bbeae25b83e50605e05e4f42",
+  "output_sha256": "b32a04c5467354c0183b4cbdbd94841d757c317c646bdb4ed0438641b6b384d5",
+  "source_sentence_count": 3,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 158,
+      "output_start": 0,
+      "output_end": 89,
+      "source_text": "You've told your little one they matter maybe a dozen times this month, usually in the shower, and then paid your roommate's half of the internet bill again. ",
+      "output_text": "How do you show your child that they are important? Well, that's a really good question! ",
+      "word_overlap": 0.1702127659574468,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 158,
+      "source_end": 293,
+      "output_start": 89,
+      "output_end": 330,
+      "source_text": "The Protector they end up trusting, though, is mostly the one who finally brings it up, even if the kitchen's a bit chilly for a week. ",
+      "output_text": "In all honestly, I probably say it like a hundred times a month in the shower, because I have to pay the internet for my room-mate. So what I will do, is let the Protector that this child feels comfortable enough to confide in, bring it up. ",
+      "word_overlap": 0.10666666666666667,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 293,
+      "source_end": 356,
+      "output_start": 330,
+      "output_end": 476,
+      "source_text": "Sometimes it's as big as leaving someone you aren't safe with.\n",
+      "output_text": "Knowing that the kitchen is going to be a little cold for a week. Or maybe something bigger, like leaving someone that the child is not safe with.",
+      "word_overlap": 0.1951219512195122,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
