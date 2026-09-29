@@ -1,0 +1,58 @@
+{
+  "source_sha256": "efd85b030e18c1e73820b154d6db60d9983da56daae019f50c47d0fa976e4c96",
+  "output_sha256": "95790237c115a8c20ce91388ea49b0f6f524bbb99c0a8fe5fbd4f3a848c8eca2",
+  "source_sentence_count": 4,
+  "output_sentence_count": 3,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 130,
+      "output_start": 0,
+      "output_end": 124,
+      "source_text": "Before doing the same exercise again, know what it is supposed to help and what would actually look different if it were working. ",
+      "output_text": "Don’t practice the same thing again without knowing what you’re trying to get out of it (and how you’d know if you got it). ",
+      "word_overlap": 0.2,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 130,
+      "source_end": 229,
+      "output_start": 124,
+      "output_end": 265,
+      "source_text": "You can leave a session calmer and full of insight while the original problem doesn't move at all. ",
+      "output_text": "You might end the practice feeling great with all kinds of insight but if you’re not solving the original problem, you’re wasting your time. ",
+      "word_overlap": 0.26666666666666666,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 229,
+      "source_end": 459,
+      "output_start": 265,
+      "output_end": 507,
+      "source_text": "If the method keeps giving you no useful contact—or mostly makes you monitor yourself more while daily life gets worse—don't answer that by doing more of it. Keep what genuinely helps and try another way of meeting the same need.\n",
+      "output_text": "If you find that what you’re doing isn’t connecting in a useful way, or only seems to be helping you engage in more self-monitoring while making everything else worse in your life, then try something else (while still keeping what’s helpful).",
+      "word_overlap": 0.20454545454545456,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
