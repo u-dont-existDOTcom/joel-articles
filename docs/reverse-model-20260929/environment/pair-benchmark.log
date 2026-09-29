@@ -1,0 +1,145 @@
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+==((====))==  Unsloth 2026.9.11: Fast Qwen3_MoE patching. Transformers: 5.5.0.
+   \\   /|    NVIDIA A100-PCIE-40GB. Num GPUs = 1. Max memory: 39.493 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.0. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = True]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+
+Loading weights:   0%|          | 0/531 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/531 [00:00<01:30,  5.85it/s]
+Loading weights:   0%|          | 2/531 [00:00<01:31,  5.75it/s]
+Loading weights:   1%|          | 4/531 [00:00<01:08,  7.68it/s]
+Loading weights:   1%|          | 5/531 [00:00<01:34,  5.55it/s]
+Loading weights:   3%|▎         | 15/531 [00:01<00:23, 21.60it/s]
+Loading weights:   3%|▎         | 18/531 [00:01<00:30, 16.82it/s]
+Loading weights:   5%|▍         | 26/531 [00:01<00:20, 25.07it/s]
+Loading weights:   6%|▌         | 30/531 [00:01<00:24, 20.73it/s]
+Loading weights:   7%|▋         | 37/531 [00:01<00:18, 26.51it/s]
+Loading weights:   8%|▊         | 41/531 [00:02<00:22, 21.76it/s]
+Loading weights:   9%|▉         | 48/531 [00:02<00:17, 27.27it/s]
+Loading weights:  10%|▉         | 52/531 [00:02<00:21, 22.46it/s]
+Loading weights:  11%|█         | 59/531 [00:02<00:17, 27.09it/s]
+Loading weights:  12%|█▏        | 63/531 [00:03<00:20, 22.62it/s]
+Loading weights:  13%|█▎        | 70/531 [00:03<00:16, 27.89it/s]
+Loading weights:  14%|█▍        | 74/531 [00:03<00:20, 22.27it/s]
+Loading weights:  15%|█▌        | 81/531 [00:03<00:16, 27.48it/s]
+Loading weights:  16%|█▌        | 85/531 [00:03<00:19, 23.00it/s]
+Loading weights:  17%|█▋        | 92/531 [00:04<00:15, 28.18it/s]
+Loading weights:  18%|█▊        | 96/531 [00:04<00:19, 22.55it/s]
+Loading weights:  19%|█▉        | 103/531 [00:04<00:15, 27.94it/s]
+Loading weights:  20%|██        | 107/531 [00:04<00:18, 23.15it/s]
+Loading weights:  21%|██▏       | 114/531 [00:04<00:14, 28.46it/s]
+Loading weights:  22%|██▏       | 118/531 [00:05<00:17, 23.38it/s]
+Loading weights:  24%|██▎       | 125/531 [00:05<00:14, 28.60it/s]
+Loading weights:  24%|██▍       | 129/531 [00:05<00:17, 23.47it/s]
+Loading weights:  26%|██▌       | 136/531 [00:05<00:13, 28.64it/s]
+Loading weights:  26%|██▋       | 140/531 [00:06<00:16, 23.44it/s]
+Loading weights:  28%|██▊       | 147/531 [00:06<00:13, 28.62it/s]
+Loading weights:  28%|██▊       | 151/531 [00:06<00:16, 23.50it/s]
+Loading weights:  30%|██▉       | 158/531 [00:06<00:12, 28.82it/s]
+Loading weights:  31%|███       | 162/531 [00:06<00:15, 23.65it/s]
+Loading weights:  32%|███▏      | 169/531 [00:07<00:12, 28.88it/s]
+Loading weights:  33%|███▎      | 173/531 [00:07<00:15, 23.71it/s]
+Loading weights:  34%|███▍      | 180/531 [00:07<00:12, 28.83it/s]
+Loading weights:  35%|███▍      | 184/531 [00:07<00:14, 23.75it/s]
+Loading weights:  36%|███▌      | 191/531 [00:07<00:11, 28.95it/s]
+Loading weights:  37%|███▋      | 195/531 [00:08<00:14, 23.74it/s]
+Loading weights:  38%|███▊      | 202/531 [00:08<00:11, 29.04it/s]
+Loading weights:  39%|███▉      | 206/531 [00:08<00:13, 23.73it/s]
+Loading weights:  40%|████      | 213/531 [00:08<00:10, 29.07it/s]
+Loading weights:  41%|████      | 217/531 [00:09<00:13, 23.56it/s]
+Loading weights:  42%|████▏     | 224/531 [00:09<00:10, 28.65it/s]
+Loading weights:  43%|████▎     | 228/531 [00:09<00:13, 23.12it/s]
+Loading weights:  44%|████▍     | 235/531 [00:09<00:10, 28.35it/s]
+Loading weights:  45%|████▌     | 239/531 [00:09<00:12, 23.46it/s]
+Loading weights:  46%|████▋     | 246/531 [00:10<00:09, 28.69it/s]
+Loading weights:  47%|████▋     | 250/531 [00:10<00:12, 22.78it/s]
+Loading weights:  48%|████▊     | 257/531 [00:10<00:09, 28.03it/s]
+Loading weights:  49%|████▉     | 261/531 [00:10<00:11, 23.34it/s]
+Loading weights:  50%|█████     | 268/531 [00:10<00:09, 28.51it/s]
+Loading weights:  51%|█████     | 272/531 [00:11<00:11, 22.87it/s]
+Loading weights:  53%|█████▎    | 279/531 [00:11<00:08, 28.22it/s]
+Loading weights:  53%|█████▎    | 283/531 [00:11<00:10, 23.34it/s]
+Loading weights:  55%|█████▍    | 290/531 [00:11<00:08, 28.68it/s]
+Loading weights:  55%|█████▌    | 294/531 [00:12<00:10, 23.08it/s]
+Loading weights:  57%|█████▋    | 301/531 [00:12<00:08, 28.28it/s]
+Loading weights:  57%|█████▋    | 305/531 [00:12<00:09, 23.52it/s]
+Loading weights:  59%|█████▉    | 312/531 [00:12<00:07, 28.71it/s]
+Loading weights:  60%|█████▉    | 316/531 [00:12<00:09, 23.07it/s]
+Loading weights:  61%|██████    | 323/531 [00:13<00:07, 28.46it/s]
+Loading weights:  62%|██████▏   | 327/531 [00:13<00:08, 23.45it/s]
+Loading weights:  63%|██████▎   | 334/531 [00:13<00:07, 27.70it/s]
+Loading weights:  64%|██████▎   | 338/531 [00:13<00:08, 23.16it/s]
+Loading weights:  65%|██████▍   | 345/531 [00:13<00:06, 28.33it/s]
+Loading weights:  66%|██████▌   | 349/531 [00:14<00:07, 23.47it/s]
+Loading weights:  67%|██████▋   | 356/531 [00:14<00:06, 28.72it/s]
+Loading weights:  68%|██████▊   | 360/531 [00:14<00:07, 22.98it/s]
+Loading weights:  69%|██████▉   | 367/531 [00:14<00:05, 28.32it/s]
+Loading weights:  70%|██████▉   | 371/531 [00:15<00:06, 23.42it/s]
+Loading weights:  71%|███████   | 378/531 [00:15<00:05, 28.68it/s]
+Loading weights:  72%|███████▏  | 382/531 [00:15<00:06, 23.05it/s]
+Loading weights:  73%|███████▎  | 389/531 [00:15<00:05, 28.32it/s]
+Loading weights:  74%|███████▍  | 393/531 [00:15<00:05, 23.45it/s]
+Loading weights:  75%|███████▌  | 400/531 [00:16<00:04, 27.78it/s]
+Loading weights:  76%|███████▌  | 404/531 [00:16<00:05, 23.14it/s]
+Loading weights:  77%|███████▋  | 411/531 [00:16<00:04, 28.42it/s]
+Loading weights:  78%|███████▊  | 415/531 [00:16<00:04, 23.54it/s]
+Loading weights:  79%|███████▉  | 422/531 [00:16<00:03, 28.71it/s]
+Loading weights:  80%|████████  | 426/531 [00:17<00:04, 23.09it/s]
+Loading weights:  82%|████████▏ | 433/531 [00:17<00:03, 28.40it/s]
+Loading weights:  82%|████████▏ | 437/531 [00:17<00:04, 23.45it/s]
+Loading weights:  84%|████████▎ | 444/531 [00:17<00:03, 27.52it/s]
+Loading weights:  84%|████████▍ | 448/531 [00:18<00:03, 23.05it/s]
+Loading weights:  86%|████████▌ | 455/531 [00:18<00:02, 28.21it/s]
+Loading weights:  86%|████████▋ | 459/531 [00:18<00:03, 23.39it/s]
+Loading weights:  88%|████████▊ | 466/531 [00:18<00:02, 28.59it/s]
+Loading weights:  89%|████████▊ | 470/531 [00:18<00:02, 22.68it/s]
+Loading weights:  90%|████████▉ | 477/531 [00:19<00:01, 28.01it/s]
+Loading weights:  91%|█████████ | 481/531 [00:19<00:02, 23.20it/s]
+Loading weights:  92%|█████████▏| 488/531 [00:19<00:01, 28.40it/s]
+Loading weights:  93%|█████████▎| 492/531 [00:19<00:01, 23.47it/s]
+Loading weights:  94%|█████████▍| 499/531 [00:19<00:01, 28.66it/s]
+Loading weights:  95%|█████████▍| 503/531 [00:20<00:01, 22.97it/s]
+Loading weights:  96%|█████████▌| 510/531 [00:20<00:00, 28.32it/s]
+Loading weights:  97%|█████████▋| 514/531 [00:20<00:00, 23.38it/s]
+Loading weights:  98%|█████████▊| 521/531 [00:20<00:00, 28.67it/s]
+Loading weights:  99%|█████████▉| 525/531 [00:21<00:00, 23.51it/s]
+Loading weights: 100%|██████████| 531/531 [00:21<00:00, 25.26it/s]
+Both `max_new_tokens` (=1024) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/venv/main/lib/python3.12/site-packages/unsloth/import_fixes.py:4091: UserWarning: 'has_cuda' is deprecated, please use 'torch.backends.cuda.is_built()'
+  return original(name)
+/venv/main/lib/python3.12/site-packages/unsloth/import_fixes.py:4091: UserWarning: 'has_cudnn' is deprecated, please use 'torch.backends.cudnn.is_available()'
+  return original(name)
+/venv/main/lib/python3.12/site-packages/unsloth/import_fixes.py:4091: UserWarning: 'has_mps' is deprecated, please use 'torch.backends.mps.is_built()'
+  return original(name)
+/venv/main/lib/python3.12/site-packages/unsloth/import_fixes.py:4091: UserWarning: 'has_mkldnn' is deprecated, please use 'torch.backends.mkldnn.is_available()'
+  return original(name)
+{"phase": "paraphrase_or_notes", "ids": ["H0001", "H0002", "H0003", "H0004"], "seconds": 97.24690794944763, "output_tokens": 1320, "gpu_peak_gib": 16.856152534484863}
+Both `max_new_tokens` (=512) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "fresh_notes_regeneration", "ids": ["H0002", "H0003"], "seconds": 71.4356279373169, "output_tokens": 568, "gpu_peak_gib": 16.856152534484863}
+Both `max_new_tokens` (=768) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "human_claims_in_ai", "ids": ["H0001", "H0002", "H0003", "H0004"], "seconds": 6.282445907592773, "output_tokens": 100, "gpu_peak_gib": 16.856152534484863}
+Both `max_new_tokens` (=768) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "ai_claims_in_human", "ids": ["H0001", "H0002", "H0003", "H0004"], "seconds": 6.283198118209839, "output_tokens": 100, "gpu_peak_gib": 16.856152534484863}
+{"completed_this_run": 4, "run_total": 12, "elapsed_seconds": 181.3327977657318}
+Both `max_new_tokens` (=1024) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "paraphrase_or_notes", "ids": ["H0005", "H0006", "H0007", "H0008"], "seconds": 260.7302317619324, "output_tokens": 4096, "gpu_peak_gib": 16.86895179748535}
+Both `max_new_tokens` (=512) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "fresh_notes_regeneration", "ids": ["H0005", "H0006", "H0008"], "seconds": 129.69947624206543, "output_tokens": 1536, "gpu_peak_gib": 16.86895179748535}
+Both `max_new_tokens` (=768) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "human_claims_in_ai", "ids": ["H0005", "H0006", "H0007", "H0008"], "seconds": 192.21095633506775, "output_tokens": 3072, "gpu_peak_gib": 16.9644718170166}
+Both `max_new_tokens` (=768) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "ai_claims_in_human", "ids": ["H0005", "H0006", "H0007", "H0008"], "seconds": 196.19784450531006, "output_tokens": 3072, "gpu_peak_gib": 16.9648380279541}
+{"completed_this_run": 8, "run_total": 12, "elapsed_seconds": 960.2201147079468}
+Both `max_new_tokens` (=1024) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "paraphrase_or_notes", "ids": ["H0009", "H0010", "H0011", "H0012"], "seconds": 103.2094292640686, "output_tokens": 1600, "gpu_peak_gib": 16.9648380279541}
+Both `max_new_tokens` (=512) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "fresh_notes_regeneration", "ids": ["H0009", "H0011", "H0012"], "seconds": 81.80803608894348, "output_tokens": 969, "gpu_peak_gib": 16.9648380279541}
+Both `max_new_tokens` (=768) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "human_claims_in_ai", "ids": ["H0009", "H0010", "H0011", "H0012"], "seconds": 123.7142608165741, "output_tokens": 1964, "gpu_peak_gib": 16.9648380279541}
+Both `max_new_tokens` (=768) and `max_length`(=262144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+{"phase": "ai_claims_in_human", "ids": ["H0009", "H0010", "H0011", "H0012"], "seconds": 193.01377964019775, "output_tokens": 3072, "gpu_peak_gib": 16.9648380279541}
+{"completed_this_run": 12, "run_total": 12, "elapsed_seconds": 1462.0074141025543}
+{"processed": 12, "accepted": 8, "split_accepted": {"train": 8, "dev": 0, "test": 0}, "elapsed_seconds_this_run": 1462.008854150772, "requests": 44}
