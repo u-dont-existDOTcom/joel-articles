@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B15_api_r1",
+  "input_file": "inputs/learning/B_protector/B15_pick_b.txt",
+  "input_words": 78,
+  "input_sha256": "f0dae1438afc225bba08f445ec40e71f85422ed655cece7fba05a896201775e6",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:37:20.505305+00:00",
+  "status": "completed",
+  "balance_before": 54023,
+  "provider_id": "26e51f37-08aa-438b-9996-d59cf2ce02ce",
+  "words_charged": 78
+}

@@ -1,0 +1,60 @@
+{
+  "source_sha256": "f0dae1438afc225bba08f445ec40e71f85422ed655cece7fba05a896201775e6",
+  "output_sha256": "6e1ef2bc4c6b28fcc8a6a1174af6686b3e0576e8e39e52ee1e457d6454fbb2e5",
+  "source_sentence_count": 3,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 200,
+      "output_start": 0,
+      "output_end": 21,
+      "source_text": "Choose one way to protect your little one and decide which day, how small the first step is allowed to be, and what it needs, like a friend who knows it's today or an evening with nothing else in it. ",
+      "output_text": "Which one? Pick one. ",
+      "word_overlap": 0.08888888888888889,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 200,
+      "source_end": 336,
+      "output_start": 21,
+      "output_end": 163,
+      "source_text": "If a hard moment is on the calendar, such as a talk with your landlord or a visit home, rehearse the one sentence you'll need out loud. ",
+      "output_text": "Then figure out what day you'll do it and how you'll take that first baby step toward it. Maybe you need a buddy, or a certain block of time. ",
+      "word_overlap": 0.1016949152542373,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 336,
+      "source_end": 394,
+      "output_start": 163,
+      "output_end": 363,
+      "source_text": "The first time, it may come out sounding like a question.\n",
+      "output_text": "If you know you have a hard conversation coming up (meeting with your landlord, going home for a visit), start preparing what you'll say. (Yes, out loud, even if the first try sounds like a question.)",
+      "word_overlap": 0.20833333333333334,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
