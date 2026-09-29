@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1101-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/0c29c128-8010-448b-b238-94ff7b087504",
+  "input_sha256": "53745244569732b17f1fd3af15d552f4cd67a980a57a9ee75b477d9d5b8e8541",
+  "input_words": 168,
+  "before": 36134,
+  "after": 35966,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 189,
+      "sha256": "eb376b0a4f54cadca8eca2a92d38e5090a400e2a18203907ddae884a7b8d48c0",
+      "page_sha256": "eb376b0a4f54cadca8eca2a92d38e5090a400e2a18203907ddae884a7b8d48c0",
+      "has_list": false,
+      "last": "d by everyone. This is the bargain you make with yourself to feel that you belong. And if you don’t succeed in your chosen arena, then you feel you don’t exist."
+    },
+    {
+      "option": "B",
+      "words": 188,
+      "sha256": "c19de1449e8f8bfa603d6a7b7a45f3e41a167610c8e30376f35dddbed9c283b0",
+      "page_sha256": "c19de1449e8f8bfa603d6a7b7a45f3e41a167610c8e30376f35dddbed9c283b0",
+      "has_list": false,
+      "last": "ituality, being needed etc. These are all ways a human doer attempts to buy their sense of belonging. If they fail in their chosen arena, they fail as a person."
+    }
+  ]
+}

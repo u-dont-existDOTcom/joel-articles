@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1101-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/8e3a1851-72b1-4f8a-aa18-c256c74b6b4e",
+  "input_sha256": "56d35f8934bb43ca446dcd4581669a7235db9313987d0514056e8d8fdde237ed",
+  "input_words": 172,
+  "before": 36306,
+  "after": 36134,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 245,
+      "sha256": "e4c4bf7cb069fd9f132a259122843db787c7d3fca328b0e6c4aeb710425d2933",
+      "page_sha256": "e4c4bf7cb069fd9f132a259122843db787c7d3fca328b0e6c4aeb710425d2933",
+      "has_list": false,
+      "last": "he point of erasing yourself\n\nTrying to love yourself feels performative\n\nWhen asked how your inner child might be feeling, you mostly feel like you’re guessing"
+    },
+    {
+      "option": "B",
+      "words": 228,
+      "sha256": "cde9f4108f62e020d8c3d71b37e3e8832e99ffa154f78ea6a44157c6012dfff6",
+      "page_sha256": "cde9f4108f62e020d8c3d71b37e3e8832e99ffa154f78ea6a44157c6012dfff6",
+      "has_list": false,
+      "last": "tions to the detriment of yourself\n\nTrying to love yourself feels like you're putting on a show\n\nWhen you ask your inner child how they feel, you can only guess"
+    }
+  ]
+}

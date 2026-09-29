@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s10",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/e982f866-508f-4721-a15d-0f89da510950",
+  "input_sha256": "9f4dd95a17e44a20bc397887feb98f09ab5d99d08c076d773f09e9bac3fc6ff9",
+  "input_words": 212,
+  "before": 36518,
+  "after": 36306,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 407,
+      "sha256": "d01a1af47f235bdc10a40e4e8da498f83d8481084196b9bec85e0bbe7522ba70",
+      "page_sha256": "d01a1af47f235bdc10a40e4e8da498f83d8481084196b9bec85e0bbe7522ba70",
+      "has_list": false,
+      "last": "e?\n\nDominant hand: Something small and easy that I can do today. Maybe I promise to eat something, or clean off my desk, or not text somebody that’s bad for me."
+    },
+    {
+      "option": "B",
+      "words": 378,
+      "sha256": "188935c981887ecc3ee0cdfe69190f508a6d4a04e7e1de6e534a32d7eeb054f5",
+      "page_sha256": "188935c981887ecc3ee0cdfe69190f508a6d4a04e7e1de6e534a32d7eeb054f5",
+      "has_list": false,
+      "last": "day.\n\nNon-dominant hand: What will you promise?\n\nDominant hand: I will make sure we eat, clean off our desk, and not text that person that makes us feel unsafe."
+    }
+  ]
+}

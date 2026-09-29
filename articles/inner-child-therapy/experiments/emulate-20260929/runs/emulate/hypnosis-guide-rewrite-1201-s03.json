@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1201-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/d80671bb-01d1-4710-a801-197ca401ca90",
+  "input_sha256": "4e10bc345f2fa658ccb2fcef65014dbfdf4f169edaa5c8026fcb8c0105359009",
+  "input_words": 111,
+  "before": 35261,
+  "after": 35150,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 191,
+      "sha256": "bf2f23643809f261ec2c654efed8b72aae7ac3b96baaa7daabc0ef4680cfb074",
+      "page_sha256": "bf2f23643809f261ec2c654efed8b72aae7ac3b96baaa7daabc0ef4680cfb074",
+      "has_list": false,
+      "last": " if you don't want to. Saying nothing, or saying you're not sure, does NOT give your permission.\n\nSee Appendix C for the longer version of the de-hyp checklist."
+    },
+    {
+      "option": "B",
+      "words": 202,
+      "sha256": "a8f37288fbf68b1a20f0531290301f74ae95bbdf588ab9fea767b90b09372fa8",
+      "page_sha256": "a8f37288fbf68b1a20f0531290301f74ae95bbdf588ab9fea767b90b09372fa8",
+      "has_list": false,
+      "last": "ce doesn’t mean that the subject has agreed to anything.\n\nSee Appendix C for a longer list of things you can do to make sure that the subject is not hypnotized."
+    }
+  ]
+}

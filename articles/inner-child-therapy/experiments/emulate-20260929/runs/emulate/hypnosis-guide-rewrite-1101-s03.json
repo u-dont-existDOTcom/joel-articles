@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1101-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/e2af9654-27cb-4933-a62b-655928b5bfdf",
+  "input_sha256": "7917f313f9422f0de803382fb6420dda46073868286331559ff345089f227ad0",
+  "input_words": 208,
+  "before": 35966,
+  "after": 35758,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 331,
+      "sha256": "5c9393d6bb9fdd0bd7ce7b9ecf8283d0f6d157545264e5232c57633c5678e9cc",
+      "page_sha256": "5c9393d6bb9fdd0bd7ce7b9ecf8283d0f6d157545264e5232c57633c5678e9cc",
+      "has_list": false,
+      "last": " the main issues to work on when you are becoming an adult. Listen to the voices in your subconscious mind – that is what this self hypnosis guide is all about."
+    },
+    {
+      "option": "B",
+      "words": 307,
+      "sha256": "016b727d1b643ca6e73fd03dabee84992fca25d1c2f1bed1a74d29442fd3bac6",
+      "page_sha256": "016b727d1b643ca6e73fd03dabee84992fca25d1c2f1bed1a74d29442fd3bac6",
+      "has_list": false,
+      "last": "over where you can be yourself and choose your own ground. To learn more about the many voices inside your subconscious head, read my self-hypnosis guide here ."
+    }
+  ]
+}

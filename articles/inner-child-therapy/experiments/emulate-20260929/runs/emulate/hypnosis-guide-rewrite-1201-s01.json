@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1201-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/e92df868-011c-4747-bbcb-8f43d7142cc1",
+  "input_sha256": "0e5655300690552e0d904fcf371a8edddbfe24d1f72aebaca200815b6c8dd28e",
+  "input_words": 199,
+  "before": 35680,
+  "after": 35481,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 220,
+      "sha256": "99bd9fdf8c17bc132ef0c3dcba3abc61b376837127bc931d2640b10c051c41d3",
+      "page_sha256": "99bd9fdf8c17bc132ef0c3dcba3abc61b376837127bc931d2640b10c051c41d3",
+      "has_list": false,
+      "last": "ows that…’ ‘Everyone knows that…’ ‘The only reason you’re not agreeing is your ego is afraid of…’\n\nLearn the grammar of manipulation and it will become obvious."
+    },
+    {
+      "option": "B",
+      "words": 251,
+      "sha256": "3a7bf41a49bcf303f767b35b48663c276fa8967d436c9e04388f68e888c7b4e9",
+      "page_sha256": "3a7bf41a49bcf303f767b35b48663c276fa8967d436c9e04388f68e888c7b4e9",
+      "has_list": false,
+      "last": " higher self wants you to… », « Everybody knows that… », « If you don’t believe that, that’s because your ego is afraid of…»\n\nHow powerful it is, grammatically!"
+    }
+  ]
+}

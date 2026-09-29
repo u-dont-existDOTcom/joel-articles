@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1101-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/821bd2c9-2740-4839-a377-b44ec85e0277",
+  "input_sha256": "aacdb5879f8230f5e1c4f2e771df4ef021982768f869ef1c56a0c479b99f8e9b",
+  "input_words": 78,
+  "before": 35758,
+  "after": 35680,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 130,
+      "sha256": "b40226f37f3f104b23134cb814e2fe279092b4cdaaf2be7f11560d27fe43f774",
+      "page_sha256": "b40226f37f3f104b23134cb814e2fe279092b4cdaaf2be7f11560d27fe43f774",
+      "has_list": false,
+      "last": "ply? How do I know if what I’m rebelling against is coming from a place of freedom?\n\nThen listen to your body. It’s not infallible, but it will be a great help."
+    },
+    {
+      "option": "B",
+      "words": 76,
+      "sha256": "7e687edd9de594ac85df7352bcef048e38b36f3d4d56a5ee947dabc7d28b9adf",
+      "page_sha256": "7e687edd9de594ac85df7352bcef048e38b36f3d4d56a5ee947dabc7d28b9adf",
+      "has_list": false,
+      "last": "evotion or is this compliance”, “Is this rebellion or is this freedom?”\n\nAnd then, wait for your body to tell you. It’s not always right, but it’s worth asking."
+    }
+  ]
+}

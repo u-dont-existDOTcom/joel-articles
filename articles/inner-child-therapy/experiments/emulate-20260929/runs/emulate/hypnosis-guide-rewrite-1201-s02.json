@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1201-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/f88d07ac-2782-4c49-8172-45e5203c3f7f",
+  "input_sha256": "e16190327b6cbade5a89cf2dcee8e6ed81774858b757cc7793a9bfe970b8bed1",
+  "input_words": 220,
+  "before": 35481,
+  "after": 35261,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 237,
+      "sha256": "df0a620fb37f2505efddc1294cec2f66ef3f36bd8c619c9b0e809d8008e945fe",
+      "page_sha256": "df0a620fb37f2505efddc1294cec2f66ef3f36bd8c619c9b0e809d8008e945fe",
+      "has_list": false,
+      "last": "orm of belonging to someone else.\n\nUtilizing fractionation (moving in and out of absorption) without declaring that they're going to move in and out repeatedly."
+    },
+    {
+      "option": "B",
+      "words": 249,
+      "sha256": "35c4b55f5226b65bbfa85a8b080b365488c87f4899b2e7a46846958a2a424a4d",
+      "page_sha256": "35c4b55f5226b65bbfa85a8b080b365488c87f4899b2e7a46846958a2a424a4d",
+      "has_list": false,
+      "last": "h the guide, etc.\n\nUtilizing fractionation without letting you know that they’re going to bring you out of the absorbed state and put you back in multiple times"
+    }
+  ]
+}
