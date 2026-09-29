@@ -37,3 +37,5 @@ Pangram input preparation encountered a stale accessibility index; no input was 
 B01 baseline: AI Generated 100%; 190 words; Pangram 4.0; short-text confidence limit; Details segment Medium. Credits 2,165 -> 2,163 (2 charged). Stored-document Copy did not update the browser clipboard; input textbox was byte-exact before submit and result count was within 8%; no repeat submitted.
 
 B02 baseline: AI Generated 100%; 81 words; Details Low; credits 2163 -> 2162. PDF Download offered but remained Downloading and event timed out after 20 seconds; no paid scan repeated.
+
+B03 baseline reproduces 100% AI, 557 words; credits2162->2156. C1 baseline reproduces 100% Human,118 words, Details medium; credits2156->2154. Capture helper closure retained earlier metadata and briefly mislabelled C1 as B03; repaired from exact visible result and recovered B03 snapshots from published checkpoint. Change helper to explicit item/text arguments before another scan; no resubmission.

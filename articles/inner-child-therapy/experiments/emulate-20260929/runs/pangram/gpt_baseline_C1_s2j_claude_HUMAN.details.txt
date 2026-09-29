@@ -1,0 +1,116 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2154 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: You can protect your little one from yourself too, like by repairing after an internal attack. "What's an 'internal attack'?" Calling yourself an idiot for losing your keys again, for one. Your little one was listening, so you go back and apologize to them. If they're sarcastic about it, you let it go by instead of snapping back. They don't trust you yet, and you don't ask them to. They complain about something, they're right, and you say so. All of that shows as clearly to them as the clean room did. It's proof you love them, but they can still tell the difference between being put up with and being loved.
+  - generic: Human
+  - text: View Results
+- list
+- alert
+- iframe
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2154 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: You can protect your little
+  - button "Edit text":
+  - generic "Human":
+    - generic: Human
+  - generic: Sep 29, 2026 01:47 AM
+  - generic: 118 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: You can protect your little one from yourself too, like by repairing after an internal attack. "What's an 'internal attack'?" Calling yourself an idiot for losing your keys again, for one. Your little one was listening, so you go back and apologize to them. If they're sarcastic about it, you let it go by instead of snapping back. They don't trust you yet, and you don't ask them to. They complain about something, they're right, and you say so. All of that shows as clearly to them as the clean room did. It's proof you love them, but they can still tell the difference between being put up with and being loved.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "Human Written Confidence level 118 words You can protect your little one from yourself too, like by repairing after an internal attack. \"What's an 'internal attack'?\" Calling yourself an idiot for losing your keys again, for one. Your little one was listening, so you go back and apologize to them. If they're sarcastic about it, you let it go by instead of snapping back. They don't trust you yet, and you don't ask them to. They complain about something, they're right, and you say so. All of that shows as clearly to them as the clean room did. It's proof you love them, but they can still tell the difference between being put up with and being loved." [level=3]:
+      - button "Human Written Confidence level 118 words You can protect your little one from yourself too, like by repairing after an internal attack. \"What's an 'internal attack'?\" Calling yourself an idiot for losing your keys again, for one. Your little one was listening, so you go back and apologize to them. If they're sarcastic about it, you let it go by instead of snapping back. They don't trust you yet, and you don't ask them to. They complain about something, they're right, and you say so. All of that shows as clearly to them as the clean room did. It's proof you love them, but they can still tell the difference between being put up with and being loved.":
+        - generic: Human Written
+        - generic "Confidence level":
+          - text: medium
+        - generic: 118 words
+        - generic: You can protect your little one from yourself too, like by repairing after an internal attack. "What's an 'internal attack'?" Calling yourself an idiot for losing your keys again, for one. Your little one was listening, so you go back and apologize to them. If they're sarcastic about it, you let it go by instead of snapping back. They don't trust you yet, and you don't ask them to. They complain about something, they're right, and you say so. All of that shows as clearly to them as the clean room did. It's proof you love them, but they can still tell the difference between being put up with and being loved.
+    - region "Human Written Confidence level 118 words You can protect your little one from yourself too, like by repairing after an internal attack. \"What's an 'internal attack'?\" Calling yourself an idiot for losing your keys again, for one. Your little one was listening, so you go back and apologize to them. If they're sarcastic about it, you let it go by instead of snapping back. They don't trust you yet, and you don't ask them to. They complain about something, they're right, and you say so. All of that shows as clearly to them as the clean room did. It's proof you love them, but they can still tell the difference between being put up with and being loved.":
+      - text: Human
+      - text: Written
+      - generic: The segment is fully human-written.
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
