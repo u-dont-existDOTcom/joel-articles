@@ -102,6 +102,12 @@ Each Pangram call gets a prediction in its record before the call. This log scor
 | 2026-09-28 | Emulate baseline: my plain first draft of guide paragraph 3 (m3), alone | AI (my call, written before the check) | 100% AI (52 words) | hit |
 | 2026-09-28 | Emulate baseline: my plain first draft of guide paragraph 4 (m4), alone | AI (my call) | 100% AI (138 words) | hit |
 | 2026-09-28 | Emulate baseline: m3 + m4 together | AI (my call) | 100% AI (190 words) | hit |
+| 2026-09-29 | Emulate API test: B02_after_a option 1, alone | Human (my call, written before the check) | 100% Human (170 words) | hit |
+| 2026-09-29 | Emulate API test: B02_after_a option 2, alone | Human (my call, written before the check) | 100% Human (114) | hit |
+| 2026-09-29 | Emulate API test: B01_m34 option 1, alone | Human (my call, written before the check) | 100% Human (202) | hit |
+| 2026-09-29 | Emulate API test: B01_m34 option 2, alone | Human (my call, written before the check) | 100% Human (203) | hit |
+| 2026-09-29 | Emulate API test: B01_m34 option 1 after the section so far (headings, Joel's P1, s2j) | Human, low (my call, written before the check) | 100% Human (450) | hit |
+| 2026-09-29 | Emulate API test: B01_m34 option 2 after the section so far | Human, low (my call, written before the check) | Mostly Human, 8% AI (451): its first two sentences | hit (mostly) |
 
 After Joel's 22:12 lesson (my calls, all written before the checks): 12 of 21. Paragraph drafts 6 of 8. Headings and context 6 of 13: I didn't expect a heading to flip his paragraph, and after that I couldn't tell which headings would pass.
 

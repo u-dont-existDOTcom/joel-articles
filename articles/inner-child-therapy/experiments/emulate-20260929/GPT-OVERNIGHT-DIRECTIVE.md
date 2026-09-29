@@ -21,18 +21,32 @@
 - **Accounts.** Use Joel's Emulate and Pangram accounts only.
   - If either site asks you to sign in, stop and ask Joel to take over the browser and sign in.
   - Never create an account, type a password, buy anything, or change a plan or setting.
-- **Emulate's API first, the website as a fallback.** Joel has an Emulate API key.
-  - Read the key from the environment variable `EMULATE_API_KEY`. If Joel has to give it to you another way, keep it in memory only.
-  - Never print, log, save or commit the key, and never put it in a report.
-  - Use the API docs Joel points you to; they aren't public. Call the endpoint that does what the website's Humanize button does, with the same settings (Auto).
-  - Record each request's settings and the full response text in `emulate.jsonl`, without the key.
-  - Use the website for an input when the API is missing, fails twice in a row, or can't take that input, and note it.
-  - Probe D7 checks whether the API and the website give the same kind of output.
+- **Emulate's API first, the website as a fallback.** Docs: https://www.tryemulate.ai/docs/api. Claude tested it on 2026-09-29; see `runs/CLAUDE-API-TEST.md`.
+  - **The call:** `POST https://www.tryemulate.ai/v1/humanize`, with the header `Authorization: Bearer <key>` and the JSON body `{"text": "..."}`. Blank lines separate paragraphs.
+    - It needs at least 40 words and takes up to 3,000 on Joel's plan.
+    - The reply has `id`, `text`, `reads_human`, `words.charged` and `elapsed`. Calls took 5–9 seconds in the test.
+    - `GET /v1/me` gives `plan`, `words_left` and `max_words_per_call`.
+  - **One version per call, and every call is charged.** The website shows two options; the API has no Style settings.
+  - **The key.** Read it from `EMULATE_API_KEY`. If Joel gives it to you another way, keep it in memory only.
+    - Never print, log, save or commit it, and never put it in a report.
+    - On Joel's computer it's in `~/ai-work/claude-dangerous-lane/secrets/emulate.key`, outside the repo.
+  - **Records.** Save every call's `id`, full response text and `words.charged` in `emulate.jsonl`. Read `/v1/me` at the start and every 20 calls, and note it in `LEDGER.md`.
+  - **Errors:**
+    - `402 out_of_words`: stop.
+    - `413 over_cap`: split the input.
+    - `400 too_short`: under 40 words (see Chunks).
+    - `503 unavailable`: wait 30 seconds and retry once.
+    - `502 failed`: isn't charged; retry once.
+  - Use the website only if the API is down, and for probes D4 and D7.
 - **Budgets.** Track both in `LEDGER.md` as you go.
-  - **Emulate:** at most 50,000 words, and at most 3,000 words per submission, which is Emulate's own limit. It charges the words you paste.
-    - Split: learning sets A–D up to 7,000; articles up to 40,000; reruns up to 3,000.
-    - Joel allows up to 59,000 if the articles need it (2026-09-28, 23:54). Use the extra only for articles, Hearthwork included.
-    - If you still run out, stop that kind of work and list what's left in the morning note.
+  - **Emulate:** after Claude's test, Joel's plan has 58,017 words left (`GET /v1/me`), with a limit of 3,000 words per call. Every call is charged the words you send.
+    - Split:
+      - learning sets: up to 5,000;
+      - the articles' first pass: up to 38,600, and only flagged paragraphs are sent;
+      - second calls (see Choosing between two versions): up to 12,000;
+      - a reserve of at least 2,000.
+    - Hearthwork only if words are left after all that.
+    - If you run out, stop and list what's left in the morning note.
   - **Pangram:** 1 credit per 100 words. Joel says credits aren't a problem. Still, read the balance before you start, log what each check costs, and stop checking if the balance drops below 300.
 - **Emulate's output never replaces Joel's own writing.** Only two things of his go to Emulate: the control C2, and the odd sentence of his inside a set A "before" text. Their outputs are data only.
   - In the articles, a paragraph that already reads Human in the baseline check stays exactly as it is, whoever wrote it. So does any passage `ARTICLES.md` marks as Joel's, even if Pangram flags it. Those paragraphs still go into the Pangram checks of their section.
@@ -125,6 +139,7 @@ Go in this order, and stop at the budget:
 2. **Set C.** Both files.
 3. **Articles,** in the order `ARTICLES.md` gives.
    - **Chunks.** Send the flagged paragraphs of one h1 section per run, if that's under 2,800 words. Otherwise split at h2, then h3, then paragraph breaks. Group sections under 150 words with their neighbours in the same h1.
+     - The API needs at least 40 words. Send a shorter flagged run together with the paragraph next to it. Put back only the flagged paragraph's rewrite, and only if the output has the same number of paragraphs as the input; otherwise skip that run and note it.
    - **Headings.** Keep the headings in the paste as lines, so Emulate sees the structure. The assembled article uses the original headings; note any heading Emulate changed.
    - **Only flagged paragraphs.** If a section is only partly flagged, send each run of flagged paragraphs on its own, and put the results back between the paragraphs that stay.
    - **Links.** Probe D6 decides how to handle them. Send the first chunk that has links with its Markdown links left in.
@@ -138,10 +153,12 @@ Go in this order, and stop at the budget:
    - **D1 (is it stable?):** run B01, A01 and A02 a second time with the same settings.
    - **D2 (what does a second pass do?):** run two outputs that passed back through Emulate.
    - **D3 (what does it do with headings?):** run B05, which is B01 with its two headings on top.
-   - **D4 (what do the Style settings change?):** run B01 twice more, once set to second person and casual, once to first person. Record the exact settings.
+   - **D4 (what do the Style settings change?):** this one is website only, since the API has no settings. Run B01 twice more, once set to second person and casual, once to first person. Record the exact settings.
    - **D5 (does it write a paragraph differently inside a longer piece?):** compare the paragraphs in B03's output that cover B01's content with B01's own outputs.
    - **D6 (does it keep links?):** see Links, under Articles above.
-   - **D7 (do the API and the website match?):** if you can use both, run B01, A01 and A03 through each and compare. If they differ in kind, say so in the morning note. Keep using the API unless its outputs fail Pangram more often.
+   - **D7 (does the website match the API, and what does it charge?):** run B01, A01 and A03 on the website once each, reading `/v1/me` before and after each run.
+     - This shows whether the website's two options cost one charge or two. If they cost one, say so in the morning note, because that halves the price of getting two versions.
+     - Compare the website's options with the API's.
 
 ## Part 3. Check every output (Work)
 
@@ -154,8 +171,30 @@ For each Emulate output:
   - Check each section put back together, with its original headings and the paragraphs that stayed (`section`).
   - When an article is done, check it whole (`full_article`). If it's too long for one check, use chunks of whole sections that overlap by one section.
   - If a seam between two sections is flagged and the budget allows, run the flagged paragraphs on both sides of it through Emulate together once, and check again.
-  - If a section shows any AI, run Emulate once more on the original text, not on the failed output. Keep both runs, and never hand-fix.
+  - If a section shows any AI, follow Choosing between two versions, below. Never hand-fix.
 - **Linter:** run `tools/tells_lint.py` on every output and save the report beside it.
+
+## Choosing between two versions (Joel's rule, 2026-09-29)
+
+Each API call returns one version. For each chunk:
+
+1. **Call once.** Check the version alone, each of its paragraphs alone, and in its section, with the headings and the paragraphs that stay.
+2. **Call a second time,** with the same input, if the first version:
+   - fails the section check;
+   - changes a fact, dose, name or link;
+   - drops a point;
+   - or makes up something about Joel's life.
+
+   Now there are two versions.
+3. **Choose between them in this order:**
+   1. It passes in its section, not just alone. In Claude's test, a version that was 100% Human alone showed 8% AI after the section before it.
+   2. It keeps the facts: nothing changed, dropped or made up.
+   3. It's closer to what the original meant. Emulate sometimes fudges that.
+   4. It has fewer `tells_lint.py` hits per 100 words.
+   5. If they're still tied, your judgment. Write down why.
+4. **Don't call a third time.** If neither version is right, keep both, put the better one in the candidate article, and flag what's wrong in `QUALITY-<slug>.md`. Joel: it's still good learning data if it passes Pangram.
+
+Keep every version you get, including the ones you don't choose.
 
 ## Part 4. Mechanical experiments (Work)
 
@@ -174,6 +213,9 @@ This part tells us the most. Use a Python script so every splice is exact.
    - (c) add one sentence of your own.
 
    Check each edited version. This tells Joel whether Emulate's output can be corrected by hand, or by a model, without going back to AI.
+4. **Two versions of one input.** Take each chunk where one version passes in its section and the other doesn't, and both cover the same points in the same order.
+   - Swap the failing version's flagged sentence or sentences for the passing version's sentences on the same point, one swap at a time, and check each.
+   - Claude's test already has one such case: B01 version 2 was flagged only at its first two sentences in context (`runs/CLAUDE-API-TEST.md`).
 
 ## Part 5. Analysis (Pro)
 
