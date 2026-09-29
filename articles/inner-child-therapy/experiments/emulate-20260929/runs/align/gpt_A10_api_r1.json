@@ -1,0 +1,144 @@
+{
+  "source_sha256": "dbca97017c08307afd6f78aecbb13543cebda40143a67e0e6e1f5c19db719d57",
+  "output_sha256": "cd3a93962806c408ed3f8e7fb85f8e1cba1a52152992b201b7ae4b1026b691eb",
+  "source_sentence_count": 15,
+  "output_sentence_count": 8,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 205,
+      "output_start": 0,
+      "output_end": 215,
+      "source_text": "I developed this practical map from the rest of the method. Treat the complete sequence as a provisional synthesis: some components have direct research behind them, while the full arrangement is my own:\n\n",
+      "output_text": "NB I’ve developed this map more practically in the rest of the method, which is why I’m comfortable publishing this provisional synthesis (parts of which are directly research based, the whole of which is my own):\n\n",
+      "word_overlap": 0.4507042253521127,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 205,
+      "source_end": 293,
+      "output_start": 215,
+      "output_end": 270,
+      "source_text": "1. The child alone: orient to the present and establish enough outside safety to begin.\n",
+      "output_text": "i) child on her own – orientation and external safety\n\n",
+      "word_overlap": 0.25,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4,
+        5
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 293,
+      "source_end": 426,
+      "output_start": 270,
+      "output_end": 409,
+      "source_text": "2. The child with a borrowed adult: experience one reliable adult function through a real, remembered, imagined, or symbolic figure.\n",
+      "output_text": "ii) child with borrowed adult – experience of at least one good adult function, personified by a real/remembered/imagined/symbolic figure\n\n",
+      "word_overlap": 0.6829268292682927,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6,
+        7
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 426,
+      "source_end": 527,
+      "output_start": 409,
+      "output_end": 511,
+      "source_text": "3. The adult apprentice: care for the child together with support and do at least one part yourself.\n",
+      "output_text": "iii) adult as apprentice – with help, adult tries to do at least one part of looking after the child\n\n",
+      "word_overlap": 0.43243243243243246,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        8,
+        9
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 527,
+      "source_end": 645,
+      "output_start": 511,
+      "output_end": 682,
+      "source_text": "4. The inner adult: repeat warmth, protection, and direction until those capacities become familiar enough to summon.\n",
+      "output_text": "iv) adult in her own right – adult repeats as many times as necessary, to build up the capacity to summon it at will: offering the child warmth, protection and direction\n\n",
+      "word_overlap": 0.2127659574468085,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        10,
+        11
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 645,
+      "source_end": 786,
+      "output_start": 682,
+      "output_end": 809,
+      "source_text": "5. The adult and child in relationship: the adult leads without exiling the child, and the child no longer has to run the whole life alone.\n\n",
+      "output_text": "v) adult in relation to child – adult in charge but not banishing child, child no longer solely responsible for managing life\n\n",
+      "word_overlap": 0.3404255319148936,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        12,
+        13
+      ],
+      "output_sentences": [
+        6
+      ],
+      "source_start": 786,
+      "source_end": 866,
+      "output_start": 809,
+      "output_end": 901,
+      "source_text": "You don’t have to stop being the child. You become larger than the child-state. ",
+      "output_text": "The child doesn’t need to stop being a child – you just become bigger than the child-state. ",
+      "word_overlap": 0.6470588235294118,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        14
+      ],
+      "output_sentences": [
+        7
+      ],
+      "source_start": 866,
+      "source_end": 957,
+      "output_start": 901,
+      "output_end": 1012,
+      "source_text": "A useful sentence is: “I am still this child, and I am also becoming the adult who stays.”\n",
+      "output_text": "A useful saying to yourself might be: ‘I don’t need to stop being this child, but I am also becoming an adult…’",
+      "word_overlap": 0.4878048780487805,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
