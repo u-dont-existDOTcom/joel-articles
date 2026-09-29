@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0901-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/991fec48-5275-4600-ac60-0fe3b258a3dd",
+  "input_sha256": "704a280d29287a02cf63f04f57b6f6a1f67fd3c5c4a6495658dcbe50e79b4fde",
+  "input_words": 218,
+  "before": 39096,
+  "after": 38878,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 315,
+      "sha256": "f1ab7f7c4cd96c69f79a1b681147661679a1eb4cab40354f4f1825a2448fdd02",
+      "page_sha256": "f1ab7f7c4cd96c69f79a1b681147661679a1eb4cab40354f4f1825a2448fdd02",
+      "has_list": false,
+      "last": "\nThen, we always want to move back to the perspective of “all of this is part of one life” and to empower the adult self to lead that life from a place of love."
+    },
+    {
+      "option": "B",
+      "words": 305,
+      "sha256": "1de74d688d717a4494e07fc339d7031fe2bca23949a42247a24f624472499ab3",
+      "page_sha256": "1de74d688d717a4494e07fc339d7031fe2bca23949a42247a24f624472499ab3",
+      "has_list": false,
+      "last": " young for this?\n\nAnd then we always return to a sense of oneness – all of these parts are here to contribute to one life, ideally led by the loving adult self."
+    }
+  ]
+}

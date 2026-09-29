@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0901-s02m",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/6c180ddd-c189-4a51-abc0-3980698317e8",
+  "input_sha256": "f6a8e2483e510173a1ae0c833c055154d279247c1967be176300e89522454ed8",
+  "input_words": 234,
+  "before": 38878,
+  "after": 38644,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 265,
+      "sha256": "44734e75abcee6b822f999ac761ad6ba297005d85ce4cf2d05aec20aa5da60e1",
+      "page_sha256": "44734e75abcee6b822f999ac761ad6ba297005d85ce4cf2d05aec20aa5da60e1",
+      "has_list": false,
+      "last": " Is this divine guidance, or my interpretation of divine guidance?”\n\nBut start from your heart. Differentiate as needed. And then come back to your heart again."
+    },
+    {
+      "option": "B",
+      "words": 285,
+      "sha256": "5452b6746288838317ae32cbd71ebc59b12684e54b51b80a59138a043c9336a2",
+      "page_sha256": "5452b6746288838317ae32cbd71ebc59b12684e54b51b80a59138a043c9336a2",
+      "has_list": false,
+      "last": "” “Is this divine guidance, or my interpretation of divine guidance?”\n\nAlways begin from the heart, differentiate as needed, and then return to the heart again."
+    }
+  ]
+}

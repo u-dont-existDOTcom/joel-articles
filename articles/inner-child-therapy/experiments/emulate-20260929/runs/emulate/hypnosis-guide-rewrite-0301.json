@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0301",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/3bbca3da-7acf-407b-9734-e32947b800cd",
+  "input_sha256": "81ca3d9cd332be5a51fe4eca6469eb1a16a3c27f58aa7fe25edd377ce5656db8",
+  "input_words": 149,
+  "before": 39778,
+  "after": 39629,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 162,
+      "sha256": "d258a38f8e00cca25684292a4f7144a995cf2b84cc07a3a4b16cef165c5cae5e",
+      "page_sha256": "d258a38f8e00cca25684292a4f7144a995cf2b84cc07a3a4b16cef165c5cae5e",
+      "has_list": false,
+      "last": "you are learning to interact, embrace, and communicate with these deeper levels of your mind, from a place of adult choice.\n\nDouble click to interact with video"
+    },
+    {
+      "option": "B",
+      "words": 168,
+      "sha256": "890950cb581403da65f9535480bb5376c4ac679cb565db1e088c947270722547",
+      "page_sha256": "890950cb581403da65f9535480bb5376c4ac679cb565db1e088c947270722547",
+      "has_list": false,
+      "last": "a way to train the deeper parts of your mind, befriend them, learn to listen to them and help them make more adult choices.\n\nDouble click to interact with video"
+    }
+  ]
+}

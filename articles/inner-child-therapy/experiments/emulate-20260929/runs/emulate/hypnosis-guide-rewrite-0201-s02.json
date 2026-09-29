@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0201-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/66394a68-e0db-4b53-8f8e-54fbfc40c13c",
+  "input_sha256": "bd4680f9c4fec5d9e9df0a422f78661bee02696b5ec9a3097d0de92cecb99e36",
+  "input_words": 162,
+  "before": 39940,
+  "after": 39778,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 213,
+      "sha256": "4162427ddb3c11c3cbed87a91dde86048f7077941e836acd9563baea4ccd506a",
+      "page_sha256": "4162427ddb3c11c3cbed87a91dde86048f7077941e836acd9563baea4ccd506a",
+      "has_list": false,
+      "last": "t do whatever you can. There doesn’t have to be an image present instead! Remember, you can change things up as you go along if something isn’t working for you."
+    },
+    {
+      "option": "B",
+      "words": 197,
+      "sha256": "4a1a8bafe9ed62762327426e37a2fc6b1595d989af6ac8df110b243121045392",
+      "page_sha256": "4a1a8bafe9ed62762327426e37a2fc6b1595d989af6ac8df110b243121045392",
+      "has_list": false,
+      "last": "d, including when you are “talking” to the child or the protector. You do not have to see an image instead. Try the different options to see what works for you."
+    }
+  ]
+}

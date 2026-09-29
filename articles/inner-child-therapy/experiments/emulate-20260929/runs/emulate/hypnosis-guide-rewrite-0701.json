@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0701",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/166ea876-6fd7-4c91-b47e-5be8091eb00f",
+  "input_sha256": "247027b30c951b0e2433af630cfe40135561c0887b8a2547afb9726b151a6e8b",
+  "input_words": 190,
+  "before": 39445,
+  "after": 39255,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 237,
+      "sha256": "6bb191eb1f84b90e881a08cd851ac547268e233226e2e00ec4adb906ba751ddd",
+      "page_sha256": "6bb191eb1f84b90e881a08cd851ac547268e233226e2e00ec4adb906ba751ddd",
+      "has_list": false,
+      "last": "n, and testing without allowing for intuition leads to deadness. You get the idea.\n\nIf the state doesn’t transform you in some way, then it’s not that powerful."
+    },
+    {
+      "option": "B",
+      "words": 227,
+      "sha256": "eea85c79bda365ac419d8208bc535e488ffe1779511f1aac4fcb544b9510636d",
+      "page_sha256": "eea85c79bda365ac419d8208bc535e488ffe1779511f1aac4fcb544b9510636d",
+      "has_list": false,
+      "last": "he intuitive mind is delusion. Without the intuitive mind to inform it, the analytical mind is dead.\n\nIf it doesn’t change you for the better, it’s meaningless."
+    }
+  ]
+}

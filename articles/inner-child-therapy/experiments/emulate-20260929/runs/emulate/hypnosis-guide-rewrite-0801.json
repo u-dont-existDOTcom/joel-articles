@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0801",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/9a96bd17-e7f0-4a84-b4b8-128908b50454",
+  "input_sha256": "f28c6e410261586ba2f8c0e8fb31ebd8b24fc0604ad9016cd78b602cc8420771",
+  "input_words": 159,
+  "before": 39255,
+  "after": 39096,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 162,
+      "sha256": "748ff9922145da09cfadffa661c46fd60ce352e0d61005fc05cc981a559ea9f3",
+      "page_sha256": "748ff9922145da09cfadffa661c46fd60ce352e0d61005fc05cc981a559ea9f3",
+      "has_list": false,
+      "last": "ly to discern exactly what's going on. Of course, there are advantages to having someone else guide the process, but this is one advantage to doing it yourself."
+    },
+    {
+      "option": "B",
+      "words": 164,
+      "sha256": "b0a764096478eb41e284984fb65c9dbcaf6b3db6da84e8d9cdc1b0354c30f7b1",
+      "page_sha256": "b0a764096478eb41e284984fb65c9dbcaf6b3db6da84e8d9cdc1b0354c30f7b1",
+      "has_list": false,
+      "last": "s so that you don’t miss something that you aren’t aware of or so that you don’t do something incorrectly, but there are definite benefits to doing it yourself."
+    }
+  ]
+}

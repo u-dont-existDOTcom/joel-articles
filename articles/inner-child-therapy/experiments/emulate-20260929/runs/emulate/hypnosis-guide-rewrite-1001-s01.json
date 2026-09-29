@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/b2550ff2-8273-4354-8705-b9a261f18a87",
+  "input_sha256": "3df1f7160963f9b3fc52235b71cdeafda3f0fb84dd16f406292ee20557d34a81",
+  "input_words": 208,
+  "before": 38644,
+  "after": 38436,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 242,
+      "sha256": "b1bb1e3e8e6813ff99e0a20c4aa194bd21397d4525ea173ea684c112052279ed",
+      "page_sha256": "b1bb1e3e8e6813ff99e0a20c4aa194bd21397d4525ea173ea684c112052279ed",
+      "has_list": false,
+      "last": "earn to witness. If you can already differentiate the different inner ‘positions’ within you, and know who needs to be brought in, go straight to the next step."
+    },
+    {
+      "option": "B",
+      "words": 252,
+      "sha256": "41e5e979f4bcc250298a99fc626fcf6ac65a2eda1f42eb4dc3e7a955db6dfab8",
+      "page_sha256": "41e5e979f4bcc250298a99fc626fcf6ac65a2eda1f42eb4dc3e7a955db6dfab8",
+      "has_list": false,
+      "last": " hasn’t been tested, but its components (1-5) have.\n\nIf necessary, witness, but if you can distinguish the positions, go straight to ‘being’ the adult you need."
+    }
+  ]
+}

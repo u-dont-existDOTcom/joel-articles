@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0601",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/4e5795d4-d28e-4de7-8304-ab879f443724",
+  "input_sha256": "633524afbf44df2930cb8b6082a1c0f9322fac2d19ddf6bd217ed3d52fb59c73",
+  "input_words": 184,
+  "before": 39629,
+  "after": 39445,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 231,
+      "sha256": "8a89a2799925e903e7b812c03957060355ea497525585e4fbdc4db3d50fb56e3",
+      "page_sha256": "8a89a2799925e903e7b812c03957060355ea497525585e4fbdc4db3d50fb56e3",
+      "has_list": false,
+      "last": "NOT use self-hypnosis to force trauma memories, gain proof of trauma memories, suppress medical symptoms, destabilize, or replace the appropriate care you need."
+    },
+    {
+      "option": "B",
+      "words": 210,
+      "sha256": "8f407162a630a1c6210962782c2afa20b059743d7e46ca21cd3614ad168f4533",
+      "page_sha256": "8f407162a630a1c6210962782c2afa20b059743d7e46ca21cd3614ad168f4533",
+      "has_list": false,
+      "last": "force yourself to remember trauma, prove trauma happened, suppress medical symptoms, destabilize yourself, or not get appropriate treatment for your conditions."
+    }
+  ]
+}
