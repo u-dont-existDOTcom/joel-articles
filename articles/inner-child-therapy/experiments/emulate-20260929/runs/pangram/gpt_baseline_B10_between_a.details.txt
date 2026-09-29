@@ -68,7 +68,7 @@
 - button:
 - status
 - alert
-- dialog "Text Query" [active]:
+- dialog "Text Query":
   - heading "Text Query" [level=2]
   - button:
   - button:
@@ -93,35 +93,23 @@
     - generic: AI Highlight
   - generic: "Some of the protecting happens only between you and your little one: you promise them you'll close the laptop at six, they say \"Like last night?\" and you don't snap back or ask them to tell you they believe you this time. Not hitting back is one way of showing them love, but it doesn't take the place of loving them. They notice it, though, as much as they noticed the phone going into the other room."
   - tablist:
-    - tab "Overview" [selected]:
+    - tab "Overview":
       - text: Overview
-    - tab "Details":
+    - tab "Details" [active] [selected]:
       - text: Details
     - tab "Notes":
       - text: Notes
-  - tabpanel "Overview":
-    - generic: AI Generated
-    - generic: 80 words scanned
-    - generic: •
-    - generic: Short text
-    - 'generic "Detection model: Pangram 4.0"':
-      - generic: Pangram
-      - generic: "4.0"
-    - generic: We believe that this entire text is AI.
-    - generic: "100"
-    - generic: "%"
-    - generic: of this text is AI
-    - generic: Confidence limited — short text
-    - generic: •
-    - link "Learn more":
-      - /url: https://www.pangram.com/blog/why-does-pangram-have-a-minimum-word-count
-    - generic: Was this result helpful?
-    - button "Upvote result":
-    - button "Downvote result":
-    - button "Dismiss feedback":
-    - generic: Plagiarism Analysis
-    - generic: Check for Plagiarism
-    - generic: 1 credit / 100 words
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - 'heading "AI Confidence level 80 words Some of the protecting happens only between you and your little one: you promise them you''ll close the laptop at six, they say \"Like last night?\" and you don''t snap back or ask them to tell you they believe you this time. Not hitting back is one way of showing them love, but it doesn''t take the place of loving them. They notice it, though, as much as they noticed the phone going into the other room." [level=3]':
+      - 'button "AI Confidence level 80 words Some of the protecting happens only between you and your little one: you promise them you''ll close the laptop at six, they say \"Like last night?\" and you don''t snap back or ask them to tell you they believe you this time. Not hitting back is one way of showing them love, but it doesn''t take the place of loving them. They notice it, though, as much as they noticed the phone going into the other room."':
+        - generic: AI
+        - generic "Confidence level":
+          - text: low
+        - generic: 80 words
+        - generic: "Some of the protecting happens only between you and your little one: you promise them you'll close the laptop at six, they say \"Like last night?\" and you don't snap back or ask them to tell you they believe you this time. Not hitting back is one way of showing them love, but it doesn't take the place of loving them. They notice it, though, as much as they noticed the phone going into the other room."
   - tabpanel "Notes"
   - region "Notifications (F8)":
     - list

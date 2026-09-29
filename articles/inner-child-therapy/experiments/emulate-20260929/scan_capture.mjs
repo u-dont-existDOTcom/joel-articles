@@ -33,7 +33,7 @@ export async function finishScan(tab,root,pending){
  record.flagged_spans=await tab.playwright.evaluate(()=>Array.from(document.querySelectorAll('span')).filter(el=>getComputedStyle(el).backgroundColor==='rgba(255, 86, 48, 0.1)').map(el=>el.textContent));
  const state=await tab.getAXState({emit:false,disableDiffing:true});record.credits_after=Number(state.match(/text (\d+) left/)[1]);record.credits_cost=record.credits_before-record.credits_after;
  record.input_verification.result_words_within_8_percent=Math.abs(record.words_scanned-record.input_words)/record.input_words<=0.080001;
- await tab.click(index(state,/tab .*Details,/));await tab.getAXState({emit:false});const details=await tab.playwright.domSnapshot();
+ await tab.playwright.getByRole('tab',{name:'Details',exact:true}).click();const detailState=await tab.getAXState({emit:false,disableDiffing:true});if(!/tab \(selected[^\n]*Details/.test(detailState))return {error:'detail view unread; preserve result before any repeat'};const details=await tab.playwright.domSnapshot();
  record.segment_confidences=Array.from(details.matchAll(/generic "Confidence level":\n\s*- text: ([^\n]+)/g),m=>m[1]);
  record.pdf_status='omitted: native Save As interrupts owner; downloads disabled';
  await fs.writeFile(root+'/runs/pangram/'+record.check_id+'.overview.txt',overview);await fs.writeFile(root+'/runs/pangram/'+record.check_id+'.details.txt',details);
