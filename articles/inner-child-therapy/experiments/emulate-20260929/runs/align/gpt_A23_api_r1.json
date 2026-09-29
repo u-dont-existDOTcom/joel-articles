@@ -1,0 +1,59 @@
+{
+  "source_sha256": "dd4dd3a5594deeaac3296b6652b77b4ce733bf7d89bd3299d772331160b24219",
+  "output_sha256": "78e1b5bd1fd2b99567d3814e39b105ee61301b6fac81062bec815c2981e946cf",
+  "source_sentence_count": 4,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 71,
+      "output_start": 0,
+      "output_end": 99,
+      "source_text": "If you don't hear a little kid talking in your head, don't invent one. ",
+      "output_text": "NOTE: If you don’t hear a little kid talking, don’t make one up just because you think you should. ",
+      "word_overlap": 0.6486486486486487,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1,
+        2
+      ],
+      "source_start": 71,
+      "source_end": 264,
+      "output_start": 99,
+      "output_end": 276,
+      "source_text": "Actually, this is one place where the usual inner-child language can get confusing, because “ask” sounds as though you're supposed to ask a question and then wait for a second voice to answer. ",
+      "output_text": "I’m using language here that may lead you to think you have to ask a question and then wait to hear the answer from some little voice inside you. That may be how it is for you. ",
+      "word_overlap": 0.273972602739726,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 264,
+      "source_end": 326,
+      "output_start": 276,
+      "output_end": 300,
+      "source_text": "Maybe that's what happens for some people. It isn't required.\n",
+      "output_text": "But that’s not required.",
+      "word_overlap": 0.35294117647058826,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
