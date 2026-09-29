@@ -1,0 +1,13 @@
+{
+  "source_commit": "45caa139a94bc5919e26a7026dca05118acc2229",
+  "inputs": 53,
+  "first_emulate_outputs": 51,
+  "missing_emulate": [
+    "A22_before",
+    "A25_before"
+  ],
+  "outputs_with_cached_pangram": 2,
+  "manifest_sha256": "2ad087529e88633fdc8b9a7b60bb58d7e43bf708a3ed39e02b8d99b895668b18",
+  "E_holdout_accessed": false,
+  "scope": "evaluation only; never training data or filter labels"
+}
