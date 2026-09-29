@@ -1,0 +1,116 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2142 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: Most days the Protector's job is more ordinary than that, and it happens outside you, like opening the bank letter you've left face down on the counter all week. Sometimes it goes as far as ending a relationship that keeps making you less safe. Your little one comes to trust what the Protector does more than kind words on their own, which they've heard before from people who then did nothing.
+  - generic: Human
+  - text: View Results
+- list
+- alert
+- iframe
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2142 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: Most days the Protector's job
+  - button "Edit text":
+  - generic "Human":
+    - generic: Human
+  - generic: Sep 29, 2026 01:56 AM
+  - generic: 74 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: Most days the Protector's job is more ordinary than that, and it happens outside you, like opening the bank letter you've left face down on the counter all week. Sometimes it goes as far as ending a relationship that keeps making you less safe. Your little one comes to trust what the Protector does more than kind words on their own, which they've heard before from people who then did nothing.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "Human Written Confidence level 74 words Most days the Protector's job is more ordinary than that, and it happens outside you, like opening the bank letter you've left face down on the counter all week. Sometimes it goes as far as ending a relationship that keeps making you less safe. Your little one comes to trust what the Protector does more than kind words on their own, which they've heard before from people who then did nothing." [level=3]:
+      - button "Human Written Confidence level 74 words Most days the Protector's job is more ordinary than that, and it happens outside you, like opening the bank letter you've left face down on the counter all week. Sometimes it goes as far as ending a relationship that keeps making you less safe. Your little one comes to trust what the Protector does more than kind words on their own, which they've heard before from people who then did nothing.":
+        - generic: Human Written
+        - generic "Confidence level":
+          - text: low
+        - generic: 74 words
+        - generic: Most days the Protector's job is more ordinary than that, and it happens outside you, like opening the bank letter you've left face down on the counter all week. Sometimes it goes as far as ending a relationship that keeps making you less safe. Your little one comes to trust what the Protector does more than kind words on their own, which they've heard before from people who then did nothing.
+    - region "Human Written Confidence level 74 words Most days the Protector's job is more ordinary than that, and it happens outside you, like opening the bank letter you've left face down on the counter all week. Sometimes it goes as far as ending a relationship that keeps making you less safe. Your little one comes to trust what the Protector does more than kind words on their own, which they've heard before from people who then did nothing.":
+      - text: Human
+      - text: Written
+      - generic: The segment is fully human-written.
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
