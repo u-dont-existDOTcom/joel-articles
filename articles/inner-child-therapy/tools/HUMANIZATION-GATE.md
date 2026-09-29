@@ -44,6 +44,32 @@ S3. **Cold read.** A fresh subagent that hasn't seen the source, the drafts or t
   - It did catch the old three-jobs paragraph ("No job is described").
 S4. **Only then humanize.** After any humanizing edit, redo S2 for the changed sentences, and S3 if a referent or the order changed.
 S5. **Owner notes about sense.** When Joel says a paragraph doesn't make sense, the whole paragraph goes through S1 to S3. Fixing only the sentence he quoted isn't enough (E86).
+S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the reviewer instance should have is checking whether the sentence not only makes sense based on the guide but whether it goes beyond the guide in a way that needs support from the guide." He also said "An article is not just a bunch of individual paragraphs."
+  - **Run it** on every new paragraph and every candidate heading, before any Pangram check: `python3 tools/reviewer/reviewer.py grounding DRAFT TARGET OUT`, then a fresh Opus subagent.
+    - The target gives the guide passage, what comes next, and Joel's rulings on the material. His rulings override the guide's wording.
+    - The prompt carries the whole guide and the article up to the new text.
+  - **Every flag gets fixed, or answered in the record.** The cold read (S3) still runs: it checks what a newcomer can follow, and this checks what the text claims.
+  - **What it checks:**
+    - each claim rebuilt against the guide's version: who, relation, object, conditions, quantity, strength, evidence status, time;
+    - new material sorted into example, aside, instruction or claim, each checked differently;
+    - examples in the right job, even when the guide's own list mixes them;
+    - repeats of anything already in the article;
+    - claims that go beyond the guide without support;
+    - non sequiturs, and contradictions with the article's stances;
+    - whether the paragraph does one guide paragraph's job;
+    - the heading's promise;
+    - the kind of logic the passage runs on (argument, instruction, joke).
+  - **Sources:**
+    - UDA `patterns/whole-argument-reconstruction.md` (never broaden scope, quantifier, modality or conditions while paraphrasing);
+    - UDA's predicate-alignment requirement (don't swap a neighboring relation);
+    - Grice's maxims: Quality ("Don't say what you lack adequate evidence for"), Quantity, Manner (https://plato.stanford.edu/entries/implicature/);
+    - Linda Flower's reader-based prose (https://publicationsncte.org/content/journals/10.58680/ce197916016);
+    - the standard informal fallacies (https://plato.stanford.edu/entries/fallacies/).
+  - **Validation (`reviewer/grounding-validation/`):**
+    - Blind v1, on Joel's 2026-09-29 catches: it caught "proof you love them", "tends to come later" and the "Keep Your Word" heading. It missed the dropped "if they're right", and it missed the meal and the cancelled obligation twice, because it trusted the guide's own example list.
+    - v2 adds Joel's rulings as an input, the sentence-shape note, the guide-list note and the figurative-heading rule. On held-out text with planted errors it caught 5 of 5: a dropped safety condition, "can" turned into "will", a hug offered as a protecting act, a repeated example, and an off-topic h2.
+    - Controls: Joel's P3 came back clean, and his heading passed. The flags that recur on the current section (his self-love sentence, the moldy bread) are open questions for him, not errors.
+  - **Treat it like the other reviewers:** a strong lead, not a verdict. Recheck it whenever the prompt, the model or the route changes.
 
 0. **Owner edits and claims go in the ledger first (E85; Joel, 2026-09-27 21:18: "so how can we prevent that kind of error in future where you say you will write something and don't write it?").**
    - Every edit Joel gives goes into `OWNER-EDITS.json` in the same turn, as `pending`, before any drafting. The entry has his words, plus the strings the article must contain, must not contain, or must have in order once the edit is done.
@@ -121,7 +147,7 @@ S5. **Owner notes about sense.** When Joel says a paragraph doesn't make sense, 
 8. **Pangram (E27, E37; SKILL.md owner-delivery admission).**
    - Check every paragraph I wrote on its own, and then the whole section. A section can pass while one of its paragraphs is AI, which is the cheating the per-paragraph rule exists to stop (Joel, 2026-09-26).
    - The reverse happens too. On Borrow round 11 every paragraph passed alone, P6 and P7 failed together at 100% AI, and the section failed at the close. So the whole-section check stays. When it fails, a good first try is the sentence where Pangram's flagged span starts, plus any REVIEW-level coach phrase inside the span (E62). It's a heuristic: the span moves with changes elsewhere, so if that doesn't clear it, look at what comes before the span. Choose the spot from Pangram's result, not from a theory.
-   - Check the section with its headings exactly as they'll appear, the h1 and h2 together where they stack. A heading can flip a borderline paragraph. On 2026-09-28 Joel's first Make the Protector Visible paragraph was 100% Human alone and 100% AI with only its h2 above it, and five of six h2 wordings failed over both paragraphs. A heading swap that passes is probably window luck; fix the flagged span if it's mine, and take it to Joel if it's his.
+   - Check the section with its headings exactly as they'll appear, the h1 and h2 together where they stack. A heading can flip a borderline paragraph. On 2026-09-28 Joel's first Make the Protector Visible paragraph was 100% Human alone and 100% AI with only its h2 above it, and five of six h2 wordings failed over both paragraphs. A heading swap that passes is probably window luck; fix the flagged span if it's mine, and take it to Joel if it's his. **Headings (Joel, 2026-09-29):** never pick a heading by its Pangram result. A heading says what the section does, in the guide's terms. Candidate headings go through the grounding review (S6) before any Pangram check. If the guide's heading fails, fix the flagged span, or take it to Joel with the span. Don't shop for headings. "Keep Your Word" was installed on 2026-09-28 as the only one of six h2s that passed. Joel: "I don't see anything about keeping your word here... This is about making the protector visible, not keeping your word."
    - Run the checks side by side in separate browser tabs.
    - No limit on checks per turn (Joel, 2026-09-26 16:57: "you don't need a 3 check rule per turn, but just don't use your checks blindly wasting time and tokens. i have plenty of credit on pangram that's not the problem"). Every check tests a recorded draft with a reason behind it. Never send rewordings to see what sticks, and never recheck unchanged text.
    - Read results from the page text.

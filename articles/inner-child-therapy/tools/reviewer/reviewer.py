@@ -19,6 +19,7 @@ Usage:
   reviewer.py writer DRAFT TICKETS TARGET OUT
   reviewer.py draft TARGET OUT              a first draft from the brief (writer_draft.txt)
   reviewer.py sense DRAFT TARGET OUT
+  reviewer.py grounding DRAFT TARGET OUT [--blind]   guide-grounding and logic review (grounding.txt)
   reviewer.py human-test OUTDIR          the human-prose test (needs local/human_items.json)
   reviewer.py score KEYS.json ANSWERS.txt [ANSWERS.txt ...]
 
@@ -293,6 +294,55 @@ def score(keyfile, answerfiles):
         sum(pred.get(p, ('',))[0] == 'HUMAN' for p in hu), len(hu)))
 
 
+# --- Guide-grounding and logic review (Joel, 2026-09-29 19:14: "One role the reviewer instance should have is
+# checking whether the sentence not only makes sense based on the guide but whether it goes beyond the guide in a
+# way that needs support from the guide." Logic rules from UDA patterns/whole-argument-reconstruction.md and
+# docs/requirements/2026-09-13-predicate-alignment-before-correction.owner-requirement.md.) ---
+
+GUIDE_HTML = HERE.parent.parent / 'master.html'
+ARTICLE_MD = HERE.parent.parent / 'HUMANIZED-ARTICLE-SO-FAR.md'
+
+
+def guide_text():
+    import html as _html
+    s = GUIDE_HTML.read_text(encoding='utf-8')
+    s = re.sub(r'<(script|style)[^>]*>.*?</\1>', '', s, flags=re.S)
+    s = re.sub(r'<br\s*/?>', '\n', s)
+    s = re.sub(r'</(p|h[1-6]|li|blockquote|div)>', '\n\n', s)
+    s = _html.unescape(re.sub(r'<[^>]+>', '', s))
+    return re.sub(r'\n\s*\n+', '\n\n', s).strip()
+
+
+def article_text():
+    """The article as a reader sees it: no comments, no working-notes header."""
+    s = re.sub(r'<!--.*?-->', '', ARTICLE_MD.read_text(encoding='utf-8'), flags=re.S)
+    paras = [x for x in re.split(r'\n\s*\n', s) if x.strip()]
+    paras = [x for x in paras if not x.lstrip().startswith('> **Working review')
+             and not x.startswith('# Inner Child Therapy — humanized article so far')]
+    return '\n\n'.join(p.strip() for p in paras)
+
+
+def build_grounding(draft, target, blind=False):
+    t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
+    g = read('grounding.txt')
+    if blind:  # validation: leave out the worked examples, which quote the errors being tested
+        a, b = g.index('Why this review exists.'), g.index('THE STEPS')
+        g = g[:a] + g[b:]
+    art = t.get('article_upto')
+    if art is None:
+        full, tail = article_text(), re.sub(r'\s+', ' ', t['before'].strip())[-80:]
+        flat = re.sub(r'\s+', ' ', full)
+        k = flat.rfind(tail)
+        if k < 0:
+            sys.exit("the target's 'before' isn't in the article; give 'article_upto' in the target")
+        art = flat[:k + len(tail)]
+    d = numbered(re.sub(r'^#+\s*', '', draft, flags=re.M)).replace('(heading) ', '[H] ')
+    for k, v in (('{guide}', guide_text()), ('{article}', art), ('{guide_passage}', t['guide_passage']),
+                 ('{next}', t.get('next', '(not given)')), ('{rulings}', t.get('rulings') or '(none)'), ('{draft}', d)):
+        g = g.replace(k, v)
+    return g
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest='cmd', required=True)
@@ -303,6 +353,8 @@ def main():
     s = sub.add_parser('writer'); s.add_argument('draft'); s.add_argument('tickets'); s.add_argument('target'); s.add_argument('out')
     s = sub.add_parser('sense'); s.add_argument('draft'); s.add_argument('target'); s.add_argument('out')
     s = sub.add_parser('draft'); s.add_argument('target'); s.add_argument('out')
+    s = sub.add_parser('grounding'); s.add_argument('draft'); s.add_argument('target'); s.add_argument('out')
+    s.add_argument('--blind', action='store_true', help='leave out the worked examples (for validation)')
     s = sub.add_parser('human-test'); s.add_argument('outdir')
     s = sub.add_parser('score'); s.add_argument('key'); s.add_argument('answers', nargs='+')
     a = ap.parse_args()
@@ -321,6 +373,8 @@ def main():
         write(a.out, build_draft(a.target))
     elif a.cmd == 'sense':
         write(a.out, build_sense(rd(a.draft), a.target))
+    elif a.cmd == 'grounding':
+        write(a.out, build_grounding(rd(a.draft), a.target, a.blind))
     elif a.cmd == 'human-test':
         build_human_test(a.outdir)
     elif a.cmd == 'score':

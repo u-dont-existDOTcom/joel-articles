@@ -157,3 +157,26 @@ I wrote three versions of the guide's first "Make the Protector Visible" paragra
 - no summing-up antithesis.
 
 All three were 100% AI (111, 97 and 100 words). Knowing the moves isn't enough yet. My sentences still carry the signal the moves are supposed to remove. That's the gap the minimal-fix lessons are for (`experiments/MAKE-THE-PROTECTOR-VISIBLE-20260928.md`).
+
+## Joel's fixes, 2026-09-29 19:14 UTC
+
+**The h2.** "Keep Your Word how did you come up with that for the heading? I don't see anything about keeping your word here… This is about making the protector visible, not keeping your word." He changed it to "Not Every Hero Wears A Cape". Claude had picked "Keep Your Word" only because it was the one of six that passed Pangram (see the gate, "Headings").
+
+**P1 under the new h2.** "on this version after title change, last sentence was ai (yes, and it does sound like it)". His fix, "also more in line with the guide":
+- "So set one boundary." became "Set one boundary.";
+- he added "The only reason you're in it anyway is because of a lack of self-love, and you can build that now." between "…which is not a small thing at all, I know." and the last sentence.
+
+The flagged last sentence stayed word for word. What cleared it was a new sentence in front of it that reasons about the reader instead of listing another act. (Pangram, Claude's checks: the section is 100% Human, 387 words.)
+
+**P2, his logic corrections.**
+- "You said 'they're right' not 'if they're right' which lost the meaning." A condition dropped by sentence shape: "They complain about something, they're right, and you say so."
+- "it's not 'proof you love them' it's evidence you're safe and accepting of them. The original guide said it's 'evidence of love' -- that's true (evidence is not proof). Although I'd be more clear about exactly what it's really evidence of. Love requires that much, but that's not love."
+- "With a little bit of logic you should have figured that out so there's a lack of logic going on in the sentence reviewer i guess." That led to the grounding reviewer (`reviewer/grounding.txt`).
+
+**P3, his version** (Human/medium on his check). He kept wA2's first two sentences and cut the rest: the meal, the cancelled obligation, "Take one act from all this…", the rehearsal and the last sentence. Then he added: "But yeah, bonding starts somewhere. And this is not to say you've never done anything to care for yourself. If not, you'd be dead right now. But we're making additional acts of care intentional now as a base for love to grow."
+- His reasons: "line it up better with the guide", and "you were conflating protection from nurturing (giving a meal is nurturing, throwing away moldy food is protection, and we already have that in P1). So I threw away the duplicated examples of protection, and you should have seen to do that also."
+- What it teaches:
+  - one guide paragraph per paragraph (the merge was wrong);
+  - check every example against the job it's offered for, even when the guide's own list supplies it (the guide files eating under the Protector twice);
+  - cut examples that repeat earlier ones instead of rewording them;
+  - end on a plain statement of what the acts are for ("a base for love to grow"), not on a technique.

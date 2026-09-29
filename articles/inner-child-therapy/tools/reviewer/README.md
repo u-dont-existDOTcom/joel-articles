@@ -11,6 +11,12 @@ This is the method from 2026-09-28. The reviewer's validation is in `../REVIEWER
 - `writer_draft.txt`: a first draft from the brief, for a paragraph that has no draft yet. It carries what Pangram has shown about shape, as observations, not a checklist or sentence jobs. `reviewer.py draft` also adds Joel's own before/after fixes from `../JOEL-FIXES-CATALOGUE-20260928.md`, word for word.
 - `owner_bans.txt`: Joel's standing bans and cautions (2026-09-28). They're copied into the writer, ticket and draft prompts.
 - `sense.txt`: the cold reader's instructions. Sense only, one line per sentence.
+- `grounding.txt`: the guide-grounding and logic reviewer (2026-09-29).
+  - It reads the whole guide and the article up to the new text, plus Joel's rulings.
+  - It rebuilds each claim against the guide, checks examples, repeats, support, logic and headings, and gives one line per sentence.
+  - Build a prompt with `reviewer.py grounding DRAFT TARGET OUT`. The target needs `guide_passage`, and can have `next`, `rulings` and `article_upto`.
+  - `--blind` leaves out the worked examples, for validation.
+  - Its validation cases are in `grounding-validation/`.
 - `targets/*.json`: for each paragraph being worked on, the paragraph before, the paragraph after, and the meaning to keep. Write the meaning as bare points; writers reuse the brief's wording.
 - `human_items.manifest.json`: the human-prose test set, with sources and hashes. The texts go in `local/human_items.json`, which is kept out of git.
 - `reviewer.py`: builds every prompt. Run `python3 reviewer.py -h`.
@@ -19,7 +25,7 @@ This is the method from 2026-09-28. The reviewer's validation is in `../REVIEWER
 
 The reviewer is the slow step: 5 to 15 minutes a run. Writers, cold readers and Pangram each take 1 to 5 minutes. So the slow step runs only when a fast one fails:
 1. Three fresh writers draft in parallel (`reviewer.py draft`). With an existing draft, skip this.
-2. Run a cold sense read on each draft, in parallel.
+2. Run a cold sense read and a grounding review (`reviewer.py grounding`) on each draft, in parallel. The grounding review takes 5 to 10 minutes.
 3. Pangram each draft that passes sense: alone if it's 50 words or more, then in the section.
 4. Only if nothing passes, send the best draft to the reviewer for tickets, then the writer, then steps 2–3 again.
 

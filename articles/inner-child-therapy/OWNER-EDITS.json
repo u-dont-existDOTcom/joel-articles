@@ -316,6 +316,59 @@
     "or your DUIs in Maryland",
     "Throw the moldy bread in the trash."
    ]
+  },
+  {
+   "id": "mpv-h2-hero",
+   "status": "applied",
+   "what": "The h2 over the Make the Protector Visible section is Joel's \"Not Every Hero Wears A Cape\", replacing \"Keep Your Word\".",
+   "joel": "2026-09-29 19:14 UTC: \"Keep Your Word how did you come up with that for the heading? I don't see anything about keeping your word here... This is about making the protector visible, not keeping your word. I changed the title\"",
+   "must_contain": [
+    "Not Every Hero Wears A Cape"
+   ],
+   "must_not_contain": [
+    "Keep Your Word"
+   ]
+  },
+  {
+   "id": "mpv-p1-self-love",
+   "status": "applied",
+   "what": "P1 under the new h2: no \"So\" at the start, and Joel's added sentence after the relationship line.",
+   "joel": "2026-09-29 19:14 UTC: \"on this version after title change, last sentence was ai (yes, and it does sound like it) ... so i fixed it and it is also more in line with the guide\"",
+   "must_contain": [
+    "Set one boundary. \"What's a 'boundary'?\", I might be asking.",
+    "which is not a small thing at all, I know. The only reason you're in it anyway is because of a lack of self-love, and you can build that now. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you."
+   ],
+   "must_not_contain": [
+    "So set one boundary."
+   ]
+  },
+  {
+   "id": "mpv-p3-joel",
+   "status": "applied",
+   "what": "P3 is Joel's version: the first two sentences of Claude's wA2 plus his four; the meal (nurturing, not protection) and the duplicated protection examples are gone, and the make-it-specific material is left for the next paragraph.",
+   "joel": "2026-09-29 19:14 UTC: \"On P3 there were some changes that needed to be made also line it up better with the guide. Also you were conflating protection from nurturing (giving a meal is nurturing, throwing away moldy food is protection, and we already have that in P1). So I threw away the duplicated examples of protection, and you should have seen to do that also. P3 now passes as hum med conf\"",
+   "must_contain": [
+    "Plenty of people are still at the putting-up-with part.",
+    "But yeah, bonding starts somewhere. And this is not to say you've never done anything to care for yourself. If not, you'd be dead right now. But we're making additional acts of care intentional now as a base for love to grow."
+   ],
+   "must_not_contain": [
+    "The first care you give them",
+    "Take one act from all this"
+   ]
+  },
+  {
+   "id": "mpv-p2-logic",
+   "status": "applied",
+   "what": "P2's two logic errors fixed: the complaint line keeps the guide's condition (\"if they're right\"), and the last line says what it's evidence of (you're safe and accepting of them, which love needs) instead of calling it proof of love.",
+   "joel": "2026-09-29 19:14 UTC: \"You said 'they're right' not 'if they're right' which lost the meaning. And it's not 'proof you love them' it's evidence you're safe and accepting of them. The original guide said it's 'evidence of love' -- that's true (evidence is not proof). Although I'd be more clear about exactly what it's really evidence of. Love requires that much, but that's not love.\"",
+   "must_contain": [
+    "and if they're right, you say so.",
+    "It's evidence you're safe to be around and that you accept them. Love needs both, but without warmth they can still feel like they're only being put up with."
+   ],
+   "must_not_contain": [
+    "It's proof you love them",
+    "They complain about something, they're right"
+   ]
   }
  ]
 }

@@ -13,20 +13,26 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
   - `JOEL-FIXES-CATALOGUE-20260928.md`: every one of Joel's fixes;
   - `PREDICTIONS.md`: every Pangram check, with the call made before it;
   - `tells_lint.py`: the linter;
-  - `reviewer/`: the reviewer prompts;
+  - `reviewer/`: the reviewer prompts, including `grounding.txt` (guide-grounding and logic review, 2026-09-29);
   - `calibration/`: texts with known Pangram results.
-- **The current section's record:** `experiments/MAKE-THE-PROTECTOR-VISIBLE-20260928.md`, with lessons P1–P7.
+- **The current section's record:** `experiments/MAKE-THE-PROTECTOR-VISIBLE-20260928.md`, with lessons P1–P14.
 
 ## Where the work stands
 
-The section is under `# Building Trust With Your Little One`, with the h2 `## Keep Your Word`. The h2 is a candidate that replaced the guide's "Make the Protector Visible", because every other heading tried flipped the section to AI.
-- **P1 is Joel's paragraph** (his "What's a 'boundary'?" fix). Keep it exact.
-- **P2 is Claude's s2j** ("You can protect your little one from yourself too…"). It passes alone, joined to P1, under both headings, and with the paragraph before the headings.
-- **Next are guide paragraphs 3 and 4:** "the Protector can go first", then "make one act specific", "rehearse" and "afterward, look at what happened".
+*Updated 2026-09-29, turn 3 (19:14 UTC onward).*
+
+The section is under `# Building Trust With Your Little One`. Its h2 is Joel's `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked on 2026-09-28 only because it was the one h2 of six that passed Pangram, and it didn't fit. Joel: "This is about making the protector visible, not keeping your word". Never pick a heading by its Pangram result (`tools/HUMANIZATION-GATE.md`, "Headings").
+- **P1 is Joel's paragraph:** his "What's a 'boundary'?" fix, with "So" removed and his self-love sentence added. Keep it exact.
+- **P2 is Claude's** ("You can protect your little one from yourself too…"). It carries Joel's two logic corrections, "if they're right" and evidence of safety and acceptance in place of proof of love. It also carries three fixes from the grounding reviewer.
+- **P3 is Joel's** ("Plenty of people are still at the putting-up-with part…").
+- The section passes Pangram, 100% Human (387 words).
+- **Next is guide paragraph 4, whole:** "make one act specific", "rehearse" and "afterward, look at what actually happened".
   - The 2 a.m. paragraph is out for now.
-  - Emulate's versions of Claude's draft of P3–P4 are in `experiments/emulate-20260929/runs/CLAUDE-API-TEST.md`. One of them passed in context but muddles the meaning.
+  - Run the grounding reviewer on every draft (`tools/reviewer/reviewer.py grounding`), with Joel's rulings in the target.
 - **After this section:** "Love Doesn't Have to Wait for Trust", then "Make a Simple Vow". Both are under the same h1.
-- **Open question for Joel:** whether "Keep Your Word" stays, since it overlaps with "Make a Simple Vow". He could also give a minimal fix for the last two sentences of his P1, which is the span every failing heading flagged.
+- **Open questions for Joel:**
+  - his self-love sentence ("The only reason…");
+  - the moldy bread, which repeats the Borrow section's old food.
 
 ## How to check on Pangram
 
@@ -58,3 +64,4 @@ Stay inside `/home/joel/ai-work/claude-dangerous-lane` on the laptop.
 - Banned: "doesn't get to decide", "Fine," / "Good," / "Great," as a clause of their own, and wry humor. Don't overuse made-up scenes.
 - Read the clock only at the start and end of a turn, and report both times.
 - Learn from Joel's minimal fixes, and ask him for one when stuck, showing the flagged span.
+- A paragraph has to hold up against the guide and the article as a whole, not only on its own: no dropped conditions, no evidence turned into proof, no "can" turned into "will", examples in the right job, and no repeats of earlier examples (Joel, 2026-09-29).

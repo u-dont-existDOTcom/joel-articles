@@ -115,3 +115,43 @@ Reviewers ran without `local/human_items.json` (the blog, somatic and romance ex
 - P11. Both reviewers called w5b AI 80 without being told the Pangram result, and my own calls went 1 of 2 this turn.
 
 **Tools:** `reviewer.py draft` now takes an optional `length` in the target, for merged paragraphs.
+
+## Joel's fixes and the grounding reviewer (2026-09-29, turn 3, from 19:17 UTC)
+
+**Joel's edits, installed:**
+- the h2 "Not Every Hero Wears A Cape";
+- P1 without "So", plus his self-love sentence;
+- P3, his version.
+
+His P3 undoes my merge. It carries guide paragraph 3 only, so guide paragraph 4 is next, whole. All three edits are in `OWNER-EDITS.json` (mpv-h2-hero, mpv-p1-self-love, mpv-p3-joel), applied.
+
+**P2, after his two logic corrections and three more of mine:**
+
+| version | change | Pangram alone | section (h1, h2, P1, P2, P3) |
+|---|---|---|---|
+| Joel's fixes | "and if they're right, you say so"; "It's evidence you're safe to be around and that you accept them, which love needs, but they can still tell…" | 100% Human (130) | 100% Human (387) |
+| + "can show" | the guide's "can be as visible" (the reviewer flagged the flat "shows" in 4 of 4 runs) | 100% Human (131) | 100% Human (388) |
+| p2b | a callback ("Oh, so NOW you care?") and "without warmth they can still feel like they're only being put up with" | 100% Human (136) | not run |
+| p2c, installed | no callback; "you hear it out instead of snapping back"; "can be as visible to them as the clean room was"; "It's evidence you're safe to be around and that you accept them. Love needs both, but without warmth…" | 100% Human (130) | 100% Human (387) |
+
+**The grounding reviewer** (`tools/reviewer/grounding.txt`, `reviewer.py grounding`). Its validation is in `tools/reviewer/grounding-validation/RESULTS-20260929.md`:
+- Blind, on Joel's catches, it found 4 of 7. It missed the dropped "if", the meal and the cancelled obligation.
+- On planted errors in unseen text, with his rulings as an input, it found 5 of 5.
+
+**Lessons**
+
+- P12. A heading chosen by Pangram result is a heading chosen by luck. "Keep Your Word" passed and meant nothing for this section. The gate now says never to pick a heading that way, and to run candidate headings through the grounding review first.
+- P13. My sentences failed on logic that a line-by-line sense read can't see:
+  - a condition dropped by sentence shape ("they're right");
+  - evidence turned into proof;
+  - "can" turned into a flat "shows";
+  - a word ("accept") that slid into its opposite ("put up with") within one sentence;
+  - a Nurturer act (the meal) listed as the Protector's;
+  - an example (cancelling) that repeated one already in the article.
+
+  Each of these needs the guide and the article in view. That's what the grounding reviewer reads.
+- P14. Merging guide paragraphs to get past the detector was the wrong move. Joel lined P3 back up with guide paragraph 3 and cut everything else, and it passed. One guide paragraph per paragraph, with examples only where they add something the article doesn't already have.
+
+**Open for Joel:**
+- his self-love sentence, which the reviewer flagged in 4 of 4 runs as a single cause the guide doesn't give (and the guide's next step says "don't decide which without looking");
+- the moldy bread, which repeats Borrow One Competency's "smelling that old food… and then trashing it" (5 of 5 runs).
