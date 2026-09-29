@@ -320,7 +320,7 @@
     "text_sha256": "1f11cdeeb1ee35a897279700f75a681b80f964f4a4ef2f2be46c95de72ea5eac",
     "variant": "output",
     "words": 188,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_A11_api_r1"
   },
   {
@@ -329,7 +329,7 @@
     "text_sha256": "caa6172182e231121fb0137dd9e334d9f991e414d6c739d02c1123dae3d304ba",
     "variant": "output_paragraph",
     "words": 114,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_A11_api_r1",
     "output_start": 0,
     "output_end": 619
