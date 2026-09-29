@@ -4775,6 +4775,12 @@
           "sha256": "2464bb765b7bf28dad46233dd41697664f58429ddbf7bd6605c85ed2bf408dc9",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/scan_capture.mjs",
+          "sha256": "8ade40c965a228c961df2676a80096984666f1fb20c6dcb8565a0e28e81fa19a",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
         }
       ]
     }
