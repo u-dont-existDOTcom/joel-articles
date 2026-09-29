@@ -1,4 +1,4 @@
-Source: `handoff/claude-dangerous-adult-20260924-1631` commit `236e3a3891fe1970ecee95993bacd431cc3015c7`, directive blob `a754c6805b12936d68d4c6e93bbb87b9e3d01b2e`. Exact operative section follows.
+Source: `handoff/claude-dangerous-adult-20260924-1631` commit `2f00b08f350be837995b1f6143e124b667b69e46`, directive blob `60884d9493dbb05d850ee0eea4d0cfc78796c629`. Exact operative section follows.
 
 ## Regeneration, version 3 (2026-09-29, 17:20 UTC)
 
@@ -70,3 +70,28 @@ If both methods miss, stop and report. Don't run full generation.
 - the guard's longest-run median and maximum for notes and drafts, and the exempt share;
 - the judge's rejection reasons, the Pangram labels, time and cost;
 - five accepted triples of passage, notes and draft, for Claude to read later. Don't wait for that reading.
+
+### Trial throughput (2026-09-29, 17:40 UTC)
+
+At batch size 8, the first 8 trial passages took 704 seconds of generation and judging before retries: notes 178, drafts 137, and the two judge directions 192 and 197. At that rate the trial can't fit 1.5 hours, so:
+- **Keep the first 8 results as they are,** including their retries. Don't rerun any of them.
+- **Run the remaining 32 in larger batches,** as large as memory allows, with the same model, prompts, seed, guard and judge. Batch size changes which sample each passage draws, not the method, so it doesn't bias the trial. Record the batch size for every request.
+- **Time caps, in billed GPU time from the first version 3 trial request, including model loading:**
+  - Chinese-notes trial: 1.5 hours.
+  - Fallback, only if needed: at most 1 more hour.
+  - Total: at most 2.5 hours, about $1.40 at $0.549 an hour.
+  - The extra hour costs less than a dollar, and an unfinished trial would waste what's already been spent.
+- **Stop a method's trial early** once any go threshold can no longer be met, counting only final outcomes after the retry. If it's the Chinese-notes method, move straight to the fallback.
+- **If a method's time runs out before all 40 have final outcomes,** report it incomplete. Don't judge the thresholds on a subset, and don't lower them.
+- Nothing else changes: the 40 passages, the thresholds, the Pangram diagnostic and its 30-credit cap.
+
+### Interrupted calls (2026-09-29, 17:45 UTC)
+
+When a call was reserved but no output from it was ever recorded or seen, it's censored, not an attempt. This covers the 8 first-attempt notes calls cut off when the batch-8 process stopped for the move to larger batches.
+- **Preserve** an immutable copy of the interrupted request journal, with its hash, before changing anything.
+- **Mark** each of those 8 reservations as censored, with no observed output and the reason. Don't delete them.
+- **Before calling them censored,** check the process logs and any stdout capture for output from those calls. If any text from a call was seen, that call counts as the passage's first attempt and its output is used, so there's no choosing between samples.
+- **Issue one new first-attempt call** for each affected passage in the larger batch. The passage still gets one completed first attempt and at most one retry.
+- **The same rule applies to any later interruption,** at any stage: notes, draft or judge. A censored judge call is simply reissued; it isn't a new attempt at the pair.
+- The GPU time the interrupted process used still counts toward the trial's time cap.
+- **Report** the censored calls, their passages and their reservation IDs in `REGEN-V3-TRIAL.md`.

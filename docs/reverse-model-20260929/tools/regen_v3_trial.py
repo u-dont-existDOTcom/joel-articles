@@ -73,7 +73,7 @@ def run(args):
     if args.method == 'slots':
         assert args.primary_summary and args.primary_summary.is_file(), 'Fallback needs completed primary evidence'
         primary = json.loads(args.primary_summary.read_text())
-        assert primary['status'] == 'COMPLETE' and not primary['thresholds_met'], 'Fallback only after a measured primary miss'
+        assert primary['status'] in {'COMPLETE', 'EARLY_STOP_THRESHOLD_IMPOSSIBLE'} and not primary['thresholds_met'], 'Fallback only after a measured primary miss'
     else:
         assert args.method == 'chinese'
     requests = args.output / 'model-requests.jsonl'
@@ -90,6 +90,7 @@ def run(args):
                 'prompt_notes': NOTES_PROMPT if args.method == 'chinese' else SLOTS_PROMPT,
                 'prompt_draft_suffix': DRAFT_SUFFIX, 'requests': REQUESTS,
                 'judge': JUDGE_V3, 'max_gpu_seconds': args.max_seconds,
+                'global_deadline_unix': args.global_deadline_unix,
                 'fresh_context': 'Every call contains one user message; draft contains FORM and NOTES only.'}
     (args.output / 'trial-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
     torch.manual_seed(SEED)
@@ -142,6 +143,7 @@ def run(args):
                    'messages': [{'role': 'user', 'content': prompt}], 'response': value,
                    'truncated': answer['truncated'], 'response_tokens': finish,
                    'batch_seconds': elapsed, 'batch_count': len(selected_ids),
+                   'batch_size': args.batch_size,
                    'allocated_seconds': elapsed/len(selected_ids), 'max_new_tokens': max_new,
                    'do_sample': sample})
             cache.remember(identifier, phase, prompt, answer)
@@ -213,8 +215,10 @@ def run(args):
         return outputs
 
     todo = [row for row in rows if row['id'] not in prior]
+    stopped_early = False
     for offset in range(0, len(todo), args.batch_size):
-        if time.time() - started > args.max_seconds - 180:
+        if time.time() - started > args.max_seconds - 180 or (
+            args.global_deadline_unix and time.time() >= args.global_deadline_unix - 180):
             break
         batch = todo[offset:offset+args.batch_size]
         first = attempt(batch, 1)
@@ -230,8 +234,19 @@ def run(args):
             prior[row['id']] = final
         print(json.dumps({'completed': len(prior), 'accepted': sum(x['accepted'] for x in prior.values()),
                           'elapsed_seconds': time.time()-started}), flush=True)
+        remaining = set(TRIAL_IDS) - set(prior)
+        accepted = sum(x['accepted'] for x in prior.values())
+        old_accepted = sum(prior[i]['accepted'] for i in OLD_FAILURES if i in prior)
+        technical_accepted = sum(prior[i]['accepted'] for i in TECHNICAL_IDS if i in prior)
+        if (accepted + len(remaining) < 28 or
+            old_accepted + len(remaining & set(OLD_FAILURES)) < 18 or
+            technical_accepted + len(remaining & set(TECHNICAL_IDS)) < 5):
+            stopped_early = True
+            print('EARLY_STOP_THRESHOLD_IMPOSSIBLE', flush=True)
+            break
     technical = sum(prior[i]['accepted'] for i in TECHNICAL_IDS if i in prior)
-    summary = {'status': 'COMPLETE' if len(prior)==40 else 'INCOMPLETE_DEADLINE',
+    summary = {'status': 'COMPLETE' if len(prior)==40 else
+               'EARLY_STOP_THRESHOLD_IMPOSSIBLE' if stopped_early else 'INCOMPLETE_DEADLINE',
                'processed': len(prior), 'accepted': sum(x['accepted'] for x in prior.values()),
                'old_failure_accepted': sum(prior[i]['accepted'] for i in OLD_FAILURES if i in prior),
                'technical_accepted': technical,
@@ -251,4 +266,5 @@ if __name__ == '__main__':
     p.add_argument('--primary-summary', type=Path)
     p.add_argument('--batch-size', type=int, default=8)
     p.add_argument('--max-seconds', type=int, default=5400)
+    p.add_argument('--global-deadline-unix', type=float)
     run(p.parse_args())

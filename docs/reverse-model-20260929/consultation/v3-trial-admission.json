@@ -24,5 +24,16 @@
   "emulate_trial_words": 0,
   "instance_id": 53306647,
   "instance_before_start": "STOPPED",
-  "admission": "ADMITTED: same preserved instance, no new purchase, no full generation before primary/fallback threshold and cost projection"
+  "admission": "ADMITTED_AFTER_CENSORED_JOURNAL_HASH_AND_NO_OUTPUT_AUDIT: same preserved instance, larger batch, cumulative 1.5h primary and 2.5h total cap, no new purchase",
+  "throughput_directive_commit": "e7df0c313c8056bf856538acaf5adfa83cc911a9",
+  "censored_call_directive_commit": "2f00b08f350be837995b1f6143e124b667b69e46",
+  "primary_gpu_limit_seconds": 5400,
+  "fallback_additional_gpu_limit_seconds": 3600,
+  "total_gpu_trial_limit_seconds": 9000,
+  "total_instance_reserve_usd_at_0_549_hour": 1.3725,
+  "primary_completed_passages_before_batch_change": 8,
+  "primary_accepted_before_batch_change": 6,
+  "censored_unanswered_reservations": 8,
+  "wallet_after_stop_usd": 12.4,
+  "instance_after_stop": "STOPPED_STORAGE_ONLY_0.109_PER_HOUR"
 }
