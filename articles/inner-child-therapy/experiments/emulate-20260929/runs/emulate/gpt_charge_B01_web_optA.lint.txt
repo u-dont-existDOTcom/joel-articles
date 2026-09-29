@@ -1,0 +1,12 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_charge_B01_web_optA.txt
+verdict: REVIEW
+metrics: {'words': 214, 'my_words': 214, 'paragraphs': 2, 'coach_per_100': 0.93, 'you_per_100': 10.7, 'landing_rate': 0.5, 'instruction_paragraphs': 0, 'para_len_cv': 0.21, 'sent_len_cv': 0.73, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * Only keep doing things that result in your little one being safer, closer to you, more able, happier.
+-- B7 short landing at paragraph end (1)
+   * You can work on the warm feelings later!
+-- E36/E41 heavy second person (1)
+   * 10.7 "you" per 100 of my words
+-- E41 coach phrase (2)
+   * If you are not experiencing lots of warm feelings for your little one, start by doing something that shows you care.
+   * You can work on the warm feelings later!

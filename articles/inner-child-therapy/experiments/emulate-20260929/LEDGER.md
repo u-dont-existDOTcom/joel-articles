@@ -29,3 +29,5 @@ First B01 Send was rejected before submission for unpublished-text egress. No Hu
 Local preparation only: exact originals, H1 section maps, link inventories, 55 learning input hashes, five historical rechecks nominated; holdout content never read. Learning inputs below 40 words remain skipped pending an authorized grouping rule.
 
 2026-09-29 01:27 UTC: Joel explicitly approved all tasks, resolving the egress gate. Resume reserved B01 website charge test once; limits unchanged.
+
+Charge test complete: 58,017 -> 57,837; both website options cost 180 total. Pricing default = website. Copy control exists only after Keep this one; other option then disappears. A captured by Copy; B saved separately as DOM-only diagnostic (A DOM matched Copy exactly, but B Copy requirement remains unmet). Use owner-authorized API fallback for lossless production capture; no third B01 humanization run. New Emulate spend: 180. Pangram balance observed after opening New scan: 2,165 (18 lower than first read, no worker submission; external account use).
