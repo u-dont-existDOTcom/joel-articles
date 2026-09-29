@@ -174,21 +174,26 @@ For each Emulate output:
   - When an article is done, check it whole (`full_article`). If it's too long for one check, use chunks of whole sections that overlap by one section.
   - If a seam between two sections is flagged and the budget allows, run the flagged paragraphs on both sides of it through Emulate together once, and check again.
   - If a section shows any AI, follow Choosing between versions, below. Never hand-fix.
-- **Linter:** run `tools/tells_lint.py` on every output and save the report beside it.
+- **Linter:** optional. Its report is data only (see Choosing between versions).
 
-## Choosing between versions (Joel's rule, 2026-09-29)
+## Choosing between versions (Joel's rule, changed 2026-09-29 at 15:08 UTC)
 
 Each website run gives two options; each API call gives one. For each chunk:
 
 1. **Get the first versions.** A website run gives two options; check both. With the API, call once. Check each version alone, each of its paragraphs alone, and in its section, with the headings and the paragraphs that stay.
-2. **Run once more** with the same input, as a second website run or a second API call, only if no version you have both passes its section check and keeps the facts. Keeping the facts means no changed fact, dose, name or link, no dropped point, and nothing made up about Joel's life.
+2. **Run once more** with the same input, as a second website run or a second API call, only if no version you have passes its section check and meets points 2 and 3 below.
 3. **Choose among the versions in this order:**
-   1. It passes in its section, not just alone. In Claude's test, a version that was 100% Human alone showed 8% AI after the section before it.
-   2. It keeps the facts: nothing changed, dropped or made up.
-   3. It's closer to what the original meant. Emulate sometimes fudges that.
-   4. It has fewer `tells_lint.py` hits per 100 words.
-   5. If they're still tied, your judgment. Write down why.
+   1. **It passes in its section,** not just alone. In Claude's test, a version that was 100% Human alone showed 8% AI after the section before it.
+   2. **Nothing is invented or changed:** no new person, event, number, quote or claim, and nothing new about Joel's life. Names, numbers, doses, times and links stay exactly as they were. Emulate has written "I always tell my kids", invented "Brooke" and "your toddler", and turned "midnight" into "12 pm".
+   3. **Nothing is reversed or dropped:** every point of the original is still there and still means what it meant. Where a draft said only some acts are worth keeping and the rest just earn a tick, one Emulate version said "most of the time you can just tick them off".
+   4. **It makes at least as much sense as the original,** read in its section and in the whole article. Joel: it's fine for a paragraph to make more sense, never less. A version that reads clearer in context wins over one that stays closer to the original's wording.
+   5. **It has fewer stock phrases and padded lists:** lines a self-help blog would use about anything ("embark on this journey", "warm and fuzzy", "It's important to remember", "a better worker bee", "you're wasting your time"), and lists that came out longer than the original's.
+   6. If they're still tied, your judgment. Write down why.
 4. **Don't run a third time.** If no version is right, keep both, put the better one in the candidate article, and flag what's wrong in `QUALITY-<slug>.md`. Joel: it's still good learning data if it passes Pangram.
+
+The linter no longer decides between versions. Joel's own fixes score worse on it than the drafts they fixed, and Emulate's mistakes are ones it has no rule for. Saving its report beside each output is optional.
+
+This order replaces the one in `OWNER-SUPPLIED-DIRECTIVE-20260929.md` too; Joel changed it after he supplied that copy.
 
 Keep every version you get, including the ones you don't choose.
 

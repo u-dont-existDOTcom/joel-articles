@@ -1,0 +1,944 @@
+[
+ {
+  "check_id": "putback-A08-01",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A08-01.txt",
+  "words": 78,
+  "sha256": "1cee4cd8a8468f5e6a02ec4dd425f2af94a75f680e8c7e07dd30726ecc6f945e",
+  "sources": [
+   "runs/emulate/gpt_A08_api_r1.txt",
+   "inputs/learning/A_joelfixes/A08_before.txt"
+  ],
+  "note": "opening instruction",
+  "replaced": "Do whatever it is that needs to be done (usually this will be safety related).",
+  "inserted": "Handle whatever safety issue or practical thing actually needs doing."
+ },
+ {
+  "check_id": "putback-A08-02",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A08-02.txt",
+  "words": 71,
+  "sha256": "76b81f6ae0b3666e052555dba122da29218b574bfa9f3359b4be5001535165e3",
+  "sources": [
+   "runs/emulate/gpt_A08_api_r1.txt",
+   "inputs/learning/A_joelfixes/A08_before.txt"
+  ],
+  "note": "ask what changed",
+  "replaced": "At the start of the next round of processing, ask yourself why you are here again. Why has something changed since you were last here?",
+  "inserted": "Then, before another round, ask what changed the last time you processed this."
+ },
+ {
+  "check_id": "putback-A08-03",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A08-03.txt",
+  "words": 97,
+  "sha256": "2664643804f53483741e5929398751611cbf7333434562186c6872a379a99ec3",
+  "sources": [
+   "runs/emulate/gpt_A08_api_r1.txt",
+   "inputs/learning/A_joelfixes/A08_before.txt"
+  ],
+  "note": "three questions in a row",
+  "replaced": "Has something come up that allows you to deal with this differently now, or has something come up that makes you unsure of your last answer?",
+  "inserted": "Did you finally feel something you had only been thinking about? Did you notice something new enough to change a decision or how you respond? Or are you asking the same question again because the answer didn't feel certain enough?"
+ },
+ {
+  "check_id": "putback-A08-04",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A08-04.txt",
+  "words": 84,
+  "sha256": "ca123fd7af6643913c13c9dae0c639a2e6e9b96caf9617efb087a50f64156d12",
+  "sources": [
+   "runs/emulate/gpt_A08_api_r1.txt",
+   "inputs/learning/A_joelfixes/A08_before.txt"
+  ],
+  "note": "closing principle (two sentences)",
+  "replaced": "Grief does often repeat itself, and that doesn't mean that the child is asking for something new.",
+  "inserted": "Grief can come back to familiar ground. Repetition by itself doesn't mean the child has a new request."
+ },
+ {
+  "check_id": "putback-A10-01",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A10-01.txt",
+  "words": 174,
+  "sha256": "801f84ebc1f84af701bf8195c7e30692a91d923cc5e055d156c9850c6b8fe22c",
+  "sources": [
+   "runs/emulate/gpt_A10_api_r1.txt",
+   "inputs/learning/A_joelfixes/A10_before.txt"
+  ],
+  "note": "intro",
+  "replaced": "NB I’ve developed this map more practically in the rest of the method, which is why I’m comfortable publishing this provisional synthesis (parts of which are directly research based, the whole of which is my own):",
+  "inserted": "I developed this practical map from the rest of the method. Treat the complete sequence as a provisional synthesis: some components have direct research behind them, while the full arrangement is my own:"
+ },
+ {
+  "check_id": "putback-A10-02",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A10-02.txt",
+  "words": 182,
+  "sha256": "f7edfe3624db2084548bdb18905b03c862ab048a754c80900de95379e19d2f74",
+  "sources": [
+   "runs/emulate/gpt_A10_api_r1.txt",
+   "inputs/learning/A_joelfixes/A10_before.txt"
+  ],
+  "note": "list item 1",
+  "replaced": "child on her own – orientation and external safety",
+  "inserted": "The child alone: orient to the present and establish enough outside safety to begin."
+ },
+ {
+  "check_id": "putback-A10-03",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A10-03.txt",
+  "words": 178,
+  "sha256": "cc3b7874fb0be1b2264ba9c232cd96c722ce9310f7f12d2e147aa6d32abe9d49",
+  "sources": [
+   "runs/emulate/gpt_A10_api_r1.txt",
+   "inputs/learning/A_joelfixes/A10_before.txt"
+  ],
+  "note": "list item 2",
+  "replaced": "child with borrowed adult – experience of at least one good adult function, personified by a real/remembered/imagined/symbolic figure",
+  "inserted": "The child with a borrowed adult: experience one reliable adult function through a real, remembered, imagined, or symbolic figure."
+ },
+ {
+  "check_id": "putback-A10-04",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A10-04.txt",
+  "words": 175,
+  "sha256": "4e5564118f63492d9bfcb738bd6f0e873a2aa2c3168c5f025fa4946256a35dae",
+  "sources": [
+   "runs/emulate/gpt_A10_api_r1.txt",
+   "inputs/learning/A_joelfixes/A10_before.txt"
+  ],
+  "note": "list item 3",
+  "replaced": "adult as apprentice – with help, adult tries to do at least one part of looking after the child",
+  "inserted": "The adult apprentice: care for the child together with support and do at least one part yourself."
+ },
+ {
+  "check_id": "putback-A10-05",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A10-05.txt",
+  "words": 163,
+  "sha256": "459b36b3ccd2903fafb86b2bb5e7f966c96dfd8d66a5c3f3c2239233633e8186",
+  "sources": [
+   "runs/emulate/gpt_A10_api_r1.txt",
+   "inputs/learning/A_joelfixes/A10_before.txt"
+  ],
+  "note": "list item 4",
+  "replaced": "adult in her own right – adult repeats as many times as necessary, to build up the capacity to summon it at will: offering the child warmth, protection and direction",
+  "inserted": "The inner adult: repeat warmth, protection, and direction until those capacities become familiar enough to summon."
+ },
+ {
+  "check_id": "putback-A10-06",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A10-06.txt",
+  "words": 181,
+  "sha256": "b9efd7e0289f5a7552f037f1e52ece80a633c82d059b5737b3f36008fb245fad",
+  "sources": [
+   "runs/emulate/gpt_A10_api_r1.txt",
+   "inputs/learning/A_joelfixes/A10_before.txt"
+  ],
+  "note": "list item 5",
+  "replaced": "adult in relation to child – adult in charge but not banishing child, child no longer solely responsible for managing life",
+  "inserted": "The adult and child in relationship: the adult leads without exiling the child, and the child no longer has to run the whole life alone."
+ },
+ {
+  "check_id": "putback-A10-07",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A10-07.txt",
+  "words": 170,
+  "sha256": "602349e8f9f18952b16ac670e22a7d5cd2b44bc72fe64e9377d6c92ee062ba11",
+  "sources": [
+   "runs/emulate/gpt_A10_api_r1.txt",
+   "inputs/learning/A_joelfixes/A10_before.txt"
+  ],
+  "note": "closing (three sentences)",
+  "replaced": "The child doesn’t need to stop being a child – you just become bigger than the child-state. A useful saying to yourself might be: ‘I don’t need to stop being this child, but I am also becoming an adult…’",
+  "inserted": "You don’t have to stop being the child. You become larger than the child-state. A useful sentence is: “I am still this child, and I am also becoming the adult who stays.”"
+ },
+ {
+  "check_id": "putback-A12-01",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A12-01.txt",
+  "words": 104,
+  "sha256": "ab73c315e38e8ef5a30d5df0c8978f9c046bd7d809d5953a8e8a393cfcee1b4a",
+  "sources": [
+   "runs/emulate/gpt_A12_api_r1.txt",
+   "inputs/learning/A_joelfixes/A12_before.txt"
+  ],
+  "note": "opening sentence",
+  "replaced": "Sometimes you'll notice you're hooked before you know which part of you is doing the hooking.",
+  "inserted": "You might notice the hook before you have any clue what part of you is doing the hooking."
+ },
+ {
+  "check_id": "putback-A12-02",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A12-02.txt",
+  "words": 103,
+  "sha256": "19d1fb98d730866e36a0afed475886f14e9e896ca0c3f8f8cbc150066657aa2e",
+  "sources": [
+   "runs/emulate/gpt_A12_api_r1.txt",
+   "inputs/learning/A_joelfixes/A12_before.txt"
+  ],
+  "note": "the jaw/stomach sentence Joel changed, as Claude wrote it",
+  "replaced": "Sometimes you won't notice it until you've already tensed up your jaw, or whatever, and until you've already done some part of reacting—until you've already written half the text, for example.",
+  "inserted": "Or you might notice it embarrassingly late. The jaw is already tight, the stomach is already involved, half the text is written, and then you remember you're supposed to be observing yourself."
+ },
+ {
+  "check_id": "putback-A12-03",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A12-03.txt",
+  "words": 100,
+  "sha256": "e998e3461fde0cdf0172f5926a8aa5f30bde78c9c496256a1e614b573470bcd8",
+  "sources": [
+   "runs/emulate/gpt_A12_api_r1.txt",
+   "inputs/learning/A_joelfixes/A12_before.txt"
+  ],
+  "note": "forget the detective work (two sentences)",
+  "replaced": "It's okay to forget, for the time being, to try to figure out which part it is.",
+  "inserted": "Maybe forget the parts detective work for a minute. You can figure that out later."
+ },
+ {
+  "check_id": "putback-A12-04",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A12-04.txt",
+  "words": 78,
+  "sha256": "554c0035090bbc69cba9ea7d16fe6928cdd145deee0720ca503f2c97f2e847e0",
+  "sources": [
+   "runs/emulate/gpt_A12_api_r1.txt",
+   "inputs/learning/A_joelfixes/A12_before.txt"
+  ],
+  "note": "shenpa sentence",
+  "replaced": "Just be aware, as Pema Chödron has explained , that there's a kind of tightening, a kind of \"I need to do something\" sensation that comes before you finish making up the story. She calls this shenpa .",
+  "inserted": "Pema Chödrön calls this tightening and urge before the story has finished forming, \"shenpa.\""
+ },
+ {
+  "check_id": "putback-A12-02j",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Same slot as putback-A12-02, with Joel’s one-clause change: does his change matter inside Human text?",
+  "text_file": "runs/sentence-checks/putback-A12-02j.txt",
+  "words": 100,
+  "sha256": "708f26b3f32cab22f14a77cb8e2f519a7541295ea681248433ec6de591ab6e03",
+  "sources": [
+   "runs/emulate/gpt_A12_api_r1.txt",
+   "inputs/learning/A_joelfixes/A12_joel_after_REFERENCE_ONLY.txt"
+  ],
+  "note": "Joel’s fixed version of the jaw/stomach sentence",
+  "replaced": "Sometimes you won't notice it until you've already tensed up your jaw, or whatever, and until you've already done some part of reacting—until you've already written half the text, for example.",
+  "inserted": "Or you might notice it embarrassingly late. The jaw and stomach are already tight, half the text is written, and then you remember you're supposed to be observing yourself."
+ },
+ {
+  "check_id": "putback-A14-01",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A14-01.txt",
+  "words": 69,
+  "sha256": "3a9062149955f05db2ad570b54cde770961489b9992a95478646bf530e719e79",
+  "sources": [
+   "runs/emulate/gpt_A14_api_r1.txt",
+   "inputs/learning/A_joelfixes/A14_before.txt"
+  ],
+  "note": "the sentence Joel deleted",
+  "replaced": "Later on, when you’re feeling good, you can get curious with yourself and wonder what it was about what the other person did or said that actually felt like a violation.",
+  "inserted": "Later, ask the fun question: what actually happened?"
+ },
+ {
+  "check_id": "putback-A14-02",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A14-02.txt",
+  "words": 95,
+  "sha256": "a3cc8009620f259ec2bed0bb0af571966506c542e1fb5cd96e190ef8ac02c545",
+  "sources": [
+   "runs/emulate/gpt_A14_api_r1.txt",
+   "inputs/learning/A_joelfixes/A14_before.txt"
+  ],
+  "note": "boundary sentence",
+  "replaced": "Maybe they did do something violating. Maybe they triggered something in you.",
+  "inserted": "Somebody may really have crossed a boundary and still have hit something old in you."
+ },
+ {
+  "check_id": "putback-A14-03",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A14-03.txt",
+  "words": 74,
+  "sha256": "3026001501c5a4e7aa916d35ac0cf8108262519d76a90815ac6ad58b7d8b5109",
+  "sources": [
+   "runs/emulate/gpt_A14_api_r1.txt",
+   "inputs/learning/A_joelfixes/A14_before.txt"
+  ],
+  "note": "closing (two sentences)",
+  "replaced": "But you don’t have to figure it out now in order to get out of the pit of your stomach and get into a happier place. You can always come back and decide later if this other person is actually evil or not.",
+  "inserted": "You felt your stomach tighten up, and that somehow meant “They're evil.” But you can defer that judgement for when you're in your happy place."
+ },
+ {
+  "check_id": "putback-A18-01",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A18-01.txt",
+  "words": 137,
+  "sha256": "8955071c4ecca47a2c1def881fe3655a585ead219120f186251377c6fb5e8a48",
+  "sources": [
+   "runs/emulate/gpt_A18_api_r1.txt",
+   "inputs/learning/A_joelfixes/A18_before.txt"
+  ],
+  "note": "opening (two sentences)",
+  "replaced": "Even if you do n't have any words coming to mind to express what you feel like saying to him, you can still try to think of a sentence to say to him.",
+  "inserted": "You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose. Try it and see."
+ },
+ {
+  "check_id": "putback-A18-02",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A18-02.txt",
+  "words": 145,
+  "sha256": "82d3af66cffe9f0074c0679c65bc69c376a2fdd9657ebe5a1c05443caab58d55",
+  "sources": [
+   "runs/emulate/gpt_A18_api_r1.txt",
+   "inputs/learning/A_joelfixes/A18_before.txt"
+  ],
+  "note": "use the words",
+  "replaced": "If you do, use those words to say or write something to him, instead of just talking to him in your imagination.",
+  "inserted": "If words are there, use them; say the thing aloud, write it, whatever gets it out of the strange imaginary-conversation zone."
+ },
+ {
+  "check_id": "putback-A18-03",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A18-03.txt",
+  "words": 162,
+  "sha256": "5b2d2cb657a668249c0f4acffce2861f89b8789d4f0947ae6b023a6359eeba14",
+  "sources": [
+   "runs/emulate/gpt_A18_api_r1.txt",
+   "inputs/learning/A_joelfixes/A18_before.txt"
+  ],
+  "note": "homework + list of signals (two sentences)",
+  "replaced": "But if this feels like homework, skip it-he may be responding in other ways that you can identify (butterflies, urge to run, recurring images, song lyrics, etc.)",
+  "inserted": "And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually happening is a knot in your stomach, an urge to leave, some image that keeps coming up, a song that suddenly feels relevant."
+ },
+ {
+  "check_id": "putback-A18-04",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A18-04.txt",
+  "words": 131,
+  "sha256": "73703c8151f083a0c83c213db45763b1beb137703ccc6748fab1f82632e1a24c",
+  "sources": [
+   "runs/emulate/gpt_A18_api_r1.txt",
+   "inputs/learning/A_joelfixes/A18_before.txt"
+  ],
+  "note": "closing of paragraph 1",
+  "replaced": "Or you may not get any response at all, and still have a good idea of what would be a loving thing to say to him.",
+  "inserted": "Sometimes nothing “answers” and you just know what would be kind."
+ },
+ {
+  "check_id": "putback-A18-05",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A18-05.txt",
+  "words": 146,
+  "sha256": "984d75eebf003a5ac33e89a6394fadc0981a7a5bce9905bac25aebc2c72ffaaa",
+  "sources": [
+   "runs/emulate/gpt_A18_api_r1.txt",
+   "inputs/learning/A_joelfixes/A18_before.txt"
+  ],
+  "note": "order gets murky (two sentences)",
+  "replaced": "It may or may not be possible to tell which came first, the feeling or the words you use to understand the feeling.",
+  "inserted": "The order gets murky too. Feeling can precede language, language can expose a feeling, and afterward you may not know which happened first."
+ },
+ {
+  "check_id": "putback-A18-06",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-A18-06.txt",
+  "words": 148,
+  "sha256": "45ba3a5e70d87fd8c492897945f037791b9110738883c0a4aaf883433af575cf",
+  "sources": [
+   "runs/emulate/gpt_A18_api_r1.txt",
+   "inputs/learning/A_joelfixes/A18_before.txt"
+  ],
+  "note": "closing of paragraph 2",
+  "replaced": "But that does n't matter-you can still use words to help you understand your feelings.",
+  "inserted": "I don't think you need to solve that before using whatever words eventually help you understand it."
+ },
+ {
+  "check_id": "putback-B07-01",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B07-01.txt",
+  "words": 62,
+  "sha256": "ca3e1afc655127026f68139f329e122d2fb280c2941c5a3dc5994648e6acef41",
+  "sources": [
+   "runs/emulate/gpt_B07_api_r1.txt",
+   "inputs/learning/B_protector/B07_out_b.txt"
+  ],
+  "note": "opening",
+  "replaced": "We have explained that our little one has heard kind words before, and nothing’s come of them.",
+  "inserted": "Your little one has heard kind words before and then watched nothing happen, so a kind word by itself sounds like more of the same."
+ },
+ {
+  "check_id": "putback-B07-02",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B07-02.txt",
+  "words": 75,
+  "sha256": "da65822ad167991f8bd51e6bd04dd605735d838a2fed9024d3ef227f8f2d9777",
+  "sources": [
+   "runs/emulate/gpt_B07_api_r1.txt",
+   "inputs/learning/B_protector/B07_out_b.txt"
+  ],
+  "note": "what the little one trusts",
+  "replaced": "So what he believes is what Protector does in our life.",
+  "inserted": "What your little one ends up trusting is what the Protector does out in your life, and at its biggest it can mean leaving a relationship that keeps wearing down your safety."
+ },
+ {
+  "check_id": "putback-B14-01",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B14-01.txt",
+  "words": 61,
+  "sha256": "3aaf8b89d6944307b12ac45ed68fe93145047b8ed89fa2c536d1fe048695fd0e",
+  "sources": [
+   "runs/emulate/gpt_B14_api_r1.txt",
+   "inputs/learning/B_protector/B14_pick_a.txt"
+  ],
+  "note": "instruction",
+  "replaced": "Work on only one of these acts at a time. Once you've decided on a specific action, determine what you need to do in order to carry it out.",
+  "inserted": "Pick one protective act and give it a time, a first step, and whatever help it needs."
+ },
+ {
+  "check_id": "putback-B14-02",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B14-02.txt",
+  "words": 78,
+  "sha256": "b273a60b7943be6217155533a71f1b899f3ef0e446ac582cf9ad14334c24d648",
+  "sources": [
+   "runs/emulate/gpt_B14_api_r1.txt",
+   "inputs/learning/B_protector/B14_pick_a.txt"
+  ],
+  "note": "motel example",
+  "replaced": "Perhaps you need to budget some money if you plan to stay at a motel the next time you visit your parents, instead of in your old bedroom.",
+  "inserted": "If the act is staying in a motel instead of your old room next time you visit your parents, the first step can be as small as finding out what a night costs."
+ },
+ {
+  "check_id": "putback-B14-03",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B14-03.txt",
+  "words": 83,
+  "sha256": "5108395283f96f7237145143a47906817266a591083cb1e0171d15ac1f5e665a",
+  "sources": [
+   "runs/emulate/gpt_B14_api_r1.txt",
+   "inputs/learning/B_protector/B14_pick_a.txt"
+  ],
+  "note": "rehearse (closing)",
+  "replaced": "Or you might need to rehearse telling your mother about your decision one or two times.",
+  "inserted": "The hard part is telling your mother, which you can see coming for weeks, so say it out loud once or twice before you call her."
+ },
+ {
+  "check_id": "putback-B01-01",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B01-01.txt",
+  "words": 187,
+  "sha256": "c3dc011a2a9749240b6c5d11c41166f41a3c9fdc010046f1a650e8967766cf45",
+  "sources": [
+   "runs/emulate/claude_test_B01_m34_opt1.txt",
+   "inputs/learning/B_protector/B01_m34.txt"
+  ],
+  "note": "opening",
+  "replaced": "Don’t worry if you can’t find anything that makes you feel warm and fuzzy for your little one. In that case, do this exercise for your Protector.",
+  "inserted": "If you can't feel any warmth toward your little one yet, the Protector can go first."
+ },
+ {
+  "check_id": "putback-B01-02",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B01-02.txt",
+  "words": 182,
+  "sha256": "ea2afcb12be6af05949dc11349435b5bba6c74f8bdf59988c028428440913869",
+  "sources": [
+   "runs/emulate/claude_test_B01_m34_opt1.txt",
+   "inputs/learning/B_protector/B01_m34.txt"
+  ],
+  "note": "list of small acts",
+  "replaced": "They probably can think of a few things they do that demonstrate their care, like locking the door at night or making sure they eat regularly or saying no to social plans in order to get rest or putting their phone down at midnight.",
+  "inserted": "Care might start as locking the door at night, eating an actual meal, cancelling something you didn't have the energy for, or putting your phone down at midnight."
+ },
+ {
+  "check_id": "putback-B01-03",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B01-03.txt",
+  "words": 209,
+  "sha256": "1856f9247699ade89d1d7a54dd265302e13dd3060c4949021837c4961ca42434",
+  "sources": [
+   "runs/emulate/claude_test_B01_m34_opt1.txt",
+   "inputs/learning/B_protector/B01_m34.txt"
+  ],
+  "note": "“it can help to” coaching",
+  "replaced": "Consider rehearsing what you will say in difficult moments.",
+  "inserted": "If there's a hard moment you can see coming, it can help to practice what you'll say ahead of time."
+ },
+ {
+  "check_id": "putback-B01-04",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B01-04.txt",
+  "words": 192,
+  "sha256": "1c2adc05bf5286e01f7e0a834bd155208915f0d0d953b1b013e5460828bd9de5",
+  "sources": [
+   "runs/emulate/claude_test_B01_m34_opt1.txt",
+   "inputs/learning/B_protector/B01_m34.txt"
+  ],
+  "note": "list of reasons (vs five questions)",
+  "replaced": "Were you afraid? Did you not know what you wanted? Did you not know how to do what you wanted? Were you too tired? Was something getting in the way?",
+  "inserted": "It could have been fear, not knowing what you were aiming for, not knowing how, being exhausted, or something practical getting in the way."
+ },
+ {
+  "check_id": "putback-B01-05",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B01-05.txt",
+  "words": 210,
+  "sha256": "407266c4408f2fa77eae2bcb9015f37b397e149071ade461824cedcebcce7f2a",
+  "sources": [
+   "runs/emulate/claude_test_B01_m34_opt1.txt",
+   "inputs/learning/B_protector/B01_m34.txt"
+  ],
+  "note": "“doesn’t mean it failed, but…” contrast",
+  "replaced": "If you did do what you planned, notice if you feel better.",
+  "inserted": "And if you did it and didn't feel better right away, that doesn't mean it failed, but doing it doesn't prove it helped either."
+ },
+ {
+  "check_id": "putback-B01-06",
+  "variant": "splice",
+  "kind": "putback",
+  "question": "Does this sentence of Claude’s bring the AI verdict back inside otherwise Human text?",
+  "text_file": "runs/sentence-checks/putback-B01-06.txt",
+  "words": 190,
+  "sha256": "c9e8a047774338d8456005dbc8be00833f24b6a17ef603047fd8c0ccae5698e4",
+  "sources": [
+   "runs/emulate/claude_test_B01_m34_opt1.txt",
+   "inputs/learning/B_protector/B01_m34.txt"
+  ],
+  "note": "closing “not just a check mark” contrast",
+  "replaced": "Keep in mind that doing something that should make your little one safe or close or competent or happy doesn’t necessarily mean it did. Only do things that actually help.",
+  "inserted": "Keep what actually makes your little one safer, closer to you, more capable, or happier, not just what gets a check mark."
+ },
+ {
+  "check_id": "control-A21-draft",
+  "variant": "control",
+  "kind": "control",
+  "question": "Does it matter which sentence changes, or is the draft just on the edge so that any change flips it?",
+  "text_file": "runs/sentence-checks/control-A21-draft.txt",
+  "words": 72,
+  "sha256": "f730ced1f11795e9f30aa4464e2701fbaabd2b8e367dc7be22fc8fda4c359314",
+  "sources": [
+   "inputs/learning/A_joelfixes/A21_before.txt"
+  ],
+  "note": "Claude’s draft as it was (historically 100% AI)",
+  "replaced": null,
+  "inserted": null
+ },
+ {
+  "check_id": "control-A21-cut-last",
+  "variant": "control",
+  "kind": "control",
+  "question": "Does it matter which sentence changes, or is the draft just on the edge so that any change flips it?",
+  "text_file": "runs/sentence-checks/control-A21-cut-last.txt",
+  "words": 53,
+  "sha256": "d12b0c0dc99c8e31f9e596abe69c5ad7671ae18ee18b34173094f7192b85e756",
+  "sources": [
+   "inputs/learning/A_joelfixes/A21_before.txt"
+  ],
+  "note": "Joel’s cut: the “So…” closing removed (historically Human)",
+  "replaced": null,
+  "inserted": null
+ },
+ {
+  "check_id": "control-A21-cut-first",
+  "variant": "control",
+  "kind": "control",
+  "question": "Does it matter which sentence changes, or is the draft just on the edge so that any change flips it?",
+  "text_file": "runs/sentence-checks/control-A21-cut-first.txt",
+  "words": 53,
+  "sha256": "de7da7c879cf5e9c29d15a7fade8d7760d7d1f2e23d94a5d9fff759b21e1568f",
+  "sources": [
+   "inputs/learning/A_joelfixes/A21_before.txt"
+  ],
+  "note": "Control: the first sentence removed instead, the “So…” closing kept",
+  "replaced": null,
+  "inserted": null
+ },
+ {
+  "check_id": "control-A12-draft",
+  "variant": "control",
+  "kind": "control",
+  "question": "Does it matter which sentence changes, or is the draft just on the edge so that any change flips it?",
+  "text_file": "runs/sentence-checks/control-A12-draft.txt",
+  "words": 79,
+  "sha256": "9dbb0fb835ce45d625e2eca527baa323123046342a9f02a587d209354348ece8",
+  "sources": [
+   "inputs/learning/A_joelfixes/A12_before.txt"
+  ],
+  "note": "Claude’s draft as it was (historically AI, medium)",
+  "replaced": null,
+  "inserted": null
+ },
+ {
+  "check_id": "control-A12-joel",
+  "variant": "control",
+  "kind": "control",
+  "question": "Does it matter which sentence changes, or is the draft just on the edge so that any change flips it?",
+  "text_file": "runs/sentence-checks/control-A12-joel.txt",
+  "words": 76,
+  "sha256": "27504cbcbc243e91561c27bc48231b5102adbff460c55371f2bc5477666cc09b",
+  "sources": [
+   "inputs/learning/A_joelfixes/A12_joel_after_REFERENCE_ONLY.txt"
+  ],
+  "note": "Joel’s one-clause change (historically Human, medium)",
+  "replaced": null,
+  "inserted": null
+ },
+ {
+  "check_id": "control-A12-tiny-1",
+  "variant": "control",
+  "kind": "control",
+  "question": "Does it matter which sentence changes, or is the draft just on the edge so that any change flips it?",
+  "text_file": "runs/sentence-checks/control-A12-tiny-1.txt",
+  "words": 78,
+  "sha256": "bc9d2e84df8a0ef4815c0d0de9d23cb67af4714b5fb03462cba1e7647d739d70",
+  "sources": [
+   "inputs/learning/A_joelfixes/A12_before.txt"
+  ],
+  "note": "Control: a tiny change in a different sentence (“for a minute” to “for now”)",
+  "replaced": "detective work for a minute.",
+  "inserted": "detective work for now."
+ },
+ {
+  "check_id": "control-A12-tiny-2",
+  "variant": "control",
+  "kind": "control",
+  "question": "Does it matter which sentence changes, or is the draft just on the edge so that any change flips it?",
+  "text_file": "runs/sentence-checks/control-A12-tiny-2.txt",
+  "words": 79,
+  "sha256": "d8c6486452e7e20e37d9d0dc06a78fb3969da51a83fa8e75d609d5d05d441207",
+  "sources": [
+   "inputs/learning/A_joelfixes/A12_before.txt"
+  ],
+  "note": "Control: a one-word change in a different sentence (“clue” to “idea”)",
+  "replaced": "any clue",
+  "inserted": "any idea"
+ },
+ {
+  "check_id": "fix-A18-noise",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (noise)",
+  "text_file": "runs/sentence-checks/fix-A18-noise.txt",
+  "words": 144,
+  "sha256": "275810bf56ef22b67c21cbd283a42cddc4668e4338ecf664a6c339e4eafad42f",
+  "sources": [
+   "runs/emulate/gpt_A18_api_r1.txt"
+  ],
+  "note": "spacing and hyphen noise only",
+  "replaced": [
+   "do n't have",
+   "does n't matter-you",
+   "skip it-he"
+  ],
+  "inserted": [
+   "don't have",
+   "doesn't matter—you",
+   "skip it—he"
+  ]
+ },
+ {
+  "check_id": "fix-B19-noise",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (noise)",
+  "text_file": "runs/sentence-checks/fix-B19-noise.txt",
+  "words": 95,
+  "sha256": "ab273a90d9db4db6e0165d227c4038586e74340aafe61158ed4d7018403c161a",
+  "sources": [
+   "runs/emulate/gpt_B19_api_r1.txt"
+  ],
+  "note": "old-style quote marks and “does n’t” only",
+  "replaced": [
+   "ALL:`` ",
+   "ALL:''",
+   "does n't"
+  ],
+  "inserted": [
+   "“",
+   "”",
+   "doesn't"
+  ]
+ },
+ {
+  "check_id": "fix-B17-noise",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (noise)",
+  "text_file": "runs/sentence-checks/fix-B17-noise.txt",
+  "words": 104,
+  "sha256": "5f154696eaedfa41d5a935baeaec7c16d8bcc3a1b1657721b826086b7133e0e5",
+  "sources": [
+   "runs/emulate/gpt_B17_api_r1.txt"
+  ],
+  "note": "old-style quote marks only",
+  "replaced": [
+   "`` ",
+   "''"
+  ],
+  "inserted": [
+   "“",
+   "”"
+  ]
+ },
+ {
+  "check_id": "fix-A12-noise",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (noise)",
+  "text_file": "runs/sentence-checks/fix-A12-noise.txt",
+  "words": 100,
+  "sha256": "3058fd145e5042e3753a310faa0df8ab8f149ea6ca0979a222980c1a3ddbc9f5",
+  "sources": [
+   "runs/emulate/gpt_A12_api_r1.txt"
+  ],
+  "note": "space before comma and period, and the name’s spelling",
+  "replaced": [
+   "Chödron has explained ,",
+   "shenpa ."
+  ],
+  "inserted": [
+   "Chödrön has explained,",
+   "shenpa."
+  ]
+ },
+ {
+  "check_id": "fix-A05-typo",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (noise)",
+  "text_file": "runs/sentence-checks/fix-A05-typo.txt",
+  "words": 93,
+  "sha256": "61672344645bbbbf37462421a882173b50623ca426826d17c08d80a8bbe00271",
+  "sources": [
+   "runs/emulate/gpt_A05_api_r1.txt"
+  ],
+  "note": "one typo",
+  "replaced": [
+   "afterwords"
+  ],
+  "inserted": [
+   "afterward"
+  ]
+ },
+ {
+  "check_id": "fix-A06-spelling",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (noise)",
+  "text_file": "runs/sentence-checks/fix-A06-spelling.txt",
+  "words": 69,
+  "sha256": "c99e7e7a0b8b75c28ca0b5c634e3c6a2f6ed6fd12b3e084d1b039d015c631488",
+  "sources": [
+   "runs/emulate/gpt_A06_api_r1.txt"
+  ],
+  "note": "one British spelling",
+  "replaced": [
+   "behaviour"
+  ],
+  "inserted": [
+   "behavior"
+  ]
+ },
+ {
+  "check_id": "fix-A11-spelling",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (noise)",
+  "text_file": "runs/sentence-checks/fix-A11-spelling.txt",
+  "words": 189,
+  "sha256": "a566e019b4f030d3408fa2959c762a3925cd6a96efb64014d6d6341739645678",
+  "sources": [
+   "runs/emulate/gpt_A11_api_r1.txt"
+  ],
+  "note": "one British spelling",
+  "replaced": [
+   "no-one"
+  ],
+  "inserted": [
+   "no one"
+  ]
+ },
+ {
+  "check_id": "fix-A21-invented",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (content)",
+  "text_file": "runs/sentence-checks/fix-A21-invented.txt",
+  "words": 72,
+  "sha256": "1583d9d99b54efb4e0f1f5710adf19b0b07809fe15902644ac3e1bd9226df47c",
+  "sources": [
+   "runs/emulate/gpt_A21_api_r1.txt"
+  ],
+  "note": "invented “my kids” removed, pl/ork put back to the draft’s meaning (Claude’s words)",
+  "replaced": [
+   "I always tell my kids that the hard part in therapy is pl/ork"
+  ],
+  "inserted": [
+   "That’s why I call the deeper therapy pl/ork"
+  ]
+ },
+ {
+  "check_id": "fix-B01web-midnight",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (content)",
+  "text_file": "runs/sentence-checks/fix-B01web-midnight.txt",
+  "words": 212,
+  "sha256": "618cd1b6c80970f8a8945a271c6192aeecdb8b594d0c7751e9a86fb6d0b2ad38",
+  "sources": [
+   "runs/emulate/gpt_charge_B01_web_optA.txt"
+  ],
+  "note": "“12 pm” (noon) corrected to “midnight”",
+  "replaced": [
+   "at 12 pm each night"
+  ],
+  "inserted": [
+   "at midnight"
+  ]
+ },
+ {
+  "check_id": "fix-B12-invented",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (content)",
+  "text_file": "runs/sentence-checks/fix-B12-invented.txt",
+  "words": 108,
+  "sha256": "9d8b29268f8ca79a2d680e26df24f13455553170a54686da2a74902631b981c8",
+  "sources": [
+   "runs/emulate/gpt_B12_api_r1.txt"
+  ],
+  "note": "invented “toddler” and “McDonald’s” removed",
+  "replaced": [
+   "for your toddler to sleep",
+   " (even if it’s McDonald’s a couple times a week)"
+  ],
+  "inserted": [
+   "for your little one to sleep",
+   ""
+  ]
+ },
+ {
+  "check_id": "fix-A15-meaning",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (content)",
+  "text_file": "runs/sentence-checks/fix-A15-meaning.txt",
+  "words": 54,
+  "sha256": "ae01d93f3095ea5f37e07528174f670c6933acb19cd9f848e71b3ef43f3c1e78",
+  "sources": [
+   "runs/emulate/gpt_A15_api_r1.txt"
+  ],
+  "note": "“tell them they’ve hooked you” corrected to tell yourself",
+  "replaced": [
+   "and tell them that they’ve hooked you"
+  ],
+  "inserted": [
+   "and tell yourself you’re hooked"
+  ]
+ },
+ {
+  "check_id": "fix-A19-pronoun",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (content)",
+  "text_file": "runs/sentence-checks/fix-A19-pronoun.txt",
+  "words": 78,
+  "sha256": "64c33cafd7f57f74519099817ebf02d22efbc952ff9d9ecdb8687e212ea9a843",
+  "sources": [
+   "runs/emulate/gpt_A19_api_r1.txt"
+  ],
+  "note": "the little one’s invented “he” made “they”",
+  "replaced": [
+   "that he did really well even though he hid"
+  ],
+  "inserted": [
+   "that they did really well even though they hid"
+  ]
+ },
+ {
+  "check_id": "fix-B02-reversed",
+  "variant": "edit",
+  "kind": "fix",
+  "question": "Can Emulate’s output be corrected without going back to AI? (content)",
+  "text_file": "runs/sentence-checks/fix-B02-reversed.txt",
+  "words": 156,
+  "sha256": "45b2bd6c04cf47245bea005b13cffa2c0c56010e74d4aece31441e4ba5ee83b6",
+  "sources": [
+   "runs/emulate/claude_test_B02_after_a_opt1.txt"
+  ],
+  "note": "reversed point put right (Claude’s words)",
+  "replaced": [
+   "but most of the time you can just tick them off"
+  ],
+  "inserted": [
+   "and the rest only earn a tick"
+  ]
+ }
+]
