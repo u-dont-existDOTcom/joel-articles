@@ -1,0 +1,11 @@
+== tells_lint: /home/joel/.codex/.chatgpt-projects/g-p-6a5d356ea2bc8191b535f9d0a0b13574/emulate-overnight-work/articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_B10_api_r1.txt
+verdict: REVIEW
+metrics: {'words': 83, 'my_words': 83, 'paragraphs': 1, 'coach_per_100': 1.2, 'you_per_100': 7.2, 'landing_rate': 1.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 1.04, 'repeated_openers': {}}
+-- B2 contrast (1)
+   * Not instead of loving him, but in addition to it.
+-- B7 short landing at paragraph end (1)
+   * He’ll notice that, too.
+-- E36/E41 heavy second person (1)
+   * 7.2 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * But there are things you can do that will be done solely between you two.

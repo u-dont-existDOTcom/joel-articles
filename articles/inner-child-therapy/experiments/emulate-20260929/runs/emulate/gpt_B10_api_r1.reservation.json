@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B10_api_r1",
+  "input_file": "inputs/learning/B_protector/B10_between_a.txt",
+  "input_words": 77,
+  "input_sha256": "cb651cde8d3cf48dabb27b2417dd2c9daf7c04304375c8d500f74311c1f83698",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:36:31.357416+00:00",
+  "status": "completed",
+  "balance_before": 54370,
+  "provider_id": "f1fe703c-9f49-4bbe-bc96-bc98c650d0ce",
+  "words_charged": 77
+}

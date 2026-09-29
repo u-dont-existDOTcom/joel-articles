@@ -1,0 +1,74 @@
+{
+  "source_sha256": "cb651cde8d3cf48dabb27b2417dd2c9daf7c04304375c8d500f74311c1f83698",
+  "output_sha256": "ec19036018b07eb422664ef6a438ed27a308d6846bc20f74cf368113c7d92a71",
+  "source_sentence_count": 4,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 146,
+      "output_start": 0,
+      "output_end": 177,
+      "source_text": "Some of the protecting happens only between you and your little one: you promise them you'll close the laptop at six, they say \"Like last night?\" ",
+      "output_text": "But there are things you can do that will be done solely between you two. Not snapping back at him when he says “You’re gonna close your computer when it’s six o’clock, right?” ",
+      "word_overlap": 0.12698412698412698,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 146,
+      "source_end": 222,
+      "output_start": 177,
+      "output_end": 346,
+      "source_text": "and you don't snap back or ask them to tell you they believe you this time. ",
+      "output_text": "in response to your \"I'll be off the computer at six o'clock,” and instead acknowledging that he may have a point because you didn’t do it last night. Not hitting back. ",
+      "word_overlap": 0.1568627450980392,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 222,
+      "source_end": 403,
+      "output_start": 346,
+      "output_end": 396,
+      "source_text": "Not hitting back is one way of showing them love, but it doesn't take the place of loving them. They notice it, though, as much as they noticed the phone going into the other room.\n",
+      "output_text": "Not instead of loving him, but in addition to it. ",
+      "word_overlap": 0.17391304347826086,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 403,
+      "source_end": 403,
+      "output_start": 396,
+      "output_end": 419,
+      "source_text": "",
+      "output_text": "He’ll notice that, too.",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
