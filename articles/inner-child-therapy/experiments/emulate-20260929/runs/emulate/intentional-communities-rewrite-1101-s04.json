@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1101-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/138aa8b7-8991-4944-8a75-93445b0d1a69",
+  "input_sha256": "4ff4d18a8ff08ca6172cebbbbf53c2f0ba60180decc123aaa264a1b5dd853a1d",
+  "input_words": 94,
+  "before": 45010,
+  "after": 44916,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 106,
+      "sha256": "50f539afe18c3340e14f04bec4d65398e052515d0af02b24d4c025c06bd5f75f",
+      "page_sha256": "50f539afe18c3340e14f04bec4d65398e052515d0af02b24d4c025c06bd5f75f",
+      "has_list": false,
+      "last": " outside contacts, a way to report crimes that does n’t involve the friends of the person committing the crime, and a way to leave, regardless of majority vote."
+    },
+    {
+      "option": "B",
+      "words": 122,
+      "sha256": "0f066d5c1e7c538c28929d80fd0e982bc7390aaefbdb6d9238734cf032653168",
+      "page_sha256": "0f066d5c1e7c538c28929d80fd0e982bc7390aaefbdb6d9238734cf032653168",
+      "has_list": false,
+      "last": " you or someone else is being hurt without involving the friends of the person who is hurting you, and ability to leave that cannot be voted away by a majority."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1101-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/6ad68cbe-bc0f-4382-9540-d218750762a3",
+  "input_sha256": "796dc19ab7fa9bd0dcbfa9712d9b6ad3b9213bb7bcebf54afd9e7836038d8d3e",
+  "input_words": 230,
+  "before": 45240,
+  "after": 45010,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 344,
+      "sha256": "02b8e1adad9ac39a4e61bec239c9ec197885058dfedcf696bca4cb6f02ce0956",
+      "page_sha256": "02b8e1adad9ac39a4e61bec239c9ec197885058dfedcf696bca4cb6f02ce0956",
+      "has_list": false,
+      "last": "g people the right to join the group will not be reserved to any person or closed group of people, and disagreeing with someone joining has to be stated openly."
+    },
+    {
+      "option": "B",
+      "words": 247,
+      "sha256": "0b63adc6ede43fc024b735378fc9c7038294cb36aa3d77c49e2f9228ce06a180",
+      "page_sha256": "0b63adc6ede43fc024b735378fc9c7038294cb36aa3d77c49e2f9228ce06a180",
+      "has_list": false,
+      "last": "he community. Also there is not one single person, nor a close group of people, who can decide, who may enter and who may not. Objections have to be dealt with."
+    }
+  ]
+}

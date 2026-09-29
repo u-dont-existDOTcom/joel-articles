@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1201-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/1c924f9b-0c51-4d3e-838f-83a6bc07d1ff",
+  "input_sha256": "d9718d9feaccdf5639eb03bf312db68e648bba1c5fb04f0556181205860b648d",
+  "input_words": 202,
+  "before": 44916,
+  "after": 44714,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 200,
+      "sha256": "b937d8bf95550793e2efd99a6f6d2a54203756e19663129074ec0e0a08713d80",
+      "page_sha256": "b937d8bf95550793e2efd99a6f6d2a54203756e19663129074ec0e0a08713d80",
+      "has_list": false,
+      "last": "imes in our lives.\n\nTo a certain extent, we divide up the labor that many people in modern society outsource to therapists through peer counseling. To that end,"
+    },
+    {
+      "option": "B",
+      "words": 212,
+      "sha256": "9abba58d440be0078868f5e889a335c07540ca015adfd59e519984a6373a67d6",
+      "page_sha256": "9abba58d440be0078868f5e889a335c07540ca015adfd59e519984a6373a67d6",
+      "has_list": false,
+      "last": "herapists, by developing peer counseling capacities, so that the basic emotional work that everyone has to deal with, can be dealt with in a community of peers."
+    }
+  ]
+}

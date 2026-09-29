@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1101-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/5bf06255-fbc1-4132-a1fc-5eb08b87fc20",
+  "input_sha256": "959112241f01bc45bd8b4df3aa904839b7ec274f5d8c54c9d8aba34cd686b0f8",
+  "input_words": 190,
+  "before": 45430,
+  "after": 45240,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 204,
+      "sha256": "63c4e17b82f13d18ace6e9d359c7b2991048a3ca5a8e954d6d9f1db208414ef7",
+      "page_sha256": "63c4e17b82f13d18ace6e9d359c7b2991048a3ca5a8e954d6d9f1db208414ef7",
+      "has_list": false,
+      "last": ", or method you might get involved in, so feel free to ask them of me if I ever actually get to the point of buying land and having people come live with me. :)"
+    },
+    {
+      "option": "B",
+      "words": 199,
+      "sha256": "46160da1d1e3f07ebe28e76f16f781f58e12c93957c858b1f4fbb7eabca7e1d3",
+      "page_sha256": "46160da1d1e3f07ebe28e76f16f781f58e12c93957c858b1f4fbb7eabca7e1d3",
+      "has_list": false,
+      "last": "erson.\n\nFeel free to ask these questions of any community, teacher, method, or even me if I ever get to the point of buying land and having people move onto it."
+    }
+  ]
+}
