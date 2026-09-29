@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0901-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/1ecd08af-3bf4-4c24-b783-f1693f95b401",
+  "input_sha256": "1fdfae66f7ca08a490b8be9c318be9483c58ff0985ebaf5a060bdb41662de2c5",
+  "input_words": 219,
+  "before": 46529,
+  "after": 46310,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 234,
+      "sha256": "a5599278db59b32fad3d2a8528968e935f76f0322de3d4b13bcc2d1eaf71810c",
+      "page_sha256": "a5599278db59b32fad3d2a8528968e935f76f0322de3d4b13bcc2d1eaf71810c",
+      "has_list": false,
+      "last": "re essentially acting for paying customers, and the measure of success becomes how many guests you can get rather than how many daughter communities you create."
+    },
+    {
+      "option": "B",
+      "words": 222,
+      "sha256": "46a7d146db6ea09b8658027d873b7dc4005c49962ebb57684f5c44ca0a21c585",
+      "page_sha256": "46a7d146db6ea09b8658027d873b7dc4005c49962ebb57684f5c44ca0a21c585",
+      "has_list": false,
+      "last": "and measuring their success by how many guests they get instead of by how well they are teaching others how to build the social and material system they embody."
+    }
+  ]
+}

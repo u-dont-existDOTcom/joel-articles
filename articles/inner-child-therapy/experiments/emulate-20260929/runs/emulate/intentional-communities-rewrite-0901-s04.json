@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0901-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/9aa47f12-fb4a-4cee-a683-568282550225",
+  "input_sha256": "c8a35b8e1e0a4d3dc176cd6506cc432adb12749d4f945c99c4d33e0586c1b992",
+  "input_words": 131,
+  "before": 46310,
+  "after": 46179,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 139,
+      "sha256": "5bb4240d46af39ad5e2b31aee9646e50a3658d6300d7f413e8d2786365e5db80",
+      "page_sha256": "5bb4240d46af39ad5e2b31aee9646e50a3658d6300d7f413e8d2786365e5db80",
+      "has_list": false,
+      "last": "of thing should be replicable, not claiming that they have shown that it works.\n\nAlso similar are the forms in sociocracy , which have a very different history."
+    },
+    {
+      "option": "B",
+      "words": 152,
+      "sha256": "ace1c36a801e1fc1811638efa833fb0a17afdf333fd0c1b215ca202b683b71bd",
+      "page_sha256": "ace1c36a801e1fc1811638efa833fb0a17afdf333fd0c1b215ca202b683b71bd",
+      "has_list": false,
+      "last": "influenced by the Zapatistas to try to replicate their pedagogical model.\n\nAlso Sociocracy, which has a very different history, came to a lot of the same forms."
+    }
+  ]
+}

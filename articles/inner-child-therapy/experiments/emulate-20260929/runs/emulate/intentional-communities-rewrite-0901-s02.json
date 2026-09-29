@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0901-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/c1da4775-3a40-42b8-a8c2-64a19f046c0c",
+  "input_sha256": "d4842f8528c8c8b3fba2c369e02b7c9c422fa372ebd44fea648e65f8cf41fd85",
+  "input_words": 225,
+  "before": 46754,
+  "after": 46529,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 229,
+      "sha256": "ace760756aa44b5f68c58f5472c4eafeb5510ba21bc9113c73c37bcd4f3090f1",
+      "page_sha256": "ace760756aa44b5f68c58f5472c4eafeb5510ba21bc9113c73c37bcd4f3090f1",
+      "has_list": false,
+      "last": " enthusiasm and remind people that Zapatista autonomy is based on the rich history and context of these Indigenous people. It’s not something you can just copy."
+    },
+    {
+      "option": "B",
+      "words": 246,
+      "sha256": "7b58e30ef7ea5c06420dc2bee612d48123a8b879814978a85963771cc036c34b",
+      "page_sha256": "7b58e30ef7ea5c06420dc2bee612d48123a8b879814978a85963771cc036c34b",
+      "has_list": false,
+      "last": ". We have to recognize that the Zapatistas are operating their autonomy from the basis of Indigenous communities with long histories. We can’t, as a brand new …"
+    }
+  ]
+}

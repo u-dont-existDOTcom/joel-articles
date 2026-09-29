@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0901-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/9118caaf-fda4-4c6e-95bd-d8692ed19f35",
+  "input_sha256": "9b288ef067c97ba76d8edb88e545d45fa2cb70f03dfee5ae453cf1be5bf89b3b",
+  "input_words": 230,
+  "before": 46984,
+  "after": 46754,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 235,
+      "sha256": "9c2a99309d1af13255713140ae4ab84a872c9cb49997b0a079297dd4f3b39bd4",
+      "page_sha256": "9c2a99309d1af13255713140ae4ab84a872c9cb49997b0a079297dd4f3b39bd4",
+      "has_list": false,
+      "last": "ll spheres of society: education, health, justice, production (in a collective way), political formation, teaching others, and in coordination with one another."
+    },
+    {
+      "option": "B",
+      "words": 240,
+      "sha256": "8a3b1265723fd42a1fe0b78d44df1047bfdffd5581614989638ddc8af2814c87",
+      "page_sha256": "8a3b1265723fd42a1fe0b78d44df1047bfdffd5581614989638ddc8af2814c87",
+      "has_list": false,
+      "last": " it’s not just a new way of voting. Education, health, justice, collective production, political formation, teaching … And it’s not limited to a single village."
+    }
+  ]
+}
