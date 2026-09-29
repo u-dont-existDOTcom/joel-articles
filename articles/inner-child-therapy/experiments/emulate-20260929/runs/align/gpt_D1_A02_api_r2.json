@@ -1,0 +1,76 @@
+{
+  "source_sha256": "395833196e47c58f84cde8dd6b92a9c2932c93c3d2428294424c71c4c8d30aa1",
+  "output_sha256": "e3fe444ec1be2b0d3686402c2a797ebb3ff79c86831173ba47870524b1ddc58c",
+  "source_sentence_count": 5,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 248,
+      "output_start": 0,
+      "output_end": 581,
+      "source_text": "I've been writing this whole guide as if everybody who tries it wants to take care of the kid, but some people get a little rush out of making somebody scared or small, and a few are honestly hoping therapy will make them better at working people. ",
+      "output_text": "Even if you’re only going through this to educate yourself (and I certainly hope that’s the case for everyone, but I know some people do like to scare the things), it’s possible you may have the slightest inclination to want to get a little bit of enjoyment out of the terror your little buddy may experience. It may be slight, perhaps you believe your motivations are entirely pure and you just want to get over your phobia, or maybe you want to figure out how to better exploit your employees at work and make them feel uncomfortable (and are hoping some therapy may cure that). ",
+      "word_overlap": 0.1794871794871795,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 248,
+      "source_end": 387,
+      "output_start": 581,
+      "output_end": 713,
+      "source_text": "If that's you, you might have breezed through the check above and figure, \"I'll just bring the kid out for a second and see what happens.\" ",
+      "output_text": "Either way, you may have skipped over some of the above, and believe you’re ready to venture out and meet your little guy…guy? gal? ",
+      "word_overlap": 0.25925925925925924,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 387,
+      "source_end": 560,
+      "output_start": 713,
+      "output_end": 717,
+      "source_text": "So you bring it out, it gets scared, and somehow that feels like you learned something. Mostly you just gave the part of you that wanted it scared exactly what it came for. ",
+      "output_text": "it? ",
+      "word_overlap": 0.058823529411764705,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 560,
+      "source_end": 595,
+      "output_start": 717,
+      "output_end": 795,
+      "source_text": "Leave the kid where it is for now.\n",
+      "output_text": "Whoever or whatever it is, your little buddy probably should stay put for now.",
+      "word_overlap": 0.36363636363636365,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
