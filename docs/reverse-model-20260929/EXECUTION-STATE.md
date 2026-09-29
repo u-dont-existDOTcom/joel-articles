@@ -20,7 +20,9 @@ Authority: Joel's two uploaded directives, approval to continue with 40 GB VRAM,
 Replacement instance: A100 PCIe 40 GB, 195 GB free disk at bootstrap, $0.549/hour console rate. The original instance was stopped before the owner replaced it. No second instance was provisioned by the worker.
 Fresh complete machine AGENTS read; capabilities, GPU, disk, RAM/CPU limits and packages recorded. Python 3.12.14, torch 2.10.0+cu128, transformers 5.5.0, PEFT 0.18.1, TRL 0.23.1, bitsandbytes 0.50.2, accelerate 1.15.0, Unsloth 2026.9.11, Unsloth-Zoo 2026.9.7. No stack reinstall.
 Meta-only PEFT construction covers attention plus fused expert gate/up and down parameters at rank 64: 2,570,059,776 trainable parameters. This proves parameter coverage/count only. PEFT emits an expert-layer compatibility warning; actual load/backward and gradient coverage must pass before training.
-Pinned instruct checkpoint and official corpus archives downloading. No training pairs or scores yet; new Pangram and Emulate usage is zero.
+Official corpus archives complete. Frozen 1,200-passage source manifest passes document-group and content-uniqueness assertions: 1,000/100/100; 400 paraphrase and 800 notes-regeneration; OANC 1,056 and MASC 144. One malformed OANC metadata record excluded. Cross-corpus grouping records 141 links. Pinned instruct checkpoint is still downloading in the single workspace cache. Managed actual GPU fit process is RUNNING; no PASS claim yet. No training pairs or scores; new Pangram and Emulate usage is zero.
+
+The resumable Qwen generation pipeline is authored and syntax checked. Every model call contains one fresh user message; regeneration receives only notes. Exact prompts, outputs, timing, truncation and both directional judgments are saved. Invalid or truncated judgments reject a pair. An initial small production batch will measure throughput before the full run.
 
 ## Recovery sequence
 1. Verify completed archives, licenses and actual 4-bit GPU load/backward/optimizer memory.

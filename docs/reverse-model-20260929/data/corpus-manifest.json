@@ -1,0 +1,766 @@
+{
+  "seed": 3407,
+  "archives": [
+    {
+      "filename": "OANC_GrAF.zip",
+      "sha256": "5a26559a1becba41a527cb674fff4fb9c4fb70b276f60422c4f07a0ef23fd867",
+      "bytes": 655230430,
+      "corpus": "OANC",
+      "license": "Unrestricted use and redistribution, including commercial use",
+      "source": "https://anc.org/data/oanc/",
+      "archive_url": "https://github.com/nancyide/anc-website/releases/download/datasets-2026-09-25/OANC_GrAF.zip"
+    },
+    {
+      "filename": "masc_500k_texts.zip",
+      "sha256": "0c3f1fd3314ee5ec09830d6f6b217c19a6899d1cabd22c42264578c3348b2d01",
+      "bytes": 1351682,
+      "corpus": "MASC",
+      "license": "CC BY 3.0 US",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+      "source": "https://anc.org/data/masc/",
+      "attribution": "Manually Annotated Sub-Corpus, American National Corpus; Nancy Ide and Keith Suderman. Source paths and available original-author metadata retained.",
+      "archive_url": "https://github.com/nancyide/anc-website/releases/download/datasets-2026-09-25/masc_500k_texts.zip"
+    }
+  ],
+  "passages": 1200,
+  "splits": {
+    "train": 1000,
+    "dev": 100,
+    "test": 100
+  },
+  "genres": {
+    "essays_journal": 503,
+    "technical": 280,
+    "practical": 170,
+    "letters": 150,
+    "email": 50,
+    "news": 47
+  },
+  "corpora": {
+    "OANC": 1056,
+    "MASC": 144
+  },
+  "methods": {
+    "paraphrase": 400,
+    "notes_regeneration": 800
+  },
+  "eligible_document_groups": 6562,
+  "deduplication_links": [
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Berk/ch1.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch1.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Berk/ch2.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch2.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Berk/ch7.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch7.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Fletcher/ch1.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch1.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Fletcher/ch2.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch2.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Fletcher/ch6.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch6.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Fletcher/ch9.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch9.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch1.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch1.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch10.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Fletcher/ch10.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch3.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch3.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch4.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Berk/CH4.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch5.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Fletcher/ch5.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch6.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch6.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch7.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch7.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch8.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch8.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Kauffman/ch9.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch9.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Rybczynski/ch1.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch1.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Rybczynski/ch2.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch2.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/non-fiction/OUP/Rybczynski/ch3.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Abernathy/ch3.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/technical/government/Gen_Account_Office/ai9868.txt",
+      "b": "OANC-GrAF/data/written_2/technical/government/Gen_Account_Office/May1998_ai98068.txt",
+      "reason": "content"
+    },
+    {
+      "a": "OANC-GrAF/data/written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/govt-docs/Env_Prot_Agency-nov1.txt",
+      "b": "OANC-GrAF/data/written_2/technical/government/Env_Prot_Agen/nov1.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/govt-docs/Postal_Rate_Comm-ReportToCongress2002WEB.txt",
+      "b": "OANC-GrAF/data/written_2/technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/govt-docs/Protocol_Regarding_Access.txt",
+      "b": "OANC-GrAF/data/written_2/technical/government/About_LSC/Protocol_Regarding_Access.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/govt-docs/Protocol_Regarding_Access.txt",
+      "b": "OANC-GrAF/data/written_2/technical/government/About_LSC/Protocol_Regarding_Access.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/govt-docs/chapter-10.txt",
+      "b": "OANC-GrAF/data/written_2/technical/911report/chapter-10.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_327.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/2/Article247_327.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_327.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/2/Article247_327.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_328.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/2/Article247_328.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_328.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/2/Article247_328.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_3500.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/12/Article247_3500.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_3500.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/12/Article247_3500.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_400.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/3/Article247_400.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_400.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/3/Article247_400.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_500.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/4/Article247_500.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_500.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/4/Article247_500.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_66.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/1/Article247_66.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/Article247_66.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/1/Article247_66.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/ArticleIP_1059.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/22/ArticleIP_1059.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/ArticleIP_1059.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/22/ArticleIP_1059.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/ArticleIP_1060.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/22/ArticleIP_1060.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/ArticleIP_1060.txt",
+      "b": "OANC-GrAF/data/written_1/journal/slate/22/ArticleIP_1060.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/VOL15_3.txt",
+      "b": "OANC-GrAF/data/written_1/journal/verbatim/VOL15_3.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/journal/VOL15_3.txt",
+      "b": "OANC-GrAF/data/written_1/journal/verbatim/VOL15_3.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL067.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL067.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL067.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL067.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL068.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL068.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL068.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL068.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL069.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL069.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL069.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL069.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL070.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL070.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL070.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL070.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL071.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL071.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL071.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL071.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL072.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL072.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL072.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL072.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL200.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL200.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/110CYL200.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/110CYL200.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L012.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L012.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L012.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L012.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L013.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L013.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L013.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L013.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L014.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L014.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L014.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L014.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L015.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L015.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L015.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L015.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L016.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L016.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/112C-L016.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/112C-L016.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/113CWL017.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/113CWL017.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/113CWL017.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/113CWL017.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/113CWL018.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/113CWL018.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/113CWL018.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/113CWL018.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/114CUL057.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/114CUL057.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/114CUL057.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/114CUL057.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/114CUL058.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/114CUL058.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/114CUL058.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/114CUL058.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/114CUL059.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/114CUL059.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/114CUL059.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/114CUL059.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/114CUL060.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/114CUL060.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/114CUL060.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/114CUL060.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/115CVL035.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/115CVL035.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/115CVL035.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/115CVL035.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/115CVL036.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/115CVL036.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/115CVL036.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/115CVL036.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/115CVL037.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/115CVL037.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/115CVL037.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/115CVL037.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/116CUL032.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/116CUL032.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/116CUL032.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/116CUL032.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/116CUL033.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/116CUL033.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/116CUL033.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/116CUL033.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/116CUL034.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/116CUL034.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/116CUL034.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/116CUL034.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/117CWL008.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/117CWL008.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/117CWL008.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/117CWL008.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/117CWL009.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/117CWL009.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/117CWL009.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/117CWL009.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/118CWL048.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/118CWL048.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/118CWL048.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/118CWL048.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/118CWL049.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/118CWL049.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/118CWL049.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/118CWL049.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/118CWL050.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/118CWL050.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/118CWL050.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/118CWL050.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/119CWL041.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/119CWL041.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/119CWL041.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/119CWL041.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/602CZL285.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/602CZL285.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/602CZL285.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/602CZL285.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/non-fiction/ch5.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Fletcher/ch5.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/non-fiction/chZ.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Castro/chZ.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/non-fiction/chZ.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Castro/chZ.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/non-fiction/rybczynski-ch3.txt",
+      "b": "OANC-GrAF/data/written_2/non-fiction/OUP/Rybczynski/ch3.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1468-6708-3-1.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1468-6708-3-1.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1468-6708-3-1.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1468-6708-3-1.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1468-6708-3-3.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1468-6708-3-3.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1468-6708-3-3.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1468-6708-3-3.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1471-2091-2-9.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1471-2091-2-9.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1471-2091-2-9.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1471-2091-2-9.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1471-213X-1-1.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1471-213X-1-1.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1471-213X-1-1.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1471-213X-1-1.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1471-230X-2-21.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1471-230X-2-21.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/1471-230X-2-21.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/1471-230X-2-21.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/journal.pbio.0020001.txt",
+      "b": "OANC-GrAF/data/written_2/technical/plos/journal.pbio.0020001.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/journal.pbio.0020001.txt",
+      "b": "OANC-GrAF/data/written_2/technical/plos/journal.pbio.0020001.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/pmed.0010029.txt",
+      "b": "OANC-GrAF/data/written_2/technical/plos/pmed.0010029.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/pmed.0010029.txt",
+      "b": "OANC-GrAF/data/written_2/technical/plos/pmed.0010029.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/rr166.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/rr166.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/technical/rr166.txt",
+      "b": "OANC-GrAF/data/written_2/technical/biomed/rr166.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/HistoryGreek.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/HistoryGreek.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/HistoryGreek.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/HistoryGreek.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/HistoryJerusalem.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/HistoryJerusalem.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/HistoryJerusalem.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/HistoryJerusalem.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/HistoryLasVegas.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/HistoryLasVegas.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/HistoryLasVegas.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/HistoryLasVegas.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/IntroDublin.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/IntroDublin.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/IntroDublin.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/IntroDublin.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/IntroHongKong.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/IntroHongKong.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/IntroHongKong.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/IntroHongKong.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/WhatToHongKong.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/WhatToHongKong.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/WhatToHongKong.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/WhatToHongKong.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/WhereToHongKong.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/WhereToHongKong.txt",
+      "reason": "stem"
+    },
+    {
+      "a": "masc_500k_texts/written/travel-guides/WhereToHongKong.txt",
+      "b": "OANC-GrAF/data/written_2/travel_guides/berlitz1/WhereToHongKong.txt",
+      "reason": "content"
+    },
+    {
+      "a": "masc_500k_texts/written/letters/117CWL008.txt",
+      "b": "OANC-GrAF/data/written_1/letters/icic/117CWL009.txt",
+      "reason": "MASC excerpt containment"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "corpus": "OANC",
+      "path": "OANC-GrAF/data/written_2/technical/government/Media/FY_04_Budget_Outlook.txt",
+      "reason": "Malformed source metadata",
+      "detail": "no element found: line 35, column 0"
+    }
+  ],
+  "manifest_sha256": "56869801ee7f95dfea1681170c745cacf112f93c117a185177c515568c80b089",
+  "PG19_fraction": 0,
+  "generated_pairs": 0
+}
