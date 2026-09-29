@@ -1,0 +1,59 @@
+{
+  "source_sha256": "757bed7b49308ceffb7e7db096d05f9faea7441e1a1524ae36a4a95b58c45ee2",
+  "output_sha256": "6c1a09d78d28c169601479389a525bcb8ebc0f96c37e8f72ffb0c69bf4db70b0",
+  "source_sentence_count": 4,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 131,
+      "output_start": 0,
+      "output_end": 62,
+      "source_text": "If Thursday comes and you're still at your desk at seven, look at what actually happened before you decide what it says about you. ",
+      "output_text": "What if you find yourself still at work at 7pm on a Thursday? ",
+      "word_overlap": 0.2631578947368421,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1,
+        2
+      ],
+      "source_start": 131,
+      "source_end": 250,
+      "output_start": 62,
+      "output_end": 341,
+      "source_text": "Maybe it was his \"one quick thing,\" or maybe you were scared of how leaving would look, or just too tired to stand up. ",
+      "output_text": "Well, think about why - did you get distracted by \"one more quick thing\", were you afraid of what people would think, or did you simply feel too tired to leave? If you did leave on time but didn't feel better, that doesn't mean that leaving on time didn't work - and vice versa. ",
+      "word_overlap": 0.20253164556962025,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 250,
+      "source_end": 465,
+      "output_start": 341,
+      "output_end": 423,
+      "source_text": "And if you did get out at six and felt no better, that doesn't mean it failed, and getting out doesn't prove it helped either. Keep doing it if your little one gets the evening, not because you got to cross it off.\n",
+      "output_text": "If it works for you and you get to spend time with your little one, keep doing it!",
+      "word_overlap": 0.19047619047619047,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

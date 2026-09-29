@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B04_api_r1",
+  "input_file": "inputs/learning/B_protector/B04_afA1.txt",
+  "input_words": 91,
+  "input_sha256": "757bed7b49308ceffb7e7db096d05f9faea7441e1a1524ae36a4a95b58c45ee2",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:35:33.187806+00:00",
+  "status": "completed",
+  "balance_before": 54918,
+  "provider_id": "96485153-3031-4657-809a-3af77cc5e1ff",
+  "words_charged": 91
+}
