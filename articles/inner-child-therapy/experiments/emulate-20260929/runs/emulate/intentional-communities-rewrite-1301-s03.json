@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1301-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/29c0f4f4-2c86-4933-8b41-92f3a9e8e4c2",
+  "input_sha256": "af141a39928345f93e9378c440455c85e367504a12fc23e6bd1d0caf38148308",
+  "input_words": 225,
+  "before": 43811,
+  "after": 43586,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 244,
+      "sha256": "6844e01cb5d2d72c9d7ee02ca3fe7c9174b968c7eaeeaa0a849f3a494c88bef9",
+      "page_sha256": "6844e01cb5d2d72c9d7ee02ca3fe7c9174b968c7eaeeaa0a849f3a494c88bef9",
+      "has_list": false,
+      "last": ". That last part is important, since even good people leave for good reasons, and it is coercive to force people to stay by holding their contributions hostage."
+    },
+    {
+      "option": "B",
+      "words": 220,
+      "sha256": "42adb431f35b8f40e863f23a23120bffe898c9eae4ee33172214231d15b54f24",
+      "page_sha256": "42adb431f35b8f40e863f23a23120bffe898c9eae4ee33172214231d15b54f24",
+      "has_list": false,
+      "last": "ransportation, temporary housing, stores, use rights, etc.\n\nEven good people leave for good reasons. It’s coercive to not let them leave with what they brought."
+    }
+  ]
+}

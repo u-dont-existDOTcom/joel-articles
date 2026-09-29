@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1301-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/b60bee75-1032-443b-af4b-b62971a6e208",
+  "input_sha256": "458b5e286d8bd0fbc16695019534c07f0167114faa03685ee877fb6953362fa6",
+  "input_words": 220,
+  "before": 43586,
+  "after": 43366,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 210,
+      "sha256": "006b4f4ee9f74a12fa508201d5726dcfab0f8716d535f94ae571e167adc95922",
+      "page_sha256": "006b4f4ee9f74a12fa508201d5726dcfab0f8716d535f94ae571e167adc95922",
+      "has_list": false,
+      "last": "ovisional membership - make sure it's clear what this means, how long it is, etc. Make sure the person recruiting the new member isn't in charge of the process."
+    },
+    {
+      "option": "B",
+      "words": 251,
+      "sha256": "ef5e39f624117e47797c32ed622db7832477fe9754086628aa23ff6b59642674",
+      "page_sha256": "ef5e39f624117e47797c32ed622db7832477fe9754086628aa23ff6b59642674",
+      "has_list": false,
+      "last": "nal Member - What does it mean? How long is it? How do you become a member? Make sure the person who invited them isn’t the only one who can make that decision."
+    }
+  ]
+}

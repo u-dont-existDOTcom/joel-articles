@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1301-s05",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/d0e6b763-bd80-4eec-984d-89ba01e25f1b",
+  "input_sha256": "1a147fd1317ee86fc51d59825079b8191f25905bdd41b4f827d85441944bfe0f",
+  "input_words": 187,
+  "before": 43366,
+  "after": 43179,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 210,
+      "sha256": "3ccf6f069774a05dba2aa04b1028ff8f362cde48d32be0c5900fa052ee796674",
+      "page_sha256": "1e7a5b8bf24b1356771fa96c62a61eadaa9d5ca773a6e22c01234e97586069fc",
+      "has_list": true,
+      "last": "on affects them (money, access to shared resources, etc). It is not okay to have a servant class and give them fewer rights than you have at your other commune."
+    },
+    {
+      "option": "B",
+      "words": 256,
+      "sha256": "da97bc7303eb82f7dfa7c4132f518fa50afeb6636a359198ae8644cb45d95e1e",
+      "page_sha256": "da97bc7303eb82f7dfa7c4132f518fa50afeb6636a359198ae8644cb45d95e1e",
+      "has_list": false,
+      "last": "s to private records, or discipline). Failing to do this is one way that communes end up with de facto \"servant\" classes that they pass from commune to commune."
+    }
+  ]
+}

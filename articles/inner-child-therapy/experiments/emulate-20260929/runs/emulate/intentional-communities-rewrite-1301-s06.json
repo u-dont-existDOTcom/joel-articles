@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1301-s06",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/c9dca5bf-143f-4ce7-a3de-53f33ef029f2",
+  "input_sha256": "29da357b41efb05dc296fb843b77d39eba893db6c94b62a3f3bea9a6799cb646",
+  "input_words": 224,
+  "before": 43179,
+  "after": 42955,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 156,
+      "sha256": "c556a0e9faf8fd07f9a2c2e96e7a58112568667840f520212720cee1cf8166d0",
+      "page_sha256": "c556a0e9faf8fd07f9a2c2e96e7a58112568667840f520212720cee1cf8166d0",
+      "has_list": false,
+      "last": "omist regions' own courts/regulators/emergency services (as in the Zapatistas). (Although autonomism doesn't let you waive your non-waivable individual rights!)"
+    },
+    {
+      "option": "B",
+      "words": 214,
+      "sha256": "8edaca54b0cc601a9c22059a4469a0d227e6d3d35dff082189e1e96a1b3dad14",
+      "page_sha256": "8edaca54b0cc601a9c22059a4469a0d227e6d3d35dff082189e1e96a1b3dad14",
+      "has_list": false,
+      "last": "tas for helping me correct my biased thinking here.) Of course, no entity should be able to violate non-waivable individual rights, even if they are autonomous."
+    }
+  ]
+}
