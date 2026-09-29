@@ -3908,7 +3908,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram.jsonl",
-          "sha256": "c18de005873e06270f5f9ef2416ce17f17d47f6a5ae59be0b578749b4c93a25d",
+          "sha256": "413f0434eb5d2878f072acf0e7b8c814edfcff7908bdc3be27300acc9c9f9a68",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3944,7 +3944,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/admission-events.jsonl",
-          "sha256": "2bfdea7f4939101a9f7b827a7c89e0b0f75c8eab7c42bd476b38bc948efaf317",
+          "sha256": "31e3d6494c2de8649fba6408d42929f19e889ad19b399cbc3018a67c4e750ee6",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3999,6 +3999,18 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_C2_joel_p1_HUMAN_JOELS_OWN_WRITING.overview.txt",
           "sha256": "a9c69813009f0ee22ad8080311ca3f34a6744eca3ae1359a6bf192ce44d4865b",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_A02_before.details.txt",
+          "sha256": "34c2ebf5527f476002e6d85d0dee80802b92cee5c057160a34be62de23709329",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_A02_before.overview.txt",
+          "sha256": "f3d99ab1d4835161147ac9df8449472cd303bc0a95067b2fa95c4232f25b5d1e",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }
