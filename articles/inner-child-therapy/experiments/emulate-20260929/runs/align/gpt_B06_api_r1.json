@@ -1,0 +1,58 @@
+{
+  "source_sha256": "2f7cf788c22169eb45bf23090b2000c14ddcf8988fb7a4c998168a663839f89a",
+  "output_sha256": "8ca6ab01d221b4562a0994ace75864e89962ca9740c3dbe278b28ea26239d0db",
+  "source_sentence_count": 3,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 162,
+      "output_start": 0,
+      "output_end": 188,
+      "source_text": "Most days the Protector's job is more ordinary than that, and it happens outside you, like opening the bank letter you've left face down on the counter all week. ",
+      "output_text": "It may not be so dramatic most of the time, but sometimes as Protector you have to do some less exciting things outside the little one too. Like finally opening that letter from the bank. ",
+      "word_overlap": 0.18181818181818182,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 162,
+      "source_end": 245,
+      "output_start": 188,
+      "output_end": 249,
+      "source_text": "Sometimes it goes as far as ending a relationship that keeps making you less safe. ",
+      "output_text": "Or even breaking off a relationship that’s not good for you. ",
+      "word_overlap": 0.2962962962962963,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 245,
+      "source_end": 396,
+      "output_start": 249,
+      "output_end": 422,
+      "source_text": "Your little one comes to trust what the Protector does more than kind words on their own, which they've heard before from people who then did nothing.\n",
+      "output_text": "The more the little one sees you taking action, the more likely it is they will listen to you, rather than just the kind words, which they may have heard from others before.",
+      "word_overlap": 0.32786885245901637,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

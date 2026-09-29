@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B06_api_r1",
+  "input_file": "inputs/learning/B_protector/B06_out_a.txt",
+  "input_words": 71,
+  "input_sha256": "2f7cf788c22169eb45bf23090b2000c14ddcf8988fb7a4c998168a663839f89a",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:35:56.535190+00:00",
+  "status": "completed",
+  "balance_before": 54638,
+  "provider_id": "87c6d471-248d-4c08-a6f7-28beefde5435",
+  "words_charged": 71
+}
