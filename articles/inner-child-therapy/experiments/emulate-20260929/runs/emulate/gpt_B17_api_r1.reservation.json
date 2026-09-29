@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B17_api_r1",
+  "input_file": "inputs/learning/B_protector/B17_r2_out1A.txt",
+  "input_words": 76,
+  "input_sha256": "46330f69997455019cf5ffdb913ec9bdb461ae05811d928f6150db9fc30afe21",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:37:43.033884+00:00",
+  "status": "completed",
+  "balance_before": 53867,
+  "provider_id": "9a807e72-8739-4bf5-9932-351a5f5228f6",
+  "words_charged": 76
+}

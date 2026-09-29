@@ -1,0 +1,60 @@
+{
+  "source_sha256": "46330f69997455019cf5ffdb913ec9bdb461ae05811d928f6150db9fc30afe21",
+  "output_sha256": "2acf3bd549403284145644215a3e1511f7637edd81eded6447a2bd85bee4b12e",
+  "source_sentence_count": 4,
+  "output_sentence_count": 5,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 147,
+      "output_start": 0,
+      "output_end": 206,
+      "source_text": "The letter from the bank has been under the pizza menus since before your birthday, and you know exactly which part of the kitchen not to look at. ",
+      "output_text": "There's a letter from the bank tacked underneath some pizza restaurant menus on the fridge, and it's been there for longer than your birthday. You're well aware of which part of the kitchen not to look at. ",
+      "word_overlap": 0.5,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 147,
+      "source_end": 342,
+      "output_start": 206,
+      "output_end": 357,
+      "source_text": "Opening it and sitting through forty minutes of hold music is the Protector on a normal day. Your little one has heard \"I've got you\" plenty, including from you, and then watched nothing happen. ",
+      "output_text": "You know that if you opened that letter and sat through forty minutes of hold music, it'd be the least of what the Protector would do on a normal day. ",
+      "word_overlap": 0.3939393939393939,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 342,
+      "source_end": 418,
+      "output_start": 357,
+      "output_end": 536,
+      "source_text": "A few calls like that, though, and they stop checking whether you meant it.\n",
+      "output_text": "Your little one's heard enough promises of `` I've got you'' to know that even if you say it, it'll be to no avail. A few times, and he'll even learn to not expect you to mean it.",
+      "word_overlap": 0.18181818181818182,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
