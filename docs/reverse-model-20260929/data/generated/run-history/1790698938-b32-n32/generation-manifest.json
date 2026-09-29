@@ -2,11 +2,6 @@
   "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
   "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
   "seed": 3407,
-  "pipeline_revision": 2,
-  "copy_policy": "normalized-word-runs-exempting-source-verified-quotes-v1",
-  "copy_maximum_shared_words": 10,
-  "copy_retry_limit": 1,
-  "existing_repairs_are_the_single_retry": true,
   "input_sha256": "56869801ee7f95dfea1681170c745cacf112f93c117a185177c515568c80b089",
   "batch_size": 32,
   "generation_temperature": 0.7,
@@ -15,7 +10,7 @@
   "thinking": "non-thinking checkpoint",
   "prompts": {
     "paraphrase": "Rewrite this paragraph to be clearer and more polished.",
-    "notes": "Extract a complete numbered list of the content of the passage below. Include every fact, example, number, name, qualification, negation, cause, comparison, opinion and relationship. Preserve uncertainty and who said what. Do not summarize away details or add facts. Use short fragments in your own words, never sentences copied from the passage. Keep names, numbers, dates, units, links and quotations exact; put quoted speech inside quotation marks. Outside quotations, do not copy a run of more than 10 consecutive words. Output only the notes.\n\nPASSAGE:\n",
+    "notes": "Extract a complete numbered list of the content of the passage below. Include every fact, example, number, name, qualification, negation, cause, comparison, opinion and relationship. Preserve uncertainty and who said what. Do not summarize away details or add facts. Output only the notes.\n\nPASSAGE:\n",
     "regeneration": [
       "Write this up as a blog paragraph.",
       "Turn these notes into a section.",

@@ -1,0 +1,44 @@
+{
+  "observed_provider_unix": 1790700727.2101238,
+  "repo": "60888b1c4929bbad57b87b18ce4e75b2a3c464ad",
+  "agents_sha256": "1b260fbb3396bbaf2d0f1c5041f8a46c3b97f53584f98acb39bbdcb423b0c6e7",
+  "supervisor": [
+    "reverse-pilot-base-download      STOPPED   Not started",
+    "reverse-pilot-batch16            STOPPED   Not started",
+    "reverse-pilot-batch32            STOPPED   Not started",
+    "reverse-pilot-benchmark          STOPPED   Not started",
+    "reverse-pilot-copy-repair        STOPPED   Not started",
+    "reverse-pilot-download           STOPPED   Not started",
+    "reverse-pilot-fit                STOPPED   Not started"
+  ],
+  "gpu": "0, 4, 40960",
+  "disk_free_bytes": 103710515200,
+  "audit": {
+    "processed": 62,
+    "accepted": 18,
+    "pending": 0,
+    "repaired_final": 30,
+    "incomplete_tail": false
+  },
+  "requests": 287,
+  "requests_incomplete_tail": false,
+  "attempt_records": 32,
+  "attempts_incomplete_tail": false,
+  "latest_receipt": {
+    "started_unix": 1790698938.2518823,
+    "run_id": "1790698938-b32-n32",
+    "repo_commit": "60888b1c4929bbad57b87b18ce4e75b2a3c464ad",
+    "generator_sha256": "c003948984ff9d791860c493be046f3f25a23aeb75e1ebb092a785bd632977b6",
+    "source_sha256": "56869801ee7f95dfea1681170c745cacf112f93c117a185177c515568c80b089",
+    "processed_before": 60,
+    "batch_size": 32,
+    "new_passage_limit": 32,
+    "deadline_seconds": 3600,
+    "termination_grace_seconds": 120,
+    "status": "COMPLETE",
+    "ended_unix": 1790699417.4182467,
+    "returncode": 0
+  },
+  "base_status": "RUNNING",
+  "base_verified_weights": 8
+}
