@@ -1,0 +1,40 @@
+{
+  "source_sha256": "dcd439a6e61c72c3bf98f9ce95ff63e09e9cae71e31f9ad9bd1c71347ffcb0af",
+  "output_sha256": "a6075c594f6a89376c475910ec86d0757aaa3fec496d0be61902603e270c2f30",
+  "source_sentence_count": 3,
+  "output_sentence_count": 1,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [],
+      "source_start": 0,
+      "source_end": 88,
+      "output_start": 0,
+      "output_end": 0,
+      "source_text": "Once my body softens a little, I don't have to use that opening to go looking for pain. ",
+      "output_text": "",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 88,
+      "source_end": 328,
+      "output_start": 0,
+      "output_end": 318,
+      "source_text": "I can bring to mind a pet, a baby, a friend, a partner, or anyone I naturally love. I feel the real love that's already there and see if some of it can move from my heart toward the younger part around the solar plexus, then back up again.\n",
+      "output_text": "You may find that once you have softened a little you may not need to use the above method to begin with, you might just think of something you love, a pet, a baby, a friend, your partner etc., and feel the love that is there and try to send it from your heart to your younger self at your solar plexus and back again.",
+      "word_overlap": 0.3826086956521739,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
