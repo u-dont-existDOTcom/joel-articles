@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1301-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/2ace05f8-94b6-43ce-83cf-4605bc6f83b9",
+  "input_sha256": "e526505730bf4f14c2bd987c98e7b44dab635be5356d4394cac77277a07a62a0",
+  "input_words": 227,
+  "before": 44038,
+  "after": 43811,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 247,
+      "sha256": "1a220dcee4b857712869191d623af030c6d5dc304ffb14c5355ef671a99327b2",
+      "page_sha256": "1a220dcee4b857712869191d623af030c6d5dc304ffb14c5355ef671a99327b2",
+      "has_list": false,
+      "last": "onflict? Can someone veto things? What happened when someone tried to leave? Who owns the land? Remember, at the end of the day, the view will still be there..."
+    },
+    {
+      "option": "B",
+      "words": 234,
+      "sha256": "af9fefd2fd2450331a689c0b73da5d5e2f1a2020960f149a83913cf3acd719d2",
+      "page_sha256": "af9fefd2fd2450331a689c0b73da5d5e2f1a2020960f149a83913cf3acd719d2",
+      "has_list": false,
+      "last": "ons and words match up with your own values. Don’t forget to ask about conflict, decision making, what happens when people want to leave, and who owns the land."
+    }
+  ]
+}

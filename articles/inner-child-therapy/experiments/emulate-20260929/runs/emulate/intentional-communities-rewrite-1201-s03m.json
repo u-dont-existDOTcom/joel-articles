@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1201-s03m",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/3bcca2af-5cec-4824-b054-93b09f7ea98a",
+  "input_sha256": "40ff0188372947fcd8c0c18a431351e543eab048c1c56ea070a9a35a834e8097",
+  "input_words": 248,
+  "before": 44485,
+  "after": 44237,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 327,
+      "sha256": "aaf3fd2d9549489bc7644ae2a4d417648a851cf27d0ed08ba1bad8e87fc4e67e",
+      "page_sha256": "aaf3fd2d9549489bc7644ae2a4d417648a851cf27d0ed08ba1bad8e87fc4e67e",
+      "has_list": false,
+      "last": "t building up your resource in your current situation.\n\nOf course, there are ways of saying \"later\" or \"in a different capacity\" or \"with more support\" as well."
+    },
+    {
+      "option": "B",
+      "words": 313,
+      "sha256": "55c2d68861d5a7936d07417b82db0d04d25dd670b9315035a6ca6132da8b21ba",
+      "page_sha256": "55c2d68861d5a7936d07417b82db0d04d25dd670b9315035a6ca6132da8b21ba",
+      "has_list": false,
+      "last": "rrent life.\n\nDevelop a membership process that allows us to say “later” or “in a different capacity” or “with more support” without rejecting people completely."
+    }
+  ]
+}

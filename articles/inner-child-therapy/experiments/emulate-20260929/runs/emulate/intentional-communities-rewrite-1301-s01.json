@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1301-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/952aaccb-06b1-40e8-b000-645542a2ccde",
+  "input_sha256": "f7a46d19994ae5f7db1134c3b27c7ff512f6bd3f450d333a8d7223590695c6e7",
+  "input_words": 199,
+  "before": 44237,
+  "after": 44038,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 225,
+      "sha256": "f10eacbcc4a2097d173da6ea865dcdf602b42e2bd9484ccbdb10528f4fcd9da6",
+      "page_sha256": "f10eacbcc4a2097d173da6ea865dcdf602b42e2bd9484ccbdb10528f4fcd9da6",
+      "has_list": false,
+      "last": ", as well as the skills required. Lots of people can do conflict well, but if the well goes dry or only one person knows where the tools are, you’re in trouble."
+    },
+    {
+      "option": "B",
+      "words": 203,
+      "sha256": "fc96b00d37cb338729b5ef720742bae77d88d9e3b0e0debf580b4a4cd8fafc0c",
+      "page_sha256": "fc96b00d37cb338729b5ef720742bae77d88d9e3b0e0debf580b4a4cd8fafc0c",
+      "has_list": false,
+      "last": " Don’t make the mistake of thinking that because you’re all brilliant, super-effective emotionally intelligent people, that you don’t also need to be practical."
+    }
+  ]
+}

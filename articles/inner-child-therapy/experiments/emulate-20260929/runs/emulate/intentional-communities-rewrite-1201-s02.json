@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1201-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/222e3e89-854c-4eea-848a-9b02fb394cad",
+  "input_sha256": "06fe1ac03d61703aa114f2367445ae05192445e5de5dc1415c01e83568f91827",
+  "input_words": 229,
+  "before": 44714,
+  "after": 44485,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 225,
+      "sha256": "21718bd869c7b2200af3d3d446ae7da811e65a8096c50ee6b39e2d1f3bdb537a",
+      "page_sha256": "21718bd869c7b2200af3d3d446ae7da811e65a8096c50ee6b39e2d1f3bdb537a",
+      "has_list": false,
+      "last": "g able to absorb someone into a community is a question of having the resources to do so, and trying to do so when you don't have the resources can hurt people."
+    },
+    {
+      "option": "B",
+      "words": 280,
+      "sha256": "f6a9a1e9fb078495d64b0bd251a60686f98927819bae9a5ab7802b11cc4a4149",
+      "page_sha256": "f6a9a1e9fb078495d64b0bd251a60686f98927819bae9a5ab7802b11cc4a4149",
+      "has_list": false,
+      "last": "n just feeling for them. Taking people in when you don’t have the resource can often be damaging to both the existing group and those you are trying to take in."
+    }
+  ]
+}
