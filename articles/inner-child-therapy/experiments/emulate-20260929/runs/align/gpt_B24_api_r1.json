@@ -1,0 +1,43 @@
+{
+  "source_sha256": "0bf91ba42ac433a07a8090feb8fd08c5aa9cdccc6f82f317278701db3e21abab",
+  "output_sha256": "8ae28a5c763674f57fdf2cc8178e7215982589d96f6c69dc0ecdb9a6822b7784",
+  "source_sentence_count": 4,
+  "output_sentence_count": 2,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 146,
+      "output_start": 0,
+      "output_end": 215,
+      "source_text": "By seven you've already figured out that the shop on the corner sells wine till ten, and the craving is about as loud as it gets. Let it be loud. ",
+      "output_text": "Drink my dear, the shop is open till ten o'clock And I know you want some, you've been whinging for ages I know you're only seven but the Protector says yes So go my dear and get me something nice, no shoes though. ",
+      "word_overlap": 0.1038961038961039,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 146,
+      "source_end": 317,
+      "output_start": 215,
+      "output_end": 268,
+      "source_text": "The Protector still decides whether your shoes go on, and tonight they stay by the door. At ten you hear the shop's shutter come down, and you haven't stopped wanting it.\n",
+      "output_text": "Ten o'clock, the shop is closed, I still want a drink",
+      "word_overlap": 0.13333333333333333,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
