@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/a4e92755-ff40-4585-9bd0-d82a5366c36a",
+  "input_sha256": "a0069277b96cb49c84769b5737ac25adf48f7b579d2ef1cbdf00626a748fe353",
+  "input_words": 169,
+  "before": 34764,
+  "after": 34595,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 201,
+      "sha256": "c0dafc4d841362939ff53ebd66f8a74ccaef5f63241d591f97a2c4bdbd02f7d2",
+      "page_sha256": "c0dafc4d841362939ff53ebd66f8a74ccaef5f63241d591f97a2c4bdbd02f7d2",
+      "has_list": false,
+      "last": "l require less and less effort, and not require your supervision. Know that no means no. No silence will be taken as authorization for the narrator to continue."
+    },
+    {
+      "option": "B",
+      "words": 246,
+      "sha256": "06ec88124f075a7720b8fccd1e05d76d16aac04ba4d0315ab1fd042aa0cb347b",
+      "page_sha256": "06ec88124f075a7720b8fccd1e05d76d16aac04ba4d0315ab1fd042aa0cb347b",
+      "has_list": false,
+      "last": "all of it. This helps make the response more effortless. As always, if you say \"no,\" it's \"no.\" And if you don't say anything, nobody's going to say it for you."
+    }
+  ]
+}

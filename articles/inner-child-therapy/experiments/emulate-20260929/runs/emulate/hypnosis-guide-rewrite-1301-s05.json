@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s05",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/7233989d-0c10-4540-b729-30262499fa61",
+  "input_sha256": "daae42821194cad1019bd10371150570e517d9b84dbe31eecfc9ff8e894fe129",
+  "input_words": 222,
+  "before": 34388,
+  "after": 34166,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 216,
+      "sha256": "89f4e4a5380aaf6b0fd81e33ad1ab63bb407e23aa07c9c29a95a6e81eaf6f0a7",
+      "page_sha256": "89f4e4a5380aaf6b0fd81e33ad1ab63bb407e23aa07c9c29a95a6e81eaf6f0a7",
+      "has_list": false,
+      "last": "gain to that thing you have chosen to focus on. Four, just let your focus gather on that thing. Three\n\nTwo, just listen in to that space for a little while. One"
+    },
+    {
+      "option": "B",
+      "words": 150,
+      "sha256": "8a732793dd6052aa358689fd4a8dac749a6706f56dad5a36d803cdc235e24672",
+      "page_sha256": "8a732793dd6052aa358689fd4a8dac749a6706f56dad5a36d803cdc235e24672",
+      "has_list": false,
+      "last": "\nCounting down slowly from 5…..\n\n5…..noticing once again your chosen anchor…..4…..allowing yourself to focus on that…..3…..\n\n2…..listening into the space…..1….."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s06",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/7fc86c92-6621-4892-8b45-1d7e704f7de7",
+  "input_sha256": "6df5ccdbcb9146b870242e7fd2843f32944f50a56a81b44b85f1b5e0abf1ee16",
+  "input_words": 226,
+  "before": 34166,
+  "after": 33940,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 245,
+      "sha256": "0f04aeb6da932365a4f5e3b09275daee22b93d376ca8f4076165523cd5e4b2e0",
+      "page_sha256": "0f04aeb6da932365a4f5e3b09275daee22b93d376ca8f4076165523cd5e4b2e0",
+      "has_list": false,
+      "last": "xt useful thing I need to know in a way I can integrate – it can be a truth, a symbol, a feeling, a question, an action etc, but only in a dose I can integrate."
+    },
+    {
+      "option": "B",
+      "words": 276,
+      "sha256": "daa12361cf815283e0657fc957a0418256ebfe20d00ba9aff20b5b53dd0fdd5d",
+      "page_sha256": "daa12361cf815283e0657fc957a0418256ebfe20d00ba9aff20b5b53dd0fdd5d",
+      "has_list": true,
+      "last": "for example: “Show me what I need to know – whether it be a truth, a symbol, a feeling, a question, an action etc. But only show me as much as I can integrate.”"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/7e7661fa-741f-4856-bc9b-863ae0ee6261",
+  "input_sha256": "1faa37dca395bf29f39702c79e892020633555e9d1a68129e3541303a63bdb2e",
+  "input_words": 207,
+  "before": 34595,
+  "after": 34388,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 222,
+      "sha256": "0bfd3ab43a7378d36611d2b8dd9cc764d90b4eb7f1f38b9d6be61fa2d7aad03e",
+      "page_sha256": "0bfd3ab43a7378d36611d2b8dd9cc764d90b4eb7f1f38b9d6be61fa2d7aad03e",
+      "has_list": false,
+      "last": "ith the surface that's supporting you. Feel the contact. Feel the pressure. Be aware of it while you also become aware of the sound/your breathing/whatever....\""
+    },
+    {
+      "option": "B",
+      "words": 211,
+      "sha256": "3993462f5fa964c2d2cc38b74283f211dbcfbec5bbc6b78583cd47c0c877811d",
+      "page_sha256": "3993462f5fa964c2d2cc38b74283f211dbcfbec5bbc6b78583cd47c0c877811d",
+      "has_list": false,
+      "last": "ou settle back onto the surface beneath you, just notice the feeling of contact with that surface. Perhaps you can become aware of a sound or of your breathing."
+    }
+  ]
+}

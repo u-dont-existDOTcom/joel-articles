@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/4e65157c-db06-4b62-ab17-acca4f641797",
+  "input_sha256": "8b34b605a315e8a4ebe7a26f72795d07f186acc552469ac1e3817edf19ea8a55",
+  "input_words": 198,
+  "before": 34962,
+  "after": 34764,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 292,
+      "sha256": "013f0350c057764ec215c482597bde5a235c8068420f0e4eaa658dbc10d2da02",
+      "page_sha256": "dec87b60439eb5682b155bd8d1ea76e7b6c99d684c359cfe4ac4568bff399801",
+      "has_list": true,
+      "last": "ou can ALWAYS bring in love, play, confidence, creativity, communion, etc. f) make sure you give yourself enough time to come back and reflect on the experience"
+    },
+    {
+      "option": "B",
+      "words": 243,
+      "sha256": "92f0cdf5684a5591c5fe95c6ba3b0bbfdba7c9e61dd57add3fdd12f69eab88c5",
+      "page_sha256": "92f0cdf5684a5591c5fe95c6ba3b0bbfdba7c9e61dd57add3fdd12f69eab88c5",
+      "has_list": false,
+      "last": "lop. It doesn't have to be a problem, it can be love, play, confidence, creativity or communion. Decide what you want to leave alone and how long you can spend."
+    }
+  ]
+}

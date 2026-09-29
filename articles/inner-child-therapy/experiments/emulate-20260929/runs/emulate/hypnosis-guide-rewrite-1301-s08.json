@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s08",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/0fd50857-16ce-43e3-bc1a-50fc1c0fd9c6",
+  "input_sha256": "520e741ca23fd5911d7f14738f8358db175cbff906b69e210c4929439ab64a27",
+  "input_words": 211,
+  "before": 33726,
+  "after": 33515,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 232,
+      "sha256": "1c532763d6d64ca834d0f4486e824c0bb54de3864c4dd270a8fe85881f293020",
+      "page_sha256": "1c532763d6d64ca834d0f4486e824c0bb54de3864c4dd270a8fe85881f293020",
+      "has_list": false,
+      "last": "fire with Protector nearby, quiet place by a lake, sitting on a chair as an adult... Just one.\n\n“Who or what needs to speak first?”\n\nOptional trance depth check"
+    },
+    {
+      "option": "B",
+      "words": 270,
+      "sha256": "dae251554c3279bfc330169fdef0006dfaf4dded2e3eb03eb38341bd9a4b5c18",
+      "page_sha256": "dae251554c3279bfc330169fdef0006dfaf4dded2e3eb03eb38341bd9a4b5c18",
+      "has_list": false,
+      "last": " fire (sit next to your Protector), the lake, the chair (the adult part waits for the child) …\n\n“Who or what needs to speak first?”\n\nOptional trance depth check"
+    }
+  ]
+}

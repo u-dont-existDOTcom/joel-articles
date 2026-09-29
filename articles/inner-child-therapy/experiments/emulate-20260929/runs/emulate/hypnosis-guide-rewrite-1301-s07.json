@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s07",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/f51b5445-74fc-44c2-8174-6b50825e156b",
+  "input_sha256": "f7d75c31cc7565abafe47aac225bac5993266c757a3751cb89449dfd488ec826",
+  "input_words": 214,
+  "before": 33940,
+  "after": 33726,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 252,
+      "sha256": "1afa0e4e6bc5abf1e97fc6ec504766455be37ebb576eb4cb14cc0fd17261a1b5",
+      "page_sha256": "1afa0e4e6bc5abf1e97fc6ec504766455be37ebb576eb4cb14cc0fd17261a1b5",
+      "has_list": false,
+      "last": ".g. nurturer in your heart, the part of you that feels vulnerable like a child in your solar plexus.\n\nBreathe gently.\n\n“Love above. Child below. Adult present.”"
+    },
+    {
+      "option": "B",
+      "words": 223,
+      "sha256": "256417b1afa87550d0aa17600ab57f6f585bcea8f293cd1eabe69731a4376dd7",
+      "page_sha256": "256417b1afa87550d0aa17600ab57f6f585bcea8f293cd1eabe69731a4376dd7",
+      "has_list": false,
+      "last": "the hand on your heart be your Nurturer. Let the hand on your solar plexus be your vulnerable child.\n\nBreathe gently.\n\n“Love above. Child below. Adult present.”"
+    }
+  ]
+}

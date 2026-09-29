@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/0a6c389a-2c59-4467-916b-551337363fd9",
+  "input_sha256": "18469b93fe0a97bab81b74717499c9520968f472b9e4fd1f13eb8146e3e6171d",
+  "input_words": 188,
+  "before": 35150,
+  "after": 34962,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 228,
+      "sha256": "16aa9d4b6042338cc10c925dd9a8b9a58450e17c756114e40c383ca7358c26f6",
+      "page_sha256": "16aa9d4b6042338cc10c925dd9a8b9a58450e17c756114e40c383ca7358c26f6",
+      "has_list": false,
+      "last": "If you’ve chosen a simple target, you may want to try out your suggestion before you do an induction. If you’re getting what you want, then you can deepen it by"
+    },
+    {
+      "option": "B",
+      "words": 219,
+      "sha256": "d43abc4397636a400c9e79b2ca491b53026f82be71f508bbef502e7ca1c9c0a0",
+      "page_sha256": "d43abc4397636a400c9e79b2ca491b53026f82be71f508bbef502e7ca1c9c0a0",
+      "has_list": false,
+      "last": "want to try it out before deepening trance, in order to work with what works. The induction serves to get you in a receptive place to listen to the suggestions."
+    }
+  ]
+}
