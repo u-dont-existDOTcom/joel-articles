@@ -37,7 +37,10 @@ Worker Emulate charges: {charged}; latest measured balance {me['words_left']} at
 
 Own branch only; no published article changes or authority promotion. Outcome remains incomplete at the recorded external access boundary.
 ''')
-files=set(git('diff','--name-only','HEAD').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
+# Reconcile the entire writer-owned delta, including earlier manual checkpoints.
+# Checking only the latest working-tree delta can leave prior artifacts unregistered.
+writer_base='c20fb7d8516e162f988ef24c2f0b31a14538eca8'
+files=set(git('diff','--name-only',writer_base).splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
 index_path=root/'articles/INDEX.json'
 index=json.loads(index_path.read_text())
 article=next(a for a in index['articles'] if a['id']=='inner-child-therapy')
