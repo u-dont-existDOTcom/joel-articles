@@ -1,0 +1,115 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2133 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: Choose one way to protect your little one and decide which day, how small the first step is allowed to be, and what it needs, like a friend who knows it's today or an evening with nothing else in it. If a hard moment is on the calendar, such as a talk with your landlord or a visit home, rehearse the one sentence you'll need out loud. The first time, it may come out sounding like a question.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- button:
+- status
+- alert
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2133 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: Choose one way to protect
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 02:09 AM
+  - generic: 80 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: Choose one way to protect your little one and decide which day, how small the first step is allowed to be, and what it needs, like a friend who knows it's today or an evening with nothing else in it. If a hard moment is on the calendar, such as a talk with your landlord or a visit home, rehearse the one sentence you'll need out loud. The first time, it may come out sounding like a question.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "AI Confidence level 80 words Choose one way to protect your little one and decide which day, how small the first step is allowed to be, and what it needs, like a friend who knows it's today or an evening with nothing else in it. If a hard moment is on the calendar, such as a talk with your landlord or a visit home, rehearse the one sentence you'll need out loud. The first time, it may come out sounding like a question." [level=3]:
+      - button "AI Confidence level 80 words Choose one way to protect your little one and decide which day, how small the first step is allowed to be, and what it needs, like a friend who knows it's today or an evening with nothing else in it. If a hard moment is on the calendar, such as a talk with your landlord or a visit home, rehearse the one sentence you'll need out loud. The first time, it may come out sounding like a question.":
+        - generic: AI
+        - generic "Confidence level":
+          - text: low
+        - generic: 80 words
+        - generic: Choose one way to protect your little one and decide which day, how small the first step is allowed to be, and what it needs, like a friend who knows it's today or an evening with nothing else in it. If a hard moment is on the calendar, such as a talk with your landlord or a visit home, rehearse the one sentence you'll need out loud. The first time, it may come out sounding like a question.
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
