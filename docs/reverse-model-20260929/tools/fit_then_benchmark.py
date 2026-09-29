@@ -15,7 +15,7 @@ def main(args):
         if report.get('status')=='FAIL':
             raise SystemExit('Fit failed; benchmark not started. Diagnose the recorded failure.')
         if 'EXITED' in status:
-            assert report.get('status')=='PASS' and 'exit status 0' in status,status
+            assert report.get('status')=='PASS' and len(report.get('steps',[]))==2,status
             break
         if 'FATAL' in status or 'STOPPED' in status:
             raise SystemExit('Fit is not running; benchmark not started.')
