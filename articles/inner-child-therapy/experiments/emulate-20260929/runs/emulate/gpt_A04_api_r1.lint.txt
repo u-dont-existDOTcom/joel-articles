@@ -1,0 +1,8 @@
+== tells_lint: /home/joel/.codex/.chatgpt-projects/g-p-6a5d356ea2bc8191b535f9d0a0b13574/emulate-overnight-work/articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_A04_api_r1.txt
+verdict: FAIL
+  HARD: E41 coach register: 4.6 coach phrases per 100 of my words (limit 2.0)
+metrics: {'words': 65, 'my_words': 65, 'paragraphs': 1, 'coach_per_100': 4.62, 'you_per_100': 9.2, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 1, 'repeated_openers': {}}
+-- E36/E41 heavy second person (1)
+   * 9.2 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * What you can do if they still don't love you Yet, you can at least not make it worse by: Continuing to insult them Telling them what to do Attempting to hurry t

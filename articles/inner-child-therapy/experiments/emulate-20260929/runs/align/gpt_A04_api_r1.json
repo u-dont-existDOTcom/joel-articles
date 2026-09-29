@@ -1,0 +1,68 @@
+{
+  "source_sha256": "d382882f14100a8f1c0908c5eb9a0b2b9fc372da88432ba624b83388cc395d44",
+  "output_sha256": "27d04b957d16772b18ea97214863c93e28cdeaa6f639a940b2049e6b29814890",
+  "source_sentence_count": 5,
+  "output_sentence_count": 1,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [],
+      "source_start": 0,
+      "source_end": 79,
+      "output_start": 0,
+      "output_end": 0,
+      "source_text": "If the love still isn't coming, you can at least stop judging your little one. ",
+      "output_text": "",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [],
+      "source_start": 79,
+      "source_end": 134,
+      "output_start": 0,
+      "output_end": 0,
+      "source_text": "No insults, including the ones that sound like advice. ",
+      "output_text": "",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [],
+      "source_start": 134,
+      "source_end": 151,
+      "output_start": 0,
+      "output_end": 0,
+      "source_text": "No rushing them. ",
+      "output_text": "",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3,
+        4
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 151,
+      "source_end": 309,
+      "output_start": 0,
+      "output_end": 330,
+      "source_text": "And don't expect a thank-you for the session, like they booked it. That's enough to start being the adult, even if it isn't enough yet for them to trust you.\n",
+      "output_text": "What you can do if they still don't love you Yet, you can at least not make it worse by: Continuing to insult them Telling them what to do Attempting to hurry them up Expecting them to be grateful for having paid to sit through your session It won't make them trust you, but at least it'll show them you can be an adult sometimes.",
+      "word_overlap": 0.17647058823529413,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
