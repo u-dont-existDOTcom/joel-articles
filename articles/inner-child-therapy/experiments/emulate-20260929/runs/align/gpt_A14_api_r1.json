@@ -1,0 +1,76 @@
+{
+  "source_sha256": "4cf854593a26b9101aeda1344955c104525974159338988bf228aa894df58ca7",
+  "output_sha256": "ab3ddb90aa54987d612d5b3b28069add2a2d480eebbdbd9fa7214e50ac2be487",
+  "source_sentence_count": 5,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 22,
+      "output_start": 0,
+      "output_end": 26,
+      "source_text": "Stay there for a bit. ",
+      "output_text": "And stay there for a bit. ",
+      "word_overlap": 0.9090909090909091,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1,
+        2
+      ],
+      "source_start": 22,
+      "source_end": 75,
+      "output_start": 26,
+      "output_end": 235,
+      "source_text": "Later, ask the fun question: what actually happened? ",
+      "output_text": "Later on, when you’re feeling good, you can get curious with yourself and wonder what it was about what the other person did or said that actually felt like a violation. Maybe they did do something violating. ",
+      "word_overlap": 0.13043478260869565,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 75,
+      "source_end": 233,
+      "output_start": 235,
+      "output_end": 274,
+      "source_text": "Somebody may really have crossed a boundary and still have hit something old in you. You felt your stomach tighten up, and that somehow meant “They're evil.” ",
+      "output_text": "Maybe they triggered something in you. ",
+      "word_overlap": 0.17647058823529413,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 233,
+      "source_end": 303,
+      "output_start": 274,
+      "output_end": 478,
+      "source_text": "But you can defer that judgement for when you're in your happy place.\n",
+      "output_text": "But you don’t have to figure it out now in order to get out of the pit of your stomach and get into a happier place. You can always come back and decide later if this other person is actually evil or not.",
+      "word_overlap": 0.10344827586206896,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

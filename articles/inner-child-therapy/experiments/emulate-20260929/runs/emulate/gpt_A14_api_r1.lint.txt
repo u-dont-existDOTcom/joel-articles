@@ -1,0 +1,9 @@
+== tells_lint: /home/joel/.codex/.chatgpt-projects/g-p-6a5d356ea2bc8191b535f9d0a0b13574/emulate-overnight-work/articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_A14_api_r1.txt
+verdict: FAIL
+  HARD: E41 coach register: 2.1 coach phrases per 100 of my words (limit 2.0)
+metrics: {'words': 94, 'my_words': 94, 'paragraphs': 1, 'coach_per_100': 2.13, 'you_per_100': 6.4, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.68, 'repeated_openers': {}}
+-- E36/E41 heavy second person (1)
+   * 6.4 "you" per 100 of my words
+-- E41 coach phrase (2)
+   * Later on, when you’re feeling good, you can get curious with yourself and wonder what it was about what the other person did or said that actually felt like a v
+   * You can always come back and decide later if this other person is actually evil or not.
