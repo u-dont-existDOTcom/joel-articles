@@ -1,0 +1,58 @@
+{
+  "source_sha256": "e1c3daffab315508278caddd61e66173aef4af2ce743eedca4c5906ce0ac1bac",
+  "output_sha256": "24ade39c7c62177be4a15ee3b1d6dce96a0f349072c256159e9c7f422db933ae",
+  "source_sentence_count": 3,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 147,
+      "output_start": 0,
+      "output_end": 213,
+      "source_text": "You promised your little one a cinnamon roll if you finally took the car in about the squeaky brakes, so you do, and then you actually go get one. ",
+      "output_text": "`` I promise, as soon as we get these brakes looked at we can have that cinnamon roll.'' It is rare that the Protector does n't get them their treat of choice after finally getting them to go deal with something. ",
+      "word_overlap": 0.11428571428571428,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 147,
+      "source_end": 272,
+      "output_start": 213,
+      "output_end": 355,
+      "source_text": "Most of the Protector's job is about that size, though at its biggest it's getting out of a relationship you're not safe in. ",
+      "output_text": "The biggest thing a Protector ever has to help with is helping the one they are protecting get out of a relationship where they are not safe. ",
+      "word_overlap": 0.33962264150943394,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 272,
+      "source_end": 414,
+      "output_start": 355,
+      "output_end": 519,
+      "source_text": "Your little one starts to trust the cinnamon rolls, after plenty of \"Oh, sweetie\" from grown-ups who went right back to what they were doing.\n",
+      "output_text": "The joy they feel when the `` little one'' finally believes they will get those cinnamon rolls after all the `` oh sweetie'' and going back to what they were doing.",
+      "word_overlap": 0.4727272727272727,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
