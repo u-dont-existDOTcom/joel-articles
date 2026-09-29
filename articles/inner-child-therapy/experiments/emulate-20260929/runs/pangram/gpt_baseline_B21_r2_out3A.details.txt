@@ -1,0 +1,118 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2127 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: There's a parking ticket from April under the napkins in your glove box, and by now it's doubled. Your little one has been told "I'll take care of you" before, and then nobody did. They're keeping an eye on that ticket. The Protector's job can get as big as leaving someone who isn't safe for you, but most weeks it's the glove box.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- button:
+- status
+- alert
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2127 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: There's a parking ticket from
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 02:16 AM
+  - generic: 70 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: There's a parking ticket from April under the napkins in your glove box, and by now it's doubled. Your little one has been told "I'll take care of you" before, and then nobody did. They're keeping an eye on that ticket. The Protector's job can get as big as leaving someone who isn't safe for you, but most weeks it's the glove box.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "AI Confidence level 70 words There's a parking ticket from April under the napkins in your glove box, and by now it's doubled. Your little one has been told \"I'll take care of you\" before, and then nobody did. They're keeping an eye on that ticket. The Protector's job can get as big as leaving someone who isn't safe for you, but most weeks it's the glove box." [level=3]:
+      - button "AI Confidence level 70 words There's a parking ticket from April under the napkins in your glove box, and by now it's doubled. Your little one has been told \"I'll take care of you\" before, and then nobody did. They're keeping an eye on that ticket. The Protector's job can get as big as leaving someone who isn't safe for you, but most weeks it's the glove box.":
+        - generic: AI
+        - generic "Confidence level":
+          - text: low
+        - generic: 70 words
+        - generic: There's a parking ticket from April under the napkins in your glove box, and by now it's doubled. Your little one has been told "I'll take care of you" before, and then nobody did. They're keeping an eye on that ticket. The Protector's job can get as big as leaving someone who isn't safe for you, but most weeks it's the glove box.
+    - region "AI Confidence level 70 words There's a parking ticket from April under the napkins in your glove box, and by now it's doubled. Your little one has been told \"I'll take care of you\" before, and then nobody did. They're keeping an eye on that ticket. The Protector's job can get as big as leaving someone who isn't safe for you, but most weeks it's the glove box.":
+      - text: AI
+      - generic: We believe the segment is AI-generated
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
