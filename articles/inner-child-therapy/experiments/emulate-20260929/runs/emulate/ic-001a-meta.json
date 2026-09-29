@@ -1,0 +1,32 @@
+{
+  "url": "https://www.tryemulate.ai/dashboard/drafts/16b4864a-7bf6-481b-82a8-f27396854d51",
+  "input_sha256": "8b5cdd627895ff55ed485d4cec745d5c07ae759fb1f07f9a7694a62cde11d692",
+  "style": {
+    "writing_for": "Auto",
+    "tone": "Auto",
+    "point_of_view": "Auto",
+    "formality": "Auto",
+    "reading_level": "Auto",
+    "sentences": "Auto",
+    "length": "Auto"
+  },
+  "options": [
+    {
+      "option": "A",
+      "words": 60,
+      "sha256": null,
+      "links": [
+        {
+          "href": "https://ibogaqueen.substack.com/p/wheres-utopia-click-read-more-my",
+          "text": "Continue reading A New Age Might Come Suddenly"
+        }
+      ]
+    },
+    {
+      "option": "B",
+      "words": 76,
+      "sha256": null,
+      "links": []
+    }
+  ]
+}
