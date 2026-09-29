@@ -1,9 +1,9 @@
 # Overnight run checkpoint
 
-Owner outcome OPEN. All external submissions approved; PDF downloads disabled after native Save As dialogs disrupted the owner. Exact detector result snapshots and spans remain the evidence.
+2026-09-29T02:16:34.264736+00:00. Owner outcome OPEN. External submissions approved; PDF downloads disabled after disruptive native Save As dialogs. Detector evidence is exact text snapshots and highlighted spans.
 
-Emulate charge test: two website options charged180 total; balance57,837. A copied exactly; B DOM-only diagnostic. Website pricing default, API fallback for lossless capture. No new API humanization calls yet.
+Worker scans saved: 25; latest Pangram balance 2128; logged worker credit charges 37. Five historical rechecks matched earlier labels. Baselines left: 69; GUI minimum exclusions: 10.
 
-Pangram: 16 worker scans saved; latest balance2137. Five historical rechecks matched all earlier labels. Exact originals/maps/input inventory/source lint reports prepared. E_holdout sealed, no article authority promotion.
+Worker Emulate charges: 180. Charge test established two website options cost180 together. A exact Copy capture; B DOM diagnostic only. Website pricing default; API fallback for lossless capture. Articles remain candidate-only; E_holdout excluded.
 
-Next: finish short learning and article baselines, then Part2 outputs/Part3 checks/Part4 mechanical experiments, and route Part5 reasoning to Pro. Own branch only, checkpoints pushed before another paid scan. Under50word baselines remain unmeasured at the GUI minimum.
+Next authorized work: finish baselines, run Part2 outputs and Part3 checks, Part4 mechanical experiments, then hand reasoning to Pro in Part5. Own branch only; no published article changes or authority promotion. Stop only at actual budget/access boundary.

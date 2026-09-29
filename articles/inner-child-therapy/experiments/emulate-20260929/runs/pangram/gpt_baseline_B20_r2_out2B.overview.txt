@@ -1,0 +1,127 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2128 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: You can write "You're safe with me" on a sticky note in your nicest handwriting, and your little one will still be waiting to see what you do about the bills underneath it. They've had grown-ups say sweet things and then not lift a finger. If it ever comes to it, the Protector packs a bag and leaves someone you're not safe with. Mostly, though, it's opening envelopes and checking your bank account with one eye shut.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- button:
+- status
+- alert
+- dialog "Text Query" [active]:
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2128 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: You can write "You're safe
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 02:14 AM
+  - generic: 82 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: You can write "You're safe with me" on a sticky note in your nicest handwriting, and your little one will still be waiting to see what you do about the bills underneath it. They've had grown-ups say sweet things and then not lift a finger. If it ever comes to it, the Protector packs a bag and leaves someone you're not safe with. Mostly, though, it's opening envelopes and checking your bank account with one eye shut.
+  - tablist:
+    - tab "Overview" [selected]:
+      - text: Overview
+    - tab "Details":
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Overview":
+    - generic: AI Generated
+    - generic: 82 words scanned
+    - generic: •
+    - generic: Short text
+    - 'generic "Detection model: Pangram 4.0"':
+      - generic: Pangram
+      - generic: "4.0"
+    - generic: We believe that this entire text is AI.
+    - generic: "100"
+    - generic: "%"
+    - generic: of this text is AI
+    - generic: Confidence limited — short text
+    - generic: •
+    - link "Learn more":
+      - /url: https://www.pangram.com/blog/why-does-pangram-have-a-minimum-word-count
+    - generic: Was this result helpful?
+    - button "Upvote result":
+    - button "Downvote result":
+    - button "Dismiss feedback":
+    - generic: Plagiarism Analysis
+    - generic: Check for Plagiarism
+    - generic: 1 credit / 100 words
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list

@@ -31,7 +31,7 @@ def request(path,body=None):
  data=None if body is None else json.dumps(body,ensure_ascii=False).encode()
  req=urllib.request.Request('https://www.tryemulate.ai'+path,data=data,headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
  with urllib.request.urlopen(req,timeout=60) as r:return json.loads(r.read())
-me=request('/v1/me');assert me['words_left']-words>=2000, 'reserve boundary'
+me=request('/v1/me');(p/'runs/me-latest.json').write_text(json.dumps({'observed_utc':datetime.now(timezone.utc).isoformat(),**me},indent=2)+'\n');assert me['words_left']-words>=2000, 'reserve boundary'
 reservation={'run_id':args.run_id,'input_file':str(rel),'input_words':words,'input_sha256':hashlib.sha256(text.encode()).hexdigest(),'allocation':args.allocation,'started_utc':datetime.now(timezone.utc).isoformat(),'status':'reserved_before_POST','balance_before':me['words_left']}
 reserve=p/'runs/emulate'/f'{args.run_id}.reservation.json';assert not reserve.exists(),'reserved run: recover before repeat'
 reserve.write_text(json.dumps(reservation,indent=2)+'\n')
@@ -46,8 +46,10 @@ for attempt in range(2):
   reservation['status']='error_no_automatic_resubmit';reserve.write_text(json.dumps(reservation,indent=2)+'\n');raise SystemExit(f'HTTP {e.code}; saved error, not repeated')
 assert isinstance(response,dict) and isinstance(response.get('text'),str)
 out.write_bytes(response['text'].encode('utf8'))
+(p/'runs/emulate'/f'{args.run_id}.response.json').write_text(json.dumps(response,ensure_ascii=False,indent=2)+'\n')
+after=request('/v1/me');(p/'runs/me-latest.json').write_text(json.dumps({'observed_utc':datetime.now(timezone.utc).isoformat(),**after},indent=2)+'\n')
 charged=response['words']['charged'];reservation.update(status='completed',provider_id=response['id'],words_charged=charged);reserve.write_text(json.dumps(reservation,indent=2)+'\n')
-row={**reservation,'style':{'transport':'API','requested':'Auto','resolved_style':'not exposed by API'},'output_file':str(out.relative_to(p)),'output_words':len(response['text'].split()),'output_sha256':hashlib.sha256(response['text'].encode()).hexdigest(),'response':response,'notes':'Authorized lossless API fallback; exact provider text, no editing.'}
+row={**reservation,'style':{'transport':'API','requested':'Auto','resolved_style':'not exposed by API'},'output_file':str(out.relative_to(p)),'output_words':len(response['text'].split()),'output_sha256':hashlib.sha256(response['text'].encode()).hexdigest(),'response':response,'balance_after':after['words_left'],'notes':'Authorized lossless API fallback; exact provider text, no editing.'}
 with (p/'runs/emulate.jsonl').open('a') as f:f.write(json.dumps(row,ensure_ascii=False)+'\n')
 lint=subprocess.run(['python3',str(repo/'articles/inner-child-therapy/tools/tells_lint.py'),str(out)],capture_output=True,text=True);out.with_suffix('.lint.txt').write_text(lint.stdout+lint.stderr)
 subprocess.run(['python3',str(p/'mechanical.py'),str(p/rel),str(out),str(p/'runs/align'/f'{args.run_id}.json')],check=True)
