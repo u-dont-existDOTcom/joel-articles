@@ -1,9 +1,8 @@
-2026-09-29 08:01 UTC cloud Work checkpoint. Parent outcome OPEN.
-
-The 99 prepared Part3 output checks now have dispositions: 78 new dashboard checks, two exact History recoveries, four earlier exact saved results and 15 GUI-minimum exclusions; none pending. Results are experimental observations only, ungraded for article acceptance. One accidental duplicate paid A11 paragraph submission is preserved as a distinct incident row in runs/pangram.jsonl.
-
-All remaining learning baselines were addressed: B22 and B24 newly AI Generated 100%; B23 exact saved text recovered from History as AI Generated 100% without another charge. The active baseline queue has 65 pending article section checks, 28 completed, one History recovery and ten GUI-minimum exclusions. Pangram last observed 1,995 credits; Emulate last observed 52,803 words. Preserve the Pangram below-300 stop and Emulate 2,000-word reserve.
-
-Article 1 (intentional-communities) is next in ARTICLES.md order. No article baseline was submitted. The GitHub raw-file route for h1-002 hit a cloud browser URL-policy denial, and the subsequent Back action was explicitly rejected with a no-workaround instruction. The exact source remains in runs/articles/intentional-communities/sections/002-original.md, SHA-256 6713ace3cdcc7f346fdb6677f474df30bff063a8b2e357af4097dded0acec015. Do not route around the browser denial. No article candidate, publication or authority promotion exists. Part4's 105 prepared splice/edit checks, D4/D6/D7 probes, and Pro Part5 analysis remain outstanding; Claude's later transfer stays separate. E_holdout remains sealed.
-
-Remote branch gpt/emulate-overnight-20260929 carries the exact rows and queue checkpoint. Continue only after the cloud browser's permitted source-transfer route is available; verify History and remote state first, and never repeat a saved paid check.
+2026-09-29 16:01 UTC cloud Work checkpoint. Parent outcome OPEN.
+The 99 prepared Part3 output checks and remaining learning baselines have dispositions in the exact result files; outputs remain ungraded for article acceptance.
+Claude's fix supplies 56 sentence checks and 52 revised article baseline paste files; the browser stays on Pangram and Emulate, with source bytes supplied by repository tools.
+The first ten sentence checks are saved: nine Human Written 100%, one AI Detected (35% AI, 65% Human) with exact later highlight. Forty-six sentence checks remain.
+Pangram 1,931→1,915 during these ten checks (16 credits); the 54-credit difference from Claude's prior 1,985 was present before this worker's scans. Emulate last observed 52,803 words. Preserve the Pangram below-300 stop and Emulate 2,000-word reserve.
+Claude already completed intentional-communities-baseline-01 at 14:44 UTC; its exact result is in runs/claude-pangram.jsonl and must not be repeated. Article rewrites remain untouched.
+After sentence checks, continue remaining article baselines in ARTICLES.md order, then website Emulate on flagged paragraphs and D6 links; Hearthwork only if budget remains. No Part5/Pro handoff under the current fix.
+No article candidate, publication or authority promotion exists. E_holdout remains sealed.
