@@ -1,0 +1,239 @@
+{
+  "source_sha256": "28725a948e65d2510f9e44c6e1d575f223feebce17b960267759b24b632fb886",
+  "output_sha256": "bdef8dc8011ae14d76de0dd8ad54a80cbb5f163816cc1fd2af590aef32e746b4",
+  "source_sentence_count": 17,
+  "output_sentence_count": 17,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 146,
+      "output_start": 0,
+      "output_end": 73,
+      "source_text": "Don’t worry if you can’t find anything that makes you feel warm and fuzzy for your little one. In that case, do this exercise for your Protector. ",
+      "output_text": "If you can’t come up with anything, do this exercise for your Protector. ",
+      "word_overlap": 0.5116279069767442,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        1,
+        2
+      ],
+      "source_start": 146,
+      "source_end": 379,
+      "output_start": 73,
+      "output_end": 341,
+      "source_text": "They probably can think of a few things they do that demonstrate their care, like locking the door at night or making sure they eat regularly or saying no to social plans in order to get rest or putting their phone down at midnight. ",
+      "output_text": "I’m sure he or she can think of a few things that they do to take care of little one. They lock the door at night, or make sure little one eats, or say no to social occasions so little one can have a good night’s rest, or put the phone away when it rings at midnight. ",
+      "word_overlap": 0.46601941747572817,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 379,
+      "source_end": 420,
+      "output_start": 341,
+      "output_end": 383,
+      "source_text": "The warm fuzzy feelings can come later.\n\n",
+      "output_text": "The warm fuzzy feelings will come later.\n\n",
+      "word_overlap": 0.8571428571428571,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 420,
+      "source_end": 451,
+      "output_start": 383,
+      "output_end": 471,
+      "source_text": "Pick one thing from this list. ",
+      "output_text": "Choose one thing from the list to do. Make it specific – you will do ____ at ____ time. ",
+      "word_overlap": 0.3333333333333333,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        5
+      ],
+      "output_sentences": [
+        6,
+        7
+      ],
+      "source_start": 451,
+      "source_end": 559,
+      "output_start": 471,
+      "output_end": 529,
+      "source_text": "Figure out specifically what you will do, when you will do it, what the first step is and who can help you. ",
+      "output_text": "What is the first thing you need to do? Who can help you? ",
+      "word_overlap": 0.4,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6,
+        7
+      ],
+      "output_sentences": [
+        8
+      ],
+      "source_start": 559,
+      "source_end": 635,
+      "output_start": 529,
+      "output_end": 619,
+      "source_text": "Consider rehearsing what you will say in difficult moments. Later, debrief. ",
+      "output_text": "It may be useful to rehearse what you will say, and debrief afterwards about how it went. ",
+      "word_overlap": 0.35714285714285715,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        8,
+        9
+      ],
+      "output_sentences": [
+        9
+      ],
+      "source_start": 635,
+      "source_end": 701,
+      "output_start": 619,
+      "output_end": 699,
+      "source_text": "If you didn’t do what you planned, consider why. Were you afraid? ",
+      "output_text": "If you didn’t do the thing, ask yourself what got in the way – were you afraid? ",
+      "word_overlap": 0.6,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        10
+      ],
+      "output_sentences": [
+        10
+      ],
+      "source_start": 701,
+      "source_end": 735,
+      "output_start": 699,
+      "output_end": 739,
+      "source_text": "Did you not know what you wanted? ",
+      "output_text": "Did you not know what you wanted to do? ",
+      "word_overlap": 0.875,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        11
+      ],
+      "output_sentences": [
+        11
+      ],
+      "source_start": 735,
+      "source_end": 779,
+      "output_start": 739,
+      "output_end": 770,
+      "source_text": "Did you not know how to do what you wanted? ",
+      "output_text": "Did you not know how to do it? ",
+      "word_overlap": 0.7777777777777778,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        12
+      ],
+      "output_sentences": [
+        12
+      ],
+      "source_start": 779,
+      "source_end": 799,
+      "output_start": 770,
+      "output_end": 790,
+      "source_text": "Were you too tired? ",
+      "output_text": "Were you too tired? ",
+      "word_overlap": 1.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        13
+      ],
+      "output_sentences": [
+        13
+      ],
+      "source_start": 799,
+      "source_end": 833,
+      "output_start": 790,
+      "output_end": 824,
+      "source_text": "Was something getting in the way? ",
+      "output_text": "Was something getting in the way? ",
+      "word_overlap": 1.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        14
+      ],
+      "output_sentences": [
+        14
+      ],
+      "source_start": 833,
+      "source_end": 892,
+      "output_start": 824,
+      "output_end": 899,
+      "source_text": "If you did do what you planned, notice if you feel better. ",
+      "output_text": "If you did do the thing, notice whether or not you feel better afterwards. ",
+      "word_overlap": 0.6153846153846154,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        15
+      ],
+      "output_sentences": [
+        15
+      ],
+      "source_start": 892,
+      "source_end": 1028,
+      "output_start": 899,
+      "output_end": 1079,
+      "source_text": "Keep in mind that doing something that should make your little one safe or close or competent or happy doesn’t necessarily mean it did. ",
+      "output_text": "It may be that even though you did the thing you are supposed to do to make little one safe/closeness/competent/happy, little one doesn’t actually feel safe/close/competent/happy. ",
+      "word_overlap": 0.3103448275862069,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        16
+      ],
+      "output_sentences": [
+        16
+      ],
+      "source_start": 1028,
+      "source_end": 1063,
+      "output_start": 1079,
+      "output_end": 1112,
+      "source_text": "Only do things that actually help.\n",
+      "output_text": "Only do things which are helpful.",
+      "word_overlap": 0.5,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
