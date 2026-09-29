@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0601-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/38db93f4-00a1-4259-ba4f-00b60e810a1b",
+  "input_sha256": "eb69545b0f242ba5952c433e127a05ffdbdb11928c9afdc92fc5340b21d5ff8f",
+  "input_words": 217,
+  "before": 48887,
+  "after": 48670,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 270,
+      "sha256": "26de91e76d7240dacc2283f87c223d6959efcbf71c6d5523706a81afdb2a274f",
+      "page_sha256": "26de91e76d7240dacc2283f87c223d6959efcbf71c6d5523706a81afdb2a274f",
+      "has_list": false,
+      "last": " at having a community-wide conversation about what technology will help or harm their community. Check out how they live, they might give you some inspiration!"
+    },
+    {
+      "option": "B",
+      "words": 205,
+      "sha256": "5cff8b717f7ba2ecebae55e3738b48a169062e29a1fbe1af3f684a4700450c44",
+      "page_sha256": "5cff8b717f7ba2ecebae55e3738b48a169062e29a1fbe1af3f684a4700450c44",
+      "has_list": false,
+      "last": "ies against the health of their communities. Different communities have come to different decisions and I think they are wise to treat it as a community affair."
+    }
+  ]
+}

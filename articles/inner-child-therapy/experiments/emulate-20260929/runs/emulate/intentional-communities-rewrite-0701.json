@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0701",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/60d81a3a-1fe3-4af8-8906-6cf95e211656",
+  "input_sha256": "18b53141285272e96fbed707e3ca751e8310b1bd56024c259adb0f6b65eb59fc",
+  "input_words": 299,
+  "before": 48526,
+  "after": 48227,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 340,
+      "sha256": "80b51d1a215469c486b9bf0d8a7d847775ce88a15e361a19779b3ca0f295bf5e",
+      "page_sha256": "80b51d1a215469c486b9bf0d8a7d847775ce88a15e361a19779b3ca0f295bf5e",
+      "has_list": false,
+      "last": "nd released.\n\nThis will require a lot of group support and enforcement, and there will still be disagreements, but it’s the only way to actually make this work."
+    },
+    {
+      "option": "B",
+      "words": 306,
+      "sha256": "71815aeb55274ac30eaef33250e88edd6414083d61032391dfbc2eef8c977da3",
+      "page_sha256": "71815aeb55274ac30eaef33250e88edd6414083d61032391dfbc2eef8c977da3",
+      "has_list": false,
+      "last": "ed.\n\nThis will be a group issue, to some extent, but I don’t think the group should/ can decide what relationship forms are or aren’t allowed. It will be messy."
+    }
+  ]
+}

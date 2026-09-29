@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0801",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/567431fc-9f66-4a81-a5bc-b58e5c7bec5a",
+  "input_sha256": "5167449d829708ab0759a4cd9c3195ce52b2157d54166a1c9bec44e9bb324e3d",
+  "input_words": 134,
+  "before": 48227,
+  "after": 48093,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 144,
+      "sha256": "db52f7e42a1e0d69a3a9967e698d37798d80c115e28be984c9cd34f3309f0c7f",
+      "page_sha256": "db52f7e42a1e0d69a3a9967e698d37798d80c115e28be984c9cd34f3309f0c7f",
+      "has_list": false,
+      "last": " community around raising kids, I think.\n\nAn actual review from a grown child of the community would be much more valuable than anything the founders could say."
+    },
+    {
+      "option": "B",
+      "words": 164,
+      "sha256": "f998cb2ff3346b5bfdba8a45a82d7deae5464f7335e1c65238664840198fcadb",
+      "page_sha256": "f998cb2ff3346b5bfdba8a45a82d7deae5464f7335e1c65238664840198fcadb",
+      "has_list": false,
+      "last": " etc. when it comes to children.\n\nWhat a grown child of this community says about it is far more important than what the founders of the community say about it."
+    }
+  ]
+}

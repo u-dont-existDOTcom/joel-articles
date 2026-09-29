@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0601-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/2d40528a-bf73-4e31-91f6-1de12383350d",
+  "input_sha256": "c2523605a88188dbefc9d5bab30ff04efac1123130c1ce3207b0fc4d26221b13",
+  "input_words": 144,
+  "before": 48670,
+  "after": 48526,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 216,
+      "sha256": "593274cd4cfa564eccba8bec56a2681d4d88196fc5f072c17dc0c73c84fe6419",
+      "page_sha256": "593274cd4cfa564eccba8bec56a2681d4d88196fc5f072c17dc0c73c84fe6419",
+      "has_list": false,
+      "last": "le ways. While being part of a community will not keep you from getting sick, it can help shape the circumstances in which you become ill, recover, age and die."
+    },
+    {
+      "option": "B",
+      "words": 227,
+      "sha256": "7c93611bc3f78b57c6de738f37d9ac00a6a67ea9068705e7829306eb97a7236d",
+      "page_sha256": "7c93611bc3f78b57c6de738f37d9ac00a6a67ea9068705e7829306eb97a7236d",
+      "has_list": false,
+      "last": " not just about how we deal with illness. Community has an impact on the whole cycle of how we become ill, how we deal with illness, how we age, and how we die."
+    }
+  ]
+}
