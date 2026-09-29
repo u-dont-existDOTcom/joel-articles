@@ -1,0 +1,59 @@
+{
+  "source_sha256": "2c7f8fba1cb2c329a933314188be19fdcaeceb5cb3491d59395fee077e7d1a5c",
+  "output_sha256": "4037a70d83ba90acdeccad739456802e7adb8196580c2d4616c2740db723f0a1",
+  "source_sentence_count": 4,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 173,
+      "output_start": 0,
+      "output_end": 294,
+      "source_text": "You can write \"You're safe with me\" on a sticky note in your nicest handwriting, and your little one will still be waiting to see what you do about the bills underneath it. ",
+      "output_text": "It’s like when you try to convince a young child that he’s safe by sticking a sticky note on the fridge in your best handwriting saying “You’re safe with me.” The problem is kids, no matter how young, have had plenty of experience with grownups who say things like that and then don’t do shit. ",
+      "word_overlap": 0.17204301075268819,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 173,
+      "source_end": 331,
+      "output_start": 294,
+      "output_end": 386,
+      "source_text": "They've had grown-ups say sweet things and then not lift a finger. If it ever comes to it, the Protector packs a bag and leaves someone you're not safe with. ",
+      "output_text": "If push comes to shove, I’m packing a bag and leaving whoever it is that I’m not safe with. ",
+      "word_overlap": 0.3333333333333333,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 331,
+      "source_end": 420,
+      "output_start": 386,
+      "output_end": 472,
+      "source_text": "Mostly, though, it's opening envelopes and checking your bank account with one eye shut.\n",
+      "output_text": "Right now, I’m just opening my mail and glancing at my bank account with one eye shut.",
+      "word_overlap": 0.48484848484848486,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
