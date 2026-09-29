@@ -1,5 +1,9 @@
 # Reverse model pilot — execution checkpoint
 
+**Credit-restored continuation — 2026-09-29 15:45 UTC:** Joel added credit directly. Fresh authenticated console balance $13.51 (approximately $10 added); the proposed worker purchase/terms action is superseded and was never submitted. The same instance was restarted and now exposes Open at $0.549/hour; the original terminal prompt is recovered. Preflight receipt was created after restart, retained runtime reconciliation and a bounded batch32 trial are the next worker actions. No owner-wait remains. A one-hour trial plus up to two minutes termination grace fits the actual wallet and all remaining caps. The generation wrapper stores each run in a separate history directory and enforces its wall-time bound. Full pilot still OPEN; no training or quality result is claimed.
+
+The stopped funding checkpoint immediately below is preserved as historical evidence. Its purchase wait no longer applies.
+
 Status: **OPEN / GPU STOPPED / CREDIT AND TERMS CONFIRMATION PENDING** as of 2026-09-29 15:33 UTC. The replacement instance is preserved. Actual Instruct fit PASS; 28 of 1,200 passages processed, 21 pairs accepted; the fixed 20-draft Pangram spot-check is complete. Neither adapter has been trained. Full generation, two comparable trainings, model evaluation, private adapter backup and PILOT-RESULTS.md remain OPEN.
 
 ## Current authority and frozen method
