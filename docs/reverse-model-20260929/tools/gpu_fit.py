@@ -58,6 +58,10 @@ try:
     result["lora_config"]["target_modules"] = sorted(result["lora_config"]["target_modules"])
     result["first_layer_parameters"] = [(n, list(p.shape), str(p.dtype))
                                          for n, p in params if "layers.0." in n]
+    result["adapter_parameters_by_layer"] = {
+        str(i): {part: [(n, list(p.shape)) for n, p in params
+                        if f"layers.{i}." in n and f".{part}." in n]
+                 for part in ["self_attn", "mlp"]} for i in range(48)}
     result["attached_memory"] = memory()
     assert all(any(f"layers.{i}." in n and ".mlp." in n for n, _ in params)
                for i in range(48)), "Expert adapters missing from a layer"
@@ -86,10 +90,23 @@ try:
                 for n, p in params)]
             assert len(gradient_layers[part]) == 48, f"Missing {part} gradients"
         before_step = memory()
+        # LoRA A is initially zero-gradient because B starts at zero. After the
+        # first update, every attached adapter tensor must receive finite signal;
+        # checking one tensor per layer alone could conceal an omitted projection.
+        adapter_gradients = []
+        if step == 1:
+            for name, parameter in params:
+                assert parameter.grad is not None, f"Missing adapter gradient: {name}"
+                assert torch.isfinite(parameter.grad).all().item(), f"Non-finite gradient: {name}"
+                maximum = parameter.grad.abs().max().item()
+                assert maximum > 0, f"Zero adapter gradient after first update: {name}"
+                adapter_gradients.append({"name": name, "shape": list(parameter.shape),
+                                          "max_abs_gradient": maximum})
         optimizer.step()
         result["steps"].append({"step": step, "loss": loss.item(),
                                 "seconds": time.perf_counter() - started,
                                 "gradient_layers": gradient_layers,
+                                "all_adapter_gradients": adapter_gradients,
                                 "before_optimizer": before_step,
                                 "after_optimizer": memory()})
         save()
