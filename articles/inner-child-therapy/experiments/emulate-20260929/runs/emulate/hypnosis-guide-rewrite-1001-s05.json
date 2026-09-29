@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s05",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/70fdf206-0cbb-428d-83f9-411f55bea116",
+  "input_sha256": "fa672de3a8164762fbb6ef48d484a3ae66855bdcfbd2ab236965cd5a775f2194",
+  "input_words": 219,
+  "before": 37824,
+  "after": 37605,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 280,
+      "sha256": "90b3d8241f3b6e5bc47c814f0b93028065a04bef36215ecab8f88eb11c95f7ed",
+      "page_sha256": "90b3d8241f3b6e5bc47c814f0b93028065a04bef36215ecab8f88eb11c95f7ed",
+      "has_list": false,
+      "last": "hing getting in the way, was the plan just shit? If you did do it, reflect on if it was done just to get it off the to do list, or if it was actually necessary."
+    },
+    {
+      "option": "B",
+      "words": 312,
+      "sha256": "75b9dea978517a1de5a1dea80f5cd86e63937ee2d577f29eaf233e1c9e280882",
+      "page_sha256": "75b9dea978517a1de5a1dea80f5cd86e63937ee2d577f29eaf233e1c9e280882",
+      "has_list": false,
+      "last": "an it properly? Also, just doing the thing doesn’t mean it was a good idea. Just because you ticked it off your to do list, doesn’t mean it was the thing to do."
+    }
+  ]
+}

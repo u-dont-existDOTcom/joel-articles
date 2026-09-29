@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/23d8695e-00b3-43cd-ad88-0475f84e0e2f",
+  "input_sha256": "ebc4e5648342b32055bf753833d0a949a09e2d37b65e26d12adbd51c77e79b9a",
+  "input_words": 209,
+  "before": 38436,
+  "after": 38227,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 277,
+      "sha256": "0519ab12e7129ff71230f39d1c3d97d435be0ff9ef4a487553ddbb3ee9b0627d",
+      "page_sha256": "0519ab12e7129ff71230f39d1c3d97d435be0ff9ef4a487553ddbb3ee9b0627d",
+      "has_list": false,
+      "last": " good they are, fall apart, run away, etc.) Just borrow that function… you can still FEEL like a kid while you’re doing it. You’ll develop the adult part later."
+    },
+    {
+      "option": "B",
+      "words": 281,
+      "sha256": "dd6df40e3ca2c7f3bcab27a6cb9736f0380042cd8ebb8e6ac45f1a487db8c257",
+      "page_sha256": "dd6df40e3ca2c7f3bcab27a6cb9736f0380042cd8ebb8e6ac45f1a487db8c257",
+      "has_list": false,
+      "last": "t abandon the other person, etc. Borrow these responses for yourself. You may not “feel” like an adult yet, but if you act like one, you will soon “become” one."
+    }
+  ]
+}

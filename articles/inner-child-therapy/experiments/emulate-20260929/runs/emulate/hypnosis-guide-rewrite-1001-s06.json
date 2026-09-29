@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s06",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/5e87269f-d976-40a1-aebc-487764263fbe",
+  "input_sha256": "f483aae85bef16e1a54e221f0e2a00a2cd50460026e0955c797b93156723fccc",
+  "input_words": 224,
+  "before": 37605,
+  "after": 37381,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 295,
+      "sha256": "4160cbee4bdc7c82e4d7a7f513c67f1c3a0500e12d6aefd8e98322fa6c26cad1",
+      "page_sha256": "4160cbee4bdc7c82e4d7a7f513c67f1c3a0500e12d6aefd8e98322fa6c26cad1",
+      "has_list": false,
+      "last": "nce doesn’t quite work, or just don’t feel like writing a certain sentence. Observe what you notice, first, before trying to figure out why you’re noticing it.)"
+    },
+    {
+      "option": "B",
+      "words": 316,
+      "sha256": "e7a552c1faccbd574ca7c95d3dd35d3c060361ebd3b352ad4f2886ea0cc31a3b",
+      "page_sha256": "e7a552c1faccbd574ca7c95d3dd35d3c060361ebd3b352ad4f2886ea0cc31a3b",
+      "has_list": false,
+      "last": "you are hungry, or that you have a legitimate reason for not feeling that something is right, or that a sentence just doesn’t feel right to you for some reason."
+    }
+  ]
+}

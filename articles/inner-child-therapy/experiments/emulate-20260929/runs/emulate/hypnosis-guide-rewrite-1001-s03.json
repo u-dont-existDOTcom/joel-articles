@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/4352fc7d-bbf2-47ca-9b18-00e616678b42",
+  "input_sha256": "95fa63a0be19a0eeda9932b5efc244dc5a8fc9dff131d4d8951b384e1d86b2a9",
+  "input_words": 179,
+  "before": 38227,
+  "after": 38048,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 235,
+      "sha256": "789dc918193ed8d889342cb58b9ed2c5bf84de99f28ec6d1593268ba70a7bdda",
+      "page_sha256": "789dc918193ed8d889342cb58b9ed2c5bf84de99f28ec6d1593268ba70a7bdda",
+      "has_list": false,
+      "last": "at’s fine. I believe that you don’t believe me. But I still love you. And I don’t need you to love me. Tell me what you need to know to believe that I love you."
+    },
+    {
+      "option": "B",
+      "words": 181,
+      "sha256": "1ef0c1d3e6991da27f1816ce48a483091155cab052181c171bdb9c3659185331",
+      "page_sha256": "1ef0c1d3e6991da27f1816ce48a483091155cab052181c171bdb9c3659185331",
+      "has_list": false,
+      "last": "etc.\n\nDo you have to trust them to love them?\n\nOkay, I believe you don’t believe me. I love you anyway. You don’t have to love me back. Tell me what isn’t safe."
+    }
+  ]
+}

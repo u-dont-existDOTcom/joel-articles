@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/41bd4927-67a6-4063-a10a-3efb776db0bf",
+  "input_sha256": "23cd53d6903b4c723e03d8f2efce47ba6d581980c7f89bd25c5eb2915deb607c",
+  "input_words": 224,
+  "before": 38048,
+  "after": 37824,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 325,
+      "sha256": "a9a4f3cec001f05fbcca76e517b45a28a34c0edf42b89a1de0cb07e0c16aadd7",
+      "page_sha256": "a9a4f3cec001f05fbcca76e517b45a28a34c0edf42b89a1de0cb07e0c16aadd7",
+      "has_list": false,
+      "last": "tention to whatever comes, and continue the dialogue, sending more love as needed.\n\nLove is on top; child is on the bottom; you are in the middle.\n\nThe Nurturer"
+    },
+    {
+      "option": "B",
+      "words": 296,
+      "sha256": "c3016f9a213054d2db2ccd4ebfc781325886b457a5b1e9b403f438ecd2bde215",
+      "page_sha256": "c3016f9a213054d2db2ccd4ebfc781325886b457a5b1e9b403f438ecd2bde215",
+      "has_list": false,
+      "last": "r heart down to the child, and see what comes back to you. Engage in a conversation with him.\n\nLove is above. Child is below. Adult is there, too.\n\nThe Nurturer"
+    }
+  ]
+}
