@@ -8,7 +8,18 @@ a=argparse.ArgumentParser();a.add_argument('run_id');a.add_argument('input_file'
 assert subprocess.check_output(['git','branch','--show-current'],cwd=repo,text=True).strip()=='gpt/emulate-overnight-20260929'
 rel=Path(args.input_file);assert not rel.is_absolute() and '..' not in rel.parts
 assert 'E_holdout' not in rel.parts and 'REFERENCE_ONLY' not in str(rel)
-assert (str(rel).startswith('inputs/learning/') and rel.suffix=='.txt') or (str(rel).startswith('runs/') and rel.suffix in ['.md','.txt'])
+inventory=json.loads((p/'runs/input-inventory.json').read_text())
+allowed_learning={r.get('file',r.get('input_file')) for r in inventory['learning']}
+if str(rel) not in allowed_learning:
+ if str(rel).startswith('runs/articles/'):
+  chunk_map=p/'runs/article-emulate-admissions.json'
+  assert chunk_map.exists(), 'article flag admissions not prepared'
+  admissions=json.loads(chunk_map.read_text())
+  assert any(r['input_file']==str(rel) and r['sha256']==hashlib.sha256((p/rel).read_bytes()).hexdigest() and r['only_flagged_or_declared_minimum_neighbor'] for r in admissions), 'article chunk not admitted'
+ elif str(rel).startswith('runs/emulate/'):
+  scores=[json.loads(l) for l in (p/'runs/pangram.jsonl').read_text().splitlines()]
+  assert any(r['text_file']==str(rel) and r['variant']=='output' and r['label']=='Human Written' and not r['flagged_spans'] for r in scores), 'D2 needs a measured passing output'
+ else: raise AssertionError('Source outside owner-approved input set')
 text=(p/rel).read_bytes().decode('utf-8');words=len(text.split());assert 40<=words<=3000
 out=p/'runs/emulate'/f'{args.run_id}.txt';assert not out.exists(), 'existing run: recover, never repeat'
 rows=[json.loads(l) for l in (p/'runs/emulate.jsonl').read_text().splitlines()]
