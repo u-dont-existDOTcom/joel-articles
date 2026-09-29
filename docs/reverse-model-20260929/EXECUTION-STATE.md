@@ -36,3 +36,8 @@ Ordinary engineering failures remain execution work. Pause only at a directive's
 ## Governance
 Live default-branch universal AGENTS and Joel Articles skill/map/governance read, with task-specific lab guidance. Universal routing dependencies resolved from a full current checkout. Decision experiment assurance; focused fit/data checks, not a release campaign. Test-cost observer started before substantive testing.
 Actual available browser control is the signed-in local desktop Brave session; a Cloud Browser surface was unavailable. This transport difference is recorded explicitly.
+
+## Evaluation and transfer checkpoint
+All 53 A/B learning inputs and 51 chronological first Emulate outputs are frozen against overnight commit 45caa139a94bc5919e26a7026dca05118acc2229, with exact input/output hashes. Two cached Emulate-alone Human results are reusable. A22 and A25 had no saved output. A direct A22 API request confirmed HTTP 400 `too_short` / minimum 40 words, with zero charge; A25 is shorter and was not redundantly submitted. Owner selection about a 51-case common comparison versus expanded originals is pending; this does not block training.
+
+Installed Xet checkpoint downloading emitted repeated stall/retry warnings. The same frozen original checkpoint will be transferred via standard Hugging Face HTTP; no model substitution or package reinstall is authorized by this engineering repair. Actual GPU backward/fit evidence remains pending. Training/evaluation scripts are authored and syntax checked, not runtime-certified.

@@ -1,0 +1,14 @@
+{
+  "id": "A22_before",
+  "input_sha256": "c1c82ed996194c2f459f5058b08b1cdc76fef15ba7ec75f1cca2b5ade056b15e",
+  "reserved_words": 39,
+  "started_utc": "2026-09-29T05:34:47.968411+00:00",
+  "status": "http_error_no_resubmit",
+  "balance_before": 52803,
+  "task_word_cap": 3000,
+  "http_status": 400,
+  "error_body": "{\"error\":{\"code\":\"too_short\",\"message\":\"Send at least 40 words.\"}}",
+  "seconds": 0.8190568249992793,
+  "balance_after": 52803,
+  "words_charged": 0
+}

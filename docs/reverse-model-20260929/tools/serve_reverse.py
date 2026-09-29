@@ -1,5 +1,6 @@
 """Local LoRA-capable generation server with the exact training serialization."""
 import argparse
+import hashlib
 import json
 import os
 import time
@@ -25,6 +26,7 @@ def run(args):
     model = PeftModel.from_pretrained(model, args.adapter, is_trainable=False)
     FastLanguageModel.for_inference(model)
     model.eval()
+    args.cache_directory.mkdir(parents=True, exist_ok=True)
     class Handler(BaseHTTPRequestHandler):
         def send(self, code, value):
             body=json.dumps(value,ensure_ascii=False).encode()
@@ -41,6 +43,15 @@ def run(args):
             request=json.loads(self.rfile.read(int(self.headers['Content-Length'])))
             assert isinstance(request['text'],str) and request['text']
             assert float(request.get('temperature',0.8)) == 0.8
+            identifier=request['id']
+            assert identifier and all(c.isalnum() or c in '_-' for c in identifier)
+            cache_path=args.cache_directory/(identifier+'.json')
+            input_hash=hashlib.sha256(request['text'].encode()).hexdigest()
+            if cache_path.exists():
+                cached=json.loads(cache_path.read_text())
+                assert cached['input_sha256']==input_hash
+                assert cached['seed']==int(request.get('seed',3407))
+                self.send(200,cached);return
             torch.manual_seed(int(request.get('seed',3407)))
             encoded=tokenizer(prefix(request['text']),return_tensors='pt',add_special_tokens=False).to('cuda')
             assert encoded.input_ids.shape[1] + 1024 <= 4096
@@ -55,15 +66,19 @@ def run(args):
                 tokens=tokens[:tokens.index(tokenizer.eos_token_id)]
             text=tokenizer.decode(tokens,skip_special_tokens=True).strip()
             words=len(text.split())
-            self.send(200, {'condition':args.condition,'text':text,'seconds':seconds,
+            result={'id':identifier,'input_sha256':input_hash,
+                            'condition':args.condition,'text':text,'seconds':seconds,
                             'words':words,'seconds_per_300_words':seconds*300/words if words else None,
                             'output_tokens':len(tokens),'truncated':not ended and len(tokens)>=1024,
                             'seed':int(request.get('seed',3407)),'temperature':0.8,
-                            'model':model_id,'revision':revision})
+                            'model':model_id,'revision':revision}
+            cache_path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+            self.send(200,result)
     print(json.dumps({'event':'ready','bind':'127.0.0.1','port':args.port,'condition':args.condition}),flush=True)
     HTTPServer(('127.0.0.1',args.port),Handler).serve_forever()
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--condition',choices=list(MODELS),required=True)
     p.add_argument('--adapter',type=Path,required=True);p.add_argument('--port',type=int,default=18001)
+    p.add_argument('--cache-directory',type=Path,required=True)
     run(p.parse_args())
