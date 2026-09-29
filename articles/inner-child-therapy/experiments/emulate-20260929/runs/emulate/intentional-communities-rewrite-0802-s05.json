@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0802-s05",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/b0e2543a-5476-415f-9379-0f6048705173",
+  "input_sha256": "8b04043c6ae299c08e845cf7d00bfef946d96a53b34e612b7fcbf0bcd87a265b",
+  "input_words": 229,
+  "before": 47281,
+  "after": 47052,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 267,
+      "sha256": "bcc93ac0b92c46a5bed64633c4e7d695238651ef6eabcc8966b768c622d43357",
+      "page_sha256": "bcc93ac0b92c46a5bed64633c4e7d695238651ef6eabcc8966b768c622d43357",
+      "has_list": false,
+      "last": ". Some might even want to start their own communities with different values, even though this is an evolutionary movement. This might hurt their parents, but..."
+    },
+    {
+      "option": "B",
+      "words": 298,
+      "sha256": "0cff77a706d0cf59915aba8a36ad393c85ef6a575461668ac65ddd971139810b",
+      "page_sha256": "0cff77a706d0cf59915aba8a36ad393c85ef6a575461668ac65ddd971139810b",
+      "has_list": false,
+      "last": "to leave and even start their own communities with better values, but even if this is an evolving movement, it could still feel like losing kids to the parents."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0802-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/9fa2630b-079a-41ca-b5f4-b3870996f65b",
+  "input_sha256": "b227132c54d38f77f065cd1a0d0dcf1ee87c81b541cf71af43028e5fdb0075c4",
+  "input_words": 182,
+  "before": 47463,
+  "after": 47281,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 150,
+      "sha256": "bb514eefaa41c2404e79c69afdae47d8ee78351728664c878fafc9e40b6990e7",
+      "page_sha256": "bb514eefaa41c2404e79c69afdae47d8ee78351728664c878fafc9e40b6990e7",
+      "has_list": false,
+      "last": " that choice.\n\nLet the kids get out. Let them explore, let them question, let them learn, let them speak against the founders without being considered traitors."
+    },
+    {
+      "option": "B",
+      "words": 205,
+      "sha256": "20f644261a2e472b863862586e0e8ffccbf3173fd1fdcc017f7c0bade3d67eb6",
+      "page_sha256": "20f644261a2e472b863862586e0e8ffccbf3173fd1fdcc017f7c0bade3d67eb6",
+      "has_list": false,
+      "last": " is very important.\n\nLet the children go. Let them see the world. Let them go to school, travel, make friends, even hate the founding members of your community."
+    }
+  ]
+}

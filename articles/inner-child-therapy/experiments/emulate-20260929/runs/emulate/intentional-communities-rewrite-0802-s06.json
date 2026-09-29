@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0802-s06",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/6bee6817-8c2c-4b4c-ae25-8d63a55f60be",
+  "input_sha256": "771465b651f24ca227449d92a559cf152f7e4ac06c5f2db8dafd02c7fcb043fb",
+  "input_words": 68,
+  "before": 47052,
+  "after": 46984,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 119,
+      "sha256": "337cb0a78c76ddc68f0799adda3efac34a3b34485b11ebbf7008a6b1037019ac",
+      "page_sha256": "337cb0a78c76ddc68f0799adda3efac34a3b34485b11ebbf7008a6b1037019ac",
+      "has_list": false,
+      "last": "ns remain how much commonality is required in principles of child rearing for the community to have coherence, while leaving enough space for parents to parent."
+    },
+    {
+      "option": "B",
+      "words": 131,
+      "sha256": "ed66c10293f678a3b793b54081ef15db8dfa256dcd557b185c6d19049a799259",
+      "page_sha256": "ed66c10293f678a3b793b54081ef15db8dfa256dcd557b185c6d19049a799259",
+      "has_list": false,
+      "last": "ent experience of the world, a community needs to agree on the basic principles of raising children, while still allowing flexibility for parents to be parents."
+    }
+  ]
+}
