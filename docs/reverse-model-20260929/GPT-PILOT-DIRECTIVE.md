@@ -158,14 +158,14 @@ The one-retry rule counts within one method. Version 3 is a new method, so every
 
 ### The trial, before any full generation
 
-**Passages,** fixed now: the 30 that failed version 2, plus H0012 and H0062, plus the next 8 unprocessed regeneration passages in the training split: H0063, H0065, H0066, H0068, H0069, H0071, H0072 and H0074. That's 40 passages, 8 of them technical.
+**Passages,** fixed now: the 30 that failed version 2, plus H0012 and H0062, plus the next 8 unprocessed regeneration passages in the training split: H0063, H0065, H0066, H0068, H0069, H0071, H0072 and H0074. That's 40 passages, 10 of them technical (8 old failures plus H0068 and H0071).
 
 **Accepted** means it passes guard version 2 and both judge directions, after at most one retry.
 
 **Go to full generation** only if all of these hold:
 - at least 28 of the 40 are accepted;
 - at least 18 of the 30 old failures are accepted;
-- at least 4 of the 8 technical passages are accepted.
+- at least 5 of the 10 technical passages are accepted.
 
 **If the Chinese-notes method misses,** run the fallback on the same 40 with the same thresholds. The fallback uses English atomic slots:
 - Notes are a JSON list of facts, each with `subject`, `relation`, `object` and `qualifier` fields of at most 5 words each, plus `negated` (true or false) and the `FORM` and `KEEP` parts above.
