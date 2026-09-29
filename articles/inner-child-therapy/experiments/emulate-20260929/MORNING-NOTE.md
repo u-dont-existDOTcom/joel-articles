@@ -1,10 +1,9 @@
-2026-09-29: Cloud-resume correction adopted; this local Codex chat has no cloud browser controls. No new paid work this turn.
-26 new Pangram baselines saved; five historical rechecks matched earlier labels; 68 baselines remain.
-55 new API outputs plus the exact B01 website option A are saved; website option B is diagnostic only.
-The new outputs are ungraded; the four earlier Claude output passes remain historical evidence.
-A22 (39 words) and A25 (36 words) skipped; B02 reused its two earlier versions to obey the no-third-run rule.
-Prepared 99 output/paragraph/context checks and 105 Part4 splice/edit checks; none submitted during the gate.
-Part4 has 4 qualifying versions from 2 inputs, only 2 multi-paragraph pairs; 12-pair requirement remains unmet.
-No article was rewritten: original flagged-paragraph baselines are required first; Pro analysis and Part6 are pending.
-Spent 5,214 Emulate words (4,697 learning + 517 probes), leaving 52,803; worker Pangram spend38, last balance2,127.
-Next: use CLOUD-WORK-START.md in a cloud Work chat, sign in there, then saved output checks first; no PDFs or new verification layers.
+2026-09-29 08:01 UTC cloud Work checkpoint. Parent outcome OPEN.
+
+The 99 prepared Part3 output checks now have dispositions: 78 new dashboard checks, two exact History recoveries, four earlier exact saved results and 15 GUI-minimum exclusions; none pending. Results are experimental observations only, ungraded for article acceptance. One accidental duplicate paid A11 paragraph submission is preserved as a distinct incident row in runs/pangram.jsonl.
+
+All remaining learning baselines were addressed: B22 and B24 newly AI Generated 100%; B23 exact saved text recovered from History as AI Generated 100% without another charge. The active baseline queue has 65 pending article section checks, 28 completed, one History recovery and ten GUI-minimum exclusions. Pangram last observed 1,995 credits; Emulate last observed 52,803 words. Preserve the Pangram below-300 stop and Emulate 2,000-word reserve.
+
+Article 1 (intentional-communities) is next in ARTICLES.md order. No article baseline was submitted. The GitHub raw-file route for h1-002 hit a cloud browser URL-policy denial, and the subsequent Back action was explicitly rejected with a no-workaround instruction. The exact source remains in runs/articles/intentional-communities/sections/002-original.md, SHA-256 6713ace3cdcc7f346fdb6677f474df30bff063a8b2e357af4097dded0acec015. Do not route around the browser denial. No article candidate, publication or authority promotion exists. Part4's 105 prepared splice/edit checks, D4/D6/D7 probes, and Pro Part5 analysis remain outstanding; Claude's later transfer stays separate. E_holdout remains sealed.
+
+Remote branch gpt/emulate-overnight-20260929 carries the exact rows and queue checkpoint. Continue only after the cloud browser's permitted source-transfer route is available; verify History and remote state first, and never repeat a saved paid check.
