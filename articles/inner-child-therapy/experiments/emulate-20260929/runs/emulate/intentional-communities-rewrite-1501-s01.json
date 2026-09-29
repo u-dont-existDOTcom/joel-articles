@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1501-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/f84ac092-4b82-4957-a52c-c828b5879614",
+  "input_sha256": "31299d0c1c6e5a6d10ce55f7729bcee0899330a1470bc60a7e27098520bcb927",
+  "input_words": 205,
+  "before": 42636,
+  "after": 42431,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 204,
+      "sha256": "f3607040867e63606e2f209b0979afa01f70dabe60041d75e5fe62f073a15439",
+      "page_sha256": "f3607040867e63606e2f209b0979afa01f70dabe60041d75e5fe62f073a15439",
+      "has_list": false,
+      "last": "al leaders. I never expected to see spiritual graffiti. I’ve always assumed that there was only product promotion or the inability to draw a penis successfully."
+    },
+    {
+      "option": "B",
+      "words": 264,
+      "sha256": "8889a0d743037cfe6857456798e94242f2f3a9ed7b0b9282bd68df1c0f8ca2f0",
+      "page_sha256": "8889a0d743037cfe6857456798e94242f2f3a9ed7b0b9282bd68df1c0f8ca2f0",
+      "has_list": false,
+      "last": "to see murals about spirituality – growing up, it seemed like everything was either advertising a product or advertising the artist’s inability to draw a penis."
+    }
+  ]
+}

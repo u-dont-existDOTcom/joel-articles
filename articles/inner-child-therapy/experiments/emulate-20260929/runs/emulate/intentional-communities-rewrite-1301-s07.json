@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1301-s07",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/3c0d5bda-df4a-41cc-94dc-bad8a0c9c129",
+  "input_sha256": "4633c532eb48e7524e0a59947c1666120d584d40c68cd179c2dafde17b9f0162",
+  "input_words": 49,
+  "before": 42955,
+  "after": 42906,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 48,
+      "sha256": "87978d17f4347ba7c38134ba1ba3a465dace7243010da7129bcad0b6ac6571ba",
+      "page_sha256": "87978d17f4347ba7c38134ba1ba3a465dace7243010da7129bcad0b6ac6571ba",
+      "has_list": false,
+      "last": "cause they're dealing with a neutral stranger for the first time. And mediation doesn't replace the need for evidence, safeguarding, adjudication or separation."
+    },
+    {
+      "option": "B",
+      "words": 82,
+      "sha256": "f778a806f60296fd560e285207ab2ac713efef92cb022aea1a0c642ccdd4cc3a",
+      "page_sha256": "f778a806f60296fd560e285207ab2ac713efef92cb022aea1a0c642ccdd4cc3a",
+      "has_list": false,
+      "last": "to replace the need for proper evidence, proper safeguarding, proper adjudication or even proper separation at the end of the road if you’ve run out of consent."
+    }
+  ]
+}

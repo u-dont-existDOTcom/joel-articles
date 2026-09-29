@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1401",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/964d6850-4c70-4cee-b672-579c176dc5c5",
+  "input_sha256": "ce27fedd925348ef737e11aa509123902dc5706214e89db875033d74188580cb",
+  "input_words": 270,
+  "before": 42906,
+  "after": 42636,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 310,
+      "sha256": "42349d5860b3e433002bf4e9dc2fb7953e976d0401469e00a8679388e5fae969",
+      "page_sha256": "42349d5860b3e433002bf4e9dc2fb7953e976d0401469e00a8679388e5fae969",
+      "has_list": false,
+      "last": "ation he started, the film he’s made, and the people/places he’s shown me, in mine as well.\n\nAnd so on, and on, even after the legal entity has ceased to exist."
+    },
+    {
+      "option": "B",
+      "words": 340,
+      "sha256": "bbc4cb3c78b97945abcdf826fd2e4478b6f60fa474fc7408458af3f8a463a303",
+      "page_sha256": "bbc4cb3c78b97945abcdf826fd2e4478b6f60fa474fc7408458af3f8a463a303",
+      "has_list": false,
+      "last": "movie, visit a number of interesting places, and think about a number of interesting issues.\n\nEven when the legal entity is gone, some of the fruits can remain."
+    }
+  ]
+}

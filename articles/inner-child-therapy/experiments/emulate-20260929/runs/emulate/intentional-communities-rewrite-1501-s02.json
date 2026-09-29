@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1501-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/acdd6e2e-7bb5-41d4-bde6-2a6d33d0e371",
+  "input_sha256": "d9409e8c12645097525c2a40871d96af231f140a952d98e1420d8a7703afc765",
+  "input_words": 191,
+  "before": 42431,
+  "after": 42240,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 216,
+      "sha256": "e4e6a21b4d60bb2a00ee3408ccb0ecb83315e09ef955d71650859676c796072a",
+      "page_sha256": "e4e6a21b4d60bb2a00ee3408ccb0ecb83315e09ef955d71650859676c796072a",
+      "has_list": false,
+      "last": "ving to me include the lack of confrontation around certain things. “We all know who stole the sheep,” one person told me, “but no one wants to make a problem.”"
+    },
+    {
+      "option": "B",
+      "words": 215,
+      "sha256": "318badb5200a5e43111cfe4bc435383c888014ce934fca6b08d3917d75937c52",
+      "page_sha256": "318badb5200a5e43111cfe4bc435383c888014ce934fca6b08d3917d75937c52",
+      "has_list": false,
+      "last": "culture that can be problematic. For example, people don’t like confrontation. Everybody probably knows who stole that sheep, but nobody wants to cause trouble."
+    }
+  ]
+}
