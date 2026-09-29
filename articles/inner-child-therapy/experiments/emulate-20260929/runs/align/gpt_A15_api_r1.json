@@ -1,0 +1,43 @@
+{
+  "source_sha256": "9df86bb2a1a9eab680ad0d0bbaee393b92e590a7a59c5903a61b429e91e17b8e",
+  "output_sha256": "3d281dac30077e407b1e9e3c1755e8c5c3c4c7ded515504d1791cab3639fea6c",
+  "source_sentence_count": 4,
+  "output_sentence_count": 2,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 145,
+      "output_start": 0,
+      "output_end": 62,
+      "source_text": "When you catch it, look around and say you're hooked. If nobody is in danger, take a breath or three before you finish the thing you were doing. ",
+      "output_text": "Catch it, look around, and tell them that they’ve hooked you. ",
+      "word_overlap": 0.2926829268292683,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 145,
+      "source_end": 261,
+      "output_start": 62,
+      "output_end": 292,
+      "source_text": "Maybe there's enough adult around to be nice to the kid for a second. Or enough Protector to stop something stupid.\n",
+      "output_text": "If there’s no one in danger, take a breath, or maybe three, and when you’re done with what you’re doing, see if there’s enough adult in you to be nice to the kid or enough Protector in you to keep them from doing something stupid.",
+      "word_overlap": 0.4788732394366197,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
