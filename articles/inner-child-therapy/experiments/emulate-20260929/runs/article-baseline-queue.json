@@ -1,0 +1,854 @@
+[
+ {
+  "check_id": "intentional-communities-baseline-01",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-01.txt",
+  "words": 942,
+  "sha256": "22f2d156ed2a8305170cb3f5f104b3401f06ea85c44f75d19bd69bcd6516a9fb",
+  "sections": [
+   "intentional-communities-h1-002"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/002-original.md"
+  ],
+  "first_words": "The New Age May Dawn Suddenly I recently",
+  "last_words": "my attempt to describe the missing third option."
+ },
+ {
+  "check_id": "intentional-communities-baseline-02",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-02.txt",
+  "words": 524,
+  "sha256": "bd6e3147945525dc1e19793db7071fd7d84413b8958828f9fd437aa432561c69",
+  "sections": [
+   "intentional-communities-h1-003"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/003-original.md"
+  ],
+  "first_words": "Communes Are Hot Again 🔥 The longing that",
+  "last_words": "warning in this article applies to me too."
+ },
+ {
+  "check_id": "intentional-communities-baseline-03",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-03.txt",
+  "words": 350,
+  "sha256": "fc8b94d4e6dea58c5fbe8879054ff35a0af858a6512769229d1a1bedbaeaf36f",
+  "sections": [
+   "intentional-communities-h1-004"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/004-original.md"
+  ],
+  "first_words": "Why Communities Keep Dying in the Same Two",
+  "last_words": "the community doesn’t become a permanent repair shop."
+ },
+ {
+  "check_id": "intentional-communities-baseline-04",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-04.txt",
+  "words": 1068,
+  "sha256": "ba69433c14900ebd686bd02ca483ac72c93bff205d0afd547ea5c5106982867b",
+  "sections": [
+   "intentional-communities-h1-005"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/005-original.md"
+  ],
+  "first_words": "The Four Parts That Have to Pl/ork Together",
+  "last_words": "are already entangled and everyone has developed opinions."
+ },
+ {
+  "check_id": "intentional-communities-baseline-05",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-05.txt",
+  "words": 1358,
+  "sha256": "42dd868c0269558e12df456cb897fb027b0f27e382d28c9777a5cf8e9f2c68c9",
+  "sections": [
+   "intentional-communities-h1-006"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/006-original.md"
+  ],
+  "first_words": "The Medicine Part, Without Pretending It Isn’t There",
+  "last_words": "objection that communes are merely privileged escape pods."
+ },
+ {
+  "check_id": "intentional-communities-baseline-06",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-06.txt",
+  "words": 361,
+  "sha256": "fce08c4014fa110f3001d3c200f9a9e233d59a86f85ea6461f0d011bd58492c1",
+  "sections": [
+   "intentional-communities-h1-007"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/007-original.md"
+  ],
+  "first_words": "Which Connections to the Technosphere Do You Keep?",
+  "last_words": "which people become ill, recover, age, and die."
+ },
+ {
+  "check_id": "intentional-communities-baseline-07",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-07.txt",
+  "words": 299,
+  "sha256": "18b53141285272e96fbed707e3ca751e8310b1bd56024c259adb0f6b65eb59fc",
+  "sections": [
+   "intentional-communities-h1-008"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/008-original.md"
+  ],
+  "first_words": "Jealousy Can Capture Monogamy or Free Love Any",
+  "last_words": "is more realistic than declaring the matter solved."
+ },
+ {
+  "check_id": "intentional-communities-baseline-08",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-08.txt",
+  "words": 1322,
+  "sha256": "ac637728d227e7f07a62553dc060f969620298d9b6da0f7bf858b624e4e93567",
+  "sections": [
+   "intentional-communities-h1-009"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/009-original.md"
+  ],
+  "first_words": "The Grown Children Get the Final Review My",
+  "last_words": "plus enough room for parents to remain parents."
+ },
+ {
+  "check_id": "intentional-communities-baseline-09",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-09.txt",
+  "words": 857,
+  "sha256": "2a4b52ee79c9c42913cf40e262b63cd3c2eff68bfd6c010a91301bf24eabbace",
+  "sections": [
+   "intentional-communities-h1-010"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/010-original.md"
+  ],
+  "first_words": "The Best Model I’ve Seen: Zapatistas In 2005,",
+  "last_words": "instead of inventing governance during their first dispute."
+ },
+ {
+  "check_id": "intentional-communities-baseline-10",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-10.txt",
+  "words": 545,
+  "sha256": "6f67337a9c0335138241ad3de2781c38e32bf19bd71b980d2a78e68199183518",
+  "sections": [
+   "intentional-communities-h1-011"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/011-original.md"
+  ],
+  "first_words": "From One Community to a Movement Experiment Before",
+  "last_words": "to rediscover the same constitutional fight from scratch."
+ },
+ {
+  "check_id": "intentional-communities-baseline-11",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-11.txt",
+  "words": 718,
+  "sha256": "5f5ea17bbee63c77d7062d82de25b939f778cea4fc69007de3af886223964867",
+  "sections": [
+   "intentional-communities-h1-012"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/012-original.md"
+  ],
+  "first_words": "Founderism: The Four Questions Every community begins with",
+  "last_words": "A majority vote does not make deprivation consensual."
+ },
+ {
+  "check_id": "intentional-communities-baseline-12",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-12.txt",
+  "words": 679,
+  "sha256": "2e7395524098ce76af44fcb9f2a58922dfb115eb64d8f9601ca4488b80324985",
+  "sections": [
+   "intentional-communities-h1-013"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/013-original.md"
+  ],
+  "first_words": "The Math of Absorption, and Who This Isn’t",
+  "last_words": "support” instead of converting every limit into rejection."
+ },
+ {
+  "check_id": "intentional-communities-baseline-13",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-13.txt",
+  "words": 1331,
+  "sha256": "fdd3185ca6e4906934734fd2aca8d97d7131ad872e975abd895366c9e7abf65d",
+  "sections": [
+   "intentional-communities-h1-014"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/014-original.md"
+  ],
+  "first_words": "Your Little Forming Group Already Is the Community",
+  "last_words": "or a final separation when consent is gone."
+ },
+ {
+  "check_id": "intentional-communities-baseline-14",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-14.txt",
+  "words": 270,
+  "sha256": "ce27fedd925348ef737e11aa509123902dc5706214e89db875033d74188580cb",
+  "sections": [
+   "intentional-communities-h1-015"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/015-original.md"
+  ],
+  "first_words": "Dissolution and Exit Founders rarely want to discuss",
+  "last_words": "people learned to give one another may continue."
+ },
+ {
+  "check_id": "intentional-communities-baseline-15",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-15.txt",
+  "words": 1051,
+  "sha256": "252eb51ca32d77edc8abcd271445561db240faaadef9aab6e5d04c5ddfdd8cca",
+  "sections": [
+   "intentional-communities-h1-016"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/016-original.md"
+  ],
+  "first_words": "What This Looks Like From Sénégal I live",
+  "last_words": "all the ordinary complications of a real country."
+ },
+ {
+  "check_id": "intentional-communities-baseline-16",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-16.txt",
+  "words": 643,
+  "sha256": "55856c106151532e5395b55a6ac880b2f57ce15abe748306c37c12440841ada2",
+  "sections": [
+   "intentional-communities-h1-017"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/017-original.md"
+  ],
+  "first_words": "Practice Comes Before Property Most community projects begin",
+  "last_words": "people to build, hearing about it matters less."
+ },
+ {
+  "check_id": "intentional-communities-baseline-17",
+  "article": "intentional-communities",
+  "variant": "baseline",
+  "paste_file": "runs/articles/intentional-communities/paste/intentional-communities-baseline-17.txt",
+  "words": 509,
+  "sha256": "935d08d35dfe24809caf0f2856f9f133528e3582b94d27d68a5db83200e33faf",
+  "sections": [
+   "intentional-communities-h1-018"
+  ],
+  "source_files": [
+   "runs/articles/intentional-communities/sections/018-original.md"
+  ],
+  "first_words": "Appendix: Watch These, Then Read These Films Where’s",
+  "last_words": "without turning this article into a 200-row ledger."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-01",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-01.txt",
+  "words": 452,
+  "sha256": "e1fd00b8880133747bc367ab6df58e01310b6ff2be1e38bb32f9095f6d587b99",
+  "sections": [
+   "hypnosis-guide-h1-001",
+   "hypnosis-guide-h1-002",
+   "hypnosis-guide-h1-003",
+   "hypnosis-guide-h1-004"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/001-original.md",
+   "runs/articles/hypnosis-guide/sections/002-original.md",
+   "runs/articles/hypnosis-guide/sections/003-original.md",
+   "runs/articles/hypnosis-guide/sections/004-original.md"
+  ],
+  "first_words": "This guide has an app coming soon! Working",
+  "last_words": "hypnosis is hardly the only thing hypnotizing us."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-02",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-02.txt",
+  "words": 333,
+  "sha256": "5385215345c5a5c88570ab0a5aa54d00763eca7a53810a3815d6df027678b145",
+  "sections": [
+   "hypnosis-guide-h1-005"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/005-original.md"
+  ],
+  "first_words": "Quick start: do this first Gather attention, notice",
+  "last_words": "and change the route when it stops helping."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-03",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-03.txt",
+  "words": 320,
+  "sha256": "7f76b1ac1e8d8812122e4282bbf747538ee9193a0cdf606d4c76ede878ae4738",
+  "sections": [
+   "hypnosis-guide-h1-006",
+   "hypnosis-guide-h1-007"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/006-original.md",
+   "runs/articles/hypnosis-guide/sections/007-original.md"
+  ],
+  "first_words": "What I mean by hypnosis APA Division 30",
+  "last_words": "more available. Double click to interact with video"
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-04",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-04.txt",
+  "words": 387,
+  "sha256": "21da192e308ffc15a13227b91b0f148c3104cbf49098540e02d65db8ba248ecf",
+  "sections": [
+   "hypnosis-guide-h1-008",
+   "hypnosis-guide-h1-009"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/008-original.md",
+   "runs/articles/hypnosis-guide/sections/009-original.md"
+  ],
+  "first_words": "The Most Extreme Example I can tell you",
+  "last_words": "out right now and see how it feels!"
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-05",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-05.txt",
+  "words": 188,
+  "sha256": "d1b73f486deb8aff53a22fa2af614cae5ccf3e02cc61e3e147f640103849a858",
+  "sections": [
+   "hypnosis-guide-h1-010"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/010-original.md"
+  ],
+  "first_words": "Reversing Accidental Affirmations Many times, we say things",
+  "last_words": "doesn’t realize how close she is to Buddhism!"
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-06",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-06.txt",
+  "words": 184,
+  "sha256": "633524afbf44df2930cb8b6082a1c0f9322fac2d19ddf6bd217ed3d52fb59c73",
+  "sections": [
+   "hypnosis-guide-h1-011"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/011-original.md"
+  ],
+  "first_words": "Hypnosis Evidence Hypnosis has real evidence, although it",
+  "last_words": "symptoms, destabilize yourself, or replace appropriate clinical care."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-07",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-07.txt",
+  "words": 190,
+  "sha256": "247027b30c951b0e2433af630cfe40135561c0887b8a2547afb9726b151a6e8b",
+  "sections": [
+   "hypnosis-guide-h1-012"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/012-original.md"
+  ],
+  "first_words": "Forget the left-brain/right-brain cartoon “Syncing the hemispheres” can",
+  "last_words": "real service, or a more workable ordinary life."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-08",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-08.txt",
+  "words": 428,
+  "sha256": "b15cbe468d6dbba0b7bf5c3f549dc47c06dca4320698c99df69a5b11b806e1d4",
+  "sections": [
+   "hypnosis-guide-h1-013"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/013-original.md"
+  ],
+  "first_words": "Why doing it myself worked better for me",
+  "last_words": "I explain that possibility in my lucid-dreaming guide."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-09",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-09.txt",
+  "words": 452,
+  "sha256": "df7e0d9d9dbaa4111eab7bf9c507d49c49b481c2c3a1d03a191ee901fd6a1f72",
+  "sections": [
+   "hypnosis-guide-h1-014"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/014-original.md"
+  ],
+  "first_words": "A useful map of the mind In this",
+  "last_words": "Differentiate only as needed. Return to the heart."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-10",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-10.txt",
+  "words": 2114,
+  "sha256": "ff186e6ec2e301334ac13dd23dc1b75f75730fe17019c16c2343100efb6c1b88",
+  "sections": [
+   "hypnosis-guide-h1-015"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/015-original.md"
+  ],
+  "first_words": "The inner child, the guards, and the three",
+  "last_words": "text the person who makes us feel unsafe.”"
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-11",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-11.txt",
+  "words": 626,
+  "sha256": "ce558df73752dde20c9b64b22c8bb58fc029698c9b21553ef0b45daf2fc06160",
+  "sections": [
+   "hypnosis-guide-h1-016"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/016-original.md"
+  ],
+  "first_words": "When “your voice” is everybody else’s voice Sometimes",
+  "last_words": "but it deserves a seat at the hearing."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-12",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-12.txt",
+  "words": 530,
+  "sha256": "bc31a6009097d74c291259de512eb2393d5c167d3dc85d8a47116dfc7a35ffdc",
+  "sections": [
+   "hypnosis-guide-h1-017"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/017-original.md"
+  ],
+  "first_words": "De-hypnosis: wake up inside the influence Self-hypnosis also",
+  "last_words": "voice. Appendix C has the longer de-hypnosis checklist."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-13",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-13.txt",
+  "words": 2012,
+  "sha256": "089d90f8296803b6ebafe8737dcb7959f968b0234f28fa24383d73c1631822da",
+  "sections": [
+   "hypnosis-guide-h1-018"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/018-original.md"
+  ],
+  "first_words": "Induction: gathering attention without disappearing An induction gathers",
+  "last_words": "session; today’s altered state ends with the return."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-14",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-14.txt",
+  "words": 315,
+  "sha256": "9715096fa88bf31c662c46eb566cd28acd8983bbf1f8d60c65e448678b05c630",
+  "sections": [
+   "hypnosis-guide-h1-019"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/019-original.md"
+  ],
+  "first_words": "Come all the way back Reverse whatever you",
+  "last_words": "word, or an invitation to remain altered indefinitely."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-15",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-15.txt",
+  "words": 217,
+  "sha256": "d28aa021baa3876d173b001e91d9bec29278eb81f2c9ec490280860d310fc0f7",
+  "sections": [
+   "hypnosis-guide-h1-020"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/020-original.md"
+  ],
+  "first_words": "The actual inner meeting Sit rather than lie",
+  "last_words": "all of it. Believe none of it automatically."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-16",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-16.txt",
+  "words": 1298,
+  "sha256": "8909397833bfa5841728f3f0827148d2a27aca11e46e21e72fdcdc64594b1839",
+  "sections": [
+   "hypnosis-guide-h1-021"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/021-original.md"
+  ],
+  "first_words": "Let the next response guide you The induction",
+  "last_words": "owe the notebook a complete cast of characters."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-17",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-17.txt",
+  "words": 222,
+  "sha256": "f4a9eb6bc00647e275611a60ce353021bb0c742f9771ff434a29d935cccf1071",
+  "sections": [
+   "hypnosis-guide-h1-022"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/022-original.md"
+  ],
+  "first_words": "The 15-minute daily practice Use the same practice",
+  "last_words": "later, not only how impressive the session felt."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-18",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-18.txt",
+  "words": 406,
+  "sha256": "cb13bf7d2644961db49d83e5c60eb6c701e14d6e29feba1e051fafa0bbd384c7",
+  "sections": [
+   "hypnosis-guide-h1-023",
+   "hypnosis-guide-h1-024"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/023-original.md",
+   "runs/articles/hypnosis-guide/sections/024-original.md"
+  ],
+  "first_words": "The weekly deeper practice Once or twice a",
+  "last_words": "an image and involve outside support when needed."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-19",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-19.txt",
+  "words": 889,
+  "sha256": "0fb426ec0016e2b17f45d74c81e16cfd198f322f153b9e180123f7b5913d29e9",
+  "sections": [
+   "hypnosis-guide-h1-025"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/025-original.md"
+  ],
+  "first_words": "Troubleshooting Nothing happens Start smaller: “Show me one",
+  "last_words": "the adult is real?” Then do the thing."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-20",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-20.txt",
+  "words": 288,
+  "sha256": "82d3e5ccbba8e9b0f271e8db9eeed9a227a45ca3a6e59ca2fc53ed20d6cbeec1",
+  "sections": [
+   "hypnosis-guide-h1-026"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/026-original.md"
+  ],
+  "first_words": "What not to do Do not treat inner",
+  "last_words": "a direct statement that the session has ended."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-21",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-21.txt",
+  "words": 343,
+  "sha256": "caaec05a2937c686d1cd10ddd54e2ef886bb567b9d71b51b9b0c2aca320aa215",
+  "sections": [
+   "hypnosis-guide-h1-027"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/027-original.md"
+  ],
+  "first_words": "When this needs more support than a guide",
+  "last_words": "to sleep, food, grounding, boundaries, and outside support."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-22",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-22.txt",
+  "words": 346,
+  "sha256": "f456765d26d7630e4086fc6771ce3ab3537adbf27e5fbe9b4fbc364e30aaf676",
+  "sections": [
+   "hypnosis-guide-h1-028",
+   "hypnosis-guide-h1-029"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/028-original.md",
+   "runs/articles/hypnosis-guide/sections/029-original.md"
+  ],
+  "first_words": "Closing The subconscious isn’t the enemy. Neither are",
+  "last_words": "you can contact me directly for a consultation."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-23",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-23.txt",
+  "words": 579,
+  "sha256": "995370772c84ec561f0a8cca6419541b24b73cbc229acb4928c054af3c36886e",
+  "sections": [
+   "hypnosis-guide-h1-030",
+   "hypnosis-guide-h1-031"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/030-original.md",
+   "runs/articles/hypnosis-guide/sections/031-original.md"
+  ],
+  "first_words": "Appendices The main path is enough for daily",
+  "last_words": "answer without pretending the answer is automatically true."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-24",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-24.txt",
+  "words": 2060,
+  "sha256": "8749e9ab5abd17fb97b9340c55953033d0ae9ee47c31ab99466d54caa7e3c1e3",
+  "sections": [
+   "hypnosis-guide-h1-032"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/032-original.md"
+  ],
+  "first_words": "Appendix B: NLP without turning yourself into a",
+  "last_words": "back to the room. Do one ordinary thing."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-25",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-25.txt",
+  "words": 386,
+  "sha256": "bf5b4e6654ec2299ea2b17af2b8f1a7cfead149e5d2427c9187602dd40dfa3b4",
+  "sections": [
+   "hypnosis-guide-h1-033"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/033-original.md"
+  ],
+  "first_words": "Appendix C: The extended de-hypnosis checklist Use this",
+  "last_words": "the exact script, change the method, or leave."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-26",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-26.txt",
+  "words": 589,
+  "sha256": "95dd369b78152d80fcbba7c022a960c47e540d63f681ff105a3a2129f54a1469",
+  "sections": [
+   "hypnosis-guide-h1-034"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/034-original.md"
+  ],
+  "first_words": "Appendix D: Anxiety — body first Anxiety is",
+  "last_words": "the signal. I will listen, test, and act."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-27",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-27.txt",
+  "words": 205,
+  "sha256": "3b13d56a4050dc0cd49adad821a19274b8ac58445ed5bb5ea0f026036826f987",
+  "sections": [
+   "hypnosis-guide-h1-035"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/035-original.md"
+  ],
+  "first_words": "Appendix E: Is the daydream helping or replacing",
+  "last_words": "to the task, or stop chasing unavailable love."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-28",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-28.txt",
+  "words": 768,
+  "sha256": "b4e656118cee8416bb87ad2664fa3f2c1aec8921dfa8b255510e4f1ef4e717f7",
+  "sections": [
+   "hypnosis-guide-h1-036"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/036-original.md"
+  ],
+  "first_words": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+  "last_words": "holding yourself hostage after responsibility has been faced."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-29",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-29.txt",
+  "words": 343,
+  "sha256": "6b8ccd8d3921d7a5178811c9afa81fbb011531ca6650188130d8a5f8b91d4be8",
+  "sections": [
+   "hypnosis-guide-h1-037"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/037-original.md"
+  ],
+  "first_words": "Appendix G: Altered states This guide doesn’t tell",
+  "last_words": "simpler question: “What kind of problem is happening?”"
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-30",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-30.txt",
+  "words": 916,
+  "sha256": "096ecdc168529901600ddf33f4739be5eb1cc37225c82bc382ecf97fc62b267c",
+  "sections": [
+   "hypnosis-guide-h1-038"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/038-original.md"
+  ],
+  "first_words": "Appendix H: Demons, jinn, hostile presences, and “Unattached",
+  "last_words": "trying to turn anyone into an entity hobbyist."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-31",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-31.txt",
+  "words": 755,
+  "sha256": "39b6982b5ae1c114c49f9084f21fec04be81b9a0e8114397643f24c7f9a39c45",
+  "sections": [
+   "hypnosis-guide-h1-039",
+   "hypnosis-guide-h1-040"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/039-original.md",
+   "runs/articles/hypnosis-guide/sections/040-original.md"
+  ],
+  "first_words": "Appendix I: Sleep hypnosis For sleep hypnosis, use",
+  "last_words": "simply close the exercise and continue the day."
+ },
+ {
+  "check_id": "hypnosis-guide-baseline-32",
+  "article": "hypnosis-guide",
+  "variant": "baseline",
+  "paste_file": "runs/articles/hypnosis-guide/paste/hypnosis-guide-baseline-32.txt",
+  "words": 502,
+  "sha256": "10ad998ff4d2e891b00138927dc34f42d543d9267c83b505d8025533ed771d8e",
+  "sections": [
+   "hypnosis-guide-h1-041"
+  ],
+  "source_files": [
+   "runs/articles/hypnosis-guide/sections/041-original.md"
+  ],
+  "first_words": "Appendix K: Sources and further reading The personal",
+  "last_words": "claims rather than validating every use of hypnosis."
+ },
+ {
+  "check_id": "neuro-de-armoring-baseline-01",
+  "article": "neuro-de-armoring",
+  "variant": "baseline",
+  "paste_file": "runs/articles/neuro-de-armoring/paste/neuro-de-armoring-baseline-01.txt",
+  "words": 2343,
+  "sha256": "98cce16387580726b8a21e7bda7584e20d425f2c95434b17064623f5730c3a3d",
+  "sections": [
+   "neuro-de-armoring-h1-002",
+   "neuro-de-armoring-h1-003 (opening to end of Part 1)"
+  ],
+  "source_files": [
+   "runs/articles/neuro-de-armoring/sections/002-original.md",
+   "runs/articles/neuro-de-armoring/sections/003-original.md"
+  ],
+  "first_words": "Introduction When people tell me they have trauma,",
+  "last_words": "after a trigger to “jam” the memory reconsolidation."
+ },
+ {
+  "check_id": "neuro-de-armoring-baseline-02",
+  "article": "neuro-de-armoring",
+  "variant": "baseline",
+  "paste_file": "runs/articles/neuro-de-armoring/paste/neuro-de-armoring-baseline-02.txt",
+  "words": 1606,
+  "sha256": "4475485562e46b6b484a2342208fedbd6d779d03af4918f2734d4f40e082144a",
+  "sections": [
+   "neuro-de-armoring-h1-003 (Part 2)"
+  ],
+  "source_files": [
+   "runs/articles/neuro-de-armoring/sections/003-original.md"
+  ],
+  "first_words": "Part 2: Reducing Anxiety & Depression Lower the",
+  "last_words": "side effects, refer to the Keto Adaptation Guide."
+ },
+ {
+  "check_id": "neuro-de-armoring-baseline-03",
+  "article": "neuro-de-armoring",
+  "variant": "baseline",
+  "paste_file": "runs/articles/neuro-de-armoring/paste/neuro-de-armoring-baseline-03.txt",
+  "words": 1877,
+  "sha256": "ac1c998d356612022b7b56d0b0eb0edba5a1334533e9ed0bc5b749abc8d97c29",
+  "sections": [
+   "neuro-de-armoring-h1-003 (Parts 3-5 and Aftermath)"
+  ],
+  "source_files": [
+   "runs/articles/neuro-de-armoring/sections/003-original.md"
+  ],
+  "first_words": "Part 3: THE SHIELD (Flu-Proofing & Voltage Control)",
+  "last_words": "symptom of coming back to life. Welcome it."
+ }
+]
