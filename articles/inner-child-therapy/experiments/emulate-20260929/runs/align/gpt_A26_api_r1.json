@@ -1,0 +1,41 @@
+{
+  "source_sha256": "c41984ae662d1e409b9e17555ac370116c7cdf5334f05610a9184c45c7294201",
+  "output_sha256": "57af9d8b846a634ecda1a12bd1df8bda22cb3c6a00878949b9bfd06515ebb244",
+  "source_sentence_count": 2,
+  "output_sentence_count": 2,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 194,
+      "output_start": 0,
+      "output_end": 157,
+      "source_text": "That person has to return to the selfless kind of love I described at the start and care about what is genuinely best for both people, even if the relationship changes in a way they don’t want. ",
+      "output_text": "One of them has to get back to that selfless place we started from and realize that even if it’s not what they want, it’s what is best for the both of them. ",
+      "word_overlap": 0.273972602739726,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 194,
+      "source_end": 289,
+      "output_start": 157,
+      "output_end": 230,
+      "source_text": "The other person also can’t keep saying “not now” forever and pretend no choice is being made.\n",
+      "output_text": "And one of them has to realize that the other can’t always say “not now.”",
+      "word_overlap": 0.35294117647058826,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
