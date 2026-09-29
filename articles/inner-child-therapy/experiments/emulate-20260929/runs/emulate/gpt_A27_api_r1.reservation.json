@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_A27_api_r1",
+  "input_file": "inputs/learning/A_joelfixes/A27_before.txt",
+  "input_words": 99,
+  "input_sha256": "a7549256910cd5ba91391a18aab5d7c2f361b131d8c47a1d0e1fad3d6d4b23f9",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:26:25.341548+00:00",
+  "status": "completed",
+  "balance_before": 56065,
+  "provider_id": "b4add8da-e7de-4646-ab89-29e38472c264",
+  "words_charged": 99
+}

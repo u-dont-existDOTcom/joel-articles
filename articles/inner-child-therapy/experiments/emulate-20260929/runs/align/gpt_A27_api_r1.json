@@ -1,0 +1,94 @@
+{
+  "source_sha256": "a7549256910cd5ba91391a18aab5d7c2f361b131d8c47a1d0e1fad3d6d4b23f9",
+  "output_sha256": "f6161d8e8aac3a9b5b4bfdd78f71e6c28a8419f4a446508e8ee32bfa2d6995bb",
+  "source_sentence_count": 5,
+  "output_sentence_count": 10,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 118,
+      "output_start": 0,
+      "output_end": 114,
+      "source_text": "I'm not saying to start dumping every hidden thought on your partner and announcing that you’re finally being honest. ",
+      "output_text": "This is not a license for you to go out and spew your secrets and say \"Hey! I'm being radically honest with you!\" ",
+      "word_overlap": 0.13333333333333333,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 118,
+      "source_end": 294,
+      "output_start": 114,
+      "output_end": 352,
+      "source_text": "Ask whether both of you actually want to prioritize radical honesty, first, but the other person also can’t keep saying “not now” forever and pretend no choice is being made.\n\n",
+      "output_text": "First, be sure that you and your partner both want to embark on this journey to put radical honesty at the forefront of your relationship. Second, if you do, your partner can't forever put off having the conversation by saying \"not now.\" ",
+      "word_overlap": 0.2972972972972973,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 294,
+      "source_end": 412,
+      "output_start": 352,
+      "output_end": 468,
+      "source_text": "I'm not saying to start dumping every hidden thought on your partner and announcing that you’re finally being honest. ",
+      "output_text": "If he does, he's making a choice, too.\n\nThis is not a license for you to go out and spew your secrets and say \"Hey! ",
+      "word_overlap": 0.1702127659574468,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        6,
+        7
+      ],
+      "source_start": 412,
+      "source_end": 488,
+      "output_start": 468,
+      "output_end": 645,
+      "source_text": "Ask whether both of you actually want to prioritize radical honesty, first. ",
+      "output_text": "I'm being radically honest with you!\" First, be sure that you and your partner both want to embark on this journey to put radical honesty at the forefront of your relationship. ",
+      "word_overlap": 0.22727272727272727,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        8,
+        9
+      ],
+      "source_start": 488,
+      "source_end": 599,
+      "output_start": 645,
+      "output_end": 784,
+      "source_text": "But the other person also can’t keep saying “not now” forever and think that's going to save the relationship.\n",
+      "output_text": "Second, if you do, your partner can't forever put off having the conversation by saying \"not now.\" If he does, he's making a choice, too...",
+      "word_overlap": 0.25,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
