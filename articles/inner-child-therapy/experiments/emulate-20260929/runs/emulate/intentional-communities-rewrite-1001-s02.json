@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1001-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/996a1069-51c0-4dde-b539-b40eba73d94a",
+  "input_sha256": "a36c91c18508abd93a999f3327b38989fd4df9ff601c721912990ffeaaba1603",
+  "input_words": 183,
+  "before": 45973,
+  "after": 45790,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 207,
+      "sha256": "a2bf4d8a9d0f6636ff6318de75226b388336031a98f9ba61d3f1a74cdde7a4e0",
+      "page_sha256": "a2bf4d8a9d0f6636ff6318de75226b388336031a98f9ba61d3f1a74cdde7a4e0",
+      "has_list": false,
+      "last": "status in the community, health insurance, records, labor 'credits' (if any), transportation, tax issues, and potential conflicts don't fall through the cracks."
+    },
+    {
+      "option": "B",
+      "words": 297,
+      "sha256": "59789d7608d0a0fb1a6aa6f22992b26dd1dcc9338efdb13080f8bd4e37d4e204",
+      "page_sha256": "59789d7608d0a0fb1a6aa6f22992b26dd1dcc9338efdb13080f8bd4e37d4e204",
+      "has_list": false,
+      "last": "s, labor, travel, taxes, etc) don't fall between the cracks when people move. Handling disputes around the transition would be a good thing to think about, too."
+    }
+  ]
+}

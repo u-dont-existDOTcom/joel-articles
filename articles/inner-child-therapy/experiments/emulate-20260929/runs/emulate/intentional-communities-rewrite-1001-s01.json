@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1001-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/8bfc3511-60a6-4101-808b-cbaa337797ec",
+  "input_sha256": "2166dcf6eb19247043711436849835300730d67a7a131d7474c49a762e641862",
+  "input_words": 206,
+  "before": 46179,
+  "after": 45973,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 214,
+      "sha256": "4247d96839d25ace6f3dccfe03a049a7d3e35d3c7104b3f5c66bcacc4fd80161",
+      "page_sha256": "4247d96839d25ace6f3dccfe03a049a7d3e35d3c7104b3f5c66bcacc4fd80161",
+      "has_list": false,
+      "last": " limits. At the \"federation\" level I see several important functions, including:\n\nSpreading & training people in the healing practices we're developing, seeding"
+    },
+    {
+      "option": "B",
+      "words": 190,
+      "sha256": "3f2b7ac307ad08c41f21692af4772009bcdbfc4aa8074f9a60f57bd3253f22ae",
+      "page_sha256": "3f2b7ac307ad08c41f21692af4772009bcdbfc4aa8074f9a60f57bd3253f22ae",
+      "has_list": false,
+      "last": "he practice. Help train and seed new groups. Make sure that we don't become just another bunch of happy enclaves. Stay different enough to learn from eachother."
+    }
+  ]
+}
