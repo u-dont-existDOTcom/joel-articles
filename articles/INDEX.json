@@ -3908,7 +3908,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram.jsonl",
-          "sha256": "a7cb5cac006e81c6c490ece022cfbc099bcf1f10d21910a3babb00160d9eaf4e",
+          "sha256": "ff2963cb2ad827dbe32412aee4a34d62e9c7124227fb525d1a38b010b6dea094",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3944,7 +3944,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/admission-events.jsonl",
-          "sha256": "31d95ae5bd884cec965cd893c7195bbee84ee80d2ec3616eed98def8904cbef9",
+          "sha256": "0a9322d12faa4f22474b88fcc002f7bda9d3cba2f83d1945ee87dfbf885530e0",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -4863,6 +4863,18 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B16_after_b.overview.txt",
           "sha256": "9b6bce5944f03a7cade1e7068a9e859588dce986e043f1022a8bd1513ac879c4",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B17_r2_out1A.details.txt",
+          "sha256": "217f3360a9327c60621fc6ddf65f8fd02099daa938a34af2d0a25b7ef2c6e900",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B17_r2_out1A.overview.txt",
+          "sha256": "02a6ffbfd7847bdae4aaae056fe01cfbc809c9dd051a5bed1026e7c75c590c66",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }
