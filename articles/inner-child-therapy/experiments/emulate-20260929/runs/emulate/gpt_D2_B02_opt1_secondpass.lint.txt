@@ -1,0 +1,12 @@
+== tells_lint: /home/joel/.codex/.chatgpt-projects/g-p-6a5d356ea2bc8191b535f9d0a0b13574/emulate-overnight-work/articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_D2_B02_opt1_secondpass.txt
+verdict: REVIEW
+metrics: {'words': 163, 'my_words': 163, 'paragraphs': 1, 'coach_per_100': 1.84, 'you_per_100': 12.3, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.46, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (2)
+   * Maybe it’s something you need to do to keep you safe, or be close to someone, or help you do something you like, or get better at something – most of the time y
+   * Maybe you didn’t feel you could do it, or you didn’t want to do it in the end, or you didn’t know how to do it, or you were too tired, or the friend you thought
+-- E36/E41 heavy second person (1)
+   * 12.3 "you" per 100 of my words
+-- E41 coach phrase (3)
+   * Then, once you’ve done it (or not!) you can then see what happened, and how it made you feel.
+   * It’s important to remember that if you didn’t feel any better after doing it, that doesn’t mean it was a waste of time.
+   * Maybe it’s something you need to do to keep you safe, or be close to someone, or help you do something you like, or get better at something – most of the time y

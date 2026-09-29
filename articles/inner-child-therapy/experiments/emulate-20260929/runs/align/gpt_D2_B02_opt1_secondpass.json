@@ -1,0 +1,92 @@
+{
+  "source_sha256": "6ee0cb587d54654a5bffb45528159a4f3695b49e591eb4e8d7a3e0cc8bdafef2",
+  "output_sha256": "7b80d774586ff554a46ef3cc686a06e36db677a9ea9ddfc5ea93f5c7f0a00d67",
+  "source_sentence_count": 6,
+  "output_sentence_count": 7,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 30,
+      "output_start": 0,
+      "output_end": 36,
+      "source_text": "Once you've done it (or not!) ",
+      "output_text": "Then, once you’ve done it (or not!) ",
+      "word_overlap": 0.9333333333333333,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 30,
+      "source_end": 88,
+      "output_start": 36,
+      "output_end": 94,
+      "source_text": "you can then see what happened, and how it made you feel. ",
+      "output_text": "you can then see what happened, and how it made you feel. ",
+      "word_overlap": 1.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 88,
+      "source_end": 291,
+      "output_start": 94,
+      "output_end": 293,
+      "source_text": "Remember that if you didn't feel better after doing something it doesn't mean that doing it was a waste of time, and likewise if you did feel better it doesn't mean that you should always do that thing. ",
+      "output_text": "It’s important to remember that if you didn’t feel any better after doing it, that doesn’t mean it was a waste of time. And if you did feel better, that doesn’t mean you should always do that thing. ",
+      "word_overlap": 0.8433734939759037,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 291,
+      "source_end": 478,
+      "output_start": 293,
+      "output_end": 545,
+      "source_text": "Some things are useful to do to keep you safe, or to be close to someone, or to help you do things you enjoy, or to get better at things, but most of the time you can just tick them off. ",
+      "output_text": "Maybe it’s something you need to do to keep you safe, or be close to someone, or help you do something you like, or get better at something – most of the time you can just tick it off. And if you didn’t do the thing, that doesn’t mean anything either. ",
+      "word_overlap": 0.6170212765957447,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4,
+        5
+      ],
+      "output_sentences": [
+        6
+      ],
+      "source_start": 478,
+      "source_end": 781,
+      "output_start": 545,
+      "output_end": 745,
+      "source_text": "On the other hand, if you didn't do the thing you had planned to, don't jump to conclusions. Maybe you didn't feel able to do it, or maybe you didn't want to do it in the end, or maybe you didn't know how, or maybe you were too tired, or maybe the friend you were going to ask to help you didn't reply.\n",
+      "output_text": "Maybe you didn’t feel you could do it, or you didn’t want to do it in the end, or you didn’t know how to do it, or you were too tired, or the friend you thought you could ask to help you didn’t reply.",
+      "word_overlap": 0.6837606837606838,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
