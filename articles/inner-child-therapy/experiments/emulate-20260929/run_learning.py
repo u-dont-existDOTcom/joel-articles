@@ -8,8 +8,8 @@ for item in items:
  if not item['id'].startswith(args.group):continue
  run_id='gpt_'+item['id'].split('_')[0]+'_api_r1'
  rows=[json.loads(l) for l in (p/'runs/emulate.jsonl').read_text().splitlines()]
- if args.group=='B' and item['id']=='B01_m34':
-  print('B01 already materialized in website charge test; reuse, no extra first run',flush=True);continue
+ if args.group=='B' and item['id'] in ['B01_m34','B02_after_a']:
+  print(item['id']+' already has first versions: B01 website charge test; B02 two Claude API versions. Reuse, no third same-setting call',flush=True);continue
  if any(r['run_id']==run_id for r in rows):
   print(run_id+' already saved; reuse',flush=True);continue
  if item['words']<40:

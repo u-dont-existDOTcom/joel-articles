@@ -2636,7 +2636,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/CURRENT-STATE.md",
-          "sha256": "d5d4f60f82a745c566e57136114fac187300b994af5719632648d753d0852940",
+          "sha256": "a75893f4099a19b4818c5c33e6705903835b2929567df98c47afa1f6f66553c5",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -2648,7 +2648,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/LEDGER.md",
-          "sha256": "d23ec22e580219d6383d288efd5952e90b0cbd1a96dd7287513f978549e6153f",
+          "sha256": "c473cb223a31042220591f4428618a71dd7003fd77b299e3ed382ae6c78b6f0f",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -4934,7 +4934,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/run_learning.py",
-          "sha256": "5fab795e42199699a39c2184ec3d11852ec7bc0793f1517ee7bbd880d70625a5",
+          "sha256": "a7948f34b1e1b7904d63997505fe4ccf07675ce902c308026b41e48e3deeb1b0",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -5757,6 +5757,12 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_A30_api_r1.txt",
           "sha256": "a6075c594f6a89376c475910ec86d0757aaa3fec496d0be61902603e270c2f30",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/RUNTIME-GATES.json",
+          "sha256": "f613204e19b733f62b2f140db95ea07b0012dd5ab9876f31d8067889f4fe4988",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }

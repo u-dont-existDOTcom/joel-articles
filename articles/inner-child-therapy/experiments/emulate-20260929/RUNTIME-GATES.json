@@ -1,0 +1,22 @@
+{
+  "browser": {
+    "status": "blocked",
+    "reason": "admin-enforced browser policy could not be verified",
+    "origin": "https://www.pangram.com",
+    "paid_B22_submission": false,
+    "verification_attempts": 2,
+    "workaround_prohibited": true
+  },
+  "pdf_exports": {
+    "status": "disabled",
+    "reason": "Native Save As dialogs disrupted owner"
+  },
+  "emulate_api": {
+    "status": "available_authorized",
+    "route_admitted_before_browser_gate": true
+  },
+  "article_humanization": {
+    "status": "pending_baselines",
+    "unmeasured_paragraphs_must_not_be_rewritten": true
+  }
+}
