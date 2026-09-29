@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0802-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/8604ff0f-778e-46c4-a954-55b8fe1a32ef",
+  "input_sha256": "b41617f16999b3583e2d06da06f209a60fcae87b923e39e378ca0fb47313572b",
+  "input_words": 227,
+  "before": 48093,
+  "after": 47866,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 296,
+      "sha256": "eca55eb35f701e82fdf39afcd62b8dcd4133645fb248f6a3ad0abaea7093ecf0",
+      "page_sha256": "eca55eb35f701e82fdf39afcd62b8dcd4133645fb248f6a3ad0abaea7093ecf0",
+      "has_list": false,
+      "last": "re and the multiplicity of people for kids to form attachments with.\n\nI would suggest that you look into Tamera's Children's Place. But as I said, I'm biased :)"
+    },
+    {
+      "option": "B",
+      "words": 359,
+      "sha256": "2dd86f51fb0f4efb7e0f4ea11b284eea5ade50cfb6f807ff1cd5ffaa88becd52",
+      "page_sha256": "2dd86f51fb0f4efb7e0f4ea11b284eea5ade50cfb6f807ff1cd5ffaa88becd52",
+      "has_list": false,
+      "last": "'s Place at Tamera though. I am biased though, I like anything that will enhance a child's life, as long as it is not contrary to the parent/child relationship."
+    }
+  ]
+}

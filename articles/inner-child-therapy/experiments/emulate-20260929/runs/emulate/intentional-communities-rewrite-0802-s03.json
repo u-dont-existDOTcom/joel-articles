@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0802-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/357585c8-ba7d-4e7c-8522-9b909f797a14",
+  "input_sha256": "e94151f979b684430381d0961884b6635631a34721084c74a4f8b8fbb06b16ba",
+  "input_words": 182,
+  "before": 47645,
+  "after": 47463,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 208,
+      "sha256": "3a33ed61e4c5afec8b5011b226465bbca6dae0d0416104f709b9674349ac71d1",
+      "page_sha256": "3a33ed61e4c5afec8b5011b226465bbca6dae0d0416104f709b9674349ac71d1",
+      "has_list": false,
+      "last": "ids were returned to their families, demonstrating that turning everything over to the state doesn’t work either. Total enclosure of the community doesn’t work."
+    },
+    {
+      "option": "B",
+      "words": 233,
+      "sha256": "9555b7b098c273f1b0c68a73fd2ac86115bcb3ee50514a345a28dc72770b4306",
+      "page_sha256": "9555b7b098c273f1b0c68a73fd2ac86115bcb3ee50514a345a28dc72770b4306",
+      "has_list": true,
+      "last": "ren to the state as the state requested, and so the children were returned. But equally, total enclosure in your community can fail. So your children need more."
+    }
+  ]
+}

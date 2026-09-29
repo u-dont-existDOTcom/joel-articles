@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0802-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/1b6dae0f-92cd-48ef-abee-d86a119c6f2f",
+  "input_sha256": "623939a48fc13c0292366b1c67022e18b5fb48afe89b4898a1e3fa4d52e72e52",
+  "input_words": 221,
+  "before": 47866,
+  "after": 47645,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 269,
+      "sha256": "4ed6c4a0579ea16e37f86a532199c7f8ea7e93256135e763016f3c6bc5d3c7d4",
+      "page_sha256": "7bf5bb722a986adb1f383f745c5ac9dbba90aa082192a4c3fb00401bb0fbcdea",
+      "has_list": true,
+      "last": "ships). This does not apply to surprises, since these have a date when they will be revealed. Secrets serve to separate a child from his mother or other adults."
+    },
+    {
+      "option": "B",
+      "words": 269,
+      "sha256": "684b688defeeacbc0616326eede7389ea69b938e10804ebefbd8931dbf1156fb",
+      "page_sha256": "684b688defeeacbc0616326eede7389ea69b938e10804ebefbd8931dbf1156fb",
+      "has_list": true,
+      "last": "son). Exceptions are surprises, but here one should say when it will be revealed. It is not permitted to build secrets, with which one wants to isolate the kid."
+    }
+  ]
+}
