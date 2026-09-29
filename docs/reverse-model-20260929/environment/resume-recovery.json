@@ -1,0 +1,69 @@
+{
+  "as_of_unix": 1790697020.8074763,
+  "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "cgroup_limits": {
+    "cpu.max": "1152000 100000",
+    "memory.max": "274915655680"
+  },
+  "old_commit": "e31b1ae4e6605764912058f4fd3ee14953aeadb4",
+  "new_commit": "7981690beff7eb83f9f133b87536d02ee972c155",
+  "runtime_generated_hashes": {
+    "generation-manifest.json": "98ed951f6fa18173f1b51a1f882495f96791783a9d046b9357c68034b96604c0",
+    "model-requests.jsonl": "e4c2b9a1c50dd13983302636dab156440e98c8d1f6f93793a5641e8518a0a0f6",
+    "pairs-audit.jsonl": "98cd0faf664b0cd5dc59965993d00785e5a3746e4f851db315527e293e6d25aa",
+    "train-pairs.jsonl": "ac39073f0639c22ca29914d88fab47a479fa1ed991368294dfa6911b7efeb337",
+    "dev-pairs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "test-pairs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "generation-status.json": "65a6d42d40fe3c2e143b1db5c589552f65f46e215002309e504ce2d91451fcf5"
+  },
+  "status": "PRESERVED_AND_FAST_FORWARDED",
+  "packages_changed": false,
+  "base_supervisor_config": "[program:reverse-pilot-base-download]\ncommand=/venv/main/bin/python -u /workspace/reverse-pilot-20260929/repo/docs/reverse-model-20260929/tools/download_verified_weights.py --condition base --evidence /workspace/reverse-pilot-20260929/runtime-environment\ndirectory=/workspace/reverse-pilot-20260929/repo\nautostart=false\nautorestart=false\nstartsecs=0\nstopasgroup=true\nkillasgroup=true\nstdout_logfile=/workspace/reverse-pilot-20260929/base-download.log\nstderr_logfile=/workspace/reverse-pilot-20260929/base-download.log\nenvironment=HF_HOME=\"/workspace/.hf_home\",HF_HUB_DISABLE_XET=\"1\"\n",
+  "disk": {
+    "total": 209379655680,
+    "used": 73585160192,
+    "free": 135794495488
+  },
+  "base_pieces": [
+    {
+      "file": "model-00001-of-00016.safetensors",
+      "logical_bytes": 3808605333,
+      "allocated_bytes": 2789912576
+    },
+    {
+      "file": "model-00001-of-00016.safetensors.aria2",
+      "logical_bytes": 695,
+      "allocated_bytes": 4096
+    },
+    {
+      "file": "model-00002-of-00016.safetensors",
+      "logical_bytes": 3921040985,
+      "allocated_bytes": 2971951104
+    },
+    {
+      "file": "model-00002-of-00016.safetensors.aria2",
+      "logical_bytes": 695,
+      "allocated_bytes": 4096
+    },
+    {
+      "file": "model-00003-of-00016.safetensors",
+      "logical_bytes": 3944543783,
+      "allocated_bytes": 2646478848
+    },
+    {
+      "file": "model-00003-of-00016.safetensors.aria2",
+      "logical_bytes": 695,
+      "allocated_bytes": 4096
+    },
+    {
+      "file": "model-00004-of-00016.safetensors",
+      "logical_bytes": 3836061913,
+      "allocated_bytes": 2959372288
+    },
+    {
+      "file": "model-00004-of-00016.safetensors.aria2",
+      "logical_bytes": 675,
+      "allocated_bytes": 4096
+    }
+  ]
+}

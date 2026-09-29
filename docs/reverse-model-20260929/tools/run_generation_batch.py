@@ -34,25 +34,44 @@ def main(args):
                'termination_grace_seconds': 120, 'status': 'RUNNING'}
     path = history / 'run-receipt.json'
     path.write_text(json.dumps(receipt, indent=2)+'\n')
-    command = ['/venv/main/bin/python', '-u', str(tool), '--input', str(source),
+    command = [args.python, '-u', str(tool), '--input', str(source),
                '--output', str(output), '--batch-size', str(args.batch_size),
                '--limit', str(args.new_passages), '--deadline-unix', str(started+args.seconds)]
     child = subprocess.Popen(command, start_new_session=True)
-    try:
-        returncode = child.wait(timeout=args.seconds)
-        status = 'COMPLETE' if returncode == 0 else 'FAILED'
-    except subprocess.TimeoutExpired:
-        os.killpg(child.pid, signal.SIGTERM)
+    stop_requested = False
+
+    def terminate_child():
+        if child.poll() is not None:
+            return child.returncode
         try:
-            returncode = child.wait(timeout=120)
+            os.killpg(child.pid, signal.SIGTERM)
+        except ProcessLookupError:
+            pass
+        try:
+            return child.wait(timeout=120)
         except subprocess.TimeoutExpired:
             os.killpg(child.pid, signal.SIGKILL)
-            returncode = child.wait()
+            return child.wait()
+
+    def stop_handler(signum, frame):
+        nonlocal stop_requested
+        stop_requested = True
+        terminate_child()
+
+    signal.signal(signal.SIGTERM, stop_handler)
+    signal.signal(signal.SIGINT, stop_handler)
+    try:
+        returncode = child.wait(timeout=args.seconds)
+        status = ('STOP_REQUESTED_SAVED_PARTIAL_EVIDENCE' if stop_requested else
+                  'COMPLETE' if returncode == 0 else 'FAILED')
+    except subprocess.TimeoutExpired:
+        returncode = terminate_child()
         status = 'DEADLINE_SAVED_PARTIAL_EVIDENCE'
     receipt.update(ended_unix=time.time(), returncode=returncode, status=status)
     path.write_text(json.dumps(receipt, indent=2)+'\n')
     print(json.dumps(receipt), flush=True)
-    raise SystemExit(0 if status in {'COMPLETE', 'DEADLINE_SAVED_PARTIAL_EVIDENCE'} else returncode)
+    raise SystemExit(0 if status in {'COMPLETE', 'DEADLINE_SAVED_PARTIAL_EVIDENCE',
+                                    'STOP_REQUESTED_SAVED_PARTIAL_EVIDENCE'} else returncode)
 
 
 if __name__ == '__main__':
@@ -61,4 +80,5 @@ if __name__ == '__main__':
     parser.add_argument('--batch-size', type=int, default=32)
     parser.add_argument('--new-passages', type=int, default=32)
     parser.add_argument('--seconds', type=int, default=3600)
+    parser.add_argument('--python', default='/venv/main/bin/python')
     main(parser.parse_args())

@@ -1,0 +1,60 @@
+{
+  "as_of_unix": 1790696871.866796,
+  "agents_full_read_sha256": "1b260fbb3396bbaf2d0f1c5041f8a46c3b97f53584f98acb39bbdcb423b0c6e7",
+  "workspace": "/workspace",
+  "workspace_is_volume": false,
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "cuda": {
+    "driver_version": "580.142",
+    "components": {
+      "nvcc": true,
+      "dev_headers": true,
+      "cudart": true,
+      "nvrtc": true,
+      "cublas": true,
+      "cudnn": false,
+      "cufft": true,
+      "cusparse": false,
+      "cusolver": false,
+      "curand": false,
+      "nccl": true,
+      "npp": true,
+      "nvjpeg": true
+    },
+    "installed_version": "12.9",
+    "cuda_home": "/usr/local/cuda",
+    "forward_compat": {
+      "available": true,
+      "enabled": false,
+      "path": "/usr/local/cuda/compat",
+      "compat_driver_version": "575.57.08",
+      "host_driver_version": "580.142",
+      "note": "CUDA forward-compatibility libs. They let a NEWER CUDA MAJOR version run on an OLDER host driver, on datacenter (Volta+) GPUs only. This image auto-enables them at boot (via ldconfig) when needed and leaves them off otherwise — `enabled` is the current state. You normally never toggle this by hand; do NOT force them on when the host driver is new enough (set DISABLE_FORWARD_COMPAT=true at launch to opt out). For same-major mismatches (e.g. CUDA 12.x app on a 12.y driver) no compat libs are needed at all — see minor-version compatibility in the cuda note."
+    },
+    "driver_max_cuda": "13.0",
+    "compute_capability": "8.0",
+    "note": "CUDA compute works via the host-injected driver. A PARTIAL CUDA 12.9 install is present (components: nvcc, dev_headers, cudart, nvrtc, cublas, cufft, nccl, npp, nvjpeg); this is NOT a full toolkit, so check the `components` map before assuming a library exists — missing ones (e.g. cuBLAS/cuDNN) must be added from the configured nvidia apt repo (cuda-<lib>-X-Y / libcudnn*) or come bundled with framework wheels. COMPATIBILITY (agents get this wrong): the toolkit/wheel does NOT need to match the driver's exact CUDA version. CUDA minor-version compatibility means any CUDA 12.x build runs on any driver that supports CUDA 12.0+ (and 13.x on a 13.0+ driver) — so a 12.x wheel is fine here as long as driver_max_cuda is >= 12.0; do NOT 'upgrade the driver to match CUDA'. CAVEAT: this excludes PTX JIT — code shipped as PTX from a toolkit NEWER than the host driver fails with CUDA_ERROR_UNSUPPORTED_PTX_VERSION (222) since the driver owns the JIT (only bites when the host driver is older than the build; use native-cubin builds or forward compat). Forward compatibility (running a newer CUDA MAJOR on an older driver) is the separate cuda-compat mechanism, auto-managed at boot (see forward_compat). What DOES bind is the GPU architecture: compute_capability >= 10.0 (Blackwell) needs CUDA >= 12.8 wheels — an older build (e.g. torch cu124) installs cleanly but fails at runtime with 'no kernel image is available'. When installing CUDA libs: NEVER install the NVIDIA driver from apt (it must match the host — avoid the 'cuda' metapackage and nvidia-driver-*/libcuda* packages); install only components <= driver_max_cuda, and prefer framework wheels that bundle their own CUDA runtime. See AGENTS.md."
+  },
+  "packages": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.5.0",
+    "peft": "0.18.1",
+    "trl": "0.23.1",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "unsloth": "2026.9.11",
+    "unsloth_zoo": "2026.9.7"
+  },
+  "disk": {
+    "total": 209379655680,
+    "used": 73583267840,
+    "free": 135796387840
+  },
+  "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "cgroup_limits": {
+    "cpu.max": "1152000 100000",
+    "memory.max": "274915655680"
+  },
+  "pilot_services_before_recovery": "caddy                            RUNNING   pid 369, uptime 0:02:08\ncron                             RUNNING   pid 370, uptime 0:02:08\ninstance_portal                  RUNNING   pid 371, uptime 0:02:08\njupyter                          EXITED    Sep 29 03:45 PM\npyworker                         EXITED    Sep 29 03:45 PM\nreverse-pilot-base-download      STOPPED   Not started\nreverse-pilot-batch16            STOPPED   Not started\nreverse-pilot-benchmark          STOPPED   Not started\nreverse-pilot-download           STOPPED   Not started\nreverse-pilot-fit                STOPPED   Not started\nsyncthing                        RUNNING   pid 379, uptime 0:02:08\ntensorboard                      RUNNING   pid 385, uptime 0:02:08\ntunnel_manager                   RUNNING   pid 393, uptime 0:02:08\nunsloth-studio                   RUNNING   pid 399, uptime 0:02:08\n",
+  "packages_changed": false
+}
