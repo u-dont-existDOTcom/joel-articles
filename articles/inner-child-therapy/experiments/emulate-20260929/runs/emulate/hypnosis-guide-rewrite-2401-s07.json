@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s07",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/a1859f5a-e080-4dc4-baff-5bf2f5335cf3",
+  "input_sha256": "c0274c26791b7f4ad9a1047f435e5dc3982bc8c5f61ca8116792c57255936ebf",
+  "input_words": 203,
+  "before": 26948,
+  "after": 26745,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 345,
+      "sha256": "621a66015281527805096e94c456e173c3d7e4b0f54f361f7fe02b7db1bfe964",
+      "page_sha256": "621a66015281527805096e94c456e173c3d7e4b0f54f361f7fe02b7db1bfe964",
+      "has_list": false,
+      "last": "re telling you something, or makes it difficult for you to tell the difference between observations and your interpretations of them, stop using this technique."
+    },
+    {
+      "option": "B",
+      "words": 257,
+      "sha256": "c52df6b97f7bdb9da7b16ebc392921b4722a9b7b1504495bcd465489eba7251b",
+      "page_sha256": "c52df6b97f7bdb9da7b16ebc392921b4722a9b7b1504495bcd465489eba7251b",
+      "has_list": false,
+      "last": "ous, leading you to think that random events are there for you, or in any other way destabilising your ability to work out what’s going on, turn them off again."
+    }
+  ]
+}

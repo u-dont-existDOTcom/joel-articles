@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s06",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/9cde3d7d-af33-442b-88bc-07d3ee19a447",
+  "input_sha256": "b43f6edf1daecd56ef1edb5305c068c8362f7946fba665eeb57d5525518f9231",
+  "input_words": 227,
+  "before": 27175,
+  "after": 26948,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 308,
+      "sha256": "74edd72f06a693641ca9940e6bdb897df38dcb8b976f929fecf161644ef0f3b8",
+      "page_sha256": "74edd72f06a693641ca9940e6bdb897df38dcb8b976f929fecf161644ef0f3b8",
+      "has_list": false,
+      "last": "ally need to do something about the situation.\n\nTo install the cue for yourself, do the following:\n\nImagine yourself seeing a completely harmless synchronicity."
+    },
+    {
+      "option": "B",
+      "words": 336,
+      "sha256": "55f8e9592739412d0d8cb57ae7fb983f5367337664f065a2d0823d9f9899dc55",
+      "page_sha256": "55f8e9592739412d0d8cb57ae7fb983f5367337664f065a2d0823d9f9899dc55",
+      "has_list": false,
+      "last": "the world, and so on).\n\nHere’s how to install a ‘synchronicity’ cue:\n\nImagine you’ve just noticed a ‘synchronicity’. Just an ordinary, harmless ‘synchronicity’."
+    }
+  ]
+}

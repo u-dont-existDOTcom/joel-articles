@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s09",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/b37d626f-0278-4f40-82d3-a3942f3b44ce",
+  "input_sha256": "79a0d127e74ce7c17703974a12cbf639ab0e17895d16fe5cba036083127e1530",
+  "input_words": 229,
+  "before": 26524,
+  "after": 26295,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 177,
+      "sha256": "226f39b9471ce17d7d4b12e2873245faf49c71638753fbeb0b79b92f0d4f4557",
+      "page_sha256": "226f39b9471ce17d7d4b12e2873245faf49c71638753fbeb0b79b92f0d4f4557",
+      "has_list": false,
+      "last": "\"\n\nTaking advantage of altered states, trances, attraction, weakness, shame, or grief\n\nWhat I will do in an NLP sequence:\n\nInduce or contain\n\nAsk for permission"
+    },
+    {
+      "option": "B",
+      "words": 256,
+      "sha256": "f2d39c771436de22d63a6d67821c410a2aee5080eb19b2dd5ee71b957aa045b5",
+      "page_sha256": "f2d39c771436de22d63a6d67821c410a2aee5080eb19b2dd5ee71b957aa045b5",
+      "has_list": false,
+      "last": " NLP from beginning to end\n\nInduce or contain. Get some attention, or contain if already induced.\n\nGet permission. Is this something they would want to work on?"
+    }
+  ]
+}

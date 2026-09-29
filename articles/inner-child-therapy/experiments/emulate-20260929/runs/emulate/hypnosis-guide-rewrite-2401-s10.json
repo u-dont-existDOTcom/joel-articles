@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s10",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/7c3f6de9-94fd-4656-94b5-1305e6b93ed8",
+  "input_sha256": "850b0336f38021f4aa1102496a9ff7b63760c38e29e53706322a56fb173afecd",
+  "input_words": 120,
+  "before": 26295,
+  "after": 26175,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 116,
+      "sha256": "b897ffae67397cb557080eeae13cf2af2e11c522729b3ef2f9c9bd6ef6501fa6",
+      "page_sha256": "21739a79ba7696a848a009bcc91173cf992db6333d3eaa8f24fe99d493147752",
+      "has_list": true,
+      "last": "e (what’s different in your body, does the behaviour feel ok, is it do-able, what other evidence have you that this is the right thing to do).\n\n8. Exit and act."
+    },
+    {
+      "option": "B",
+      "words": 154,
+      "sha256": "49aa51e4cbf371bf6ccc10973f146f8336c2c3a9037c7b53d2e005c9bdbeafac",
+      "page_sha256": "49aa51e4cbf371bf6ccc10973f146f8336c2c3a9037c7b53d2e005c9bdbeafac",
+      "has_list": true,
+      "last": " it out (How does your body feel now? Are you behaving in a more reasonable way now? How do you know you are right in what you are saying?)\nExit and take action"
+    }
+  ]
+}

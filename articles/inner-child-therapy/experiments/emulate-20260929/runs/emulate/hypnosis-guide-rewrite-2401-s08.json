@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s08",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/bbe4d284-50f8-4c98-a961-36f9c57f6c00",
+  "input_sha256": "a8c16bd48d7f1c0f3abd0d10752b97a2bb1f4c52b76d7b7bf19fa78ceee59039",
+  "input_words": 221,
+  "before": 26745,
+  "after": 26524,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 324,
+      "sha256": "7575f09cd4d1a5e0950070d9126b79e8339f89ef7e175bf5997bb0eef03e75b9",
+      "page_sha256": "7575f09cd4d1a5e0950070d9126b79e8339f89ef7e175bf5997bb0eef03e75b9",
+      "has_list": false,
+      "last": "would test your understanding, see it in your mind’s eye and rehearse how you would respond to the cue.\n\n“If [cue], then I [small action].”\n\nThe Swish, softened"
+    },
+    {
+      "option": "B",
+      "words": 288,
+      "sha256": "2ff14ea5735c909d1387fa39ec24a8e974948048cacf240a06f4ac617736f339",
+      "page_sha256": "2ff14ea5735c909d1387fa39ec24a8e974948048cacf240a06f4ac617736f339",
+      "has_list": true,
+      "last": "to a place in the future where you will be tested, see the cue, and rehearse doing what you need to do.\n\n“If [cue], then I [small action].”\n\nThe Swish, softened"
+    }
+  ]
+}

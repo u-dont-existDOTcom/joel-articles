@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2601-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/0dd8dedf-4456-4afd-963e-f3c00ade6b15",
+  "input_sha256": "77399bc53d62f2a1123e5dddcc83760b3575ffa58f39bdf515ceae1b76c7e070",
+  "input_words": 174,
+  "before": 25789,
+  "after": 25615,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 206,
+      "sha256": "a38fa63fd901d9a5bad943f38ea00f8740f51aa5372a7674bae8f92013b773b9",
+      "page_sha256": "4bc203dc773cee254e6c0cc08bdd5dad12e26a8364bd524a477c2eed3c4643e1",
+      "has_list": true,
+      "last": " and exhale gently. There will be a pause at the end of each breath. Be careful to go slow as not breathing enough initially increases your anxiety for a while."
+    },
+    {
+      "option": "B",
+      "words": 231,
+      "sha256": "d38a378ec7998ac6fbef1bddb5b2c9621fbd4070d3788c087df06dc86d4f58e7",
+      "page_sha256": "d38a378ec7998ac6fbef1bddb5b2c9621fbd4070d3788c087df06dc86d4f58e7",
+      "has_list": false,
+      "last": "aking your inhales small, your exhales quiet and then pause a little. The idea is to make your breathing quiet and less dramatic. Stop if it doesn’t feel right."
+    }
+  ]
+}

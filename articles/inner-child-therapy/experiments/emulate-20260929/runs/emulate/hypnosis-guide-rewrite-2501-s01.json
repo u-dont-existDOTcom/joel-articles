@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2501-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/f48111b4-ab03-41b0-9ebc-4fad8cc4b4ce",
+  "input_sha256": "14c68dfb058c6bab0599763322d3d2f153d112193ec4bc64bb19ae4f1c251460",
+  "input_words": 224,
+  "before": 26175,
+  "after": 25951,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 234,
+      "sha256": "e832d9020d6ef787340ea1937e2abccf3c2d2ea5455dc0057a48c9d02b1074ff",
+      "page_sha256": "e832d9020d6ef787340ea1937e2abccf3c2d2ea5455dc0057a48c9d02b1074ff",
+      "has_list": false,
+      "last": "or rescued?\n\nIs my adult self still allowed to say \"No\"?\n\nIf you answered \"Yes\" to more than a few of these, you need to stop and not go deeper into the trance."
+    },
+    {
+      "option": "B",
+      "words": 257,
+      "sha256": "3fb4e33c8620857d4dd4e0f8aa6a8cfd3d991c79c9a2193ff3e13947faf1396d",
+      "page_sha256": "3fb4e33c8620857d4dd4e0f8aa6a8cfd3d991c79c9a2193ff3e13947faf1396d",
+      "has_list": true,
+      "last": "e are true, don’t go further into trance and make decisions. Come back into your body, into the room, get some food, sleep and time before making any decisions."
+    }
+  ]
+}

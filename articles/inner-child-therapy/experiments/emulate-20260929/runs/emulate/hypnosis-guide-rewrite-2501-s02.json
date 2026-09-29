@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2501-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/83c8ab8e-385b-4332-b4db-5486f857b63f",
+  "input_sha256": "90d307dcd336c8a484a932f4aab8ebc8b5905c9dde80d9c02e79e6dd82521e21",
+  "input_words": 162,
+  "before": 25951,
+  "after": 25789,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 228,
+      "sha256": "ae663c8bcbc5fef2cec9dd364afd4552b02a142228aad0e33881e78ee2a5f576",
+      "page_sha256": "ae663c8bcbc5fef2cec9dd364afd4552b02a142228aad0e33881e78ee2a5f576",
+      "has_list": false,
+      "last": " the process should be stopped immediately to allow you to return to full alertness, the script should be reviewed, or the process changed, or you should leave."
+    },
+    {
+      "option": "B",
+      "words": 259,
+      "sha256": "381967982e21d41fd6025face160b3a5e9f086f69278d9bee2e285a24a5fa4d9",
+      "page_sha256": "381967982e21d41fd6025face160b3a5e9f086f69278d9bee2e285a24a5fa4d9",
+      "has_list": false,
+      "last": "hese cases you’re not sure of the answer, you can always ‘step out’ to full alertness and either ask for a script, modify the induction, or cease it completely."
+    }
+  ]
+}
