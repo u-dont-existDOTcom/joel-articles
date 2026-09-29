@@ -21,7 +21,11 @@
 - **Accounts.** Use Joel's Emulate and Pangram accounts only.
   - If either site asks you to sign in, stop and ask Joel to take over the browser and sign in.
   - Never create an account, type a password, buy anything, or change a plan or setting.
-- **Emulate's API first, the website as a fallback.** Docs: https://www.tryemulate.ai/docs/api. Claude tested it on 2026-09-29; see `runs/CLAUDE-API-TEST.md`.
+- **Emulate: the website by default if its two options cost one charge, the API if not.** API docs: https://www.tryemulate.ai/docs/api. Claude tested the API on 2026-09-29; see `runs/CLAUDE-API-TEST.md`.
+  - **The first thing tonight is the charge test.** Read `GET /v1/me`, run B01 once on the website, and read `/v1/me` again.
+    - If the two options together cost one charge (180 words for B01), the website is the default and the API is the fallback for when the website breaks. You get twice the versions for the same words.
+    - If they cost two charges, the API is the default.
+    - Write which it is in `LEDGER.md`.
   - **The call:** `POST https://www.tryemulate.ai/v1/humanize`, with the header `Authorization: Bearer <key>` and the JSON body `{"text": "..."}`. Blank lines separate paragraphs.
     - It needs at least 40 words and takes up to 3,000 on Joel's plan.
     - The reply has `id`, `text`, `reads_human`, `words.charged` and `elapsed`. Calls took 5–9 seconds in the test.
@@ -37,13 +41,13 @@
     - `400 too_short`: under 40 words (see Chunks).
     - `503 unavailable`: wait 30 seconds and retry once.
     - `502 failed`: isn't charged; retry once.
-  - Use the website only if the API is down, and for probes D4 and D7.
+  - Whichever one is the default, the other is the fallback. Probe D4 (Style settings) needs the website either way.
 - **Budgets.** Track both in `LEDGER.md` as you go.
   - **Emulate:** after Claude's test, Joel's plan has 58,017 words left (`GET /v1/me`), with a limit of 3,000 words per call. Every call is charged the words you send.
     - Split:
       - learning sets: up to 5,000;
       - the articles' first pass: up to 38,600, and only flagged paragraphs are sent;
-      - second calls (see Choosing between two versions): up to 12,000;
+      - second runs (see Choosing between versions): up to 12,000;
       - a reserve of at least 2,000.
     - Hearthwork only if words are left after all that.
     - If you run out, stop and list what's left in the morning note.
@@ -131,7 +135,7 @@ Check every learning input as it is on Pangram, using the variant `baseline`.
 
 ## Part 2. Emulate runs (Work)
 
-Leave Style on Auto unless a probe below says otherwise. Send one input per run, through the API or on the website (paste it, press Humanize, copy the result). Don't chat with Emulate. Chat edits cost words and aren't part of the test.
+Leave Style on Auto unless a probe below says otherwise. Send one input per run, through the API or on the website (paste it, press Humanize, and copy both options). Don't chat with Emulate. Chat edits cost words and aren't part of the test.
 
 Go in this order, and stop at the budget:
 
@@ -156,9 +160,7 @@ Go in this order, and stop at the budget:
    - **D4 (what do the Style settings change?):** this one is website only, since the API has no settings. Run B01 twice more, once set to second person and casual, once to first person. Record the exact settings.
    - **D5 (does it write a paragraph differently inside a longer piece?):** compare the paragraphs in B03's output that cover B01's content with B01's own outputs.
    - **D6 (does it keep links?):** see Links, under Articles above.
-   - **D7 (does the website match the API, and what does it charge?):** run B01, A01 and A03 on the website once each, reading `/v1/me` before and after each run.
-     - This shows whether the website's two options cost one charge or two. If they cost one, say so in the morning note, because that halves the price of getting two versions.
-     - Compare the website's options with the API's.
+   - **D7 (does the website write like the API?):** the charge test comes first (see the Emulate rule under Hard rules). Get website options and API versions for B01, A01 and A03, and compare them. B01 already has two API versions from Claude's test.
 
 ## Part 3. Check every output (Work)
 
@@ -171,28 +173,22 @@ For each Emulate output:
   - Check each section put back together, with its original headings and the paragraphs that stayed (`section`).
   - When an article is done, check it whole (`full_article`). If it's too long for one check, use chunks of whole sections that overlap by one section.
   - If a seam between two sections is flagged and the budget allows, run the flagged paragraphs on both sides of it through Emulate together once, and check again.
-  - If a section shows any AI, follow Choosing between two versions, below. Never hand-fix.
+  - If a section shows any AI, follow Choosing between versions, below. Never hand-fix.
 - **Linter:** run `tools/tells_lint.py` on every output and save the report beside it.
 
-## Choosing between two versions (Joel's rule, 2026-09-29)
+## Choosing between versions (Joel's rule, 2026-09-29)
 
-Each API call returns one version. For each chunk:
+Each website run gives two options; each API call gives one. For each chunk:
 
-1. **Call once.** Check the version alone, each of its paragraphs alone, and in its section, with the headings and the paragraphs that stay.
-2. **Call a second time,** with the same input, if the first version:
-   - fails the section check;
-   - changes a fact, dose, name or link;
-   - drops a point;
-   - or makes up something about Joel's life.
-
-   Now there are two versions.
-3. **Choose between them in this order:**
+1. **Get the first versions.** A website run gives two options; check both. With the API, call once. Check each version alone, each of its paragraphs alone, and in its section, with the headings and the paragraphs that stay.
+2. **Run once more** with the same input, as a second website run or a second API call, only if no version you have both passes its section check and keeps the facts. Keeping the facts means no changed fact, dose, name or link, no dropped point, and nothing made up about Joel's life.
+3. **Choose among the versions in this order:**
    1. It passes in its section, not just alone. In Claude's test, a version that was 100% Human alone showed 8% AI after the section before it.
    2. It keeps the facts: nothing changed, dropped or made up.
    3. It's closer to what the original meant. Emulate sometimes fudges that.
    4. It has fewer `tells_lint.py` hits per 100 words.
    5. If they're still tied, your judgment. Write down why.
-4. **Don't call a third time.** If neither version is right, keep both, put the better one in the candidate article, and flag what's wrong in `QUALITY-<slug>.md`. Joel: it's still good learning data if it passes Pangram.
+4. **Don't run a third time.** If no version is right, keep both, put the better one in the candidate article, and flag what's wrong in `QUALITY-<slug>.md`. Joel: it's still good learning data if it passes Pangram.
 
 Keep every version you get, including the ones you don't choose.
 
