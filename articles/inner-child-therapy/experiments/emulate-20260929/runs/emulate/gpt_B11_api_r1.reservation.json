@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B11_api_r1",
+  "input_file": "inputs/learning/B_protector/B11_between_b.txt",
+  "input_words": 64,
+  "input_sha256": "2f69b75235bf8bfeed23bddf4c3e51316aa48411153e8a5358a0b51070d75221",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:36:40.981868+00:00",
+  "status": "completed",
+  "balance_before": 54293,
+  "provider_id": "ce8a6437-af50-4ad0-b5af-0844189dd339",
+  "words_charged": 64
+}

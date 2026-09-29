@@ -1,0 +1,59 @@
+{
+  "source_sha256": "2f69b75235bf8bfeed23bddf4c3e51316aa48411153e8a5358a0b51070d75221",
+  "output_sha256": "ebd081905485378e09477498ad40ec2a552f7fb0e68c96993dda6f8d959d16de",
+  "source_sentence_count": 3,
+  "output_sentence_count": 5,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 141,
+      "output_start": 0,
+      "output_end": 54,
+      "source_text": "Your little one might tell you that you only show up when something's wrong, and if that's true, the Protector admits it instead of arguing. ",
+      "output_text": "Wow. Well, they can certainly think that, can't they? ",
+      "word_overlap": 0.05405405405405406,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 141,
+      "source_end": 273,
+      "output_start": 54,
+      "output_end": 249,
+      "source_text": "It doesn't feel like protecting anyone, but your little one notices it as much as they noticed the phone going into the other room. ",
+      "output_text": "If you are being there for a little one only when something is wrong, well, Protector might want to concede the point. It's not as if the point of what Protector does is to be protective, right? ",
+      "word_overlap": 0.15873015873015872,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 273,
+      "source_end": 342,
+      "output_start": 249,
+      "output_end": 457,
+      "source_text": "They can take it as love and still be waiting for you to enjoy them.\n",
+      "output_text": "Little ones aren't stupid, and if a little one can see that, well, maybe it's a good idea to take it as a gift and realize that they might just be waiting for a time when you can be there and just enjoy them.",
+      "word_overlap": 0.36065573770491804,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
