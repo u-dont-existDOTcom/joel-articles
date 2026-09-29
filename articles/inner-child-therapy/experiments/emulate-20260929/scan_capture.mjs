@@ -30,6 +30,7 @@ export async function finishScan(tab,root,pending){
  if(!panel||!/words scanned/.test(panel))return {error:'unread: wait10seconds, never resubmit'};
  const record={...pending.record,checked_utc:new Date().toISOString(),words_scanned:Number(panel.match(/(\d+) words scanned/)[1]),model:panel.match(/Detection model: ([^"]+)/)?.[1],label:panel.match(/^\s*- generic: ([^\n]+)/)?.[1],percent:{},confidence:panel.match(/- generic: (Confidence[^\n]+)/)?.[1]??null};
  for(const m of panel.matchAll(/- generic: "?(\d+(?:\.\d+)?)"?\n\s*- generic: "?%"?\n\s*- generic: of this text is ?([^\n]*)\n?(?:\s*- generic: ([^\n]+))?/g))record.percent[(m[2]||m[3]).replace(/"$/,'')]=Number(m[1]);
+ for(const m of panel.matchAll(/- button "(.+?) (\d+(?:\.\d+)?)%":/g))record.percent[m[1]]=Number(m[2]);
  record.flagged_spans=await tab.playwright.evaluate(()=>Array.from(document.querySelectorAll('span')).filter(el=>getComputedStyle(el).backgroundColor==='rgba(255, 86, 48, 0.1)').map(el=>el.textContent));
  const state=await tab.getAXState({emit:false,disableDiffing:true});record.credits_after=Number(state.match(/text (\d+) left/)[1]);record.credits_cost=record.credits_before-record.credits_after;
  record.input_verification.result_words_within_8_percent=Math.abs(record.words_scanned-record.input_words)/record.input_words<=0.080001;
