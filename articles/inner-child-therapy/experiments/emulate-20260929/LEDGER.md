@@ -31,3 +31,7 @@ Local preparation only: exact originals, H1 section maps, link inventories, 55 l
 2026-09-29 01:27 UTC: Joel explicitly approved all tasks, resolving the egress gate. Resume reserved B01 website charge test once; limits unchanged.
 
 Charge test complete: 58,017 -> 57,837; both website options cost 180 total. Pricing default = website. Copy control exists only after Keep this one; other option then disappears. A captured by Copy; B saved separately as DOM-only diagnostic (A DOM matched Copy exactly, but B Copy requirement remains unmet). Use owner-authorized API fallback for lossless production capture; no third B01 humanization run. New Emulate spend: 180. Pangram balance observed after opening New scan: 2,165 (18 lower than first read, no worker submission; external account use).
+
+Pangram input preparation encountered a stale accessibility index; no input was sent. Retry with the freshly observed textbox locator, which avoids unstable indices.
+
+B01 baseline: AI Generated 100%; 190 words; Pangram 4.0; short-text confidence limit; Details segment Medium. Credits 2,165 -> 2,163 (2 charged). Stored-document Copy did not update the browser clipboard; input textbox was byte-exact before submit and result count was within 8%; no repeat submitted.

@@ -1,0 +1,112 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2163 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: If you can't feel any warmth toward your little one yet, the Protector can go first. Care might start as locking the door at night, eating an actual meal, cancelling something you didn't have the energy for, or putting your phone down at midnight. The warm feelings can come later. Pick one of these and make it specific. When will you do it, what's the smallest first step, and what help do you need? If there's a hard moment you can see coming, it can help to practice what you'll say ahead of time. Afterward, look at what really happened. If you didn't do it, don't assume you know why. It could have been fear, not knowing what you were aiming for, not knowing how, being exhausted, or something practical getting in the way. And if you did it and didn't feel better right away, that doesn't mean it failed, but doing it doesn't prove it helped either. Keep what actually makes your little one safer, closer to you, more capable, or happier, not just what gets a check mark.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2163 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: If you can't feel any warmth
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 01:32 AM
+  - generic: 190 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: If you can't feel any warmth toward your little one yet, the Protector can go first. Care might start as locking the door at night, eating an actual meal, cancelling something you didn't have the energy for, or putting your phone down at midnight. The warm feelings can come later. Pick one of these and make it specific. When will you do it, what's the smallest first step, and what help do you need? If there's a hard moment you can see coming, it can help to practice what you'll say ahead of time. Afterward, look at what really happened. If you didn't do it, don't assume you know why. It could have been fear, not knowing what you were aiming for, not knowing how, being exhausted, or something practical getting in the way. And if you did it and didn't feel better right away, that doesn't mean it failed, but doing it doesn't prove it helped either. Keep what actually makes your little one safer, closer to you, more capable, or happier, not just what gets a check mark.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading [level=3]:
+      - button:
+        - generic: AI
+        - generic "Confidence level":
+          - text: medium
+        - generic: 190 words
+        - generic: If you can't feel any warmth toward your little one yet, the Protector can go first. Care might start as locking the door at night, eating an actual meal, cancelling something you didn't have the energy for, or putting your phone down at midnight. The warm feelings can come later. Pick one of these and make it specific. When will you do it, what's the smallest first step, and what help do you need? If there's a hard moment you can see coming, it can help to practice what you'll say ahead of time. Afterward, look at what really happened. If you didn't do it, don't assume you know why. It could have been fear, not knowing what you were aiming for, not knowing how, being exhausted, or something practical getting in the way. And if you did it and didn't feel better right away, that doesn't mean it failed, but doing it doesn't prove it helped either. Keep what actually makes your little one safer, closer to you, more capable, or happier, not just what gets a check mark.
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
