@@ -35,7 +35,7 @@
     "text_sha256": "f867679135f489ce9cce645855a3777c7cd59d512a22df71e8831095236c5c28",
     "variant": "output_paragraph",
     "words": 78,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "claude_test_B01_m34_opt1",
     "output_start": 0,
     "output_end": 420
@@ -46,7 +46,7 @@
     "text_sha256": "8ff54cede6f5a45f1c98ecd636eefdd2e2a4dff16a7c033ebe2ba378a31f62d4",
     "variant": "output_paragraph",
     "words": 120,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "claude_test_B01_m34_opt1",
     "output_start": 420,
     "output_end": 1063
@@ -57,7 +57,7 @@
     "text_sha256": "117cd7d91c55a437cf3acd414cd41bef89bb050c88b9fa6e77fa8301edec9a68",
     "variant": "context",
     "words": 436,
-    "status": "blocked_browser_policy",
+    "status": "completed_from_history",
     "run_id": "claude_test_B01_m34_opt1",
     "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
     "join": "exact context bytes + two LF + exact output bytes"
@@ -78,7 +78,7 @@
     "text_sha256": "b5edd5f2b69820b5f1aea5f898005b68799aadff38e75cc688c39682a08dfdfa",
     "variant": "output_paragraph",
     "words": 68,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "claude_test_B01_m34_opt2",
     "output_start": 0,
     "output_end": 362
@@ -89,7 +89,7 @@
     "text_sha256": "ebcd6574a920df19cf90909f1cbaf2d4121a4e454732357b74f5150340f45ecd",
     "variant": "output_paragraph",
     "words": 129,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "claude_test_B01_m34_opt2",
     "output_start": 362,
     "output_end": 975
@@ -100,7 +100,7 @@
     "text_sha256": "ed6dfa8df28ca943cf7c8fbcc293fb0a51139af39e1ca298ce298f6c24198f9d",
     "variant": "context",
     "words": 435,
-    "status": "blocked_browser_policy",
+    "status": "completed_from_history",
     "run_id": "claude_test_B01_m34_opt2",
     "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
     "join": "exact context bytes + two LF + exact output bytes"
@@ -111,7 +111,7 @@
     "text_sha256": "29ee37f846640cd07ebf78244277f2ae293d7147863ab22d44a5bb628184195e",
     "variant": "output",
     "words": 215,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_charge_B01_web_optA"
   },
   {
@@ -120,7 +120,7 @@
     "text_sha256": "c80ed393e655df2e2c818c04db4f9001bd448c4b064ad7a70ecafe808e17ae05",
     "variant": "output_paragraph",
     "words": 85,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_charge_B01_web_optA",
     "output_start": 0,
     "output_end": 433
@@ -131,7 +131,7 @@
     "text_sha256": "5be6592f4e8ca0e85a258c60f6df747d510ee5e5201243ab9263be6dfda2ab63",
     "variant": "output_paragraph",
     "words": 130,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_charge_B01_web_optA",
     "output_start": 433,
     "output_end": 1066
@@ -142,7 +142,7 @@
     "text_sha256": "99f7b59cec599ee30235692ca69fe5e104726f6447958eff5e991da00fcc9eb7",
     "variant": "context",
     "words": 453,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_charge_B01_web_optA",
     "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
     "join": "exact context bytes + two LF + exact output bytes"
