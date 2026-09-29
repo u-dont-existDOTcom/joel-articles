@@ -8,12 +8,14 @@ import time
 from pathlib import Path
 os.environ.setdefault('HF_HOME', '/workspace/.hf_home')
 os.environ.setdefault('TOKENIZERS_PARALLELISM', 'false')
+os.environ.setdefault('HF_HUB_DISABLE_XET', '1')
 from unsloth import FastLanguageModel
 import torch
 
 MODEL = 'Qwen/Qwen3-30B-A3B-Instruct-2507'
 REVISION = '0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe'
 SEED = 3407
+SOURCE_SHA256 = '56869801ee7f95dfea1681170c745cacf112f93c117a185177c515568c80b089'
 PARAPHRASE = 'Rewrite this paragraph to be clearer and more polished.'
 NOTES = ('Extract a complete numbered list of the content of the passage below. '
          'Include every fact, example, number, name, qualification, negation, cause, '
@@ -61,6 +63,7 @@ def run(args):
     pairs_path = args.output / 'pairs-audit.jsonl'
     request_path = args.output / 'model-requests.jsonl'
     source = [json.loads(line) for line in args.input.read_text().splitlines()]
+    assert sha(args.input.read_text()) == SOURCE_SHA256, 'Source differs from the frozen licensed split'
     done = {json.loads(line)['id'] for line in pairs_path.read_text().splitlines()} if pairs_path.exists() else set()
     todo = [row for row in source if row['id'] not in done]
     if args.limit:

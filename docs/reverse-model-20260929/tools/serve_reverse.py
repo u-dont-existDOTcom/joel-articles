@@ -8,6 +8,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 os.environ.setdefault('HF_HOME', '/workspace/.hf_home')
 os.environ.setdefault('TOKENIZERS_PARALLELISM', 'false')
+os.environ.setdefault('HF_HUB_DISABLE_XET', '1')
 from unsloth import FastLanguageModel
 import torch
 from peft import PeftModel

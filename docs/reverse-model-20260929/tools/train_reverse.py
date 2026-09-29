@@ -10,6 +10,7 @@ import time
 from pathlib import Path
 os.environ.setdefault('HF_HOME', '/workspace/.hf_home')
 os.environ.setdefault('TOKENIZERS_PARALLELISM', 'false')
+os.environ.setdefault('HF_HUB_DISABLE_XET', '1')
 from unsloth import FastLanguageModel
 import torch
 import bitsandbytes as bnb
@@ -39,6 +40,14 @@ def run(args):
     model_id, revision = MODELS[args.condition]
     rows = [json.loads(l) for l in args.data.read_text().splitlines()]
     assert rows and all(r['split'] == 'train' and r['accepted'] for r in rows)
+    from generate_pairs import MODEL as GENERATOR, REVISION as GENERATOR_REVISION, SOURCE_SHA256
+    assert hashlib.sha256(args.human_source.read_bytes()).hexdigest() == SOURCE_SHA256
+    originals = {r['id']:r for r in (json.loads(l) for l in args.human_source.read_text().splitlines())}
+    for row in rows:
+        assert row['open_model'] == GENERATOR and row['open_model_revision'] == GENERATOR_REVISION
+        assert row['human'] == originals[row['id']]['human']
+        assert row['document_id'] == originals[row['id']]['document_id']
+        assert row['ai_sha256'] == hashlib.sha256(row['ai'].encode()).hexdigest()
     assert len({r['document_id'] for r in rows}) == len(rows)
     args.private_output.mkdir(parents=True, exist_ok=True)
     args.evidence.mkdir(parents=True, exist_ok=True)
@@ -158,6 +167,7 @@ if __name__ == '__main__':
     p=argparse.ArgumentParser()
     p.add_argument('--condition', choices=list(MODELS), required=True)
     p.add_argument('--data',type=Path,required=True)
+    p.add_argument('--human-source',type=Path,required=True)
     p.add_argument('--private-output',type=Path,required=True)
     p.add_argument('--evidence',type=Path,required=True)
     p.add_argument('--max-length',type=int,default=1536)
