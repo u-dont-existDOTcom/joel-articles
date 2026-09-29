@@ -46,7 +46,7 @@ Post-training meaning evaluation, frozen general-case selection, result assembly
 
 At the previous checkpoint, the managed segmented downloader was verified RUNNING with aria2 1.37.0. The fit service was STOPPED until transfer completion; a managed benchmark controller was verified RUNNING and waiting. It launches only 12 production pairs after the new two-step fit report PASS and fit service EXITED. Controller and fit code are published; all individual adapter tensors are checked for finite nonzero gradients after the first optimizer update. Transfer at that checkpoint: about 11 GiB of new retained pieces plus one previously verified 3.7 GiB shard. Billing at that checkpoint: replacement $0.91 total, including GPU $0.54, storage $0.13, download $0.24; provider values are rounded/delayed.
 
-## Browser access interruption — 2026-09-29 06:30 UTC
+## Browser access interruption — 2026-09-29 06:28 UTC
 
 Last successful terminal observation showed the managed downloader and waiting benchmark controller RUNNING, with fit STOPPED. The previously cached first shard and newly completed third shard were verified against the pinned model revision; other retained shards were still transferring. No complete model load or successful optimizer step was observed.
 
