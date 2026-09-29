@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-3201-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/21bbf37a-d599-43ab-99c5-fd9351df8429",
+  "input_sha256": "55c738c736b8491b997d0a71f6a8d520b6a270e10b589dc4a4cf2c3abfc57b98",
+  "input_words": 118,
+  "before": 21829,
+  "after": 21711,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 181,
+      "sha256": "94c8c32d934b9862cd004f04c018f38f8531e2a22e4b6995a755cde2a2d26323",
+      "page_sha256": "94c8c32d934b9862cd004f04c018f38f8531e2a22e4b6995a755cde2a2d26323",
+      "has_list": false,
+      "last": " in the \" What is the evidence \" and \" Finding a specialist \" sections were chosen to provide information on those subjects, not as an endorsement of their use."
+    },
+    {
+      "option": "B",
+      "words": 164,
+      "sha256": "8532c44ac38e5f134b6007824aaf93e4836b1eebff4f44c9b29f4cc10cd1b403",
+      "page_sha256": "8532c44ac38e5f134b6007824aaf93e4836b1eebff4f44c9b29f4cc10cd1b403",
+      "has_list": false,
+      "last": "n the sections on evidence and finding a specialist are specific to the claims made on those pages and are not intended to be a general endorsement of hypnosis."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0101-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/ff8f5281-a69e-4914-9559-75648b05b57d",
+  "input_sha256": "81fa34620c61f2113dba38bf619c5b76912e1e866cf89469c141c5013e41b673",
+  "input_words": 217,
+  "before": 21524,
+  "after": 21307,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 234,
+      "sha256": "dc07b9af638764abfe7571403fc01791c6d311b5edd3a65b198242d8f427f439",
+      "page_sha256": "dc07b9af638764abfe7571403fc01791c6d311b5edd3a65b198242d8f427f439",
+      "has_list": false,
+      "last": "very specific understanding of the Neuro-Biology of this condition. To better understand what we are doing and why, it is important to review these 4 key areas."
+    },
+    {
+      "option": "B",
+      "words": 212,
+      "sha256": "cb1fa0e5200cae3f474e48e6e6dd20b5acf37cdcfce849f044dabfe0e34af7e4",
+      "page_sha256": "cb1fa0e5200cae3f474e48e6e6dd20b5acf37cdcfce849f044dabfe0e34af7e4",
+      "has_list": false,
+      "last": "d. The protocols I have developed are backed by heavy science and address 4 very specific neuro-biological issues that traditional therapy completely overlooks."
+    }
+  ]
+}

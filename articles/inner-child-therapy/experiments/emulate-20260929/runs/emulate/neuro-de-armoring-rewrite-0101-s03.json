@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0101-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/af363556-cc78-4fec-8610-951bb0b686a7",
+  "input_sha256": "a785efcca533570aa9ac6358c2e88476fabd96a233972ce73e0669ac7de204eb",
+  "input_words": 51,
+  "before": 21307,
+  "after": 21256,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 73,
+      "sha256": "02059b370d828ff9b799ced68d3adbb1fb32f404a4ec79a0ff5304de4c44fe27",
+      "page_sha256": "02059b370d828ff9b799ced68d3adbb1fb32f404a4ec79a0ff5304de4c44fe27",
+      "has_list": false,
+      "last": " the Cortex) when the underpinning of the house is crumbling. You can’t hang curtains in a collapsing house!\n\nThe Modern “Role-Self” vs. The Ancient “True-Self”"
+    },
+    {
+      "option": "B",
+      "words": 107,
+      "sha256": "f8a996b7c0f581df2e2951be5fb6a74c32e22dac1689cac4ebb0d7fd14c0ff72",
+      "page_sha256": "f8a996b7c0f581df2e2951be5fb6a74c32e22dac1689cac4ebb0d7fd14c0ff72",
+      "has_list": false,
+      "last": "changing thoughts and behaviours in the Cortex). You cannot hang the curtains if the house is falling down!!\n\nThe Modern “Role-Self” vs. The Ancient “True-Self”"
+    }
+  ]
+}

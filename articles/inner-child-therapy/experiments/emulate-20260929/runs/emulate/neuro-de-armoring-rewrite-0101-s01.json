@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0101-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/bf201aae-d3dd-4767-a820-9e20af270c08",
+  "input_sha256": "199cd85a6320bd4d8af11642eb0fbf9f26e8489d1d6073d92ef48e1d59ddf342",
+  "input_words": 187,
+  "before": 21711,
+  "after": 21524,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 150,
+      "sha256": "3fbdd0bc2d8b61153e33e9f592d64fdd7a5b8cd1a0c44e1de09c338e47c89acb",
+      "page_sha256": "3fbdd0bc2d8b61153e33e9f592d64fdd7a5b8cd1a0c44e1de09c338e47c89acb",
+      "has_list": false,
+      "last": "pressed, agitated, if you have trouble sleeping, or if you experience dizziness, heart palpitations, nausea, loose stools or diarrhea, or increases in cravings."
+    },
+    {
+      "option": "B",
+      "words": 180,
+      "sha256": "be801e480e0ec99f5cbcc6756207975781775dc12970087afd7c2f227f703904",
+      "page_sha256": "be801e480e0ec99f5cbcc6756207975781775dc12970087afd7c2f227f703904",
+      "has_list": false,
+      "last": " feel flat, Anhedonic, emotionally blunt, depressed, agitated, suffer insomnia, dizziness, palpitations, nausea, loose stools or diarrhoea or increased craving."
+    }
+  ]
+}
