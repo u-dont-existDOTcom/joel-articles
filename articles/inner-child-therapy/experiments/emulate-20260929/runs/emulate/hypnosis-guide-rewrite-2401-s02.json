@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/51b437c7-feb2-4ff4-abb2-eb8f2d279e61",
+  "input_sha256": "c928b6b71b9c121d839507279d55e9ddee3b9e642572c52e2d3b5b83ea766ab8",
+  "input_words": 206,
+  "before": 28023,
+  "after": 27817,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 228,
+      "sha256": "e0b48556a20ca94717af5ba31347d0c7d7f2c0ecf99af3e379032cc7d3eb85f3",
+      "page_sha256": "e0b48556a20ca94717af5ba31347d0c7d7f2c0ecf99af3e379032cc7d3eb85f3",
+      "has_list": false,
+      "last": " consider, etc.\n\nBegin to notice what form the answer takes for you. Is it a picture? A word? A body sensation? Or perhaps a knowing of the next action to take?"
+    },
+    {
+      "option": "B",
+      "words": 236,
+      "sha256": "26c461638902f25881b927365e00de5549eabaa74bb00caaf77bb0dcca89d50a",
+      "page_sha256": "26c461638902f25881b927365e00de5549eabaa74bb00caaf77bb0dcca89d50a",
+      "has_list": false,
+      "last": "\n\n“______, I wonder if you will notice whether the answer comes as an image, a word, a sense of pressure or warmth, or perhaps as a knowing of what to do next?”"
+    }
+  ]
+}

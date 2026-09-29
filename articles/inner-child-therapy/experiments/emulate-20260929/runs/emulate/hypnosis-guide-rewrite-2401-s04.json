@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/6ef29fc2-a471-4985-8d8c-1f897c2b2f72",
+  "input_sha256": "d02b4af817c6a930fac9a987e3b31a6c541f21a72f81eef7c683acbd39074ec5",
+  "input_words": 228,
+  "before": 27587,
+  "after": 27359,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 248,
+      "sha256": "15d989d3846932f9eee7ef9c25b05088c5021e4d6346f1938c7837f17f40816e",
+      "page_sha256": "15d989d3846932f9eee7ef9c25b05088c5021e4d6346f1938c7837f17f40816e",
+      "has_list": false,
+      "last": "/far, bright/dim, loud/quiet, moving, still, heavy, light, inside/outside of their body, etc. If you don’t notice any of these things, just don’t use this tool."
+    },
+    {
+      "option": "B",
+      "words": 223,
+      "sha256": "ce76e065f0b3db34fdce24b154d1ff035a6c37bc99c7c9c27396d191d4db0397",
+      "page_sha256": "ce76e065f0b3db34fdce24b154d1ff035a6c37bc99c7c9c27396d191d4db0397",
+      "has_list": false,
+      "last": "bright, dim, loud, quiet, moving, still, heavy, light, in your body, outside your body, etc.). If you can’t sense anything about the state, don’t use this tool."
+    }
+  ]
+}

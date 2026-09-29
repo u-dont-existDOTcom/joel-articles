@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2301-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/6b281a46-739d-44ef-96c8-db61066ba5c1",
+  "input_sha256": "36bcde44c31c4b370ad84662cd765a6833bc229a7fb08007fd0aeccd25db689b",
+  "input_words": 158,
+  "before": 28587,
+  "after": 28429,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 186,
+      "sha256": "ced57cedd9ca9d73017c32ae8991b2b8e3fe1ab60e679753413ffba65cb23a31",
+      "page_sha256": "ced57cedd9ca9d73017c32ae8991b2b8e3fe1ab60e679753413ffba65cb23a31",
+      "has_list": false,
+      "last": "uitions: “Let me get the intuition, then analyse it, get some body feedback about my analysis and then test it out in reality to see if I’m on the right track.”"
+    },
+    {
+      "option": "B",
+      "words": 136,
+      "sha256": "efa855b83a0c775277db9804c2c026986f4b8a700314f48ed1e407378ed02a9f",
+      "page_sha256": "efa855b83a0c775277db9804c2c026986f4b8a700314f48ed1e407378ed02a9f",
+      "has_list": false,
+      "last": " with life and for the most good of all beings involved?”\n\nWorking with intuition: “Allow intuitive input, analytical input, body feedback and reality testing.”"
+    }
+  ]
+}

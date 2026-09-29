@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2301-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/362e46fc-1f4d-4e9c-867a-2710328e1183",
+  "input_sha256": "bffa3018cbd39ea4c3cbf3acbaa725fe703d7eee02a372ca5dd67fd87901d57c",
+  "input_words": 194,
+  "before": 28429,
+  "after": 28235,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 321,
+      "sha256": "e6a82da4f72eb8fff78d6df4f8bcae589a0936ac7379be8a0c6ea22533647448",
+      "page_sha256": "e6a82da4f72eb8fff78d6df4f8bcae589a0936ac7379be8a0c6ea22533647448",
+      "has_list": false,
+      "last": "ed the answer?\"\n\nThe prompt sets up the search parameters, and the NLP language helps make sure the question is asked in a way that will elicit the best answer."
+    },
+    {
+      "option": "B",
+      "words": 207,
+      "sha256": "ab551da1ecfc0870e176083b830eff29a70734835589156711c6288eabfc47a8",
+      "page_sha256": "ab551da1ecfc0870e176083b830eff29a70734835589156711c6288eabfc47a8",
+      "has_list": false,
+      "last": " help me figure out what to do in my ordinary life to know that I got it right.”\n\nThe prompt and the NLP language both help. Using them together is even better."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s05",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/60d607e0-5396-4120-90b2-b7d324db6527",
+  "input_sha256": "830d441faf2edb6e6da41ff170de17b1b6305edadef3e5fe4209db84c1acf4a7",
+  "input_words": 184,
+  "before": 27359,
+  "after": 27175,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 291,
+      "sha256": "60826ff57d33daca4c3618abd6f60185b31d95e611fd4a320153628290c20df2",
+      "page_sha256": "60826ff57d33daca4c3618abd6f60185b31d95e611fd4a320153628290c20df2",
+      "has_list": false,
+      "last": "f going into a good, receptive state (see shortcut back into hypnosis) but that you also have something to trigger synchronicity that you know will wake you up."
+    },
+    {
+      "option": "B",
+      "words": 247,
+      "sha256": "520b8163feda169f00468df0e9967e110306d3ab57d29c5ddc5ec380da84a2c4",
+      "page_sha256": "520b8163feda169f00468df0e9967e110306d3ab57d29c5ddc5ec380da84a2c4",
+      "has_list": false,
+      "last": "ve, in the main induction section). Make sure that you have a different way of waking yourself up than the one that is used to calm you down and keep you alert."
+    }
+  ]
+}

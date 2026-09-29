@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/4fa3c1b7-836d-4f82-b2c5-21c3ee5b1f4d",
+  "input_sha256": "833abbb0a52004614f53e3eb3e4ec15bad9c68332f43253fb6d4be441259c622",
+  "input_words": 212,
+  "before": 28235,
+  "after": 28023,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 224,
+      "sha256": "b3ea62710dc5da454c51072c8100acff651960dcb15748c4eb3ac64a2e4abbe0",
+      "page_sha256": "e2a2638e1425bb91d79cff309311ae6d24fd8a9509eb62a0b585b829f1fd0db9",
+      "has_list": true,
+      "last": "emselves. It may sound a little sneaky, but often you DO want to get to a particular place with a person even if their present state doesn’t recognize that yet."
+    },
+    {
+      "option": "B",
+      "words": 191,
+      "sha256": "13774aeea6d24c7b40b9cd6db87a7b6fe2a5349761d64c54a3b149786bae4f60",
+      "page_sha256": "13774aeea6d24c7b40b9cd6db87a7b6fe2a5349761d64c54a3b149786bae4f60",
+      "has_list": false,
+      "last": " a sentence. Why bother? Because direct commands (\"Relax!\" \"Stop being anxious!\" \"Trust me!\") often trigger a reflexive response of something like, \"Hey, wait a"
+    }
+  ]
+}

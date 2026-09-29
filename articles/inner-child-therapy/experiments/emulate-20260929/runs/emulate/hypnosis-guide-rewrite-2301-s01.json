@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2301-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/cce5cf30-b4e4-40d6-9743-00c1756db4f9",
+  "input_sha256": "53995a5f6efd7adffee84073ff71bfeeb6cb1037ee6f6692b986216211b37fab",
+  "input_words": 227,
+  "before": 28814,
+  "after": 28587,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 259,
+      "sha256": "790b4e68111211165f1b070ec80e6b0f317c66547cb34e86813567f17e184ac1",
+      "page_sha256": "790b4e68111211165f1b070ec80e6b0f317c66547cb34e86813567f17e184ac1",
+      "has_list": false,
+      "last": "he answer is silence – nothing’s happening. Sometimes the answer is “not yet” or “rest” or “build your capacity” or “do the basic thing you already know to do”."
+    },
+    {
+      "option": "B",
+      "words": 278,
+      "sha256": "7bdded55ce54fb69a37ff8a9c601a261775898c0bee9cb9c99f25e77a3cd2f81",
+      "page_sha256": "7bdded55ce54fb69a37ff8a9c601a261775898c0bee9cb9c99f25e77a3cd2f81",
+      "has_list": false,
+      "last": " because nothing is happening, or the answer is that it’s not yet, you need more rest, more building, or just doing the normal thing you already know how to do."
+    }
+  ]
+}

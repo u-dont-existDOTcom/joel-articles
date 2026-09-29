@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2401-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/73cfbd3b-7e7d-4fb6-8ac4-06bba0e1dadc",
+  "input_sha256": "64da80f0974d10811c6ebb980fadc16d36b0067b2f6e8ab33860a9a7b02e80da",
+  "input_words": 230,
+  "before": 27817,
+  "after": 27587,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 241,
+      "sha256": "436fea24a80c7c851dedbc7b21bd103727348c9b58a652656c3057be91b7ba4e",
+      "page_sha256": "436fea24a80c7c851dedbc7b21bd103727348c9b58a652656c3057be91b7ba4e",
+      "has_list": false,
+      "last": "e binds (there are also manipulative double binds – don’t use those):\n\nWould you prefer it if I did this with you or this?\n\nPattern 7: Conversational postulates"
+    },
+    {
+      "option": "B",
+      "words": 283,
+      "sha256": "4a87377175ef6bc23e4fe9c7ed41d5fab8864c535241be9d7d78882daab6b137",
+      "page_sha256": "4a87377175ef6bc23e4fe9c7ed41d5fab8864c535241be9d7d78882daab6b137",
+      "has_list": false,
+      "last": "tions in a row, you will sound like a loser who just got certified at some weekend.\n\nPattern #6 – Use Ethical Double Binds\n\nPattern 7: Conversational postulates"
+    }
+  ]
+}
