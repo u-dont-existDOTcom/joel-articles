@@ -1,0 +1,16 @@
+{
+  "provider_unix": 1790698942.0061269,
+  "repo_commit": "60888b1c4929bbad57b87b18ce4e75b2a3c464ad",
+  "pilot_services": [
+    "reverse-pilot-base-download      RUNNING   pid 1537, uptime 0:00:03",
+    "reverse-pilot-batch16            STOPPED   Not started",
+    "reverse-pilot-batch32            STOPPED   Not started",
+    "reverse-pilot-benchmark          STOPPED   Not started",
+    "reverse-pilot-copy-repair        RUNNING   pid 1539, uptime 0:00:03",
+    "reverse-pilot-download           STOPPED   Not started",
+    "reverse-pilot-fit                STOPPED   Not started"
+  ],
+  "runtime_limit_seconds": 3600,
+  "termination_grace_seconds": 120,
+  "production_scope": "30 pending accepted-regeneration repairs plus2 new passages; exact same licensed source"
+}

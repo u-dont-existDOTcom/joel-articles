@@ -1,0 +1,53 @@
+{
+  "provider_unix": 1790698902.2625523,
+  "repo_commit": "60888b1c4929bbad57b87b18ce4e75b2a3c464ad",
+  "repair_admission": {
+    "policy": "normalized-word-runs-exempting-source-verified-quotes-v1",
+    "baseline_files_sha256": {
+      "pairs-audit.jsonl": "52acb3cb9d83714d75c9832c35f16148ae64ef96290d81e730263108309ea052",
+      "train-pairs.jsonl": "6b91143ddf681eec6cb9575bff7c425a55ef6bba35c9b94b618ed1aa84a61587",
+      "dev-pairs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "test-pairs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generation-manifest.json": "80c265f4ffb92af4c4290f82e67d1f618ade00fca8df6e4530a17a4e445f6d10",
+      "generation-status.json": "557602274bb342cb7aee7986bb937efa3c93050a65bfd0fb45e0ec8e594544bd"
+    },
+    "processed_before": 60,
+    "accepted_before": 46,
+    "queued_once_for_fresh_notes_and_draft": [
+      "H0002",
+      "H0003",
+      "H0008",
+      "H0009",
+      "H0014",
+      "H0015",
+      "H0020",
+      "H0021",
+      "H0023",
+      "H0026",
+      "H0027",
+      "H0029",
+      "H0030",
+      "H0032",
+      "H0033",
+      "H0035",
+      "H0036",
+      "H0038",
+      "H0041",
+      "H0042",
+      "H0044",
+      "H0045",
+      "H0047",
+      "H0048",
+      "H0050",
+      "H0051",
+      "H0053",
+      "H0054",
+      "H0059",
+      "H0060"
+    ],
+    "accepted_retained_before_repair": 16,
+    "paraphrases_unchanged": true,
+    "detector_used_as_filter": false
+  },
+  "source_sha256": "56869801ee7f95dfea1681170c745cacf112f93c117a185177c515568c80b089"
+}

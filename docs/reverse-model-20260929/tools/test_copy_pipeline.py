@@ -9,6 +9,7 @@ import types
 import unittest
 from copy_check import overlap, longest_unquoted_run
 from prepare_copy_repair import prepare
+from request_cache import RequestCache
 
 
 HUMAN = 'one two three four five six seven eight nine ten eleven twelve'
@@ -54,7 +55,7 @@ def load_orchestration(fake):
         isinstance(node, ast.If) and isinstance(node.test, ast.Compare))]
     class ReplaceModelBoundary(ast.NodeTransformer):
         def visit_FunctionDef(self, node):
-            if node.name == 'generate':
+            if node.name == 'generate_uncached':
                 node.body = ast.parse('return _fake_generate(ids, phase, prompts, max_new, sample)').body
                 return node
             return self.generic_visit(node)
@@ -67,6 +68,49 @@ def load_orchestration(fake):
 
 
 class RetryBoundary(unittest.TestCase):
+    def test_resume_reuses_first_attempt_and_completed_retry_notes(self):
+        calls = []
+        def boundary(ids, phase, prompts, max_new, sample):
+            calls.append(phase)
+            text = (json.dumps({'all_supported':True,'source_claim_count':1,'issues':[]})
+                    if phase.endswith('in_ai') or phase.endswith('in_human')
+                    else 'distinct fragments convey the preserved source content')
+            return [{'text':text,'truncated':False,'request':10+len(calls)} for _ in ids]
+        env = load_orchestration(boundary)
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); out=root/'generated'; out.mkdir(); source=root/'human.jsonl'
+            row={'id':'H0001','human':HUMAN,'document_id':'doc1','method':'notes_regeneration','split':'train'}
+            source.write_text(json.dumps(row)+'\n'); env['SOURCE_SHA256']=hashlib.sha256(source.read_bytes()).hexdigest()
+            (out/'pairs-audit.jsonl').write_text('')
+            phases=[('paraphrase_or_notes', env['NOTES']+HUMAN, HUMAN),
+                    ('fresh_notes_regeneration', env['REGEN'][0]+env['REGEN_SUFFIX']+HUMAN, HUMAN),
+                    ('fresh_retry_notes', env['NOTES']+HUMAN, 'distinct fragments convey the preserved source content')]
+            raw=[{'id':'H0001','phase':phase,'messages':[{'role':'user','content':prompt}],
+                  'response':text,'truncated':False,'request':i+1} for i,(phase,prompt,text) in enumerate(phases)]
+            (out/'model-requests.jsonl').write_text(''.join(json.dumps(r)+'\n' for r in raw))
+            (out/'pair-attempt-history.jsonl').write_text(json.dumps({'id':'H0001','outcome':'COPY_FAILURE_SINGLE_FRESH_RETRY'})+'\n')
+            env['run'](argparse.Namespace(input=source,output=out,limit=0,batch_size=1,deadline_unix=0))
+            self.assertEqual(calls, ['fresh_retry_regeneration','human_claims_in_ai','ai_claims_in_human'])
+            result=json.loads((out/'pairs-audit.jsonl').read_text())
+            self.assertTrue(result['accepted']); self.assertEqual(result['copy_retry_count'], 1)
+
+    def test_interrupted_reservation_never_resamples(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); requests=root/'requests.jsonl'; reservations=root/'reservations.jsonl'
+            cache=RequestCache(requests,reservations)
+            cache.reserve('H0001','fresh_retry_notes','prompt')
+            recovered=RequestCache(requests,reservations)
+            with self.assertRaisesRegex(RuntimeError,'do not resample'):
+                recovered.lookup('H0001','fresh_retry_notes','prompt')
+            requests.write_text(json.dumps({'id':'H0001','phase':'fresh_retry_notes',
+                'messages':[{'role':'user','content':'prompt'}],'response':'saved',
+                'truncated':False,'request':1})+'\n')
+            self.assertEqual(RequestCache(requests,reservations).lookup('H0001','fresh_retry_notes','prompt')['text'],'saved')
+            with reservations.open('ab') as handle:
+                handle.write(b'{"key":')
+            with self.assertRaisesRegex(AssertionError, 'Incomplete journal tail'):
+                RequestCache(requests,reservations)
+
     def execute(self, second_copies, prior_repair=False):
         calls = []
         def model_call(ids, phase, prompts, max_new, sample):

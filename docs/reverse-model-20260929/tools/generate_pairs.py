@@ -8,6 +8,7 @@ import time
 from pathlib import Path
 from copy_check import regeneration_guard, POLICY, MAX_SHARED_WORDS
 from prepare_copy_repair import atomic_text, write_splits
+from request_cache import RequestCache, complete_lines
 os.environ.setdefault('HF_HOME', '/workspace/.hf_home')
 os.environ.setdefault('TOKENIZERS_PARALLELISM', 'false')
 os.environ.setdefault('HF_HUB_DISABLE_XET', '1')
@@ -74,7 +75,7 @@ def run(args):
     assert len({row['id'] for row in existing}) == len(existing)
     by_id = {row['id']: row for row in existing}
     attempts_path = args.output / 'pair-attempt-history.jsonl'
-    attempts = [json.loads(line) for line in attempts_path.read_bytes().split(b'\n')[:-1] if line] if attempts_path.exists() else []
+    attempts = complete_lines(attempts_path)
     exhausted_initial_ids = {row['id'] for row in attempts if row.get('outcome') == 'COPY_FAILURE_SINGLE_FRESH_RETRY'}
     for row in attempts:
         if 'accepted' in row and (row['id'] not in by_id or by_id[row['id']].get('copy_repair_pending')):
@@ -99,7 +100,8 @@ def run(args):
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token = tokenizer.eos_token
     started = time.time()
-    request_number = sum(1 for _ in request_path.open()) if request_path.exists() else 0
+    request_number = max((row['request'] for row in complete_lines(request_path)), default=0)
+    request_cache = RequestCache(request_path, args.output/'request-reservations.jsonl')
     manifest = {'model': MODEL, 'revision': REVISION, 'seed': SEED,
                 'pipeline_revision': 2, 'copy_policy': POLICY,
                 'copy_maximum_shared_words': MAX_SHARED_WORDS,
@@ -110,9 +112,10 @@ def run(args):
                 'prompts': {'paraphrase': PARAPHRASE, 'notes': NOTES, 'regeneration': REGEN,
                             'regeneration_suffix': REGEN_SUFFIX, 'judge': JUDGE},
                 'fresh_context': 'Every call has exactly one user message; regeneration has notes only.'}
+    manifest['resume_policy'] = 'Reuse exact phase/prompt/id completed requests; unresolved reserved calls fail closed without resampling'
     (args.output / 'generation-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
 
-    def generate(ids, phase, prompts, max_new, sample):
+    def generate_uncached(ids, phase, prompts, max_new, sample):
         nonlocal request_number
         messages = [[{'role': 'user', 'content': prompt}] for prompt in prompts]
         rendered = [tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True,
@@ -121,6 +124,8 @@ def run(args):
         width = encoded.input_ids.shape[1]
         if width + max_new > 4096:
             raise RuntimeError(f'Context overflow in {phase}: {width}+{max_new}')
+        for identifier, prompt in zip(ids, prompts):
+            request_cache.reserve(identifier, phase, prompt)
         begin = time.time()
         with torch.inference_mode():
             kwargs = {'do_sample': sample, 'max_new_tokens': max_new, 'use_cache': True,
@@ -150,6 +155,18 @@ def run(args):
                           'gpu_peak_gib': torch.cuda.max_memory_allocated()/2**30}), flush=True)
         return answers
 
+    def generate(ids, phase, prompts, max_new, sample):
+        answers = [request_cache.lookup(identifier, phase, prompt)
+                   for identifier, prompt in zip(ids, prompts)]
+        missing = [i for i, answer in enumerate(answers) if answer is None]
+        if missing:
+            fresh = generate_uncached([ids[i] for i in missing], phase,
+                                      [prompts[i] for i in missing], max_new, sample)
+            for i, answer in zip(missing, fresh):
+                request_cache.remember(ids[i], phase, prompts[i], answer)
+                answers[i] = answer
+        return answers
+
     for offset in range(0, len(todo), args.batch_size):
         if args.deadline_unix and time.time() >= args.deadline_unix:
             print('DEADLINE_REACHED: saved completed pairs; resume without changing data', flush=True)
@@ -170,10 +187,12 @@ def run(args):
         guards = {i: regeneration_guard(batch[i]['human'], first[i]['text'], drafts[i]['text'])
                   for i in regenerated}
         retry_indexes = [i for i in regenerated if not guards[i]['passed'] and
-                         ids[i] not in repair_ids | exhausted_initial_ids]
+                         ids[i] not in repair_ids]
         # Each fresh regeneration sees notes alone, including the one permitted retry.
         if retry_indexes:
             for i in retry_indexes:
+                if ids[i] in exhausted_initial_ids:
+                    continue
                 append(args.output/'pair-attempt-history.jsonl', {
                     'id': ids[i], 'attempt': 0, 'notes': first[i], 'draft': drafts[i],
                     'copy_guard': guards[i], 'outcome': 'COPY_FAILURE_SINGLE_FRESH_RETRY',
