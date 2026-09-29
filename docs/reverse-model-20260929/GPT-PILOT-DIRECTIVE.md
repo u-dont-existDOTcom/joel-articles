@@ -187,3 +187,17 @@ If both methods miss, stop and report. Don't run full generation.
 - the guard's longest-run median and maximum for notes and drafts, and the exempt share;
 - the judge's rejection reasons, the Pangram labels, time and cost;
 - five accepted triples of passage, notes and draft, for Claude to read later. Don't wait for that reading.
+
+### Trial throughput (2026-09-29, 17:40 UTC)
+
+At batch size 8, the first 8 trial passages took 704 seconds of generation and judging before retries: notes 178, drafts 137, and the two judge directions 192 and 197. At that rate the trial can't fit 1.5 hours, so:
+- **Keep the first 8 results as they are,** including their retries. Don't rerun any of them.
+- **Run the remaining 32 in larger batches,** as large as memory allows, with the same model, prompts, seed, guard and judge. Batch size changes which sample each passage draws, not the method, so it doesn't bias the trial. Record the batch size for every request.
+- **Time caps, in billed GPU time from the first version 3 trial request, including model loading:**
+  - Chinese-notes trial: 1.5 hours.
+  - Fallback, only if needed: at most 1 more hour.
+  - Total: at most 2.5 hours, about $1.40 at $0.549 an hour.
+  - The extra hour costs less than a dollar, and an unfinished trial would waste what's already been spent.
+- **Stop a method's trial early** once any go threshold can no longer be met, counting only final outcomes after the retry. If it's the Chinese-notes method, move straight to the fallback.
+- **If a method's time runs out before all 40 have final outcomes,** report it incomplete. Don't judge the thresholds on a subset, and don't lower them.
+- Nothing else changes: the 40 passages, the thresholds, the Pangram diagnostic and its 30-credit cap.
