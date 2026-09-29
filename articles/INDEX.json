@@ -2636,7 +2636,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/CURRENT-STATE.md",
-          "sha256": "aa7c284d6adebcc5b479abb9d5c0d6a4fbbbb0b2278e794ef571ba5bfa2c8721",
+          "sha256": "9503410bc337b8f97fca0b6b8ee2ff01f4dae2770dc0b6e2ef59e127b31be364",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -2648,7 +2648,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/LEDGER.md",
-          "sha256": "416a85408b29efdd3899b0ef0b5fd7a6b1807e61742da6f8adf3e5daf7a0eca7",
+          "sha256": "4bff255927ac5c528201bf8acb7ec8bf44b9d0e4a1d6033492638b0caff315cc",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3908,7 +3908,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram.jsonl",
-          "sha256": "a7d10b9954659743fa027d84475f73c4d0c3c101542000f2cc360151a8dc954c",
+          "sha256": "8f35bc9989be5e73683c4954af38bc4f6be00480cd2244efa2d31b482b21533c",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3927,6 +3927,12 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/OWNER-EGRESS-AUTHORIZATION.json",
           "sha256": "02af88bd5199b99d239940eb70bc2f03e821cbcef88867d6027f20bc6607c541",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B02_after_a.details.txt",
+          "sha256": "40dc535ddef93b802e4cf135ffe491a59c8a79ceec83ce5fc771e2f16f4865a0",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }

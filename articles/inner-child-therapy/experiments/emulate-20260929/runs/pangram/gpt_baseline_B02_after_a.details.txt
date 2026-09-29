@@ -1,0 +1,33 @@
+Browser tab: 663943083, Title: "AI Detection Dashboard", URL: "https://www.pangram.com/dashboard".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 42-68
+~			39 tab (selectable, settable, boolean) Overview, ID: radix-_r_68_-trigger-overview, Value: 0
+Overview
+~			40 tab (selected, settable, boolean) Details, Value: 1, ID: radix-_r_68_-trigger-detail
++				72 image
++				73 text Details
++		74 container Description: Details, ID: radix-_r_68_-content-detail
++			75 container
++				76 heading All Segments, Value: 3
++					77 text All Segments
++				78 combo box (collapsed) Value: All, Secondary Actions: Expand
++					79 text All
++				80 container card-0
++					81 heading Value: 3, AI Confidence level 81 words Afterward, look at what actually happened, because feeling no relief doesn't mean it failed. Doing it doesn't prove it helped either; the acts worth keeping leave things safer, closer, more capable or more enjoyable, and others only earn a tick. If you didn't do it, don't decide why before you've looked, since it could be fear, second thoughts about the goal, not knowing how, being worn out, or the friend you'd lined up not answering.
++						82 button (collapsed) ID: radix-_r_6t_, Secondary Actions: Expand, AI Confidence level 81 words Afterward, look at what actually happened, because feeling no relief doesn't mean it failed. Doing it doesn't prove it helped either; the acts worth keeping leave things safer, closer, more capable or more enjoyable, and others only earn a tick. If you didn't do it, don't decide why before you've looked, since it could be fear, second thoughts about the goal, not knowing how, being worn out, or the friend you'd lined up not answering.
++							83 container
++								84 image
++								85 text AI
++								86 container Confidence level
++									87 image
++									88 text Low
++								89 text 81  words Afterward, look at what actually happened, because feeling no relief doesn't mean it failed. Doing it doesn't prove it helped either; the acts worth keeping leave things safer, closer, more capable or more enjoyable, and others only earn a tick. If you didn't do it, don't decide why before you've looked, since it could be fear, second thoughts about the goal, not knowing how, being worn out, or the friend you'd lined up not answering.
++							90 image
++					91 container ID: radix-_r_6u_, AI Confidence level 81 words Afterward, look at what actually happened, because feeling no relief doesn't mean it failed. Doing it doesn't prove it helped either; the acts worth keeping leave things safer, closer, more capable or more enjoyable, and others only earn a tick. If you didn't do it, don't decide why before you've looked, since it could be fear, second thoughts about the goal, not knowing how, being worn out, or the friend you'd lined up not answering.
++						92 container
++							93 image
++							94 container
++								95 text AI
++								96 image
++						97 text We believe the segment is AI-generated
+The focused UI element is 40 tab (selected, settable, boolean) Details, Value: 1, ID: radix-_r_68_-trigger-detail

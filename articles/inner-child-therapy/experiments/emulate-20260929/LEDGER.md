@@ -35,3 +35,5 @@ Charge test complete: 58,017 -> 57,837; both website options cost 180 total. Pri
 Pangram input preparation encountered a stale accessibility index; no input was sent. Retry with the freshly observed textbox locator, which avoids unstable indices.
 
 B01 baseline: AI Generated 100%; 190 words; Pangram 4.0; short-text confidence limit; Details segment Medium. Credits 2,165 -> 2,163 (2 charged). Stored-document Copy did not update the browser clipboard; input textbox was byte-exact before submit and result count was within 8%; no repeat submitted.
+
+B02 baseline: AI Generated 100%; 81 words; Details Low; credits 2163 -> 2162. PDF Download offered but remained Downloading and event timed out after 20 seconds; no paid scan repeated.
