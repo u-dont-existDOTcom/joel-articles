@@ -1,0 +1,11 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_borrow_p4_r10.txt
+verdict: REVIEW
+metrics: {'words': 79, 'my_words': 79, 'paragraphs': 1, 'coach_per_100': 1.27, 'you_per_100': 8.9, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.45, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us.
+-- B4/E15 list or packed sentence (1)
+   * If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have.
+-- E36/E41 heavy second person (1)
+   * 8.9 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have.

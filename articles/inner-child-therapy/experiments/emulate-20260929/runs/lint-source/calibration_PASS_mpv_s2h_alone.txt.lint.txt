@@ -1,0 +1,10 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_mpv_s2h_alone.txt
+verdict: FAIL
+metrics: {'words': 104, 'my_words': 104, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 7.7, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.36, 'repeated_openers': {}}
+-- B11 tic (1)
+   * All of that shows as clearly to them as the clean room did.
+-- B2 contrast (2)
+   * If they're sarcastic about it, you let it go by instead of snapping back.
+   * It's proof you love them, but they can still tell the difference between being put up with and being loved.
+-- E36/E41 heavy second person (1)
+   * 7.7 "you" per 100 of my words

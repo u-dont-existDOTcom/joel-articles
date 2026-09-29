@@ -1,0 +1,112 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2149 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: Handle whatever safety issue or practical thing actually needs doing. Then, before another round, ask what changed the last time you processed this. Did you finally feel something you had only been thinking about? Did you notice something new enough to change a decision or how you respond? Or are you asking the same question again because the answer didn't feel certain enough? Grief can come back to familiar ground. Repetition by itself doesn't mean the child has a new request.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2149 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: Handle whatever safety issue
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 01:51 AM
+  - generic: 83 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: Handle whatever safety issue or practical thing actually needs doing. Then, before another round, ask what changed the last time you processed this. Did you finally feel something you had only been thinking about? Did you notice something new enough to change a decision or how you respond? Or are you asking the same question again because the answer didn't feel certain enough? Grief can come back to familiar ground. Repetition by itself doesn't mean the child has a new request.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "AI Confidence level 83 words Handle whatever safety issue or practical thing actually needs doing. Then, before another round, ask what changed the last time you processed this. Did you finally feel something you had only been thinking about? Did you notice something new enough to change a decision or how you respond? Or are you asking the same question again because the answer didn't feel certain enough? Grief can come back to familiar ground. Repetition by itself doesn't mean the child has a new request." [level=3]:
+      - button "AI Confidence level 83 words Handle whatever safety issue or practical thing actually needs doing. Then, before another round, ask what changed the last time you processed this. Did you finally feel something you had only been thinking about? Did you notice something new enough to change a decision or how you respond? Or are you asking the same question again because the answer didn't feel certain enough? Grief can come back to familiar ground. Repetition by itself doesn't mean the child has a new request.":
+        - generic: AI
+        - generic "Confidence level":
+          - text: low
+        - generic: 83 words
+        - generic: Handle whatever safety issue or practical thing actually needs doing. Then, before another round, ask what changed the last time you processed this. Did you finally feel something you had only been thinking about? Did you notice something new enough to change a decision or how you respond? Or are you asking the same question again because the answer didn't feel certain enough? Grief can come back to familiar ground. Repetition by itself doesn't mean the child has a new request.
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list

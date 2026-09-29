@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_love_askgod_p2.txt
+verdict: REVIEW
+metrics: {'words': 59, 'my_words': 59, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 6.8, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.44, 'repeated_openers': {}}
+-- E36/E41 heavy second person (1)
+   * 6.8 "you" per 100 of my words

@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_threefn_h_p1_p4.owner.txt
+verdict: REVIEW
+metrics: {'words': 19, 'my_words': 19, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 1, 'repeated_openers': {}}
+-- B2 contrast (1)
+   * Play not only paves the way for therapy, but is a part of how successful therapy should be measured.

@@ -1,0 +1,7 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_music_r4_mine.txt
+verdict: REVIEW
+metrics: {'words': 71, 'my_words': 71, 'paragraphs': 3, 'coach_per_100': 0.0, 'you_per_100': 7.0, 'landing_rate': 0.33, 'instruction_paragraphs': 0, 'para_len_cv': 0.58, 'sent_len_cv': 0.48, 'repeated_openers': {}}
+-- B7 short landing at paragraph end (1)
+   * That was half the idea.
+-- E36/E41 heavy second person (1)
+   * 7.0 "you" per 100 of my words

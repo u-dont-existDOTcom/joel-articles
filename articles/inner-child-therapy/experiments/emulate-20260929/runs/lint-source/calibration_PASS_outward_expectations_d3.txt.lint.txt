@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_outward_expectations_d3.txt
+verdict: REVIEW
+metrics: {'words': 61, 'my_words': 61, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 4.9, 'landing_rate': 0.0, 'instruction_paragraphs': 1, 'para_len_cv': 1, 'sent_len_cv': 0.25, 'repeated_openers': {}}
+-- E23 paragraph of instructions (1)
+   * If it does keep ending the same way, it's probably not that you haven't explained yourself...

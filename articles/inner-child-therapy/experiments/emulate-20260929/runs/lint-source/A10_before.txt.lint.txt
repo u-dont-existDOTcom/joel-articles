@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A10_before.txt
+verdict: REVIEW
+metrics: {'words': 158, 'my_words': 158, 'paragraphs': 3, 'coach_per_100': 0.0, 'you_per_100': 1.3, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.51, 'sent_len_cv': 0.82, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * The child with a borrowed adult: experience one reliable adult function through a real, remembered, imagined, or symbolic figure.

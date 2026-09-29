@@ -1,0 +1,9 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A15_before.txt
+verdict: REVIEW
+metrics: {'words': 49, 'my_words': 49, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 8.2, 'landing_rate': 1.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.34, 'repeated_openers': {}}
+-- B7 short landing at paragraph end (1)
+   * Or enough Protector to stop something stupid.
+-- E1 kid (1)
+   * Maybe there's enough adult around to be nice to the kid for a second.
+-- E36/E41 heavy second person (1)
+   * 8.2 "you" per 100 of my words

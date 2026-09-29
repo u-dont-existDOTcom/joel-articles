@@ -1,0 +1,16 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A18_joel_after_REFERENCE_ONLY.txt
+verdict: FAIL
+  HARD: E41 coach register: 2.1 coach phrases per 100 of my words (limit 2.0)
+metrics: {'words': 144, 'my_words': 144, 'paragraphs': 2, 'coach_per_100': 2.08, 'you_per_100': 7.6, 'landing_rate': 0.5, 'instruction_paragraphs': 0, 'para_len_cv': 0.39, 'sent_len_cv': 0.41, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose.
+-- B3 short knock-down (1)
+   * That's ok, too.
+-- B7 short landing at paragraph end (1)
+   * That's ok, too.
+-- E36/E41 heavy second person (1)
+   * 7.6 "you" per 100 of my words
+-- E41 coach phrase (3)
+   * You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose.
+   * You might feel more comfortable that way than just staying in imagination land.
+   * That's ok, too.

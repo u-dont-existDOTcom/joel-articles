@@ -1,0 +1,14 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_outward_section_loop_r6b.txt
+verdict: REVIEW
+metrics: {'words': 301, 'my_words': 298, 'paragraphs': 4, 'coach_per_100': 0.34, 'you_per_100': 7.4, 'landing_rate': 0.25, 'instruction_paragraphs': 0, 'para_len_cv': 0.55, 'sent_len_cv': 0.93, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * Sometimes we can be a better support for someone when we maintain a realistic boundary, so that we can hold high expectations, and still feel prepared for their
+-- B4/E15 list or packed sentence (2)
+   * Once you're in that happy place, look at the other person too, and don't go only by the one fight where they crossed your boundary, or, the other way around, by
+   * Does it keep ending the same way, where you bring up something that hurt and end up reassuring them they're not a bad person, and the talk never comes back to w
+-- B7 short landing at paragraph end (1)
+   * If you really did hurt them, repair it.
+-- E36/E41 heavy second person (1)
+   * 7.4 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * You can mean the apology.

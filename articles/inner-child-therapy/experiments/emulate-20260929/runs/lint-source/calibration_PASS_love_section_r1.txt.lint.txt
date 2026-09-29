@@ -1,0 +1,27 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_love_section_r1.txt
+verdict: REVIEW
+metrics: {'words': 678, 'my_words': 656, 'paragraphs': 10, 'coach_per_100': 0.3, 'you_per_100': 6.9, 'landing_rate': 0.1, 'instruction_paragraphs': 0, 'para_len_cv': 0.32, 'sent_len_cv': 0.48, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * Kids quit piano over one bad teacher, and this is way worse.
+-- B2 contrast (1)
+   * If the advice was "get more sleep," then for now just try brushing your teeth before midnight instead of at two.
+-- B3 short knock-down (1)
+   * So let the dog go first.
+-- B4/E15 list or packed sentence (5)
+   * Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's 
+   * Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them.
+   * And this trick even has a name, Solomon's paradox, after the king everybody brought their disputes to, who then wrecked his own life.
+   * That's why I go with Buddha's overall wish (paraphrasing): "May you be loving, peaceful, and free," since if they were all of those, they wouldn't have done wha
+   * Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump 
+-- B7 short landing at paragraph end (1)
+   * The technical term for this is "scaffolding."
+-- E1 kid (4)
+   * Or your kid, or whoever you love without trying; they don't have to be in the room.
+   * Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's 
+   * That's how you learn as a kid, and it works now, too.
+   * Kids quit piano over one bad teacher, and this is way worse.
+-- E36/E41 heavy second person (1)
+   * 6.9 "you" per 100 of my words
+-- E41 coach phrase (2)
+   * The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move.
+   * Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly.

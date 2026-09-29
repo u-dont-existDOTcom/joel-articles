@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A07_before.txt
+verdict: REVIEW
+metrics: {'words': 83, 'my_words': 83, 'paragraphs': 1, 'coach_per_100': 1.2, 'you_per_100': 3.6, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.29, 'repeated_openers': {}}
+-- E41 coach phrase (1)
+   * You can leave a session calmer and full of insight while the original problem doesn't move at all.

@@ -1,0 +1,7 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A21_before.txt
+verdict: REVIEW
+metrics: {'words': 72, 'my_words': 72, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 4.2, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.29, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * Your little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work.
+-- E1 kid (1)
+   * A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's

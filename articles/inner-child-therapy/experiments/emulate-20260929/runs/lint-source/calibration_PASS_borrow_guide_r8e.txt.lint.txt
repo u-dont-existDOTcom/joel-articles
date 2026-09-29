@@ -1,0 +1,7 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_borrow_guide_r8e.txt
+verdict: REVIEW
+metrics: {'words': 82, 'my_words': 82, 'paragraphs': 1, 'coach_per_100': 1.22, 'you_per_100': 12.2, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.29, 'repeated_openers': {}}
+-- E36/E41 heavy second person (1)
+   * 12.2 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * A tradition can carry some of it for a while, too, until you can hold the direction yourself.

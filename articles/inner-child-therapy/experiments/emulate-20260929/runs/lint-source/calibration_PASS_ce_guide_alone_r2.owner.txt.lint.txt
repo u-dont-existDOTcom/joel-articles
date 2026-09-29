@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_ce_guide_alone_r2.owner.txt
+verdict: REVIEW
+metrics: {'words': 42, 'my_words': 42, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.33, 'repeated_openers': {}}
+-- B2 contrast (1)
+   * Our lives can become small and like a never-ending therapy session when we focus only on caring for ourselves rather than giving ourselves a mission as well.

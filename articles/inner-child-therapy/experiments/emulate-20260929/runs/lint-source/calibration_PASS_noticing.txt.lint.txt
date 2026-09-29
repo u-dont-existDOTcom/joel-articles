@@ -1,0 +1,14 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_noticing.txt
+verdict: REVIEW
+metrics: {'words': 143, 'my_words': 141, 'paragraphs': 3, 'coach_per_100': 1.42, 'you_per_100': 4.3, 'landing_rate': 0.33, 'instruction_paragraphs': 0, 'para_len_cv': 0.27, 'sent_len_cv': 0.57, 'repeated_openers': {}}
+-- B2 contrast (1)
+   * For me, instead of "I'm terrified," that'd be "Little Joel is terrified.
+-- B4/E15 list or packed sentence (1)
+   * In lab studies, though, people who talked to themselves this way reacted less to upsetting pictures and memories, and their brains didn't seem to be working any
+-- B5 announces the paragraph (1)
+   * For me, instead of "I'm terrified," that'd be "Little Joel is terrified.
+-- B7 short landing at paragraph end (1)
+   * I was, and baby me was still starving.
+-- E41 coach phrase (2)
+   * That might be the most adult thing you've got right now, and it's plenty to start with.
+   * If you can tell your parts apart pretty easily, you've probably got plenty of noticing already.

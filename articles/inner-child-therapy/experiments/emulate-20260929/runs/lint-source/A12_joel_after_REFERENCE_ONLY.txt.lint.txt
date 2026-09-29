@@ -1,0 +1,10 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A12_joel_after_REFERENCE_ONLY.txt
+verdict: FAIL
+  HARD: E41 coach register: 3.8 coach phrases per 100 of my words (limit 2.0)
+metrics: {'words': 78, 'my_words': 78, 'paragraphs': 1, 'coach_per_100': 3.85, 'you_per_100': 9.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.46, 'repeated_openers': {}}
+-- E36/E41 heavy second person (1)
+   * 9.0 "you" per 100 of my words
+-- E41 coach phrase (3)
+   * You might notice the hook before you have any clue what part of you is doing the hooking.
+   * Or you might notice it embarrassingly late.
+   * You can figure that out later.

@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_mpv_s2c_alone.txt
+verdict: FAIL
+metrics: {'words': 92, 'my_words': 92, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 4.3, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.52, 'repeated_openers': {}}
+-- B11 tic (1)
+   * Not snapping back is a kind of love, and they'll notice it as much as a clean room, but it's not the whole thing.

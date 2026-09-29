@@ -1,0 +1,9 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_love_goodwill_p1_r2.txt
+verdict: REVIEW
+metrics: {'words': 75, 'my_words': 75, 'paragraphs': 1, 'coach_per_100': 1.33, 'you_per_100': 6.7, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.48, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly, and even the usual loving-kindness line, "May you be h
+-- E36/E41 heavy second person (1)
+   * 6.7 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly, and even the usual loving-kindness line, "May you be h

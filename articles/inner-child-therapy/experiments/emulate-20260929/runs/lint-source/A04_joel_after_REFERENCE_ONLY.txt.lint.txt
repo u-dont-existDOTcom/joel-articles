@@ -1,0 +1,9 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A04_joel_after_REFERENCE_ONLY.txt
+verdict: REVIEW
+metrics: {'words': 64, 'my_words': 64, 'paragraphs': 1, 'coach_per_100': 1.56, 'you_per_100': 6.2, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.48, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * That's enough to start being the adult, even if it isn't enough yet for them to trust you.
+-- E36/E41 heavy second person (1)
+   * 6.2 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * If the love still isn't coming, you can at least stop judging your little one.

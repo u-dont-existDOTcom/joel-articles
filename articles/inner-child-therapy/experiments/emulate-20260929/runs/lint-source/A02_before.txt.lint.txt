@@ -1,0 +1,11 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A02_before.txt
+verdict: REVIEW
+metrics: {'words': 114, 'my_words': 114, 'paragraphs': 1, 'coach_per_100': 0.88, 'you_per_100': 5.3, 'landing_rate': 1.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.59, 'repeated_openers': {}}
+-- B7 short landing at paragraph end (1)
+   * Leave the kid where it is for now.
+-- E1 kid (3)
+   * I've been writing this whole guide as if everybody who tries it wants to take care of the kid, but some people get a little rush out of making somebody scared o
+   * If that's you, you might have breezed through the check above and figure, "I'll just bring the kid out for a second and see what happens.
+   * Leave the kid where it is for now.
+-- E41 coach phrase (1)
+   * If that's you, you might have breezed through the check above and figure, "I'll just bring the kid out for a second and see what happens.

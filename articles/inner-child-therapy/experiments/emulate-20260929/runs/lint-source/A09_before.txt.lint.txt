@@ -1,0 +1,9 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A09_before.txt
+verdict: FAIL
+  HARD: E41 coach register: 2.9 coach phrases per 100 of my words (limit 2.0)
+metrics: {'words': 68, 'my_words': 68, 'paragraphs': 1, 'coach_per_100': 2.94, 'you_per_100': 5.9, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.45, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * Without that, you can sit there trying to say all the loving things while the old critic, numbness, panic, or urge to get away is running the whole thing.
+-- E41 coach phrase (2)
+   * This is much easier when you can already reach one of those adult roles.
+   * Without that, you can sit there trying to say all the loving things while the old critic, numbness, panic, or urge to get away is running the whole thing.

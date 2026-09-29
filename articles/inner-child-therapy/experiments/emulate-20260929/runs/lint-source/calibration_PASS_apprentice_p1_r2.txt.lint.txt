@@ -1,0 +1,9 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_apprentice_p1_r2.txt
+verdict: REVIEW
+metrics: {'words': 74, 'my_words': 74, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 6.8, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.48, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * Most of us feel better and call them again the next time, and they get a little better at it every time while we don't.
+-- B3 short knock-down (1)
+   * So steal some of it.
+-- E36/E41 heavy second person (1)
+   * 6.8 "you" per 100 of my words

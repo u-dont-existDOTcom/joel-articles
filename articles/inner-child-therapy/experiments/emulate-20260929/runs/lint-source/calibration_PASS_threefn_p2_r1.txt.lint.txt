@@ -1,0 +1,9 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_threefn_p2_r1.txt
+verdict: REVIEW
+metrics: {'words': 81, 'my_words': 81, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 9.9, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.33, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * A party gets to be too much for your little one, so you take them home and tell them they did great, even though mostly they hid in the bathroom.
+-- B4/E15 list or packed sentence (1)
+   * Either way, the Nurturer, Protector and Guide are all you, and you're often doing two of them at once.
+-- E36/E41 heavy second person (1)
+   * 9.9 "you" per 100 of my words

@@ -1,0 +1,9 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A13_before.txt
+verdict: REVIEW
+metrics: {'words': 70, 'my_words': 70, 'paragraphs': 1, 'coach_per_100': 1.43, 'you_per_100': 5.7, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.31, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * Somebody may really have crossed a boundary and still have hit something old in you.
+-- B4/E15 list or packed sentence (1)
+   * The text, the drink, the promise, whatever giant conclusion suddenly seems obvious.
+-- E41 coach phrase (1)
+   * You can work out the rest when you're less busy being the reaction.

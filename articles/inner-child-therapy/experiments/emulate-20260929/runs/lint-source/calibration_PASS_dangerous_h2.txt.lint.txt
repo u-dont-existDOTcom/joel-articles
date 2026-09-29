@@ -1,0 +1,12 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_dangerous_h2.txt
+verdict: REVIEW
+metrics: {'words': 468, 'my_words': 468, 'paragraphs': 7, 'coach_per_100': 0.43, 'you_per_100': 2.1, 'landing_rate': 0.14, 'instruction_paragraphs': 0, 'para_len_cv': 0.22, 'sent_len_cv': 0.42, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * Everybody gets thoughts like that sometimes, and they don't make you a bad person, but why would you bring your inner child into the middle of them?
+-- B4/E15 list or packed sentence (1)
+   * Being on fire would too, and people would definitely get out of your way, but unless you're the Human Torch from the Fantastic Four, you'd be the one burning.
+-- B7 short landing at paragraph end (1)
+   * Of course not.
+-- E41 coach phrase (2)
+   * The nice thing about inner child therapy is that you can wait until you're calm and actually ready.
+   * Until then it helps a lot to have a real person in their life who likes them and won't laugh along, since loving-kindness is easier to pick up from someone who 

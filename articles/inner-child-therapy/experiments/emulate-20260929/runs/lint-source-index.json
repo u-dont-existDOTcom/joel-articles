@@ -1,0 +1,547 @@
+[
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A27_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A27_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A13_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A13_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A28_before.txt",
+    "report": "runs/lint-source/A28_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A09_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A09_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A26_before.txt",
+    "report": "runs/lint-source/A26_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A16_before.txt",
+    "report": "runs/lint-source/A16_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A30_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A30_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A25_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A25_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A05_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A05_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A18_before.txt",
+    "report": "runs/lint-source/A18_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A06_before.txt",
+    "report": "runs/lint-source/A06_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A03_before.txt",
+    "report": "runs/lint-source/A03_before.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A13_before.txt",
+    "report": "runs/lint-source/A13_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A09_before.txt",
+    "report": "runs/lint-source/A09_before.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A03_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A03_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A28_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A28_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A21_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A21_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A02_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A02_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A08_before.txt",
+    "report": "runs/lint-source/A08_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A01_before.txt",
+    "report": "runs/lint-source/A01_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A20_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A20_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A12_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A12_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A24_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A24_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A02_before.txt",
+    "report": "runs/lint-source/A02_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A10_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A10_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A18_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A18_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A01_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A01_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A07_before.txt",
+    "report": "runs/lint-source/A07_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A04_before.txt",
+    "report": "runs/lint-source/A04_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A19_before.txt",
+    "report": "runs/lint-source/A19_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A07_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A07_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A14_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A14_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A27_before.txt",
+    "report": "runs/lint-source/A27_before.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A08_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A08_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A15_before.txt",
+    "report": "runs/lint-source/A15_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A19_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A19_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A25_before.txt",
+    "report": "runs/lint-source/A25_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A20_before.txt",
+    "report": "runs/lint-source/A20_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A22_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A22_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A21_before.txt",
+    "report": "runs/lint-source/A21_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A23_before.txt",
+    "report": "runs/lint-source/A23_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A05_before.txt",
+    "report": "runs/lint-source/A05_before.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A14_before.txt",
+    "report": "runs/lint-source/A14_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A22_before.txt",
+    "report": "runs/lint-source/A22_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A29_before.txt",
+    "report": "runs/lint-source/A29_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A24_before.txt",
+    "report": "runs/lint-source/A24_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A23_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A23_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A26_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A26_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A11_before.txt",
+    "report": "runs/lint-source/A11_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A30_before.txt",
+    "report": "runs/lint-source/A30_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A15_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A15_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A16_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A16_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A06_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A06_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A29_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A29_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A12_before.txt",
+    "report": "runs/lint-source/A12_before.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A04_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A04_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A11_joel_after_REFERENCE_ONLY.txt",
+    "report": "runs/lint-source/A11_joel_after_REFERENCE_ONLY.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A10_before.txt",
+    "report": "runs/lint-source/A10_before.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_threefn_p4_r1.txt",
+    "report": "runs/lint-source/calibration_PASS_threefn_p4_r1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_goodwill_p1_r2.txt",
+    "report": "runs/lint-source/calibration_PASS_love_goodwill_p1_r2.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_tyler_p5_r1.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_tyler_p5_r1.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_ce_p2_worth_line.txt",
+    "report": "runs/lint-source/calibration_PASS_ce_p2_worth_line.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_mpv_s2j_alone.txt",
+    "report": "runs/lint-source/calibration_PASS_mpv_s2j_alone.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_h2_r3.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_love_h2_r3.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_borrow_guide_r8e.txt",
+    "report": "runs/lint-source/calibration_PASS_borrow_guide_r8e.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_tyler_p5_r1.txt",
+    "report": "runs/lint-source/calibration_PASS_tyler_p5_r1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_mpv_s2h_alone.txt",
+    "report": "runs/lint-source/calibration_PASS_mpv_s2h_alone.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_mpv_s2b_alone.txt",
+    "report": "runs/lint-source/calibration_PASS_mpv_s2b_alone.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_borrow_section_r14b.txt",
+    "report": "runs/lint-source/calibration_PASS_borrow_section_r14b.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_fix_ask_p1.txt",
+    "report": "runs/lint-source/calibration_PASS_fix_ask_p1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_section_r2_with_enjoy.txt",
+    "report": "runs/lint-source/calibration_PASS_love_section_r2_with_enjoy.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_ce_jobs_r2_scene.txt",
+    "report": "runs/lint-source/calibration_PASS_ce_jobs_r2_scene.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_music_r4.txt",
+    "report": "runs/lint-source/calibration_PASS_music_r4.txt.lint.txt",
+    "exit_code": 0
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_section_r1.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_love_section_r1.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_ce_guide_alone_r2.txt",
+    "report": "runs/lint-source/calibration_PASS_ce_guide_alone_r2.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_dangerous_h2.txt",
+    "report": "runs/lint-source/calibration_PASS_dangerous_h2.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_askgod_p1.txt",
+    "report": "runs/lint-source/calibration_PASS_love_askgod_p1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_threefn_h_p1_p4.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_threefn_h_p1_p4.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_fix_hook_p1.txt",
+    "report": "runs/lint-source/calibration_PASS_fix_hook_p1.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_askgod_p2.txt",
+    "report": "runs/lint-source/calibration_PASS_love_askgod_p2.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_outward_p1_loop_r6b.txt",
+    "report": "runs/lint-source/calibration_PASS_outward_p1_loop_r6b.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_threefn_p3_r1b.txt",
+    "report": "runs/lint-source/calibration_PASS_threefn_p3_r1b.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_outward_expectations_d3.txt",
+    "report": "runs/lint-source/calibration_PASS_outward_expectations_d3.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_outward_p1_loop_r4sf1.txt",
+    "report": "runs/lint-source/calibration_PASS_outward_p1_loop_r4sf1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_apprentice_p1_r2.txt",
+    "report": "runs/lint-source/calibration_PASS_apprentice_p1_r2.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_outward_p1_loop_r3B2.txt",
+    "report": "runs/lint-source/calibration_PASS_outward_p1_loop_r3B2.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_goodwill_p1_r1_fidelity_rejected.txt",
+    "report": "runs/lint-source/calibration_PASS_love_goodwill_p1_r1_fidelity_rejected.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_tyler_p4_r1.txt",
+    "report": "runs/lint-source/calibration_PASS_tyler_p4_r1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_outward_section_loop_r6b.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_outward_section_loop_r6b.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_mpv_s2c_alone.txt",
+    "report": "runs/lint-source/calibration_PASS_mpv_s2c_alone.txt.lint.txt",
+    "exit_code": 2
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_outward_expectations_d2.txt",
+    "report": "runs/lint-source/calibration_PASS_outward_expectations_d2.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_outward_p1_loop_r5v2.txt",
+    "report": "runs/lint-source/calibration_PASS_outward_p1_loop_r5v2.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_noticing.txt",
+    "report": "runs/lint-source/calibration_PASS_noticing.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_section_r2_with_enjoy.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_love_section_r2_with_enjoy.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_borrow_p4_r10.txt",
+    "report": "runs/lint-source/calibration_PASS_borrow_p4_r10.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_threefn_p2_r1.txt",
+    "report": "runs/lint-source/calibration_PASS_threefn_p2_r1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_borrow_section_r14b.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_borrow_section_r14b.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_ce_p2_worth_line.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_ce_p2_worth_line.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_threefn_h_p1_p4.txt",
+    "report": "runs/lint-source/calibration_PASS_threefn_h_p1_p4.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_ce_guide_alone_r2.owner.txt",
+    "report": "runs/lint-source/calibration_PASS_ce_guide_alone_r2.owner.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_music_r4_mine.txt",
+    "report": "runs/lint-source/calibration_PASS_music_r4_mine.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_threefn_p1_cut.txt",
+    "report": "runs/lint-source/calibration_PASS_threefn_p1_cut.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_tyler_writeit_section_r1.txt",
+    "report": "runs/lint-source/calibration_PASS_tyler_writeit_section_r1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_section_r1.txt",
+    "report": "runs/lint-source/calibration_PASS_love_section_r1.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_borrow_p7_r11.txt",
+    "report": "runs/lint-source/calibration_PASS_borrow_p7_r11.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_regulation.txt",
+    "report": "runs/lint-source/calibration_PASS_regulation.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_p2_r3.txt",
+    "report": "runs/lint-source/calibration_PASS_love_p2_r3.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_outward_section_loop_r6b.txt",
+    "report": "runs/lint-source/calibration_PASS_outward_section_loop_r6b.txt.lint.txt",
+    "exit_code": 1
+  },
+  {
+    "source": "articles/inner-child-therapy/tools/calibration/PASS_love_h2_r3.txt",
+    "report": "runs/lint-source/calibration_PASS_love_h2_r3.txt.lint.txt",
+    "exit_code": 1
+  }
+]

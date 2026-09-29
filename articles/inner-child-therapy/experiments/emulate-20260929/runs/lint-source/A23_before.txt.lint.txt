@@ -1,0 +1,7 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A23_before.txt
+verdict: REVIEW
+metrics: {'words': 58, 'my_words': 58, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 5.2, 'landing_rate': 1.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.82, 'repeated_openers': {}}
+-- B7 short landing at paragraph end (1)
+   * It isn't required.
+-- E1 kid (1)
+   * If you don't hear a little kid talking in your head, don't invent one.

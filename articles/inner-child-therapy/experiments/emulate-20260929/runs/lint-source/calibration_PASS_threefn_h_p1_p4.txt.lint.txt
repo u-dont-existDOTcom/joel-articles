@@ -1,0 +1,15 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_threefn_h_p1_p4.txt
+verdict: REVIEW
+metrics: {'words': 266, 'my_words': 262, 'paragraphs': 4, 'coach_per_100': 0.0, 'you_per_100': 7.6, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.18, 'sent_len_cv': 0.29, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * A party gets to be too much for your little one, so you take them home and tell them they did great, even though mostly they hid in the bathroom.
+-- B2 contrast (1)
+   * Play not only paves the way for therapy, but is a part of how successful therapy should be measured.
+-- B4/E15 list or packed sentence (2)
+   * Your little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work.
+   * Either way, the Nurturer, Protector and Guide are all you, and you're often doing two of them at once.
+-- E1 kid (2)
+   * A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's
+   * Sometimes show up just to say "I'm glad you're here," and then enjoy them for a minute, the way you'd enjoy a little kid who wants to show you a rock they found
+-- E36/E41 heavy second person (1)
+   * 7.6 "you" per 100 of my words

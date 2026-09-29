@@ -1,0 +1,7 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_tyler_p4_r1.txt
+verdict: REVIEW
+metrics: {'words': 87, 'my_words': 87, 'paragraphs': 1, 'coach_per_100': 1.15, 'you_per_100': 1.1, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.43, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * The guy asked if he thought it was wise to mind his own business, and Tyler said, "Well, I believe in Christ, so I thought you might care about life too.
+-- E41 coach phrase (1)
+   * The guy asked if he thought it was wise to mind his own business, and Tyler said, "Well, I believe in Christ, so I thought you might care about life too.

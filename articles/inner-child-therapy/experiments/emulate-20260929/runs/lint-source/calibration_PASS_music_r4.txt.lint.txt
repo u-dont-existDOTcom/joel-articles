@@ -1,0 +1,3 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_music_r4.txt
+verdict: CLEAR
+metrics: {'words': 215, 'my_words': 215, 'paragraphs': 4, 'coach_per_100': 0.0, 'you_per_100': 2.3, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.37, 'sent_len_cv': 0.42, 'repeated_openers': {}}

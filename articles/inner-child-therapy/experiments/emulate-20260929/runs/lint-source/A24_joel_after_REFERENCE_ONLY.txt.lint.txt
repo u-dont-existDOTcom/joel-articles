@@ -1,0 +1,10 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A24_joel_after_REFERENCE_ONLY.txt
+verdict: FAIL
+  HARD: E41 coach register: 2.3 coach phrases per 100 of my words (limit 2.0)
+metrics: {'words': 44, 'my_words': 44, 'paragraphs': 1, 'coach_per_100': 2.27, 'you_per_100': 4.5, 'landing_rate': 1.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.45, 'repeated_openers': {}}
+-- B3 short knock-down (1)
+   * That's ok, too.
+-- B7 short landing at paragraph end (1)
+   * That's ok, too.
+-- E41 coach phrase (1)
+   * That's ok, too.

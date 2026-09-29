@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A16_before.txt
+verdict: REVIEW
+metrics: {'words': 43, 'my_words': 43, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.21, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * That might mean a therapist, friend, support person, crisis line, group, or simply another safe adult presence helping with part of the job for a while.

@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A07_joel_after_REFERENCE_ONLY.txt
+verdict: REVIEW
+metrics: {'words': 134, 'my_words': 134, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 2.2, 'landing_rate': 0.0, 'instruction_paragraphs': 1, 'para_len_cv': 1, 'sent_len_cv': 0.33, 'repeated_openers': {}}
+-- E23 paragraph of instructions (1)
+   * Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, an...

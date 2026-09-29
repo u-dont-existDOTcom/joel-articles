@@ -1,0 +1,9 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A23_joel_after_REFERENCE_ONLY.txt
+verdict: REVIEW
+metrics: {'words': 61, 'my_words': 61, 'paragraphs': 1, 'coach_per_100': 1.64, 'you_per_100': 6.6, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.44, 'repeated_openers': {}}
+-- E1 kid (1)
+   * If you don't hear a little kid talking in your head, don't invent one.
+-- E36/E41 heavy second person (1)
+   * 6.6 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * Maybe that's what happens for some people, but you might not be some people.

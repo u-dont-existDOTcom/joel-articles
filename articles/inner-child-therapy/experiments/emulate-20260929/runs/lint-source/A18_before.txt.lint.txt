@@ -1,0 +1,10 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A18_before.txt
+verdict: REVIEW
+metrics: {'words': 140, 'my_words': 140, 'paragraphs': 2, 'coach_per_100': 0.71, 'you_per_100': 5.7, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.43, 'sent_len_cv': 0.45, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose.
+-- B4/E15 list or packed sentence (2)
+   * If words are there, use them; say the thing aloud, write it, whatever gets it out of the strange imaginary-conversation zone.
+   * Maybe what's actually happening is a knot in your stomach, an urge to leave, some image that keeps coming up, a song that suddenly feels relevant.
+-- E41 coach phrase (1)
+   * You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose.

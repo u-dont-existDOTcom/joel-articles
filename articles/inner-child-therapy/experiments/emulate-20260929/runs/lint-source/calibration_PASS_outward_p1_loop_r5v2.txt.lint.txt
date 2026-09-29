@@ -1,0 +1,7 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_outward_p1_loop_r5v2.txt
+verdict: REVIEW
+metrics: {'words': 103, 'my_words': 103, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 6.8, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.01, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * Once you're in that happy place, look at the other person too, and look at more than the one fight where they crossed your boundary, and, the other way around, 
+-- E36/E41 heavy second person (1)
+   * 6.8 "you" per 100 of my words

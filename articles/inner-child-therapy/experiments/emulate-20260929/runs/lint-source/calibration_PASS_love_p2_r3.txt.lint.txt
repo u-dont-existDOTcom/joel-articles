@@ -1,0 +1,7 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_love_p2_r3.txt
+verdict: REVIEW
+metrics: {'words': 92, 'my_words': 92, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 5.4, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.59, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's 
+-- E1 kid (1)
+   * Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's 

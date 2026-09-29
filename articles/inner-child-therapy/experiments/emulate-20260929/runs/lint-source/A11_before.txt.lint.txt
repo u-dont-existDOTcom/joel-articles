@@ -1,0 +1,13 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A11_before.txt
+verdict: REVIEW
+metrics: {'words': 188, 'my_words': 188, 'paragraphs': 2, 'coach_per_100': 1.6, 'you_per_100': 8.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.15, 'sent_len_cv': 0.42, 'repeated_openers': {}}
+-- B5 announces the paragraph (1)
+   * Or maybe all you've got is “not yet,” which is still more useful than sending the message from inside the reaction.
+-- E1 kid (1)
+   * Maybe there's enough adult around to be nice to the kid for a second.
+-- E36/E41 heavy second person (1)
+   * 8.0 "you" per 100 of my words
+-- E41 coach phrase (3)
+   * You might notice the hook before you have any clue what part of you is doing the hooking.
+   * Or you might notice it embarrassingly late.
+   * Child, protector, old wound... you can figure that out later.

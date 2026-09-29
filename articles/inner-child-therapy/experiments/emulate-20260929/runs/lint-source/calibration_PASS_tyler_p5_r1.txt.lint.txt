@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_tyler_p5_r1.txt
+verdict: REVIEW
+metrics: {'words': 119, 'my_words': 119, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 5.9, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.49, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * What we came up with was something like, "Hey man, when I was younger I smoked in front of an infant, not realizing how selfish that was, and I notice you doing

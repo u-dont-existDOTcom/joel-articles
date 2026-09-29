@@ -1,0 +1,18 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_tyler_writeit_section_r1.txt
+verdict: REVIEW
+metrics: {'words': 479, 'my_words': 479, 'paragraphs': 7, 'coach_per_100': 0.42, 'you_per_100': 4.2, 'landing_rate': 0.29, 'instruction_paragraphs': 1, 'para_len_cv': 0.55, 'sent_len_cv': 0.67, 'repeated_openers': {}}
+-- B2 contrast (1)
+   * And if the conflict really requires a response right now, then obviously just do your best rather than wait for the perfect timing.
+-- B4/E15 list or packed sentence (4)
+   * It doesn't mean you need to hide your upset, or apply for a permit to protest, but choose your battles and execute them wisely, so you don't end up regretting h
+   * And yeah, going back to the writer, which is often my inner child when emotions pop up, is part of the process.
+   * The guy asked if he thought it was wise to mind his own business, and Tyler said, "Well, I believe in Christ, so I thought you might care about life too.
+   * What we came up with was something like, "Hey man, when I was younger I smoked in front of an infant, not realizing how selfish that was, and I notice you doing
+-- B7 short landing at paragraph end (2)
+   * Don't Send It Yet.
+   * A lot of the time it's just "that hurt."
+-- E23 paragraph of instructions (1)
+   * Write It. Don't Send It Yet....
+-- E41 coach phrase (2)
+   * The guy asked if he thought it was wise to mind his own business, and Tyler said, "Well, I believe in Christ, so I thought you might care about life too.
+   * You can say all the right words, but if the tone is accusatory, it doesn't matter.

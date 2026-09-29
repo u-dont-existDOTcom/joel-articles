@@ -1,0 +1,16 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A05_joel_after_REFERENCE_ONLY.txt
+verdict: REVIEW
+metrics: {'words': 108, 'my_words': 108, 'paragraphs': 1, 'coach_per_100': 1.85, 'you_per_100': 5.6, 'landing_rate': 1.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.46, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * Even if this still feels like the child acting like the adult, for now, that's ok.
+-- B2 contrast (1)
+   * "Fake it til you make it" isn't exactly it, but yeah.
+-- B3 short knock-down (1)
+   * That was the Protector.
+-- B5 announces the paragraph (1)
+   * For protecting, ask what a minimally competent adult would do here.
+-- B7 short landing at paragraph end (1)
+   * If it sounds funny, laugh!
+-- E41 coach phrase (2)
+   * Even if this still feels like the child acting like the adult, for now, that's ok.
+   * Afterward, you can tell your little one, "I did that for us.

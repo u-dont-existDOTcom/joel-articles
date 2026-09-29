@@ -1,0 +1,21 @@
+== tells_lint: articles/inner-child-therapy/tools/calibration/PASS_love_h2_r3.txt
+verdict: REVIEW
+metrics: {'words': 343, 'my_words': 335, 'paragraphs': 4, 'coach_per_100': 0.3, 'you_per_100': 7.5, 'landing_rate': 0.25, 'instruction_paragraphs': 0, 'para_len_cv': 0.2, 'sent_len_cv': 0.48, 'repeated_openers': {}}
+-- B2 contrast (1)
+   * If the advice was "get more sleep," then for now just try brushing your teeth before midnight instead of at two.
+-- B3 short knock-down (1)
+   * So let the dog go first.
+-- B4/E15 list or packed sentence (3)
+   * Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's 
+   * Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them.
+   * And this trick even has a name, Solomon's paradox, after the king everybody brought their disputes to, who then wrecked his own life.
+-- B7 short landing at paragraph end (1)
+   * The technical term for this is "scaffolding."
+-- E1 kid (3)
+   * Or your kid, or whoever you love without trying; they don't have to be in the room.
+   * Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's 
+   * That's how you learn as a kid, and it works now, too.
+-- E36/E41 heavy second person (1)
+   * 7.5 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move.

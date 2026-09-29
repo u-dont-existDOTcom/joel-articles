@@ -1,0 +1,13 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A10_joel_after_REFERENCE_ONLY.txt
+verdict: REVIEW
+metrics: {'words': 213, 'my_words': 213, 'paragraphs': 2, 'coach_per_100': 0.47, 'you_per_100': 4.7, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.72, 'sent_len_cv': 0.74, 'repeated_openers': {}}
+-- B2 contrast (1)
+   * The child isn't pushed away, but doesn't have to run the whole life alone.
+-- B4/E15 list or packed sentence (1)
+   * Adult mode itself — after sufficient practice with reparenting, you become a natural at sending love to little you, protecting them, and directing them.
+-- B5 announces the paragraph (1)
+   * For now, I think of it in five fairly predictable stages.
+-- E1 kid (1)
+   * This can almost feel like playing house as a kid where you imagined how you'd take care of a baby doll etc.
+-- E41 coach phrase (1)
+   * You might be starting at any point here (and it may change even from hour to hour as well):

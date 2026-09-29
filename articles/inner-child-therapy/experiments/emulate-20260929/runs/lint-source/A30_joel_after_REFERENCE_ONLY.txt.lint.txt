@@ -1,0 +1,5 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/A_joelfixes/A30_joel_after_REFERENCE_ONLY.txt
+verdict: REVIEW
+metrics: {'words': 124, 'my_words': 124, 'paragraphs': 1, 'coach_per_100': 0.81, 'you_per_100': 4.8, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.26, 'repeated_openers': {}}
+-- E41 coach phrase (1)
+   * There’s one very simple technique you can do at any time to feel a deeper connection to your inner child.
