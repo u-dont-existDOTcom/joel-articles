@@ -3908,7 +3908,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram.jsonl",
-          "sha256": "bc43ce9a950aa7ee9ccc5a3d975d7b6cc4d72510e298284b66693eec22229d9c",
+          "sha256": "34ab1c0a4e981da3ea6615e945884dd39fd5d164260c3c041b7cc415ae26dbac",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3944,7 +3944,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/admission-events.jsonl",
-          "sha256": "3d692cff17534c429937f326365d1af20414713951c7ae9aa0281ef99cca2086",
+          "sha256": "f86983a73baddfdcee9048f1a5783fd7939cacc922631b4d9540803250c7ee16",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -4713,6 +4713,18 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_A18_before.overview.txt",
           "sha256": "599bbdc7b00c27961f578e1fd5d9aff8be52cecb933fceb3c19332eec1d3e405",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B05_m34_with_headings.details.txt",
+          "sha256": "f6f5278111968e286cfecfd583d09948507294cda7d2586401a838d60b38bccc",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B05_m34_with_headings.overview.txt",
+          "sha256": "753d753a33f46b8e1a12385be534612b3a5d883ce120956b6292f1b54aba832c",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }
