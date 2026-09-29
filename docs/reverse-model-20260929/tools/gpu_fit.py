@@ -39,6 +39,11 @@ try:
         trust_remote_code=False)
     result["loaded_memory"] = memory()
     result["loaded_model_class"] = str(type(model))
+    result["loaded_device_map"] = {n: str(d) for n, d in getattr(model, "hf_device_map", {}).items()}
+    result["quantization_config"] = model.config.to_dict().get("quantization_config")
+    result["expert_weight_layout"] = [(n, list(p.shape), str(p.dtype), type(p).__name__)
+                                     for n, p in model.named_parameters()
+                                     if "layers.0.mlp.experts" in n]
     save()
     model = FastLanguageModel.get_peft_model(
         model, r=64, lora_alpha=64, lora_dropout=0, bias="none",
