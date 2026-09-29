@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B03_api_r1",
+  "input_file": "inputs/learning/B_protector/B03_w2_section.txt",
+  "input_words": 532,
+  "input_sha256": "5e908557d8d1e1557cab9d69cc239e8ce2addd42a7f667a4ab1d410492f1ff1a",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:35:04.314298+00:00",
+  "status": "completed",
+  "balance_before": 55450,
+  "provider_id": "0e15e814-b6cb-4feb-ace8-d1513e848403",
+  "words_charged": 532
+}

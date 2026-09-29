@@ -1,0 +1,396 @@
+{
+  "source_sha256": "5e908557d8d1e1557cab9d69cc239e8ce2addd42a7f667a4ab1d410492f1ff1a",
+  "output_sha256": "0546e0558556b328f1de5443d11e7d3c51903192994ede3cd749a88fa313b2ea",
+  "source_sentence_count": 30,
+  "output_sentence_count": 35,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 28,
+      "output_start": 0,
+      "output_end": 28,
+      "source_text": "Make the Protector Visible\n\n",
+      "output_text": "Make the Protector Visible\n\n",
+      "word_overlap": 1.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 28,
+      "source_end": 132,
+      "output_start": 28,
+      "output_end": 84,
+      "source_text": "It's two in the morning, your little one is lonely, and the ex who dumped you by text is one text away. ",
+      "output_text": "Protecting your little ones are you setting boundaries? ",
+      "word_overlap": 0.1935483870967742,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 132,
+      "source_end": 365,
+      "output_start": 84,
+      "output_end": 359,
+      "source_text": "The Protector is the one who puts the phone in the other room, and in the morning, \"I'm glad you're here\" is a lot easier for your little one to believe.\n\nMost of the Protector's job is that ordinary, and your little one can see it. ",
+      "output_text": "When the little one feels lonely and wants to text his ex who dumped him via text at 2am in the morning, can he rely on you to put the phone in another room so that in the morning it is easier for him to be able to believe your words that you are glad he is there with you?\n\n",
+      "word_overlap": 0.27522935779816515,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 365,
+      "source_end": 418,
+      "output_start": 359,
+      "output_end": 556,
+      "source_text": "You set one boundary, or say no to something costly. ",
+      "output_text": "Most of the time your actions as a protector are seen by the little one. Every time you set a boundary or say no to something that you know would be bad for the little one, you are building trust. ",
+      "word_overlap": 0.32,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        5,
+        6
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 418,
+      "source_end": 549,
+      "output_start": 556,
+      "output_end": 704,
+      "source_text": "You deal with the bank letters you've been leaving face down, keep one small promise, clean your room. None of it feels like much. ",
+      "output_text": "Dealing with those letters from the bank, keeping a promise, cleaning your room – these things demonstrate your trustworthiness to your little one. ",
+      "word_overlap": 0.2553191489361702,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        7
+      ],
+      "output_sentences": [
+        6,
+        7
+      ],
+      "source_start": 549,
+      "source_end": 711,
+      "output_start": 704,
+      "output_end": 919,
+      "source_text": "But acts like these add up to trust, and soothing with no follow-through sounds to your little one like the same unreliability that hurt them in the first place. ",
+      "output_text": "If you try to soothe your little one but don’t then do what you said you would do, to the little one it feels like the unreliable people from their past. Leaving a degrading relationship is also a protector thing!\n\n",
+      "word_overlap": 0.16901408450704225,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        8,
+        9
+      ],
+      "output_sentences": [
+        8
+      ],
+      "source_start": 711,
+      "source_end": 867,
+      "output_start": 919,
+      "output_end": 977,
+      "source_text": "Leaving a relationship that keeps wearing down your safety belongs on the list too, though it's much bigger than the rest.\n\nThe job has an inside half too. ",
+      "output_text": "Other protecting activities are carried out in your head. ",
+      "word_overlap": 0.05263157894736842,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        10
+      ],
+      "output_sentences": [
+        9,
+        10
+      ],
+      "source_start": 867,
+      "source_end": 1000,
+      "output_start": 977,
+      "output_end": 1201,
+      "source_text": "A surge of fear, rage, craving or shame doesn't get to decide what you say, send, spend or take, or who you sleep with or commit to. ",
+      "output_text": "Stopping yourself from acting on fear, rage, cravings, shame etc in terms of what you say, send, buy, take, do, have sex with, commit to etc. This often involves not acting right away when you feel like you don’t have time. ",
+      "word_overlap": 0.3142857142857143,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        11,
+        12
+      ],
+      "output_sentences": [
+        11
+      ],
+      "source_start": 1000,
+      "source_end": 1165,
+      "output_start": 1201,
+      "output_end": 1251,
+      "source_text": "Often that means waiting while the surge tells you there isn't time. Some of the protecting happens between you and your little one, where nobody else would see it. ",
+      "output_text": "These actions are between you and the little one. ",
+      "word_overlap": 0.2564102564102564,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        13,
+        14
+      ],
+      "output_sentences": [
+        12
+      ],
+      "source_start": 1165,
+      "source_end": 1290,
+      "output_start": 1251,
+      "output_end": 1339,
+      "source_text": "When they get sarcastic, you don't snap back. They don't trust you, and you let them, without pushing them to reassure you.\n\n",
+      "output_text": "Allowing the little one to be sarcastic with you without retaliating is a good example. ",
+      "word_overlap": 0.15384615384615385,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        15
+      ],
+      "output_sentences": [
+        13,
+        14
+      ],
+      "source_start": 1290,
+      "source_end": 1405,
+      "output_start": 1339,
+      "output_end": 1572,
+      "source_text": "Sometimes they complain that you only come around when something's wrong, and they're right, and you tell them so. ",
+      "output_text": "Or letting the little one not to trust you without trying to convince him otherwise.\n\nThe little one may grumble that you only turn up when things are bad but, yes, that is what you do and letting him know that is also a good thing. ",
+      "word_overlap": 0.14925373134328357,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        16,
+        17
+      ],
+      "output_sentences": [
+        15
+      ],
+      "source_start": 1405,
+      "source_end": 1575,
+      "output_start": 1572,
+      "output_end": 1673,
+      "source_text": "After you've called yourself an idiot in an empty kitchen, you go back and apologize to them. Your little one sees these as clearly as a tidy room or a kept appointment. ",
+      "output_text": "Calling yourself an idiot to yourself and then going back to the little one to say sorry is another. ",
+      "word_overlap": 0.2692307692307692,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        18
+      ],
+      "output_sentences": [
+        16,
+        17
+      ],
+      "source_start": 1575,
+      "source_end": 1662,
+      "output_start": 1673,
+      "output_end": 1798,
+      "source_text": "Not retaliating is evidence that you love them, though it doesn't replace loving them. ",
+      "output_text": "All of these things are seen by the little one. Not retaliating shows him that despite what he may believe, you do love him. ",
+      "word_overlap": 0.2564102564102564,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        19
+      ],
+      "output_sentences": [
+        18
+      ],
+      "source_start": 1662,
+      "source_end": 1752,
+      "output_start": 1798,
+      "output_end": 1917,
+      "source_text": "If the Nurturer hasn't shown up yet, the Protector can start the relationship on its own. ",
+      "output_text": "If your nurturer isn’t in the picture yet, you as the protector can start to build a relationship with the little one. ",
+      "word_overlap": 0.4,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        20
+      ],
+      "output_sentences": [
+        19
+      ],
+      "source_start": 1752,
+      "source_end": 1875,
+      "output_start": 1917,
+      "output_end": 1987,
+      "source_text": "At first, care might be a locked door, a meal, a cancelled obligation, and it can be a while before any of it feels warm.\n\n",
+      "output_text": "It may take a while to develop the nurturing side but you can start.\n\n",
+      "word_overlap": 0.15384615384615385,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        21
+      ],
+      "output_sentences": [
+        20,
+        21
+      ],
+      "source_start": 1875,
+      "source_end": 2099,
+      "output_start": 1987,
+      "output_end": 2091,
+      "source_text": "Pick one act and decide when you'll do it, how small the first step can be, and what help it needs, whether that's a friend sitting next to you while you open the bank letters or an hour when nobody needs anything from you. ",
+      "output_text": "Choose one thing to do and work out when you are going to do it. Make it small and easy if you need to. ",
+      "word_overlap": 0.2571428571428571,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        22
+      ],
+      "output_sentences": [
+        22,
+        23
+      ],
+      "source_start": 2099,
+      "source_end": 2181,
+      "output_start": 2091,
+      "output_end": 2190,
+      "source_text": "If there's a hard moment you can see coming, rehearse it for a minute beforehand. ",
+      "output_text": "Work out whether you need any help to do it. Rehearse the difficult bits in your mind before hand. ",
+      "word_overlap": 0.11428571428571428,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        23
+      ],
+      "output_sentences": [
+        24,
+        25
+      ],
+      "source_start": 2181,
+      "source_end": 2319,
+      "output_start": 2190,
+      "output_end": 2359,
+      "source_text": "When you're saying no to someone, the hard part is usually the pause right after, before they answer, when taking it back would be easy.\n\n",
+      "output_text": "If you are saying no to someone, it is often difficult in the pause after you’ve said no but before they have replied.\n\nOnce you have done it, review whether it helped. ",
+      "word_overlap": 0.4067796610169492,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        24,
+        25
+      ],
+      "output_sentences": [
+        26
+      ],
+      "source_start": 2319,
+      "source_end": 2461,
+      "output_start": 2359,
+      "output_end": 2459,
+      "source_text": "Afterward, look at what actually happened. If you did it and felt no relief, that isn't failure, and doing it doesn't prove it helped either. ",
+      "output_text": "If you haven’t experienced any relief it doesn’t mean that it didn’t help or that it was a failure. ",
+      "word_overlap": 0.2857142857142857,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        26
+      ],
+      "output_sentences": [
+        27,
+        28
+      ],
+      "source_start": 2461,
+      "source_end": 2595,
+      "output_start": 2459,
+      "output_end": 2602,
+      "source_text": "Keep the acts that leave you safer, more connected, more capable or enjoying life more, and let go of the ones that only earn a tick. ",
+      "output_text": "Keep doing the things that help you feel more safe, more connected, more able and/or help you enjoy life more. If they don’t, stop doing them. ",
+      "word_overlap": 0.37037037037037035,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        27
+      ],
+      "output_sentences": [
+        29,
+        30
+      ],
+      "source_start": 2595,
+      "source_end": 2655,
+      "output_start": 2602,
+      "output_end": 2674,
+      "source_text": "If you didn't do it, don't decide why before you've looked. ",
+      "output_text": "If you haven’t done what you said you would, work out why. Was it fear? ",
+      "word_overlap": 0.26666666666666666,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        28
+      ],
+      "output_sentences": [
+        31,
+        32
+      ],
+      "source_start": 2655,
+      "source_end": 2810,
+      "output_start": 2674,
+      "output_end": 2759,
+      "source_text": "It could have been fear, or not being sure it was the right goal, or not knowing how, or exhaustion, or the office being closed by the time you got there. ",
+      "output_text": "Or did you decide it wasn’t something you wanted to achieve? Or didn’t you know how? ",
+      "word_overlap": 0.12244897959183673,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        29
+      ],
+      "output_sentences": [
+        33,
+        34
+      ],
+      "source_start": 2810,
+      "source_end": 2851,
+      "output_start": 2759,
+      "output_end": 2802,
+      "source_text": "They all look the same from the outside.\n",
+      "output_text": "Were you too tired? Or the office was shut?",
+      "word_overlap": 0.11764705882352941,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
