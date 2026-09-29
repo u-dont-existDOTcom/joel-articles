@@ -1,0 +1,109 @@
+{
+  "source_sha256": "1bae99ff81bb01fa3db2f569b7f2294947f9c46113a5ea45efc04f37c3cfd6a0",
+  "output_sha256": "426d033605761af4141eca16e0c5830838debc245448cacd8d49717b8f9ea092",
+  "source_sentence_count": 8,
+  "output_sentence_count": 8,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 107,
+      "output_start": 0,
+      "output_end": 142,
+      "source_text": "Sexual exclusivity got much more important once agriculture, property and inheritance entered the picture. ",
+      "output_text": "Monogamy, particularly the sexual aspect of it, has become much more important since agriculture, and the advent of property and inheritance. ",
+      "word_overlap": 0.45714285714285713,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 107,
+      "source_end": 212,
+      "output_start": 142,
+      "output_end": 270,
+      "source_text": "By the Industrial Revolution, the strict version was everywhere, with law and social pressure behind it. ",
+      "output_text": "By the Industrial Revolution it was being universally enforced in some strict form, often through both law and social pressure. ",
+      "word_overlap": 0.5,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 212,
+      "source_end": 366,
+      "output_start": 270,
+      "output_end": 513,
+      "source_text": "Plenty of tribal cultures have been much looser about what could happen outside a primary partnership, including other sexual or emotional relationships. ",
+      "output_text": "Prior to that, there were many tribal cultures that were far more relaxed about allowing sexual and even emotional contact with others outside of the primary partnership. I believe the term \"social monogamy\" has been coined to describe this.\n\n",
+      "word_overlap": 0.19672131147540983,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3,
+        4
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 366,
+      "source_end": 455,
+      "output_start": 513,
+      "output_end": 554,
+      "source_text": "There’s a term for some of that: social monogamy.\n\nI took exclusivity further than that. ",
+      "output_text": "I took this idea to its logical extreme. ",
+      "word_overlap": 0.16666666666666666,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        5,
+        6
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 455,
+      "source_end": 580,
+      "output_start": 554,
+      "output_end": 689,
+      "source_text": "B. wanted to marry me, but I was still attracted to other women, and somehow I decided that meant I shouldn’t marry her yet. ",
+      "output_text": "I told B, when she told me she wanted to marry me, that although I wanted to marry her, I was still sexually attracted to other women. ",
+      "word_overlap": 0.46153846153846156,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        7
+      ],
+      "output_sentences": [
+        6,
+        7
+      ],
+      "source_start": 580,
+      "source_end": 716,
+      "output_start": 689,
+      "output_end": 955,
+      "source_text": "I told her, “It’s not fair of me to commit to you if I’m still attracted to other women, so before I do, let me see if I can fix that.”\n",
+      "output_text": "Thus I felt that it would not be right for me to marry her until I could fix that. My actual words to her were, \"It's not fair of me to commit to you while I am still sexually attracted to other women, so it's necessary for me to work on that before we get married.\"",
+      "word_overlap": 0.43956043956043955,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
