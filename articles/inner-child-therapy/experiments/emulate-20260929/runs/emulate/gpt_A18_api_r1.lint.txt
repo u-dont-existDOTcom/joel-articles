@@ -1,0 +1,17 @@
+== tells_lint: /home/joel/.codex/.chatgpt-projects/g-p-6a5d356ea2bc8191b535f9d0a0b13574/emulate-overnight-work/articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_A18_api_r1.txt
+verdict: FAIL
+  HARD: E41 coach register: 2.0 coach phrases per 100 of my words (limit 2.0)
+metrics: {'words': 148, 'my_words': 148, 'paragraphs': 2, 'coach_per_100': 2.03, 'you_per_100': 7.4, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.47, 'sent_len_cv': 0.45, 'repeated_openers': {}}
+-- B1 finished principle (2)
+   * Even if you do n't have any words coming to mind to express what you feel like saying to him, you can still try to think of a sentence to say to him.
+   * But if this feels like homework, skip it-he may be responding in other ways that you can identify (butterflies, urge to run, recurring images, song lyrics, etc.
+-- B2 contrast (1)
+   * If you do, use those words to say or write something to him, instead of just talking to him in your imagination.
+-- B4/E15 list or packed sentence (1)
+   * But if this feels like homework, skip it-he may be responding in other ways that you can identify (butterflies, urge to run, recurring images, song lyrics, etc.
+-- E36/E41 heavy second person (1)
+   * 7.4 "you" per 100 of my words
+-- E41 coach phrase (3)
+   * Even if you do n't have any words coming to mind to express what you feel like saying to him, you can still try to think of a sentence to say to him.
+   * But if this feels like homework, skip it-he may be responding in other ways that you can identify (butterflies, urge to run, recurring images, song lyrics, etc.
+   * But that does n't matter-you can still use words to help you understand your feelings.
