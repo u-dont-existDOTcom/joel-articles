@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1401-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/3038af0b-99b1-4327-b6d1-ed3d6321adbd",
+  "input_sha256": "ac575bde9d99eda29f6b34996e9b8cc45273225810323e19c06f9a8e5533b55b",
+  "input_words": 230,
+  "before": 33138,
+  "after": 32908,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 406,
+      "sha256": "4a6508edcfd32029055c98c0cd86871d61f53cb1943eb4265b519afdeb8c8edb",
+      "page_sha256": "4a6508edcfd32029055c98c0cd86871d61f53cb1943eb4265b519afdeb8c8edb",
+      "has_list": false,
+      "last": " you are completely oriented and alert. Write down whatever came up for you, and any actions you need to take as a result. Then go about doing something normal."
+    },
+    {
+      "option": "B",
+      "words": 381,
+      "sha256": "ad1f626af9172bfa9c3280f622fafc0fd9011edec9b23cedae29e946dbeb6be0",
+      "page_sha256": "ad1f626af9172bfa9c3280f622fafc0fd9011edec9b23cedae29e946dbeb6be0",
+      "has_list": false,
+      "last": " fact that you were able to count back to one). Take note of anything that came up that you need to do something about, and then proceed to do something normal."
+    }
+  ]
+}

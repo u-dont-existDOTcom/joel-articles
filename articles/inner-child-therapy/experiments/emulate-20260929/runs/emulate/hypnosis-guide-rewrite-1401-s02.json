@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1401-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/e03e23fa-7a37-489d-9cf3-f4b21f8a2f0b",
+  "input_sha256": "b2157be9b1df4c8efeaf649daf05b5aac5e46e7cd0b30e4e5477887433528198",
+  "input_words": 85,
+  "before": 32908,
+  "after": 32823,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 126,
+      "sha256": "719d2683d4d929ca5c79fc3e49676e7cbed532949237895b3cfc686b13544f8f",
+      "page_sha256": "719d2683d4d929ca5c79fc3e49676e7cbed532949237895b3cfc686b13544f8f",
+      "has_list": false,
+      "last": "ced ability to move, or blank, or with an undefined reset word, or even simply suggesting that you might want to stay like this indefinitely is not a good idea."
+    },
+    {
+      "option": "B",
+      "words": 188,
+      "sha256": "fae6585c6bc582f030c44136800599b5f3e7fe29784e7f26a7a6704d87b5c57c",
+      "page_sha256": "fae6585c6bc582f030c44136800599b5f3e7fe29784e7f26a7a6704d87b5c57c",
+      "has_list": false,
+      "last": " judgement, diminished ability to move, blankness, a word that you do not know the meaning of, or any other way that keeps you in an altered state indefinitely."
+    }
+  ]
+}

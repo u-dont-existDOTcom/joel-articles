@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1601-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/df8ba6fa-c04c-44d4-af2e-030be482dc68",
+  "input_sha256": "ddd5c005413431f62766eede85bc91f0fc2c514a136a706cea410a97235d7929",
+  "input_words": 200,
+  "before": 32606,
+  "after": 32406,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 214,
+      "sha256": "e6b1f7be536dfd4278376d36634db42475f48f84698e9a68333a4a34388e7cbe",
+      "page_sha256": "e6b1f7be536dfd4278376d36634db42475f48f84698e9a68333a4a34388e7cbe",
+      "has_list": false,
+      "last": "xt?’ to find out what happens next, but if something like a feeling is developing, maybe stop talking and let it develop. Or maybe not - see what works for you."
+    },
+    {
+      "option": "B",
+      "words": 145,
+      "sha256": "444462bde1536bb21bb763571edf9db03e2133cca86c45209e7ddb23ab89e798",
+      "page_sha256": "444462bde1536bb21bb763571edf9db03e2133cca86c45209e7ddb23ab89e798",
+      "has_list": false,
+      "last": "fer, and in fact, if a feeling is developing and you need to stop using language to understand it, then just say “what happens next?” or something even simpler."
+    }
+  ]
+}

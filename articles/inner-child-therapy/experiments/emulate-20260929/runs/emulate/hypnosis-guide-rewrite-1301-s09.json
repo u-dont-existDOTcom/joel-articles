@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s09",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/d4536fbd-4e40-41e7-a447-dd5c28ceeaea",
+  "input_sha256": "b34030f918b06579e61717a3be8988131ee0862be6ada877e279349acac695bf",
+  "input_words": 208,
+  "before": 33515,
+  "after": 33307,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 331,
+      "sha256": "4346879a56ecb1c2afa79ffedd6136fd257567566007db700e1058945b7f14c4",
+      "page_sha256": "4346879a56ecb1c2afa79ffedd6136fd257567566007db700e1058945b7f14c4",
+      "has_list": false,
+      "last": "n appropriate place to do so. Also program yourself that when you use that word or phrase, you can change what you’re doing in hypnosis or come out of hypnosis."
+    },
+    {
+      "option": "B",
+      "words": 303,
+      "sha256": "2ef846a9d884ab593b14b0d71a27018eac5c1b6dd359862dc78184f2271d4755",
+      "page_sha256": "2ef846a9d884ab593b14b0d71a27018eac5c1b6dd359862dc78184f2271d4755",
+      "has_list": false,
+      "last": "in and that it's appropriate to the situation, then use your key to go back into hypnosis deliberately. When you're ready you can change direction or finish up."
+    }
+  ]
+}

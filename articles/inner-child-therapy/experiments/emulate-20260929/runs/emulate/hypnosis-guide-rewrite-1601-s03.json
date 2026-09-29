@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1601-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/946fdfba-02f4-4ac3-bd97-af2b02e0eae0",
+  "input_sha256": "d623658d92c410317d525f6984bae01bed2c9c73665edd45071c55e3665fc71d",
+  "input_words": 180,
+  "before": 32220,
+  "after": 32040,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 305,
+      "sha256": "d472ff300d5ab0e05a2e2dda523c79270e014f94001c197aefcdec74066ebfeb",
+      "page_sha256": "d472ff300d5ab0e05a2e2dda523c79270e014f94001c197aefcdec74066ebfeb",
+      "has_list": false,
+      "last": "veral times to “prove” that it’s dangerous. Just recognize that it is or isn’t, make a judgment that is specific to that situation, and move forward from there."
+    },
+    {
+      "option": "B",
+      "words": 261,
+      "sha256": "4eb410f960618c286874b729ffc2f987921fea4eed013f4e39daee63285a3df8",
+      "page_sha256": "4eb410f960618c286874b729ffc2f987921fea4eed013f4e39daee63285a3df8",
+      "has_list": false,
+      "last": "based on anything other than specific, updateable criteria for what is and isn't emotionally mature), then it's not necessarily just an internal child reacting."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1601-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/3c21ff6a-1de6-499c-93b0-931ca43efd17",
+  "input_sha256": "22b73cc418a85e47bc5f3a3dbca4e17632c97157ab557a6d49d309efaa84841d",
+  "input_words": 186,
+  "before": 32406,
+  "after": 32220,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 304,
+      "sha256": "9cb392507cbe41e06aa76c3e0497be8601e3b08385021994ffbd0463fa350fa5",
+      "page_sha256": "9cb392507cbe41e06aa76c3e0497be8601e3b08385021994ffbd0463fa350fa5",
+      "has_list": false,
+      "last": "ean it was more right than something you can figure out later. Feelings are fine to feel, but it's also ok to wonder about what they mean, and think about them."
+    },
+    {
+      "option": "B",
+      "words": 217,
+      "sha256": "67e338d34c4c2797efefd734941f493b376a7873b78a2068c6efb5459d544d53",
+      "page_sha256": "67e338d34c4c2797efefd734941f493b376a7873b78a2068c6efb5459d544d53",
+      "has_list": false,
+      "last": "u first had it. Nonverbal messages are not necessarily better than verbal ones just because they may come first. Feelings can be analyzed just as well as facts."
+    }
+  ]
+}

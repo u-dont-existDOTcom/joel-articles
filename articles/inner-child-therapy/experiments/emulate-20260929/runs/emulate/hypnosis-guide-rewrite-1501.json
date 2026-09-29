@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1501",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/7b6efead-86c2-4f61-ad95-fef109b41f14",
+  "input_sha256": "d28aa021baa3876d173b001e91d9bec29278eb81f2c9ec490280860d310fc0f7",
+  "input_words": 217,
+  "before": 32823,
+  "after": 32606,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 305,
+      "sha256": "62c4b1492ac1b30e52e18d1446abe187f1a8cca7cf0dbd3556af6c8cb24f04c5",
+      "page_sha256": "62c4b1492ac1b30e52e18d1446abe187f1a8cca7cf0dbd3556af6c8cb24f04c5",
+      "has_list": false,
+      "last": "mething you need to DO or feel grateful about. It may be that you need to stop. It may be that you’re done for the day. Listen to it all and believe none of it."
+    },
+    {
+      "option": "B",
+      "words": 214,
+      "sha256": "81ee873c15298bad58713b81799b15d54d541d8c86175476b3fd188f51933b7c",
+      "page_sha256": "81ee873c15298bad58713b81799b15d54d541d8c86175476b3fd188f51933b7c",
+      "has_list": false,
+      "last": "ner child, protector, pain, warmth, silence, task, gratitude, urge to stop, or that the practice for the day is over.\n\nListen to it all, and believe none of it."
+    }
+  ]
+}

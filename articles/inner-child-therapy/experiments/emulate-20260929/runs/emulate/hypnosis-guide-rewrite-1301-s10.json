@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1301-s10",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/c9a0547f-e5f8-45f4-9896-d6c5f4470282",
+  "input_sha256": "a94b927f5aef74a0bf25c9df726f077cd9215a6b9a8b41f2a7a124578e4049ee",
+  "input_words": 169,
+  "before": 33307,
+  "after": 33138,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 323,
+      "sha256": "a440831255dc644a8523d70ab973c2497891926ed6c83a252a9f620d2bc44f14",
+      "page_sha256": "a440831255dc644a8523d70ab973c2497891926ed6c83a252a9f620d2bc44f14",
+      "has_list": false,
+      "last": "ake you into a session, at a future time, which you choose separately. When you come back from being under, that altered state of mind has finished for the day."
+    },
+    {
+      "option": "B",
+      "words": 313,
+      "sha256": "6555874f6ddcfcd0a1f44b31ca4003c7b1058cf766ccbe4e7b4dde02d1c3d670",
+      "page_sha256": "6555874f6ddcfcd0a1f44b31ca4003c7b1058cf766ccbe4e7b4dde02d1c3d670",
+      "has_list": false,
+      "last": " are in an altered state of mind at a future date, that will be a separate decision for that time, because when the altered state of mind ends, so does the day."
+    }
+  ]
+}
