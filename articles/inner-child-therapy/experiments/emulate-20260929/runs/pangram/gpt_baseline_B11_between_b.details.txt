@@ -1,0 +1,118 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2137 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: Your little one might tell you that you only show up when something's wrong, and if that's true, the Protector admits it instead of arguing. It doesn't feel like protecting anyone, but your little one notices it as much as they noticed the phone going into the other room. They can take it as love and still be waiting for you to enjoy them.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- button:
+- status
+- alert
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2137 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: Your little one might tell
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 02:06 AM
+  - generic: 67 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: Your little one might tell you that you only show up when something's wrong, and if that's true, the Protector admits it instead of arguing. It doesn't feel like protecting anyone, but your little one notices it as much as they noticed the phone going into the other room. They can take it as love and still be waiting for you to enjoy them.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "AI Confidence level 67 words Your little one might tell you that you only show up when something's wrong, and if that's true, the Protector admits it instead of arguing. It doesn't feel like protecting anyone, but your little one notices it as much as they noticed the phone going into the other room. They can take it as love and still be waiting for you to enjoy them." [level=3]:
+      - button "AI Confidence level 67 words Your little one might tell you that you only show up when something's wrong, and if that's true, the Protector admits it instead of arguing. It doesn't feel like protecting anyone, but your little one notices it as much as they noticed the phone going into the other room. They can take it as love and still be waiting for you to enjoy them.":
+        - generic: AI
+        - generic "Confidence level":
+          - text: low
+        - generic: 67 words
+        - generic: Your little one might tell you that you only show up when something's wrong, and if that's true, the Protector admits it instead of arguing. It doesn't feel like protecting anyone, but your little one notices it as much as they noticed the phone going into the other room. They can take it as love and still be waiting for you to enjoy them.
+    - region "AI Confidence level 67 words Your little one might tell you that you only show up when something's wrong, and if that's true, the Protector admits it instead of arguing. It doesn't feel like protecting anyone, but your little one notices it as much as they noticed the phone going into the other room. They can take it as love and still be waiting for you to enjoy them.":
+      - text: AI
+      - generic: We believe the segment is AI-generated
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
