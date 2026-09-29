@@ -1,0 +1,9 @@
+== tells_lint: /home/joel/.codex/.chatgpt-projects/g-p-6a5d356ea2bc8191b535f9d0a0b13574/emulate-overnight-work/articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_B13_api_r1.txt
+verdict: REVIEW
+metrics: {'words': 65, 'my_words': 65, 'paragraphs': 1, 'coach_per_100': 1.54, 'you_per_100': 13.8, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.4, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (1)
+   * Right now, locking the door, cooking a dinner, and canceling coffee with a draining friend are all you need to do.
+-- E36/E41 heavy second person (1)
+   * 13.8 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * You can always tap into your Nurturer later.
