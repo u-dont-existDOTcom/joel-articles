@@ -3,18 +3,18 @@ import difflib
 import re
 
 MAX_SHARED_WORDS = 10
-POLICY = 'normalized-word-runs-outside-balanced-quotes-v1'
+POLICY = 'normalized-word-runs-exempting-source-verified-quotes-v1'
 WORD = re.compile(r"\w+(?:['’]\w+)*", re.UNICODE)
 
 
-def unquoted_segments(text):
+def quote_spans(text):
     """Exclude balanced speech quotes, retaining a boundary across each exclusion.
 
     Apostrophes inside words do not start/end single-quoted speech. Unbalanced
     quotes exempt nothing; exact names/numbers alone do not bypass this guard.
     """
     pairs = {'"': '"', '“': '”', '‘': '’', "'": "'"}
-    segments, begin, i = [], 0, 0
+    spans, i = [], 0
     while i < len(text):
         opener = text[i]
         if opener not in pairs or (opener in "'‘" and i and text[i-1].isalnum()):
@@ -29,17 +29,27 @@ def unquoted_segments(text):
         if j == len(text):
             i += 1
             continue
-        segments.append(text[begin:i])
-        begin = j + 1
-        i = begin
+        spans.append((i, j+1, text[i+1:j].strip()))
+        i = j+1
+    return spans
+
+
+def unquoted_segments(text, allowed_quotes=None):
+    segments, begin = [], 0
+    for start, stop, quote in quote_spans(text):
+        # A model cannot exempt copied prose by inventing quotation marks.
+        if allowed_quotes is None or quote in allowed_quotes:
+            segments.append(text[begin:start])
+            begin = stop
     segments.append(text[begin:])
     return [[word.casefold() for word in WORD.findall(part)] for part in segments]
 
 
 def longest_unquoted_run(source, candidate):
     best = 0
+    source_quotes = {quote for _, _, quote in quote_spans(source)}
     for left in unquoted_segments(source):
-        for right in unquoted_segments(candidate):
+        for right in unquoted_segments(candidate, source_quotes):
             previous = [0] * (len(right) + 1)
             for word in left:
                 current = [0] * (len(right) + 1)

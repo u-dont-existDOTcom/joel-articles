@@ -1,5 +1,5 @@
 {
-  "policy": "normalized-word-runs-outside-balanced-quotes-v1",
+  "policy": "normalized-word-runs-exempting-source-verified-quotes-v1",
   "baseline_files_sha256": {
     "pairs-audit.jsonl": "52acb3cb9d83714d75c9832c35f16148ae64ef96290d81e730263108309ea052",
     "train-pairs.jsonl": "6b91143ddf681eec6cb9575bff7c425a55ef6bba35c9b94b618ed1aa84a61587",

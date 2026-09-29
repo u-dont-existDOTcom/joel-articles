@@ -21,7 +21,8 @@ class CopyBoundary(unittest.TestCase):
 
     def test_quotes_and_contractions(self):
         for opening, closing in [('"', '"'), ('“', '”'), ("'", "'"), ('‘', '’')]:
-            self.assertEqual(longest_unquoted_run(HUMAN, opening+HUMAN+closing), 0)
+            self.assertEqual(longest_unquoted_run('He said '+opening+HUMAN+closing, opening+HUMAN+closing), 0)
+            self.assertEqual(longest_unquoted_run(HUMAN, opening+HUMAN+closing), 12)
         self.assertEqual(longest_unquoted_run(HUMAN, '"'+HUMAN), 12)
         self.assertEqual(longest_unquoted_run("don't repeat these words", "don't repeat these words"), 4)
         self.assertEqual(longest_unquoted_run(HUMAN, 'one two three four five "quoted" six seven eight nine ten eleven twelve'), 7)
