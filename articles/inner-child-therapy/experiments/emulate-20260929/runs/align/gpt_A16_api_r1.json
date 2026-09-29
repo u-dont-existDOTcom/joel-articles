@@ -1,0 +1,41 @@
+{
+  "source_sha256": "6efb1e59be8b7f9e6864c1f472572cb5b3e5e55dbb4a0b838ff5417a6ce1a8e9",
+  "output_sha256": "a1a82a39aa432b06e6927f0d7f7170b1bd11e3174c2651c30e26d8deaed68d4c",
+  "source_sentence_count": 2,
+  "output_sentence_count": 2,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 99,
+      "output_start": 0,
+      "output_end": 101,
+      "source_text": "When the adult stance isn’t available, outside regulation or co-regulation may have to come first. ",
+      "output_text": "If you can't get yourself into that adult stance, then you will need to use some outside regulation. ",
+      "word_overlap": 0.2222222222222222,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 99,
+      "source_end": 252,
+      "output_start": 101,
+      "output_end": 250,
+      "source_text": "That might mean a therapist, friend, support person, crisis line, group, or simply another safe adult presence helping with part of the job for a while.\n",
+      "output_text": "This might require some co-regulation with another - whether that's a therapist, a trusted friend, a support person, a crisis line, a group or other.",
+      "word_overlap": 0.38461538461538464,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
