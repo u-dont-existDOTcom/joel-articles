@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "gpt/emulate-overnight-20260929",
+  "integration_branch": "handoff/claude-dangerous-adult-20260924-1631",
+  "integration_base_sha": "c20fb7d8516e162f988ef24c2f0b31a14538eca8",
+  "scope": "Owner-authorized Emulate/Pangram overnight experiment; candidates only; no authority promotion or merge"
+}
