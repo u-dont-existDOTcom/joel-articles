@@ -1,0 +1,118 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2130 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: You've told your little one they matter maybe a dozen times this month, usually in the shower, and then paid your roommate's half of the internet bill again. The Protector they end up trusting, though, is mostly the one who finally brings it up, even if the kitchen's a bit chilly for a week. Sometimes it's as big as leaving someone you aren't safe with.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- button:
+- status
+- alert
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2130 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: You've told your little one
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 02:13 AM
+  - generic: 70 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: You've told your little one they matter maybe a dozen times this month, usually in the shower, and then paid your roommate's half of the internet bill again. The Protector they end up trusting, though, is mostly the one who finally brings it up, even if the kitchen's a bit chilly for a week. Sometimes it's as big as leaving someone you aren't safe with.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "AI Confidence level 70 words You've told your little one they matter maybe a dozen times this month, usually in the shower, and then paid your roommate's half of the internet bill again. The Protector they end up trusting, though, is mostly the one who finally brings it up, even if the kitchen's a bit chilly for a week. Sometimes it's as big as leaving someone you aren't safe with." [level=3]:
+      - button "AI Confidence level 70 words You've told your little one they matter maybe a dozen times this month, usually in the shower, and then paid your roommate's half of the internet bill again. The Protector they end up trusting, though, is mostly the one who finally brings it up, even if the kitchen's a bit chilly for a week. Sometimes it's as big as leaving someone you aren't safe with.":
+        - generic: AI
+        - generic "Confidence level":
+          - text: low
+        - generic: 70 words
+        - generic: You've told your little one they matter maybe a dozen times this month, usually in the shower, and then paid your roommate's half of the internet bill again. The Protector they end up trusting, though, is mostly the one who finally brings it up, even if the kitchen's a bit chilly for a week. Sometimes it's as big as leaving someone you aren't safe with.
+    - region "AI Confidence level 70 words You've told your little one they matter maybe a dozen times this month, usually in the shower, and then paid your roommate's half of the internet bill again. The Protector they end up trusting, though, is mostly the one who finally brings it up, even if the kitchen's a bit chilly for a week. Sometimes it's as big as leaving someone you aren't safe with.":
+      - text: AI
+      - generic: We believe the segment is AI-generated
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
