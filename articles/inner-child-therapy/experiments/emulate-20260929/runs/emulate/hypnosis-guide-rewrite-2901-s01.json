@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2901-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/da6411e5-7c8e-4b2c-8967-06745cce8831",
+  "input_sha256": "69fb12da0764878a7eccea051c2d16e345716eaca3190e21b4deca3b33243508",
+  "input_words": 215,
+  "before": 24227,
+  "after": 24012,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 244,
+      "sha256": "dc298b8d621ad27a960939ffc3c4331a27bd8217805aed6c4807b00d049296c6",
+      "page_sha256": "dc298b8d621ad27a960939ffc3c4331a27bd8217805aed6c4807b00d049296c6",
+      "has_list": false,
+      "last": "ou from loving, grounding yourself, being truthful, sleeping, communicating with others or performing normal daily activities, it is time to stop and integrate."
+    },
+    {
+      "option": "B",
+      "words": 332,
+      "sha256": "a6f95d44c8eda6e9e3f56af3188fe16ce0fbe03701da6df1d3b3ed6d5dab964f",
+      "page_sha256": "a6f95d44c8eda6e9e3f56af3188fe16ce0fbe03701da6df1d3b3ed6d5dab964f",
+      "has_list": false,
+      "last": "ou less grounded. Make you less honest. Make you need less sleep. Make you less able to communicate. Make you less able to fulfill your normal responsibilities."
+    }
+  ]
+}

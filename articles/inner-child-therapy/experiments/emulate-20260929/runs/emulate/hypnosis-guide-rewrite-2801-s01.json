@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2801-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/64ed58a8-83b0-4f08-9b46-1ceec6993f12",
+  "input_sha256": "018978aec1caf8cd3c2c4683ee5c437f16b6e51a37fee1da1a93ddb0620c936a",
+  "input_words": 198,
+  "before": 24995,
+  "after": 24797,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 383,
+      "sha256": "fa0beeac12bb65e7f2cced7e076253e137d3639a46d16ead02cf53b7a4fa92a7",
+      "page_sha256": "fa0beeac12bb65e7f2cced7e076253e137d3639a46d16ead02cf53b7a4fa92a7",
+      "has_list": false,
+      "last": "kay if things don’t go as planned, if you aren’t sure what came up for you, and how they will make sure that you come all the way out at the end of the session."
+    },
+    {
+      "option": "B",
+      "words": 272,
+      "sha256": "d1035bfd1aa4e629441e65022954f5971d17849908c497d8efe1ea17cb6d3702",
+      "page_sha256": "d1035bfd1aa4e629441e65022954f5971d17849908c497d8efe1ea17cb6d3702",
+      "has_list": false,
+      "last": "that might come up for you. Even if they use very firm encouragement to carry on with what they need to do, they should always stop if you say you want them to."
+    }
+  ]
+}

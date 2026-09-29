@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2801-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/0db16e3b-a4ca-47b4-982f-c5bfa18cd84c",
+  "input_sha256": "554f027eebc976cc0748466ce9866689d24aef9d7a40414da5c04c1d8031c7bd",
+  "input_words": 213,
+  "before": 24797,
+  "after": 24584,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 202,
+      "sha256": "05369c6ed462e67db2f4503b8d263408689a5c730669bfbde05a3570615ab2d4",
+      "page_sha256": "05369c6ed462e67db2f4503b8d263408689a5c730669bfbde05a3570615ab2d4",
+      "has_list": false,
+      "last": "the more council.\n\nCouncil someone who loves you, someone who is like you, or someone who has done it. It's ok to do it alone, but that should be the last step."
+    },
+    {
+      "option": "B",
+      "words": 236,
+      "sha256": "6a90db94a3a288b1e6b904609bc12a9fd56ce9fd0f97f9d530b77a5c2d0e9b57",
+      "page_sha256": "6a90db94a3a288b1e6b904609bc12a9fd56ce9fd0f97f9d530b77a5c2d0e9b57",
+      "has_list": true,
+      "last": "who have already traveled the path you are considering. Even if you are meant to travel it alone I would make that the last step after you have consulted others"
+    }
+  ]
+}

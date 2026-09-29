@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2601-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/50bbe3b1-71e2-47bc-b682-a896191442a7",
+  "input_sha256": "cc8bb6fbe3cbe5d420a3bd13d18b3ef9a2653e7f6a62f0eb11ad6f520ddc5b47",
+  "input_words": 197,
+  "before": 25615,
+  "after": 25418,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 190,
+      "sha256": "c71f59f1adee14f0822f251adefcaa7e269fc5f3bc3d5c5d26d3157ed0749824",
+      "page_sha256": "c71f59f1adee14f0822f251adefcaa7e269fc5f3bc3d5c5d26d3157ed0749824",
+      "has_list": false,
+      "last": "d the felt sense like me to know?”\n\nTry out a word or phrase. Does it fit with the felt sense? Then examine the situation logically. Both can correct the other."
+    },
+    {
+      "option": "B",
+      "words": 236,
+      "sha256": "7e211633990a98e12a368026ce6969975c153cb6ae6668e2ca5b6127ae75c094",
+      "page_sha256": "7e211633990a98e12a368026ce6969975c153cb6ae6668e2ca5b6127ae75c094",
+      "has_list": false,
+      "last": " the felt sense. Then be careful and examine whether that word or phrase is actually true about the situation. The idea is that both can help correct the other."
+    }
+  ]
+}

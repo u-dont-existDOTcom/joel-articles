@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2701",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/01994c2e-e448-4e53-942c-ffede1a43885",
+  "input_sha256": "3b13d56a4050dc0cd49adad821a19274b8ac58445ed5bb5ea0f026036826f987",
+  "input_words": 205,
+  "before": 25200,
+  "after": 24995,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 203,
+      "sha256": "a0ec3c9f5af8db35ba41370b7e7bde52a273b1a26848f4f2554b82ff1527238a",
+      "page_sha256": "a0ec3c9f5af8db35ba41370b7e7bde52a273b1a26848f4f2554b82ff1527238a",
+      "has_list": false,
+      "last": " being creative, apologising, leaving, telling the truth, planning, asking for help, getting on with what you need to get on with, or pursuing unavailable love."
+    },
+    {
+      "option": "B",
+      "words": 289,
+      "sha256": "a4c6e6e655f512f559d98b63efd8b0dc254a7d899dc793aca6c28e2b4cd53276",
+      "page_sha256": "a4c6e6e655f512f559d98b63efd8b0dc254a7d899dc793aca6c28e2b4cd53276",
+      "has_list": false,
+      "last": "h grief, create, apologize, leave a situation, tell the truth, make a plan, ask for help, get back to work or stop chasing people who aren’t available for love."
+    }
+  ]
+}

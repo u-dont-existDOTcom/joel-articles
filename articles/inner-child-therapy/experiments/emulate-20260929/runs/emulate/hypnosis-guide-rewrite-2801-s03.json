@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2801-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/a9461ab0-28ed-4859-bd16-8c503eebc860",
+  "input_sha256": "6559cb17d1334fa9cc7a66319264767be2e4b1cc956430344d9540ace75c8f75",
+  "input_words": 217,
+  "before": 24584,
+  "after": 24367,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 308,
+      "sha256": "5e2328277bda381c71ef9977900b6f0fb9eac192f723e5b4f841f5b5cb5c30f5",
+      "page_sha256": "5e2328277bda381c71ef9977900b6f0fb9eac192f723e5b4f841f5b5cb5c30f5",
+      "has_list": false,
+      "last": "ge the situation so that a different move will be made in the future. Understanding the other person’s limitations, I can be realistic about what I can expect…."
+    },
+    {
+      "option": "B",
+      "words": 304,
+      "sha256": "eba74412ef350f4f309791ca2316f6737082e7c9b102f16076ac011d3899d799",
+      "page_sha256": "eba74412ef350f4f309791ca2316f6737082e7c9b102f16076ac011d3899d799",
+      "has_list": false,
+      "last": " the consequences of their actions, and to develop the ability to make a different move. But it helps you not to expect more from them than they are capable of."
+    }
+  ]
+}

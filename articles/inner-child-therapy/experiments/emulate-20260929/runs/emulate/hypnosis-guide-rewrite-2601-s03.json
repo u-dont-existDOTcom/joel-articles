@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2601-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/438193ba-d81e-4ca2-9e2c-c71acf77db64",
+  "input_sha256": "0127ee70906376b0cbf3236726a0b733edef4a61db5b93b2e2a6df4e3d25ee82",
+  "input_words": 218,
+  "before": 25418,
+  "after": 25200,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 255,
+      "sha256": "3f5aa0d673f3030162e2dc56ac529f107efbf3965f6f751b370aa3945815b6d0",
+      "page_sha256": "3f5aa0d673f3030162e2dc56ac529f107efbf3965f6f751b370aa3945815b6d0",
+      "has_list": false,
+      "last": " help me calm down.\n\nI won’t abandon you, I won’t worship you. I’ll listen to you, I’ll reality test what you’re telling me, and I’ll do what needs to be done.”"
+    },
+    {
+      "option": "B",
+      "words": 243,
+      "sha256": "442df4736c4bab5607a0e6585071a3d167b108cef8f25d75fe744e3817833e28",
+      "page_sha256": "442df4736c4bab5607a0e6585071a3d167b108cef8f25d75fe744e3817833e28",
+      "has_list": false,
+      "last": "me to do, tell me what the first step is. If there isn’t, help me stand down.\n\nI will not ignore you. I will listen, reality test, and do what needs to be done."
+    }
+  ]
+}

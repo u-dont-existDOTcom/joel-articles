@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2801-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/b4a63243-e8a3-4ff9-9998-eac122b26f2b",
+  "input_sha256": "85746b605458d8f6b00c9f8aa9b1e3834a09e6ad22ada61e3485ed2fb329cc55",
+  "input_words": 140,
+  "before": 24367,
+  "after": 24227,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 141,
+      "sha256": "e997c1e14861e1138411dd228ab1feeb07902c87278772e957831d6bf74f55e1",
+      "page_sha256": "e997c1e14861e1138411dd228ab1feeb07902c87278772e957831d6bf74f55e1",
+      "has_list": false,
+      "last": "rt, feel the remorse, do what you can to rectify the situation or make sure it won’t happen again, and release yourself. Responsible. Remorse. Rectify. Release."
+    },
+    {
+      "option": "B",
+      "words": 189,
+      "sha256": "7e0aba4890bd2e6acb0278a6334fef91bdf04761d5b7968a105c61a32273a332",
+      "page_sha256": "7e0aba4890bd2e6acb0278a6334fef91bdf04761d5b7968a105c61a32273a332",
+      "has_list": false,
+      "last": "ke it not happen again, there is no reason to hold yourself hostage to your action any longer. Remember the 4 R’s: Responsibility, Remorse, Rectify and Release."
+    }
+  ]
+}
