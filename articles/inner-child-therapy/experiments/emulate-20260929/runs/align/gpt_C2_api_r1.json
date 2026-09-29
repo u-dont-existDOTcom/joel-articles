@@ -1,0 +1,157 @@
+{
+  "source_sha256": "bbe656b5a883fca5451b690dfb3de44f7270772f1c34212a48b9370224d7ff89",
+  "output_sha256": "9f61fb674190fe084224ea13e1d7e1b92f40fb86048773d32b4a207e4bacfa2b",
+  "source_sentence_count": 9,
+  "output_sentence_count": 13,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 21,
+      "output_start": 0,
+      "output_end": 62,
+      "source_text": "So set one boundary. ",
+      "output_text": "Do ONE thing you said you were going to do. Set ONE boundary. ",
+      "word_overlap": 0.35294117647058826,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 21,
+      "source_end": 64,
+      "output_start": 62,
+      "output_end": 104,
+      "source_text": "\"What's a 'boundary'?\", I might be asking. ",
+      "output_text": "(If you’re saying, “What’s a ‘boundary’?” ",
+      "word_overlap": 0.5,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 64,
+      "source_end": 162,
+      "output_start": 104,
+      "output_end": 235,
+      "source_text": "That looks like saying no to something that's costing you too much (money, time, whatever it is). ",
+      "output_text": "at this point, we may not have much further to go. It’s basically saying no to something that is costing you, be it money or time. ",
+      "word_overlap": 0.4,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 162,
+      "source_end": 198,
+      "output_start": 235,
+      "output_end": 262,
+      "source_text": "Throw the moldy bread in the trash. ",
+      "output_text": "Throw out the moldy bread. ",
+      "word_overlap": 0.6666666666666666,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        6
+      ],
+      "source_start": 198,
+      "source_end": 329,
+      "output_start": 262,
+      "output_end": 407,
+      "source_text": "Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. ",
+      "output_text": "Do the thing you’ve been putting off, even if it’s just opening the envelope from the tax man or the state of Maryland about your multiple duis. ",
+      "word_overlap": 0.39285714285714285,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        5
+      ],
+      "output_sentences": [
+        7
+      ],
+      "source_start": 329,
+      "source_end": 372,
+      "output_start": 407,
+      "output_end": 453,
+      "source_text": "Keep one small promise to your little one. ",
+      "output_text": "Keep the promise you made to your little one. ",
+      "word_overlap": 0.7058823529411765,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6
+      ],
+      "output_sentences": [
+        8
+      ],
+      "source_start": 372,
+      "source_end": 389,
+      "output_start": 453,
+      "output_end": 470,
+      "source_text": "Clean your room! ",
+      "output_text": "Clean your room! ",
+      "word_overlap": 1.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        7
+      ],
+      "output_sentences": [
+        9,
+        10
+      ],
+      "source_start": 389,
+      "source_end": 492,
+      "output_start": 470,
+      "output_end": 589,
+      "source_text": "And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. ",
+      "output_text": "Leave the relationship that’s making you feel unsafe. I realize this is a bit of a stretch, but it’s really important. ",
+      "word_overlap": 0.18181818181818182,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        8
+      ],
+      "output_sentences": [
+        11,
+        12
+      ],
+      "source_start": 492,
+      "source_end": 619,
+      "output_start": 589,
+      "output_end": 713,
+      "source_text": "Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you.\n",
+      "output_text": "Your little one has had more than enough people saying one thing and doing another. This is how you get them to believe you.",
+      "word_overlap": 0.5306122448979592,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_C2_api_r1",
+  "input_file": "inputs/learning/C_controls/C2_joel_p1_HUMAN_JOELS_OWN_WRITING.txt",
+  "input_words": 117,
+  "input_sha256": "bbe656b5a883fca5451b690dfb3de44f7270772f1c34212a48b9370224d7ff89",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:29:14.303605+00:00",
+  "status": "completed",
+  "balance_before": 55567,
+  "provider_id": "70ca1a72-eaef-4f66-962b-2fe679c81fb1",
+  "words_charged": 117
+}
