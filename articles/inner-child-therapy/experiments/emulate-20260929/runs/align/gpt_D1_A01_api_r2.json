@@ -1,0 +1,59 @@
+{
+  "source_sha256": "fcd55d537346353d18f9495e9186eaeda6773210978cc8b3309e02cbc05ed4ef",
+  "output_sha256": "02b8a1927597a1ace519f84be298f9b77e52e54af116d019b6f7edccb92c1bdf",
+  "source_sentence_count": 4,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 62,
+      "output_start": 0,
+      "output_end": 86,
+      "source_text": "Céline’s song is called *On ne change pas*—“we don’t change.” ",
+      "output_text": "There is a song by Celine called On ne change pas; we don’t change. We don’t, really. ",
+      "word_overlap": 0.625,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 62,
+      "source_end": 136,
+      "output_start": 86,
+      "output_end": 142,
+      "source_text": "I think that’s basically true. You grow up, but the child is still there. ",
+      "output_text": "We grow up, sure, but we never leave that child inside. ",
+      "word_overlap": 0.3076923076923077,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 136,
+      "source_end": 277,
+      "output_start": 142,
+      "output_end": 325,
+      "source_text": "Sometimes adult life hits the exact place where you still feel small, abandoned, helpless, impulsive, frightened, or desperate to be chosen.\n",
+      "output_text": "More often than not, something in our grown up life will trigger us right back to that place of smallness, abandonment, helplessness, impulsiveness, fear and desperation to be chosen.",
+      "word_overlap": 0.2,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
