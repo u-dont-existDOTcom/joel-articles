@@ -1,0 +1,93 @@
+{
+  "source_sha256": "1cdb5871a347f5bba1b38a34b7e9fd23cbdbb5d67af8c2f91eb262ad3ae7a16e",
+  "output_sha256": "4d97077e62a078aa79df1c86f7c5e529f91f1ef0a60110d39790d47a220b99cb",
+  "source_sentence_count": 8,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 87,
+      "output_start": 0,
+      "output_end": 64,
+      "source_text": "For protecting, ask what a minimally competent adult would do in the next ten minutes. ",
+      "output_text": "What would a Minimally Competent Adult do to take care of that? ",
+      "word_overlap": 0.4444444444444444,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 87,
+      "source_end": 210,
+      "output_start": 64,
+      "output_end": 124,
+      "source_text": "Usually it's something basic, like eating or going to bed. If you're about to send an angry text, maybe don't send it yet. ",
+      "output_text": "It’s usually something really simple like eat or go to bed. ",
+      "word_overlap": 0.3684210526315789,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 210,
+      "source_end": 279,
+      "output_start": 124,
+      "output_end": 295,
+      "source_text": "If the room itself isn't safe, leave, or lock the door and get help. ",
+      "output_text": "Sometimes it’s something like, “Don’t send that text.” If the place you’re in is not safe, sometimes you need to leave the place you’re in, or lock the door and get help. ",
+      "word_overlap": 0.43137254901960786,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4,
+        5
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 279,
+      "source_end": 358,
+      "output_start": 295,
+      "output_end": 359,
+      "source_text": "You may still feel completely like the child while you're doing it. That's ok. ",
+      "output_text": "Even if you feel like a child as you are doing this, that’s ok. ",
+      "word_overlap": 0.5806451612903226,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6,
+        7
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 358,
+      "source_end": 444,
+      "output_start": 359,
+      "output_end": 479,
+      "source_text": "Afterward, you can tell your little one, \"I did that for us. That was the Protector.\"\n",
+      "output_text": "You can explain to the little one afterwords that you had to do this for them, and that this is what the Protector does.",
+      "word_overlap": 0.45,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
