@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0101-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/679660fa-4180-4a43-ae65-e03f00421327",
+  "input_sha256": "9f97529b112488b92a474487ea8b0475d96ab9658f29e50a8f7891c201978e35",
+  "input_words": 214,
+  "before": 40563,
+  "after": 40349,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 254,
+      "sha256": "a3e3bac4969e08e134c84ca4d6a8dd4ee27f779a7a7beb57e50de29724d495d2",
+      "page_sha256": "a3e3bac4969e08e134c84ca4d6a8dd4ee27f779a7a7beb57e50de29724d495d2",
+      "has_list": false,
+      "last": "er down in their mind. And what if I told you that it's possible to communicate with the child in you, the guard, the body, the intuition, the fantasy and more?"
+    },
+    {
+      "option": "B",
+      "words": 270,
+      "sha256": "11f7d5f690fb01d4d2f6094bb014ce58122a8fdb9f90b7772facf3cdb7de17a2",
+      "page_sha256": "11f7d5f690fb01d4d2f6094bb014ce58122a8fdb9f90b7772facf3cdb7de17a2",
+      "has_list": false,
+      "last": "ms and all these different parts of us weren’t communicating - our childlike self, our guard dog, our intellect, our body, our intuition, our fantasy life, etc."
+    }
+  ]
+}

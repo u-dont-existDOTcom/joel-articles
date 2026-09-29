@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0201-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/4a82838a-c9ea-453e-9c66-b2df3e30dcad",
+  "input_sha256": "4c056e5c863d7361e914d602a5d9d9a1296ecdbc5dbcc3d23dd645c6cead3a4c",
+  "input_words": 171,
+  "before": 40111,
+  "after": 39940,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 195,
+      "sha256": "10e1d44ec73e789c64695bb918ef74f3bb578d3fd46925f695825261ef93db13",
+      "page_sha256": "10e1d44ec73e789c64695bb918ef74f3bb578d3fd46925f695825261ef93db13",
+      "has_list": false,
+      "last": "like you can’t function, you should probably return (and get whatever support is appropriate). This is different from choosing to stay with a difficult feeling."
+    },
+    {
+      "option": "B",
+      "words": 247,
+      "sha256": "b90114258ef20cefa4b247b626692f608382fd6b7ecc0ee0d7f04a06f66e65ba",
+      "page_sha256": "b90114258ef20cefa4b247b626692f608382fd6b7ecc0ee0d7f04a06f66e65ba",
+      "has_list": false,
+      "last": "self back out to the room and whatever else is appropriate. This is different from feeling bad if you chose to experience something that you know will feel bad."
+    }
+  ]
+}

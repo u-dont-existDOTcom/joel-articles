@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-0101-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/2bf3cc2a-0d38-40ce-9da0-02901aba7c34",
+  "input_sha256": "11b60c319b0ec15fd63f912e98a0f2212059c4d81990d0326264a7f61f74e047",
+  "input_words": 88,
+  "before": 40199,
+  "after": 40111,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 77,
+      "sha256": "4c57e47f7e3ecc1b06783113bcfbf180767e4e0154a658686435e08fb61d4365",
+      "page_sha256": "4c57e47f7e3ecc1b06783113bcfbf180767e4e0154a658686435e08fb61d4365",
+      "has_list": false,
+      "last": "arts if needed. I am also influenced by prompt engineering techniques and teaching influence literacy, as there are many things in life that are hypnotizing us."
+    },
+    {
+      "option": "B",
+      "words": 64,
+      "sha256": "56b196a84921489b546abfd90b5270e5996ecde88f314bcadf02581079a7e0bd",
+      "page_sha256": "56b196a84921489b546abfd90b5270e5996ecde88f314bcadf02581079a7e0bd",
+      "has_list": false,
+      "last": "d an approach somewhat like prompt engineering. It’s also useful to be literate in how influence works, as there is more to being hypnotized than just hypnosis."
+    }
+  ]
+}
