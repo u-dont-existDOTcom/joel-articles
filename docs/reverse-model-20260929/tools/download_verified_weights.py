@@ -58,9 +58,16 @@ def run(args):
         if item in weights:
             continue
         path=Path(hf_hub_download(model_id,item.rfilename,revision=revision,token=False))
-        raw=path.read_bytes();oid=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
-        assert oid==item.blob_id, f'Metadata bytes do not match pinned Git oid: {item.rfilename}'
-        manifest['files'].append({'filename':item.rfilename,'bytes':len(raw),'git_blob_oid':oid,'verified':True})
+        raw=path.read_bytes()
+        if item.lfs:
+            oid=hashlib.sha256(raw).hexdigest()
+            expected=item.lfs.sha256 if hasattr(item.lfs,'sha256') else item.lfs['sha256']
+            kind='LFS SHA-256'
+        else:
+            oid=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+            expected=item.blob_id;kind='Git blob SHA-1'
+        assert oid==expected, f'Metadata bytes do not match pinned oid: {item.rfilename}'
+        manifest['files'].append({'filename':item.rfilename,'bytes':len(raw),'oid':oid,'verification':kind,'verified':True})
         save()
     missing=sum(item.size for item in weights if not (snapshot/item.rfilename).exists())
     assert shutil.disk_usage(root).free>missing+10*1024**3, 'Insufficient disk for missing weights plus working margin'
