@@ -1,0 +1,142 @@
+{
+  "source_sha256": "7141b224538500d79daccbaf129f72e848034e498f011b61c1cd3e959508435f",
+  "output_sha256": "1f11cdeeb1ee35a897279700f75a681b80f964f4a4ef2f2be46c95de72ea5eac",
+  "source_sentence_count": 14,
+  "output_sentence_count": 8,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 134,
+      "output_start": 0,
+      "output_end": 96,
+      "source_text": "You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. ",
+      "output_text": "Sometimes we may notice when we’ve been hooked, before we know what part of us has been hooked. ",
+      "word_overlap": 0.22727272727272727,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 134,
+      "source_end": 328,
+      "output_start": 96,
+      "output_end": 306,
+      "source_text": "The jaw is already tight, the stomach is already involved, half the text is written—and then you remember you're supposed to be observing yourself. Maybe forget the detective work for a minute. ",
+      "output_text": "Sometimes it may be a bit later, perhaps after we’ve noticed the tightening in our jaw or the getting involved of our stomach and the writing of half of the text message we really, really shouldn’t be sending. ",
+      "word_overlap": 0.21621621621621623,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4,
+        5
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 328,
+      "source_end": 390,
+      "output_start": 306,
+      "output_end": 429,
+      "source_text": "Child, protector, old wound... you can figure that out later. ",
+      "output_text": "In which case it may be a good idea to forget about finding out who’s hooked for the moment – Child, Protector, past hurt. ",
+      "word_overlap": 0.11764705882352941,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 390,
+      "source_end": 548,
+      "output_start": 429,
+      "output_end": 619,
+      "source_text": "Sometimes the hand is already going toward a drink, or you've vanished into scrolling, or you're halfway through deciding what the entire relationship means. ",
+      "output_text": "Our hand may already be reaching for a glass of wine or turning to our phones or forming an opinion about our relationship. Pema Chodron has a great word for this tightening/urge – shenpa.\n\n",
+      "word_overlap": 0.2,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        7,
+        8
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 548,
+      "source_end": 695,
+      "output_start": 619,
+      "output_end": 665,
+      "source_text": "Pema Chödrön calls this tightening and urge before the story has finished forming *shenpa*.\n\nWhen you catch it, look around and say you're hooked. ",
+      "output_text": "So, let’s just notice that we’ve been hooked. ",
+      "word_overlap": 0.05714285714285714,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        9,
+        10
+      ],
+      "output_sentences": [
+        6
+      ],
+      "source_start": 695,
+      "source_end": 836,
+      "output_start": 665,
+      "output_end": 784,
+      "source_text": "If nobody is in danger, take a breath or three before you finish the thing you were doing. You do not need those breaths to settle the case. ",
+      "output_text": "If we can take a breath or two (or three) and finish what we were doing (assuming no-one is in danger) all the better. ",
+      "word_overlap": 0.37735849056603776,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        11,
+        12
+      ],
+      "output_sentences": [
+        7
+      ],
+      "source_start": 836,
+      "source_end": 952,
+      "output_start": 784,
+      "output_end": 998,
+      "source_text": "Maybe there's enough adult around to be nice to the kid for a second. Or enough Protector to stop something stupid. ",
+      "output_text": "If we don’t manage to take the breaths to settle down, we may at least have time to summon enough Adult to be nice to the Child, or Protector to stop us doing something stupid, or simply say to ourselves ‘not yet’.",
+      "word_overlap": 0.4,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        13
+      ],
+      "output_sentences": [],
+      "source_start": 952,
+      "source_end": 1068,
+      "output_start": 998,
+      "output_end": 998,
+      "source_text": "Or maybe all you've got is “not yet,” which is still more useful than sending the message from inside the reaction.\n",
+      "output_text": "",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
