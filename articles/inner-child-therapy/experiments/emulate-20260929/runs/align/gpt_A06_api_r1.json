@@ -1,0 +1,60 @@
+{
+  "source_sha256": "d7a58ef3784dc8ccd2169a952baec351183d3bdd2512120e9535a7ce9e5f8c87",
+  "output_sha256": "ceddea1ecaac757d269986122a922b8586e406ef94600027166e32b5f0cc0bcf",
+  "source_sentence_count": 4,
+  "output_sentence_count": 5,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 197,
+      "output_start": 0,
+      "output_end": 172,
+      "source_text": "Sometimes \"I love you\" is more than you can honestly say, especially to somebody who's treated you badly, and even the usual loving-kindness line, \"May you be happy,\" can feel like rewarding them. ",
+      "output_text": "Sometimes “I love you” is too much, especially if someone has treated you badly. Even “May you be happy” might feel like you are rewarding that person for their behaviour. ",
+      "word_overlap": 0.5230769230769231,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 197,
+      "source_end": 356,
+      "output_start": 172,
+      "output_end": 238,
+      "source_text": "**\"May you be loving, peaceful, and free\"** might be easier to mean. If they were any of those things, they probably wouldn't have done it in the first place. ",
+      "output_text": "In that case, can you say “May you be loving, peaceful and free?” ",
+      "word_overlap": 0.32558139534883723,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 356,
+      "source_end": 415,
+      "output_start": 238,
+      "output_end": 370,
+      "source_text": "And it doesn't mean they get to come back over for coffee.\n",
+      "output_text": "If they were, after all, they wouldn’t have done what they did. (That’s not to say you have to let them back in for coffee, though.)",
+      "word_overlap": 0.2926829268292683,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
