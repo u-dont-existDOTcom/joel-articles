@@ -1,0 +1,42 @@
+{
+  "source_sha256": "30d85aecc2c379984175cc4549c9cd9591263c2a2766075fa96f4c32b7f22a71",
+  "output_sha256": "0f4372a2e43546a3a698caaf2b24b074390361d54713cf9aea1f8858b6a665d6",
+  "source_sentence_count": 3,
+  "output_sentence_count": 2,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 113,
+      "output_start": 0,
+      "output_end": 159,
+      "source_text": "That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. ",
+      "output_text": "These aren't three other people that come in and out of your life, it's you, you are doing all three jobs and you do them in rotation to keep things balanced. ",
+      "word_overlap": 0.21818181818181817,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 113,
+      "source_end": 313,
+      "output_start": 159,
+      "output_end": 388,
+      "source_text": "Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom.\n",
+      "output_text": "So when your child is over-excited at a party the Protector in you takes you both home, but the Nurturer in you says to the child on the way home that he did really well even though he hid in the bathroom for most of the evening.",
+      "word_overlap": 0.38636363636363635,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
