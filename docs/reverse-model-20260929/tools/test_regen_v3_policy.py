@@ -1,5 +1,5 @@
 import unittest
-from regen_v3_policy import copy_guard, parse_chinese_notes, qualified_keep
+from regen_v3_policy import copy_guard, parse_chinese_notes, parse_slots_notes, qualified_keep
 
 
 class RegenerationV3PolicyTest(unittest.TestCase):
@@ -32,6 +32,14 @@ class RegenerationV3PolicyTest(unittest.TestCase):
                              '- The artist went to Paris.', ['Paris'])
         self.assertFalse(checked['passed'])
         self.assertTrue(checked['draft_has_list_markers'])
+
+    def test_atomic_slots_parse_and_reject_long_fields(self):
+        raw = '{"FORM":"first-person letter","KEEP":["Rochester"],"FACTS":[{"subject":"the writer","relation":"worries about","object":"two friends","qualifier":"perhaps this week","negated":false}]}'
+        parsed, issue = parse_slots_notes(raw)
+        self.assertIsNone(issue)
+        self.assertIn('| the writer | worries about | two friends |', parsed['notes'])
+        bad = raw.replace('perhaps this week', 'perhaps this week and next month')
+        self.assertEqual(parse_slots_notes(bad)[1], 'slots_invalid_qualifier_0')
 
 
 if __name__ == '__main__':

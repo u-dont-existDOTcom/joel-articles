@@ -14,7 +14,7 @@ import torch
 
 from copy_check import MAX_SHARED_WORDS
 from generate_pairs import JUDGE, MODEL, REVISION, SEED, SOURCE_SHA256, append, parse_judge, sha
-from regen_v3_policy import copy_guard, parse_chinese_notes, POLICY
+from regen_v3_policy import copy_guard, parse_chinese_notes, parse_slots_notes, POLICY
 from request_cache import RequestCache, complete_lines
 
 
@@ -35,6 +35,10 @@ KEEP:
 - one exact source string per line for every person, place, organization, product, work title, technical term, number with units, date, or fixed form line that must survive exactly. Copy those strings only from the passage.
 NOTES:
 1. A complete numbered content list in Simplified Chinese. Include every fact, example, qualification, hedge, negation, cause, comparison, opinion, relationship, and who said what. Keep each KEEP string and direct quotation in English exactly as in the source, with direct quotations in quotation marks. Otherwise write Chinese, not English sentences copied from the passage. Do not invent information.
+
+PASSAGE:
+'''
+SLOTS_PROMPT = '''Extract every fact and relationship from the licensed English passage into short atomic slots. Output only one JSON object with FORM (a string giving document form and speaker perspective), KEEP (an array of exact source strings that must survive: names, titles, technical terms, numbers with units, dates, direct quotes, and fixed form lines), and FACTS (a complete array of objects). Each FACTS object has subject, relation, object, qualifier (strings of at most five words each) and negated (boolean). Split complex facts into several slots. Include every example, hedge, qualification, cause, comparison, opinion, and who said what. Preserve uncertainty, perspective, and negation. Do not copy sentences or invent facts. Put long direct quotes in KEEP and refer to them briefly in the slots.
 
 PASSAGE:
 '''
@@ -66,7 +70,12 @@ def run(args):
     source = [json.loads(line) for line in args.input.read_text().splitlines()]
     old = [json.loads(line) for line in args.old_audit.read_text().splitlines()]
     rows = trial_rows(source, old)
-    assert args.method == 'chinese', 'Fallback is admitted only after the primary trial misses'
+    if args.method == 'slots':
+        assert args.primary_summary and args.primary_summary.is_file(), 'Fallback needs completed primary evidence'
+        primary = json.loads(args.primary_summary.read_text())
+        assert primary['status'] == 'COMPLETE' and not primary['thresholds_met'], 'Fallback only after a measured primary miss'
+    else:
+        assert args.method == 'chinese'
     requests = args.output / 'model-requests.jsonl'
     results = args.output / 'trial-results.jsonl'
     cache = RequestCache(requests, args.output / 'request-reservations.jsonl')
@@ -77,7 +86,8 @@ def run(args):
                 'technical_ids': TECHNICAL_IDS, 'old_failures': OLD_FAILURES,
                 'new_ids': NEW, 'source_sha256': SOURCE_SHA256, 'model': MODEL,
                 'model_revision': REVISION, 'seed': SEED, 'copy_policy': POLICY,
-                'maximum_shared_words': MAX_SHARED_WORDS, 'prompt_notes': NOTES_PROMPT,
+                'maximum_shared_words': MAX_SHARED_WORDS,
+                'prompt_notes': NOTES_PROMPT if args.method == 'chinese' else SLOTS_PROMPT,
                 'prompt_draft_suffix': DRAFT_SUFFIX, 'requests': REQUESTS,
                 'judge': JUDGE_V3, 'max_gpu_seconds': args.max_seconds,
                 'fresh_context': 'Every call contains one user message; draft contains FORM and NOTES only.'}
@@ -144,16 +154,25 @@ def run(args):
 
     def attempt(batch, number):
         ids = [row['id'] for row in batch]
-        notes = generate(ids, f'v3_notes_{number}', [NOTES_PROMPT + row['human'] for row in batch], 1024, True)
-        parsed = [parse_chinese_notes(answer['text']) for answer in notes]
+        note_prompt = NOTES_PROMPT if args.method == 'chinese' else SLOTS_PROMPT
+        notes = generate(ids, f'v3_{args.method}_notes_{number}',
+                         [note_prompt + row['human'] for row in batch], 1024, True)
+        parser = parse_chinese_notes if args.method == 'chinese' else parse_slots_notes
+        parsed = [parser(answer['text']) for answer in notes]
         draft_indexes = [i for i, (value, issue) in enumerate(parsed) if value and not notes[i]['truncated']]
         drafts = {}
         if draft_indexes:
-            prompts = [REQUESTS[(int(ids[i][1:])-1) % len(REQUESTS)]+'\n'+DRAFT_SUFFIX+
-                       'FORM: '+parsed[i][0]['form']+'\nNOTES:\n'+parsed[i][0]['notes']
-                       for i in draft_indexes]
+            prompts = []
+            for i in draft_indexes:
+                content = 'FORM: '+parsed[i][0]['form']+'\n'
+                if args.method == 'slots':
+                    content += 'KEEP:\n' + '\n'.join('- '+item for item in parsed[i][0]['keep']) + '\nSLOTS:\n'
+                else:
+                    content += 'NOTES:\n'
+                content += parsed[i][0]['notes']
+                prompts.append(REQUESTS[(int(ids[i][1:])-1) % len(REQUESTS)]+'\n'+DRAFT_SUFFIX+content)
             drafts = dict(zip(draft_indexes, generate([ids[i] for i in draft_indexes],
-                         f'v3_draft_{number}', prompts, 512, True)))
+                         f'v3_{args.method}_draft_{number}', prompts, 512, True)))
         guards = {i: copy_guard(batch[i]['human'], parsed[i][0]['notes'], drafts[i]['text'],
                                parsed[i][0]['keep']) for i in drafts}
         judge_indexes = [i for i in draft_indexes if not drafts[i]['truncated'] and
@@ -165,7 +184,7 @@ def run(args):
                            candidate=drafts[i]['text'] if direction == 'human_claims_in_ai' else batch[i]['human'])
                            for i in judge_indexes]
                 judges[direction] = dict(zip(judge_indexes, generate([ids[i] for i in judge_indexes],
-                                   f'v3_{direction}_{number}', prompts, 768, False)))
+                                   f'v3_{args.method}_{direction}_{number}', prompts, 768, False)))
         outputs = []
         for i, row in enumerate(batch):
             issues = []
@@ -228,7 +247,8 @@ if __name__ == '__main__':
     p.add_argument('--input', type=Path, required=True)
     p.add_argument('--old-audit', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
-    p.add_argument('--method', choices=['chinese'], default='chinese')
+    p.add_argument('--method', choices=['chinese','slots'], default='chinese')
+    p.add_argument('--primary-summary', type=Path)
     p.add_argument('--batch-size', type=int, default=8)
     p.add_argument('--max-seconds', type=int, default=5400)
     run(p.parse_args())

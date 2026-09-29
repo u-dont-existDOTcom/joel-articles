@@ -1,4 +1,5 @@
 """Pure parsing and copy admission for Claude's regeneration v3 trial."""
+import json
 import re
 from copy_check import MAX_SHARED_WORDS, WORD, quote_spans
 
@@ -21,6 +22,42 @@ def parse_chinese_notes(text):
     if len(re.findall(r'[\u4e00-\u9fff]', notes)) < 20:
         return None, 'notes_not_substantially_chinese'
     return {'form': form, 'keep': keep, 'notes': notes}, None
+
+
+def parse_slots_notes(text):
+    raw = text.strip()
+    if raw.startswith('```'):
+        raw = raw.split('\n', 1)[-1].rsplit('```', 1)[0].strip()
+    try:
+        data = json.loads(raw)
+    except (ValueError, TypeError):
+        return None, 'slots_invalid_json'
+    if not isinstance(data, dict) or not isinstance(data.get('FORM'), str) or not data['FORM'].strip():
+        return None, 'slots_invalid_form'
+    if not isinstance(data.get('KEEP'), list) or not all(isinstance(x, str) for x in data['KEEP']):
+        return None, 'slots_invalid_keep'
+    facts = data.get('FACTS')
+    if not isinstance(facts, list) or not facts:
+        return None, 'slots_missing_facts'
+    for index, fact in enumerate(facts):
+        if not isinstance(fact, dict) or not isinstance(fact.get('negated'), bool):
+            return None, f'slots_invalid_fact_{index}'
+        for field in ('subject', 'relation', 'object', 'qualifier'):
+            value = fact.get(field)
+            if not isinstance(value, str) or len(WORD.findall(value)) > 5:
+                return None, f'slots_invalid_{field}_{index}'
+        if not any(fact[field].strip() for field in ('subject', 'relation', 'object')):
+            return None, f'slots_empty_fact_{index}'
+    return {'form': data['FORM'].strip(), 'keep': [x.strip() for x in data['KEEP']],
+            'facts': facts, 'notes': render_slots_table(facts)}, None
+
+
+def render_slots_table(facts):
+    columns = ('subject', 'relation', 'object', 'qualifier', 'negated')
+    lines = ['| ' + ' | '.join(columns) + ' |', '| ' + ' | '.join(['---']*len(columns)) + ' |']
+    for fact in facts:
+        lines.append('| ' + ' | '.join(str(fact[col]).replace('|', '/') for col in columns) + ' |')
+    return '\n'.join(lines)
 
 
 def _tokens(text):
