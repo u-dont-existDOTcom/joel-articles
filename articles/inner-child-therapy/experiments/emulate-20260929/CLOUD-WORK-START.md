@@ -1,3 +1,5 @@
+**Updated 2026-09-29, 15:30 UTC:** `GPT-FIX-NO-GITHUB-IN-BROWSER.md` sets the current order of work and Joel's new choosing rule. Where this file disagrees with it, that note wins.
+
 Continue Joel's Emulate/Pangram run in a ChatGPT Work cloud task. Use the cloud browser and Joel's accounts; do not use his desktop browser or Pangram's API. This is execution/data collection under the existing approved task; Pro handles Part5 reasoning and Claude handles later learning/transfer.
 
 Load live u-dont-existDOTcom/universal-dev-architecture/AGENTS.md, then the fresh Joel Articles SKILL.md and CANONICAL-REPO-MAP.md with their task-relevant read order. Continue the existing gpt/emulate-overnight-20260929 branch in u-dont-existDOTcom/joel-articles. The experiment path is articles/inner-child-therapy/experiments/emulate-20260929/. Read GPT-RESUME-CLOUD-BROWSER.md first; it supersedes the old browser/reservation/checkpoint route in RESUME.md. Read the full owner overnight directive, MORNING-NOTE.md and LEDGER.md. Do not repeat any saved paid run. Verify current remote state before writing; preserve exact output bytes and experimental status.
