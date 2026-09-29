@@ -3908,7 +3908,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram.jsonl",
-          "sha256": "018803210442b92e8a0549fb239ddaa3e5e370e33a7be5eca2110a0fc7b1942c",
+          "sha256": "6cbe63b9db2a1a3a0810fc31bbdbf3548dc8094baafed996e709bcdb5d0485e5",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3944,7 +3944,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/admission-events.jsonl",
-          "sha256": "bb4ca9ec65d4172c416a850e3fb6a9babd84131ab9c66ca4211a68a4528cbd90",
+          "sha256": "4e49cc0fb5fe2e8add5e3cd2bf753408360cac32630a352e55ab1754a1ce7446",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -4887,6 +4887,18 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B18_r2_out1B.overview.txt",
           "sha256": "158cbe0a95632b3fcfc7b28fe5d379fb12850a28ee52f85d460c9cfec668c48a",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B19_r2_out2A.details.txt",
+          "sha256": "1fd4a4a7bf0359c234f278fe543b4f9c1cb8a1adbef168be4b49fe24bb637c76",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B19_r2_out2A.overview.txt",
+          "sha256": "302d13725df57b27c20aa460a69a38907304326a8ea030efb7f2c1113d91c2a4",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }
