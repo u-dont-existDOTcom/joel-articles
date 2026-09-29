@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s09",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/070a1dc8-b5af-4675-999d-a3efbd74c85d",
+  "input_sha256": "52b05af204a2f37bf7e844e49b5923a06179f6f537b6dc124d0a3930f091041c",
+  "input_words": 197,
+  "before": 36715,
+  "after": 36518,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 140,
+      "sha256": "7ffefd1bebe23e7648aa4df4bda38159f02e2376d4456a504afc7ed0d50ced83",
+      "page_sha256": "7ffefd1bebe23e7648aa4df4bda38159f02e2376d4456a504afc7ed0d50ced83",
+      "has_list": false,
+      "last": "otectors, feelings or body signals guide you. Prepare, inspect, ask for permission, only respond to one need at a time, wait, reconnect, rest and then reassess."
+    },
+    {
+      "option": "B",
+      "words": 190,
+      "sha256": "31a0da0600f2628d72712a29c9bc7784fd2b8cbb5510efc817237bc0023ae703",
+      "page_sha256": "31a0da0600f2628d72712a29c9bc7784fd2b8cbb5510efc817237bc0023ae703",
+      "has_list": false,
+      "last": "nect more (they don’t have to merge with you, go away, forgive someone or even be happy), resting and seeing if anything needs to be done differently next time."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s08",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/aaa8eaff-b42a-4f06-a1a8-fbed2fa8c8cc",
+  "input_sha256": "2c09ffb66801e708711444507b1c4729cf96bb258a47a1edbe365ecfaab38a92",
+  "input_words": 228,
+  "before": 36943,
+  "after": 36715,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 280,
+      "sha256": "1be9b3e96f40f69a2fb3735de3dc60d70e239dd62160ff2a9c53135b80072b57",
+      "page_sha256": "1be9b3e96f40f69a2fb3735de3dc60d70e239dd62160ff2a9c53135b80072b57",
+      "has_list": false,
+      "last": "e way. If you can’t find a child, that’s fine – just work with a protector you can recognise, or just notice a sensation or feeling or preference in the moment."
+    },
+    {
+      "option": "B",
+      "words": 310,
+      "sha256": "d962b513db21d613bf8a93d4be280e57e6f4b1b47a2b0a8dcc07182cd144545a",
+      "page_sha256": "d962b513db21d613bf8a93d4be280e57e6f4b1b47a2b0a8dcc07182cd144545a",
+      "has_list": false,
+      "last": "d of vulnerability. Sometimes, you don’t. Sometimes, you just stay with a Protector you know. Sometimes, you just stay with a sensation, feeling, or preference."
+    }
+  ]
+}

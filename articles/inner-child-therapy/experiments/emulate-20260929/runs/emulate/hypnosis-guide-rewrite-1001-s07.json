@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1001-s07",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/73ee7b27-0fae-49d4-8c0f-40ea5ff5cc66",
+  "input_sha256": "9cae4e27f20bc0204ca170aa2dfcd6103c7e10fb476f45947b69201418005c86",
+  "input_words": 214,
+  "before": 37157,
+  "after": 36943,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 268,
+      "sha256": "7cbb9d0e04c506eb7a49abb2a36564314839a43912bd4d3bd22a5a8c3e09839c",
+      "page_sha256": "7cbb9d0e04c506eb7a49abb2a36564314839a43912bd4d3bd22a5a8c3e09839c",
+      "has_list": false,
+      "last": " your fantasy is a guidance”, “you will abandon us” etc.\n\n“Ok, I understand. You don’t have to move, but what could make you trust me a bit more? Just 1% more.”"
+    },
+    {
+      "option": "B",
+      "words": 252,
+      "sha256": "3decb2f1c4bbe954f9d464b5a86e2cd77c00caca72ccfcfc8d3300c06d995ca1",
+      "page_sha256": "3decb2f1c4bbe954f9d464b5a86e2cd77c00caca72ccfcfc8d3300c06d995ca1",
+      "has_list": false,
+      "last": "you’re going to abandon us after this session” etc.\n\nThen say: “That makes sense. You don’t have to move yet. What would make it 1% easier for you to trust me?”"
+    }
+  ]
+}
