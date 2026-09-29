@@ -1,0 +1,28 @@
+{
+  "artifact_identity": "PASS: exact saved provider bytes and splice materializations verified by verify_prepared.py",
+  "architecture_map_validation": "PASS",
+  "policy_audit": {
+    "errors": 0,
+    "warnings": 4
+  },
+  "regression_suite": {
+    "tests": 111,
+    "failures": 1,
+    "failing_case": "test_all_non_authorized_source_bytes_are_preserved: project-sources/MASTER-INSTRUCTIONS.md",
+    "existing_at_base": true,
+    "base_current_bytes_equal": true,
+    "base_current_git_blob": "af10478609e6eb2e3c22e48aaa8060ebca3d5da7",
+    "action": "Do not modify owner instructions or unrelated scope-repair fixture."
+  },
+  "scoped_registry_hashes_verified": 723,
+  "article_authority_fields_unchanged": true,
+  "content_repository_full_validator": "Not run: would open sealed E_holdout bytes for hash verification. Scoped changed-artifact registry and all article-authority fields verified without holdout reads.",
+  "publication_secret_audit": "No publication transition requested; hosted full-history audit not run. Local packet checked for exact active Emulate credential and common secret signatures before delivery.",
+  "E_holdout_read": false,
+  "local_packet_secret_check": {
+    "status": "PASS",
+    "files_checked": 880,
+    "method": "Exact active Emulate key exclusion and common credential signatures; values never logged",
+    "holdout_excluded_before_file_read": true
+  }
+}
