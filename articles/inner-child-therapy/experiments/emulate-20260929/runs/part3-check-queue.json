@@ -570,7 +570,7 @@
     "text_sha256": "9f61fb674190fe084224ea13e1d7e1b92f40fb86048773d32b4a207e4bacfa2b",
     "variant": "output",
     "words": 134,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_C2_api_r1"
   },
   {
@@ -579,7 +579,7 @@
     "text_sha256": "0546e0558556b328f1de5443d11e7d3c51903192994ede3cd749a88fa313b2ea",
     "variant": "output",
     "words": 534,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B03_api_r1"
   },
   {
@@ -599,7 +599,7 @@
     "text_sha256": "34c7272897c50a4e46a9b4a90500efabf6cd595b6df42f0d2a4fcd94e00ee9bf",
     "variant": "output_paragraph",
     "words": 68,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B03_api_r1",
     "output_start": 28,
     "output_end": 359
@@ -610,7 +610,7 @@
     "text_sha256": "4753f0da86b816101edf8308d2da7a0349fcfa4425b22c49144964f1995e628f",
     "variant": "output_paragraph",
     "words": 103,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B03_api_r1",
     "output_start": 359,
     "output_end": 919
@@ -621,7 +621,7 @@
     "text_sha256": "58d7c879309b7867cca69e53868bd7f1fb461ab6adab52b68b10b6f71a34447d",
     "variant": "output_paragraph",
     "words": 89,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B03_api_r1",
     "output_start": 919,
     "output_end": 1425
@@ -632,7 +632,7 @@
     "text_sha256": "536e2c002c66f33ec0abf0cc8ebefcc19b8b8e86c7650c397389d4f35805f82d",
     "variant": "output_paragraph",
     "words": 110,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B03_api_r1",
     "output_start": 1425,
     "output_end": 1987
@@ -643,7 +643,7 @@
     "text_sha256": "db6b1d1f7ebfda51b6178f8e51f2d6aacf4e06d385da198248447d5e34bb81fe",
     "variant": "output_paragraph",
     "words": 66,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B03_api_r1",
     "output_start": 1987,
     "output_end": 2310
@@ -654,7 +654,7 @@
     "text_sha256": "1a673cb7ea3f4c1e8d9e4b0a2c62905ec9a2504af43795c9e278b984a3be32de",
     "variant": "output_paragraph",
     "words": 94,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B03_api_r1",
     "output_start": 2310,
     "output_end": 2802
@@ -665,7 +665,7 @@
     "text_sha256": "6c1a09d78d28c169601479389a525bcb8ebc0f96c37e8f72ffb0c69bf4db70b0",
     "variant": "output",
     "words": 85,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B04_api_r1"
   },
   {
@@ -674,7 +674,7 @@
     "text_sha256": "7c5d86f753f35f08097503ea109957d2ac8aca8fa70d1b7b38fc7068b00b8397",
     "variant": "output",
     "words": 198,
-    "status": "blocked_browser_policy",
+    "status": "completed",
     "run_id": "gpt_B05_api_r1"
   },
   {
