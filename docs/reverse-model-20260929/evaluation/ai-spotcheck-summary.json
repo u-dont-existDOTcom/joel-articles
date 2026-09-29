@@ -1,0 +1,181 @@
+{
+  "status": "COMPLETE_STEP_2_MEASUREMENT_ONLY",
+  "selected": 20,
+  "selection_sha256": "3c5c243ae3ac3a45f4be6aa3dc81c6f693e04091a6260d981a8aa5a2ee37e190",
+  "raw_results_sha256": "1fdacb4837399538a47e5ef2bbbd9d2830a5d640d2311ef327bf0988f77e4724",
+  "detailed_label_counts": {
+    "AI Assisted": 12,
+    "Human Written": 8
+  },
+  "human_results": 8,
+  "ai_involvement_results": 12,
+  "ai_involvement_fraction": 0.6,
+  "pilot_credits_charged": 48,
+  "detector": "Pangram 4.0 primary GUI",
+  "training_filter": "Only open-Qwen bidirectional fidelity judgments; no Pangram labels",
+  "selection_limit": "First 20 accepted training drafts by ID; early contiguous source sample, not a representative random sample",
+  "interpretation": "Untrained generated-data diagnostic, not either adapter pass rate. AI-assisted involvement is distinct from fully AI-generated.",
+  "label_handling": "Prefer detailed primary Overview header; retain captured broader history label in raw receipts.",
+  "cases": [
+    {
+      "id": "H0001",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "AI Assisted",
+      "human_pass": false,
+      "credits": 2,
+      "words_scanned": 201
+    },
+    {
+      "id": "H0002",
+      "detailed_gui_label": "Human Written",
+      "captured_summary_label": "Human",
+      "human_pass": true,
+      "credits": 3,
+      "words_scanned": 220
+    },
+    {
+      "id": "H0003",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 2,
+      "words_scanned": 161
+    },
+    {
+      "id": "H0004",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 2,
+      "words_scanned": 188
+    },
+    {
+      "id": "H0007",
+      "detailed_gui_label": "Human Written",
+      "captured_summary_label": "Human",
+      "human_pass": true,
+      "credits": 2,
+      "words_scanned": 116
+    },
+    {
+      "id": "H0008",
+      "detailed_gui_label": "Human Written",
+      "captured_summary_label": "Human",
+      "human_pass": true,
+      "credits": 2,
+      "words_scanned": 158
+    },
+    {
+      "id": "H0009",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 3,
+      "words_scanned": 238
+    },
+    {
+      "id": "H0012",
+      "detailed_gui_label": "Human Written",
+      "captured_summary_label": "Human",
+      "human_pass": true,
+      "credits": 3,
+      "words_scanned": 229
+    },
+    {
+      "id": "H0013",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 2,
+      "words_scanned": 199
+    },
+    {
+      "id": "H0014",
+      "detailed_gui_label": "Human Written",
+      "captured_summary_label": "Human",
+      "human_pass": true,
+      "credits": 2,
+      "words_scanned": 170
+    },
+    {
+      "id": "H0015",
+      "detailed_gui_label": "Human Written",
+      "captured_summary_label": "Human",
+      "human_pass": true,
+      "credits": 3,
+      "words_scanned": 301
+    },
+    {
+      "id": "H0016",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 3,
+      "words_scanned": 224
+    },
+    {
+      "id": "H0019",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 2,
+      "words_scanned": 171
+    },
+    {
+      "id": "H0020",
+      "detailed_gui_label": "Human Written",
+      "captured_summary_label": "Human",
+      "human_pass": true,
+      "credits": 3,
+      "words_scanned": 213
+    },
+    {
+      "id": "H0021",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 3,
+      "words_scanned": 260
+    },
+    {
+      "id": "H0022",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 2,
+      "words_scanned": 149
+    },
+    {
+      "id": "H0023",
+      "detailed_gui_label": "Human Written",
+      "captured_summary_label": "Human",
+      "human_pass": true,
+      "credits": 2,
+      "words_scanned": 163
+    },
+    {
+      "id": "H0025",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 2,
+      "words_scanned": 188
+    },
+    {
+      "id": "H0026",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 2,
+      "words_scanned": 132
+    },
+    {
+      "id": "H0027",
+      "detailed_gui_label": "AI Assisted",
+      "captured_summary_label": "Mixed",
+      "human_pass": false,
+      "credits": 3,
+      "words_scanned": 219
+    }
+  ]
+}

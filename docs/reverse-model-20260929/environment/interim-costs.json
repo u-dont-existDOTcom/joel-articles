@@ -1,0 +1,32 @@
+{
+  "status": "INTERIM_NOT_FINAL_PILOT_COSTS",
+  "as_of_utc": "2026-09-29T15:33:00Z",
+  "caps": {
+    "cash_usd": 100,
+    "gpu_usd": 40,
+    "pangram_credits": 500,
+    "emulate_words": 3000
+  },
+  "charged_pangram_credits": 48,
+  "new_emulate_words": 0,
+  "gpu_billed_usd": 4.63,
+  "replacement_instance": {
+    "total_usd": 6.31,
+    "gpu_usd": 4.52,
+    "storage_usd": 1.12,
+    "download_usd": 0.66,
+    "upload_usd": "<0.01",
+    "gpu_hours": 10.28,
+    "download_gb": 101.9
+  },
+  "original_instance": {
+    "total_usd": 0.13,
+    "gpu_usd": 0.11,
+    "storage_usd": 0.02
+  },
+  "conservative_account_cash_upper_bound_usd": 6.45,
+  "current_stopped_storage_usd_day": 2.6,
+  "additional_credit_purchased": 0,
+  "funding_action": "Prepared $20 purchase not submitted; payment/terms confirmation pending",
+  "precision": "Provider rounded/delayed components. Conservative account total includes pre-existing third instance below $0.01. Storage continues while stopped."
+}

@@ -1,0 +1,77 @@
+{
+  "model": "Qwen/Qwen3-30B-A3B-Base",
+  "revision": "1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9",
+  "source": "Hugging Face original pinned repository",
+  "tool": "aria2 version 1.37.0",
+  "connections_per_file": 8,
+  "concurrent_files": 4,
+  "max_tries_per_piece": 30,
+  "verification": "aria2 SHA-256 against Hugging Face LFS oid; Git blob oid for metadata",
+  "started_unix": 1790693782.259781,
+  "files": [
+    {
+      "filename": "LICENSE",
+      "bytes": 11343,
+      "oid": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    },
+    {
+      "filename": "README.md",
+      "bytes": 3043,
+      "oid": "5bb90c54b0be47cbe646668355d608fa427c8d4c",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    },
+    {
+      "filename": "config.json",
+      "bytes": 964,
+      "oid": "c7a4b9a1901f72526f7f3005bbb88f864a143081",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    },
+    {
+      "filename": "generation_config.json",
+      "bytes": 138,
+      "oid": "cbbb3133034e192527e5321b4c679154e4819ab8",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    },
+    {
+      "filename": "merges.txt",
+      "bytes": 1671853,
+      "oid": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    },
+    {
+      "filename": "model.safetensors.index.json",
+      "bytes": 1699758,
+      "oid": "9c1f15f44d45f6a4108ceb239ecec7b22f5c18a4",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    },
+    {
+      "filename": "tokenizer.json",
+      "bytes": 7031645,
+      "oid": "443909a61d429dff23010e5bddd28ff530edda00",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "bytes": 9678,
+      "oid": "6a3829ee9491f36113e64df37573be81df0366f5",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    },
+    {
+      "filename": "vocab.json",
+      "bytes": 2776833,
+      "oid": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "verification": "Git blob SHA-1",
+      "verified": true
+    }
+  ],
+  "status": "RUNNING"
+}

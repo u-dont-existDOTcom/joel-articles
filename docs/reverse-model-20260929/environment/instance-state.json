@@ -1,0 +1,23 @@
+{
+  "as_of_utc": "2026-09-29T15:33:00Z",
+  "instance_id": 53306647,
+  "state": "STOPPED_COMPUTE",
+  "evidence": [
+    "Stop Instance confirmation accepted in authenticated Brave console",
+    "Console offers Start instance",
+    "Fresh billing current rate $0.11/hour, $2.60/day, storage only"
+  ],
+  "footer_caveat": "Earlier running status footer remained stale after Stop; current billing is the independent compute-state evidence.",
+  "services": {
+    "fit": "EXITED, PASS",
+    "instruct_download": "EXITED, COMPLETE",
+    "initial12_generation": "EXITED, COMPLETE",
+    "batch16_generation": "EXITED, returncode 0",
+    "base_download": "STOPPED, partial weights retained"
+  },
+  "all_pilot_autostart": false,
+  "destroyed": false,
+  "final_adapters": "not trained yet",
+  "off_instance_public_evidence": "All 28 generation audits, 102 requests, 21 accepted rows, fit and download receipts copied to owner workspace; 20 detector receipts also saved",
+  "base_download_manifest_caveat": "Saved RUNNING manifest is a historical pre-stop receipt: nine metadata files verified, no 16-shard weight completion proof. Resume retained aria2 pieces."
+}

@@ -1,0 +1,10 @@
+Task: reverse-pilot-20260929
+Observer source: universal-live/scripts/test_efficiency.py from current universal checkout 8eae0dce2d4e3c4a61135f01647158594689f911
+Elapsed wall time at checkpoint: 38215.80 seconds
+Observed test time: 560.08 seconds (1.47% of elapsed wall time)
+Focused: 28 runs, two failure-discovering runs
+Full suite: zero runs / zero seconds
+Mutation: zero runs / zero seconds
+Forced redundant green reruns: zero seconds
+Redundant green skips: zero / zero estimated avoided seconds
+Scope: local observed test commands. Remote actual fit timings/memory are separate in gpu-fit.json. The elapsed denominator includes the long human browser-access interruption; this is not active-work testing share. Publication data/credential admission checks are also preserved in the execution record.

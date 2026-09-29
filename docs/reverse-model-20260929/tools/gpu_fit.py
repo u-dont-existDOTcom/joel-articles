@@ -77,7 +77,9 @@ try:
     result["trainable_dtypes"] = {str(d): sum(p.numel() for _, p in params if p.dtype == d)
                                   for d in set(p.dtype for _, p in params)}
     result["lora_config"] = model.peft_config["default"].to_dict()
-    result["lora_config"]["target_modules"] = sorted(result["lora_config"]["target_modules"])
+    targets = result["lora_config"]["target_modules"]
+    if not isinstance(targets, str):
+        result["lora_config"]["target_modules"] = sorted(targets)
     result["first_layer_parameters"] = [(n, list(p.shape), str(p.dtype))
                                          for n, p in params if "layers.0." in n]
     result["adapter_parameters_by_layer"] = {

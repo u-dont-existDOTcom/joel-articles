@@ -1,5 +1,59 @@
 # Reverse model pilot — execution checkpoint
 
+Status: **OPEN / GPU STOPPED / CREDIT AND TERMS CONFIRMATION PENDING** as of 2026-09-29 15:33 UTC. The replacement instance is preserved. Actual Instruct fit PASS; 28 of 1,200 passages processed, 21 pairs accepted; the fixed 20-draft Pangram spot-check is complete. Neither adapter has been trained. Full generation, two comparable trainings, model evaluation, private adapter backup and PILOT-RESULTS.md remain OPEN.
+
+## Current authority and frozen method
+
+Joel explicitly invoked both uploaded pilot/worker directives, approved 40 GB VRAM and directed use of the upgraded existing instance. Use only instance 53306647 (A100 PCIe 40 GB, 195 GB disk allocation); create no second instance. Work only on gpt/reverse-pilot-20260929 from d9bbbfb08bfbf8210084e0d468208f4cb6b3aa93, never main/handoff or force-push. No canonical article prose edits and no E_holdout access.
+
+Current universal/project/lab guidance was read fresh this turn. Selected instruction-composition, activation, decision assurance, test-efficiency and continuation controls reloaded after compaction from universal checkout 8eae0dce2d4e3c4a61135f01647158594689f911. Authority source bindings and active controls are retained in the local ACTIVE-CONTRACT.md. Parent authorization remains complete end-to-end execution; the temporary payment/terms boundary does not cancel it.
+
+Frozen human source SHA-256: 56869801ee7f95dfea1681170c745cacf112f93c117a185177c515568c80b089. Licensed OANC/MASC: 1,200 distinct passages, document-level 1,000/100/100 split, 400 paraphrases and 800 notes/regenerations. No GPT, Claude or Joel text/filter labels in training. Every generation request is a fresh single user message; regeneration sees notes only. Open-Qwen bidirectional fidelity alone accepts/rejects pairs; Pangram results never become training labels.
+
+Base pin: Qwen/Qwen3-30B-A3B-Base at 1b75feb79f60b8dc6c5bc769a898c206a1c6a4f9. Instruct pin: Qwen/Qwen3-30B-A3B-Instruct-2507 at 0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe. Both Apache-2.0, 48-layer qwen3_moe. The worker clarification authorizes this current non-thinking instruct checkpoint; preserve base-versus-instruct comparison. Both arms: rank64 attention and expert feed-forward adapters, two epochs, target-only loss, identical accepted data/settings. Routers frozen.
+
+## Executed evidence
+
+Full machine AGENTS and capabilities/hardware/package bootstrap completed before changes. Existing Python/CUDA/Unsloth stack retained; only distribution aria2 1.37.0 installed to recover large model transfers. Whole-file/Xet approaches stalled; resumable segmented transfers now verify pinned weight hashes. All 16 original Instruct weight shards COMPLETE and verified. Base download has verified nine small metadata files, retained partial weight pieces and aria2 controls; it was deliberately stopped before GPU shutdown. The saved Base RUNNING manifest is historical, not a current completion claim.
+
+Actual two-step Instruct fit: 2,570,059,776 BF16 trainable parameters; all 48 attention/MLP layers and all 576 individual adapter tensors have finite nonzero gradients after the first optimizer update. Actual fused expert weights are bitsandbytes Params4bit. Peak allocated memory 26.108 GiB. This is a discarded seeded 1,024-token probe, not completed training or proof for all production sequence lengths. Preserve environment/gpu-fit.json unchanged. Its target_modules receipt has a serialization artifact: a regex string was sorted into characters. Actual named parameters/gradients prove coverage; future receipt serialization now preserves strings, and training records resolved module/parameter targets separately from requested names. Successful fit was not rerun.
+
+Initial 12 passages: 1,462.009 seconds, eight accepted. Batch16 added 16 passages in 629.753 seconds of generation plus startup, accepted 13, peak allocated memory 20.164 GiB; supervisor wrapper returncode zero. Total 28 processed, 21 accepted training pairs, 102 exact requests; no dev/test pairs yet. All audits, rejection reasons, accepted data, prompts, raw outputs and current manifests are copied off-instance and preserved on this branch. Initial generation summaries are retained in run-history.
+
+Fixed Pangram sample: 12/20 AI Assisted, 8/20 Human Written, 48 credits. The expectation that all 20 should read as AI is only partly met. See evaluation/AI-SPOTCHECK.md and exact raw/hash-bound receipts. These are untrained data diagnostics, not adapter quality or a stop/go conclusion. No detector-driven selection or rewrite was performed.
+
+## Budget and real stopping boundary
+
+Caps unchanged: cash $100, GPU $40, Pangram 500 credits, new Emulate 3,000 words. Interim provider charges: replacement $6.31, including GPU $4.52, storage $1.12, download $0.66, upload below $0.01. Original instance $0.13 including GPU $0.11. Conservative account total $6.45 includes a third pre-existing instance below $0.01; provider components are rounded/delayed. GPU total $4.63. New pilot Pangram 48 credits; new Emulate zero words. Exact interim costs and instance-state receipts are saved under environment/; these are not final costs.
+
+Latest observed wallet $3.52. At batch16 timing, the remaining 1,172 passages would need about 12.81 generation hours, before both trainings, meaning scoring, evaluation and transfers. This is a throughput projection, not full-run admission. The current wallet cannot finish the pilot. A $20 purchase is prepared but **not submitted**. Its final action also accepts Vast terms; the browser action requires payment/terms confirmation. No payment method or auto-top-up setting was changed.
+
+GPU STOP was confirmed in the authenticated desktop console. The console now offers Start; fresh billing shows storage-only $0.11/hour ($2.60/day), proving GPU billing stopped despite a stale old running footer. All pilot services have autostart=false and autorestart=false. Instance preserved, not destroyed. Storage charges continue. No final adapters exist yet, so no final adapter copy is claimed.
+
+Independent authorized work completed before this boundary: copied all 28 generation records off-instance, completed all 20 paid detector measurements, refreshed 48 exact first-Emulate detector results without paid calls, corrected cost/label receipt interpretation, validated the incomplete-data training admission and published this checkpoint. Parent outcome OPEN. The next dependent action is additional credit/terms approval, responsible actor owner. After it, responsible actor worker resumes the unchanged experiment automatically.
+
+## Resume after credit is added or the prepared purchase is confirmed
+
+1. Use the existing authenticated desktop Vast console and Start instance 53306647; do not provision another. Verify available credit, services, retained runtime files and disk. Preserve stopped state again during any prolonged human wait.
+2. Remote checkout was e31b1ae when batch16 ran. Public branch now tracks runtime generated data that were untracked remotely. Preserve remote generated and runtime environment outputs outside the checkout before fast-forwarding; compare hashes and reconcile rather than overwrite or discard. Use a separate runtime output/evidence directory for subsequent runs. Frozen human source remains pinned in the repository.
+3. Resume Base aria2 pieces and controls, with the same exact revision/hash verification. Do not retry the failed whole-file method or rerun the successful Instruct fit. supervisorctl status may return nonzero for EXITED services; inspect it separately so it cannot silently skip subsequent checks.
+4. Test a bounded larger generation batch if needed to improve throughput, preserving model/prompts/sampling/filter settings. Record memory/time and admit the remaining run against current wallet plus all caps. Preserve manifests before each resumed run; generation --limit counts NEW passages, not total passages. Never restart all 28 audited IDs.
+5. Finish all 1,200 counterparts before training. New pre-load admission rejects the actual incomplete 28-passage audit and checks exact accepted training rows against the complete audit. Train both matched rank64/two-epoch arms. The 1,024-token fit does not certify the planned maximum 1,536-token training sequence; record actual lengths/memory and never truncate examples silently.
+6. Model caches plus full optimizer checkpoints can exceed 195 GB across both arms. Keep frequent resumable checkpoints; privately copy and verify the first final adapter off-instance before retiring its obsolete checkpoints for the second arm. The owner-local private-adapters directory is authorized and excluded from Git. Never delete an unbacked final adapter or publish weights/secrets.
+7. Freeze 20 general held-out cases before paid scoring, run each adapted model once at temperature 0.8 through the local LoRA server, save raw outputs/timing. Reuse first Emulate baselines and cached detector results; complete new general Emulate, alone/context Pangram, open-model bidirectional meaning, tells per 100 words, speed per 300 words and ten examples. Interpret context sample coverage and actual word prices honestly within caps.
+8. Save PILOT-RESULTS.md, all required outputs/scores, exact costs and comparable settings; push and verify only the authorized branch. Verify both private adapter copies, then STOP the GPU without destroying the instance.
+
+## Frozen evaluation and verification limits
+
+53 A/B learning inputs and 51 saved chronological first-Emulate outputs remain frozen at overnight commit 45caa139a94bc5919e26a7026dca05118acc2229. A22/A25 have no saved first output and are shorter than Emulate's 40-word minimum; A22's earlier rejected request charged zero. No padding or new baseline candidate has been substituted. The 51-case common comparison can be reported alongside 53 model-only cases. Exact first-Emulate-alone detector reuse is 48/51 from current log commit dcc04891815680d70a838f5ad3cf5ec24865fb8e, validated by output hash; one exact context result is also cached. Fixed real-context candidates are preserved; no E_holdout read occurred.
+
+Generation, training, serving and scoring sources are authored and syntax checked. Only the actual fit and first 28 generation examples have GPU runtime evidence; neither training nor evaluation is runtime-certified. All 20 primary detector receipts passed exact-input/charge summary validation. Focused local admission proved incomplete generation cannot enter training. No broad unchanged fit, full-suite or mutation rerun was performed. Current local observer: 28 focused runs, two failure-discovering runs, about 560.1 seconds of tests over about 38,000 elapsed seconds (1.47%); elapsed denominator includes the long human access interruption. Exact updated observer summary is preserved separately; remote fit time/memory is its own receipt.
+
+## Earlier checkpoints — historical only
+
+The material below records earlier states, including the browser-access interruption and pre-completion observations. It does not supersede the current checkpoint above.
+
+
 Status: OPEN / RUNNING — access restored. Pinned Instruct download COMPLETE and actual two-step rank64 MoE fit PASS. Initial 12 production passages processed, eight pairs accepted. Sixteen new passages at batch16 and the pinned Base download are running under supervisors. Full generation, both trainings, model evaluation and final reporting remain OPEN.
 
 Authority: Joel's two uploaded directives, approval to continue with 40 GB VRAM, and instruction to use his replacement instance with more disk. This is an experiment and authorizes no canonical article edits.

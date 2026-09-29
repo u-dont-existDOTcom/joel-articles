@@ -35,6 +35,16 @@ def memory():
             'reserved_gib': torch.cuda.memory_reserved()/2**30,
             'peak_gib': torch.cuda.max_memory_allocated()/2**30}
 
+def validate_complete_generation(data_path, originals, rows):
+    audit_path = data_path.parent / 'pairs-audit.jsonl'
+    audit = [json.loads(line) for line in audit_path.read_text().splitlines()]
+    assert len(audit) == len(originals) == 1200, 'Complete all 1,200 counterparts before either training'
+    assert len({r['id'] for r in audit}) == 1200 and {r['id'] for r in audit} == set(originals)
+    accepted = {r['id']: r for r in audit if r['accepted'] and r['split'] == 'train'}
+    assert len(rows) == len(accepted) and {r['id'] for r in rows} == set(accepted)
+    assert all(row == accepted[row['id']] for row in rows), 'Train on the exact open-judge-accepted rows'
+    return hashlib.sha256(audit_path.read_bytes()).hexdigest()
+
 def run(args):
     assert args.condition in MODELS
     model_id, revision = MODELS[args.condition]
@@ -43,6 +53,7 @@ def run(args):
     from generate_pairs import MODEL as GENERATOR, REVISION as GENERATOR_REVISION, SOURCE_SHA256
     assert hashlib.sha256(args.human_source.read_bytes()).hexdigest() == SOURCE_SHA256
     originals = {r['id']:r for r in (json.loads(l) for l in args.human_source.read_text().splitlines())}
+    audit_sha256 = validate_complete_generation(args.data, originals, rows)
     for row in rows:
         assert row['open_model'] == GENERATOR and row['open_model_revision'] == GENERATOR_REVISION
         assert row['human'] == originals[row['id']]['human']
@@ -61,6 +72,11 @@ def run(args):
         model, r=64, lora_alpha=64, lora_dropout=0, bias='none',
         target_modules=TARGETS, use_gradient_checkpointing='unsloth', random_state=SEED)
     model.peft_config['default'].revision = revision
+    actual_targets = model.peft_config['default'].target_modules
+    actual_targets = actual_targets if isinstance(actual_targets, str) else sorted(actual_targets)
+    actual_parameters = getattr(model.peft_config['default'], 'target_parameters', None)
+    if actual_parameters is not None and not isinstance(actual_parameters, str):
+        actual_parameters = sorted(actual_parameters)
     parameters = [(n,p) for n,p in model.named_parameters() if p.requires_grad]
     for _, parameter in parameters:
         parameter.data = parameter.data.to(torch.bfloat16)
@@ -86,11 +102,13 @@ def run(args):
     scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, multiplier)
     manifest = {'condition': args.condition, 'model': model_id, 'revision': revision,
                 'dataset_sha256': hashlib.sha256(args.data.read_bytes()).hexdigest(),
+                'complete_generation_audit_sha256': audit_sha256,
                 'examples': len(rows), 'document_ids': [r['document_id'] for r in rows],
                 'instruction': INSTRUCTION, 'serialization': 'identical plain prefix and human target in both conditions',
                 'prefix_suffix': '\n\nRewritten paragraph:\n', 'loss': 'human target plus EOS only; prompt labels -100',
                 'epochs': 2, 'rank': 64, 'alpha': 64, 'dropout': 0, 'bias': 'none',
-                'target_modules': TARGETS, 'routers': 'frozen', 'precision': 'bfloat16 adapters and computation',
+                'requested_target_modules': TARGETS, 'target_modules': actual_targets,
+                'target_parameters': actual_parameters, 'routers': 'frozen', 'precision': 'bfloat16 adapters and computation',
                 'optimizer': 'bitsandbytes PagedAdamW8bit', 'learning_rate': 2e-4,
                 'weight_decay': 0.01, 'microbatch': 1, 'gradient_accumulation': 8,
                 'gradient_clip_norm': 1.0, 'scheduler': 'cosine', 'warmup_steps': warmup,

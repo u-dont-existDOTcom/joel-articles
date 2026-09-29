@@ -1,11 +1,11 @@
 {
-  "processed": 12,
-  "accepted": 8,
+  "processed": 28,
+  "accepted": 21,
   "split_accepted": {
-    "train": 8,
+    "train": 21,
     "dev": 0,
     "test": 0
   },
-  "elapsed_seconds_this_run": 1462.008854150772,
-  "requests": 44
+  "elapsed_seconds_this_run": 629.7530121803284,
+  "requests": 102
 }

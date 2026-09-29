@@ -1,0 +1,21 @@
+{
+  "phase": "pilot step 2 AI-version spot-check",
+  "authority": "owner-invoked pilot, 20 AI versions before training",
+  "selection_sha256": "3c5c243ae3ac3a45f4be6aa3dc81c6f693e04091a6260d981a8aa5a2ee37e190",
+  "selection": "first 20 complete open-judge-accepted drafts by passage ID; frozen before Pangram scores",
+  "selected": 20,
+  "estimated_credits": 48,
+  "reserved_upper_allowance": 100,
+  "cap": 500,
+  "pilot_usage_before": 0,
+  "checks": {
+    "original_humans_and_documents_match_frozen_licensed_source": "PASS, 28 records",
+    "fresh_model_requests": "PASS, all 102 requests have one user message",
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507 at 0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+    "training_filters": "open Qwen bidirectional judgments only",
+    "raw_outputs": "PASS, no editing or detector-based selection",
+    "scope": "measurement only; Pangram scores never become training filter labels",
+    "E_holdout": "not accessed"
+  },
+  "status": "ADMITTED"
+}
