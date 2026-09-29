@@ -3908,7 +3908,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram.jsonl",
-          "sha256": "8f35bc9989be5e73683c4954af38bc4f6be00480cd2244efa2d31b482b21533c",
+          "sha256": "c23841a5edbe6ad45df6a10c58031911670247d7d5cd183b3f8be2343f33effa",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3933,6 +3933,48 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B02_after_a.details.txt",
           "sha256": "40dc535ddef93b802e4cf135ffe491a59c8a79ceec83ce5fc771e2f16f4865a0",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/active-baseline-queue.json",
+          "sha256": "8ff1d93d0f31f5abc9e8f3a144069ca07ef73304e99e09a090d1cf7031595710",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/admission-events.jsonl",
+          "sha256": "25ae3a6b02811f9eb6d9d5777343b810e4b71a88fd2a2eaab18610f3914231d7",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/neuro-de-armoring/sections/003-original-chunk01.md",
+          "sha256": "14d9a3d43764df250cd8c0dda7491b2844272f8f7b69452e484e35da93100a82",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/neuro-de-armoring/sections/003-original-chunk02.md",
+          "sha256": "758917fd0a8437950d16e57b54afa4562e304da2b573d4ed312ad7ab6d43158c",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/neuro-de-armoring/sections/003-original-chunk03.md",
+          "sha256": "3f7e325193e6dc56b48e10dc7f06ebe234726cce44a2b52ce8b2ad1cd2366fbf",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B03_w2_section.details.txt",
+          "sha256": "a27847599010ee80c6730e1fa4b49971f0ffd0276415c46c74b6e75f03fbc492",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_B03_w2_section.overview.txt",
+          "sha256": "c64da819d9c16fc40a327127e1c8b1da0216b541f7cb2cefdd52dfbbb25f3dec",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }
