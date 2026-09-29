@@ -1,0 +1,59 @@
+{
+  "source_sha256": "f730ced1f11795e9f30aa4464e2701fbaabd2b8e367dc7be22fc8fda4c359314",
+  "output_sha256": "da753f85f9fc724e960ccd4e14d6e000c074c78ac9ed856cea6db7f2b336baa5",
+  "source_sentence_count": 3,
+  "output_sentence_count": 5,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 96,
+      "output_start": 0,
+      "output_end": 119,
+      "source_text": "Your little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. ",
+      "output_text": "Because the little one wants to play too! I always tell my kids that the hard part in therapy is pl/ork (play + work). ",
+      "word_overlap": 0.5116279069767442,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 96,
+      "source_end": 280,
+      "output_start": 119,
+      "output_end": 292,
+      "source_text": "A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. ",
+      "output_text": "Many of the greatest discoveries in therapy, as we all know, can come from playing or messing around. Just like kids will tell you everything from the back seat of the car. ",
+      "word_overlap": 0.4057971014492754,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 280,
+      "source_end": 386,
+      "output_start": 292,
+      "output_end": 409,
+      "source_text": "So an afternoon of coloring badly together might do more than another hour of going over what went wrong.\n",
+      "output_text": "So messing around on a coloring page (badly of course) might be just what you need instead of talking things through.",
+      "word_overlap": 0.2,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

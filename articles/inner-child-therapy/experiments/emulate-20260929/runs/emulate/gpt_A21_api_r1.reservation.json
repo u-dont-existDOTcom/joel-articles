@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_A21_api_r1",
+  "input_file": "inputs/learning/A_joelfixes/A21_before.txt",
+  "input_words": 72,
+  "input_sha256": "f730ced1f11795e9f30aa4464e2701fbaabd2b8e367dc7be22fc8fda4c359314",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:25:44.581665+00:00",
+  "status": "completed",
+  "balance_before": 56288,
+  "provider_id": "330feb66-aa28-4ffa-a7bb-873cdd16fa3b",
+  "words_charged": 72
+}
