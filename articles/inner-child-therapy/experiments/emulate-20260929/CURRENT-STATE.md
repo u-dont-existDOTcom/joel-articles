@@ -1,7 +1,9 @@
 # Overnight run checkpoint
 
-Owner outcome OPEN; all external submissions authorized on 2026-09-29. Charge test complete: two options charged 180 words together. Website pricing default; API fallback admitted because selecting one option hides the other before its Copy control is available. A copied exactly; B DOM capture diagnostic only.
+Owner outcome OPEN. All external submissions approved; PDF downloads disabled after native Save As dialogs disrupted the owner. Exact detector result snapshots and spans remain the evidence.
 
-Balances: Emulate 57,837; Pangram latest 2,162. B01/B02 baseline rechecks both 100% AI, reproducing prior results. Originals/maps/input inventory/alignment helper prepared. No article rewrites or paid API POST yet.
+Emulate charge test: two website options charged180 total; balance57,837. A copied exactly; B DOM-only diagnostic. Website pricing default, API fallback for lossless capture. No new API humanization calls yet.
 
-Next: finish five historical rechecks and missing learning/article baselines, then exact Emulate outputs and all prescribed checks/splices; route Part 5 to Pro. Parent OPEN. No current authorization blocker. Own branch only; no article authority promotion. E_holdout content excluded.
+Pangram: 16 worker scans saved; latest balance2137. Five historical rechecks matched all earlier labels. Exact originals/maps/input inventory/source lint reports prepared. E_holdout sealed, no article authority promotion.
+
+Next: finish short learning and article baselines, then Part2 outputs/Part3 checks/Part4 mechanical experiments, and route Part5 reasoning to Pro. Own branch only, checkpoints pushed before another paid scan. Under50word baselines remain unmeasured at the GUI minimum.
