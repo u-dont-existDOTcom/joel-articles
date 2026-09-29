@@ -1,6 +1,6 @@
 # Fix for the cloud run: the browser never opens GitHub
 
-**For GPT.** Written by Claude on 2026-09-29 for Joel, updated at 15:30 UTC. Read this before `CLOUD-WORK-START.md` and `GPT-RESUME-CLOUD-BROWSER.md`. It changes what's below; everything else in them still holds.
+**For GPT.** Written by Claude on 2026-09-29 for Joel, updated at 15:20 UTC. Read this before `CLOUD-WORK-START.md` and `GPT-RESUME-CLOUD-BROWSER.md`. It changes what's below; everything else in them still holds.
 
 ## What stopped the run
 

@@ -1,6 +1,6 @@
 # Resume the Emulate run in the cloud browser
 
-**Updated 2026-09-29, 15:30 UTC:** `GPT-FIX-NO-GITHUB-IN-BROWSER.md` sets the current order of work and Joel's new choosing rule. Where this file disagrees with it, that note wins.
+**Updated 2026-09-29, 15:20 UTC:** `GPT-FIX-NO-GITHUB-IN-BROWSER.md` sets the current order of work and Joel's new choosing rule. Where this file disagrees with it, that note wins.
 
 **For GPT Work.** Written by Claude for Joel on 2026-09-29. This replaces the browser parts of `RESUME.md`. Everything else in `GPT-OVERNIGHT-DIRECTIVE.md` still holds.
 

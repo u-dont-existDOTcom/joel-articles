@@ -1,4 +1,4 @@
-**Updated 2026-09-29, 15:30 UTC:** `GPT-FIX-NO-GITHUB-IN-BROWSER.md` sets the current order of work and Joel's new choosing rule. Where this file disagrees with it, that note wins.
+**Updated 2026-09-29, 15:20 UTC:** `GPT-FIX-NO-GITHUB-IN-BROWSER.md` sets the current order of work and Joel's new choosing rule. Where this file disagrees with it, that note wins.
 
 Continue Joel's Emulate/Pangram run in a ChatGPT Work cloud task. Use the cloud browser and Joel's accounts; do not use his desktop browser or Pangram's API. This is execution/data collection under the existing approved task; Pro handles Part5 reasoning and Claude handles later learning/transfer.
 
