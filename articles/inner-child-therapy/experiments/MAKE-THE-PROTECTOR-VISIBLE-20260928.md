@@ -155,3 +155,34 @@ His P3 undoes my merge. It carries guide paragraph 3 only, so guide paragraph 4 
 **Open for Joel:**
 - his self-love sentence, which the reviewer flagged in 4 of 4 runs as a single cause the guide doesn't give (and the guide's next step says "don't decide which without looking");
 - the moldy bread, which repeats Borrow One Competency's "smelling that old food… and then trashing it" (5 of 5 runs).
+
+## Turn 4 (2026-09-29, from 20:37 UTC): Joel's rulings, P4 in, the afterward half stuck
+
+**Joel's 20:35 rulings, applied:**
+- "shows as clearly" is back in P2 ("a bit pedantic… the logic should be grounded in the meaning the reader needs to understand"); `reviewer/grounding.txt` now flags a strength shift only when it would change what the reader believes or does.
+- P1's "The only reason" became "The underlying reason": the error was the "only", and his stance is that lack of self-love underlies the other reasons.
+- The moldy bread went from P1. He asked me to choose. Borrow One Competency's old food carries the guide's Borrowed Protector "Eat" and comes first, while P1's bread was an extra beyond the guide's six acts.
+- Pangram: P1 100% Human (135 words), P2 100% Human (129), the section 100% Human (379).
+
+**Guide paragraph 4, split at its natural break.** It has two beats (before the act, after it), and Joel breaks paragraphs at two beats. Each half does one beat of the same guide paragraph; nothing crosses into another.
+
+| draft | round | cold read / grounding | Pangram alone |
+|---|---|---|---|
+| P4a x1 → x1b ("Intentional, meaning you pick one of those acts…") | 1 | the envelope and "those acts" come from P1/P2; "say it out loud ahead of time" was ambiguous, so it became "to yourself" / grounding all OK | 100% Human (81); section 100% Human (460). Installed as P4 |
+| P4a x2 → x2b (the sigh, "until there's no 'sorry' in front of it") | 1 | "a part you're dreading" read as a part of you; "the sigh" had no source; both fixed / grounding all OK | 100% AI (94) |
+| P4a x3 | 1 | — | linter FAIL (coach 4.3/100) |
+| P4b y1 → y1b, y2 → y2f, y3 → y3f | 1 | "the tick" unclear; y2 and y3 judged the act by how it felt, right after saying feeling better isn't the test; fixed to what actually changed / grounding otherwise OK | 100% AI, all three (111, 103, 110) |
+| P4b z1 (brief named the failed skeleton; the "doesn't prove it helped" point as a callback to the Checking section's question) | 2 | "again" points to the Checking section / grounding all OK | 44% AI (96): flagged only its last two sentences, the reasons |
+| P4b z1b (my rewrite of that span as Joel's own causal chain) | 2 | grounding all OK (chain backed by his ruling) | 100% AI (112) |
+| P4b z2 | 2 | grounding: MISSING "doesn't prove it helped" | not run |
+| P4b z3 | 2 | — | linter FAIL (coach 2.1/100) |
+
+**Lessons**
+
+- P15. Ground logic flags in what the reader needs. A plain "shows" where the guide says "can be" isn't worth a flag; "love will grow" is.
+- P16. Picking up the paragraph before's last word worked again. x1b opens "Intentional, meaning…" on Joel's "intentional", the way his "What's a 'boundary'?" did, and it passed on the first round.
+- P17. Vivid isn't human. x2b (the sigh, no "sorry" in front of it) was 100% AI; the plainer x1b passed.
+- P18. The afterward half has now failed in every form tried here and earlier (B02, B16, y1–y3). The first partial pass (z1, 44%) came from naming the failed skeleton in the brief: the parallel "If you didn't… / If you did…" frame, the reasons packed into one "or… or…" sentence, the list ending. Its flagged span is the reasons.
+- P19. My rewrite of a flagged span took the whole paragraph from 44% to 100% AI, even carrying Joel's own reasoning, like "Will they, though?" on 2026-09-28. Span fixes are his.
+
+**Open:** a minimal fix from Joel on z1's last two sentences.

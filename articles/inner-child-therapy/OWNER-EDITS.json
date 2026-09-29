@@ -313,9 +313,9 @@
    "joel": "22:12 UTC: \"then look how i flipped it to human med conf with only one little change that broke up the marching order\"",
    "must_contain": [
     "\"What's a 'boundary'?\", I might be asking.",
-    "or your DUIs in Maryland",
-    "Throw the moldy bread in the trash."
-   ]
+    "or your DUIs in Maryland"
+   ],
+   "note": "The moldy bread was cut on 2026-09-29 at Joel's request (\"you tell me which moldy foood should go\"); see mpv-p1-moldy-cut."
   },
   {
    "id": "mpv-h2-hero",
@@ -331,7 +331,7 @@
   },
   {
    "id": "mpv-p1-self-love",
-   "status": "applied",
+   "status": "superseded",
    "what": "P1 under the new h2: no \"So\" at the start, and Joel's added sentence after the relationship line.",
    "joel": "2026-09-29 19:14 UTC: \"on this version after title change, last sentence was ai (yes, and it does sound like it) ... so i fixed it and it is also more in line with the guide\"",
    "must_contain": [
@@ -340,7 +340,8 @@
    ],
    "must_not_contain": [
     "So set one boundary."
-   ]
+   ],
+   "superseded_by": "mpv-p1-underlying"
   },
   {
    "id": "mpv-p3-joel",
@@ -368,6 +369,42 @@
    "must_not_contain": [
     "It's proof you love them",
     "They complain about something, they're right"
+   ]
+  },
+  {
+   "id": "mpv-p1-underlying",
+   "status": "applied",
+   "what": "P1's self-love sentence says \"underlying reason\", not \"only reason\".",
+   "joel": "2026-09-29 20:35 UTC: \"that's good you caught my own error, lack of self love isn't the only reason to stay in an unsafe relationship, but it is the underlying reason. if you lack self love, all the others will follow: uncertainty about your goals, lack of skill follows that uncertainty, exhaustion follows that uncertainty and the lack of skill, practical barriers are less actual barriers when the goal is understood to be self love\"",
+   "must_contain": [
+    "The underlying reason you're in it anyway is because of a lack of self-love, and you can build that now."
+   ],
+   "must_not_contain": [
+    "The only reason you're in it anyway"
+   ]
+  },
+  {
+   "id": "mpv-p1-moldy-cut",
+   "status": "applied",
+   "what": "The moldy bread goes from P1. Borrow One Competency keeps its old-food example, because that one carries the guide's Borrowed Protector \"Eat\" and comes first; in P1 the bread is an extra beyond the guide's six acts.",
+   "joel": "2026-09-29 20:35 UTC: \"you tell me which moldy foood should go, which one makes sense to go or replace?\"",
+   "must_contain": [
+    "actually smelling that old food you're about to eat and then trashing it if it smells a little weird"
+   ],
+   "must_not_contain": [
+    "Throw the moldy bread in the trash."
+   ]
+  },
+  {
+   "id": "mpv-p2-shows",
+   "status": "applied",
+   "what": "P2's visibility line goes back to \"shows as clearly\"; the \"can be as visible\" hedge was pedantic.",
+   "joel": "2026-09-29 20:35 UTC: \"i think you were being a bit pedantic with: \\\"shows as clearly\\\" was a flat claim where the guide says \\\"can be as visible\\\"... the logic should be grounded in the meaning the reader needs to understand\"",
+   "must_contain": [
+    "All of that shows as clearly to them as the clean room did."
+   ],
+   "must_not_contain": [
+    "can be as visible to them"
    ]
   }
  ]
