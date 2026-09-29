@@ -1,0 +1,57 @@
+{
+  "source_sha256": "4eea025dc05054027b8ec26c7573b36df30450e1b77554b421dd7b130eb10368",
+  "output_sha256": "59a008d2aac5362e3d8ff46045d57a2e730a4d0f59ee29a8733cca166a6d924d",
+  "source_sentence_count": 4,
+  "output_sentence_count": 3,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 0,
+      "output_start": 0,
+      "output_end": 106,
+      "source_text": "",
+      "output_text": "It’s important to point out that in this post I am assuming that you want to be good to your inner child. ",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 0,
+      "source_end": 257,
+      "output_start": 106,
+      "output_end": 241,
+      "source_text": "I've been writing this whole guide as if everybody who tries it wants to take care of the inner child. Some people get a little rush out of making somebody scared or small, though, or they're honestly hoping therapy will make them better at working people. ",
+      "output_text": "It is possible that you might enjoy scaring your inner child, or belittling it, or want to “fix” it so it becomes a better worker bee. ",
+      "word_overlap": 0.13513513513513514,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 257,
+      "source_end": 391,
+      "output_start": 241,
+      "output_end": 348,
+      "source_text": "For such folks, inner child therapy is clearly not the place to start. They need to first deconstruct the adult identity they've got.\n",
+      "output_text": "If that’s the case, you need to deconstruct your adult self first, before embarking on inner child therapy.",
+      "word_overlap": 0.13953488372093023,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
