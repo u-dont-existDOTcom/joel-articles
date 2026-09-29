@@ -1,0 +1,76 @@
+{
+  "source_sha256": "9dbb0fb835ce45d625e2eca527baa323123046342a9f02a587d209354348ece8",
+  "output_sha256": "6ce9b9e43ff477b23e7d5163cb2cf8c8a3ce813f54f3ca44c6fc5255312632fe",
+  "source_sentence_count": 6,
+  "output_sentence_count": 5,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 90,
+      "output_start": 0,
+      "output_end": 94,
+      "source_text": "You might notice the hook before you have any clue what part of you is doing the hooking. ",
+      "output_text": "Sometimes you'll notice you're hooked before you know which part of you is doing the hooking. ",
+      "word_overlap": 0.6111111111111112,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 90,
+      "source_end": 283,
+      "output_start": 94,
+      "output_end": 287,
+      "source_text": "Or you might notice it embarrassingly late. The jaw is already tight, the stomach is already involved, half the text is written, and then you remember you're supposed to be observing yourself. ",
+      "output_text": "Sometimes you won't notice it until you've already tensed up your jaw, or whatever, and until you've already done some part of reacting—until you've already written half the text, for example. ",
+      "word_overlap": 0.2608695652173913,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3,
+        4
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 283,
+      "source_end": 367,
+      "output_start": 287,
+      "output_end": 367,
+      "source_text": "Maybe forget the parts detective work for a minute. You can figure that out later.  ",
+      "output_text": "It's okay to forget, for the time being, to try to figure out which part it is. ",
+      "word_overlap": 0.24242424242424243,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        5
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 367,
+      "source_end": 460,
+      "output_start": 367,
+      "output_end": 567,
+      "source_text": "Pema Chödrön calls this tightening and urge before the story has finished forming, \"shenpa.\"\n",
+      "output_text": "Just be aware, as Pema Chödron has explained , that there's a kind of tightening, a kind of \"I need to do something\" sensation that comes before you finish making up the story. She calls this shenpa .",
+      "word_overlap": 0.1568627450980392,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
