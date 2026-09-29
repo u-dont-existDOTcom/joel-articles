@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B22_api_r1",
+  "input_file": "inputs/learning/B_protector/B22_r2_out3B.txt",
+  "input_words": 72,
+  "input_sha256": "b854d001abb9869781058c0bf3cff47d7a13e1bc5eb17ca83195b80a512072c8",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:38:37.516950+00:00",
+  "status": "completed",
+  "balance_before": 53509,
+  "provider_id": "27a1cf33-702f-46f8-9ee6-c5b0b6c4db5a",
+  "words_charged": 72
+}

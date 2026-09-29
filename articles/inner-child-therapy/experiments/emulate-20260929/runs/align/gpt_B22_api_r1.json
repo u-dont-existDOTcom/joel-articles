@@ -1,0 +1,58 @@
+{
+  "source_sha256": "b854d001abb9869781058c0bf3cff47d7a13e1bc5eb17ca83195b80a512072c8",
+  "output_sha256": "282cc5d6e736c8024c4e3b9b6001a7a9b0264c1f0c492c097d6808a91c7d5378",
+  "source_sentence_count": 3,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 113,
+      "output_start": 0,
+      "output_end": 97,
+      "source_text": "You can tell your little one \"I've got you,\" and they've heard it plenty, usually right before nothing happened. ",
+      "output_text": "“You’ll be okay, I’ve got you.” They’ve heard you say that before and nothing bad ever happened. ",
+      "word_overlap": 0.5365853658536586,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 113,
+      "source_end": 246,
+      "output_start": 97,
+      "output_end": 239,
+      "source_text": "When the laundry that's been on your chair since the ninth gets put away with nobody even coming over, they notice who that was for. ",
+      "output_text": "Now you’re finally getting around to doing the laundry that has sat on the end of the chair since nine last night and… Yeah, that’s about it. ",
+      "word_overlap": 0.2545454545454545,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 246,
+      "source_end": 386,
+      "output_start": 239,
+      "output_end": 326,
+      "source_text": "That's about the size of most of it, though the Protector also gets you out of a relationship that isn't safe for you, if it comes to that.\n",
+      "output_text": "Sometimes, though, the Protector may need to get you out of a not-so-safe relationship.",
+      "word_overlap": 0.34782608695652173,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
