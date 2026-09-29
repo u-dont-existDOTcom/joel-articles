@@ -1,0 +1,62 @@
+# Appendix C: The extended de-hypnosis checklist
+
+Use this checklist when a person, advertisement, ideology, spiritual teaching, romantic pull, or inner voice is pressing too hard.
+
+“I notice influence is happening. I do not need to obey it or attack it. I can slow down. I can ask what is being presupposed. I can ask who benefits. I can notice what my body is signaling without assuming what it proves. I can ask what love, truth, humility, and ordinary life would require.
+
+If this is true, it will survive questions. If this is love, it will survive boundaries. If this is guidance, it will survive sleep. If this is for me, it will not require me to abandon my adult self.”
+
+Before acting, ask:
+
+Is there urgency?
+
+Is there secrecy?
+
+Is there shame?
+
+Is there a threat of exclusion?
+
+Is there a promise of specialness?
+
+Is there sexual charge?
+
+Is there spiritual superiority?
+
+Is there a demand for money, sex, loyalty, silence, or obedience?
+
+Is there a narrowing of choices?
+
+Is questioning treated as betrayal?
+
+Is resistance pathologized?
+
+Is ordinary life being downgraded?
+
+Is the child part being seduced, scared, or rescued?
+
+Is the adult self still allowed to say no?
+
+Several yes answers mean slow down. Don’t deepen trance or make an irreversible decision. Return to the room, body, food, sleep, time, and counsel.
+
+A good guide increases your adult self. A bad guide replaces it. A good guide can tolerate your no. A bad guide calls your no resistance, ego, fear, low vibration, trauma, sin, or proof that you need more of their guidance.
+
+## Hypnosis-specific audit
+
+Before accepting a recording or live suggestion, ask:
+
+Was I plainly told that induction mechanics are being used?
+
+Can at least one answer lead to pause, modification, full alertness, or stopping?
+
+Does the speaker treat not noticing as secret proof that the process worked?
+
+Are roles, ownership, obedience, age, identity, or belonging being used to lower adult judgment?
+
+Are fractionation, cues, later behavior, or memory effects disclosed before they are used?
+
+Are ordinary body sensations being turned into evidence for a hidden claim?
+
+Does the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?
+
+When an answer is unclear, stay fully alert. Ask for the exact script, change the method, or leave.
+

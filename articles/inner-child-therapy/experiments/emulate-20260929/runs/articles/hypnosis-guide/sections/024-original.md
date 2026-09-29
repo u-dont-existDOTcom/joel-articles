@@ -1,0 +1,30 @@
+# Capacity before content
+
+Altered-state rule: do not ask for hidden truth while medically unsafe, panicking, sleep-deprived, nauseated, destabilized, manic, psychosis-like, or chemically overwhelmed. First stabilize. Truth that requires destabilization is not ready to be known directly. Ask for capacity, not content.
+
+Sometimes it feels as though the subconscious knows something the conscious mind can’t yet tolerate. The subject may be sexuality, grief, trauma, family truth, betrayal, shame, vocation, relationship reality, illness fears, spiritual calling, addiction, identity, or moral conflict.
+
+Interrogation is the dangerous response:
+
+“Tell me now.” “Reveal everything.” “Stop hiding.” “I demand the truth.”
+
+That pressure can produce flooding, panic, false certainty, confabulation, dissociation, or a generally worse Tuesday. Flooding can make the adult capacities needed for pausing, comparing options, reality-testing, planning, and choosing much harder to reach. In that state, regulation and support come before deeper dialogue. Silence may be protection when the adult lacks enough regulation, support, humility, or practical capacity to receive the material.
+
+Ask for the next tolerable piece:
+
+“Do I need to know the content now, or do I need to build capacity first?”
+
+“What would make the conscious mind 5% more able to receive this?”
+
+“Can you show me the truth as a symbol, not a full revelation?”
+
+“Can you give me the next protective action without revealing the whole story?”
+
+“Who, if anyone, should help me hold this?”
+
+A safer script:
+
+“Wise subconscious, if there is something I cannot yet handle, please do not break it open violently. Help me become someone who can know it safely. Give me preparation before revelation. Give me grounding before memory. Give me support before intensity. Give me one next action.”
+
+Hypnotic imagery can be meaningful without being literal. The mind symbolizes, compresses, distorts, dramatizes, and borrows from culture and fear. Around trauma and memory especially, treat an image as an image and involve outside support when needed.
+

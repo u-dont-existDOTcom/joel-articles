@@ -1,0 +1,44 @@
+# The Best Model I’ve Seen: Zapatistas
+
+[image 14](https://substackcdn.com/image/fetch/$s_!1QJp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F745198f3-56e4-42d3-aa6b-1a608ea4b0ef_860x513.jpeg)
+
+[caption] A Zapatista Schoolhouse. It reads: Worthy Rage (Digna Rabia)
+
+In 2005, a few college friends and I visited Oventik, one of the Zapatista *caracoles* in Chiapas. We nearly died several times getting there. The mountain road wrapped around cliffs, and our rental car was barely functioning—a nice combination when you’re trying to visit a revolution.
+
+In San Cristóbal de las Casas, the only white man we met sat us down in a café and questioned us so directly that he appeared to be a CIA agent. Why were we there? Who did we work with? What were our plans? When were we leaving?
+
+It made us feel briefly important. We were college kids in a dying rental car, but apparently the empire had questions. 😂
+
+Oventik itself felt like a real dream. We played basketball with Zapatista youth on an outdoor court. People gave us talks about their history and philosophy, and I translated for my friends because my Spanish was better. Visitors from around the world were coming to learn and to make the communities less easy to attack in silence.
+
+The Zapatistas felt deeply spiritual to me. I also suspect there may be a private relationship with ayahuasca, but nobody told me that, and I present it only as my impression—not as fact.
+
+What impressed me most was their form of authority: *mandar obedeciendo*, leading by obeying. Representatives carry assembly decisions and remain answerable to the people who gave the mandate.
+
+The Zapatistas are also the closest whole example I found because autonomy there is not merely a voting method. They have built their own education, health, justice, collective production, political formation, and ways of teaching outsiders, while coordinating beyond a single village.
+
+[*The Fire and the Word*](https://www.amazon.com/Fire-Word-History-Zapatista-Movement/dp/087286488X) describes the movement growing from family to village, village to region, and region to larger structures. It also gives one of the most useful Zapatista principles for community design: build the practice first and develop the theory afterward. The autonomous municipalities came first; an association of them became a rehearsal for the Good Government Boards. When different municipalities encountered different problems and uneven progress, that experience generated another structure rather than being forced to fit the original plan.
+
+In 2023, the Zapatistas announced that they were dissolving the Rebel Zapatista Autonomous Municipalities and Good Government Juntas after a long internal review. Their [new arrangement](https://enlacezapatista.ezln.org.mx/2023/11/13/ninth-part-the-new-structure-of-zapastista-autonomy/) moved authority toward Local Autonomous Governments in each community. Those local bodies can coordinate through regional collectives, but the coordinating levels are explicitly described as dependent on the communities rather than superior to them.
+
+Most institutions accumulate layers and offices as they age. The Zapatistas reviewed theirs and pushed authority downward. They did not issue a leadership book and open a certification program. They changed the system they were actually living in.
+
+This is also where I need to restrain my enthusiasm. Zapatista autonomy grew from Indigenous communities with long histories, shared land struggles, language, kinship, and decades of collective defense. A new ecovillage cannot copy the visible diagram and instantly acquire the trust beneath it.
+
+The Zapatistas themselves have warned people not to import or export Zapatismo as a ready-made model. The useful thing is not their diagram. It is how they learn: build, ask, discover where practice fails, and change the structure.
+
+They are also not proof of my complete economic path from unpriced internal necessities, to a common purse, to eliminating outside money. Zapatista communities use collective work to support schools, clinics, autonomous government, and resistance; they also sell products, trade, and receive outside support. What they demonstrate is that major necessities and public functions can be taken out of ordinary market purchase and governed collectively. Outside help can build capability, but it can also create gatekeepers and uneven dependence when the specialist, donor, or organization remains indispensable.
+
+[image 15](https://substackcdn.com/image/fetch/$s_!ba5Q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee14d04d-c0b9-4c24-ab61-ec02ec78ff8a_680x452.jpeg)
+
+[caption] *Escuelita Zapatista — The Zapatista school to teach outsiders their way of life*
+
+For the tenth anniversary of their autonomous governments, the Zapatistas opened the [*Escuelita*](https://schoolsforchiapas.org/advances/schools/la-escuelita/). Outsiders lived with families and learned autonomy by participating in ordinary life. The first sessions brought around 1,500 students, with later sessions bringing thousands more.
+
+An *escuelita* can fail by becoming a visitor business. Residents spend their lives performing community for paying outsiders, and guest numbers replace daughter communities as the success metric. The point is not to make people feel transformed for a week. It is to teach enough of the social and material system that some can build elsewhere.
+
+In [my research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/), I also tried to trace what happened after the *Escuelita*. I found alumni networks, people carrying practices home, and later organizing. What I did not find was a clean chain from an *Escuelita* student to a newly founded communal institution and then evidence about how that institution’s members and children actually did over time. Zapatista influence was already traveling internationally before the *Escuelita*, so later resemblance alone doesn’t prove descent. I’m borrowing a pedagogy and a replication ambition, not claiming the Zapatistas already proved my whole model.
+
+[Sociocracy](https://www.sociocracyforall.org/sociocracy/) reaches some similar forms from a very different history: circles, consent, distributed authority, and links between levels. The resemblance doesn’t prove a universal formula. It gives builders another serious system to study instead of inventing governance during their first dispute.
+

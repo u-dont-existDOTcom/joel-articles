@@ -1,0 +1,13 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/claude_test_B02_after_a_opt2.txt
+verdict: REVIEW
+metrics: {'words': 114, 'my_words': 114, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 14.0, 'landing_rate': 1.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 1.05, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * If you did it but didn’t feel any better, that’s ok, the action might not have been beneficial to you, but if it was something important that made you safer, cl
+-- B2 contrast (1)
+   * If you did it but didn’t feel any better, that’s ok, the action might not have been beneficial to you, but if it was something important that made you safer, cl
+-- B4/E15 list or packed sentence (1)
+   * If you did it but didn’t feel any better, that’s ok, the action might not have been beneficial to you, but if it was something important that made you safer, cl
+-- B7 short landing at paragraph end (1)
+   * Had your friend not got back to you?
+-- E36/E41 heavy second person (1)
+   * 14.0 "you" per 100 of my words

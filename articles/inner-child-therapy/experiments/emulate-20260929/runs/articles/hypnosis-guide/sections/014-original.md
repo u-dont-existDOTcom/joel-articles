@@ -1,0 +1,40 @@
+# A useful map of the mind
+
+In this guide, *subconscious* means the deeper processes shaping perception, emotion, desire, avoidance, imagery, memory, bodily signals, habits, intuition, and automatic behavior. Sometimes it helps to address all of that as one mind; sometimes an ecology of parts gives more precision. Both are maps. Neither needs its own priesthood.
+
+Parts give precision. Higher Self gives coherence. Communion is the movement between them.
+
+When you need coherence, speak to the deeper mind as a whole:
+
+“Wise subconscious, please help me understand.”
+
+When you need precision, notice the different tendencies inside it: the child wanting love, the protector wanting safety, the critic wanting standards, the fantasy-maker wanting possibility, the body memory wanting recognition, the social self wanting belonging, the spiritual self wanting God or source or the benefit of all beings, and the wiser part wanting what is true.
+
+Begin with unity when the system feels scattered:
+
+“Higher Self, universal heart-mind, wise subconscious, please guide me.”
+
+Differentiate only when the question needs it:
+
+“Which part of me is afraid?” “Which part is protecting?” “Which part is avoiding?” “Which part knows the next step?” “Which part is too young to carry this?”
+
+Then bring the parts back into one life:
+
+“Let all of this belong to one life. Let the adult self lead with love.”
+
+## Sometimes start with the whole
+
+Some people feel more fragmented when they begin by naming twelve parts and assigning everybody office space. Start with the sacred whole when that happens.
+
+“I begin from the universal heart. I begin from Higher Self. I begin from the part of me that belongs to life before it belongs to any wound, role, family, group, identity, ideology, or story. Please help me understand what is true, kind, timely, stabilizing, and useful.”
+
+If Higher Self, the universal heart, or any sacred language feels unavailable or borrowed from somebody else, begin with plain witnessing instead. Notice the room, the body, and the younger state. The fact that something can notice is enough adult presence for the first step.
+
+If you can already notice and distinguish what is happening inside, you don’t need to keep rehearsing the Witness. Work with the warmth, protection, or direction that is actually missing. Higher Self language can help you gather around a meaningful source of care; it doesn’t establish that a perfectly capable inner parent is already available. Those adult functions still grow through practice.
+
+Differentiate only when something specific appears:
+
+“Is this the inner child?” “Is this a protector?” “Is this the body?” “Is this fear?” “Is this intuition?” “Is this social conditioning?” “Is this divine guidance, or my interpretation of guidance?”
+
+Start from the heart. Differentiate only as needed. Return to the heart.
+

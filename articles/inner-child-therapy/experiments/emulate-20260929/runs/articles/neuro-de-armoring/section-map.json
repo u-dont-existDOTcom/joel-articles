@@ -1,0 +1,1574 @@
+[
+  {
+    "section_id": "neuro-de-armoring-h1-001",
+    "heading": "[image 1](https://substackcdn.com/image/fetch/$s_!ynMU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff12376e5-68be-420d-8489-5dd9ceae39b3_1122x1402.png)",
+    "source_start": 0,
+    "source_end": 220,
+    "text_file": "runs/articles/neuro-de-armoring/sections/001-original.md",
+    "words": 2,
+    "sha256": "4f8b65ba6cb7232cbd1db8a95dd80a689020419c462b2fbba4f5ed45395576a1",
+    "requires_split": false,
+    "paragraph_spans": [
+      {
+        "block_id": "neuro-de-armoring-h1-001-b001",
+        "start": 0,
+        "end": 218,
+        "kind": "image",
+        "sha256": "7b22752d3c8b94cc0aee42e3a11f09181ce8311e785f3afdf445e679db56303b",
+        "baseline_flagged": null
+      }
+    ]
+  },
+  {
+    "section_id": "neuro-de-armoring-h1-002",
+    "heading": "# Introduction",
+    "source_start": 220,
+    "source_end": 1635,
+    "text_file": "runs/articles/neuro-de-armoring/sections/002-original.md",
+    "words": 165,
+    "sha256": "9420bf3c3c1a3d8a8d3867cbb5d21f18024ad665d3bcbb0acd161227a875a7ea",
+    "requires_split": false,
+    "paragraph_spans": [
+      {
+        "block_id": "neuro-de-armoring-h1-002-b001",
+        "start": 220,
+        "end": 234,
+        "kind": "heading",
+        "sha256": "1cfabb9fbf64272210f460dda2e83849fc87153cd78f2a983507fc8c332e19fd",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-002-b002",
+        "start": 236,
+        "end": 1061,
+        "kind": "prose_or_list",
+        "sha256": "ac568a2035f6f5443b4b6ce14b9dc99050751bd8f6329ee335895cf9d3495284",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-002-b003",
+        "start": 1063,
+        "end": 1415,
+        "kind": "prose_or_list",
+        "sha256": "58afefcceebf79c7c146e58298cf4c66f95d5ae48ca01b5106c379671588669b",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-002-b004",
+        "start": 1417,
+        "end": 1633,
+        "kind": "image",
+        "sha256": "780d397d4fce0d516e9c7380535c8afa76663a4f125c9182ebe19431f43c62d4",
+        "baseline_flagged": null
+      }
+    ]
+  },
+  {
+    "section_id": "neuro-de-armoring-h1-003",
+    "heading": "# The “Biological Resilience” Protocol",
+    "source_start": 1635,
+    "source_end": 41888,
+    "text_file": "runs/articles/neuro-de-armoring/sections/003-original.md",
+    "words": 5697,
+    "sha256": "88475d9a3bca5d89a02dd36ddcf453adfb12acb57a78026bc93e444975a838c6",
+    "requires_split": true,
+    "paragraph_spans": [
+      {
+        "block_id": "neuro-de-armoring-h1-003-b001",
+        "start": 1635,
+        "end": 1673,
+        "kind": "heading",
+        "sha256": "8aa37ad4fd53f9b1ad755cea3eaeff565f7e72cde16dbccd47893a967e148627",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b002",
+        "start": 1675,
+        "end": 1714,
+        "kind": "heading",
+        "sha256": "c85d3f1f9fcf1aef142a99f0d133fe6e4fd9639c91d1842b61b8f74134f42c28",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b003",
+        "start": 1716,
+        "end": 2028,
+        "kind": "prose_or_list",
+        "sha256": "4daf85cb922c306d6dc5896b6cb5dafd82d69a5a9c39313084c8edc37fc88086",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b004",
+        "start": 2030,
+        "end": 2108,
+        "kind": "prose_or_list",
+        "sha256": "3b238186b47053c562162615f6362f5644d1a34b405706fcd7e8081293344a51",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b005",
+        "start": 2110,
+        "end": 2411,
+        "kind": "prose_or_list",
+        "sha256": "4c0816d2064598980ab25a0b1d996bf59565c630be97825f50e5d09f5d5135c7",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b006",
+        "start": 2413,
+        "end": 2866,
+        "kind": "prose_or_list",
+        "sha256": "1f443e9b39ee0c2b111a66f45e970a6fc8ac853417f451daa1deeb9c4e3137eb",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b007",
+        "start": 2868,
+        "end": 3055,
+        "kind": "prose_or_list",
+        "sha256": "7e570a766591483352370c404e727818107d17fb8dcf9950a3ef58fa230d6ecf",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b008",
+        "start": 3057,
+        "end": 3331,
+        "kind": "prose_or_list",
+        "sha256": "79207b13c0fb8cd5f4972d8cd73ce9617b09d15c37627048c460e41b270153ff",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b009",
+        "start": 3333,
+        "end": 3684,
+        "kind": "prose_or_list",
+        "sha256": "0942a4acc3b8e580b9a696d24ea5cea974a829644d7d7619d5c29eb880f53ed4",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b010",
+        "start": 3686,
+        "end": 3990,
+        "kind": "prose_or_list",
+        "sha256": "7aea888bb88596c2dc34b12a08cf685b5db9f18e334e06b40fb164ff7544c939",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b011",
+        "start": 3992,
+        "end": 4402,
+        "kind": "prose_or_list",
+        "sha256": "38752be49c947884897f6386ab002aab2f8a86c68fecf5bbec9111747be0820b",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b012",
+        "start": 4404,
+        "end": 4698,
+        "kind": "prose_or_list",
+        "sha256": "e12c8e32f8812a8cb2c3c061ae413500cb5f4e03f36d3ccf11aa9324794c6e1c",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b013",
+        "start": 4700,
+        "end": 5391,
+        "kind": "prose_or_list",
+        "sha256": "a7fbd66b0f2c3f4933b909a15aaaf29422f64dfb395e3c666683a3564754d5a3",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b014",
+        "start": 5393,
+        "end": 5822,
+        "kind": "prose_or_list",
+        "sha256": "a944b7226c6260a1362c420e51f2b32275b4aedfd70f999489777b1f2ff9e1d6",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b015",
+        "start": 5824,
+        "end": 5879,
+        "kind": "heading",
+        "sha256": "1ae4261939fa8ffdbcbedeac6586d6a091acdbadccca6d89d7ca73070d4018d8",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b016",
+        "start": 5881,
+        "end": 6220,
+        "kind": "prose_or_list",
+        "sha256": "1634720e4e49436cc6b3d0b5727b0a0af2f27b04284c257eee3a3b1ed9ec74f1",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b017",
+        "start": 6222,
+        "end": 6523,
+        "kind": "prose_or_list",
+        "sha256": "71c66de4188390b5644e6192336b5e2c6e734e87cc2429ea477128acc735d332",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b018",
+        "start": 6525,
+        "end": 6575,
+        "kind": "prose_or_list",
+        "sha256": "9882f3ba9e5b16f4a47fa7e147eeca6d32250713e81321a60588f45bdc8a60a3",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b019",
+        "start": 6577,
+        "end": 7836,
+        "kind": "prose_or_list",
+        "sha256": "72b0e17452355b54ef1f70516367ddbeea444e06d03b6c16b2e09089e8606f15",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b020",
+        "start": 7838,
+        "end": 8179,
+        "kind": "prose_or_list",
+        "sha256": "868d2f29014ea16bc97a68ac21539a3eaf31a94a3363bf4f1a43ac225d735d08",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b021",
+        "start": 8181,
+        "end": 8522,
+        "kind": "prose_or_list",
+        "sha256": "3fe61d377e73c3befe3702ae2d431248b70bce2e7c2810fb0505f71fc6afface",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b022",
+        "start": 8524,
+        "end": 8900,
+        "kind": "prose_or_list",
+        "sha256": "3cb5bcc69816d2b433ffe9f45b35db74c735762f10e11212a7f1f44fd2292d09",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b023",
+        "start": 8902,
+        "end": 9267,
+        "kind": "prose_or_list",
+        "sha256": "e48a287f8b8616289ef60cc53b757af0a03b34f65748901c6bb7832aa69cd739",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b024",
+        "start": 9269,
+        "end": 9474,
+        "kind": "prose_or_list",
+        "sha256": "d1ae7b7aa5be742b1caab1430a180d11379c67a2bf8ec3fb6ffcc5dd9c38c0c9",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b025",
+        "start": 9476,
+        "end": 9516,
+        "kind": "heading",
+        "sha256": "a9b4f7732fef733c455250951f5e2552e19d00781e7dd1203ac50af5571def88",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b026",
+        "start": 9518,
+        "end": 9654,
+        "kind": "prose_or_list",
+        "sha256": "ab3183b2075c9f515637e17c462d75dc6b0437974804c89dfca3bda3541e8400",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b027",
+        "start": 9656,
+        "end": 9686,
+        "kind": "heading",
+        "sha256": "86cb5332d33c7c15911993513a401d7459db8737f80b5e3d6ac05e5f73bac7ff",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b028",
+        "start": 9688,
+        "end": 10073,
+        "kind": "prose_or_list",
+        "sha256": "07497e118ba34b2e88715bec4a53bd5e44cd993f9bacd367e7356e12babc36bf",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b029",
+        "start": 10075,
+        "end": 10428,
+        "kind": "prose_or_list",
+        "sha256": "b68dfb31f2d776348341a4ef3b3072492e0ae94f46d9c7e71313c6cf2a3dbcb0",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b030",
+        "start": 10430,
+        "end": 10485,
+        "kind": "heading",
+        "sha256": "0654a613a146eb51f15015699969fa6b4faf2193e6c3913386c2fa65f6e7cf1b",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b031",
+        "start": 10487,
+        "end": 10668,
+        "kind": "prose_or_list",
+        "sha256": "05992cd3c962629798e177d6e4c0be02539a416277276381c27ec8d83ca8a42f",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b032",
+        "start": 10670,
+        "end": 11451,
+        "kind": "prose_or_list",
+        "sha256": "8b3eea2be34c3a3d1f31522a2ad25df7262c068886e9a785a52d86aa0b416429",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b033",
+        "start": 11453,
+        "end": 11692,
+        "kind": "prose_or_list",
+        "sha256": "bf7263b2eabc3af305a2dd9df89a8a9d9038b046106cc4a9eb8fb0cfca0be59c",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b034",
+        "start": 11694,
+        "end": 12203,
+        "kind": "prose_or_list",
+        "sha256": "1c4b95777b88eddec9ec2b6ca870aba434f687ce3a0739f190b3fb55981f5805",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b035",
+        "start": 12205,
+        "end": 12952,
+        "kind": "prose_or_list",
+        "sha256": "676f961f7094d70804cb54714f55f81930ccb7e1ac9a9192e9aa477c6cb6cac9",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b036",
+        "start": 12954,
+        "end": 13061,
+        "kind": "prose_or_list",
+        "sha256": "7ba02eb9d8cd274f62533549e642534251da55efb8ad4ac8cbf1ec4cb973f3e4",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b037",
+        "start": 13063,
+        "end": 13149,
+        "kind": "prose_or_list",
+        "sha256": "c636094da222d56b8099f899cd9e8cd33c3fa5bd801b44b48727ba721fbc3cd4",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b038",
+        "start": 13151,
+        "end": 13572,
+        "kind": "prose_or_list",
+        "sha256": "40ae84bf72a495dba13d38f70e46c0c88c99ba81f71042f89d4211c4418d5711",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b039",
+        "start": 13574,
+        "end": 13904,
+        "kind": "prose_or_list",
+        "sha256": "933a7aeb389e66db5e892ed4476342f11f9dc39f06d896106bb3313e8134c953",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b040",
+        "start": 13906,
+        "end": 14261,
+        "kind": "prose_or_list",
+        "sha256": "4db451509d1d98cb24bada49d57ae13012a9c3b9392c60bcb2a2c53c220ecbaf",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b041",
+        "start": 14263,
+        "end": 14316,
+        "kind": "heading",
+        "sha256": "d81226ebb8ecfffbcc300abc6114653efc0186ef426943e4c3f00458a6e68140",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b042",
+        "start": 14318,
+        "end": 14548,
+        "kind": "prose_or_list",
+        "sha256": "2e0465848cd8383a76c1372158d7b2f52f99edcc6cf626fa0ef088cff76b6617",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b043",
+        "start": 14550,
+        "end": 14922,
+        "kind": "prose_or_list",
+        "sha256": "f255250273e5ebe5acff66066ceb60b22e56bb75575746d75320b33329ca17ec",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b044",
+        "start": 14924,
+        "end": 15266,
+        "kind": "prose_or_list",
+        "sha256": "5d83a1ab37ac07709f17158194e167ecddcb612838a6ef7b4b73e075084fd76f",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b045",
+        "start": 15268,
+        "end": 15492,
+        "kind": "prose_or_list",
+        "sha256": "fac7deb2d4e4c598b566f441c6fb25172e5c76a316e8a2c006ea36a55e5fa732",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b046",
+        "start": 15494,
+        "end": 15529,
+        "kind": "prose_or_list",
+        "sha256": "65215aebcff7589a409371cfc2109a8a6c4055b4316056cb043d27dc7c853b21",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b047",
+        "start": 15531,
+        "end": 15713,
+        "kind": "prose_or_list",
+        "sha256": "833941bce9bdaa6526cacf60e27d5ba0ac7b08aea8807abcd5ebb44a358c1e27",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b048",
+        "start": 15715,
+        "end": 15780,
+        "kind": "heading",
+        "sha256": "008b0e79ffb66861c9fc5ad731201e699812ea6b8d1329e3cfd0375cef21e162",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b049",
+        "start": 15782,
+        "end": 15960,
+        "kind": "prose_or_list",
+        "sha256": "a63aa94288a188f6d8bae109839f30295563789d0d32e1f5c2fd642bf357446f",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b050",
+        "start": 15962,
+        "end": 16404,
+        "kind": "prose_or_list",
+        "sha256": "258b3208c9ba47ea88bfebca391e699b8dbaef9b8f7a4f23eefa02425d0650c0",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b051",
+        "start": 16406,
+        "end": 16455,
+        "kind": "heading",
+        "sha256": "00f57846a5508ac53601a106cce2de6a8131edcaa1ef2c7922fdecc2bf5db176",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b052",
+        "start": 16457,
+        "end": 16595,
+        "kind": "prose_or_list",
+        "sha256": "dbed0fbdb1f58f1a73eb6ea025f1f8300fa9d56e079ac4f171141ee875b42c36",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b053",
+        "start": 16597,
+        "end": 16916,
+        "kind": "prose_or_list",
+        "sha256": "5ebe2106994ef81186ab21163bb516286a11a4461d20bcbb5f43cbbbb4efdee7",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b054",
+        "start": 16918,
+        "end": 17170,
+        "kind": "prose_or_list",
+        "sha256": "d77b7146a3ffbf515c0fbae6e0476b5db42c153d894c02f0bdab6ccb9107ba50",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b055",
+        "start": 17172,
+        "end": 17210,
+        "kind": "prose_or_list",
+        "sha256": "a5eddc003539c9772413edf843e66e54b85f08a3290322db2f3f9da94a58d2f1",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b056",
+        "start": 17212,
+        "end": 17321,
+        "kind": "prose_or_list",
+        "sha256": "f20ca5e9a9624479828adb620225e5b8ed7b28639701ae9243d69503bb72aa4d",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b057",
+        "start": 17323,
+        "end": 17482,
+        "kind": "prose_or_list",
+        "sha256": "07bfcbb6218caef4a5dbc071b8b392ec7ccd29a58c686bd005f5538425a81797",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b058",
+        "start": 17484,
+        "end": 17593,
+        "kind": "prose_or_list",
+        "sha256": "ed3efc483f689f258a346536ab2dfe86140bc53eba1e7022c40d76a678a34cce",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b059",
+        "start": 17595,
+        "end": 17597,
+        "kind": "prose_or_list",
+        "sha256": "c59dc4e44ff99288156d4dff2168f6ac7ddee6b1fc7ccc0754656ffaa6d351ea",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b060",
+        "start": 17599,
+        "end": 17639,
+        "kind": "heading",
+        "sha256": "8d9f06330d0867207085b16ee9709c4248e6f193e50240f1c420987a3a1af234",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b061",
+        "start": 17641,
+        "end": 17686,
+        "kind": "prose_or_list",
+        "sha256": "946d05f2d98933d7b6b80fa7dbf52b7a9cd7c894b7dfc298477b33b0903b8418",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b062",
+        "start": 17688,
+        "end": 18017,
+        "kind": "prose_or_list",
+        "sha256": "0f3c5c8043b08173b0342c8b41bf73e7a5302e23cdd22e7d5554f3da9cf13b42",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b063",
+        "start": 18019,
+        "end": 18599,
+        "kind": "prose_or_list",
+        "sha256": "d03e2cb66d53d04f1eda14cfdc7038025f5b926d0d4580db5d924d8ecfe322f3",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b064",
+        "start": 18601,
+        "end": 18725,
+        "kind": "prose_or_list",
+        "sha256": "983b2c68d8f6a8533edcdae06db408fbe9ea6c01ac249ccbae1e26e9de4ce073",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b065",
+        "start": 18727,
+        "end": 19003,
+        "kind": "prose_or_list",
+        "sha256": "b6a5a7d9b636ef3fbdd5526c8f4b84a52f3a13459e89f724b57b0be658e79151",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b066",
+        "start": 19005,
+        "end": 19328,
+        "kind": "prose_or_list",
+        "sha256": "9bcebe0a862ecf7a6e1388e55132a60adb5a2d0b9451c8cdc586e79edba98ca3",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b067",
+        "start": 19330,
+        "end": 19407,
+        "kind": "prose_or_list",
+        "sha256": "51253b1cf2059a63ec47d1426c6a02dadfea9f7f9cbe49b43b0908ceedb8dce9",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b068",
+        "start": 19409,
+        "end": 19670,
+        "kind": "prose_or_list",
+        "sha256": "de708240ac9199154a0db322d1ad7ec38a8856ee3d5d8996b4bde427a54db661",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b069",
+        "start": 19672,
+        "end": 20013,
+        "kind": "prose_or_list",
+        "sha256": "e0b26bcb4194251cd51763e69ae8b1bec6f4f0f1bdb9708a7e59b2163fc637ea",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b070",
+        "start": 20015,
+        "end": 20233,
+        "kind": "prose_or_list",
+        "sha256": "ac8fa1a3d6fbd13379cf4b35eac5adcabf03ce6944ea6286879a51200d33b567",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b071",
+        "start": 20235,
+        "end": 20276,
+        "kind": "heading",
+        "sha256": "3330f76b13201c71a464a5e59ae42da0526ff480cd83c0da411dcbae5623c94e",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b072",
+        "start": 20278,
+        "end": 20311,
+        "kind": "prose_or_list",
+        "sha256": "aea7fc69dc1cea3d578749d2fbb2b2ce8ed9a8e615d9dcbb72450d660aaa7e73",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b073",
+        "start": 20313,
+        "end": 20425,
+        "kind": "prose_or_list",
+        "sha256": "252937a057d5f9a6917cecbf50066c41d3a4702da38542671a54cea3a2e6c8e3",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b074",
+        "start": 20427,
+        "end": 20625,
+        "kind": "prose_or_list",
+        "sha256": "18155ee3c0058ce364a74f41f44e48314c12de6854dd7ec32dccf836dd4c3303",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b075",
+        "start": 20627,
+        "end": 20946,
+        "kind": "prose_or_list",
+        "sha256": "ee1f4c2e1885dd79372f3cb2dc3c6be592575e01d0cc51c71ae41efb8dc62fc0",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b076",
+        "start": 20948,
+        "end": 21015,
+        "kind": "heading",
+        "sha256": "3fea6fa934e782a1b6326aad44c12d6c2b7b10754c719d95e67bebbc3463ce07",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b077",
+        "start": 21017,
+        "end": 21933,
+        "kind": "prose_or_list",
+        "sha256": "a69db37c5e8bbc5d28aaeef53afa0b835709880a68e69753f00d79e9da2a130d",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b078",
+        "start": 21935,
+        "end": 22725,
+        "kind": "prose_or_list",
+        "sha256": "2ef345f33139f305afc45659647b9ffea3fd8c0b05df419d8ee741eb2d1b53f9",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b079",
+        "start": 22727,
+        "end": 23224,
+        "kind": "prose_or_list",
+        "sha256": "357c1ee104592aa9ae901fd5d6f3beeb97c5e9a4e55c239fd80e05b1ef8e83ef",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b080",
+        "start": 23226,
+        "end": 23643,
+        "kind": "prose_or_list",
+        "sha256": "0d6c13e1f6402372549b24bcb3f25f70997134e96f0300bf7f702f068b13598d",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b081",
+        "start": 23645,
+        "end": 24073,
+        "kind": "prose_or_list",
+        "sha256": "70bb9e9c1ffd6d1180229193f10909f03cf62da28c85876622ead42434c879f7",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b082",
+        "start": 24075,
+        "end": 24363,
+        "kind": "prose_or_list",
+        "sha256": "f9fc97e7708be746c40dae4a3cbfe36eab583058641c8a81c566fb958cbed087",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b083",
+        "start": 24365,
+        "end": 24419,
+        "kind": "heading",
+        "sha256": "c65f886b9d1d26e8dd11f046d59d0b2bc043e5fec19d64b40d0cfd4ac7913770",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b084",
+        "start": 24421,
+        "end": 24912,
+        "kind": "prose_or_list",
+        "sha256": "63ee7275ce36d8c572be7c0336071d47e3ae476d7298f2d0c3f9a513576e3a46",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b085",
+        "start": 24914,
+        "end": 25386,
+        "kind": "prose_or_list",
+        "sha256": "0b06d87849193046495fe6d869f6ac25ccdba9005f23bea796e9da20dd702ac1",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b086",
+        "start": 25388,
+        "end": 25684,
+        "kind": "prose_or_list",
+        "sha256": "66baafddb7c55c4c4132814a703b22aad2495d1afe2cf987f2a30e08f1b29b10",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b087",
+        "start": 25686,
+        "end": 26176,
+        "kind": "prose_or_list",
+        "sha256": "beeb52eb8afbbe6d725254058c10e0feea216475523de853e28146941825ce58",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b088",
+        "start": 26178,
+        "end": 26605,
+        "kind": "prose_or_list",
+        "sha256": "e67046eda55f96f2b283544f47890b7335b8d1272ccfd88edb49bd25577f3752",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b089",
+        "start": 26607,
+        "end": 27315,
+        "kind": "prose_or_list",
+        "sha256": "ea2e11c4f884a5e6cdd958aa114ac8682fe6dbf75e9da4b3ddf67ecaefae3b41",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b090",
+        "start": 27317,
+        "end": 27364,
+        "kind": "heading",
+        "sha256": "6617ace455b1d28ad09649205238e683a7a1946f71a2aa87f4d5e0adba4958d8",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b091",
+        "start": 27366,
+        "end": 27920,
+        "kind": "prose_or_list",
+        "sha256": "688f621b5b608345527aaa401387b97d422f16100191b538bcb631787260accc",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b092",
+        "start": 27922,
+        "end": 28017,
+        "kind": "prose_or_list",
+        "sha256": "2f55a52aab147e470a2220e691cd290f6656a4b873b424ea836a591c76862b7f",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b093",
+        "start": 28019,
+        "end": 28171,
+        "kind": "prose_or_list",
+        "sha256": "23cdbc28fd98c6706cc6862215fd2df27941bf533db8732cb229784cf96641f5",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b094",
+        "start": 28173,
+        "end": 28389,
+        "kind": "image",
+        "sha256": "2512c62b1d582e9398af0273358bfaf9151f2b8b9635eaccf72463d037d94564",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b095",
+        "start": 28391,
+        "end": 28513,
+        "kind": "prose_or_list",
+        "sha256": "127cfd1a284600e797ae765e5b78894b30c9edfc9afe3f063e1f4c648e74ac24",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b096",
+        "start": 28515,
+        "end": 28718,
+        "kind": "prose_or_list",
+        "sha256": "b7fd6e9322fa0361a83a27ba4e95b5c126f7be1b508ac227c711928844b89111",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b097",
+        "start": 28720,
+        "end": 28818,
+        "kind": "prose_or_list",
+        "sha256": "f826d2acd798af53c19793e9753b77f815e301fb7b3bb2f3f6630a6da5237dbf",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b098",
+        "start": 28820,
+        "end": 29036,
+        "kind": "image",
+        "sha256": "5bbc76bc63624c0702d7f72d860be4476937bc203128ac241fe79249142abf55",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b099",
+        "start": 29038,
+        "end": 29092,
+        "kind": "heading",
+        "sha256": "597899df125f36b858a4f06ebe137f279feaaf550707cff6ae04abda605a420f",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b100",
+        "start": 29094,
+        "end": 29170,
+        "kind": "prose_or_list",
+        "sha256": "9a216bb15cabc720c741ac5d8bb163fc66754c88397e16ee37a873141f35b3a7",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b101",
+        "start": 29172,
+        "end": 29210,
+        "kind": "heading",
+        "sha256": "6c9512363551c5adf98996da23136917e9b13bcd94dac0dc2b3e30f6178b39d1",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b102",
+        "start": 29212,
+        "end": 29346,
+        "kind": "prose_or_list",
+        "sha256": "eb6e733d0d025beca1070740312f2b70fe0f87d9cf89be1425bee2c64c96e611",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b103",
+        "start": 29348,
+        "end": 29358,
+        "kind": "prose_or_list",
+        "sha256": "3344618d53d4bfefb114356f26be88aee300c8ee5a1606412beb8e2d666f5ba4",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b104",
+        "start": 29360,
+        "end": 29415,
+        "kind": "prose_or_list",
+        "sha256": "01860beba91a5ca5ded1110c6dc2fa31232b5c6b25c8ef35173539ec7a6ec2db",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b105",
+        "start": 29417,
+        "end": 29454,
+        "kind": "prose_or_list",
+        "sha256": "64453eb0ad4a810ed78d9b6791eb472ed9681fd04f0ed1435b798daeb75d0cb0",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b106",
+        "start": 29456,
+        "end": 29724,
+        "kind": "prose_or_list",
+        "sha256": "5ad10428c9a0d7f3d851081fd7eeda457e9b2d2bb6cac3f6d713ff67c6dafd51",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b107",
+        "start": 29726,
+        "end": 29780,
+        "kind": "prose_or_list",
+        "sha256": "e97339f37efd299c6d33794a2fbfcd2f9f3a042dead03fac91c04acf11664746",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b108",
+        "start": 29782,
+        "end": 29853,
+        "kind": "prose_or_list",
+        "sha256": "1c3cf044ca4002f14ee17ebd865f7809835a795eb60f18b3cdf6e68cd25eebe3",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b109",
+        "start": 29855,
+        "end": 29885,
+        "kind": "prose_or_list",
+        "sha256": "39b761b06ca99f9f775efbeff91e8da8ed4c31176a1763553485502ec8e59b6c",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b110",
+        "start": 29887,
+        "end": 29945,
+        "kind": "prose_or_list",
+        "sha256": "94a6fae73738ca52d4c16978829d393e2babf9704d905c1fd139de53f9c898d4",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b111",
+        "start": 29947,
+        "end": 29987,
+        "kind": "prose_or_list",
+        "sha256": "3c43e5a13928a379b0ca7e7fbef6faccb9199c54bf29b7f257225af24c2c07e2",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b112",
+        "start": 29989,
+        "end": 30017,
+        "kind": "prose_or_list",
+        "sha256": "47d8d20fa9ccf7616c6ea1410174d069450b42a459d3b624923e7eace65fa2a4",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b113",
+        "start": 30019,
+        "end": 30040,
+        "kind": "prose_or_list",
+        "sha256": "0b53fc1b0845e5968941457b9170ca04a818fb810ce8ac26546b416867af9e49",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b114",
+        "start": 30042,
+        "end": 30073,
+        "kind": "prose_or_list",
+        "sha256": "ca10b472adc2a0b38cb5b7a076f562c6d2f99f795e55d9209df21d4dd9b4eda2",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b115",
+        "start": 30075,
+        "end": 30251,
+        "kind": "prose_or_list",
+        "sha256": "480e69ea033fdecc039a941662cc4d8a5e95f708036cd36cccd78c79d98d1499",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b116",
+        "start": 30253,
+        "end": 30381,
+        "kind": "prose_or_list",
+        "sha256": "3c07070fe941beddcbfef2507f11dc824a16236e87aca0e854a8b540ebfcb964",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b117",
+        "start": 30383,
+        "end": 30421,
+        "kind": "heading",
+        "sha256": "b094b819acb26302667b2bd635aae9477074e7761fc3ec10b6bf7d233e689776",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b118",
+        "start": 30423,
+        "end": 30510,
+        "kind": "prose_or_list",
+        "sha256": "34a9890a9aae29bcaf0d786706e751ee4ba11fd2d1a16e0f5eb50f48b2811073",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b119",
+        "start": 30512,
+        "end": 30774,
+        "kind": "prose_or_list",
+        "sha256": "3fab01537a1465342d598a59c64d7ec5be79eceaebf81da4d5575ff48bbdb2bf",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b120",
+        "start": 30776,
+        "end": 30830,
+        "kind": "prose_or_list",
+        "sha256": "df6a402d07d34c64a6e325f25018785d3f5f0a8bf347c70e2408a1a85eac94b7",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b121",
+        "start": 30832,
+        "end": 31105,
+        "kind": "prose_or_list",
+        "sha256": "a2d1cb749165cb73b6e1b4efd38af29d975e51f4c304c973272fcafe99d62d26",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b122",
+        "start": 31107,
+        "end": 31207,
+        "kind": "prose_or_list",
+        "sha256": "bc073a1ba85cfd7b02caf670695beb6ed0ca912d1856161c007479827847b9f0",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b123",
+        "start": 31209,
+        "end": 31328,
+        "kind": "prose_or_list",
+        "sha256": "05a8675d623997c88b2cd7a6aaaddc8dd9bbae1c7232324904403fe2ae4a6207",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b124",
+        "start": 31330,
+        "end": 31546,
+        "kind": "prose_or_list",
+        "sha256": "fc7c79ca76dacb16706c794e4b1aced8d992168af5ccdadcaa06b143a63da5ab",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b125",
+        "start": 31548,
+        "end": 31674,
+        "kind": "prose_or_list",
+        "sha256": "b212abd0b58e15b6810a6b60e2aff351b29e2734c6dc6a6d232f496c8e314668",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b126",
+        "start": 31676,
+        "end": 31749,
+        "kind": "prose_or_list",
+        "sha256": "ef33cf8d1d59963a327556969a86852c2205e9b0470e33a462baadff8c2afba5",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b127",
+        "start": 31751,
+        "end": 31945,
+        "kind": "prose_or_list",
+        "sha256": "246cb1ade37e674c344ae9f35285d2b789823432b9b3cc7d7f30396d54e9602e",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b128",
+        "start": 31947,
+        "end": 32265,
+        "kind": "prose_or_list",
+        "sha256": "7d76ea02e4a9377fa468c1b5320c61f3f66aff6dbb0c6cbf7f16510e3ea718e2",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b129",
+        "start": 32267,
+        "end": 32506,
+        "kind": "prose_or_list",
+        "sha256": "acf24190b6da9ad2273624972696d3a860fcf8336991163b828859369bf544b7",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b130",
+        "start": 32508,
+        "end": 32552,
+        "kind": "heading",
+        "sha256": "87279e17c7cc9c612349d6aeb5f7336cdccf0a8697927fda31acafc5419aba6a",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b131",
+        "start": 32554,
+        "end": 32892,
+        "kind": "prose_or_list",
+        "sha256": "1489b2f60c45451d09f08cf8aa1b29dfb9525cf13ca63ac0ff722b21e1bf66dc",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b132",
+        "start": 32894,
+        "end": 32935,
+        "kind": "prose_or_list",
+        "sha256": "6a258baa8ff5f43333bf87bd16bbf093e9c40f3f5fdcc3a6cffbe89cdd1a5374",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b133",
+        "start": 32937,
+        "end": 32985,
+        "kind": "prose_or_list",
+        "sha256": "645bdc620cf979a9c4db45c6d90aed27e46e6beb64d9d4c353cd1d34ac7f5273",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b134",
+        "start": 32987,
+        "end": 33062,
+        "kind": "prose_or_list",
+        "sha256": "db3a3d6ce6a1dcd0edbadf46a2dd70df756579893b1b018f5005c930cebf9e48",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b135",
+        "start": 33064,
+        "end": 33112,
+        "kind": "heading",
+        "sha256": "f40292482f0f6660a38113695ca221f701c2055a7dfde62af46babc767c36666",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b136",
+        "start": 33114,
+        "end": 33192,
+        "kind": "prose_or_list",
+        "sha256": "10d4c411b46524e91f33e6c6c54f43064db534759a73563560d73aa45d802bb6",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b137",
+        "start": 33194,
+        "end": 33231,
+        "kind": "heading",
+        "sha256": "021fe658e9c8b87dfb58d3d7325992d2ef11f9e2ff2d7de482a9b4809e658d5b",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b138",
+        "start": 33233,
+        "end": 33301,
+        "kind": "prose_or_list",
+        "sha256": "08d877d67ae77b62ef001b0b07cc451b9d02a17f3a097d74fbab2cbf83d1b44c",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b139",
+        "start": 33303,
+        "end": 33399,
+        "kind": "prose_or_list",
+        "sha256": "52a78bbe141035a9d1c1507f8b8d36a75f47f88f724f1269e29b704742f906d1",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b140",
+        "start": 33401,
+        "end": 33451,
+        "kind": "prose_or_list",
+        "sha256": "a65f4c898f171c834552b70fcd251b6557926273bd00c21c6d382a4704a9f328",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b141",
+        "start": 33453,
+        "end": 33602,
+        "kind": "prose_or_list",
+        "sha256": "65d98c6bbef1dcb52a9dd2043a499b93141fb3828921635a88ac9197c3339fe5",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b142",
+        "start": 33604,
+        "end": 33769,
+        "kind": "prose_or_list",
+        "sha256": "4f29a311f8c7852223115241d93680a3aba1ae164e701f3d91dced8020810c25",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b143",
+        "start": 33771,
+        "end": 34025,
+        "kind": "prose_or_list",
+        "sha256": "c28af47306cf73c2fe0a1b2d7b710346e1b8529d5a1cf6754eee6bbea9e9fcd9",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b144",
+        "start": 34027,
+        "end": 34131,
+        "kind": "prose_or_list",
+        "sha256": "5fa7deed6307f421dd1e23d40da826bf520daa1faf3a70a9aa52316193aeb5d0",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b145",
+        "start": 34133,
+        "end": 34351,
+        "kind": "image",
+        "sha256": "ead91f8df82f8ce0b7fb6856692a2fff991d1ba640904482e4bfac571ec6e6bb",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b146",
+        "start": 34353,
+        "end": 34694,
+        "kind": "prose_or_list",
+        "sha256": "0ab7f090fee35a7e1b24b07e7def2628d65fb04535bec09ff27fd9e112ea1fe3",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b147",
+        "start": 34696,
+        "end": 35335,
+        "kind": "prose_or_list",
+        "sha256": "a108d5263201bac33494b81f732b8fd00577e0895be2621341e55a202d0d59d4",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b148",
+        "start": 35337,
+        "end": 35404,
+        "kind": "prose_or_list",
+        "sha256": "6261b2e1dc1395e8433c57833ef0ade47a18fe1cdf9f13799448f8e414a5cf6d",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b149",
+        "start": 35406,
+        "end": 35686,
+        "kind": "prose_or_list",
+        "sha256": "af505f30e22dcbb044029018c188ee8fd8391cd885e4c81780d92109d305a3bc",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b150",
+        "start": 35688,
+        "end": 35911,
+        "kind": "prose_or_list",
+        "sha256": "337536c06f13269304af4e97f6bbabb0a824e9ef4b18ba4410af6578bb0cdb6b",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b151",
+        "start": 35913,
+        "end": 35938,
+        "kind": "heading",
+        "sha256": "bba0f5faa480f5666d3bcc289e03da29518d5448d0323afcc3eab1d70a686c97",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b152",
+        "start": 35940,
+        "end": 35999,
+        "kind": "prose_or_list",
+        "sha256": "fe9f6ec3ce71f0abffcbf664a874461c510eb20b812084055cd9fbc2d9f639b5",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b153",
+        "start": 36001,
+        "end": 36059,
+        "kind": "prose_or_list",
+        "sha256": "5c3b34b13a127b84f9ad1e5326380ad1eaf7b9a3a3aee7ce754b02f7d1efc44e",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b154",
+        "start": 36061,
+        "end": 36277,
+        "kind": "image",
+        "sha256": "b2e4390f1ea52aecc5d33a1484b425d786023e874a689bf8eb8fa32b8126e3d7",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b155",
+        "start": 36279,
+        "end": 36305,
+        "kind": "heading",
+        "sha256": "dabe91b244578b0c9611f6fa0d679e1c32890077b9fba69fb69d641fcb049fc5",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b156",
+        "start": 36307,
+        "end": 36356,
+        "kind": "prose_or_list",
+        "sha256": "23dccbbdc6519c0bca835b069ecd5a52f1affba5bc2b85c77c9b5d0887f72aed",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b157",
+        "start": 36358,
+        "end": 36545,
+        "kind": "prose_or_list",
+        "sha256": "6c90d2c29a81b2e415865b85d6ff081bec3258c0622d9178bd47605a515a523d",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b158",
+        "start": 36547,
+        "end": 36824,
+        "kind": "prose_or_list",
+        "sha256": "a2174972a90565eda2c0fe35fffa8dc1132e29ac0560565c6fe95780680219b5",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b159",
+        "start": 36826,
+        "end": 36994,
+        "kind": "prose_or_list",
+        "sha256": "f8406d9aa1db30ead8a8cff6e704d11de225925636e70485ed9c7c5bc279dbb2",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b160",
+        "start": 36996,
+        "end": 37270,
+        "kind": "prose_or_list",
+        "sha256": "afbf1d61bf6c8301cdf7b86ece196ea0da395240dff781ac3fb7611e6b900ced",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b161",
+        "start": 37272,
+        "end": 37398,
+        "kind": "prose_or_list",
+        "sha256": "703b80d3ee7fe6988689879803c1a561680d82073cd73f814373f2add2092bdb",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b162",
+        "start": 37400,
+        "end": 37444,
+        "kind": "prose_or_list",
+        "sha256": "1a382dd581e58ac83394a0a3051594f9fe49ab99f776fc74cdcc2e148e56602c",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b163",
+        "start": 37446,
+        "end": 37660,
+        "kind": "prose_or_list",
+        "sha256": "39e55cb3be1782c6601ec3bc654bf1102fe94a93e347515e98079c5d415e8459",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b164",
+        "start": 37662,
+        "end": 37958,
+        "kind": "prose_or_list",
+        "sha256": "5518b858aae44b8cbede7f45d36eb7f8791235ca34878d26eaf8539ec873fcaf",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b165",
+        "start": 37960,
+        "end": 38001,
+        "kind": "heading",
+        "sha256": "febc37e3eca6a75c1c4cc5ce7582d51ec4d07aaaeb5c46161311566fd72d93af",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b166",
+        "start": 38003,
+        "end": 38192,
+        "kind": "prose_or_list",
+        "sha256": "7adc6ddadcfb510571f766704527c9ff73f00e18c35e1a1a105f20a00abb6072",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b167",
+        "start": 38194,
+        "end": 38211,
+        "kind": "prose_or_list",
+        "sha256": "86cd41eb65d11e2bd6129c3ebea971af067837af3543b2e9f85d14ec3b6eedd4",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b168",
+        "start": 38213,
+        "end": 38382,
+        "kind": "prose_or_list",
+        "sha256": "b7666280c11b4f2880fb4af93e41c37ecb81f26144f8ca1d7622b465f68d8f9c",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b169",
+        "start": 38384,
+        "end": 38727,
+        "kind": "prose_or_list",
+        "sha256": "cfd5904a42bf8a8fd1234a947913dec6405403af8a5ca35db28c296b00ec4688",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b170",
+        "start": 38729,
+        "end": 38925,
+        "kind": "prose_or_list",
+        "sha256": "e5bca142985a993e2550c99138157c2dcbd67c93d41e943a8e9999b26d66e013",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b171",
+        "start": 38927,
+        "end": 38989,
+        "kind": "prose_or_list",
+        "sha256": "55149b883b709afae4a7585d61f1629e867053707bf4a2055cd13afe4a26b951",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b172",
+        "start": 38991,
+        "end": 39206,
+        "kind": "prose_or_list",
+        "sha256": "85521a29ce3da3b0940d76f4af86d770ab0ae49a295c2f3d2a72e7855375df7b",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b173",
+        "start": 39208,
+        "end": 39314,
+        "kind": "prose_or_list",
+        "sha256": "38e093dd830cef1ed5064f2c4ec5bc21e19183176d9923d75028ff69399eba64",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b174",
+        "start": 39316,
+        "end": 39687,
+        "kind": "prose_or_list",
+        "sha256": "213c51a38ac8a26d1b35eef69c5ad6daa65805c032b894db00217b745fe3302e",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b175",
+        "start": 39689,
+        "end": 39901,
+        "kind": "prose_or_list",
+        "sha256": "71fa8de29de9ad89b4e49fe6228128b7e141fa4bbefd081640a0253cabd4e6b1",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b176",
+        "start": 39903,
+        "end": 40292,
+        "kind": "prose_or_list",
+        "sha256": "3c4e79fad65913e9f7af69fad3bc4bf4d9b1b76687679b85bc88da8dc928f138",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b177",
+        "start": 40294,
+        "end": 40656,
+        "kind": "prose_or_list",
+        "sha256": "45a3944e338ec15ed1733fb06b8d9944567a11822a91e6ebff2c52aa23a171fd",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b178",
+        "start": 40658,
+        "end": 40919,
+        "kind": "prose_or_list",
+        "sha256": "20f6d7edd931e18f5f02e24f75be2e317679ff8104940e71b961a8dbbffa509c",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b179",
+        "start": 40921,
+        "end": 41044,
+        "kind": "prose_or_list",
+        "sha256": "cfc2a36498f3311c0a3a15182d8cddceb21c64b7f31dab50022fcbdc37cc6bca",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b180",
+        "start": 41046,
+        "end": 41053,
+        "kind": "prose_or_list",
+        "sha256": "8152f52ad56663b401a9b9df501f39057cfca8b61576fca9344a25fd5220bbb5",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b181",
+        "start": 41055,
+        "end": 41091,
+        "kind": "prose_or_list",
+        "sha256": "3dfc60cdaa2ce563880844fe4fc67511963ce9a7c03b4dd5a8d50e64e6178658",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b182",
+        "start": 41093,
+        "end": 41162,
+        "kind": "prose_or_list",
+        "sha256": "dd6c5ac9c3c97561c27cd36804b6a58166549d5fc47d9b505f3889b2b3567487",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b183",
+        "start": 41164,
+        "end": 41236,
+        "kind": "prose_or_list",
+        "sha256": "76be1613614938c0ecc5567176e84c5abaf4ba1cdcd3de58b72874f8f1f4783a",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b184",
+        "start": 41238,
+        "end": 41324,
+        "kind": "prose_or_list",
+        "sha256": "930dbe2fa0c47a8be363ff5e085e0e4ef3c421f3f15a6bfd31b0661aa42d336d",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b185",
+        "start": 41326,
+        "end": 41365,
+        "kind": "heading",
+        "sha256": "aa2764c90a0ca937fbb39f5ca949d97272364dad7dde6a0c6a5763b748352b51",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b186",
+        "start": 41367,
+        "end": 41627,
+        "kind": "prose_or_list",
+        "sha256": "d87d9f7051138b210f1d8437d8ece1103eb105385236d2ec426f54e174634f15",
+        "baseline_flagged": null
+      },
+      {
+        "block_id": "neuro-de-armoring-h1-003-b187",
+        "start": 41629,
+        "end": 41888,
+        "kind": "prose_or_list",
+        "sha256": "6b355c37a1712ef091612d6c30360ebfbd5fd3fd95f333e8e10b7f3f5eb47a37",
+        "baseline_flagged": null
+      }
+    ]
+  }
+]

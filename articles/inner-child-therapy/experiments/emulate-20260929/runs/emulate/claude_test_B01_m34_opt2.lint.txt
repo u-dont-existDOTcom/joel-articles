@@ -1,0 +1,16 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/claude_test_B01_m34_opt2.txt
+verdict: REVIEW
+metrics: {'words': 203, 'my_words': 203, 'paragraphs': 2, 'coach_per_100': 1.48, 'you_per_100': 10.8, 'landing_rate': 0.0, 'instruction_paragraphs': 1, 'para_len_cv': 0.31, 'sent_len_cv': 0.74, 'repeated_openers': {}}
+-- B1 finished principle (1)
+   * It’s okay for you to start by doing something that you know will care for your little one even if you don’t yet have warm feelings toward them.
+-- B4/E15 list or packed sentence (2)
+   * Locking the door, eating a meal, cancelling something on your calendar, putting your phone down when you wake up in the middle of the night — the warm feelings 
+   * Keep only those things that help your little one to feel safe, to feel close to you, to be more functional, or to be happy.
+-- E23 paragraph of instructions (1)
+   * Pick one thing from the above that you can do. When will you do it? What’s the first step ...
+-- E36/E41 heavy second person (1)
+   * 10.8 "you" per 100 of my words
+-- E41 coach phrase (3)
+   * It’s okay for you to start by doing something that you know will care for your little one even if you don’t yet have warm feelings toward them.
+   * Pick one thing from the above that you can do.
+   * What’s the first step you can take?

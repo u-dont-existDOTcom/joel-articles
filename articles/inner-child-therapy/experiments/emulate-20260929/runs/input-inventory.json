@@ -1,0 +1,589 @@
+{
+  "learning": [
+    {
+      "id": "A01_before",
+      "file": "inputs/learning/A_joelfixes/A01_before.txt",
+      "words": 45,
+      "sha256": "fcd55d537346353d18f9495e9186eaeda6773210978cc8b3309e02cbc05ed4ef",
+      "paragraphs": 1,
+      "historical_result": "before (not given; the coverage JSON says no exact result or short unmeasured); after owner-reported Human, medium confidence",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A02_before",
+      "file": "inputs/learning/A_joelfixes/A02_before.txt",
+      "words": 114,
+      "sha256": "395833196e47c58f84cde8dd6b92a9c2932c93c3d2428294424c71c4c8d30aa1",
+      "paragraphs": 1,
+      "historical_result": "before (not given); after owner-reported pass",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A03_before",
+      "file": "inputs/learning/A_joelfixes/A03_before.txt",
+      "words": 69,
+      "sha256": "4eea025dc05054027b8ec26c7573b36df30450e1b77554b421dd7b130eb10368",
+      "paragraphs": 1,
+      "historical_result": "before, P1 + P2 r6 with Joel's earlier owner-final P1 was 38% AI, and Claude's P1 r2 + P2 r6 \"tested the same\"; after, P1 r3 + P2 r6 pair Human, medium (owner-reported); whole H2 with P1 r3 + P2 r6 100% Human, 500 words",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A04_before",
+      "file": "inputs/learning/A_joelfixes/A04_before.txt",
+      "words": 57,
+      "sha256": "d382882f14100a8f1c0908c5eb9a0b2b9fc372da88432ba624b83388cc395d44",
+      "paragraphs": 1,
+      "historical_result": "before 100% AI (round-9 P3, 62 words, short text); after \"he reports it passes on Pangram\"",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A05_before",
+      "file": "inputs/learning/A_joelfixes/A05_before.txt",
+      "words": 82,
+      "sha256": "1cdb5871a347f5bba1b38a34b7e9fd23cbdbb5d67af8c2f91eb262ad3ae7a16e",
+      "paragraphs": 1,
+      "historical_result": "before 100% AI (88 words for the second attempt; 91 words for the first); Joel's version with every edit except the last: medium-confidence AI; with the last edit too: medium-confidence Human. Claude ablation (about 14:5",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A06_before",
+      "file": "inputs/learning/A_joelfixes/A06_before.txt",
+      "words": 74,
+      "sha256": "d7a58ef3784dc8ccd2169a952baec351183d3bdd2512120e9535a7ce9e5f8c87",
+      "paragraphs": 1,
+      "historical_result": "before, Claude's \"you\" version, h3 with heading was 54% AI / 46% Human (120 words), with P1 alone Human 100% (78 words); after, the whole section with Joel's final was 100% Human, 710 words; Joel's own check Human, mediu",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A07_before",
+      "file": "inputs/learning/A_joelfixes/A07_before.txt",
+      "words": 81,
+      "sha256": "efd85b030e18c1e73820b154d6db60d9983da56daae019f50c47d0fa976e4c96",
+      "paragraphs": 1,
+      "historical_result": "before AI 1.0 / Human 0 (81 words, exact_utf8, captured 2026-09-19T21:46:45.812194Z); after (not given for P4 alone; the opening P1+P2+P3 and the whole checking section, which contained it, were Human 1.0 in the Sept 21",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A08_before",
+      "file": "inputs/learning/A_joelfixes/A08_before.txt",
+      "words": 81,
+      "sha256": "55a6d2849f04a12176abb5d95bad829fec789c0baa895b5832b5a26f2a92f748",
+      "paragraphs": 1,
+      "historical_result": "before (not recovered for the standalone AI paragraph; the model-only sections built from it were AI 1.0 in R4, R10, R13, R14); after (not given alone; opening P1+P2+P3 Human 1.0, 167 words; complete section Human 1.0, 3",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A09_before",
+      "file": "inputs/learning/A_joelfixes/A09_before.txt",
+      "words": 62,
+      "sha256": "c2843e352d7a17f2ffa431513415755f3b09be0f11e693070100130241319f7e",
+      "paragraphs": 1,
+      "historical_result": "before AI / low confidence (owner result); four fresh Pangram 4.0 repeats on the exact candidate: R1 Human/Medium (ai_assistance_score 0.5405835509300232), R2 Human/Medium (0.5584779977798462), R3 Human/Medium (0.5706424",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A10_before",
+      "file": "inputs/learning/A_joelfixes/A10_before.txt",
+      "words": 161,
+      "sha256": "dbca97017c08307afd6f78aecbb13543cebda40143a67e0e6e1f5c19db719d57",
+      "paragraphs": 3,
+      "historical_result": "before, first model repair AI / medium alone and AI / high in context (owner results); the AI source map and the last audited model candidate not run; after Human / high confidence (owner report)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A11_before",
+      "file": "inputs/learning/A_joelfixes/A11_before.txt",
+      "words": 185,
+      "sha256": "7141b224538500d79daccbaf129f72e848034e498f011b61c1cd3e959508435f",
+      "paragraphs": 2,
+      "historical_result": "before: AI, High (whole Prediction C, /root/work/joel-articles/articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md:11); after: AI, Medium (Probe 1, /root/work/joel-articles/artic",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A12_before",
+      "file": "inputs/learning/A_joelfixes/A12_before.txt",
+      "words": 79,
+      "sha256": "9dbb0fb835ce45d625e2eca527baa323123046342a9f02a587d209354348ece8",
+      "paragraphs": 1,
+      "historical_result": "before: AI, Medium (Probe 1); after: Human, Medium (Probe 2, /root/work/joel-articles/articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md:31)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A13_before",
+      "file": "inputs/learning/A_joelfixes/A13_before.txt",
+      "words": 70,
+      "sha256": "60e07035690cfe6aadfad0dff0e8cc204aaf10a72f53feac87f303c1e76eac5b",
+      "paragraphs": 1,
+      "historical_result": "before: AI, High (Probe 3, whole three-paragraph boundary, /root/work/joel-articles/articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md:41); after: AI, Medium (Probe 4, whole bou",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A14_before",
+      "file": "inputs/learning/A_joelfixes/A14_before.txt",
+      "words": 53,
+      "sha256": "4cf854593a26b9101aeda1344955c104525974159338988bf228aa894df58ca7",
+      "paragraphs": 1,
+      "historical_result": "before: AI, Medium (Probe 4); after: Human, Medium (Probe 5, /root/work/joel-articles/articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md:61)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A15_before",
+      "file": "inputs/learning/A_joelfixes/A15_before.txt",
+      "words": 49,
+      "sha256": "9df86bb2a1a9eab680ad0d0bbaee393b92e590a7a59c5903a61b429e91e17b8e",
+      "paragraphs": 1,
+      "historical_result": "before: AI, High (Probe 6 combined boundary, /root/work/joel-articles/articles/inner-child-therapy/experiments/EPISODE-008-CATCH-HOOK-OWNER-CALIBRATION-20260916.md:71); after: Human, Medium (whole three-paragraph boundar",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A16_before",
+      "file": "inputs/learning/A_joelfixes/A16_before.txt",
+      "words": 41,
+      "sha256": "6efb1e59be8b7f9e6864c1f472572cb5b3e5e55dbb4a0b838ff5417a6ce1a8e9",
+      "paragraphs": 1,
+      "historical_result": "(not given)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A18_before",
+      "file": "inputs/learning/A_joelfixes/A18_before.txt",
+      "words": 139,
+      "sha256": "a94dede28d2d1bd6623b29cef49cb2cdf268c76b9c901d24ade28c52e7c92dee",
+      "paragraphs": 2,
+      "historical_result": "before: no score given; the packet says the examples move \"from recorded AI-shaped prose toward prose that survived external owner/detector review.\" (:55). after: \"Owner realization, part of a reported Human/high boundar",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A19_before",
+      "file": "inputs/learning/A_joelfixes/A19_before.txt",
+      "words": 60,
+      "sha256": "30d85aecc2c379984175cc4549c9cd9591263c2a2766075fa96f4c32b7f22a71",
+      "paragraphs": 1,
+      "historical_result": "before (r2) 100% Human alone (model text, already passing); after (r3) 100% Human alone",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A20_before",
+      "file": "inputs/learning/A_joelfixes/A20_before.txt",
+      "words": 47,
+      "sha256": "b411ce48843217fe722cca65876ea96284629cd52aebbf7eff50fd6c6ca7b247",
+      "paragraphs": 1,
+      "historical_result": "Claude-run (built-in browser, free checks, not signed in to Joel's account): Test A and Test B both Human; the section as installed (Test B) 100% Human, 175 words; Test A 196 words",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A21_before",
+      "file": "inputs/learning/A_joelfixes/A21_before.txt",
+      "words": 72,
+      "sha256": "f730ced1f11795e9f30aa4464e2701fbaabd2b8e367dc7be22fc8fda4c359314",
+      "paragraphs": 1,
+      "historical_result": "before: round 3b (a 'So' conclusion at the end) 100% AI (GATE:224); round 3b without its last sentence Human (Joel's check) (GATE:226). after: Joel's minimal fix, his last sentence, Human (Joel's check) (GATE:225); headi",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A22_before",
+      "file": "inputs/learning/A_joelfixes/A22_before.txt",
+      "words": 39,
+      "sha256": "c1c82ed996194c2f459f5058b08b1cdc76fef15ba7ec75f1cca2b5ade056b15e",
+      "paragraphs": 1,
+      "historical_result": "before (whole boundary containing the AI-direction stage 2):",
+      "emulate_admission": "too_short_skip_pending_instruction",
+      "reference_only": false
+    },
+    {
+      "id": "A23_before",
+      "file": "inputs/learning/A_joelfixes/A23_before.txt",
+      "words": 57,
+      "sha256": "dd4dd3a5594deeaac3296b6652b77b4ce733bf7d89bd3299d772331160b24219",
+      "paragraphs": 1,
+      "historical_result": "owner-reported Pangram 4 labels for whole-passage combinations of the three paragraphs (P1-old/new, P2-old/new, P3-old/new); the table is verbatim from /root/work/pangram-humanization-lab/state/generation/INNER-CHILD-EPI",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A24_before",
+      "file": "inputs/learning/A_joelfixes/A24_before.txt",
+      "words": 40,
+      "sha256": "d3bc42eea3fc038e123471865e8bd1a6a5a9620d6decc070fb5560348b3ac933",
+      "paragraphs": 1,
+      "historical_result": "see the combination table under P-8: P3-new with the old P2 stayed AI / high (P1-old + P2-old + P3-new); P2-new + P3-new was Human / high",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A25_before",
+      "file": "inputs/learning/A_joelfixes/A25_before.txt",
+      "words": 36,
+      "sha256": "8ca51f01a162d333724d0e048ba9424c8190d72b824b974930a1f678078c649a",
+      "paragraphs": 1,
+      "historical_result": "before (attempt 0 / orig, Pangram 4.0, 2026-08-16, 722 words, overall Human 94.2%): opening 42 words Fully AI, Medium confidence; remaining 680 Human, High confidence (/root/work/pangram-humanization-lab/state/generation",
+      "emulate_admission": "too_short_skip_pending_instruction",
+      "reference_only": false
+    },
+    {
+      "id": "A26_before",
+      "file": "inputs/learning/A_joelfixes/A26_before.txt",
+      "words": 54,
+      "sha256": "c41984ae662d1e409b9e17555ac370116c7cdf5334f05610a9184c45c7294201",
+      "paragraphs": 1,
+      "historical_result": "before (attempt 1, Pangram 4.0, 2026-08-16, 687 words, overall Human 92.8%): first 365 words Human, High confidence; 54-word agape/`not now` paragraph Fully AI, High confidence; final 268 Human, High confidence (/root/wo",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A27_before",
+      "file": "inputs/learning/A_joelfixes/A27_before.txt",
+      "words": 99,
+      "sha256": "a7549256910cd5ba91391a18aab5d7c2f361b131d8c47a1d0e1fad3d6d4b23f9",
+      "paragraphs": 2,
+      "historical_result": "before, attempt 2 (Pangram 4.0, 2026-08-16, 669 words, overall Human 87.2%): opening 36 words Fully AI, Low confidence; 224 Human, High confidence; 49-word radical-honesty paragraph Fully AI, High confidence; final 360 H",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A28_before",
+      "file": "inputs/learning/A_joelfixes/A28_before.txt",
+      "words": 122,
+      "sha256": "1bae99ff81bb01fa3db2f569b7f2294947f9c46113a5ea45efc04f37c3cfd6a0",
+      "paragraphs": 2,
+      "historical_result": "before (assistant comparison): owner-reported ~60% AI, no exact fraction (/root/work/pangram-humanization-lab/state/generation/positive-calibration-20260917/sources/exclusivity.md:29,37). after (owner-selected version):",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A29_before",
+      "file": "inputs/learning/A_joelfixes/A29_before.txt",
+      "words": 98,
+      "sha256": "308e6d57b292a24d541c85c1519a2f081c3f72b383a1b9a615a8c2b5f87a0d7e",
+      "paragraphs": 1,
+      "historical_result": "before: a Pangram-red window ('detector-red relationship-spirit window', /root/work/pangram-humanization-lab/state/generation/critic-pairwise-dev-20260923/pairwise8-key.local.json:38); its exact Pangram fractions/confide",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "A30_before",
+      "file": "inputs/learning/A_joelfixes/A30_before.txt",
+      "words": 67,
+      "sha256": "dcd439a6e61c72c3bf98f9ce95ff63e09e9cae71e31f9ad9bd1c71347ffcb0af",
+      "paragraphs": 1,
+      "historical_result": "before (model paragraph H, appended as fourth paragraph to the known-Human backbone): owner-reported Pangram AI / high confidence (/root/work/pangram-humanization-lab/state/generation/positive-calibration-20260917/source",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B01_m34",
+      "file": "inputs/learning/B_protector/B01_m34.txt",
+      "words": 180,
+      "sha256": "a1d6ff7617f206479382e4506831990963c75f2aeac5c310543d1cbba00230ee",
+      "paragraphs": 2,
+      "historical_result": "100% AI (190 words); each paragraph alone 100% AI (52, 138)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B02_after_a",
+      "file": "inputs/learning/B_protector/B02_after_a.txt",
+      "words": 75,
+      "sha256": "8a4d9de0351b19c1e0980d31dcac77ffbbf95c5d0d19bf80f7aa9bd3c1a25f71",
+      "paragraphs": 1,
+      "historical_result": "100% AI (81 words)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B03_w2_section",
+      "file": "inputs/learning/B_protector/B03_w2_section.txt",
+      "words": 532,
+      "sha256": "5e908557d8d1e1557cab9d69cc239e8ce2addd42a7f667a4ab1d410492f1ff1a",
+      "paragraphs": 7,
+      "historical_result": "100% AI (557 words)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B04_afA1",
+      "file": "inputs/learning/B_protector/B04_afA1.txt",
+      "words": 91,
+      "sha256": "757bed7b49308ceffb7e7db096d05f9faea7441e1a1524ae36a4a95b58c45ee2",
+      "paragraphs": 1,
+      "historical_result": "100% AI (94 words)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B05_m34_with_headings",
+      "file": "inputs/learning/B_protector/B05_m34_with_headings.txt",
+      "words": 189,
+      "sha256": "b4327a4729128de73e4f75835e40806ade01cb0a83bc10fce9437f4d5c7eb708",
+      "paragraphs": 4,
+      "historical_result": "not checked",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B06_out_a",
+      "file": "inputs/learning/B_protector/B06_out_a.txt",
+      "words": 71,
+      "sha256": "2f7cf788c22169eb45bf23090b2000c14ddcf8988fb7a4c998168a663839f89a",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B07_out_b",
+      "file": "inputs/learning/B_protector/B07_out_b.txt",
+      "words": 77,
+      "sha256": "aefd5b0f9427d4a1d95d37a048915b71e7439e461b0f3fdc99f9d10dd36a6b26",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B08_in_a",
+      "file": "inputs/learning/B_protector/B08_in_a.txt",
+      "words": 58,
+      "sha256": "2cefe68f7ad01184d4282ed736beed0f8177bb494cb926d51cf7c315661bf5a4",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B09_in_b",
+      "file": "inputs/learning/B_protector/B09_in_b.txt",
+      "words": 62,
+      "sha256": "1668c060b96777d56ccfb95ceb28eaf6c26076bc1547d565f1c2de4abed1c62c",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B10_between_a",
+      "file": "inputs/learning/B_protector/B10_between_a.txt",
+      "words": 77,
+      "sha256": "cb651cde8d3cf48dabb27b2417dd2c9daf7c04304375c8d500f74311c1f83698",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B11_between_b",
+      "file": "inputs/learning/B_protector/B11_between_b.txt",
+      "words": 64,
+      "sha256": "2f69b75235bf8bfeed23bddf4c3e51316aa48411153e8a5358a0b51070d75221",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B12_first_a",
+      "file": "inputs/learning/B_protector/B12_first_a.txt",
+      "words": 60,
+      "sha256": "68080022270cb43fb2c9a5fa9e1c6bec964cfa280dd95c427c807cf115321ac1",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B13_first_b",
+      "file": "inputs/learning/B_protector/B13_first_b.txt",
+      "words": 70,
+      "sha256": "d692972e143e20c2f6d5b901867e685b1e988f1dd68699ef829ba2e9453e6c5c",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B14_pick_a",
+      "file": "inputs/learning/B_protector/B14_pick_a.txt",
+      "words": 76,
+      "sha256": "296b50c937ca159c040c6207b2bf17f0f0b6cbd3b22597b231a4d07407fd1e2f",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B15_pick_b",
+      "file": "inputs/learning/B_protector/B15_pick_b.txt",
+      "words": 78,
+      "sha256": "f0dae1438afc225bba08f445ec40e71f85422ed655cece7fba05a896201775e6",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B16_after_b",
+      "file": "inputs/learning/B_protector/B16_after_b.txt",
+      "words": 78,
+      "sha256": "a4d29f2471981803aff8f5c135c83ad5a5655569a20f722719c40a7cca3eb471",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B17_r2_out1A",
+      "file": "inputs/learning/B_protector/B17_r2_out1A.txt",
+      "words": 76,
+      "sha256": "46330f69997455019cf5ffdb913ec9bdb461ae05811d928f6150db9fc30afe21",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B18_r2_out1B",
+      "file": "inputs/learning/B_protector/B18_r2_out1B.txt",
+      "words": 65,
+      "sha256": "626a3a5f1548180555e0f7a80567337134ca6d30bbeae25b83e50605e05e4f42",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B19_r2_out2A",
+      "file": "inputs/learning/B_protector/B19_r2_out2A.txt",
+      "words": 77,
+      "sha256": "e1c3daffab315508278caddd61e66173aef4af2ce743eedca4c5906ce0ac1bac",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B20_r2_out2B",
+      "file": "inputs/learning/B_protector/B20_r2_out2B.txt",
+      "words": 77,
+      "sha256": "2c7f8fba1cb2c329a933314188be19fdcaeceb5cb3491d59395fee077e7d1a5c",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B21_r2_out3A",
+      "file": "inputs/learning/B_protector/B21_r2_out3A.txt",
+      "words": 63,
+      "sha256": "2fd3d7ee081d1487bec162d8068c087d0ebe1e431ff237ce9dfcbeba84963cd3",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B22_r2_out3B",
+      "file": "inputs/learning/B_protector/B22_r2_out3B.txt",
+      "words": 72,
+      "sha256": "b854d001abb9869781058c0bf3cff47d7a13e1bc5eb17ca83195b80a512072c8",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B23_r2_in1A",
+      "file": "inputs/learning/B_protector/B23_r2_in1A.txt",
+      "words": 56,
+      "sha256": "8dd0b2a13a5c9931340ec201f0be1759867723021d9603a18be27bc33db3cfdc",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "B24_r2_in1B",
+      "file": "inputs/learning/B_protector/B24_r2_in1B.txt",
+      "words": 61,
+      "sha256": "0bf91ba42ac433a07a8090feb8fd08c5aa9cdccc6f82f317278701db3e21abab",
+      "paragraphs": 1,
+      "historical_result": "see tools/PREDICTIONS.md; recheck",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "C1_s2j_claude_HUMAN",
+      "file": "inputs/learning/C_controls/C1_s2j_claude_HUMAN.txt",
+      "words": 112,
+      "sha256": "3b5e26fec8041339975b37fd112107cdabe419a53febc0301cb5c104404388b7",
+      "paragraphs": 1,
+      "historical_result": "100% Human (118 words)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    },
+    {
+      "id": "C2_joel_p1_HUMAN_JOELS_OWN_WRITING",
+      "file": "inputs/learning/C_controls/C2_joel_p1_HUMAN_JOELS_OWN_WRITING.txt",
+      "words": 117,
+      "sha256": "bbe656b5a883fca5451b690dfb3de44f7270772f1c34212a48b9370224d7ff89",
+      "paragraphs": 1,
+      "historical_result": "100% Human (121 words)",
+      "emulate_admission": "eligible_after_owner_egress_confirmation",
+      "reference_only": false
+    }
+  ],
+  "articles": [
+    {
+      "slug": "intentional-communities",
+      "words": 13143,
+      "sha256": "5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6",
+      "h1_sections": 18,
+      "links": 132,
+      "optional": false
+    },
+    {
+      "slug": "hypnosis-guide",
+      "words": 19839,
+      "sha256": "3b5cb6cce976fa9e0419fd1d32c62df12894d083385607e7faab6cb1295ee218",
+      "h1_sections": 41,
+      "links": 49,
+      "optional": false
+    },
+    {
+      "slug": "neuro-de-armoring",
+      "words": 5864,
+      "sha256": "a4b4e05ae5b6930519e79708f0d7dbedf5cb4f9c6158bf2efd60121501fdef0f",
+      "h1_sections": 3,
+      "links": 36,
+      "optional": false
+    },
+    {
+      "slug": "hearthwork",
+      "words": 6421,
+      "sha256": "0514e70f93e13f233d9d663cf1fb73b9da1b2de2b742b6d2c74ae171bcbc8e0b",
+      "h1_sections": 9,
+      "links": 14,
+      "optional": true
+    }
+  ],
+  "holdout_contents_read": false
+}

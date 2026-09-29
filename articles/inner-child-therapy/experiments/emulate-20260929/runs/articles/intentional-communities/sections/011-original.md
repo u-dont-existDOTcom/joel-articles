@@ -1,0 +1,22 @@
+# From One Community to a Movement
+
+## Experiment Before You Divorce
+
+Experimenting with a different rule does not have to mean everybody buys new land immediately. Try the different rule inside the parent group; then as a semi-autonomous project; then, if it needs more independence, as a nearby seed that still shares selected tools, childcare, business, or friendships. Full fission should be one step on a gradient, not the admission price for experimentation.
+
+Some experiments cannot be tested cheaply. A different land system, population scale, or package of mutually supporting rules may look bad when starved of the assets it actually needs. “We tried it in one room for three months” is not always a fair test.
+
+## Federation Without Building Another State
+
+If these communities are supposed to spread, eventually somebody has to solve the boring problem of how they remain connected without building another state. I don’t want one super-commune with a nicer logo. I want communities that can help one another, move people and knowledge around, and still remain different enough to learn from one another.
+
+At federation scale, that outward purpose becomes concrete: spread healing practices, train people, seed new projects, and keep any one comfortable enclave from mistaking itself for the whole movement.
+
+The [Federation of Egalitarian Communities](https://www.egalitariancommunities.org/) says it is currently rebuilding, which is a useful warning. Federation work is work: delegates, records, compliance, resource coordination, meetings, succession, and any dispute function it actually accepts all consume labor and material capacity before local crises have eaten both. Where the surrounding legal or economic system requires money, the federation also needs an external cash budget. But that work does not all need to live in one body. Bilateral friendships, local clusters, and function-specific institutions can coexist with a general federation. The FEC’s [PEACH health pool](https://www.egalitariancommunities.org/initiatives), for example, is currently governed independently from FEC delegates.
+
+Cooperation also shouldn’t quietly become assimilation. The FEC currently distinguishes full members, communities moving toward membership, and [Friends](https://www.egalitariancommunities.org/communities) that may simply remain friends. People need a similarly practical freedom between communities. If someone can theoretically move but housing, status, health coverage, records, labor accounting, travel costs, taxes, and transition disputes fall into cracks, the freedom is decorative. Often the answer is not harmonizing every internal system; it’s a thin interface that says who is responsible for what while somebody crosses between them.
+
+Exchange and obligations need the same honesty even if nobody uses money internally. A gift of food, pooled medicine, a loan of a vehicle or tool, reciprocal labor, emergency housing, a shared building project, and a visit meant mainly for training or relationship-building are different events. Some create a future obligation; some do not. A federation can keep purpose-specific records without pricing everything or forcing every transfer into parity. If cash is used at the outside interface, grants, loans, guarantees, and shared-enterprise commitments need the same separation. Solidarity is not unlimited joint liability—or an unlimited claim on another community’s labor, stores, land, or tools.
+
+And when two principles collide, don’t preserve only the final rule. Keep the hard case: what happened, which principles actually conflicted, the first judgments, final reasoning, dissent, consequences, and the exact rule version. When the rule changes, rerun the case. Otherwise each generation gets to rediscover the same constitutional fight from scratch.
+

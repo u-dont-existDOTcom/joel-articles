@@ -1,0 +1,46 @@
+# Appendix F: Self-trust, outside guidance, and oracle-like states
+
+The synchronicity cue above turns noticing into orientation and reality-testing rather than an oracle.
+
+Suggestibility varies wildly. Some people open more with an external hypnotist, some with themselves, some only in particular states, and some barely respond to commands while responding deeply to imagery, music, metaphor, or spiritual feeling. A professional can bring pacing, containment, and another set of eyes. Self-hypnosis gives you instant follow-up, real-time correction, and a private line to your own protectors.
+
+Self-hypnosis may be best for daily intimacy with the subconscious. Skilled outside support may be best for trauma complexity, blind spots, dissociation, destabilization, and relational wounds that need another nervous system.
+
+## Finding a hypnotist who can work with you
+
+Ask what they are trained to treat, how they use hypnosis, and how they respond when a suggestion doesn’t fit. For trauma work, ask about actual trauma and dissociation training, not only a hypnosis certificate. Credentials matter without guaranteeing competent care.
+
+Describe what has helped, what hasn’t, your preferred directness, acceptable touch and imagery, and how you’ll stop. Ask about unexpected reactions, uncertain memories, and the full return. Firm encouragement can fit; refusal still ends it.
+
+Evaluate what actually happened, not the method’s name. Was its purpose explained? Did you agree? How did the practitioner respond to you? Discomfort alone doesn’t settle the question; treating every objection as proof you need more of the same deserves scrutiny. Ask the app or another informed person for explanation, without expecting a practitioner to be certified from a brief account. Self-hypnosis, combined work, or another practitioner remain your choices.
+
+## When the subconscious speaks like an oracle
+
+The subconscious can notice things the conscious mind misses: anticipations, pattern reads, and sometimes something uncanny. Respect the signal without turning a vivid image or directive into an order.
+
+When the message has large or irreversible consequences, slow the action to the scale of those consequences, ask the adult questions, and bring the message to a council.
+
+## The council — internal first, then outward
+
+The first council is internal: child and adult, conscious and subconscious, intuition and analysis. Reach outside when the message is bigger than those parts can hold alone. The larger and less reversible the move, the more seriously you seek other minds.
+
+Ask people who love you, like-minded people, or somebody who has walked the path. Going alone can be legitimate, but I’d make it the last step after counsel was genuinely sought.
+
+The opposite danger is giving away your power. “Seek counsel” can quietly become “find an authority and obey.” Another person deserves neither automatic trust nor automatic dismissal.
+
+Peer support can lend a different kind of help. In [Hearthwork](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling), equal time, warmth, confidentiality, and respect for “no” let each person lend Nurturer and Protector without taking over the other’s Guide. Then you switch roles. A carefully timed question can help your own direction become audible; the peer doesn’t decide what the experience means.
+
+## Forgiveness without bypass
+
+Forgiveness can’t be forced. It grows from understanding, and pushing it too early creates bypass. Staying angry forever can also let the injury keep governing the present. All of these can remain true together: the harm happened, the boundary still matters, the person remains accountable, and forgiveness may come later when your relationship to the event changes on its own.
+
+The understanding that helps me is seeing how conditioning, history, pain, and capacity shaped the harmful move. Given the total person they had become by that moment, the harmful move was the only one their accumulated nature had available. The harm remains real, and so do accountability, consequences, and the work of making a different response possible now. Understanding someone’s limitations should make expectations more realistic, not make the limitations less consequential.
+
+“You do not have to forgive before you are ready. I will not use spirituality to silence your pain. I will also not build our whole life around this wound forever.”
+
+Questions for forgiveness without erasing anything:
+
+“What happened?” “What was the impact?” “What boundaries are still needed?” “What shaped this person into someone capable of that harm?” “What belongs to them?” “What belongs to me?” “What does accountability require?” “What would release look like without denial?”
+
+For self-forgiveness, name what you did without taking responsibility for what wasn’t yours. Let remorse register the harm or violation of your values without making the person who acted a permanent criminal. Then move through responsibility, remorse, rectify, release: name the action and impact; allow the remorse; repair or prevent repetition where possible; and stop holding yourself hostage after responsibility has been faced.
+

@@ -1,0 +1,60 @@
+# What This Looks Like From Sénégal
+
+[image 19](https://substackcdn.com/image/fetch/$s_!Uv0z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7db4e048-c31e-445c-9d1d-5c4f48de86ab_340x339.jpeg)
+
+[caption] The “African Renaissance Monument” in Dakar, Sénégal, which stands at 160 feet tall and took 4 years to build.
+
+I live in Sénégal, where “intentional community” often sounds like a strange Western phrase for something people assume human beings already do.
+
+This country feels unlike anywhere else I’ve lived. Five times a day, devotional prayers pour into the streets. I find them deeply soothing. Sufi spirituality appears in music, public images, murals, names, and ordinary conversation rather than remaining inside designated spiritual spaces.
+
+I also hear people laughing outside for hours. This is the most intensely joking culture I’ve encountered, and I keep wondering whether I’ll ever understand the really complicated jokes in Wolof. Basic conversation is one thing. Knowing why twelve people are suddenly crying with laughter is graduate school.
+
+In the villages and families I’ve spent time around, land, childcare, housing, food, and obligation often pass through extended family and local memory alongside formal systems. Nobody needs to announce a workshop called “Rebuilding Intergenerational Belonging.” An aunt has already assigned three people a task.
+
+Even in Dakar I found graffiti reading, “Tolerance! Openness! Union! Happiness! Love!” Murals of Sufi leaders appear elsewhere. Spiritual graffiti still surprises me because I grew up expecting urban walls to advertise either a product or somebody’s inability to draw a penis.
+
+[image 20](https://substackcdn.com/image/fetch/$s_!1Hvp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98df3b3c-7b43-40df-80d7-112f1bc91d75_849x1037.png)
+
+[caption] Graffiti in Dakar, Sénégal: Tolerance! Openness! Union! Happiness! Love!
+
+## All is not well in paradise
+
+I don’t want to turn this into Sénégal as a surviving communal paradise either. The warmth has hard boundaries, and LGBTQ+ people can pay brutally for crossing them.
+
+In March 2026, Sénégal enacted [Law No. 2026-08](https://www.humandignitytrust.org/resources/law-no-2026-08-of-march-27-2026-amending-article-319-of-law-no-65-60-of-july-21-1965/), raising the penalty for consensual same-sex intimacy to five to ten years in prison. The amended article also criminalizes public “apology” for homosexuality and certain financing or support intended to promote it. The law comes within the context of an existing reality of arrests, family rejection, harassment, assault, and mob violence—some say prison actually protects homosexuals from the mob. I don’t want to praise communal belonging while ignoring people who survive that belonging by hiding who they are—or by leaving.
+
+A society can be spiritually alive, generous, funny, and intensely communal while still becoming cruel toward people who violate its accepted categories. Community itself isn’t automatically liberating. Everything depends on who is permitted to belong without pretending.
+
+The otherwise forgiving social culture has other shadows, too. People may avoid confrontation so thoroughly that everybody knows who stole the sheep and nobody wants to create trouble by saying it aloud.
+
+Where I live, neighbors steal our moringa pods every morning. Every morning! They could plant a moringa tree in their own yard. Apparently maintaining this relationship with ours is more entertaining. 😂
+
+Everybody raises sheep here, including me, and they are extremely cute. The music, animals, joking, prayer, and constant presence of other people can make life feel like another world.
+
+[image 21]
+
+[Professor Baby Sheep Taught Me Inner Child Shaking Therapy! 😅🫶🏿🐑](https://ibogaqueen.substack.com/p/professor-baby-sheep-taught-me-inner)Copy link
+
+The older communal patterns are also changing. Young people move toward cities, jobs, phones, imported foods, and the wider world. Men take dangerous sea routes toward Europe. Families that once shared nearly everything become more dependent on cash and individual opportunity.
+
+## Lessons from the Black Tax
+
+One strange survival of the old communal system is what people call the “Black Tax”: when one person begins earning money, they’re expected to support parents, siblings, cousins, school fees, medical bills, funerals, and whoever else the family is carrying. I understand the instinct behind it. In the ancestral arrangement, nobody succeeded alone. The people who fed, raised, housed, and protected you had a real claim on whatever prosperity later came through you. Sharing wasn’t charity. It was how the whole organism survived.
+
+Double click to interact with video
+
+The modern version can become soul-destroying because the obligation survived while much of the communal life supporting it disappeared. The land, labor, childcare, food, and daily belonging are no longer fully shared, but the person earning cash may still be expected to carry everybody. They struggle to build any independence or long-term stability, while the relatives receiving the money remain dependent because the payments don’t create a viable alternative. The ancestral ethic is still alive inside an individualistic cash economy, where it can keep people alive while quietly consuming both sides.
+
+This is also the boundary problem a money-free commune has to solve. Internal life can be cashless while taxes, hospitals, visas, school fees, family obligations, imported tools, and other outside relationships still arrive denominated in money. The question is not whether to recreate individual wages inside the commune. It is who handles that interface, how much collective cash is kept for it, and how to stop access to outside money from becoming a new status hierarchy.
+
+Outside work complicates that boundary even before a common purse. It does not only bring cash. It brings another schedule, status system, social world, set of loyalties, and often new consumption expectations. During the first stage, an outside earner should contribute an agreed share, but money cannot buy exemption from ordinary communal work or extra political authority. The group also has to notice when outside jobs are draining the people and skills needed to build shared livelihoods. Otherwise the commune remains a dormitory for the cash economy instead of moving toward a common purse.
+
+Zapatista communities faced a version of this with migration. Some moved from trying to stop young people from leaving toward negotiated arrangements in which migrants could work elsewhere while retaining defined communal obligations. The conflict between mobility and belonging did not disappear. It became something the community could name and negotiate.
+
+Westerners often begin with isolation and try to rebuild tribe. Many Africans begin with inherited communal life and watch parts of it dissolve. Urban Africans interested in intentional community may arrive after feeling alienated from both the city and the tradition they left.
+
+That makes this a global conversation rather than a Western lifestyle niche. Living villages still contain knowledge no book can reproduce, but they are living people rather than exhibits. Go respectfully, contribute something, learn the language, and do not arrive expecting a spiritual service package.
+
+A practical note: my own residency process in Sénégal was inexpensive and straightforward. French and Wolof matter much more than English. The country’s famous ideal of *Teranga*—hospitality—is real in my life: I stay in a friend’s family house, and they refuse rent. That generosity exists beside watchfulness, social conservatism, bureaucracy, and all the ordinary complications of a real country.
+

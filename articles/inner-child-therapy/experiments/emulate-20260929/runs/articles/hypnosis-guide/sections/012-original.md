@@ -1,0 +1,12 @@
+# Forget the left-brain/right-brain cartoon
+
+“Syncing the hemispheres” can be a useful description of how the state feels, but I wouldn’t turn it into literal neuroscience. A [large resting-state fMRI study](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0071275) of 1,011 people didn’t support the pop-science picture of whole people being globally “left-brained” or “right-brained,” even though particular functions and networks can be lateralized.
+
+You’re inviting the verbal, analytical, imaginal, emotional, somatic, intuitive, relational, and spiritual modes to cooperate. Nobody needs to win a hemisphere election.
+
+The loving mind stays warm while the analytical mind stays bright. The intuitive mind offers signals without becoming dogma. The rational mind tests signals without killing them. The body gives yes, no, and not-yet. The imagination opens the field. The adult self chooses the next real action. Peace and precision become compatible.
+
+Love can drift into fantasy without analysis. Analysis can become sterile without love. Intuition can become delusion when nothing tests it; testing can become dead when nothing intuitive is allowed to speak. Let the modes correct each other.
+
+A powerful state matters only if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.
+

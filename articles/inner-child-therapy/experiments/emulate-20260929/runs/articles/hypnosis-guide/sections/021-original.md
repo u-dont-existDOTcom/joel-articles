@@ -1,0 +1,68 @@
+# Let the next response guide you
+
+The induction and inner meeting bring you to a place where you can listen. From here, learn to answer what happens instead of reciting a speech that has already decided what every part will say. Read these examples before practicing, then put the screen aside.
+
+Notice one thing accurately. Offer a small, believable invitation, an act of care, or more time. Acknowledge only what actually happens, then wait. A sensation can lead to an image, a gesture, a feeling, or words; you don’t need to fill every category.
+
+## Finding your own words
+
+Suppose you notice, “My chest tightened when I imagined asking for help.” Start with that, rather than deciding you’ve found an abandoned child or a protective mechanism.
+
+And as I notice that tightening, I can give myself a little time before deciding what it means … and notice whether there’s something I’d like to say, change, or simply stay with.
+
+Then listen. That is enough language for one invitation. A plain “What happens next?” may be better than an elegant sentence. When a feeling is developing, pause the words if that gives it room; keep using them when they help you understand.
+
+You can be firmer when that is the help you chose: “Let the explanation wait a moment. What do I feel as I say that?” Directness can focus attention without deciding the answer. A difficult feeling needn’t become pleasant before you can stay with it. When you remain present, can change direction, and want to continue, sadness or tension alone doesn’t require an exit.
+
+Keep apart what you noticed, what it seemed to mean, and what you think about that meaning now. These can overlap; you don’t need to prove which came first. When useful, ask: “What did I notice? What did it seem to mean? What supports or challenges that interpretation?”
+
+“My stomach tightened” reports a sensation. “That person is evil” is a conclusion—even if it arrived as a wordless certainty. Ask what they actually did, what cues you noticed, and what else could explain the alarm. A sentence you find now can help examine the meaning without being a sentence you thought then. Nonverbal doesn’t mean deeper or truer; earlier doesn’t mean more reliable. Feelings deserve attention, and their meanings remain open to analysis.
+
+## Let the response change the invitation
+
+“My shoulders tightened” and “that wording feels wrong” are different observations. Tightening alone doesn’t explain itself. Ask what happened and whether the invitation fits. An explicit no needs no further justification; change the words, the pace, or the approach. Don’t repeat an unwelcome suggestion more persuasively.
+
+I notice the tightness. I can leave it as it is for a moment. Does this invitation fit, or would I prefer something different?
+
+Sometimes the sentence was simply wrong. Sometimes an unfamiliar possibility brings a feeling worth meeting. You don’t have to decide which before making space to find out. Skepticism is not automatically a protector, and silence is not proof that a hidden process is working.
+
+## Look at the situation too
+
+When another person is involved, notice what they actually do before making the whole problem an inner-child reaction. Can they hear disagreement, take responsibility, and make room for your experience? Keep the judgment specific and revisable; disagreement or a boundary alone doesn’t establish emotional immaturity. You don’t need repeated exposure to danger before protecting yourself.
+
+Notice your side too. Guilt doesn’t prove wrongdoing or manipulation. Did you cause harm that needs repair, abandon your position to make their disappointment go away, or both? Choose a realistic purpose for the next interaction. Sometimes it is mutual understanding; sometimes it is conveying information, saying no, or ending the exchange. You don’t have to make someone understand before you can act.
+
+## Change the amount of contact
+
+When you need less, widen attention to the room, the chair, a sound, or somewhere in the body that is easier to meet. Let that support become noticeable alongside the difficulty. Moving between difficult and more manageable experience is often called *pendulation*; approaching in smaller amounts is *titration*. Use the actual response to set the pace, rather than counting compulsory cycles.
+
+I can let this much be here and notice the support beside it.
+
+Return to the difficult material only when you choose. If you’re losing track of the present, becoming increasingly unreal, or unable to shift or stop, end inward exploration and use the full return. Persistent disorientation needs human help rather than a stronger induction.
+
+An impulse to turn, reach, push away, or change posture can also be explored through a small, voluntary, physically comfortable movement—or imagined without moving. Notice what follows. You’re not obliged to enact an impulse, shake, or produce a release. Stop movement that causes pain or concerning symptoms.
+
+## Offer the care that is actually wanted
+
+When a younger feeling appears, offer company without making it become literally younger or explain its history. When a protector is recognizable, listen to its concern without demanding that it step aside. No part is exiled from the meeting, and none has to disappear or trust you immediately.
+
+I’m here. Would company help, or would you prefer some space?
+
+“Don’t come closer” is information you can act on. Stay at the chosen distance and notice what receiving that response is like. The Nurturer can change the tone; the Protector can carry out a boundary; the Leader can point toward the life you want. They don’t each need a speech. When a capacity isn’t available, borrow that one function. Use the Witness only if you need it to begin; don’t restart a step you can already do.
+
+You can also deliberately try support: a welcome hand placement, an imagined presence, words you’d like to hear, a different posture, or more distance. Introduce one change and discover its effect. A comforting-sounding resource earns its place by helping this person now.
+
+Care can bring grief for what was missing. That needn’t mean the love failed. Stay with the response when you want to and can remain present; more tears don’t prove more healing. If this particular voice, closeness, touch, or image feels intrusive, change it before concluding that you can’t receive love.
+
+A metaphor can develop before you decide what it means. “If this problem had its own image or story, what would appear—and what wants to happen next?” Try only the missing resource, boundary, distance, or action that seems useful. The result is symbolic information or a hypothesis, never proof of history.
+
+Or spend the session developing love, play, courage, or curiosity. Let a pleasant experience have time to grow. Rehearse a chosen action and notice what it would take to carry it out. Hypnosis can invite something new as well as listen to what is already present.
+
+## Finish without forcing a revelation
+
+When you’ve received enough, stop opening new questions. Ask what would help you leave this here for now. Thank the parts or capacities you worked with, in whatever words you can mean. A meal, a boundary, rest, a repaired relationship, or a promise kept may matter more than another insight. There needn’t be an action when none is called for.
+
+Keep the analytical mind available throughout: you can question, disagree, and stop. Save extended factual checking and consequential commitments for after the return. An image can be meaningful without being a historical memory; a bodily shift or relief doesn’t make an interpretation true.
+
+Use Come all the way back, even when you ended early. Afterwards, write a few lines: what was there before; what I tried; what happened; what remains uncertain. Include a phrase, bodily signal, child’s need, protector’s concern, boundary, repair, or what not to force only when it actually appeared. You don’t owe the notebook a complete cast of characters.
+

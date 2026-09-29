@@ -1,0 +1,177 @@
+{
+  "source_sha256": "a1d6ff7617f206479382e4506831990963c75f2aeac5c310543d1cbba00230ee",
+  "output_sha256": "28725a948e65d2510f9e44c6e1d575f223feebce17b960267759b24b632fb886",
+  "source_sentence_count": 11,
+  "output_sentence_count": 17,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 85,
+      "output_start": 0,
+      "output_end": 95,
+      "source_text": "If you can't feel any warmth toward your little one yet, the Protector can go first. ",
+      "output_text": "Don’t worry if you can’t find anything that makes you feel warm and fuzzy for your little one. ",
+      "word_overlap": 0.43243243243243246,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1,
+        2
+      ],
+      "source_start": 85,
+      "source_end": 248,
+      "output_start": 95,
+      "output_end": 379,
+      "source_text": "Care might start as locking the door at night, eating an actual meal, cancelling something you didn't have the energy for, or putting your phone down at midnight. ",
+      "output_text": "In that case, do this exercise for your Protector. They probably can think of a few things they do that demonstrate their care, like locking the door at night or making sure they eat regularly or saying no to social plans in order to get rest or putting their phone down at midnight. ",
+      "word_overlap": 0.2926829268292683,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 248,
+      "source_end": 283,
+      "output_start": 379,
+      "output_end": 451,
+      "source_text": "The warm feelings can come later.\n\n",
+      "output_text": "The warm fuzzy feelings can come later.\n\nPick one thing from this list. ",
+      "word_overlap": 0.631578947368421,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3,
+        4
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 283,
+      "source_end": 403,
+      "output_start": 451,
+      "output_end": 559,
+      "source_text": "Pick one of these and make it specific. When will you do it, what's the smallest first step, and what help do you need? ",
+      "output_text": "Figure out specifically what you will do, when you will do it, what the first step is and who can help you. ",
+      "word_overlap": 0.46808510638297873,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        5
+      ],
+      "output_sentences": [
+        6,
+        7
+      ],
+      "source_start": 403,
+      "source_end": 503,
+      "output_start": 559,
+      "output_end": 635,
+      "source_text": "If there's a hard moment you can see coming, it can help to practice what you'll say ahead of time. ",
+      "output_text": "Consider rehearsing what you will say in difficult moments. Later, debrief. ",
+      "word_overlap": 0.18181818181818182,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6
+      ],
+      "output_sentences": [
+        8,
+        9
+      ],
+      "source_start": 503,
+      "source_end": 544,
+      "output_start": 635,
+      "output_end": 701,
+      "source_text": "Afterward, look at what really happened. ",
+      "output_text": "If you didn’t do what you planned, consider why. Were you afraid? ",
+      "word_overlap": 0.10526315789473684,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        7
+      ],
+      "output_sentences": [
+        10,
+        11
+      ],
+      "source_start": 544,
+      "source_end": 592,
+      "output_start": 701,
+      "output_end": 779,
+      "source_text": "If you didn't do it, don't assume you know why. ",
+      "output_text": "Did you not know what you wanted? Did you not know how to do what you wanted? ",
+      "word_overlap": 0.20689655172413793,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        8
+      ],
+      "output_sentences": [
+        12,
+        13
+      ],
+      "source_start": 592,
+      "source_end": 732,
+      "output_start": 779,
+      "output_end": 833,
+      "source_text": "It could have been fear, not knowing what you were aiming for, not knowing how, being exhausted, or something practical getting in the way. ",
+      "output_text": "Were you too tired? Was something getting in the way? ",
+      "word_overlap": 0.35294117647058826,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        9
+      ],
+      "output_sentences": [
+        14
+      ],
+      "source_start": 732,
+      "source_end": 859,
+      "output_start": 833,
+      "output_end": 892,
+      "source_text": "And if you did it and didn't feel better right away, that doesn't mean it failed, but doing it doesn't prove it helped either. ",
+      "output_text": "If you did do what you planned, notice if you feel better. ",
+      "word_overlap": 0.2564102564102564,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        10
+      ],
+      "output_sentences": [
+        15,
+        16
+      ],
+      "source_start": 859,
+      "source_end": 981,
+      "output_start": 892,
+      "output_end": 1063,
+      "source_text": "Keep what actually makes your little one safer, closer to you, more capable, or happier, not just what gets a check mark.\n",
+      "output_text": "Keep in mind that doing something that should make your little one safe or close or competent or happy doesn’t necessarily mean it did. Only do things that actually help.\n",
+      "word_overlap": 0.18867924528301888,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

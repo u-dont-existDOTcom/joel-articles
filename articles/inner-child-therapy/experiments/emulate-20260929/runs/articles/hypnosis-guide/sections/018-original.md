@@ -1,0 +1,152 @@
+# Induction: gathering attention without disappearing
+
+An induction gathers scattered attention until quieter material becomes easier to hear. You don’t have to surrender, play asleep, or obey anyone. When you’re sober, distracted, analytical, or guarded, an actual induction may help. When meditation, loveyhuasca, lucid dreaming, grief, music, prayer, fatigue, or another intense opening has already made you trancey, begin with orientation and containment instead of adding depth.
+
+Aim for the amount of trance that suits the practice: focused, warm, receptive, embodied, and still able to stop. Depth is optional.
+
+## What an induction is actually doing
+
+Prepare the session, gather attention, deepen only when that helps, then let what you notice shape the words and the next response. Counting is one way in. Conversation, story, movement, repeated sound, and curiosity can also organize attention. Say so when you use them; elegance doesn’t excuse a covert induction.
+
+For a simple, chosen target, you can test the suggestion before deepening. If the useful response is already happening, build from it. An induction helps you find a receptive way of listening; you don’t need to complete a ceremony before you’re allowed to respond.
+
+## Please don’t put six metaphors in one trance
+
+Choose one purpose, one starting anchor or image, and a way back. Decide whether warmth, a firm boundary, direction, or neutral witnessing would help. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.
+
+Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all. Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish. Borrow qualities such as warmth or steadiness without replacing your identity.
+
+Pick one central verb, one sensory quality, one short refrain, and one transition phrase, then read the script aloud; long elegant sentences become soup during an induction.
+
+## Before you begin
+
+Read the induction and Come all the way back while fully awake. Choose the question or quality you want to explore, what you’re leaving alone today, and how much time you have. Love, play, confidence, creativity, and communion are worthwhile purposes; you don’t have to find a problem. Leave several minutes for returning and reflecting.
+
+Choose a physically secure place without driving, water, machinery, or anyone needing your supervision. When intoxicated, acutely confused, or unable to keep yourself safe, deal with immediate support rather than exploratory hypnosis. The later Already open? practice is for orientation, not permission to intensify an unstable state.
+
+Decide what kind of encouragement is welcome: spacious listening, warm company, or a firmer invitation to stay with a feeling. Preview eye closure, any repeated exit and re-entry, and the return. For a recording, read the script beforehand when possible. “Stop” ends the exercise; “less” reduces the demand; “quiet” stops the words. You can simply open your eyes and finish. No inner part has to approve your decision to stop.
+
+When entry and return are unfamiliar, first rehearse them without a difficult subject. Once you know how to change direction, you don’t need to supervise every moment. Let a useful response become easier and less effortful. A no remains no; silence doesn’t authorize a narrator to add something you haven’t agreed to.
+
+Let the next invitation grow from the response you got—not the response the script expected.[Utilization](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques) means working with what actually happens: a thought, sound, movement, or objection may change where the practice goes. Notice what actually happens; no change doesn’t mean secret success. Keep safety and exit instructions plain. Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction.
+
+## Sober induction: 3–5 minutes
+
+Read this slowly into a recorder, speak it aloud, or learn its movement and use silent words if that comes easily. Choose one anchor—a sound, bodily contact, or your two-hand practice—and an opening phrase. Keep using the same anchor where the words refer to it. Pause between paragraphs; don’t read the delivery directions aloud.
+
+Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and notice the difference between looking for something and letting what is already there come into view.
+
+There is a surface beneath you. Notice where you meet it … the contact, the pressure, whatever you can actually feel. And while you notice that, a sound may reach you, or a breath may draw your attention, without needing you to arrange either one.
+
+You can give this a little time.
+
+A thought about the day may still be here. A thought about whether you’re doing this properly may be here too. There is room to notice a thought and return to the anchor you chose, without finishing the thought first.
+
+And as you return, you may find one detail that holds your interest … something about the sound, or the contact, or that particular way of listening … and let attention stay with it long enough to become curious.
+
+Perhaps you can give yourself the time you would give someone you care about who has begun to speak and hasn’t yet found the words. You can remain nearby, listening, without finishing their sentence for them.
+
+Let your chosen phrase come to mind now. Say it as an invitation, and notice how it is received.
+
+As you continue, your eyes can close, soften, or stay open. Let that be a choice you make. Listening may deepen while a sound from the room remains available in the background.
+
+Count slowly from five to one. Give each number its own moment.
+
+Five. Notice your chosen anchor again. Four. Let attention gather around what you find. Three. Leave a little space after the words. Two. Listen into that space, without preparing an answer. One. Stay here for a moment.
+
+Bring your chosen concern lightly to mind, or remain with your wish for contact. Let it be present without rehearsing its whole story.
+
+What am I noticing now?
+
+Give the response time to take its own form. It might be a sensation, a few words, an image, a feeling, or an impulse to move. There may be nothing clear yet.
+
+Leave room to notice, with words or without them.
+
+## Already open? Contain before you deepen
+
+Use this when loveyhuasca, meditation, lucid dreaming, grief, music, prayer, erotic energy, exhaustion, or intense beauty has already opened the state. Stabilize before making it stronger.
+
+“The state is already open. I do not need to intensify it. I need to aim it, stabilize it, and keep it kind.”
+
+Look around the room. Name where you are. Name the date, or at least the day. Feel your feet, hands, and spine. Press your thumbs gently but firmly against your index fingers. Focus on the physical friction of skin meeting skin.
+
+“Only what can be integrated is welcome now. Anything too much can wait. The body may stay safe. The adult self remains present. The inner child does not have to carry this alone.”
+
+Once you’re oriented, choose one intention:
+
+“Please show me the next useful truth, symbol, feeling, question, or action — only in the amount I can live well with.”
+
+## Stay awake when your mind likes to escape
+
+Sit upright. Open the eyes. Feel the feet. Let the breath be natural.
+
+Say: “I am not going away. I am coming more fully here.”
+
+Look at one object. Feel the spine.
+
+“Is this daydream guidance, emotional digestion, or avoidance?”
+
+“If it is guidance, show me the action inside it. If it is avoidance, bring me gently into the present and show me what I am avoiding.”
+
+If stillness makes you sleepy, diffuse, or escape-prone, [hypnosis can become more alert rather than more relaxed](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318). Keep the eyes open and pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains without trying to disappear inward.
+
+“Eyes open. Press thumb and forefinger together gently. Release. Again — clearer, not sleepier. One more time. Now stop the deliberate movement. Notice the first second after the rhythm ends. Is there an echo in the fingers, the breath, the attention, or nowhere at all? Stay upright and work from exactly that level of alertness.”
+
+## The two-hand induction
+
+Place one hand on the heart. Place the other hand on the solar plexus.
+
+Let the heart hand represent the Nurturer. Let the solar plexus hand represent the vulnerable child.
+
+Breathe gently.
+
+“Love above. Child below. Adult present.”
+
+“I send love to the child. I receive the child’s signal. I send love again. I listen again.”
+
+## Sleep induction
+
+Sleep induction has a different job. In inner work, the adult returns, writes, and acts. At bedtime, analysis can remain off duty. Revelation can wait; the task is rest.
+
+For sleep hypnosis, see [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT).
+
+## Optional fractionation: practice coming back
+
+Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. Name the technique before using it; every answer cannot secretly mean “deeper.”
+
+“Open the eyes and return toward ordinary awareness. Feel the room and decide whether to stop here. If you choose to continue, close or soften the eyes and notice what changes as attention gathers again. You may stop at either point.”
+
+## Deepening, if useful
+
+“If it is useful, attention may become more gathered. If it is not useful, I remain exactly as awake as I need to be.”
+
+Choose one simple scene: a room in the heart, a garden, a temple, a fire with the Protector nearby, a clear lake, or a chair where the adult waits. One scene is plenty.
+
+“Who or what needs to speak first?”
+
+## Optional trance depth check
+
+“As I wait, I give up the responsibility of making anything happen.
+
+If it is useful, the wise subconscious may let one finger twitch, pulse, lift, warm, tingle, or become subtly noticeable when the inner meeting space is ready.
+
+I will not force it. I will not fake it. I will simply wait with love and notice.”
+
+A finger may move, a hand may warm, the breath may change, or nothing may happen. None proves truth; at most, something may be listening.
+
+## A shortcut back into hypnosis
+
+Learn a useful induction and the full return below before developing a shortcut. My dad brought two fingers together in a mudra like the OK sign to help himself relax, including while driving. That’s his experience, not a recommendation to enter trance at the wheel. Keep alert calming and inward hypnosis on different cues.
+
+Choose a distinctive word, phrase, or optional gesture. During a familiar, welcome hypnotic state, pair it with that receptive way of listening—not peak emotional intensity, a child-state, or a traumatic scene. Give it the meaning you choose:
+
+When I’ve set aside time, settled somewhere appropriate, and deliberately use my cue to begin, I can return to this familiar way of listening. I can change direction or finish.
+
+Return fully. On a later suitable occasion, deliberately begin practice and try the cue. Give it time; gradually shorten the longer induction when the shortcut helps, and use the familiar route when it doesn’t. No fixed repetition count, instant depth, or particular sensation is required.
+
+Check usefulness and selectivity: does it help when chosen, remain absent when unchosen, and leave changing direction and returning workable? It mustn’t become obedience to a narrator, notification, or overheard word. Faster entry doesn’t determine what material you can handle.
+
+Never train, test, or use hypnotic re-entry while driving or doing anything requiring active attention. Open eyes and conditional wording are not safeguards.
+
+To retire the cue, stop rehearsing it, remove it from recordings or active app instructions, and return to the familiar induction. State your decision while awake; a cancellation sentence does not prove the association vanished instantly. Persistent unwanted responses or disorientation need qualified help. Any retained cue is for a future, separately chosen session; today’s altered state ends with the return.
+

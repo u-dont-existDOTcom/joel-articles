@@ -1,6 +1,6 @@
 {
   "action_id": "gpt-charge-B01-web-01",
-  "status": "reserved_not_submitted",
+  "status": "reserved_not_submitted_after_owner_confirmation",
   "input_file": "inputs/learning/B_protector/B01_m34.txt",
   "input_sha256": "a1d6ff7617f206479382e4506831990963c75f2aeac5c310543d1cbba00230ee",
   "input_words": 180,
@@ -8,5 +8,7 @@
   "expected_one_charge": 180,
   "via": "website",
   "style": "all Auto",
-  "reserved_utc": "2026-09-29T01:20:40.892880+00:00"
+  "reserved_utc": "2026-09-29T01:20:40.892880+00:00",
+  "blocker": "Owner must explicitly confirm named unpublished inputs to Emulate/Pangram; do not bypass through API",
+  "owner_authorization": "OWNER-EGRESS-AUTHORIZATION.json"
 }

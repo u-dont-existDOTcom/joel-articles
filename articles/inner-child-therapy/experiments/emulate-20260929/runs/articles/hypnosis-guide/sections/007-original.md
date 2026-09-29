@@ -1,0 +1,16 @@
+# Protecting Yourself from Hypnotists
+
+Hypnotism can happen in a therapist’s office. It also happens through music, marketing, religious ritual, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, belonging, fatigue, love, trauma, and beauty.
+
+Influence doesn’t wait for the conscious mind to sign a form. Marketers and interface designers know this perfectly well. The FTC’s report on dark patterns describes designs that trick or manipulate consumers, while the OECD describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
+
+Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.
+
+A line associated with the Silva Mind Control tradition says it plainly:
+
+“If you don’t learn to control your mind, someone else will!”
+
+Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind. Self-hypnosis lets you practice from inside it: befriending the deeper layers, listening closely, and making adult choice more available.
+
+Double click to interact with video
+

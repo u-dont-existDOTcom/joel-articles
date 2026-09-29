@@ -1,0 +1,15 @@
+== tells_lint: articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/claude_test_B01_m34_opt1.txt
+verdict: REVIEW
+metrics: {'words': 202, 'my_words': 202, 'paragraphs': 2, 'coach_per_100': 0.5, 'you_per_100': 9.9, 'landing_rate': 1.0, 'instruction_paragraphs': 1, 'para_len_cv': 0.21, 'sent_len_cv': 0.86, 'repeated_openers': {}}
+-- B4/E15 list or packed sentence (2)
+   * They probably can think of a few things they do that demonstrate their care, like locking the door at night or making sure they eat regularly or saying no to so
+   * Keep in mind that doing something that should make your little one safe or close or competent or happy doesn’t necessarily mean it did.
+-- B7 short landing at paragraph end (2)
+   * The warm fuzzy feelings can come later.
+   * Only do things that actually help.
+-- E23 paragraph of instructions (1)
+   * Pick one thing from this list. Figure out specifically what you will do, when you will do ...
+-- E36/E41 heavy second person (1)
+   * 9.9 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * Keep in mind that doing something that should make your little one safe or close or competent or happy doesn’t necessarily mean it did.

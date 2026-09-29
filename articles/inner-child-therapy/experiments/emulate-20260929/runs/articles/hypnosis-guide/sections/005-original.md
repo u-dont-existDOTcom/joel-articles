@@ -1,0 +1,18 @@
+# Quick start: do this first
+
+Gather attention, notice what is here, offer one fitting response, wait, then come all the way back. You can meet a difficulty or develop love, curiosity, play, or confidence. Nothing dramatic has to happen.
+
+Before the first session, read the induction and full return below while awake. Set aside time somewhere physically secure. Choose one purpose and what you are leaving alone today. Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.
+
+As you listen, a sensation, image, phrase, feeling, objection, or silence may become noticeable. Let the next invitation follow that response. Use warmth, a boundary, direction, or more time as needed. Finish with the complete return, then note what happened and any real-world action it calls for.
+
+When you become panicky, disoriented, increasingly unreal, or less able to function, stop deepening and return to the room and appropriate support. A difficult feeling you freely choose to stay with while present is a different situation.
+
+## Do you usually think in words?
+
+Before choosing a script, notice how words actually work in your mind. Do silent words or phrases arise often, occasionally, rarely, or hardly at all? They needn’t sound like an audible voice. Does this vary when you plan, remember, reflect, or feel upset? Can you deliberately form a silent sentence, even if words seldom arrive on their own?
+
+That is different from feeling something before words come in a particular moment. Neither question requires deciding that feelings always come first. “Not sure” is a useful answer; this is a way to choose workable instructions, not a diagnosis.
+
+Read “say,” “ask,” and “listen” in this guide as invitations, not a requirement for an inner narrator. Speak aloud, write, use a recording, or follow the invitation without rehearsing a sentence. The child and protector needn’t speak in sentences either. Don’t assume an image must appear instead. Try whatever is accessible, and change the route when it stops helping.
+

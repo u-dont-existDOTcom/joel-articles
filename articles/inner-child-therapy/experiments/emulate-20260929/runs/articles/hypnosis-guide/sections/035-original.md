@@ -1,0 +1,20 @@
+# Appendix E: Is the daydream helping or replacing your life?
+
+Daydreaming can be intuition, simulation, grief digestion, creative rehearsal, symbolic teaching, or the subconscious showing a possible future, fear, or desire. It can also become avoidance, fantasy addiction, dissociation, romantic obsession, or an escape hatch from adult life.
+
+Does the daydream return me to life with more clarity, love, and action? Or does it pull me away from life into repetition, craving, and avoidance?
+
+When it seems useful, ask:
+
+“What is the guidance inside this?”
+
+When it seems to be pulling you away, change the body before debating the story. Sit upright. Open the eyes a little. Feel the feet.
+
+“Subconscious, thank you for showing me images. If this daydream is useful, please reveal the guidance inside it. If it is avoidance, please bring me gently into the present and help me deal with what I need to deal with in a gentle but structured way.”
+
+Then get embarrassingly practical:
+
+“What real-life action is this daydream replacing?”
+
+The answer may be: send the message, stop sending the message, clean the room, eat, sleep, grieve, create, apologize, leave, tell the truth, make the plan, ask for help, return to the task, or stop chasing unavailable love.
+

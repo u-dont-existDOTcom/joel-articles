@@ -23,3 +23,9 @@ Style inspection: Writing for Auto; Tone Auto; Point of view Auto; Formality For
 
 ## Next action
 Reset Style to Auto, submit exact B01 once, copy both options, re-read /v1/me, and record the routing decision.
+
+## 2026-09-29 approval-review boundary
+First B01 Send was rejected before submission for unpublished-text egress. No Humanize request executed; no new charge/result. Explicit scoped confirmation requested for named learning/article inputs to Emulate and Pangram. No alternate submission attempted.
+Local preparation only: exact originals, H1 section maps, link inventories, 55 learning input hashes, five historical rechecks nominated; holdout content never read. Learning inputs below 40 words remain skipped pending an authorized grouping rule.
+
+2026-09-29 01:27 UTC: Joel explicitly approved all tasks, resolving the egress gate. Resume reserved B01 website charge test once; limits unchanged.
