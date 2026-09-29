@@ -1,0 +1,119 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2135 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: If you can't find the Nurturer in you yet, or you think of your little one and feel nothing warm, the Protector can start the relationship, and the warmth can come later. That may sound colder than it is. At first, care looks like a locked door, a dinner you cook even though it's only for you, or the coffee you cancel with the friend who always leaves you tired.
+  - generic: Human
+  - text: View Results
+- list
+- alert
+- iframe
+- button:
+- status
+- alert
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2135 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: If you can't find the
+  - button "Edit text":
+  - generic "Human":
+    - generic: Human
+  - generic: Sep 29, 2026 02:07 AM
+  - generic: 72 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: If you can't find the Nurturer in you yet, or you think of your little one and feel nothing warm, the Protector can start the relationship, and the warmth can come later. That may sound colder than it is. At first, care looks like a locked door, a dinner you cook even though it's only for you, or the coffee you cancel with the friend who always leaves you tired.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "Human Written Confidence level 72 words If you can't find the Nurturer in you yet, or you think of your little one and feel nothing warm, the Protector can start the relationship, and the warmth can come later. That may sound colder than it is. At first, care looks like a locked door, a dinner you cook even though it's only for you, or the coffee you cancel with the friend who always leaves you tired." [level=3]:
+      - button "Human Written Confidence level 72 words If you can't find the Nurturer in you yet, or you think of your little one and feel nothing warm, the Protector can start the relationship, and the warmth can come later. That may sound colder than it is. At first, care looks like a locked door, a dinner you cook even though it's only for you, or the coffee you cancel with the friend who always leaves you tired.":
+        - generic: Human Written
+        - generic "Confidence level":
+          - text: low
+        - generic: 72 words
+        - generic: If you can't find the Nurturer in you yet, or you think of your little one and feel nothing warm, the Protector can start the relationship, and the warmth can come later. That may sound colder than it is. At first, care looks like a locked door, a dinner you cook even though it's only for you, or the coffee you cancel with the friend who always leaves you tired.
+    - region "Human Written Confidence level 72 words If you can't find the Nurturer in you yet, or you think of your little one and feel nothing warm, the Protector can start the relationship, and the warmth can come later. That may sound colder than it is. At first, care looks like a locked door, a dinner you cook even though it's only for you, or the coffee you cancel with the friend who always leaves you tired.":
+      - text: Human
+      - text: Written
+      - generic: The segment is fully human-written.
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
