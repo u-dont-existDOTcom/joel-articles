@@ -1,0 +1,41 @@
+{
+  "source_sha256": "b411ce48843217fe722cca65876ea96284629cd52aebbf7eff50fd6c6ca7b247",
+  "output_sha256": "d989ddeaf6189fc2fc9ecce9ab1e948ecfd921e2c111035e3f8b532b959b4b3a",
+  "source_sentence_count": 2,
+  "output_sentence_count": 2,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 197,
+      "output_start": 0,
+      "output_end": 287,
+      "source_text": "If that's not enough, there's deeper somatic stuff like Shaking, tapping (EFT), EMDR, Brainspotting, Somatic Experiencing, Water Therapy, Massage, Energy Healing, or some other bottom-up approach. ",
+      "output_text": "Those things are great, but if that's not enough, there are deeper somatic techniques like Shaking, tapping (EFT), EMDR, Brainspotting, Somatic experiencing, Water Therapy, Massage, Energy Healing and a whole other set of somatic techniques that approach the healing from the bottom up. ",
+      "word_overlap": 0.6575342465753424,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 197,
+      "source_end": 313,
+      "output_start": 287,
+      "output_end": 363,
+      "source_text": "In my personal experience, what actually works better for me than all of these is shaving my head and massaging it.\n",
+      "output_text": "But for me, nothing works better than shaving my head and massaging my head!",
+      "word_overlap": 0.45714285714285713,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
