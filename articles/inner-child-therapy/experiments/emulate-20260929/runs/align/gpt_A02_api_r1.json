@@ -1,0 +1,76 @@
+{
+  "source_sha256": "395833196e47c58f84cde8dd6b92a9c2932c93c3d2428294424c71c4c8d30aa1",
+  "output_sha256": "ef23320fa94f4a38c2fc767fa3dc34cc41b93c909474e5bcf1dd8851fe47b2bf",
+  "source_sentence_count": 5,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 248,
+      "output_start": 0,
+      "output_end": 229,
+      "source_text": "I've been writing this whole guide as if everybody who tries it wants to take care of the kid, but some people get a little rush out of making somebody scared or small, and a few are honestly hoping therapy will make them better at working people. ",
+      "output_text": "Most of these instructions are assuming that you really do just want to take care of the imps child. But the truth is some people like the power of frightening something and a few would like the job to work better after therapy. ",
+      "word_overlap": 0.2857142857142857,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 248,
+      "source_end": 475,
+      "output_start": 229,
+      "output_end": 345,
+      "source_text": "If that's you, you might have breezed through the check above and figure, \"I'll just bring the kid out for a second and see what happens.\" So you bring it out, it gets scared, and somehow that feels like you learned something. ",
+      "output_text": "So it is possible that you ignored some of the above and are thinking “I can just have the child out for a second”. ",
+      "word_overlap": 0.35294117647058826,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 475,
+      "source_end": 560,
+      "output_start": 345,
+      "output_end": 498,
+      "source_text": "Mostly you just gave the part of you that wanted it scared exactly what it came for. ",
+      "output_text": "And then you get your kick out of the child being scared and in fear. But all you really did was feed some part of yourself that wanted it to be scared. ",
+      "word_overlap": 0.32653061224489793,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 560,
+      "source_end": 595,
+      "output_start": 498,
+      "output_end": 558,
+      "source_text": "Leave the kid where it is for now.\n",
+      "output_text": "So if this is you then please leave the child alone for now.",
+      "word_overlap": 0.38095238095238093,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
