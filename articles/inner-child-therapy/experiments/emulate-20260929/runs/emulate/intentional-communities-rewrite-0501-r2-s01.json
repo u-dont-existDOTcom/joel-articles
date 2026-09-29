@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0501-r2-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/ea836b7f-5809-471b-bd8f-a22e3baaa531",
+  "input_sha256": "d41b82c832453ae497375b7b024d3663b7ba153f1b1cc62691bdc8f8bd2b7893",
+  "input_words": 197,
+  "before": 50181,
+  "after": 49984,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 203,
+      "sha256": "892255263b69f15a045d53afe9fefd637642f19b271ba2fae76d459e3b14fd48",
+      "page_sha256": "892255263b69f15a045d53afe9fefd637642f19b271ba2fae76d459e3b14fd48",
+      "has_list": false,
+      "last": "use out of fear of the negative reactions of parents, neighbors, insurance companies, and local officials who may not know or care about the legal distinctions."
+    },
+    {
+      "option": "B",
+      "words": 264,
+      "sha256": "f8550a6594c035018f4384f202c0462ef4f0ea967a7474556e8996c2e9cabcde",
+      "page_sha256": "f8550a6594c035018f4384f202c0462ef4f0ea967a7474556e8996c2e9cabcde",
+      "has_list": false,
+      "last": "t of your community (from parents of kids you want nearby, other neighbors, insurance companies, local government officials who don’t understand the law, etc.)."
+    }
+  ]
+}

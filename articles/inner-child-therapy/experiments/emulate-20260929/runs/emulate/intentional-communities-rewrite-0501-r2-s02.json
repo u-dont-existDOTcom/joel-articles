@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0501-r2-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/3d8d3754-d74d-4ca1-82df-75f58e53d18a",
+  "input_sha256": "05e3b67ecfd88a8903ca62292ade08d6a9e5944c4717a47e1b62315b87fdf46f",
+  "input_words": 195,
+  "before": 49984,
+  "after": 49789,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 225,
+      "sha256": "bd482f8d350273a63247044c2e19df48773fdce8e81e3b6c4110591e53f83eb3",
+      "page_sha256": "bd482f8d350273a63247044c2e19df48773fdce8e81e3b6c4110591e53f83eb3",
+      "has_list": false,
+      "last": "eople. They can also be confusing, grandiose, lead to dependency, be messy in a community, etc, etc. It all comes down to the maturity of the community I think."
+    },
+    {
+      "option": "B",
+      "words": 232,
+      "sha256": "1936cfb6d2fb5229f8d689f922f6e62a3488f11a3945104ffbbd3e8555340287",
+      "page_sha256": "1936cfb6d2fb5229f8d689f922f6e62a3488f11a3945104ffbbd3e8555340287",
+      "has_list": false,
+      "last": "nd can lead to a lot of “baggage” like grandiosity, dependency, and general messiness. Whether or not it’s a good idea depends on the maturity of the community."
+    }
+  ]
+}

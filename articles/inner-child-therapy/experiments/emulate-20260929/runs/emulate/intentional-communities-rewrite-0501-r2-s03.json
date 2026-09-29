@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0501-r2-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/8a79f18c-61a3-49e0-8615-55fd676a698c",
+  "input_sha256": "2df4606abf84ad9fd7aef76d05c7819bbda833d1abdf410dff08d2f359bb0260",
+  "input_words": 57,
+  "before": 49789,
+  "after": 49732,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 67,
+      "sha256": "aeb6b72df1284e7e70898a5dbf24c21cb5d3314ffade2a80bb322b3ee9bd2a73",
+      "page_sha256": "aeb6b72df1284e7e70898a5dbf24c21cb5d3314ffade2a80bb322b3ee9bd2a73",
+      "has_list": false,
+      "last": "o be with during your experience is beneficial, but also having a community to follow up with is essential, especially when you see a pattern over a few months."
+    },
+    {
+      "option": "B",
+      "words": 88,
+      "sha256": "f917b284f344909394c192ee282626f2714da7ef31a23ae312f6694aa0fb8b66",
+      "page_sha256": "f917b284f344909394c192ee282626f2714da7ef31a23ae312f6694aa0fb8b66",
+      "has_list": false,
+      "last": "ht to begin with. Within a community that supports you during your experience, someone will be able to pick up on what is going on for you in the coming months."
+    }
+  ]
+}
