@@ -39,3 +39,5 @@ B01 baseline: AI Generated 100%; 190 words; Pangram 4.0; short-text confidence l
 B02 baseline: AI Generated 100%; 81 words; Details Low; credits 2163 -> 2162. PDF Download offered but remained Downloading and event timed out after 20 seconds; no paid scan repeated.
 
 B03 baseline reproduces 100% AI, 557 words; credits2162->2156. C1 baseline reproduces 100% Human,118 words, Details medium; credits2156->2154. Capture helper closure retained earlier metadata and briefly mislabelled C1 as B03; repaired from exact visible result and recovered B03 snapshots from published checkpoint. Change helper to explicit item/text arguments before another scan; no resubmission.
+
+2026-09-29 02:00 UTC: Owner reported repeated native save-file dialogs. Download events were waiting on native Save As, invisible to browser DOM control; second attempt interrupted. PDF export disabled for the remaining run; result text/spans remain saved. B09 baseline complete (100% AI,62words,credit2139), not repeated. Browser runtime reset after interruption; current Personnel browser ID changed to3, existing tab debugger unattached. Recover using documented fresh-tab path before any paid action.

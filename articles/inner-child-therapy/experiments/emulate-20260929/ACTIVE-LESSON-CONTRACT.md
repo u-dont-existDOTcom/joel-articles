@@ -12,3 +12,5 @@ Authority: current Joel request adopting Claude's overnight directive; exact cop
 8. Final delivery: timestamp first line; honest remaining scope and evidenced boundary; reusable long output in files; no background-continuation claim.
 
 Mechanical enforcement at every submission: input whitelist + exact hash + spend reservation + branch fence. Semantic promotion remains Pro/owner, and no experiment result becomes canonical article authority.
+
+9. Owner interruption 2026-09-29 02:00 UTC identified native Save As popups from PDF exports. No more Download/export-PDF clicks. Preserve structured detector records, exact highlighted spans, and raw result snapshots directly; mark PDFs omitted due disruptive native picker.
