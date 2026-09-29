@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0201-s05",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/7af2f33c-e757-4c8e-a8b1-7097f9cbebea",
+  "input_sha256": "e79816e70474f5734c01993808784e3257a9ab90be59b6f832c2c12153345c51",
+  "input_words": 177,
+  "before": 19246,
+  "after": 19069,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 225,
+      "sha256": "814b428027ce59f7d5f7d7a20fb3a6d9e425a05c600637539cf6713dc107e54e",
+      "page_sha256": "814b428027ce59f7d5f7d7a20fb3a6d9e425a05c600637539cf6713dc107e54e",
+      "has_list": false,
+      "last": "reviously well-tolerated doses may now be too strong for you. Do not try to chase the visual threshold you were previously accustomed to, as you may go too far."
+    },
+    {
+      "option": "B",
+      "words": 225,
+      "sha256": "92876b0ef682fb399d679f08eb8ea77b2739179a08f652fa46f2c19fafd94b86",
+      "page_sha256": "92876b0ef682fb399d679f08eb8ea77b2739179a08f652fa46f2c19fafd94b86",
+      "has_list": false,
+      "last": "lics may be too strong when you do decide to use them again. Trying to get the visuals that you used to get at a certain dose could be overshooting it big time."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0201-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/eeef8f2f-3802-4d39-ae3d-33f8c611e24d",
+  "input_sha256": "23cb59aea02544ccd54c54ed4d853df062d5b9ec2da604443b387cafc69888c8",
+  "input_words": 219,
+  "before": 19638,
+  "after": 19419,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 263,
+      "sha256": "14af9dc8838a66a491820449f89ad9e99feb0facc91bc4d5a7c675abcc6e8afa",
+      "page_sha256": "14af9dc8838a66a491820449f89ad9e99feb0facc91bc4d5a7c675abcc6e8afa",
+      "has_list": false,
+      "last": "equent lsd microdoses and other things like ketamine to stimulate dopamine. Long story short, it’s a very specific phenotype and likely not useful for everyone."
+    },
+    {
+      "option": "B",
+      "words": 253,
+      "sha256": "e8d34ab0a33dc806b62f7e8b63c12600c33d4e5b7e1b3caf9cbadf1b467d9bb3",
+      "page_sha256": "e8d34ab0a33dc806b62f7e8b63c12600c33d4e5b7e1b3caf9cbadf1b467d9bb3",
+      "has_list": false,
+      "last": "xacerbating it by microdosing lsd frequently and trying to get dopamine hits with ketamine. It is a very specific phenotype, most depressed people are not this."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0201-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/237f099a-0b9e-4e86-acef-d170dec69210",
+  "input_sha256": "9041109ad4d2d681ce7e6b6c5d4f6d8c0891ba9c2c002040f2c847c154e00ab7",
+  "input_words": 223,
+  "before": 19861,
+  "after": 19638,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 319,
+      "sha256": "947934435aa74b4a891196d06989e1d0f4e388c9a6b8b4bcffbdd512e8152cbc",
+      "page_sha256": "947934435aa74b4a891196d06989e1d0f4e388c9a6b8b4bcffbdd512e8152cbc",
+      "has_list": false,
+      "last": "some testing done to find out for sure.\n\nAgmatine Vs Phosphatidylserine Vs Phosphatidylcholine\n\nThese are three very different tools and should not be confused."
+    },
+    {
+      "option": "B",
+      "words": 292,
+      "sha256": "ecd606b4dc9e717308cbb2e1d874db63ddd1ad89178a8c25f7559884d477acc2",
+      "page_sha256": "ecd606b4dc9e717308cbb2e1d874db63ddd1ad89178a8c25f7559884d477acc2",
+      "has_list": false,
+      "last": " so avoid it or get the cortisol test done before you take it.\n\nAGMATINE VS PHOSPHATIDYL SERINE VS PHOSPHATIDYLCHOLINE\n\nDo not confuse these 3 tools as they are"
+    }
+  ]
+}

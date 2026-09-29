@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0201-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/ff2c1dd6-74a0-4834-a43e-24587a1f4d8e",
+  "input_sha256": "ebe204475041357d5a10ebf551ad3d8eb275c91fe90f3c24651a0a4d5ea95b3a",
+  "input_words": 220,
+  "before": 20081,
+  "after": 19861,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 257,
+      "sha256": "cd70173f560c739f96ef1544b30275fce7fbf81bda7c4258af0b416d0e69257c",
+      "page_sha256": "cd70173f560c739f96ef1544b30275fce7fbf81bda7c4258af0b416d0e69257c",
+      "has_list": false,
+      "last": " 100g) and you shouldn’t eat it every day (mercury), but a 200g piece of Mackerel would give you 960mg of PS which is more than most clinical studies have used."
+    },
+    {
+      "option": "B",
+      "words": 293,
+      "sha256": "80d2e8022a63ba00738f0395bbb17eb60d45799cc3f366f7d6dd471921fbda20",
+      "page_sha256": "80d2e8022a63ba00738f0395bbb17eb60d45799cc3f366f7d6dd471921fbda20",
+      "has_list": false,
+      "last": "to mercury content). So if you eat a 200g piece of Mackerel you will get ~960mg of PS which is greater than that shown to be helpful in the clinical literature."
+    }
+  ]
+}

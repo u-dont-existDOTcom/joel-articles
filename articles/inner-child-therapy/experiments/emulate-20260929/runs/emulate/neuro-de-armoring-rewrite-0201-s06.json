@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0201-s06",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/9d7a08b7-e90e-4f29-8e38-a7bada44c47e",
+  "input_sha256": "d45d7c625292f54eb3eedb06bbc2335e07dd0ae019d20d17163c975c589a8fb2",
+  "input_words": 197,
+  "before": 19069,
+  "after": 18872,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 204,
+      "sha256": "78a0cf9acdbd2d44180ae86deabafcbae910d26bbf2b6da5635ee8d53063efb0",
+      "page_sha256": "78a0cf9acdbd2d44180ae86deabafcbae910d26bbf2b6da5635ee8d53063efb0",
+      "has_list": false,
+      "last": "ry cofactor for the enzyme aromatic amino acid decarboxylase. (Note that Scott is genetically slow-COMT, so is very sensitive to P5P, so he requires low doses.)"
+    },
+    {
+      "option": "B",
+      "words": 238,
+      "sha256": "26d3893bdff0bcc63b98de38d207af41817d6a58fe7c70dc26798ed167fa6a80",
+      "page_sha256": "26d3893bdff0bcc63b98de38d207af41817d6a58fe7c70dc26798ed167fa6a80",
+      "has_list": false,
+      "last": "and is a cofactor in the aromatic amino acid decarboxylase reaction. However, I am slow-COMT and very sensitive to P5P, so most people can take more than I can."
+    }
+  ]
+}

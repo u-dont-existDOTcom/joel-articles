@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0201-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/7307cd39-1323-40e2-a80e-e3ab8f061049",
+  "input_sha256": "3f5002287e45c701367a99c9fc0cdb45182664c09c3f2b4577bb57db69983ed4",
+  "input_words": 173,
+  "before": 19419,
+  "after": 19246,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 245,
+      "sha256": "856a52314862dc3987fbb27df63f8d44231a1e8ef53032a9d5fb9158196c9270",
+      "page_sha256": "856a52314862dc3987fbb27df63f8d44231a1e8ef53032a9d5fb9158196c9270",
+      "has_list": false,
+      "last": "you might be deficient in your ability to regrow synaptic membranes and dopamine receptors, it might be worth trying UMP to see if it's a strong signal for you."
+    },
+    {
+      "option": "B",
+      "words": 242,
+      "sha256": "3fcccbf2359c1312458817d292e3c0430a2a01a108247b3f219268155a471d30",
+      "page_sha256": "3fcccbf2359c1312458817d292e3c0430a2a01a108247b3f219268155a471d30",
+      "has_list": false,
+      "last": "y D3 receptors regenerated, it’s possible. In any case, UMP sent a strong signal that my dendritic spine membranes (and/or dopamine receptors) had been starved."
+    }
+  ]
+}

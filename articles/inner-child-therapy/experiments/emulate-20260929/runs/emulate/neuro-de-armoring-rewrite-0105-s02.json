@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0105-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/64bb68f6-f381-44da-aaa4-0611b2974fd8",
+  "input_sha256": "2dbbd3c977638af1104b3449c7e5346c2f0bf4216ad1827b1dfe9412fe909249",
+  "input_words": 161,
+  "before": 20242,
+  "after": 20081,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 191,
+      "sha256": "c00699c838fbeef9b1afe323c2ca7c2f7fa6881fd3aa4b94f05ba1aa1779d350",
+      "page_sha256": "c3682350c444c8a08088fa9e8ba0d8c47f31976eeb9571ada613abaa42d3d450",
+      "has_list": true,
+      "last": "s right after being triggered) rotate the objects in your mind, or imagine them changing into a different shape (so the blue chair might now become a blue cube)"
+    },
+    {
+      "option": "B",
+      "words": 152,
+      "sha256": "9f785808ff027a81f0cc4f67f5d97c17068727c8c44766dbb7d8757dddc29ca8",
+      "page_sha256": "9f785808ff027a81f0cc4f67f5d97c17068727c8c44766dbb7d8757dddc29ca8",
+      "has_list": false,
+      "last": "to right) Add complexity: Rotate the objects in your mind or change them into something else Do this for 10-20 minutes after a trigger and you ”jam” the memory."
+    }
+  ]
+}

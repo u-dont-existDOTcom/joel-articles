@@ -1,0 +1,28 @@
+{
+  "id": "neuro-de-armoring-rewrite-0105-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/ac55bfb1-a8de-4d92-add5-2b38f65cc14d",
+  "input_sha256": "5c690bc0a751f5c9d93f11aa1a91abf966d8cf057c181b49e50f83402e7f47fc",
+  "input_words": 230,
+  "before": 20472,
+  "after": 20242,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 139,
+      "sha256": "832d44f865dfa207ae2e4d78067d314a8d79fd43e7e4c3a3e294c4841c90d1a2",
+      "page_sha256": "268a361e5e3ad7a11e3b246e6341bd3da02ed8b65566b6430333df4bfd542d25",
+      "has_list": true,
+      "last": " to increase p131, Heat Shock Proteins and reduce inflammation.\n\nE) “Save Button” of Memory Reconsolidation\n\n“Problem”: Flashbacks that attempt to “Save” memory"
+    },
+    {
+      "option": "B",
+      "words": 187,
+      "sha256": "07a3291e63285f1265a612d06b26b695714dcb976f8029518d6cb9f2e3bb3864",
+      "page_sha256": "07a3291e63285f1265a612d06b26b695714dcb976f8029518d6cb9f2e3bb3864",
+      "has_list": true,
+      "last": "eat shock proteins, and reduce inflammation.\n\nE. Save Button- Memory Reconsolidation\n\nProblem: Every time a flashback occurs, the brain tries to save the memory"
+    }
+  ]
+}
