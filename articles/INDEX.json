@@ -3908,7 +3908,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram.jsonl",
-          "sha256": "5497933c5afab259db9297a692d6033297401e2c1defc2b419d54d335f28302a",
+          "sha256": "c18de005873e06270f5f9ef2416ce17f17d47f6a5ae59be0b578749b4c93a25d",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3944,7 +3944,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/admission-events.jsonl",
-          "sha256": "dce9c22a5d3a3bc7b1431df5ce67d3a9df06a693a0d450cfb33db9972d83b70a",
+          "sha256": "2bfdea7f4939101a9f7b827a7c89e0b0f75c8eab7c42bd476b38bc948efaf317",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3987,6 +3987,18 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_C1_s2j_claude_HUMAN.overview.txt",
           "sha256": "42f31cd1ac036ff525d4a0462f72a3ce656eb2bdebf1fd90302439b2490050f0",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_C2_joel_p1_HUMAN_JOELS_OWN_WRITING.details.txt",
+          "sha256": "14ca1465af29eef45c3688c50d4abc071bceb067b058d2234907f84fc05f4a6f",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_C2_joel_p1_HUMAN_JOELS_OWN_WRITING.overview.txt",
+          "sha256": "a9c69813009f0ee22ad8080311ca3f34a6744eca3ae1359a6bf192ce44d4865b",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }

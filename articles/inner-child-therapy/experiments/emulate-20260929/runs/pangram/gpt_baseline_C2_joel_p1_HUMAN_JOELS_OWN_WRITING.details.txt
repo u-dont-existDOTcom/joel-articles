@@ -1,0 +1,116 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2152 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: So set one boundary. "What's a 'boundary'?", I might be asking. That looks like saying no to something that's costing you too much (money, time, whatever it is). Throw the moldy bread in the trash. Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one. Clean your room! And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you.
+  - generic: Human
+  - text: View Results
+- list
+- alert
+- iframe
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2152 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: So set one boundary. "What's
+  - button "Edit text":
+  - generic "Human":
+    - generic: Human
+  - generic: Sep 29, 2026 01:49 AM
+  - generic: 121 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: So set one boundary. "What's a 'boundary'?", I might be asking. That looks like saying no to something that's costing you too much (money, time, whatever it is). Throw the moldy bread in the trash. Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one. Clean your room! And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "Human Written Confidence level 121 words So set one boundary. \"What's a 'boundary'?\", I might be asking. That looks like saying no to something that's costing you too much (money, time, whatever it is). Throw the moldy bread in the trash. Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one. Clean your room! And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you." [level=3]:
+      - button "Human Written Confidence level 121 words So set one boundary. \"What's a 'boundary'?\", I might be asking. That looks like saying no to something that's costing you too much (money, time, whatever it is). Throw the moldy bread in the trash. Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one. Clean your room! And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you.":
+        - generic: Human Written
+        - generic "Confidence level":
+          - text: medium
+        - generic: 121 words
+        - generic: So set one boundary. "What's a 'boundary'?", I might be asking. That looks like saying no to something that's costing you too much (money, time, whatever it is). Throw the moldy bread in the trash. Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one. Clean your room! And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you.
+    - region "Human Written Confidence level 121 words So set one boundary. \"What's a 'boundary'?\", I might be asking. That looks like saying no to something that's costing you too much (money, time, whatever it is). Throw the moldy bread in the trash. Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one. Clean your room! And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you.":
+      - text: Human
+      - text: Written
+      - generic: The segment is fully human-written.
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
