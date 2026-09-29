@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2101-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/e7f0d98c-aef8-4bab-952f-5fe18232292b",
+  "input_sha256": "d123db9f60e74a1d43d56163415909a1688a3b6f901d1f919a6f7f3f99dd8b9a",
+  "input_words": 144,
+  "before": 29503,
+  "after": 29359,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 207,
+      "sha256": "5ca6b62aad34bece17caa4ed74a8b0cd7790cb8bb75b1007fc66e6e050210af0",
+      "page_sha256": "5ca6b62aad34bece17caa4ed74a8b0cd7790cb8bb75b1007fc66e6e050210af0",
+      "has_list": false,
+      "last": " other appropriate help if you are dealing with recurring panic attacks, compulsive behaviors, substance-induced instability, or major relationship instability."
+    },
+    {
+      "option": "B",
+      "words": 265,
+      "sha256": "d0b57d86c827b441b64f1a30afd2c8bfd3a2fcd2500f05a29bbbfb67398e8d8d",
+      "page_sha256": "d0b57d86c827b441b64f1a30afd2c8bfd3a2fcd2500f05a29bbbfb67398e8d8d",
+      "has_list": false,
+      "last": "et some help that’s more suited to your needs if you struggle with recurring panic attacks, compulsive behaviors, substances, or major relationship instability."
+    }
+  ]
+}

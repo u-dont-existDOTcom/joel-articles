@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2001",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/61f32703-4ff7-4c60-938f-1d44464c8b89",
+  "input_sha256": "82d3e5ccbba8e9b0f271e8db9eeed9a227a45ca3a6e59ca2fc53ed20d6cbeec1",
+  "input_words": 288,
+  "before": 29791,
+  "after": 29503,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 442,
+      "sha256": "0e6d645e3eb83302ab96a537c68ea010c7c1567ec6efa85d8881d517a1065b0d",
+      "page_sha256": "0e6d645e3eb83302ab96a537c68ea010c7c1567ec6efa85d8881d517a1065b0d",
+      "has_list": false,
+      "last": "y cancelled!\n\nIf you are awake at the end of the session, make sure you return to your normal state, remembering who you are and state that the session is over."
+    },
+    {
+      "option": "B",
+      "words": 534,
+      "sha256": "7d7f60d3afc2d0b32a622ba411966702b2827a355cef775bf3c51df5ca447290",
+      "page_sha256": "7d7f60d3afc2d0b32a622ba411966702b2827a355cef775bf3c51df5ca447290",
+      "has_list": false,
+      "last": "ough to remove it.\n\nIf you are awake at the end of a session, make sure that you return to your normal sense of self and tell yourself that the session is over."
+    }
+  ]
+}

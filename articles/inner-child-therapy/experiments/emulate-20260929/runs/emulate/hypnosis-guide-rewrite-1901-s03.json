@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1901-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/c3e81480-e2c8-4afe-9314-d2b4d7b41583",
+  "input_sha256": "a0b0767fa3035e5b2ee919e589fa0ba0b62646be6f9ae2984fa89521c8870df7",
+  "input_words": 198,
+  "before": 30232,
+  "after": 30034,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 261,
+      "sha256": "a5ceebed065b47bb1abd88d0b4e77bd4dd05c596112149cfa27d8d8aa7502be0",
+      "page_sha256": "a5ceebed065b47bb1abd88d0b4e77bd4dd05c596112149cfa27d8d8aa7502be0",
+      "has_list": false,
+      "last": "rst, the content later.”\n\nIf you keep daydreaming:\n\nSit up and open your eyes.\n\n“What real action is this fantasy replacing?”\n\nYou get stuck in spiritual bypass"
+    },
+    {
+      "option": "B",
+      "words": 213,
+      "sha256": "5610040ccd03a1e0acbe195f3a66cefe00918aca1dd10d33d730c9a43642ce8d",
+      "page_sha256": "5610040ccd03a1e0acbe195f3a66cefe00918aca1dd10d33d730c9a43642ce8d",
+      "has_list": false,
+      "last": "he content.”\n\nYou keep daydreaming\n\nSeriously, just sit up and open your eyes.\n\n“What real action is this fantasy replacing?”\n\nYou get stuck in spiritual bypass"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2201-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/a9236bd0-4f84-48c1-91f0-b4f708074267",
+  "input_sha256": "f70242ec6999a53e31d7a9b06554d023968ca9c097685dbfe1e4dd3174912163",
+  "input_words": 161,
+  "before": 29160,
+  "after": 28999,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 202,
+      "sha256": "b9c4a327eaafe799049df5343ee6ba70eebe32b47fd18835251b8889ad604151",
+      "page_sha256": "b9c4a327eaafe799049df5343ee6ba70eebe32b47fd18835251b8889ad604151",
+      "has_list": false,
+      "last": "d the possibility to ask questions about what we’re doing. But of course you can also learn to do it yourself without an app, and/or find someone to do it with."
+    },
+    {
+      "option": "B",
+      "words": 204,
+      "sha256": "07bce2b7214538931a2cd5bf718dfbca49e54a74c149d0f9b5a5eee6706026c2",
+      "page_sha256": "07bce2b7214538931a2cd5bf718dfbca49e54a74c149d0f9b5a5eee6706026c2",
+      "has_list": false,
+      "last": "ce self-hypnosis without the app, or want to work with me or another trained practitioner, you’ll be ready for it. But that’s a choice – it’s not a requirement."
+    }
+  ]
+}

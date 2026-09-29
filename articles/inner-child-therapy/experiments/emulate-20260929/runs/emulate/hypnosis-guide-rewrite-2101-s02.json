@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2101-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/b2928d7f-7c8d-4a4f-8735-09a0de4b9bf0",
+  "input_sha256": "cfb6ee8167370cdbfd431ff50d621c649532850d9338cf5aea76d0cc65e438ff",
+  "input_words": 199,
+  "before": 29359,
+  "after": 29160,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 290,
+      "sha256": "f0d3448977f74e36f987cfe90666ec17d2416b55a464dd023b4209c2e3e86676",
+      "page_sha256": "f0d3448977f74e36f987cfe90666ec17d2416b55a464dd023b4209c2e3e86676",
+      "has_list": false,
+      "last": "l, grounded, precise, etcetera in ordinary life. If not, don’t go deeper and work on sleeping, eating, grounding, setting boundaries, getting support, etcetera."
+    },
+    {
+      "option": "B",
+      "words": 287,
+      "sha256": "cbef620e2fb2650a69bc27a42168f1bc946aba7114dba43374f54abab0995725",
+      "page_sha256": "cbef620e2fb2650a69bc27a42168f1bc946aba7114dba43374f54abab0995725",
+      "has_list": false,
+      "last": "ecise, etc. If not, don’t go deeper. Go back to getting enough sleep, eating well, grounding yourself, setting boundaries, and finding support outside yourself."
+    }
+  ]
+}

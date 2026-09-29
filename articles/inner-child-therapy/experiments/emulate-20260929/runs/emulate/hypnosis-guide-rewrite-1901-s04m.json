@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-1901-s04m",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/da74b2c0-4061-44e1-b996-17ab9c75e962",
+  "input_sha256": "18de74e37631a6dd1836fe073521d4c6d6ad72122386c56c574ae904a14c9c77",
+  "input_words": 243,
+  "before": 30034,
+  "after": 29791,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 333,
+      "sha256": "fdd62d2e93d2e00dc80c04055efff6382bf89617bd8accb1f4ae3e4c89d443c0",
+      "page_sha256": "fdd62d2e93d2e00dc80c04055efff6382bf89617bd8accb1f4ae3e4c89d443c0",
+      "has_list": false,
+      "last": "the Leader do here?”\n\nYou keep doing hypnosis but don’t change anything in your life.\n\nAsk “What would make your inner child realise you are real?”\n\nThen do it."
+    },
+    {
+      "option": "B",
+      "words": 315,
+      "sha256": "848954afdb355cce8f8de72798fb2a3419533bbba9adc5dec52256329d9c0f0f",
+      "page_sha256": "848954afdb355cce8f8de72798fb2a3419533bbba9adc5dec52256329d9c0f0f",
+      "has_list": false,
+      "last": "r do in this situation?\n\nWhy do you keep doing hypnosis when you don’t change your life?\n\nWhat would reassure the kid that you are really there?\n\nThen go do it."
+    }
+  ]
+}

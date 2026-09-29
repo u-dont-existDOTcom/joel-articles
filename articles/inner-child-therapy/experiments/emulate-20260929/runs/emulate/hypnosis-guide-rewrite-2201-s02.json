@@ -1,0 +1,28 @@
+{
+  "id": "hypnosis-guide-rewrite-2201-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/41a117e3-1d43-4842-adef-186a9dd6f941",
+  "input_sha256": "1351828348433393506fa3afad44c77ece872d8ff15f61c09a6315a210cb5bbe",
+  "input_words": 185,
+  "before": 28999,
+  "after": 28814,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 215,
+      "sha256": "4a1518aa87f87f17da751b9c4b096d5713dcdf3d926592dfa105f147772d11bf",
+      "page_sha256": "4a1518aa87f87f17da751b9c4b096d5713dcdf3d926592dfa105f147772d11bf",
+      "has_list": false,
+      "last": "analyze later, and to help others.\n\nIf you have questions that the guide or app doesn't answer sufficiently for you, please contact me to set up a consultation."
+    },
+    {
+      "option": "B",
+      "words": 196,
+      "sha256": "16c7adc89472656cb4a0cd950269e52f474fe98f7f410187a5c92fa89f8fbf20",
+      "page_sha256": "16c7adc89472656cb4a0cd950269e52f474fe98f7f410187a5c92fa89f8fbf20",
+      "has_list": false,
+      "last": "ve the information you learned and submit it for later analysis.\n\nPlease feel free to contact me for consultation if something is not answered by the guide/app."
+    }
+  ]
+}
