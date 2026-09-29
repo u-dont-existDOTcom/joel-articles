@@ -239,6 +239,8 @@ def build_draft(target):
     w = read('writer_draft.txt')
     for k in ('brief', 'before', 'after'):
         w = w.replace('{%s}' % k, t[k])
+    if t.get('length'):  # a target can set its own length (e.g. two guide paragraphs merged into one)
+        w = w.replace('two or three sentences, 50 to 80 words', t['length'])
     i = w.index('Write the paragraph:')
     return w[:i] + joel_fixes() + '\n\n' + w[i:]
 

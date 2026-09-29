@@ -84,3 +84,34 @@ Installed as a candidate: "Keep Your Word" and s2j. The linter fails s2j (B11, B
 - P6. At a seam, the new paragraph's first sentence gets scored with the last lines of the paragraph before. After his summing-up close, a topic opener ("Then there's…", "Some of the protecting happens…") was flagged, and so was carrying on his list of commands ("And repair…", "Repair… too."). Two openers passed: the article's own "If…, do it" shape, and a plain "You can… too, like by…".
 - P7. A heading is part of what Pangram reads, and it moves the windows. Five of six h2 wordings failed, and the flagged span always took in his last two sentences. So "Keep Your Word" passing is probably luck, not a fix. The fix that would last is at that span, and it's his text.
 
+
+## Guide paragraph 3, folded into the first half of paragraph 4 (2026-09-29, turn 2)
+
+**The move (my call, reported to Joel).** Guide paragraph 3 is 30 words: "When the Nurturer is unavailable, the Protector can begin the relationship. Care may first appear as a locked door, a meal, a cancelled obligation, or a phone put down at midnight. Warmth can come later." Most of it is already in the article:
+- the acts are in P1 and P2;
+- "if there isn't any yet, borrow some" and "lock the door and get help" are in Borrow One Competency;
+- the phone at midnight belongs to the 2 a.m. paragraph, which is out for now.
+
+The new idea is that you can start with protective acts before you feel any warmth, and that's the reason to pick one act. So it now opens paragraph 4, and paragraph 4 splits in two: before the act (pick one, make it specific, rehearse), then afterward (look at what happened, and so on).
+
+Earlier this turn, three fresh writers drafted paragraph 3 on its own (d1–d3, target `make-the-protector-visible-p3.json`). The two that were checked were 100% AI (71 and 75 words).
+
+| draft | how | cold read | linter | Pangram alone |
+|---|---|---|---|---|
+| w1–w3 | fresh writers, target `-p3b` (brief in sentences) | w2 only: follows on | FAIL, all three (coach 2.5/100) | not run |
+| w4–w6 | fresh writers, target `-p3c` (brief as bare notes) | w5 clean; w4 "two paragraphs joined", "the first care"; w6 "catches up", "one of these" | REVIEW | — |
+| w5b | w5, "tends to come later" set back to the guide's "can" | — | REVIEW | 100% AI (124 words), whole paragraph |
+| wA | w5b after reviewer A's tickets (two reviewers, both blind, both AI 80) | follows on; "Your first care" misread, the last sentence's turn unclear | REVIEW | — |
+| wB | w5b after reviewer B's tickets | fails: the plate, "whichever act", "her", the stacked questions; one invented coworker scene throughout | REVIEW | not run |
+| wA2 | wA with two cold-read fixes ("The first care you give them", "but your little one") | — | REVIEW | 100% AI (158 words), whole paragraph |
+
+Reviewers ran without `local/human_items.json` (the blog, somatic and romance examples). It isn't in the container or in the laptop lane, so their prompts had only the calibration examples.
+
+**Lessons**
+
+- P8. The brief's wording went straight into the drafts again. All three writers wrote "you can start with the Protector anyway", word for word from my brief. Bare notes stopped the copying.
+- P9. The writers converge on the same choices: rehearsing "in the car" (w1–w3), needing "a ride" (w1–w3), and "cancelling the thing you only said yes to so nobody would be upset" (w3, w4, w6). None of those are in the brief or the guide.
+- P10. Eleven drafts of this material, five checked, all 100% AI with the whole paragraph flagged. Every one kept the guide's order (no warmth, the Protector starts, examples, warmth later, pick one, the questions, rehearse). The reviewer's tickets changed the frame and the ending, but they kept the opener and the "Take one act…" list, and Pangram still flagged all of it. By the stop rule this is structural, and I've asked Joel for a minimal fix on wA2.
+- P11. Both reviewers called w5b AI 80 without being told the Pangram result, and my own calls went 1 of 2 this turn.
+
+**Tools:** `reviewer.py draft` now takes an optional `length` in the target, for merged paragraphs.
