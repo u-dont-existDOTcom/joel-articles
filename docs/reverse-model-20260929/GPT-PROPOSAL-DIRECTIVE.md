@@ -4,19 +4,24 @@
 
 ## The goal
 
-Build a model that takes an AI draft of one of Joel's articles and rewrites it so that it:
+Build a model that does what Emulate does, in its two modes, and does it better.
+
+**Rewrite:** take any AI draft and rewrite it so that it:
 - passes Pangram in context, meaning inside its section with the heading and the paragraphs around it;
 - keeps every point, fact, name, number and link of the draft;
-- avoids the tells in `articles/inner-child-therapy/tools/tells_lint.py` and in Joel's bans;
+- avoids the tells in `articles/inner-child-therapy/tools/tells_lint.py` (Joel's own bans apply to his articles);
 - runs about as fast as Emulate (5–9 seconds for 75–180 words in Claude's test) and costs about the same or less.
 
-Later, it should also sound like Joel.
+**Write:** write a piece from a prompt, meeting the same standards. Emulate's docs describe its `POST /v1/write` as generating from the prompt and then humanizing the result (https://www.tryemulate.ai/docs/api). Propose whether to do the same two steps, where any chat model drafts and the rewriter humanizes, or to train generation directly. Test the choice against Emulate's write mode.
+
+**General first.** The main model should sound like a person writing in the draft's own register and genre, for any writer. That's what Emulate offers. A mode that sounds like Joel comes later, as an option. If everything came out in Joel's style it would read worse than Emulate, and a comparison with Emulate wouldn't be like for like.
 
 ## What we know
 
 - **Emulate** (https://www.tryemulate.ai) passes Pangram well, but it fudges meaning. In Claude's test one version turned "keep what helps, not what earns a tick" into "just tick them off." It also has audible tells: "warm and fuzzy", runs of five questions, "It's okay… It's okay…".
   - Their research page says they train their own models on how real people write.
   - Their API returns one version per call.
+  - It also writes from a prompt (`POST /v1/write`).
   - Data and details: `articles/inner-child-therapy/experiments/emulate-20260929/runs/CLAUDE-API-TEST.md`, plus tonight's overnight run in the same folder when it's done.
 - **Joel tried fine-tuning GPT with LoRA and it didn't seem useful.** Claude's guess: a chat model keeps its trained habits under a small fine-tune.
 - **Base models write nonsense from nothing, and chat models are hard to pull out of their attractor.** Joel raised both. Claude's view is that rewriting is a conditioned task: the draft supplies the content and order. So a base model fine-tuned on rewrite pairs should stay coherent while keeping human-like word choice. **That's a hypothesis. The pilot has to test it, and the proposal mustn't assume it.**
@@ -43,7 +48,7 @@ Design these points carefully:
    - Make the outline carry every concrete detail.
    - Drop any pair where the human text says something the AI version doesn't.
    - Say how you'd check that at scale.
-3. **Match the register.** Joel writes personal, spiritual, psychological and practical essays in second person, with his own first person. Choose human sources in that register. Say which sources, their licenses, and how many words each has.
+3. **Cover many writers and registers.** The general model needs human text from many authors and genres, including the kinds Emulate lists: academic writing, books, emails, news and essays. Joel's personal, spiritual and practical essays are one register among these, weighted more heavily only in his later mode. Say which sources you'd use, their licenses, and how many words each has.
 4. **Match the inputs.** Make the AI versions with the same models and prompt styles Joel's drafts come from, so the model learns to undo the drafts it will actually see.
 
 ## What the proposal must cover
@@ -54,14 +59,16 @@ Design these points carefully:
    - LoRA versus full fine-tuning, and why LoRA failed for Joel on GPT;
    - license, context length, and the hardware each needs.
 3. **Training:** supervised fine-tuning first, then preference training. For preference training, pairs of "chosen" (passes in context and keeps the meaning) and "rejected" (flagged, or drifts), made by generating 3–4 versions per paragraph.
-4. **The test set:** 50–100 AI paragraphs never used in training, drawn from the guide texts and Claude's failed drafts.
+4. **The test set:** 50–100 AI paragraphs never used in training.
+   - Draw some from the guide texts and Claude's failed drafts, and the rest from general texts in Emulate's genres, so the comparison is like for like.
+   - Add 20 or so prompts to test the write mode.
    - Don't use `articles/inner-child-therapy/experiments/emulate-20260929/inputs/learning/E_holdout/`. That's reserved for Claude.
    - Measure: Pangram alone and in context, meaning kept (a point-by-point check by a judge model, plus a sample Joel reads), facts kept, linter hits per 100 words, speed, and cost per 1,000 words.
    - Compare with Emulate on the same set.
 5. **A pilot:** about 1,000–2,000 pairs, one or two models, run on the test set against Emulate.
    - Give the rough cost and time.
    - State the result that would justify scaling up, and the one that would stop the project.
-6. **Joel's voice:** a second stage trained on his fixes and his own paragraphs. Say what it needs, given how little of his own writing there is.
+6. **Joel's voice, later and optional:** a second mode trained on his fixes and his own paragraphs. Say what it needs, given how little of his own writing there is, and keep it separate from the general model.
 7. **Serving:** hosted options that run fine-tuned open models or LoRA adapters. Give the speed for 300 words and the cost.
 8. **Risks:**
    - detectors retraining on a humanizer's output;
