@@ -1,0 +1,59 @@
+{
+  "source_sha256": "fcd55d537346353d18f9495e9186eaeda6773210978cc8b3309e02cbc05ed4ef",
+  "output_sha256": "355b1d353d869e4cad3663cceef9a9265982c49e5e1a7a08e2f25b18da286a0a",
+  "source_sentence_count": 4,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 62,
+      "output_start": 0,
+      "output_end": 104,
+      "source_text": "Céline’s song is called *On ne change pas*—“we don’t change.” ",
+      "output_text": "This song by Celine is named “On ne change pas”. Which means “we don’t change” And I believe it’s true. ",
+      "word_overlap": 0.5714285714285714,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 62,
+      "source_end": 136,
+      "output_start": 104,
+      "output_end": 178,
+      "source_text": "I think that’s basically true. You grow up, but the child is still there. ",
+      "output_text": "When we grow up, we do not stop being the child we were at the beginning. ",
+      "word_overlap": 0.25806451612903225,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 136,
+      "source_end": 277,
+      "output_start": 178,
+      "output_end": 488,
+      "source_text": "Sometimes adult life hits the exact place where you still feel small, abandoned, helpless, impulsive, frightened, or desperate to be chosen.\n",
+      "output_text": "So many things that happen to us when we’re grown-up touch us as we were still children, and it makes us feel as vulnerable, as unimportant, as lonely, as helpless, as impotent, as impulsive, as scared, as incapable, as in despair, as in the need to find someone to pick us above all the others and to love us…",
+      "word_overlap": 0.04878048780487805,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
