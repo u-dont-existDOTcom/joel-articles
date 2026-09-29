@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B09_api_r1",
+  "input_file": "inputs/learning/B_protector/B09_in_b.txt",
+  "input_words": 62,
+  "input_sha256": "1668c060b96777d56ccfb95ceb28eaf6c26076bc1547d565f1c2de4abed1c62c",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:36:20.702208+00:00",
+  "status": "completed",
+  "balance_before": 54432,
+  "provider_id": "5c7af9a9-e5d9-4580-8d31-783a2c1011e8",
+  "words_charged": 62
+}

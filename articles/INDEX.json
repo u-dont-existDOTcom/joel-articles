@@ -2636,7 +2636,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/CURRENT-STATE.md",
-          "sha256": "4e0a32f1f497ba305c28626b9fe754b5ee2e998a83254c6425ca8c4673ceb6b7",
+          "sha256": "8f2d21449ee01419cf17e77107688fb45c2ce93f83e7fe2295722a44887e13ac",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3890,7 +3890,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate.jsonl",
-          "sha256": "a1f351d960dbe159bf6381baad4786cfff1513750938bb4ede33db931d1d2af9",
+          "sha256": "77775898eb500b3546d85a3cd8d0ffbd7e8ea7ef13da62c4fe75d1c3a0b36bba",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -4970,7 +4970,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/me-latest.json",
-          "sha256": "d0be366767354ac610ab807f5b957573b0546f4aaec3c3056cb933a2f108e2bf",
+          "sha256": "3ec7bf03bac3ed68db989abaf674a5549fb8f4db991689826b1a6f56e0e74f21",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -6003,6 +6003,36 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_B08_api_r1.txt",
           "sha256": "8fc0139e677565a2c0c550984cd1213912b783585a71bc0f52a4a02c9d294308",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/align/gpt_B09_api_r1.json",
+          "sha256": "ff7f9e381d2c946d19d59fb4943fa8c16cca970de16524ee68250c67c30c92c9",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_B09_api_r1.lint.txt",
+          "sha256": "b8e300f85540a7d12e4a082280c9572f734e39cf240a72fdec70ce1cd448bee3",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_B09_api_r1.reservation.json",
+          "sha256": "22f4c97fddafa551210328c2610d3bb84c30bc7edf88a3eb5b9f1a6cbf6fcdc8",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_B09_api_r1.response.json",
+          "sha256": "f97dd453d66fcdf2f8e938aef15360bbbf29c5f8cbcf560d4ac3e732887b7173",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_B09_api_r1.txt",
+          "sha256": "6ac11a9b310f786bfd68d7f6c5e8f0f3f51e96c87956d7e0f44b07f7a4c6e758",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }

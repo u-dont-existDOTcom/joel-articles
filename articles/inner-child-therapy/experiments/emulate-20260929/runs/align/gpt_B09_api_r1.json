@@ -1,0 +1,59 @@
+{
+  "source_sha256": "1668c060b96777d56ccfb95ceb28eaf6c26076bc1547d565f1c2de4abed1c62c",
+  "output_sha256": "6ac11a9b310f786bfd68d7f6c5e8f0f3f51e96c87956d7e0f44b07f7a4c6e758",
+  "source_sentence_count": 3,
+  "output_sentence_count": 5,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 41,
+      "output_start": 0,
+      "output_end": 80,
+      "source_text": "The Protector also has a job inside you. ",
+      "output_text": "Remember the Protector? He's not just working outside, he's working inside too. ",
+      "word_overlap": 0.2727272727272727,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 41,
+      "source_end": 216,
+      "output_start": 80,
+      "output_end": 418,
+      "source_text": "Fear, rage, craving or shame can come up at full strength, and the Protector is still the one choosing what you say, send, spend or take, and who you sleep with or commit to. ",
+      "output_text": "In fact it's very likely that the Protector is acting even when your emotional state is flooding with 100% fear, rage, craving, shame, etc. It's the Protector making decisions as to what you are going to do about these feelings: What to say, what to text, what to buy, what to eat, what to take, who to sleep with, who to commit to, etc. ",
+      "word_overlap": 0.3,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 216,
+      "source_end": 310,
+      "output_start": 418,
+      "output_end": 522,
+      "source_text": "At two in the morning, your little one is just as lonely once the phone is in the other room.\n",
+      "output_text": "Even when you've put the phone in the other room and it's 2am and your little one is feeling very alone.",
+      "word_overlap": 0.27906976744186046,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
