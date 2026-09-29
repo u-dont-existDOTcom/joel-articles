@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0502-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/03116298-197a-4246-94c0-e12674f31276",
+  "input_sha256": "0c0f192f5bffebfc5e4a976a204f6bb6e12b3290202ea7b7aa3a0c6a01e6ba1b",
+  "input_words": 220,
+  "before": 49732,
+  "after": 49512,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 276,
+      "sha256": "5ed743ab2fc444d4f2fb2847618cb95d00dd89c5bc77bfedea09980733fa5e2f",
+      "page_sha256": "5ed743ab2fc444d4f2fb2847618cb95d00dd89c5bc77bfedea09980733fa5e2f",
+      "has_list": false,
+      "last": ". In a community, you can have ecstatic experiences with music and dancing with people you actually know. Plus it's just more fun to dance with other people. 💃🕺"
+    },
+    {
+      "option": "B",
+      "words": 264,
+      "sha256": "c65e3e0bd1a8486a76422449c19e763f6b4986401daec49e65bc4f1f21b6a240",
+      "page_sha256": "c65e3e0bd1a8486a76422449c19e763f6b4986401daec49e65bc4f1f21b6a240",
+      "has_list": false,
+      "last": " extremely intimate with someone you just met? Do it in a community where you already know people, listening to ecstatic music and dancing your freaky dance. 💃🕺"
+    }
+  ]
+}

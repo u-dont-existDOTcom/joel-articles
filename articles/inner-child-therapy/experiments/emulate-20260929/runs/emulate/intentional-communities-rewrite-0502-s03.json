@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0502-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/ba12e471-b892-49d1-b296-3a7ea0f2f3c6",
+  "input_sha256": "a68c63004a2fde11bcbea319b79d16ccdab985ddfb5afa4a991e78f2c04b5169",
+  "input_words": 200,
+  "before": 49311,
+  "after": 49111,
+  "provisional_ui_choice": "A",
+  "copy_match": false,
+  "options": [
+    {
+      "option": "A",
+      "words": 291,
+      "sha256": "d3c9d88261c2dab299c5bbe2233b683e08ffdbbd421821c62e7d012b6ea84984",
+      "page_sha256": null,
+      "has_list": true,
+      "last": "f what would constitute the need for emergency care. I am compiling this safety information in a new resource I’m putting together called Altered States Triage."
+    },
+    {
+      "option": "B",
+      "words": 217,
+      "sha256": "f0a169a44af22be7adbd0ae002f3defb0774fa271b22872ec30a813a9fed05e8",
+      "page_sha256": "f0a169a44af22be7adbd0ae002f3defb0774fa271b22872ec30a813a9fed05e8",
+      "has_list": true,
+      "last": "nteraction screening, dose considerations, emergency planning etc are all important. I’ve got most of the current safety info on those in Altered States Triage."
+    }
+  ]
+}

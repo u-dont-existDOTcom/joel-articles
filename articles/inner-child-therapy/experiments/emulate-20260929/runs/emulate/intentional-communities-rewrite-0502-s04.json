@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0502-s04",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/a062f399-4c06-42bd-add2-997a47ff35df",
+  "input_sha256": "9c3348a9983b2ed3fe1f0eb81372f5e618245f8317b8bfa87672d8d7e147a13c",
+  "input_words": 224,
+  "before": 49111,
+  "after": 48887,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 305,
+      "sha256": "0c674251098c8567a0c2f5339107cbd2ff60168cffef0d35b54b132d424ccda0",
+      "page_sha256": "0c674251098c8567a0c2f5339107cbd2ff60168cffef0d35b54b132d424ccda0",
+      "has_list": false,
+      "last": "m other communities, which helps to answer the criticism that forming communes is a way for people who have the resources and skills to run away from the world."
+    },
+    {
+      "option": "B",
+      "words": 328,
+      "sha256": "fc9a1609a10c774a556a4dc581bbef0c2a4071b7dad3c21ca3a2874d2d4fa79b",
+      "page_sha256": "fc9a1609a10c774a556a4dc581bbef0c2a4071b7dad3c21ca3a2874d2d4fa79b",
+      "has_list": false,
+      "last": "m a new community of their own. This, I think, is a good answer to those who say that a place like this is just an escape for people who can afford to drop out."
+    }
+  ]
+}

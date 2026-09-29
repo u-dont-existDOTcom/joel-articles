@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-0502-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/a2bea189-6dc1-4b7d-9382-f1958150939e",
+  "input_sha256": "846ad2fbd55070198c6ce284c26c332a01724c9822afdf5b1dac4b104142c61c",
+  "input_words": 201,
+  "before": 49512,
+  "after": 49311,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 301,
+      "sha256": "5cc29b9f280d2595c54d79e1daac612877ec3101f91a846ce59c9489e9f1fb27",
+      "page_sha256": "5cc29b9f280d2595c54d79e1daac612877ec3101f91a846ce59c9489e9f1fb27",
+      "has_list": false,
+      "last": "for each other, while still being humble about the limits of our capacity. Some more on doing ceremonies peer held and on the best psychopath shaman I ever met."
+    },
+    {
+      "option": "B",
+      "words": 249,
+      "sha256": "dddb0dd8397a6e0e28c8e146f2a72c607eb29c0164b22e7edace5dff80d607c8",
+      "page_sha256": "dddb0dd8397a6e0e28c8e146f2a72c607eb29c0164b22e7edace5dff80d607c8",
+      "has_list": false,
+      "last": "ess, as well as each others, while acknowledging the limits of our competence. See also: Ceremonies held by our peers and The Best Psychopath Shaman I Ever Met."
+    }
+  ]
+}
