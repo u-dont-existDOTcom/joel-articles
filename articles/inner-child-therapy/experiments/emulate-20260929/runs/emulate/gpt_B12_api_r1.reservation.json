@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B12_api_r1",
+  "input_file": "inputs/learning/B_protector/B12_first_a.txt",
+  "input_words": 60,
+  "input_sha256": "68080022270cb43fb2c9a5fa9e1c6bec964cfa280dd95c427c807cf115321ac1",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:36:51.222150+00:00",
+  "status": "completed",
+  "balance_before": 54229,
+  "provider_id": "2a508b68-9783-4506-8ec0-0e00eddbcce1",
+  "words_charged": 60
+}

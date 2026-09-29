@@ -1,0 +1,116 @@
+{
+  "source_sha256": "68080022270cb43fb2c9a5fa9e1c6bec964cfa280dd95c427c807cf115321ac1",
+  "output_sha256": "ef5b8d6a86a30e9bdc04e2aaf0defed57490e7619f69519425516c1b1fd881d9",
+  "source_sentence_count": 3,
+  "output_sentence_count": 10,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 143,
+      "output_start": 0,
+      "output_end": 128,
+      "source_text": "If you can't find the Nurturer in you yet, or you think about your little one and feel nothing warm, the Protector can start the relationship. ",
+      "output_text": "What if you don’t feel like a Nurturer? What if nothing comes to mind when you think about your child, your sweet little angel? ",
+      "word_overlap": 0.34615384615384615,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 143,
+      "source_end": 143,
+      "output_start": 128,
+      "output_end": 170,
+      "source_text": "",
+      "output_text": "Then start a relationship as a Protector. ",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 143,
+      "source_end": 143,
+      "output_start": 170,
+      "output_end": 223,
+      "source_text": "",
+      "output_text": "It may not seem as warm and fuzzy, but it’s a start. ",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 143,
+      "source_end": 143,
+      "output_start": 223,
+      "output_end": 254,
+      "source_text": "",
+      "output_text": "And warmth can be added later. ",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 143,
+      "source_end": 143,
+      "output_start": 254,
+      "output_end": 301,
+      "source_text": "",
+      "output_text": "What can you, as Protector, do for your child? ",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        6,
+        7
+      ],
+      "source_start": 143,
+      "source_end": 174,
+      "output_start": 301,
+      "output_end": 390,
+      "source_text": "That sounds colder than it is. ",
+      "output_text": "It’s easy! Make sure there is a locked door for your toddler to sleep behind each night. ",
+      "word_overlap": 0.16666666666666666,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        8,
+        9
+      ],
+      "source_start": 174,
+      "source_end": 312,
+      "output_start": 390,
+      "output_end": 595,
+      "source_text": "The warmth can come later, and for now, care might be a locked door, a meal, or a Saturday you cancel before you talk yourself out of it.\n",
+      "output_text": "Put a healthy meal on the table every night (even if it’s McDonald’s a couple times a week). Cancel your Saturday plans to stay home with your child (it’s OK if you don’t want to do it, just do it anyway).",
+      "word_overlap": 0.1643835616438356,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
