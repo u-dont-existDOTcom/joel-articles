@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1601-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/e7fa89b1-2567-4438-b81c-229f5aa2ffa8",
+  "input_sha256": "c7cc7883942337a44d04f0b84d235c4a2373c6c3903e67130584c7386f5ce26d",
+  "input_words": 220,
+  "before": 41646,
+  "after": 41426,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 252,
+      "sha256": "b4d145db046d77fcdad5826600e2b43b5787e01c771e6d1249f0e096c78efecc",
+      "page_sha256": "b4d145db046d77fcdad5826600e2b43b5787e01c771e6d1249f0e096c78efecc",
+      "has_list": false,
+      "last": "\nYou can start doing inner pl'ork right now -- form peer counseling relationships, work on reparenting, somatic work, jealousy issues, conflict resolution, etc."
+    },
+    {
+      "option": "B",
+      "words": 279,
+      "sha256": "2d923f0ab07bf1e48c26df9e70c36327706dfb397627914cd378bd423e587661",
+      "page_sha256": "2d923f0ab07bf1e48c26df9e70c36327706dfb397627914cd378bd423e587661",
+      "has_list": false,
+      "last": "40 acres.\n\nEven if you can’t move, there’s a ton of inner pl/ork you can do – peer counseling, reparenting, somatic work, processing jealousy and conflict, etc."
+    }
+  ]
+}

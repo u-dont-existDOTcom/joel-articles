@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1502-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/9d321050-1536-4d7f-8d8b-59d2ccace57f",
+  "input_sha256": "db6f228ad856499e20f9d67b07fecc1cf0ae26662c11affb4741c0c87d1c7c83",
+  "input_words": 147,
+  "before": 41793,
+  "after": 41646,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 168,
+      "sha256": "f362bc4f6cbf3adb05bbf80a71fb2d30e9bd80bd032fa04b646ba8e993ad50f8",
+      "page_sha256": "f362bc4f6cbf3adb05bbf80a71fb2d30e9bd80bd032fa04b646ba8e993ad50f8",
+      "has_list": false,
+      "last": "ee in a friends family’s house (they don’t want my rent), but it doesn’t come without some watchfulness, social conservativeness, bureaucracy, and other issues."
+    },
+    {
+      "option": "B",
+      "words": 210,
+      "sha256": "82643f8ae54c99e5bed8b240509451eead2433b01be5dd7ac78058a7ee6e8db2",
+      "page_sha256": "82643f8ae54c99e5bed8b240509451eead2433b01be5dd7ac78058a7ee6e8db2",
+      "has_list": false,
+      "last": "with my good friend's whole family, they won't even let me pay rent. Like anywhere, there can be lots of watchfulness, social backwardness, bureaucracies, etc.."
+    }
+  ]
+}

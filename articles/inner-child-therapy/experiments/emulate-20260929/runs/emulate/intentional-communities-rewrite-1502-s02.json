@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1502-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/d27daf0c-4143-4f23-b9dd-ee6f6390dbaa",
+  "input_sha256": "9a652a9100a3122c53bff90867ae39694ec948d2973685f5d80261ce7184b262",
+  "input_words": 221,
+  "before": 42014,
+  "after": 41793,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 268,
+      "sha256": "8e3283d81bb425093285045902bcb34146cf234a2d62e66d23a0dfe083cc5eb9",
+      "page_sha256": "8e3283d81bb425093285045902bcb34146cf234a2d62e66d23a0dfe083cc5eb9",
+      "has_list": false,
+      "last": "unities. They’ve gone from trying to prevent people from leaving, to negotiating deals with them so that they leave but have certain obligations to the commune."
+    },
+    {
+      "option": "B",
+      "words": 277,
+      "sha256": "9866e0720249e96f55ebb4208d99bfeef29a477ce5f3da1143092db49a134d33",
+      "page_sha256": "9866e0720249e96f55ebb4208d99bfeef29a477ce5f3da1143092db49a134d33",
+      "has_list": false,
+      "last": "apatistas have had this problem with people migrating outside, and that they've gone from trying to prevent it to negotiating arrangements with those who leave."
+    }
+  ]
+}
