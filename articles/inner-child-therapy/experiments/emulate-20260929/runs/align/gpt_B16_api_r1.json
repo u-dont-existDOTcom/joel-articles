@@ -1,0 +1,60 @@
+{
+  "source_sha256": "a4d29f2471981803aff8f5c135c83ad5a5655569a20f722719c40a7cca3eb471",
+  "output_sha256": "c537408f46e897d8acc24466885e6273d32d885e9fbde018891a1b756541749c",
+  "source_sentence_count": 3,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 193,
+      "output_start": 0,
+      "output_end": 123,
+      "source_text": "Afterward, look at what actually happened, and if you didn't do it, don't decide why until you have, since it could be fear, second thoughts, not knowing how, tiredness or something practical. ",
+      "output_text": "Then see what happens. If you don’t do it, don’t worry about whether you should have done it until after you have done it. ",
+      "word_overlap": 0.4,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 193,
+      "source_end": 325,
+      "output_start": 123,
+      "output_end": 409,
+      "source_text": "Ticking it off doesn't prove it helped, so keep the acts that leave your little one safer, closer, more capable or having more fun. ",
+      "output_text": "It may be that you didn’t do it because you were afraid, or you had second thoughts, or you didn’t know how to do it, or you were too tired, or any number of practical reasons. Keep those acts that result in your little one being safer or closer to you or more able or having more fun. ",
+      "word_overlap": 0.3764705882352941,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 325,
+      "source_end": 434,
+      "output_start": 409,
+      "output_end": 635,
+      "source_text": "But feeling no relief doesn't mean it failed; you can say no to your sister and check all day for her reply.\n",
+      "output_text": "Just because you don’t feel better when you’ve done it doesn’t mean it wasn’t a good idea to do it. You may still feel better if you don’t let your sister know that you said no, and then check all day to see if she’s answered.",
+      "word_overlap": 0.29333333333333333,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

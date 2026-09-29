@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B16_api_r1",
+  "input_file": "inputs/learning/B_protector/B16_after_b.txt",
+  "input_words": 78,
+  "input_sha256": "a4d29f2471981803aff8f5c135c83ad5a5655569a20f722719c40a7cca3eb471",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:37:29.828364+00:00",
+  "status": "completed",
+  "balance_before": 53945,
+  "provider_id": "84f07342-7633-446e-b713-83dd785c5fd8",
+  "words_charged": 78
+}
