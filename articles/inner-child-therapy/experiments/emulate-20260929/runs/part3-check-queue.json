@@ -1,0 +1,975 @@
+[
+  {
+    "check_id": "part3_claude_test_B02_after_a_opt1",
+    "text_file": "runs/emulate/claude_test_B02_after_a_opt1.txt",
+    "text_sha256": "6ee0cb587d54654a5bffb45528159a4f3695b49e591eb4e8d7a3e0cc8bdafef2",
+    "variant": "output",
+    "words": 160,
+    "status": "completed_from_exact_saved_result",
+    "run_id": "claude_test_B02_after_a_opt1",
+    "cached_check_id": "claude_test_B02_after_a_opt1"
+  },
+  {
+    "check_id": "part3_claude_test_B02_after_a_opt2",
+    "text_file": "runs/emulate/claude_test_B02_after_a_opt2.txt",
+    "text_sha256": "7fe1eddc5296db088f3d4aed806a6fea50a9beaeb33782695de7a5740f1c3400",
+    "variant": "output",
+    "words": 110,
+    "status": "completed_from_exact_saved_result",
+    "run_id": "claude_test_B02_after_a_opt2",
+    "cached_check_id": "claude_test_B02_after_a_opt2"
+  },
+  {
+    "check_id": "part3_claude_test_B01_m34_opt1",
+    "text_file": "runs/emulate/claude_test_B01_m34_opt1.txt",
+    "text_sha256": "28725a948e65d2510f9e44c6e1d575f223feebce17b960267759b24b632fb886",
+    "variant": "output",
+    "words": 198,
+    "status": "completed_from_exact_saved_result",
+    "run_id": "claude_test_B01_m34_opt1",
+    "cached_check_id": "claude_test_B01_m34_opt1"
+  },
+  {
+    "check_id": "part3_claude_test_B01_m34_opt1_p01",
+    "text_file": "runs/prepared/paragraphs/claude_test_B01_m34_opt1_p01.txt",
+    "text_sha256": "f867679135f489ce9cce645855a3777c7cd59d512a22df71e8831095236c5c28",
+    "variant": "output_paragraph",
+    "words": 78,
+    "status": "blocked_browser_policy",
+    "run_id": "claude_test_B01_m34_opt1",
+    "output_start": 0,
+    "output_end": 420
+  },
+  {
+    "check_id": "part3_claude_test_B01_m34_opt1_p02",
+    "text_file": "runs/prepared/paragraphs/claude_test_B01_m34_opt1_p02.txt",
+    "text_sha256": "8ff54cede6f5a45f1c98ecd636eefdd2e2a4dff16a7c033ebe2ba378a31f62d4",
+    "variant": "output_paragraph",
+    "words": 120,
+    "status": "blocked_browser_policy",
+    "run_id": "claude_test_B01_m34_opt1",
+    "output_start": 420,
+    "output_end": 1063
+  },
+  {
+    "check_id": "part3_context_claude_test_B01_m34_opt1",
+    "text_file": "runs/prepared/context/claude_test_B01_m34_opt1.txt",
+    "text_sha256": "117cd7d91c55a437cf3acd414cd41bef89bb050c88b9fa6e77fa8301edec9a68",
+    "variant": "context",
+    "words": 436,
+    "status": "blocked_browser_policy",
+    "run_id": "claude_test_B01_m34_opt1",
+    "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
+    "join": "exact context bytes + two LF + exact output bytes"
+  },
+  {
+    "check_id": "part3_claude_test_B01_m34_opt2",
+    "text_file": "runs/emulate/claude_test_B01_m34_opt2.txt",
+    "text_sha256": "8228e2b2719fbf9a528981ecfe57fff383730e3ef851e455043c28447c7a4d99",
+    "variant": "output",
+    "words": 197,
+    "status": "completed_from_exact_saved_result",
+    "run_id": "claude_test_B01_m34_opt2",
+    "cached_check_id": "claude_test_B01_m34_opt2"
+  },
+  {
+    "check_id": "part3_claude_test_B01_m34_opt2_p01",
+    "text_file": "runs/prepared/paragraphs/claude_test_B01_m34_opt2_p01.txt",
+    "text_sha256": "b5edd5f2b69820b5f1aea5f898005b68799aadff38e75cc688c39682a08dfdfa",
+    "variant": "output_paragraph",
+    "words": 68,
+    "status": "blocked_browser_policy",
+    "run_id": "claude_test_B01_m34_opt2",
+    "output_start": 0,
+    "output_end": 362
+  },
+  {
+    "check_id": "part3_claude_test_B01_m34_opt2_p02",
+    "text_file": "runs/prepared/paragraphs/claude_test_B01_m34_opt2_p02.txt",
+    "text_sha256": "ebcd6574a920df19cf90909f1cbaf2d4121a4e454732357b74f5150340f45ecd",
+    "variant": "output_paragraph",
+    "words": 129,
+    "status": "blocked_browser_policy",
+    "run_id": "claude_test_B01_m34_opt2",
+    "output_start": 362,
+    "output_end": 975
+  },
+  {
+    "check_id": "part3_context_claude_test_B01_m34_opt2",
+    "text_file": "runs/prepared/context/claude_test_B01_m34_opt2.txt",
+    "text_sha256": "ed6dfa8df28ca943cf7c8fbcc293fb0a51139af39e1ca298ce298f6c24198f9d",
+    "variant": "context",
+    "words": 435,
+    "status": "blocked_browser_policy",
+    "run_id": "claude_test_B01_m34_opt2",
+    "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
+    "join": "exact context bytes + two LF + exact output bytes"
+  },
+  {
+    "check_id": "part3_gpt_charge_B01_web_optA",
+    "text_file": "runs/emulate/gpt_charge_B01_web_optA.txt",
+    "text_sha256": "29ee37f846640cd07ebf78244277f2ae293d7147863ab22d44a5bb628184195e",
+    "variant": "output",
+    "words": 215,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_charge_B01_web_optA"
+  },
+  {
+    "check_id": "part3_gpt_charge_B01_web_optA_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_charge_B01_web_optA_p01.txt",
+    "text_sha256": "c80ed393e655df2e2c818c04db4f9001bd448c4b064ad7a70ecafe808e17ae05",
+    "variant": "output_paragraph",
+    "words": 85,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_charge_B01_web_optA",
+    "output_start": 0,
+    "output_end": 433
+  },
+  {
+    "check_id": "part3_gpt_charge_B01_web_optA_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_charge_B01_web_optA_p02.txt",
+    "text_sha256": "5be6592f4e8ca0e85a258c60f6df747d510ee5e5201243ab9263be6dfda2ab63",
+    "variant": "output_paragraph",
+    "words": 130,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_charge_B01_web_optA",
+    "output_start": 433,
+    "output_end": 1066
+  },
+  {
+    "check_id": "part3_context_gpt_charge_B01_web_optA",
+    "text_file": "runs/prepared/context/gpt_charge_B01_web_optA.txt",
+    "text_sha256": "99f7b59cec599ee30235692ca69fe5e104726f6447958eff5e991da00fcc9eb7",
+    "variant": "context",
+    "words": 453,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_charge_B01_web_optA",
+    "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
+    "join": "exact context bytes + two LF + exact output bytes"
+  },
+  {
+    "check_id": "part3_gpt_A01_api_r1",
+    "text_file": "runs/emulate/gpt_A01_api_r1.txt",
+    "text_sha256": "355b1d353d869e4cad3663cceef9a9265982c49e5e1a7a08e2f25b18da286a0a",
+    "variant": "output",
+    "words": 95,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A01_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A02_api_r1",
+    "text_file": "runs/emulate/gpt_A02_api_r1.txt",
+    "text_sha256": "ef23320fa94f4a38c2fc767fa3dc34cc41b93c909474e5bcf1dd8851fe47b2bf",
+    "variant": "output",
+    "words": 112,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A02_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A03_api_r1",
+    "text_file": "runs/emulate/gpt_A03_api_r1.txt",
+    "text_sha256": "59a008d2aac5362e3d8ff46045d57a2e730a4d0f59ee29a8733cca166a6d924d",
+    "variant": "output",
+    "words": 66,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A03_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A04_api_r1",
+    "text_file": "runs/emulate/gpt_A04_api_r1.txt",
+    "text_sha256": "27d04b957d16772b18ea97214863c93e28cdeaa6f639a940b2049e6b29814890",
+    "variant": "output",
+    "words": 65,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A04_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A05_api_r1",
+    "text_file": "runs/emulate/gpt_A05_api_r1.txt",
+    "text_sha256": "4d97077e62a078aa79df1c86f7c5e529f91f1ef0a60110d39790d47a220b99cb",
+    "variant": "output",
+    "words": 93,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A05_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A06_api_r1",
+    "text_file": "runs/emulate/gpt_A06_api_r1.txt",
+    "text_sha256": "ceddea1ecaac757d269986122a922b8586e406ef94600027166e32b5f0cc0bcf",
+    "variant": "output",
+    "words": 69,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A06_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A07_api_r1",
+    "text_file": "runs/emulate/gpt_A07_api_r1.txt",
+    "text_sha256": "95790237c115a8c20ce91388ea49b0f6f524bbb99c0a8fe5fbd4f3a848c8eca2",
+    "variant": "output",
+    "words": 89,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A07_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A08_api_r1",
+    "text_file": "runs/emulate/gpt_A08_api_r1.txt",
+    "text_sha256": "a7502e506c6f667f682f5772ff1427ce23f99baccaef667a34aaee67f7ba70c9",
+    "variant": "output",
+    "words": 83,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A08_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A09_api_r1",
+    "text_file": "runs/emulate/gpt_A09_api_r1.txt",
+    "text_sha256": "bf049c25a3f0d29633a97a733f2075637839ed2f55ae918acceaabe6aab1c671",
+    "variant": "output",
+    "words": 75,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A09_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A10_api_r1",
+    "text_file": "runs/emulate/gpt_A10_api_r1.txt",
+    "text_sha256": "cd3a93962806c408ed3f8e7fb85f8e1cba1a52152992b201b7ae4b1026b691eb",
+    "variant": "output",
+    "words": 177,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A10_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A10_api_r1_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_A10_api_r1_p01.txt",
+    "text_sha256": "529adceeb6ee2844596ff273e0520455731aa95e35d35526ea5e95cda2f9e395",
+    "variant": "output_paragraph",
+    "words": 36,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A10_api_r1",
+    "output_start": 0,
+    "output_end": 215
+  },
+  {
+    "check_id": "part3_gpt_A10_api_r1_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_A10_api_r1_p02.txt",
+    "text_sha256": "184ebeca102f25e3b8b00f27921996794d758e31cce8199bf8532b4bd85f93c9",
+    "variant": "output_paragraph",
+    "words": 10,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A10_api_r1",
+    "output_start": 215,
+    "output_end": 270
+  },
+  {
+    "check_id": "part3_gpt_A10_api_r1_p03",
+    "text_file": "runs/prepared/paragraphs/gpt_A10_api_r1_p03.txt",
+    "text_sha256": "f41b000fe4d0385232fc243a46b1cf88a57c07a19b6a39d2faf1b825906f94b8",
+    "variant": "output_paragraph",
+    "words": 19,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A10_api_r1",
+    "output_start": 270,
+    "output_end": 409
+  },
+  {
+    "check_id": "part3_gpt_A10_api_r1_p04",
+    "text_file": "runs/prepared/paragraphs/gpt_A10_api_r1_p04.txt",
+    "text_sha256": "92375a6a4d824793c693b19e103a2f8587eadc9bbd1ae5c56d00e76f73169f39",
+    "variant": "output_paragraph",
+    "words": 20,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A10_api_r1",
+    "output_start": 409,
+    "output_end": 511
+  },
+  {
+    "check_id": "part3_gpt_A10_api_r1_p05",
+    "text_file": "runs/prepared/paragraphs/gpt_A10_api_r1_p05.txt",
+    "text_sha256": "f76e98aebd3d7c98324e3483b60a48a5bda9534fa3dbe07fca2d5f2bb3e3a5e5",
+    "variant": "output_paragraph",
+    "words": 31,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A10_api_r1",
+    "output_start": 511,
+    "output_end": 682
+  },
+  {
+    "check_id": "part3_gpt_A10_api_r1_p06",
+    "text_file": "runs/prepared/paragraphs/gpt_A10_api_r1_p06.txt",
+    "text_sha256": "c8d99ff66e3b5cc1352191737644df3f240b58aa84b1e874c006a90fe425621a",
+    "variant": "output_paragraph",
+    "words": 22,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A10_api_r1",
+    "output_start": 682,
+    "output_end": 809
+  },
+  {
+    "check_id": "part3_gpt_A10_api_r1_p07",
+    "text_file": "runs/prepared/paragraphs/gpt_A10_api_r1_p07.txt",
+    "text_sha256": "45b0fcfb2970c23a70967ee8bd701ec43562e2390f73679f0a961ec7ecbd41b7",
+    "variant": "output_paragraph",
+    "words": 39,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A10_api_r1",
+    "output_start": 809,
+    "output_end": 1012
+  },
+  {
+    "check_id": "part3_gpt_A11_api_r1",
+    "text_file": "runs/emulate/gpt_A11_api_r1.txt",
+    "text_sha256": "1f11cdeeb1ee35a897279700f75a681b80f964f4a4ef2f2be46c95de72ea5eac",
+    "variant": "output",
+    "words": 188,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A11_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A11_api_r1_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_A11_api_r1_p01.txt",
+    "text_sha256": "caa6172182e231121fb0137dd9e334d9f991e414d6c739d02c1123dae3d304ba",
+    "variant": "output_paragraph",
+    "words": 114,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A11_api_r1",
+    "output_start": 0,
+    "output_end": 619
+  },
+  {
+    "check_id": "part3_gpt_A11_api_r1_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_A11_api_r1_p02.txt",
+    "text_sha256": "d183ea9993c747edc418640cc945c2fab3c0629651a9f942cd852f6a322447b5",
+    "variant": "output_paragraph",
+    "words": 74,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A11_api_r1",
+    "output_start": 619,
+    "output_end": 998
+  },
+  {
+    "check_id": "part3_gpt_A12_api_r1",
+    "text_file": "runs/emulate/gpt_A12_api_r1.txt",
+    "text_sha256": "6ce9b9e43ff477b23e7d5163cb2cf8c8a3ce813f54f3ca44c6fc5255312632fe",
+    "variant": "output",
+    "words": 102,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A12_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A13_api_r1",
+    "text_file": "runs/emulate/gpt_A13_api_r1.txt",
+    "text_sha256": "c590965e617d249902ef572cef39369899dfbc3ce32b22b43ea5259c2b3d322a",
+    "variant": "output",
+    "words": 81,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A13_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A14_api_r1",
+    "text_file": "runs/emulate/gpt_A14_api_r1.txt",
+    "text_sha256": "ab3ddb90aa54987d612d5b3b28069add2a2d480eebbdbd9fa7214e50ac2be487",
+    "variant": "output",
+    "words": 92,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A14_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A15_api_r1",
+    "text_file": "runs/emulate/gpt_A15_api_r1.txt",
+    "text_sha256": "3d281dac30077e407b1e9e3c1755e8c5c3c4c7ded515504d1791cab3639fea6c",
+    "variant": "output",
+    "words": 56,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A15_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A16_api_r1",
+    "text_file": "runs/emulate/gpt_A16_api_r1.txt",
+    "text_sha256": "a1a82a39aa432b06e6927f0d7f7170b1bd11e3174c2651c30e26d8deaed68d4c",
+    "variant": "output",
+    "words": 43,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A16_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A18_api_r1",
+    "text_file": "runs/emulate/gpt_A18_api_r1.txt",
+    "text_sha256": "b374ad36b342166b8a49b79e049112d6f640a459b6a148a0a578697e9b8f16ed",
+    "variant": "output",
+    "words": 146,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A18_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A18_api_r1_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_A18_api_r1_p01.txt",
+    "text_sha256": "613a6d60af9ccce62cd9ca7a6d642cf61759ca95c9732cbb11de5378676604cf",
+    "variant": "output_paragraph",
+    "words": 108,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A18_api_r1",
+    "output_start": 0,
+    "output_end": 540
+  },
+  {
+    "check_id": "part3_gpt_A18_api_r1_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_A18_api_r1_p02.txt",
+    "text_sha256": "27c4da38603e627d263aeb3a1f89d3b08f470147397eb1eaf288609faa27a4e8",
+    "variant": "output_paragraph",
+    "words": 38,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A18_api_r1",
+    "output_start": 540,
+    "output_end": 742
+  },
+  {
+    "check_id": "part3_gpt_A19_api_r1",
+    "text_file": "runs/emulate/gpt_A19_api_r1.txt",
+    "text_sha256": "0f4372a2e43546a3a698caaf2b24b074390361d54713cf9aea1f8858b6a665d6",
+    "variant": "output",
+    "words": 78,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A19_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A20_api_r1",
+    "text_file": "runs/emulate/gpt_A20_api_r1.txt",
+    "text_sha256": "d989ddeaf6189fc2fc9ecce9ab1e948ecfd921e2c111035e3f8b532b959b4b3a",
+    "variant": "output",
+    "words": 57,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A20_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A21_api_r1",
+    "text_file": "runs/emulate/gpt_A21_api_r1.txt",
+    "text_sha256": "da753f85f9fc724e960ccd4e14d6e000c074c78ac9ed856cea6db7f2b336baa5",
+    "variant": "output",
+    "words": 77,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A21_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A23_api_r1",
+    "text_file": "runs/emulate/gpt_A23_api_r1.txt",
+    "text_sha256": "78e1b5bd1fd2b99567d3814e39b105ee61301b6fac81062bec815c2981e946cf",
+    "variant": "output",
+    "words": 60,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A23_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A24_api_r1",
+    "text_file": "runs/emulate/gpt_A24_api_r1.txt",
+    "text_sha256": "053dff56eea64013a46d368d8db49c9d3ea50f84015b05f40ed8ce63da4dbb95",
+    "variant": "output",
+    "words": 43,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A24_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A26_api_r1",
+    "text_file": "runs/emulate/gpt_A26_api_r1.txt",
+    "text_sha256": "57af9d8b846a634ecda1a12bd1df8bda22cb3c6a00878949b9bfd06515ebb244",
+    "variant": "output",
+    "words": 48,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_A26_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A27_api_r1",
+    "text_file": "runs/emulate/gpt_A27_api_r1.txt",
+    "text_sha256": "f6161d8e8aac3a9b5b4bfdd78f71e6c28a8419f4a446508e8ee32bfa2d6995bb",
+    "variant": "output",
+    "words": 146,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A27_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A27_api_r1_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_A27_api_r1_p01.txt",
+    "text_sha256": "c20be9b5ac6fdf071d6532da648649332be56857f587a1ebb7c5b11bd6340498",
+    "variant": "output_paragraph",
+    "words": 73,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A27_api_r1",
+    "output_start": 0,
+    "output_end": 392
+  },
+  {
+    "check_id": "part3_gpt_A27_api_r1_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_A27_api_r1_p02.txt",
+    "text_sha256": "409791fb4ea45699b530c65093ae7f4d09423f72b1225a83511cf01cf0de395f",
+    "variant": "output_paragraph",
+    "words": 73,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A27_api_r1",
+    "output_start": 392,
+    "output_end": 784
+  },
+  {
+    "check_id": "part3_gpt_A28_api_r1",
+    "text_file": "runs/emulate/gpt_A28_api_r1.txt",
+    "text_sha256": "426d033605761af4141eca16e0c5830838debc245448cacd8d49717b8f9ea092",
+    "variant": "output",
+    "words": 171,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A28_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A28_api_r1_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_A28_api_r1_p01.txt",
+    "text_sha256": "93e6d9f3bc2267339f8522e57b2aaecda61a806c8dad88c60743a41c721a38a6",
+    "variant": "output_paragraph",
+    "words": 80,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A28_api_r1",
+    "output_start": 0,
+    "output_end": 513
+  },
+  {
+    "check_id": "part3_gpt_A28_api_r1_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_A28_api_r1_p02.txt",
+    "text_sha256": "4440dc5141dac1a327d868e1ecb44e71b9b5904a7cbc453f6d446b8f648399b2",
+    "variant": "output_paragraph",
+    "words": 91,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A28_api_r1",
+    "output_start": 513,
+    "output_end": 955
+  },
+  {
+    "check_id": "part3_gpt_A29_api_r1",
+    "text_file": "runs/emulate/gpt_A29_api_r1.txt",
+    "text_sha256": "4243b773acd3a10348f9350a01a83b264413211dd1dd8f86ff3e35739ab9d7df",
+    "variant": "output",
+    "words": 88,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A29_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_A30_api_r1",
+    "text_file": "runs/emulate/gpt_A30_api_r1.txt",
+    "text_sha256": "a6075c594f6a89376c475910ec86d0757aaa3fec496d0be61902603e270c2f30",
+    "variant": "output",
+    "words": 65,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_A30_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_C1_api_r1",
+    "text_file": "runs/emulate/gpt_C1_api_r1.txt",
+    "text_sha256": "37bc38daf32e599280c332c079a2e0ba01865d098ef0de05c3fa23cc7af73ff7",
+    "variant": "output",
+    "words": 126,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_C1_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_C2_api_r1",
+    "text_file": "runs/emulate/gpt_C2_api_r1.txt",
+    "text_sha256": "9f61fb674190fe084224ea13e1d7e1b92f40fb86048773d32b4a207e4bacfa2b",
+    "variant": "output",
+    "words": 134,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_C2_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B03_api_r1",
+    "text_file": "runs/emulate/gpt_B03_api_r1.txt",
+    "text_sha256": "0546e0558556b328f1de5443d11e7d3c51903192994ede3cd749a88fa313b2ea",
+    "variant": "output",
+    "words": 534,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B03_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B03_api_r1_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_B03_api_r1_p01.txt",
+    "text_sha256": "fd75a27b1e89cfde5380de4dbae5028f8fdb078a75e3aec442ef83a79e3a3813",
+    "variant": "output_paragraph",
+    "words": 4,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_B03_api_r1",
+    "output_start": 0,
+    "output_end": 28
+  },
+  {
+    "check_id": "part3_gpt_B03_api_r1_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_B03_api_r1_p02.txt",
+    "text_sha256": "34c7272897c50a4e46a9b4a90500efabf6cd595b6df42f0d2a4fcd94e00ee9bf",
+    "variant": "output_paragraph",
+    "words": 68,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B03_api_r1",
+    "output_start": 28,
+    "output_end": 359
+  },
+  {
+    "check_id": "part3_gpt_B03_api_r1_p03",
+    "text_file": "runs/prepared/paragraphs/gpt_B03_api_r1_p03.txt",
+    "text_sha256": "4753f0da86b816101edf8308d2da7a0349fcfa4425b22c49144964f1995e628f",
+    "variant": "output_paragraph",
+    "words": 103,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B03_api_r1",
+    "output_start": 359,
+    "output_end": 919
+  },
+  {
+    "check_id": "part3_gpt_B03_api_r1_p04",
+    "text_file": "runs/prepared/paragraphs/gpt_B03_api_r1_p04.txt",
+    "text_sha256": "58d7c879309b7867cca69e53868bd7f1fb461ab6adab52b68b10b6f71a34447d",
+    "variant": "output_paragraph",
+    "words": 89,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B03_api_r1",
+    "output_start": 919,
+    "output_end": 1425
+  },
+  {
+    "check_id": "part3_gpt_B03_api_r1_p05",
+    "text_file": "runs/prepared/paragraphs/gpt_B03_api_r1_p05.txt",
+    "text_sha256": "536e2c002c66f33ec0abf0cc8ebefcc19b8b8e86c7650c397389d4f35805f82d",
+    "variant": "output_paragraph",
+    "words": 110,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B03_api_r1",
+    "output_start": 1425,
+    "output_end": 1987
+  },
+  {
+    "check_id": "part3_gpt_B03_api_r1_p06",
+    "text_file": "runs/prepared/paragraphs/gpt_B03_api_r1_p06.txt",
+    "text_sha256": "db6b1d1f7ebfda51b6178f8e51f2d6aacf4e06d385da198248447d5e34bb81fe",
+    "variant": "output_paragraph",
+    "words": 66,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B03_api_r1",
+    "output_start": 1987,
+    "output_end": 2310
+  },
+  {
+    "check_id": "part3_gpt_B03_api_r1_p07",
+    "text_file": "runs/prepared/paragraphs/gpt_B03_api_r1_p07.txt",
+    "text_sha256": "1a673cb7ea3f4c1e8d9e4b0a2c62905ec9a2504af43795c9e278b984a3be32de",
+    "variant": "output_paragraph",
+    "words": 94,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B03_api_r1",
+    "output_start": 2310,
+    "output_end": 2802
+  },
+  {
+    "check_id": "part3_gpt_B04_api_r1",
+    "text_file": "runs/emulate/gpt_B04_api_r1.txt",
+    "text_sha256": "6c1a09d78d28c169601479389a525bcb8ebc0f96c37e8f72ffb0c69bf4db70b0",
+    "variant": "output",
+    "words": 85,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B04_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B05_api_r1",
+    "text_file": "runs/emulate/gpt_B05_api_r1.txt",
+    "text_sha256": "7c5d86f753f35f08097503ea109957d2ac8aca8fa70d1b7b38fc7068b00b8397",
+    "variant": "output",
+    "words": 198,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B05_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B05_api_r1_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_B05_api_r1_p01.txt",
+    "text_sha256": "449a1e8f1aba9dc4add7a5f710a4e23d669c3cc83ef07c2ec11aadeb114766c7",
+    "variant": "output_paragraph",
+    "words": 6,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_B05_api_r1",
+    "output_start": 0,
+    "output_end": 37
+  },
+  {
+    "check_id": "part3_gpt_B05_api_r1_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_B05_api_r1_p02.txt",
+    "text_sha256": "0089eb348f94e524fac89fd632695a7d8587668812520b08bededaad7f2acf11",
+    "variant": "output_paragraph",
+    "words": 3,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_B05_api_r1",
+    "output_start": 37,
+    "output_end": 53
+  },
+  {
+    "check_id": "part3_gpt_B05_api_r1_p03",
+    "text_file": "runs/prepared/paragraphs/gpt_B05_api_r1_p03.txt",
+    "text_sha256": "8cb885af6aee0d97f66b01f7229884b0da5191b0fe9ff77e76c6614026f1319b",
+    "variant": "output_paragraph",
+    "words": 31,
+    "status": "excluded_gui_minimum",
+    "run_id": "gpt_B05_api_r1",
+    "output_start": 53,
+    "output_end": 217
+  },
+  {
+    "check_id": "part3_gpt_B05_api_r1_p04",
+    "text_file": "runs/prepared/paragraphs/gpt_B05_api_r1_p04.txt",
+    "text_sha256": "f6be9e0172e0bcc6884729092e4ebd1ecc3ba4bbc9a8ed524a16c34f0c388d22",
+    "variant": "output_paragraph",
+    "words": 158,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B05_api_r1",
+    "output_start": 217,
+    "output_end": 1006
+  },
+  {
+    "check_id": "part3_context_gpt_B05_api_r1",
+    "text_file": "runs/prepared/context/gpt_B05_api_r1.txt",
+    "text_sha256": "8ea64be8a859c8b681f758752de129daf012348384909c819a119ed9b21b7a59",
+    "variant": "context",
+    "words": 436,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B05_api_r1",
+    "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
+    "join": "exact context bytes + two LF + exact output bytes"
+  },
+  {
+    "check_id": "part3_gpt_B06_api_r1",
+    "text_file": "runs/emulate/gpt_B06_api_r1.txt",
+    "text_sha256": "8ca6ab01d221b4562a0994ace75864e89962ca9740c3dbe278b28ea26239d0db",
+    "variant": "output",
+    "words": 79,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B06_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B07_api_r1",
+    "text_file": "runs/emulate/gpt_B07_api_r1.txt",
+    "text_sha256": "f37f203d1553240433ae26550a12e7c95109969e033e52fd63a85dc4248f05cf",
+    "variant": "output",
+    "words": 54,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B07_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B08_api_r1",
+    "text_file": "runs/emulate/gpt_B08_api_r1.txt",
+    "text_sha256": "8fc0139e677565a2c0c550984cd1213912b783585a71bc0f52a4a02c9d294308",
+    "variant": "output",
+    "words": 67,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B08_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B09_api_r1",
+    "text_file": "runs/emulate/gpt_B09_api_r1.txt",
+    "text_sha256": "6ac11a9b310f786bfd68d7f6c5e8f0f3f51e96c87956d7e0f44b07f7a4c6e758",
+    "variant": "output",
+    "words": 97,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B09_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B10_api_r1",
+    "text_file": "runs/emulate/gpt_B10_api_r1.txt",
+    "text_sha256": "ec19036018b07eb422664ef6a438ed27a308d6846bc20f74cf368113c7d92a71",
+    "variant": "output",
+    "words": 78,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B10_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B11_api_r1",
+    "text_file": "runs/emulate/gpt_B11_api_r1.txt",
+    "text_sha256": "ebd081905485378e09477498ad40ec2a552f7fb0e68c96993dda6f8d959d16de",
+    "variant": "output",
+    "words": 90,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B11_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B12_api_r1",
+    "text_file": "runs/emulate/gpt_B12_api_r1.txt",
+    "text_sha256": "ef5b8d6a86a30e9bdc04e2aaf0defed57490e7619f69519425516c1b1fd881d9",
+    "variant": "output",
+    "words": 116,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B12_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B13_api_r1",
+    "text_file": "runs/emulate/gpt_B13_api_r1.txt",
+    "text_sha256": "86746eb97769de57a4942b1857b3b250b47b6586350fa6f300625daec7c5c177",
+    "variant": "output",
+    "words": 63,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B13_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B14_api_r1",
+    "text_file": "runs/emulate/gpt_B14_api_r1.txt",
+    "text_sha256": "6f642886b151d45b76bcc8a0a2d33c429a281c630d9230e3f6b4d62427395112",
+    "variant": "output",
+    "words": 73,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B14_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B15_api_r1",
+    "text_file": "runs/emulate/gpt_B15_api_r1.txt",
+    "text_sha256": "6e1ef2bc4c6b28fcc8a6a1174af6686b3e0576e8e39e52ee1e457d6454fbb2e5",
+    "variant": "output",
+    "words": 69,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B15_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B16_api_r1",
+    "text_file": "runs/emulate/gpt_B16_api_r1.txt",
+    "text_sha256": "c537408f46e897d8acc24466885e6273d32d885e9fbde018891a1b756541749c",
+    "variant": "output",
+    "words": 128,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B16_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B17_api_r1",
+    "text_file": "runs/emulate/gpt_B17_api_r1.txt",
+    "text_sha256": "2acf3bd549403284145644215a3e1511f7637edd81eded6447a2bd85bee4b12e",
+    "variant": "output",
+    "words": 105,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B17_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B18_api_r1",
+    "text_file": "runs/emulate/gpt_B18_api_r1.txt",
+    "text_sha256": "b32a04c5467354c0183b4cbdbd94841d757c317c646bdb4ed0438641b6b384d5",
+    "variant": "output",
+    "words": 91,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B18_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B19_api_r1",
+    "text_file": "runs/emulate/gpt_B19_api_r1.txt",
+    "text_sha256": "24ade39c7c62177be4a15ee3b1d6dce96a0f349072c256159e9c7f422db933ae",
+    "variant": "output",
+    "words": 99,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B19_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B20_api_r1",
+    "text_file": "runs/emulate/gpt_B20_api_r1.txt",
+    "text_sha256": "4037a70d83ba90acdeccad739456802e7adb8196580c2d4616c2740db723f0a1",
+    "variant": "output",
+    "words": 91,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B20_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B21_api_r1",
+    "text_file": "runs/emulate/gpt_B21_api_r1.txt",
+    "text_sha256": "e894dbd3b6e59a24b5ca5d8a88ead7b06206a43eed393432982d04dacb249c7f",
+    "variant": "output",
+    "words": 99,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B21_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B22_api_r1",
+    "text_file": "runs/emulate/gpt_B22_api_r1.txt",
+    "text_sha256": "282cc5d6e736c8024c4e3b9b6001a7a9b0264c1f0c492c097d6808a91c7d5378",
+    "variant": "output",
+    "words": 58,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B22_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B23_api_r1",
+    "text_file": "runs/emulate/gpt_B23_api_r1.txt",
+    "text_sha256": "d4b68b50375afd26504f5753189b43526642711ad20d425518b65f93c5b72718",
+    "variant": "output",
+    "words": 72,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B23_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_B24_api_r1",
+    "text_file": "runs/emulate/gpt_B24_api_r1.txt",
+    "text_sha256": "8ae28a5c763674f57fdf2cc8178e7215982589d96f6c69dc0ecdb9a6822b7784",
+    "variant": "output",
+    "words": 54,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_B24_api_r1"
+  },
+  {
+    "check_id": "part3_gpt_D1_A01_api_r2",
+    "text_file": "runs/emulate/gpt_D1_A01_api_r2.txt",
+    "text_sha256": "02b8a1927597a1ace519f84be298f9b77e52e54af116d019b6f7edccb92c1bdf",
+    "variant": "output",
+    "words": 57,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_D1_A01_api_r2"
+  },
+  {
+    "check_id": "part3_gpt_D1_A02_api_r2",
+    "text_file": "runs/emulate/gpt_D1_A02_api_r2.txt",
+    "text_sha256": "e3fe444ec1be2b0d3686402c2a797ebb3ff79c86831173ba47870524b1ddc58c",
+    "variant": "output",
+    "words": 144,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_D1_A02_api_r2"
+  },
+  {
+    "check_id": "part3_gpt_D2_B01_opt1_secondpass",
+    "text_file": "runs/emulate/gpt_D2_B01_opt1_secondpass.txt",
+    "text_sha256": "bdef8dc8011ae14d76de0dd8ad54a80cbb5f163816cc1fd2af590aef32e746b4",
+    "variant": "output",
+    "words": 216,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_D2_B01_opt1_secondpass"
+  },
+  {
+    "check_id": "part3_gpt_D2_B01_opt1_secondpass_p01",
+    "text_file": "runs/prepared/paragraphs/gpt_D2_B01_opt1_secondpass_p01.txt",
+    "text_sha256": "2b29095b54244f3ad91dd33be85792bac3220f7f53e263adaaf3f160f86f3b5b",
+    "variant": "output_paragraph",
+    "words": 77,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_D2_B01_opt1_secondpass",
+    "output_start": 0,
+    "output_end": 383
+  },
+  {
+    "check_id": "part3_gpt_D2_B01_opt1_secondpass_p02",
+    "text_file": "runs/prepared/paragraphs/gpt_D2_B01_opt1_secondpass_p02.txt",
+    "text_sha256": "1af0033f579042655e87fec037f35833cfd3360a44d052ff1b083d2cc5471e58",
+    "variant": "output_paragraph",
+    "words": 139,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_D2_B01_opt1_secondpass",
+    "output_start": 383,
+    "output_end": 1112
+  },
+  {
+    "check_id": "part3_context_gpt_D2_B01_opt1_secondpass",
+    "text_file": "runs/prepared/context/gpt_D2_B01_opt1_secondpass.txt",
+    "text_sha256": "988f1af624b7040bc7315e1d7e2269d04f1049eddf221967f5b6fb10ae6085f8",
+    "variant": "context",
+    "words": 454,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_D2_B01_opt1_secondpass",
+    "context_file": "inputs/learning/CONTEXT_section_so_far.txt",
+    "join": "exact context bytes + two LF + exact output bytes"
+  },
+  {
+    "check_id": "part3_gpt_D2_B02_opt1_secondpass",
+    "text_file": "runs/emulate/gpt_D2_B02_opt1_secondpass.txt",
+    "text_sha256": "7b80d774586ff554a46ef3cc686a06e36db677a9ea9ddfc5ea93f5c7f0a00d67",
+    "variant": "output",
+    "words": 152,
+    "status": "blocked_browser_policy",
+    "run_id": "gpt_D2_B02_opt1_secondpass"
+  }
+]

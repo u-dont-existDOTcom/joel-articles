@@ -1,0 +1,179 @@
+{
+  "source_sha256": "a1d6ff7617f206479382e4506831990963c75f2aeac5c310543d1cbba00230ee",
+  "output_sha256": "8228e2b2719fbf9a528981ecfe57fff383730e3ef851e455043c28447c7a4d99",
+  "source_sentence_count": 11,
+  "output_sentence_count": 18,
+  "unit_kind": "sentence",
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 85,
+      "output_start": 0,
+      "output_end": 185,
+      "source_text": "If you can't feel any warmth toward your little one yet, the Protector can go first. ",
+      "output_text": "It’s okay for the Protector to go first. It’s okay for you to start by doing something that you know will care for your little one even if you don’t yet have warm feelings toward them. ",
+      "word_overlap": 0.17857142857142858,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 85,
+      "source_end": 283,
+      "output_start": 185,
+      "output_end": 362,
+      "source_text": "Care might start as locking the door at night, eating an actual meal, cancelling something you didn't have the energy for, or putting your phone down at midnight. The warm feelings can come later.\n\n",
+      "output_text": "Locking the door, eating a meal, cancelling something on your calendar, putting your phone down when you wake up in the middle of the night — the warm feelings can come later.\n\n",
+      "word_overlap": 0.5151515151515151,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        3
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 283,
+      "source_end": 323,
+      "output_start": 362,
+      "output_end": 409,
+      "source_text": "Pick one of these and make it specific. ",
+      "output_text": "Pick one thing from the above that you can do. ",
+      "word_overlap": 0.2222222222222222,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 323,
+      "source_end": 403,
+      "output_start": 409,
+      "output_end": 466,
+      "source_text": "When will you do it, what's the smallest first step, and what help do you need? ",
+      "output_text": "When will you do it? What’s the first step you can take? ",
+      "word_overlap": 0.7333333333333333,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        5
+      ],
+      "output_sentences": [
+        6,
+        7
+      ],
+      "source_start": 403,
+      "source_end": 503,
+      "output_start": 466,
+      "output_end": 559,
+      "source_text": "If there's a hard moment you can see coming, it can help to practice what you'll say ahead of time. ",
+      "output_text": "What do you need to help you do it? If there’s a hard part, say it out loud now to practice. ",
+      "word_overlap": 0.36363636363636365,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6
+      ],
+      "output_sentences": [
+        8,
+        9
+      ],
+      "source_start": 503,
+      "source_end": 544,
+      "output_start": 559,
+      "output_end": 631,
+      "source_text": "Afterward, look at what really happened. ",
+      "output_text": "Afterwards, debrief. If you weren’t able to do it, what got in the way? ",
+      "word_overlap": 0.09523809523809523,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        7
+      ],
+      "output_sentences": [
+        10,
+        11
+      ],
+      "source_start": 544,
+      "source_end": 592,
+      "output_start": 631,
+      "output_end": 690,
+      "source_text": "If you didn't do it, don't assume you know why. ",
+      "output_text": "Were you scared? Did you not know what you were going for? ",
+      "word_overlap": 0.25,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        8
+      ],
+      "output_sentences": [
+        12,
+        13
+      ],
+      "source_start": 592,
+      "source_end": 732,
+      "output_start": 690,
+      "output_end": 741,
+      "source_text": "It could have been fear, not knowing what you were aiming for, not knowing how, being exhausted, or something practical getting in the way. ",
+      "output_text": "Did you not know how to do it? Were you too tired? ",
+      "word_overlap": 0.1111111111111111,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        9
+      ],
+      "output_sentences": [
+        14,
+        15
+      ],
+      "source_start": 732,
+      "source_end": 859,
+      "output_start": 741,
+      "output_end": 800,
+      "source_text": "And if you did it and didn't feel better right away, that doesn't mean it failed, but doing it doesn't prove it helped either. ",
+      "output_text": "Was something else in the way? If you did it, did it help? ",
+      "word_overlap": 0.25,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        10
+      ],
+      "output_sentences": [
+        16,
+        17
+      ],
+      "source_start": 859,
+      "source_end": 981,
+      "output_start": 800,
+      "output_end": 975,
+      "source_text": "Keep what actually makes your little one safer, closer to you, more capable, or happier, not just what gets a check mark.\n",
+      "output_text": "Just because you did it doesn’t mean it will help. Keep only those things that help your little one to feel safe, to feel close to you, to be more functional, or to be happy.\n",
+      "word_overlap": 0.27586206896551724,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

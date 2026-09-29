@@ -1,0 +1,1737 @@
+[
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_sentence_forward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_sentence_forward_01.txt",
+    "text_sha256": "3ce8bff94921081033f632462072ecb52775118bf82e175cd641cebc338553c3",
+    "variant": "splice",
+    "words": 79,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_sentence_backward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_sentence_backward_01.txt",
+    "text_sha256": "b91eb7ec74136319c5c585cc3567e99005046f0fd8ee03afc7ef3fb5ffe02c47",
+    "variant": "splice",
+    "words": 156,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_sentence_forward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_sentence_forward_02.txt",
+    "text_sha256": "8c68423a4112a82c99c9a7be1203a6d6dc92bc5ac273c1fb671667b35e455a25",
+    "variant": "splice",
+    "words": 128,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_sentence_backward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_sentence_backward_02.txt",
+    "text_sha256": "5e632c75cd52b63e915dadb8259c96d2727ab7b3bff2f5d976f6753e4bad5aad",
+    "variant": "splice",
+    "words": 107,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_sentence_forward_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_sentence_forward_03.txt",
+    "text_sha256": "9258367463a9717f62be933a2feda8af64986016c8548d12197d498baff683ff",
+    "variant": "splice",
+    "words": 103,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      2
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_sentence_backward_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_sentence_backward_03.txt",
+    "text_sha256": "abf3570cc593744fdd8be2cbd90dfe743616c9c5376691a835762eab97491744",
+    "variant": "splice",
+    "words": 132,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      2
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_cumulative_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_cumulative_01.txt",
+    "text_sha256": "3ce8bff94921081033f632462072ecb52775118bf82e175cd641cebc338553c3",
+    "variant": "splice",
+    "words": 79,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_cumulative_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_cumulative_02.txt",
+    "text_sha256": "abf3570cc593744fdd8be2cbd90dfe743616c9c5376691a835762eab97491744",
+    "variant": "splice",
+    "words": 132,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_cumulative_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_cumulative_03.txt",
+    "text_sha256": "6ee0cb587d54654a5bffb45528159a4f3695b49e591eb4e8d7a3e0cc8bdafef2",
+    "variant": "splice",
+    "words": 160,
+    "status": "completed_from_exact_saved_result",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B02_after_a_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false,
+    "cached_check_id": "claude_test_B02_after_a_opt1"
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_forward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_forward_01.txt",
+    "text_sha256": "33a5f61c200d9ff56b0937601339238fc57ad6b34c45149605f7bcb1e3d7ab92",
+    "variant": "splice",
+    "words": 84,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_backward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_backward_01.txt",
+    "text_sha256": "811f13ca0891886f04fd3b12e04e954a8112418ebe99e47bdfb959c21b505088",
+    "variant": "splice",
+    "words": 101,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_forward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_forward_02.txt",
+    "text_sha256": "e157f0ae542af2024c3f3f01026e2fc4746bbbd8f6fd769df6fee042a2bacea2",
+    "variant": "splice",
+    "words": 125,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_backward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_backward_02.txt",
+    "text_sha256": "e25faf2dc517037e5c0d8db0bcac63369566db8ed0ead609af0c13658027f072",
+    "variant": "splice",
+    "words": 60,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_forward_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_forward_03.txt",
+    "text_sha256": "efa9240628a4aead076349015364b0f5532cff8d7ffa45638f2668acefced743",
+    "variant": "splice",
+    "words": 80,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      2
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_backward_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_backward_03.txt",
+    "text_sha256": "c28b3ccb746557bfe5ae26553d2811a42870d5d78c26055284b47584641ca851",
+    "variant": "splice",
+    "words": 105,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      2
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_forward_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_forward_04.txt",
+    "text_sha256": "95ae8dd27fcc4b2450aeec7c78e5509dc3b891ebc41a7b82446de98bdfa93a4d",
+    "variant": "splice",
+    "words": 69,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      3
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_backward_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_backward_04.txt",
+    "text_sha256": "fb3f41ac0b0e0c26e6195cb14fdee26165347e219d027d79efbef5a5e6b2ace7",
+    "variant": "splice",
+    "words": 116,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      3
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_forward_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_forward_05.txt",
+    "text_sha256": "cd4c9783808384cedf57f916a068c71d23873d5a20bd84c8e706ac9b7786c114",
+    "variant": "splice",
+    "words": 52,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      4
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_sentence_backward_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_sentence_backward_05.txt",
+    "text_sha256": "b979b1ad86ea72f180bc63d5e2ccfb24b512e18f9521108f4ce38d186e743247",
+    "variant": "splice",
+    "words": 133,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      4
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_cumulative_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_cumulative_01.txt",
+    "text_sha256": "33a5f61c200d9ff56b0937601339238fc57ad6b34c45149605f7bcb1e3d7ab92",
+    "variant": "splice",
+    "words": 84,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_cumulative_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_cumulative_02.txt",
+    "text_sha256": "2b1027da480935caddabb9a4ff282d0867171439ce68d2b2cdf0eb3b35c16925",
+    "variant": "splice",
+    "words": 134,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_cumulative_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_cumulative_03.txt",
+    "text_sha256": "41ad70211d8ffaad2b4aadfe19d3f87c47e2838a896ffabe78521e0bc359e9f8",
+    "variant": "splice",
+    "words": 139,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_cumulative_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_cumulative_04.txt",
+    "text_sha256": "b979b1ad86ea72f180bc63d5e2ccfb24b512e18f9521108f4ce38d186e743247",
+    "variant": "splice",
+    "words": 133,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_cumulative_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_cumulative_05.txt",
+    "text_sha256": "7fe1eddc5296db088f3d4aed806a6fea50a9beaeb33782695de7a5740f1c3400",
+    "variant": "splice",
+    "words": 110,
+    "status": "completed_from_exact_saved_result",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B02_after_a_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false,
+    "cached_check_id": "claude_test_B02_after_a_opt2"
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_01.txt",
+    "text_sha256": "81e0a4ecd0c75444bd4fec90dcb0a37c494a580dabc0c0c23a5be22fddd4e570",
+    "variant": "splice",
+    "words": 182,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_01.txt",
+    "text_sha256": "cd67242abc067a50efe7aecb3e73ea2895fe9f76b5417ca43e7f000d585428f6",
+    "variant": "splice",
+    "words": 196,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_02.txt",
+    "text_sha256": "218ac171287c5bebfa3b7d7abe07e0d7a630db072e7ca3c5790a9fa3c9778d92",
+    "variant": "splice",
+    "words": 205,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_02.txt",
+    "text_sha256": "fc7cb9b47ba41c3ba1a9d9c7e3e193805b022d63dd2805dfa98a4db590654352",
+    "variant": "splice",
+    "words": 173,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_03.txt",
+    "text_sha256": "e022f45c041dac5d671190ac29db23892df7bd64c2cc410f3a3e6535462f2388",
+    "variant": "splice",
+    "words": 187,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      2
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_03.txt",
+    "text_sha256": "b2d59b94a5602758b9732a1a2ae54dac0e37a1b125163ee2682243be110ae61e",
+    "variant": "splice",
+    "words": 191,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      2
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_04.txt",
+    "text_sha256": "120d9fc46810fa2212b96f2636ebc041ab54aee214163440170ac54539194a66",
+    "variant": "splice",
+    "words": 178,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      3
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_04.txt",
+    "text_sha256": "72492bd0e53a8f917db95d6032e42de597f6d6ade787c692e1f9966ebb811b29",
+    "variant": "splice",
+    "words": 200,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      3
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_05.txt",
+    "text_sha256": "ee94d58bbf1e93423a2c16fce3c261fed4137c3477f50d17634a5a9ed36a456f",
+    "variant": "splice",
+    "words": 171,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      4
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_05.txt",
+    "text_sha256": "24ae60fafa1fb8a0261a3ee82062d16ca515cfba723b6b0ce87cb125f13bb70b",
+    "variant": "splice",
+    "words": 207,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      4
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_06",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_06.txt",
+    "text_sha256": "bd0bc5b97b3b8b32d5b933be7dffc83ca15c195587254209302997727069d1ef",
+    "variant": "splice",
+    "words": 186,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      5
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_06",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_06.txt",
+    "text_sha256": "39445ae760c52868c69ff0e1e8bc77b8fae0963d9c445422e8833640eccaf216",
+    "variant": "splice",
+    "words": 192,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      5
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_07",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_07.txt",
+    "text_sha256": "634074ce539d5aa3916a71df85cadff93802f0e9bf172a07458aad7013c2bba3",
+    "variant": "splice",
+    "words": 187,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      6
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_07",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_07.txt",
+    "text_sha256": "a8b741d3a34d394fb99beb39043bc44a9314a8958a6bcebf294917108a64f801",
+    "variant": "splice",
+    "words": 191,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      6
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_08",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_08.txt",
+    "text_sha256": "32cfeaa67fa00ea2967c85fff90a80008cc2fc8014173b17ec06115f648dfebe",
+    "variant": "splice",
+    "words": 166,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      7
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_08",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_08.txt",
+    "text_sha256": "abecb84d7115509f1396f7f05480da235b811ffc9d9c09bbf82cef36b06f0443",
+    "variant": "splice",
+    "words": 212,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      7
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_09",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_09.txt",
+    "text_sha256": "725f436f182e9db08bda9031ec125db6b5f7a304cbc107745db52de887787730",
+    "variant": "splice",
+    "words": 168,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      8
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_09",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_09.txt",
+    "text_sha256": "407266c4408f2fa77eae2bcb9015f37b397e149071ade461824cedcebcce7f2a",
+    "variant": "splice",
+    "words": 210,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      8
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_forward_10",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_forward_10.txt",
+    "text_sha256": "1af73125fc9f9e59c4c02863efc77cdd00b51af77b09ec78ac50f5e85c626546",
+    "variant": "splice",
+    "words": 188,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      9
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_sentence_backward_10",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_sentence_backward_10.txt",
+    "text_sha256": "c9e8a047774338d8456005dbc8be00833f24b6a17ef603047fd8c0ccae5698e4",
+    "variant": "splice",
+    "words": 190,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      9
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_01.txt",
+    "text_sha256": "81e0a4ecd0c75444bd4fec90dcb0a37c494a580dabc0c0c23a5be22fddd4e570",
+    "variant": "splice",
+    "words": 182,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_02.txt",
+    "text_sha256": "8c56a4538c3f14d6caf5578a716655383c8637fc88e9a3b86105f40c0ff69dbf",
+    "variant": "splice",
+    "words": 207,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_03.txt",
+    "text_sha256": "bc48920a26e2a74678175d4e4c4fa90f41dbb8416b8350106e055056e4999083",
+    "variant": "splice",
+    "words": 214,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_04.txt",
+    "text_sha256": "6f3e721932a477ff4b3b2a0d878fd71a8e5b02f68db7726e649c46d154f07558",
+    "variant": "splice",
+    "words": 212,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_05.txt",
+    "text_sha256": "408667459581cb9e50636f55b795b84e0185cce34083a9044b6011b57c65e446",
+    "variant": "splice",
+    "words": 203,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_06",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_06.txt",
+    "text_sha256": "2316ec72b429d3beaad7b048609ba1a54beb524fe6689424798fbf207ca85d87",
+    "variant": "splice",
+    "words": 209,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_07",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_07.txt",
+    "text_sha256": "6451c4545d100699118988e3ee474aaa866e8f012e8866cde50c64d114ecfbf5",
+    "variant": "splice",
+    "words": 216,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_08",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_08.txt",
+    "text_sha256": "c6ff2339cabb907eb7f2e288114cedb3bd984271ce4eb6aa6420dc06f23a92f2",
+    "variant": "splice",
+    "words": 202,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_09",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_09.txt",
+    "text_sha256": "c9e8a047774338d8456005dbc8be00833f24b6a17ef603047fd8c0ccae5698e4",
+    "variant": "splice",
+    "words": 190,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_cumulative_10",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_cumulative_10.txt",
+    "text_sha256": "28725a948e65d2510f9e44c6e1d575f223feebce17b960267759b24b632fb886",
+    "variant": "splice",
+    "words": 198,
+    "status": "completed_from_exact_saved_result",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false,
+    "cached_check_id": "claude_test_B01_m34_opt1"
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_paragraph_forward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_paragraph_forward_01.txt",
+    "text_sha256": "d9cc98e367bc75211f08cc2be7bfbd20fa4560d79a30db1c77117043df8a1231",
+    "variant": "splice",
+    "words": 208,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "paragraph",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_paragraph_backward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_paragraph_backward_01.txt",
+    "text_sha256": "8798bdfa9c274b7de8bdf75cddc8cebc7ef90a287dd7ae054aaa59c757d3864e",
+    "variant": "splice",
+    "words": 170,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "paragraph",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_paragraph_forward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_paragraph_forward_02.txt",
+    "text_sha256": "8798bdfa9c274b7de8bdf75cddc8cebc7ef90a287dd7ae054aaa59c757d3864e",
+    "variant": "splice",
+    "words": 170,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "paragraph",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_paragraph_backward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_paragraph_backward_02.txt",
+    "text_sha256": "d9cc98e367bc75211f08cc2be7bfbd20fa4560d79a30db1c77117043df8a1231",
+    "variant": "splice",
+    "words": 208,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt1",
+    "unit_kind": "paragraph",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_01.txt",
+    "text_sha256": "40f44625a16ae5fecc5ccfc25512dc07d3e514d856d4c38dd7a5dbb77066f517",
+    "variant": "splice",
+    "words": 200,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_01.txt",
+    "text_sha256": "bdb331cb40225fe3c6ebe8130002843891e5f63da64a8d8be9505ca997ece6d0",
+    "variant": "splice",
+    "words": 177,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_02.txt",
+    "text_sha256": "b3397fffb8e4a65660cf836e16a7155f3cc393454cfe26558873cefda027037b",
+    "variant": "splice",
+    "words": 178,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_02.txt",
+    "text_sha256": "f9f4903fd80c5ad0af0af7459481b8587fd0914fab3524053a77287060ca503d",
+    "variant": "splice",
+    "words": 199,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_03.txt",
+    "text_sha256": "79b0fc420ed8620a38264cad8e572132596fab8629d01e7820378d278a1f98ac",
+    "variant": "splice",
+    "words": 182,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      2
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_03.txt",
+    "text_sha256": "6916cbabb67e2e7b9f8bf18ad67e40cb93e3bd4421b894c54265a0deef16bd79",
+    "variant": "splice",
+    "words": 195,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      2
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_04.txt",
+    "text_sha256": "1b476eb8375f093e123153b70a1b0940fcaf564c62677764af4c7f1a06b8d224",
+    "variant": "splice",
+    "words": 176,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      3
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_04.txt",
+    "text_sha256": "2c3dc9e3e58d15bbdc96e196e2cc632f255ed27f9bbb6500e810013bc3b1434e",
+    "variant": "splice",
+    "words": 201,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      3
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_05.txt",
+    "text_sha256": "fbbedaf2fd2dcbce660dd03495e395294a11844915850dbc66bd1717faeb2cea",
+    "variant": "splice",
+    "words": 181,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      4
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_05.txt",
+    "text_sha256": "c94aa78d9568b3bd5abe3111fd576182ba0cbd1844654b694425bb5ff264d25c",
+    "variant": "splice",
+    "words": 196,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      4
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_06",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_06.txt",
+    "text_sha256": "808cb1537ea07c91ce23e72bb2bc965bc85a25551af71b0f008977774a365b00",
+    "variant": "splice",
+    "words": 188,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      5
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_06",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_06.txt",
+    "text_sha256": "ab5dd93673b3f721c8231952a886ebf2389efbb12117db1c7aac8a913735ca41",
+    "variant": "splice",
+    "words": 189,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      5
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_07",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_07.txt",
+    "text_sha256": "54e9eaae9524b241bbac64768910a27a8de01dcb7b009bc4f939d62cbe2e6bb6",
+    "variant": "splice",
+    "words": 182,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      6
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_07",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_07.txt",
+    "text_sha256": "fdab4edd69b0e4d0a8159435568df316d01f0ee3a11df6ddae90f407d920b029",
+    "variant": "splice",
+    "words": 195,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      6
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_08",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_08.txt",
+    "text_sha256": "20430c205e6f364f286ee55ebefd48255a5fbe8841ad03d8826fe0f67010a892",
+    "variant": "splice",
+    "words": 168,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      7
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_08",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_08.txt",
+    "text_sha256": "c3b6463a6df519da3452fa9b786b7e39c4ed644a7520c232c8afcd15a0ea902e",
+    "variant": "splice",
+    "words": 209,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      7
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_09",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_09.txt",
+    "text_sha256": "6184f2a8a8c668ea8e5a457034074c2b87e175b80d5b43ba59fe95b212066906",
+    "variant": "splice",
+    "words": 169,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      8
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_09",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_09.txt",
+    "text_sha256": "9784cedef81979042a2de05852bc73284c631f4dc4f047b650cde7bd9e22b58e",
+    "variant": "splice",
+    "words": 208,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      8
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_forward_10",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_forward_10.txt",
+    "text_sha256": "efd1e2d4fbab26ac672658d49bd2e9baa6c37ac0bd53f478ed0c4700cffc8157",
+    "variant": "splice",
+    "words": 193,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      9
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_sentence_backward_10",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_sentence_backward_10.txt",
+    "text_sha256": "848e7d6db46253be4f05f3d3632d81f67bdf85201342eb5a658c24a11f74abbb",
+    "variant": "splice",
+    "words": 184,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      9
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_01.txt",
+    "text_sha256": "40f44625a16ae5fecc5ccfc25512dc07d3e514d856d4c38dd7a5dbb77066f517",
+    "variant": "splice",
+    "words": 200,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_02.txt",
+    "text_sha256": "7aeef76b5b47ed8f3f22d0405c9ce9cec99ab5e34e967cc0f6e87a800f98307f",
+    "variant": "splice",
+    "words": 198,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_03",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_03.txt",
+    "text_sha256": "7f36034be5c4bff3651f5415d2f1582ff023f60a3ec65a926fafd7b91c49e734",
+    "variant": "splice",
+    "words": 200,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_04",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_04.txt",
+    "text_sha256": "1306243cd2770b773f808dba4a9d353702f85d9d3fdb7bfe81bede77d09b99fc",
+    "variant": "splice",
+    "words": 196,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_05",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_05.txt",
+    "text_sha256": "594b75a0345d32e475e4c83233d09378baf67e56f43d8bcb979cc3eb58f02aed",
+    "variant": "splice",
+    "words": 197,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_06",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_06.txt",
+    "text_sha256": "b82a3f32b6bc9dd5c5be7c5fb72dc38aa55f354442a37667a3135282daf90482",
+    "variant": "splice",
+    "words": 205,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_07",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_07.txt",
+    "text_sha256": "aeba1bdae17246af009e589cd3d81d8863f352b5daa554ffa088567c35927e23",
+    "variant": "splice",
+    "words": 207,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_08",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_08.txt",
+    "text_sha256": "57551943fa20391e8453f8a1e7fd6f192895ffc18e03e3997d986a14102afbef",
+    "variant": "splice",
+    "words": 195,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_09",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_09.txt",
+    "text_sha256": "848e7d6db46253be4f05f3d3632d81f67bdf85201342eb5a658c24a11f74abbb",
+    "variant": "splice",
+    "words": 184,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_cumulative_10",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_cumulative_10.txt",
+    "text_sha256": "8228e2b2719fbf9a528981ecfe57fff383730e3ef851e455043c28447c7a4d99",
+    "variant": "splice",
+    "words": 197,
+    "status": "completed_from_exact_saved_result",
+    "experiment_kind": "cumulative",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "sentence",
+    "selected_units": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "stop_after_first_Human": true,
+    "own_words": false,
+    "cached_check_id": "claude_test_B01_m34_opt2"
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_paragraph_forward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_paragraph_forward_01.txt",
+    "text_sha256": "7aeef76b5b47ed8f3f22d0405c9ce9cec99ab5e34e967cc0f6e87a800f98307f",
+    "variant": "splice",
+    "words": 198,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "paragraph",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_paragraph_backward_01",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_paragraph_backward_01.txt",
+    "text_sha256": "16d4d62a92ee6a64350091c44d657b7cae22b451abb26e95b1797cc2dd0748c6",
+    "variant": "splice",
+    "words": 179,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "paragraph",
+    "selected_units": [
+      0
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_paragraph_forward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_paragraph_forward_02.txt",
+    "text_sha256": "16d4d62a92ee6a64350091c44d657b7cae22b451abb26e95b1797cc2dd0748c6",
+    "variant": "splice",
+    "words": 179,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "forward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "paragraph",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_paragraph_backward_02",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_paragraph_backward_02.txt",
+    "text_sha256": "7aeef76b5b47ed8f3f22d0405c9ce9cec99ab5e34e967cc0f6e87a800f98307f",
+    "variant": "splice",
+    "words": 198,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "backward",
+    "pair_run_id": "claude_test_B01_m34_opt2",
+    "unit_kind": "paragraph",
+    "selected_units": [
+      1
+    ],
+    "own_words": false
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_edit_a",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_edit_a.txt",
+    "text_sha256": "862583ffe1ebf63fa05346c8ac6f596458ccd5e1be7b4995d02c5b48085cdec0",
+    "variant": "edit",
+    "words": 198,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B01_m34_opt1",
+    "edit_type": "one_word",
+    "old": "midnight",
+    "new": "bedtime",
+    "range": [
+      369,
+      377
+    ],
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; ungraded; never article prose"
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_edit_b",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_edit_b.txt",
+    "text_sha256": "c23646f409794d7a91c0f3819880360e517c79f95e72d0e49ee152568c6ca71d",
+    "variant": "edit",
+    "words": 202,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B01_m34_opt1",
+    "edit_type": "model_sentence_rewrite",
+    "old": "The warm fuzzy feelings can come later.",
+    "new": "You may begin to feel warmth toward your little one later.",
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; semantic equivalence unreviewed by Pro"
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt1_edit_c",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt1_edit_c.txt",
+    "text_sha256": "0edfc86ad68f8d61103ecf276e0124ebfd22623bad35d066d025d8234d6b20b1",
+    "variant": "edit",
+    "words": 206,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B01_m34_opt1",
+    "edit_type": "model_sentence_addition",
+    "new": "You can choose a different act next time.",
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; ungraded; never article prose"
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_edit_a",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_edit_a.txt",
+    "text_sha256": "1a054eb2f67c8b6ddea8d64309791d60b95791c3ac3f01f49dd1f3f030a4aca7",
+    "variant": "edit",
+    "words": 197,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B01_m34_opt2",
+    "edit_type": "one_word",
+    "old": "meal",
+    "new": "breakfast",
+    "range": [
+      212,
+      216
+    ],
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; ungraded; never article prose"
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_edit_b",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_edit_b.txt",
+    "text_sha256": "0f2a4c08b3f513cfec0f50959093ba89cbfb21aeaca63dbaa77fa4077a914d7a",
+    "variant": "edit",
+    "words": 197,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B01_m34_opt2",
+    "edit_type": "model_sentence_rewrite",
+    "old": "It’s okay for the Protector to go first.",
+    "new": "It’s all right for the Protector to start.",
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; semantic equivalence unreviewed by Pro"
+  },
+  {
+    "check_id": "part4_claude_test_B01_m34_opt2_edit_c",
+    "text_file": "runs/prepared/part4/part4_claude_test_B01_m34_opt2_edit_c.txt",
+    "text_sha256": "b26b98ba40bb6afd046a3212da7efa3f9a9590a210bb902f1c3eac7a7a531952",
+    "variant": "edit",
+    "words": 206,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B01_m34_opt2",
+    "edit_type": "model_sentence_addition",
+    "new": "You can review the result before choosing another act.",
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; ungraded; never article prose"
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_edit_a",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_edit_a.txt",
+    "text_sha256": "533f4acae04423c20e01e53cad242f57561400a29609c7d2c41b8f55a0e66367",
+    "variant": "edit",
+    "words": 160,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B02_after_a_opt1",
+    "edit_type": "one_word",
+    "old": "friend",
+    "new": "helper",
+    "range": [
+      726,
+      732
+    ],
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; ungraded; never article prose"
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_edit_b",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_edit_b.txt",
+    "text_sha256": "3f820dc89b89bec186d26834d879f38c3ab9b44bd44b3c4aeed25a6838d78513",
+    "variant": "edit",
+    "words": 153,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B02_after_a_opt1",
+    "edit_type": "model_sentence_rewrite",
+    "old": "On the other hand, if you didn't do the thing you had planned to, don't jump to conclusions.",
+    "new": "If you didn't do what you planned, wait before deciding why.",
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; semantic equivalence unreviewed by Pro"
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt1_edit_c",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt1_edit_c.txt",
+    "text_sha256": "aace2c75c61c2f7ac59790bcc56a1b57101949cbbe0f4ef23e02d77c9bf1ee8f",
+    "variant": "edit",
+    "words": 170,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B02_after_a_opt1",
+    "edit_type": "model_sentence_addition",
+    "new": "You can think about what happened before making another plan.",
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; ungraded; never article prose"
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_edit_a",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_edit_a.txt",
+    "text_sha256": "9b393b2cea1a11511f5d4855e1736a7fda17f3a0b5a9717f7a2970497f15510a",
+    "variant": "edit",
+    "words": 110,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B02_after_a_opt2",
+    "edit_type": "one_word",
+    "old": "friend",
+    "new": "helper",
+    "range": [
+      550,
+      556
+    ],
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; ungraded; never article prose"
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_edit_b",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_edit_b.txt",
+    "text_sha256": "24f187c795d13324b4afde69f95f14f4b542c6724472ce0c1ec909643f982a89",
+    "variant": "edit",
+    "words": 112,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B02_after_a_opt2",
+    "edit_type": "model_sentence_rewrite",
+    "old": "Then reflect on whether you did it or not.",
+    "new": "Then check whether you did what you said you would do.",
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; semantic equivalence unreviewed by Pro"
+  },
+  {
+    "check_id": "part4_claude_test_B02_after_a_opt2_edit_c",
+    "text_file": "runs/prepared/part4/part4_claude_test_B02_after_a_opt2_edit_c.txt",
+    "text_sha256": "d18007a13bb543ba7566ff60057b19507d1939e34dda5b683f9d4f021f8ff411",
+    "variant": "edit",
+    "words": 119,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "edit",
+    "base_run_id": "claude_test_B02_after_a_opt2",
+    "edit_type": "model_sentence_addition",
+    "new": "You can consider the reason before making another plan.",
+    "author": "Codex model",
+    "own_words": true,
+    "label": "ONLY Part4.3; ungraded; never article prose"
+  },
+  {
+    "check_id": "part4_B01_context_swap_01",
+    "text_file": "runs/prepared/part4/part4_B01_context_swap_01.txt",
+    "text_sha256": "31607770a650d4c1f6b6a9942227b09522e44f2b82cc5ad72ed44c19abfc24e6",
+    "variant": "splice",
+    "words": 417,
+    "status": "blocked_browser_policy",
+    "experiment_kind": "context_swap",
+    "failing_run_id": "claude_test_B01_m34_opt2",
+    "passing_run_id": "claude_test_B01_m34_opt1",
+    "selected_units": [
+      0
+    ],
+    "own_words": false,
+    "semantic_coverage": "UNREVIEWED_BY_PRO; heuristic alignment, no same-point/order certification"
+  }
+]

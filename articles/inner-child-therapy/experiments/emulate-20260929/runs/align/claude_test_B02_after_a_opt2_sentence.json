@@ -1,0 +1,89 @@
+{
+  "source_sha256": "8a4d9de0351b19c1e0980d31dcac77ffbbf95c5d0d19bf80f7aa9bd3c1a25f71",
+  "output_sha256": "7fe1eddc5296db088f3d4aed806a6fea50a9beaeb33782695de7a5740f1c3400",
+  "source_sentence_count": 3,
+  "output_sentence_count": 8,
+  "unit_kind": "sentence",
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 0,
+      "output_start": 0,
+      "output_end": 43,
+      "source_text": "",
+      "output_text": "Then reflect on whether you did it or not. ",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 0,
+      "source_end": 0,
+      "output_start": 43,
+      "output_end": 314,
+      "source_text": "",
+      "output_text": "If you did it but didn’t feel any better, that’s ok, the action might not have been beneficial to you, but if it was something important that made you safer, closer to someone or something, gave you more ability or made your life more enjoyable, then tick it off anyway. ",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        2,
+        3
+      ],
+      "source_start": 0,
+      "source_end": 93,
+      "output_start": 314,
+      "output_end": 418,
+      "source_text": "Afterward, look at what actually happened, because feeling no relief doesn't mean it failed. ",
+      "output_text": "If you didn’t do what you said you would, don’t judge yourself, just consider why not? Were you afraid? ",
+      "word_overlap": 0.1111111111111111,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        4,
+        5
+      ],
+      "source_start": 93,
+      "source_end": 246,
+      "output_start": 418,
+      "output_end": 521,
+      "source_text": "Doing it doesn't prove it helped either; the acts worth keeping leave things safer, closer, more capable or more enjoyable, and others only earn a tick. ",
+      "output_text": "Had you had second thoughts about whether you actually wanted to do it? Were you unclear how to do it? ",
+      "word_overlap": 0.0851063829787234,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2
+      ],
+      "output_sentences": [
+        6,
+        7
+      ],
+      "source_start": 246,
+      "source_end": 439,
+      "output_start": 521,
+      "output_end": 578,
+      "source_text": "If you didn't do it, don't decide why before you've looked, since it could be fear, second thoughts about the goal, not knowing how, being worn out, or the friend you'd lined up not answering.\n",
+      "output_text": "Were you too tired? Had your friend not got back to you?\n",
+      "word_overlap": 0.0784313725490196,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}

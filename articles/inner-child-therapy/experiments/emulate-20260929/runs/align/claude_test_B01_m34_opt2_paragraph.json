@@ -1,0 +1,42 @@
+{
+  "source_sha256": "a1d6ff7617f206479382e4506831990963c75f2aeac5c310543d1cbba00230ee",
+  "output_sha256": "8228e2b2719fbf9a528981ecfe57fff383730e3ef851e455043c28447c7a4d99",
+  "source_paragraph_count": 2,
+  "output_paragraph_count": 2,
+  "unit_kind": "paragraph",
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_start": 0,
+      "source_end": 283,
+      "output_start": 0,
+      "output_end": 362,
+      "source_text": "If you can't feel any warmth toward your little one yet, the Protector can go first. Care might start as locking the door at night, eating an actual meal, cancelling something you didn't have the energy for, or putting your phone down at midnight. The warm feelings can come later.\n\n",
+      "output_text": "It’s okay for the Protector to go first. It’s okay for you to start by doing something that you know will care for your little one even if you don’t yet have warm feelings toward them. Locking the door, eating a meal, cancelling something on your calendar, putting your phone down when you wake up in the middle of the night — the warm feelings can come later.\n\n",
+      "word_overlap": 0.36065573770491804,
+      "semantic_disposition": "UNREVIEWED_BY_PRO",
+      "source_paragraphs": [
+        0
+      ],
+      "output_paragraphs": [
+        0
+      ]
+    },
+    {
+      "source_start": 283,
+      "source_end": 981,
+      "output_start": 362,
+      "output_end": 975,
+      "source_text": "Pick one of these and make it specific. When will you do it, what's the smallest first step, and what help do you need? If there's a hard moment you can see coming, it can help to practice what you'll say ahead of time. Afterward, look at what really happened. If you didn't do it, don't assume you know why. It could have been fear, not knowing what you were aiming for, not knowing how, being exhausted, or something practical getting in the way. And if you did it and didn't feel better right away, that doesn't mean it failed, but doing it doesn't prove it helped either. Keep what actually makes your little one safer, closer to you, more capable, or happier, not just what gets a check mark.\n",
+      "output_text": "Pick one thing from the above that you can do. When will you do it? What’s the first step you can take? What do you need to help you do it? If there’s a hard part, say it out loud now to practice. Afterwards, debrief. If you weren’t able to do it, what got in the way? Were you scared? Did you not know what you were going for? Did you not know how to do it? Were you too tired? Was something else in the way? If you did it, did it help? Just because you did it doesn’t mean it will help. Keep only those things that help your little one to feel safe, to feel close to you, to be more functional, or to be happy.\n",
+      "word_overlap": 0.42066420664206644,
+      "semantic_disposition": "UNREVIEWED_BY_PRO",
+      "source_paragraphs": [
+        1
+      ],
+      "output_paragraphs": [
+        1
+      ]
+    }
+  ]
+}

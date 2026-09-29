@@ -31,8 +31,23 @@ def overlap(left, right):
     return difflib.SequenceMatcher(None, tokens(left), tokens(right), autojunk=False).ratio()
 
 
-def align(source, output):
-    a, b = spans(source), spans(output)
+def paragraph_spans(text):
+    result, start = [], 0
+    for match in re.finditer(r'\n[ \t]*\n(?:[ \t]*\n)*', text):
+        end = match.end()
+        if text[start:end].strip():
+            result.append({'start': start, 'end': end, 'text': text[start:end]})
+            start = end
+    if start < len(text):
+        result.append({'start': start, 'end': len(text), 'text': text[start:]})
+    assert ''.join(item['text'] for item in result) == text
+    return result
+
+
+def align(source, output, unit_kind='sentence'):
+    assert unit_kind in ('sentence', 'paragraph')
+    segmenter = spans if unit_kind == 'sentence' else paragraph_spans
+    a, b = segmenter(source), segmenter(output)
     n, m = len(a), len(b)
     cost = {(0, 0): 0.0}
     back = {}
@@ -68,8 +83,13 @@ def align(source, output):
     units.reverse()
     assert ''.join(u['source_text'] for u in units) == source
     assert ''.join(u['output_text'] for u in units) == output
+    if unit_kind == 'paragraph':
+        for unit in units:
+            unit['source_paragraphs'] = unit.pop('source_sentences')
+            unit['output_paragraphs'] = unit.pop('output_sentences')
     return {'source_sha256': digest(source), 'output_sha256': digest(output),
-            'source_sentence_count': n, 'output_sentence_count': m,
+            f'source_{unit_kind}_count': n, f'output_{unit_kind}_count': m,
+            'unit_kind': unit_kind,
             'method': 'monotone word-overlap difflib; heuristic, not semantic proof', 'units': units}
 
 

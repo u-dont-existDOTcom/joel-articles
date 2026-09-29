@@ -22,15 +22,20 @@ for entry in queue:
 queue_file.write_text(json.dumps(queue,ensure_ascii=False,indent=2)+'\n')
 from datetime import datetime,timezone
 now=datetime.now(timezone.utc).isoformat()
+me=json.loads((exp/'runs/me-latest.json').read_text())
+gate=json.loads((exp/'RUNTIME-GATES.json').read_text())
+next_action=('Pangram browser policy verification is blocked after two failed attempts. Resume remaining baselines and prepared checks only after that external gate clears; no alternate Pangram transport. Article rewriting awaits measured flagged paragraphs. Pro reasoning and Part6 remain pending.' if gate['browser']['status']=='blocked' else 'Finish remaining baselines and prepared output checks, then article rewrites, mechanical experiments and Pro reasoning.')
 (exp/'CURRENT-STATE.md').write_text(f'''# Overnight run checkpoint
 
 {now}. Owner outcome OPEN. External submissions approved; PDF downloads disabled after disruptive native Save As dialogs. Detector evidence is exact text snapshots and highlighted spans.
 
 Worker scans saved: {len(own)}; latest Pangram balance {latest.get('credits_after','unread')}; logged worker credit charges {sum(r.get('credits_cost',0) for r in own)}. Five historical rechecks matched earlier labels. Baselines left: {sum(r['status']=='reserved_not_submitted' for r in queue)}; GUI minimum exclusions: {sum('minimum' in r['status'] for r in queue)}.
 
-Worker Emulate charges: {charged}. Charge test established two website options cost180 together. A exact Copy capture; B DOM diagnostic only. Website pricing default; API fallback for lossless capture. Articles remain candidate-only; E_holdout excluded.
+Worker Emulate charges: {charged}; latest measured balance {me['words_left']} at {me['observed_utc']}. Charge test established two website options cost180 together. A exact Copy capture; B DOM diagnostic only. Website pricing default; API fallback for lossless capture. No article rewrites submitted; E_holdout excluded.
 
-Next authorized work: finish baselines, run Part2 outputs and Part3 checks, Part4 mechanical experiments, then hand reasoning to Pro in Part5. Own branch only; no published article changes or authority promotion. Stop only at actual budget/access boundary.
+{next_action}
+
+Own branch only; no published article changes or authority promotion. Outcome remains incomplete at the recorded external access boundary.
 ''')
 files=set(git('diff','--name-only','HEAD').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
 index_path=root/'articles/INDEX.json'

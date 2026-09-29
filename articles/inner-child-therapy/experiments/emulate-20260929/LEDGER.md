@@ -4,15 +4,14 @@
 Base: handoff/claude-dangerous-adult-20260924-1631 at c20fb7d8516e162f988ef24c2f0b31a14538eca8.
 Writer: gpt/emulate-overnight-20260929; isolated checkout; no main/handoff mutations.
 
-## Balances
-- Emulate GET /v1/me: pro; 58,017 words remaining; max 3,000 per call.
-- Pangram GUI balance before work: 2,183 credits; stop below 300.
-- Learning allocation: <=5,000; article first pass <=38,600; second runs <=12,000; reserve >=2,000.
-- New experiment spend: Emulate 0; Pangram 0. Claude's earlier four calls charged 510 before this balance.
-
 ## Current checkpoint
-B01 website charge test reserved, not submitted. Both accounts are signed in.
-Style inspection: Writing for Auto; Tone Auto; Point of view Auto; Formality Formal; Reading level Professional; Sentences Auto; Length Tight. Reset all to Auto before the test.
+The run is incomplete at an external browser policy-verification gate, after two failed attempts. No B22 scan was submitted. PDF exports are disabled by the owner's correction. Saved result snapshots and highlighted text remain available.
+
+Latest measured Emulate balance: 52,803, observed 2026-09-29T02:49:10.102527+00:00. Worker spend: 5,214 (4,697/5,000 learning; 517/12,000 second/probe allocation; 0/38,600 article-first). Start58,017, prior Claude510 separate; reserve2,000 preserved. Latest Pangram balance2,127; worker scans26 charged38. Starting GUI2183 fell18 before worker scan1 (external account use); no attribution to worker.
+
+New worker results:55 exact API outputs plus charge-test optionA exact Copy and optionB DOM diagnostic. New output Pangram verdicts are unknown. No article paragraph was submitted or rewritten. Four earlier Claude outputs are the only measured passing outputs; they supply4 qualifying versions from2 inputs, not12 complete pairs.
+
+See CURRENT-STATE.md, RUNTIME-GATES.json and RESUME.md. Historical events below preserve the chronology; their intermediate balances and reservations are superseded by this checkpoint.
 
 ## Execution observations
 - Managed worktree tool unavailable because the chat project root is not a Git repository; made an isolated clone instead.
@@ -47,3 +46,5 @@ Browser platform gate: attempted B22 baseline after published B21 checkpoint; br
 Browser policy verification remained unavailable on one later read-only recovery check; no additional scan or indirect Pangram transport attempted. Set A complete:27 exact API outputs; A22(39words) andA25(36words) skipped. Worker Emulate charges2338 includingcharge-test180; measured remaining55679. B02 reuses two earlier exact Claude API versions to obey no-third-call rule; B01 reuses charge test.
 
 Sets A and C API outputs complete. Article phase held: no original article Pangram baselines available, so no article paragraph is admitted to Emulate. Under the directive's break/continue rule, proceed to independent Set B learning runs. B01 reuses website charge test and B02 reuses its two earlier API versions; no third same-setting call. New output detector checks remain pending, not Human.
+
+Final independent-work checkpoint: sets A27/C2/B22 first API versions completed. D1 A01/A02 repeats and D2 historical B01/B02 passing-output second passes completed; probe spend517. Prepared Part3(99) and Part4(105) exact check files without external submission. Part4's12 labelled own-word edits are experiments only, never article prose. No new detector pass inferred. Pro identity/route is not verified by available app tools; handoff file prepared rather than claiming Part5 done.
