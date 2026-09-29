@@ -1,0 +1,124 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2141 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: Your little one has heard kind words before and then watched nothing happen, so a kind word by itself sounds like more of the same. What your little one ends up trusting is what the Protector does out in your life, and at its biggest it can mean leaving a relationship that keeps wearing down your safety. Most of it is smaller, like opening the bill you've been moving from the counter to the table and back.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- dialog "Text Query" [active]:
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2141 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: Your little one has heard
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 01:57 AM
+  - generic: 78 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: Your little one has heard kind words before and then watched nothing happen, so a kind word by itself sounds like more of the same. What your little one ends up trusting is what the Protector does out in your life, and at its biggest it can mean leaving a relationship that keeps wearing down your safety. Most of it is smaller, like opening the bill you've been moving from the counter to the table and back.
+  - tablist:
+    - tab "Overview" [selected]:
+      - text: Overview
+    - tab "Details":
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Overview":
+    - generic: AI Generated
+    - generic: 78 words scanned
+    - generic: •
+    - generic: Short text
+    - 'generic "Detection model: Pangram 4.0"':
+      - generic: Pangram
+      - generic: "4.0"
+    - generic: We believe that this entire text is AI.
+    - generic: "100"
+    - generic: "%"
+    - generic: of this text is AI
+    - generic: Confidence limited — short text
+    - generic: •
+    - link "Learn more":
+      - /url: https://www.pangram.com/blog/why-does-pangram-have-a-minimum-word-count
+    - generic: Was this result helpful?
+    - button "Upvote result":
+    - button "Downvote result":
+    - button "Dismiss feedback":
+    - generic: Plagiarism Analysis
+    - generic: Check for Plagiarism
+    - generic: 1 credit / 100 words
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list
