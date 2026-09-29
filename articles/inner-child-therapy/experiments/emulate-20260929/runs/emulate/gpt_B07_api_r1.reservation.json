@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B07_api_r1",
+  "input_file": "inputs/learning/B_protector/B07_out_b.txt",
+  "input_words": 77,
+  "input_sha256": "aefd5b0f9427d4a1d95d37a048915b71e7439e461b0f3fdc99f9d10dd36a6b26",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:36:05.281863+00:00",
+  "status": "completed",
+  "balance_before": 54567,
+  "provider_id": "3bbda1cd-3c7c-4b20-b35a-d672ffcd4877",
+  "words_charged": 77
+}

@@ -1,0 +1,43 @@
+{
+  "source_sha256": "aefd5b0f9427d4a1d95d37a048915b71e7439e461b0f3fdc99f9d10dd36a6b26",
+  "output_sha256": "f37f203d1553240433ae26550a12e7c95109969e033e52fd63a85dc4248f05cf",
+  "source_sentence_count": 3,
+  "output_sentence_count": 3,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0,
+        1
+      ],
+      "source_start": 0,
+      "source_end": 132,
+      "output_start": 0,
+      "output_end": 151,
+      "source_text": "Your little one has heard kind words before and then watched nothing happen, so a kind word by itself sounds like more of the same. ",
+      "output_text": "We have explained that our little one has heard kind words before, and nothing’s come of them. So what he believes is what Protector does in our life. ",
+      "word_overlap": 0.37037037037037035,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1,
+        2
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 132,
+      "source_end": 410,
+      "output_start": 151,
+      "output_end": 275,
+      "source_text": "What your little one ends up trusting is what the Protector does out in your life, and at its biggest it can mean leaving a relationship that keeps wearing down your safety. Most of it is smaller, like opening the bill you've been moving from the counter to the table and back.\n",
+      "output_text": "That may be as big as leaving a relationship, or it may be as small as finally opening a bill that’s been put off for weeks.",
+      "word_overlap": 0.125,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
