@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_C1_api_r1",
+  "input_file": "inputs/learning/C_controls/C1_s2j_claude_HUMAN.txt",
+  "input_words": 112,
+  "input_sha256": "3b5e26fec8041339975b37fd112107cdabe419a53febc0301cb5c104404388b7",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:29:00.580222+00:00",
+  "status": "completed",
+  "balance_before": 55679,
+  "provider_id": "fc86d5fa-1b6a-4457-a191-2a74a95ceb92",
+  "words_charged": 112
+}

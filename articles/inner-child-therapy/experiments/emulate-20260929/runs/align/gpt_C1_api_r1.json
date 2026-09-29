@@ -1,0 +1,108 @@
+{
+  "source_sha256": "3b5e26fec8041339975b37fd112107cdabe419a53febc0301cb5c104404388b7",
+  "output_sha256": "37bc38daf32e599280c332c079a2e0ba01865d098ef0de05c3fa23cc7af73ff7",
+  "source_sentence_count": 9,
+  "output_sentence_count": 6,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 95,
+      "output_start": 0,
+      "output_end": 87,
+      "source_text": "You can protect your little one from yourself too, like by repairing after an internal attack. ",
+      "output_text": "It also includes protecting them from you; protecting them from your internal attacks. ",
+      "word_overlap": 0.20689655172413793,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 95,
+      "source_end": 126,
+      "output_start": 87,
+      "output_end": 125,
+      "source_text": "\"What's an 'internal attack'?\" ",
+      "output_text": "\"What do you mean, internal attacks?\" ",
+      "word_overlap": 0.36363636363636365,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 126,
+      "source_end": 258,
+      "output_start": 125,
+      "output_end": 298,
+      "source_text": "Calling yourself an idiot for losing your keys again, for one. Your little one was listening, so you go back and apologize to them. ",
+      "output_text": "Well, let's say you call yourself an idiot when you can't find your keys, even though the little one was listening to you, you still find the time to go back and apologize. ",
+      "word_overlap": 0.4745762711864407,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4,
+        5
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 258,
+      "source_end": 385,
+      "output_start": 298,
+      "output_end": 432,
+      "source_text": "If they're sarcastic about it, you let it go by instead of snapping back. They don't trust you yet, and you don't ask them to. ",
+      "output_text": "The little one makes a sarcastic comment and instead of snapping back, you let it go because, well, they don't really trust you, yet. ",
+      "word_overlap": 0.41509433962264153,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6
+      ],
+      "output_sentences": [
+        4
+      ],
+      "source_start": 385,
+      "source_end": 447,
+      "output_start": 432,
+      "output_end": 508,
+      "source_text": "They complain about something, they're right, and you say so. ",
+      "output_text": "The little one complains about something and you admit that they are right. ",
+      "word_overlap": 0.3333333333333333,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        7,
+        8
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 447,
+      "source_end": 615,
+      "output_start": 508,
+      "output_end": 680,
+      "source_text": "All of that shows as clearly to them as the clean room did. It's proof you love them, but they can still tell the difference between being put up with and being loved.\n",
+      "output_text": "The little one can see that all of this as well as they could see the clean room and you are proving to them that you love them, that you are not just putting up with them.",
+      "word_overlap": 0.3380281690140845,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
