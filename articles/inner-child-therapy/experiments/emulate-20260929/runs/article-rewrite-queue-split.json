@@ -1,0 +1,2446 @@
+{
+  "generated_utc": "2026-09-29T21:58:46.599Z",
+  "supersedes": "runs/article-rewrite-queue.json for inputs from community 0501 onward",
+  "reason": "Both 449-word 0501 options ended mid-thought; split at paragraph boundaries to reduce truncation. Original first pass retained, second pass uses three nonoverlapping subchunks.",
+  "basis": "Original 52 Pangram article baselines and eligible-paragraph mask; no protected Human paragraph added",
+  "max_target_words": 230,
+  "selected_options": "None; editorial review pending",
+  "runs": [
+    {
+      "id": "intentional-communities-rewrite-0501-r2-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        0,
+        5
+      ],
+      "words": 197,
+      "split_of": "intentional-communities-rewrite-0501",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0501-r2-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0501-r2-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        5,
+        9
+      ],
+      "words": 195,
+      "split_of": "intentional-communities-rewrite-0501",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0501-r2-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0501-r2-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        9,
+        11
+      ],
+      "words": 57,
+      "split_of": "intentional-communities-rewrite-0501",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0501-r2-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0502-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        12,
+        18
+      ],
+      "words": 220,
+      "split_of": "intentional-communities-rewrite-0502",
+      "split_index": 1,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0502-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        18,
+        24
+      ],
+      "words": 201,
+      "split_of": "intentional-communities-rewrite-0502",
+      "split_index": 2,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0502-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        24,
+        30
+      ],
+      "words": 200,
+      "split_of": "intentional-communities-rewrite-0502",
+      "split_index": 3,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0502-s04",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        30,
+        37
+      ],
+      "words": 224,
+      "split_of": "intentional-communities-rewrite-0502",
+      "split_index": 4,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502-s04.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0601-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-06",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 217,
+      "split_of": "intentional-communities-rewrite-0601",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0601-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0601-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-06",
+      "paragraphs": [
+        7,
+        10
+      ],
+      "words": 144,
+      "split_of": "intentional-communities-rewrite-0601",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0601-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0701",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-07",
+      "paragraphs": [
+        0,
+        9
+      ],
+      "words": 299,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0701.txt",
+      "sha256": "18b53141285272e96fbed707e3ca751e8310b1bd56024c259adb0f6b65eb59fc",
+      "split_of": null
+    },
+    {
+      "id": "intentional-communities-rewrite-0801",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        0,
+        4
+      ],
+      "words": 134,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0801.txt",
+      "sha256": "5167449d829708ab0759a4cd9c3195ce52b2157d54166a1c9bec44e9bb324e3d",
+      "split_of": null
+    },
+    {
+      "id": "intentional-communities-rewrite-0802-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        7,
+        13
+      ],
+      "words": 227,
+      "split_of": "intentional-communities-rewrite-0802",
+      "split_index": 1,
+      "split_total": 6,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0802-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        13,
+        21
+      ],
+      "words": 221,
+      "split_of": "intentional-communities-rewrite-0802",
+      "split_index": 2,
+      "split_total": 6,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0802-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        21,
+        24
+      ],
+      "words": 182,
+      "split_of": "intentional-communities-rewrite-0802",
+      "split_index": 3,
+      "split_total": 6,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0802-s04",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        24,
+        28
+      ],
+      "words": 182,
+      "split_of": "intentional-communities-rewrite-0802",
+      "split_index": 4,
+      "split_total": 6,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s04.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0802-s05",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        28,
+        31
+      ],
+      "words": 229,
+      "split_of": "intentional-communities-rewrite-0802",
+      "split_index": 5,
+      "split_total": 6,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s05.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0802-s06",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        31,
+        34
+      ],
+      "words": 68,
+      "split_of": "intentional-communities-rewrite-0802",
+      "split_index": 6,
+      "split_total": 6,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802-s06.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0901-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-09",
+      "paragraphs": [
+        2,
+        8
+      ],
+      "words": 230,
+      "split_of": "intentional-communities-rewrite-0901",
+      "split_index": 1,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0901-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-09",
+      "paragraphs": [
+        8,
+        12
+      ],
+      "words": 225,
+      "split_of": "intentional-communities-rewrite-0901",
+      "split_index": 2,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0901-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-09",
+      "paragraphs": [
+        12,
+        16
+      ],
+      "words": 219,
+      "split_of": "intentional-communities-rewrite-0901",
+      "split_index": 3,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-0901-s04",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-09",
+      "paragraphs": [
+        16,
+        18
+      ],
+      "words": 131,
+      "split_of": "intentional-communities-rewrite-0901",
+      "split_index": 4,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901-s04.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1001-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-10",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 206,
+      "split_of": "intentional-communities-rewrite-1001",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1001-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1001-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-10",
+      "paragraphs": [
+        7,
+        9
+      ],
+      "words": 183,
+      "split_of": "intentional-communities-rewrite-1001",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1001-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1001-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-10",
+      "paragraphs": [
+        9,
+        11
+      ],
+      "words": 156,
+      "split_of": "intentional-communities-rewrite-1001",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1001-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1101-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-11",
+      "paragraphs": [
+        0,
+        5
+      ],
+      "words": 204,
+      "split_of": "intentional-communities-rewrite-1101",
+      "split_index": 1,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1101-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-11",
+      "paragraphs": [
+        5,
+        11
+      ],
+      "words": 190,
+      "split_of": "intentional-communities-rewrite-1101",
+      "split_index": 2,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1101-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-11",
+      "paragraphs": [
+        11,
+        20
+      ],
+      "words": 230,
+      "split_of": "intentional-communities-rewrite-1101",
+      "split_index": 3,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1101-s04",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-11",
+      "paragraphs": [
+        20,
+        22
+      ],
+      "words": 94,
+      "split_of": "intentional-communities-rewrite-1101",
+      "split_index": 4,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101-s04.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1201-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-12",
+      "paragraphs": [
+        0,
+        6
+      ],
+      "words": 202,
+      "split_of": "intentional-communities-rewrite-1201",
+      "split_index": 1,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1201-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-12",
+      "paragraphs": [
+        6,
+        13
+      ],
+      "words": 229,
+      "split_of": "intentional-communities-rewrite-1201",
+      "split_index": 2,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1201-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-12",
+      "paragraphs": [
+        13,
+        21
+      ],
+      "words": 224,
+      "split_of": "intentional-communities-rewrite-1201",
+      "split_index": 3,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1201-s04",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-12",
+      "paragraphs": [
+        21,
+        22
+      ],
+      "words": 24,
+      "split_of": "intentional-communities-rewrite-1201",
+      "split_index": 4,
+      "split_total": 4,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201-s04.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1301-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-13",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 199,
+      "split_of": "intentional-communities-rewrite-1301",
+      "split_index": 1,
+      "split_total": 7,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1301-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-13",
+      "paragraphs": [
+        7,
+        14
+      ],
+      "words": 227,
+      "split_of": "intentional-communities-rewrite-1301",
+      "split_index": 2,
+      "split_total": 7,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1301-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-13",
+      "paragraphs": [
+        14,
+        20
+      ],
+      "words": 225,
+      "split_of": "intentional-communities-rewrite-1301",
+      "split_index": 3,
+      "split_total": 7,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1301-s04",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-13",
+      "paragraphs": [
+        20,
+        29
+      ],
+      "words": 220,
+      "split_of": "intentional-communities-rewrite-1301",
+      "split_index": 4,
+      "split_total": 7,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s04.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1301-s05",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-13",
+      "paragraphs": [
+        29,
+        33
+      ],
+      "words": 187,
+      "split_of": "intentional-communities-rewrite-1301",
+      "split_index": 5,
+      "split_total": 7,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s05.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1301-s06",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-13",
+      "paragraphs": [
+        33,
+        37
+      ],
+      "words": 224,
+      "split_of": "intentional-communities-rewrite-1301",
+      "split_index": 6,
+      "split_total": 7,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s06.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1301-s07",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-13",
+      "paragraphs": [
+        37,
+        38
+      ],
+      "words": 49,
+      "split_of": "intentional-communities-rewrite-1301",
+      "split_index": 7,
+      "split_total": 7,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301-s07.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1401",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-14",
+      "paragraphs": [
+        0,
+        8
+      ],
+      "words": 270,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1401.txt",
+      "sha256": "ce27fedd925348ef737e11aa509123902dc5706214e89db875033d74188580cb",
+      "split_of": null
+    },
+    {
+      "id": "intentional-communities-rewrite-1501-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-15",
+      "paragraphs": [
+        0,
+        6
+      ],
+      "words": 205,
+      "split_of": "intentional-communities-rewrite-1501",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1501-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1501-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-15",
+      "paragraphs": [
+        6,
+        11
+      ],
+      "words": 191,
+      "split_of": "intentional-communities-rewrite-1501",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1501-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1502-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-15",
+      "paragraphs": [
+        13,
+        18
+      ],
+      "words": 226,
+      "split_of": "intentional-communities-rewrite-1502",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1502-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1502-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-15",
+      "paragraphs": [
+        18,
+        21
+      ],
+      "words": 221,
+      "split_of": "intentional-communities-rewrite-1502",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1502-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1502-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-15",
+      "paragraphs": [
+        21,
+        24
+      ],
+      "words": 147,
+      "split_of": "intentional-communities-rewrite-1502",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1502-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1601-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-16",
+      "paragraphs": [
+        0,
+        8
+      ],
+      "words": 220,
+      "split_of": "intentional-communities-rewrite-1601",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1601-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1601-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-16",
+      "paragraphs": [
+        8,
+        16
+      ],
+      "words": 219,
+      "split_of": "intentional-communities-rewrite-1601",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1601-s02.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1601-s03",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-16",
+      "paragraphs": [
+        16,
+        23
+      ],
+      "words": 204,
+      "split_of": "intentional-communities-rewrite-1601",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1601-s03.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1701-s01",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-17",
+      "paragraphs": [
+        6,
+        23
+      ],
+      "words": 226,
+      "split_of": "intentional-communities-rewrite-1701",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1701-s01.txt"
+    },
+    {
+      "id": "intentional-communities-rewrite-1701-s02",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-17",
+      "paragraphs": [
+        23,
+        34
+      ],
+      "words": 214,
+      "split_of": "intentional-communities-rewrite-1701",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1701-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0101-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-01",
+      "paragraphs": [
+        0,
+        9
+      ],
+      "words": 214,
+      "split_of": "hypnosis-guide-rewrite-0101",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0101-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0101-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-01",
+      "paragraphs": [
+        9,
+        14
+      ],
+      "words": 150,
+      "split_of": "hypnosis-guide-rewrite-0101",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0101-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0101-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-01",
+      "paragraphs": [
+        14,
+        15
+      ],
+      "words": 88,
+      "split_of": "hypnosis-guide-rewrite-0101",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0101-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0201-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-02",
+      "paragraphs": [
+        0,
+        5
+      ],
+      "words": 171,
+      "split_of": "hypnosis-guide-rewrite-0201",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0201-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0201-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-02",
+      "paragraphs": [
+        5,
+        9
+      ],
+      "words": 162,
+      "split_of": "hypnosis-guide-rewrite-0201",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0201-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0301",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-03",
+      "paragraphs": [
+        5,
+        11
+      ],
+      "words": 149,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0301.txt",
+      "sha256": "81ca3d9cd332be5a51fe4eca6469eb1a16a3c27f58aa7fe25edd377ce5656db8",
+      "split_of": null
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0601",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-06",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 184,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0601.txt",
+      "sha256": "633524afbf44df2930cb8b6082a1c0f9322fac2d19ddf6bd217ed3d52fb59c73",
+      "split_of": null
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0701",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-07",
+      "paragraphs": [
+        0,
+        6
+      ],
+      "words": 190,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0701.txt",
+      "sha256": "247027b30c951b0e2433af630cfe40135561c0887b8a2547afb9726b151a6e8b",
+      "split_of": null
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0801",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-08",
+      "paragraphs": [
+        0,
+        4
+      ],
+      "words": 159,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0801.txt",
+      "sha256": "f28c6e410261586ba2f8c0e8fb31ebd8b24fc0604ad9016cd78b602cc8420771",
+      "split_of": null
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0901-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-09",
+      "paragraphs": [
+        0,
+        12
+      ],
+      "words": 218,
+      "split_of": "hypnosis-guide-rewrite-0901",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0901-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0901-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-09",
+      "paragraphs": [
+        12,
+        19
+      ],
+      "words": 222,
+      "split_of": "hypnosis-guide-rewrite-0901",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0901-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0901-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-09",
+      "paragraphs": [
+        19,
+        20
+      ],
+      "words": 12,
+      "split_of": "hypnosis-guide-rewrite-0901",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0901-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        0,
+        8
+      ],
+      "words": 208,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 1,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        8,
+        14
+      ],
+      "words": 209,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 2,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        14,
+        21
+      ],
+      "words": 179,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 3,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        21,
+        29
+      ],
+      "words": 224,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 4,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s05",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        29,
+        36
+      ],
+      "words": 219,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 5,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s05.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s06",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        36,
+        43
+      ],
+      "words": 224,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 6,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s06.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s07",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        43,
+        49
+      ],
+      "words": 214,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 7,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s07.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s08",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        49,
+        61
+      ],
+      "words": 228,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 8,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s08.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s09",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        61,
+        74
+      ],
+      "words": 197,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 9,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s09.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001-s10",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        74,
+        84
+      ],
+      "words": 212,
+      "split_of": "hypnosis-guide-rewrite-1001",
+      "split_index": 10,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001-s10.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1101-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-11",
+      "paragraphs": [
+        0,
+        9
+      ],
+      "words": 172,
+      "split_of": "hypnosis-guide-rewrite-1101",
+      "split_index": 1,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1101-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-11",
+      "paragraphs": [
+        9,
+        13
+      ],
+      "words": 168,
+      "split_of": "hypnosis-guide-rewrite-1101",
+      "split_index": 2,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1101-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-11",
+      "paragraphs": [
+        13,
+        17
+      ],
+      "words": 208,
+      "split_of": "hypnosis-guide-rewrite-1101",
+      "split_index": 3,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1101-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-11",
+      "paragraphs": [
+        17,
+        21
+      ],
+      "words": 78,
+      "split_of": "hypnosis-guide-rewrite-1101",
+      "split_index": 4,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1201-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-12",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 199,
+      "split_of": "hypnosis-guide-rewrite-1201",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1201-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1201-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-12",
+      "paragraphs": [
+        7,
+        17
+      ],
+      "words": 220,
+      "split_of": "hypnosis-guide-rewrite-1201",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1201-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1201-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-12",
+      "paragraphs": [
+        17,
+        22
+      ],
+      "words": 111,
+      "split_of": "hypnosis-guide-rewrite-1201",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1201-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        0,
+        6
+      ],
+      "words": 188,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 1,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        6,
+        12
+      ],
+      "words": 198,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 2,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        12,
+        15
+      ],
+      "words": 169,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 3,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        15,
+        20
+      ],
+      "words": 207,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 4,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s05",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        20,
+        28
+      ],
+      "words": 222,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 5,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s05.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s06",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        28,
+        39
+      ],
+      "words": 226,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 6,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s06.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s07",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        39,
+        52
+      ],
+      "words": 214,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 7,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s07.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s08",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        52,
+        64
+      ],
+      "words": 211,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 8,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s08.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s09",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        64,
+        72
+      ],
+      "words": 208,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 9,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s09.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301-s10",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        72,
+        76
+      ],
+      "words": 169,
+      "split_of": "hypnosis-guide-rewrite-1301",
+      "split_index": 10,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301-s10.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1401-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-14",
+      "paragraphs": [
+        0,
+        5
+      ],
+      "words": 230,
+      "split_of": "hypnosis-guide-rewrite-1401",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1401-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1401-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-14",
+      "paragraphs": [
+        5,
+        7
+      ],
+      "words": 85,
+      "split_of": "hypnosis-guide-rewrite-1401",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1401-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1501",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-15",
+      "paragraphs": [
+        0,
+        10
+      ],
+      "words": 217,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1501.txt",
+      "sha256": "d28aa021baa3876d173b001e91d9bec29278eb81f2c9ec490280860d310fc0f7",
+      "split_of": null
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1601-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-16",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 200,
+      "split_of": "hypnosis-guide-rewrite-1601",
+      "split_index": 1,
+      "split_total": 7,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1601-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-16",
+      "paragraphs": [
+        7,
+        10
+      ],
+      "words": 186,
+      "split_of": "hypnosis-guide-rewrite-1601",
+      "split_index": 2,
+      "split_total": 7,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1601-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-16",
+      "paragraphs": [
+        10,
+        16
+      ],
+      "words": 180,
+      "split_of": "hypnosis-guide-rewrite-1601",
+      "split_index": 3,
+      "split_total": 7,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1601-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-16",
+      "paragraphs": [
+        16,
+        21
+      ],
+      "words": 185,
+      "split_of": "hypnosis-guide-rewrite-1601",
+      "split_index": 4,
+      "split_total": 7,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1601-s05",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-16",
+      "paragraphs": [
+        21,
+        26
+      ],
+      "words": 190,
+      "split_of": "hypnosis-guide-rewrite-1601",
+      "split_index": 5,
+      "split_total": 7,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s05.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1601-s06",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-16",
+      "paragraphs": [
+        26,
+        30
+      ],
+      "words": 190,
+      "split_of": "hypnosis-guide-rewrite-1601",
+      "split_index": 6,
+      "split_total": 7,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s06.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1601-s07",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-16",
+      "paragraphs": [
+        30,
+        34
+      ],
+      "words": 167,
+      "split_of": "hypnosis-guide-rewrite-1601",
+      "split_index": 7,
+      "split_total": 7,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601-s07.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1701",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-17",
+      "paragraphs": [
+        0,
+        5
+      ],
+      "words": 222,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1701.txt",
+      "sha256": "f4a9eb6bc00647e275611a60ce353021bb0c742f9771ff434a29d935cccf1071",
+      "split_of": null
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1801-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-18",
+      "paragraphs": [
+        0,
+        8
+      ],
+      "words": 189,
+      "split_of": "hypnosis-guide-rewrite-1801",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1801-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1801-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-18",
+      "paragraphs": [
+        8,
+        18
+      ],
+      "words": 217,
+      "split_of": "hypnosis-guide-rewrite-1801",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1801-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1901-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-19",
+      "paragraphs": [
+        0,
+        11
+      ],
+      "words": 219,
+      "split_of": "hypnosis-guide-rewrite-1901",
+      "split_index": 1,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1901-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-19",
+      "paragraphs": [
+        11,
+        22
+      ],
+      "words": 229,
+      "split_of": "hypnosis-guide-rewrite-1901",
+      "split_index": 2,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1901-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-19",
+      "paragraphs": [
+        22,
+        42
+      ],
+      "words": 198,
+      "split_of": "hypnosis-guide-rewrite-1901",
+      "split_index": 3,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1901-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-19",
+      "paragraphs": [
+        42,
+        50
+      ],
+      "words": 227,
+      "split_of": "hypnosis-guide-rewrite-1901",
+      "split_index": 4,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1901-s05",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-19",
+      "paragraphs": [
+        50,
+        52
+      ],
+      "words": 16,
+      "split_of": "hypnosis-guide-rewrite-1901",
+      "split_index": 5,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901-s05.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2001",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-20",
+      "paragraphs": [
+        0,
+        15
+      ],
+      "words": 288,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2001.txt",
+      "sha256": "82d3e5ccbba8e9b0f271e8db9eeed9a227a45ca3a6e59ca2fc53ed20d6cbeec1",
+      "split_of": null
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2101-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-21",
+      "paragraphs": [
+        0,
+        5
+      ],
+      "words": 144,
+      "split_of": "hypnosis-guide-rewrite-2101",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2101-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2101-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-21",
+      "paragraphs": [
+        5,
+        10
+      ],
+      "words": 199,
+      "split_of": "hypnosis-guide-rewrite-2101",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2101-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2201-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-22",
+      "paragraphs": [
+        0,
+        6
+      ],
+      "words": 161,
+      "split_of": "hypnosis-guide-rewrite-2201",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2201-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2201-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-22",
+      "paragraphs": [
+        6,
+        11
+      ],
+      "words": 185,
+      "split_of": "hypnosis-guide-rewrite-2201",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2201-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2301-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-23",
+      "paragraphs": [
+        0,
+        15
+      ],
+      "words": 227,
+      "split_of": "hypnosis-guide-rewrite-2301",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2301-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2301-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-23",
+      "paragraphs": [
+        15,
+        28
+      ],
+      "words": 158,
+      "split_of": "hypnosis-guide-rewrite-2301",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2301-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2301-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-23",
+      "paragraphs": [
+        28,
+        39
+      ],
+      "words": 194,
+      "split_of": "hypnosis-guide-rewrite-2301",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2301-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        0,
+        10
+      ],
+      "words": 212,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 1,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        10,
+        21
+      ],
+      "words": 206,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 2,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        21,
+        37
+      ],
+      "words": 230,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 3,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        37,
+        52
+      ],
+      "words": 228,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 4,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s05",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        52,
+        58
+      ],
+      "words": 184,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 5,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s05.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s06",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        58,
+        67
+      ],
+      "words": 227,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 6,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s06.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s07",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        67,
+        77
+      ],
+      "words": 203,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 7,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s07.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s08",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        77,
+        88
+      ],
+      "words": 221,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 8,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s08.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s09",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        88,
+        108
+      ],
+      "words": 229,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 9,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s09.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401-s10",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        108,
+        116
+      ],
+      "words": 120,
+      "split_of": "hypnosis-guide-rewrite-2401",
+      "split_index": 10,
+      "split_total": 10,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401-s10.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2501-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-25",
+      "paragraphs": [
+        0,
+        20
+      ],
+      "words": 224,
+      "split_of": "hypnosis-guide-rewrite-2501",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2501-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2501-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-25",
+      "paragraphs": [
+        20,
+        31
+      ],
+      "words": 162,
+      "split_of": "hypnosis-guide-rewrite-2501",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2501-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2601-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-26",
+      "paragraphs": [
+        0,
+        10
+      ],
+      "words": 174,
+      "split_of": "hypnosis-guide-rewrite-2601",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2601-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2601-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-26",
+      "paragraphs": [
+        10,
+        21
+      ],
+      "words": 197,
+      "split_of": "hypnosis-guide-rewrite-2601",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2601-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2601-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-26",
+      "paragraphs": [
+        21,
+        30
+      ],
+      "words": 218,
+      "split_of": "hypnosis-guide-rewrite-2601",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2601-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2701",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-27",
+      "paragraphs": [
+        0,
+        10
+      ],
+      "words": 205,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2701.txt",
+      "sha256": "3b13d56a4050dc0cd49adad821a19274b8ac58445ed5bb5ea0f026036826f987",
+      "split_of": null
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2801-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-28",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 198,
+      "split_of": "hypnosis-guide-rewrite-2801",
+      "split_index": 1,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2801-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-28",
+      "paragraphs": [
+        7,
+        14
+      ],
+      "words": 213,
+      "split_of": "hypnosis-guide-rewrite-2801",
+      "split_index": 2,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2801-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-28",
+      "paragraphs": [
+        14,
+        19
+      ],
+      "words": 217,
+      "split_of": "hypnosis-guide-rewrite-2801",
+      "split_index": 3,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2801-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-28",
+      "paragraphs": [
+        19,
+        23
+      ],
+      "words": 140,
+      "split_of": "hypnosis-guide-rewrite-2801",
+      "split_index": 4,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2901-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-29",
+      "paragraphs": [
+        0,
+        8
+      ],
+      "words": 215,
+      "split_of": "hypnosis-guide-rewrite-2901",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2901-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2901-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-29",
+      "paragraphs": [
+        8,
+        13
+      ],
+      "words": 128,
+      "split_of": "hypnosis-guide-rewrite-2901",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2901-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3001-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-30",
+      "paragraphs": [
+        0,
+        8
+      ],
+      "words": 212,
+      "split_of": "hypnosis-guide-rewrite-3001",
+      "split_index": 1,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3001-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-30",
+      "paragraphs": [
+        8,
+        14
+      ],
+      "words": 197,
+      "split_of": "hypnosis-guide-rewrite-3001",
+      "split_index": 2,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3001-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-30",
+      "paragraphs": [
+        14,
+        22
+      ],
+      "words": 228,
+      "split_of": "hypnosis-guide-rewrite-3001",
+      "split_index": 3,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3001-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-30",
+      "paragraphs": [
+        22,
+        30
+      ],
+      "words": 216,
+      "split_of": "hypnosis-guide-rewrite-3001",
+      "split_index": 4,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3001-s05",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-30",
+      "paragraphs": [
+        30,
+        33
+      ],
+      "words": 63,
+      "split_of": "hypnosis-guide-rewrite-3001",
+      "split_index": 5,
+      "split_total": 5,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001-s05.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3101-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-31",
+      "paragraphs": [
+        0,
+        9
+      ],
+      "words": 223,
+      "split_of": "hypnosis-guide-rewrite-3101",
+      "split_index": 1,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3101-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-31",
+      "paragraphs": [
+        9,
+        15
+      ],
+      "words": 202,
+      "split_of": "hypnosis-guide-rewrite-3101",
+      "split_index": 2,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3101-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-31",
+      "paragraphs": [
+        15,
+        21
+      ],
+      "words": 214,
+      "split_of": "hypnosis-guide-rewrite-3101",
+      "split_index": 3,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101-s03.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3101-s04",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-31",
+      "paragraphs": [
+        21,
+        23
+      ],
+      "words": 116,
+      "split_of": "hypnosis-guide-rewrite-3101",
+      "split_index": 4,
+      "split_total": 4,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101-s04.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3201-s01",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-32",
+      "paragraphs": [
+        0,
+        6
+      ],
+      "words": 200,
+      "split_of": "hypnosis-guide-rewrite-3201",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3201-s01.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3201-s02",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-32",
+      "paragraphs": [
+        6,
+        11
+      ],
+      "words": 184,
+      "split_of": "hypnosis-guide-rewrite-3201",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3201-s02.txt"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3201-s03",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-32",
+      "paragraphs": [
+        11,
+        15
+      ],
+      "words": 118,
+      "split_of": "hypnosis-guide-rewrite-3201",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3201-s03.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0101-s01",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        11,
+        15
+      ],
+      "words": 187,
+      "split_of": "neuro-de-armoring-rewrite-0101",
+      "split_index": 1,
+      "split_total": 3,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0101-s01.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0101-s02",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        15,
+        19
+      ],
+      "words": 217,
+      "split_of": "neuro-de-armoring-rewrite-0101",
+      "split_index": 2,
+      "split_total": 3,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0101-s02.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0101-s03",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        19,
+        21
+      ],
+      "words": 51,
+      "split_of": "neuro-de-armoring-rewrite-0101",
+      "split_index": 3,
+      "split_total": 3,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0101-s03.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0102-s01",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        22,
+        26
+      ],
+      "words": 213,
+      "split_of": "neuro-de-armoring-rewrite-0102",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0102-s01.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0102-s02",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        26,
+        34
+      ],
+      "words": 210,
+      "split_of": "neuro-de-armoring-rewrite-0102",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0102-s02.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0103",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        36,
+        38
+      ],
+      "words": 163,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0103.txt",
+      "sha256": "265d5b729c27adb556d51e32ae25f65b67e4abd8bb0daa72e2ba18673d8b2f74",
+      "split_of": null
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0104",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        40,
+        45
+      ],
+      "words": 198,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0104.txt",
+      "sha256": "63d18415226162d3cefea18efbf556c672bda74f302f0e2aeb72b2c8f1e117c0",
+      "split_of": null
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0105-s01",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        46,
+        55
+      ],
+      "words": 230,
+      "split_of": "neuro-de-armoring-rewrite-0105",
+      "split_index": 1,
+      "split_total": 2,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0105-s01.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0105-s02",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        55,
+        61
+      ],
+      "words": 161,
+      "split_of": "neuro-de-armoring-rewrite-0105",
+      "split_index": 2,
+      "split_total": 2,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0105-s02.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0201-s01",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        0,
+        6
+      ],
+      "words": 220,
+      "split_of": "neuro-de-armoring-rewrite-0201",
+      "split_index": 1,
+      "split_total": 7,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s01.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0201-s02",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        6,
+        13
+      ],
+      "words": 223,
+      "split_of": "neuro-de-armoring-rewrite-0201",
+      "split_index": 2,
+      "split_total": 7,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s02.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0201-s03",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        13,
+        18
+      ],
+      "words": 219,
+      "split_of": "neuro-de-armoring-rewrite-0201",
+      "split_index": 3,
+      "split_total": 7,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s03.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0201-s04",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        18,
+        20
+      ],
+      "words": 173,
+      "split_of": "neuro-de-armoring-rewrite-0201",
+      "split_index": 4,
+      "split_total": 7,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s04.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0201-s05",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        20,
+        23
+      ],
+      "words": 177,
+      "split_of": "neuro-de-armoring-rewrite-0201",
+      "split_index": 5,
+      "split_total": 7,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s05.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0201-s06",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        23,
+        27
+      ],
+      "words": 197,
+      "split_of": "neuro-de-armoring-rewrite-0201",
+      "split_index": 6,
+      "split_total": 7,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s06.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0201-s07",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        27,
+        30
+      ],
+      "words": 222,
+      "split_of": "neuro-de-armoring-rewrite-0201",
+      "split_index": 7,
+      "split_total": 7,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201-s07.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0202",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        32,
+        37
+      ],
+      "words": 98,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0202.txt",
+      "sha256": "7d302e851f484b17aa56c029197f8a1331919f78841687cda5d66e3bda7d3892",
+      "split_of": null
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0301-s01",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        0,
+        20
+      ],
+      "words": 223,
+      "split_of": "neuro-de-armoring-rewrite-0301",
+      "split_index": 1,
+      "split_total": 4,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301-s01.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0301-s02",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        20,
+        29
+      ],
+      "words": 209,
+      "split_of": "neuro-de-armoring-rewrite-0301",
+      "split_index": 2,
+      "split_total": 4,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301-s02.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0301-s03",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        29,
+        41
+      ],
+      "words": 208,
+      "split_of": "neuro-de-armoring-rewrite-0301",
+      "split_index": 3,
+      "split_total": 4,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301-s03.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0301-s04",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        41,
+        47
+      ],
+      "words": 157,
+      "split_of": "neuro-de-armoring-rewrite-0301",
+      "split_index": 4,
+      "split_total": 4,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301-s04.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0302-s01",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        48,
+        59
+      ],
+      "words": 224,
+      "split_of": "neuro-de-armoring-rewrite-0302",
+      "split_index": 1,
+      "split_total": 5,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s01.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0302-s02",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        59,
+        68
+      ],
+      "words": 217,
+      "split_of": "neuro-de-armoring-rewrite-0302",
+      "split_index": 2,
+      "split_total": 5,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s02.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0302-s03",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        68,
+        75
+      ],
+      "words": 227,
+      "split_of": "neuro-de-armoring-rewrite-0302",
+      "split_index": 3,
+      "split_total": 5,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s03.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0302-s04",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        75,
+        85
+      ],
+      "words": 209,
+      "split_of": "neuro-de-armoring-rewrite-0302",
+      "split_index": 4,
+      "split_total": 5,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s04.txt"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0302-s05",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        85,
+        87
+      ],
+      "words": 95,
+      "split_of": "neuro-de-armoring-rewrite-0302",
+      "split_index": 5,
+      "split_total": 5,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302-s05.txt"
+    }
+  ]
+}
