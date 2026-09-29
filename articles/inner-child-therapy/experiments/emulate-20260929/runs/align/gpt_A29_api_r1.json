@@ -1,0 +1,76 @@
+{
+  "source_sha256": "308e6d57b292a24d541c85c1519a2f081c3f72b383a1b9a615a8c2b5f87a0d7e",
+  "output_sha256": "4243b773acd3a10348f9350a01a83b264413211dd1dd8f86ff3e35739ab9d7df",
+  "source_sentence_count": 7,
+  "output_sentence_count": 4,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 198,
+      "output_start": 0,
+      "output_end": 126,
+      "source_text": "But one of her ideas fits what I’m trying to say: when two people come together, something appears between them that is larger than either person alone. She calls it the spirit of the relationship. ",
+      "output_text": "Well, one of the things she said that is relevant here is that the spirit of the relationship is bigger than the two of them. ",
+      "word_overlap": 0.29508196721311475,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 198,
+      "source_end": 272,
+      "output_start": 126,
+      "output_end": 222,
+      "source_text": "I don’t think that spirit belongs to us. Nobody can command it to remain. ",
+      "output_text": "The spirit of the relationship doesn’t belong to them; they can’t command it to stay with them. ",
+      "word_overlap": 0.35294117647058826,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4,
+        5
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 272,
+      "source_end": 442,
+      "output_start": 222,
+      "output_end": 354,
+      "source_text": "At our best, we serve it. We tell the truth, keep doing our own inner play & work (pl/ork), ask the community for help, and listen for what the relationship is becoming. ",
+      "output_text": "At best they can serve it by telling the truth, engaging in their own play & work (pl/ork), seeking help from their community, etc. ",
+      "word_overlap": 0.42857142857142855,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        6
+      ],
+      "output_sentences": [
+        3
+      ],
+      "source_start": 442,
+      "source_end": 535,
+      "output_start": 354,
+      "output_end": 466,
+      "source_text": "When we start thinking we own it or deserve it, that presumptuousness tends to push it away.\n",
+      "output_text": "But if they are presumptuous enough to think that they either own it or deserve it, then it will likely go away.",
+      "word_overlap": 0.358974358974359,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
