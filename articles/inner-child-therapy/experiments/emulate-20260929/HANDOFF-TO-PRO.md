@@ -1,3 +1,7 @@
+# Controlling Work route correction — 2026-09-29
+
+Work now follows GPT-RESUME-CLOUD-BROWSER.md: cloud browser only, output checks first, website page-text capture accepted, every10-result checkpoints, no additional verification layers or PDFs. The local chat has no cloud browser. The Part5 brief below remains pending until data collection is complete. Claude owns later slop comparison/learning and the sealed transfer test; Work and Pro never read E_holdout.
+
 # Partial checkpoint for Pro — data collection incomplete
 
 The owner requested Pro for Part5. No Pro session/model has been verified or given this packet. Parts1–4 are incomplete because the browser could not verify its admin-enforced policy; no Pangram workaround was attempted. This is a prepared handoff, not completed Pro analysis.

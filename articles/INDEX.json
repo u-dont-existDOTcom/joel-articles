@@ -2624,7 +2624,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/ACTIVE-LESSON-CONTRACT.md",
-          "sha256": "d3b723acdeb5e5f408b7c0a6681af4433e21fe78691f7e68888c37eb2d357a33",
+          "sha256": "3918a478944631cc037dd59b1d024a9176840dce79f1cb07eaa59e89417f61e1",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -2636,7 +2636,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/CURRENT-STATE.md",
-          "sha256": "4fa81df0b53af2efb3036f1f890a5b8b8df119918f83aba86e2cd0088d37fbd3",
+          "sha256": "4b9d1b47ef9fcf03ae3348786c6adc431298fd58409a8f28ec38c0f98b26f783",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -2648,13 +2648,13 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/LEDGER.md",
-          "sha256": "6828cb63c627d2dcafffd51e815aa143b5542ac7e9b549fa2adc654b759fe160",
+          "sha256": "9a2a7f491ddb5b014a40b25cf45923388fa6113b3183fb38e0653df3623d4302",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/MORNING-NOTE.md",
-          "sha256": "f44201280dc5386da0e506cc1141b338911fec58b5d455d2010594b83002a779",
+          "sha256": "f2791ec52a5b1282024f05e1606065051512bad06691a0a943a770b5e5323f13",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -4904,7 +4904,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/checkpoint_experiment.py",
-          "sha256": "c22119c7ada62da783de1b2a26963b930a0f46fe4bc45437499e216d29ffdc50",
+          "sha256": "811d9f1e82e057904d761ffa9031b55d48edaf9856292fa98e866d8f56b455e9",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -5762,7 +5762,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/RUNTIME-GATES.json",
-          "sha256": "f613204e19b733f62b2f140db95ea07b0012dd5ab9876f31d8067889f4fe4988",
+          "sha256": "76934e5958e819c0732aa99d1c35c6992ace778d7feb990d03d82bb3215eaa46",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -6608,13 +6608,13 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/HANDOFF-TO-PRO.md",
-          "sha256": "8176392e03ed2ecbfb449058c4ba3f3b6870e3d38f57c266559a98c26270f63f",
+          "sha256": "1d5410fb364c8f99021440a4aa6809f9a51b2952515c3d2614b2a693127c823e",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/RESUME.md",
-          "sha256": "ab7f7edd12d424f9474aac6a43ea3f99c08fe63e17e49b67fcb1350a9f26cd3c",
+          "sha256": "fb73afed27b916cd4c82828c0ae6e57d403f13463dc28b7ea071443d6ceba8de",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -7617,6 +7617,18 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/verification-report.json",
           "sha256": "f6bbece7d9c2c109e6160465a23653d7e8536611843f0ca58b54b1b676643487",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/CLOUD-WORK-START.md",
+          "sha256": "4a550cf4a1c595590c50433dab0d52c9216d3e4a3889d8bb95c884c5d6109cfa",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/GPT-RESUME-CLOUD-BROWSER.md",
+          "sha256": "d537f1f9506596887ec95c70232cf3f58489b50edf1059e5f6942d2c824004b1",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }

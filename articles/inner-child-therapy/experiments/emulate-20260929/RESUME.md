@@ -1,3 +1,7 @@
+# Controlling route correction — 2026-09-29
+
+Read GPT-RESUME-CLOUD-BROWSER.md first. It supersedes the local-browser recovery route, reservations and per-result checkpointing below. Use the cloud browser only; owner signs in there. Check saved outputs first; capture website option text before Keep; commit/push every10 results; no new registers/reservations/verification layers. The prior steps are retained as history, not the active route. CLOUD-WORK-START.md is the ready startup prompt.
+
 # Resume from the saved checkpoint
 
 The owner outcome remains OPEN. Browser policy verification failed twice; access was not granted for Pangram. Resolve the external browser security condition before another Pangram action. Do not bypass it through an API, HTTP client, different profile, or indirect route. No scan was submitted for B22. PDF downloads stay disabled after the owner's Save As correction; raw result snapshots and highlighted spans are sufficient.

@@ -5,7 +5,11 @@
     "origin": "https://www.pangram.com",
     "paid_B22_submission": false,
     "verification_attempts": 2,
-    "workaround_prohibited": true
+    "workaround_prohibited": true,
+    "required_surface": "ChatGPT Work cloud browser",
+    "current_surface": "Local Codex: desktop Brave extension and in-app browser only",
+    "cloud_browser_exposed": false,
+    "owner_sign_in_needed_in_cloud": true
   },
   "pdf_exports": {
     "status": "disabled",

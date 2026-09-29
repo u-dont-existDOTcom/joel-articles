@@ -24,7 +24,7 @@ from datetime import datetime,timezone
 now=datetime.now(timezone.utc).isoformat()
 me=json.loads((exp/'runs/me-latest.json').read_text())
 gate=json.loads((exp/'RUNTIME-GATES.json').read_text())
-next_action=('Pangram browser policy verification is blocked after two failed attempts. Resume remaining baselines and prepared checks only after that external gate clears; no alternate Pangram transport. Article rewriting awaits measured flagged paragraphs. Pro reasoning and Part6 remain pending.' if gate['browser']['status']=='blocked' else 'Finish remaining baselines and prepared output checks, then article rewrites, mechanical experiments and Pro reasoning.')
+next_action=('Controlling owner correction: use ChatGPT Work cloud browser per GPT-RESUME-CLOUD-BROWSER.md. This local Codex chat exposes no cloud browser. The ready startup prompt is CLOUD-WORK-START.md. Owner signs in in the cloud; then saved output checks come first. Commit/push every10 results; no PDFs, new registers, reservations or verification layers. Article work and Pro remain pending.' if gate['browser'].get('required_surface')=='ChatGPT Work cloud browser' else 'Pangram browser policy verification is blocked; resume only through an authorized available surface. Article rewriting awaits measured flagged paragraphs; Pro remains pending.')
 (exp/'CURRENT-STATE.md').write_text(f'''# Overnight run checkpoint
 
 {now}. Owner outcome OPEN. External submissions approved; PDF downloads disabled after disruptive native Save As dialogs. Detector evidence is exact text snapshots and highlighted spans.
