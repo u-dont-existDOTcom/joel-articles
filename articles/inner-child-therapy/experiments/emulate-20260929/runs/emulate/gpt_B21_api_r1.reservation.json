@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_B21_api_r1",
+  "input_file": "inputs/learning/B_protector/B21_r2_out3A.txt",
+  "input_words": 63,
+  "input_sha256": "2fd3d7ee081d1487bec162d8068c087d0ebe1e431ff237ce9dfcbeba84963cd3",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:38:24.204215+00:00",
+  "status": "completed",
+  "balance_before": 53572,
+  "provider_id": "e2a6940d-f8fd-4aae-aaf2-515e00171ec0",
+  "words_charged": 63
+}
