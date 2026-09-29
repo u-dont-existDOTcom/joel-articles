@@ -1,0 +1,12 @@
+{
+  "run_id": "gpt_A08_api_r1",
+  "input_file": "inputs/learning/A_joelfixes/A08_before.txt",
+  "input_words": 81,
+  "input_sha256": "55a6d2849f04a12176abb5d95bad829fec789c0baa895b5832b5a26f2a92f748",
+  "allocation": "learning",
+  "started_utc": "2026-09-29T02:23:40.263224+00:00",
+  "status": "completed",
+  "balance_before": 57315,
+  "provider_id": "1aee1ad3-263c-4b02-a7fb-9e8d5dcba186",
+  "words_charged": 81
+}
