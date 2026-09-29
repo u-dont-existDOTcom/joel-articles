@@ -1,0 +1,115 @@
+- link:
+  - /url: /
+- button:
+  - generic: Text Detection
+- link:
+  - /url: /image-detection
+  - generic: Image Detection
+- generic: HISTORY
+- link:
+  - /url: /history
+  - generic: All Checks
+- generic: MORE FEATURES
+- link:
+  - /url: /gmail
+  - generic: Gmail Integration
+  - generic: NEW
+- link:
+  - /url: /apikey
+  - generic: API
+- button:
+  - generic: See what’s new
+- button:
+- button:
+  - generic: Get $10
+- button:
+  - generic: More
+- link:
+  - /url: /enterprise?source=dashboard_sidebar
+  - generic: Pangram for Organizations
+  - generic: LMS, API & custom solutions
+- button:
+  - generic: View Plans
+  - generic: Currently on Pangram Individual
+- generic: Credits
+- progressbar
+- generic: 2145 left
+- generic: P
+- generic: Individual
+- generic: Joel
+- button
+- link:
+  - /url: /image-detection
+  - generic: 100 scans/month
+  - generic: Try image detection
+- heading [level=1]:
+- tablist:
+  - tab [selected]: Text
+  - tab: Upload
+  - tab: URL
+- generic: 1 Credit/100 Words
+- tabpanel:
+  - textbox:
+    - /placeholder: Enter at least 50 words or drop a file or image to check for AI.
+  - button:
+  - button: Try a sample text >
+  - text: Check for plagiarism
+  - generic: 1 credit / 100 words
+  - checkbox
+  - checkbox
+  - button [disabled]: Check for AI
+- button [expanded]:
+  - generic: You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose. Try it and see. If words are there, use them; say the thing aloud, write it, whatever gets it out of the strange imaginary-conversation zone. And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually happening is a knot in your stomach, an urge to leave, some image that keeps coming up, a song that suddenly feels relevant. Sometimes nothing “answers” and you just know what would be kind. The order gets murky too. Feeling can precede language, language can expose a feeling, and afterward you may not know which happened first. I don't think you need to solve that before using whatever words eventually help you understand it.
+  - generic: AI
+  - text: View Results
+- list
+- alert
+- iframe
+- dialog "Text Query":
+  - heading "Text Query" [level=2]
+  - button:
+  - button:
+  - img "Pangram Logo"
+  - button "New scan":
+  - generic: Credits
+  - progressbar
+  - generic: 2145 left
+  - button "Share"
+  - button:
+  - button "More options":
+  - generic: You might barely have
+  - button "Edit text":
+  - generic "AI":
+    - generic: AI
+  - generic: Sep 29, 2026 01:53 AM
+  - generic: 144 words
+  - generic: •
+  - generic: Short text
+  - button "Copy document text":
+  - button "AI Highlight":
+    - generic: AI Highlight
+  - generic: You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose. Try it and see. If words are there, use them; say the thing aloud, write it, whatever gets it out of the strange imaginary-conversation zone. And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually happening is a knot in your stomach, an urge to leave, some image that keeps coming up, a song that suddenly feels relevant. Sometimes nothing “answers” and you just know what would be kind. The order gets murky too. Feeling can precede language, language can expose a feeling, and afterward you may not know which happened first. I don't think you need to solve that before using whatever words eventually help you understand it.
+  - tablist:
+    - tab "Overview":
+      - text: Overview
+    - tab "Details" [active] [selected]:
+      - text: Details
+    - tab "Notes":
+      - text: Notes
+  - tabpanel "Details":
+    - heading "All Segments" [level=3]
+    - combobox:
+      - generic: All
+    - heading "AI Confidence level 144 words You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose. Try it and see. If words are there, use them; say the thing aloud, write it, whatever gets it out of the strange imaginary-conversation zone. And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually happening is a knot in your stomach, an urge to leave, some image that keeps coming up, a song that suddenly feels relevant. Sometimes nothing “answers” and you just know what would be kind. The order gets murky too. Feeling can precede language, language can expose a feeling, and afterward you may not know which happened first. I don't think you need to solve that before using whatever words eventually help you understand it." [level=3]:
+      - button "AI Confidence level 144 words You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose. Try it and see. If words are there, use them; say the thing aloud, write it, whatever gets it out of the strange imaginary-conversation zone. And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually happening is a knot in your stomach, an urge to leave, some image that keeps coming up, a song that suddenly feels relevant. Sometimes nothing “answers” and you just know what would be kind. The order gets murky too. Feeling can precede language, language can expose a feeling, and afterward you may not know which happened first. I don't think you need to solve that before using whatever words eventually help you understand it.":
+        - generic: AI
+        - generic "Confidence level":
+          - text: medium
+        - generic: 144 words
+        - generic: You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose. Try it and see. If words are there, use them; say the thing aloud, write it, whatever gets it out of the strange imaginary-conversation zone. And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually happening is a knot in your stomach, an urge to leave, some image that keeps coming up, a song that suddenly feels relevant. Sometimes nothing “answers” and you just know what would be kind. The order gets murky too. Feeling can precede language, language can expose a feeling, and afterward you may not know which happened first. I don't think you need to solve that before using whatever words eventually help you understand it.
+    - region "AI Confidence level 144 words You might barely have spontaneous words in your mind and still be perfectly capable of thinking a sentence on purpose. Try it and see. If words are there, use them; say the thing aloud, write it, whatever gets it out of the strange imaginary-conversation zone. And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually happening is a knot in your stomach, an urge to leave, some image that keeps coming up, a song that suddenly feels relevant. Sometimes nothing “answers” and you just know what would be kind. The order gets murky too. Feeling can precede language, language can expose a feeling, and afterward you may not know which happened first. I don't think you need to solve that before using whatever words eventually help you understand it.":
+      - text: AI
+      - generic: We believe the segment is AI-generated
+  - tabpanel "Notes"
+  - region "Notifications (F8)":
+    - list

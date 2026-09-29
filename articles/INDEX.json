@@ -3908,7 +3908,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram.jsonl",
-          "sha256": "53660385191b4c9af0fc0a2364652fcf8fb66e704721fabac054d8bfa463acfd",
+          "sha256": "bc43ce9a950aa7ee9ccc5a3d975d7b6cc4d72510e298284b66693eec22229d9c",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -3944,7 +3944,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/admission-events.jsonl",
-          "sha256": "678e9ed317f67aeaa723bc25ef5aa1e9023c0e726a5c7a8e06ea093398fa0d77",
+          "sha256": "3d692cff17534c429937f326365d1af20414713951c7ae9aa0281ef99cca2086",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         },
@@ -4695,6 +4695,24 @@
         {
           "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_A10_before.overview.txt",
           "sha256": "1ff10de813f1cb0571d6776593f0eed4e6ad6f05cbb6b37355b6ef29c6afecae",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/emulate_client.py",
+          "sha256": "1e1aa3833d37081d87372b83386cd1edddbd510abf0ad537b22b61c53214faf2",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_A18_before.details.txt",
+          "sha256": "7d01bde11aab70ba8d9a488c68c0213a97cbe4b6015fee27e3a47aab4d9f07f6",
+          "role": "owner_authorized_emulate_experiment_support",
+          "status": "experimental_not_article_authority"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/emulate-20260929/runs/pangram/gpt_baseline_A18_before.overview.txt",
+          "sha256": "599bbdc7b00c27961f578e1fd5d9aff8be52cecb933fceb3c19332eec1d3e405",
           "role": "owner_authorized_emulate_experiment_support",
           "status": "experimental_not_article_authority"
         }
