@@ -201,3 +201,14 @@ At batch size 8, the first 8 trial passages took 704 seconds of generation and j
 - **Stop a method's trial early** once any go threshold can no longer be met, counting only final outcomes after the retry. If it's the Chinese-notes method, move straight to the fallback.
 - **If a method's time runs out before all 40 have final outcomes,** report it incomplete. Don't judge the thresholds on a subset, and don't lower them.
 - Nothing else changes: the 40 passages, the thresholds, the Pangram diagnostic and its 30-credit cap.
+
+### Interrupted calls (2026-09-29, 17:45 UTC)
+
+When a call was reserved but no output from it was ever recorded or seen, it's censored, not an attempt. This covers the 8 first-attempt notes calls cut off when the batch-8 process stopped for the move to larger batches.
+- **Preserve** an immutable copy of the interrupted request journal, with its hash, before changing anything.
+- **Mark** each of those 8 reservations as censored, with no observed output and the reason. Don't delete them.
+- **Before calling them censored,** check the process logs and any stdout capture for output from those calls. If any text from a call was seen, that call counts as the passage's first attempt and its output is used, so there's no choosing between samples.
+- **Issue one new first-attempt call** for each affected passage in the larger batch. The passage still gets one completed first attempt and at most one retry.
+- **The same rule applies to any later interruption,** at any stage: notes, draft or judge. A censored judge call is simply reissued; it isn't a new attempt at the pair.
+- The GPU time the interrupted process used still counts toward the trial's time cap.
+- **Report** the censored calls, their passages and their reservation IDs in `REGEN-V3-TRIAL.md`.
