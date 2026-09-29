@@ -1,0 +1,159 @@
+{
+  "source_sha256": "b4327a4729128de73e4f75835e40806ade01cb0a83bc10fce9437f4d5c7eb708",
+  "output_sha256": "7c5d86f753f35f08097503ea109957d2ac8aca8fa70d1b7b38fc7068b00b8397",
+  "source_sentence_count": 13,
+  "output_sentence_count": 11,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [
+        0
+      ],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 37,
+      "output_start": 0,
+      "output_end": 37,
+      "source_text": "Building Trust With Your Little One\n\n",
+      "output_text": "Building Trust With Your Little One\n\n",
+      "word_overlap": 1.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 37,
+      "source_end": 53,
+      "output_start": 37,
+      "output_end": 53,
+      "source_text": "Keep Your Word\n\n",
+      "output_text": "Keep Your Word\n\n",
+      "word_overlap": 1.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        2,
+        3
+      ],
+      "output_sentences": [
+        2
+      ],
+      "source_start": 53,
+      "source_end": 301,
+      "output_start": 53,
+      "output_end": 143,
+      "source_text": "If you can't feel any warmth toward your little one yet, the Protector can go first. Care might start as locking the door at night, eating an actual meal, cancelling something you didn't have the energy for, or putting your phone down at midnight. ",
+      "output_text": "It’s okay if you don’t feel love or any other warm fuzzy feeling for your little one yet. ",
+      "word_overlap": 0.2727272727272727,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        4
+      ],
+      "output_sentences": [
+        3,
+        4
+      ],
+      "source_start": 301,
+      "source_end": 336,
+      "output_start": 143,
+      "output_end": 229,
+      "source_text": "The warm feelings can come later.\n\n",
+      "output_text": "The Protector can do these things first and the feelings may come later.\n\nChoose one. ",
+      "word_overlap": 0.38095238095238093,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        5,
+        6
+      ],
+      "output_sentences": [
+        5
+      ],
+      "source_start": 336,
+      "source_end": 456,
+      "output_start": 229,
+      "output_end": 364,
+      "source_text": "Pick one of these and make it specific. When will you do it, what's the smallest first step, and what help do you need? ",
+      "output_text": "Be specific about what you’re going to do, when you’re going to do it, what the first step is, and what you need to help you to do it. ",
+      "word_overlap": 0.4642857142857143,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        7,
+        8
+      ],
+      "output_sentences": [
+        6
+      ],
+      "source_start": 456,
+      "source_end": 597,
+      "output_start": 364,
+      "output_end": 441,
+      "source_text": "If there's a hard moment you can see coming, it can help to practice what you'll say ahead of time. Afterward, look at what really happened. ",
+      "output_text": "If there’s anything you need to practice in order to say or do, practice it. ",
+      "word_overlap": 0.3181818181818182,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        9
+      ],
+      "output_sentences": [
+        7,
+        8
+      ],
+      "source_start": 597,
+      "source_end": 645,
+      "output_start": 441,
+      "output_end": 757,
+      "source_text": "If you didn't do it, don't assume you know why. ",
+      "output_text": "After you’ve had a chance to try it out, debrief with yourself about what happened. If you didn’t do what you said you were going to do, ask yourself if you were afraid, if you didn’t know what you were aiming for, if you didn’t know how to do it, if you were too tired or if there was some other practical problem. ",
+      "word_overlap": 0.17721518987341772,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        10,
+        11
+      ],
+      "output_sentences": [
+        9
+      ],
+      "source_start": 645,
+      "source_end": 912,
+      "output_start": 757,
+      "output_end": 904,
+      "source_text": "It could have been fear, not knowing what you were aiming for, not knowing how, being exhausted, or something practical getting in the way. And if you did it and didn't feel better right away, that doesn't mean it failed, but doing it doesn't prove it helped either. ",
+      "output_text": "If you did what you said you were going to do but didn’t feel any better, recognize that just because you did it doesn’t mean that it was helpful. ",
+      "word_overlap": 0.2926829268292683,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        12
+      ],
+      "output_sentences": [
+        10
+      ],
+      "source_start": 912,
+      "source_end": 1034,
+      "output_start": 904,
+      "output_end": 1006,
+      "source_text": "Keep what actually makes your little one safer, closer to you, more capable, or happier, not just what gets a check mark.\n",
+      "output_text": "On the other hand, if it helped your little one to be safe, close, competent, or happy, keep doing it.",
+      "word_overlap": 0.23809523809523808,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
