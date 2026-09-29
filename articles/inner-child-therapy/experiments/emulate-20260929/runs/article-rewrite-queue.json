@@ -1,0 +1,954 @@
+{
+  "generated_utc": "2026-09-29T21:35:54.111Z",
+  "branch": "gpt/emulate-overnight-20260929",
+  "basis": "52 Pangram article baselines; paragraphs intersecting only AI-highlighted spans; mixed AI/Human paragraphs held",
+  "format": "Plain reader text with headings; Markdown links/emphasis removed after D6 link loss, restored from source during assembly",
+  "first_linked_chunk": "intentional-communities 001-a (two website runs recorded separately)",
+  "runs": [
+    {
+      "id": "intentional-communities-rewrite-0102",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-01",
+      "paragraphs": [
+        5,
+        6
+      ],
+      "words": 59,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0102.txt",
+      "sha256": "a8871b0ff3f39cc8f925a6a97811c2bf612487926e505e944c02d4d4f0c16ae9",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0103",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-01",
+      "paragraphs": [
+        10,
+        16
+      ],
+      "words": 282,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0103.txt",
+      "sha256": "1e0db60aa84fa7ec06bf2e0d9bebef2190318b29885fcfb66a94e22fc7828bac",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0201",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-02",
+      "paragraphs": [
+        0,
+        5
+      ],
+      "words": 172,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0201.txt",
+      "sha256": "6f6bfce994dafc19465eba7e612251fecffcf813a7926c97cba418f9f2e5a4ed",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0202",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-02",
+      "paragraphs": [
+        6,
+        14
+      ],
+      "words": 294,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0202.txt",
+      "sha256": "fa7c44162a472a7d7cebfda8f78376211508cc004fcda590c5441feca79d6fdd",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0301",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-03",
+      "paragraphs": [
+        0,
+        12
+      ],
+      "words": 350,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0301.txt",
+      "sha256": "fc8b94d4e6dea58c5fbe8879054ff35a0af858a6512769229d1a1bedbaeaf36f",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0401",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-04",
+      "paragraphs": [
+        0,
+        9
+      ],
+      "words": 304,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0401.txt",
+      "sha256": "ca88be675988f33a3b20b951658d852f014f196c2174a5d093b8bf4199c5988a",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0403",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-04",
+      "paragraphs": [
+        18,
+        37
+      ],
+      "words": 586,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0403.txt",
+      "sha256": "327a674b4a50e3941e0ad70c44cdf439e01efbe6beb717e18b4eab7e2f60dd85",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0501",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        0,
+        11
+      ],
+      "words": 449,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0501.txt",
+      "sha256": "0aadf9ef949aea061630f4a312fe64888c0cc4cbf29ed289ee5245d887e82036",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0502",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraphs": [
+        12,
+        37
+      ],
+      "words": 845,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0502.txt",
+      "sha256": "a212d9adb945d67e785678cca415a0baed4ed30f0e9cdd27c5b7f901784171ab",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0601",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-06",
+      "paragraphs": [
+        0,
+        10
+      ],
+      "words": 361,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0601.txt",
+      "sha256": "fce08c4014fa110f3001d3c200f9a9e233d59a86f85ea6461f0d011bd58492c1",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0701",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-07",
+      "paragraphs": [
+        0,
+        9
+      ],
+      "words": 299,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0701.txt",
+      "sha256": "18b53141285272e96fbed707e3ca751e8310b1bd56024c259adb0f6b65eb59fc",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0801",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        0,
+        4
+      ],
+      "words": 134,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0801.txt",
+      "sha256": "5167449d829708ab0759a4cd9c3195ce52b2157d54166a1c9bec44e9bb324e3d",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0802",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraphs": [
+        7,
+        34
+      ],
+      "words": 1109,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0802.txt",
+      "sha256": "42f1ee0ca100c77e06999d7591153abbf19b59956beac2708b4b7cc3cbc5b3a6",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-0901",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-09",
+      "paragraphs": [
+        2,
+        18
+      ],
+      "words": 805,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-0901.txt",
+      "sha256": "0d417775d4d3bcbed16acaf2423941a1a1b9fe8ecaaa2aab1ef0510cfbe211d3",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1001",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-10",
+      "paragraphs": [
+        0,
+        11
+      ],
+      "words": 545,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1001.txt",
+      "sha256": "6f67337a9c0335138241ad3de2781c38e32bf19bd71b980d2a78e68199183518",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1101",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-11",
+      "paragraphs": [
+        0,
+        22
+      ],
+      "words": 718,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1101.txt",
+      "sha256": "5f5ea17bbee63c77d7062d82de25b939f778cea4fc69007de3af886223964867",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1201",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-12",
+      "paragraphs": [
+        0,
+        22
+      ],
+      "words": 679,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1201.txt",
+      "sha256": "2e7395524098ce76af44fcb9f2a58922dfb115eb64d8f9601ca4488b80324985",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1301",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-13",
+      "paragraphs": [
+        0,
+        38
+      ],
+      "words": 1331,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1301.txt",
+      "sha256": "fdd3185ca6e4906934734fd2aca8d97d7131ad872e975abd895366c9e7abf65d",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1401",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-14",
+      "paragraphs": [
+        0,
+        8
+      ],
+      "words": 270,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1401.txt",
+      "sha256": "ce27fedd925348ef737e11aa509123902dc5706214e89db875033d74188580cb",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1501",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-15",
+      "paragraphs": [
+        0,
+        11
+      ],
+      "words": 396,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1501.txt",
+      "sha256": "f6da222b9d39069e8f6a101cc745fb0b3247502b0d4c8698044c358192a7a0bf",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1502",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-15",
+      "paragraphs": [
+        13,
+        24
+      ],
+      "words": 594,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1502.txt",
+      "sha256": "abdc7df48640edc9a0c55f6cda7ef6e0dcb8284e73a706f18694b63e75de1641",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1601",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-16",
+      "paragraphs": [
+        0,
+        23
+      ],
+      "words": 643,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1601.txt",
+      "sha256": "55856c106151532e5395b55a6ac880b2f57ce15abe748306c37c12440841ada2",
+      "status": "prepared"
+    },
+    {
+      "id": "intentional-communities-rewrite-1701",
+      "article": "intentional-communities",
+      "baseline_id": "intentional-communities-baseline-17",
+      "paragraphs": [
+        6,
+        34
+      ],
+      "words": 440,
+      "input_file": "runs/articles/intentional-communities/emulate-inputs/intentional-communities-rewrite-1701.txt",
+      "sha256": "25cdfce452bdecf4023b0d905862dbd029f0651c4f181b888a119b02e879d666",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0101",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-01",
+      "paragraphs": [
+        0,
+        15
+      ],
+      "words": 452,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0101.txt",
+      "sha256": "e1fd00b8880133747bc367ab6df58e01310b6ff2be1e38bb32f9095f6d587b99",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0201",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-02",
+      "paragraphs": [
+        0,
+        9
+      ],
+      "words": 333,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0201.txt",
+      "sha256": "5385215345c5a5c88570ab0a5aa54d00763eca7a53810a3815d6df027678b145",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0301",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-03",
+      "paragraphs": [
+        5,
+        11
+      ],
+      "words": 149,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0301.txt",
+      "sha256": "81ca3d9cd332be5a51fe4eca6469eb1a16a3c27f58aa7fe25edd377ce5656db8",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0601",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-06",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 184,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0601.txt",
+      "sha256": "633524afbf44df2930cb8b6082a1c0f9322fac2d19ddf6bd217ed3d52fb59c73",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0701",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-07",
+      "paragraphs": [
+        0,
+        6
+      ],
+      "words": 190,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0701.txt",
+      "sha256": "247027b30c951b0e2433af630cfe40135561c0887b8a2547afb9726b151a6e8b",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0801",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-08",
+      "paragraphs": [
+        0,
+        4
+      ],
+      "words": 159,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0801.txt",
+      "sha256": "f28c6e410261586ba2f8c0e8fb31ebd8b24fc0604ad9016cd78b602cc8420771",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-0901",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-09",
+      "paragraphs": [
+        0,
+        20
+      ],
+      "words": 452,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-0901.txt",
+      "sha256": "df7e0d9d9dbaa4111eab7bf9c507d49c49b481c2c3a1d03a191ee901fd6a1f72",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1001",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-10",
+      "paragraphs": [
+        0,
+        84
+      ],
+      "words": 2114,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1001.txt",
+      "sha256": "ff186e6ec2e301334ac13dd23dc1b75f75730fe17019c16c2343100efb6c1b88",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1101",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-11",
+      "paragraphs": [
+        0,
+        21
+      ],
+      "words": 626,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1101.txt",
+      "sha256": "ce558df73752dde20c9b64b22c8bb58fc029698c9b21553ef0b45daf2fc06160",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1201",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-12",
+      "paragraphs": [
+        0,
+        22
+      ],
+      "words": 530,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1201.txt",
+      "sha256": "bc31a6009097d74c291259de512eb2393d5c167d3dc85d8a47116dfc7a35ffdc",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1301",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-13",
+      "paragraphs": [
+        0,
+        76
+      ],
+      "words": 2012,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1301.txt",
+      "sha256": "089d90f8296803b6ebafe8737dcb7959f968b0234f28fa24383d73c1631822da",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1401",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-14",
+      "paragraphs": [
+        0,
+        7
+      ],
+      "words": 315,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1401.txt",
+      "sha256": "9715096fa88bf31c662c46eb566cd28acd8983bbf1f8d60c65e448678b05c630",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1501",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-15",
+      "paragraphs": [
+        0,
+        10
+      ],
+      "words": 217,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1501.txt",
+      "sha256": "d28aa021baa3876d173b001e91d9bec29278eb81f2c9ec490280860d310fc0f7",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1601",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-16",
+      "paragraphs": [
+        0,
+        34
+      ],
+      "words": 1298,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1601.txt",
+      "sha256": "8909397833bfa5841728f3f0827148d2a27aca11e46e21e72fdcdc64594b1839",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1701",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-17",
+      "paragraphs": [
+        0,
+        5
+      ],
+      "words": 222,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1701.txt",
+      "sha256": "f4a9eb6bc00647e275611a60ce353021bb0c742f9771ff434a29d935cccf1071",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1801",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-18",
+      "paragraphs": [
+        0,
+        18
+      ],
+      "words": 406,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1801.txt",
+      "sha256": "cb13bf7d2644961db49d83e5c60eb6c701e14d6e29feba1e051fafa0bbd384c7",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-1901",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-19",
+      "paragraphs": [
+        0,
+        52
+      ],
+      "words": 889,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-1901.txt",
+      "sha256": "0fb426ec0016e2b17f45d74c81e16cfd198f322f153b9e180123f7b5913d29e9",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2001",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-20",
+      "paragraphs": [
+        0,
+        15
+      ],
+      "words": 288,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2001.txt",
+      "sha256": "82d3e5ccbba8e9b0f271e8db9eeed9a227a45ca3a6e59ca2fc53ed20d6cbeec1",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2101",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-21",
+      "paragraphs": [
+        0,
+        10
+      ],
+      "words": 343,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2101.txt",
+      "sha256": "caaec05a2937c686d1cd10ddd54e2ef886bb567b9d71b51b9b0c2aca320aa215",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2201",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-22",
+      "paragraphs": [
+        0,
+        11
+      ],
+      "words": 346,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2201.txt",
+      "sha256": "f456765d26d7630e4086fc6771ce3ab3537adbf27e5fbe9b4fbc364e30aaf676",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2301",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-23",
+      "paragraphs": [
+        0,
+        39
+      ],
+      "words": 579,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2301.txt",
+      "sha256": "995370772c84ec561f0a8cca6419541b24b73cbc229acb4928c054af3c36886e",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2401",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-24",
+      "paragraphs": [
+        0,
+        116
+      ],
+      "words": 2060,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2401.txt",
+      "sha256": "8749e9ab5abd17fb97b9340c55953033d0ae9ee47c31ab99466d54caa7e3c1e3",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2501",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-25",
+      "paragraphs": [
+        0,
+        31
+      ],
+      "words": 386,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2501.txt",
+      "sha256": "bf5b4e6654ec2299ea2b17af2b8f1a7cfead149e5d2427c9187602dd40dfa3b4",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2601",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-26",
+      "paragraphs": [
+        0,
+        30
+      ],
+      "words": 589,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2601.txt",
+      "sha256": "95dd369b78152d80fcbba7c022a960c47e540d63f681ff105a3a2129f54a1469",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2701",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-27",
+      "paragraphs": [
+        0,
+        10
+      ],
+      "words": 205,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2701.txt",
+      "sha256": "3b13d56a4050dc0cd49adad821a19274b8ac58445ed5bb5ea0f026036826f987",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2801",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-28",
+      "paragraphs": [
+        0,
+        23
+      ],
+      "words": 768,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2801.txt",
+      "sha256": "b4e656118cee8416bb87ad2664fa3f2c1aec8921dfa8b255510e4f1ef4e717f7",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-2901",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-29",
+      "paragraphs": [
+        0,
+        13
+      ],
+      "words": 343,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-2901.txt",
+      "sha256": "6b8ccd8d3921d7a5178811c9afa81fbb011531ca6650188130d8a5f8b91d4be8",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3001",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-30",
+      "paragraphs": [
+        0,
+        33
+      ],
+      "words": 916,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3001.txt",
+      "sha256": "096ecdc168529901600ddf33f4739be5eb1cc37225c82bc382ecf97fc62b267c",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3101",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-31",
+      "paragraphs": [
+        0,
+        23
+      ],
+      "words": 755,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3101.txt",
+      "sha256": "39b6982b5ae1c114c49f9084f21fec04be81b9a0e8114397643f24c7f9a39c45",
+      "status": "prepared"
+    },
+    {
+      "id": "hypnosis-guide-rewrite-3201",
+      "article": "hypnosis-guide",
+      "baseline_id": "hypnosis-guide-baseline-32",
+      "paragraphs": [
+        0,
+        15
+      ],
+      "words": 502,
+      "input_file": "runs/articles/hypnosis-guide/emulate-inputs/hypnosis-guide-rewrite-3201.txt",
+      "sha256": "10ad998ff4d2e891b00138927dc34f42d543d9267c83b505d8025533ed771d8e",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0101",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        11,
+        21
+      ],
+      "words": 455,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0101.txt",
+      "sha256": "ca1d50e43fc4578441fbc1fffc2cc3ae2793adc0da273b8d15b9233872b795af",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0102",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        22,
+        34
+      ],
+      "words": 423,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0102.txt",
+      "sha256": "256a938fa456546965061da225da820699ff06ba83139a29d5dc533628086057",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0103",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        36,
+        38
+      ],
+      "words": 163,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0103.txt",
+      "sha256": "265d5b729c27adb556d51e32ae25f65b67e4abd8bb0daa72e2ba18673d8b2f74",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0104",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        40,
+        45
+      ],
+      "words": 198,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0104.txt",
+      "sha256": "63d18415226162d3cefea18efbf556c672bda74f302f0e2aeb72b2c8f1e117c0",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0105",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraphs": [
+        46,
+        61
+      ],
+      "words": 391,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0105.txt",
+      "sha256": "90b863f061dd0fc865f4cd9ae2c212b51a379cc2e1ad4c3a92c89983b792ad7d",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0201",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        0,
+        30
+      ],
+      "words": 1431,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0201.txt",
+      "sha256": "bd1e138ad471943525eb2f194f11dd0e4bce1c0ba46b8eee7891ff311c78de61",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0202",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-02",
+      "paragraphs": [
+        32,
+        37
+      ],
+      "words": 98,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0202.txt",
+      "sha256": "7d302e851f484b17aa56c029197f8a1331919f78841687cda5d66e3bda7d3892",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0301",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        0,
+        47
+      ],
+      "words": 797,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0301.txt",
+      "sha256": "e41a4f7f62310b16a8857ac7975796e69e2289a023bcc644ef6bdb6238909f93",
+      "status": "prepared"
+    },
+    {
+      "id": "neuro-de-armoring-rewrite-0302",
+      "article": "neuro-de-armoring",
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraphs": [
+        48,
+        87
+      ],
+      "words": 972,
+      "input_file": "runs/articles/neuro-de-armoring/emulate-inputs/neuro-de-armoring-rewrite-0302.txt",
+      "sha256": "fda9993131a2c05206511392d341818f7f6c5cd93bec54a8d7beeeec4edbee64",
+      "status": "prepared"
+    }
+  ],
+  "held": [
+    {
+      "baseline_id": "intentional-communities-baseline-01",
+      "paragraph": 4,
+      "reason": "mixed AI/Human span",
+      "first": "That’s where the escuelita in my title comes in. Escuelita m"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-01",
+      "paragraph": 9,
+      "reason": "mixed AI/Human span",
+      "first": "My father eventually gave the community his airplane. They s"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-01",
+      "paragraph": 16,
+      "reason": "mixed AI/Human span",
+      "first": "Zendik went in the other direction. They held a brutal commu"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-01",
+      "paragraphs": [
+        0,
+        2
+      ],
+      "reason": "D6 first chunk already ran twice"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-01",
+      "paragraphs": [
+        17,
+        18
+      ],
+      "words": 37,
+      "reason": "under Emulate 40-word minimum; needs neighboring context"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-02",
+      "paragraph": 5,
+      "reason": "mixed AI/Human span",
+      "first": "It’s poppin’ on Instagram too! 🔥 Chantress Seba—my favorite"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-04",
+      "paragraph": 13,
+      "reason": "mixed AI/Human span",
+      "first": "Inner-child reparenting means identifying as the inner adult"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-04",
+      "paragraphs": [
+        14,
+        15
+      ],
+      "words": 20,
+      "reason": "under Emulate 40-word minimum; needs neighboring context"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-05",
+      "paragraph": 11,
+      "reason": "mixed AI/Human span",
+      "first": "Depth can increase alienation. After my original ayahuasca e"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-08",
+      "paragraph": 6,
+      "reason": "mixed AI/Human span",
+      "first": "A friend who reviewed this draft grew up in a Christian comm"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-09",
+      "paragraph": 1,
+      "reason": "mixed AI/Human span",
+      "first": "In 2005, a few college friends and I visited Oventik, one of"
+    },
+    {
+      "baseline_id": "intentional-communities-baseline-15",
+      "paragraph": 12,
+      "reason": "mixed AI/Human span",
+      "first": "Everybody raises sheep here, including me, and they are extr"
+    },
+    {
+      "baseline_id": "hypnosis-guide-baseline-03",
+      "paragraph": 4,
+      "reason": "mixed AI/Human span",
+      "first": "Hypnotism can happen in a therapist’s office. It also happen"
+    },
+    {
+      "baseline_id": "hypnosis-guide-baseline-08",
+      "paragraph": 7,
+      "reason": "mixed AI/Human span",
+      "first": "I’ve also had self-hypnosis seem to extend a short chrunga t"
+    },
+    {
+      "baseline_id": "hypnosis-guide-baseline-08",
+      "paragraphs": [
+        8,
+        9
+      ],
+      "words": 23,
+      "reason": "under Emulate 40-word minimum; needs neighboring context"
+    },
+    {
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraph": 10,
+      "reason": "mixed AI/Human span",
+      "first": "Cognitive Warning: As you de-armor, you will feel naked and "
+    },
+    {
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraph": 21,
+      "reason": "mixed AI/Human span",
+      "first": "Why does the brain build this armor? Psychologist Lindsay Gi"
+    },
+    {
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraph": 34,
+      "reason": "mixed AI/Human span",
+      "first": "The Metabolic Red Line: We often assume we can ‘think’ our w"
+    },
+    {
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraph": 35,
+      "reason": "mixed AI/Human span",
+      "first": "The Mechanism: Excess Glutamate over-activates NMDA receptor"
+    },
+    {
+      "baseline_id": "neuro-de-armoring-baseline-01",
+      "paragraph": 45,
+      "reason": "mixed AI/Human span",
+      "first": "Why Standard Meds Failed You If you have tried SSRIs (antide"
+    },
+    {
+      "baseline_id": "neuro-de-armoring-baseline-03",
+      "paragraph": 47,
+      "reason": "mixed AI/Human span",
+      "first": "D-serine has shown efficacy in studies where it was used to "
+    }
+  ]
+}
