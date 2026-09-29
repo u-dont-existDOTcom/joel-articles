@@ -29,6 +29,23 @@ def memory():
             "peak_gib": torch.cuda.max_memory_allocated() / 2**30}
 
 try:
+    transfer = json.loads((ROOT / "repo/docs/reverse-model-20260929/environment/download-manifest-instruct.json").read_text())
+    assert transfer["status"] == "COMPLETE" and transfer["revision"] == REVISION
+    assert sum(f["filename"].endswith(".safetensors") and f["verified"] for f in transfer["files"]) == 16
+    # Earlier interrupted Unsloth downloaders left suspect partials in this one
+    # model's cache. Preserve them outside the Hub blobs directory so the loader's
+    # unsafe-partial watchdog cannot discard the newly verified complete weights.
+    blobs = pathlib.Path(os.environ["HF_HOME"]) / "hub" / ("models--" + MODEL.replace("/", "--")) / "blobs"
+    abandoned = ROOT / "abandoned-public-model-parts" / "instruct"
+    abandoned.mkdir(parents=True, exist_ok=True)
+    retired = []
+    for partial in blobs.glob("*.incomplete"):
+        assert partial.is_file() and not partial.is_symlink()
+        destination = abandoned / partial.name
+        assert not destination.exists(), "Abandoned partial already preserved; diagnose collision"
+        retired.append({"filename": partial.name, "bytes": partial.stat().st_size})
+        partial.rename(destination)
+    result["preserved_abandoned_download_parts"] = retired
     torch.manual_seed(3407)
     torch.set_num_threads(8)
     save()
