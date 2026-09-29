@@ -1,0 +1,13 @@
+== tells_lint: /home/joel/.codex/.chatgpt-projects/g-p-6a5d356ea2bc8191b535f9d0a0b13574/emulate-overnight-work/articles/inner-child-therapy/experiments/emulate-20260929/runs/emulate/gpt_A13_api_r1.txt
+verdict: REVIEW
+metrics: {'words': 81, 'my_words': 81, 'paragraphs': 1, 'coach_per_100': 1.23, 'you_per_100': 7.4, 'landing_rate': 1.0, 'instruction_paragraphs': 1, 'para_len_cv': 1, 'sent_len_cv': 0.76, 'repeated_openers': {}}
+-- B3 short knock-down (1)
+   * But wait!
+-- B7 short landing at paragraph end (1)
+   * You can get to that later.
+-- E23 paragraph of instructions (1)
+   * Let it sit for a few minutes. Yes, there is a giant conclusion you could jump to right now...
+-- E36/E41 heavy second person (1)
+   * 7.4 "you" per 100 of my words
+-- E41 coach phrase (1)
+   * You can get to that later.
