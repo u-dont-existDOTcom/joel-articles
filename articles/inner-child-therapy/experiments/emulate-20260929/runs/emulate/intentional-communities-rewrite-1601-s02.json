@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1601-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/d854918b-86f6-41e2-a389-c557bd4497f5",
+  "input_sha256": "75f75978889352a730d0624757b3279acd60f4ddeb5edd69a9ecf2e8ae79deed",
+  "input_words": 219,
+  "before": 41426,
+  "after": 41207,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 233,
+      "sha256": "d9cfed9a7af16454ede0848439130618ab4e06b423a2150a8b2108bf49dc11d7",
+      "page_sha256": "d9cfed9a7af16454ede0848439130618ab4e06b423a2150a8b2108bf49dc11d7",
+      "has_list": false,
+      "last": "ice groups, open-hearted religious congregions, mature recovery groups, meditation groups, people returning from long retreats who seem to be kind as fuck, etc."
+    },
+    {
+      "option": "B",
+      "words": 218,
+      "sha256": "21f723d437184091e2375fe49738c3163c5daff9c5aff2cb24371d35f8c0b293",
+      "page_sha256": "21f723d437184091e2375fe49738c3163c5daff9c5aff2cb24371d35f8c0b293",
+      "has_list": false,
+      "last": ", open-hearted religious congregations, mature recovery groups, meditation groups, or other people who have been away on retreat for awhile and come back nicer."
+    }
+  ]
+}

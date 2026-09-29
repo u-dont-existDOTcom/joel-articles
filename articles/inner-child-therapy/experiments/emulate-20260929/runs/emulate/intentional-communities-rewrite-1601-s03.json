@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1601-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/3d7bdb95-3629-472f-bc9d-5488af08897e",
+  "input_sha256": "9fd1bba8623bb33052cdef663026aba3b708bf4b1c624204c95b5ee5dd456df4",
+  "input_words": 204,
+  "before": 41207,
+  "after": 41003,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 213,
+      "sha256": "a396ae0b98206ccfc8368cccf372ce6910d7459cecbace7110efffd4f4c96111",
+      "page_sha256": "a396ae0b98206ccfc8368cccf372ce6910d7459cecbace7110efffd4f4c96111",
+      "has_list": false,
+      "last": "rs, who will do something.\n\nIf you do something, maybe we will hear about it. If you teach others to do something, it doesn't matter if we hear about it or not."
+    },
+    {
+      "option": "B",
+      "words": 230,
+      "sha256": "27d95fe01928e152f74c83e41680dd8b0d878cf91315c45c79e3accbf5779148",
+      "page_sha256": "27d95fe01928e152f74c83e41680dd8b0d878cf91315c45c79e3accbf5779148",
+      "has_list": false,
+      "last": "ld something, and so on.\n\nIf you do build something, maybe you’ll want to let me know. But if you teach enough other people to build something, it won’t matter."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1701-s01",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/075b5c7f-bd68-4d62-8401-4c95ebca53d2",
+  "input_sha256": "bfb9ce38f5d0adc102a73f395192ec8dbb577fc48a5b9481d1b9bb2d21578b48",
+  "input_words": 226,
+  "before": 41003,
+  "after": 40777,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 325,
+      "sha256": "6dc5d59485c0074bf8f3232543411c7de070d2eef0f5d13de45b7d492480a64f",
+      "page_sha256": "6dc5d59485c0074bf8f3232543411c7de070d2eef0f5d13de45b7d492480a64f",
+      "has_list": false,
+      "last": "ig and Gimnig’s The Cooperative Culture Handbook. This is a set of exercises on how to do things cooperatively, handle conflict, and build a good group culture."
+    },
+    {
+      "option": "B",
+      "words": 285,
+      "sha256": "fb3c58efe73efa6ad03e5e0beecba70475f24005f70f2252d6e91522e743fdfa",
+      "page_sha256": "fb3c58efe73efa6ad03e5e0beecba70475f24005f70f2252d6e91522e743fdfa",
+      "has_list": false,
+      "last": "ng consensus.\n\nLudwig, Gimnig - The Cooperative Culture Handbook. Has a bunch of useful exercises on building a cooperative culture, dealing with conflict, etc."
+    }
+  ]
+}

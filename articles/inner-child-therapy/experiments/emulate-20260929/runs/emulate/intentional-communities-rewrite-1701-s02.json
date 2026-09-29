@@ -1,0 +1,28 @@
+{
+  "id": "intentional-communities-rewrite-1701-s02",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/aa03f166-f4e4-430f-9c87-468bb167f629",
+  "input_sha256": "af302dbee0794ca45cd7487ab3dbedbdb6d046dc87f831ea24d0b8838c386a1a",
+  "input_words": 214,
+  "before": 40777,
+  "after": 40563,
+  "provisional_ui_choice": "A",
+  "copy_match": true,
+  "options": [
+    {
+      "option": "A",
+      "words": 192,
+      "sha256": "18722ee9c8d3899643176cf6847326c0bf562a9dce739890ac4f15b54486f6eb",
+      "page_sha256": "18722ee9c8d3899643176cf6847326c0bf562a9dce739890ac4f15b54486f6eb",
+      "has_list": false,
+      "last": "han could fit into this article. For a more complete picture of our sources, their limitations, and counterexamples to our arguments, read our research report ."
+    },
+    {
+      "option": "B",
+      "words": 272,
+      "sha256": "9ada50a1dc419819bc75d8df906d249b86689c2a5b4b304e38b014c83b5e0293",
+      "page_sha256": "9ada50a1dc419819bc75d8df906d249b86689c2a5b4b304e38b014c83b5e0293",
+      "has_list": false,
+      "last": "h of the evidence, or would like to know what I’ve heard anecdotally but couldn’t verify, or what counterexamples I’m aware of, please see the research report ."
+    }
+  ]
+}
