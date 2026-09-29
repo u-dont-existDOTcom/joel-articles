@@ -1,0 +1,40 @@
+{
+  "source_sha256": "8dd0b2a13a5c9931340ec201f0be1759867723021d9603a18be27bc33db3cfdc",
+  "output_sha256": "d4b68b50375afd26504f5753189b43526642711ad20d425518b65f93c5b72718",
+  "source_sentence_count": 2,
+  "output_sentence_count": 2,
+  "method": "monotone word-overlap difflib; heuristic, not semantic proof",
+  "units": [
+    {
+      "source_sentences": [],
+      "output_sentences": [
+        0
+      ],
+      "source_start": 0,
+      "source_end": 0,
+      "output_start": 0,
+      "output_end": 220,
+      "source_text": "",
+      "output_text": "In a series of illuminating and often hilarious conversations, Brooke will confront your deep shame about things like crying in a meeting, buying a pair of $500 boots at 9 pm after spending the month, or whatever it is. ",
+      "word_overlap": 0.0,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    },
+    {
+      "source_sentences": [
+        0,
+        1
+      ],
+      "output_sentences": [
+        1
+      ],
+      "source_start": 0,
+      "source_end": 298,
+      "output_start": 220,
+      "output_end": 394,
+      "source_text": "Say you cried in a meeting, and by nine that night you're about to spend most of what's left this month on boots you'll wear twice. The shame can go right on burning while the Protector leaves the card in your wallet, and by Thursday you can't quite remember what those boots were supposed to fix.\n",
+      "output_text": "Her voice will be in your ear, a gentle but stern Protector, putting that credit card back into your wallet and reminding you it will all seem pointless in a few days anyway.",
+      "word_overlap": 0.17204301075268819,
+      "semantic_disposition": "UNREVIEWED_BY_PRO"
+    }
+  ]
+}
