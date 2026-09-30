@@ -11,7 +11,7 @@ How to read it:
   - The tools still live there: the linter, the reviewer, the calibration texts, the owner-edits check and the Pangram batch builder. Until they move to `tools/humanization/`, other articles use them from there, with their own article's paths.
   - `tools/humanization/` already has the side-by-side page for any article (`render_in_context.py`) and the Emulate tool.
 - **The reviewer learned from the Inner Child article.** Before trusting its verdicts on another kind of writing, add that article's own Pangram-checked paragraphs to the calibration set and revalidate, as `tools/reviewer/README.md` says for any change.
-- **Pangram and Emulate are fallbacks** (Joel, 2026-09-30). The system comes first, and Pangram is the outside check. Emulate comes only after the reviewer-writer loop has failed (`EMULATE-FALLBACK.md`). The aim is to need neither.
+- **Pangram and Emulate are fallbacks** (Joel, 2026-09-30). The system comes first, and Pangram is the outside check. Emulate goes first on a published article's flagged paragraphs, and only after the reviewer-writer loop has failed on new writing (`EMULATE-FALLBACK.md`). The aim is to need neither.
 - **The lab repo has rules of its own for generation and teaching work:** `pangram-humanization-lab`'s `AGENTS.md`, with its owner-teaching corpus and lesson closeout. Keep one version of each rule, and link across instead of copying.
 
 ## Owner rulings on rewriting Joel's own words (Joel, 2026-09-30)

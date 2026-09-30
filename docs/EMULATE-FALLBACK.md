@@ -1,11 +1,15 @@
 # Emulate as a fallback, and how to learn from it
 
-**Status: ACTIVE for every article, 2026-09-30.** Joel set its place in the order: "emulate would come after the rewrite loop because the purpose of emulate is as a fallback if my system can't pass pangram." Claude wrote the rest from the Emulate run. The Inner Child chat hasn't reviewed it yet. Until it has, follow the doc as written. Where it clashes with `HUMANIZATION-GATE.md`, the gate wins, and Joel hears about the clash.
+**Status: ACTIVE for every article, 2026-09-30.** Joel set its place in the order: "emulate would come after the rewrite loop because the purpose of emulate is as a fallback if my system can't pass pangram." Claude wrote the rest from the Emulate run. The Inner Child chat hasn't reviewed it yet. Until it has, follow the doc as written.
+
+**Which order, by kind of text (Joel, 2026-09-30, 20:31 UTC):**
+- **A published article being humanized:** Emulate goes first on its Pangram-flagged paragraphs. The text is already Joel's, so the job is to change its shape without changing its meaning. Everything after the Emulate call (sections 3 to 5) still applies, above all the blind trace and his side-by-side review.
+- **New writing (the Inner Child article and anything drafted from a guide or notes):** Emulate comes only after the reviewer-writer loop has failed. That's where the system learns. Where it clashes with `HUMANIZATION-GATE.md`, the gate wins, and Joel hears about the clash.
 
 Joel's aim: "ultimately i'm hoping we don't need pangram or emulate at all, but we're still using them as fallbacks until we're sure about that." So the order is:
 1. **The system:** `HUMANIZATION-GATE.md`. That's sense, preservation, fresh writers, the linter and tell ledger, and the reviewer-writer loop.
 2. **Pangram:** the outside check, alone and in the section.
-3. **Emulate:** only once the reviewer-writer loop has failed on a paragraph.
+3. **Emulate:** only once the reviewer-writer loop has failed on a paragraph. A published article's flagged paragraphs are the exception: they go to Emulate first (above).
 
 Each use of Emulate stores a lesson, so it's needed less over time.
 
@@ -75,12 +79,17 @@ Claude wrote the first two guide paragraphs of "Love Doesn't Have to Wait for Tr
 - E1 passed on the second try, alone and after the end of Not Every Hero.
 - E2 failed five tries.
 
-**The lessons tell you which sentences are loud. They don't yet tell you how to write a paragraph that passes.** E1's passing version (`analysis/transfer-20260930/E1-b.txt`) hasn't been through the gate. Its hug example is Claude's own thought, and Joel hasn't approved it.
+**The lessons tell you which sentences are loud. They don't yet tell you how to write a paragraph that passes.**
+
+The Inner Child chat's full system did better on the same section the same day (turn 7, `experiments/LOVE-DOESNT-WAIT-20260930.md` on its branch).
+- Of its first six paragraphs, five passed Pangram on the first check.
+- The E2 paragraph took three rounds of three fresh writers each. Round two's brief said "don't end on the evidence, and don't list it", and round three's asked for no so-or-because sentence explaining the answer.
+- The six took about two and a half hours, 17:03 to 19:40 UTC. E1's passing version (`analysis/transfer-20260930/E1-b.txt`) hasn't been through the gate. Its hug example is Claude's own thought, and Joel hasn't approved it.
 
 ## 2. When to use Emulate
 
 Use it only when all of these hold:
-- **The reviewer-writer loop has failed on the paragraph** (Joel, 2026-09-30). Not before.
+- **For new writing, the reviewer-writer loop has failed on the paragraph** (Joel, 2026-09-30). Not before. For a published article's flagged paragraph, this condition doesn't apply.
 - **The paragraph is ours,** written by Claude or a fresh writer. Joel's own words and owner-final passages never go to Emulate, and its output never replaces them. A flagged span in Joel's text goes to him, with the span.
 - **Its meaning is settled.** It has passed the gate's sense steps (S1 to S6, grounding and MISFIRES included) and the preservation trace. Emulate can't fix sense, and it adds errors of its own.
 - **Nothing in it is private.** Emulate is a third-party service. Nothing Joel has marked private, and no private detail about another person, goes to it.

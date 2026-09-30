@@ -37,7 +37,7 @@ For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is also
 **One set of humanization rules for every article (Joel, 2026-09-30).** Any humanization or detector-driven pass, in any chat, on any article, runs the same shared rules. That covers registered articles, unregistered ones, experiments, and work that uses Emulate. The rules are the gates in `docs/INDEX.md` and the working gate `docs/HUMANIZATION-GATE.md` with its tools.
 - A chat, lane, experiment or directive may add owner rulings for its own article, in that article's folder. It may not replace, weaken or skip the shared rules.
 - A lesson that applies beyond one article goes into the shared files in the same turn, not into a chat's own file.
-- The order: the system first (sense, preservation, fresh writers, the linter and tell ledger, the reviewer-writer loop), then Pangram as the outside check. Emulate comes only after the reviewer-writer loop has failed (`docs/EMULATE-FALLBACK.md`).
+- The order: the system first (sense, preservation, fresh writers, the linter and tell ledger, the reviewer-writer loop), then Pangram as the outside check. Emulate goes first on the flagged paragraphs of a published article being humanized, and only after the reviewer-writer loop has failed on new writing (Joel, 2026-09-30; `docs/EMULATE-FALLBACK.md`).
 - Pangram and Emulate stay fallbacks until the system is shown to be enough on its own.
 
 Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invitation/de-escalation language belongs or when an owner-approved AI/synthetic draft carries useful thought architecture. Protected function and correct placement are separate judgments.
