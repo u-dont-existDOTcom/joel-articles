@@ -24,7 +24,7 @@ Joel asked at 15:09 UTC whether we've learned enough from Emulate. Claude's answ
      - 36 **put-backs:** one of Claude's draft sentences put back into an Emulate version that passed;
      - 7 **controls** for Joel's one-sentence fixes (A21, A12);
      - 13 **fixes** to Emulate versions that passed: typos, spacing and quote-mark noise, and invented details.
-   - The fixes replace the edit test in Part 4.3. Claude made those edits, and each is labelled. The no-own-words rule still holds for you.
+   - The fixes replace the edit test in Part 4.3. Claude made those edits, and each is labelled. Since 2026-09-30, small labelled fixes to article candidates are allowed for everyone; see the Hard rules in the directive.
 2. **The article baselines** in `runs/article-baseline-queue.json` (below).
 3. **The article rewrites** through Emulate's website, as the directive says, with **Joel's new choosing rule** (below). Do D6 (links) on the first chunk that has links.
 4. Hearthwork only if budget is left, as before.

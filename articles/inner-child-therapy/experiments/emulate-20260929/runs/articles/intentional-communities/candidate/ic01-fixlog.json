@@ -1,0 +1,74 @@
+[
+ {
+  "run": "ic01-p1-api1",
+  "before": "up on the Internet: Where's Utopia?",
+  "after": "up on the Internet for the first time: Where's Utopia?",
+  "why": "puts back \"for the first time\""
+ },
+ {
+  "run": "ic01-p1-api1",
+  "before": "How do we live together without lots of loneliness, domination, and stupidity?",
+  "after": "How do we live together without recreating all the loneliness, domination, and stupidity we were supposedly escaping?",
+  "why": "puts back the source's point that the escape reproduced the problems"
+ },
+ {
+  "run": "0102-A",
+  "before": "visiting every community I could at the time",
+  "after": "visiting every community we could at the time",
+  "why": "he was carried along, so \"we\" not \"I\""
+ },
+ {
+  "run": "0102-A",
+  "before": "because I was just a visitor’s kid, not part of any tribe,",
+  "after": "because I was just a visitor’s kid, close enough to see how people lived but not part of any tribe,",
+  "why": "puts back \"close enough to see how people lived\""
+ },
+ {
+  "run": "0103-B",
+  "before": "when I was there--enough to be diverse, small enough to actually be friends with everyone.",
+  "after": "when I was there, enough to be diverse, small enough to actually make friends.",
+  "why": "\"friends with everyone\" overstated the source; dashes typed as \"--\""
+ },
+ {
+  "run": "0103-B",
+  "before": "I was very happy there, mostly.",
+  "after": "I was very happy there.",
+  "why": "\"mostly\" was invented"
+ },
+ {
+  "run": "0103-B",
+  "before": "it would have been more like asking to be invited into their group chat.",
+  "after": "it would have been more like asking whether their group chat had an opening.",
+  "why": "puts back Joel's line"
+ },
+ {
+  "run": "0103-B",
+  "before": "One thing that struck me as odd--about all of them, basically, was",
+  "after": "One thing that struck me as odd about all of them, basically, was",
+  "why": "typed \"--\" broke the sentence"
+ },
+ {
+  "run": "0103-A",
+  "before": "(B paragraph 2)",
+  "after": "Even at East Wind, though, there was a power issue. They had…",
+  "why": "splice: A's second paragraph replaces B's, which invented \"mostly around electricity\" and that the woman \"started\" the factory"
+ },
+ {
+  "run": "ic01-p4-api2",
+  "before": "The term “escuelita” comes from the Zapatistas in Mexico.",
+  "after": "The term “escuelita,” meaning “little school,” comes from the Zapatistas in Mexico.",
+  "why": "puts back the meaning of the word"
+ },
+ {
+  "run": "ic01-p4-api2",
+  "before": "so that when they leave they could set up another healing community somewhere else.",
+  "after": "so that some of them could leave and set up another healing community somewhere else.",
+  "why": "source says some leave, not all"
+ },
+ {
+  "run": "ic01-p4-api2",
+  "before": "(end of paragraph)",
+  "after": "Otherwise, we’ve built a lovely refuge for whoever got there first.",
+  "why": "puts back Joel's closing line, which both versions dropped"
+ }
+]

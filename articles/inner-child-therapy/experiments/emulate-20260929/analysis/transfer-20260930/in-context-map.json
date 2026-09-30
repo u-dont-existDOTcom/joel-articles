@@ -1,6 +1,6 @@
 {
  "title": "Love Doesn't Have to Wait for Trust: the transfer test",
- "meta": "Inner Child Therapy · 2026-09-30 · Claude alone, following the lessons from the Emulate run · Pangram checks on Joel's account",
+ "meta": "Inner Child Therapy · 2026-09-30 · Claude alone, from the lessons of the Emulate run · Pangram checks on Joel's account · tries 4 and 5 of E2 were allowed to add a thought (Joel, 05:04 UTC)",
  "blocks": [
   {
    "headings": [
@@ -26,7 +26,7 @@
      "guide": [
       "Sometimes love is available"
      ],
-     "note": "100% Human alone (64 words). Also 100% Human in context: this section's last two paragraphs, the heading, then this (275 words)."
+     "note": "100% Human alone (64 words). Also 100% Human in context: this section's last two paragraphs, the heading, then this (275 words). The hug example is mine, for your approval."
     },
     {
      "label": "E1 · first try · 100% AI",
@@ -62,7 +62,25 @@
      "guide": [
       "The younger state can look"
      ],
-     "note": "100% AI alone (81 words). I stopped here, per your rule to get one paragraph passing before drafting the next."
+     "note": "100% AI alone (81 words)."
+    },
+    {
+     "label": "E2 · fourth try · own thoughts allowed · 100% AI",
+     "text": "Your little one might look at your grown-up life and say, \"I don't trust you.\" You can answer, \"I believe you. And I love you.\" I think the \"I believe you\" part matters more than it looks, since they're braced for you to argue. Trust can go back over the record, the old promises first, and it'll find the times you didn't protect them and the internal attacks that haven't stopped. Love doesn't run on that record. You can give it today and let the verdict take as long as it takes.",
+     "flag": "Your little one might look at your grown-up life and say, \"I don't trust you.\" You can answer, \"I believe you. And I love you.\" I think the \"I believe you\" part matters more than it looks, since they're braced for you to argue. Trust can go back over the record, the old promises first, and it'll find the times you didn't protect them and the internal attacks that haven't stopped. Love doesn't run on that record. You can give it today and let the verdict take as long as it takes.",
+     "guide": [
+      "The younger state can look"
+     ],
+     "note": "100% AI alone (99 words). New thoughts, for your approval: that “I believe you” matters because your little one is braced for you to argue; and that trust goes over the record while love doesn't run on it, so you can give it today."
+    },
+    {
+     "label": "E2 · fifth try · own thoughts allowed · 100% AI",
+     "text": "Your little one might come right out with it: \"I don't trust you.\" It stings, but they're allowed to check. You can say, \"I believe you. And I love you.\" I think it's the \"I believe you\" that surprises them most, since they were ready for a fight. Then let trust look into the old promises, like the one about going easier on yourself, and the times you didn't protect them.",
+     "flag": "Your little one might come right out with it: \"I don't trust you.\" It stings, but they're allowed to check. You can say, \"I believe you. And I love you.\" I think it's the \"I believe you\" that surprises them most, since they were ready for a fight. Then let trust look into the old promises, like the one about going easier on yourself, and the times you didn't protect them.",
+     "guide": [
+      "The younger state can look"
+     ],
+     "note": "100% AI alone (75 words). I cut the guide's last line, “Love does not have to wait for trust to issue a favorable verdict,” because the heading already says it. New thoughts: “It stings, but they're allowed to check,” and that “I believe you” surprises them because they were ready for a fight. I stopped here: five tries, no pass."
     },
     {
      "label": "E3 to E5 · not drafted",
@@ -72,7 +90,7 @@
       "That completely threw me",
       "Don’t turn the sentence into a formula"
      ],
-     "note": "Your bedtime story, what it did, and the warning about turning “But I love you” into a formula."
+     "note": "Not drafted: E2 never passed, so I stopped, per your one-paragraph-at-a-time rule."
     }
    ]
   }

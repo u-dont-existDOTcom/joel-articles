@@ -56,9 +56,14 @@
   - In the articles, a paragraph that already reads Human in the baseline check stays exactly as it is, whoever wrote it. So does any passage `ARTICLES.md` marks as Joel's, even if Pangram flags it. Those paragraphs still go into the Pangram checks of their section.
   - A flagged paragraph where Joel tells his own story in the first person still goes to Emulate. Mark it in `QUALITY-<slug>.md` for Joel to approve.
   - Nothing replaces anything in Joel's published articles. The humanized articles are candidates, saved next to the originals.
-- **Never edit Emulate's output with your own words,** not even one word. Your words are AI text, so they would spoil the data.
-  - The only exception is the edit test in Part 4.3, where every edit is labelled.
-  - Mechanical splicing is fine: cutting and joining whole sentences or paragraphs taken from the two versions.
+- **Saved outputs stay exactly as Emulate wrote them.** Every file in `runs/emulate/` is the record of what Emulate did, so never change one, not even one word.
+- **Article candidates are copies, and small fixes to them are allowed** (Joel, 2026-09-30; this replaces the old rule against any edit). A fix is as small as it can be and does one of these:
+  - puts back a fact, number, dose, unit, timing, warning, name or link the source has, the way the source has it;
+  - removes something Emulate invented, above all anything about Joel's life;
+  - finishes a sentence Emulate cut off, using the source;
+  - removes page text that isn't part of the article, such as "Continue reading…" or "Double click to interact with video".
+  - Log every fix: the version's run id, the words before and after, and why. Then check the paragraph and its section on Pangram again. In the sentence checks, all 13 fixes like these stayed 100% Human.
+  - Mechanical splicing is still fine: cutting and joining whole sentences or paragraphs from the two versions.
 - **Save every text exactly:**
   - UTF-8, taken from Emulate's copy button;
   - no retyping, no quote or dash conversion, no trimming inside the text.
@@ -173,7 +178,7 @@ For each Emulate output:
   - Check each section put back together, with its original headings and the paragraphs that stayed (`section`).
   - When an article is done, check it whole (`full_article`). If it's too long for one check, use chunks of whole sections that overlap by one section.
   - If a seam between two sections is flagged and the budget allows, run the flagged paragraphs on both sides of it through Emulate together once, and check again.
-  - If a section shows any AI, follow Choosing between versions, below. Never hand-fix.
+  - If a section shows any AI, follow Choosing between versions, below. Fixes follow the rule for article candidates under Hard rules.
 - **Linter:** optional. Its report is data only (see Choosing between versions).
 
 ## Choosing between versions (Joel's rule, changed 2026-09-29 at 15:08 UTC)
@@ -181,7 +186,7 @@ For each Emulate output:
 Each website run gives two options; each API call gives one. For each chunk:
 
 1. **Get the first versions.** A website run gives two options; check both. With the API, call once. Check each version alone, each of its paragraphs alone, and in its section, with the headings and the paragraphs that stay.
-2. **Run once more** with the same input, as a second website run or a second API call, only if no version you have passes its section check and meets points 2 and 3 below.
+2. **Run once more** with the same input, as a second website run or a second API call, only if no version you have passes its section check and meets points 2 and 3 below, even after small fixes.
 3. **Choose among the versions in this order:**
    1. **It passes in its section,** not just alone. In Claude's test, a version that was 100% Human alone showed 8% AI after the section before it.
    2. **Nothing is invented or changed:** no new person, event, number, quote or claim, and nothing new about Joel's life. Names, numbers, doses, times and links stay exactly as they were. Emulate has written "I always tell my kids", invented "Brooke" and "your toddler", and turned "midnight" into "12 pm".
@@ -193,7 +198,7 @@ Each website run gives two options; each API call gives one. For each chunk:
 
 The linter no longer decides between versions. Joel's own fixes score worse on it than the drafts they fixed, and Emulate's mistakes are ones it has no rule for. Saving its report beside each output is optional.
 
-This order replaces the one in `OWNER-SUPPLIED-DIRECTIVE-20260929.md` too; Joel changed it after he supplied that copy.
+This order, and the rule on fixing article candidates, replace the ones in `OWNER-SUPPLIED-DIRECTIVE-20260929.md` too; Joel changed them after he supplied that copy.
 
 Keep every version you get, including the ones you don't choose.
 
