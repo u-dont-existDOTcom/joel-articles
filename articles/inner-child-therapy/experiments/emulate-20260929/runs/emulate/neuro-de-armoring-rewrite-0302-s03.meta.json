@@ -1,0 +1,35 @@
+{
+  "id": "neuro-de-armoring-rewrite-0302-s03",
+  "url": "https://www.tryemulate.ai/dashboard/drafts/499a5c00-2cfe-4942-bbe2-70d1e1419e61",
+  "input_sha256": "38380206f4ca531944431272db70bc832e756e8da78faf318520dd936f6739b2",
+  "input_words": 227,
+  "balance_before": 257314,
+  "selected": "A",
+  "style": {
+    "transport": "website",
+    "mode": "Humanize",
+    "writing_for": "Auto",
+    "tone": "Auto",
+    "point_of_view": "Auto",
+    "formality": "Auto",
+    "reading_level": "Auto",
+    "sentences": "Auto",
+    "length": "Auto"
+  },
+  "captured_at": "2026-09-30T03:22:11.483Z",
+  "options": [
+    {
+      "option": "A",
+      "sha256": "dd71f64a52f4302650be0fcd37f6765d8c0459d85d380a6ba42c351794dda729",
+      "words": 191,
+      "provenance": "Copy button exact after Keep"
+    },
+    {
+      "option": "B",
+      "sha256": "f83cc8b1cbe87d598788167db188d2f506c477ba9d8ccad5d28c9c3df173d4a6",
+      "words": 261,
+      "provenance": "rendered DOM, exact Copy pending"
+    }
+  ],
+  "balance_after": 257087
+}
