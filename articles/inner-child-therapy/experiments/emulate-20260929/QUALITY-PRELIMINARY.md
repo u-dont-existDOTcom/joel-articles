@@ -1,5 +1,11 @@
 # Preliminary quality review — 2026-09-29
 
+## Continuation — 2026-09-30 03:32 UTC
+
+The 15 charged runs were recovered from saved drafts without resubmission. Selected A text is now **Copy-exact** in `runs/emulate/<id>-A.txt`; three neuro list passages retain separate page-text captures. Their 15 unselected B variants are unavailable after the browser restart and are explicitly marked so in `runs/emulate.jsonl`. The three previously unsent neuro tail inputs were each submitted once, with both variants saved. Current revised queue coverage is 49/49 community A/B, 97/97 guide A (94 B), and 26/26 neuro A (14 B). This is capture coverage, not editorial acceptance.
+
+Two first-section community context checks of revised A/B returned **AI Detected, 58% AI / 42% Human** (975 and 984 scanned words); the baseline also returned 58% AI. D6 link fidelity failed in both website runs. Pangram last observed 1,356 credits. Emulate last observed 256,783 words after the three new charges; the earlier 17,314 to 257,314 account balance change is unexplained. No article candidate has passed the fidelity and section gates.
+
 Status: **No article candidate accepted.** This is a review of saved website captures, not a publication or clinical validation. The browser/exec environment went offline before 15 charged captures could be committed and before three prepared neuro inputs were sent. Exact recovery inventory: [RECOVERY-20260929-2319.md](RECOVERY-20260929-2319.md).
 
 ## Coverage and gates
