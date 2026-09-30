@@ -426,7 +426,7 @@
     "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.",
     "If you really did hurt them, repair it.",
     "Not Every Hero Wears A Cape",
-    "Clean your room! Your little one has had enough grown-ups"
+    "Clean your room! Maybe your little one had grown-ups"
    ],
    "must_link": [
     {
@@ -438,9 +438,9 @@
   {
    "id": "rel-danger-line",
    "status": "claim",
-   "what": "The relationship paragraph keeps a danger condition (Claude's addition, built on Joel's \"which is not a small thing at all, I know\"): once is enough to get safe first, so a reader in danger isn't told to look at themselves first or to wait for a pattern.",
+   "what": "The relationship paragraph keeps a danger condition (Claude's addition, built on Joel's \"which is not a small thing at all, I know\"). Danger goes by what the other person actually did, once is enough, and old stuff stirred up too doesn't cancel it (turn 6, after all three push-level reviews raised it).",
    "must_contain": [
-    "But if it's been dangerous even once, get safe first, which is not a small thing at all, I know."
+    "But if they've actually hurt or threatened you, even once, old stuff or not, get safe first, which is not a small thing at all, I know."
    ]
   },
   {
@@ -460,7 +460,7 @@
   },
   {
    "id": "mpv-p4-joel-ending",
-   "status": "applied",
+   "status": "superseded",
    "what": "P4 of Not Every Hero Wears A Cape ends on Joel's sentence in place of Claude's \"At first it'll probably come out sounding like a question.\"",
    "joel": "2026-09-30 03:29 UTC: \"i like how you're integrating prior examples in parentheticals i feel that's human-sounding (in P4). The last sentence in p4 was not what i was expecting/hoping for. A question isn't necessarily a bad way to put things. But what I would have ended it on is, \\\"Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough.\\\"\"",
    "must_contain": [
@@ -468,7 +468,8 @@
    ],
    "must_not_contain": [
     "At first it'll probably come out sounding like a question."
-   ]
+   ],
+   "superseded_by": "mpv-p4-both-sides"
   },
   {
    "id": "mpv-p5-joel",
@@ -480,8 +481,29 @@
     "Fear is the first guess, but maybe you didn't know how or why. Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it. Hey, we've all been there. 🤗"
    ],
    "order": [
-    "or good enough.",
+    "as long as what you needed to say is still in there.",
     "After the day, look at what actually happened."
+   ]
+  },
+  {
+   "id": "mpv-p1-sweet-things",
+   "status": "applied",
+   "what": "P1's last sentence no longer gives every reader the same history: the grown-ups who said sweet things and did nothing become a \"maybe\", and so does the reader doing it too.",
+   "joel": "2026-09-30 04:44 UTC: \"reviewer was also right to catch the generalization about grown ups saying sweet things. so fix that\"",
+   "must_contain": [
+    "Clean your room! Maybe your little one had grown-ups who said sweet things and then did nothing, and maybe you've done it too, so this is how they start to believe you."
+   ],
+   "must_not_contain": [
+    "Your little one has had enough grown-ups"
+   ]
+  },
+  {
+   "id": "mpv-p4-both-sides",
+   "status": "applied",
+   "what": "P4's rehearsal keeps what you needed to say: Joel's ending plus \"as long as what you needed to say is still in there\".",
+   "joel": "2026-09-30 04:44 UTC: \"the reviewer was good to catch me on both sides issue. fix that, let's see what your fix looks like. i know what i'd say now but i want to see what you'll say.\"",
+   "must_contain": [
+    "Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough, as long as what you needed to say is still in there."
    ]
   }
  ]

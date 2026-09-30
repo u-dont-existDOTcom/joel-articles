@@ -214,3 +214,16 @@ His P3 undoes my merge. It carries guide paragraph 3 only, so guide paragraph 4 
 - P22. Reviewers resolve a paragraph-opening "it" the way the writer meant, because they read "After the day" as pinning it. Joel didn't. Name the thing at a paragraph's start (lint R1).
 - P23. End a practice paragraph on the next move of the practice (Joel's "put yourself in their shoes… go back & forth"), not on a prediction about the reader.
 
+## Turn 6 (2026-09-30, Joel's 04:44 message)
+
+| text | grounding (default push) | Pangram alone | section |
+|---|---|---|---|
+| P1: "Maybe your little one had grown-ups who said sweet things and then did nothing, and maybe you've done it too, so this is how they start to believe you." | every line OK; no open questions | 100% Human (98) | Not Every Hero 100% Human (557) |
+| P4: "…or good enough, as long as what you needed to say is still in there." | every line OK; 2 parked | 100% Human (112) | same |
+| Relationship paragraph v3: "But if they've actually hurt or threatened you, even once, old stuff or not, get safe first…" | the MUST all three push levels raised is now answered | 100% Human (68) | Also Look Outward 100% Human (443) |
+
+**Lessons**
+
+- P24. Reader questions catch what a claim-by-claim check can't. v2's danger line matched the guide ("even once"), but the reader had just been told the feeling may come from inside them, so they couldn't tell which case they were in. All three push levels found it.
+- P25. The knob decides what gets raised and how big a fix can be. The MUST was the same at every level, and COULD came up only at wide. The runs disagreed on "get safe = help", so that goes to Joel, not into the text.
+

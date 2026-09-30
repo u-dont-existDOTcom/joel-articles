@@ -19,7 +19,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where the work stands
 
-*Updated 2026-09-30, turn 5 (03:34 UTC onward).*
+*Updated 2026-09-30, turn 6 (04:46 UTC onward). Turn 6 fixed P1's "sweet things" line and P4's "both sides" line, both at Joel's request, and the relationship paragraph's danger line. Both sections still pass.*
 
 **Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
@@ -35,14 +35,14 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 **Next:** "Love Doesn't Have to Wait for Trust", then "Make a Simple Vow", both under the same h1.
 - Run the grounding reviewer on every draft (`tools/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It now flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
+- It also lists the reader's open questions, sized by a push knob (`--push tight|default|wide`; the default is `default`: small changes only). Take ASK AUTHOR items to Joel, and put parked ones in `articles/inner-child-therapy/PARKED-READER-QUESTIONS.md`, not in the article.
 - End every turn with both pages:
   - the article: `tools/render_article_so_far.py`;
   - the in-context page: `tools/render_in_context.py tools/in-context/<map>.json OUT --since <the commit Joel last saw>`.
 
 **Open for Joel:**
-- the moved relationship paragraph and its danger line;
-- the MISFIRES flag on his P4 ending (does the back-and-forth keep the "no"?);
-- "sweet things and then did nothing" in P1, which gives every reader the same history (2 runs).
+- the moved relationship paragraph (he hasn't said yet);
+- whether "get safe" should say that help counts (runs disagreed; see `PARKED-READER-QUESTIONS.md`).
 
 ## How to check on Pangram
 

@@ -322,8 +322,20 @@ def article_text():
     return '\n\n'.join(p.strip() for p in paras)
 
 
-def build_grounding(draft, target, blind=False):
+PUSH = {  # how hard the grounding review pushes on the reader's open questions (Joel, 2026-09-30 04:44)
+    'tight': ("tight. Raise only MUST questions. A fix stays inside the existing sentences or adds a clause, "
+              "and the section shouldn't grow by more than about 5%. Everything else goes on PARKED or is ASK AUTHOR."),
+    'default': ("default. Raise MUST and SHOULD questions. A fix can add up to about one short sentence per paragraph, "
+                "and the section can grow or shrink by up to about 10%. Anything bigger is ASK AUTHOR. "
+                "The author doesn't want the article to grow much; small increases or decreases are fine when they're warranted."),
+    'wide': ("wide. Raise MUST, SHOULD and COULD questions. A fix can add a sentence or two per paragraph, or suggest a new "
+             "paragraph, but anything that would change what the section is about is still ASK AUTHOR."),
+}
+
+
+def build_grounding(draft, target, blind=False, push=None):
     t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
+    push = push or t.get('push', 'default')
     g = read('grounding.txt')
     if blind:  # validation: leave out the worked examples, which quote the errors being tested
         a, b = g.index('Why this review exists.'), g.index('THE STEPS')
@@ -338,7 +350,7 @@ def build_grounding(draft, target, blind=False):
         art = flat[:k + len(tail)]
     d = numbered(re.sub(r'^#+\s*', '', draft, flags=re.M)).replace('(heading) ', '[H] ')
     for k, v in (('{guide}', guide_text()), ('{article}', art), ('{guide_passage}', t['guide_passage']),
-                 ('{next}', t.get('next', '(not given)')), ('{rulings}', t.get('rulings') or '(none)'), ('{draft}', d)):
+                 ('{next}', t.get('next', '(not given)')), ('{rulings}', t.get('rulings') or '(none)'), ('{push}', PUSH[push]), ('{draft}', d)):
         g = g.replace(k, v)
     return g
 
@@ -355,6 +367,7 @@ def main():
     s = sub.add_parser('draft'); s.add_argument('target'); s.add_argument('out')
     s = sub.add_parser('grounding'); s.add_argument('draft'); s.add_argument('target'); s.add_argument('out')
     s.add_argument('--blind', action='store_true', help='leave out the worked examples (for validation)')
+    s.add_argument('--push', choices=sorted(PUSH), help="how hard to push on the reader's open questions (default: the target's 'push', else default)")
     s = sub.add_parser('human-test'); s.add_argument('outdir')
     s = sub.add_parser('score'); s.add_argument('key'); s.add_argument('answers', nargs='+')
     a = ap.parse_args()
@@ -374,7 +387,7 @@ def main():
     elif a.cmd == 'sense':
         write(a.out, build_sense(rd(a.draft), a.target))
     elif a.cmd == 'grounding':
-        write(a.out, build_grounding(rd(a.draft), a.target, a.blind))
+        write(a.out, build_grounding(rd(a.draft), a.target, a.blind, a.push))
     elif a.cmd == 'human-test':
         build_human_test(a.outdir)
     elif a.cmd == 'score':

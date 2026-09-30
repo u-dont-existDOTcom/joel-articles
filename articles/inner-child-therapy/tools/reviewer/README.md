@@ -17,6 +17,7 @@ This is the method from 2026-09-28. The reviewer's validation is in `../REVIEWER
   - Since 2026-09-30 it also tests every instruction, even a faithful carry of the guide, against different readers and the article's own model of people (flag MISFIRES; `grounding-validation/RESULTS-20260930.md`).
   - Build a prompt with `reviewer.py grounding DRAFT TARGET OUT`. The target needs `guide_passage`, and can have `next`, `rulings` and `article_upto`.
   - `--blind` leaves out the worked examples, for validation.
+  - `--push tight|default|wide` sets how hard it pushes on the reader's open questions, and how much a fix may add (default: the target's `"push"`, else `default`). See `grounding-validation/PUSH-KNOB-20260930.md`. Questions below the level go to `../../PARKED-READER-QUESTIONS.md`.
   - Its validation cases are in `grounding-validation/`.
 - `targets/*.json`: for each paragraph being worked on, the paragraph before, the paragraph after, and the meaning to keep. Write the meaning as bare points; writers reuse the brief's wording.
 - `human_items.manifest.json`: the human-prose test set, with sources and hashes. The texts go in `local/human_items.json`, which is kept out of git.

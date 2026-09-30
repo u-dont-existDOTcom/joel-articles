@@ -200,3 +200,11 @@ The flagged last sentence stayed word for word. What cleared it was a new senten
 
 **His Substack note.** Embedded by bare URL in Also Look Outward, because "it reads also more human and captivating when it's a back-and-forth discussion with other substackers rather than just the narrative voice all the time". Other voices in the piece are a humanizing move of their own, and they're real, not staged.
 
+## Joel's notes, 2026-09-30 04:44 UTC
+
+He agreed with two reviewer flags on his own lines and asked me to write the fixes ("i know what i'd say now but i want to see what you'll say"):
+- **P4's "both sides."** It was "…until both sides feel good about it, or good enough." It's now "…until both sides feel good about it, or good enough, as long as what you needed to say is still in there." The clause keeps the "no" through the rehearsal and leaves his sentence whole. 100% Human alone (112 words); the reviewer: every line OK.
+- **P1's "sweet things."** It was "Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you." It's now "Maybe your little one had grown-ups who said sweet things and then did nothing, and maybe you've done it too, so this is how they start to believe you." His phrase stays. The history becomes a "maybe", and the reader's own broken promises are the case that fits almost everyone, including readers whose parents did love them. 100% Human alone (98 words); the reviewer: every line OK.
+
+**Scope** (his words, now the default push level): "in general we should assume the user doesn't want to massively increase the article size, but small increases or decreases may be fine if warranted. for any uncertainty ask the user."
+

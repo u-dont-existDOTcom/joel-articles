@@ -58,6 +58,7 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
     - instructions tested against three or four different readers and the article's own model of people, even when they carry the guide faithfully (MISFIRES, 2026-09-30). The guide's "Leave a relationship that keeps eroding safety" passed every review, and Joel showed it misfires for someone whose less-safe feeling comes from inside them, which the article itself teaches (a hook can be old material). Look hardest at costly or hard-to-undo instructions;
     - non sequiturs, and contradictions with the article's stances;
     - whether the paragraph does one guide paragraph's job;
+    - the reader's open questions (2026-09-30 04:44, Joel: "not just base things on the article but on the questions the article generates for the reader"). The reviewer lists up to five questions a thoughtful reader would stop on at that point, and where each is answered: here, earlier, later in the guide (then it isn't open), or nowhere. Open ones are sorted MUST (a wrong guess could hurt them, or go against the article), SHOULD (most readers get stuck and nothing later answers it) or COULD (depth), and each gets the smallest answer and its size;
     - the heading's promise;
     - the kind of logic the passage runs on (argument, instruction, joke).
   - **Sources:**
@@ -71,6 +72,13 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
     - v2 adds Joel's rulings as an input, the sentence-shape note, the guide-list note and the figurative-heading rule. On held-out text with planted errors it caught 5 of 5: a dropped safety condition, "can" turned into "will", a hug offered as a protecting act, a repeated example, and an off-topic h2.
     - Controls: Joel's P3 came back clean, and his heading passed. The flags that recur on the current section (his self-love sentence, the moldy bread) are open questions for him, not errors.
     - v3 (2026-09-30, `RESULTS-20260930.md`) adds MISFIRES. Blind, it caught Joel's point on the old P1 ("leave it" for a reader whose "less safe" is the old alarm) and a gap in his new wording (a reader in danger told to look inward first). It gave no MISFIRES flags on two accepted controls. A referent check for Joel's "If you did it" missed 4 times out of 4, in this review and in the cold read, so it was taken out; `tells_lint.py` R1 warns on an action "it" near a paragraph's start instead.
+  - **The push knob (Joel, 2026-09-30 04:44: "give the user some kind of control knob for how much to push the writing. in general we should assume the user doesn't want to massively increase the article size, but small increases or decreases may be fine if warranted. for any uncertainty ask the user").** Set it per section with `"push"` in the target, or with `--push`; the default is `default`.
+    - `tight`: MUST questions only; a fix stays inside the sentences or adds a clause; the section grows by no more than about 5%.
+    - `default`: MUST and SHOULD; about one short sentence per paragraph; the section may change by about ±10%.
+    - `wide`: also COULD; a sentence or two per paragraph, or a suggested new paragraph.
+    - At every level, anything bigger, or belonging to another section, or changing what the section is about, is ASK AUTHOR: take it to Joel, don't write it. When runs disagree on a question, that's ASK AUTHOR too.
+    - Questions below the level go on the PARKED line. Copy them into `PARKED-READER-QUESTIONS.md` (next to the article), not into the article.
+    - Demo and first uses: `reviewer/grounding-validation/PUSH-KNOB-20260930.md`. On the relationship paragraph, all three levels found the same MUST, and COULD came up only at wide.
   - **Treat it like the other reviewers:** a strong lead, not a verdict. Recheck it whenever the prompt, the model or the route changes.
 
 0. **Owner edits and claims go in the ledger first (E85; Joel, 2026-09-27 21:18: "so how can we prevent that kind of error in future where you say you will write something and don't write it?").**

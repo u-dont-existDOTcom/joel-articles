@@ -128,7 +128,7 @@ def main():
             if first in IMPER: imps += 1
             if s.count(',') >= 3 or len(re.findall(r'\b(or|and)\b', s)) >= 3:
                 flag('REVIEW', 'B4/E15 list or packed sentence', s)
-            if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", s, re.I):
+            if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", ' '.join(s.split()[:8]), re.I):
                 flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
             if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):
                 flag('REVIEW', 'B3 short knock-down', s)

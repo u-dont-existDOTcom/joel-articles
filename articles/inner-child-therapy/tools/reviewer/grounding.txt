@@ -35,11 +35,18 @@ Compare each with the guide's version. Ground every flag in what the reader need
 
 5. Check the logic between sentences. Does each one follow from the one before it, or turn on purpose? Flag NON-SEQUITUR for a "so", "because" or "but" that doesn't hold. Also flag hasty generalization, false cause, false either/or, and necessary treated as sufficient. Flag CONTRADICTS when a sentence goes against a stance the article or guide already took. Quote both.
 
-6. Paragraph level. Which guide paragraph's job does the new text do? Flag STRADDLES if it carries parts of two guide paragraphs' jobs so that neither is complete where it is. Flag MISSING only when a point that matters to the guide's argument is dropped and nothing in the article carries it. Examples dropped because the article already has enough are fine.
+6. Reader questions. Read the new text as the article's reader and list the questions it raises for them: the ones a thoughtful reader would actually stop on at this point ("what if it's dangerous?", "how do I tell which one it is?"), not every question the topic allows. At most five, the ones that matter most. For each, say where it's answered: in the new text, earlier in the article (quote it), later in the guide (quote it; the article will get there, so it isn't open), or nowhere. Sort the open ones by what a wrong guess costs the reader:
+- MUST: a wrong guess could hurt them, or lead them to act against the article's own teaching. Raise these at every push level.
+- SHOULD: most readers would get stuck here, and nothing later in the guide answers it. Raise these at default and wide.
+- COULD: it would add depth, but the reader can go on without it. Raise these only at wide; at other levels put them on the PARKED line.
+For each question you raise, give the smallest answer that would do, in the reader's terms (don't write the wording), and its size: a few words, a clause, a sentence, or more. If the answer needs more than the push level allows, belongs in another section, or would change what the section is about, don't answer it: mark it ASK AUTHOR and say why. Size can go down too: if the new text answers something nobody here would ask, or answers it twice, say what could go.
+The push level for this review: {push}
 
-7. Heading, if the new text has one ([H]). Does it name what the section actually does, in the guide's terms? Flag HEADING if it promises something else, however nice it sounds. A figurative or playful heading is fine when its everyday reading fits what the section does. Flag it only when the everyday reading points at a different topic.
+7. Paragraph level. Which guide paragraph's job does the new text do? Flag STRADDLES if it carries parts of two guide paragraphs' jobs so that neither is complete where it is. Flag MISSING only when a point that matters to the guide's argument is dropped and nothing in the article carries it. Examples dropped because the article already has enough are fine.
 
-8. Register. Say in a few words what kind of writing the new text is: instruction, argument, confession, joke, image, or a mix. Different kinds need different logic. An argument needs its steps to follow. An instruction needs its conditions. A joke needs its picture to hold. A confession needs to be true to what the author has said about himself. Judge each part by what its kind needs.
+8. Heading, if the new text has one ([H]). Does it name what the section actually does, in the guide's terms? Flag HEADING if it promises something else, however nice it sounds. A figurative or playful heading is fine when its everyday reading fits what the section does. Flag it only when the everyday reading points at a different topic.
+
+9. Register. Say in a few words what kind of writing the new text is: instruction, argument, confession, joke, image, or a mix. Different kinds need different logic. An argument needs its steps to follow. An instruction needs its conditions. A joke needs its picture to hold. A confession needs to be true to what the author has said about himself. Judge each part by what its kind needs.
 
 RULES
 - Every flag quotes the exact words, and names what in the guide or article it conflicts with or lacks.
@@ -52,10 +59,15 @@ OUTPUT, exactly this shape and nothing else:
 [1] OK — carries: <a few words of the guide, or NEW example/aside/instruction/claim>
 [2] FLAG <TYPE>: "quoted words" — the problem, in one or two lines — what the reader should get instead
 (one line per sentence, in order; a sentence can have two flags on one line, separated by " | ")
+QUESTIONS: one line per question you raised, most important first:
+Q: "the reader's question" — answered: here / earlier ("quote") / later in the guide ("quote") / nowhere — MUST, SHOULD or COULD — the smallest answer and its size, or ASK AUTHOR and why
+(write "QUESTIONS: none open at this push level" if that's so)
+PARKED: open questions below this push level, a few words each, or "none"
 PARAGRAPH: which guide paragraph's job it does; STRADDLES or MISSING if they apply; one line.
+SIZE: about how many words your flags and questions would add or take away, and whether that's within the push level
 REGISTER: a few words.
 
-Types: CHANGED, CATEGORY, UNSUPPORTED, MISFIRES, DUPLICATE, UNCLEAR, NON-SEQUITUR, CONTRADICTS, INVENTED, STRADDLES, MISSING, HEADING.
+Types: CHANGED, CATEGORY, UNSUPPORTED, MISFIRES, QUESTION, ASK AUTHOR, DUPLICATE, UNCLEAR, NON-SEQUITUR, CONTRADICTS, INVENTED, STRADDLES, MISSING, HEADING.
 
 Don't use any tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web.
 
