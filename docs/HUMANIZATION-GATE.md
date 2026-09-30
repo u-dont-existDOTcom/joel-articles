@@ -14,6 +14,18 @@ How to read it:
 - **Pangram and Emulate are fallbacks** (Joel, 2026-09-30). The system comes first, and Pangram is the outside check. Emulate comes only after the reviewer-writer loop has failed (`EMULATE-FALLBACK.md`). The aim is to need neither.
 - **The lab repo has rules of its own for generation and teaching work:** `pangram-humanization-lab`'s `AGENTS.md`, with its owner-teaching corpus and lesson closeout. Keep one version of each rule, and link across instead of copying.
 
+## Owner rulings on rewriting Joel's own words (Joel, 2026-09-30)
+
+These came from community section 1 and apply to every rewrite of his words, whether by Emulate, a writer or a fix:
+- **Don't hype.** "Happy" doesn't become "very happy", and "this mostly meant boredom" doesn't become "boring as hell".
+- **Don't flatten a mixed experience into one note.** His childhood visits meant boredom "with some adventures mixed in".
+- **Don't change a fact without asking, even a small one** ("own" to "live on").
+- **Don't turn his uncertainty into a stance.** "I couldn't tell whether…" doesn't become "I didn't feel like it was really…", even when a nearby line leans that way.
+- **Don't give him a reaction he couldn't have had.** He was too young to find the missing therapy practice "odd".
+- **Keep the exact relation.** "Needed" isn't "wanted". "Much larger" is a comparison, and "big" drops it.
+- **A fact in an AI-drafted original can be wrong.** When Joel corrects one (the "complicated labor credit system"), his correction replaces it.
+- **Show every proposed change side by side before asking** (`tools/humanization/render_in_context.py`). On 2026-09-30 he approved two changes from a list, then took them back once he saw them in place.
+
 ---
 
 # Humanization gate — run for every section, before any Pangram check or owner delivery

@@ -61,6 +61,11 @@ Where a finding matches a rule the gate already has, it's named in brackets.
 - **The loudest sentence is a run of vivid examples in one breath.** Three of the four put-backs that flipped a passing text were that kind of sentence. A five-part list of reasons didn't flip one. Joel keeps one or two examples, each in its own sentence. [B4/E15, and his list style in Borrow One Competency.]
 - **A summing-up "what X ends up doing is Y" sentence** turned a 75-word passing text 100% AI. It's one case. [Close to T29/E74, the concluding last sentence.]
 - **Reshape; don't reword.** Two small word swaps left A12 at 100% AI. Joel changed the structure of one clause, and it came back 100% Human. [B10.]
+- **A run of actions after a colon is loud too.**
+  - Joel's whole escuelita paragraph came back 100% AI alone.
+  - A version that kept his proposal sentence word for word came back 49% AI. That sentence was "The healing communities I'm proposing should do the same: people live there, heal, learn the relational and practical methods, and some eventually leave to start the next one." The flag ran from it to the end.
+  - Rewording only that sentence passed.
+  - It's the same shape as the example lists above (community section 1, v3, 2026-09-30).
 - **Near 50 words, a cut at either end can flip a paragraph.** Check a paragraph at the length it will really have.
 - **Context works both ways.** Rewriting a flagged paragraph can move the flag onto its neighbor, as with community section 1's opening. Human neighbors can also carry a paragraph. In that section, three of four flagged paragraphs passed unchanged once the paragraphs around them had been rewritten. So rewrite the fully flagged paragraphs first, recheck, and only then touch the rest.
 
