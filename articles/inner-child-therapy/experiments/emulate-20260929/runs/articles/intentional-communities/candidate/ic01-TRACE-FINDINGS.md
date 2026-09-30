@@ -2,7 +2,7 @@
 
 **By Claude, 2026-09-30.** Section 1 passes Pangram, but it isn't ready.
 
-**Read `community-section1-side-by-side.html` instead of this list** (17:40 UTC). It puts your original beside the candidate, marks every change, and gives my recommendation under each changed paragraph. This file is the earlier text summary.
+**Read `community-section1-side-by-side.html` instead of this list.** It puts your original beside the candidate, marks every change, and gives my recommendation under each changed paragraph. This file is the earlier text summary.
 
 You approved the four changes I showed you. Then a fresh agent that hadn't seen my notes traced the section both ways against the original, and it found 61 changes of meaning or strength. Most are small, but about ten change what you said. The full trace is in `ic01-blind-trace.md`, and I checked the ones below against both texts myself.
 
