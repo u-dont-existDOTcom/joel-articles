@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:18:09.520Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
-  "A_sha256": "7625081c46a25da7297218584ee777376b01890f42d1977180692e3d880c73d8",
+  "A_sha256": "ad56b5b8f3a6853863380a0edc280f963c0a94c85c6ca2c63648cd637e353f46",
   "A_html_sha256": "f7985ab88c0ecf255b9b36a8ee181f2ed4b3dc630037323f6957d135ae7a30bb",
-  "title": "Voltage stabilization guide3h ago"
+  "title": "Voltage stabilization guide3h ago",
+  "A_page_sha256": "7625081c46a25da7297218584ee777376b01890f42d1977180692e3d880c73d8",
+  "A_copy_match": false,
+  "copy_recovered_at": "2026-09-30T03:26:15.710Z"
 }

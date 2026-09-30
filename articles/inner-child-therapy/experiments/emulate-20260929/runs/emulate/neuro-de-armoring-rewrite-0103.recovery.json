@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:17:23.856Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "7547154a2c82f057e46969a6f3d2836db27738b4c2b04140e93733f9194775a1",
   "A_html_sha256": "9579a3c1df6b04e2838d01687e97522f6e8abe49ba61599f7abaf233fdf503d9",
-  "title": "GluD receptors and D-serine4h ago"
+  "title": "GluD receptors and D-serine4h ago",
+  "A_page_sha256": "7547154a2c82f057e46969a6f3d2836db27738b4c2b04140e93733f9194775a1",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.712Z"
 }

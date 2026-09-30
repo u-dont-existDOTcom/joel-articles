@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:18:10.954Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "0c6fb2e4ab23c72226dd29ed3e8c21005c08a520230c07f8545d9072bd3e3063",
   "A_html_sha256": "318f7ca462877c25f4899f2095761ed6b594c30f0af4fc6844c7b6de2a7d4025",
-  "title": "5-HTP trial protocol and3h ago"
+  "title": "5-HTP trial protocol and3h ago",
+  "A_page_sha256": "0c6fb2e4ab23c72226dd29ed3e8c21005c08a520230c07f8545d9072bd3e3063",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.711Z"
 }

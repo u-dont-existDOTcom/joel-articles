@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:17:12.619Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "6a87e9fe00113cbb4fefc37a6fb308a662b9cbe206f8ce927b6f502a966548bd",
   "A_html_sha256": "70372a1aebf886c2cf318fc7ab9152084f158a8993ef95c909e0e6314bca2673",
-  "title": "Ketone fuel strategy guide3h ago"
+  "title": "Ketone fuel strategy guide3h ago",
+  "A_page_sha256": "6a87e9fe00113cbb4fefc37a6fb308a662b9cbe206f8ce927b6f502a966548bd",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.711Z"
 }
