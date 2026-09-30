@@ -2,6 +2,8 @@
 
 **By Claude, 2026-09-30.** Section 1 passes Pangram, but it isn't ready.
 
+**Read `community-section1-side-by-side.html` instead of this list** (17:40 UTC). It puts your original beside the candidate, marks every change, and gives my recommendation under each changed paragraph. This file is the earlier text summary.
+
 You approved the four changes I showed you. Then a fresh agent that hadn't seen my notes traced the section both ways against the original, and it found 61 changes of meaning or strength. Most are small, but about ten change what you said. The full trace is in `ic01-blind-trace.md`, and I checked the ones below against both texts myself.
 
 ## First, a correction
@@ -45,16 +47,7 @@ Either the link goes back into that sentence, or the clause stays.
 
 ## The small ones
 
-About fifty more are listed in the trace. For example:
-- "roughly eighty" became "maybe eighty";
-- "I was happy there" became "very happy";
-- "friendly and interesting" became "friendly enough and interesting enough";
-- "nearly all of these places" became "all of them, basically";
-- "real variety" became "diverse".
-
-One of them is my own slip: I put back "recreating all the loneliness" where you wrote "the same".
-
-You can approve these as a group, or I can put them back. Each one I put back is a small risk to the Pangram pass. So far, 13 of 13 small fixes have held, but never this many in one paragraph.
+About fifty more are listed in the trace, like "roughly eighty" becoming "maybe eighty". I'd keep all of them except the ones the side-by-side page names, which change a fact, a feeling you reported, or the strength of what you said.
 
 ## Your decisions so far (2026-09-30, 16:10 UTC)
 

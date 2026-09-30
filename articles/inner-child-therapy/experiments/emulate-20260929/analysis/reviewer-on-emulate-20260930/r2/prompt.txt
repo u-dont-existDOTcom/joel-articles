@@ -1,0 +1,351 @@
+You're going to learn to predict an AI detector's verdicts on paragraphs from one article, and then use what you learned on passages whose verdicts you aren't told.
+
+The article is a friendly self-help guide to inner-child therapy, written by an author named Joel. The detector is Pangram, and it's very accurate on this article. Part 1 below has passages with Pangram's verdicts. Part 2 has passages for you to judge.
+
+Two things make this hard, and they're why earlier reviewers got it wrong:
+
+1. Every AI-labeled passage was written by an AI that was trying hard to sound human. They're casual, they joke, they use first person, and they have scenes and specific-sounding details. So a casual voice tells you nothing. A very casual voice ("a ton of", "super", "no big deal", "the thing is") is closer to a warning sign than a pass.
+
+2. The author's own writing is often plainer, stiffer or clumsier than the AI's ("become more healthy", "Fortunately in the sense that... Unfortunate in the sense that...", both from the samples of his writing in Part 1). Polish and awkwardness don't decide it either.
+
+What the detector seems to catch is the shape of the thinking. Here is how the author describes it:
+- "marching order, predictable cadence with optimized structure." The structure stays the same whatever the example is: "you could say [it] while skydiving and it would still have the same marching order."
+- "that AI thing of ensuring the thought is fully complete and summed up perfectly."
+- Human organization "needs to notice things naturally in the midst of the organization." It shouldn't be "reducible to code."
+- An AI gives each sentence "exactly a job." Human sentences "think about each other."
+
+How to look at a passage:
+1. Write each sentence's job in two to four words (claim, example, reason, instruction, consequence, reassurance, resource, summary, joke landing, and so on).
+2. Read only that list of jobs. If it's the obvious outline for what the paragraph is for, and each sentence does one clean job and hands off to the next, that's the march. A joke, a scene or casual words inside a sentence don't change its job. A scene can march too: setup, problem, fix, lesson.
+3. Look at the last sentence. Does it sum up, conclude ("So..."), generalize, reassure, or land a joke the paragraph was built toward?
+4. Look for thinking the outline didn't need: a sentence that reacts to or argues with the one before it; an irony or odd fact noticed along the way; an example whose details are there because they're true, not because they carry the next point; a thought left rough or half-finished; a new consideration at the end instead of a summary.
+5. Look at the wording. Is it someone's own (plain, odd, sometimes clumsy), or the casual words an AI reaches for when it's told to sound relaxed?
+6. More text is more evidence. Two paragraphs that each pass alone can fail together, and one AI-shaped paragraph usually sinks a passage.
+
+These are leads, not a checklist. Your real teacher is Part 1. Where the same paragraph appears in several versions, compare them and notice what changed and how the detector responded.
+
+
+PART 1 — LABELED EXAMPLES (Pangram's verdicts)
+
+--- The author's own writing, for his natural voice ---
+
+J1 (the author's own writing (never edited by AI)):
+You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change, that's probably as useful as their prior promises were. Think about how long it has taken you to become more healthy. Could you have done that from one moment to the next based on a promise? Sometimes we can be a better support for someone when we maintain a realistic boundary, so that we can hold high expectations, and still feel prepared for their failure to meet them.
+
+J2 (the author's own writing (never edited by AI)):
+Céline's song is called On ne change pas—"we don't change." I think that's both fortunately and unfortunately true for most of us. Fortunately in the sense that the sweet, innocent, curious, vivacious little one is still inside us, even if hiding. Unfortunate in the sense that we often don't truly develop the adult qualities that we might pretend to have, so we continue burdening that little one inside us with troubles they aren't made for handling. This shows up in how we may feel abandoned, helpless, impulsive, frightened, or desperate to be chosen.
+
+--- Group 1. Same paragraph three ways. In the first, the last two sentences are an AI's rewording of the author's two sentences. In the second they're the author's own words, unchanged. The third is the second without its first sentence. Pangram: the reworded one 44% AI, the flagged part in the later sentences; the other two 100% Human. ---
+
+1a — Pangram: 44% AI
+That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. The Guide is the one people overlook the most. I left it out of my first version of this guide until Key pointed it out, and without an inner Guide, it's easy to go looking for one in a cult. Our lives can also get small, like a never-ending therapy session, when all we do is take care of ourselves without giving ourselves a mission too. Then again, some people lean on their mission to get out of taking care of themselves.
+
+1b — Pangram: 100% Human
+That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. The Guide is the one people overlook the most. I left it out of my first version of this guide until Key pointed it out, and without an inner Guide, it's easy to go looking for one in a cult. Our lives can become small and like a never-ending therapy session when we focus only on caring for ourselves rather than giving ourselves a mission as well. But then some people over-rely on their mission to avoid caring for themselves.
+
+1c — Pangram: 100% Human
+The Guide is the one people overlook the most. I left it out of my first version of this guide until Key pointed it out, and without an inner Guide, it's easy to go looking for one in a cult. Our lives can become small and like a never-ending therapy session when we focus only on caring for ourselves rather than giving ourselves a mission as well. But then some people over-rely on their mission to avoid caring for themselves.
+
+--- Group 2. Same paragraph. The first gives the Nurturer and the Protector a sentence each and then the party example. The second keeps only the party example, with both jobs inside it. The third is the second plus the author's own sentence about the Guide. ---
+
+2a — Pangram: 100% AI
+That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. When something hurts, the Nurturer stays with your little one and lets it hurt, without needing them to fix anything or be brave for anybody. The Protector is what makes that believable, since it's hard to trust comfort from somebody who lets every wave of rage or craving make the decisions. You're often doing both at once. A party gets to be too much for your little one, so you take them home and tell them they did great, even though mostly they hid in the bathroom.
+
+2b — Pangram: 100% Human
+That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom.
+
+2c — Pangram: 100% Human
+That's one grown-up doing three jobs, not three more people moving in, and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom. And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing.
+
+--- Group 3. Two AI attempts, then the author's minimal fix of the second attempt: he replaced the examples, merged 'You may still feel completely like the child...' and 'That's ok.' into one sentence, and added the 'Fake it til you make it' sentence and 'If it sounds funny, laugh!'. ---
+
+3a — Pangram: 100% AI
+For protecting, ask what a minimally competent adult would do in the next ten minutes. It's funny how often the answer is a snack. Sometimes it's going to bed, or writing that reply and not sending it yet. If the room itself isn't safe, the answer is to leave, or lock the door and get help. You may still feel completely like the child while you're doing it. That's ok. Afterward, you can tell your little one, "I did that for us. That was the Protector."
+
+3b — Pangram: 100% AI
+For protecting, ask what a minimally competent adult would do in the next ten minutes. Usually it's something basic, like eating or going to bed. If you're about to send an angry text, maybe don't send it yet. If the room itself isn't safe, leave, or lock the door and get help. You may still feel completely like the child while you're doing it. That's ok. Afterward, you can tell your little one, "I did that for us. That was the Protector."
+
+3c — Pangram: 100% Human
+For protecting, ask what a minimally competent adult would do here. Maybe something simple, like actually smelling that old food you're about to eat and then trashing it if it smells a little weird. If you're about to send an angry text, hit pause. If the room itself triggers your spidey sense, leave, or lock the door and get help. Even if this still feels like the child acting like the adult, for now, that's ok. "Fake it til you make it" isn't exactly it, but yeah. Afterward, you can tell your little one, "I did that for us. That was the Protector." If it sounds funny, laugh!
+
+--- Group 4. Six AI attempts at the same paragraph, all 100% AI: an early accepted version, a fix of it, a rewrite, a version written for sense first, a version built around a dinner scene, and a three-sentence remark with no instructions in it. ---
+
+4a — Pangram: 100% AI
+Have you ever had a fight where you were absolutely sure you'd finally seen who somebody was, and then they came back later and had a basically normal conversation with you? Irritating. They can still disagree with you. Their boundary can still make you mad. Now the first fight has company. What matters more is when the subject changes but somehow you keep ending up in the same role: taking care of their reaction while your own experience disappears. Lindsay Gibson writes about those repeated relational patterns in her work on emotional immaturity.
+
+4b — Pangram: 100% AI
+Have you ever had a fight where you were absolutely sure you'd finally seen who somebody was, and then they came back later and had a basically normal conversation with you? Irritating. Disagreeing with you doesn't tell you who they are either, and neither does a boundary that makes you mad. What matters more is when the subject changes but somehow you keep ending up in the same role: taking care of their reaction while your own experience disappears. Lindsay Gibson writes about those repeated relational patterns in her work on emotional immaturity.
+
+4c — Pangram: 100% AI
+The person you'd just decided was evil might text you the next day about something totally normal, like whether you still have their charger. Irritating. One fight isn't much to go on, and neither is a "no" from them that made you mad. It's more telling if every argument, whatever it started about, ends the same way, with you calming them down while your side of it just disappears. Lindsay Gibson has a whole shelf of books on emotional immaturity, including one about disentangling from people like that.
+
+4d — Pangram: 100% AI
+Once you're in that happy place, look at the other person too. Can they hear you disagree, look at their own part, and make room for how it was for you? Or does every conversation go the same way, where you bring up something that hurt, and twenty minutes later you're the one comforting them? The psychologist Lindsay Gibson writes about people like that, and her word for them is emotionally immature. She suggests noticing what someone is actually doing and what it's doing to you.
+
+4e — Pangram: 100% AI
+When you do get to your happy place, try replaying what the other person actually did. Say you told them a comment they made at dinner stung. Maybe they got defensive for a minute, and then later they came back and said, "Okay, I see it." Or maybe it turned into how hard their week has been, and somehow you ended the night reassuring them. If it's the second one, and it's the second one pretty much every time, the psychologist Lindsay Gibson has a whole shelf of books about people like that. Her word for them is emotionally immature, and one thing she suggests is just noticing what they're doing and what it does to you.
+
+4f — Pangram: 100% AI
+Some people really are hard to bring anything up with. You mention the thing that hurt, and twenty minutes later you're comforting them about how bad they feel, and if that's how it goes every time, it's probably not only your hook. The psychologist Lindsay Gibson has a whole shelf of books about people like that, and one's called Disentangling from Emotionally Immature People, which pretty much says what it's for.
+
+--- Group 5. Two AI attempts at the same paragraph, both 100% AI. ---
+
+5a — Pangram: 100% AI
+If a teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them. Prayer can bring back the old feeling of being abandoned, too. Don't write that off as bypassing, or as your parents in disguise, at least not right away. Some of it may be gone for good, and some of it you might still want to keep, even if that means practicing differently.
+
+5b — Pangram: 100% AI
+If a teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now. Kids quit piano over one bad teacher, and this is way worse. I wouldn't call that bypassing, or your parents in disguise, at least not automatically. Grieve whatever's actually gone. Some of the practice might still be yours, even if you do it differently now.
+
+--- Group 6. Two AI attempts at the same paragraph, both 100% AI. ---
+
+6a — Pangram: 100% AI
+I think the Guide is the most important of the three, and the easiest to get wrong. It doesn't need to know where your life is headed, any more than kids in the back seat need to know the whole route. They mostly want to know somebody's driving. Today, that might just mean deciding you're finally calling your sister back.
+
+6b — Pangram: 100% AI
+The word "Guide" makes it sound like somebody with the whole map, but kids in the back seat don't need the route. They mostly want to know somebody's driving. Your life might be headed who knows where, and today the Guide just decides you're finally calling your sister back. If I had to pick one of the three, it'd be this one.
+
+--- Group 7. Two consecutive paragraphs, AI-drafted with the author's feedback, each 100% Human. ---
+
+7a — Pangram: 100% Human
+The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.
+
+7b — Pangram: 100% Human
+Get as close to it as you honestly can right now, and bring your little one in with you. They might go numb, or just say "Bullshit." That becomes the conversation, and it's worth listening to. If you pour more spirituality on top instead, it's the food bank all over again, and none of it is getting to them.
+
+--- Group 8. Two consecutive paragraphs telling the author's friend's story (the story came from the author), AI-drafted with one of the author's lines, each 100% Human. ---
+
+8a — Pangram: 100% Human
+Other times it's "I did this too." My friend Tyler saw a guy smoking in front of a baby and asked him if he thought that was wise. The guy asked if he thought it was wise to mind his own business, and Tyler said, "Well, I believe in Christ, so I thought you might care about life too." Afterward he wasn't sure he'd handled it right, or whether he should have thrown the first stone at all, since he'd smoked in front of a baby himself.
+
+8b — Pangram: 100% Human
+But Jesus also said to take the log out of your own eye first, and then "you will see clearly to take the speck out of your brother's eye." That's exactly what made Tyler the right person to say something. If you actually have the problem they have, and you want to call them out for it, call yourself out for it instead. What we came up with was something like, "Hey man, when I was younger I smoked in front of an infant, not realizing how selfish that was, and I notice you doing the same thing. I'd ask you to please have some compassion for him. I have a young child now, so this really touches me."
+
+--- Group 9. Two paragraphs from an earlier accepted version, mostly AI-drafted with the author's edits over several rounds, each 100% Human. ---
+
+9a — Pangram: 100% Human
+If you don't hear a little kid talking in your head, don't invent one. Actually, this is one place where the usual inner-child prompt to "ask your little one what they need" can get confusing, because "ask" sounds like you're supposed to ask a question and then wait for a second voice to answer. Maybe that's what happens for some people, but you might not be some people.
+
+9b — Pangram: 100% Human
+Pema Chödrön calls the tightening and urge you get before the story has finished forming "shenpa," and she says "hooked" is a more descriptive translation than the usual "attachment." You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns you: you're supposed to be observing yourself. 😀 Maybe forget the parts detective work for a minute. You can figure that out later.
+
+--- Group 10. The first is the author's minimal fix of an AI draft; the second is an AI draft. Both Human. ---
+
+10a — Pangram: 100% Human
+If the love still isn't coming, you can at least stop judging your little one. Obviously no insults. Helpful advice is great, we all need advice. Let them absorb it at their pace. And don't expect a thank-you for the session, like they booked it. That's enough to start being the adult, even if it isn't enough yet for them to trust you.
+
+10b — Pangram: 100% Human
+Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us. That takes warmth, and if there isn't any yet, borrow some. Think of someone you remember fondly. How would they sit beside your little one? Just make sure it's someone who liked you the way you were. If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have.
+
+--- Group 11. Same paragraph. The first two are earlier AI attempts. The third ends on a 'So...' sentence and is 100% AI. The fourth is the third without its last sentence: Human. The fifth is the third with the author's own last sentence in place of the AI's: Human. ---
+
+11a — Pangram: 100% AI
+I call the deeper therapy pl/ork: play + work. Calling it only "work" forgets the inner child, who also wants to play. Try telling an actual five-year-old you're going to work on them today. Most of the work's yours anyway. The Nurturer, Protector and Guide are all you, even if the capital letters make them sound like three more parts to go hunting for. At a party that's too much for your little one, "Okay, we're going home, you did great" is the Protector and the Nurturer in one sentence. And if "parent" is the wrong word for you, call that grown-up something else, maybe a good host, the kind who makes sure the cousin nobody talks to gets a plate, or just a guardian.
+
+11b — Pangram: 100% AI
+I call the deeper therapy pl/ork, play + work, because your little one wants to play, too. If you only ever show up to go through the bad memories again, it turns into homework, and they'll do what kids do with homework and find literally anything else to do. In a grown-up body, that's you suddenly deciding the spice rack needs alphabetizing.
+
+11c — Pangram: 100% AI
+Your little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. So an afternoon of coloring badly together might do more than another hour of going over what went wrong.
+
+11d — Pangram: 100% Human
+Your little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them.
+
+11e — Pangram: 100% Human
+Your little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.
+
+--- Group 12. The first is an AI attempt (AI); the second is a rewrite (Human). The three 'section' versions put the passing second paragraph together with one or two more paragraphs, and all three came back 100% AI. ---
+
+12a — Pangram: 100% AI
+When somebody helps you, it's easy to just feel better and go home, and then you need them all over again next time. So pay attention to what they actually did. A lot of the time, what helped was just that they stayed calm while you fell apart. Staying calm for the first ten seconds might be the five percent you can do yourself, the next time nobody's there to do it for you.
+
+12b — Pangram: 100% Human
+Say a friend sits with you while you fall apart. Most of us feel better and call them again the next time, and they get a little better at it every time while we don't. So steal some of it. Usually what helped was how they just sat there without trying to fix you. Ten seconds of sitting with yourself like that is your five percent, so try it before you call next time.
+
+12c — Pangram: 100% AI
+Become the Adult Apprentice
+
+Say a friend sits with you while you fall apart. Most of us feel better and call them again the next time, and they get a little better at it every time while we don't. So steal some of it. Usually what helped was how they just sat there without trying to fix you. Ten seconds of sitting with yourself like that is your five percent, so try it before you call next time.
+
+Nobody can tell you how long this takes. The signs are small, like missing a day of practice without deciding the whole thing's ruined. A good helper will start doing less for you around then, which can sting a little until you realize it's a compliment.
+
+And if the word "parent" makes you flinch, call it something else, a guardian maybe, or a good host.
+
+12d — Pangram: 100% AI
+Become the Adult Apprentice
+
+Say a friend sits with you while you fall apart. Most of us feel better and call them again the next time, and they get a little better at it every time while we don't. So steal some of it. Usually what helped was how they just sat there without trying to fix you. Ten seconds of sitting with yourself like that is your five percent, so try it before you call next time.
+
+There's no schedule for this, but one sign is skipping a day of practice without deciding you've blown the whole thing. Around then, a good helper starts doing less for you. One who never does has basically sold you a subscription.
+
+12e — Pangram: 100% AI
+Become the Adult Apprentice
+
+Say a friend sits with you while you fall apart. Most of us feel better and call them again the next time, and they get a little better at it every time while we don't. So steal some of it. Usually what helped was how they just sat there without trying to fix you. Ten seconds of sitting with yourself like that is your five percent, so try it before you call next time.
+
+There's no schedule for this, but one sign is skipping a day of practice without deciding you've blown the whole thing. Around then, a good helper starts doing less for you.
+
+--- Group 13. Two versions of the short lines that come after a song in the article. ---
+
+13a — Pangram: 100% AI
+If that got to you at all, good. That's partly why it's up there.
+
+You've probably got your own crying song too, maybe the one you always skip when it comes on in the car. Sometime when you're home alone, put it on and let it play all the way through. When it's over and your face is still wet, that's a good time to check on your little one.
+
+If you notice yourself heading there, just turn the song off.
+
+13b — Pangram: 100% Human
+If that got to you at all, good. That was half the idea.
+
+So if you sit down to try any of this and feel nothing, that's when I'd put a song on. Céline's right up there if you don't have one, and Rosey Grier's It's All Right to Cry is a little further down.
+
+If you start getting scared of your own crying, turn the song off for tonight.
+
+--- Group 14. The first paragraph passed alone (Human). With a heading and a second paragraph added, the passage came back 54% AI, flagged in the later part. The third is an earlier first-person version that also passed. ---
+
+14a — Pangram: 100% Human
+Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly, and even the usual loving-kindness line, "May you be happy," can feel like rewarding them. "May you be loving, peaceful, and free" might be easier to mean. If they were any of those things, they probably wouldn't have done it in the first place. And it doesn't mean they get to come back over for coffee.
+
+14b — Pangram: 54% AI
+A Smaller Doorway: Goodwill
+
+Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly, and even the usual loving-kindness line, "May you be happy," can feel like rewarding them. "May you be loving, peaceful, and free" might be easier to mean. If they were any of those things, they probably wouldn't have done it in the first place. And it doesn't mean they get to come back over for coffee.
+
+It might open up a little warmth, or it might just stay a quiet intention. And if "I love you" goes flat when you aim it at yourself or your little one, the same wish works there, too.
+
+14c — Pangram: 100% Human
+There are people I can't honestly say "I love you" to, especially the ones who've treated me badly, and even the usual loving-kindness line, "May you be happy," can feel like I'm rewarding them. But I can mean "May you be loving, peaceful, and free." If they were any of those things, they probably wouldn't have done it in the first place. Aimed at myself, it's "May I be peaceful and free," or just whatever I can sincerely wish my little one.
+
+--- Group 15. Two AI attempts at a section opening, both 100% AI. ---
+
+15a — Pangram: 100% AI
+Most of us are so used to living from the inner child's small, scared place that we think it's just our personality. Reparenting starts when the present-day you steps into the grown-up's spot and takes care of your little one from there, instead of leaving that job to the parents you inherited, who've been doing it in your head the whole time. That grown-up has three jobs, the Nurturer, the Protector and the Guide. They're all you, not three more people moving in, and a lot of what you do is two of them at once.
+
+15b — Pangram: 100% AI
+Your boss says "Got a minute?" and suddenly you're seven and in trouble, which for most of us happens so often it just feels like our personality. Reparenting starts when the present-day you shows up right there and takes care of that seven-year-old, instead of leaving the job to the parents you inherited, who've been doing it in your head the whole time.
+
+--- Group 16. Two consecutive paragraphs. Each passed alone. The two together, unchanged, came back 100% AI. ---
+
+16a — Pangram: 100% Human
+The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. What did you decide the last time you were calm? If you didn't write it down, that's probably the first thing a good guide would have told you to do. Or ask what the wise person you respect would have you practice today. A tradition can carry some of it for a while, too, until you can hold the direction yourself.
+
+16b — Pangram: 100% Human
+The thank-you you weren't waiting for might not come anyway. You might get more like "Oh, so NOW you care?" Which, fair enough, you did take a while. Your first instinct might be "But I'm trying!", and then it's just two six-year-olds arguing. Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you.
+
+16c — Pangram: 100% AI
+The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. What did you decide the last time you were calm? If you didn't write it down, that's probably the first thing a good guide would have told you to do. Or ask what the wise person you respect would have you practice today. A tradition can carry some of it for a while, too, until you can hold the direction yourself.
+
+The thank-you you weren't waiting for might not come anyway. You might get more like "Oh, so NOW you care?" Which, fair enough, you did take a while. Your first instinct might be "But I'm trying!", and then it's just two six-year-olds arguing. Some days, just hearing it out like a decent adult is the only thing you'll manage to borrow, and your little one might still roll their eyes at you.
+
+--- Group 17. Three consecutive short paragraphs, AI-drafted, each 100% Human. ---
+
+17a — Pangram: 100% Human
+If you grew up swearing you'd never turn into your parents, being told to parent yourself can land a little weird. Call yourself your little one's guardian, then, or their big sibling. Either way, the Nurturer, Protector and Guide are all you, and you're often doing two of them at once. A party gets to be too much for your little one, so you take them home and tell them they did great, even though mostly they hid in the bathroom.
+
+17b — Pangram: 100% Human
+If the only time the Nurturer shows up is when something's wrong, your little one can start to feel like they're your job. Sometimes show up just to say "I'm glad you're here," and then enjoy them for a minute, the way you'd enjoy a little kid who wants to show you a rock they found.
+
+17c — Pangram: 100% Human
+It's two in the morning, your little one is lonely, and the ex who dumped you by text is one text away. The Protector is the one who puts the phone in the other room, and in the morning, "I'm glad you're here" is a lot easier for your little one to believe.
+
+--- Group 18. Assorted passages that passed. The first is mostly the author's own paragraph with one AI sentence. The last two are whole short sections with headings. ---
+
+18a — Pangram: 100% Human
+And I realized that it doesn't make sense to ask the child to heal itself, which is really a disguised request for the child to abandon its own nature and turn into an adult. There was never anything wrong with the child's worth to begin with. Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide.
+
+18b — Pangram: 100% Human
+Watch how it lands, though. "I care about you" can be patient, or it can be "I care about you, now hurry up and feel better." Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. And if nothing moves at all, don't push it. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do.
+
+18c — Pangram: 100% Human
+Noticing Counts
+
+"Huh, somebody in here is really scared." That might be the most adult thing you've got right now, and it's plenty to start with. Whoever's noticing isn't all the way inside the scared one.
+
+It can help to use your own name. For me, instead of "I'm terrified," that'd be "Little Joel is terrified. What does Little Joel need right now?" You'll sound a bit like Elmo. In lab studies, though, people who talked to themselves this way reacted less to upsetting pictures and memories, and their brains didn't seem to be working any harder to do it.
+
+If you can tell your parts apart pretty easily, you've probably got plenty of noticing already. Don't keep drilling it just because the love isn't coming yet. A lot of meditators are great at watching. I was, and baby me was still starving.
+
+18d — Pangram: 100% Human
+Your Body Might Need Some Love First
+
+If you notice tension in your solar plexus or abdomen, or anywhere else that seems to be keeping you from relaxing into that heart chakra love, try some non-forced, slower exhales and a little gentle self-massage. I love using one foot to massage the other foot like a yin-yang symbol, but you can start with some nice circular or spiral massage right on the tense spot.
+
+If that's not enough, there's deeper somatic stuff like Shaking, tapping (EFT), EMDR, Brainspotting, Somatic Experiencing, Water Therapy, Massage, Energy Healing, or some other bottom-up approach.
+
+When your nervous system is flooded, your protective parts are busy with the flood, so they're not going to let your little one come out and talk much anyway. Some people go straight into EMDR on their worst memory before they can even stay in the room. Then they get flooded all over again and decide EMDR doesn't work. Here's a map of what to try when:
+
+
+PART 2 — PASSAGES TO JUDGE (14 passages; sentences numbered)
+These come from the same author's inner-child article project. Judge each one on its own: what would Pangram say?
+
+=== S01 ===
+[1] You can protect your little one from yourself too, like by repairing after an internal attack. [2] "What's an 'internal attack'?" [3] Calling yourself an idiot for losing your keys again, for one. [4] Your little one was listening, so you go back and apologize to them. [5] If they're sarcastic about it, you hear it out instead of snapping back. [6] They don't trust you yet, and you don't ask them to. [7] They complain about something, and if they're right, you say so. [8] All of that can be as visible to them as the clean room was. [9] It's evidence you're safe to be around and that you accept them. [10] Love needs both, but without warmth they can still feel like they're only being put up with.
+
+=== S02 ===
+[1] If the day's over and you didn't do it, look at what actually happened before deciding whether it was fear, or being unsure what you were going for, or not knowing how, or exhaustion, or something practical. [2] If you did it but didn't feel better right away, that isn't a failure, though checking it off doesn't prove it helped either. [3] That's the "how would I know if it's helping?" question again. [4] Keep or adjust each act by what it adds: are you any safer, closer to your little one, more capable, or did you enjoy it?
+
+=== S03 ===
+[1] Say you cried in a meeting, and by nine that night you're about to spend most of what's left this month on boots you'll wear twice. [2] The shame can go right on burning while the Protector leaves the card in your wallet, and by Thursday you can't quite remember what those boots were supposed to fix.
+
+=== S04 ===
+[1] Set one boundary. [2] "What's a 'boundary'?", I might be asking. [3] That looks like saying no to something that's costing you too much (money, time, whatever it is). [4] Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. [5] Keep one small promise to your little one. [6] Clean your room! [7] And if a relationship keeps making you less safe, leave it, which is not a small thing at all, I know. [8] The underlying reason you're in it anyway is because of a lack of self-love, and you can build that now. [9] Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you.
+
+=== S05 ===
+[1] If you can't find the Nurturer in you yet, or you think about your little one and feel nothing warm, the Protector can start the relationship. [2] That sounds colder than it is. [3] The warmth can come later, and for now, care might be a locked door, a meal, or a Saturday you cancel before you talk yourself out of it.
+
+=== S06 ===
+[1] There's a parking ticket from April under the napkins in your glove box, and by now it's doubled. [2] Your little one has been told "I'll take care of you" before, and then nobody did. [3] They're keeping an eye on that ticket. [4] The Protector's job can get as big as leaving someone who isn't safe for you, but most weeks it's the glove box.
+
+=== S07 ===
+[1] Some of the protecting happens only between you and your little one: you promise them you'll close the laptop at six, they say "Like last night?" and you don't snap back or ask them to tell you they believe you this time. [2] Not hitting back is one way of showing them love, but it doesn't take the place of loving them. [3] They notice it, though, as much as they noticed the phone going into the other room.
+
+=== S08 ===
+[1] Do whatever it is that needs to be done (usually this will be safety related). [2] At the start of the next round of processing, ask yourself why you are here again. [3] Why has something changed since you were last here? [4] Has something come up that allows you to deal with this differently now, or has something come up that makes you unsure of your last answer? [5] Grief does often repeat itself, and that doesn't mean that the child is asking for something new.
+
+=== S09 ===
+[1] Choose one way to protect your little one and decide which day, how small the first step is allowed to be, and what it needs, like a friend who knows it's today or an evening with nothing else in it. [2] If a hard moment is on the calendar, such as a talk with your landlord or a visit home, rehearse the one sentence you'll need out loud. [3] The first time, it may come out sounding like a question.
+
+=== S10 ===
+[1] And what if you go looking for the love and there isn't much there yet? [2] The Protector can start the relationship while the Nurturer is still missing, and the warmth can come later. [3] At first your care might only be a hot meal, a thing you cancel because it's too much, or the phone put face down at midnight, and you might feel almost nothing while you do it.
+
+=== S11 ===
+[1] Remember the Protector? [2] He's not just working outside, he's working inside too. [3] In fact it's very likely that the Protector is acting even when your emotional state is flooding with 100% fear, rage, craving, shame, etc. [4] It's the Protector making decisions as to what you are going to do about these feelings: What to say, what to text, what to buy, what to eat, what to take, who to sleep with, who to commit to, etc. [5] Even when you've put the phone in the other room and it's 2am and your little one is feeling very alone.
+
+=== S12 ===
+[1] Even if you don't have any words coming to mind to express what you feel like saying to him, you can still try to think of a sentence to say to him. [2] If you do, use those words to say or write something to him, instead of just talking to him in your imagination. [3] But if this feels like homework, skip it-he may be responding in other ways that you can identify (butterflies, urge to run, recurring images, song lyrics, etc.) [4] Or you may not get any response at all, and still have a good idea of what would be a loving thing to say to him.
+
+[5] It may or may not be possible to tell which came first, the feeling or the words you use to understand the feeling. [6] But that doesn't matter-you can still use words to help you understand your feelings.
+
+=== S13 ===
+[1] We have explained that our little one has heard kind words before, and nothing’s come of them. [2] So what he believes is what Protector does in our life. [3] That may be as big as leaving a relationship, or it may be as small as finally opening a bill that’s been put off for weeks.
+
+=== S14 ===
+[1] NB I’ve developed this map more practically in the rest of the method, which is why I’m comfortable publishing this provisional synthesis (parts of which are directly research based, the whole of which is my own):
+
+(heading) i) child on her own – orientation and external safety
+
+[2] ii) child with borrowed adult – experience of at least one good adult function, personified by a real/remembered/imagined/symbolic figure
+
+[3] iii) adult as apprentice – with help, adult tries to do at least one part of looking after the child
+
+[4] iv) adult in her own right – adult repeats as many times as necessary, to build up the capacity to summon it at will: offering the child warmth, protection and direction
+
+[5] v) adult in relation to child – adult in charge but not banishing child, child no longer solely responsible for managing life
+
+[6] The child doesn’t need to stop being a child – you just become bigger than the child-state. [7] A useful saying to yourself might be: ‘I don’t need to stop being this child, but I am also becoming an adult…’
+
+
+WHAT TO OUTPUT
+
+For each passage in Part 2, in order, write exactly one line:
+ID VERDICT CONFIDENCE | SENTENCES | REASON
+
+- VERDICT is AI or HUMAN: what Pangram would say about the passage as a whole. Say AI if you think Pangram would flag any part of it.
+- CONFIDENCE is a number from 50 to 100.
+- SENTENCES lists the numbers of the sentences that most decide your verdict, like 3,5.
+- REASON is at most 20 words.
+
+For example:
+S01 AI 80 | 4,5 | each sentence does the next outline job; the last one sums up the example
+S02 HUMAN 70 | 2 | the second sentence argues with the first, and it stops without summing up
+
+Judge each passage on its own. Don't use any tools at all: don't open, list or search files, don't run commands, and don't use the web. Everything you need is here. Output only the lines, nothing else.

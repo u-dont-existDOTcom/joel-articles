@@ -1,0 +1,58 @@
+{
+ "P01": {
+  "name": "B07 draft",
+  "label": "AI"
+ },
+ "P02": {
+  "name": "control FAIL_mpv_p3_d1",
+  "label": "AI"
+ },
+ "P03": {
+  "name": "control PASS_mpv_p2_can_show",
+  "label": "HUMAN"
+ },
+ "P04": {
+  "name": "B10 emulate",
+  "label": "HUMAN"
+ },
+ "P05": {
+  "name": "control PASS_mpv_p4a_x1b",
+  "label": "HUMAN"
+ },
+ "P06": {
+  "name": "B09 draft",
+  "label": "AI"
+ },
+ "P07": {
+  "name": "B21 emulate",
+  "label": "HUMAN"
+ },
+ "P08": {
+  "name": "B23 emulate",
+  "label": "HUMAN"
+ },
+ "P09": {
+  "name": "control FAIL_mpv_p4b_y1b",
+  "label": "AI"
+ },
+ "P10": {
+  "name": "A18 draft",
+  "label": "AI"
+ },
+ "P11": {
+  "name": "B12 emulate",
+  "label": "HUMAN"
+ },
+ "P12": {
+  "name": "A10 draft",
+  "label": "AI"
+ },
+ "P13": {
+  "name": "B15 emulate",
+  "label": "HUMAN"
+ },
+ "P14": {
+  "name": "A08 draft",
+  "label": "AI"
+ }
+}

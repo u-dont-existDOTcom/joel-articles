@@ -1,0 +1,58 @@
+{
+ "S01": {
+  "name": "control PASS_mpv_p2c",
+  "label": "HUMAN"
+ },
+ "S02": {
+  "name": "control FAIL_mpv_p4b_y2f",
+  "label": "AI"
+ },
+ "S03": {
+  "name": "B23 draft",
+  "label": "AI"
+ },
+ "S04": {
+  "name": "control PASS_mpv_p1_joel_underlying_no_bread",
+  "label": "HUMAN"
+ },
+ "S05": {
+  "name": "B12 draft",
+  "label": "AI"
+ },
+ "S06": {
+  "name": "B21 draft",
+  "label": "AI"
+ },
+ "S07": {
+  "name": "B10 draft",
+  "label": "AI"
+ },
+ "S08": {
+  "name": "A08 emulate",
+  "label": "HUMAN"
+ },
+ "S09": {
+  "name": "B15 draft",
+  "label": "AI"
+ },
+ "S10": {
+  "name": "control FAIL_mpv_p3_d2",
+  "label": "AI"
+ },
+ "S11": {
+  "name": "B09 emulate",
+  "label": "HUMAN"
+ },
+ "S12": {
+  "name": "A18 emulate",
+  "label": "HUMAN"
+ },
+ "S13": {
+  "name": "B07 emulate",
+  "label": "HUMAN"
+ },
+ "S14": {
+  "name": "A10 emulate",
+  "label": "HUMAN"
+ }
+}

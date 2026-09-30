@@ -10,6 +10,11 @@ Section 1 ("The New Age May Dawn Suddenly") passes Pangram but isn't ready:
   - He approved the East Wind deletion too, but on my wrong premise, so it's open again (`ic01-TRACE-FINDINGS.md`).
   - Use the Pangram credits; skip the whole-article checks when every section passes.
 
+**Next (2026-09-30, 17:40 UTC):**
+- `community-section1-side-by-side.html` shows the original beside the candidate, with my recommendation for every change that matters.
+- Once Joel answers, the fixes go in under the shared rules: `AGENTS.md`, `docs/HUMANIZATION-GATE.md` and `docs/EMULATE-FALLBACK.md` on branch `claude/universal-humanization-rules-20260930`, then `main`.
+- The rules this experiment's directive set for itself no longer govern article work.
+
 Files:
 - `ic01-fixlog.json`: the 12 logged changes, with the words before and after, and why.
 - `emulate-api/`: the four Emulate API versions, exact. Two calls each went to the opening paragraph and the escuelita paragraph, each sent alone.

@@ -1,5 +1,7 @@
 # Overnight run: Emulate and Pangram
 
+> **Superseded for article work (2026-09-30).** This directive's rules, including the choosing rule and the fix rule, were written for the learning run. Every humanization pass on any article now runs the shared rules: `AGENTS.md`, `docs/HUMANIZATION-GATE.md` and `docs/EMULATE-FALLBACK.md`. Joel, 17:09 UTC: "whenever any article is being humanized the same universal joel-articles or pangram-humanization repo rules should be applied, make sure it's not just a per convo silo of rules". This file stays as the record of how the run was done.
+
 **For GPT.** Written by Claude for Joel on 2026-09-28. Paths are relative to `articles/inner-child-therapy/experiments/emulate-20260929/` in the `joel-articles` repo, unless they start with `tools/`. Those are in `articles/inner-child-therapy/tools/`.
 
 ## Who does what
