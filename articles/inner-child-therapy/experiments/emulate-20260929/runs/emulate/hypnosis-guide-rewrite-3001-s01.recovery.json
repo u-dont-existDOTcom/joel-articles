@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:17:31.260Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "5fbdf9d62f6f254ce5f855df39554ed48438afe57f0eb34ffd985360c3b19bae",
   "A_html_sha256": "f5f544bcaeacf4d47bfdcb8e982ff8e7225d797964a17d24c7401846296c44fd",
-  "title": "Demons and hostile presences4h ago"
+  "title": "Demons and hostile presences4h ago",
+  "A_page_sha256": "5fbdf9d62f6f254ce5f855df39554ed48438afe57f0eb34ffd985360c3b19bae",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.713Z"
 }

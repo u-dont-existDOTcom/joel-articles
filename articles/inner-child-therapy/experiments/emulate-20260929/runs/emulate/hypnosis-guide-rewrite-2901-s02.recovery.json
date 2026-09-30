@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:17:33.539Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "735d76571b654d9c971aec90a3255537318c2f598df70870084ca254f0d708c9",
   "A_html_sha256": "bbcbf0f83d37a7066aa00a517a16ca5da7f3d2d8e612d546bf55776307a9fdc2",
-  "title": "Stabilize before4h ago"
+  "title": "Stabilize before4h ago",
+  "A_page_sha256": "735d76571b654d9c971aec90a3255537318c2f598df70870084ca254f0d708c9",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.714Z"
 }

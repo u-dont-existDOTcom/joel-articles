@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:18:12.686Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "969c133b8ff2d976faf169ade39d6027570d0f951cd4298fa13f9dd044519ab7",
   "A_html_sha256": "ceb2cacce4cc6a6e486481ccab6c3a063526421f59d75203fc42bd236480698c",
-  "title": "Nervous system healing4h ago"
+  "title": "Nervous system healing4h ago",
+  "A_page_sha256": "969c133b8ff2d976faf169ade39d6027570d0f951cd4298fa13f9dd044519ab7",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.713Z"
 }

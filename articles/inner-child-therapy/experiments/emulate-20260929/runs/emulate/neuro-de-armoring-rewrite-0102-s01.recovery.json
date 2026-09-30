@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:17:27.061Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "7e1ecf9bd17b453981c9def94b45cc168f1062a135a25a76b7f7d468d35dd015",
   "A_html_sha256": "9d90e421460cde2d00b8b7539982558a36b22b0fecb253c0f075eae626c8cc63",
-  "title": "Neural de-armoring protocol4h ago"
+  "title": "Neural de-armoring protocol4h ago",
+  "A_page_sha256": "7e1ecf9bd17b453981c9def94b45cc168f1062a135a25a76b7f7d468d35dd015",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.713Z"
 }

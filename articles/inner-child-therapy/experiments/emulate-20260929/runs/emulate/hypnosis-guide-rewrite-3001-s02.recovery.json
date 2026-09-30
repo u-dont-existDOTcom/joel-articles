@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:18:14.449Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "2952827d5095f762ef788d53080e27da148544e854c55008e956d81fde969cde",
   "A_html_sha256": "8e069bfdef457ab5259f8f9af24d39a1d63c15363ab731364e073a63b32de2d2",
-  "title": "Self-hypnosis safety and4h ago"
+  "title": "Self-hypnosis safety and4h ago",
+  "A_page_sha256": "2952827d5095f762ef788d53080e27da148544e854c55008e956d81fde969cde",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.713Z"
 }
