@@ -15,8 +15,10 @@ SLOTS = ROOT / 'trial-v3' / 'slots'
 SECRET_RE = re.compile(
     rb'(?:hf_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|'
     rb'gh[opusr]_[A-Za-z0-9_]{20,}|(?<![A-Za-z])sk-[A-Za-z0-9_-]{20,}|'
-    rb'(?:Authorization|Bearer|VENICE_API_KEY|VAST_API_KEY|HF_TOKEN|'
-    rb'GITHUB_TOKEN)\s*[:= ]\s*[A-Za-z0-9_./+-]{16,})', re.I
+    rb'Authorization\s*:\s*(?:Bearer|Basic)\s+[A-Za-z0-9_./+-]{16,}|'
+    rb'Bearer\s+[A-Za-z0-9_./+-]{20,}|'
+    rb'(?:VENICE_API_KEY|VAST_API_KEY|HF_TOKEN|GITHUB_TOKEN)'
+    rb'\s*[:= ]\s*[A-Za-z0-9_./+-]{16,})', re.I
 )
 NAME_SECRETS = {'.env', '.netrc', '.git-credentials', '.bash_history',
                 '.zsh_history', '.python_history', '.vast_api_key'}
