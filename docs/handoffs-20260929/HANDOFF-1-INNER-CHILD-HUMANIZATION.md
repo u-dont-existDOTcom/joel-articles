@@ -15,11 +15,11 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
   - `tells_lint.py`: the linter;
   - `reviewer/`: the reviewer prompts, including `grounding.txt` (guide-grounding and logic review, 2026-09-29);
   - `calibration/`: texts with known Pangram results.
-- **The current section's record:** `experiments/MAKE-THE-PROTECTOR-VISIBLE-20260928.md`, with lessons P1–P14.
+- **The current section's record:** `experiments/LOVE-DOESNT-WAIT-20260930.md` (the plan, each paragraph's rounds, lessons). The one before, Make the Protector Visible, is `experiments/MAKE-THE-PROTECTOR-VISIBLE-20260928.md`, with lessons P1–P14.
 
 ## Where the work stands
 
-*Updated 2026-09-30, turn 6 (04:46 UTC onward). Turn 6 fixed P1's "sweet things" line and P4's "both sides" line, both at Joel's request, and the relationship paragraph's danger line. Both sections still pass.*
+*Updated 2026-09-30, turn 7 (17:04 UTC onward). Turn 7 started "Love Doesn't Have to Wait for Trust": the h2 and P1–P6 are in, and together they're 100% Human (341 words). Turn 6 fixed P1's "sweet things" line and P4's "both sides" line in Not Every Hero, both at Joel's request, and the relationship paragraph's danger line.*
 
 **Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
@@ -33,16 +33,21 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 - Joel's Substack note as a bare URL. Keep it a bare URL on its own line: that's how Substack shows the preview.
 - The relationship paragraph: Joel's meditation wording with two logic fixes, a danger line, and his romance guide linked on "a relationship". The section is 100% Human (436 words).
 
-**Next:** "Love Doesn't Have to Wait for Trust", then "Make a Simple Vow", both under the same h1.
-- Run the grounding reviewer on every draft (`tools/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It now flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
+**Love Doesn't Have to Wait for Trust** (the guide's own h2, right after Not Every Hero): the h2 and P1–P6 are installed. The plan maps each guide paragraph to one article paragraph and cuts two repeats of Not Every Hero. It's in `articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md`, with each paragraph's rounds and results.
+- P3–P4 are the bedtime story and what it did, in Joel's first person. They're pending his answer on whether it's his memory (E71). If it isn't, P3–P5 switch to a general voice.
+- P6 is his "Big fuckity whoopty doo" exchange, word for word.
+
+**Next:** P7 (G7: you don't have to accept every conclusion; listen for the concrete complaint), then P8 (the Fred Rogers scene, checked against a script breakdown; leave out "pauses"), through P14, then "Make a Simple Vow".
+- Run the grounding reviewer on every draft (`tools/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
 - It also lists the reader's open questions, sized by a push knob (`--push tight|default|wide`; the default is `default`: small changes only). Take ASK AUTHOR items to Joel, and put parked ones in `articles/inner-child-therapy/PARKED-READER-QUESTIONS.md`, not in the article.
+- Give the cold read `"earlier": "section"` in the target, so it sees what a reader has already read.
 - End every turn with both pages:
   - the article: `tools/render_article_so_far.py`;
   - the in-context page: `tools/render_in_context.py tools/in-context/<map>.json OUT --since <the commit Joel last saw>`.
 
 **Open for Joel:**
-- the moved relationship paragraph (he hasn't said yet);
-- whether "get safe" should say that help counts (runs disagreed; see `PARKED-READER-QUESTIONS.md`).
+- whether the bedtime story is his memory (asked 2026-09-30, about 18:55 UTC);
+- the moved relationship paragraph (he hasn't said yet).
 
 ## How to check on Pangram
 

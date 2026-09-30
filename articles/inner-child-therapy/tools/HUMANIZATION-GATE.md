@@ -42,6 +42,7 @@ S2. **Write the sense chain.** One line per sentence:
 S3. **Cold read.** A fresh subagent that hasn't seen the source, the drafts or the plan reads the paragraph with the text before and after it. It gives the same per-sentence lines, and it lists every "what does this refer to?" and "why is this here?".
   - Its overall verdict is lenient. On 2026-09-27 it passed the Also Look Outward P1 that Joel says makes no sense, while its line notes named the same gaps he found. So the line notes are the gate: each one gets fixed, or answered in the record.
   - It did catch the old three-jobs paragraph ("No job is described").
+  - **Give it what a reader has already read (2026-09-30).** Early in a section, the paragraph before isn't enough. Three cold reads called "what you promised them" a claim from nowhere, but the section before says "Keep one small promise to your little one". With `"earlier": "section"` in the target, the prompt also carries the whole section before and this section's paragraphs up to the paragraph before. Given that, the same draft read OK.
 S4. **Only then humanize.** After any humanizing edit, redo S2 for the changed sentences, and S3 if a referent or the order changed.
 S5. **Owner notes about sense.** When Joel says a paragraph doesn't make sense, the whole paragraph goes through S1 to S3. Fixing only the sentence he quoted isn't enough (E86).
 S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the reviewer instance should have is checking whether the sentence not only makes sense based on the guide but whether it goes beyond the guide in a way that needs support from the guide." He also said "An article is not just a bunch of individual paragraphs."
@@ -112,6 +113,8 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
 
    A FAIL means rewrite the draft, not tweak it, then rerun. Never send a FAIL to Pangram.
 
+   When a paragraph is mostly Joel's quoted lines (his dialogue), pass them with `--owner`. Otherwise his lines count as mine. With them excluded, the frame can be 20-odd words, so one "you can" fails coach density on its own (Love Doesn't Wait P6: 4.0 per 100). There I changed "You can answer" to "You answer" (the form P2 already uses) rather than rewriting the frame, and said so in the record.
+
    Run it on each new paragraph alone, not only on the section. Over a section, coach density gets diluted. P5's first attempt was REVIEW inside the text up to P5 (1.8 coach phrases per 100) but hard-fails alone (2.3), and Pangram put it at 100% AI (2026-09-26).
 6. **Tell ledger in the drafts file.**
    - Every REVIEW item from the linter, with a disposition (KEEP, DELETE, REWRITE, MERGE, SUBORDINATE or MOVE) and why.
@@ -143,6 +146,7 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
    - **UNCERTAIN isn't a pass (E86, provisional).** More than three UNCERTAIN rows means rebuild before any Pangram call. Don't keep them with reasons.
    - **Prediction (E86).** Before each call, write Human or AI and why. Score it against the result in `tools/PREDICTIONS.md`.
    - **Retries (E86).** Each retry names its hypothesis. One that keeps the failed paragraph's skeleton, with the same order and the same moves, isn't a test.
+   - **Briefs get copied, meaning and all (2026-09-30).** In Love Doesn't Wait P2, all three round-two writers followed the brief's bullet order, and the result marched: two 100% AI. Round three named that order as the one that failed, and the writers reordered on their own. In P4, the brief said "went against the feeling of the moment" for the guide's "did argue with the emotional logic of the moment". All three writers copied it, and both grounding runs flagged it as a change of meaning. Quote the guide's phrase, or say plainly what it means; don't paraphrase it loosely.
    - **Stop rule.** If fixing one tell produces another (round 7: removing landings created six packed sentences), stop polishing. Diagnose at the level of structure, and take any change that moves or cuts preservation units to Joel.
 7. **Architecture.** Heading promise, entry and exit state, each paragraph's job, then one literal top-to-bottom read of the section in place.
    - **Shape questions, advisory (2026-09-26).** These come from SlopShape (Madler, [arXiv:2609.15369v2](https://arxiv.org/html/2609.15369v2)). It found AI blog posts share a structural shape that survives the model rewording them. Its core features include:

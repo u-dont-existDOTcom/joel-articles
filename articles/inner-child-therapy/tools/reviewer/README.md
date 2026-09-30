@@ -10,7 +10,7 @@ This is the method from 2026-09-28. The reviewer's validation is in `../REVIEWER
 - `writer.txt`: the writer's instructions. Carry out the tickets literally and change nothing else.
 - `writer_draft.txt`: a first draft from the brief, for a paragraph that has no draft yet. It carries what Pangram has shown about shape, as observations, not a checklist or sentence jobs. `reviewer.py draft` also adds Joel's own before/after fixes from `../JOEL-FIXES-CATALOGUE-20260928.md`, word for word.
 - `owner_bans.txt`: Joel's standing bans and cautions (2026-09-28). They're copied into the writer, ticket and draft prompts.
-- `sense.txt`: the cold reader's instructions. Sense only, one line per sentence.
+- `sense.txt`: the cold reader's instructions. Sense only, one line per sentence. With `"earlier": "section"` in the target, it also gets what the reader has already read: the whole section before, then this section up to the paragraph before (2026-09-30).
 - `grounding.txt`: the guide-grounding and logic reviewer (2026-09-29).
   - It reads the whole guide and the article up to the new text, plus Joel's rulings.
   - It rebuilds each claim against the guide, checks examples, repeats, support, logic and headings, and gives one line per sentence.
@@ -19,7 +19,12 @@ This is the method from 2026-09-28. The reviewer's validation is in `../REVIEWER
   - `--blind` leaves out the worked examples, for validation.
   - `--push tight|default|wide` sets how hard it pushes on the reader's open questions, and how much a fix may add (default: the target's `"push"`, else `default`). See `grounding-validation/PUSH-KNOB-20260930.md`. Questions below the level go to `../../PARKED-READER-QUESTIONS.md`.
   - Its validation cases are in `grounding-validation/`.
-- `targets/*.json`: for each paragraph being worked on, the paragraph before, the paragraph after, and the meaning to keep. Write the meaning as bare points; writers reuse the brief's wording.
+- `targets/*.json`: for each paragraph being worked on, the paragraph before, the paragraph after, and the meaning to keep. Write the meaning as bare points; writers reuse the brief's wording, and its order. Optional keys:
+  - `length`: the length line for the writers (for example "two or three sentences, 30 to 60 words");
+  - `voice`: replaces "in the second person like the paragraphs around it" (for example "in Joel's first person, as his own memory");
+  - `cut`: the text the article is cut after for the grounding prompt, when the paragraph before is the article's last so far; `append` adds text after the cut (a new h2);
+  - `earlier`: `"section"` gives the cold reader the section before too (see `sense.txt`);
+  - `push`, `rulings`, `guide_passage`, `next`: for the grounding review.
 - `human_items.manifest.json`: the human-prose test set, with sources and hashes. The texts go in `local/human_items.json`, which is kept out of git.
 - `reviewer.py`: builds every prompt. Run `python3 reviewer.py -h`.
 

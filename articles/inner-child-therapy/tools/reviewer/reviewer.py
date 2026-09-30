@@ -242,14 +242,38 @@ def build_draft(target):
         w = w.replace('{%s}' % k, t[k])
     if t.get('length'):  # a target can set its own length (e.g. two guide paragraphs merged into one)
         w = w.replace('two or three sentences, 50 to 80 words', t['length'])
+    if t.get('voice'):  # e.g. Joel's own story, told in his first person
+        w = w.replace('in the second person like the paragraphs around it', t['voice'])
     i = w.index('Write the paragraph:')
     return w[:i] + joel_fixes() + '\n\n' + w[i:]
+
+
+def earlier_section(t):
+    # What a reader who got this far has read just before the paragraph before: the whole section before this
+    # one, then this section's heading and any of its paragraphs up to the paragraph before. For a paragraph early
+    # in a section, the paragraph before is too little: on 2026-09-30 the cold reads called "what you promised
+    # them" a claim from nowhere, while the section before says "Keep one small promise to your little one"
+    # (target key "earlier": "section").
+    art = re.sub(r'<!--.*?-->', '', ARTICLE_MD.read_text(encoding='utf-8'), flags=re.S)
+    i = art.find(t['before'])
+    if i < 0:
+        sys.exit("the target's paragraph before isn't in the article yet, so what comes earlier can't be found")
+    heads = [m.start() for m in re.finditer(r'(?m)^#{1,3} ', art[:i])]
+    if not heads:
+        return ''
+    start = heads[-2] if len(heads) > 1 else heads[-1]
+    return re.sub(r'\n{3,}', '\n\n', art[start:i]).strip()
 
 
 def build_sense(draft, target):
     t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
     s = read('sense.txt')
-    return s.replace('{before}', t['before']).replace('{after}', t['after']).replace('{draft}', numbered(draft))
+    earlier = ''
+    if t.get('earlier') == 'section':
+        earlier = ('Earlier in the article (the reader has already read this):\n'
+                   + earlier_section(t) + '\n\n')
+    return (s.replace('{earlier}', earlier).replace('{before}', t['before']).replace('{after}', t['after'])
+            .replace('{draft}', numbered(draft)))
 
 
 def build_human_test(outdir):
@@ -342,12 +366,15 @@ def build_grounding(draft, target, blind=False, push=None):
         g = g[:a] + g[b:]
     art = t.get('article_upto')
     if art is None:
-        full, tail = article_text(), re.sub(r'\s+', ' ', t['before'].strip())[-80:]
+        # 'cut' is where the article stops, when 'before' carries notes for the writers (e.g. a new heading)
+        full, tail = article_text(), re.sub(r'\s+', ' ', (t.get('cut') or t['before']).strip())[-80:]
         flat = re.sub(r'\s+', ' ', full)
         k = flat.rfind(tail)
         if k < 0:
             sys.exit("the target's 'before' isn't in the article; give 'article_upto' in the target")
         art = flat[:k + len(tail)]
+        if t.get('append'):  # text that isn't in the article yet but comes before the new text (a new heading)
+            art += '\n\n' + t['append']
     d = numbered(re.sub(r'^#+\s*', '', draft, flags=re.M)).replace('(heading) ', '[H] ')
     for k, v in (('{guide}', guide_text()), ('{article}', art), ('{guide_passage}', t['guide_passage']),
                  ('{next}', t.get('next', '(not given)')), ('{rulings}', t.get('rulings') or '(none)'), ('{push}', PUSH[push]), ('{draft}', d)):

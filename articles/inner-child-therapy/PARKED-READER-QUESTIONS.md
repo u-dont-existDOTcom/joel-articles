@@ -8,9 +8,10 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 - 2026-09-30 · Not Every Hero Wears A Cape, P4 · Which act do I start with? · default (parked)
 - 2026-09-30 · Not Every Hero Wears A Cape, P4 · Does rehearsing help with hard moments that aren't conversations, like opening the envelope? (The guide's "predictable difficult moment" is wider than a talk.) · default (parked)
-- 2026-09-30 · Also Look Outward, relationship paragraph · "Get safe" doesn't say how to start, or that help counts. The default run found it answered later (Borrow One Competency's "ask for help"); the wide run called it an open MUST. **Ask Joel.** · wide vs default
 - 2026-09-30 · Later sections · The guide says "leave" in other places too ("Leave the situation that keeps injuring you."; "leave when staying requires disappearance"). Joel's 09-30 rethink of "leave it" will need applying when those sections come up. · noted by the wide run
+- 2026-09-30 · Love Doesn't Have to Wait for Trust, P4 · Did she still send me to bed? That is, did the love go along with the boundary? Only Joel's memory can answer it; the guide doesn't say. · COULD (parked)
 
 ## Answered or used
 
 - 2026-09-30 · Also Look Outward, relationship paragraph · How does the reader tell it's been dangerous, right after being told the unsafe feeling may come from inside them? All three push levels raised this as a MUST. Fixed: "But if they've actually hurt or threatened you, even once, old stuff or not, get safe first…"
+- 2026-09-30 · Also Look Outward, relationship paragraph · The wide run's point was that "get safe first" names the goal but no first step, so a reader in danger could hear "leave, alone, right now" (the guide's first steps are "lock the door, call somebody, go to a doctor, get legal advice, or leave"). Claude's "help counts" was a bad paraphrase of that. Joel (17:03): "i'm not sure how 'getting help counts' adds something to 'get safe'". Left as is: two sections later, Borrow One Competency has "leave, or lock the door and get help".
