@@ -19,20 +19,30 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where the work stands
 
-*Updated 2026-09-29, turn 3 (19:14 UTC onward).*
+*Updated 2026-09-30, turn 5 (03:34 UTC onward).*
 
-The section is under `# Building Trust With Your Little One`. Its h2 is Joel's `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked on 2026-09-28 only because it was the one h2 of six that passed Pangram, and it didn't fit. Joel: "This is about making the protector visible, not keeping your word". Never pick a heading by its Pangram result (`tools/HUMANIZATION-GATE.md`, "Headings").
-- **P1 is Joel's paragraph:** his "What's a 'boundary'?" fix, with "So" removed and his self-love sentence added. Keep it exact.
-- **P2 is Claude's** ("You can protect your little one from yourself too…"). It carries Joel's two logic corrections, "if they're right" and evidence of safety and acceptance in place of proof of love. It also carries three fixes from the grounding reviewer.
-- **P3 is Joel's** ("Plenty of people are still at the putting-up-with part…").
-- The section passes Pangram, 100% Human (387 words).
-- **Next is guide paragraph 4, whole:** "make one act specific", "rehearse" and "afterward, look at what actually happened".
-  - The 2 a.m. paragraph is out for now.
-  - Run the grounding reviewer on every draft (`tools/reviewer/reviewer.py grounding`), with Joel's rulings in the target.
-- **After this section:** "Love Doesn't Have to Wait for Trust", then "Make a Simple Vow". Both are under the same h1.
-- **Open questions for Joel:**
-  - his self-love sentence ("The only reason…");
-  - the moldy bread, which repeats the Borrow section's old food.
+**Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`tools/HUMANIZATION-GATE.md`, "Headings").
+- **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
+- **P2 is Claude's**, with Joel's logic corrections.
+- **P3 is Joel's.**
+- **P4 is Claude's x1b** with Joel's ending.
+- **P5 is Joel's final.**
+- The section is 100% Human (539 words, with both headings).
+
+**Also Look Outward** (under `# Before You Try to Go Deep`) now has, after "You may not know for certain…":
+- Joel's Substack note as a bare URL. Keep it a bare URL on its own line: that's how Substack shows the preview.
+- The relationship paragraph: Joel's meditation wording with two logic fixes, a danger line, and his romance guide linked on "a relationship". The section is 100% Human (436 words).
+
+**Next:** "Love Doesn't Have to Wait for Trust", then "Make a Simple Vow", both under the same h1.
+- Run the grounding reviewer on every draft (`tools/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It now flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
+- End every turn with both pages:
+  - the article: `tools/render_article_so_far.py`;
+  - the in-context page: `tools/render_in_context.py tools/in-context/<map>.json OUT --since <the commit Joel last saw>`.
+
+**Open for Joel:**
+- the moved relationship paragraph and its danger line;
+- the MISFIRES flag on his P4 ending (does the back-and-forth keep the "no"?);
+- "sweet things and then did nothing" in P1, which gives every reader the same history (2 runs).
 
 ## How to check on Pangram
 
@@ -58,7 +68,7 @@ Stay inside `/home/joel/ai-work/claude-dangerous-lane` on the laptop.
 ## Joel's standing rules for this project
 
 - One paragraph at a time. Check each paragraph on Pangram alone and in its section, with its headings.
-- Show every draft in context, next to the guide's original.
+- Show every draft in context, next to the guide's original (`tools/render_in_context.py` makes the page; Joel, 2026-09-30: "make that durable").
 - Report every cut and every move in the same message.
 - Never use "the kid". Invent no facts about Joel's life. Don't polish Joel's words.
 - Banned: "doesn't get to decide", "Fine," / "Good," / "Great," as a clause of their own, and wry humor. Don't overuse made-up scenes.

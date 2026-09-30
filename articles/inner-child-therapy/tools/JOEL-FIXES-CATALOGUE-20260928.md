@@ -180,3 +180,23 @@ The flagged last sentence stayed word for word. What cleared it was a new senten
   - check every example against the job it's offered for, even when the guide's own list supplies it (the guide files eating under the Protector twice);
   - cut examples that repeat earlier ones instead of rewording them;
   - end on a plain statement of what the acts are for ("a base for love to grow"), not on a technique.
+
+## Joel's fixes, 2026-09-30 03:29 UTC
+
+**P4's ending.** "i like how you're integrating prior examples in parentheticals i feel that's human-sounding (in P4). The last sentence in p4 was not what i was expecting/hoping for. A question isn't necessarily a bad way to put things." His ending in place of "At first it'll probably come out sounding like a question.": "Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough." (Pangram, Claude's check: P4 100% Human, 100 words.)
+- Keep doing: a callback to an earlier example in parentheses ("(like with the envelope)").
+- A practice paragraph ends on the next move of the practice, not on a prediction of how the reader will sound. Mine also quietly judged sounding unsure, which he doesn't.
+
+**P5, his final** (Human/medium on his check), built on z1 (44% AI, its last two sentences flagged):
+- "If you did it" became "If you did the protector action(s)". The paragraph before had ended on a hard conversation, so the nearest "it" was the wrong one ("for P5 the first 'it' is unclear referent… You explained in the next sentence"). No reviewer caught it: grounding and cold read, 4 runs, all read "it" as the act. Name the thing at a paragraph's start; `tells_lint.py` R1 now warns on "did it"-type openers.
+- "doesn't mean it failed" became "is information to learn from. It doesn't mean failure, because the process is dynamic." That turns the no-relief case into something to use, and gives a reason.
+- The flagged span shrank. "Fear is the first guess, and it might be right, but maybe you didn't know how, or weren't sure what you were going for." became "Fear is the first guess, but maybe you didn't know how or why." The hedge "and it might be right" went, and the two reasons folded into "how or why".
+- He kept "Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it." word for word, and added a warm aside with an emoji: "Hey, we've all been there. 🤗"
+- My rewrite of the same span (z1b, his causal chain) had gone to 100% AI. His fix cut words where mine added reasoning.
+
+**The relationship line in P1.** He rethought the guide's "Leave a relationship that keeps eroding safety" from his own experience: someone can feel less and less safe with a partner for reasons that come from inside them, so "leave it" is too simple ("it just depends on how things were going for [them] at the time"). His wording: "meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship." "Although that might deserve its own section, idk."
+- In P1 it tested 100% AI (132 words), and so did a version with a danger line (150). On its own, as a paragraph in Also Look Outward, it's 100% Human (58; 61 with the fixes). The same words read differently in a list of visible acts than in a section about looking at a relationship.
+- He asked whether I could have seen the problem. The article already teaches that a hook can be old material; "leave it" acted on the less-safe feeling as settled. The reviewer passed it because it matched the guide. MISFIRES now tests instructions against different readers (`reviewer/grounding-validation/RESULTS-20260930.md`).
+
+**His Substack note.** Embedded by bare URL in Also Look Outward, because "it reads also more human and captivating when it's a back-and-forth discussion with other substackers rather than just the narrative voice all the time". Other voices in the piece are a humanizing move of their own, and they're real, not staged.
+

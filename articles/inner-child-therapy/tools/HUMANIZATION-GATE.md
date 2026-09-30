@@ -55,6 +55,7 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
     - examples in the right job, even when the guide's own list mixes them;
     - repeats of anything already in the article;
     - claims that go beyond the guide without support;
+    - instructions tested against three or four different readers and the article's own model of people, even when they carry the guide faithfully (MISFIRES, 2026-09-30). The guide's "Leave a relationship that keeps eroding safety" passed every review, and Joel showed it misfires for someone whose less-safe feeling comes from inside them, which the article itself teaches (a hook can be old material). Look hardest at costly or hard-to-undo instructions;
     - non sequiturs, and contradictions with the article's stances;
     - whether the paragraph does one guide paragraph's job;
     - the heading's promise;
@@ -69,6 +70,7 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
     - Blind v1, on Joel's 2026-09-29 catches: it caught "proof you love them", "tends to come later" and the "Keep Your Word" heading. It missed the dropped "if they're right", and it missed the meal and the cancelled obligation twice, because it trusted the guide's own example list.
     - v2 adds Joel's rulings as an input, the sentence-shape note, the guide-list note and the figurative-heading rule. On held-out text with planted errors it caught 5 of 5: a dropped safety condition, "can" turned into "will", a hug offered as a protecting act, a repeated example, and an off-topic h2.
     - Controls: Joel's P3 came back clean, and his heading passed. The flags that recur on the current section (his self-love sentence, the moldy bread) are open questions for him, not errors.
+    - v3 (2026-09-30, `RESULTS-20260930.md`) adds MISFIRES. Blind, it caught Joel's point on the old P1 ("leave it" for a reader whose "less safe" is the old alarm) and a gap in his new wording (a reader in danger told to look inward first). It gave no MISFIRES flags on two accepted controls. A referent check for Joel's "If you did it" missed 4 times out of 4, in this review and in the cold read, so it was taken out; `tells_lint.py` R1 warns on an action "it" near a paragraph's start instead.
   - **Treat it like the other reviewers:** a strong lead, not a verdict. Recheck it whenever the prompt, the model or the route changes.
 
 0. **Owner edits and claims go in the ledger first (E85; Joel, 2026-09-27 21:18: "so how can we prevent that kind of error in future where you say you will write something and don't write it?").**
@@ -155,6 +157,7 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
    - **End of every owner-facing turn: the whole article (OWNER-FACING-TURN-CONTRACT; Joel, 2026-09-26 23:38: "always give me the full humanized article up til what we had, at the end of every turn").**
      - Update `HUMANIZED-ARTICLE-SO-FAR.md` with the accepted prose and the current owner-review candidate in place. The candidate goes under a `<!-- CANDIDATE: … -->` note, so it's never shown as accepted.
      - Run `tools/render_article_so_far.py`, and send the HTML file with the reply.
+     - **The in-context page too (Joel, 2026-09-30: "I like how you are doing this original vs new diff, that's good make that durable").** Write a small map for the turn in `tools/in-context/` (labels, the start of each paragraph, the guide paragraphs, a note per row). Then run `tools/render_in_context.py MAP OUT --since <the commit Joel last saw>` before committing, and send the page with the article. It sets the guide's original next to each paragraph, highlights words added since the version he last saw, strikes the words cut, and marks new paragraphs. The text comes from the article and the guide, not from the map, so the page can't show something that isn't installed.
    - **Owner edits (step 0).** The render's check has to pass. A red box means something a record calls done isn't in the article: fix it before sending, or correct the record.
    - **Clock (Joel, 2026-09-26: "a quick check at beginning and then at the end so i know how long it took… nothing in the middle").** Read the clock once when a turn starts and once at the end, and report both. Date each Pangram record and name its turn; don't read the clock mid-turn to time it. Never write a minute that wasn't read.
 
@@ -168,7 +171,7 @@ These go into every writer and reviewer prompt (`reviewer/owner_bans.txt`), and 
 - Wry humor. Joel: "wry in a strange way which i can't pin down". His is goofy and glad.
 - Too many made-up scenes: a caution, not a ban. Joel, 20:13: "i'm not saying to ban made-up scenes, they can be useful, but you're overusing them here". Carry the guide's own examples first.
 - Over-explaining listicles. Lists themselves are fine: "I have human and humanized paras with instructions and lists that DO pass". His way with a list is in Borrow One Competency's first paragraph (each item its own sentence, "Perhaps… Perhaps… Maybe… Even…", ending on the oddest one).
-- Show every draft in context, next to the guide's original (Joel: "from now on, you need to show me your work in context").
+- Show every draft in context, next to the guide's original (Joel: "from now on, you need to show me your work in context"). `tools/render_in_context.py` makes that page (step 9).
 
 ## What the linter checks
 
@@ -186,6 +189,7 @@ These go into every writer and reviewer prompt (`reviewer/owner_bans.txt`), and 
   - "kid";
   - packed or list sentences (B4/E15);
   - short knock-downs (B3);
+  - an action "it" ("did it", "do it", "tried it") in a paragraph's first two sentences (R1, 2026-09-30): name the thing instead. Joel caught "If you did it" after a paragraph that ended on a hard conversation, and no reviewer did;
   - short paragraph-final lines;
   - second person above 6 per 100 (a review note only since 2026-09-26: density didn't separate Pangram results);
   - with `--source`: the draft follows the source's order (D9). That's a note, not a failure. Organization is fine when the prose notices things (T13); since 2026-09-26 this is no longer a hard fail.

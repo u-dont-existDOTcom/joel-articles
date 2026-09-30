@@ -15,7 +15,8 @@ Both times the claim described a draft or a plan, and nothing compared it with t
 
 OWNER-EDITS.json lists each edit Joel gives and each claim about what a paragraph covers.
 Each entry has strings the article's visible text must contain, must not contain, or must
-have in order. This script checks them against HUMANIZED-ARTICLE-SO-FAR.md, reading it
+have in order. An entry can also list links (must_link: text and url) the article must
+have; those are checked on the text with comments removed but link targets kept. This script checks them against HUMANIZED-ARTICLE-SO-FAR.md, reading it
 without comments, link targets or emphasis marks, and with curly quotes made straight.
 render_article_so_far.py runs it every time. A failure goes in a red box at the top of the
 article Joel gets, and the render exits 1.
@@ -49,9 +50,12 @@ def visible(md):
     return norm(re.sub(r'<!--.*?-->', ' ', md, flags=re.S))
 
 
-def check_entry(e, text):
+def check_entry(e, text, raw=''):
     """Return a list of failure strings for one entry."""
     fails = []
+    for l in e.get('must_link', []):
+        if ('[%s](%s)' % (l['text'], l['url'])).translate(QUOTES) not in raw:
+            fails.append('link missing: [%s](%s)' % (l['text'], l['url']))
     for s in e.get('must_contain', []):
         if norm(s) not in text:
             fails.append('missing: "%s"' % s)
@@ -82,14 +86,16 @@ def check_entry(e, text):
 
 
 def run(article=ARTICLE, ledger=LEDGER):
-    text = visible(pathlib.Path(article).read_text(encoding='utf-8'))
+    md = pathlib.Path(article).read_text(encoding='utf-8')
+    text = visible(md)
+    raw = re.sub(r'<!--.*?-->', ' ', md, flags=re.S).translate(QUOTES)
     data = json.loads(pathlib.Path(ledger).read_text(encoding='utf-8'))
     out = {'failed': [], 'waiting': [], 'looks_applied': [], 'passed': 0}
     for e in data['entries']:
         st = e.get('status')
         if st == 'superseded':
             continue
-        fails = check_entry(e, text)
+        fails = check_entry(e, text, raw)
         if st in ('applied', 'claim'):
             if fails:
                 out['failed'].append({'id': e['id'], 'what': e['what'], 'fails': fails})
@@ -97,7 +103,7 @@ def run(article=ARTICLE, ledger=LEDGER):
                 out['passed'] += 1
         elif st == 'pending':
             out['waiting'].append({'id': e['id'], 'what': e['what'], 'waits_for': e.get('waits_for', '')})
-            if not fails and (e.get('must_contain') or e.get('order') or e.get('span')):
+            if not fails and (e.get('must_contain') or e.get('order') or e.get('span') or e.get('must_link')):
                 out['looks_applied'].append(e['id'])
         else:
             out['failed'].append({'id': e.get('id', '?'), 'what': e.get('what', ''),

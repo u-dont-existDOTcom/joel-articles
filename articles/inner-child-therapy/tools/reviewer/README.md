@@ -14,6 +14,7 @@ This is the method from 2026-09-28. The reviewer's validation is in `../REVIEWER
 - `grounding.txt`: the guide-grounding and logic reviewer (2026-09-29).
   - It reads the whole guide and the article up to the new text, plus Joel's rulings.
   - It rebuilds each claim against the guide, checks examples, repeats, support, logic and headings, and gives one line per sentence.
+  - Since 2026-09-30 it also tests every instruction, even a faithful carry of the guide, against different readers and the article's own model of people (flag MISFIRES; `grounding-validation/RESULTS-20260930.md`).
   - Build a prompt with `reviewer.py grounding DRAFT TARGET OUT`. The target needs `guide_passage`, and can have `next`, `rulings` and `article_upto`.
   - `--blind` leaves out the worked examples, for validation.
   - Its validation cases are in `grounding-validation/`.

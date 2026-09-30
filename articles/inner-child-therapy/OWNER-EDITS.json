@@ -373,7 +373,7 @@
   },
   {
    "id": "mpv-p1-underlying",
-   "status": "applied",
+   "status": "superseded",
    "what": "P1's self-love sentence says \"underlying reason\", not \"only reason\".",
    "joel": "2026-09-29 20:35 UTC: \"that's good you caught my own error, lack of self love isn't the only reason to stay in an unsafe relationship, but it is the underlying reason. if you lack self love, all the others will follow: uncertainty about your goals, lack of skill follows that uncertainty, exhaustion follows that uncertainty and the lack of skill, practical barriers are less actual barriers when the goal is understood to be self love\"",
    "must_contain": [
@@ -381,7 +381,8 @@
    ],
    "must_not_contain": [
     "The only reason you're in it anyway"
-   ]
+   ],
+   "superseded_by": "rel-meditate-moved"
   },
   {
    "id": "mpv-p1-moldy-cut",
@@ -405,6 +406,82 @@
    ],
    "must_not_contain": [
     "can be as visible to them"
+   ]
+  },
+  {
+   "id": "rel-meditate-moved",
+   "status": "applied",
+   "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start.",
+   "joel": "2026-09-30 03:29 UTC: \"ok but now i'm rethinking the \\\"underlying reason your in it\\\" part because i'm remembering [a past relationship] [...] So now the advice to leave the relationship becomes more tricky with that in mind. I can't say she should have left me or not left me... it just depends on how things were going for her at the time. [...] Maybe instead of \\\"leave it\\\" and explaining why youre in it, just say, \\\"meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.\\\" Although that might deserve its own section, idk. I also have a romance guide i could link to at romance.u-dont-exist.com (link works even if not for you).\"",
+   "must_contain": [
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship."
+   ],
+   "must_not_contain": [
+    "The underlying reason you're in it anyway",
+    "keeps making you less safe, leave it"
+   ],
+   "order": [
+    "prepared for their failure to meet them.",
+    "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098",
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.",
+    "If you really did hurt them, repair it.",
+    "Not Every Hero Wears A Cape",
+    "Clean your room! Your little one has had enough grown-ups"
+   ],
+   "must_link": [
+    {
+     "text": "a relationship",
+     "url": "https://romance.u-dont-exist.com"
+    }
+   ]
+  },
+  {
+   "id": "rel-danger-line",
+   "status": "claim",
+   "what": "The relationship paragraph keeps a danger condition (Claude's addition, built on Joel's \"which is not a small thing at all, I know\"): once is enough to get safe first, so a reader in danger isn't told to look at themselves first or to wait for a pattern.",
+   "must_contain": [
+    "But if it's been dangerous even once, get safe first, which is not a small thing at all, I know."
+   ]
+  },
+  {
+   "id": "ald-substack-note",
+   "status": "applied",
+   "what": "Joel's Substack note, as a bare URL on its own line (so Substack shows the preview), in Also Look Outward after the paragraph about what you can still count on someone for.",
+   "joel": "2026-09-30 03:29 UTC: \"i wrote a comment on someone's substack comment about not trusting people who trust people who disrespect us, i want you to put this comment url where it makes sense when we build the html eventually. i assume in Also Look Outward or so. https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098 no code needed just paste it like that exactly (that's how substack will know to pull up the preview for it) [...] the reason i'm not putting this directly into the article is because it reads also more human and captivating when it's a back-and-forth discussion with other substackers rather than just the narrative voice all the time.\"",
+   "must_contain": [
+    "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098"
+   ],
+   "order": [
+    "Also Look Outward",
+    "prepared for their failure to meet them.",
+    "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098",
+    "Write It. Don't Send It Yet."
+   ]
+  },
+  {
+   "id": "mpv-p4-joel-ending",
+   "status": "applied",
+   "what": "P4 of Not Every Hero Wears A Cape ends on Joel's sentence in place of Claude's \"At first it'll probably come out sounding like a question.\"",
+   "joel": "2026-09-30 03:29 UTC: \"i like how you're integrating prior examples in parentheticals i feel that's human-sounding (in P4). The last sentence in p4 was not what i was expecting/hoping for. A question isn't necessarily a bad way to put things. But what I would have ended it on is, \\\"Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough.\\\"\"",
+   "must_contain": [
+    "say it out loud to yourself ahead of time. Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough."
+   ],
+   "must_not_contain": [
+    "At first it'll probably come out sounding like a question."
+   ]
+  },
+  {
+   "id": "mpv-p5-joel",
+   "status": "applied",
+   "what": "P5 of Not Every Hero Wears A Cape is Joel's final (\"Protector\" capitalized, as elsewhere in the article).",
+   "joel": "2026-09-30 03:29 UTC: \"for P5 the first \\\"it\\\" is unclear referent. I assume you mean the protector action, not the difficult conversation. You explained in the next sentence. here's hum med conf final p5: After the day, look at what actually happened. If you did the protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic. [...] Hey, we've all been there. 🤗\"",
+   "must_contain": [
+    "After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic.",
+    "Fear is the first guess, but maybe you didn't know how or why. Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it. Hey, we've all been there. 🤗"
+   ],
+   "order": [
+    "or good enough.",
+    "After the day, look at what actually happened."
    ]
   }
  ]

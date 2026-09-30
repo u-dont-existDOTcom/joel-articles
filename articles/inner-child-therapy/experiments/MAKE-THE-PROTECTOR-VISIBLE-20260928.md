@@ -186,3 +186,31 @@ His P3 undoes my merge. It carries guide paragraph 3 only, so guide paragraph 4 
 - P19. My rewrite of a flagged span took the whole paragraph from 44% to 100% AI, even carrying Joel's own reasoning, like "Will they, though?" on 2026-09-28. Span fixes are his.
 
 **Open:** a minimal fix from Joel on z1's last two sentences.
+
+## Turn 5 (2026-09-30, Joel's 03:29 message)
+
+**Joel's changes, installed:**
+- P4 ends on his sentence ("Then put yourself in their shoes…"). It's 100% Human alone (100 words).
+- P5 is his final (Human/medium on his check). I capitalized "Protector", as it is everywhere else in the article.
+- His Substack note goes in Also Look Outward as a bare URL, after the paragraph about what you can still count on someone for.
+
+**The relationship line.** Joel rethought "leave it" and gave new wording, and wondered whether it "might deserve its own section".
+
+| version | where | Pangram alone | grounding |
+|---|---|---|---|
+| A0: his wording in place of "leave it" and the self-love reason | P1 | 100% AI (132 words), whole paragraph | MISFIRES: a reader whose partner is violent gets only an inward inquiry. UNCLEAR: "keeps making you less safe" vs "feel unsafe" |
+| A1: A0 + "If you're in danger, get safe first, which is not a small thing at all, I know." | P1 | 100% AI (150), whole paragraph | — |
+| P1 without the relationship lines | P1 | 100% Human (92) | no MISSING: the item is carried in Also Look Outward. "sweet things and then did nothing" flagged again (for Joel) |
+| v1: his sentence as its own paragraph, "And" dropped, + "But if you're in danger, get safe first…" | Also Look Outward | 100% Human (58) | CHANGED ×2: the "less safe" condition, and "in danger" doesn't carry the guide's "you do not need repeated exposure to danger" |
+| **v2, installed:** "keeps making you feel less safe…", "But if it's been dangerous even once, get safe first, which is not a small thing at all, I know." | Also Look Outward | 100% Human (61) | (v1's flags fixed) |
+
+- Sections: Also Look Outward 100% Human (433 words with v1, 436 with v2). Not Every Hero Wears A Cape 100% Human (539, with both headings).
+- **The move is my call.** P1 is a list of acts the little one can see. The meditation is looking inward at a relationship, which is Also Look Outward's job: what the other person actually does, and your side. Its danger line also carries the guide sentence that section was missing.
+
+**Lessons**
+
+- P20. A faithful carry of the guide can misfire. The guide's "leave it" passed every review because it matched the guide. Joel's case showed the reader it fails, and the article's own teaching (a hook can be old material) was enough to see it. MISFIRES is in the grounding reviewer now (`reviewer/grounding-validation/RESULTS-20260930.md`).
+- P21. The same sentence tested 100% AI in P1 and 100% Human as its own paragraph where it belongs. When one of Joel's sentences flips a paragraph, check whether it's in the right place before asking him to rewrite it.
+- P22. Reviewers resolve a paragraph-opening "it" the way the writer meant, because they read "After the day" as pinning it. Joel didn't. Name the thing at a paragraph's start (lint R1).
+- P23. End a practice paragraph on the next move of the practice (Joel's "put yourself in their shoes… go back & forth"), not on a prediction about the reader.
+

@@ -8,6 +8,7 @@ Why this review exists. Every sentence of these earlier drafts read fine on its 
 - A draft offered "a real meal" as one of the Protector's acts. In the article, the Protector's job is safety: boundaries, stopping harm, saying no. Feeding someone is nurturing. The meal came from the guide's own example list, so the guide can mix its categories too.
 - A draft's other example, cancelling an obligation, repeated what the article had already covered (saying no to something that costs you too much).
 - A section heading, "Keep Your Word", was picked because it sounded good. The section is about making the Protector visible.
+- A draft carried the guide's instruction to leave a relationship that keeps eroding safety, faithfully, and every review passed it. The author's own experience showed the gap: someone can feel less and less safe with a partner for reasons that come from inside them, which the article itself teaches when it says a hook can be old material. A faithful carry of the guide can still misfire for some readers.
 
 THE STEPS
 
@@ -27,7 +28,7 @@ Compare each with the guide's version. Ground every flag in what the reader need
 3. Sort each NEW sentence, and check it according to its kind:
 - An example or illustration (moldy bread, DUIs in Maryland, a party). Check that it belongs to the concept it's offered for, using the definitions the guide and the article give for that concept, and the author's rulings. Do this even when the example comes from one of the guide's own lists, because those lists mix categories sometimes. Check that it doesn't repeat an example or point the article already has. Check that it states no fact about the author's life that the article hasn't already established. Don't ask an example for evidence.
 - A reaction, aside or joke ("I know", "But yeah", "If it sounds funny, laugh!"). This is fine unless it slips in a new claim about the world. Judge a joke by a joke's logic: does the picture hold together?
-- An instruction. Check that it's the guide's instruction, with the guide's conditions.
+- An instruction. Check that it's the guide's instruction, with the guide's conditions. Then test the instruction itself, even when it carries the guide faithfully or follows the author's ruling, because the guide can be wrong for some readers too. Picture three or four different readers it will reach, including people in the situations the article describes elsewhere, and ask whether following it as written could hurt any of them. Use the article's own model of people: what it says about how feelings, reactions and alarms work, and about what other people can be counted on for. If the article says a reaction can come from somewhere other than where it seems to, an instruction that treats that reaction as settled needs a condition, or a way for the reader to tell which case they're in. Look hardest at instructions that cost a lot or are hard to undo: quitting a job, ending or cutting off a relationship, confronting someone, spending money, stopping a treatment. Flag MISFIRES: name the reader it would hurt, and quote what in the article or guide shows the gap. Don't flag an instruction whose conditions already cover them.
 - A claim: about causes, about what people are like, about what always or only happens, a fact, a should. Does the guide support it somewhere? Quote where. Is it something any reader would grant? If neither, flag UNSUPPORTED, and say what support it would need: the guide passage it could lean on, a narrower wording, or a source. Look hard at "only", "always", "never", "all", "because" and "the reason".
 
 4. Read as the article's reader at this exact point. The author sometimes voices the reader's question about a term ("What's a 'boundary'?"), even one used earlier. That's his device, not an unclear sentence. Flag UNCLEAR where they'd need a local clarification: a term not yet introduced, a word used in a different sense than earlier (equivocation), a referent you can't pin down, a jump you can't follow. Flag DUPLICATE where the text re-explains or re-exemplifies something the article already made clear (quote where it was). Say too much and the reader wades through repeats. Say too little and they can't follow.
@@ -54,7 +55,7 @@ OUTPUT, exactly this shape and nothing else:
 PARAGRAPH: which guide paragraph's job it does; STRADDLES or MISSING if they apply; one line.
 REGISTER: a few words.
 
-Types: CHANGED, CATEGORY, UNSUPPORTED, DUPLICATE, UNCLEAR, NON-SEQUITUR, CONTRADICTS, INVENTED, STRADDLES, MISSING, HEADING.
+Types: CHANGED, CATEGORY, UNSUPPORTED, MISFIRES, DUPLICATE, UNCLEAR, NON-SEQUITUR, CONTRADICTS, INVENTED, STRADDLES, MISSING, HEADING.
 
 Don't use any tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web.
 

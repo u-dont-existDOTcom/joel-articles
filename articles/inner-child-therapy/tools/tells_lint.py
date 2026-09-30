@@ -16,6 +16,7 @@ between rounds while the structure stays is what humanizer bots do.
 Exit code: 2 = FAIL, 1 = REVIEW, 0 = CLEAR.
 A CLEAR only means no mechanical tells were found. The judgment checks
 (D2 disparity, A1 meaning and safety, referents) still have to be written by hand.
+R1 only catches the "did it" kind of referent; no reviewer caught that one either (2026-09-30).
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -127,6 +128,8 @@ def main():
             if first in IMPER: imps += 1
             if s.count(',') >= 3 or len(re.findall(r'\b(or|and)\b', s)) >= 3:
                 flag('REVIEW', 'B4/E15 list or packed sentence', s)
+            if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", s, re.I):
+                flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
             if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):
                 flag('REVIEW', 'B3 short knock-down', s)
         if ss and len(words(ss[-1])) <= 9 and re.sub(r'\s+', ' ', ss[-1]) not in owner:
