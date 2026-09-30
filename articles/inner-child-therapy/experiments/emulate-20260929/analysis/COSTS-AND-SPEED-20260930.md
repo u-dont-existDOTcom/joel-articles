@@ -34,7 +34,9 @@ The inner child chat's notes give the rest, which I didn't measure: the reviewer
 
 ## What that means
 
-- **Pangram's website isn't cheap once you count the worker that drives it.** At API prices, the worker costs about six times what Pangram's API charges for a paragraph. The API also answers in seconds, with no browser. On your plan the worker's cost is hidden in the $200, but it still uses up your limits.
+- **Pangram's website isn't cheap once you count the worker that drives it.** At API prices, the worker costs about six times what Pangram's API charges for a paragraph.
+  - On your plans, the two come out about even in real money (the last section has the conversion).
+  - The difference is what they use up: the website uses your Claude limits, while the API costs cash but answers in seconds, with no browser.
 - **Your reviewer matches the website's speed per paragraph when it judges a whole section in one run:** about 28 seconds and $0.10 a passage. Judging one paragraph at a time is what makes it slow.
 - **The checks Pangram can't do cost the most.** The meaning trace runs $3 to $6 a section, and the sense and grounding reviews are extra. You'd need them with Pangram anyway, because they check meaning, not AI-ness.
 - **The biggest cost is this chat.** Every step re-reads about half a million tokens of conversation. So today's directing came to about $53 at API prices, more than all the checks together. Shorter chats that hand their state to the next one through Git would save the most.
@@ -49,7 +51,9 @@ The inner child chat's notes give the rest, which I didn't measure: the reviewer
 ## Pangram or your checkers?
 
 They do different jobs. My recommendation:
-- **For pass or fail, use Pangram's API** instead of the website. At $0.05 a paragraph, it's the cheapest and fastest, and it uses no Claude usage at all.
+- **For pass or fail, use Pangram's API** instead of the website, if a small cash bill is fine.
+  - At today's rate of checks, the three articles would cost about $45: one 1,000-word section took 12 paragraph checks and 1 section check, $1.15 at API rates, and the articles total about 38,000 words.
+  - The website route comes to about the same in plan value, but it's slower and uses up Claude limits you need for the writing.
 - **Keep your reviewer for why a paragraph fails, and batch it.** It explains sentence by sentence, which Pangram can't, and that's what the writers learn from.
 - **It can't replace Pangram yet.** Its "human" agreed with Pangram all 11 times in today's test, but its "AI" was wrong 3 times in 4 on our own drafts near the line (`REVIEWER-ON-EMULATE-20260930.md`).
 
