@@ -10,7 +10,13 @@ Section 1 ("The New Age May Dawn Suddenly") passes Pangram but isn't ready:
   - He approved the East Wind deletion too, but on my wrong premise, so it's open again (`ic01-TRACE-FINDINGS.md`).
   - Use the Pangram credits; skip the whole-article checks when every section passes.
 
-**Next (2026-09-30):**
+**v3 installed (2026-09-30, Joel's rulings sent 18:58 UTC):** `002-section-candidate.md` is now v3. It reads 100% Human as a section (1,053 words scanned) and paragraph by paragraph (`v3/pangram-v3.jsonl`).
+- **The escuelita paragraph** is variant B: Joel's Zapatista sentences, with his proposal sentence reworded. His full original came back 100% AI alone, and variant C, which kept his proposal sentence, came back 49% AI.
+- **The fixes:** `v3/fixlog-v3.json` has all 16, each with its reason in Joel's words. `v3/owner-edits-v3.json` checks his rulings, and they pass.
+- **The blind trace** of v3 is `v3/blind-trace-v3.md`. Its sense notes were fixed before any Pangram call.
+- **The pages:** the side-by-side page is `community-section1-side-by-side.html`, marked against the version Joel reviewed. The article so far is `community-article-so-far.html`.
+
+**Earlier next steps (2026-09-30):**
 - `community-section1-side-by-side.html` shows the original beside the candidate, with my recommendation for every change that matters.
 - Once Joel answers, the fixes go in under the shared rules: `AGENTS.md`, `docs/HUMANIZATION-GATE.md` and `docs/EMULATE-FALLBACK.md` on branch `claude/universal-humanization-rules-20260930`, then `main`.
 - The rules this experiment's directive set for itself no longer govern article work.

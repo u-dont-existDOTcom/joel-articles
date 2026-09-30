@@ -1,0 +1,82 @@
+[
+ {
+  "before": "without recreating all the loneliness",
+  "after": "without recreating the same loneliness",
+  "why": "my slip in v2; the source says \"the same\" (fix approved 18:58)"
+ },
+ {
+  "before": "enough to be diverse",
+  "after": "enough to have a variety of personalities",
+  "why": "Joel: \"diverse sounds more like ethnically diverse ... could say diverse personalities or variety of personalities\""
+ },
+ {
+  "before": "I was very happy there.",
+  "after": "I was happy there.",
+  "why": "Joel: \"don't hype up happy to very happy\""
+ },
+ {
+  "before": "in a big communal shower",
+  "after": "in a communal shower",
+  "why": "\"big\" was invented (fix approved 18:58)"
+ },
+ {
+  "before": "there was a power issue. They had a nut butter factory, which was providing a lot of their income, and the woman who was running the factory was very hard to question.",
+  "after": "there was a quieter power issue. They had a nut butter factory that brought in a lot of their income, which seemed to make the woman running it very hard to question.",
+  "why": "puts back the source's reason and \"quieter\" (fix approved 18:58)"
+ },
+ {
+  "before": "I didn't feel like it was really a commune I could join so much as a group of people who were already friends,",
+  "after": "I couldn't tell whether it was a commune I might join or a group of people who were already friends,",
+  "why": "Joel: \"it shouldn't switch couldn't tell for the hyped up version\""
+ },
+ {
+  "before": "It would have been hard to join; it would have been more like asking whether their group chat had an opening.",
+  "after": "Joining would have felt less like applying to a commune than asking whether their group chat had an opening.",
+  "why": "drops the added claim \"hard to join\", which the restored \"couldn't tell\" contradicts; the source's comparison back"
+ },
+ {
+  "before": "was big, like two or three hundred people, and almost institutional. It was friendly enough and interesting enough,",
+  "after": "was much bigger, like two or three hundred people at the time, and almost institutional. It was friendly and interesting,",
+  "why": "Joel: \"shouldn't switch larger to big ... Bigger is ok\"; \"at the time\" and no \"enough\"s (approved 18:58)"
+ },
+ {
+  "before": "It was more like a tiny hippie town, with a really complicated labor credit system.",
+  "after": "It was more like a tiny hippie town, but with a highly structured political system that didn't seem intuitive for hippies.",
+  "why": "Joel's sentence (18:58): he doesn't know the labor credit system was complicated"
+ },
+ {
+  "before": "One thing that struck me as odd about all of them, basically, was that they didn't have a communal therapy practice. All the usual human pain and suffering came into the commune with them,",
+  "after": "Looking back, almost none of them had a communal therapy practice. People brought all the usual human pain and suffering in with them,",
+  "why": "Joel: \"you can't change it to say that it struck me as odd, because i was too young to have any reference point\"; \"them\" fixed"
+ },
+ {
+  "before": "the things you wanted to talk about",
+  "after": "the things you needed to talk about",
+  "why": "Joel: \"we can't change needed for wanted\""
+ },
+ {
+  "before": "(Some people solved this problem",
+  "after": "(Some people, including me, solved this problem",
+  "why": "Joel: \"we could just say, Some people, including me, solved this\""
+ },
+ {
+  "before": "Otherwise I thought it had a great social life",
+  "after": "Otherwise I thought the community had a great social life",
+  "why": "blind trace (v3): \"it\" switched from the factory to East Wind between sentences"
+ },
+ {
+  "before": "at the [Acorn](https://www.ic.org/directory/acorn-community-farm/) commune when I was there",
+  "after": "at [Acorn](https://www.ic.org/directory/acorn-community-farm/) when I was there",
+  "why": "blind trace (v3): calling it \"the Acorn commune\" clashed with \"I couldn't tell whether it was a commune\"; the source doesn't call it one there"
+ },
+ {
+  "before": "Looking back, almost none of them had",
+  "after": "Looking back, almost none of these communities had",
+  "why": "blind trace (v3): \"them\" had nothing to refer to after the Twin Oaks paragraph"
+ },
+ {
+  "before": "People brought all the usual human pain and suffering in with them,",
+  "after": "People brought the usual human pain and suffering with them,",
+  "why": "blind trace (v3): \"in\" had no destination, and \"all\" came twice"
+ }
+]

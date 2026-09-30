@@ -1,0 +1,41 @@
+{
+ "title": "The New Age May Dawn Suddenly: your rulings applied",
+ "meta": "Community article · section 1 · v3 · 2026-09-30",
+ "intro": [
+  "Your original is on the left. On the right is the new version. Highlighted words are new since the version you reviewed, and struck words are ones I took out.",
+  "Section 1 reads 100% Human as a whole (1,053 words), and every changed paragraph reads 100% Human alone. Under each paragraph is what changed and why."
+ ],
+ "blocks": [
+  {"headings": ["## The New Age May Dawn Suddenly"],
+   "rows": [
+    {"label": "P1 · opening", "article": "I just put a movie my father made in 1988", "source": ["I recently put my father"],
+     "notes": ["Your “the same” is back; “all the” was my slip.", "Pangram alone: 100% Human."]},
+    {"label": "P2", "article": "He had already spent 17 years in the Bruderhof", "source": ["He had already spent 17 years in the Bruderhof"]},
+    {"label": "P3", "article": "He might have stayed, but the U.S. antiwar movement", "source": ["He might have stayed, but the U.S. antiwar movement"]},
+    {"label": "P4 · escuelita", "article": "That’s where the escuelita in my title comes in.", "source": ["That’s where the escuelita in my title comes in."],
+     "notes": ["Back from yours: “That’s where the escuelita in my title comes in”, “I’m borrowing the word”, “learn autonomy by living it”, “the healing communities I’m proposing” and “the relational and practical methods”.",
+               "Your whole paragraph came back 100% AI alone. A version keeping your proposal sentence word for word came back 49% AI, flagged on that sentence and the closing line. This one keeps your Zapatista sentences and rewords the proposal sentence: 100% Human alone.",
+               "Still added, from Emulate: “in Mexico”, “for a while” and “somewhere else”."]},
+    {"label": "P5 · childhood", "article": "I spent much of my childhood being carried through", "source": ["That’s how I spent much of my childhood"],
+     "notes": ["Back from yours: “being carried through”, “usually” and “never quite part of the tribe”. The list ends “and many other communities”.", "Boredom is now “a lot of boredom, with some adventures mixed in”, per your note.", "“Those years” replaces an “it” that had nothing clear to point to.", "Pangram alone: 100% Human."]},
+    {"label": "P6", "article": "From 1999 to 2001, my family actually lived", "source": ["From 1999 to 2001"]},
+    {"label": "P7", "article": "I wanted to befriend the children there", "source": ["I wanted to befriend the children there"]},
+    {"label": "P8", "article": "We spent a lot of time on our knees", "source": ["We spent a lot of time on our knees"]},
+    {"label": "P9", "article": "My father eventually gave the community his airplane.", "source": ["My father eventually gave the community his airplane."]},
+    {"label": "P10 · East Wind", "article": "The East Wind commune was almost the opposite way.", "source": ["East Wind felt almost like the opposite social experience."],
+     "notes": ["“Happy”, not “very happy”; “a variety of personalities”, not “diverse”; and no “big” shower.", "Pangram alone: 100% Human."]},
+    {"label": "P11 · East Wind's power problem", "article": "Even at East Wind, though, there was a quieter power issue.", "source": ["East Wind still had a quieter power problem."],
+     "notes": ["The reason is back: “which seemed to make the woman running it very hard to question”. So is “quieter”.", "“The community” replaces an “it” that switched from the factory to East Wind.", "Pangram alone: 100% Human."]},
+    {"label": "P12 · Acorn", "article": "There were like eight people at Acorn", "source": ["Acorn had something like eight people"],
+     "notes": ["“I couldn't tell whether”, per your note, and the group-chat line in your form: joining “would have felt less like applying to a commune than asking whether their group chat had an opening”.", "“Live on” stays, as you said.", "“Commune” came out of the first sentence, because it clashed with “couldn't tell”.", "Pangram alone: 100% Human."]},
+    {"label": "P13 · Twin Oaks", "article": "Twin Oaks was much bigger", "source": ["Twin Oaks was much larger"],
+     "notes": ["“Much bigger”, “at the time” and “friendly and interesting”.", "Your sentence about the political system replaces the labor credit line.", "Pangram alone: 100% Human."]},
+    {"label": "P14 · the missing practice", "article": "Looking back, almost none of these communities", "source": ["Across nearly all of these places"],
+     "notes": ["“Looking back” replaces “struck me as odd”, since you were too young to judge it then.", "“These communities” and “with them” fix the references.", "Pangram, checked with the next paragraph: 100% Human."]},
+    {"label": "P15 · the meetings", "article": "Which meant weekly meetings", "source": ["I remember weekly meetings"],
+     "notes": ["“Needed” is back, and “Some people, including me,”, per your note.", "Pangram alone: 100% Human."]},
+    {"label": "P16", "article": "Zendik went in the other direction.", "source": ["Zendik went in the other direction."]},
+    {"label": "P17", "article": "The secular communities often buried hurt under procedure.", "source": ["The secular communities often buried hurt under procedure."]}
+   ]}
+ ]
+}
