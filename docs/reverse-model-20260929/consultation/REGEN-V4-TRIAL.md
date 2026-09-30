@@ -1,5 +1,7 @@
 # Regeneration version 4 — fixed-set trial and stop decision
 
+**Final recovery note (2026-09-30 03:45 UTC):** The shutdown archives described below were subsequently copied off-instance, checked against their SHA-256 manifest, published at `57a66d5b6fcd6e4d7367c0f3192d753e4129c15c`, and independently checked from a fresh GitHub checkout. Vast records deletion of instance 53306647 at 03:44 UTC. The recovery and cost section below is the historical pre-closure checkpoint; see `../PILOT-RESULTS.md` for the final costs and status.
+
 **Decision:** Stop generation and do not train either adapter. Version 4 could not meet its predeclared 28/40 overall gate after 32 of the fixed 40 passages: it accepted 16/32, so even eight further successes would yield at most 24/40. The remaining eight passages were not sampled. No version 4 result entered training. The server is retained solely for records recovery under `GPT-SHUTDOWN-DIRECTIVE.md` on the handoff branch.
 
 ## Results
