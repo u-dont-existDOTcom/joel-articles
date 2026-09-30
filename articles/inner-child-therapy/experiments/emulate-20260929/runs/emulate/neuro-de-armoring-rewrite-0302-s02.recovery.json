@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:16:31.414Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "d20e71058c68a9c029390f11143c0958255486d50eab3d209e09e952efcc3018",
   "A_html_sha256": "1a0c20d84779ed195b424428b752f8a80fbbd2f706f5c06e1b221f5cd3040978",
-  "title": "8-week protocol for3h ago"
+  "title": "8-week protocol for3h ago",
+  "A_page_sha256": "d20e71058c68a9c029390f11143c0958255486d50eab3d209e09e952efcc3018",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.708Z"
 }

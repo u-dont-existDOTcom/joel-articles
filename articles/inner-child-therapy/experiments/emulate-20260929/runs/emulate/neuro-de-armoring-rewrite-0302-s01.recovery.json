@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:17:04.132Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "f0228c8e198b4559befffbf87a974d0416a8d5f07333a572fac0d20d15cb5d69",
   "A_html_sha256": "514af9648f00c4135cde0a5a5f60248b8d362894d0cfb726e3d2862929f9c759",
-  "title": "Serine protocols and symptom3h ago"
+  "title": "Serine protocols and symptom3h ago",
+  "A_page_sha256": "f0228c8e198b4559befffbf87a974d0416a8d5f07333a572fac0d20d15cb5d69",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.709Z"
 }

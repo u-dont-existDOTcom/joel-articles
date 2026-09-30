@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:18:07.333Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
-  "A_sha256": "2d1a10803a7add7fb39118c0e5cd03fc58ab8692688d4b23bc0e91ef410690ac",
+  "A_sha256": "3c7970ad74e776bd3370adc0cd154aabc3c27854d3548cda88dfe0af9cb02702",
   "A_html_sha256": "846accc6ab9869ca2850f3783707abf0bb6767feea141d8cc2e28818733aa274",
-  "title": "Psychedelic tolerance3h ago"
+  "title": "Psychedelic tolerance3h ago",
+  "A_page_sha256": "2d1a10803a7add7fb39118c0e5cd03fc58ab8692688d4b23bc0e91ef410690ac",
+  "A_copy_match": false,
+  "copy_recovered_at": "2026-09-30T03:26:15.709Z"
 }

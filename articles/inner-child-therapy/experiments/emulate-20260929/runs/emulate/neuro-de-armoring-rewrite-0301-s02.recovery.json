@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:17:09.059Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
-  "A_sha256": "f13fe60ecd24ce95bff818a886cf2c36748304668594e0c8a00ebc9876a0665b",
+  "A_sha256": "fa7ea71c60572607c8647387f44d178badf57d85904ad4e000a2622bafa1c6c1",
   "A_html_sha256": "8a5b05d81b414fb4e7d0ad8f16c4530e57e531c561b3f1088a4ca6d846f52dde",
-  "title": "Glutamate storm supplement3h ago"
+  "title": "Glutamate storm supplement3h ago",
+  "A_page_sha256": "f13fe60ecd24ce95bff818a886cf2c36748304668594e0c8a00ebc9876a0665b",
+  "A_copy_match": false,
+  "copy_recovered_at": "2026-09-30T03:26:15.710Z"
 }

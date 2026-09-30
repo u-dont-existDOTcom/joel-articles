@@ -6,9 +6,12 @@
   "recovered_at": "2026-09-30T03:17:05.650Z",
   "recovery": "saved Emulate draft after browser environment restart",
   "selected": "A",
-  "A_provenance": "rendered DOM innerText; Copy button did not populate browser clipboard",
+  "A_provenance": "Copy button exact from saved Emulate draft",
   "B_provenance": "unavailable in saved draft",
   "A_sha256": "893ea3540d31353df047f1a1e4b9212667439f9922d2a7a3b780b4489e86ad4d",
   "A_html_sha256": "d0a96db0ba51152b4dc5333ea9ab0fec4e7283ff590b8091175c4be085eef41e",
-  "title": "Perry-Sequence for nervous3h ago"
+  "title": "Perry-Sequence for nervous3h ago",
+  "A_page_sha256": "893ea3540d31353df047f1a1e4b9212667439f9922d2a7a3b780b4489e86ad4d",
+  "A_copy_match": true,
+  "copy_recovered_at": "2026-09-30T03:26:15.709Z"
 }
