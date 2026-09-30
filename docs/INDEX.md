@@ -16,6 +16,18 @@ Historical branches and packets may remain useful provenance/evidence, but they 
 
 ## General article protocols
 
+- `HUMANIZATION-GATE.md` — **the working humanization gate for every article, in every chat (Joel, 2026-09-30).** It was promoted from the Inner Child lane. It covers:
+  - sense before humanization;
+  - the owner-edits ledger;
+  - the preservation freeze and trace;
+  - the linter and the tell ledger;
+  - the reviewer-writer loop;
+  - architecture;
+  - Pangram, alone and in the section;
+  - the side-by-side page and the article-so-far page at the end of each turn.
+
+  Its preamble says where its tools are. A chat or experiment may add owner rulings for its own article; it may not keep general rules of its own.
+- `EMULATE-FALLBACK.md` — the Emulate API as a fallback, used only after the reviewer-writer loop has failed. It says what to do with Emulate's output and how each use becomes a lesson. Pangram and Emulate stay fallbacks until the system is shown to be enough.
 - `READER-QUESTION-AUDIT.md` — **optional negative-space diagnostic; proactively offer it at substantive editorial boundaries and during substantial humanization/reconstruction when a blind read could change the next decision, and offer it again when the final humanized article is otherwise publish-ready.** During active rewriting, use lightweight local question-continuity checks instead of rerunning the full blind protocol after every edit. The full audit freezes opening-promise questions, preserves genuinely blind sequential reader checkpoints, then runs a hindsight coverage pass distinguishing answered/late/partial/thin/unanswered/out-of-scope/rejected questions from actual article defects. The Romance pilot validated the method but rejected Obsidian Canvas as visually noisy; prefer compact Markdown/table/JSON output. The audit remains optional: if Joel declines, continue normally.
 - `HUMANIZATION-SOURCE-INTEGRITY-GATE.md` — **blocking for production humanization, detector repair, and source recovery.** Human/Pangram-Human provenance is never insertion authority. Recovered prose may enter an article only when it independently carries the exact article claim/function, required quotation/evidence, or an owner-directed callback at the correct destination. Corpus samples, unrelated owner prose, and external-source wording may not be transplanted as detector camouflage or used to build a synthetic `Human spine`.
 - `MULTISCALE-EDITORIAL-LEDGER.md` — **required for substantial structural editing, article-wide reconstruction, and substantial humanization.** Couples the structural Mermaid map to explicit article-, section-, and paragraph-level function ledgers plus a literal top-to-bottom post-assembly proofread. Use it to distinguish purposeful recurrence from true duplicate function and catch orphaned or unfinished prose that a section map can miss.
