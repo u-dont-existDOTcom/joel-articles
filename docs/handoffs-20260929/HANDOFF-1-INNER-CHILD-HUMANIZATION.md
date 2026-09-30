@@ -64,8 +64,13 @@ Use Joel's dashboard in the built-in browser pane, tab `seed`, at https://www.pa
 
 The container can't push. Instead:
 1. **Commit and make a patch.** Commit in `/root/work/joel-articles` with `git -c user.name=Claude -c user.email=noreply@anthropic.com commit`, ending the message with the Co-Authored-By and Claude-Session lines. Then run `git format-patch -1 HEAD --stdout > /mnt/user-data/outputs/xfer22/xferNN-0001.patch`.
-2. **Copy it to Joel's laptop.** Use `device_commit_files` to write it to `/home/joel/ai-work/claude-dangerous-lane/inbox/`.
-3. **Apply and push there.** Use Desktop Commander `start_process` with deviceId `cf376439-4f04-4ddd-aeab-1a1c826fe34c` and bash. The guarded one-liner checks PREV, TREE and SHA, then runs `git am` and pushes; copy it from any recent turn.
+2. **Copy it to Joel's laptop.** Gzip and base64 it, and split it into parts of 8,300 characters: `gzip -9 -c P.patch | base64 -w0 > xferNN.b64; split -b 8300 -d -a 1 xferNN.b64 xferNN.part`. Note each part's sha256 (`tr -d '\n' < part | sha256sum`). Read each part and write it with Desktop Commander `write_file` (deviceId `cf376439-4f04-4ddd-aeab-1a1c826fe34c`) to `/home/joel/ai-work/claude-dangerous-lane/inbox/`. Check every part's hash on the laptop before applying: on 2026-09-30 one mistyped character in a part was found this way.
+3. **Apply and push there.** Use Desktop Commander `start_process` with the same deviceId. In one guarded command:
+   - join the parts and check the base64 file's sha256;
+   - decode it and check the patch's sha256;
+   - in `/home/joel/ai-work/claude-dangerous-lane/joel-articles`, check that `origin/<branch>` and HEAD are the commit before (PREV), the tree is clean, and the branch is right;
+   - run `git -c user.name=Claude -c user.email=noreply@anthropic.com am` (the laptop has no git identity, so a bare `git am` fails);
+   - check that the new tree is the container's (TREE), then push.
 4. **Resync the container:** `git fetch origin && git reset --hard origin/<branch>`, only when there's no diff.
 
 Stay inside `/home/joel/ai-work/claude-dangerous-lane` on the laptop.
