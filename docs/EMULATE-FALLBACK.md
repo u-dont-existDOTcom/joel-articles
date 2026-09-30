@@ -1,0 +1,189 @@
+# Emulate as a fallback, and how to learn from it
+
+**Status: ACTIVE for every article, 2026-09-30.** Joel set its place in the order: "emulate would come after the rewrite loop because the purpose of emulate is as a fallback if my system can't pass pangram." Claude wrote the rest from the Emulate run. The Inner Child chat hasn't reviewed it yet. Until it has, follow the doc as written.
+
+**Which order, by kind of text (Joel, 2026-09-30, 20:31 UTC):**
+- **A published article being humanized:** Emulate goes first on its Pangram-flagged paragraphs. The text is already Joel's, so the job is to change its shape without changing its meaning. Everything after the Emulate call (sections 3 to 5) still applies, above all the blind trace and his side-by-side review.
+- **New writing (the Inner Child article and anything drafted from a guide or notes):** Emulate comes only after the reviewer-writer loop has failed. That's where the system learns. Where it clashes with `HUMANIZATION-GATE.md`, the gate wins, and Joel hears about the clash.
+
+Joel's aim: "ultimately i'm hoping we don't need pangram or emulate at all, but we're still using them as fallbacks until we're sure about that." So the order is:
+1. **The system:** `HUMANIZATION-GATE.md`. That's sense, preservation, fresh writers, the linter and tell ledger, and the reviewer-writer loop.
+2. **Pangram:** the outside check, alone and in the section.
+3. **Emulate:** only once the reviewer-writer loop has failed on a paragraph. A published article's flagged paragraphs are the exception: they go to Emulate first (above).
+
+Each use of Emulate stores a lesson, so it's needed less over time.
+
+The evidence is on branch `claude/emulate-lessons-20260930`, in `articles/inner-child-therapy/experiments/emulate-20260929/analysis/`:
+- `CLAUDE-LESSONS.md`: the rules, by check id;
+- `CLAUDE-SLOP-COMPARISON.md`: Emulate compared with Joel's own fixes;
+- `CLAUDE-REVIEW-20260930.md`: GPT's run of 336 versions from three published articles;
+- `CLAUDE-PILOT-20260930.md`: the first section assembled from Emulate's versions;
+- `REVIEWER-ON-EMULATE-20260930.md`: the reviewer's verdicts on Emulate's output.
+
+## 1. What the Emulate run showed
+
+### What Emulate does
+
+- **It passes Pangram almost every time.** 56 of 57 whole outputs came back 100% Human. So did every rewritten paragraph of the community article's first section, alone and in the section, once fixed.
+- **It retells rather than paraphrases.** Only 9% of its words sit in runs of four or more words from the draft; in Joel's fixes it's 47%. It keeps the draft's points in the draft's order, one new sentence for each old one.
+- **It shifts meaning everywhere, a little at a time.** A fresh agent that hadn't seen Claude's notes traced community section 1 both ways against the original. It found 61 changes of meaning or strength (`runs/articles/intentional-communities/candidate/ic01-blind-trace.md` on the evidence branch).
+  - Most are small: "roughly eighty" became "maybe eighty".
+  - About ten matter. A dropped "I'm proposing" left "these healing communities" with nothing to refer to. "Learn autonomy by living it" became "learn how the Zapatistas practice autonomy". Joel's own remembered thought, "I'd rather be sleeping", became "you generally felt like you'd rather be sleeping".
+  - Claude's own review had logged 12 changes and asked Joel about 4. A careful read by whoever chose the version isn't enough; the blind trace is.
+- **It makes the same big mistakes again and again:**
+  - it invents people and facts: "my kids", "Brooke" and "$500 boots", "your toddler" and "McDonald's", memories in the community article, a factory "mostly around electricity";
+  - it changes who did what: the woman who ran the factory "started" it;
+  - it drops conditions and safety lines: the below-90-BPM threshold and a stop instruction in neuro de-armoring, and the final safety paragraph of the hypnosis guide;
+  - it reverses a point: "most of the time you can just tick them off";
+  - it changes person: Scott's data told in the first person, "tell them" for "tell yourself", a gender for the little one;
+  - it swaps AI phrasing for stock self-help phrasing: "It's important to remember", "warm fuzzy feelings", "embark on this journey";
+  - it lengthens lists: A01's six feelings became ten;
+  - it adds noise: "do n't", odd quote marks, British spellings, typos.
+- **It runs longer:** about 22% on inputs under 300 words.
+- **Use the API, not the website.** Several website versions stopped mid-sentence or picked up page text ("Continue reading…"). The four API outputs so far ended cleanly.
+- **Its versions survive small fixes.** 13 of 13 small corrections to passing versions stayed 100% Human on Pangram. Community section 1 took 12 logged changes, one of them a splice, and still passed. Nothing yet says how many fixes one paragraph can take, or whether the reviewer still passes them.
+
+### What the system says about Emulate's output
+
+The reviewer from the reviewer-writer loop is the part of the system that's stricter than Pangram: when it says HUMAN, Pangram has agreed every time so far. On 2026-09-30 it was run blind, by its validated route: Opus, the shared rubric and the labeled examples, as in the Inner Child `tools/reviewer/README.md`.
+- **What it judged:** ten of Claude's inner child drafts that Pangram calls AI, and Emulate's versions of the same ten, which Pangram calls Human.
+- **How:** two reviewers, each seeing only one version of each pair, plus four known controls each.
+- **The drafts:** all ten called AI.
+- **Emulate's versions:** all ten called HUMAN, at confidence 55 to 85. So Emulate's output passes the reviewer as well as Pangram.
+- **The controls:**
+  - All four Pangram-AI paragraphs were called AI.
+  - Of four Claude paragraphs that Pangram passed, the reviewer called three AI, at 60, 78 and 80. That's where the system is stricter than Pangram: on our own writing near the line.
+- **What it named as human in Emulate's versions** was mostly roughness: comma splices, a missing article, garbled phrases, clumsy repetition, "etc." lists, and endings that don't sum up. Our fixes remove some of that roughness, so the reviewer runs again on the fixed version. The gate requires that anyway.
+- **The linter doesn't separate them.**
+  - All ten drafts came out REVIEW.
+  - Of the Emulate versions, seven were REVIEW, two CLEAR and one FAIL. The FAIL was A18, on coach phrases at 2.03 per 100 words, just over the limit.
+
+### What Pangram catches
+
+Where a finding matches a rule the gate already has, it's named in brackets.
+- **Sentences get caught together.** One of Claude's sentences put back into a passing Emulate version left the text 100% Human 32 times out of 36. So a paragraph can keep most of its sentences once the loud ones change. [Chicken-and-Egg P2: Joel's paragraph with one sentence of Claude's passed.]
+- **The loudest sentence is a run of vivid examples in one breath.** Three of the four put-backs that flipped a passing text were that kind of sentence. A five-part list of reasons didn't flip one. Joel keeps one or two examples, each in its own sentence. [B4/E15, and his list style in Borrow One Competency.]
+- **A summing-up "what X ends up doing is Y" sentence** turned a 75-word passing text 100% AI. It's one case. [Close to T29/E74, the concluding last sentence.]
+- **Reshape; don't reword.** Two small word swaps left A12 at 100% AI. Joel changed the structure of one clause, and it came back 100% Human. [B10.]
+- **A run of actions after a colon is loud too.**
+  - Joel's whole escuelita paragraph came back 100% AI alone.
+  - A version that kept his proposal sentence word for word came back 49% AI. That sentence was "The healing communities I'm proposing should do the same: people live there, heal, learn the relational and practical methods, and some eventually leave to start the next one." The flag ran from it to the end.
+  - Rewording only that sentence passed.
+  - It's the same shape as the example lists above (community section 1, v3, 2026-09-30).
+- **Near 50 words, a cut at either end can flip a paragraph.** Check a paragraph at the length it will really have.
+- **Context works both ways.** Rewriting a flagged paragraph can move the flag onto its neighbor, as with community section 1's opening. Human neighbors can also carry a paragraph. In that section, three of four flagged paragraphs passed unchanged once the paragraphs around them had been rewritten. So rewrite the fully flagged paragraphs first, recheck, and only then touch the rest.
+
+### Writing from the lessons alone
+
+Claude wrote the first two guide paragraphs of "Love Doesn't Have to Wait for Trust" by hand, from these lessons, without Emulate:
+- E1 passed on the second try, alone and after the end of Not Every Hero.
+- E2 failed five tries.
+
+**The lessons tell you which sentences are loud. They don't yet tell you how to write a paragraph that passes.**
+
+The Inner Child chat's full system did better on the same section the same day (turn 7, `experiments/LOVE-DOESNT-WAIT-20260930.md` on its branch).
+- Of its first six paragraphs, five passed Pangram on the first check.
+- The E2 paragraph took three rounds of three fresh writers each. Round two's brief said "don't end on the evidence, and don't list it", and round three's asked for no so-or-because sentence explaining the answer.
+- The six took about two and a half hours, 17:03 to 19:40 UTC. E1's passing version (`analysis/transfer-20260930/E1-b.txt`) hasn't been through the gate. Its hug example is Claude's own thought, and Joel hasn't approved it.
+
+## 2. When to use Emulate
+
+Use it only when all of these hold:
+- **For new writing, the reviewer-writer loop has failed on the paragraph** (Joel, 2026-09-30). Not before. For a published article's flagged paragraph, this condition doesn't apply.
+- **The paragraph is ours,** written by Claude or a fresh writer. Joel's own words and owner-final passages never go to Emulate, and its output never replaces them. A flagged span in Joel's text goes to him, with the span.
+- **Its meaning is settled.** It has passed the gate's sense steps (S1 to S6, grounding and MISFIRES included) and the preservation trace. Emulate can't fix sense, and it adds errors of its own.
+- **Nothing in it is private.** Emulate is a third-party service. Nothing Joel has marked private, and no private detail about another person, goes to it.
+
+## 3. How to call it
+
+- **The key** is on Joel's laptop, at `/home/joel/ai-work/claude-dangerous-lane/secrets/emulate.key`. Never print it, copy it or commit it.
+- **The tool** is `tools/humanization/emulate_humanize.py`.
+  - It makes one call, saves Emulate's text exactly as returned with the full response, and prints the words charged and the balance.
+  - It won't overwrite an earlier result.
+  - If a run dies mid-call, it won't repeat the call until someone has checked the balance and the saved files.
+- **Run it on the laptop** with Desktop Commander, device `cf376439-4f04-4ddd-aeab-1a1c826fe34c`. Write the paragraph to a file there with `write_file`, then run the tool with `start_process`:
+
+  ```
+  cd /tmp/claude-fix-tools
+  python3 emulate_humanize.py balance
+  python3 emulate_humanize.py humanize para.txt para-emu1
+  python3 emulate_humanize.py humanize para.txt para-emu2
+  ```
+
+  A copy was in `/tmp/claude-fix-tools/` on 2026-09-30 at 16:39 UTC. It read a balance of 256,527 words and refused a 5-word input without a call. `/tmp` doesn't survive a restart; if the copy is gone, write it there again from the repo.
+- **Send the paragraph alone, as plain text,** with no Markdown and no heading. Links and emphasis go back in from the draft afterwards.
+  - Emulate needs at least 40 words; Pangram needs 50 to check a text alone.
+  - One call gives one version, so make two calls.
+- **Costs:**
+  - Emulate charges the input's word count per call. Four calls on community section 1 cost 256 words.
+  - Pangram costs 1 credit per 100 words, rounded up.
+
+## 4. What to do with what comes back
+
+The aim is a paragraph that keeps as many of our sentences as it can and takes from Emulate only what it needs. Our sentences have been through the gate. Every sentence of Emulate's brings its own small shifts in meaning.
+
+1. **Pick a version.** Check both alone on Pangram. Of those that pass, take the one closest to the draft in meaning. Joel's choosing rule (2026-09-29):
+   1. it passes in its section;
+   2. nothing is invented or changed;
+   3. nothing is reversed or dropped;
+   4. it makes at least as much sense in its section and the article;
+   5. it has fewer stock phrases and padded lists;
+   6. then judgment.
+2. **Test our sentences one at a time.** Put each of our sentences alone into the chosen version, in place of the Emulate sentence that carries the same point, and check each on Pangram. Where Emulate merged or split sentences, swap the whole group. A sentence that flips the text is a loud one, and it goes in the lessons (section 5).
+3. **Build.** Put back all our sentences that didn't flip it, together, and check. If it flips, take half of them out again and recheck, until it passes.
+4. **Fix the Emulate sentences that stay,** with small logged fixes:
+   - put back a fact, number, condition, warning, name or link, or the strength of a claim;
+   - remove what it invented;
+   - fix a changed person or pronoun;
+   - finish a cut-off sentence;
+   - clean up the noise.
+
+   Joel's own phrasings go back in, or he's asked, with a recommendation.
+5. **Run the whole gate on the result.**
+   1. The two-way preservation trace, by a fresh agent that hasn't seen the notes.
+   2. Sense (S1 to S6), grounding and MISFIRES, the bans, the tell ledger and architecture.
+   3. The reviewer.
+   4. Pangram, alone and in the section with its headings, each check with its prediction written down.
+
+   After any fix, check again.
+6. **Show Joel the side-by-side page** (`tools/humanization/render_in_context.py`). Mark every sentence that came from Emulate, and give a recommendation for every change of meaning.
+
+## 5. How to learn from each use
+
+1. **Save the case** in `tools/humanization/emulate-cases/<date>-<article>-<paragraph>/`:
+   - the failed drafts, with their results and flagged spans;
+   - the Emulate versions exactly as returned (the `.txt` and `.json` files);
+   - each step of section 4, with its result;
+   - the fix log;
+   - the final version, with its results.
+2. **Pair each loud sentence with its Emulate replacement.** Say what changed in its shape, not its words. For example:
+   - a list split into sentences;
+   - a summing-up clause dropped;
+   - a rule turned into one case;
+   - a claim turned into a question;
+   - the subject changed;
+   - a restatement cut.
+
+   The pairs are the same kind of evidence as Joel's minimal fixes, and they're kept the same way.
+3. **Update the lessons.** Each lesson gets the rule, its evidence by case, how sure it is, and what would prove it wrong. A case that goes against a lesson weakens it; the case still stays.
+4. **Give the lessons to the writers.** Once two cases back a lesson, it goes into the fresh writers' brief, as an observation beside Joel's fixes. Then every paragraph after that tests it.
+5. **Add the texts to the reviewer's calibration set,** so the linter and the reviewer get tested on them too.
+6. **Keep a score:** for each paragraph, whether the loop passed it without Emulate.
+
+Joel's fixes stay the model for his voice. Emulate teaches what Pangram catches. It doesn't teach how Joel writes, and its own voice is stock self-help.
+
+## 6. When to stop needing each fallback
+
+- **Emulate.** Stop routine use when the loop has passed ten paragraphs in a row without it. Go back to it if paragraphs start failing again.
+- **Pangram.** In this test, all eleven of the reviewer's HUMAN calls matched Pangram, as every one had before. Its AI calls on our own near-the-line drafts were wrong three times in four.
+  - Once the reviewer's HUMAN has held on about 50 paragraphs across articles, a reviewer HUMAN can stand in for the Pangram check.
+  - An AI verdict on our own draft still goes to Pangram before anything is rewritten.
+  - Joel decides when the 50 are in.
+
+## 7. Open questions, with Claude's recommendation on each
+
+1. **Where Emulate goes in the order.** Decided by Joel: after the reviewer-writer loop.
+2. **Where cases and lessons live.** Shared, not per chat: cases in `tools/humanization/emulate-cases/`, and lessons in the gate and the writers' brief once two cases back them.
+3. **The holdout rule** (E1 to E5 never go to Emulate). Retire it. The score in section 5 makes every paragraph a test, and E2 has already failed five hand-written tries. The tool's `E_holdout` refusal goes with it.
+4. **Steps 2 and 3 of section 4.** Try them on the first two cases. If they keep fewer than a third of our sentences, drop them and fix Emulate's version in place instead.
+5. **The three published articles** (community, hypnosis guide, neuro de-armoring). Run the same gate on them. Before trusting the reviewer on them, add Pangram-checked paragraphs from each article to its calibration and revalidate, since it learned from the Inner Child article only.
