@@ -1,0 +1,6 @@
+{"check":"E1-a","file":"E1-a.txt","label":"AI Generated","percent":{"AI":100},"words_scanned":80,"utc":"2026-09-30T04:44Z","credits_after":1331}
+{"check":"E1-b","file":"E1-b.txt","label":"Human Written","percent":{"Human":100},"words_scanned":64,"utc":"2026-09-30T04:45Z","credits_after":1330,"note":"read from History (the dashboard kept showing E1-a)"}
+{"check":"E2-a","file":"E2-a.txt","label":"AI Generated","percent":{"AI":100},"words_scanned":77,"utc":"2026-09-30T04:47Z","credits_after":1329}
+{"check":"E2-b","file":"E2-b.txt","label":"AI Generated","percent":{"AI":100},"words_scanned":72,"utc":"2026-09-30T04:47Z","credits_after":1328,"note":"read from History"}
+{"check":"E2-c","file":"E2-c.txt","label":"AI Generated","percent":{"AI":100},"words_scanned":81,"utc":"2026-09-30T04:49Z","credits_after":1327}
+{"check":"E1-b-context","file":"E1-b-context.txt","label":"Human Written","percent":{"Human":100},"words_scanned":275,"utc":"2026-09-30T04:51Z","credits_after":1324,"note":"the last two paragraphs of Not Every Hero Wears A Cape (handoff branch 35b88b5), the heading, then E1-b"}

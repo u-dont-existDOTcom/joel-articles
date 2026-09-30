@@ -1,0 +1,80 @@
+{
+ "title": "Love Doesn't Have to Wait for Trust: the transfer test",
+ "meta": "Inner Child Therapy · 2026-09-30 · Claude alone, following the lessons from the Emulate run · Pangram checks on Joel's account",
+ "blocks": [
+  {
+   "headings": [
+    "## Not Every Hero Wears A Cape (end, for context)"
+   ],
+   "rows": [
+    {
+     "label": "P5 · for context",
+     "article": "After the day, look at what actually happened.",
+     "guide": [],
+     "note": "The paragraph the new section follows."
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Love Doesn't Have to Wait for Trust (the guide's heading)"
+   ],
+   "rows": [
+    {
+     "label": "E1 · second try · passes",
+     "text": "Sometimes the love is there and giving it still feels dangerous. Why would that be? I think it's because we've tied love and trust together, as if one has to prove the other first, and they really don't have to. It's like holding back a hug from a friend till you're sure they didn't talk behind your back.",
+     "guide": [
+      "Sometimes love is available"
+     ],
+     "note": "100% Human alone (64 words). Also 100% Human in context: this section's last two paragraphs, the heading, then this (275 words)."
+    },
+    {
+     "label": "E1 · first try · 100% AI",
+     "text": "Sometimes the love is there and it still doesn't feel safe to give. You might have some real warmth for your little one by now and hold it back anyway, the way you'd hold back a hug from a friend you're not sure has been straight with you. It's because love and trust got knotted together at some point, like each one has to sign off on the other, and they really don't have to.",
+     "flag": "Sometimes the love is there and it still doesn't feel safe to give. You might have some real warmth for your little one by now and hold it back anyway, the way you'd hold back a hug from a friend you're not sure has been straight with you. It's because love and trust got knotted together at some point, like each one has to sign off on the other, and they really don't have to.",
+     "guide": [
+      "Sometimes love is available"
+     ],
+     "note": "100% AI alone (80 words), all of it highlighted."
+    },
+    {
+     "label": "E2 · first try · 100% AI",
+     "text": "Your little one can look at your grown-up life and say, \"I don't trust you.\" You can answer, \"I believe you. And I love you.\" Loving them doesn't have to wait for trust to come back with a good verdict. Trust can take its sweet time going over the old promises you broke. It's allowed to notice the internal attacks haven't totally stopped yet, and the times you didn't protect them.",
+     "flag": "Your little one can look at your grown-up life and say, \"I don't trust you.\" You can answer, \"I believe you. And I love you.\" Loving them doesn't have to wait for trust to come back with a good verdict. Trust can take its sweet time going over the old promises you broke. It's allowed to notice the internal attacks haven't totally stopped yet, and the times you didn't protect them.",
+     "guide": [
+      "The younger state can look"
+     ],
+     "note": "100% AI alone (77 words)."
+    },
+    {
+     "label": "E2 · second try · 100% AI",
+     "text": "Say your little one looks at your grown-up life and tells you, \"I don't trust you.\" You can say, \"I believe you. And I love you.\" The love doesn't have to wait around for trust's verdict. Trust can go ahead and dig through the old promises and the times you didn't protect them, and it'll probably point out that you still call yourself names some days.",
+     "flag": "Say your little one looks at your grown-up life and tells you, \"I don't trust you.\" You can say, \"I believe you. And I love you.\" The love doesn't have to wait around for trust's verdict. Trust can go ahead and dig through the old promises and the times you didn't protect them, and it'll probably point out that you still call yourself names some days.",
+     "guide": [
+      "The younger state can look"
+     ],
+     "note": "100% AI alone (72 words)."
+    },
+    {
+     "label": "E2 · third try · 100% AI",
+     "text": "Your little one might look at your grown-up life and say, \"I don't trust you.\" Honestly, can you blame them? You can answer, \"I believe you. And I love you.\" I don't think love has to wait for trust to come back with a good verdict. Trust can take all the time it needs with the old promises and the times you didn't protect them. It'll probably notice you still call yourself names some days, too.",
+     "flag": "Your little one might look at your grown-up life and say, \"I don't trust you.\" Honestly, can you blame them? You can answer, \"I believe you. And I love you.\" I don't think love has to wait for trust to come back with a good verdict. Trust can take all the time it needs with the old promises and the times you didn't protect them. It'll probably notice you still call yourself names some days, too.",
+     "guide": [
+      "The younger state can look"
+     ],
+     "note": "100% AI alone (81 words). I stopped here, per your rule to get one paragraph passing before drafting the next."
+    },
+    {
+     "label": "E3 to E5 · not drafted",
+     "text": "Not drafted: I stopped at E2.",
+     "guide": [
+      "When I was about five",
+      "That completely threw me",
+      "Don’t turn the sentence into a formula"
+     ],
+     "note": "Your bedtime story, what it did, and the warning about turning “But I love you” into a formula."
+    }
+   ]
+  }
+ ]
+}
