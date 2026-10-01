@@ -48,7 +48,7 @@ The secular communities often buried hurt under procedure. The spiritual communi
 
 [Subscribe now](%%checkout_url%%)
 
-<!-- CANDIDATE: section 2 v3 (2026-10-01), for Joel's review. Every paragraph 100% Human on Pangram alone, or with its neighbor where it is under 50 words; the section 100% Human (618 words). Records: s2/PREDICTIONS-s2.md, s2/r4/pangram-s2.jsonl. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 2 v3.1 (2026-10-01, Joel's edits of 18:06 in), for Joel's review. Every paragraph 100% Human on Pangram alone, or with its neighbor where it is under 50 words; the section 100% Human (618 words). Records: s2/PREDICTIONS-s2.md, s2/r4/pangram-s2.jsonl. Not accepted until Joel says so. -->
 
 # Communes Are Hot Again 🔥
 
@@ -60,7 +60,7 @@ Check out the Google Trends for “[ecovillage](https://trends.google.com/explor
 
 [image 4](https://substackcdn.com/image/fetch/$s_!y0li!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae1e4fd0-563f-4c2a-8228-7a549a4fc4d7_1211x373.png)
 
-I have no proof that the rise of AI caused this turn, but it’s hard to ignore the coincidence in timing. AI became serious around this time, and it started changing people’s jobs and relationships, and how they see the future. Suddenly, forming a village sounded like a backup plan.
+I have no proof that the rise of AI caused this turn, but it’s hard to ignore the coincidence in timing. AI became serious around this time, and it started changing people’s jobs and relationships, and how they see the future. Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim.
 
 It’s poppin’ on Instagram too! 🔥 Chantress Seba—my favorite light-language love influencer—[posted an application](https://instagram.com/p/DVyl1a2lAuZ/) for people interested in starting a commune. I applied, although I don’t think she’s coming to Africa, where I'm at. When I saw the post, many thousands of people appeared to be interested. Imagine opening your inbox after casually inviting a million followers to co-found a village.
 
@@ -74,11 +74,11 @@ Some of the commenters weren’t trying to join. The oldest objection, that mayb
 
 The commune comments became a miniature political-philosophy seminar, as Instagram comments sometimes do.
 
-IMO the comment above is more true of the big socialism experiments than small communes, but I still take it seriously, because some people really would rather let somebody else take responsibility. When everybody owns everything, it can get to where nobody knows who's supposed to do what, and the same three people end up doing all the maintenance while everybody else talks about freedom. And then unofficial leaders start gaining power. Partly that's because everyone keeps handing it to them.
+I'd say the comment above is more true of the big socialism experiments than small communes, but I still take it seriously, because some people really would rather let somebody else take responsibility. When everybody owns everything, it can get to where nobody knows who's supposed to do what, and the same three people end up doing all the maintenance while everybody else talks about freedom. And then unofficial leaders start gaining power. Partly that's because everyone keeps handing it to them.
 
-Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or try to act helpless.
+Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or stop trying to act helpless.
 
-People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby is born or someone thinks they own something. They just know they are tired and alone and want to change it.
+People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or someone thinks they own something. They just know they are tired and alone and want to change it.
 
 I am not currently recruiting anyone or founding a community, which makes it easier for me to write an article like this, since I’m not trying to get you onto my land. I do plan to buy land, and people may naturally end up living around me. All of the warnings in this article apply to me, too.
 

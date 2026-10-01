@@ -150,3 +150,22 @@ The split turned the passing C6-C7 pair 100% AI ("paraphrased or rewritten"), so
 | C3e2f-C4e1qf | AI | the same pair with the quip failed before | |
 | C4e1qf | Human | one-word fix | |
 | section-v3 | Human | every paragraph passes in its own check | |
+
+## v3.1 (Joel's edits of 2026-10-01 18:06; texts in `r5/`)
+
+- **P4:** Joel's last sentence: "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim." Joel checked P3+P4 together himself: it passes.
+- **P9:** "I'd say" for "IMO".
+- **P10 and P11:** the fixes he agreed to.
+
+Each changed paragraph alone, P9 after his seminar line, then the section. Predictions:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P4j | Human | his sentence; the rest passed alone | Human 100 |
+| P9d | Human | two words changed in a passing paragraph | Human 100 |
+| C8o-P9d | Human | same | Human 100 |
+| P10f | Human | two words changed in his passing paragraph | Human 100 |
+| P11f | Human | three small changes in his passing paragraph | Human 100 |
+| section-v3.1 | Human | every part passes | Human 100 |
+
+All six came back 100% Human. The section was 630 words scanned, with no span flagged.

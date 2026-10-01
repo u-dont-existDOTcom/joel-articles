@@ -39,8 +39,8 @@
   },
   {
    "id": "s2-c11",
-   "what": "Section 2: Joel's own rewrite of the paragraph on wanting the old way of living back (2026-10-01 14:49) [in the section 2 v3 candidate]",
-   "status": "applied",
+   "what": "Section 2: Joel's own rewrite of the paragraph on wanting the old way of living back (2026-10-01 14:49) [in the section 2 v3 candidate] (superseded by s2-c11b, 18:06)",
+   "status": "superseded",
    "joel": "People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby is born or someone thinks they own something. They just know they are tired and alone and want to change it.",
    "must_contain": [
     "People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby is born or someone thinks they own something.",
@@ -86,6 +86,46 @@
    "status": "applied",
    "must_contain": [
     "get you onto my land"
+   ]
+  },
+  {
+   "id": "s2-c4-joel",
+   "what": "Section 2, P4: Joel's last sentence, keeping the original meaning (2026-10-01 18:06; he says P3+P4 passes Pangram) [in the v3.1 candidate]",
+   "status": "applied",
+   "joel": "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim.",
+   "must_contain": [
+    "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim."
+   ]
+  },
+  {
+   "id": "s2-c9-idsay",
+   "what": "Section 2, P9: \"I'd say\" instead of \"IMO\" (2026-10-01 18:06: \"i'm surprised how many ppl i talk to don't know what IMO means\") [in the v3.1 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "I'd say the comment above"
+   ],
+   "must_not_contain": [
+    "IMO"
+   ]
+  },
+  {
+   "id": "s2-c10-fix",
+   "what": "Section 2, P10: \"or stop trying to act helpless\" (proposed 16:46, Joel: \"agree fix it\") [in the v3.1 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "or stop trying to act helpless"
+   ],
+   "must_not_contain": [
+    "or try to act helpless"
+   ]
+  },
+  {
+   "id": "s2-c11b",
+   "what": "Section 2, P11: Joel's paragraph with \"why earlier communes failed\" and \"the group runs out of money\" (proposed 16:46, Joel: \"agree fix it\") [in the v3.1 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or someone thinks they own something.",
+    "They just know they are tired and alone and want to change it."
    ]
   }
  ]
