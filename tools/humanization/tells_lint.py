@@ -124,6 +124,8 @@ def main():
             if hits: flag('REVIEW', 'E41 coach phrase', s)
             you_hits += len(re.findall(r"\byou(r|'re|'ll|'d|'ve)?\b", s, re.I))
             if re.search(r"\bthe kid\b|\bkids?\b", s, re.I): flag('REVIEW', 'E1 kid', s)
+            if re.search(r"\b(IMO|IMHO|TBH|FWIW|IIRC|AFAIK|NGL|IRL|ICYMI|TL;?DR|BTW|OMG|LOL|SMH|YMMV)\b", s):
+                flag('REVIEW', 'chat acronym: say it in words (Joel 2026-10-01, on "IMO": "i\'m surprised how many ppl i talk to don\'t know what IMO means")', s)
             first = (w[0].lower() if w else '')
             if first in IMPER: imps += 1
             if s.count(',') >= 3 or len(re.findall(r'\b(or|and)\b', s)) >= 3:

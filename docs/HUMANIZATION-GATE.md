@@ -28,6 +28,7 @@ These came from community sections 1 and 2 and apply to every rewrite of his wor
 - **Wording can flex when the meaning stays (Joel, 2026-10-01).** The preservation units are meaning, not wording.
 - **A question about a passage shows the passage (Joel, 2026-10-01).** Twice he had to go and find what a question was about: "you didn't give me the context, let me go check" and "you didn't give me the block to look at". Quote the passage in the question, or put the question on the side-by-side page beside it. Say what a proposal would do to the paragraph in plain words: "anchor each point in a section 1 community" read to him as moving the points to other sections.
 - **Don't ask what the rules already decide.** "Can the wording flex if the meaning stays?" got "that's already in the humanization guidelines, right?" Check the gate first, and ask only about the case it leaves open.
+- **A quip that goes keeps its meaning (Joel, 2026-10-01).** Said plainly, a contrast keeps both sides. "Sounded less like a 1972 leftover and more like a backup plan" became "sounded like a backup plan", which lost the first half. The trace had marked the drop, and I called it allowed. Joel put it back: "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim."
 
 ## Every correction teaches the system (Joel, 2026-10-01)
 
@@ -241,6 +242,7 @@ These go into every writer and reviewer prompt (`tools/humanization/reviewer/own
 - "doesn't get to decide" and its family (a feeling or thing that "doesn't get to", "gets to", "gets a vote"). Joel: "one of the phrases AI completely colonized", "an optimal efficiency quippy formulation which humans just rarely use for non-humans". It came into the Make the Protector Visible drafts from my own brief.
 - "Fine," "Good," "Great," as a clause of their own ("Fine, they're nice boots."). Joel: "super AI", and he had said it before.
 - Wry humor. Joel: "wry in a strange way which i can't pin down". His is goofy and glad.
+- Chat acronyms (IMO, TBH and the like). Joel, 2026-10-01: "i'm surprised how many ppl i talk to don't know what IMO means". A writer's "IMO" went to him as a question instead of being fixed; the linter now flags these.
 - Too many made-up scenes: a caution, not a ban. Joel, 20:13: "i'm not saying to ban made-up scenes, they can be useful, but you're overusing them here". Carry the guide's own examples first.
 - Over-explaining listicles. Lists themselves are fine: "I have human and humanized paras with instructions and lists that DO pass". His way with a list is in Borrow One Competency's first paragraph (each item its own sentence, "Perhaps… Perhaps… Maybe… Even…", ending on the oddest one).
 - Show every draft in context, next to the guide's original (Joel: "from now on, you need to show me your work in context"). `tools/humanization/render_in_context.py` makes that page (step 9).
@@ -259,6 +261,7 @@ These go into every writer and reviewer prompt (`tools/humanization/reviewer/own
   - lines that announce a paragraph (B5);
   - individual coach phrases;
   - "kid";
+  - a chat acronym (IMO, TBH and the like): say it in words (2026-10-01);
   - packed or list sentences (B4/E15);
   - short knock-downs (B3);
   - an action "it" ("did it", "do it", "tried it") in a paragraph's first two sentences (R1, 2026-09-30): name the thing instead. Joel caught "If you did it" after a paragraph that ended on a hard conversation, and no reviewer did;
