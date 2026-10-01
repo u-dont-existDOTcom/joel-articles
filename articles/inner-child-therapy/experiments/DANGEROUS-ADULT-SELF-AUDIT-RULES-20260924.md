@@ -1,0 +1,392 @@
+# Self-audit rules — Joel-byline paragraph work
+
+Source: Joel's direct corrections, 2026-09-24 session + saved preferences.
+Meta-rule: feel informs the rules; it never replaces them. When feel and a rule disagree, check the rule against Joel's exact words and fix the rule; don't silently override it. Audit each new rule against what Joel actually said before using it.
+
+## A. Before writing each beat (meaning first — added after the P4/P5 failures)
+
+The style list below cannot catch these. P4 went through six drafts that were stylistically clean and wrong or dangerous in meaning.
+
+A1. Reread the source passage for this beat before drafting. Ask what it is doing for the reader, including safety. Don't mine the source for a phrase to fill a slot. Meaning and safety are checked per paragraph, not deferred to a later preservation pass.
+A2. Safety in this section: point away from the malice and away from its object (the kid). Never tell someone with ill will to stay with it, dwell on it, weigh what it gets them, or think about what they want from a child. Point at what the ill will is doing to them (MN 19: "my own affliction").
+A3. Don't turn "may have X in them" into "is X". A question about whether someone is malicious gets the truthful, non-damning answer: there may be malice in them.
+A4. Don't make it safe by making it vague. Generic pointing ("what they're suffering from and hoping will change") points at nothing. Find the specific thing this reader needs, usually the non-obvious one: if a teacher had to say it, it isn't obvious, so say it plainly and strikingly.
+A5. Prefer an insight that changes how the thing looks over a procedure ("watch it come and go" is a technique; "it burns you first" changes the picture).
+A6. The most striking fact is usually the specific one (ill will arises in the Buddha's own awakening account). Don't blur it into vague timing, and don't inflate it past what the source says.
+A7. Verify quotes and attributions before using them (fake Buddha quotes; Buddhaghosa vs the Buddha). Don't conflate terms (anger/kodha ≠ ill will/byāpāda).
+A8. When you cut part of a source list, check what's left. If the items balance each other (gives vs costs), the pair is the point; dropping one half changes the meaning.
+A9. Make a metaphor's sense obvious: show the concrete way the image is true (on fire → people get out of your way) instead of asserting it.
+A10. When the source is a story, tell it happening (verbs, present tense), not as a citation.
+A11. After writing an image or claim, ask what counterexample the reader will think of right away, and throw it in plainly, the way a person talking would (on fire → "unless you're the Human Torch"). Leaving the obvious objection unanswered makes the point feel unconsidered.
+A12. Check every referent, especially in examples lifted from the source (Joel, 2026-09-25: "it's not an AI tell, it's a bad referent"). For each name and pronoun, ask who it points to, and in self-talk between parts, who has the need. The source's "A younger part of Joel is terrified. What does Joel need from an adult right now?" asks about the wrong person. Round 1 carried it over as "Little Joel is terrified. What does Joel need right now?", and the fix is "What does Little Joel need right now?". Section B's tell audit won't catch it, because it's a meaning problem, not a tell.
+
+## B. After drafting — run on every sentence before showing Joel (post-draft only, not a writing prompt)
+
+1. No compressed thesis line handing the reader a finished principle ("X can be Y and still Z").
+2. No "not X... Y" / "I don't mean X, I mean Y" / feels-like-X-but-really-Y contrast construction.
+3. No premise + short knock-down sentence that just flips it ("That cannot always be assumed.").
+4. Don't enumerate. Say the one thing that makes the point. A list only when the list itself is the point. Open tails ("or whatever it is") are not a fix; they hide the enumeration habit. See A8 before cutting a balancing pair.
+5. No setup sentence whose only job is to announce what comes next.
+6. Don't explain the irony/contradiction; don't complete the job the reader already predicts (predictability = each sentence doing an obvious job the idea "needs").
+7. No sentence engineered to land (setup -> hinge -> payoff); no clever closer. Plain, a bit loose is fine.
+8. This section: no accusatory address ("if that's you"); prefer impersonal ("such folks", "they"). Generic "you" ("when you talk to them") is fine; it doesn't recast the reader.
+9. No invented specific facts, events, anecdotes, dates or numbers. Things the article itself obviously presupposes (Joel has met such people; some call themselves sovereign) are fine.
+10. (Rewritten 2026-09-26. Joel: "reusing phrases from drafts that failed isn't necessarily a bad thing, because that's literally the opposite of paraphrasing ... i'm not saying you should keep using old phrases but nor should you have a rule that says don't use old phrases. check if they look ai that's all.") Judge a phrase from a failed draft like any other phrase: does it look AI? Don't repair a failed draft by swapping its phrases for less likely ones while the structure and the other tells stay. That's what humanizer bots do, and it's what Pangram's "paraphrased or rewritten" flag describes. The old version of this rule banned reuse, which turned every repair round into a rewording (Borrow One Function rounds 3–5).
+11. Joel's tics list: doing some work, load-bearing, tells on itself, digest/metabolize, clean, does its work.
+12. Keep "sovereign"; keep source meaning (checked per beat under A1, and again at assembly).
+13. A pattern that worked once becomes a tell when repeated. Don't write a whole paragraph (or consecutive paragraphs) in one successful pattern; that looks planned.
+14. What Joel says TO me (how to approach it, what not to do — e.g. "we don't need to diagnose them") is instruction, not prose. Carry the substance into the text; don't transcribe his meta-remarks as sentences.
+
+## C. Human moves seen in passing paragraphs (the thinking to do — never a surface feature to reproduce)
+
+Warning: copying these features is how rule 13 gets broken. A pop-culture reference, "of course not" or a register jump pasted in without the thought behind it is a new tell. Each one is what showed up when the writer actually thought about something:
+- Imagine the actual reader and follow their next thought, even when it's silly (the Human Torch). Don't imagine a function slot.
+- When a teaching or fact exists, ask why it had to be said, and say what that implies (it isn't obvious).
+- Admit why the bad thing is attractive before saying what it costs.
+- Take your own metaphor literally for a moment and see what's true inside it.
+- Use plain words for lofty things, and say precisely how much the source supports ("one of his accounts").
+- When you know the answer to your own question, give it flatly.
+Source: P5 (Human, medium confidence), 2026-09-25.
+
+## D. Drafting method (Joel, 2026-09-25 00:33–00:34, max thinking on)
+
+Joel: "use the extra thinking also to really do thinking inside the writing as a human does, rather than just birds eye view which is a separate part. humans look at everything then they go in and look at it from where the thought is. we are looking to provide unique, interesting, surprising, funny, captivating and helpful prose, not something someone could have just gotten simply from asking AI the question. use that as a regression. if AI could have answered this in this way, it's not good enough. that doesn't mean throw away the AI thinking, but go beyond it." And: "we don't need to keep everything, if it seems unneeded overexplanation just tell me 'i think this should be deleted' or merged or moved".
+
+D1. Two passes, in order. Bird's-eye first: reread the source beat, map the claims, and search the article itself and Joel's corpus for his own takes and for callbacks (e.g. "borrowed adulthood", "pausing before you act"). Then go inside: draft from the last sentence of the previous paragraph, as the person talking, asking what they'd actually think next — not what the section needs next.
+D2. AI comparison (corrected by Joel 01:02 — "i didn't mean AI as a floor, you can also contradict the AI answer partially or fully ... measure the disparity between the AI answer and yours as one human tell measurement (but obviously don't contradict AI answer if it's really RIGHT, but usually AI answers are missing something and often they are at least partially wrong)"). Write the answer a plain AI would give for this beat. Then find where it's wrong or missing something, and go there; agree only where it's actually right. The disparity between the AI answer and the draft — in content, order and structure, not just voice — is one human-tell measure. P6/P7 r1 had near-zero content and structure disparity: the AI answer in costume.
+D3. Let required claims arrive as answers to the reader's next question, not on a schedule (P6 "they find out while it's burning" → reader: "so can I find out with the kid?" → P7 blocks it).
+D4. Keep an image that's working and look for what else is true inside it; AI brings in a new metaphor every paragraph. But check the mapping against the meaning first: "the Human Torch can turn it off" implied you must make ill will vanish (against claim 5) and was dropped; "stop, drop and roll" maps to pausing and not acting on it, and running really does feed the fire (NFPA school lesson).
+D5. Don't reuse a distinctive phrase that's already elsewhere in the piece (the promises line in Also Look Outward).
+D6. When source material is overexplanation, or addressed to someone other than the reader, say "I think this should be deleted / merged / moved" instead of forcing it in.
+D7. Never describe the child's vulnerability in terms that could appeal to someone who enjoys preying on it ("the easiest person to push around" was considered and rejected on this ground).
+D8. Show the full sentence-by-sentence audit (A, B and the D2 disparity) with every draft. A check done silently is a check skipped: on P6/P7 r1 I ran it loosely in my head, spot checks only on P6, and missed an instruction-staircase cadence, a not-X/Y across two sentences, and a logic seam.
+D9. If the draft follows the source's logic chain sentence by sentence (claim, reason, loophole, reason), it's the source in costume, whatever the voice. The coverage map is a check, never an outline. P6/P7 r1 fell into exactly the failure the compression amendment named: contract claims treated as sentence obligations, including claims from paragraphs Joel had said could mostly be deleted.
+D10. After P6/P7 r1 the fire image was on its fourth beat. Stay with an image, but stop when it becomes the section's organizing device.
+
+## E. Added 2026-09-25 01:45
+
+E1. Naming (Joel): never "the kid" for the inner child; he finds it distant and distasteful. Use warm names — "inner child", "your little one", "your little boo", "your Lilliputian", "your lovey bunny" — or "their little one" when the subject is an impersonal "they". Save the goofy ones for light passages; in the malice paragraphs a jokey pet name could read as mocking. Check the whole article, not just the current section.
+E2. Diff every owner rewrite against my version and treat each change as a preference until he says otherwise. Joel changed "the kid" → "the inner child" in P1 on 2026-09-24, and I kept writing "the kid" in P4 and P6 until he said it outright.
+E3. When a paragraph passes with the owner's own life material in it (P6: his depression, from My Journey), credit that material. It shows that his lived facts, placed where they naturally belong, are a strong human signal; it does not show that my own moves worked.
+E4. Before promoting a section, check it against `OWNER-LOCKS.json`, not only the lane's preservation contract. Where the owner's later chat statement conflicts with a lock, put the conflict in front of him; don't settle it silently.
+E5. The orphan check runs both ways. When a paragraph is deleted or moved, reread every earlier paragraph it was answering. Deleting P6 r1 left P2's sovereign/master contradiction as a jab nothing used, and I didn't notice until Joel called P2 weird.
+E6. Accepted paragraphs can still carry a tell that the audit missed. P2 was a rule-3 premise + short knock-down ("…sovereign. But… it turns out…") from the start. The fix that worked: tell it as a sequence ("and then somehow, once you talk to them a bit…").
+E7. (Corrected after P2 r2/r3 were rejected as "totally wrong".) A paragraph's job comes from the sentence right before it, not from a general wish to tie everything to the inner child. P2 follows "deconstruct the adult identity they've got", so its job is to show one crack in that identity (sovereign, yet obeys) — merged into P1, it needs no consequence sentence. Keep the danger where the section puts it: in this H2 the adult is the danger. Never recast them as a would-be protector threatened by someone else, and never talk about their little one's care as if the work had started when P1 says it shouldn't.
+E8. Premise check on every "then…" or consequence sentence: list each premise the leap needs, and confirm it's on the page or already established *earlier* in the piece — not later in the same section. P2 r2's "that's who'd end up raising their little one" needed "the grown-up raises the little one" (only introduced by P3, after it) and "the master might want harm" (never said).
+E9. When a sentence criticizes obeying someone, check it against the religion test: it should only bite on harmful demands. One word can do it ("could *still* say no if that master ever wanted something hurtful").
+E10. When compressing a source list, check which later sentences depend on one of its items. The sovereign/master example is the answer to the source's "whom does it serve?"; cutting that question as "a list to avoid" orphaned the example for three rounds.
+E11. Rule A1 applies to repairs too, not just first drafts. When the owner calls an accepted paragraph weird, reread the source beat before touching it. P2 r2, r3 and the merge were all attempted from the H2 text alone, and each one missed.
+E12. When compressing a source list down to one item, pick the one the section's point depends on, not the most vivid one. In "an urge, doctrine, group, spirit, or master", the urge was essential for these readers; "master" was vivid, made it sound like obedience itself was bad, and forced a religion-test patch (E9 is superseded for P2).
+E13. When the owner hands over his verdict in plain words ("it sounds more like slavery"), use it as his first-person stance, and fold it into the sentence rather than setting it up as a separate knock-down line.
+E14. Test the join, not just the paragraphs. A paragraph that opens by defining or elaborating the previous paragraph's closing prescription ("They need to first deconstruct X." → "That mostly means looking at A, B, and especially C.") forms a predictable marching pair. P1 + P2 r5 tested AI/medium even though each passed alone and the whole H2 passed Human/high. Open the next paragraph with a scene, a person or a turn instead of "That means…".
+
+## F. Added 2026-09-25 18:45 — after the P1+P2 r6 and Regulation r1 results and Joel's Chicken-and-Egg rewrite
+
+E15. Condensed function list. One sentence that does several argumentative jobs in coordinated clauses reads AI, even inside an accepted paragraph. P1's first sentence ("as if everybody…, but some people…, and a few are…") carried the P1 + P2 r6 flag (38% AI): three jobs on a quantifier ladder (everybody / some / a few). Joel: "a 3 part function list and quite condensed." Regulation R2's last sentence ("The order … matters too, and there's a roadmap …, but you don't have to finish …") was flagged for the same shape. Give each job its own sentence, loosen the join ("though", "or they're"), or drop the job the reader doesn't need yet.
+E16. Lists aren't the tell; function lists are (refines rule 4). Joel's Chicken-and-Egg rewrite has two lists and tested Human/medium. The feelings list is lumpy: "abandoned, helpless, impulsive, frightened, or desperate to be chosen" ends on a phrase, and "impulsive" isn't a feeling. The other list is the article's own framework with his adjectives ("the loving Nurturer, safe Protector, and wise Guide"). Around them:
+- a two-sided verdict he then unpacks ("both fortunately and unfortunately true");
+- fragments with broken parallelism ("Fortunately in the sense…" / "Unfortunate in the sense…");
+- four adjectives with an unexpected one ("vivacious");
+- compressed idioms ("even if hiding", "made for handling") and a they/it wobble;
+- self-implication ("the adult qualities that we might pretend to have");
+- a narrative realization ("And I realized…");
+- the sharpest idea tucked into a relative clause ("which is really a disguised request for the child to abandon its own nature");
+- collocations that carry a judgment ("rightly vulnerable", "safe Protector").
+The AI source's version of the beat is a tidy triad with a colon reveal and a thesis closer. Full list: `CHICKEN-EGG-OWNER-FINAL-OPENING-20260925.md`.
+E17. The generic safety coda. After a list of practices, "order matters, here's a roadmap, don't worry" followed by stacked if/then safety instructions (three warning signs, stacked remedies, "instead of pushing harder") is the AI answer in costume. Regulation R4 was flagged whole. Cut what the article already says elsewhere, write what's left from the owner's own thinking (his map's jobs; sleep over drama), and don't end the section on a caution.
+E18. Check the draft against your own bird's-eye notes. Round 1's notes said the Checking section already covers judging a practice by daily life. R4 then said "worse at getting through your day" and "instead of pushing harder" anyway, and added a third "look around" right before Catch the Hook's.
+E19. Terminology collision. Don't reuse a term the article defines in a different sense nearby. The article's Protector is the inner-parent role the reader is learning to be ("safe Protector", "enough Protector"); the guards that keep the little one back are "protective parts" (My Journey). R2's "your protectors" blurred them. Pangram can't see this.
+E20. When the source is an AI guide, the owner's own article on the topic is where the disparity is. "The order in which they're used matters" is the AI's flattening. Joel's somatic article says the map sorts by which job your nervous system needs help with right now, and that one modality can be Job 1 for one person and Job 2 for another. It also says he cares more about sleep than about how dramatic a session felt.
+E21. Don't carry a flagged sentence's skeleton into its repair. The flagged R2 sentence ended on a "you don't have to finish X before Y" reassurance. A round-2 draft line ("You don't have to drain the whole flood in one go") reused it and was dropped before showing.
+
+## G. Added 2026-09-25 20:10 — after Regulation round 2 went more AI and Joel's own P1 fix
+
+E22. (Corrected below: the somatic example was a stale repo copy.) Check provenance before calling anything "the owner's thinking". In this repo many masters are AI guides or model reconstructions; the article's `CURRENT-STATE.md` says which, and often has the Pangram number. `articles/somatic-therapies/master.html` is an r01 model reconstruction of a mostly AI-shaped source, and it measured AI 0.978. Its only Human stretch was Joel's Professor Baby Sheep / head-shaving material. Round 2 compressed the AI claims and got AI prose. Joel's voice is his chat messages, owner-final or locked text, and the personal bits a model couldn't invent.
+E23. Paragraph-level listicle check. Count the separate tips in each paragraph. Five tips in five sentences is a bulleted list with the bullets removed, even if every sentence passes the sentence rules. Keep one thing per paragraph and tell it, or cut.
+E24. Rule 1 covers first-person aphorisms too. "I'd trust X more than Y" hands the reader a finished principle just as "X can be Y and still Z" does. The first person doesn't make it a stance.
+E25. A stock simile ("collect them like Pokémon") is surface humor. Section C's warning applies: a funny comparison anyone could make isn't a thought. The human version was a thing people actually do (go straight into EMDR on the worst memory, then decide EMDR doesn't work).
+E26. When a coda is flagged, cut it; don't move it. Round 1's safety coda came back as round 2's R3, one paragraph higher, and was flagged again.
+E27. Pangram use (Joel: "make sure you're not going in loops"). Plan the checks before starting, at most about three per turn. Test with and without the owner's own line to see whether Claude's sentences pass on their own (Regulation round 3: A with the head-shaving line, B without; both 100% Human). The built-in browser isn't signed in to Joel's account: its free checks run Pangram 4.0 but show "Confidence limited — short text" instead of low/medium/high, and its screenshots can lag, so read results from the page text.
+E28. The owner's fix can be a deletion. Joel's P1 r3 cut the manipulator group because nothing downstream picked it up (a dangling reference). Claude's r2 had kept the group and only loosened the sentence. Before repairing a sentence, check that every item in it is used later (E5, E10), and raise any lock function the cut removes (E4).
+
+## H. Added 2026-09-25 20:45 — after Joel's corrections and the Write-It P3 round
+
+E22 correction (Joel, 20:24 UTC: "you must have an old somatic article. this one is fully humanized (but not all of it is actual human writing, much of it is my rewriting the AI slop, but it tests 100% human on pangram)"). The repo's `articles/somatic-therapies/master.html` is the 2026-08-23 r01; the published v4.2 (Sept 22, 2026) is Joel's humanized version. What the lesson actually is: before drawing conclusions from a repo copy of the owner's other work, check that it's the current version, and ask for the current one if not. The v4.2 text is now at `articles/somatic-therapies/experiments/OWNER-PUBLISHED-V4-2-TEXT-20260925.md`. Round 2 still failed for E23–E26 reasons: it compressed points into tips.
+E29. One owner practice per section. Joel cut his head-shaving line: "i don't want to say that except in the article since i already talked about one of my own practices there." Don't import his life material from another article into a section that already carries one of his own practices. It's his to place.
+E30. Owner scope: manipulators are outside what the article can help. "they will simply manipulate anyone who tries to help them. they are not part of what i can help with. but if they fall into the simpler category of people with malice then they are already covered." When the later identity-development and vow gates come up, cover malice and don't add manipulator-specific material. The lock's "exploitative" wording is narrowed by this decision.
+E31. When the owner has already supplied rough cognition for a paragraph, start from it verbatim and add only the next thought, not the source functions it's missing. Write-It P3: v3 (the functions one per sentence inside his pencil scene) tested 100% AI. v4b (his 44 words, with only the dashes changed, plus one question the adult would ask and its flat answer) tested 100% Human, and the whole section 100% Human. Earlier, Candidate O had added three function sentences to the same cognition and tested AI 1.0.
+E32. Pangram with Joel's account: texts under about 100 words still show "Confidence limited — short text". Test the whole section as well to get a reading without that caveat. This turn used three checks.
+
+## I. Added 2026-09-25 21:45 — after the music insertion in the opening
+
+E33. An owner insertion lands at a new position, so re-run E8 against that position. The music text says "the Nurturer", "the Protector" and "the practice". It now sits before Chicken-and-Egg introduces any of them, so the humanized version can't use those words yet.
+E34. Owner facts can collide across sections. The opening's "I used to listen to The Queen and the Soldier every night because it reliably got the tears out" and My Journey's "from age twelve to twenty-six I was depressed and cried every night" will be read as the same nights. Ask the owner which period it was; don't join or separate them yourself.
+E35. The with-and-without test (E27) on music round 1:
+- With his line: 100% Human (158 words).
+- Without it: 47% AI, in the later part, where each of my sentences carried one source function in the source's order.
+- D9 and E31 predicted this. His one line carried the section, and the joined opening still tested 100% Human (780 words).
+- So it's a learning flag, not a blocker. The fix is his next thought, not better costumes for the functions.
+
+## J. Added 2026-09-25 22:45 — after Joel: "you're cheating a bit there by using my life story to hide your ai tells"
+
+E36. Generic-specific details are coaching, not human specifics. The song you skip in the car, "home alone" and "your face is still wet" feel concrete, but they fit every reader. In second-person advice they tested 100% AI (music round 2, my lines alone). Human specifics belong to someone: his song, his nights, his ex. When writing to the reader, use one of these instead:
+- a stance ("that's when I'd put a song on");
+- a flat answer to their next question ("Céline's right up there if you don't have one");
+- a warning sign taken from the owner's story ("scared of your own crying").
+Round 3's lines alone tested 100% Human.
+E37. Test my sentences without the owner's lines on every draft that has owner material, and report that result next to the joined one. A joined pass can come from his lines alone: music round 1 was 100% Human joined and 47% AI without his line. This makes E27's with/without test standard; it isn't optional.
+E38. When the owner names a third party along with a health detail (an ex's panic attacks), draft without the name, say so, and let him decide. Check the replacement against people already named in the piece. The intro says "my ex, Key", so the draft says "another ex of mine"; plain "my ex" would point at Key.
+E39. A8 applies when tightening too. Round 3 of the music section dropped the adult half of the source's feelings list (love, courage) to keep the section short. Joel put it back: "i'd also mention music can help with feeling love, not just sadness, altho sadness if often the first step to open up." When a cut removes one side of the source's balance, keep one plain line for it, or name the cut as a question. Don't just list it under "dropped".
+E40. A how-to section with no owner material came out 100% AI twice (Borrow One Function, 2026-09-25):
+- Round 1: tips, each paragraph ending on a small landing.
+- Round 2: a threaded "say it's late" scenario, with his source edit in nearly verbatim.
+Both kept the source's outline, one job per paragraph (D9), and a threaded hypothetical didn't break the list. ~~When the only owner material is a line or two and two drafts fail, stop: ask the owner one targeted question about his own experience of the thing, and offer cuts to what the article already covers.~~ (Superseded 2026-09-26. `SKILL.md`'s owner-delivery admission already said that AI-shaped wording never establishes missing owner cognition, and Joel said the same at 23:31: "you're asking me for my experience so you can cheat again? hehe let's try to do this humanization thing without always needing my direct experience.") Offering cuts to what the article already covers still stands. Don't write a third round in costume.
+E41. The coach register is a tell of its own, even when every sentence passes rules B1–B14. A calm, validating voice that only reassures, instructs or anticipates feelings reads AI ("you can start by", "at some point you'll want", "it's tempting to… but", "you might still…", "that's fine", "the next step is"). Borrow One Function rounds 1–4 were all in it. What passed instead had someone thinking out loud: a stance, a reason, an argument, a real disagreement with the source, or humor that came out of the thought.
+E42. Round 5 came back "This text appears to have been paraphrased or rewritten". (Corrected 2026-09-26 after Joel's reading of the flag.) Pangram describes humanizers as tools that "reword, rephrase, and reorganize" AI text, and its DAMAGE paper describes swapping words and short phrases while keeping each sentence's meaning and often its structure (https://www.pangram.com/blog/how-students-try-to-avoid-ai-detection, https://arxiv.org/html/2501.03437v1). Rounds 3–5 did that to my own drafts: new wording each round on the same structure. The structure was the AI marching order (D9): the source's points, in its order, one job per paragraph. So fixing tells, adding stance or adding an image couldn't change the result. For a source section with no owner material:
+- close the source;
+- write what a person would want to say about the topic, in their own order;
+- then run the source's point list as a coverage check only (D9), and fold anything missing in as asides.
+And run the written audit before every Pangram check (D8). Rounds 1 and 2 were tested without it.
+E43. Before rewriting an AI source section, reread a stretch of Joel's own rewrite of AI prose (E20 made concrete). His published somatic v4.2 tests 100% Human against r01's AI 0.978. What he does:
+- absurd concrete examples in place of relatable ones ("Your pet monitor lizard peed on you");
+- parenthetical asides;
+- connections with names and dates (Mesmer in the 1770s; EMDR critiqued as distilled hypnosis);
+- first-person preferences ("One daily sequence I like");
+- comparisons with a joke inside ("You don't need a pool at home");
+- small slips.
+The coach voice does none of these.
+
+## K. Added 2026-09-26 00:10 — the gate (Joel: "how is it possible you're still not following the basic instructions to check the list of tells?")
+
+E44. The written audit is a gate, not an intention: run `tools/HUMANIZATION-GATE.md` for every draft. The linter (`tools/tells_lint.py`) runs first; a FAIL means rewrite. Then comes the manual table for its REVIEW items and for the judgment checks it can't do. Only then Pangram. On the 2026-09-25 calibration set, the linter failed all six AI-tested texts and cleared or reviewed all five Human-tested ones; it would have stopped every Borrow One Function round before Pangram.
+
+## L. Added 2026-09-26 00:40 — after Joel's corrections to the gate
+
+E45. The linter's structure check is the AI marching order (D9), not a "paraphrase" check. Paraphrase is a repair behavior (B10 as rewritten), and there's no mechanical check against phrases from failed drafts.
+E46. Activation has to survive compaction. After every context summary, and at the start of each new section, reload `tools/HUMANIZATION-GATE.md` and the rules from the repo. A summary that names a rule doesn't activate it: the summaries I worked from on 2026-09-25 listed D8 and never made me run it. The universal version of this rule is in UDA's `patterns/task-time-lesson-activation.md` (pull request #260, merged 2026-09-26).
+E47. Read narrowly. Load only the stretches of the article and the rules that a task needs. On 2026-09-26 a response that pulled whole files, including the dangerous-adult safety material, into the chat was hidden from Joel by an automatic filter. The cause isn't visible to me, so this is a precaution, not a diagnosis. Laptop transfers go as plain, readable patches, not encoded chunks.
+E48. My own tell ledger can't see my own cadence. Borrow round 6 went through every gate step, and my ledger kept every flagged sentence. Then a fresh score-blind subagent, using the lab's 12-tell inventory, found T02 (instruction-manual cadence), T09 (equalized efficiency) and T12 (a tidy taxonomy: the jobs ranked easiest, almost as easy, hard, with a fallback for every reader), and Pangram said 100% AI. For sections my sentences carry alone, the fresh sweep comes before Pangram (`tools/HUMANIZATION-GATE.md`, step 6).
+E49. When a source section is itself a taxonomy (three jobs, a question each), a faithful realization inherits the taxonomy. Reordering and ranking don't remove it. After two failures of that shape, the next move is structural: propose to Joel which units stay, which move, and where. Don't write another round.
+E50. Inherited rules that look unhelpful get flagged to Joel with a suggested change and are followed until he decides (Joel, 2026-09-26 00:47: "you can't just ignore them, but you can tell me ... we can't just go anarchist ... be smart not mechanical but not anarchist"). UDA carries the universal version (pull request #260).
+
+## M. Added 2026-09-26 01:50 — Joel's rewrite of the Borrow opening
+
+E51. Organization isn't the tell; nothing noticed inside it is (Joel, 2026-09-26: "it's not that you can't have an organized essay. it's that your organization needs to be not reducible to code as i explained before. it needs to notice things naturally in the midst of the organization"). His rewrite of the Borrow opening (Human, medium confidence):
+- kept the source's order and two of its sentences word for word;
+- kept the figure list I had cut;
+- added what a person notices: The Brady Bunch as the counterexample, imagination getting stamped out of kids early, and the irony that the adult is the baby at imagining, which becomes the reason to start small;
+- ends on a callback ("if you can imagine that").
+Rounds 3–7 treated structure as the tell (reorder, rank, cut, move sections), which is the humanizer move one level up (inventory T14). E42's "close the source" is narrowed: keep source sentences that already read right, rewrite the ones that don't, and add the noticing.
+E52. Sense before humanizing (Joel, 2026-09-26: "first of all the stuff has to make sense then we look at humanizing"). Placement and cuts are editorial calls I make on sense and explain. Moving a point into another section gets a highlighted diff. Don't ask Joel whether an edit makes sense; tell him whether it does.
+E53. Joel's own human text can use a not-X-but-Y line ("it's not just a foolish waste of time. It's actually a genius mode unlock") when it answers a dismissal readers really have. The ban stays for my drafts, because in mine it's a reflex (T16).
+E54. Don't ask about obvious gaps. A gate that needs a file that doesn't exist (the numbered tell inventory) is a gap to fill, not a rule to question (Joel, 2026-09-26: "isn't it obvious they need that?"). The flag-don't-ignore rule (E50) is for rules that look unhelpful, not for missing pieces.
+E55. Per-paragraph Pangram checks are the anti-cheating rule, not overhead (Joel, 2026-09-26: "some paragraphs were testing AI even tho the whole section was human, and that means the humanization is sort of cheating"). Every paragraph I wrote is checked alone, then the whole section, in parallel tabs.
+E56. Calibrate a reviewer before letting it block. I replaced the lab's 12-tell prompt with the 32-item inventory and treated every PRESENT as blocking without running controls, which the fresh-critic gate requires first. When I did run them:
+- it reported 10 tells on the known-Human Checking section;
+- it reported 7 on the known-AI round 6;
+- it reported 2 on Joel's opening.
+Three repair rounds (8b–8d) had been steered by it. Its rows are now leads, not blockers (`tools/HUMANIZATION-GATE.md`, step 6).
+E57. What Pangram passed in round 8e, and what it didn't. The one paragraph of mine that passed (Guide, 100% Human) has short sentences, a direct question to the reader, one joke about its own advice, and no list. All five that failed carry the source's inline lists or "or… or…" chains. Joel's opening kept the source's order but turned its list into sentences of his own, each with an aside. Next test: carry the source's lists that way, or keep only the item that matters.
+E58. Surface changes don't move Pangram, in either direction (the detector test in the Borrow drafts file, 2026-09-26). Joel's opening stayed 100% Human when its casual wording was neutralized, its sentences split, or its list compressed. My paragraph stayed 100% AI in first person, in Joel-style run-ons, and plain. Before starting another rewrite round, ask whose word choices the text is built on. Changing style alone won't flip the result. Corrected 2026-09-26 14:13 by Joel's minimal fix: he kept three of my six sentences word for word and changed two, and the paragraph passed. The AI sits in particular sentences, not in all my wording, so find those sentences before rewriting anything (E60).
+E59. One paragraph at a time (Joel, 2026-09-26 14:13: "if you can't write one paragraph that passes, why would you continue onto all the others? so let's just start with one"). Write one paragraph, get it through the gate and Pangram, and only then start the next. The whole-section check comes last.
+E60. What Joel's minimal fix of P3 showed. He changed only two kinds of sentence:
+- A clever twist that sounds wise but isn't what a person really thinks. "No insults, including the ones that sound like advice" became "Helpful advice is great, we all need advice".
+- A bare prohibition in a list. "No rushing them" became "Let them absorb it at their pace", a positive instruction tied to the sentence before it.
+He added one word of stance ("Obviously") and kept everything else. To repair a failing paragraph, find those two kinds of sentence and fix only them, with the view a person would actually hold.
+E61. Joel's P5 fix (2026-09-26 14:45): the result depends on an interaction. His texture edits alone left the paragraph medium-confidence AI:
+- one specific, funny, lived example instead of categories;
+- "hit pause";
+- "spidey sense";
+- a half-rejected cliché ("'Fake it til you make it' isn't exactly it, but yeah");
+- "If it sounds funny, laugh!".
+Rewriting the feeling-plus-reassurance pair ("You may still feel… That's ok.") into one sentence ("Even if this still feels like the child acting like the adult, for now, that's ok") flipped it to Human. That same rewrite alone didn't flip my version. Look for coach-cadence pairs (a feeling or claim, then a short reassurance) and rewrite them, and give the paragraph enough texture of a person's own. Neither alone is enough.
+E62. When a whole section fails but its paragraphs pass, a good first thing to try is the sentence where Pangram's flagged span starts. It's a heuristic, not a rule, and Joel didn't teach it as one. He corrected me at 16:10: "that's not always true, as you see sometimes the flagged part moves depending on what's done in a different part, but that doesn't mean the flagged part fix won't fix things either. but it's a good thing to try".
+- What happened on Borrow: every paragraph passed alone, and P6 and P7 failed together. After Joel's first edits the span started at "A wise tradition", and his edit to that sentence cleared the pair. In the full section, the span then started at P7's second sentence, and changing only that sentence cleared it (round 14, two ways).
+- The span moves with changes elsewhere. Without Joel's "What would Jesus do?" parenthetical in P6, the flag sat in P7. So the cause can be outside the flagged part. If the start-of-span fix doesn't clear it, look at what comes before the span.
+- Choose where to change from Pangram's own result, not from another detector's theory. Following SlopShape's "the conclusion restates the thesis", I changed the end of the span, and that only moved it from 24% to 16%.
+- Inside the span, a REVIEW-level coach phrase from the linter is a suspect. "You might get more like…" was P7's only one.
+- What the fixes had in common:
+  - my crafted image pair ("can carry some of it… until you can hold the direction yourself") became the words people use ("can give some direction… until you develop your own internal compass");
+  - the abstract "a tradition" got a familiar instance ("What would Jesus do?");
+  - a hedged projection ("You might get more like…") became a plain one ("More like…").
+E63. Emojis go only where a spot begs for one (Joel, 2026-09-26: "If you see something begging for an emoji, put it, but don't put it otherwise"). It applies to his article writing and to any article that's allowed to be cute. His example is 😜 after "The thank-you you weren't waiting for might not come anyway.": it tells the reader the slightly awkward line is a joke. 🙄 after the eye-roll lands the beat. Never add one for Pangram. The general rule is in `project-sources/MASTER-INSTRUCTIONS.md` under Emojis.
+E64. A guided exercise from the source reads as a script even in casual words (Borrow Love P1, 2026-09-26). The first draft kept the source's order (feel it, let your body remember, then see if) with my wording over it, and noticed one thing (the baby voice): 100% AI. The second attempt passed at 100% Human. It kept the exercise and changed what the paragraph says:
+- it adds why the exercise works, which is what a person notices about a dog: you forgive it for the chewed shoes before you've found the other one, and that's the love you can't give yourself;
+- it answers the reader's literal question (the dog doesn't have to be in the room);
+- it has two instructions instead of three;
+- it has a joke that carries the point (the little one "hasn't even chewed anything").
+P2 did the same with a familiar instance (kids squirming away from an aunt's big hug), and passed on the first try.
+E65. The linter's REVIEW flags are not the tell ledger (Joel, 2026-09-26 17:54: "you seem to not have done any real checks on that, it looks super ai and you already know that"). On Borrow Love P3 and P4, I dispositioned only the linter's flags, then sent drafts with the inventory's obvious tells: a colon reveal ("with one catch:"), a faux-insight setup ("It's the old… trick"), announcing ("Ask:"), coach reassurance, an instruction-manual chain, and a repeat of Joel's own point. That was four checks on text my own inventory would have stopped. Before every Pangram call, read the literal draft against every row of `docs/HUMANIZATION-TELL-INVENTORY.md` (T01–T28, C01–C04) and record each row. If a draft looks AI to me, it doesn't go to Pangram. The check is for finding out what I can't see myself. Vague placeholders count too. "Something", "one small thing" and "stuff", in the slot where a person would name the thing, are T06/T13 PRESENT even when nothing sounds like therapy-speak (Borrow Love P4, third attempt).
+E66. The marching order (Joel, 2026-09-26 18:30: "you don't see the marching order? like all planned from advance so each sentence has the next function, perfectly optimized"). A paragraph can pass every row sentence by sentence and still be AI if the sequence is a plan: each sentence does the next job and hands off (exercise → result → name → mechanism → note). Read the paragraph as a sequence of jobs before any check. If you can label every sentence with its function in order, and none of them lingers, digresses or reacts, it marches. The fix is to let it dwell where the material is actually interesting. Put the remaining jobs where a person telling it would say them, even as an afterthought.
+E67. Sense before every check, per paragraph (Joel, 2026-09-26 18:47: "P4 doesn't even make sense. you can't see that?"). Borrow Love P4 passed at 100% Human while never saying why the exercise works. "For the same reason King Solomon…" never gave the reason, and the 700 wives only meant something to a reader who already knew the paradox. The next paragraph was patching the gap. Before any check, read the paragraph as a reader who doesn't know the point. Can they say what it claims and why? If a story implies the point only to someone who already knows it, fix the sense first. A detector pass on prose that doesn't make sense is diagnostic-only. When a later paragraph exists mainly to rescue an earlier one, fix the earlier one and cut the rescue. The first thing to check is whether the explanation is about the same person, in the same position, as the instruction. Borrow Love P4 put the stand-in inside "your exact life" and then explained it with being outside a life (Solomon, other people's messes), and I didn't see the contradiction until Joel pointed at the first sentence (18:54).
+E68. What breaks the march is a sideways sentence, not a better-worded step (Joel's P4 fix, 2026-09-26 19:23: "again that marching order where the next sentence lands like code without a hitch"). He cut my explanatory clause ("and most of us are way wiser as outsiders") and added a reflection the plan didn't need: "The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move." On its own I'd have flagged it as a finished principle. In context, it's the hitch. When a paragraph lands every step on cue, cut the step that's just the next logical move, and let one sentence step back or wander before the practical point returns.
+E69. Joel's P6 fix (2026-09-26 20:44).
+- Paired abstractions like "one sentence or one small action" read AI. Name the thing plainly ("a small piece").
+- Say the move in physical words ("hand it to yourself").
+- The sideways sentence that works comes from the article's own frame ("That's how you learn as a kid, and it works now, too"), not from the procedure.
+- An offhand technical term can close a paragraph ("The technical term for this is 'scaffolding.'").
+- If the owner can't tell what a sentence is doing, it isn't doing anything.
+E70. Run the inventory on the assembled section before a whole-section check, not only paragraph by paragraph (Borrow Love h2, 2026-09-26). Every paragraph had passed alone, and the body came back 35% AI, with the flag running over Joel's own P4 opening and all of his P6. Run on the whole body, the inventory found what the paragraph passes couldn't see:
+- the source's options list, walked through in order inside the aunt scene (T04);
+- the image explained into instructions (T08);
+- a referent glitch ("If nothing moves… Then watch how it lands", C02);
+- the second trick's "Or" following the case where the first trick works (T03);
+- four paragraphs in a row ending on a polished line (T20).
+Fixing only those, in my own P2, took the body to 100% Human with Joel's text unchanged. So a flag on owner text can be spillover from my paragraph beside it. My first repair swapped the flagged sentence for a callback quip. That reworded the same move (T15) and added a landing, and the flag spread to 65%. When a span-start fix fails, check whether it removed the operation or only reworded it.
+E71. Consistency with the whole article, and between its smaller parts. Joel, 2026-09-26 21:52: "forgiveness is central to the inner child therapy, which is already in the guide, now you're ending by saying i will probably never forgive some folks. so you need some better rules to keep consistency with the long article and smaller parts of it". Also: "when you created the experience of my own life it was wrong, i have no problem sending love to my little one. and i also don't see why if i did havea problem sending love to him it would require me to not wish him to be loving".
+
+The Goodwill h3 failed three ways:
+- **Forgiveness.** P2 ended in Joel's voice on "doesn't mean they're forgiven… I'm not even betting they'll ever get to be any of those things." That reads as permanent unforgiveness and cynicism. The guide's own forgiveness section (`How to Forgive Without Forgetting`) says four things. Healing often comes to include forgiveness. It can arise from seeing how someone's conditioning shaped what they did. It fits with boundaries and even no contact. And "permanent residence inside resentment" is its own trap.
+- **An invented experience.** P1's "Aimed at myself, it's 'May I be peaceful and free'" gave Joel a struggle he doesn't have. My Journey has him sending the love he'd found to little him.
+- **Sense.** The inward wish dropped "loving" because the source did. I noticed that in the sense read and kept it anyway.
+
+Rules:
+1. **A stance ledger before drafting.**
+   - For each theme a section touches (forgiveness, trust, self-love, God, teachers, whether people change), look up what the installed article and the later source sections say.
+   - Write one line per stance, with where it's found, in the drafts file.
+   - Before any check, read every sentence that takes a stance on one of those themes against the ledger.
+   - A sentence in Joel's voice, or one that ends a paragraph or section, gets the closest read.
+2. **The working source's "I" isn't Joel's biography.**
+   - The source is an AI draft of his ideas (17:54: "i didn't write any of that but it's my basic ideas yeah").
+   - A first-person experience goes in only if Joel's own words say it: the installed article or his messages.
+   - If his words say otherwise, or say nothing, use "you" or a general voice.
+   - Never stretch a first-person line into a new claim about him. "The same doorway can face inward" became "Aimed at myself", and that was the invented experience.
+3. **The source gets no pass on sense.** If something in it doesn't hold up (a wish that drops "loving" when it faces inward), fix it or ask. "It's the source's" isn't a reason to keep it.
+4. **Smaller parts too.** The same stance has to hold across neighboring paragraphs and sections, and in the later sections they point to.
+E72. Joel's Goodwill and spiritual-hurt fixes (2026-09-26 23:15).
+
+Goodwill:
+- He confirmed the first person where it's true ("i can't always feel loving towards everyone (but not a problem toward myself)"), then used it for a choice with a reason: "That's why I go with Buddha's overall wish (paraphrasing)". The reason comes as a trailing "since" clause that ends warm: "and then they actually would be lovable".
+- He split my packed first sentence. The linter's B4 was right about it.
+- He cut the access line ("they don't get to come back over for coffee"). With it in, everything but his sentence read AI.
+- The outcome became something that happens to the person wishing: "You may find it bounces back and opens up a little warmth in your heart". It's no longer a reassurance ("it might just stay a quiet intention").
+
+Spiritual hurt, in his words: AI overuses "I wouldn't call that X" and "the 3 part conditional syntax"; then there are "the instruction manual features", and "the ending is bringing it all together in the most defensible way possible". His fix kept my first two sentences and ended on one committed stance: "But if you let an abuser control your appreciation of life, then you've given them an unearned win." End on something a reader could push back on, not the safest summary.
+
+The Serenity Prayer paragraph was fine, but a familiar-instance line that keeps going can turn into a pattern. Keep those short.
+E73. Three corrections from Joel (2026-09-26 23:38).
+- **Check a paraphrase against the whole source.** I flagged "Buddha's overall wish (paraphrasing): 'May you be loving, peaceful, and free'" as further from the Metta Sutta than "May you be happy". My fetch had asked only for "the wish lines", and I took that answer for the whole text. The sutta also says "Let none through anger or ill-will / Wish harm upon another" and "with a boundless heart / Should one cherish all living beings", which is the loving, the peace and the freedom he paraphrased. His version is closer than "May you be happy". When Joel marks something as a paraphrase, read the whole source before flagging it, and ask the fetch tool for the whole text, not the lines that match my worry.
+- **The end-of-turn article.** `OWNER-FACING-TURN-CONTRACT.md` (active since 2026-09-17) says every owner-facing turn ends with the full humanized article so far. The gate's activation list didn't name it, so I never loaded it. It's now a declared gate, and every turn ends with `tools/render_article_so_far.py`'s HTML, with the current candidate marked as a candidate.
+- **Repeats are judged by distance, not counts.** I flagged three kid comparisons and two sentences ending "…works…, too." Joel: "the whole article is about the inner child so it makes sense we talk about it a bunch but on my reading i don't see those repeats too close together to look weird". The comparisons are 150–350 words apart in three different sections, and the two endings are about 110 words apart across a heading. Flag a repeat only where a reader would notice it.
+
+## N. Added 2026-09-27 — The Three Adult Functions P1
+
+E74. The last-sentence test (Joel, 2026-09-27 01:59: "the easiest way to fix that was to just remove the last sentence since it was obviously doing that ai thing of ensuring the thought is fully complete and summed up perfectly"). My third P1 ended "So an afternoon of coloring badly together might do more than another hour of going over what went wrong." I'd recorded it as E72's committed stance, with T08 and T20 ABSENT. It was the back-seat picture's moral and a landing. Cut, the paragraph passed. His preferred fix passed too: "Play not only paves the way for therapy, but is a part of how successful therapy should be measured." It adds a claim instead of concluding, and it ties to the Checking section on how therapy should be measured.
+- Before any check, read the paragraph without its last sentence. If the point is already clear, the last sentence is completing it. Cut it, or put a new consideration there, never a restatement or a derived "So…" (inventory T29).
+- A stance that follows from the paragraph's own argument is still a summary. E72's committed stance is a new claim a reader could argue with.
+- The two short paragraphs of mine that passed didn't end on a conclusion either. The dog paragraph ends on the joke that carries its point, and the friend paragraph on the practical five percent.
+
+E75. Read Joel's own words on his own terms first (gate step 1, E43). Two P1 attempts failed before I searched the repo for "pl/ork". `project-sources/CANON-FACTS.md` defines it ("Joel's replacement for 'inner work'… Verified per Joel, July 2026"), and his published somatic v4.2 (tested Human) introduces it himself: "Remember, therapy is not just work. It's also play! That's why they call it pl/ork!" He gives the name after the reason, and his humor there is goofy and glad. Mine was wry: a stand-up one-liner at every beat (the five-year-old, the spice rack), which is the humanizer's version of funny. Before drafting a passage on one of his terms or recurring ideas, search the canon facts and his published texts for how he says it himself.
+
+## O. Added 2026-09-27 02:50 — Joel's corrections to The Three Adult Functions
+
+E76. The section a heading promises owns its explanation (Joel, 02:42: "you brought up nurterer, protector, and guide as if they were already explained yet the explainer is gone now"). I marked the section's premise (TF-U2) as a duplicate of Chicken-and-Egg and cut it. I also reduced the three functions to one feature each, because Chicken-and-Egg and Borrow One had already named them. Those were previews; `The Three Adult Functions` is where they're explained. Before calling a unit a duplicate, ask which section's job it is. If this section's heading promises it, it stays, and the earlier mention is the preview. Consolidate only when an earlier passage already does the same job at the same depth.
+
+E77. Every cut goes to Joel in the same message as the prose. When I show a candidate, the message lists each unit I cut, consolidated or moved, and where it's carried. Recording it in the drafts file isn't telling him. The gate's stop rule already sends moves and cuts to him; I followed it for the Apprentice section and not here.
+
+E78. The article's central concept is always in the stance ledger, whatever the section (Joel, 02:42: "the point of reparenting is to not turn into your parents… otherwise you basically have your inherited parents in your head all the time parenting you"; "try to keep the functions of the article in mind before you change things up"). For this article: reparenting means taking the adult position so the parents you inherited stop running things in your head (source `The Parent You Inherited`). "Call yourself their big sibling", after "swearing you'd never turn into your parents", made reparenting sound like becoming them. A line that trades the parent role away breaks the article, even when the source's AI list offers it. E71 asked for consistency with the whole article; the ledger has to name the concept the whole article is about.
+
+E79. A term's definition goes where the term is first used in the humanized article (Joel, 02:42: "i think i just put the pl/ork def there because at that time pl/ork was first used there"). When a section is rewritten so that it stops using a term, check whether the definition now sits ahead of every use, and move it to the new first use.
+
+## P. Added 2026-09-27 04:40 — Joel's punch list
+
+E80. Owner flags get a living list. Joel flagged the orphaned "ask" on 2026-09-24. It was registered in a scope-extension file, carried by three candidates that were never installed, and then dropped (Joel, 04:19: "i know i told you this before but you didn't fix it"). Every flag Joel raises that isn't fixed the same turn goes into `OPEN-OWNER-FLAGS.md`, which is read at the start of each turn and before the article goes to him.
+
+E81. Read the whole assembled article for sense, not only the new section. Before sending the article each turn, and after any install or move, do one read from the top as a reader who hasn't seen the drafts. Look for:
+- names used before they're introduced (Pema in Don't Give);
+- terms used before they're defined ("the hook", "ask", "five percent");
+- sentences whose referent is gone (Also Look Outward's "They can still disagree with you");
+- paragraphs in the wrong section (Joel's own story after Don't Give's conclusion).
+A section that passed Pangram can still not make sense. Also Look Outward's first paragraph was accepted on its detector result alone.
+
+E82. A consolidation has to be explained and has to leave the rest organized (Joel, 04:19, on cutting the Three Adult Functions' premise: "you had some good instinct perhaps actually to begin with on that but it wasn't explained and it wasn't well organized"). E77 covers the explaining. The organizing part: after a cut, the text that stays can't lean on what was cut. My P2 introduced the three names as if they'd been explained. Before cutting a section's material, write down what job the section still has, and build it around that job.
+
+E83. Don't polish Joel's words (2026-09-27, the Guide paragraph for Chicken-and-Egg). I carried his chat sentences into the article with small smoothing: "get small, like", "all we do is", "Then again", "lean on… to get out of". Those two sentences were exactly Pangram's flagged span (44% AI, "in the later part"). His own wording, with only "ourself" and "themself" fixed, passed alone (100% Human), and the whole certified opening passed with it (950 words). His roughness ("become small and like", "rather than giving ourselves a mission as well", "over-rely") is part of why his text reads human. When his words go into the article, keep them as he wrote them. Fix only plain grammar slips, and say which.
+
+E84. When the article has to introduce a set of roles, show them working in one small scene and name them inside it (2026-09-27, Joel at 20:29: "three jobs paragraph is not three jobs tho it just talks about the guide"). My first repair gave the Nurturer and the Protector a sentence each: what the job does, plus a reason. Pangram put it at 100% AI (111 words), even though each sentence had something noticed in it. The same shape sank the enjoying paragraph in Borrow One Competency that afternoon (47% AI), where each paragraph names one job. The version that passed puts both jobs in one moment: the party is too much, the Protector gets you both out, and the Nurturer tells your little one they did great on the way home (100% Human alone; the opening 100% Human, 1,003 words). The rest of each job stays in the sections that own it (E76). When I cut material that way, I say where each piece is.
+
+E85. A claim that something is in the article gets checked against the article (Joel, 2026-09-27 21:18: "so how can we prevent that kind of error in future where you say you will write something and don't write it? it's happened at least twice now, once in that paragraph and once in the "ask" edit i gave you which landed in some scratchpad").
+- The "ask" fix: a 2026-09-24 audit said "The earlier orphaned "ask" defect is resolved". That was about Candidate I, which was never installed. The article kept the old sentence until 2026-09-27.
+- The three-jobs paragraph: its note said "the three jobs explained where they're first named", but the Nurturer and Protector weren't in it. The note described the plan (their units were assigned to later sections), not the paragraph.
+
+In both cases the claim was about something other than the article text, and nothing compared the two. E80's open-flags list tracks flags but checks nothing.
+
+The fix is mechanical:
+- `OWNER-EDITS.json` gets an entry for every edit Joel gives, in the same turn, and for every claim about what a paragraph covers. Each entry has strings to find in the article.
+- `tools/check_owner_edits.py` checks them.
+- The render runs the check every turn and puts a failure in a red box at the top of the article.
+
+Run on the article from before each fix, it fails on both errors (the "ask" entry on the version before the fix; the three-jobs entry on 5800a7b).
+
+E86. My audit clears drafts that Pangram then flags, and adding rules hasn't changed that much (Joel, 2026-09-27 21:46: "you did a full audit and each time it passed with no AI tells and some human tells, and on your global read it looks human, yet it still doesn't pass pangram? … each time we should be improving the auditing method, is that working?").
+
+**The record** (the calibration table in `tools/HUMANIZATION-GATE.md`):
+- 2026-09-26 to early 09-27: 26 texts of mine went to Pangram after the full gate, and 14 came back AI.
+- 2026-09-27: 27 went, and 12 came back AI.
+- The linter hard-fails 4 of the 35 AI texts.
+- The inventory never stopped a draft that later failed. Every draft I sent had cleared it.
+
+**Why the audit lets them through:**
+1. A borderline row gets UNCERTAIN, and then KEEP with a reason, and I nearly always find a reason. So "passed" means "nothing I couldn't explain away." r1b of the three jobs had eight UNCERTAIN rows kept, and its marching note says "the walk is there. Pangram decides." I saw the problem and sent it. Outward r1 had seven. Across today's recorded drafts, the failures averaged about four UNCERTAIN rows and the passes about two, with a lot of overlap. The only clean signal is at the top: the two drafts with seven and eight both failed.
+2. The audit checks a list of named patterns, but what fails is how a paragraph is built. My process freezes a list of units and realizes them one sentence each, in the source's order; the trace then confirms each unit is covered. That confirms the outline shape Pangram flags. What passed today was a scene carrying the units (the party), or Joel's own words.
+3. My sense read isn't cold. I know the units, so I fill the gaps a reader can't. Joel read Also Look Outward P1 cold and asked what each sentence after "Irritating." refers to. My sense read of the same paragraph said it "reads in order".
+4. A retry that keeps the skeleton tests nothing. Outward r1 kept the installed paragraph's order and moves, with new wording. The three suspects I named before r1 were all changed in r1, and it still failed at 100%. After the failure I named two of the same suspects to Joel as "likeliest", which r1 had already ruled out.
+
+**Changes (provisional; measure them the same way):**
+- Before every Pangram call, the record gets a prediction (Human or AI) and the reason. The prediction is scored against the result, so the audit has a hit rate.
+- More than three UNCERTAIN rows means rebuild before any call, not KEEP with reasons. On today's records that would have stopped 6 of the 10 failures and 2 of the 9 passes.
+- Each retry names its hypothesis ("it failed because X; this version changes X"), and a retry that keeps the skeleton doesn't count as a test.
+- When Joel says a paragraph doesn't make sense, the fix is a rebuild of the paragraph, not the one sentence he pointed at. It stays open in `OWNER-EDITS.json` until the whole paragraph has been reread cold, each sentence checked for what it refers to and why it follows the one before.
+
+E87. Sense before humanization, and rebuild from the original (Joel, 2026-09-27 22:00: "fix the workflow because you shouldn't be checking for humanization before you even have something that makes sense"; on Also Look Outward P1: "look at the original ai one i guess maybe you whispered down the lane too much").
+
+The paragraph's history shows the drift. On 2026-09-17, the example-first candidate made sense: after an awful fight, the person comes back "and actually talk[s] about the thing you were trying to say", so the fight "looks pretty different in hindsight". Then comes what's harder to explain away (the same strange ending again and again), then Gibson on repeated behavior. Detector-driven localized rounds (A, B, B2, E, G, H) then cut the links:
+- "actually talk about the thing you were trying to say" became "had a basically normal conversation", which changes the meaning;
+- "Irritating." was added;
+- "Now the first fight has company" came in.
+
+Candidate H passed Pangram and was accepted on that result. My 2026-09-27 fix and my rewrite then worked from H, not from the source.
+
+The gate now starts with a sense step (HUMANIZATION-GATE.md, "Sense comes before humanization"):
+- start from the source;
+- write a per-sentence sense chain;
+- have a cold reader check every referent;
+- only then humanize.
+
+The first calibration of the cold reader: it caught the old three-jobs paragraph, and it passed the drifted Also Look Outward P1 while its line notes named its gaps. So the notes gate, not the verdict.
+
+E88. The tell list is written out row by row against the literal words, or it hasn't been run (Joel, 2026-09-27 22:38: "how did this pass even once thru the ai tells list? show me the tells list that it passed with flying colors then").
+
+Also Look Outward r2's recorded inventory had two UNCERTAIN rows and "Every other row, T01 to T29 and C01 to C04: ABSENT." Done row by row afterwards, it has 13 PRESENT rows (`experiments/ALSO-LOOK-OUTWARD-R2-TELL-AUDIT-20260927.md`). I had read my own draft through what I meant it to do, and cleared the rows in bulk. That's E85's failure (a claim nothing checked), in my own audits.
+
+The rule:
+- Every row gets its own line, with the quoted words it matches, or "no words match".
+- No line clears several rows at once.
+- A PRESENT row blocked the Pangram call. That part was withdrawn the same night: a blind calibration showed human prose carries most of these rows too (`tools/TELL-CALIBRATION-20260927.md`). The list is now a repair aid, and Pangram is the gate.
+- A "try", for the two-try rule, is a draft whose whole gate was actually run and recorded. A one-sentence owner-requested fix isn't a try at the paragraph, and a draft sent on a bulk-cleared list isn't a fair test.
+
+E89. The row the data flags is the one I explained away (2026-09-27, Also Look Outward r5). The blind calibration ranked T23 (generic-specific scenery) as the most AI-leaning row, 4 of 14 AI texts against 1 of 14 human ones. r5's repair pass then marked its textbook dinner vignette UNCERTAIN because it was "offered as a hypothetical", and r5 came back 100% AI. When the data says a row leans AI, a hit on it gets repaired, not reasoned with. What passes is a moment that's specific and a little strange, or real. What fails is the example anyone would reach for.
+
+E90. Correction to E89 (Joel, 2026-09-27 23:52: "the dinner scene isn't the issue. you could say while skydiving and it would still have the same marching order predictable cadence with optimized structure"). E89 blamed r5's textbook vignette (T23), using the blind reviewer's numbers. But that reviewer couldn't see the march in texts Pangram rates 100% AI, so its ranking of T23 means little. What sank r5 was the march: setup (replay), the scenario, option A, option B, the condition, the expert, the label, the advice. Every sentence did the next job. The vignette only filled that march in. The march rows (T02, T09, T13) block a call when present (`tools/TELL-CALIBRATION-20260927.md`, correction).
+
+E91. How I set up a reviewer decides what it can see (Joel, 2026-09-28 00:56: "i don't know how you are setting those subagents up. it seems like they must be either less intelligent ... or they don't have a good rubric"). Both of my earlier setups blinded the reviewer.
+- The tell-list reviewer got rules meant to stop over-flagging ("organization is not a tell", "PRESENT means the operation is actually happening"). It was told not to give a verdict, and it saw no example of what Pangram flagged.
+- The judges got no examples at all.
+
+A reviewer that learns from our own Pangram-labeled paragraphs does see it. With them, Opus got 43 of 53 held-out paragraphs, caught all 25 AI ones, and called all 19 of Joel's own passages Human (`tools/REVIEWER-VALIDATION-20260928.md`). The same prompt left Sonnet near chance. So a reviewer gets our labeled examples and a verdict to give, and it's validated on held-out paragraphs and on Joel's untouched prose before anyone trusts it.
+
+E92. The writer doesn't review, and I'm neither (Joel, 2026-09-28 00:56: "the generator often can't do the review of what it's generating"). On Also Look Outward P1, seven versions I wrote or fixed were 100% AI alone. The reviewer-writer loop passed it with sense intact after six rounds (`experiments/REVIEWER-WRITER-LOOP-20260928.md`):
+- fresh reviewers wrote per-sentence tickets;
+- fresh writers carried them out literally;
+- a cold reader checked sense;
+- I ran the process and checked meaning and facts, but wrote none of the tickets or sentences.
+
+What changed was where the resource sat (the middle, not the end), an open question to end on, a first sentence that argues with itself, and no summing up. The stock middle line the reviewers kept flagging stayed and still passed. When the reviewer says AI 60–65 after the march is broken, check Pangram. It has been too strict there twice. Never tell a reviewer the Pangram result when its verdict matters.
+
+E93. Joel's extreme example isn't the reader's case, and nothing pokes a reader to wonder whether they're the bad one (Joel, 2026-10-01 02:40: "i wouldn't put the dark empath thing in there, i was telling you about that as an extreme example, but the more likely example is just like you said, the track record isn't good enough yet, and i donj't want to make people think maybe they are dark empaths, bc they would surely know if they are without me needing to poke them"). When he makes a point with an example, ask which case most readers are in, and carry the point with that one or with none. How I could have caught it without him: three signals were there. The grounding review of draft j asked "am I the dark empath?" as a MUST question; the cold read of b1 asked what you'd get out of your own little one; and A2 above already says never to have a reader "think about what they want from a child". I answered the question with a gloss instead of asking whether the line belonged. A gloss request, or an "am I the bad one?" question, means take the case out or ask Joel. The grounding review now checks for it (`docs/HUMANIZATION-GATE.md`, S6).
+
+E94. Every correction gets its "without me" lesson (Joel, 2026-10-01 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)"). In the same turn: the fix; the signal that was already there and why nothing acted on it; the change to that check; a sweep of the article for the same problem; and a line or two to Joel. The shared gate has the rule ("Every correction teaches the system").
+
+E95. Say which try a Pangram result came on (Joel, 2026-10-01 02:40: "each time you tell me that, tell me on which try it passed, i'm trying to see if you're getting better at it"). The first check of a new or changed text is try 1; each check after a failure is the next. PREDICTIONS rows and messages both say it.
+
+E96. Emojis: about one per section on average, in dialogue too, and each one checked (Joel, 2026-10-01 02:40, quoted in the gate's step 9). He placed three I had missed, all on emotional lines in dialogue, one answering an earlier emoji. And on the same day three of my twelve placements flipped Pangram on text that had passed, so an emoji is a change like any other.

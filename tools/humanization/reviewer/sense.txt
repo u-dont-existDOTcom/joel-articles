@@ -1,0 +1,16 @@
+Below is one paragraph from a friendly self-help article about inner-child therapy, with the paragraph before it and the paragraph after it. In this article, "your little one" is the inner child, and the "hook" is the tightening and urge you feel before a story in your head has finished forming.
+
+Read it as an ordinary reader who is seeing it for the first time. Your only job is to check whether it makes sense. Don't judge the style, and don't say whether it sounds like AI.
+
+For each numbered sentence of the middle paragraph, write one line: OK if it makes sense right where it is, or UNCLEAR followed by exactly what trips you up (a word or pronoun whose meaning you can't pin down, a jump you can't follow, a claim that seems to come from nowhere, grammar that makes you reread). Then write one line saying whether the paragraph as a whole makes sense after the one before it, and whether the paragraph after it follows on.
+
+{earlier}The paragraph before:
+{before}
+
+THE PARAGRAPH:
+{draft}
+
+The paragraph after:
+{after}
+
+Output only the lines. Don't use any tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web.

@@ -1,0 +1,605 @@
+{
+ "schema_version": 1,
+ "article": "HUMANIZED-ARTICLE-SO-FAR.md",
+ "how": [
+  "Every edit Joel gives goes in here the same turn, with his words and the strings the article must (or must not) contain once it's done. Status pending until the article has it; then applied.",
+  "Every note or record that says the article covers something gets a claim entry (for example, which jobs a paragraph explains).",
+  "tools/humanization/check_owner_edits.py (from the repo root) checks every entry against the article with comments removed. render_article_so_far.py runs it on every render, and a failure goes in a red box at the top of the article.",
+  "A record, note or message says a change is in the article (installed, applied, fixed, resolved, moved, explains) only after its entry passes. If it only exists in a draft, candidate or scratch file, it says so."
+ ],
+ "entries": [
+  {
+   "id": "ask-prompt",
+   "status": "applied",
+   "what": "Name the prompt where \"ask\" is first used (You Don't Need an Inner Monologue P1). Flagged 2026-09-24, called \"resolved\" in an audit of a candidate that was never installed, lost, fixed 2026-09-27.",
+   "joel": "04:19: \"i know i told you this before but you didn't fix it… where did 'ask' get introduced?\"",
+   "must_contain": [
+    "the usual inner-child prompt to \"ask your little one what they need\" can get confusing"
+   ],
+   "must_not_contain": [
+    "the usual inner-child prompt can get confusing"
+   ]
+  },
+  {
+   "id": "pema-intro",
+   "status": "applied",
+   "what": "Introduce Pema in Don't Give.",
+   "joel": "04:19: \"Even Pema Chodron, who inspired parts of this guide, comes from ...\"",
+   "must_contain": [
+    "Even Pema Chödrön, who inspired parts of this guide, comes from a tradition where devotion to a teacher is a big deal"
+   ]
+  },
+  {
+   "id": "danger-cut",
+   "status": "applied",
+   "what": "Cut the \"actually in danger\" paragraph and the sentence after it.",
+   "joel": "04:19: \"cut that + the sentence after\"",
+   "must_not_contain": [
+    "If you're actually in danger, maybe you need to get out or get some help",
+    "Calling it \"your story\" doesn't protect your little one"
+   ]
+  },
+  {
+   "id": "journey-move",
+   "status": "applied",
+   "what": "My Journey's four paragraphs go right before Don't Give, without \"My own case was weird.\"",
+   "joel": "04:19: \"the 4 paragraphs after 'borrow adulthood, do not surrender it' are supposed to be right before 'don't give the inner adult away' and remove the first 5 word serntence 'my own case was weird'\"",
+   "order": [
+    "The image below maps out the details",
+    "Don't Give the Inner Adult Away"
+   ],
+   "must_not_contain": [
+    "My own case was weird."
+   ]
+  },
+  {
+   "id": "scary-thoughts",
+   "status": "applied",
+   "what": "\"Everybody gets scary thoughts they'd rather not have sometimes.\"",
+   "joel": "04:19",
+   "must_contain": [
+    "Everybody gets scary thoughts they'd rather not have sometimes"
+   ],
+   "must_not_contain": [
+    "Everybody gets thoughts like that sometimes"
+   ]
+  },
+  {
+   "id": "hook-defined",
+   "status": "applied",
+   "what": "Define \"the hook\" where it's first used (Catch the Hook P1).",
+   "joel": "04:19: \"What is the 'hook'…?\"",
+   "must_contain": [
+    "Pema Chödrön calls the tightening and urge you get before the story has finished forming \"shenpa,\""
+   ]
+  },
+  {
+   "id": "wizdumb",
+   "status": "applied",
+   "what": "\"new-age wizdumb\".",
+   "joel": "04:19: \"change 'new age wisdom' to 'new-age wizdumb'\"",
+   "must_contain": [
+    "new-age wizdumb"
+   ],
+   "must_not_contain": [
+    "new age wisdom"
+   ]
+  },
+  {
+   "id": "boundary-crossing",
+   "status": "applied",
+   "what": "\"elevated the boundary crossing to\".",
+   "joel": "04:19",
+   "must_contain": [
+    "elevated the boundary crossing to"
+   ]
+  },
+  {
+   "id": "outward-p1-sense",
+   "status": "applied",
+   "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48. Rebuilt by the reviewer-writer loop (r6b, 2026-09-28) and finished by Joel (entry outward-p1-joel-final).",
+   "joel": "04:19: \"the first paragraph in Also Look Outward makes no sense. after 'irritating.' the next sentence is referring to what? and next and next... ?\"; 21:46: \"it looks like this same paragraph that i told you before made no sense, do you recall that feedback?\"",
+   "waits_for": "",
+   "must_contain": [
+    "Once you're in that happy place, look at the other person too",
+    "Or can they hear you disagree and look at their own part?"
+   ],
+   "must_not_contain": [
+    "Have you ever had a fight where you were absolutely sure"
+   ]
+  },
+  {
+   "id": "tyler-story",
+   "status": "applied",
+   "what": "Tyler's story in Write It, named, told directly (P4 to P6).",
+   "joel": "16:29: \"yes include the smoking example with Tyler and name him\"; 20:29: \"tyler's story is good\"",
+   "order": [
+    "Write It. Don't Send It Yet.",
+    "My friend Tyler saw a guy smoking in front of a baby",
+    "That's exactly what made Tyler the right person to say something.",
+    "Tyler's an evangelical Christian who preaches on YouTube",
+    "When Healing Turns Into Checking"
+   ]
+  },
+  {
+   "id": "good-enough",
+   "status": "applied",
+   "what": "\"your five percent\" becomes \"good enough for a start\".",
+   "joel": "16:29",
+   "must_contain": [
+    "is good enough for a start, so try it before you call next time"
+   ],
+   "must_not_contain": [
+    "five percent"
+   ]
+  },
+  {
+   "id": "heart-chakra-stays",
+   "status": "applied",
+   "what": "\"that heart chakra love\" stays.",
+   "joel": "16:29: \"that's fine\"",
+   "must_contain": [
+    "that heart chakra love"
+   ]
+  },
+  {
+   "id": "dawns-on-you",
+   "status": "applied",
+   "what": "\"dawns on you\".",
+   "joel": "16:29: \"yes dawns on you\"",
+   "must_contain": [
+    "dawns on you"
+   ],
+   "must_not_contain": [
+    "dawns you"
+   ]
+  },
+  {
+   "id": "guide-overlooked",
+   "status": "applied",
+   "what": "The Guide as the one people overlook, in Joel's words (Chicken-and-Egg).",
+   "joel": "16:29: \"this is the most important one that people overlook, not that it's more important than the others per se…\"",
+   "must_contain": [
+    "The Guide is the one people overlook the most.",
+    "until Key pointed it out",
+    "Our lives can become small and like a never-ending therapy session when we focus only on caring for ourselves rather than giving ourselves a mission as well.",
+    "But then some people over-rely on their mission to avoid caring for themselves."
+   ]
+  },
+  {
+   "id": "worth-line",
+   "status": "applied",
+   "what": "The worth line in Chicken-and-Egg P2.",
+   "joel": "17:05 (decision 2); 20:29: \"worth line is good\"",
+   "order": [
+    "turn into an adult.",
+    "There was never anything wrong with the child's worth to begin with.",
+    "Instead, we need to separately develop"
+   ]
+  },
+  {
+   "id": "enjoying-in-borrow-love",
+   "status": "applied",
+   "what": "The enjoying Nurturer at the end of Borrow Love's h2 body.",
+   "joel": "17:05 (decision 1); 20:29: \"enjoying para in borrow love is good\"",
+   "order": [
+    "scaffolding",
+    "If the only time the Nurturer shows up is when something's wrong",
+    "A Smaller Doorway: Goodwill"
+   ]
+  },
+  {
+   "id": "lao-tsu-stays",
+   "status": "applied",
+   "what": "\"As Lao Tsu might have said…\" stays as a joke.",
+   "joel": "17:05: \"it's part of the joke now\"",
+   "must_contain": [
+    "As Lao Tsu might have said"
+   ]
+  },
+  {
+   "id": "three-jobs-covered",
+   "status": "claim",
+   "what": "The three-jobs paragraph covers the Nurturer and the Protector before the Guide.",
+   "joel": "20:29: \"three jobs paragraph is not three jobs tho it just talks about the guide. Don't we still need to put the nurturer and protector functions in there before guide?\"",
+   "span": {
+    "from": "That's one grown-up doing three jobs",
+    "to": "But here's the chicken-and-egg problem",
+    "must_contain": [
+     "Nurturer",
+     "Protector",
+     "Guide"
+    ]
+   },
+   "order": [
+    "That's one grown-up doing three jobs",
+    "the Nurturer tells them",
+    "The Guide is the one people overlook the most."
+   ]
+  },
+  {
+   "id": "guide-at-the-party",
+   "status": "applied",
+   "what": "Joel's sentence after \"bathroom.\" in the three-jobs paragraph.",
+   "joel": "21:18: \"I would add one more sentence after bathroom.:\" then \"continue\"",
+   "order": [
+    "even though mostly they hid in the bathroom.",
+    "And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing.",
+    "The Guide is the one people overlook the most."
+   ]
+  },
+  {
+   "id": "no-big-sibling",
+   "status": "applied",
+   "what": "No label swap to \"big sibling\" (it breaks reparenting).",
+   "joel": "02:42: \"you're breaking the whole reparenting thing when you say call yourself your big sibling\"",
+   "must_not_contain": [
+    "big sibling"
+   ]
+  },
+  {
+   "id": "plork-paragraph",
+   "status": "pending",
+   "what": "The pl/ork paragraph with Joel's last sentence goes where pl/ork is first used.",
+   "joel": "01:59 (his sentence); 02:42: \"find where that is supposed to go\"",
+   "waits_for": "Start With Whatever Showed Up",
+   "must_contain": [
+    "Play not only paves the way for therapy, but is a part of how successful therapy should be measured."
+   ]
+  },
+  {
+   "id": "dissolve-three-functions",
+   "status": "pending",
+   "what": "Dissolve the h1 The Three Adult Functions into shorter, earlier pieces, keeping every therapy principle.",
+   "joel": "16:29",
+   "waits_for": "the sections after the Apprentice (see experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md)",
+   "must_not_contain": [
+    "The Three Adult Functions"
+   ]
+  },
+  {
+   "id": "h1-building-trust",
+   "status": "applied",
+   "what": "The h1 over Make the Protector Visible, Love Doesn't Have to Wait for Trust and Make a Simple Vow is \"Building Trust With Your Little One\".",
+   "joel": "17:05 (decision 3); 20:29: \"your new heading is good\"",
+   "waits_for": "Make the Protector Visible",
+   "must_contain": [
+    "Building Trust With Your Little One",
+    "# Building Trust With Your Little One"
+   ]
+  },
+  {
+   "id": "worth-universal-vs-personal",
+   "status": "pending",
+   "what": "Make the difference between universal love and love from a person clear.",
+   "joel": "00:09",
+   "waits_for": "You Are Worthy of Love. Always."
+  },
+  {
+   "id": "outward-p1-joel-final",
+   "status": "applied",
+   "what": "Joel's final wording of Also Look Outward P1: \"after all\" for \"granted\", \"then still end up\", and the shorter Gibson parenthetical.",
+   "joel": "2026-09-28 16:29: \"i changed the \\\"granted\\\" to after all, it's still 100% human med conf ... i fixed the overly wordy paranthetical also, still human med conf ... here's my final version\"",
+   "must_contain": [
+    "after all, they're allowed to say no to you",
+    "and then still end up reassuring them they're not a bad person",
+    "The psychologist Lindsay Gibson wrote the book on this: Disentangling from Emotionally Immature People."
+   ],
+   "must_not_contain": [
+    "granted, they're allowed to say no to you",
+    "calls people like that emotionally immature"
+   ]
+  },
+  {
+   "id": "outward-expectations",
+   "status": "applied",
+   "what": "Also Look Outward carries the source's point that r6b left out: adjust your expectations to what the person repeatedly shows they can offer, not what one perfect explanation might unlock (with its reason: the problem may not be that you failed to explain yourself well enough).",
+   "joel": "2026-09-28 16:29: \"you left out the last AI source part tho so i assume that will come next: 'Adjust your expectations to what the person repeatedly shows they can actually offer, rather than what one perfect explanation might finally unlock.'\"; 17:15: \"i prefer the candidate version so keep that\"",
+   "waits_for": "",
+   "must_contain": [
+    "If it's the first, it can seem like you haven't explained yourself well enough yet.",
+    "Maybe what they can do is text you something kind the next day and not bring any of it up."
+   ],
+   "order": [
+    "Or can they hear you disagree and look at their own part?",
+    "If it's the first, it can seem like",
+    "You may not know for certain whether the other person"
+   ]
+  },
+  {
+   "id": "mpv-p1-boundary",
+   "status": "applied",
+   "what": "Make the Protector Visible P1: Joel's fix of Claude's draft (the boundary question), installed as the section's first paragraph, candidate (2026-09-28).",
+   "joel": "22:12 UTC: \"then look how i flipped it to human med conf with only one little change that broke up the marching order\"",
+   "must_contain": [
+    "\"What's a 'boundary'?\", I might be asking.",
+    "or your DUIs in Maryland"
+   ],
+   "note": "The moldy bread was cut on 2026-09-29 at Joel's request (\"you tell me which moldy foood should go\"); see mpv-p1-moldy-cut."
+  },
+  {
+   "id": "mpv-h2-hero",
+   "status": "applied",
+   "what": "The h2 over the Make the Protector Visible section is Joel's \"Not Every Hero Wears A Cape\", replacing \"Keep Your Word\".",
+   "joel": "2026-09-29 19:14 UTC: \"Keep Your Word how did you come up with that for the heading? I don't see anything about keeping your word here... This is about making the protector visible, not keeping your word. I changed the title\"",
+   "must_contain": [
+    "Not Every Hero Wears A Cape"
+   ],
+   "must_not_contain": [
+    "Keep Your Word"
+   ]
+  },
+  {
+   "id": "mpv-p1-self-love",
+   "status": "superseded",
+   "what": "P1 under the new h2: no \"So\" at the start, and Joel's added sentence after the relationship line.",
+   "joel": "2026-09-29 19:14 UTC: \"on this version after title change, last sentence was ai (yes, and it does sound like it) ... so i fixed it and it is also more in line with the guide\"",
+   "must_contain": [
+    "Set one boundary. \"What's a 'boundary'?\", I might be asking.",
+    "which is not a small thing at all, I know. The only reason you're in it anyway is because of a lack of self-love, and you can build that now. Your little one has had enough grown-ups who said sweet things and then did nothing, so this is how they start to believe you."
+   ],
+   "must_not_contain": [
+    "So set one boundary."
+   ],
+   "superseded_by": "mpv-p1-underlying"
+  },
+  {
+   "id": "mpv-p3-joel",
+   "status": "applied",
+   "what": "P3 is Joel's version: the first two sentences of Claude's wA2 plus his four; the meal (nurturing, not protection) and the duplicated protection examples are gone, and the make-it-specific material is left for the next paragraph.",
+   "joel": "2026-09-29 19:14 UTC: \"On P3 there were some changes that needed to be made also line it up better with the guide. Also you were conflating protection from nurturing (giving a meal is nurturing, throwing away moldy food is protection, and we already have that in P1). So I threw away the duplicated examples of protection, and you should have seen to do that also. P3 now passes as hum med conf\"",
+   "must_contain": [
+    "Plenty of people are still at the putting-up-with part.",
+    "But yeah, bonding starts somewhere. And this is not to say you've never done anything to care for yourself. If not, you'd be dead right now. But we're making additional acts of care intentional now as a base for love to grow."
+   ],
+   "must_not_contain": [
+    "The first care you give them",
+    "Take one act from all this"
+   ]
+  },
+  {
+   "id": "mpv-p2-logic",
+   "status": "applied",
+   "what": "P2's two logic errors fixed: the complaint line keeps the guide's condition (\"if they're right\"), and the last line says what it's evidence of (you're safe and accepting of them, which love needs) instead of calling it proof of love.",
+   "joel": "2026-09-29 19:14 UTC: \"You said 'they're right' not 'if they're right' which lost the meaning. And it's not 'proof you love them' it's evidence you're safe and accepting of them. The original guide said it's 'evidence of love' -- that's true (evidence is not proof). Although I'd be more clear about exactly what it's really evidence of. Love requires that much, but that's not love.\"",
+   "must_contain": [
+    "and if they're right, you say so.",
+    "It's evidence you're safe to be around and that you accept them. Love needs both, but without warmth they can still feel like they're only being put up with."
+   ],
+   "must_not_contain": [
+    "It's proof you love them",
+    "They complain about something, they're right"
+   ]
+  },
+  {
+   "id": "mpv-p1-underlying",
+   "status": "superseded",
+   "what": "P1's self-love sentence says \"underlying reason\", not \"only reason\".",
+   "joel": "2026-09-29 20:35 UTC: \"that's good you caught my own error, lack of self love isn't the only reason to stay in an unsafe relationship, but it is the underlying reason. if you lack self love, all the others will follow: uncertainty about your goals, lack of skill follows that uncertainty, exhaustion follows that uncertainty and the lack of skill, practical barriers are less actual barriers when the goal is understood to be self love\"",
+   "must_contain": [
+    "The underlying reason you're in it anyway is because of a lack of self-love, and you can build that now."
+   ],
+   "must_not_contain": [
+    "The only reason you're in it anyway"
+   ],
+   "superseded_by": "rel-meditate-moved"
+  },
+  {
+   "id": "mpv-p1-moldy-cut",
+   "status": "applied",
+   "what": "The moldy bread goes from P1. Borrow One Competency keeps its old-food example, because that one carries the guide's Borrowed Protector \"Eat\" and comes first; in P1 the bread is an extra beyond the guide's six acts.",
+   "joel": "2026-09-29 20:35 UTC: \"you tell me which moldy foood should go, which one makes sense to go or replace?\"",
+   "must_contain": [
+    "actually smelling that old food you're about to eat and then trashing it if it smells a little weird"
+   ],
+   "must_not_contain": [
+    "Throw the moldy bread in the trash."
+   ]
+  },
+  {
+   "id": "mpv-p2-shows",
+   "status": "applied",
+   "what": "P2's visibility line goes back to \"shows as clearly\"; the \"can be as visible\" hedge was pedantic.",
+   "joel": "2026-09-29 20:35 UTC: \"i think you were being a bit pedantic with: \\\"shows as clearly\\\" was a flat claim where the guide says \\\"can be as visible\\\"... the logic should be grounded in the meaning the reader needs to understand\"",
+   "must_contain": [
+    "All of that shows as clearly to them as the clean room did."
+   ],
+   "must_not_contain": [
+    "can be as visible to them"
+   ]
+  },
+  {
+   "id": "rel-meditate-moved",
+   "status": "applied",
+   "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start.",
+   "joel": "2026-09-30 03:29 UTC: \"ok but now i'm rethinking the \\\"underlying reason your in it\\\" part because i'm remembering [a past relationship] [...] So now the advice to leave the relationship becomes more tricky with that in mind. I can't say she should have left me or not left me... it just depends on how things were going for her at the time. [...] Maybe instead of \\\"leave it\\\" and explaining why youre in it, just say, \\\"meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.\\\" Although that might deserve its own section, idk. I also have a romance guide i could link to at romance.u-dont-exist.com (link works even if not for you).\"",
+   "must_contain": [
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship."
+   ],
+   "must_not_contain": [
+    "The underlying reason you're in it anyway",
+    "keeps making you less safe, leave it"
+   ],
+   "order": [
+    "prepared for their failure to meet them.",
+    "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098",
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.",
+    "If you really did hurt them, repair it.",
+    "Not Every Hero Wears A Cape",
+    "Clean your room! Maybe your little one had grown-ups"
+   ],
+   "must_link": [
+    {
+     "text": "a relationship",
+     "url": "https://romance.u-dont-exist.com"
+    }
+   ]
+  },
+  {
+   "id": "rel-danger-line",
+   "status": "claim",
+   "what": "The relationship paragraph keeps a danger condition (Claude's addition, built on Joel's \"which is not a small thing at all, I know\"). Danger goes by what the other person actually did, once is enough, and old stuff stirred up too doesn't cancel it (turn 6, after all three push-level reviews raised it).",
+   "must_contain": [
+    "But if they've actually hurt or threatened you, even once, old stuff or not, get safe first, which is not a small thing at all, I know."
+   ]
+  },
+  {
+   "id": "ald-substack-note",
+   "status": "applied",
+   "what": "Joel's Substack note, as a bare URL on its own line (so Substack shows the preview), in Also Look Outward after the paragraph about what you can still count on someone for.",
+   "joel": "2026-09-30 03:29 UTC: \"i wrote a comment on someone's substack comment about not trusting people who trust people who disrespect us, i want you to put this comment url where it makes sense when we build the html eventually. i assume in Also Look Outward or so. https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098 no code needed just paste it like that exactly (that's how substack will know to pull up the preview for it) [...] the reason i'm not putting this directly into the article is because it reads also more human and captivating when it's a back-and-forth discussion with other substackers rather than just the narrative voice all the time.\"",
+   "must_contain": [
+    "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098"
+   ],
+   "order": [
+    "Also Look Outward",
+    "prepared for their failure to meet them.",
+    "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098",
+    "Write It. Don't Send It Yet."
+   ]
+  },
+  {
+   "id": "mpv-p4-joel-ending",
+   "status": "superseded",
+   "what": "P4 of Not Every Hero Wears A Cape ends on Joel's sentence in place of Claude's \"At first it'll probably come out sounding like a question.\"",
+   "joel": "2026-09-30 03:29 UTC: \"i like how you're integrating prior examples in parentheticals i feel that's human-sounding (in P4). The last sentence in p4 was not what i was expecting/hoping for. A question isn't necessarily a bad way to put things. But what I would have ended it on is, \\\"Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough.\\\"\"",
+   "must_contain": [
+    "say it out loud to yourself ahead of time. Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough."
+   ],
+   "must_not_contain": [
+    "At first it'll probably come out sounding like a question."
+   ],
+   "superseded_by": "mpv-p4-both-sides"
+  },
+  {
+   "id": "mpv-p5-joel",
+   "status": "applied",
+   "what": "P5 of Not Every Hero Wears A Cape is Joel's final (\"Protector\" capitalized, as elsewhere in the article).",
+   "joel": "2026-09-30 03:29 UTC: \"for P5 the first \\\"it\\\" is unclear referent. I assume you mean the protector action, not the difficult conversation. You explained in the next sentence. here's hum med conf final p5: After the day, look at what actually happened. If you did the protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic. [...] Hey, we've all been there. 🤗\"",
+   "must_contain": [
+    "After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. It doesn't mean failure, because the process is dynamic.",
+    "Fear is the first guess, but maybe you didn't know how or why. Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it. Hey, we've all been there. 🤗"
+   ],
+   "order": [
+    "as long as what you needed to say is still in there.",
+    "After the day, look at what actually happened."
+   ]
+  },
+  {
+   "id": "mpv-p1-sweet-things",
+   "status": "applied",
+   "what": "P1's last sentence no longer gives every reader the same history: the grown-ups who said sweet things and did nothing become a \"maybe\", and so does the reader doing it too.",
+   "joel": "2026-09-30 04:44 UTC: \"reviewer was also right to catch the generalization about grown ups saying sweet things. so fix that\"",
+   "must_contain": [
+    "Clean your room! Maybe your little one had grown-ups who said sweet things and then did nothing, and maybe you've done it too, so this is how they start to believe you."
+   ],
+   "must_not_contain": [
+    "Your little one has had enough grown-ups"
+   ]
+  },
+  {
+   "id": "mpv-p4-both-sides",
+   "status": "applied",
+   "what": "P4's rehearsal keeps what you needed to say: Joel's ending plus \"as long as what you needed to say is still in there\".",
+   "joel": "2026-09-30 04:44 UTC: \"the reviewer was good to catch me on both sides issue. fix that, let's see what your fix looks like. i know what i'd say now but i want to see what you'll say.\"",
+   "must_contain": [
+    "Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough, as long as what you needed to say is still in there."
+   ]
+  },
+  {
+   "id": "ldw-p3-memory",
+   "status": "applied",
+   "what": "Love Doesn't Wait P3, the bedtime story, is Joel's own memory, so it stays in his first person as installed. Since 2026-10-01 02:40 it has Joel's emojis after the two lines (ldw-p3-p6-emojis).",
+   "joel": "2026-10-01 00:12 UTC: \"Yes that's my own bedtime memory with my mom.\"",
+   "must_contain": [
+    "I was about five when my mom told me it was time for bed (or something equally outrageous to a five-year-old). I cried and screamed \"I HATE YOU!\" 😡 She answered, \"But I love you!\" 🥰"
+   ],
+   "where": "Love Doesn't Have to Wait for Trust"
+  },
+  {
+   "id": "ldw-p1-honest-lover",
+   "status": "applied",
+   "what": "Love Doesn't Wait P1 adds what the guide missed: love doesn't need the loved one's trust, but it does need the one loving to be honest (trustworthy in fact), or it can be a dark empath's act. The dark-empath sentence came out on 2026-10-01 (ldw-p1-no-dark-empath); the honesty condition stays.",
+   "joel": "2026-10-01 00:12 UTC: \"for P1, i think the ai guide was missing something. love doesn't require the loved one to trust, buut it does require the lover to be honest (trustworthy objectively). otherwise can just be a dark empath pretending to love.  why didn't your reviewer catch that?\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "So your love can sound like you're asking them to trust you. It doesn't need their trust, but it does need you to be honest with them, which isn't the same as perfect."
+   ]
+  },
+  {
+   "id": "ldw-p4-last-line",
+   "status": "applied",
+   "what": "Love Doesn't Wait P4 loses its last sentence: a double negative with an unclear \"I\", and a claim about his mom that nobody knows (it was the AI guide's).",
+   "joel": "2026-10-01 00:12 UTC: \"for P4 you added this sentence at the end which is hard to understand bc double negative + unclear reference pronoun (I could mean her since tell me often is before a quote), and also not what happened (i mean it's true she didn't, altho maybe she did, you don't know)... \\\"And she didn't tell me I wasn't angry.\\\"  And it is true fights don't usually go like that, that's fine\"",
+   "must_not_contain": [
+    "And she didn't tell me I wasn't angry."
+   ],
+   "must_contain": [
+    "That completely threw me. Fights don't usually go like that."
+   ],
+   "where": "Love Doesn't Have to Wait for Trust"
+  },
+  {
+   "id": "ldw-p4-anger-proposal",
+   "status": "applied",
+   "what": "A proposed P4, offered next to the fixed one: why fights don't usually go like that, in Joel's own explanation (anger as a way to get more power when you feel a lack of justice or agency; her answer showed anger wasn't needed to be heard, and the unfairness wasn't from a lack of love, so the anger seemed stupid). He picks. Adopted 2026-10-01 02:40 as proposed (v3).",
+   "joel": "2026-10-01 00:12 UTC: \"although there's something deeper, why don't they go like that? Anger is a method to increase one's sense of power when feeling a lack of justice or agency etc. It can increase power by puffing one up and making one seem frightening or dangerous or demanding to be heard. So she completely shut down the expectation the anger generated by showing anger wasn't required for me to be heard, and whatever injustice i thought there was was not coming from lack of love, which made the anger seem stupid, because i saw how it was only harming me in this case without helping me see clearly or get what i wanted. [...] look for opportunities like that to make something go from good to great, if they require taking liberties you can make proposals (like give the basic fixed version plus a proposed improved version, which doesn't have to pass the same evidentiary checks as long as it doesn't violate what's there or confabulate actual events that weren't stated).\" Then 2026-10-01 02:40 UTC: \"adopt proposed P4\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "That completely threw me. Fights don't usually go like that. Anger is a way to get more power when you feel a lack of justice or agency.",
+    "My anger was there to get me heard, and her answer showed me I didn't need it for that.",
+    "So the anger seemed stupid. I saw for myself that it was only hurting me, without helping me see clearly or get what I wanted.",
+    "so I could hate somebody who loved me and she'd still be my mom the whole time."
+   ]
+  },
+  {
+   "id": "ldw-p1-no-dark-empath",
+   "status": "applied",
+   "what": "Love Doesn't Wait P1 loses its last sentence (pretend love, the kind a dark empath puts on, with its gloss). Joel meant the dark empath as the extreme case; the likely one is that the track record isn't good enough yet, which \"which isn't the same as perfect\" and P2 already carry. And the line could make readers wonder whether they're dark empaths.",
+   "joel": "2026-10-01 02:40 UTC: \"p1: yes that's good except i wouldn't put the dark empath thing in there, i was telling you about that as an extreme example, but the more likely example is just like you said, the track record isn't good enough yet, and i donj't want to make people think maybe they are dark empaths, bc they would surely know if they are without me needing to poke them\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_not_contain": [
+    "dark empath",
+    "pretend love"
+   ],
+   "must_contain": [
+    "it does need you to be honest with them, which isn't the same as perfect."
+   ]
+  },
+  {
+   "id": "ldw-p3-p6-emojis",
+   "status": "applied",
+   "what": "Emojis Joel placed himself: an angry one after \"I HATE YOU!\" and a lovey one after \"But I love you!\" in P3; a hug after \"I still love you.\" in P6, answering the little one's 🙄.",
+   "joel": "2026-10-01 02:40 UTC: \"I'd actually add a hugging emoji after \"i still love you\" since it's responding to the disbelief emoji in P6. And after \"I hate you!\" i'd add an angry emoji and after \"I love you\" respond with some lovey emoji or hug emoji\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "\"I HATE YOU!\" 😡",
+    "\"But I love you!\" 🥰",
+    "I still love you. 🤗"
+   ]
+  },
+  {
+   "id": "emoji-pass-20261001",
+   "status": "applied",
+   "what": "An emoji pass over the whole article, about one per section on average, placed by Claude for Joel to judge: 🎶 after putting a song on (the opening), 🙈 after the bathroom vacationing, 👇 at the map, 🔥 after the Human Torch, 💆 after the self-massage, 😅 after \"Try again.\", 😌 after \"Breathing easier.\", 😊 after \"Seat belt's on.\", 🙏 after the goodwill wish. A cold reader called three of the first picks misfits, and they changed: ☯️ (may not render in older email apps, and only repeated \"yin-yang symbol\"), 🤷 (could read as \"whatever\" about a real checking habit), 📞 (only labelled the word \"call\"). Pangram then flipped three paragraphs, so those three came out again: 😉 after \"you might not be some people\" (that paragraph alone went from 100% Human on 2026-09-27 to 100% AI), 🐶 after \"So let the dog go first.\" (the paragraph alone from 100% Human to 56% AI, the section to 69% AI), and 😄 after Elmo (the section with its h1 went to 30% AI; with either the emoji or the h1 alone it was 100% Human).",
+   "joel": "2026-10-01 02:40 UTC: \"for emojis yeah you can put them in the whole article and then i'll see if you are doing it right. on average i'm thinking prob each section should have at least 1 emoji but i wouldn't make that a rule obviously just an average because it's nice but you don't want to abuse with emojis, i mean some sentences demand them like i might put 2 in a paragraph sometimes as you've seen.\"",
+   "where": "the whole article",
+   "must_contain": [
+    "that's when I'd put a song on. 🎶",
+    "bathroom vacationing. 🙈",
+    "as best as I can fit: 👇",
+    "you'd be the one burning. 🔥",
+    "right on the tense spot. 💆",
+    "Try again. 😅",
+    "Breathing easier. 😌",
+    "Seat belt's on. 😊 Where were we?",
+    "works there, too. 🙏"
+   ],
+   "must_not_contain": [
+    "some people. 😉",
+    "Elmo. 😄",
+    "first. 🐶"
+   ]
+  }
+ ]
+}

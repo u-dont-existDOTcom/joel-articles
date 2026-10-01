@@ -1,0 +1,181 @@
+{
+ "note": "Texts for the human-prose test and for the reviewer's extra examples. The blog paragraphs are Joel's pre-2020 posts (public, but kept out of git like the lab's idiolect corpus: raw_text_in_git false). Put the texts in local/human_items.json (same shape: {'human': [[id, source, text]...], 'ai': [...]}) before building a review prompt; fetch the blog ones from the URLs. The lab-sourced ones are in pangram-humanization-lab at the paths given.",
+ "human": [
+  {
+   "id": "blog2015_truelove_p2",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/to-detach-or-engage-what-is-true-love.html",
+   "words": 85,
+   "sha256": "374fa6bd2053f977e8e0247f5178cf600efede6cca81693f8e27050c8be253d0"
+  },
+  {
+   "id": "blog2015_truelove_p5",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/to-detach-or-engage-what-is-true-love.html",
+   "words": 73,
+   "sha256": "ce4b23ad4fba9dffac6251b7a31e774ca6b02c87b18931373c9ce62699debb90"
+  },
+  {
+   "id": "blog2015_truelove_dream",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/to-detach-or-engage-what-is-true-love.html",
+   "words": 55,
+   "sha256": "f78b9d6a51cafc21bcddb2c433d622f4f49246c0f9d8ae357017074ab610aa1b"
+  },
+  {
+   "id": "blog2016_perfect_p1",
+   "source": "https://tafkajestdr.blogspot.com/2016/06/what-if-everything-is-already-perfect.html",
+   "words": 70,
+   "sha256": "64f430291a28cc9ab40b384792c668dc386317b32734a08577536534f79e274e"
+  },
+  {
+   "id": "blog2016_perfect_proof1",
+   "source": "https://tafkajestdr.blogspot.com/2016/06/what-if-everything-is-already-perfect.html",
+   "words": 114,
+   "sha256": "92160fc510cb7310263892e23d0b92cbe4570f34687c0d42a3bec1535683a786"
+  },
+  {
+   "id": "blog2016_perfect_choices",
+   "source": "https://tafkajestdr.blogspot.com/2016/06/what-if-everything-is-already-perfect.html",
+   "words": 93,
+   "sha256": "9d0a58d4716652a0297458af02f295e66cf918f6f41b92fcf9f59c6bb757e5f3"
+  },
+  {
+   "id": "blog2016_perfect_observer",
+   "source": "https://tafkajestdr.blogspot.com/2016/06/what-if-everything-is-already-perfect.html",
+   "words": 53,
+   "sha256": "142e2bd69128b611a989a60cc6cea281db44917ab05820463595b42bb6a1dc15"
+  },
+  {
+   "id": "blog2015_rightview_p1",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/right-view-and-humility.html",
+   "words": 66,
+   "sha256": "ef108f41ba3a354052e04caabca3c3196d73e40365fe4d30629467db56ccdb98"
+  },
+  {
+   "id": "blog2015_rightview_buddha",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/right-view-and-humility.html",
+   "words": 88,
+   "sha256": "77a5ea2b557ca2c5bdd5732cc22affd49b70e27058ab26578fca2636bd6fa8f6"
+  },
+  {
+   "id": "blog2015_noway_p2p3",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/no-way-to-know-anything-so-whats-point.html",
+   "words": 121,
+   "sha256": "527c90fee0a8f6aba6c5cbaaafb6a26d0e26b9a50a8b13dec9c3b07e6bf2d909"
+  },
+  {
+   "id": "blog2015_noway_think",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/no-way-to-know-anything-so-whats-point.html",
+   "words": 55,
+   "sha256": "f718be2a5b7bfc1f441232db03ed68ac9efbf14424a124c6a91eb17f9e597e51"
+  },
+  {
+   "id": "blog2015_noway_cheese",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/no-way-to-know-anything-so-whats-point.html",
+   "words": 63,
+   "sha256": "5a7e77a796549579261be3c257a9f26b3bcf0ba35cc1b9adea7099f32e736db8"
+  },
+  {
+   "id": "blog2015_noway_algebra",
+   "source": "https://tafkajestdr.blogspot.com/2015/02/no-way-to-know-anything-so-whats-point.html",
+   "words": 79,
+   "sha256": "77c7542580e65932d44936e8f5e6f42586b8f399023aad8246b7347b066ea0b3"
+  },
+  {
+   "id": "blog2013_intro_belated",
+   "source": "https://tafkajestdr.blogspot.com/2013/01/intro-to-tafka-jestdrs-journey.html",
+   "words": 75,
+   "sha256": "da71e369699a47a550a0bf256fa1c5dc2f1604200cbcf17ca9e32959658ec184"
+  },
+  {
+   "id": "blog2013_intro_father",
+   "source": "https://tafkajestdr.blogspot.com/2013/01/intro-to-tafka-jestdrs-journey.html",
+   "words": 110,
+   "sha256": "784ca9de9a5a818533c7f218f3e040e2521b50daee7983a3c5cc137d37dea587"
+  },
+  {
+   "id": "owner_heartloop",
+   "source": "pangram-humanization-lab heart-loop-owner.md (exact owner wording)",
+   "words": 122,
+   "sha256": "792a6cbb29d71b19f9b7104f52a006719463fbaa97dc4e97bc5ddf6e57960e77"
+  },
+  {
+   "id": "owner_somatic_ex1",
+   "source": "pangram-humanization-lab cases/somatic-intro-owner-human-vs-model-ai-low-20260827.md (Pangram Human)",
+   "words": 108,
+   "sha256": "fbad3d30c720f138056af079c43a338fc2126cd37ea5b5da6bcda289e24f916c"
+  },
+  {
+   "id": "owner_somatic_ex2",
+   "source": "pangram-humanization-lab cases/somatic-intro-owner-human-vs-model-ai-low-20260827.md (Pangram Human)",
+   "words": 59,
+   "sha256": "d8eecfd6eaf8565d42b7f30600ec7c821624973e49775fcbf123e502b4c1727e"
+  },
+  {
+   "id": "owner_romance_high",
+   "source": "pangram-humanization-lab exclusivity.md (Pangram Human, high)",
+   "words": 201,
+   "sha256": "af1df6bb868df366b28d40cdcdb79ab06e55e8b8a84373f8a7ad0c70a6a9409e"
+  },
+  {
+   "id": "owner_trust_raw",
+   "source": "pangram-humanization-lab trust-raw-owner.md (raw owner source, Pangram Human/medium)",
+   "words": 145,
+   "sha256": "13b6503e2557665add98fd4f96b3f841ec40c06a9bfda3c2a7442efc2baf19b6"
+  },
+  {
+   "id": "owner_catchhook_p3",
+   "source": "HUMANIZED-ARTICLE-SO-FAR.md, Catch the Hook P3 (owner-final additions)",
+   "words": 61,
+   "sha256": "df4b6cb5c41b86f143a34803de2da48471faec70b40d3d86fa1942466e42bfbd"
+  }
+ ],
+ "ai": [
+  {
+   "id": "somatic_model_A",
+   "source": "somatic-intro case, model attempt A (Pangram AI, low)",
+   "words": 82,
+   "sha256": "26ba6d976efc8af45950fb628c2b9eb396e2c64ff5ca0dfc39ec58c8d35ccffd"
+  },
+  {
+   "id": "somatic_model_B",
+   "source": "somatic-intro case, model attempt B (Pangram AI, low)",
+   "words": 87,
+   "sha256": "1748b02415d22f38b10c265dacecc3371ae2f049c60b4d8d4b20673de8eed310"
+  },
+  {
+   "id": "somatic_model_C",
+   "source": "somatic-intro case, model attempt C (Pangram AI, low)",
+   "words": 90,
+   "sha256": "20ba39c29585c105b0eb75d6cf9a0da519785b1ef9dc1c53445ee90b6628bf98"
+  },
+  {
+   "id": "romance_assistant",
+   "source": "exclusivity.md assistant attempt (Pangram about 60% AI)",
+   "words": 122,
+   "sha256": "fc0773df365b111a792576eeb0828e666e059bcdad3cb7e142452a03cbd2d121"
+  },
+  {
+   "id": "borrow_r2_p1",
+   "source": "FAIL_borrow_r2 paragraph 1 (section 100% AI)",
+   "words": 73,
+   "sha256": "d6c6fdf64be75b9a3d7322a088971d83f9f716d68d62dafeea27746501208523"
+  },
+  {
+   "id": "borrow_r4_p2",
+   "source": "FAIL_borrow_r4 paragraph 2 (section 100% AI)",
+   "words": 93,
+   "sha256": "521eed9ccb573170c0d7b1e1cbfc82f853d039404b1ee350789426ba6d56a5fb"
+  },
+  {
+   "id": "borrow_r6_p3",
+   "source": "FAIL_borrow_r6 paragraph 3 (section 100% AI)",
+   "words": 92,
+   "sha256": "393efe5b3fbfd9d6f054e6da31a2d3bc686ce0e96f9bf08b206daf5d07bf8490"
+  },
+  {
+   "id": "borrow_r1_p8",
+   "source": "FAIL_borrow_r1 paragraph 8 (section 100% AI)",
+   "words": 98,
+   "sha256": "b2d2dc97a0bf5bb9c58f0e245534b30f5cbc243084d7c498f13e84d7ddf0ab24"
+  }
+ ]
+}
