@@ -1,0 +1,1 @@
+The desire to go back to a natural way of living together has outrun the knowledge of how to actually do it. People know they’re lonely and exhausted. They usually don’t know why so many earlier communities failed, why the same conflicts keep coming back, or how quickly beautiful land stops mattering once money, children, jealousy and ownership come into it.

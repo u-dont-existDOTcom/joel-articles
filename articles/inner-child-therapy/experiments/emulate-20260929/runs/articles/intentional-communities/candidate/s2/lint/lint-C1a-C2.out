@@ -1,0 +1,9 @@
+== tells_lint: C1a-C2.txt
+verdict: REVIEW
+metrics: {'words': 96, 'my_words': 96, 'paragraphs': 2, 'coach_per_100': 0.0, 'you_per_100': 1.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.1, 'sent_len_cv': 0.5, 'repeated_openers': {}, 'source_map': [(0, 1.0), (1, 0.78)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 1.0}
+-- B2 contrast (1)
+   * Surgeon General’s advisory reported that roughly half of American adults experience loneliness, and treated social connection as a public-health issue rather th
+-- B4/E15 list or packed sentence (1)
+   * They may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starvin’ them.
+-- D9 follows the source order (1)
+   * 2/2 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger

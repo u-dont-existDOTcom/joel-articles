@@ -1,0 +1,7 @@
+== tells_lint: C11b.txt
+verdict: REVIEW
+metrics: {'words': 69, 'my_words': 69, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.35, 'repeated_openers': {}, 'source_map': [(10, 0.8)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 1.0}
+-- B1 finished principle (1)
+   * People know they’re lonely and exhausted.
+-- D9 follows the source order (1)
+   * 1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger

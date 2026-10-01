@@ -1,0 +1,9 @@
+== tells_lint: C6b-C7a.txt
+verdict: REVIEW
+metrics: {'words': 74, 'my_words': 74, 'paragraphs': 2, 'coach_per_100': 1.35, 'you_per_100': 1.4, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 0.05, 'sent_len_cv': 0.41, 'repeated_openers': {}, 'source_map': [(5, 0.82), (6, 0.91)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 1.0}
+-- B1 finished principle (1)
+   * People were finding prospective members under a post, the way you might normally find a second-hand sofa.
+-- D9 follows the source order (1)
+   * 2/2 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger
+-- E41 coach phrase (1)
+   * People were finding prospective members under a post, the way you might normally find a second-hand sofa.

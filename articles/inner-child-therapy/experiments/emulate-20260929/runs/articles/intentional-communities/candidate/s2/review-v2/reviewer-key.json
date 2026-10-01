@@ -1,0 +1,70 @@
+{
+ "V01": {
+  "name": "s2 C4a",
+  "label": "?"
+ },
+ "V02": {
+  "name": "control community-s1 P10",
+  "label": "HUMAN"
+ },
+ "V03": {
+  "name": "control community-s1 P12",
+  "label": "HUMAN"
+ },
+ "V04": {
+  "name": "s2 C2",
+  "label": "?"
+ },
+ "V05": {
+  "name": "control community-s1 P4D",
+  "label": "AI"
+ },
+ "V06": {
+  "name": "s2 C12",
+  "label": "?"
+ },
+ "V07": {
+  "name": "s2 C3-C4a",
+  "label": "?"
+ },
+ "V08": {
+  "name": "control FAIL_mpv_p3_d1",
+  "label": "AI"
+ },
+ "V09": {
+  "name": "control PASS_mpv_p2_can_show",
+  "label": "HUMAN"
+ },
+ "V10": {
+  "name": "s2 C6-C7a",
+  "label": "?"
+ },
+ "V11": {
+  "name": "s2 C11a",
+  "label": "?"
+ },
+ "V12": {
+  "name": "s2 C8-C9a",
+  "label": "?"
+ },
+ "V13": {
+  "name": "s2 C1a-C2",
+  "label": "?"
+ },
+ "V14": {
+  "name": "s2 C9a",
+  "label": "?"
+ },
+ "V15": {
+  "name": "s2 C10a",
+  "label": "?"
+ },
+ "V16": {
+  "name": "s2 C8o-C9a",
+  "label": "?"
+ },
+ "V17": {
+  "name": "control community-s1 P4C",
+  "label": "AI"
+ }
+}
