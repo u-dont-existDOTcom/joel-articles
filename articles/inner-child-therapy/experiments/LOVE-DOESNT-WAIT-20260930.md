@@ -271,3 +271,7 @@ Joel, 15:59 UTC: "P10 proposal is good." For P11, "this one is human and works b
 
 ### Where it stands
 Love Doesn't Have to Wait for Trust is done: the h2 and P1–P14, 100% Human together (1,190 words). Open for Joel: the P12 and P13 proposals. Next is the guide's "Make a Simple Vow" (the vow, its "Use 'I love you' only when it is honest", "Big whoop", and taking the adult position again), which needs its own plan first.
+
+## Turn 13 (2026-10-01, 17:50 UTC): both proposals adopted
+
+Joel: "P12 proposal accepted, P13 proposal accepted". Both are installed as proposed (each 100% Human alone on turn 12, try 1). The h2 and P1–P14 with them: 100% Human (1,236), try 1.

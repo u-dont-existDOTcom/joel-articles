@@ -22,7 +22,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where the work stands
 
-*Updated 2026-10-01, turn 12 (15:59 UTC onward). Love Doesn't Have to Wait for Trust is done: Joel's P11, the P10 proposal adopted, P12–P14 installed. 😌 is back (E102), proposals are highlighted on the side-by-side page (E103), and his "continue" now means merge (see `docs/suggested-fixes-ledger.md`). Turn 11: his P9 and his emoji list (E100, E101).*
+*Updated 2026-10-01, turn 13 (17:50 UTC onward). Make a Simple Vow is done (the h2 and P1–P5), and Joel adopted the Love Doesn't Wait P12 and P13 proposals. Turn 12 (15:59 UTC onward): Love Doesn't Have to Wait for Trust is done: Joel's P11, the P10 proposal adopted, P12–P14 installed. 😌 is back (E102), proposals are highlighted on the side-by-side page (E103), and his "continue" now means merge (see `docs/suggested-fixes-ledger.md`). Turn 11: his P9 and his emoji list (E100, E101).*
 
 **Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`articles/inner-child-therapy/tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
@@ -36,11 +36,14 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 - Joel's Substack note as a bare URL. Keep it a bare URL on its own line: that's how Substack shows the preview.
 - The relationship paragraph: Joel's meditation wording with two logic fixes, a danger line, and his romance guide linked on "a relationship". The section is 100% Human (436 words).
 
-**Love Doesn't Have to Wait for Trust** (the guide's own h2, right after Not Every Hero) is done: the h2 and P1–P14, 100% Human together (1,190 words). The plan maps each guide paragraph to one article paragraph and cuts two repeats of Not Every Hero. It's in `articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md`, with each paragraph's rounds and results.
+**Love Doesn't Have to Wait for Trust** (the guide's own h2, right after Not Every Hero) is done: the h2 and P1–P14, 100% Human together (1,236 words, with Joel's adopted P12 and P13 proposals). The plan maps each guide paragraph to one article paragraph and cuts two repeats of Not Every Hero. It's in `articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md`, with each paragraph's rounds and results.
 - P3–P4 are the bedtime story and what it did, in Joel's first person: his own memory (confirmed 2026-10-01), and P4 is his own explanation of why fights don't usually go like that (adopted 02:40).
 - P6 is his "Big fuckity whoopty doo" exchange, word for word. P9 and P11 are his own, word for word.
 
-**Next:** the guide's "Make a Simple Vow" (the vow itself, "Use 'I love you' only when it is honest", "Big whoop", and taking the adult position again). Write its plan first, one article paragraph per guide paragraph, as for Love Doesn't Wait, and check what Not Every Hero and Love Doesn't Wait already said, so nothing repeats.
+**Make a Simple Vow** (the guide's h2 after Love Doesn't Wait) is done: the h2 and P1–P5, 100% Human together (326 words). The vow is a quote (a Markdown blockquote). The plan and each paragraph's rounds are in `articles/inner-child-therapy/experiments/MAKE-A-SIMPLE-VOW-20261001.md`.
+
+**Next:** the guide's h3 "Give the Vow a Physical Reminder" (a toy, stuffed animal or note that holds the promise; choose what it means while sober and regulated; one ordinary promise paired with it; a calm pet is a companion, not a prop). Write its plan first, as for the vow section, and check what the article already said.
+- A later paragraph can flip an earlier one on Pangram: on turn 13 three P3 drafts each flipped the vow section's opening, which had passed. Re-run the section check after every change.
 - Run the grounding reviewer on every draft (`tools/humanization/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
 - It also lists the reader's open questions, sized by a push knob (`--push tight|default|wide`; the default is `default`: small changes only). Take ASK AUTHOR items to Joel, and put parked ones in `articles/inner-child-therapy/PARKED-READER-QUESTIONS.md`, not in the article.
 - Give the cold read `"earlier": "section"` in the target, so it sees what a reader has already read.
@@ -49,7 +52,8 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
   - the in-context page: `tools/humanization/render_in_context.py $A/tools/in-context/<map>.json OUT --article $A/HUMANIZED-ARTICLE-SO-FAR.md --source $A/master.html --source-label "Guide original" --since <the commit Joel last saw>`.
 
 **Open for Joel:**
-- The P12 and P13 proposals (not installed; both 100% Human alone).
+- Four Make a Simple Vow proposals (not installed; each 100% Human alone): a line after the vow, and one sentence each in P3, P4 and P5.
+- The P1 cut: the guide's "skip the vow" for a present adult who still intends harm (every version pointed ordinary readers back at the dangerous-adult section).
 - The emoji placements, for his yes or no (he said he'd keep correcting them).
 - The moved relationship paragraph (he hasn't said yet).
 
