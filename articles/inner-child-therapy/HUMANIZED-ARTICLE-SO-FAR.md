@@ -326,3 +326,14 @@ Your little one might not be the only one getting accused. When life has gone ba
 <!-- 2026-10-01 (turn 12): P11 is Joel's (15:59 UTC: "for P11, this one is human and works better"), built on Claude's rebuild draft c, which was 100% AI alone. He added "And actually, not to beat a dead horse here, but" and "Hindsight being 20/20 doesn't change that.", and cut "and that includes" / "even if they seem like the one who should have known better". Record: experiments/LOVE-DOESNT-WAIT-20260930.md, turn 12. -->
 
 Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that. You still did what you did, though, and if it hurt people or damaged a life, that may need repair.
+
+<!-- 2026-10-01 (turn 12): P12, the guide's six questions (G12), as a numbered list (the plan: "a list that carries the meaning"). Fresh writer a of three; all three were 100% Human alone on try 1 (a 82 words, b 85, c 72). Cold read and grounding on a and on b: every line OK, nothing open. Record: experiments/LOVE-DOESNT-WAIT-20260930.md, turn 12. -->
+
+So instead of asking which age of you deserves the blame, I'd ask these:
+
+1. What was that age of you trying to get, or get away from?
+2. What did it understand back then?
+3. What options could it actually see? Could it stand to take any of them?
+4. What happened because of the choice it made?
+5. What was missing? Some ability, or help, or someone protecting you?
+6. What can you learn, repair, or do differently now?
