@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "2899c7194ec23951ebc5db8fb80ae771ea6704fbcfb03b6979c8b76be0faf293",
+          "sha256": "6e44698c9fd902d42a6a8d00da7b84788d813e7cc151bcf1357edf328d8ffcf1",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,12 +2634,12 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "3ae5fa48ecbdd856b1986ac2738ff4f0e6704a7b44bb1a0dd362e079c99d6c99",
+          "sha256": "56432853eaff99cb5335ea5b103f948fecb509ce0d921ef4543f2e4ec8c5f0f6",
           "role": "owner_edits_ledger"
         },
         {
           "path": "articles/inner-child-therapy/PARKED-READER-QUESTIONS.md",
-          "sha256": "0cf12feee139ed7e99837cc4d940c2528738e95d73d54b48ad0c887c1b0070ec",
+          "sha256": "4d20ef89e4d7c7121d241719bb83ea184435bfce4232ffe76d900869b07bee28",
           "role": "parked_reader_questions"
         },
         {
@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "59da619758db10314b0dea0cd225dae85f4191f0ff62c45e2c050637a80c1095",
+          "sha256": "f784f7ec0d05250d71dc773a416fd6b271a7431cd68b103615129366f3110453",
           "role": "humanization_working_record"
         },
         {
@@ -2834,12 +2834,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/EMOJI-PASS-20261001.md",
-          "sha256": "15f65cfacf9d11c139f15a26d1a2794ca9fed1a573841dcdb9ac900ddb8112cb",
+          "sha256": "6fd19c8925a8f6bd4a533ed94b2a5ac828df36ddd9b079f8ae48917a8143c80f",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md",
-          "sha256": "100ab800d9d04fe5eec1f4382f8c170d1c44d5135d8a90821450ffb39e637ff2",
+          "sha256": "7a5a8b5e1cca0208ec47a16a0e282c6cf6e81f0df34955454ec2c778e1be7347",
           "role": "humanization_working_record"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "2d39db79c35185a0ee0d353989f58f1cf27257b6f3fe2cdf48c10a16a6e51481",
+          "sha256": "bedd9efddf965d1b3520dd717eb3d45e42d8b0a6df02e491e50185d6a86b65a3",
           "role": "detector_prediction_log"
         },
         {
@@ -4035,6 +4035,66 @@
         {
           "path": "articles/inner-child-therapy/tools/targets/make-the-protector-visible.json",
           "sha256": "75fb2568d52445d207689d19c4f4422f82c6f39d4dd3f7e48d955c96fb63abb2",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-01-turn10.json",
+          "sha256": "a93be30086799864e33ec675d56fc2203f44abbcdf6a84b6029fc4f68ca37743",
+          "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-a.json",
+          "sha256": "bec360c4ee0c6ea0e85c9be7132bf98dfaac16f83c1685ae58ef823691f86238",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-b.json",
+          "sha256": "180a73b0542906983a93ceb105d0a82f5a1c3c8d0fa5bc262188e64f18f71a8a",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-c.json",
+          "sha256": "170435f7168906fd646b9667339ddc89a29fb24613b9b4c42e56b4563ef7f7e4",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-d.json",
+          "sha256": "8517ba8eb49e8604f52078b08677e07f8ccd7a4d4ebcf46bf6c0bb9c9fcaff9a",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-e.json",
+          "sha256": "8ede2045676d9e43e183dbf5d077a8ecfa43981f553d217aad316562db810436",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-f.json",
+          "sha256": "5e9bc89cea095d8af9a131e7387aa22123fb53e7f84e770ef3fc9b46d3d6c8d2",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-g.json",
+          "sha256": "fbd75a6a8ac43bd2f29306e5567b85b6e1642e54cb9a8e1320ec74d0b77974d8",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-h.json",
+          "sha256": "361f084b46a11f64e806ec72e66511a4df189b22ac848d176246f1e568f00246",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn10-i.json",
+          "sha256": "911cfd120c63b152e3f6a6be08b907e327337f01a6b50b0ee11aa829124c1acb",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/love-doesnt-wait-p8-turn10.json",
+          "sha256": "bf421cfdcf94fdc63c0bca5d266046fb31f8c92bb32af6eb4f5f537ef15a9188",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/love-doesnt-wait-p9.json",
+          "sha256": "67d9d586e1b028edc110d1032a204dcb624a91c8e6caeb8021ba6322c3b68c93",
           "role": "reviewer_target"
         }
       ]

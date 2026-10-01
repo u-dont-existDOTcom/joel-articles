@@ -208,3 +208,11 @@ He agreed with two reviewer flags on his own lines and asked me to write the fix
 
 **Scope** (his words, now the default push level): "in general we should assume the user doesn't want to massively increase the article size, but small increases or decreases may be fine if warranted. for any uncertainty ask the user."
 
+## Joel's notes, 2026-10-01 04:53 UTC
+
+- **The 😉 after "you might not be some people."** He tried "a few different more appropriate emojis" there, "but all tested as ai", and put "people (hehe)." instead, "which tested as human". On my check (turn 10, try 1): the paragraph 100% Human (74 words), the section 100% Human (232).
+- **The 😄 after Elmo.** "same trick for the elmo emoji, i used :) instead and it passed as human." On my check: 100% Human alone (68), and the section with its h1 100% Human (163), where the 😄 had made it 30% AI.
+- **The lesson in both:** ASCII emoticons and "(hehe)" read human where an emoji reads AI ("ai slop generally doesn't use ascii art like that"), and "lol is different from hehe, it's more wry." Pointers, 😉 and gratuitous emojis are banned (E97; `tools/humanization/EMOJI-LIST.md`).
+- **P8, the Fred Rogers scene.** "check what the exchange was really [...] why not just check what was actually said for improving the vagueness?" The paragraph now carries the film's lines (E98).
+- **P7.** "P7 proposal is good." It's installed as proposed.
+

@@ -33,6 +33,8 @@ Within that rule, the earlier guidance still holds:
 
 **Direct owner rule, 2026-10-01:** "on average i'm thinking prob each section should have at least 1 emoji but i wouldn't make that a rule obviously just an average because it's nice but you don't want to abuse with emojis, i mean some sentences demand them like i might put 2 in a paragraph sometimes". His own picks that day were emotional lines in dialogue, one answering an earlier emoji: 😡 after "I HATE YOU!", 🥰 after "But I love you!", and 🤗 after "I still love you." because "it's responding to the disbelief emoji".
 
+**Direct owner rule, 2026-10-01 04:53:** "i don't want those pointer emojis those look super ai, only after seen them from ai slop, don't ever use those." "😉 that one also looks like mainly used by AI (or by scammers)." "we should actually build a list of emojis that are banned, which would be most of them." "dog emoji seemed gratuitous to me, we don't need an emoji just because it could be there." Where 😉 and 😄 failed Pangram, he used "(hehe)" and ":)", which passed; "ai slop generally doesn't use ascii art like that so that is probably better to use where it fits", and "lol is different from hehe, it's more wry." The list is `tools/humanization/EMOJI-LIST.md`: only emojis on its allowlist go in, and everything else counts as banned until he says yes.
+
 ## BANNED CONSTRUCTIONS AND WORDS
 
 - Never use "That's not X. It's Y." / "not X — it's Y" contrast constructions. State the thing directly.

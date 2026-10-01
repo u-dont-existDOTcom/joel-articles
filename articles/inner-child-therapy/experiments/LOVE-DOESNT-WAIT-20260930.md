@@ -170,3 +170,40 @@ Every Pangram check below was the text's first (try 1).
 
 ### Where it stands
 The h2 and P1–P8 are installed: 100% Human together (570 words). Next is P9 (G9: what happens between the inner positions; the "vow-making voice" needs plain words, since the vow comes in the next section).
+
+## Turn 10 (2026-10-01): Joel's 04:53 notes, P8 from the film, P9
+
+Joel, 04:53 UTC:
+- "P7 proposal is good."
+- "P8 original somehow lost the fred rogers details. I believe the detail was it would be hard to grow up with him as a dad because he was always working on his projects, but check what the exchange was really. And fred didn't just accept that there may be truth in it, he was like "Thank you, yes, it is very difficult to balance work and family life." something like that. Your P7 invented something about talking about both of his sons, why? why not just check what was actually said for improving the vagueness? The P8 proposal was good."
+- Emojis: no pointers, no 😉, nothing gratuitous; his "(hehe)" and ":)" where two failed; a banned list "which would be most of them"; a yes/no list of the most human ones (`experiments/EMOJI-PASS-20261001.md`, `tools/humanization/EMOJI-LIST.md`).
+- "ok that's good continue"
+
+### P7
+The turn-9 proposal, installed as proposed. It passed alone on turn 9 (82 words, try 1).
+
+### P8 (E98)
+- The exchange, from the film's transcript (https://scrapsfromtheloft.com/movies/beautiful-day-in-neighborhood-transcript/), checked against the screenplay (https://thescriptsavant.com/movies/A_Beautiful_Day_In_The_Neighborhood.pdf): Lloyd says he "can't imagine it was easy… growing up with you as a father"; Fred answers about his sons, then "But you are right, Lloyd. It couldn't have been easy on them. Thank you. Thank you for that perspective." Nobody mentions Fred's work, his projects, or balancing work and family, in either text.
+- The sons were real: the turn-9 proposal's "talks honestly about both of his sons" summarized what Fred does say. What was wrong was the vagueness: it came from a scene breakdown, not the dialogue.
+- Rounds (each check the paragraph alone): the transcript version left his sons as "He tells Lloyd about his sons"; the cold read and the grounding both flagged it (UNCLEAR; grounding SHOULD: what he told him). With what he says about them: 100% Human (149 words), try 1; the section 100% Human (668). The next cold read: "never told people about him" (what?) and "they found their way" (who?), so "about his dad" and "the two of them": 100% Human (153), try 2. The next: "the two of them" could be the sons, so "he and his youngest": 100% Human (153), try 3, and the cold read had every line OK.
+- The grounding's good-to-great line for P8 (love needs honesty, not perfection) isn't proposed: Joel had just approved the last sentence, and the point is already earlier in the article ("it does need you to be honest with them, which isn't the same as perfect").
+
+### P9 (G9)
+- The brief put the guide's four sentences in plain words; the "vow-making voice" became "the part that wants to promise them things", since the vow is the next section's.
+- Writers a, b and c were close; the linter gave all three REVIEW. a and b were reviewed (c had the heaviest second person and a coach phrase).
+- Both cold reads: "them" switching between your little one and the parts, "a mix" of what, and why it matters. Both groundings: the first sentence's split between "out loud" and "inside" falls in the wrong place, since the talk with your little one can itself happen inside; b's also asked why it matters (SHOULD).
+- My fix of b: 31% AI alone, try 1, flagged at its last two sentences. Its grounding called the "catch" sentence a false either/or that could tell an ordinary reader their love is fake (MISFIRES). I had dropped the safety clause from the reviewer's suggested answer (E99).
+- v3, with the catch sentence cut, the promise tied to "I love you", and "or a bit of both": 100% Human (98), try 2; the section 100% Human (770). Grounding: every line OK, and SHOULD the why. Cold read: "they" in the last sentence.
+- v4, "those two" and "or the accusation can pass for the truth about your love": 100% Human (111), try 3; the section 100% Human (783). Cold read: who's fooled, and what truth?
+- v5, "If you do, you might take the accusation as proof your love really is conditional, when it could just be another part talking.": the cold read had every line OK, but 35% AI alone, try 4, flagged at the last two sentences.
+- v6, the ending rebuilt around what your little one hears: 100% Human (107), try 5; the section 100% Human (779). Grounding: every line OK; SHOULD the why. Cold read: "Don't decide that" makes you infer the object.
+- v7, v6 plus "The one firing back might only be borrowing that voice, like the six-year-old behind "But I'm trying!", or the inherited critic." (from the proposal writer's parenthetical): 29% AI alone, try 6, flagged at the last two sentences; the section 100% Human (806).
+- Installed: v6. Its "that" points back to "they're the same" in the sentence before. Three different sentences giving the why each failed Pangram, all at the ending, so P9 ends on the guide's own instruction, and the why goes to Joel (and the parked questions).
+- Proposal, not installed: the grounding's good-to-great line, by a fresh writer: the urge to fire back is the bedtime anger from the parent's side, and their doubt is fair, so the accusation has nothing to win. Try 1, on v4: 100% Human (148). Try 2, reworded for the cold read on v5: 100% AI (170). Try 3, on v7: 23% AI (171), flagged at v7's ending. Try 4, on v6 (the installed text): 100% Human (144 words), try 4.
+
+### Lessons
+- E97: emojis come from an allowlist, and one that only repeats a word stays out. E98: quote the primary text. E99: a reviewer's suggested answer is a draft; keep its safety clause.
+- On P9, Pangram caught every explanatory ending (three wordings, 29–35% AI) and passed every version that ended on the instruction or a plain observation.
+
+### Where it stands
+The h2 and P1–P9 are installed: 100% Human together (779 words). Next is P10 (G10: when life has gone badly, the inner system may look for a defendant, a younger version who's guilty for not growing into the adult who was supposed to save everybody). Every cold read said it will need its own bridge from P9.

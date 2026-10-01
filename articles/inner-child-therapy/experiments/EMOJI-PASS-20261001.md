@@ -35,3 +35,15 @@ Noticing Counts, two diagnostics: with the h1 and no emoji, 100% Human (163); wi
 - An emoji can flip Pangram on text that passed. So each one gets its paragraph alone and its section checked, like any other change (`docs/HUMANIZATION-GATE.md`, step 9, E96).
 - The three that flipped were a wink after a quip, a dog in the middle of a paragraph after a short line, and a grin after a joke, with a stacked heading above. Three cases don't make a rule. The ones that held were a pointer, a sound, a face reacting to an emotional line, a body cue, and Joel's own picks on dialogue.
 - The checked texts are in `tools/pangram-runs/2026-10-01-turn9-a.json` and `-c.json`, the predictions and results in `tools/PREDICTIONS.md`, and the flips in `tools/humanization/calibration/` as `FAIL_emoji_*`, with their controls as `PASS_emoji_*`.
+
+## Joel's rulings (2026-10-01 04:53 UTC) and what changed (turn 10)
+- **Banned:** pointers ("those look super ai, only after seen them from ai slop, don't ever use those"), 😉 ("looks like mainly used by AI (or by scammers)"), and gratuitous ones like the 🐶 ("we don't need an emoji just because it could be there"). He asked for a banned list, "which would be most of them": `tools/humanization/EMOJI-LIST.md`.
+- **Came out:** 👇 at the map (a pointer), and 🎶, 💆 and 🔥, which only repeated a word ("song", "massage", "burning"), like the dog. Those paragraphs are back to text that had passed before.
+- **His replacements,** checked in place (turn 10, try 1 each):
+
+| Section | Change | Paragraph alone | Section |
+|---|---|---|---|
+| You Don't Need an Inner Monologue | "you might not be some people (hehe)." for the 😉 | 100% Human (74) | 100% Human (232) |
+| Noticing Counts | "You'll sound a bit like Elmo :)" for the 😄 | 100% Human (68) | with its h1, 100% Human (163) |
+
+So the emoji that fails can be the problem, not the spot: the same lines pass with ASCII. He says the other emojis he tried after "some people" all tested as AI.

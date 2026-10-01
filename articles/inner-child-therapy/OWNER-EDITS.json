@@ -581,15 +581,11 @@
   {
    "id": "emoji-pass-20261001",
    "status": "applied",
-   "what": "An emoji pass over the whole article, about one per section on average, placed by Claude for Joel to judge: 🎶 after putting a song on (the opening), 🙈 after the bathroom vacationing, 👇 at the map, 🔥 after the Human Torch, 💆 after the self-massage, 😅 after \"Try again.\", 😌 after \"Breathing easier.\", 😊 after \"Seat belt's on.\", 🙏 after the goodwill wish. A cold reader called three of the first picks misfits, and they changed: ☯️ (may not render in older email apps, and only repeated \"yin-yang symbol\"), 🤷 (could read as \"whatever\" about a real checking habit), 📞 (only labelled the word \"call\"). Pangram then flipped three paragraphs, so those three came out again: 😉 after \"you might not be some people\" (that paragraph alone went from 100% Human on 2026-09-27 to 100% AI), 🐶 after \"So let the dog go first.\" (the paragraph alone from 100% Human to 56% AI, the section to 69% AI), and 😄 after Elmo (the section with its h1 went to 30% AI; with either the emoji or the h1 alone it was 100% Human).",
+   "what": "An emoji pass over the whole article, about one per section on average, placed by Claude for Joel to judge: 🎶 after putting a song on (the opening), 🙈 after the bathroom vacationing, 👇 at the map, 🔥 after the Human Torch, 💆 after the self-massage, 😅 after \"Try again.\", 😌 after \"Breathing easier.\", 😊 after \"Seat belt's on.\", 🙏 after the goodwill wish. A cold reader called three of the first picks misfits, and they changed: ☯️ (may not render in older email apps, and only repeated \"yin-yang symbol\"), 🤷 (could read as \"whatever\" about a real checking habit), 📞 (only labelled the word \"call\"). Pangram then flipped three paragraphs, so those three came out again: 😉 after \"you might not be some people\" (that paragraph alone went from 100% Human on 2026-09-27 to 100% AI), 🐶 after \"So let the dog go first.\" (the paragraph alone from 100% Human to 56% AI, the section to 69% AI), and 😄 after Elmo (the section with its h1 went to 30% AI; with either the emoji or the h1 alone it was 100% Human). On 2026-10-01 04:53 Joel banned pointer emojis and called the dog gratuitous (\"we don't need an emoji just because it could be there\"), so 👇 came out, and so did the other three that only labelled a word: 🎶 (song), 💆 (massage), 🔥 (burning).",
    "joel": "2026-10-01 02:40 UTC: \"for emojis yeah you can put them in the whole article and then i'll see if you are doing it right. on average i'm thinking prob each section should have at least 1 emoji but i wouldn't make that a rule obviously just an average because it's nice but you don't want to abuse with emojis, i mean some sentences demand them like i might put 2 in a paragraph sometimes as you've seen.\"",
    "where": "the whole article",
    "must_contain": [
-    "that's when I'd put a song on. 🎶",
     "bathroom vacationing. 🙈",
-    "as best as I can fit: 👇",
-    "you'd be the one burning. 🔥",
-    "right on the tense spot. 💆",
     "Try again. 😅",
     "Breathing easier. 😌",
     "Seat belt's on. 😊 Where were we?",
@@ -598,7 +594,69 @@
    "must_not_contain": [
     "some people. 😉",
     "Elmo. 😄",
-    "first. 🐶"
+    "first. 🐶",
+    "put a song on. 🎶",
+    "tense spot. 💆",
+    "the one burning. 🔥"
+   ]
+  },
+  {
+   "id": "ldw-p7-proposal",
+   "status": "applied",
+   "what": "Love Doesn't Wait P7 becomes its proposal: the swearing is there to get them heard, like the anger at bedtime.",
+   "joel": "2026-10-01 04:53 UTC: \"P7 proposal is good.\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "Like the anger at bedtime, the swearing is there to get them heard, so once you're listening instead of fighting, they don't need it anymore."
+   ]
+  },
+  {
+   "id": "ldw-p8-actual-exchange",
+   "status": "applied",
+   "what": "Love Doesn't Wait P8 uses what the film's characters actually say (the transcript, checked against the screenplay), not a summary of the scene: Lloyd's line, what Fred tells him about his two sons, and Fred's answer. It keeps the proposal's last sentence.",
+   "joel": "2026-10-01 04:53 UTC: \"P8 original somehow lost the fred rogers details. I believe the detail was it would be hard to grow up with him as a dad because he was always working on his projects, but check what the exchange was really. And fred didn't just accept that there may be truth in it, he was like \\\"Thank you, yes, it is very difficult to balance work and family life.\\\" something like that. Your P7 invented something about talking about both of his sons, why? why not just check what was actually said for improving the vagueness? The P8 proposal was good.\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "\"I can't imagine it was easy… growing up with you as a father.\"",
+    "his oldest son never told people about his dad, and his youngest \"genuinely tested\" him. Eventually he and his youngest found their way, and now he's very proud of both his sons.",
+    "\"But you are right, Lloyd. It couldn't have been easy on them. Thank you. Thank you for that perspective.\"",
+    "Like the two truths at bedtime, a true complaint and real love don't cancel each other out"
+   ],
+   "must_not_contain": [
+    "talks honestly about both of his sons"
+   ]
+  },
+  {
+   "id": "emoji-0453",
+   "status": "applied",
+   "what": "Joel's emoji rulings: no pointer emojis, no 😉, no 🐶 or other gratuitous ones; his \"(hehe)\" and \":)\" where 😉 and 😄 failed Pangram.",
+   "joel": "2026-10-01 04:53 UTC: \"i don't want those pointer emojis those look super ai, only after seen them from ai slop, don't ever use those. 😉 that one also looks like mainly used by AI (or by scammers). [...] Instead of emoji there i put \\\"people (hehe).\\\" which tested as human. [...] same trick for the elmo emoji, i used :) instead and it passed as human. [...] dog emoji seemed gratuitous to me, we don't need an emoji just because it could be there.\"",
+   "where": "the whole article",
+   "must_contain": [
+    "you might not be some people (hehe).",
+    "a bit like Elmo :)"
+   ],
+   "must_not_contain": [
+    "👇",
+    "👉",
+    "👆",
+    "😉",
+    "🐶"
+   ]
+  },
+  {
+   "id": "ldw-p9-installed",
+   "status": "applied",
+   "what": "Claim check: Love Doesn't Wait P9 (the guide's \"Also notice what happens between the internal positions…\") is installed as v6, and none of the failed endings are in it.",
+   "joel": "2026-10-01 04:53 UTC: \"ok that's good continue\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "Both talk in your grown-up voice, so to your little one they're the same. Don't decide that yourself just because they sound alike."
+   ],
+   "must_not_contain": [
+    "the catch is in your love itself",
+    "proof your love really is conditional",
+    "might only be borrowing that voice"
    ]
   }
  ]

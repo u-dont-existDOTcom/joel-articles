@@ -6,6 +6,12 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P8 · Should you thank your own little one for a complaint too, the way Fred thanks Lloyd? · default (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · Why does it matter whether the part that fires back is the same one that said "I love you"? Both reviews raised it (SHOULD); every sentence that answered it failed Pangram (31%, 35%, 29% AI). Taken to Joel. · SHOULD (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · How is "a bit of both" different from one part doing both? · COULD (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · Is resenting not being believed a problem in itself, or only firing it back? And does going cold teach your little one the same thing an accusation does? · default (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · Does a defensive "But I'm trying!" (Borrow One) already count as an accusation? · default (parked)
+
 - 2026-09-30 · Not Every Hero Wears A Cape, P4 · Which act do I start with? · default (parked)
 - 2026-09-30 · Not Every Hero Wears A Cape, P4 · Does rehearsing help with hard moments that aren't conversations, like opening the envelope? (The guide's "predictable difficult moment" is wider than a talk.) · default (parked)
 - 2026-09-30 · Later sections · The guide says "leave" in other places too ("Leave the situation that keeps injuring you."; "leave when staying requires disappearance"). Joel's 09-30 rethink of "leave it" will need applying when those sections come up. · noted by the wide run
