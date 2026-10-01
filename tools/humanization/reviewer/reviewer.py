@@ -288,12 +288,18 @@ def earlier_section(t):
     # (target key "earlier": "section").
     art = re.sub(r'<!--.*?-->', '', article_or_source(t, 'article').read_text(encoding='utf-8'), flags=re.S)
     i = art.find(t['before'])
+    new_section = False
+    if i < 0 and t.get('cut') and art.rfind(t['cut']) >= 0:
+        # 'before' carries notes for the writers (a new heading, 2026-10-01): start from the paragraph that
+        # ends with 'cut'. When 'append' opens a new section, the section that's ending is all that came before.
+        i = art.rfind('\n\n', 0, art.rfind(t['cut'])) + 2
+        new_section = bool(t.get('append'))
     if i < 0:
         sys.exit("the target's paragraph before isn't in the article yet, so what comes earlier can't be found")
     heads = [m.start() for m in re.finditer(r'(?m)^#{1,3} ', art[:i])]
     if not heads:
         return ''
-    start = heads[-2] if len(heads) > 1 else heads[-1]
+    start = heads[-1] if new_section or len(heads) == 1 else heads[-2]
     return re.sub(r'\n{3,}', '\n\n', art[start:i]).strip()
 
 
