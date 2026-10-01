@@ -22,7 +22,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where the work stands
 
-*Updated 2026-10-01, turn 9 (02:40 UTC onward). Joel's 02:40 fixes are in (P1 without the dark empath, his emojis in P3 and P6, the P4 proposal adopted), the whole article has had an emoji pass (`articles/inner-child-therapy/experiments/EMOJI-PASS-20261001.md`), and P7 and P8 are installed. Turn 8: main merged in, the tools in `tools/humanization/`, the gate in `docs/HUMANIZATION-GATE.md`, PR #112's claim checks adopted.*
+*Updated 2026-10-01, turn 9 (02:40 UTC onward). The lane was merged into main as #118 (Joel's OK); the next merge needs his OK again. Joel's 02:40 fixes are in (P1 without the dark empath, his emojis in P3 and P6, the P4 proposal adopted), the whole article has had an emoji pass (`articles/inner-child-therapy/experiments/EMOJI-PASS-20261001.md`), and P7 and P8 are installed. Turn 8: main merged in, the tools in `tools/humanization/`, the gate in `docs/HUMANIZATION-GATE.md`, PR #112's claim checks adopted.*
 
 **Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`articles/inner-child-therapy/tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
