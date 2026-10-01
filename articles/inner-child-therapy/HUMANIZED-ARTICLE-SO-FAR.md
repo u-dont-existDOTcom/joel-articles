@@ -337,3 +337,7 @@ So instead of asking which age of you deserves the blame, I'd ask these:
 4. What happened because of the choice it made?
 5. What was missing? Some ability, or help, or someone protecting you?
 6. What can you learn, repair, or do differently now?
+
+<!-- 2026-10-01 (turn 12): P13, the guide's "Big fuckity whoopty doo—what are you gonna do for me? is still a literal question…" (G13), with its list of evidence made a callback to Not Every Hero Wears A Cape (the plan). Fresh writer a of three; a and c were 100% Human alone on try 1 (73 and 80 words). Cold read and grounding on a: every line OK. On c, the cold read couldn't place "Then … comes back" after the list, and grounding flagged "Before you've done a single thing for them" (CONTRADICTS the article's "this is not to say you've never done anything to care for yourself"). Record: experiments/LOVE-DOESNT-WAIT-20260930.md, turn 12. -->
+
+Your little one has their own version of that last question: "Big fuckity whoopty doo. What are you gonna do for me?" They actually want to know, though I think the first answer may be that you keep loving them, even while they don't believe you. Then their trust can grow from the stuff back in "Not Every Hero Wears A Cape," like hearing out the sarcasm, or finally opening that envelope.
