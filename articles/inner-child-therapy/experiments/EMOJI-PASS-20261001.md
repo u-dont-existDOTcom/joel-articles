@@ -47,3 +47,15 @@ Noticing Counts, two diagnostics: with the h1 and no emoji, 100% Human (163); wi
 | Noticing Counts | "You'll sound a bit like Elmo :)" for the 😄 | 100% Human (68) | with its h1, 100% Human (163) |
 
 So the emoji that fails can be the problem, not the spot: the same lines pass with ASCII. He says the other emojis he tried after "some people" all tested as AI.
+
+## Joel's own list (2026-10-01 13:57) and the swaps (turn 11)
+His list is now the allowlist, with the darkest skin tone where an emoji has one (`tools/humanization/EMOJI-LIST.md`). My four placements that weren't on it:
+
+| Where | Change | Paragraph alone | Section |
+|---|---|---|---|
+| A Smaller Doorway: Goodwill | 🙏 → 🫶🏿 (his metta emoji) | (49 words) | 100% Human (129) |
+| Love Doesn't Have to Wait for Trust, the h2 | 💛 → ❤️ | | 100% Human (817) |
+| When Healing Turns Into Checking | 😊 → 😇 | 100% Human (92) | 100% Human (340) |
+| Write It. Don't Send It Yet. | 😌 out (it only repeated "Breathing easier.") | back to text that passed | |
+
+All try 1. The dark-skin-tone 🫶🏿 held, as Joel expected ("i never see ai using black people emojis").

@@ -675,6 +675,19 @@
     "🙏",
     "💛"
    ]
+  },
+  {
+   "id": "ldw-p10-installed",
+   "status": "applied",
+   "what": "Claim check: Love Doesn't Wait P10 (the guide's \"When life has gone badly… finding a defendant\") is installed as c6; P11 isn't in yet (its best draft failed Pangram).",
+   "joel": "2026-10-01 13:57 UTC: \"continue\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "Your little one might not be the only one getting accused. When life has gone badly, part of you may try to get some control back by finding someone to blame, like \"If you'd gotten it together at fifteen, you could have saved everybody.\" But figuring out which age of you is to blame doesn't give you what it would have taken back then. That part may start picking on a different age."
+   ],
+   "must_not_contain": [
+    "Keeping everyone from getting hurt was never your job at five or fifteen."
+   ]
   }
  ]
 }

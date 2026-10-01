@@ -207,3 +207,27 @@ The turn-9 proposal, installed as proposed. It passed alone on turn 9 (82 words,
 
 ### Where it stands
 The h2 and P1–P9 are installed: 100% Human together (779 words). Next is P10 (G10: when life has gone badly, the inner system may look for a defendant, a younger version who's guilty for not growing into the adult who was supposed to save everybody). Every cold read said it will need its own bridge from P9.
+
+## Turn 11 (2026-10-01): Joel's P9, emojis from his list, P10
+
+Joel, 13:57 UTC: "P9 yes, it absolutely does make sense to finish that thought otherwise it's unclear." "I like the proposal, but the reviewers are right that the other side and nothing to win are unclear." He sent his own P9 (Human, medium on his check), the list of emojis he uses, his preference for dark skin tones, when an emoji is warranted, a screenshot of a WhatsApp favorite that doesn't show up elsewhere, his OK to merge, and "continue".
+
+### P9 (his)
+Installed word for word. My check: 100% Human alone (145 words), try 1; the section with it 100% Human (817), try 1. What he changed is lesson E100.
+
+### Emojis (E101)
+His list is the allowlist (`tools/humanization/EMOJI-LIST.md`). My four placements that weren't on it changed, each checked on try 1: 🙏 → 🫶🏿 after the goodwill wish (the section 100% Human, 129 words); 💛 → ❤️ on this h2 (in the section check above); 😊 → 😇 after "Seat belt's on." (alone 100% Human, 92; the section 100% Human, 340); 😌 out after "Breathing easier." (back to text that passed). His WhatsApp favorite looks like 🫩 Face with Bags Under Eyes, approved in Unicode 16.0 in 2024 (https://emojipedia.org/face-with-bags-under-eyes); outside WhatsApp it shows only where the device's emoji font has it.
+
+### P10 (G10)
+- Writers a, b and c all kept the brief's plain-words middle; they differed in the bridge and the last line. The linter hard-failed b (coach phrases, heavy second person).
+- a: the cold read couldn't place "bigger than that", "everybody" or "what was missing". c: its first line was fine, but "save everybody" and "what was missing" weren't. Both groundings: every line OK. c's GREAT line: blaming a younger you is the bedtime anger aimed inward; a's: blame is after control, not capacity, since a guilty younger you makes what happened look avoidable.
+- Installed: c, through six versions, each for a cold read and each 100% Human alone (76, 79, 81, 82, 74 and 75 words, tries 1–6). The narrated charge ("guilty for not growing into the grown-up who was supposed to save everybody") kept tripping the cold reads: who's everybody, who decided, it reads backwards. As the blaming part's own line ("If you'd gotten it together at fifteen, you could have saved everybody.") the cold read had every line OK. Grounding wasn't re-run on that rewording, which carries the same claim. The section with it: 100% Human (892), try 4.
+- Proposal, not installed: a's GREAT line. The fresh writer's sentence ("If some younger you is guilty, then what happened could have gone differently, and that feels like control, even though blaming doesn't build anything.") was 52% AI (try 1), flagged from that sentence on. Made plain the way Joel did P9: "If it's somebody's fault, it didn't have to happen, and that feels like control." On the installed text: 100% Human (92), try 4 of the proposal.
+
+### P11 (G11), not installed
+- Writers a, b and c; reviewed b and c. b's grounding: its punishment sentence repeats P10 (DUPLICATE). c's cold read: "Choices ... need repair" (the harm needs repair, not the choices). c's grounding: "that doesn't make every choice harmless" right after the blaming part's charge could read as agreeing with it (MISFIRES).
+- c2, with those fixed and a last line answering the charge ("Keeping everyone from getting hurt was never your job at five or fifteen."): the cold read had every line OK, but it was 100% AI alone (104 words, try 1) and pulled the section to 93% Human. Its grounding then flagged the last line: limiting it to five or fifteen leaves the adult self to blame (MISFIRES), and coming right after "the harm needs repair" it can read as taking that back (UNCLEAR).
+- Out of the article until a rebuild. For next turn: no five-item list (the guide's "awareness, conditioning, fear, support, and options"); keep "the harm needs repair"; answer the charge for every age, the grown-up included, and mark it as answering the rescuer job, not what they did. c's grounding GREAT line for a proposal: punishment can't reach back, so all it can do is land now, as another attack your little one hears.
+
+### Where it stands
+The h2 and P1–P10 are installed: 100% Human together (892 words). Next is P11 (G11), rebuilt, then P12–P14 and "Make a Simple Vow".

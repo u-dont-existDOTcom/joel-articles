@@ -6,8 +6,12 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P10 · Why would blaming a younger you feel like getting control back? (The P10 proposal answers it: "If it's somebody's fault, it didn't have to happen, and that feels like control.") · COULD (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P11 (draft) · Repair to whom, when the life that got damaged is your own? · default (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P11 (draft) · Is "you at five" your little one, or another one getting accused? · default (parked)
+
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P8 · Should you thank your own little one for a complaint too, the way Fred thanks Lloyd? · default (parked)
-- 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · Why does it matter whether the part that fires back is the same one that said "I love you"? Both reviews raised it (SHOULD); every sentence that answered it failed Pangram (31%, 35%, 29% AI). Taken to Joel. · SHOULD (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · Why does it matter whether the part that fires back is the same one that said "I love you"? Both reviews raised it (SHOULD); every sentence that answered it failed Pangram (31%, 35%, 29% AI). Answered: Joel's P9 of 13:57 ends "Be careful not to take the accusation as proof your love really is conditional, when it could just be another part talking." · resolved
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · How is "a bit of both" different from one part doing both? · COULD (parked)
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · Is resenting not being believed a problem in itself, or only firing it back? And does going cold teach your little one the same thing an accusation does? · default (parked)
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P9 · Does a defensive "But I'm trying!" (Borrow One) already count as an accusation? · default (parked)
