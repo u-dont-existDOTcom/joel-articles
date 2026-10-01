@@ -74,3 +74,53 @@ The dialogue is exact. The linter hard-failed all three drafts on coach density.
 2. Writers copy a brief's bullet order as well as its words. Naming the failed order worked in one round.
 3. A loose paraphrase in a brief can change the meaning in every draft. Quote the guide's phrase or say plainly what it means.
 4. Pangram won't check under 50 words. For P2, P3 and P6 the section was the test, as with Adult Apprentice P2 on 2026-09-27.
+
+## Turn 8 (2026-10-01): Joel's fixes
+
+Joel, 00:12 UTC:
+- P3: "Yes that's my own bedtime memory with my mom."
+- P1: "love doesn't require the loved one to trust, buut it does require the lover to be honest (trustworthy objectively). otherwise can just be a dark empath pretending to love. why didn't your reviewer catch that?"
+- P4: the last sentence was "hard to understand bc double negative + unclear reference pronoun ... and also not what happened (i mean it's true she didn't, altho maybe she did, you don't know)". "Fights don't usually go like that" is "fine", but "there's something deeper". He gave his own explanation, and asked for "the basic fixed version plus a proposed improved version".
+- Emojis: "are you ignoring the emoji guidance or you didn't see the need yet?"
+
+### P1
+- **j (his words, "the loved one ... the lover"):** the cold read couldn't place "trustworthy objectively", read "the lover" as romantic, and called the dark empath a jump from nowhere. Grounding flagged that "trustworthy" could read as a clean record, which P2 contradicts. It also raised two MUST questions: "am I the dark empath?" and "does my love wait until I'm proven?"
+- **k ("trustworthy for real"):** the same flags, plus MISFIRES for a reader whose love feels fake.
+- **b1 (installed):** "It doesn't need their trust, but it does need you to be honest with them, which isn't the same as perfect. Otherwise it can just be pretend love, the kind a dark empath puts on (someone who reads feelings well and uses that to get something out of people)."
+  - Grounding: every line OK, no open questions.
+  - Cold read: "honest with them" about what? It also still asked what you'd get out of your own little one.
+  - Pangram 4.0: alone 100% Human (112 words); the section 100% Human (382).
+- **b2:** grounding DUPLICATE on [2], and the cold read still stuck on the dark empath.
+- **Open for Joel:** is "which isn't the same as perfect" the sense he meant by "trustworthy objectively", or did he mean more? And is the gloss right?
+  - The term is Heym et al., "The Dark Empath: Characterising dark traits in the presence of empathy", *Personality and Individual Differences* (2021): https://www.sciencedirect.com/science/article/abs/pii/S0191886920303615
+  - It means dark traits together with high empathy. The gloss gives the popular sense, which Joel's "pretending to love" points to.
+
+### Why the review missed P1, and the change
+- The grounding review checked carries against the guide. The guide's P1 leaves the condition out, so a faithful carry passed.
+- MISFIRES only tested instructions. P1 is a claim.
+- The turn-7 P2 reviews wrote that "the honesty condition is covered by 'Sometimes the love is there for your little one' and the earlier goodwill fallback". That meant only saying "I love you" when you mean it, a different sense of honest from being trustworthy.
+- The change (`tools/humanization/reviewer/grounding.txt`):
+  - carried claims get the MISFIRES test for a missing condition;
+  - the guide's statements about Joel's life get INVENTED unless his words say it;
+  - "covered" must be the same sense;
+  - a GREAT line gives one good-to-great proposal.
+- Blind reruns on the old text are in `tools/humanization/reviewer/grounding-validation/RESULTS-20261001.md`:
+  - P1's gap was caught 2 of 2.
+  - P4's guide "fact" was caught 0 of 2. My own turn-7 target ruling had told the review the reflection was his.
+  - GREAT found depth 4 of 4, but not Joel's anger insight, which only he had.
+
+### P4
+- **Basic fix (installed):** the last sentence is cut. Cold read and grounding OK. Pangram: alone 100% Human (56 words); the section 100% Human (382).
+- **Proposal (not installed):** his explanation, in his voice. The final version (v3) has his explanation in the order he gave it: anger as a way to get power, her answer showing he didn't need it to be heard, the anger seeming stupid, "I saw for myself" it only hurt him, then the guide's two truths.
+  - Pangram 4.0: alone 100% Human (138 words); the section with it 100% Human (464).
+  - The cold read still can't see how "But I love you!" showed him he'd be heard. Only he can answer that. If he takes it, P5 might want "But when…" to mark the turn.
+
+### Emojis
+I hadn't been applying his standing preference: it wasn't in the gate or the writers' briefs. Now it's a step in `docs/HUMANIZATION-GATE.md`. This section got 💛 on its h2 and 🙄 after the little one's "Big fuckity whoopty doo" line, and the section with both is 100% Human (382). The rest of the article's headings have none yet.
+
+### Shared gate (from the Emulate session's request, relayed by Joel)
+- Main merged into the lane branch, so PR #116's shared gate is in.
+- The tools moved to `tools/humanization/`, with article paths as options; a subagent did the move, and every old/new output is identical.
+- The lane gate copy is now a pointer, and its newer rules are merged into `docs/HUMANIZATION-GATE.md`.
+- `docs/EMULATE-FALLBACK.md` reviewed and changed in four places.
+- PR #112's claim checks are adopted (`docs/suggested-fixes-ledger.md`).

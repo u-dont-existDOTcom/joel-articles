@@ -9,6 +9,9 @@ Why this review exists. Every sentence of these earlier drafts read fine on its 
 - A draft's other example, cancelling an obligation, repeated what the article had already covered (saying no to something that costs you too much).
 - A section heading, "Keep Your Word", was picked because it sounded good. The section is about making the Protector visible.
 - A draft carried the guide's instruction to leave a relationship that keeps eroding safety, faithfully, and every review passed it. The author's own experience showed the gap: someone can feel less and less safe with a partner for reasons that come from inside them, which the article itself teaches when it says a hook can be old material. A faithful carry of the guide can still misfire for some readers.
+- A draft carried the guide's "love and trust don't have to come as a pair" faithfully, and every review passed it. The author pointed out what the guide left out: love "doesn't require the loved one to trust, but it does require the lover to be honest (trustworthy objectively). otherwise can just be a dark empath pretending to love." A review had even written that "the honesty condition is covered", meaning that you only say "I love you" when you can honestly say it. That's a different sense of honest from being trustworthy, so it covered nothing.
+- A draft carried the guide's "She did not tell me I wasn't angry" into the author's own story. The author: "not what happened (i mean it's true she didn't, altho maybe she did, you don't know)". The guide's "I" is an AI draft of his ideas, so what it says he or his mother did isn't his memory.
+- The same draft carried "Fights don't usually go like that" and stopped there. The author knew why they don't, and that was the best part: anger is a way to get more power when you feel a lack of justice or agency, and her answer showed him anger wasn't needed to be heard, and the unfairness wasn't coming from a lack of love, so the anger seemed stupid. A review that only checks the carry never asks for that.
 
 THE STEPS
 
@@ -24,6 +27,8 @@ THE STEPS
 - its evidence status (a sign, evidence, proof, a guarantee);
 - time (yet, now, later, first).
 Compare each with the guide's version. Ground every flag in what the reader needs to understand (Joel, 2026-09-29 20:35: "that distinction might be worth making if it were like a physics experiment or something, but the logic should be grounded in the meaning the reader needs to understand"). A shift matters when it would change what the reader believes or does: a promise ("love will grow"), a guarantee, an "always" or "only" that isn't true, a dropped condition that changes the instruction ("if they're right", "unless someone is in danger"), evidence sold as proof. A plain statement of something the reader can see is true in context doesn't need the guide's hedge. "All of that shows as clearly to them as the clean room did" is fine where the guide says "can be as visible"; flagging it was pedantic. Flag CHANGED when one of them shifted in a way the reader would feel: a condition dropped or added, "can" turned into "usually", "some" into "all", evidence into proof, something love needs presented as love itself, or a relation swapped for a neighboring one (seeing for trusting, protecting for nurturing). Watch sentence shape, too. "They complain, they're right, and you say so" asserts that they're right, even though it reads like a scenario. The guide's "if" is gone. Don't flag a paraphrase that keeps all of these.
+Then test the claim itself, the way step 3 tests an instruction, even when it carries the guide faithfully: the guide can leave out a condition the claim needs. When a sentence says one thing doesn't need another, is enough, or doesn't matter ("love doesn't have to wait for trust"), ask what has to be true of the people in it for that to hold, and who could use it as written: someone faking love to use a person, a reader in a bad relationship, a reader whose own love is the problem. Flag MISFIRES with the missing condition, and quote what in the article or guide shows it.
+A guide sentence about what the author or someone in his life did, said, felt or thought is an AI draft too: the guide's "I" isn't his biography. Carrying it faithfully isn't enough. Flag INVENTED unless the author's own words (the article so far, or his rulings in this prompt) say it.
 
 3. Sort each NEW sentence, and check it according to its kind:
 - An example or illustration (moldy bread, DUIs in Maryland, a party). Check that it belongs to the concept it's offered for, using the definitions the guide and the article give for that concept, and the author's rulings. Do this even when the example comes from one of the guide's own lists, because those lists mix categories sometimes. Check that it doesn't repeat an example or point the article already has. Check that it states no fact about the author's life that the article hasn't already established. Don't ask an example for evidence.
@@ -48,10 +53,13 @@ The push level for this review: {push}
 
 9. Register. Say in a few words what kind of writing the new text is: instruction, argument, confession, joke, image, or a mix. Different kinds need different logic. An argument needs its steps to follow. An instruction needs its conditions. A joke needs its picture to hold. A confession needs to be true to what the author has said about himself. Judge each part by what its kind needs.
 
+10. Good to great (Joel, 2026-10-01: "look for opportunities like that to make something go from good to great"). Find at most one place where the new text states something without its why, and a reader would want the why: that her answer got through, that fights don't usually go like that, that a practice helps. Say in a few words what the deeper why could be, from the article's own model of people, the guide, or the author's own words in his rulings, and what it draws on. This is a proposal for the author, outside the push level. It must not invent events, facts about the author or his people, or a source. If nothing would lift the text, say none.
+
 RULES
 - Every flag quotes the exact words, and names what in the guide or article it conflicts with or lacks.
 - Rebuild the claim before you object. If the objection disappears once you've read the whole guide and the article so far, drop it.
 - Don't propose wording. Say what the reader should get instead.
+- When you say something is covered, carried or answered elsewhere, quote the line, and check it's the same sense. "Only say 'I love you' when you can honestly say it" (meaning it) doesn't cover "the one loving has to be trustworthy" (what they are).
 - Raise a flag only if you'd defend it to the author. Missing a real problem costs him more than an extra flag, but a flag that's only taste wastes his time.
 
 OUTPUT, exactly this shape and nothing else:
@@ -66,6 +74,7 @@ PARKED: open questions below this push level, a few words each, or "none"
 PARAGRAPH: which guide paragraph's job it does; STRADDLES or MISSING if they apply; one line.
 SIZE: about how many words your flags and questions would add or take away, and whether that's within the push level
 REGISTER: a few words.
+GREAT: where — the deeper why, in a few words — what it draws on; or "none"
 
 Types: CHANGED, CATEGORY, UNSUPPORTED, MISFIRES, QUESTION, ASK AUTHOR, DUPLICATE, UNCLEAR, NON-SEQUITUR, CONTRADICTS, INVENTED, STRADDLES, MISSING, HEADING.
 

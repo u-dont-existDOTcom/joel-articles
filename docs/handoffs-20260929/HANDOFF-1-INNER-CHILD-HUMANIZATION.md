@@ -22,7 +22,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where the work stands
 
-*Updated 2026-09-30, turn 7 (17:04 UTC onward). Turn 7 started "Love Doesn't Have to Wait for Trust": the h2 and P1–P6 are in, and together they're 100% Human (341 words). Turn 6 fixed P1's "sweet things" line and P4's "both sides" line in Not Every Hero, both at Joel's request, and the relationship paragraph's danger line.*
+*Updated 2026-10-01, turn 8 (00:12 UTC onward). Joel's fixes to Love Doesn't Wait P1 and P4 are in, and P3 is confirmed as his memory. Main is merged in (PR #116's shared gate), the tools have moved to `tools/humanization/`, the gate is `docs/HUMANIZATION-GATE.md` (the lane copy is a pointer), and PR #112's claim checks are adopted.*
 
 **Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`articles/inner-child-therapy/tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
@@ -49,8 +49,11 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
   - the in-context page: `tools/humanization/render_in_context.py $A/tools/in-context/<map>.json OUT --article $A/HUMANIZED-ARTICLE-SO-FAR.md --source $A/master.html --source-label "Guide original" --since <the commit Joel last saw>`.
 
 **Open for Joel:**
-- whether the bedtime story is his memory (asked 2026-09-30, about 18:55 UTC);
-- the moved relationship paragraph (he hasn't said yet).
+- Love Doesn't Wait P1: does "which isn't the same as perfect" carry what he meant by "trustworthy objectively", and is the dark empath gloss right?
+- Love Doesn't Wait P4: the basic fix is installed; the proposal with his own explanation waits for his pick (it needs his answer on what made him feel heard).
+- Emojis on the rest of the article's headings and practical steps (offered).
+- Merging the lane branch into main, which now carries PR #112 (his OK).
+- The moved relationship paragraph (he hasn't said yet).
 
 ## How to check on Pangram
 

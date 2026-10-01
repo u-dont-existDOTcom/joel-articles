@@ -1,6 +1,6 @@
 # Emulate as a fallback, and how to learn from it
 
-**Status: ACTIVE for every article, 2026-09-30.** Joel set its place in the order: "emulate would come after the rewrite loop because the purpose of emulate is as a fallback if my system can't pass pangram." Claude wrote the rest from the Emulate run. The Inner Child chat hasn't reviewed it yet. Until it has, follow the doc as written.
+**Status: ACTIVE for every article, 2026-09-30.** Joel set its place in the order: "emulate would come after the rewrite loop because the purpose of emulate is as a fallback if my system can't pass pangram." Claude wrote the rest from the Emulate run. The Inner Child chat reviewed it on 2026-10-01 and changed four things: who decides whether a published article's paragraph is Joel's own words (section 2), where the tool runs (section 3), what Joel's review of the system's first six paragraphs found (section 1), and how to collect the reviewer's 50 calls (section 6). The reasons are next to each change.
 
 **Which order, by kind of text (Joel, 2026-09-30, 20:31 UTC):**
 - **A published article being humanized:** Emulate goes first on its Pangram-flagged paragraphs. The text is already Joel's, so the job is to change its shape without changing its meaning. Everything after the Emulate call (sections 3 to 5) still applies, above all the blind trace and his side-by-side review.
@@ -85,12 +85,13 @@ The Inner Child chat's full system did better on the same section the same day (
 - Of its first six paragraphs, five passed Pangram on the first check.
 - The E2 paragraph took three rounds of three fresh writers each. Round two's brief said "don't end on the evidence, and don't list it", and round three's asked for no so-or-because sentence explaining the answer.
 - The six took about two and a half hours, 17:03 to 19:40 UTC. E1's passing version (`analysis/transfer-20260930/E1-b.txt`) hasn't been through the gate. Its hug example is Claude's own thought, and Joel hasn't approved it.
+- Passing wasn't the end of it (Inner Child chat, 2026-10-01). Joel's read of those six found two meaning problems that the gate and Pangram had both passed. P1 carried the guide's "love and trust don't have to come as a pair" without what the guide left out: love "does require the lover to be honest (trustworthy objectively)". P4 carried the guide's "She did not tell me I wasn't angry" into his own memory ("maybe she did, you don't know"). Both are fixed, and the grounding review now tests carried claims for missing conditions and flags the guide's statements about his life (`HUMANIZATION-GATE.md`, S6). Emulate keeps meaning no better than the loop does, so its output needs the same read.
 
 ## 2. When to use Emulate
 
 Use it only when all of these hold:
 - **For new writing, the reviewer-writer loop has failed on the paragraph** (Joel, 2026-09-30). Not before. For a published article's flagged paragraph, this condition doesn't apply.
-- **The paragraph is ours,** written by Claude or a fresh writer. Joel's own words and owner-final passages never go to Emulate, and its output never replaces them. A flagged span in Joel's text goes to him, with the span.
+- **The paragraph isn't Joel's own writing.** For new writing, that means one written by Claude or a fresh writer. A published article is the exception the top of this doc makes: its flagged paragraphs can go, AI-assisted as they are. Inside one, though, a passage Joel wrote himself, or marked owner-final, doesn't go; its flagged span goes to him, with the span. Emulate's output never replaces his own words. (Changed 2026-10-01 by the Inner Child chat: this line said Joel's own words never go to Emulate, while the top of the doc sends a published article's flagged paragraphs there, and community section 1 had his remembered thoughts in it. Ask Joel when it isn't clear whose a passage is.)
 - **Its meaning is settled.** It has passed the gate's sense steps (S1 to S6, grounding and MISFIRES included) and the preservation trace. Emulate can't fix sense, and it adds errors of its own.
 - **Nothing in it is private.** Emulate is a third-party service. Nothing Joel has marked private, and no private detail about another person, goes to it.
 
@@ -101,16 +102,17 @@ Use it only when all of these hold:
   - It makes one call, saves Emulate's text exactly as returned with the full response, and prints the words charged and the balance.
   - It won't overwrite an earlier result.
   - If a run dies mid-call, it won't repeat the call until someone has checked the balance and the saved files.
-- **Run it on the laptop** with Desktop Commander, device `cf376439-4f04-4ddd-aeab-1a1c826fe34c`. Write the paragraph to a file there with `write_file`, then run the tool with `start_process`:
+- **Run it on the laptop** with Desktop Commander, device `cf376439-4f04-4ddd-aeab-1a1c826fe34c`, from the repo clone in the lane folder. Write the paragraph to a file there with `write_file`, then run the tool with `start_process`:
 
   ```
-  cd /tmp/claude-fix-tools
-  python3 emulate_humanize.py balance
-  python3 emulate_humanize.py humanize para.txt para-emu1
-  python3 emulate_humanize.py humanize para.txt para-emu2
+  cd /home/joel/ai-work/claude-dangerous-lane/joel-articles
+  git fetch -q origin && git status --short   # the clone should be clean and current
+  python3 tools/humanization/emulate_humanize.py balance
+  python3 tools/humanization/emulate_humanize.py humanize para.txt para-emu1
+  python3 tools/humanization/emulate_humanize.py humanize para.txt para-emu2
   ```
 
-  A copy was in `/tmp/claude-fix-tools/` on 2026-09-30 at 16:39 UTC. It read a balance of 256,527 words and refused a 5-word input without a call. `/tmp` doesn't survive a restart; if the copy is gone, write it there again from the repo.
+  Keep `para.txt` and the results outside the clone (in `/home/joel/ai-work/claude-dangerous-lane/emulate-runs/`, say), so they never get committed by accident. (Changed 2026-10-01 by the Inner Child chat. This said to run a copy in `/tmp/claude-fix-tools/`. But `/tmp` doesn't survive a restart, a copy drifts from the repo, and Joel's rule for this laptop is to stay inside `/home/joel/ai-work/claude-dangerous-lane`. The clone there has the tool since main was merged into the lane branch.)
 - **Send the paragraph alone, as plain text,** with no Markdown and no heading. Links and emphasis go back in from the draft afterwards.
   - Emulate needs at least 40 words; Pangram needs 50 to check a text alone.
   - One call gives one version, so make two calls.
@@ -177,6 +179,7 @@ Joel's fixes stay the model for his voice. Emulate teaches what Pangram catches.
 - **Emulate.** Stop routine use when the loop has passed ten paragraphs in a row without it. Go back to it if paragraphs start failing again.
 - **Pangram.** In this test, all eleven of the reviewer's HUMAN calls matched Pangram, as every one had before. Its AI calls on our own near-the-line drafts were wrong three times in four.
   - Once the reviewer's HUMAN has held on about 50 paragraphs across articles, a reviewer HUMAN can stand in for the Pangram check.
+  - The gate runs that reviewer only when a paragraph fails, so its HUMAN calls pile up slowly. To collect the 50, run it, blind, on paragraphs that are going to Pangram anyway, and log its call before the Pangram result in the article's PREDICTIONS file. (Added 2026-10-01 by the Inner Child chat.)
   - An AI verdict on our own draft still goes to Pangram before anything is rewritten.
   - Joel decides when the 50 are in.
 
@@ -184,6 +187,6 @@ Joel's fixes stay the model for his voice. Emulate teaches what Pangram catches.
 
 1. **Where Emulate goes in the order.** Decided by Joel: after the reviewer-writer loop.
 2. **Where cases and lessons live.** Shared, not per chat: cases in `tools/humanization/emulate-cases/`, and lessons in the gate and the writers' brief once two cases back them.
-3. **The holdout rule** (E1 to E5 never go to Emulate). Retire it. The score in section 5 makes every paragraph a test, and E2 has already failed five hand-written tries. The tool's `E_holdout` refusal goes with it.
+3. **The holdout rule** (E1 to E5 never go to Emulate). Retire it. The score in section 5 makes every paragraph a test, and E2 has already failed five hand-written tries. The tool's `E_holdout` refusal goes with it. (Inner Child chat, 2026-10-01: agreed. The loop wrote and installed the section's first six paragraphs, E1 and E2 among them, without Emulate, so the holdout has done its job. The refusal in the tool is left for Joel to drop.)
 4. **Steps 2 and 3 of section 4.** Try them on the first two cases. If they keep fewer than a third of our sentences, drop them and fix Emulate's version in place instead.
 5. **The three published articles** (community, hypnosis guide, neuro de-armoring). Run the same gate on them. Before trusting the reviewer on them, add Pangram-checked paragraphs from each article to its calibration and revalidate, since it learned from the Inner Child article only.

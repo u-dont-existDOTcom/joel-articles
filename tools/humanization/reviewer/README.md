@@ -17,6 +17,7 @@ Paths here are from this folder (`tools/humanization/reviewer/`), except the one
   - It reads the whole guide and the article up to the new text, plus Joel's rulings.
   - It rebuilds each claim against the guide, checks examples, repeats, support, logic and headings, and gives one line per sentence.
   - Since 2026-09-30 it also tests every instruction, even a faithful carry of the guide, against different readers and the article's own model of people (flag MISFIRES; `grounding-validation/RESULTS-20260930.md`).
+  - Since 2026-10-01 it also tests claims carried from the guide for a missing condition (MISFIRES), flags what the guide says Joel or his people did as INVENTED unless his own words say it, checks that anything it calls covered is covered in the same sense, and gives one good-to-great proposal (the GREAT line). Blind checks: `grounding-validation/RESULTS-20261001.md`.
   - Build a prompt with `reviewer.py grounding DRAFT TARGET OUT`. The target needs `guide_passage`, and can have `next`, `rulings` and `article_upto`. It reads the article's source, and the article itself unless the target has `article_upto` (see `article` and `source` below).
   - `--blind` leaves out the worked examples, for validation.
   - `--push tight|default|wide` sets how hard it pushes on the reader's open questions, and how much a fix may add (default: the target's `"push"`, else `default`). See `grounding-validation/PUSH-KNOB-20260930.md`. Questions below the level go to the article's `PARKED-READER-QUESTIONS.md` (Inner Child: `articles/inner-child-therapy/PARKED-READER-QUESTIONS.md`).
@@ -28,6 +29,7 @@ Paths here are from this folder (`tools/humanization/reviewer/`), except the one
   - `cut`: the text the article is cut after for the grounding prompt, when the paragraph before is the article's last so far; `append` adds text after the cut (a new h2);
   - `earlier`: `"section"` gives the cold reader the section before too (see `sense.txt`);
   - `push`, `rulings`, `guide_passage`, `next`: for the grounding review.
+  - Write `rulings` as Joel's own words, dated and quoted. Never summarize what's his: on 2026-09-30 a P4 target said "The reflection is the guide's, in Joel's first person, about his own memory". In a blind rerun on 2026-10-01, both reviews took that as license to carry the guide's "She did not tell me I wasn't angry", which Joel says nobody knows.
 - `human_items.manifest.json`: the human-prose test set, with sources and hashes. The texts go in `local/human_items.json`, which is kept out of git.
 - `reviewer.py`: builds every prompt. Run `python3 tools/humanization/reviewer/reviewer.py -h`.
 
