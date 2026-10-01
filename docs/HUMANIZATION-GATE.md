@@ -15,7 +15,7 @@ How to read it:
 
 ## Owner rulings on rewriting Joel's own words (Joel, 2026-09-30)
 
-These came from community section 1 and apply to every rewrite of his words, whether by Emulate, a writer or a fix:
+These came from community sections 1 and 2 and apply to every rewrite of his words, whether by Emulate, a writer or a fix:
 - **Don't hype.** "Happy" doesn't become "very happy", and "this mostly meant boredom" doesn't become "boring as hell".
 - **Don't flatten a mixed experience into one note.** His childhood visits meant boredom "with some adventures mixed in".
 - **Don't change a fact without asking, even a small one** ("own" to "live on").
@@ -24,6 +24,8 @@ These came from community section 1 and apply to every rewrite of his words, whe
 - **Keep the exact relation.** "Needed" isn't "wanted". "Much larger" is a comparison, and "big" drops it.
 - **A fact in an AI-drafted original can be wrong.** When Joel corrects one (the "complicated labor credit system"), his correction replaces it.
 - **Show every proposed change side by side before asking** (`tools/humanization/render_in_context.py`). On 2026-09-30 he approved two changes from a list, then took them back once he saw them in place.
+- **Every paragraph passes alone (Joel, 2026-10-01).** A section that passes with a paragraph that fails alone doesn't count, for a published article too: "otherwise we're sort of playing with pangram but usually there are still ai tells you're missing in the paragraph, and pangram 5 will catch with better localization i'm sure." His one exception is a paragraph that really looks human to him: he has "never seen any actual human paragraph labeled as AI by pangram unless it was written as an academic paper super formulaic". A paragraph under 50 words is checked with a neighbor that passes alone.
+- **Wording can flex when the meaning stays (Joel, 2026-10-01).** The preservation units are meaning, not wording.
 - **Emojis (Joel, 2026-09-26):** "If you see something begging for an emoji, put it, but don't put it otherwise." It applies to his article writing and to any article that's allowed to be cute. A spot begs for one when the emoji does something the words can't do quickly. His example is 😜 after a slightly awkward line, to tell the reader it's a joke. Never add one to influence a detector. (The Inner Child chat first wrote this into `project-sources/MASTER-INSTRUCTIONS.md`, but a repository test pins that file's exact bytes, so it lives here.)
 
 ---
