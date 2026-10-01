@@ -76,6 +76,7 @@ Repository/platform recovery and governance:
 - Completed the public-visibility transition after credential/private-key audit.
 - Replaced redundant ChatGPT Project authority with GitHub-canonical routing.
 - Promoted Joel's public-GitHub-by-default owner rule into `SKILL.md` with publication/license/privacy boundaries.
+- Added the `SKILL.md` section `Claims about sources and reviews of Joel's writing` at Joel's 2026-09-27 request. It covers anchoring claims about a source, exact quotation, absence claims, claims about a field or tradition, stating what was checked, rechecking before conceding, facts added to Joel's text, reading his writing on its strongest reading, dropped flags, consistency and estimates, and an independent claim check before delivery for named reviews, source-based drafts, added facts, and verification claims. `tests/test_claim_integrity_checks.py` pins the rules. No article content changed.
 
 Romance:
 - Resolved the historical Romance assembly and imported the exact canonical master with its complete article family.

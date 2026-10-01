@@ -1,0 +1,1784 @@
+{
+ "date": "2026-09-28",
+ "what": "Validation of the reviewer set up with labeled examples (tools/reviewer/). Two folds of our Pangram-labeled paragraphs; each run learned from one fold and judged the other. Then the human-prose test, two runs with different shuffles. All runs: general-purpose subagents, told to read one prompt file and nothing else.",
+ "validation": {
+  "keys": {
+   "Q01": {
+    "name": "PASS_ce_guide_alone_r2",
+    "label": "HUMAN"
+   },
+   "Q02": {
+    "name": "FAIL_outward_p1a_r5_dinner_scene",
+    "label": "AI"
+   },
+   "Q03": {
+    "name": "FAIL_borrow_p5_r10",
+    "label": "AI"
+   },
+   "Q04": {
+    "name": "FAIL_outward_p1_r7_short_remark",
+    "label": "AI"
+   },
+   "Q05": {
+    "name": "PASS_ce_guide_r2_joel_words",
+    "label": "HUMAN"
+   },
+   "Q06": {
+    "name": "PASS_love_askgod_p2",
+    "label": "HUMAN"
+   },
+   "Q07": {
+    "name": "PASS_ce_jobs_r3_joel_guide",
+    "label": "HUMAN"
+   },
+   "Q08": {
+    "name": "FAIL_threefn_p5_r2c",
+    "label": "AI"
+   },
+   "Q09": {
+    "name": "PASS_fix_ask_p1",
+    "label": "HUMAN"
+   },
+   "Q10": {
+    "name": "FAIL_ce_jobs_r1b_definitions",
+    "label": "AI"
+   },
+   "Q11": {
+    "name": "FAIL_outward_p1_accepted_20260918",
+    "label": "AI"
+   },
+   "Q12": {
+    "name": "FAIL_threefn_p5_r1",
+    "label": "AI"
+   },
+   "Q13": {
+    "name": "FAIL_borrow_p5_r10b",
+    "label": "AI"
+   },
+   "Q14": {
+    "name": "PASS_love_askgod_p1",
+    "label": "HUMAN"
+   },
+   "Q15": {
+    "name": "FAIL_fix_outward_p1_r1",
+    "label": "AI"
+   },
+   "Q16": {
+    "name": "PASS_borrow_p3_joel_fix",
+    "label": "HUMAN"
+   },
+   "Q17": {
+    "name": "PASS_borrow_p4_r10",
+    "label": "HUMAN"
+   },
+   "Q18": {
+    "name": "PASS_tyler_p5_r1",
+    "label": "HUMAN"
+   },
+   "Q19": {
+    "name": "FAIL_ce_guide_r1_44pct",
+    "label": "AI"
+   },
+   "Q20": {
+    "name": "FAIL_outward_p1a_r2_sense_first",
+    "label": "AI"
+   },
+   "Q21": {
+    "name": "PASS_ce_jobs_r2_scene",
+    "label": "HUMAN"
+   },
+   "Q22": {
+    "name": "FAIL_outward_p1_rewrite_r1",
+    "label": "AI"
+   },
+   "Q23": {
+    "name": "PASS_fix_hook_p1",
+    "label": "HUMAN"
+   },
+   "Q24": {
+    "name": "FAIL_love_spirit_p1_r2",
+    "label": "AI"
+   },
+   "Q25": {
+    "name": "PASS_tyler_p4_r1",
+    "label": "HUMAN"
+   },
+   "Q26": {
+    "name": "PASS_borrow_p5_joel_fix",
+    "label": "HUMAN"
+   },
+   "Q27": {
+    "name": "FAIL_love_spirit_p1_r1",
+    "label": "AI"
+   },
+   "R01": {
+    "name": "FAIL_love_goodwill_h3_r3",
+    "label": "AI"
+   },
+   "R02": {
+    "name": "FAIL_apprentice_section_r3",
+    "label": "AI"
+   },
+   "R03": {
+    "name": "PASS_music_r4_mine",
+    "label": "HUMAN"
+   },
+   "R04": {
+    "name": "FAIL_music_r2_mine",
+    "label": "AI"
+   },
+   "R05": {
+    "name": "PASS_love_goodwill_p1_r2",
+    "label": "HUMAN"
+   },
+   "R06": {
+    "name": "PASS_noticing",
+    "label": "HUMAN"
+   },
+   "R07": {
+    "name": "PASS_threefn_p1_cut",
+    "label": "HUMAN"
+   },
+   "R08": {
+    "name": "PASS_threefn_p2_r1",
+    "label": "HUMAN"
+   },
+   "R09": {
+    "name": "FAIL_threefn_p1_r1b",
+    "label": "AI"
+   },
+   "R10": {
+    "name": "FAIL_apprentice_section_r2",
+    "label": "AI"
+   },
+   "R11": {
+    "name": "PASS_ce_p2_worth_line",
+    "label": "HUMAN"
+   },
+   "R12": {
+    "name": "FAIL_threefn_p1_r3b",
+    "label": "AI"
+   },
+   "R13": {
+    "name": "PASS_threefn_p1_joel_fix",
+    "label": "HUMAN"
+   },
+   "R14": {
+    "name": "FAIL_apprentice_section_r1",
+    "label": "AI"
+   },
+   "R15": {
+    "name": "FAIL_threefn_p1_r2",
+    "label": "AI"
+   },
+   "R16": {
+    "name": "PASS_threefn_p3_r1b",
+    "label": "HUMAN"
+   },
+   "R17": {
+    "name": "FAIL_threefn_newp1_r1",
+    "label": "AI"
+   },
+   "R18": {
+    "name": "PASS_threefn_p4_r1",
+    "label": "HUMAN"
+   },
+   "R19": {
+    "name": "FAIL_apprentice_p1_r1",
+    "label": "AI"
+   },
+   "R20": {
+    "name": "PASS_apprentice_p1_r2",
+    "label": "HUMAN"
+   },
+   "R21": {
+    "name": "PASS_borrow_p7_r11",
+    "label": "HUMAN"
+   },
+   "R22": {
+    "name": "FAIL_threefn_newp1_r2",
+    "label": "AI"
+   },
+   "R23": {
+    "name": "PASS_love_p2_r3",
+    "label": "HUMAN"
+   },
+   "R24": {
+    "name": "PASS_regulation",
+    "label": "HUMAN"
+   },
+   "R25": {
+    "name": "PASS_borrow_guide_r8e",
+    "label": "HUMAN"
+   },
+   "R26": {
+    "name": "PASS_love_goodwill_p1_r1_fidelity_rejected",
+    "label": "HUMAN"
+   }
+  },
+  "runs": {
+   "fable_testA": {
+    "Q01": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "2,4",
+     "reason": "rough personal aside jumps to cults; ends on a counter-thought, not a summary; author's stiff wording"
+    },
+    "Q02": {
+     "verdict": "AI",
+     "confidence": 75,
+     "sentences": "3,4,6",
+     "reason": "instruction, scenario, option A, option B, then resource; every sentence hands off cleanly"
+    },
+    "Q03": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "4,7,8",
+     "reason": "instruction, examples escalating to safety, reassurance, closing script; tidy outline with a landing"
+    },
+    "Q04": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "3",
+     "reason": "short; real book title; ends on a throwaway remark rather than a lesson"
+    },
+    "Q05": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "1,4,5",
+     "reason": "one tidy AI opener, but the rest is the author's stiff paragraph ending on a counter-thought"
+    },
+    "Q06": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "2,3,4",
+     "reason": "instruction, anticipated reaction, reframe, warning with callback; each sentence one job, built to land"
+    },
+    "Q07": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "1,4",
+     "reason": "summary opener, then example completes all three jobs in order and lands a callback joke"
+    },
+    "Q08": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "1,4",
+     "reason": "starts by noticing the word; ends on a personal preference instead of a summary"
+    },
+    "Q09": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "3",
+     "reason": "rule, explanation, then a wry closer that wraps the thought; \"some people\" punchline built toward"
+    },
+    "Q10": {
+     "verdict": "AI",
+     "confidence": 80,
+     "sentences": "2,3,4",
+     "reason": "claim, define Nurturer, define Protector, \"both at once\", example; the obvious outline"
+    },
+    "Q11": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "3,4,5",
+     "reason": "choppy middle with a cryptic half-thought (\"first fight has company\") breaks the march"
+    },
+    "Q12": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "1,4",
+     "reason": "claim with two attributes, metaphor explains, example lands; clean handoffs throughout"
+    },
+    "Q13": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "2,3,7",
+     "reason": "generic examples, escalation, reassurance, closing script; each sentence exactly one job"
+    },
+    "Q14": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "2,3",
+     "reason": "personal aside (\"don't want to lump that in with the dog\"); ends on instruction, not summary"
+    },
+    "Q15": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "3,4,5",
+     "reason": "smoothed middle; scene, reaction, clarification, criterion, flat resource sentence at the end"
+    },
+    "Q16": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "6",
+     "reason": "choppy human-ish rules, but the last sentence sums the paragraph up neatly"
+    },
+    "Q17": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "1,2,6",
+     "reason": "problem, solution, instruction, caveat, fallback: the obvious exercise outline; only \"if you have\" is rough"
+    },
+    "Q18": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "2,4,6",
+     "reason": "argues with the prior point; plain, awkward real script with true-sounding specifics; no wrap-up"
+    },
+    "Q19": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "4,5",
+     "reason": "author's stiff sentences replaced with casual smoothed ones (\"Then again\", \"lean on\")"
+    },
+    "Q20": {
+     "verdict": "AI",
+     "confidence": 75,
+     "sentences": "2,3,5",
+     "reason": "instruction, question A, question B, resource, suggestion; tidy march to a landing"
+    },
+    "Q21": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "1,3",
+     "reason": "abstract summary claim then a labeled example demonstrating exactly that claim"
+    },
+    "Q22": {
+     "verdict": "AI",
+     "confidence": 75,
+     "sentences": "1,4,5",
+     "reason": "specific-sounding charger detail, one-word reaction, clarification, criterion, resource; pure march"
+    },
+    "Q23": {
+     "verdict": "HUMAN",
+     "confidence": 65,
+     "sentences": "4,5",
+     "reason": "run-on with emoji, \"and/or\", \"it dawns you\"; ends on a rough instruction, not a sum-up"
+    },
+    "Q24": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "3,4",
+     "reason": "first-person qualification, terse \"Grieve\" instruction; modest ending rather than balanced summary"
+    },
+    "Q25": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "3,4",
+     "reason": "anecdote with odd true-sounding exchange; ends on Tyler's doubt, no lesson drawn"
+    },
+    "Q26": {
+     "verdict": "HUMAN",
+     "confidence": 65,
+     "sentences": "2,6,9",
+     "reason": "odd food-smelling detail, half-finished \"isn't exactly it, but yeah\", tacked-on \"laugh!\""
+    },
+    "Q27": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "2,4",
+     "reason": "two parallel scenarios, qualification, then a balanced \"some gone, some kept\" summary ending"
+    }
+   },
+   "fable_testB": {
+    "R01": {
+     "verdict": "AI",
+     "confidence": 74,
+     "sentences": "4,5,6",
+     "reason": "problem, alternative, reason, coffee joke, balanced outcomes, tidy extension to self; each sentence one clean job"
+    },
+    "R02": {
+     "verdict": "AI",
+     "confidence": 63,
+     "sentences": "3,5,7",
+     "reason": "scene, irony, \"So steal\", what helped, first step, then hedge-then-sign and tidy consequence"
+    },
+    "R03": {
+     "verdict": "HUMAN",
+     "confidence": 58,
+     "sentences": "2,4,5",
+     "reason": "plain fragments, true song references, \"for tonight\"; no summing-up, nothing built toward a landing"
+    },
+    "R04": {
+     "verdict": "AI",
+     "confidence": 64,
+     "sentences": "3,5,6",
+     "reason": "invented skip-it-in-the-car song scene, wet-face payoff, \"just turn it off\"; relaxed AI voice, setup-instruction-payoff"
+    },
+    "R05": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "2,4",
+     "reason": "problem, alternative, reason, coffee-joke caveat in order; short, but each sentence does exactly one job"
+    },
+    "R06": {
+     "verdict": "AI",
+     "confidence": 68,
+     "sentences": "7,8,12",
+     "reason": "Elmo joke set up for the lab-study rebuttal; three tidy paragraphs, each landing a built-toward line"
+    },
+    "R07": {
+     "verdict": "AI",
+     "confidence": 56,
+     "sentences": "1,2",
+     "reason": "\"which is why I call\", \"just messing around, kind of like how\": AI-relaxed smoothing; claim then analogy"
+    },
+    "R08": {
+     "verdict": "AI",
+     "confidence": 78,
+     "sentences": "1,2,4",
+     "reason": "problem, rename fix, \"Either way\" claim, party example; obvious outline, \"land a little weird\" wording"
+    },
+    "R09": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "5,6,7",
+     "reason": "capital-letters aside, party line \"in one sentence\", cousin-gets-a-plate detail; composite, but every sentence polished"
+    },
+    "R10": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "3,5,8",
+     "reason": "apprentice march plus \"basically sold you a subscription\" joke landing; every sentence a clean job"
+    },
+    "R11": {
+     "verdict": "HUMAN",
+     "confidence": 72,
+     "sentences": "1,3",
+     "reason": "author's stiff voice: \"disguised request\", \"rightly vulnerable child\", \"separately develop\"; a realization, not an outline"
+    },
+    "R12": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "3",
+     "reason": "\"So an afternoon of coloring badly\" conclusion the paragraph was built toward; tidy contrast closes it"
+    },
+    "R13": {
+     "verdict": "HUMAN",
+     "confidence": 53,
+     "sentences": "3",
+     "reason": "stiff author-style generalization (\"is a part of how... should be measured\") after the smoothed opening; coin flip"
+    },
+    "R14": {
+     "verdict": "AI",
+     "confidence": 72,
+     "sentences": "5,8,9",
+     "reason": "march plus \"sting... until you realize it's a compliment\" reframe and tacked-on rename tip; nine clean jobs"
+    },
+    "R15": {
+     "verdict": "AI",
+     "confidence": 78,
+     "sentences": "2,3",
+     "reason": "\"literally anything else\", spice-rack punchline the paragraph was built toward; claim, consequence, joke landing"
+    },
+    "R16": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "2",
+     "reason": "problem then instruction with the rock-they-found detail; \"for a minute\" relaxed phrasing, tidy pair"
+    },
+    "R17": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "1,2,3,4",
+     "reason": "definitional march: claim, definition, enumeration, clarification; each sentence exactly one job, thought fully summed"
+    },
+    "R18": {
+     "verdict": "AI",
+     "confidence": 66,
+     "sentences": "1,2",
+     "reason": "2 a.m. ex-texting scene, phone-in-other-room fix, morning payoff: setup, fix, lesson in two sentences"
+    },
+    "R19": {
+     "verdict": "AI",
+     "confidence": 66,
+     "sentences": "2,3,4",
+     "reason": "problem, \"So pay attention\", what helped, first step; \"just\"/\"actually\" relaxed wording, tidy close"
+    },
+    "R20": {
+     "verdict": "AI",
+     "confidence": 56,
+     "sentences": "3,5",
+     "reason": "scene, irony, \"So steal\", what helped, first step; each sentence hands off cleanly, though it ends open"
+    },
+    "R21": {
+     "verdict": "AI",
+     "confidence": 66,
+     "sentences": "3,4,5",
+     "reason": "\"Which, fair enough\", \"two six-year-olds arguing\", eye-roll landing; a joke per sentence, reassurance summary close"
+    },
+    "R22": {
+     "verdict": "AI",
+     "confidence": 66,
+     "sentences": "1",
+     "reason": "invented \"Got a minute?\" boss scene bolted onto the definition sentence; setup then tidy explanation"
+    },
+    "R23": {
+     "verdict": "AI",
+     "confidence": 72,
+     "sentences": "3,5",
+     "reason": "aunt/uncle hug illustration, \"don't push it\" fallback, reassurance summary closing; clean march"
+    },
+    "R24": {
+     "verdict": "HUMAN",
+     "confidence": 58,
+     "sentences": "1,2,3",
+     "reason": "author's odd specifics: yin-yang foot massage, capitalized modality list, \"heart chakra love\"; EMDR paragraph is the only risk"
+    },
+    "R25": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "4,6",
+     "reason": "claim, comparison, prompt question, write-it-down joke, alternative, tradition-carries-it closing; Guide march"
+    },
+    "R26": {
+     "verdict": "HUMAN",
+     "confidence": 60,
+     "sentences": "1,2,4",
+     "reason": "first-person testimony, no joke landing, drops \"loving\" for self, ends rough: \"or just whatever I can sincerely wish\""
+    }
+   },
+   "opus_testA": {
+    "Q01": {
+     "verdict": "HUMAN",
+     "confidence": 75,
+     "sentences": "3,4",
+     "reason": "author's stiff wording; last sentence pushes back on the one before instead of summing up"
+    },
+    "Q02": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "2,3,4,6",
+     "reason": "invented dinner scenario with two tidy outcomes, then resource and neat advice; \"whole shelf\" flourish"
+    },
+    "Q03": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "2,3,4,8",
+     "reason": "instruction, stock \"it's funny how often\" joke, graded examples, reassurance, named-lesson close"
+    },
+    "Q04": {
+     "verdict": "AI",
+     "confidence": 52,
+     "sentences": "3",
+     "reason": "claim, example, resource marching to a quip landing; \"whole shelf,\" \"pretty much\" casual flourishes"
+    },
+    "Q05": {
+     "verdict": "HUMAN",
+     "confidence": 58,
+     "sentences": "1,4,5",
+     "reason": "AI summary opener, but the author's clumsy sentences dominate and end on a counterpoint"
+    },
+    "Q06": {
+     "verdict": "AI",
+     "confidence": 52,
+     "sentences": "2,3,4",
+     "reason": "might-or-just possibilities, reframe reassurance, conditional warning: same shape as flagged 4b paragraph"
+    },
+    "Q07": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "1,4",
+     "reason": "author's clumsy last line (\"bathroom vacationing\") roughens an otherwise AI-shaped draft; near coin flip"
+    },
+    "Q08": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "1,2,4",
+     "reason": "misconception, crafted aphorism, invented example, closing-verdict flourish; each sentence does one job"
+    },
+    "Q09": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "2,3",
+     "reason": "\"Actually\" reacts to the first sentence; ends on a concession without resolving what to do"
+    },
+    "Q10": {
+     "verdict": "AI",
+     "confidence": 62,
+     "sentences": "1,2,3,4",
+     "reason": "summary, define Nurturer, define Protector, combine, example: a textbook definitional march"
+    },
+    "Q11": {
+     "verdict": "AI",
+     "confidence": 52,
+     "sentences": "5,6,7",
+     "reason": "choppy asides help, but the \"What matters more is\" pivot and resource close keep the outline"
+    },
+    "Q12": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "1,3,4",
+     "reason": "thesis, analogy, aphorism, invented concrete example; clean handoffs, nothing unneeded"
+    },
+    "Q13": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "2,3,4,8",
+     "reason": "parallel graded examples, caveat, reassurance, named-lesson script; each sentence does one job"
+    },
+    "Q14": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "2,3",
+     "reason": "personal aside about not lumping it with the dog; short, ends on plain instruction, no summary"
+    },
+    "Q15": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "3,4,5",
+     "reason": "balanced \"doesn't... neither does\" caveat, pivot to key point, resource close; tidy outline"
+    },
+    "Q16": {
+     "verdict": "HUMAN",
+     "confidence": 52,
+     "sentences": "2,3,6",
+     "reason": "sentences qualify each other; comma splice and fragments are the author's; wrapped ending is the risk"
+    },
+    "Q17": {
+     "verdict": "HUMAN",
+     "confidence": 52,
+     "sentences": "5,6",
+     "reason": "practical instruction list like passing 8b; clumsy trailing \"if you have\"; no summary ending"
+    },
+    "Q18": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "4,5,6",
+     "reason": "real remembered script with true details; ends inside the example, not on a lesson"
+    },
+    "Q19": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "1,4,5",
+     "reason": "AI summary opener plus author's ideas smoothed into relaxed AI phrasing (\"Then again,\" \"lean on\")"
+    },
+    "Q20": {
+     "verdict": "AI",
+     "confidence": 62,
+     "sentences": "2,3,5",
+     "reason": "criteria triad, contrast question, resource, neat parallel advice close; clean march"
+    },
+    "Q21": {
+     "verdict": "HUMAN",
+     "confidence": 52,
+     "sentences": "1,3",
+     "reason": "short summary plus concrete example like passing 7a; ends on the image, though opener is AI-ish"
+    },
+    "Q22": {
+     "verdict": "AI",
+     "confidence": 68,
+     "sentences": "1,3,5",
+     "reason": "invented charger detail, balanced \"isn't... neither is,\" \"whole shelf\" flourish; clean march"
+    },
+    "Q23": {
+     "verdict": "HUMAN",
+     "confidence": 62,
+     "sentences": "1,4",
+     "reason": "real Chödrön reference; typo, \"and/or,\" emoji and ironic self-noticing read as the author's own"
+    },
+    "Q24": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "2,5",
+     "reason": "invented piano analogy with \"way worse,\" then instruction and hopeful reassurance close"
+    },
+    "Q25": {
+     "verdict": "HUMAN",
+     "confidence": 65,
+     "sentences": "3,4",
+     "reason": "true, odd dialogue; ends on uncertain reflection rather than a tidy lesson"
+    },
+    "Q26": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "2,6,9",
+     "reason": "odd true detail, half-finished \"but yeah\" thought, new consideration at the end instead of summary"
+    },
+    "Q27": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "3,4",
+     "reason": "balanced \"some gone, some keep\" close mirrors flagged 4b; casual idioms; tidy outline"
+    }
+   },
+   "opus_testB": {
+    "R01": {
+     "verdict": "AI",
+     "confidence": 78,
+     "sentences": "4,5,6",
+     "reason": "coffee-joke caveat, then balanced \"might...or might\" outcome and tidy extension to self; clean hand-offs"
+    },
+    "R02": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "3,4,5,6",
+     "reason": "scene, problem, \"So\" fix, lesson march; second paragraph adds sign and consequence in same cadence"
+    },
+    "R03": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "2,4,5",
+     "reason": "true, layout-bound song references and odd \"half the idea\"; ends on a practical caveat, not summary"
+    },
+    "R04": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "3,4,5",
+     "reason": "invented relatable details (car skip, wet face) march through assumption, instruction, timing, safety note"
+    },
+    "R05": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "3,4",
+     "reason": "problem, alternative, reason, then a coffee-joke caveat landing the paragraph"
+    },
+    "R06": {
+     "verdict": "AI",
+     "confidence": 63,
+     "sentences": "2,7,8,12",
+     "reason": "reassurance, Elmo joke pivoting to evidence, confession landing; each paragraph marches over twelve sentences"
+    },
+    "R07": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "1,2",
+     "reason": "author's coinage plus one analogy; too short to march, and it stops without summing up"
+    },
+    "R08": {
+     "verdict": "AI",
+     "confidence": 78,
+     "sentences": "3,4",
+     "reason": "problem, rename, \"often doing two at once,\" then party example: textbook march with casual filler"
+    },
+    "R09": {
+     "verdict": "AI",
+     "confidence": 78,
+     "sentences": "3,5,7",
+     "reason": "stacked stock jokes and invented cousin-plate detail; every sentence does one clean job"
+    },
+    "R10": {
+     "verdict": "AI",
+     "confidence": 75,
+     "sentences": "3,5,8",
+     "reason": "scene-problem-fix-lesson march; second paragraph capped by a built-up subscription joke landing"
+    },
+    "R11": {
+     "verdict": "HUMAN",
+     "confidence": 75,
+     "sentences": "1,3",
+     "reason": "stiff, earnest author wording (\"rightly vulnerable,\" \"separately develop\"); not casual AI phrasing"
+    },
+    "R12": {
+     "verdict": "AI",
+     "confidence": 68,
+     "sentences": "3",
+     "reason": "a \"So...\" takeaway with a cute coloring joke wraps up the analogy"
+    },
+    "R13": {
+     "verdict": "HUMAN",
+     "confidence": 62,
+     "sentences": "3",
+     "reason": "ends on a stiff, slightly ungrammatical author-style claim rather than a casual AI wrap-up"
+    },
+    "R14": {
+     "verdict": "AI",
+     "confidence": 75,
+     "sentences": "3,5,8",
+     "reason": "scene march, then \"sting until you realize it's a compliment\" reassurance and a tacked-on rename"
+    },
+    "R15": {
+     "verdict": "AI",
+     "confidence": 78,
+     "sentences": "2,3",
+     "reason": "coinage, consequence, then a spice-rack joke landing the paragraph was built toward"
+    },
+    "R16": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "1,2",
+     "reason": "clean problem-then-fix, ending on a cute invented image (a rock they found)"
+    },
+    "R17": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "2,3,4",
+     "reason": "problem, definition, list, clarification: the obvious expository outline in smooth casual wording"
+    },
+    "R18": {
+     "verdict": "AI",
+     "confidence": 62,
+     "sentences": "1,2",
+     "reason": "stock scene with wordplay, then fix and lesson payoff: setup-problem-fix-lesson in two sentences"
+    },
+    "R19": {
+     "verdict": "AI",
+     "confidence": 72,
+     "sentences": "2,4",
+     "reason": "problem, \"So\" instruction, identification, tidy five-percent conclusion; pure march"
+    },
+    "R20": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "3,4,5",
+     "reason": "scene, problem, \"So\" fix, lesson; the outline still marches despite the irony in sentence two"
+    },
+    "R21": {
+     "verdict": "AI",
+     "confidence": 55,
+     "sentences": "3,4,5",
+     "reason": "scene march with stock jokes (fair enough, six-year-olds, eye roll) landing the ending"
+    },
+    "R22": {
+     "verdict": "AI",
+     "confidence": 62,
+     "sentences": "1,2",
+     "reason": "stock \"Got a minute?\" scene set up to hand off to a smooth definition"
+    },
+    "R23": {
+     "verdict": "AI",
+     "confidence": 62,
+     "sentences": "3,5",
+     "reason": "cautions and analogy march to a reassuring summary ending (\"counts for a lot\")"
+    },
+    "R24": {
+     "verdict": "HUMAN",
+     "confidence": 65,
+     "sentences": "1,2,3",
+     "reason": "idiosyncratic author details and capitals (foot yin-yang, Water Therapy); last paragraph plainly practical"
+    },
+    "R25": {
+     "verdict": "AI",
+     "confidence": 62,
+     "sentences": "4,6",
+     "reason": "options list with a wry aside, ending on tidy \"until you can hold the direction yourself\""
+    },
+    "R26": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "4",
+     "reason": "no joke landing; ends on a rough, unsummarized thought that quietly drops \"loving\""
+    }
+   },
+   "sonnet_testA": {
+    "Q01": {
+     "verdict": "HUMAN",
+     "confidence": 68,
+     "sentences": "2,4",
+     "reason": "anecdote and cult-warning share one breath; ends on an unresolved complicating thought, not a summary"
+    },
+    "Q02": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "5,6",
+     "reason": "tidy two-branch example names an authority and closes with a neat advice wrap-up"
+    },
+    "Q03": {
+     "verdict": "HUMAN",
+     "confidence": 72,
+     "sentences": "2",
+     "reason": "wry incidental \"it's funny\" aside the outline didn't need, not tidied into a lesson"
+    },
+    "Q04": {
+     "verdict": "HUMAN",
+     "confidence": 62,
+     "sentences": "2,3",
+     "reason": "dense qualified claim (\"not only your hook\") and a dry, throwaway aside instead of a moral"
+    },
+    "Q05": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "1",
+     "reason": "generic reusable topic sentence grafted onto separate content, like combining passing pieces that tips it"
+    },
+    "Q06": {
+     "verdict": "HUMAN",
+     "confidence": 66,
+     "sentences": "2,4",
+     "reason": "blunt quoted \"Bullshit,\" unexplained callback to an earlier \"food bank\" analogy, ends flat"
+    },
+    "Q07": {
+     "verdict": "AI",
+     "confidence": 78,
+     "sentences": "1,4",
+     "reason": "exhaustively completes all three named roles in order, closes on a neat summarizing joke"
+    },
+    "Q08": {
+     "verdict": "HUMAN",
+     "confidence": 65,
+     "sentences": "1,4",
+     "reason": "meta aside about the word \"Guide\" itself, opinion tacked on after the example as a coda"
+    },
+    "Q09": {
+     "verdict": "HUMAN",
+     "confidence": 75,
+     "sentences": "2,3",
+     "reason": "self-correcting \"Actually,\" mid-thought, ends on an odd, slightly clumsy repetition"
+    },
+    "Q10": {
+     "verdict": "HUMAN",
+     "confidence": 62,
+     "sentences": "3,5",
+     "reason": "causal link between roles, then an extra unintegrated example tacked on after a mini-summary"
+    },
+    "Q11": {
+     "verdict": "HUMAN",
+     "confidence": 78,
+     "sentences": "2,5",
+     "reason": "one-word fragment \"Irritating,\" and a compressed unexplained metaphor (\"first fight has company\")"
+    },
+    "Q12": {
+     "verdict": "AI",
+     "confidence": 68,
+     "sentences": "1",
+     "reason": "states the thesis first then unpacks it in order, textbook claim-then-illustration march"
+    },
+    "Q13": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "2,3",
+     "reason": "flattened generic examples with no incidental commentary, purely functional beats"
+    },
+    "Q14": {
+     "verdict": "HUMAN",
+     "confidence": 68,
+     "sentences": "1,2",
+     "reason": "two unexplained callbacks to earlier material, \"the dog\" and \"thought experiment about a friend\""
+    },
+    "Q15": {
+     "verdict": "AI",
+     "confidence": 72,
+     "sentences": "3",
+     "reason": "smooths an odd compressed metaphor into tidy, explicit parallel logic"
+    },
+    "Q16": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "3,6",
+     "reason": "checklist marches toward a neatly balanced closing generalization"
+    },
+    "Q17": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "6",
+     "reason": "awkward trailing hedge \"if you have\" reads like an unpolished afterthought"
+    },
+    "Q18": {
+     "verdict": "AI",
+     "confidence": 74,
+     "sentences": "3,4",
+     "reason": "states a general principle then delivers a perfectly-executed three-beat demonstration quote"
+    },
+    "Q19": {
+     "verdict": "AI",
+     "confidence": 68,
+     "sentences": "1,4,5",
+     "reason": "generic opener plus heavy casual synonym-substitution paraphrase of the ending"
+    },
+    "Q20": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "2,3,5",
+     "reason": "rhetorical-question dichotomy closing on tidy advice; \"make room for\" is stock therapy phrasing"
+    },
+    "Q21": {
+     "verdict": "HUMAN",
+     "confidence": 66,
+     "sentences": "1,3",
+     "reason": "leaves the \"three jobs\" promise incomplete, ends mid-scene without wrapping up"
+    },
+    "Q22": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "1,3,4",
+     "reason": "vivid invented scene (charger) does the AI's \"sound human\" work, then smooths into tidy logic"
+    },
+    "Q23": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "4,5",
+     "reason": "self-undermining digression away from its own analysis, trails off instead of concluding"
+    },
+    "Q24": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "2,4",
+     "reason": "reaches for an outside analogy (piano) then splits into two clean one-job beats"
+    },
+    "Q25": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "3,4",
+     "reason": "the other guy pushes back and the story ends in real unresolved self-doubt"
+    },
+    "Q26": {
+     "verdict": "AI",
+     "confidence": 75,
+     "sentences": "2,6,9",
+     "reason": "elaborate invented scene, a hedge-then-shrug aside, and literally instructs the reader to laugh"
+    },
+    "Q27": {
+     "verdict": "HUMAN",
+     "confidence": 62,
+     "sentences": "2,4",
+     "reason": "naturally extends to prayer and holds two possibilities together in one breath"
+    }
+   },
+   "sonnet_testB": {
+    "R01": {
+     "verdict": "AI",
+     "confidence": 62,
+     "sentences": "5,6",
+     "reason": "balanced \"or\" effect clause plus a tidy generalizing closer (\"works there, too\")"
+    },
+    "R02": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "6,7",
+     "reason": "plain, unadorned insight ending with no punchline or summary tacked on"
+    },
+    "R03": {
+     "verdict": "HUMAN",
+     "confidence": 65,
+     "sentences": "2,4",
+     "reason": "\"half the idea\" is a quirky personal phrase; names his own real songs from J2"
+    },
+    "R04": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "3,4,5",
+     "reason": "generic \"crying song...car\" scene plus a tidy conditional instruction sequence"
+    },
+    "R05": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "4",
+     "reason": "ends on a specific, un-foreshadowed caveat-joke instead of a built-toward summary"
+    },
+    "R06": {
+     "verdict": "HUMAN",
+     "confidence": 72,
+     "sentences": "7,8,12",
+     "reason": "joke, then a \"though\" rebuttal, then a raw unresolved confession, not a tidy close"
+    },
+    "R07": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "2",
+     "reason": "the back-seat analogy feels like an observed truth, not a generic setup"
+    },
+    "R08": {
+     "verdict": "AI",
+     "confidence": 76,
+     "sentences": "4",
+     "reason": "sentence 4 is verbatim the sentence from 2a, a paragraph Pangram scored 100% AI"
+    },
+    "R09": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "4,5,7",
+     "reason": "self-critical aside about the capital letters, plus a new-consideration ending, not a summary"
+    },
+    "R10": {
+     "verdict": "AI",
+     "confidence": 68,
+     "sentences": "8",
+     "reason": "\"sold you a subscription\" is a punchline the whole paragraph was built toward"
+    },
+    "R11": {
+     "verdict": "AI",
+     "confidence": 72,
+     "sentences": "3",
+     "reason": "clean problem-reassurance-solution march ending in a formal parallel three-item list"
+    },
+    "R12": {
+     "verdict": "AI",
+     "confidence": 62,
+     "sentences": "3",
+     "reason": "\"might do more than\" is a tidy balanced-comparison moral capping the paragraph"
+    },
+    "R13": {
+     "verdict": "AI",
+     "confidence": 72,
+     "sentences": "3",
+     "reason": "\"not only...but\" thesis-style clincher with an abstract measurement claim"
+    },
+    "R14": {
+     "verdict": "HUMAN",
+     "confidence": 60,
+     "sentences": "9",
+     "reason": "final paragraph is a fresh afterthought (the \"parent\" word) instead of a summary"
+    },
+    "R15": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "3",
+     "reason": "\"alphabetizing the spice rack\" is a specific, funny image, not a generalization"
+    },
+    "R16": {
+     "verdict": "HUMAN",
+     "confidence": 62,
+     "sentences": "2",
+     "reason": "\"a rock they found\" is oddly specific and tender, echoes \"I'm glad you're here\" motif"
+    },
+    "R17": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "2,3,4",
+     "reason": "reads as a formal definitional intro: claim, define term, list three parts"
+    },
+    "R18": {
+     "verdict": "HUMAN",
+     "confidence": 58,
+     "sentences": "2",
+     "reason": "reuses the \"I'm glad you're here\" phrase organically as an established motif"
+    },
+    "R19": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "1,4",
+     "reason": "abstract observation-instruction-insight-formula march with no scene or wry aside"
+    },
+    "R20": {
+     "verdict": "HUMAN",
+     "confidence": 55,
+     "sentences": "2,5",
+     "reason": "wry \"while we don't\" aside plus a plain instruction, no punchline close"
+    },
+    "R21": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "3,5",
+     "reason": "concedes the imagined criticism (\"fair enough\") and ends still unresolved, not reassured"
+    },
+    "R22": {
+     "verdict": "HUMAN",
+     "confidence": 52,
+     "sentences": "1",
+     "reason": "the specific \"got a minute\" trigger feels observed rather than generic-relatable"
+    },
+    "R23": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "5",
+     "reason": "ends on a clean reassurance tying back to \"borrowing,\" nothing undercuts it after"
+    },
+    "R24": {
+     "verdict": "HUMAN",
+     "confidence": 68,
+     "sentences": "2,6",
+     "reason": "the yin-yang foot-massage detail is too idiosyncratic to be invented filler"
+    },
+    "R25": {
+     "verdict": "AI",
+     "confidence": 58,
+     "sentences": "6",
+     "reason": "tidy claim-comparison-question-instruction march ending in a graceful \"until you're ready\" cap"
+    },
+    "R26": {
+     "verdict": "HUMAN",
+     "confidence": 65,
+     "sentences": "4",
+     "reason": "first person; trails off loosely (\"whatever I can sincerely wish\") rather than generalizing"
+    }
+   }
+  }
+ },
+ "human_test": {
+  "keys": {
+   "h1": {
+    "H01": {
+     "name": "blog2016_perfect_p1",
+     "label": "HUMAN"
+    },
+    "H02": {
+     "name": "romance_assistant",
+     "label": "AI"
+    },
+    "H03": {
+     "name": "blog2016_perfect_proof1",
+     "label": "HUMAN"
+    },
+    "H04": {
+     "name": "blog2013_intro_father",
+     "label": "HUMAN"
+    },
+    "H05": {
+     "name": "blog2015_noway_cheese",
+     "label": "HUMAN"
+    },
+    "H06": {
+     "name": "blog2015_rightview_buddha",
+     "label": "HUMAN"
+    },
+    "H07": {
+     "name": "blog2015_noway_think",
+     "label": "HUMAN"
+    },
+    "H08": {
+     "name": "blog2015_truelove_dream",
+     "label": "HUMAN"
+    },
+    "H09": {
+     "name": "blog2015_truelove_p5",
+     "label": "HUMAN"
+    },
+    "H10": {
+     "name": "somatic_model_A",
+     "label": "AI"
+    },
+    "H11": {
+     "name": "somatic_model_C",
+     "label": "AI"
+    },
+    "H12": {
+     "name": "owner_romance_high",
+     "label": "HUMAN"
+    },
+    "H13": {
+     "name": "borrow_r2_p1",
+     "label": "AI"
+    },
+    "H14": {
+     "name": "blog2015_truelove_p2",
+     "label": "HUMAN"
+    },
+    "H15": {
+     "name": "blog2015_noway_algebra",
+     "label": "HUMAN"
+    },
+    "H16": {
+     "name": "blog2015_rightview_p1",
+     "label": "HUMAN"
+    },
+    "H17": {
+     "name": "owner_somatic_ex2",
+     "label": "HUMAN"
+    },
+    "H18": {
+     "name": "owner_trust_raw",
+     "label": "HUMAN"
+    },
+    "H19": {
+     "name": "borrow_r1_p8",
+     "label": "AI"
+    },
+    "H20": {
+     "name": "owner_somatic_ex1",
+     "label": "HUMAN"
+    },
+    "H21": {
+     "name": "borrow_r4_p2",
+     "label": "AI"
+    },
+    "H22": {
+     "name": "blog2016_perfect_observer",
+     "label": "HUMAN"
+    },
+    "H23": {
+     "name": "owner_heartloop",
+     "label": "HUMAN"
+    },
+    "H24": {
+     "name": "blog2015_noway_p2p3",
+     "label": "HUMAN"
+    },
+    "H25": {
+     "name": "owner_catchhook_p3",
+     "label": "HUMAN"
+    },
+    "H26": {
+     "name": "borrow_r6_p3",
+     "label": "AI"
+    },
+    "H27": {
+     "name": "somatic_model_B",
+     "label": "AI"
+    },
+    "H28": {
+     "name": "blog2013_intro_belated",
+     "label": "HUMAN"
+    },
+    "H29": {
+     "name": "blog2016_perfect_choices",
+     "label": "HUMAN"
+    }
+   },
+   "h2": {
+    "H01": {
+     "name": "owner_heartloop",
+     "label": "HUMAN"
+    },
+    "H02": {
+     "name": "blog2013_intro_belated",
+     "label": "HUMAN"
+    },
+    "H03": {
+     "name": "owner_somatic_ex2",
+     "label": "HUMAN"
+    },
+    "H04": {
+     "name": "somatic_model_A",
+     "label": "AI"
+    },
+    "H05": {
+     "name": "romance_assistant",
+     "label": "AI"
+    },
+    "H06": {
+     "name": "blog2015_noway_algebra",
+     "label": "HUMAN"
+    },
+    "H07": {
+     "name": "borrow_r1_p8",
+     "label": "AI"
+    },
+    "H08": {
+     "name": "borrow_r2_p1",
+     "label": "AI"
+    },
+    "H09": {
+     "name": "borrow_r4_p2",
+     "label": "AI"
+    },
+    "H10": {
+     "name": "blog2016_perfect_observer",
+     "label": "HUMAN"
+    },
+    "H11": {
+     "name": "blog2015_noway_think",
+     "label": "HUMAN"
+    },
+    "H12": {
+     "name": "owner_somatic_ex1",
+     "label": "HUMAN"
+    },
+    "H13": {
+     "name": "owner_romance_high",
+     "label": "HUMAN"
+    },
+    "H14": {
+     "name": "blog2015_noway_p2p3",
+     "label": "HUMAN"
+    },
+    "H15": {
+     "name": "somatic_model_C",
+     "label": "AI"
+    },
+    "H16": {
+     "name": "blog2015_truelove_p5",
+     "label": "HUMAN"
+    },
+    "H17": {
+     "name": "blog2015_rightview_buddha",
+     "label": "HUMAN"
+    },
+    "H18": {
+     "name": "borrow_r6_p3",
+     "label": "AI"
+    },
+    "H19": {
+     "name": "blog2015_truelove_dream",
+     "label": "HUMAN"
+    },
+    "H20": {
+     "name": "blog2015_noway_cheese",
+     "label": "HUMAN"
+    },
+    "H21": {
+     "name": "owner_catchhook_p3",
+     "label": "HUMAN"
+    },
+    "H22": {
+     "name": "blog2016_perfect_p1",
+     "label": "HUMAN"
+    },
+    "H23": {
+     "name": "somatic_model_B",
+     "label": "AI"
+    },
+    "H24": {
+     "name": "blog2016_perfect_choices",
+     "label": "HUMAN"
+    },
+    "H25": {
+     "name": "blog2013_intro_father",
+     "label": "HUMAN"
+    },
+    "H26": {
+     "name": "owner_trust_raw",
+     "label": "HUMAN"
+    },
+    "H27": {
+     "name": "blog2015_truelove_p2",
+     "label": "HUMAN"
+    },
+    "H28": {
+     "name": "blog2015_rightview_p1",
+     "label": "HUMAN"
+    },
+    "H29": {
+     "name": "blog2016_perfect_proof1",
+     "label": "HUMAN"
+    }
+   }
+  },
+  "runs": {
+   "opus_h1": {
+    "H01": {
+     "verdict": "HUMAN",
+     "confidence": 75,
+     "sentences": "2,3",
+     "reason": "plain, uncontracted old-blog voice (\"a few birthdays\", \"If you are religious\"); argument keeps going, no tidy wrap"
+    },
+    "H02": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "3,4,5",
+     "reason": "tidy history summary, colon-reveal term, then a clean pivot sentence handing off to the story"
+    },
+    "H03": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "7,12",
+     "reason": "rambling self-argument with \"aka\" and run-ons; ends on a fresh objection, not a summary"
+    },
+    "H04": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "4,5,6",
+     "reason": "stiff plain memoir; true details, awkward \"he seemed to be unsure of\"; no lesson drawn"
+    },
+    "H05": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "3,4,5",
+     "reason": "absurd blue-cheese leap, eating his arm, bare \"Right?\" ending; odd, unoptimized thinking"
+    },
+    "H06": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "2,3",
+     "reason": "\"wanderling\", capitalized \"The Buddha\", long quoted epithet; unpolished anecdote, no casual AI polish"
+    },
+    "H07": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "4,5",
+     "reason": "dangling \"as children logic doesn't make much sense\"; loose observations, not an outline"
+    },
+    "H08": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "2",
+     "reason": "one rambling self-contradicting sentence (\"No, not really, although in a sense yes\") with galantamine aside"
+    },
+    "H09": {
+     "verdict": "HUMAN",
+     "confidence": 75,
+     "sentences": "4,5,6",
+     "reason": "uncontracted doctrinal old-blog voice; \"trickster's version of happiness\" is his own idiom"
+    },
+    "H10": {
+     "verdict": "AI",
+     "confidence": 75,
+     "sentences": "3,4,6,7",
+     "reason": "claim, resource, gloss, resource, link, explanation; one job each, tidy \"for the same reason\" handoff"
+    },
+    "H11": {
+     "verdict": "AI",
+     "confidence": 80,
+     "sentences": "1,3,7",
+     "reason": "very casual hook, rhetorical \"Why?\", paragraph built toward a \"two children and no parent\" joke landing"
+    },
+    "H12": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "4,5,6,7",
+     "reason": "\"sexclusivity\", carrots and peas, \"ironically bureaucratic\", clumsy \"keep track of how to keep\": his own wording"
+    },
+    "H13": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "1,3,4",
+     "reason": "scene, reassurance, reason, then \"So\" instruction with a neat caveat: the textbook march"
+    },
+    "H14": {
+     "verdict": "HUMAN",
+     "confidence": 85,
+     "sentences": "1,2,4",
+     "reason": "chatty reply (\"Ok so\", \"ya know?\"), trailing ellipsis, self-mocking coinage; raw notes voice"
+    },
+    "H15": {
+     "verdict": "HUMAN",
+     "confidence": 85,
+     "sentences": "2,3,4",
+     "reason": "true kindergarten-algebra detail and a tangled, self-arguing qualification nobody needed"
+    },
+    "H16": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "3,4",
+     "reason": "idiosyncratic doctrinal phrasing (\"any viewer truly viewing\"); stiff aphorisms, not AI-casual"
+    },
+    "H17": {
+     "verdict": "AI",
+     "confidence": 60,
+     "sentences": "1,2,4",
+     "reason": "generic textbook claims, then \"comes to the rescue\" resolution the paragraph was built toward"
+    },
+    "H18": {
+     "verdict": "HUMAN",
+     "confidence": 90,
+     "sentences": "1",
+     "reason": "raw lowercase spoken transcript: typos, run-ons, unclosed quote, \"big fuckity whoopty doo\""
+    },
+    "H19": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "1,3,5",
+     "reason": "hedge, study, caveat, study, study: research-list march with tidy \"though\" hedges"
+    },
+    "H20": {
+     "verdict": "HUMAN",
+     "confidence": 60,
+     "sentences": "3,4,5",
+     "reason": "author's clumsy inserts (\"diving off the deep end heroically\", comma before \"pendulation\") break the polish"
+    },
+    "H21": {
+     "verdict": "AI",
+     "confidence": 80,
+     "sentences": "2,4,5",
+     "reason": "claim, joke, point, \"though\" turn, \"So\" instruction, fallback: each sentence one tidy job"
+    },
+    "H22": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "1,2",
+     "reason": "stiff old-blog phrasing (\"some type of powerless observer\"), plain doctrinal voice"
+    },
+    "H23": {
+     "verdict": "HUMAN",
+     "confidence": 70,
+     "sentences": "5,6",
+     "reason": "odd slap logic, dropped articles (\"from inner child\"), gushing loop ending: his own wording"
+    },
+    "H24": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "2,4",
+     "reason": "personal aside, \"(all?)\" self-query, stiff argument without neat wrap-up"
+    },
+    "H25": {
+     "verdict": "HUMAN",
+     "confidence": 65,
+     "sentences": "1,2,3",
+     "reason": "\"wizdumb\", odd \"elevated the boundary crossing\", unidiomatic \"defer ... for when\": his own wording"
+    },
+    "H26": {
+     "verdict": "AI",
+     "confidence": 85,
+     "sentences": "1,5,6",
+     "reason": "parallel claim-question-examples blocks; compresses the flagged Protector and Guide drafts"
+    },
+    "H27": {
+     "verdict": "AI",
+     "confidence": 80,
+     "sentences": "2,3,7",
+     "reason": "\"So\" conclusion, aphorism, summing-up last line; casual words over a clean outline"
+    },
+    "H28": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "4,5",
+     "reason": "self-undercutting turn and clumsy \"though it is all what I've experienced\""
+    },
+    "H29": {
+     "verdict": "HUMAN",
+     "confidence": 80,
+     "sentences": "2,3",
+     "reason": "\"tho\", \"&\", \"aka\", unpolished doctrinal reasoning in old-blog voice"
+    }
+   },
+   "opus_h2": {
+    "H01": {
+     "verdict": "HUMAN",
+     "confidence": 78,
+     "sentences": "5,6",
+     "reason": "odd slap-hurts reasoning, dropped articles, exclamation; the author's own chakra wording, not relaxed-AI phrasing"
+    },
+    "H02": {
+     "verdict": "HUMAN",
+     "confidence": 88,
+     "sentences": "4,5",
+     "reason": "sentence four argues with the claim before it; hedged aside left rough, nothing summed up"
+    },
+    "H03": {
+     "verdict": "AI",
+     "confidence": 57,
+     "sentences": "3,4",
+     "reason": "clean four-step march, one job each, ending on a \"comes to the rescue\" handoff"
+    },
+    "H04": {
+     "verdict": "AI",
+     "confidence": 80,
+     "sentences": "3,4,7",
+     "reason": "claim, claim, quote, gloss, parallel, transition, then a landing line completing the thought"
+    },
+    "H05": {
+     "verdict": "AI",
+     "confidence": 65,
+     "sentences": "4,5",
+     "reason": "compressed history march, \"there's a term\" reveal, tidy pivot sentence into the story; relaxed-AI wording"
+    },
+    "H06": {
+     "verdict": "HUMAN",
+     "confidence": 90,
+     "sentences": "2,3",
+     "reason": "kindergarten-algebra aside wanders and self-corrects; clumsy, left rough, no tidy landing"
+    },
+    "H07": {
+     "verdict": "AI",
+     "confidence": 74,
+     "sentences": "1,3,5",
+     "reason": "hedged opener, study roll-call with caveat; last study neatly resolves the second; relaxed research wording"
+    },
+    "H08": {
+     "verdict": "AI",
+     "confidence": 70,
+     "sentences": "2,4",
+     "reason": "scene, reassurance, reason, then \"So\" instruction with tidy caveat: the obvious outline"
+    },
+    "H09": {
+     "verdict": "AI",
+     "confidence": 75,
+     "sentences": "2,5",
+     "reason": "point, joke, point, pivot, \"So\" instruction, fallback; relaxed-AI joke \"sort of its whole personality\""
+    },
+    "H10": {
+     "verdict": "HUMAN",
+     "confidence": 78,
+     "sentences": "1,2",
+     "reason": "stiff odd phrasing like \"exist as simply the awareness\"; old-blog register, no relaxed-AI tics"
+    },
+    "H11": {
+     "verdict": "HUMAN",
+     "confidence": 85,
+     "sentences": "4,5",
+     "reason": "loose associative jumps and dangling \"as children logic\" clumsiness; no outline, no summary"
+    },
+    "H12": {
+     "verdict": "HUMAN",
+     "confidence": 60,
+     "sentences": "3,4,5",
+     "reason": "mixed idiom, dropped articles, stray comma before \"pendulation\": the author's own clumsy wording"
+    },
+    "H13": {
+     "verdict": "HUMAN",
+     "confidence": 72,
+     "sentences": "1,6,7",
+     "reason": "comma-splice hook, noticed irony, argues with itself; clumsy own coinages, ends on a true quote"
+    },
+    "H14": {
+     "verdict": "HUMAN",
+     "confidence": 88,
+     "sentences": "2,4",
+     "reason": "personal aside reacts to the claim; \"(all?)\" left rough; no tidy conclusion"
+    },
+    "H15": {
+     "verdict": "AI",
+     "confidence": 85,
+     "sentences": "1,3,7",
+     "reason": "casual thesis, rhetorical \"Why?\", builds to the joke landing \"two children and no parent\""
+    },
+    "H16": {
+     "verdict": "HUMAN",
+     "confidence": 78,
+     "sentences": "1,2,3",
+     "reason": "questions argue with each other; old-blog doctrinal wording, not relaxed-AI phrasing"
+    },
+    "H17": {
+     "verdict": "HUMAN",
+     "confidence": 85,
+     "sentences": "1,2",
+     "reason": "idiosyncratic retelling (\"wanderling\", mid-sentence \"The Buddha\"); own quirky wording, no tidy summing up"
+    },
+    "H18": {
+     "verdict": "AI",
+     "confidence": 78,
+     "sentences": "2,3,4,6",
+     "reason": "instruction list marching like 3a/3b; second job slotted in with tidy wrap-up elaboration"
+    },
+    "H19": {
+     "verdict": "HUMAN",
+     "confidence": 90,
+     "sentences": "2",
+     "reason": "\"No, not really, although in a sense yes\" argues with itself; rambling galantamine aside"
+    },
+    "H20": {
+     "verdict": "HUMAN",
+     "confidence": 90,
+     "sentences": "3,4,5",
+     "reason": "absurd blue-cheese chain ending on a rough \"Right?\" instead of a summary"
+    },
+    "H21": {
+     "verdict": "HUMAN",
+     "confidence": 68,
+     "sentences": "1,2",
+     "reason": "coined \"wizdumb\", odd \"elevated the boundary crossing\"; own clumsy wording despite the short march"
+    },
+    "H22": {
+     "verdict": "HUMAN",
+     "confidence": 75,
+     "sentences": "2,4",
+     "reason": "old-blog proselytizing register in plain wording; no relaxed-AI tics, argument keeps pushing"
+    },
+    "H23": {
+     "verdict": "AI",
+     "confidence": 85,
+     "sentences": "2,3,7",
+     "reason": "Mount Everest joke, aphorism, then a summing-up final line; each sentence one clean job"
+    },
+    "H24": {
+     "verdict": "HUMAN",
+     "confidence": 85,
+     "sentences": "2,3",
+     "reason": "\"tho\", \"&\", \"(aka...)\" shorthand; dense doctrinal reasoning in the writer's own wording"
+    },
+    "H25": {
+     "verdict": "HUMAN",
+     "confidence": 85,
+     "sentences": "2,5,6",
+     "reason": "plain stiff family memoir; odd noticed facts about his father, no summing up"
+    },
+    "H26": {
+     "verdict": "HUMAN",
+     "confidence": 95,
+     "sentences": "1",
+     "reason": "unpunctuated voice-note rambling, typos, profanity; thought never tidied or completed"
+    },
+    "H27": {
+     "verdict": "HUMAN",
+     "confidence": 90,
+     "sentences": "2,4",
+     "reason": "\"ya know?\", self-correcting coinage, rough thought left hanging"
+    },
+    "H28": {
+     "verdict": "HUMAN",
+     "confidence": 78,
+     "sentences": "2,4",
+     "reason": "idiosyncratic doctrinal phrasing like \"viewer truly viewing\"; old-blog aphorisms, not relaxed-AI voice"
+    },
+    "H29": {
+     "verdict": "HUMAN",
+     "confidence": 85,
+     "sentences": "7,12",
+     "reason": "argues back and forth with itself; final sentence adds a new consideration, not a summary"
+    }
+   }
+  },
+  "provenance_note": "owner_somatic_ex1 and owner_somatic_ex2 are humanized drafts, not Joel's unassisted writing (Joel, 2026-09-28 02:08). The other 19 'human' items are Joel's own writing."
+ },
+ "old_judge_file": "JUDGE-BLIND-HUMAN-OR-AI-20260928.json"
+}

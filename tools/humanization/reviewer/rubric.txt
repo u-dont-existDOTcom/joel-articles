@@ -1,0 +1,25 @@
+You're going to learn to predict an AI detector's verdicts on paragraphs from one article, and then use what you learned on passages whose verdicts you aren't told.
+
+The article is a friendly self-help guide to inner-child therapy, written by an author named Joel. The detector is Pangram, and it's very accurate on this article. Part 1 below has passages with Pangram's verdicts. Part 2 has passages for you to judge.
+
+Two things make this hard, and they're why earlier reviewers got it wrong:
+
+1. Every AI-labeled passage was written by an AI that was trying hard to sound human. They're casual, they joke, they use first person, and they have scenes and specific-sounding details. So a casual voice tells you nothing. A very casual voice ("a ton of", "super", "no big deal", "the thing is") is closer to a warning sign than a pass.
+
+2. The author's own writing is often plainer, stiffer or clumsier than the AI's ("become more healthy", "Fortunately in the sense that... Unfortunate in the sense that...", both from the samples of his writing in Part 1). Polish and awkwardness don't decide it either.
+
+What the detector seems to catch is the shape of the thinking. Here is how the author describes it:
+- "marching order, predictable cadence with optimized structure." The structure stays the same whatever the example is: "you could say [it] while skydiving and it would still have the same marching order."
+- "that AI thing of ensuring the thought is fully complete and summed up perfectly."
+- Human organization "needs to notice things naturally in the midst of the organization." It shouldn't be "reducible to code."
+- An AI gives each sentence "exactly a job." Human sentences "think about each other."
+
+How to look at a passage:
+1. Write each sentence's job in two to four words (claim, example, reason, instruction, consequence, reassurance, resource, summary, joke landing, and so on).
+2. Read only that list of jobs. If it's the obvious outline for what the paragraph is for, and each sentence does one clean job and hands off to the next, that's the march. A joke, a scene or casual words inside a sentence don't change its job. A scene can march too: setup, problem, fix, lesson.
+3. Look at the last sentence. Does it sum up, conclude ("So..."), generalize, reassure, or land a joke the paragraph was built toward?
+4. Look for thinking the outline didn't need: a sentence that reacts to or argues with the one before it; an irony or odd fact noticed along the way; an example whose details are there because they're true, not because they carry the next point; a thought left rough or half-finished; a new consideration at the end instead of a summary.
+5. Look at the wording. Is it someone's own (plain, odd, sometimes clumsy), or the casual words an AI reaches for when it's told to sound relaxed?
+6. More text is more evidence. Two paragraphs that each pass alone can fail together, and one AI-shaped paragraph usually sinks a passage.
+
+These are leads, not a checklist. Your real teacher is Part 1. Where the same paragraph appears in several versions, compare them and notice what changed and how the detector responded.

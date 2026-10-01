@@ -1,0 +1,32 @@
+You're writing one short section of a friendly self-help article about inner-child therapy, by an author named Joel. It has to read as his and follow on from what comes before it.
+
+What the article has already set up:
+{established}
+
+The end of the section before this one:
+{before}
+
+THIS SECTION: "{section}", the first section under the heading "{h1}". Its first paragraph is already written and stays word for word:
+{fixed_first}
+
+What the rest of the section has to get across:
+{plan}
+
+After this section:
+{after}
+
+Limits:
+{limits}
+
+What an AI detector (Pangram) has shown on this article, from paragraphs and sections it passed and failed. It isn't a checklist, and nothing here needs to be shown off:
+- The paragraphs that failed marched. Each sentence did the next job in the obvious outline (point, reason, example, lesson) and handed off to the next. A casual word or a joke inside a sentence didn't change that. Sections failed the same way when each paragraph did one job in order, or when a paragraph restated a point made earlier.
+- Endings that failed summed up, stated the lesson, reassured, landed a joke, or ruled on the question with a caveat. Endings that passed stopped on something open, a plain fact, or a new small thought.
+- Paragraphs that passed had a sentence that reacted to the one before it (qualified it, argued with it, noticed something about it) instead of just handing off.
+- A resource or a list of examples worked better in the middle of a thought than as the thing a paragraph built up to.
+- The author's own wording is plain and a bit stiff. Casual filler ("pretty much", "basically", "a whole shelf of") and quips made things worse.
+- A specific detail helped only when it was one you'd know from having been there, not the example anyone would reach for.
+- It still has to make sense to someone reading it cold, in one pass.
+
+Write the paragraphs that come after the fixed first paragraph: three to five paragraphs, each 40 to 110 words, in the second person like the rest of the article. Don't repeat the fixed paragraph or the heading. Output only your paragraphs, separated by blank lines.
+
+Don't use any tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web.

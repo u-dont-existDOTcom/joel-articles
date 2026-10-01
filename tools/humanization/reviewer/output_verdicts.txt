@@ -1,0 +1,17 @@
+
+
+WHAT TO OUTPUT
+
+For each passage in Part 2, in order, write exactly one line:
+ID VERDICT CONFIDENCE | SENTENCES | REASON
+
+- VERDICT is AI or HUMAN: what Pangram would say about the passage as a whole. Say AI if you think Pangram would flag any part of it.
+- CONFIDENCE is a number from 50 to 100.
+- SENTENCES lists the numbers of the sentences that most decide your verdict, like 3,5.
+- REASON is at most 20 words.
+
+For example:
+Q01 AI 80 | 4,5 | each sentence does the next outline job; the last one sums up the example
+Q02 HUMAN 70 | 2 | the second sentence argues with the first, and it stops without summing up
+
+Judge each passage on its own. Don't use any tools at all: don't open, list or search files, don't run commands, and don't use the web. Everything you need is here. Output only the lines, nothing else.
