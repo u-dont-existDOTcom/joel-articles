@@ -232,3 +232,12 @@ He rewrote two argument paragraphs of the published section himself, after 34 of
   After: "People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby is born or someone thinks they own something. They just know they are tired and alone and want to change it."
 
 What he did: the list became one requirement per sentence, with "It requires" repeated; abstractions became happenings ("chronic freeloading" became "someone is leeching off the group", "children" became "a baby is born"); a spoken "No," answers the hope that removing the boss fixes people; and the polished lines went ("before resentment becomes the real government", "how quickly beautiful land becomes irrelevant"). Of the published line "Suddenly “maybe we should form a village” sounded less like a 1972 leftover and more like a backup plan" he said: "the 1972 line is witty altho it's kind of an obvious ai quip".
+
+## Joel's notes, 2026-10-01 15:59 UTC
+
+- **P11, his.** "for P11, this one is human and works better". He kept my last draft's first, second and last sentences and rewrote the third: "And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that." Mine was "Every age of you was stuck with whatever it had then, and that includes the adult you were last year, even if they seem like the one who should have known better." Every checked draft of mine was 100% AI; his is 100% Human on my check (83 words, try 1). What it teaches: say so when you're going over old ground, and give an objection its own plain sentence, in the words people use for it (E104).
+- **P10.** "P10 proposal is good." Installed as proposed.
+- **Emojis.** "your emojis are fine" (🫶🏿, ❤️, 😇). 😊 goes on his list, "altho the angel emoji was prob better there", so 😇 stays. "the breathing easier emoji was good though, otherwise, "breathing easier" sounds flat and it's too abrupt to jump to the next sentence for me, so put that back" (E102).
+- **Proposals.** "on the proposals please highlight the new part that's proposed so it's easier to read" (E103).
+- **His WhatsApp favorite.** "https://emojipedia.org/distorted-face that's the one i meant" (E105).
+- **Merging.** "hm ok i'm not sure when the merge should be i guess it should be when i say "continue" right?" So a "continue" is his OK to merge at the end of that turn.

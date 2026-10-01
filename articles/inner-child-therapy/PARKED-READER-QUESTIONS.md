@@ -6,6 +6,13 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P14 · If relaxing can't tell you whether their complaint is true, what does? (Checking the concrete complaint against what you actually did, a clause; P7 already says to listen for it.) · default (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P14 · Why would calming down make a true complaint feel settled? (The grounding's GREAT line; P14 now says calmer doesn't mean they're wrong.) · COULD (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P12 · Why does that age's aim matter now? (It points at a need the grown-up can still meet; the P12 proposal says so.) · COULD (parked)
+
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P11 (draft) · If saving everybody was never your job, whose was it? A reader who was made the family's caretaker may push back. · COULD (parked)
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P11 (draft) · Repair doesn't have to mean contacting someone who'd rather not hear from you (the guide's later "Rectify" step). · default (parked)
+
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P10 · Why would blaming a younger you feel like getting control back? (The P10 proposal answers it: "If it's somebody's fault, it didn't have to happen, and that feels like control.") · COULD (parked)
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P11 (draft) · Repair to whom, when the life that got damaged is your own? · default (parked)
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P11 (draft) · Is "you at five" your little one, or another one getting accused? · default (parked)

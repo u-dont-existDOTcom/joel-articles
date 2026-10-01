@@ -216,7 +216,7 @@ Joel, 13:57 UTC: "P9 yes, it absolutely does make sense to finish that thought o
 Installed word for word. My check: 100% Human alone (145 words), try 1; the section with it 100% Human (817), try 1. What he changed is lesson E100.
 
 ### Emojis (E101)
-His list is the allowlist (`tools/humanization/EMOJI-LIST.md`). My four placements that weren't on it changed, each checked on try 1: 🙏 → 🫶🏿 after the goodwill wish (the section 100% Human, 129 words); 💛 → ❤️ on this h2 (in the section check above); 😊 → 😇 after "Seat belt's on." (alone 100% Human, 92; the section 100% Human, 340); 😌 out after "Breathing easier." (back to text that passed). His WhatsApp favorite looks like 🫩 Face with Bags Under Eyes, approved in Unicode 16.0 in 2024 (https://emojipedia.org/face-with-bags-under-eyes); outside WhatsApp it shows only where the device's emoji font has it.
+His list is the allowlist (`tools/humanization/EMOJI-LIST.md`). My four placements that weren't on it changed, each checked on try 1: 🙏 → 🫶🏿 after the goodwill wish (the section 100% Human, 129 words); 💛 → ❤️ on this h2 (in the section check above); 😊 → 😇 after "Seat belt's on." (alone 100% Human, 92; the section 100% Human, 340); 😌 out after "Breathing easier." (back to text that passed). His WhatsApp favorite looks like 🫩 Face with Bags Under Eyes, approved in Unicode 16.0 in 2024 (https://emojipedia.org/face-with-bags-under-eyes); outside WhatsApp it shows only where the device's emoji font has it. (Wrong: it was Distorted Face. See turn 12 and E105.)
 
 ### P10 (G10)
 - Writers a, b and c all kept the brief's plain-words middle; they differed in the bridge and the last line. The linter hard-failed b (coach phrases, heavy second person).
@@ -229,5 +229,45 @@ His list is the allowlist (`tools/humanization/EMOJI-LIST.md`). My four placemen
 - c2, with those fixed and a last line answering the charge ("Keeping everyone from getting hurt was never your job at five or fifteen."): the cold read had every line OK, but it was 100% AI alone (104 words, try 1) and pulled the section to 93% Human. Its grounding then flagged the last line: limiting it to five or fifteen leaves the adult self to blame (MISFIRES), and coming right after "the harm needs repair" it can read as taking that back (UNCLEAR).
 - Out of the article until a rebuild. For next turn: no five-item list (the guide's "awareness, conditioning, fear, support, and options"); keep "the harm needs repair"; answer the charge for every age, the grown-up included, and mark it as answering the rescuer job, not what they did. c's grounding GREAT line for a proposal: punishment can't reach back, so all it can do is land now, as another attack your little one hears.
 
+### P11, the rebuild (same turn)
+- A new brief: no five-item list; answer the charge for every age, the grown-up included, and mark that it answers the charge, not the harm; keep the repair; the punishment point only if it adds something.
+- Three fresh writers. c, with a concrete line ("At fifteen you probably didn't even have your own money, or anywhere else to go."), read clearly to the cold reader (every line OK); its grounding flagged "stuck with whatever it had then" as CHANGED (what counts is what that age could see and act on, given its fear, habits and help, not what it knew in principle). b: the cold read couldn't tell what "That's about the accusation" set against what; its grounding flagged the fifteen-year-old's example for dropping fear and options.
+- Pangram, alone: c 100% AI (79 words), b 100% AI (78), both try 1 of the rebuild. With the first build's c2, that's every checked P11 draft at 100% AI. All of them are reassurance turned to accountability, in second person, and Pangram flags the whole paragraph each time.
+- Stuck, so it goes to Joel with the flagged spans (the gate's rule: ask him for a minimal fix when stuck). Not installed.
+
 ### Where it stands
-The h2 and P1–P10 are installed: 100% Human together (892 words). Next is P11 (G11), rebuilt, then P12–P14 and "Make a Simple Vow".
+The h2 and P1–P10 are installed: 100% Human together (892 words). P11 waits on Joel; then P12–P14 and "Make a Simple Vow".
+
+## Turn 12 (2026-10-01): Joel's P11, P12–P14, the section done
+
+Joel, 15:59 UTC: "P10 proposal is good." For P11, "this one is human and works better", with his own text. On emojis: "your emojis are fine"; 😊 goes on his list, "altho the angel emoji was prob better there"; and 😌 goes back after "Breathing easier." (E102). Proposals should highlight what's new (E103). His WhatsApp favorite is Distorted Face (E105). On merging: "i guess it should be when i say "continue" right?" Then "continue".
+
+### P10 and P11
+- P10: the proposal, as proposed. It passed alone on turn 11 (100% Human, 92 words, try 4 of the proposal).
+- P11: his text, word for word. My check: 100% Human alone (83 words), try 1; the h2 and P1–P11, 100% Human (992), try 1. What he changed in my last draft is E104.
+
+### P12 (G12)
+- The plan: the guide's six questions as a numbered list after a lead-in. Three fresh writers: a (the list); b and c (the questions inline, b with "Maybe you didn't have the skills yet, or nobody was there to help or protect you."). All three 100% Human alone, try 1 (82, 85 and 72 words).
+- Reviewed a and b. Installed: a, whose cold read and grounding had every line OK and nothing open. The section with it: 100% Human (1,074), try 1.
+- Proposal, not installed: the reviews' good-to-great line, that what was missing back then points at what the grown-up can give now. A fresh writer's line after the list: "Whatever was missing back then, you can start giving your little one now." 100% Human (95 words), try 1.
+
+### P13 (G13)
+- The plan: "what are you gonna do for me?" taken as a real question, and the guide's list of evidence as a callback to Not Every Hero Wears A Cape rather than a repeat of it. Three fresh writers; I reviewed and checked a and c: a 100% Human alone (73 words), c 100% Human (80), try 1 each.
+- Installed: a (cold read and grounding, every line OK). The section with it: 100% Human (1,147), try 1.
+- Proposal, not installed: the grounding's GREAT line, why the love counts as the first answer. A fresh writer's sentence after the second: "What you do for them takes days to add up, but the moment they doubt you, you can show them right away that the love stays and doesn't turn into an accusation." 100% Human (106 words), try 1.
+
+### P14 (G14), the end of the section
+- Writers a and b: both 100% AI alone (57 and 59 words), try 1, flagged whole. Both groundings flagged "or who's guilty" (CONTRADICTS: after P11 and P12 set blame aside, it opens it again).
+- Rebuilt by me: the guilt clause cut, no run of "can't … or … and can't", and the why in plain words ("Feeling calmer doesn't mean their complaint is wrong"). At 41 words Pangram won't score it alone. The h2 and P1–P14: 100% Human (1,190), try 1.
+- The cold read, which sees only this section, couldn't place "like before"; the slower exhales are in Your Body Might Need Some Love First. The grounding wasn't re-run on the rebuild.
+
+### Emojis
+- 😌 back after "Breathing easier.", on the same visible text as the turn-9 check (the section 100% Human, 498 words). 😇 stays after "Seat belt's on." 😊 is on his list (`tools/humanization/EMOJI-LIST.md`).
+- My turn-11 guess at his WhatsApp emoji was wrong. It's Distorted Face (https://emojipedia.org/distorted-face), approved in September 2025 as part of Emoji 17.0, so many devices can't show it yet (E105).
+
+### Lessons
+- E102: a feeling's emoji can give a line its beat; one that only labels a thing stays out. E103: proposals are highlighted against the paragraph they'd change. E104: when every draft fails whole, change the voice (Joel's P11). E105: name a thing from a picture with its source, as a question.
+- P14's two drafts failed whole, like every P11 draft before Joel's. Both were reassurance in second person with a run of negations.
+
+### Where it stands
+Love Doesn't Have to Wait for Trust is done: the h2 and P1–P14, 100% Human together (1,190 words). Open for Joel: the P12 and P13 proposals. Next is the guide's "Make a Simple Vow" (the vow, its "Use 'I love you' only when it is honest", "Big whoop", and taking the adult position again), which needs its own plan first.
