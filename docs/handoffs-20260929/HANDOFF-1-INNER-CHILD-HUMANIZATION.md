@@ -4,12 +4,12 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where it lives
 
-- **Repo:** `joel-articles`, branch `handoff/claude-dangerous-adult-20260924-1631`. Never touch `main`, never force-push, and merges need Joel's OK.
+- **Repo:** `joel-articles`, branch `handoff/claude-dangerous-adult-20260924-1631`. Never force-push, and merges into `main` need Joel's OK. He gave it for this branch on 2026-10-01, 02:40 UTC: "you can merge unless there's a reason not to then tell me".
 - **The article:** `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`.
   - Render it from the repo root with `python3 tools/humanization/render_article_so_far.py <out.html> --article articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md --ledger articles/inner-child-therapy/OWNER-EDITS.json`. The render also runs the owner-edits check against `OWNER-EDITS.json`.
   - Send the rendered HTML to Joel at the end of every turn.
 - **Rules and lessons:** in `articles/inner-child-therapy/tools/`:
-  - `HUMANIZATION-GATE.md`: the process, plus Joel's bans;
+  - `HUMANIZATION-GATE.md`: a pointer to the shared gate, `docs/HUMANIZATION-GATE.md` (the process, Joel's bans, and the lessons);
   - `PREDICTIONS.md`: every Pangram check, with the call made before it;
   - `targets/`: the reviewer targets, each with the article's and the guide's paths (`article`, `source`);
   - `in-context/`: the maps for the side-by-side page.
@@ -22,7 +22,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where the work stands
 
-*Updated 2026-10-01, turn 8 (00:12 UTC onward). Joel's fixes to Love Doesn't Wait P1 and P4 are in, and P3 is confirmed as his memory. Main is merged in (PR #116's shared gate), the tools have moved to `tools/humanization/`, the gate is `docs/HUMANIZATION-GATE.md` (the lane copy is a pointer), and PR #112's claim checks are adopted.*
+*Updated 2026-10-01, turn 9 (02:40 UTC onward). Joel's 02:40 fixes are in (P1 without the dark empath, his emojis in P3 and P6, the P4 proposal adopted), the whole article has had an emoji pass (`articles/inner-child-therapy/experiments/EMOJI-PASS-20261001.md`), and P7 and P8 are installed. Turn 8: main merged in, the tools in `tools/humanization/`, the gate in `docs/HUMANIZATION-GATE.md`, PR #112's claim checks adopted.*
 
 **Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`articles/inner-child-therapy/tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
@@ -36,11 +36,11 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 - Joel's Substack note as a bare URL. Keep it a bare URL on its own line: that's how Substack shows the preview.
 - The relationship paragraph: Joel's meditation wording with two logic fixes, a danger line, and his romance guide linked on "a relationship". The section is 100% Human (436 words).
 
-**Love Doesn't Have to Wait for Trust** (the guide's own h2, right after Not Every Hero): the h2 and P1–P6 are installed. The plan maps each guide paragraph to one article paragraph and cuts two repeats of Not Every Hero. It's in `articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md`, with each paragraph's rounds and results.
-- P3–P4 are the bedtime story and what it did, in Joel's first person. They're pending his answer on whether it's his memory (E71). If it isn't, P3–P5 switch to a general voice.
+**Love Doesn't Have to Wait for Trust** (the guide's own h2, right after Not Every Hero): the h2 and P1–P8 are installed, 100% Human together (570 words). The plan maps each guide paragraph to one article paragraph and cuts two repeats of Not Every Hero. It's in `articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md`, with each paragraph's rounds and results.
+- P3–P4 are the bedtime story and what it did, in Joel's first person: his own memory (confirmed 2026-10-01), and P4 is his own explanation of why fights don't usually go like that (adopted 02:40).
 - P6 is his "Big fuckity whoopty doo" exchange, word for word.
 
-**Next:** P7 (G7: you don't have to accept every conclusion; listen for the concrete complaint), then P8 (the Fred Rogers scene, checked against a script breakdown; leave out "pauses"), through P14, then "Make a Simple Vow".
+**Next:** P9 (G9: what happens between the inner positions; "vow-making voice" needs plain words, since the vow is the next section's), through P14, then "Make a Simple Vow". The plan for each is in the section record.
 - Run the grounding reviewer on every draft (`tools/humanization/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
 - It also lists the reader's open questions, sized by a push knob (`--push tight|default|wide`; the default is `default`: small changes only). Take ASK AUTHOR items to Joel, and put parked ones in `articles/inner-child-therapy/PARKED-READER-QUESTIONS.md`, not in the article.
 - Give the cold read `"earlier": "section"` in the target, so it sees what a reader has already read.
@@ -49,10 +49,8 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
   - the in-context page: `tools/humanization/render_in_context.py $A/tools/in-context/<map>.json OUT --article $A/HUMANIZED-ARTICLE-SO-FAR.md --source $A/master.html --source-label "Guide original" --since <the commit Joel last saw>`.
 
 **Open for Joel:**
-- Love Doesn't Wait P1: does "which isn't the same as perfect" carry what he meant by "trustworthy objectively", and is the dark empath gloss right?
-- Love Doesn't Wait P4: the basic fix is installed; the proposal with his own explanation waits for his pick (it needs his answer on what made him feel heard).
-- Emojis on the rest of the article's headings and practical steps (offered).
-- Merging the lane branch into main, which now carries PR #112 (his OK).
+- The emoji pass: he said he'd look at it. Three of the placements flipped Pangram and came out.
+- The P7 and P8 proposals (not installed), each a good-to-great line from the grounding review.
 - The moved relationship paragraph (he hasn't said yet).
 
 ## How to check on Pangram
@@ -63,12 +61,15 @@ Use Joel's dashboard in the built-in browser pane, tab `seed`, at https://www.pa
   - verifies its SHA-256;
   - clicks "Check for AI";
   - reads the result and the flagged spans (background `rgba(255, 86, 48, 0.1)`).
-- Keep each batch to 3 checks, because the call has a 50-second deadline. If the last read times out, read the page separately.
+- Keep each batch to 3 checks: the call takes at most 25 actions and has a 50-second deadline. If the last read times out, read the page separately.
+- Since 2026-10-01, push the texts first (in `articles/inner-child-therapy/tools/pangram-runs/`, with the predictions) and build the batch with `--url` and the raw.githubusercontent.com address of that commit: the page fetches the texts, so the batch stays small. A read that polls for "words scanned" returns as soon as the result is up (the turn-9 batches did).
 - Log a prediction in `PREDICTIONS.md` before every check.
 
 ## Getting changes onto GitHub from the cloud container
 
-The container can't push. Instead:
+Since 2026-10-01 a session can push directly once the repo is in its sources with push access (Joel, 02:40: "yes you can push from here"; the add-repo tool, with push access). A new session needs that again, with Joel's OK. Push from `/root/work/joel-articles`, the lane branch only, never force. If a session can't push, the laptop relay below is the fallback. On 2026-10-01 a safety check stopped it partway through pasting a base64 part, so prefer granting the lane's inbox folder and copying the files with the file-transfer tool, or sending Joel a git bundle.
+
+The relay:
 1. **Commit and make a patch.** Commit in `/root/work/joel-articles` with `git -c user.name=Claude -c user.email=noreply@anthropic.com commit`, ending the message with the Co-Authored-By and Claude-Session lines. Then run `git format-patch -1 HEAD --stdout > /mnt/user-data/outputs/xfer22/xferNN-0001.patch`.
 2. **Copy it to Joel's laptop.** Gzip and base64 it, and split it into parts of 8,300 characters: `gzip -9 -c P.patch | base64 -w0 > xferNN.b64; split -b 8300 -d -a 1 xferNN.b64 xferNN.part`. Note each part's sha256 (`tr -d '\n' < part | sha256sum`). Read each part and write it with Desktop Commander `write_file` (deviceId `cf376439-4f04-4ddd-aeab-1a1c826fe34c`) to `/home/joel/ai-work/claude-dangerous-lane/inbox/`. Check every part's hash on the laptop before applying: on 2026-09-30 one mistyped character in a part was found this way.
 3. **Apply and push there.** Use Desktop Commander `start_process` with the same deviceId. In one guarded command:
@@ -90,4 +91,8 @@ Stay inside `/home/joel/ai-work/claude-dangerous-lane` on the laptop.
 - Banned: "doesn't get to decide", "Fine," / "Good," / "Great," as a clause of their own, and wry humor. Don't overuse made-up scenes.
 - Read the clock only at the start and end of a turn, and report both times.
 - Learn from Joel's minimal fixes, and ask him for one when stuck, showing the flagged span.
+- Every correction gets its "without me" lesson in the same turn: the signal that was already there, the check that should have acted, the change to it, a sweep of the article, and a line to Joel (2026-10-01, E94).
+- Say which try every Pangram result came on (2026-10-01, E95).
+- About one emoji per section on average, checked on Pangram like any other change (2026-10-01, E96).
+- Joel's extreme examples explain his point; carry the reader's common case, and never poke readers to wonder whether they're the bad one (2026-10-01, E93).
 - A paragraph has to hold up against the guide and the article as a whole, not only on its own: no dropped conditions, no evidence turned into proof, no "can" turned into "will", examples in the right job, and no repeats of earlier examples (Joel, 2026-09-29).

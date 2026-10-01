@@ -124,3 +124,49 @@ I hadn't been applying his standing preference: it wasn't in the gate or the wri
 - The lane gate copy is now a pointer, and its newer rules are merged into `docs/HUMANIZATION-GATE.md`.
 - `docs/EMULATE-FALLBACK.md` reviewed and changed in four places.
 - PR #112's claim checks are adopted (`docs/suggested-fixes-ledger.md`).
+
+## Turn 9 (2026-10-01): Joel's 02:40 notes, P7 and P8
+
+Joel, 02:40 UTC:
+- P1: "yes that's good except i wouldn't put the dark empath thing in there, i was telling you about that as an extreme example, but the more likely example is just like you said, the track record isn't good enough yet, and i donj't want to make people think maybe they are dark empaths, bc they would surely know if they are without me needing to poke them, see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)"
+- "i notice you are telling me "it passed pangram" but each time you tell me that, tell me on which try it passed, i'm trying to see if you're getting better at it."
+- Emojis for the whole article, about one per section on average, and his three picks for P3 and P6.
+- "continue"; "you can merge unless there's a reason not to then tell me"; "yes you can push from here"; "adopt proposed P4".
+
+Every Pangram check below was the text's first (try 1).
+
+### His fixes
+- P1: the dark-empath sentence is cut. Alone 100% Human (84 words, short text).
+- P3: 😡 after "I HATE YOU!", 🥰 after "But I love you!". P6: 🤗 after "I still love you.".
+- P4: the turn-8 proposal (v3), as proposed.
+- P5: ", though," after "When it's your little one yelling at you". With the new P4 explaining the anger, the cold read (given the section so far) said its only pause was "that the line helped the narrator in the story and is now a warning". Alone 100% Human (72 words).
+- The section with all of it: 100% Human (437).
+
+### How I could have caught the dark empath without him (E93)
+- The signals were there. Draft j's grounding asked "am I the dark empath?" as a MUST question. The cold read of b1 asked what you'd get out of your own little one. And the corrections catalog's A2 already says never to have a reader "think about what they want from a child". I answered with a gloss instead of asking whether the line belonged.
+- The change: the grounding review (step 3) now asks whether an example is the case most readers are in, treats an extreme case in Joel's rulings as explaining his point rather than as text, and flags MISFIRES on a line that could make an ordinary reader suspect they're the bad case. Step 4: a term that needs a gloss gets the question whether it belongs.
+- Blind, on the old P1 (b1) with turn 8's rulings: MISFIRES on the dark-empath clause in 2 runs of 2, each with the MUST question "am I the dark empath?" (one also said ASK AUTHOR, since it was his ruling's example). The control, the fixed P1, came back clean (one run). `tools/humanization/reviewer/grounding-validation/RESULTS-20261001.md`.
+- Sweep: no other line in the article points a reader at being the bad case when the point doesn't need it. The Dangerous Adult section does it on purpose, and its P3 already speaks to the reader it scares ("This part tends to scare the wrong people").
+- One of the runs, and the control, also called P1's "Love and trust don't have to come as a pair" a repeat of the heading. Joel approved P1's wording at 02:40, so it stays.
+
+### P7 (G7)
+- Writers a, b and c, from a brief that quoted the guide's three sentences and named Not Every Hero's "if they're right, you say so" as already in the article.
+- a hard-failed the linter (coach density 5.0 per 100).
+- c: the cold read couldn't place "her" in its sample complaint ("you let her talk to us like that at dinner"), and grounding flagged "maybe ask them what they'd want you to do about it" as MISFIRES (it doesn't say whether you then have to do it).
+- b: the cold read and grounding both flagged "same as before" as UNCLEAR. Claude cut it, and b's 😬 (the section already has five emojis).
+- Installed: b with the two cuts. Linter REVIEW (1.9 coach per 100). Alone 100% Human (55 words, short text); the section 100% Human (492).
+- Proposal, not installed: b's grounding GREAT line (why the swearing runs out), carried out by a fresh writer: "Like the anger at bedtime, the swearing is there to get them heard, so once you're listening instead of fighting, they don't need it anymore." Alone 100% Human (82); the section with it 100% Human (519).
+
+### P8 (G8, the Fred Rogers scene)
+- All three writers carried my brief's "the younger one genuinely tested him". The cold read of a and the grounding of b read it as Mr. Rogers putting the strain on his son (b, MUST: "Did he admit Lloyd had a point, or turn it around on his son?"); c's grounding parked the same question.
+- The brief came from turn 7's notes on the script breakdown, which had left out the beat that matters. Rechecked, its words: "Fred answers honestly, until recently, his eldest never told people about him, and that he is very private, and that it was okay. His younger son genuinely tested him, but eventually they all found their way. He is so proud of them both." and "Fred agrees with Lloyd, and thanks him for that perspective." (https://gointothestory.blcklst.com/script-analysis-a-beautiful-day-in-the-neighborhood-scene-by-scene-breakdown-7b2f778c53b5/)
+- Installed: a, with two fixes by Claude. [4]: "He agrees with Lloyd, talks honestly about both of his sons, and thanks him for the perspective." [2]: Lloyd "tells Mr. Rogers it must not have been easy for his sons to grow up with him as a father", for the next cold read's "whose childhood?". Grounding on a: every line OK. Linter REVIEW. Alone 100% Human (78 words, short text); the section with P7 and P8 100% Human (570).
+- Proposal, not installed: the GREAT line two reviews converged on (the bedtime story's two truths from the parent's side): "Like the two truths at bedtime, a true complaint and real love don't cancel each other out, so you can take the true part without giving up your love or defending yourself." Alone 100% Human (111); the section with it 100% Human (603).
+
+### Lessons
+1. A note about a source can drop the beat that matters. Before a brief carries a source's details, reread the source itself (P8).
+2. Joel's extreme example explains his point; it isn't the reader's case (E93, P1).
+3. An emoji is a change Pangram can catch: three of twelve placements flipped text that had passed (`experiments/EMOJI-PASS-20261001.md`).
+
+### Where it stands
+The h2 and P1–P8 are installed: 100% Human together (570 words). Next is P9 (G9: what happens between the inner positions; the "vow-making voice" needs plain words, since the vow comes in the next section).

@@ -31,6 +31,8 @@ Within that rule, the earlier guidance still holds:
 - Use universally rendering emojis only, for Substack email.
 - Joel finds emojis hard to type, so place them in drafts yourself where they're called for.
 
+**Direct owner rule, 2026-10-01:** "on average i'm thinking prob each section should have at least 1 emoji but i wouldn't make that a rule obviously just an average because it's nice but you don't want to abuse with emojis, i mean some sentences demand them like i might put 2 in a paragraph sometimes". His own picks that day were emotional lines in dialogue, one answering an earlier emoji: 😡 after "I HATE YOU!", 🥰 after "But I love you!", and 🤗 after "I still love you." because "it's responding to the disbelief emoji".
+
 ## BANNED CONSTRUCTIONS AND WORDS
 
 - Never use "That's not X. It's Y." / "not X — it's Y" contrast constructions. State the thing directly.
