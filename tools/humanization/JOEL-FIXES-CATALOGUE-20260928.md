@@ -222,3 +222,11 @@ He agreed with two reviewer flags on his own lines and asked me to write the fix
 - **Emojis.** His own list, his preference for dark skin tones, and when one is warranted (E101; `tools/humanization/EMOJI-LIST.md`).
 - **The merge.** "yes you can merge the lane so it shows 10 altho i don't quite understand your jargon about main and lanes and all that."
 
+## Joel's notes, 2026-10-01 15:59 UTC
+
+- **P11, his.** "for P11, this one is human and works better". He kept my last draft's first, second and last sentences and rewrote the third: "And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that." Mine was "Every age of you was stuck with whatever it had then, and that includes the adult you were last year, even if they seem like the one who should have known better." Every checked draft of mine was 100% AI; his is 100% Human on my check (83 words, try 1). What it teaches: say so when you're going over old ground, and give an objection its own plain sentence, in the words people use for it (E104).
+- **P10.** "P10 proposal is good." Installed as proposed.
+- **Emojis.** "your emojis are fine" (🫶🏿, ❤️, 😇). 😊 goes on his list, "altho the angel emoji was prob better there", so 😇 stays. "the breathing easier emoji was good though, otherwise, "breathing easier" sounds flat and it's too abrupt to jump to the next sentence for me, so put that back" (E102).
+- **Proposals.** "on the proposals please highlight the new part that's proposed so it's easier to read" (E103).
+- **His WhatsApp favorite.** "https://emojipedia.org/distorted-face that's the one i meant" (E105).
+- **Merging.** "hm ok i'm not sure when the merge should be i guess it should be when i say "continue" right?" So a "continue" is his OK to merge at the end of that turn.

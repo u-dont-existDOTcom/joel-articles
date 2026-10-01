@@ -704,6 +704,37 @@
    "must_contain": [
     "Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that. You still did what you did, though, and if it hurt people or damaged a life, that may need repair."
    ]
+  },
+  {
+   "id": "ldw-p12-installed",
+   "status": "applied",
+   "what": "Claim check: Love Doesn't Wait P12 (the guide's six questions) is installed as a numbered list.",
+   "joel": "2026-10-01 15:59 UTC: \"continue\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "So instead of asking which age of you deserves the blame, I'd ask these:",
+    "6. What can you learn, repair, or do differently now?"
+   ]
+  },
+  {
+   "id": "ldw-p13-installed",
+   "status": "applied",
+   "what": "Claim check: Love Doesn't Wait P13 (\"what are you gonna do for me?\" is a real question) is installed, with its evidence list as a callback to Not Every Hero Wears A Cape.",
+   "joel": "2026-10-01 15:59 UTC: \"continue\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "Your little one has their own version of that last question: \"Big fuckity whoopty doo. What are you gonna do for me?\" They actually want to know, though I think the first answer may be that you keep loving them, even while they don't believe you. Then their trust can grow from the stuff back in \"Not Every Hero Wears A Cape,\" like hearing out the sarcasm, or finally opening that envelope."
+   ]
+  },
+  {
+   "id": "ldw-p14-installed",
+   "status": "applied",
+   "what": "Claim check: Love Doesn't Wait P14 (what relaxing can and can't do) is installed, without the guide's \"assign guilt\".",
+   "joel": "2026-10-01 15:59 UTC: \"continue\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "If your stomach tightens while your little one waits for an answer, slower exhales like before may help you stay with them. Feeling calmer doesn't mean their complaint is wrong, though, and it won't make them trust you on its own."
+   ]
   }
  ]
 }

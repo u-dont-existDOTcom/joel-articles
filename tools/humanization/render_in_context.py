@@ -43,6 +43,9 @@ A "text" row that proposes a change to a paragraph in ARTICLE (its label says PR
 has "proposal_of": the start of that paragraph) is diffed against it, so the proposed words are
 highlighted and any cut ones struck (Joel, 2026-10-01 15:59: "on the proposals please highlight
 the new part that's proposed so it's easier to read").
+A lead-in that ends with a colon and the list right after it count as one paragraph, and the
+list keeps its lines on the page (2026-10-01: Love Doesn't Wait P12, whose row showed only its
+lead-in, and whose proposal highlighted the whole list as new).
 "source" lists starts of source paragraphs, or {"quote": ..., "from": ...} for part of one;
 [] for none. The lane's older key "guide" is read the same way. "note" is one line; "notes"
 is a list shown as bullets.
@@ -51,6 +54,8 @@ import argparse, difflib, html, json, pathlib, re, subprocess, sys
 
 QUOTES = str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"'})
 LINK = re.compile(r'\[([^\]]*)\]\(([^)]*)\)')
+LIST_LINE = re.compile(r'^(\d+\.|[-*+]) ', re.M)
+BR = '\u00b6'  # a line break inside a paragraph with a list; a word of its own, so diffs keep it
 
 CSS = """
 :root{--bg:#fbfaf7;--fg:#1f1d1a;--mute:#6b665e;--line:#e3ded4;--card:#fff;--mark:rgba(240,190,60,.35);--flag:rgba(255,86,48,.16);--link:#2f5fa7}
@@ -73,7 +78,19 @@ del{color:var(--mute);text-decoration-thickness:1px}
 
 def paragraphs(md):
     md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
-    return [p.strip() for p in re.split(r'\n\s*\n', md) if p.strip()]
+    out = []
+    for p in (p.strip() for p in re.split(r'\n\s*\n', md) if p.strip()):
+        if out and LIST_LINE.match(p) and out[-1].endswith(':'):
+            out[-1] += '\n' + p  # a lead-in and its list
+        else:
+            out.append(p)
+    return out
+
+
+def keep_lines(t):
+    """Mark the line breaks of a paragraph that has a list, so they survive the whitespace collapse."""
+    t = t.strip()
+    return re.sub(r'\s*\n\s*', ' %s ' % BR, t) if LIST_LINE.search(t) else t
 
 
 def html_text(s):
@@ -87,7 +104,7 @@ def html_text(s):
 def plain(p):
     """A paragraph's visible text (no link targets or emphasis marks) and its links."""
     links = LINK.findall(p)
-    t = LINK.sub(r'\1', p).replace('*', '')
+    t = keep_lines(LINK.sub(r'\1', p).replace('*', ''))
     return re.sub(r'\s+', ' ', t).strip(), links
 
 
@@ -147,13 +164,16 @@ def flag_html(text, span):
 def source_cell(items, sparas, label):
     if not items:
         return '<p class="lbl">No %s</p>' % html.escape(label.lower())
-    out = []
+    out, prev = [], None
     for g in items:
         if isinstance(g, dict):
             src = ' · ' + html.escape(g['from']) if g.get('from') else ''
             out.append('<p class="lbl">%s%s</p><p>%s</p>' % (html.escape(label), src, html.escape(g['quote'])))
         else:
-            out.append('<p class="lbl">%s</p><p>%s</p>' % (html.escape(label), html.escape(plain(find(sparas, g, 'source'))[0])))
+            # Whole source paragraphs in a row (a lead-in and its list items) share one label.
+            lbl = '' if isinstance(prev, str) else '<p class="lbl">%s</p>' % html.escape(label)
+            out.append('%s<p>%s</p>' % (lbl, html.escape(plain(find(sparas, g, 'source'))[0])))
+        prev = g
     return ''.join(out)
 
 
@@ -194,7 +214,7 @@ def main():
         for r in blk['rows']:
             items = r.get('source', r.get('guide', []))
             if 'text' in r:
-                text, links, state = r['text'], [], 'not in the article'
+                text, links, state = re.sub(r'\s+', ' ', keep_lines(r['text'])), [], 'not in the article'
                 base = None
                 if r.get('proposal_of'):
                     base = plain(find(cur, r['proposal_of'], r.get('label', 'row')))[0]
@@ -223,6 +243,7 @@ def main():
                     shown, state = html.escape(text), 'unchanged'
                 else:
                     shown, state = diff_html(prev, text), 'changed from %s' % word
+            shown = shown.replace(BR, '<br>')
             if text.startswith('https://') and ' ' not in text:
                 shown = '<a href="%s">%s</a>' % (html.escape(text), html.escape(text))
             notes = ['<p class="meta">%s%s</p>' % (html.escape(state), (' · ' + html.escape(r['note'])) if r.get('note') else '')]
