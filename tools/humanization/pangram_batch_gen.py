@@ -1,12 +1,25 @@
 import json, hashlib, sys
-# usage: python3 tools/humanization/pangram_batch_gen.py drafts.json out.json key1 key2 key3
+# usage: python3 tools/humanization/pangram_batch_gen.py drafts.json out.json key1 key2 key3 [--url RAW_URL] [--wait N]
 #   (drafts.json maps keys to texts; each key's text is checked as-is)
-d = json.load(open(sys.argv[1], encoding='utf-8'))
+#   --url: the page fetches the texts from RAW_URL (the same drafts.json, pushed; use a commit's
+#   raw.githubusercontent.com address) instead of carrying them in the batch. The batch stays small,
+#   and the SHA-256 of each text, taken here from the local file, is still checked before the click.
+#   Pangram's dashboard can fetch from raw.githubusercontent.com (tested 2026-10-01).
+#   --wait N: seconds to wait for each result before reading it (default 7; the tool's maximum is 10).
+args = sys.argv[1:]
+url = None
+wait = 7
+if '--url' in args:
+    i = args.index('--url'); url = args[i + 1]; del args[i:i + 2]
+if '--wait' in args:
+    i = args.index('--wait'); wait = int(args[i + 1]); del args[i:i + 2]
+d = json.load(open(args[0], encoding='utf-8'))
 acts = []
-for k in sys.argv[3:]:
+for k in args[2:]:
     T = d[k]
     h = hashlib.sha256(T.encode('utf-8')).hexdigest()
-    fill = ("const T = " + json.dumps(T) + "; const ta = document.querySelector('textarea'); "
+    src = ("const T = (await (await fetch(" + json.dumps(url) + ", {cache: 'no-store'})).json())[" + json.dumps(k) + "]; ") if url else ("const T = " + json.dumps(T) + "; ")
+    fill = (src + "const ta = document.querySelector('textarea'); "
             "const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set; "
             "setter.call(ta, T); ta.dispatchEvent(new Event('input', {bubbles: true})); "
             "await new Promise(r => setTimeout(r, 400)); "
@@ -20,7 +33,7 @@ for k in sys.argv[3:]:
     acts += [{"name": "navigate", "input": {"url": "https://www.pangram.com/dashboard", "tabId": "seed"}},
              {"name": "computer", "input": {"action": "wait", "duration": 2, "tabId": "seed"}},
              {"name": "javascript_tool", "input": {"action": "javascript_exec", "text": fill, "tabId": "seed"}},
-             {"name": "computer", "input": {"action": "wait", "duration": 7, "tabId": "seed"}},
+             {"name": "computer", "input": {"action": "wait", "duration": wait, "tabId": "seed"}},
              {"name": "javascript_tool", "input": {"action": "javascript_exec", "text": read, "tabId": "seed"}}]
-json.dump(acts, open(sys.argv[2], 'w', encoding='utf-8'))
+json.dump(acts, open(args[1], 'w', encoding='utf-8'))
 print(len(acts), 'actions')
