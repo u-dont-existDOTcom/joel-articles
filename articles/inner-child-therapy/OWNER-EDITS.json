@@ -586,10 +586,7 @@
    "where": "the whole article",
    "must_contain": [
     "bathroom vacationing. 🙈",
-    "Try again. 😅",
-    "Breathing easier. 😌",
-    "Seat belt's on. 😊 Where were we?",
-    "works there, too. 🙏"
+    "Try again. 😅"
    ],
    "must_not_contain": [
     "some people. 😉",
@@ -647,16 +644,36 @@
   {
    "id": "ldw-p9-installed",
    "status": "applied",
-   "what": "Claim check: Love Doesn't Wait P9 (the guide's \"Also notice what happens between the internal positions…\") is installed as v6, and none of the failed endings are in it.",
-   "joel": "2026-10-01 04:53 UTC: \"ok that's good continue\"",
+   "what": "Love Doesn't Wait P9 (the guide's \"Also notice what happens between the internal positions…\") is Joel's version of 2026-10-01 13:57, word for word.",
+   "joel": "2026-10-01 13:57 UTC: \"P9 yes, it absolutely does make sense to finish that thought otherwise it's unclear. P9 proposal: I like the proposal, but the reviewers are right that the other side and nothing to win are unclear. I made P9 clear and now ti's human med conf\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
-    "Both talk in your grown-up voice, so to your little one they're the same. Don't decide that yourself just because they sound alike."
+    "Also notice what else in you answers your little one, besides what you choose to say. When they say \"I don't believe you,\" something in you might fire back an accusation, and then they can learn your love is only there as long as they take it the right way. The resentment can be purely visceral: being doubted after you've tried feels unfair, but there's nothing unfair in them going over your track record. The part that resents not being believed might be the same one that said \"I love you\" in the first place, or a different one, or a bit of both. Both talk in your grown-up voice, so to your little one they're the same. Be careful not to take the accusation as proof your love really is conditional, when it could just be another part talking."
    ],
    "must_not_contain": [
     "the catch is in your love itself",
-    "proof your love really is conditional",
-    "might only be borrowing that voice"
+    "might only be borrowing that voice",
+    "the bedtime anger from the other side",
+    "nothing to win"
+   ]
+  },
+  {
+   "id": "emoji-1357",
+   "status": "applied",
+   "what": "Joel's own emoji list is the allowlist, dark skin tones where an emoji has one. Claude's placements not on it changed: 🙏 → 🫶🏿 after the goodwill wish (his \"agape, metta loving kindness prayer\" emoji), 💛 → ❤️ on the Love Doesn't Wait h2, 😊 → 😇 after \"Seat belt's on.\", and 😌 out after \"Breathing easier.\" (it only repeated the words).",
+   "joel": "2026-10-01 13:57 UTC: \"Ok in my posts (and especially my chats) i do use: 🫶🏿 (agape, metta loving kindness prayer) [...] i prefer the black emojis as they are less common, and i never see ai using black people emojis. [...] it's only when it really adds something, like an emotion wants to be expressed or for a heading sometimes i tend to add them, or if there just has been a lot of text with no break sometimes and it could look nice. [...] Sometimes an emoji actually adds clarity that text can't easily, so that makes it warranted.\"",
+   "where": "the whole article",
+   "must_contain": [
+    "works there, too. 🫶🏿",
+    "## Love Doesn't Have to Wait for Trust ❤️",
+    "Seat belt's on. 😇 Where were we?",
+    "Breathing easier. But don't send it."
+   ],
+   "must_not_contain": [
+    "😊",
+    "😌",
+    "🙏",
+    "💛"
    ]
   }
  ]
