@@ -6,6 +6,10 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-01 · Make a Simple Vow, P1 · Why a swing set? (The guide gives no reason; it's optional, "with or without".) · default (parked)
+- 2026-10-01 · Make a Simple Vow, P1 · How do I tell whether my promises still mean something right after "I don't believe you"? (Kept small promises; the vow itself says belief isn't needed.) · default (parked)
+- 2026-10-01 · Make a Simple Vow, P4 · Does the repeated act have to match one of the vow's promises, or does any reliable care count? How do I tell they're starting to believe? · default (parked)
+
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P14 · If relaxing can't tell you whether their complaint is true, what does? (Checking the concrete complaint against what you actually did, a clause; P7 already says to listen for it.) · default (parked)
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P14 · Why would calming down make a true complaint feel settled? (The grounding's GREAT line; P14 now says calmer doesn't mean they're wrong.) · COULD (parked)
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P12 · Why does that age's aim matter now? (It points at a need the grown-up can still meet; the P12 proposal says so.) · COULD (parked)

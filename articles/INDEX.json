@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "6fe8e779c3014d152811e46f94541e60c68b30b437e0436da897323b3815e8f4",
+          "sha256": "8e90d89a1901774504f0173b8ec207baa5e2cdb9486d9e26fdf5ae3db6202588",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,12 +2634,12 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "c509883dee48a7a2fd3993b757590b30f76745b604b6d75035d429fff0994c2c",
+          "sha256": "e7b32f76783a5cf82ed39d0eb91d410e7b1b5eda06964eb763fc885fd50fea91",
           "role": "owner_edits_ledger"
         },
         {
           "path": "articles/inner-child-therapy/PARKED-READER-QUESTIONS.md",
-          "sha256": "6a6dfabc3a818465d5eebbb746fe3f355a8e0e72d41c0d4798589e080ceab607",
+          "sha256": "254476f10238c38430535c01b94bababf225f24bbe97b044c56522d66077beb3",
           "role": "parked_reader_questions"
         },
         {
@@ -2839,7 +2839,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md",
-          "sha256": "e18611bf6e72948f045c6b55e415de34ec62c91e0601c14951323105c901e29a",
+          "sha256": "221de3cb672f38125901840bcd94ce4094c921d4228d726ff9c197a1502f3cd9",
           "role": "humanization_working_record"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "0539a00ff51a05c3930459a5ef3e4f5b08b6acaa94ab9d242463500c3148d993",
+          "sha256": "e187b7d5c876bfb9dfd0408783878d51da691f8ddf2a0ee41cba9eb1d04a4b91",
           "role": "detector_prediction_log"
         },
         {
@@ -4205,6 +4205,86 @@
         {
           "path": "articles/inner-child-therapy/tools/targets/love-doesnt-wait-p14.json",
           "sha256": "86f53b4e262604e5b6855e192076fad454c831777031a9fb70f2c05cdc1c71c2",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/MAKE-A-SIMPLE-VOW-20261001.md",
+          "sha256": "b7c037dc9c2a7427840b04454911097a28806d442c25d45326a19da2401f9558",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-01-turn13.json",
+          "sha256": "254fe3c272045fee3a7ebfaa9c15fc2895b6f876ba032215973bcb2cd6595e6c",
+          "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-a.json",
+          "sha256": "485a8863aa92e36d2f89792c5b4a28fbc17bb6dea11bd664bc2e7518fb8a2d87",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-b.json",
+          "sha256": "a3fe6f4905e01808d525f2ec16de645e47ef62bea74911da31f93e8499c24dcc",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-c.json",
+          "sha256": "98b61a63b3f57132363eb91c5d7616ceb44f4fd092fd91ce65bb5ce25cb1e22e",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-d.json",
+          "sha256": "26b6065d4b7f30c248d848933a03e0e5542fa8348f10143b9c8f62f99467a88f",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-e.json",
+          "sha256": "8a7f691fc3a06c7062b8241f913d305aae0be6e9fc6dfdd49e78c5bb60c0c9f7",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-f.json",
+          "sha256": "b8fc000b929034613ce3048d3a8d71c80942fef679a03a49295de61438054ea6",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-g.json",
+          "sha256": "a00affcd905ab0c8a15f7e5632acf8f68f6d8dc6f8e5547754d477f5e4631f79",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-h.json",
+          "sha256": "f3bf58c53590e7ddb03ddf738093da7ac381f35b04629fb68bbf346e369e8753",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn13-i.json",
+          "sha256": "7f6a02bd4c3f49ad044163b78cce6099fcb54d1c233a435a3f3d02a644f77ddb",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/make-a-simple-vow-p1.json",
+          "sha256": "70da57c9fbcf9ab7ab0fe218a8f33be9f3726ddffe5e45102f0b0fbc98348861",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/make-a-simple-vow-p2.json",
+          "sha256": "792caa17cc3888f4d716c477e103320afc47ffafc94dc1807fc57d1663b81bfa",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/make-a-simple-vow-p3.json",
+          "sha256": "797f4b78c961852428e233b6170c4c9508698d406535d46de43a8c494829d892",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/make-a-simple-vow-p4.json",
+          "sha256": "68a68f5805125412ae4538ecd0ea88b04f35f26d66b0319f9c8af82a9bb4c3a7",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/make-a-simple-vow-p5.json",
+          "sha256": "7379cff01beea0b33902113e78e73a4616c4ded2c798025d22775f67320e510f",
           "role": "reviewer_target"
         }
       ]

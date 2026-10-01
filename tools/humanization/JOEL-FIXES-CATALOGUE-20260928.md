@@ -241,3 +241,7 @@ What he did: the list became one requirement per sentence, with "It requires" re
 - **Proposals.** "on the proposals please highlight the new part that's proposed so it's easier to read" (E103).
 - **His WhatsApp favorite.** "https://emojipedia.org/distorted-face that's the one i meant" (E105).
 - **Merging.** "hm ok i'm not sure when the merge should be i guess it should be when i say "continue" right?" So a "continue" is his OK to merge at the end of that turn.
+
+## Joel's notes, 2026-10-01 17:50 UTC
+
+- **Love Doesn't Wait P12 and P13.** "P12 proposal accepted, P13 proposal accepted". Both installed as proposed; the section with them is 100% Human (1,236), try 1.
