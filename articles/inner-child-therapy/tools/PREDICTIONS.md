@@ -1,7 +1,5 @@
 # Predictions before Pangram calls (E86)
-
 Each Pangram call gets a prediction in its record before the call. This log scores them, so the audit has a hit rate. It started 2026-09-27; earlier drafts had no written prediction.
-
 | date | text | prediction | result | hit |
 |---|---|---|---|---|
 | 2026-09-27 | Also Look Outward r2, first paragraph alone | Human, low confidence | 100% AI | miss |
@@ -108,11 +106,8 @@ Each Pangram call gets a prediction in its record before the call. This log scor
 | 2026-09-29 | Emulate API test: B01_m34 option 2, alone | Human (my call, written before the check) | 100% Human (203) | hit |
 | 2026-09-29 | Emulate API test: B01_m34 option 1 after the section so far (headings, Joel's P1, s2j) | Human, low (my call, written before the check) | 100% Human (450) | hit |
 | 2026-09-29 | Emulate API test: B01_m34 option 2 after the section so far | Human, low (my call, written before the check) | Mostly Human, 8% AI (451): its first two sentences | hit (mostly) |
-
 After Joel's 22:12 lesson (my calls, all written before the checks): 12 of 21. Paragraph drafts 6 of 8. Headings and context 6 of 13: I didn't expect a heading to flip his paragraph, and after that I couldn't tell which headings would pass.
-
 Joel rejected the four round-2 passes (19:51: invented scenes, a "Fine," clause, wry humor), so a Pangram pass that leaves the guide isn't a success here.
-
 Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the Opus reviewer 2 of 3, and its miss was a false alarm (it said AI, Pangram said Human). From 2026-09-28 the prediction is the new Opus reviewer's (tools/REVIEWER-VALIDATION-20260928.md), made before the call. The two blind model judges (Sonnet, Opus) both called r6, r7's near twin, HUMAN.
 | 2026-09-29 | Guide paragraph 3, fresh writer d2 alone ("And what if you go looking for the love and there isn't much there yet?…", ends "you might feel almost nothing while you do it") | Human, low (my call, written before the check: ends on a new small thought, not a summary) | 100% AI (71 words, short text) | miss |
 | 2026-09-29 | Section with d2: h1 + "Keep Your Word" + Joel's P1 + s2j + d2 | Human, low (my call: its opener is a question that reacts to s2j's last line, not a topic opener) | 100% AI (319 words); Joel's P1 and s2j flagged too | miss |
@@ -206,7 +201,6 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-01 (turn 9) | Love Doesn't Wait: the section with the P7 proposal; turn 9, try 1 | Human, low (my call: same as the proposal alone) | 100% Human (519 words) | hit |
 | 2026-10-01 (turn 9) | Diagnostic: Noticing Counts with its h1 and without the 😄 (the section with both was 30% AI, the span on the h1, h2 and P1; it passed on 2026-09-25 with the h2 alone and no emoji); turn 9 | AI (my call: the flagged span starts at the h1 and ends before the emoji's paragraph, so the h1 is the likelier cause) | 100% Human (163 words, short text) | miss (the h1 alone is fine; it took the emoji and the h1 together) |
 | 2026-10-01 (turn 9) | Diagnostic: Noticing Counts with the 😄 and without the h1; turn 9 | Human, medium (my call: same reason) | 100% Human (154 words, short text) | hit |
-
 | 2026-10-01 (turn 9) | Love Doesn't Wait P8, fresh writer a with two fixes by Claude: [4] "says the younger one really tested him" read as him putting the strain on his son (cold read UNCLEAR; writer b's grounding, MUST), and the recheck of the script breakdown has "Fred agrees with Lloyd, and thanks him for that perspective", so [4] is "He agrees with Lloyd, talks honestly about both of his sons, and thanks him for the perspective."; [2] now says Lloyd tells Mr. Rogers it was hard for his sons (cold read: whose childhood?); lint REVIEW; turn 9, try 1 | Human, low (my call: four plain sentences that retell the scene in order, the guide's own "doesn't collapse ... or fight it" in the middle; it could read as a summary) | 100% Human (78 words, short text) | hit |
 | 2026-10-01 (turn 9) | Love Doesn't Wait: the section with P7 and P8; turn 9, try 1 | Human, medium (my call: the section passed with P7 at 492 words) | 100% Human (570 words) | hit |
 | 2026-10-01 (turn 9) | P8 proposal (two reviews' GREAT lines, carried out by a fresh writer): P8 plus "Like the two truths at bedtime, a true complaint and real love don't cancel each other out, so you can take the true part without giving up your love or defending yourself."; turn 9, try 1 | Human, low (my call: a so-because explanation at the end, the shape that has flagged) | 100% Human (111 words, short text) | hit |
@@ -262,5 +256,7 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-01 (turn 12) | Love Doesn't Wait P12 draft a (fresh writer: a lead-in and the six questions as a numbered list), alone, checked alongside its reviews; turn 12, try 1 | Human, low (my call: six parallel questions, numbered) | 100% Human (82), try 1 | hit |
 | 2026-10-01 (turn 12) | Love Doesn't Wait P12 draft b (the questions inline, with "Maybe you didn't have the skills yet, or nobody was there to help or protect you."), alone; turn 12, try 1 | Human, low-medium (my call: one concrete line breaks the run of questions) | 100% Human (85), try 1 | hit |
 | 2026-10-01 (turn 12) | Love Doesn't Wait P12 draft c (the questions inline, the most compact), alone; turn 12, try 1 | Human, low | 100% Human (72), try 1 | hit |
-
-| 2026-10-01 (turn 12) | Love Doesn't Have to Wait for Trust, h2 + P1–P12 with P12 draft a (the numbered list); turn 12, try 1 | Human, medium (my call: every paragraph passed alone; a numbered list is new in this section) | | |
+| 2026-10-01 (turn 12) | Love Doesn't Have to Wait for Trust, h2 + P1–P12 with P12 draft a (the numbered list); turn 12, try 1 | Human, medium (my call: every paragraph passed alone; a numbered list is new in this section) | 100% Human (1,074), try 1 | hit |
+| 2026-10-01 (turn 12) | Love Doesn't Wait P13 draft a (fresh writer: "Your little one has their own version of that last question…"), alone, checked alongside its reviews; turn 12, try 1 | Human, medium (my call: Joel's own line quoted, a first-person "I think", and a callback with two concrete examples) | | |
+| 2026-10-01 (turn 12) | Love Doesn't Wait P13 draft c ("Then your little one comes back with…"), alone; turn 12, try 1 | Human, medium | | |
+| 2026-10-01 (turn 12) | Love Doesn't Wait P12 proposal: the list plus a fresh writer's line after it ("Whatever was missing back then, you can start giving your little one now."), alone; turn 12, try 1 | Human, medium-low (my call: a short closing line after a list is a summing-up shape) | | |
