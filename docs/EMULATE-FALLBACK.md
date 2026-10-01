@@ -45,7 +45,7 @@ The evidence is on branch `claude/emulate-lessons-20260930`, in `articles/inner-
 
 ### What the system says about Emulate's output
 
-The reviewer from the reviewer-writer loop is the part of the system that's stricter than Pangram: when it says HUMAN, Pangram has agreed every time so far. On 2026-09-30 it was run blind, by its validated route: Opus, the shared rubric and the labeled examples, as in the Inner Child `tools/reviewer/README.md`.
+The reviewer from the reviewer-writer loop is the part of the system that's stricter than Pangram: when it says HUMAN, Pangram has agreed every time so far. On 2026-09-30 it was run blind, by its validated route: Opus, the shared rubric and the labeled examples, as in `tools/humanization/reviewer/README.md`.
 - **What it judged:** ten of Claude's inner child drafts that Pangram calls AI, and Emulate's versions of the same ten, which Pangram calls Human.
 - **How:** two reviewers, each seeing only one version of each pair, plus four known controls each.
 - **The drafts:** all ten called AI.

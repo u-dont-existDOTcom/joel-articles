@@ -6,12 +6,15 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 - **Repo:** `joel-articles`, branch `handoff/claude-dangerous-adult-20260924-1631`. Never touch `main`, never force-push, and merges need Joel's OK.
 - **The article:** `articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md`.
-  - Render it with `python3 tools/render_article_so_far.py <out.html>`, from `articles/inner-child-therapy/`. The render also runs the owner-edits check against `OWNER-EDITS.json`.
+  - Render it from the repo root with `python3 tools/humanization/render_article_so_far.py <out.html> --article articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md --ledger articles/inner-child-therapy/OWNER-EDITS.json`. The render also runs the owner-edits check against `OWNER-EDITS.json`.
   - Send the rendered HTML to Joel at the end of every turn.
-- **Rules and lessons:** all in `articles/inner-child-therapy/tools/`:
+- **Rules and lessons:** in `articles/inner-child-therapy/tools/`:
   - `HUMANIZATION-GATE.md`: the process, plus Joel's bans;
-  - `JOEL-FIXES-CATALOGUE-20260928.md`: every one of Joel's fixes;
   - `PREDICTIONS.md`: every Pangram check, with the call made before it;
+  - `targets/`: the reviewer targets, each with the article's and the guide's paths (`article`, `source`);
+  - `in-context/`: the maps for the side-by-side page.
+- **The shared tools,** in `tools/humanization/` from the repo root (`tools/humanization/README.md`):
+  - `JOEL-FIXES-CATALOGUE-20260928.md`: every one of Joel's fixes;
   - `tells_lint.py`: the linter;
   - `reviewer/`: the reviewer prompts, including `grounding.txt` (guide-grounding and logic review, 2026-09-29);
   - `calibration/`: texts with known Pangram results.
@@ -21,7 +24,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 *Updated 2026-09-30, turn 7 (17:04 UTC onward). Turn 7 started "Love Doesn't Have to Wait for Trust": the h2 and P1–P6 are in, and together they're 100% Human (341 words). Turn 6 fixed P1's "sweet things" line and P4's "both sides" line in Not Every Hero, both at Joel's request, and the relationship paragraph's danger line.*
 
-**Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`tools/HUMANIZATION-GATE.md`, "Headings").
+**Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`articles/inner-child-therapy/tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
 - **P2 is Claude's**, with Joel's logic corrections.
 - **P3 is Joel's.**
@@ -38,12 +41,12 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 - P6 is his "Big fuckity whoopty doo" exchange, word for word.
 
 **Next:** P7 (G7: you don't have to accept every conclusion; listen for the concrete complaint), then P8 (the Fred Rogers scene, checked against a script breakdown; leave out "pauses"), through P14, then "Make a Simple Vow".
-- Run the grounding reviewer on every draft (`tools/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
+- Run the grounding reviewer on every draft (`tools/humanization/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
 - It also lists the reader's open questions, sized by a push knob (`--push tight|default|wide`; the default is `default`: small changes only). Take ASK AUTHOR items to Joel, and put parked ones in `articles/inner-child-therapy/PARKED-READER-QUESTIONS.md`, not in the article.
 - Give the cold read `"earlier": "section"` in the target, so it sees what a reader has already read.
-- End every turn with both pages:
-  - the article: `tools/render_article_so_far.py`;
-  - the in-context page: `tools/render_in_context.py tools/in-context/<map>.json OUT --since <the commit Joel last saw>`.
+- End every turn with both pages (from the repo root, with `A=articles/inner-child-therapy`):
+  - the article: `tools/humanization/render_article_so_far.py OUT --article $A/HUMANIZED-ARTICLE-SO-FAR.md --ledger $A/OWNER-EDITS.json`;
+  - the in-context page: `tools/humanization/render_in_context.py $A/tools/in-context/<map>.json OUT --article $A/HUMANIZED-ARTICLE-SO-FAR.md --source $A/master.html --source-label "Guide original" --since <the commit Joel last saw>`.
 
 **Open for Joel:**
 - whether the bedtime story is his memory (asked 2026-09-30, about 18:55 UTC);
@@ -52,7 +55,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 ## How to check on Pangram
 
 Use Joel's dashboard in the built-in browser pane, tab `seed`, at https://www.pangram.com/dashboard.
-- `tools/pangram_batch_gen.py drafts.json out.json key1 key2 key3` builds a browser batch of up to 3 checks. Each check:
+- `tools/humanization/pangram_batch_gen.py drafts.json out.json key1 key2 key3` builds a browser batch of up to 3 checks. Each check:
   - fills the textarea;
   - verifies its SHA-256;
   - clicks "Check for AI";
@@ -78,7 +81,7 @@ Stay inside `/home/joel/ai-work/claude-dangerous-lane` on the laptop.
 ## Joel's standing rules for this project
 
 - One paragraph at a time. Check each paragraph on Pangram alone and in its section, with its headings.
-- Show every draft in context, next to the guide's original (`tools/render_in_context.py` makes the page; Joel, 2026-09-30: "make that durable").
+- Show every draft in context, next to the guide's original (`tools/humanization/render_in_context.py` makes the page; Joel, 2026-09-30: "make that durable").
 - Report every cut and every move in the same message.
 - Never use "the kid". Invent no facts about Joel's life. Don't polish Joel's words.
 - Banned: "doesn't get to decide", "Fine," / "Good," / "Great," as a clause of their own, and wry humor. Don't overuse made-up scenes.

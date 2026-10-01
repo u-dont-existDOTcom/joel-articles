@@ -1,6 +1,6 @@
 # Open owner flags: Inner Child Therapy
 
-A living list of things Joel has flagged, or that need his decision, that aren't fixed yet. Read at the start of every turn and before sending the article (E80). Close an item only when it's fixed in `HUMANIZED-ARTICLE-SO-FAR.md` or Joel decides it. Anything with a text change also has an entry in `OWNER-EDITS.json` (E85), and an item closes only when that entry passes `tools/check_owner_edits.py`.
+A living list of things Joel has flagged, or that need his decision, that aren't fixed yet. Read at the start of every turn and before sending the article (E80). Close an item only when it's fixed in `HUMANIZED-ARTICLE-SO-FAR.md` or Joel decides it. Anything with a text change also has an entry in `OWNER-EDITS.json` (E85), and an item closes only when that entry passes `tools/humanization/check_owner_edits.py` (from the repo root).
 
 ## Open
 - **The Three Adult Functions: dissolve into shorter, earlier pieces** (Joel, 16:29; decisions 17:05). Installed: the three jobs in one scene, with Joel's Guide sentence (21:18), then his Guide paragraph; the worth line (Chicken-and-Egg P2); the enjoying Nurturer (Borrow Love). The rest moves when its home section is humanized (`experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md`; `OWNER-EDITS.json` entry `dissolve-three-functions`). The Protector making the warmth believable, and its inside half, go to `Make the Protector Visible`. The h1 over the three trust h2s becomes `Building Trust With Your Little One` (Joel, 20:29), applied when those sections are humanized.

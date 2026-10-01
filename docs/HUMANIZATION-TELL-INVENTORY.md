@@ -6,7 +6,7 @@ Status: **current inventory for the post-generation tell ledger and the fresh-co
 
 How it's used:
 - Apply it after drafting, never as a writing checklist (`SKILL.md`, "Post-generation tell ledger and repair").
-- The fresh-context sweep prompt is built from this file by `articles/inner-child-therapy/tools/build_sweep_prompt.py`.
+- The fresh-context sweep prompt is built from this file by `tools/humanization/build_sweep_prompt.py`.
 - Joel's corrections that belong here get a new ID. IDs are never reused or renumbered.
 
 Calibration:

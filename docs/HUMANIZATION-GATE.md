@@ -7,10 +7,10 @@ How to read it:
   - From now on this copy is the one to change.
   - Until the Inner Child chat moves over, check the lane copy for anything newer, and carry it here.
 - **"The guide" means the article's source.** That's the guide for Inner Child, the published text for a published article being humanized, or Joel's draft. The examples come from the Inner Child article; they're evidence, not scope.
-- **Paths in the body are relative to `articles/inner-child-therapy/` on that branch,** unless they start with `docs/` or `project-sources/`.
-  - The tools still live there: the linter, the reviewer, the calibration texts, the owner-edits check and the Pangram batch builder. Until they move to `tools/humanization/`, other articles use them from there, with their own article's paths.
-  - `tools/humanization/` already has the side-by-side page for any article (`render_in_context.py`) and the Emulate tool.
-- **The reviewer learned from the Inner Child article.** Before trusting its verdicts on another kind of writing, add that article's own Pangram-checked paragraphs to the calibration set and revalidate, as `tools/reviewer/README.md` says for any change.
+- **Paths in the body are relative to `articles/inner-child-therapy/` on that branch,** unless they start with `docs/`, `project-sources/`, `tools/humanization/` or `articles/`. Those are from the repo root, where the commands run.
+  - The tools live in `tools/humanization/` (`tools/humanization/README.md`): the linter, the reviewer, the calibration texts, the owner-edits check, the Pangram batch builder, the sweep-prompt builder, the article render, the side-by-side page and the Emulate tool. Every article uses them from there, with its own files given as options.
+  - The Inner Child article keeps its own reviewer targets (`tools/targets/`), side-by-side maps (`tools/in-context/`) and predictions (`tools/PREDICTIONS.md`).
+- **The reviewer learned from the Inner Child article.** Before trusting its verdicts on another kind of writing, add that article's own Pangram-checked paragraphs to the calibration set and revalidate, as `tools/humanization/reviewer/README.md` says for any change.
 - **Pangram and Emulate are fallbacks** (Joel, 2026-09-30). The system comes first, and Pangram is the outside check. Emulate goes first on a published article's flagged paragraphs, and only after the reviewer-writer loop has failed on new writing (`EMULATE-FALLBACK.md`). The aim is to need neither.
 - **The lab repo has rules of its own for generation and teaching work:** `pangram-humanization-lab`'s `AGENTS.md`, with its owner-teaching corpus and lesson closeout. Keep one version of each rule, and link across instead of copying.
 
@@ -75,7 +75,7 @@ S3. **Cold read.** A fresh subagent that hasn't seen the source, the drafts or t
 S4. **Only then humanize.** After any humanizing edit, redo S2 for the changed sentences, and S3 if a referent or the order changed.
 S5. **Owner notes about sense.** When Joel says a paragraph doesn't make sense, the whole paragraph goes through S1 to S3. Fixing only the sentence he quoted isn't enough (E86).
 S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the reviewer instance should have is checking whether the sentence not only makes sense based on the guide but whether it goes beyond the guide in a way that needs support from the guide." He also said "An article is not just a bunch of individual paragraphs."
-  - **Run it** on every new paragraph and every candidate heading, before any Pangram check: `python3 tools/reviewer/reviewer.py grounding DRAFT TARGET OUT`, then a fresh Opus subagent.
+  - **Run it** on every new paragraph and every candidate heading, before any Pangram check: `python3 tools/humanization/reviewer/reviewer.py grounding DRAFT TARGET OUT` (the article and its source come from the target's `article` and `source`, or from `--article` and `--source`), then a fresh Opus subagent.
     - The target gives the guide passage, what comes next, and Joel's rulings on the material. His rulings override the guide's wording.
     - The prompt carries the whole guide and the article up to the new text.
   - **Every flag gets fixed, or answered in the record.** The cold read (S3) still runs: it checks what a newcomer can follow, and this checks what the text claims.
@@ -96,7 +96,7 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
     - Grice's maxims: Quality ("Don't say what you lack adequate evidence for"), Quantity, Manner (https://plato.stanford.edu/entries/implicature/);
     - Linda Flower's reader-based prose (https://publicationsncte.org/content/journals/10.58680/ce197916016);
     - the standard informal fallacies (https://plato.stanford.edu/entries/fallacies/).
-  - **Validation (`reviewer/grounding-validation/`):**
+  - **Validation (`tools/humanization/reviewer/grounding-validation/`):**
     - Blind v1, on Joel's 2026-09-29 catches: it caught "proof you love them", "tends to come later" and the "Keep Your Word" heading. It missed the dropped "if they're right", and it missed the meal and the cancelled obligation twice, because it trusted the guide's own example list.
     - v2 adds Joel's rulings as an input, the sentence-shape note, the guide-list note and the figurative-heading rule. On held-out text with planted errors it caught 5 of 5: a dropped safety condition, "can" turned into "will", a hug offered as a protecting act, a repeated example, and an off-topic h2.
     - Controls: Joel's P3 came back clean, and his heading passed. The flags that recur on the current section (his self-love sentence, the moldy bread) are open questions for him, not errors.
@@ -106,7 +106,7 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
 0. **Owner edits and claims go in the ledger first (E85; Joel, 2026-09-27 21:18: "so how can we prevent that kind of error in future where you say you will write something and don't write it?").**
    - Every edit Joel gives goes into `OWNER-EDITS.json` in the same turn, as `pending`, before any drafting. The entry has his words, plus the strings the article must contain, must not contain, or must have in order once the edit is done.
    - When a sentence or heading I write promises named items ("three jobs", "two ways"), it gets a `claim` entry with a span check: each item must be in that paragraph, not just somewhere in the article.
-   - `tools/check_owner_edits.py` checks the ledger against the article. `render_article_so_far.py` runs it on every render; a failure goes in a red box at the top of the article and the render exits 1.
+   - `tools/humanization/check_owner_edits.py` checks the ledger against the article. `render_article_so_far.py` runs it on every render (given `--ledger OWNER-EDITS.json`); a failure goes in a red box at the top of the article and the render exits 1.
    - A note, record or message says something is in the article (installed, applied, fixed, resolved, moved, "explains…") only after its entry passes. If it exists only in a draft, a candidate or a scratch file, the note says that.
 
 1. **Bird's-eye (D1).**
@@ -128,7 +128,7 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
 5. **Linter.**
 
    ```
-   python3 articles/inner-child-therapy/tools/tells_lint.py DRAFT.txt \
+   python3 tools/humanization/tells_lint.py DRAFT.txt \
        --source SOURCE-SECTION.txt [--owner OWNER-LINES.txt]
    ```
 
@@ -140,23 +140,23 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
    - **First, a literal sense read of the paragraph as a reader who doesn't know the point (E67).** Then check it for marching order: can every sentence be labelled with its next job (E66)?
    - **Every row of `docs/HUMANIZATION-TELL-INVENTORY.md` (T01–T29, C01–C04), on the literal draft, before every Pangram call (E65).** The linter's flags are a subset. A draft that still looks AI to me doesn't go to Pangram.
      **Row by row, with the words (E88).** Each row gets its own line: the quoted words it matches, or "no words match". No line may clear several rows at once ("every other row ABSENT" is how Also Look Outward r2 went out with 13 tells PRESENT).
-     **A repair aid, not a gate (Joel, 22:53; `tools/TELL-CALIBRATION-20260927.md`).** A blind audit of 28 known texts found most rows in human prose too, and the count of PRESENT rows barely separates the groups (AUC 0.59). That reviewer turned out to be unreliable. It gave a 100%-AI paragraph no PRESENT rows, so its numbers measure it, not the tells (correction, 2026-09-28).
+     **A repair aid, not a gate (Joel, 22:53; `tools/humanization/TELL-CALIBRATION-20260927.md`).** A blind audit of 28 known texts found most rows in human prose too, and the count of PRESENT rows barely separates the groups (AUC 0.59). That reviewer turned out to be unreliable. It gave a 100%-AI paragraph no PRESENT rows, so its numbers measure it, not the tells (correction, 2026-09-28).
      **The march blocks the call (Joel, 2026-09-27 23:52).** T02 (instruction-manual cadence), T09 (equal efficiency) and T13 (nothing noticed) are the marching order: "predictable cadence with optimized structure". If one is present, rebuild before any call, and don't explain it away. The other rows are repair hints. Pangram and the sense step are the gates. Model judges (Sonnet and Opus, 18 of 28 each on known paragraphs) don't stand in for Pangram.
    - **Before a whole-section check, run the inventory on the assembled section too (E70).** T02, T03, T08 and T20 show up between paragraphs, and a flag on owner text can come from my paragraph beside it.
    - The full catalog above, including the checks the linter can't do: A1 meaning and safety, A12 referents, D2 where the draft departs from what an AI would say, E1 naming (never "the kid"), E36 details that fit every reader, E8 and E33 premises and terms not yet introduced, E29 one owner practice per section.
    - Execute the repairs, then rerun steps 4–6 on the changed text.
    - **The reviewer-writer loop (2026-09-28; Joel, 00:56: "a subagent would give the instructions for fixing each sentence and the writer would follow those like an engineering task").** This is the review and repair step before Pangram. It replaces the numbered-inventory sweep below as the verdict.
-     - A fresh Opus reviewer, set up with our own Pangram-labeled paragraphs (`tools/reviewer/`), judges the draft and writes one ticket per sentence.
+     - A fresh Opus reviewer, set up with our own Pangram-labeled paragraphs (`tools/humanization/reviewer/`), judges the draft and writes one ticket per sentence.
      - A fresh writer carries the tickets out literally.
      - A fresh reviewer judges the result. When two reviewers' tickets differ, carry out both and let the next review choose.
      - When a reviewer says HUMAN, a cold reader checks sense. Its UNCLEAR notes go back through a reviewer as sense-only tickets.
 
-     Validation: Opus got 43 of 53 held-out paragraphs right and let no AI through, and it called all 19 of Joel's own passages Human (`tools/REVIEWER-VALIDATION-20260928.md`). It's strict. Its HUMAN has been right every time so far. Its AI at 60–65, once the march is broken, has twice been Pangram Human, so check Pangram then. First use: Also Look Outward P1 passed with sense intact after six rounds (`experiments/REVIEWER-WRITER-LOOP-20260928.md`).
+     Validation: Opus got 43 of 53 held-out paragraphs right and let no AI through, and it called all 19 of Joel's own passages Human (`tools/humanization/REVIEWER-VALIDATION-20260928.md`). It's strict. Its HUMAN has been right every time so far. Its AI at 60–65, once the march is broken, has twice been Pangram Human, so check Pangram then. First use: Also Look Outward P1 passed with sense intact after six rounds (`experiments/REVIEWER-WRITER-LOOP-20260928.md`).
 
      Two rules. Never tell the reviewer a Pangram result when its verdict matters: it moved to HUMAN 95. And I don't write the tickets or the sentences myself. My reads of my own drafts scored 0 of 4 (`tools/PREDICTIONS.md`).
 
      **Order: fast checks first** (Joel, 16:29: "2hrs to humanize one paragraph is insane"). Three fresh writers draft in parallel (`reviewer.py draft`, or start from the existing draft). A cold sense read and Pangram run on each. The reviewer runs only when nothing passes; it's the slow step, 5 to 15 minutes a run. The expectations paragraph passed on the first round this way, with no reviewer run.
-   - **Fresh-context sweep before Pangram (superseded as the verdict, 2026-09-28; still usable for repair hints).** Required for every section my sentences carry (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Build the prompt from the numbered inventory (`docs/HUMANIZATION-TELL-INVENTORY.md`, T01–T29 and C01–C04) with `tools/build_sweep_prompt.py`, give it the previous accepted prose (and any owner paragraphs) as context and my paragraphs as the target, and send it to a fresh subagent or another fresh route. Withhold the Pangram history and my reasons. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
+   - **Fresh-context sweep before Pangram (superseded as the verdict, 2026-09-28; still usable for repair hints).** Required for every section my sentences carry (SKILL.md's owner-calibrated fresh-context tell loop; the handoff's score-blind review). Build the prompt from the numbered inventory (`docs/HUMANIZATION-TELL-INVENTORY.md`, T01–T29 and C01–C04) with `tools/humanization/build_sweep_prompt.py`, give it the previous accepted prose (and any owner paragraphs) as context and my paragraphs as the target, and send it to a fresh subagent or another fresh route. Withhold the Pangram history and my reasons. On Borrow round 6 my own ledger kept everything, the fresh sweep found T02, T09 and T12, and Pangram said 100% AI.
      **Advisory until calibrated (2026-09-26).** The fresh-critic gate lets a model sweep gate only on axes that pass known controls. The numbered-inventory sweep on this route (a fresh Claude subagent) failed its negative control:
      - it reported 10 tells on the known-Human `When Healing Turns Into Checking`;
      - it reported 7 on the known-AI Borrow round 6;
@@ -186,8 +186,8 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
 9. **Record and deliver.** Put the preservation ledger, the linter report, the tell ledger and the Pangram results in the drafts file. Show Joel the prose only if every gate passed; otherwise report gate status and keep working.
    - **End of every owner-facing turn: the whole article (OWNER-FACING-TURN-CONTRACT; Joel, 2026-09-26 23:38: "always give me the full humanized article up til what we had, at the end of every turn").**
      - Update `HUMANIZED-ARTICLE-SO-FAR.md` with the accepted prose and the current owner-review candidate in place. The candidate goes under a `<!-- CANDIDATE: … -->` note, so it's never shown as accepted.
-     - Run `tools/render_article_so_far.py`, and send the HTML file with the reply.
-     - **The in-context page too (Joel, 2026-09-30: "I like how you are doing this original vs new diff, that's good make that durable").** Write a small map for the turn in `tools/in-context/` (labels, the start of each paragraph, the guide paragraphs, a note per row). Then run `tools/render_in_context.py MAP OUT --since <the commit Joel last saw>` before committing, and send the page with the article. It sets the guide's original next to each paragraph, highlights words added since the version he last saw, strikes the words cut, and marks new paragraphs. The text comes from the article and the guide, not from the map, so the page can't show something that isn't installed.
+     - Run `tools/humanization/render_article_so_far.py OUT.html --article <the article> --ledger <its OWNER-EDITS.json>`, and send the HTML file with the reply.
+     - **The in-context page too (Joel, 2026-09-30: "I like how you are doing this original vs new diff, that's good make that durable").** Write a small map for the turn in `tools/in-context/` (labels, the start of each paragraph, the guide paragraphs, a note per row). Then run `tools/humanization/render_in_context.py MAP OUT --article <the article> --source <its source> --since <the commit Joel last saw>` before committing, and send the page with the article. It sets the guide's original next to each paragraph, highlights words added since the version he last saw, strikes the words cut, and marks new paragraphs. The text comes from the article and the guide, not from the map, so the page can't show something that isn't installed.
    - **Owner edits (step 0).** The render's check has to pass. A red box means something a record calls done isn't in the article: fix it before sending, or correct the record.
    - **Clock (Joel, 2026-09-26: "a quick check at beginning and then at the end so i know how long it took… nothing in the middle").** Read the clock once when a turn starts and once at the end, and report both. Date each Pangram record and name its turn; don't read the clock mid-turn to time it. Never write a minute that wasn't read.
 
@@ -195,13 +195,13 @@ S6. **Grounding and logic review (Joel, 2026-09-29 19:14).** Joel: "One role the
 
 ## Owner bans (Joel, 2026-09-28 19:51)
 
-These go into every writer and reviewer prompt (`reviewer/owner_bans.txt`), and the linter fails the first two (O1, O2).
+These go into every writer and reviewer prompt (`tools/humanization/reviewer/owner_bans.txt`), and the linter fails the first two (O1, O2).
 - "doesn't get to decide" and its family (a feeling or thing that "doesn't get to", "gets to", "gets a vote"). Joel: "one of the phrases AI completely colonized", "an optimal efficiency quippy formulation which humans just rarely use for non-humans". It came into the Make the Protector Visible drafts from my own brief.
 - "Fine," "Good," "Great," as a clause of their own ("Fine, they're nice boots."). Joel: "super AI", and he had said it before.
 - Wry humor. Joel: "wry in a strange way which i can't pin down". His is goofy and glad.
 - Too many made-up scenes: a caution, not a ban. Joel, 20:13: "i'm not saying to ban made-up scenes, they can be useful, but you're overusing them here". Carry the guide's own examples first.
 - Over-explaining listicles. Lists themselves are fine: "I have human and humanized paras with instructions and lists that DO pass". His way with a list is in Borrow One Competency's first paragraph (each item its own sentence, "Perhaps… Perhaps… Maybe… Even…", ending on the oddest one).
-- Show every draft in context, next to the guide's original (Joel: "from now on, you need to show me your work in context"). `tools/render_in_context.py` makes that page (step 9).
+- Show every draft in context, next to the guide's original (Joel: "from now on, you need to show me your work in context"). `tools/humanization/render_in_context.py` makes that page (step 9).
 
 ## What the linter checks
 
@@ -229,7 +229,7 @@ The linter covers a handful of mechanical tells. It is not the tell ledger, and 
 
 ## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds and the Borrow Love h2 body)
 
-Eighty-four texts with known Pangram 4.0 results (the last forty-four added 2026-09-27 and 28, nine of them from the reviewer-writer loop on 2026-09-28). The files are in `tools/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
+Eighty-four texts with known Pangram 4.0 results (the last forty-four added 2026-09-27 and 28, nine of them from the reviewer-writer loop on 2026-09-28). The files are in `tools/humanization/calibration/`. A text with a `.owner.txt` beside it is linted with `--owner` set to that file.
 
 Not included:
 - the ablation variants of Joel's P5 fix;

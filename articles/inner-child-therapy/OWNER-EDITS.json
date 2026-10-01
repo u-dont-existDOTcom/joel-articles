@@ -4,7 +4,7 @@
  "how": [
   "Every edit Joel gives goes in here the same turn, with his words and the strings the article must (or must not) contain once it's done. Status pending until the article has it; then applied.",
   "Every note or record that says the article covers something gets a claim entry (for example, which jobs a paragraph explains).",
-  "tools/check_owner_edits.py checks every entry against the article with comments removed. render_article_so_far.py runs it on every render, and a failure goes in a red box at the top of the article.",
+  "tools/humanization/check_owner_edits.py (from the repo root) checks every entry against the article with comments removed. render_article_so_far.py runs it on every render, and a failure goes in a red box at the top of the article.",
   "A record, note or message says a change is in the article (installed, applied, fixed, resolved, moved, explains) only after its entry passes. If it only exists in a draft, candidate or scratch file, it says so."
  ],
  "entries": [
