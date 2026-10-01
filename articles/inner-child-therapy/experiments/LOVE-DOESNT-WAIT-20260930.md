@@ -229,5 +229,11 @@ His list is the allowlist (`tools/humanization/EMOJI-LIST.md`). My four placemen
 - c2, with those fixed and a last line answering the charge ("Keeping everyone from getting hurt was never your job at five or fifteen."): the cold read had every line OK, but it was 100% AI alone (104 words, try 1) and pulled the section to 93% Human. Its grounding then flagged the last line: limiting it to five or fifteen leaves the adult self to blame (MISFIRES), and coming right after "the harm needs repair" it can read as taking that back (UNCLEAR).
 - Out of the article until a rebuild. For next turn: no five-item list (the guide's "awareness, conditioning, fear, support, and options"); keep "the harm needs repair"; answer the charge for every age, the grown-up included, and mark it as answering the rescuer job, not what they did. c's grounding GREAT line for a proposal: punishment can't reach back, so all it can do is land now, as another attack your little one hears.
 
+### P11, the rebuild (same turn)
+- A new brief: no five-item list; answer the charge for every age, the grown-up included, and mark that it answers the charge, not the harm; keep the repair; the punishment point only if it adds something.
+- Three fresh writers. c, with a concrete line ("At fifteen you probably didn't even have your own money, or anywhere else to go."), read clearly to the cold reader (every line OK); its grounding flagged "stuck with whatever it had then" as CHANGED (what counts is what that age could see and act on, given its fear, habits and help, not what it knew in principle). b: the cold read couldn't tell what "That's about the accusation" set against what; its grounding flagged the fifteen-year-old's example for dropping fear and options.
+- Pangram, alone: c 100% AI (79 words), b 100% AI (78), both try 1 of the rebuild. With the first build's c2, that's every checked P11 draft at 100% AI. All of them are reassurance turned to accountability, in second person, and Pangram flags the whole paragraph each time.
+- Stuck, so it goes to Joel with the flagged spans (the gate's rule: ask him for a minimal fix when stuck). Not installed.
+
 ### Where it stands
-The h2 and P1–P10 are installed: 100% Human together (892 words). Next is P11 (G11), rebuilt, then P12–P14 and "Make a Simple Vow".
+The h2 and P1–P10 are installed: 100% Human together (892 words). P11 waits on Joel; then P12–P14 and "Make a Simple Vow".

@@ -2639,7 +2639,7 @@
         },
         {
           "path": "articles/inner-child-therapy/PARKED-READER-QUESTIONS.md",
-          "sha256": "74cc8782f2cd6d5b9feab643e262aa47df5c1d83abcf1f45c0bed66e7b0a7b83",
+          "sha256": "a15ae34b9a715267aefae413002b040fe92d3c2c857d440121622a9585fc821b",
           "role": "parked_reader_questions"
         },
         {
@@ -2839,7 +2839,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md",
-          "sha256": "ff4c8ceeb1066a018585f7cd985c0dd9d275dd06e963b7a600d3b06784ab82ea",
+          "sha256": "f715d567d9b934a49d83b199a4050d8cf54974c29fd70b3ab38da3417b018200",
           "role": "humanization_working_record"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "547d4bd954bb8fef4c8eb5737c8061195543faa9e61c339cc325020cbae3bd89",
+          "sha256": "be411148f2e1fb0bd7e39df8ca466c6c5e6c948d53f00369c23513ad83b8c5a6",
           "role": "detector_prediction_log"
         },
         {
@@ -4099,7 +4099,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-01-turn11.json",
-          "sha256": "0a106b829e5c80414a08ac2a4a609686d856f148abd7d58d678f25712aa289c3",
+          "sha256": "debc0c3e3eb524871bc96e4900b49da36ab5a0617f31e61410d2ebabb4ab4e56",
           "role": "in_context_map"
         },
         {
@@ -4144,8 +4144,13 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/targets/love-doesnt-wait-p11.json",
-          "sha256": "8b2862514a865e2b9e02de688a2063a6a35d8f06f3b3bd026881aadd283c4cfd",
+          "sha256": "2eb157254ad262ca089567bb24c126d0ac1832b00a346433040013b28bc22665",
           "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn11-h.json",
+          "sha256": "b99231fc3403f8d4803eb841528807de627068ed23cf5a96fb8c1950de4f048d",
+          "role": "detector_check_texts"
         }
       ]
     },

@@ -40,7 +40,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 - P3–P4 are the bedtime story and what it did, in Joel's first person: his own memory (confirmed 2026-10-01), and P4 is his own explanation of why fights don't usually go like that (adopted 02:40).
 - P6 is his "Big fuckity whoopty doo" exchange, word for word.
 
-**Next:** P11 (G11), rebuilt from its turn-11 drafts and reviews (the section record says how), then P12–P14 and "Make a Simple Vow". The plan for each is in the section record.
+**Next:** P11 (G11). Every checked draft so far was 100% AI on Pangram (three, from two briefs), so it's with Joel for his version or a minimal fix; the drafts and reviews are in the section record. Then P12–P14 and "Make a Simple Vow". The plan for each is in the section record.
 - Run the grounding reviewer on every draft (`tools/humanization/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
 - It also lists the reader's open questions, sized by a push knob (`--push tight|default|wide`; the default is `default`: small changes only). Take ASK AUTHOR items to Joel, and put parked ones in `articles/inner-child-therapy/PARKED-READER-QUESTIONS.md`, not in the article.
 - Give the cold read `"earlier": "section"` in the target, so it sees what a reader has already read.
@@ -49,6 +49,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
   - the in-context page: `tools/humanization/render_in_context.py $A/tools/in-context/<map>.json OUT --article $A/HUMANIZED-ARTICLE-SO-FAR.md --source $A/master.html --source-label "Guide original" --since <the commit Joel last saw>`.
 
 **Open for Joel:**
+- P11: his version or a minimal fix (every draft 100% AI on Pangram).
 - The emoji placements, for his yes or no (he said he'd keep correcting them).
 - The P10 proposal (not installed), and P10's example line "If you'd gotten it together at fifteen, you could have saved everybody."
 - The moved relationship paragraph (he hasn't said yet).
