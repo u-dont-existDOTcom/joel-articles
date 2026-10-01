@@ -1,6 +1,6 @@
 # Community article candidate: status
 
-**Section 2 (2026-10-01): not done, nothing installed.** The most faithful version reads 41% AI as a section (the published one, 92%), with three flagged spans. Six questions for Joel, each with my opinion, are in `s2/REPORT-s2-20261001.md`.
+**Section 2 (2026-10-01, v3): a candidate, in `HUMANIZED-SO-FAR.md`.** Every paragraph reads 100% Human on Pangram alone, or with its neighbor where it is under 50 words, and the section 100% Human (618 words). It uses Joel's own C10 and C11, his edits, Emulate-based paragraphs with one-word fixes, and three paragraphs by the system's own writers. Four questions for Joel are on `community-section2-side-by-side.html`. Records: `s2/PREDICTIONS-s2.md`, `s2/r4/pangram-s2.jsonl`, `s2/TRACE-v3.md`, `s2/SENSE-v3.md`, `s2/GROUNDING-v3.md`; the morning's report is `s2/REPORT-s2-20261001.md`.
 
 **Paused (2026-09-30, 16:10 UTC onward).** Joel asked whether this work runs under the inner child chat's rules, and said to keep going only if it does. It doesn't: section 1 was assembled without most of that chat's gate (`articles/inner-child-therapy/tools/HUMANIZATION-GATE.md` on the inner child branch). The three articles wait until that chat has reviewed `EMULATE-FALLBACK-INSTRUCTIONS.md` and Joel has decided how they go on.
 
