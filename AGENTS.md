@@ -9,7 +9,7 @@
 5. Exact citation/editorial/detector records and Git history
 6. Relevant current patterns from `u-dont-existDOTcom/universal-dev-architecture`
 
-This repository is active and currently registers Romance, Somatic Therapies, and Inner Child Therapy as working canonical articles. Do not substitute historical branches, chat reconstruction, detached packets, or filenames for a registered article family.
+This repository is active and currently registers Romance, Somatic Therapies, Inner Child Therapy, Inner Signal, and Nibbāna as working canonical articles. Do not substitute historical branches, chat reconstruction, detached packets, or filenames for a registered article family.
 
 ## Recovery before editing
 
@@ -33,6 +33,12 @@ When parallel chats/agents may touch the same article task, the article task bra
 For P2S/P3/P4 humanization, D3/D4 reconstruction, or detector-driven semantic edits, `docs/HUMANIZATION-PRESERVATION-GATE.md` is blocking **before detector submission**. Freeze the authoritative changed scope, enumerate preservation units and the authorized-change whitelist before drafting, then require bidirectional source↔candidate traceability with **zero unexplained substantive deltas**. Re-run that proof after every detector-driven semantic edit. A detector-green candidate that fails preservation is fidelity-rejected and cannot be promoted.
 
 For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is also blocking: re-run the article-wide architecture regression after every detector-driven edit. Do not narrow the editorial field of view to the last detector window.
+
+**One set of humanization rules for every article (Joel, 2026-09-30).** Any humanization or detector-driven pass, in any chat, on any article, runs the same shared rules. That covers registered articles, unregistered ones, experiments, and work that uses Emulate. The rules are the gates in `docs/INDEX.md` and the working gate `docs/HUMANIZATION-GATE.md` with its tools.
+- A chat, lane, experiment or directive may add owner rulings for its own article, in that article's folder. It may not replace, weaken or skip the shared rules.
+- A lesson that applies beyond one article goes into the shared files in the same turn, not into a chat's own file.
+- The order: the system first (sense, preservation, fresh writers, the linter and tell ledger, the reviewer-writer loop), then Pangram as the outside check. Emulate goes first on the flagged paragraphs of a published article being humanized, and only after the reviewer-writer loop has failed on new writing (Joel, 2026-09-30; `docs/EMULATE-FALLBACK.md`).
+- Pangram and Emulate stay fallbacks until the system is shown to be enough on its own.
 
 Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invitation/de-escalation language belongs or when an owner-approved AI/synthetic draft carries useful thought architecture. Protected function and correct placement are separate judgments.
 
@@ -81,3 +87,7 @@ Treat chat as disposable working memory. A fresh worker must recover the correct
 ## Stop conditions
 
 Stop and obtain an owner decision before choosing a copyright/license posture, selecting between competing canonical masters, making substantive prose changes without a registered authority package, publishing/exporting, or releasing source material that contains credentials, private third-party data, or material explicitly marked private/confidential. Joel's own working material is public-GitHub-eligible by default under `SKILL.md`; that default does not authorize external publication or override independent privacy obligations.
+
+## Suggested fixes from other projects
+
+Before starting other fixes here, read this repository's lane in `u-dont-existDOTcom/universal-dev-architecture`: `suggested-fixes/joel-articles/` on its default branch. Handle each item that `docs/suggested-fixes-ledger.md` doesn't list yet, along with your other work. You can adopt it, adapt it, decline it with a reason, defer it until a named trigger, or ask the owner on your owner questions page. Record the outcome in that ledger, creating the file if needed. Items are advice, and this repository's own authority decides; an item marked as an owner request goes to the owner before you decline or defer it. The method is `patterns/suggested-fix-queue.md` in that repository.

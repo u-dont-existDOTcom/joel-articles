@@ -102,6 +102,22 @@ The candidate is detector-ready only after:
 
 A failed Pangram call can still reveal new context/boundary behavior. When that happens, diagnose the whole resulting boundary again rather than automatically toggling the highlighted sentence.
 
+### 5a. Separate editorial context from detector certification boundary
+
+The unpaid review boundary and the paid detector boundary serve different jobs.
+
+- **Editorial/fresh-reader audit:** use enough surrounding natural context to judge why-now, audience, transitions, antecedents, and section fit.
+- **First Pangram certification of a changed model-written unit:** submit the smallest complete changed reader-visible unit that can stand on its own (for example, the revised paragraph, H2, or section).
+- **Natural-boundary Pangram:** run later only when context interaction or integrated publication behavior is itself decision-relevant.
+
+Do not use a context-rich natural boundary as a substitute for the changed-unit measurement. In particular, if any neighboring prose is already known-bad, unresolved, or detector-red, exclude it from the first certification call for the changed unit. Otherwise a whole-boundary failure cannot tell whether the changed unit failed or the neighbor contaminated the score.
+
+Execution order for a technically meaningful changed section is therefore:
+
+**changed unit alone → interpret exact result → natural boundary only if still useful for integration/context**.
+
+If a larger boundary was mistakenly tested first and contains known-bad neighboring prose, preserve that result as boundary-level evidence but do not treat it as evidence that the changed unit itself failed. The corrective next call is the changed unit alone, not another rewrite.
+
 ## 6. Controlled experiments belong to detector-research mode
 
 Minimal pairs, one-factor edits, factorial designs, exact repeats, and mechanistic causal localization are valuable when **learning how Pangram behaves** is itself the task.

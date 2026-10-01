@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-signal",
+  "revision": "r03-candidate",
+  "baseline_sha256": "75492a8ac9b1cfb9adc34a6e5e29d04af5efacdb245eaf52dd2a1b409d714373",
+  "candidate_sha256": "842bead8f862873e6b5391cfa06bacb4ddfa3910568876112f45bef8fd3b24ab",
+  "exact_reversible_edits": 24,
+  "unexplained_substantive_deltas": 0,
+  "full_unchanged_sections": 31,
+  "native_objects_unchanged_byte_for_byte_in_order": 8,
+  "h1_order_preserved": true,
+  "links_in_order_preserved_except_one_named_sandbox_anchor_repair": true,
+  "new_links": 2,
+  "old_link_occurrences": 46,
+  "current_link_occurrences": 48,
+  "spoken_passages_contain_no_added_citations": true,
+  "source_function_mappings": [
+    {
+      "patch": "R03-01",
+      "source_anchors": [],
+      "disposition": "mechanical link/number repair",
+      "reason": "Follow the owner-pasted appendix numbering; do not restore the moved anecdote."
+    },
+    {
+      "patch": "R03-02",
+      "source_anchors": [
+        "A Witness Is Enough to Begin",
+        "How This Relates to IFS"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Preserve spiritual entry while distinguishing witness access from developed adult capacities."
+    },
+    {
+      "patch": "R03-03",
+      "source_anchors": [
+        "The Three Adult Functions"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Carry worth/capacity distinction and positive child contribution, not only wound management."
+    },
+    {
+      "patch": "R03-04",
+      "source_anchors": [
+        "A Witness Is Enough to Begin"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Avoid re-prescribing an acquired witness skill."
+    },
+    {
+      "patch": "R03-05",
+      "source_anchors": [
+        "Borrow One Function at a Time",
+        "Borrow Love—or Borrow the Perspective of Care",
+        "Become the Adult Apprentice"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Provide a realistic proxy without biography requirements and support the adult side of the relationship."
+    },
+    {
+      "patch": "R03-06",
+      "source_anchors": [
+        "Love Doesn’t Have to Wait for Trust",
+        "Make the Protector Visible"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Add current central relational distinction without importing the companion article’s personal anecdotes."
+    },
+    {
+      "patch": "R03-07",
+      "source_anchors": [
+        "The Three Adult Functions"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Preserve enjoyment as a complete relational purpose."
+    },
+    {
+      "patch": "R03-08",
+      "source_anchors": [
+        "Make the Protector Visible"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Keep real-world competence while avoiding productivity-only outcome judgments."
+    },
+    {
+      "patch": "R03-09",
+      "source_anchors": [
+        "Make the Protector Visible",
+        "The Inner Guide Comes Later",
+        "Timing is individual"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Remove fixed ordering that conflicts with the current companion guide; preserve the spiritual invocation."
+    },
+    {
+      "patch": "R03-10",
+      "source_anchors": [
+        "The Inner Guide Comes Later"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Preserve standards while correcting forced-adulthood overcontrol."
+    },
+    {
+      "patch": "R03-11",
+      "source_anchors": [
+        "Love Doesn’t Have to Wait for Trust",
+        "Make a Simple Vow"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Align the hypothetical exchange with love plus accountable hearing, without demanding belief."
+    },
+    {
+      "patch": "R03-12",
+      "source_anchors": [
+        "Also Look Outward"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Keep present relational reality and personal responsibility alongside inward exploration."
+    },
+    {
+      "patch": "R03-13",
+      "source_anchors": [
+        "A Witness Is Enough to Begin",
+        "Borrow One Function at a Time"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Repair the core-practice dependency, not only the earlier explanation."
+    },
+    {
+      "patch": "R03-14",
+      "source_anchors": [
+        "Borrow Love—or Borrow the Perspective of Care",
+        "Somatic Heart Opening"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Distinguish resource mismatch and grief following care from global incapacity."
+    },
+    {
+      "patch": "R03-15",
+      "source_anchors": [
+        "A Witness Is Enough to Begin",
+        "Borrow Love—or Borrow the Perspective of Care"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Keep alternatives accessible and avoid a compulsory witness/bootstrap loop."
+    },
+    {
+      "patch": "R03-16",
+      "source_anchors": [
+        "When the Spiritual Relationship Hurts",
+        "How Much Happiness Do You Know Is Possible?",
+        "Timing is individual"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Preserve spiritual possibility and distinguish spiritual struggle from bypass."
+    },
+    {
+      "patch": "R03-17",
+      "source_anchors": [
+        "When More Processing Becomes the Hook"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Preserve the live-work versus repetitive-checking discriminator and ordinary-life endpoint."
+    },
+    {
+      "patch": "R03-18",
+      "source_anchors": [],
+      "disposition": "mechanical link/number repair",
+      "reason": "Repair the sandbox-origin URL to the actual article-local anchor."
+    },
+    {
+      "patch": "R03-19",
+      "source_anchors": [],
+      "disposition": "mechanical link/number repair",
+      "reason": "Supply the unique target for the corrected in-article link."
+    },
+    {
+      "patch": "R03-20",
+      "source_anchors": [
+        "Borrowed Adulthood in Relationship"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Keep mutual peer support distinct from clinician hierarchy and permanent dependency."
+    },
+    {
+      "patch": "R03-21",
+      "source_anchors": [
+        "How to Forgive Without Forgetting"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Carry the owner’s causal framing without weakening accountability or boundaries."
+    },
+    {
+      "patch": "R03-22",
+      "source_anchors": [
+        "How to Forgive Without Forgetting"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Add the current self-forgiveness procedure without requiring forgiveness as a safety prerequisite."
+    },
+    {
+      "patch": "R03-23",
+      "source_anchors": [
+        "Altered States Can Deepen the Therapy",
+        "How Much Happiness Do You Know Is Possible?"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Preserve experienced/conditional/reliable access instead of state chasing; do not restore owner-removed triage prose."
+    },
+    {
+      "patch": "R03-24",
+      "source_anchors": [
+        "Related Clinical Work",
+        "The Three Adult Functions"
+      ],
+      "disposition": "localized synchronization",
+      "reason": "Make the current companion-method dependency visible without citations inside the spoken practice."
+    }
+  ],
+  "review": "Two same-context source/delta/assembled-text passes; not independent; claims outside sync scope not re-fact-checked."
+}

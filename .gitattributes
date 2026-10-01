@@ -4,3 +4,6 @@
 articles/romance/master.md whitespace=-blank-at-eol
 work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-master.md whitespace=-blank-at-eol
 work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/candidate-part-1.txt whitespace=-blank-at-eof
+# Hash-bound Inner Signal r03 unified-diff receipt: a context line reproduces a
+# blank line from the owner paste as a single leading space by diff format.
+articles/inner-signal/sync-r03/reader-diff.txt whitespace=-blank-at-eol

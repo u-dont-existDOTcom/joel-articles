@@ -1,0 +1,197 @@
+{
+  "format": "article-scoped-validation-delta-v1",
+  "article": "inner-signal",
+  "baseline_findings": [
+    {
+      "code": "article.owner-lock.missing",
+      "path": "articles/inner-signal/master.html",
+      "message": "Owner-locked passage 'P30' is absent from the registered master."
+    },
+    {
+      "code": "article.review.invalid",
+      "path": "articles/romance/CITATIONS.json",
+      "message": "'citations' record must be schema_version 1, match the article id, and contain a claims array."
+    },
+    {
+      "code": "article.state.incomplete",
+      "path": "articles/romance/CURRENT-STATE.md",
+      "message": "Article 'romance' current state is missing headings: blockers / unresolved, remaining."
+    },
+    {
+      "code": "article.field.invalid",
+      "path": "articles/INDEX.json",
+      "message": "Article 'somatic-therapies' reference 'editorial' needs a safe relative path and lowercase SHA-256."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/CURRENT-STATE.md",
+      "message": "Article 'inner-signal' reference 'current_state' expected 7ec78cf99087bf18918bf2936d2df261997f0961e3277c426b58083fef1c9281 but found a50e82de3176f50e924adc785eca4daf22eead509b8a5626f73c1a77c04f9134."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/inner-signal/INFOGRAPHIC-UPDATE-RECEIPT.json",
+      "message": "File is inside article 'inner-signal' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/OWNER-DIRECTIONS-R02.json",
+      "message": "Article 'inner-signal' reference 'additional_artifacts[3]' expected 5678171b141f44022e2ea294d8250d9c6ab19d937f6db6ea09549f93ab128b9f but found a42016871144e460baa627ccf7580546b5c2c3c15e383df6c8e58e22171bc4db."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/inner-signal/assets/self-hypnosis-at-a-glance-r02.png",
+      "message": "File is inside article 'inner-signal' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/inner-signal/assets/self-hypnosis-at-a-glance-r02.svg",
+      "message": "File is inside article 'inner-signal' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/inner-signal/assets/when-self-hypnosis-gets-intense-r02.png",
+      "message": "File is inside article 'inner-signal' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/inner-signal/assets/when-self-hypnosis-gets-intense-r02.svg",
+      "message": "File is inside article 'inner-signal' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/exports/COPY-TO-SUBSTACK.html",
+      "message": "Article 'inner-signal' reference 'publication_exports[0]' expected f2779a7788220fd6d73ab956f108c3e4365bec6ce9f34684444c4ef6309223e0 but found b255e8dca202a16624599a29c26ddcb9566f8a61e4d87ba4aa1027ff393dc90e."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/exports/HELPER-RECEIPT.json",
+      "message": "Article 'inner-signal' reference 'additional_artifacts[7]' expected 2960183e4cff92e561c1ab9f57f9b84f25498fd1f96054a5d9f552083018f695 but found f83b42299f1293621ea7d1294f0266e862aa07a86defa5a572e81305233d50a9."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/exports/inner-signal-r02-candidate.html",
+      "message": "Article 'inner-signal' reference 'publication_exports[1]' expected 06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9 but found 2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/exports/objects.json",
+      "message": "Article 'inner-signal' reference 'additional_artifacts[9]' expected a2a10398f53b1578b1bfd06aed0ec64844e17627cad3988fabb1bfdffc2aa00c but found 009bf76219bbd704057e308dc51e0cc1ea6289b63e8a1e37a9015bc9544a2fe4."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/exports/transfer-plan.json",
+      "message": "Article 'inner-signal' reference 'additional_artifacts[10]' expected 480d1e30ce67292d171a87b77109e3869b2e61bca399870ae2a1fcef225a69bf but found 5637891f1411e598893e71ad87aa9cf8b511a8dd6a321694bb8fe4b889cdebbc."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/exports/transfer-report.md",
+      "message": "Article 'inner-signal' reference 'additional_artifacts[11]' expected 8f5dedb6006d1f33646f35cf5e171639b4af2c0a841a9a885515d54d76fcc7c7 but found 4de364f09ad390e08a2d282be6b55045ee24c40a43cb24fd633fb171e11a6e73."
+    },
+    {
+      "code": "article.hash.mismatch",
+      "path": "articles/inner-signal/master.html",
+      "message": "Article 'inner-signal' reference 'master' expected 06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9 but found 2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/romance/review/FINAL-CORRECTIONS-20260824.md",
+      "message": "File is inside article 'romance' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-CURRENT-MANUAL-TASK-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-EXTERNAL-PROGRESS-CONTROLLER-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-OWNER-COLD-PASS-RULE-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-PROGRESS-CONTROLLER-CODEX-WORKER-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-SUPERVISED-WRITING-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    }
+  ],
+  "current_findings": [
+    {
+      "code": "article.review.invalid",
+      "path": "articles/romance/CITATIONS.json",
+      "message": "'citations' record must be schema_version 1, match the article id, and contain a claims array."
+    },
+    {
+      "code": "article.state.incomplete",
+      "path": "articles/romance/CURRENT-STATE.md",
+      "message": "Article 'romance' current state is missing headings: blockers / unresolved, remaining."
+    },
+    {
+      "code": "article.field.invalid",
+      "path": "articles/INDEX.json",
+      "message": "Article 'somatic-therapies' reference 'editorial' needs a safe relative path and lowercase SHA-256."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/romance/review/FINAL-CORRECTIONS-20260824.md",
+      "message": "File is inside article 'romance' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-ACTIVE-LESSON-CONTRACT-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-CURRENT-MANUAL-TASK-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-EXTERNAL-PROGRESS-CONTROLLER-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-OWNER-COLD-PASS-RULE-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-PROGRESS-CONTROLLER-CODEX-WORKER-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-INTRO-SUPERVISED-WRITING-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    },
+    {
+      "code": "article.file.unregistered",
+      "path": "articles/somatic-therapies/experiments/SOMATIC-MANUAL-HUMANIZATION-WRITER-STATE-20260831.md",
+      "message": "File is inside article 'somatic-therapies' but is absent from its authority, review, export, and additional-artifact inventory."
+    }
+  ],
+  "target_findings": [],
+  "new_unrelated_findings": [],
+  "global_result": "fail-existing-findings",
+  "scope_result": "pass"
+}

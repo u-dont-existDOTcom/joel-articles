@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "article_id": "nibbana",
+  "status": "recorded",
+  "runs": [
+    {
+      "id": "OWNER-REPORT-20260928-PANGRAM",
+      "detector": "Pangram",
+      "timestamp": "2026-09-28",
+      "scope": "Current supplied Substack article, registered as master.html @ sha256:5e42c5a85ef8dfd20ed1386ee5a12028efdeab6bbb978028e2f61e426f4c5ee9",
+      "result": "owner reports all current prose is passing Pangram",
+      "provenance": "direct owner statement in current chat",
+      "limitations": "Exact per-boundary submitted texts, Pangram version/model metadata, timestamps, scores, and raw run receipts were not supplied in this import. This record is not an independent rerun and does not establish natural-human authorship."
+    }
+  ]
+}

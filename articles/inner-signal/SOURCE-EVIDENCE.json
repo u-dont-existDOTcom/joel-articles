@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "article_id": "inner-signal",
+  "claims": [
+    {
+      "id": "SRC01",
+      "role": "owner-supplied HTML authority",
+      "path": "source/owner-editor-original.html",
+      "sha256": "d7e923898a10edad0601c7cbd581fec7b0c90233f16ae005ca1fad61b6082893"
+    },
+    {
+      "id": "SRC02",
+      "role": "owner-authorized sleep-only editing baseline",
+      "path": "source/sleep-only-r01.html",
+      "sha256": "b2f34f89b5b2c6c668f6b34983a5fc6a05acc462ae7c568f031f643a6f0a70ac"
+    },
+    {
+      "id": "SRC03",
+      "role": "accepted design/reference, not all wording owner-final",
+      "path": "research/inner-signal/reference-v1/GUIDE-CITATIONS-AND-REWRITE.md"
+    },
+    {
+      "id": "SRC04",
+      "role": "source-linked teaching reference; original paraphrases, no book redistribution",
+      "path": "research/inner-signal/reference-v1/TEACHING-REFERENCE.md"
+    },
+    {
+      "id": "SRC05",
+      "role": "current owner-supplied editor HTML; immediate editing authority",
+      "path": "source/owner-editor-20260911.html",
+      "sha256": "75492a8ac9b1cfb9adc34a6e5e29d04af5efacdb245eaf52dd2a1b409d714373"
+    },
+    {
+      "id": "SRC06",
+      "role": "current owner-supplied inner-child companion; synchronization basis, not external proof",
+      "path": "source/inner-child-owner-20260911.md",
+      "sha256": "0067dd79c8366a2ce9370529564ba7be1b65162c6fbba860684076de951395da"
+    },
+    {
+      "id": "SRC07",
+      "role": "prior registered bytes preserved despite stale registry hash",
+      "path": "source/r02-pre-sync-git.html",
+      "sha256": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3"
+    }
+  ]
+}

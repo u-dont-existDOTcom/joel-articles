@@ -1,0 +1,28 @@
+{
+  "format": "inner-signal-infographic-update-v1",
+  "owner_direction": "U10",
+  "source_branch": "research/hypnosis-bottom-up-six-books-20260910",
+  "master_sha256_before": "06987f70e7264a5ac72d132e4b8420cf75cda60f33bbb430c83a0146e612adf9",
+  "master_sha256_after": "2b49d55b1dd6ea76e2a7c5796779628a449c5b6654b94805e7c1081479f3ecf3",
+  "candidate_matches_master": true,
+  "updates": [
+    {
+      "old_token": "4622f57c-6bf5-48bf-80bb-d240080f21f3_1024x1536.png",
+      "new_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/research/hypnosis-bottom-up-six-books-20260910/articles/inner-signal/assets/self-hypnosis-at-a-glance-r02.png",
+      "reason": "Old image imposed a fixed 2/5/5/2/1 timetable, overgeneralized Protector-first causality, and omitted the revised response-contingent full-return sequence.",
+      "old_object_sha256": "57828c3f49967511ed3b0fa18bf959d16b7cf964f6a1a6809f593a7d3e013896",
+      "new_object_sha256": "57aaba8f985689282b29247be12c4e67d3503eabd9e98748fb7c3ce5af4f2fe9",
+      "new_asset_sha256": "98f7f8fefe26ac72b2fed3c0a55a585504a0a7bfa6348dee6006009a610569cf",
+      "url_replacements": 12
+    },
+    {
+      "old_token": "9dfde6e0-b525-46ef-b434-c6eb753192d1_1024x1536.png",
+      "new_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/research/hypnosis-bottom-up-six-books-20260910/articles/inner-signal/assets/when-self-hypnosis-gets-intense-r02.png",
+      "reason": "Old image inferred Protector causality from nonspecific experiences, reduced daydreaming to a false binary, and delayed clinician review for serious warning signs.",
+      "old_object_sha256": "01ee1d5268759fb08f5418b441299ad477c6175fc60342fda552996630a2a11f",
+      "new_object_sha256": "d928fa34f7114e953ecadb67ca61bc50c90f0415e7ce7bb7d8142425c11cf5c4",
+      "new_asset_sha256": "7b8f633a586c1d477744e2929d72268afa8e2ec99b0d2855403d861fd14322ac",
+      "url_replacements": 12
+    }
+  ]
+}

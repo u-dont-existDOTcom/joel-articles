@@ -1,0 +1,67 @@
+{
+  "format": "comment-resolution-ledger-v1",
+  "unresolved_owner_direction_count": 0,
+  "items": [
+    {
+      "id": "U01",
+      "quote": "ok update the guide then use the validated clipboard helper in the repo to give me the copy button for substack",
+      "status": "implemented",
+      "resolution": "Executed bounded rewrite and exact canonical helper."
+    },
+    {
+      "id": "U02",
+      "quote": "don't remove or move my human sections into appendix tho without consulting me.",
+      "status": "implemented",
+      "resolution": "Preserved human/personal and uncertain/mixed material in place; exact lock and interval proof."
+    },
+    {
+      "id": "U03",
+      "quote": "i agree with that.",
+      "status": "implemented",
+      "resolution": "Accepted preceding bounded audit/cue/support changes in direction; exact new wording remains candidate."
+    },
+    {
+      "id": "U04",
+      "quote": "the prototype looked good.",
+      "status": "implemented",
+      "resolution": "Retained its main practice architecture; no clinical or blanket wording approval inferred."
+    },
+    {
+      "id": "U05",
+      "quote": "probably not many citations needed, just an appendix is my thinking.",
+      "status": "implemented",
+      "resolution": "Added section-matched Appendix L; new spoken passages contain no source codes or links."
+    },
+    {
+      "id": "U06",
+      "quote": "i noticed you put  citations into the actual hypno script which was funny.",
+      "status": "implemented",
+      "resolution": "Removed the working-note citation style from the user-facing practice."
+    },
+    {
+      "id": "U07",
+      "quote": "we can fully remove the sleep script and just point to Nimja's sleep playlist:",
+      "status": "implemented",
+      "resolution": "Preserved prior exact sleep-only change and owner-selected URL."
+    },
+    {
+      "id": "U08",
+      "quote": "I agree that interactive doesn't need to be with the app, I never used an app, just did it on my own.",
+      "status": "implemented",
+      "resolution": "Guide is self-led; app optional; no mandatory practitioner progression."
+    },
+    {
+      "id": "U09",
+      "quote": "the app may need to know quite a lot more than just what's in the guide",
+      "status": "implemented",
+      "resolution": "Reference-v1 retained separately; deployed app not changed or claimed trained."
+    },
+    {
+      "id": "U10",
+      "quote": "now check if these images need to be updated in the guide. if so, update them",
+      "status": "implemented",
+      "resolution": "Audited both infographics against r02, replaced both stale image objects with r02-aligned versions, and regenerated the canonical Substack transfer artifacts."
+    }
+  ],
+  "scope_note": "App implementation, publication, destination testing and clinical efficacy not requested/completed by this editorial pass."
+}

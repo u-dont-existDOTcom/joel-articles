@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "article_id": "nibbana",
+  "status": "pending",
+  "claims": [
+    {
+      "id": "IMPORT-SOURCE",
+      "status": "not_applicable",
+      "scope": "Registration imports the exact owner-supplied Substack editor body; source identity is established by the supplied bytes, not by an external citation."
+    },
+    {
+      "id": "LEGACY-LINKED-CLAIMS",
+      "status": "pending",
+      "scope": "The current article contains extensive Buddhist-text, science, historical, biographical, and personal claims and links. This registration did not perform a fresh whole-article verification pass and does not certify them."
+    }
+  ]
+}
