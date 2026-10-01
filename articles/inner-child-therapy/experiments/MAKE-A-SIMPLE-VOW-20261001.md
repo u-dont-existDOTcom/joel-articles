@@ -58,3 +58,26 @@ The h2 and P1–P5 together: 100% Human (326 words), try 1 with this P5.
 
 ### Where it stands
 Make a Simple Vow is done: the h2 and P1–P5, 100% Human together (326 words). Open for Joel: four proposals (the vow, P3, P4, P5) and the P1 cut. Next is the guide's h3 "Give the Vow a Physical Reminder".
+
+## Turn 14 (2026-10-01, from 20:51 UTC): Joel's fixes
+
+Joel: "P2 proposal is good", "P4 proposal is good". P1: "the last line is like a semi quip, but actually it should say that it does really help to imagine holding a baby in your arms to make the vow feel real. Imagine you just had a baby, how would you feel? Would you look at him/her with adoration and joy? Carry that into visualizing yourself with your own inner child. (or is this already said somewhere?)" P3: "change mean to feel", "I think P3 proposal is over-explaining", and his own P3. P5: "it sounds too biased towards adulting", and his own P5, which ends on the turn-13 proposal. Then "continue".
+
+### What changed
+- P1: the swing line is out (E106). In its place are his words, with his last period made a colon into the vow. 100% Human alone (73, short text), try 1.
+- The line after the vow (his adopted proposal), and P4's adopted sentence.
+- P3 and P5: his, word for word. P3 is too short at 49 words for Pangram to score alone. P5 alone is 100% Human (105, short text), try 1.
+- The h2 through P5 with all of it: 100% Human (445), try 1.
+
+### Already said somewhere?
+Partly. Borrow Love has the same move with a dog or a kid: "So let the dog go first. Or your kid, or whoever you love without trying … Then see if some of it can go to your little one". It has no newborn, and it isn't tied to the vow. The Chicken-and-Egg Problem has "playing house as a kid where you imagined how you'd take care of a baby doll".
+
+### The reviews of P1 (his words; the points went to him)
+- Cold read: "It does really help" first reads as if "It" is the vow, and the baby has no setup until the last sentence. The whole paragraph reads OK.
+- Grounding: the guide made the picture optional ("with or without"), and "It does really help" promises it does. "Imagine you just had a baby" could hand grief to a reader who lost one. "Would you look at him/her with adoration and joy?" assumes the answer; his P3, right after the vow ("If you don't feel the love yet …"), covers that reader. The hand-off repeats Borrow Love's.
+
+### Emoji
+None this turn. I'd thought of 🥹 after "adoration and joy?", but the grounding said that question already assumes the feeling, and an emoji there would push it further, so that check wasn't run.
+
+### Where it stands
+Make a Simple Vow: the h2 and P1–P5, 100% Human together (445 words). Its comments in the article say what's Joel's.

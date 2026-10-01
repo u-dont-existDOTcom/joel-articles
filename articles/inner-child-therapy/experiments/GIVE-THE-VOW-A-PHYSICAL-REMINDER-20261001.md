@@ -14,3 +14,23 @@ The guide's h3 under "Make a Simple Vow", still under `# Building Trust With You
 | G4 | A calm pet can keep you company while you settle, but it's a living companion, not a prop; let them come and go without making them responsible for the session | P3, the end of the section. The article's dog is in Borrow Love ("Your dog can chew up your good shoes and be forgiven…", "So let the dog go first"); "settle" is the slower exhales from Your Body Might Need Some Love First. |
 
 After it comes the guide's h1 "When the Adult Voice Feels Fake".
+
+## Turn 14 (2026-10-01): the rounds
+
+### The opening (G1 + G2), stuck at first
+- Round one, three fresh writers, one paragraph each: a and c 100% AI alone (95, 96 words), try 1, flagged whole. Cold reads couldn't place "the Nurturer or Protector" (the section-only view; the article names them in The Chicken-and-Egg Problem), found "sober" from nowhere, and said "it isn't your little one talking" answered a worry nobody had raised. The grounding of c flagged "even if they used to do its voice" (CHANGED; MUST).
+- Round two, a brief naming the failure: a, b and c 100% AI alone (92, 91, 90), try 1. They reordered the same points.
+- Claude's three, changing the voice (E104): a first-person "I'd decide … not halfway through a bad night", a voiced reader question ("A grown adult with a teddy bear?" Yep!), a goofy aside "(no judgment)". All 100% AI (88, 82, 82), try 1.
+- All eight carried the guide's "steady and kind", "calm and sober" and "the Nurturer or Protector you're practicing being" as a list of instructions.
+- Claude's split into the guide's own two paragraphs: with "steady and kind" kept, 100% AI (99); in plainer words ("I mean an actual thing", "on a calm, sober day", "And then don't start asking it what to do!"), 100% Human (92), try 1.
+- Its grounding: the dropped "steady and kind" was a MUST (a toy from a hard childhood can bring the old fear back), so "Just make sure it feels kind to you now."; and "when you put it there" didn't fit a stuffed animal that's been on the bed for years, so "what you decided that day". With both: 100% Human (98), try 1. The cold read had the Nurturer and Protector unplaced (section-only) and "asking it what to do" a beat early; the rest OK.
+- Cut: "It doesn't speak for the child". Every cold read tripped on it, and P2 makes the object the grown-up's reminder (parked).
+
+### The note (G3) and the pet (G4): not installed
+- Two writers' notes kept the guide's sentence and its quoted note nearly word for word, as the brief asked (E110). With the opening: 100% AI (142, 149), the whole section flagged.
+- Claude's two plain notes ("Bed by eleven, and no calling us names."): 100% AI (133 each), the whole section flagged.
+- Three writers' pet paragraphs ("go stretch out on the kitchen tiles", "even right in the middle", "go flop down in the hall if he wants"), each after the opening with no note: 100% AI (160, 156, 161), the whole section flagged.
+- So the opening passes only at its own length. This goes to Joel: his own note and pet paragraphs, a minimal fix to the opening, or true details (does he keep an object, a note or a pet for this?).
+
+### Where it stands
+The h3 and P1–P2 are installed, 100% Human together (98 words). G3 and G4 wait on Joel. Then the guide's h1 "When the Adult Voice Feels Fake".

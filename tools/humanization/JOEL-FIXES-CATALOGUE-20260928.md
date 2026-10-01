@@ -234,3 +234,11 @@ He agreed with two reviewer flags on his own lines and asked me to write the fix
 ## Joel's notes, 2026-10-01 17:50 UTC
 
 - **Love Doesn't Wait P12 and P13.** "P12 proposal accepted, P13 proposal accepted". Both installed as proposed; the section with them is 100% Human (1,236), try 1.
+
+## Joel's notes, 2026-10-01 20:51 UTC
+
+- **Make a Simple Vow P1.** "the last line is like a semi quip, but actually it should say that it does really help to imagine holding a baby in your arms to make the vow feel real. Imagine you just had a baby, how would you feel? Would you look at him/her with adoration and joy? Carry that into visualizing yourself with your own inner child." Installed in his words in place of the swing (E106). 100% Human alone (73), try 1.
+- **P3.** "for P3 i'd change mean to feel. So it's not like we are accusing people of lying about loving their inner child, but they might be faking it til they make it. Which i did advocate before, but i think that was the protector part? I don't think faking love is a good idea because that's not an action that speaks for itself, it's a feeling that we have to trust is there." And "I think P3 proposal is over-explaining why this is important to be honest about love before promising honesty. I'd cut P3 to:" his 49 words, installed word for word (E107, E108). His memory is right: "Fake it til you make it" is in Borrow One Competency at a Time, about the Protector's acts.
+- **P5.** "For P5 actually it sounds too biased towards adulting. P5 proposal is good but the base needs to be modified. I'd say:" his text, word for word, ending on the proposal (E109). 100% Human alone (105), try 1.
+- **Proposals.** "P2 proposal is good", "P4 proposal is good". Both installed.
+- What his fixes teach: a feeling can't be faked the way an act can be practiced; a proposal's why has to be one a reader would miss; and the little one isn't only a problem to manage.
