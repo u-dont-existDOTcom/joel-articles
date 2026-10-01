@@ -39,6 +39,10 @@ MAP.json:
  ]
 }
 "article" is the start of a paragraph in ARTICLE; "text" is a candidate that isn't in it.
+A "text" row that proposes a change to a paragraph in ARTICLE (its label says PROPOSAL, or it
+has "proposal_of": the start of that paragraph) is diffed against it, so the proposed words are
+highlighted and any cut ones struck (Joel, 2026-10-01 15:59: "on the proposals please highlight
+the new part that's proposed so it's easier to read").
 "source" lists starts of source paragraphs, or {"quote": ..., "from": ...} for part of one;
 [] for none. The lane's older key "guide" is read the same way. "note" is one line; "notes"
 is a list shown as bullets.
@@ -191,7 +195,18 @@ def main():
             items = r.get('source', r.get('guide', []))
             if 'text' in r:
                 text, links, state = r['text'], [], 'not in the article'
-                shown = flag_html(text, r['flag']) if r.get('flag') else html.escape(text)
+                base = None
+                if r.get('proposal_of'):
+                    base = plain(find(cur, r['proposal_of'], r.get('label', 'row')))[0]
+                elif 'PROPOSAL' in r.get('label', '').upper():
+                    base = best_match(text, cur)
+                if r.get('flag'):
+                    shown = flag_html(text, r['flag'])
+                elif base and base.translate(QUOTES) != text.translate(QUOTES):
+                    shown = diff_html(base, text)
+                    state = 'proposal, not in the article: highlighted words are what it adds to the paragraph that is'
+                else:
+                    shown = html.escape(text)
             else:
                 text, links = plain(find(cur, r['article'], r.get('label', 'row')))
                 if a.against_source:
