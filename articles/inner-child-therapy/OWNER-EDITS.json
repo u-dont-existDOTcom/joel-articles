@@ -739,16 +739,52 @@
   {
    "id": "vow-section-installed",
    "status": "applied",
-   "what": "Claim check: Make a Simple Vow is installed (the h2 and P1–P5), with the vow as a quote.",
+   "what": "Claim check: Make a Simple Vow is installed, with the vow as a quote.",
    "joel": "2026-10-01 17:50 UTC: \"continue\"",
    "where": "Make a Simple Vow",
    "must_contain": [
     "## Make a Simple Vow",
-    "If your promises still mean something to your little one, maybe because you've kept a few small ones, a quiet vow can help too. You can say it with or without picturing the two of you playing on a swing set:",
-    "> \"I know you're in there. I love you. You don't have to love me back or trust me yet. I can't promise that nothing painful will happen. Or that I'll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you're angry. I'll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I'll come back to make it right. You don't have to believe these words. Watch what I do.\"",
-    "Only say the \"I love you\" part if you mean it. If you don't, say the goodwill wish from earlier instead (\"May you be loving, peaceful, and free\"), if you can mean that one, and don't pretend it's the same thing. Or even just promise your little one you won't be cruel to them on purpose. (Then drop the \"love me back\" part too, but keep \"you don't have to trust me yet.\")",
-    "Whichever you choose, your little one may still answer with \"Big fuckity whoopty doo.\" That's allowed, and one beautiful session wouldn't convince me either. Pick one thing to do that's small enough to repeat. Maybe it's one you already tried in \"Not Every Hero Wears A Cape,\" or just keeping an appointment, eating, or going to bed.",
-    "Whenever your little one shows up, you go back to being their grown-up, and you're kind to them while you do it. Sometimes they show up as the one who doesn't want to go to bed."
+    "> \"I know you're in there. I love you. You don't have to love me back or trust me yet. I can't promise that nothing painful will happen. Or that I'll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you're angry. I'll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I'll come back to make it right. You don't have to believe these words. Watch what I do.\""
+   ]
+  },
+  {
+   "id": "vow-p2-proposal",
+   "status": "applied",
+   "what": "Claim check: the line after the vow (Joel's adopted proposal) is installed right after the quote.",
+   "joel": "2026-10-01 20:51 UTC: \"P2 proposal is good\"",
+   "where": "Make a Simple Vow",
+   "must_contain": [
+    "> \"I know you're in there. I love you. You don't have to love me back or trust me yet. I can't promise that nothing painful will happen. Or that I'll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you're angry. I'll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I'll come back to make it right. You don't have to believe these words. Watch what I do.\"\n\n"
+   ]
+  },
+  {
+   "id": "vow-p3-joel",
+   "status": "applied",
+   "what": "Claim check: Make a Simple Vow P3 is Joel's text, word for word.",
+   "joel": "2026-10-01 20:51 UTC: \"I'd cut P3 to:\"",
+   "where": "Make a Simple Vow",
+   "must_contain": [
+    "Only say the \"I love you\" part if you can feel it. If you don't feel the love yet, say you care (with the goodwill prayer from before). That's a first step. Or even before that, just promise your little one you won't be cruel to them on purpose."
+   ]
+  },
+  {
+   "id": "vow-p4-proposal",
+   "status": "applied",
+   "what": "Claim check: the P4 proposal's sentence (Joel adopted it) is installed after \"small enough to repeat\".",
+   "joel": "2026-10-01 20:51 UTC: \"P4 proposal is good\"",
+   "where": "Make a Simple Vow",
+   "must_contain": [
+    "Pick one thing to do that's small enough to repeat. A big gesture you later drop would only prove them right to doubt you, but a small thing you keep doing can change their mind."
+   ]
+  },
+  {
+   "id": "vow-p5-joel",
+   "status": "applied",
+   "what": "Claim check: Make a Simple Vow P5 is Joel's text, word for word.",
+   "joel": "2026-10-01 20:51 UTC: \"I'd say:\"",
+   "where": "Make a Simple Vow",
+   "must_contain": [
+    "Whenever your little one shows up looking for their parent, even if they don't know that's what they are doing, you go back to being the one they can rely on, and you're kind to them while you do it. If they show up to have some innocent fun, don't \"put them in their place\" as the adult. But sometimes they show up as the one who doesn't want to go to bed. Now you're in my mom's place: you still go to bed, and staying kind about it shows them bedtime isn't a lack of love."
    ]
   }
  ]
