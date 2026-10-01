@@ -1,0 +1,1 @@
+Later, when another influencer with a big following [floated the commune idea](https://instagram.com/p/DaLvZV2qIk2/), the comment section started to become a recruitment board. It was chaotic, but sincere, and it was revealing. There were people in the comments finding prospective members the way you’d usually find a used sofa.

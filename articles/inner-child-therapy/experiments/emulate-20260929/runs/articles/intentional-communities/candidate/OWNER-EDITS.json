@@ -1,0 +1,92 @@
+{
+ "about": "The community article's owner-edits ledger, in the shared format (tools/humanization/check_owner_edits.py). Joel's edits and rulings go in here as pending the turn he gives them, before any drafting (HUMANIZATION-GATE step 0). Checked against HUMANIZED-SO-FAR.md.",
+ "entries": [
+  {
+   "id": "s1-rulings",
+   "what": "Section 1 v3: Joel's rulings of 2026-09-30 (from v3/owner-edits-v3.json)",
+   "status": "applied",
+   "must_contain": [
+    "the same loneliness",
+    "being carried through",
+    "adventures mixed in",
+    "variety of personalities",
+    "I was happy there.",
+    "I couldn't tell whether",
+    "much bigger",
+    "highly structured political system that didn't seem intuitive for hippies",
+    "needed to talk about",
+    "Some people, including me,"
+   ],
+   "must_not_contain": [
+    "grew up on shoulders",
+    "boring as hell",
+    "very happy",
+    "struck me as odd",
+    "labor credit"
+   ]
+  },
+  {
+   "id": "s2-c10",
+   "what": "Section 2: Joel's own rewrite of the paragraph on what communal ownership needs (2026-10-01 14:49), with one spelling fix, \"leaching\" to \"leeching\" [in the section 2 v3 candidate]",
+   "status": "applied",
+   "joel": "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leaching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or try to act helpless.",
+   "must_contain": [
+    "Communal ownership entails folks taking on visible and named stewardship duties.",
+    "if someone is leeching off the group and how to deal with it",
+    "It requires developing healthier forms of relationships.",
+    "No, taking away the idea of a boss does not make everyone less passive, selfish, steal less,"
+   ]
+  },
+  {
+   "id": "s2-c11",
+   "what": "Section 2: Joel's own rewrite of the paragraph on wanting the old way of living back (2026-10-01 14:49) [in the section 2 v3 candidate]",
+   "status": "applied",
+   "joel": "People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby is born or someone thinks they own something. They just know they are tired and alone and want to change it.",
+   "must_contain": [
+    "People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby is born or someone thinks they own something.",
+    "They just know they are tired and alone and want to change it."
+   ]
+  },
+  {
+   "id": "s2-africa",
+   "what": "Section 2: Joel's Instagram paragraph, \"coming to Africa, where I'm at.\" (2026-10-01 14:49; the cold reader didn't know where he lives) [in the section 2 v3 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "I don't think she's coming to Africa, where I'm at."
+   ]
+  },
+  {
+   "id": "s2-c8",
+   "what": "Section 2: keep Joel's line \"as Instagram comments sometimes do\" (2026-10-01 14:49: \"keep mine of course\") [in the section 2 v3 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "The commune comments became a miniature political-philosophy seminar, as Instagram comments sometimes do."
+   ]
+  },
+  {
+   "id": "s2-c4-list",
+   "what": "Section 2, the AI paragraph: keep jobs, relationships and future outlook; feeds can go (2026-10-01 14:49) [in the section 2 v3 candidate]",
+   "status": "applied",
+   "span": {
+    "from": "Google Trends",
+    "to": "Chantress Seba",
+    "must_contain": [
+     "jobs",
+     "relationships",
+     "future"
+    ]
+   },
+   "must_not_contain": [
+    "feeds"
+   ]
+  },
+  {
+   "id": "s2-my-land",
+   "what": "Section 2: \"my land\" stays; it's a general idea, not a claim that he has land (2026-10-01 14:49) [in the section 2 v3 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "get you onto my land"
+   ]
+  }
+ ]
+}

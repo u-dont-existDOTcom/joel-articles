@@ -1,0 +1,47 @@
+{
+ "title": "Communes Are Hot Again: the new version beside yours",
+ "meta": "Community article · section 2 · v3 · 2026-10-01",
+ "intro": [
+  "Your published section is on the left. On the right is the new version: highlighted words are new, and struck words are ones that went.",
+  "The section reads 100% Human as a whole (618 words). Every paragraph reads 100% Human alone, or together with its neighbor where it's under 50 words, which is too short for Pangram to check alone.",
+  "Three questions are in the notes, on your two paragraphs and on \"IMO\". The last row is the AI paragraph with your 1972 line kept, as a proposal."
+ ],
+ "blocks": [
+  {
+   "headings": ["Communes Are Hot Again 🔥"],
+   "rows": [
+    {"label": "P1 · the advisory", "article": "Suddenly the longing behind my father’s movie", "source": ["The longing that shaped my father’s film"],
+     "notes": ["Written by one of the system's own writers, whose brief carried your rewrite of the freeloader paragraphs as the model of your voice. It passed where the six earlier drafts of this paragraph didn't.", "\"Rather than a sentimental extra\" is gone, since you said wording can flex. \"Or about the loneliness under it, at least.\" is the writer correcting itself, not a new fact.", "Pangram: 100% Human alone and with the next paragraph."]},
+    {"label": "P2 · epidemic", "article": "Whether you want to call that loneliness", "source": ["I’m less interested in declaring"],
+     "notes": ["From Emulate, with your list, \"They may disagree\" and \"the current arrangement\" back. Your first person (\"I'm less interested in declaring...\") became \"Whether you want to call...\". It does the same job.", "\"Starvin’\" is Emulate's. I'd keep it, since it echoes your \"poppin’\" two paragraphs down.", "Pangram: 100% Human alone."]},
+    {"label": "P3 · Google Trends", "article": "Check out the Google Trends", "source": ["Look at Google Trends"],
+     "notes": ["From Emulate. \"Skyrocketing\" became \"climbed sharply\": your word, in the past tense as yours has it.", "This was the line that kept failing: every version of the next paragraph that passed alone failed after the old wording of this one.", "Pangram: 100% Human with the next paragraph (it's too short alone)."]},
+    {"label": "P4 · AI", "article": "I have no proof that the rise of AI caused this turn", "source": ["I can’t prove AI caused that turn."],
+     "notes": ["From Emulate. \"Connected to this uptick\" became \"caused this turn\": your claim is about cause, and \"uptick\" was too small for \"sharply\". Your three are in: jobs, relationships, the future. \"Feeds\" is gone.", "Your 1972 line is said plainly: \"Suddenly, forming a village sounded like a backup plan.\" Emulate cut the line in all four of its versions and never replaced it. The version that keeps it is the last row.", "Pangram: 100% Human alone and with the paragraph before."]},
+    {"label": "P5 · Instagram (yours)", "article": "It’s poppin’ on Instagram too!", "source": ["It’s poppin’ on Instagram too!"],
+     "notes": ["Yours, with your edit: \"coming to Africa, where I'm at.\"", "Pangram: 100% Human alone."]},
+    {"label": "P6 · the sofa", "article": "Later, when another influencer with a big following", "source": ["Another large influencer later"],
+     "notes": ["A system writer's, close to yours. All three of \"chaotic, sincere, and revealing\" are back, as \"chaotic, but sincere, and it was revealing\".", "Pangram: 100% Human with the next paragraph (each is under 50 words)."]}
+   ]
+  },
+  {
+   "headings": ["The Freeloader Problem"],
+   "rows": [
+    {"label": "P7 · the objection", "article": "Some of the commenters weren’t trying to join.", "source": ["Not everybody in the comments was trying to join."],
+     "notes": ["Same writer. One word was added for the cold reader, who first read \"responsibility anarchism\" as one phrase: \"the responsibility that anarchism requires\".", "Splitting the long sentence as well turned the pair 100% AI, so it stays one sentence."]},
+    {"label": "P8 · seminar (yours)", "article": "The commune comments became", "source": ["The commune comments became"],
+     "notes": ["Yours, kept."]},
+    {"label": "P9 · the answer", "article": "IMO the comment above", "source": ["Although that comment applies more"],
+     "notes": ["A system writer's. \"The same three people ... while everybody else talks about freedom\" keeps your image.", "Question: is \"IMO\" all right in your essay voice? I think yes: it's how you talk, and it passed.", "Pangram: 100% Human alone and after your seminar line."]},
+    {"label": "P10 · what it needs (yours)", "article": "Communal ownership entails folks", "source": ["Communal ownership therefore needs"],
+     "notes": ["Yours, with \"leaching\" spelled \"leeching\".", "Question: \"...steal less, or try to act helpless\" reads as the opposite of what you mean. Both the cold reader and the grounding review stumbled on it. I'd make it \"or stop trying to act helpless\".", "Pangram: 100% Human alone."]},
+    {"label": "P11 · the old way (yours)", "article": "People want to go back to the old way of living", "source": ["The desire to return to a natural way"],
+     "notes": ["Yours.", "Question: the cold reader couldn't tell whether \"why it failed\" means the old way of living or the earlier communes. It also first read \"when someone wants to own land, they run out of money\" as one person. I'd make them \"why earlier communes failed\" and \"the group runs out of money\".", "Pangram: 100% Human alone."]},
+    {"label": "P12 · not recruiting", "article": "I am not currently recruiting anyone", "source": ["I’m not currently recruiting anyone"],
+     "notes": ["From Emulate, with your \"recruiting anyone or founding a community\", \"living around me\" and \"get you onto my land\" back. \"My land\" stays, as you said.", "Pangram: 100% Human alone."]},
+    {"label": "Proposal · P4 with your 1972 line", "text": "I have no proof that the rise of AI caused this turn, but it’s hard to ignore the coincidence in timing. AI became serious around this time, and it started changing people’s jobs and relationships, and how they see the future. Suddenly “maybe we should form a village” sounded less like a 1972 leftover and more like a backup plan.", "source": ["I can’t prove AI caused that turn."],
+     "notes": ["100% Human alone, but 100% AI after the new P3. It passed only after Emulate's other P3, which asks \"Did you notice ... the graph\" before the reader has seen the graph.", "I'd keep the plain line. You called this one an obvious AI quip, and the plain line keeps its point."]}
+   ]
+  }
+ ]
+}

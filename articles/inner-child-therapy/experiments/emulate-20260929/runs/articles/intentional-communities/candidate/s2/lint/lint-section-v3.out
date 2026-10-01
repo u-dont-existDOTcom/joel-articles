@@ -1,0 +1,16 @@
+== tells_lint: section-v3.txt
+verdict: REVIEW
+metrics: {'words': 614, 'my_words': 607, 'paragraphs': 12, 'coach_per_100': 0.0, 'you_per_100': 0.7, 'landing_rate': 0.17, 'instruction_paragraphs': 0, 'para_len_cv': 0.35, 'sent_len_cv': 0.51, 'repeated_openers': {}, 'source_map': [(0, 0.77), (1, 0.78), (2, 0.67), (3, 0.58), (4, 0.99), (5, 0.75), (6, 0.79), (7, 1.0), (8, 0.66), (9, 0.16), (10, 0.26), (11, 0.84)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 1.0}
+-- B1 finished principle (1)
+   * People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby
+-- B4/E15 list or packed sentence (5)
+   * They may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starvin’ them.
+   * AI became serious around this time, and it started changing people’s jobs and relationships, and how they see the future.
+   * The oldest objection, that maybe most people don’t want to take on the responsibility that anarchism requires and communal property becomes “owned by everyone, 
+   * No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or try to act helpless.
+   * People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby
+-- B7 short landing at paragraph end (2)
+   * Suddenly, forming a village sounded like a backup plan.
+   * Partly that's because everyone keeps handing it to them.
+-- D9 follows the source order (1)
+   * 12/12 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger

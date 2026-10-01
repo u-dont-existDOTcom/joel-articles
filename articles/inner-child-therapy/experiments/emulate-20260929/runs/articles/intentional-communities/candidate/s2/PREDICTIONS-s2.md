@@ -55,7 +55,7 @@ Written before the calls. No reviewer run: the fast order runs it only when noth
 | U6w2 | Human | "Or how fast..." as a fragment | AI 100 |
 | U6w3 | Human | same fragment | AI 100 |
 
-Scores: mine 9 of 20. Only U3w3 passed; it's the one that reordered its sentences so each reacts to the one before ("... and there was an objection: maybe most people ... It's the oldest one, and it showed up almost immediately."). The briefs gave the writers Joel's published paragraph and told them to carry everything and add nothing, so most kept his order, reworded. That's the paraphrase Pangram is built to catch.
+Scores: mine 9 of 20. Only U3w3 passed. **Correction (2026-10-01, 15:30):** I first described U3w3 as the draft that put the objection first and only then called it the oldest one. That was another writer's draft, matched to the wrong file. U3w3 is "Later, when another influencer with a big following floated the commune idea, the comment section started to become a recruitment board. It was chaotic, but sincere, and it was revealing. ..." with "The oldest objection, that maybe ..., showed up almost right away." The wrong description went into the round 2 and round 3 writer prompts as "the one that passed". The Pangram results are by file, so they stand. The briefs gave the writers Joel's published paragraph and told them to carry everything and add nothing, so most kept his order, reworded. That's the paraphrase Pangram is built to catch.
 
 ## Writers round 2 (bare-point briefs, the article so far, one noticing allowed; `writers-r2/`, texts in `r2/`)
 
@@ -90,3 +90,63 @@ v2.1's C1, C2, C3, C4a, C9a, C10a, C11a and C12, with writers round 1's U3w3 for
 | section-faithful | AI | five of its paragraphs fail alone, and the flag usually spreads | AI 41 (598 words; three flagged spans) |
 
 The flagged spans: (1) the title and C1, the Surgeon General paragraph; (2) C4 from "That's around when AI stopped being a tech-news curiosity" to the 1972 line, i.e. the four-item list and the line after it; (3) from C9's second sentence ("Shared ownership can blur responsibility...") to the end of C11. Not flagged: C2, C3, C4's first sentence, Joel's Instagram paragraph, U3w3's two paragraphs, Joel's C8 line, C9's first sentence and C12. Credits 1055 to 1049.
+
+## v3 (after Joel's answers, 2026-10-01 14:49; texts in `r4/`)
+
+Joel's own C10 and C11 (he says his check came back Human, medium confidence); Emulate-based versions with small logged fixes (`fixlog-v3.json`); writers round 3, whose brief carried Joel's own rewrite as the model of his voice. Predictions, before the calls:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| C10j | Human | Joel's own | |
+| C11j | Human | Joel's own | |
+| C1e1-C2 | Human | Emulate's shape, facts fixed | |
+| C1e2-C2 | Human | Emulate's question opener | |
+| C1e2 | Human | same | |
+| C4e1q | AI | the 1972 quip ends it | |
+| C4e1p | Human | Emulate's shape, plain ending | |
+| C3-C4e1q | AI | the quip | |
+| C3-C4e1p | Human | | |
+| C9e1 | Human | Emulate's flourishes kept | |
+| C9e2 | Human | Emulate's shape | |
+| C1w1-C2 | AI | advisory, then "That's the same longing" | |
+| C1w2-C2 | Human | the father looking for connection | |
+| C1w2 | Human | same | |
+| C1w3-C2 | Human | "Or about the loneliness under it, at least." corrects itself | |
+| C1w3 | Human | same | |
+| C4w1 | AI | one long list sentence | |
+| C4w2 | Human | Joel's repeated "It started changing" | |
+| C4w3 | Human | "It used to sound like something from the seventies." | |
+| C3-C4w1 | AI | | |
+| C3-C4w2 | Human | | |
+| C3-C4w3 | Human | | |
+| C9w1 | Human | "IMO", spoken | |
+| C9w2 | AI | close to the published order | |
+| C9w3 | Human | reordered, the reason last | |
+
+C3, the Google Trends line, is what flags the C3-C4 pairs: every C4 that passed alone failed after it. Two Emulate-based C3s (`fixlog-v3.json`), each paired with both C4s, plus Joel's C8 line before the round 3 C9, and Joel's edited Instagram paragraph alone. Predictions:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| C3e2-C4e1p | Human | Emulate's "Check out ... After years of decline" | |
+| C3e2-C4e1q | Human | same, with the quip | |
+| C3e3-C4e1p | Human | Emulate's question | |
+| C3e3-C4e1q | Human | same, with the quip | |
+| C8o-C9w1 | Human | both pass in shorter checks | |
+| SEBAj | Human | Joel's own | |
+
+The cold read (`SENSE-v3.md`, [20]) had to reread C7's objection sentence, so it's split, with "that" added (`build_v3_section.py`). Prediction:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| C6-C7fix | Human | the split gives the objection its own sentence; nothing else changed | |
+
+The split turned the passing C6-C7 pair 100% AI ("paraphrased or rewritten"), so it's undone and only "that" goes in. The v3 trace (`TRACE-v3.md`) found two meaning shifts in Emulate's words: C3's present tense ("is climbing") and C4's "uptick", against "sharply". Each gets a one-word fix, checked in the pair and alone. Then the whole section, with the plain C4. Predictions:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| C6-C7b | Human | one word added to the pair that passed | |
+| C3e2f-C4e1pf | Human | two one-word fixes | |
+| C4e1pf | Human | one-word fix | |
+| C3e2f-C4e1qf | AI | the same pair with the quip failed before | |
+| C4e1qf | Human | one-word fix | |
+| section-v3 | Human | every paragraph passes in its own check | |

@@ -1,0 +1,1 @@
+Did you notice, by the way, that the graph of Google searches for “[ecovillage](https://trends.google.com/explore?q=ecovillage&date=all&geo=Worldwide)” and “[intentional community](https://trends.google.com/explore?q=intentional%20community&date=all&geo=Worldwide)” starts bending upwards rapidly in the mid-’20s after having drifted downward for years? (Graphs from Google Trends.)
