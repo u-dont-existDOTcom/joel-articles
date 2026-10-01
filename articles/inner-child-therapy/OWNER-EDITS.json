@@ -660,18 +660,15 @@
   {
    "id": "emoji-1357",
    "status": "applied",
-   "what": "Joel's own emoji list is the allowlist, dark skin tones where an emoji has one. Claude's placements not on it changed: 🙏 → 🫶🏿 after the goodwill wish (his \"agape, metta loving kindness prayer\" emoji), 💛 → ❤️ on the Love Doesn't Wait h2, 😊 → 😇 after \"Seat belt's on.\", and 😌 out after \"Breathing easier.\" (it only repeated the words).",
+   "what": "Joel's own emoji list is the allowlist, dark skin tones where an emoji has one. Claude's placements not on it changed: 🙏 → 🫶🏿 after the goodwill wish (his \"agape, metta loving kindness prayer\" emoji), 💛 → ❤️ on the Love Doesn't Wait h2, 😊 → 😇 after \"Seat belt's on.\", and 😌 out after \"Breathing easier.\" (it only repeated the words). On 15:59 Joel put the 😌 back (entry emoji-1559).",
    "joel": "2026-10-01 13:57 UTC: \"Ok in my posts (and especially my chats) i do use: 🫶🏿 (agape, metta loving kindness prayer) [...] i prefer the black emojis as they are less common, and i never see ai using black people emojis. [...] it's only when it really adds something, like an emotion wants to be expressed or for a heading sometimes i tend to add them, or if there just has been a lot of text with no break sometimes and it could look nice. [...] Sometimes an emoji actually adds clarity that text can't easily, so that makes it warranted.\"",
    "where": "the whole article",
    "must_contain": [
     "works there, too. 🫶🏿",
     "## Love Doesn't Have to Wait for Trust ❤️",
-    "Seat belt's on. 😇 Where were we?",
-    "Breathing easier. But don't send it."
+    "Seat belt's on. 😇 Where were we?"
    ],
    "must_not_contain": [
-    "😊",
-    "😌",
     "🙏",
     "💛"
    ]
@@ -679,14 +676,64 @@
   {
    "id": "ldw-p10-installed",
    "status": "applied",
-   "what": "Claim check: Love Doesn't Wait P10 (the guide's \"When life has gone badly… finding a defendant\") is installed as c6; P11 isn't in yet (its best draft failed Pangram).",
+   "what": "Claim check: Love Doesn't Wait P10 (the guide's \"When life has gone badly… finding a defendant\") is c6 plus its proposal sentence, which Joel adopted at 15:59 (\"P10 proposal is good\").",
    "joel": "2026-10-01 13:57 UTC: \"continue\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
-    "Your little one might not be the only one getting accused. When life has gone badly, part of you may try to get some control back by finding someone to blame, like \"If you'd gotten it together at fifteen, you could have saved everybody.\" But figuring out which age of you is to blame doesn't give you what it would have taken back then. That part may start picking on a different age."
+    "Your little one might not be the only one getting accused. When life has gone badly, part of you may try to get some control back by finding someone to blame, like \"If you'd gotten it together at fifteen, you could have saved everybody.\" If it's somebody's fault, it didn't have to happen, and that feels like control. But figuring out which age of you is to blame doesn't give you what it would have taken back then. That part may start picking on a different age."
    ],
-   "must_not_contain": [
-    "Keeping everyone from getting hurt was never your job at five or fifteen."
+   "must_not_contain": []
+  },
+  {
+   "id": "emoji-1559",
+   "status": "applied",
+   "what": "The 😌 goes back after \"Breathing easier.\", and 😊 joins Joel's list; 😇 stays after \"Seat belt's on.\".",
+   "joel": "2026-10-01 15:59 UTC: \"your emojis are fine. you can add 😊 to my list also that's fine. altho the angel emoji was prob better there. the breathing easier emoji was good though, otherwise, \\\"breathing easier\\\" sounds flat and it's too abrupt to jump to the next sentence for me, so put that back\"",
+   "where": "Write It. Don't Send It Yet.",
+   "must_contain": [
+    "Breathing easier. 😌 But don't send it.",
+    "Seat belt's on. 😇 Where were we?"
+   ]
+  },
+  {
+   "id": "ldw-p11-joel",
+   "status": "applied",
+   "what": "Love Doesn't Wait P11 is Joel's version, word for word.",
+   "joel": "2026-10-01 15:59 UTC: \"for P11, this one is human and works better\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that. You still did what you did, though, and if it hurt people or damaged a life, that may need repair."
+   ]
+  },
+  {
+   "id": "ldw-p12-installed",
+   "status": "applied",
+   "what": "Claim check: Love Doesn't Wait P12 (the guide's six questions) is installed as a numbered list.",
+   "joel": "2026-10-01 15:59 UTC: \"continue\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "So instead of asking which age of you deserves the blame, I'd ask these:",
+    "6. What can you learn, repair, or do differently now?"
+   ]
+  },
+  {
+   "id": "ldw-p13-installed",
+   "status": "applied",
+   "what": "Claim check: Love Doesn't Wait P13 (\"what are you gonna do for me?\" is a real question) is installed, with its evidence list as a callback to Not Every Hero Wears A Cape.",
+   "joel": "2026-10-01 15:59 UTC: \"continue\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "Your little one has their own version of that last question: \"Big fuckity whoopty doo. What are you gonna do for me?\" They actually want to know, though I think the first answer may be that you keep loving them, even while they don't believe you. Then their trust can grow from the stuff back in \"Not Every Hero Wears A Cape,\" like hearing out the sarcasm, or finally opening that envelope."
+   ]
+  },
+  {
+   "id": "ldw-p14-installed",
+   "status": "applied",
+   "what": "Claim check: Love Doesn't Wait P14 (what relaxing can and can't do) is installed, without the guide's \"assign guilt\".",
+   "joel": "2026-10-01 15:59 UTC: \"continue\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain": [
+    "If your stomach tightens while your little one waits for an answer, slower exhales like before may help you stay with them. Feeling calmer doesn't mean their complaint is wrong, though, and it won't make them trust you on its own."
    ]
   }
  ]

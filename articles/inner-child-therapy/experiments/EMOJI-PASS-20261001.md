@@ -59,3 +59,8 @@ His list is now the allowlist, with the darkest skin tone where an emoji has one
 | Write It. Don't Send It Yet. | 😌 out (it only repeated "Breathing easier.") | back to text that passed | |
 
 All try 1. The dark-skin-tone 🫶🏿 held, as Joel expected ("i never see ai using black people emojis").
+
+## Joel's notes (2026-10-01 15:59) and what changed (turn 12)
+- "your emojis are fine": 🫶🏿, ❤️ and 😇 stay. "you can add 😊 to my list also that's fine. altho the angel emoji was prob better there", so 😇 stays after "Seat belt's on."
+- "the breathing easier emoji was good though, otherwise, "breathing easier" sounds flat and it's too abrupt to jump to the next sentence for me, so put that back." 😌 is back after "Breathing easier.", on the same visible text that passed on turn 9 (the section 100% Human, 498 words).
+- The rule now (`tools/humanization/EMOJI-LIST.md`, E102): an emoji that only labels a thing or an activity stays out (🐶 🎶 💆 🔥); a feeling's emoji can stay when it gives the line its beat.
