@@ -81,6 +81,9 @@ def cos(a, b):
     den = math.sqrt(sum(v*v for v in A.values()))*math.sqrt(sum(v*v for v in B.values()))
     return num/den if den else 0.0
 
+ACRONYMS = r"\b(IMO|IMHO|TBH|FWIW|IIRC|AFAIK|NGL|IRL|ICYMI|TL;?DR|BTW|OMG|LOL|SMH|YMMV)\b"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('draft'); ap.add_argument('--source')
@@ -90,6 +93,10 @@ def main():
     owner = set()
     if a.owner:
         owner = {re.sub(r'\s+', ' ', l.strip()) for l in open(a.owner, encoding='utf-8') if l.strip()}
+    # chat acronyms the source or the owner lines already use are the article's own register (Joel, 2026-10-01 18:19)
+    src_acronyms = set()
+    for extra in ([open(a.source, encoding='utf-8').read()] if a.source else []) + list(owner):
+        src_acronyms |= {x.upper() for x in re.findall(ACRONYMS, extra)}
     ps = paragraphs(text)
     allw = words(text); nw = len(allw) or 1
     flags = []   # (severity, rule, sentence)
@@ -124,8 +131,10 @@ def main():
             if hits: flag('REVIEW', 'E41 coach phrase', s)
             you_hits += len(re.findall(r"\byou(r|'re|'ll|'d|'ve)?\b", s, re.I))
             if re.search(r"\bthe kid\b|\bkids?\b", s, re.I): flag('REVIEW', 'E1 kid', s)
-            if re.search(r"\b(IMO|IMHO|TBH|FWIW|IIRC|AFAIK|NGL|IRL|ICYMI|TL;?DR|BTW|OMG|LOL|SMH|YMMV)\b", s):
-                flag('REVIEW', 'chat acronym: say it in words (Joel 2026-10-01, on "IMO": "i\'m surprised how many ppl i talk to don\'t know what IMO means")', s)
+            for acr in re.findall(ACRONYMS, s):
+                if acr.upper() not in src_acronyms:
+                    flag('REVIEW', 'chat acronym the source doesn\'t use: say it in words, unless the author asked for an informal internet style (Joel 2026-10-01: "for articles where the acronyms are used, you\'d use those, but for other articles where they aren\'t used, you wouldn\'t put them in")', s)
+                    break
             first = (w[0].lower() if w else '')
             if first in IMPER: imps += 1
             if s.count(',') >= 3 or len(re.findall(r'\b(or|and)\b', s)) >= 3:
