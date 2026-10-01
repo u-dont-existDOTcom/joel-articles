@@ -240,3 +240,5 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-01 (turn 11) | When Healing Turns Into Checking P, 😇 for 😊 after "Seat belt's on.", the paragraph alone; turn 11, try 1 | Human, medium (my call: the 😊 version passed alone) | | |
 | 2026-10-01 (turn 11) | When Healing Turns Into Checking, the section with 😇; turn 11, try 1 | Human, medium | | |
 | 2026-10-01 (turn 11) | Love Doesn't Wait P10 draft c (fresh writer, unreviewed: "Your little one might not be the only one getting accused…"), the paragraph alone, checked alongside its reviews; turn 11, try 1 | Human, low-medium (my call: the middle two sentences are close to my brief's paraphrase, and it ends on a short line) | | |
+| 2026-10-01 (turn 11) | Love Doesn't Wait P10 c2: draft c with the cold read's two fixes ("the grown-up it thinks should have saved everybody"; "what you were missing back then"), the paragraph alone; turn 11, try 2 (try 1, draft c, 100% Human; a clarity fix) | Human, medium (my call: small changes to a draft that passed) | | |
+| 2026-10-01 (turn 11) | Love Doesn't Have to Wait for Trust, h2 + P1–P10; turn 11, try 1 | Human, medium-high | | |

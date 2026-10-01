@@ -19,11 +19,19 @@ Started 2026-10-01 from Joel's 04:53 UTC notes. Joel: "we should actually build 
 🚀 ✨ 🔥 💡 ✅ ❌ 📌 🎯 💯 🙌 🧠 ⚡ 🌟 📈 🔑 🤝 🌱 🧩 🛠️ 📝 💪 👀 🎉 ➡️ 🔗 📊 🏆 💥 🤯
 Some of these are common in human messages too (🔥 and 🎉 are in the Unicode Consortium's top 20 for 2021), but they're everywhere in AI-written posts and bullet lists, which is what a reader and a detector key on.
 
-## Allowlist
-**Joel's own, in the article and checked in place:** 😀 🙃 😜 🙄 🤗 💛 😡 🥰
-**ASCII, Joel's, checked in place:** :) (after Elmo) and "(hehe)" (after "some people"), both 100% Human on 2026-10-01 (turn 10, try 1), alone and in their sections.
-**Claude's, passed in place, waiting for Joel's yes or no:** 🙈 😅 😌 😊 🙏. 😊 and 🙏 are common in AI chat replies too.
-**Candidates, waiting for Joel's yes or no** (Claude's guess at what people use, from the Unicode list below and ordinary texting; none checked yet): 😂 😭 🥲 🙂 😬 🥺 😳 🤦 🤷 🫠 😆 😩 ❤️, and ASCII :( :D :P <3.
+## Allowlist: Joel's own list (2026-10-01 13:57 UTC)
+"Ok in my posts (and especially my chats) i do use:"
+
+🫶🏿 😜 😛 👨🏿‍🍼 🧘🏿 🧘🏿‍♀️ 🥰 🙄 🙃 🙂‍↔️ 😮 😅 🥲 ❤️ 🐰 😇 🤭 🫢 🤗 😋 🤪 🤥 🤯 🥳 🤧 😎 🤓 😵‍💫 😱 🤮 🤢 🥴 😴 🤔 🫣 🤫 😭 😤 😡 🥱 😓 🤷🏿‍♀️ 🙈 🙉 🙊 🙀 🖖🏿 😍 🥹 🫡 ✍🏿 😚
+
+- 🫶🏿 is his "agape, metta loving kindness prayer", and 🐰 is "lovey bunny, my catchphrase".
+- His own placements in the article count too (😀 in the Hook section), and so do his ASCII ones, :) and "(hehe)".
+- **Skin tone:** the darkest (🏿) on any emoji that takes one. "i prefer the black emojis as they are less common, and i never see ai using black people emojis."
+- **When one is warranted:** "it's only when it really adds something, like an emotion wants to be expressed or for a heading sometimes i tend to add them, or if there just has been a lot of text with no break sometimes and it could look nice." And: "Sometimes an emoji actually adds clarity that text can't easily, so that makes it warranted."
+- **Practice:** "We can continue practicing emojis and i'll tell you if it's wrong/gratuitous." So place them, and report each placement for his yes or no.
+- Anything not on this list still counts as banned until he says yes. My turn-10 candidates are withdrawn, apart from the ones on his list (😭 🥲 ❤️ 🤷🏿‍♀️).
+- **Rendering:** 👨🏿‍🍼 🧘🏿‍♀️ 🙂‍↔️ 😵‍💫 🤷🏿‍♀️ are each several characters joined into one picture, so an older phone or email app can show them split apart. Look at a Substack email preview before using one in the article.
+- **His WhatsApp favorite that doesn't show up** in Claude or Substack (his screenshot, 2026-10-01): it looks like 🫩 Face with Bags Under Eyes, approved in Unicode 16.0 in 2024 (https://emojipedia.org/face-with-bags-under-eyes). WhatsApp draws its own emojis; anywhere else it shows only if the device's emoji font has it, so many Substack readers would see a blank box.
 
 ## Evidence
 - **How often people use them:** the Unicode Consortium's emoji frequency data for 2021 (https://home.unicode.org/emoji/emoji-frequency/, announced at https://blog.unicode.org/2021/12/our-most-frequently-used-emoji.html; the top 20 as reported at https://www.emojiall.com/en/blog/402): 😂 ❤️ 🤣 👍 😭 🙏 😘 🥰 😍 😊 🎉 😁 💕 🥺 😅 🔥 🙂 🤦 ♥️ 🤷. Face With Tears of Joy is over 5% of all emoji use. The page itself didn't open from this session, so the ranks past 20 aren't here.

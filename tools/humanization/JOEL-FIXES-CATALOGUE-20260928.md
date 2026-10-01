@@ -216,3 +216,9 @@ He agreed with two reviewer flags on his own lines and asked me to write the fix
 - **P8, the Fred Rogers scene.** "check what the exchange was really [...] why not just check what was actually said for improving the vagueness?" The paragraph now carries the film's lines (E98).
 - **P7.** "P7 proposal is good." It's installed as proposed.
 
+## Joel's notes, 2026-10-01 13:57 UTC
+
+- **P9, finished.** "P9 yes, it absolutely does make sense to finish that thought otherwise it's unclear." And of the proposal: "I like the proposal, but the reviewers are right that the other side and nothing to win are unclear." His P9 keeps my turn-10 text through "the right way", adds "The resentment can be purely visceral: being doubted after you've tried feels unfair, but there's nothing unfair in them going over your track record.", keeps the next two sentences, and ends "Be careful not to take the accusation as proof your love really is conditional, when it could just be another part talking." Human, medium on his check; 100% Human on mine (145 words, try 1). What it teaches: a plain word for a figure, no wrap-up clause, and a direct caution where I had an "if you do, you might" consequence (E100).
+- **Emojis.** His own list, his preference for dark skin tones, and when one is warranted (E101; `tools/humanization/EMOJI-LIST.md`).
+- **The merge.** "yes you can merge the lane so it shows 10 altho i don't quite understand your jargon about main and lanes and all that."
+
