@@ -1,0 +1,1 @@
+I want a way to work in depth that doesn’t involve gurus, and a way of being in a community with distributed authority where people don’t come in pre-healed, that also has peer practice and enough play that it doesn’t become a permanent repair shop.

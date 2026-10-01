@@ -1,0 +1,31 @@
+[H] OK — "Why Communities Keep Dying in the Same Two Ways"
+[1] FLAG CHANGED: "Most communes of my acquaintance failed from the inside" — the guide gives a tendency ("tended to fail inwardly": went wrong in their inner life); this is a tally of failed communes, and under "Keep Dying" it reads as most of them collapsing, which the article never says, while it leaves East Wind apparently still going ("I wonder if that still goes on at East Wind?") and the guide later sends readers to visit Twin Oaks, East Wind and Acorn — the reader should get a pattern in how the communes he knew went wrong inside, not a count of dead ones.
+[H] OK — "The secular failure"
+[2] OK — carries: "distributes ownership and labor but has no shared way to address jealousy, childhood wounds…"
+[3] OK — carries: "Those things don’t disappear. They acquire agenda items."
+[4] FLAG CHANGED: "and other income-sharing communities" — makes the Federation one of the communities; it is a federation of them, which the guide's "other income-sharing groups" allowed for (small, but a fact about a real organization) — the reader should get that the Federation links such communities rather than being one.
+[5] OK — carries: "a meeting procedure can’t make two people stop hating each other"
+[6] OK — carries: "It can only determine whose turn it is to speak about the hatred and whether the motion requires a second"
+[7] OK — carries: "Eventually politics begins carrying emotional material that nobody knows how to name"
+[8] OK — carries: "People argue about schedules, committees, noise, food, or policy while the real subject sits nearby"
+[H] OK — "The spiritual failure"
+[9] FLAG CHANGED: "This comes about when the community realizes the importance of embracing a transformation from within" — only the first half of the guide's cause ("recognizes that inner transformation matters, then routes it through a founder…"); as a full sentence it makes valuing inner change the trigger, and [10]'s "This gets funneled" then reads as what that value leads to, against the article's "missing third option" and [21] — the reader should get that the failure is routing the inner work through one person; valuing it is what these groups got right.
+[10] OK — carries: "routes it through a founder, teacher, channel, or special interpreter of reality"
+[11] OK — carries: "The Farm in Tennessee grew to around 1,500 people and held many beautiful values"
+[12] FLAG CHANGED: "revolved around Stephen Gaskin" — the guide says its early spiritual and social life was "deeply shaped by" him: strong influence, not the center everything turned on, so a stronger claim about a real person than the guide makes — the reader should get strong influence.
+[13] OK — carries: "Accounts from former members describe community doctrine reaching into intimate decisions"
+[14] OK — carries: "A group can talk about universal consciousness"
+[15] OK — carries: "while one man’s opinions become unusually difficult to escape"
+[16] OK — carries: "The two failures mirror each other"
+[17] FLAG CHANGED: "(while doing a good job at distributing power)" — the guide only says secular groups "distribute power"; grading it a success goes against the article's East Wind ("a quieter power issue… very hard to question") and freeloader passage ("unofficial leaders start gaining power"), and cuts secular groups off from [18]–[20]'s deeper problem — the reader should get that they spread power out by design, not that they succeed at it.
+[18] FLAG CHANGED: "someone has too much authority, or rather, has authority in multiple domains at once" — the guide's deeper failure is a carry-over ("authority earned in one role can be spent in every other role"); holding several domains at once drops both the fair start and the spending, so [19]'s one-role therapist and farmer, and the article's East Wind manager, no longer illustrate it — the reader should get that authority honestly earned in one role can carry into roles nobody gave it.
+[19] OK — carries: "A founder may be a gifted teacher. A therapist may genuinely help people. A farmer or business manager may carry much of the economy."
+[20] FLAG UNCLEAR: "The problem happens when that person has the ability to define the problem" — "problem" is first the failure being described, then the community's troubles that person frames; the guide kept them apart ("The danger begins when the same person can define the problem") — the reader should get that the danger starts when one person can frame the group's problems, control the evidence, pick the remedy, and make disagreement or leaving costly.
+[21] OK — carries: "depth without a guru owning it, and distributed authority without pretending that people arrive emotionally finished"
+[22] OK — carries: "That requires practice between peers, plus enough play…"
+QUESTIONS: none open at this push level
+PARKED: how to tell a fight carrying old hurt from a real dispute over the schedule (COULD; later the guide warns against diagnosing dissent but gives no test); what intimate decisions The Farm's doctrine reached (COULD; ASK AUTHOR, the guide gives no example and none should be invented)
+PARAGRAPH: does the whole guide passage's job, paragraph by paragraph in order (two failures, the FEC and Farm cases, the mirror, the deeper failure, the aim); no STRADDLES; no MISSING (the earned-then-spent mechanism is weakened, not dropped; flagged at [18]).
+SIZE: roughly +3 to +8 words net on ~430 (1–2%): [1], [9] and [18] add a few words each, [17] loses about four, [4], [12] and [20] are one-word swaps; within tight.
+REGISTER: argument (a diagnosis of two failure modes) with two illustrations (the FEC, The Farm), one joke ([6]'s motion needing a second), and a closing statement of intent ([21]–[22]).
+GREAT: [7]–[8] — why the hurt surfaces as a fight over the schedule: with nowhere to name it, the agenda is the one place the group lets you push and win, so the anger seeks justice through a topic it's allowed to fight about — draws on the article's meetings "where most of the things you needed to talk about couldn't be talked about", the guide's "Those things don’t disappear", and the author's point in this prompt's preface that anger is a way to get more power when you feel a lack of justice or agency.

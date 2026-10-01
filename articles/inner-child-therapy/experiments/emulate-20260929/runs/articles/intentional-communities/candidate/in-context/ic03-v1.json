@@ -1,0 +1,46 @@
+{
+ "title": "Why Communities Keep Dying: the new version beside yours",
+ "meta": "Community article · section 3 · v8 · 2026-10-01",
+ "intro": [
+  "Your published section is on the left. On the right is the new version: highlighted words are new, and struck words are ones that went.",
+  "As published, all nine paragraphs came back 100% AI, and so did the whole section. Now the section reads 100% Human (481 words). Every paragraph passes alone, or with a neighbor that passes alone, since most of these paragraphs are too short for Pangram to check alone.",
+  "Every paragraph started as an Emulate version. The notes say what I fixed and why, and give my opinion where something of yours changed."
+ ],
+ "blocks": [
+  {
+   "headings": ["Why Communities Keep Dying in the Same Two Ways"],
+   "rows": [
+    {"label": "P1 · two ways", "article": "Most communes of my acquaintance went wrong", "source": ["The communes I knew tended to fail"],
+     "notes": ["From Emulate. Its \"failed\" became \"went wrong\": under a heading about dying, \"failed\" read as most of them collapsing, and East Wind is still going. \"Of my acquaintance\" is Emulate's, a bit formal; I'd leave it unless it bugs you.", "Pangram: 100% Human with the headings and P2."]}
+   ]
+  },
+  {
+   "headings": ["The secular failure"],
+   "rows": [
+    {"label": "P2 · the secular failure", "article": "The secular communes had a solution", "source": ["This failure is caused when the community distributes"],
+     "notes": ["From Emulate, with \"brilliant\" cut (hype) and \"well-honed\" cut (they had no shared way at all, not a crude one), and two referents named: \"The secular communes\" and \"The feelings\". \"The deep waters of\" is Emulate's.", "Your \"Those things don’t disappear. They acquire agenda items.\" is now \"The feelings just became agenda items.\" The point stays: what isn't dealt with ends up on the agenda.", "Pangram: 100% Human with P1, and with P3."]},
+    {"label": "P3 · meeting procedure", "article": "Meeting procedure isn’t going to solve every problem", "source": ["The Federation of Egalitarian Communities and other"],
+     "notes": ["Emulate's other version. Its first version (\"But the best meeting procedure in the world won't make two people…\") passed alone, but in three section checks the flag started on that sentence. This one passed everywhere.", "It keeps your strength (procedure can't even stop the hating), makes the Federation's communities its members, and spells out the seconding joke: \"whoever raises it has to find somebody who agrees with him or her before they get to talk about it\". Your \"developed sophisticated systems\" is now a concession: \"no matter how sophisticated the system… may be\".", "My opinion: it's rough, and I'd keep it rough. Section 1's Robert's Rules line sets up the seconding joke.", "Pangram: 100% Human alone, and with P4."]},
+    {"label": "P4 · the fight", "article": "Eventually, when people are together long enough", "source": ["Eventually politics begins carrying"],
+     "notes": ["Emulate's own, with \"It will be a fight\" made \"There will be a fight\" (\"It\" could have been politics).", "Your \"the real subject sits nearby with its arms crossed\" is gone; its point stays in \"but it won't be about that\".", "Pangram: 100% Human with P3."]}
+   ]
+  },
+  {
+   "headings": ["The spiritual failure"],
+   "rows": [
+    {"label": "P5 · the spiritual failure", "article": "This comes about when the community realizes", "source": ["This is caused when the community recognizes"],
+     "notes": ["From Emulate, its two sentences joined. Apart, the first one made valuing inner change the cause; the failure is funneling it through one person. \"Often\" cut: yours defines the failure.", "Pangram: 100% Human with P6."]},
+    {"label": "P6 · The Farm", "article": "The Farm, in Tennessee, at its largest", "source": ["The Farm in Tennessee grew to around 1,500 people"],
+     "notes": ["From Emulate. Its \"revolved around Stephen Gaskin\" became \"was heavily influenced by\", the words of Emulate's other version. Your \"deeply shaped by\" got the section flagged.", "Also fixed: the scare quotes on \"doctrine\" cut; \"the lives of community members\" back to your \"intimate decisions\"; \"not be able to escape\" softened to \"struggle to escape\" (yours: \"unusually difficult to escape\"). The ending, \"It’s one thing… It’s another…\", is Emulate's.", "Pangram: 100% Human alone."]},
+    {"label": "P7 · both failures", "article": "Both approaches fail for symmetric reasons", "source": ["The two failures mirror each other"],
+     "notes": ["From Emulate, with \"It seems to be that\" cut, \"doing a good job at\" cut (it graded the secular groups a success, against East Wind's quieter power issue), and \"fail to distribute power\" made \"concentrate power\" as in yours.", "Pangram: 100% Human with P8."]},
+    {"label": "P8 · the deeper problem", "article": "The deeper problem is that someone carries", "source": ["The deeper failure is that authority earned"],
+     "notes": ["From Emulate. It had called this \"a related problem\" with \"cult leaders\"; now it's the deeper problem again, with your mechanism back: authority earned in one domain, carried into the others. \"Guru\" became \"founder\", since the guru comes in your last line. The three examples are Emulate's one fragment.", "A cold reader asked how this fits the secular communes. Section 1's East Wind factory manager is that case, so I'd leave it.", "Pangram: 100% Human alone, with P7 and with P9."]},
+    {"label": "P9 · what I want", "article": "I want a way to work in depth that isn’t run by a guru", "source": ["I want depth without a guru owning it"],
+     "notes": ["Emulate's own one long sentence, with \"doesn't involve gurus\" made \"isn't run by a guru\": yours is about a guru owning the work, not about gurus being around. Two closer wordings (\"no guru owns\", \"no guru controls\") failed Pangram.", "The repair-shop line is in: it carries a point (play, so the community isn't all healing work). Your \"That requires…\" is now \"that also has…\". The two-sentence version kept \"That needs…\" but failed next to the new P8 (37% AI). My opinion: fine, since section 4 lays out the practice.", "Pangram: 100% Human with P8."]},
+    {"label": "Proposal · P4 with a why", "text": "Eventually, when people are together long enough, politics will become a way of carrying emotional material that people can’t name. There will be a fight about a schedule or committee or noise or food or some policy or other, but it won’t be about that. There’s no shared way to talk about the hurt itself, but the meeting agenda is the one place the group lets you push for something and win, so the anger goes there, trying to get some justice.", "source": ["Eventually politics begins carrying"],
+     "notes": ["The grounding reviewer's good-to-great idea, built on your point (from the inner child article) that anger is a way to get power when you lack justice or agency: why the hurt comes out as a fight about the schedule. A fresh writer added the last sentence.", "Pangram: 43% AI alone, on the added sentence; 100% Human after P3. My opinion: the idea is good, but this sentence isn't ready. If you want it, I'd do one more round on it."]}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+This comes about when the community realizes the importance of embracing a transformation from within. This gets funneled through a particular person, usually the founder, a teacher, a channel or some other special knower of how things really are.
