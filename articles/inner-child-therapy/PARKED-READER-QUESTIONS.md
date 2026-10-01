@@ -6,7 +6,9 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
-- 2026-10-01 · Make a Simple Vow, P1 · Why a swing set? (The guide gives no reason; it's optional, "with or without".) · default (parked)
+- 2026-10-01 · Make a Simple Vow, P1 · Is the little one in the picture a baby, or the age that's been talking back? (Joel's newborn is a way to call up the feeling, then carry it over.) · default (parked)
+- 2026-10-01 · Give the Vow a Physical Reminder · What if the toy feels like my little one talking? (The guide's "It doesn't speak for the child" is cut; P2 makes the object the grown-up's reminder.) · COULD (parked)
+
 - 2026-10-01 · Make a Simple Vow, P1 · How do I tell whether my promises still mean something right after "I don't believe you"? (Kept small promises; the vow itself says belief isn't needed.) · default (parked)
 - 2026-10-01 · Make a Simple Vow, P4 · Does the repeated act have to match one of the vow's promises, or does any reliable care count? How do I tell they're starting to believe? · default (parked)
 
@@ -30,9 +32,12 @@ They wait here instead of going into the article. Joel decides on them when the 
 - 2026-09-30 · Not Every Hero Wears A Cape, P4 · Which act do I start with? · default (parked)
 - 2026-09-30 · Not Every Hero Wears A Cape, P4 · Does rehearsing help with hard moments that aren't conversations, like opening the envelope? (The guide's "predictable difficult moment" is wider than a talk.) · default (parked)
 - 2026-09-30 · Later sections · The guide says "leave" in other places too ("Leave the situation that keeps injuring you."; "leave when staying requires disappearance"). Joel's 09-30 rethink of "leave it" will need applying when those sections come up. · noted by the wide run
-- 2026-09-30 · Love Doesn't Have to Wait for Trust, P4 · Did she still send me to bed? That is, did the love go along with the boundary? Only Joel's memory can answer it; the guide doesn't say. · COULD (parked)
 
 ## Answered or used
+
+- 2026-10-01 · Love Doesn't Have to Wait for Trust, P4 · "Did she still send me to bed?" Answered by Joel's own Make a Simple Vow P5 (20:51 UTC): "Now you're in my mom's place: you still go to bed, and staying kind about it shows them bedtime isn't a lack of love."
+
+- 2026-10-01 · Make a Simple Vow, P1 · Why a swing set? Answered by Joel, 20:51 UTC: the swing went, and the picture is now a newborn in your arms, to make the vow feel real (E106).
 
 - 2026-09-30 · Also Look Outward, relationship paragraph · How does the reader tell it's been dangerous, right after being told the unsafe feeling may come from inside them? All three push levels raised this as a MUST. Fixed: "But if they've actually hurt or threatened you, even once, old stuff or not, get safe first…"
 - 2026-09-30 · Also Look Outward, relationship paragraph · The wide run's point was that "get safe first" names the goal but no first step, so a reader in danger could hear "leave, alone, right now" (the guide's first steps are "lock the door, call somebody, go to a doctor, get legal advice, or leave"). Claude's "help counts" was a bad paraphrase of that. Joel (17:03): "i'm not sure how 'getting help counts' adds something to 'get safe'". Left as is: two sections later, Borrow One Competency has "leave, or lock the door and get help".

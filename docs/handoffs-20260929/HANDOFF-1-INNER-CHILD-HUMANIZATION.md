@@ -22,7 +22,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where the work stands
 
-*Updated 2026-10-01, turn 13 (17:50 UTC onward). Make a Simple Vow is done (the h2 and P1–P5), and Joel adopted the Love Doesn't Wait P12 and P13 proposals. Turn 12 (15:59 UTC onward): Love Doesn't Have to Wait for Trust is done: Joel's P11, the P10 proposal adopted, P12–P14 installed. 😌 is back (E102), proposals are highlighted on the side-by-side page (E103), and his "continue" now means merge (see `docs/suggested-fixes-ledger.md`). Turn 11: his P9 and his emoji list (E100, E101).*
+*Updated 2026-10-01, turn 14 (20:51 UTC onward). Joel's P1 lines, P3 and P5 are in Make a Simple Vow with the vow and P4 proposals; the h3 Give the Vow a Physical Reminder has its opening two paragraphs, and its note and pet paragraphs wait on Joel (every one I tried flipped the section). Turn 13 (17:50 UTC onward): Make a Simple Vow is done (the h2 and P1–P5), and Joel adopted the Love Doesn't Wait P12 and P13 proposals. Turn 12 (15:59 UTC onward): Love Doesn't Have to Wait for Trust is done: Joel's P11, the P10 proposal adopted, P12–P14 installed. 😌 is back (E102), proposals are highlighted on the side-by-side page (E103), and his "continue" now means merge (see `docs/suggested-fixes-ledger.md`). Turn 11: his P9 and his emoji list (E100, E101).*
 
 **Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`articles/inner-child-therapy/tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
@@ -42,7 +42,10 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 **Make a Simple Vow** (the guide's h2 after Love Doesn't Wait) is done: the h2 and P1–P5, 100% Human together (326 words). The vow is a quote (a Markdown blockquote). The plan and each paragraph's rounds are in `articles/inner-child-therapy/experiments/MAKE-A-SIMPLE-VOW-20261001.md`.
 
-**Next:** the guide's h3 "Give the Vow a Physical Reminder" (a toy, stuffed animal or note that holds the promise; choose what it means while sober and regulated; one ordinary promise paired with it; a calm pet is a companion, not a prop). Write its plan first, as for the vow section, and check what the article already said.
+**Give the Vow a Physical Reminder** (the guide's h3 under the vow): the h3 and two paragraphs are in (the guide's G1 and G2), 100% Human together (98 words). The plan and every round are in `articles/inner-child-therapy/experiments/GIVE-THE-VOW-A-PHYSICAL-REMINDER-20261001.md`.
+
+**Next:** the section's note and pet paragraphs (G3, G4), with Joel. Seven paragraphs added after the opening each flipped the whole section to 100% AI, so the opening passes only at its length; he's been asked for his own version, a minimal fix, or true details (an object or pet of his). Then the guide's h1 "When the Adult Voice Feels Fake".
+- Every paragraph passes alone, and one under 50 words is checked with a neighbor that passes alone (Joel's shared rule, 2026-10-01, in `docs/HUMANIZATION-GATE.md` from the community lane). Turn 14 checked this lane's short ones that way: Love Doesn't Wait P14 (149), Make a Simple Vow P3 (138), the Physical Reminder opening (203), all 100% Human.
 - A later paragraph can flip an earlier one on Pangram: on turn 13 three P3 drafts each flipped the vow section's opening, which had passed. Re-run the section check after every change.
 - Run the grounding reviewer on every draft (`tools/humanization/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
 - It also lists the reader's open questions, sized by a push knob (`--push tight|default|wide`; the default is `default`: small changes only). Take ASK AUTHOR items to Joel, and put parked ones in `articles/inner-child-therapy/PARKED-READER-QUESTIONS.md`, not in the article.
@@ -52,8 +55,9 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
   - the in-context page: `tools/humanization/render_in_context.py $A/tools/in-context/<map>.json OUT --article $A/HUMANIZED-ARTICLE-SO-FAR.md --source $A/master.html --source-label "Guide original" --since <the commit Joel last saw>`.
 
 **Open for Joel:**
-- Four Make a Simple Vow proposals (not installed; each 100% Human alone): a line after the vow, and one sentence each in P3, P4 and P5.
-- The P1 cut: the guide's "skip the vow" for a present adult who still intends harm (every version pointed ordinary readers back at the dangerous-adult section).
+- Give the Vow a Physical Reminder: his note and pet paragraphs, or a fix (see Next).
+- Make a Simple Vow P1, his baby lines: the reviewers' three points (the guide made the picture optional; "adoration and joy?" assumes the answer; Borrow Love already has the move).
+- The P1 cut from turn 13: the guide's "skip the vow" for a present adult who still intends harm.
 - The emoji placements, for his yes or no (he said he'd keep correcting them).
 - The moved relationship paragraph (he hasn't said yet).
 
@@ -99,6 +103,8 @@ Stay inside `/home/joel/ai-work/claude-dangerous-lane` on the laptop.
 - Say which try every Pangram result came on (2026-10-01, E95).
 - About one emoji per section on average, checked on Pangram like any other change (2026-10-01, E96), and only ones on the allowlist in `tools/humanization/EMOJI-LIST.md`: no pointers, no 😉, nothing that only labels a thing or an activity; ASCII like :) or "(hehe)" where it fits; "lol" is wry (2026-10-01, E97). A feeling's emoji can stay when it gives the line its beat (2026-10-01 15:59, E102).
 - On the side-by-side page, a proposal's new words are highlighted (2026-10-01 15:59, E103).
+- Love is felt, not faked: word a condition by what the reader can feel yet, never by whether they're sincere (2026-10-01 20:51, E107).
+- The grown-up isn't only for when something's wrong: if the little one shows up for innocent fun, don't "put them in their place" (2026-10-01 20:51, E109).
 - When the article retells a scene or a quote, carry the primary text's words, with a link (2026-10-01, E98).
 - Emojis only from Joel's own list, darkest skin tone where there is one, and only where an emotion wants out, a heading wants one, a long stretch wants a break, or it says what the words can't (2026-10-01 13:57, E101).
 - Finish the thought: a point the reader needs doesn't get cut because Pangram fights it; change its frame, and ask Joel with the flagged span (2026-10-01 13:57, E100).

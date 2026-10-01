@@ -275,3 +275,6 @@ Love Doesn't Have to Wait for Trust is done: the h2 and P1–P14, 100% Human tog
 ## Turn 13 (2026-10-01, 17:50 UTC): both proposals adopted
 
 Joel: "P12 proposal accepted, P13 proposal accepted". Both are installed as proposed (each 100% Human alone on turn 12, try 1). The h2 and P1–P14 with them: 100% Human (1,236), try 1.
+
+## Turn 14 (2026-10-01): P14 under Joel's shared rule on short paragraphs
+P14 d (41 words) was checked only in its section on turn 12. With P13, which passes alone: 100% Human (149, short text), try 1.
