@@ -34,3 +34,6 @@ After it comes the guide's h1 "When the Adult Voice Feels Fake".
 
 ### Where it stands
 The h3 and P1–P2 are installed, 100% Human together (98 words). G3 and G4 wait on Joel. Then the guide's h1 "When the Adult Voice Feels Fake".
+
+### Joel's shared rule (from the community lane, 2026-10-01)
+"Every paragraph passes alone"; a paragraph under 50 words "is checked with a neighbor that passes alone". The two paragraphs of the opening had only been checked with each other. With Joel's Make a Simple Vow P5 before them (100% Human alone): 100% Human (203), try 1. So they meet the rule. Still, every paragraph of mine after them flipped the whole section, which is what Joel calls "playing with pangram", so this goes to him as it stands.

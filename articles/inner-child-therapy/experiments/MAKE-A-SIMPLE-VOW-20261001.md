@@ -81,3 +81,6 @@ None this turn. I'd thought of 🥹 after "adoration and joy?", but the groundin
 
 ### Where it stands
 Make a Simple Vow: the h2 and P1–P5, 100% Human together (445 words). Its comments in the article say what's Joel's.
+
+### Joel's shared rule on short paragraphs
+P3 (his, 49 words) with P4, which passes alone: 100% Human (138, short text), try 1.

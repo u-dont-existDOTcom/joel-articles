@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "1b2d0b7f96093e3c21480f433eb37828b7e0215699c4266c185678f5aa10f8b6",
+          "sha256": "aea5a7ee6b312545b5f241c33ae709b0e2b263aff923721d00ef61d8775af9ae",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2839,7 +2839,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md",
-          "sha256": "221de3cb672f38125901840bcd94ce4094c921d4228d726ff9c197a1502f3cd9",
+          "sha256": "d015cd920be94cc820177b5fbbf067a8d68b32d5269c398ca49de99678d44f51",
           "role": "humanization_working_record"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "bd11991148bf1640ade8942d98b8c1c9eff63884db155abf108492afbe004e3f",
+          "sha256": "6345ef154e792a53dd98696e161e330df545ed7a995b7387870f84ef726ea7d7",
           "role": "detector_prediction_log"
         },
         {
@@ -4209,7 +4209,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/MAKE-A-SIMPLE-VOW-20261001.md",
-          "sha256": "e9d4bf77b515bee96adea1d3900f651b87bd0ecb275049a2de1326cc4b40b15f",
+          "sha256": "4153457b5fd913756479643329dbd9e32f096eacaf5b037b47c40e2ff67bf184",
           "role": "humanization_working_record"
         },
         {
@@ -4289,12 +4289,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/GIVE-THE-VOW-A-PHYSICAL-REMINDER-20261001.md",
-          "sha256": "45058f19df2dcec927289afcd26ea7ce1aca34b9ed1ef298a1c20edd2082e900",
+          "sha256": "c15c60eb4bb6da51c6835af96ec9bf6eb159fc2d79fb3f5e46a982de9e957fd7",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-01-turn14.json",
-          "sha256": "a8c306ebf71afa021ba4ec47320e7e299442328db2f68dcaf19e62e7d73783f0",
+          "sha256": "aabb17688dd9f018de032f75464bbbbb925f7ba0a24810417bd042886a3a4fb6",
           "role": "in_context_map"
         },
         {
@@ -4366,6 +4366,11 @@
           "path": "articles/inner-child-therapy/tools/targets/physical-reminder-p4.json",
           "sha256": "1bdd71fa63e2d7883d4eddd51c3048f4975348460a4a9f554066ca2dbc24f07e",
           "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-01-turn14-j.json",
+          "sha256": "604769a281a3d0b1c6e7be220747699cb65429dc3411ff19af0a031fa3f9f69b",
+          "role": "detector_check_texts"
         }
       ]
     },
