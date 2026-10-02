@@ -729,11 +729,11 @@
   {
    "id": "ldw-p14-installed",
    "status": "applied",
-   "what": "Claim check: Love Doesn't Wait P14 (what relaxing can and can't do) is installed, without the guide's \"assign guilt\".",
+   "what": "Claim check: Love Doesn't Wait P14 (what relaxing can and can't do) is installed, without the guide's \"assign guilt\". Since 2026-10-02 (turn 16), without \"like before\" (Joel's rule on pointers sections back).",
    "joel": "2026-10-01 15:59 UTC: \"continue\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
-    "If your stomach tightens while your little one waits for an answer, slower exhales like before may help you stay with them. Feeling calmer doesn't mean their complaint is wrong, though, and it won't make them trust you on its own."
+    "If your stomach tightens while your little one waits for an answer, slower exhales may help you stay with them. Feeling calmer doesn't mean their complaint is wrong, though, and it won't make them trust you on its own."
    ]
   },
   {
@@ -808,7 +808,7 @@
    "joel": "2026-10-02 00:16 UTC: \"For P4 I think cut out the \\\"or just keeping an appointment, eating, or going to bed.\\\" that sounds almost ridiculous\"",
    "where": "Make a Simple Vow",
    "must_contain": [
-    "Pick one thing to do that's small enough to repeat. A big gesture you later drop would only prove them right to doubt you, but a small thing you keep doing can change their mind. Maybe it's one you already tried in \"Not Every Hero Wears A Cape.\""
+    "Pick one thing to do that's small enough to repeat. A big gesture you later drop would only prove them right to doubt you, but a small thing you keep doing can change their mind.\n"
    ],
    "must_not_contain": [
     "or just keeping an appointment, eating, or going to bed"
@@ -830,17 +830,45 @@
   {
    "id": "pr-opening-installed",
    "status": "applied",
-   "what": "Claim check: Give the Vow a Physical Reminder is installed with Joel's two paragraphs (2026-10-02): his merge of the opening, and his paragraph on a child of yours or a calm pet. Claude's last two sentences (the stand-in for the guide's oracle caution) are cut. The h3 is the guide's, and it's Joel's call (with it the section is 100% AI).",
-   "joel": "2026-10-02 00:16 UTC: \"I would merge this section's P1 with P2 (human, low conf)\"; \"P3 now (human, low conf)\"; \"those 2 combined are human med conf\"; \"I would simply cut out the last 2 sentences entirely.\" Before that, 2026-10-01 20:51 UTC: \"continue\"",
+   "what": "Claim check: the h3 after Make a Simple Vow is Joel's \"Remind Yourself\" (2026-10-02), with his two paragraphs (his merge of the opening, and his paragraph on a child of yours or a calm pet). Claude's turn-14 stand-in for the guide's oracle caution is cut.",
+   "joel": "2026-10-02 01:08 UTC: \"changed the title and now it's human: Remind Yourself\". 00:16 UTC: \"I would merge this section's P1 with P2 (human, low conf)\"; \"P3 now (human, low conf)\"; \"those 2 combined are human med conf\"; \"I would simply cut out the last 2 sentences entirely.\"",
    "where": "Give the Vow a Physical Reminder",
    "must_contain": [
-    "### Give the Vow a Physical Reminder",
+    "### Remind Yourself",
     "The vow can live somewhere you'll see it, too, like on a stuffed animal from when you were little, a photo of yourself as a child, or just a sticky note on the bathroom mirror. Whatever helps you feel connected to the Nurturer and Protector you've been practicing. The Teddy bear note may remind you to think, \"When I see you, I remember to stop attacking myself and go to bed on time.\"",
     "A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child. But those are also their own beings with their own needs as well. Let them come and go without making them responsible for the session."
    ],
    "must_not_contain": [
     "And then don't start asking it what to do!",
-    "It only knows what you decided that day."
+    "It only knows what you decided that day.",
+    "### Give the Vow a Physical Reminder"
+   ]
+  },
+  {
+   "id": "pointers-sections-back",
+   "status": "applied",
+   "what": "No pointer to something sections back that a reader would have to remember (turn 16 sweep): Love Doesn't Wait P14's \"like before\" and Make a Simple Vow P4's \"Maybe it's one you already tried in \"Not Every Hero Wears A Cape.\"\" are cut. Ask God for a Loan P2's \"it's the food bank all over again\" waits: cut, its section fails (see the record), so it stays until that's fixed. Joel's P3 \"the goodwill prayer from before\" is his call (a proposal).",
+   "joel": "2026-10-02 01:08 UTC: \"it's not that a ref back has to say what it means, but it depends how far back it's referring to. nobody will remember something sections away. If it's from the last paragraph and it's clearly referring then it may be fine.\"",
+   "where": "Love Doesn't Have to Wait for Trust; Make a Simple Vow",
+   "must_not_contain": [
+    "slower exhales like before",
+    "Maybe it's one you already tried in \"Not Every Hero Wears A Cape.\"",
+    "unlike with those grown-ups"
+   ]
+  },
+  {
+   "id": "adult-voice-fake-opening",
+   "status": "applied",
+   "what": "Claim check: the guide's h1 When the Adult Voice Feels Fake is installed with its opening (P1, Scott's quote, P3). Scott's quote is word for word from Joel's source and goes to him to confirm.",
+   "joel": "2026-10-02 01:08 UTC: \"continue\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "# When the Adult Voice Feels Fake",
+    "My friend Scott said:\n\n> \"Half the time when I try to connect to baby me, I feel fake and it seems crazy.\"",
+    "Why would being kind to your little one feel fake?"
+   ],
+   "must_not_contain": [
+    "I used to think the answer was mainly persistence"
    ]
   }
  ]

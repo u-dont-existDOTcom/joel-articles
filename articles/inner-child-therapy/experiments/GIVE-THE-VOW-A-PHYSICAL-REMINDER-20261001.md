@@ -56,3 +56,7 @@ Joel, 00:16 UTC: "For Give the Vow P2, it looks like you lost the meaning of the
 
 ### Where it stands
 Installed: the guide's h3 and his two paragraphs, which pass alone and together without the heading, and fail under it. Waiting on Joel: the heading. Then the guide's h1 "When the Adult Voice Feels Fake", after his "continue". Lesson: E113.
+
+## Turn 16 (2026-10-02): Joel's heading
+
+Joel, 01:08 UTC: "changed the title and now it's human: Remind Yourself", with his two paragraphs as installed. Installed, and not checked again (his rule, 01:08: "only if i don't tell you i tested it"). With Make a Simple Vow above it: 100% Human (582), try 1. Lesson on the repeat checks: E116.

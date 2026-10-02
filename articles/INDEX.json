@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "74d26395f4b030c43e3e0bd82b74425d47dfc0a9dc23ac361c850c55dbae247b",
+          "sha256": "ffe4269779edfe6c73f59fd8d995a94626275109e0dc89c7f55346432cfe5124",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "efe32538863ff574618530820ff7619f204b93b5e065517e74aac72f892e2860",
+          "sha256": "daa96b0e46372efe762c2843eda9d7f387473991347f3b6f0faedc034e959ae5",
           "role": "owner_edits_ledger"
         },
         {
@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "0c185e6eb79e36097ede6c16d28f4bb0d320c2e13591e0319bae2fa193eb42bf",
+          "sha256": "9a71057b358661a55482149e42c13a1a49cfaf15235df2e35fff01d6700a2b12",
           "role": "humanization_working_record"
         },
         {
@@ -2839,7 +2839,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/LOVE-DOESNT-WAIT-20260930.md",
-          "sha256": "d015cd920be94cc820177b5fbbf067a8d68b32d5269c398ca49de99678d44f51",
+          "sha256": "c2fb6bc6db5b8493749da92cb76d6a237445bf2ad8921c1780e23f3901c2dbab",
           "role": "humanization_working_record"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "4a9039167f7d2306f7bed49ab9459ac74992f2aeeee8d30214a1a97e03d8d7ec",
+          "sha256": "20797599d8cf0a758af5b0b58b05eac4895c77c2c3c45972d5fcce9b53cd491c",
           "role": "detector_prediction_log"
         },
         {
@@ -4209,7 +4209,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/MAKE-A-SIMPLE-VOW-20261001.md",
-          "sha256": "239267cc08367fba8e29801ae0cea9a05afd85cfe3a48fe109656b959199dabe",
+          "sha256": "7ccefe3f5d329e33e9116d1494185a24d41d3c1ec3fa5d4a0c9231f94403f64e",
           "role": "humanization_working_record"
         },
         {
@@ -4289,7 +4289,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/GIVE-THE-VOW-A-PHYSICAL-REMINDER-20261001.md",
-          "sha256": "c70357ab8b4cf57457c7db03e4f5647b7f652dcddbca300d0904d62c9d0932b5",
+          "sha256": "3db4ece67666904253320789a2c3f786564cff3fcf2d75046ea16438f671aead",
           "role": "humanization_working_record"
         },
         {
@@ -4405,6 +4405,56 @@
         {
           "path": "articles/inner-child-therapy/tools/targets/make-a-simple-vow-line-turn15.json",
           "sha256": "3db2788ad628f925720088d5163071f7c9f1a99481d4e119af0f53d398114ede",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
+          "sha256": "e6efd6da172169c734a335b3f8bed3431868fd33a76fd7b5a951e3ab88b420ac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-02-turn16.json",
+          "sha256": "5ff0838c9aa753bb54e987a22e0d7aecc085a1566feb8d8ecd99627a3cbfd3e5",
+          "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-02-turn16-a.json",
+          "sha256": "2896d0eab4aa783fba07e488dd68cf79a0359b290bd6460d53e6c0ad735f4a52",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-02-turn16-b.json",
+          "sha256": "f4ee701534d76eeaa054f46bb8782707b5be678aa6fb1c40ef827ce973102721",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-02-turn16-c.json",
+          "sha256": "0827eb5d77a472ca776d39b6f4637056730804dc389248085ac24946f2ec64b4",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/adult-voice-fake-p1.json",
+          "sha256": "13c8583593ac36efc3728beba8205ffa884bfa93b2305a13d38ed2ca597ceafc",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/adult-voice-fake-p3.json",
+          "sha256": "e685217d1ebf1f55c9b411b4130e221535c5b7eb5451487ce5f4e96e2600ae2f",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/adult-voice-fake-p4.json",
+          "sha256": "0bf7351c0d66dcd1a276588aac04321694bd7773d5e9e2873a2b534e00f3a24f",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/adult-voice-fake-p5.json",
+          "sha256": "ceea2002ecc65220220c1aae2c8eda001a435b9e8563809d348feafb1ba1261c",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/adult-voice-fake-p6.json",
+          "sha256": "bc12499f88a3a4feb02fc645c3cf89c0c5486cb7dee07df5967826d7e02fe42b",
           "role": "reviewer_target"
         }
       ]

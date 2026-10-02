@@ -278,3 +278,7 @@ Joel: "P12 proposal accepted, P13 proposal accepted". Both are installed as prop
 
 ## Turn 14 (2026-10-01): P14 under Joel's shared rule on short paragraphs
 P14 d (41 words) was checked only in its section on turn 12. With P13, which passes alone: 100% Human (149, short text), try 1.
+
+## Turn 16 (2026-10-02): P14's pointer
+
+"slower exhales like before" lost "like before", which pointed to Your Body Might Need Some Love First, sections back (Joel, 01:08 UTC: "nobody will remember something sections away"). With P13: 100% Human (147), try 1; the section: 100% Human (1,234), try 1. Cold read and grounding OK.
