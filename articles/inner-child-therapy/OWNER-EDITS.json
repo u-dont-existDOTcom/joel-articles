@@ -239,12 +239,12 @@
   },
   {
    "id": "plork-paragraph",
-   "status": "pending",
-   "what": "The pl/ork paragraph with Joel's last sentence goes where pl/ork is first used.",
+   "status": "applied",
+   "what": "The pl/ork paragraph with Joel's last sentence goes where pl/ork is first used: it opens Start With Whatever Showed Up (turn 18), right before P1's \"I count that as pl/ork too\".",
    "joel": "01:59 (his sentence); 02:42: \"find where that is supposed to go\"",
    "waits_for": "Start With Whatever Showed Up",
    "must_contain": [
-    "Play not only paves the way for therapy, but is a part of how successful therapy should be measured."
+    "## Start With Whatever Showed Up\n\nYour little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.\n\nYou might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants, or if it just has something to say. It could be your little one, mad that you took so long to come back, or the parent you inherited, or something from earlier today, or a bit of each."
    ]
   },
   {

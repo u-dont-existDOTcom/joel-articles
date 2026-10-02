@@ -85,3 +85,28 @@ The h1 through the h2, P4 and P5: 100% Human (387), the section's third check. T
 - E118 (Joel's correction): whose feeling. In `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, with the grounding change, its blind check and the sweep.
 - E110, applied late: the turn-16 and first turn-17 briefs for P4 and P6 still carried the guide's rule list, its warm/critic pair and its three forms. All ten drafts from them that went to Pangram failed; with them out, four of five passed alone.
 - Order: the try-3 and try-4 drafts went to Pangram before their groundings, and the gate (S6) puts the grounding first. Every later draft this turn had its cold read and grounding first.
+
+## Turn 18 (2026-10-02, from 18:56 UTC): Joel's P3, P4 and P6; the start of Start With Whatever Showed Up
+
+Joel, 18:56 UTC: his P3 with "(from the inner child's view)" ("it passes"); his P4 ("hum med conf"); his P6 ("This is what I'ds ay and it passes"); "fix the reviewer"; "continue". All three are in word for word and not re-checked alone (E116). The h1 through The Parent You Inherited with them: 100% Human (485), try 1.
+
+### Start With Whatever Showed Up (G1–G7): the plan
+| # | guide paragraph | plan |
+|---|---|---|
+| P0 | (the guide's pl/ork definition, from the dissolved Three Adult Functions) | Joel's pl/ork paragraph, word for word; it waited for the first use of pl/ork (OWNER-EDITS plork-paragraph) |
+| G1 | the cynical voice, numbness, urge to scroll, anger, dissociation all belong in the pl/ork; it may be a protector, the child, an inherited critic, a present-day grievance or a blend; start with what it's trying to do before deciding who's speaking | P1. The h1's opening already has the silence, numbness, chores and "this is silly" voice, so not that list again |
+| G2 | sometimes it's only a thought; the least elaborate model; "thinking", let it pass; a parts dialogue if it keeps returning with a coherent fear, strategy, age or demand | P2. Not a repeat of "three jobs, not three more people" or "don't invent one" |
+| G3 | notice what each response teaches the others; the vow-then-blame and the protector who gets louder | P3. The vow-then-blame case is already in Love Doesn't Wait P9, so the protector case only |
+| G4–G6 | pushing past confirms you don't listen; "I notice you…"; wait, don't interrogate the silence or manufacture an answer | P4, one paragraph |
+| G7 | if nothing speaks: triggers, body, what it makes you do or avoid; a protective purpose is a hypothesis; a voice can inform without steering; tests for advice, not for being heard | P5 |
+
+### The rounds (three writers each; cold read and grounding before Pangram; the fixed versions' second groundings ran beside their Pangram checks)
+- P1: a and b got the reactions right (getting mad, staring at the rug). Both groundings flagged the sources as an either/or; a with the inherited parent and "a bit of each" added: 100% Human alone (96), try 1. Its second grounding asked for "a part of you that's trying to protect you" in the list too, while the first said the protective part can wait for Two Common Protective Patterns. The runs disagree, so it's Joel's call. b's cold read couldn't tell who "who's talking" was. In, with P0.
+- P2: all three writers opened on the brief's own sentence; a and b hard-failed the linter (coach density 2.1). c with the cold read's and grounding's fixes (no "The model"; "maybe sounding like you at a certain age"): 100% AI alone (97), try 1. Its second grounding: a thought that sounds like your little one gets heard the first time (MUST), and the age counts on its own (CHANGED). Not in.
+- P3: both groundings flagged "the Protector" as the warning part (E123), and "usually only has to say it once" as unsupported. a with "a part of you that's trying to protect you": 100% AI alone (98), try 1; its cold read couldn't place "that part". Not in.
+- P4: a: 100% Human alone (80), try 1, but its second grounding flagged MISFIRES on "fill it with a made-up answer": for a reader whose answers all feel made up, it should be an answer you supply because nothing came. The first groundings had flagged the script's three-part question as a repeat of P1's, so it's "What's going on?" now. Not in until the MISFIRES fix passes.
+- P5: a and b (c hard-failed the linter). Both groundings flagged MISFIRES on the advice test (something big gets checked when you're calm, against what has actually happened) and an unclear "it" (the reaction); a's said "before you know any of that" made hearing a feeling a matter of timing. Not sent to Pangram.
+- The h1 through P1: 100% Human (661), try 1.
+
+### Next
+P2 to P5 with these notes in their briefs, in this order: P2's MUST; P3 in a new voice, with the warning part named as a part of you; P4's made-up answer; P5's MISFIRES and its "it". Then the h3s. Also Ask God for a Loan (E117).

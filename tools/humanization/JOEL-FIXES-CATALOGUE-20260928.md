@@ -301,3 +301,11 @@ What his fixes teach:
 - **His new P3.** "new p3, tested human (i also added myown exp)". Installed word for word and not re-checked alone; the h1's opening with it is 100% Human (207), try 1.
 - "continue".
 - What his notes teach: advice for a feeling says whose feeling it is, because the little one's remedy can hurt the grown-up; and a reviewer line that names a split like that is a question about the advice, not an extra.
+
+## Joel's notes, 2026-10-02 18:56 UTC
+
+- **His P3.** "i said unintentional so it's not blaming"; "it sits "correctly" next to unintentional ... there's a diff between me blaming someone and me pointing out how their inner child may blame them. It's not my place to blame, but their inner child does have that right to say what they think about their treatment." His P3 now has "(from the inner child's view)"; it passes on his check (E119).
+- **His P4.** "the script part iw ant to keep it's important"; "embarrassing crying fit so we can encompass anger and crying and embarassing us, from the original"; "more specific since we're not talking about bad behaviors". Human, medium on his check (E120, E121).
+- **His P6.** ""that call" it's quite obvious as a referent to lettinjg the phoen ring right? fix the reviewer"; ""new grown up can start outside your head" is what i would have flagged as unclear"; his version opens "But with the borrowed adulthood trick," and passes on his check (E122).
+- "continue".
+- What his notes teach: ask whose view a judgment is before calling it a contradiction; keep the guide's word for what kind of thing something is; let one example carry as much of a list as it can; and a cold reader that flags an obvious referent is the one to fix.
