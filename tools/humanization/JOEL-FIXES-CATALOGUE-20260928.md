@@ -269,3 +269,12 @@ What he did: the list became one requirement per sentence, with "It requires" re
 - **Repeat checks.** "it seems like you're pangram testing stuff i already told i pangram tested? that's not necessary. only if i don't tell you i tested it. if you want to test combinations i didn't test, you can." (E116.)
 - "continue".
 - What his notes teach: a reader can't use what they don't remember, so distance decides; and his own check is a result, not a claim to verify.
+
+## Joel's notes, 2026-10-02 03:15 UTC
+
+- **Scott's quote.** "he said that, altho i'm not sure word for word but yes that's how i remembered it." It stays as his source has it.
+- **The vow's P3.** "agree with proposal". Installed; with Remind Yourself the section is 100% Human (587), try 1.
+- **Who is feeling fake (E118).** "yes i used to think that. but what P3 is really missing is who is feeling fake? if the little one, it could be persistence. if the adult feels fake, more fake sessions could be more damaging than just not doing the fakery in the first place. your reviewer should have caught that." The grounding review now asks whose feeling a piece of advice answers, and tests the advice for each.
+- **His new P3.** "new p3, tested human (i also added myown exp)". Installed word for word and not re-checked alone; the h1's opening with it is 100% Human (207), try 1.
+- "continue".
+- What his notes teach: advice for a feeling says whose feeling it is, because the little one's remedy can hurt the grown-up; and a reviewer line that names a split like that is a question about the advice, not an extra.

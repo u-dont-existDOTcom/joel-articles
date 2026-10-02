@@ -760,11 +760,14 @@
   {
    "id": "vow-p3-joel",
    "status": "applied",
-   "what": "Claim check: Make a Simple Vow P3 is Joel's text, word for word.",
-   "joel": "2026-10-01 20:51 UTC: \"I'd cut P3 to:\"",
+   "what": "Claim check: Make a Simple Vow P3 is Joel's text, word for word, with his adopted proposal (the goodwill prayer's words in place of \"from before\", which pointed seven sections back).",
+   "joel": "2026-10-01 20:51 UTC: \"I'd cut P3 to:\"; 2026-10-02 03:15 UTC, on the proposal: \"agree with proposal\"",
    "where": "Make a Simple Vow",
    "must_contain": [
-    "Only say the \"I love you\" part if you can feel it. If you don't feel the love yet, say you care (with the goodwill prayer from before). That's a first step. Or even before that, just promise your little one you won't be cruel to them on purpose."
+    "Only say the \"I love you\" part if you can feel it. If you don't feel the love yet, say you care (with the goodwill prayer: \"May you be loving, peaceful, and free\"). That's a first step. Or even before that, just promise your little one you won't be cruel to them on purpose."
+   ],
+   "must_not_contain": [
+    "(with the goodwill prayer from before)"
    ]
   },
   {
@@ -859,16 +862,49 @@
   {
    "id": "adult-voice-fake-opening",
    "status": "applied",
-   "what": "Claim check: the guide's h1 When the Adult Voice Feels Fake is installed with its opening (P1, Scott's quote, P3). Scott's quote is word for word from Joel's source and goes to him to confirm.",
-   "joel": "2026-10-02 01:08 UTC: \"continue\"",
+   "what": "Claim check: the guide's h1 When the Adult Voice Feels Fake is installed with its opening (P1, Scott's quote, P3). P3 is now Joel's (see adult-voice-fake-p3-joel); Claude's turn-16 P3 is gone.",
+   "joel": "2026-10-02 01:08 UTC: \"continue\"; 03:15 UTC: \"new p3, tested human\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
     "# When the Adult Voice Feels Fake",
-    "My friend Scott said:\n\n> \"Half the time when I try to connect to baby me, I feel fake and it seems crazy.\"",
-    "Why would being kind to your little one feel fake?"
+    "My friend Scott said:\n\n> \"Half the time when I try to connect to baby me, I feel fake and it seems crazy.\""
    ],
    "must_not_contain": [
-    "I used to think the answer was mainly persistence"
+    "I used to think the answer was mainly persistence",
+    "Why would being kind to your little one feel fake?"
+   ]
+  },
+  {
+   "id": "adult-voice-fake-p3-joel",
+   "status": "applied",
+   "what": "When the Adult Voice Feels Fake P3 is Joel's new paragraph, word for word (he added his own experience: the personal trainer, his mom pretending to listen).",
+   "joel": "2026-10-02 03:15 UTC: \"yes i used to think that. but what P3 is really missing is who is feeling fake? if the little one, it could be persistence. if the adult feels fake, more fake sessions could be more damaging than just not doing the fakery in the first place. your reviewer should have caught that. new p3, tested human (i also added myown exp):\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "I used to be all personal trainer and teach persistence on this as the remedy. Keeping at it does help, since a little one who learned to expect being dropped won't trust you right away. But I don't think that explains the adult feeling fully. More importantly, I think it could even be like unintentional gaslighting to the little one to ask to connect with them when you don't believe they're even real. Like when my mom pretended to listen to me when I was young, but even less excusable because she was not asking for my time when she did that. So, it's worth meditating first on why it feels fake."
+   ]
+  },
+  {
+   "id": "scott-quote-confirmed",
+   "status": "applied",
+   "what": "Scott's quote stays word for word from Joel's source; Joel confirmed it.",
+   "joel": "2026-10-02 03:15 UTC: \"he said that, altho i'm not sure word for word but yes that's how i remembered it.\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "> \"Half the time when I try to connect to baby me, I feel fake and it seems crazy.\""
+   ]
+  },
+  {
+   "id": "parent-you-inherited-p4-p5",
+   "status": "applied",
+   "what": "Claim check: the guide's h2 The Parent You Inherited is installed with P4 and P5, right after Joel's P3; P6 (G6) isn't in yet. P5's \"both sides\" are both in its sentence; turn 16's \"doesn't even make sense\" is out (the grounding: unsupported).",
+   "joel": "2026-10-02 03:15 UTC: \"continue\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "So, it's worth meditating first on why it feels fake.\n\n## The Parent You Inherited\n\nI'd look at the parent you inherited: how you learned to treat yourself from how people treated you growing up, long before you started building your Nurturer, Protector and Guide. It can be warm, but it's often more like a critic, or a warden with rules. The rules can even sound reasonable, like \"You can come back to the table when you're done crying.\" If yours was like that, your little one learned bit by bit to hide what wasn't allowed, so they could keep belonging. They might still be doing it.\n\nIf it's a critic, the parent you inherited also measures whatever you show the world against an impossible ideal, and then attacks you from both sides: you're not good enough, and anything that does look good is fake anyway. That second one means nothing you do could ever count, and it's one place feeling fake can come from. When a new grown-up voice shows up saying \"Trust me,\" of course your little one doesn't answer."
+   ],
+   "must_not_contain": [
+    "That second one doesn't even make sense"
    ]
   }
  ]
