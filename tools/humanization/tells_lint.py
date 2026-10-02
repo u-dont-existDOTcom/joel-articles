@@ -83,6 +83,18 @@ def cos(a, b):
 
 ACRONYMS = r"\b(IMO|IMHO|TBH|FWIW|IIRC|AFAIK|NGL|IRL|ICYMI|TL;?DR|BTW|OMG|LOL|SMH|YMMV)\b"
 
+# O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
+# or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
+# there, trying to get some justice" to "so the angry communard goes there"). REVIEW only: an idiom can stay, and so
+# can his own words. It catches the noun right before the verb, so a subject with a long clause after it slips by.
+ABSTRACT_AGENT = (r"\b(anger|fear|grief|shame|hurt|pain|longing|loneliness|resentment|jealousy|envy|desire|rage|guilt|"
+                  r"sadness|anxiety|panic|feelings?|emotions?|objection|vision|insight|truth|idea|wish|need|hope|love|trust)"
+                  r"\s+(?:\w+ly\s+)?(goes|went|comes|came|arrives|arrived|tries|tried|wants|wanted|seeks|sought|demands|"
+                  r"demanded|decides|decided|chooses|chose|refuses|refused|pushes|pushed|waits|waited|hides|hid|insists|"
+                  r"insisted|asks|asked|teaches|taught|shows up|showed up|returns|returned|travels|traveled|files|filed|"
+                  r"knocks|knocked|creeps|crept|sneaks|snuck|wanders|wandered|votes|voted|speaks|spoke|whispers|whispered|"
+                  r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won)\b")
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -120,6 +132,8 @@ def main():
                 flag('FAIL', 'O1 owner ban: "doesn\'t get to decide" family (Joel 2026-09-28)', s)
             if re.search(r"(^|[.!?]\s+)(Fine|Good|Great|Sure|Okay|OK|Fair enough)[,.!]\s", s):
                 flag('FAIL', 'O2 owner ban: Fine/Good/Great as a clause (Joel 2026-09-28)', s)
+            if re.search(ABSTRACT_AGENT, s, re.I):
+                flag('REVIEW', 'O6 a feeling or idea doing what a person does: give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
             for r in CONTRAST:
                 if re.search(r, s, re.I): flag('REVIEW', 'B2 contrast', s); break
             for r in THESIS:

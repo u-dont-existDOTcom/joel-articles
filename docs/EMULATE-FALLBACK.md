@@ -146,12 +146,13 @@ The aim is a paragraph that keeps as many of our sentences as it can and takes f
    - finish a cut-off sentence;
    - clean up the noise.
 
-   Joel's own phrasings go back in, or he's asked, with a recommendation.
+   Joel's own phrasings go back in, or he's asked, with a recommendation. His own paragraphs keep his exact characters, straight apostrophes included (2026-10-02: curling them flipped one from 100% Human to 100% AI).
 5. **Run the whole gate on the result.**
    1. The two-way preservation trace, by a fresh agent that hasn't seen the notes.
-   2. Sense (S1 to S6), grounding and MISFIRES, the bans, the tell ledger and architecture.
-   3. The reviewer.
-   4. Pangram, alone and in the section with its headings, each check with its prediction written down.
+   2. The whole-article stance check (`tools/humanization/stance_check_prompt.py`), by a fresh agent with the whole published article: Emulate turned "without pretending that people arrive emotionally finished" into "where people don't come in pre-healed" in community section 3, nearly the opposite of what Joel wants, and only a check against the whole article shows that (Joel, 2026-10-02: "Did the reviewers not look at the article?").
+   3. Sense (S1 to S6), grounding and MISFIRES, the bans, the tell ledger and architecture.
+   4. The reviewer.
+   5. Pangram, alone and in the section with its headings, each check with its prediction written down.
 
    After any fix, check again.
 6. **Show Joel the side-by-side page** (`tools/humanization/render_in_context.py`). Mark every sentence that came from Emulate, and give a recommendation for every change of meaning.
