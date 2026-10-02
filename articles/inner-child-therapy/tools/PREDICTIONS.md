@@ -353,3 +353,10 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-02 (turn 16) | Love Doesn't Wait P13 (passes alone) + P14 with "like before" cut (the same rule; P14 is 39 words); turn 16, try 1 | Human, medium (my call: the pair passed with the two words in) | | |
 | 2026-10-02 (turn 16) | Ask God for a Loan, h3 + P1 + P2 with the cut; turn 16, try 1 | Human, medium | | |
 | 2026-10-02 (turn 16) | Make a Simple Vow, h2 + P1–P5 with the P4 cut; turn 16, try 1 | Human, medium | | |
+| 2026-10-02 (turn 16) | Diagnostic: Borrow Love, the h2 with its three h3s (the section Ask God for a Loan was checked in when installed), with the food bank pointer cut; turn 16, try 1 | Human, medium (my call: the cut passes alone, and the h3 alone may never have passed) | | |
+| 2026-10-02 (turn 16) | Diagnostic: Ask God for a Loan, h3 + P1 + P2 as installed (with the food bank pointer), never checked on its own; turn 16, try 1 | AI, low (my call: if it fails too, the cut isn't what flipped it) | | |
+| 2026-10-02 (turn 16) | When the Adult Voice Feels Fake P1 after the reviewer's tickets (one sentence with the attempt, the silence or numb feeling and the urgency; then the "this is silly" voice and whose it is), alone; turn 16, try 2 | Human, low (my call: the march is broken and it ends on an open thought; tickets have worked before) | | |
+| 2026-10-02 (turn 16) | The Parent You Inherited P4 after the tickets, writer 1 (the hiding folded into the rules sentence; ends on Joel's doubt about the word "voice"), alone; turn 16, try 2 | Human, low | | |
+| 2026-10-02 (turn 16) | P4 after the tickets, writer 2 (same, "whatever else those rules forbade"), alone; turn 16, try 2 | Human, low | | |
+| 2026-10-02 (turn 16) | P6 after the tickets, writer 1 ("because"; "someone who likes you as you are"; ends on the plan sounding stiff), alone; turn 16, try 2 | Human, low | | |
+| 2026-10-02 (turn 16) | P6 after the tickets, writer 2 ("and"; "a plan written on a calmer day"), alone; turn 16, try 2 | Human, low | | |
