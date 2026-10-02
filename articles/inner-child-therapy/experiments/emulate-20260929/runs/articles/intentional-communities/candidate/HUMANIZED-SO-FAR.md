@@ -84,7 +84,7 @@ I am not currently recruiting anyone or founding a community, which makes it eas
 
 [image 6](https://substackcdn.com/image/fetch/$s_!PpTf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b760a8e-4a67-45e0-bb1f-6e07406abf3a_1536x1024.png)
 
-<!-- CANDIDATE: section 3 v8 (2026-10-01), for Joel's review. Every paragraph 100% Human on Pangram alone, or with a neighbor that passes alone; the section 100% Human (481 words). Records: s3/PREDICTIONS-s3.md, s3/r*/pangram-s3.jsonl, s3/fixlog-s3.json. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 3 v10 (2026-10-02, Joel's edits of 00:52 in, with his own characters kept: the straight apostrophes in P7's "it's" and P9's "who've" and "they're"), for Joel's review. Every paragraph 100% Human on Pangram alone, or with a neighbor that passes alone; the section 100% Human (560 words, the page's count). P8 and P9 together read 100% AI, though each passes alone and the section passes. Records: s3/PREDICTIONS-s3.md, s3/r*/pangram-s3.jsonl, s3/fixlog-s3.json. Not accepted until Joel says so. -->
 
 # Why Communities Keep Dying in the Same Two Ways
 
@@ -96,19 +96,19 @@ The secular communes had a solution for how to distribute property or labor, but
 
 Meeting procedure isn’t going to solve every problem, no matter how sophisticated the system of labor and money and decision making may be in a community of the [Federation of Egalitarian Communities](https://www.egalitariancommunities.org/) or any other income-sharing community. It can’t make it so that two people don’t hate each other. It can only make it so that they take turns talking about it, and that whoever raises it has to find somebody who agrees with him or her before they get to talk about it.
 
-Eventually, when people are together long enough, politics will become a way of carrying emotional material that people can’t name. There will be a fight about a schedule or committee or noise or food or some policy or other, but it won’t be about that.
+Eventually, when people are together long enough, politics will become a way of carrying emotional material that people can’t name. There will be a fight about a schedule or committee or noise or food or some policy or other, but it won’t be about that. There’s no shared way to talk about the hurt itself, but the meeting agenda is the one place the group lets you push for something and win, so the angry communard goes there, trying to get some justice.
 
 ## The spiritual failure
 
 This comes about when the community realizes the importance of embracing a transformation from within, and then funnels it through a particular person, usually the founder, a teacher, a channel or some other special knower of how things really are.
 
-[The Farm](https://thefarmcommunity.com/), in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life was heavily influenced by Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. It’s one thing to talk about a universal consciousness. It’s another to struggle to escape one man’s opinions.
+[The Farm](https://thefarmcommunity.com/), in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is.
 
-Both approaches fail for symmetric reasons. Secular approaches fail to address the inner life (while distributing power), whereas spiritual approaches do address the inner life but concentrate power.
+The two failures mirror each other. Secular groups distribute power but leave the inner life largely private or ignored. Spiritual groups attempt to address the inner life, but because it's inner being shaped by outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path.
 
 The deeper problem is that someone carries authority earned in one domain into the others. The founder who is a good teacher, the therapist who really helps people, the farmer or business manager that actually carries a lot of the economy. The danger starts when one person has the ability to define the problem, control the information related to the problem, define what the solution is, and make it hard for people to leave or express disagreement.
 
-I want a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority where people don’t come in pre-healed, that also has peer practice and enough play that it doesn’t become a permanent repair shop.
+I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
 
 # The Four Parts That Have to Pl/ork Together
 

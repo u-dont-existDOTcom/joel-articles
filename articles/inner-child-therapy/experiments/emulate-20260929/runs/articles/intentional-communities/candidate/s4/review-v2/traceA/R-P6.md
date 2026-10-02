@@ -1,0 +1,1 @@
+Also, a note on agreements: a community needs some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.

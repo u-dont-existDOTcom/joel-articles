@@ -127,6 +127,73 @@
     "People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or someone thinks they own something.",
     "They just know they are tired and alone and want to change it."
    ]
+  },
+  {
+   "id": "s3-p4",
+   "what": "Section 3, P4: the proposal accepted, with Joel's minimal fix \"so the angry communard goes there\" for \"so the anger goes there\" (2026-10-02 00:52: \"the usage of abstract concepts or feelings as agents is one AI tell\") [in the section 3 v10 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "so the angry communard goes there, trying to get some justice."
+   ],
+   "must_not_contain": [
+    "so the anger goes there"
+   ]
+  },
+  {
+   "id": "s3-p6",
+   "what": "Section 3, P6: Joel's human pass (2026-10-02 00:52): \"followed the founder, Stephen Gaskin\", and a last sentence that says the truth was Y, not X [in the section 3 v10 candidate]",
+   "status": "applied",
+   "joel": "[The Farm](https://thefarmcommunity.com/), in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is.",
+   "must_contain": [
+    "followed the founder, Stephen Gaskin.",
+    "This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is."
+   ],
+   "must_not_contain": [
+    "heavily influenced",
+    "It’s one thing to talk about a universal consciousness"
+   ],
+   "must_link": [
+    {
+     "text": "The Farm",
+     "url": "https://thefarmcommunity.com/"
+    }
+   ]
+  },
+  {
+   "id": "s3-p7",
+   "what": "Section 3, P7: Joel's fix (2026-10-02 00:52: \"emulate lost the meaning of the original\") [in the section 3 v10 candidate, with his straight apostrophe]",
+   "status": "applied",
+   "joel": "The two failures mirror each other. Secular groups distribute power but leave the inner life largely private or ignored. Spiritual groups attempt to address the inner life, but because it's inner being shaped by outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path.",
+   "must_contain": [
+    "The two failures mirror each other.",
+    "largely private or ignored",
+    "because it's inner being shaped by outer as a condition of membership",
+    "around whoever defines the path"
+   ],
+   "must_not_contain": [
+    "symmetric reasons"
+   ],
+   "must_contain_exact": [
+    "because it's inner being shaped by outer"
+   ]
+  },
+  {
+   "id": "s3-p9",
+   "what": "Section 3, P9: Joel's fix (2026-10-02 00:52): he does want people to come in largely healed, without pretending they're finished; \"where people don't come in pre-healed\" said nearly the opposite [in the section 3 v10 candidate, with his straight apostrophes]",
+   "status": "applied",
+   "joel": "I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.",
+   "must_contain": [
+    "I dream of a way to work in depth that isn’t run by a guru",
+    "people who've done the healing first can join without pretending they're fully finished"
+   ],
+   "must_not_contain": [
+    "pre-healed"
+   ],
+   "must_contain_exact": [
+    "people who've done the healing first can join without pretending they're fully finished",
+    "that isn’t run by a guru",
+    "it doesn’t become a permanent repair shop"
+   ]
   }
  ]
 }

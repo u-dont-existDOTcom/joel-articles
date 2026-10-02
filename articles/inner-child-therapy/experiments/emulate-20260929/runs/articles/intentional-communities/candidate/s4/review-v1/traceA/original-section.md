@@ -1,0 +1,77 @@
+# The Four Parts That Have to Pl/ork Together
+
+[an image]
+
+Communities tend to solve whichever part most interests the founders. The political people write bylaws. The spiritual people meditate. The therapists process. The psychedelic people discover that everyone is God and forget to decide whose name goes on the deed.
+
+I divide the model into four parts. Yes, four sounds suspiciously tidy for something involving jealousy, children, land, money, God, and iboga. Bear with me. I’ve published detailed guides for the first three—free, with no funnel and no retreat to buy. Most of this article is about the fourth.
+
+Food, housing, and logistics are not enough reason to bind whole lives together. Shared inner practice gives the difficulty meaning: we are not merely maintaining property together, but helping one another heal and become less governed by fear. An outward *escuelita* and federation purpose adds another reason to keep going—the community exists not only to protect the people already inside it, but to help other people build.
+
+## One principle runs through all of them
+
+Nothing suppressed, everything processed; authority stays with the practitioner; the community provides the container; and the answers remain fluid and organic instead of freezing into doctrine.
+
+These categories leak into one another almost immediately. Jealousy can become governance; control of shared resources can become psychology; medicine can create status; child-rearing can expose values the founders never discussed. I use the boxes to notice what a community has neglected, not because communal life stays inside boxes.
+
+A community does need stable agreements. Nobody wants to reconsider the membership process every Tuesday because one person had a revelation during breathwork. But agreements have to remain open to lived experience.
+
+Religious communities may call the frozen version doctrine. Secular communities often call it “the process,” which can become equally sacred—just with longer meetings and fewer robes.
+
+### 1. Inner pl/ork
+
+Pl/ork means play + work. Calling therapy “inner work” forgets the inner child, who also wants to play.
+
+Forgive the neologism. I hope *pl/ork* isn’t too corny. 🌽
+
+Here’s an example: you teach your inner child geography, while s/he teaches you the world is a cat!
+
+[an image]
+
+[Inner-child reparenting](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) means identifying as the inner adult—or the three inner adults: Nurturer, Protector, and Guru/Leader—and caring for the inner child from there. The adult reparents. The child receives love, protection, guidance, and enough freedom to remain alive inside you.
+
+Then there’s [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing), because the mind can make a magnificent decision while the nervous system quietly files an appeal.
+
+My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), taken critically. Most are treasure. Some seem like late additions. I consider the *Abhidhamma* a scholastic wrong turn. A living community should relate to its own teachings the same way: devoted enough to practice them and secure enough to disagree.
+
+### 2. Relational pl/ork
+
+[Hearthwork](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) distributes counseling among peers: equal time, attention without interpretation or fixing, and then you switch.
+
+The community’s capacity to help people therefore lives throughout the group instead of inside one professional, guru, or emotionally indispensable founder.
+
+But care is not jurisdiction. The person listening to me should not automatically gain power over my membership, work, housing, children, medicine, or the evidence in a dispute about them. Peer care becomes another hierarchy the moment emotional access turns into administrative authority.
+
+Some things also remain outside peer competence. Knowing when to refer to outside or expert assistance is important.
+
+Jealousy and conflict should be addressed while they still belong to the people involved—before they acquire minutes, procedural objections, and a place near the bottom of an agenda nobody will finish.
+
+My [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents) covers the dyads that will form whether the founding document acknowledges romance or pretends everybody has transcended it.
+
+### 3. Medicine pl/ork
+
+Careful, peer-guided use of serious plant medicines, with no special shaman placed above everybody else.
+
+Peer-led doesn’t mean casual. Screening, sober sitters, emergency plans, integration, and clear boundaries all have to exist before the first ceremony. Figuring out the rules while several members are altered would be a very pure form of collective learning, but I don’t recommend it.
+
+### 4. The container
+
+Membership, land, shared resources, governance, children, and exit.
+
+My own long-term direction is toward communities that use less and less money. I think the path has three stages.
+
+First, basic life inside the community—food, housing, care, tools, education, and ordinary transport—is not bought from one another. Members may still keep income from outside work, but anyone earning outside contributes an agreed share to the common. This is probably the realistic starting point.
+
+Later, outside wages and income from community businesses go into a common purse. Members do not accumulate private wealth while they belong. The [Bruderhof](https://www.bruderhof.com/intentional-community) has lived a version of this for generations; my father spent seventeen years inside it. [Twin Oaks](https://www.twinoaks.org/about-twinoaks-community/about-income-sharing) and other income-sharing communities have built related versions. A common purse is not an untested theory.
+
+The furthest goal is for the community to stop using money outside too, meeting needs directly and exchanging through goods, gifts, shared work, or reciprocal obligation. I did not find a well-documented modern community that has fully reached that point. Governments may make it literally impossible through land taxes and other required payments. The practical endpoint may therefore be a nearly moneyless community with one small collective cash boundary.
+
+None of this removes scarcity or economic power. Food stores, housing, tools, land, medicine, transport, and access to whatever outside currency the group still needs can all be controlled. A money-free community still has to answer who allocates scarce things, what obligations people have to one another, and what happens when somebody leaves.
+
+These subjects receive less spiritual enthusiasm because nobody has ever returned from an ecstatic vision announcing that the group needs a better provisional-membership policy. Unfortunately, the vision can’t determine a departing member’s share, prevent one founder from controlling the land, or decide what happens when a child reports something serious.
+
+Beautiful land can’t compensate for ownership that gives one person the final say. Peer counseling can’t rescue a membership process that admits people faster than the group can support them. Medicine can’t repair an exit agreement that was never written.
+
+The first three parts shape the community’s inner life. The container gives that work a stable place to happen.
+
+Skip one, and the group eventually has to deal with it under pressure—usually after land, labor, or shared resources are already entangled and everyone has developed opinions.

@@ -169,3 +169,11 @@ Each changed paragraph alone, P9 after his seminar line, then the section. Predi
 | section-v3.1 | Human | every part passes | Human 100 |
 
 All six came back 100% Human. The section was 630 words scanned, with no span flagged.
+
+## 2026-10-02: a proposal from the abstract-agent sweep (text in `r5/`)
+
+Joel's rule of 2026-10-02 (abstract concepts or feelings as agents are an AI tell): the sweep of sections 1 to 3 (`../ABSTRACT-AGENTS-s1-s3.md`) found one clear case in a rewrite, "The oldest objection, that … , showed up almost right away." The proposal gives the action to the commenters without splitting the sentence (a split turned this pair 100% AI on 2026-10-01).
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| C6-C7agent | Human | one clause moved, no split | Human (92) |

@@ -162,3 +162,40 @@ v7 (checked by the worker from a corrected copy: my build wrote literal "\n" int
 - The meaning checks on the final text: the blind trace (v6, plus the two-word v7 fixes) and the cold read (`SENSE-v8.md`). What's left, and why it stays, is in the side-by-side notes and in `fixlog-s3.json`.
 - The emoji proposal and the P4 proposal are out: 🙄 raised the section from 34% to 55% AI, and the added P4 sentence was 43% AI alone.
 - Pangram used on section 3 this turn: about 140 credits.
+
+## v9: Joel's edits of 2026-10-02 00:52 (texts in `r9/`)
+
+Joel's own P6, P7 and P9 (he checked P9 himself: Human), and the P4 proposal with his fix ("the angry communard"; he checked it: Human). Each new paragraph alone, P5 with P6, P8 with P9, and the section:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P4 | Human | Joel checked it | |
+| P6 | Human | Joel's | |
+| P7 | Human | Joel's | |
+| P9 | Human | Joel checked it | |
+| H2P5P6 | Human | | |
+| P8P9 | Human | | |
+| section-v9 | Human | | |
+
+v9 results: section-v9 100% Human (560 words); P4, P6, P7 and H2P5P6 100% Human; **P9 100% AI alone, and P8P9 100% AI**. Joel had checked his P9 as Human. The one difference is mine: I changed his straight apostrophes ("who've", "they're") to curly ones. Mine: 5 of 7.
+
+## v10 (texts in `r10/`)
+
+Joel's P9 with his own characters, alone and after P8; and P7 with "the inner being shaped by the outer" (two words added, a proposal for Joel: the cold read couldn't parse "it's inner being shaped by outer").
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P9exact | Human | Joel's exact characters; he checked it | |
+| P8P9exact | Human | | |
+| P7q | Human | two words added to a paragraph that passed | |
+
+v10 results: **P9 with Joel's own characters: 100% Human alone.** Same words with curly apostrophes: 100% AI. P8P9 with his characters: 100% AI, though P8 and P9 each pass alone, and the section with them passed (v9). P7 with "the inner being shaped by the outer": 100% Human alone. Mine: 2 of 3.
+
+## v11: Joel's characters kept exactly in his paragraphs (texts in `r11/`)
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P7exact | Human | his straight "it's" back; it passed with a curly one | |
+| P7q2 | Human | the two-word proposal, with his characters | |
+| section-v10 | Human | v9 passed whole | |
+| section-v10q | Human | | |
