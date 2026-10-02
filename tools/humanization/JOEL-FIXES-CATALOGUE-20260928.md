@@ -233,6 +233,26 @@ He rewrote two argument paragraphs of the published section himself, after 34 of
 
 What he did: the list became one requirement per sentence, with "It requires" repeated; abstractions became happenings ("chronic freeloading" became "someone is leeching off the group", "children" became "a baby is born"); a spoken "No," answers the hope that removing the boss fixes people; and the polished lines went ("before resentment becomes the real government", "how quickly beautiful land becomes irrelevant"). Of the published line "Suddenly “maybe we should form a village” sounded less like a 1972 leftover and more like a backup plan" he said: "the 1972 line is witty altho it's kind of an obvious ai quip".
 
+## Joel's fixes, 2026-10-02 21:16 UTC (community article, sections 3 and 4)
+
+He rewrote seven paragraphs of the section 4 candidate and one of section 3, and checked each on Pangram himself. With them, section 3 reads 100% Human (563 words), and section 4 does after two more rounds on the paragraphs his changes exposed (1,519 words).
+
+- **Section 3, P7.** Before: "...but because it's inner being shaped by outer as a condition of membership..." After: "...leave the inner life mostly private or ignored. ... but because it's the inner world being shaped by the outer as a condition of membership..." My two-word version ("the inner being shaped by the outer") had passed alone and flipped the section to 13% AI; his rewrote more of the sentence and passed both ways.
+- **Section 4, P5.** Before (Emulate's): "how people deal with jealousy is going to be intertwined with how people run the community, how people use common things, how people parent, how people deal with medicine etc." After: "These categories leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course." His reason: "Emulate started implying that jealousy intertwines with everything rather than each thing intertwining specifically with something. ... this vagueness has to be rejected."
+- **P7.** Before (the published quip): "which can become equally sacred—just with longer meetings and fewer robes." After: "When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities on the other hand often call it “the process,” which can become just as sacred." His note: "no matter how i worded fewer robes and longer meetings it got flagged as AI, which yeah, it does look ai after ai colonized it."
+- **P11 to P13.** Emulate's "not the other way around" went ("Idk if anyone thought the child was goin to reaprent the adult lol"); "Guide" for "Guru/Leader", as in his Inner Child article; reparenting "built on somatic regulation first", with his own view that body-before-mind "symbolizes the adult/child relationship to me"; the Abhidhamma line cut ("not needed"), and the published "devoted enough to practice them and secure enough to disagree" replaced: it "looks super highly polished", and it failed once the paragraphs before it were his.
+- **P26.** "it may be impossible because of government requirements" became "it may be impractical in some locations because of government requirements": the original was "a bit too imprecise and strong on the impossibility".
+- **P28.** The published claim was wrong: "people do come back from ecstatic visions with those kind of practical ideas, i've seen that, but they are often not quite as amazing as they sound to the experiencer." After: "It's rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies ... And if they do, it's often still something that needs a sober thinking-through."
+- **P29.** "when one person owns the land and has the final say" became "owns the land or has the final say" (Emulate had narrowed the published "ownership that gives one person the final say").
+
+What his fixes teach:
+- Specific pairings that become a general tangle are a changed claim, to reject, not a lighter version to offer.
+- A polished quip AI has colonized may fail in every wording; keep its point and let the form go.
+- Making one paragraph more human can expose the next one; recheck what follows.
+- A balanced "X enough to A and Y enough to B" pair reads as polished AI, even when Pangram passes it.
+- Abstract agents are one of the top tells to weigh, not banned: worst when highly polished or overused (his words, the same day).
+- The published text can be wrong about the world; his correction replaces it, and the stance check, which holds a rewrite to the published essay, reports it to him as information.
+
 ## Joel's fixes, 2026-10-02 00:52 UTC (community article, section 3)
 
 He rewrote three paragraphs of the section 3 candidate and fixed one proposal. Each came back 100% Human on Pangram, alone and in the section, once his own characters were kept.

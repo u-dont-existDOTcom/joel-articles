@@ -56,6 +56,11 @@ class LinterAbstractAgents(unittest.TestCase):
         out = self.lint('There is no shared way to talk about the hurt, so the anger goes there, trying to get some justice.\n')
         self.assertIn('O6', out)
 
+    def test_polished_enough_pair_is_flagged(self):
+        out = self.lint('A living community should relate to its teachings the same way: devoted enough to practice them and secure enough to disagree.\n')
+        self.assertIn('O7', out)
+        self.assertNotIn('O7', self.lint('She was old enough to vote, and she did.\n'))
+
     def test_person_doing_it_is_not_flagged(self):
         out = self.lint('There is no shared way to talk about the hurt, so the angry communard goes there, trying to get some justice. Money will not fix it.\n')
         self.assertNotIn('O6', out)
@@ -75,6 +80,7 @@ class StanceCheckPrompt(unittest.TestCase):
         self.assertNotIn('example.com', p)
         self.assertIn('/tmp/report.md', p)
         self.assertLess(p.index('THE WHOLE PUBLISHED ESSAY:'), p.index('THE REWRITE (section 3):'))
+        self.assertIn('vaguer general one', p)
 
     def test_without_a_report_path_the_agent_returns_it(self):
         p = stance_check_prompt.build('Essay.', 'Rewrite.')
