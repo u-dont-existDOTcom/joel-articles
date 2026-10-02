@@ -788,25 +788,59 @@
    ]
   },
   {
-   "id": "vow-p1-baby",
+   "id": "vow-line-referent-cut",
    "status": "applied",
-   "what": "Claim check: Make a Simple Vow P1 carries Joel's baby lines in place of the swing.",
-   "joel": "2026-10-01 20:51 UTC: \"it should say that it does really help to imagine holding a baby in your arms\"",
+   "what": "The line after the vow loses its pointer back to \"those grown-ups\" (Joel's cut). Cut that way it was 65% AI with the vow, so its first words became \"Notice it\"; the rest is his.",
+   "joel": "2026-10-02 00:16 UTC: \"Oops, you put in a referent to something sections ago nobody will remember ... I'd simply remove that reference to those grown ups.\"",
    "where": "Make a Simple Vow",
    "must_contain": [
-    "If your promises still mean something to your little one, maybe because you've kept a few small ones, a quiet vow can help too. It does really help to imagine holding a baby in your arms to make the vow feel real. Imagine you just had a baby, how would you feel? Would you look at him/her with adoration and joy? Carry that into visualizing yourself with your own inner child:"
+    "Notice it only promises what you can keep, so your little one can actually watch you keep it."
+   ],
+   "must_not_contain": [
+    "those grown-ups, your little one",
+    "unlike with those grown-ups"
+   ]
+  },
+  {
+   "id": "vow-p4-examples-cut",
+   "status": "applied",
+   "what": "Make a Simple Vow P4 loses the guide's examples \"or just keeping an appointment, eating, or going to bed\" (Joel's cut).",
+   "joel": "2026-10-02 00:16 UTC: \"For P4 I think cut out the \\\"or just keeping an appointment, eating, or going to bed.\\\" that sounds almost ridiculous\"",
+   "where": "Make a Simple Vow",
+   "must_contain": [
+    "Pick one thing to do that's small enough to repeat. A big gesture you later drop would only prove them right to doubt you, but a small thing you keep doing can change their mind. Maybe it's one you already tried in \"Not Every Hero Wears A Cape.\""
+   ],
+   "must_not_contain": [
+    "or just keeping an appointment, eating, or going to bed"
+   ]
+  },
+  {
+   "id": "vow-p1-baby",
+   "status": "applied",
+   "what": "Claim check: Make a Simple Vow P1 carries Joel's baby lines in place of the swing, in his 2026-10-02 wording (the parents' line first, then the picture for readers who aren't parents yet).",
+   "joel": "2026-10-02 00:16 UTC: \"And i would actually change it to say: As many real-life parents know, your heart really explodes in such an unexpected and wonderful way when you hold your newborn baby for the first time (happened to me!). And if you're not yet a parent, it can really help to imagine holding a baby in your arms to make the vow feel real.\" Before that, 2026-10-01 20:51 UTC: \"it should say that it does really help to imagine holding a baby in your arms\"",
+   "where": "Make a Simple Vow",
+   "must_contain": [
+    "If your promises still mean something to your little one, maybe because you've kept a few small ones, a quiet vow can help too. As many real-life parents know, your heart really explodes in such an unexpected and wonderful way when you hold your newborn baby for the first time (happened to me!). And if you're not yet a parent, it can really help to imagine holding a baby in your arms to make the vow feel real. Imagine you just had a baby, how would you feel? Would you look at him/her with adoration and joy? Carry that into visualizing yourself with your own inner child:"
+   ],
+   "must_not_contain": [
+    "It does really help to imagine holding a baby in your arms"
    ]
   },
   {
    "id": "pr-opening-installed",
    "status": "applied",
-   "what": "Claim check: Give the Vow a Physical Reminder is installed with its opening two paragraphs.",
-   "joel": "2026-10-01 20:51 UTC: \"continue\"",
+   "what": "Claim check: Give the Vow a Physical Reminder is installed with Joel's two paragraphs (2026-10-02): his merge of the opening, and his paragraph on a child of yours or a calm pet. Claude's last two sentences (the stand-in for the guide's oracle caution) are cut. The h3 is the guide's, and it's Joel's call (with it the section is 100% AI).",
+   "joel": "2026-10-02 00:16 UTC: \"I would merge this section's P1 with P2 (human, low conf)\"; \"P3 now (human, low conf)\"; \"those 2 combined are human med conf\"; \"I would simply cut out the last 2 sentences entirely.\" Before that, 2026-10-01 20:51 UTC: \"continue\"",
    "where": "Give the Vow a Physical Reminder",
    "must_contain": [
     "### Give the Vow a Physical Reminder",
-    "The vow can live somewhere you'll see it, too. I mean an actual thing, like a stuffed animal that's been on your bed forever, or a toy from when you were little, or a sticky note on the bathroom mirror. Just make sure it feels kind to you now.",
-    "Pick what it stands for on a calm, sober day, so it reminds you of the Nurturer and Protector you've been practicing. And then don't start asking it what to do! It only knows what you decided that day."
+    "The vow can live somewhere you'll see it, too, like on a stuffed animal from when you were little, a photo of yourself as a child, or just a sticky note on the bathroom mirror. Whatever helps you feel connected to the Nurturer and Protector you've been practicing. The Teddy bear note may remind you to think, \"When I see you, I remember to stop attacking myself and go to bed on time.\"",
+    "A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child. But those are also their own beings with their own needs as well. Let them come and go without making them responsible for the session."
+   ],
+   "must_not_contain": [
+    "And then don't start asking it what to do!",
+    "It only knows what you decided that day."
    ]
   }
  ]

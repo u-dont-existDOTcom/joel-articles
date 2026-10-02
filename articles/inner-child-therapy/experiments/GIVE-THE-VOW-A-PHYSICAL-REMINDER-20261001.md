@@ -37,3 +37,22 @@ The h3 and P1–P2 are installed, 100% Human together (98 words). G3 and G4 wait
 
 ### Joel's shared rule (from the community lane, 2026-10-01)
 "Every paragraph passes alone"; a paragraph under 50 words "is checked with a neighbor that passes alone". The two paragraphs of the opening had only been checked with each other. With Joel's Make a Simple Vow P5 before them (100% Human alone): 100% Human (203), try 1. So they meet the rule. Still, every paragraph of mine after them flipped the whole section, which is what Joel calls "playing with pangram", so this goes to him as it stands.
+
+## Turn 15 (2026-10-02, from 00:16 UTC): Joel's two paragraphs
+
+Joel, 00:16 UTC: "For Give the Vow P2, it looks like you lost the meaning of the original with the last 2 sentences. The original was saying that the childhood toy doesn't speak for the child, contain secret wisdom or become an oracle. ... I would simply cut out the last 2 sentences entirely. I don't think people will be confusing the stuffed animal with an oracle. And if it does seem to connect them with their inner child they can talk to it if they want to like that, i don't see that as a problem either." On true details: "I do not keep an object, note, or pet. Some people do, and it seems to help them. Especially i hear people like to keep childhood photos ... I actually used my son (i shouldn't say "used") to reconnect with my inner child, and I think that's very common for parents." Then his merge of P1 and P2 ("human, low conf"), his P3 ("human, low conf"), and "those 2 combined are human med conf".
+
+### What changed
+- P1: his merge, word for word, with his mismatched quote marks on the note ('When … time.") made a matching pair. It carries the guide's G1 (the object, now with "a photo of yourself as a child") and G3 (the note), with the Nurturer and Protector between them. 100% Human alone (75, short text), try 1.
+- P2: his, word for word: the guide's pet paragraph (G4), with "A real-life child of yours" added. 100% Human alone (51, short text), try 1.
+- Cut, his: the last two sentences of my turn-14 P2 ("And then don't start asking it what to do! It only knows what you decided that day."). Its first sentence went into his merge as "Whatever helps you feel connected to the Nurturer and Protector you've been practicing", without "on a calm, sober day". So the guide's "sober and regulated", its oracle caution and "Your adult judgment stays in charge" are out. The guide's "Symbolic comfort becomes more believable when the Protector follows through" isn't in his version either.
+- Turn 14's "Just make sure it feels kind to you now." (the grounding's MUST, for a toy from a hard childhood) is gone in his merge. His "Whatever helps you feel connected to the Nurturer and Protector" points the same way. Recorded here, not sent back to him (E114).
+
+### The heading
+- His two paragraphs with no heading: 100% Human (126), try 1, with either quote style.
+- Under the guide's h3, "Give the Vow a Physical Reminder": 100% AI (132), try 1, with either quote style, the whole section flagged.
+- With Make a Simple Vow above them and no heading at all (the two paragraphs closing that section): 100% Human (594), try 1.
+- The heading is the guide's, so per the gate it goes to Joel with the span (the whole section): "If the guide's heading fails, fix the flagged span, or take it to Joel with the span. Don't shop for headings." His options: his own heading, or none.
+
+### Where it stands
+Installed: the guide's h3 and his two paragraphs, which pass alone and together without the heading, and fail under it. Waiting on Joel: the heading. Then the guide's h1 "When the Adult Voice Feels Fake", after his "continue". Lesson: E113.

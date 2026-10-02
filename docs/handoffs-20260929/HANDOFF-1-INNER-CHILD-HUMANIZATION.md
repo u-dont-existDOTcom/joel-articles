@@ -22,7 +22,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 
 ## Where the work stands
 
-*Updated 2026-10-01, turn 14 (20:51 UTC onward). Joel's P1 lines, P3 and P5 are in Make a Simple Vow with the vow and P4 proposals; the h3 Give the Vow a Physical Reminder has its opening two paragraphs, and its note and pet paragraphs wait on Joel (every one I tried flipped the section). Turn 13 (17:50 UTC onward): Make a Simple Vow is done (the h2 and P1–P5), and Joel adopted the Love Doesn't Wait P12 and P13 proposals. Turn 12 (15:59 UTC onward): Love Doesn't Have to Wait for Trust is done: Joel's P11, the P10 proposal adopted, P12–P14 installed. 😌 is back (E102), proposals are highlighted on the side-by-side page (E103), and his "continue" now means merge (see `docs/suggested-fixes-ledger.md`). Turn 11: his P9 and his emoji list (E100, E101).*
+*Updated 2026-10-02, turn 15 (00:16 UTC onward). Joel's fixes are in: his P1 rewrite, the "those grown-ups" pointer cut from the line after the vow (which now opens "Notice it"), the P4 examples cut, and his two Physical Reminder paragraphs in place of mine. The Physical Reminder section fails only under the guide's h3; that's his call. No "continue" this turn, so no merge. Turn 14 (20:51 UTC onward): Joel's P1 lines, P3 and P5 are in Make a Simple Vow with the vow and P4 proposals. Turn 13 (17:50 UTC onward): Make a Simple Vow is done (the h2 and P1–P5), and Joel adopted the Love Doesn't Wait P12 and P13 proposals. Turn 12 (15:59 UTC onward): Love Doesn't Have to Wait for Trust is done: Joel's P11, the P10 proposal adopted, P12–P14 installed. 😌 is back (E102), proposals are highlighted on the side-by-side page (E103), and his "continue" now means merge (see `docs/suggested-fixes-ledger.md`). Turn 11: his P9 and his emoji list (E100, E101).*
 
 **Make the Protector Visible is done.** It's under `# Building Trust With Your Little One`, with Joel's h2 `## Not Every Hero Wears A Cape`. The earlier "Keep Your Word" was picked only because it was the one h2 of six that passed Pangram; never pick a heading by its Pangram result (`articles/inner-child-therapy/tools/HUMANIZATION-GATE.md`, "Headings").
 - **P1 is Joel's** (the "What's a 'boundary'?" paragraph). Keep it exact. Its relationship lines moved to Also Look Outward on 2026-09-30.
@@ -40,11 +40,11 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
 - P3–P4 are the bedtime story and what it did, in Joel's first person: his own memory (confirmed 2026-10-01), and P4 is his own explanation of why fights don't usually go like that (adopted 02:40).
 - P6 is his "Big fuckity whoopty doo" exchange, word for word. P9 and P11 are his own, word for word.
 
-**Make a Simple Vow** (the guide's h2 after Love Doesn't Wait) is done: the h2 and P1–P5, 100% Human together (326 words). The vow is a quote (a Markdown blockquote). The plan and each paragraph's rounds are in `articles/inner-child-therapy/experiments/MAKE-A-SIMPLE-VOW-20261001.md`.
+**Make a Simple Vow** (the guide's h2 after Love Doesn't Wait) is done: the h2 and P1–P5, 100% Human together (468 words, turn 15). P1's baby lines, P3 and P5 are Joel's; the line after the vow is his adopted proposal with his cut. The vow is a quote (a Markdown blockquote). The plan and each paragraph's rounds are in `articles/inner-child-therapy/experiments/MAKE-A-SIMPLE-VOW-20261001.md`.
 
-**Give the Vow a Physical Reminder** (the guide's h3 under the vow): the h3 and two paragraphs are in (the guide's G1 and G2), 100% Human together (98 words). The plan and every round are in `articles/inner-child-therapy/experiments/GIVE-THE-VOW-A-PHYSICAL-REMINDER-20261001.md`.
+**Give the Vow a Physical Reminder** (the guide's h3 under the vow): the h3 and Joel's two paragraphs (2026-10-02), each 100% Human alone and together without the heading (126 words). Under the guide's h3 the section is 100% AI (132); with no heading at all, as the end of Make a Simple Vow, it passes (594). The plan and every round are in `articles/inner-child-therapy/experiments/GIVE-THE-VOW-A-PHYSICAL-REMINDER-20261001.md`.
 
-**Next:** the section's note and pet paragraphs (G3, G4), with Joel. Seven paragraphs added after the opening each flipped the whole section to 100% AI, so the opening passes only at its length; he's been asked for his own version, a minimal fix, or true details (an object or pet of his). Then the guide's h1 "When the Adult Voice Feels Fake".
+**Next:** Joel's call on the Physical Reminder heading (his own, or none). Then, after his "continue", the guide's h1 "When the Adult Voice Feels Fake".
 - Every paragraph passes alone, and one under 50 words is checked with a neighbor that passes alone (Joel's shared rule, 2026-10-01, in `docs/HUMANIZATION-GATE.md` from the community lane). Turn 14 checked this lane's short ones that way: Love Doesn't Wait P14 (149), Make a Simple Vow P3 (138), the Physical Reminder opening (203), all 100% Human.
 - A later paragraph can flip an earlier one on Pangram: on turn 13 three P3 drafts each flipped the vow section's opening, which had passed. Re-run the section check after every change.
 - Run the grounding reviewer on every draft (`tools/humanization/reviewer/reviewer.py grounding`), with Joel's rulings in the target. It flags MISFIRES: instructions that could hurt some reader, even when they carry the guide faithfully.
@@ -55,8 +55,7 @@ Written by Claude on 2026-09-29, 04:00 UTC, so Joel can open a fresh chat for th
   - the in-context page: `tools/humanization/render_in_context.py $A/tools/in-context/<map>.json OUT --article $A/HUMANIZED-ARTICLE-SO-FAR.md --source $A/master.html --source-label "Guide original" --since <the commit Joel last saw>`.
 
 **Open for Joel:**
-- Give the Vow a Physical Reminder: his note and pet paragraphs, or a fix (see Next).
-- Make a Simple Vow P1, his baby lines: the reviewers' three points (the guide made the picture optional; "adoration and joy?" assumes the answer; Borrow Love already has the move).
+- Give the Vow a Physical Reminder: the guide's h3 flips his two paragraphs to 100% AI (132); his own heading, or none (the paragraphs then close Make a Simple Vow, 100% Human, 594).
 - The P1 cut from turn 13: the guide's "skip the vow" for a present adult who still intends harm.
 - The emoji placements, for his yes or no (he said he'd keep correcting them).
 - The moved relationship paragraph (he hasn't said yet).
