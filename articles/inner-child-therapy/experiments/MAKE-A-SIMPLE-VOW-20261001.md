@@ -103,3 +103,7 @@ Make a Simple Vow: the h2 and P1–P5, 100% Human together (468 words). The cold
 - P4: "Maybe it's one you already tried in "Not Every Hero Wears A Cape."" cut, a pointer two sections back (Joel, 01:08 UTC: "nobody will remember something sections away"). Alone, 100% Human (62), try 1; cold read and grounding OK. The section: 100% Human (454), try 1.
 - P3 (Joel's): "(with the goodwill prayer from before)" points seven sections back. Proposal to him, not installed: "(with the goodwill prayer: "May you be loving, peaceful, and free")". Alone, 100% Human (57), try 1. He cut the quoted wish on turn 14, so it's his call.
 - The h3 after it is now Joel's "Remind Yourself" (Human on his check). The h2 with that h3 and his two paragraphs: 100% Human (582), try 1, the one combination he hadn't checked.
+
+## Turn 17 (2026-10-02, from 03:15 UTC)
+
+- P3: Joel adopted the proposal (03:15 UTC: "agree with proposal"), so it's "(with the goodwill prayer: "May you be loving, peaceful, and free")" in place of "(with the goodwill prayer from before)". The h2 with Remind Yourself: 100% Human (587), try 1.

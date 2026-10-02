@@ -45,3 +45,43 @@ The h1, P1, Scott's quote and P3 together: 100% Human (131), try 1.
 - P5: writer c, with the cause narrowed to "one place feeling fake can come from" (both groundings: UNSUPPORTED as the only source, and MISFIRES for a reader whose fake feeling has a point): 100% Human alone (73), try 1. Writer b with the same fix: 100% AI (74).
 - P6: every draft opened on "Borrowing", which no cold read could place (it's sections back, the Borrow the Adult h1); without it, c with "a person who likes you as you are" (the groundings' MUST, from the article's own "someone who liked you the way you were"): 100% AI alone (79), try 1. After the tickets and the groundings' fixes (the release first, "doesn't have to win your little one over first"; no angry-text example, which the article already uses; the stiff plan still worth following): 100% AI alone (109), try 2.
 - Next turn: P4 and P6 need a change of voice, not more fixes to the same march (E104). P5 c passes and waits for them.
+
+## Turn 17 (2026-10-02, from 03:15 UTC): Joel's P3, and The Parent You Inherited's P4 and P5
+
+Joel, 03:15 UTC: Scott's quote is as he remembers it ("he said that, altho i'm not sure word for word but yes that's how i remembered it."); "agree with proposal" (the vow's P3); "what P3 is really missing is who is feeling fake? if the little one, it could be persistence. if the adult feels fake, more fake sessions could be more damaging than just not doing the fakery in the first place. your reviewer should have caught that."; his new P3, "tested human (i also added myown exp)"; "continue".
+
+| # | installed | cold read | grounding | Pangram 4.0 |
+|---|---|---|---|---|
+| P3 | Joel's, word for word | his text | his text | Human on his check; the h1's opening with it: 100% Human (207), try 1 |
+| P4 | try-4 writer a | OK | OK | 100% Human alone (96), try 4 |
+| P5 | turn 16's writer c with the grounding's two fixes | OK | OK after the fixes | 100% Human alone (80), try 2 |
+| P6 | not in | | | six tries; the two that passed alone each had a cold-read gap, and every clearer version failed |
+
+The h1 through the h2, P4 and P5: 100% Human (387), the section's third check. The first two had a P6 that failed alone (469 and 463 words, both 100% Human), so they don't count for P6.
+
+### P4 (G4)
+- Try 3 (a new voice, but the brief still carried the guide's rule list and its warm/critic pair): a, b and c 100% AI alone (111, 117, 114).
+- Try 4 (E110 applied: neither in the brief): a 100% Human (96), b 100% Human (96), c 100% AI (92). Cold read and grounding on a and b: every line OK. b's grounding said its "One place to look" keeps the critic as one cause among others; a went in because it reads more plainly, and P5's "one place feeling fake can come from" keeps the critic as one cause.
+- GREAT, not proposed: why your little one might still be hiding (a); why a child hides instead of protesting (b). Neither names a split that changes the advice (the E118 question), and no reader question asked for them.
+
+### P5 (G5)
+- The grounding on turn 16's c: [1] CONTRADICTS ("also" told the attack about every reader's inherited parent, against P4's "It can be warm" and "If yours was like that"); [2] UNSUPPORTED ("That second one doesn't even make sense": some of what you show can really be a cover, so the reader needs what's wrong with the attack, which is that "anything … anyway" lets nothing count). Fixed: "If it's a critic," and "That second one means nothing you do could ever count". Alone, 100% Human (80), try 2. Cold read and grounding on the fixed text: every line OK.
+- GREAT, not proposed: it attacks the cover it demanded (first grounding), and to your little one the new voice can sound like the critic, since both come from the same grown-up (second). With the fix, no reader question asks the first; P4's hiding answers the second.
+
+### P6 (G6): six tries, not installed
+- Try 3 (a new voice, but the brief still carried the guide's three forms and a summing-up line): a, b and c 100% AI (79, 80, 81).
+- Try 4 (E110 applied): a 100% Human (77), c 100% Human (76). a's cold read couldn't attach its last line, the fragment "Or someone who's glad to see you on a day you got nothing done."; its aside "(it would say that about winning too)" is a one-clause joke (its grounding's REGISTER), close to the wry humor Joel banned. c's cold read: "that call" in "letting the phone ring when you know how that call goes" has nothing to point to, and "someone who likes you the way you are" could be a part of you. Both groundings: every line OK.
+- Try 5: c with "a person in your life" and "when it's someone who always leaves you feeling small". Its grounding flagged MISFIRES on the trigger: the article says a feeling like that can be old material, so a reader whose smallness comes from the critic could let a decent person's calls ring; it should be what the caller keeps doing. With "someone who keeps putting you down", the grounding was clean, and Pangram said 100% AI alone (82), the whole paragraph.
+- The reviewer on that version (AI 80): the second and third sentences march (the example's moral, then the trust payoff tying back to the critic). Its tickets asked for Joel's 03:15 words as the last sentence. His P3 already says that, so it would repeat him, and the tickets weren't run.
+- Try 6: three fresh writers, the brief naming the failed order and the sense fixes. Each cold read had one UNCLEAR line (a: "Nobody has to fake that"; b: the brother's impression and its "It"; c: "It", and whether the friend is a person); all three groundings were clean. c went to Pangram: 100% AI alone (76).
+- What it shows: the versions that passed were the vaguer ones ("someone", "when you know how that call goes"), and each fix that made them clear to a cold reader flipped them. Next: not another rewording (B10). Start from what Joel would say aloud here (E104), or ask him whether try-4 c's "when you know how that call goes" reads clearly to him; if it does, that version can go in as it passed.
+
+### Ask God for a Loan (from turn 16, E117)
+- After the reviewer's tickets: P2 alone 100% Human (73), try 1; the pair 100% AI (121); Borrow Love with it, AI Detected, 10% AI (786), flagged at P2's first sentence and at When the Spiritual Relationship Hurts' heading and P1's first two sentences (Joel's). As installed it's 4% AI, Mostly Human.
+- A new voice (three writers; the brief names the order every version kept and the sentence Pangram flags each time). a hard-failed the linter (2.6 coach phrases per 100, and "IMO"). b and c had flags: b's "God," left out readers who meditate, and its "more praying or sitting on top of that" came before any reaction, with an unclear "that"; c's "lump the two together" repeated the sentence before it, its "a thought experiment about a friend" leaned on Borrow Love's friend exercise a subsection back, and "your practice" read as the article's practice. With fixes: c2's grounding was clean, but its cold read couldn't follow "shrink the big one down to imagining how you'd treat a friend"; b2's grounding flagged that the don't-pile-on-more line covered "Bullshit" and not numbness, and that "which part" reads as the article's inner parts. Neither went to Pangram. The food bank pointer stays until a version passes in its section.
+- Both cold reads said the move from the goodwill wish to the bigger love has no bridge. They read the drafts without the h3's heading, "Ask God for a Loan", which is the bridge; the next target should carry it.
+
+### Process this turn
+- E118 (Joel's correction): whose feeling. In `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, with the grounding change, its blind check and the sweep.
+- E110, applied late: the turn-16 and first turn-17 briefs for P4 and P6 still carried the guide's rule list, its warm/critic pair and its three forms. All ten drafts from them that went to Pangram failed; with them out, four of five passed alone.
+- Order: the try-3 and try-4 drafts went to Pangram before their groundings, and the gate (S6) puts the grounding first. Every later draft this turn had its cold read and grounding first.
