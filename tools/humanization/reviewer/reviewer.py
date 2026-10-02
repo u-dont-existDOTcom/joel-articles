@@ -303,6 +303,21 @@ def earlier_section(t):
     return re.sub(r'\n{3,}', '\n\n', art[start:i]).strip()
 
 
+def outline(t):
+    # The headings a reader has passed on the way to this paragraph. On 2026-10-02 the cold reads couldn't place
+    # "borrowed adulthood", the idea of a whole h1 (Borrow the Adult Before You Can Be the Adult), because they saw
+    # only this section and the one before; Joel put it back in P6 himself ("But with the borrowed adulthood trick").
+    try:
+        art = article_text(article_or_source(t, 'article'))
+    except SystemExit:
+        return '(not given)'
+    i = art.find(t['before'])
+    if i < 0 and t.get('cut'):
+        i = art.rfind(t['cut'])
+    heads = re.findall(r'(?m)^#{1,3} .*$', art[:i] if i >= 0 else art)
+    return '\n'.join(heads) or '(none)'
+
+
 def build_sense(draft, target):
     t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
     s = read('sense.txt')
@@ -310,8 +325,8 @@ def build_sense(draft, target):
     if t.get('earlier') == 'section':
         earlier = ('Earlier in the article (the reader has already read this):\n'
                    + earlier_section(t) + '\n\n')
-    return (s.replace('{earlier}', earlier).replace('{before}', t['before']).replace('{after}', t['after'])
-            .replace('{draft}', numbered(draft)))
+    return (s.replace('{outline}', outline(t)).replace('{earlier}', earlier).replace('{before}', t['before'])
+            .replace('{after}', t['after']).replace('{draft}', numbered(draft)))
 
 
 def build_human_test(outdir):

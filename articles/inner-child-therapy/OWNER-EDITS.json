@@ -239,12 +239,12 @@
   },
   {
    "id": "plork-paragraph",
-   "status": "pending",
-   "what": "The pl/ork paragraph with Joel's last sentence goes where pl/ork is first used.",
+   "status": "applied",
+   "what": "The pl/ork paragraph with Joel's last sentence goes where pl/ork is first used: it opens Start With Whatever Showed Up (turn 18), right before P1's \"I count that as pl/ork too\".",
    "joel": "01:59 (his sentence); 02:42: \"find where that is supposed to go\"",
    "waits_for": "Start With Whatever Showed Up",
    "must_contain": [
-    "Play not only paves the way for therapy, but is a part of how successful therapy should be measured."
+    "## Start With Whatever Showed Up\n\nYour little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.\n\nYou might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants, or if it just has something to say. It could be your little one, mad that you took so long to come back, or the parent you inherited, or something from earlier today, or a bit of each."
    ]
   },
   {
@@ -877,11 +877,14 @@
   {
    "id": "adult-voice-fake-p3-joel",
    "status": "applied",
-   "what": "When the Adult Voice Feels Fake P3 is Joel's new paragraph, word for word (he added his own experience: the personal trainer, his mom pretending to listen).",
-   "joel": "2026-10-02 03:15 UTC: \"yes i used to think that. but what P3 is really missing is who is feeling fake? if the little one, it could be persistence. if the adult feels fake, more fake sessions could be more damaging than just not doing the fakery in the first place. your reviewer should have caught that. new p3, tested human (i also added myown exp):\"",
+   "what": "When the Adult Voice Feels Fake P3 is Joel's paragraph, word for word, with his 2026-10-02 18:56 change (\"(from the inner child's view)\" after \"even less excusable\").",
+   "joel": "2026-10-02 03:15 UTC: \"yes i used to think that. but what P3 is really missing is who is feeling fake? if the little one, it could be persistence. if the adult feels fake, more fake sessions could be more damaging than just not doing the fakery in the first place. your reviewer should have caught that. new p3, tested human (i also added myown exp):\"; 18:56 UTC: \"i wouldn't say it sits \"oddly\" next, it sits \"correctly\" next to unintentional. ... there's a diff between me blaming someone and me pointing out how their inner child may blame them. It's not my place to blame, but their inner child does have that right to say what they think about their treatment. I changed it to this, it passes:\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
-    "I used to be all personal trainer and teach persistence on this as the remedy. Keeping at it does help, since a little one who learned to expect being dropped won't trust you right away. But I don't think that explains the adult feeling fully. More importantly, I think it could even be like unintentional gaslighting to the little one to ask to connect with them when you don't believe they're even real. Like when my mom pretended to listen to me when I was young, but even less excusable because she was not asking for my time when she did that. So, it's worth meditating first on why it feels fake."
+    "I used to be all personal trainer and teach persistence on this as the remedy. Keeping at it does help, since a little one who learned to expect being dropped won't trust you right away. But I don't think that explains the adult feeling fully. More importantly, I think it could even be like unintentional gaslighting to the little one to ask to connect with them when you don't believe they're even real. Like when my mom pretended to listen to me when I was young, but even less excusable (from the inner child's view) because she was not asking for my time when she did that. So, it's worth meditating first on why it feels fake."
+   ],
+   "must_not_contain": [
+    "even less excusable because she was not asking"
    ]
   },
   {
@@ -897,14 +900,38 @@
   {
    "id": "parent-you-inherited-p4-p5",
    "status": "applied",
-   "what": "Claim check: the guide's h2 The Parent You Inherited is installed with P4 and P5, right after Joel's P3; P6 (G6) isn't in yet. P5's \"both sides\" are both in its sentence; turn 16's \"doesn't even make sense\" is out (the grounding: unsupported).",
-   "joel": "2026-10-02 03:15 UTC: \"continue\"",
+   "what": "Claim check: the guide's h2 The Parent You Inherited is installed with P4 (Joel's), P5 and P6 (Joel's), right after Joel's P3. P5's \"both sides\" are both in its sentence; turn 16's \"doesn't even make sense\" is out.",
+   "joel": "2026-10-02 03:15 UTC: \"continue\"; 18:56 UTC: his P4 and P6",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
-    "So, it's worth meditating first on why it feels fake.\n\n## The Parent You Inherited\n\nI'd look at the parent you inherited: how you learned to treat yourself from how people treated you growing up, long before you started building your Nurturer, Protector and Guide. It can be warm, but it's often more like a critic, or a warden with rules. The rules can even sound reasonable, like \"You can come back to the table when you're done crying.\" If yours was like that, your little one learned bit by bit to hide what wasn't allowed, so they could keep belonging. They might still be doing it.\n\nIf it's a critic, the parent you inherited also measures whatever you show the world against an impossible ideal, and then attacks you from both sides: you're not good enough, and anything that does look good is fake anyway. That second one means nothing you do could ever count, and it's one place feeling fake can come from. When a new grown-up voice shows up saying \"Trust me,\" of course your little one doesn't answer."
+    "So, it's worth meditating first on why it feels fake.\n\n## The Parent You Inherited\n\nI'd look at the parent \"script\" you inherited: how you learned to treat yourself from how people treated you growing up, long before you started building your Nurturer, Protector and Guide. It can be warm, but it's often more like a critic, or a warden with rules. The rules can even sound reasonable, like \"You can come back to the table when you're done with your embarrassing crying fit.\" If yours was like that, your little one learned bit by bit to hide that part of their authentic self which wasn't allowed, so they could keep belonging. They might still be doing it.\n\nIf it's a critic, the parent you inherited also measures whatever you show the world against an impossible ideal, and then attacks you from both sides: you're not good enough, and anything that does look good is fake anyway. That second one means nothing you do could ever count, and it's one place feeling fake can come from. When a new grown-up voice shows up saying \"Trust me,\" of course your little one doesn't answer.\n\nBut with the borrowed adulthood trick, the new grown-up can start outside your head, as someone who likes you the way you are, or as something you do to protect your little one, like letting the phone ring when you know how that call goes. You don't have to pretend to feel anything to let a phone ring. Your little one can watch you do it many times before trusting you, while the parent you inherited calls it fake."
    ],
    "must_not_contain": [
     "That second one doesn't even make sense"
+   ]
+  },
+  {
+   "id": "parent-you-inherited-p4-joel",
+   "status": "applied",
+   "what": "The Parent You Inherited P4 is Joel's version, word for word: the guide's \"script\" kept, \"your embarrassing crying fit\" (crying, anger and embarrassing us, from the guide's list), and \"that part of their authentic self which wasn't allowed\" (not bad behavior).",
+   "joel": "2026-10-02 18:56 UTC: \"P4 is good altho i'd change to embarrassing crying fit so we can encompass anger and crying and embarassing us, from the original and i'd modify what wasn't allowed to be more specific since we're not talking about bad behaviors and the script part iw ant to keep it's important it's hum med conf:\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "I'd look at the parent \"script\" you inherited: how you learned to treat yourself from how people treated you growing up, long before you started building your Nurturer, Protector and Guide. It can be warm, but it's often more like a critic, or a warden with rules. The rules can even sound reasonable, like \"You can come back to the table when you're done with your embarrassing crying fit.\" If yours was like that, your little one learned bit by bit to hide that part of their authentic self which wasn't allowed, so they could keep belonging. They might still be doing it."
+   ],
+   "must_not_contain": [
+    "when you're done crying.\"",
+    "to hide what wasn't allowed"
+   ]
+  },
+  {
+   "id": "parent-you-inherited-p6-joel",
+   "status": "applied",
+   "what": "The Parent You Inherited P6 is Joel's, word for word, after P5.",
+   "joel": "2026-10-02 18:56 UTC: \"as for the someone, that part did throw me at first, mainly because the prior to it was strange, \"new grown up can start outside your head\" is what i would have flagged as unclear. This is what I'ds ay and it passes:\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "If it's a critic, the parent you inherited also measures whatever you show the world against an impossible ideal, and then attacks you from both sides: you're not good enough, and anything that does look good is fake anyway. That second one means nothing you do could ever count, and it's one place feeling fake can come from. When a new grown-up voice shows up saying \"Trust me,\" of course your little one doesn't answer.\n\nBut with the borrowed adulthood trick, the new grown-up can start outside your head, as someone who likes you the way you are, or as something you do to protect your little one, like letting the phone ring when you know how that call goes. You don't have to pretend to feel anything to let a phone ring. Your little one can watch you do it many times before trusting you, while the parent you inherited calls it fake."
    ]
   }
  ]
