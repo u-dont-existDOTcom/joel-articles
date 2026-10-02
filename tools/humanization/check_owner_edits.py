@@ -25,7 +25,10 @@ The ledger (an article's OWNER-EDITS.json) lists each edit Joel gives and each c
 what a paragraph covers. Each entry has strings the article's visible text must contain,
 must not contain, or must have in order. An entry can also list links (must_link: text and
 url) the article must have; those are checked on the text with comments removed but link
-targets kept. This script checks them against the article given with --article, reading it
+targets kept. And it can list strings the article must contain character for character
+(must_contain_exact): the same text, but with its quotes and apostrophes left as they are.
+Joel, 2026-10-02: his own P9 read 100% Human with his straight apostrophes and 100% AI with
+curly ones, so his paragraphs keep the characters he typed, and only this field can check it. This script checks them against the article given with --article, reading it
 without comments, link targets or emphasis marks, and with curly quotes made straight.
 render_article_so_far.py runs it every time it's given --ledger. A failure goes in a red box
 at the top of the article Joel gets, and the render exits 1.
@@ -43,19 +46,20 @@ import argparse, json, pathlib, re, sys
 QUOTES = str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"'})
 
 
-def norm(s):
-    s = s.translate(QUOTES)
+def norm(s, quotes=True):
+    if quotes:
+        s = s.translate(QUOTES)
     s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s)   # [text](url) -> text
     s = s.replace('*', '')
     s = re.sub(r'^#+\s*', '', s, flags=re.M)          # heading marks
     return re.sub(r'\s+', ' ', s).strip()
 
 
-def visible(md):
-    return norm(re.sub(r'<!--.*?-->', ' ', md, flags=re.S))
+def visible(md, quotes=True):
+    return norm(re.sub(r'<!--.*?-->', ' ', md, flags=re.S), quotes)
 
 
-def check_entry(e, text, raw=''):
+def check_entry(e, text, raw='', exact=''):
     """Return a list of failure strings for one entry."""
     fails = []
     for l in e.get('must_link', []):
@@ -64,6 +68,9 @@ def check_entry(e, text, raw=''):
     for s in e.get('must_contain', []):
         if norm(s) not in text:
             fails.append('missing: "%s"' % s)
+    for s in e.get('must_contain_exact', []):
+        if norm(s, quotes=False) not in exact:
+            fails.append('missing with these exact characters: "%s"' % s)
     for s in e.get('must_not_contain', []):
         if norm(s) in text:
             fails.append('still there: "%s"' % s)
@@ -94,6 +101,7 @@ def run(article, ledger):
     """Check the ledger's entries against the article (both paths)."""
     md = pathlib.Path(article).read_text(encoding='utf-8')
     text = visible(md)
+    exact = visible(md, quotes=False)
     raw = re.sub(r'<!--.*?-->', ' ', md, flags=re.S).translate(QUOTES)
     data = json.loads(pathlib.Path(ledger).read_text(encoding='utf-8'))
     out = {'failed': [], 'waiting': [], 'looks_applied': [], 'passed': 0}
@@ -101,7 +109,7 @@ def run(article, ledger):
         st = e.get('status')
         if st == 'superseded':
             continue
-        fails = check_entry(e, text, raw)
+        fails = check_entry(e, text, raw, exact)
         if st in ('applied', 'claim'):
             if fails:
                 out['failed'].append({'id': e['id'], 'what': e['what'], 'fails': fails})
@@ -109,7 +117,7 @@ def run(article, ledger):
                 out['passed'] += 1
         elif st == 'pending':
             out['waiting'].append({'id': e['id'], 'what': e['what'], 'waits_for': e.get('waits_for', '')})
-            if not fails and (e.get('must_contain') or e.get('order') or e.get('span') or e.get('must_link')):
+            if not fails and (e.get('must_contain') or e.get('must_contain_exact') or e.get('order') or e.get('span') or e.get('must_link')):
                 out['looks_applied'].append(e['id'])
         else:
             out['failed'].append({'id': e.get('id', '?'), 'what': e.get('what', ''),

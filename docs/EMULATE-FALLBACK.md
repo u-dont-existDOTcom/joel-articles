@@ -75,6 +75,8 @@ Where a finding matches a rule the gate already has, it's named in brackets.
 - **A meaning fix can pass alone and still flag the section** (community section 3, 2026-10-01). After the gate's meaning fixes, every changed paragraph passed alone, but the section came back 34% AI. The flags were on the two paragraphs whose fixes had put the published wording back ("groups", "stop hating", "was deeply shaped by"). Taking the wording from Emulate's other version instead cleared them: its "heavily influenced by", and its whole version of one paragraph. So after any meaning fix, check the section again, and look for replacement words in Emulate's other version before the published text.
 - **Recheck a pair when either paragraph changes.** In section 3, the last paragraph passed with one version of the paragraph before it and failed (37% AI) after a three-word cut to that paragraph.
 - **Start the section repair where the flagged span starts** (the gate's step 8) worked twice in section 3. Replacing the sentence where the span started moved the flag to the next paragraph, and putting that paragraph back to Emulate's own wording cleared it.
+- **A run of short paragraphs can fail as a run when each one passes** (community section 4, 2026-10-02). The section's second span ran from P13's last sentence to P20 (229 words), and every paragraph and pair inside it passed. The run alone, checked as a window, read 100% AI in three versions: the first rewrite, a second one, and one with a new sentence where the span started (Joel's published text, so that change wasn't the fix). One Emulate call over the whole run (P14 to P19 as one input) gave a version whose window read 100% Human. So when a span covers several short paragraphs that pass alone, send the run to Emulate as one unit. And check a span as a window before checking the section again: a 250-word window costs 3 credits, a section 14.
+- **Starting from the start of a span doesn't always fix it.** In the same section, changing the sentence where the span started didn't clear the window; rewriting the run after it did.
 - **On a published article's argument paragraphs, Emulate with small fixes beat the writers.** In section 2, every Emulate-based version with small fixes passed alone (7 of 7), while 3 of the 40 writer drafts checked passed (1 of 18, 0 of 13, 2 of 9 by round). Round 3's brief carried Joel's own rewrite of two neighboring paragraphs as the model of his voice (`tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md`, 2026-10-01); both of its passes came from that round, and the section passed with one Emulate-based or writer paragraph in each place (`claude/emulate-lessons-20260930`, `runs/articles/intentional-communities/candidate/s2/`).
 - **Near 50 words, a cut at either end can flip a paragraph.** Check a paragraph at the length it will really have.
 - **Context works both ways.** Rewriting a flagged paragraph can move the flag onto its neighbor, as with community section 1's opening. Human neighbors can also carry a paragraph. In that section, three of four flagged paragraphs passed unchanged once the paragraphs around them had been rewritten. So rewrite the fully flagged paragraphs first, recheck, and only then touch the rest.
@@ -146,12 +148,13 @@ The aim is a paragraph that keeps as many of our sentences as it can and takes f
    - finish a cut-off sentence;
    - clean up the noise.
 
-   Joel's own phrasings go back in, or he's asked, with a recommendation.
+   Joel's own phrasings go back in, or he's asked, with a recommendation. His own paragraphs keep his exact characters, straight apostrophes included (2026-10-02: curling them flipped one from 100% Human to 100% AI).
 5. **Run the whole gate on the result.**
    1. The two-way preservation trace, by a fresh agent that hasn't seen the notes.
-   2. Sense (S1 to S6), grounding and MISFIRES, the bans, the tell ledger and architecture.
-   3. The reviewer.
-   4. Pangram, alone and in the section with its headings, each check with its prediction written down.
+   2. The whole-article stance check (`tools/humanization/stance_check_prompt.py`), by a fresh agent with the whole published article: Emulate turned "without pretending that people arrive emotionally finished" into "where people don't come in pre-healed" in community section 3, nearly the opposite of what Joel wants, and only a check against the whole article shows that (Joel, 2026-10-02: "Did the reviewers not look at the article?").
+   3. Sense (S1 to S6), grounding and MISFIRES, the bans, the tell ledger and architecture.
+   4. The reviewer.
+   5. Pangram, alone and in the section with its headings, each check with its prediction written down.
 
    After any fix, check again.
 6. **Show Joel the side-by-side page** (`tools/humanization/render_in_context.py`). Mark every sentence that came from Emulate, and give a recommendation for every change of meaning.

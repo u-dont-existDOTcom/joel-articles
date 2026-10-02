@@ -233,6 +233,29 @@ He rewrote two argument paragraphs of the published section himself, after 34 of
 
 What he did: the list became one requirement per sentence, with "It requires" repeated; abstractions became happenings ("chronic freeloading" became "someone is leeching off the group", "children" became "a baby is born"); a spoken "No," answers the hope that removing the boss fixes people; and the polished lines went ("before resentment becomes the real government", "how quickly beautiful land becomes irrelevant"). Of the published line "Suddenly “maybe we should form a village” sounded less like a 1972 leftover and more like a backup plan" he said: "the 1972 line is witty altho it's kind of an obvious ai quip".
 
+## Joel's fixes, 2026-10-02 00:52 UTC (community article, section 3)
+
+He rewrote three paragraphs of the section 3 candidate and fixed one proposal. Each came back 100% Human on Pangram, alone and in the section, once his own characters were kept.
+
+- **P4 (a proposal).** Before: "...but the meeting agenda is the one place the group lets you push for something and win, so the anger goes there, trying to get some justice."
+  After: "...so the angry communard goes there, trying to get some justice."
+  His reason: "the usage of abstract concepts or feelings as agents is one AI tell because it permits high efficiency of words. I minimal fixed it." The proposal read 43% AI alone; his fix read Human.
+- **P6.** Before: "But in the early days, the community’s spirituality and social life was heavily influenced by Stephen Gaskin. ... It’s one thing to talk about a universal consciousness. It’s another to struggle to escape one man’s opinions."
+  After: "But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. ... This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is."
+  His reasons: "heavily influenced" became "followed"; and Emulate's "one thing ... another thing" "is not quite showing that the truth was Y not X".
+- **P7.** Before (Emulate, with my fixes): "Both approaches fail for symmetric reasons. Secular approaches fail to address the inner life (while distributing power), whereas spiritual approaches do address the inner life but concentrate power."
+  After: "The two failures mirror each other. Secular groups distribute power but leave the inner life largely private or ignored. Spiritual groups attempt to address the inner life, but because it's inner being shaped by outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path."
+  His reason: "emulate lost the meaning of the original. Here's the human fix which also enhances understanding". He put back why the power concentrates: the inner life is shaped from outside as a condition of membership.
+- **P9.** Before: "I want a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority where people don’t come in pre-healed, that also has peer practice..."
+  After: "I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop."
+  His reason: "Emulate changed 'without pretending that people arrive emotionally finished' into 'where people don't come in pre-healed' which is nearly the opposite of what i want. I DO want people to come in largely pre-healed ... Did the reviewers not look at the article?" On "I want": "'I want' is generally banned as a way to introduce my opinion, as it sounds very AI. But in this article it does work because we are talking about a community that I want." He still chose "I dream of".
+
+What his fixes teach:
+- An abstraction or a feeling doing a person's job ("the anger goes there") reads as AI; give the job back to the person ("the angry communard").
+- A contrast has to say which side is true. "It's one thing to X. It's another to Y" sets two things side by side; his "folks talk about X, while one man defines Y" says what was really going on.
+- A paraphrase that drops a "without pretending" can flip a stance. Check a stance-bearing sentence against the whole article, not only its own source paragraph (the gate's whole-article stance check).
+- His characters are part of his text: with the same words, his P9 read 100% Human with his straight apostrophes and 100% AI with curly ones.
+
 ## Joel's notes, 2026-10-01 15:59 UTC
 
 - **P11, his.** "for P11, this one is human and works better". He kept my last draft's first, second and last sentences and rewrote the third: "And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that." Mine was "Every age of you was stuck with whatever it had then, and that includes the adult you were last year, even if they seem like the one who should have known better." Every checked draft of mine was 100% AI; his is 100% Human on my check (83 words, try 1). What it teaches: say so when you're going over old ground, and give an objection its own plain sentence, in the words people use for it (E104).
