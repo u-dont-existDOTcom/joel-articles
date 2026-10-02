@@ -84,3 +84,22 @@ Make a Simple Vow: the h2 and P1–P5, 100% Human together (445 words). Its comm
 
 ### Joel's shared rule on short paragraphs
 P3 (his, 49 words) with P4, which passes alone: 100% Human (138, short text), try 1.
+
+## Turn 15 (2026-10-02, from 00:16 UTC): Joel's fixes
+
+Joel, 00:16 UTC, on the reviewers' points about P1: "yes as i said, i'm changing the "with or without a visualization" to more of a guidance (with or without X is not quite guidance) about the usefulness of the visualization. I think we have said previously people can take the parts that work." On a reader who can't feel love for a newborn: "we don't need to throw it in their face by explicitly saying so, and then we do address that possibility quite soon after." On grief: "everyone could have some trigger from anything I guess ... the point is not whether they wanted the baby but, if it's here now, how would they feel when they see it and hold it?" Then his new wording for the baby lines. P2: "Oops, you put in a referent to something sections ago nobody will remember ... I'd simply remove that reference to those grown ups." P4: cut "or just keeping an appointment, eating, or going to bed." No "continue", so nothing merges and no new section starts.
+
+### What changed
+- P1: his rewrite, word for word: the parents' line first ("As many real-life parents know, your heart really explodes … (happened to me!)"), then "And if you're not yet a parent, it can really help to imagine …". 100% Human alone (111, short text), try 1. The article does say "Take the parts that work, and innovate on the rest." (When Healing Turns Into Checking).
+- The line after the vow: his cut. Cut that way it read as a summing-up, 65% AI with the vow (120), try 1, flagged from "But I can promise to tell you the truth" on. Two try-2 rebuilds both passed with the vow: "…so unlike a lot of sweet talk, your little one can actually watch you keep it." (126) and "Notice it only promises what you can keep, so your little one can actually watch you keep it." (120). The second is installed: it keeps his cut and changes only its first words, where the first swaps the pointer for a new comparison he didn't ask for. Its cold read: OK ("it" is plainly the vow, and "Watch what I do." sets up "watch you keep it"). Its grounding: OK. Linter: one E41 flag on "what you can keep" (5.6 per 100 on one 18-word line; the section is at 1.1, under the limit of 2.0), kept as the words he adopted. Both ran after the line's Pangram checks (E111).
+- P4: his cut. 100% Human alone (76, short text), try 1.
+- The h2 through P5: 100% Human (468), try 1 with the cut line, and 100% Human (468), try 1 with "Notice it" (its second check this turn).
+
+### Where it stands
+Make a Simple Vow: the h2 and P1–P5, 100% Human together (468 words). The cold read of the line couldn't place P3's "the goodwill prayer from before" (it sees only this section and the one before). That's Joel's line, and it names the thing: A Smaller Doorway: Goodwill has the loving-kindness prayer and the goodwill wish. Lessons: E111, E112 and E114.
+
+## Turn 16 (2026-10-02, from 01:08 UTC)
+
+- P4: "Maybe it's one you already tried in "Not Every Hero Wears A Cape."" cut, a pointer two sections back (Joel, 01:08 UTC: "nobody will remember something sections away"). Alone, 100% Human (62), try 1; cold read and grounding OK. The section: 100% Human (454), try 1.
+- P3 (Joel's): "(with the goodwill prayer from before)" points seven sections back. Proposal to him, not installed: "(with the goodwill prayer: "May you be loving, peaceful, and free")". Alone, 100% Human (57), try 1. He cut the quoted wish on turn 14, so it's his call.
+- The h3 after it is now Joel's "Remind Yourself" (Human on his check). The h2 with that h3 and his two paragraphs: 100% Human (582), try 1, the one combination he hadn't checked.

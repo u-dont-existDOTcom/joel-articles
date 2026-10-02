@@ -7,7 +7,6 @@ They wait here instead of going into the article. Joel decides on them when the 
 ## Open
 
 - 2026-10-01 · Make a Simple Vow, P1 · Is the little one in the picture a baby, or the age that's been talking back? (Joel's newborn is a way to call up the feeling, then carry it over.) · default (parked)
-- 2026-10-01 · Give the Vow a Physical Reminder · What if the toy feels like my little one talking? (The guide's "It doesn't speak for the child" is cut; P2 makes the object the grown-up's reminder.) · COULD (parked)
 
 - 2026-10-01 · Make a Simple Vow, P1 · How do I tell whether my promises still mean something right after "I don't believe you"? (Kept small promises; the vow itself says belief isn't needed.) · default (parked)
 - 2026-10-01 · Make a Simple Vow, P4 · Does the repeated act have to match one of the vow's promises, or does any reliable care count? How do I tell they're starting to believe? · default (parked)
@@ -34,6 +33,8 @@ They wait here instead of going into the article. Joel decides on them when the 
 - 2026-09-30 · Later sections · The guide says "leave" in other places too ("Leave the situation that keeps injuring you."; "leave when staying requires disappearance"). Joel's 09-30 rethink of "leave it" will need applying when those sections come up. · noted by the wide run
 
 ## Answered or used
+
+- 2026-10-01 · Give the Vow a Physical Reminder · What if the toy feels like my little one talking? Answered by Joel, 2026-10-02 00:16 UTC: "if it does seem to connect them with their inner child they can talk to it if they want to like that, i don't see that as a problem either." He cut the caution ("I don't think people will be confusing the stuffed animal with an oracle"), so the section has none (E113).
 
 - 2026-10-01 · Love Doesn't Have to Wait for Trust, P4 · "Did she still send me to bed?" Answered by Joel's own Make a Simple Vow P5 (20:51 UTC): "Now you're in my mom's place: you still go to bed, and staying kind about it shows them bedtime isn't a lack of love."
 
