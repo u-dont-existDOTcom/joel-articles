@@ -309,3 +309,9 @@ What his fixes teach:
 - **His P6.** ""that call" it's quite obvious as a referent to lettinjg the phoen ring right? fix the reviewer"; ""new grown up can start outside your head" is what i would have flagged as unclear"; his version opens "But with the borrowed adulthood trick," and passes on his check (E122).
 - "continue".
 - What his notes teach: ask whose view a judgment is before calling it a contradiction; keep the guide's word for what kind of thing something is; let one example carry as much of a list as it can; and a cold reader that flags an obvious referent is the one to fix.
+
+## Joel's notes, 2026-10-02 22:44 UTC
+
+- **P1's list.** "i agree to add that part of you trying to protect you in p1". In the ledger; the list with it was 66% AI alone, so it waits for a version that passes.
+- **The two protectors (E123).** "you're right that could be confused for the adult protector, which is the one we are consciously building rather than the inherited protector that came from trauma responses". In the briefs as context; the text calls it a part of you that's trying to protect you.
+- "continue".
