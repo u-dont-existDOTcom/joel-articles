@@ -35,6 +35,7 @@ Your job: for every sentence in THE REWRITE that states the author's position, a
 - softens, strengthens or narrows a position the essay states elsewhere, in a way a reader would notice (a hedge such as "probably" or "may" dropped or added counts, and so does "should not automatically" becoming "must never");
 - attributes to {author} a view, feeling, experience or fact the essay doesn't support (in the first person, or about people in his life);
 - turns a personal practice or choice into a rule for the group, or a rule into a description, where the essay says otherwise.
+- blurs the essay's specific claims into a vaguer general one: separate pairings (X becomes Y, A becomes B) turned into everything being "intertwined" with one thing counts as a changed claim, not lost detail.
 
 For each, quote the rewrite's sentence, quote the essay's passage it conflicts with (and say which section that passage is in), and say in one line what a reader would wrongly come away believing. Don't report style, wording that keeps the meaning, or things that are merely missing. If a sentence is fine, don't list it. Don't suggest rewrites. Keep each quote under 25 words.
 

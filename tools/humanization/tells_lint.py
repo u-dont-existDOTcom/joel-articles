@@ -83,6 +83,10 @@ def cos(a, b):
 
 ACRONYMS = r"\b(IMO|IMHO|TBH|FWIW|IIRC|AFAIK|NGL|IRL|ICYMI|TL;?DR|BTW|OMG|LOL|SMH|YMMV)\b"
 
+# O7: the balanced "X enough to A and Y enough to B" pair (Joel, 2026-10-02 21:16, on "devoted enough to practice them
+# and secure enough to disagree": "looks super highly polished. surprised emulate let that in. and surprised pangram passed it").
+ENOUGH_PAIR = r"\b\w+ enough to \w+[^.?!;]{0,60}?\b(?:and|but|yet|while)\b[^.?!;]{0,30}?\b\w+ enough to\b"
+
 # O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
 # there, trying to get some justice" to "so the angry communard goes there"). REVIEW only: an idiom can stay, and so
@@ -133,7 +137,9 @@ def main():
             if re.search(r"(^|[.!?]\s+)(Fine|Good|Great|Sure|Okay|OK|Fair enough)[,.!]\s", s):
                 flag('FAIL', 'O2 owner ban: Fine/Good/Great as a clause (Joel 2026-09-28)', s)
             if re.search(ABSTRACT_AGENT, s, re.I):
-                flag('REVIEW', 'O6 a feeling or idea doing what a person does: give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
+                flag('REVIEW', 'O6 a feeling or idea doing what a person does: one of the top tells, not a ban, worst when polished or overused; give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
+            if re.search(ENOUGH_PAIR, s, re.I):
+                flag('REVIEW', 'O7 polished "X enough to… Y enough to…" pair (Joel 2026-10-02: "devoted enough to practice them and secure enough to disagree" "looks super highly polished")', s)
             for r in CONTRAST:
                 if re.search(r, s, re.I): flag('REVIEW', 'B2 contrast', s); break
             for r in THESIS:
