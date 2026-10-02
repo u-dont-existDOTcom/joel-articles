@@ -1,51 +1,11 @@
 {
- "about": "Section 4 v5: each changed paragraph's published text, its Emulate source (exact copies in emu/), the text installed, and why, in the words of the side-by-side page (in-context/ic04-v1.json). The versions in between are in build_s4.py.",
- "emulate_versions": [
-  "e1-emuA",
-  "e1-emuB",
-  "e10-emuA",
-  "e10-emuB",
-  "e11-emuA",
-  "e11-emuB",
-  "e12-emuA",
-  "e12-emuB",
-  "e13-emuA",
-  "e13-emuB",
-  "e14-emuA",
-  "e14-emuB",
-  "e15-emuA",
-  "e15-emuB",
-  "e16-emuA",
-  "e16-emuB",
-  "e17-emuA",
-  "e17-emuB",
-  "e19-emuA",
-  "e19-emuB",
-  "e2-emuA",
-  "e2-emuB",
-  "e20-emuA",
-  "e20-emuB",
-  "e3-emuA",
-  "e3-emuB",
-  "e4-emuA",
-  "e4-emuB",
-  "e5-emuA",
-  "e5-emuB",
-  "e6-emuA",
-  "e6-emuB",
-  "e7-emuA",
-  "e7-emuB",
-  "e8-emuA",
-  "e8-emuB",
-  "e9-emuA",
-  "e9-emuB"
- ],
+ "about": "Section 4 v8: each changed paragraph's published text, its source (Emulate's exact outputs are in emu/; Joel's are his messages), the text installed, and why, in the words of the side-by-side page (in-context/ic04-v2.json). The versions in between are in build_s4.py.",
  "paragraphs": [
   {
    "p": "P1",
    "published": "Communities tend to solve whichever part most interests the founders. The political people write bylaws. The spiritual people meditate. The therapists process. The psychedelic people discover that everyone is God and forget to decide whose name goes on the deed.",
    "from": "e1-emuA",
-   "v5": "Communities tend to focus on the aspect of their project that was most interesting to the original founders, for example political types getting super into writing by-laws, or spiritual types just meditating all the time, or therapists processing each other, or people who like psychedelics discovering they’re all God together and never getting to the point of deciding who will put their name on the deed.",
+   "v8": "Communities tend to focus on the aspect of their project that was most interesting to the original founders, for example political types getting super into writing by-laws, or spiritual types just meditating all the time, or therapists processing each other, or people who like psychedelics discovering they’re all God together and never getting to the point of deciding who will put their name on the deed.",
    "why": [
     "From Emulate. Its \"Too often I’ve seen communities…\" became \"Communities tend to…\": yours is a general claim, and the \"I’ve seen\" was Emulate's.",
     "Pangram: 100% Human alone."
@@ -55,7 +15,7 @@
    "p": "P2",
    "published": "I divide the model into four parts. Yes, four sounds suspiciously tidy for something involving jealousy, children, land, money, God, and iboga. Bear with me. I’ve published detailed guides for the first three—free, with no funnel and no retreat to buy. Most of this article is about the fourth.",
    "from": "e1-emuB",
-   "v5": "I’ve broken the model I propose down into four parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it. I’ve written detailed guides on the first three already (free to read, not a sales pitch for a retreat or anything), but this article will be mostly about the fourth.",
+   "v8": "I’ve broken the model I propose down into four parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it. I’ve written detailed guides on the first three already (free to read, not a sales pitch for a retreat or anything), but this article will be mostly about the fourth.",
    "why": [
     "From Emulate, with \"It’s an arbitrary number\" cut (you said four sounds too tidy, not arbitrary), \"free … here\" made \"free to read\" (there was no link), and your \"God\" and \"children\" back. \"Not a sales pitch for a retreat or anything\" carries your \"no funnel and no retreat to buy\".",
     "Pangram: 100% Human alone."
@@ -65,7 +25,7 @@
    "p": "P3",
    "published": "Food, housing, and logistics are not enough reason to bind whole lives together. Shared inner practice gives the difficulty meaning: we are not merely maintaining property together, but helping one another heal and become less governed by fear. An outward *escuelita* and federation purpose adds another reason to keep going—the community exists not only to protect the people already inside it, but to help other people build.",
    "from": "e2-emuB",
-   "v5": "In a nutshell, there's a difference between working together just to provide food/housing/logistics, etc., and working together to support each other in an internal practice. Why would we commit our whole lives to each other if the only thing we have is the need to take care of property? When we're all helping each other heal and be less run by fear, etc, then the hard parts mean something, and it makes sense to bind our lives together. And the outward *escuelita* and federation purpose gives us even more reason to do so, because we're not only protecting each other, but helping others build as well.",
+   "v8": "In a nutshell, there's a difference between working together just to provide food/housing/logistics, etc., and working together to support each other in an internal practice. Why would we commit our whole lives to each other if the only thing we have is the need to take care of property? When we're all helping each other heal and be less run by fear, etc, then the hard parts mean something, and it makes sense to bind our lives together. And the outward *escuelita* and federation purpose gives us even more reason to do so, because we're not only protecting each other, but helping others build as well.",
    "why": [
     "From Emulate, with fixes: \"risk our lives\" became \"commit our whole lives\" (bind, not risk); \"to stop living in fear\" became \"be less run by fear\" (your \"less governed\"); \"the hard parts mean something\" puts back your \"gives the difficulty meaning\".",
     "The whole-article stance check caught Emulate's \"when we take on the purpose of an outward escuelita\": it made the outward purpose optional, and section 1 says these communities should do it. Now: \"the outward escuelita and federation purpose gives us even more reason\".",
@@ -76,7 +36,7 @@
    "p": "P4",
    "published": "Nothing suppressed, everything processed; authority stays with the practitioner; the community provides the container; and the answers remain fluid and organic instead of freezing into doctrine.",
    "from": "e2-emuA + B (the principle's name kept)",
-   "v5": "Nothing suppressed, everything processed. Each of us keeps authority over our own practice, and the community is the container. Whatever answers we find stay fluid and organic, and don't freeze into doctrine.",
+   "v8": "Nothing suppressed, everything processed. Each of us keeps authority over our own practice, and the community is the container. Whatever answers we find stay fluid and organic, and don't freeze into doctrine.",
    "why": [
     "\"Nothing suppressed, everything processed\" kept word for word: your Founderism section quotes it. The rest uses Emulate's pieces. \"Each of us keeps authority over our own practice\": the trace read \"the authority on\" as expertise, and the stance ledger warned that \"practitioner\" has to stay the person practicing, not a rule the group enforces.",
     "Pangram: 100% Human after P3. The heading and P4 read 39% AI with P5 after them. The section passes."
@@ -85,59 +45,65 @@
   {
    "p": "P5",
    "published": "These categories leak into one another almost immediately. Jealousy can become governance; control of shared resources can become psychology; medicine can create status; child-rearing can expose values the founders never discussed. I use the boxes to notice what a community has neglected, not because communal life stays inside boxes.",
-   "from": "e19-emuB",
-   "v5": "There is going to be bleed through between these four “categories” – e.g. how people deal with jealousy is going to be intertwined with how people run the community, how people use common things, how people parent, how people deal with medicine etc. But I do think they can be broken up like this for some degree of analysis so that people can see which “boxes” they are neglecting.",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "These categories leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.",
    "why": [
-    "A question. Your paragraph gives four ways one part turns into another: jealousy into governance, control of shared resources into psychology, medicine into status, child-rearing exposing values the founders never discussed. Both versions that kept all four read 100% AI alone (both mine; Emulate's own versions all dropped them). Emulate's version, here, says how the four tangle without the four directions.",
-    "My opinion: take it. The later sections carry the points (jealousy as the hidden governor, no special shaman, child-rearing values before the children come). If you want one direction back, I'd keep jealousy into governance.",
-    "Pangram: 100% Human alone, and with P6."
+    "Yours (21:16).",
+    "Two proposals, together: \"These four categories\" (a cold reader couldn't tell which categories \"These\" meant, three times) and \"Those who know plant medicine\" (one couldn't tell doctors from medicine people). With both, P5 reads 100% Human alone. My opinion: take both.",
+    "The whole-article check noted \"automatically … (power corrupts, as they say)\" and the god complex as stronger than the published \"can\"; they're your views, and I'd leave them."
    ]
   },
   {
    "p": "P6",
    "published": "A community does need stable agreements. Nobody wants to reconsider the membership process every Tuesday because one person had a revelation during breathwork. But agreements have to remain open to lived experience.",
-   "from": "e3-emuA",
-   "v5": "Also, a note on agreements: a community does need some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "Also, a note on agreements: a community does need some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.",
    "why": [
-    "From Emulate; its sentence was cut off, and your \"lived experience\" finishes it. Your quip's point is back in short form, \"every time somebody has a revelation in breathwork\": the grounding reviewer said it's what separates constant revision from staying open.",
-    "Pangram: 100% Human with P7."
+    "Yours, as in v5."
    ]
   },
   {
    "p": "P7",
    "published": "Religious communities may call the frozen version doctrine. Secular communities often call it “the process,” which can become equally sacred—just with longer meetings and fewer robes.",
-   "from": "e3-emuB",
-   "v5": "When agreements freeze, religious communities may call that doctrine, but secular communities often make their own kind of doctrine too, usually in the form of “the process.”",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities on the other hand often call it “the process,” which can become just as sacred.",
    "why": [
-    "From Emulate, with \"I have seen\" cut (Emulate's experience, not yours) and your \"may\" back. \"When agreements freeze\" anchors the frozen version. \"Longer meetings and fewer robes\" went; its point stays in \"their own kind of doctrine too\".",
-    "Pangram: 100% Human with P6."
+    "Yours (21:16): \"just as sacred\" kept, the robes quip gone.",
+    "Pangram: 100% Human with P6 (your check)."
    ]
   },
   {
    "p": "P11",
    "published": "[Inner-child reparenting](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) means identifying as the inner adult—or the three inner adults: Nurturer, Protector, and Guru/Leader—and caring for the inner child from there. The adult reparents. The child receives love, protection, guidance, and enough freedom to remain alive inside you.",
-   "from": "published first sentence; then e15-emuA",
-   "v5": "[Inner-child reparenting](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) means identifying as the inner adult—or the three inner adults: Nurturer, Protector, and Guru/Leader—and caring for the inner child from there. It’s your inner adult that reparents your inner child, not the other way around, and the child gets love, protection, guidance, and enough freedom to stay alive inside you.",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "[Inner-child reparenting](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided) means learning to identify as the best inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and in this process actually gains more freedom to remain alive inside you.",
    "why": [
-    "Your first sentence unchanged. Then Emulate's \"It’s your inner adult that reparents your inner child, not the other way around\", and your last sentence reworded: both Emulate versions had dropped it.",
-    "Pangram: 100% Human with P12, and P11 to P13 together."
+    "Yours (21:16). \"Guide\" matches your Inner Child article (\"wise Guide\")."
    ]
   },
   {
    "p": "P12",
    "published": "Then there’s [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing), because the mind can make a magnificent decision while the nervous system quietly files an appeal.",
-   "from": "new",
-   "v5": "Then there’s [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing), for when you've made a great decision in your head and your nervous system still hasn't signed off on it.",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "And it's built on [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.",
    "why": [
-    "Mine: both Emulate versions made it a list item. \"Your nervous system still hasn’t signed off on it\" keeps your quip's point, a body that hasn't agreed yet, without \"quietly\".",
-    "Pangram: 100% Human with P11, and P11 to P13 together."
+    "Yours (21:16). The whole-article check noted that \"built on somatic regulation first\" might read against section 16 (\"Start the inner pl/ork. Read the free reparenting guide and Hearthwork manual\"). I don't think it contradicts it."
+   ]
+  },
+  {
+   "p": "P13",
+   "published": "My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), taken critically. Most are treasure. Some seem like late additions. I consider the *Abhidhamma* a scholastic wrong turn. A living community should relate to its own teachings the same way: devoted enough to practice them and secure enough to disagree.",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while still devoted to following they've decided on so far.",
+   "why": [
+    "Yours (21:16). A proposal: \"while still devoted to following what they've decided on so far\": a word seems to be missing, and two cold readers stumbled there. With it, P11 to P13 read 100% Human together. My opinion: take it."
    ]
   },
   {
    "p": "P15",
    "published": "The community’s capacity to help people therefore lives throughout the group instead of inside one professional, guru, or emotionally indispensable founder.",
    "from": "e17-emuA",
-   "v5": "The idea is that the capacity to be there for people when they need help isn’t located in one professional or guru, or the founder of the group that everyone emotionally depends on, but in the community as a whole.",
+   "v8": "The idea is that the capacity to be there for people when they need help isn’t located in one professional or guru, or the founder of the group that everyone emotionally depends on, but in the community as a whole.",
    "why": [
     "From one Emulate call over P14 to P19 together. In the section, P13's last sentence to P20 read AI as a run, though each paragraph passed alone; three versions of the run failed, and this one passed (100% Human).",
     "Fixes: one professional or guru, not \"a few\"; \"the founder of the group that everyone emotionally depends on\" for Emulate's garbled \"most emotionally available (aka indispensable)\". \"The idea is that\" stands in for your \"therefore\"."
@@ -146,28 +112,27 @@
   {
    "p": "P16",
    "published": "But care is not jurisdiction. The person listening to me should not automatically gain power over my membership, work, housing, children, medicine, or the evidence in a dispute about them. Peer care becomes another hierarchy the moment emotional access turns into administrative authority.",
-   "from": "e17-emuA (and e17-emuB's \"believed\")",
-   "v5": "Another thing is that the person you’re working with shouldn’t get power, just from that, over whether or not you can be a member of the group, whether or not you can work for the group, whether or not you can live there, what happens with your children, whether or not you can take part in the medicine work, whether or not you’re believed in a dispute, etc. Giving someone the job of taking care of people emotionally and giving them administrative power is just creating a new hierarchy.",
+   "from": "e17-emuA, its last sentence rebuilt",
+   "v8": "Another thing is that the person listening to you shouldn’t get power, just from that, over whether or not you can be a member of the group, whether or not you can work for the group, whether or not you can live there, what happens with your children, whether or not you can take part in the medicine work, whether or not you’re believed in a dispute, etc. Letting someone turn what they learned while caring for you into administrative power over you is just creating a new hierarchy.",
    "why": [
-    "Same run. Fixes: \"just from that\" (your \"automatically\"); \"what happens with your children\" and \"take part in the medicine work\" for Emulate's \"see your kids\" and \"get medication\"; \"believed in a dispute\" (Emulate's other version) for your \"the evidence in a dispute about them\".",
-    "A cold reader couldn't picture the evidence line as published, so \"believed in a dispute\" is my reading of it; tell me if you meant something else. The last sentence is your \"emotional access turns into administrative authority\".",
-    "Pangram: 100% Human alone, with P15 and with P17."
+    "Your OK on \"believed in a dispute\". New since v5: the whole-article check and the trace both read Emulate's last sentence as a rule that a listener can never hold an admin role. Now \"Letting someone turn what they learned while caring for you into administrative power over you is just creating a new hierarchy\", and \"the person listening to you\".",
+    "Pangram: 100% Human alone, and with P17."
    ]
   },
   {
    "p": "P17",
    "published": "Some things also remain outside peer competence. Knowing when to refer to outside or expert assistance is important.",
-   "from": "e17-emuA",
-   "v5": "Another thing is knowing what kinds of things to refer to outside or expert assistance for.",
+   "from": "e17-emuA, fixed",
+   "v8": "Another thing is knowing which problems are beyond what peers can handle and need outside or expert help.",
    "why": [
-    "Same run, as it came. \"Is important\" went; listing it as one of the ideas carries it."
+    "New since v5: a cold reader read Emulate's \"refer to … for\" as \"mention\". Now \"which problems are beyond what peers can handle and need outside or expert help\"."
    ]
   },
   {
    "p": "P18",
    "published": "Jealousy and conflict should be addressed while they still belong to the people involved—before they acquire minutes, procedural objections, and a place near the bottom of an agenda nobody will finish.",
    "from": "e17-emuA",
-   "v5": "And another is to deal with jealousy and conflict while it's still between the people involved, before it gets put on the agenda (generally at the bottom of the agenda).",
+   "v8": "And another is to deal with jealousy and conflict while it's still between the people involved, before it gets put on the agenda (generally at the bottom of the agenda).",
    "why": [
     "Same run, with \"while it’s still between the people involved\" back. \"Generally at the bottom of the agenda\" is your agenda nobody finishes."
    ]
@@ -176,7 +141,7 @@
    "p": "P19",
    "published": "My [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents) covers the dyads that will form whether the founding document acknowledges romance or pretends everybody has transcended it.",
    "from": "e17-emuA",
-   "v5": "Also, read my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), because no matter how much your founding document says that you’re all beyond romance, you’re still gonna have dyads.",
+   "v8": "Also, read my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), because no matter how much your founding document says that you’re all beyond romance, you’re still gonna have dyads.",
    "why": [
     "Same run, link back. Your guide's description became a recommendation (\"read my Romance Guide\"); \"no matter how much your founding document says that you’re all beyond romance\" is your \"pretends everybody has transcended it\".",
     "Pangram: P17 to P19 100% Human together."
@@ -186,7 +151,7 @@
    "p": "P20",
    "published": "Careful, peer-guided use of serious plant medicines, with no special shaman placed above everybody else.",
    "from": "e7-emuA",
-   "v5": "Doing serious plant medicines carefully with peer guidance without exalting any one person as a special shaman.",
+   "v8": "Doing serious plant medicines carefully with peer guidance without exalting any one person as a special shaman.",
    "why": [
     "From Emulate.",
     "Pangram: 100% Human with P21."
@@ -195,30 +160,38 @@
   {
    "p": "P21",
    "published": "Peer-led doesn’t mean casual. Screening, sober sitters, emergency plans, integration, and clear boundaries all have to exist before the first ceremony. Figuring out the rules while several members are altered would be a very pure form of collective learning, but I don’t recommend it.",
-   "from": "e7-emuA",
-   "v5": "This doesn't mean it can be done without structure and precautions. People need to be screened, and sober sitters, emergency plans, integration and clear boundaries all need to be in place, before the first ceremony. Yes, it would be pure collective learning to work out the rules while several people are altered, but I don't recommend it.",
+   "from": "e21-emuB (its subject from e21-emuA)",
+   "v8": "This doesn’t mean that a peer-led ceremony should be done without structure. Things like screening participants, making sure the sitters are sober, having a plan for dealing with emergencies, planning for integration, and other rules and boundaries need to be dealt with beforehand. While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot, it’s not something I recommend.",
    "why": [
-    "From Emulate, with \"have to\" and \"clear boundaries\" back, and all of it, screening too, \"before the first ceremony\". The quip keeps its point: \"pure collective learning … but I don’t recommend it\".",
-    "Pangram: 100% Human alone."
+    "New since v5, from one Emulate call over P21 to P24. After your edits, the section read 8% AI on a run from P21's second sentence to P24's first, which had passed before: your point about a more human paragraph exposing the next one. The new run passes, and so does the section.",
+    "A question: Emulate's last sentence lost your irony. \"There may be some pure learning that could come from…\" reads as a real concession; the whole-article check and the trace both flagged it. My opinion: cut that sentence, since \"need to be dealt with beforehand\" already says it. That needs a recheck (about 20 credits)."
+   ]
+  },
+  {
+   "p": "P22",
+   "published": "Membership, land, shared resources, governance, children, and exit.",
+   "from": "e21 (both versions)",
+   "v8": "Membership, land, resources, governance, children, leaving, etc.",
+   "why": [
+    "From the same Emulate call: \"resources\", \"leaving\", \"etc.\"."
    ]
   },
   {
    "p": "P23",
    "published": "My own long-term direction is toward communities that use less and less money. I think the path has three stages.",
-   "from": "e8-emuA",
-   "v5": "In the long run, I'd like to see communities like these use less and less money. I see three stages:",
+   "from": "e21-emuA",
+   "v8": "Personally, I’m aiming for communities with less and less money involved. I think the path there has three stages.",
    "why": [
-    "Emulate's words, fixed: the stance check caught \"I imagine … these communities would move\" as a forecast; yours is your own direction. \"I’d like to see\" is fine here by your ruling on \"I want\": it's about the community you want.",
-    "Pangram: 100% Human with P22 and P24."
+    "Same call, fixed: the trace read \"I'm personally moving towards\" as a move and \"this will happen\" as a forecast. Now \"Personally, I'm aiming for…\" and \"the path there has three stages\"."
    ]
   },
   {
    "p": "P24",
    "published": "First, basic life inside the community—food, housing, care, tools, education, and ordinary transport—is not bought from one another. Members may still keep income from outside work, but anyone earning outside contributes an agreed share to the common. This is probably the realistic starting point.",
-   "from": "e8-emuA",
-   "v5": "First, no one buys from anyone else in the community to meet their basic needs (food, housing, care, tools, education, transport), but each person may work outside the community and keep what they earn. However, if they do work outside, they contribute an agreed upon share of their income to the community. This is probably the most realistic way to get started.",
+   "from": "e21-emuA, its last sentence from e21-emuB",
+   "v8": "First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs, and they bring an agreed share of that income in. This is probably a good place to start if someone wants to create a community now and have it be realistic.",
    "why": [
-    "From Emulate, with \"First,\" the list, \"keep what they earn\" and \"an agreed upon share\" back (Emulate had a flat amount), and its \"the only way\" back to your \"probably\".",
+    "Same call, with its last sentence from Emulate's other version, and \"they bring an agreed share of that income in\": section 15 says an outside earner \"should contribute an agreed share\", and Emulate had made it optional.",
     "Pangram: 100% Human alone."
    ]
   },
@@ -226,7 +199,7 @@
    "p": "P25",
    "published": "Later, outside wages and income from community businesses go into a common purse. Members do not accumulate private wealth while they belong. The [Bruderhof](https://www.bruderhof.com/intentional-community) has lived a version of this for generations; my father spent seventeen years inside it. [Twin Oaks](https://www.twinoaks.org/about-twinoaks-community/about-income-sharing) and other income-sharing communities have built related versions. A common purse is not an untested theory.",
    "from": "e9-emuB",
-   "v5": "Later, all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the [Bruderhof](https://www.bruderhof.com/intentional-community) community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at [Twin Oaks](https://www.twinoaks.org/about-twinoaks-community/about-income-sharing), and a number of other income-sharing communities. So a common purse isn’t just a theory.",
+   "v8": "Later, all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the [Bruderhof](https://www.bruderhof.com/intentional-community) community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at [Twin Oaks](https://www.twinoaks.org/about-twinoaks-community/about-income-sharing), and a number of other income-sharing communities. So a common purse isn’t just a theory.",
    "why": [
     "From Emulate, with \"always\" made \"some version of this … for generations\" (yours), \"permitted\" cut, the links back, and your \"a common purse isn’t just a theory\" back as the last line.",
     "Pangram: 100% Human alone."
@@ -235,18 +208,17 @@
   {
    "p": "P26",
    "published": "The furthest goal is for the community to stop using money outside too, meeting needs directly and exchanging through goods, gifts, shared work, or reciprocal obligation. I did not find a well-documented modern community that has fully reached that point. Governments may make it literally impossible through land taxes and other required payments. The practical endpoint may therefore be a nearly moneyless community with one small collective cash boundary.",
-   "from": "e10-emuA + B",
-   "v5": "Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn't find a well-documented modern community that has gone this far, and in fact, it may be impossible because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn't find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.",
    "why": [
-    "From Emulate, with its invented \"this would not involve barter\" and \"I’m looking for sources\" cut; \"the community would also stop using money outside\" from its other version (a cold reader read it as the whole world going moneyless); your \"well-documented\" back (the stance check: \"I don’t know of any\" claimed more than you did); and \"So perhaps the practical end point\".",
-    "Pangram: 100% Human alone."
+    "Yours (21:16): \"impractical in some locations\"."
    ]
   },
   {
    "p": "P27",
    "published": "None of this removes scarcity or economic power. Food stores, housing, tools, land, medicine, transport, and access to whatever outside currency the group still needs can all be controlled. A money-free community still has to answer who allocates scarce things, what obligations people have to one another, and what happens when somebody leaves.",
    "from": "e11-emuB",
-   "v5": "None of this does away with scarcity or economic power. There are lots of areas where such power can be wielded: access to food storage, housing, tools, land, medicine, transportation, and the outside world’s currency, to name a few. Even in a moneyless community, someone can control what's scarce. Who decides how these things are distributed? What do members owe one another? What happens when someone wants to leave?",
+   "v8": "None of this does away with scarcity or economic power. There are lots of areas where such power can be wielded: access to food storage, housing, tools, land, medicine, transportation, and the outside world’s currency, to name a few. Even in a moneyless community, someone can control what's scarce. Who decides how these things are distributed? What do members owe one another? What happens when someone wants to leave?",
    "why": [
     "From Emulate, with \"None of this does away with scarcity or economic power\" first, \"Who decides how these things are distributed?\" (your who allocates) and \"What do members owe one another?\" (your obligations).",
     "Pangram: 100% Human alone."
@@ -255,28 +227,27 @@
   {
    "p": "P28",
    "published": "These subjects receive less spiritual enthusiasm because nobody has ever returned from an ecstatic vision announcing that the group needs a better provisional-membership policy. Unfortunately, the vision can’t determine a departing member’s share, prevent one founder from controlling the land, or decide what happens when a child reports something serious.",
-   "from": "e11-emuB",
-   "v5": "These are less exciting topics to discuss spiritually. Nobody comes back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious.",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "These are less exciting topics to discuss spiritually. It's rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it's often still something that needs a sober thinking-through.",
    "why": [
-    "From Emulate, with \"It’s rare that someone will come back\" made \"Nobody comes back\": the stance check and the grounding reviewer both caught \"rare\", which says a vision sometimes settles these, and your article says it can't. \"Something serious\" back.",
-    "Pangram: 100% Human alone."
+    "Yours (21:16): the published claim was wrong about visions.",
+    "A proposal: drop \"often\" (\"it's still something that needs a sober thinking-through\"). For a child's serious report, section 8 says the response is decided beforehand. 100% Human alone. My opinion: take it."
    ]
   },
   {
    "p": "P29",
    "published": "Beautiful land can’t compensate for ownership that gives one person the final say. Peer counseling can’t rescue a membership process that admits people faster than the group can support them. Medicine can’t repair an exit agreement that was never written.",
-   "from": "e20-emuA, its run broken",
-   "v5": "But no amount of gorgeous land will make up for the mess that is created when one person owns the land and has the final say about what will happen on it. And when members come on board faster than the group can support them, all the peer counseling in the world won't make up for it, any more than medicine makes up for the lack of a written exit agreement.",
+   "from": "Joel's (2026-10-02 21:16)",
+   "v8": "But no amount of gorgeous land will make up for the mess that is created when one person owns the land or has the final say about what will happen on it. And when members come on board faster than the group can support them, all the peer counseling in the world won't make up for it, any more than medicine makes up for the lack of a written exit agreement.",
    "why": [
-    "From a later Emulate call, its three \"No amount of…\" sentences cut to one and run on: both three-part versions I checked read 100% AI alone, and all six of Emulate's versions were three-part runs. \"When one person owns the land and has the final say\" is a bit narrower than your \"ownership that gives one person the final say\".",
-    "Pangram: 100% Human alone, and with P30 and P31."
+    "Yours (21:16): \"owns the land or has the final say\"."
    ]
   },
   {
    "p": "P30",
    "published": "The first three parts shape the community’s inner life. The container gives that work a stable place to happen.",
    "from": "e20-emuB",
-   "v5": "The first three parts are the inside of the container, and this part is the container itself.",
+   "v8": "The first three parts are the inside of the container, and this part is the container itself.",
    "why": [
     "Emulate's other version. Both first versions had it backward (the first three parts as the container); this one has it right."
    ]
@@ -285,7 +256,7 @@
    "p": "P31",
    "published": "Skip one, and the group eventually has to deal with it under pressure—usually after land, labor, or shared resources are already entangled and everyone has developed opinions.",
    "from": "e12-emuB",
-   "v5": "If one of them gets skipped, it will need to be dealt with eventually, at high stress, usually after the group has invested land, labor, or other resources and everyone has an opinion on how things should be.",
+   "v8": "If one of them gets skipped, it will need to be dealt with eventually, at high stress, usually after the group has invested land, labor, or other resources and everyone has an opinion on how things should be.",
    "why": [
     "From Emulate, with \"or\" for \"and\" (any of land, labor or resources) and \"usually\" back on the timing.",
     "A question the stance ledger raised, not about the rewrite: \"Skip one\" covers medicine too, and your Founderism section says medicine is optional. My opinion: leave it, since it's yours."

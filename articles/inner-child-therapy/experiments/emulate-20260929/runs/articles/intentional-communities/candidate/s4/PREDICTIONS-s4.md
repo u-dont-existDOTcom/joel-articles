@@ -89,3 +89,45 @@ The gate's trace, cold read and stance check on v5's ten changed paragraphs run 
 | H2P4bP5 | Human | P4b: "You keep authority over your own practice…", one sentence for the three clauses | not checked |
 
 **v5 section: 100% Human (1,449 words), try 1** (04:38 UTC; I ran it myself, since the checking agents had hit the account's weekly limit). P4 stays: it passes with P3 before it (v4), and the section passes; H2P4bP5 wasn't checked, to keep the credits. The gate's fresh-agent checks on v5's ten changed paragraphs (trace, cold read, stance) couldn't run: every agent call failed on the weekly limit (resets 2026-10-06 14:00). So v5 is a candidate that still owes those three checks.
+
+## v6: Joel's edits of 2026-10-02 21:16 (texts in `r6/`)
+
+His P5, P7, P11 to P13, P26, P28 and P29, each checked by him (P11 to P13 together); P16's "believed in a dispute" confirmed. Two proposals of mine: "following what they've decided on so far" in P13 (a word seems to be missing), and "These four categories" in P5 (a cold reader couldn't tell which categories "These" meant, twice).
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| section-v6 | Human | v5 passed, and his paragraphs pass; his note that a more human paragraph can expose the next one is the risk | 92% Human, 8% AI (1507) |
+| P11P12P13what | Human | one word added to his passing trio | Human (153) |
+| P5four | Human | one word added | Human (84) |
+
+v6 results: **the section 92% Human, 8% AI**: one span, from P21's second sentence ("People need to be screened…") across the heading and the list to P24's first sentence. Those paragraphs passed in v3 and v5, and alone; Joel's note fits: once the paragraphs before them got more human, the AI in them showed. Both proposals pass: P11 to P13 with "what" 100% Human (153), P5 with "These four categories" 100% Human (84). Mine: 2 of 3. The v6 trace, cold read and whole-article stance check ran (`TRACE-v6-A.md`, `SENSE-v6.md`, `STANCE-v6.md`).
+
+## v7 (texts in `r7/`)
+
+P21 to P24 from one Emulate call over the run (e21, `emu/outputs4.json`), with small fixes; P16's last sentence rebuilt (the stance check and the trace both read Emulate's as a rule that a listener can never hold an admin role); P17's "refer to … for" garden path fixed (cold read). Windows first; the section only if both windows pass. Two more proposals on Joel's paragraphs: P5 with "plant medicine" (a cold reader couldn't tell doctors from medicine people), and P28 without "often" (for a child's serious report, section 8 says the process is decided beforehand).
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| W3-P20toP25 | Human | the run from one Emulate call || Human (280) |
+| W2-v7 | Human | two small fixes inside a window that passed || Human (303) |
+| P21 | Human | || Human (77) |
+| H3dP22P23P24 | Human | || Human (87) |
+| P24 | Human | || Human (57) |
+| P16 | Human | || Human (91) |
+| P16P17 | Human | || Human (109) |
+| P5fourplant | Human | one more word in a passing paragraph || Human (85) |
+| P28still | Human | one word out || Human (79) |
+| section-v7 | Human | || Human (1519) |
+
+v7 results: **all ten 100% Human, the section too (1,519 words)**, try 1. Mine: 10 of 10. The v7 trace and stance check found two things to fix in my paragraphs: P23 read as a move or a forecast ("I'm personally moving towards… this will happen in three stages"), and P24 made the stage-one share optional, where section 15 says an outside earner "should contribute an agreed share". The stance check's other findings are on Joel's own paragraphs (his corrections of the published text), for him to see, not to fix.
+
+## v8 (texts in `r8/`)
+
+P23: "Personally, I'm aiming for communities with less and less money involved. I think the path there has three stages." P24: "Members might have outside jobs, and they bring an agreed share of that income in."
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| W3-v8 | Human | two small fixes inside a window that passed | |
+| H3dP22P23P24 | Human | | |
+| P24 | Human | | |
+| section-v8 | Human | | |

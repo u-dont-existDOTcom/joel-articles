@@ -199,3 +199,13 @@ v10 results: **P9 with Joel's own characters: 100% Human alone.** Same words wit
 | P7q2 | Human | the two-word proposal, with his characters | |
 | section-v10 | Human | v9 passed whole | |
 | section-v10q | Human | | |
+
+## v12: Joel's P7 of 2026-10-02 21:16 (text in `r12/`)
+
+He checked it alone: Human. "mostly private or ignored", and "it's the inner world being shaped by the outer".
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| section-v11 | Human | his paragraph; my two-word version flipped the section (13% AI), his rewrites more of the sentence | Human (563) |
+
+v12 result: the section with Joel's P7 reads 100% Human (563 words), installed as v11.

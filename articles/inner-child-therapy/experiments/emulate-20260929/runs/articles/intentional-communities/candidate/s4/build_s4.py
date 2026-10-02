@@ -123,6 +123,52 @@ SRC5 = dict(SRC4)
 SRC5.update({'P5': 'e19-emuB', 'P15': 'e17-emuA', 'P16': 'e17-emuA (and e17-emuB\'s "believed")', 'P17': 'e17-emuA', 'P18': 'e17-emuA', 'P19': 'e17-emuA', 'P29': 'e20-emuA, its run broken', 'P30': 'e20-emuB'})
 P29Y = "Gorgeous land doesn't help when one person owns it and has the final say. Peer counseling can't keep up when members come on board faster than the group can support them. And no ceremony is going to write the exit agreement nobody wrote."
 
+# v6: Joel's edits of 2026-10-02 21:16 (his exact characters; the links put back on his link words)
+V[6] = dict(V[5])
+V[6].update({
+ 'P5': "These categories leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.",
+ 'P6': "Also, a note on agreements: a community does need some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.",
+ 'P7': "When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities on the other hand often call it “the process,” which can become just as sacred.",
+ 'P11': "[Inner-child reparenting](%s) means learning to identify as the best inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and in this process actually gains more freedom to remain alive inside you." % L['reparent'],
+ 'P12': "And it's built on [somatic regulation](%s) first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well." % L['somatic'],
+ 'P13': "My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while still devoted to following they've decided on so far.",
+ 'P26': "Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn't find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.",
+ 'P28': "These are less exciting topics to discuss spiritually. It's rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it's often still something that needs a sober thinking-through.",
+ 'P29': "But no amount of gorgeous land will make up for the mess that is created when one person owns the land or has the final say about what will happen on it. And when members come on board faster than the group can support them, all the peer counseling in the world won't make up for it, any more than medicine makes up for the lack of a written exit agreement.",
+})
+assert V[6]['P6'] == V[5]['P6']
+SRC6 = dict(SRC5)
+SRC6.update({k: "Joel's (2026-10-02 21:16)" for k in ('P5', 'P6', 'P7', 'P11', 'P12', 'P13', 'P26', 'P28', 'P29')})
+P13W = V[6]['P13'].replace("while still devoted to following they've decided on so far.", "while still devoted to following what they've decided on so far.")
+P5F = V[6]['P5'].replace("These categories leak", "These four categories leak")
+assert P13W != V[6]['P13'] and P5F != V[6]['P5']
+
+# v7: the run P21 to P24 from one Emulate call (e21), after the v6 section flagged P21's second sentence to P24's
+# first; P16 and P17 fixed for the v6 stance check, trace and cold read
+V[7] = dict(V[6])
+V[7].update({
+ 'P16': "Another thing is that the person listening to you shouldn’t get power, just from that, over whether or not you can be a member of the group, whether or not you can work for the group, whether or not you can live there, what happens with your children, whether or not you can take part in the medicine work, whether or not you’re believed in a dispute, etc. Letting someone turn what they learned while caring for you into administrative power over you is just creating a new hierarchy.",
+ 'P17': "Another thing is knowing which problems are beyond what peers can handle and need outside or expert help.",
+ 'P21': "This doesn’t mean that a peer-led ceremony should be done without structure. Things like screening participants, making sure the sitters are sober, having a plan for dealing with emergencies, planning for integration, and other rules and boundaries need to be dealt with beforehand. While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot, it’s not something I recommend.",
+ 'P22': "Membership, land, resources, governance, children, leaving, etc.",
+ 'P23': "I’m personally moving towards communities with less and less money involved. I think this will happen in three stages.",
+ 'P24': "First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs and bring their income in (some agreed share of it). This is probably a good place to start if someone wants to create a community now and have it be realistic.",
+})
+SRC7 = dict(SRC6)
+SRC7.update({'P16': 'e17-emuA, its last sentence rebuilt', 'P17': 'e17-emuA, fixed', 'P21': 'e21-emuB (its subject from e21-emuA)', 'P22': 'e21 (both versions)', 'P23': 'e21-emuA', 'P24': 'e21-emuA, its last sentence from e21-emuB'})
+P5FP = V[6]['P5'].replace("These categories leak", "These four categories leak").replace("Those who know medicine", "Those who know plant medicine")
+P28S = V[6]['P28'].replace("And if they do, it's often still something", "And if they do, it's still something")
+assert P5FP != V[6]['P5'] and P28S != V[6]['P28']
+
+# v8: P23 and P24 fixed for the v7 trace and stance check (a direction, not a move or a forecast; the stage-one
+# share is an obligation, as section 15 says)
+V[8] = dict(V[7])
+V[8].update({
+ 'P23': "Personally, I’m aiming for communities with less and less money involved. I think the path there has three stages.",
+ 'P24': "First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs, and they bring an agreed share of that income in. This is probably a good place to start if someone wants to create a community now and have it be realistic.",
+})
+SRC8 = dict(SRC7)
+
 def build(n, src):
     B = V[n]
     json.dump({'version': n, 'order': ORDER, 'blocks': B, 'source': src}, open(HERE / ('final-v%d.json' % n), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
@@ -133,7 +179,7 @@ def build(n, src):
 
 if __name__ == '__main__':
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5}.get(n, SRC1))
+    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8}.get(n, SRC1))
     R = HERE / ('r%d' % n); R.mkdir(exist_ok=True)
     CHECKS = json.load(open(HERE / ('checks-v%d.json' % n))) if (HERE / ('checks-v%d.json' % n)).exists() else {}
     def text_for(ks):
@@ -141,6 +187,10 @@ if __name__ == '__main__':
             B = dict(V[ks['v']])
             if ks.get('P13J'): B['P13'] = P13J
             if ks.get('P29Y'): B['P29'] = P29Y
+            if ks.get('P13W'): B['P13'] = P13W
+            if ks.get('P5F'): B['P5'] = P5F
+            if ks.get('P5FP'): B['P5'] = P5FP
+            if ks.get('P28S'): B['P28'] = P28S
             return mdplain.plain('\n\n'.join(B[k] for k in ks['keys'] if not k.startswith('IMG'))).strip() + '\n'
         return plain(ks)
     for name, ks in CHECKS.items():

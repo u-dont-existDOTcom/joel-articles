@@ -48,7 +48,13 @@ PARTS = {1: {'A': ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P11', 'P12'],
          2: {'A': ['P3', 'P4', 'P5', 'P6', 'P7', 'P12'], 'B': ['P16', 'P17', 'P18', 'P19', 'P21'],
              'C': ['P23', 'P24', 'P25', 'P26'], 'D': ['P27', 'P28', 'P29', 'P30', 'P31']},
          # v5: what changed since v3 (v3 was traced; v4 went only to Pangram)
-         5: {'A': ['P5', 'P11', 'P12', 'P15', 'P16'], 'B': ['P17', 'P18', 'P19', 'P29', 'P30']}}
+         5: {'A': ['P5', 'P11', 'P12', 'P15', 'P16'], 'B': ['P17', 'P18', 'P19', 'P29', 'P30']},
+         # v6: Joel rewrote P5, P7, P11 to P13, P26, P28 and P29 himself; the v5 paragraphs of mine or Emulate's
+         # that never had a fresh trace are traced now
+         6: {'A': ['P15', 'P16', 'P17', 'P18', 'P19', 'P30']},
+         # v7: P16 and P17 fixed, and the run P21 to P24 from one Emulate call
+         7: {'A': ['P16', 'P17', 'P21', 'P22', 'P23', 'P24']},
+         8: {'A': ['P23', 'P24']}}
 parts = {h: [k for k in ks if k in changed] for h, ks in PARTS[n].items()}
 if n == 1:
     assert sorted(sum(parts.values(), [])) == sorted(changed), (changed, parts)
