@@ -4606,6 +4606,106 @@
           "path": "articles/inner-child-therapy/tools/targets/whatever-showed-up-p5-v2.json",
           "sha256": "74ad0b376a67348a704b3eb6772d231185c08c50cbfb54c8bcd84bcdd4392776",
           "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/SOURCE-OWNER-SUBSTACK.html",
+          "sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+          "role": "source_snapshot"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/INNER-CHILD-STATE-TRANSFER-CANDIDATE.html",
+          "sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+          "role": "article_working_artifact"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/COPY-TO-SUBSTACK.html",
+          "sha256": "030bb881902828e5c60fb352b5a1ba9f8e2459158bc324236b1b8deac7041a71",
+          "role": "article_working_artifact"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/CHANGES-REVIEW.html",
+          "sha256": "e7a6f9d0588934486673ef466e81a3480a82a9ab799fe0e513e0bf46bdccc133",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/FULL-GUIDE-REVIEW.html",
+          "sha256": "a771e874db2c680e27ff7902e29a65acee7a962fbc48252699371d628365b5ee",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/EDIT-RECEIPT.json",
+          "sha256": "efedd23e31d678270da252d4deb578bca03000c081cf789b9d124862524a1ed7",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/PRESERVATION-RECEIPT.json",
+          "sha256": "203a8ccd93786d3ba6134f84772997b19af9eb2c1c8c23dcf06f82db479f64b6",
+          "role": "preservation_proof"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/DELIVERY-RECEIPT.json",
+          "sha256": "ea869ea6a07d91254919a8ffcb571165e15d0d73749f314d0202ec9771d0179c",
+          "role": "delivery_ready_candidate_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/TRANSFER-REPORT.md",
+          "sha256": "7e3b68a01fd00d4d70a5f0eb10402e2fce18a6ee1c36d93264ce68020f9d39cb",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/WRITER-LEASE-STATE-TRANSFER-20261003.json",
+          "sha256": "d802fc77f994c93d2ed4c877c268f93f7f40a8e1d42b701a74897307c46a3604",
+          "role": "writer_lease"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/changes-review-browser-test.json",
+          "sha256": "b50a52e862ada611e699f3b30b1d2a829e7ed1c6cd041ad43e34a4dd95b5ac18",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/changes-review-browser-test.md",
+          "sha256": "82bd8fb555c567b3d1867c29d62b5765163d74dae16408d6b8151cda7c5f7692",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/full-review-browser-test.json",
+          "sha256": "8345539be9c00f0c3be613edb21cf83c74691f6b918d3af4dffc18e7d62a0d59",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/full-review-browser-test.md",
+          "sha256": "625b80e1e6f4cda3d0cf575feeee930d38801e9d10f770cf029b93d6e422fa24",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/clipboard-interaction-test.json",
+          "sha256": "a396e8d5bdc258296f349dcb2423133d958c281479880dce6f71a2605df534c1",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/native-object-inventory.json",
+          "sha256": "4ddf59be67aec914077abbe8806db8b44669eb5a2d3aa8eda2afe33cf5e61303",
+          "role": "source_structure_inventory"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/source-native-object-inventory.json",
+          "sha256": "ddbb238bf6e210f2698e30aba20d8273951d2d862597001456b88ad971e4e853",
+          "role": "source_structure_inventory"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/transfer-plan.json",
+          "sha256": "c4d1a684e40afca5a168c001e441d6caed49c52bb449c1f1d197bcaa3ce0b255",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/source-transfer-plan.json",
+          "sha256": "2798c7eb285cda07ae36c2b32be2ef3c9f5da0166c5074ecaf2977ccb303101c",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/state-transfer-20261003/CURRENT-STATE.md",
+          "sha256": "6e2b5255d29e5f48159f893eae324afd759beed30629c48183dedc5a68ca0e36",
+          "role": "humanization_working_record"
         }
       ]
     },

@@ -1,0 +1,14 @@
+{
+  "format": "inner-child-state-transfer-preservation-v1",
+  "source_sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+  "candidate_sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+  "exact_source_reconstructed_by_reversing_two_authorized_edit_sites": true,
+  "changed_sites": 2,
+  "native_object_count": 10,
+  "native_object_signatures_order_anchors_exact": true,
+  "href_count": 62,
+  "href_sequence_exact": true,
+  "source_editor_body_sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+  "candidate_editor_body_sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+  "status": "pass"
+}

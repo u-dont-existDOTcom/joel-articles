@@ -1,0 +1,239 @@
+{
+  "format": "human-voice-semantic-object-inventory-v3",
+  "source_file": "SOURCE-OWNER-SUBSTACK.html",
+  "source_sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+  "editor_body_sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+  "object_count": 10,
+  "object_counts_by_type": {
+    "image": 4,
+    "native_video": 2,
+    "substack_video_post_embed": 2,
+    "youtube": 2
+  },
+  "objects": [
+    {
+      "id": 1,
+      "type": "image",
+      "start": 192,
+      "end": 3658,
+      "source_sha256": "0abca35e2e6265d4e6cd9df3a7be04f5d351f11390a9770d56445ef0fd7e4409",
+      "preceding_anchor": null,
+      "following_anchor": "Listen & Watch:",
+      "candidate_urls": [
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substack-post-media.s3.amazonaws.com/public/images/40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://ibogaqueen.substack.com/i/189761959?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!Lb3E!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png"
+      ],
+      "canonical_url": null,
+      "media_id": null,
+      "recommended_strategy": "rich_html"
+    },
+    {
+      "id": 2,
+      "type": "native_video",
+      "start": 3867,
+      "end": 8961,
+      "source_sha256": "9c9aaa411f7cf8613a73033e1d7a4acc45935e1a8fbfb9802d430867b3525454",
+      "preceding_anchor": "Listen & Watch:",
+      "following_anchor": "The Chicken-and-Egg Problem",
+      "candidate_urls": [
+        "http://www.w3.org/2000/svg"
+      ],
+      "canonical_url": null,
+      "media_id": "bc40d36b-6d3d-470d-a25d-14eb7eb067fb",
+      "recommended_strategy": "split_payload_manual_native_video_insertion"
+    },
+    {
+      "id": 3,
+      "type": "native_video",
+      "start": 9113,
+      "end": 11302,
+      "source_sha256": "9ff9d3784cb8a62a96d06aac47cac0d0ca53900d6dc51db6f399f5ab2d36cac7",
+      "preceding_anchor": "Listen & Watch:",
+      "following_anchor": "The Chicken-and-Egg Problem",
+      "candidate_urls": [
+        "https://substack-video.s3.amazonaws.com/video_upload/post/189761959/f302980e-0c6a-40c5-b6db-1e89ab887e3d/transcoded-00001.png?refresh=Sat",
+        "http://www.w3.org/2000/svg"
+      ],
+      "canonical_url": null,
+      "media_id": "f302980e-0c6a-40c5-b6db-1e89ab887e3d",
+      "recommended_strategy": "split_payload_manual_native_video_insertion"
+    },
+    {
+      "id": 4,
+      "type": "youtube",
+      "start": 11709,
+      "end": 12390,
+      "source_sha256": "b4d2d80cbb4227949a34f6249ae046fe754395b1ea19ea85ce0f9a454b0411c2",
+      "preceding_anchor": "The Chicken-and-Egg Problem",
+      "following_anchor": "My Journey",
+      "candidate_urls": [
+        "https://www.youtube-nocookie.com/embed/4PxC3zZ2Mus?rel=0&autoplay=0&showinfo=0&enablejsapi=1",
+        "https://substackcdn.com/image/youtube/w_728,c_limit/l_youtube_play_qyqt8q,w_120/4PxC3zZ2Mus"
+      ],
+      "canonical_url": null,
+      "media_id": null,
+      "recommended_strategy": "rich_html"
+    },
+    {
+      "id": 5,
+      "type": "image",
+      "start": 20982,
+      "end": 24448,
+      "source_sha256": "d12959ac93bc8f4222191ce15f15bd078e79444b89097d2bc3db74bd6d3cf776",
+      "preceding_anchor": "Don’t Give the Inner Adult Away",
+      "following_anchor": "Before You Try to Go Deep",
+      "candidate_urls": [
+        "https://substackcdn.com/image/fetch/$s_!u__9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!u__9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!u__9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!u__9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!u__9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!u__9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substack-post-media.s3.amazonaws.com/public/images/718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://ibogaqueen.substack.com/i/189761959?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!u__9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!u__9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!u__9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png"
+      ],
+      "canonical_url": null,
+      "media_id": null,
+      "recommended_strategy": "rich_html"
+    },
+    {
+      "id": 6,
+      "type": "substack_video_post_embed",
+      "start": 29257,
+      "end": 37672,
+      "source_sha256": "54956880f3316e16d7c276424a2cdb093ab64b35d95ba277d187cfcfa8be2e85",
+      "preceding_anchor": "Regulation May Come Before Dialogue",
+      "following_anchor": "Catch the Hook Before You Interpret It",
+      "candidate_urls": [
+        "https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing",
+        "https://substack.com/profile/355021294-u-dont-existcom",
+        "https://substack.com/profile/83455182-hale-denizden",
+        "https://substack-post-media.s3.amazonaws.com/public/images/7b5776e0-efde-4ee9-8910-514d12ee5fd2_1024x1024.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!6XSg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b2173e2-7caf-4b20-8caf-2772739618c4_750x750.jpeg",
+        "https://haledenizden.substack.com/subscribe?",
+        "https://haledenizden.substack.com",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,w_424,h_212,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,w_848,h_424,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,w_1272,h_636,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,w_1300,h_650,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,w_1300,h_650,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,w_424,h_212,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,w_848,h_424,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "https://substackcdn.com/image/fetch/$s_!S4vW!,w_1272,h_636,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182ab636-41c0-4ff9-b428-e1c523da3edc_1145x1374.png",
+        "http://www.w3.org/2000/svg"
+      ],
+      "canonical_url": "https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing",
+      "media_id": null,
+      "recommended_strategy": "canonical_url_in_payload"
+    },
+    {
+      "id": 7,
+      "type": "substack_video_post_embed",
+      "start": 61568,
+      "end": 70211,
+      "source_sha256": "d6a4739e53b758473900d63243cae948c86585a8917681e624a6f9b9d04ba700",
+      "preceding_anchor": "The Three Adult Functions",
+      "following_anchor": "Make the Protector Visible",
+      "candidate_urls": [
+        "https://ibogaqueen.substack.com/p/treasuring-the-inner-childs-gift",
+        "https://substack-post-media.s3.amazonaws.com/public/images/7b5776e0-efde-4ee9-8910-514d12ee5fd2_1024x1024.jpeg",
+        "https://substack-video.s3.amazonaws.com/video_upload/post/204256742/9b9503cd-5805-4e4e-8c1b-c8b8f948d45f/transcoded-00001.png",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "https://substack-video.s3.amazonaws.com/video_upload/post/204256742/9b9503cd-5805-4e4e-8c1b-c8b8f948d45f/transcoded-00001.png?refresh=undefined",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,w_32,h_32,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,w_64,h_64,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,w_96,h_96,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,w_64,h_64,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "https://substackcdn.com/image/fetch/$s_!brJ0!,w_96,h_96,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe533a33-c659-46ba-b59a-7e3ff992755b_608x608.png",
+        "http://www.w3.org/2000/svg"
+      ],
+      "canonical_url": "https://ibogaqueen.substack.com/p/treasuring-the-inner-childs-gift",
+      "media_id": "9b9503cd-5805-4e4e-8c1b-c8b8f948d45f",
+      "recommended_strategy": "canonical_url_in_payload"
+    },
+    {
+      "id": 8,
+      "type": "youtube",
+      "start": 91073,
+      "end": 91777,
+      "source_sha256": "4fd7283bd7356a3999495364e2be6a3a83796d11b21257b81ec0b1a046b8e105",
+      "preceding_anchor": "When the Urge to Escape Arrives",
+      "following_anchor": "Sometimes There Isn’t a Clear Child Yet",
+      "candidate_urls": [
+        "https://www.youtube-nocookie.com/embed/foHCbX0xjAU?start=54&rel=0&autoplay=0&showinfo=0&enablejsapi=1",
+        "https://substackcdn.com/image/youtube/w_728,c_limit/l_youtube_play_qyqt8q,w_120/foHCbX0xjAU"
+      ],
+      "canonical_url": null,
+      "media_id": null,
+      "recommended_strategy": "rich_html"
+    },
+    {
+      "id": 9,
+      "type": "image",
+      "start": 123955,
+      "end": 127241,
+      "source_sha256": "76ecc2f5dd63be4669f909d9f0bf8e2739d9d4584505abc8d4ca69b73e11cde8",
+      "preceding_anchor": "This human life is the most precious opportunity",
+      "following_anchor": "Altered States Can Deepen the Therapy",
+      "candidate_urls": [
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substack-post-media.s3.amazonaws.com/public/images/c4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png",
+        "https://substackcdn.com/image/fetch/$s_!FtSp!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png"
+      ],
+      "canonical_url": null,
+      "media_id": null,
+      "recommended_strategy": "rich_html"
+    },
+    {
+      "id": 10,
+      "type": "image",
+      "start": 130699,
+      "end": 134240,
+      "source_sha256": "2907fa4c376b9680d2b6b0aa749236bbf2783e623b77cead706fdebbd0fa38cb",
+      "preceding_anchor": "Altered States Can Require Reparenting",
+      "following_anchor": "Non-altered states can feel like this too",
+      "candidate_urls": [
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substack-post-media.s3.amazonaws.com/public/images/969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!wo9Y!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969adf28-c95f-4c96-bea8-3505a29137cc_638x786.jpeg"
+      ],
+      "canonical_url": null,
+      "media_id": null,
+      "recommended_strategy": "rich_html"
+    }
+  ],
+  "validation_scope": {
+    "source_fidelity": "inventory_only",
+    "transfer_conversion": "profile_assigned_not_destination_proven",
+    "destination_result": "untested"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "format": "inner-child-state-transfer-delivery-v1",
+  "source_owner_upload_sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+  "candidate_sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+  "artifacts": {
+    "copy_helper": {
+      "path": "COPY-TO-SUBSTACK.html",
+      "sha256": "030bb881902828e5c60fb352b5a1ba9f8e2459158bc324236b1b8deac7041a71"
+    },
+    "changes_review": {
+      "path": "CHANGES-REVIEW.html",
+      "sha256": "e7a6f9d0588934486673ef466e81a3480a82a9ab799fe0e513e0bf46bdccc133"
+    },
+    "full_guide_review": {
+      "path": "FULL-GUIDE-REVIEW.html",
+      "sha256": "a771e874db2c680e27ff7902e29a65acee7a962fbc48252699371d628365b5ee"
+    }
+  },
+  "helper": {
+    "generator": "project-sources/substack_transfer_helper.py.txt",
+    "compatibility_profile": "project-sources/CONFIRMED-SUBSTACK-HELPER.json",
+    "compatibility_profile_sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734",
+    "manifest_format": "joel-substack-transfer-helper-v4",
+    "source_sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+    "editor_body_sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+    "segments": 3,
+    "manual_steps": 2,
+    "native_object_count": 10,
+    "static_verification": "pass",
+    "clipboard_interaction_test": "pass",
+    "destination_test": "pending; no Substack mutation performed"
+  },
+  "commentable_reviews": {
+    "generator": "project-sources/interactive_review.py.txt v4.2",
+    "changes_browser_test": "pass",
+    "full_browser_test": "pass"
+  },
+  "preservation": {
+    "format": "inner-child-state-transfer-preservation-v1",
+    "source_sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+    "candidate_sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+    "exact_source_reconstructed_by_reversing_two_authorized_edit_sites": true,
+    "changed_sites": 2,
+    "native_object_count": 10,
+    "native_object_signatures_order_anchors_exact": true,
+    "href_count": 62,
+    "href_sequence_exact": true,
+    "source_editor_body_sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+    "candidate_editor_body_sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+    "status": "pass"
+  },
+  "publication": "not performed"
+}

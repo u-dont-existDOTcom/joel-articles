@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "exclusive_writer": true,
+  "owned_branch": "chat/inner-child-state-transfer-guide-20261003",
+  "integration_branch": "task/inner-child-therapy-intake-20260915",
+  "authority_base_ref": "main",
+  "authority_base_sha": "0695492c1e726a4a00f2f415f3575f5ba08afef2",
+  "scope": "Minimal update of the owner-supplied 2026-10-03 Inner Child Substack HTML to incorporate the owner-approved altered-state state-dependent credibility/sober-transfer model and the Reddit-derived observation that inner-child work may feel artificial soberly but become experientially real in an altered state. Produce review/copy artifacts only; no canonical-master promotion or publication.",
+  "created_utc": "2026-10-03T02:26:41Z",
+  "notes": [
+    "Use exact owner upload as source authority for this candidate.",
+    "String-level replacements only; native objects and all unrelated prose remain byte-identical.",
+    "No Pangram call and no publication action are authorized by this lease."
+  ]
+}

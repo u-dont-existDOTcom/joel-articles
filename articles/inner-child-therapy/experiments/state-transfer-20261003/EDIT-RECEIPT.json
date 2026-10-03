@@ -1,0 +1,21 @@
+{
+  "format": "inner-child-state-transfer-minimal-edit-v1",
+  "source_file": "SOURCE-OWNER-SUBSTACK.html",
+  "source_sha256": "3a61bb2aa6aa9ff1ec35efbce8077430a2432e1908f16a8e55153454b56ec867",
+  "candidate_file": "INNER-CHILD-STATE-TRANSFER-CANDIDATE.html",
+  "candidate_sha256": "765eb9fd679e20ba71aa102aee73d888de6856a7d5a2cd8e60871c0a8252d791",
+  "edit_sites": [
+    {
+      "heading": "When the Adult Voice Feels Fake",
+      "operation": "insert one paragraph after the persistence paragraph",
+      "function": "name state-dependent credibility and sober-transfer problem without treating intensity as literal-memory proof"
+    },
+    {
+      "heading": "Altered States Can Deepen the Therapy",
+      "operation": "replace only the five introductory paragraphs with an expanded eight-paragraph version",
+      "function": "prepare the map soberly without requiring sober success; distinguish state-bound/fading/partial/integrated transfer; distinguish new exploration from restore-access repetition; preserve private therapeutic meaning while separating external factual action"
+    }
+  ],
+  "protected_scope": "All content outside the two exact replacement sites remains byte-identical.",
+  "publication_status": "candidate only"
+}
