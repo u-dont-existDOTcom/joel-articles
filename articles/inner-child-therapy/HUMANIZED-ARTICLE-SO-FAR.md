@@ -455,3 +455,13 @@ You can tell that part something like, "I see you. I'm not going to force my way
 <!-- 2026-10-03 (turn 23): P5 is Joel's, word for word (04:31 UTC), in place of my P5b (the second half of G7: what an answer can look like, a feeling heard, the advice tests). One P1-level fix: the double space after "if that's what it wants." is a single one. Alone 100% Human (97, API). When the Adult Voice Feels Fake with P2 and his P3–P5: 100% Human (974), turn 23, try 1 (API). -->
 
 Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know (if you're in danger, get safe first).
+
+### Two Common Protective Patterns
+
+<!-- 2026-10-03 (turn 25): the guide's h3 "Two Common Protective Patterns" (its three paragraphs in two). P1 is writer a of three from a section prompt with E131's march lines, with a grounding's fix ("really are trying to protect you"): alone 100% Human (86, a5764cb8). Record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md, turn 25. -->
+
+Two kinds of reaction really are trying to protect you, more often than not. The first one is on duty all the time, and it can sound like a skeptic: "You're just making this up." It may have spent years keeping you from being humiliated again, or left again. That's a long time to stay on guard. It might be tired by now, but it's experienced and good at what it does. It has probably watched you get excited about other healing things, then drop them.
+
+<!-- 2026-10-03 (turn 25): P2 carries the guide's second and third paragraphs; it replaces writer a's P2 and P3 after P2 failed alone three times (100% AI). Writer a of three from a single-paragraph brief: alone 100% Human (108, b9837b86); the h3 100% Human (199, bce4b693); the h1 100% Human (1,277, b4bf02b6). -->
+
+The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (you might start yawning, even though you slept well). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. Both kinds started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. Treating either one like an enemy, or like proof that something's wrong with you, usually gives it one more reason to stay in charge. I wonder what it would do if it didn't have to.

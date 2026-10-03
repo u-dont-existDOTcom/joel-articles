@@ -453,12 +453,12 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-03 (turn 25) | The h3 with P2 fix v1; try 2 | Human, low-medium (my call: the whole h3 was 100% AI with P2 try 1) | AI Generated, 100% AI (232) (API, version 4.0, task b21a6236) | miss |
 | 2026-10-03 (turn 25) | The h1 with the h3 and P2 fix v1; try 2 | Human, medium (my call: the flagged window started in P2) | Mostly Human, 6% AI (1,310) (API, version 4.0, task 0f8c4986): from P2's last sentence through P3 AI (medium, 74 words) | miss |
 | 2026-10-03 (turn 25) | Two Common Protective Patterns P2, fix v2: the range cut, the examples in one sentence, and a plain last line ("That part of you might not think there's a grown-up around who could hold what's coming up."); alone; try 2 | Human, low-medium (my call: it still ends on the reason) | AI Generated, 100% AI (71) (API, version 4.0, task a1dce06b), the whole paragraph (high) | miss |
-| 2026-10-03 (turn 25) | The h3 with P2 fix v2; try 2 | Human, low (my call) | AI Generated, 100% AI (228) (API, version 4.0, task ef46cca9) | hit |
+| 2026-10-03 (turn 25) | The h3 with P2 fix v2; try 2 | Human, low (my call) | AI Generated, 100% AI (228) (API, version 4.0, task ef46cca9) | miss |
 | 2026-10-03 (turn 25) | The h1 with the h3 and P2 fix v2; try 2 | Human, medium (my call) | AI Detected, 15% AI (1,306) (API, version 4.0, task 84be54bb): from P1's "It may have spent years" to the end AI (high, 197 words) | miss |
-| 2026-10-03 (turn 25) | Two Common Protective Patterns, one paragraph for the old P2 and P3 (writer a of three, a new single-paragraph brief: no paired example, no range, no ending on the reason; reviews OK), alone; try 3 | Human, medium (my call: "I'd want out too" and a wondering last line break the march) | (pending) | |
-| 2026-10-03 (turn 25) | The same, writer b (reviews OK), alone; try 3 | Human, low-medium (my call: the reason comes near the end) | (pending) | |
-| 2026-10-03 (turn 25) | The same, writer c (a grounding flag with P1's "more often than not"), alone; try 3 | Human, low-medium (my call) | (pending) | |
-| 2026-10-03 (turn 25) | The h3, P1 and writer a's paragraph; try 3 | Human, low-medium (my call: the h3 was 100% AI with three paragraphs, twice) | (pending) | |
-| 2026-10-03 (turn 25) | The h1 with that h3; try 3 | Human, medium (my call) | (pending) | |
-| 2026-10-03 (turn 25) | The h3, P1 and writer b's paragraph; try 3 | Human, low (my call) | (pending) | |
-| 2026-10-03 (turn 25) | The h1 with that h3; try 3 | Human, medium (my call) | (pending) | |
+| 2026-10-03 (turn 25) | Two Common Protective Patterns, one paragraph for the old P2 and P3 (writer a of three, a new single-paragraph brief: no paired example, no range, no ending on the reason; reviews OK), alone; try 3 | Human, medium (my call: "I'd want out too" and a wondering last line break the march) | 100% Human (108) (API, version 4.0, task b9837b86) | hit |
+| 2026-10-03 (turn 25) | The same, writer b (reviews OK), alone; try 3 | Human, low-medium (my call: the reason comes near the end) | 100% Human (108) (API, version 4.0, task 77500034) | hit |
+| 2026-10-03 (turn 25) | The same, writer c (a grounding flag with P1's "more often than not"), alone; try 3 | Human, low-medium (my call) | AI Generated, 100% AI (109) (API, version 4.0, task f5c34c85) | miss |
+| 2026-10-03 (turn 25) | The h3, P1 and writer a's paragraph; try 3 | Human, low-medium (my call: the h3 was 100% AI with three paragraphs, twice) | 100% Human (199) (API, version 4.0, task bce4b693) | hit |
+| 2026-10-03 (turn 25) | The h1 with that h3; try 3 | Human, medium (my call) | 100% Human (1,277) (API, version 4.0, task b4bf02b6) | hit |
+| 2026-10-03 (turn 25) | The h3, P1 and writer b's paragraph; try 3 | Human, low (my call) | 100% Human (199) (API, version 4.0, task 547ad9a2) | miss |
+| 2026-10-03 (turn 25) | The h1 with that h3; try 3 | Human, medium (my call) | 100% Human (1,277) (API, version 4.0, task 7e2c205a) | hit |
