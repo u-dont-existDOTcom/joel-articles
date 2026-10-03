@@ -403,4 +403,8 @@ TRACE-v37-A: the five read as places to look, one or more, as published; its oth
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| P17H2bP18 | Human (weak) | v20's P18 passed with P17 and the heading; P17 now passes alone with "To pause?" | |
+| P17H2bP18 | Human (weak) | v20's P18 passed with P17 and the heading; P17 now passes alone with "To pause?" | Human (96) |
+
+Batch 16 (23:11 UTC): **Human.** Mine: 1 of 1. So at v37 every paragraph passes alone or with a neighbor that passes alone (P18 with P17 and its heading).
+
+Over the turn (Joel's message of 20:51; API batches 9 to 16, 30 checks): mine 19 of 30.
