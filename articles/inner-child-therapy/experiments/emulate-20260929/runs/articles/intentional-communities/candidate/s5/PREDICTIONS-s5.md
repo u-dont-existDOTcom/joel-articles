@@ -213,13 +213,80 @@ E104's question for each ("what would the narrator say aloud here"); the v21 and
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| P14 | Human (weak) | "the whole thing", "whenever somebody's in the mood", "to actually happen" | |
-| P13P14 | Human (weak) | P13 passes alone | |
-| P14P15 | Human (weak) | P15 passes alone | |
-| P18 | Human (weak) | "First one:", "I know,", two short closing sentences | |
-| H2bP18P19 | AI (weak) | the heading and P19 have read AI around every P18 so far | |
-| P24 | AI (weak) | still the published shape, one sentence at a time | |
-| P23P24 | AI (weak) | | |
-| P25 | Human (weak) | "Bonus:", "I doubt" | |
-| P25P26 | Human (weak) | P26 passes alone | |
-| P24P25 | AI (weak) | | |
+| P14 | Human (weak) | "the whole thing", "whenever somebody's in the mood", "to actually happen" || 100% AI (55) |
+| P13P14 | Human (weak) | P13 passes alone || 100% AI (108) |
+| P14P15 | Human (weak) | P15 passes alone || 100% AI (95) |
+| P18 | Human (weak) | "First one:", "I know,", two short closing sentences || 100% AI (49) |
+| H2bP18P19 | AI (weak) | the heading and P19 have read AI around every P18 so far || 100% AI (130) |
+| P24 | AI (weak) | still the published shape, one sentence at a time || 100% AI (39) |
+| P23P24 | AI (weak) | || 100% AI (79) |
+| P25 | Human (weak) | "Bonus:", "I doubt" || 100% AI (35) |
+| P25P26 | Human (weak) | P26 passes alone || 100% AI (91) |
+| P24P25 | AI (weak) | || 100% AI (74) |
+
+Batch 6a results (07:19 to 07:20 UTC, API): **all ten 100% AI.** Tries: P14 try 5, P18 try 7, P24 try 5, P25 try 5. Mine: 4 of 10 (every Human call wrong). My own spoken versions did no better than the writers'. What passed in batch 5 were Emulate's own sentence shapes with only the meaning put back; where I had rebuilt Emulate's sentences (P14, P18, P24, P25), the result read AI. So v22 (also mine) stays unchecked, and these four go back to Emulate (round 6), this time in context (P13 to P15, P18 with P19, P23 to P26) as well as alone, with the fixes kept to the words that carry a meaning.
+
+### Emulate round 6, raw versions (batch 6b): `docs/EMULATE-FALLBACK.md` section 4 step 1
+
+Round 6 (07:21 to 07:23 UTC, `emu/outputs6.json`, 1,246 words): P14 with P13 and P15 and alone, P18 with P19 and alone, P24 and P25 with P23 and P26 and on their own. Section 4 of the Emulate doc says to check Emulate's versions alone first and pick from those that pass, before any fixes and the gate; I had skipped that step in rounds 4 and 5. Only the paragraph each unit was for is checked. None of the four P18s is usable (one says "there is no such thing as a shaman", one invents "Mine was the first one I did", two stop mid-sentence and one has the banned "That is fine."), so P18 isn't in this batch.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P14-h1A | Human (weak) | Emulate's loose "it makes it so you only do ceremonies when the group does ceremonies" || Human (31) |
+| P14-h1B | Human (weak) | "It sounds cheesy but…" || Human (41) |
+| P14-h2A | AI (weak) | "One other aspect … that is very helpful, is the ability to…" || Human (47) |
+| P14-h2B | AI (weak) | "serves to limit compulsive use and provide for integration time" || Human (41) |
+| P24-h5A | Human (weak) | "in any kind of pharmacological short cut" || Human (52) |
+| P24-h5B | Human (weak) | || Human (40) |
+| P24-h6A | AI (weak) | four flat sentences || 100% AI (41) |
+| P25-h5A | Human (weak) | "Bonus: by setting up a pre-req…" || Human (49) |
+| P25-h5B | Human | "regardless of how mindblowing the geometric shapes they saw were" || Human (62) |
+| P25-h6A | Human (weak) | "interestingly geometric" || Human (53) |
+| P25-h6B | Human (weak) | || Human (41) |
+
+Batch 6b results (07:24 to 07:25 UTC, API): **ten of eleven 100% Human; P24-h6A 100% AI** (four flat sentences). Mine: 7 of 11 (I called P14-h2A, P14-h2B AI; both passed). So Emulate's own shapes pass; what failed before was my rebuilding them. v23 takes the passing version closest in meaning for P14 (h1B), P24 (h5A) and P25 (h5B), with only word-level fixes (`docs/EMULATE-FALLBACK.md` section 4 step 4).
+
+### v25, API batch 7: Emulate round 6 with word-level fixes (v23), two gate rounds (v24, v25)
+
+The v23 gate (trace, stance, cold read) and the v24 gate (trace, stance) sent back word-level fixes, each made in the trace's own terms (v24, v25); STANCE-v24 found only Joel's "25". P18 has no usable round-6 version; v20's is checked with the paragraph before it and the heading (P17 passes alone), the one neighbor not yet tried. Texts in `r25/`.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P14 | AI (weak) | the middle sentence is the published claim again, word for word || 100% AI (35) |
+| P13P14 | AI (weak) | || 100% AI (88) |
+| P14P15 | AI (weak) | || 100% AI (75) |
+| P24 | Human (weak) | the fragment "And peer counseling.", "a pharmacological short cut" || Human (44) |
+| P23P24 | Human (weak) | P23 passes alone || 100% AI (84) |
+| P25 | Human (weak) | Emulate's long last sentence, "mindblowing" geometric shapes || Human (47) |
+| P25P26 | Human (weak) | P26 passes alone || 100% AI (103) |
+| P24P25 | Human (weak) | || Human (91) |
+| P17H2bP18 | AI (weak) | v20's P18 read AI alone and with the heading and P19 || Human (96) |
+
+Batch 7 results (07:51 UTC, API): **P24, P25, P24P25 and P17H2bP18 100% Human; P14, P13P14, P14P15, P23P24 and P25P26 100% AI.** Tries: P24 try 6 and P25 try 6 (both pass alone, short as they are), P18 try 8 (v20's text, first with P17 and the heading), P14 try 6. Mine: 5 of 9 (P23P24, P25P26 and P17H2bP18 wrong, and P24P25 right but…). So 32 of 33 pass alone or with a neighbor that passes alone; P18 only with P17 and its heading (with the heading and P19 it reads AI). P23P24, P25P26 and P27P28 read AI as pairs though each paragraph passes alone, so the section check matters here. P14: the gate's fixes put the published middle sentence back, and it reads AI; the raw h2 B passed, and it is the closest of the passing raw versions in meaning, so v26 takes it with two word-level fixes.
+
+### v27, API batch 8: P14 from Emulate's raw h2 B (v26, v27), and the section
+
+The v26 gate (trace, stance) found the communal side of P14's schedule gone; v27 puts "communal", "shared" and "each person" back, in the trace's terms. STANCE-v26 found only Joel's "25" and his P33 step. The section goes with its h1 and three h2s as they'll appear (the image has no text), 1,876 words; the linter on the assembled section: REVIEW, nothing hard.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P14 | Human (weak) | Emulate's raw shape (100% Human raw), three words added || Human (46) |
+| P13P14 | Human (weak) | P13 passes alone || Human (99) |
+| P14P15 | Human (weak) | P15 passes alone || Human (86) |
+| S5 | Mixed (weak) | every paragraph passes alone or with a neighbor, but P23P24, P25P26 and P27P28 read AI as pairs || 77% AI ("AI Detected", Mixed, 1,876) |
+
+Batch 8 results (08:00 to 08:01 UTC, API): **P14, P13P14 and P14P15 100% Human; the section 77% AI** (fraction_ai 0.772, human 0.228; "AI Detected", Mixed). Tries: P14 try 7 (Emulate's raw h2 B with three words added). Mine: 4 of 4, the section as Mixed.
+
+**So every paragraph of section 5 passes alone or with a neighbor that passes alone (33 of 33), and the section doesn't.** Pangram's seven windows (`out/cache/e7f5aeb4….json`):
+
+| window | words | Pangram |
+|---|---|---|
+| h1, P1, and P2's first sentence ("It hasn't been a smooth ride, though…") | 98 | AI (0.81) |
+| the rest of P2, P3 | 116 | Human (0.35) |
+| P4 ("Most intentional communities that are using psychedelics still don't say so publicly…") | 50 | AI (0.73) |
+| P5, P6 to "context mattered." | 95 | Human (0.13) |
+| from P6's last sentence ("And these medicines can open things up…") through P13's second sentence | 501 | AI (0.81) |
+| P13's last sentence through the h2 and "No special shamans here." | 217 | Human (0.19) |
+| from P18's second sentence ("Traditional lineages usually disagree…") to the end | 845 | AI (0.90) |
+
+Three of the seams had already read AI as pairs (P23P24, P25P26, P27P28) though each paragraph passes alone. Following the gate (E62: start where the flagged span starts) and section 4's lesson (`docs/EMULATE-FALLBACK.md`: a run of short paragraphs that each pass can fail as a run; one Emulate call over the run fixed it), the next round sends the flagged runs to Emulate whole, P18 to P28 first.

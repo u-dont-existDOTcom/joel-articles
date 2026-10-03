@@ -48,3 +48,19 @@ Each agent read the prompt file only and returned one line per numbered sentence
 - P23 ([72]–[76]): restates the previous section's point that peer-led ceremonies need structure. [The published repeats it; GROUNDING-v18 flagged the same as DUPLICATE; kept, a question for Joel only if he wants it shorter.]
 
 Every run: the start of section 6 ("Loneliness is only one reason this feels urgent") points back to a loneliness argument this section doesn't make. [Section 6 is the next section's work.]
+
+## v21 (mine, the four short paragraphs)
+- [6] UNCLEAR (minor): Portugal under "hasn't been a smooth ride". [Published order; kept.]
+- [14] "loveyhuasca/Haoma material". [As above.]
+- [45] UNCLEAR (minor): "taking it" — the medicine is only implied. [v21 fix: "taking medicine".]
+- [57] UNCLEAR (minor): "Using the medicine takes that" — "that" has to be traced back to "humble enough". [P17 passes alone; kept, a small question for Joel.]
+- [61] "Bwiti", [80] "bufo" never explained. [Published; linked.]
+
+## v22 (mine, alternates)
+- [14] "loveyhuasca/Haoma". [As above.] Every other line OK; P23 reads as a rerun of section 4's peer-led point. [Published repeat.]
+
+## v23 (Emulate round 6 with word-level fixes)
+- [80] UNCLEAR: "this medicine" comes straight after ketamine, MDMA and bufo. [v24: "The use of medicine".]
+- [83] UNCLEAR: "It … will not replace … with any kind of pharmacological short cut" tangles. [v24, v25.]
+- [84] UNCLEAR: "Another benefit" sent me looking back for a first benefit. [v24: "As a bonus".]
+- [97] "private". [As above.]

@@ -741,6 +741,72 @@ WHY22['P14'].append('v22 (TRACE-v22-A): "compulsive repetition" (published; "rep
 WHY22['P18'].append('v22 (TRACE-v22-A): "First principle:" ("My first principle" could read as his top one).')
 
 
+
+# v23: Emulate round 6 (emu/outputs6.json). Its versions were checked raw first (EMULATE-FALLBACK section 4 step 1;
+# batch 6b: ten of eleven Human), and the passing version closest in meaning gets only word-level fixes. P18 has no
+# usable round-6 version (WHY23), so it stays v20's and goes to Joel.
+V[23] = dict(V[20])
+V[23].update({
+ 'P14': "A community can help ground your ceremonies in a schedule. Many traditional medicine systems only hold ceremonies at specific times for the whole group. This schedule can help you avoid compulsive overuse and give you time to integrate.",
+ 'P24': "The use of this medicine is secondary to all of the other pl/ork you should be doing first: reparenting and somatic capacity. And peer counseling. The medicine can enhance that. It will not replace months of honest relationship with any kind of pharmacological short cut.",
+ 'P25': "Another benefit of this pre-req – it weeds out those who only want to collect experiences. If they are unwilling to make a 6 month commitment to learning to listen without fixing, it is unlikely they will come out of a ceremony more relationally mature, regardless of how mindblowing the geometric shapes they saw were.",
+})
+SRC23 = dict(SRC20); SRC23.update({'P14': 'h1-emuB (round 6)', 'P24': 'h5-emuA (round 6)', 'P25': 'h5-emuB (round 6)'})
+WHY23 = {
+ 'P14': ['v23: Emulate h1 B (raw: 100% Human, 41 words), with "It sounds cheesy but" out (an aside the published doesn’t have; kept as a proposal for Joel); "medicine systems" (published; it had "medicines"); "only hold ceremonies" (it had "only allow": the traditions don’t permit, they time; v2 stance). "Ground your ceremonies in a schedule" carries "Community creates rhythm"; "at specific times for the whole group" carries "communal timing rather than individual appetite".'],
+ 'P24': ['v23: Emulate h5 A (raw: 100% Human, 52 words), with "you should be doing first: reparenting and somatic capacity. And peer counseling." (published: the three come first, a closed list, split two and one as Joel split lists of three (E125); it had "to increase your capacity for reparenting, somatic capacity, and peer counseling, etc."); "can enhance" (published: "can deepen"; it had "will"); "months of honest relationship" (published; it had "those other kinds of relationships"). "Pharmacological short cut" is Emulate’s for "pharmacological decree".'],
+ 'P25': ['v23: Emulate h5 B (raw: 100% Human, 62 words), with "Another benefit of this pre-req –" (linter B13: P6 and P16 open with "There"; it had "There is another benefit to this pre-req –"); "learning to listen without fixing" (published; it had "learning how to counsel their peers"); "more relationally mature" (published; it had "having gained a lot of relational maturity"). "Regardless of how mindblowing the geometric shapes they saw were" is Emulate’s for "because the visions were especially geometric".'],
+ 'P18': ['v23: no round-6 version is usable: "there is no such thing as a shaman" (reverses him), "Mine was the first one I did" (invented), two stop mid-sentence, and one has "That is fine." (a banned standalone). v20’s stays; it has read AI seven times, alone and with its heading and P19, so it goes to Joel.'],
+}
+
+
+
+# v24: what the v23 gate found (TRACE-v23-A, STANCE-v23, SENSE-v23), at word level in Emulate's sentences.
+V[24] = dict(V[23])
+V[24].update({
+ 'P14': "A community grounds your ceremonies in a schedule. Many traditional medicine systems hold their ceremonies on communal timing, not individual appetite. This schedule can help cut down on compulsive repetition and give you time to integrate.",
+ 'P24': "The use of medicine is secondary to all of the other pl/ork that comes first: reparenting and somatic capacity. And peer counseling. The medicine can enhance that work once it's there. But no pharmacological short cut will create months of honest relationship.",
+ 'P25': "As a bonus, this pre-req weeds out the experience collectors. If someone is unwilling to make a 6 month commitment to learning to listen without fixing, it is unlikely they will come out of a ceremony more relationally mature, regardless of how mindblowing the geometric shapes they saw were.",
+})
+SRC24 = dict(SRC23)
+WHY24 = {
+ 'P14': ['v24 (TRACE-v23-A, STANCE-v23): "grounds" (published: "creates"; "can help ground" hedged it); "hold their ceremonies on communal timing, not individual appetite" (published; "only … at specific times for the whole group" claimed fixed times only); "can help cut down on compulsive repetition" (published: "can reduce compulsive repetition"; "avoid compulsive overuse" was another concern).'],
+ 'P24': ['v24 (TRACE-v23-A, SENSE-v23): "The use of medicine" (in general; "this medicine" read as bufo, after P23); "that comes first" (the published rule; "you should be doing first" made it an instruction to the reader); "can enhance that work once it’s there" (published: "a practice that exists"); "no pharmacological short cut will create months of honest relationship" (published: medicine "cannot create" it; "It will not replace … with any kind of pharmacological short cut" tangled the medicine with the shortcut).'],
+ 'P25': ['v24 (TRACE-v23-A, SENSE-v23): "the experience collectors" and "If someone is unwilling" (published; "those who only want to collect experiences" and "they" narrowed both); "As a bonus" (Emulate h6 A’s words; "Another benefit" sent the reader looking for a first one).'],
+}
+
+
+
+# v25: the last word-level findings of TRACE-v24-A, made in the trace's terms (STANCE-v24 found only Joel's "25").
+V[25] = dict(V[24])
+fix(V[25], 'P14', "This schedule can help cut down on compulsive repetition", "This schedule can cut down on compulsive repetition")
+fix(V[25], 'P24', "The medicine can enhance that work once it's there. But no pharmacological short cut will create months of honest relationship.", "The medicine can deepen a practice once it's there. But medicine can't be a pharmacological short cut to months of honest relationship.")
+fix(V[25], 'P25', "If someone is unwilling to make a 6 month commitment to learning to listen without fixing,", "If someone is unwilling to put in 6 months learning to listen without fixing,")
+SRC25 = dict(SRC24)
+WHY25 = {
+ 'P14': ['v25 (TRACE-v24-A): "can cut down on" (published: "can reduce"; "can help cut down on" was weaker).'],
+ 'P24': ['v25 (TRACE-v24-A): "can deepen a practice once it’s there" (published: "can deepen a practice that exists"); "medicine can’t be a pharmacological short cut to months of honest relationship" (published: medicine "cannot create" it "by pharmacological decree"; "no pharmacological short cut will create" moved the limit off medicine and made it a prediction).'],
+ 'P25': ['v25 (TRACE-v24-A): "put in 6 months learning" (published: "spend six months learning"; "make a 6 month commitment" made it a pledge).'],
+}
+
+
+
+# v26: P14 from Emulate round 6's h2 B (raw: 100% Human, 41 words; the closest in meaning of the four raw P14s that
+# passed), with two word-level fixes. v25's P14 (h1 B with the gate's fixes) read AI alone and with both neighbors.
+V[26] = dict(V[25])
+V[26]['P14'] = "One of the benefits of community is rhythm, and many traditional medicinal practices occur within ceremonies that have a schedule. The schedule of ceremonies, rather than people doing ceremonies when they want, can serve to limit compulsive use and provide for integration time."
+SRC26 = dict(SRC25); SRC26['P14'] = 'h2-emuB (round 6)'
+WHY26 = {'P14': ['v26: Emulate h2 B, with "is rhythm, and" for its "is that" (published: "Community creates rhythm"; it made the benefit of community that traditional practices are scheduled) and "can serve" for "serves" (published: "can reduce"). "Rather than people doing ceremonies when they want" carries "rather than individual appetite"; "limit compulsive use" carries "reduce compulsive repetition"; "provide for integration time", "give integration time".']}
+
+
+
+# v27: TRACE-v26-A's finding on P14, in its own terms (STANCE-v26: only Joel's "25" and his P33 step).
+V[27] = dict(V[26])
+fix(V[27], 'P14', "occur within ceremonies that have a schedule. The schedule of ceremonies, rather than people doing ceremonies when they want,", "occur within ceremonies that have a communal schedule. The shared schedule of ceremonies, rather than each person doing ceremonies when they want,")
+SRC27 = dict(SRC26)
+WHY27 = {'P14': ['v27 (TRACE-v26-A): "a communal schedule", "The shared schedule", "each person" (published: "communal timing rather than individual appetite", "a shared calendar"; "a schedule" and "people doing ceremonies when they want" made it scheduled against on-demand).']}
+
+
 def build(n, src):
     B = V[n]
     json.dump({'version': n, 'order': ORDER, 'blocks': B, 'source': src}, open(HERE / ('final-v%d.json' % n), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
@@ -752,8 +818,8 @@ def build(n, src):
 
 if __name__ == '__main__':
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8, 9: SRC9, 10: SRC10, 11: SRC11, 12: SRC12, 13: SRC13, 14: SRC14, 15: SRC15, 16: SRC16, 17: SRC17, 18: SRC18, 19: SRC19, 20: SRC20, 21: SRC21, 22: SRC22}.get(n, SRC22))
-    WHY = {k: WHY1.get(k, []) + (WHY2.get(k, []) if n >= 2 else []) + (WHY3.get(k, []) if n >= 3 else []) + (WHY4.get(k, []) if n >= 4 else []) + (WHY5.get(k, []) if n >= 5 else []) + (WHY6.get(k, []) if n >= 6 else []) + (WHY7.get(k, []) if n >= 7 else []) + (WHY8.get(k, []) if n >= 8 else []) + (WHY9.get(k, []) if n >= 9 else []) + (WHY10.get(k, []) if n >= 10 else []) + (WHY11.get(k, []) if n >= 11 else []) + (WHY12.get(k, []) if n >= 12 else []) + (WHY13.get(k, []) if n >= 13 else []) + (WHY14.get(k, []) if n >= 14 else []) + (WHY15.get(k, []) if n >= 15 else []) + (WHY16.get(k, []) if n >= 16 else []) + (WHY17.get(k, []) if n >= 17 else []) + (WHY18.get(k, []) if n >= 18 else []) + (WHY19.get(k, []) if n >= 19 else []) + (WHY20.get(k, []) if n >= 20 else []) + (WHY21.get(k, []) if n == 21 else []) + (WHY22.get(k, []) if n >= 22 else []) for k in ORDER}
+    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8, 9: SRC9, 10: SRC10, 11: SRC11, 12: SRC12, 13: SRC13, 14: SRC14, 15: SRC15, 16: SRC16, 17: SRC17, 18: SRC18, 19: SRC19, 20: SRC20, 21: SRC21, 22: SRC22, 23: SRC23, 24: SRC24, 25: SRC25, 26: SRC26, 27: SRC27}.get(n, SRC27))
+    WHY = {k: WHY1.get(k, []) + (WHY2.get(k, []) if n >= 2 else []) + (WHY3.get(k, []) if n >= 3 else []) + (WHY4.get(k, []) if n >= 4 else []) + (WHY5.get(k, []) if n >= 5 else []) + (WHY6.get(k, []) if n >= 6 else []) + (WHY7.get(k, []) if n >= 7 else []) + (WHY8.get(k, []) if n >= 8 else []) + (WHY9.get(k, []) if n >= 9 else []) + (WHY10.get(k, []) if n >= 10 else []) + (WHY11.get(k, []) if n >= 11 else []) + (WHY12.get(k, []) if n >= 12 else []) + (WHY13.get(k, []) if n >= 13 else []) + (WHY14.get(k, []) if n >= 14 else []) + (WHY15.get(k, []) if n >= 15 else []) + (WHY16.get(k, []) if n >= 16 else []) + (WHY17.get(k, []) if n >= 17 else []) + (WHY18.get(k, []) if n >= 18 else []) + (WHY19.get(k, []) if n >= 19 else []) + (WHY20.get(k, []) if n >= 20 else []) + (WHY21.get(k, []) if n == 21 else []) + (WHY22.get(k, []) if n == 22 else []) + (WHY23.get(k, []) if n >= 23 else []) + (WHY24.get(k, []) if n >= 24 else []) + (WHY25.get(k, []) if n >= 25 else []) + (WHY26.get(k, []) if n >= 26 else []) + (WHY27.get(k, []) if n >= 27 else []) for k in ORDER}
     json.dump({'about': 'Section 5 v%d: each changed paragraph\'s published text, its Emulate source (exact outputs in emu/), the text, and why.' % n,
                'paragraphs': [{'p': k, 'published': O[k], 'from': SRC1.get(k), 'v%d' % n: V[n][k], 'why': WHY.get(k, [])}
                               for k in ORDER if k.startswith('P') and V[n][k] != O[k]]},

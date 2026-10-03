@@ -79,7 +79,11 @@ PARTS = {1: {'A': ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8'],
          19: {'A': ['P1', 'P7', 'P8', 'P13', 'P14'], 'B': ['P18', 'P20', 'P22', 'P24', 'P25']},
          # v21 and v22: the four short paragraphs still reading AI after batch 5, mine, two versions
          21: {'A': ['P14', 'P18', 'P24', 'P25']},
-         22: {'A': ['P14', 'P18', 'P24', 'P25']}}
+         22: {'A': ['P14', 'P18', 'P24', 'P25']},
+         # v23: Emulate round 6 with word-level fixes
+         23: {'A': ['P14', 'P24', 'P25']},
+         24: {'A': ['P14', 'P24', 'P25']},
+         26: {'A': ['P14']}}
 parts = {h: [k for k in ks if k in changed] for h, ks in PARTS.get(n, {}).items()}
 if n == 1:
     assert sorted(sum(parts.values(), [])) == sorted(changed), (changed, parts)
