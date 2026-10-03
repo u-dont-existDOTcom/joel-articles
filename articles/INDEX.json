@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "532f9b1075f8c29606a80d7d3ec8207ca30523336aa1971f88ce050850b7fe56",
+          "sha256": "be138d42c7dd5ec1504752b12e3d47bb6708956a9bac8c13f5c732a3c62070f9",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "295ba61b20a6fe6ac05a80430abf000b45162a805bfb283fcefb3bef68de5268",
+          "sha256": "1f6049fa191a9a836ff39d753ed10d7c545c5369229f5197d3788c7b1ca01f5d",
           "role": "owner_edits_ledger"
         },
         {
@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "42ff4998b86b281124cb68bc871d6a6a16c92c3b709453a93c1fbc66af383281",
+          "sha256": "9ec3695eedac2ea26d2fa4a3ccfcf70b677b2a7a9b958b794a60f971b907086f",
           "role": "humanization_working_record"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "e894fc8b92d0497fe7af4527b0d12c3021c1c84d4965f0be1e4b105236711713",
+          "sha256": "f6206209af57d1768205b87f8b3c816d5b910c0cb66202c56b1839e4009c1516",
           "role": "detector_prediction_log"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "61edafe2faeb656d4cb326df022ca1e5d568e0ba2f7e16811112815eedfd1f67",
+          "sha256": "af4f441a65b9f44ae3d66c56475eece278e3501b210816b0d28d9fb6d288b999",
           "role": "humanization_working_record"
         },
         {
@@ -4685,6 +4685,46 @@
         {
           "path": "articles/inner-child-therapy/tools/targets/whatever-showed-up-p5b.json",
           "sha256": "abe34f767b0a03a6699efe6e9880469f38a920e25b300b7b98546abbebdd3c66",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/GUIDE-STATE-TRANSFER-CHANGES-REVIEW-20261003.html",
+          "sha256": "e7a6f9d0588934486673ef466e81a3480a82a9ab799fe0e513e0bf46bdccc133",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/GUIDE-UPDATE-DIFF-20261003.txt",
+          "sha256": "1d136b7140e0265cfd8945c650ba6e955110708d3091b6cdb36ecb2d6ef3b0a2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/source/inner-child-guide-substack-20261003.txt",
+          "sha256": "f955df28b5c0e2b3015a3d4f4d214e503ba9299be63b847547fe43817a755d73",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-03-turn22.json",
+          "sha256": "621e2387bec52501145faf389e9f3bdd43ca70bd7213d3429b21277f00fce2fb",
+          "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-03-turn22-a.json",
+          "sha256": "d8a76bcc84479ce0abd6689744ba62ccf07f54479d8599ad5274d08d7ac8582d",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-03-turn22-b.json",
+          "sha256": "b080b2bd5089b897e07c09bcd40d7755630b01f1ec5d4972925c4eddef4a0e88",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-03-turn22-c.json",
+          "sha256": "a13e9a6a3ad83435d8dd2301e47d60965a5f5fb93763de3bf039ab255bbf9543",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/whatever-showed-up-p4-v2.json",
+          "sha256": "28ffa7d75ff5fec56c1911d7b9ed37c9d5684eace892760c8db6b9a19f14c3ff",
           "role": "reviewer_target"
         }
       ]

@@ -151,3 +151,16 @@ Joel, 01:06 UTC: "yes i'd say when there's no actual need for 3 items you can re
 
 ### Next
 The waiting checks: P5b (fixed) alone, the h1 with P2, P3, P4, P5a and P5b, and Love Doesn't Wait with P5's cut; then install what passes. Joel's call on P2's last sentence. Then the h3s, Two Common Protective Patterns and A Bottom-Up Sequence.
+
+## Turn 22 (2026-10-03, from 03:50 UTC): the Pangram API, P2 and P3 in, and the guide's update
+
+Joel, 03:50 UTC: "ok i made a new pangram account with api key, the api key is here: [path] i'm also uploading some changes to the original AI guide, as well as the full updated substack ai guide. we'll have to humanize those also. for P2 i'd keep that line, we can't just ignore our little one, that would not be good parenting. but we can work with them so that they don't keep worrying all the time." No "continue", so no merge.
+
+- Pangram through his new account's API (model pangram-4, every result version 4.0), run on the laptop with Desktop Commander: the script reads the key from the file he named and never prints it, and fetches the texts from the pushed run files. Each result below has its task id's first eight characters.
+- The three waiting checks: P5b (fixed) alone 100% Human (88), P5 try 4 (task acea9724); Love Doesn't Wait with P5's cut 100% Human (1,194) (6b4696ee), so the cut is in; the h1 with P2–P5b AI Detected, 35% AI (1,034) (f11a7c8d), flagged from P1's last sentence with P2's first (medium) and from P2's "Let a stray thought go" through P5b (348 words, high).
+- Where it flips: the h1 with P2 100% Human (741) (9f369c1a); with P2 and P3 100% Human (814) (04abec9d), so both are in; with P2–P4 14% AI (889) (bb8a8d48), flagged P3's last sentence through P4. P4 without its first sentence (it said again what P3 ends on), opening "So if a reaction shows up, I wouldn't try to push past it.": alone 100% Human (65), P4 try 4 (4f21f478), cold read and grounding OK; but the h1 with it went to 27% AI (83e5dfb0), flagged from P1's last sentence through P4, then 32% with P5a (1e0e5d0d) and 38% with P5b (77d496ed). So it isn't one sentence: after Joel's P1, two of my paragraphs pass and three don't (E129). P4, P5a and P5b wait.
+- P2's last line stays, Joel's call (OWNER-EDITS sws-p2-keep-last-line).
+- The guide's update (`source/inner-child-guide-substack-20261003.txt`; the changes page and the diff are in `experiments/`): its Borrowed Nurturer lines and its "Non-cruelty is the floor" paragraph are already in Borrow One Competency at a Time P2 and P3 (claim entry guide-update-20261003-covered). Its vow line "Borrow the nurturer to improve this." now ends Make a Simple Vow P3, his paragraph, in his words with "Nurturer" capitalized: alone 100% Human (60) (1912e7ee), the section 100% Human (567) (2433344e). Its new paragraph for this h1 (the adult voice becoming real only in an altered state, and carrying it over) needs humanizing, after his P3 (pending). The other changes are in sections not written yet (When to Change the Strategy, A Heart-to-Child Loop, the altered-states sections), so they'll be written from the updated guide.
+
+### Next
+The altered-states paragraph for this h1. Then P4, P5a and P5b: the run of my paragraphs after Joel's P1 needs breaking up (a line of his, or the run made shorter and looser). Then the h3s.

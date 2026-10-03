@@ -980,6 +980,50 @@
     "What can you learn, repair, or do differently now?"
    ],
    "waits_for": "(done in turn 21: alone 100% Human (89), P12 try 2; Love Doesn't Wait 100% Human (1,241))"
+  },
+  {
+   "id": "sws-p2-keep-last-line",
+   "status": "applied",
+   "what": "Start With Whatever Showed Up P2 keeps its last line, the little one's exception to letting a reassurance loop go.",
+   "joel": "2026-10-03 03:50 UTC: \"for P2 i'd keep that line, we can't just ignore our little one, that would not be good parenting. but we can work with them so that they don't keep worrying all the time.\"",
+   "where": "Start With Whatever Showed Up",
+   "must_contain": [
+    "A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking."
+   ]
+  },
+  {
+   "id": "vow-borrow-nurturer",
+   "status": "applied",
+   "what": "Make a Simple Vow P3 ends with Joel's line from his 2026-10-03 guide update, \"Borrow the Nurturer to improve this.\"",
+   "joel": "2026-10-03 03:50 UTC: \"i'm also uploading some changes to the original AI guide, as well as the full updated substack ai guide. we'll have to humanize those also.\" The guide's line: \"Borrow the nurturer to improve this.\"",
+   "where": "Make a Simple Vow",
+   "must_contain": [
+    "just promise your little one you won't be cruel to them on purpose. Borrow the Nurturer to improve this."
+   ]
+  },
+  {
+   "id": "guide-update-20261003-covered",
+   "status": "claim",
+   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3.",
+   "where": "Borrow One Competency at a Time",
+   "must_contain": [
+    "If the love still isn't coming, you can at least stop judging your little one.",
+    "That's enough to start being the adult, even if it isn't enough yet for them to trust you.",
+    "Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us.",
+    "Think of someone you remember fondly.",
+    "If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt, if you have."
+   ]
+  },
+  {
+   "id": "guide-update-20261003-altered-states",
+   "status": "pending",
+   "what": "When the Adult Voice Feels Fake gets the guide update's new paragraph (the adult voice can become real only in an altered state; keep it, don't take its intensity as proof that every image is literal; the task is transfer into ordinary life), after Joel's P3.",
+   "joel": "2026-10-03 03:50 UTC: \"we'll have to humanize those also.\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "altered state"
+   ],
+   "waits_for": "a humanized paragraph that passes alone and in the h1"
   }
  ]
 }
