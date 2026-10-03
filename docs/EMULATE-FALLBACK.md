@@ -111,6 +111,7 @@ Use it only when all of these hold:
   - It makes one call, saves Emulate's text exactly as returned with the full response, and prints the words charged and the balance.
   - It won't overwrite an earlier result.
   - If a run dies mid-call, it won't repeat the call until someone has checked the balance and the saved files.
+  - It sends a named User-Agent. From 2026-10-03 about 04:30 UTC, Emulate's Cloudflare answered Python's default ("Python-urllib/3.12") with error 1010, an HTTP 403 "Access denied", on the balance check too, and I took it for a dead key for two hours. A 403 from Emulate: read the response body before suspecting the key.
 - **Run it on the laptop** with Desktop Commander, device `cf376439-4f04-4ddd-aeab-1a1c826fe34c`, from the repo clone in the lane folder. Write the paragraph to a file there with `write_file`, then run the tool with `start_process`:
 
   ```
@@ -128,6 +129,7 @@ Use it only when all of these hold:
 - **Costs:**
   - Emulate charges the input's word count per call. Four calls on community section 1 cost 256 words.
   - Pangram costs 1 credit per 100 words, rounded up.
+  - **Credits are plentiful now; use Emulate wherever section 2 allows it (Joel, 2026-10-03 04:03).** "you can use emulate api key now if you still need emulate altho i guess you don't, but they gifted me a bunch of credits for some reason... but you can put that rule in for emulate use since i'll be doing another article humanization after these." The balance that morning: 247,539 words on the max plan, 5,000 words a call. So for article humanization the balance is no reason to hold back: two calls per unit, a run of short paragraphs as one unit, and a new round when a gated version still reads AI. Every call is still saved exactly, logged with its balance, and its output still goes through the whole gate before Pangram.
 
 ## 4. What to do with what comes back
 
@@ -150,6 +152,8 @@ The aim is a paragraph that keeps as many of our sentences as it can and takes f
    - clean up the noise.
 
    Joel's own phrasings go back in, or he's asked, with a recommendation. His own paragraphs keep his exact characters, straight apostrophes included (2026-10-02: curling them flipped one from 100% Human to 100% AI).
+   - **Fix words, not shapes (community section 5, 2026-10-03).** Emulate's own sentence shapes are what pass. Of eleven paragraphs still reading AI after fresh writers (6 of 17 first picks had passed, none of 5 second picks), Emulate's round 4 with the meaning put back word by word passed 7 of 11; the four where I rebuilt its sentences to carry the meaning read AI, and so did my own spoken rewrites of those four (0 of 4). In round 6, step 1 (which I had skipped in rounds 4 and 5) found 10 of 11 raw versions Human; word-level fixes kept P24 and P25 passing, while a fix that put the published middle sentence back word for word turned P14 AI again, and the next-closest raw version with three words added passed. So check the raw versions first, take the closest passer, and make each fix the smallest change of words that carries the meaning; when a trace finding can only be met by rebuilding a sentence, try another raw version first.
+   - **A section can read AI when every paragraph passes (community section 5, 2026-10-03).** All 33 paragraphs passed alone or with a neighbor that passes alone; the section (1,876 words, with its headings) read 77% AI, in four windows, the longest 845 words from P18 to the end. Three seams there had already read AI as pairs (P23P24, P25P26, P27P28) though each paragraph passed alone: a pair that reads AI between two passing paragraphs is an early sign. Section 4's fix for a run is the next step: the flagged run to Emulate as one unit.
 5. **Run the whole gate on the result.**
    1. The two-way preservation trace, by a fresh agent that hasn't seen the notes.
    2. The whole-article stance check (`tools/humanization/stance_check_prompt.py`), by a fresh agent with the whole published article: Emulate turned "without pretending that people arrive emotionally finished" into "where people don't come in pre-healed" in community section 3, nearly the opposite of what Joel wants, and only a check against the whole article shows that (Joel, 2026-10-02: "Did the reviewers not look at the article?").
