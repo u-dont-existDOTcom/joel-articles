@@ -131,6 +131,13 @@ class StanceCheckPrompt(unittest.TestCase):
         self.assertLess(p.index('THE WHOLE PUBLISHED ESSAY:'), p.index('THE REWRITE (section 3):'))
         self.assertIn('vaguer general one', p)
 
+    def test_images_that_carry_content_are_described(self):
+        essay = '# Essay\n\n[image 7](https://example.com/parts.svg)\n\nThese four parts leak.\n\n[image 8](https://example.com/x.png)\n'
+        p = stance_check_prompt.build(essay, 'Rewrite.', images={'image 7': 'a diagram naming the four parts'})
+        self.assertIn('[an image: a diagram naming the four parts]', p)
+        self.assertIn('[an image]', p)
+        self.assertNotIn('example.com', p)
+
     def test_without_a_report_path_the_agent_returns_it(self):
         p = stance_check_prompt.build('Essay.', 'Rewrite.')
         self.assertIn('Return the report as your final message.', p)
