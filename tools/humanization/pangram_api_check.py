@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """pangram_api_check.py - run Pangram checks through Joel's API key, the lab's way.
 
+Superseded by pangram_api.py (merged as #134 on 2026-10-03), which also caches each result by the text's
+hash and checkpoints the task id before polling. Use that one.
+
 Joel made a Pangram account with an API key on 2026-10-03 (the dashboard's credits had run out).
 The key stays on his laptop: run this there (Desktop Commander), never in the cloud container,
 and never print, log, commit or copy the key. The key file's path comes from the environment
