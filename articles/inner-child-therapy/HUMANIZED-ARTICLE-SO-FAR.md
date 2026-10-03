@@ -327,7 +327,7 @@ Your little one might not be the only one getting accused. When life has gone ba
 
 Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that. You still did what you did, though, and if it hurt people or damaged a life, that may need repair.
 
-<!-- 2026-10-01 (turn 12): P12, the guide's six questions (G12), as a numbered list (the plan: "a list that carries the meaning"). Fresh writer a of three; all three were 100% Human alone on try 1 (a 82 words, b 85, c 72). Cold read and grounding on a and on b: every line OK, nothing open. Joel adopted the proposal at 17:50 UTC ("P12 proposal accepted"): the line after the list, by a fresh writer from the reviews' good-to-great line (100% Human alone, 95 words, try 1). Record: experiments/LOVE-DOESNT-WAIT-20260930.md, turn 12. -->
+<!-- 2026-10-01 (turn 12): P12, the guide's six questions (G12), as a numbered list (the plan: "a list that carries the meaning"). Fresh writer a of three; all three were 100% Human alone on try 1 (a 82 words, b 85, c 72). Cold read and grounding on a and on b: every line OK, nothing open. Joel adopted the proposal at 17:50 UTC ("P12 proposal accepted"): the line after the list, by a fresh writer from the reviews' good-to-great line (100% Human alone, 95 words, try 1). Record: experiments/LOVE-DOESNT-WAIT-20260930.md, turn 12. 2026-10-03 (turn 21): questions 5 and 6 are Joel's, word for word (01:06 UTC), each in place of a list of three; OWNER-EDITS ldw-p12-q5-q6. -->
 
 So instead of asking which age of you deserves the blame, I'd ask these:
 
@@ -335,8 +335,8 @@ So instead of asking which age of you deserves the blame, I'd ask these:
 2. What did it understand back then?
 3. What options could it actually see? Could it stand to take any of them?
 4. What happened because of the choice it made?
-5. What was missing? Some ability, or help, or someone protecting you?
-6. What can you learn, repair, or do differently now?
+5. What was missing? Some ability, or help/protection from someone else?
+6. What can you learn or repair now, and how would you act differently in such situations?
 
 Whatever was missing back then, you can start giving your little one now.
 
@@ -392,9 +392,9 @@ A real-life child of yours, or a calm pet, can also act as a companion that brin
 
 # When the Adult Voice Feels Fake
 
-<!-- 2026-10-02 (turn 16): P1, the guide's "This is where many people get stuck…" (G1). Writers a, b and c were each 100% AI alone (71, 70, 77), try 1, the whole paragraph flagged. The reviewer's tickets on a (one long sentence for the attempt, the silence or numbness and the urgency; the "this is silly" voice last, with an open thought) and two fixes from the groundings: "which part of you is saying it" (not "your little one's or your own", which left out the inherited critic voice), and no "instead of the answer you hoped for" (You Don't Need an Inner Monologue says a reply may never come). Alone, 100% Human (62), try 2. Cold read: OK. -->
+<!-- 2026-10-02 (turn 16): P1, the guide's "This is where many people get stuck…" (G1). Writers a, b and c were each 100% AI alone (71, 70, 77), try 1, the whole paragraph flagged. The reviewer's tickets on a (one long sentence for the attempt, the silence or numbness and the urgency; the "this is silly" voice last, with an open thought) and two fixes from the groundings: "which part of you is saying it" (not "your little one's or your own", which left out the inherited critic voice), and no "instead of the answer you hoped for" (You Don't Need an Inner Monologue says a reply may never come). Alone, 100% Human (62), try 2. Cold read: OK. 2026-10-03 (turn 21): "dinner" is cut, Joel's fix (01:06 UTC: "when there's no actual need for 3 items you can remove one of them, the one that matters the least ... in these cases i'd just remove dinner"), so the chores are a pair; OWNER-EDITS adultfake-p1-no-dinner. -->
 
-A lot of people get stuck right here. You call up the Nurturer and try to talk to your little one, and you get silence or a numb feeling, and all of a sudden your phone, dinner, or the laundry feels urgent. Or some voice says this is silly, and it's hard to tell which part of you is saying it.
+A lot of people get stuck right here. You call up the Nurturer and try to talk to your little one, and you get silence or a numb feeling, and all of a sudden your phone or the laundry feels urgent. Or some voice says this is silly, and it's hard to tell which part of you is saying it.
 
 <!-- 2026-10-02 (turn 16): P2, the guide's own lines, word for word as in Joel's source (articles/inner-signal/source/inner-child-owner-20260911.md). Joel, 2026-10-02 03:15 UTC: "he said that, altho i'm not sure word for word but yes that's how i remembered it." Checked in the section (the quote is 22 words). -->
 

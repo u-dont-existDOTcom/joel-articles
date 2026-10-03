@@ -89,6 +89,8 @@ class LinterListsOfThree(unittest.TestCase):
                 g.write_text(installed, encoding='utf-8')
                 cmd += ['--installed', str(g)]
             r = subprocess.run(cmd, capture_output=True, text=True)
+            # a crash prints nothing, which would pass every assertNotIn below (2026-10-03)
+            self.assertIn('verdict:', r.stdout, r.stderr[-600:])
             return r.returncode, r.stdout
 
     def test_two_lists_in_one_paragraph_fail(self):
@@ -104,7 +106,8 @@ class LinterListsOfThree(unittest.TestCase):
     def test_pairs_and_quotes_are_not_lists(self):
         for s in ('If words are there, speak or write them.\n',
                   'Or you tell a therapist, \u201cNo, that\'s not right for me,\u201d and they call it resistance.\n',
-                  'If the room itself triggers your spidey sense, leave, or lock the door and get help.\n'):
+                  'If the room itself triggers your spidey sense, leave, or lock the door and get help.\n',
+                  'Or something does come, a voice or a hunch, and you listen without putting it in charge.\n'):
             self.assertNotIn('E125', self.lint(s)[1], s)
 
     def test_installed_text_gets_no_flags(self):

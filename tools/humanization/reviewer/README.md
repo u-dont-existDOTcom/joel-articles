@@ -87,3 +87,5 @@ Two rules for the validation set:
 - Keep versions of the same paragraph in one fold, so no reviewer is scored on a paragraph whose sibling it learned from.
 - Add every newly Pangram-checked paragraph to `../calibration/`, so the examples grow.
 - Not done yet: the five texts from the first loop (`PASS_outward_p1_loop_*`, `PASS_outward_section_loop_r6b`) are in `../calibration/` but not yet in `FAMILIES` in `reviewer.py`. Add them to the `outward` family at the next revalidation. They'd be that family's first Human examples.
+
+- When the paragraphs before a draft aren't in the article yet, the reviews can't see them: the grounding reads the article up to `cut`, and the cold read gets only `before`. Give the grounding those paragraphs with `append` and put them in `before` for the cold read (2026-10-03: P5's first groundings flagged the guide's "If nothing speaks" as missing because they couldn't see P4, which carries it).

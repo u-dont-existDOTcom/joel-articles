@@ -73,6 +73,10 @@ Joel, 2026-09-25: "Notice it still has listicles. Listicles are sometimes necess
    - "Nickel — oats, cocoa, soy, leafy greens; eczema flares." is unchanged in the passing detox article.
 8. **Two lists in one paragraph become two items each, with the rest in sentences of their own** (2026-10-03).
    - "ask it what it's trying to stop, or what it wants, or if it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you, or the parent you inherited, or something from earlier today, or a bit of each." (66% AI) became "ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each." (Human, medium on his check). Joel: "P! failed b ecause it has 2 lists of 3"; "lists of 3 in general are an ai pattern".
+9. **A list of three that doesn't need all three loses the item that matters least** (2026-10-03). Joel: "when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did."
+   - "all of a sudden your phone, dinner, or the laundry feels urgent" became "all of a sudden your phone or the laundry feels urgent".
+   - "What was missing? Some ability, or help, or someone protecting you?" became "What was missing? Some ability, or help/protection from someone else?"
+   - "What can you learn, repair, or do differently now?" became "What can you learn or repair now, and how would you act differently in such situations?"
 
 ## What he adds
 
@@ -343,3 +347,9 @@ What his fixes teach:
 - **P1, his minimal fix.** "P! failed b ecause it has 2 lists of 3. I did a minimal fix and now it's human med conf". In word for word; the h1 with it is 100% Human (673).
 - **00:01.** "lists of 3 in general are an ai pattern". The linter fails two in one paragraph and flags one (E125); his bans, with this line, go into every writer prompt.
 - What his note teaches: a list of three is the pattern itself, not only when it's long; and the first fix is the smallest one to that structure.
+
+## Joel's notes, 2026-10-03 01:06 UTC
+
+- **Lists of three, the order of fixes.** "when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did." (E126)
+- **His fixes.** "in these cases i'd just remove dinner"; questions 5 and 6 of Love Doesn't Wait P12 in his words. All in, and they pass.
+- "continue".

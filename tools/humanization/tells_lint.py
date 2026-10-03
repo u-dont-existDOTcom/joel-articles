@@ -20,6 +20,7 @@ A CLEAR only means no mechanical tells were found. The judgment checks
 (D2 disparity, A1 meaning and safety, referents) still have to be written by hand.
 R1 only catches the "did it" kind of referent; no reviewer caught that one either (2026-09-30).
 E125 (2026-10-03): a list of three or more is a REVIEW, and two in one paragraph are a FAIL.
+E126 (2026-10-03 01:06): the fix is to drop the item that matters least, or split the list when every item is needed.
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -165,6 +166,9 @@ def _find(s):
         if _w0(m.group(2)) in PRON or part.startswith('"'): continue  # "“No, that's not right for me,” and they call it": a clause
         prev = seg[k-1][1].strip()
         if not prev or (k - 1 == 0 and (len(prev.split()) <= 1 or _w0(prev) in LEAD)): continue   # "If words are there, speak or write them"
+        # "Or something does come, a voice or a hunch, and": the pair says what came (an aside), it isn't a third item
+        if re.match(r"(a|an|the|some)\s", part, re.I) and re.search(r"\b(does|do|did|is|are|was|were|can|could|will|would|might|may|has|have|had|comes?|came)\b", prev, re.I):
+            continue
         a = seg[k-1][0] + len(seg[k-1][1].rstrip()) - len(' '.join(prev.split()[-4:]))
         hits.append(('serial, no last comma', a, seg[k][0] + len(seg[k][1])))
     # one long list can match twice, or by two rules: count it once
@@ -237,8 +241,9 @@ def main():
             if not mine: continue
             for k, x, q in tri:
                 flag('REVIEW', 'E125 list of three' + (' inside a quote (someone else\'s words can keep theirs)' if q else '') +
-                     ': an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"); keep one or two, '
-                     'and if the rest matters, give it its own sentence, the way he fixed P1 ("Maybe it just has something to say.")', x)
+                     ': an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"). If the meaning doesn\'t need '
+                     'all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just '
+                     'has something to say."). Joel, 01:06: "when there\'s no actual need for 3 items you can remove one of them"', x)
             mine_words += len(w)
             for r in TICS:
                 if re.search(r, s, re.I): flag('FAIL', 'B11 tic', s)
@@ -275,7 +280,7 @@ def main():
                 flag('REVIEW', 'B3 short knock-down', s)
         if len(plists) >= 2 and any(m for m, _ in plists):
             flag('FAIL', 'E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: "P! failed b ecause it has 2 lists of 3"); '
-                 'split one first, the way he did: keep two items and give the rest its own sentence', ' / '.join(x for _, x in plists))
+                 'fix one first: drop the item that matters least, or if every item is needed, split it into sentences the way he did', ' / '.join(x for _, x in plists))
         if ss and len(words(ss[-1])) <= 9 and not is_known(ss[-1]):
             para_final_short += 1; flag('REVIEW', 'B7 short landing at paragraph end', ss[-1])
         if imps >= 2: imper_heavy += 1; flag('REVIEW', 'E23 paragraph of instructions', p[:90] + '...')

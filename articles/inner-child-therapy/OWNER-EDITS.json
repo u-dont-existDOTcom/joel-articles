@@ -714,8 +714,9 @@
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
     "So instead of asking which age of you deserves the blame, I'd ask these:",
-    "6. What can you learn, repair, or do differently now?\n\nWhatever was missing back then, you can start giving your little one now."
-   ]
+    "6. What can you learn or repair now, and how would you act differently in such situations?\n\nWhatever was missing back then, you can start giving your little one now."
+   ],
+   "note": "2026-10-03 (turn 21): question 6 updated to Joel's wording (ldw-p12-q5-q6)."
   },
   {
    "id": "ldw-p13-installed",
@@ -949,6 +950,36 @@
    "must_not_contain": [
     "or what it wants, or if it just has something to say"
    ]
+  },
+  {
+   "id": "adultfake-p1-no-dinner",
+   "status": "applied",
+   "what": "When the Adult Voice Feels Fake P1: \"dinner\" cut from the chores, so they're a pair (Joel's fix for its two lists of three).",
+   "joel": "2026-10-03 01:06 UTC: \"yes i'd say when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did. in these cases i'd just remove dinner... and for 5: \"What was missing? Some ability, or help/protection from someone else?\" for 6: \"What can you learn or repair now, and how would you act differently in such situations?\"\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "and all of a sudden your phone or the laundry feels urgent."
+   ],
+   "must_not_contain": [
+    "your phone, dinner, or the laundry"
+   ],
+   "waits_for": "(done in turn 21: alone 100% Human (61), P1 try 3; the h1 100% Human (672))"
+  },
+  {
+   "id": "ldw-p12-q5-q6",
+   "status": "applied",
+   "what": "Love Doesn't Have to Wait for Trust P12: questions 5 and 6 are Joel's, word for word, each in place of a list of three.",
+   "joel": "2026-10-03 01:06 UTC: \"yes i'd say when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did. in these cases i'd just remove dinner... and for 5: \"What was missing? Some ability, or help/protection from someone else?\" for 6: \"What can you learn or repair now, and how would you act differently in such situations?\"\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain_exact": [
+    "5. What was missing? Some ability, or help/protection from someone else?",
+    "6. What can you learn or repair now, and how would you act differently in such situations?"
+   ],
+   "must_not_contain": [
+    "Some ability, or help, or someone protecting you?",
+    "What can you learn, repair, or do differently now?"
+   ],
+   "waits_for": "(done in turn 21: alone 100% Human (89), P12 try 2; Love Doesn't Wait 100% Human (1,241))"
   }
  ]
 }
