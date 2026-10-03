@@ -11,7 +11,7 @@ Paths here are from this folder (`tools/humanization/reviewer/`), except the one
 - `tickets.txt`: what a reviewer does with one draft. A verdict, then one ticket per sentence: KEEP, or FIX with the problem, an instruction, and what the reader should get from it.
 - `writer.txt`: the writer's instructions. Carry out the tickets literally and change nothing else.
 - `writer_draft.txt`: a first draft from the brief, for a paragraph that has no draft yet. It carries what Pangram has shown about shape, as observations, not a checklist or sentence jobs. `reviewer.py draft` also adds Joel's own before/after fixes from `../JOEL-FIXES-CATALOGUE-20260928.md`, word for word.
-- `owner_bans.txt`: Joel's standing bans and cautions (2026-09-28). They're copied into the writer, ticket and draft prompts.
+- `owner_bans.txt`: Joel's standing bans and cautions (from 2026-09-28). `reviewer.py` puts the whole file where the writer, ticket and draft prompts say `{bans}` (since 2026-10-03; before that the prompts held copies that fell behind).
 - `sense.txt`: the cold reader's instructions. Sense only, one line per sentence. With `"earlier": "section"` in the target, it also gets what the reader has already read: the whole section before, then this section up to the paragraph before (2026-09-30).
 - `grounding.txt`: the guide-grounding and logic reviewer (2026-09-29).
   - It reads the whole guide and the article up to the new text, plus Joel's rulings.

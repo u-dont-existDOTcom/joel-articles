@@ -71,6 +71,8 @@ Joel, 2026-09-25: "Notice it still has listicles. Listicles are sometimes necess
    - "and so on", "whatever", "or anything else just like, obviously urgent".
 7. **Bare items that were already fine stay bare.**
    - "Nickel — oats, cocoa, soy, leafy greens; eczema flares." is unchanged in the passing detox article.
+8. **Two lists in one paragraph become two items each, with the rest in sentences of their own** (2026-10-03).
+   - "ask it what it's trying to stop, or what it wants, or if it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you, or the parent you inherited, or something from earlier today, or a bit of each." (66% AI) became "ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each." (Human, medium on his check). Joel: "P! failed b ecause it has 2 lists of 3"; "lists of 3 in general are an ai pattern".
 
 ## What he adds
 
@@ -335,3 +337,9 @@ What his fixes teach:
 - **P1's list.** "i agree to add that part of you trying to protect you in p1". In the ledger; the list with it was 66% AI alone, so it waits for a version that passes.
 - **The two protectors (E123).** "you're right that could be confused for the adult protector, which is the one we are consciously building rather than the inherited protector that came from trauma responses". In the briefs as context; the text calls it a part of you that's trying to protect you.
 - "continue".
+
+## Joel's notes, 2026-10-03 00:00 UTC
+
+- **P1, his minimal fix.** "P! failed b ecause it has 2 lists of 3. I did a minimal fix and now it's human med conf". In word for word; the h1 with it is 100% Human (673).
+- **00:01.** "lists of 3 in general are an ai pattern". The linter fails two in one paragraph and flags one (E125); his bans, with this line, go into every writer prompt.
+- What his note teaches: a list of three is the pattern itself, not only when it's long; and the first fix is the smallest one to that structure.

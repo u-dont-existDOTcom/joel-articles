@@ -2,14 +2,16 @@
 """tells_lint.py - run the written tells audit mechanically before any Pangram check.
 
 Usage:
-  python3 tells_lint.py DRAFT [--source SOURCE] [--owner OWNER] [--quiet]
+  python3 tells_lint.py DRAFT [--source SOURCE] [--owner OWNER] [--installed ARTICLE] [--quiet]
 
 DRAFT, SOURCE and OWNER are plain-text or markdown files.
   --source  the AI source section. Enables a review note (D9) when my paragraphs
             walk through the source's points in the source's order. That's not a
             failure by itself: organization is fine when the prose notices things.
-  --owner   the owner's own lines, one per line. They're excluded from the
-            sentence checks (they're his, not mine) but still counted in the metrics.
+  --owner   the owner's own lines, one per line (a line can be a whole paragraph). They're
+            excluded from the sentence checks (they're his, not mine) but still counted in the metrics.
+  --installed  the article as installed. Its sentences already passed, so they get no flags
+            either (a section check holds them), and only the new text can fail.
 There is deliberately no check against phrases from failed drafts (Joel, 2026-09-26):
 an old phrase is judged like any other, on whether it looks AI. Swapping phrases
 between rounds while the structure stays is what humanizer bots do.
@@ -17,6 +19,7 @@ Exit code: 2 = FAIL, 1 = REVIEW, 0 = CLEAR.
 A CLEAR only means no mechanical tells were found. The judgment checks
 (D2 disparity, A1 meaning and safety, referents) still have to be written by hand.
 R1 only catches the "did it" kind of referent; no reviewer caught that one either (2026-09-30).
+E125 (2026-10-03): a list of three or more is a REVIEW, and two in one paragraph are a FAIL.
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -99,16 +102,116 @@ ABSTRACT_AGENT = (r"\b(anger|fear|grief|shame|hurt|pain|longing|loneliness|resen
                   r"knocks|knocked|creeps|crept|sneaks|snuck|wanders|wandered|votes|voted|speaks|spoke|whispers|whispered|"
                   r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won)\b")
 
+# E125: lists of three. Joel, 2026-10-03 00:00 UTC, on Start With Whatever Showed Up P1 (66% AI): "P! failed b ecause
+# it has 2 lists of 3. I did a minimal fix and now it's human med conf"; 00:01: "lists of 3 in general are an ai pattern".
+# His fix kept two items in each and gave the rest its own sentence ("Maybe it just has something to say.").
+# On the calibration corpus (2026-10-03), single paragraphs: one list or more in 45% of the 77 that failed and 28% of the
+# 96 that passed; two or more in one paragraph, 16% (12) against 5% (5). Back to back or not made no difference.
+# So one list is a REVIEW, and two in one paragraph are a FAIL. The detector is regex, not grammar: coordinate
+# adjectives ("non-forced, slower exhales and a little self-massage") can still read as a list, and a list inside an
+# opening if-clause with long items is skipped on purpose.
+LEAD = set("""but so because since though although if when whenever while as once until unless which that who whom whose
+where why how then than like even just before after""".split())
+PRON = set("i you he she it we they there this that these those".split())
+NOT_OR = re.compile(r"\bor\s+(not|so|less|more|else|other|two|three|whatever)\b", re.I)
+QUOTED = re.compile(r'"[^"]*"|“[^”]*”')
+
+def _segments(s):
+    out, pos = [], 0
+    for part in s.split(','):
+        out.append((pos, part)); pos += len(part) + 1
+    return out
+
+def _w0(seg):
+    """The segment's first word, past a leading And/But/So/Or, without a contraction ending."""
+    ws = seg.split()
+    while ws and ws[0].lower() in ('and', 'but', 'so', 'or'):
+        ws = ws[1:]
+    return re.sub(r"['’](s|ll|re|d|ve|m)$", '', ws[0].lower()) if ws else ''
+
+def _find(s):
+    hits = []
+    # 1. the same conjunction twice after commas: "A, or B, or C" / "A, and B, and C"
+    for m in re.finditer(r",\s+(or|and)\s+[^,.;:!?]+?,\s+\1\b", s, re.I):
+        hits.append(('repeated ' + m.group(1).lower(), m.start(), m.end()))
+    # 2. "A or B or C" with no commas, items of up to five words
+    for m in re.finditer(r"\bor\s+(?:[^\s,.;:!?]+\s+){1,5}?or\b", s, re.I):
+        if NOT_OR.match(s, m.end() - 2): continue
+        hits.append(('repeated or', m.start(), m.end()))
+    seg = _segments(s)
+    # 3. the serial list "A, B, and C" / "A, B, or C": an and/or segment after two comma segments
+    for k in range(2, len(seg)):
+        last = seg[k][1].strip(); mid = seg[k-1][1].strip(); first = seg[k-2][1].strip()
+        if not re.match(r"(and|or)\s+\S", last, re.I): continue
+        if re.match(r"(and|or)\b", mid, re.I): continue          # rule 1 has it
+        if re.search(r"\b(and|or)\b", mid, re.I): continue       # "Nurturer, Protector and Guide are all you, and": rule 4
+        mw = mid.split()
+        if not (1 <= len(mw) <= 6) or mw[0].lower() in LEAD | {'not'}: continue
+        if k - 2 == 0:
+            fw = first.split()
+            if len(fw) <= 1: continue                             # "Honestly, I think so, and he agreed"
+            # an opening clause ("If the room itself triggers your spidey sense, leave, or lock the door"),
+            # unless the items are short ("If you're stuck, tired, or bored")
+            if _w0(first) in LEAD and not (len(mw) <= 2 and len(last.split()) <= 3): continue
+        a = seg[k-2][0] + len(seg[k-2][1].rstrip()) - len(' '.join(first.split()[-5:]))
+        b = seg[k][0] + len(seg[k][1]) - len(seg[k][1].lstrip()) + len(' '.join(last.split()[:5]))
+        hits.append(('serial', a, b))
+    # 4. the serial list without its last comma: "A, B and C" (a short "B and C" segment after a comma)
+    for k in range(1, len(seg)):
+        part = seg[k][1].strip()
+        m = re.match(r"[^\s]+(?:\s+[^\s]+)?\s+(and|or)\s+([^\s]+)(?:\s+[^\s]+){0,3}[.!?\"”)]*$", part, re.I)
+        if not m: continue
+        if _w0(part) in LEAD | PRON | {'not'} or re.match(r"(and|or)\b", part, re.I) or NOT_OR.search(part): continue
+        if _w0(m.group(2)) in PRON or part.startswith('"'): continue  # "“No, that's not right for me,” and they call it": a clause
+        prev = seg[k-1][1].strip()
+        if not prev or (k - 1 == 0 and (len(prev.split()) <= 1 or _w0(prev) in LEAD)): continue   # "If words are there, speak or write them"
+        a = seg[k-1][0] + len(seg[k-1][1].rstrip()) - len(' '.join(prev.split()[-4:]))
+        hits.append(('serial, no last comma', a, seg[k][0] + len(seg[k][1])))
+    # one long list can match twice, or by two rules: count it once
+    hits.sort(key=lambda h: h[1]); out = []
+    for kind, a, b in hits:
+        same = [i for i, o in enumerate(out) if (o[0] == kind and (kind.startswith('repeated') or a <= o[2] + 3))
+                or (o[0].startswith('serial') and kind.startswith('serial') and a < o[2] and b > o[1])]
+        if same:
+            i = same[-1]; out[i] = (out[i][0], out[i][1], max(b, out[i][2])); continue
+        out.append((kind, a, b))
+    return out
+
+def triads(s):
+    """[(kind, excerpt, quoted)] for each list of three or more in sentence s. Quoted words (a prayer, a line
+    someone says) are read on their own, so their commas don't split the sentence, and their lists are marked."""
+    s = re.sub(r'\s+', ' ', s).strip()
+    masked = QUOTED.sub(lambda m: '"' + 'Q' * (len(m.group(0)) - 2) + '"', s)
+    res = [(k, s[a:b].strip(' ,'), False) for k, a, b in _find(masked)]
+    for m in QUOTED.finditer(s):
+        inner = m.group(0)[1:-1]
+        res += [(k, inner[a:b].strip(' ,'), True) for k, a, b in _find(inner)]
+    return res
+
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('draft'); ap.add_argument('--source')
     ap.add_argument('--owner'); ap.add_argument('--quiet', action='store_true')
+    ap.add_argument('--installed', help='the article as installed: its sentences passed already and get no flags')
     a = ap.parse_args()
     text = clean(open(a.draft, encoding='utf-8').read())
     owner = set()
     if a.owner:
         owner = {re.sub(r'\s+', ' ', l.strip()) for l in open(a.owner, encoding='utf-8') if l.strip()}
+    # --installed (2026-10-03): a section check holds paragraphs that already passed alone and in their sections,
+    # some with two lists of three (the When the Adult Voice Feels Fake opening, Love Doesn't Wait P12). Their sentences
+    # are treated like the owner's: counted in the metrics, never flagged, so only the new text can fail.
+    old = set()
+    if a.installed:
+        old = {re.sub(r'\s+', ' ', x) for q in paragraphs(clean(open(a.installed, encoding='utf-8').read())) for x in sentences(q)}
+    known = owner | old
+    def is_known(x):
+        # An owner file can hold whole paragraphs, one per line (the calibration .owner files do); until
+        # 2026-10-03 only a sentence that was a whole line matched, so his multi-sentence paragraphs were
+        # flagged as mine. A sentence of three words or more inside one of his lines is his.
+        n = re.sub(r'\s+', ' ', x)
+        return n in known or (len(n.split()) >= 3 and any(n in l for l in owner))
     # chat acronyms the source or the owner lines already use are the article's own register (Joel, 2026-10-01 18:19)
     src_acronyms = set()
     for extra in ([open(a.source, encoding='utf-8').read()] if a.source else []) + list(owner):
@@ -125,10 +228,17 @@ def main():
         ss = sentences(p)
         openers.append(' '.join(words(ss[0])[:1]).lower() if ss else '')
         imps = 0
+        plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
         for i, s in enumerate(ss):
-            mine = re.sub(r'\s+', ' ', s) not in owner
+            mine = not is_known(s)
             w = words(s); sent_lens.append(len(w))
+            tri = triads(s)
+            plists += [(mine, x) for k, x, q in tri if not q]
             if not mine: continue
+            for k, x, q in tri:
+                flag('REVIEW', 'E125 list of three' + (' inside a quote (someone else\'s words can keep theirs)' if q else '') +
+                     ': an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"); keep one or two, '
+                     'and if the rest matters, give it its own sentence, the way he fixed P1 ("Maybe it just has something to say.")', x)
             mine_words += len(w)
             for r in TICS:
                 if re.search(r, s, re.I): flag('FAIL', 'B11 tic', s)
@@ -163,7 +273,10 @@ def main():
                 flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
             if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):
                 flag('REVIEW', 'B3 short knock-down', s)
-        if ss and len(words(ss[-1])) <= 9 and re.sub(r'\s+', ' ', ss[-1]) not in owner:
+        if len(plists) >= 2 and any(m for m, _ in plists):
+            flag('FAIL', 'E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: "P! failed b ecause it has 2 lists of 3"); '
+                 'split one first, the way he did: keep two items and give the rest its own sentence', ' / '.join(x for _, x in plists))
+        if ss and len(words(ss[-1])) <= 9 and not is_known(ss[-1]):
             para_final_short += 1; flag('REVIEW', 'B7 short landing at paragraph end', ss[-1])
         if imps >= 2: imper_heavy += 1; flag('REVIEW', 'E23 paragraph of instructions', p[:90] + '...')
     # paragraph-level metrics

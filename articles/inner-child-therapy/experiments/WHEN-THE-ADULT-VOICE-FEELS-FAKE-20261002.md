@@ -124,3 +124,15 @@ Joel, 22:44 UTC: "i agree to add that part of you trying to protect you in p1 oh
 
 ### Next
 P1: a rebuild with Joel's added source, "what's going on in your life now" (an everyday case, not the danger case), and the learned parent script named as such. P2: the MUST without my reason ("one that sounds like your little one gets heard when it comes; a missed one can come back"), and a protective part that showed up isn't parked. P3 from writer c, with a different fix for "hears that too". P5 from writer c or a, with "a hard feeling" set up. P4 is ready.
+
+## Turn 20 (2026-10-03, from 00:00 UTC): Joel's P1, and lists of three
+
+Joel, 00:00 UTC: "P! failed b ecause it has 2 lists of 3. I did a minimal fix and now it's human med conf: [P1]"; 00:01: "lists of 3 in general are an ai pattern". No "continue", so no merge.
+
+- P1 is his, word for word (OWNER-EDITS sws-p1-protective-part, applied). "or if it just has something to say" became its own sentence ("Maybe it just has something to say."), and the five sources became two sentences: your little one or a part of you that's trying to protect you, then "Maybe it's that parent you inherited, or something from earlier today, or a bit of each." Not re-checked alone (his check: Human, medium). When the Adult Voice Feels Fake with it: 100% Human (673), try 1.
+- The lesson (E125): the linter fails two lists of three in one paragraph and flags one; the writer and ticket prompts carry it with the rest of his bans; a minimal fix to the flagged structure comes before a rebuild (gate B10). The turn-19 plan to rebuild P1 is dropped.
+- The sweep: two of my installed paragraphs have two lists (this h1's opening, and Love Doesn't Wait P12). Both pass, so they stay as they are, and section checks pass `--installed` to the linter. P5's writer c (both versions) has two lists, so the next P5 round starts from that.
+- A turn-19 PREDICTIONS row (P5, Human predicted, 100% AI) was scored "hit"; it's a miss, fixed.
+
+### Next
+P2, P3 and P5 from turn 19's notes, with E125 in every writer prompt. Then P4 (ready). Then the h3s, Two Common Protective Patterns and A Bottom-Up Sequence.
