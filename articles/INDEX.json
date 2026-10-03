@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "52d2d58f0cee2d97c0e6862af3ae6e66c9e510b9f32981a6250aa866c1495612",
+          "sha256": "7ec4596398636c634c82761fcb58b8c07b003f67f0c6197e1633ecfe7d06a3f1",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,12 +2634,12 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "3986ab357345d742ef31bcc870f5ade18f732837e019fda5cf62acb934acdcba",
+          "sha256": "f0bebab4fa884604d288e3e2123026a66a1e55b3f67dbed9d1495ba15da1bac1",
           "role": "owner_edits_ledger"
         },
         {
           "path": "articles/inner-child-therapy/PARKED-READER-QUESTIONS.md",
-          "sha256": "f02948b45211855b184a35c7583a951437f44d738da181db655bb9fdf3ece358",
+          "sha256": "60820600d8484ff06ca967c76e3af91abdf58a082ffeb1b2334a6afe3977383c",
           "role": "parked_reader_questions"
         },
         {
@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "6d089dcd82f1dcc5623cd2ec14fea36612529592e7c61818df3c7c50ac31b750",
+          "sha256": "61f4a9707f50b5ab562775d29d18b3a67d805a789d4356bf6dc4f156fd934d1a",
           "role": "humanization_working_record"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "d708e373debe41ede5913425b10127d0f6ba2a02c6e5b66c069de6cef907df7a",
+          "sha256": "1f899799d7b28a8b308370065f25e986c4d096ba55475c669787fb12b5af3c2f",
           "role": "detector_prediction_log"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "fbf4d2f0af39dcf3d7b3341574fee910f5280676812d3094a8989ce7d5464ca3",
+          "sha256": "5fba2a4abb1345275bae38b0b1afcf3c5d591435a53a4b7d039ddc8246e19b07",
           "role": "humanization_working_record"
         },
         {
@@ -4766,6 +4766,56 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-03-turn24-a.json",
           "sha256": "fc4321612c926dffe5ba64bd8e343e6e7fa3e7c4e7ad56027b1a23dd37961298",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-03-turn25.json",
+          "sha256": "889af508ff596f3e0186d66d9468676da999f9d85fec6bbf2110ee5cfeddb1b1",
+          "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-03-turn25-a.json",
+          "sha256": "6113613d9d042724467911977331d206193d32fa80f06877abeca67971438a43",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-03-turn25-b.json",
+          "sha256": "08f85d5d496484df92007c63ad4e2b3be5a5a28c9e1e87e431682d877c3966e8",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-03-turn25-c.json",
+          "sha256": "6b664bdfd183bb4a2d7b5049115ee17e821285b7ab5f868d67f5b6a27d418af6",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-03-turn25-d.json",
+          "sha256": "9253382ffbbf82ecd713d369008f3d9f8ef8a741dc7fedb427d0e6b4f1290918",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/bottom-up-sequence-section.json",
+          "sha256": "22b9f540b7cbf67d36470344938d73a8019529d8e3ea6f572fd5d0bc18805546",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/bottom-up-sequence.json",
+          "sha256": "e2c6361b0e1ecb6f37e7cd7d22b5f98ee934ba0df2da1edb8bf639d65d103d5f",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/two-protective-patterns-p2.json",
+          "sha256": "62448669a80e0f910adced9477f4b5e676a748feec64a7d0fd5a27046a81e0a1",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/two-protective-patterns-section.json",
+          "sha256": "b901568a567c4235d37caa6cb493d310e3997f7c7e5b668cc99f6c124bbfd00d",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/two-protective-patterns.json",
+          "sha256": "5cf9536b9ab56c8216aa13352caae33251355edf8e410f0b230dac13119bd1fc",
+          "role": "reviewer_target"
         }
       ]
     },

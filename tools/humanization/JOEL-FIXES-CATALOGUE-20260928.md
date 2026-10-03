@@ -378,3 +378,10 @@ What his fixes teach:
 - **The parked question.** "you just simply look back and you know... i don't understand how that would be hard to know? the only thing is most people don't even think like this until someone brings it up, that they may actually have state-dependent awareness." (E132)
 - "i can fix the apragraph easily but i'm surprised you can't? what are you trying exactly and why?"
 - No "continue".
+
+## Joel's notes, 2026-10-03 21:18 UTC (the marching-order check)
+
+- "yeah i'm not saying my version of it has no AI tells, but the biggest one, the marching, was mostly fixed by that."
+- **What breaks the march in his P4 and P5.** "On reading P4, there is a break from the marching though, \"or however you'd actually say that\" sentence is a break. And actually the rest of it is not really instruction manual style. \"Wait and listen. If nothing comes, that's fine for now...\" is a break from the instructions, and then it comes back to instructions after that, so it's really not one long instruction text." "P5 has more reflection than general AI prose. It's stopping again with considering what something might feel like, and then stopping the instructions at \"just listen.\" and then restarting right after that." (E133)
+- "maybe these are not quite reasons to disregard the marching order check and rather ways to optimize it (altho we should be sure this pattern actually holds for optimizing it, so let's look at other examples)": tested blind on 100 paragraphs, and it holds (MARCH-READER-TEST-20261003.json, v2).
+- "continue".

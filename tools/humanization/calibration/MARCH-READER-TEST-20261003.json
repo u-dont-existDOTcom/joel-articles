@@ -1,85 +1,1712 @@
 {
- "what": "A blind test of whether a reader's marching-order label (MARCH: every sentence only takes the next step; BREAKS: some sentence reacts, wonders, jokes, asks, remembers or goes to the side) predicts Pangram's verdict on single paragraphs (E131, 2026-10-03, turn 24).",
- "readers": "two Claude Sonnet runs, the same 19 paragraphs in two shuffled orders, nothing but the prompt file open",
- "prompt": "Below are 19 paragraphs from a friendly self-help article about inner-child work, each one on its own. In this article \"your little one\" is the inner child.\n\nFor each paragraph:\n1. Write each sentence's job in two to five words, in order, separated by \" / \" (for example: sets up the case; what happens; another thing that can happen; a caution; what to do; what to do next; the writer reacts; a story from the writer's life; a joke; a question; an aside).\n2. Then give one verdict: MARCH if the sentences only take the next step one after another, like a procedure or code instructions written out in English, with no sentence where the writer reacts, wonders, jokes, asks, remembers something, or goes off to the side. Otherwise BREAKS, with the number of the first sentence that breaks the steps.\n\nDon't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only these lines, one per paragraph:\nT1: jobs / jobs / ... — MARCH\nT2: jobs / jobs / ... — BREAKS at 3",
- "verdicts": {
-  "PASS_sws_p5b_writer_c_fixed_api.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
+ "v1": {
+  "what": "A blind test of whether a reader's marching-order label (MARCH: every sentence only takes the next step; BREAKS: some sentence reacts, wonders, jokes, asks, remembers or goes to the side) predicts Pangram's verdict on single paragraphs (E131, 2026-10-03, turn 24).",
+  "readers": "two Claude Sonnet runs, the same 19 paragraphs in two shuffled orders, nothing but the prompt file open",
+  "prompt": "Below are 19 paragraphs from a friendly self-help article about inner-child work, each one on its own. In this article \"your little one\" is the inner child.\n\nFor each paragraph:\n1. Write each sentence's job in two to five words, in order, separated by \" / \" (for example: sets up the case; what happens; another thing that can happen; a caution; what to do; what to do next; the writer reacts; a story from the writer's life; a joke; a question; an aside).\n2. Then give one verdict: MARCH if the sentences only take the next step one after another, like a procedure or code instructions written out in English, with no sentence where the writer reacts, wonders, jokes, asks, remembers something, or goes off to the side. Otherwise BREAKS, with the number of the first sentence that breaks the steps.\n\nDon't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only these lines, one per paragraph:\nT1: jobs / jobs / ... — MARCH\nT2: jobs / jobs / ... — BREAKS at 3",
+  "verdicts": {
+   "PASS_sws_p5b_writer_c_fixed_api.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "FAIL_adultfake_altered_states_try3_100pct.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "PASS_altered_states_joel_fix(his check)": {
+    "A": "BREAKS at 3",
+    "B": "BREAKS at 3"
+   },
+   "PASS_sws_p5_joel.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "FAIL_ldw_p11_rebuild_b_100pct.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "FAIL_sws_p2_writer_c_fix_100pct.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "PASS_sws_p4_joel.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "FAIL_sws_p5_writer_a_fixed_100pct.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "FAIL_adultfake_altered_states_try1_51pct.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "PASS_sws_p2_writer_c_reviews_fixed.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "FAIL_sws_p5a_writer_c_100pct.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "PASS_borrow_p7_r11.txt": {
+    "A": "BREAKS at 3",
+    "B": "BREAKS at 3"
+   },
+   "FAIL_ldw_p14a_100pct.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "PASS_borrow_p4_r10.txt": {
+    "A": "BREAKS at 4",
+    "B": "BREAKS at 4"
+   },
+   "PASS_ldw_p10_proposal_c6.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "FAIL_adultfake_altered_states_try2_100pct.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "PASS_sws_p5a_writer_b_laundry.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   },
+   "FAIL_sws_p3_writer_a_fix_100pct.txt": {
+    "A": "BREAKS at 2",
+    "B": "BREAKS at 2"
+   },
+   "PASS_sws_p4_so_opener_api.txt": {
+    "A": "MARCH",
+    "B": "MARCH"
+   }
   },
-  "FAIL_adultfake_altered_states_try3_100pct.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "PASS_altered_states_joel_fix(his check)": {
-   "A": "BREAKS at 3",
-   "B": "BREAKS at 3"
-  },
-  "PASS_sws_p5_joel.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "FAIL_ldw_p11_rebuild_b_100pct.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "FAIL_sws_p2_writer_c_fix_100pct.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "PASS_sws_p4_joel.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "FAIL_sws_p5_writer_a_fixed_100pct.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "FAIL_adultfake_altered_states_try1_51pct.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "PASS_sws_p2_writer_c_reviews_fixed.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "FAIL_sws_p5a_writer_c_100pct.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "PASS_borrow_p7_r11.txt": {
-   "A": "BREAKS at 3",
-   "B": "BREAKS at 3"
-  },
-  "FAIL_ldw_p14a_100pct.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "PASS_borrow_p4_r10.txt": {
-   "A": "BREAKS at 4",
-   "B": "BREAKS at 4"
-  },
-  "PASS_ldw_p10_proposal_c6.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "FAIL_adultfake_altered_states_try2_100pct.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "PASS_sws_p5a_writer_b_laundry.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  },
-  "FAIL_sws_p3_writer_a_fix_100pct.txt": {
-   "A": "BREAKS at 2",
-   "B": "BREAKS at 2"
-  },
-  "PASS_sws_p4_so_opener_api.txt": {
-   "A": "MARCH",
-   "B": "MARCH"
-  }
+  "result": "The two runs agreed on all 19. Failed paragraphs (all mine): 8 of 9 MARCH. Passed paragraphs: 7 of 10 MARCH (Joel's Start With Whatever Showed Up P4 and P5 among them) and 3 BREAKS (Joel's altered-states fix, Borrow One P4 r10 and P7 r11). So a break went with a pass every time it was found, but MARCH alone didn't predict a fail: no linter rule from it.",
+  "note": "PASS_altered_states_joel_fix is Joel's check (Human, medium); the rest are the calibration files of the same names."
  },
- "result": "The two runs agreed on all 19. Failed paragraphs (all mine): 8 of 9 MARCH. Passed paragraphs: 7 of 10 MARCH (Joel's Start With Whatever Showed Up P4 and P5 among them) and 3 BREAKS (Joel's altered-states fix, Borrow One P4 r10 and P7 r11). So a break went with a pass every time it was found, but MARCH alone didn't predict a fail: no linter rule from it.",
- "note": "PASS_altered_states_joel_fix is Joel's check (Human, medium); the rest are the calibration files of the same names."
+ "v2": {
+  "what": "The refined check after Joel's correction (2026-10-03 21:18 UTC): his P4 and P5 do break the march (\"or however you'd actually say that\"; \"Wait and listen. If nothing comes, that's fine for now\"; stopping to consider what something might feel like; \"just listen\"), so a reader labels each sentence a step (S) or a break (B), with his kinds of break in the definition (the prompt's examples are new wording, so his sentences aren't in it). It's reviewer.py march / march-score now.",
+  "readers": "two Claude Sonnet runs over the same 100 calibration paragraphs (50 PASS, 50 FAIL, single paragraphs of 40 to 220 words, seed 11, his P4, P5, the altered-states tries and SWS P1's pair included), in two shuffled orders, five batches of 20 each, nothing but the prompt file open",
+  "prompt": "Below are N paragraphs from a friendly self-help article about inner-child work, each one on its own, with its sentences numbered. In this article \"your little one\" is the inner child.\n\nLabel every numbered sentence of every paragraph S (STEP) or B (BREAK):\n- S, a step: the sentence moves the paragraph one step further along a sequence, the way a manual or a program does: the next instruction, the next fact or case, a rule, a reason, or a condition or caution attached to a step.\n- B, a break: the sentence stops that forward march, even for a moment. For example: the writer reacts or exclaims; an aside that loosens what was just said (\"Or put it in your own words.\"); a pause, waiting, or a permission (\"If it doesn't come, that's okay for today.\"); stopping to consider what something might feel like or be like (\"It might be more of a mood. Sadness, maybe.\"); just staying with something, like listening or being present, instead of doing the next thing; a story or memory; a joke; a question; the writer's own doubt or opinion stepping back from the sequence.\nJudge what the sentence does in its paragraph, not its grammar: an instruction to wait or just listen can be a break, and a plain statement can be a step.\n\nDon't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only one line per paragraph, one letter per numbered sentence, in order, like this:\nT1: S S B S S\nT2: S B S B\n",
+  "labels": {
+   "PASS_sws_p4_joel.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "B",
+     "B",
+     "B",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "B",
+     "B",
+     "B",
+     "B",
+     "S"
+    ]
+   },
+   "FAIL_adultfake_altered_states_try3_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_parent_inherited_p4_round3_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_parent_inherited_p6_newvoice_c_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p10_proposal_c6.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p9v3.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_parent_inherited_p4_try4_writer_b.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_emoji_borrowlove_p1_dog.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "PASS_mpv_p1_joel_underlying_no_bread.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "B",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_parent_inherited_p4_newvoice_c_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_adultfake_altered_states_joel_fix.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_borrow_p7_r11.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "PASS_sws_p1_writer_a_fix.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_pr_p1_r2b_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_vow_a_fragment.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "PASS_sws_p4_writer_a.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "B",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "PASS_parent_inherited_p4_try4_writer_a.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p13c.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "B",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_mpv_p2b_callback.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_fix_outward_p1_r1.txt": {
+    "A": [
+     "B",
+     "B",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "B",
+     "B",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_outward_p1_joel_final.txt": {
+    "A": [
+     "S",
+     "B",
+     "B",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "FAIL_outward_p1a_r2_sense_first.txt": {
+    "A": [
+     "S",
+     "B",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_mpv_p1_relationship_moved.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "FAIL_sws_p5a_writer_c_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_parent_inherited_p4_newvoice_b_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_borrow_p5_r10b.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_sws_p2_writer_b_fixed_57pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_mpv_p2_can_show.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_ldw_p9v7_borrowing_29pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_apprentice_p1_r2.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_sws_p2_writer_c_fix_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_mpv_p4b_y2f.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "FAIL_pr_p1_a_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_pr_p1_d2_voiced_question_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_pr_p1_c_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p4af_alone.txt": {
+    "A": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ],
+    "B": [
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "PASS_threefn_p1_joel_fix.txt": {
+    "A": [
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_mpv_p4a_x2b.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_apprentice_p1_r1.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p5a_alone.txt": {
+    "A": [
+     "S",
+     "B",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "B"
+    ]
+   },
+   "PASS_mpv_s2c_alone.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_fix_ask_p1.txt": {
+    "A": [
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_outward_p1a_r5_dinner_scene.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_love_goodwill_p1_r2.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_mpv_p1_sweet_things_fix.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_mpv_p3merged_w5b.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_outward_p1_r7_short_remark.txt": {
+    "A": [
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ce_guide_alone_r2.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_sws_p3_writer_c_joined_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_ldw_p14a_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "PASS_sws_p5b_writer_c_fixed_api.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_sws_p1_with_protective_part_66pct.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_sws_p3_writer_a_fix_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_parent_inherited_p6_v4_writer_c_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_ldw_p2a2_alone.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_love_askgod_p2.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "FAIL_mpv_p3_d2.txt": {
+    "A": [
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_sws_p4_answer_for_that_part.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "B",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B",
+     "B",
+     "S"
+    ]
+   },
+   "PASS_ce_jobs_r3_joel_guide.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_ldw_p11_rebuild_b_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p4_proposal_alone.txt": {
+    "A": [
+     "B",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "B",
+     "B",
+     "S",
+     "S",
+     "B",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "PASS_love_goodwill_p1_r1_fidelity_rejected.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "PASS_vow_p4_pointer_cut.txt": {
+    "A": [
+     "B",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "B",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p5_turn9.txt": {
+    "A": [
+     "S",
+     "B",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "B"
+    ]
+   },
+   "FAIL_adultfake_altered_states_try1_51pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p7_proposal.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "FAIL_mpv_p1_joel_meditation_a0.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_emoji_checking_p_innocent.txt": {
+    "A": [
+     "S",
+     "B",
+     "B",
+     "S",
+     "B",
+     "B",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "FAIL_mpv_p3_d1.txt": {
+    "A": [
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_ldw_p10_proposal_writer_52pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_sws_p1_joel_minimal_fix.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "B",
+     "B",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "FAIL_threefn_p5_r1.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_mpv_p4b_z1_44pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_parent_inherited_p6_writer_c_100pct.txt": {
+    "A": [
+     "B",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "B",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_borrow_p3_joel_fix.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_parent_inherited_p4_newvoice_a_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_adultfake_altered_states_try2_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_outward_p1_loop_r4sf1.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "PASS_mpv_p1_joel_boundary_fix.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_ldw_p9_catch_31pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "PASS_love_askgod_p1.txt": {
+    "A": [
+     "S",
+     "B",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S"
+    ]
+   },
+   "FAIL_threefn_p1_r2.txt": {
+    "A": [
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "PASS_sws_p3_writer_b_every_part.txt": {
+    "A": [
+     "B",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "B",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_ldw_p13a.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_threefn_p1_r1b.txt": {
+    "A": [
+     "S",
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "S",
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_ldw_p9_proposal2_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_mpv_p3merged_wA2.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_ce_jobs_r1b_definitions.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_sws_p5_joel.txt": {
+    "A": [
+     "S",
+     "B",
+     "B",
+     "B",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "B",
+     "B",
+     "B",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_parent_inherited_p4_try4_writer_c_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "PASS_ldw_p10c6.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_adultfake_p1_writer_b_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "PASS_ldw_p9_joel_1357.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_outward_p1_loop_r6b.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "PASS_threefn_p2_r1.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ],
+    "B": [
+     "B",
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "PASS_sws_p3_writer_b_each_part.txt": {
+    "A": [
+     "B",
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "B",
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "FAIL_sws_p5_writer_a_fixed_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S",
+     "B",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S",
+     "B",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_sws_p5a_writer_b_laundry.txt": {
+    "A": [
+     "S",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "S",
+     "B"
+    ]
+   },
+   "FAIL_parent_inherited_p6_newvoice_a_100pct.txt": {
+    "A": [
+     "S",
+     "S",
+     "S"
+    ],
+    "B": [
+     "S",
+     "S",
+     "S"
+    ]
+   },
+   "PASS_mpv_p4a_x1b.txt": {
+    "A": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ],
+    "B": [
+     "S",
+     "B",
+     "S",
+     "B"
+    ]
+   }
+  },
+  "result": {
+   "agreement": "the two readers gave the same label to 465 of 504 sentences (92%)",
+   "no_break": "a paragraph neither reader found a break in: 7 of 50 PASS (14%), 23 of 50 FAIL (46%); such paragraphs failed 23 times out of 30 (77%), against 27 out of 70 (39%) for paragraphs with a break",
+   "without_joel": "leaving out his paragraphs: no break failed 23 of 28 (82%); with a break, 26 of 60 (43%)",
+   "by_length": "3-4 sentences: no break failed 11 of 15, with a break 12 of 33; 5-6 sentences: 10 of 13 against 12 of 19; 7 or more: 2 of 2 against 3 of 18",
+   "share_of_steps": "mean 0.70 PASS, 0.87 FAIL (AUC 0.72); 0.9 or more: 8 of 50 PASS, 28 of 50 FAIL",
+   "longest_run": "weaker (AUC 0.62): Joel's altered-states fix breaks early and then has a run of five steps, and it passed",
+   "his_paragraphs": "P4: S S S B B B B S; P5: S B B B S S S; the altered-states fix: S S B S S S S S (one reader) and S B B S S S S S (the other)",
+   "rule": "no break at all -> MARCH, a strong warning, not a fail: 7 of 50 passing paragraphs had no break, and 27 paragraphs with a break still failed on other tells (lists of three and the like)"
+  }
+ }
 }

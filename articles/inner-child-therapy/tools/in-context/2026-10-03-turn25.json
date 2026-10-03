@@ -1,0 +1,87 @@
+{
+ "title": "Turn 25: Two Common Protective Patterns, and the sequence that waits",
+ "meta": "Inner Child Therapy · 2026-10-03, turn 25 · against the version you saw at the end of turn 24 · each note gives the Pangram try (through your API key)",
+ "intro": [
+  "Two Common Protective Patterns is in, the guide's three paragraphs in two: alone 100% Human (86 and 108 words), the h3 100% Human (199), and the h1 through it 100% Human (1,277).",
+  "The guide's A Bottom-Up Sequence isn't in. Its first paragraph passes alone, but the other four were 100% AI alone, and the h1 with all five came back 34% AI. Both groundings flagged the guide's heading, since the article's only \"bottom-up\" so far is the body-first list; the candidate heading here is \"Hear the Protective Part First\"."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "## Start With Whatever Showed Up",
+    "### Two Common Protective Patterns"
+   ],
+   "rows": [
+    {
+     "label": "P1 · in (alone 100% Human, 86; try 1)",
+     "article": "Two kinds of reaction really are trying to protect you",
+     "guide": [
+      "Two patterns often do have a protective function"
+     ],
+     "note": "Writer a of three, with a grounding's fix: \"really are trying to protect you\" for \"really are protective\"."
+    },
+    {
+     "label": "P2 · in (alone 100% Human, 108; the h3 100% Human, 199; the h1 100% Human, 1,277; try 3)",
+     "article": "The other one shows up when you get close",
+     "guide": [
+      "Reactive protection often arrives",
+      "Both often grew around an attempt to prevent"
+     ],
+     "note": "One paragraph for the guide's second and third, after my P2 failed alone three times (100% AI)."
+    }
+   ]
+  },
+  {
+   "headings": [
+    "### Hear the Protective Part First (the guide's \"A Bottom-Up Sequence\"; not in)"
+   ],
+   "rows": [
+    {
+     "label": "P1 · candidate (alone 100% Human, 90)",
+     "text": "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" It might say this will just be one more performance, and you'll fool yourself again.",
+     "guide": [
+      "Notice the protective part",
+      "Offer it the same Nurturer voice",
+      "Ask what it expects"
+     ],
+     "note": "Writer a of three."
+    },
+    {
+     "label": "P2 · candidate (alone 100% AI)",
+     "text": "That one can sting, because there could be something to it. Maybe you have fooled yourself before, and that part remembers. Let it say the whole thing, and tell it you heard it before you answer. As the Nurturer, you're there to take in what that part has been carrying, so if you catch yourself arguing back, you can let that go. Usually your little one only comes forward after that part feels heard. If you push past it, you might get exactly the performance it was afraid of. It can look convincing, too, with the right words and maybe even tears, while nothing underneath feels any safer.",
+     "flag": "That one can sting, because there could be something to it. Maybe you have fooled yourself before, and that part remembers. Let it say the whole thing, and tell it you heard it before you answer. As the Nurturer, you're there to take in what that part has been carrying, so if you catch yourself arguing back, you can let that go. Usually your little one only comes forward after that part feels heard. If you push past it, you might get exactly the performance it was afraid of. It can look convincing, too, with the right words and maybe even tears, while nothing underneath feels any safer.",
+     "guide": [
+      "Acknowledge the fear",
+      "Only after the protective layer"
+     ]
+    },
+    {
+     "label": "P3 · candidate (alone 100% AI)",
+     "text": "Your Protector, the grown-up's own way of looking out for you, earns that protective part's trust mostly out in ordinary life. Over time, that part sees what you actually do and starts to believe a trustworthy adult has shown up. One kind talk in your head usually won't outweigh years of evidence the other way, and I don't think it should. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.",
+     "flag": "Your Protector, the grown-up's own way of looking out for you, earns that protective part's trust mostly out in ordinary life. Over time, that part sees what you actually do and starts to believe a trustworthy adult has shown up. One kind talk in your head usually won't outweigh years of evidence the other way, and I don't think it should. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.",
+     "guide": [
+      "Let the Protector build trust",
+      "Real-world competence"
+     ]
+    },
+    {
+     "label": "P4 · candidate (alone 100% AI)",
+     "text": "That part doesn't have to leave, or even trust you completely, before anything can happen. It can keep watch and still let you take one small step, as long as you're present and can stop. If it says no, that's a no. When it does let you go on, follow whatever changes. A critic that kept saying \"This is stupid\" might soften into \"I'm scared to get my hopes up.\" That one's easier to be kind to.",
+     "flag": "That part doesn't have to leave, or even trust you completely, before anything can happen. It can keep watch and still let you take one small step, as long as you're present and can stop. If it says no, that's a no. When it does let you go on, follow whatever changes. A critic that kept saying \"This is stupid\" might soften into \"I'm scared to get my hopes up.\" That one's easier to be kind to.",
+     "guide": [
+      "The protector does not have to disappear"
+     ]
+    },
+    {
+     "label": "P5 · candidate (alone 100% AI)",
+     "text": "You can answer whatever's there now, without going back to look for your little one first. A vague hurt can turn into something clearer, like wanting someone on your side for once. If it does, try being that someone. You could even say it out loud: \"I'm on your side.\" It may feel silly to say out loud. Notice how it lands anyway. You don't need to know how old you were, or what happened, to do that. A small shift counts, and more intensity isn't the only way forward. Sometimes all that happens is your shoulders come down a little.",
+     "flag": "You can answer whatever's there now, without going back to look for your little one first. A vague hurt can turn into something clearer, like wanting someone on your side for once. If it does, try being that someone. You could even say it out loud: \"I'm on your side.\" It may feel silly to say out loud. Notice how it lands anyway. You don't need to know how old you were, or what happened, to do that. A small shift counts, and more intensity isn't the only way forward. Sometimes all that happens is your shoulders come down a little.",
+     "guide": [
+      "Then follow what changes"
+     ],
+     "note": "The h1 with all five: 34% AI, from Two Common Protective Patterns P2 to the end."
+    }
+   ]
+  }
+ ]
+}
