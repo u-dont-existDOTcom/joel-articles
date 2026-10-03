@@ -262,7 +262,7 @@ The v23 gate (trace, stance, cold read) and the v24 gate (trace, stance) sent ba
 | P24P25 | Human (weak) | || Human (91) |
 | P17H2bP18 | AI (weak) | v20's P18 read AI alone and with the heading and P19 || Human (96) |
 
-Batch 7 results (07:51 UTC, API): **P24, P25, P24P25 and P17H2bP18 100% Human; P14, P13P14, P14P15, P23P24 and P25P26 100% AI.** Tries: P24 try 6 and P25 try 6 (both pass alone, short as they are), P18 try 8 (v20's text, first with P17 and the heading), P14 try 6. Mine: 5 of 9 (P23P24, P25P26 and P17H2bP18 wrong, and P24P25 right but…). So 32 of 33 pass alone or with a neighbor that passes alone; P18 only with P17 and its heading (with the heading and P19 it reads AI). P23P24, P25P26 and P27P28 read AI as pairs though each paragraph passes alone, so the section check matters here. P14: the gate's fixes put the published middle sentence back, and it reads AI; the raw h2 B passed, and it is the closest of the passing raw versions in meaning, so v26 takes it with two word-level fixes.
+Batch 7 results (07:51 UTC, API): **P24, P25, P24P25 and P17H2bP18 100% Human; P14, P13P14, P14P15, P23P24 and P25P26 100% AI.** Tries: P24 try 6 and P25 try 6 (both pass alone, short as they are), P18 try 8 (v20's text, first with P17 and the heading), P14 try 6. Mine: 6 of 9 (P23P24, P25P26 and P17H2bP18 wrong). So 32 of 33 pass alone or with a neighbor that passes alone; P18 only with P17 and its heading (with the heading and P19 it reads AI). P23P24, P25P26 and P27P28 read AI as pairs though each paragraph passes alone, so the section check matters here. P14: the gate's fixes put the published middle sentence back, and it reads AI; the raw h2 B passed, and it is the closest of the passing raw versions in meaning, so v26 takes it with two word-level fixes.
 
 ### v27, API batch 8: P14 from Emulate's raw h2 B (v26, v27), and the section
 
@@ -290,3 +290,5 @@ Batch 8 results (08:00 to 08:01 UTC, API): **P14, P13P14 and P14P15 100% Human; 
 | from P18's second sentence ("Traditional lineages usually disagree…") to the end | 845 | AI (0.90) |
 
 Three of the seams had already read AI as pairs (P23P24, P25P26, P27P28) though each paragraph passes alone. Following the gate (E62: start where the flagged span starts) and section 4's lesson (`docs/EMULATE-FALLBACK.md`: a run of short paragraphs that each pass can fail as a run; one Emulate call over the run fixed it), the next round sends the flagged runs to Emulate whole, P18 to P28 first.
+
+Over the turn (2026-10-03 04:03 onward, API batches 1 to 8, 118 checks besides the two calibration texts): mine 78 of 118.
