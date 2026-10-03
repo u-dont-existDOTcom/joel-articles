@@ -330,6 +330,417 @@ WHY7 = {
 }
 
 
+# v8: Joel's answers of 2026-10-03 04:03: the first-person lines are his, the ego deaths were at 25, "psychedelic
+# medicine" in P3's widened advice, and P33 says the step he meant ("if people are training to spread the communal
+# system then it's not an escape from society it's building a genuine alternative")
+V[8] = dict(V[7])
+V[8].update({
+ 'P3': V[7]['P3'].replace("if medicine is going to be part of a community at all", "if psychedelic medicine is going to be part of a community at all"),
+ 'P10': V[7]['P10'].replace("ego deaths at 26,", "ego deaths at 25,"),
+ 'P33': "After the euphoria wears off and the call sobers up, it can become useful. A community can be a training ground where people learn the practices, care for one another, and sometimes go off to start another one. If people are training there to spread the communal system, they’re building a genuine alternative to society instead of escaping it. That answers the reasonable objection that communes are just privileged escape pods.",
+})
+for k in ('P3', 'P10'):
+    assert V[8][k] != V[7][k], k
+SRC8 = dict(SRC7)
+WHY8 = {
+ 'P3': ['v8 (Joel, 04:03): "wider version is good but i\'d say \'psychedelic medicine\' since medicine is too general".'],
+ 'P10': ['v8 (Joel, 04:03): the first-person lines are his, and the age was 25: "i found out it was age 25 not age 26".'],
+ 'P33': ['v8 (Joel, 04:03): the paragraph now says his step: "if people are training to spread the communal system then it\'s not an escape from society it\'s building a genuine alternative". Section 1 makes the same point ("some eventually leave to start the next one. Otherwise, we\'ve built a lovely refuge for whoever got there first"), but nothing may lean on a point sections back, so P33 says it itself. "Sometimes go off to start another one" (published: "sometimes leave to begin another experiment").'],
+}
+
+
+# v9: lists of three (E125/E126, Joel 2026-10-03 00:00-01:06, in the shared gate since main's turn 20-21): "lists of 3 in
+# general are an ai pattern"; "when there's no actual need for 3 items you can remove one of them, the one that matters
+# the least. when you need all 3 items to be there for meaning, then split it up". The linter failed v8's P3 (two lists)
+# and flagged single lists in P7, P8, P15, P17, P20, P22, P27, P28 and P33, none of them checked on Pangram yet (P2's
+# and P4's flags stay: both pass on Pangram; P16's is a false hit on "music and dance … habits and all").
+V[9] = dict(V[8])
+V[9].update({
+ 'P3': "To be sure, the legality of psychedelics varies by country and by state. It varies by substance, too. And it can depend on a group’s religious status and on what exactly it does. So if psychedelic medicine is going to be part of a community at all, that community should definitely get actual local legal advice.",
+ 'P7': V[8]['P7'].replace("insight doesn’t get the dishes done, or the agreements revised, or a frightened child calmed down.", "insight doesn’t get the dishes done or calm down a frightened child."),
+ 'P8': V[8]['P8'].replace("They can also produce confusion, grandiosity, dependency, and messy interactions with other people.", "They can also produce confusion and grandiosity. People can get dependent on them, and things between people can get messy."),
+ 'P15': V[8]['P15'].replace("Having people that can bring water, be close by, or sit quietly with somebody", "Having people that can bring water, or sit quietly with somebody"),
+ 'P17': "Yeah, I won’t idealize psychedelics. There will be people that shouldn’t do them. There will be communities that shouldn’t be doing them. And enthusiasm will create casualties wherever the competence hasn’t caught up with the access. If a community is going to dive into this it needs to do so in a humble way. Sometimes the answer has to be no, or not yet. Sometimes it means sending someone to an outside expert. And when an experience caused harm, the community has to admit it.",
+ 'P20': V[8]['P20'].replace("the person everybody consults, trusts, and gradually stops questioning", "the person everybody trusts and gradually stops questioning"),
+ 'P22': "But peer led never means casual. It means screening for medical and psychiatric contraindications and going over everyone’s medications and combinations. There has to be an appropriate sober sitter. And before anybody takes anything, the group decides what calls for professional or emergency care. When authority is distributed, the bar of required competence actually goes up.",
+ 'P27': "Supports matter more than how the ceremony looks. That means preparation and nutrition. It means screening for interactions and dose discipline, too. And there has to be an emergency plan. I keep my current safety material in [Altered States Triage](%s)." % L('Altered States Triage'),
+ 'P28': "Legal issues differ greatly, and are sometimes not well defined, so a community should write down where it stands: what’s allowed and what’s prohibited. It should write down what it keeps private and what’s actually insured. And it should note which activities have had a legal review. “I don’t think anybody here has ever heard of that” is information, but it’s not the same as a legal opinion.",
+ 'P33': V[8]['P33'].replace("where people learn the practices, care for one another, and sometimes go off to start another one.", "where people learn the practices and sometimes go off to start another one."),
+})
+for k in ('P7', 'P8', 'P15', 'P20', 'P33'):
+    assert V[9][k] != V[8][k], k
+SRC9 = dict(SRC8)
+WHY9 = {
+ 'P3': ['v9 (E125): v8 had two lists in one sentence ("country, state, substance, religious status, what exactly one does, and so on"); all five axes are the published claim, so they\'re split, two to a sentence; Emulate\'s "and so on" out.'],
+ 'P7': ['v9 (E125): "or the agreements revised" out, the item that matters least, which also takes away the clash with Joel\'s section 4 correction that people do come back from visions with practical ideas (stance ledger D1).'],
+ 'P8': ['v9 (E125): the four harms kept, split: "confusion and grandiosity", then dependency and the mess between people.'],
+ 'P15': ['v9 (E125): "be close by" out (the person sitting with you is close by).'],
+ 'P17': ['v9 (E125): the four things kept, split into sentences: no or not yet, an outside expert, admitting harm.'],
+ 'P20': ['v9 (E125): "consults" out; the person everybody "trusts and gradually stops questioning" carries the danger.'],
+ 'P22': ['v9 (E125): the four requirements kept, split; "the group decides" for the published imperative "Decide … before anybody takes anything".'],
+ 'P27': ['v9 (E125): the five supports kept, two to a sentence and the emergency plan alone.'],
+ 'P28': ['v9 (E125): the five things to write down kept, split two, two and one; "actually insured" (the grounding review: a record of real coverage).'],
+ 'P33': ['v9 (E125): "care for one another" out: the paragraph\'s argument is about training people who go off to start another one.'],
+}
+
+
+# v10: what the v9 gate found (TRACE-v9-A and B, STANCE-v9; its finding on "25" is Joel's own correction)
+V[10] = dict(V[9])
+V[10].update({
+ 'P8': V[9]['P8'].replace("People can get dependent on them, and things between people can get messy.", "They can produce dependency, too, and things between people can get messy."),
+ 'P17': V[9]['P17'].replace("Sometimes the answer has to be no, or not yet.", "Sometimes the answer has to be no, or a pause."),
+ 'P28': V[9]['P28'].replace("It should write down what it keeps private and what’s actually insured.", "It should write down which activities are private and what’s actually insured."),
+ 'P33': "After the euphoria wears off and the call sobers up, it can become useful. A community can be a training ground where people learn the practices and sometimes go off to start another experiment. If people are training there to spread communal living, they’re building a genuine alternative to society, not just escaping it. That answers the reasonable objection that communes are just privileged escape pods.",
+})
+for k in ('P8', 'P17', 'P28'):
+    assert V[10][k] != V[9][k], k
+SRC10 = dict(SRC9)
+WHY10 = {
+ 'P8': ['v10 (trace): "dependency" unspecified again (v9\'s "People can get dependent on them" made it dependence on the medicines).'],
+ 'P17': ['v10 (trace): "or a pause" (published: "pause"; v9\'s "not yet" only deferred).'],
+ 'P28': ['v10 (trace): "which activities are private" (v9\'s "what it keeps private" read as recording what it hides).'],
+ 'P33': ['v10 (stance, trace): "spread communal living" (v9\'s "the communal system" read as one system to copy, where the essay says the transmission needs no "one official version"); "start another experiment" (published); "not just escaping it" (the published objection is "merely" escape pods, and the essay elsewhere values community as an exit too: "I\'d rather have community and discover I didn\'t need an exit").'],
+}
+
+
+# v11: what the v10 gate found in P33 (STANCE-v10: "spread communal living" and "a genuine alternative to society"
+# read as a rival society, where the essay's outward purpose is to "help other people build"); "a genuine
+# alternative" stays: it is Joel's own framing (04:03), and goes to him as information
+V[11] = dict(V[10])
+V[11].update({
+ 'P33': V[10]['P33'].replace("If people are training there to spread communal living, they’re building a genuine alternative to society, not just escaping it.", "If people are training there so they can help others build communities like it, they’re building a genuine alternative, not just escaping society."),
+})
+assert V[11]['P33'] != V[10]['P33']
+SRC11 = dict(SRC10)
+WHY11 = {'P33': ['v11 (stance): "so they can help others build communities like it" (the essay\'s outward purpose: "to help other people build"; v10\'s "spread communal living" read as a rival society). "A genuine alternative, not just escaping society" keeps Joel\'s framing of 04:03.']}
+
+
+
+# v12: the paragraphs still reading AI after API batches 1 to 3, rebuilt by fresh writers (Emulate's key returned 403
+# from 04:30): eight Opus writers, one brief each (writers/W1-W8.txt, built by writers/build_writers.py), three
+# variants each (writers/outputs-raw.md, exact). Picked on meaning, with the earlier gates' findings applied (fixlog);
+# apostrophes made the article's. v13 is the alternate set, gated with v12 so a paragraph that still reads AI has a
+# gated replacement ready.
+WL = lambda t: re.sub(r"\[\[(.+?)\]\]", lambda m: '[%s](%s)' % (m.group(1), WRITER_LINKS[m.group(1)]), t).replace("'", "’")
+WRITER_LINKS = {
+ "Oregon's licensed psilocybin service centers": L('Oregon’s licensed psilocybin service centers'),
+ 'limited access to psilocybin and MDMA': L('authorized psychiatrists have had limited access to psilocybin and MDMA'),
+ 'authorized psychiatrists limited access to psilocybin and MDMA': L('authorized psychiatrists have had limited access to psilocybin and MDMA'),
+ 'Medical Psilocybin Act': L('Medical Psilocybin Act'),
+ 'peer-held ceremonies': L('peer-held ceremonies'),
+ 'the best psychopath shaman I ever met': L('the best psychopath shaman I ever met'),
+ 'ketamine and MDMA': L('ketamine and MDMA'),
+ 'bufo': L('bufo'),
+ 'Altered States Triage': L('Altered States Triage'),
+}
+V[12] = dict(V[11])
+V[12].update({
+ 'P1': WL("If you went by most of what's written about communities, you'd badly underestimate how quickly psychedelics have moved from taboo toward regulated use. Australia's authorized psychiatrists have had [[limited access to psilocybin and MDMA]] for specified conditions since 2023, and [[Oregon's licensed psilocybin service centers]] began opening that year. In 2025, New Mexico enacted a [[Medical Psilocybin Act]] and Colorado started licensing under a regulated natural-medicine system it created."),
+ 'P7': WL("They also attract people who love revelation but can't stand the follow-through. You can meet someone with 12 ceremonies and a pile of origin stories who still can't apologize to a housemate. Eventually, a community organized mainly around the peak experience learns that the practical work of living together is still there after the insight (somebody has to wash dishes and calm a frightened child)."),
+ 'P8': WL("From what I've seen, the case for communal use is real too. Psychedelics can loosen the defenses that otherwise take over every serious conversation. People who sit through difficult nights together can end up powerfully bonded. But psychedelics can also leave people confused or grandiose. Some end up dependent. And then there's the mess between people. Is the community around them mature enough to tell the difference?"),
+ 'P12': WL("In a community, though, your sober sitter may be someone who's known you for years, and you feel the difference between being watched and being held. That matters even more with iboga and other long, medically risky experiences, which require screening beforehand and continuous observation."),
+ 'P13': WL("Peers can reality-check the downloads too, since psychedelics produce genuine insight and convincing nonsense, and the two look alike (same lighting and everything). Friends who know your history may notice which parts look like a new understanding and which look like your mother."),
+ 'P14': WL("And people living together fall into a rhythm. Many traditional medicine systems hold ceremonies on communal timing, not one person's appetite. With a shared calendar, folks can cut down on compulsive repetition and leave time for integration."),
+ 'P17': WL("But I won't idealize psychedelics. Some people and communities should avoid them. Where access is ahead of know-how, people will become casualties of somebody's enthusiasm. Is your community humble enough to say no, or pause? Using the medicine takes that. It also takes humility to refer people out, and admit when an experience did harm."),
+ 'P18': WL("No special shamans, which traditional lineages usually disagree with me on. Many ayahuasca and Bwiti communities believe the medicine should stay under the authority of whoever's trained in the lineage. And I've learned from those traditions myself. I respect what they've preserved."),
+ 'P20': WL("In a peer-led medicine culture, how do you keep an informal shaman from showing up anyway? That's the person everybody trusts and slowly stops questioning, even though nobody gave them the title. I don't know yet. Rotating roles might help, and so might public accountability. I don't think either one fixes it all the way."),
+ 'P21': WL("Still, I want people to learn to guide themselves and care for each other, within the limits of their competence. I've written more about [[peer-held ceremonies]], and about [[the best psychopath shaman I ever met]]."),
+ 'P22': WL("Peer-led never means casual. When authority is spread across a group, people need more competence, not less. So there's screening for medical and psychiatric contraindications, plus a review of medications and combinations. You need an appropriate sober sitter. And before anybody takes anything, it's already settled what calls for professional or emergency care."),
+ 'P23': WL("Also, I'm especially cautious about medicines and protocols I consider more destabilizing or more of a medical burden. That includes some uses of [[ketamine and MDMA]] and [[bufo]]. My reasons are in those articles, not smuggled into one sentence here."),
+ 'P24': WL("The medicine stays behind the other pl/ork. Reparenting and somatic capacity come first. Peer counseling does too. Nobody gets months of honest relationship by pharmacological decree, but if a practice is already there, medicine can deepen it."),
+ 'P25': WL("Making that a prerequisite also keeps out experience collectors. If someone won't spend 6 months learning to listen without fixing, they're unlikely to become more relationally mature because the visions were especially geometric."),
+ 'P26': WL("Integration is just regular life. The ceremony opens something, and you find out in the weeks after whether anything changed. Changes show up in relationships and daily behavior. You'll see them in sleep and decisions too. Another sign is whether the person can tolerate frustration without declaring a new spiritual emergency."),
+ 'P27': WL("Supports matter. By supports I mean preparation and nutrition. I also mean interaction screening and dose discipline. Plus an emergency plan, worked out ahead of time. That all matters more than ceremony aesthetics. My current safety material is in [[Altered States Triage]]."),
+ 'P31': WL("Yeah, the call may be real. A community founded on omnipotence is a terrible idea."),
+})
+for k in ('P1', 'P7', 'P8', 'P12', 'P13', 'P14', 'P17', 'P18', 'P20', 'P21', 'P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P31'):
+    assert V[12][k] != V[11][k] and "'" not in V[12][k] and '[[' not in V[12][k], k
+SRC12 = dict(SRC11)
+SRC12.update({'P1': 'writer W1 C', 'P7': 'writer W2 A', 'P8': 'writer W2 A', 'P12': 'writer W3 A', 'P13': 'writer W3 A', 'P14': 'writer W3 A',
+              'P17': 'writer W4 C', 'P18': 'writer W5 A', 'P20': 'writer W6 A', 'P21': 'writer W7 A', 'P22': 'writer W7 B', 'P23': 'writer W7 A',
+              'P24': 'writer W7 A', 'P25': 'writer W7 A', 'P26': 'writer W7 A', 'P27': 'writer W7 C', 'P31': 'writer W8 A'})
+WHY12 = {
+ 'P1': ['v12: v11 read 100% AI (try 1, batch 1). Writer W1 C, exact: the five facts as published (enacted, authorized, limited access, specified conditions), the pace as "you\'d badly underestimate how quickly" (published: "much faster than most community literature has acknowledged"), grouped by year.'],
+ 'P7': ['v12: v11 read 100% AI (try 3). Writer W2 A, exact: "12 ceremonies" is the published "twelve ceremonies"; "can\'t stand" for "hate"; insight doesn\'t do the practical work (dishes, a frightened child; "revise agreements" stays out, v9).'],
+ 'P8': ['v12: v11 read 100% AI (try 1, batch 3). Writer W2 A, with "From what I\'ve seen, … real too" for its "I\'ve also found … is real" (linter B13: six paragraphs opened with "I"), and "Some end up dependent" for its "Some folks get dependent on them" (dependency unspecified, as v10\'s trace asked); the question stays a question.'],
+ 'P12': ['v12: v11 read 100% AI (try 1, batch 1). Writer W3 A, with "you feel" for its "you can feel" (linter E41: one "you can" in 47 words is coach density 2.1): "though" answers P11\'s four-hour stranger; the held/watched difference matters more with iboga, which requires screening and continuous observation.'],
+ 'P13': ['v12: v11 read 100% AI alone and with P14 (try 1). Writer W3 A, with "(same lighting and everything)" added: the writers dropped the published quip "with identical lighting", and a joke stays unless Joel cuts it.'],
+ 'P14': ['v12: P13P14 read 100% AI. Writer W3 A, exact: folks cut down on repetition with a shared calendar (the community doesn\'t permit, v2 stance).'],
+ 'P17': ['v12: v11 read 100% AI alone (try 1). Writer W4 C, with "But" first (B13; writer W4 A\'s opener, after P16\'s rave): "where access is ahead of know-how" leaves whose competence open (v4 trace: naming the users\' competence was a shift); the four duties as two and two.'],
+ 'P18': ['v12: H2bP18P19 read 100% AI (try 2). Writer W5 A, exact: the rule opens the paragraph; "usually"; the lineages\' belief is the ayahuasca and Bwiti communities\'.'],
+ 'P20': ['v12: v11 read 100% AI (try 1). Writer W6 A, exact: Joel\'s open question asked as a question, then "I don\'t know yet"; "might help"; "I don\'t think either one fixes it all the way".'],
+ 'P21': ['v12: the P21 to P27 run read AI in every window. Writer W7 A, with "Still," first (B13, as v5): "I want" (Joel\'s community), within the limits of their competence, both links on their words.'],
+ 'P22': ['v12: v11 read 100% AI (try 1) and 57% AI with P21. Writer W7 B, exact: the reason first (spread authority, more competence), then the four requirements; the emergency decision settled "before anybody takes anything".'],
+ 'P23': ['v12: writer W7 A, with "Also," first (B13): "some uses of" both links, "I consider", "smuggled".'],
+ 'P24': ['v12: writer W7 A, exact: "stays behind", the three practices first (two and one), "by pharmacological decree" back.'],
+ 'P25': ['v12: writer W7 A, exact: "unlikely" (published) for v11\'s question; "6 months".'],
+ 'P26': ['v12: writer W7 A, exact: all five places a change shows, two, two and one.'],
+ 'P27': ['v12: writer W7 C, exact: the five supports, two, two and one; an emergency plan worked out ahead of time; "more than ceremony aesthetics".'],
+ 'P31': ['v12: three versions read AI with P32 (try 3 in batch 1). Writer W8 A, exact: the concession, then omnipotence as a bad basis for any community (not timing, v7 stance). To be checked with P30, which passes alone.'],
+}
+
+# v13: the alternates (gated with v12; each replaces its v12 paragraph only if v12's reads AI)
+V[13] = dict(V[12])
+V[13].update({
+ 'P1': WL("Most people writing about communities are way behind on how fast psychedelics have moved from taboo toward regulated use. [[Oregon's licensed psilocybin service centers]] started opening in 2023, and Colorado, which created a regulated natural-medicine system, began licensing in 2025. New Mexico enacted a [[Medical Psilocybin Act]] that same year. And since 2023, Australia has given [[authorized psychiatrists limited access to psilocybin and MDMA]] for specified conditions."),
+ 'P7': WL("They're also a magnet for people who are all about revelation and hate the follow-through. Some have done lots of ceremonies and have plenty of origin stories, and still can't apologize to a housemate. Organize a community mainly around the peak experience and you'll eventually find that living together still takes practical work after the insight, like washing dishes or calming a frightened child."),
+ 'P8': WL("My experience is that the case for communal use is real too, since on psychedelics the defenses that usually dominate every serious conversation can loosen, and people who sit through hard nights together can form a powerful bond. Psychedelics can also leave people confused. Or grandiose. And some end up dependent, or in a mess with each other. Does the community around them have the maturity to tell those apart?"),
+ 'P12': WL("In a community, your sober sitter may be somebody who's known you for years. Being held by a person like that feels different from being watched, which counts for even more with something long and medically risky like iboga (screening beforehand and continuous observation are essential there)."),
+ 'P13': WL("Your peers can reality-check the downloads, too. Psychedelics produce convincing nonsense alongside genuine insight, and the two look alike, right down to the lighting. Friends who know your history may notice which parts look like a new understanding. And which parts look like your mother."),
+ 'P14': WL("Communities also run on a rhythm. In many traditional medicine systems, ceremonies happen on communal timing rather than individual appetite, and sharing a calendar that way can mean less compulsive repetition and more time for integration."),
+ 'P17': WL("But I won't idealize psychedelics. Some people should avoid them, and some communities shouldn't use them. Wherever access gets ahead of skill, eager folks will cause casualties. A community on this path needs the humility to say no or hit pause. Same goes for referring people out, and owning up when an experience did harm."),
+ 'P18': WL("No special shamans. Traditional lineages tend to disagree with me, and many ayahuasca and Bwiti communities will tell you the medicine should stay in the hands of trained lineage holders. These are traditions I've learned from, and I respect what they've preserved."),
+ 'P20': WL("Even a peer-led medicine culture can end up with an informal shaman (the person everybody trusts and gradually stops questioning, though nobody gave them the title). I don't know yet how to prevent that, other than maybe rotating roles and public accountability. And I don't think either one is a complete fix."),
+ 'P21': WL("Still, I want people to learn to guide themselves and to care for each other. And I want them to respect the limits of their competence. (I've written more about [[peer-held ceremonies]] and [[the best psychopath shaman I ever met]].)"),
+ 'P22': WL("Peer-led never means casual. Before anybody takes anything, the group decides what calls for professional or emergency care. People get screened for medical and psychiatric contraindications. Somebody reviews their medications, combinations included. The sober sitter has to be appropriate. Spread authority around and the bar for competence goes up, not down."),
+ 'P23': WL("Also, I consider some medicines and protocols more destabilizing or medically burdensome, and I'm especially cautious with those. Some uses of [[ketamine and MDMA]] and [[bufo]] fall into that category. The linked articles explain why. I'm not smuggling that into one sentence here."),
+ 'P24': WL("The medicine stays behind the rest of the pl/ork. First comes reparenting, along with somatic capacity. So does peer counseling. Medicine can deepen a practice that's already there. Months of honest relationship, though? You can't create those by pharmacological decree."),
+ 'P25': WL("This prerequisite also filters out experience collectors, since someone who won't spend six months learning to listen without fixing is unlikely to become more relationally mature just because the visions were especially geometric."),
+ 'P27': WL("Supports matter more than the aesthetic details of the ceremony. Preparation and nutrition are supports. So are interaction screening and dose discipline. And somebody plans for emergencies in advance. My current safety material is in [[Altered States Triage]]."),
+ 'P31': WL("Maybe the call itself is real. I'm not saying it isn't. But that feeling of omnipotence makes a terrible foundation for a community."),
+})
+for k in ('P1', 'P7', 'P8', 'P12', 'P13', 'P14', 'P17', 'P18', 'P20', 'P21', 'P22', 'P23', 'P24', 'P25', 'P27', 'P31'):
+    assert V[13][k] != V[12][k] and "'" not in V[13][k] and '[[' not in V[13][k], k
+SRC13 = dict(SRC12)
+SRC13.update({'P1': 'writer W1 B', 'P7': 'writer W2 C', 'P8': 'writer W2 C', 'P12': 'writer W3 C', 'P13': 'writer W3 C', 'P14': 'writer W3 C',
+              'P17': 'writer W4 A, edited', 'P18': 'writer W5 C', 'P20': 'writer W6 C', 'P21': 'writer W7 B, edited', 'P22': 'writer W7 A', 'P23': 'writer W7 C',
+              'P24': 'writer W7 B', 'P25': 'writer W7 B', 'P27': 'writer W7 A', 'P31': 'new (mine)'})
+WHY13 = {
+ 'P1': ['v13 (alternate): writer W1 B, exact.'],
+ 'P7': ['v13 (alternate): writer W2 C, exact.'],
+ 'P8': ['v13 (alternate): writer W2 C, exact ("some end up dependent": dependency unspecified).'],
+ 'P12': ['v13 (alternate): writer W3 C, exact.'],
+ 'P13': ['v13 (alternate): writer W3 C, with ", right down to the lighting" (the published quip, kept), and "Your peers can" for its "You can have your peers" (linter E41).'],
+ 'P14': ['v13 (alternate): writer W3 C, exact.'],
+ 'P17': ['v13 (alternate): writer W4 A, with "Wherever access gets ahead of skill, eager folks will cause casualties" for its "Eager folks with more access than skill will cause casualties" (whose competence stays open, v4 trace).'],
+ 'P18': ['v13 (alternate): writer W5 C, exact (W5 B opened with "I", B13).'],
+ 'P20': ['v13 (alternate): writer W6 C, exact.'],
+ 'P21': ['v13 (alternate): writer W7 B, with "Still," first (B13) and "to respect" for its "respecting".'],
+ 'P22': ['v13 (alternate): writer W7 A, exact.'],
+ 'P23': ['v13 (alternate): writer W7 C, with "Also," first (B13).'],
+ 'P24': ['v13 (alternate): writer W7 B, exact.'],
+ 'P25': ['v13 (alternate): writer W7 B, exact.'],
+ 'P27': ['v13 (alternate): writer W7 A, exact.'],
+ 'P31': ['v13 (alternate): mine ("Maybe", not "The", first: B13): the concession said aloud ("I\'m not saying it isn\'t"), and "that feeling of omnipotence" ties the word to P30\'s grandiosity.'],
+}
+
+
+
+# v14: v12 with what its gate found (TRACE-v12-A and B, STANCE-v12, SENSE-v12, GROUNDING-v12); v15: v13 (the
+# alternates) with what its gate found (TRACE-v13-A and B, STANCE-v13, SENSE-v13, GROUNDING-v13). Both stance checks
+# found Joel's "25" (his own correction, information only); STANCE-v13 also found P33's "communities like it" (mine).
+def fix(d, k, a, b):
+    assert d[k].count(a) == 1, (k, a)
+    d[k] = d[k].replace(a, b)
+V[14] = dict(V[12])
+fix(V[14], 'P2', "It hasn't been a smooth ride, either, and it isn't inevitable.", "It hasn't been a smooth ride, though, and it isn't inevitable.")
+fix(V[14], 'P7', "You can meet someone with 12 ceremonies and a pile of origin stories who still can’t apologize to a housemate. Eventually, a community organized mainly around the peak experience learns that", "You can meet someone who’s collected 12 ceremonies and 6 origin stories and still can’t apologize to a housemate. Any community organized mainly around the peak experience will eventually learn that")
+fix(V[14], 'P8', "From what I’ve seen, the case for communal use is real too. Psychedelics can loosen the defenses that otherwise take over every serious conversation. People who sit through difficult nights together can end up powerfully bonded. But psychedelics can also leave people confused or grandiose. Some end up dependent. And then there’s the mess between people. Is the community around them mature enough to tell the difference?",
+    "But in my experience, the case for communal use is real too. Psychedelics can loosen the defenses that otherwise take over every serious conversation. People who sit through difficult nights on them together can end up powerfully bonded. Psychedelics can also leave people confused or grandiose. Some can end up dependent. And then there’s the mess between people. Is the community around them mature enough to tell the good from the bad?")
+fix(V[14], 'P14', "And people living together fall into a rhythm.", "And community creates a rhythm.")
+fix(V[14], 'P17', "Where access is ahead of know-how, people will become casualties of somebody’s enthusiasm.", "Where access is ahead of competence, people will become casualties of enthusiasm.")
+fix(V[14], 'P18', "believe the medicine should stay under the authority of whoever’s trained in the lineage.", "believe the medicine should stay under the authority of trained lineage holders.")
+fix(V[14], 'P22', "So there’s screening for medical and psychiatric contraindications, plus a review of medications and combinations. You need an appropriate sober sitter. And before anybody takes anything, it’s already settled what calls for professional or emergency care.",
+    "So there has to be screening for medical and psychiatric contraindications, plus a review of medications and combinations. You need an appropriate sober sitter. And before anybody takes anything, the group has to settle what calls for professional or emergency care.")
+fix(V[14], 'P26', "Changes show up in relationships and daily behavior. You’ll see them in sleep and decisions too.", "Any change would show up in relationships and daily behavior. You’d see it in sleep and decisions too.")
+fix(V[14], 'P33', "so they can help others build communities like it,", "so they can help others build communities of their own,")
+SRC14 = dict(SRC12)
+WHY14 = {
+ 'P2': ['v14 (cold read, both runs; SENSE-v3 too): "though" for "either" (the paragraph before is all progress, so "either" had no negative to pair with).'],
+ 'P7': ['v14 (trace): "who’s collected" (the published "collect", which sets up P25’s "experience collectors"); "12 ceremonies and 6 origin stories" (the published counts; "a pile" implied more); "Any community … will eventually learn" (the published prediction about every such community). "A new sacred name" stays out: the third item of the published list of three, the one that matters least (E125, Joel 2026-10-03).'],
+ 'P8': ['v14 (trace, B13): "But in my experience" (published; "From what I’ve seen" narrowed it to watching others; "But" turns from the case against, and keeps the openers varied); the bonds come from difficult nights "on them" (psychedelics create the bonds, as published); "Some can end up dependent" (published: "can produce"); (cold read, both runs) "tell the good from the bad" (published: "tell those apart", the good effects from the harms).'],
+ 'P14': ['v14 (trace): "community creates a rhythm" (published: "Community creates rhythm"; "people living together fall into" made it something that happens to them).'],
+ 'P17': ['v14 (trace): "casualties of enthusiasm" (published: "enthusiasm will create casualties"; "somebody’s" pinned it on one person); "competence" (published) for "know-how".'],
+ 'P18': ['v14 (trace): "trained lineage holders" (published: "trained lineage authority"; "whoever’s trained" was any trained individual).'],
+ 'P22': ['v14 (trace): the requirements are requirements again ("has to be screening", "the group has to settle"; "there’s screening" and "it’s already settled" read as a description).'],
+ 'P26': ['v14 (trace): "Any change would show up … You’d see it" (the weeks show whether anything changed; "Changes show up" said they will).'],
+ 'P33': ['v14 (STANCE-v13): "communities of their own" (mine, v11’s "communities like it", read as copies of this one; the essay wants daughter communities free to differ, "with different values"). Joel’s "spread the communal system" (04:03) is about communal living, not this community’s model.'],
+}
+V[15] = dict(V[13])
+for k in ('P2', 'P14', 'P26', 'P33'):
+    V[15][k] = V[14][k]   # P14 too: v13's P14 had no finding, but v14's fix is the published claim; P26 has no alternate
+V[15]['P14'] = V[13]['P14']
+fix(V[15], 'P1', "Most people writing about communities are way behind on how fast", "Most of what’s been written about communities is way behind on how fast")
+fix(V[15], 'P7', "Some have done lots of ceremonies and have plenty of origin stories, and still can’t apologize to a housemate.", "Someone can collect 12 ceremonies and 6 origin stories and still not be able to apologize to a housemate.")
+fix(V[15], 'P8', "and people who sit through hard nights together can form a powerful bond.", "and people who sit through hard nights on them together can form a powerful bond.")
+fix(V[15], 'P8', "And some end up dependent, or in a mess with each other. Does the community around them have the maturity to tell those apart?", "And some can end up dependent, or in a mess with each other. Does the community around them have the maturity to tell the good from the bad?")
+fix(V[15], 'P12', "Being held by a person like that feels different from being watched, which counts for even more with something", "Being held by a person like that feels different from being watched. That counts for even more with something")
+fix(V[15], 'P17', "Wherever access gets ahead of skill, eager folks will cause casualties.", "Wherever access gets ahead of competence, enthusiasm is going to leave casualties.")
+fix(V[15], 'P18', "Traditional lineages tend to disagree with me, and many", "Traditional lineages tend to disagree with me on this, and many")
+fix(V[15], 'P20', "I don’t know yet how to prevent that, other than maybe rotating roles and public accountability.", "I don’t know yet how to prevent that. Rotating roles and public accountability might help.")
+fix(V[15], 'P21', "to care for each other. And I want them to respect the limits of their competence.", "to care for each other, while respecting the limits of their competence.")
+fix(V[15], 'P22', "Before anybody takes anything, the group decides what calls for professional or emergency care. People get screened for medical and psychiatric contraindications. Somebody reviews their medications, combinations included. The sober sitter has to be appropriate.",
+    "Before anybody takes anything, the group has to decide what calls for professional or emergency care. People need screening for medical and psychiatric contraindications. Their medications need reviewing, combinations included. There has to be an appropriate sober sitter.")
+fix(V[15], 'P24', "First comes reparenting, along with somatic capacity. So does peer counseling.", "Reparenting and somatic capacity come first. So does peer counseling.")
+fix(V[15], 'P25', "This prerequisite also filters out experience collectors, since someone who won’t", "This prerequisite also filters out experience collectors. Someone who won’t")
+fix(V[15], 'P27', "So are interaction screening and dose discipline. And somebody plans for emergencies in advance.", "So are interaction screening and dose discipline. An emergency plan made in advance is one too.")
+fix(V[15], 'P31', "Maybe the call itself is real. I’m not saying it isn’t. But that feeling", "Maybe the call itself is real. But that feeling")
+SRC15 = dict(SRC13)
+WHY15 = {
+ 'P1': ['v15 (trace): "Most of what’s been written" (published: the literature; "people writing" faulted the writers).'],
+ 'P7': ['v15 (trace): "Someone can collect 12 ceremonies and 6 origin stories" (published: a possibility, the "collect" that sets up P25, the counts; "Some have done" asserted such people exist).'],
+ 'P8': ['v15 (trace): bonds from hard nights "on them"; "some can end up dependent" (published: "can produce"); (cold read) "the good from the bad".'],
+ 'P12': ['v15 (trace, grounding): "That counts for even more" (v13’s "which" could attach to "being watched").'],
+ 'P17': ['v15 (trace, stance close call): "enthusiasm is going to leave casualties" (published: "enthusiasm will create casualties"; "eager folks will cause" made people the perpetrators); "competence" (published).'],
+ 'P18': ['v15 (trace): "disagree with me on this" (published: "here"; without it the disagreement wasn’t limited to this point).'],
+ 'P20': ['v15 (trace): "Rotating roles and public accountability might help" (published: "may help"; "other than maybe" made them the only ideas).'],
+ 'P21': ['v15 (trace): "while respecting the limits of their competence" (published; "And I want them to respect" made it a separate want).'],
+ 'P22': ['v15 (trace, stance close call): the requirements are requirements ("has to decide", "need screening", "need reviewing", "There has to be"); no new "Somebody".'],
+ 'P24': ['v15 (trace): "Reparenting and somatic capacity come first. So does peer counseling." (v13’s "First comes reparenting, along with somatic capacity" ranked them).'],
+ 'P25': ['v15 (trace): two sentences, as published ("since" made one the reason for the other).'],
+ 'P27': ['v15 (trace): "An emergency plan made in advance is one too" (a support, as published; "somebody plans" added a person).'],
+ 'P31': ['v15 (trace): "I’m not saying it isn’t" out (it strengthened the concession).'],
+}
+
+
+
+# v16: the candidate after API batch 4a (05:52 UTC). P12, P21, P23, P27 and P31 (with P30) pass; P1, P13, P20, P24 and
+# P25 read AI, so their gated alternates (v15) go in as the next try; and what the round-2 gate found (TRACE-v14-A,
+# TRACE-v15-A and B, STANCE-v14 and v15, SENSE-v14 and v15) in P8 and P22. v17: the alternate set with the same fixes.
+V[16] = dict(V[14])
+for k in ('P1', 'P13', 'P20', 'P24', 'P25'):
+    V[16][k] = V[15][k]
+fix(V[16], 'P8', "People who sit through difficult nights on them together can end up powerfully bonded. Psychedelics can also leave people confused or grandiose. Some can end up dependent. And then there’s the mess between people.",
+    "And sitting through a difficult medicine night together can bond people powerfully. Then again, psychedelics can also leave people confused or grandiose. They can leave some people dependent, too. And then there’s the mess they can make between people.")
+fix(V[16], 'P8', "They can leave some people dependent, too.", "They can leave people dependent, too.")
+fix(V[16], 'P22', "And before anybody takes anything, the group has to settle what calls for professional or emergency care.", "And what calls for professional or emergency care has to be settled before anybody takes anything.")
+SRC16 = dict(SRC14)
+SRC16.update({k: SRC15[k] for k in ('P1', 'P13', 'P20', 'P24', 'P25')})
+WHY16 = {
+ 'P1': ['v16: v14’s P1 (writer W1 C) read 100% AI (batch 4a); the gated alternate (v15, writer W1 B) is the next try.'],
+ 'P13': ['v16: v14’s P13 read 100% AI alone and with P12, which passes alone (batch 4a); the gated alternate (v15, writer W3 C) is the next try.'],
+ 'P20': ['v16: v14’s P20 (writer W6 A) read 100% AI (batch 4a); the gated alternate (v15, writer W6 C) is the next try.'],
+ 'P24': ['v16: v14’s P24 read 100% AI alone and with P23 and P25 (batch 4a); the gated alternate (v15, writer W7 B) is the next try.'],
+ 'P25': ['v16: v14’s P25 read 100% AI alone and with P24 (batch 4a); the gated alternate (v15, writer W7 B) is the next try.'],
+ 'P8': ['v16 (TRACE-v14 and v15): "sitting through a difficult medicine night together can bond people powerfully" (published: psychedelics create the bonds when people sit through difficult nights; "on them" put everyone in the bond on the drug); "They can leave some people dependent, too", "the mess they can make" (published: psychedelics produce both; the dependency stays unspecified, v10); (SENSE-v14) "Then again" marks the swing back to the harms; (TRACE-v16-A) "leave people dependent", not "some people" (published: dependency at the same strength as the other harms).'],
+ 'P22': ['v16 (TRACE-v15-B): "what calls for professional or emergency care has to be settled before anybody takes anything" (published: an instruction that names no decider; "the group" named one).'],
+}
+V[17] = dict(V[15])
+fix(V[17], 'P8', "My experience is that the case for communal use is real too, since on psychedelics the defenses that usually dominate every serious conversation can loosen, and people who sit through hard nights on them together can form a powerful bond.",
+    "My experience is that the case for communal use is real too. On psychedelics, the defenses that usually dominate every serious conversation can loosen. And sitting through a hard medicine night together can form a powerful bond.")
+fix(V[17], 'P18', "many ayahuasca and Bwiti communities will tell you the medicine should stay in the hands of trained lineage holders.", "many ayahuasca and Bwiti communities believe the medicine should stay in the hands of trained lineage holders.")
+fix(V[17], 'P22', "Their medications need reviewing, combinations included.", "Medications and combinations need reviewing.")
+fix(V[17], 'P22', "Before anybody takes anything, the group has to decide what calls for professional or emergency care.", "What calls for professional or emergency care has to be decided before anybody takes anything.")
+SRC17 = dict(SRC15)
+WHY17 = {
+ 'P8': ['v17 (TRACE-v15-A): the benefits are general claims again, not the reasons inside "My experience is that" ("since" out); the bond from "a hard medicine night" sat through together (not everyone "on them").'],
+ 'P18': ['v17 (TRACE-v15-A): "believe" (published; "will tell you" distanced it).'],
+ 'P22': ['v17 (TRACE-v15-B): "Medications and combinations need reviewing" (published: "Review medications and combinations"; "their medications, combinations included" narrowed it to each person’s own); no decider named.'],
+}
+
+
+
+# v18: Emulate round 4 (2026-10-03 06:25 to 06:33 UTC, emu/outputs4.json; inputs emu-in4/, v16's gated text) for the
+# eleven paragraphs whose writer versions read AI (batches 4a to 4c), with the meaning put back by the smallest fixes
+# (WHY18). Each paragraph keeps Emulate's own sentences where they carry the meaning, and Emulate's characters
+# (straight apostrophes in g2, g5 and g6's paragraphs, as it returned them; curly where it used curly).
+V[18] = dict(V[16])
+V[18].update({
+ 'P1': "Most of the writing about communities feels outdated when it comes to psychedelics, primarily because they’ve gone from taboo toward regulated use so fast. [Licensed psilocybin service centers started opening in Oregon](%s) in 2023. Colorado created a regulated system for natural medicines and began licensing in 2025, and New Mexico enacted a [Medical Psilocybin Act](%s) also in 2025. In Australia, since 2023, [authorized psychiatrists have had limited access to psilocybin and MDMA](%s) for a specific list of conditions." % (L('Oregon’s licensed psilocybin service centers'), L('Medical Psilocybin Act'), L('authorized psychiatrists have had limited access to psilocybin and MDMA')),
+ 'P7': "They do also attract people who are all for revelation and hate the follow-through, people who can collect 12 ceremonies and 6 origin stories and still can't say sorry to their housemate. When you're running a community based mainly around the peak experience, you'll find out the insight doesn't do the practical work for you. Sometimes the dishes need doing and a scared kid needs comforting.",
+ 'P8': "My own experience shows there are real reasons for the communal use of psychedelics, too. One being that they lower the defenses that otherwise dominate every serious conversation, and the other that they can build a strong bond between a group of people going through the harder nights together. But there are negative aspects that can come from taking psychedelics, among them confusion and grandiosity. They can also bring dependency, and they can foul up the dynamics between people. The question is, are you mature enough as a community to pick through the good and the bad?",
+ 'P13': "Also your peers can help reality check any downloads you may have had. Psychedelics can create nonsense as well as genuine insight, and on the spot the two often feel very similar. Having a few friends that know your history can help you sort out what’s actually a new understanding from what’s just… mom showing up again.",
+ 'P14': "They can also help you time your ceremonies, since community creates a rhythm. A lot of traditional medicine systems rely on the community to time ceremonies rather than on individual appetite, and a shared calendar like that can help keep people out of a compulsive cycle of taking the medicine. It leaves more time for integrating, too.",
+ 'P18': "No special shamans here. This statement is usually contested by traditional lineages, and many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority. I respect what these traditions have preserved, and I’ve learned from them.",
+ 'P20': "Even in a culture of peer medicine, there could still be an informal \"shaman\", someone everyone trusts and gradually stops questioning, even though nobody gave them the title. I don't know yet how to avoid this. Things that might help would be to have rotation of roles, and to make everyone publicly accountable for what they do. Though neither of these seem like a complete solution.",
+ 'P22': "This doesn't mean that peer led is ever casual. It means more competence is required, since the authority is spread around. Screening for medical or psychiatric contraindications and reviewing medications and combinations is a must. An appropriate sober sitter is required. In addition, before anybody takes anything, it will be necessary to decide what should be dealt with by seeking professional help or emergency care.",
+ 'P24': "The medicine stays behind the other pl/ork. It’s a secondary thing, which comes after the most basic things: reparenting and somatic capacity, and also working with your peers (the counseling thing). It can improve upon something you already have. But you can’t, by decree (and what the medicine does is essentially a decree), grant someone months of honest relationship they haven’t had.",
+ 'P25': "This also keeps out the experience collectors. What’s the likelihood that someone who won’t spend six months learning to listen without fixing is going to become more relationally mature because the visions were especially geometric?",
+ 'P26': "Another thing is that your integration is, well, your life. Ceremony opens something, and if it had any effect on you, it’ll show up in the weeks after, in your relationships and your daily behavior. In your sleep and your decisions, too. It’s also in how well you tolerate frustration without declaring a new spiritual emergency.",
+})
+SRC18 = dict(SRC16)
+SRC18.update({'P1': 'g1-emuA (round 4)', 'P7': 'g2-emuA (round 4)', 'P8': 'g2-emuA (round 4)', 'P13': 'g3-emuA (round 4)', 'P14': 'g3-emuA (round 4)',
+              'P18': 'g4-emuA (round 4)', 'P20': 'g5-emuA (round 4)', 'P22': 'g6-emuA (round 4)', 'P24': 'g7-emuA (round 4)', 'P25': 'g7-emuA (round 4)', 'P26': 'g7-emuA (round 4)'})
+WHY18 = {
+ 'P1': ['v18: Emulate g1 A, with its heading-like first words ("Limitations of Existing Online Resources on Psychedelics") out; "writing about communities" (it had "writing online about psychedelics"); "taboo toward regulated use so fast" (it had "being regulated now in so many places"); "started opening" (published: "began opening"; it had "opened"); Colorado "created" the system and began licensing in 2025 (its "In 2025, Colorado implemented" dated the creation); "enacted" (gate v3; it had "passed"); "authorized psychiatrists have had limited access" (published; it had "psychiatrists working in certain settings have been able to access"). B had the 2025 dates in the future tense and "retail" services.'],
+ 'P7': ['v18: Emulate g2 A, with "revelation" and "you’re" spelled right; "They" (the medicines, P6) for its "It"; "hate the follow-through" (published: "hate"; it had "not so much for working"); "people who can collect 12 ceremonies and 6 origin stories" (published: a possibility, "collect", the counts; it had "having 12 revelutions and 6 stories of where you come from"); "their housemate" (it had "your"); "you’ll find out the insight doesn’t do the practical work for you" (published: the community discovers insight doesn’t do it; it had "these things will come up and need to be dealt with"); "based mainly around the peak experience" (it had "revelution"). B dropped the ceremonies.'],
+ 'P8': ['v18: Emulate g2 A, with "My own experience shows" (published: "in my experience"; it had "tends to show"); "real reasons" (published: the case is "real"; it had "some good reasons"); "the defenses that otherwise dominate every serious conversation" (it had "lower defences"); "they can build a strong bond between a group of people going through the harder nights together" (published: psychedelics create bonds when people sit through difficult nights; it had "a great way of building a strong bond … by experiencing some of the harder times"); "As you point out though" out (a chat artifact); the four harms two and two (E125; dependency unspecified, v10); "pick through the good and the bad" is Emulate’s. B opened "you make a very good point".'],
+ 'P13': ['v18: Emulate g3 A, with "nonsense as well as genuine insight" (it had "a lot of nonsense"); "the two" for "they"; "a new understanding" (published; it had "actually useful"); "mom showing up again" is Emulate’s for the mother joke, and "on the spot the two often feel very similar" carries the lighting quip’s point.'],
+ 'P14': ['v18: Emulate g3 A, with "since community creates a rhythm" (published claim); "traditional medicine systems" (it had "traditional medicines"); "rather than on individual appetite" (published); "a shared calendar like that" (published; v2 stance); "can help keep people out of a compulsive cycle" (published: "can reduce"; it had "a great help to get off of the compulsive cycle").'],
+ 'P18': ['v18: Emulate g4 A, with "No special shamans here." for its "There are no special shamans." (linter B13: P6 and P16 open with "There"; and "here" makes it a principle of his ceremonies, not a claim that no shaman is special anywhere); "usually" (published; it had "often"); the communities believe the medicine should stay "under trained lineage authority" (published; it had lineages that "point out" communities "revere the authority of particular lineages to be the only ones fit to dispense these medicines"); "I respect what these traditions have preserved" back; "I’ve learned from them" (published; it had "I must concede that there is much I have learned"). B invented his use of Bwiti.'],
+ 'P20': ['v18: Emulate g5 A, with "I agree that" out (a chat artifact); "could still be" (published: the risk; it had "would still be"); "gradually stops questioning, even though nobody gave them the title" (published; it had "isn’t questioned"); "I don’t know yet how to avoid this" (published: "I don’t yet know how"; it had "if it would be possible"). B added "or needs to be avoided".'],
+ 'P22': ['v18: Emulate g6 A, with "ever" (published: "never means casual"); "since the authority is spread around" (published: distributed authority raises the requirement; it had "to lead the group"); "before anybody takes anything" back; "professional help or emergency care" (published; it had "professional medical or psychiatric help or going to the emergency room"). B strung four requirements through one sentence.'],
+ 'P24': ['v18: Emulate g7 A, with "The medicine stays behind the other pl/ork." (published; it had "The reason is that medicine is a secondary thing"); "reparenting and somatic capacity, and also working with your peers (the counseling thing)" (three practices, not "reparenting/somatic capacity"); "It can improve upon" (published: "can deepen"; it had "is meant to"); "honest relationship" (published; it had "real"). "By decree (and what the medicine does is essentially a decree)" is Emulate’s, for "pharmacological decree".'],
+ 'P25': ['v18: Emulate g7 A, with "keeps out the experience collectors" (published: "filters out"; it had "prevents … from getting into the way"); "spend six months learning to listen without fixing" and "become more relationally mature because the visions were especially geometric" back (published; it had "this kind of relationship work" and "magically do it after having some visions"). The question is Emulate’s, for "unlikely".'],
+ 'P26': ['v18: Emulate g7 A, with "Ceremony opens something" and "in the weeks after" back (published); "if it had any effect on you, it’ll show up" (published: the weeks reveal whether anything changed); "daily behavior", "sleep" and "decisions" back, two and two; "without declaring a new spiritual emergency" back; "It’s also in how well you tolerate frustration" (it had two "You can look").'],
+}
+
+
+
+# v19: what the v18 gate found (TRACE-v18-A and B, STANCE-v18, SENSE-v18, GROUNDING-v18), fixed in Emulate's
+# sentences; P13 takes the lighting quip from round 5 (emu/outputs5.json, g3-emuB: "with the same bright shining light").
+V[19] = dict(V[18])
+fix(V[19], 'P1', "Most of the writing about communities feels outdated when it comes to psychedelics, primarily because they’ve gone", "Most of the writing about communities is outdated when it comes to psychedelics, because they’ve gone")
+fix(V[19], 'P7', "When you're running a community based mainly around the peak experience, you'll find out the insight doesn't do the practical work for you.", "Any community based mainly around the peak experience is going to find out sooner or later that the insight doesn't do the practical work for it.")
+fix(V[19], 'P8', "My own experience shows there are real reasons for the communal use of psychedelics, too. One being that they lower the defenses that otherwise dominate every serious conversation, and the other that they can build", "In my own experience there are real reasons for the communal use of psychedelics, too. One being that they can lower the defenses that otherwise dominate every serious conversation, and another that they can build")
+V[19]['P13'] = "Also your peers can reality check any downloads you may have had. Psychedelics can give you genuine insight, and they can also give you convincing nonsense with the same bright shining light. A few friends that know your history may notice which parts look like a new understanding and which look like… mom."
+V[19]['P14'] = "Community also creates a rhythm. A lot of traditional medicine systems rely on the community to time ceremonies rather than on individual appetite, and a shared calendar like that can help cut down on compulsive repetition. It can leave more time for integrating, too."
+fix(V[19], 'P18', "This statement is usually contested by traditional lineages, and many", "Traditional lineages usually disagree with me on this, and many")
+fix(V[19], 'P20', "Things that might help would be to have rotation of roles, and to make everyone publicly accountable for what they do.", "Things that might help would be to have rotation of roles, and public accountability.")
+fix(V[19], 'P22', "This doesn't mean that peer led is ever casual.", "This doesn't mean that peer-led ceremonies are ever casual.")
+V[19]['P24'] = "The medicine stays behind the other pl/ork. It’s a secondary thing, which comes after reparenting and somatic capacity, and after peer counseling too. It can deepen a practice you already have. But no pharmacological decree is going to give someone months of honest relationship they haven’t had."
+V[19]['P25'] = "This also keeps out the experience collectors. Someone who won’t spend six months learning to listen without fixing probably isn’t going to become more relationally mature because the visions were especially geometric."
+SRC19 = dict(SRC18)
+SRC19['P13'] = 'g3-emuA (round 4), with round 5 g3-emuB’s "with the same bright shining light"'
+WHY19 = {
+ 'P1': ['v19 (TRACE-v18-A): "is outdated … because" (published: a flat claim about the literature; "feels outdated, primarily because" made it an impression with other causes).'],
+ 'P7': ['v19 (TRACE-v18-A): "Any community … is going to find out sooner or later" (published: "Any community … will eventually discover"; "When you’re running a community, you’ll find out" made an organizer the one who learns).'],
+ 'P8': ['v19 (TRACE-v18-A, STANCE-v18, GROUNDING-v18): "In my own experience" (published: a limit, not proof); "they can lower" (published: "can loosen"); "another" for "the other" (two of the reasons, not the only two).'],
+ 'P13': ['v19 (TRACE-v18-A, STANCE-v18, GROUNDING-v18): peers "reality check" (published; "help" left the sorting to the reader); "convincing nonsense … with the same bright shining light" (published: "with identical lighting"; round 5’s words; "on the spot … often feel very similar" made them alike only sometimes and only in the moment); friends "may notice which parts look like a new understanding and which look like… mom" (published: friends notice a likeness; "help you sort out what’s actually … from what’s just… mom showing up again" made it identification).'],
+ 'P14': ['v19 (TRACE-v18-A): "Community also creates a rhythm" (published; "They can also help you time your ceremonies" made it the friends’ job); "can help cut down on compulsive repetition" (published: "can reduce"; "keep people out of" was prevention); "It can leave more time" (published: "can give integration time").'],
+ 'P18': ['v19 (TRACE-v18-A): "Traditional lineages usually disagree with me on this" (published: they disagree with him; "This statement is usually contested" took him out of it).'],
+ 'P20': ['v19 (TRACE-v18-B, STANCE-v18): "public accountability" (published; "make everyone publicly accountable for what they do" made it a rule for every member, where the essay aims it at whoever gathers power and warns that group scrutiny slides into surveillance).'],
+ 'P22': ['v19 (SENSE-v18): "peer-led ceremonies" ("peer led" stood as a noun with nothing to describe).'],
+ 'P24': ['v19 (TRACE-v18-B, STANCE-v18, SENSE-v18): "after reparenting and somatic capacity, and after peer counseling too" (published: three named practices; "the most basic things" and "working with your peers (the counseling thing)" changed them); "It can deepen a practice you already have" (published; "improve upon something you already have" widened it); "no pharmacological decree is going to give someone months of honest relationship" (published: medicine can’t create it "by pharmacological decree"; Emulate’s "(and what the medicine does is essentially a decree)" said everything medicine does is a decree, and "you can’t … grant someone" put a person in the medicine’s place).'],
+ 'P25': ['v19 (TRACE-v18-B): "probably isn’t going to" (published: "is unlikely to"; "What’s the likelihood …?" read as a firmer dismissal).'],
+}
+
+
+
+# v20: v19 with the last two findings of its gate (TRACE-v19-A), in the trace's own terms; STANCE-v19 found only Joel's
+# own "25" and his P33 step (information for him), SENSE-v19 nothing new, TRACE-v19-B nothing.
+V[20] = dict(V[19])
+fix(V[20], 'P1', "Most of the writing about communities is outdated when it comes to psychedelics, because they’ve gone from taboo toward regulated use so fast.", "Most of the writing about communities hasn’t caught up on psychedelics, which have gone from taboo toward regulated use really fast.")
+fix(V[20], 'P14', "A lot of traditional medicine systems rely on the community to time ceremonies rather than on individual appetite,", "A lot of traditional medicine systems hold ceremonies on communal timing rather than individual appetite,")
+SRC20 = dict(SRC19)
+WHY20 = {
+ 'P1': ['v20 (TRACE-v19-A): "hasn’t caught up on psychedelics" (published: most community literature hasn’t acknowledged the pace; "is outdated" was broader and harsher), with no added cause.'],
+ 'P14': ['v20 (TRACE-v19-A): "hold ceremonies on communal timing" (published: the systems "place ceremonies inside communal timing"; "rely on the community to time ceremonies" made the community the scheduler).'],
+}
+
+
+
+# v21 and v22: after API batch 5 (07:05 UTC) P1, P7, P8, P13, P20, P22 and P26 pass alone; four short paragraphs still
+# read AI with every neighbor that passes alone (P14, P18, P24, P25). Following the gate's E104 ("what would the
+# narrator say aloud here"), mine in Joel's spoken register, two each: v21 the first, v22 the second.
+V[21] = dict(V[20])
+V[21].update({
+ 'P14': "Community gives the whole thing a rhythm, too. In a lot of traditional medicine systems, ceremonies happen on the group’s schedule, not whenever somebody’s in the mood. A shared calendar like that can cut down on people taking medicine over and over out of compulsion, and it can leave time for integration to actually happen.",
+ 'P18': "First one: no special shamans. I know, traditional lineages mostly disagree with me on that. A lot of ayahuasca and Bwiti communities believe the medicine should stay with people trained in the lineage, under their authority. And I respect what those traditions have kept alive. I’ve learned from them.",
+ 'P24': "The medicine stays behind the other pl/ork. Reparenting and somatic capacity come first, and so does peer counseling. Medicine can deepen a practice you’ve already got going. But it can’t hand you months of honest relationship by pharmacological decree.",
+ 'P25': "Bonus: this prerequisite filters out the experience collectors. If someone won’t put in six months learning to listen without fixing, I doubt they’ll come out more relationally mature just because the visions were especially geometric.",
+})
+SRC21 = dict(SRC20); SRC21.update({k: 'new (mine), after Emulate and writers read AI' for k in ('P14', 'P18', 'P24', 'P25')})
+WHY21 = {
+ 'P14': ['v21: mine. v11, v14, v16 and v20 read AI (with P13 and with P15, which pass alone). The published claims in spoken order: community gives the medicine work a rhythm; traditional systems hold ceremonies on the group’s schedule, not individual appetite ("whenever somebody’s in the mood"); a shared calendar can cut down on compulsive repetition and leaves time for integration. The community schedules nothing for anyone (v2 stance).'],
+ 'P18': ['v21: mine. Six versions read AI (alone and with its heading and P19). "First one:" opens the list the heading promises; "mostly disagree" (published: "usually"); "stay with people trained in the lineage, under their authority" (published: "under trained lineage authority"); "kept alive" (published: "preserved").'],
+ 'P24': ['v21: mine. v14, v16 and v20 read AI. The published units, with "you’ve already got going" (published: "a practice that exists") and "hand you" (published: "create").'],
+ 'P25': ['v21: mine. v14, v16 and v20 read AI. "Bonus:" for "also"; "I doubt" (published: "is unlikely"; his own assessment); the geometric visions kept.'],
+}
+V[22] = dict(V[20])
+V[22].update({
+ 'P14': "And there’s a rhythm to it when you do it as a community. A lot of traditional medicine systems run ceremonies on communal time, not on individual appetite. Having a shared calendar can cut down on compulsive repetition, and it can give integration time to happen.",
+ 'P18': "First principle: no special shamans. Traditional lineages usually disagree with me on this one. Lots of ayahuasca and Bwiti communities believe the medicine should stay under the authority of people trained in the lineage. I respect what those traditions have preserved, though, and I’ve learned from them.",
+ 'P24': "The medicine stays behind the other pl/ork, and that’s on purpose. Reparenting and somatic capacity come first, and peer counseling does too. If there’s already a practice going, medicine can deepen it. No pharmacological decree is going to create months of honest relationship, though.",
+ 'P25': "Plus, the prerequisite weeds out the experience collectors. Somebody who won’t spend six months learning to listen without fixing isn’t likely to get more relationally mature because the visions were especially geometric.",
+})
+SRC22 = dict(SRC20); SRC22.update({k: 'new (mine), alternate' for k in ('P14', 'P18', 'P24', 'P25')})
+WHY22 = {k: ['v22 (alternate to v21): mine.'] for k in ('P14', 'P18', 'P24', 'P25')}
+WHY21['P14'].append('v21 (TRACE-v21-A, SENSE-v21): "it can leave time" (published: "can … give integration time"); "taking medicine" ("taking it" had no noun to point to).')
+WHY22['P14'].append('v22 (TRACE-v22-A): "compulsive repetition" (published; "repeat-dosing" narrowed it to doses); "it can give integration time to happen" (published).')
+WHY22['P18'].append('v22 (TRACE-v22-A): "First principle:" ("My first principle" could read as his top one).')
+
+
 def build(n, src):
     B = V[n]
     json.dump({'version': n, 'order': ORDER, 'blocks': B, 'source': src}, open(HERE / ('final-v%d.json' % n), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
@@ -341,8 +752,8 @@ def build(n, src):
 
 if __name__ == '__main__':
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7}.get(n, SRC7))
-    WHY = {k: WHY1.get(k, []) + (WHY2.get(k, []) if n >= 2 else []) + (WHY3.get(k, []) if n >= 3 else []) + (WHY4.get(k, []) if n >= 4 else []) + (WHY5.get(k, []) if n >= 5 else []) + (WHY6.get(k, []) if n >= 6 else []) + (WHY7.get(k, []) if n >= 7 else []) for k in ORDER}
+    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8, 9: SRC9, 10: SRC10, 11: SRC11, 12: SRC12, 13: SRC13, 14: SRC14, 15: SRC15, 16: SRC16, 17: SRC17, 18: SRC18, 19: SRC19, 20: SRC20, 21: SRC21, 22: SRC22}.get(n, SRC22))
+    WHY = {k: WHY1.get(k, []) + (WHY2.get(k, []) if n >= 2 else []) + (WHY3.get(k, []) if n >= 3 else []) + (WHY4.get(k, []) if n >= 4 else []) + (WHY5.get(k, []) if n >= 5 else []) + (WHY6.get(k, []) if n >= 6 else []) + (WHY7.get(k, []) if n >= 7 else []) + (WHY8.get(k, []) if n >= 8 else []) + (WHY9.get(k, []) if n >= 9 else []) + (WHY10.get(k, []) if n >= 10 else []) + (WHY11.get(k, []) if n >= 11 else []) + (WHY12.get(k, []) if n >= 12 else []) + (WHY13.get(k, []) if n >= 13 else []) + (WHY14.get(k, []) if n >= 14 else []) + (WHY15.get(k, []) if n >= 15 else []) + (WHY16.get(k, []) if n >= 16 else []) + (WHY17.get(k, []) if n >= 17 else []) + (WHY18.get(k, []) if n >= 18 else []) + (WHY19.get(k, []) if n >= 19 else []) + (WHY20.get(k, []) if n >= 20 else []) + (WHY21.get(k, []) if n == 21 else []) + (WHY22.get(k, []) if n >= 22 else []) for k in ORDER}
     json.dump({'about': 'Section 5 v%d: each changed paragraph\'s published text, its Emulate source (exact outputs in emu/), the text, and why.' % n,
                'paragraphs': [{'p': k, 'published': O[k], 'from': SRC1.get(k), 'v%d' % n: V[n][k], 'why': WHY.get(k, [])}
                               for k in ORDER if k.startswith('P') and V[n][k] != O[k]]},

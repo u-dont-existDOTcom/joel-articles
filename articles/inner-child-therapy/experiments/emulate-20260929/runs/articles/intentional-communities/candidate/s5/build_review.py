@@ -60,7 +60,26 @@ PARTS = {1: {'A': ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8'],
          # v5: Emulate round 2 for the paragraphs that read AI, and the v4 gate's findings
          5: {'A': ['P6', 'P7', 'P11', 'P15', 'P18'], 'B': ['P21', 'P29', 'P30', 'P31', 'P33']},
          6: {'A': ['P6', 'P7', 'P18', 'P29', 'P30', 'P33']},
-         7: {'A': ['P18', 'P29', 'P30', 'P31', 'P33']}}
+         7: {'A': ['P18', 'P29', 'P30', 'P31', 'P33']},
+         8: {'A': ['P3', 'P10', 'P33']},
+         # v9: lists of three (E125/E126), and v8's P3, P10 and P33
+         9: {'A': ['P3', 'P7', 'P8', 'P10', 'P15'], 'B': ['P17', 'P20', 'P22', 'P27', 'P28', 'P33']},
+         10: {'A': ['P8', 'P17', 'P28', 'P33']},
+         # v12: the fresh writers' paragraphs (Emulate's key returned 403); v13: their alternates
+         12: {'A': ['P1', 'P7', 'P8', 'P12', 'P13', 'P14', 'P17', 'P18'], 'B': ['P20', 'P21', 'P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P31']},
+         13: {'A': ['P1', 'P7', 'P8', 'P12', 'P13', 'P14', 'P17', 'P18'], 'B': ['P20', 'P21', 'P22', 'P23', 'P24', 'P25', 'P27', 'P31']},
+         # v14 and v15: what the v12 and v13 gates sent back (P2, P26 and P33 are the same text in both, traced with v14)
+         14: {'A': ['P2', 'P7', 'P8', 'P14', 'P17', 'P18', 'P22', 'P26', 'P33']},
+         15: {'A': ['P1', 'P7', 'P8', 'P12', 'P17', 'P18'], 'B': ['P20', 'P21', 'P22', 'P24', 'P25', 'P27', 'P31']},
+         # v16 and v17: what the round-2 gate sent back
+         16: {'A': ['P8', 'P22']},
+         17: {'A': ['P8', 'P18', 'P22']},
+         # v18: Emulate round 4 with the meaning put back
+         18: {'A': ['P1', 'P7', 'P8', 'P13', 'P14', 'P18'], 'B': ['P20', 'P22', 'P24', 'P25', 'P26']},
+         19: {'A': ['P1', 'P7', 'P8', 'P13', 'P14'], 'B': ['P18', 'P20', 'P22', 'P24', 'P25']},
+         # v21 and v22: the four short paragraphs still reading AI after batch 5, mine, two versions
+         21: {'A': ['P14', 'P18', 'P24', 'P25']},
+         22: {'A': ['P14', 'P18', 'P24', 'P25']}}
 parts = {h: [k for k in ks if k in changed] for h, ks in PARTS.get(n, {}).items()}
 if n == 1:
     assert sorted(sum(parts.values(), [])) == sorted(changed), (changed, parts)

@@ -50,3 +50,176 @@ The v6 gate's fixes (P18, P29, P30, P33) and a new P31; the v7 trace and stance 
 v7 (03:12 UTC): the submit went in with "2 left" showing, but no result came: the page said "You have used all your AI detection credits for this month. Your monthly credits will refill in 15 days." Nothing was recorded. No more checks are possible on this account until Joel adds credits or they refill.
 
 Where section 5 stands on Pangram: P2, P5, P19 and P32 pass alone, and P4 with P5. P6, P7, P18, P31 and P33 read AI and were rebuilt (v5 to v7; the v7 gate found nothing to change), unchecked. The other 23 paragraphs and the section are unchecked.
+
+## Through the API (2026-10-03, after Joel's 04:03 answers and his new API key)
+
+Joel's key works (probe: HTTP 404 on a dummy task, no charge). Two calibration checks of texts the dashboard had already scored, through `tools/humanization/pangram_api.py` (model pangram-4, version 4.0): **P2 (r3) 100% Human, 72 words** and **P33 v4 (r4) 100% AI, 54 words**, the same as the dashboard. So the API and the dashboard agree on these two, and records from both are comparable.
+
+### v9, API batch 1 (texts in `checks-v9-api1.json`): paragraphs v8 and v9 didn't change, P10 with Joel's "25"
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P1 | AI | four dated facts, one to a sentence, close to the published shape | 100% AI (73) |
+| P6 | AI | rebuilt on round 2; a formal survey sentence in the middle | Human (53) |
+| H2aP9 | Human | Emulate A's "super helpful" and its loose second sentence | Human (89) |
+| P10 | Human | Joel's middle (Human in the baseline), now with "25"; the last sentence is mine | Human (73) |
+| P11 | Human | Emulate A's question opener, "4 hours" | Human (70) |
+| P12 | AI | a balanced held/watched sentence, close to the published | 100% AI (51) |
+| P13 | Human | Emulate A's "since the lighting is the same", the mother joke | 100% AI (70) |
+| P13P14 | Human | P14 is short and plain | 100% AI (114) |
+| H2bP18P19 | AI | "No special shamans." and the respect sentence again, much as v4 | 100% AI (121) |
+| H2cP29P30 | Human | round 2's voice; three "And you run into…" | Human (108) |
+| P30 | Human | the same, alone | Human (67) |
+| P31P32 | AI | a one-line maxim for omnipotence, twice AI before with this P32 | 100% AI (75) |
+
+Batch 1 results (04:13 to 04:14 UTC, API, Pangram 4.0): **P6, H2aP9, P10, P11, H2cP29P30 and P30 100% Human; P1, P12, P13, P13P14, H2bP18P19 and P31P32 100% AI.** Tries: P6 try 2 (v4's read AI), P18 try 2, P31 try 3; the rest try 1. Mine: 9 of 12 (I called P6 AI, P13 and P13P14 Human). So P9 and P29 pass with neighbors that pass alone (P9 is the h2's first paragraph; P29 is under 50 words, with P30).
+
+### v10, API batch 2 (texts in `checks-v10-api2.json`)
+
+v9 split or trimmed the lists of three (E125); v10 fixed what the v9 gate found in P8, P17, P28 and P33 (not in this batch).
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P2P3 | Human | P2 passes alone; P3's five axes are now two to a sentence | Human (124) |
+| P7 | Human | round 2's voice, and the list down to two | 100% AI (70) |
+| P20 | AI | close to the published sentence | 100% AI (55) |
+| P21P22 | AI | P22 is still a run of requirements, if no longer one list | 57% AI (96) |
+| P22 | AI | the same | 100% AI (56) |
+| W-P22toP25 | AI | P22 and P24 close to the published | 100% AI (170) |
+
+Batch 2 results (04:30 UTC, API): **P2P3 100% Human; P7, P20, P22 and the P22–P25 window 100% AI; P21P22 57% AI ("Mixed").** Tries: P3 try 1, P7 try 3, P20 try 1, P22 try 1. Mine: 5 of 6 (I called P7 Human). So P3 passes with P2, which passes alone.
+
+The Emulate key returned HTTP 403 at 04:30 on the round-3 calls (a balance check too); it worked at 02:30. Asked Joel.
+
+### v11, API batch 3 (texts in `checks-v11-api3.json`): the paragraphs not checked yet
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P8 | AI | close to the published, with the four harms split | 100% AI (76) |
+| W-P15toP17 | Human | fragments, the rave, "Yeah" | Human (173) |
+| P16P17 | Human | | Human (133) |
+| P17 | Human | Emulate's "Yeah" and "dive into this"; the duties split into short sentences | 100% AI (85) |
+| W-P23toP25 | AI | P23 and P24 close to the published | 100% AI (114) |
+| W-P25toP28 | AI | P27 and P28 lists split, but instruction-heavy | 100% AI (187) |
+| P27P28 | AI | | 100% AI (108) |
+| P28 | AI | | Human (68) |
+| P33 | Human | Joel's step in his own framing; a conditional sentence | Human (69) |
+
+Batch 3 results (04:42 UTC, API, Pangram 4.0): **the P15–P17 window, P16P17, P28 and P33 100% Human; P8, P17, the P23–P25 and P25–P28 windows and P27P28 100% AI.** Tries: P33 try 2 (round 1's v4 read AI; v11 has Joel's step); the rest try 1. Mine: 7 of 9 (I called P17 Human and P28 AI). So P28 and P33 pass alone; P17 passes with P16 and inside the P15–P17 window but not alone, so it can't anchor P16 or P15; P27 fails with P28, which passes alone.
+
+Where section 5 stands after batch 3: passing alone or with a neighbor that passes alone: P2, P3, P4, P5, P6, P9, P10, P11, P19, P28, P29, P30, P32, P33. Reading AI: P1, P7, P8, P12, P13, P17 (alone), P18, P20, P22, P31, and the runs around P23–P27. Short paragraphs waiting for an anchor: P14, P15, P16, P21, P23–P27. The Emulate key still returns 403, so the next round is the gate's other route: fresh writers, three variants each (`writers/`).
+
+## v12 to v15: fresh writers (Emulate's key still returns 403; balance check at 05:18 too)
+
+Eight Opus writers, one brief each (`writers/W1.txt` to `W8.txt`), three variants each (`writers/outputs-raw.md`, exact). v12 is the first pick for each paragraph, v13 the alternates; both went through the whole gate before any Pangram call: four traces, two cold reads, two stance checks, two grounding reviews (`TRACE-v12-*`, `TRACE-v13-*`, `SENSE-v12/13`, `STANCE-v12/13`, `GROUNDING-v12/13`), and the linter (`lint12/`, `lint14/`). Their fixes are v14 (v12's) and v15 (v13's); the fixed paragraphs go back through the gate before their checks. Batch 4a checks only what the gate passed unchanged.
+
+### v14, API batch 4a (texts in `r14/`, names in `checks-v14.json`): gate-clean paragraphs and the pairs that anchor short ones
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P1 | AI (weak) | five dated facts still carry it, though grouped by year under a spoken conditional ("If you went by…") || 100% AI (69) |
+| P12 | AI (weak) | the held/watched pair, then a formal "which require screening…" || Human (45) |
+| P13 | Human (weak) | the lighting aside in parentheses, the mother joke || 100% AI (43) |
+| P11P12 | Human (weak) | P11 passes alone and leads || Human (115) |
+| P12P13 | Human (weak) | P13's aside || 100% AI (88) |
+| P20 | Human | the open question asked aloud, "I don't know yet." || 100% AI (55) |
+| P21 | Human (weak) | short; "Still," and the psychopath shaman || Human (35) |
+| P20P21 | Human | || 100% AI (90) |
+| P23 | AI (weak) | "not smuggled into one sentence here" is the published phrase || Human (40) |
+| P24 | AI (weak) | "by pharmacological decree", the published quip || 100% AI (37) |
+| P25 | Human (weak) | "6 months", the geometric visions || 100% AI (33) |
+| P23P24 | AI | || 100% AI (77) |
+| P24P25 | Human (weak) | || 100% AI (70) |
+| P27 | Human (weak) | "By supports I mean…", a fragment || Human (42) |
+| P27P28 | Human | P28 passes alone || 100% AI (110) |
+| P30P31 | Human (weak) | P30 passes alone and leads; P31 last (with P32 it led, and failed three times) || Human (82) |
+
+Batch 4a results (05:51 to 05:53 UTC, API, Pangram 4.0): **P12, P11P12, P21, P23, P27 and P30P31 100% Human; P1, P13, P12P13, P20, P20P21, P24, P25, P23P24, P24P25 and P27P28 100% AI.** Every one is a new text, try 1 for these writers' versions (P1 try 2 counting v11, P20 try 2, P13 try 2, P12 try 2). Mine: 7 of 16, my worst batch: I called P20 (the open question asked aloud) and P25 (the geometric visions) Human, and both read AI; I called P12 and P23 AI, and both passed. So P12, P21, P23 and P27 pass alone, and P31 passes with P30, which passes alone (try 4 for P31; three P31s had read AI ahead of P32). P27P28 reads AI though both pass alone: the section check will show whether that pair's seam matters. P1, P13, P20, P24 and P25 go to their gated alternates (v16).
+
+
+### v16, API batch 4b: what the round-2 gate passed, and the alternates for batch 4a's five AI paragraphs
+
+v16 is v14 with v15's P1, P13, P20, P24 and P25 (the gated alternates), and round 2's fixes to P8 and P22 (those two wait for round 3, so they aren't in this batch). Texts in `r16/`, names in `checks-v16.json`.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P2 | Human | passed with "either" (72 words); one word changed || Human (68) |
+| P2P3 | Human | passed before with "either" || Human (124) |
+| P7 | AI (weak) | "Any community … will eventually learn" is back near the published shape; the 12 and 6 in digits, the parenthesis || 100% AI (65) |
+| P13 | Human (weak) | the fragment "And which parts look like your mother.", "right down to the lighting" || 100% AI (45) |
+| P12P13 | Human (weak) | P12 passes alone || 100% AI (90) |
+| P14 | AI (weak) | "And community creates a rhythm." then a formal timing sentence || 100% AI (34) |
+| P13P14 | AI (weak) | || 100% AI (79) |
+| P14P15 | AI (weak) | P15's fragments may carry it || 100% AI (74) |
+| P15 | Human (weak) | three fragments, never checked alone || Human (40) |
+| P16 | Human | the rave, "inconvenient habits and all… 💃🕺" || Human (48) |
+| P17 | Human (weak) | a question to the reader ("Is your community humble enough…?") || Human (54) |
+| P16P17 | Human | || Human (102) |
+| H2bP18P19 | AI (weak) | "No special shamans" opens again, though as a clause || 100% AI (121) |
+| P18 | AI (weak) | || 100% AI (40) |
+| P20 | Human (weak) | the parenthesis, "I don't know yet how to prevent that." || 100% AI (51) |
+| P24 | Human (weak) | a question ("Months of honest relationship, though?") || 100% AI (39) |
+| P23P24 | Human (weak) | P23 passes alone || 100% AI (79) |
+| P25 | AI | close to the published two sentences || 100% AI (32) |
+| P26 | AI (weak) | "Integration is just regular life." opens like a principle || 100% AI (53) |
+| P25P26 | AI | || 100% AI (85) |
+| P33 | Human | passed with "communities like it"; three words changed || Human (70) |
+| P1 | AI (weak) | five dated facts again, though "way behind" and the "And since 2023" ending are loose || 100% AI-assisted ("Mixed", 69) |
+
+Batch 4b results (06:11 to 06:13 UTC, API): **P2, P2P3, P15, P16, P17, P16P17 and P33 100% Human; P7, P13, P12P13, P14, P13P14, P14P15, H2bP18P19, P18, P20, P24, P23P24, P25, P26 and P25P26 100% AI; P1 100% AI-assisted** (Pangram's "Mixed": fraction_ai_assisted 1.0). Tries: P2 try 2 (one word changed), P33 try 3 (three words changed), P17 try 3 (passes alone at last), P15 and P16 try 1 alone; P7 try 5, P13 try 3, P14 try 2, P18 try 4, P20 try 3, P24 try 2, P25 try 2, P26 try 1, P1 try 3. Mine: 17 of 22 (P13, P12P13, P20, P24 and P23P24 wrong: I called all five Human).
+
+So 22 of 33 pass alone or with a neighbor that passes alone: P2 to P6, P9 to P12, P15 to P17, P19, P21, P23, P27 to P33. The writers' versions of P1, P7, P13, P14, P18, P20, P24, P25 and P26 read AI; P8 and P22 (round 3 of the gate) are next.
+
+The Emulate 403 was Cloudflare's error 1010: the site bans Python's default User-Agent ("Python-urllib/3.12"), from about 04:30. With a named User-Agent the same key works (06:17 UTC: plan "max", 247,539 words left, Joel's gift). The paragraphs the writers couldn't fix go to Emulate (round 4, `emu-in4/`).
+
+### v16, API batch 4c: P8 and P22 after round 3 of the gate
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P8 | AI (weak) | seven sentences, but "Then again" and "And then there's the mess…" are loose | |
+| P22 | AI | a run of requirements, as every P22 so far | |
+
+Batch 4c results (06:24 UTC, API): **P8 and P22 100% AI** (76 and 57 words; v16, after round 3 of the gate). Mine: 2 of 2.
+
+### v20, API batch 5: Emulate round 4 with the meaning put back (v18), and two gate rounds of fixes (v19, v20)
+
+Emulate round 4 (06:25 to 06:27 UTC, `emu/outputs4.json`, 1,122 words) took v16's gated text for the eleven paragraphs that still read AI; round 5 (06:32 to 06:34 UTC, `emu/outputs5.json`, 992 words) took the published paragraphs, and only one phrase of it is used (P13's "with the same bright shining light"). v18's gate (two traces, stance, cold read, grounding) found 21 things to put back; v19's found three more, fixed in v20 in the trace's terms. Texts in `r20/`, names in `checks-v20.json`.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P1 | AI (weak) | the five facts still carry it; "really fast" and "also in 2025" are loose || Human (75) |
+| P7 | Human (weak) | Emulate's run-on opener, "Sometimes the dishes need doing and a scared kid needs comforting." || Human (69) |
+| P8 | Human (weak) | "One being that …", "foul up the dynamics", Emulate's question || Human (97) |
+| P13 | Human (weak) | "with the same bright shining light", "which look like… mom." || Human (53) |
+| P14 | AI (weak) | the formal middle sentence came back with the published claim || 100% AI (41) |
+| P13P14 | Human (weak) | || 100% AI (94) |
+| P14P15 | Human (weak) | P15 passes alone; its fragments || 100% AI (81) |
+| P18 | AI (weak) | close to the published again || 100% AI (39) |
+| H2bP18P19 | AI (weak) | || 100% AI (120) |
+| P20 | Human | Emulate's "Things that might help would be…", "Though neither of these seem…" || Human (59) |
+| P22 | Human (weak) | Emulate's "is a must", "it will be necessary to decide" || Human (65) |
+| P24 | Human (weak) | "It's a secondary thing", "no pharmacological decree is going to give someone…" || 100% AI (47) |
+| P23P24 | Human (weak) | P23 passes alone || 100% AI (87) |
+| P25 | AI (weak) | close to the published two sentences || 100% AI (32) |
+| P24P25 | Human (weak) | || 100% AI (79) |
+| P26 | Human (weak) | "your integration is, well, your life" || Human (56) |
+| P25P26 | Human (weak) | || 100% AI (88) |
+
+Batch 5 results (07:05 to 07:07 UTC, API): **P1, P7, P8, P13, P20, P22 and P26 100% Human; P14, P13P14, P14P15, P18, H2bP18P19, P24, P23P24, P25, P24P25 and P25P26 100% AI.** Tries: P1 try 4, P7 try 6, P8 try 4, P13 try 4, P20 try 4, P22 try 4, P26 try 2; P14 try 4, P18 try 6, P24 try 4, P25 try 4. Mine: 10 of 17 (I called P1 AI; P13P14, P14P15, P24, P23P24, P24P25 and P25P26 Human). So 29 of 33 pass alone or with a neighbor that passes alone. Emulate's versions, with the meaning put back by two gate rounds, passed 7 of 11; the writers' had passed 6 of 17 first picks and none of 5 second picks. The four left (P14, P18, P24, P25) are short and read AI with every neighbor that passes alone.
+
+### v21, API batch 6a: the four short paragraphs, mine (v22 holds a second version of each, gated, for any that still read AI)
+
+E104's question for each ("what would the narrator say aloud here"); the v21 and v22 gates (TRACE-v21/v22-A, STANCE-v21/v22, two cold reads) sent back three small fixes, made. Texts in `r21/`.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P14 | Human (weak) | "the whole thing", "whenever somebody's in the mood", "to actually happen" | |
+| P13P14 | Human (weak) | P13 passes alone | |
+| P14P15 | Human (weak) | P15 passes alone | |
+| P18 | Human (weak) | "First one:", "I know,", two short closing sentences | |
+| H2bP18P19 | AI (weak) | the heading and P19 have read AI around every P18 so far | |
+| P24 | AI (weak) | still the published shape, one sentence at a time | |
+| P23P24 | AI (weak) | | |
+| P25 | Human (weak) | "Bonus:", "I doubt" | |
+| P25P26 | Human (weak) | P26 passes alone | |
+| P24P25 | AI (weak) | | |

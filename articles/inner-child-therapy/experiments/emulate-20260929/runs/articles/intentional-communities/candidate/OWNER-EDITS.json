@@ -350,6 +350,45 @@
    "must_contain": [
     "While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot"
    ]
+  },
+  {
+   "id": "s5-p10-age",
+   "what": "Section 5, P10: Joel (2026-10-03 04:03): \"they are mine. altho i found out it was age 25 not age 26.\" His first ayahuasca ego deaths were at 25; the published text says 26. [pending: section 5 isn't installed yet]",
+   "status": "pending",
+   "must_contain": [
+    "After my original ayahuasca ego deaths at 25"
+   ],
+   "must_not_contain": [
+    "ego deaths at 26"
+   ]
+  },
+  {
+   "id": "s5-first-person",
+   "what": "Section 5's first-person lines that only the published text makes are Joel's (2026-10-03 04:03: \"they are mine\"): P8 \"real in my experience\", P10 (ego deaths, the monasteries, the God or Savior complex), P18 \"have learned from them\", P30 \"I know that call\". [pending: section 5 isn't installed yet]",
+   "status": "pending",
+   "must_contain": [
+    "from my own experience",
+    "Buddhist monasteries",
+    "I’ve learned from them",
+    "I know this urge"
+   ]
+  },
+  {
+   "id": "s5-p3",
+   "what": "Section 5, P3: Joel (04:03): \"wider version is good but i'd say 'psychedelic medicine' since medicine is too general\". [pending: section 5 isn't installed yet]",
+   "status": "pending",
+   "must_contain": [
+    "if psychedelic medicine is going to be part of a community at all"
+   ]
+  },
+  {
+   "id": "s5-p33",
+   "what": "Section 5, P33: Joel (04:03), on how the training ground answers the escape-pod objection: \"i'm saying that if people are training to spread the communal system then it's not an escape from society it's building a genuine alternative\". The paragraph says that step, not only the conclusion. [pending: section 5 isn't installed yet]",
+   "status": "pending",
+   "must_contain": [
+    "spread the communal system",
+    "genuine alternative"
+   ]
   }
  ]
 }
