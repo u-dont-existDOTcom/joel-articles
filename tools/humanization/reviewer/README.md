@@ -11,7 +11,7 @@ Paths here are from this folder (`tools/humanization/reviewer/`), except the one
 - `tickets.txt`: what a reviewer does with one draft. A verdict, then one ticket per sentence: KEEP, or FIX with the problem, an instruction, and what the reader should get from it.
 - `writer.txt`: the writer's instructions. Carry out the tickets literally and change nothing else.
 - `writer_draft.txt`: a first draft from the brief, for a paragraph that has no draft yet. It carries what Pangram has shown about shape, as observations, not a checklist or sentence jobs. `reviewer.py draft` also adds Joel's own before/after fixes from `../JOEL-FIXES-CATALOGUE-20260928.md`, word for word.
-- `owner_bans.txt`: Joel's standing bans and cautions (2026-09-28). They're copied into the writer, ticket and draft prompts.
+- `owner_bans.txt`: Joel's standing bans and cautions (from 2026-09-28). `reviewer.py` puts the whole file where the writer, ticket and draft prompts say `{bans}` (since 2026-10-03; before that the prompts held copies that fell behind).
 - `sense.txt`: the cold reader's instructions. Sense only, one line per sentence. With `"earlier": "section"` in the target, it also gets what the reader has already read: the whole section before, then this section up to the paragraph before (2026-09-30).
 - `grounding.txt`: the guide-grounding and logic reviewer (2026-09-29).
   - It reads the whole guide and the article up to the new text, plus Joel's rulings.
@@ -87,3 +87,5 @@ Two rules for the validation set:
 - Keep versions of the same paragraph in one fold, so no reviewer is scored on a paragraph whose sibling it learned from.
 - Add every newly Pangram-checked paragraph to `../calibration/`, so the examples grow.
 - Not done yet: the five texts from the first loop (`PASS_outward_p1_loop_*`, `PASS_outward_section_loop_r6b`) are in `../calibration/` but not yet in `FAMILIES` in `reviewer.py`. Add them to the `outward` family at the next revalidation. They'd be that family's first Human examples.
+
+- When the paragraphs before a draft aren't in the article yet, the reviews can't see them: the grounding reads the article up to `cut`, and the cold read gets only `before`. Give the grounding those paragraphs with `append` and put them in `before` for the cold read (2026-10-03: P5's first groundings flagged the guide's "If nothing speaks" as missing because they couldn't see P4, which carries it).

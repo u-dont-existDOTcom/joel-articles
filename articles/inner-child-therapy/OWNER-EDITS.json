@@ -244,8 +244,9 @@
    "joel": "01:59 (his sentence); 02:42: \"find where that is supposed to go\"",
    "waits_for": "Start With Whatever Showed Up",
    "must_contain": [
-    "## Start With Whatever Showed Up\n\nYour little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.\n\nYou might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants, or if it just has something to say. It could be your little one, mad that you took so long to come back, or the parent you inherited, or something from earlier today, or a bit of each."
-   ]
+    "## Start With Whatever Showed Up\n\nYour little one wants to play, too, which is why I call the deeper therapy pl/ork, play + work. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.\n\nYou might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way."
+   ],
+   "note": "2026-10-03 (turn 20): must_contain trimmed to P1's first two sentences, which are the same in Joel's P1; the rest of P1 is his and is checked in sws-p1-protective-part."
   },
   {
    "id": "dissolve-three-functions",
@@ -713,8 +714,9 @@
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
     "So instead of asking which age of you deserves the blame, I'd ask these:",
-    "6. What can you learn, repair, or do differently now?\n\nWhatever was missing back then, you can start giving your little one now."
-   ]
+    "6. What can you learn or repair now, and how would you act differently in such situations?\n\nWhatever was missing back then, you can start giving your little one now."
+   ],
+   "note": "2026-10-03 (turn 21): question 6 updated to Joel's wording (ldw-p12-q5-q6)."
   },
   {
    "id": "ldw-p13-installed",
@@ -936,14 +938,48 @@
   },
   {
    "id": "sws-p1-protective-part",
-   "status": "pending",
-   "what": "Start With Whatever Showed Up P1's list of where a reaction can come from gets \"a part of you that's trying to protect you\" (Joel's pick between the two groundings).",
-   "joel": "2026-10-02 22:44 UTC: \"i agree to add that part of you trying to protect you in p1 oh and yeah you're right that could be confused for the adult protector, which is the one we are consciously building rather than the inherited protector that came from trauma responses\"",
+   "status": "applied",
+   "what": "Start With Whatever Showed Up P1 is Joel's minimal fix, word for word: \"a part of you that's trying to protect you\" is in, and neither list of three is back to back with another.",
+   "joel": "2026-10-02 22:44 UTC: \"i agree to add that part of you trying to protect you in p1 oh and yeah you're right that could be confused for the adult protector, which is the one we are consciously building rather than the inherited protector that came from trauma responses\"; 2026-10-03 00:00 UTC: \"P! failed b ecause it has 2 lists of 3. I did a minimal fix and now it's human med conf: [P1]\"",
    "where": "Start With Whatever Showed Up",
-   "must_contain": [
-    "a part of you that's trying to protect you, or the parent you inherited"
+   "must_contain": [],
+   "waits_for": "(done in turn 20: his P1 passes alone on his check, Human, medium)",
+   "must_contain_exact": [
+    "You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each."
    ],
-   "waits_for": "a P1 with it that passes alone (turn 19: the list with it added was 66% AI)"
+   "must_not_contain": [
+    "or what it wants, or if it just has something to say"
+   ]
+  },
+  {
+   "id": "adultfake-p1-no-dinner",
+   "status": "applied",
+   "what": "When the Adult Voice Feels Fake P1: \"dinner\" cut from the chores, so they're a pair (Joel's fix for its two lists of three).",
+   "joel": "2026-10-03 01:06 UTC: \"yes i'd say when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did. in these cases i'd just remove dinner... and for 5: \"What was missing? Some ability, or help/protection from someone else?\" for 6: \"What can you learn or repair now, and how would you act differently in such situations?\"\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "and all of a sudden your phone or the laundry feels urgent."
+   ],
+   "must_not_contain": [
+    "your phone, dinner, or the laundry"
+   ],
+   "waits_for": "(done in turn 21: alone 100% Human (61), P1 try 3; the h1 100% Human (672))"
+  },
+  {
+   "id": "ldw-p12-q5-q6",
+   "status": "applied",
+   "what": "Love Doesn't Have to Wait for Trust P12: questions 5 and 6 are Joel's, word for word, each in place of a list of three.",
+   "joel": "2026-10-03 01:06 UTC: \"yes i'd say when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did. in these cases i'd just remove dinner... and for 5: \"What was missing? Some ability, or help/protection from someone else?\" for 6: \"What can you learn or repair now, and how would you act differently in such situations?\"\"",
+   "where": "Love Doesn't Have to Wait for Trust",
+   "must_contain_exact": [
+    "5. What was missing? Some ability, or help/protection from someone else?",
+    "6. What can you learn or repair now, and how would you act differently in such situations?"
+   ],
+   "must_not_contain": [
+    "Some ability, or help, or someone protecting you?",
+    "What can you learn, repair, or do differently now?"
+   ],
+   "waits_for": "(done in turn 21: alone 100% Human (89), P12 try 2; Love Doesn't Wait 100% Human (1,241))"
   }
  ]
 }

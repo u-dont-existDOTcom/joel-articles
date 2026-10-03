@@ -124,3 +124,30 @@ Joel, 22:44 UTC: "i agree to add that part of you trying to protect you in p1 oh
 
 ### Next
 P1: a rebuild with Joel's added source, "what's going on in your life now" (an everyday case, not the danger case), and the learned parent script named as such. P2: the MUST without my reason ("one that sounds like your little one gets heard when it comes; a missed one can come back"), and a protective part that showed up isn't parked. P3 from writer c, with a different fix for "hears that too". P5 from writer c or a, with "a hard feeling" set up. P4 is ready.
+
+## Turn 20 (2026-10-03, from 00:00 UTC): Joel's P1, and lists of three
+
+Joel, 00:00 UTC: "P! failed b ecause it has 2 lists of 3. I did a minimal fix and now it's human med conf: [P1]"; 00:01: "lists of 3 in general are an ai pattern". No "continue", so no merge.
+
+- P1 is his, word for word (OWNER-EDITS sws-p1-protective-part, applied). "or if it just has something to say" became its own sentence ("Maybe it just has something to say."), and the five sources became two sentences: your little one or a part of you that's trying to protect you, then "Maybe it's that parent you inherited, or something from earlier today, or a bit of each." Not re-checked alone (his check: Human, medium). When the Adult Voice Feels Fake with it: 100% Human (673), try 1.
+- The lesson (E125): the linter fails two lists of three in one paragraph and flags one; the writer and ticket prompts carry it with the rest of his bans; a minimal fix to the flagged structure comes before a rebuild (gate B10). The turn-19 plan to rebuild P1 is dropped.
+- The sweep: two of my installed paragraphs have two lists (this h1's opening, and Love Doesn't Wait P12). Both pass, so they stay as they are, and section checks pass `--installed` to the linter. P5's writer c (both versions) has two lists, so the next P5 round starts from that.
+- A turn-19 PREDICTIONS row (P5, Human predicted, 100% AI) was scored "hit"; it's a miss, fixed.
+
+### Next
+P2, P3 and P5 from turn 19's notes, with E125 in every writer prompt. Then P4 (ready). Then the h3s, Two Common Protective Patterns and A Bottom-Up Sequence.
+
+## Turn 21 (2026-10-03, from 01:06 UTC): Joel's list fixes, and P2–P5 again
+
+Joel, 01:06 UTC: "yes i'd say when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did. in these cases i'd just remove dinner... and for 5: "What was missing? Some ability, or help/protection from someone else?" for 6: "What can you learn or repair now, and how would you act differently in such situations?""; and "continue".
+
+- His fixes are in (OWNER-EDITS adultfake-p1-no-dinner, ldw-p12-q5-q6). The h1's opening without "dinner": alone 100% Human (61), P1 try 3; the h1 100% Human (672). Love Doesn't Wait P12 with his questions 5 and 6: alone 100% Human (89), P12 try 2; Love Doesn't Wait 100% Human (1,241).
+- The sweep (E126): Love Doesn't Wait P5 without "and hear the anger": alone 100% Human (69), P5 try 2. Its section check didn't run, so it isn't in.
+- P2 (G2): three writers on v3 briefs (the list rule, the MUST without my reason, no "young or hurt"). All three first groundings flagged the checking loop (MISFIRES: a fear that keeps coming back can be checking). Writer b with the fixes: AI Detected, 57% AI (92), P2 try 2, flagged from "A sentence that crosses your mind once" to the end. Writer c with the fixes: 100% Human (83), P2 try 2. Its second cold read couldn't place "The same worried question turning up for another answer", and its second grounding flagged that sentence as MISFIRES for a little one asking again. As "A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking.", with "and the simpler the better" for the guide's "least elaborate": 100% Human (95), P2 try 3, and its cold read was OK on every line. Its third grounding flagged the new clause (MISFIRES: a loop that sounds young would never be let go; CHANGED: what it points at should get done first). The reviews disagree, so it goes to Joel.
+- P3 (G3): writers b and c with the grounding's fix (every part learns from how the others treat it, your little one included): 100% Human (76) and (75), P3 try 3. Writer b with "each part" for "each one" (the cold read read it as each thought): 100% Human (76), P3 try 4; cold read and grounding OK.
+- P4 is ready (turn 19).
+- P5 (G7): writers a and c with their reviews' fixes: 100% AI (113) and (126), P5 try 2, the whole paragraph flagged; that's three tries as one paragraph. Split in two (E128): P5a, nothing answers (writer b, "Even then, you can notice what sets the reaction off"): 100% Human (58), P5 try 3; cold read and grounding OK. Writer c's P5a: 100% AI (61). P5b, something answers (writer c): 100% Human (89), P5 try 3. With its reviews' fixes ("anything big or hard to undo"; "against what you actually know"; "if what comes is grief or anger, you'd listen whether it passes them or not") its cold read and grounding came back OK, but the Pangram check didn't run.
+- The Pangram credits ran out after P5b ("You have used all your AI detection credits for this month. Your monthly credits will refill in 15 days."). Not run: P5b's fixed version alone, the h1 with P2–P5b (1,034 words, `tools/pangram-runs/2026-10-03-turn21-e.json`), and Love Doesn't Wait with P5's cut. So P2–P5b aren't installed, and neither is the P5 cut.
+
+### Next
+The waiting checks: P5b (fixed) alone, the h1 with P2, P3, P4, P5a and P5b, and Love Doesn't Wait with P5's cut; then install what passes. Joel's call on P2's last sentence. Then the h3s, Two Common Protective Patterns and A Bottom-Up Sequence.

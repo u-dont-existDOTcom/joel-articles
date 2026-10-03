@@ -160,7 +160,13 @@ def numbered(t):
 
 
 def read(name):
-    return (HERE / name).read_text(encoding='utf-8')
+    t = (HERE / name).read_text(encoding='utf-8')
+    if '{bans}' in t:
+        # Joel's bans come from owner_bans.txt, so a ban added there reaches every prompt. Until 2026-10-03 the
+        # prompts held copies, and the copies had stopped at five of its lines: no writer was told about feelings
+        # as agents, the "enough to" pair or chat acronyms (a turn-19 writer wrote "IMO").
+        t = t.replace('{bans}', (HERE / 'owner_bans.txt').read_text(encoding='utf-8').strip())
+    return t
 
 
 def local_items():

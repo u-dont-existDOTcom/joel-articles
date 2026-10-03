@@ -66,6 +66,55 @@ class LinterAbstractAgents(unittest.TestCase):
         self.assertNotIn('O6', out)
 
 
+class LinterListsOfThree(unittest.TestCase):
+    """E125 (Joel, 2026-10-03): "P! failed b ecause it has 2 lists of 3"; "lists of 3 in general are an ai pattern"."""
+    FAILED_P1 = ("You might go looking for your little one and get mad instead, or realize you've been staring at the rug. "
+                 "I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, "
+                 "ask it what it's trying to stop, or what it wants, or if it just has something to say. It could be your little "
+                 "one, mad that you took so long to come back, or a part of you that's trying to protect you, or the parent you "
+                 "inherited, or something from earlier today, or a bit of each.\n")
+    JOEL_P1 = ("You might go looking for your little one and get mad instead, or realize you've been staring at the rug. "
+               "I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, "
+               "ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little "
+               "one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that "
+               "parent you inherited, or something from earlier today, or a bit of each.\n")
+
+    def lint(self, text, installed=None):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / 'draft.txt'
+            f.write_text(text, encoding='utf-8')
+            cmd = [sys.executable, str(TOOLS / 'tells_lint.py'), str(f)]
+            if installed is not None:
+                g = pathlib.Path(d) / 'article.md'
+                g.write_text(installed, encoding='utf-8')
+                cmd += ['--installed', str(g)]
+            r = subprocess.run(cmd, capture_output=True, text=True)
+            # a crash prints nothing, which would pass every assertNotIn below (2026-10-03)
+            self.assertIn('verdict:', r.stdout, r.stderr[-600:])
+            return r.returncode, r.stdout
+
+    def test_two_lists_in_one_paragraph_fail(self):
+        rc, out = self.lint(self.FAILED_P1)
+        self.assertIn('E125 two lists', out)
+        self.assertEqual(rc, 2)
+
+    def test_his_fix_leaves_one_list_to_review(self):
+        rc, out = self.lint(self.JOEL_P1)
+        self.assertIn('E125 list of three', out)
+        self.assertNotIn('E125 two lists', out)
+
+    def test_pairs_and_quotes_are_not_lists(self):
+        for s in ('If words are there, speak or write them.\n',
+                  'Or you tell a therapist, \u201cNo, that\'s not right for me,\u201d and they call it resistance.\n',
+                  'If the room itself triggers your spidey sense, leave, or lock the door and get help.\n',
+                  'Or something does come, a voice or a hunch, and you listen without putting it in charge.\n'):
+            self.assertNotIn('E125', self.lint(s)[1], s)
+
+    def test_installed_text_gets_no_flags(self):
+        rc, out = self.lint(self.FAILED_P1, installed='# Section\n\n' + self.FAILED_P1)
+        self.assertNotIn('E125', out)
+
+
 class StanceCheckPrompt(unittest.TestCase):
     def test_prompt_holds_both_texts_and_the_job(self):
         essay = '# Essay\n\n[image 1](https://example.com/x.png)\n\nI want people to arrive largely healed.\n'
