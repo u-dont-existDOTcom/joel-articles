@@ -902,11 +902,11 @@
   {
    "id": "parent-you-inherited-p4-p5",
    "status": "applied",
-   "what": "Claim check: the guide's h2 The Parent You Inherited is installed with P4 (Joel's), P5 and P6 (Joel's), right after Joel's P3. P5's \"both sides\" are both in its sentence; turn 16's \"doesn't even make sense\" is out.",
+   "what": "Claim check: the guide's h2 The Parent You Inherited is installed with P4 (Joel's), P5 and P6 (Joel's), right after Joel's P3 (since turn 24, right after the altered-states paragraph that follows it). P5's \"both sides\" are both in its sentence; turn 16's \"doesn't even make sense\" is out.",
    "joel": "2026-10-02 03:15 UTC: \"continue\"; 18:56 UTC: his P4 and P6",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
-    "So, it's worth meditating first on why it feels fake.\n\n## The Parent You Inherited\n\nI'd look at the parent \"script\" you inherited: how you learned to treat yourself from how people treated you growing up, long before you started building your Nurturer, Protector and Guide. It can be warm, but it's often more like a critic, or a warden with rules. The rules can even sound reasonable, like \"You can come back to the table when you're done with your embarrassing crying fit.\" If yours was like that, your little one learned bit by bit to hide that part of their authentic self which wasn't allowed, so they could keep belonging. They might still be doing it.\n\nIf it's a critic, the parent you inherited also measures whatever you show the world against an impossible ideal, and then attacks you from both sides: you're not good enough, and anything that does look good is fake anyway. That second one means nothing you do could ever count, and it's one place feeling fake can come from. When a new grown-up voice shows up saying \"Trust me,\" of course your little one doesn't answer.\n\nBut with the borrowed adulthood trick, the new grown-up can start outside your head, as someone who likes you the way you are, or as something you do to protect your little one, like letting the phone ring when you know how that call goes. You don't have to pretend to feel anything to let a phone ring. Your little one can watch you do it many times before trusting you, while the parent you inherited calls it fake."
+    "You've felt that your little one is real now, so talking to them afterward isn't just pretending.\n\n## The Parent You Inherited\n\nI'd look at the parent \"script\" you inherited: how you learned to treat yourself from how people treated you growing up, long before you started building your Nurturer, Protector and Guide. It can be warm, but it's often more like a critic, or a warden with rules. The rules can even sound reasonable, like \"You can come back to the table when you're done with your embarrassing crying fit.\" If yours was like that, your little one learned bit by bit to hide that part of their authentic self which wasn't allowed, so they could keep belonging. They might still be doing it.\n\nIf it's a critic, the parent you inherited also measures whatever you show the world against an impossible ideal, and then attacks you from both sides: you're not good enough, and anything that does look good is fake anyway. That second one means nothing you do could ever count, and it's one place feeling fake can come from. When a new grown-up voice shows up saying \"Trust me,\" of course your little one doesn't answer.\n\nBut with the borrowed adulthood trick, the new grown-up can start outside your head, as someone who likes you the way you are, or as something you do to protect your little one, like letting the phone ring when you know how that call goes. You don't have to pretend to feel anything to let a phone ring. Your little one can watch you do it many times before trusting you, while the parent you inherited calls it fake."
    ],
    "must_not_contain": [
     "That second one doesn't even make sense"
@@ -1016,14 +1016,13 @@
   },
   {
    "id": "guide-update-20261003-altered-states",
-   "status": "pending",
+   "status": "applied",
    "what": "When the Adult Voice Feels Fake gets the guide update's new paragraph (the adult voice can become real only in an altered state; keep it, don't take its intensity as proof that every image is literal; the task is transfer into ordinary life), after Joel's P3.",
    "joel": "2026-10-03 03:50 UTC: \"we'll have to humanize those also.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
     "altered state"
-   ],
-   "waits_for": "a humanized paragraph that passes alone and in the h1"
+   ]
   },
   {
    "id": "sws-p3-p5-joel",
@@ -1038,6 +1037,19 @@
    ],
    "must_not_contain": [
     "That part learns it has to shout when nobody listens"
+   ]
+  },
+  {
+   "id": "adultfake-altered-states-joel",
+   "status": "applied",
+   "what": "The altered-states paragraph after Joel's P3 in When the Adult Voice Feels Fake is his minimal fix of Claude's try 3 with the proposed last sentence, word for word.",
+   "joel": "2026-10-03 16:16 UTC: \"you suggested ending sentence is good\"; \"look here's the mininal fix. i'm not saying to make oh my gosh into a rule but just see how it can break up the marching order of code instructions translated to english ok? this is human med conf\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "For some people it only stops feeling fake in an altered state, like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending."
+   ],
+   "must_not_contain": [
+    "like on mushrooms"
    ]
   }
  ]

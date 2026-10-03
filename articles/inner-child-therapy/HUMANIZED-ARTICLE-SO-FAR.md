@@ -408,6 +408,10 @@ My friend Scott said:
 
 I used to be all personal trainer and teach persistence on this as the remedy. Keeping at it does help, since a little one who learned to expect being dropped won't trust you right away. But I don't think that explains the adult feeling fully. More importantly, I think it could even be like unintentional gaslighting to the little one to ask to connect with them when you don't believe they're even real. Like when my mom pretended to listen to me when I was young, but even less excusable (from the inner child's view) because she was not asking for my time when she did that. So, it's worth meditating first on why it feels fake.
 
+<!-- 2026-10-03 (turn 24): the guide update's altered-states paragraph is Joel's minimal fix (16:16 UTC) of Claude's try 3 with its proposed last sentence ("MDMA" for "mushrooms"; "right there! Oh my gosh! And the love"), Human, medium confidence on his check alone; "just see how it can break up the marching order of code instructions translated to english". Record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md, turn 24. -->
+
+For some people it only stops feeling fake in an altered state, like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending.
+
 <!-- 2026-10-02 (turn 17): the guide's h2, "The Parent You Inherited" (G4–G6). Turn 18: P4 and P6 are Joel's; P5 is Claude's (record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md). -->
 
 ## The Parent You Inherited
