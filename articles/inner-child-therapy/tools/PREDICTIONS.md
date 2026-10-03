@@ -460,5 +460,5 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-03 (turn 25) | The same, writer c (a grounding flag with P1's "more often than not"), alone; try 3 | Human, low-medium (my call) | AI Generated, 100% AI (109) (API, version 4.0, task f5c34c85) | miss |
 | 2026-10-03 (turn 25) | The h3, P1 and writer a's paragraph; try 3 | Human, low-medium (my call: the h3 was 100% AI with three paragraphs, twice) | 100% Human (199) (API, version 4.0, task bce4b693) | hit |
 | 2026-10-03 (turn 25) | The h1 with that h3; try 3 | Human, medium (my call) | 100% Human (1,277) (API, version 4.0, task b4bf02b6) | hit |
-| 2026-10-03 (turn 25) | The h3, P1 and writer b's paragraph; try 3 | Human, low (my call) | 100% Human (199) (API, version 4.0, task 547ad9a2) | miss |
+| 2026-10-03 (turn 25) | The h3, P1 and writer b's paragraph; try 3 | Human, low (my call) | 100% Human (199) (API, version 4.0, task 547ad9a2) | hit |
 | 2026-10-03 (turn 25) | The h1 with that h3; try 3 | Human, medium (my call) | 100% Human (1,277) (API, version 4.0, task 7e2c205a) | hit |
