@@ -12,7 +12,14 @@ Usage (from the repo root):
   --topic    the article's subject, in a few words: default "the article's subject"
   --author   default "Joel"
   --report   where the agent writes its report; without it, the agent returns the report as its final message
+  --images   a JSON file mapping an image's label ("image 7") to what it shows; such an image appears to the agent as
+             "[an image: …]" instead of "[an image]"
   --out      the prompt file to write
+
+Images carry content (Joel, 2026-10-02 23:49, on "These categories" in community section 4 P5: "they are the four parts
+from the prior section. the actual article uses an image."). Three cold reads had flagged the four parts as never
+named, because the prompts showed the diagram that names them as "[an image]". describe_images() is shared with the
+other review prompts.
 
 Give the prompt to a fresh agent (Opus) that hasn't seen the drafting: "Read PROMPT.txt and do what it says."
 Run it before any Pangram call on a candidate, and again after any edit that changes what a sentence claims.
@@ -26,7 +33,7 @@ and missed it; and the gate's stance-ledger step had been skipped. This check gi
 each stance-bearing sentence of the rewrite against the whole published article. Its first run, over sections 1
 to 3, found no other reversal.
 """
-import argparse, pathlib, re
+import argparse, json, pathlib, re
 
 INSTRUCTIONS = """You're checking a rewrite of {scope} of an essay by {author} about {topic} against everything the published essay says. Some sentences in the rewrite were produced by a paraphrasing tool or by an editor, and a paraphrase can turn an author's position into its opposite without anyone noticing. It has happened: in another section of {author}'s essay on intentional communities, the published "distributed authority without pretending that people arrive emotionally finished" became "where people don't come in pre-healed", while the essay elsewhere tells readers to start their own healing practice first. {author} does want people to arrive largely healed, without pretending they're finished. Nobody caught it, because each check compared a paragraph only with its own published version.
 
@@ -45,18 +52,27 @@ TAIL_RETURN = "Use no tools except reading this one file: don't open, list or se
 TAIL_WRITE = "Use no tools except reading this one file and writing your report to {report} with one Write call: don't open, list or search anything else, don't run commands, and don't use the web. Then return the report as your final message."
 
 
-def clean(md):
+def describe_images(md, images=None):
+    """Replace each image line with "[an image]", or "[an image: description]" when `images` describes it."""
+    images = images or {}
+    def one(m):
+        d = images.get(m.group(1).strip())
+        return '[an image: %s]' % d if d else '[an image]'
+    md = re.sub(r'(?m)^\[(image \d+)\]\(.*?\)\s*$', one, md)
+    return re.sub(r'(?m)^!\[([^\]]*)\]\(.*?\)\s*$', one, md)
+
+
+def clean(md, images=None):
     md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
-    md = re.sub(r'(?m)^\[image \d+\]\(.*?\)\s*$', '[an image]', md)
-    md = re.sub(r'(?m)^!\[[^\]]*\]\(.*?\)\s*$', '[an image]', md)
+    md = describe_images(md, images)
     return re.sub(r'\n{3,}', '\n\n', md).strip()
 
 
-def build(essay, rewrite, scope='the rewritten sections', topic="the article's subject", author='Joel', report=None):
+def build(essay, rewrite, scope='the rewritten sections', topic="the article's subject", author='Joel', report=None, images=None):
     head = INSTRUCTIONS.format(scope=scope, author=author, topic=topic)
     tail = TAIL_WRITE.format(report=report) if report else TAIL_RETURN
-    return (head + '\n\nTHE WHOLE PUBLISHED ESSAY:\n' + clean(essay) + '\n\nTHE REWRITE (' + scope + '):\n'
-            + clean(rewrite) + '\n\n' + tail + '\n')
+    return (head + '\n\nTHE WHOLE PUBLISHED ESSAY:\n' + clean(essay, images) + '\n\nTHE REWRITE (' + scope + '):\n'
+            + clean(rewrite, images) + '\n\n' + tail + '\n')
 
 
 def main():
@@ -68,9 +84,11 @@ def main():
     ap.add_argument('--topic', default="the article's subject")
     ap.add_argument('--author', default='Joel')
     ap.add_argument('--report')
+    ap.add_argument('--images', help='JSON: image label -> what it shows')
     a = ap.parse_args()
     p = build(pathlib.Path(a.essay).read_text(encoding='utf-8'), pathlib.Path(a.rewrite).read_text(encoding='utf-8'),
-              a.scope, a.topic, a.author, a.report)
+              a.scope, a.topic, a.author, a.report,
+              json.loads(pathlib.Path(a.images).read_text(encoding='utf-8')) if a.images else None)
     out = pathlib.Path(a.out); out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(p, encoding='utf-8')
     print('%s: %d words' % (out, len(p.split())))

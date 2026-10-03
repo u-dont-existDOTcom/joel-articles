@@ -233,6 +233,13 @@ He rewrote two argument paragraphs of the published section himself, after 34 of
 
 What he did: the list became one requirement per sentence, with "It requires" repeated; abstractions became happenings ("chronic freeloading" became "someone is leeching off the group", "children" became "a baby is born"); a spoken "No," answers the hope that removing the boss fixes people; and the polished lines went ("before resentment becomes the real government", "how quickly beautiful land becomes irrelevant"). Of the published line "Suddenly “maybe we should form a village” sounded less like a 1972 leftover and more like a backup plan" he said: "the 1972 line is witty altho it's kind of an obvious ai quip".
 
+## Joel's answers, 2026-10-02 23:49 UTC (community article, section 4)
+
+- **P21: a meaning change he keeps.** Emulate's "While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot, it's not something I recommend" lost the published irony, and the whole-article check and the trace both flagged it. Joel: "the reviewer is correct that emulate lost the irony. so it did change the meaning slightly. although the new meaning is actually better for this. and it does read as a concession which is warranted yes i think so." A flagged change goes to him; he can take it.
+- **P5: "These four parts", not "These four categories".** "they are the four parts from the prior section. the actual article uses an image." The diagram under the heading names them; the review prompts had shown it as "[an image]". And "plant medicine" declined: "plant medicine isn't the only kind of medicine."
+- **P13:** "it should say staying, not still", with the missing "what": "while staying devoted to following what they've decided on so far."
+- **P28:** "yes drop often": "And if they do, it's still something that needs a sober thinking-through."
+
 ## Joel's fixes, 2026-10-02 21:16 UTC (community article, sections 3 and 4)
 
 He rewrote seven paragraphs of the section 4 candidate and one of section 3, and checked each on Pangram himself. With them, section 3 reads 100% Human (563 words), and section 4 does after two more rounds on the paragraphs his changes exposed (1,519 words).
