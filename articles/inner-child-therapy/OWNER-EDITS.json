@@ -1024,6 +1024,21 @@
     "altered state"
    ],
    "waits_for": "a humanized paragraph that passes alone and in the h1"
+  },
+  {
+   "id": "sws-p3-p5-joel",
+   "status": "applied",
+   "what": "Start With Whatever Showed Up P3 loses its last line, and P4 and P5 are Joel's, word for word (one double space made single).",
+   "joel": "2026-10-03 04:31 UTC: \"i'd remove the last line in p3, doesn't it seem redundant? and plus like you said then it's taking over p4. I fixed p3-p5 for you, it reads much better now and human high conf as a whole.\"",
+   "where": "Start With Whatever Showed Up",
+   "must_contain_exact": [
+    "I wouldn't spend long deciding what to call each part, though. Every part of you learns from how the others treat it, your little one included. A part of you that's trying to protect you might warn you about something, and when you hear it out, it doesn't have to get any louder.",
+    "You can tell that part something like, \"I see you. I'm not going to force my way past you. What's going on?\" Or however you'd actually say that. Then wait and listen patiently. If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.",
+    "Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know (if you're in danger, get safe first)."
+   ],
+   "must_not_contain": [
+    "That part learns it has to shout when nobody listens"
+   ]
   }
  ]
 }

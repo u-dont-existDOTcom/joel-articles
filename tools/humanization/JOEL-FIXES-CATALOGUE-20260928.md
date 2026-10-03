@@ -353,3 +353,13 @@ What his fixes teach:
 - **Lists of three, the order of fixes.** "when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did." (E126)
 - **His fixes.** "in these cases i'd just remove dinner"; questions 5 and 6 of Love Doesn't Wait P12 in his words. All in, and they pass.
 - "continue".
+
+## Joel's fixes, 2026-10-03 04:31 UTC (Start With Whatever Showed Up P3–P5)
+
+- **P3's last line cut.** "i'd remove the last line in p3, doesn't it seem redundant? and plus like you said then it's taking over p4."
+- **Four paragraphs of mine became three of his** ("I fixed p3-p5 for you, it reads much better now and human high conf as a whole"):
+  - "Then wait. Don't grill the silence, and if nothing comes, don't answer for that part just because you'd set this up as a healing session." became "Then wait and listen patiently. If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session."
+  - "Even then, you can notice what sets the reaction off, and what it has you doing instead. Maybe the laundry suddenly feels urgent… Whether that's what the reaction is trying to stop is only a guess, and it might not be protecting you at all." became one sentence at the end of his P4: "Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from."
+  - "Or you might get an answer, as a voice or just a hunch." became "Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants." The feeling comes before the advice tests, and "Those checks are only for advice, though, and if what comes is grief or anger, you'd listen whether it passes them or not." is gone.
+- "idk why you had a hard time this time because normally your writing is better than this?" (E130)
+- "continue".

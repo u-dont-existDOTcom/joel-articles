@@ -42,7 +42,8 @@ MAP.json:
 A "text" row that proposes a change to a paragraph in ARTICLE (its label says PROPOSAL, or it
 has "proposal_of": the start of that paragraph) is diffed against it, so the proposed words are
 highlighted and any cut ones struck (Joel, 2026-10-01 15:59: "on the proposals please highlight
-the new part that's proposed so it's easier to read").
+the new part that's proposed so it's easier to read"). A proposal on a candidate that isn't in
+ARTICLE gives that candidate's whole text as "proposal_of_text" (2026-10-03).
 A lead-in that ends with a colon and the list right after it count as one paragraph, and the
 list keeps its lines on the page (2026-10-01: Love Doesn't Wait P12, whose row showed only its
 lead-in, and whose proposal highlighted the whole list as new).
@@ -218,6 +219,8 @@ def main():
                 base = None
                 if r.get('proposal_of'):
                     base = plain(find(cur, r['proposal_of'], r.get('label', 'row')))[0]
+                elif r.get('proposal_of_text'):
+                    base = re.sub(r'\s+', ' ', keep_lines(r['proposal_of_text']))
                 elif 'PROPOSAL' in r.get('label', '').upper():
                     base = best_match(text, cur)
                 if r.get('flag'):
