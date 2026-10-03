@@ -47,8 +47,11 @@ def api_key():
 
 def call(path, body=None):
     data = None if body is None else json.dumps(body, ensure_ascii=False).encode('utf-8')
+    # A named User-Agent: from 2026-10-03 about 04:30 UTC, Emulate's Cloudflare answered Python's default
+    # ("Python-urllib/3.12") with error 1010 (HTTP 403, "Access denied"), on the balance check too. The key was fine.
     req = urllib.request.Request(API + path, data=data, headers={
-        'Authorization': 'Bearer ' + api_key(), 'Content-Type': 'application/json'})
+        'Authorization': 'Bearer ' + api_key(), 'Content-Type': 'application/json',
+        'User-Agent': 'joel-articles-emulate-humanize/1.0'})
     with urllib.request.urlopen(req, timeout=120) as r:
         return json.loads(r.read())
 
