@@ -6,6 +6,8 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-03 · When the Adult Voice Feels Fake, the altered-states paragraph (waiting for Joel) · How do I tell whether I'm one of the people it only stops feeling fake for in an altered state? (The guide doesn't say.) · default (parked)
+
 - 2026-10-01 · Make a Simple Vow, P1 · Is the little one in the picture a baby, or the age that's been talking back? (Joel's newborn is a way to call up the feeling, then carry it over.) · default (parked)
 
 - 2026-10-01 · Make a Simple Vow, P1 · How do I tell whether my promises still mean something right after "I don't believe you"? (Kept small promises; the vow itself says belief isn't needed.) · default (parked)
