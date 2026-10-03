@@ -292,3 +292,115 @@ Batch 8 results (08:00 to 08:01 UTC, API): **P14, P13P14 and P14P15 100% Human; 
 Three of the seams had already read AI as pairs (P23P24, P25P26, P27P28) though each paragraph passes alone. Following the gate (E62: start where the flagged span starts) and section 4's lesson (`docs/EMULATE-FALLBACK.md`: a run of short paragraphs that each pass can fail as a run; one Emulate call over the run fixed it), the next round sends the flagged runs to Emulate whole, P18 to P28 first.
 
 Over the turn (2026-10-03 04:03 onward, API batches 1 to 8, 118 checks besides the two calibration texts): mine 78 of 118.
+
+## Joel's message of 20:51 UTC (2026-10-03)
+
+Joel: P10 gets the proposed sentence; "P19 is a hard fail … OR is not ALSO" (I wrote "They may also be" in v1, and TRACE-v2-C marked it SAME-MEANING); P23's last sentence is his ("My reasons are given in those articles, respectively, since they need more space."); P28's "private" gets his parenthetical and "insured" goes; and on P18: "the reason that it fails should tell you how to fix it, right? What is the stumbling block exactly". v28 has his edits, the P19 fix ("Or they may be someone who…") and, from my own logic pass over all 33 paragraphs, P22's "medical and psychiatric" (published) for Emulate's "or".
+
+### P18 diagnosis, API batch 9 (texts in `diag18/`): which sentence trips it
+
+Every P18 so far makes the same four moves in the same order: the principle ("No special shamans"), the concession ("Traditional lineages usually disagree with me"), the other side's belief in neutral terms ("many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority"), and a courtesy close ("I respect what these traditions have preserved, and I've learned from them"). In the section check the AI window began exactly at the concession. These checks take sentences out one at a time, with the heading and the fixed P19 (which is checked alone too, since it changed).
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| diag-P19 | Human (weak) | passed with "also"; one word's logic changed | Human (78) |
+| diag-H2bP18P19 | AI | as before, now with "or" in P19 | 100% AI (120) |
+| diag-H2bP18noS3P19 | AI (weak) | without the courtesy close | Human (108) |
+| diag-H2bP18noS2P19 | Human (weak) | without the concession and the neutral report of their belief | 100% AI (97) |
+| diag-H2bS1P19 | Human (weak) | the principle alone, then P19 | Human (85) |
+
+Batch 9 results (20:58 UTC, API, Pangram 4.0): **diag-P19, diag-H2bP18noS3P19 and diag-H2bS1P19 100% Human; diag-H2bP18P19 and diag-H2bP18noS2P19 100% AI.** Mine: 3 of 5 (I had it backwards: I blamed the concession). So the courtesy close trips it, alone: take it out and the heading, P18 and P19 read Human (108 words); keep it and take out the concession instead, and they still read AI. The section window starting at the concession was the chunk boundary, not the cause.
+
+Why that sentence reads AI: "I respect what those traditions have preserved and have learned from them" (published) is the respectful nod a model adds after disagreeing with someone. It names a respect and a debt and fills in neither: what they preserved, what was learned. So it could close any paragraph that disagrees with any tradition. Every P18 so far (mine, the writers', Emulate's) changed its words and kept it, empty, and all of them read AI. What I can't do alone is fill it: what Joel learned from those lineages, or what they kept that he respects, is his to say.
+
+### The gate on v29 and v30, then API batch 10 (texts in `r30/`)
+
+v29 moved P18's respect up into the concession. Its trace (TRACE-v29-A) found two problems with that: "them" widened whom Joel says he learned from (traditional lineages in general, where the published "those traditions" follows the ayahuasca and Bwiti sentence), and the paragraph then ended on lineage authority right before P19's "My issue is with…", which reads as his verdict on those lineages. The courtesy at the end does a job there: it separates the lineages from the objection. So v30 keeps it at the end, reworded and traced clean ("I've learned from those traditions, though, and I respect what they've preserved."). Rewording it is the only move left that doesn't need Joel; I expect it to fail, since every wording so far has.
+
+Joel's "check everything twice": two fresh logic audits of all 33 paragraphs against the published (LOGIC-v29-A forward, LOGIC-v29-B backward), with only the folder and a brief on connectives, negation, quantifiers, modals, and who does what. They agreed on P3 ("To be sure" for "therefore"), P4 ("or" for "and"), P17 ("say no, or pause" for "say no, pause, … and") and P10/P33 (Joel's own changes); A alone found P26 ("and … too … also": every effect in all five places) and "it can depend" in P3; B alone found P24's "once it's there" and P12's and P7's ambiguities (judged the same in effect, kept). The v29 trace added P22's "should be dealt with by seeking" (published "requires") and P28's "here" (published "around here"). All fixed word by word in v30 and traced again (TRACE-v30-A: none changes what a reader believes, apart from Joel's approved changes and P26, where it reads the published "and" as a list and so the "or" as a shift; the published says the weeks reveal "whether anything changed" in those places, so one is enough, which is what "or" says). STANCE-v30 flags the age (Joel's correction) and P10's new sentence (Joel's approval; the stance check reads it against P20 and P32, a point for Joel). The grounding review hit its output limit; nothing in v29 or v30 is a new paragraph, and every new sentence is Joel's or approved by him.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P10 | Human (weak) | passed before; the new sentence is plain | Human (100) |
+| H2bP18P19 | AI (weak) | the courtesy is still empty, only reworded | Mixed: 58% AI (120); the heading, P18 and P19's first two sentences AI (0.62, 67 words), the rest of P19 Human |
+| P3 | Human (weak) | passed before; two words changed | Human (56) |
+| P4P5 | Human (weak) | passed before; "or" to "and" | Human (104) |
+| P17 | Human (weak) | passed before; a two-word question added | Human (54) |
+| P22 | Human | passed before; two words | Human (60) |
+| P23 | Human (weak) | Joel's sentence, plain | Human (41) |
+| P22P23 | Human (weak) | | Human (101) |
+| P24 | Human (weak) | passed before; three words | Human (44) |
+| P26 | Human (weak) | passed before; connectives only | 100% AI (54; 0.80) |
+| P28 | Human (weak) | Joel's parenthetical; "insured" gone | Human (81) |
+| S5 | AI | the runs from P18 on are untouched | Mixed: 78% AI (1,910) |
+
+Batch 10 results (22:04 UTC, API): **P10, P3, P4P5, P17, P22, P23, P22P23, P24 and P28 100% Human; P26 100% AI; H2bP18P19 Mixed (58% AI); the section Mixed (78% AI).** Mine: 10 of 12 (P26 wrong: I called it Human; H2bP18P19 I called AI, and it came back Mixed). So Joel's P23 sentence passes alone and with P22, his P28 passes, P10 passes with the new sentence, and every logic fix passed except P26's, where my "or … or … Or in" read AI (v20's "and … too … also" had passed): the fix changed the shape as well as the connective. The reworded courtesy took P18 with the heading and P19 from 100% AI to 58%, the AI window now the heading, P18 and P19's first two sentences (0.62): wording alone moves it, and not far enough.
+
+Section windows (v30):
+
+| window | words | Pangram |
+|---|---|---|
+| h1 to P2's "which is false!" | 143 | AI (0.77) |
+| P2's last sentence and P3 | 71 | Human |
+| P4 | 50 | AI (0.74) |
+| P5 and P6 to the Global Ayahuasca Survey | 95 | Human |
+| P6's last sentence to P10's first ("The deeper you go…") | 286 | AI (0.67) |
+| P10's middle | 63 | Human |
+| P10's new sentence to P13 | 203 | AI (0.80) |
+| P14 to P17's second sentence | 147 | Human |
+| P17's third sentence to P28 | 646 | AI (0.73) |
+| h2c and P29 | 41 | Human |
+| P30 to P33 | 213 | AI (0.84) |
+
+Against v27 (four AI windows, 77%), P14 to P17 and h2c with P29 now read Human, and the long run from P17 to P28 is still AI.
+
+### P26 again, API batch 11 (v31; TRACE-v31-A: both say "one or more of these places, not all", as the published does)
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P26 (v31) | Human (weak) | v20's three parts and sentence breaks back; "maybe … Maybe … Or in" carry the logic | 100% AI (56; 0.66) |
+| P26-alt | Human (weak) | v20's shape with "or" in the pairs and "maybe" | 100% AI (55; 0.66) |
+
+Batch 11 results (22:19 UTC): **both 100% AI** (0.66 each, down from v30's 0.80). Mine: 0 of 2. v20's "it'll show up … in your relationships and your daily behavior. In your sleep and your decisions, too. It's also in how well…" passed; every version that takes the "too" and the "It's also" out reads AI. The published frame is a test ("the following weeks reveal whether anything changed — in …"), and in a test the "and" lists the places to look, so v32 says the test and keeps v20's "and … too": "the weeks after will tell you whether it had any effect on you, in your relationships and your daily behavior. In your sleep and your decisions, too. And in how well…".
+
+### P26, API batch 12 (v33; TRACE-v32-A: the "too" and "And in" sentences sat outside "whether", so they still added places where it shows; TRACE-v33-A: most readers take the five as places to look)
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P26 (v33) | AI (weak) | my own rebuild of v20's three parts ("the weeks after will show it. Look at … At …, too. And at …"); my rebuilds have mostly read AI | 100% AI (55) |
+
+Batch 12 (22:38 UTC): **100% AI.** Mine: 1 of 1. So P26 goes back to Emulate (round 7, `emulate-runs/community-s5g`, 22:40): the traced v33 as input (i1), and the published paragraph (i2, refused: 32 words, Emulate takes 40 or more). Both i1 versions drop "without declaring a new spiritual emergency" and end on "etc"; each lists the five as places to look ("Look at your relationships, …"). Raw versions first (section 4 of the Emulate doc), API batch 13:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| emu7raw-P26-i1A | Human (weak) | Emulate's raw versions mostly pass | Human (44) |
+| emu7raw-P26-i1B | Human (weak) | | Human (48) |
+
+Batch 13 (22:41 UTC): **both 100% Human.** Mine: 2 of 2. i1A is the closer: B asks "How has your life changed", which assumes a change. v34 takes A with the meaning put back word by word: "Another" for "The other" (one of several principles), the published "Ceremony opens something." and "Did anything change?" for its "Did the ceremony open you up to anything?" (which merged the opening with the change), and the published "without declaring a new spiritual emergency" for its "etc, etc." (which also opened the list of five).
+
+### P26, API batch 14 (v36: Emulate round 7's i1 A with the meaning put back; TRACE-v34-A and TRACE-v35-A: the five read as places to look, one or more, as published; their word-level findings made in their own terms)
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P26 | Human (weak) | the raw version passed; six word-level fixes, the published quip among them | 100% AI (46) |
+| P25P26 | Human (weak) | read AI with v20's P26 | 100% AI (93) |
+| P26P27 | Human (weak) | | 100% AI (88) |
+
+Batch 14 (23:00 UTC): **all three 100% AI.** Mine: 0 of 3. The raw version passed and the fixed one doesn't, so, as with P18, the next check finds which fix trips it before any rewrite: v36 with one group of fixes undone at a time (API batch 15). The groups: F1 "Another aspect … your everyday life" (raw: "The other aspect … your life"); F2 "Ceremony opens something. Did anything change?" (raw: "Did the ceremony open you up to anything?"); F3 "in the weeks after" (raw: "over the last few weeks"); F4 "how well you handle frustration without declaring a new spiritual emergency" (raw: "how you handle frustration, etc, etc.").
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| abl-P26-noF1 | AI (weak) | | Human (46) |
+| abl-P26-noF2 | Human (weak) | a published short sentence then a short question: a stock rhythm | Human (48) |
+| abl-P26-noF3 | AI (weak) | | 100% AI (47) |
+| abl-P26-noF4 | AI (weak) | v20 passed with the quip | Human (41) |
+
+Batch 15 (23:00 UTC): **noF1, noF2 and noF4 100% Human; noF3 100% AI.** Mine: 2 of 4 (I called noF1 and noF4 AI). So no one fix trips it: the paragraph sits near the line, and any one of F1, F2 or F4 tips it over; F3 doesn't matter. F2 (the published opening kept apart from the change) and F4 (the published quip, and a closed list of five) carry meaning; F1 ("Another … everyday") is the cheapest to give back. v37 takes noF1 as checked: "The other aspect is integration: your life." Its cost: "the other" can imply two principles, and "your life" can read as your whole life (v20's "your life" was accepted by every gate before).
+
+TRACE-v37-A: the five read as places to look, one or more, as published; its other marks are v37's known costs ("the other aspect" with no named pair, "ordinary" and "daily" gone, the "you" voice, "how you make decisions"). v37's P26 passes alone (noF1 in batch 15 is its exact text).
+
+### P18 with the paragraph before it, API batch 16 (v37's P18 is v30's reworded courtesy; P18 is 39 words, so it passes with a neighbor that passes alone)
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P17H2bP18 | Human (weak) | v20's P18 passed with P17 and the heading; P17 now passes alone with "To pause?" | |

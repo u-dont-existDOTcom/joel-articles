@@ -1,0 +1,1 @@
+Another thing is that your integration is, well, your life. Ceremony opens something, and if it had any effect on you, it’ll show up in the weeks after, in your relationships or your daily behavior. In your sleep or your decisions, maybe. Or in how well you tolerate frustration without declaring a new spiritual emergency.

@@ -807,6 +807,111 @@ SRC27 = dict(SRC26)
 WHY27 = {'P14': ['v27 (TRACE-v26-A): "a communal schedule", "The shared schedule", "each person" (published: "communal timing rather than individual appetite", "a shared calendar"; "a schedule" and "people doing ceremonies when they want" made it scheduled against on-demand).']}
 
 
+
+# v28: Joel's message of 2026-10-03 20:51 UTC.
+# - P10: "add that sentence to the end of it so it will lead correctly into P11" (the sentence proposed at 08:04).
+# - P19: "P19 is a hard fail. Why didn't you see it flipped the logic from the original? OR is not ALSO." I wrote
+#   "They may also be…" in v1; TRACE-v2-C marked "may be wise, or… → may also be" SAME-MEANING and I took it.
+# - P23: his sentence for "My reasons are in those articles, not smuggled into one sentence here." ("ai is always
+#   saying something like 'not smuggle in' … And it always wants to add a 'not Y' part").
+# - P28: his parenthetical for "private", and "insured" out ("as if someone is insuring a ceremony, no").
+# - P22: "medical and psychiatric" (published) for Emulate's "medical or psychiatric", from my own logic pass.
+V[28] = dict(V[27])
+fix(V[28], 'P10', "which then attracted exactly the right people to show me my limits. 😂", "which then attracted exactly the right people to show me my limits. 😂 In a community of people who’ve sat through the same nights, you aren’t the only one who’s been there, and someone can catch the God complex early.")
+fix(V[28], 'P19', "The facilitator on the retreat circuit may be wise. They may also be someone who", "The facilitator on the retreat circuit may be wise. Or they may be someone who")
+fix(V[28], 'P23', "My reasons are in those articles, not smuggled into one sentence here.", "My reasons are given in those articles, respectively, since they need more space.")
+fix(V[28], 'P28', "It should write down which activities are private and what’s actually insured.", "It should write down which activities are private (to the individual, to a group in the community, or to the community vs the outside).")
+fix(V[28], 'P22', "Screening for medical or psychiatric contraindications", "Screening for medical and psychiatric contraindications")
+SRC28 = dict(SRC27)
+WHY28 = {
+ 'P10': ['v28 (Joel, 20:51: "it was explained by P9, but yeah add that sentence to the end of it so it will lead correctly into P11"): the sentence proposed at 08:04, with "the God complex" for "the inflation" (the term in his sentence before) and "sat through" for "sat".'],
+ 'P19': ['v28 (Joel, 20:51: "P19 is a hard fail … OR is not ALSO"): "Or they may be someone who…" (published: "may be wise, or may be unvetted, …": one of these, which is why "not to know which one you’re getting" follows). I wrote "They may also be" in v1, which says the same facilitator may be wise and a predator at once; TRACE-v2-C marked the change SAME-MEANING and I accepted it without reading the logic myself.'],
+ 'P23': ['v28 (Joel, 20:51): his sentence, "My reasons are given in those articles, respectively, since they need more space.", for "My reasons are in those articles, not smuggled into one sentence here." ("ai is always saying something like \'not smuggle in\' … And it always wants to add a \'not Y\' part").'],
+ 'P28': ['v28 (Joel, 20:51): his parenthetical, "private (to the individual, to a group in the community, or to the community vs the outside)"; "and what’s actually insured" out ("that\'s actually the more weird part. as if someone is insuring a ceremony, no").'],
+ 'P22': ['v28 (my logic pass after Joel’s P19 ruling): "medical and psychiatric contraindications" (published: "Screen for medical and psychiatric contraindications"; Emulate’s "medical or psychiatric" could read as one kind or the other).'],
+}
+
+
+V[29] = dict(V[28])
+fix(V[29], 'P18', "Traditional lineages usually disagree with me on this, and many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority. I respect what these traditions have preserved, and I’ve learned from them.", "Traditional lineages usually disagree with me on this, though I’ve learned from them and respect what they’ve preserved. Many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority.")
+SRC29 = dict(SRC28)
+WHY29 = {
+ 'P18': ['v29 (batch 9: the respect sentence alone trips Pangram; out, the heading, P18 and P19 read Human; in without the concession, AI): the respect and the debt moved up into the concession ("though I’ve learned from them and respect what they’ve preserved"; published: "I respect what those traditions have preserved and have learned from them"), so the paragraph no longer closes on a courtesy right before P19’s "My issue is with…". Same units; only their place and a "though" for the contrast the published leaves to juxtaposition. Joel asked what the stumbling block is: the sentence names a respect and a debt and fills in neither (what they preserved, what he learned), and that is his to say.'],
+}
+
+V[30] = dict(V[28])
+fix(V[30], 'P18', "and many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority. I respect what these traditions have preserved, and I’ve learned from them.", "and many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority. I’ve learned from those traditions, though, and I respect what they’ve preserved.")
+fix(V[30], 'P3', "To be sure, the legality of psychedelics varies", "All of which means the legality of psychedelics varies")
+fix(V[30], 'P3', "And it can depend on a group’s religious status", "And it depends on a group’s religious status")
+fix(V[30], 'P4', "parents worried about the children, or neighbors imagining chaos, or insurance disappearing, or a local official", "parents worried about the children, and neighbors imagining chaos, and insurance disappearing, and a local official")
+fix(V[30], 'P17', "Is your community humble enough to say no, or pause?", "Is your community humble enough to say no? To pause?")
+fix(V[30], 'P22', "it will be necessary to decide what should be dealt with by seeking professional help or emergency care.", "it will be necessary to decide what needs professional help or emergency care.")
+fix(V[30], 'P24', "The medicine can deepen a practice once it's there.", "The medicine can deepen a practice that's already there.")
+fix(V[30], 'P26', "in your relationships and your daily behavior. In your sleep and your decisions, too. It’s also in how well you tolerate frustration", "in your relationships or your daily behavior, in your sleep or your decisions. Or in how well you tolerate frustration")
+fix(V[30], 'P28', "“I don’t think anybody here has ever heard of that”", "“I don’t think anybody around here has ever heard of that”")
+SRC30 = dict(SRC28)
+WHY30 = {
+ 'P18': ['v30 (TRACE-v29-A): v29 had moved the respect up into the concession; that widened whom Joel says he learned from ("them": traditional lineages in general, where the published "those traditions" follows the ayahuasca and Bwiti sentence) and left the paragraph ending on lineage authority, right before P19’s "My issue is with…", which reads as his verdict on those lineages. Back at the end, reworded and traced clean: "I’ve learned from those traditions, though, and I respect what they’ve preserved."'],
+ 'P3': ['v30 (LOGIC-v29 A and B): "All of which means" (published: "Communities therefore face…", a consequence of P1 and P2; Emulate’s "To be sure" reads as a concession); "it depends on" (published: real differences by all five; "it can depend" made the last two only sometimes).'],
+ 'P4': ['v30 (LOGIC-v29 A and B): "and … and … and" (published: "parents may worry …, neighbors may imagine chaos, insurers may disappear, and a local official may understand none": each may happen, several at once; Emulate’s "or" made them alternatives). Same shape, the connective back.'],
+ 'P17': ['v30 (LOGIC-v29 A and B, and my own pass): "humble enough to say no? To pause?" (published: "humility to say no, pause, refer out, and admit": all of them; "say no, or pause" let one stand in for the other).'],
+ 'P22': ['v30 (TRACE-v29-A): "decide what needs professional help or emergency care" (published: "what requires"; Emulate’s "what should be dealt with by seeking" weakened the necessity).'],
+ 'P24': ['v30 (LOGIC-v29 B): "a practice that’s already there" (published: "a practice that exists"; "once it’s there" could read as the medicine being there).'],
+ 'P26': ['v30 (LOGIC-v29 A): "in your relationships or your daily behavior, in your sleep or your decisions. Or in how well…" (published: the weeks reveal whether anything changed in any of these; "and … too … It’s also in" said every effect shows up in all five).'],
+ 'P28': ['v30 (TRACE-v29-A): "anybody around here" (published: "Nobody around here", the locality; "here" could mean the group).'],
+}
+
+V[31] = dict(V[30])
+fix(V[31], 'P26', "it’ll show up in the weeks after, in your relationships or your daily behavior, in your sleep or your decisions. Or in how well", "it’ll show up in the weeks after, maybe in your relationships and your daily behavior. Maybe in your sleep and your decisions. Or in how well")
+SRC31 = dict(SRC30)
+WHY31 = {
+ 'P26': ['v31 (batch 10: v30’s "or … or … Or in" read 100% AI, where v20’s "and … too … It’s also in" had passed; the fix had changed the shape as well as the logic): v20’s three parts and sentence breaks back, with the logic carried by "maybe … Maybe … Or in" (published: the weeks reveal "whether anything changed" in these places, so one is enough).'],
+}
+
+V[32] = dict(V[31])
+fix(V[32], 'P26', "Ceremony opens something, and if it had any effect on you, it’ll show up in the weeks after, maybe in your relationships and your daily behavior. Maybe in your sleep and your decisions. Or in how well", "Ceremony opens something, and the weeks after will tell you whether it had any effect on you, in your relationships and your daily behavior. In your sleep and your decisions, too. And in how well")
+SRC32 = dict(SRC31)
+WHY32 = {
+ 'P26': ['v32 (batch 11: "maybe … Maybe … Or in" and "or … maybe … Or in" both read AI; v20’s "and … too" passed): the published test back ("The following weeks reveal whether anything changed — in relationships, …": "the weeks after will tell you whether it had any effect on you, in …"), where the "and … too" list the places to look, as the published "and" does, so v20’s words can stay.'],
+}
+
+V[33] = dict(V[32])
+fix(V[33], 'P26', "Ceremony opens something, and the weeks after will tell you whether it had any effect on you, in your relationships and your daily behavior. In your sleep and your decisions, too. And in how well", "Ceremony opens something, and if it had any effect on you, the weeks after will show it. Look at your relationships and your daily behavior. At your sleep and your decisions, too. And at how well")
+SRC33 = dict(SRC32)
+WHY33 = {
+ 'P26': ['v33 (TRACE-v32-A: "In your sleep and your decisions, too. And in how well…" sit outside "whether", so they still add places where it shows): v20’s conditional with the published "reveal" ("the weeks after will show it"), then the five as places to look ("Look at … At …, too. And at …"), so the "and … too" add places to look, not places it is.'],
+}
+
+V[34] = dict(V[33])
+fix(V[34], 'P26', V[33]['P26'], "Another aspect is integration: your life. Ceremony opens something. Did anything change? Look at your life over the last few weeks. Look at your relationships, how you behave, how you sleep, how you make decisions, how you handle frustration without declaring a new spiritual emergency.")
+SRC34 = dict(SRC33)
+SRC34.update({'P26': 'i1-emuA (round 7)'})
+WHY34 = {
+ 'P26': ['v34 (batch 12: v33 read AI; Emulate round 7 on v33, both raw versions Human): i1 A, with "Another" for its "The other" (one principle of several); the published "Ceremony opens something." and "Did anything change?" for its "Did the ceremony open you up to anything?", which merged the opening with the change (published: "Ceremony opens something. The following weeks reveal whether anything changed"); the published "without declaring a new spiritual emergency" back for its "etc, etc.", which also opened the published list of five. The five are places to look ("Look at …"), so a change in one is enough, as published.'],
+}
+
+V[35] = dict(V[34])
+fix(V[35], 'P26', "Another aspect is integration: your life.", "Another aspect is integration: your everyday life.")
+fix(V[35], 'P26', "Look at your life over the last few weeks.", "Look at your life in the weeks after.")
+SRC35 = dict(SRC34)
+WHY35 = {
+ 'P26': ['v35 (TRACE-v34-A): "your everyday life" (published: "Integration is ordinary life", everyday life as against ceremony; "your life" alone could read as your whole life); "in the weeks after" (published: "The following weeks", after the ceremony; "the last few weeks" counted back from the reading and capped the span).'],
+}
+
+V[36] = dict(V[35])
+fix(V[36], 'P26', "how you handle frustration without declaring", "how well you handle frustration without declaring")
+SRC36 = dict(SRC35)
+WHY36 = {
+ 'P26': ['v36 (TRACE-v35-A, in its own terms): "how well you handle frustration" (published: "the person’s ability to tolerate frustration", a capacity; "how you handle" read as a manner, or as if you already get through it). TRACE-v35-A: the five read as places to look, one or more, as published; "the weeks after" keeps the published time. Kept, with reasons: the "you" voice, which the section uses throughout (v20’s P26 too); "Another aspect", which the heading places among the ceremony principles.'],
+}
+
+V[37] = dict(V[36])
+fix(V[37], 'P26', "Another aspect is integration: your everyday life.", "The other aspect is integration: your life.")
+SRC37 = dict(SRC36)
+WHY37 = {
+ 'P26': ['v37 (batch 15, ablation): v36 read AI, and undoing any one of three fix groups made it Human; Emulate’s own first sentence back ("The other aspect is integration: your life."), the fix that carried the least meaning. Kept: the published opening apart from the change ("Ceremony opens something. Did anything change?"), the published quip, the closed list of five, "in the weeks after".'],
+}
+
 def build(n, src):
     B = V[n]
     json.dump({'version': n, 'order': ORDER, 'blocks': B, 'source': src}, open(HERE / ('final-v%d.json' % n), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
@@ -818,8 +923,8 @@ def build(n, src):
 
 if __name__ == '__main__':
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8, 9: SRC9, 10: SRC10, 11: SRC11, 12: SRC12, 13: SRC13, 14: SRC14, 15: SRC15, 16: SRC16, 17: SRC17, 18: SRC18, 19: SRC19, 20: SRC20, 21: SRC21, 22: SRC22, 23: SRC23, 24: SRC24, 25: SRC25, 26: SRC26, 27: SRC27}.get(n, SRC27))
-    WHY = {k: WHY1.get(k, []) + (WHY2.get(k, []) if n >= 2 else []) + (WHY3.get(k, []) if n >= 3 else []) + (WHY4.get(k, []) if n >= 4 else []) + (WHY5.get(k, []) if n >= 5 else []) + (WHY6.get(k, []) if n >= 6 else []) + (WHY7.get(k, []) if n >= 7 else []) + (WHY8.get(k, []) if n >= 8 else []) + (WHY9.get(k, []) if n >= 9 else []) + (WHY10.get(k, []) if n >= 10 else []) + (WHY11.get(k, []) if n >= 11 else []) + (WHY12.get(k, []) if n >= 12 else []) + (WHY13.get(k, []) if n >= 13 else []) + (WHY14.get(k, []) if n >= 14 else []) + (WHY15.get(k, []) if n >= 15 else []) + (WHY16.get(k, []) if n >= 16 else []) + (WHY17.get(k, []) if n >= 17 else []) + (WHY18.get(k, []) if n >= 18 else []) + (WHY19.get(k, []) if n >= 19 else []) + (WHY20.get(k, []) if n >= 20 else []) + (WHY21.get(k, []) if n == 21 else []) + (WHY22.get(k, []) if n == 22 else []) + (WHY23.get(k, []) if n >= 23 else []) + (WHY24.get(k, []) if n >= 24 else []) + (WHY25.get(k, []) if n >= 25 else []) + (WHY26.get(k, []) if n >= 26 else []) + (WHY27.get(k, []) if n >= 27 else []) for k in ORDER}
+    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8, 9: SRC9, 10: SRC10, 11: SRC11, 12: SRC12, 13: SRC13, 14: SRC14, 15: SRC15, 16: SRC16, 17: SRC17, 18: SRC18, 19: SRC19, 20: SRC20, 21: SRC21, 22: SRC22, 23: SRC23, 24: SRC24, 25: SRC25, 26: SRC26, 27: SRC27, 28: SRC28, 29: SRC29, 30: SRC30, 31: SRC31, 32: SRC32, 33: SRC33, 34: SRC34, 35: SRC35, 36: SRC36, 37: SRC37}.get(n, SRC37))
+    WHY = {k: WHY1.get(k, []) + (WHY2.get(k, []) if n >= 2 else []) + (WHY3.get(k, []) if n >= 3 else []) + (WHY4.get(k, []) if n >= 4 else []) + (WHY5.get(k, []) if n >= 5 else []) + (WHY6.get(k, []) if n >= 6 else []) + (WHY7.get(k, []) if n >= 7 else []) + (WHY8.get(k, []) if n >= 8 else []) + (WHY9.get(k, []) if n >= 9 else []) + (WHY10.get(k, []) if n >= 10 else []) + (WHY11.get(k, []) if n >= 11 else []) + (WHY12.get(k, []) if n >= 12 else []) + (WHY13.get(k, []) if n >= 13 else []) + (WHY14.get(k, []) if n >= 14 else []) + (WHY15.get(k, []) if n >= 15 else []) + (WHY16.get(k, []) if n >= 16 else []) + (WHY17.get(k, []) if n >= 17 else []) + (WHY18.get(k, []) if n >= 18 else []) + (WHY19.get(k, []) if n >= 19 else []) + (WHY20.get(k, []) if n >= 20 else []) + (WHY21.get(k, []) if n == 21 else []) + (WHY22.get(k, []) if n == 22 else []) + (WHY23.get(k, []) if n >= 23 else []) + (WHY24.get(k, []) if n >= 24 else []) + (WHY25.get(k, []) if n >= 25 else []) + (WHY26.get(k, []) if n >= 26 else []) + (WHY27.get(k, []) if n >= 27 else []) + (WHY28.get(k, []) if n >= 28 else []) + (WHY29.get(k, []) if n == 29 else []) + (WHY30.get(k, []) if n >= 30 else []) + (WHY31.get(k, []) if n == 31 else []) + (WHY32.get(k, []) if n == 32 else []) + (WHY33.get(k, []) if n == 33 else []) + (WHY34.get(k, []) if n >= 34 else []) + (WHY35.get(k, []) if n >= 35 else []) + (WHY36.get(k, []) if n >= 36 else []) + (WHY37.get(k, []) if n >= 37 else []) for k in ORDER}
     json.dump({'about': 'Section 5 v%d: each changed paragraph\'s published text, its Emulate source (exact outputs in emu/), the text, and why.' % n,
                'paragraphs': [{'p': k, 'published': O[k], 'from': SRC1.get(k), 'v%d' % n: V[n][k], 'why': WHY.get(k, [])}
                               for k in ORDER if k.startswith('P') and V[n][k] != O[k]]},

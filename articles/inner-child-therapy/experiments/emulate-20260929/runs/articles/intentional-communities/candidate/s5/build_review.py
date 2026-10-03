@@ -34,7 +34,7 @@ The author's rulings for this rewrite: the wording can change freely as long as 
 
 For each rewrite file:
 1. Which original paragraph it answers.
-2. **Forward.** Split the original paragraph into units of meaning: one per claim, condition, quantity, time, attribution, hedge, example or link. Mark each SAME, SAME-MEANING (reworded, same meaning and strength), SHIFTED (meaning, scope, strength, voice, tense of a claim or attribution changed; say exactly how) or DROPPED.
+2. **Forward.** Split the original paragraph into units of meaning: one per claim, condition, quantity, time, attribution, hedge, example or link, and one per logical relation between items or clauses (or, and/also, but, because/so, if/unless, rather than, only, even). A changed relation is SHIFTED unless it says exactly the same thing: "may be wise, or may be unvetted" (one of these) became "may be wise. They may also be someone who…" (both at once) in an earlier rewrite, and a trace called it the same meaning; the author: "OR is not ALSO". Mark each SAME, SAME-MEANING (reworded, same meaning and strength), SHIFTED (meaning, scope, strength, voice, tense of a claim or attribution changed; say exactly how) or DROPPED.
 3. **Reverse.** List everything in the rewrite that isn't in the original (ADDED): facts, claims, judgments, feelings, causes, people, intensifiers, hedges.
 4. **Sources.** Links (same URL, doing the same job), quotation marks, who said or did what, numbers and dates.
 5. **Sense.** Every word or pronoun whose referent a reader can't find in the visible text (this paragraph, or what comes before it in `R-section.md`), tense slips, grammar that makes you reread.
@@ -83,7 +83,17 @@ PARTS = {1: {'A': ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8'],
          # v23: Emulate round 6 with word-level fixes
          23: {'A': ['P14', 'P24', 'P25']},
          24: {'A': ['P14', 'P24', 'P25']},
-         26: {'A': ['P14']}}
+         26: {'A': ['P14']},
+         # v28/v29: Joel's 20:51 edits (P10, P19, P23, P28), P22's "and", P18's respect moved up
+         29: {'A': ['P10', 'P18', 'P19', 'P22', 'P23', 'P28']},
+         # v30: the two logic audits' and the v29 trace's findings, word-level
+         30: {'A': ['P3', 'P4', 'P17', 'P18', 'P22', 'P24', 'P26', 'P28']},
+         31: {'A': ['P26']},
+         32: {'A': ['P26']},
+         33: {'A': ['P26']},
+         34: {'A': ['P26']},
+         35: {'A': ['P26']},
+         37: {'A': ['P26']}}
 parts = {h: [k for k in ks if k in changed] for h, ks in PARTS.get(n, {}).items()}
 if n == 1:
     assert sorted(sum(parts.values(), [])) == sorted(changed), (changed, parts)
@@ -130,6 +140,33 @@ st = SC.build((IC / 'original.md').read_text(encoding='utf-8'), md,
               scope='section 5 ("The Medicine Part, Without Pretending It Isn’t There"); sections 1 to 4 were checked before',
               topic='intentional communities', report=str(HERE / ('STANCE-v%d.md' % n)), images=IMAGES)
 (OUT / 'stance').mkdir(); (OUT / 'stance' / 'prompt.txt').write_text(st, encoding='utf-8')
+LOGIC = """# Logic audit: one section of an essay on intentional communities, rewrite against the published original
+
+Open only the files in this folder. Don't look for notes, other folders or the web.
+
+- `original-section.md`: the published section, 33 paragraphs under four headings. Number its paragraphs P1 to P33 in order, counting every block of text that isn't a heading or an image.
+- `R-section.md`: the rewrite, the same 33 paragraphs in the same order under the same headings.
+
+Your one job is the logic of each paragraph: whether the rewrite keeps the published paragraph's logical relations. Not style, not wording, not what was dropped as such. Compare every paragraph, P1 to P33, and look at:
+- connectives between items and clauses: or (one of these), and / also / too (all of these, or both at once), but / though (contrast), because / since / so (cause and effect, and which way it runs), if / unless / when (a condition), rather than / instead of, only, even, still;
+- negation and its scope (not, never, no, neither … nor, without);
+- quantifiers (all, every, any, most, many, some, a few, none);
+- modality (can, may, might, will, would, must, should, has to): a possibility made a certainty, a rule made a suggestion, or the reverse;
+- degree and comparison (more, less, especially, even more);
+- who does what to whom (who decides, who acts, who is affected);
+- sequence and time (first, before, after, until, eventually).
+
+Be skeptical. An earlier review called this pair the same meaning: published "A retreat-circuit facilitator may be wise, or may be unvetted, unaccountable, sexually predatory, … or simply wrong", rewrite "The facilitator on the retreat circuit may be wise. They may also be someone who hasn't been vetted…". It isn't: "or" says the facilitator is one of these and you don't know which (the next sentence depends on it), "also" says they may be wise and a predator at once. The author: "OR is not ALSO". Look for every change of that kind.
+
+For each paragraph, a table: the relation, the published wording, the rewrite's wording, and a verdict: SAME, CHANGED (say what a reader would now believe that the original doesn't say), or AMBIGUOUS (the rewrite can be read either way; give both readings). List only relations that differ in wording; one line saying "no changed relations" is enough for a paragraph where none do.
+
+Keep the report under 1,500 words. Write it to `{report}` with one Write call. Then return only the list of CHANGED and AMBIGUOUS findings, one line each: paragraph, the two wordings, what a reader would wrongly believe.
+"""
+for half in ('A', 'B'):
+    d = OUT / ('logic' + half); d.mkdir()
+    (d / 'original-section.md').write_text(img(orig) + '\n', encoding='utf-8')
+    (d / 'R-section.md').write_text(img(md) + '\n', encoding='utf-8')
+    (d / 'BRIEF.md').write_text(LOGIC.format(report=str(HERE / ('LOGIC-v%d-%s.md' % (n, half)))), encoding='utf-8')
 for d in sorted(OUT.iterdir()):
     if d.is_dir(): print(d.name, sum(len(p.read_text(encoding='utf-8').split()) for p in d.iterdir()), 'words')
 print('changed:', ' '.join(changed))
