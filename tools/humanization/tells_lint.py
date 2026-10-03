@@ -21,6 +21,7 @@ A CLEAR only means no mechanical tells were found. The judgment checks
 R1 only catches the "did it" kind of referent; no reviewer caught that one either (2026-09-30).
 E125 (2026-10-03): a list of three or more is a REVIEW, and two in one paragraph are a FAIL.
 E126 (2026-10-03 01:06): the fix is to drop the item that matters least, or split the list when every item is needed.
+O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tail on a finished claim is a REVIEW.
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -90,6 +91,18 @@ ACRONYMS = r"\b(IMO|IMHO|TBH|FWIW|IIRC|AFAIK|NGL|IRL|ICYMI|TL;?DR|BTW|OMG|LOL|SM
 # O7: the balanced "X enough to A and Y enough to B" pair (Joel, 2026-10-02 21:16, on "devoted enough to practice them
 # and secure enough to disagree": "looks super highly polished. surprised emulate let that in. and surprised pangram passed it").
 ENOUGH_PAIR = r"\b\w+ enough to \w+[^.?!;]{0,60}?\b(?:and|but|yet|while)\b[^.?!;]{0,30}?\b\w+ enough to\b"
+
+# O8: smuggling talk (Joel, 2026-10-03 20:51, on community section 5 P23's "My reasons are in those articles, not smuggled
+# into one sentence here": "ai is always saying something like 'not smuggle in' or something about smuggling in"). The
+# figurative kind fails (smuggled in or into something, or not/rather than/without smuggling); goods smuggled across a
+# border are a REVIEW, for the ledger to clear.
+SMUGGLE_FIG = (r"\b(?:not|never|rather than|instead of|without|no)\s+(?:\w+\s+){0,2}?smuggl\w*"
+               r"|\bsmuggl\w*\s+(?:\w+\s+){0,4}?(?:in|into)\b(?!\s+(?:the\s+)?(?:country|border|port|prison|jail))")
+SMUGGLE = r"\bsmuggl\w*"
+# O9: a "not Y" tail on a finished claim (Joel, same message: "And it always wants to add a 'not Y' part"). REVIEW: say
+# the claim or the reason plainly; keep a contrast only when the paragraph needs the other side said. Four words or more
+# must come before the comma or dash, so "No, not today." stays out.
+NOT_TAIL = re.compile(r"^(?P<head>.*\w.*?)(?:,|\s[—–]|\s--)\s+(?:and\s+)?(?:not|rather than|instead of)\s+(?:just\s+|only\s+|merely\s+|simply\s+)?[^,;:.!?]{2,90}[.!?\"”’)]*\s*$", re.I)
 
 # O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
@@ -255,6 +268,13 @@ def main():
                 flag('REVIEW', 'O6 a feeling or idea doing what a person does: one of the top tells, not a ban, worst when polished or overused; give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
             if re.search(ENOUGH_PAIR, s, re.I):
                 flag('REVIEW', 'O7 polished "X enough to… Y enough to…" pair (Joel 2026-10-02: "devoted enough to practice them and secure enough to disagree" "looks super highly polished")', s)
+            if re.search(SMUGGLE_FIG, s, re.I):
+                flag('FAIL', 'O8 owner ban: smuggling talk (Joel 2026-10-03: "ai is always saying something like \'not smuggle in\' or something about smuggling in"); say the plain reason, as his "My reasons are given in those articles, respectively, since they need more space."', s)
+            elif re.search(SMUGGLE, s, re.I):
+                flag('REVIEW', 'O8 "smuggle": literal smuggling can stay; the figurative kind is an owner ban (Joel 2026-10-03)', s)
+            m9 = NOT_TAIL.match(s.strip())
+            if m9 and len(words(m9.group('head'))) >= 4:
+                flag('REVIEW', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said', s)
             for r in CONTRAST:
                 if re.search(r, s, re.I): flag('REVIEW', 'B2 contrast', s); break
             for r in THESIS:
