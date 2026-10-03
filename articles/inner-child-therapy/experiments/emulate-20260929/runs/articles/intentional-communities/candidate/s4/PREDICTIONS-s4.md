@@ -127,7 +127,22 @@ P23: "Personally, I'm aiming for communities with less and less money involved. 
 
 | text | mine | why | Pangram |
 |---|---|---|---|
-| W3-v8 | Human | two small fixes inside a window that passed | |
-| H3dP22P23P24 | Human | | |
-| P24 | Human | | |
-| section-v8 | Human | | |
+| W3-v8 | Human | two small fixes inside a window that passed | Human (280) |
+| H3dP22P23P24 | Human | | Human (87) |
+| P24 | Human | | Human (57) |
+| section-v8 | Human | | Human (1519) |
+
+v8 results: all four 100% Human, the section too (1,519 words). Mine: 4 of 4.
+
+## v9: Joel's answers of 2026-10-02 23:49 (texts in `r9/`)
+
+P5 "These four parts" (they're the four parts in the diagram under the section heading; "plant medicine" declined: "plant medicine isn't the only kind of medicine"); P13 "while staying devoted to following what they've decided on so far" ("it should say staying, not still"); P28 without "often". P21 stays as Emulate's ("the new meaning is actually better for this").
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P5 | Human | "These four categories" passed alone || Human (84) |
+| P11P12P13 | Human | one word changed, one added || Human (153) |
+| P28 | Human | the same text without "often" passed || Human (79) |
+| section-v9 | Human | || Human (1520) |
+
+v9 results: all four 100% Human, the section too (1,520 words), try 1. Installed as the candidate.

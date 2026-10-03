@@ -169,6 +169,19 @@ V[8].update({
 })
 SRC8 = dict(SRC7)
 
+# v9: Joel's answers of 2026-10-02 23:49: "These four parts" (the four parts in the diagram under the heading),
+# "staying devoted to following what they've decided on so far", and P28 without "often"; P21 stays (he finds
+# Emulate's concession better); "plant medicine" declined ("plant medicine isn't the only kind of medicine")
+V[9] = dict(V[8])
+V[9].update({
+ 'P5': V[8]['P5'].replace("These categories leak", "These four parts leak"),
+ 'P13': V[8]['P13'].replace("while still devoted to following they've decided on so far.", "while staying devoted to following what they've decided on so far."),
+ 'P28': V[8]['P28'].replace("And if they do, it's often still something", "And if they do, it's still something"),
+})
+for k in ('P5', 'P13', 'P28'):
+    assert V[9][k] != V[8][k], k
+SRC9 = dict(SRC8)
+
 def build(n, src):
     B = V[n]
     json.dump({'version': n, 'order': ORDER, 'blocks': B, 'source': src}, open(HERE / ('final-v%d.json' % n), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
@@ -179,7 +192,7 @@ def build(n, src):
 
 if __name__ == '__main__':
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8}.get(n, SRC1))
+    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8, 9: SRC9}.get(n, SRC1))
     R = HERE / ('r%d' % n); R.mkdir(exist_ok=True)
     CHECKS = json.load(open(HERE / ('checks-v%d.json' % n))) if (HERE / ('checks-v%d.json' % n)).exists() else {}
     def text_for(ks):

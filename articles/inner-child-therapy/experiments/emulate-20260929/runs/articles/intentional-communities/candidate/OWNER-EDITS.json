@@ -213,7 +213,7 @@
   },
   {
    "id": "s4-p5",
-   "what": "Section 4, P5: Joel's rewrite (2026-10-02 21:16): each category leaks into a specific other one; Emulate's \"intertwined with everything\" was vague (\"this vagueness has to be rejected\") [in the section 4 v8 candidate]",
+   "what": "Section 4, P5: Joel's rewrite (2026-10-02 21:16): each category leaks into a specific other one; Emulate's \"intertwined with everything\" was vague (\"this vagueness has to be rejected\") (23:49: \"These four parts\", the parts in the diagram under the heading; \"plant medicine\" declined) [in v9]",
    "status": "applied",
    "joel": "These categories leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.",
    "must_contain": [
@@ -221,10 +221,12 @@
     "(power corrupts, as they say)",
     "another type of god complex",
     "How folks choose to raise children can expose values the founders never discussed.",
-    "And myriad other categories arise, of course."
+    "And myriad other categories arise, of course.",
+    "These four parts leak into one another almost immediately."
    ],
    "must_not_contain": [
-    "is going to be intertwined with"
+    "is going to be intertwined with",
+    "plant medicine tend to"
    ]
   },
   {
@@ -270,20 +272,21 @@
   },
   {
    "id": "s4-p13",
-   "what": "Section 4, P13: Joel's rewrite (21:16): the Abhidhamma line cut, the last sentence his [in the section 4 v8 candidate]",
+   "what": "Section 4, P13: Joel's rewrite (21:16): the Abhidhamma line cut, the last sentence his (23:49: \"it should say staying, not still\", with the missing \"what\") [in v9]",
    "status": "applied",
-   "joel": "My contemplative practice is grounded in the early Buddhist suttas, with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while still devoted to following they've decided on so far.",
+   "joel": "My contemplative practice is grounded in the early Buddhist suttas, with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they've decided on so far.",
    "must_contain": [
     "with a critical reading.",
     "Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity).",
-    "in that same critical manner while still devoted to following"
+    "while staying devoted to following what they've decided on so far."
    ],
    "must_contain_exact": [
-    "they've decided on so far."
+    "what they've decided on so far."
    ],
    "must_not_contain": [
     "Abhidhamma",
-    "secure enough to disagree"
+    "secure enough to disagree",
+    "while still devoted"
    ]
   },
   {
@@ -312,7 +315,7 @@
   },
   {
    "id": "s4-p28",
-   "what": "Section 4, P28: Joel's correction (21:16): people do come back from visions with practical ideas, which still need sober thinking [in the section 4 v8 candidate]",
+   "what": "Section 4, P28: Joel's correction (21:16): people do come back from visions with practical ideas, which still need sober thinking (23:49: \"yes drop often\") [in v9]",
    "status": "applied",
    "joel": "These are less exciting topics to discuss spiritually. It's rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it's often still something that needs a sober thinking-through.",
    "must_contain": [
@@ -321,10 +324,11 @@
    ],
    "must_contain_exact": [
     "It's rare to see someone come back",
-    "it's often still something"
+    "And if they do, it's still something that needs a sober thinking-through."
    ],
    "must_not_contain": [
-    "Nobody comes back from an ecstatic vision"
+    "Nobody comes back from an ecstatic vision",
+    "it's often still"
    ]
   },
   {
@@ -337,6 +341,14 @@
    ],
    "must_contain_exact": [
     "won't make up for it"
+   ]
+  },
+  {
+   "id": "s4-p21",
+   "what": "Section 4, P21: Joel keeps Emulate's last sentence (23:49): it lost the published irony, but \"the new meaning is actually better for this. and it does read as a concession which is warranted\" [in the section 4 v9 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot"
    ]
   }
  ]

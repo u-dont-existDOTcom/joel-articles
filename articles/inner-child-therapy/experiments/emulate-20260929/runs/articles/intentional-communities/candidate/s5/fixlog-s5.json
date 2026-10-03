@@ -1,0 +1,388 @@
+{
+ "about": "Section 5 v7: each changed paragraph's published text, its Emulate source (exact outputs in emu/), the text, and why.",
+ "paragraphs": [
+  {
+   "p": "P1",
+   "published": "Psychedelics have moved from taboo toward regulated use much faster than most community literature has acknowledged. [Oregon’s licensed psilocybin service centers](https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx) began opening in 2023. Colorado created a regulated natural-medicine system and began licensing in 2025. New Mexico enacted a [Medical Psilocybin Act](https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegNo=219&LegType=B&year=25) in 2025. In Australia, [authorized psychiatrists have had limited access to psilocybin and MDMA](https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub) for specified conditions since 2023.",
+   "from": "e1-emuA",
+   "v7": "Psychedelics have been moving from taboo toward regulated use much faster than most of the literature on communities has caught up with. In the US, [Oregon’s licensed psilocybin service centers](https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx) started opening in 2023. Colorado has created a regulated natural medicine system and started licensing in 2025. New Mexico enacted a [Medical Psilocybin Act](https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegNo=219&LegType=B&year=25) in 2025. In Australia, [authorized psychiatrists have had limited access to psilocybin and MDMA](https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub) (for specified conditions) since 2023.",
+   "why": [
+    "Emulate A, with the facts put back: it had Oregon \"set to start opening licensed psilocybin service centers in 2023\", Colorado \"set to begin licensing in 2025\", New Mexico's Act \"set to take effect in 2025\" (the published says the centers began opening in 2023, licensing began in 2025, and the Act was enacted in 2025), and psychiatrists without \"authorized\".",
+    "Its first sentence (\"There has been a lot of changes in the legality and regulations of psychedelics\") lost \"from taboo toward regulated use\"; that came back. \"Enacted\" became \"passed\".",
+    "v2 (trace): the pace is back (\"much faster than most of the literature … has caught up with\"); New Mexico \"signed … into law\" (v1's \"passed\" read as not yet law); Australia's \"limited access\" back (v1's \"able to use\" read as unrestricted, or as psychiatrists taking the drugs).",
+    "v3 (trace): \"enacted\" again (\"signed … into law\" asserted a signing step)."
+   ]
+  },
+  {
+   "p": "P2",
+   "published": "The movement is neither smooth nor inevitable. In 2024, the U.S. Food and Drug Administration issued a [Complete Response Letter](https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf) declining to approve the submitted MDMA-assisted therapy application and asking for further evidence. Portugal is often described lazily as having “legalized everything”; it actually [decriminalized possession of small amounts for personal use](https://www.euda.europa.eu/system/files/publications/642/PolicyProfile_Portugal_WEB_Final_289201.pdf) while trafficking remains criminal.",
+   "from": "e1-emuA",
+   "v7": "It hasn't been a smooth ride, either, and it isn't inevitable. In 2024, the US Food and Drug Administration issued a [Complete Response Letter](https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf) for the submitted MDMA-assisted therapy application, declining to approve it and asking for more evidence. Portugal often gets described, lazily, as a place where \"they've legalized everything\" -- which is false! They've [decriminalized possessing small amounts for personal use](https://www.euda.europa.eu/system/files/publications/642/PolicyProfile_Portugal_WEB_Final_289201.pdf), but trafficking is still criminal.",
+   "why": [
+    "Emulate A. \"It's not all roses\" lost \"nor inevitable\", so \"none of it is inevitable\" went back in; \"asking for more evidence in order to be considered for approval\" became \"declining to approve it and asking for more evidence\", and the application is \"MDMA-assisted therapy\" again.",
+    "\"Lazily\" back, beside Emulate's \"which is false!\". Emulate added \"of all drugs\" (true of Portugal's 2001 law; the linked policy profile says so).",
+    "v2 (trace, grounding): \"not all roses\" read as \"not wholly good\", so \"It hasn't been a smooth ride\"; the FDA named in full for readers outside the US; Portugal back to the published scope (v1 had Emulate's \"all drugs\" and \"use\")."
+   ]
+  },
+  {
+   "p": "P3",
+   "published": "Communities therefore face real legal differences by country, state, substance, religious status, and activity. Anyone building around medicine needs actual local legal advice, not a friend who once read a thread.",
+   "from": "e2-emuA",
+   "v7": "To be sure, the legality of psychedelics varies depending on country, state, substance, religious status, what exactly one does, and so on, and if medicine is going to be part of a community at all, that community should definitely get actual local legal advice.",
+   "why": [
+    "Emulate A as it came. The published quip \"not a friend who once read a thread\" is gone; \"actual legal advice\" carries its point, and P28 makes it again (\"is information, not a legal opinion\").",
+    "v2 (grounding MUST, trace, cold read): \"if one is going to build a community around this\" could tell a community with occasional, gated ceremonies that the advice isn't for it; now \"if medicine is going to be part of a community at all\". \"Local\" back.",
+    "v3 (trace): \"the legality of psychedelics\" (\"of this\" could point to trafficking, just before). The widening \"if medicine is going to be part of a community at all\" stays: it was the grounding review's one MUST (a community with occasional, gated ceremonies could think the advice isn't for it); the published says \"Anyone building around medicine\"."
+   ]
+  },
+  {
+   "p": "P4",
+   "published": "Most intentional communities that use psychedelics still avoid saying so publicly. Even where the law permits some use, parents may worry about children, neighbors may imagine chaos, insurers may disappear, and a local official may understand none of the distinctions.",
+   "from": "e2-emuB",
+   "v7": "Most intentional communities that are using psychedelics still don't say so publicly, because even where the law allows some use there may be issues with parents worried about the children, or neighbors imagining chaos, or insurance disappearing, or a local official who doesn't understand any of the distinctions.",
+   "why": [
+    "Emulate B. Both versions blurred the four reasons: A had \"for fear of scaring off potential parents, neighbors, insurance, official types\"; B had parents \"of children that they want to welcome to the community\", bare \"other neighbors\" and \"insurance\". Each is back with its own reason: parents worried about their kids, neighbors imagining chaos, insurance disappearing, officials who may not understand the distinctions.",
+    "\"Even where the law might be on their side\" is \"even where the law allows some use\" again.",
+    "v2 (trace): \"intentional communities\", \"still\" and \"don't say so publicly\" back; one local official, as published."
+   ]
+  },
+  {
+   "p": "P5",
+   "published": "I’m discussing it because leaving medicine out would falsify my model. Many readers already know my [psychedelic writing](https://ibogaqueen.substack.com/s/psychedelics), including my [loveyhuasca/Haoma material](https://soma.u-dont-exist.com/). The honest version of this article has to address both the value and the risk.",
+   "from": "e2-emuB",
+   "v7": "I'm talking about it here because not to talk about it would be to falsify my model. Many of the people who read this article are already familiar with my [writing about psychedelics](https://ibogaqueen.substack.com/s/psychedelics), including my [loveyhuasca/Haoma material](https://soma.u-dont-exist.com/). If this article is going to be honest, it has to talk about both the value and the risk.",
+   "why": [
+    "Emulate B. \"Likely already familiar\" lost its \"likely\"; the two links are apart again (the psychedelic writing, and the loveyhuasca/Haoma material; B had put all of it \"on loveyhuasca or Haoma\").",
+    "B's last sentence opened with \"I want to be able to write an honest article\", the \"I want\" opener Joel calls AI for his opinion; it says what the published says without it."
+   ]
+  },
+  {
+   "p": "P6",
+   "published": "The case against building medicine into community is serious. The [Global Ayahuasca Survey](https://pubmed.ncbi.nlm.nih.gov/36962494/) found physical and mental adverse effects were common, although severe outcomes were much less common and context mattered. These medicines can open material faster than a person or group can support it.",
+   "from": "e3-emuA",
+   "v7": "There’s a serious case against having medicine as part of a community. Physical and psychological negative effects of ayahuasca were common in the [Global Ayahuasca Survey](https://pubmed.ncbi.nlm.nih.gov/36962494/), although severe effects were far less common and context mattered. And these medicines can open things up faster than a person (or their group) can deal with.",
+   "why": [
+    "Emulate A. Out: its opener \"It sounds like a lot to ask\", \"suggest\" (the survey \"found\"), \"context is everything\" (published: \"context mattered\") and \"The fundamental problem is that these medicines open\" (published: they \"can open\"). \"Serious\" back, in Emulate's \"consider the negative case first\".",
+    "v2 (trace, cold read): the survey's three findings are the survey's again, in the past tense; \"First, consider\" (v1's \"first\" could attach to building medicine in first).",
+    "v5: v4's P6 read 100% AI alone. Rebuilt on round 2's f1-emuB (\"One of the reasons not to have medicine as part of a community, as many of the physical and psychological negative effects of ayahuasca (found in the global ayahuasca survey) are quite common…\"), with \"serious\" back, the findings the survey's, \"context mattered\" for its \"highly contextualised\", and no \"In other words\" (the outpacing isn't what the survey found).",
+    "v6 (trace): \"these medicines can open things up\" (v5's \"the medicine can open people up\" read as about ayahuasca alone, and as opening the people rather than the material)."
+   ]
+  },
+  {
+   "p": "P7",
+   "published": "They also attract people who love revelation and hate follow-through. A person can collect twelve ceremonies, six origin stories, and a new sacred name while remaining unable to apologize to a housemate. Any community organized mainly around the peak experience will eventually discover that insight does not wash dishes, revise agreements, or calm a frightened child.",
+   "from": "e3-emuA",
+   "v7": "These medicines also attract people who love the revelatory side of the medicine but hate doing the work. Someone can collect as many ceremonies and origin stories as they like and still not be able to say sorry to a housemate. If a community is set up mainly around the peak experience, it’s going to find out that insight doesn’t get the dishes done, or the agreements revised, or a frightened child calmed down.",
+   "why": [
+    "Emulate A. \"Seem to attract\" is \"attract\" again, and \"apologizing when they're wrong\" is \"apologizing to a housemate\".",
+    "Its last sentence (\"this problem is only going to be exacerbated\") replaced the published claim; the claim is back: a community set up mainly around the peak experience finds out that insight doesn't wash the dishes, revise the agreements, or calm a frightened child. \"A new sacred name\" is gone from the list.",
+    "v2 (trace): \"hate the work\" (v1: wanting revelation \"more than\" the work), one person who \"can collect\" (v1: \"plenty of people who will happily\"), \"unable to apologize\"; the hedge \"While this isn't true of everyone\" out.",
+    "v5: v4's P7 read 100% AI alone. From round 2's f1-emuB (\"like the revelatory aspects of the medicine but don't want to do the work\"; \"collect as many ceremonies and stories … as they can, but still struggle to say sorry to their housemate when they've fucked up\"; \"then it's gonna be a bit shit\"), with \"love\" and \"hate\" (published), \"can't say sorry\", no swearing, and the claim back: insight alone won't get the dishes done, the agreements revised, or a frightened child calmed down (the published triad, said plainly; \"insight does not wash dishes\" is a phrase AI has colonized).",
+    "v6 (trace): \"Someone can collect…\" (a possibility, as published; v5's \"Some will\" was a prediction); \"insight doesn't get the dishes done\" (v5's \"insight alone won't\" implied it does part of the work)."
+   ]
+  },
+  {
+   "p": "P8",
+   "published": "The case for communal use is also real in my experience. Psychedelics can loosen defenses that otherwise dominate every serious conversation. They can create powerful bonds when people sit through difficult nights together. They can also produce confusion, grandiosity, dependency, and interpersonal mess. The question is whether the surrounding community has enough maturity to tell those apart.",
+   "from": "e3-emuA",
+   "v7": "On the other hand, from my own experience, the case for using these medicines communally is real too. Psychedelics can loosen the defenses that otherwise dominate every serious conversation, and can create powerful bonds between people who sit through difficult nights together. They can also produce confusion, grandiosity, dependency, and messy interactions with other people. The question is whether the community around them is mature enough to tell those apart.",
+   "why": [
+    "Emulate A. \"Incredibly valuable\" is \"has real value\" (published: \"real\"); \"the patterns that dominate most conversations\" is \"the defenses that dominate every serious conversation\"; the bonds come from sitting \"through difficult nights together\" again.",
+    "Its last sentence (\"Whether they do or not, in my experience, comes down to the maturity of the community\") answered the published question and added a second \"in my experience\"; the question is back.",
+    "v2 (trace): medicines \"can loosen\" defenses (v1: \"can be used to let go of\"), \"otherwise\" back, \"produce confusion\", \"the community around them\" (v1's \"supporting their use\" read as backing it).",
+    "v3 (trace): \"the case for using these medicines communally is real too\" (the published \"case for\", and its \"also\")."
+   ]
+  },
+  {
+   "p": "P9",
+   "published": "Insights need somewhere to land. You see your life with startling clarity one night and return to the same environment, where nobody knows what happened and every old cue is waiting. In community, the people who held you through the experience can also notice what happens during the following months.",
+   "from": "e4-emuA",
+   "v7": "Part of it is integration: an insight needs somewhere to land. When you gain insight and clarity about your life, you come back to the same environment you were in before, with all the old cues still waiting, and no one knows what happened to you. This is where it can be super helpful to have gone through the experience in a community, where the people who held you through it can also notice what happens to you in the months after.",
+   "why": [
+    "Emulate A. Its opener \"It's also about integration\" had no \"also\" to point to under the new heading; \"every old cue is waiting\" is back; the people who were there \"can also notice\" what happens (A: \"help you notice\").",
+    "v2 (trace): the need is back (\"an insight needs somewhere to land\"); the people \"who held you through it\".",
+    "v3 (trace): \"you come back to the same environment\" (v2's \"wake up … still in\" said you never left); \"Part of it is integration\" (v2's \"A lot of it\" weighted it)."
+   ]
+  },
+  {
+   "p": "P10",
+   "published": "Depth can increase alienation. After my original ayahuasca ego deaths at 26, I had trouble finding anyone in the physical world who seemed to have experienced anything similar. I couldn’t even find them at Buddhist monasteries despite all the preaching about enlightenment. That helped produce a God complex, a Savior complex, or both—and then attracted exactly the right people to demonstrate my limits. 😂",
+   "from": "published, first sentence from e4-emuB, last sentence new",
+   "v7": "The deeper you go, the more alienated you can feel. After my original ayahuasca ego deaths at 26, I had trouble finding anyone in the physical world who seemed to have experienced anything similar. I couldn’t even find them at Buddhist monasteries despite all the preaching about enlightenment. That helped give me a God complex, a Savior complex, or both, which then attracted exactly the right people to show me my limits. 😂",
+   "why": [
+    "The two middle sentences are the published ones (Human in the baseline). The first is Emulate B's. Both versions changed the rest: A had people \"who had been there physically\" and a generic \"you may feel a God/Savior complex\"; B had \"my first couple of ego deaths\", \"IRL\" and \"I had both\" (the published says \"or both\").",
+    "The last sentence is new: the isolation \"helped\" (as published), the same three possibilities, and the 😂.",
+    "v2 (trace): \"That isolation\" attracts the people again, as \"That\" did (v1: \"I attracted\").",
+    "v3 (cold read, trace): \"That\" as published, and the complex is what attracts the people (\"which then attracted\"): the cold read couldn't see how isolation attracts anyone."
+   ]
+  },
+  {
+   "p": "P11",
+   "published": "Trusted support is different from purchased support. The commercial alternative is often paying strangers for one night of care. Sometimes those strangers are excellent. Sometimes the person with the feather has known you for four hours and already has a cosmology for everything you say.",
+   "from": "e4-emuA",
+   "v7": "And the people you’re relying on to support you, do you trust them? Being supported by people you trust is different from the commercial alternative, which is often to pay people you don’t know to look after you for a night. Sometimes they’re great, but sometimes the person with the feather has only known you for 4 hours and already has a cosmology they’re using to explain everything you say.",
+   "why": [
+    "Emulate A. \"Finally,\" out (it isn't the last point); \"often\" back; \"only knows your for 4 hours\" fixed.",
+    "v2 (trace): \"Sometimes they're great, but sometimes…\" (v1 made both guesses); \"The commercial alternative\".",
+    "v3 (trace): the difference is said (\"That's different from the commercial alternative\"), not only asked.",
+    "v4 (cold read): \"That's different\" had nothing to point to; now \"Being supported by people you trust is different from the commercial alternative\".",
+    "v5 (trace, three times): \"the person with the feather\", as published (v1 to v4 had Emulate's \"stroking a feather over you\", an action the original never gives them)."
+   ]
+  },
+  {
+   "p": "P12",
+   "published": "In community, a sober sitter may be somebody who has known you for years. Being watched and being held feel different. This matters especially with long, medically risky experiences such as iboga, where screening and continuous observation are essential.",
+   "from": "e5-emuA",
+   "v7": "If you’re working within a community, your sober sitter may be someone who has known you for years. Being held is different from just being watched, and that matters especially with long, medically risky experiences like iboga, where you need screening first and someone has to watch you the whole time.",
+   "why": [
+    "Emulate A. \"For one,\" out; \"potentially medically risky\" is \"medically risky\" again.",
+    "v2 (cold read): \"simply\" out, and \"someone watching over you\", so the held/watched difference and iboga's long observation connect; \"for years\" back.",
+    "v3 (cold read, trace): the held/watched difference matters with iboga because someone has to watch you the whole time; \"long, medically risky experiences like iboga\" as published."
+   ]
+  },
+  {
+   "p": "P13",
+   "published": "Peers can also reality-check the downloads. Psychedelics produce genuine insight and convincing nonsense with identical lighting. Friends who know your history may notice which parts resemble a new understanding and which parts resemble your mother.",
+   "from": "e5-emuA",
+   "v7": "Your peers can also reality-check your downloads. Psychedelics produce real insight, but they also produce convincing nonsense, and it can be hard to tell the difference between the two since the lighting is the same. It helps to have friends who know you and your history, who may notice which parts of what you’re bringing back look like a new understanding and which parts look a lot like your mother.",
+   "why": [
+    "Emulate A. \"Second,\" out; friends sort \"which parts\" are insight and which are your mother (A: \"whether what you're bringing back is insight or\").",
+    "v2 (trace): peers reality-check the downloads themselves; psychedelics \"produce\" real insight and \"convincing\" nonsense; parts that \"look a lot like your mother\" (v1: \"stuff you got from your mother\", an origin, not a likeness).",
+    "v3 (stance): friends \"may notice\" which parts \"look like a new understanding\" (v2's \"see which parts … are insight\" made them judges of your experience, against \"authority stays with the practitioner\")."
+   ]
+  },
+  {
+   "p": "P14",
+   "published": "Community creates rhythm. Many traditional medicine systems place ceremonies inside communal timing rather than individual appetite. A shared calendar can reduce compulsive repetition and give integration time to happen.",
+   "from": "e5-emuA",
+   "v7": "Community also gives medicine work a rhythm. Many medicine traditions use community timing for their ceremonies, rather than whenever each person feels like taking medicine. A shared calendar like that can be helpful for avoiding compulsive medicine-taking and for giving integration time to happen.",
+   "why": [
+    "Emulate A. \"Third,\" out; \"extremely helpful\" is \"helpful\" (published: a shared calendar \"can reduce\").",
+    "v2 (stance, trace): v1's \"rather than allowing people to take medicine when they want\" made the community the one who permits, against \"authority stays with the practitioner\"; now the timing is against individual appetite, and \"a shared calendar\" is back."
+   ]
+  },
+  {
+   "p": "P15",
+   "published": "The logistics become easier. Trusted childcare can be arranged collectively. People don’t need to drive away from the ceremony. Somebody can bring water, stay nearby, or sit quietly while a person returns to ordinary consciousness.",
+   "from": "e6-emuA",
+   "v7": "Logistics get easier in a community. Having the group arrange childcare it can trust. Not having to drive away from the ceremony. Having people that can bring water, be close by, or sit quietly with somebody as they come back to normal consciousness.",
+   "why": [
+    "Emulate A. \"More of ya\" is \"more of you\"; \"re-integrate back into normal consiousness\" is \"come back to normal consciousness\" (integration means the weeks after, in this section).",
+    "v2 (trace): logistics get easier \"in a community\" (v1: \"when there's more of you\"); \"or sit quietly\".",
+    "v3 (trace): childcare arranged together, with somebody everyone trusts (published: \"Trusted childcare can be arranged collectively\").",
+    "v5 (stance): \"Having the group arrange childcare it can trust\" (published: \"Trusted childcare can be arranged collectively\"). v4's \"somebody everyone trusts to watch the kids\" made being trusted by everyone the qualification, which the essay names as how communities fail with children (\"the adult may be … everybody's friend\")."
+   ]
+  },
+  {
+   "p": "P16",
+   "published": "There are people to play with. Raves often create sudden intimacy among strangers before trust exists. In community, ecstatic music and movement can happen among people who already know one another’s names, histories, and inconvenient habits. 💃🕺",
+   "from": "e6-emuA",
+   "v7": "There will be people to play with! Raves often let strangers skip to that part of intimacy where they feel close before there’s any trust between them. Imagine doing ecstatic music and dance with people in a community who already know each other, inconvenient habits and all… 💃🕺",
+   "why": [
+    "Emulate A. \"Raves are great because they allow\" is \"Raves often let\" (published: raves \"often create sudden intimacy\", with no verdict on raves); \"ya\" is \"you\".",
+    "v2 (trace): \"wild things\" out (not in the published); \"inconvenient habits and all\" brings back the point that in community you know each other's flaws.",
+    "v3 (trace): strangers, before there's any trust; people \"who already know each other\"."
+   ]
+  },
+  {
+   "p": "P17",
+   "published": "I won’t idealize psychedelics. Some people should avoid them, some communities shouldn’t use them, and enthusiasm will create casualties wherever competence lags behind access. A community choosing this path needs enough humility to say no, pause, refer out, and admit when an experience caused harm.",
+   "from": "e6-emuA",
+   "v7": "Yeah, I won’t idealize psychedelics. There will be people that shouldn’t do them. There will be communities that shouldn’t be doing them. And enthusiasm will create casualties wherever the competence hasn’t caught up with the access. If a community is going to dive into this it needs to do so in a humble way: being willing to say no, or to pause, or to send someone to an outside expert, and to admit it when an experience caused harm.",
+   "why": [
+    "Emulate A. \"I won't idealize psychedelics\" back. Its casualties sentence (\"Just like there are a lot of people that are hella stoked on psychedelics there will be casualties when people are not competent enough\") lost the access half; now casualties come \"wherever people get access before they're competent\".",
+    "\"Or I fucked that one up\" is \"or we messed that one up and someone got hurt\" (published: \"admit when an experience caused harm\"). \"Hella stoked\" is Emulate's.",
+    "v2 (stance, trace, grounding): \"They're not for everybody\" out (it repeated the next sentence); \"that enthusiasm will create casualties\" (the cause, as published); v1's \"go work with so-and-so, or we messed that one up and someone got hurt\" narrowed referring out and admitting harm; now \"go see someone outside who knows more, and admitting it when an experience caused harm\".",
+    "v3 (trace): \"a lot of people hella stoked\" and \"powerful\" were new claims, out; the community does the four things again (\"being willing to say no, or not now, or go see someone outside who knows more, and to admit it…\").",
+    "v4 (trace): casualties come \"wherever the competence hasn't caught up with the access\" (v3 named the users' competence); \"or to pause, or to send someone to an outside expert\" (published: \"pause, refer out\"; v3's \"go see someone outside\" could read as the community going itself)."
+   ]
+  },
+  {
+   "p": "P18",
+   "published": "No special shamans. Traditional lineages usually disagree with me here. Many ayahuasca and Bwiti communities believe medicine should remain under trained lineage authority. I respect what those traditions have preserved and have learned from them.",
+   "from": "e7-emuA, rebuilt",
+   "v7": "No special shamans. That puts me at odds with most traditional lineages. Many ayahuasca and Bwiti communities, for instance, believe medicine should stay under trained lineage authority. I still respect what those traditions have preserved, and I’ve learned from them.",
+   "why": [
+    "Rebuilt on Emulate A. Both versions dropped \"I respect what those traditions have preserved and have learned from them\" and the lineages' reason (medicine under \"trained lineage authority\"); A also had \"One of the things I want to make clear is that\", \"I don't advocate for shaman, per se\" (no \"special\") and \"the traditional lineages I have worked with\", which the published doesn't say.",
+    "v2 (trace): lineages \"most\" (published: \"usually\"); the belief is the ayahuasca and Bwiti communities' again.",
+    "v5: v4's P18 read 100% AI with its heading and P19 (P19 passes alone). From round 2's f2-emuB (\"Note: I don't believe in “special” shaman, which is in opposition to most lineages, especially in ayahuasca and Bwiti.\"), with the lineages' reason and Joel's respect back.",
+    "v6 (trace): \"No special shamans\" back as the rule; \"at odds with most traditional lineages, including many ayahuasca and Bwiti communities\" (v5's scare-quoted \"special\", \"opposition\" and \"especially\" each changed the claim a little).",
+    "v7 (trace): \"Many ayahuasca and Bwiti communities, for instance, believe…\" (v6's \"which believe\" could attach to most traditional lineages)."
+   ]
+  },
+  {
+   "p": "P19",
+   "published": "My objection is to placing one charismatic person above everyone else’s direct experience. A retreat-circuit facilitator may be wise, or may be unvetted, unaccountable, sexually predatory, financially dependent on repeat customers, or simply wrong. Deep openness magnifies the cost of that uncertainty.",
+   "from": "e7-emuA, rebuilt",
+   "v7": "My issue is with placing one charismatic person above everyone else’s direct experience. The facilitator on the retreat circuit may be wise. They may also be someone who hasn’t been vetted by anybody, who isn’t accountable to anyone, who is a sexual predator, who is financially dependent on people coming back to them specifically, or who is simply wrong. And the more deeply someone is opening up, the more it costs not to know which one you’re getting.",
+   "why": [
+    "Rebuilt on Emulate A. A turned the objection into a description of shamans (\"often the shaman in these settings is a charismatic individual on the retreat circuit\") and dropped \"may be wise\" and \"simply wrong\"; B was worse (\"shitwomping\").",
+    "Now: the objection as published, the facilitator who \"may be wise\", and A's list under one \"may\"; \"Deep openness magnifies the cost of that uncertainty\" is \"When one is opening so deeply, not knowing which you're getting is a major concern.\"",
+    "v2 (trace): \"isn't accountable to anyone\" (v1: \"has little to be accountable to\"); one \"may\" over the list (v1 hedged only the predator twice); the cost grows with the depth of opening again."
+   ]
+  },
+  {
+   "p": "P20",
+   "published": "I don’t yet know how a peer-led medicine culture prevents an informal shaman from emerging anyway—the person everybody consults, trusts, and gradually stops questioning even though nobody gave them the title. Rotating roles and public accountability may help. I don’t think either solves it completely.",
+   "from": "e7-emuB",
+   "v7": "What I don’t know yet, though, is how a peer-led way of working with medicine keeps someone from becoming a de facto shaman anyway: the person everybody consults, trusts, and gradually stops questioning, even though nobody gave them the title. Rotating roles and public accountability may help, but I don’t think either one solves it completely.",
+   "why": [
+    "Emulate B. \"Yet\" back; the informal shaman is described again (\"the person everybody consults, trusts, and gradually stops questioning, even though nobody gave them the title\"); \"a deep commitment to holding one another accountable are good\" is \"public accountability can help\"; \"not enough\" kept for \"I don't think either solves it completely\", as \"neither one is enough\".",
+    "v2 (trace): \"One of the things\" implied other unsolved problems; \"may help\"; \"neither one solves it completely\" (published: \"I don't think either solves it completely\").",
+    "v3 (trace): \"What I don't know yet\" (published: \"I don't yet know\"); \"a peer-led way of working with medicine\", not his own approach; \"I don't think either one solves it completely\" out from under \"I suspect\"."
+   ]
+  },
+  {
+   "p": "P21",
+   "published": "I want people to learn self-guidance and reciprocal care while respecting the limits of their competence. I’ve written more about [peer-held ceremonies](http://ceremonies.u-dont-exist.com/) and about [the best psychopath shaman I ever met](http://sidney.u-dont-exist.com/).",
+   "from": "e8-emuB",
+   "v7": "Still, I want people to learn how to guide themselves and take care of each other, while respecting the limits of their competence. There’s more in my pieces on [peer-held ceremonies](http://ceremonies.u-dont-exist.com/) and on [the best psychopath shaman I’ve ever met](http://sidney.u-dont-exist.com/).",
+   "why": [
+    "Emulate B. \"Guide each other\" is \"guide themselves\" (published: \"self-guidance\"); the links are on their words again. A had \"I am teaching people\", which the published doesn't say.",
+    "v2 (trace): \"I want\" back (Joel, 2026-10-02: it fits this article, about the community he wants); \"while respecting the limits of their competence\"; the two pieces are about their own subjects again.",
+    "v5 (linter B13: three paragraphs opened with \"I\"): \"Still, I want…\" for \"I do, however, want…\"."
+   ]
+  },
+  {
+   "p": "P22",
+   "published": "Peer-led never means casual. Screen for medical and psychiatric contraindications. Review medications and combinations. Keep an appropriate sober sitter. Decide what requires professional or emergency care before anybody takes anything. Distributed authority raises the competence requirement; it doesn’t lower it.",
+   "from": "e8-emuB",
+   "v7": "But peer led never means casual. There needs to be screening for medical and psychiatric contraindications, a review of medications and combinations, an appropriate sober sitter present, and a decision, made before anybody takes anything, about what calls for professional or emergency care. When authority is distributed, the bar of required competence actually goes up.",
+   "why": [
+    "Emulate B. A had \"the ceremonies I lead\". \"Awareness of\" and \"knowledge of\" are \"screening for\" and \"a review of\" again; \"before anybody takes anything\" back; \"does not lower the bar of required competence\" is \"the bar of required competence actually goes up\" (published: distributed authority \"raises the competence requirement; it doesn't lower it\").",
+    "v2 (trace): \"never\" back (\"peer led never means casual\"); \"combinations\" and \"emergency care\" as published.",
+    "v4 (stance): \"a decision, made before anybody takes anything, about what calls for professional or emergency care\" (published: \"Decide what requires professional or emergency care before anybody takes anything\"; v3's \"a clear idea\" was weaker, against section 4's plans that \"have to exist before the first ceremony\")."
+   ]
+  },
+  {
+   "p": "P23",
+   "published": "I’m especially cautious about medicines and protocols I consider more destabilizing or medically burdensome, including some uses of [ketamine and MDMA](http://mdmaket.u-dont-exist.com/) and [bufo](http://bufo.u-dont-exist.com/). Those judgments are explained in the linked articles rather than smuggled into one sentence here.",
+   "from": "e8-emuA",
+   "v7": "In addition, I am especially cautious about medicines and protocols which I consider to be more destabilizing or medically burdensome, including some uses of [ketamine and MDMA](http://mdmaket.u-dont-exist.com/) and [bufo](http://bufo.u-dont-exist.com/). The reasons are in the linked articles, rather than smuggled into one sentence here.",
+   "why": [
+    "Emulate A. \"Especially\" back; \"destabilizing and medically burdensome\" is \"or\" again; the links on their words; \"See the above articles\" is \"See the linked articles\".",
+    "v2 (trace): \"See the linked articles for more explanation\" implied a partial explanation here; now \"The reasons are in the linked articles, rather than squeezed into one sentence here\".",
+    "v3 (trace): \"smuggled\" back (v2's \"squeezed\" made it about space; published: candor about unargued judgments)."
+   ]
+  },
+  {
+   "p": "P24",
+   "published": "The medicine stays behind the other pl/ork. Reparenting, somatic capacity, and peer counseling come first. Medicine can deepen a practice that exists. It cannot create months of honest relationship by pharmacological decree.",
+   "from": "e9-emuA and e9-emuB",
+   "v7": "Medicine stays behind the other pl/ork. Reparenting, somatic capacity, and peer counseling come first. The medicine can deepen a practice that’s already there, but it can’t create months of honest relationship out of thin air.",
+   "why": [
+    "Emulate A and B. A's \"For now,\" made the rule provisional; out. B's \"if a person doesn't do the reparenting … prior to the ceremony the medicine cannot do this work for them\" carries \"come first\"; \"deepen a practice\" and \"months of honest relationship\" are back. \"Etc.\" is Emulate's: image 7's pillars name more than three practices.",
+    "v2 (stance): v1's \"If a person hasn't done … the medicine can't do that work for them\" read as advice someone could skip and still sit in ceremony; now the gate: the other pl/ork comes first. \"Can't replace them\" is Emulate A's.",
+    "v3 (trace): the closed list of three again (v2's \"etc.\"), and v2's new claim \"pharmacology can't replace them\" out; \"out of thin air\" for \"by pharmacological decree\".",
+    "v4 (trace): \"stays behind\" (published), not \"comes after\"."
+   ]
+  },
+  {
+   "p": "P25",
+   "published": "This prerequisite also filters out experience collectors. Somebody unwilling to spend six months learning to listen without fixing is unlikely to become more relationally mature because the visions were especially geometric.",
+   "from": "e9-emuA",
+   "v7": "Also, this prerequisite weeds out the ‘experience collectors’. If someone is unwilling to spend six months learning to listen without fixing, how likely are they to become more relationally mature because the visions were especially geometric?",
+   "why": [
+    "Emulate A. \"Invest the time in relationship building (6months is not that long)\" is \"spend six months learning to listen without fixing\" again (\"not that long\" was Emulate's verdict); \"especially geometric\" back.",
+    "v2 (trace): \"weeds out\" (v1: \"helps weed out\"); \"how likely are they…\" (v1's \"why would they…\" read as near-certain; published: \"unlikely\").",
+    "v3 (trace): \"suddenly\" out (it limited the doubt to quick change)."
+   ]
+  },
+  {
+   "p": "P26",
+   "published": "Integration is ordinary life. Ceremony opens something. The following weeks reveal whether anything changed—in relationships, daily behavior, sleep, decisions, and the person’s ability to tolerate frustration without declaring a new spiritual emergency.",
+   "from": "e9-emuA",
+   "v7": "Integration is day to day life. Ceremony opens something up, and the weeks that follow show whether anything changed in the person. How are their relationships? How are they acting now? Sleep? Decisions? Can they tolerate frustration without declaring a new spiritual emergency?",
+   "why": [
+    "Emulate A. \"Lastly,\" out. \"The weeks that follow are where the real work is done\" is \"where you see whether anything changed\" (published: the weeks \"reveal\"); \"Decisions?\" and the frustration line back, for its \"Etc.\".",
+    "v2 (trace): \"Integration is day to day life\" (published: \"is ordinary life\"; v1: \"a part of\"); the weeks \"show whether anything changed in the person\"."
+   ]
+  },
+  {
+   "p": "P27",
+   "published": "Supports matter. Preparation, nutrition, interaction screening, dose discipline, and emergency planning matter more than aesthetic ceremony details. I keep my current safety material in [Altered States Triage](https://badtrips.u-dont-exist.com/).",
+   "from": "e10-emuA, rebuilt",
+   "v7": "Supports matter more than how the ceremony looks. That means preparation, nutrition, screening for interactions, dose discipline, and an emergency plan. I keep my current safety material in [Altered States Triage](https://badtrips.u-dont-exist.com/).",
+   "why": [
+    "Rebuilt on Emulate A, whose list was garbled (\"screening for appropriate interaction\") and had lost \"more than aesthetic ceremony details\"; B had screening for \"the entity\". \"The Altered States Triage material I'm currently using\" is \"where I keep my current safety material\" again.",
+    "v2 (trace): \"Supports matter\" back; v1's new claim that Altered States Triage covers \"a lot of this\" out.",
+    "v3 (trace, cold read): v2's list after \"how the ceremony looks:\" could read as what the ceremony looks like; now the supports are named after \"That means\".",
+    "v4 (stance): \"an emergency plan\" (published: \"emergency planning\"; v3's \"knowing what to do in an emergency\" was know-how, not a plan made beforehand)."
+   ]
+  },
+  {
+   "p": "P28",
+   "published": "Legality needs a written answer. The law varies widely and sometimes ambiguously. A community should document what activities are allowed, prohibited, private, insured, or legally reviewed. “Nobody around here has heard of it” is information, not a legal opinion.",
+   "from": "e10-emuA",
+   "v7": "Legal issues differ greatly, and are sometimes not well defined, so a community should write down where it stands: what’s allowed and what’s prohibited, what’s private, what’s insured, and what’s been legally reviewed. “I don’t think anybody here has ever heard of that” is information, but it’s not the same as a legal opinion.",
+   "why": [
+    "Emulate A. \"Often are not well defined\" is \"sometimes\" again; \"is valuable to have in writing\" is \"should be put in writing\"; the quote \"is information\" again (A: only \"not the same as a legal opinion\"). B reversed the point.",
+    "v2 (stance, grounding, trace): v1's \"some basic understanding … what might be insurable or require legal review\" was a record of guesses; now the community writes down where it stands: allowed and prohibited, private, insured, legally reviewed.",
+    "v3 (trace): \"so a community should write down\" (the law's variation is the reason to write, as published; v2's \"but … still\" made it an obstacle)."
+   ]
+  },
+  {
+   "p": "P29",
+   "published": "Many people come out of deep psychedelic or mystical experience with the same urge: find the tribe, build the village, and help other people reach whatever just opened.",
+   "from": "e11-emuB",
+   "v7": "Quite a few people feel a strong urge to form a village after some deep psychedelic or mystical experiences. They want to find their people, and to help others get to whatever just opened up for them.",
+   "why": [
+    "Emulate B, with \"One of the great impulses\" as \"One of the most common impulses\" (published: \"Many people\").",
+    "v2 (trace): \"Plenty of people feel the same urge\" (published: \"Many people\"; v1: \"one of the most common impulses\", a ranking); \"whatever just opened up\" back.",
+    "v5: round 2's f3-emuB, with \"find\" for its \"get to know\" (published: \"find the tribe\"), for one voice across the subsection.",
+    "v6 (trace): \"whatever just opened up for you\" (published: \"whatever just opened\"; v5's \"where you have\" made it a place reached).",
+    "v7 (trace): one strong urge again, the village included; no quotation marks around \"your people\"."
+   ]
+  },
+  {
+   "p": "P30",
+   "published": "I know that call. I also know the inflation that can ride beside it. You return believing love can heal anyone. Then you meet people who don’t want to change, people who sincerely want to change but keep choosing the opposite, and people whose crisis exceeds anything your enthusiasm can hold.",
+   "from": "e11-emuA",
+   "v7": "I know this urge. And I know the grandiosity that can go along with it: you come back believing love can heal anyone. And then you run into the people who don’t want to change. And you run into the people who sincerely want to change, but who keep choosing the opposite. And you run into the people whose crisis is more than your enthusiasm can hold.",
+   "why": [
+    "Emulate A, with \"know\" for its \"understand\" twice (published: \"I know that call. I also know the inflation\") and \"sincerely\" back.",
+    "v2 (stance, grounding, trace, cold read): \"I also know the inflated sense of self\" (first-hand); \"your love can heal anyone\"; the three groups as published, the third a limit on what you can hold (v1's \"need more help than you imagined\" could read as a cue to give more).",
+    "v3 (trace): \"believing love can heal anyone\" (v2: \"your love\").",
+    "v4 (trace): the limit is enthusiasm's again (\"whose crisis needs more than enthusiasm\"; published: \"exceeds anything your enthusiasm can hold\"), without the abstract agent.",
+    "v5: round 2's f3-emuB. Out: its \"or don't even know they need to change\" (new); in: \"sincerely\" and the published belief, \"Love can heal anyone\" (its quote was \"I can help anybody with love\"). Its third group keeps the limit as the seeker's capacity (\"need more help than you are capable of giving\").",
+    "v6 (trace): the belief is the returning seeker's again (\"you come back believing love can heal anyone\"); the third group's crisis is \"more than your enthusiasm can hold\" (published), not a general need for help.",
+    "v7 (trace): \"the grandiosity\" (v6's \"omnipotent tendency to grandiosity\" said more than \"inflation\"); \"keep choosing the opposite\" (published)."
+   ]
+  },
+  {
+   "p": "P31",
+   "published": "The call may be real. Omnipotence is a terrible founding document.",
+   "from": "e11-emuB",
+   "v7": "The call might be real, but omnipotence is a terrible thing to build a village on.",
+   "why": [
+    "Emulate B, with \"The call is real\" as \"Even if the call is real\" (published: \"The call may be real\").",
+    "v2 (trace): \"Maybe the call is real\" (a concession, as published; v1's \"Even if\" made it hypothetical); \"terrible\".",
+    "v5: v4's P31 read 100% AI with P32 (P32 passes alone). Round 2's f3-emuB, with \"a terrible idea\" (published: \"terrible\") for its \"a bad idea\"; \"that state\" is the grandiosity in P30.",
+    "v7 (stance, Pangram): round 2's \"a terrible idea to form a village while you're in that state\" made it a rule about timing, where the published says omnipotence is a bad premise for any community (\"Omnipotence is a terrible founding document\"), and with P32 it read 100% AI, as v4's \"building a village on a foundation of omnipotence is a terrible idea\" had. New: \"The call might be real, but omnipotence is a terrible thing to build a village on.\" Not yet checked."
+   ]
+  },
+  {
+   "p": "P32",
+   "published": "A group formed during collective spiritual euphoria can recruit too quickly, promise too much, and discover arithmetic only after several people are already dependent on it. The capacity and membership sections later in this article exist partly to protect the original generosity from that first rush.",
+   "from": "e12-emuA, rebuilt",
+   "v7": "A group that begins in collective spiritual euphoria can recruit too quickly and promise too much, and only do the math on how much need it can absorb once several people already depend on it. The sections on capacity and on membership, later on in this article, are partly there to protect the original generosity from that first rush.",
+   "why": [
+    "Rebuilt on Emulate A, which turned \"can recruit\" into a history (\"many groups have begun … and immediately begun recruiting\") and dropped \"promise too much\", the people already dependent, \"partly\" and the generosity the sections protect.",
+    "v2 (trace, cold read): \"recruit too quickly\" back; the late discovery is the math of how much need it can absorb (v1: \"how quickly things can get out of hand arithmetically\", which a cold reader couldn't place)."
+   ]
+  },
+  {
+   "p": "P33",
+   "published": "Once the call sobers up, it can become useful. A community can serve as a training ground where people learn the practices, care for one another, and sometimes leave to begin another experiment. That answers the reasonable objection that communes are merely privileged escape pods.",
+   "from": "e12-emuB",
+   "v7": "After the euphoria wears off and the call sobers up, it can become useful. A community can give people a place to learn the practices and care for one another, and sometimes to go off and start another experiment. That also deals with a reasonable objection: that communes are just privileged little escapes from the world.",
+   "why": [
+    "Emulate B. \"A training ground for people to move on from\" lost what people learn there and made leaving the point; \"learn the practices, care for one another, and sometimes\" are back. \"Partly answers\" is \"answers\" again (published), \"reasonable\" and \"just\" (published: \"merely\") back.",
+    "v2 (trace): sobering up makes the call useful again; \"communes are just privileged escape pods\".",
+    "v5: v4's P33 read 100% AI alone. Round 2's f3-emuB, with \"it can become useful\" (its \"it can be a great thing\" hyped it), what people do there back (\"learn the practices and care for one another, and sometimes …\", published), \"a reasonable objection\" (its \"one of the common objections\") and \"privileged\" back.",
+    "v6 (trace, cold read): \"the call sobers up\" (published; v5's scare-quoted \"call\" that \"matures a bit\"); \"A community like this can give people…\" (v5's \"a place like this\" had nothing to point to, and \"One of the functions … is\" made a possibility a fact).",
+    "v7 (trace): \"A community can give people…\" (v6's \"A community like this\" pointed at a kind of community the text never names); the objection is about communes again."
+   ]
+  }
+ ]
+}

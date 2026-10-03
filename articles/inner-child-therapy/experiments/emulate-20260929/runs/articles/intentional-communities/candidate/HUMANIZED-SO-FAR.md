@@ -110,7 +110,7 @@ The deeper problem is that someone carries authority earned in one domain into t
 
 I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
 
-<!-- CANDIDATE: section 4 v8 (2026-10-02, Joel's edits of 21:16 in, with his own characters), for Joel's review. The section 100% Human on Pangram (1,519 words, the page's count), and every paragraph 100% Human alone or with a neighbor that passes alone. The gate ran on every version (traces, cold reads, grounding on v1, the whole-article stance check). Open: four proposals on his paragraphs (P5 "These four categories" and "plant medicine", P13 "what", P28 without "often"), each 100% Human alone, and P21's last sentence (the irony went). Records: s4/PREDICTIONS-s4.md, s4/r*/pangram-s4.jsonl, s4/fixlog-s4.json, s4/build_s4.py. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 4 v9 (2026-10-02, Joel's edits of 21:16 and his answers of 23:49 in, with his own characters), for Joel's review. The section 100% Human on Pangram (1,520 words, the page's count), and every paragraph 100% Human alone or with a neighbor that passes alone. The gate ran on every version (traces, cold reads, grounding on v1, the whole-article stance check). Records: s4/PREDICTIONS-s4.md, s4/r*/pangram-s4.jsonl, s4/fixlog-s4.json, s4/build_s4.py. Not accepted until Joel says so. -->
 
 # The Four Parts That Have to Pl/ork Together
 
@@ -126,7 +126,7 @@ In a nutshell, there's a difference between working together just to provide foo
 
 Nothing suppressed, everything processed. Each of us keeps authority over our own practice, and the community is the container. Whatever answers we find stay fluid and organic, and don't freeze into doctrine.
 
-These categories leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.
+These four parts leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.
 
 Also, a note on agreements: a community does need some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.
 
@@ -146,7 +146,7 @@ Here’s an example: you teach your inner child geography, while s/he teaches yo
 
 And it's built on [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.
 
-My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while still devoted to following they've decided on so far.
+My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they've decided on so far.
 
 ### 2. Relational pl/ork
 
@@ -182,7 +182,7 @@ Eventually, the community would also stop using money outside. People would meet
 
 None of this does away with scarcity or economic power. There are lots of areas where such power can be wielded: access to food storage, housing, tools, land, medicine, transportation, and the outside world’s currency, to name a few. Even in a moneyless community, someone can control what's scarce. Who decides how these things are distributed? What do members owe one another? What happens when someone wants to leave?
 
-These are less exciting topics to discuss spiritually. It's rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it's often still something that needs a sober thinking-through.
+These are less exciting topics to discuss spiritually. It's rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it's still something that needs a sober thinking-through.
 
 But no amount of gorgeous land will make up for the mess that is created when one person owns the land or has the final say about what will happen on it. And when members come on board faster than the group can support them, all the peer counseling in the world won't make up for it, any more than medicine makes up for the lack of a written exit agreement.
 
