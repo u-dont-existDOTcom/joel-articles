@@ -1,0 +1,85 @@
+{
+ "what": "A blind test of whether a reader's marching-order label (MARCH: every sentence only takes the next step; BREAKS: some sentence reacts, wonders, jokes, asks, remembers or goes to the side) predicts Pangram's verdict on single paragraphs (E131, 2026-10-03, turn 24).",
+ "readers": "two Claude Sonnet runs, the same 19 paragraphs in two shuffled orders, nothing but the prompt file open",
+ "prompt": "Below are 19 paragraphs from a friendly self-help article about inner-child work, each one on its own. In this article \"your little one\" is the inner child.\n\nFor each paragraph:\n1. Write each sentence's job in two to five words, in order, separated by \" / \" (for example: sets up the case; what happens; another thing that can happen; a caution; what to do; what to do next; the writer reacts; a story from the writer's life; a joke; a question; an aside).\n2. Then give one verdict: MARCH if the sentences only take the next step one after another, like a procedure or code instructions written out in English, with no sentence where the writer reacts, wonders, jokes, asks, remembers something, or goes off to the side. Otherwise BREAKS, with the number of the first sentence that breaks the steps.\n\nDon't judge whether the writing is good or whether it sounds like AI, and don't guess where a paragraph came from. Return only these lines, one per paragraph:\nT1: jobs / jobs / ... — MARCH\nT2: jobs / jobs / ... — BREAKS at 3",
+ "verdicts": {
+  "PASS_sws_p5b_writer_c_fixed_api.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "FAIL_adultfake_altered_states_try3_100pct.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "PASS_altered_states_joel_fix(his check)": {
+   "A": "BREAKS at 3",
+   "B": "BREAKS at 3"
+  },
+  "PASS_sws_p5_joel.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "FAIL_ldw_p11_rebuild_b_100pct.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "FAIL_sws_p2_writer_c_fix_100pct.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "PASS_sws_p4_joel.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "FAIL_sws_p5_writer_a_fixed_100pct.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "FAIL_adultfake_altered_states_try1_51pct.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "PASS_sws_p2_writer_c_reviews_fixed.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "FAIL_sws_p5a_writer_c_100pct.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "PASS_borrow_p7_r11.txt": {
+   "A": "BREAKS at 3",
+   "B": "BREAKS at 3"
+  },
+  "FAIL_ldw_p14a_100pct.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "PASS_borrow_p4_r10.txt": {
+   "A": "BREAKS at 4",
+   "B": "BREAKS at 4"
+  },
+  "PASS_ldw_p10_proposal_c6.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "FAIL_adultfake_altered_states_try2_100pct.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "PASS_sws_p5a_writer_b_laundry.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  },
+  "FAIL_sws_p3_writer_a_fix_100pct.txt": {
+   "A": "BREAKS at 2",
+   "B": "BREAKS at 2"
+  },
+  "PASS_sws_p4_so_opener_api.txt": {
+   "A": "MARCH",
+   "B": "MARCH"
+  }
+ },
+ "result": "The two runs agreed on all 19. Failed paragraphs (all mine): 8 of 9 MARCH. Passed paragraphs: 7 of 10 MARCH (Joel's Start With Whatever Showed Up P4 and P5 among them) and 3 BREAKS (Joel's altered-states fix, Borrow One P4 r10 and P7 r11). So a break went with a pass every time it was found, but MARCH alone didn't predict a fail: no linter rule from it.",
+ "note": "PASS_altered_states_joel_fix is Joel's check (Human, medium); the rest are the calibration files of the same names."
+}

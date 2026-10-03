@@ -6,8 +6,6 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
-- 2026-10-03 · When the Adult Voice Feels Fake, the altered-states paragraph (waiting for Joel) · How do I tell whether I'm one of the people it only stops feeling fake for in an altered state? (The guide doesn't say.) · default (parked)
-
 - 2026-10-01 · Make a Simple Vow, P1 · Is the little one in the picture a baby, or the age that's been talking back? (Joel's newborn is a way to call up the feeling, then carry it over.) · default (parked)
 
 - 2026-10-01 · Make a Simple Vow, P1 · How do I tell whether my promises still mean something right after "I don't believe you"? (Kept small promises; the vow itself says belief isn't needed.) · default (parked)
@@ -35,6 +33,8 @@ They wait here instead of going into the article. Joel decides on them when the 
 - 2026-09-30 · Later sections · The guide says "leave" in other places too ("Leave the situation that keeps injuring you."; "leave when staying requires disappearance"). Joel's 09-30 rethink of "leave it" will need applying when those sections come up. · noted by the wide run
 
 ## Answered or used
+
+- 2026-10-03 · When the Adult Voice Feels Fake, the altered-states paragraph · How do I tell whether I'm one of the people it only stops feeling fake for in an altered state? Answered by Joel, 16:16 UTC: "you just simply look back and you know... the only thing is most people don't even think like this until someone brings it up, that they may actually have state-dependent awareness." The paragraph brings it up (E132).
 
 - 2026-10-01 · Give the Vow a Physical Reminder · What if the toy feels like my little one talking? Answered by Joel, 2026-10-02 00:16 UTC: "if it does seem to connect them with their inner child they can talk to it if they want to like that, i don't see that as a problem either." He cut the caution ("I don't think people will be confusing the stuffed animal with an oracle"), so the section has none (E113).
 

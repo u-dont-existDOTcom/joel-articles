@@ -183,3 +183,16 @@ Joel, 04:31 UTC: "i'd remove the last line in p3, doesn't it seem redundant? and
 
 ### Next
 Joel's fix or line for the altered-states paragraph. Then the h3s, Two Common Protective Patterns and A Bottom-Up Sequence, from the updated guide.
+
+## Turn 24 (2026-10-03, from 16:16 UTC): Joel's altered-states paragraph, and the marching order
+
+Joel, 16:16 UTC: "P3, yeah it's the marching order that's why it's AI. you can't see that? and it has nothing to do with the rest of the guide's order matching, pangrram checks it alone. you suggested ending sentence is good"; on the parked question, "you just simply look back and you know..."; and "i can fix the apragraph easily but i'm surprised you can't? what are you trying exactly and why? look here's the mininal fix. i'm not saying to make oh my gosh into a rule but just see how it can break up the marching order of code instructions translated to english ok? this is human med conf: [his paragraph]". No "continue", so no merge.
+
+- His paragraph is in after his P3, word for word (OWNER-EDITS adultfake-altered-states-joel; guide-update-20261003-altered-states is applied). It's try 3 with the proposal's last sentence, "MDMA" for "mushrooms", and "All of a sudden your little one is right there! Oh my gosh! And the love or grief…" for "…right there, and the love or grief…". Alone: Human, medium on his check, not run again. The h1 with it, through the API: 100% Human (1,078) (b456623f), try 1. So When the Adult Voice Feels Fake is done through Start With Whatever Showed Up.
+- The claim entry parent-you-inherited-p4-p5 checked that the h2 comes right after his P3. It comes after the new paragraph now, and the claim says so.
+- The lesson is E131, the marching order: all three of my tries took the same five steps a sentence each, and I changed only the words inside them. Try 1's window had already shown where the march started. Two blind readers then labeled 19 calibration paragraphs: steps alone don't predict a fail (his own P4 and P5 read as steps and pass), and the three paragraphs with a break both readers found all passed, so the line went to the writer bans and the gate, not the linter.
+- The parked question is answered (E132), and the grounding prompt now leaves out questions a reader answers by looking back at their own experience. None of the other open parked questions is that kind.
+- The Pangram API script is in the repo now (`tools/humanization/pangram_api_check.py`), so a new session doesn't have to rebuild it; it reads the key file's path from PANGRAM_KEY_FILE, so the path isn't in the repo either.
+
+### Next
+The h3s, Two Common Protective Patterns and A Bottom-Up Sequence, from the updated guide, with E131's line in the writer prompts.

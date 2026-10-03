@@ -370,3 +370,11 @@ What his fixes teach:
   - "Or you might get an answer, as a voice or just a hunch." became "Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants." The feeling comes before the advice tests, and "Those checks are only for advice, though, and if what comes is grief or anger, you'd listen whether it passes them or not." is gone.
 - "idk why you had a hard time this time because normally your writing is better than this?" (E130)
 - "continue".
+
+## Joel's fixes, 2026-10-03 16:16 UTC (the altered-states paragraph)
+
+- **The marching order.** "P3, yeah it's the marching order that's why it's AI. you can't see that? and it has nothing to do with the rest of the guide's order matching, pangrram checks it alone." (E131)
+- **His minimal fix of try 3, with my proposed last sentence** ("you suggested ending sentence is good"): "like on mushrooms" became "like on MDMA", and "All of a sudden your little one is right there, and the love or grief that sounded like therapy talk is just obvious." became "All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious." Human, medium on his check; the h1 with it 100% Human (1,078). "i'm not saying to make oh my gosh into a rule but just see how it can break up the marching order of code instructions translated to english ok?"
+- **The parked question.** "you just simply look back and you know... i don't understand how that would be hard to know? the only thing is most people don't even think like this until someone brings it up, that they may actually have state-dependent awareness." (E132)
+- "i can fix the apragraph easily but i'm surprised you can't? what are you trying exactly and why?"
+- No "continue".
