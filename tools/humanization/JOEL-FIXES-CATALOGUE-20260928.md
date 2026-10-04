@@ -404,3 +404,10 @@ What his fixes teach:
 - **His P3, one insertion** ("just one insertion that anyone could have thought of"): "A new roommate doesn't win you over with a speech on move-in day." became "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?)." Nothing else changed. Turn 26's version was 100% AI (5d85e7fe); his is 100% Human, high (81, 3af6f4e3), checked on turn 27 since he hadn't said he'd checked it.
 - On shortening: "yes i agree with your shortening sugggestions." More from the map updates is coming, to be merged in and deduped.
 - No "continue".
+
+## Joel's notes, 2026-10-04 03:58 UTC (the sequence's P4)
+
+- "yeah that reads much more natural now and more inside the thought." (of P4 as installed on turn 27)
+- "that's cool you're learning by yourself."
+- "i liked the proposal at the end yeah": the cold read's clarity fix of P4's third sentence, which had passed alone but put a 7% AI window into the h1. It went in less its "to see" (the h3 100% Human; the h1 3% AI, a window in Two Common Protective Patterns P2).
+- "continue".
