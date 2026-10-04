@@ -225,3 +225,33 @@ Joel, 01:03 UTC: "your heading is fine." "one small step has been talked about a
 
 ### Next
 His answers on the above; then the sequence's rest, merged or fixed the way he fixed P2. Then When to Change the Strategy.
+
+## Turn 27 (2026-10-04, from 01:33 UTC): the sequence's last paragraph, and the h3 in
+
+Joel, 01:33 UTC: "hm i see, you can't mimic me for some reason. well, it's not about better explaining. it's about breaking up the instruction manual flow, which requires some kind of within-the-thought reflection or jumping or something like that because people will gloss over fast if everything is one long stepwise instruction sheet. you don't need to know what i would say, you just need to think like "how would a human think right here, how would a human author re-engage the reader here?" … close is good enough." His P3: turn 26's round-3 P3 with "(hopefully, right?)" ("just one insertion that anyone could have thought of"). "yes i agree with your shortening sugggestions." More is coming from the map updates, to merge in and dedupe. No "continue", so no merge.
+
+- **In:** Hear the Protective Part First at the end of Start With Whatever Showed Up: P1 (turn 25's writer a), Joel's P2 and P3 word for word, and one paragraph for the guide's last two. The h3 100% Human, high (413, c8461adf); Start With Whatever Showed Up with both h3s 100% Human, high (1,117, 50367f43); the h1 100% Human, high (1,690, c1253626). OWNER-EDITS: bus-p2-joel and bus-heading applied, bus-p3-joel and bus-h3 added; 84 pass.
+- **Shortened:** the guide's last two paragraphs are one (135 words where turn 26 had two of about 80 and 100). It keeps that part staying and watching one small step, its no, following what changes, one example (a critic softening into a fear) and care that fits it. Cut: the guide's other two examples (a vague hurt becoming a need, anger pointing to a boundary; the article already says what to do with grief or anger), and "You don't need an age, a recovered memory, or a complete cast of parts" (the grounding: "the simpler the better" covers the cast; the guide's photograph cautions come later). Turn 26's "I'm on your side" lines and the shoulders are gone. The h3 is still longer than the guide's section (413 words against 338), since P3's acts stay as Joel fixed them.
+- **Joel's P3:** he hadn't said he'd checked it, so it was checked alone: 100% Human, high (81, 3af6f4e3). Without the insertion it was 100% AI (5d85e7fe).
+- **Writers:** three from a one-paragraph brief with his lesson in it. The march reader found runs of four to eight steps in all three, in the order my brief listed the guide's points, so none went to Pangram, and the writer prompts now say that list isn't one sentence per item.
+- **The checks (25, all logged in PREDICTIONS.md; 9 hits, 16 misses):**
+
+| Round | What changed | Result |
+|---|---|---|
+| a | Mine with stock casual moves ("So does that part have to move out? Nope.", "No waiting till it goes to the bathroom!", "Aww, buddy.", "I'd count that."); the same with the joke joined to the rule's sentence | 100% AI, high, both (7bb787cc, e370f1bb) |
+| b | The first 40 words two ways: rarer asides ("(where would it even go?)", "or supervise really"); his loose register | 100% AI, high, both (3b466b54, 4bfc3db7) |
+| c | Rewritten plain, the breaks my own view and feeling, review fixes in | 100% AI, high (9d06eea4) |
+| d | His loose register throughout; a goofy callback opening ("(it pays rent too, hehe)"); a run-on opening | 100% AI, high, all three (83d8be1d, a05b9a64, 12a7fe5a) |
+| e | Joel's P3; the plain version's halves alone | P3 100% Human, high (3af6f4e3); first half 100% AI, high (5bda42e3); second half 100% Human, high (adb11831) |
+| f | The first half: the guide's condition turned into what that part is thinking; or an aside of his kind ("(one, I said one!)") | the thought 100% Human, high (bde88845); the aside 100% AI, high (46b66ad1) |
+| g | The passing halves joined, with the cold read's smoothing fix and the grounding's "critic" fix; its h3; its h1 | 100% AI, high (8dd409e9); h3 78% AI (dd96d2ad); h1 16% AI (a2f46373) |
+| h | Joined with no fixes; with the grounding's fix only | 63% AI each (46a988a6, 1f32db02): AI at the opening (medium) and at the line to say and last line (high), Human in between |
+| i | A jump in the roommate picture at the opening; and that plus a plainer line and a plain-fact ending | opening only 66% AI (c796d6cb); with the ending 100% Human, high (e938f68a) |
+| j | The cold read's flag fixed loosely; the h1 with it; the h1 without it | 100% Human alone (72c523f1); h1 7% AI with it (284f1778); h1 100% Human without it (c1253626) |
+| k | Start With Whatever Showed Up with both h3s; the h3 alone | 100% Human, high, both (50367f43, c8461adf) |
+
+- **What I learned (E135):** the stock casual moves and asides shaped like his read as AI whatever else changed. What passed was a step turned into what someone in the scene is thinking. When a paragraph fails as one window, its halves alone show which part carries the AI, and once part of it reads human, Pangram returns windows to fix one at a time. A crafted line to say followed by a poignant last line was a window of its own. Context moves windows too: with the failing last paragraph, Joel's P2 and P3 sat inside AI windows in the h3 (78%); with the passing one, the h3 is 100% Human.
+- **Open for Joel:** the cold read's flag on P4's third sentence ("that's what it wants to see" reads first as the step, so a reread). The clarity fix that passes alone ("I think watching is what it wants anyway, to see whether there's a grown-up here now who could call it off if things got to be too much") put a 125-word AI window into the h1, from P3's "Your Protector, the grown-up you" through that sentence, so the version without it is in.
+
+### Next
+His map-update material, merged and deduped. Then When to Change the Strategy.

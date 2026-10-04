@@ -397,3 +397,10 @@ What his fixes teach:
 - "your heading is fine." On the parked questions: "one small step has been talked about a lot in this guide"; "if nobody safe comes to mind, go back to the first para in Borrow one function at a time, right?"
 - On length: "it's quite possible this guide could be shortened, if you see repetitive stuff that could be cut or merged lmk because AI stuff tends to be more verbose, but i am trying to get it to explain the innersignal therapy map basically."
 - No "continue".
+
+## Joel's fix and notes, 2026-10-04 01:33 UTC (the sequence's P3, and how to break the march)
+
+- "hm i see, you can't mimic me for some reason. well, it's not about better explaining. it's about breaking up the instruction manual flow, which requires some kind of within-the-thought reflection or jumping or something like that because people will gloss over fast if everything is one long stepwise instruction sheet. you don't need to know what i would say, you just need to think like \"how would a human think right here, how would a human author re-engage the reader here?\" but yeah i mean obviously you are also trying to mimic my voice not the voice of Shakespeare, right. but my voice also isn't completely unique … close is good enough." (E135)
+- **His P3, one insertion** ("just one insertion that anyone could have thought of"): "A new roommate doesn't win you over with a speech on move-in day." became "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?)." Nothing else changed. Turn 26's version was 100% AI (5d85e7fe); his is 100% Human, high (81, 3af6f4e3), checked on turn 27 since he hadn't said he'd checked it.
+- On shortening: "yes i agree with your shortening sugggestions." More from the map updates is coming, to be merged in and deduped.
+- No "continue".

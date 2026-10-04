@@ -6,6 +6,10 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-04 · Hear the Protective Part First, P4 · Do I need to know how old I was, or remember what happened, to work with this feeling? (The guide's "You don't need an age, a recovered memory, or a complete cast of parts", cut for length; a clause.) · COULD (parked)
+- 2026-10-04 · Hear the Protective Part First, P4 · What if the change shows up in my little one instead, a vague hurt turning into a clear need? (The guide's second example, cut; the article already says to listen to grief or anger.) · COULD (parked)
+- 2026-10-04 · Hear the Protective Part First, P4 · After I answer that part, do I go back to the step toward my little one? · COULD (parked)
+
 - 2026-10-01 · Make a Simple Vow, P1 · Is the little one in the picture a baby, or the age that's been talking back? (Joel's newborn is a way to call up the feeling, then carry it over.) · default (parked)
 
 - 2026-10-01 · Make a Simple Vow, P1 · How do I tell whether my promises still mean something right after "I don't believe you"? (Kept small promises; the vow itself says belief isn't needed.) · default (parked)

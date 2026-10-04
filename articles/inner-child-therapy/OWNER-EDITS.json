@@ -1066,25 +1066,56 @@
   },
   {
    "id": "bus-p2-joel",
-   "status": "pending",
+   "status": "applied",
    "what": "The guide's A Bottom-Up Sequence (heading \"Hear the Protective Part First\") has Joel's P2, word for word: his four-step fix of writer a's P2.",
    "joel": "2026-10-04 01:03 UTC: \"let me fix p2 and then you see if you can fix the rest\"; \"now this one is 100% human, med conf\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
     "That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer."
-   ],
-   "waits_for": "the rest of the h3 (P3 to P5) passing alone and in the h1"
+   ]
   },
   {
    "id": "bus-heading",
-   "status": "pending",
+   "status": "applied",
    "what": "The guide's A Bottom-Up Sequence goes in under the heading \"Hear the Protective Part First\".",
    "joel": "2026-10-04 01:03 UTC: \"your heading is fine.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
     "### Hear the Protective Part First"
+   ]
+  },
+  {
+   "id": "bus-p3-joel",
+   "status": "applied",
+   "what": "Hear the Protective Part First P3 is Joel's version, word for word: turn 26's round-3 P3 with his one insertion \"(hopefully, right?)\".",
+   "joel": "2026-10-04 01:33 UTC: his P3 fix, \"just one insertion that anyone could have thought of\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector, the grown-up you, earns that protective part's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard."
    ],
-   "waits_for": "the h3 going in"
+   "must_not_contain": [
+    "on move-in day. The rent just has to keep showing up."
+   ]
+  },
+  {
+   "id": "bus-h3",
+   "status": "claim",
+   "what": "Claim check: the guide's h3 A Bottom-Up Sequence is installed at the end of Start With Whatever Showed Up, under \"Hear the Protective Part First\", in four paragraphs: P1 the same Nurturer voice and the question for that part; P2 (Joel's) hearing out its fear; P3 (Joel's) trust earned out in ordinary life; P4 that part can stay and watch one small step, its no counts, then follow what changes and answer the fear underneath. The guide's last two paragraphs are one, shortened.",
+   "joel": "2026-10-04 01:33 UTC: \"yes i agree with your shortening sugggestions\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "### Hear the Protective Part First",
+    "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" It might say this will just be one more performance, and you'll fool yourself again.",
+    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think that's what it wants to see anyway, whether there's a grown-up here now who could stop if things got to be too much. If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all. If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
+   ],
+   "order": [
+    "Two Common Protective Patterns",
+    "Hear the Protective Part First",
+    "Whichever protective part showed up",
+    "That one can sting",
+    "A new roommate doesn't win you over",
+    "That part doesn't have to move out."
+   ]
   }
  ]
 }
