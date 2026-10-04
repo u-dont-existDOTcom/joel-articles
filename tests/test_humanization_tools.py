@@ -61,6 +61,24 @@ class LinterAbstractAgents(unittest.TestCase):
         self.assertIn('O7', out)
         self.assertNotIn('O7', self.lint('She was old enough to vote, and she did.\n'))
 
+    def test_smuggling_talk_fails(self):
+        """O8 (Joel, 2026-10-03 20:51): "ai is always saying something like 'not smuggle in'"."""
+        out = self.lint('That includes some uses of ketamine and MDMA and bufo. My reasons are in those articles, not smuggled into one sentence here.\n')
+        self.assertIn('O8 owner ban', out)
+        self.assertIn('verdict: FAIL', out)
+        out = self.lint('That includes some uses of ketamine and MDMA and bufo. My reasons are given in those articles, respectively, since they need more space.\n')
+        self.assertNotIn('O8', out)
+        out = self.lint('In 1971 two of the members were caught smuggling hashish across the border from Mexico.\n')
+        self.assertIn('O8 "smuggle"', out)
+        self.assertNotIn('O8 owner ban', out)
+
+    def test_not_y_tail_is_flagged(self):
+        """O9 (Joel, same message): "it always wants to add a 'not Y' part"."""
+        out = self.lint('If people are training there so they can help others build communities of their own, they are building a genuine alternative, not just escaping society.\n')
+        self.assertIn('O9', out)
+        self.assertNotIn('O9', self.lint('No, not today. We will talk about the money when everyone is back from the market.\n'))
+        self.assertNotIn('O9', self.lint('She did not want to leave, and she said so at the meeting on Sunday.\n'))
+
     def test_person_doing_it_is_not_flagged(self):
         out = self.lint('There is no shared way to talk about the hurt, so the angry communard goes there, trying to get some justice. Money will not fix it.\n')
         self.assertNotIn('O6', out)
