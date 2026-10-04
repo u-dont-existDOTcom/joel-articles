@@ -6,8 +6,9 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
-- 2026-10-03 · the guide's A Bottom-Up Sequence (candidate, not in) · What could "one small step" toward your little one look like? (Both groundings.) · default (parked)
-- 2026-10-03 · the guide's A Bottom-Up Sequence (candidate, not in) · What if nobody who's been safe comes to mind, to borrow the voice from? (The article's answer, Mr. Rogers, is sections back.) · COULD (parked)
+- 2026-10-04 · Hear the Protective Part First, P4 · Do I need to know how old I was, or remember what happened, to work with this feeling? (The guide's "You don't need an age, a recovered memory, or a complete cast of parts", cut for length; a clause.) · COULD (parked)
+- 2026-10-04 · Hear the Protective Part First, P4 · What if the change shows up in my little one instead, a vague hurt turning into a clear need? (The guide's second example, cut; the article already says to listen to grief or anger.) · COULD (parked)
+- 2026-10-04 · Hear the Protective Part First, P4 · After I answer that part, do I go back to the step toward my little one? · COULD (parked)
 
 - 2026-10-01 · Make a Simple Vow, P1 · Is the little one in the picture a baby, or the age that's been talking back? (Joel's newborn is a way to call up the feeling, then carry it over.) · default (parked)
 
@@ -36,6 +37,9 @@ They wait here instead of going into the article. Joel decides on them when the 
 - 2026-09-30 · Later sections · The guide says "leave" in other places too ("Leave the situation that keeps injuring you."; "leave when staying requires disappearance"). Joel's 09-30 rethink of "leave it" will need applying when those sections come up. · noted by the wide run
 
 ## Answered or used
+
+- 2026-10-03 · the guide's A Bottom-Up Sequence · What could "one small step" toward your little one look like? Answered by Joel, 2026-10-04 01:03 UTC: "one small step has been talked about a lot in this guide. i'm not sure people would be confused by that at this point".
+- 2026-10-03 · the guide's A Bottom-Up Sequence · What if nobody who's been safe comes to mind, to borrow the voice from? Answered by Joel, 01:03 UTC: "go back to the first para in Borrow one function at a time" (it lists a therapist, a grandmother, a teacher, an older sibling, Mr. Rogers and your future healed self; its third paragraph adds "If nobody comes to mind, you can look to examples like Mr. Rogers, or spiritual love you've felt").
 
 - 2026-10-03 · When the Adult Voice Feels Fake, the altered-states paragraph · How do I tell whether I'm one of the people it only stops feeling fake for in an altered state? Answered by Joel, 16:16 UTC: "you just simply look back and you know... the only thing is most people don't even think like this until someone brings it up, that they may actually have state-dependent awareness." The paragraph brings it up (E132).
 

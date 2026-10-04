@@ -486,7 +486,17 @@ def march_score(draft, labels):
                   '(E131), rather than rewording the steps.' % (i + 1, start, len(ss)))
             worst = max(worst, 1)
         else:
-            print('T%d (%s…): breaks at %s (%s)' % (i + 1, start, ', '.join(map(str, breaks)), ' '.join(seq)))
+            # The longest run of steps is where to start if Pangram still fails the paragraph (E134, Joel 2026-10-04:
+            # "if they found them, then why couldn't you fix them? are you seeing the march there?"). In the 2026-10-03
+            # sequence draft, P2 had breaks at 1-3 and then four steps; his fix went at exactly those four sentences.
+            best, cur, end = 0, 0, 0
+            for j, x in enumerate(seq):
+                cur = cur + 1 if x == 'S' else 0
+                if cur > best:
+                    best, end = cur, j + 1
+            run = ('; longest run of steps: %d-%d (%d sentences), the place to start if Pangram fails it'
+                   % (end - best + 1, end, best)) if best >= 3 else ''
+            print('T%d (%s…): breaks at %s (%s)%s' % (i + 1, start, ', '.join(map(str, breaks)), ' '.join(seq), run))
     return worst
 
 
