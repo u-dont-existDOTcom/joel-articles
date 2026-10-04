@@ -912,6 +912,232 @@ WHY37 = {
  'P26': ['v37 (batch 15, ablation): v36 read AI, and undoing any one of three fix groups made it Human; Emulate’s own first sentence back ("The other aspect is integration: your life."), the fix that carried the least meaning. Kept: the published opening apart from the change ("Ceremony opens something. Did anything change?"), the published quip, the closed list of five, "in the weeks after".'],
 }
 
+V[38] = dict(V[37])
+fix(V[38], 'P18', "I’ve learned from those traditions, though, and I respect what they’ve preserved.", "I've learned what to do, and what not to do, from watching those traditions, though. A lot of people need the rituals, and the look and vibe to match, before they feel comfortable doing this kind of thing, even if I don't do them myself. The spirit realms are quite a mixed bag: you can have a shaman who heals people very well, and yet he also may take money to send evil spirits to kill someone. And people do very often decide they're ready to do ceremonies long before they're really trained and prepared. I'm sure I could still learn a lot from them, and they could still learn a lot from me.")
+fix(V[38], 'P33', "they’re building a genuine alternative, not just escaping society.", "they’re building a genuine alternative.")
+fix(V[38], 'P26', "The other aspect is integration: your life.", "Another aspect is integration: your life.")
+SRC38 = dict(SRC37)
+SRC38.update({'P18': 'g4-emuA (round 4) with Joel’s 01:18 answer'})
+WHY38 = {
+ 'P18': ['v38 (Joel, 2026-10-04 01:18, asked what he learned from those lineages): the empty courtesy ("I’ve learned from those traditions, though, and I respect what they’ve preserved"; published: "I respect what those traditions have preserved and have learned from them") becomes his specifics, his words wherever they read in place, with his straight apostrophes: "I\'ve learned what to do, and what not to do, from watching those traditions" (his "i\'ve learned what to do, and what not to do, based on observing the various traditions"); the rituals and "the look and vibe to match" people need "before they feel comfortable doing this kind of thing", "even if I don\'t do them myself"; "the spirit realms are quite a mixed bag: you can have a shaman who heals people very well, and yet he also may take money to send evil spirits to kill someone"; "people do very often decide they\'re ready to do ceremonies long before they\'re really trained and prepared"; "I\'m sure I could still learn a lot from them, and they could still learn a lot from me."'],
+ 'P33': ['v38 (Joel, 01:18: "sure cut it"): ", not just escaping society" out, the "not Y" tail he named on 20:51; the next sentence answers the escape-pod objection.'],
+ 'P26': ['v38 (linter B13: v37 gave the section three paragraphs opening "The": P10, P24, P26): "Another aspect" (v36’s word, without its "everyday"; batch 15 left open which of the two tipped v36).'],
+}
+
+V[39] = dict(V[38])
+fix(V[39], 'P18', V[38]['P18'], "No special shamans here. Traditional lineages usually disagree with me on this, and many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority. I respect what those traditions have preserved, and I've learned what to do, and what not to do, from watching them. I see a lot of people need the rituals, and the look and vibe to match, before they feel comfortable doing this kind of thing, even if I don't do them myself. I've learned that the spirit realms are quite a mixed bag: you can have a shaman who heals people very well, and yet he also may take money to send evil spirits to kill someone. And that people do very often decide they're ready to do ceremonies long before they're really trained and prepared. I'm sure I could still learn a lot from those traditions, and they could still learn a lot from me.")
+SRC39 = dict(SRC38)
+WHY39 = {
+ 'P18': ['v39 (TRACE-v38-A, STANCE-v38, the v38 cold read): the published respect back ("I respect what those traditions have preserved"; v38 had dropped it, and his answer adds to it rather than replacing it), now with something it attaches to; his own framing kept on each lesson ("I see a lot of people need the rituals…", "I\'ve learned that the spirit realms are quite a mixed bag…", "And that people do very often decide…"), so the spirit realms and the readiness read as what he learned, not as claims from nowhere (cold read [63], [64]); "from those traditions" for "from them" in the last sentence ("them" read as the untrained people). Kept as he wrote it: "do ceremonies" (lead them or take part; asked).'],
+}
+
+V[40] = dict(V[39])
+fix(V[40], 'P18', "I see a lot of people need the rituals, and the look and vibe to match,", "I see a lot of people need sacred rituals, and the look and vibe to match,")
+fix(V[40], 'P18', "I've learned that the spirit realms are quite a mixed bag:", "I've also seen that the spirit realms are quite a mixed bag:")
+fix(V[40], 'P18', "And that people do very often decide", "And people do very often decide")
+SRC40 = dict(SRC39)
+WHY40 = {
+ 'P18': ['v40 (TRACE-v39-A, the v39 cold read, in their terms): "sacred rituals" (his "sacred ritual practices"; "the rituals" had no antecedent); "I\'ve also seen that the spirit realms…" (his "based on observing"; three "I\'ve learned" in a row); "And people do very often decide…" as a sentence of its own (the cold read had to reread the "And that…" fragment). Kept as his: "what not to do", "from watching" (his "observing"), the shaman who heals and also may take money to send evil spirits to kill someone, the two-way learning at the end; "do ceremonies" (asked).'],
+}
+
+V[41] = dict(V[40])
+fix(V[41], 'P26', "Another aspect is integration: your life.", "The other aspect is integration: your life.")
+SRC41 = dict(SRC40)
+WHY41 = {
+ 'P26': ['v41 (batch 17: "Another aspect" read AI): v37’s "The other aspect" back (it passes alone); the third "The" opener (B13, with P10 and P24) goes in the section pass, where P24 is in an AI window.'],
+}
+
+V[42] = dict(V[41])
+V[42]['P22'] = 'This is not to say that peer led ceremonies are ever casual. In fact, since the authority is spread around, there needs to be more competence, and some things are a must: screening for contra-indications (both medical and psychiatric), reviewing medications (including medication combinations), having the right kind of sober sitter present, and knowing in advance what kind of situations would require professional help or going to the ER.'
+V[42]['P23'] = 'Also, I am especially cautious about some medicines and protocols that I see as more destabilizing and/or presenting more of a medical burden. This includes some uses of [ketamine and MDMA](http://mdmaket.u-dont-exist.com/) and [bufo](http://bufo.u-dont-exist.com/). My reasons are given in those articles, respectively, since they need more space.'
+V[42]['P24'] = "Using medicine is secondary to all of the other pl/ork that I list above: reparenting, developing somatic capacity, and learning to do peer counseling. The medicine can deepen an existing practice, but it can't be a pharmacological short cut to what takes several months of real relationship with other people."
+V[42]['P25'] = 'This pre-requisite also takes care of another issue in one shot: experience collectors. If you’re not willing to spend six months developing the capacity to listen to another person without trying to “fix” them, you’re probably not going to come out of a ceremony any more relationally mature than you were before, no matter how many cool geometric shapes you see.'
+V[42]['P26'] = 'The other aspect of this is integration: your life. Ceremony opens something. Did anything change? Look at your life in the weeks after a ceremony. Look at your relationships. Look at how you’re acting. Look at how you’re sleeping. Look at how you’re making decisions. Look at how you’re handling frustration without defining it as a new “spiritual emergency.”'
+V[42]['P27'] = 'All of the “supports” are important: preparation, nutrition, screening for drug interactions, making sure the dose is appropriate, and having a plan for dealing with emergencies. They matter more than ceremony aesthetics. My current safety material is at [Altered States Triage](https://badtrips.u-dont-exist.com/).'
+V[42]['P28'] = 'Finally, there are the legal issues. These vary a lot, and they are not always well-defined. As a community, you need to write down what is and isn’t allowed, which activities are private (to the individual, to a group in the community, or to the community vs the outside), and what kinds of activities have been reviewed from a legal standpoint. “I don’t think anybody around here has ever heard of that” is information, but it’s not the same thing as a legal opinion.'
+V[42]['P29'] = 'It’s not uncommon for people to feel the urge to form a village after going through some serious psychedelic and/or mystical experiences. Finding a way to “find their people” and help others get where they’ve been is a powerful urge.'
+V[42]['P30'] = 'I’ve felt that urge myself. The problem is that it can come with a degree of grandiosity. “My love can heal anyone” turns into a more realistic view once you realize that there are a lot of people who either don’t want to change, sincerely want to change but keep choosing the opposite, or are in such a crisis that their need for help is greater than someone’s ability to show up with nothing but enthusiasm.'
+V[42]['P31'] = 'That urge may be real, but forming a community based on omnipotence is a terrible idea.'
+V[42]['P32'] = 'Communities that are formed based on collective spiritual euphoria can take on more people than they can handle and promise too much, and only think through how much need they can absorb once several people already depend on them. Read the sections on capacity and membership, later in this article: they’re partly there to protect the original generosity from that first rush.'
+V[42]['P33'] = 'Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community could be a place for people to train up in certain practices, and sometimes go off and start a new one. In fact, if people are living in a community in order to train up so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods.'
+SRC42 = dict(SRC41)
+SRC42.update({k: ('u7-emuA (round 8)' if k in ('P22','P23','P24','P25','P26','P27','P28') else ('u8-emuB (round 8)' if k == 'P32' else 'u8-emuA (round 8)')) for k in ['P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P28', 'P29', 'P30', 'P31', 'P32', 'P33']})
+WHY42 = {k: ['v42 (section pass, Emulate round 8 over the last AI window as two runs; its raw runs read 100% Human, 411 and 294 words): rebuilt from the raw run with the meaning put back word by word; see emu/round8-u7u8-restored.json and the trace.'] for k in ['P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P28', 'P29', 'P30', 'P31', 'P32', 'P33']}
+
+V[43] = dict(V[42])
+V[43]['P1'] = "Key here is that most of the writing on communities hasn't caught up with psychedelics. They've gone from taboo toward regulated use really fast in a few jurisdictions ([licensed service centers for psilocybin started opening in Oregon](https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx) in 2023, Colorado set up a system for regulating natural medicines and began licensing in 2025, and New Mexico enacted a [Medical Psilocybin Act](https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegNo=219&LegType=B&year=25) in 2025), and Australia has allowed [limited access for a list of conditions via authorized psychiatrists](https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub) since 2023 for both psilocybin and MDMA."
+V[43]['P2'] = 'That said, it\'s not a smooth ride or an inevitability. The US FDA issued a [Complete Response Letter](https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf) to the MDMA-assisted therapy application in 2024, where they did not approve it and requested more evidence. And the thing with Portugal is that many people will lazily say "they\'ve legalized everything there" - but that\'s false, [they\'ve only decriminalized personal use of small quantities of drugs](https://www.euda.europa.eu/system/files/publications/642/PolicyProfile_Portugal_WEB_Final_289201.pdf). It\'s still a crime to traffic them.'
+V[43]['P4'] = 'Even where the law allows some use, most intentional communities using psychedelics are not open about it, due to possible concerns from the parents of the children in the community, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions.'
+V[43]['P7'] = "They also attract people who love revelations but don’t want to do the work afterwards. You can have 12 ceremonies and 6 origin stories and still not be able to apologise to your housemate. Any community based mainly on peak experiences will find out sooner or later that insight doesn't do the dishes or comfort a scared kid."
+V[43]['P8'] = 'In my experience there are real reasons to take psychedelics communally - eg lowering defensive barriers which otherwise dominate every serious conversation, and creating bonds between members of the community who have been through the harder nights together. But there are also negatives that can come from taking a psychedelic - confusion, grandiosity, dependency, fouling up dynamics between members. Are you mature enough as a community to separate the good from the bad?'
+V[43]['P9'] = 'Part of it is integration: an insight needs somewhere to land. What happens when you come back from an amazing experience which gave you insight and clarity about your life, into the same old environment where nobody knows what you’ve been through and you’re faced with the same old cues? It can be super helpful to have gone through the experience in a community, with the people who held you through it there to notice what happens to you over the following months.'
+V[43]['P11'] = "Do you trust the people you're relying on for support? It's very different from paying someone you don't know to look after you for a night. Sometimes they're great, but sometimes the person with the feather has only known you for 4 hours and already has a cosmology to explain everything you say."
+V[43]['P12'] = "In a community, your sober sitter may be someone you've known for years, and you feel the difference between being watched and being held. This is especially true when doing iboga or other long and medically risky experiences. You need someone to properly screen you beforehand and watch you continuously."
+V[43]['P13'] = 'Your peers can also help you reality check any downloads you may have had. Psychedelics can give you insight and they can give you convincing nonsense, all in the same bright shining light. A few friends who know your history can help you tell the difference between new understanding and mom.'
+V[43]['P15'] = 'There are the obvious practical benefits: logistics are easier when it comes to things like having childcare arranged by the group that parents are comfortable leaving their kid(s) with, not needing to drive away from the ceremony, having someone bring water to someone or just sit with them while they come back to normal consciousness, etc.'
+V[43]['P16'] = 'And then there will be people to play with! Raves often let strangers fast-track intimacy (getting to a level of intimacy that usually comes after building trust), but imagine doing ecstatic music & dance in a community that already knows each other (and has put up with each other’s bad habits). 💃🕺'
+V[43]['P22'] = 'This is not to say that peer led ceremonies are ever casual. In fact, since the authority is spread around, there needs to be more competence. Some things are a must: screening for contra-indications (both medical and psychiatric), reviewing medications and combinations, having the right kind of sober sitter present, and deciding before anybody takes anything what kind of situations would require professional help or emergency care.'
+V[43]['P23'] = 'Also, I am especially cautious about medicines and protocols that I see as more destabilizing and/or presenting more of a medical burden. This includes some uses of [ketamine and MDMA](http://mdmaket.u-dont-exist.com/) and [bufo](http://bufo.u-dont-exist.com/). My reasons are given in those articles, respectively, since they need more space.'
+V[43]['P24'] = "Using medicine is secondary to all of the other pl/ork that comes first: reparenting, developing somatic capacity, and learning to do peer counseling. The medicine can deepen an existing practice, but it can't be a pharmacological short cut to what takes several months of honest relationship with other people."
+V[43]['P25'] = 'This pre-requisite also takes care of another issue in one shot: it weeds out the experience collectors. If you’re not willing to spend six months developing the capacity to listen to another person without trying to “fix” them, you’re probably not going to come out of a ceremony any more relationally mature than you were before, no matter how many cool geometric shapes you see.'
+V[43]['P27'] = 'All of the “supports” are important: preparation, nutrition, screening for drug interactions, being disciplined about the dose, and having a plan for dealing with emergencies. They matter more than ceremony aesthetics. My current safety material is at [Altered States Triage](https://badtrips.u-dont-exist.com/).'
+V[43]['P29'] = 'It’s really common for people to feel the urge to form a village after going through some serious psychedelic and/or mystical experiences. Finding “their people” and helping others get to whatever just opened up for them is part of the same urge.'
+V[43]['P30'] = 'I’ve felt that urge myself. The problem is that it can come with a degree of grandiosity, and I’ve felt that too. You come back believing love can heal anyone, and that turns into a more realistic view once you realize that there are people who either don’t want to change, sincerely want to change but keep choosing the opposite, or are in such a crisis that their need for help is more than your enthusiasm can hold.'
+V[43]['P31'] = 'That call may be real, but forming a community based on omnipotence is a terrible idea.'
+V[43]['P32'] = 'Communities that are formed during collective spiritual euphoria can take on too many people too fast and promise too much, and only think through how much need they can absorb once several people already depend on them. Read the sections on capacity and membership, later in this article: they’re partly there to protect the original generosity from that first rush.'
+V[43]['P33'] = 'Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community can be a place for people to train up in the practices, and sometimes go off and start another experiment. In fact, if people are living in a community in order to train up so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods.'
+SRC43 = dict(SRC42)
+SRC43.update({k: v + ' (round 8)' for k, v in {'P1': 'u1-emuA', 'P2': 'u1-emuA', 'P4': 'u2-emuA', 'P7': 'u3-emuB', 'P8': 'u3-emuB', 'P9': 'u3-emuB', 'P11': 'u4-emuB', 'P12': 'u4-emuB', 'P13': 'u4-emuB', 'P15': 'u5-emuB', 'P16': 'u5-emuB'}.items()})
+WHY43 = {k: ['v43: section pass, Emulate round 8 (the raw runs read 100% Human); rebuilt from the raw run with the meaning put back word by word (P1 to P16), or TRACE-v42-A/B’s findings made in their terms (P22 to P33); records in emu/round8-v43.json and the traces.'] for k in ['P1', 'P2', 'P4', 'P7', 'P8', 'P9', 'P11', 'P12', 'P13', 'P15', 'P16', 'P22', 'P23', 'P24', 'P25', 'P27', 'P29', 'P30', 'P31', 'P32', 'P33']}
+
+V[44] = dict(V[43])
+fix(V[44], 'P1', "They've gone from taboo toward regulated use really fast in a few jurisdictions (", "They've gone from taboo toward regulated use really fast (")
+fix(V[44], 'P1', 'and Australia has allowed [limited access for a list of conditions via authorized psychiatrists](https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub) since 2023 for both psilocybin and MDMA.', 'and Australia has allowed [authorized psychiatrists limited access](https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub) for a list of conditions since 2023, for both psilocybin and MDMA.')
+fix(V[44], 'P2', "[they've only decriminalized personal use of small quantities of drugs]", "[they've only decriminalized possessing small quantities for personal use]")
+fix(V[44], 'P4', 'Even where the law allows some use, most intentional communities using psychedelics are not open about it, due to possible concerns from the parents of the children in the community, from neighbors', 'Most intentional communities using psychedelics are still not open about it. Even where the law allows some use, there are possible concerns from parents worried about children, from neighbors')
+fix(V[44], 'P7', 'who love revelations but don’t want to do the work afterwards.', 'who love revelations but hate doing the work afterwards.')
+fix(V[44], 'P8', 'there are real reasons to take psychedelics communally - eg lowering defensive barriers which otherwise dominate every serious conversation, and creating bonds between', 'there are real reasons to take psychedelics communally too - eg they can lower defensive barriers which otherwise dominate every serious conversation, and create strong bonds between')
+fix(V[44], 'P8', 'to separate the good from the bad?', 'to tell the good from the bad?')
+fix(V[44], 'P9', 'in a community, with the people who held you through it there to notice what happens to you over the following months.', 'in a community, where the people who held you through it can also notice what happens to you over the following months.')
+fix(V[44], 'P11', "It's very different from paying someone you don't know to look after you for a night.", "Support from people you trust is very different from the commercial alternative, which is often paying someone you don't know to look after you for a night.")
+fix(V[44], 'P12', "may be someone you've known for years,", "may be someone who's known you for years,")
+fix(V[44], 'P12', 'This is especially true when doing iboga or other long and medically risky experiences. You need someone to properly screen you beforehand and watch you continuously.', 'This matters even more when doing iboga or other long and medically risky experiences. For those you need proper screening beforehand and someone watching you continuously.')
+fix(V[44], 'P13', 'Your peers can also help you reality check', 'Your peers can also reality check')
+fix(V[44], 'P13', 'Psychedelics can give you insight and', 'Psychedelics can give you genuine insight and')
+fix(V[44], 'P13', 'A few friends who know your history can help you tell the difference between new understanding and mom.', 'A few friends who know your history can tell which parts look like a new understanding and which look like… mom.')
+fix(V[44], 'P15', 'There are the obvious practical benefits:', 'There are the practical benefits:')
+fix(V[44], 'P15', 'or just sit with them while they come back', 'or just sit quietly with them while they come back')
+fix(V[44], 'P16', '(and has put up with each other’s bad habits)', '(and each other’s inconvenient habits)')
+fix(V[44], 'P26', 'The other aspect of this is integration: your life.', "Then there's integration: your life.")
+fix(V[44], 'P30', 'The problem is that it can come with a degree of grandiosity, and I’ve felt that too. You come back believing love can heal anyone, and that turns into a more realistic view once you realize that there are people who either don’t want to change, sincerely want to change but keep choosing the opposite, or are in such a crisis that their need for help is more than your enthusiasm can hold.', 'The problem is that it can come with grandiosity, and I’ve felt that too. You come back believing love can heal anyone, and then you meet people who don’t want to change, people who sincerely want to change but keep choosing the opposite, and people in such a crisis that their need for help is more than your enthusiasm can hold.')
+fix(V[44], 'P32', 'can take on too many people too fast and promise too much, and only think through how much need they can absorb once several people already depend on them.', 'can recruit too fast and promise too much, and they can end up thinking through how much need they can absorb only once several people already depend on them.')
+fix(V[44], 'P33', 'In fact, if people are living in a community in order to train up so they can help others build communities of their own,', 'In fact, if people are training there so they can help others build communities of their own,')
+SRC44 = dict(SRC43)
+WHY44 = {k: ['v44 (TRACE-v43-A to -D, LOGIC-v43-A and -B, STANCE-v43, the v43 cold read), word by word in their terms; the list of findings and what stays (Joel’s own changes, wording every gate since v20 accepted) is in PREDICTIONS-s5.md.'] for k in ['P1', 'P2', 'P4', 'P7', 'P8', 'P9', 'P11', 'P12', 'P13', 'P15', 'P16', 'P26', 'P30', 'P32', 'P33']}
+
+V[45] = dict(V[44])
+V[45]['P4'] = 'Even where the law allows some use, there are possible concerns from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions, so most intentional communities using psychedelics are still not open about it.'
+V[45]['P11'] = "Do you trust the people you're relying on for support? It's very different from what often happens instead, paying someone you don't know to look after you for a night. Sometimes they're great, but sometimes the person with the feather has only known you for 4 hours and already has a cosmology ready to explain everything you say."
+V[45]['P12'] = "Having someone who's known you for years as your sober sitter can make the difference between being watched and being held, and in a community you can. This matters even more when doing iboga or other long and medically risky experiences. For those you need proper screening beforehand and someone watching you continuously."
+V[45]['P25'] = 'This pre-requisite also takes care of another issue in one shot: it weeds out the experience collectors. If someone is unwilling to put in 6 months learning to listen without fixing, it is unlikely they will come out of a ceremony more relationally mature, regardless of how mindblowing the geometric shapes they saw were.'
+SRC45 = dict(SRC44)
+WHY45 = {
+ 'P4': ['v45 (batch 21: v44’s second sentence read AI as its own window; batch 22: dA1 Human): the risks first, as Emulate’s opener had it, and the secrecy as their result ("…so most intentional communities using psychedelics are still not open about it"), which keeps the logic the v43 audits asked for: "even where the law allows some use" governs the risks, and the claim is about most communities.'],
+ 'P11': ['v45 (batch 21: P11’s last two sentences and P12’s first read AI as one window; batch 23: dC2 Human): Emulate’s B wording back with the meaning in it: "It’s very different from what often happens instead, paying someone you don’t know…" ("often", the alternative), "already has a cosmology ready to explain everything you say".'],
+ 'P12': ['v45 (same window): "Having someone who’s known you for years as your sober sitter can make the difference between being watched and being held, and in a community you can" (published: in community the sitter may be somebody who has known you for years; being watched and being held feel different).'],
+ 'P25': ['v45 (batch 21: Emulate A’s second sentence read AI as its own window three times; batch 22: v41’s wording Human): v41’s second sentence, traced since v24.'],
+}
+
+V[46] = dict(V[45])
+V[46]['P4'] = 'Most intentional communities using psychedelics are not open about it, due to possible concerns (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions.'
+V[46]['P11'] = "Do you trust the people you're relying on for support? It's very different from paying someone you don't know to look after you for a night. Sometimes they're great, but sometimes the person with the feather has only known you for 4 hours and already has a cosmology to explain everything you say."
+V[46]['P12'] = "In a community, your sober sitter may be someone who's known you for years, and you feel the difference between being watched and being held. This is especially true when doing iboga or other long and medically risky experiences. For those you need someone to properly screen you beforehand and watch you continuously."
+V[46]['P13'] = 'Your peers can also reality check any downloads you may have had. Psychedelics can give you insight and they can give you convincing nonsense, all in the same bright shining light. A few friends who know your history can tell the difference between new understanding and… mom.'
+SRC46 = dict(SRC45)
+WHY46 = {
+ 'P4': ['v46 (batch 25: with P3 and P5, v45’s P4 read AI and this one Human, 0.01): Emulate’s order back, with "(even where the law allows some use)" on the concerns, so the logic stays as the v43 audits asked.'],
+ 'P11': ['v46 (batch 25: P10 to P14 read 0.81 with v45’s P11 to P13, 0.32 with v43’s): v43’s P11 back. Kept with reasons: "It’s very different from paying someone you don’t know…" (the contrast is still with paid strangers; no claim that all paid care is strangers).'],
+ 'P12': ['v46: v43’s P12 with the two fixes that change what a reader believes: "someone who’s known you for years" (who knows whom) and "For those you need someone to…" (iboga-type experiences, not every ceremony). Kept: "This is especially true".'],
+ 'P13': ['v46: v43’s P13 without "help you" in either sentence (the peers check; the friends tell), and "… mom" as the punchline (the cold read couldn’t place "mom"). Kept: "insight" without "genuine" (the contrast with "convincing nonsense" carries it).'],
+}
+
+V[47] = dict(V[46])
+fix(V[47], 'P4', "Most intentional communities using psychedelics are not open about it,", "Most intentional communities using psychedelics are still not open about it,")
+fix(V[47], 'P12', "This is especially true when doing iboga", "This is especially important when doing iboga")
+fix(V[47], 'P13', "A few friends who know your history can tell the difference between", "A few friends who know your history may notice the difference between")
+SRC47 = dict(SRC46)
+WHY47 = {
+ 'P4': ['v47 (TRACE-v46-A: "still" DROPPED; the v43 gate had asked for it and v46’s reorder lost it): "are still not open about it" (published: "still avoid saying so publicly", the secrecy goes on while the law moves).'],
+ 'P12': ['v47 (TRACE-v46-B, LOGIC-v46-A and -B: "This is especially true" reads as the felt difference being stronger on iboga; published "This matters especially"): "This is especially important" (Emulate A’s word in round 8, u4A).'],
+ 'P13': ['v47 (TRACE-v46-B, LOGIC-v46-A and -B, STANCE-v46: "can tell the difference" asserts an ability; published "may notice"): "may notice the difference between new understanding and… mom".'],
+}
+
+V[48] = dict(V[47])
+fix(V[48], 'P4', "are still not open about it, due to possible concerns (even where the law allows some use) from", "are still not public about it, due to possible trouble (even where the law allows some use) from")
+fix(V[48], 'P12', "For those you need someone to properly screen you beforehand and watch you continuously.", "For those you need to be properly screened beforehand and monitored continuously.")
+V[49] = dict(V[48])
+fix(V[49], 'P11', "It's very different from paying someone you don't know", "Support from people you trust is very different from paying someone you don't know")
+SRC48 = dict(SRC47); SRC49 = dict(SRC48)
+WHY48 = {
+ 'P4': ['v48 (TRACE-v47 and LOGIC-v47: "not open about it" can read as secrecy toward everyone, published "avoid saying so publicly"; "concerns from" insurers and officials gives them concerns the published doesn’t, where insurers "may disappear" and an official "may understand none of the distinctions"): "not public about it", "possible trouble … from".'],
+ 'P12': ['v48 (TRACE-v47 and LOGIC-v47: one "someone" to screen and watch reads as the sitter doing the medical screening, and the published names no one; TRACE-v46-B and the v47 cold read: "watch you" right after "being watched" makes you reread): "For those you need to be properly screened beforehand and monitored continuously" (published: "screening and continuous observation are essential").'],
+}
+WHY49 = {
+ 'P11': ['v49 (the v47 cold read: "It" has no referent until P12): "Support from people you trust is very different from paying someone you don’t know…" (published: "Trusted support is different from purchased support").'],
+}
+
+V[50] = dict(V[49])
+fix(V[50], 'P11', "Support from people you trust is very different from paying someone you don't know to look after you for a night.", "Support from people you trust is different from paying people you don't know to look after you for a night.")
+fix(V[50], 'P29', "helping others get to whatever just opened up for them is part", "helping others get to whatever just opened up is part")
+V[51] = dict(V[50])
+fix(V[51], 'P11', "to look after you for a night.", "to look after you for a night, which is often the alternative.")
+SRC50 = dict(SRC49); SRC51 = dict(SRC50)
+WHY50 = {
+ 'P11': ['v50 (LOGIC-v49-A: "very different" makes the gap large, published "is different from"; LOGIC-v49-A and TRACE-v49-A: "Sometimes they’re great" has three possible antecedents once S2 names "people you trust"): "very" out; "paying people you don’t know" (plural, as the published "paying strangers"), so "they" takes the nearest plural.'],
+ 'P29': ['v50 (LOGIC-v46-B and the v49 cold read: "them" first reads as the others): "whatever just opened up" (published: "whatever just opened").'],
+}
+WHY51 = {
+ 'P11': ['v51 (LOGIC-v43, LOGIC-v49-A: without "often" a reader takes paying strangers as what paid support is; published "The commercial alternative is often paying strangers for one night of care"): ", which is often the alternative".'],
+}
+
+V[52] = dict(V[51])
+V[52]['P7'] = "They do also attract people who are all for revelation and hate the follow-through, people who can collect 12 ceremonies and 6 origin stories and still can't say sorry to their housemate. Any community based mainly around the peak experience is going to find out sooner or later that the insight doesn't do the practical work for it. Sometimes the dishes need doing and a scared kid needs comforting."
+V[52]['P26'] = 'Integration is your life. The ceremony opens something up in you. Look at your life after the ceremony for a few weeks and see how things have changed, if at all. Look at your relationships, your behavior, your sleeping habits, your decision-making, and how well you can deal with frustration without declaring a new spiritual emergency.'
+V[52]['P32'] = 'A group that begins in collective spiritual euphoria can recruit too quickly and promise too much, and only do the math on how much need it can absorb once several people already depend on it. The sections on capacity and on membership, later on in this article, are partly there to protect the original generosity from that first rush.'
+SRC52 = dict(SRC51)
+WHY52 = {
+ 'P7': ['v52 (batch 32: v43’s P7, rebuilt from Emulate round 8 for the section’s windows, reads 100% AI alone, 0.97): v20’s P7 back, which passed alone (batch 5, 0.0) and went through the v20 to v41 gates (traces, LOGIC-v29 A and B). It has the published "collect" (TRACE-v46-A: "have" had lost it, and P25’s "experience collectors" points back to it).'],
+ 'P26': ['v52 (batch 32: v43’s P26 reads 100% AI alone, 0.62; batches 33 and 34: v37’s body reads AI with every opener but "The other aspect is", which the v43 cold read couldn’t place): Emulate round 10 B (`emulate-runs/community-s5j`, raw 0.0) with the meaning put back word by word: the claims "Integration is your life." (published "Integration is ordinary life.") and "The ceremony opens something up in you." (B asked both as questions), "how things have changed, if at all" (B’s, the published "whether anything changed"), the five places, and the quip "without declaring a new spiritual emergency" (B had dropped it; the published wording, so no scare quotes).'],
+ 'P32': ['v52 (batch 32: v51’s P32 reads 100% AI alone, 0.86): v41’s P32 (the round-8 input), which passes alone (batch 33, 0.27): "can recruit too quickly and promise too much, and only do the math … once several people already depend on it" (published "can recruit too quickly, promise too much, and discover arithmetic only after several people are already dependent on it"; "can" over all three) and the sections’ purpose as published.'],
+}
+
+V[53] = dict(V[52])
+fix(V[53], 'P11', "Support from people you trust is different from paying people you don't know to look after you for a night, which is often the alternative.", "Support from people you trust is different from paid support, which is often people you don't know looking after you for a night.")
+fix(V[53], 'P26', "Integration is your life.", "Integration is everyday life.")
+fix(V[53], 'P26', "Look at your life after the ceremony for a few weeks and see", "Look at your life in the weeks after the ceremony and see")
+fix(V[53], 'P29', "It’s really common for people to feel the urge", "A lot of people feel the urge")
+fix(V[53], 'P29', "Finding “their people” and", "Finding their people and")
+SRC53 = dict(SRC52)
+WHY53 = {
+ 'P11': ['v53 (LOGIC-v43, -v49-A and -v52-A, TRACE-v52-A: the contrast had narrowed from purchased support to paying strangers for a night, and "often" sat on the wrong thing; published "Trusted support is different from purchased support. The commercial alternative is often paying strangers for one night of care."): "different from paid support, which is often people you don’t know looking after you for a night". "They" in the next sentence now has one plural before it.'],
+ 'P26': ['v53 (LOGIC-v52-A: "Integration is your life" reads as the idiom "X is your life", everything to you; published "Integration is ordinary life"; and "for a few weeks" sets a number the published "The following weeks" doesn’t): "Integration is everyday life." ("ordinary" is on the AI-frequency list), "in the weeks after the ceremony".'],
+ 'P29': ['v53 (LOGIC-v52-A: "It’s really common" makes the urge the usual response, published "Many people"; TRACE-v52-A, and the v7 trace before it: the quotation marks around "their people" are added): "A lot of people feel the urge…", no quotation marks.'],
+}
+
+V[54] = dict(V[53])
+fix(V[54], 'P11', "which is often people you don't know looking after you for a night.", "which is often paying people you don't know to look after you for a night.")
+fix(V[54], 'P26', "in the weeks after the ceremony and see", "in the weeks that follow the ceremony and see")
+fix(V[54], 'P29', "after going through some serious", "after they’ve gone through some serious")
+fix(V[54], 'P29', "whatever just opened up is part", "whatever has just opened up is part")
+SRC54 = dict(SRC53)
+WHY54 = {
+ 'P11': ['v54 (batch 37: v53 read 5.0% AI with two windows downstream, P19 and P25/P26; v52, two words longer here, read 0%): "which is often paying people you don’t know to look after you for a night" (the published "paying strangers"), so P11 has v52’s length.'],
+ 'P26': ['v54 (the same): "in the weeks that follow the ceremony" (the published "the following weeks"), v52’s length.'],
+ 'P29': ['v54 (the same): "after they’ve gone through", "whatever has just opened up", v52’s length.'],
+}
+
+V[56] = dict(V[52])
+V[56]['P11'] = V[54]['P11']
+V[56]['P29'] = V[53]['P29']
+SRC56 = dict(SRC54)
+WHY56 = {
+ 'P11': ['v56 (batches 39 to 41: v54’s P11 doesn’t move the section’s windows): v54’s P11 on v52.'],
+ 'P26': ['v56 (batches 37 to 41: every change tried in P26’s third sentence, "in the weeks after the ceremony", "in the weeks that follow the ceremony", "for some weeks", brings AI windows back at P19 and P25 in the section, though each passes alone): v52’s P26. Left for Joel: "for a few weeks" (LOGIC-v52-A: "a few" sets a number the published "The following weeks" doesn’t) and "Integration is your life." (LOGIC-v52-A AMBIGUOUS: the idiom).'],
+ 'P29': ['v56: v53’s P29 on v52 (batch 40: the section reads 0% with it).'],
+}
+
+V[59] = dict(V[56])
+fix(V[59], 'P2', "It's still a crime to traffic them.", "It's still a crime to traffic drugs.")
+V[60] = dict(V[59])
+V[60]['P26'] = V[53]['P26']
+SRC59 = dict(SRC56); SRC60 = dict(SRC59)
+WHY59 = {
+ 'P2': ['v59 (the v56 cold read and TRACE-v46-A: "traffic them" has nothing to point to, since v44’s link text dropped "drugs"): "It’s still a crime to traffic drugs." (published "trafficking remains criminal"). Batch 43: the section stays at 0%.'],
+}
+WHY60 = {
+ 'P26': ['v60 (LOGIC-v52-A and the v56 cold read: "Integration is your life." reads as the idiom at first; LOGIC-v52-A: "for a few weeks" sets a number): v53’s P26, "Integration is everyday life." (published "Integration is ordinary life") and "in the weeks after the ceremony" (published "The following weeks"); it passes alone (batch 37, 0.01). With it the section has two small AI windows elsewhere (batches 37, 38, 42); v59 keeps v52’s P26 at 0%. Meaning first: AGENTS.md, "Detector results are evidence, not editorial authority".'],
+}
+
 def build(n, src):
     B = V[n]
     json.dump({'version': n, 'order': ORDER, 'blocks': B, 'source': src}, open(HERE / ('final-v%d.json' % n), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
@@ -923,8 +1149,8 @@ def build(n, src):
 
 if __name__ == '__main__':
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8, 9: SRC9, 10: SRC10, 11: SRC11, 12: SRC12, 13: SRC13, 14: SRC14, 15: SRC15, 16: SRC16, 17: SRC17, 18: SRC18, 19: SRC19, 20: SRC20, 21: SRC21, 22: SRC22, 23: SRC23, 24: SRC24, 25: SRC25, 26: SRC26, 27: SRC27, 28: SRC28, 29: SRC29, 30: SRC30, 31: SRC31, 32: SRC32, 33: SRC33, 34: SRC34, 35: SRC35, 36: SRC36, 37: SRC37}.get(n, SRC37))
-    WHY = {k: WHY1.get(k, []) + (WHY2.get(k, []) if n >= 2 else []) + (WHY3.get(k, []) if n >= 3 else []) + (WHY4.get(k, []) if n >= 4 else []) + (WHY5.get(k, []) if n >= 5 else []) + (WHY6.get(k, []) if n >= 6 else []) + (WHY7.get(k, []) if n >= 7 else []) + (WHY8.get(k, []) if n >= 8 else []) + (WHY9.get(k, []) if n >= 9 else []) + (WHY10.get(k, []) if n >= 10 else []) + (WHY11.get(k, []) if n >= 11 else []) + (WHY12.get(k, []) if n >= 12 else []) + (WHY13.get(k, []) if n >= 13 else []) + (WHY14.get(k, []) if n >= 14 else []) + (WHY15.get(k, []) if n >= 15 else []) + (WHY16.get(k, []) if n >= 16 else []) + (WHY17.get(k, []) if n >= 17 else []) + (WHY18.get(k, []) if n >= 18 else []) + (WHY19.get(k, []) if n >= 19 else []) + (WHY20.get(k, []) if n >= 20 else []) + (WHY21.get(k, []) if n == 21 else []) + (WHY22.get(k, []) if n == 22 else []) + (WHY23.get(k, []) if n >= 23 else []) + (WHY24.get(k, []) if n >= 24 else []) + (WHY25.get(k, []) if n >= 25 else []) + (WHY26.get(k, []) if n >= 26 else []) + (WHY27.get(k, []) if n >= 27 else []) + (WHY28.get(k, []) if n >= 28 else []) + (WHY29.get(k, []) if n == 29 else []) + (WHY30.get(k, []) if n >= 30 else []) + (WHY31.get(k, []) if n == 31 else []) + (WHY32.get(k, []) if n == 32 else []) + (WHY33.get(k, []) if n == 33 else []) + (WHY34.get(k, []) if n >= 34 else []) + (WHY35.get(k, []) if n >= 35 else []) + (WHY36.get(k, []) if n >= 36 else []) + (WHY37.get(k, []) if n >= 37 else []) for k in ORDER}
+    md, plain = build(n, {1: SRC1, 2: SRC2, 3: SRC3, 4: SRC4, 5: SRC5, 6: SRC6, 7: SRC7, 8: SRC8, 9: SRC9, 10: SRC10, 11: SRC11, 12: SRC12, 13: SRC13, 14: SRC14, 15: SRC15, 16: SRC16, 17: SRC17, 18: SRC18, 19: SRC19, 20: SRC20, 21: SRC21, 22: SRC22, 23: SRC23, 24: SRC24, 25: SRC25, 26: SRC26, 27: SRC27, 28: SRC28, 29: SRC29, 30: SRC30, 31: SRC31, 32: SRC32, 33: SRC33, 34: SRC34, 35: SRC35, 36: SRC36, 37: SRC37, 38: SRC38, 39: SRC39, 40: SRC40, 41: SRC41, 42: SRC42, 43: SRC43, 44: SRC44, 45: SRC45, 46: SRC46, 47: SRC47, 48: SRC48, 49: SRC49, 50: SRC50, 51: SRC51, 52: SRC52, 53: SRC53, 54: SRC54, 56: SRC56, 59: SRC59, 60: SRC60}.get(n, SRC60))
+    WHY = {k: WHY1.get(k, []) + (WHY2.get(k, []) if n >= 2 else []) + (WHY3.get(k, []) if n >= 3 else []) + (WHY4.get(k, []) if n >= 4 else []) + (WHY5.get(k, []) if n >= 5 else []) + (WHY6.get(k, []) if n >= 6 else []) + (WHY7.get(k, []) if n >= 7 else []) + (WHY8.get(k, []) if n >= 8 else []) + (WHY9.get(k, []) if n >= 9 else []) + (WHY10.get(k, []) if n >= 10 else []) + (WHY11.get(k, []) if n >= 11 else []) + (WHY12.get(k, []) if n >= 12 else []) + (WHY13.get(k, []) if n >= 13 else []) + (WHY14.get(k, []) if n >= 14 else []) + (WHY15.get(k, []) if n >= 15 else []) + (WHY16.get(k, []) if n >= 16 else []) + (WHY17.get(k, []) if n >= 17 else []) + (WHY18.get(k, []) if n >= 18 else []) + (WHY19.get(k, []) if n >= 19 else []) + (WHY20.get(k, []) if n >= 20 else []) + (WHY21.get(k, []) if n == 21 else []) + (WHY22.get(k, []) if n == 22 else []) + (WHY23.get(k, []) if n >= 23 else []) + (WHY24.get(k, []) if n >= 24 else []) + (WHY25.get(k, []) if n >= 25 else []) + (WHY26.get(k, []) if n >= 26 else []) + (WHY27.get(k, []) if n >= 27 else []) + (WHY28.get(k, []) if n >= 28 else []) + (WHY29.get(k, []) if n == 29 else []) + (WHY30.get(k, []) if n >= 30 else []) + (WHY31.get(k, []) if n == 31 else []) + (WHY32.get(k, []) if n == 32 else []) + (WHY33.get(k, []) if n == 33 else []) + (WHY34.get(k, []) if n >= 34 else []) + (WHY35.get(k, []) if n >= 35 else []) + (WHY36.get(k, []) if n >= 36 else []) + (WHY37.get(k, []) if n >= 37 else []) + (WHY38.get(k, []) if n >= 38 else []) + (WHY39.get(k, []) if n >= 39 else []) + (WHY40.get(k, []) if n >= 40 else []) + (WHY41.get(k, []) if n >= 41 else []) + (WHY42.get(k, []) if n >= 42 else []) + (WHY43.get(k, []) if n >= 43 else []) + (WHY44.get(k, []) if n >= 44 else []) + (WHY45.get(k, []) if n >= 45 else []) + (WHY46.get(k, []) if n >= 46 else []) + (WHY47.get(k, []) if n >= 47 else []) + (WHY48.get(k, []) if n >= 48 else []) + (WHY49.get(k, []) if n >= 49 else []) + (WHY50.get(k, []) if n >= 50 else []) + (WHY51.get(k, []) if n >= 51 else []) + (WHY52.get(k, []) if n >= 52 else []) + (WHY53.get(k, []) if n >= 53 and not (n >= 56 and k == 'P26') else []) + (WHY54.get(k, []) if n >= 54 and not (n >= 56 and k in ('P26', 'P29')) else []) + (WHY56.get(k, []) if n >= 56 and not (n >= 60 and k == 'P26') else []) + (WHY59.get(k, []) if n >= 59 else []) + (WHY60.get(k, []) if n >= 60 else []) for k in ORDER}
     json.dump({'about': 'Section 5 v%d: each changed paragraph\'s published text, its Emulate source (exact outputs in emu/), the text, and why.' % n,
                'paragraphs': [{'p': k, 'published': O[k], 'from': SRC1.get(k), 'v%d' % n: V[n][k], 'why': WHY.get(k, [])}
                               for k in ORDER if k.startswith('P') and V[n][k] != O[k]]},

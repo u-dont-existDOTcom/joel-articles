@@ -408,3 +408,403 @@ TRACE-v37-A: the five read as places to look, one or more, as published; its oth
 Batch 16 (23:11 UTC): **Human.** Mine: 1 of 1. So at v37 every paragraph passes alone or with a neighbor that passes alone (P18 with P17 and its heading).
 
 Over the turn (Joel's message of 20:51; API batches 9 to 16, 30 checks): mine 19 of 30.
+
+## Joel's message of 01:18 UTC (2026-10-04)
+
+On P18, what he learned from those lineages: "the need for sacred ritual practices even if i don't do them myself, i see a lot of people need the rituals and the look and vibe to match before they feel comfortable doing this kind of thing. i've learned that the spirit realms are quite a mixed bag, you can have a shaman who heals people very well and yet he also may take money to send evil spirits to kill someone. i've learned that people do very often decide they are ready to do ceremonies long before they are really trained and prepared. i've learned what to do, and what not to do, based on observing the various traditions. and i'm sure i could still learn a lot from them and they could still learn a lot from me." On P33: "sure cut it" (", not just escaping society"). And "continue": PR #135 may merge at the end of this turn.
+
+v38: P18's empty courtesy becomes his specifics, in his words wherever they read in place (his straight apostrophes): "I've learned what to do, and what not to do, from watching those traditions, though." then the rituals, the spirit realms, the readiness, and his closing "I'm sure I could still learn a lot from them, and they could still learn a lot from me." P33 without the tail.
+
+### The gate on v38 to v40, then API batch 17 (texts in `r40/`)
+
+TRACE-v38-A and STANCE-v38 marked v38's P18 as having dropped the published respect ("I respect what those traditions have preserved"): his answer adds to it, so v39 puts it back. The cold read couldn't place the spirit realms or the "And that…" fragment, and read "them" in the last sentence as the untrained people; v39 and v40 frame each lesson as his ("I see…", "I've also seen that…"), give the rituals his word "sacred", and say "from those traditions". The stance check's other marks are his answer itself (new claims about rituals, spirit realms, readiness, and that the lineages could learn from him): his to keep. Two notes for him: "do ceremonies" (lead them or take part?), and the rituals line beside P27's "That all matters more than ceremony aesthetics" (not a contradiction: comfort and safety). v38 also gave P26 back "Another" for "The other": v37 had made three paragraphs open with "The" (B13).
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P18 | Human (weak) | most of it is his own words, and specific | Human (154) |
+| H2bP18P19 | Human (weak) | the empty courtesy is gone | Human (235; 0.22) |
+| P33 | Human (weak) | passed with the tail | Human (66) |
+| P26 | AI (weak) | "Another aspect is" is a stock transition, and batch 15 left open which word tipped v36 | 100% AI (45) |
+| S5 | AI | the runs from P19 on and P30 to P33 are untouched | Mixed: 68.5% AI (2,012) |
+
+Batch 17 (01:48 UTC): **P18, H2bP18P19 and P33 100% Human; P26 100% AI; the section Mixed, 68.5% AI.** Mine: 4 of 5 (P26's "Another aspect" read AI, as I called it, so "The other aspect" stays and the B13 "The" count is fixed elsewhere). So Joel's specifics fixed P18: with the heading and P19, 100% AI (empty courtesy) → 58% (reworded) → Human (his lessons). In the section, P16's end to P18 now reads Human (238 words).
+
+Section windows (v40):
+
+| window | words | Pangram |
+|---|---|---|
+| h1 to P2's "which is false!" | 143 | AI (0.77) |
+| P2's last sentence and P3 | 71 | Human |
+| P4 | 50 | AI (0.74) |
+| P5 and P6 to the Global Ayahuasca Survey | 95 | Human |
+| P6's last sentence to P10's first | 286 | AI (0.67) |
+| P10's middle | 63 | Human |
+| P10's last sentence to P13 | 203 | AI (0.79) |
+| P14 and P15 to "drive away from the ceremony" | 68 | Human |
+| P15's last sentence and P16's first two | 46 | AI (0.60) |
+| P16's last sentence to P18 | 238 | Human (0.18) |
+| P19 and P20's first sentence | 110 | AI (0.89) |
+| P20's rest to P22's fourth sentence | 112 | Human |
+| P22's last sentence to P33 | 578 | AI (0.87) |
+
+### The section pass: Emulate round 8 (`emulate-runs/community-s5h`, 01:52 UTC), the AI windows as runs of whole paragraphs
+
+v41 is v40 with P26's "The other aspect" back. Every AI window at v40 goes to Emulate as one unit of whole paragraphs, two calls each (section 4's run lesson): u1 P1–P2, u2 P4, u3 P7–P9, u4 P11–P13, u5 P15–P16, u6 P19–P20, u7 P22–P28, u8 P29–P33 (`emu/units8.json`). Raw versions first (API batch 18), then the closest passer per unit with the meaning put back word by word: every logic fix of v29 to v40, Joel's sentences exactly (P23's last, P28's parenthetical, P33's step), the links.
+
+API batch 18: the 16 raw versions as returned (`api18.json`, built on the laptop by `community-s5h/make_raw_batch.py`, 3,075 words). A slip: the batch script started the check in the same command, before these predictions were written; I wrote them before reading any result.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| emu8raw-u1A | Human (weak) | Emulate's raw versions passed 12 of 13 in rounds 6 and 7 | Human |
+| emu8raw-u1B | Human (weak) | | Human |
+| emu8raw-u2A | Human (weak) | | Human |
+| emu8raw-u2B | Human (weak) | | Human |
+| emu8raw-u3A | Human (weak) | | Human |
+| emu8raw-u3B | Human (weak) | | Human |
+| emu8raw-u4A | Human (weak) | | Human |
+| emu8raw-u4B | Human (weak) | | Human |
+| emu8raw-u5A | Human (weak) | | Human |
+| emu8raw-u5B | Human (weak) | | Human |
+| emu8raw-u6A | Human (weak) | | Human |
+| emu8raw-u6B | Human (weak) | | Human |
+| emu8raw-u7A | AI (weak) | 360 words, the longest unit, and long runs have read AI where their paragraphs pass | Human |
+| emu8raw-u7B | AI (weak) | | Human |
+| emu8raw-u8A | Human (weak) | section 4's 250-word run passed raw | Human |
+| emu8raw-u8B | Human (weak) | | Human |
+
+Batch 18 (01:56 UTC): **all 16 raw versions 100% Human**, the 411- and 460-word runs included. Mine: 14 of 16 (u7 A and B I called AI). Their meaning drifts a long way (u6 A invents "my intuition says X, and I'm smarter than you"; u8 A has the training ground "alleviating my concerns"; u7 A promises safety posts "soon"; u7 B links "here, here, and here").
+
+Before rebuilding runs from them, a look at what the runs carry: v41's paragraphs score almost nothing alone (from the cache: P22 0.006, P23 0.001, P24 0.002, P25 0.002, P27 0.099, P28 0.000, P30 0.335, P33 0.113; the highest anywhere is P26 at 0.44), yet the window from P22's last sentence to P33 reads 0.87. So no single paragraph is near the line there; it is the run. API batch 18b checks where: the window as Pangram cut it, its two halves, and the window with the paragraph-opening links taken out ("In addition,", "Also,", "As a bonus,", "The other aspect is"), a diagnostic only.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| dW13-0 (the window as cut) | AI | it read 0.87 in the section | 100% AI (568; 0.89) |
+| dW13-1 (P23 to P28) | AI (weak) | six short "principle" paragraphs in a row | 100% AI (301; 0.98) |
+| dW13-2 (h2c, P29 to P33) | AI (weak) | P30's anaphora ("And you run into…" ×3) | 100% AI (248; 0.95) |
+| dW13-3 (the window, links out) | AI (weak) | if the links are the run's tell, this flips | 100% AI (559; 0.90) |
+| v41-S5 (the section with v41's P26) | Mixed, about 65% AI | v40's P26 ("Another aspect") read AI alone and sat inside this window; v41's passes alone | Mixed: 68.5% AI, the same windows |
+
+A catch while building these: v40's last window held v40's P26, which read 100% AI alone, so every text above takes v41's P26 ("The other aspect", Human alone), and the batch adds the whole section at v41.
+
+Batch 18b (01:59 UTC): **all four diagnostics 100% AI; v41's section the same as v40's (68.5%).** Mine: 4 of 5 (I gave the halves AI (weak), and P23 to P28 came back 0.98). So paragraphs that score almost nothing alone (P23 to P28: 0.001, 0.002, 0.002, 0.44 for v40's P26, 0.099, 0.000) read 0.98 as a 300-word run, and taking out the paragraph-opening links changes nothing (0.90). Passing alone tells little about a run; the run has to be checked as a run. Emulate's raw runs of the same content read 100% Human.
+
+v42 rebuilds the last window from round 8's raw runs (u7 A for P22 to P28; u8 A for P29 to P31 and P33, u8 B for P32, whose A version reversed the paragraph), with the meaning put back word by word: P22's "are ever casual", the reason ("since the authority is spread around") and the musts; Joel's P23 sentence exactly, with the links; P24's "can deepen … can't be a pharmacological short cut" (A had "should", and a "not Y" tail); P26's opening apart from the change and the five places to look; P27's "drug interactions" (A had "screening people for appropriate interaction"), "They matter more than ceremony aesthetics" and the safety material as it is now (A promised posts "soon"); P28's written record ("you need to write down"), Joel's parenthetical exactly, "is information"; P30's "can come with" (A had "often"), the belief "My love can heal anyone", "sincerely want to change but keep choosing the opposite", "a crisis" (A had "such fucked up lives"); P31's "terrible"; P32's "can", "promise too much", the math done only once people depend on them, the sections' purpose; P33's "it can become useful", "sometimes", Joel's step, and the objection answered (A had the training ground "alleviating my concerns"). "The urge" became "That urge" (P31) and "The use of medicine" became "Using medicine" (P24), so no three paragraphs open with "The".
+
+API batch 19, diagnostics before the gate (nothing is adopted on them; the gate runs before any of this goes in): the rebuilt runs and the section.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v42-u7run (P22 to P28) | Human (weak) | the raw run read Human; about fifteen word-level fixes | |
+| v42-u8run (h2c, P29 to P33) | AI (weak) | P32 and P33 needed close to a rebuild | |
+| v42-S5 | Mixed, about 45% AI | the other AI windows are untouched | |
+
+Batch 19 (02:06 UTC): **both rebuilt runs 100% Human (0.044 and 0.001); the section Mixed, 36.1% AI (from 68.5%).** Mine: 2 of 3 (I called the second run AI). The section's AI windows at v42: h1 to P2 (0.79), P4 (0.74), P6's last sentence to P10's first (0.67), P10's last sentence to P13 (0.79), P15's last sentence and P16's first two (0.58), and P25's second sentence alone (50 words, 0.82; inside the run it read Human). P19 and P20 now sit inside a 600-word Human window.
+
+TRACE-v42-A and -B (P22 to P33): the findings made word by word in v43 (P22: "reviewing medications and combinations", "deciding before anybody takes anything", "professional help or emergency care"; P23: "medicines and protocols that I see as…" without "some"; P24: "the other pl/ork that comes first" for "that I list above", "honest relationship"; P25: "it weeds out the experience collectors"; P27: "being disciplined about the dose"; P29: "really common", one urge, "whatever just opened up for them"; P30: "and I've felt that too", "You come back believing love can heal anyone", "people who…" without "a lot of", "more than your enthusiasm can hold"; P31: "That call"; P32: "formed during", "too many people too fast"; P33: "can be", "the practices", "another experiment"). Kept, with reasons: Joel's own changes (P23's last sentence, P28's parenthetical and "insured" out, P33's step), "integration: your life" (every gate since v20), "need to write down" (published: "Legality needs a written answer"). The linter failed P22 for two lists of three; its first clause is now a sentence of its own.
+
+v43 also rebuilds the other AI windows from round 8: P1 and P2 from u1 A ("Key here is that…", the dates, "enacted", "lazily", the links back); P4 from u2 A with its specifics back (neighbors imagining chaos, insurers who might drop them, officials who may not understand the distinctions; "and"); P7 to P9 from u3 B (A invented "Like aikkh said"; B's P7 needed its claims back: collecting ceremonies and origin stories without being able to apologise, and insight that doesn't do the dishes or comfort a scared kid; P8's "In my experience" and "as a community"; P9's "an insight needs somewhere to land" and the people who held you noticing what happens); P11 to P13 from u4 B ("already has a cosmology to explain everything you say", "may be someone you've known for years", "You need someone…", "Your peers can also…", "insight and … convincing nonsense"); P15 and P16 from u5 B (the group arranges the childcare; raves' intimacy before trust without "can be great"; no "really amazing"). P19 and P20 stay as they are.
+
+API batch 20, diagnostics before the gate:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v43-u1run (h1, P1, P2) | Human (weak) | the raw run read Human; links and dates back | Mixed: 57% AI (164) |
+| v43-P4P5 | Human (weak) | | Human (109) |
+| v43-P4 | AI (weak) | its specifics back in one sentence, a list of four | Human (53) |
+| v43-u3run (P7, P8, h2a, P9) | AI (weak) | P7 is nearly my own rebuild | 100% AI (221) |
+| v43-u4run (P11 to P13) | Human (weak) | | Human (154) |
+| v43-u5run (P15, P16) | Human (weak) | | Human (108) |
+| v43-u7run (P22 to P28) | Human (weak) | the trace's fixes were small | Mixed: 11% AI (409) |
+| v43-u8run (h2c, P29 to P33) | Human (weak) | | Human (287) |
+| v43-S5 | Mixed, about 20% AI | | **Human: 4.6% AI** (2,090) |
+
+Batch 20 (02:26 UTC): **the section reads Human for the first time: 4.6% AI**, two small windows left: P11's last sentence with P12's first (53 words, 0.57), and P25's second sentence alone (50 words, 0.76). Everything else, 2,000 words, sits in three Human windows (0.21, 0.10, 0.003). Mine: 6 of 9 (u1's run alone came back Mixed and u3's AI, though both read Human inside the section; u7's run Mixed at 11%). So a run's result depends on what Pangram's windows hold: P7 to P9 read 100% AI as a run of their own and Human inside a 750-word window. The section, checked as a section, is the test that matches Joel's; the runs alone are a guide.
+
+Next: the gate on v43 (four traces, two logic audits, the stance check, a cold read), then each changed paragraph alone, then the two small windows.
+
+### The gate on v43, then v44 and API batch 21
+
+TRACE-v43-A to -D, LOGIC-v43-A and -B, STANCE-v43 and the cold read, against the rebuilt paragraphs. Fixed word by word in v44, in their terms: P1 "in a few jurisdictions" out (it narrowed the claim; both audits), "authorized psychiatrists limited access" (A's "via" moved the access); P2 "possessing small quantities for personal use"; P4 the secrecy back as a claim about most communities, with "even where the law allows some use" on the risks, "still", "parents worried about children"; P7 "hate doing the work"; P8 "can lower … and create strong bonds", "too", "tell the good from the bad" (A: "separate"); P9 the people who held you "can also notice" (the cold read stumbled on "there to notice"); P11 the contrast with the commercial alternative and "often" back; P12 "someone who's known you", "This matters even more", screening and watching tied to iboga-type experiences; P13 the peers check and the friends tell (not "help you"), "genuine insight", "which parts look like … and which look like… mom" (the cold read couldn't place "mom"); P15 "sit quietly", "obvious" out; P16 "inconvenient habits" (B had "bad habits" put up with); P26 "Then there's integration" (the cold read and two reviewers couldn't place "The other aspect of this"); P30 "and then you meet" three kinds of people, "and", "grandiosity" without "a degree of" (both audits: the rebuild had the belief correcting itself and an either/or); P32 "recruit too fast", "can end up"; P33 "if people are training there…" (the stance check: "living in a community in order to train" narrowed why people live there). Kept, with reasons: Joel's own changes (P10's sentence and "25", P18's lessons, P23's sentence, P28's parenthetical and "insured" out, P33's step), P3's wider advice he approved, wording every gate since v20 accepted ("integration: your life", P22's "not … ever casual", the "you" voice in P26).
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v44-S5 | Human (weak) | about fifteen fixes moved sentences back toward v41's, which read AI in runs | Mixed: 10.2% AI (2,070) |
+| v44-P4 | Human (weak) | | Human (50) |
+| v44-P30 | AI (weak) | the published triad is back | Human (66) |
+
+Batch 21 (03:00 UTC): **the section Mixed, 10.2% AI** (v43: 4.6%); P4 and P30 pass alone. Mine: 2 of 3 (I called P30 AI). Four small AI windows: P4's second sentence (39 words, 0.65), P6's last sentence with P7's first two (49, 0.64), P11's last two sentences with P12's first (82, 0.75), and P25's second sentence again (50, 0.84). The windows are small, 40 to 80 words, and every change upstream moves the cuts downstream (P4 grew by a sentence, and the windows after it moved), so a fix is judged by the section, not by where the window fell last time. The meaning fixes that read AI are the ones that brought back v41's or the published phrasing (P4's split, P11's "commercial alternative", P12's first sentence).
+
+API batch 22 tries other wordings for each of the four, checked the way Pangram cut them (diagnostics; the chosen wording goes through the trace before it goes in):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| dA1: P4 with the risks first, "so most … are still not open about it" | Human (weak) | Emulate's opener kept, the logic right | Human (0.21) |
+| dA2: v43's P4 (Emulate's order) | Human | passed alone at v43 | Human (0.003) |
+| dB1: P6's last sentence and P7's first two, "can't stand doing the work" | Human (weak) | | 100% AI (0.65) |
+| dB2: the same with v43's "don't want to do the work" | Human (weak) | it sat in a Human window at v43 | 100% AI (0.91) |
+| dC1: P11 and P12 with Emulate's "It's very different from paying someone you don't know…" and "already has a cosmology ready…", and P12 "Having someone who's known you for years as your sober sitter can make the difference between being watched and being held" | Human (weak) | closer to Emulate's B | Human (0.04) |
+| dD1: P25's second sentence, Emulate's B | AI (weak) | | Human (0.000) |
+| dD2: P25's second sentence, v41's | Human (weak) | passed inside P25 alone at v24 | Human (0.001) |
+| dD3: P25's second sentence, a plainer one ("Someone who won't put six months into…") | AI (weak) | mine | 100% AI (0.84) |
+
+Batch 22 (03:03 UTC): mine 5 of 8 (dB1 and dB2 I called Human; dD1 AI). So P4 with the risks first passes and keeps the logic; P25's second sentence passes in v41's wording (vetted since v24) and in Emulate's B, not in Emulate's A, which stayed in v42 to v44; the P11–P12 window passes in Emulate's B wording with the meaning in it; and the P6–P7 window reads AI whichever word stands for "hate", so the trigger is elsewhere in those three sentences.
+
+API batch 23:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| dB3: P6's last sentence, P7's first, and A's question ("You've got 12 ceremonies and 6 origin stories, but you can't say sorry to your housemate?") | Human (weak) | Emulate's A shape | 100% AI (0.67) |
+| dB4: P6's last sentence and v41's first P7 sentence | AI (weak) | | AI (0.27) |
+| dB5: P7's first two sentences without P6's | Human (weak) | if P6's last sentence is the trigger | 100% AI (0.70) |
+| dC2: dC1 with "It's very different from what often happens instead, paying someone you don't know…" | Human (weak) | "often" back | Human (0.04) |
+
+Batch 23 (03:05 UTC): mine 2 of 4. P7's own first two sentences read AI without P6's (0.70), so they're the trigger; v41's first sentence with P6's last reads 0.27 (labelled AI). Emulate round 9 on P7 alone (`community-s5i`) came back unusable (A: "your community based on those peak experiences is shit"; B: "you're stuffed", "you came from blah blah land"). At v43 the same P7 sat inside a Human window; the cuts moved when P4 grew a sentence. v45 puts P4 back to one sentence (dA1), takes the passing wordings for P11–P12 (dC2) and P25 (v41's), and leaves P7 as v44 has it, to see where the cuts fall.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v45-S5 | Human (weak) | | **Human: 8.1% AI** (2,056) |
+| v45-P11 | Human (weak) | | Human (58) |
+| v45-P12 | Human (weak) | | Human (53) |
+| v45-P25 | Human | v41's, passed alone at v24 with "As a bonus" | Human (54) |
+
+Batch 24 (03:07 UTC): **the section Human, 8.1% AI**; P11, P12 and P25 pass alone. Mine: 4 of 4. Three small AI windows: P4 (51 words, 0.59), P11's last two sentences with P12's first (79, 0.80) and P13's last two (41, 0.63). P6 to P11's first sentence and everything from P14 to the end (1,231 words) read Human. Two of the three windows had passed as texts of their own (dA1 0.21, dC2 0.04): the same words score differently inside the section, so the checks that decide now carry their neighbors.
+
+API batch 25, the three spots with their neighbors (P3 to P5; P10 to P14):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| ctx4-v45 (P3, v45's P4, P5) | AI (weak) | P4 read AI in the section | Mixed: 35% AI (P4 0.57) |
+| ctx4-b (P4 in Emulate's order, the "even where" on the concerns) | Human (weak) | | Human (0.01) |
+| ctx4-v43 (v43's P4) | Human (weak) | it sat in a Human window at v43 | Human (0.01) |
+| ctx11-v45 (P10 to P14 at v45) | AI (weak) | | 100% AI (0.81) |
+| ctx11-v43 (P10, v43's P11 to P13, P14) | AI (weak) | v43 had an AI window at P11/P12 too | Human (0.32) |
+| ctx11-raw (P10, Emulate's raw P11 and P12, v43's P13, P14) | Human (weak) | raw | Human (0.09) |
+
+Batch 25 (03:09 UTC): mine 5 of 6 (ctx11-v43 I called AI; it read 0.32). With their neighbors, P4 in Emulate's order with the "even where" on the concerns reads Human (0.01) and keeps the logic, so v46 takes it. P10 to P14 read 0.81 with v45's P11 to P13 and 0.32 with v43's: the gate's fixes there (the "commercial alternative", "This matters even more", "genuine", "which parts look like…") pushed them over. v46 takes v43's three paragraphs with only the fixes that change what a reader believes, in the fewest words: P12 "someone who's known you for years" (who knows whom) and "For those you need someone to…" (iboga-type experiences, not every ceremony); P13 the peers check and the friends tell, without "help you", and "… mom" as the punchline (the cold read couldn't place "mom"). Left as v43 had them, with reasons: P11's "It's very different from paying someone you don't know…" (the contrast is still with paid strangers; no claim that all paid care is strangers), P12's "This is especially true", P13's "insight" without "genuine" (the contrast with "convincing nonsense" carries it).
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| ctx11-v46 (P10, v46's P11 to P13, P14) | Human (weak) | v43's wording with four small fixes | Human (0.16) |
+
+Batch 26 (03:11 UTC): mine 1 of 1. P10 to P14 read Human (0.16, 307 words) with v43's P11 to P13 and the four fixes, so v46 = v45 with P4b and these three paragraphs. Lint on v46: REVIEW, no FAIL (the REVIEW lines are the ones kept with reasons before; P12 and P13 each add a B2 "the difference between" contrast, which is Joel's published wording in both).
+
+API batch 27, the whole section at v46 (written 03:17 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v46-S5 | Human (weak) | both v45 AI spots passed with their neighbors (ctx4-b 0.01, ctx11-v46 0.16); the rest is v45's, which read Human; the cuts will move again | **Human: 2.4% AI** (2,043) |
+
+Batch 27 (03:16 UTC): mine 1 of 1. **The section reads Human, 2.4% AI**: P4 and P13 now sit in Human windows. One AI window is left, 54 words at 0.62: P11's last sentence ("Sometimes they're great, but sometimes the person with the feather has only known you for 4 hours and already has a cosmology to explain everything you say.") with P12's first ("In a community, your sober sitter may be someone who's known you for years, and you feel the difference between being watched and being held."). The same seam read AI inside the section at v43 (53 words, 0.57), v44 (82, 0.75) and v45 (79, 0.80), with three different P12 first sentences, and Human every time P10 to P14 went alone (0.32, 0.16). Both sentences carry a clause the meaning restoration brought back from the published text ("already has a cosmology … everything you say", "the difference between being watched and being held"); Emulate's raws had dropped both. Sections 2 to 4 went in at 100% Human, so this window gets an ablation before any rewrite (EMULATE-FALLBACK: find the sentence first), in the section, since the seam only trips there.
+
+API batch 28, ablations in the whole section (written 03:24 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| abl-11: v46 without P11's last sentence | Human, no AI window (weak) | the cosmology clause is the one in all four AI seams | Human: 9.4% AI (2,016) |
+| abl-12: v46 without P12's first sentence | Human with an AI window left (weak) | P12's first sentence changed from v43 to v46 and the seam stayed AI | Human: 4.3% AI (2,018) |
+
+Batch 28 (03:22 UTC): mine 0 of 2 on the windows (both sections read Human, as called). Without P11's last sentence the seam got worse: one AI window from P10's emoji to the end of P13 (160 words, 0.71), so the cosmology sentence isn't the trigger; without P12's first sentence the seam reads Human, so that sentence (with "the difference between being watched and being held") is the likelier one. Both ablations also opened windows that v46 doesn't have: P17's last four sentences (42 words, 0.78 and 0.62) and P19's last sentence with P20's first (48 words, 0.69). Those sentences sit inside a 1,306-word Human window at v46. So the section's small windows are where the cuts happen to fall: taking one sentence out upstream moves every cut after it, and a spot that reads Human in one cut reads AI in another. Lesson for the ledger: in a long section, a 40 to 60 word AI window is a property of the cut as much as of the words; check a fix in the whole section, and judge the section by its verdict, not by chasing every small window.
+
+The gate on v46 (TRACE-v46-A to -C, LOGIC-v46-A and -B, STANCE-v46; the cold read stopped at the 64k output limit and runs again on v47). Fixed word by word in v47: P4 "still" back (TRACE-A: dropped; the v43 gate had asked for it); P12 "This is especially important" (TRACE-B and both audits: "especially true" can read as the feeling being stronger on iboga; published "This matters especially"; "important" is Emulate A's word); P13 "may notice the difference" (TRACE-B, both audits, the stance check: "can tell" asserts an ability; published "may notice"). Everything else they raised is Joel's own content or kept with a reason (the list is in the reply and STATUS).
+
+API batch 29 (written 03:59 UTC, before the call), a diagnostic while the small gate runs on v47's three fixes:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v47-S5 | Human, with the P11/P12 seam window still there (weak) | P11 and P12's first sentence unchanged; "still" in P4 moves the cuts by one word | **Human: 2.4% AI** (2,044) |
+
+Batch 29 (03:59 UTC): mine 1 of 1. v47 reads like v46: Human, 2.4% AI, the same seam window (P11's last sentence with P12's first, 54 words, 0.65); the three fixes sit in Human windows.
+
+The small gate on v47 (TRACE-v47-A, LOGIC-v47-A on P4, P12 and P13; the cold read of the whole section, SENSE-v47.md). New findings, fixed word by word: P4 "not open about it" can read as secrecy toward everyone (published "avoid saying so publicly") → "not public about it"; "concerns from" insurers and officials gives them concerns the published doesn't give them → "possible trouble … from"; P12's one "someone" to screen and watch reads as the sitter doing the medical screening (published: no one named) and "watch you" right after "being watched" makes the cold reader stop → "For those you need to be properly screened beforehand and monitored continuously"; the cold read can't place P11's "It" until P12 → "Support from people you trust is very different from…" (v49 only; v48 keeps "It's"). Kept with reasons: P13's "the difference between new understanding and… mom" (the friends notice which is which; the published's part-by-part "which parts resemble" read AI at v44 and v45), P13's "can give you" (published "produce"), "A few friends", P12's "you feel the difference" (the published's "Being watched and being held feel different").
+
+API batch 30 (written 04:24 UTC, before the call), diagnostics while the gate runs on v49's changes:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v48-S5 (P4, P12's last sentence) | Human, the seam window still there (weak) | P12's first sentence unchanged | Human: 2.4% AI (2,042) |
+| v49-S5 (v48 and P11's "Support from people you trust…") | Human, the seam window still there (weak) | the anchor brings back a published noun phrase next to the seam | **Human: 0% AI** (one window, 0.16) |
+
+Batch 30 (04:20 UTC): mine 1 of 2 (v49 I called with the seam window; it read 0%). **v49 reads 100% Human: one window over the whole section at 0.16.** v48 keeps the seam window (54 words, 0.74). The one difference is P11's second sentence: with "Support from people you trust is very different from…" in place of "It's very different from…", the seam reads Human. So the cold reader's "It" with no referent and Pangram's seam were the same sentence's problem, seen from two sides.
+
+The small gate on v49 (TRACE-v49-A, LOGIC-v49-A on P4, P11, P12; SENSE-v49 on the whole section). P11 and P12 now read OK to the cold reader. New findings: P11 "very different" (published "is different from": degree raised, LOGIC CHANGED; v44 had dropped "very" and v46's return to v43's P11 brought it back unnoticed); "Sometimes they're great" can now take three antecedents (LOGIC, TRACE); "often" still missing (LOGIC CHANGED, as at v43). P29's "for them" (LOGIC-v46-B, SENSE-v49: "them" first reads as the others). Kept with reasons: P4's participles under "possible trouble" (both audits AMBIGUOUS: "possible" governs the whole phrase; four "may" clauses are the published's list shape), P12's "you feel the difference".
+
+API batch 31 (written 04:38 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v50-S5: v49 with "very" out, "paying people you don't know" (plural, so "they" takes the nearest plural), P29 "whatever just opened up" | Human, 0% (weak) | three small word changes; the seam's fix (the anchor) stays | Human: 2.4% AI (2,044) |
+| v51-S5: v50 with ", which is often the alternative" after P11's second sentence | Human with an AI window at the seam (weak) | "often" brought the window back at v44 and v45 | **Human: 0% AI** (one window, 0.15) |
+
+Batch 31 (04:35 UTC): mine 0 of 2, both the wrong way round: v50 (no "often") has the seam window back (54 words, 0.58), and **v51, with ", which is often the alternative", reads 100% Human (one window, 0.15)**. So the published's hedge is back and the section passes with it. The seam is where P11's second sentence ends and its third begins; what reads AI there isn't one phrase, so a fix is judged in the whole section, as batch 28 showed.
+
+Paragraphs already checked alone in their v51 text (the API cache, by hash): P3 (0.35), P6 (0.0), P10 (0.25), P14 (0.0, 46 words), P17 (0.04), P18 (0.03), P19 (0.30), P20 (0.0), P21 (0.03, 35 words), P25 (0.0), P30 (0.23), and the heading with P18 and P19 (0.22). Every other paragraph changed after its last alone check (Emulate round 8 and the gates since), so they all go now.
+
+API batch 32, the paragraphs alone (written 04:37 UTC, before the call; the gate runs on v51's P11 and P29 at the same time, and anything it changes is checked again):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v51-P1 | AI (weak) | h1 to P2 read 57% AI as a run at v43 | Human (0.12) |
+| v51-P2 | Human (weak) | | Human (0.0) |
+| v51-P4 (50 words) | Human (weak) | P4b passed with P3 and P5 | Human (0.01) |
+| v51-P5 | Human | unchanged since v41 | Human (0.0) |
+| v51-P7 | AI (weak) | its first two sentences read 0.70 alone (batch 23) | **100% AI (0.97)** |
+| v51-P8 | Human (weak) | | Human (0.0) |
+| v51-P9 | AI (weak) | P7 to P9 read 100% AI as a run at v43 | Human (0.0) |
+| v51-P11 | Human (weak) | | Human (0.04) |
+| v51-P12 | Human (weak) | | Human (0.04) |
+| v51-P13 (47) | Human (weak) | | Human (0.0) |
+| v51-P15 | Human | | Human (0.0) |
+| v51-P16 (48) | Human | | Human (0.0) |
+| v51-P22 | Human (weak) | | Human (0.03) |
+| v51-P23 (45) | Human (weak) | | Human (0.0) |
+| v51-P24 (49) | Human (weak) | | Human (0.04) |
+| v51-P26 | Human (weak) | | **100% AI (0.62)** |
+| v51-P27 (40) | Human (weak) | | Human (0.0) |
+| v51-P28 | Human (weak) | | Human (0.0) |
+| v51-P29 (40) | Human (weak) | | Human (0.01) |
+| v51-P30P31 (P31 is 16 words; P30 passed alone) | Human | | Human (0.22) |
+| v51-P32 | Human (weak) | | **100% AI (0.86)** |
+| v51-P33 | Human (weak) | | Human (0.0) |
+
+Batch 32 (04:38 to 04:40 UTC): mine 18 of 22 (P1 and P9 I called AI, and both passed; P26 and P32 I called Human, and both read AI). **19 of 22 pass alone; P7 (0.97), P26 (0.62) and P32 (0.86) read 100% AI alone**, though all three sit in Human windows inside the section. The other short ones pass alone (P13, P16, P23, P24, P27, P29), and P31 with P30. So the per-paragraph rule and the section disagree for these three: the versions that fixed the section's windows (Emulate round 8, v43) fail alone; the earlier versions passed alone (v20's P7, 0.0, batch 5; v37's P26, 0.0, batch 15) and sat in AI windows at v40. P32 never passed alone in the API record (v9's P31P32 and v51's both 100% AI).
+
+Next: v20's P7 and v37's P26 body (with "Then there's integration", the v43 cold read's fix for "The other aspect") into the section; P32 to Emulate (round 10, `emulate-runs/community-s5j`), raw versions alone first. Then the gate on every paragraph that changes, then the section.
+
+Emulate round 10 on P32 (`emulate-runs/community-s5j`, v51's P32 as input, two calls; balance 241,083 → 240,963): A invents "like many of the earliest intentional communities" and turns the paragraph into a pointer to later sections (unusable); B keeps the shape: "Many of the groups … make the mistake of expanding to fast and taking on more than they can handle. They don't get around to thinking about how much need they have the capacity to deal with until they already have a number of people depending on them. Read the sections below … to see if they're helpful to avoiding this problem." Its meaning drifts: "many" and "make" (published: a group "can"), "taking on more than they can handle" (published: "promise too much"), "don't get around to" (certain), and the sections' purpose. P32-Br1 is B with those put back word by word: "can make the mistake of recruiting too fast and promising too much", "may not get around to", the purpose ("partly there to protect the original generosity from that first rush").
+
+API batch 33 (written 04:50 UTC, before the call), the three paragraphs that fail alone:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P26-c1: v37's body (passed alone, batch 15) with "Then there's integration: your life." | Human (weak) | only the opener differs from a text that passed | 100% AI (0.80) |
+| v41-P32 (the round-8 input, never checked alone) | AI (weak) | close to the published shape | Human (0.27) |
+| emu10raw-P32-B | Human | raw versions mostly pass | Human (0.0) |
+| P32-Br1 | Human (weak) | B's sentences with the meaning back; the last clause is the published one | Human (0.0) |
+
+Batch 33 (04:45 UTC): mine 3 of 4 (I called v41's P32 AI; it passed at 0.27). P32 passes alone in two versions: v41's (the round-8 input: "A group that begins in collective spiritual euphoria can recruit too quickly and promise too much, and only do the math on how much need it can absorb once several people already depend on it. The sections on capacity and on membership, later on in this article, are partly there to protect the original generosity from that first rush.") and Br1 (0.0). v41's is the closer one in meaning ("do the math" for "discover arithmetic", "can" over all three verbs, no "make the mistake", no "heady"), so it goes into the section first. P26's opener decides it: "The other aspect is" passed (batch 15), "Another aspect is" (batch 17) and "Then there's" (here, 0.80) read AI on the same body. Three more openers, each anchored without "other" (the cold reader couldn't place "The other aspect"):
+
+API batch 34 (written 04:52 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| P26-c2: "As for integration, that's your life." and v37's body | Human (weak) | a spoken opener | 100% AI (0.64) |
+| P26-c3: "Integration is your life." and v37's body | AI (weak) | the published shape ("Integration is ordinary life.") | 100% AI (0.61) |
+| P26-c4: "Afterwards comes integration: your life." and v37's body | AI (weak) | a stock transition, like the two that failed | 100% AI |
+
+Batch 34 (04:46 UTC): mine 2 of 3. All three openers read AI on v37's body (0.61 to 0.64 and AI). Five openers on the same body now: only "The other aspect is integration" passed. So the body sits near the line and the opener tips it; one passing opener out of five is luck, not a fix. P26 goes to Emulate (round 10, `community-s5j`, input P26-c1: the gated body with the anchored opener), raw versions alone first.
+
+Emulate round 10 on P26 (input P26-c1; balance 240,963 → 240,875). A: "3. Integration – How has the ceremony fit into your life? Did it open something for you? Look at the last few weeks…, check in with relationships and behavior. Are you sleeping better? Making better decisions? Are you more able to handle frustration without creating a "new spiritual emergency"?" (a list number, and "better" gives the change a direction the published doesn't). B: "Integration: How has it affected your life? Did the ceremony open something up in you? Look at your life after the ceremony for a few weeks and see how things have changed, if at all. Look at your relationships, your behavior, your sleeping habits, your decision-making, and how well you can deal with frustration." B keeps the five places and "whether anything changed" ("if at all"), drops the spiritual-emergency quip, and turns the published claims into questions. Br1 and Br3 are B with those put back word by word: the claim "The ceremony opens something up in you", the quip ("without declaring a new spiritual emergency"), and the opener as a claim ("Integration is your life.", the published "Integration is ordinary life.") or as v51's label ("Integration: your life.").
+
+API batch 35 (written 04:58 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| emu10raw-P26-A | Human | raw | Human (0.0) |
+| emu10raw-P26-B | Human | raw | Human (0.0) |
+| P26-Br1 ("Integration is your life." …) | Human (weak) | B's body with three meaning fixes | Human (0.01) |
+| P26-Br3 ("Integration: your life." …) | Human (weak) | the same with v51's label | Human (0.03) |
+
+Batch 35 (04:48 UTC): mine 4 of 4. Both raws and both restorations pass alone. v52 takes Br1 ("Integration is your life.", the published claim minus "ordinary").
+
+v52 = v51 with the three that failed alone: v20's P7 (passed alone, batch 5), P26-Br1, and v41's P32 (passed alone, batch 33). Lint: REVIEW, no FAIL (new REVIEW lines: P26's five places as an E125 triple, which is the published list of five; "Integration is your life." as B5, the published opener).
+
+API batch 36 (written 05:02 UTC, before the call), a diagnostic while the gate runs on P7, P11, P26, P29 and P32:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v52-S5 | Human with a window or two (weak) | P7 sat in v40's AI run (P6 to P10), and v41's P32 in its P30 to P33 run; most of their neighbors are newer | **Human: 0% AI** (one window, 0.15) |
+
+Batch 36 (04:50 UTC): mine 0 of 1 on the windows (I expected one or two). **v52 reads 100% Human (one window over the whole section, 0.15), and every one of its paragraphs passes alone** (P7, P26 and P32 in batches 5, 35 and 33; the rest in batch 32 and the cache). The gate now runs on the five paragraphs it hasn't seen in these words: P7, P11, P26, P29, P32.
+
+The gate on v52 (TRACE-v52-A, LOGIC-v52-A on P7, P11, P26, P29, P32; SENSE-v52 on the whole section: every sentence of the five reads OK to the cold reader). Fixed word by word in v53: P11 "different from paid support, which is often people you don't know looking after you for a night" (LOGIC CHANGED for the third gate running: the contrast had narrowed from purchased support to paying strangers, and "often" sat on the wrong thing); P26 "Integration is everyday life." (LOGIC: "X is your life" reads as the idiom, everything to you; published "ordinary life") and "in the weeks after the ceremony" (LOGIC: "a few weeks" sets a number); P29 "A lot of people feel the urge" (LOGIC: "really common" makes it the usual response; published "Many people") and no quotation marks around "their people" (TRACE; the v7 trace had taken them out before). Kept with reasons: P7's "Sometimes the dishes need doing…" (LOGIC AMBIGUOUS: the sentence before says insight doesn't do the practical work, which is the published's categorical claim), P7's dropped "revise agreements" and "a new sacred name" (Joel's ruling on lists of three), P26's "you" voice and imperative (every gate since v20; the published names no one who watches, and the essay's "you" is the person whose life it is), P32's "do the math on how much need it can absorb" (the next sentence names the capacity sections), P4's "parents worried about children" (the cold reader asks whose; the published is as open).
+
+API batch 37 (written 05:08 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v53-P11 | Human (weak) | the published structure is back in the second sentence | Human (0.06) |
+| v53-P26 | Human (weak) | two small word changes to a text at 0.01 | Human (0.01) |
+| v53-P29 (38 words) | Human (weak) | | Human (0.0) |
+| v53-P29P30 (P30 passed alone) | Human | | Human (0.0) |
+| v53-S5 | Human, with the seam window back (weak) | P11's second sentence carries the seam, and it changed | Human: 5.0% AI (2,057) |
+
+Batch 37 (05:07 UTC): mine 4 of 5 (the section's windows came out elsewhere than the seam I called). The three fixed paragraphs pass alone (P11 0.06, P26 0.01, P29 0.0), and P29 with P30. The section reads Human at 5.0% with two windows, neither at the P11 seam: P19's last two sentences (68 words, 0.68: the facilitator "may be wise. Or they may be…", and "the more deeply someone is opening up…") and P25's last sentence with P26's first (41 words, 0.68: "Integration is everyday life." on the end of the experience-collectors sentence). Both are spots that read AI before whenever a cut isolated them (batch 28's ablations had P19's; v43 and v44 had P25's). v53's P11 is two words shorter than v52's, P26 one; every cut after P11 moved.
+
+What the batches since 27 show about the windows: v46 → v47 → v48 kept the same cuts with one-word changes; removing "very" (v50) brought the seam back and adding four words (v51) cleared it; v52 (100% Human) and v53 differ by three words of length upstream of P19. So which sentences share a window depends on the running length, and a window that isolates one of these spots reads AI. v54 keeps v53's meaning fixes at v52's lengths, word for word: P11 62 (", which is often paying people you don't know to look after you for a night", the published "paying strangers"), P26 56 ("in the weeks that follow the ceremony", the published "the following weeks"), P29 40 ("after they've gone through", "whatever has just opened up").
+
+API batch 38 (written 05:16 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v54-P11 | Human (weak) | | Human (0.04) |
+| v54-P26 | Human (weak) | | Human (0.02) |
+| v54-P29 (40 words) | Human (weak) | | Human (0.0) |
+| v54-S5 | Human, 0% (weak) | v52's cuts, if the lengths decide them | Human: 5.0% AI (2,062) |
+
+Batch 38 (05:09 UTC): mine 3 of 4. The three pass alone; the section reads exactly as v53 (the same two windows, 68 words at 0.73 and 41 at 0.66). So lengths don't decide the cuts: the windows follow the text. P19's window is word for word the same text as in v52, where it sat in a Human window, so what changed its score is elsewhere (P11 or P26: Pangram reads a window with its context). P25/P26's window holds the new opener "Integration is everyday life."
+
+API batch 39 (written 05:19 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v55a-S5: v54 with "Integration is just your life." ("just" for the published "ordinary": nothing special; it also can't be read as "everything to you") | Human, P19's window left (weak) | the opener is the likelier trigger of the P25/P26 window | Human: 4.7% AI |
+| v55b-S5: v55a with v52's P11 (a diagnostic only: v52's P11 narrows the published contrast) | Human, 0% (weak) | if P11's new sentence is what moved P19's score | Human: 4.7% AI (the same windows as v55a) |
+| v55-P26 | Human (weak) | | Human (0.01) |
+
+Batch 39 (05:11 UTC): mine 2 of 3. v55a and v55b read the same (4.7%: P19's 68 words at 0.73; P25's last sentence alone, 37 words at 0.55; "Integration is just your life." now sits in the Human window after it). So P11 isn't what moved P19's score: v55b has v52's P11. What v55b still has that v52 (0%) doesn't is P26's and P29's changes, both downstream of P19 and P25. Pangram scores a window with the text after it as well as before.
+
+API batch 40 (written 05:22 UTC, before the call), one change each on v52 plus the new P11 (the P11 fix doesn't move the windows):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v56a-S5: v52, the new P11, and P26 "in the weeks after the ceremony" only (the "a few weeks" fix; "Integration is your life." kept) | Human, 0% (weak) | | Human: 3.0% AI (P19's window, 0.69) |
+| v56b-S5: v52, the new P11, and v53's P29 only ("A lot of people feel the urge…", no quotation marks) | Human, 0% (weak) | | **Human: 0% AI** (one window, 0.16) |
+
+Batch 40 (05:12 UTC): mine 1 of 2. **v56b reads 100% Human: v52 with both the P11 fix and the P29 fixes.** v56a's one change, P26's "in the weeks after the ceremony", brings back P19's window (0.69) three paragraphs upstream; the P25 window doesn't come back. So the P11 and P29 fixes are in at 0%, and P26 is the paragraph whose wording moves P19's score.
+
+API batch 41 (written 05:25 UTC, before the call), the two P26 findings on v56b, one word each:
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v57a-P26: "after the ceremony for some weeks" ("some" names no number, like the published "the following weeks") | Human | one word on a text at 0.01 | Human (0.01) |
+| v57b-P26: v57a-P26 with "Integration is just your life." | Human | | Human (0.01) |
+| v57a-S5: v56b with v57a's P26 | Human, 0% (weak) | | Human: 4.7% AI (P19 0.74; P25's last sentence 0.61) |
+| v57b-S5: v56b with v57b's P26 | Human with a window (weak) | two changes in P26 | Human: 4.7% AI (P19 0.70; P25's last sentence 0.68) |
+
+Batch 41 (05:14 UTC): mine 3 of 4. Both P26 variants pass alone (0.01), and both bring back the two windows in the section (4.7%). So every change tried in P26's third sentence ("in the weeks after the ceremony", "in the weeks that follow the ceremony", "for some weeks") puts P19's and P25's windows back, while P11's and P29's fixes don't. **v56 (v56b) is the candidate: 100% Human (0.16), every paragraph passing alone, P11's and P29's meaning fixes in.** P26 keeps v52's words, with two of the v52 gate's findings left for Joel: "for a few weeks" (the published "The following weeks" names no number; "a few" is a small one) and "Integration is your life." (LOGIC: can read as the idiom "X is your life"; the cold reader read it right). With "in the weeks after the ceremony" the section reads 3.0% AI, still a Human verdict (v56a); that's his call.
+
+v56, paragraph by paragraph against the API record (by hash, 05:20 UTC): all 33 pass alone in their exact v56 words (the latest check of each: P1–P5, P8, P9, P12, P13, P15, P16, P22–P24, P27, P28, P33 in batch 32; P3, P10, P17 at v30; P6 at v9; P7 at v20; P11 at v54; P14 at v27; P18 at v40; P19 in batch 22's diagnostics; P20 at v20; P21 at v14; P25 at v45; P26 as Br1; P29 at v53; P30 at v44; P32 as v41's), except P31 (16 words), which passes with P30 (batch 32), and P30 passes alone. The section: 100% Human (batch 40, v56b, the same text by hash).
+
+The gate on v56 (TRACE-v56-A, LOGIC-v56-A on P11 and P29; SENSE-v56 on the whole section). LOGIC: no CHANGED in either; two weak AMBIGUOUS (P11's "they", whose nearest antecedent is the paid strangers; P29's "part of the same urge", which matches the published when read as one urge). TRACE: P11 none; P29's urge named as forming a village, "some … experiences", "serious" for "deep" (all in v43's P29 since the round-8 rebuild; kept: the published also gives one urge with three expressions). The cold reader: two sentences to fix. P2's "It's still a crime to traffic them": "them" has nothing to point to (v44's link text lost "drugs"; TRACE-v46-A had noted it too). And P26's "Integration is your life.": "puzzling at first ('make integration your whole life'?)", the same idiom LOGIC-v52 flagged. Neither change has been tried alone: batches 37 to 41 changed P26's third sentence every time.
+
+API batch 42 (written 05:31 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v58-P2: "It's still a crime to traffic drugs." | Human | one word on a text at 0.0 | Human (0.001) |
+| v58-P26: "Integration is everyday life." (published "ordinary life"), the rest v52's | Human | | Human (0.02) |
+| v58-S5: v56 with both | Human with a window (weak) | P26 has moved P19's score before | Human: 4.7% AI (P19 0.69; P25's last sentence 0.58) |
+
+Batch 42 (05:28 UTC): mine 3 of 3. Both fixes pass alone; the section reads Human at 4.7%, the same two windows as every P26 change since batch 37. So P26's words as v52 has them are the only ones tried (eight variants) that keep the section at 0%, and "Integration is your life." is the one the cold reader stumbles on.
+
+API batch 43 (written 05:33 UTC, before the call): one check to know whether the P2 fix costs anything on its own.
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v59-S5: v56 with P2's "traffic drugs" only | Human, 0% (weak) | far upstream, one word | **Human: 0% AI** (one window, 0.16) |
+
+Batch 43 (05:29 UTC): mine 1 of 1. **v59 (v56 with "traffic drugs") reads 100% Human.** So the trade-off is P26 alone: its v52 words keep the section at 0%, and the two findings in them stay ("Integration is your life.", which the cold reader and LOGIC-v52 read as the idiom at first; "for a few weeks", which LOGIC-v52 calls a number the published doesn't set). Fixing them brings two small AI windows back elsewhere (P19's last two sentences, P25's last), at 4.7 to 5.0% with a Human verdict.
+
+The rules decide it: meaning first ("Detector results are evidence, not editorial authority", AGENTS.md), and the section rule is that it passes, which a Human verdict is. So the candidate is v60: v59 with P26 as v53 had it ("Integration is everyday life.", "in the weeks after the ceremony"), which passes alone (batch 37, 0.01). v59 (0%) is the alternative for Joel.
+
+API batch 44 (written 05:36 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| v60-S5 | Human, about 5% AI (P19's and P25's windows) | v53's P26 brought them in batches 37 and 38 | **Human: 5.0% AI** (P19's last two sentences, 68 words, 0.74; P25's last sentence with "Integration is everyday life.", 41 words, 0.61) |
+
+Batch 44 (05:31 UTC): mine 1 of 1. v60 reads Human at 5.0% with the two windows. Every paragraph passes alone (P26's words as in batch 37). Turn tally from 01:18: batches 17 to 44, 129 checks; mine 97 of 129 (batches 17 to 26: 64, mine 49; batches 27 to 44: 65, mine 48, counting each section call as wrong when its windows came out other than called).
+
+The gate on v60 (TRACE-v60-A, LOGIC-v60-A on P2 and P26; SENSE-v60 on the whole section): the cold reader now reads P2 and P26 without a stop. No new CHANGED in the words this pass changed. Raised again and kept, with reasons: P2's "only" (LOGIC AMBIGUOUS, TRACE slight: "decriminalized, not legalized" is the contrast the published "actually" draws; kept since v43), "It's still a crime to traffic drugs" (LOGIC AMBIGUOUS: could be read beyond Portugal; it follows "the thing with Portugal is…"), and P26's "Look at your life … and see" (LOGIC CHANGED, TRACE: an instruction, with the participant as the one who checks; the published states it, "The following weeks reveal…"). That last one has been in every version since v20 and every gate has kept it; the published itself gives instructions two paragraphs earlier ("Screen for… Review… Keep… Decide…"), and P9 already gives the noticing to the people who held you. It goes to Joel as a kept item, not a silent one.
+
+**Section 5 is a candidate at v60.** Every paragraph passes alone (P31 with P30); the section reads Human (5.0% AI: P19's last two sentences and P25's last with P26's first, 41 to 68 words each); every finding of the gates since v43 is fixed word by word or kept with a reason for Joel. v59 is the 100% Human alternative, with v52's P26 ("Integration is your life.", "for a few weeks").

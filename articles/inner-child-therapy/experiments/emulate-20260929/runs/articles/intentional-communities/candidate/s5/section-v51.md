@@ -1,0 +1,75 @@
+# The Medicine Part, Without Pretending It Isn’t There
+
+Key here is that most of the writing on communities hasn't caught up with psychedelics. They've gone from taboo toward regulated use really fast ([licensed service centers for psilocybin started opening in Oregon](https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx) in 2023, Colorado set up a system for regulating natural medicines and began licensing in 2025, and New Mexico enacted a [Medical Psilocybin Act](https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegNo=219&LegType=B&year=25) in 2025), and Australia has allowed [authorized psychiatrists limited access](https://www.tga.gov.au/resources/explore-topic/mdma-and-psilocybine-hub) for a list of conditions since 2023, for both psilocybin and MDMA.
+
+That said, it's not a smooth ride or an inevitability. The US FDA issued a [Complete Response Letter](https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf) to the MDMA-assisted therapy application in 2024, where they did not approve it and requested more evidence. And the thing with Portugal is that many people will lazily say "they've legalized everything there" - but that's false, [they've only decriminalized possessing small quantities for personal use](https://www.euda.europa.eu/system/files/publications/642/PolicyProfile_Portugal_WEB_Final_289201.pdf). It's still a crime to traffic them.
+
+All of which means the legality of psychedelics varies by country and by state. It varies by substance, too. And it depends on a group’s religious status and on what exactly it does. So if psychedelic medicine is going to be part of a community at all, that community should definitely get actual local legal advice.
+
+Most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions.
+
+I'm talking about it here because not to talk about it would be to falsify my model. Many of the people who read this article are already familiar with my [writing about psychedelics](https://ibogaqueen.substack.com/s/psychedelics), including my [loveyhuasca/Haoma material](https://soma.u-dont-exist.com/). If this article is going to be honest, it has to talk about both the value and the risk.
+
+There’s a serious case against having medicine as part of a community. Physical and psychological negative effects of ayahuasca were common in the [Global Ayahuasca Survey](https://pubmed.ncbi.nlm.nih.gov/36962494/), although severe effects were far less common and context mattered. And these medicines can open things up faster than a person (or their group) can deal with.
+
+They also attract people who love revelations but hate doing the work afterwards. You can have 12 ceremonies and 6 origin stories and still not be able to apologise to your housemate. Any community based mainly on peak experiences will find out sooner or later that insight doesn't do the dishes or comfort a scared kid.
+
+In my experience there are real reasons to take psychedelics communally too - eg they can lower defensive barriers which otherwise dominate every serious conversation, and create strong bonds between members of the community who have been through the harder nights together. But there are also negatives that can come from taking a psychedelic - confusion, grandiosity, dependency, fouling up dynamics between members. Are you mature enough as a community to tell the good from the bad?
+
+## Community Is What Makes Psychedelics Pl/ork Best!
+
+Part of it is integration: an insight needs somewhere to land. What happens when you come back from an amazing experience which gave you insight and clarity about your life, into the same old environment where nobody knows what you’ve been through and you’re faced with the same old cues? It can be super helpful to have gone through the experience in a community, where the people who held you through it can also notice what happens to you over the following months.
+
+The deeper you go, the more alienated you can feel. After my original ayahuasca ego deaths at 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar. I couldn’t even find them at Buddhist monasteries despite all the preaching about enlightenment. That helped give me a God complex, a Savior complex, or both, which then attracted exactly the right people to show me my limits. 😂 In a community of people who’ve sat through the same nights, you aren’t the only one who’s been there, and someone can catch the God complex early.
+
+Do you trust the people you're relying on for support? Support from people you trust is different from paying people you don't know to look after you for a night, which is often the alternative. Sometimes they're great, but sometimes the person with the feather has only known you for 4 hours and already has a cosmology to explain everything you say.
+
+In a community, your sober sitter may be someone who's known you for years, and you feel the difference between being watched and being held. This is especially important when doing iboga or other long and medically risky experiences. For those you need to be properly screened beforehand and monitored continuously.
+
+Your peers can also reality check any downloads you may have had. Psychedelics can give you insight and they can give you convincing nonsense, all in the same bright shining light. A few friends who know your history may notice the difference between new understanding and… mom.
+
+One of the benefits of community is rhythm, and many traditional medicinal practices occur within ceremonies that have a communal schedule. The shared schedule of ceremonies, rather than each person doing ceremonies when they want, can serve to limit compulsive use and provide for integration time.
+
+There are the practical benefits: logistics are easier when it comes to things like having childcare arranged by the group that parents are comfortable leaving their kid(s) with, not needing to drive away from the ceremony, having someone bring water to someone or just sit quietly with them while they come back to normal consciousness, etc.
+
+And then there will be people to play with! Raves often let strangers fast-track intimacy (getting to a level of intimacy that usually comes after building trust), but imagine doing ecstatic music & dance in a community that already knows each other (and each other’s inconvenient habits). 💃🕺
+
+But I won’t idealize psychedelics. Some people and communities should avoid them. Where access is ahead of competence, people will become casualties of enthusiasm. Is your community humble enough to say no? To pause? Using the medicine takes that. It also takes humility to refer people out, and admit when an experience did harm.
+
+## My Ceremony Principles
+
+No special shamans here. Traditional lineages usually disagree with me on this, and many ayahuasca and Bwiti communities believe the medicine should stay under trained lineage authority. I respect what those traditions have preserved, and I've learned what to do, and what not to do, from watching them. I see a lot of people need sacred rituals, and the look and vibe to match, before they feel comfortable doing this kind of thing, even if I don't do them myself. I've also seen that the spirit realms are quite a mixed bag: you can have a shaman who heals people very well, and yet he also may take money to send evil spirits to kill someone. And people do very often decide they're ready to do ceremonies long before they're really trained and prepared. I'm sure I could still learn a lot from those traditions, and they could still learn a lot from me.
+
+My issue is with placing one charismatic person above everyone else’s direct experience. The facilitator on the retreat circuit may be wise. Or they may be someone who hasn’t been vetted by anybody, who isn’t accountable to anyone, who is a sexual predator, who is financially dependent on people coming back to them specifically, or who is simply wrong. And the more deeply someone is opening up, the more it costs not to know which one you’re getting.
+
+Even in a culture of peer medicine, there could still be an informal "shaman", someone everyone trusts and gradually stops questioning, even though nobody gave them the title. I don't know yet how to avoid this. Things that might help would be to have rotation of roles, and public accountability. Though neither of these seem like a complete solution.
+
+Still, I want people to learn to guide themselves and care for each other, within the limits of their competence. I’ve written more about [peer-held ceremonies](http://ceremonies.u-dont-exist.com/), and about [the best psychopath shaman I ever met](http://sidney.u-dont-exist.com/).
+
+This is not to say that peer led ceremonies are ever casual. In fact, since the authority is spread around, there needs to be more competence. Some things are a must: screening for contra-indications (both medical and psychiatric), reviewing medications and combinations, having the right kind of sober sitter present, and deciding before anybody takes anything what kind of situations would require professional help or emergency care.
+
+Also, I am especially cautious about medicines and protocols that I see as more destabilizing and/or presenting more of a medical burden. This includes some uses of [ketamine and MDMA](http://mdmaket.u-dont-exist.com/) and [bufo](http://bufo.u-dont-exist.com/). My reasons are given in those articles, respectively, since they need more space.
+
+Using medicine is secondary to all of the other pl/ork that comes first: reparenting, developing somatic capacity, and learning to do peer counseling. The medicine can deepen an existing practice, but it can't be a pharmacological short cut to what takes several months of honest relationship with other people.
+
+This pre-requisite also takes care of another issue in one shot: it weeds out the experience collectors. If someone is unwilling to put in 6 months learning to listen without fixing, it is unlikely they will come out of a ceremony more relationally mature, regardless of how mindblowing the geometric shapes they saw were.
+
+Then there's integration: your life. Ceremony opens something. Did anything change? Look at your life in the weeks after a ceremony. Look at your relationships. Look at how you’re acting. Look at how you’re sleeping. Look at how you’re making decisions. Look at how you’re handling frustration without defining it as a new “spiritual emergency.”
+
+All of the “supports” are important: preparation, nutrition, screening for drug interactions, being disciplined about the dose, and having a plan for dealing with emergencies. They matter more than ceremony aesthetics. My current safety material is at [Altered States Triage](https://badtrips.u-dont-exist.com/).
+
+Finally, there are the legal issues. These vary a lot, and they are not always well-defined. As a community, you need to write down what is and isn’t allowed, which activities are private (to the individual, to a group in the community, or to the community vs the outside), and what kinds of activities have been reviewed from a legal standpoint. “I don’t think anybody around here has ever heard of that” is information, but it’s not the same thing as a legal opinion.
+
+## After the Psychedelic Calling
+
+[image 9](https://substackcdn.com/image/fetch/$s_!5y74!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0844bbea-ba0a-4ff0-8b62-4e46426dae51_1672x941.png)
+
+It’s really common for people to feel the urge to form a village after going through some serious psychedelic and/or mystical experiences. Finding “their people” and helping others get to whatever just opened up is part of the same urge.
+
+I’ve felt that urge myself. The problem is that it can come with grandiosity, and I’ve felt that too. You come back believing love can heal anyone, and then you meet people who don’t want to change, people who sincerely want to change but keep choosing the opposite, and people in such a crisis that their need for help is more than your enthusiasm can hold.
+
+That call may be real, but forming a community based on omnipotence is a terrible idea.
+
+Communities that are formed during collective spiritual euphoria can recruit too fast and promise too much, and they can end up thinking through how much need they can absorb only once several people already depend on them. Read the sections on capacity and membership, later in this article: they’re partly there to protect the original generosity from that first rush.
+
+Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community can be a place for people to train up in the practices, and sometimes go off and start another experiment. In fact, if people are training there so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods.

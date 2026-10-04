@@ -93,7 +93,28 @@ PARTS = {1: {'A': ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8'],
          33: {'A': ['P26']},
          34: {'A': ['P26']},
          35: {'A': ['P26']},
-         37: {'A': ['P26']}}
+         37: {'A': ['P26']},
+         # v38: Joel's 01:18 answer in P18, P33's tail cut
+         38: {'A': ['P18', 'P33']},
+         39: {'A': ['P18']},
+         # v42: the section pass, Emulate round 8 over the last AI window (P22 to P33)
+         42: {'A': ['P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P28'], 'B': ['P29', 'P30', 'P31', 'P32', 'P33']},
+         # v43: every AI window rebuilt from Emulate round 8, and the v42 traces' findings
+         43: {'A': ['P1', 'P2', 'P4', 'P7', 'P8', 'P9'], 'B': ['P11', 'P12', 'P13', 'P15', 'P16'], 'C': ['P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P28'], 'D': ['P29', 'P30', 'P31', 'P32', 'P33']},
+         # v46: everything changed since the v43 gate (v44's gate fixes, v45's and v46's window fixes; P11 is v43's again)
+         46: {'A': ['P1', 'P2', 'P4', 'P7', 'P8', 'P9'], 'B': ['P12', 'P13', 'P15', 'P16', 'P25', 'P26'], 'C': ['P30', 'P32', 'P33']},
+         # v47: the v46 gate's three word fixes (P4 "still", P12 "especially important", P13 "may notice")
+         47: {'A': ['P4', 'P12', 'P13']},
+         # v49: the v47 gate's fixes (P4 "not public", "possible trouble"; P12's last sentence; P11's "Support from people you trust")
+         49: {'A': ['P4', 'P11', 'P12']},
+         # v51: the v49 gate's fixes (P11 "very" out, "people you don't know", "which is often the alternative"; P29 "for them" out)
+         51: {'A': ['P11', 'P29']},
+         # v52: v51's P11 and P29 (not gated yet), and the three paragraphs that read AI alone at v51 (P7 v20's, P26 Emulate round 10 B, P32 v41's)
+         52: {'A': ['P7', 'P11', 'P26', 'P29', 'P32']},
+         # v56: the v52 gate's fixes that keep the section at 0% (P11 "paid support, which is often paying people you don't know…"; P29 "A lot of people", no quotation marks)
+         56: {'A': ['P11', 'P29']},
+         # v60: the v56 cold read's two (P2 "traffic drugs"; P26 "Integration is everyday life.", with "in the weeks after the ceremony")
+         60: {'A': ['P2', 'P26']}}
 parts = {h: [k for k in ks if k in changed] for h, ks in PARTS.get(n, {}).items()}
 if n == 1:
     assert sorted(sum(parts.values(), [])) == sorted(changed), (changed, parts)
