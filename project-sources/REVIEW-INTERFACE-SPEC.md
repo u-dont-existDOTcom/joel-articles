@@ -11,7 +11,7 @@ The working implementation is `interactive_review.py` plus `review_interface_tem
 - One semantic block per cell: one heading, paragraph, list item, blockquote, caption, embed, or native control.
 - Section labels remain visible only while at least one row in that section is visible.
 - Support changed-only filtering and text search.
-- For large articles, generate a changed-passages-only row set with `--changed-passages-only` after full semantic alignment. Preserve exact source/revised file hashes and baseline type; row scope is separate metadata. Do not remove interface functions to reduce load.
+- For large articles, prefer `--contextual-changes` when Joel needs to understand where each edit sits. After full semantic alignment, show each changed row plus one unchanged semantic block immediately before and after, the nearest section heading, and an explicit placement label (`Inserted here`, `Replaces this passage`, or `Removed here`). Context rows are visually muted and read-only; comments, decisions, reasoning, and sliders belong only to actual changed rows. Use `--changed-passages-only` only when isolated changed fragments are specifically wanted. Preserve exact source/revised file hashes and baseline type; row scope is separate metadata. Do not remove interface functions to reduce load.
 - Preserve ordinary reading typography in full-article views: paragraph boundaries must remain visually obvious, line height must be comfortable on mobile, and comparison UI must not collapse source paragraphs into dense prose blocks.
 
 ## Audience contract
@@ -157,13 +157,14 @@ Static HTML records settings only. A future app may regenerate wording, but rege
 
 ## Review baselines and full-draft mode
 
-A substantial rewrite generates:
+A substantial rewrite can generate:
 
 1. original source vs current revision;
 2. previous delivered revision vs corrected revision when a repair occurred;
-3. a one-column full-draft commentable interface for the complete current article.
+3. a contextual-changes review that keeps each change inside its section with one unchanged block before and after plus an explicit insertion/replacement/removal marker;
+4. a one-column full-draft commentable interface for the complete current article.
 
-In full-draft mode, every semantic block has comments, decisions, reasoning, and sliders. A comment on a heading may address its entire section; a highlighted phrase creates an exact selected-text note. The changed-only control is hidden because there is no comparison baseline.
+In contextual-changes mode, unchanged neighbors exist only to establish location and meaning; they are not review targets and do not get comment or decision controls. In full-draft mode, every semantic block has comments, decisions, reasoning, and sliders. A comment on a heading may address its entire section; a highlighted phrase creates an exact selected-text note. The changed-only control is hidden because there is no comparison baseline.
 
 ## Export
 
