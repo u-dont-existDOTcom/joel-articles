@@ -27,6 +27,9 @@ The commands:
                                             source, and the article unless the target has "article_upto"
   reviewer.py human-test OUTDIR          the human-prose test (needs local/human_items.json)
   reviewer.py score KEYS.json ANSWERS.txt [ANSWERS.txt ...]
+  reviewer.py march DRAFT OUT               the marching-order check (march.txt): a reader labels each
+                                            sentence a step or a break; give it to a "sonnet" subagent
+  reviewer.py march-score DRAFT LABELS      reads that reader's answer and flags a paragraph with no break
 
 TARGET is a JSON file with "before", "after" and "brief". Each article keeps its own targets
 (Inner Child: articles/inner-child-therapy/tools/targets/).
@@ -442,6 +445,51 @@ def build_grounding(draft, target, blind=False, push=None):
     return g
 
 
+def march_paragraphs(t):
+    """The draft's paragraphs that have sentences (headings and quotes-only lines are skipped)."""
+    out = []
+    for p in [p for p in re.split(r'\n\s*\n', t) if p.strip()]:
+        p = re.sub(r'\s+', ' ', p.strip())
+        if p.startswith('#') or (len(p.split()) <= 12 and not p.endswith(('.', '?', '!', '"', '”'))):
+            continue
+        out.append(split_sentences(p))
+    return out
+
+
+def build_march(draft):
+    """The marching-order check (E131; Joel, 2026-10-03: "the marching order of code instructions
+    translated to english"). A reader labels each sentence a step or a break. Tested blind on 100
+    calibration paragraphs (tools/humanization/calibration/MARCH-READER-TEST-20261003.json): two readers
+    agreed on 92% of the sentences, and a paragraph with no break failed Pangram 23 times out of 30,
+    against 27 out of 70 with a break."""
+    ps = march_paragraphs(draft)
+    body = '\n\n'.join('T%d: ' % (i + 1) + ' '.join('[%d] %s' % (j + 1, s) for j, s in enumerate(ss))
+                       for i, ss in enumerate(ps))
+    return read('march.txt').replace('{n}', str(len(ps))).replace('{paragraphs}', body)
+
+
+def march_score(draft, labels):
+    ps = march_paragraphs(draft)
+    got = dict(re.findall(r'^\s*T(\d+):\s*([SB ]+)\s*$', labels, re.M))
+    worst = 0
+    for i, ss in enumerate(ps):
+        seq = got.get(str(i + 1), '').split()
+        start = ' '.join(ss[0].split()[:8])
+        if len(seq) != len(ss):
+            print('T%d (%s…): the reader gave %d labels for %d sentences; ask again' % (i + 1, start, len(seq), len(ss)))
+            worst = max(worst, 2)
+            continue
+        breaks = [j + 1 for j, x in enumerate(seq) if x == 'B']
+        if not breaks:
+            print('T%d (%s…): MARCH, %d steps and no break. In the 2026-10-03 test, 23 of 30 paragraphs like this failed '
+                  'Pangram. Break it where a person would react, pause, allow something, or wonder what it feels like '
+                  '(E131), rather than rewording the steps.' % (i + 1, start, len(ss)))
+            worst = max(worst, 1)
+        else:
+            print('T%d (%s…): breaks at %s (%s)' % (i + 1, start, ', '.join(map(str, breaks)), ' '.join(seq)))
+    return worst
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     files = argparse.ArgumentParser(add_help=False)  # the same two flags, accepted after the command too
@@ -462,6 +510,8 @@ def main():
     s.add_argument('--push', choices=sorted(PUSH), help="how hard to push on the reader's open questions (default: the target's 'push', else default)")
     s = cmd('human-test'); s.add_argument('outdir')
     s = cmd('score'); s.add_argument('key'); s.add_argument('answers', nargs='+')
+    s = cmd('march'); s.add_argument('draft'); s.add_argument('out')
+    s = cmd('march-score'); s.add_argument('draft'); s.add_argument('labels')
     a = ap.parse_args()
     PATHS['article'], PATHS['source'] = a.article, a.source
     rd = lambda f: pathlib.Path(f).read_text(encoding='utf-8').strip()
@@ -485,6 +535,10 @@ def main():
         build_human_test(a.outdir)
     elif a.cmd == 'score':
         score(a.key, a.answers)
+    elif a.cmd == 'march':
+        write(a.out, build_march(rd(a.draft)))
+    elif a.cmd == 'march-score':
+        sys.exit(march_score(rd(a.draft), rd(a.labels)))
 
 
 if __name__ == '__main__':
