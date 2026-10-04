@@ -546,9 +546,15 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-04 (turn 29) | The h1 with that fix and the first P3 | Human, low-medium (my call) | 100% Human (1,981) (API, version 4.0, task 00ce8842), high | hit |
 | 2026-10-04 (turn 29) | Start With Whatever Showed Up with that fix and the second P3 | AI, a mix, low (my call) | Mostly Human, 4% AI (1,413) (API, version 4.0, task 77131f4d): AI high at P3 (64 words) | hit |
 | 2026-10-04 (turn 29) | The h1 with that fix and the second P3 | AI, a mix, low (my call) | Mostly Human, 3% AI (1,986) (API, version 4.0, task cbfe114e): AI high at P3 (64 words) | hit |
-| 2026-10-04 (turn 29) | P3 with the closing line as a reaction in the middle ("That way the method can never be wrong.") and ending on the plain fact; alone | Human, low (my call: the first P3 passed alone and failed in context, the moved one the other way round; this sits between) | (pending) | |
-| 2026-10-04 (turn 29) | The first P3 with a new last line ("And you'd never find out what actually helps."); alone | Human, low (my call: it keeps the first P3, which passed alone, and changes only the line the context flagged) | (pending) | |
-| 2026-10-04 (turn 29) | Start With Whatever Showed Up with the "See? I knew it" fix and P3 with the reaction in the middle | Human, low-medium (my call) | (pending) | |
-| 2026-10-04 (turn 29) | The h1 with the same | Human, low-medium (my call) | (pending) | |
-| 2026-10-04 (turn 29) | Start With Whatever Showed Up with the fix and P3 with the new last line | Human, low (my call) | (pending) | |
-| 2026-10-04 (turn 29) | The h1 with the same | Human, low (my call) | (pending) | |
+| 2026-10-04 (turn 29) | P3 with the closing line as a reaction in the middle ("That way the method can never be wrong.") and ending on the plain fact; alone | Human, low (my call: the first P3 passed alone and failed in context, the moved one the other way round; this sits between) | AI Generated, 100% AI (55) (API, version 4.0, task 49591d75), high | miss |
+| 2026-10-04 (turn 29) | The first P3 with a new last line ("And you'd never find out what actually helps."); alone | Human, low (my call: it keeps the first P3, which passed alone, and changes only the line the context flagged) | 100% Human (55) (API, version 4.0, task 01437acd), high | hit |
+| 2026-10-04 (turn 29) | Start With Whatever Showed Up with the "See? I knew it" fix and P3 with the reaction in the middle | Human, low-medium (my call) | Mostly Human, 4% AI (1,408) (API, version 4.0, task 7b2cab1b): AI high at P3 (58 words) | miss |
+| 2026-10-04 (turn 29) | The h1 with the same | Human, low-medium (my call) | Mostly Human, 3% AI (1,981) (API, version 4.0, task a5f60b4f): AI high at P3 (58 words) | miss |
+| 2026-10-04 (turn 29) | Start With Whatever Showed Up with the fix and P3 with the new last line | Human, low (my call) | 100% Human (1,408) (API, version 4.0, task 0e4759ed), high | hit |
+| 2026-10-04 (turn 29) | The h1 with the same | Human, low (my call) | Mostly Human, 3% AI (1,981) (API, version 4.0, task 58ad45be): AI medium at P3 (59 words) | miss |
+| 2026-10-04 (turn 29) | P3 with the new last line (Human alone and in the h2, AI medium in the h1) and its opener as "Then there's explaining away every miss."; alone | Human, low-medium (my call) | (pending) | |
+| 2026-10-04 (turn 29) | The h1 with the "See? I knew it" fix and that P3 | Human, low (my call: the window was medium, on the h1's last paragraph) | (pending) | |
+| 2026-10-04 (turn 29) | P3 with the new last line (Human alone and in the h2, AI medium in the h1) and its opener as "I'd watch out for explaining away every miss."; alone | Human, low-medium (my call) | (pending) | |
+| 2026-10-04 (turn 29) | The h1 with the "See? I knew it" fix and that P3 | Human, low (my call: the window was medium, on the h1's last paragraph) | (pending) | |
+| 2026-10-04 (turn 29) | P3 with the new last line (Human alone and in the h2, AI medium in the h1) and an aside after the candle ("(Candles are nice, though.)"); alone | Human, low-medium (my call) | (pending) | |
+| 2026-10-04 (turn 29) | The h1 with the "See? I knew it" fix and that P3 | Human, low (my call: the window was medium, on the h1's last paragraph) | (pending) | |
