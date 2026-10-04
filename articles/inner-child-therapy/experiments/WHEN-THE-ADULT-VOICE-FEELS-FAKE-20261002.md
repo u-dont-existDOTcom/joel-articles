@@ -211,3 +211,17 @@ Joel, 21:18 UTC: "yeah i'm not saying my version of it has no AI tells, but the 
 
 ### Next
 The guide's A Bottom-Up Sequence: fewer, denser paragraphs, the way Two Common Protective Patterns went, and a line or story of Joel's in the run if he has one (E129). Then When to Change the Strategy.
+
+## Turn 26 (2026-10-04, from 01:03 UTC): Joel's P2 for the sequence, and three rounds on the rest
+
+Joel, 01:03 UTC: "your heading is fine." "one small step has been talked about a lot in this guide. i'm not sure people would be confused by that at this point" "if nobody safe comes to mind, go back to the first para in Borrow one function at a time, right?" "when you can't get something to human iw ant you to explain the AI tells that your reviewers found. if they found them, then why couldn't you fix them? are you seeing the march there? let me fix p2 and then you see if you can fix the rest or else explain exactly what you don't understand about fixing." [his four versions of P2] "so maybe we need to brainstorm how to approach it smarter so you understand what you're doing and don't think of it as just 2 random guesses ?" And on shortening the guide. No "continue", so no merge.
+
+- The heading "Hear the Protective Part First" stands (OWNER-EDITS bus-heading, pending until the h3 goes in). Both parked questions are answered.
+- His P2 is the sequence's P2 (OWNER-EDITS bus-p2-joel, pending): four changes, each where the AI part began, each moving it later (the catalogue has all four). 100% Human, medium on his check, not run again.
+- E134 is what the reviews had found in P2 to P5 and why I didn't act on it.
+- P3 to P5, three rounds through the API, each change at the start of the AI part (the whole paragraph, every time): round 1 one sentence each (an aside about the near-identical names, a line to say, a goofy simile); round 2 the second sentence too; round 3 the opening steps replaced with content of my own (a roommate who wins you over with the rent showing up, a line to say that carries the guide's condition, talk about the critic from P4), and P5 with its two maxims cut. Ten checks, every one a single window, 100% AI, high (2d3baf91, df20314a, 214de94a, f0626373, a504b410, 713cf90f, 5d85e7fe, 3b217829, 0dd57e2c, 8b3fbb8d). Nothing moved.
+- What I don't understand yet. His first change split P2 into Human then AI; nothing I changed split any of mine. His P2 already opened on two sentences that react, so one more gave it a human opening; mine open on steps, and Pangram's windows look like about 40 words. His replacements are things only he'd say, spread through the paragraph; mine were devices that still explain a rule (an analogy, a deal, a simile). And P4 is a decision procedure (if it says no, stop; if it lets you, follow what changes), which every round kept.
+- Where the guide could be shorter here: P3's acts repeat Not Every Hero Wears A Cape ("Keep one small promise", saying no), and P4's small step and "if it says no" repeat Start With Whatever Showed Up. P1, his P2 and one paragraph for what's new would be about 300 words against the guide's 338. Waiting on his OK.
+
+### Next
+His answers on the above; then the sequence's rest, merged or fixed the way he fixed P2. Then When to Change the Strategy.

@@ -1063,6 +1063,28 @@
     "Two kinds of reaction really are trying to protect you, more often than not. The first one is on duty all the time, and it can sound like a skeptic: \"You're just making this up.\" It may have spent years keeping you from being humiliated again, or left again. That's a long time to stay on guard. It might be tired by now, but it's experienced and good at what it does. It has probably watched you get excited about other healing things, then drop them.",
     "The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (you might start yawning, even though you slept well). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. Both kinds started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. Treating either one like an enemy, or like proof that something's wrong with you, usually gives it one more reason to stay in charge. I wonder what it would do if it didn't have to."
    ]
+  },
+  {
+   "id": "bus-p2-joel",
+   "status": "pending",
+   "what": "The guide's A Bottom-Up Sequence (heading \"Hear the Protective Part First\") has Joel's P2, word for word: his four-step fix of writer a's P2.",
+   "joel": "2026-10-04 01:03 UTC: \"let me fix p2 and then you see if you can fix the rest\"; \"now this one is 100% human, med conf\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer."
+   ],
+   "waits_for": "the rest of the h3 (P3 to P5) passing alone and in the h1"
+  },
+  {
+   "id": "bus-heading",
+   "status": "pending",
+   "what": "The guide's A Bottom-Up Sequence goes in under the heading \"Hear the Protective Part First\".",
+   "joel": "2026-10-04 01:03 UTC: \"your heading is fine.\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "### Hear the Protective Part First"
+   ],
+   "waits_for": "the h3 going in"
   }
  ]
 }

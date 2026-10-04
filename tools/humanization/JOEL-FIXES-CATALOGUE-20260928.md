@@ -385,3 +385,15 @@ What his fixes teach:
 - **What breaks the march in his P4 and P5.** "On reading P4, there is a break from the marching though, \"or however you'd actually say that\" sentence is a break. And actually the rest of it is not really instruction manual style. \"Wait and listen. If nothing comes, that's fine for now...\" is a break from the instructions, and then it comes back to instructions after that, so it's really not one long instruction text." "P5 has more reflection than general AI prose. It's stopping again with considering what something might feel like, and then stopping the instructions at \"just listen.\" and then restarting right after that." (E133)
 - "maybe these are not quite reasons to disregard the marching order check and rather ways to optimize it (altho we should be sure this pattern actually holds for optimizing it, so let's look at other examples)": tested blind on 100 paragraphs, and it holds (MARCH-READER-TEST-20261003.json, v2).
 - "continue".
+
+## Joel's fix, 2026-10-04 01:03 UTC (the sequence's P2, in four steps)
+
+- "when you can't get something to human iw ant you to explain the AI tells that your reviewers found. if they found them, then why couldn't you fix them? are you seeing the march there?" (E134)
+- **Step 1, the third sentence.** "Let it say the whole thing, and tell it you heard it before you answer." became "\"Tell me what you remember, I'm listening.\" works well here." (and "Maybe you have fooled yourself" became "Maybe you've fooled yourself"): "that made the first part human, then the rest after was ai".
+- **Step 2, the next sentence.** "As the Nurturer, you're there to take in what that part has been carrying, so if you catch yourself arguing back, you can let that go." became "It puts you into the role of the Nurturer, which alleviates the instinct to argue back.": "that became human, but the rest still ai".
+- **Step 3.** "Peek-a-boo!" after "Usually your little one only comes forward after that part feels heard.": "which did the same thing, then everything after that was ai".
+- **Step 4, the last sentence.** "It can look convincing, too, with the right words and maybe even tears, while nothing underneath feels any safer." became "Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer.": "100% human, med conf".
+- "so this one was a stubborn little paragraph, because it really did have a lot of AI shape ... i can see why you might have given up after a few tries. so maybe we need to brainstorm how to approach it smarter so you understand what you're doing and don't think of it as just 2 random guesses ?"
+- "your heading is fine." On the parked questions: "one small step has been talked about a lot in this guide"; "if nobody safe comes to mind, go back to the first para in Borrow one function at a time, right?"
+- On length: "it's quite possible this guide could be shortened, if you see repetitive stuff that could be cut or merged lmk because AI stuff tends to be more verbose, but i am trying to get it to explain the innersignal therapy map basically."
+- No "continue".
