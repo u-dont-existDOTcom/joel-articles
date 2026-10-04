@@ -275,3 +275,19 @@ Joel, 03:58 UTC: "yeah that reads much more natural now and more inside the thou
 
 ### Next
 When to Change the Strategy: P1 (medium AI after six versions; the next try is to open it on the reader's question the way P2 opens) and P2's two flags, fixed in a way that keeps it loose. Then When the Urge to Escape Arrives. Joel's map-update material whenever it comes.
+
+## Turn 29 (2026-10-04, from 05:48 UTC): When to Change the Strategy in
+
+Joel, 05:48 UTC: "i am confused. why did you stop there. you want me to help or what?"; 05:50: "no worries on pangram checks i have a ton of them this month because i'm working on a bunch of articles". No "continue", so no merge. Why I'd stopped, and the lesson: E136.
+
+- **In:** When to Change the Strategy, three paragraphs, after Hear the Protective Part First. Each alone 100% Human, high (P1 63011f8a, P2 44151d59, P3 b4849053). Start With Whatever Showed Up with its three h3s 100% Human, high (beb26bdf); the h1 100% Human, high (613fad79). OWNER-EDITS wcs-h3.
+- **Also changed:** Two Common Protective Patterns P2's fifth sentence, the h1's other AI window (3% medium on turn 28, then high once the new h3 went in): "it'll probably just think "See? I knew it," and stay in charge." Alone 100% Human, high (a46a32ac); its cold read and grounding passed the change (the grounding flagged the paragraph's old yawning example, parked). OWNER-EDITS tp-p2-see-i-knew-it; two-protective-patterns-h3 updated.
+- **How it went (59 checks, 37 predictions right):**
+  - P1 passed once it opened on the reader's question and my answer ("Weeks in and nothing much is changing? I'd want to quit too…"), both ways I tried (34cd3397, ffc42913). P2 passed with the two turn-28 flags fixed loosely, "And if you keep doing it right and what was supposed to happen still doesn't…" and "Something with clearly better research behind it" (3fb26f33); the reordered way passed too (6c0ac171).
+  - Together the three were 52% AI as an h3 (6fa6190b) and 5% AI in the h2 and h1: the windows sat at the end, on P3. P3 with its closing line moved into its opening passed in context and failed alone (5f89c909, 1d351129, 00ce8842); a new last line, "And you'd never find out what actually helps.", passed alone and in the h2 but was medium AI in the h1 (01437acd, 0e4759ed, 58ad45be). Three one-change fixes on top of that each passed alone and in the h1 (1bcd686c, 4ab4c422, 458d438d and bd687623, e2c711e4, 21cae6fa); the one kept is the candle aside, "(Candles are nice, though.)".
+  - The cold read's three pronoun flags (P1's "if it wasn't", P2's "that no… sudden or not", P3's run of "it"s) were fixed; everything passed alone and in the h1, and the h2 had one AI sentence left, P2's not-wanting line (5058f6fc). Its rewrite with the "nope" passed alone, in the h2 and in the h1 (e6879aeb, 4a37ee19, 8cb86cbf); the one in the part's own voice ("I can't do this again") didn't (f3728f17).
+  - The grounding's last MUST: "I'd be suspicious of anyone who gives you a number" also reads as a helper's estimate or review date. "Tells you how many tries it should take" and "any magic number" each put AI windows back (b28c2d1b, 9b543a6d); the one word "promises" passed alone, in the h2 and in the h1 (44151d59, beb26bdf, 613fad79). That last fix wasn't sent through another grounding round.
+- **What I learned:** in context, Pangram's windows moved with almost every change, and the last paragraph of the h1 drew them most (four of the five rounds). A version can pass alone and fail in context, or the other way round, so every fix got checked alone, in the h2 and in the h1 together. Reviewer fixes kept flipping passes; the ones that held were the smallest (one word, or three words cut).
+
+### Next
+When the Urge to Escape Arrives. Joel's map-update material whenever it comes.

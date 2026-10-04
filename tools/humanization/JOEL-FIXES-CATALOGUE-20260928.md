@@ -411,3 +411,9 @@ What his fixes teach:
 - "that's cool you're learning by yourself."
 - "i liked the proposal at the end yeah": the cold read's clarity fix of P4's third sentence, which had passed alone but put a 7% AI window into the h1. It went in less its "to see" (the h3 100% Human; the h1 3% AI, a window in Two Common Protective Patterns P2).
 - "continue".
+
+## Joel's notes, 2026-10-04 05:48 and 05:50 UTC (stopping)
+
+- "i am confused. why did you stop there. you want me to help or what?" (E136)
+- "no worries on pangram checks i have a ton of them this month because i'm working on a bunch of articles"
+- No "continue".

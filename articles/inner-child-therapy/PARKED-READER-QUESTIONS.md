@@ -6,6 +6,11 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-04 · When to Change the Strategy, P2 · What if I've been aiming at the wrong thing altogether? (The guide's "the target turns out to be wrong", dropped.) · COULD (parked)
+- 2026-10-04 · When to Change the Strategy, P2 · What counts as "clearly better research", and how would I check? · COULD (parked)
+- 2026-10-04 · When to Change the Strategy, P2 · How do I tell something that shifts in a day from something that takes guitar-length practice? · COULD (parked)
+- 2026-10-04 · Two Common Protective Patterns, P2 · The grounding (turn 29) calls the yawning example the weakest kind: it costs nothing and can be the body settling, while the pulls the paragraph is about are costly (reaching for something to eat, drink or smoke). The example is from turn 25 and passed then; changing it would need its paragraph, h2 and h1 checked again. · CATEGORY flag (parked for Joel)
+
 - 2026-10-04 · Hear the Protective Part First, P4 · Do I need to know how old I was, or remember what happened, to work with this feeling? (The guide's "You don't need an age, a recovered memory, or a complete cast of parts", cut for length; a clause.) · COULD (parked)
 - 2026-10-04 · Hear the Protective Part First, P4 · What if the change shows up in my little one instead, a vague hurt turning into a clear need? (The guide's second example, cut; the article already says to listen to grief or anger.) · COULD (parked)
 - 2026-10-04 · Hear the Protective Part First, P4 · After I answer that part, do I go back to the step toward my little one? · COULD (parked)

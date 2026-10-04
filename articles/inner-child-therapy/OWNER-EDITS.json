@@ -1061,7 +1061,7 @@
    "must_contain_exact": [
     "### Two Common Protective Patterns",
     "Two kinds of reaction really are trying to protect you, more often than not. The first one is on duty all the time, and it can sound like a skeptic: \"You're just making this up.\" It may have spent years keeping you from being humiliated again, or left again. That's a long time to stay on guard. It might be tired by now, but it's experienced and good at what it does. It has probably watched you get excited about other healing things, then drop them.",
-    "The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (you might start yawning, even though you slept well). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. Both kinds started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. Treating either one like an enemy, or like proof that something's wrong with you, usually gives it one more reason to stay in charge. I wonder what it would do if it didn't have to."
+    "The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (you might start yawning, even though you slept well). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. Both kinds started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge. I wonder what it would do if it didn't have to."
    ]
   },
   {
@@ -1128,6 +1128,39 @@
    ],
    "must_not_contain": [
     "and I think that's what it wants to see anyway, whether there's a grown-up here now who could stop if things got to be too much."
+   ]
+  },
+  {
+   "id": "tp-p2-see-i-knew-it",
+   "status": "claim",
+   "what": "Claim check: Two Common Protective Patterns P2's fifth sentence voices the part's own thought (turn 29), where it said the treatment \"usually gives it one more reason to stay in charge\".",
+   "joel": "2026-10-04 05:48 UTC: \"why did you stop there\"; 05:50 UTC: \"no worries on pangram checks\" (the h1's last AI window, fixed here)",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge."
+   ],
+   "must_not_contain": [
+    "usually gives it one more reason to stay in charge"
+   ]
+  },
+  {
+   "id": "wcs-h3",
+   "status": "claim",
+   "what": "Claim check: the guide's h3 When to Change the Strategy is installed after Hear the Protective Part First, in three paragraphs: P1 the two temptations and the checks (did you practice, was the loving grown-up there, borrow it first); P2 how many tries and the reasons to change course, with a protective part's \"nope\" heard out first; P3 the trap of explaining away every miss.",
+   "joel": "2026-10-04 03:58 UTC: \"continue\"; 05:48 UTC: \"why did you stop there\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "### When to Change the Strategy",
+    "Weeks in and nothing much is changing? I'd want to quit too, or else keep doing the exact same thing forever so I never had to find out. Sometimes those weeks were mostly reading about it and getting ready to, which can feel a lot like doing it (this article included). And if it was comforting your little one, was the loving grown-up really there? Your little one would notice, the way you notice a hug from someone who's checking their phone. I'd borrow that grown-up first. Then try again, and see if your little one can tell the difference.",
+    "How many tries is enough? I really don't know, and I'd be suspicious of anyone who promises you a number, including you, since some things shift in a day and some take about as long as learning guitar. If it's making things worse, or you just can't do it right now, I'd change course sooner. Not wanting to do it anymore can be a reason too, but if that \"nope\" sounds like a part of you that's trying to protect you, I'd hear it out first. And if you keep doing it right and what was supposed to happen still doesn't, I think you've learned something real about it. Something with clearly better research behind it is worth switching for too.",
+    "The trap I'd watch for is explaining away every miss. It didn't work, so you must have done it wrong, so maybe you needed the right candle first. (Candles are nice, though.) Next time it's a different reason, and none of them were things you actually noticed at the time. And you'd never find out what actually helps."
+   ],
+   "order": [
+    "Hear the Protective Part First",
+    "When to Change the Strategy",
+    "Weeks in and nothing much is changing?",
+    "How many tries is enough?",
+    "The trap I'd watch for"
    ]
   }
  ]

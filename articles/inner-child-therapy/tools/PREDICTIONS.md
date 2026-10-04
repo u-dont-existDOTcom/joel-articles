@@ -583,9 +583,9 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-04 (turn 29) | P2 with the guide's own phrase instead: "I'd be suspicious of any magic number, even one you came up with yourself"; alone | Human, low-medium (my call) | AI Detected, 68% AI (123) (API, version 4.0, task 26d151be): Human (the question and answer, 42 words), AI high from "If it's making things worse" (90) | miss |
 | 2026-10-04 (turn 29) | Start With Whatever Showed Up with that P2 | Human, low (my call) | Mostly Human, 8% AI (1,409) (API, version 4.0, task 9b543a6d): AI high from "If it's making things worse" (120) | miss |
 | 2026-10-04 (turn 29) | The h1 with the same | Human, low (my call) | Mostly Human, 7% AI (1,982) (API, version 4.0, task e400640d): AI medium from "I really don't know" (157) | miss |
-| 2026-10-04 (turn 29) | P2 with one word for the grounding's MUST ("anyone who promises you a number, including you": a promise is the magic number, a helper's estimate or review date isn't); alone | Human, medium (my call: one word; the last two fixes changed more) | (pending) | |
-| 2026-10-04 (turn 29) | Start With Whatever Showed Up with that P2 | Human, low-medium (my call) | (pending) | |
-| 2026-10-04 (turn 29) | The h1 with the same | Human, low-medium (my call) | (pending) | |
-| 2026-10-04 (turn 29) | P2 with "anyone who swears by a number, including you" instead; alone | Human, medium (my call) | (pending) | |
-| 2026-10-04 (turn 29) | Start With Whatever Showed Up with that P2 | Human, low-medium (my call) | (pending) | |
-| 2026-10-04 (turn 29) | The h1 with the same | Human, low-medium (my call) | (pending) | |
+| 2026-10-04 (turn 29) | P2 with one word for the grounding's MUST ("anyone who promises you a number, including you": a promise is the magic number, a helper's estimate or review date isn't); alone | Human, medium (my call: one word; the last two fixes changed more) | 100% Human (121) (API, version 4.0, task 44151d59), high | hit |
+| 2026-10-04 (turn 29) | Start With Whatever Showed Up with that P2 | Human, low-medium (my call) | 100% Human (1,407) (API, version 4.0, task beb26bdf), high | hit |
+| 2026-10-04 (turn 29) | The h1 with the same | Human, low-medium (my call) | 100% Human (1,980) (API, version 4.0, task 613fad79), high | hit |
+| 2026-10-04 (turn 29) | P2 with "anyone who swears by a number, including you" instead; alone | Human, medium (my call) | AI Generated, 100% AI (121) (API, version 4.0, task 299c5c73), high | miss |
+| 2026-10-04 (turn 29) | Start With Whatever Showed Up with that P2 | Human, low-medium (my call) | Mostly Human, 5% AI (1,407) (API, version 4.0, task c6fd2744): AI high from "Not wanting to do it anymore" (81 words) | miss |
+| 2026-10-04 (turn 29) | The h1 with the same | Human, low-medium (my call) | 100% Human (1,980) (API, version 4.0, task f64686f5), high | hit |
