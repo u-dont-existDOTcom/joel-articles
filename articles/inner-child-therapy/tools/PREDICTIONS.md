@@ -626,13 +626,19 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | The h1 (When the Adult Voice Feels Fake) with the same | Human, low (my call) | Mostly Human, 3% AI (2,283) (API, version 4.0, task d0ce5985): AI medium on P4's "If it's making things worse…" and the "nope" sentence (54 words), AI medium on P5's "So whatever you did…" (37) | miss |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y4 instead | Human, low (my call) | Mostly Human, 4% AI (1,706) (API, version 4.0, task dbb5526a): the same two windows | miss |
 | 2026-10-06 (turn 30) | The h1 with y4 | Human, low (my call) | Mostly Human, 3% AI (2,279) (API, version 4.0, task bbd8d0f5): the same two windows as with y4b | miss |
-| 2026-10-06 (turn 30) | Two Common Protective Patterns P2 y9: y4b with "and for a long time maybe there wasn't" after "what's coming up" (the TCP grounding's GREAT: the belief is old evidence), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The same, y10: the yawn back in the first sentence's parentheses ("even a yawn can come with an "I'm so done with this" feeling"), "That yawn might actually be the opposite, though." after "I'd want out too.", alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P4 v2: "stop or" out again ("I'd change course sooner"), "is a reason too" kept, alone | Human, medium (my call: turn 29's sentence) | (pending) | |
-| 2026-10-06 (turn 30) | P5 m1: the window's sentence split ("…five percent of it out here. Maybe that's texting a friend…"), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c1 (y9, P4 v2, P5 m1) | Human, low-medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1, set c1 | Human, low-medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c2 (y10, P4 v2, P5 m1) | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1, set c2 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c3 (y9, P4 with "stop or", P5 m1) | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1, set c3 | AI window at P4, medium (my call: the h1 flagged it with "stop or") | (pending) | |
+| 2026-10-06 (turn 30) | Two Common Protective Patterns P2 y9: y4b with "and for a long time maybe there wasn't" after "what's coming up" (the TCP grounding's GREAT: the belief is old evidence), alone | Human, medium (my call) | AI Detected, 28% AI (152) (API, version 4.0, task ef3f8e17): AI low on the first two sentences (47 words) | miss |
+| 2026-10-06 (turn 30) | The same, y10: the yawn back in the first sentence's parentheses ("even a yawn can come with an "I'm so done with this" feeling"), "That yawn might actually be the opposite, though." after "I'd want out too.", alone | Human, low (my call) | 100% Human (142) (API, version 4.0, task 56d1eee8), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P4 v2: "stop or" out again ("I'd change course sooner"), "is a reason too" kept, alone | Human, medium (my call: turn 29's sentence) | 100% Human (146) (API, version 4.0, task 28c278ba), high | hit |
+| 2026-10-06 (turn 30) | P5 m1: the window's sentence split ("…five percent of it out here. Maybe that's texting a friend…"), alone | Human, medium (my call) | AI Detected, 62% AI (142) (API, version 4.0, task 486dcdfd): AI high on the first two sentences (37 words) and from "Maybe that's texting a friend" (55) | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c1 (y9, P4 v2, P5 m1) | Human, low-medium (my call) | Mostly Human, 5% AI (1,717) (API, version 4.0, task 4cb1ca22): AI high on y9's first two sentences (47), AI medium on P4's "If it's making things worse" (52) | miss |
+| 2026-10-06 (turn 30) | The h1, set c1 | Human, low-medium (my call) | Mostly Human, 2% AI (2,290) (API, version 4.0, task a75b6ed9): AI high on y9's first two sentences (47) | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c2 (y10, P4 v2, P5 m1) | Human, low (my call) | 100% Human (1,707) (API, version 4.0, task 6a296baf), high | hit |
+| 2026-10-06 (turn 30) | The h1, set c2 | Human, low (my call) | 100% Human (2,280) (API, version 4.0, task 3524e161), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c3 (y9, P4 with "stop or", P5 m1) | Human, low (my call) | Mostly Human, 5% AI (1,719) (API, version 4.0, task dca5a118): AI high on y9's opening (47) and on P4's "If it's making things worse" (54) | hit |
+| 2026-10-06 (turn 30) | The h1, set c3 | AI window at P4, medium (my call: the h1 flagged it with "stop or") | Mostly Human, 4% AI (2,292) (API, version 4.0, task e96fe878): AI high on y9's opening (47) and on P4's "If it's making things worse" (54) | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 m3 ("I'd try maybe five percent of it out here. Even texting a friend…, counts."), alone | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P5 m4 ("So I'd take whatever you did for your little one in there and try about five percent of it out here, like texting…"), alone | Human, low-medium (my call: P5 h's shape, one clause turned) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c4 (y10, P4 v2, P5 h, which passed alone) | Human, low-medium (my call: c2 passed with P5 m1) | (pending) | |
+| 2026-10-06 (turn 30) | The h1, set c4 | Human, low-medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c5 (y10, P4 v2, P5 m3) | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1, set c5 | Human, low (my call) | (pending) | |
