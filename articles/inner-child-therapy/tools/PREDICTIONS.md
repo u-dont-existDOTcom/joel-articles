@@ -711,4 +711,4 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | The h1 with y10b, P4 f1 and P5 x | Human, low-medium (my call) | not checked: the POST came back HTTP 402 Payment Required (the API key's credits ran out); nothing was taken | |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10b, P4 f3 and P5 x | Human, low-medium (my call) | not checked: HTTP 402 Payment Required | |
 | 2026-10-06 (turn 30) | The h1 with y10b, P4 f3 and P5 x | Human, low-medium (my call) | not checked: HTTP 402 Payment Required | |
-| 2026-10-06 (turn 30) | Retry after the 402s: Start With Whatever Showed Up with y10b, P4 f3 and P5 x (one POST, to see whether the key has credits again) | Human, low-medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Retry after the 402s: Start With Whatever Showed Up with y10b, P4 f3 and P5 x (one POST, to see whether the key has credits again) | Human, low-medium (my call) | not checked: HTTP 402 Payment Required again; nothing was taken | |
