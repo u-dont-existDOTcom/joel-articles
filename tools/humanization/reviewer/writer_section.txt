@@ -26,6 +26,7 @@ What an AI detector (Pangram) has shown on this article, from paragraphs and sec
 - The author's own wording is plain and a bit stiff. Casual filler ("pretty much", "basically", "a whole shelf of") and quips made things worse.
 - A specific detail helped only when it was one you'd know from having been there, not the example anyone would reach for.
 - It still has to make sense to someone reading it cold, in one pass.
+- It has to keep the guide passage's main point said outright, not only its examples, and every sentence has to say what the guide sentence it carries says (2026-10-06: a draft that kept the example and lost "find what exactly is blocking" was wrong however it read).
 
 Write the paragraphs that come after the fixed first paragraph: three to five paragraphs, each 40 to 110 words, in the second person like the rest of the article. Don't repeat the fixed paragraph or the heading. Output only your paragraphs, separated by blank lines.
 
