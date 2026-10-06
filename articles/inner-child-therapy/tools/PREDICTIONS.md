@@ -664,12 +664,21 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | The h1 with P5 r2 | Human, low (my call) | Mostly Human, 5% AI (2,271) (API, version 4.0, task f9daf416): AI high on P4's "If it's making things worse" (52) and from "Next time you're about to text" (71) | miss |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r3a + r3b | Human, low (my call) | Mostly Human, 4% AI (1,702) (API, version 4.0, task 6808aae6): AI high on r3b (75) | miss |
 | 2026-10-06 (turn 30) | The h1 with P5 r3a + r3b | Human, low (my call) | Mostly Human, 5% AI (2,275) (API, version 4.0, task 77bca595): AI medium on P4's "If it's making things worse" (52), AI high on r3b (75) | miss |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 s1: the little one's side ("Your little one already heard the words, and what they're watching for now is Wednesday.", the grounding's GREAT), "rough day" instead of "I'm fine", alone | Human, low (my call: a character's view, the move that passed before) | (pending) | |
-| 2026-10-06 (turn 30) | P5 split, second half b1 ("Your little one already heard the words. What they're watching for now is Wednesday. …"), alone | Human, low-medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | P5 split, second half b2 ("…an ordinary Wednesday. I'd try about five percent of whatever you did for them, out here…"), alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 s1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 s1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and b1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with r3a and b1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and b2 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with r3a and b2 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 s1: the little one's side ("Your little one already heard the words, and what they're watching for now is Wednesday.", the grounding's GREAT), "rough day" instead of "I'm fine", alone | Human, low (my call: a character's view, the move that passed before) | AI Detected, 60% AI (141) (API, version 4.0, task 93ebef97): Human high on the first 61 words, AI high from "Maybe the grown-up just hasn't come out" (93) | miss |
+| 2026-10-06 (turn 30) | P5 split, second half b1 ("Your little one already heard the words. What they're watching for now is Wednesday. …"), alone | Human, low-medium (my call) | AI Generated, 100% AI (73) (API, version 4.0, task 889615b0), low | miss |
+| 2026-10-06 (turn 30) | P5 split, second half b2 ("…an ordinary Wednesday. I'd try about five percent of whatever you did for them, out here…"), alone | Human, low (my call) | AI Generated, 100% AI (75) (API, version 4.0, task 8b41dcb6), high | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 s1 | Human, low (my call) | 100% Human (1,706) (API, version 4.0, task d1631e7e), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 s1 | Human, low (my call) | 100% Human (2,279) (API, version 4.0, task 4128b568), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and b1 | Human, low (my call) | Mostly Human, 3% AI (1,707) (API, version 4.0, task b86cbfdc): AI medium on P4's "If it's making things worse" (52) | miss |
+| 2026-10-06 (turn 30) | The h1 with r3a and b1 | Human, low (my call) | Mostly Human, 3% AI (1,707) (API, version 4.0, task b86cbfdc): AI medium on P4's "If it's making things worse" (52) | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and b2 | Human, low (my call) | Mostly Human, 4% AI (1,709) (API, version 4.0, task 3197b7a8): AI medium from "What they're watching for now is an ordinary Wednesday" (71) | miss |
+| 2026-10-06 (turn 30) | The h1 with r3a and b2 | Human, low (my call) | Mostly Human, 4% AI (1,709) (API, version 4.0, task 3197b7a8): AI medium from "What they're watching for now is an ordinary Wednesday" (71) | miss |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t1: "What would that grown-up do on a Wednesday? I'd try about five percent of that, like texting a friend "rough day" instead of "I'm fine," which can honestly be harder than the meditation.", alone | Human, low (my call: the reader's question and a reaction after the example) | (pending) | |
+| 2026-10-06 (turn 30) | P5 second half t2 ("What would that grown-up do on a Wednesday? I'd start with maybe five percent of what they did in there. …"), alone | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P5 t3: P5 h (passed alone) plus "That can honestly be harder than the meditation was." after its flagged sentence, alone | Human, low-medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t1 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 t1 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and t2 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with r3a and t2 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 t3 | Human, low (my call) | (pending) | |
