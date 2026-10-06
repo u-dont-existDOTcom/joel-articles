@@ -589,12 +589,20 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-04 (turn 29) | P2 with "anyone who swears by a number, including you" instead; alone | Human, medium (my call) | AI Generated, 100% AI (121) (API, version 4.0, task 299c5c73), high | miss |
 | 2026-10-04 (turn 29) | Start With Whatever Showed Up with that P2 | Human, low-medium (my call) | Mostly Human, 5% AI (1,407) (API, version 4.0, task c6fd2744): AI high from "Not wanting to do it anymore" (81 words) | miss |
 | 2026-10-04 (turn 29) | The h1 with the same | Human, low-medium (my call) | 100% Human (1,980) (API, version 4.0, task f64686f5), high | hit |
-| 2026-10-06 (turn 30) | When to Change the Strategy P1 (turn 30 rewrite: find what exactly is in the way, work on that one thing instead of giving up on everything), alone | Human, low (my call: its first two sentences passed on turn 29; the march reader finds a five-step run in 3–7) | (pending) | |
-| 2026-10-06 (turn 30) | P2 (the comfort example the right way round), version a, alone | AI, low (my call: no break, five steps) | (pending) | |
-| 2026-10-06 (turn 30) | P2 version b ("I'd probably want to fix it by saying sweeter and sweeter things"), alone | Human, low (my call: a reaction inside the run) | (pending) | |
-| 2026-10-06 (turn 30) | P3 (match the claim to the duration, PGQ-005), version a, alone | AI, low (my call: no break) | (pending) | |
-| 2026-10-06 (turn 30) | P3 version b ("it's tempting to think, that's it, it worked"; "I'd still take it!"), alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | P4 (How many tries, "stop or change course", and Joel's three sentences), alone | Human, medium (my call: turn 29's passing text plus his own sentences) | (pending) | |
-| 2026-10-06 (turn 30) | P5 (the transfer mismatch, PGQ-013), version a, alone | AI, low-medium (my call: no break, seven steps) | (pending) | |
-| 2026-10-06 (turn 30) | P5 version b ("That one's confusing, since it really did seem to work"; the old way you learned still running things), alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | P6 (follow-through, the review that isn't a grade, the limits), alone | Human, low-medium (my call: breaks at 2, 4 and 5) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P1 (turn 30 rewrite: find what exactly is in the way, work on that one thing instead of giving up on everything), alone | Human, low (my call: its first two sentences passed on turn 29; the march reader finds a five-step run in 3–7) | 100% Human (117) (API, version 4.0, task 168eaa19), high | hit |
+| 2026-10-06 (turn 30) | P2 (the comfort example the right way round), version a, alone | AI, low (my call: no break, five steps) | AI Generated, 100% AI (68) (API, version 4.0, task df81d0b3), high | hit |
+| 2026-10-06 (turn 30) | P2 version b ("I'd probably want to fix it by saying sweeter and sweeter things"), alone | Human, low (my call: a reaction inside the run) | AI Detected, 44% AI (77) (API, version 4.0, task 3f3f9cec): AI high on the first two sentences (38 words), Human high from "I'd probably want to fix it" (48) | miss |
+| 2026-10-06 (turn 30) | P3 (match the claim to the duration, PGQ-005), version a, alone | AI, low (my call: no break) | AI Generated, 100% AI (79) (API, version 4.0, task ff35bf6e), high | hit |
+| 2026-10-06 (turn 30) | P3 version b ("it's tempting to think, that's it, it worked"; "I'd still take it!"), alone | Human, low (my call) | AI Generated, 100% AI (83) (API, version 4.0, task 84fbb8b4), high | miss |
+| 2026-10-06 (turn 30) | P4 (How many tries, "stop or change course", and Joel's three sentences), alone | Human, medium (my call: turn 29's passing text plus his own sentences) | 100% Human (149) (API, version 4.0, task d61eb497), high | hit |
+| 2026-10-06 (turn 30) | P5 (the transfer mismatch, PGQ-013), version a, alone | AI, low-medium (my call: no break, seven steps) | AI Generated, 100% AI (103) (API, version 4.0, task 7e878694), high | hit |
+| 2026-10-06 (turn 30) | P5 version b ("That one's confusing, since it really did seem to work"; the old way you learned still running things), alone | Human, low (my call) | AI Generated, 100% AI (133) (API, version 4.0, task 8949f4d9), high | miss |
+| 2026-10-06 (turn 30) | P6 (follow-through, the review that isn't a grade, the limits), alone | Human, low-medium (my call: breaks at 2, 4 and 5) | AI Generated, 100% AI (73) (API, version 4.0, task df3b7617), high | miss |
+| 2026-10-06 (turn 30) | P2 version c (the reader's side first: "the words are all there, but the loving grown-up behind them isn't, not yet"; no hug), alone | Human, low (my call: the AI window in b was the setup) | (pending) | |
+| 2026-10-06 (turn 30) | P2 version d (the same, with the hug kept), alone | AI, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P3 version c (a morning that works, then lunch; "So did it work or not?"), alone | Human, low (my call: a scene and the reader's own question) | (pending) | |
+| 2026-10-06 (turn 30) | P3 version d ("I'd call it exactly what it was"; "That's a morning of relief!"; "Once."), alone | AI, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P5 version e ("Sometimes the exercise is the part that works"; skipping lunch, saying yes to everything; "I don't think either one's true yet"), alone | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P5 version f (the same scene, "Huh."), alone | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P6 version c (the critic grades it: "You did it once, so what?"), alone | Human, low (my call: a character's own line) | (pending) | |
+| 2026-10-06 (turn 30) | P6 version d ("Once? That's it?"), alone | Human, low (my call) | (pending) | |
