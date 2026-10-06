@@ -1,0 +1,1 @@
+I don’t know exactly how much of the future fear is accurate. AI may make human life enormously better, suck millions of people out of their jobs, put itself between us and nearly everything as a sort of digital gatekeeper, or do all three before Chantress Seba gets through her commune applications.

@@ -1,0 +1,1 @@
+Things like medical care, banking, phones, vehicles, schools, supply chains, government ID, internet and energy are each a separate decision. If you opt out of all of them completely, it can cause needless suffering. If you opt into all of them, the outside system can reach directly into every essential function.
