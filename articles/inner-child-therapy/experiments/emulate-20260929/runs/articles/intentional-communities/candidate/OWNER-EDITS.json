@@ -436,8 +436,8 @@
   },
   {
    "id": "s5-p18-lessons",
-   "what": "Section 5, P18: Joel (2026-10-04 01:18), what he learned from the lineages: the need for sacred ritual even if he doesn't do it, the spirit realms a mixed bag, people deciding they're ready long before they're trained, what to do and not do, and that he could still learn from them and they from him. His straight apostrophes kept. [applied: section 5 v60 installed as a candidate, 2026-10-04]",
-   "status": "applied",
+   "what": "Section 5, P18: Joel (2026-10-04 01:18), what he learned from the lineages: the need for sacred ritual even if he doesn't do it, the spirit realms a mixed bag, people deciding they're ready long before they're trained, what to do and not do, and that he could still learn from them and they from him. His straight apostrophes kept. [applied: section 5 v60 installed as a candidate, 2026-10-04] [superseded 2026-10-06: Joel rewrote P18 as two paragraphs; see s5-joel-20261006]",
+   "status": "superseded",
    "must_contain": [
     "I see a lot of people need sacred rituals",
     "the spirit realms are quite a mixed bag",
@@ -446,6 +446,30 @@
    ],
    "must_contain_exact": [
     "decide they're ready to do ceremonies long before they're really trained and prepared"
+   ]
+  },
+  {
+   "id": "s5-joel-20261006",
+   "what": "Section 5 is Joel's own text of 2026-10-06 16:55 UTC (fully human in Pangram's web app): his heading, the opener without \"Key here\", P18 in two paragraphs with his lessons (lead ceremonies; \"they will continue to develop their understandings as well\"), P19's end, P22's advice, P25's joke, P26, P33's end. His characters kept. [applied 2026-10-06]",
+   "status": "applied",
+   "must_contain_exact": [
+    "The Medicine Part - Yes, I'm Naming It",
+    "Most of the writing on communities hasn't caught up with psychedelics.",
+    "I've learned some \"dos & don't dos\" from their sensible practices and less sensible practices",
+    "They're right though that modern folk do very often decide they're ready to lead ceremonies long before they're really trained and prepared.",
+    "they will continue to develop their understandings as well.",
+    "maybe even a sexual predator, or financially dependent on people coming back to them for more feather-waving",
+    "the more it costs not to personally know who's running their ceremony",
+    "Just because it's a peer-led ceremony doesn't mean it's ok to be casually irresponsible.",
+    "self-transforming fractalized machine elves told them they are the re-incarnation of King David & Elvis.😂",
+    "Integration is a term thrown around so much that I'm not sure if it still has meaning.",
+    "which gets double dipped with the objection that psychedelics are also priveleged escape pods"
+   ],
+   "must_not_contain": [
+    "Key here",
+    "Without Pretending",
+    "they could still learn a lot from me",
+    "This is not to say that peer led ceremonies"
    ]
   }
  ]
