@@ -642,15 +642,25 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | The h1, set c4 | Human, low-medium (my call) | Mostly Human, 1% AI (2,279) (API, version 4.0, task 7eb7d016): the same window (37) | miss |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up, set c5 (y10, P4 v2, P5 m3) | Human, low (my call) | Mostly Human, 3% AI (1,707) (API, version 4.0, task aad4e0f7): AI medium at "Even texting a friend…" (54) | miss |
 | 2026-10-06 (turn 30) | The h1, set c5 | Human, low (my call) | Mostly Human, 2% AI (2,280) (API, version 4.0, task 3a14ff40): the same window (54) | miss |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 q1, the five-percent sentence as a question to the reader ("What did you actually do for your little one in there?") and "instead of the usual "I'm fine."", alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with the same (P5 q1) | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 q2, the five-percent sentence as "So what did you do for your little one in there? Whatever it was, I'd try about five percent of it out here. If it was comfort, maybe that's…", alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q2 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with the same (P5 q2) | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 q3, the five-percent sentence as "I'd try about five percent of it out here, whatever it was you did for your little one in there. Comfort might look like…", alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q3 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with the same (P5 q3) | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 q4, the five-percent sentence as "…I'd try about five percent of it out here. If it was comfort, that could be as small as texting a friend…, instead of the usual "I'm fine."", alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q4 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with the same (P5 q4) | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 q1, the five-percent sentence as a question to the reader ("What did you actually do for your little one in there?") and "instead of the usual "I'm fine."", alone | Human, low (my call) | AI Generated, 100% AI (147) (API, version 4.0, task a35fd8f1), high | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q1 | Human, low (my call) | Mostly Human, 4% AI (1,712) (API, version 4.0, task bfd5693d): AI medium from "If it was comforting them" (67) | miss |
+| 2026-10-06 (turn 30) | The h1 with the same (P5 q1) | Human, low (my call) | Mostly Human, 3% AI (2,285) (API, version 4.0, task 43ca89a8): AI high from "If it was comforting them" (67) | miss |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 q2, the five-percent sentence as "So what did you do for your little one in there? Whatever it was, I'd try about five percent of it out here. If it was comfort, maybe that's…", alone | Human, low (my call) | AI Generated, 100% AI (150) (API, version 4.0, task 4cc93d53), high | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q2 | Human, low (my call) | Mostly Human, 3% AI (1,715) (API, version 4.0, task a87ed929): AI medium from "If it was comfort, maybe that's…" (59) | miss |
+| 2026-10-06 (turn 30) | The h1 with the same (P5 q2) | Human, low (my call) | Mostly Human, 2% AI (2,288) (API, version 4.0, task ea722e80): the same window (59) | miss |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 q3, the five-percent sentence as "I'd try about five percent of it out here, whatever it was you did for your little one in there. Comfort might look like…", alone | Human, low (my call) | AI Generated, 100% AI (145) (API, version 4.0, task 8190e6ca), medium | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q3 | Human, low (my call) | 100% Human (1,710) (API, version 4.0, task aeee1815), high | hit |
+| 2026-10-06 (turn 30) | The h1 with the same (P5 q3) | Human, low (my call) | 100% Human (2,283) (API, version 4.0, task 266962f9), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 q4, the five-percent sentence as "…I'd try about five percent of it out here. If it was comfort, that could be as small as texting a friend…, instead of the usual "I'm fine."", alone | Human, low (my call) | AI Generated, 100% AI (150) (API, version 4.0, task 866ab727), high | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q4 | Human, low (my call) | 100% Human (1,715) (API, version 4.0, task f6f76de7), high | hit |
+| 2026-10-06 (turn 30) | The h1 with the same (P5 q4) | Human, low (my call) | 100% Human (2,288) (API, version 4.0, task daf6066d), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 r1: the scene's second sentence with two clauses, not three; the five percent as the reader's own moment ("So on Wednesday, when you're about to text a friend "I'm fine," you could ask what that grown-up would do, and do about five percent of it. Maybe that's admitting it's been a rough day."), alone | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P5 r2: "Next time you're about to text a friend "I'm fine," I'd think about what that grown-up would say instead, and try about five percent of it. "Rough day" might be enough.", alone | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P5 split in two, r3a (the scene, the first guess, not failed, not out of the exercise yet), alone | Human, medium (my call: its middle has passed every time) | (pending) | |
+| 2026-10-06 (turn 30) | P5 r3b (the next "I'm fine" text, five percent, follow-through, the limits), alone | AI, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r1 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 r1 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r2 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 r2 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r3a + r3b | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 r3a + r3b | Human, low (my call) | (pending) | |
