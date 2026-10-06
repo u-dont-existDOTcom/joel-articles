@@ -476,3 +476,38 @@ Batch 68 (19:58 UTC, from the log): mine 3 of 4. "a higher risk" passes alone an
 Tally for this turn's section 6 batches (46 to 68), counted by `s6/tally.py` from the tables (a prediction is right when its first word matches the verdict's; a section that is "Human overall" with an AI window counts as Mixed): **197 checks, 135 right**. By batch: 46: 1 of 1 · 47: 5 of 6 · 48: 6 of 12 · 49: 8 of 9 · 50: 10 of 11 · 51: 9 of 16 · 52: 10 of 13 · 53: 4 of 9 · 54: 10 of 13 · 55: 3 of 6 · 56: 3 of 8 · 57: 9 of 10 · 58: 4 of 6 · 59: 9 of 11 · 60: 4 of 9 · 61: 10 of 13 · 62: 4 of 6 · 63: 4 of 6 · 64: 2 of 4 · 65: 7 of 8 · 66: 4 of 7 · 67: 6 of 9 · 68: 3 of 4. Where my running notes above say otherwise ("mine 9 of 13 so far" in batch 54, "1 of 1" in 46), the script's count stands.
 
 Also fixed (19:59 UTC): every result I filled into these tables after batch 49 had a doubled pipe (an empty fifth column) from my fill-in script; 169 rows repaired.
+
+## Joel's answers of 2026-10-06 20:38 UTC, and v20
+
+His answers: P1 "yes that's what i meant"; P3 "right"; P4 "that's good" (the kept "It's better…, right?"), with "my feed" → "my social media feed" (which feed was unclear); P5 "ok" (the dropped "useful design question"), with his own addition at its end ("This is also one area where many modern folk will balk. Let the community decide if I can use my social media, or ChatGPT? Are you kidding? I get it. I really do. You're not a child anymore. But on the other hand, these technologies don't just affect you, they affect how you relate to the community as well."; his "social meda" corrected, his ruling: "don't preserve my obvious typos"); P8: "think through" is right, "decide on in advance" is "a huge meaning shift. Not every new treatment etc can be decided on in advance", and "couplings" → "dependencies", not the vaguer "connections"; P9: proving ideological loyalty isn't jumping through ideological hoops ("jumping through hoops means making some extra effort. proving loyalty means proving loyalty, which may mean going against your own needs").
+
+The published P8 said "It should decide in advance"; the v2 to v17 audits held the rewrite to it, and Joel's ruling overrides it. v20 (`s6/drafts-v20.json`): P4 "social media feed"; P5 with his addition; P8 "dependencies", "The community should think through how members…", "These are all questions that a community should consider in advance."; P9 "No member should have to prove their ideological loyalty when they're scared or sick."
+
+API batch 69 (written 20:42 UTC, before the call):
+
+| text | mine | why | Pangram |
+|---|---|---|---|
+| d22-P4 | Human (weak) | two words added | Human (0.04) |
+| d22-P5 (with Joel's addition, 75 words) | Human | his words | Human (0.00) |
+| d22-P4P5 | Human | | Human (0.00) |
+| d22-P5CAPP6 | Human (weak) | | Human (0.04) |
+| d22-P8 | Human (weak) | three phrases | Human (0.39) |
+| d22-P9 | AI (weak) | the published "prove … ideological loyalty" back | Human (0.00) |
+| d22-P7P8 | Human (weak) | | Human (0.00) |
+| d22-P8P9 | AI (weak) | | **AI (0.94)** |
+| d22-P9P10 | Human (weak) | | Human (0.01) |
+| d22-u1 (P3 to P5) | Human (weak) | | Human (0.00) |
+| d22-u3 (P8 to P10) | AI (weak) | | **AI (1.00)** |
+| d22-S6 | Human (weak) | his paragraph adds human text | **Human (0.12, one window)** |
+
+Batch 69 (20:42 to 20:43 UTC, from the log): mine 11 of 12 (P9 alone reads Human, 0.00, where I said AI). Every paragraph passes alone; P8 is the weakest (0.39). The section reads Human in one window (0.12). The P8 and P9 pair reads AI (0.94), and so does the run P8 to P10 (1.00): the two paragraphs pass apart and fail together. The API reads the whole section as one window, so the pair never meets alone there; the web app cuts smaller windows, so the web app check comes next.
+
+Web app check of v20 (written 20:45 UTC, before the call; the same text as d22-S6, 655 words, Joel's signed-in dashboard): mine **Mixed (weak)**: the web app cuts smaller windows than the API, and a window holding P8 and P9 reads AI on the API (0.94).
+
+Web app result (20:46 UTC, from the History page): **Human Written, 100%**, 668 words scanned, Pangram 4.0, no AI highlight. Mine wrong (I said Mixed). The web app read this section whole, as the API did.
+
+The gate on v20 (`review-d20/`, about 20:54 to 21:05 UTC; trace A on P4, P5, P8 and P9; logic A on the section; the cold read; the stance check):
+- **Stance: 2 conflicts.** (1) Joel's P5 addition ("Let the community decide if I can use my social media, or ChatGPT? …") against the essay's floor "the majority cannot vote away: … private thought, contact with people outside the community" (Founderism, "How My Own Model Could Become a Cult"). His own words; it goes to him as a question, not an edit. (2) "think through" / "consider in advance" against the published "decide in advance" and section 5's "deciding before anybody takes anything what kind of situations would require professional help or emergency care": his ruling of 20:38 settles P8 ("Not every new treatment etc can be decided on in advance"), and his section 5 sentence is about a ceremony, which can be decided before anyone takes anything.
+- **Logic A and trace A:** the same two points, plus items Joel has already ruled on (P3's applications, P4's "on a personal level" and "It's better…, right?", P5's dropped "useful", P8's "dependencies"), and items kept from earlier versions (P8's "what happens when someone… needs", P8's "different levels" (AMBIGUOUS on v13, v17 and v19 too: various levels, or levels different from the community's), P10's "an increased risk… among"; P9: "agreements" plural, "if needed" on transport, "are not" for "won't be"). New only from his addition: the objector's "Let the community decide if I can use my social media" has no quotation marks (the trace: it "can be read as the author speaking"; the cold reader read it right).
+- **Cold read:** OK but for the card (published), P4's "an exit" (published), the jump from P5's personal apps to P6's institutions (new with his addition), and the heading's question arriving only in P5 (the published order).
+- **Lint:** nothing new (its flags are on text unchanged since v19).

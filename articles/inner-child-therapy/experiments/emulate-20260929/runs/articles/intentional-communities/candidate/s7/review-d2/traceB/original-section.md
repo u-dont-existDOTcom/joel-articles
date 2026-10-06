@@ -1,0 +1,17 @@
+# Jealousy Can Capture Monogamy or Free Love
+
+Any community that lasts will be reorganized by attraction and pair-bonding. In a city, two exes can move across town. In a thirty-person commune, they may still share a kitchen, work team, meeting, childcare, and friends the next morning. A couple’s jealousy or breakup becomes the community’s problem because it changes loyalties, sleeping arrangements, labor, children, alliances, and sometimes who leaves.
+
+The usual argument—monogamy versus free love—starts one level too late. My [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents) gives the longer version. Here I’ll state the community problem plainly: close quarters magnify jealousy, and jealousy can capture either system.
+
+Rigid monogamy can turn fear and possession into moral law. Free love without inner pl/ork can distribute the same fear across a larger spreadsheet. A relationship label doesn’t release childhood panic, comparison, abandonment terror, or the wish to control another person.
+
+I don’t think a community should choose the form for everyone. Couples and other relationship configurations can make different agreements, revise them, and ask for support when those agreements expose old material.
+
+Whatever forms people choose, housing, children’s security, membership, and access to common necessities should not depend on remaining inside one romantic agreement.
+
+[ZEGG](http://zegg.org/) and [Tamera](http://tamera.org/) have spent decades experimenting with relationships inside community. Their answers aren’t commandments for everybody, but they demonstrate that a group can acknowledge erotic life rather than pretending twenty adults have become neutral colleagues because the bylaws say so.
+
+The non-negotiable for me is that jealousy cannot become the hidden governor. It has to be speakable, felt in the body, explored without humiliation, and gradually released rather than converted into punishment or policy.
+
+The group can offer support and enforce basic boundaries without choosing everyone’s relationship structure. People will still disagree, which is more realistic than declaring the matter solved.

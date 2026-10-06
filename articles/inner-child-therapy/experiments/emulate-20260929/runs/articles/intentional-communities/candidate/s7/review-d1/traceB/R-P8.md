@@ -1,0 +1,1 @@
+There are some ways the group can help, and some basic boundaries the group can enforce, without determining what type of relationships people have. Even so, there will still be disagreements. That's more realistic than saying it's all been resolved.

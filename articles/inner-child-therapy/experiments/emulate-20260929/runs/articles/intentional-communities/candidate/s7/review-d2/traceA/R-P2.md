@@ -1,0 +1,1 @@
+The discussion generally goes straight to "should people be monogamous or free-love?" but as I discuss in my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), this is one level too late in the conversation. The community problem is that, in close quarters, jealousy gets magnified, and jealousy can capture either system.

@@ -450,7 +450,7 @@
   },
   {
    "id": "s5-joel-20261006",
-   "what": "Section 5 is Joel's own text of 2026-10-06 16:55 UTC (fully human in Pangram's web app): his heading, the opener without \"Key here\", P18 in two paragraphs with his lessons (lead ceremonies; \"they will continue to develop their understandings as well\"), P19's end, P22's advice, P25's joke, P26, P33's end. His characters kept. [applied 2026-10-06]",
+   "what": "Section 5 is Joel's own text of 2026-10-06 16:55 UTC (fully human in Pangram's web app): his heading, the opener without \"Key here\", P18 in two paragraphs with his lessons (lead ceremonies; \"they will continue to develop their understandings as well\"), P19's end, P22's advice, P25's joke, P26, P33's end. His characters kept, except the obvious typo \"priveleged\" → \"privileged\" (his ruling of 20:38: \"don't preserve my obvious typos\"). [applied 2026-10-06]",
    "status": "applied",
    "must_contain_exact": [
     "The Medicine Part - Yes, I'm Naming It",
@@ -463,7 +463,7 @@
     "Just because it's a peer-led ceremony doesn't mean it's ok to be casually irresponsible.",
     "self-transforming fractalized machine elves told them they are the re-incarnation of King David & Elvis.😂",
     "Integration is a term thrown around so much that I'm not sure if it still has meaning.",
-    "which gets double dipped with the objection that psychedelics are also priveleged escape pods"
+    "which gets double dipped with the objection that psychedelics are also privileged escape pods"
    ],
    "must_not_contain": [
     "Key here",
@@ -479,6 +479,36 @@
    "must_contain_exact": [
     "I just read this post from Jamie Wheal about the “polycrisis,” which I suppose needs no explanation, but it’s basically a word for summarizing that every kind of shit possible is hitting the fan which was already half broken:",
     "New friends are silver, but old friends are gold"
+   ]
+  },
+  {
+   "id": "s6-joel-20261006-2038",
+   "what": "Section 6, Joel's answers of 2026-10-06 20:38 UTC: P4 \"my feed\" → \"my social media feed\" (which feed was unclear); P5 ends with his own addition (\"social meda\" corrected under his typo ruling); P8 \"couplings\" → \"dependencies\" (not the vaguer \"connections\"), \"think through\" (not \"decide on in advance\": \"Not every new treatment etc can be decided on in advance\"); P9 \"prove … ideological loyalty\", not \"jump through ideological hoops\". [applied: section 6 v20 installed as a candidate, 2026-10-06]",
+   "status": "applied",
+   "must_contain_exact": [
+    "after spending ten years optimizing my social media feed, right?",
+    "This is also one area where many modern folk will balk. Let the community decide if I can use my social media, or ChatGPT? Are you kidding? I get it. I really do. You're not a child anymore. But on the other hand, these technologies don't just affect you, they affect how you relate to the community as well.",
+    "Medical care is one of the toughest dependencies to work out.",
+    "The community should think through how members are going to have access to care.",
+    "No member should have to prove their ideological loyalty when they're scared or sick."
+   ],
+   "must_not_contain": [
+    "jump through ideological hoops",
+    "decide on in advance",
+    "toughest connections"
+   ]
+  },
+  {
+   "id": "pl-ork-coinage",
+   "what": "\"Pl/ork\" is Joel's coined word (play + work, defined in section 4's \"The Four Parts That Have to Pl/ork Together\"); it is not a typo and stays wherever the published article uses it, section 7's \"inner pl/ork\" included (checked 2026-10-06 after I first took it for a typo). [applied 2026-10-06]",
+   "status": "applied",
+   "must_contain_exact": [
+    "The Four Parts That Have to Pl/ork Together",
+    "the inner pl/ork"
+   ],
+   "must_not_contain": [
+    "without inner work",
+    "doing the inner work"
    ]
   }
  ]

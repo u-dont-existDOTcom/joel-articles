@@ -1,0 +1,138 @@
+{
+ "title": "Which Connections to the Technosphere Do You Keep? Section 6 beside the published one",
+ "meta": "Community article · section 6 · candidate v20, 2026-10-06 · Pangram web app: 100% Human (668 words scanned, 20:46 UTC)",
+ "intro": [
+  "Your published section is on the left; the humanized candidate is on the right, with words changed from the published highlighted and words cut struck.",
+  "Your answers of 20:38 are in: \"building community\" (P1), \"social media feed\" (P4), your addition at the end of P5, \"dependencies\" and \"think through\" (P8), and \"prove their ideological loyalty\" (P9).",
+  "The section passes in Pangram's web app (100% Human), and every paragraph passes alone on the API. One question is open, on your P5 addition (in the notes for P5)."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "Which Connections to the Technosphere Do You Keep?"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Loneliness is only one reason building",
+     "source": [
+      "Loneliness is only one reason this"
+     ],
+     "notes": [
+      "\"this\" → \"building community\", which you confirmed."
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "I just read this post from",
+     "source": [
+      "I just read this post from"
+     ],
+     "notes": [
+      "Your post's excerpt in the card, untouched."
+     ]
+    },
+    {
+     "label": "P3",
+     "article": "How accurate are the fears about",
+     "source": [
+      "I don’t know exactly how much"
+     ],
+     "notes": [
+      "Emulate's \"Maybe…\" sentences: the OR list split into sentences, each its own possibility. 😂 on the Chantress Seba joke.",
+      "\"going through all the applications to her commune\", which you confirmed (she received them)."
+     ]
+    },
+    {
+     "label": "P4",
+     "article": "Ok, so on a personal level,",
+     "source": [
+      "I’d rather build more human independence"
+     ],
+     "notes": [
+      "Emulate's \"Ok, so on a personal level, it makes more sense to me…\", which you approved.",
+      "\"my social media feed\" for \"my feed\", as you asked (which feed was unclear).",
+      "Kept: \"It's better to have community… right?\" for \"I'd rather have community…\" (you said that's good). A fresh reader still asked what \"an exit\" is an exit from; that's the published phrase."
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "What connections to the technosphere do",
+     "source": [
+      "The useful design question is:"
+     ],
+     "notes": [
+      "The live question, then your own addition, word for word (only \"social meda\" corrected, under your typo rule).",
+      "Question for you: the whole-article check points out that your addition has the community weighing in on a member's social media and ChatGPT. Later the essay says there's a floor the majority can't vote away, and it includes \"private thought, contact with people outside the community\". I don't think they clash: the floor protects contact with outsiders, not any one app, and your addition argues both sides. But a reader could take it as the community deciding what apps adults use. Leave it, or add a few words of your own?",
+      "A fresh reader also noticed a jump from personal apps in P5 to whole institutions in P6 (banking, schools and so on). I'd leave it: P6 widens the question on purpose."
+     ]
+    },
+    {
+     "label": "Caption",
+     "article": "[caption] New friends are silver",
+     "source": [
+      "[caption] New friends are silver"
+     ],
+     "notes": [
+      "As published."
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "Medical care, banking, phones, vehicles,",
+     "source": [
+      "Medical care, banking, phones, vehicles,"
+     ],
+     "notes": [
+      "\"Full dependence\" is \"depend on them completely\" (an earlier draft said \"opt into all of them\", which all four checks flagged)."
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "The Amish, over generations, have made",
+     "source": [
+      "The Amish have spent generations evaluating"
+     ],
+     "notes": [
+      "Restricted at home, not banned; \"Sometimes…\" (neither the author guessing nor fixed camps); the software-update contrast back inside what the Amish understand."
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "Medical care is one of the",
+     "source": [
+      "Medicine is one of the hardest"
+     ],
+     "notes": [
+      "\"dependencies\" for \"couplings\", as you asked.",
+      "\"The community should think through how members are going to have access to care.\" The draft before said \"hash out\" and, at the end, \"consider and decide on in advance\"; your ruling took \"decide\" out. The last sentence now says these are questions to \"consider in advance\".",
+      "Kept: \"what happens when someone in the community needs…\" for \"may … and still need\"; \"deal with\"; \"outside dollars\". Also kept: \"people who choose to accept (or not accept) different levels of medical care\". Every logic check reads \"different levels\" two ways: levels different from the community's (the published meaning), or simply various levels."
+     ]
+    },
+    {
+     "label": "P9",
+     "article": "No member should have to prove",
+     "source": [
+      "No member should have to prove"
+     ],
+     "notes": [
+      "\"No member should have to prove their ideological loyalty when they're scared or sick\", back to the published claim, as you asked.",
+      "The published sentence after it is one \"catastrophic-illness agreement\". The candidate makes it \"pre-existing agreements in place so that if a member gets catastrophically ill\". It's still an agreement the community makes ahead of time; the sick member doesn't have to arrange it. All five things the agreement protects are still there: the member's choices, access to common resources or outside funds, transport, privacy, and room for the community's preferred methods not being enough.",
+      "Kept: \"if needed\" on transport, and \"are not sufficient\" for \"won't be enough\"."
+     ]
+    },
+    {
+     "label": "P10",
+     "article": "At the same time, having social",
+     "source": [
+      "At the same time, social connection"
+     ],
+     "notes": [
+      "The advisory notes a risk among isolated people (an association), not \"documents the impact\" of connection.",
+      "Kept: \"an increased risk… among\" (two checks: could read as a cause); \"a higher risk\" split the section's windows again. \"itself\" dropped."
+     ]
+    }
+   ]
+  }
+ ]
+}

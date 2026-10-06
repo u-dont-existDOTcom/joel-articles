@@ -1,0 +1,1 @@
+The non-negotiable for me is that jealousy not be allowed to become the hidden governor. This doesn't mean it can't come up. It needs to be able to be talked about and felt in the body. It needs to be explored without humiliation. And it needs to be let go of gradually, and not allowed to turn into punishment, or into community rules.

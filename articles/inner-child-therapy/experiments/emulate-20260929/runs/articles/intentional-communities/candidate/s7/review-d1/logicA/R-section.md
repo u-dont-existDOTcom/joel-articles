@@ -1,0 +1,17 @@
+# Jealousy Can Capture Monogamy or Free Love
+
+Any community that lasts will eventually reorganize itself due to attraction and pair-bonding. When two exes live in the same city, they can move to different sides of the city. When they're part of a thirty-person commune, they may still be in the same kitchen the next morning, working in the same team, attending the same meetings, sharing childcare and the same friends. A couple's jealousy or breakup becomes a problem for the entire community, because it will change the loyalties, the sleeping arrangements, the work load, the kids, the alliances, and sometimes who's leaving.
+
+The discussion generally goes straight to "should people be monogamous or free-love?" but as I discuss in my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), this is one level too late in the conversation. The community problem is that, in close quarters, jealousy gets magnified, and it can capture either system.
+
+If people are doing rigid monogamy, they can turn fear and possession into a moral imperative. If people are doing free love, but aren't doing the inner pl/ork, they can just end up with a larger spreadsheet to distribute their fear over. Calling relationships by this or that name doesn't release childhood panic, or stop people from comparing themselves, feeling terror at the prospect of abandonment, or wanting to control other people.
+
+I don't think it should be up to the community to decide for everyone what form relationships will take. People can make different agreements with each other, in pairs, threes, fours, whatever. They can change those agreements as they wish. And they can ask for support when those agreements bring up old material.
+
+Whatever forms people choose, I do think that housing, security for kids, membership and access to common necessities should not be contingent on a person staying in some agreement with a person they're romantically involved with.
+
+[ZEGG](http://zegg.org/) and [Tamera](http://tamera.org/) have spent decades experimenting with relationships inside community. Their answers are not a set of commandments that everyone must follow. But they are an example of how a community can acknowledge the erotic aspects of life. It is not necessary for 20 adults to pretend that they've become neutral colleagues just because the by-laws say so.
+
+The non-negotiable for me is that jealousy not be allowed to become the hidden governor. This doesn't mean it can't come up. It needs to be able to be talked about and felt in the body. It needs to be explored without humiliation. And it needs to be let go of gradually, and not used to punish, or make rules.
+
+There are some ways the group can help, and some basic boundaries the group can enforce, without determining what type of relationships people have. Even so, there will still be disagreements. That's more realistic than saying it's all been resolved.

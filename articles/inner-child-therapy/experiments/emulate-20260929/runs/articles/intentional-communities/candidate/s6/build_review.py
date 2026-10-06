@@ -60,7 +60,7 @@ Put the marks in tables. Don't judge whether the rewrite is better, and don't su
 
 Keep the whole report under 1,200 words: terse tables, one row per unit, no prose beyond what a row needs. Write it to `{report}` with one Write call. Then return only a summary table: file, the count of SHIFTED, DROPPED and ADDED, and one line for each change that alters what a reader would believe about a fact, a person, or the author's position.
 """
-PARTS = {2: {"A": ["P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"]}, 11: {"A": ["P1", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"]}, 13: {"A": ["P3", "P5", "P7", "P8", "P9", "P10"]}, 17: {"A": ["P3", "P4", "P5", "P7", "P8", "P9", "P10"]}, 19: {"A": ["P3", "P8"]}}
+PARTS = {2: {"A": ["P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"]}, 11: {"A": ["P1", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"]}, 13: {"A": ["P3", "P5", "P7", "P8", "P9", "P10"]}, 17: {"A": ["P3", "P4", "P5", "P7", "P8", "P9", "P10"]}, 19: {"A": ["P3", "P8"]}, 20: {"A": ["P4", "P5", "P8", "P9"]}}
 parts = {h: [k for k in ks if k in changed] for h, ks in PARTS.get(n, {'A': changed}).items()}
 for half, keys in parts.items():
     if not keys: continue
