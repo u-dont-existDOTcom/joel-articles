@@ -124,13 +124,13 @@
   {
    "id": "good-enough",
    "status": "applied",
-   "what": "\"your five percent\" becomes \"good enough for a start\".",
+   "what": "\"your five percent\" becomes \"good enough for a start\". (Turn 30: the check is narrowed to \"your five percent\", the phrase he replaced, because the update queue's PGQ-013 puts \"five percent\" in When to Change the Strategy P5; the five-percent-question entry asks him.)",
    "joel": "16:29",
    "must_contain": [
     "is good enough for a start, so try it before you call next time"
    ],
    "must_not_contain": [
-    "five percent"
+    "your five percent"
    ]
   },
   {
@@ -1055,13 +1055,13 @@
   {
    "id": "two-protective-patterns-h3",
    "status": "applied",
-   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy).",
-   "joel": "2026-10-03 21:18 UTC: \"continue\"",
+   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy). Turn 30: P2's yawning example reworked per Joel (2026-10-06 19:04 UTC) with the Re-evaluation Counseling angle.",
+   "joel": "2026-10-03 21:18 UTC: \"continue\"; 2026-10-06 19:04 UTC (yawning): \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
     "### Two Common Protective Patterns",
     "Two kinds of reaction really are trying to protect you, more often than not. The first one is on duty all the time, and it can sound like a skeptic: \"You're just making this up.\" It may have spent years keeping you from being humiliated again, or left again. That's a long time to stay on guard. It might be tired by now, but it's experienced and good at what it does. It has probably watched you get excited about other healing things, then drop them.",
-    "The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (you might start yawning, even though you slept well). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. Both kinds started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge. I wonder what it would do if it didn't have to."
+    "The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (even a yawn can come with an \"I'm so done with this\" feeling). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. That yawn might actually be the opposite, though. Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out. Both kinds started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge. I wonder what it would do if it didn't have to."
    ]
   },
   {
@@ -1146,21 +1146,116 @@
   {
    "id": "wcs-h3",
    "status": "claim",
-   "what": "Claim check: the guide's h3 When to Change the Strategy is installed after Hear the Protective Part First, in three paragraphs: P1 the two temptations and the checks (did you practice, was the loving grown-up there, borrow it first); P2 how many tries and the reasons to change course, with a protective part's \"nope\" heard out first; P3 the trap of explaining away every miss.",
-   "joel": "2026-10-04 03:58 UTC: \"continue\"; 05:48 UTC: \"why did you stop there\"",
+   "what": "Claim check: the guide's h3 When to Change the Strategy (r4) is installed after Hear the Protective Part First, redone on turn 30 in five paragraphs: P1 find what exactly is in the way and work on that one thing instead of giving up on everything; P2 the comfort example the right way round (trying to comfort while the loving grown-up isn't there yet; borrow it first); P3 match the claim to the duration (PGQ-005); P4 how many tries, the reasons to change course, a protective part's \"nope\" heard out first, and Joel's three sentences; P5 the exercise goes well and the week doesn't change (PGQ-013) with its limits.",
+   "joel": "2026-10-04 03:58 UTC: \"continue\"; 2026-10-06 19:04 UTC: \"your P1 is missing most of the actual meaning of the original. The original is asking to see what exactly is blocking rather than giving up on everything.\"; \"P3 honestly looks like it could be cut.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
     "### When to Change the Strategy",
-    "Weeks in and nothing much is changing? I'd want to quit too, or else keep doing the exact same thing forever so I never had to find out. Sometimes those weeks were mostly reading about it and getting ready to, which can feel a lot like doing it (this article included). And if it was comforting your little one, was the loving grown-up really there? Your little one would notice, the way you notice a hug from someone who's checking their phone. I'd borrow that grown-up first. Then try again, and see if your little one can tell the difference.",
-    "How many tries is enough? I really don't know, and I'd be suspicious of anyone who promises you a number, including you, since some things shift in a day and some take about as long as learning guitar. If it's making things worse, or you just can't do it right now, I'd change course sooner. Not wanting to do it anymore can be a reason too, but if that \"nope\" sounds like a part of you that's trying to protect you, I'd hear it out first. And if you keep doing it right and what was supposed to happen still doesn't, I think you've learned something real about it. Something with clearly better research behind it is worth switching for too.",
-    "The trap I'd watch for is explaining away every miss. It didn't work, so you must have done it wrong, so maybe you needed the right candle first. (Candles are nice, though.) Next time it's a different reason, and none of them were things you actually noticed at the time. And you'd never find out what actually helps."
+    "Weeks in and nothing much is changing? I'd want to quit too, or else keep doing the exact same thing forever so I never had to find out. Before either one, I'd look for what exactly is in the way. Sometimes those weeks were mostly reading about it and getting ready to, which can feel a lot like doing it (this article included). Or you did sit down with your little one, and fear got there first, or a part of you that's trying to protect you. It can be as plain as never having the place to yourself. Whatever it turns out to be, I'd work on that one thing instead of giving up on everything.",
+    "Maybe you've been trying to comfort your little one for weeks, and the words are all there, but the loving grown-up behind them isn't, not yet. Your little one would notice. I'd probably want to fix it by saying sweeter and sweeter things, which won't work, and I wouldn't decide reparenting is useless over it, either. I'd borrow that grown-up first. Then try again, and see if your little one can tell the difference.",
+    "One more thing about telling whether it helped. A morning of feeling lighter, with the old feeling back by lunch, is a morning of relief. I'd take that! But I wouldn't decide from it that the problem's over, or even that the exercise did it, especially if you also slept well for once. Write down what changed and how long it lasted if you want, and then leave it alone.",
+    "How many tries is enough? I really don't know, and I'd be suspicious of anyone who promises you a number, including you, since some things shift in a day and some take about as long as learning guitar. If it's making things worse, or you just can't do it right now, I'd change course sooner. Not wanting to do it anymore is a reason too, but if that \"nope\" sounds like a part of you that's trying to protect you, I'd hear it out first. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with. Either way, I'd like to hear about it!",
+    "Sometimes the exercise is the part that works. You feel real care for your little one and say exactly what they needed to hear. And by Wednesday you're skipping lunch and saying yes to everything again. My first guess would be that I didn't go deep enough. I don't think that's it, though, and I don't think this one failed either. Maybe the grown-up just hasn't come out of the exercise with you yet. Whatever you did for your little one in there, I'd try about five percent of it out here, like texting a friend that you're having a rough day instead of saying you're fine. That can honestly be harder than the meditation was. One small thing like that can teach your little one more than ten more good meditations. It doesn't have to happen after every session, and once isn't proof you've got it all down."
    ],
    "order": [
     "Hear the Protective Part First",
     "When to Change the Strategy",
     "Weeks in and nothing much is changing?",
+    "Maybe you've been trying to comfort your little one",
+    "One more thing about telling whether it helped.",
     "How many tries is enough?",
-    "The trap I'd watch for"
+    "Sometimes the exercise is the part that works."
+   ]
+  },
+  {
+   "id": "wcs-p1-what-is-blocking",
+   "status": "applied",
+   "what": "When to Change the Strategy P1 says the guide's main instruction outright (find what exactly is in the way, work on that one thing instead of giving up on everything); turn 29's flipped comfort question is gone, and the example says \"trying to comfort\".",
+   "joel": "2026-10-06 19:04 UTC: \"The original is asking to see what exactly is blocking rather than giving up on everything.\" and \"why would it be comforting if adult was not there?\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "Before either one, I'd look for what exactly is in the way.",
+    "I'd work on that one thing instead of giving up on everything.",
+    "Maybe you've been trying to comfort your little one for weeks"
+   ],
+   "must_not_contain": [
+    "And if it was comforting your little one, was the loving grown-up really there?"
+   ]
+  },
+  {
+   "id": "wcs-p4-joel-ending",
+   "status": "applied",
+   "what": "When to Change the Strategy P4 ends with Joel's three sentences, word for word, in place of turn 29's last two (\"…I think you've learned something real about it. Something with clearly better research behind it is worth switching for too.\").",
+   "joel": "2026-10-06 19:04 UTC: \"where di that come from about better research behind it?\" and his replacement",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with. Either way, I'd like to hear about it!"
+   ],
+   "must_not_contain": [
+    "clearly better research",
+    "I think you've learned something real about it"
+   ]
+  },
+  {
+   "id": "wcs-p3-cut",
+   "status": "applied",
+   "what": "Turn 29's P3 (the trap of explaining away every miss) is cut.",
+   "joel": "2026-10-06 19:04 UTC: \"P3 honestly looks like it could be cut.\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_not_contain": [
+    "The trap I'd watch for is explaining away every miss.",
+    "(Candles are nice, though.)"
+   ]
+  },
+  {
+   "id": "tcp-yawn-rc",
+   "status": "applied",
+   "what": "Two Common Protective Patterns P2: the pull can come as the \"I'm so done with this\" feeling a yawn brings, and the yawn itself may be the opposite (Re-evaluation Counseling counts yawning as emotional discharge).",
+   "joel": "2026-10-06 19:04 UTC: \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge. so that's an interesting angle for that. sort of the opposite of how most people would think of it in this case.\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "(even a yawn can come with an \"I'm so done with this\" feeling)",
+    "Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out."
+   ],
+   "must_not_contain": [
+    "(you might start yawning, even though you slept well)"
+   ]
+  },
+  {
+   "id": "pgq-005-duration",
+   "status": "claim",
+   "what": "Claim check: Joel's update queue item PGQ-005 (match the claim to the duration; brief relief then recurrence is brief relief, not proof it's solved or that the exercise caused it; a bounded note; tracking isn't another checking ritual) is in When to Change the Strategy P3. The last point leans on When Healing Turns Into Checking, which already says it.",
+   "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "A morning of feeling lighter, with the old feeling back by lunch, is a morning of relief.",
+    "But I wouldn't decide from it that the problem's over, or even that the exercise did it",
+    "and then leave it alone."
+   ]
+  },
+  {
+   "id": "pgq-013-transfer",
+   "status": "claim",
+   "what": "Claim check: Joel's update queue item PGQ-013 (the exercise goes well and ordinary life doesn't change: not proof it failed, not a reason to go deeper; carry a small piece of what the grown-up did into ordinary life; one small act can teach more than more meditations; no homework after every session; one act isn't proof of having it down) is in When to Change the Strategy P5. Its \"review without judging your worth\" is Not Every Hero's \"After the day, look at what actually happened… It doesn't mean failure\".",
+   "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "Sometimes the exercise is the part that works.",
+    "I don't think that's it, though, and I don't think this one failed either.",
+    "Maybe the grown-up just hasn't come out of the exercise with you yet.",
+    "One small thing like that can teach your little one more than ten more good meditations.",
+    "It doesn't have to happen after every session, and once isn't proof you've got it all down."
+   ]
+  },
+  {
+   "id": "five-percent-question",
+   "status": "pending",
+   "what": "Ask Joel: the transfer paragraph says \"I'd try about five percent of it out here\" (his update queue's PGQ-013: \"five percent is enough\"), but on 2026-09-27 he replaced the Apprentice's \"your five percent\" with \"good enough for a start\". If he doesn't want the phrase, the sentence gets other words for a small piece (checked on Pangram first).",
+   "joel": "2026-09-27 16:29 UTC (the Apprentice edit); 2026-10-06 19:04 UTC (the queue)",
+   "where": "When the Adult Voice Feels Fake",
+   "waits_for": "Joel's answer",
+   "must_contain": [
+    "I'd try about five percent of it out here"
    ]
   }
  ]

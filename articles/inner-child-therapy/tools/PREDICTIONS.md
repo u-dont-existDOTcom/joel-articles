@@ -703,11 +703,11 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | When to Change the Strategy P5 oc: t3c with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | 100% Human (145) (API, version 4.0, task 9d3f4b70), high | hit |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 oc | Human, medium (my call) | 100% Human (1,710) (API, version 4.0, task 982d818f), high | hit |
 | 2026-10-06 (turn 30) | The h1 with P5 oc | Human, medium (my call) | 100% Human (2,283) (API, version 4.0, task 86be17ad), high | hit |
-| 2026-10-06 (turn 30) | When to Change the Strategy P4 f1 (the last grounding's two MUSTs: "I'd change course sooner, even if that means stopping." and "…I'd hear it out first, and if it still says no, that counts."), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | P4 f3 ("I'd change course sooner (stopping counts)." and "If it still says no, that's your answer."), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | P5 x: oa with "Sometimes it's the exercise that works." (the cold read: "part" means a part of you everywhere else in this section), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Two Common Protective Patterns P2 y10b: "That yawn might actually be the opposite of checking out, though." (the cold reads: the opposite of what?), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10b, P4 f1 and P5 x | Human, low-medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with y10b, P4 f1 and P5 x | Human, low-medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10b, P4 f3 and P5 x | Human, low-medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with y10b, P4 f3 and P5 x | Human, low-medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P4 f1 (the last grounding's two MUSTs: "I'd change course sooner, even if that means stopping." and "…I'd hear it out first, and if it still says no, that counts."), alone | Human, medium (my call) | 100% Human (159) (API, version 4.0, task d372e6bf), high | hit |
+| 2026-10-06 (turn 30) | P4 f3 ("I'd change course sooner (stopping counts)." and "If it still says no, that's your answer."), alone | Human, medium (my call) | 100% Human (156) (API, version 4.0, task dc2cb315), high | hit |
+| 2026-10-06 (turn 30) | P5 x: oa with "Sometimes it's the exercise that works." (the cold read: "part" means a part of you everywhere else in this section), alone | Human, medium (my call) | 100% Human (147) (API, version 4.0, task 45c7eb63), high | hit |
+| 2026-10-06 (turn 30) | Two Common Protective Patterns P2 y10b: "That yawn might actually be the opposite of checking out, though." (the cold reads: the opposite of what?), alone | Human, medium (my call) | 100% Human (145) (API, version 4.0, task 7a0c8c38), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10b, P4 f1 and P5 x | Human, low-medium (my call) | Mostly Human, 2% AI (1,728) (API, version 4.0, task a1354b7f): AI high from "Not wanting to do it anymore is a reason too, but if that "nope"" (40 words) | miss |
+| 2026-10-06 (turn 30) | The h1 with y10b, P4 f1 and P5 x | Human, low-medium (my call) | Mostly Human, 2% AI (1,728) (API, version 4.0, task a1354b7f): AI high from "Not wanting to do it anymore is a reason too, but if that "nope"" (40 words) | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10b, P4 f3 and P5 x | Human, low-medium (my call) | not checked: HTTP 402 Payment Required | |
+| 2026-10-06 (turn 30) | The h1 with y10b, P4 f3 and P5 x | Human, low-medium (my call) | not checked: HTTP 402 Payment Required | |
