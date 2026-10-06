@@ -694,12 +694,20 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | When to Change the Strategy P5 t3e: t3 with "So " cut and "maybe", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | 100% Human (149) (API, version 4.0, task a5007444), high | hit |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3e | Human, low (my call) | 100% Human (1,714) (API, version 4.0, task 88f0812d), high | hit |
 | 2026-10-06 (turn 30) | The h1 with P5 t3e | Human, low-medium (my call: t3 passed the h1) | 100% Human (2,287) (API, version 4.0, task 2c3bb285), high | hit |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 oa: t3a with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 oa | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 oa | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 ob: t3b with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 ob | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 ob | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 oc: t3c with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 oc | Human, medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 oc | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 oa: t3a with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | 100% Human (149) (API, version 4.0, task 43d5350a), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 oa | Human, medium (my call) | 100% Human (1,714) (API, version 4.0, task e1c0fb36), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 oa | Human, medium (my call) | 100% Human (2,287) (API, version 4.0, task 0cdd7c75), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 ob: t3b with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | 100% Human (150) (API, version 4.0, task 88b8bbaa), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 ob | Human, medium (my call) | 100% Human (1,715) (API, version 4.0, task d04b4b16), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 ob | Human, medium (my call) | 100% Human (2,288) (API, version 4.0, task 8fcdc6b7), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 oc: t3c with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | 100% Human (145) (API, version 4.0, task 9d3f4b70), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 oc | Human, medium (my call) | 100% Human (1,710) (API, version 4.0, task 982d818f), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 oc | Human, medium (my call) | 100% Human (2,283) (API, version 4.0, task 86be17ad), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P4 f1 (the last grounding's two MUSTs: "I'd change course sooner, even if that means stopping." and "…I'd hear it out first, and if it still says no, that counts."), alone | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P4 f3 ("I'd change course sooner (stopping counts)." and "If it still says no, that's your answer."), alone | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P5 x: oa with "Sometimes it's the exercise that works." (the cold read: "part" means a part of you everywhere else in this section), alone | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Two Common Protective Patterns P2 y10b: "That yawn might actually be the opposite of checking out, though." (the cold reads: the opposite of what?), alone | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10b, P4 f1 and P5 x | Human, low-medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with y10b, P4 f1 and P5 x | Human, low-medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10b, P4 f3 and P5 x | Human, low-medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with y10b, P4 f3 and P5 x | Human, low-medium (my call) | (pending) | |
