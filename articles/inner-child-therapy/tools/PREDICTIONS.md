@@ -682,15 +682,24 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | The h1 with r3a and t2 | Human, low (my call) | Mostly Human, 3% AI (1,713) (API, version 4.0, task a8ad539d): AI high from "What would that grown-up do on a Wednesday?" (48) | miss |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3 | Human, low (my call) | Mostly Human, 2% AI (1,715) (API, version 4.0, task 0a9f779c): AI medium at "So whatever you did for your little one in there" (37) | miss |
 | 2026-10-06 (turn 30) | The h1 with P5 t3 | Human, low (my call) | 100% Human (2,288) (API, version 4.0, task f45a1f7d), high | hit |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3a: t3 with "So " cut from the window's sentence, alone | Human, medium (my call: a word or two in a paragraph that passed alone) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3a | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 t3a | Human, low-medium (my call: t3 passed the h1) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3b: t3 with "about five percent" as "maybe five percent", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3b | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 t3b | Human, low-medium (my call: t3 passed the h1) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3c: t3 with the example as "texting a friend \"rough day\" instead of \"I'm fine.\"", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3c | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 t3c | Human, low-medium (my call: t3 passed the h1) | (pending) | |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3e: t3 with "So " cut and "maybe", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3e | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 t3e | Human, low-medium (my call: t3 passed the h1) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3a: t3 with "So " cut from the window's sentence, alone | Human, medium (my call: a word or two in a paragraph that passed alone) | 100% Human (149) (API, version 4.0, task 8ea31f8f), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3a | Human, low (my call) | 100% Human (1,714) (API, version 4.0, task 59fcee7a), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 t3a | Human, low-medium (my call: t3 passed the h1) | 100% Human (2,287) (API, version 4.0, task cf528989), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3b: t3 with "about five percent" as "maybe five percent", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | 100% Human (150) (API, version 4.0, task cfc61d74), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3b | Human, low (my call) | 100% Human (1,715) (API, version 4.0, task 7d295966), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 t3b | Human, low-medium (my call: t3 passed the h1) | 100% Human (2,288) (API, version 4.0, task ed8757ff), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3c: t3 with the example as "texting a friend \"rough day\" instead of \"I'm fine.\"", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | 100% Human (145) (API, version 4.0, task 11f30493), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3c | Human, low (my call) | 100% Human (1,710) (API, version 4.0, task 0467514b), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 t3c | Human, low-medium (my call: t3 passed the h1) | 100% Human (2,283) (API, version 4.0, task f95c3539), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3e: t3 with "So " cut and "maybe", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | 100% Human (149) (API, version 4.0, task a5007444), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3e | Human, low (my call) | 100% Human (1,714) (API, version 4.0, task 88f0812d), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 t3e | Human, low-medium (my call: t3 passed the h1) | 100% Human (2,287) (API, version 4.0, task 2c3bb285), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 oa: t3a with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 oa | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 oa | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 ob: t3b with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 ob | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 ob | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 oc: t3c with its second sentence split (Joel's lists-of-three rule: "You feel real care for your little one and say exactly what they needed to hear. And by Wednesday…"), alone | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 oc | Human, medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 oc | Human, medium (my call) | (pending) | |
