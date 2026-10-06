@@ -673,12 +673,24 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | The h1 with r3a and b1 | Human, low (my call) | Mostly Human, 3% AI (1,707) (API, version 4.0, task b86cbfdc): AI medium on P4's "If it's making things worse" (52) | miss |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and b2 | Human, low (my call) | Mostly Human, 4% AI (1,709) (API, version 4.0, task 3197b7a8): AI medium from "What they're watching for now is an ordinary Wednesday" (71) | miss |
 | 2026-10-06 (turn 30) | The h1 with r3a and b2 | Human, low (my call) | Mostly Human, 4% AI (1,709) (API, version 4.0, task 3197b7a8): AI medium from "What they're watching for now is an ordinary Wednesday" (71) | miss |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 t1: "What would that grown-up do on a Wednesday? I'd try about five percent of that, like texting a friend "rough day" instead of "I'm fine," which can honestly be harder than the meditation.", alone | Human, low (my call: the reader's question and a reaction after the example) | (pending) | |
-| 2026-10-06 (turn 30) | P5 second half t2 ("What would that grown-up do on a Wednesday? I'd start with maybe five percent of what they did in there. …"), alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | P5 t3: P5 h (passed alone) plus "That can honestly be harder than the meditation was." after its flagged sentence, alone | Human, low-medium (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 t1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and t2 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with r3a and t2 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 t3 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t1: "What would that grown-up do on a Wednesday? I'd try about five percent of that, like texting a friend "rough day" instead of "I'm fine," which can honestly be harder than the meditation.", alone | Human, low (my call: the reader's question and a reaction after the example) | 100% Human (135) (API, version 4.0, task ee39c592), high | hit |
+| 2026-10-06 (turn 30) | P5 second half t2 ("What would that grown-up do on a Wednesday? I'd start with maybe five percent of what they did in there. …"), alone | Human, low (my call) | 100% Human (79) (API, version 4.0, task 6dcdfa7f), high | hit |
+| 2026-10-06 (turn 30) | P5 t3: P5 h (passed alone) plus "That can honestly be harder than the meditation was." after its flagged sentence, alone | Human, low-medium (my call) | 100% Human (150) (API, version 4.0, task 3e315a12), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t1 | Human, low (my call) | Mostly Human, 2% AI (1,700) (API, version 4.0, task 52fd14c0): AI high from "What would that grown-up do on a Wednesday?" (36) | miss |
+| 2026-10-06 (turn 30) | The h1 with P5 t1 | Human, low (my call) | Mostly Human, 2% AI (2,273) (API, version 4.0, task d57461e9): the same window (36) | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and t2 | Human, low (my call) | Mostly Human, 3% AI (1,713) (API, version 4.0, task a8ad539d): AI high from "What would that grown-up do on a Wednesday?" (48) | miss |
+| 2026-10-06 (turn 30) | The h1 with r3a and t2 | Human, low (my call) | Mostly Human, 3% AI (1,713) (API, version 4.0, task a8ad539d): AI high from "What would that grown-up do on a Wednesday?" (48) | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3 | Human, low (my call) | Mostly Human, 2% AI (1,715) (API, version 4.0, task 0a9f779c): AI medium at "So whatever you did for your little one in there" (37) | miss |
+| 2026-10-06 (turn 30) | The h1 with P5 t3 | Human, low (my call) | 100% Human (2,288) (API, version 4.0, task f45a1f7d), high | hit |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3a: t3 with "So " cut from the window's sentence, alone | Human, medium (my call: a word or two in a paragraph that passed alone) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3a | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 t3a | Human, low-medium (my call: t3 passed the h1) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3b: t3 with "about five percent" as "maybe five percent", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3b | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 t3b | Human, low-medium (my call: t3 passed the h1) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3c: t3 with the example as "texting a friend \"rough day\" instead of \"I'm fine.\"", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3c | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 t3c | Human, low-medium (my call: t3 passed the h1) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 t3e: t3 with "So " cut and "maybe", alone | Human, medium (my call: a word or two in a paragraph that passed alone) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 t3e | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 t3e | Human, low-medium (my call: t3 passed the h1) | (pending) | |
