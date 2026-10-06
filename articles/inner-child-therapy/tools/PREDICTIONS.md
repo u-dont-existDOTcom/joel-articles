@@ -654,13 +654,22 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | When to Change the Strategy P5 q4, the five-percent sentence as "…I'd try about five percent of it out here. If it was comfort, that could be as small as texting a friend…, instead of the usual "I'm fine."", alone | Human, low (my call) | AI Generated, 100% AI (150) (API, version 4.0, task 866ab727), high | miss |
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 q4 | Human, low (my call) | 100% Human (1,715) (API, version 4.0, task f6f76de7), high | hit |
 | 2026-10-06 (turn 30) | The h1 with the same (P5 q4) | Human, low (my call) | 100% Human (2,288) (API, version 4.0, task daf6066d), high | hit |
-| 2026-10-06 (turn 30) | When to Change the Strategy P5 r1: the scene's second sentence with two clauses, not three; the five percent as the reader's own moment ("So on Wednesday, when you're about to text a friend "I'm fine," you could ask what that grown-up would do, and do about five percent of it. Maybe that's admitting it's been a rough day."), alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | P5 r2: "Next time you're about to text a friend "I'm fine," I'd think about what that grown-up would say instead, and try about five percent of it. "Rough day" might be enough.", alone | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | P5 split in two, r3a (the scene, the first guess, not failed, not out of the exercise yet), alone | Human, medium (my call: its middle has passed every time) | (pending) | |
-| 2026-10-06 (turn 30) | P5 r3b (the next "I'm fine" text, five percent, follow-through, the limits), alone | AI, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 r1 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r2 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 r2 | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r3a + r3b | Human, low (my call) | (pending) | |
-| 2026-10-06 (turn 30) | The h1 with P5 r3a + r3b | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 r1: the scene's second sentence with two clauses, not three; the five percent as the reader's own moment ("So on Wednesday, when you're about to text a friend "I'm fine," you could ask what that grown-up would do, and do about five percent of it. Maybe that's admitting it's been a rough day."), alone | Human, low (my call) | AI Generated, 100% AI (136) (API, version 4.0, task 2ff6bc1c), high | miss |
+| 2026-10-06 (turn 30) | P5 r2: "Next time you're about to text a friend "I'm fine," I'd think about what that grown-up would say instead, and try about five percent of it. "Rough day" might be enough.", alone | Human, low (my call) | AI Generated, 100% AI (133) (API, version 4.0, task 5f837e31), high | miss |
+| 2026-10-06 (turn 30) | P5 split in two, r3a (the scene, the first guess, not failed, not out of the exercise yet), alone | Human, medium (my call: its middle has passed every time) | 100% Human (69) (API, version 4.0, task dde8cbdf), high | hit |
+| 2026-10-06 (turn 30) | P5 r3b (the next "I'm fine" text, five percent, follow-through, the limits), alone | AI, low (my call) | 100% Human (68) (API, version 4.0, task cbac2b95), high | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r1 | Human, low (my call) | 100% Human (1,701) (API, version 4.0, task 29884ecf), high | hit |
+| 2026-10-06 (turn 30) | The h1 with P5 r1 | Human, low (my call) | 100% Human (2,274) (API, version 4.0, task ae408b0f), high | hit |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r2 | Human, low (my call) | Mostly Human, 4% AI (1,698) (API, version 4.0, task 80439720): AI high from "Next time you're about to text a friend" (71) | miss |
+| 2026-10-06 (turn 30) | The h1 with P5 r2 | Human, low (my call) | Mostly Human, 5% AI (2,271) (API, version 4.0, task f9daf416): AI high on P4's "If it's making things worse" (52) and from "Next time you're about to text" (71) | miss |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 r3a + r3b | Human, low (my call) | Mostly Human, 4% AI (1,702) (API, version 4.0, task 6808aae6): AI high on r3b (75) | miss |
+| 2026-10-06 (turn 30) | The h1 with P5 r3a + r3b | Human, low (my call) | Mostly Human, 5% AI (2,275) (API, version 4.0, task 77bca595): AI medium on P4's "If it's making things worse" (52), AI high on r3b (75) | miss |
+| 2026-10-06 (turn 30) | When to Change the Strategy P5 s1: the little one's side ("Your little one already heard the words, and what they're watching for now is Wednesday.", the grounding's GREAT), "rough day" instead of "I'm fine", alone | Human, low (my call: a character's view, the move that passed before) | (pending) | |
+| 2026-10-06 (turn 30) | P5 split, second half b1 ("Your little one already heard the words. What they're watching for now is Wednesday. …"), alone | Human, low-medium (my call) | (pending) | |
+| 2026-10-06 (turn 30) | P5 split, second half b2 ("…an ordinary Wednesday. I'd try about five percent of whatever you did for them, out here…"), alone | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2 and P5 s1 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with P5 s1 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and b1 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with r3a and b1 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10, P4 v2, r3a and b2 | Human, low (my call) | (pending) | |
+| 2026-10-06 (turn 30) | The h1 with r3a and b2 | Human, low (my call) | (pending) | |
