@@ -231,10 +231,24 @@ POINTER_FAIL = re.compile(r"^(?:the\s+)?key\s+(?:here|thing here|point here)\b|^
 # a sentence between punctuation marks: two repeats of the same "and" or "or" are a REVIEW, three a FAIL.
 POLY_SPLIT = re.compile(r"[,;:()\[\]—–]|\s-\s|\s--\s")
 def polysyndeton(s):
+    """The longest chain of one conjunction repeated with short items between (six words or fewer; a pair counts only
+    when the item between is three words or fewer), within a stretch between punctuation marks. "and who would notice
+    and act" is a pair; "a relationship secret from the child's mother or another" is not a chain."""
     worst = 0
     for seg in POLY_SPLIT.split(QUOTED.sub(' ', s)):
+        toks = re.findall(r"[\w'’]+", seg.lower())
         for conj in ('and', 'or'):
-            worst = max(worst, len(re.findall(r'\b%s\b' % conj, seg, re.I)))
+            idx = [i for i, t in enumerate(toks) if t == conj]
+            run = 1; best = 1 if idx else 0
+            for a, b in zip(idx, idx[1:]):
+                gap = b - a - 1
+                run = run + 1 if 1 <= gap <= 6 else 1
+                best = max(best, run)
+            if best == 2:
+                pairs = [b - a - 1 for a, b in zip(idx, idx[1:])]
+                if not any(1 <= g <= 3 for g in pairs):
+                    best = 1
+            worst = max(worst, best)
     return worst
 
 # O12 (Joel, same message): "section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so
@@ -246,6 +260,9 @@ try:
     _SPELL = SpellChecker()
 except Exception:
     _SPELL = None
+# prefixes whose closed form is the usual one ("re-incarnation", "pre-requisite", "contra-indications"); a compound like
+# "grown-up" is left alone
+HYPHEN_PREFIXES = {'re', 'pre', 'contra', 'co', 'non', 'anti', 'counter', 'inter', 'multi', 'semi', 'sub', 'super', 'un', 'over', 'under'}
 def odd_spellings(s):
     if _SPELL is None:
         return []
@@ -258,7 +275,7 @@ def odd_spellings(s):
             continue
         if '-' in t:
             joined = t.replace('-', '')
-            if _SPELL.known([joined]):
+            if t.split('-')[0] in HYPHEN_PREFIXES and _SPELL.known([joined]):
                 out.append(tok + ' (the closed form "%s" is standard)' % joined)
             continue
         if len(t) > 3 and not _SPELL.known([t]):
