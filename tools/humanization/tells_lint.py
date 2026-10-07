@@ -31,8 +31,11 @@ included ("unusual spellings should help pass pangram, but that's also cheating"
 itself up ("These are all questions that…") is a REVIEW ("it was way overcompleting itself").
 O17 (Joel, 2026-10-07 15:05): "may be X and still Y" is a tell ("Humans don't use that as much"): a modal clause tied to
 its consequence by "and still" is a REVIEW.
+O6 reads the grammar when spaCy (en_core_web_sm) and NLTK's WordNet are installed (Joel, 2026-10-07 23:22: a list of
+abstract nouns "sounds brittle... abstract nouns are a real vast open-ended list"); otherwise it falls back to its word
+list and says so in the report.
 """
-import re, sys, argparse, math
+import os, re, sys, argparse, math
 from statistics import mean, pstdev
 
 def clean(t):
@@ -133,6 +136,98 @@ ABSTRACT_AGENT = (r"\b(anger|fear|grief|shame|hurt|pain|longing|loneliness|resen
                   r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won|"
                   r"answers?|answered|settles?|settled|solves?|solved|fix|fixes|fixed|protects?|protected|saves?|saved|"
                   r"heals?|healed|handles?|handled|knows?|knew|decide|choose|refuse|want|try|ask|go|come)\b")
+
+# O6, parsed (Joel, 2026-10-07 23:22, on the list above: "that sounds brittle... is that the best way to handle the
+# abstracts doing things check? abstract nouns are a real vast open-ended list in my mind"). He's right: no list covers
+# an open class. When spaCy (en_core_web_sm) and NLTK's WordNet are installed, the check reads each sentence's grammar
+# instead. It finds each clause's subject, and asks WordNet what kind of thing that noun mostly names: a feeling, an
+# idea, a quality, a state or a motive (abstract), or a person, an animal or a group (who may do anything). For the
+# verb it asks whether WordNet's sentence frames give it only "Somebody" as a subject (answer, decide, refuse, vote)
+# or also "Something" (destroy, prevent, need). A few verbs that also take things but read as a person's act after
+# an idea are added by hand (SEED_PERSON_VERBS). It follows the verb into an infinitive or a participle with no subject
+# of its own ("doesn't get to decide", "goes there, trying to"). It skips everyday phrasal verbs ("wears off", "comes
+# up"), light verbs (do, give, take, make, have, get) and "is going to". On the community article as installed (15,460
+# words, 926 sentences) it flags 13 sentences, most of them real cases ("Modern life trains us", "Nobody's status buys
+# silence", "The vaccination policy arrives two years later carrying documents"), with four misparses; on the Inner
+# Child article, 6, among them "Guilt may keep shouting at you". The word list found one sentence in both articles.
+# Without those libraries the word list above is the fallback, and the report says so.
+SEED_PERSON_VERBS = set("""arrive try want seek demand decide choose refuse push wait hide insist ask teach return travel
+file knock creep sneak wander vote speak whisper settle win answer solve fix protect save heal handle know buy
+train""".split())
+LIGHT_VERBS = set('be do give take make have get keep put let become seem remain stay mean'.split())
+_ABSTRACT_LEX = {'noun.feeling', 'noun.cognition', 'noun.attribute', 'noun.state', 'noun.motive'}
+_ANIMATE_LEX = {'noun.person', 'noun.animal', 'noun.group'}
+_PARSER = None
+
+def parser():
+    """(spaCy pipeline, WordNet) when both are installed, else False."""
+    global _PARSER
+    if _PARSER is None and os.environ.get('TELLS_LINT_PARSE', '1') == '0':
+        _PARSER = False  # turned off: the tests do this, since loading spaCy costs a second or two per run
+    if _PARSER is None:
+        try:
+            import spacy
+            from nltk.corpus import wordnet as wn
+            wn.synsets('fear')  # LookupError when the corpus isn't downloaded
+            _PARSER = (spacy.load('en_core_web_sm'), wn)
+        except Exception:
+            _PARSER = False
+    return _PARSER
+
+def _noun_mostly_abstract(wn, name):
+    ss = wn.synsets(name, 'n')
+    if not ss:
+        return None
+    w = {'animate': 0.0, 'abstract': 0.0, 'other': 0.0}
+    for s in ss:  # each sense weighted by how often it's used (SemCor counts), plus one
+        c = sum(l.count() for l in s.lemmas() if l.name().lower() == name.lower()) + 1
+        w['animate' if s.lexname() in _ANIMATE_LEX else 'abstract' if s.lexname() in _ABSTRACT_LEX else 'other'] += c
+    return w['abstract'] >= 0.5 * sum(w.values())
+
+def _person_verb(wn, lemma):
+    if lemma in LIGHT_VERBS:
+        return False
+    if lemma in SEED_PERSON_VERBS:
+        return True
+    p = t = 0.0
+    for s in wn.synsets(lemma, 'v'):
+        c = sum(l.count() for l in s.lemmas() if l.name().lower() == lemma.lower()) + 1
+        frames = [f for l in s.lemmas() if l.name().lower() == lemma.lower() for f in l.frame_strings()]
+        if frames and not any(f.startswith(('Something', 'It ')) for f in frames):
+            p += c
+        t += c
+    return t > 0 and p / t >= 0.6
+
+def abstract_agents(sentence):
+    """[(noun, verb)] for each clause whose subject is mostly an abstraction doing what a person does; None without
+    the parser."""
+    pw = parser()
+    if not pw:
+        return None
+    nlp, wn = pw
+    out = []
+    for tok in nlp(sentence):
+        if tok.dep_ != 'nsubj' or tok.pos_ != 'NOUN':
+            continue
+        mods = [c for c in tok.children if c.dep_ in ('compound', 'amod')]
+        kinds = [_noun_mostly_abstract(wn, m.lemma_ + '_' + tok.lemma_) for m in mods]
+        kind = next((k for k in kinds if k is not None), None)
+        if kind is None:
+            kind = _noun_mostly_abstract(wn, tok.lemma_)
+        v = tok.head
+        if not kind or v.pos_ not in ('VERB', 'AUX'):
+            continue
+        if any(c.dep_ == 'prt' for c in v.children):
+            continue  # "the euphoria wears off", "anger comes up": everyday phrasal verbs
+        if v.lemma_ == 'go' and any(c.dep_ == 'xcomp' for c in v.children):
+            continue  # "is going to": the future
+        chain = [v] + [c for c in v.children if c.dep_ in ('xcomp', 'advcl') and c.pos_ == 'VERB'
+                       and not any(g.dep_ in ('nsubj', 'nsubjpass', 'expl') for g in c.children)]
+        for x in chain:
+            if x.pos_ == 'VERB' and _person_verb(wn, x.lemma_):
+                out.append((tok.text, x.lemma_))
+                break
+    return out
 
 # E125: lists of three. Joel, 2026-10-03 00:00 UTC, on Start With Whatever Showed Up P1 (66% AI): "P! failed b ecause
 # it has 2 lists of 3. I did a minimal fix and now it's human med conf"; 00:01: "lists of 3 in general are an ai pattern".
@@ -425,7 +520,8 @@ def main():
                 flag('REVIEW', 'E138 the writer\'s own impulse: check the next sentence doesn\'t take it back (Joel 2026-10-07, on "I\'d probably '
                      'want to fix it by saying sweeter and sweeter things, which won\'t work": "this part is contradictory"; his fix gave '
                      'the move to "some people")', s)
-            if re.search(ABSTRACT_AGENT, s, re.I):
+            ag = abstract_agents(s)  # None without the parser: then the word list decides
+            if (ag if ag is not None else re.search(ABSTRACT_AGENT, s, re.I)):
                 flag('REVIEW', 'O6 a feeling or idea doing what a person does: one of the top tells, not a ban, worst when polished or overused; give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
             if re.search(ENOUGH_PAIR, s, re.I):
                 flag('REVIEW', 'O7 polished "X enough to… Y enough to…" pair (Joel 2026-10-02: "devoted enough to practice them and secure enough to disagree" "looks super highly polished")', s)
@@ -527,6 +623,11 @@ def main():
     print(f'== tells_lint: {a.draft}')
     if _SPELL is None:
         print('note: O15 (spelling) skipped, pyspellchecker is not installed (pip install pyspellchecker)')
+    if not parser():
+        print('note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns'
+              + (' (TELLS_LINT_PARSE=0)' if os.environ.get('TELLS_LINT_PARSE') == '0' else '') + '; '
+              'for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; '
+              'python -c "import nltk; nltk.download(\'wordnet\')"')
     print('verdict:', verdict)
     for h in hard: print('  HARD:', h)
     print('metrics:', metrics)
