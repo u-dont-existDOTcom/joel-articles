@@ -139,6 +139,9 @@ def gets_to_subject(s, m):
 # "not Y" tail (O9) and the heading (H1). REVIEW: say the claim plainly; keep the contrast only when the reader needs it.
 NOT_BUT_STILL = re.compile(r"\b(?:isn['’]t|is not|aren['’]t|wasn['’]t|weren['’]t|not|doesn['’]t|don['’]t|didn['’]t|never|no)\b"
                            r"[^.?!;]{0,70}?\b(?:but|though|yet)\b[^.?!;]{0,40}?\bstill\b", re.I)
+# "may X and still Y" (Joel, 2026-10-07 16:46, on "Somebody may really have crossed a boundary and still have hit something
+# old in you": "it makes no sense AND it sounds ai with "may have X and still Y""): a REVIEW in the same family.
+AND_STILL = re.compile(r"\b(?:can|could|may|might|will|would|is|are|was|were)\b[^.?!;]{0,70}?\band (?:yet )?still\b", re.I)
 NOT_SENT = re.compile(r"\b(?:isn['’]t|aren['’]t|wasn['’]t|is not|are not|(?:doesn['’]t|don['’]t|didn['’]t) (?:mean|make|prove|change|count|matter|fix)|not (?:proof|enough|the same|a sign|evidence))\b", re.I)
 STILL_NEXT = re.compile(r"(?:But |And )?(?:it|that|this|they|you)(?:['’]s)? (?:still|can still)\b", re.I)
 # O15 (Joel, 2026-10-07 15:44): "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless
@@ -275,7 +278,7 @@ def heading_checks(raw):
             continue
         h = m.group(1).strip()
         if HEAD_XNOTY.search(h):
-            out.append(('FAIL', 'H1 x-not-y heading (Joel 2026-10-06: "always trying to do an x not y statement ... humans don\'t do x not y as much"); name the thing, as his "The Medicine Part - Yes, I\'m Naming It"', h))
+            out.append(('FAIL', 'H1 x-not-y heading (Joel 2026-10-06: "always trying to do an x not y statement ... humans don\'t do x not y as much"; 2026-10-07: "should be fully banned"); name the thing, as his "The Medicine Part - Yes, I\'m Naming It"', h))
         elif HEAD_NEG.search(h):
             out.append(('REVIEW', 'H1 a negation in a heading: check it isn\'t an x-not-y frame (Joel 2026-10-06)', h))
         for nb in blocks[i + 1:]:
@@ -394,7 +397,7 @@ def main():
             if re.search(ENOUGH_PAIR, s, re.I):
                 flag('REVIEW', 'O7 polished "X enough to… Y enough to…" pair (Joel 2026-10-02: "devoted enough to practice them and secure enough to disagree" "looks super highly polished")', s)
             if re.search(SMUGGLE_FIG, s, re.I):
-                flag('FAIL', 'O8 owner ban: smuggling talk (Joel 2026-10-03: "ai is always saying something like \'not smuggle in\' or something about smuggling in"); say the plain reason, as his "My reasons are given in those articles, respectively, since they need more space."', s)
+                flag('FAIL', 'O8 owner ban: smuggling talk (Joel 2026-10-03: "ai is always saying something like \'not smuggle in\' or something about smuggling in"; 2026-10-07: "should be fully banned"); say the plain reason, as his "My reasons are given in those articles, respectively, since they need more space."', s)
             elif re.search(SMUGGLE, s, re.I):
                 flag('REVIEW', 'O8 "smuggle": literal smuggling can stay; the figurative kind is an owner ban (Joel 2026-10-03)', s)
             if i == 0 and POINTER_FAIL.match(s.strip()):
@@ -404,6 +407,8 @@ def main():
                 flag('REVIEW', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said', s)
             if NOT_BUT_STILL.search(s):
                 flag('REVIEW', 'O14 "not X, but still Y" (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'"): say the claim plainly; keep the contrast only when the reader needs the other side said', s)
+            elif AND_STILL.search(s):
+                flag('REVIEW', 'O14 "may X and still Y" (Joel 2026-10-07 16:46: "it makes no sense AND it sounds ai with \'may have X and still Y\'"): if each half needs saying, give each its own sentence, as his rewrite did', s)
             elif i + 1 < len(ss) and NOT_SENT.search(s) and STILL_NEXT.match(ss[i + 1].strip()) and not is_known(ss[i + 1]):
                 flag('REVIEW', 'O14 "not X. It still Y" across two sentences (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'")', s + ' ' + ss[i + 1])
             for r in CONTRAST:

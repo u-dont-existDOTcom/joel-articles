@@ -134,6 +134,11 @@ class LinterOwnerScopes(unittest.TestCase):
         self.assertIn('O14', self.lint("It isn't proof. It still counts as a good evening.\n"))
         self.assertNotIn('O14', self.lint("She still lives in the house by the river with her two dogs.\n"))
 
+    def test_may_x_and_still_y(self):
+        """Joel, 2026-10-07 16:46: "it makes no sense AND it sounds ai with "may have X and still Y""."""
+        self.assertIn('O14 "may X and still Y"', self.lint("Somebody may really have crossed a boundary and still have hit something old in you.\n"))
+        self.assertNotIn('O14', self.lint("Somebody may really have crossed a boundary. Notice what it hit in you.\n"))
+
     def test_a_list_is_a_review(self):
         out = self.lint("A few people you might call when it gets heavy:\n\n- a friend who listens\n- your sister\n")
         self.assertIn('O15 a list', out)
