@@ -836,3 +836,5 @@ Batch 146g (written 20:24 UTC by `date -u`, before the call; `joel-2021/v146.jso
 
 146g (submitted 20:24:18 to 20:24:22 UTC): mine 0 of 2. v27, with everything Joel approved at 20:21, reads 100% Human as a section, and so does the variant without P22's fourth "as adults". v27 goes in `HUMANIZED-SO-FAR.md`; the variant is a proposal.
 
+
+Joel's message of 23:22 UTC (`joel-2322/joel-20261007-2322.json`): "yes fix p222 take out second adults that's obvious". v28 is 146g's variant, the text that read 100% Human at 20:24:22 UTC (sha 876e29dd7590), so no new call.

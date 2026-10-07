@@ -556,14 +556,13 @@
   },
   {
    "id": "s8-joel-20261007-2021",
-   "what": "Section 8: Joel's texts and OKs of 2026-10-07 20:21 UTC (s8/joel-2021/joel-20261007-2021.json): his new P10, his first paragraph of the last subsection with the published P26's point, P18 \"children\", P22 \"a commitment they make as adults\", P25's last line shortened, and P28's first sentence cut (\"p28 looks better now yes\"). [applied: section 8 v27, 2026-10-07]",
+   "what": "Section 8: Joel's texts and OKs of 2026-10-07 20:21 UTC (s8/joel-2021/joel-20261007-2021.json): his new P10, his first paragraph of the last subsection with the published P26's point, P18 \"children\", P22 \"a commitment they make as adults\", P25's last line shortened, and P28's first sentence cut (\"p28 looks better now yes\"). [applied: section 8 v27, 2026-10-07] P22's \"as adults\" went at 23:22 (entry s8-joel-20261007-2322).",
    "status": "applied",
    "must_contain_exact": [
     "so they weren't as dogmatic as I originally thought.",
     "since that attachment is formed already from years of nursing.",
     "we may see more evolution than if they simply return and continue what their parents started.",
     "Protecting children is the duty of adults, but it requires children to help also.",
-    "which means belonging is a commitment they make as adults.",
     "Belonging and freedom should go hand in hand."
    ],
    "must_not_contain": [
@@ -572,6 +571,18 @@
     "No upbringing can provide perfect freedom",
     "a commitment they choose on their own",
     "it requires them to help also"
+   ]
+  },
+  {
+   "id": "s8-joel-20261007-2322",
+   "what": "Section 8 P22: Joel, 2026-10-07 23:22 UTC: \"take out second adults that's obvious\" (\"a commitment they make as adults\" -> \"a commitment they make\"). [applied: section 8 v28, 2026-10-07]",
+   "status": "applied",
+   "must_contain_exact": [
+    "they're baptized as adults, which means belonging is a commitment they make."
+   ],
+   "must_not_contain": [
+    "a commitment they make as adults",
+    "a commitment they choose on their own"
    ]
   }
  ]
