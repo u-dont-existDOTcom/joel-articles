@@ -325,8 +325,8 @@ def main():
                      'or some specific day like this. on a regular Tuesday is the worst"; SKILL.md "Synthetic specificity"). Keep one only '
                      'when it is a real fact from the source and matters to the thought', s)
             if re.search(r"\b(ordinary|regular|boring|everyday|mundane)\b", s, re.I):
-                flag('REVIEW', 'O12 "ordinary/regular/boring" filler (Joel 2026-10-07: "Ai always saying ordinary boring regular now it\'s '
-                     'regular tuesday"): say what you mean, or cut it', s)
+                flag('REVIEW', 'O12 "ordinary/regular/boring": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
+                     'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"); keep one that says something', s)
             if re.search(r"\b\d+\s*(%|percent)|\b(one|two|three|four|five|ten|twenty|fifty)\s+percent\b|\bo['’]clock\b|\b\d{1,2}(:\d\d)?\s?(am|pm)\b|"
                          r"\bby (lunch|dinner|noon|bedtime|lunchtime)\b|\b(a|one|this|that) (morning|afternoon|evening) of\b", s, re.I):
                 flag('REVIEW', 'O13 a made-up number or clock time (Joel 2026-10-07, on "five percent is enough": "AI wants to put concrete '

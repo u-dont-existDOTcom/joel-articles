@@ -356,3 +356,27 @@ Pangram ran through the dashboard (Joel: "nope, you have to use GUI now. it's a 
 **Predictions:** 28 of 38 scored calls hit (8 rows weren't run). The misses: the queue drafts I called Human after their reviews (B2 and K twice each, F's second version), the C1-and-C2 h2, turn 30's scare fix, the Borrow Love h2 and h1 (an old window I hadn't checked for), and the h1 with "to see whether". The reviewer's tickets didn't rescue a draft that failed whole: of the four second versions, only A's passed, and A was the only one rebuilt around one moment instead of its rules.
 
 **Not done this turn:** B2 and F (two rounds each, all 100% AI), C2's spot, the r4 paragraphs the queue doesn't list (depth and the tolerance pause, pleasantness and dreams, isolation and more than one door), and the E117 window in Ask God for a Loan. Merged after "continue".
+
+## Turn 32 (2026-10-07, from 03:24 UTC): E141, and the queue and r4 paragraphs from fresh writers
+
+Joel: "ok i mean boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI. continue". E141 (a caution isn't a ban) and its sweep: owner_bans.txt, both writer prompts, the gate's two lines, the linter's O12 message and E139's text now say "overused by AI, not a sure tell"; the invented weekday stays a FAIL because SKILL.md says never.
+
+**The drafting.** Five targets, each with a brief listing the guide's points in plain words (`tools/humanization/reviewer/writer_draft.txt` with a length override): B2 (PGQ-001, after B1, which passed on turn 31), F (PGQ-004), and the three r4 groups the queue doesn't list: depth (r4 "That means turning the depth down…", "If you do want the relationship…", "A complete tolerance pause…", after Before You Try to Go Deep's opening), pleasantness (r4 "Do not use pleasantness as the only safety meter…", "If those answers are not known yet…", "Dreams and imagery…", after the somatic map) and isolation (r4 "If isolation itself is part of the wound…", "Look for more than one door…", "Use the Protector here too…", after C1). Three writers each (opus, fresh, reading only their prompt). I picked one per group and two for B2 and F; each pick got a cold read and a grounding, and I applied their fixes. Fifteen drafts and the fixed texts are in the turn-32 run files; the picks and their reviews:
+- B2: w1 (cold read clean; the grounding asked for "genuine", faith and community as well as family, and what you do going by what you care about) and w3 (a question at the end; the grounding called "is it there with real people" a test to run, and "how you actually live" wrong for someone who's kept it hidden).
+- F: w3 and w1 (both groundings: drop "real" from "real danger", since the anxious reader can't judge that; hesitation is the bar for touch and sex; "going deeper" read as sexual right after "sex").
+- Depth w2 (grounding: no open questions; cold read: "just watching" and "symbolic contact" unclear, "something hard" from nowhere; fixed).
+- Pleasantness w2 (grounding MUST: a session that left you worse off calls for several changes at once; "which can take a while to be honest about" turned a no into dishonesty; "what you need" for "what feels needed").
+- Isolation w2 (grounding MUSTs: "unsafe relationship" tied to actually being hurt or threatened; and the guide's honesty paragraph, Also Look Outward's waiting C2, belongs right after "a room where people share something real", so that's C2's spot once this group is in).
+
+**Pangram, alone (dashboard, version 4.0):** 3 of 14 passed.
+- F P2 ("Some of it I wouldn't test at all, even when it sounds like a prediction…"): 100% Human (57), and again after the second review's fix (61; hesitation for touch and sex, a no for going deeper and altered states, as the guide has it).
+- Pleasantness P3 (bring the challenge back gradually; the cauldron; dreams aren't memories): 100% Human (106).
+- 100% AI, the whole paragraph each time: B2 (117; then 128 after a second review round, my rewrite with the common case and real-life patterns), F P1 (101; then 135 after the second round), depth P1 to P3 (95, 114, 116), pleasantness P1 and P2 (103, 111), isolation P1 and P2 (107, 115).
+- Try counts so far: B2 five (turns 31 and 32), F P1 five, F P2 two (both passed), each r4 paragraph one.
+- Nothing went into the article this turn: a paragraph waits for its neighbors (F P2 without P1 says only half of PGQ-004; pleasantness P3 leans on P1 and P2).
+
+**What the results show.** The three that passed are short, or make a first-person stand and then trail off ("It might not be able to tell you why."; "Or to suggest one."), or jump between two topics. Every one that failed walks the brief's points in the brief's order, one ruling per sentence, and the second-round fixes (more conditions, each a MUST) made them longer and more ruled. The writers had my briefs as lists, and they kept the list order (the same thing E135 found on turn 27).
+
+**Predictions:** 5 of 14 hit. I called nine of the eleven first-round paragraphs Human.
+
+**Next:** not another rewording (B10). The method that rescued A Bottom-Up Sequence P4 after eight whole failures (E135): check each failing paragraph's halves alone, find the half that carries the AI, and turn its step into what someone in the scene is thinking. Briefs that give the points without an order. Then C2 after the isolation group's first paragraph.
