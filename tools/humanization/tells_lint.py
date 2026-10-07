@@ -29,6 +29,8 @@ O14, O15 and O16 (Joel, 2026-10-07 01:43; numbered after the Inner Child lane's 
 one stretch without punctuation are a REVIEW, three a FAIL); an unusual spelling or hyphenation is a REVIEW, his lines
 included ("unusual spellings should help pass pangram, but that's also cheating"); a paragraph that closes by summing
 itself up ("These are all questions that…") is a REVIEW ("it was way overcompleting itself").
+O17 (Joel, 2026-10-07 15:05): "may be X and still Y" is a tell ("Humans don't use that as much"): a modal clause tied to
+its consequence by "and still" is a REVIEW.
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -115,13 +117,22 @@ NOT_TAIL = re.compile(r"^(?P<head>.*\w.*?)(?:,|\s[—–]|\s--)\s+(?:and\s+)?(?:
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
 # there, trying to get some justice" to "so the angry communard goes there"). REVIEW only: an idiom can stay, and so
 # can his own words. It catches the noun right before the verb, so a subject with a long clause after it slips by.
+# 2026-10-07 20:21, on community section 8 P28's "goodwill doesn't answer those questions": "that AI tell again, in the
+# linter. abstracts doing things." The check had missed it: "goodwill" wasn't in the list, a negation ("doesn't",
+# "won't", "can't") stood between the noun and the verb, and "answer" wasn't a verb it knew. The sentence read AI in
+# about 25 wordings, and almost every first sentence drafted for it kept goodwill as the one answering; the cut passed.
 ABSTRACT_AGENT = (r"\b(anger|fear|grief|shame|hurt|pain|longing|loneliness|resentment|jealousy|envy|desire|rage|guilt|"
-                  r"sadness|anxiety|panic|feelings?|emotions?|objection|vision|insight|truth|idea|wish|need|hope|love|trust)"
-                  r"\s+(?:\w+ly\s+)?(goes|went|comes|came|arrives|arrived|tries|tried|wants|wanted|seeks|sought|demands|"
+                  r"sadness|anxiety|panic|feelings?|emotions?|objection|vision|insight|truth|idea|wish|need|hope|love|trust|"
+                  r"goodwill|good will|good intentions?|kindness|ideology)"
+                  r"\s+(?:(?:\w+ly|alone|still|also|just|doesn['’]t|does not|didn['’]t|did not|won['’]t|will not|can['’]t|"
+                  r"cannot|can not|never)\s+){0,2}"
+                  r"(goes|went|comes|came|arrives|arrived|tries|tried|wants|wanted|seeks|sought|demands|"
                   r"demanded|decides|decided|chooses|chose|refuses|refused|pushes|pushed|waits|waited|hides|hid|insists|"
                   r"insisted|asks|asked|teaches|taught|shows up|showed up|returns|returned|travels|traveled|files|filed|"
                   r"knocks|knocked|creeps|crept|sneaks|snuck|wanders|wandered|votes|voted|speaks|spoke|whispers|whispered|"
-                  r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won)\b")
+                  r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won|"
+                  r"answers?|answered|settles?|settled|solves?|solved|fix|fixes|fixed|protects?|protected|saves?|saved|"
+                  r"heals?|healed|handles?|handled|knows?|knew|decide|choose|refuse|want|try|ask|go|come)\b")
 
 # E125: lists of three. Joel, 2026-10-03 00:00 UTC, on Start With Whatever Showed Up P1 (66% AI): "P! failed b ecause
 # it has 2 lists of 3. I did a minimal fix and now it's human med conf"; 00:01: "lists of 3 in general are an ai pattern".
@@ -289,6 +300,12 @@ def odd_spellings(s):
 SUMMARY_CLOSE = re.compile(r"^(?:these|those|all (?:of )?(?:these|those|this)|this|that)(?:\s+\w+){0,2}\s+(?:are|is|were)\s+all\b"
                            r"|^(?:all (?:of )?(?:these|those|this)|this is (?:all )?why|that['’]?s (?:all )?why|in short|in the end|"
                            r"ultimately|taken together|in sum|to sum up)\b", re.I)
+# O17 (Joel, 2026-10-07 15:05, on community section 8 P18's "A scared or confused kid may get mixed up telling it and
+# still need protection"): "Another AI tell is 'may be X and still Y' make sure that's in the shared tells list. Humans
+# don't use that as much." The same section's P14 had "Fear like that can destroy that gift and still not prevent
+# abuse". A REVIEW: say the two things plainly and keep the original's modal over both halves ("can destroy that gift,
+# and it might not even prevent abuse" passed Pangram in the whole section and kept the possibility).
+STILL_TAIL = re.compile(r"\b(?:may|might|can|could|will|would|should|must)\b[^.!?;:]{1,80}?\band\s+still\b", re.I)
 POINTER_HEAD = re.compile(r"^(?:this|that|these|those|it|here|there|the other|another|such)\b(?!\s+(?:is a|are)\b)", re.I)
 
 def heading_checks(raw):
@@ -447,6 +464,8 @@ def main():
                 flag('REVIEW', 'O14 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate\'s trick in a list (Joel 2026-10-07)', s)
             if i == len(ss) - 1 and len(ss) >= 3 and SUMMARY_CLOSE.match(s.strip()):
                 flag('REVIEW', 'O16 a closing line that sums the paragraph up (Joel 2026-10-07: "it was way overcompleting itself"): propose the cut to him, quoted, with your opinion; don\'t cut it yourself', s)
+            if STILL_TAIL.search(s):
+                flag('REVIEW', 'O17 "may be X and still Y" (Joel 2026-10-07 15:05: "Another AI tell is \'may be X and still Y\' ... Humans don\'t use that as much"): say both things plainly and keep the modal over both halves', s)
             if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", ' '.join(s.split()[:8]), re.I):
                 flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
             if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):

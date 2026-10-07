@@ -14,7 +14,16 @@ Usage (from the repo root):
   --report   where the agent writes its report; without it, the agent returns the report as its final message
   --images   a JSON file mapping an image's label ("image 7") to what it shows; such an image appears to the agent as
              "[an image: …]" instead of "[an image]"
+  --positions  a text file of the author's positions stated since publication (dated, his words quoted); they win over
+             the essay where the two differ (2026-10-07)
+  --owner    a text file of the rewrite's paragraphs the author wrote himself (blank lines between them): his current
+             position, never reported as conflicting with the published passage they replace (2026-10-07 20:21)
   --out      the prompt file to write
+
+The agent also lists, separately, the places where the published text contradicts itself or the rest of the essay,
+even where the rewrite fixed them (Joel, 2026-10-07 15:05, on a published paragraph that told children their words
+carry weight and then said the teaching had nothing to do with dismissing a report: "Totally contradicting itself ...
+The reviewer didn't notice that?").
 
 Images carry content (Joel, 2026-10-02 23:49, on "These categories" in community section 4 P5: "they are the four parts
 from the prior section. the actual article uses an image."). Three cold reads had flagged the four parts as never
@@ -46,7 +55,17 @@ Your job: for every sentence in THE REWRITE that states the author's position, a
 
 For each, quote the rewrite's sentence, quote the essay's passage it conflicts with (and say which section that passage is in), and say in one line what a reader would wrongly come away believing. Don't report style, wording that keeps the meaning, or things that are merely missing. If a sentence is fine, don't list it. Don't suggest rewrites. Keep each quote under 25 words.
 
-Keep the whole report under 1,200 words. Then end with one line: the number of conflicts you found."""
+Then, in a separate part headed "Contradictions in the published text", list every place where the published version of {scope} contradicts itself (one sentence takes back what another says) or contradicts the rest of the essay, even where the rewrite has already fixed it, and say whether the rewrite still has it. The published text isn't the authority here: {author} wrote it with an AI's help, and has had to fix contradictions in it that every check before this one missed. On 2026-10-07 he found a published paragraph that said children's words carry weight, so they must learn to be honest, then said the teaching had nothing to do with dismissing a report: "Totally contradicting itself ... The reviewer didn't notice that?"{positions_job}
+
+Keep the whole report under 1,500 words. Then end with one line: the number of conflicts you found in the rewrite, and the number of contradictions in the published text."""
+
+POSITIONS_JOB = """
+
+{author} has also stated positions since the essay was published (THE AUTHOR'S STATED POSITIONS, below the rewrite). They win over the essay where the two differ. Report a rewrite sentence that conflicts with one of them as a conflict like the others, and list a published passage that conflicts with one of them under the contradictions part. On 2026-10-07, a published sentence said a dangerous child's case needs review "that the home community does not control", and {author} answered: "Why should the home community not control the interaction they have with outside? That would violate my entire guide to force communities to accept outside intervention." """.rstrip()
+
+OWNER_JOB = """
+
+The paragraphs listed under THE AUTHOR'S OWN REWRITES (below the rewrite) are {author}'s own words, written after the essay was published: they are his current position. Don't report one of them as conflicting with the published version of the same passage, or with a published passage he cut. Before calling one narrower or weaker than the published text, check what it adds: a condition or a reason can be the explanation the published sentence lacked. Report one of them only where it conflicts with a part of the essay he hasn't rewritten, and put it as a question for him in a part of its own headed "Questions on the author's own paragraphs". On 2026-10-07 this check called his new paragraph narrower than the published one, and he answered: "you're wrong, it says more than the published version. The published version says the community can do much of the fathering, but why does it say that? doesn't explain. My version explains." """.rstrip()
 
 TAIL_RETURN = "Use no tools except reading this one file: don't open, list or search anything else, don't run commands, and don't use the web. Return the report as your final message."
 TAIL_WRITE = "Use no tools except reading this one file and writing your report to {report} with one Write call: don't open, list or search anything else, don't run commands, and don't use the web. Then return the report as your final message."
@@ -68,11 +87,17 @@ def clean(md, images=None):
     return re.sub(r'\n{3,}', '\n\n', md).strip()
 
 
-def build(essay, rewrite, scope='the rewritten sections', topic="the article's subject", author='Joel', report=None, images=None):
-    head = INSTRUCTIONS.format(scope=scope, author=author, topic=topic)
+def build(essay, rewrite, scope='the rewritten sections', topic="the article's subject", author='Joel', report=None, images=None,
+          positions=None, owner=None):
+    """`positions`: the author's dated statements of his views, newer than the essay (2026-10-07), or None.
+    `owner`: the paragraphs of the rewrite that the author wrote himself, one per paragraph, or None (2026-10-07 20:21)."""
+    pj = (POSITIONS_JOB.format(author=author) if positions else '') + (OWNER_JOB.format(author=author) if owner else '')
+    head = INSTRUCTIONS.format(scope=scope, author=author, topic=topic, positions_job=pj)
     tail = TAIL_WRITE.format(report=report) if report else TAIL_RETURN
+    stated = ("THE AUTHOR'S STATED POSITIONS (newer than the essay):\n" + positions.strip() + '\n\n') if positions else ''
+    own = ("THE AUTHOR'S OWN REWRITES (his words; they appear in the rewrite above too):\n" + clean(owner, images) + '\n\n') if owner else ''
     return (head + '\n\nTHE WHOLE PUBLISHED ESSAY:\n' + clean(essay, images) + '\n\nTHE REWRITE (' + scope + '):\n'
-            + clean(rewrite, images) + '\n\n' + tail + '\n')
+            + clean(rewrite, images) + '\n\n' + stated + own + tail + '\n')
 
 
 def main():
@@ -85,10 +110,14 @@ def main():
     ap.add_argument('--author', default='Joel')
     ap.add_argument('--report')
     ap.add_argument('--images', help='JSON: image label -> what it shows')
+    ap.add_argument('--positions', help="a text file of the author's stated positions since publication, dated, his words quoted")
+    ap.add_argument('--owner', help="a text file of the rewrite's paragraphs the author wrote himself")
     a = ap.parse_args()
     p = build(pathlib.Path(a.essay).read_text(encoding='utf-8'), pathlib.Path(a.rewrite).read_text(encoding='utf-8'),
               a.scope, a.topic, a.author, a.report,
-              json.loads(pathlib.Path(a.images).read_text(encoding='utf-8')) if a.images else None)
+              json.loads(pathlib.Path(a.images).read_text(encoding='utf-8')) if a.images else None,
+              pathlib.Path(a.positions).read_text(encoding='utf-8') if a.positions else None,
+              pathlib.Path(a.owner).read_text(encoding='utf-8') if a.owner else None)
     out = pathlib.Path(a.out); out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(p, encoding='utf-8')
     print('%s: %d words' % (out, len(p.split())))
