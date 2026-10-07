@@ -103,6 +103,49 @@ class LinterAbstractAgents(unittest.TestCase):
         self.assertNotIn('O6', out)
 
 
+class LinterJoelRulings20261007(unittest.TestCase):
+    """O11, O12 and O13 (Joel, 2026-10-07 01:43): Emulate's "and and and" list, unusual spellings, overcompleting."""
+    def lint(self, text):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / 'draft.txt'
+            f.write_text(text, encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f)], capture_output=True, text=True)
+            return r.stdout
+
+    def test_emulates_and_list_fails_and_his_commas_pass(self):
+        emu = ("It's not like calling something by a certain name dissolves the childhood panic and the comparison and the "
+               "terror of abandonment and the desire to control another person.\n")
+        out = self.lint(emu)
+        self.assertIn('O11 owner ban', out)
+        self.assertIn('verdict: FAIL', out)
+        his = ("It's not like calling something by a certain name dissolves the childhood panic, the comparison, the terror "
+               "of abandonment, or the desire to control another person.\n")
+        self.assertNotIn('O11', self.lint(his))
+        self.assertIn('O11 two repeated', self.lint('We had bread and butter and jam on the porch every morning that summer.\n'))
+
+    def test_unusual_spellings_are_flagged_even_in_his_lines(self):
+        try:
+            import spellchecker  # noqa: F401
+        except ImportError:
+            self.skipTest('pyspellchecker is not installed')
+        out = self.lint('It gets double dipped with the objection that psychedelics are also priveleged escape pods.\n')
+        self.assertIn('O12', out)
+        self.assertIn('priveleged', out)
+        out = self.lint('They told them they are the re-incarnation of King David and Elvis, more or less.\n')
+        self.assertIn('re-incarnation', out)
+        out = self.lint('It gets double dipped with the objection that psychedelics are also privileged escape pods.\n')
+        self.assertNotIn('O12', out)
+        self.assertNotIn('O12', self.lint('If people are doing free love, but aren\'t doing the inner pl/ork, they end up with more fear.\n'))
+
+    def test_a_closing_summary_is_flagged(self):
+        para = ("Medical care is one of the toughest dependencies to work out. The community should think through how members "
+                "are going to have access to care. What things might require outside dollars or some form of insurance? "
+                "These are all questions that a community should consider in advance.\n")
+        self.assertIn('O13', self.lint(para))
+        his = para.replace(' These are all questions that a community should consider in advance.', '')
+        self.assertNotIn('O13', self.lint(his))
+
+
 class LinterListsOfThree(unittest.TestCase):
     """E125 (Joel, 2026-10-03): "P! failed b ecause it has 2 lists of 3"; "lists of 3 in general are an ai pattern"."""
     FAILED_P1 = ("You might go looking for your little one and get mad instead, or realize you've been staring at the rug. "
