@@ -29,6 +29,8 @@ O14, O15 and O16 (Joel, 2026-10-07 01:43; numbered after the Inner Child lane's 
 one stretch without punctuation are a REVIEW, three a FAIL); an unusual spelling or hyphenation is a REVIEW, his lines
 included ("unusual spellings should help pass pangram, but that's also cheating"); a paragraph that closes by summing
 itself up ("These are all questions that…") is a REVIEW ("it was way overcompleting itself").
+O17 (Joel, 2026-10-07 15:05): "may be X and still Y" is a tell ("Humans don't use that as much"): a modal clause tied to
+its consequence by "and still" is a REVIEW.
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -289,6 +291,12 @@ def odd_spellings(s):
 SUMMARY_CLOSE = re.compile(r"^(?:these|those|all (?:of )?(?:these|those|this)|this|that)(?:\s+\w+){0,2}\s+(?:are|is|were)\s+all\b"
                            r"|^(?:all (?:of )?(?:these|those|this)|this is (?:all )?why|that['’]?s (?:all )?why|in short|in the end|"
                            r"ultimately|taken together|in sum|to sum up)\b", re.I)
+# O17 (Joel, 2026-10-07 15:05, on community section 8 P18's "A scared or confused kid may get mixed up telling it and
+# still need protection"): "Another AI tell is 'may be X and still Y' make sure that's in the shared tells list. Humans
+# don't use that as much." The same section's P14 had "Fear like that can destroy that gift and still not prevent
+# abuse". A REVIEW: say the two things plainly and keep the original's modal over both halves ("can destroy that gift,
+# and it might not even prevent abuse" passed Pangram in the whole section and kept the possibility).
+STILL_TAIL = re.compile(r"\b(?:may|might|can|could|will|would|should|must)\b[^.!?;:]{1,80}?\band\s+still\b", re.I)
 POINTER_HEAD = re.compile(r"^(?:this|that|these|those|it|here|there|the other|another|such)\b(?!\s+(?:is a|are)\b)", re.I)
 
 def heading_checks(raw):
@@ -447,6 +455,8 @@ def main():
                 flag('REVIEW', 'O14 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate\'s trick in a list (Joel 2026-10-07)', s)
             if i == len(ss) - 1 and len(ss) >= 3 and SUMMARY_CLOSE.match(s.strip()):
                 flag('REVIEW', 'O16 a closing line that sums the paragraph up (Joel 2026-10-07: "it was way overcompleting itself"): propose the cut to him, quoted, with your opinion; don\'t cut it yourself', s)
+            if STILL_TAIL.search(s):
+                flag('REVIEW', 'O17 "may be X and still Y" (Joel 2026-10-07 15:05: "Another AI tell is \'may be X and still Y\' ... Humans don\'t use that as much"): say both things plainly and keep the modal over both halves', s)
             if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", ' '.join(s.split()[:8]), re.I):
                 flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
             if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):

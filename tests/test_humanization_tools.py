@@ -145,6 +145,16 @@ class LinterJoelRulings20261007(unittest.TestCase):
         his = para.replace(' These are all questions that a community should consider in advance.', '')
         self.assertNotIn('O16', self.lint(his))
 
+    def test_may_be_x_and_still_y_is_flagged(self):
+        """O17 (Joel, 2026-10-07 15:05): "Another AI tell is 'may be X and still Y'"."""
+        for s in ("A scared or confused kid may get mixed up telling it and still need protection.\n",
+                  "Fear like that can destroy that gift and still not prevent abuse.\n"):
+            self.assertIn('O17', self.lint(s), s)
+        for s in ("A scared or confused kid may get mixed up telling what happened, and that's to be expected.\n",
+                  "Fear like that can destroy that gift, and it might not even prevent abuse.\n",
+                  "We waited an hour and still nobody came, so we went home.\n"):
+            self.assertNotIn('O17', self.lint(s), s)
+
 
 class LinterListsOfThree(unittest.TestCase):
     """E125 (Joel, 2026-10-03): "P! failed b ecause it has 2 lists of 3"; "lists of 3 in general are an ai pattern"."""
@@ -222,6 +232,55 @@ class StanceCheckPrompt(unittest.TestCase):
         p = stance_check_prompt.build('Essay.', 'Rewrite.')
         self.assertIn('Return the report as your final message.', p)
         self.assertNotIn('Write call', p)
+
+    def test_published_contradictions_and_stated_positions(self):
+        """Joel, 2026-10-07 15:05: the published text contradicted itself and no reviewer said so; his newer positions win."""
+        p = stance_check_prompt.build('Essay.', 'Rewrite.', positions='2026-10-07: the home community controls its outside interactions.')
+        self.assertIn('Contradictions in the published text', p)
+        self.assertIn("THE AUTHOR'S STATED POSITIONS (newer than the essay):", p)
+        self.assertLess(p.index('THE REWRITE ('), p.index("THE AUTHOR'S STATED POSITIONS (newer"))
+        q = stance_check_prompt.build('Essay.', 'Rewrite.')
+        self.assertIn('Contradictions in the published text', q)
+        self.assertNotIn("STATED POSITIONS", q)
+
+
+class RenderInContextHeadings(unittest.TestCase):
+    """Joel, 2026-10-07 15:05: "P7 is in the wrong section. You moved it ... why?" The article was right; the page's map
+    had grouped P7 with the rows of the heading before it."""
+    ART = '# Title\n\nFirst paragraph here.\n\n## Second Heading\n\nSeventh paragraph here.\n\nEighth paragraph here.\n'
+
+    def render(self, blocks):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ART, encoding='utf-8')
+            (d / 'm.json').write_text(json.dumps({'title': 'T', 'blocks': blocks}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'render_in_context.py'), str(d / 'm.json'), str(d / 'o.html'),
+                                '--article', str(d / 'a.md'), '--source', str(d / 'a.md'), '--against-source'],
+                               capture_output=True, text=True)
+            return r.returncode, r.stdout + r.stderr, (d / 'o.html').exists()
+
+    @staticmethod
+    def row(label, start):
+        return {'label': label, 'article': start, 'source': [start]}
+
+    def test_a_row_under_the_wrong_heading_stops_the_page(self):
+        rc, out, made = self.render([{'headings': ['# Title'], 'rows': [self.row('P1', 'First'), self.row('P7', 'Seventh')]},
+                                     {'headings': ['## Second Heading'], 'rows': [self.row('P8', 'Eighth')]}])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('P7 is under "second heading" in the article but under "title" on the page', out)
+        self.assertFalse(made)
+
+    def test_rows_out_of_order_stop_the_page(self):
+        rc, out, made = self.render([{'headings': ['# Title'], 'rows': [self.row('P1', 'First')]},
+                                     {'headings': ['## Second Heading'], 'rows': [self.row('P8', 'Eighth'), self.row('P7', 'Seventh')]}])
+        self.assertIn('P7 comes before the row above it in the article', out)
+        self.assertFalse(made)
+
+    def test_rows_under_their_own_headings_render(self):
+        rc, out, made = self.render([{'headings': ['# Title'], 'rows': [self.row('P1', 'First')]},
+                                     {'headings': ['## Second Heading'], 'rows': [self.row('P7', 'Seventh'), self.row('P8', 'Eighth')]}])
+        self.assertEqual(rc, 0, out)
+        self.assertTrue(made)
 
 
 if __name__ == '__main__':
