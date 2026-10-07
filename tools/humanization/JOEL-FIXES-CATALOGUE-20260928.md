@@ -436,6 +436,38 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
 - **Notes he can read.** "idk what you were trying to say with 'An agreement, not each member's burden; all five protections.'" A note on the side-by-side page is plain sentences.
 - **His question.** "why is it that words you write yourself are AI still? we should be making progress on learning to stop that. i think innerchild article is making progress on that without emulate, so you are using the same lessons as that chat right?" (Answered in the reply of that turn; the section 7 numbers are in `docs/HUMANIZATION-GATE.md`, "What section 7's runs taught".)
 - "continue".
+## Joel's notes, 2026-10-04 05:48 and 05:50 UTC (stopping)
+
+- "i am confused. why did you stop there. you want me to help or what?" (E136)
+- "no worries on pangram checks i have a ton of them this month because i'm working on a bunch of articles"
+- No "continue".
+
+## Joel's fixes and notes, 2026-10-06 19:04 UTC (When to Change the Strategy, the yawn, the update queue)
+
+- **P1, meaning:** "your P1 is missing most of the actual meaning of the original. The original is asking to see what exactly is blocking rather than giving up on everything." Turn 29 had cut the guide's blockers as a repeat, and the instruction they served went with them. Now P1 says it outright: "Before either one, I'd look for what exactly is in the way. … Whatever it turns out to be, I'd work on that one thing instead of giving up on everything." (E137)
+- **P1, logic:** "the original said if you're trying to comfort but the adult function is not really there, you changed that to if it WAS comforting ... and now it doesn't amke sense. why would it be comforting if adult was not there? what caused you to be so illogical here?" Turn 29's "And if it was comforting your little one, was the loving grown-up really there?" is now "Maybe you've been trying to comfort your little one for weeks, and the words are all there, but the loving grown-up behind them isn't, not yet." (E137)
+- **P2's ending, his sentences word for word:** "And if you keep doing it right and what was supposed to happen still doesn't, I think you've learned something real about it. Something with clearly better research behind it is worth switching for too." became "And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with. Either way, I'd like to hear about it!" His reason: "you took something vague "better-supported route" and instead of clarifying what the guide is saying, you made it seem like they should go do some other research to find what works for people on average or somethign which the guide is actually not about." Checked alone, in the h2 and in the h1 (he hadn't said he'd checked it): 100% Human, high each time.
+- **P3 cut:** "P3 honestly looks like it could be cut." (the trap of explaining away every miss; his P2 sentences carry its point)
+- **The yawn:** "it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge. so that's an interesting angle for that. sort of the opposite of how most people would think of it in this case." Now: "(even a yawn can come with an "I'm so done with this" feeling)" … "That yawn might actually be the opposite, though. Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out."
+- **The updates:** "also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates" (innerSignalGraph's PENDING-PUBLIC-GUIDE-CHANGES.md; where each goes: articles/inner-child-therapy/GUIDE-UPDATE-QUEUE-20261006.md).
+- No "continue".
+
+## Joel's fixes and notes, 2026-10-07 01:09 UTC (Two Common Protective Patterns, When to Change the Strategy, the queue)
+
+- **Two Common Protective Patterns P2, a referent:** "Your "Both kinds" is referring to what? it's hard to understand since you've now talked about two different inerpretations of yawning. you should specify both waht." Now: "The skeptic and the pull both started out trying to prevent something that really hurt" (with "That yawn might actually be the opposite of checking out, though.", from the turn-30 cold reads).
+- **When to Change the Strategy P1, a word:** "you should change "getting ready to," to getting ready,"".
+- **P2, a contradiction (E138):** "this part is contradictory: "I'd probably want to fix it by saying sweeter and sweeter things, which won't work, and I wouldn't decide reparenting is useless over it, either. I'd borrow that grown-up first." change to this, it's human on pangram:" and his paragraph, word for word: "Maybe you've been trying to comfort your little one for weeks, and the words are all there, but the loving grown-up behind them isn't, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just "throw the baby out with the bathwater," and decide reparenting is useless. I'd borrow that grown-up first. Then try again, and see if your little one can tell the difference." The move: the mistaken try goes to "some people", not "I".
+- **Weekdays (E139):** "PGQ-012 you are forgetting the rules abouut Tuesday and Wednesday etc. i told you, AI is always saying Tuesday, on Tuesday, or some specific day like this. on a regular Tuesday is the worst. Ai always saying ordinary boring regular now it's regular tuesday heheheh combinding all the ai tells". Queue draft A's "shows up on a regular Tuesday too" is "shows up out here too" (then rewritten for Pangram), P5's "by Wednesday" is "a few days later".
+- **Numbers (E139):** "it's ok to say 5% is enough altho i feel it's a bit ai, like AI wants to put concrete numbers on stuff all the time, then people are wondering "how much is 5%?"". P5 says "a tiny bit of it".
+- **The Pangram route:** "nope, you have to use GUI now. it's a diff google account from before tho".
+- **The r4 guide:** "r4 guide ok, yeah if it has new stuff add that, i thought i had given you that but maybe not, just make sure it's not duplicating stuff".
+- **A question that came from nowhere (E140):** "i'd prob consider a diff dr, maybe same sex etc or whichever one doesn't seem to creep them out. if their reactions are overly broad they can do some inner child reparenting on it, but might bea useful signal to take seriously, some drs are creeps. but your question is coming from where? it wasn't talking about a doctor touching someone. it was saying some sensations need medical checking."
+- "continue" (merge at the end of the turn).
+
+## Joel's note, 2026-10-07 03:24 UTC (cautions and bans)
+
+- "ok i mean boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI." (E141: a frequency signal is a caution, not a ban; his own "ordinary life" and "boring" stay.)
+- "continue".
 
 ## Joel's answers and fixes, 2026-10-07 01:43 UTC (community sections 5, 6 and 7)
 

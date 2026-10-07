@@ -124,13 +124,13 @@
   {
    "id": "good-enough",
    "status": "applied",
-   "what": "\"your five percent\" becomes \"good enough for a start\".",
+   "what": "\"your five percent\" becomes \"good enough for a start\". (Turn 30: the check is narrowed to \"your five percent\", the phrase he replaced, because the update queue's PGQ-013 puts \"five percent\" in When to Change the Strategy P5; the five-percent-question entry asks him.)",
    "joel": "16:29",
    "must_contain": [
     "is good enough for a start, so try it before you call next time"
    ],
    "must_not_contain": [
-    "five percent"
+    "your five percent"
    ]
   },
   {
@@ -1055,13 +1055,13 @@
   {
    "id": "two-protective-patterns-h3",
    "status": "applied",
-   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy).",
-   "joel": "2026-10-03 21:18 UTC: \"continue\"",
+   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy). Turn 30: P2's yawning example reworked per Joel (2026-10-06 19:04 UTC) with the Re-evaluation Counseling angle. Turn 31: \"The skeptic and the pull both\" for \"Both kinds\" (Joel), and \"the opposite of checking out\".",
+   "joel": "2026-10-03 21:18 UTC: \"continue\"; 2026-10-06 19:04 UTC (yawning): \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
     "### Two Common Protective Patterns",
     "Two kinds of reaction really are trying to protect you, more often than not. The first one is on duty all the time, and it can sound like a skeptic: \"You're just making this up.\" It may have spent years keeping you from being humiliated again, or left again. That's a long time to stay on guard. It might be tired by now, but it's experienced and good at what it does. It has probably watched you get excited about other healing things, then drop them.",
-    "The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (you might start yawning, even though you slept well). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. Both kinds started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. Treating either one like an enemy, or like proof that something's wrong with you, usually gives it one more reason to stay in charge. I wonder what it would do if it didn't have to."
+    "The other one shows up when you get close to something painful, as a sudden pull to do anything but feel it (even a yawn can come with an \"I'm so done with this\" feeling). It might believe there's no grown-up around who could hold what's coming up. I'd want out too. That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out. The skeptic and the pull both started out trying to prevent something that really hurt, and they can keep at it even when what they do now hurts you. If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge. I wonder what it would do if it didn't have to."
    ]
   },
   {
@@ -1106,7 +1106,7 @@
    "must_contain_exact": [
     "### Hear the Protective Part First",
     "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" It might say this will just be one more performance, and you'll fool yourself again.",
-    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, whether there's a grown-up here now who could call it off if things got to be too much. If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all. If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
+    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all. If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
    ],
    "order": [
     "Two Common Protective Patterns",
@@ -1120,14 +1120,219 @@
   {
    "id": "bus-p4-proposal",
    "status": "applied",
-   "what": "Hear the Protective Part First P4's third sentence has the clarity fix Joel liked, less its \"to see\" (the whole proposal put AI windows into the h3 and h1): \"I think watching is what it wants anyway, whether there's a grown-up here now who could call it off if things got to be too much\".",
+   "what": "Hear the Protective Part First P4's third sentence has the clarity fix Joel liked, less its \"to see\" (the whole proposal put AI windows into the h3 and h1): \"I think watching is what it wants anyway, whether there's a grown-up here now who could call it off if things got to be too much\". Turn 31 (E137 sweep): \"whether\" alone can read as \"whether or not\", so it's \"to find out if\" now; \"to see whether\" drew its h1 window again.",
    "joel": "2026-10-04 03:58 UTC: \"i liked the proposal at the end yeah\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "and I think watching is what it wants anyway, whether there's a grown-up here now who could call it off if things got to be too much."
+    "and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much."
    ],
    "must_not_contain": [
     "and I think that's what it wants to see anyway, whether there's a grown-up here now who could stop if things got to be too much."
+   ]
+  },
+  {
+   "id": "tp-p2-see-i-knew-it",
+   "status": "claim",
+   "what": "Claim check: Two Common Protective Patterns P2's fifth sentence voices the part's own thought (turn 29), where it said the treatment \"usually gives it one more reason to stay in charge\".",
+   "joel": "2026-10-04 05:48 UTC: \"why did you stop there\"; 05:50 UTC: \"no worries on pangram checks\" (the h1's last AI window, fixed here)",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "If you treat either one like an enemy, or like proof that something's wrong with you, it'll probably just think \"See? I knew it,\" and stay in charge."
+   ],
+   "must_not_contain": [
+    "usually gives it one more reason to stay in charge"
+   ]
+  },
+  {
+   "id": "wcs-h3",
+   "status": "claim",
+   "what": "Claim check: the guide's h3 When to Change the Strategy (r4) is installed after Hear the Protective Part First, redone on turn 30 in five paragraphs: P1 find what exactly is in the way and work on that one thing instead of giving up on everything; P2 Joel's, the comfort example (some people try sweeter words, then throw the baby out with the bathwater; borrow the grown-up first); P3 match the claim to the duration (PGQ-005); P4 how many tries, the reasons to change course, a protective part's \"nope\" heard out first, and Joel's three sentences; P5 the exercise goes well and the week doesn't change (PGQ-013) with its limits. Turn 31: Joel's P1 and P2 fixes; P3 without clock times; P4's protective \"no\" counts; P5 without the weekday, the first-person first guess or \"five percent\".",
+   "joel": "2026-10-04 03:58 UTC: \"continue\"; 2026-10-06 19:04 UTC: \"your P1 is missing most of the actual meaning of the original. The original is asking to see what exactly is blocking rather than giving up on everything.\"; \"P3 honestly looks like it could be cut.\"; 2026-10-07 01:09 UTC: \"you should change \"getting ready to,\" to getting ready,\"\" and his P2",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "### When to Change the Strategy",
+    "Weeks in and nothing much is changing? I'd want to quit too, or else keep doing the exact same thing forever so I never had to find out. Before either one, I'd look for what exactly is in the way. Sometimes those weeks were mostly reading about it and getting ready, which can feel a lot like doing it (this article included). Or you did sit down with your little one, and fear got there first, or a part of you that's trying to protect you. It can be as plain as never having the place to yourself. Whatever it turns out to be, I'd work on that one thing instead of giving up on everything.",
+    "Maybe you've been trying to comfort your little one for weeks, and the words are all there, but the loving grown-up behind them isn't, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just \"throw the baby out with the bathwater,\" and decide reparenting is useless. I'd borrow that grown-up first. Then try again, and see if your little one can tell the difference.",
+    "One more thing about telling whether it helped. A few hours of feeling lighter, with the old feeling back the same day, is a few hours of relief. I'd take that! But I wouldn't decide from it that the problem's over, or even that the exercise did it, especially if you also slept well for once. Write down what changed and how long it lasted if you want, and then leave it alone.",
+    "How many tries is enough? I really don't know, and I'd be suspicious of anyone who promises you a number, including you, since some things shift in a day and some take about as long as learning guitar. If it's making things worse, or you just can't do it right now, I'd change course sooner (stopping counts). Not wanting to do it anymore is a reason too, but if that \"nope\" sounds like a part of you that's trying to protect you, I'd hear it out first. If it still says no, that's your answer. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with. Either way, I'd like to hear about it!",
+    "Sometimes it's the exercise that works. You feel real care for your little one and say exactly what they needed to hear. And a few days later you're skipping lunch and saying yes to everything again. A lot of people's first guess is that they didn't go deep enough. I don't think that's it, though, and I don't think this one failed either. Maybe the grown-up just hasn't come out of the exercise with you yet. Whatever you did for your little one in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine. That can honestly be harder than the meditation was. One small thing like that can teach your little one more than ten more good meditations. It doesn't have to happen after every session, and once isn't proof you've got it all down."
+   ],
+   "order": [
+    "Hear the Protective Part First",
+    "When to Change the Strategy",
+    "Weeks in and nothing much is changing?",
+    "Maybe you've been trying to comfort your little one",
+    "One more thing about telling whether it helped.",
+    "How many tries is enough?",
+    "Sometimes it's the exercise that works."
+   ]
+  },
+  {
+   "id": "wcs-p1-what-is-blocking",
+   "status": "applied",
+   "what": "When to Change the Strategy P1 says the guide's main instruction outright (find what exactly is in the way, work on that one thing instead of giving up on everything); turn 29's flipped comfort question is gone, and the example says \"trying to comfort\".",
+   "joel": "2026-10-06 19:04 UTC: \"The original is asking to see what exactly is blocking rather than giving up on everything.\" and \"why would it be comforting if adult was not there?\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "Before either one, I'd look for what exactly is in the way.",
+    "I'd work on that one thing instead of giving up on everything.",
+    "Maybe you've been trying to comfort your little one for weeks"
+   ],
+   "must_not_contain": [
+    "And if it was comforting your little one, was the loving grown-up really there?"
+   ]
+  },
+  {
+   "id": "wcs-p4-joel-ending",
+   "status": "applied",
+   "what": "When to Change the Strategy P4 ends with Joel's three sentences, word for word, in place of turn 29's last two (\"…I think you've learned something real about it. Something with clearly better research behind it is worth switching for too.\").",
+   "joel": "2026-10-06 19:04 UTC: \"where di that come from about better research behind it?\" and his replacement",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with. Either way, I'd like to hear about it!"
+   ],
+   "must_not_contain": [
+    "clearly better research",
+    "I think you've learned something real about it"
+   ]
+  },
+  {
+   "id": "wcs-p3-cut",
+   "status": "applied",
+   "what": "Turn 29's P3 (the trap of explaining away every miss) is cut.",
+   "joel": "2026-10-06 19:04 UTC: \"P3 honestly looks like it could be cut.\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_not_contain": [
+    "The trap I'd watch for is explaining away every miss.",
+    "(Candles are nice, though.)"
+   ]
+  },
+  {
+   "id": "tcp-yawn-rc",
+   "status": "applied",
+   "what": "Two Common Protective Patterns P2: the pull can come as the \"I'm so done with this\" feeling a yawn brings, and the yawn itself may be the opposite (Re-evaluation Counseling counts yawning as emotional discharge).",
+   "joel": "2026-10-06 19:04 UTC: \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge. so that's an interesting angle for that. sort of the opposite of how most people would think of it in this case.\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "(even a yawn can come with an \"I'm so done with this\" feeling)",
+    "Re-evaluation Counseling, a kind of peer counseling, counts yawning as emotional discharge, a feeling on its way out."
+   ],
+   "must_not_contain": [
+    "(you might start yawning, even though you slept well)"
+   ]
+  },
+  {
+   "id": "pgq-005-duration",
+   "status": "claim",
+   "what": "Claim check: Joel's update queue item PGQ-005 (match the claim to the duration; brief relief then recurrence is brief relief, not proof it's solved or that the exercise caused it; a bounded note; tracking isn't another checking ritual) is in When to Change the Strategy P3. The last point leans on When Healing Turns Into Checking, which already says it.",
+   "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "A few hours of feeling lighter, with the old feeling back the same day, is a few hours of relief.",
+    "But I wouldn't decide from it that the problem's over, or even that the exercise did it",
+    "and then leave it alone."
+   ]
+  },
+  {
+   "id": "pgq-013-transfer",
+   "status": "claim",
+   "what": "Claim check: Joel's update queue item PGQ-013 (the exercise goes well and ordinary life doesn't change: not proof it failed, not a reason to go deeper; carry a small piece of what the grown-up did into ordinary life; one small act can teach more than more meditations; no homework after every session; one act isn't proof of having it down) is in When to Change the Strategy P5. Its \"review without judging your worth\" is Not Every Hero's \"After the day, look at what actually happened… It doesn't mean failure\".",
+   "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "Sometimes it's the exercise that works.",
+    "I don't think that's it, though, and I don't think this one failed either.",
+    "Maybe the grown-up just hasn't come out of the exercise with you yet.",
+    "One small thing like that can teach your little one more than ten more good meditations.",
+    "It doesn't have to happen after every session, and once isn't proof you've got it all down."
+   ]
+  },
+  {
+   "id": "five-percent-question",
+   "status": "applied",
+   "what": "Joel answered: \"five percent\" may stay but reads a bit AI, so P5 says \"I'd try a tiny bit of it out here\". (Asked on turn 30: the queue's PGQ-013 says \"five percent is enough\", and on 2026-09-27 he had replaced the Apprentice's \"your five percent\" with \"good enough for a start\".)",
+   "joel": "2026-10-07 01:09 UTC: \"it's ok to say 5% is enough altho i feel it's a bit ai, like AI wants to put concrete numbers on stuff all the time, then people are wondering \"how much is 5%?\"\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "I'd try a tiny bit of it out here"
+   ],
+   "must_not_contain": [
+    "five percent of it"
+   ]
+  },
+  {
+   "id": "tcp-both-kinds",
+   "status": "applied",
+   "what": "Two Common Protective Patterns P2 names both kinds: \"The skeptic and the pull both started out…\" (after two readings of yawning, \"Both kinds\" was unclear).",
+   "joel": "2026-10-07 01:09 UTC: \"Your \"Both kinds\" is referring to what? it's hard to understand since you've now talked about two different inerpretations of yawning. you should specify both waht.\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "The skeptic and the pull both started out trying to prevent something that really hurt"
+   ],
+   "must_not_contain": [
+    "Both kinds started out"
+   ]
+  },
+  {
+   "id": "wcs-p1-getting-ready",
+   "status": "applied",
+   "what": "When to Change the Strategy P1: \"getting ready,\" for \"getting ready to,\".",
+   "joel": "2026-10-07 01:09 UTC: \"you should change \"getting ready to,\" to getting ready,\"\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain": [
+    "mostly reading about it and getting ready, which can feel a lot like doing it"
+   ],
+   "must_not_contain": [
+    "getting ready to, which"
+   ]
+  },
+  {
+   "id": "wcs-p2-joel",
+   "status": "applied",
+   "what": "When to Change the Strategy P2 is Joel's, word for word, in place of mine (whose \"I'd probably want to fix it by saying sweeter and sweeter things, which won't work\" contradicted itself).",
+   "joel": "2026-10-07 01:09 UTC: \"this part is contradictory\" … \"change to this, it's human on pangram\"",
+   "where": "When the Adult Voice Feels Fake",
+   "must_contain_exact": [
+    "Maybe you've been trying to comfort your little one for weeks, and the words are all there, but the loving grown-up behind them isn't, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just \"throw the baby out with the bathwater,\" and decide reparenting is useless. I'd borrow that grown-up first. Then try again, and see if your little one can tell the difference."
+   ],
+   "must_not_contain": [
+    "I'd probably want to fix it by saying sweeter and sweeter things"
+   ]
+  },
+  {
+   "id": "no-weekdays",
+   "status": "applied",
+   "what": "No weekday or \"regular/ordinary\" day put in to sound concrete (SKILL.md \"Synthetic specificity\"; E139). Update-queue A lost \"on a regular Tuesday\" and P5 \"by Wednesday\".",
+   "joel": "2026-10-07 01:09 UTC: \"you are forgetting the rules abouut Tuesday and Wednesday etc. i told you, AI is always saying Tuesday, on Tuesday, or some specific day like this. on a regular Tuesday is the worst.\"",
+   "where": "the whole article",
+   "must_not_contain": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ]
+  },
+  {
+   "id": "pgq-012-leave-exercise",
+   "status": "claim",
+   "what": "Claim check: Joel's update queue item PGQ-012 (each stage has to leave the exercise; the grown-up becomes believable by showing up in the rest of life, even in small ways) is after the five stages in The Chicken-and-Egg Problem.",
+   "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
+   "where": "The Chicken-and-Egg Problem",
+   "must_contain_exact": [
+    "Whichever stage you're at, saying the right thing when you sit down with your little one helps, but you also have to start actually doing some of it in the rest of your life. Your little one starts believing the grown-up you when they catch you lying down because you're wiped out, instead of pushing through one more chore."
+   ]
+  },
+  {
+   "id": "pgq-002-performance-test",
+   "status": "claim",
+   "what": "Claim check: Joel's update queue item PGQ-002 (dates and other contact can turn into proof-seeking; keep the contact, drop the proving) is at the end of Also Look Outward. PGQ-003's paragraph waits (it drew a window next to this one).",
+   "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
+   "where": "Before You Try to Go Deep",
+   "must_contain_exact": [
+    "Then there are people you're just getting to know. Meeting them can turn into a kind of test. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'd lower the stakes. Get curious about them, and let them have their own reasons for being there. Can you just be with them without it turning into a verdict on you?"
    ]
   }
  ]

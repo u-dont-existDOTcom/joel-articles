@@ -25,7 +25,7 @@ O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tai
 H1 and O10 (2026-10-06): headings are text. An x-not-y heading ("The Medicine Part, Without Pretending It Isn't There")
 fails, and so does an opener that points at nothing ("Key here is that…"); a pointer word opening the first paragraph
 under a heading ("This", "It", "The other") is a REVIEW. Markdown headings only (lines starting with #).
-O11, O12 and O13 (Joel, 2026-10-07 01:43): Emulate's "and ... and ... and" list fails (two repeated "and"s or "or"s in
+O14, O15 and O16 (Joel, 2026-10-07 01:43; numbered after the Inner Child lane's O11 to O13): Emulate's "and ... and ... and" list fails (two repeated "and"s or "or"s in
 one stretch without punctuation are a REVIEW, three a FAIL); an unusual spelling or hyphenation is a REVIEW, his lines
 included ("unusual spellings should help pass pangram, but that's also cheating"); a paragraph that closes by summing
 itself up ("These are all questions that…") is a REVIEW ("it was way overcompleting itself").
@@ -223,7 +223,7 @@ HEAD_NEG = re.compile(r"\b(?:isn['’]t|aren['’]t|wasn['’]t|doesn['’]t|don
 # A trace had flagged its "here" as unanchored; the finding was kept and he caught it.
 POINTER_FAIL = re.compile(r"^(?:the\s+)?key\s+(?:here|thing here|point here)\b|^here['’]?s the (?:thing|deal|key)\b|^here is the (?:thing|deal|key)\b", re.I)
 
-# O11 (Joel, 2026-10-07 01:43, on section 7 P3): "you replaced commas and even 'or' with 'and and and and' that looks like
+# O14 (Joel, 2026-10-07 01:43, on section 7 P3): "you replaced commas and even 'or' with 'and and and and' that looks like
 # emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax". Emulate's sentence was "It's not
 # like calling something by a certain name dissolves the childhood panic and the comparison and the terror of abandonment
 # and the desire to control another person." His: "...dissolves the childhood panic, the comparison, the terror of
@@ -251,7 +251,7 @@ def polysyndeton(s):
             worst = max(worst, best)
     return worst
 
-# O12 (Joel, same message): "section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so
+# O15 (Joel, same message): "section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so
 # you can fix them." His "priveleged", "contageous", "re-incarnation" and the like. A REVIEW, for his lines too: a coinage
 # ("pl/ork", "technosphere") or a rare word stays; a misspelling or an odd hyphenation gets fixed, without a Pangram recheck
 # (20:38: "no need to recheck pangram to fix a typo"). Needs pyspellchecker; without it the check is skipped and says so.
@@ -282,7 +282,7 @@ def odd_spellings(s):
             out.append(tok)
     return out
 
-# O13 (Joel, same message, on section 6 P8 and P9): "i fixed p8p9, it was way overcompleting itself, now it passes pangram
+# O16 (Joel, same message, on section 6 P8 and P9): "i fixed p8p9, it was way overcompleting itself, now it passes pangram
 # together". He cut the closing "These are all questions that a community should consider in advance." and a five-item
 # list of protections. A REVIEW on a paragraph's last sentence when it sums the paragraph up. Cutting is his call: propose
 # the cut with the passage quoted, don't make it.
@@ -374,7 +374,7 @@ def main():
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
         for i, s in enumerate(ss):
             for o in odd_spellings(s):
-                flag('REVIEW', 'O12 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that\'s also cheating"); a coinage or a rare word stays, a misspelling gets fixed: ' + o, s)
+                flag('REVIEW', 'O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that\'s also cheating"); a coinage or a rare word stays, a misspelling gets fixed: ' + o, s)
             mine = not is_known(s)
             w = words(s); sent_lens.append(len(w))
             tri = triads(s)
@@ -392,6 +392,22 @@ def main():
                 flag('FAIL', 'O1 owner ban: "doesn\'t get to decide" family (Joel 2026-09-28)', s)
             if re.search(r"(^|[.!?]\s+)(Fine|Good|Great|Sure|Okay|OK|Fair enough)[,.!]\s", s):
                 flag('FAIL', 'O2 owner ban: Fine/Good/Great as a clause (Joel 2026-09-28)', s)
+            # E139 (2026-10-07): SKILL.md's "Synthetic specificity and fake concreteness" rule was never loaded here (O11 to O13; main's O8 to O10 came first).
+            if re.search(r"\b(Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)days?\b", s):
+                flag('FAIL', 'O11 owner ban: a weekday put in to sound concrete (Joel 2026-10-07: "AI is always saying Tuesday, on Tuesday, '
+                     'or some specific day like this. on a regular Tuesday is the worst"; SKILL.md "Synthetic specificity"). Keep one only '
+                     'when it is a real fact from the source and matters to the thought', s)
+            if re.search(r"\b(ordinary|regular|boring|everyday|mundane)\b", s, re.I):
+                flag('REVIEW', 'O12 "ordinary/regular/boring": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
+                     'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"); keep one that says something', s)
+            if re.search(r"\b\d+\s*(%|percent)|\b(one|two|three|four|five|ten|twenty|fifty)\s+percent\b|\bo['’]clock\b|\b\d{1,2}(:\d\d)?\s?(am|pm)\b|"
+                         r"\bby (lunch|dinner|noon|bedtime|lunchtime)\b|\b(a|one|this|that) (morning|afternoon|evening) of\b", s, re.I):
+                flag('REVIEW', 'O13 a made-up number or clock time (Joel 2026-10-07, on "five percent is enough": "AI wants to put concrete '
+                     'numbers on stuff all the time, then people are wondering how much is 5%?"; SKILL.md: no invented clock-time details)', s)
+            if re.search(r"\b(my first (guess|thought|instinct|reaction)|I'd probably want to|I'd be tempted to|my instinct would be)\b", s, re.I):
+                flag('REVIEW', 'E138 the writer\'s own impulse: check the next sentence doesn\'t take it back (Joel 2026-10-07, on "I\'d probably '
+                     'want to fix it by saying sweeter and sweeter things, which won\'t work": "this part is contradictory"; his fix gave '
+                     'the move to "some people")', s)
             if re.search(ABSTRACT_AGENT, s, re.I):
                 flag('REVIEW', 'O6 a feeling or idea doing what a person does: one of the top tells, not a ban, worst when polished or overused; give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
             if re.search(ENOUGH_PAIR, s, re.I):
@@ -426,11 +442,11 @@ def main():
                 flag('REVIEW', 'B4/E15 list or packed sentence', s)
             ps_n = polysyndeton(s)
             if ps_n >= 3:
-                flag('FAIL', 'O11 owner ban: an "and ... and ... and" list (Joel 2026-10-07: "that looks like emulate trying to cheat, and it wasn\'t needed. still passes pangram with normal syntax"); use commas and keep the list\'s own "or"', s)
+                flag('FAIL', 'O14 owner ban: an "and ... and ... and" list (Joel 2026-10-07: "that looks like emulate trying to cheat, and it wasn\'t needed. still passes pangram with normal syntax"); use commas and keep the list\'s own "or"', s)
             elif ps_n == 2:
-                flag('REVIEW', 'O11 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate\'s trick in a list (Joel 2026-10-07)', s)
+                flag('REVIEW', 'O14 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate\'s trick in a list (Joel 2026-10-07)', s)
             if i == len(ss) - 1 and len(ss) >= 3 and SUMMARY_CLOSE.match(s.strip()):
-                flag('REVIEW', 'O13 a closing line that sums the paragraph up (Joel 2026-10-07: "it was way overcompleting itself"): propose the cut to him, quoted, with your opinion; don\'t cut it yourself', s)
+                flag('REVIEW', 'O16 a closing line that sums the paragraph up (Joel 2026-10-07: "it was way overcompleting itself"): propose the cut to him, quoted, with your opinion; don\'t cut it yourself', s)
             if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", ' '.join(s.split()[:8]), re.I):
                 flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
             if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):
@@ -491,7 +507,7 @@ def main():
     verdict = 'FAIL' if (hard or fails) else ('REVIEW' if flags else 'CLEAR')
     print(f'== tells_lint: {a.draft}')
     if _SPELL is None:
-        print('note: O12 (spelling) skipped, pyspellchecker is not installed (pip install pyspellchecker)')
+        print('note: O15 (spelling) skipped, pyspellchecker is not installed (pip install pyspellchecker)')
     print('verdict:', verdict)
     for h in hard: print('  HARD:', h)
     print('metrics:', metrics)
