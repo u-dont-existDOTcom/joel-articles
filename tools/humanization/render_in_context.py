@@ -50,6 +50,10 @@ lead-in, and whose proposal highlighted the whole list as new).
 Rows taken from ARTICLE must sit under the heading they have in ARTICLE, in ARTICLE's order: a block's last heading
 is the one its rows are shown under, and the page isn't written when a row would show elsewhere (2026-10-07: the page
 showed section 8's P7 a section early, and Joel asked why it had been moved). --no-heading-check turns this off.
+A source paragraph the article no longer has gets a row of its own, {"label": ..., "dropped": "start of the source
+paragraph"}: the source on the left, and on the right the same text struck, marked as cut. Joel, 2026-10-07 20:21, on
+section 8's published P26, which the page had mentioned only in a note: "idk where p26 is now, are you talking about
+something you didn't show me?" A cut he hasn't seen has to be on the page where the paragraph was.
 "source" lists starts of source paragraphs, or {"quote": ..., "from": ...} for part of one;
 [] for none. The lane's older key "guide" is read the same way. "note" is one line; "notes"
 is a list shown as bullets.
@@ -255,7 +259,13 @@ def main():
             body.append('<h%d>%s</h%d>' % (n, html.escape(h.lstrip('#').strip()), n))
         for r in blk['rows']:
             items = r.get('source', r.get('guide', []))
-            if 'text' in r:
+            if 'dropped' in r:
+                items = items or [r['dropped']]
+                text, links = plain(find(sparas, r['dropped'], r.get('label', 'row')))
+                links = []
+                shown = '<del>%s</del>' % html.escape(text)
+                state = 'not in the article: the %s paragraph on the left is cut' % a.source_label.lower()
+            elif 'text' in r:
                 text, links, state = re.sub(r'\s+', ' ', keep_lines(r['text'])), [], 'not in the article'
                 base = None
                 if r.get('proposal_of'):

@@ -117,13 +117,22 @@ NOT_TAIL = re.compile(r"^(?P<head>.*\w.*?)(?:,|\s[—–]|\s--)\s+(?:and\s+)?(?:
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
 # there, trying to get some justice" to "so the angry communard goes there"). REVIEW only: an idiom can stay, and so
 # can his own words. It catches the noun right before the verb, so a subject with a long clause after it slips by.
+# 2026-10-07 20:21, on community section 8 P28's "goodwill doesn't answer those questions": "that AI tell again, in the
+# linter. abstracts doing things." The check had missed it: "goodwill" wasn't in the list, a negation ("doesn't",
+# "won't", "can't") stood between the noun and the verb, and "answer" wasn't a verb it knew. The sentence read AI in
+# about 25 wordings, and almost every first sentence drafted for it kept goodwill as the one answering; the cut passed.
 ABSTRACT_AGENT = (r"\b(anger|fear|grief|shame|hurt|pain|longing|loneliness|resentment|jealousy|envy|desire|rage|guilt|"
-                  r"sadness|anxiety|panic|feelings?|emotions?|objection|vision|insight|truth|idea|wish|need|hope|love|trust)"
-                  r"\s+(?:\w+ly\s+)?(goes|went|comes|came|arrives|arrived|tries|tried|wants|wanted|seeks|sought|demands|"
+                  r"sadness|anxiety|panic|feelings?|emotions?|objection|vision|insight|truth|idea|wish|need|hope|love|trust|"
+                  r"goodwill|good will|good intentions?|kindness|ideology)"
+                  r"\s+(?:(?:\w+ly|alone|still|also|just|doesn['’]t|does not|didn['’]t|did not|won['’]t|will not|can['’]t|"
+                  r"cannot|can not|never)\s+){0,2}"
+                  r"(goes|went|comes|came|arrives|arrived|tries|tried|wants|wanted|seeks|sought|demands|"
                   r"demanded|decides|decided|chooses|chose|refuses|refused|pushes|pushed|waits|waited|hides|hid|insists|"
                   r"insisted|asks|asked|teaches|taught|shows up|showed up|returns|returned|travels|traveled|files|filed|"
                   r"knocks|knocked|creeps|crept|sneaks|snuck|wanders|wandered|votes|voted|speaks|spoke|whispers|whispered|"
-                  r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won)\b")
+                  r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won|"
+                  r"answers?|answered|settles?|settled|solves?|solved|fix|fixes|fixed|protects?|protected|saves?|saved|"
+                  r"heals?|healed|handles?|handled|knows?|knew|decide|choose|refuse|want|try|ask|go|come)\b")
 
 # E125: lists of three. Joel, 2026-10-03 00:00 UTC, on Start With Whatever Showed Up P1 (66% AI): "P! failed b ecause
 # it has 2 lists of 3. I did a minimal fix and now it's human med conf"; 00:01: "lists of 3 in general are an ai pattern".
