@@ -502,3 +502,9 @@ His texts are kept verbatim in the community lane's `s8/joel-2021/joel-20261007-
 - **P22.** "yes that's better" ("a commitment they choose on their own" → "a commitment they make as adults").
 - **Overcompletion.** "p22 , unlimited freedom is not just overcompleting every childhood narrows the future, it's talking about the specific freedoms that can be given to children as they grow up e.g. Rumspringa. It's required in that sentence to explain the rest of it. But i agree with your suggestion to shorten the last line." (P25's last line is now "Belonging and freedom should go hand in hand.")
 - "continue".
+
+## Joel's question and fix, 2026-10-07 23:22 UTC (the linter's O6; community section 8 P22)
+
+- **O6.** "wait are you saying you have a "list of nouns"? that sounds brittle... is that the best way to handle the abstracts doing things check? abstract nouns are a real vast open-ended list in my mind" (The check now reads the grammar with spaCy and WordNet, the list kept only as the fallback.)
+- **P22.** "yes fix p222 take out second adults that's obvious" ("a commitment they make as adults" → "a commitment they make"; that text read 100% Human in 146g.)
+- "continue".

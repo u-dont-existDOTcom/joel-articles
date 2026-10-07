@@ -1,6 +1,7 @@
 """Regression tests for the shared humanization tools' 2026-10-02 additions: the exact-character ledger check,
 the linter's abstract-agent flag (O6) and the whole-article stance-check prompt."""
 import json
+import os
 import pathlib
 import subprocess
 import sys
@@ -8,6 +9,8 @@ import tempfile
 import unittest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+# The linter's parsed O6 check loads spaCy, a second or two per run; these tests run it only where they test it.
+os.environ['TELLS_LINT_PARSE'] = '0'
 TOOLS = ROOT / 'tools' / 'humanization'
 sys.path.insert(0, str(TOOLS))
 
@@ -101,6 +104,34 @@ class LinterAbstractAgents(unittest.TestCase):
     def test_person_doing_it_is_not_flagged(self):
         out = self.lint('There is no shared way to talk about the hurt, so the angry communard goes there, trying to get some justice. Money will not fix it.\n')
         self.assertNotIn('O6', out)
+
+    def test_parsed_check_finds_nouns_no_list_has(self):
+        """Joel, 2026-10-07 23:22: "abstract nouns are a real vast open-ended list in my mind". With spaCy and WordNet,
+        O6 reads the grammar: the subject's kind of thing and the verb's kind of subject."""
+        sys.path.insert(0, str(TOOLS))
+        import tells_lint
+        os.environ['TELLS_LINT_PARSE'] = '1'
+        self.addCleanup(os.environ.__setitem__, 'TELLS_LINT_PARSE', '0')
+        tells_lint._PARSER = None
+        if not tells_lint.parser():
+            self.skipTest('spaCy (en_core_web_sm) or NLTK WordNet is not installed')
+        for s in ('Modern life trains us to perform competence while hiding whatever might complicate the performance.',
+                  'The vaccination policy arrives two years later carrying documents.',
+                  'Guilt may keep shouting at you.',
+                  "Once a kid is already living inside the disagreement, goodwill doesn't answer those questions.",
+                  'There is no shared way to talk about the hurt, so the anger goes there, trying to get some justice.'):
+            self.assertTrue(tells_lint.abstract_agents(s), s)
+        for s in ('If anger comes up, you can stay with it for a minute.',
+                  'The rule says nobody leaves before dawn.',
+                  'Fear like that can destroy that gift, and it might not even prevent abuse.',
+                  'The adults still have to pay attention to what goes on in a children’s territory.',
+                  'There is no shared way to talk about the hurt, so the angry communard goes there, trying to get some justice.',
+                  'Money will not fix it.'):
+            self.assertEqual(tells_lint.abstract_agents(s), [], s)
+        out = self.lint('Modern life trains us to perform competence. If anger comes up, you can stay with it for a minute.\n')
+        self.assertIn('O6 a feeling or idea doing what a person does', out)
+        self.assertIn('Modern life trains us', out)
+        self.assertNotIn('If anger comes up', out.split('O6 a feeling')[1])
 
     def test_negated_abstract_agent_is_flagged(self):
         """Joel, 2026-10-07 20:21, on "goodwill doesn't answer those questions": "that AI tell again ... abstracts doing things"."""
