@@ -6,6 +6,13 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-07 · When Healing Turns Into Checking (Joel's update queue PGQ-002, draft K) · If I cancel a date just to make the doubt go away, is that checking too? (K's one point that Also Look Outward's new paragraph doesn't make; K said the rest again and failed Pangram alone twice, so it's out.) · parked
+
+- 2026-10-04 · When to Change the Strategy, P2 · What if I've been aiming at the wrong thing altogether? (The guide's "the target turns out to be wrong", dropped.) · COULD (parked)
+- ~~2026-10-04 · When to Change the Strategy, P2 · What counts as "clearly better research", and how would I check? · COULD (parked)~~ Gone: Joel replaced the sentence (2026-10-06).
+- 2026-10-04 · When to Change the Strategy, P2 · How do I tell something that shifts in a day from something that takes guitar-length practice? · COULD (parked)
+- ~~2026-10-04 · Two Common Protective Patterns, P2 · The grounding (turn 29) calls the yawning example the weakest kind: it costs nothing and can be the body settling, while the pulls the paragraph is about are costly (reaching for something to eat, drink or smoke). The example is from turn 25 and passed then; changing it would need its paragraph, h2 and h1 checked again. · CATEGORY flag (parked for Joel)~~ Answered by Joel 2026-10-06 19:04 ("it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge"); the paragraph has his angle now (turn 30).
+
 - 2026-10-04 · Hear the Protective Part First, P4 · Do I need to know how old I was, or remember what happened, to work with this feeling? (The guide's "You don't need an age, a recovered memory, or a complete cast of parts", cut for length; a clause.) · COULD (parked)
 - 2026-10-04 · Hear the Protective Part First, P4 · What if the change shows up in my little one instead, a vague hurt turning into a clear need? (The guide's second example, cut; the article already says to listen to grief or anger.) · COULD (parked)
 - 2026-10-04 · Hear the Protective Part First, P4 · After I answer that part, do I go back to the step toward my little one? · COULD (parked)
@@ -51,3 +58,9 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 - 2026-09-30 · Also Look Outward, relationship paragraph · How does the reader tell it's been dangerous, right after being told the unsafe feeling may come from inside them? All three push levels raised this as a MUST. Fixed: "But if they've actually hurt or threatened you, even once, old stuff or not, get safe first…"
 - 2026-09-30 · Also Look Outward, relationship paragraph · The wide run's point was that "get safe first" names the goal but no first step, so a reader in danger could hear "leave, alone, right now" (the guide's first steps are "lock the door, call somebody, go to a doctor, get legal advice, or leave"). Claude's "help counts" was a bad paraphrase of that. Joel (17:03): "i'm not sure how 'getting help counts' adds something to 'get safe'". Left as is: two sections later, Borrow One Competency has "leave, or lock the door and get help".
+
+- 2026-10-06 · When to Change the Strategy, P2 · How would I know my little one can tell the difference? · COULD (parked; two groundings)
+- 2026-10-06 · When to Change the Strategy, P5 · What does a small piece look like when what I did in there was protecting or guiding, not comforting? What if there's no friend to text? · COULD (parked)
+- 2026-10-06 · When to Change the Strategy, P5 · How often, if not after every session? · COULD (parked)
+- 2026-10-06 · Two Common Protective Patterns, P2 · Or am I just sleepy? (a yawn's everyday meaning, next to the pull and discharge) · COULD (parked)
+- 2026-10-06 · Two Common Protective Patterns, P2 · What is Re-evaluation Counseling? ("a kind of peer counseling" is all it gets) · COULD (parked)
