@@ -1,15 +1,15 @@
-# Joel's guide-update queue: where each item goes (turn 30, 2026-10-06)
+# Joel's guide-update queue: where each item goes (turn 30, 2026-10-06; updated turn 31, 2026-10-07)
 
 Joel, 2026-10-06 19:04 UTC: "also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates". They are innerSignalGraph's `authoring/PENDING-PUBLIC-GUIDE-CHANGES.md`, queue version 2026-10-06-r2 (innerSignalGraph at ece60957), copied here as `source/PENDING-PUBLIC-GUIDE-CHANGES-2026-10-06-r2.md`, with the guide it points to, `source/inner-child-guide-2026-10-04-r4.txt`. The queue's rule: "If an item is already present semantically in the public draft, consume it without duplicating prose." Its file in innerSignalGraph isn't edited from this lane; after Joel's OK, the consumed items get removed there in one reviewed change.
 
-Status words: **in** (installed and checked), **drafted** (written and reviewed for meaning, waiting for Pangram, which can't run until the API key has credits again), **waits** (its section isn't humanized yet; it goes in when that section is written).
+Status words: **in** (installed and checked), **drafted** (written and reviewed for meaning, not in yet; turn 31 checked them through the dashboard, see each row), **waits** (its section isn't humanized yet; it goes in when that section is written).
 
 | Item | What | Where in the article | Status |
 |---|---|---|---|
-| PGQ-001 | an experience isn't its own interpretation; orientation and gender not steered either way | Catch the Hook Before the Story Takes Over, after "Here's where I want to clearly depart…" | drafted (B), three review rounds |
-| PGQ-002 | social practice and behavior can become checking | Also Look Outward (C, first paragraph) and When Healing Turns Into Checking (C2) | drafted, three rounds |
-| PGQ-003 | honesty is graded by earned trust | Also Look Outward (C, second paragraph) | drafted, three rounds |
-| PGQ-004 | anxiety can protect without being an oracle | Start With Whatever Showed Up, after "Or if you do get an answer…" | drafted (F), three rounds |
+| PGQ-001 | an experience isn't its own interpretation; orientation and gender not steered either way | Catch the Hook Before the Story Takes Over, after "Here's where I want to clearly depart…" | drafted (B). Turn 31: B1 passes alone (71); B2 failed alone twice (100% AI, 100 words both times, the second after the reviewer's tickets), so neither is in: B1 alone would say only half of it |
+| PGQ-002 | social practice and behavior can become checking | Also Look Outward (C1) | **in** (turn 31): alone 100% Human (83), the h2 (1,863) and the h1 (2,679). The When Healing Turns Into Checking draft (K) said most of the same thing about dates and failed alone twice, so it's dropped as a repeat; its one new point (cancelling to make the doubt go away is checking too) is parked |
+| PGQ-003 | honesty is graded by earned trust | Also Look Outward (C2) | drafted. Turn 31: passes alone (129), but next to C1 at the end of Also Look Outward the h2 was 16% AI (one 312-word window from the paragraph before C1 through C2), so it waits for another spot or a rework |
+| PGQ-004 | anxiety can protect without being an oracle | Start With Whatever Showed Up, after "Or if you do get an answer…" | drafted (F). Turn 31: failed alone twice (100% AI, the second after the reviewer's tickets); waits for fresh writers. Its point that a protective part's no counts is in When to Change the Strategy P4 ("If it still says no, that's your answer.") |
 | PGQ-005 | match the claim to the duration | When to Change the Strategy P3 | **in** (turn 30) |
 | PGQ-006 | a psychoactive adverse history changes planning | When the Urge to Escape Arrives | waits (next section) |
 | PGQ-007 | a healthy mind isn't a perfectly clean mind | The Inner Guide Comes Later | waits |
@@ -17,7 +17,7 @@ Status words: **in** (installed and checked), **drafted** (written and reviewed 
 | PGQ-009 | concentrated borrowed adulthood can be spread out | Borrowed Adulthood in Relationship | waits |
 | PGQ-010 | speak toward what you're building | Speak Toward What You Are Building (r4's new h3) | waits |
 | PGQ-011 | ask about the support mode only when it's unclear | the same h3 (r4's "Before giving advice…") | waits |
-| PGQ-012 | each stage has to leave the exercise | The Chicken-and-Egg Problem, after the five stages | drafted (A), two rounds, the second clean |
+| PGQ-012 | each stage has to leave the exercise | The Chicken-and-Egg Problem, after the five stages | **in** (turn 31): without "a regular Tuesday" it was 100% AI alone (61); the reviewer's tickets version with the guide's Protector example (rest) is 100% Human alone (62) and in the h1 (810) |
 | PGQ-013 | the exercise goes well and the week doesn't change | When to Change the Strategy P5 | **in** (turn 30) |
 | PGQ-014 | some problems are blocked, not actionable yet | The Inner Guide Comes Later (the Guide picks the next sane step) | waits |
 | PGQ-015 | remember a stated support mode; no stale advice | with PGQ-011 | waits |

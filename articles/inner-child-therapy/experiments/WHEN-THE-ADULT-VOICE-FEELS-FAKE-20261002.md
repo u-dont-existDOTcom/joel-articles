@@ -323,3 +323,36 @@ Joel, 19:04 UTC, on turn 29's section: P1 "is missing most of the actual meaning
 
 ### Next
 Pangram credits first (Joel). Then: the two P4 MUSTs, y10b and P5 x in context; the five sweep fixes; the queue items for finished sections (drafts in `GUIDE-UPDATE-QUEUE-20261006.md`); then When the Urge to Escape Arrives with PGQ-006.
+
+## Turn 31 (2026-10-07, from 01:09 UTC): Joel's fixes, the weekday rule, the queue, the E137 sweep
+
+Pangram ran through the dashboard (Joel: "nope, you have to use GUI now. it's a diff google account from before tho"): each text was read from a pushed run file (`tools/pangram-runs/2026-10-07-turn31-a.json` to `-h.json`) into the dashboard's text box, its SHA-256 matched against the local text before the click, and the result read off the page. The dashboard shows no task ids, so the rows in `tools/PREDICTIONS.md` give the word count and the window instead. 39 checks.
+
+**Joel's notes, done:**
+- Two Common Protective Patterns P2: "The skeptic and the pull both started out…" for "Both kinds started out…", with turn 30's "the opposite of checking out". Alone 100% Human (158), try 1.
+- When to Change the Strategy P1: "getting ready," (his word). Alone 100% Human (120), try 1.
+- P2: his paragraph, word for word, no punctuation fix needed; not rechecked alone (he had).
+- P5: "And a few days later" for "And by Wednesday" (E139), "A lot of people's first guess is that they didn't go deep enough." for "My first guess would be that I didn't go deep enough." (E138, the move of his P2 fix), "a tiny bit of it" for "about five percent of it" (his 5% note), and "Sometimes it's the exercise that works." (turn 30's cold read). Alone 100% Human (166), try 1.
+- Swept with them: P3's "A morning of feeling lighter, with the old feeling back by lunch, is a morning of relief." is "A few hours of feeling lighter, with the old feeling back the same day, is a few hours of relief." (E139), alone 100% Human (76); P4 has turn 30's grounding MUSTs ("I'd change course sooner (stopping counts)." and "If it still says no, that's your answer."), alone 100% Human on turn 30 (156, dc2cb315).
+- In context, all together: Start With Whatever Showed Up 100% Human (1,837), the h1 100% Human (2,430).
+
+**The queue (`GUIDE-UPDATE-QUEUE-20261006.md`):**
+- A (PGQ-012): without "a regular Tuesday", 100% AI alone (61). The reviewer called it one finished takeaway said twice; its tickets: one plain sentence with you doing it, then one moment from your little one's side, ending on a plain detail. With the guide's own Protector example (rest): "Your little one starts believing the grown-up you when they catch you lying down because you're wiped out, instead of pushing through one more chore." Alone 100% Human (62), try 2; The Chicken-and-Egg Problem 100% Human (810). In, after the five stages.
+- C1 (PGQ-002): alone 100% Human (83), try 1. C2 (PGQ-003): alone 100% Human (129), try 1. Together at the end of Also Look Outward, the h2 was 16% AI (1,992): one 312-word window from the last sentence of the paragraph before ("But if they've actually hurt or threatened you…") through C2. C1 alone there: the h2 100% Human (1,863), the h1 100% Human (2,679). C1 is in; C2 waits.
+- B1 (PGQ-001): alone 100% Human (71). B2: 100% AI alone (100) with the "decide" family and the list of three fixed, and 100% AI again (100) after the reviewer's tickets (signpost and closing maxim cut). Neither is in, since B1 without B2 would say only that a feeling doesn't settle who you are.
+- K (PGQ-002 in When Healing Turns Into Checking): 100% AI alone twice (139; 156 after the tickets). It says most of what C1 now says about dates, so it's dropped as a repeat (Joel: "just make sure it's not duplicating stuff"); its one new point is parked.
+- F (PGQ-004): 100% AI alone twice (132; 148 after the tickets). Waits. Its "a no isn't a prediction" point is in When to Change the Strategy P4 now.
+- Fixed before the checks: A's "your week" and "a regular Tuesday", F's "In everyday decisions", K's "Ordinary life will show you more over time." (E139), B2's "or church" (a list of three) and "I wouldn't let it, or anybody else, decide…" (the owner ban's "decide" family), K's "I'd only go when you'd want…" (mixed person).
+- What's next for B2 and F: not another rewording (B10). Fresh writers from a section brief, with the reviewer's notes on why both versions marched.
+
+**The five E137 sweep fixes (turn 30's list), now checked:**
+- Don't Give the Inner Adult Away: "letting them do some of the grown-up jobs for you" for "handing them the steering wheel" (46 words); My Journey 100% Human (763).
+- When the Present-Day Adult Is Dangerous: turn 30's "once they've kept choosing not to scare anybody, even on the days it would have felt good" was 100% AI alone (66); "once they've had some bad days where scaring somebody would've felt good, and they didn't do it" is 100% Human (68), try 2. The malice line, "If some of it turns out to be malice they actually want to act on, the inner child can wait.", 100% Human (72). The h2 with both 100% Human (512); the h1 100% Human (2,687).
+- Borrow Love: "And the gap it gets around even has a name" for "And this trick even has a name": alone 100% Human (112). The h2 is 4% AI (794) and the h1 4% AI (1,609), both from the open E117 window in Ask God for a Loan P1; the h2 as installed, without the fix, has the same window (791), so the fix doesn't move it. In.
+- Hear the Protective Part First P4: Joel's liked "to see whether" passed alone (150) and the h2 (1,839) but put a 43-word window on exactly that sentence in the h1 (2%, 2,432), as on turn 28. "to find out if" and the part's own question ("…anyway: is there a grown-up here now…?") both passed alone and in the h1; "to find out if" is closer to what he liked, so it's in: alone 100% Human (151), the h2 (1,840), the h1 (2,433).
+
+**Lessons:** E138 (a move the next sentence takes back), E139 (SKILL.md's synthetic-specificity rule wasn't loaded; weekdays, "ordinary/regular", made-up numbers and clock times), E140 (a reviewer's ASK AUTHOR goes to Joel only with the sentence a reader would stop on). In `DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md`, the gate, `owner_bans.txt`, both writer prompts and the linter (O9 to O11, E138).
+
+**Predictions:** 28 of 38 scored calls hit (8 rows weren't run). The misses: the queue drafts I called Human after their reviews (B2 and K twice each, F's second version), the C1-and-C2 h2, turn 30's scare fix, the Borrow Love h2 and h1 (an old window I hadn't checked for), and the h1 with "to see whether". The reviewer's tickets didn't rescue a draft that failed whole: of the four second versions, only A's passed, and A was the only one rebuilt around one moment instead of its rules.
+
+**Not done this turn:** B2 and F (two rounds each, all 100% AI), C2's spot, the r4 paragraphs the queue doesn't list (depth and the tolerance pause, pleasantness and dreams, isolation and more than one door), and the E117 window in Ask God for a Loan. Merged after "continue".

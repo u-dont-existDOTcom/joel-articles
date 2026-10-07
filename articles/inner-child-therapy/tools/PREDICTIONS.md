@@ -755,6 +755,6 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-07 (turn 31) | Before You Try to Go Deep (h1) with dg2, the malice fix and C1 | Human, medium (my call) | 100% Human (2,687) (dashboard, version 4.0) | hit |
 | 2026-10-07 (turn 31) | Hear the Protective Part First P4 p4b: "to find out if" for "whether", alone | Human, medium (my call) | 100% Human (151) (dashboard, version 4.0), short text | hit |
 | 2026-10-07 (turn 31) | P4 p4c: the part's own question, "I think watching is what it wants anyway: is there a grown-up here now who could call it off if things got to be too much?" (E135: turn a step into what someone in the scene is thinking), alone | Human, medium (my call) | 100% Human (147) (dashboard, version 4.0), short text | hit |
-| 2026-10-07 (turn 31) | The h1 with p4b | Human, low (my call: the same spot drew windows with "to see whether" twice) | 100% Human (2,433) (dashboard, version 4.0) | miss |
+| 2026-10-07 (turn 31) | The h1 with p4b | Human, low (my call: the same spot drew windows with "to see whether" twice) | 100% Human (2,433) (dashboard, version 4.0) | hit |
 | 2026-10-07 (turn 31) | The h1 with p4c | Human, low-medium (my call) | 100% Human (2,429) (dashboard, version 4.0) | hit |
 | 2026-10-07 (turn 31) | Start With Whatever Showed Up with whichever passes the h1 | Human, medium (my call: the h2 passed with "to see whether") | both passed the h1, and p4b reads closest to the proposal Joel liked, so p4b: 100% Human (1,840) (dashboard, version 4.0) | hit |

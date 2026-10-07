@@ -6,6 +6,8 @@ They wait here instead of going into the article. Joel decides on them when the 
 
 ## Open
 
+- 2026-10-07 · When Healing Turns Into Checking (Joel's update queue PGQ-002, draft K) · If I cancel a date just to make the doubt go away, is that checking too? (K's one point that Also Look Outward's new paragraph doesn't make; K said the rest again and failed Pangram alone twice, so it's out.) · parked
+
 - 2026-10-04 · When to Change the Strategy, P2 · What if I've been aiming at the wrong thing altogether? (The guide's "the target turns out to be wrong", dropped.) · COULD (parked)
 - ~~2026-10-04 · When to Change the Strategy, P2 · What counts as "clearly better research", and how would I check? · COULD (parked)~~ Gone: Joel replaced the sentence (2026-10-06).
 - 2026-10-04 · When to Change the Strategy, P2 · How do I tell something that shifts in a day from something that takes guitar-length practice? · COULD (parked)
