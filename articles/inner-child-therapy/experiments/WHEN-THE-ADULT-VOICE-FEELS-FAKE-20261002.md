@@ -380,3 +380,25 @@ Joel: "ok i mean boring, regular etc are not for sure AI tells, almost nothing i
 **Predictions:** 5 of 14 hit. I called nine of the eleven first-round paragraphs Human.
 
 **Next:** not another rewording (B10). The method that rescued A Bottom-Up Sequence P4 after eight whole failures (E135): check each failing paragraph's halves alone, find the half that carries the AI, and turn its step into what someone in the scene is thinking. Briefs that give the points without an order. Then C2 after the isolation group's first paragraph.
+
+## Turn 34 (2026-10-07, from 16:46 UTC): Joel's boundary paragraph and PGQ-001, then the rest on his model
+
+- **Joel's three paragraphs** (his boundary paragraph, and his rewrite of PGQ-001) are in at the end of Catch the Hook Before the Story Takes Over. One punctuation fix: a double space. Alone they read 100% Human (121, 148, 76), and Your Body Might Need Some Love First reads 100% Human (2,142). The h1 came back 97% Human, with one AI segment in older text: from "You can mean the apology" to C1's "Meeting them can turn into a kind of test." None of his paragraphs is in it.
+- **What his rewrite taught (E149).** A rule paragraph needs an idea for its rules to hang on. Each carve-out should be an example of a principle the paragraph states, and it should cover fewer cases. I redrafted the waiting paragraphs myself on that model. Round 1 gave each group a frame:
+  - anxiety as a backseat driver, or as a guess;
+  - lowering the dose of something strong;
+  - the gym, where sore and injured feel alike that evening;
+  - not putting all your eggs in one basket.
+  2 of 11 passed alone: the gym paragraph, and pleasantness P3 with one word changed.
+- **Round 2: a reaction or an aside.** After a second cold read and grounding, the half that read AI became a reaction, an aside or a question ("Maybe nobody laughs. (Or they do, and you survive it.)", "So how were the next few days?", "Some people keep taking little peeks during a pause … I'd wait."). 4 of 8 passed: PGQ-004's first paragraph, pleasantness P2, the depth group's pause paragraph, and C2.
+- **Round 3: the person's own words.** The other four got the person's own words in quotes ("this just isn't me", "I just have to push through this"). All four were still 100% AI. That's depth P1 and P2, and isolation P1 and P2; with turn 32's attempts, each has now failed four times.
+- **In:** PGQ-004 (alone 118 and 61; Start With Whatever Showed Up 100% Human, 2,019; When the Adult Voice Feels Fake 100% Human, 2,612).
+- **Out again: the pleasantness group.**
+  - Installed, it turned Your Body Might Need Some Love First to 92% Human, with the AI segment in older text: Also Look Outward from the danger line ("But if they've actually hurt or threatened you…") through "If you really did hurt them, repair it." and the apology paragraph, to C1's first lines.
+  - I fixed the apology paragraph twice. First, the guilt sentences became "You might feel guilty for a while anyway. I wouldn't read that as a sign the whole fight was your fault, or that they're manipulating you." Second, its march was broken with "because this is where a lot of us slide".
+  - Both fixes passed alone (86, 100), but neither cleared the h2: 92%, then 90% in two patches.
+  - So the fixes and the pleasantness paragraphs came back out. The h2 and h1 are byte-for-byte the versions that came back 100% and 97%.
+- **E150 (my own finding, not a correction).** Text added before a run that only just passes can tip that run into an AI window, because the windows shift.
+  - This run of four short instruction paragraphs had drawn a window before: 16% with C2 beside C1 in turn 31. It was clean in the h2 until the text before it grew.
+  - Fixing one paragraph of the run didn't move the window. The run needs fixing as a whole. It's also where the isolation group goes.
+  - Next time a section passes only narrowly, recheck it after every insertion before it, not only after insertions inside it.
