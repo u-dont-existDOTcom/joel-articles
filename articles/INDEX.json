@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "897699ca0c5e231543bd40931192e4ecb589b7fb8de33ee0f79e93546e38f02b",
+          "sha256": "90dca017b0b70783c520f4616ff9198b28b785c4ee4dba80cb9b4c1e1cce5e2f",
           "role": "humanization_working_record"
         },
         {
@@ -5191,6 +5191,11 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-07-turn32-b.json",
           "sha256": "38b59f73eff180a39680d3ec52c9518a9dad009bfe469ac8f352c634b9c78cd5",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-07-turn33.json",
+          "sha256": "4030caae6e87d2cf3b7e957ff64a0256cde07302c7821be1cf60d53ad2f10dc5",
+          "role": "in_context_map"
         }
       ]
     },

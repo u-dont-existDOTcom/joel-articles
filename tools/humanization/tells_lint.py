@@ -25,6 +25,10 @@ O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tai
 H1 and O10 (2026-10-06): headings are text. An x-not-y heading ("The Medicine Part, Without Pretending It Isn't There")
 fails, and so does an opener that points at nothing ("Key here is that…"); a pointer word opening the first paragraph
 under a heading ("This", "It", "The other") is a REVIEW. Markdown headings only (lines starting with #).
+O1 (2026-10-07 15:44): the "doesn't get to decide" family fails only when its subject isn't a person ("the weather doesn't
+get to decide"); with a person ("your dad doesn't get to decide") it isn't flagged, and an unclear subject is a REVIEW.
+O14 (2026-10-07): "not X, but still Y" in one sentence or two, a REVIEW (Joel: "there are other X Y rules, like 'Not x,
+but still y.'"). O15 (2026-10-07): a bulleted or numbered list, a REVIEW (Joel: "lists in general are overused by AI").
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -106,6 +110,40 @@ SMUGGLE = r"\bsmuggl\w*"
 # the claim or the reason plainly; keep a contrast only when the paragraph needs the other side said. Four words or more
 # must come before the comma or dash, so "No, not today." stays out.
 NOT_TAIL = re.compile(r"^(?P<head>.*\w.*?)(?:,|\s[—–]|\s--)\s+(?:and\s+)?(?:not|rather than|instead of)\s+(?:just\s+|only\s+|merely\s+|simply\s+)?[^,;:.!?]{2,90}[.!?\"”’)]*\s*$", re.I)
+
+# O1 (Joel, 2026-09-28; scoped 2026-10-07 15:44): "that was regarding abstract subjects. "the weather doesn't get to
+# decide" for example, not "your dad doesn't get to decide"". So the subject decides: a feeling, urge, part, thought or
+# thing fails; a person isn't flagged; an unclear one ("your little one", "they") is a REVIEW.
+GETS_TO = re.compile(r"\b(?:doesn['’]t|does not|don['’]t|do not|never|won['’]t|shouldn['’]t|can['’]t|cannot)\s+gets?\s+to\b"
+                     r"|\bgets?\s+to\s+(?:decide|choose|pick|vote|call|run|set|have the (?:last|final) (?:word|say))\b"
+                     r"|\bgets?\s+(?:a|the|any|no)\s+(?:vote|say|veto)\b", re.I)
+GT_PERSON = re.compile(r"\b(?:you|i|we|he|she|nobody|no one|somebody|someone|everybody|everyone|anybody|anyone|people|person|"
+                       r"parents?|dad|mom|mum|mother|father|partner|friends?|kids?|child|children|therapist|doctor|boss|family|"
+                       r"brother|sister|wife|husband|neighbou?r|teacher|guru|leader|members?|man|woman|guy|girl|boy|adults?)\b", re.I)
+GT_THING = re.compile(r"\b(?:it|this|that|feelings?|urges?|thoughts?|parts?|fears?|anxiety|anger|shame|grief|critic|voice|"
+                      r"weather|rules?|ideas?|mind|brain|body|story|mood|panic|worry|doubts?|pain|hurt|past|wound|habit|"
+                      r"impulse|emotions?|craving|instinct|alarm|nervous system)\b", re.I)
+GT_CLAUSE = re.compile(r"[,;:—–(]|\b(?:and|but|so|because|since|if|when|while|though|although|unless|until|which|who)\b", re.I)
+
+def gets_to_subject(s, m):
+    """'person', 'thing' or 'unclear' for the subject right before a "gets to" match."""
+    head = s[:m.start()]
+    cuts = [x.end() for x in GT_CLAUSE.finditer(head)]
+    seg = head[cuts[-1]:] if cuts else head
+    seg = re.sub(r"\b(?:part|parts|side|bit|piece) of (?:you|your|yourself|me|us|them|him|her)\b", 'part', seg, flags=re.I)
+    seg = re.sub(r"\b(?:your|my|his|her|their|our|its)\b", '', seg, flags=re.I)
+    person, thing = bool(GT_PERSON.search(seg)), bool(GT_THING.search(seg))
+    return 'person' if person and not thing else 'thing' if thing and not person else 'unclear'
+
+# O14 (Joel, 2026-10-07 15:44): "there are other X Y rules, like "Not x, but still y."" The x-not-y family is wider than the
+# "not Y" tail (O9) and the heading (H1). REVIEW: say the claim plainly; keep the contrast only when the reader needs it.
+NOT_BUT_STILL = re.compile(r"\b(?:isn['’]t|is not|aren['’]t|wasn['’]t|weren['’]t|not|doesn['’]t|don['’]t|didn['’]t|never|no)\b"
+                           r"[^.?!;]{0,70}?\b(?:but|though|yet)\b[^.?!;]{0,40}?\bstill\b", re.I)
+NOT_SENT = re.compile(r"\b(?:isn['’]t|aren['’]t|wasn['’]t|is not|are not|(?:doesn['’]t|don['’]t|didn['’]t) (?:mean|make|prove|change|count|matter|fix)|not (?:proof|enough|the same|a sign|evidence))\b", re.I)
+STILL_NEXT = re.compile(r"(?:But |And )?(?:it|that|this|they|you)(?:['’]s)? (?:still|can still)\b", re.I)
+# O15 (Joel, 2026-10-07 15:44): "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless
+# it's really needed." A bulleted or numbered list in the draft is a REVIEW (lists in a sentence are E125).
+LIST_LINE = re.compile(r"^\s*(?:[-*+•]|\d+[.)])\s+\S", re.M)
 
 # O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
@@ -292,6 +330,17 @@ def main():
         if x in installed_raw or is_known(x):
             continue
         flag(sev, rule, x)
+    # O15 (2026-10-07): a bulleted or numbered list in the draft, once per list; a list the owner wrote or that's installed isn't flagged
+    body = re.sub(r'<!--.*?-->', '', raw, flags=re.S)
+    in_list = False
+    for line in body.split('\n'):
+        if LIST_LINE.match(line):
+            item = re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', line).strip()
+            if not in_list and not (item in installed_raw or is_known(item)):
+                flag('REVIEW', 'O15 a list (Joel 2026-10-07: "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless it\'s really needed"): keep it only if the meaning really needs it', item)
+            in_list = True
+        elif line.strip():
+            in_list = False
     mine_words = 0; coach_hits = 0; you_hits = 0
     para_final_short = 0; imper_heavy = 0
     openers = []
@@ -309,14 +358,19 @@ def main():
             if not mine: continue
             for k, x, q in tri:
                 flag('REVIEW', 'E125 list of three' + (' inside a quote (someone else\'s words can keep theirs)' if q else '') +
-                     ': an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"). If the meaning doesn\'t need '
+                     ': an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it\'s really needed"). If the meaning doesn\'t need '
                      'all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just '
                      'has something to say."). Joel, 01:06: "when there\'s no actual need for 3 items you can remove one of them"', x)
             mine_words += len(w)
             for r in TICS:
                 if re.search(r, s, re.I): flag('FAIL', 'B11 tic', s)
-            if re.search(r"\b(doesn['’]t|does not|don['’]t|do not|never) gets? to (decide|choose|pick|vote|call)|\bgets? (a|the) (vote|say)\b|\bgets? to (decide|choose)\b", s, re.I):
-                flag('FAIL', 'O1 owner ban: "doesn\'t get to decide" family (Joel 2026-09-28)', s)
+            for mg in GETS_TO.finditer(s):
+                subj = gets_to_subject(s, mg)
+                if subj == 'thing':
+                    flag('FAIL', 'O1 owner ban: "doesn\'t get to decide" family with a subject that isn\'t a person (Joel 2026-09-28: "humans just rarely use [it] for non-humans"; 2026-10-07: "\'the weather doesn\'t get to decide\' for example, not \'your dad doesn\'t get to decide\'")', s)
+                elif subj == 'unclear':
+                    flag('REVIEW', 'O1 "gets to" with an unclear subject: a person can stay, a feeling, part, thought or thing can\'t (Joel 2026-10-07)', s)
+                break
             if re.search(r"(^|[.!?]\s+)(Fine|Good|Great|Sure|Okay|OK|Fair enough)[,.!]\s", s):
                 flag('FAIL', 'O2 owner ban: Fine/Good/Great as a clause (Joel 2026-09-28)', s)
             # E139 (2026-10-07): SKILL.md's "Synthetic specificity and fake concreteness" rule was never loaded here (O11 to O13; main's O8 to O10 came first).
@@ -348,6 +402,10 @@ def main():
             m9 = NOT_TAIL.match(s.strip())
             if m9 and len(words(m9.group('head'))) >= 4:
                 flag('REVIEW', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said', s)
+            if NOT_BUT_STILL.search(s):
+                flag('REVIEW', 'O14 "not X, but still Y" (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'"): say the claim plainly; keep the contrast only when the reader needs the other side said', s)
+            elif i + 1 < len(ss) and NOT_SENT.search(s) and STILL_NEXT.match(ss[i + 1].strip()) and not is_known(ss[i + 1]):
+                flag('REVIEW', 'O14 "not X. It still Y" across two sentences (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'")', s + ' ' + ss[i + 1])
             for r in CONTRAST:
                 if re.search(r, s, re.I): flag('REVIEW', 'B2 contrast', s); break
             for r in THESIS:

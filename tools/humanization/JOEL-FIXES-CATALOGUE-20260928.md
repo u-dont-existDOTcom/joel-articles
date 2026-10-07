@@ -468,3 +468,20 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
 
 - "ok i mean boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI." (E141: a frequency signal is a caution, not a ban; his own "ordinary life" and "boring" stay.)
 - "continue".
+
+## Joel's notes, 2026-10-07 15:27 to 16:06 UTC (the bans list, and context)
+
+- 15:27: "show me the bans list. i want to make sure you're not banning things just bc ai overuses them." The header of owner_bans.txt said never to write the last three entries, and two of those are cautions; fixed.
+- 15:27, on B2: "i don't understand the context for B2, that's coming after what? that matters because "still," obviously comes after something..."
+- 15:44, on the never-writes (E142, E143):
+  - "that was regarding abstract subjects. "the weather doesn't get to decide" for example, not "your dad doesn't get to decide", ... and humans do write this sometimes, so i hate to say straight up ban, but i'm afraid otherwise it will not really be avoided."
+  - "Fine,", wry humor and the weekday: "same here, this could be human use sometimes but i'm afraid you'll default to using it".
+- 15:44, on the cautions:
+  - "yes lists of 3 especially, and lists in general are overused by AI. try to avoid that unless it's really needed."
+  - "yes abstract things doing what people do is way overused by ai because it sounds polished."
+  - "there are other X Y rules, like "Not x, but still y."" (E146)
+  - "the marching order is really important"
+- 15:44: "i'm surprised it looks like all the ai tells you have are the ones i told you specfically. you haven't found any yourself?" (E144; `TELLS-FROM-PANGRAM-DATA-20261007.md`)
+- 15:44: "so whenever you give me the in-context side by side, you need to actuallly give me the context in that page so i can understand what's coming from what. i'm not telling you to take out "still" i'm asking to see the whole context there" (E145)
+- 15:27: "i don't mind fixing things if you're learning from my fixes, but if doing it yourself helps you learn better then you should do that."
+- 16:06: "oh sorry now i didn't mean for you to merge stuff that was not even finished, you didn't even show me the context, that's what i asked you to do" (E147: nothing was merged; "continue" is a merge OK only for finished work he has seen).

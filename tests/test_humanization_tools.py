@@ -103,6 +103,44 @@ class LinterAbstractAgents(unittest.TestCase):
         self.assertNotIn('O6', out)
 
 
+class LinterOwnerScopes(unittest.TestCase):
+    """Joel, 2026-10-07 15:44: the "gets to" ban is about subjects that aren't people; "Not x, but still y" is in the
+    x-not-y family; "lists in general are overused by AI"."""
+    def lint(self, text):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / 'draft.txt'
+            f.write_text(text, encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f)], capture_output=True, text=True)
+            self.assertIn('verdict:', r.stdout, r.stderr[-600:])
+            return r.stdout
+
+    def test_gets_to_with_a_thing_fails(self):
+        for t in ("The urge doesn't get to decide what you do tonight.\n", "That part of you doesn't get a vote here.\n",
+                  "The weather doesn't get to decide whether we go.\n"):
+            self.assertIn('O1 owner ban', self.lint(t), t)
+
+    def test_gets_to_with_a_person_is_not_flagged(self):
+        for t in ("Your dad doesn't get to decide where you live.\n", "Nobody gets to decide that for you.\n",
+                  "A real parent doesn't get to do that, which is one reason nobody manages to be a perfect one.\n"):
+            self.assertNotIn('O1', self.lint(t), t)
+
+    def test_gets_to_with_an_unclear_subject_is_a_review(self):
+        out = self.lint("Your little one gets to decide how close to come.\n")
+        self.assertIn('O1 "gets to" with an unclear subject', out)
+        self.assertNotIn('O1 owner ban', out)
+
+    def test_not_x_but_still_y(self):
+        self.assertIn('O14', self.lint("It isn't proof, but it still counts as a good evening.\n"))
+        self.assertIn('O14', self.lint("It isn't proof. It still counts as a good evening.\n"))
+        self.assertNotIn('O14', self.lint("She still lives in the house by the river with her two dogs.\n"))
+
+    def test_a_list_is_a_review(self):
+        out = self.lint("A few people you might call when it gets heavy:\n\n- a friend who listens\n- your sister\n")
+        self.assertIn('O15 a list', out)
+        self.assertEqual(out.count('O15 a list'), 1)
+        self.assertNotIn('O15', self.lint("You could call a friend who listens, or your sister.\n"))
+
+
 class LinterListsOfThree(unittest.TestCase):
     """E125 (Joel, 2026-10-03): "P! failed b ecause it has 2 lists of 3"; "lists of 3 in general are an ai pattern"."""
     FAILED_P1 = ("You might go looking for your little one and get mad instead, or realize you've been staring at the rug. "
@@ -150,6 +188,40 @@ class LinterListsOfThree(unittest.TestCase):
     def test_installed_text_gets_no_flags(self):
         rc, out = self.lint(self.FAILED_P1, installed='# Section\n\n' + self.FAILED_P1)
         self.assertNotIn('E125', out)
+
+
+class InContextPageShowsContext(unittest.TestCase):
+    """Joel, 2026-10-07 15:44: "whenever you give me the in-context side by side, you need to actually give me the context
+    in that page so i can understand what's coming from what"."""
+    ARTICLE = ('# Title\n\n## Section\n\nThe paragraph before, which ends the thought.\n\n'
+               'An installed paragraph in the middle.\n\n## Next Section\n\nThe next section starts here.\n')
+
+    def render(self, rows):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ARTICLE, encoding='utf-8')
+            (d / 's.md').write_text('Source paragraph.\n', encoding='utf-8')
+            (d / 'm.json').write_text(json.dumps({'title': 'T', 'blocks': [{'headings': ['## Section'], 'rows': rows}]}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'render_in_context.py'), str(d / 'm.json'), str(d / 'o.html'),
+                                '--article', str(d / 'a.md'), '--source', str(d / 's.md'), '--against-source'],
+                               capture_output=True, text=True)
+            return r.returncode, (d / 'o.html').read_text(encoding='utf-8') if (d / 'o.html').exists() else r.stderr
+
+    def test_a_candidate_without_a_place_stops_the_page(self):
+        rc, out = self.render([{'label': 'B2', 'text': 'Still, a new paragraph.', 'source': []}])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('needs a place', out)
+
+    def test_the_paragraphs_around_a_chain_of_candidates_are_shown(self):
+        rc, out = self.render([{'label': 'B1', 'text': 'First new paragraph.', 'source': [], 'after': 'An installed paragraph'},
+                               {'label': 'B2', 'text': 'Still, a second new one.', 'source': [], 'after_row': 'B1'}])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('Right before it in the article', out)
+        self.assertIn('An installed paragraph in the middle.', out)
+        self.assertIn('Right after it in the article', out)
+        self.assertIn('## Next Section', out)
+        self.assertEqual(out.count('Right before it in the article'), 1)   # B2 follows B1 directly: no context between them
+        self.assertIn('Where it goes: Title › Section', out)
 
 
 class StanceCheckPrompt(unittest.TestCase):
