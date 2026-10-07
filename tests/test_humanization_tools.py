@@ -61,6 +61,43 @@ class LinterAbstractAgents(unittest.TestCase):
         self.assertIn('O7', out)
         self.assertNotIn('O7', self.lint('She was old enough to vote, and she did.\n'))
 
+    def test_smuggling_talk_fails(self):
+        """O8 (Joel, 2026-10-03 20:51): "ai is always saying something like 'not smuggle in'"."""
+        out = self.lint('That includes some uses of ketamine and MDMA and bufo. My reasons are in those articles, not smuggled into one sentence here.\n')
+        self.assertIn('O8 owner ban', out)
+        self.assertIn('verdict: FAIL', out)
+        out = self.lint('That includes some uses of ketamine and MDMA and bufo. My reasons are given in those articles, respectively, since they need more space.\n')
+        self.assertNotIn('O8', out)
+        out = self.lint('In 1971 two of the members were caught smuggling hashish across the border from Mexico.\n')
+        self.assertIn('O8 "smuggle"', out)
+        self.assertNotIn('O8 owner ban', out)
+
+    def test_not_y_tail_is_flagged(self):
+        """O9 (Joel, same message): "it always wants to add a 'not Y' part"."""
+        out = self.lint('If people are training there so they can help others build communities of their own, they are building a genuine alternative, not just escaping society.\n')
+        self.assertIn('O9', out)
+        self.assertNotIn('O9', self.lint('No, not today. We will talk about the money when everyone is back from the market.\n'))
+        self.assertNotIn('O9', self.lint('She did not want to leave, and she said so at the meeting on Sunday.\n'))
+
+    def test_x_not_y_heading_fails(self):
+        """H1 (Joel, 2026-10-06): "that heading looks way ai for sure. always trying to do an x not y statement"."""
+        body = '\n\nMost of the writing on communities has not caught up with psychedelics, which went from taboo toward regulated use fast.\n'
+        out = self.lint('# The Medicine Part, Without Pretending It Isn\u2019t There' + body)
+        self.assertIn('H1 x-not-y heading', out)
+        self.assertIn('verdict: FAIL', out)
+        self.assertNotIn('H1', self.lint("# The Medicine Part - Yes, I'm Naming It" + body))
+        self.assertIn('H1 a negation in a heading', self.lint('# The Math of Absorption, and Who This Isn\u2019t For' + body))
+
+    def test_opener_pointing_at_nothing_fails(self):
+        """O10 (Joel, 2026-10-06): "'Key here' can't be how you open a section. that's referring to something. Key where? what?"."""
+        out = self.lint("# The Medicine Part - Yes, I'm Naming It\n\nKey here is that most of the writing on communities hasn't caught up with psychedelics. They moved fast.\n")
+        self.assertIn('O10 an opener that points at nothing', out)
+        self.assertIn('verdict: FAIL', out)
+        out = self.lint("# The Medicine Part - Yes, I'm Naming It\n\nMost of the writing on communities hasn't caught up with psychedelics. They moved fast.\n")
+        self.assertNotIn('O10', out)
+        out = self.lint('# Integration\n\nThis is where most groups give up on it, after the first few months of trying hard.\n')
+        self.assertIn('O10 the first sentence under a heading opens with a pointer', out)
+
     def test_person_doing_it_is_not_flagged(self):
         out = self.lint('There is no shared way to talk about the hurt, so the angry communard goes there, trying to get some justice. Money will not fix it.\n')
         self.assertNotIn('O6', out)

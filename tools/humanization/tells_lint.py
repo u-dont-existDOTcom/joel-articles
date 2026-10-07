@@ -21,6 +21,10 @@ A CLEAR only means no mechanical tells were found. The judgment checks
 R1 only catches the "did it" kind of referent; no reviewer caught that one either (2026-09-30).
 E125 (2026-10-03): a list of three or more is a REVIEW, and two in one paragraph are a FAIL.
 E126 (2026-10-03 01:06): the fix is to drop the item that matters least, or split the list when every item is needed.
+O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tail on a finished claim is a REVIEW.
+H1 and O10 (2026-10-06): headings are text. An x-not-y heading ("The Medicine Part, Without Pretending It Isn't There")
+fails, and so does an opener that points at nothing ("Key here is that…"); a pointer word opening the first paragraph
+under a heading ("This", "It", "The other") is a REVIEW. Markdown headings only (lines starting with #).
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -90,6 +94,18 @@ ACRONYMS = r"\b(IMO|IMHO|TBH|FWIW|IIRC|AFAIK|NGL|IRL|ICYMI|TL;?DR|BTW|OMG|LOL|SM
 # O7: the balanced "X enough to A and Y enough to B" pair (Joel, 2026-10-02 21:16, on "devoted enough to practice them
 # and secure enough to disagree": "looks super highly polished. surprised emulate let that in. and surprised pangram passed it").
 ENOUGH_PAIR = r"\b\w+ enough to \w+[^.?!;]{0,60}?\b(?:and|but|yet|while)\b[^.?!;]{0,30}?\b\w+ enough to\b"
+
+# O8: smuggling talk (Joel, 2026-10-03 20:51, on community section 5 P23's "My reasons are in those articles, not smuggled
+# into one sentence here": "ai is always saying something like 'not smuggle in' or something about smuggling in"). The
+# figurative kind fails (smuggled in or into something, or not/rather than/without smuggling); goods smuggled across a
+# border are a REVIEW, for the ledger to clear.
+SMUGGLE_FIG = (r"\b(?:not|never|rather than|instead of|without|no)\s+(?:\w+\s+){0,2}?smuggl\w*"
+               r"|\bsmuggl\w*\s+(?:\w+\s+){0,4}?(?:in|into)\b(?!\s+(?:the\s+)?(?:country|border|port|prison|jail))")
+SMUGGLE = r"\bsmuggl\w*"
+# O9: a "not Y" tail on a finished claim (Joel, same message: "And it always wants to add a 'not Y' part"). REVIEW: say
+# the claim or the reason plainly; keep a contrast only when the paragraph needs the other side said. Four words or more
+# must come before the comma or dash, so "No, not today." stays out.
+NOT_TAIL = re.compile(r"^(?P<head>.*\w.*?)(?:,|\s[—–]|\s--)\s+(?:and\s+)?(?:not|rather than|instead of)\s+(?:just\s+|only\s+|merely\s+|simply\s+)?[^,;:.!?]{2,90}[.!?\"”’)]*\s*$", re.I)
 
 # O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
@@ -193,13 +209,58 @@ def triads(s):
     return res
 
 
+# H1 (Joel, 2026-10-06): "oh yeah that heading looks way ai for sure. always trying to do an x not y statement, isn't that
+# on your tells list? humans don't do x not y as much." The published "The Medicine Part, Without Pretending It Isn't There"
+# read AI with the paragraph after it in Pangram's web app, while that paragraph passed alone; his "The Medicine Part - Yes,
+# I'm Naming It" passed. The linter dropped headings until then, so no rule ever saw one.
+HEAD_XNOTY = re.compile(r"(?:,|\s[-—–:])\s*(?:without|not|never|no)\b|^(?:not|never)\b[^,]*,|\b(?:without pretending|not just|not only)\b", re.I)
+HEAD_NEG = re.compile(r"\b(?:isn['’]t|aren['’]t|wasn['’]t|doesn['’]t|don['’]t|not|without)\b", re.I)
+# O10 (Joel, 2026-10-06): "'Key here' can't be how you open a section. that's referring to something. Key where? what?"
+# A trace had flagged its "here" as unanchored; the finding was kept and he caught it.
+POINTER_FAIL = re.compile(r"^(?:the\s+)?key\s+(?:here|thing here|point here)\b|^here['’]?s the (?:thing|deal|key)\b|^here is the (?:thing|deal|key)\b", re.I)
+POINTER_HEAD = re.compile(r"^(?:this|that|these|those|it|here|there|the other|another|such)\b(?!\s+(?:is a|are)\b)", re.I)
+
+def heading_checks(raw):
+    """Flags (severity, rule, text) for each markdown heading and the opener of the paragraph under it."""
+    raw = re.sub(r'<!--.*?-->', '', raw, flags=re.S)
+    blocks = []
+    for b in (x.strip() for x in re.split(r'\n\s*\n', raw) if x.strip()):
+        ls = b.split('\n')
+        if len(ls) > 1 and re.match(r'^#+\s', ls[0]):      # a heading line with its paragraph right under it
+            blocks += [ls[0], '\n'.join(ls[1:]).strip()]
+        else:
+            blocks.append(b)
+    out = []
+    for i, b in enumerate(blocks):
+        m = re.match(r'^#+\s+(.*)$', b)
+        if not m:
+            continue
+        h = m.group(1).strip()
+        if HEAD_XNOTY.search(h):
+            out.append(('FAIL', 'H1 x-not-y heading (Joel 2026-10-06: "always trying to do an x not y statement ... humans don\'t do x not y as much"); name the thing, as his "The Medicine Part - Yes, I\'m Naming It"', h))
+        elif HEAD_NEG.search(h):
+            out.append(('REVIEW', 'H1 a negation in a heading: check it isn\'t an x-not-y frame (Joel 2026-10-06)', h))
+        for nb in blocks[i + 1:]:
+            if re.match(r'^#+\s', nb):
+                break
+            t = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', nb).replace('*', '').strip()
+            if not t or t.startswith('![') or re.match(r'^image \d+$', t, re.I) or (len(t.split()) <= 3 and not t.endswith(('.', '?', '!'))):
+                continue
+            first = sentences(t)[0] if sentences(t) else t
+            if POINTER_HEAD.match(first) and not POINTER_FAIL.match(first):
+                out.append(('REVIEW', 'O10 the first sentence under a heading opens with a pointer: say what it points at, since nothing above it in the section does (Joel 2026-10-06, on "Key here": "that\'s referring to something. Key where? what?")', first))
+            break
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('draft'); ap.add_argument('--source')
     ap.add_argument('--owner'); ap.add_argument('--quiet', action='store_true')
     ap.add_argument('--installed', help='the article as installed: its sentences passed already and get no flags')
     a = ap.parse_args()
-    text = clean(open(a.draft, encoding='utf-8').read())
+    raw = open(a.draft, encoding='utf-8').read()
+    text = clean(raw)
     owner = set()
     if a.owner:
         owner = {re.sub(r'\s+', ' ', l.strip()) for l in open(a.owner, encoding='utf-8') if l.strip()}
@@ -224,6 +285,13 @@ def main():
     allw = words(text); nw = len(allw) or 1
     flags = []   # (severity, rule, sentence)
     def flag(sev, rule, s): flags.append((sev, rule, s))
+    # H1 and O10 (2026-10-06): headings and the opener under each, from the raw markdown. A heading or opener the owner
+    # wrote, or one already installed, isn't flagged.
+    installed_raw = open(a.installed, encoding='utf-8').read() if a.installed else ''
+    for sev, rule, x in heading_checks(raw):
+        if x in installed_raw or is_known(x):
+            continue
+        flag(sev, rule, x)
     mine_words = 0; coach_hits = 0; you_hits = 0
     para_final_short = 0; imper_heavy = 0
     openers = []
@@ -251,17 +319,17 @@ def main():
                 flag('FAIL', 'O1 owner ban: "doesn\'t get to decide" family (Joel 2026-09-28)', s)
             if re.search(r"(^|[.!?]\s+)(Fine|Good|Great|Sure|Okay|OK|Fair enough)[,.!]\s", s):
                 flag('FAIL', 'O2 owner ban: Fine/Good/Great as a clause (Joel 2026-09-28)', s)
-            # E139 (2026-10-07): SKILL.md's "Synthetic specificity and fake concreteness" rule was never loaded here.
+            # E139 (2026-10-07): SKILL.md's "Synthetic specificity and fake concreteness" rule was never loaded here (O11 to O13; main's O8 to O10 came first).
             if re.search(r"\b(Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)days?\b", s):
-                flag('FAIL', 'O9 owner ban: a weekday put in to sound concrete (Joel 2026-10-07: "AI is always saying Tuesday, on Tuesday, '
+                flag('FAIL', 'O11 owner ban: a weekday put in to sound concrete (Joel 2026-10-07: "AI is always saying Tuesday, on Tuesday, '
                      'or some specific day like this. on a regular Tuesday is the worst"; SKILL.md "Synthetic specificity"). Keep one only '
                      'when it is a real fact from the source and matters to the thought', s)
             if re.search(r"\b(ordinary|regular|boring|everyday|mundane)\b", s, re.I):
-                flag('REVIEW', 'O10 "ordinary/regular/boring" filler (Joel 2026-10-07: "Ai always saying ordinary boring regular now it\'s '
+                flag('REVIEW', 'O12 "ordinary/regular/boring" filler (Joel 2026-10-07: "Ai always saying ordinary boring regular now it\'s '
                      'regular tuesday"): say what you mean, or cut it', s)
             if re.search(r"\b\d+\s*(%|percent)|\b(one|two|three|four|five|ten|twenty|fifty)\s+percent\b|\bo['’]clock\b|\b\d{1,2}(:\d\d)?\s?(am|pm)\b|"
                          r"\bby (lunch|dinner|noon|bedtime|lunchtime)\b|\b(a|one|this|that) (morning|afternoon|evening) of\b", s, re.I):
-                flag('REVIEW', 'O11 a made-up number or clock time (Joel 2026-10-07, on "five percent is enough": "AI wants to put concrete '
+                flag('REVIEW', 'O13 a made-up number or clock time (Joel 2026-10-07, on "five percent is enough": "AI wants to put concrete '
                      'numbers on stuff all the time, then people are wondering how much is 5%?"; SKILL.md: no invented clock-time details)', s)
             if re.search(r"\b(my first (guess|thought|instinct|reaction)|I'd probably want to|I'd be tempted to|my instinct would be)\b", s, re.I):
                 flag('REVIEW', 'E138 the writer\'s own impulse: check the next sentence doesn\'t take it back (Joel 2026-10-07, on "I\'d probably '
@@ -271,6 +339,15 @@ def main():
                 flag('REVIEW', 'O6 a feeling or idea doing what a person does: one of the top tells, not a ban, worst when polished or overused; give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
             if re.search(ENOUGH_PAIR, s, re.I):
                 flag('REVIEW', 'O7 polished "X enough to… Y enough to…" pair (Joel 2026-10-02: "devoted enough to practice them and secure enough to disagree" "looks super highly polished")', s)
+            if re.search(SMUGGLE_FIG, s, re.I):
+                flag('FAIL', 'O8 owner ban: smuggling talk (Joel 2026-10-03: "ai is always saying something like \'not smuggle in\' or something about smuggling in"); say the plain reason, as his "My reasons are given in those articles, respectively, since they need more space."', s)
+            elif re.search(SMUGGLE, s, re.I):
+                flag('REVIEW', 'O8 "smuggle": literal smuggling can stay; the figurative kind is an owner ban (Joel 2026-10-03)', s)
+            if i == 0 and POINTER_FAIL.match(s.strip()):
+                flag('FAIL', 'O10 an opener that points at nothing (Joel 2026-10-06: "\'Key here\' can\'t be how you open a section. that\'s referring to something. Key where? what?"): start with the claim itself, as his "Most of the writing on communities hasn\'t caught up with psychedelics."', s)
+            m9 = NOT_TAIL.match(s.strip())
+            if m9 and len(words(m9.group('head'))) >= 4:
+                flag('REVIEW', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said', s)
             for r in CONTRAST:
                 if re.search(r, s, re.I): flag('REVIEW', 'B2 contrast', s); break
             for r in THESIS:
