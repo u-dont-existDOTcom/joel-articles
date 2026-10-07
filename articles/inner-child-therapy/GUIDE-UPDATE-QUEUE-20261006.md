@@ -1,4 +1,4 @@
-# Joel's guide-update queue: where each item goes (turn 30, 2026-10-06; updated turn 31, 2026-10-07)
+# Joel's guide-update queue: where each item goes (turn 30, 2026-10-06; updated turns 31 and 32, 2026-10-07)
 
 Joel, 2026-10-06 19:04 UTC: "also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates". They are innerSignalGraph's `authoring/PENDING-PUBLIC-GUIDE-CHANGES.md`, queue version 2026-10-06-r2 (innerSignalGraph at ece60957), copied here as `source/PENDING-PUBLIC-GUIDE-CHANGES-2026-10-06-r2.md`, with the guide it points to, `source/inner-child-guide-2026-10-04-r4.txt`. The queue's rule: "If an item is already present semantically in the public draft, consume it without duplicating prose." Its file in innerSignalGraph isn't edited from this lane; after Joel's OK, the consumed items get removed there in one reviewed change.
 
@@ -6,10 +6,10 @@ Status words: **in** (installed and checked), **drafted** (written and reviewed 
 
 | Item | What | Where in the article | Status |
 |---|---|---|---|
-| PGQ-001 | an experience isn't its own interpretation; orientation and gender not steered either way | Catch the Hook Before the Story Takes Over, after "Here's where I want to clearly depart…" | drafted (B). Turn 31: B1 passes alone (71); B2 failed alone twice (100% AI, 100 words both times, the second after the reviewer's tickets), so neither is in: B1 alone would say only half of it |
+| PGQ-001 | an experience isn't its own interpretation; orientation and gender not steered either way | Catch the Hook Before the Story Takes Over, after "Here's where I want to clearly depart…" | drafted (B). Turn 31: B1 passes alone (71); B2 failed alone twice (100% AI, 100 words both times, the second after the reviewer's tickets), so neither is in: B1 alone would say only half of it Turn 32: B2 from three fresh writers and two review rounds, still 100% AI alone twice more (five tries in all). |
 | PGQ-002 | social practice and behavior can become checking | Also Look Outward (C1) | **in** (turn 31): alone 100% Human (83), the h2 (1,863) and the h1 (2,679). The When Healing Turns Into Checking draft (K) said most of the same thing about dates and failed alone twice, so it's dropped as a repeat; its one new point (cancelling to make the doubt go away is checking too) is parked |
-| PGQ-003 | honesty is graded by earned trust | Also Look Outward (C2) | drafted. Turn 31: passes alone (129), but next to C1 at the end of Also Look Outward the h2 was 16% AI (one 312-word window from the paragraph before C1 through C2), so it waits for another spot or a rework |
-| PGQ-004 | anxiety can protect without being an oracle | Start With Whatever Showed Up, after "Or if you do get an answer…" | drafted (F). Turn 31: failed alone twice (100% AI, the second after the reviewer's tickets); waits for fresh writers. Its point that a protective part's no counts is in When to Change the Strategy P4 ("If it still says no, that's your answer.") |
+| PGQ-003 | honesty is graded by earned trust | Also Look Outward (C2) | drafted. Turn 31: passes alone (129), but next to C1 at the end of Also Look Outward the h2 was 16% AI (one 312-word window from the paragraph before C1 through C2), so it waits for another spot or a rework Turn 32: the isolation group's grounding puts it right after "a room where people share something real", so that's its spot once the group is in. |
+| PGQ-004 | anxiety can protect without being an oracle | Start With Whatever Showed Up, after "Or if you do get an answer…" | drafted (F). Turn 31: failed alone twice (100% AI, the second after the reviewer's tickets); waits for fresh writers. Its point that a protective part's no counts is in When to Change the Strategy P4 ("If it still says no, that's your answer.") Turn 32: its second paragraph passes alone (57, then 61 after the second review); the first failed twice more (five tries in all). |
 | PGQ-005 | match the claim to the duration | When to Change the Strategy P3 | **in** (turn 30) |
 | PGQ-006 | a psychoactive adverse history changes planning | When the Urge to Escape Arrives | waits (next section) |
 | PGQ-007 | a healthy mind isn't a perfectly clean mind | The Inner Guide Comes Later | waits |
@@ -28,9 +28,9 @@ The r4 guide also has paragraphs the queue doesn't list. I told Joel I'd treat t
 
 | r4 paragraphs | Where | Status |
 |---|---|---|
-| "That means turning the depth down, not throwing the relationship away…", "If you do want the relationship but a particular depth is too much…", "A complete tolerance pause is a last resort…" | Before You Try to Go Deep | not drafted yet |
-| "Do not use pleasantness as the only safety meter…", "If those answers are not known yet…", "Dreams and imagery can be useful material…" | Your Body Might Need Some Love First | not drafted yet |
-| "If isolation itself is part of the wound…", "Look for more than one door…", "Use the Protector here too…" | Also Look Outward, after C | not drafted yet |
+| "That means turning the depth down, not throwing the relationship away…", "If you do want the relationship but a particular depth is too much…", "A complete tolerance pause is a last resort…" | Before You Try to Go Deep | drafted turn 32 (three writers, cold read and grounding, fixes); all three paragraphs 100% AI alone |
+| "Do not use pleasantness as the only safety meter…", "If those answers are not known yet…", "Dreams and imagery can be useful material…" | Your Body Might Need Some Love First | drafted turn 32; P3 (gradual return, dreams) 100% Human alone, P1 and P2 100% AI |
+| "If isolation itself is part of the wound…", "Look for more than one door…", "Use the Protector here too…" | Also Look Outward, after C1 | drafted turn 32; both paragraphs 100% AI alone |
 | "A difficult dream is not automatically evidence…" | When the Practice Feels Real but Stays Shallow | waits |
 
 What isn't in r4 but is in the article's Substack source (the altered-state paragraphs, "the adult voice can stay fake in ordinary consciousness…") stays: the queue doesn't ask to remove anything.

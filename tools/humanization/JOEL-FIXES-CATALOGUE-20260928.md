@@ -463,3 +463,8 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
 - **The r4 guide:** "r4 guide ok, yeah if it has new stuff add that, i thought i had given you that but maybe not, just make sure it's not duplicating stuff".
 - **A question that came from nowhere (E140):** "i'd prob consider a diff dr, maybe same sex etc or whichever one doesn't seem to creep them out. if their reactions are overly broad they can do some inner child reparenting on it, but might bea useful signal to take seriously, some drs are creeps. but your question is coming from where? it wasn't talking about a doctor touching someone. it was saying some sensations need medical checking."
 - "continue" (merge at the end of the turn).
+
+## Joel's note, 2026-10-07 03:24 UTC (cautions and bans)
+
+- "ok i mean boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI." (E141: a frequency signal is a caution, not a ban; his own "ordinary life" and "boring" stay.)
+- "continue".
