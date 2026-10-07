@@ -758,3 +758,14 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-07 (turn 31) | The h1 with p4b | Human, low (my call: the same spot drew windows with "to see whether" twice) | 100% Human (2,433) (dashboard, version 4.0) | hit |
 | 2026-10-07 (turn 31) | The h1 with p4c | Human, low-medium (my call) | 100% Human (2,429) (dashboard, version 4.0) | hit |
 | 2026-10-07 (turn 31) | Start With Whatever Showed Up with whichever passes the h1 | Human, medium (my call: the h2 passed with "to see whether") | both passed the h1, and p4b reads closest to the proposal Joel liked, so p4b: 100% Human (1,840) (dashboard, version 4.0) | hit |
+| 2026-10-07 (turn 32) | Queue PGQ-001's second paragraph (B2), a fresh writer's version (w1 of three, from a brief that named why the two turn-31 versions failed) with the cold read clean and the grounding's fixes ("genuine", "the people around you", what you do goes by what you care about, "what keeps coming back in your own experience"), alone | Human, low (my call: B2 failed twice, and the fixes added a sentence) | (pending) | |
+| 2026-10-07 (turn 32) | Queue PGQ-004 (F), w3 of three with the grounding's and cold read's fixes, first paragraph alone | Human, low-medium (my call) | (pending) | |
+| 2026-10-07 (turn 32) | F's second paragraph alone (54 words: hesitation is enough with touch or sex; going deeper "in this work") | Human, low-medium (my call: short, and it rules on cases) | (pending) | |
+| 2026-10-07 (turn 32) | r4 depth group (Before You Try to Go Deep), w2 of three, P1 (a no to the frame isn't a pacing problem), alone | Human, medium (my call: an aside, "maybe you've half known it for a while") | (pending) | |
+| 2026-10-07 (turn 32) | Depth P2 (change the dose; a thought the reader would have), alone | Human, medium (my call) | (pending) | |
+| 2026-10-07 (turn 32) | Depth P3 (the full pause), with the cold read's fixes, alone | Human, low-medium (my call: a run of questions and instructions) | (pending) | |
+| 2026-10-07 (turn 32) | r4 pleasantness group (Your Body Might Need Some Love First), w2 of three with the grounding's fixes, P1, alone | Human, medium (my call) | (pending) | |
+| 2026-10-07 (turn 32) | Pleasantness P2 (the questions, then adjusting the challenge), alone | AI, low-medium (my call: a run of short instructions) | (pending) | |
+| 2026-10-07 (turn 32) | Pleasantness P3 (bring it back gradually; dreams aren't memories), alone | Human, low-medium (my call) | (pending) | |
+| 2026-10-07 (turn 32) | r4 isolation group (Also Look Outward), w2 of three with the cold read's and grounding's fixes, P1 (reaching toward people is care), alone | Human, medium (my call) | (pending) | |
+| 2026-10-07 (turn 32) | Isolation P2 (more than one door; the Protector), alone | Human, low-medium (my call) | (pending) | |
