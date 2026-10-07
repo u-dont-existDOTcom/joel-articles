@@ -468,3 +468,12 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
 
 - "ok i mean boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI." (E141: a frequency signal is a caution, not a ban; his own "ordinary life" and "boring" stay.)
 - "continue".
+
+## Joel's answers and fixes, 2026-10-07 01:43 UTC (community sections 5, 6 and 7)
+
+- **Section 5, spellings.** "section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them." ("contra-indications", "pre-requisite", "re-incarnation", "priveleged" → standard spellings; the section read 100% Human in the web app, 2,331 words scanned.)
+- **Section 6, P8 and P9, overcompleting.** "i fixed p8p9, it was way overcompleting itself, now it passes pangram together". P8 lost its closing line ("These are all questions that a community should consider in advance."). P9 before: "There should be pre-existing agreements in place so that if a member gets catastrophically ill, their choices will be protected, they will have access to common resources or external funds if needed, they will be transported if needed, their privacy will be maintained, and there's room for the possibility that the community's preferred methods are not sufficient." After: "There should be pre-existing agreements in place so that their choices will be protected, both for catastrophic illness and end of life care. Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious." (His "may not guaranteed" and "contageous" fixed as typos.)
+- **Section 7, P3, normal syntax.** "p3 is really interesting, you replaced commas and even 'or' with 'and and and and' that looks like emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax": "Rigid monogamy can turn fear and possession into a moral law. If people are doing free love, but aren't doing the inner pl/ork, they can just end up with a larger spreadsheet to distribute their fear over. It's not like calling something by a certain name dissolves the childhood panic, the comparison, the terror of abandonment, or the desire to control another person."
+- **Section 7, my question.** "there's no need to question, 'their' is correct based on emualte's active voice."
+- **Section 7, P4 to P6.** "p4 reads fine to me with as they wish, i agree with you it's not confusing"; "p5 ok"; "p6 ok".
+- "ok fine not bad continue".

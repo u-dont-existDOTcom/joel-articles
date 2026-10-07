@@ -25,6 +25,10 @@ O8/O9 (2026-10-03 20:51): "smuggled into one sentence here" fails; a "not Y" tai
 H1 and O10 (2026-10-06): headings are text. An x-not-y heading ("The Medicine Part, Without Pretending It Isn't There")
 fails, and so does an opener that points at nothing ("Key here is that…"); a pointer word opening the first paragraph
 under a heading ("This", "It", "The other") is a REVIEW. Markdown headings only (lines starting with #).
+O14, O15 and O16 (Joel, 2026-10-07 01:43; numbered after the Inner Child lane's O11 to O13): Emulate's "and ... and ... and" list fails (two repeated "and"s or "or"s in
+one stretch without punctuation are a REVIEW, three a FAIL); an unusual spelling or hyphenation is a REVIEW, his lines
+included ("unusual spellings should help pass pangram, but that's also cheating"); a paragraph that closes by summing
+itself up ("These are all questions that…") is a REVIEW ("it was way overcompleting itself").
 """
 import re, sys, argparse, math
 from statistics import mean, pstdev
@@ -218,6 +222,73 @@ HEAD_NEG = re.compile(r"\b(?:isn['’]t|aren['’]t|wasn['’]t|doesn['’]t|don
 # O10 (Joel, 2026-10-06): "'Key here' can't be how you open a section. that's referring to something. Key where? what?"
 # A trace had flagged its "here" as unanchored; the finding was kept and he caught it.
 POINTER_FAIL = re.compile(r"^(?:the\s+)?key\s+(?:here|thing here|point here)\b|^here['’]?s the (?:thing|deal|key)\b|^here is the (?:thing|deal|key)\b", re.I)
+
+# O14 (Joel, 2026-10-07 01:43, on section 7 P3): "you replaced commas and even 'or' with 'and and and and' that looks like
+# emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax". Emulate's sentence was "It's not
+# like calling something by a certain name dissolves the childhood panic and the comparison and the terror of abandonment
+# and the desire to control another person." His: "...dissolves the childhood panic, the comparison, the terror of
+# abandonment, or the desire to control another person." So a list keeps commas and its own "or". Counted per stretch of
+# a sentence between punctuation marks: two repeats of the same "and" or "or" are a REVIEW, three a FAIL.
+POLY_SPLIT = re.compile(r"[,;:()\[\]—–]|\s-\s|\s--\s")
+def polysyndeton(s):
+    """The longest chain of one conjunction repeated with short items between (six words or fewer; a pair counts only
+    when the item between is three words or fewer), within a stretch between punctuation marks. "and who would notice
+    and act" is a pair; "a relationship secret from the child's mother or another" is not a chain."""
+    worst = 0
+    for seg in POLY_SPLIT.split(QUOTED.sub(' ', s)):
+        toks = re.findall(r"[\w'’]+", seg.lower())
+        for conj in ('and', 'or'):
+            idx = [i for i, t in enumerate(toks) if t == conj]
+            run = 1; best = 1 if idx else 0
+            for a, b in zip(idx, idx[1:]):
+                gap = b - a - 1
+                run = run + 1 if 1 <= gap <= 6 else 1
+                best = max(best, run)
+            if best == 2:
+                pairs = [b - a - 1 for a, b in zip(idx, idx[1:])]
+                if not any(1 <= g <= 3 for g in pairs):
+                    best = 1
+            worst = max(worst, best)
+    return worst
+
+# O15 (Joel, same message): "section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so
+# you can fix them." His "priveleged", "contageous", "re-incarnation" and the like. A REVIEW, for his lines too: a coinage
+# ("pl/ork", "technosphere") or a rare word stays; a misspelling or an odd hyphenation gets fixed, without a Pangram recheck
+# (20:38: "no need to recheck pangram to fix a typo"). Needs pyspellchecker; without it the check is skipped and says so.
+try:
+    from spellchecker import SpellChecker
+    _SPELL = SpellChecker()
+except Exception:
+    _SPELL = None
+# prefixes whose closed form is the usual one ("re-incarnation", "pre-requisite", "contra-indications"); a compound like
+# "grown-up" is left alone
+HYPHEN_PREFIXES = {'re', 'pre', 'contra', 'co', 'non', 'anti', 'counter', 'inter', 'multi', 'semi', 'sub', 'super', 'un', 'over', 'under'}
+def odd_spellings(s):
+    if _SPELL is None:
+        return []
+    out = []
+    for tok in re.findall(r"[A-Za-z][A-Za-z'’-]*[A-Za-z]", QUOTED.sub(' ', s)):
+        if any(c.isupper() for c in tok) or '/' in tok:
+            continue   # names, and coinages written with a slash
+        t = re.sub(r"['’](s|t|re|ve|ll|d|m)$", '', tok.lower())
+        if t.endswith("n") and tok.lower().endswith(("n't", "n’t")):
+            continue
+        if '-' in t:
+            joined = t.replace('-', '')
+            if t.split('-')[0] in HYPHEN_PREFIXES and _SPELL.known([joined]):
+                out.append(tok + ' (the closed form "%s" is standard)' % joined)
+            continue
+        if len(t) > 3 and not _SPELL.known([t]):
+            out.append(tok)
+    return out
+
+# O16 (Joel, same message, on section 6 P8 and P9): "i fixed p8p9, it was way overcompleting itself, now it passes pangram
+# together". He cut the closing "These are all questions that a community should consider in advance." and a five-item
+# list of protections. A REVIEW on a paragraph's last sentence when it sums the paragraph up. Cutting is his call: propose
+# the cut with the passage quoted, don't make it.
+SUMMARY_CLOSE = re.compile(r"^(?:these|those|all (?:of )?(?:these|those|this)|this|that)(?:\s+\w+){0,2}\s+(?:are|is|were)\s+all\b"
+                           r"|^(?:all (?:of )?(?:these|those|this)|this is (?:all )?why|that['’]?s (?:all )?why|in short|in the end|"
+                           r"ultimately|taken together|in sum|to sum up)\b", re.I)
 POINTER_HEAD = re.compile(r"^(?:this|that|these|those|it|here|there|the other|another|such)\b(?!\s+(?:is a|are)\b)", re.I)
 
 def heading_checks(raw):
@@ -302,6 +373,8 @@ def main():
         imps = 0
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
         for i, s in enumerate(ss):
+            for o in odd_spellings(s):
+                flag('REVIEW', 'O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that\'s also cheating"); a coinage or a rare word stays, a misspelling gets fixed: ' + o, s)
             mine = not is_known(s)
             w = words(s); sent_lens.append(len(w))
             tri = triads(s)
@@ -367,6 +440,13 @@ def main():
             if first in IMPER: imps += 1
             if s.count(',') >= 3 or len(re.findall(r'\b(or|and)\b', s)) >= 3:
                 flag('REVIEW', 'B4/E15 list or packed sentence', s)
+            ps_n = polysyndeton(s)
+            if ps_n >= 3:
+                flag('FAIL', 'O14 owner ban: an "and ... and ... and" list (Joel 2026-10-07: "that looks like emulate trying to cheat, and it wasn\'t needed. still passes pangram with normal syntax"); use commas and keep the list\'s own "or"', s)
+            elif ps_n == 2:
+                flag('REVIEW', 'O14 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate\'s trick in a list (Joel 2026-10-07)', s)
+            if i == len(ss) - 1 and len(ss) >= 3 and SUMMARY_CLOSE.match(s.strip()):
+                flag('REVIEW', 'O16 a closing line that sums the paragraph up (Joel 2026-10-07: "it was way overcompleting itself"): propose the cut to him, quoted, with your opinion; don\'t cut it yourself', s)
             if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", ' '.join(s.split()[:8]), re.I):
                 flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
             if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):
@@ -426,6 +506,8 @@ def main():
     fails = [f for f in flags if f[0] == 'FAIL']
     verdict = 'FAIL' if (hard or fails) else ('REVIEW' if flags else 'CLEAR')
     print(f'== tells_lint: {a.draft}')
+    if _SPELL is None:
+        print('note: O15 (spelling) skipped, pyspellchecker is not installed (pip install pyspellchecker)')
     print('verdict:', verdict)
     for h in hard: print('  HARD:', h)
     print('metrics:', metrics)
