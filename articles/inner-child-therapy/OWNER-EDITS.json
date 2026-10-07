@@ -97,11 +97,11 @@
   {
    "id": "outward-p1-sense",
    "status": "applied",
-   "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48. Rebuilt by the reviewer-writer loop (r6b, 2026-09-28) and finished by Joel (entry outward-p1-joel-final).",
+   "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48. Rebuilt by the reviewer-writer loop (r6b, 2026-09-28) and finished by Joel (entry outward-p1-joel-final). 2026-10-07 23:18: Joel changed \"that happy place\" to \"your happy place\".",
    "joel": "04:19: \"the first paragraph in Also Look Outward makes no sense. after 'irritating.' the next sentence is referring to what? and next and next... ?\"; 21:46: \"it looks like this same paragraph that i told you before made no sense, do you recall that feedback?\"",
    "waits_for": "",
    "must_contain": [
-    "Once you're in that happy place, look at the other person too",
+    "Once you're in your happy place, look at the other person too",
     "Or can they hear you disagree and look at their own part?"
    ],
    "must_not_contain": [
@@ -412,10 +412,10 @@
   {
    "id": "rel-meditate-moved",
    "status": "applied",
-   "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start.",
+   "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start. 2026-10-07 23:18: Joel rewrote the paragraph (entry also-look-outward-run-joel).",
    "joel": "2026-09-30 03:29 UTC: \"ok but now i'm rethinking the \\\"underlying reason your in it\\\" part because i'm remembering [a past relationship] [...] So now the advice to leave the relationship becomes more tricky with that in mind. I can't say she should have left me or not left me... it just depends on how things were going for her at the time. [...] Maybe instead of \\\"leave it\\\" and explaining why youre in it, just say, \\\"meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.\\\" Although that might deserve its own section, idk. I also have a romance guide i could link to at romance.u-dont-exist.com (link works even if not for you).\"",
    "must_contain": [
-    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship."
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it."
    ],
    "must_not_contain": [
     "The underlying reason you're in it anyway",
@@ -424,7 +424,7 @@
    "order": [
     "prepared for their failure to meet them.",
     "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098",
-    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.",
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it.",
     "If you really did hurt them, repair it.",
     "Not Every Hero Wears A Cape",
     "Clean your room! Maybe your little one had grown-ups"
@@ -1328,11 +1328,11 @@
   {
    "id": "pgq-002-performance-test",
    "status": "claim",
-   "what": "Claim check: Joel's update queue item PGQ-002 (dates and other contact can turn into proof-seeking; keep the contact, drop the proving) is at the end of Also Look Outward. PGQ-003's paragraph waits (it drew a window next to this one).",
+   "what": "Claim check: Joel's update queue item PGQ-002 (dates and other contact can turn into proof-seeking; keep the contact, drop the proving) is at the end of Also Look Outward. PGQ-003's paragraph waits (it drew a window next to this one). 2026-10-07 23:18: the paragraph is now Joel's own rewrite (entry also-look-outward-run-joel).",
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
    "where": "Before You Try to Go Deep",
    "must_contain_exact": [
-    "Then there are people you're just getting to know. Meeting them can turn into a kind of test. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'd lower the stakes. Get curious about them, and let them have their own reasons for being there. Can you just be with them without it turning into a verdict on you?"
+    "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'm giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present."
    ]
   },
   {
@@ -1375,6 +1375,19 @@
    "must_contain_exact": [
     "Anxiety deserves the same kind of listening. A lot of the time it's a part of you that's trying to protect you, making a guess about what's coming: that you'll get overwhelmed, maybe, or that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. So when it's safe to find out, I'd hear it out and then go see. Maybe nobody laughs. (Or they do, and you survive it.) If it might be real danger, though, I'd get some distance first, and find out how right it was later. Same with something a doctor should look at.",
     "Some of it I wouldn't test at all, even when it sounds like a prediction. If a part hesitates about being touched or about sex, that's enough to stop. And if it says no to going deeper in this work, or to an altered state, I'd stop there too. It might not be able to tell you why."
+   ]
+  },
+  {
+   "id": "also-look-outward-run-joel",
+   "status": "applied",
+   "what": "Joel's own fix of the four paragraphs Pangram flagged at the end of Also Look Outward in turn 34 (the relationship paragraph, the repair line, the apology paragraph and C1), word for word.",
+   "joel": "2026-10-07 23:18 UTC: \"Here i fixed the red sections for you, this is human high conf learn some lessons\"",
+   "where": "Also Look Outward",
+   "must_contain_exact": [
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!) But if they've actually hurt or threatened you, even once, old stuff or not, get safe first, which is not a small thing at all, I know.",
+    "If you really did hurt them, repair it. Also easier said than done, but...",
+    "You can mean the apology for a start. Then notice what happens next. Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.",
+    "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'm giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present."
    ]
   }
  ]
