@@ -712,3 +712,9 @@ Hit rate so far: my own calls 4 of 9 (0 of 4 before the loop, 4 of 5 since); the
 | 2026-10-06 (turn 30) | Start With Whatever Showed Up with y10b, P4 f3 and P5 x | Human, low-medium (my call) | not checked: HTTP 402 Payment Required | |
 | 2026-10-06 (turn 30) | The h1 with y10b, P4 f3 and P5 x | Human, low-medium (my call) | not checked: HTTP 402 Payment Required | |
 | 2026-10-06 (turn 30) | Retry after the 402s: Start With Whatever Showed Up with y10b, P4 f3 and P5 x (one POST, to see whether the key has credits again) | Human, low-medium (my call) | not checked: HTTP 402 Payment Required again; nothing was taken | |
+| 2026-10-07 (turn 31) | Two Common Protective Patterns P2 with "The skeptic and the pull both started out…" for "Both kinds started out…" (Joel: "Your "Both kinds" is referring to what?"), alone, through the dashboard (the API key has no credits) | Human, medium (my call: a few words in a passing paragraph) | (pending) | |
+| 2026-10-07 (turn 31) | The same with "the opposite of checking out" (y10b), alone | Human, medium (my call) | (pending) | |
+| 2026-10-07 (turn 31) | When to Change the Strategy P1 with Joel's "getting ready," for "getting ready to,", alone | Human, high (my call: one word) | (pending) | |
+| 2026-10-07 (turn 31) | P5 w1: no weekday ("And a few days later"), "A lot of people's first guess is that they didn't go deep enough." (E138, his P2 fix's move), "a tiny bit of it" for "about five percent of it" (his 5% note), "Sometimes it's the exercise that works.", alone | Human, low (my call: four changes at once) | (pending) | |
+| 2026-10-07 (turn 31) | P5 w2: only the weekday and the opening, alone | Human, low-medium (my call) | (pending) | |
+| 2026-10-07 (turn 31) | P5 w3: the weekday, the opening and the first guess, alone | Human, low (my call) | (pending) | |
