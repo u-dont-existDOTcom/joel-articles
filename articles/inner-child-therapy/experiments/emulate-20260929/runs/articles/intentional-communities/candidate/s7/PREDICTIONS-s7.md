@@ -399,3 +399,17 @@ Batch 92g (22:16 to 22:17 UTC, from the History page): mine 4 of 5 sent. v2 with
 - P7: "able to be talked about and felt in the body" (feeling only allowed; the fix tipped the section to 91%); "not be allowed to" (someone polices it).
 - P8: "some ways the group can help" (smaller than "offer support").
 Cold read: everything OK but ZEGG and Tamera never introduced (the published sentence).
+
+## Joel's answers of 2026-10-07 01:43 UTC, and v3
+
+P3: "you replaced commas and even 'or' with 'and and and and'. that looks like emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax", with his P3: "…It's not like calling something by a certain name dissolves the childhood panic, the comparison, the terror of abandonment, or the desire to control another person." "'their' is correct based on emualte's active voice" (no need to have asked). P4 "reads fine to me with as they wish"; P5 "ok"; P6 "ok". v3 = v2 with his P3 (`drafts-v3.json`).
+
+Web app check (written 01:45 UTC, before the call):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| s7-S3 (461) | Human (weak) | one sentence back to plain syntax; this section tips easily | **Human (100%)**, 479 words scanned |
+| s7-P3 (63) | Human | he checked it | **Human (100%)** |
+| s7-P2P3 | Human (weak) | | **Human (100%)** |
+
+Web app (01:47 to 01:48 UTC, from the History page): mine 3 of 3. v3, with his P3, reads 100% Human as a section; P3 alone and with P2 too. Emulate's "and … and … and" wasn't needed: the list with commas and his "or" passes.

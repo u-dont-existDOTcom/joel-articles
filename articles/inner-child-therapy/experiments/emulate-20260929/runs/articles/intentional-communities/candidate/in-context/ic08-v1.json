@@ -1,0 +1,324 @@
+{
+ "title": "The Grown Children Get the Final Review: section 8 beside the published one",
+ "meta": "Community article · section 8 · candidate v22, 2026-10-07 · Pangram web app: Mixed, 42% AI (1,669 words scanned, 05:59 UTC) · not installed",
+ "intro": [
+  "Your published section is on the left; candidate v22 is on the right, with words changed from the published highlighted and words cut struck. It isn't in the article-so-far.",
+  "Every paragraph passes alone, or beside a neighbor that passes alone, except P3: no P3 passes beside a meaning-fixed P2. The whole section reads 42% AI. The stretch from P22's second sentence to the end (about 450 words) has read AI in every version since 119g.",
+  "The meaning checks ran three times this turn (on v3, v4 and v5). Ten points are still open, listed under each paragraph. Your own lines (P1, P4 and the captions) are untouched."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# The Grown Children Get the Final Review"
+   ],
+   "rows": [
+    {
+     "label": "P2 · candidate",
+     "article": "I mention vaccination specifically because",
+     "source": [
+      "The vaccination point belongs here. It"
+     ],
+     "notes": [
+      "Emulate's sentence (round f) with the meaning fixed: \"one of the values I would absolutely need to share with people in a community\" (it had \"agree with me on\", the stance check's conflict), and your semicolon's two halves as two sentences, so the agreement can still be the reason the village isn't for everyone.",
+      "Passes alone (133g). Beside P3 it reads AI; see P3."
+     ]
+    },
+    {
+     "label": "P3 · candidate",
+     "article": "All of this will ultimately",
+     "source": [
+      "The grown child’s review matters more"
+     ],
+     "notes": [
+      "Emulate's (round e), the same as in v3. Still open, raised in every check: \"All of this will ultimately be reviewed\" adds a prediction with a loose \"All of this\"; \"who lived through the system\" is gone; \"go on about\" sounds more dismissive than \"describe\".",
+      "P3 is under 50 words, so it has to pass beside P2. Every P3 fix reads AI beside every P2 (13 pairs, 127g to 135g). The one pair that passes keeps P2's \"only saying that communities need…\", which both logic audits call a change: it makes your reason a disclaimer. Question 1."
+     ]
+    },
+    {
+     "label": "P5 · candidate",
+     "article": "A friend who reviewed this",
+     "source": [
+      "A friend who reviewed this draft"
+     ],
+     "notes": [
+      "Your friend's words exact. \"she never chose\" back (it had \"had no say in\"); no comma, so both reasons sit under \"because\". Passes alone (127g)."
+     ]
+    },
+    {
+     "label": "P6 · candidate",
+     "article": "What she said is more",
+     "source": [
+      "That sentence is more useful than"
+     ],
+     "notes": [
+      "As in v3: \"What she said\" for \"That sentence\". Passes with P5."
+     ]
+    },
+    {
+     "label": "P7 · candidate",
+     "article": "My view is that moms",
+     "source": [
+      "My position is that mothers raise"
+     ],
+     "notes": [
+      "\"should\" out (\"moms raise their own kids\"), so it states the arrangement and not a duty on mothers; no comma before \"inside\". Passes alone (133g)."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## The Mother Is Primary. The Village Is Real. Neither Replaces the Other."
+   ],
+   "rows": [
+    {
+     "label": "P8 · candidate",
+     "article": "One of the biggest reasons",
+     "source": [
+      "Jean Liedloff’s The Continuum Concept is"
+     ],
+     "notes": [
+      "\"One of the biggest reasons\" back; the list is the picture again (no \"She talks about how\"); \"carried along in ordinary adult life\" (it had \"carried with them and brought into adult life\"); \"exhausted\" back; \"a child's\" world. Passes alone (133g).",
+      "Open, minor: \"It's one outsider's interpretation\" puts the caveat on the book, not on her account of the Ye'kuana, and \"she may have idealized\" on her rather than on the account."
+     ]
+    },
+    {
+     "label": "P9 · candidate",
+     "article": "Experiments where kids sleep and",
+     "source": [
+      "Experiments with children sleeping and living"
+     ],
+     "notes": [
+      "\"sleep and live apart from\" (\"don't sleep and live with\" could cover sleeping apart alone), \"deserve\", the practice \"eventually ended\" with no one deciding, \"multiple\". Clean in the last checks. Passes with P10."
+     ]
+    },
+    {
+     "label": "P10 · candidate",
+     "article": "What's going on at Tamera's",
+     "source": [
+      "Tamera’s Children’s Place deserves direct study"
+     ],
+     "notes": [
+      "\"deserves direct study instead of caricature\" back (\"I'd suggest taking a direct look\" made it a suggestion); \"To be honest\" out; the system is the agent again.",
+      "Open, minor: \"What's going on at\" and \"interact with more people\". Your \"expands a kid's circle\" passed with \"People should study…\" but read AI with \"deserves direct study\" (128g)."
+     ]
+    },
+    {
+     "label": "P11 · candidate",
+     "article": "Kids also need their own",
+     "source": [
+      "Children also need territory that belongs"
+     ],
+     "notes": [
+      "\"places where they can create their own society\" (the stranded \"in\" is gone). Passes with P12."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Children Need Freedom Inside Real Protection"
+   ],
+   "rows": [
+    {
+     "label": "P12 · candidate",
+     "article": "I got a taste of",
+     "source": [
+      "I tasted that at a Unitarian"
+     ],
+     "notes": [
+      "\"intuition\" back; \"Adults … kids\" general again, not the Kinderhaus's adults."
+     ]
+    },
+    {
+     "label": "P13 · candidate",
+     "article": "This could be badly misunderstood,",
+     "source": [
+      "This can be badly misunderstood, so"
+     ],
+     "notes": [
+      "The requirement back (\"the safeguards need to be explicit\"; it had \"I'm making the safeguards explicit\"); the duty on the adults (\"can't be allowed to\"); \"treated as independence\".",
+      "Open, the last stance conflict: \"boss the younger ones around\" makes the danger ordinary bossiness, which your text leaves to the kids. \"dominate\" read AI beside P14 twice; \"lord it over\" passes but is lighter. Next I'd try \"control\" and \"rule over\"."
+     ]
+    },
+    {
+     "label": "P14 · candidate",
+     "article": "I also reject the suburban",
+     "source": [
+      "I also reject the suburban panic"
+     ],
+     "notes": [
+      "\"reject\" and \"every\" back; \"Fear like that can destroy that gift and still not prevent abuse\" keeps both halves under \"can\" (it had \"won't actually prevent abuse\", the first gate's other stance conflict). Passes alone."
+     ]
+    },
+    {
+     "label": "P16 · candidate",
+     "article": "Give children real agency.",
+     "source": [
+      "Give children real agency. Their “no”"
+     ],
+     "notes": [
+      "\"When kids say no, it counts.\" as its own sentence, so the next one holds without a refusal (my first fix joined them, and the rights then waited on a no). Passes inside P15–P17."
+     ]
+    },
+    {
+     "label": "P17 · candidate",
+     "article": "Create a no-secrets rule.",
+     "source": [
+      "Create a no-secrets rule. No adult"
+     ],
+     "notes": [
+      "\"secrets meant to isolate a kid\" back (it had \"isolating a kid with secrets\").",
+      "Open: \"A surprise isn't a secret, because at the end of a certain date it has to be told\" spells out what your \"Surprises have an ending date\" leaves implied, the overcompleting you cut in section 6. \"Surprises have an end date.\" read AI in the P15–P17 run three times. Question 3."
+     ]
+    },
+    {
+     "label": "P18 · candidate",
+     "article": "Teach truthfulness before there's a",
+     "source": [
+      "Teach truthfulness before a crisis. Children"
+     ],
+     "notes": [
+      "The limit on the teaching back (\"Don't let the teaching turn into interrogation, punishment when they're not sure, or a reason to brush off what they report\"); \"Make sure the kids understand\". Passes alone (134g).",
+      "Open, minor: \"may get mixed up telling it\" is narrower than \"imperfectly\" (\"tell it wrong\" said false, \"badly\" stronger)."
+     ]
+    },
+    {
+     "label": "P19 · candidate",
+     "article": "Hear the child even when",
+     "source": [
+      "Hear the child even when the"
+     ],
+     "notes": [
+      "\"the accused is someone people love\" (it had the child pointing a finger); \"Decide on the response process\"; \"Nobody's status buys silence.\" on its own, so it holds from the first report. Passes alone (134g).",
+      "Open: \"Keep everyone safe first\" includes the accused. \"whoever's at risk\" read AI twice."
+     ]
+    },
+    {
+     "label": "P20 · candidate",
+     "article": "Make sure kids have relationships",
+     "source": [
+      "Keep relationships and a reporting route"
+     ],
+     "notes": [
+      "The court returns them again; \"Counting on\" out; \"enclosing kids completely in a community\". Passes alone (127g).",
+      "Kept: \"perspective on their life, and someone to talk to\" (with \"somewhere to speak\" the paragraph read AI)."
+     ]
+    },
+    {
+     "label": "P21 · candidate",
+     "article": "I also looked through the",
+     "source": [
+      "I also searched the research corpus"
+     ],
+     "notes": [
+      "The search target holds both conditions (\"a good, complete record of an actual case\"), then \"I couldn't find one.\", so it no longer suggests that partial cases turned up; \"the research corpus\"; the two reasons as possibilities; \"Whatever the reason\"; \"the people at risk\". Clean in the last checks. Passes alone (133g)."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## The Door Must Open Outward at Adulthood"
+   ],
+   "rows": [
+    {
+     "label": "P22 · candidate",
+     "article": "Amish young people decide as",
+     "source": [
+      "Amish youth make an adult choice"
+     ],
+     "notes": [
+      "\"decide as adults whether to join\" (no \"let\", no \"on their own\"); \"far\" out; \"it still matters\". Passes alone (133g).",
+      "Open: \"seem like a wilder, more universal teenage free-for-all than it is\" takes the free-for-all as given."
+     ]
+    },
+    {
+     "label": "P23 · candidate",
+     "article": "If a community's kids never",
+     "source": [
+      "A community whose children never leave"
+     ],
+     "notes": [
+      "\"a community's kids\" (\"the kids\" read as the Amish's); \"encounter\"; \"without being treated as traitors\" (my \"without treating them as traitors\" could mean the founders). Passes beside P24 (135g)."
+     ]
+    },
+    {
+     "label": "P24 · candidate",
+     "article": "Every childhood narrows the future.",
+     "source": [
+      "Every childhood narrows the future. Most"
+     ],
+     "notes": [
+      "As in v3. Passes alone."
+     ]
+    },
+    {
+     "label": "P25, first half · candidate",
+     "article": "The realistic standard isn't unlimited",
+     "source": [
+      "The realistic standard is not unlimited"
+     ],
+     "notes": [
+      "\"Kids who grow up without using money\" (\"ever\" out); \"learn enough … that they aren't helpless in it\" (it had \"a decent education\", a higher bar); \"just\" out. Passes alone (134g).",
+      "Open: \"It's not making it artificially impossible…\" reads first as a second denial. Two other wordings read AI."
+     ]
+    },
+    {
+     "label": "P25, second half · candidate",
+     "article": "Kids also need transferable skills",
+     "source": [
+      {
+       "quote": "They need portable skills and education, relationships beyond the community, access to their records and documents, and at least one plausible next path—school, apprenticeship, work, family, or another community. If the community can offer temporary housing, travel help, tools, or a small transition reserve, great. If it cannot, it can still avoid punishing departure or withholding the knowledge and records a young adult needs to function elsewhere. No upbringing offers perfect freedom. The point is not to erase path dependence; it is not to turn belonging into a trap.",
+       "from": "the same paragraph, its second half"
+      }
+     ],
+     "notes": [
+      "The split is my proposal (question 2): each half passes alone, and joined they read AI in six wordings.",
+      "\"Kids also need\", so this half isn't only about kids raised without money; both \"good\"s out; \"help with travel\" and \"a small stash\" (it had \"travel expenses\" and \"a little money\", which turned your help into cash). Passes alone (135g).",
+      "Open, minor: \"can provide\" for \"offers\". The last sentence is my reading of yours (question from 03:35)."
+     ]
+    },
+    {
+     "label": "P26 · candidate",
+     "article": "It's possible that some of",
+     "source": [
+      "Some may leave permanently; others may"
+     ],
+     "notes": [
+      "Two groups again (it had one group splitting off either way). Passes beside P25b.",
+      "Open: \"and others will start\" can fall outside \"It's possible\". \"and that others\" and \"others may\" read AI beside P25b; not yet tried beside this P25b."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Discuss Child-Rearing Values Before Children Are Caught Between Them"
+   ],
+   "rows": [
+    {
+     "label": "P27 · candidate",
+     "article": "Couples who live together, share",
+     "source": [
+      "Couples who share a home, culture,"
+     ],
+     "notes": [
+      "\"still disagree about\" (it had \"end up with very different opinions about\")."
+     ]
+    },
+    {
+     "label": "P28 · candidate",
+     "article": "Once a kid is already",
+     "source": [
+      "Goodwill doesn’t answer those questions after"
+     ],
+     "notes": [
+      "\"to offer them coherence\" (it had \"to hang together\"); \"enough room to remain parents\" back.",
+      "P27 with P28 reads AI; with your first P28 sentence cut, they pass (my proposal from 03:35, question 3 then)."
+     ]
+    }
+   ]
+  }
+ ]
+}

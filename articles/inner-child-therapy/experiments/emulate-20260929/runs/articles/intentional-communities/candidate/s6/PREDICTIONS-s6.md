@@ -511,3 +511,18 @@ The gate on v20 (`review-d20/`, about 20:54 to 21:05 UTC; trace A on P4, P5, P8 
 - **Logic A and trace A:** the same two points, plus items Joel has already ruled on (P3's applications, P4's "on a personal level" and "It's better…, right?", P5's dropped "useful", P8's "dependencies"), and items kept from earlier versions (P8's "what happens when someone… needs", P8's "different levels" (AMBIGUOUS on v13, v17 and v19 too: various levels, or levels different from the community's), P10's "an increased risk… among"; P9: "agreements" plural, "if needed" on transport, "are not" for "won't be"). New only from his addition: the objector's "Let the community decide if I can use my social media" has no quotation marks (the trace: it "can be read as the author speaking"; the cold reader read it right).
 - **Cold read:** OK but for the card (published), P4's "an exit" (published), the jump from P5's personal apps to P6's institutions (new with his addition), and the heading's question arriving only in P5 (the published order).
 - **Lint:** nothing new (its flags are on text unchanged since v19).
+
+## Joel's P8 and P9 of 2026-10-07 01:43 UTC (v21)
+
+"i fixed p8p9, it was way overcompleting itself, now it passes pangram together". P8 loses its closing "These are all questions that a community should consider in advance."; P9 is his: "There should be pre-existing agreements in place so that their choices will be protected, both for catastrophic illness and end of life care. Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious." His typos fixed under his rule ("may not guaranteed", "contageous"); as typed in `joel-20261007-0143.json`. v21 = v20 with his P8 and P9 (`drafts-v21.json`).
+
+Web app check (written 01:45 UTC, before the call):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| s6-S21 (626 words) | Human | his words; v20 was 100% | **Human (100%)**, 637 words scanned |
+| s6-P8 (102) | Human (weak) | he checked the pair | **Human (100%)** |
+| s6-P9 (53) | Human | his | **Human (100%)** |
+| s6-P8P9 | Human | he says it passes | **Human (100%)** |
+
+Web app (01:47 UTC, from the History page): mine 4 of 4. v21, with his P8 and P9, reads 100% Human as a section, and P8, P9 and the pair each read 100% Human.

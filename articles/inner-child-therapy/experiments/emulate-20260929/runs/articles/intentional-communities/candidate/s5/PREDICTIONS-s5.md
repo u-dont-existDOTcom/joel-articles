@@ -821,3 +821,15 @@ API batch 45 (written 17:00 UTC, before the call): is the API the GUI?
 | joel-S5: Joel's section exactly as pasted | Human, 0% | his GUI check says fully human | **Human: 0% AI** (one window, 0.05) |
 
 Batch 45 (17:00 UTC): mine 1 of 2. With the web app's exact words (window word counts now match it to the word: 1,275 = 90 + 1,185, then 68, 280, 41, 450), the API still reads the opening as part of one Human window (0.17, High), where the web app split off the first 90 words as AI (Medium). So the API and the web app aren't interchangeable at a section's start, at least where the web app finds a Medium-confidence window; the final section check goes through the web app (Joel's suggestion, and HUMANIZATION-GATE's new ruling, PR #139). Joel's own section reads 100% Human in the API too (0.05), as in his web-app check. Section 5 is his text now, installed with the published links put back (`s5/section-joel-20261006.md`).
+
+## 2026-10-07: Joel's ruling on the three spellings (01:43 UTC)
+
+"section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them." Fixed in his text: "contra-indications" → "contraindications", "pre-requisite" → "prerequisite", "re-incarnation" → "reincarnation" (`joel-s5-20261007-spellings.txt`, `section-joel-20261006.md`, `HUMANIZED-SO-FAR.md`, the ledger).
+
+Web app check (written 01:45 UTC, before the call; the API key ran out of credits on 10-06):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| s5-S (his section with the three spellings standard and "privileged", 2,273 words) | Human (weak) | three words in 2,273; he suspects they helped | **Human (100%)**, 2,331 words scanned |
+
+Web app (01:46 UTC, from the History page): mine 1 of 1. With the standard spellings his section still reads 100% Human, so the three spellings weren't what carried it.

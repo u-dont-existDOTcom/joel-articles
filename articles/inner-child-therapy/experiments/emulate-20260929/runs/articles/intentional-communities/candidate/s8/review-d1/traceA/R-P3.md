@@ -1,0 +1,1 @@
+The review from the now grown child matters more than founders usually want it to. The adults can talk forever about what they intended. The person who actually lived through the system may eventually describe something else.

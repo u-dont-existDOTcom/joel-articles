@@ -450,7 +450,7 @@
   },
   {
    "id": "s5-joel-20261006",
-   "what": "Section 5 is Joel's own text of 2026-10-06 16:55 UTC (fully human in Pangram's web app): his heading, the opener without \"Key here\", P18 in two paragraphs with his lessons (lead ceremonies; \"they will continue to develop their understandings as well\"), P19's end, P22's advice, P25's joke, P26, P33's end. His characters kept, except the obvious typo \"priveleged\" → \"privileged\" (his ruling of 20:38: \"don't preserve my obvious typos\"). [applied 2026-10-06]",
+   "what": "Section 5 is Joel's own text of 2026-10-06 16:55 UTC (fully human in Pangram's web app): his heading, the opener without \"Key here\", P18 in two paragraphs with his lessons (lead ceremonies; \"they will continue to develop their understandings as well\"), P19's end, P22's advice, P25's joke, P26, P33's end. His characters kept, except the obvious typo \"priveleged\" → \"privileged\" (his ruling of 20:38: \"don't preserve my obvious typos\"). [applied 2026-10-06] Also, by his ruling of 2026-10-07 01:43 UTC (\"section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them\"): \"contra-indications\" → \"contraindications\", \"pre-requisite\" → \"prerequisite\", \"re-incarnation\" → \"reincarnation\".",
    "status": "applied",
    "must_contain_exact": [
     "The Medicine Part - Yes, I'm Naming It",
@@ -461,7 +461,7 @@
     "maybe even a sexual predator, or financially dependent on people coming back to them for more feather-waving",
     "the more it costs not to personally know who's running their ceremony",
     "Just because it's a peer-led ceremony doesn't mean it's ok to be casually irresponsible.",
-    "self-transforming fractalized machine elves told them they are the re-incarnation of King David & Elvis.😂",
+    "self-transforming fractalized machine elves told them they are the reincarnation of King David & Elvis.😂",
     "Integration is a term thrown around so much that I'm not sure if it still has meaning.",
     "which gets double dipped with the objection that psychedelics are also privileged escape pods"
    ],
@@ -509,6 +509,29 @@
    "must_not_contain": [
     "without inner work",
     "doing the inner work"
+   ]
+  },
+  {
+   "id": "s6-joel-20261007-0143",
+   "what": "Section 6 P8 and P9 are Joel's text of 2026-10-07 01:43 UTC (\"i fixed p8p9, it was way overcompleting itself\"): P8 without its closing \"These are all questions…\" sentence; P9 his, with \"may not be guaranteed\" and \"contagious\" (his typos fixed under his rule). [applied: section 6 v21, 2026-10-07]",
+   "status": "applied",
+   "must_contain_exact": [
+    "And how will the community deal with people who choose to accept (or not accept) different levels of medical care?\n\nNo member should have to prove their ideological loyalty when they're scared or sick.",
+    "There should be pre-existing agreements in place so that their choices will be protected, both for catastrophic illness and end of life care. Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious."
+   ],
+   "must_not_contain": [
+    "These are all questions that a community should consider in advance."
+   ]
+  },
+  {
+   "id": "s7-joel-20261007-0143",
+   "what": "Section 7 P3's last sentence is Joel's of 2026-10-07 01:43 UTC: commas and \"or\" for Emulate's \"and … and … and\" (\"that looks like emulate trying to cheat, and it wasn't needed\"). [applied: section 7 v3, 2026-10-07]",
+   "status": "applied",
+   "must_contain_exact": [
+    "It's not like calling something by a certain name dissolves the childhood panic, the comparison, the terror of abandonment, or the desire to control another person."
+   ],
+   "must_not_contain": [
+    "the childhood panic and the comparison and"
    ]
   }
  ]

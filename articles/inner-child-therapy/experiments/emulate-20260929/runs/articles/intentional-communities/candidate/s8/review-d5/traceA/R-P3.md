@@ -1,0 +1,1 @@
+All of this will ultimately be reviewed by the kids, once they're grown, and their review weighs more heavily than founders usually want it to. Adults can go on about their intentions forever, but the kids might have something else to say.
