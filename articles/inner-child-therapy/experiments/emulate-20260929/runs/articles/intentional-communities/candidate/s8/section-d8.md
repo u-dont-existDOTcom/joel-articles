@@ -1,0 +1,73 @@
+# The Grown Children Get the Final Review
+
+Couples who live together, share the same culture and even the same bed still disagree about screens, vaccinations, [schooling](https://www.instagram.com/p/DcDGotaFCeZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), religion, food, discipline and medical care. And that's just two people. Now think of twenty adults, all with different childhoods.
+
+The community has to share enough principles about raising kids to offer them coherence, and leave parents enough room to remain parents.
+
+My own childhood broke many mainstream rules about what children should see and do. I won’t unpack all of it here. I’m grateful that my mother nursed me until I was five, grateful my parents didn’t vaccinate me, and grateful for nearly all of the unusual world they gave me.
+
+[image 12](https://substackcdn.com/image/fetch/$s_!D4y_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbbd841d-b071-40c3-84c0-08a1206f3d30_1932x2576.jpeg)
+
+[caption] Me as a child, wearing the pen holder my dad made, ready to write my Final Review 😹
+
+I mention vaccination specifically because it's one of the values I would absolutely need to share with people in a community, if I was going to raise children there. I'm not trying to design a village for everyone, only saying that communities need some common ground among the parents on children's health, enough that they can actually trust one another.
+
+All of the community's design and implementation will ultimately be reviewed by the kids, once they're grown, and their review weighs more heavily than founders usually want it to. Adults can go on about their intentions forever, but those grown kids who lived through the system as it actually manifested might have another perspective.
+
+I actually learned how to parent my son from his future review via his quantum jumping time machine, which he explained in this video:
+
+Double click to interact with video
+
+A friend who reviewed this draft grew up in a Christian commune in Colorado where her father was a pastor. She calls her childhood "a treasure and a burden." A treasure because she belonged and everybody cared for everybody. A burden because of the strict religious life she never chose.
+
+What she said is more useful than another promo video showing kids smiling and carrying vegetables.
+
+## Communal Parenting Adds On
+
+One of the biggest reasons I think community matters for kids is Jean Liedloff's [*The Continuum Concept*](https://www.arvindguptatoys.com/arvindgupta/conconcept.pdf). It's one outsider's interpretation of the Ye'kuana, and she may have idealized what she saw, but it's still a powerful picture: the babies are carried along in ordinary adult life, the kids are surrounded by people of several ages and learn by taking part, and it doesn't fall on one exhausted parent to be a child's whole social world. While a nuclear household can imitate some of this, a real village can make it normal.
+
+Experiments where kids sleep and live apart from their parents deserve special caution. Research on Israeli kibbutzim found that [the practice of kids sleeping communally eventually ended for a mix of reasons: developmental findings, parents' preferences and social change](https://pubmed.ncbi.nlm.nih.gov/12395568/). Kids can benefit from high-quality group care and multiple loving adults in their lives, but replacing a secure attachment to their parents is a different matter.
+
+What's going on at Tamera's Children's Place deserves direct study instead of caricature. My own bias is still toward a system where kids interact with more people, without making the parent-child bond ideologically inconvenient. If the father is unknown, the whole community can do the fathering, but the biological mom's role should always be honored.
+
+## Children Need Freedom Inside Real Protection
+
+[image 13](https://substackcdn.com/image/fetch/$s_!Svpw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff76a1545-e84b-406d-8731-1abde6502718_3264x1464.jpeg)
+
+[caption] African kids enjoying their childhood!
+
+Kids also need their own territory, places where they can create their own society, invent games and work out ordinary disputes, without always being under the management of adults.
+
+I got a taste of that at a Unitarian youth camp, and it's still one of the freest memories I have. ZEGG's *Kinderhaus* works from a similar intuition. Adults take care of safety on the outside, but kids still get a world of their own.
+
+This could be badly misunderstood, so the safeguards need to be explicit. The adults still have to pay attention to what goes on in a children's territory. Older kids can't be allowed to quietly boss the younger ones around there. And keeping secrets can't be treated as independence.
+
+I also reject the suburban panic that treats every warm relationship between a child and an unrelated adult as suspicious. It's good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something's wrong. Fear like that can destroy that gift, and it might not even prevent abuse.
+
+There are several parts to this protection:
+
+Give children real agency. When kids say no, it counts. No grownup has a right to their affection, physical contact, obedience outside of legitimate safety needs, or private access to them.
+
+Create a no-secrets rule. No grownup has a right to ask a kid to keep a secret from their mom or another trusted adult, whether it's about a gift, a game, a touch, a conversation or a relationship. A surprise isn't a secret, because at the end of a certain date it has to be told. But secrets meant to isolate a kid aren't allowed.
+
+Protecting children is the duty of adults, but it requires them to help also. "The Boy Who Cried Wolf" is a didactic children's story which continues to be useful generation after generation. The Buddha even taught his son honesty as the most important first lesson. I agree. We must teach children truthfulness before there's a crisis. "Make believe" must be labeled as such. When adults lie to children (like Santa is real etc), that teaches them to misunderstand the difference between reality and make-believe. Make sure kids understand what they say will be taken seriously if they are known to be honest. Don't let the teaching turn into interrogation or punishment when they're not sure. A scared or confused kid may get mixed up telling what happened, and that's to be expected.
+
+Hear the child even when the accused is someone people love. Communities fail here, because the adult may be charismatic, useful, rich, spiritually important, or everybody's friend. Decide on the response process ahead of time, before anyone's face is attached to it. Keep everyone safe first, right away, then make sure the accusation is investigated competently and fairly. Nobody's status buys silence.
+
+Make sure kids have relationships and a reporting route outside the community. Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to. Make sure there's at least one trusted adult, advocate or reporting route they can reach without going through the community's leadership. In 1984, Vermont authorities [seized 112 kids in the Island Pond raid](https://vtdigger.org/2024/06/21/40-years-later-island-pond-has-little-interest-in-revisiting-its-historic-raid/), but a court rejected the state's blanket request and returned them. State intervention can fail spectacularly, and enclosing kids completely in a community can fail too. Kids need more than one world.
+
+Sometimes we also need to protect people from the rare, but real threat posed by dangerous children. I looked through [the research corpus](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) for a well-documented case of a child in an intentional community who remained seriously dangerous to others. I was looking to find the reported conduct, the assessment, the intervention, the review, and what happened later. I couldn't find one. It's possible that records are private, or that cases were referred elsewhere. Whatever the reason, I can't claim communities already know how to handle the hardest cases on their own. In those cases, the child, the family, and the people at risk all need access to competent help and review, hopefully including non-intrusive help from outside the home community.
+
+## The Door Must Open Outward at Adulthood
+
+If a community's kids never leave, it has no way of knowing whether they'd come back freely. So let them study, travel and make friends, encounter other ways of living, and disagree with the founders without being treated as traitors.
+
+Amish young people, age 16, go through a 2-year period of freedom from parental control called *Rumspringa*. During this time they might travel outside, although they normally choose to stay in the community and begin acting as adults, including courtship. At the end of this period, they decide as adults whether to join the church, and [roughly 85 percent or more of them end up joining](https://groups.etown.edu/amishstudies/social-organization/population-growth/). Pop culture makes *Rumspringa* seem like a wilder, more universal teenage free-for-all than it is, but the main point is that they're baptized as adults, which means belonging is a commitment they choose on their own.
+
+Every childhood narrows the future. Most ordinary parents aren't going to give their kid a bunch of money at 18 and say, "Go see the world." They'll try to get them ready for some next step that can actually work, so they can become self-sufficient, and eventually take care of their aging parents. A poor or money-free community may have even less cash to offer, and basic survival may rightly come first.
+
+Unlimited freedom isn't realistic, but it doesn't need to be artificially impossible for grown kids to leave. Kids in or outside of intentional communities all need to learn enough about how the money world outside operates that they aren't helpless in it. Like how to get a job, pay rent, read contracts, handle banks, get IDs, avoid getting scammed, and how to ask for help when they're unsure about any of that. And all that sounds amorphous if it's not structured into plausible next steps outside the community (school, an apprenticeship, work, family, another community).
+
+Kids also need transferable skills and education. It helps if they have relationships with people outside the community. They should be able to access their own records and documents. It would be great if the community could also provide resources to smooth the transition, like temporary housing, help with travel, etc.
+
+No upbringing can provide perfect freedom, because path dependence is a reality, but belonging and freedom should go hand in hand.

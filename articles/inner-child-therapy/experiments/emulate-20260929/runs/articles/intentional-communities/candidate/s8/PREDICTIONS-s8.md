@@ -699,3 +699,127 @@ On v5 (`drafts-v5.json`, the text of `cand-v22.json`). Clean now: P2, P7, P9, P1
 - P25b (trace C, minor): "can provide" for "offers".
 
 These go to Joel with the candidate as it stands, the questions and the tries; section 8 stays out of `HUMANIZED-SO-FAR.md`.
+
+## Joel's 15:05 UTC edits: v23, batch 137g
+
+Joel's texts and rulings are in `joel-1505/joel-20261007-1505.json`; `joel-1505/build_v23.py` builds v23 (`cand-v23.json`, `section-d6.md`). His own checks in the web app this morning, read from the History data: P3 Human (low, 56 words, 12:46:20), an earlier P21 Human (medium, 13:54:20), my P22–P25 run AI (14:03:42), his P22–P25 rewrite Human (high, 397 words, 14:59:37).
+
+Batch 137g (written 15:11 UTC by `date -u`, before the call; `joel-1505/v137.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 137g-S8-v23 (1667) | Mixed | your rewrite of P22 to the end read Human (your 14:59 check), but P27 with P28 has read AI as a pair, and b and c had short windows in 136g || Mostly Human (4% AI, 1,732 words scanned), 15:12:24: one AI window, P27's last sentence to P1's second (68 words) |
+| 137g-H0P27P28 (82) | AI | the pair read AI in about 20 wordings || AI (100%), 15:12:27 |
+| 137g-P27P28P1 (125) | Mixed | the pair beside your P1 || AI (100%), 15:12:31 |
+| 137g-P2bP3j (114) | Human (weak) | both pass alone || **Human (100%)**, 15:12:36 |
+| 137g-P9aP10j (120) | Human (weak) | your P10 || **Human (100%)**, 15:12:43 |
+| 137g-P10j (55) | Human (weak) | your P10 alone (53 words) || **Human (100%)**, 15:12:51 |
+| 137g-P18j (132) | Human | your P18 || **Human (100%)**, 15:12:56 |
+| 137g-P21j (121) | Human | your final P21 ("the rare, but real threat…"); your 13:54 check was the earlier wording || **Human (100%)**, 15:13:00 |
+| 137g-S8d-j (388) | Human | your 14:59 check with the two typos fixed and the last line on its own || **Human (100%)**, 15:13:04 |
+| 137g-H1P8P9P10 (216) | Mixed | the new subsection || AI (100%), 15:13:06 (the subsection alone; inside the section it reads Human) |
+| 137g-P19f (68) | Mixed | "Keep the child and anyone else at risk safe first" || AI (100%), 15:13:15 |
+| 137g-P19h (61) | Mixed | "Safety comes first, right away." || AI (100%), 15:13:20 |
+
+137g (submitted 15:12:22 to 15:13:21 UTC): mine 7 of 12 (the section was Mostly Human, not Mixed; the three-paragraph opener, the subsection and both P19 wordings read AI where I said Mixed). The section reads Mostly Human, 4% AI: the only AI window is P27 and P28 at the top, with the start of P1. Every one of your texts passes alone (P3 with P2b, P10, P18, P21, the P22–P26 rewrite); your new subsection reads AI as a run on its own and Human inside the section. P19's two safety wordings read AI.
+
+Batch 138g (written 15:14 UTC by `date -u`, before the call; `joel-1505/v138.json`): the top of the section.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 138g-S8-v23-P28cut (1653) | Human (weak) | P28 without "Once a kid is already living inside the disagreement, goodwill doesn't answer those questions." (my 03:35 proposal, not answered) | |
+| 138g-S8-v23-P27b (1667) | Mixed | "still split over" in P27 | |
+| 138g-S8-v23-P27P28merged (1667) | Mixed | P27 and P28 as one paragraph | |
+| 138g-H0P27P28s2 (68) | Human (weak) | the cut beside the title | |
+| 138g-H0P27P28s2P1 (118) | Human (weak) | and your P1 | |
+
+138g (submitted 15:18:06 to 15:18:26 UTC): mine 2 of 5. Without P28's first sentence the top passes, but a 42-word window opens at P13's end and P14's start (2% AI), the window 136g had too; "split over" and joining P27 to P28 leave the top window as it was. The opener with the cut passes beside the title, and reads AI once your P1 joins it, yet P1 reads Human in the section.
+
+| 138g result | |
+|---|---|
+| 138g-S8-v23-P28cut | Mostly Human (2% AI, 1,717 words scanned), 15:18:07: P13's third sentence to P14's first (42 words) |
+| 138g-S8-v23-P27b | Mostly Human (4% AI, 1,732), 15:18:11: the top window (68 words) |
+| 138g-S8-v23-P27P28merged | Mostly Human (4% AI, 1,732), 15:18:16: the top window (68 words) |
+| 138g-H0P27P28s2 | **Human (100%)**, 15:18:21 |
+| 138g-H0P27P28s2P1 | AI (100%), 15:18:25 |
+
+Batch 139g (written 15:21 UTC by `date -u`, before the call; `joel-1505/v139.json`): the whole section each time, since pairs and the section disagree here.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 139g-S8-A1-order (1667) | Mostly Human | P28 opens with "Goodwill", as the published sentence did || Mostly Human (4% AI, 1,732 words scanned), 15:21:45: the top window (68 words) |
+| 139g-S8-A2-middle (1670) | Mostly Human | "in the middle of" for "inside" || Mostly Human (10% AI, 1,735), 15:21:49: the top window to P28's end (49), P8 (81), P13's end to P14's start (42) |
+| 139g-S8-A3-growing (1668) | Mostly Human | "growing up" for "living" || Mostly Human (7% AI, 1,733), 15:21:52: the top window (69), P13–P14 (42) |
+| 139g-S8-A5-bythetime (1668) | Mostly Human | "By the time" for "Once … already" || Mostly Human (5% AI, 1,733), 15:21:57: P27's last sentence and P28 (47), P13–P14 (42) |
+| 139g-S8-C1-twenty (1667) | Mostly Human | P27's last sentence nearer the published "twenty adults with twenty childhoods" || Mostly Human (4% AI, 1,732), 15:22:02: the top window (68) |
+| 139g-S8-B1-cut-dontbuy (1654) | Human (weak) | the cut, with "don't buy" for "reject" in P14 (the 42-word window's end) || Mostly Human (2% AI, 1,719), 15:22:11: P13–P14 (44) |
+| 139g-S8-B2-cut-passfor (1652) | Human (weak) | the cut, with "can't pass for" in P13 (the window's start; 133g's wording) || Mostly Human (2% AI, 1,716), 15:22:16: P13–P14 (41) |
+| 139g-S8-B3-cut-adultchild (1653) | Mostly Human | the cut, with P14's pair in the published order || Mostly Human (2% AI, 1,717), 15:22:22: P13–P14 (42) |
+
+139g (submitted 15:21:45 to 15:22:22 UTC): mine 6 of 8. No wording of P28's first sentence clears the top window; four of them also open the P13–P14 window, and one opens P8. With the cut, single-word changes at P13's end or P14's start leave the P13–P14 window in place, so that stretch needs more than a word. Sent Joel a status note at 15:24 UTC asking about the cut again.
+
+Batch 140g (written 15:25 UTC by `date -u`, before the call; `joel-1505/v140.json`): the P13–P14 window. P14 also has "can destroy that gift and still not prevent abuse", the "X and still Y" shape you named at 15:05, and a "who, who, and who" list of three.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 140g-S8-cut-K1 (1651) | Mostly Human | P14 without its "who, who, and who" list and without "and still not" (the tell you named; the published sentence said "without actually preventing abuse"); the window's own words are unchanged || Mostly Human (5% AI, 1,716 words scanned), 15:26:13: P13's third sentence to P14's end (85 words) |
+| 140g-S8-cut-K2 (1654) | Human (weak) | K1, and P14 opens "At the same time, I reject" (the window's end) || Mostly Human (5% AI, 1,719), 15:26:16: the same stretch (88) |
+| 140g-S8-cut-K3 (1652) | Human (weak) | K1, and P13's last sentence split in two, "keeping secrets" for "secrecy" (the window's start) || Mostly Human (5% AI, 1,717), 15:26:22: the same stretch (86) |
+| 140g-S8-cut-K4 (1652) | Mostly Human | only the tell fixed || Mostly Human (2% AI, 1,716), 15:26:26: P13–P14 (42), as before |
+| 140g-S8-cut-K5 (1654) | Human (weak) | only P13's split || **Human (100%, 1,718 words scanned)**, 15:26:32 |
+| 140g-S8-v23-K2 (1668) | Mostly Human | K2 in the section with P28 whole: the top window should stay, and P13–P14 should not open || Mixed (11% AI, 1,734), 15:26:34: the top window (68) and P13's third sentence to P16 (126) |
+
+140g (submitted 15:26:13 to 15:26:34 UTC): mine 2 of 6. The section reads 100% Human with the cut and P13's last sentence split ("… around there. And keeping secrets can't be treated as independence."). Restructuring P14's list made its window longer every time; fixing only the "and still not" tell left the window as it was. Batch 141g checks the split with the tell fixed, and the split without the cut.
+
+Batch 141g (written 15:27 UTC by `date -u`, before the call; `joel-1505/v141.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 141g-S8-cut-K6 (1653) | Human (weak) | K5 with the tell fixed (K4 showed the fix alone is neutral) || Mostly Human (5% AI, 1,717 words scanned), 15:27:30: P13's third sentence to P14's end (86 words) |
+| 141g-S8-v23-K5 (1668) | Mostly Human | the split with P28 whole: the top window should stay || Mostly Human (4% AI, 1,733), 15:27:35: the top window (68) |
+| 141g-S8-v23-K6 (1667) | Mostly Human | the same with the tell fixed || Mostly Human (4% AI, 1,732), 15:27:40: the top window (68) |
+
+141g (submitted 15:27:30 to 15:27:40 UTC): mine 2 of 3. The published "without actually preventing abuse" reads AI beside the split (86 words, P13's end to P14's end), so the tell needs another wording. Without the cut, the split leaves only the top window.
+
+Batch 142g (written 15:28 UTC by `date -u`, before the call; `joel-1505/v142.json`): K5 (100% Human) with the "and still not" tell reworded.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 142g-S8-K5-Ta (1655) | Human (weak) | "and it doesn't actually prevent abuse": two plain clauses || **Human (100%, 1,720 words scanned)**, 15:28:32 |
+| 142g-S8-K5-Tb (1655) | Human (weak) | "doesn't even" || **Human (100%, 1,720)**, 15:28:37 |
+| 142g-S8-K5-Tc (1654) | Mixed | "but it won't" || **Human (100%, 1,719)**, 15:28:41 |
+| 142g-S8-K5-Td (1654) | Mixed | two sentences || Mostly Human (3% AI, 1,719), 15:28:46: P13–P14 (43 words) |
+
+142g (submitted 15:28:32 to 15:28:46 UTC): mine 2 of 4 (Tc passed where I said Mixed; Td read Mostly Human, not Mixed). Three wordings without "and still" pass in the whole section. Ta keeps the published "actually" and says the same thing, so it is the candidate: "Fear like that can destroy that gift, and it doesn't actually prevent abuse." The candidate is `cand-v24.json` (P28's cut is a proposal until Joel answers).
+
+Gate on v24 (three fresh agents, all back by 15:51 UTC; `review-d7/`, `STANCE-d7.md`): the trace found P28 LOSS (the cut, as proposed), P13 SHIFT ("keeping secrets" is narrower than "secrecy") and P14 SHIFT ("doesn't actually prevent" is a flat claim where v23 and the published sentence had a "can" over both halves). Batch 143g puts "secrecy" back and tries P14 wordings that keep the possibility.
+
+Batch 143g (written 15:51 UTC by `date -u`, before the call; `joel-1505/v143.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 143g-S8-E1-Ta (1654) | Human (weak) | "secrecy" back (the trace: "keeping secrets" narrows it to single acts); P14 as in v24 || Mostly Human (5% AI, 1,719 words scanned), 15:52:16: P13's third sentence to P14's end (88 words) |
+| 143g-S8-E2-witheven (1652) | Mixed | "secrecy" back; P14 keeps one "can" over both halves, as published, with "even" for "actually" || Mostly Human (2% AI, 1,716), 15:52:20: P13–P14 (42) |
+| 143g-S8-E3-mightnot (1655) | Human (weak) | "secrecy" back; P14 says "might not", a possibility, as v23's "can … still not" did || Mostly Human (2% AI, 1,719), 15:52:23: P13–P14 (42) |
+| 143g-S8-E4-still (1653) | Human (weak) | "secrecy" back; P14 as v23 (the tell kept), to see what the restore does alone || Mostly Human (2% AI, 1,717), 15:52:28: P13–P14 (42) |
+
+143g (submitted 15:52:16 to 15:52:28 UTC): mine 0 of 4. With "secrecy" back, the P13–P14 window returns whatever P14 says: "keeping secrets" is what clears it. I keep "keeping secrets" (in a children's territory, the secrecy meant is kids keeping secrets from the adults; I judge it the same claim, and report the trace's flag to Joel). Batch 144g tries the two P14 wordings that keep the published "can" over both halves, beside "keeping secrets".
+
+Batch 144g (written 15:53 UTC by `date -u`, before the call; `joel-1505/v144.json`): v24 with P14's last sentence reworded.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 144g-S8-K5-witheven (1653) | Human (weak) | the published "without … preventing", "even" for "actually" || Mostly Human (3% AI, 1,717 words scanned), 15:53:12: P13–P14 (43 words) |
+| 144g-S8-K5-mightnot (1656) | Human (weak) | "might not": a possibility, as v23 had || **Human (100%, 1,720 words scanned)**, 15:53:16 |
+
+144g (submitted 15:53:12 to 15:53:16 UTC): mine 1 of 2. "and it might not even prevent abuse" passes in the whole section and keeps the possibility. The candidate is `cand-v25.json` (`joel-1505/build_v25.py`): v23 with P28's first sentence cut (a proposal), P13's last sentence split ("keeping secrets"), and P14's last sentence reworded.
+
+Batch 145g (written 16:05 UTC by `date -u`, before the call; `joel-1505/v145.json`): v25 with P19's "everyone" narrowed, the one gate finding still open in my text.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 145g-S8-v25-P19-everyoneatrisk (1658) | Human (weak) | "everyone at risk": the d5 logic checks found "everyone" could take in the accused; the published "Immediate safety comes first" meant the child and others at risk || **Human (100%, 1,722 words scanned)**, 16:05:58 |
+| 145g-S8-v25-P19-anyoneatrisk (1658) | Human (weak) | "anyone at risk" || **Human (100%, 1,722)**, 16:06:03 |
+
+145g (submitted 16:05:58 to 16:06:03 UTC): mine 2 of 2. "Keep everyone at risk safe first" is the reading both d5 logic checks gave the published "Immediate safety comes first", so it closes their AMBIGUOUS finding. The candidate is `cand-v26.json` (`joel-1505/build_v26.py`), the text 145g checked: 100% Human, 1,722 words scanned.
+
