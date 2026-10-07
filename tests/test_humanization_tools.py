@@ -16,6 +16,7 @@ sys.path.insert(0, str(TOOLS))
 
 import check_owner_edits  # noqa: E402
 import stance_check_prompt  # noqa: E402
+import abstract_agents_prompt  # noqa: E402
 
 JOEL_P9 = ("I dream of a way to work in depth that isn’t run by a guru. A place where people who've done the "
            "healing first can join without pretending they're fully finished.")
@@ -118,6 +119,7 @@ class LinterAbstractAgents(unittest.TestCase):
         for s in ('Modern life trains us to perform competence while hiding whatever might complicate the performance.',
                   'The vaccination policy arrives two years later carrying documents.',
                   'Guilt may keep shouting at you.',
+                  'Fear makes the decision before you\u2019ve even noticed it.',
                   "Once a kid is already living inside the disagreement, goodwill doesn't answer those questions.",
                   'There is no shared way to talk about the hurt, so the anger goes there, trying to get some justice.'):
             self.assertTrue(tells_lint.abstract_agents(s), s)
@@ -129,9 +131,9 @@ class LinterAbstractAgents(unittest.TestCase):
                   'Money will not fix it.'):
             self.assertEqual(tells_lint.abstract_agents(s), [], s)
         out = self.lint('Modern life trains us to perform competence. If anger comes up, you can stay with it for a minute.\n')
-        self.assertIn('O6 a feeling or idea doing what a person does', out)
+        self.assertIn('O6 a candidate, to judge', out)
         self.assertIn('Modern life trains us', out)
-        self.assertNotIn('If anger comes up', out.split('O6 a feeling')[1])
+        self.assertNotIn('If anger comes up', out.split('O6 a candidate')[1])
 
     def test_negated_abstract_agent_is_flagged(self):
         """Joel, 2026-10-07 20:21, on "goodwill doesn't answer those questions": "that AI tell again ... abstracts doing things"."""
@@ -288,6 +290,26 @@ class StanceCheckPrompt(unittest.TestCase):
         self.assertIn('Questions on the author', p)
         self.assertIn(mine, p[p.index("THE AUTHOR'S OWN REWRITES (his words"):])
         self.assertNotIn("OWN REWRITES", stance_check_prompt.build('Essay.', 'Rewrite.'))
+
+
+class AbstractAgentsJudgment(unittest.TestCase):
+    """Joel, 2026-10-07 23:50: "you don't understand just intuitively which abstractions are normally used and which are
+    not? ... isn't that what LLMs are great at?" The linter collects candidates; a fresh agent judges them."""
+    def test_prompt_carries_his_ratings_the_candidates_and_his_lines(self):
+        text = ('So the anger goes there, trying to get some justice.\n\n'
+                'We cooked dinner together on the porch every night that summer.\n\n'
+                'Your shame wants you to hide.\n')
+        p = abstract_agents_prompt.build(text, owner=['Your shame wants you to hide.'], report='/tmp/r.md')
+        self.assertIn("Grief doesn't keep a schedule", p)
+        self.assertIn('Modern life trains us to perform competence', p)
+        self.assertIn('so common it\'s almost cliche', p)
+        cands = p[p.index('CANDIDATES:'):p.index('THE TEXT:')]
+        self.assertIn('So the anger goes there, trying to get some justice.', cands)
+        self.assertNotIn('We cooked dinner', cands)
+        self.assertIn("[JOEL'S] Your shame wants you to hide.", cands)
+        self.assertIn('MISSED:', p)
+        self.assertIn('/tmp/r.md', p)
+        self.assertLess(p.index('CANDIDATES:'), p.index('THE TEXT:'))
 
 
 class RenderInContextHeadings(unittest.TestCase):
