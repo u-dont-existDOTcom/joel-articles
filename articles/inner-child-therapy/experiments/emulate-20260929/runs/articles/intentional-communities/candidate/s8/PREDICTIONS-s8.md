@@ -665,7 +665,7 @@ Batch 135g (written 05:57 UTC by `date -u`, before the call; `fix-d3/v135.json`)
 | 135g-P2rP3c4 (99) | Mixed | P2b without "among the parents" || AI (100%), 05:57:46 |
 | 135g-P2r (57) | Human (weak) |  || **Human (100%)**, 05:57:53 |
 
-135g (submitted 05:57:19 to 05:57:56 UTC): mine 4 of 7. P23 passes beside P24 with "without being treated as traitors"; P25b passes with "a small stash"; P26 passes beside P25b only as it was ("and others will start"); P2 without "among the parents" passes alone but not beside P3. In 127g–135g, thirteen P2–P3 pairs: only P2b (with "only saying that … among the parents") beside the 102g P3 reads Human.
+135g (submitted 05:57:19 to 05:57:56 UTC): mine 4 of 7. P23 passes beside P24 with "without being treated as traitors"; P25b passes with "a small stash"; P26 passes beside P25b only as it was ("and others will start"); P2 without "among the parents" passes alone but not beside P3. In 127g–135g, twenty P2–P3 pairs: only P2b (with "only saying that … among the parents") beside the 102g P3 reads Human.
 
 The candidate after 133g–135g is `cand-v22.json` (choices in `fix-d3/choice-v22.json`): P2n (faithful; the pair with P3 reads AI), P7n, P8n2, P10g, P13h, P14c, P16h, P17j, P18n, P19d, P20b, P21g, P22d, P23n, P25a3, P25b13, P26 as it was.
 
@@ -678,7 +678,7 @@ Batch 136g (written 05:58 UTC by `date -u`, before the call; `fix-d3/v136.json`)
 | 136g-S8de-v22 (470) | AI | the stretch alone || AI (100%), 05:59:38 |
 | 136g-S8bc-v22 (878) | Mixed | subsections b and c together (878 words) || Mixed (38% AI, 913 words scanned), 05:59:43: H1 to P10 (265), P12's second sentence to P14's first (87) |
 
-136g (submitted 05:59:27 to 05:59:45 UTC): mine 4 of 4. The section is down from 64% to 42% AI. Subsections b and c now read AI only in short windows (P8; P9–P10; P13–P14; P18–P19), and P22 to the end reads AI as it has in every version since 119g (thirteen whole-stretch rebuilds and the fixed runs, 119g–136g).
+136g (submitted 05:59:27 to 05:59:45 UTC): mine 4 of 4. The section is down from 64% to 42% AI. Subsections b and c now read AI only in short windows (P8; P9–P10; P13–P14; P18–P19), and P22 to the end reads AI as it has in every whole-section run since 119g (v3; the six rebuilds of the stretch in 125g and 126g; the meaning-fixed v21 and v22).
 
 Where section 8 stands at 06:01 UTC: candidate v22 (`cand-v22.json`); every paragraph passes alone or beside a neighbor that passes alone, except P3, which passes beside no meaning-fixed P2 (the only passing pair keeps P2b's "only saying that", which the gate calls a logic change); the section reads 42% AI. Not installed. Next: the gate on v22 (d5), then Joel.
 
@@ -688,7 +688,7 @@ Where section 8 stands at 06:01 UTC: candidate v22 (`cand-v22.json`); every para
 On v5 (`drafts-v5.json`, the text of `cand-v22.json`). Clean now: P2, P7, P9, P11, P12, P14 to P16, P20, P21, P23, P24, P27, P28 (the traces mark wording shifts there, none that changes what a reader believes). Still open:
 
 - P13 (stance conflict, both logic audits CHANGED, trace B): "boss the younger ones around" makes the danger ordinary bossiness, which the essay leaves to the kids ("resolve ordinary disputes"). "dominate" read AI beside P14 twice (133g); "lord it over" (passes) is lighter. Next: "control" or "rule over", one at a time.
-- P3 (trace A, logic A): "All of this" with the added prediction, "who lived through the system" gone, "go on about". No P3 fix passes beside any P2 (13 pairs).
+- P3 (trace A, logic A): "All of this" with the added prediction, "who lived through the system" gone, "go on about". No P3 fix passes beside any P2 (nine P3 wordings, 20 pairs).
 - P19 (all three reviewers): "Keep everyone safe first" includes the accused. "whoever's at risk" read AI (133g, 134g).
 - P25a (both logic audits, the cold read): "It's not making it artificially impossible…" reads first as a second denial. Two other wordings read AI.
 - P26 (trace C, both logic audits): "others will start" can fall outside "It's possible". Both fixes read AI beside P25b; not yet tried beside P25b13.
