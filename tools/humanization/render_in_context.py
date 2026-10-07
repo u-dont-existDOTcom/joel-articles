@@ -270,13 +270,15 @@ def before_idxs(cur, p, n):
 
 
 def after_idxs(cur, p, n):
+    """Up to n article paragraphs right after position p. A heading doesn't use up n, so when a section
+    starts next, its heading and its first paragraph both show (2026-10-07: Also Look Outward opens with
+    "Once you're in that happy place", which points back past the heading)."""
     i = int(p) + 1
     out, k = [], 0
     while i < len(cur) and k < n:
         out.append(i)
-        k += 1
-        if HEAD.match(cur[i].strip()):
-            break   # the next section starts: its heading is the context
+        if not HEAD.match(cur[i].strip()):
+            k += 1
         i += 1
     return out
 
