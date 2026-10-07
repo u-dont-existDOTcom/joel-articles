@@ -823,3 +823,16 @@ Batch 145g (written 16:05 UTC by `date -u`, before the call; `joel-1505/v145.jso
 
 145g (submitted 16:05:58 to 16:06:03 UTC): mine 2 of 2. "Keep everyone at risk safe first" is the reading both d5 logic checks gave the published "Immediate safety comes first", so it closes their AMBIGUOUS finding. The candidate is `cand-v26.json` (`joel-1505/build_v26.py`), the text 145g checked: 100% Human, 1,722 words scanned.
 
+
+Joel's message of 20:21 UTC (`joel-2021/joel-20261007-2021.json`): the P28 cut approved ("p28 looks better now yes"), the H4 heading stays out, his new first paragraph for the last subsection (P23 with the published P26's point), his new P10, P18 "children", P22 "a commitment they make as adults", P25's last line shortened. v27 = v26 with those (`joel-2021/build_v27.py`).
+
+Batch 146g (written 20:24 UTC by `date -u`, before the call; `joel-2021/v146.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 146g-S8-v27 (1746) | Mostly Human | his new P10 adds 70 words above the P13–P14 stretch, which has opened and closed with length changes far above it (138g, 143g); his paragraphs have passed alone || **Human (100%, 1,812 words scanned)**, 20:24:18 |
+| 146g-S8-v27-P22make (1744) | Mostly Human | the same, with P22's fourth "as adults" dropped ("a commitment they make"): my approved suggestion doubled a phrase already in the sentence || **Human (100%, 1,810)**, 20:24:22 |
+
+
+146g (submitted 20:24:18 to 20:24:22 UTC): mine 0 of 2. v27, with everything Joel approved at 20:21, reads 100% Human as a section, and so does the variant without P22's fourth "as adults". v27 goes in `HUMANIZED-SO-FAR.md`; the variant is a proposal.
+
