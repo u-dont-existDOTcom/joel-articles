@@ -335,3 +335,76 @@ class DedupPrompts(unittest.TestCase):
         self.assertIn('(No drafts yet', p)
         self.assertIn('/tmp/r.md', p)
         self.assertLess(p.index('THE ARTICLE'), p.index('GROUP 1'))
+
+
+class InContextPageShowsWhatADraftCarries(unittest.TestCase):
+    """Joel, 2026-10-08 02:23: "i also don't understand how you got depth draft 1 from the r4 guide? doesn't look like a good
+    rewrite of that one sentence". The source cell showed one sentence of the guide paragraph; the draft carried all of it."""
+    ARTICLE = InContextPageShowsContext.ARTICLE
+
+    def render(self, rows, source='First guide sentence. Second guide sentence.\n'):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ARTICLE, encoding='utf-8')
+            (d / 's.md').write_text(source, encoding='utf-8')
+            (d / 'm.json').write_text(json.dumps({'title': 'T', 'blocks': [{'headings': ['## Section'], 'rows': rows}]}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'render_in_context.py'), str(d / 'm.json'), str(d / 'o.html'),
+                                '--article', str(d / 'a.md'), '--source', str(d / 's.md'), '--against-source'],
+                               capture_output=True, text=True)
+            return r.returncode, (d / 'o.html').read_text(encoding='utf-8') if (d / 'o.html').exists() else r.stderr
+
+    def row(self, **kw):
+        r = {'label': 'D1', 'text': 'One new sentence. Another one of mine.', 'after': 'An installed paragraph',
+             'source': [{'quote': 'First guide sentence.', 'from': 'the guide'}]}
+        r.update(kw)
+        return r
+
+    def test_a_quote_is_shown_inside_its_whole_paragraph(self):
+        rc, out = self.render([self.row()])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('<span class="mark">First guide sentence.</span> Second guide sentence.', out)
+        self.assertIn('the marked part, in its paragraph', out)
+
+    def test_each_sentence_beside_what_it_carries(self):
+        rc, out = self.render([self.row(carries=[{'draft': 'One new sentence.', 'guide': 'Second guide sentence.'},
+                                                 {'draft': 'Another one of mine.', 'guide': None}])])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('<td>One new sentence.</td><td>Second guide sentence.</td>', out)
+        self.assertIn('added by the writer', out)
+
+    def test_a_guide_quote_that_isnt_in_the_source_stops_the_page(self):
+        rc, out = self.render([self.row(carries=[{'draft': 'One new sentence.', 'guide': 'A sentence the guide never had.'}])])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('not in the source', out)
+
+
+class GuideAdditionsNeedProvenance(unittest.TestCase):
+    """Joel, 2026-10-08 02:23: "maybe we should somehow implement a rule that guide additions can't be suggested by other
+    owrkers unless they are explained, what map change caused them, and how they are really needed vs superfluous to the
+    guide." (E155)"""
+
+    def run_draft(self, provenance=None):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text('# Title\n\nThe paragraph before.\n', encoding='utf-8')
+            (d / 'master.html').write_text('<p>Keep one small promise to your little one.</p>', encoding='utf-8')
+            t = {'before': 'The paragraph before.', 'after': '', 'brief': '- the point',
+                 'guide_passage': 'The 2026-10-04 r4 guide (the passage this carries):\nKeep one small promise to your little one. '
+                                  'Do not keep trying to sneak it back in through gentler exercises.'}
+            if provenance:
+                t['provenance'] = provenance
+            (d / 't.json').write_text(json.dumps(t), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'reviewer' / 'reviewer.py'), '--article', str(d / 'a.md'),
+                                'draft', str(d / 't.json'), str(d / 'o.txt')], capture_output=True, text=True)
+            return r.returncode, r.stderr
+
+    def test_an_unexplained_addition_stops_the_draft(self):
+        rc, err = self.run_draft()
+        self.assertNotEqual(rc, 0)
+        self.assertIn('sneak it back in', err)
+        self.assertNotIn('Keep one small promise', err)   # the original guide's sentence isn't an addition
+
+    def test_an_explained_addition_drafts(self):
+        rc, err = self.run_draft({'map_change': 'innerSignalGraph PR #126 (2026-10-04): decline handling',
+                                  'why_reader_needs_it': 'a reader who said no to the frame needs to hear it is respected'})
+        self.assertEqual(rc, 0, err)

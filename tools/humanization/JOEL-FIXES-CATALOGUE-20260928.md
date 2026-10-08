@@ -498,3 +498,11 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
   Pangram: alone 100% Human (80, 88, 105); the h2 (2,181) and the h1 (3,005) 100% Human.
 - **The dedup (E151):** "but some of that looked like it was duplicating other stuff from before like also look outward and the section before. did you make the dedup pass before trying to humanize? i'm a little confused". No: `articles/inner-child-therapy/DEDUP-PASS-20261008.md`.
 - No "continue".
+
+## Joel's notes, 2026-10-08 02:23 UTC (depth draft 1, where the r4 additions came from, a rule)
+
+- **Cut depth draft 1:** "the paragraph didn't make much sense to begin with, and now it makes much less sense without the middle part. i'd say cut that para".
+- **Where it came from (E155):** "i assume it's supposed to represent some new part of the therapy map. who is gonna be "sneaking reparenting in " thru some gentler version? we have no idea where this came from?" It came from innerSignalGraph #126: the app's rule against re-offering inner-child work after a client says no, written into the guide as prose (`articles/inner-child-therapy/R4-ADDITIONS-PROVENANCE-20261008.md`).
+- **The rule (E155):** "maybe we should somehow implement a rule that guide additions can't be suggested by other owrkers unless they are explained, what map change caused them, and how they are really needed vs superfluous to the guide."
+- **The page (E154):** "i also don't understand how you got depth draft 1 from the r4 guide? doesn't look like a good rewrite of that one sentence. i'm so confused. same for draft 2 it seems like way more than the one sentence it's coming from? same for pleasantness draft 1... idk i'm not sure what i'm doing now". The page had shown one sentence of each guide paragraph.
+- No "continue".

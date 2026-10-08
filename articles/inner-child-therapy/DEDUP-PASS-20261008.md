@@ -39,6 +39,8 @@ In the same h1 there's a stronger repeat that isn't in his run: the pause before
 
 ## 2. The waiting drafts
 
+**Update, turn 36:** all of these except C2 are parked. Joel cut depth draft 1, and the rest came from innerSignalGraph #126 (the app's routing rules written as prose), never queued for the public guide. See `R4-ADDITIONS-PROVENANCE-20261008.md`. What follows is kept as the record.
+
 None of these is in the article. The turn-35 page shows each one in place, with what repeats marked blue.
 
 ### Already said in the article (cut when they're redrafted)

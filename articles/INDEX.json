@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "5201cdd73f9fce478059b11ceca7904cc30a8469165922b4877c6a4a9913b050",
+          "sha256": "ceb52dae76c87b3700d46800f4ef9fe942414294a3ea99b5d45ab8953b7db03f",
           "role": "humanization_working_record"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "4ab1e6e7b3a7f787bb242b74f9bf6f7f68cddaeb3dde57b24cde147f6b88b2af",
+          "sha256": "c0c3257478425ec4ab3ddbfd5db962c4ff880c542bb57a7fa647e96f963e21bc",
           "role": "humanization_working_record"
         },
         {
@@ -5019,7 +5019,7 @@
         },
         {
           "path": "articles/inner-child-therapy/GUIDE-UPDATE-QUEUE-20261006.md",
-          "sha256": "35959acb1f0c3f24e2d058b5159bc33d5f5c7f714b20d065aefd4aba0c95fff5",
+          "sha256": "a3ea79837945643933a1445fc6bf89e0ab6cccc04b396a512bacb131ab5a90e5",
           "role": "humanization_working_record"
         },
         {
@@ -5239,7 +5239,7 @@
         },
         {
           "path": "articles/inner-child-therapy/DEDUP-PASS-20261008.md",
-          "sha256": "4f349638055438a66fe503cd9ed58b4eabba549c5a4cbb2948d7f1c5be2f5322",
+          "sha256": "e976a08e5608f4b6492270b0f7bd60c93c51322805513e0ea4d82db4101e78b0",
           "role": "humanization_working_record"
         },
         {
@@ -5296,6 +5296,16 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-07-turn35-a.json",
           "sha256": "6dc5ab59f53c7e145a68a55a1389e0569a92666182279c0a013c699226b1f72a",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/R4-ADDITIONS-PROVENANCE-20261008.md",
+          "sha256": "668242d6c63e8dcd53f4322d11312a1585c4d803a2b84769f1ebd1aa74081d2c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-08-turn36.json",
+          "sha256": "9ddf200ded81fa2c99428d896aa6c28a640a00a31a19db0390f9aea3b2074701",
+          "role": "in_context_map"
         }
       ]
     },

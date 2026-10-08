@@ -424,3 +424,23 @@ Joel: "ok i mean boring, regular etc are not for sure AI tells, almost nothing i
 1. Redraft the waiting groups with only what's left after the dedup, splitting the shared points as above. Run the dedup check on the new drafts, then the cold reads, then Pangram: alone, in the h2, in the h1.
 2. When he answers on section 3 of the write-up, make his choices. If he OKs it, cut my PGQ-004 danger sentence, and check the paragraph alone, in its h2 and in the h1.
 3. The older repeats wait for his picks.
+
+## Turn 36 (2026-10-08, from 02:23 UTC): where the r4 drafts came from
+
+- **Depth draft 1 is cut** (Joel: "i'd say cut that para").
+- **Why the drafts looked like long rewrites of one sentence (E154).** The turn-35 page gave each draft only the first sentence of its guide paragraph as its source. Each draft carries the whole paragraph. The turn-36 page shows each guide paragraph whole, with a table of what each draft sentence carries and what the writer added. The page tool now shows a partial quote inside its whole paragraph, and checks every "carries" quote.
+- **Where they came from (E155).** innerSignalGraph pull request #126 (2026-10-04) fixed the app after a new-client test, and wrote its new rules into the guide as prose. Its paragraphs are the depth group, the pleasantness group, the isolation group and the difficult-dream paragraph. None of them went on the queue of reader-facing changes. The "sneak it back in" line is the app's rule against re-offering inner-child work after a client says no. I drafted them because in turn 30 I treated unqueued r4 paragraphs as queue items. Record: `R4-ADDITIONS-PROVENANCE-20261008.md`.
+- **Joel's rule, in force here.**
+  - `reviewer.py draft` and `dedup` stop on a guide addition that has no `"provenance"` (`"map_change"`, `"why_reader_needs_it"`).
+  - The gate says unqueued guide changes are runtime-only by default.
+  - The #126 paragraphs are parked.
+  - The same rule for innerSignalGraph's workers is drafted in `docs/proposals/INNERSIGNALGRAPH-GUIDE-ADDITIONS-RULE-20261008.md` and needs his OK to file: this session couldn't get write access to that repository or to universal-dev-architecture.
+- **C2 (PGQ-003)** came from his own Oct 3 guide and is on the queue. It passes alone (130). With isolation draft 1 parked, it could follow his C1. That needs his yes, and then checks in the h2 and the h1.
+- **No Pangram checks this turn.** The article is unchanged.
+
+### Next
+
+1. If Joel says yes to C2 after C1: install it, then check it in Your Body Might Need Some Love First and in Before You Try to Go Deep.
+2. If he OKs filing the rule upstream: file it in universal-dev-architecture's suggested-fixes lane for innerSignalGraph.
+3. The turn-35 proposals on installed repeats (my PGQ-004 danger line, and the others in `DEDUP-PASS-20261008.md`) still wait for his picks.
+4. After that, the next guide section that isn't in the article yet, with its queue items checked for their reasons first.

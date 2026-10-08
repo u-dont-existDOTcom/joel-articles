@@ -1,0 +1,425 @@
+{
+ "title": "Turn 36: where the r4 drafts came from, and what each one carries",
+ "meta": "Inner Child Therapy · turn 36 (your message of 2026-10-08 02:23 UTC) · saved on the lane, not merged",
+ "intro": [
+  "Each waiting draft is beside its whole guide paragraph now, with a table of what each sentence carries. A gray \"added by the writer\" means the guide doesn't have it.",
+  "Where they came from: all of them except C2 were written into the guide on Oct 4, in innerSignalGraph pull request #126, while Codex fixed how the app handled a new-client test. They're the app's new rules written as prose, and they never went on your queue of changes for the public guide. I picked them up from the guide in turn 30. Under your new rule they're parked. C2 came from your own Oct 3 guide and is on your queue."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Before You Try to Go Deep: the depth drafts"
+   ],
+   "intro": [
+    "The left column is now each guide paragraph whole. Last time it showed only the first sentence, so a draft carrying the whole paragraph looked like a long rewrite of one sentence. The table under each draft puts each of its sentences beside the guide words it carries."
+   ],
+   "rows": [
+    {
+     "label": "Depth draft 1 (cut)",
+     "text": "Your little one will still be there later. Some people want out of the whole inner-child idea, though (\"this just isn't me\"), and that's a different thing. If that's you, I wouldn't keep sneaking it back in through some \"gentler\" version, or start calling the dishes reparenting. Looking after yourself and keeping yourself safe can happen in whatever words feel like yours. Same with figuring out where you're headed, and getting support from people.",
+     "after": "How much of the grown-up you is actually here right now?",
+     "source": [
+      "That means turning the depth down"
+     ],
+     "notes": [
+      "Cut: your call (2026-10-08 02:23).",
+      "Where it came from: innerSignalGraph pull request #126 (Oct 4), which fixed how the app handled a new-client test. It added owner amendment AMEND.IC.CONTINUITY_TITRATION to the app's map and wrote the same rules into the guide as prose. It was never put on your queue of changes for the public guide; I picked it up from the guide itself in turn 30.",
+      "There, when a client says no to inner-child work, the app gives \"no step-down ladder, reactivation condition, repeated re-offer, or reparenting relabeling\". The guide's \"do not keep trying to sneak it back in\" is that rule for the app, turned toward the reader. You're right that a reader isn't the one who would do it.",
+      "Not carried: \"stop using that language\"."
+     ],
+     "carries": [
+      {
+       "draft": "Your little one will still be there later.",
+       "guide": "That means turning the depth down, not throwing the relationship away",
+       "note": "the writer's way of saying it"
+      },
+      {
+       "draft": "Some people want out of the whole inner-child idea, though (\"this just isn't me\"), and that's a different thing.",
+       "guide": "unless you simply do not want to use the inner-child frame. A no to the frame is not a pacing problem to solve.",
+       "note": "\"this just isn't me\" is the writer's"
+      },
+      {
+       "draft": "If that's you, I wouldn't keep sneaking it back in through some \"gentler\" version, or start calling the dishes reparenting.",
+       "guide": "do not keep trying to sneak it back in through “gentler” exercises or by renaming ordinary tasks as reparenting",
+       "note": "the dishes are the writer's example"
+      },
+      {
+       "draft": "Looking after yourself and keeping yourself safe can happen in whatever words feel like yours.",
+       "guide": "Care, protection, guidance, and human support can continue in whatever language actually fits you.",
+       "note": "care and protection"
+      },
+      {
+       "draft": "Same with figuring out where you're headed, and getting support from people.",
+       "guide": "Care, protection, guidance, and human support can continue in whatever language actually fits you.",
+       "note": "guidance and support"
+      }
+     ]
+    },
+    {
+     "label": "Depth draft 2 (parked)",
+     "text": "If you do want it, and it's just too much at this depth, some people try one technique after another, thinking, \"I just have to push through this.\" I'd go shallower instead. If going inward keeps making it worse, or you're not sure you could stop and come back, I'd put the inward stuff down and come back out to the room. Once you're steadier, there's a harm-reduction saying for this: start low and go slow. Low might be doing one protective thing out in your life, or calling someone who's good for you. Or a short hello to your little one with your eyes open.",
+     "after_row": "Depth draft 1 (cut)",
+     "source": [
+      "If you do want the relationship but a particular depth"
+     ],
+     "notes": [
+      "Where it came from: innerSignalGraph pull request #126 (Oct 4), which fixed how the app handled a new-client test. It added owner amendment AMEND.IC.CONTINUITY_TITRATION to the app's map and wrote the same rules into the guide as prose. It was never put on your queue of changes for the public guide; I picked it up from the guide itself in turn 30.",
+      "Parked under your new rule: nothing more is drafted from it unless someone explains why a reader needs it.",
+      "Alone 100% AI on three tries (turn 34)."
+     ],
+     "carries": [
+      {
+       "draft": "If you do want it, and it's just too much at this depth,",
+       "guide": "If you do want the relationship but a particular depth is too much"
+      },
+      {
+       "draft": "some people try one technique after another, thinking, \"I just have to push through this.\"",
+       "guide": "Do not test another inward technique just to prove you can tolerate something.",
+       "note": "turned into what some people do"
+      },
+      {
+       "draft": "I'd go shallower instead.",
+       "guide": "preserve the relationship by changing the dose."
+      },
+      {
+       "draft": "If going inward keeps making it worse, or you're not sure you could stop and come back, I'd put the inward stuff down and come back out to the room.",
+       "guide": "If you cannot reliably stop, return, stay oriented, or inward attention itself is making things worse, stop the inner exercise and come outward first."
+      },
+      {
+       "draft": "Once you're steadier,",
+       "guide": "Once you are steadier"
+      },
+      {
+       "draft": "there's a harm-reduction saying for this: start low and go slow.",
+       "guide": null
+      },
+      {
+       "draft": "Low might be doing one protective thing out in your life, or calling someone who's good for you.",
+       "guide": "the next gentlest step might be an ordinary protective action, real human support"
+      },
+      {
+       "draft": "Or a short hello to your little one with your eyes open.",
+       "guide": "or a brief eyes-open acknowledgment before imagery or deeper dialogue.",
+       "note": "\"before imagery or deeper dialogue\" is left out"
+      }
+     ]
+    },
+    {
+     "label": "Depth draft 3 (parked)",
+     "text": "A full pause from your little one is the last thing I'd reach for, but sometimes you need one, for safety or because nothing smaller is working. (Looking after yourself, and seeing the people who are good for you, can keep going.) I'd write down why. Then the last level you could still handle, and what would have to change before you'd go back. Some people keep taking little peeks during a pause, just a quick hello, just a bit of imagery. I'd wait. When that change is there and you want to come back, start at that last level you could handle, or lower.",
+     "after_row": "Depth draft 2 (parked)",
+     "source": [
+      "A complete tolerance pause"
+     ],
+     "notes": [
+      "Where it came from: innerSignalGraph pull request #126 (Oct 4), which fixed how the app handled a new-client test. It added owner amendment AMEND.IC.CONTINUITY_TITRATION to the app's map and wrote the same rules into the guide as prose. It was never put on your queue of changes for the public guide; I picked it up from the guide itself in turn 30.",
+      "Parked under your new rule: nothing more is drafted from it unless someone explains why a reader needs it.",
+      "In the app, this is the pause it records with a reason, \"the last tolerated level\", and a return condition.",
+      "Alone 100% Human (109), turn 34. Not carried: the check-in before stepping back up, and \"Changing the dose does not mean the relationship has failed\"."
+     ],
+     "carries": [
+      {
+       "draft": "A full pause from your little one is the last thing I'd reach for, but sometimes you need one, for safety or because nothing smaller is working.",
+       "guide": "A complete tolerance pause is a last resort, and a safety problem can require a pause whether or not you want one.",
+       "note": "\"nothing smaller is working\" is the writer's reading of \"tolerance pause\""
+      },
+      {
+       "draft": "(Looking after yourself, and seeing the people who are good for you, can keep going.)",
+       "guide": null
+      },
+      {
+       "draft": "I'd write down why.",
+       "guide": "make the pause specific: what made it necessary"
+      },
+      {
+       "draft": "Then the last level you could still handle, and what would have to change before you'd go back.",
+       "guide": "what level was last genuinely workable, and what observable change—plus your own agreement—would make a gentle return reasonable"
+      },
+      {
+       "draft": "Some people keep taking little peeks during a pause, just a quick hello, just a bit of imagery.",
+       "guide": "While the pause is still active, do not keep testing gentler child-facing versions such as witnessing, imagery, or symbolic contact."
+      },
+      {
+       "draft": "I'd wait.",
+       "guide": "Wait for the return condition instead."
+      },
+      {
+       "draft": "When that change is there and you want to come back, start at that last level you could handle, or lower.",
+       "guide": "When you return, start at or below that last workable level rather than jumping back to where you left off."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Your Body Might Need Some Love First: the pleasantness drafts"
+   ],
+   "rows": [
+    {
+     "label": "Pleasantness draft 1 (parked)",
+     "text": "Whatever you try from that map, I wouldn't go by how pleasant a session felt to tell whether it was good for you. This kind of work can bring up grief and fear, and sometimes hard dreams, or stuff you'd rather never have met. A session can also be really intense and get you nowhere. Even staying present the whole time doesn't tell you enough by itself. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.",
+     "after": "When your nervous system is flooded",
+     "source": [
+      "Do not use pleasantness"
+     ],
+     "notes": [
+      "Where it came from: innerSignalGraph pull request #126 (Oct 4), which fixed how the app handled a new-client test. It added owner amendment AMEND.IC.SCAFFOLDED_CHALLENGE to the app's map and wrote the same rules into the guide as prose. It was never put on your queue of changes for the public guide; I picked it up from the guide itself in turn 30.",
+      "Parked under your new rule: nothing more is drafted from it unless someone explains why a reader needs it.",
+      "In the app, this is its test for whether a session was workable or too much: could the person stop and come back, do they want to go back toward it, how did it feel, and how did they recover. The draft splits the paragraph: its four questions are in draft 2.",
+      "Alone 100% Human (101), turn 34."
+     ],
+     "carries": [
+      {
+       "draft": "Whatever you try from that map,",
+       "guide": null
+      },
+      {
+       "draft": "I wouldn't go by how pleasant a session felt to tell whether it was good for you.",
+       "guide": "Do not use pleasantness as the only safety meter either."
+      },
+      {
+       "draft": "This kind of work can bring up grief and fear, and sometimes hard dreams, or stuff you'd rather never have met.",
+       "guide": "Learning often includes grief, fear, frustration, difficult dreams, or material you would rather not meet."
+      },
+      {
+       "draft": "A session can also be really intense and get you nowhere.",
+       "guide": "just as intensity by itself is not progress"
+      },
+      {
+       "draft": "Even staying present the whole time doesn't tell you enough by itself.",
+       "guide": "But “I stayed oriented” is not enough by itself either."
+      },
+      {
+       "draft": "It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.",
+       "guide": "Difficulty by itself is not harm",
+       "note": "through the writer's gym comparison"
+      }
+     ]
+    },
+    {
+     "label": "Pleasantness draft 2 (parked)",
+     "text": "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And could you have stopped and come back to the room, if you'd needed to? If not, I'd keep my eyes open next time, before any imagery.) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier, one change at a time, so you learn what made the difference. If you're getting worse, though, change several things at once, and have someone steady with you.",
+     "after_row": "Pleasantness draft 1 (parked)",
+     "source": [
+      "Do not use pleasantness",
+      "If those answers are not known yet"
+     ],
+     "notes": [
+      "Where it came from: innerSignalGraph pull request #126 (Oct 4), which fixed how the app handled a new-client test. It added owner amendment AMEND.IC.SCAFFOLDED_CHALLENGE to the app's map and wrote the same rules into the guide as prose. It was never put on your queue of changes for the public guide; I picked it up from the guide itself in turn 30.",
+      "Parked under your new rule: nothing more is drafted from it unless someone explains why a reader needs it.",
+      "Alone 100% Human (122), turn 34. Not carried: \"did it feel difficult-but-workable rather than simply too much or unwanted\", and the list of things to change."
+     ],
+     "carries": [
+      {
+       "draft": "So how were the next few days?",
+       "guide": "Ask how it landed and how you have been since."
+      },
+      {
+       "draft": "How did you sleep, and could you get through your day okay?",
+       "guide": "how did you recover afterward in sleep and ordinary functioning?"
+      },
+      {
+       "draft": "Do you want to go back toward what came up, or is some part of you saying no?",
+       "guide": "do you actually want to go back toward it"
+      },
+      {
+       "draft": "(And could you have stopped and come back to the room, if you'd needed to?",
+       "guide": "could you stop and return"
+      },
+      {
+       "draft": "If not, I'd keep my eyes open next time, before any imagery.)",
+       "guide": "eyes open or stronger external anchors"
+      },
+      {
+       "draft": "If you honestly can't tell yet, I wouldn't rush to call it healing or harm.",
+       "guide": "If those answers are not known yet, do not rush to classify the experience as healing or harmful."
+      },
+      {
+       "draft": "I'd just make the next one a bit easier, one change at a time, so you learn what made the difference.",
+       "guide": "When you are calibrating, changing one thing at a time can teach you what matters"
+      },
+      {
+       "draft": "If you're getting worse, though, change several things at once, and have someone steady with you.",
+       "guide": "if distress is climbing, change several things at once",
+       "note": "\"and more support\""
+      }
+     ]
+    },
+    {
+     "label": "Pleasantness draft 3 (parked)",
+     "text": "Bring the challenge back gradually, and only when you want to and you're recovering well. If you're not sure yet whether you want to, you can wait. Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn. Those dreams and images that come up can show what feels important or frightening right now. Sometimes they show what feels missing, or what feels needed. They aren't evidence that what you saw in them happened, though, and shouldn't be used to confirm a memory or rebuild one. Or to suggest one.",
+     "after_row": "Pleasantness draft 2 (parked)",
+     "source": [
+      "If those answers are not known yet",
+      "Dreams and imagery can be useful"
+     ],
+     "notes": [
+      "Where it came from: innerSignalGraph pull request #126 (Oct 4), which fixed how the app handled a new-client test. It added owner amendment AMEND.IC.SCAFFOLDED_CHALLENGE to the app's map and wrote the same rules into the guide as prose. It was never put on your queue of changes for the public guide; I picked it up from the guide itself in turn 30.",
+      "Parked under your new rule: nothing more is drafted from it unless someone explains why a reader needs it.",
+      "Alone 100% Human (107), turn 34."
+     ],
+     "carries": [
+      {
+       "draft": "Bring the challenge back gradually, and only when you want to and you're recovering well.",
+       "guide": "Restore challenge gradually only when you want to continue and recovery supports it."
+      },
+      {
+       "draft": "If you're not sure yet whether you want to, you can wait.",
+       "guide": null
+      },
+      {
+       "draft": "Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn.",
+       "guide": "This is not throwing yourself into a cauldron to toughen up; it is finding the edge where you can actually learn."
+      },
+      {
+       "draft": "Those dreams and images that come up can show what feels important or frightening right now.",
+       "guide": "Dreams and imagery can be useful material about what feels important, frightening, missing, or needed now."
+      },
+      {
+       "draft": "Sometimes they show what feels missing, or what feels needed.",
+       "guide": "Dreams and imagery can be useful material about what feels important, frightening, missing, or needed now."
+      },
+      {
+       "draft": "They aren't evidence that what you saw in them happened, though,",
+       "guide": "They are not evidence that the pictured event happened historically."
+      },
+      {
+       "draft": "and shouldn't be used to confirm a memory or rebuild one.",
+       "guide": "Do not use them to confirm, suggest, or reconstruct a memory."
+      },
+      {
+       "draft": "Or to suggest one.",
+       "guide": "Do not use them to confirm, suggest, or reconstruct a memory."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "### Also Look Outward: the isolation drafts, and C2"
+   ],
+   "rows": [
+    {
+     "label": "Isolation draft 1 (parked)",
+     "text": "Maybe part of what your little one went through was being alone with it. Then reaching toward people can be part of this work too, and you can call that reparenting if you like the word. Some people figure, \"I'll get myself sorted out first, and then I'll be fit company for anybody.\" I don't think a decent parent would ask that of a lonely kid. So sometimes the grown-up thing to do is just to text someone first.",
+     "after": "Then there are people you're just getting to know.",
+     "source": [
+      "If isolation itself is part of the wound"
+     ],
+     "notes": [
+      "Where it came from: innerSignalGraph pull request #126 (Oct 4), which fixed how the app handled a new-client test. It added owner amendment AMEND.IC.COMMUNITY_REPARENTING to the app's map and wrote the same rules into the guide as prose. It was never put on your queue of changes for the public guide; I picked it up from the guide itself in turn 30.",
+      "Parked under your new rule: nothing more is drafted from it unless someone explains why a reader needs it.",
+      "Alone 100% AI on three tries (turn 34)."
+     ],
+     "carries": [
+      {
+       "draft": "Maybe part of what your little one went through was being alone with it.",
+       "guide": "If isolation itself is part of the wound"
+      },
+      {
+       "draft": "Then reaching toward people can be part of this work too, and you can call that reparenting if you like the word.",
+       "guide": "reaching toward people may be one way the adult side provides care. If inner-child language already feels natural to you, you might call that reparenting in action."
+      },
+      {
+       "draft": "Some people figure, \"I'll get myself sorted out first, and then I'll be fit company for anybody.\"",
+       "guide": null
+      },
+      {
+       "draft": "I don't think a decent parent would ask that of a lonely kid.",
+       "guide": "A decent parent would not tell a lonely child to become perfectly self-sufficient before seeing friends"
+      },
+      {
+       "draft": "So sometimes the grown-up thing to do is just to text someone first.",
+       "guide": "sometimes the adult move is making the call"
+      }
+     ]
+    },
+    {
+     "label": "Honesty draft, C2 (waiting)",
+     "text": "And reaching out doesn't mean telling strangers everything. Privacy isn't fakery. People can earn more of you by how they handle the smaller things you tell them, and how they take it when you say no. But if a relationship is getting deep and you're still keeping up a fake normal, happy version of yourself to hold onto it, I'd either bring more of the truth in, carefully, or let it be less deep for now. (If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first.) And when someone finally accepts you, it can feel amazing. It still doesn't prove you're meant for each other, or that they've earned your trust yet.",
+     "after_row": "Isolation draft 1 (parked)",
+     "source": [
+      "Honesty does not mean total disclosure"
+     ],
+     "notes": [
+      "Where it came from: your Oct 3 guide (first in its r2 version, which innerSignalGraph pull request #124 synced), and it's on your queue as PGQ-003. So it is meant for the public guide.",
+      "Alone 100% Human (130), turn 34. It was to follow Isolation draft 1, which is parked; it could go right after your C1 instead.",
+      "Not carried: \"Another person is not a diagnostic instrument or reassurance machine\", and the sentence on support going both ways."
+     ],
+     "carries": [
+      {
+       "draft": "And reaching out doesn't mean telling strangers everything.",
+       "guide": "Honesty does not mean total disclosure to strangers."
+      },
+      {
+       "draft": "Privacy isn't fakery.",
+       "guide": "Privacy is not fakery."
+      },
+      {
+       "draft": "People can earn more of you by how they handle the smaller things you tell them, and how they take it when you say no.",
+       "guide": "Let people earn access by how they handle smaller truths, boundaries, and vulnerability."
+      },
+      {
+       "draft": "But if a relationship is getting deep and you're still keeping up a fake normal, happy version of yourself to hold onto it, I'd either bring more of the truth in, carefully, or let it be less deep for now.",
+       "guide": "But if a relationship is becoming deep while you have to maintain a false normal, happy, or perfect persona to keep it going, either bring more truth in carefully or reduce the depth."
+      },
+      {
+       "draft": "(If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first.)",
+       "guide": "Where honesty itself would expose you to coercion, violence, serious stigma, or another concrete danger, protect yourself first"
+      },
+      {
+       "draft": "And when someone finally accepts you, it can feel amazing.",
+       "guide": "Relief at finally being accepted can be powerful"
+      },
+      {
+       "draft": "It still doesn't prove you're meant for each other, or that they've earned your trust yet.",
+       "guide": "it is not by itself proof of romantic love, compatibility, or earned trust."
+      }
+     ]
+    },
+    {
+     "label": "Isolation draft 2 (parked)",
+     "text": "I'd look for more than one place to belong, too. One partner or one therapist can't be all of it, and if they're busy or gone, you'd be left with nobody. Keep the good people you've got, and then maybe add a spiritual community that fits you, or a class you keep showing up to. Not every one of them has to click. But if a group makes you feel more wanted than you've ever felt, and then someone there starts saying your old friends are holding you back, I'd let the Protector handle that one, and keep your other people, even if it means not going back.",
+     "after_row": "Honesty draft, C2 (waiting)",
+     "source": [
+      "Look for more than one door",
+      "Use the Protector here too"
+     ],
+     "notes": [
+      "Where it came from: innerSignalGraph pull request #126 (Oct 4), which fixed how the app handled a new-client test. It added owner amendment AMEND.IC.COMMUNITY_REPARENTING to the app's map and wrote the same rules into the guide as prose. It was never put on your queue of changes for the public guide; I picked it up from the guide itself in turn 30.",
+      "Parked under your new rule: nothing more is drafted from it unless someone explains why a reader needs it.",
+      "Its guide paragraph ends \"or this app the only place you can belong\": it was written for the app.",
+      "Alone 100% AI on three tries (turn 34)."
+     ],
+     "carries": [
+      {
+       "draft": "I'd look for more than one place to belong, too.",
+       "guide": "Look for more than one door"
+      },
+      {
+       "draft": "One partner or one therapist can't be all of it, and if they're busy or gone, you'd be left with nobody.",
+       "guide": "A network of several imperfect supports is usually sturdier than making one partner, friend, therapist, group, spiritual authority, service, or this app the only place you can belong.",
+       "note": "\"if they're busy or gone\" is the writer's reason"
+      },
+      {
+       "draft": "Keep the good people you've got, and then maybe add a spiritual community that fits you, or a class you keep showing up to.",
+       "guide": "Add routes alongside the safe supports you already have rather than treating diversification as a reason to drop somebody good.",
+       "note": "two of the guide's examples"
+      },
+      {
+       "draft": "Not every one of them has to click.",
+       "guide": "You do not need every door to open."
+      },
+      {
+       "draft": "But if a group makes you feel more wanted than you've ever felt, and then someone there starts saying your old friends are holding you back, I'd let the Protector handle that one, and keep your other people, even if it means not going back.",
+       "guide": "Use the Protector here too. A community is not automatically good because it offers belonging.",
+       "note": "the example is the writer's"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -73,6 +73,16 @@ marked blue, and a note gives the section and the words that already say it. Eve
 "says" has to be in its text, or the page stops: a dedup note can't quote something that isn't
 there. (On a row that shows a diff, the spans aren't marked, and the notes still list them.)
 A block can have "intro": ["a paragraph shown under its headings", ...].
+
+What a draft carries (2026-10-08; Joel, 02:23: "i also don't understand how you got depth draft 1 from the r4
+guide? doesn't look like a good rewrite of that one sentence. i'm so confused. same for draft 2 it seems like
+way more than the one sentence it's coming from?"). The turn-35 page gave each draft the first sentence of its
+guide paragraph as its source, so drafts that carry the whole paragraph looked like inflated rewrites. Now:
+  - a {"quote": ...} that's part of a paragraph in SOURCE is shown inside that whole paragraph, with the quoted
+    part marked, so a fragment can't stand in for the passage;
+  - a row can list "carries": [{"draft": "a sentence of the draft", "guide": "the guide words it carries"
+    (or null: added by the writer), "note": "optional"}], shown as a two-column table. Every quote is
+    checked against the row and the source.
 """
 import argparse, difflib, html, json, math, pathlib, re, subprocess, sys
 
@@ -95,6 +105,9 @@ a{color:var(--link)}
 .lbl{font:600 13px/1.3 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}
 .mark{background:var(--mark);border-radius:3px;padding:0 2px} .flag{background:var(--flag);border-radius:3px;padding:0 2px}
 .dup{background:var(--dup);border-bottom:2px dotted var(--dupline);border-radius:3px;padding:0 2px}
+.carries{width:100%;border-collapse:collapse;font:14px/1.45 system-ui,sans-serif;margin-top:4px}
+.carries th,.carries td{border-top:1px solid var(--line);padding:6px 8px 6px 0;vertical-align:top;text-align:left}
+.carries th{font-weight:600;color:var(--mute)} .add{color:var(--mute);font-style:italic}
 del{color:var(--mute);text-decoration-thickness:1px}
 .notes{font:15px/1.5 system-ui,sans-serif;margin:8px 0 0;padding-left:20px} .notes li{margin:4px 0}
 .block{margin-top:28px}
@@ -240,6 +253,43 @@ def repeat_notes(r, cur, rows):
     return out
 
 
+def whole_paragraph(quote, sparas):
+    """The source paragraph a quote comes from, when it's in the source file (else None)."""
+    key = re.sub(r'\s+', ' ', quote).translate(QUOTES).strip()
+    for p in sparas:
+        t = plain(p)[0]
+        if key and key in t.translate(QUOTES):
+            return t
+    return None
+
+
+def carries_html(r, items, sparas, text):
+    """The row's "carries" list as a table: each draft sentence beside the guide words it carries, or "added by
+    the writer" (Joel, 2026-10-08 02:23: "i also don't understand how you got depth draft 1 from the r4 guide? doesn't
+    look like a good rewrite of that one sentence"). Every quote is checked: the draft words against the row, the
+    guide words against the row's source cell or the source file."""
+    if not r.get('carries'):
+        return ''
+    lab = r.get('label', 'row')
+    cell = ' '.join(plain(find(sparas, g, 'source'))[0] if isinstance(g, str) else (whole_paragraph(g['quote'], sparas) or g['quote'])
+                    for g in items).translate(QUOTES)
+    whole = ' '.join(plain(p)[0] for p in sparas).translate(QUOTES)
+    rows = []
+    for c in r['carries']:
+        d = c['draft']
+        if re.sub(r'\s+', ' ', d).translate(QUOTES) not in text.translate(QUOTES):
+            sys.exit('%s: a "carries" draft quote is not in the row: %r' % (lab, d[:60]))
+        g = c.get('guide')
+        if g and g.translate(QUOTES) not in cell and g.translate(QUOTES) not in whole:
+            sys.exit('%s: a "carries" guide quote is not in the source: %r' % (lab, g[:60]))
+        gcell = html.escape(g) if g else '<span class="add">added by the writer</span>'
+        if c.get('note'):
+            gcell += ' <span class="add">(%s)</span>' % html.escape(c['note'])
+        rows.append('<tr><td>%s</td><td>%s</td></tr>' % (html.escape(d), gcell))
+    return ('<p class="meta">What each sentence carries:</p><table class="carries"><tr><th>The draft</th><th>The guide</th></tr>%s</table>'
+            % ''.join(rows))
+
+
 def source_cell(items, sparas, label):
     if not items:
         return '<p class="lbl">No %s</p>' % html.escape(label.lower())
@@ -247,7 +297,18 @@ def source_cell(items, sparas, label):
     for g in items:
         if isinstance(g, dict):
             src = ' · ' + html.escape(g['from']) if g.get('from') else ''
-            out.append('<p class="lbl">%s%s</p><p>%s</p>' % (html.escape(label), src, html.escape(g['quote'])))
+            whole = whole_paragraph(g['quote'], sparas)
+            q = re.sub(r'\s+', ' ', g['quote']).strip()
+            if whole and whole.translate(QUOTES) != q.translate(QUOTES):
+                # A quote is never shown alone when its paragraph is in the source: the page shows the whole
+                # paragraph, with the quoted part marked (2026-10-08: the turn-35 page showed one sentence of each
+                # guide paragraph, and the drafts that carry the whole paragraph looked like inflated rewrites).
+                i = whole.translate(QUOTES).find(q.translate(QUOTES))
+                body = (html.escape(whole[:i]) + '<span class="mark">%s</span>' % html.escape(whole[i:i + len(q)])
+                        + html.escape(whole[i + len(q):]))
+                out.append('<p class="lbl">%s%s · the marked part, in its paragraph</p><p>%s</p>' % (html.escape(label), src, body))
+            else:
+                out.append('<p class="lbl">%s%s</p><p>%s</p>' % (html.escape(label), src, html.escape(g['quote'])))
         else:
             # Whole source paragraphs in a row (a lead-in and its list items) share one label.
             lbl = '' if isinstance(prev, str) else '<p class="lbl">%s</p>' % html.escape(label)
@@ -457,6 +518,7 @@ def main():
             if rep:
                 notes.append('<p class="meta">What already says it:</p><ul class="notes">%s</ul>'
                              % ''.join('<li>%s</li>' % html.escape(n) for n in rep))
+            notes.append(carries_html(r, items, sparas, text))
             if links:
                 notes.append('<p class="meta">Links: %s</p>' % ', '.join(
                     '%s → <a href="%s">%s</a>' % (html.escape(t.replace('*', '')), html.escape(u), html.escape(u)) for t, u in links))

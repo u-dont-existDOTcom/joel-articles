@@ -284,8 +284,56 @@ def joel_fixes():
             "These are examples of what he changes, not a checklist:\n\n" + c[a:b].strip())
 
 
+NORM = str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"', '—': ' ', '–': ' '})
+
+
+def norm(s):
+    return ' '.join(re.sub(r'[^a-z0-9]+', ' ', s.translate(NORM).lower()).split())
+
+
+def original_text(t):
+    """The guide the article was first made from (Inner Child: its folder's master.html), or the target's
+    "original": a path from the repo root. None when there isn't one."""
+    if t.get('original'):
+        p = ROOT / t['original']
+    else:
+        try:
+            p = pathlib.Path(article_or_source(t, 'article')).parent / 'master.html'
+        except SystemExit:
+            return None
+    return guide_text(p) if p.exists() else None
+
+
+def guide_additions(t):
+    """The guide passage's sentences that aren't in the original guide: what a later guide version added."""
+    orig, gp = original_text(t), t.get('guide_passage')
+    if not orig or not gp:
+        return []
+    body = re.sub(r'^The [^\n]*\(the passage this carries\):\n', '', gp.strip())
+    o = norm(orig)
+    return [s for s in split_sentences(body) if len(norm(s).split()) >= 4 and norm(s) not in o]
+
+
+def require_provenance(t, name):
+    """Joel, 2026-10-08 02:23: "maybe we should somehow implement a rule that guide additions can't be suggested by
+    other owrkers unless they are explained, what map change caused them, and how they are really needed vs
+    superfluous to the guide." A target whose guide passage adds to the original guide needs "provenance" with
+    "map_change" (what changed upstream, and where: the pull request, amendment or node) and "why_reader_needs_it"
+    (why the article's reader needs it, given what the guide and the article already say). Without both, no
+    drafting (E155)."""
+    add = guide_additions(t)
+    pv = t.get('provenance') or {}
+    if add and not (pv.get('map_change') and pv.get('why_reader_needs_it')):
+        shown = '\n'.join('  - ' + s[:140] for s in add[:4]) + ('\n  - …' if len(add) > 4 else '')
+        sys.exit('%s: this guide passage adds to the original guide (%d sentences, e.g.:\n%s\n), and the target has no '
+                 'explanation. Add "provenance": {"map_change": "what changed upstream and where (PR, amendment, node)", '
+                 '"why_reader_needs_it": "why the reader needs it, vs superfluous to what the guide and article say"} '
+                 'before drafting (Joel, 2026-10-08: guide additions need to be explained; E155).' % (name, len(add), shown))
+
+
 def build_draft(target):
     t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
+    require_provenance(t, pathlib.Path(target).name)
     w = read('writer_draft.txt')
     for k in ('brief', 'before', 'after'):
         w = w.replace('{%s}' % k, t[k])
@@ -485,6 +533,7 @@ def build_dedup(targets, drafts=None, report=None, article=None):
     drafts, groups, art = drafts or {}, [], None
     for n, tp in enumerate(targets, 1):
         t = json.loads(pathlib.Path(tp).read_text(encoding='utf-8'))
+        require_provenance(t, pathlib.Path(tp).name)
         art = art or numbered_article(article or article_or_source(t, 'article'))
         flat, tail = re.sub(r'\s+', ' ', art), re.sub(r'\s+', ' ', (t.get('cut') or t['before']).strip())[-80:]
         k = flat.rfind(tail)
