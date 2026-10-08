@@ -508,3 +508,9 @@ His texts are kept verbatim in the community lane's `s8/joel-2021/joel-20261007-
 - **O6.** "wait are you saying you have a "list of nouns"? that sounds brittle... is that the best way to handle the abstracts doing things check? abstract nouns are a real vast open-ended list in my mind" (The check now reads the grammar with spaCy and WordNet, the list kept only as the fallback.)
 - **P22.** "yes fix p222 take out second adults that's obvious" ("a commitment they make as adults" → "a commitment they make"; that text read 100% Human in 146g.)
 - "continue".
+
+## Joel's ruling and question, 2026-10-07 23:50 UTC (the linter's O6)
+
+- **O6.** "\"modern life trains us\" is actually very human to say, so it seems we need an exception to the rule. not a brittle one. you don't understand just intuitively which abstractions are normally used and which are not? like modern life trains us... is so common it's almost cliche, it's not a witty AI quip, you know? i'm confused why you can't simply look at a word and know it's an abstract concept, isn't that what LLMs are great at?" (The linter's O6 flags are now candidates; a fresh agent judges them with `abstract_agents_prompt.py` against his ratings.)
+- **Section 8 P19.** "yeah we can leave nobody's status buys silence, that's intermediate between an ai quip and what a human would normally say, and it passed pangram so it's ok..."
+- "continue".

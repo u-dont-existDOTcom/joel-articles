@@ -151,6 +151,9 @@ ABSTRACT_AGENT = (r"\b(anger|fear|grief|shame|hurt|pain|longing|loneliness|resen
 # silence", "The vaccination policy arrives two years later carrying documents"), with four misparses; on the Inner
 # Child article, 6, among them "Guilt may keep shouting at you". The word list found one sentence in both articles.
 # Without those libraries the word list above is the fallback, and the report says so.
+# Joel, 23:50, on "Modern life trains us": "actually very human to say ... so common it's almost cliche, it's not a witty
+# AI quip ... isn't that what LLMs are great at?" The grammar finds candidates; only a reader can judge them. So an O6 flag
+# is a candidate, and abstract_agents_prompt.py has a fresh agent sort them (everyday, in between, quip) against his ratings.
 SEED_PERSON_VERBS = set("""arrive try want seek demand decide choose refuse push wait hide insist ask teach return travel
 file knock creep sneak wander vote speak whisper settle win answer solve fix protect save heal handle know buy
 train""".split())
@@ -198,6 +201,17 @@ def _person_verb(wn, lemma):
         t += c
     return t > 0 and p / t >= 0.6
 
+def _light_verb_act(wn, verb_tok):
+    """For a light verb, the person's act its object names: "makes the decision" (decide), "gives an answer"."""
+    for o in (c for c in verb_tok.children if c.dep_ == 'dobj'):
+        for s in wn.synsets(o.lemma_, 'n')[:2]:
+            for l in s.lemmas():
+                for d in l.derivationally_related_forms():
+                    n = d.name()
+                    if d.synset().pos() == 'v' and n not in LIGHT_VERBS and _person_verb(wn, n):
+                        return n
+    return None
+
 def abstract_agents(sentence):
     """[(noun, verb)] for each clause whose subject is mostly an abstraction doing what a person does; None without
     the parser."""
@@ -224,8 +238,11 @@ def abstract_agents(sentence):
         chain = [v] + [c for c in v.children if c.dep_ in ('xcomp', 'advcl') and c.pos_ == 'VERB'
                        and not any(g.dep_ in ('nsubj', 'nsubjpass', 'expl') for g in c.children)]
         for x in chain:
-            if x.pos_ == 'VERB' and _person_verb(wn, x.lemma_):
-                out.append((tok.text, x.lemma_))
+            if x.pos_ != 'VERB':
+                continue
+            act = x.lemma_ if _person_verb(wn, x.lemma_) else _light_verb_act(wn, x) if x.lemma_ in LIGHT_VERBS else None
+            if act:  # "Fear makes the decision before you've even noticed it" (Joel's ratings, 2026-10-02: 4 of 5)
+                out.append((tok.text, act))
                 break
     return out
 
@@ -522,7 +539,7 @@ def main():
                      'the move to "some people")', s)
             ag = abstract_agents(s)  # None without the parser: then the word list decides
             if (ag if ag is not None else re.search(ABSTRACT_AGENT, s, re.I)):
-                flag('REVIEW', 'O6 a feeling or idea doing what a person does: one of the top tells, not a ban, worst when polished or overused; give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
+                flag('REVIEW', 'O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell ("Grief doesn\'t keep a schedule"); a phrase people say all the time is not (Joel 2026-10-07 23:50: "Modern life trains us" is "so common it\'s almost cliche, it\'s not a witty AI quip"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible', s)
             if re.search(ENOUGH_PAIR, s, re.I):
                 flag('REVIEW', 'O7 polished "X enough to… Y enough to…" pair (Joel 2026-10-02: "devoted enough to practice them and secure enough to disagree" "looks super highly polished")', s)
             if re.search(SMUGGLE_FIG, s, re.I):
