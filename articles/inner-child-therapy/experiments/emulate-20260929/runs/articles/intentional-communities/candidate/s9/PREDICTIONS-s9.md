@@ -226,12 +226,98 @@ Batch 157g (written 01:41 UTC by `date -u`, before the call; `v157.json`): small
 
 | text | mine | why | Pangram (web app) |
 |---|---|---|---|
-| 157g-P9fP10r (111) | AI | P9 is the most formal of the five | |
-| 157g-P10rP11f (106) | Mixed |  | |
-| 157g-P11fP12d2 (107) | Human (weak) | 151g passed with "though" | |
-| 157g-P12d2P13y (164) | Mixed |  | |
-| 157g-P9toP11 (167) | AI |  | |
-| 157g-P11toP13 (220) | Mixed |  | |
-| 157g-P10toP12 (157) | Mixed |  | |
-| 157g-P16b3P17r (165) | AI |  | |
-| 157g-P15f2P16b4 (170) | Human (weak) | inside the passing caption-to-P16 window | |
+| 157g-P9fP10r (111) | AI | P9 is the most formal of the five || AI (100%), 01:42:12 |
+| 157g-P10rP11f (106) | Mixed |  || Mixed (47% AI), 01:42:17: P11 from its second sentence |
+| 157g-P11fP12d2 (107) | Human (weak) | 151g passed with "though" || AI (100%), 01:42:22 |
+| 157g-P12d2P13y (164) | Mixed |  || AI (100%), 01:42:26 |
+| 157g-P9toP11 (167) | AI |  || AI (100%), 01:42:31 |
+| 157g-P11toP13 (220) | Mixed |  || AI (100%), 01:42:38 |
+| 157g-P10toP12 (157) | Mixed |  || AI (100%), 01:42:44 |
+| 157g-P16b3P17r (165) | AI |  || AI (100%), 01:42:49 |
+| 157g-P15f2P16b4 (170) | Human (weak) | inside the passing caption-to-P16 window || Mixed (54% AI), 01:42:53: P16 from its second sentence |
+
+157g (submitted 01:42:12 to 01:42:53 UTC): mine 4 of 9. Every pair inside P9 to P13 reads AI (P10 with P11 at 47%), and so do the triples; P15 with P16 reads 54% AI. Each of these paragraphs passes alone, so each pass is close to the line, and two of them together cross it.
+
+Fresh writers (`review-d4/`, the gate's reviewer-writer order: three fresh Opus writers per group from the published text, Joel's own paragraphs for voice, the owner bans and what Pangram has shown; 01:52 to 02:15 UTC) redrafted the two groups that read AI: P9 to P13, and P16 with P17.
+
+Batch 158g (written 02:16 UTC by `date -u`, before the call; `v158.json`, parts in `fix-d4-parts.json`): each writer's group whole.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 158g-wA1 (313) | AI | fresh writer 1, P9 to P13 as a group; close to the published wording || AI (100%), 02:17:24 |
+| 158g-wA2 (315) | AI | writer 2; sentences reordered || AI (100%), 02:17:28 |
+| 158g-wA3 (319) | AI | writer 3; "I mean," || AI (100%), 02:17:33 |
+| 158g-wB1 (155) | AI | writer 1, P16 with P17; P17 ends on the caveat || AI (100%), 02:17:38 |
+| 158g-wB2 (162) | Mixed | writer 2; P16 opens with the borrowing || AI (100%), 02:17:42 |
+| 158g-wB3 (157) | AI | writer 3 || AI (100%), 02:17:47 |
+
+158g (submitted 02:17:24 to 02:17:47 UTC): mine 5 of 6. All six fresh writers' groups read AI (100%). Held to the published sentences, they wrote close to the published wording, and the writers took 12 to 28 minutes each.
+
+Batch 159g (written 02:18 UTC by `date -u`, before the call; `v159.json`): a diagnostic. Does Emulate's own unedited output read human as a group? If it doesn't either, more splicing from it won't get these groups through.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 159g-emuG-u1A (336) | Human (weak) | Emulate g's raw output for P9 to P13, unedited: a diagnostic, not a candidate (it invents and drops claims) || **Human (100%)**, 02:19:16 |
+| 159g-emuG-u1B (361) | Human (weak) | the same, sample B || **Human (100%)**, 02:19:19 |
+| 159g-emuG-u2A (200) | Human (weak) | raw, P16 with P17 || **Human (100%)**, 02:19:24 |
+| 159g-emuG-u2B (184) | Human (weak) |  || **Human (100%)**, 02:19:29 |
+
+159g (submitted 02:19:16 to 02:19:29 UTC): mine 4 of 4. Emulate's own groups read human whole, invented claims and all, so its texture survives at group length where my word-level rebuilds didn't.
+
+Batch 160g (written 02:22 UTC by `date -u`, before the call; `v160.json`, parts in `fix-v10-parts.json`): Emulate's raw groups read human, so this time its whole text is kept and only the meaning errors are fixed in place (its added "This is interesting", "most", "etc.", "Of course not", the invented book topic and teaching motto out; the published names, modals and claims back), with splits to find any fix that breaks it.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 160g-gA-fixed (329) | Mixed | Emulate g's raw B for P9 to P13 (100% Human) with every meaning error fixed in place, its own syntax kept || AI (100%), 02:22:49 |
+| 160g-gA-fix9to10 (344) | Human (weak) | a split to find which fixes break it: P9 and P10 fixed, P11 to P13 raw || **Human (100%)**, 02:22:53 |
+| 160g-gA-fix11to13 (346) | Mixed | P9 and P10 raw, P11 to P13 fixed || AI (91%), 02:22:58: P9 raw (58 words), and from P10's "And did they publish" to the end |
+| 160g-gB-fixed (177) | Mixed | raw B for P16 with P17, every error fixed || AI (100%), 02:23:03 |
+| 160g-gB-fixed-17e2 (173) | Mixed | P17 from raw A instead || **Human (100%)**, 02:23:07 |
+| 160g-gB-fix16 (167) | Human (weak) | split: P16 fixed, P17 raw || **Human (100%)**, 02:23:12 |
+| 160g-gB-fix17 (194) | Human (weak) | split: P16 raw, P17 fixed || **Human (100%)**, 02:23:17 |
+
+160g (submitted 02:22:49 to 02:23:17 UTC): mine 3 of 7. P16 with P17 passes as a group with every meaning error fixed in place (P17 from raw A: e2). For P9 to P13, the fixes to P9 and P10 keep the group human, and the fixes to P11 to P13 break it.
+
+Batch 161g (written 02:23 UTC by `date -u`, before the call; `v161.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 161g-gA-fix9to11 (336) | Human (weak) | split: P11's fixes alone added || Mixed (52% AI), 02:23:57: from P11's second sentence into P13 |
+| 161g-gA-fix9to10-12 (349) | Human (weak) | split: P12's fixes alone || **Human (100%)**, 02:24:02 |
+| 161g-gA-fix9to10-13 (332) | AI | split: P13's fixes alone; the most changed || AI (100%), 02:24:07 |
+| 161g-gA-fixed-13y (323) | Mixed | all fixed, with my P13y (passes alone) for P13e || AI (100%), 02:24:11 |
+| 161g-P16e (114) | Human (weak) | alone: 114 words || **Human (100%)**, 02:24:16 |
+| 161g-P17e2 (59) | Human (weak) | alone: 59 words || **Human (100%)**, 02:24:20 |
+
+161g (submitted 02:23:57 to 02:24:20 UTC): mine 4 of 6. P16e and P17e2 each pass alone too, so P16 and P17 are settled for Pangram (the trace comes next). In P9 to P13, P12's fixes are safe; P11's (52%) and P13's (100%) break the group, so both get smaller fixes that keep more of Emulate's sentences.
+
+Batch 162g (written 02:25 UTC by `date -u`, before the call; `v162.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 162g-gA-11e3 (349) | Mixed | P11 with Emulate's "long periods of defending what they have" and "in terms of" kept || AI (100%), 02:26:20 |
+| 162g-gA-11e4 (347) | Human (weak) | the same with Emulate's "a note of caution here" kept too || AI (100%), 02:26:23 |
+| 162g-gA-13e4 (350) | Mixed | P13 fixed in place sentence by sentence, its lists split (e3 failed the linter with two lists of three; e4 pairs the four items) || Mixed (29% AI), 02:26:28: from P13's second sentence |
+| 162g-gA-full-11e3 (350) | AI |  || AI (100%), 02:26:33 |
+| 162g-gA-full-11e4 (348) | Mixed |  || AI (100%), 02:26:38 |
+
+162g (submitted 02:26:20 to 02:26:41 UTC): mine 2 of 5. Both P11 fixes still break the group; P13 fixed sentence by sentence gets to 29%, flagged from its second sentence. Next: split P11's fixes (the three invented qualifiers out vs. the dropped trust clause back) and keep more of Emulate's P13 sentences.
+
+Batch 163g (written 02:27 UTC by `date -u`, before the call; `v163.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 163g-gA-11x1 (364) | Human (weak) | diagnostic: raw P11 with only the trust clause added back || AI (100%), 02:27:55 |
+| 163g-gA-11x2 (339) | AI | diagnostic: raw P11 with only its three invented qualifiers out || AI (100%), 02:27:59 |
+| 163g-gA-11e5 (354) | Mixed | both, the trust clause as a plain last sentence || AI (100%), 02:28:04 |
+| 163g-gA-13e5 (350) | Mixed | P13 keeping Emulate's parenthesis and "on the market" placement || Mixed (29% AI), 02:28:08: from P13's second sentence |
+| 163g-gA-full5 (355) | AI |  || AI (100%), 02:28:13 |
+
+163g (submitted 02:27:55 to 02:28:13 UTC): mine 1 of 5. Any change to Emulate's P11 flips the group: adding back only the dropped trust clause (x1) and removing only its three invented qualifiers (x2) each take it from 100% Human to 100% AI. P13 stays at 29% AI from its second sentence. The group passes only while it carries Emulate's inventions ("while in theory applicable to many contexts", "very strong communities", "etc."), so word-level fixing is done here. Under the gate's stop rule this goes to Joel as a structure question (`docs/HUMANIZATION-GATE.md`, step 6).
+
+## Where section 9 stands (02:30 UTC)
+
+- Passes alone, or beside a neighbor that does when under 50 words: every paragraph (155g, 161g).
+- Passes as groups: P1 to P3, P4 to P8, the caption to P16, and P16 with P17 in Emulate-based wordings fixed in place (P16e with P17e2, 160g; each alone too, 161g). Not yet traced: P16e, P17e2.
+- Fails as a group: P9 to P13, in every version tried (my word-level splices, three fresh writers, Emulate's raw output with its errors fixed). So the whole section fails (155g: 82% AI).
+- Traced clean or fixed: P1 to P3, P6, P7, P9f, P10r, P11f, P12d2, P14y2, P15f2, P16b3/b4 (review-d2, review-d3). Not yet run: stance, cold read and the abstract-agent judge on the assembled section.
