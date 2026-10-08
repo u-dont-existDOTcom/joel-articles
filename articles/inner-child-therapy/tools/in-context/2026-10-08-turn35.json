@@ -1,0 +1,688 @@
+{
+ "title": "Turn 35: your fix in place, and the dedup pass",
+ "meta": "Inner Child Therapy · turn 35 (your message of 2026-10-07 23:18 UTC) · saved on the lane, not merged",
+ "intro": [
+  "Your question first: no. I hadn't checked the r4 material against the whole article before drafting it. Each writer and reviewer saw the paragraph before and its own section, so a repeat from further away got through, even though you'd said \"just make sure it's not duplicating stuff\". Now four separate readers have done it: two read the whole article for anything it says twice, and two checked every point of the waiting guide passages against all of it. The full write-up is DEDUP-PASS-20261008.md.",
+  "The page has three parts, each in the article's order. First the waiting drafts, with your fix in Also Look Outward among them. Then two places where I put repeats into the article. Then the repeats elsewhere that both readers expect a reader to notice most. Those went in during earlier turns, some in your words and some in the lanes', so nothing there changes without your OK."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Before You Try to Go Deep: the depth drafts, checked against the whole article (not in)"
+   ],
+   "intro": [
+    "Blue is what the article, or another draft here, already says. Cut, these drafts would carry only what's new in the guide's depth passage: turning the depth down isn't giving up on your little one, and changing the dose isn't failing; a no to the whole inner-child idea is a different thing (drop the words, don't sneak them back in, and looking after yourself goes on in your own words); going shallower, and coming back out to the room in the middle of an exercise if you can't stop and come back, instead of trying one technique after another; an eyes-open hello as the gentle way back in; a full pause as the last resort, made specific, with no peeks, and a return at or below the last level that worked; and settling how a hard session landed before stepping back up (no draft has that one yet).",
+    "The depth and pleasantness passages in the guide share four points (the stop-and-come-back test, eyes open before imagery, making it easier, coming back gradually). Said once instead: the during-a-session steps here, where the guide has them, and the after-a-session read in the pleasantness group."
+   ],
+   "rows": [
+    {
+     "label": "Depth draft 1",
+     "text": "Your little one will still be there later. Some people want out of the whole inner-child idea, though (\"this just isn't me\"), and that's a different thing. If that's you, I wouldn't keep sneaking it back in through some \"gentler\" version, or start calling the dishes reparenting. Looking after yourself and keeping yourself safe can happen in whatever words feel like yours. Same with figuring out where you're headed, and getting support from people.",
+     "after": "How much of the grown-up you is actually here right now?",
+     "source": [
+      {
+       "quote": "That means turning the depth down, not throwing the relationship away—unless you simply do not want to use the inner-child frame.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Alone 100% AI, three tries in turn 34. Cut and redraft.",
+     "repeats": [
+      {
+       "span": "Your little one will still be there later.",
+       "in": "How much of the grown-up you is actually here right now?",
+       "says": "leave the deeper conversation until later",
+       "how": "the paragraph right before it"
+      },
+      {
+       "span": "Your little one will still be there later.",
+       "in": "This part tends to scare the wrong people",
+       "says": "you can wait until you're calm and actually ready"
+      },
+      {
+       "span": "Looking after yourself and keeping yourself safe can happen in whatever words feel like yours.",
+       "in_row": "Isolation draft 1",
+       "says": "you can call that reparenting if you like the word",
+       "how": "the label being optional, said in both groups"
+      }
+     ]
+    },
+    {
+     "label": "Depth draft 2",
+     "text": "If you do want it, and it's just too much at this depth, some people try one technique after another, thinking, \"I just have to push through this.\" I'd go shallower instead. If going inward keeps making it worse, or you're not sure you could stop and come back, I'd put the inward stuff down and come back out to the room. Once you're steadier, there's a harm-reduction saying for this: start low and go slow. Low might be doing one protective thing out in your life, or calling someone who's good for you. Or a short hello to your little one with your eyes open.",
+     "after_row": "Depth draft 1",
+     "source": [
+      {
+       "quote": "If you do want the relationship but a particular depth is too much, preserve the relationship by changing the dose.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Alone 100% AI, three tries in turn 34.",
+     "repeats": [
+      {
+       "span": "I'd go shallower instead.",
+       "in_row": "Pleasantness draft 2",
+       "says": "I'd just make the next one a bit easier",
+       "how": "both lower the challenge"
+      },
+      {
+       "span": "you're not sure you could stop and come back",
+       "in_row": "Pleasantness draft 2",
+       "says": "could you have stopped and come back to the room",
+       "how": "the same test: here during a session, there after it"
+      },
+      {
+       "span": "Once you're steadier, there's a harm-reduction saying for this: start low and go slow.",
+       "in_row": "Pleasantness draft 3",
+       "says": "Bring the challenge back gradually"
+      },
+      {
+       "span": "or calling someone who's good for you",
+       "in": "How much of the grown-up you is actually here right now?",
+       "says": "You may need somebody steady there with you"
+      },
+      {
+       "span": "Or a short hello to your little one with your eyes open.",
+       "in_row": "Pleasantness draft 2",
+       "says": "I'd keep my eyes open next time, before any imagery.",
+       "how": "eyes open before imagery, in both groups"
+      }
+     ]
+    },
+    {
+     "label": "Depth draft 3",
+     "text": "A full pause from your little one is the last thing I'd reach for, but sometimes you need one, for safety or because nothing smaller is working. (Looking after yourself, and seeing the people who are good for you, can keep going.) I'd write down why. Then the last level you could still handle, and what would have to change before you'd go back. Some people keep taking little peeks during a pause, just a quick hello, just a bit of imagery. I'd wait. When that change is there and you want to come back, start at that last level you could handle, or lower.",
+     "after_row": "Depth draft 2",
+     "source": [
+      {
+       "quote": "A complete tolerance pause is a last resort, and a safety problem can require a pause whether or not you want one.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Alone 100% Human (109), on the second try in turn 34. Most of it is new; two bits repeat the other drafts.",
+     "repeats": [
+      {
+       "span": "(Looking after yourself, and seeing the people who are good for you, can keep going.)",
+       "in_row": "Depth draft 1",
+       "says": "Looking after yourself and keeping yourself safe can happen in whatever words feel like yours."
+      },
+      {
+       "span": "When that change is there and you want to come back, start at that last level you could handle, or lower.",
+       "in_row": "Pleasantness draft 3",
+       "says": "Bring the challenge back gradually, and only when you want to and you're recovering well."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Your Body Might Need Some Love First: the pleasantness drafts, checked against the whole article (not in)"
+   ],
+   "intro": [
+    "Cut, these would carry what's new here: how pleasant a session was doesn't tell you whether it was too much (whether it helped is already in When to Change the Strategy); grief, fear, frustration and bad dreams are expected, hard isn't harm, and staying present isn't enough by itself; how the next few days went, whether you want to go back toward it, and whether it felt hard but workable or just too much (no draft has that last one yet); not calling it harm too fast either; one change at a time while you're finding your level, several at once if you're getting worse (shorter, less imagery, better timing, more symbolic, eyes open, more support); coming back gradually, at the edge where you can learn; and dreams and imagery as material about what matters now, not evidence, and not something to suggest or rebuild a memory from."
+   ],
+   "rows": [
+    {
+     "label": "Pleasantness draft 1",
+     "text": "Whatever you try from that map, I wouldn't go by how pleasant a session felt to tell whether it was good for you. This kind of work can bring up grief and fear, and sometimes hard dreams, or stuff you'd rather never have met. A session can also be really intense and get you nowhere. Even staying present the whole time doesn't tell you enough by itself. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.",
+     "after": "When your nervous system is flooded",
+     "source": [
+      {
+       "quote": "Do not use pleasantness as the only safety meter either.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Alone 100% Human (101) in turn 34. (Your embedded map post sits between the paragraph before and this one.)",
+     "repeats": [
+      {
+       "span": "whether it was good for you",
+       "in": "One more thing about telling whether it helped.",
+       "says": "But I wouldn't decide from it that the problem's over",
+       "how": "whether it helped is said there; what's new here is whether it was too much"
+      },
+      {
+       "span": "A session can also be really intense and get you nowhere.",
+       "in": "The crying helped me a lot in terms of not going numb inside.",
+       "says": "I could have kept crying forever.",
+       "how": "your crying story says it"
+      },
+      {
+       "span": "A session can also be really intense and get you nowhere.",
+       "in": "That one can sting",
+       "says": "that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer"
+      }
+     ]
+    },
+    {
+     "label": "Pleasantness draft 2",
+     "text": "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And could you have stopped and come back to the room, if you'd needed to? If not, I'd keep my eyes open next time, before any imagery.) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier, one change at a time, so you learn what made the difference. If you're getting worse, though, change several things at once, and have someone steady with you.",
+     "after_row": "Pleasantness draft 1",
+     "source": [
+      {
+       "quote": "Ask four things: could you stop and return, do you actually want to go back toward it, did it feel difficult-but-workable rather than simply too much or unwanted, and how did you recover afterward in sleep and ordinary functioning?",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Alone 100% Human (122), on the second try in turn 34.",
+     "repeats": [
+      {
+       "span": "could you have stopped and come back to the room",
+       "in_row": "Depth draft 2",
+       "says": "you're not sure you could stop and come back"
+      },
+      {
+       "span": "I'd keep my eyes open next time, before any imagery.",
+       "in_row": "Depth draft 2",
+       "says": "Or a short hello to your little one with your eyes open."
+      },
+      {
+       "span": "I'd just make the next one a bit easier",
+       "in_row": "Depth draft 2",
+       "says": "I'd go shallower instead."
+      },
+      {
+       "span": "have someone steady with you",
+       "in": "How much of the grown-up you is actually here right now?",
+       "says": "You may need somebody steady there with you",
+       "how": "the same point in nearly the same words"
+      }
+     ]
+    },
+    {
+     "label": "Pleasantness draft 3",
+     "text": "Bring the challenge back gradually, and only when you want to and you're recovering well. If you're not sure yet whether you want to, you can wait. Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn. Those dreams and images that come up can show what feels important or frightening right now. Sometimes they show what feels missing, or what feels needed. They aren't evidence that what you saw in them happened, though, and shouldn't be used to confirm a memory or rebuild one. Or to suggest one.",
+     "after_row": "Pleasantness draft 2",
+     "source": [
+      {
+       "quote": "Dreams and imagery can be useful material about what feels important, frightening, missing, or needed now.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Alone 100% Human (107) in turn 34.",
+     "repeats": [
+      {
+       "span": "Bring the challenge back gradually, and only when you want to and you're recovering well.",
+       "in_row": "Depth draft 3",
+       "says": "start at that last level you could handle, or lower"
+      },
+      {
+       "span": "If you're not sure yet whether you want to, you can wait.",
+       "in": "This part tends to scare the wrong people",
+       "says": "you can wait until you're calm and actually ready"
+      },
+      {
+       "span": "They aren't evidence that what you saw in them happened, though, and shouldn't be used to confirm a memory",
+       "in": "For some people it only stops feeling fake",
+       "says": "They can feel totally real, but that alone doesn't prove they happened.",
+       "how": "said there for memories in an altered state; what's new is dreams and session imagery, and not suggesting or rebuilding a memory"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "### Also Look Outward: your fix, in place (in the article)"
+   ],
+   "intro": [
+    "Highlighted words are your changes since the last page. Pangram 4.0, dashboard: your three paragraphs alone 100% Human (80, 88 and 105 words; the repair line is 14 words, too short to check alone), Your Body Might Need Some Love First 100% Human (2,181), Before You Try to Go Deep 100% Human (3,005).",
+    "C1 is the last paragraph of this section, right after the apology paragraph, so what the last page showed around it was right. It came from your queue item PGQ-002, and I put it here in turn 31 as the third kind of relationship the section looks at: after the people you fight with and the ones you've hurt, people you're just getting to know. The last page called it \"C1, PGQ-002 (in)\" and gave no source, so it didn't say what it was or where it came from. Each row now says what the paragraph is, and paragraphs in the article show their source too.",
+    "The notes under your paragraphs list what the dedup readers found they share with the rest of this section and the one before. These are your words, so nothing is cut; the dedup write-up has my take on each."
+   ],
+   "rows": [
+    {
+     "label": "Also Look Outward, first paragraph: \"your happy place\"",
+     "article": "Once you're in your happy place",
+     "source": [
+      {
+       "quote": "Not every hook is mainly old material. Before analyzing the child or protector, also notice what the other person is actually doing.",
+       "from": "the guide original (Substack), Also Look Outward"
+      }
+     ],
+     "note": "Your edit (turn 35). It picks up \"You can defer that judgement for when you're in your happy place.\" from your boundary paragraph, a few paragraphs up."
+    },
+    {
+     "label": "Your relationship paragraph, as you fixed it",
+     "article": "If a relationship keeps making you feel less safe",
+     "source": [
+      {
+       "quote": "Leave a relationship that keeps eroding safety.",
+       "from": "the 2026-10-04 r4 guide, in Make the Protector Visible"
+      },
+      {
+       "quote": "And you do not need repeated exposure to danger before protecting yourself.",
+       "from": "the guide original (Substack), Also Look Outward"
+      }
+     ],
+     "note": "Yours, word for word.",
+     "repeats": [
+      {
+       "span": "get safe first",
+       "in": "The opposite extreme of our pendulum",
+       "says": "step away or get checked first",
+       "how": "the same safety rule, for a different case: here they've hurt or threatened you"
+      }
+     ]
+    },
+    {
+     "label": "Your repair line",
+     "article": "If you really did hurt them, repair it.",
+     "source": [
+      {
+       "quote": "Did you cause harm that needs repair, or are you abandoning your position to make their disappointment go away?",
+       "from": "the guide original (Substack), Also Look Outward"
+      }
+     ],
+     "note": "Yours, word for word."
+    },
+    {
+     "label": "Your apology paragraph, as you fixed it",
+     "article": "You can mean the apology for a start.",
+     "source": [
+      {
+       "quote": "Notice your side too. Feeling guilty does not prove that you did something wrong; it also does not prove that somebody manipulated you.",
+       "from": "the guide original (Substack), Also Look Outward"
+      },
+      {
+       "quote": "You do not have to make somebody understand you before you can act.",
+       "from": "the guide original (Substack), Also Look Outward"
+      }
+     ],
+     "note": "Yours, word for word.",
+     "repeats": [
+      {
+       "span": "Maybe your first explanation sucked. Try again.",
+       "in": "If it's the first, it can seem like",
+       "says": "it can seem like you haven't explained yourself well enough yet. You probably have",
+       "how": "opposite advice for a different case: there they never hear you; here you hurt them and are apologizing"
+      },
+      {
+       "span": "Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.",
+       "in": "Here's where I want to clearly depart",
+       "says": "Just because your stomach tightened up doesn't mean",
+       "how": "the same move (a feeling isn't a verdict), here for guilt; the guide has it in this section"
+      }
+     ]
+    },
+    {
+     "label": "Your rewrite of C1 (from your queue item PGQ-002)",
+     "article": "Then there are people you're just getting to know.",
+     "source": [
+      {
+       "quote": "Social practice can also become a performance test. If you are approaching people mainly to prove that you are normal, attractive, lovable, sexually or romantically certain, or capable of intimacy, the other person has become part of the test.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Yours, word for word, with your double hyphen.",
+     "repeats": [
+      {
+       "span": "or that you're sure what you want",
+       "in": "Feelings about yourself work the same way.",
+       "says": "it doesn't settle who you are, or who you love",
+       "how": "a light echo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "### Also Look Outward: the isolation drafts and C2, after your C1 (not in)"
+   ],
+   "intro": [
+    "What's new here: being alone with it as part of the wound, and reaching toward people as the grown-up's care, with the word \"reparenting\" optional; not having to get yourself sorted first (the guide's examples besides texting: setting up the visit, asking the social worker, walking into a room where people share something real); C2's honesty points (none of them is in the article yet); other people aren't a reassurance machine, and support goes both ways (no draft has these yet); more than one place to belong, keeping the good people, not every door opening; and the Protector on groups."
+   ],
+   "rows": [
+    {
+     "label": "Isolation draft 1",
+     "text": "Maybe part of what your little one went through was being alone with it. Then reaching toward people can be part of this work too, and you can call that reparenting if you like the word. Some people figure, \"I'll get myself sorted out first, and then I'll be fit company for anybody.\" I don't think a decent parent would ask that of a lonely kid. So sometimes the grown-up thing to do is just to text someone first.",
+     "after": "Then there are people you're just getting to know.",
+     "source": [
+      {
+       "quote": "If isolation itself is part of the wound, reaching toward people may be one way the adult side provides care.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Alone 100% AI, three tries in turn 34.",
+     "repeats": [
+      {
+       "span": "you can call that reparenting if you like the word",
+       "in_row": "Depth draft 1",
+       "says": "Looking after yourself and keeping yourself safe can happen in whatever words feel like yours."
+      },
+      {
+       "span": "So sometimes the grown-up thing to do is just to text someone first.",
+       "in": "Sometimes it's the exercise that works.",
+       "says": "like texting a friend that you're having a rough day instead of saying you're fine",
+       "how": "the same example for the same move"
+      }
+     ]
+    },
+    {
+     "label": "Honesty draft (C2)",
+     "text": "And reaching out doesn't mean telling strangers everything. Privacy isn't fakery. People can earn more of you by how they handle the smaller things you tell them, and how they take it when you say no. But if a relationship is getting deep and you're still keeping up a fake normal, happy version of yourself to hold onto it, I'd either bring more of the truth in, carefully, or let it be less deep for now. (If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first.) And when someone finally accepts you, it can feel amazing. It still doesn't prove you're meant for each other, or that they've earned your trust yet.",
+     "after_row": "Isolation draft 1",
+     "source": [
+      {
+       "quote": "Honesty does not mean total disclosure to strangers. Privacy is not fakery.",
+       "from": "the 2026-10-04 r4 guide"
+      },
+      {
+       "quote": "privacy is not fakery; total disclosure is not required.",
+       "from": "your update queue (2026-10-06 r2), PGQ-003"
+      }
+     ],
+     "note": "Alone 100% Human (130) in turn 34. Nothing in it is said elsewhere; only one light echo.",
+     "repeats": [
+      {
+       "span": "how they take it when you say no",
+       "in": "Once you're in your happy place",
+       "says": "Or can they hear you disagree and look at their own part?",
+       "how": "light: there it's someone you already know, after a fight"
+      }
+     ]
+    },
+    {
+     "label": "Isolation draft 2",
+     "text": "I'd look for more than one place to belong, too. One partner or one therapist can't be all of it, and if they're busy or gone, you'd be left with nobody. Keep the good people you've got, and then maybe add a spiritual community that fits you, or a class you keep showing up to. Not every one of them has to click. But if a group makes you feel more wanted than you've ever felt, and then someone there starts saying your old friends are holding you back, I'd let the Protector handle that one, and keep your other people, even if it means not going back.",
+     "after_row": "Honesty draft (C2)",
+     "source": [
+      {
+       "quote": "Look for more than one door",
+       "from": "the 2026-10-04 r4 guide"
+      },
+      {
+       "quote": "Use the Protector here too. A community is not automatically good because it offers belonging.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Alone 100% AI, three tries in turn 34. Nothing in it is said elsewhere in the article."
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# The Chicken-and-Egg Problem: my PGQ-012 paragraph and the end of the article (in)"
+   ],
+   "intro": [
+    "Both came from your queue, PGQ-012 for the stages and PGQ-013 for When to Change the Strategy, and both say a session has to carry into the rest of your life. Both examples are self-care over overwork too. My lean: keep this short one where your queue put it, and it's your call."
+   ],
+   "rows": [
+    {
+     "label": "My stages paragraph (PGQ-012, turn 31)",
+     "article": "Whichever stage you're at",
+     "source": [
+      {
+       "quote": "Each stage eventually has to leave the exercise.",
+       "from": "your update queue (2026-10-06 r2), PGQ-012"
+      }
+     ],
+     "note": "Mine. Alone 100% Human (62).",
+     "repeats": [
+      {
+       "span": "but you also have to start actually doing some of it in the rest of your life",
+       "in": "Sometimes it's the exercise that works.",
+       "says": "Whatever you did for your little one in there, I'd try a tiny bit of it out here",
+       "how": "the fuller version, at the end of the article"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Start With Whatever Showed Up: my PGQ-004 paragraphs repeat the safety lines (in the article since turns 32 and 34)"
+   ],
+   "intro": [
+    "These went in without a whole-article check. Your paragraph right before them already ends with \"(if you're in danger, get safe first)\", and your B2 in Catch the Hook has the medical check and the no to touch. I'd cut my danger sentence, and keep a doctor line that stands on its own, then check it alone, in Start With Whatever Showed Up and in When the Adult Voice Feels Fake. Not done yet: tell me if you'd rather keep it."
+   ],
+   "rows": [
+    {
+     "label": "My anxiety paragraph (PGQ-004, turn 34)",
+     "article": "Anxiety deserves the same kind of listening.",
+     "source": [
+      {
+       "quote": "Anxiety deserves the same respect without becoming an oracle.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Mine. Alone 100% Human (118).",
+     "repeats": [
+      {
+       "span": "If it might be real danger, though, I'd get some distance first, and find out how right it was later.",
+       "in": "Or if you do get an answer, it could come in different forms",
+       "says": "(if you're in danger, get safe first)",
+       "how": "your paragraph right before this one"
+      },
+      {
+       "span": "Same with something a doctor should look at.",
+       "in": "The opposite extreme of our pendulum",
+       "says": "or might be a medical warning sign: step away or get checked first",
+       "how": "your B2, in Catch the Hook"
+      }
+     ]
+    },
+    {
+     "label": "My second PGQ-004 paragraph (turn 32)",
+     "article": "Some of it I wouldn't test at all",
+     "source": [
+      {
+       "quote": "But do not turn that into permission to push past a protector’s no to deeper processing or altered-state work, or past hesitation about touch or sex.",
+       "from": "the 2026-10-04 r4 guide"
+      }
+     ],
+     "note": "Mine. Alone 100% Human (61). It adds sex, going deeper and altered states, so I'd keep it.",
+     "repeats": [
+      {
+       "span": "If a part hesitates about being touched or about sex, that's enough to stop.",
+       "in": "The opposite extreme of our pendulum",
+       "says": "if you don't want to be touched, say no now and work out what it means later",
+       "how": "your B2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# The Chicken-and-Egg Problem: stage 3 says the paragraph before the stages again (in)"
+   ],
+   "rows": [
+    {
+     "label": "The five stages",
+     "article": "For now, I think of it in five",
+     "source": [
+      {
+       "quote": "The adult apprentice: care for the child together with support and do at least one part yourself.",
+       "from": "the guide original (Substack)"
+      }
+     ],
+     "note": "Stage 3 restates the borrowed-adulthood paragraph two paragraphs up.",
+     "repeats": [
+      {
+       "span": "do at least one part of caring for yourself while support is still there from the previous step",
+       "in": "Sometimes somebody else may have to do one part",
+       "says": "try one piece yourself while they're still helping with the rest"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# My Journey: \"well-loved\", twice in a row (in)"
+   ],
+   "rows": [
+    {
+     "label": "My Journey, the love paragraph",
+     "article": "I wasn't lacking love.",
+     "source": [
+      {
+       "quote": "My own version was strange. I was well-loved as a child, but from age twelve to twenty-six I was depressed and cried every night from feeling the pain of the world.",
+       "from": "the guide original (Substack)"
+      }
+     ],
+     "note": "The paragraph right before says it; what's new here starts at \"I found more in Buddhist teachings\".",
+     "repeats": [
+      {
+       "span": "I wasn't lacking love. My parents had given me a lot of it.",
+       "in": "I was well-loved as a child",
+       "says": "I was well-loved as a child"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## When the Present-Day Adult Is Dangerous to the Child: \"the inner child stays out of it\", four times (in)"
+   ],
+   "rows": [
+    {
+     "label": "The loving-kindness paragraph",
+     "article": "The Buddha also told his son",
+     "source": [],
+     "note": "Both readers: the same point four times in six paragraphs (also \"why would you bring your inner child into the middle of them?\").",
+     "repeats": [
+      {
+       "span": "For these folks it starts with the grown-up they are now, though, and their little one stays out of it.",
+       "in": "I've been writing this whole guide",
+       "says": "For such folks, inner child therapy is clearly not the place to start."
+      },
+      {
+       "span": "For these folks it starts with the grown-up they are now, though, and their little one stays out of it.",
+       "in": "And if somebody actually wonders",
+       "says": "the inner child can wait"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "### When Healing Turns Into Checking: grieving it \"correctly\", twice in a row (in)"
+   ],
+   "rows": [
+    {
+     "label": "Checking, second paragraph",
+     "article": "Going back can still matter",
+     "source": [
+      {
+       "quote": "A real wound and an unhelpful response to it can coexist. You may still have grief to feel while repeatedly checking whether you have grieved correctly.",
+       "from": "the guide original (Substack)"
+      }
+     ],
+     "note": "Back to back; the second adds the search for certainty.",
+     "repeats": [
+      {
+       "span": "Spending all day asking, \"Did I process it properly? Did I grieve it enough?\"",
+       "in": "You can get hooked on healing too.",
+       "says": "checking it for the hundredth time to see whether you've finally grieved it correctly"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Borrow Love—or Borrow the Perspective of Care: Mr. Rogers, two paragraphs apart (in)"
+   ],
+   "rows": [
+    {
+     "label": "Borrow Love, the warmth paragraph",
+     "article": "Most of us wouldn't open up to somebody",
+     "source": [],
+     "note": "He's also in stage 2 of the opening map.",
+     "repeats": [
+      {
+       "span": "If nobody comes to mind, you can look to examples like Mr. Rogers",
+       "in": "A complete ideal parent may be impossible to imagine",
+       "says": "Even Mr. Rogers could help here"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Borrow One Competency at a Time: the angry-text pause, the third time (in)"
+   ],
+   "rows": [
+    {
+     "label": "The Protector paragraph",
+     "article": "For protecting, ask what a minimally competent adult would do here.",
+     "source": [
+      {
+       "quote": "Borrowed Protector: “What would a minimally competent adult do in the next ten minutes?” Eat, lock the door, stop replying, leave the unsafe room, ask for help, or go to sleep.",
+       "from": "the guide original (Substack)"
+      }
+     ],
+     "note": "Both readers put this among the repeats a reader would notice most: Catch the Hook, then Write It. Don't Send It Yet., then here.",
+     "repeats": [
+      {
+       "span": "If you're about to send an angry text, hit pause.",
+       "in": "If you've got something burning you up",
+       "says": "But don't send it."
+      },
+      {
+       "span": "If you're about to send an angry text, hit pause.",
+       "in": "When you catch it, look around",
+       "says": "take a breath or three before you finish whatever you were doing"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Love Doesn't Have to Wait for Trust: \"I believe you, I still love you\", twice in five paragraphs (in)"
+   ],
+   "rows": [
+    {
+     "label": "The second round",
+     "article": "The love can stay, and your little one might still come back",
+     "source": [
+      {
+       "quote": "“Okay. I believe that you don’t believe me. I still love you. You don’t have to love me back. Tell me what feels unsafe.”",
+       "from": "the guide original (Substack)"
+      }
+     ],
+     "note": "A third time, as a point, in \"Your little one has their own version of that last question\".",
+     "repeats": [
+      {
+       "span": "I believe that you don't believe me. I still love you.",
+       "in": "The love can go first, though",
+       "says": "\"I believe you. And I love you.\"",
+       "how": "the second round adds \"Tell me what feels unsafe.\""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "### Hear the Protective Part First: the same move as Start With Whatever Showed Up (in)"
+   ],
+   "rows": [
+    {
+     "label": "Hear the Protective Part First, second paragraph",
+     "article": "That one can sting",
+     "source": [
+      {
+       "quote": "Only after the protective layer feels heard does the inner child often come forward. Push past the guards and you may produce a convincing performance of inner-child pl/ork—the right words, the right visualization, perhaps even the right tears—while nothing underneath feels safer.",
+       "from": "the guide original (Substack)"
+      }
+     ],
+     "note": "Both readers: speak kindly to the part, don't force past it, listen; this section re-teaches it with a new script.",
+     "repeats": [
+      {
+       "span": "If you push past it, you might get exactly the performance it was afraid of.",
+       "in": "You can tell that part something like",
+       "says": "I'm not going to force my way past you."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

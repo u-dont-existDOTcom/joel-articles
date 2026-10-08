@@ -30,6 +30,14 @@ The commands:
   reviewer.py march DRAFT OUT               the marching-order check (march.txt): a reader labels each
                                             sentence a step or a break; give it to a "sonnet" subagent
   reviewer.py march-score DRAFT LABELS      reads that reader's answer and flags a paragraph with no break
+  reviewer.py dedup OUT TARGET [TARGET ...] [--draft TARGET=FILE ...] [--report PATH]
+                                            the whole-article dedup check (dedup.txt, E151): every point of each
+                                            target's guide passage against the whole article and against the
+                                            other targets, SAID / PARTLY / NEW, and what's left to add. Run it
+                                            before drafting, and again with the drafts; give it to an "opus" subagent
+  reviewer.py repeats OUT --article A [--focus TEXT] [--report PATH]
+                                            the whole-article repeat check (repeats.txt, E151): every point the
+                                            article makes twice, and contradictions
 
 TARGET is a JSON file with "before", "after" and "brief". Each article keeps its own targets
 (Inner Child: articles/inner-child-therapy/tools/targets/).
@@ -445,6 +453,61 @@ def build_grounding(draft, target, blind=False, push=None):
     return g
 
 
+EMBED = re.compile(r'<!--\s*Native Substack embed[^"]*"([^"]+)"[^>]*-->')
+
+
+def numbered_article(path):
+    """The whole article as a reader sees it, each block numbered [B#] for the dedup checks (E151). An
+    embedded post (a "Native Substack embed" note, or a bare Substack URL on its own line) becomes a
+    bracketed note, so the paragraph that introduces it doesn't seem to dangle."""
+    s = pathlib.Path(path).read_text(encoding='utf-8')
+    s = EMBED.sub(lambda m: '\n\n[Embedded post by the author: "%s"]\n\n' % m.group(1), s)
+    s = re.sub(r'<!--.*?-->', '', s, flags=re.S)
+    out = []
+    for p in (x.strip() for x in re.split(r'\n\s*\n', s) if x.strip()):
+        if p.startswith('> **Working review') or re.match(r'# [^\n]*humanized article so far', p):
+            continue
+        if re.fullmatch(r'https://substack\.com/\S+', p):
+            p = '[Embedded Substack note by the author, shown as a preview card]'
+        out.append('[B%d] %s' % (len(out), p))
+    return '\n\n'.join(out)
+
+
+def report_line(report):
+    return ('Write your findings to %s with the Write tool, in plain English, and reply with one line of counts.' % report
+            if report else 'Return your findings as your final message, in plain English.')
+
+
+def build_dedup(targets, drafts=None, report=None, article=None):
+    """The whole-article dedup check for new material (E151): every guide point of every target, against the
+    whole article and against each other, before drafting (and again with the drafts). drafts maps a target's
+    file name (without .json) to its drafts."""
+    drafts, groups, art = drafts or {}, [], None
+    for n, tp in enumerate(targets, 1):
+        t = json.loads(pathlib.Path(tp).read_text(encoding='utf-8'))
+        art = art or numbered_article(article or article_or_source(t, 'article'))
+        flat, tail = re.sub(r'\s+', ' ', art), re.sub(r'\s+', ' ', (t.get('cut') or t['before']).strip())[-80:]
+        k = flat.rfind(tail)
+        where = re.findall(r'\[B(\d+)\]', flat[:k])[-1:] if k >= 0 else []
+        g = ['GROUP %d (%s): would go right after [B%s]' % (n, pathlib.Path(tp).stem, where[0]) if where
+             else 'GROUP %d (%s): its place is given in the brief' % (n, pathlib.Path(tp).stem)]
+        g.append('The guide passage:\n\n' + re.sub(r'^The [^\n]*\(the passage this carries\):\n', '', t['guide_passage'].strip()))
+        d = drafts.get(pathlib.Path(tp).stem)
+        g.append('The drafts:\n\n' + d.strip() if d else '(No drafts yet: list the points and what is left to add.)')
+        groups.append('\n\n'.join(g))
+    return (read('dedup.txt').replace('{report}', report_line(report)).replace('{article}', art)
+            .replace('{groups}', '\n\n---\n\n'.join(groups)))
+
+
+def build_repeats(article, focus=None, report=None):
+    """The whole-article repeat check (E151): every point the article makes more than once."""
+    f = ('WHERE TO LOOK HARDEST\n\n%s was put together from several sources at different times, so check every block there '
+         'against every other block there, and against the rest of the article. Then check the rest of the article against '
+         'itself.' % focus) if focus else ''
+    return (read('repeats.txt').replace('{focus}', f).replace('{report}', report_line(report))
+            .replace('{article}', numbered_article(article)))
+
+
 def march_paragraphs(t):
     """The draft's paragraphs that have sentences (headings and quotes-only lines are skipped)."""
     out = []
@@ -522,6 +585,13 @@ def main():
     s = cmd('score'); s.add_argument('key'); s.add_argument('answers', nargs='+')
     s = cmd('march'); s.add_argument('draft'); s.add_argument('out')
     s = cmd('march-score'); s.add_argument('draft'); s.add_argument('labels')
+    s = cmd('dedup'); s.add_argument('out'); s.add_argument('targets', nargs='+')
+    s.add_argument('--draft', action='append', default=[], metavar='TARGET=FILE',
+                   help="a target's drafts (TARGET is its file name without .json); repeat for each")
+    s.add_argument('--report', help='a path the reader writes its findings to (default: its final message)')
+    s = cmd('repeats'); s.add_argument('out')
+    s.add_argument('--focus', help='the part of the article to check hardest, e.g. \'"# Before You Try to Go Deep" ([B32] to [B77])\'')
+    s.add_argument('--report', help='a path the reader writes its findings to (default: its final message)')
     a = ap.parse_args()
     PATHS['article'], PATHS['source'] = a.article, a.source
     rd = lambda f: pathlib.Path(f).read_text(encoding='utf-8').strip()
@@ -549,6 +619,16 @@ def main():
         write(a.out, build_march(rd(a.draft)))
     elif a.cmd == 'march-score':
         sys.exit(march_score(rd(a.draft), rd(a.labels)))
+    elif a.cmd == 'dedup':
+        drafts = {}
+        for d in a.draft:
+            k, _, f = d.partition('=')
+            drafts[k] = rd(f)
+        write(a.out, build_dedup(a.targets, drafts, a.report, PATHS['article']))
+    elif a.cmd == 'repeats':
+        if not PATHS['article']:
+            sys.exit('reviewer.py repeats: give --article PATH')
+        write(a.out, build_repeats(PATHS['article'], a.focus, a.report))
 
 
 if __name__ == '__main__':

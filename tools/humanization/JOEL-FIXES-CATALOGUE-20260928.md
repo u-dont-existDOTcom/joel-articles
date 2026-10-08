@@ -485,3 +485,16 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
 - 15:44: "so whenever you give me the in-context side by side, you need to actuallly give me the context in that page so i can understand what's coming from what. i'm not telling you to take out "still" i'm asking to see the whole context there" (E145)
 - 15:27: "i don't mind fixing things if you're learning from my fixes, but if doing it yourself helps you learn better then you should do that."
 - 16:06: "oh sorry now i didn't mean for you to merge stuff that was not even finished, you didn't even show me the context, that's what i asked you to do" (E147: nothing was merged; "continue" is a merge OK only for finished work he has seen).
+
+## Joel's fixes and notes, 2026-10-07 23:18 UTC (the Also Look Outward run, C1's context, the dedup)
+
+- **"your happy place":** "change it to "Once you're in your happy place"" (Also Look Outward's opening; it was "that happy place").
+- **C1's context (E152):** "starting with C1, PGQ-002 (in) i was confused about what the context was for that. looks like it followed the thing before it but i guess that's not accurate." It does follow the apology paragraph; the page's code label and empty source cell were the problem.
+- **His fix of the run (E153):** "Here i fixed the red sections for you, this is human high conf learn some lessons". Four paragraphs, word for word:
+  - the relationship paragraph's third clause became "Might it be due to…? (If so, you're reading the right guide!)";
+  - "If you really did hurt them, repair it. Also easier said than done, but...";
+  - "You can mean the apology for a start." … "And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it." … "nor does it prove they're manipulating you.";
+  - C1: "First impressions are everything," as they say, but it could be even worse than that; "I'm giving you permission now to quit school and flunk the tests."; "who this person is, and who you are … in the beautiful present", and the closing question cut.
+  Pangram: alone 100% Human (80, 88, 105); the h2 (2,181) and the h1 (3,005) 100% Human.
+- **The dedup (E151):** "but some of that looked like it was duplicating other stuff from before like also look outward and the section before. did you make the dedup pass before trying to humanize? i'm a little confused". No: `articles/inner-child-therapy/DEDUP-PASS-20261008.md`.
+- No "continue".

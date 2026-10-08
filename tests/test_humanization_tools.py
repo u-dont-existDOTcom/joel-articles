@@ -229,6 +229,41 @@ class InContextPageShowsContext(unittest.TestCase):
         self.assertIn('Where it goes: Title › Section', out)
 
 
+class InContextPageShowsRepeats(unittest.TestCase):
+    """Joel, 2026-10-07 23:18: "some of that looked like it was duplicating other stuff from before ... did you make the
+    dedup pass before trying to humanize?" A dedup note names where the article already says it, with its words."""
+    ARTICLE = InContextPageShowsContext.ARTICLE
+    render = InContextPageShowsContext.render
+
+    def row(self, **repeat):
+        return {'label': 'B1', 'text': 'A new paragraph that ends the thought again.', 'source': [],
+                'after': 'An installed paragraph', 'repeats': [repeat]}
+
+    def test_a_repeat_is_marked_and_says_where(self):
+        rc, out = self.render([self.row(span='ends the thought again', says='ends the thought', how='same point',
+                                        **{'in': 'The paragraph before'})])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('<span class="dup">ends the thought again</span>', out)
+        self.assertIn('Already in the article, in Title › Section: “ends the thought” (same point)', out)
+
+    def test_a_quote_that_isnt_there_stops_the_page(self):
+        rc, out = self.render([self.row(span='ends the thought again', says='starts the thought', **{'in': 'The paragraph before'})])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('not in that paragraph', out)
+
+    def test_a_span_that_isnt_in_the_row_stops_the_page(self):
+        rc, out = self.render([self.row(span='begins the thought', says='ends the thought', **{'in': 'The paragraph before'})])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('not in the row', out)
+
+    def test_a_repeat_between_two_drafts(self):
+        rc, out = self.render([{'label': 'B1', 'text': 'First new paragraph about the thought.', 'source': [], 'after': 'An installed paragraph'},
+                               {'label': 'B2', 'text': 'Again, about the thought.', 'source': [], 'after_row': 'B1',
+                                'repeats': [{'span': 'about the thought', 'in_row': 'B1', 'says': 'about the thought'}]}])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('Also in B1, on this page: “about the thought”', out)
+
+
 class StanceCheckPrompt(unittest.TestCase):
     def test_prompt_holds_both_texts_and_the_job(self):
         essay = '# Essay\n\n[image 1](https://example.com/x.png)\n\nI want people to arrive largely healed.\n'
@@ -260,3 +295,43 @@ class StanceCheckPrompt(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class DedupPrompts(unittest.TestCase):
+    """E151 (2026-10-08): new material is checked against the whole article, not just its neighbors (Joel, 2026-10-07 01:09:
+    "just make sure it's not duplicating stuff"; 23:18: "did you make the dedup pass before trying to humanize?")."""
+    ARTICLE = ('# Title — humanized article so far\n\n# Part One\n\nThe first paragraph says to wait until you are calm.\n\n'
+               "Here's a map:\n\n<!-- Native Substack embed from source, unchanged: \"The Map\" (https://example.com/map). -->\n\n"
+               '## Later\n\n<!-- a working note -->\n\nA later paragraph.\n\nhttps://substack.com/profile/1-x/note/c-2\n')
+
+    def run_cmd(self, *args, target=None):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ARTICLE, encoding='utf-8')
+            (d / 't_one.json').write_text(json.dumps({
+                'before': 'The first paragraph says to wait until you are calm.',
+                'guide_passage': 'The 2026-10-04 r4 guide (the passage this carries):\nWait until you are calm. Keep a friend near.'}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'reviewer' / 'reviewer.py'), '--article', str(d / 'a.md')] +
+                               [x.replace('T1', str(d / 't_one.json')).replace('OUT', str(d / 'o.txt')) for x in args],
+                               capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stderr)
+            return (d / 'o.txt').read_text(encoding='utf-8')
+
+    def test_the_whole_article_is_numbered_with_its_embeds(self):
+        p = self.run_cmd('repeats', 'OUT', '--focus', '"# Part One"')
+        self.assertIn('[B0] # Part One', p)
+        self.assertIn('[Embedded post by the author: "The Map"]', p)
+        self.assertIn('[Embedded Substack note by the author, shown as a preview card]', p)
+        self.assertNotIn('working note', p)
+        self.assertNotIn('humanized article so far', p)
+        self.assertIn('"# Part One" was put together from several sources', p)
+        self.assertIn('Return your findings as your final message', p)
+
+    def test_each_group_says_where_it_goes_and_carries_its_passage(self):
+        p = self.run_cmd('dedup', 'OUT', 'T1', '--report', '/tmp/r.md')
+        self.assertIn('GROUP 1 (t_one): would go right after [B1]', p)
+        self.assertIn('Wait until you are calm. Keep a friend near.', p)
+        self.assertNotIn('(the passage this carries)', p)
+        self.assertIn('(No drafts yet', p)
+        self.assertIn('/tmp/r.md', p)
+        self.assertLess(p.index('THE ARTICLE'), p.index('GROUP 1'))

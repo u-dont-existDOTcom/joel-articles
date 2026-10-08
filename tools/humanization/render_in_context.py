@@ -62,6 +62,17 @@ and the paragraph or heading right after it. A row in ARTICLE ("article") or a p
 A candidate without a place stops the page, so it can't go out without its context; a row
 that isn't article text at all (a link, a note) can say "place": "none". --context N shows N
 paragraphs on each side (default 1).
+
+Repeats (2026-10-08; Joel, 2026-10-07 23:18: "some of that looked like it was duplicating other
+stuff from before ... did you make the dedup pass before trying to humanize?"). A row can list
+what in it the article, or another row, already says:
+  "repeats": [{"span": "words in this row", "in": "start of the ARTICLE paragraph that says it",
+               "says": "the words there", "how": "optional: same point, same words"}]
+Use "in_row": "label of another row" instead of "in" for a repeat between two drafts. The span is
+marked blue, and a note gives the section and the words that already say it. Every span and every
+"says" has to be in its text, or the page stops: a dedup note can't quote something that isn't
+there. (On a row that shows a diff, the spans aren't marked, and the notes still list them.)
+A block can have "intro": ["a paragraph shown under its headings", ...].
 """
 import argparse, difflib, html, json, math, pathlib, re, subprocess, sys
 
@@ -71,9 +82,9 @@ LIST_LINE = re.compile(r'^(\d+\.|[-*+]) ', re.M)
 BR = '\u00b6'  # a line break inside a paragraph with a list; a word of its own, so diffs keep it
 
 CSS = """
-:root{--bg:#fbfaf7;--fg:#1f1d1a;--mute:#6b665e;--line:#e3ded4;--card:#fff;--mark:rgba(240,190,60,.35);--flag:rgba(255,86,48,.16);--link:#2f5fa7}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#171614;--fg:#ece8e1;--mute:#a39d93;--line:#34312c;--card:#201e1b;--mark:rgba(240,190,60,.28);--flag:rgba(255,86,48,.25);--link:#8fb4ee}}
-:root[data-theme=dark]{--bg:#171614;--fg:#ece8e1;--mute:#a39d93;--line:#34312c;--card:#201e1b;--mark:rgba(240,190,60,.28);--flag:rgba(255,86,48,.25);--link:#8fb4ee}
+:root{--bg:#fbfaf7;--fg:#1f1d1a;--mute:#6b665e;--line:#e3ded4;--card:#fff;--mark:rgba(240,190,60,.35);--flag:rgba(255,86,48,.16);--dup:rgba(60,130,230,.14);--dupline:#3c82e6;--link:#2f5fa7}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#171614;--fg:#ece8e1;--mute:#a39d93;--line:#34312c;--card:#201e1b;--mark:rgba(240,190,60,.28);--flag:rgba(255,86,48,.25);--dup:rgba(90,150,240,.22);--dupline:#7fb0f5;--link:#8fb4ee}}
+:root[data-theme=dark]{--bg:#171614;--fg:#ece8e1;--mute:#a39d93;--line:#34312c;--card:#201e1b;--mark:rgba(240,190,60,.28);--flag:rgba(255,86,48,.25);--dup:rgba(90,150,240,.22);--dupline:#7fb0f5;--link:#8fb4ee}
 body{background:var(--bg);color:var(--fg);font:17px/1.6 Georgia,serif;margin:0;padding:24px 16px}
 main{max-width:1100px;margin:0 auto} h1,h2,h3{font-family:system-ui,sans-serif;line-height:1.25}
 a{color:var(--link)}
@@ -83,6 +94,7 @@ a{color:var(--link)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;overflow-wrap:anywhere}
 .lbl{font:600 13px/1.3 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}
 .mark{background:var(--mark);border-radius:3px;padding:0 2px} .flag{background:var(--flag);border-radius:3px;padding:0 2px}
+.dup{background:var(--dup);border-bottom:2px dotted var(--dupline);border-radius:3px;padding:0 2px}
 del{color:var(--mute);text-decoration-thickness:1px}
 .notes{font:15px/1.5 system-ui,sans-serif;margin:8px 0 0;padding-left:20px} .notes li{margin:4px 0}
 .block{margin-top:28px}
@@ -175,6 +187,57 @@ def flag_html(text, span):
         sys.exit('flag span not in its text: %r' % span[:60])
     return (html.escape(text[:i]) + '<span class="flag">%s</span>' % html.escape(span)
             + html.escape(text[i + len(span):]))
+
+
+def spans_html(text, spans):
+    """text with each (span, css class) wrapped. Every span has to be in the text (curly and straight
+    quotes count as the same), and no two may overlap."""
+    key, found = text.translate(QUOTES), []
+    for span, cls in spans:
+        i = key.find(span.translate(QUOTES))
+        if i < 0:
+            sys.exit('%s span not in the row\'s text: %r' % ('repeat' if cls == 'dup' else cls, span[:60]))
+        found.append((i, i + len(span), cls))
+    found.sort()
+    for (_, end, _), (start, _, _) in zip(found, found[1:]):
+        if start < end:
+            sys.exit('two marked spans overlap at %r' % text[start:end][:60])
+    out, k = [], 0
+    for i, j, cls in found:
+        out += [html.escape(text[k:i]), '<span class="%s">%s</span>' % (cls, html.escape(text[i:j]))]
+        k = j
+    out.append(html.escape(text[k:]))
+    return ''.join(out)
+
+
+def row_text(r, cur):
+    """What a row shows: its candidate text, or its article paragraph."""
+    if 'text' in r:
+        return re.sub(r'\s+', ' ', keep_lines(r['text']))
+    return plain(find(cur, r['article'], r.get('label', 'row')))[0]
+
+
+def repeat_notes(r, cur, rows):
+    """The dedup notes for a row: where the article (or another row) already says what its spans say.
+    Each span and each quote is checked against the text it names."""
+    lab, text, out = r.get('label', 'row'), None, []
+    for rp in r.get('repeats', []):
+        text = text if text is not None else row_text(r, cur)
+        if rp['span'].translate(QUOTES) not in text.translate(QUOTES):
+            sys.exit('%s: repeat span not in the row: %r' % (lab, rp['span'][:60]))
+        if rp.get('in'):
+            i = find_index(cur, rp['in'], lab + ' (repeat "in")')
+            there, where = plain(cur[i])[0], 'Already in the article, in %s' % ' › '.join(section_path(cur, i))
+        elif rp.get('in_row'):
+            if rp['in_row'] not in rows:
+                sys.exit('%s: repeat in_row %r is not a row label' % (lab, rp['in_row']))
+            there, where = row_text(rows[rp['in_row']], cur), 'Also in %s, on this page' % rp['in_row']
+        else:
+            sys.exit('%s: a repeat needs "in" (an article paragraph) or "in_row" (a row label)' % lab)
+        if rp['says'].translate(QUOTES) not in there.translate(QUOTES):
+            sys.exit('%s: the repeat quote is not in that paragraph: %r' % (lab, rp['says'][:60]))
+        out.append('%s: “%s”%s' % (where, rp['says'], (' (%s)' % rp['how']) if rp.get('how') else ''))
+    return out
 
 
 def source_cell(items, sparas, label):
@@ -321,6 +384,10 @@ def main():
         rev = git(art.parent, 'log', '-1', '--format=%h, %cd', '--date=format:%Y-%m-%d %H:%M UTC', a.since).strip()
         legend = ('Against the version you last saw (%s): <span class="mark">highlighted</span> words are new, '
                   '<del>struck</del> words are cut, and <span class="flag">red</span> is a span Pangram flagged.' % html.escape(rev))
+    rows = {r.get('label', 'row'): r for blk in m['blocks'] for r in blk['rows']}
+    if any(r.get('repeats') for r in rows.values()):
+        legend += (' <span class="dup">Blue</span> is something the article, or another draft on this page, '
+                   'already says; the note under it says where.')
     body = ['<p class="meta">%s</p>' % html.escape(m.get('meta', '')), '<p class="meta">%s</p>' % legend]
     body += ['<p class="intro">%s</p>' % html.escape(t) for t in m.get('intro', [])]
     pos = place_rows(m, cur)
@@ -329,6 +396,7 @@ def main():
         for h in blk.get('headings', []):
             n = min(len(h) - len(h.lstrip('#')), 3) or 2
             body.append('<h%d>%s</h%d>' % (n, html.escape(h.lstrip('#').strip()), n))
+        body += ['<p class="intro">%s</p>' % html.escape(t) for t in blk.get('intro', [])]
         placed = [pos[(bi, ri)] for ri in range(len(blk['rows']))]
         first = next((q for q in placed if q is not None), None)
         if first is not None:
@@ -345,6 +413,8 @@ def main():
                     seen_idx.update(bi_)
                     body.append(ctx_html(cur, bi_, 'Right before it in the article'))
             items = r.get('source', r.get('guide', []))
+            dups = [(rp['span'], 'dup') for rp in r.get('repeats', [])]
+            marks = list(dict.fromkeys(([(r['flag'], 'flag')] if r.get('flag') else []) + dups))  # a span listed twice is marked once
             if 'text' in r:
                 text, links, state = re.sub(r'\s+', ' ', keep_lines(r['text'])), [], 'not in the article'
                 base = None
@@ -354,13 +424,13 @@ def main():
                     base = re.sub(r'\s+', ' ', keep_lines(r['proposal_of_text']))
                 elif 'PROPOSAL' in r.get('label', '').upper():
                     base = best_match(text, cur)
-                if r.get('flag'):
+                if r.get('flag') and not dups:
                     shown = flag_html(text, r['flag'])
-                elif base and base.translate(QUOTES) != text.translate(QUOTES):
+                elif not r.get('flag') and base and base.translate(QUOTES) != text.translate(QUOTES):
                     shown = diff_html(base, text)
                     state = 'proposal, not in the article: highlighted words are what it adds to the paragraph that is'
                 else:
-                    shown = html.escape(text)
+                    shown = spans_html(text, marks)
             else:
                 text, links = plain(find(cur, r['article'], r.get('label', 'row')))
                 if a.against_source:
@@ -370,11 +440,11 @@ def main():
                 else:
                     prev, word = best_match(text, old), 'then'
                 if r.get('flag'):
-                    shown, state = flag_html(text, r['flag']), 'in the article'
+                    shown, state = spans_html(text, marks), 'in the article'
                 elif prev is None:
-                    shown, state = html.escape(text), 'new since %s' % word
+                    shown, state = spans_html(text, marks), 'new since %s' % word
                 elif prev.translate(QUOTES) == text.translate(QUOTES):
-                    shown, state = html.escape(text), 'unchanged'
+                    shown, state = spans_html(text, marks), 'unchanged'
                 else:
                     shown, state = diff_html(prev, text), 'changed from %s' % word
             shown = shown.replace(BR, '<br>')
@@ -383,6 +453,10 @@ def main():
             notes = ['<p class="meta">%s%s</p>' % (html.escape(state), (' · ' + html.escape(r['note'])) if r.get('note') else '')]
             if r.get('notes'):
                 notes.append('<ul class="notes">%s</ul>' % ''.join('<li>%s</li>' % html.escape(n) for n in r['notes']))
+            rep = repeat_notes(r, cur, rows)
+            if rep:
+                notes.append('<p class="meta">What already says it:</p><ul class="notes">%s</ul>'
+                             % ''.join('<li>%s</li>' % html.escape(n) for n in rep))
             if links:
                 notes.append('<p class="meta">Links: %s</p>' % ', '.join(
                     '%s → <a href="%s">%s</a>' % (html.escape(t.replace('*', '')), html.escape(u), html.escape(u)) for t, u in links))
@@ -400,6 +474,11 @@ def main():
             % (html.escape(m['title']), CSS, html.escape(m['title']), '\n'.join(body)))
     pathlib.Path(a.out).write_text(page, encoding='utf-8')
     print('%s: %d rows -> %s' % (m['title'], sum(len(b['rows']) for b in m['blocks']), a.out))
+    # E152 (Joel, 2026-10-07 23:18: "starting with C1, PGQ-002 (in) i was confused about what the context was for that"):
+    # a row in the article shows its source too. Not an error, since some older rows have none; a reminder to look.
+    bare = [r.get('label', 'row') for r in rows.values() if 'article' in r and not r.get('source', r.get('guide'))]
+    if bare:
+        print('note: %d article rows show no source: %s' % (len(bare), '; '.join(bare)), file=sys.stderr)
 
 
 if __name__ == '__main__':

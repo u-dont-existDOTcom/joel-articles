@@ -402,3 +402,25 @@ Joel: "ok i mean boring, regular etc are not for sure AI tells, almost nothing i
   - This run of four short instruction paragraphs had drawn a window before: 16% with C2 beside C1 in turn 31. It was clean in the h2 until the text before it grew.
   - Fixing one paragraph of the run didn't move the window. The run needs fixing as a whole. It's also where the isolation group goes.
   - Next time a section passes only narrowly, recheck it after every insertion before it, not only after insertions inside it.
+
+## Turn 35 (2026-10-07, from 23:18 UTC): Joel's fix of the run, and the dedup pass
+
+- **His fix is in, word for word.** That's his relationship paragraph, the repair line, the apology paragraph and C1 ("Here i fixed the red sections for you, this is human high conf learn some lessons"). Also Look Outward now opens "Once you're in your happy place" (his "change it to"). No punctuation fix was needed; his double hyphen in C1 stays. Pangram 4.0 through the dashboard:
+  - his three paragraphs alone: 100% Human (80, 88 and 105);
+  - Your Body Might Need Some Love First: 100% Human (2,181);
+  - Before You Try to Go Deep: 100% Human (3,005).
+  So the h1's 3% window from turn 34 is gone. All five predictions were hits.
+- **What his fix shows (E153).** Each change is a person reacting to what they've just said, not a new step: a question to the reader with a glad aside, "Also easier said than done, but...", "for a start", "And if it fails again … well,", "quit school and flunk the tests". The closing question that said the point again is cut.
+- **C1's context (E152).** C1 is the last paragraph of Also Look Outward, right after the apology paragraph, so the last page's context was right. But its label, "C1, PGQ-002 (in)", and its empty source cell didn't say what it was. The turn-35 page labels every row in plain words and gives installed rows their source.
+- **The dedup pass (E151).** He asked whether I'd done one before humanizing. I hadn't: the briefs showed only the paragraph before and the section. Four readers checked the whole article this turn: two looked for repeats, two checked the waiting guide points. Record: `experiments/dedup-20261008/`. Write-up: `DEDUP-PASS-20261008.md`. In short:
+  - My waiting drafts repeat the article in about eight places. The depth and pleasantness groups repeat each other in five points. The plan is to say each once, split by when it happens: the steps during a session in the depth group, the read after a session in the pleasantness group.
+  - Two PGQ paragraphs I installed repeat the article. PGQ-004's danger line comes right after Joel's "(if you're in danger, get safe first)". PGQ-012 says what PGQ-013 says. Proposals are in the write-up, waiting for him.
+  - About 40 older repeats, and 6 to 8 pulls in opposite directions, go to him as a list. Strongest first: the safety exceptions, the pause before sending, hearing the protective part out, "I believe you. And I love you", and "well-loved" twice in a row.
+- **Tools.** `reviewer.py dedup` and `reviewer.py repeats` build the two checks. `render_in_context.py` marks a repeat in place ("repeats") and checks its quote, and takes a block intro. Tests cover all of them.
+- **No Pangram checks beyond the five above.** Nothing new went into the article except his fix and his edit.
+
+### Next
+
+1. Redraft the waiting groups with only what's left after the dedup, splitting the shared points as above. Run the dedup check on the new drafts, then the cold reads, then Pangram: alone, in the h2, in the h1.
+2. When he answers on section 3 of the write-up, make his choices. If he OKs it, cut my PGQ-004 danger sentence, and check the paragraph alone, in its h2 and in the h1.
+3. The older repeats wait for his picks.
