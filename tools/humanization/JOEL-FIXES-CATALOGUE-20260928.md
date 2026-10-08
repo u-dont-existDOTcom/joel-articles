@@ -506,3 +506,10 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
 - **The rule (E155):** "maybe we should somehow implement a rule that guide additions can't be suggested by other owrkers unless they are explained, what map change caused them, and how they are really needed vs superfluous to the guide."
 - **The page (E154):** "i also don't understand how you got depth draft 1 from the r4 guide? doesn't look like a good rewrite of that one sentence. i'm so confused. same for draft 2 it seems like way more than the one sentence it's coming from? same for pleasantness draft 1... idk i'm not sure what i'm doing now". The page had shown one sentence of each guide paragraph.
 - No "continue".
+
+## Joel's note, 2026-10-08 03:57 UTC (the map, the AI guide and the humanized guide)
+
+- **The design (E156):** "the guide updates were sent to you due to map changes which GPT believed should be reflected in the guide, because the guide and map are supposed to complement each other and agree with each other, but that's also why we have the AI guide and the humanized guide, in case the map-based AI guide is just too much stuff for people to read."
+- **A brainstorm:** "i'm open to your brainstorm on the best architecture and how to ground the map and how to update the guide as the map is updated because i'm mainly updating the map now (based on using it on clients) rather than the guide directly." The answer: `docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md`.
+- **The question:** "did you think none of that stuff needed saying in the guide even tho it needed to be in the map?" No; turn 36 over-corrected, and the #126 paragraphs are back as teaching points.
+- No "continue".

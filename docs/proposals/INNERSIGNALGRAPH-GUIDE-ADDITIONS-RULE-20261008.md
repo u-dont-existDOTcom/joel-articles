@@ -1,5 +1,7 @@
 # Proposed rule for innerSignalGraph: every guide addition is explained
 
+**Superseded, 2026-10-08 (turn 37), by `MAP-TO-GUIDE-ARCHITECTURE-20261008.md`.** Joel, 03:57 UTC: map changes are meant to be reflected in the AI guide, which the humanized guide makes readable. So rule 3 below ("Not queued means runtime-only") is withdrawn, and so is the reading that #126's prose was app rules that leaked into the guide. Rules 1 and 2 become the teaching-point record in the new proposal. Kept as the record; not filed.
+
 From the joel-articles humanization lane, 2026-10-08. This is a suggested fix for innerSignalGraph, written so it can go into universal-dev-architecture's `suggested-fixes/innerSignalGraph/` lane (innerSignalGraph's `AGENTS.md`: "Before starting other fixes here, read this repository's lane in `u-dont-existDOTcom/universal-dev-architecture`: `suggested-fixes/innerSignalGraph/`"). It was not filed: this session couldn't get write access to either repository without the owner's OK.
 
 **Marked as an owner request.** Joel, 2026-10-08 02:23 UTC: "maybe we should somehow implement a rule that guide additions can't be suggested by other owrkers unless they are explained, what map change caused them, and how they are really needed vs superfluous to the guide."

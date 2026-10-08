@@ -444,3 +444,24 @@ Joel: "ok i mean boring, regular etc are not for sure AI tells, almost nothing i
 2. If he OKs filing the rule upstream: file it in universal-dev-architecture's suggested-fixes lane for innerSignalGraph.
 3. The turn-35 proposals on installed repeats (my PGQ-004 danger line, and the others in `DEDUP-PASS-20261008.md`) still wait for his picks.
 4. After that, the next guide section that isn't in the article yet, with its queue items checked for their reasons first.
+
+## Turn 37 (2026-10-08, from 03:57 UTC): the map, the two guides, and a correction
+
+- **Correction (E156).** Joel: the guide updates come from map changes that GPT believed should show in the guide; the AI guide and the map should agree, and the humanized guide is for readers the AI guide is too much for. Turn 36's parking of #126's paragraphs, and its "not on the queue means runtime-only" rule, are withdrawn. The paragraphs are back as teaching points T1 to T9 for him to tick.
+- **What I found about the setup.**
+  - The app reads the AI guide as context on every client turn (`context-builder.mjs` picks matching passages).
+  - So the AI guide has two readers, the app's model and people. That's why its October 4 additions are dense with cases and include notes about the app's own behavior.
+  - Changes reach the humanized guide by two routes that don't match (new guide versions and the queue).
+  - Lessons are recorded for some map changes in `THERAPY-LESSONS` but not for the October 4 continuity change, and the 54 owner amendments carry no reasons.
+- **The brainstorm he asked for** is `docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md`:
+  - lessons (why) → map (what the app does) → teaching points (what a person should understand or do, written by the map lane with each change, or "app only") → AI guide (complete, from the teaching points) → humanized guide (selected, in his voice);
+  - one way into the humanized guide (the queue of teaching points), with a check upstream that guide-text changes come with a queue entry;
+  - grounding: a lesson for every map change, marked one case or pattern, fixing the principle rather than the incident, with occasional pruning;
+  - options for the AI guide (as now, a split, or generated from the map), with "as now, plus teaching points" recommended.
+- **No Pangram checks; the article is unchanged.**
+
+### Next
+
+1. Draft the teaching points he ticks, one idea per paragraph, where each belongs, checked against the whole article.
+2. C2 after his C1, if he says yes.
+3. If he OKs it, file the teaching-point proposal for innerSignalGraph.

@@ -39,7 +39,7 @@ In the same h1 there's a stronger repeat that isn't in his run: the pause before
 
 ## 2. The waiting drafts
 
-**Update, turn 36:** all of these except C2 are parked. Joel cut depth draft 1, and the rest came from innerSignalGraph #126 (the app's routing rules written as prose), never queued for the public guide. See `R4-ADDITIONS-PROVENANCE-20261008.md`. What follows is kept as the record.
+**Update, turns 36 and 37:** Joel cut depth draft 1. The rest came from innerSignalGraph #126, where map changes were written into the AI guide on purpose; turn 36 parked them, wrongly (E156). They come back as teaching points T1 to T9 (`docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md`, section 7), and the cuts and splits below apply when they're drafted. What follows is kept as the record.
 
 None of these is in the article. The turn-35 page shows each one in place, with what repeats marked blue.
 

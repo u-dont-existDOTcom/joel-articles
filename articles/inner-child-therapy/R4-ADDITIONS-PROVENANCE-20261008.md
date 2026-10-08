@@ -1,5 +1,11 @@
 # Where the r4 guide's additions came from (turn 36, 2026-10-08)
 
+**Correction, turn 37 (Joel, 2026-10-08 03:57 UTC: "the guide updates were sent to you due to map changes which GPT believed should be reflected in the guide, because the guide and map are supposed to complement each other and agree with each other ... did you think none of that stuff needed saying in the guide even tho it needed to be in the map?").** The trace below stands, but two conclusions in it were wrong:
+- I called the #126 paragraphs "the app's rules" and parked them all because they weren't on the queue. #126's plan made them guide text on purpose, so the guide would agree with the map; the queue missing them looks like an oversight (it has #128's additions from the same day).
+- I wrote that a change not on the queue is "runtime-only by default".
+
+What holds is narrower: a few lines in them are about the app's own behavior toward a client (not re-offering after a no, the pause bookkeeping, "this app"), and those stay in the AI guide. The rest is back on the list as teaching points T1 to T9 for Joel to tick (`docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md`, section 7). Lesson E156.
+
 Joel, 2026-10-08 02:23 UTC, on depth draft 1: "i assume it's supposed to represent some new part of the therapy map. who is gonna be "sneaking reparenting in " thru some gentler version? we have no idea where this came from? maybe we should somehow implement a rule that guide additions can't be suggested by other owrkers unless they are explained, what map change caused them, and how they are really needed vs superfluous to the guide."
 
 This traces each waiting paragraph to the change that put it in the guide, from innerSignalGraph's own history (`git log`, its plan for the change, and its state record). A read-only clone was enough; nothing was changed there.
@@ -17,7 +23,7 @@ This lane's `source/inner-child-guide-2026-10-04-r4.txt` is innerSignalGraph's `
 
 Bundle D (PGQ-014 to 017) came from the Oct 5 and 6 changes to blocked action, support-mode continuity, memory support and practical focus.
 
-## The #126 paragraphs are the app's rules, written as prose
+## The #126 paragraphs restate the map's new rules, partly from the app's side
 
 #126 fixed the app. It added owner amendments AMEND.IC.CONTINUITY_TITRATION, AMEND.IC.SCAFFOLDED_CHALLENGE and AMEND.IC.COMMUNITY_REPARENTING, new map nodes, new state fields, and then the same rules as guide text. Its state record shows the match:
 
@@ -41,23 +47,23 @@ innerSignalGraph's own contract (`docs/PUBLIC-GUIDE-HUMANIZATION.md`) already co
 - A humanizer may omit "runtime-only mechanics such as task-state bookkeeping, capability gates, persistence contracts, internal routing metadata, or approval machinery".
 - When #130 made the queue the next day, it gathered "all currently pending Inner Child public-guide semantic changes" and left #126's paragraphs out.
 
-**My error (E155).** In turn 30 I treated every r4 paragraph the queue didn't list as if it were queued ("I told Joel I'd treat them like queue items unless he says otherwise"). That is how the app's rules got drafted for the article. His OK at 01:09 ("if it has new stuff add that") rested on my description of them as new guide material.
+**What went wrong in the drafting (E155, corrected by E156).** In turn 30 I drafted the r4 paragraphs whole, as written for the app's model, instead of first asking what a reader needs from each. That's how a line about the app's own behavior ("do not keep trying to sneak it back in") ended up in reader prose. In turn 36 I then over-corrected and treated "not on the queue" as "not for readers".
 
 ## Status
 
 | Paragraph | Where it came from | Status |
 |---|---|---|
 | Depth 1 ("That means turning the depth down…") | #126, CONTINUITY_TITRATION | **cut** (Joel, 02:23) |
-| Depth 2 ("If you do want the relationship but a particular depth is too much…") | #126, CONTINUITY_TITRATION | parked |
-| Depth 3 ("A complete tolerance pause is a last resort…") | #126, CONTINUITY_TITRATION | parked |
-| Pleasantness 1 to 3 ("Do not use pleasantness…", "If those answers are not known yet…", "Dreams and imagery…") | #126, SCAFFOLDED_CHALLENGE | parked |
-| Isolation 1 and 2 ("If isolation itself…", "Look for more than one door…", "Use the Protector here too…") | #126, COMMUNITY_REPARENTING | parked |
-| The difficult-dream paragraph (When the Practice Feels Real but Stays Shallow) | #126 | parked |
+| Depth 2 ("If you do want the relationship but a particular depth is too much…") | #126, CONTINUITY_TITRATION | teaching points T1 to T3 (turn 37) |
+| Depth 3 ("A complete tolerance pause is a last resort…") | #126, CONTINUITY_TITRATION | teaching points T1 to T3 (turn 37) |
+| Pleasantness 1 to 3 ("Do not use pleasantness…", "If those answers are not known yet…", "Dreams and imagery…") | #126, SCAFFOLDED_CHALLENGE | teaching points T4 to T7 (turn 37) |
+| Isolation 1 and 2 ("If isolation itself…", "Look for more than one door…", "Use the Protector here too…") | #126, COMMUNITY_REPARENTING | teaching points T8 and T9 (turn 37) |
+| The difficult-dream paragraph (When the Practice Feels Real but Stays Shallow) | #126 | with T7, when that section comes up |
 | C2 ("Honesty does not mean total disclosure…") | #124, from the Oct 3 guide; queue item PGQ-003 | waiting: it passes alone (130); it could follow Joel's C1 |
 
-"Parked" means that nothing is drafted, checked or proposed from it unless someone explains why the article's reader needs it, which is Joel's rule. The drafts and their records stay in the lane, so nothing is lost.
+Turn 36 parked them; turn 37 brought them back as teaching points (see the correction at the top). The drafts and their records stay in the lane, so nothing is lost.
 
-If Joel wants any of them back, here's my read. It isn't a proposal to draft them. Two ideas there aren't in the article and might help a reader:
+Turn 36's read, kept for the record. It's now part of the teaching points: two ideas there weren't in the article and might help a reader:
 
 - judging a hard session by the next few days, not by how pleasant it felt;
 - having more than one place to belong.
@@ -70,5 +76,5 @@ Joel's rule: guide additions aren't suggested unless they're explained: what map
 
 - **In this lane (in force now).**
   - `reviewer.py draft` and `reviewer.py dedup` stop on any guide passage with sentences that aren't in the article's original guide, unless the target carries `"provenance"` with `"map_change"` and `"why_reader_needs_it"`. Tests cover both cases.
-  - The gate (step 1) says the same, and adds that a guide change that isn't on the upstream queue is runtime-only by default.
-- **For the workers who write guide additions (innerSignalGraph).** The proposed wording is in `docs/proposals/INNERSIGNALGRAPH-GUIDE-ADDITIONS-RULE-20261008.md`. Filing it there needs Joel's OK: this session couldn't get write access to innerSignalGraph or universal-dev-architecture without it.
+  - The gate (step 1) says the same. Turn 36 also had it treat an unqueued guide change as runtime-only; turn 37 withdrew that (E156): a reader need is written as a teaching point instead.
+- **For the workers who write guide additions (innerSignalGraph).** Turn 36's proposal is superseded by `docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md` (teaching points on the queue for every map change). Filing it there needs Joel's OK: this session couldn't get write access to innerSignalGraph or universal-dev-architecture without it.
