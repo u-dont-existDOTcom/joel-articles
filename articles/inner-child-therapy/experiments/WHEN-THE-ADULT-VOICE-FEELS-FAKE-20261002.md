@@ -496,3 +496,24 @@ Joel, 02:06: "all those T1-9 points look good, if they aren't already in the gui
 1. Joel's read of the new paragraphs in place (the turn-38 page), and whether he wants T2's come-out line back.
 2. The innerSignalGraph agent's answer on the lane item, when it records one.
 3. Merge into main after he's seen them, if he says so.
+
+## Turn 39 (2026-10-09, from 22:10 UTC, resumed 23:14): the merge, and When the Urge to Escape Arrives
+
+Joel, 22:10: "continue" (turn 38 was finished and he had both pages: the merge OK, and go on). 23:14: "Continue from where you left off." (the session had stopped mid-check).
+
+- **Main into the lane, then a merge request.** Main had 20 commits from the community lane (the linter's O14 to O17, O6 judged by a model, method fit, both pages every turn). Merged with both sides kept; this lane's lint rules are O18 (x-not-y) and O19 (lists) now, and its "may X and still Y" branch gave way to main's O17. 168 tests pass. The merge request into main is open, checks green and conflict-free, but this session's auto-approval blocked the merge itself, so it waits for Joel's click (or an explicit "merge it").
+- **When the Urge to Escape Arrives is in** (the last h3 of Start With Whatever Showed Up), three paragraphs and the video:
+  - P1: only what the dedup found new: the bigger forms (a drink, the ex, a new business), that it can be progress, and thanking the part with the escape plan;
+  - P2: the caution on intensive meditation and psychedelic plant medicine, built on Joel's own San Pedro line from My Journey;
+  - P3: gentle meditation and the mantra, mostly his published wording, then his Garchen Rinpoche video.
+- **PGQ-006 isn't in.** Two drafts each failed alone (100% AI twice; 58% then 100% AI), and two questions are his: whether paranoia during a rough trip counts as the one episode, or only a psychotic-type reaction (his queue's word); and which other drugs to name as the ones that mess with your sense of what's real. The drafts are on the page.
+- **Pangram 4.0, through the dashboard:** P1 alone 100% Human (75, try 1); P2 100% AI (85, try 1), 100% Human (86, try 2) and with a cold read's two fixes 100% Human (88, try 3); P3 100% Human (121, try 1); the h3 100% Human (290); Start With Whatever Showed Up 100% Human (2,309); When the Adult Voice Feels Fake 100% Human (2,902), byte for byte the installed text.
+- **Predictions:** 9 of 12 hit (misses: P2 try 1, and both PGQ-006 second tries).
+- **Method, in main's new words.** The PGQ-006 pair failed the same way twice (runs of safety conditions), and what's left in it is his to decide, so it goes to him with the page instead of a third rewording.
+- **Tools:** the linter's parsed O6 check, its spelling check and WordNet now run here. Reviews and every draft: `t39-urge/`.
+
+### Next
+
+1. Joel's answers on PGQ-006 (the rough trip; which drugs), then a third draft, or his own fix.
+2. His click on the merge request.
+3. The next h1, Sometimes There Isn't a Clear Child Yet.

@@ -577,3 +577,4 @@ His texts are kept verbatim in the community lane's `s9/joel-0502/joel-20261009-
 ## Joel's message, 2026-10-09 22:10 UTC
 
 - "continue" (turn 38 was finished and he had both pages, so it's the merge OK, and go on).
+- His next message (this turn's first clock read was 23:14): "Continue from where you left off." (the session had stopped mid-check; nothing of his to learn from).
