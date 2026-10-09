@@ -1,6 +1,7 @@
 """Regression tests for the shared humanization tools' 2026-10-02 additions: the exact-character ledger check,
 the linter's abstract-agent flag (O6) and the whole-article stance-check prompt."""
 import json
+import os
 import pathlib
 import subprocess
 import sys
@@ -8,11 +9,14 @@ import tempfile
 import unittest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+# The linter's parsed O6 check loads spaCy, a second or two per run; these tests run it only where they test it.
+os.environ['TELLS_LINT_PARSE'] = '0'
 TOOLS = ROOT / 'tools' / 'humanization'
 sys.path.insert(0, str(TOOLS))
 
 import check_owner_edits  # noqa: E402
 import stance_check_prompt  # noqa: E402
+import abstract_agents_prompt  # noqa: E402
 
 JOEL_P9 = ("I dream of a way to work in depth that isn’t run by a guru. A place where people who've done the "
            "healing first can join without pretending they're fully finished.")
@@ -102,6 +106,94 @@ class LinterAbstractAgents(unittest.TestCase):
         out = self.lint('There is no shared way to talk about the hurt, so the angry communard goes there, trying to get some justice. Money will not fix it.\n')
         self.assertNotIn('O6', out)
 
+    def test_parsed_check_finds_nouns_no_list_has(self):
+        """Joel, 2026-10-07 23:22: "abstract nouns are a real vast open-ended list in my mind". With spaCy and WordNet,
+        O6 reads the grammar: the subject's kind of thing and the verb's kind of subject."""
+        sys.path.insert(0, str(TOOLS))
+        import tells_lint
+        os.environ['TELLS_LINT_PARSE'] = '1'
+        self.addCleanup(os.environ.__setitem__, 'TELLS_LINT_PARSE', '0')
+        tells_lint._PARSER = None
+        if not tells_lint.parser():
+            self.skipTest('spaCy (en_core_web_sm) or NLTK WordNet is not installed')
+        for s in ('Modern life trains us to perform competence while hiding whatever might complicate the performance.',
+                  'The vaccination policy arrives two years later carrying documents.',
+                  'Guilt may keep shouting at you.',
+                  'Fear makes the decision before you\u2019ve even noticed it.',
+                  "Once a kid is already living inside the disagreement, goodwill doesn't answer those questions.",
+                  'There is no shared way to talk about the hurt, so the anger goes there, trying to get some justice.'):
+            self.assertTrue(tells_lint.abstract_agents(s), s)
+        for s in ('If anger comes up, you can stay with it for a minute.',
+                  'The rule says nobody leaves before dawn.',
+                  'Fear like that can destroy that gift, and it might not even prevent abuse.',
+                  'The adults still have to pay attention to what goes on in a children’s territory.',
+                  'There is no shared way to talk about the hurt, so the angry communard goes there, trying to get some justice.',
+                  'Money will not fix it.'):
+            self.assertEqual(tells_lint.abstract_agents(s), [], s)
+        out = self.lint('Modern life trains us to perform competence. If anger comes up, you can stay with it for a minute.\n')
+        self.assertIn('O6 a candidate, to judge', out)
+        self.assertIn('Modern life trains us', out)
+        self.assertNotIn('If anger comes up', out.split('O6 a candidate')[1])
+
+    def test_negated_abstract_agent_is_flagged(self):
+        """Joel, 2026-10-07 20:21, on "goodwill doesn't answer those questions": "that AI tell again ... abstracts doing things"."""
+        self.assertIn('O6', self.lint("Once a kid is already living inside the disagreement, goodwill doesn't answer those questions.\n"))
+        self.assertIn('O6', self.lint('Good intentions alone won’t settle any of that once the kids are in the middle of it.\n'))
+        self.assertNotIn('O6', self.lint('The community has to share enough principles about raising kids to offer them coherence.\n'))
+
+
+class LinterJoelRulings20261007(unittest.TestCase):
+    """O14, O15 and O16 (Joel, 2026-10-07 01:43): Emulate's "and and and" list, unusual spellings, overcompleting."""
+    def lint(self, text):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / 'draft.txt'
+            f.write_text(text, encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f)], capture_output=True, text=True)
+            return r.stdout
+
+    def test_emulates_and_list_fails_and_his_commas_pass(self):
+        emu = ("It's not like calling something by a certain name dissolves the childhood panic and the comparison and the "
+               "terror of abandonment and the desire to control another person.\n")
+        out = self.lint(emu)
+        self.assertIn('O14 owner ban', out)
+        self.assertIn('verdict: FAIL', out)
+        his = ("It's not like calling something by a certain name dissolves the childhood panic, the comparison, the terror "
+               "of abandonment, or the desire to control another person.\n")
+        self.assertNotIn('O14', self.lint(his))
+        self.assertIn('O14 two repeated', self.lint('We had bread and butter and jam on the porch every morning that summer.\n'))
+
+    def test_unusual_spellings_are_flagged_even_in_his_lines(self):
+        try:
+            import spellchecker  # noqa: F401
+        except ImportError:
+            self.skipTest('pyspellchecker is not installed')
+        out = self.lint('It gets double dipped with the objection that psychedelics are also priveleged escape pods.\n')
+        self.assertIn('O15', out)
+        self.assertIn('priveleged', out)
+        out = self.lint('They told them they are the re-incarnation of King David and Elvis, more or less.\n')
+        self.assertIn('re-incarnation', out)
+        out = self.lint('It gets double dipped with the objection that psychedelics are also privileged escape pods.\n')
+        self.assertNotIn('O15', out)
+        self.assertNotIn('O15', self.lint('If people are doing free love, but aren\'t doing the inner pl/ork, they end up with more fear.\n'))
+
+    def test_a_closing_summary_is_flagged(self):
+        para = ("Medical care is one of the toughest dependencies to work out. The community should think through how members "
+                "are going to have access to care. What things might require outside dollars or some form of insurance? "
+                "These are all questions that a community should consider in advance.\n")
+        self.assertIn('O16', self.lint(para))
+        his = para.replace(' These are all questions that a community should consider in advance.', '')
+        self.assertNotIn('O16', self.lint(his))
+
+    def test_may_be_x_and_still_y_is_flagged(self):
+        """O17 (Joel, 2026-10-07 15:05): "Another AI tell is 'may be X and still Y'"."""
+        for s in ("A scared or confused kid may get mixed up telling it and still need protection.\n",
+                  "Fear like that can destroy that gift and still not prevent abuse.\n"):
+            self.assertIn('O17', self.lint(s), s)
+        for s in ("A scared or confused kid may get mixed up telling what happened, and that's to be expected.\n",
+                  "Fear like that can destroy that gift, and it might not even prevent abuse.\n",
+                  "We waited an hour and still nobody came, so we went home.\n"):
+            self.assertNotIn('O17', self.lint(s), s)
+
 
 class LinterOwnerScopes(unittest.TestCase):
     """Joel, 2026-10-07 15:44: the "gets to" ban is about subjects that aren't people; "Not x, but still y" is in the
@@ -122,7 +214,7 @@ class LinterOwnerScopes(unittest.TestCase):
     def test_gets_to_with_a_person_is_not_flagged(self):
         for t in ("Your dad doesn't get to decide where you live.\n", "Nobody gets to decide that for you.\n",
                   "A real parent doesn't get to do that, which is one reason nobody manages to be a perfect one.\n"):
-            self.assertNotIn('O1', self.lint(t), t)
+            self.assertNotRegex(self.lint(t), r'\bO1\b', t)  # \b: main's O15 note ("O15 (spelling) skipped") contains "O1"
 
     def test_gets_to_with_an_unclear_subject_is_a_review(self):
         out = self.lint("Your little one gets to decide how close to come.\n")
@@ -130,20 +222,20 @@ class LinterOwnerScopes(unittest.TestCase):
         self.assertNotIn('O1 owner ban', out)
 
     def test_not_x_but_still_y(self):
-        self.assertIn('O14', self.lint("It isn't proof, but it still counts as a good evening.\n"))
-        self.assertIn('O14', self.lint("It isn't proof. It still counts as a good evening.\n"))
-        self.assertNotIn('O14', self.lint("She still lives in the house by the river with her two dogs.\n"))
+        self.assertIn('O18', self.lint("It isn't proof, but it still counts as a good evening.\n"))
+        self.assertIn('O18', self.lint("It isn't proof. It still counts as a good evening.\n"))
+        self.assertNotIn('O18', self.lint("She still lives in the house by the river with her two dogs.\n"))
 
     def test_may_x_and_still_y(self):
         """Joel, 2026-10-07 16:46: "it makes no sense AND it sounds ai with "may have X and still Y""."""
-        self.assertIn('O14 "may X and still Y"', self.lint("Somebody may really have crossed a boundary and still have hit something old in you.\n"))
-        self.assertNotIn('O14', self.lint("Somebody may really have crossed a boundary. Notice what it hit in you.\n"))
+        self.assertIn('O17', self.lint("Somebody may really have crossed a boundary and still have hit something old in you.\n"))
+        self.assertNotIn('O17', self.lint("Somebody may really have crossed a boundary. Notice what it hit in you.\n"))
 
     def test_a_list_is_a_review(self):
         out = self.lint("A few people you might call when it gets heavy:\n\n- a friend who listens\n- your sister\n")
-        self.assertIn('O15 a list', out)
-        self.assertEqual(out.count('O15 a list'), 1)
-        self.assertNotIn('O15', self.lint("You could call a friend who listens, or your sister.\n"))
+        self.assertIn('O19 a list', out)
+        self.assertEqual(out.count('O19 a list'), 1)
+        self.assertNotIn('O19', self.lint("You could call a friend who listens, or your sister.\n"))
 
 
 class LinterListsOfThree(unittest.TestCase):
@@ -291,6 +383,102 @@ class StanceCheckPrompt(unittest.TestCase):
         p = stance_check_prompt.build('Essay.', 'Rewrite.')
         self.assertIn('Return the report as your final message.', p)
         self.assertNotIn('Write call', p)
+
+    def test_published_contradictions_and_stated_positions(self):
+        """Joel, 2026-10-07 15:05: the published text contradicted itself and no reviewer said so; his newer positions win."""
+        p = stance_check_prompt.build('Essay.', 'Rewrite.', positions='2026-10-07: the home community controls its outside interactions.')
+        self.assertIn('Contradictions in the published text', p)
+        self.assertIn("THE AUTHOR'S STATED POSITIONS (newer than the essay):", p)
+        self.assertLess(p.index('THE REWRITE ('), p.index("THE AUTHOR'S STATED POSITIONS (newer"))
+        q = stance_check_prompt.build('Essay.', 'Rewrite.')
+        self.assertIn('Contradictions in the published text', q)
+        self.assertNotIn("STATED POSITIONS", q)
+
+    def test_the_authors_own_paragraphs_are_his_position(self):
+        """Joel, 2026-10-07 20:21, on the check calling his P10 narrower: "you're wrong, it says more than the published version"."""
+        mine = 'If the father is unknown, the whole community can do the fathering.'
+        p = stance_check_prompt.build('Essay.', 'Rewrite. ' + mine, owner=mine)
+        self.assertIn("THE AUTHOR'S OWN REWRITES", p)
+        self.assertIn('Questions on the author', p)
+        self.assertIn(mine, p[p.index("THE AUTHOR'S OWN REWRITES (his words"):])
+        self.assertNotIn("OWN REWRITES", stance_check_prompt.build('Essay.', 'Rewrite.'))
+
+
+class AbstractAgentsJudgment(unittest.TestCase):
+    """Joel, 2026-10-07 23:50: "you don't understand just intuitively which abstractions are normally used and which are
+    not? ... isn't that what LLMs are great at?" The linter collects candidates; a fresh agent judges them."""
+    def test_prompt_carries_his_ratings_the_candidates_and_his_lines(self):
+        text = ('So the anger goes there, trying to get some justice.\n\n'
+                'We cooked dinner together on the porch every night that summer.\n\n'
+                'Your shame wants you to hide.\n')
+        p = abstract_agents_prompt.build(text, owner=['Your shame wants you to hide.'], report='/tmp/r.md')
+        self.assertIn("Grief doesn't keep a schedule", p)
+        self.assertIn('Modern life trains us to perform competence', p)
+        self.assertIn('so common it\'s almost cliche', p)
+        cands = p[p.index('CANDIDATES:'):p.index('THE TEXT:')]
+        self.assertIn('So the anger goes there, trying to get some justice.', cands)
+        self.assertNotIn('We cooked dinner', cands)
+        self.assertIn("[JOEL'S] Your shame wants you to hide.", cands)
+        self.assertIn('MISSED:', p)
+        self.assertIn('/tmp/r.md', p)
+        self.assertLess(p.index('CANDIDATES:'), p.index('THE TEXT:'))
+
+
+class RenderInContextHeadings(unittest.TestCase):
+    """Joel, 2026-10-07 15:05: "P7 is in the wrong section. You moved it ... why?" The article was right; the page's map
+    had grouped P7 with the rows of the heading before it."""
+    ART = '# Title\n\nFirst paragraph here.\n\n## Second Heading\n\nSeventh paragraph here.\n\nEighth paragraph here.\n'
+
+    def render(self, blocks):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ART, encoding='utf-8')
+            (d / 'm.json').write_text(json.dumps({'title': 'T', 'blocks': blocks}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'render_in_context.py'), str(d / 'm.json'), str(d / 'o.html'),
+                                '--article', str(d / 'a.md'), '--source', str(d / 'a.md'), '--against-source'],
+                               capture_output=True, text=True)
+            return r.returncode, r.stdout + r.stderr, (d / 'o.html').exists()
+
+    @staticmethod
+    def row(label, start):
+        return {'label': label, 'article': start, 'source': [start]}
+
+    def test_a_row_under_the_wrong_heading_stops_the_page(self):
+        rc, out, made = self.render([{'headings': ['# Title'], 'rows': [self.row('P1', 'First'), self.row('P7', 'Seventh')]},
+                                     {'headings': ['## Second Heading'], 'rows': [self.row('P8', 'Eighth')]}])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('P7 is under "second heading" in the article but under "title" on the page', out)
+        self.assertFalse(made)
+
+    def test_rows_out_of_order_stop_the_page(self):
+        rc, out, made = self.render([{'headings': ['# Title'], 'rows': [self.row('P1', 'First')]},
+                                     {'headings': ['## Second Heading'], 'rows': [self.row('P8', 'Eighth'), self.row('P7', 'Seventh')]}])
+        self.assertIn('P7 comes before the row above it in the article', out)
+        self.assertFalse(made)
+
+    def test_a_dropped_paragraph_gets_its_own_row(self):
+        """Joel, 2026-10-07 20:21: "idk where p26 is now, are you talking about something you didn't show me?"."""
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ART, encoding='utf-8')
+            (d / 's.md').write_text(self.ART + '\nNinth paragraph, cut since.\n', encoding='utf-8')
+            m = {'title': 'T', 'blocks': [{'headings': ['# Title'], 'rows': [self.row('P1', 'First')]},
+                                         {'headings': ['## Second Heading'], 'rows': [self.row('P7', 'Seventh'), self.row('P8', 'Eighth'),
+                                                                                     {'label': 'P9 · cut', 'dropped': 'Ninth'}]}]}
+            (d / 'm.json').write_text(json.dumps(m), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'render_in_context.py'), str(d / 'm.json'), str(d / 'o.html'),
+                                '--article', str(d / 'a.md'), '--source', str(d / 's.md'), '--against-source'],
+                               capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stderr)
+            page = (d / 'o.html').read_text(encoding='utf-8')
+        self.assertIn('<del>Ninth paragraph, cut since.</del>', page)
+        self.assertIn('not in the article', page)
+
+    def test_rows_under_their_own_headings_render(self):
+        rc, out, made = self.render([{'headings': ['# Title'], 'rows': [self.row('P1', 'First')]},
+                                     {'headings': ['## Second Heading'], 'rows': [self.row('P7', 'Seventh'), self.row('P8', 'Eighth')]}])
+        self.assertEqual(rc, 0, out)
+        self.assertTrue(made)
 
 
 if __name__ == '__main__':

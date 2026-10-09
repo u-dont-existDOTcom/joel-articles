@@ -47,6 +47,13 @@ ARTICLE gives that candidate's whole text as "proposal_of_text" (2026-10-03).
 A lead-in that ends with a colon and the list right after it count as one paragraph, and the
 list keeps its lines on the page (2026-10-01: Love Doesn't Wait P12, whose row showed only its
 lead-in, and whose proposal highlighted the whole list as new).
+Rows taken from ARTICLE must sit under the heading they have in ARTICLE, in ARTICLE's order: a block's last heading
+is the one its rows are shown under, and the page isn't written when a row would show elsewhere (2026-10-07: the page
+showed section 8's P7 a section early, and Joel asked why it had been moved). --no-heading-check turns this off.
+A source paragraph the article no longer has gets a row of its own, {"label": ..., "dropped": "start of the source
+paragraph"}: the source on the left, and on the right the same text struck, marked as cut. Joel, 2026-10-07 20:21, on
+section 8's published P26, which the page had mentioned only in a note: "idk where p26 is now, are you talking about
+something you didn't show me?" A cut he hasn't seen has to be on the page where the paragraph was.
 "source" lists starts of source paragraphs, or {"quote": ..., "from": ...} for part of one;
 [] for none. The lane's older key "guide" is read the same way. "note" is one line; "notes"
 is a list shown as bullets.
@@ -155,6 +162,39 @@ def find(paras, start, what):
     if len(hits) != 1:
         sys.exit('%s: %d paragraphs start with %r' % (what, len(hits), start))
     return hits[0]
+
+
+def norm_heading(h):
+    return re.sub(r'\s+', ' ', h.lstrip('#').strip()).translate(QUOTES).lower()
+
+
+def heading_check(m, cur):
+    """Rows that show an ARTICLE paragraph under a heading other than its own, or out of the article's order.
+
+    Joel, 2026-10-07 15:05, on community section 8: "P7 is in the wrong section. You moved it from "the mother is
+    primary" to the prior section? why?" The article had P7 under its heading; the page map had put P2 to P7 in one
+    block and P8 to P11 in the next, so the page showed P7 a section early. The page is how he reviews the article, so
+    it must group rows the way the article does."""
+    heads, h = [], None
+    for p in cur:
+        if p.startswith('#'):
+            h = norm_heading(p)
+        heads.append(h)
+    page_h, last, wrong = None, -1, []
+    for blk in m['blocks']:
+        if blk.get('headings'):
+            page_h = norm_heading(blk['headings'][-1])
+        for r in blk['rows']:
+            if 'article' not in r:
+                continue
+            i = cur.index(find(cur, r['article'], r.get('label', 'row')))
+            if heads[i] != page_h:
+                wrong.append('%s is under "%s" in the article but under "%s" on the page'
+                             % (r.get('label', 'row'), heads[i], page_h))
+            if i < last:
+                wrong.append('%s comes before the row above it in the article' % r.get('label', 'row'))
+            last = max(last, i)
+    return wrong
 
 
 def best_match(text, old_paras):
@@ -349,6 +389,11 @@ def place_rows(m, cur):
                 pos[key] = pos[by_label[r['after_row']]] + 0.001
             elif r.get('place') == 'none' or (r.get('text', '').startswith('https://') and ' ' not in r.get('text', '')):
                 pos[key] = None
+            elif 'dropped' in r:
+                # A cut source paragraph (main's "dropped" rows, 2026-10-07) shows where the paragraph was: right after
+                # the row before it on the map, which follows the article's order (the heading check makes sure).
+                prev = next((k for k in reversed(list(pos)) if pos[k] is not None), None)
+                pos[key] = pos[prev] + 0.002 if prev is not None else None
             else:
                 sys.exit('%s: a candidate needs a place in the article ("after", "after_row" or "proposal_of"), so '
                          'the page can show what comes before and after it (Joel, 2026-10-07)' % lab)
@@ -429,10 +474,15 @@ def main():
     ap.add_argument('--against-source', action='store_true')
     ap.add_argument('--source-label', default='Original')
     ap.add_argument('--context', type=int, default=1, help='article paragraphs to show before and after each run of rows')
+    ap.add_argument('--no-heading-check', action='store_true',
+                    help="don't stop when a row sits under another heading than the article's (an old map that groups on purpose)")
     a = ap.parse_args()
     m = json.loads(pathlib.Path(a.map).read_text(encoding='utf-8'))
     art = pathlib.Path(a.article).resolve()
     cur = paragraphs(art.read_text(encoding='utf-8'))
+    wrong = [] if a.no_heading_check else heading_check(m, cur)
+    if wrong:
+        sys.exit('the page would group rows differently from the article:\n  ' + '\n  '.join(wrong))
     src = pathlib.Path(a.source)
     raw = src.read_text(encoding='utf-8')
     sparas = paragraphs(html_text(raw) if src.suffix.lower() in ('.html', '.htm') else raw)
@@ -476,7 +526,13 @@ def main():
             items = r.get('source', r.get('guide', []))
             dups = [(rp['span'], 'dup') for rp in r.get('repeats', [])]
             marks = list(dict.fromkeys(([(r['flag'], 'flag')] if r.get('flag') else []) + dups))  # a span listed twice is marked once
-            if 'text' in r:
+            if 'dropped' in r:
+                items = items or [r['dropped']]
+                text, links = plain(find(sparas, r['dropped'], r.get('label', 'row')))
+                links = []
+                shown = '<del>%s</del>' % html.escape(text)
+                state = 'not in the article: the %s paragraph on the left is cut' % a.source_label.lower()
+            elif 'text' in r:
                 text, links, state = re.sub(r'\s+', ' ', keep_lines(r['text'])), [], 'not in the article'
                 base = None
                 if r.get('proposal_of'):

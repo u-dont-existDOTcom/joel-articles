@@ -27,10 +27,22 @@ fails, and so does an opener that points at nothing ("Key here is that…"); a p
 under a heading ("This", "It", "The other") is a REVIEW. Markdown headings only (lines starting with #).
 O1 (2026-10-07 15:44): the "doesn't get to decide" family fails only when its subject isn't a person ("the weather doesn't
 get to decide"); with a person ("your dad doesn't get to decide") it isn't flagged, and an unclear subject is a REVIEW.
-O14 (2026-10-07): "not X, but still Y" in one sentence or two, a REVIEW (Joel: "there are other X Y rules, like 'Not x,
-but still y.'"). O15 (2026-10-07): a bulleted or numbered list, a REVIEW (Joel: "lists in general are overused by AI").
+O14, O15 and O16 (Joel, 2026-10-07 01:43; numbered after the Inner Child lane's O11 to O13): Emulate's "and ... and ... and" list fails (two repeated "and"s or "or"s in
+one stretch without punctuation are a REVIEW, three a FAIL); an unusual spelling or hyphenation is a REVIEW, his lines
+included ("unusual spellings should help pass pangram, but that's also cheating"); a paragraph that closes by summing
+itself up ("These are all questions that…") is a REVIEW ("it was way overcompleting itself").
+O17 (Joel, 2026-10-07 15:05, and 16:46 in the Inner Child lane: "may have X and still Y"): "may be X and still Y" is a tell ("Humans don't use that as much"): a modal clause tied to
+its consequence by "and still" is a REVIEW.
+O18 (2026-10-07; O14 in the Inner Child lane until the 2026-10-09 merge, renumbered after main's O14 to O17): "not X, but still Y" in one sentence or two, a REVIEW (Joel: "there are other X Y rules, like 'Not x,
+but still y.'"). O19 (2026-10-07; was the lane's O15): a bulleted or numbered list, a REVIEW (Joel: "lists in general are overused by AI").
+Its word lists and patterns are for exact things (a fixed phrase Joel banned, a count, a list's length). A flag
+about meaning is a candidate for a model to judge, never a verdict, and a meaning check is never fixed by adding words
+to a list (AGENTS.md, "Checks that judge text"; UDA's pattern-matching fit check, Joel 2026-10-07).
+O6 reads the grammar when spaCy (en_core_web_sm) and NLTK's WordNet are installed (Joel, 2026-10-07 23:22: a list of
+abstract nouns "sounds brittle... abstract nouns are a real vast open-ended list"); otherwise it falls back to its word
+list and says so in the report.
 """
-import re, sys, argparse, math
+import os, re, sys, argparse, math
 from statistics import mean, pstdev
 
 def clean(t):
@@ -135,16 +147,14 @@ def gets_to_subject(s, m):
     person, thing = bool(GT_PERSON.search(seg)), bool(GT_THING.search(seg))
     return 'person' if person and not thing else 'thing' if thing and not person else 'unclear'
 
-# O14 (Joel, 2026-10-07 15:44): "there are other X Y rules, like "Not x, but still y."" The x-not-y family is wider than the
+# O18 (Joel, 2026-10-07 15:44; the lane's O14 until 2026-10-09): "there are other X Y rules, like "Not x, but still y."" The x-not-y family is wider than the
 # "not Y" tail (O9) and the heading (H1). REVIEW: say the claim plainly; keep the contrast only when the reader needs it.
 NOT_BUT_STILL = re.compile(r"\b(?:isn['’]t|is not|aren['’]t|wasn['’]t|weren['’]t|not|doesn['’]t|don['’]t|didn['’]t|never|no)\b"
                            r"[^.?!;]{0,70}?\b(?:but|though|yet)\b[^.?!;]{0,40}?\bstill\b", re.I)
-# "may X and still Y" (Joel, 2026-10-07 16:46, on "Somebody may really have crossed a boundary and still have hit something
-# old in you": "it makes no sense AND it sounds ai with "may have X and still Y""): a REVIEW in the same family.
-AND_STILL = re.compile(r"\b(?:can|could|may|might|will|would|is|are|was|were)\b[^.?!;]{0,70}?\band (?:yet )?still\b", re.I)
+# "may X and still Y" (Joel, 2026-10-07 16:46) is O17 (main's STILL_TAIL, from his 15:05 note in the community lane).
 NOT_SENT = re.compile(r"\b(?:isn['’]t|aren['’]t|wasn['’]t|is not|are not|(?:doesn['’]t|don['’]t|didn['’]t) (?:mean|make|prove|change|count|matter|fix)|not (?:proof|enough|the same|a sign|evidence))\b", re.I)
 STILL_NEXT = re.compile(r"(?:But |And )?(?:it|that|this|they|you)(?:['’]s)? (?:still|can still)\b", re.I)
-# O15 (Joel, 2026-10-07 15:44): "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless
+# O19 (Joel, 2026-10-07 15:44; the lane's O15 until 2026-10-09): "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless
 # it's really needed." A bulleted or numbered list in the draft is a REVIEW (lists in a sentence are E125).
 LIST_LINE = re.compile(r"^\s*(?:[-*+•]|\d+[.)])\s+\S", re.M)
 
@@ -152,13 +162,131 @@ LIST_LINE = re.compile(r"^\s*(?:[-*+•]|\d+[.)])\s+\S", re.M)
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
 # there, trying to get some justice" to "so the angry communard goes there"). REVIEW only: an idiom can stay, and so
 # can his own words. It catches the noun right before the verb, so a subject with a long clause after it slips by.
+# 2026-10-07 20:21, on community section 8 P28's "goodwill doesn't answer those questions": "that AI tell again, in the
+# linter. abstracts doing things." The check had missed it: "goodwill" wasn't in the list, a negation ("doesn't",
+# "won't", "can't") stood between the noun and the verb, and "answer" wasn't a verb it knew. The sentence read AI in
+# about 25 wordings, and almost every first sentence drafted for it kept goodwill as the one answering; the cut passed.
 ABSTRACT_AGENT = (r"\b(anger|fear|grief|shame|hurt|pain|longing|loneliness|resentment|jealousy|envy|desire|rage|guilt|"
-                  r"sadness|anxiety|panic|feelings?|emotions?|objection|vision|insight|truth|idea|wish|need|hope|love|trust)"
-                  r"\s+(?:\w+ly\s+)?(goes|went|comes|came|arrives|arrived|tries|tried|wants|wanted|seeks|sought|demands|"
+                  r"sadness|anxiety|panic|feelings?|emotions?|objection|vision|insight|truth|idea|wish|need|hope|love|trust|"
+                  r"goodwill|good will|good intentions?|kindness|ideology)"
+                  r"\s+(?:(?:\w+ly|alone|still|also|just|doesn['’]t|does not|didn['’]t|did not|won['’]t|will not|can['’]t|"
+                  r"cannot|can not|never)\s+){0,2}"
+                  r"(goes|went|comes|came|arrives|arrived|tries|tried|wants|wanted|seeks|sought|demands|"
                   r"demanded|decides|decided|chooses|chose|refuses|refused|pushes|pushed|waits|waited|hides|hid|insists|"
                   r"insisted|asks|asked|teaches|taught|shows up|showed up|returns|returned|travels|traveled|files|filed|"
                   r"knocks|knocked|creeps|crept|sneaks|snuck|wanders|wandered|votes|voted|speaks|spoke|whispers|whispered|"
-                  r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won)\b")
+                  r"looks for|looked for|leaks|leaked|settles in|settled in|takes over|took over|wins|won|"
+                  r"answers?|answered|settles?|settled|solves?|solved|fix|fixes|fixed|protects?|protected|saves?|saved|"
+                  r"heals?|healed|handles?|handled|knows?|knew|decide|choose|refuse|want|try|ask|go|come)\b")
+
+# O6, parsed (Joel, 2026-10-07 23:22, on the list above: "that sounds brittle... is that the best way to handle the
+# abstracts doing things check? abstract nouns are a real vast open-ended list in my mind"). He's right: no list covers
+# an open class. When spaCy (en_core_web_sm) and NLTK's WordNet are installed, the check reads each sentence's grammar
+# instead. It finds each clause's subject, and asks WordNet what kind of thing that noun mostly names: a feeling, an
+# idea, a quality, a state or a motive (abstract), or a person, an animal or a group (who may do anything). For the
+# verb it asks whether WordNet's sentence frames give it only "Somebody" as a subject (answer, decide, refuse, vote)
+# or also "Something" (destroy, prevent, need). A few verbs that also take things but read as a person's act after
+# an idea are added by hand (SEED_PERSON_VERBS). It follows the verb into an infinitive or a participle with no subject
+# of its own ("doesn't get to decide", "goes there, trying to"). It skips everyday phrasal verbs ("wears off", "comes
+# up"), light verbs (do, give, take, make, have, get) and "is going to". On the community article as installed (15,460
+# words, 926 sentences) it flags 13 sentences, most of them real cases ("Modern life trains us", "Nobody's status buys
+# silence", "The vaccination policy arrives two years later carrying documents"), with four misparses; on the Inner
+# Child article, 6, among them "Guilt may keep shouting at you". The word list found one sentence in both articles.
+# Without those libraries the word list above is the fallback, and the report says so.
+# Joel, 23:50, on "Modern life trains us": "actually very human to say ... so common it's almost cliche, it's not a witty
+# AI quip ... isn't that what LLMs are great at?" The grammar finds candidates; only a reader can judge them. So an O6 flag
+# is a candidate, and abstract_agents_prompt.py has a fresh agent sort them (everyday, in between, quip) against his ratings.
+SEED_PERSON_VERBS = set("""arrive try want seek demand decide choose refuse push wait hide insist ask teach return travel
+file knock creep sneak wander vote speak whisper settle win answer solve fix protect save heal handle know buy
+train""".split())
+LIGHT_VERBS = set('be do give take make have get keep put let become seem remain stay mean'.split())
+_ABSTRACT_LEX = {'noun.feeling', 'noun.cognition', 'noun.attribute', 'noun.state', 'noun.motive'}
+_ANIMATE_LEX = {'noun.person', 'noun.animal', 'noun.group'}
+_PARSER = None
+
+def parser():
+    """(spaCy pipeline, WordNet) when both are installed, else False."""
+    global _PARSER
+    if _PARSER is None and os.environ.get('TELLS_LINT_PARSE', '1') == '0':
+        _PARSER = False  # turned off: the tests do this, since loading spaCy costs a second or two per run
+    if _PARSER is None:
+        try:
+            import spacy
+            from nltk.corpus import wordnet as wn
+            wn.synsets('fear')  # LookupError when the corpus isn't downloaded
+            _PARSER = (spacy.load('en_core_web_sm'), wn)
+        except Exception:
+            _PARSER = False
+    return _PARSER
+
+def _noun_mostly_abstract(wn, name):
+    ss = wn.synsets(name, 'n')
+    if not ss:
+        return None
+    w = {'animate': 0.0, 'abstract': 0.0, 'other': 0.0}
+    for s in ss:  # each sense weighted by how often it's used (SemCor counts), plus one
+        c = sum(l.count() for l in s.lemmas() if l.name().lower() == name.lower()) + 1
+        w['animate' if s.lexname() in _ANIMATE_LEX else 'abstract' if s.lexname() in _ABSTRACT_LEX else 'other'] += c
+    return w['abstract'] >= 0.5 * sum(w.values())
+
+def _person_verb(wn, lemma):
+    if lemma in LIGHT_VERBS:
+        return False
+    if lemma in SEED_PERSON_VERBS:
+        return True
+    p = t = 0.0
+    for s in wn.synsets(lemma, 'v'):
+        c = sum(l.count() for l in s.lemmas() if l.name().lower() == lemma.lower()) + 1
+        frames = [f for l in s.lemmas() if l.name().lower() == lemma.lower() for f in l.frame_strings()]
+        if frames and not any(f.startswith(('Something', 'It ')) for f in frames):
+            p += c
+        t += c
+    return t > 0 and p / t >= 0.6
+
+def _light_verb_act(wn, verb_tok):
+    """For a light verb, the person's act its object names: "makes the decision" (decide), "gives an answer"."""
+    for o in (c for c in verb_tok.children if c.dep_ == 'dobj'):
+        for s in wn.synsets(o.lemma_, 'n')[:2]:
+            for l in s.lemmas():
+                for d in l.derivationally_related_forms():
+                    n = d.name()
+                    if d.synset().pos() == 'v' and n not in LIGHT_VERBS and _person_verb(wn, n):
+                        return n
+    return None
+
+def abstract_agents(sentence):
+    """[(noun, verb)] for each clause whose subject is mostly an abstraction doing what a person does; None without
+    the parser."""
+    pw = parser()
+    if not pw:
+        return None
+    nlp, wn = pw
+    out = []
+    for tok in nlp(sentence):
+        if tok.dep_ != 'nsubj' or tok.pos_ != 'NOUN':
+            continue
+        mods = [c for c in tok.children if c.dep_ in ('compound', 'amod')]
+        kinds = [_noun_mostly_abstract(wn, m.lemma_ + '_' + tok.lemma_) for m in mods]
+        kind = next((k for k in kinds if k is not None), None)
+        if kind is None:
+            kind = _noun_mostly_abstract(wn, tok.lemma_)
+        v = tok.head
+        if not kind or v.pos_ not in ('VERB', 'AUX'):
+            continue
+        if any(c.dep_ == 'prt' for c in v.children):
+            continue  # "the euphoria wears off", "anger comes up": everyday phrasal verbs
+        if v.lemma_ == 'go' and any(c.dep_ == 'xcomp' for c in v.children):
+            continue  # "is going to": the future
+        chain = [v] + [c for c in v.children if c.dep_ in ('xcomp', 'advcl') and c.pos_ == 'VERB'
+                       and not any(g.dep_ in ('nsubj', 'nsubjpass', 'expl') for g in c.children)]
+        for x in chain:
+            if x.pos_ != 'VERB':
+                continue
+            act = x.lemma_ if _person_verb(wn, x.lemma_) else _light_verb_act(wn, x) if x.lemma_ in LIGHT_VERBS else None
+            if act:  # "Fear makes the decision before you've even noticed it" (Joel's ratings, 2026-10-02: 4 of 5)
+                out.append((tok.text, act))
+                break
+    return out
 
 # E125: lists of three. Joel, 2026-10-03 00:00 UTC, on Start With Whatever Showed Up P1 (66% AI): "P! failed b ecause
 # it has 2 lists of 3. I did a minimal fix and now it's human med conf"; 00:01: "lists of 3 in general are an ai pattern".
@@ -259,6 +387,79 @@ HEAD_NEG = re.compile(r"\b(?:isn['’]t|aren['’]t|wasn['’]t|doesn['’]t|don
 # O10 (Joel, 2026-10-06): "'Key here' can't be how you open a section. that's referring to something. Key where? what?"
 # A trace had flagged its "here" as unanchored; the finding was kept and he caught it.
 POINTER_FAIL = re.compile(r"^(?:the\s+)?key\s+(?:here|thing here|point here)\b|^here['’]?s the (?:thing|deal|key)\b|^here is the (?:thing|deal|key)\b", re.I)
+
+# O14 (Joel, 2026-10-07 01:43, on section 7 P3): "you replaced commas and even 'or' with 'and and and and' that looks like
+# emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax". Emulate's sentence was "It's not
+# like calling something by a certain name dissolves the childhood panic and the comparison and the terror of abandonment
+# and the desire to control another person." His: "...dissolves the childhood panic, the comparison, the terror of
+# abandonment, or the desire to control another person." So a list keeps commas and its own "or". Counted per stretch of
+# a sentence between punctuation marks: two repeats of the same "and" or "or" are a REVIEW, three a FAIL.
+POLY_SPLIT = re.compile(r"[,;:()\[\]—–]|\s-\s|\s--\s")
+def polysyndeton(s):
+    """The longest chain of one conjunction repeated with short items between (six words or fewer; a pair counts only
+    when the item between is three words or fewer), within a stretch between punctuation marks. "and who would notice
+    and act" is a pair; "a relationship secret from the child's mother or another" is not a chain."""
+    worst = 0
+    for seg in POLY_SPLIT.split(QUOTED.sub(' ', s)):
+        toks = re.findall(r"[\w'’]+", seg.lower())
+        for conj in ('and', 'or'):
+            idx = [i for i, t in enumerate(toks) if t == conj]
+            run = 1; best = 1 if idx else 0
+            for a, b in zip(idx, idx[1:]):
+                gap = b - a - 1
+                run = run + 1 if 1 <= gap <= 6 else 1
+                best = max(best, run)
+            if best == 2:
+                pairs = [b - a - 1 for a, b in zip(idx, idx[1:])]
+                if not any(1 <= g <= 3 for g in pairs):
+                    best = 1
+            worst = max(worst, best)
+    return worst
+
+# O15 (Joel, same message): "section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so
+# you can fix them." His "priveleged", "contageous", "re-incarnation" and the like. A REVIEW, for his lines too: a coinage
+# ("pl/ork", "technosphere") or a rare word stays; a misspelling or an odd hyphenation gets fixed, without a Pangram recheck
+# (20:38: "no need to recheck pangram to fix a typo"). Needs pyspellchecker; without it the check is skipped and says so.
+try:
+    from spellchecker import SpellChecker
+    _SPELL = SpellChecker()
+except Exception:
+    _SPELL = None
+# prefixes whose closed form is the usual one ("re-incarnation", "pre-requisite", "contra-indications"); a compound like
+# "grown-up" is left alone
+HYPHEN_PREFIXES = {'re', 'pre', 'contra', 'co', 'non', 'anti', 'counter', 'inter', 'multi', 'semi', 'sub', 'super', 'un', 'over', 'under'}
+def odd_spellings(s):
+    if _SPELL is None:
+        return []
+    out = []
+    for tok in re.findall(r"[A-Za-z][A-Za-z'’-]*[A-Za-z]", QUOTED.sub(' ', s)):
+        if any(c.isupper() for c in tok) or '/' in tok:
+            continue   # names, and coinages written with a slash
+        t = re.sub(r"['’](s|t|re|ve|ll|d|m)$", '', tok.lower())
+        if t.endswith("n") and tok.lower().endswith(("n't", "n’t")):
+            continue
+        if '-' in t:
+            joined = t.replace('-', '')
+            if t.split('-')[0] in HYPHEN_PREFIXES and _SPELL.known([joined]):
+                out.append(tok + ' (the closed form "%s" is standard)' % joined)
+            continue
+        if len(t) > 3 and not _SPELL.known([t]):
+            out.append(tok)
+    return out
+
+# O16 (Joel, same message, on section 6 P8 and P9): "i fixed p8p9, it was way overcompleting itself, now it passes pangram
+# together". He cut the closing "These are all questions that a community should consider in advance." and a five-item
+# list of protections. A REVIEW on a paragraph's last sentence when it sums the paragraph up. Cutting is his call: propose
+# the cut with the passage quoted, don't make it.
+SUMMARY_CLOSE = re.compile(r"^(?:these|those|all (?:of )?(?:these|those|this)|this|that)(?:\s+\w+){0,2}\s+(?:are|is|were)\s+all\b"
+                           r"|^(?:all (?:of )?(?:these|those|this)|this is (?:all )?why|that['’]?s (?:all )?why|in short|in the end|"
+                           r"ultimately|taken together|in sum|to sum up)\b", re.I)
+# O17 (Joel, 2026-10-07 15:05, on community section 8 P18's "A scared or confused kid may get mixed up telling it and
+# still need protection"): "Another AI tell is 'may be X and still Y' make sure that's in the shared tells list. Humans
+# don't use that as much." The same section's P14 had "Fear like that can destroy that gift and still not prevent
+# abuse". A REVIEW: say the two things plainly and keep the original's modal over both halves ("can destroy that gift,
+# and it might not even prevent abuse" passed Pangram in the whole section and kept the possibility).
+STILL_TAIL = re.compile(r"\b(?:may|might|can|could|will|would|should|must)\b[^.!?;:]{1,80}?\band\s+still\b", re.I)
 POINTER_HEAD = re.compile(r"^(?:this|that|these|those|it|here|there|the other|another|such)\b(?!\s+(?:is a|are)\b)", re.I)
 
 def heading_checks(raw):
@@ -333,14 +534,14 @@ def main():
         if x in installed_raw or is_known(x):
             continue
         flag(sev, rule, x)
-    # O15 (2026-10-07): a bulleted or numbered list in the draft, once per list; a list the owner wrote or that's installed isn't flagged
+    # O19 (2026-10-07): a bulleted or numbered list in the draft, once per list; a list the owner wrote or that's installed isn't flagged
     body = re.sub(r'<!--.*?-->', '', raw, flags=re.S)
     in_list = False
     for line in body.split('\n'):
         if LIST_LINE.match(line):
             item = re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', line).strip()
             if not in_list and not (item in installed_raw or is_known(item)):
-                flag('REVIEW', 'O15 a list (Joel 2026-10-07: "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless it\'s really needed"): keep it only if the meaning really needs it', item)
+                flag('REVIEW', 'O19 a list (Joel 2026-10-07: "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless it\'s really needed"): keep it only if the meaning really needs it', item)
             in_list = True
         elif line.strip():
             in_list = False
@@ -354,6 +555,8 @@ def main():
         imps = 0
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
         for i, s in enumerate(ss):
+            for o in odd_spellings(s):
+                flag('REVIEW', 'O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that\'s also cheating"); a coinage or a rare word stays, a misspelling gets fixed: ' + o, s)
             mine = not is_known(s)
             w = words(s); sent_lens.append(len(w))
             tri = triads(s)
@@ -392,8 +595,9 @@ def main():
                 flag('REVIEW', 'E138 the writer\'s own impulse: check the next sentence doesn\'t take it back (Joel 2026-10-07, on "I\'d probably '
                      'want to fix it by saying sweeter and sweeter things, which won\'t work": "this part is contradictory"; his fix gave '
                      'the move to "some people")', s)
-            if re.search(ABSTRACT_AGENT, s, re.I):
-                flag('REVIEW', 'O6 a feeling or idea doing what a person does: one of the top tells, not a ban, worst when polished or overused; give the action to a person, changing as few words as possible (Joel 2026-10-02: "so the anger goes there" became "so the angry communard goes there")', s)
+            ag = abstract_agents(s)  # None without the parser: then the word list decides
+            if (ag if ag is not None else re.search(ABSTRACT_AGENT, s, re.I)):
+                flag('REVIEW', 'O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell ("Grief doesn\'t keep a schedule"); a phrase people say all the time is not (Joel 2026-10-07 23:50: "Modern life trains us" is "so common it\'s almost cliche, it\'s not a witty AI quip"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible', s)
             if re.search(ENOUGH_PAIR, s, re.I):
                 flag('REVIEW', 'O7 polished "X enough to… Y enough to…" pair (Joel 2026-10-02: "devoted enough to practice them and secure enough to disagree" "looks super highly polished")', s)
             if re.search(SMUGGLE_FIG, s, re.I):
@@ -406,11 +610,9 @@ def main():
             if m9 and len(words(m9.group('head'))) >= 4:
                 flag('REVIEW', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said', s)
             if NOT_BUT_STILL.search(s):
-                flag('REVIEW', 'O14 "not X, but still Y" (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'"): say the claim plainly; keep the contrast only when the reader needs the other side said', s)
-            elif AND_STILL.search(s):
-                flag('REVIEW', 'O14 "may X and still Y" (Joel 2026-10-07 16:46: "it makes no sense AND it sounds ai with \'may have X and still Y\'"): if each half needs saying, give each its own sentence, as his rewrite did', s)
+                flag('REVIEW', 'O18 "not X, but still Y" (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'"): say the claim plainly; keep the contrast only when the reader needs the other side said', s)
             elif i + 1 < len(ss) and NOT_SENT.search(s) and STILL_NEXT.match(ss[i + 1].strip()) and not is_known(ss[i + 1]):
-                flag('REVIEW', 'O14 "not X. It still Y" across two sentences (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'")', s + ' ' + ss[i + 1])
+                flag('REVIEW', 'O18 "not X. It still Y" across two sentences (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'")', s + ' ' + ss[i + 1])
             for r in CONTRAST:
                 if re.search(r, s, re.I): flag('REVIEW', 'B2 contrast', s); break
             for r in THESIS:
@@ -430,6 +632,15 @@ def main():
             if first in IMPER: imps += 1
             if s.count(',') >= 3 or len(re.findall(r'\b(or|and)\b', s)) >= 3:
                 flag('REVIEW', 'B4/E15 list or packed sentence', s)
+            ps_n = polysyndeton(s)
+            if ps_n >= 3:
+                flag('FAIL', 'O14 owner ban: an "and ... and ... and" list (Joel 2026-10-07: "that looks like emulate trying to cheat, and it wasn\'t needed. still passes pangram with normal syntax"); use commas and keep the list\'s own "or"', s)
+            elif ps_n == 2:
+                flag('REVIEW', 'O14 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate\'s trick in a list (Joel 2026-10-07)', s)
+            if i == len(ss) - 1 and len(ss) >= 3 and SUMMARY_CLOSE.match(s.strip()):
+                flag('REVIEW', 'O16 a closing line that sums the paragraph up (Joel 2026-10-07: "it was way overcompleting itself"): propose the cut to him, quoted, with your opinion; don\'t cut it yourself', s)
+            if STILL_TAIL.search(s):
+                flag('REVIEW', 'O17 "may be X and still Y" (Joel 2026-10-07 15:05: "Another AI tell is \'may be X and still Y\' ... Humans don\'t use that as much"): say both things plainly and keep the modal over both halves', s)
             if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", ' '.join(s.split()[:8]), re.I):
                 flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
             if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):
@@ -489,6 +700,13 @@ def main():
     fails = [f for f in flags if f[0] == 'FAIL']
     verdict = 'FAIL' if (hard or fails) else ('REVIEW' if flags else 'CLEAR')
     print(f'== tells_lint: {a.draft}')
+    if _SPELL is None:
+        print('note: O15 (spelling) skipped, pyspellchecker is not installed (pip install pyspellchecker)')
+    if not parser():
+        print('note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns'
+              + (' (TELLS_LINT_PARSE=0)' if os.environ.get('TELLS_LINT_PARSE') == '0' else '') + '; '
+              'for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; '
+              'python -c "import nltk; nltk.download(\'wordnet\')"')
     print('verdict:', verdict)
     for h in hard: print('  HARD:', h)
     print('metrics:', metrics)

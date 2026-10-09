@@ -513,3 +513,67 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
 - **A brainstorm:** "i'm open to your brainstorm on the best architecture and how to ground the map and how to update the guide as the map is updated because i'm mainly updating the map now (based on using it on clients) rather than the guide directly." The answer: `docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md`.
 - **The question:** "did you think none of that stuff needed saying in the guide even tho it needed to be in the map?" No; turn 36 over-corrected, and the #126 paragraphs are back as teaching points.
 - No "continue".
+
+## Joel's answers and fixes, 2026-10-07 01:43 UTC (community sections 5, 6 and 7)
+
+- **Section 5, spellings.** "section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them." ("contra-indications", "pre-requisite", "re-incarnation", "priveleged" → standard spellings; the section read 100% Human in the web app, 2,331 words scanned.)
+- **Section 6, P8 and P9, overcompleting.** "i fixed p8p9, it was way overcompleting itself, now it passes pangram together". P8 lost its closing line ("These are all questions that a community should consider in advance."). P9 before: "There should be pre-existing agreements in place so that if a member gets catastrophically ill, their choices will be protected, they will have access to common resources or external funds if needed, they will be transported if needed, their privacy will be maintained, and there's room for the possibility that the community's preferred methods are not sufficient." After: "There should be pre-existing agreements in place so that their choices will be protected, both for catastrophic illness and end of life care. Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious." (His "may not guaranteed" and "contageous" fixed as typos.)
+- **Section 7, P3, normal syntax.** "p3 is really interesting, you replaced commas and even 'or' with 'and and and and' that looks like emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax": "Rigid monogamy can turn fear and possession into a moral law. If people are doing free love, but aren't doing the inner pl/ork, they can just end up with a larger spreadsheet to distribute their fear over. It's not like calling something by a certain name dissolves the childhood panic, the comparison, the terror of abandonment, or the desire to control another person."
+- **Section 7, my question.** "there's no need to question, 'their' is correct based on emualte's active voice."
+- **Section 7, P4 to P6.** "p4 reads fine to me with as they wish, i agree with you it's not confusing"; "p5 ok"; "p6 ok".
+- "ok fine not bad continue".
+
+## Joel's fixes and rulings, 2026-10-07 15:05 UTC (community section 8, "The Grown Children Get the Final Review")
+
+His texts are kept verbatim in the community lane's `s8/joel-1505/joel-20261007-1505.json`.
+- **The pages.** "why this time did you give me section 5, 6, 7, and 8 side by side? am i supposed to look at all those?" (Only section 8 needed him.)
+- **P7 and the subsection.** "P7 is in the wrong section. You moved it from "the mother is primary" to the prior section? why? although even in the original it seems to come from nowhere. I think cut this paragraph, it's pretty much stated by the other paras in this mothers section, and replace the headline with "Communal Parenting Adds On". We can change P10 so it fulfills the role." His P10 adds "If the father is unknown, the whole community can do the fathering, but the biological mom's role should always be honored." (The page had P7 under the wrong heading; the article didn't.)
+- **P13.** "boss is fine".
+- **P18.** "P18 has 2 lists of 3, super AI., Another AI tell is "may be X and still Y" make sure that's in the shared tells list. Humans don't use that as much. and it's unclear even in the original version what the point is in this para. The point is dishonest kids won't be protected because nobody will believe them. The reviewer didn't notice that? Totally contradicting itself saying their words carry power so they must be honest, then saying this has nothign to do with dismissing a report? ridiculous". His P18 opens "Protecting children is the duty of adults, but it requires them to help also." and brings in "The Boy Who Cried Wolf", the Buddha teaching his son honesty, labeling make-believe, and adults' lies (Santa).
+- **P21.** "P21 doesn't make sense. Read that first sentence. "for an actual case" is referring to something that was not stated yet. It makes sense in the original. And the original was also incorrectly stating my position at the end. Why should the home community not control the interaction they have with outside? That would violate my entire guide to force communities to accept outside intervention. They should get help. I fixed it, it's human med conf". His ending: "competent help and review, hopefully including non-intrusive help from outside the home community."
+- **Answers.** Q1 (P2b's "only saying that…"): "agree". Q2, his P3: "this one passes pangram". Q3, P17's spelled-out surprise: "i liked the spelled out version i don't think that's overcompletion, overcompletion is when you already have it explained and then you explain it again. there is still some actual overcompletion in this article i'm sure." Q4: "fixed it for you, human high conf. learn some lessons" (his six paragraphs from "If a community's kids never leave" to "belonging and freedom should go hand in hand"; two typos fixed by his rule, "althoug" and "able to access to their own records"; and the page's "~~rather than~~" diff marking, which came along with his P10, taken out).
+- **Order.** "i would move p27-p28 to the top of the section".
+
+## Joel's fixes and answers, 2026-10-07 20:21 UTC (community section 8, v26 to v27)
+
+His texts are kept verbatim in the community lane's `s8/joel-2021/joel-20261007-2021.json`. v27 read 100% Human as a section (1,812 words scanned) and went into the article so far.
+- **The pages.** "i didn't tell you to remove the full humanized article so far, that's still good for each turn."
+- **P28.** "\"goodwill doesn't answer\" is that AI tell again, in the linter. abstracts doing things. p28 looks better now yes." (The cut of its first sentence stands; the linter's O6 now catches the sentence.)
+- **The old H4 heading.** "ok" (it stays out).
+- **P26.** "idk where p26 is now, are you talking about something you didn't show me? I went b ack to the previous turn, now i see i left that out by accident." His first paragraph of the last subsection now ends: "And kids coming back isn't necessarily the best thing for the communal movement either. If they then start their own communities, we may see more evolution than if they simply return and continue what their parents started."
+- **P10.** "you're wrong, it says more than the published version. The published version says the community can do much of the fathering, but why does it say that? doesn't explain. My version explains. The mother point is also fine the way I put it. Here's a better version tho:" His new P10 opens "Tamera's Children's Place has repeated some of these old Kibbutz failings, taking children away from biological parents" and ends "since that attachment is formed already from years of nursing."
+- **P18.** "yes fix that" ("it requires them to help also" → "it requires children to help also").
+- **P21.** "it might rule out an emergency service, depending what you call an emergency service. non-intrusive means outsiders come in to disrupt the community. that's not like an ambulance coming because you called them. it's like what happened to Island Pond." (No change.)
+- **P22.** "yes that's better" ("a commitment they choose on their own" → "a commitment they make as adults").
+- **Overcompletion.** "p22 , unlimited freedom is not just overcompleting every childhood narrows the future, it's talking about the specific freedoms that can be given to children as they grow up e.g. Rumspringa. It's required in that sentence to explain the rest of it. But i agree with your suggestion to shorten the last line." (P25's last line is now "Belonging and freedom should go hand in hand.")
+- "continue".
+
+## Joel's question and fix, 2026-10-07 23:22 UTC (the linter's O6; community section 8 P22)
+
+- **O6.** "wait are you saying you have a "list of nouns"? that sounds brittle... is that the best way to handle the abstracts doing things check? abstract nouns are a real vast open-ended list in my mind" (The check now reads the grammar with spaCy and WordNet, the list kept only as the fallback.)
+- **P22.** "yes fix p222 take out second adults that's obvious" ("a commitment they make as adults" → "a commitment they make"; that text read 100% Human in 146g.)
+- "continue".
+
+## Joel's ruling and question, 2026-10-07 23:50 UTC (the linter's O6)
+
+- **O6.** "\"modern life trains us\" is actually very human to say, so it seems we need an exception to the rule. not a brittle one. you don't understand just intuitively which abstractions are normally used and which are not? like modern life trains us... is so common it's almost cliche, it's not a witty AI quip, you know? i'm confused why you can't simply look at a word and know it's an abstract concept, isn't that what LLMs are great at?" (The linter's O6 flags are now candidates; a fresh agent judges them with `abstract_agents_prompt.py` against his ratings.)
+- **Section 8 P19.** "yeah we can leave nobody's status buys silence, that's intermediate between an ai quip and what a human would normally say, and it passed pangram so it's ok..."
+- "continue".
+
+## Joel's fixes and requests, 2026-10-09 05:02 UTC (community section 9 P9 to P12; the UDA rule; the pages)
+
+His texts are kept verbatim in the community lane's `s9/joel-0502/joel-20261009-0502.json`; four obvious typos in P12 were fixed under his rule (`s9/joel-0502/joel-0502-fixed.json`).
+- **P9 to P12.** "i fixed p9-p12. hum high conf now, learn lessons and continue". Before (mine, every group wording read AI): "Most institutions get more and more layers and offices as they age. The Zapatistas did a review of theirs, and then pushed authority down. Did they put out a book on leadership and open a certification program? Nope. They just went and changed the system they were actually living in." After (his): "Institutions get more and more layers and offices as they age. We see this same pattern happen repeatedly, everywhere in history, except usually it goes one way without reversal, unless there's a revolution." And P11 opens "But there is a special reason the Zapatistas were successfully able to reverse this degeneration."; P12 "And that's not me saying that. Despite actually trying to train people in their model, …". What it does: `docs/HUMANIZATION-GATE.md`, "What section 9's runs and Joel's P9 to P12 taught".
+- **The UDA rule.** "yeah i mean the MC rule should have been a UDA rule actually. so fix that. and it's not specific to this exact case." (The strategy fit and efficacy rule is now in UDA's `patterns/reasoning-selection.md` universal core, u-dont-existDOTcom/universal-dev-architecture#345; `AGENTS.md`, "Method fit and switching".)
+- **The pages.** "on every turn you need to give me the in-context review page and the full humanized page, just like the innerchild lane does. that's assuming you have something for me to review." (`OWNER-FACING-TURN-CONTRACT.md`, "Every turn: the review page and the whole article".)
+
+## Joel's answers, 2026-10-09 02:06 UTC (the teaching points, C2, the map side)
+
+- **T1 to T9:** "all those T1-9 points look good, if they aren't already in the guide." (Drafted in turn 38 only where the article doesn't say them; eight are in, and T2 is one sentence of T1.)
+- **C2:** "C2 looks fine". (In after his C1 and T8.)
+- **The map side:** "yes teaching points makes sense altho the ai guide is then updated where, from the map side? automatically hopefully when map is updated if need be? can that be set up?" (Filed for innerSignalGraph in UDA's lane: a teaching point or app-only line with every map change, the AI guide written from it, the queue entry, and a check that blocks a change without them.)
+- No fixes of his text, so no lesson from a fix. No "continue".
+
+## Joel's message, 2026-10-09 22:10 UTC
+
+- "continue" (turn 38 was finished and he had both pages, so it's the merge OK, and go on).
