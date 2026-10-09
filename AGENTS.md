@@ -66,6 +66,15 @@ Do not automatically convert research notes such as `I thought X`, `I had heard 
 
 Keep the inquiry/correction process only when **the process itself performs a real article function**: for example, the article is explicitly methodological, the change of mind is evidence for the argument, the original misconception is common and worth correcting, or the provenance of the uncertainty materially matters. Otherwise, research workflow is source metadata, not prose.
 
+## Method fit and switching
+
+For every substantive or iterative task, apply the strategy fit and efficacy rule in `u-dont-existDOTcom/universal-dev-architecture`, `patterns/reasoning-selection.md` (Universal core). Before you choose or build a method, say what the task has to decide or produce, and pick the capability that fits it: a model reads and judges language, meaning, tone and intent; code computes exact, structural and repeatable things; a test or a measurement (Pangram, here) answers what can be observed. Don't build a brittle stand-in for a capability you already have. Judge progress by the owner's outcome, not by the work done. When the same kind of fix keeps being needed, attempts fail the same way, or the outcome stays flat, say why and switch to a causally different approach, not the same one renamed. Report a lack of progress yourself and keep going; ask Joel early, and only for decisions or knowledge that are his.
+
+Joel asked for this as a universal rule (2026-10-09 05:02 UTC: "the MC rule should have been a UDA rule actually. so fix that. and it's not specific to this exact case."). The cases that led to it, all from the community lane:
+- Checks that judge text. The linter's abstract-agent check matched a word list of abstract nouns; he called the list brittle ("abstract nouns are a real vast open-ended list in my mind"). It became a parser and a dictionary lookup, another list in effect, until he asked: "why can't you simply look at a word and know it's an abstract concept, isn't that what LLMs are great at?" (2026-10-07). Now the parser only finds candidates and a fresh model judges them against his ratings (`tools/humanization/abstract_agents_prompt.py`). Before you write or extend anything that decides something about text, apply the pattern-matching fit check in the same UDA file: lists and patterns fit exact questions (a fixed string, a count, a hash, a heading's place); meaning goes to a model; a list at most lists candidates for it.
+- The unit of testing. In section 9 a paragraph read AI as part of a five-paragraph group in six wordings in a row; the whole section with it in read 100% Human (2026-10-09). The section and each paragraph are the test (`docs/HUMANIZATION-GATE.md`); a seventh wording of the group would not have helped.
+- Reasoning only Joel has. When every faithful wording of a group had failed, he rewrote its reasoning links himself in minutes (2026-10-09). Ask him as soon as the first method is spent, with the page.
+
 ## Code review rules
 
 - Never silently soften, balance, or change the owner's argument. Disagreement must be raised directly rather than hidden in an edit.

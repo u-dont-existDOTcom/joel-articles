@@ -31,6 +31,9 @@ included ("unusual spellings should help pass pangram, but that's also cheating"
 itself up ("These are all questions that…") is a REVIEW ("it was way overcompleting itself").
 O17 (Joel, 2026-10-07 15:05): "may be X and still Y" is a tell ("Humans don't use that as much"): a modal clause tied to
 its consequence by "and still" is a REVIEW.
+Its word lists and patterns are for exact things (a fixed phrase Joel banned, a count, a list's length). A flag
+about meaning is a candidate for a model to judge, never a verdict, and a meaning check is never fixed by adding words
+to a list (AGENTS.md, "Checks that judge text"; UDA's pattern-matching fit check, Joel 2026-10-07).
 O6 reads the grammar when spaCy (en_core_web_sm) and NLTK's WordNet are installed (Joel, 2026-10-07 23:22: a list of
 abstract nouns "sounds brittle... abstract nouns are a real vast open-ended list"); otherwise it falls back to its word
 list and says so in the report.
