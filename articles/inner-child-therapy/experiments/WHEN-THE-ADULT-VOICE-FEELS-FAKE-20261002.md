@@ -511,9 +511,10 @@ Joel, 22:10: "continue" (turn 38 was finished and he had both pages: the merge O
 - **Predictions:** 9 of 12 hit (misses: P2 try 1, and both PGQ-006 second tries).
 - **Method, in main's new words.** The PGQ-006 pair failed the same way twice (runs of safety conditions), and what's left in it is his to decide, so it goes to him with the page instead of a third rewording.
 - **Tools:** the linter's parsed O6 check, its spelling check and WordNet now run here. Reviews and every draft: `t39-urge/`.
+- **After the reply: CI.** The content-integrity check had failed on five of this turn's seven pushes: the Pangram run files went up before they were registered, and the record corrections came after registering. Joel merged the first request at one of those heads, so main fails the content validator (nine errors) until the second request is merged. The second request's head is fixed, and a pre-push hook now runs CI's steps before any push (E158).
 
 ### Next
 
 1. Joel's answers on PGQ-006 (the rough trip; which drugs), then a third draft, or his own fix.
-2. His merge of the second request (this turn's h3), after he's seen the page.
+2. His merge of the second request (this turn's h3), after he's seen the page. It also clears main's validator errors.
 3. The next h1, Sometimes There Isn't a Clear Child Yet.

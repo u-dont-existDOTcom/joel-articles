@@ -596,3 +596,33 @@ class GuideAdditionsNeedProvenance(unittest.TestCase):
         rc, err = self.run_draft({'map_change': 'innerSignalGraph PR #126 (2026-10-04): decline handling',
                                   'why_reader_needs_it': 'a reader who said no to the frame needs to hear it is respected'})
         self.assertEqual(rc, 0, err)
+
+
+class PrePushHookReadsCISteps(unittest.TestCase):
+    """E158 (2026-10-09): the pre-push hook runs CI's own content-integrity steps, read from the workflow."""
+
+    def load_hook(self):
+        import importlib.machinery
+        import importlib.util
+        path = str(TOOLS / 'git-hooks' / 'pre-push')
+        loader = importlib.machinery.SourceFileLoader('pre_push_hook', path)
+        spec = importlib.util.spec_from_loader('pre_push_hook', loader)
+        module = importlib.util.module_from_spec(spec)
+        loader.exec_module(module)
+        return module
+
+    def test_it_runs_every_workflow_step(self):
+        hook = self.load_hook()
+        cmds = hook.steps(str(ROOT / '.github' / 'workflows' / 'content-integrity.yml'))
+        joined = '\n'.join(cmds)
+        for script in ('unittest discover -s tests', 'validate_content_repository.py',
+                       'validate_article_architecture_maps.py', 'audit_codex_github.py'):
+            self.assertIn(script, joined)
+        self.assertFalse([c for c in cmds if c.startswith('python ')], cmds)  # this interpreter, not `python`
+
+    def test_a_multi_line_step_is_skipped_with_a_note(self):
+        hook = self.load_hook()
+        with tempfile.TemporaryDirectory() as tmp:
+            wf = pathlib.Path(tmp) / 'wf.yml'
+            wf.write_text('steps:\n  - run: |\n      echo a\n  - run: python3 x.py\n', encoding='utf-8')
+            self.assertEqual(hook.steps(str(wf)), ['python3 x.py'])
