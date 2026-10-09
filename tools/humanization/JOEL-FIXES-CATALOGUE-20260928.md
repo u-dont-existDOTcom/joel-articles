@@ -522,3 +522,11 @@ His texts are kept verbatim in the community lane's `s9/joel-0502/joel-20261009-
 - **The UDA rule.** "yeah i mean the MC rule should have been a UDA rule actually. so fix that. and it's not specific to this exact case." (The strategy fit and efficacy rule is now in UDA's `patterns/reasoning-selection.md` universal core, u-dont-existDOTcom/universal-dev-architecture#345; `AGENTS.md`, "Method fit and switching".)
 - **The pages.** "on every turn you need to give me the in-context review page and the full humanized page, just like the innerchild lane does. that's assuming you have something for me to review." (`OWNER-FACING-TURN-CONTRACT.md`, "Every turn: the review page and the whole article".)
 
+## Joel's answers and fix, 2026-10-09 22:08 UTC (community section 9, v13 to v14)
+
+His message is kept verbatim in the community lane's `s9/joel-2208/joel-20261009-2208.json`.
+- **P7.** "doesn't seem like a hedge to me, sounds just more conversational, so fix those reviewers" ("the closest thing to a whole example that I found" stays; the trace brief and the logic audit brief now say conversational is not a shift).
+- **P8 and P9.** "agreed altho i'd say Juntas (Boards) at first per the rule on explaining things at first" (P8: "a rehearsal for the Good Government Juntas (Boards)").
+- **P13.** "i fixed P13 so it's better and no longer reads as AI to pangram in the P9-13 block". Before (mine, v13): "Now, the Zapatistas also don't prove my whole economic path, from unpriced internal necessities, to a common purse, to getting rid of outside money. Do their communities use collective work to support their schools and clinics, and their autonomous government and resistance? Yes. …" After (his): "Now, the Zapatistas also don't prove my whole money-free economy goal. They still use money internally in some cases, not others, and they still use it externally for trade. They've also benefitted from outside economic help, while at the same time making efforts to remain politically independent from donors and more self-sustaining."
+- "continue".
+
