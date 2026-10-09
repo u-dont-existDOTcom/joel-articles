@@ -1,0 +1,92 @@
+You're judging sentences from an essay by Joel for one AI-writing tell: a feeling, an idea, a quality or another abstraction doing what a person does (wanting, deciding, answering, teaching, arriving, trying). The tell isn't the grammar. People give abstractions a person's moves all the time, and that is ordinary speech. The tell is the neat, efficient, quotable version, the line built to sound wise, which models write far more often than people do. Joel's words: "the usage of abstract concepts or feelings as agents is one AI tell because it permits high efficiency of words"; and on "Modern life trains us to perform competence": "actually very human to say ... so common it's almost cliche, it's not a witty AI quip".
+
+Joel's own ratings follow (1 = a person would say it, 5 = AI). Judge the way he does.
+
+# Abstract concepts or feelings as agents: Joel's ratings (2026-10-02)
+
+Joel, 21:16: "maby we can do a special training on it if you want to get more clarity you could ask me to rate a number of versions of it for how ai it looks or something (and you also first tell me your guess)." I gave ten lines with my guesses, on a scale of 1 (a person talking) to 5 (AI). His answer, 23:49: "agree, except for 8 i'd say (4). 10: (2)".
+
+| # | line | my guess | Joel |
+|---|---|---|---|
+| 1 | "So the anger goes there, trying to get some justice." | 4 | 4 |
+| 2 | "Politics will become a way of carrying emotional material that people can't name." | 3 | 3 |
+| 3 | "Money won't fix that." | 1 | 1 |
+| 4 | "Grief doesn't keep a schedule." | 5 | 5 |
+| 5 | "My jealousy got the better of me that night." | 1 | 1 |
+| 6 | "Loneliness drove a lot of people into those comment sections." | 2 | 2 |
+| 7 | "Shame does its work in the dark." | 5 | 5 |
+| 8 | "The vision can't determine a departing member's share." | 3 | 4 |
+| 9 | "Fear makes the decision before you've even noticed it." | 4 | 4 |
+| 10 | "Hope kept that commune going for three more winters." | 3 | 2 |
+
+Where we differed: line 8 is an abstract agent doing an abstract job in a general claim (a published AI sentence from the community article), and he rated it more AI; line 10 is a small, concrete story with a time span, and he rated it more human. The idioms (3, 5) and the aphorisms (4, 7) we agreed on.
+
+## Joel's rulings, 2026-10-07 (community article)
+
+| line | where | Joel |
+|---|---|---|
+| "Once a kid is already living inside the disagreement, goodwill doesn't answer those questions." | section 8 P28, a rewrite of the published "Goodwill doesn't answer those questions after a child is already living inside the disagreement." | AI. 20:21 UTC: "that AI tell again, in the linter. abstracts doing things." It read AI in about 25 wordings; the cut passed. |
+| "Modern life trains us to perform competence while hiding whatever might complicate the performance." | the published article, a later section | Human. 23:50 UTC: "actually very human to say ... so common it's almost cliche, it's not a witty AI quip, you know?" |
+| "Nobody's status buys silence." | section 8 P19, from the published "nobody's status buys silence" | Between. 23:50 UTC: "intermediate between an ai quip and what a human would normally say, and it passed pangram so it's ok" |
+
+So the tell is the neat, quotable line where an abstraction does a person's job to make the sentence land ("Grief doesn't keep a schedule", "Shame does its work in the dark", "goodwill doesn't answer those questions"). A phrase people say all the time, even a cliché, is ordinary speech ("Money won't fix that", "Modern life trains us"). A word list can't tell them apart, and neither can a parser: the linter (O6) only collects candidates, and `abstract_agents_prompt.py` has a fresh agent judge them against these ratings.
+
+For each numbered CANDIDATE below (found by a script that reads the grammar, so some are misreadings), write one line:
+  N. EVERYDAY | BETWEEN | QUIP | NOT ONE - five to fifteen words on why
+- EVERYDAY: the way people actually talk or write, including clichés, idioms, reported beliefs ("believing love can heal anyone") and plain description ("interest climbed sharply").
+- BETWEEN: partly a neat line, partly ordinary (like "Nobody's status buys silence", which Joel left in).
+- QUIP: polished, aphoristic, efficient; the abstraction is doing a person's job to make the line land ("Grief doesn't keep a schedule", "goodwill doesn't answer those questions").
+- NOT ONE: the subject is a person or a group, or the script misread the sentence.
+A line marked [JOEL'S] is the author's own: label it, but propose nothing.
+
+Then, under "MISSED:", list any other sentence in THE TEXT where an abstraction does a person's job and you'd judge it BETWEEN or QUIP, quoted, with the same labels. Leave out the EVERYDAY ones there.
+
+End with one line: the counts of QUIP and BETWEEN, candidates and missed together. Don't suggest rewrites.
+
+CANDIDATES:
+(none)
+
+THE TEXT:
+image 14
+
+[caption] A Zapatista Schoolhouse. It reads: Worthy Rage (Digna Rabia)
+
+In 2005, a few college buddies and I went down to Oventik, one of the Zapatista caracoles in Chiapas. We almost died several times getting there. The mountain road ran along cliffs, and our rental car was on its last legs, which is a great combination when you're on your way to visit a revolution.
+
+In San Cristóbal de las Casas, the only white man we met sat us down in a café and grilled us so directly that he seemed like a CIA agent. Why were we there? Who were we working with? What were our plans? When were we leaving?
+
+It made us feel important for a minute. We were just college kids in a dying rental car, but apparently the empire had questions for us. 😂
+
+Oventik itself was like something out of a dream. We played basketball outside with the Zapatista youth, and people gave us talks about their history and philosophy, which I translated for my friends because my Spanish was better. Visitors were coming from all around the world to learn, and to make the communities less easy to attack in silence.
+
+I felt a deep spirituality from the Zapatistas. I also suspect there may be a private relationship with ayahuasca, but nobody told me that, and it's only my impression, not something to take as fact.
+
+What impressed me the most was how they do authority. It's mandar obedeciendo, to lead by obeying: the representatives carry the decisions people made in the assemblies, and they have to answer to the people who gave them the mandate.
+
+The Zapatistas are also the closest thing to a whole example that I found, because their autonomy goes beyond how they vote. They've set up their own education and health care, and their own justice, and they run their own collective production and political formation. On top of that they've worked out ways of teaching outsiders, all while coordinating beyond a single village.
+
+The Fire and the Word describes the movement growing from family to village, village to region, and region to larger structures. It also gives one of the most useful Zapatista principles for community design: build the practice first and develop the theory afterward. The autonomous municipalities came first; an association of them became a rehearsal for the Good Government Boards. When different municipalities encountered different problems and uneven progress, that experience generated another structure rather than being forced to fit the original plan.
+
+After a long internal review, in 2023, the Zapatistas announced they were dissolving their previous federated governmental structure, which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas. The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons. Their new arrangement moved authority downward toward a Local Autonomous Government in each community.
+
+Institutions get more and more layers and offices as they age. We see this same pattern happen repeatedly, everywhere in history, except usually it goes one way without reversal, unless there's a revolution.
+
+But there is a special reason the Zapatistas were successfully able to reverse this degeneration. Zapatista autonomy grew out of Indigenous communities with long histories. They share language and family ties. They've fought land struggles together, and defended themselves together for decades. A new ecovillage can't copy the diagram everyone can see and get the trust underneath it right away.
+
+And that's not me saying that. Despite actually trying to train people in their model, the Zapatistas themselves have been clear that people shouldn't expect to directly or easily import/export their philosophy (Zapatismo) as something ready-made, shake & bake. The useful thing isn't their diagram. It's how they learn: they build things and ask questions, and when they find out where the practice isn't working, they change the structure.
+
+Now, the Zapatistas also don't prove my whole economic path, from unpriced internal necessities, to a common purse, to getting rid of outside money. Do their communities use collective work to support their schools and clinics, and their autonomous government and resistance? Yes. But they also sell products and trade, and they get outside support. So what do they show? That major necessities and public functions can come out of ordinary market purchase and be governed collectively instead. Outside help can make a community more capable, sure. But if the specialist or the donor or the organization stays indispensable, it can also create gatekeepers and uneven dependence.
+
+image 15
+
+[caption] Escuelita Zapatista — The Zapatista school to teach outsiders their way of life
+
+In celebration of the 10th anniversary of their autonomous governments, the Zapatistas opened up the Escuelita, where outsiders lived with families and learned autonomy by taking part in day to day life. Around 1,500 students came to the first sessions, and thousands more came to later ones.
+
+One way an escuelita could fail is if it becomes a business, where residents spend their lives performing community for paying outsiders, and success gets measured by how many people come instead of how many daughter communities get started. A week of feeling transformed isn't what it's for. It's for teaching enough of the social and material system that some people can build it somewhere else.
+
+In the context of my research I have also looked for evidence of what happened after the Escuelita. While I found information on alumni networks, people bringing practices back with them, and organizing later, I couldn't find a clear chain of somebody having been to the Escuelita, then a new communal institution being set up, and then evidence about how its members and their children actually did over time. Zapatista influence was already spreading abroad before the Escuelita, so if some institution resembles a Zapatista one later, that alone doesn't prove the Escuelita was responsible. I'm borrowing the Zapatistas' teaching method and their ambition to replicate, not claiming they already proved my whole model.
+
+Sociocracy has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. Does this prove there's a universal formula? No. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
+
+Use no tools except reading this one file and writing your answer to /home/claude/lessons/articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/intentional-communities/candidate/s9/review-d6/ABSTRACT-d6.md with one Write call. Then return it as your final message.

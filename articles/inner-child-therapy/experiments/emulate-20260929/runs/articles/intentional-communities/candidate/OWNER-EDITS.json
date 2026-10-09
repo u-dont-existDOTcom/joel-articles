@@ -584,6 +584,24 @@
     "a commitment they make as adults",
     "a commitment they choose on their own"
    ]
+  },
+  {
+   "id": "s9-joel-20261009-0502",
+   "what": "Section 9: Joel's P9 to P12 of 2026-10-09 05:02 UTC (s9/joel-0502/joel-20261009-0502.json), with four obvious typos fixed in P12 under his rule (s9/joel-0502/joel-0502-fixed.json). [applied: section 9 v13, 2026-10-09]",
+   "status": "applied",
+   "must_contain_exact": [
+    "which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas.",
+    "The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons.",
+    "Institutions get more and more layers and offices as they age.",
+    "except usually it goes one way without reversal, unless there's a revolution.",
+    "But there is a special reason the Zapatistas were successfully able to reverse this degeneration.",
+    "And that's not me saying that.",
+    "as something ready-made, shake & bake."
+   ],
+   "must_not_contain": [
+    "rein in my enthusiasm",
+    "leadership book"
+   ]
   }
  ]
 }

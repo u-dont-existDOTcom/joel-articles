@@ -1,0 +1,183 @@
+{
+ "title": "The Best Model I’ve Seen: Zapatistas · section 9 beside the published one",
+ "meta": "Community article · section 9 · v13, 2026-10-09 · installed in the article so far as a candidate",
+ "intro": [
+  "Your published section is on the left. My version is on the right, with new words highlighted and cut words struck. Your P9 to P12 are in exactly as you sent them, except four obvious typos in P12 (listed on its row).",
+  "Pangram's web app: the whole section reads 100% Human (1,086 words scanned, 06:29 UTC, batch 182g), and every paragraph passes alone or beside a neighbor that passes alone. It's in the article-so-far page as a candidate.",
+  "How it got there after your P9 to P12: your four paragraphs passed (your check), but every P13 I put after them read AI as a group. Joined to the rest of the section, the old P13 (j3) passed, so I worked on the whole section instead, one fix at a time (batches 165g to 182g).",
+  "The gate ran three traces (E, F, G), the stance check, a cold read and the abstract-agent judge. Fixed from them: P5's ayahuasca line again says \"there may be\" a relationship (mine had said \"they may have\" one), P13's \"come out of\" got an \"instead\" and \"that help\", P14 says they lived with families and learned, P15 no longer says the graduates rebuild the same system or counts only foundings, and P2 and P16 no longer open with \"In\" (the linter's repeated-openers check failed on four).",
+  "What's still open is below, on each row: things the traces flagged that I kept because every fix I tried broke the section, with how many tries and my opinion. One needs your call (P7). Two are questions about your own paragraphs (P9 and P11).",
+  "Question 1, P7: the published calls the Zapatistas \"the closest whole example I found\"; mine says \"the closest thing to a whole example\". Two traces call that a hedge I added. Six wordings with \"the closest whole example\" back each opened a window up in P1 to P3. My opinion: keep mine, since P13 says they don't prove your whole path, but if you meant they are a whole example, say so and I'll keep at it.",
+  "Question 2, P8 and P9: P8 (published) calls them the Good Government Boards and your P9 calls them the Good Government Juntas, so a reader can take them for two bodies (the cold read did). My suggestion: \"the Good Government Juntas\" in both, or \"Juntas (Boards)\" once. It's one word in P8, but P8 is unchanged so far and would need a check."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# The Best Model I’ve Seen: Zapatistas"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "In 2005, a few college buddies",
+     "source": [
+      "In 2005, a few college friends"
+     ],
+     "note": "Passes alone. Unchanged since you saw it."
+    },
+    {
+     "label": "P2",
+     "article": "San Cristóbal de las Casas is where",
+     "source": [
+      "In San Cristóbal de las Casas"
+     ],
+     "notes": [
+      "Passes beside P1 (and beside P3). New opening so that only P1 opens with \"In\"; \"the only white man we met\" is the published wording, so the town stays its scope (\"At a café in San Cristóbal, the only white man we met\" passed too, but could narrow \"only\" to the café).",
+      "Kept from trace G: \"grilled\" for \"questioned\" (it says that adds hostility) and \"Who were we working with?\" for \"Who did we work with?\". My opinion: questioning someone so directly he seems like a CIA agent is grilling, and the question asks the same thing. They've been in the version you saw since 10-08."
+     ]
+    },
+    {
+     "label": "P3",
+     "article": "It made us feel important for a minute",
+     "source": [
+      "It made us feel briefly important"
+     ],
+     "note": "Passes beside P4 (and beside P2). Your 😂 kept. The linter's \"kid\" flag is on \"college kids\", which is the published phrase."
+    },
+    {
+     "label": "P4",
+     "article": "Oventik itself was like something out of a dream",
+     "source": [
+      "Oventik itself felt like a real dream"
+     ],
+     "notes": [
+      "Passes alone. \"Were coming\" back for my \"had come\" (trace E: an ongoing stream of visitors, not arrivals already over).",
+      "Kept: \"outside\" for \"on an outdoor court\" (trace F: the court is lost; trace E: trivial) and \"which I translated\" (both traces: minor, it pins the translating to the talks). With both put back, P4 passes alone but opens a window in P7, in two contexts. My opinion: no claim changes."
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "I felt a deep spirituality from the Zapatistas",
+     "source": [
+      "The Zapatistas felt deeply spiritual"
+     ],
+     "note": "Passes beside P4. Trace E's two fixes: \"from the Zapatistas\" (my \"them\" could be the visitors), and \"there may be a private relationship with ayahuasca\" as published: mine had said \"they may have\" one, which names the whole group. Trace G: OK."
+    },
+    {
+     "label": "P6",
+     "article": "What impressed me the most was how they do authority",
+     "source": [
+      "What impressed me most was their form of authority"
+     ],
+     "note": "Passes beside P7. Unchanged since you saw it. \"They call it mandar obedeciendo … which means\" read AI beside P7 and spread windows up to P1."
+    },
+    {
+     "label": "P7",
+     "article": "The Zapatistas are also the closest thing",
+     "source": [
+      "The Zapatistas are also the closest whole example"
+     ],
+     "notes": [
+      "Passes alone and beside P6. \"Political formation\" back for my \"political training\" (trace E). New shape for the list, because the old one (\"They've set up their own … They run their own … They've also worked out their own …\") was the section's last AI window.",
+      "Question 1 (above): \"the closest thing to a whole example\". Also kept from trace F: \"run\" for \"built\" (production and formation) and \"all while coordinating\", which it reads as tied to teaching outsiders only. With those three fixed (six wordings), the section opens a window in P1 to P3 every time. My opinion: \"run their own\" still says they're theirs, and \"all while\" covers the whole list."
+     ]
+    },
+    {
+     "label": "P8 · published",
+     "article": "The Fire and the Word describes",
+     "source": [
+      "The Fire and the Word describes"
+     ],
+     "notes": [
+      "Unchanged; passes alone.",
+      "The abstract-agent judge: \"that experience generated another structure\" is in between (a summary noun acting), published, so left. Question 2 (above): \"Boards\" here, \"Juntas\" in your P9."
+     ]
+    },
+    {
+     "label": "P9 · yours",
+     "article": "After a long internal review, in 2023",
+     "source": [
+      "In 2023, the Zapatistas announced"
+     ],
+     "notes": [
+      "Yours, unchanged (your check: Human). Your link sits on \"new arrangement\".",
+      "The stance check asks (information, not a fix): P8 presents the step to the Good Government Boards as practice-first design working; your P9 and P11 call power drifting to higher levels for practical reasons a degeneration that they reversed. Were the Boards part of that drift? If so, the same structure is the principle working in P8 and the degeneration in P11. It also asks which Zapatista body, after 2023, does the reviewing of local power that \"When Somebody Has to Go\" credits them with (\"autonomous institutions can review local power without becoming the state\"). My opinion: one clause in P9 or P11 would settle both, e.g. that the Juntas started as the practice-first answer and drifted later; your call whether that's true."
+     ]
+    },
+    {
+     "label": "P10 · yours",
+     "article": "Institutions get more and more layers",
+     "source": [
+      "Most institutions accumulate layers"
+     ],
+     "note": "Yours, unchanged. The cold read stumbled on \"except usually it goes one way\" (same pattern as what?) and on \"unless there's a revolution\" beside P9's internal review. My opinion: readers will get it; flagging because you asked for every finding."
+    },
+    {
+     "label": "P11 · yours",
+     "article": "But there is a special reason",
+     "source": [
+      "This is also where I need to restrain my enthusiasm"
+     ],
+     "note": "Yours, unchanged. The cold read: \"the diagram everyone can see\" has no diagram before it (the published \"the visible diagram\" has the same gap). My opinion: fine for this article, since P12 explains it right after (\"The useful thing isn't their diagram\")."
+    },
+    {
+     "label": "P12 · yours",
+     "article": "And that's not me saying that",
+     "source": [
+      "The Zapatistas themselves have warned"
+     ],
+     "note": "Yours, with four obvious typos fixed under your rule: \"have been [clear] that\", \"(*Zapatismo*)\" (closing asterisk), \"as something ready-made\" (an extra \"a\"), \"how they learn: they build\" (the colon from the version you edited)."
+    },
+    {
+     "label": "P13",
+     "article": "Now, the Zapatistas also don't prove",
+     "source": [
+      "They are also not proof of my complete economic path"
+     ],
+     "notes": [
+      "Passes alone and in the section. \"Instead\" added, so \"come out of ordinary market purchase\" can't be read as \"come from\" it (trace E caught that reading), and \"that help can also create\" so \"it\" can't be the organization (traces E and F).",
+      "Kept: traces F and G still say \"come out of\" drops who takes them out. Seven other verbs read 100% AI alone (\"be taken out of\" three times, \"be pulled out of\", \"move out of\", \"get out of\", \"don't have to come from\"; \"you can take … out of\" 45%). My opinion: \"governed collectively instead\" says who, and the sense is the published one.",
+      "Every P13 after your P12 read AI as a five-paragraph group (36 to 100%), but in the section it reads Human: the group was never the published unit, so I went by the section and each paragraph alone, as the gate says."
+     ]
+    },
+    {
+     "label": "P14",
+     "article": "For the 10th anniversary of their autonomous governments",
+     "source": [
+      "For the tenth anniversary of their autonomous governments"
+     ],
+     "note": "Passes beside P15 (it's under 50 words). Trace E's two fixes: \"For\" (not \"In celebration of\", which also made a fourth \"In\" opener) and \"Outsiders lived with families there and learned\" (mine had \"came to live … and learn\", which only says what they came for). Your link and italics on Escuelita are back. Trace G: OK."
+    },
+    {
+     "label": "P15",
+     "article": "One way an escuelita could fail",
+     "source": [
+      "An escuelita can fail by becoming"
+     ],
+     "notes": [
+      "Passes alone and beside P14. The stance check's two fixes: \"some people can build somewhere else\" (mine said \"build it\", the same system, where the essay says to fork the method), and \"how many daughter communities there are\" (mine said \"get started\", only foundings, where the essay asks whether they last).",
+      "Kept: \"a business\" (published \"a visitor business\"). Trace E: \"for paying outsiders\" in the same clause carries it; trace G: lost. My opinion: the where-clause says what kind of business."
+     ]
+    },
+    {
+     "label": "P16",
+     "article": "As part of my research",
+     "source": [
+      "In my research"
+     ],
+     "notes": [
+      "Passes alone and beside P17. Your link is on \"my research\" again (my last version had \"this research\", which pointed at nothing). New opening for the repeated-openers check.",
+      "Kept from trace G: \"I have also looked for evidence of\" (published \"I also tried to trace\"), \"found information on\" alumni networks (published \"found alumni networks\"), and the chain: trace C had me leave open who founded the institution, and trace G now wants the student tied to it (\"a chain from somebody who went to the Escuelita to a new communal institution\"). My opinion: small, and \"chain\" already links them."
+     ]
+    },
+    {
+     "label": "P17",
+     "article": "Sociocracy has a very different history",
+     "source": [
+      "Sociocracy reaches some similar forms"
+     ],
+     "note": "Passes alone and beside P16. Your link on Sociocracy kept."
+    }
+   ]
+  }
+ ]
+}

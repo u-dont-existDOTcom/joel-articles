@@ -334,3 +334,285 @@ Batch 164g (written 03:44 UTC on 2026-10-09 by `date -u`, before the call; `v164
 | 164g-W-CAP2toP17 (298) | Mixed | the caption to the end, as in the section || **Human (100%)**, 03:44:51 |
 
 164g (submitted 03:44:34 to 03:44:51 UTC, 2026-10-09): mine 2 of 4. With the trace's five fixes, P16 and P17 still pass alone, together, and from the caption to the end. (The history list also holds checks from another session on the same account at the same minutes, other texts; matched by hash, not by position.)
+
+## Joel's P9 to P12 (2026-10-09 05:02 UTC)
+
+His message and texts verbatim: `joel-0502/joel-20261009-0502.json`. He checked them: "hum high conf now" (Human, high confidence), so they aren't checked again alone. Obvious typos fixed in his P12 under his rule, without a recheck: "have been [clear] that", "(*Zapatismo*)", "as something ready-made", "how they learn: they build" (`joel-0502/joel-0502-fixed.json`). New combinations checked below.
+
+Batch 165g (written 05:05 UTC on 2026-10-09 by `date -u`, before the call; `v165.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 165g-gA-joel (348) | Human | your P9 to P12 (you checked them: "hum high conf"), with my P13 after them; obvious typos fixed in your P12 || Mixed (39% AI), 05:15:21: P11 from "They share language" (37 words; your P11 kept my sentences there), and P13 from its parenthesis (104 words) |
+| 165g-P12jP13y (182) | Human (weak) | your P12 beside my P13 || **Human (100%)**, 05:15:24 |
+| 165g-S9v4 (1064) | Mixed | the whole section with your P9 to P12; P13 is the paragraph still mine in that window || Mixed (25% AI, 1,088 words scanned), 05:15:29: P4's second sentence to the end of P7 (178 words), and P14's last words into P15's first (39 words) |
+
+165g (submitted 05:15:21 to 05:15:29 UTC): mine 1 of 3. Your P9 to P12 read human alone (your check; the account's history shows a 244-word Human check at 05:01:20); with my P13 after them the group reads 39% AI, and the whole section 25% AI. The gate on v4 (`review-d5/`): the trace of P13y found one SHIFT ("stop buying … on the market" drops "ordinary": it reads as leaving the market entirely); the stance check found no conflict in the rewrite and two questions on your paragraphs; the cold read caught my P16e2's "this research" (no antecedent; the published says "my research"); the abstract-agent judge found one in-between case in the published P8 ("that experience generated another structure").
+
+Batch 166g (written 05:18 UTC on 2026-10-09 by `date -u`, before the call; `v166.json`, parts in `fix-v12-parts.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 166g-gA-13z2 (346) | Mixed | P13y with the trace's fix only ("taken out of ordinary market purchase") || AI (90%), 05:19:01: your P9 to "And that's not me saying that" (176 words), and P12's end through P13 (146 words) |
+| 166g-gA-13w2 (346) | Mixed | P13w (passed alone in 154g) with "ordinary market purchase" || Mixed (28% AI), 05:19:05: P13 from its parenthesis (102 words) |
+| 166g-gA-13z4 (356) | Human (weak) | P13 linked the way you linked P9 to P12: "I should also say", and "so they haven't gotten rid of outside money" spelling out why it isn't proof || Mixed (30% AI), 05:19:10: P13 from its parenthesis (110 words) |
+| 166g-P13z2 (111) | Human (weak) | alone || AI (100%), 05:19:16 |
+| 166g-P13w2 (111) | Human (weak) | alone || **Human (100%)**, 05:19:19 |
+| 166g-P13z4 (121) | Human (weak) | alone || AI (100%), 05:19:26 |
+| 166g-P16e3 (114) | Human (weak) | "my research" back for "this research" || **Human (100%)**, 05:19:31 |
+| 166g-P16e3P17e3 (173) | Human (weak) |  || **Human (100%)**, 05:19:36 |
+| 166g-P4f (59) | Human (weak) | the published P4 through Emulate f with its meaning fixed ("outside" for "on an outdoor court"; "in silence" kept) || **Human (100%)**, 05:19:41 |
+| 166g-P4fP5f (93) | Human (weak) |  || **Human (100%)**, 05:19:45 |
+| 166g-W-P4fToP8 (277) | Mixed | the window that read AI in 165g's section, with the new P4 and P5 || **Human (100%)**, 05:19:54 |
+| 166g-P14y3P15f2 (115) | Human (weak) | P14's last sentence as Emulate b had it ("Around 1,500 students came to the first sessions") || **Human (100%)**, 05:19:58 |
+| 166g-S9v5 (1078) | Mixed | the whole section with this batch's picks || Mixed (20% AI, 1,103 words scanned), 05:20:04: P6's second sentence through P7 (94 words), and P14's last words through most of P15 (69 words) |
+
+166g (submitted 05:19:01 to 05:20:04 UTC; the first call was refused by the browser's policy check and rerun): mine 8 of 13. "My research" back in P16 keeps P16 and P17 passing; P4 and P5 through Emulate f pass alone and as P4 to P8. P13 still breaks the group after your P12 in every wording (28 to 90% AI), and one wording (z2) pulled your own P9 to P11 into the AI window. The section is at 20% AI, with the windows now in P6 to P7 and P14 to P15.
+
+Batch 167g (written 05:21 UTC on 2026-10-09 by `date -u`, before the call; `v167.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 167g-gA-13j4 (340) | Mixed | no parenthesis or question (j2, with "Sure," opening the support sentence, failed the linter's owner ban and wasn't sent; j4 drops it) | Mixed (50% AI), 05:22:28: your P11 from "They share language" to "And that's not me saying that" (44 words), and P12 from "The useful thing" through P13 (140 words) |
+| 167g-gA-13j3 (341) | Mixed | P13w2 without the parenthesis, where the window started | Mixed (24% AI), 05:22:31: P13 from "Do their communities" to the end (82 words) |
+| 167g-P13j4 (105) | Human (weak) |  | AI (100%), 05:22:36 |
+| 167g-P13j3 (106) | Human (weak) |  | **Human (100%)**, 05:22:40 |
+| 167g-P6g3P7f (103) | Human (weak) | "They call it mandar obedeciendo … which means" | AI (100%), 05:22:45 |
+| 167g-P15h (77) | Human (weak) | looser: "turns into", "end up spending", "outsiders who pay", "show up", "go build it" | **Human (100%)**, 05:22:53 |
+| 167g-P14y3P15h (126) | Human (weak) |  | **Human (100%)**, 05:22:57 |
+| 167g-S9v6a (1075) | Mixed |  | Mixed (63% AI, 1,098 words scanned), 05:23:03: P1 from "The mountain road" through P3 (103 words), P5's second sentence through P8 (216 words), P12's end through P13 (107 words), and P14 through P17 (274 words) |
+| 167g-S9v6b (1076) | Mixed |  | Mixed (32% AI, 1,098 words scanned), 05:23:07: P1 from "The mountain road" through P3 (103 words), P5's second sentence through P8 (216 words), and P14's last words into P15 (45 words) |
+
+167g (submitted 05:22:28 to 05:23:07 UTC, 2026-10-09): mine 7 of 9. P13j3 passes alone, and after your P12 only its question-and-answer middle reads AI (24%); j4, without the question, reads AI alone and pulled your P11 into the window. P6g3 ("They call it … which means") reads AI with P7 and spread the section's windows to P1 to P3 and P5 to P8 (P1 to P3 hadn't read AI in any earlier section check), so P6g2 stays. P15h passes alone and with P14. Best section so far: S9v5 (20%, 166g); S9v6b is 32%.
+
+Batch 168g (written 05:33 UTC on 2026-10-09 by `date -u`, before the call; `v168.json`, parts in `fix-v13-parts.json`; Emulate round h on the laptop gave the ideas for k2 and k6, none of its outputs kept their meaning):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 168g-gA-13k1 (339) | Mixed | your P9 to P12 with P13k1: statements only, "taken out of" back, closer to j4 (AI alone) | AI (100%), 05:34:45 |
+| 168g-gA-13k2 (336) | Mixed | k2: "Also," and a spaced hyphen before "but they also sell" | AI (100%), 05:34:48 |
+| 168g-gA-13k3 (339) | Mixed | k3: j3 with the questions turned into statements and "taken out of" back | Mixed (66% AI), 05:34:52: P10 through your P11 (96 words), and P12 from "The useful thing" through P13 (138 words) |
+| 168g-gA-13k4 (341) | Mixed | k4: j3 (24% in this group) with "taken out of" back for "come out of", which can read as "come from" | Mixed (49% AI), 05:34:57: your P11 from "They share language" (37 words), and P12 from "The useful thing" through P13 (140 words) |
+| 168g-gA-13k5 (332) | Mixed | k5: the link spelled out the way you linked P9 to P12 ("because along with the collective work …") | Mixed (36% AI), 05:35:00: P12 from "It's how they learn" through P13 (125 words) |
+| 168g-gA-13k6 (340) | Mixed | k6: Emulate h's order (collective work, then the selling), "to no outside money at all" | Mixed (48% AI), 05:35:11: your P11 from "They share language" (37 words), and P12 from "The useful thing" through P13 (139 words) |
+| 168g-P13k1 (104) | AI |  | AI (100%), 05:35:14 |
+| 168g-P13k2 (101) | Human (weak) |  | AI (100%), 05:35:18 |
+| 168g-P13k3 (104) | Human (weak) |  | AI (100%), 05:35:23 |
+| 168g-P13k4 (106) | Human (weak) |  | AI (100%), 05:35:29 |
+| 168g-P13k5 (97) | AI |  | AI (100%), 05:35:32 |
+| 168g-P13k6 (105) | Human (weak) |  | AI (100%), 05:35:39 |
+| 168g-P7k1 (53) | Human (weak) | P7 as one run-on list with "and" ("education and health care and justice") | **Human (100%)**, 05:35:41 |
+| 168g-P6g2P7k1 (93) | Human (weak) |  | **Human (100%)**, 05:35:46 |
+| 168g-S9v7a (1074) | Mixed | 166g's best section (20%) with P13j3 and P15h; P6g2 back | **Human, "Mostly Human Written" (8% AI, 1,097 words scanned)**, 05:35:52: P7 from "They've set up their own" (41 words), and P14's last words into P15 (45 words) |
+| 168g-S9v7b (1063) | Mixed | the same with P15f2 | **Human, "Mostly Human Written" (7% AI, 1,086 words scanned)**, 05:35:56: P7 from "They've set up their own" (41 words), and P14's last words into P15 (39 words) |
+
+
+168g (submitted 05:34:45 to 05:35:56 UTC, 2026-10-09; the second browser call timed out after the parts were sent, and the results were read from the history by hash): mine 8 of 16. Every new P13 reads AI alone, k4 too, which differs from j3 (Human alone) only in "be taken out of" for "come out of". In the group after your P12, none passes (36 to 100%). The section with P6g2 back, P13j3 and either P15 reads Human, "Mostly Human Written" (7 to 8% AI): the windows left are P7f's list and P14's end into P15. P13j3 isn't in a window there. P7k1 passes alone and beside P6g2.
+
+Batch 169g (written 05:46 UTC on 2026-10-09 by `date -u`, before the call; `v169.json`, parts in `fix-v14-parts.json`; the fixes are trace E's, `review-d6/trace-E.md`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 169g-P4g (59) | Human (weak) | trace E: "were coming" back for "had come" (an ongoing stream of visitors) | **Human (100%)**, 05:47:42 |
+| 169g-P4gP5g (94) | Human (weak) | P5g is under 50 words | **Human (100%)**, 05:47:45 |
+| 169g-P5g (35) | Human (weak) | trace E: "from the Zapatistas" (not "them"), and "there may be" a relationship with ayahuasca, not "they may have" (the published names no holder) | not checked: under 50 words, the web app has no button for it (it passes beside P4g) |
+| 169g-P7k2 (49) | Human (weak) | trace E: "the closest whole example I found" (not "the closest thing to"), "political formation" (not "training") | not checked: 49 words, no button |
+| 169g-P6g2P7k2 (89) | Human (weak) |  | AI (100%), 05:47:49 |
+| 169g-P7k3 (53) | Human (weak) | only "political formation" changed from k1 | **Human (100%)**, 05:48:07 |
+| 169g-P6g2P7k3 (93) | Human (weak) |  | **Human (100%)**, 05:48:12 |
+| 169g-P13m1 (106) | Human (weak) | trace E: "come out of ordinary market purchase" can read as "come from" it, so "move out of"; "it can also create" moved next to "Outside help" so "it" can't be the organization | AI (100%), 05:48:17 |
+| 169g-P13m2 (106) | Human (weak) | "get out of" instead | AI (100%), 05:48:23 |
+| 169g-P14z (45) | Human (weak) | trace E: "For the 10th anniversary" (no "in celebration of"), "lived with families and learned" (not "came to live") | not sent (45 words; slice skipped it) |
+| 169g-P14zP15h (122) | Human (weak) | P14z is under 50 words | **Human (100%)**, 05:48:29 |
+| 169g-S9v8a (1059) | Mixed | 168g's 8% section with the trace's fixes in P4, P5, P7 (k2), P13 (m1) and P14 | Mixed (30% AI, 1,082 words), 05:48:33: P1 from "The mountain road" into P2 (73 words), P6's second sentence through P8 (165 words), P13 from "do they show?" (46 words), P14's end into P15 (45 words) |
+| 169g-S9v8b (1059) | Mixed | with P13m2 | Mixed (44% AI, 1,082 words), 05:48:41: the same P1 to P2 and P6 to P8 windows, P13 from "outside support. So what" (51 words), P14's end through P15 (80 words), P16's end through P17 (108 words) |
+| 169g-S9v8c (1063) | Mixed | with P7k3 | Mixed (26% AI, 1,086 words), 05:48:46: P1 from "The mountain road" into P2 (73 words), P6's second sentence through P8 (169 words), P14's end into P15 (45 words) |
+| 169g-S9v8d (1063) | Mixed | with P7k3 and P13m2 | Mixed (44% AI, 1,086 words), 05:48:51: as S9v8b |
+
+169g (submitted 05:47:42 to 05:48:51 UTC, 2026-10-09): mine 9 of 12 checked. P4g, P7k3 and P14z (with P15h) pass; P5g passes beside P4g. The web app has no button under 50 words, so P7k2 (49) can't anchor P6 and fails beside it anyway. Both P13 meaning fixes read AI alone, like every P13 since j3 except j3 itself. All five trace fixes together tip the section from 7% to 26 to 44% AI, and the P1 to P2 and P6 to P8 windows come back, so the fixes go in one at a time on 168g's section (the gate's method).
+
+Batch 170g (written 05:50 UTC on 2026-10-09 by `date -u`, before the call; `v170.json`, parts in `fix-v15-parts.json`): the trace's fixes one at a time on 168g's 7% section (S9v7b), and three more P13 wordings that keep j3 except where the trace caught it.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 170g-P13n1 (107) | Human (weak) | j3 (Human alone) plus "instead", which rules out the "come from" reading | **Human (100%)**, 05:51:16 |
+| 170g-P13n2 (109) | AI | "don't have to come from ordinary market purchase. They can be governed collectively instead." | AI (100%), 05:51:20 |
+| 170g-P13n5 (107) | AI | "you can take … out of ordinary market purchase and govern them collectively" | Mixed (45% AI), 05:51:25: from "That you can take" (47 words) |
+| 170g-P4fP5g (94) | Human (weak) | P5g beside the P4 that's in the 7% section | **Human (100%)**, 05:51:29 |
+| 170g-P14zP15f2 (111) | Human (weak) | P14z beside the P15 that's in the 7% section | Mixed (59% AI), 05:51:34: P15f2 (69 words) |
+| 170g-S9w7 (1055) | Human | 168g's 7% section (S9v7b) with one fix: P7k3 (P7f's list was a window) | Mixed (22% AI, 1,078 words), 05:51:42: P1 from "The mountain road" into P2 (73 words), P6's second sentence through P8 (169 words) |
+| 170g-S9w5 (1064) | Human | one fix: P5g | **Human, "Mostly Human Written" (7% AI)**, 05:51:46: the base's two windows (P7f's list, 41 words; P14's end into P15, 39 words) |
+| 170g-S9w4 (1063) | Human | one fix: P4g | **Human, "Mostly Human Written" (7% AI)**, 05:51:51: the base's two windows |
+| 170g-S9w14 (1059) | Human | one fix: P14z | Mixed (12% AI), 05:51:55: P6's second sentence through P7 (94 words), P14's end into P15 (39 words) |
+| 170g-S9w13n1 (1064) | Human | one fix: P13n1 | **Human, "Mostly Human Written" (4% AI, 1,087 words)**, 05:52:03: only P7f's list (41 words) |
+| 170g-S9w13n2 (1066) | Mixed | one fix: P13n2 | **Human, "Mostly Human Written" (8% AI)**, 05:52:07: P6's second sentence through P7 (94 words) |
+| 170g-S9w13n5 (1064) | Mixed | one fix: P13n5 | Mixed (14% AI), 05:52:13: P7f's list (41 words), P13 from "do they show?" (47 words), P14's end through P15 (69 words) |
+| 170g-S9wAll (1053) | Mixed | all five with P13n1, to compare | Mixed (22% AI), 05:52:17: P1 from "The mountain road" into P2 (73 words), P6's second sentence through P8 (169 words) |
+
+170g (submitted 05:51:16 to 05:52:17 UTC, 2026-10-09): mine 8 of 13. P13n1 (j3 plus "instead") passes alone and, in the section, takes the P14 to P15 window away: one window left, P7f's list (4% AI). P4g and P5g leave the section as it was. P7k3 is what brings the P1 to P2 and P6 to P8 windows back (S9w7 and S9wAll), though it passes alone and beside P6. P14z tips P15f2 (alone as a pair, and in the section), so P14z goes with P15h, which it passes beside (169g).
+
+Batch 171g (written 05:54 UTC on 2026-10-09 by `date -u`, before the call; `v171.json`, parts in `fix-v16-parts.json`): P7 with the trace's fixes, alone, beside P6, and in the section with every other trace fix.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 171g-P7p1 (61) | Human (weak) | P7f with "political formation" (trace E on k1) | **Human (100%)**, 05:54:23 |
+| 171g-P6g2P7p1 (101) | Human (weak) |  | **Human (100%)**, 05:54:27 |
+| 171g-P7q7 (57) | Human (weak) | P7p1 with "the closest whole example I found" too (trace E's other P7 finding) | **Human (100%)**, 05:54:32 |
+| 171g-P6g2P7q7 (97) | Human (weak) |  | **Human (100%)**, 05:54:38 |
+| 171g-P7q5 (60) | Human (weak) | another order: "education and health care and justice", then "collective production of their own" | **Human (100%)**, 05:54:42 |
+| 171g-P6g2P7q5 (100) | Human (weak) |  | **Human (100%)**, 05:54:50 |
+| 171g-S9x-p1 (1072) | Mixed | every trace fix in (P4g, P5g, P13n1, P14z with P15h) and P7p1; P7f's window was its list | **Human, "Mostly Human Written" (10% AI, 1,095 words)**, 05:54:54: P7p1 from "They've set up" (41 words), and P16's end through P17 (61 words) |
+| 171g-S9x-q7 (1068) | Mixed | with P7q7 | Mixed (14% AI), 05:54:59: P6's second sentence through P7 (90 words), P16's end through P17 (61 words) |
+| 171g-S9x-q5 (1071) | Mixed | with P7q5 | Mixed (14% AI), 05:55:03: P1 from "The mountain road" through P3 (103 words), P16's end through P17 (61 words) |
+
+171g (submitted 05:54:23 to 05:55:03 UTC, 2026-10-09): mine 9 of 9. Every P7 passes alone and beside P6; in the section each moves the window somewhere else (P7's list, P6 to P7, or P1 to P3), and with P14z and P15h a new window opens at P16's end and P17. 170g's S9w13n1 (P14y3 and P15f2) had no window there.
+
+Batch 172g (written 05:56 UTC on 2026-10-09 by `date -u`, before the call; `v172.json`, parts in `fix-v17-parts.json`): on 170g's 4% section, with every trace fix except P14's, the P7 list in other shapes, and P14's two fixes one at a time.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 172g-P7r1 (50) | Human (weak) | the list fronted before a colon: "Education, health care, … : they've built their own versions of all of it" | **Human (100%)**, 05:57:16 |
+| 172g-P6g2P7r1 (90) | Human (weak) |  | **Human (100%)**, 05:57:20 |
+| 172g-P7r2 (63) | Human (weak) | one sentence for the five, "On top of that" for teaching outsiders | **Human (100%)**, 05:57:25 |
+| 172g-P6g2P7r2 (103) | Human (weak) |  | **Human (100%)**, 05:57:30 |
+| 172g-P14z3P15f2 (113) | Human (weak) | P14 with "lived … learned" only ("In celebration of" kept, my opinion: "for the anniversary" means to mark it) | **Human (100%)**, 05:57:34 |
+| 172g-P14z4P15f2 (113) | Mixed | P14 with "For the 10th anniversary" only ("came to live" kept) | **Human (100%)**, 05:57:42 |
+| 172g-S9y-A (1065) | Human | 170g's 4% section (P14y3, P15f2, P13n1) with P4g, P5g and P7p1 (formation) | **Human, "Mostly Human Written" (4% AI, 1,088 words)**, 05:57:46: P7p1 from "They've set up" (41 words) |
+| 172g-S9y-B (1054) | Human | with P7r1 | **Human, "Mostly Human Written" (6% AI)**, 05:57:51: P1 from "The mountain road" into P2 (77 words) |
+| 172g-S9y-C (1067) | Human | with P7r2 | **Human, "Human Written" (0% AI, 1,090 words scanned)**, 05:57:59 |
+| 172g-S9y-D (1063) | Mixed | A with P14z3 | **Human, "Mostly Human Written" (4% AI)**, 05:58:03: P7p1's list (41 words) |
+| 172g-S9y-E (1063) | Mixed | A with P14z4 | **Human, "Mostly Human Written" (4% AI)**, 05:58:07: P7p1's list (41 words) |
+
+172g (submitted 05:57:16 to 05:58:07 UTC, 2026-10-09): mine 8 of 11. **The section reads 100% Human with P7r2** (S9y-C): every trace fix in except P14's. Each of P14's two fixes alone keeps P15f2 passing as a pair and adds no window (D, E); together (P14z) they tipped P15f2 in 170g.
+
+Batch 173g (written 05:58 UTC on 2026-10-09 by `date -u`, before the call; `v173.json`, parts in `fix-v18-parts.json`): P14's fixes in 172g's 0% section.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 173g-P14z5P15f2 (111) | Human (weak) | both of P14's fixes, in two sentences ("opened up the Escuelita. Outsiders lived with families there and learned …") | Mixed (59% AI), 05:59:12: P15f2 (69 words) |
+| 173g-S9z-z3 (1065) | Human | 172g's 0% section with P14z3 ("lived … learned"; "In celebration of" kept) | **Human, "Human Written" (0% AI, 1,088 words scanned)**, 05:59:17 |
+| 173g-S9z-z5 (1063) | Human | with P14z5 (both fixes) | **Human, "Mostly Human Written" (4% AI)**, 05:59:21: P14's end into P15 (39 words) |
+| 173g-S9z-z4 (1065) | Human | with P14z4 ("For"; "came to live" kept) | **Human, "Human Written" (0% AI, 1,088 words scanned)**, 05:59:26 |
+
+173g (submitted 05:59:12 to 05:59:26 UTC, 2026-10-09): mine 3 of 4. With either of P14's fixes the section stays 100% Human (z3: "lived … learned"; z4: "For"); with both, P15f2 reads AI beside it (again) and the section reads 4%. z3 fixes the one I think changes meaning ("came to … learn" says what they came for, not that they learned).
+
+Batch 174g (written 06:00 UTC on 2026-10-09 by `date -u`, before the call; `v174.json`): one more try at both P14 fixes.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 174g-P14z6P15f2 (112) | Mixed | both of P14's fixes again, "To mark" for "For": z5 and z (both fixes) tipped P15f2 | |
+| 174g-S9z-z6 (1064) | Mixed |  | |
+
+174g (submitted 06:00:19 to 06:00:23 UTC): mine 1 of 2. P14z6 passes beside P15f2, but the section reads 6% AI (P16's end through P17, 61 words), so z3 stays.
+
+Check 175g (06:00:49 UTC): P3v2 with P4g (85 words), **Human (100%)**. P3 is under 50 words and had passed beside the published P4; P4 is now P4g. **No prediction was written before this call; that broke the rule, my slip.** I'd have said Human (weak).
+
+**Candidate v9 (= 173g's S9z-z3, 100% Human, 1,088 words scanned):** P1v2, P2v2, P3v2, P4g, P5g, P6g2, P7r2, P8 (published), your P9 to P12, P13n1, P14z3, P15f2, P16e3, P17e3, with the published heading and captions. Every paragraph passes alone or beside a neighbor that passes alone: P1v2, P4g, P7r2, P13n1, P15f2, P16e3, P17e3 and P8 alone; P2v2 beside P1, P3v2 beside P4g (175g), P5g beside P4g (169g), P6g2 beside P7r2 (172g), P14z3 beside P15f2 (172g). Your P9 to P12: your check.
+
+
+Batch 176g (written 06:16 UTC on 2026-10-09 by `date -u`, before the call; `v176.json`, parts in `fix-v19-parts.json`): the d6 gate's findings on v9 (trace F, `review-d6/trace-F.md`; stance, `review-d6/STANCE-d6.md`), each fix alone and then one at a time in v9.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 176g-P13o1 (108) | Human (weak) | trace F and trace E both: "it" can attach to the organization, so "that help can also create" | **Human (100%)**, 06:16:34 |
+| 176g-P13o2 (108) | AI | o1 with the published "be taken out of … and governed" (trace F: "come out of" drops the agent and reads as "come from" until "instead") | AI (100%), 06:16:38 |
+| 176g-P13o3 (108) | AI | o1 with "be pulled out of … and governed" | AI (100%), 06:16:42 |
+| 176g-P7s1 (64) | Human (weak) | traces E and F: "the closest whole example that I found"; F: "built" (not "run") for production and formation, and the coordinating covers all six ("They do all of this while") | **Human (100%)**, 06:16:47 |
+| 176g-P6g2P7s1 (104) | Human (weak) |  | **Human (100%)**, 06:16:52 |
+| 176g-P7s2 (56) | Human (weak) | the same fixes, one list | **Human (100%)**, 06:16:59 |
+| 176g-P6g2P7s2 (96) | Human (weak) |  | **Human (100%)**, 06:17:03 |
+| 176g-P15g1 (65) | Human (weak) | stance d6: "build it" made it the same system (the essay forks the method), so "build somewhere else"; "how many daughter communities there are" (not "get started": the essay asks whether they last) | **Human (100%)**, 06:17:08 |
+| 176g-P14z3P15g1 (112) | Mixed | P15 has tipped beside P14 fixes before | **Human (100%)**, 06:17:13 |
+| 176g-P15g2 (76) | Human (weak) | the same two fixes in P15h | **Human (100%)**, 06:17:17 |
+| 176g-P14z3P15g2 (123) | Human (weak) |  | **Human (100%)**, 06:17:26 |
+| 176g-P4h (62) | Human (weak) | trace F: "on an outdoor court" back, "and I translated" (not "which") | **Human (100%)**, 06:17:30 |
+| 176g-P3v2P4h (89) | Human (weak) |  | **Human (100%)**, 06:17:35 |
+| 176g-P4hP5g (97) | Human (weak) |  | **Human (100%)**, 06:17:39 |
+| 176g-F7a (1066) | Mixed | v9 (173g's 0% section) with P7s1: every P7 change so far moved a window | **Human, "Mostly Human Written" (5% AI)**, 06:17:45: P1 from "The mountain road" into P2 (73 words) |
+| 176g-F7b (1058) | Mixed | with P7s2 | Mixed (16% AI), 06:18:34: P1 from "The mountain road" through P3 (103 words), P6's second sentence through P7 (89 words) |
+| 176g-F13a (1066) | Human | with P13o1 | **Human, "Mostly Human Written" (4% AI)**, 06:18:38: P14's end into P15 (39 words) |
+| 176g-F13b (1066) | Mixed | with P13o2 | **Human, "Mostly Human Written" (4% AI)**, 06:18:43: the same window |
+| 176g-F13c (1066) | Mixed | with P13o3 | **Human, "Mostly Human Written" (4% AI)**, 06:18:49: the same window |
+| 176g-F15a (1064) | Mixed | with P15g1 | **Human, "Human Written" (0% AI, 1,087 words)**, 06:18:00 |
+| 176g-F15b (1075) | Mixed | with P15g2 | **Human, "Mostly Human Written" (6% AI)**, 06:18:05: P16's end through P17 (61 words) |
+| 176g-F4 (1068) | Human | with P4h | **Human, "Mostly Human Written" (4% AI)**, 06:18:10: P7r2 from "They've set up" (43 words) |
+
+176g (submitted 06:16:34 to 06:18:49 UTC; the fourth browser call was refused by the policy check and resent): mine 15 of 22. Every fix passes alone and beside its neighbor except the two P13s that put back "be taken/pulled out of" (both 100% AI, like every P13 with that verb). In v9, one at a time: P15g1 keeps it at 0%; P13o1, P7s1 and P4h each open one small window (4 to 5%); P7s2 and P15g2 open more.
+
+Batch 177g (written 06:19 UTC on 2026-10-09 by `date -u`, before the call; `v177.json`): the d6 fixes combined on v9 with P15g1.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 177g-C1 (1065) | Human | v9 with P15g1 (0% in 176g) and P13o1: P13o1's window was P14's end into P15f2, and P15 is now g1 | **Human, "Human Written" (0% AI, 1,088 words scanned)**, 06:19:42 |
+| 177g-C2 (1066) | Mixed | C1 with P7s1 | **Human, "Mostly Human Written" (5% AI)**, 06:19:47: P1 from "The mountain road" into P2 (73 words) |
+| 177g-C3 (1068) | Mixed | C1 with P4h | **Human, "Mostly Human Written" (4% AI)**, 06:19:52: P7r2 from "They've set up" (43 words) |
+| 177g-C4 (1069) | Mixed | C1 with P7s1 and P4h | Mixed (25% AI), 06:19:58: P1 to P3 (103 words), P6's second sentence through P8 (181 words) |
+| 177g-C5 (1065) | Mixed | v9 with P15g1 and P7s1 | Mixed (12% AI), 06:20:03: P1 to P3 (103 words), P7's list (48 words) |
+| 177g-C6 (1067) | Mixed | v9 with P15g1 and P4h | **Human, "Mostly Human Written" (4% AI)**, 06:20:08: P7r2 from "They've set up" (43 words) |
+
+177g (submitted 06:19:42 to 06:20:08 UTC): mine 3 of 6. **v10 = v9 with P15g1 and P13o1 reads 100% Human (C1).** P7s1 and P4h still each open a window in it.
+
+Batch 178g (written 06:21 UTC on 2026-10-09 by `date -u`, before the call; `v178.json`, parts in `fix-v20-parts.json`): trace F's three P7 findings, added one at a time, in v10.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 178g-P7t1 (60) | Human (weak) | P7r2 with "the closest whole example that I found" (traces E and F) | **Human (100%)**, 06:21:30 |
+| 178g-P6g2P7t1 (100) | Human (weak) |  | **Human (100%)**, 06:21:35 |
+| 178g-V-t1 (1062) | Mixed | v10 with P7t1 | **Human, "Mostly Human Written" (6% AI)**, 06:21:39: P1 from "The mountain road" into P2 (77 words) |
+| 178g-P7t2 (60) | Human (weak) | t1 with "they've built" for "they run" (trace F) | **Human (100%)**, 06:21:43 |
+| 178g-P6g2P7t2 (100) | Human (weak) |  | **Human (100%)**, 06:21:48 |
+| 178g-V-t2 (1062) | Mixed | v10 with P7t2 | **Human, "Mostly Human Written" (5% AI)**, 06:21:57: P1 from "The mountain road" into P2 (73 words) |
+| 178g-P7t3 (65) | Human (weak) | t2 with "and they do all of this while coordinating" (trace F: the scope) | **Human (100%)**, 06:22:00 |
+| 178g-P6g2P7t3 (105) | Human (weak) |  | **Human (100%)**, 06:22:04 |
+| 178g-V-t3 (1067) | Mixed | v10 with P7t3 | **Human, "Mostly Human Written" (8% AI)**, 06:22:10: P1 from "The mountain road" through P3 (103 words) |
+
+178g (submitted 06:21:30 to 06:22:10 UTC): mine 6 of 9. "The closest whole example that I found" opens a window in P1 to P3 every time (t1 to t3), as it did in 171g (q7) and 176g (s1, s2): six wordings in all. So under the gate's rule P7's three trace F findings are kept items for Joel, with my opinion, and v10 keeps P7r2.
+
+**Candidate v10 (= 177g's C1, 100% Human, 1,088 words scanned):** v9 with P13o1 ("that help can also create", traces E and F) and P15g1 ("how many daughter communities there are", "can build somewhere else", stance d6). P13o1 and P15g1 pass alone (176g), P15g1 beside P14z3 (176g).
+
+Batch 179g (written 06:24 UTC on 2026-10-09 by `date -u`, before the call; `v179.json`): the linter fails v10 on B13 (four paragraphs open with "In": P1, P2, P14 and P16; the published has three, P14 opening "For"). P14 without "In celebration of", in v10.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 179g-P14z6P15g1 (111) | Human (weak) | P14 with both trace fixes ("To mark", "lived … learned") beside the new P15g1 | **Human (100%)**, 06:24:56 |
+| 179g-P14z4P15g1 (112) | Human (weak) | "For", "came to live" kept | **Human (100%)**, 06:25:00 |
+| 179g-P14z5P15g1 (110) | Mixed | both fixes in two sentences; it tipped P15f2 in 173g | **Human (100%)**, 06:25:05 |
+| 179g-W-z6 (1064) | Mixed | v10 with P14z6: the linter's hard B13 (four paragraphs open with "In"; the published has three) and trace E both point at "In celebration of" | **Human, "Mostly Human Written" (6% AI)**, 06:25:13: P16's end through P17 (61 words) |
+| 179g-W-z4 (1065) | Human | v10 with P14z4 | **Human, "Human Written" (0% AI, 1,088 words)**, 06:25:18 |
+| 179g-W-z5 (1063) | Mixed | v10 with P14z5 | **Human, "Human Written" (0% AI, 1,086 words)**, 06:25:22 |
+
+179g (submitted 06:24:56 to 06:25:22 UTC): mine 3 of 6. **v11 = v10 with P14z5 reads 100% Human**: both of trace E's P14 fixes are in ("For the 10th anniversary", "Outsiders lived with families there and learned"), beside P15g1 it passes, and P14 no longer opens with "In". The linter still counts three "In" openers (P1, P2, P16, all three the published's own), and B13 fails at three.
+
+Batch 180g (written 06:26 UTC on 2026-10-09 by `date -u`, before the call; `v180.json`, parts in `fix-v21-parts.json`): one of the three published "In" openers changed, in v11.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 180g-P1v2P2w (102) | Human (weak) | P2 opening "At a café in San Cristóbal" (same facts) so only two paragraphs open with "In" | **Human (100%)**, 06:26:22 |
+| 180g-P16w (113) | Human (weak) | P16 opening "As part of my research" for "In the context of my research" | **Human (100%)**, 06:26:27 |
+| 180g-P16wP17e3 (172) | Human (weak) |  | **Human (100%)**, 06:26:31 |
+| 180g-X-P2w (1063) | Mixed | v11 with P2w: P1 to P3 has opened windows in this section before | **Human, "Human Written" (0% AI)**, 06:26:39 |
+| 180g-X-P16w (1062) | Mixed | v11 with P16w: P16's end to P17 too | **Human, "Human Written" (0% AI)**, 06:26:44 |
+| 180g-X-both (1062) | Mixed |  | **Human, "Human Written" (0% AI, 1,085 words)**, 06:26:49 |
+
+180g (submitted 06:26:22 to 06:26:49 UTC): mine 3 of 6. Both opener changes pass alone, beside their neighbors and in v11, together too. But "At a café in San Cristóbal, the only white man we met" can narrow "only" to the café, so P2 gets one more wording that keeps the town as the scope.
+
+Batch 181g (written 06:27 UTC on 2026-10-09 by `date -u`, before the call; `v181.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 181g-P1v2P2x (102) | Human (weak) | "The only white man we met in San Cristóbal de las Casas sat us down in a café": the town stays the scope | **Human (100%)**, 06:27:38 |
+| 181g-P2xP3v2 (74) | Human (weak) | both under 50 words; diagnostic | **Human (100%)**, 06:27:43 |
+| 181g-v12 (1062) | Human | v11 with P2x and P16w | **Human, "Human Written" (0% AI, 1,085 words scanned)**, 06:27:47 |
+
+181g (submitted 06:27:38 to 06:27:47 UTC): mine 3 of 3. **Candidate v12 reads 100% Human** (1,085 words): v11 with P2x and P16w. Only P1 opens with "In" now.
+
+Batch 182g (written 06:28 UTC on 2026-10-09 by `date -u`, before the call; `v182.json`): P2 without an "In" or "The" opener.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 182g-P1v2P2y (103) | Human (weak) | "San Cristóbal de las Casas is where the only white man we met …": the linter now fails v12 on three "The" openers (P2x, P7, the published P8) | **Human (100%)**, 06:29:05 |
+| 182g-P1v2P2z (104) | Human (weak) | "We only met one white man in San Cristóbal de las Casas, and he …" | **Human (100%)**, 06:29:09 |
+| 182g-v13y (1063) | Human | v12 with P2y | **Human, "Human Written" (0% AI, 1,086 words scanned)**, 06:29:14 |
+| 182g-v13z (1064) | Human | v12 with P2z | **Human, "Human Written" (0% AI, 1,087 words)**, 06:29:19 |
+
+182g (submitted 06:29:05 to 06:29:19 UTC): mine 4 of 4. **Candidate v13 = v12 with P2y reads 100% Human (1,086 words).** P2y keeps the published "the only white man we met" with the town as its scope. The linter's hard B13 is clear (two "The" openers, one "In").
