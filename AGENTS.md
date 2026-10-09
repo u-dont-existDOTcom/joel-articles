@@ -66,6 +66,12 @@ Do not automatically convert research notes such as `I thought X`, `I had heard 
 
 Keep the inquiry/correction process only when **the process itself performs a real article function**: for example, the article is explicitly methodological, the change of mind is evidence for the argument, the original misconception is common and worth correcting, or the provenance of the uncertainty materially matters. Otherwise, research workflow is source metadata, not prose.
 
+## Checks that judge text
+
+Before you write or extend anything that decides something about text (a linter rule, a filter, a matcher, a validator, a score or a prompt rule), apply the pattern-matching fit check in `u-dont-existDOTcom/universal-dev-architecture`, `patterns/reasoning-selection.md`. Word lists, regular expressions and parsers fit exact questions: a fixed string, a count, a hash, a heading's place. Judgments about meaning (tone, register, idiom, stance, whether a phrase is everyday speech or a quip, whether two sentences say the same thing) go to a model that reads the text. A model reads language; a script only matches it. When a list or pattern helps at all, it only lists candidates, and a model judges each one. When a second finding of the same kind comes in against the same check, redesign the check instead of adding to its list (the recurring-finding check in the same file).
+
+Joel had to say this twice (2026-10-07). The linter's abstract-agent check matched a word list of abstract nouns; he called the list brittle ("abstract nouns are a real vast open-ended list in my mind"). It was replaced by a parser and a dictionary lookup, another list in effect, until he asked: "why can't you simply look at a word and know it's an abstract concept, isn't that what LLMs are great at?" Now the parser only finds candidates and a fresh model judges them against his ratings (`tools/humanization/abstract_agents_prompt.py`).
+
 ## Code review rules
 
 - Never silently soften, balance, or change the owner's argument. Disagreement must be raised directly rather than hidden in an edit.
