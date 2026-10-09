@@ -469,6 +469,51 @@ The web app read v60 at 9% AI (the heading with P1, P19's last two sentences, P2
 - "ok i mean boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI." (E141: a frequency signal is a caution, not a ban; his own "ordinary life" and "boring" stay.)
 - "continue".
 
+## Joel's notes, 2026-10-07 15:27 to 16:06 UTC (the bans list, and context)
+
+- 15:27: "show me the bans list. i want to make sure you're not banning things just bc ai overuses them." The header of owner_bans.txt said never to write the last three entries, and two of those are cautions; fixed.
+- 15:27, on B2: "i don't understand the context for B2, that's coming after what? that matters because "still," obviously comes after something..."
+- 15:44, on the never-writes (E142, E143):
+  - "that was regarding abstract subjects. "the weather doesn't get to decide" for example, not "your dad doesn't get to decide", ... and humans do write this sometimes, so i hate to say straight up ban, but i'm afraid otherwise it will not really be avoided."
+  - "Fine,", wry humor and the weekday: "same here, this could be human use sometimes but i'm afraid you'll default to using it".
+- 15:44, on the cautions:
+  - "yes lists of 3 especially, and lists in general are overused by AI. try to avoid that unless it's really needed."
+  - "yes abstract things doing what people do is way overused by ai because it sounds polished."
+  - "there are other X Y rules, like "Not x, but still y."" (E146)
+  - "the marching order is really important"
+- 15:44: "i'm surprised it looks like all the ai tells you have are the ones i told you specfically. you haven't found any yourself?" (E144; `TELLS-FROM-PANGRAM-DATA-20261007.md`)
+- 15:44: "so whenever you give me the in-context side by side, you need to actuallly give me the context in that page so i can understand what's coming from what. i'm not telling you to take out "still" i'm asking to see the whole context there" (E145)
+- 15:27: "i don't mind fixing things if you're learning from my fixes, but if doing it yourself helps you learn better then you should do that."
+- 16:06: "oh sorry now i didn't mean for you to merge stuff that was not even finished, you didn't even show me the context, that's what i asked you to do" (E147: nothing was merged; "continue" is a merge OK only for finished work he has seen).
+
+## Joel's fixes and notes, 2026-10-07 23:18 UTC (the Also Look Outward run, C1's context, the dedup)
+
+- **"your happy place":** "change it to "Once you're in your happy place"" (Also Look Outward's opening; it was "that happy place").
+- **C1's context (E152):** "starting with C1, PGQ-002 (in) i was confused about what the context was for that. looks like it followed the thing before it but i guess that's not accurate." It does follow the apology paragraph; the page's code label and empty source cell were the problem.
+- **His fix of the run (E153):** "Here i fixed the red sections for you, this is human high conf learn some lessons". Four paragraphs, word for word:
+  - the relationship paragraph's third clause became "Might it be due to…? (If so, you're reading the right guide!)";
+  - "If you really did hurt them, repair it. Also easier said than done, but...";
+  - "You can mean the apology for a start." … "And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it." … "nor does it prove they're manipulating you.";
+  - C1: "First impressions are everything," as they say, but it could be even worse than that; "I'm giving you permission now to quit school and flunk the tests."; "who this person is, and who you are … in the beautiful present", and the closing question cut.
+  Pangram: alone 100% Human (80, 88, 105); the h2 (2,181) and the h1 (3,005) 100% Human.
+- **The dedup (E151):** "but some of that looked like it was duplicating other stuff from before like also look outward and the section before. did you make the dedup pass before trying to humanize? i'm a little confused". No: `articles/inner-child-therapy/DEDUP-PASS-20261008.md`.
+- No "continue".
+
+## Joel's notes, 2026-10-08 02:23 UTC (depth draft 1, where the r4 additions came from, a rule)
+
+- **Cut depth draft 1:** "the paragraph didn't make much sense to begin with, and now it makes much less sense without the middle part. i'd say cut that para".
+- **Where it came from (E155):** "i assume it's supposed to represent some new part of the therapy map. who is gonna be "sneaking reparenting in " thru some gentler version? we have no idea where this came from?" It came from innerSignalGraph #126: the app's rule against re-offering inner-child work after a client says no, written into the guide as prose (`articles/inner-child-therapy/R4-ADDITIONS-PROVENANCE-20261008.md`).
+- **The rule (E155):** "maybe we should somehow implement a rule that guide additions can't be suggested by other owrkers unless they are explained, what map change caused them, and how they are really needed vs superfluous to the guide."
+- **The page (E154):** "i also don't understand how you got depth draft 1 from the r4 guide? doesn't look like a good rewrite of that one sentence. i'm so confused. same for draft 2 it seems like way more than the one sentence it's coming from? same for pleasantness draft 1... idk i'm not sure what i'm doing now". The page had shown one sentence of each guide paragraph.
+- No "continue".
+
+## Joel's note, 2026-10-08 03:57 UTC (the map, the AI guide and the humanized guide)
+
+- **The design (E156):** "the guide updates were sent to you due to map changes which GPT believed should be reflected in the guide, because the guide and map are supposed to complement each other and agree with each other, but that's also why we have the AI guide and the humanized guide, in case the map-based AI guide is just too much stuff for people to read."
+- **A brainstorm:** "i'm open to your brainstorm on the best architecture and how to ground the map and how to update the guide as the map is updated because i'm mainly updating the map now (based on using it on clients) rather than the guide directly." The answer: `docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md`.
+- **The question:** "did you think none of that stuff needed saying in the guide even tho it needed to be in the map?" No; turn 36 over-corrected, and the #126 paragraphs are back as teaching points.
+- No "continue".
+
 ## Joel's answers and fixes, 2026-10-07 01:43 UTC (community sections 5, 6 and 7)
 
 - **Section 5, spellings.** "section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them." ("contra-indications", "pre-requisite", "re-incarnation", "priveleged" → standard spellings; the section read 100% Human in the web app, 2,331 words scanned.)
@@ -522,3 +567,13 @@ His texts are kept verbatim in the community lane's `s9/joel-0502/joel-20261009-
 - **The UDA rule.** "yeah i mean the MC rule should have been a UDA rule actually. so fix that. and it's not specific to this exact case." (The strategy fit and efficacy rule is now in UDA's `patterns/reasoning-selection.md` universal core, u-dont-existDOTcom/universal-dev-architecture#345; `AGENTS.md`, "Method fit and switching".)
 - **The pages.** "on every turn you need to give me the in-context review page and the full humanized page, just like the innerchild lane does. that's assuming you have something for me to review." (`OWNER-FACING-TURN-CONTRACT.md`, "Every turn: the review page and the whole article".)
 
+## Joel's answers, 2026-10-09 02:06 UTC (the teaching points, C2, the map side)
+
+- **T1 to T9:** "all those T1-9 points look good, if they aren't already in the guide." (Drafted in turn 38 only where the article doesn't say them; eight are in, and T2 is one sentence of T1.)
+- **C2:** "C2 looks fine". (In after his C1 and T8.)
+- **The map side:** "yes teaching points makes sense altho the ai guide is then updated where, from the map side? automatically hopefully when map is updated if need be? can that be set up?" (Filed for innerSignalGraph in UDA's lane: a teaching point or app-only line with every map change, the AI guide written from it, the queue entry, and a check that blocks a change without them.)
+- No fixes of his text, so no lesson from a fix. No "continue".
+
+## Joel's message, 2026-10-09 22:10 UTC
+
+- "continue" (turn 38 was finished and he had both pages, so it's the merge OK, and go on).

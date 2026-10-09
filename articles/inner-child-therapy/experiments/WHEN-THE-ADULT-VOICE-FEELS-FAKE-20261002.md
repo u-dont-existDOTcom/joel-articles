@@ -380,3 +380,119 @@ Joel: "ok i mean boring, regular etc are not for sure AI tells, almost nothing i
 **Predictions:** 5 of 14 hit. I called nine of the eleven first-round paragraphs Human.
 
 **Next:** not another rewording (B10). The method that rescued A Bottom-Up Sequence P4 after eight whole failures (E135): check each failing paragraph's halves alone, find the half that carries the AI, and turn its step into what someone in the scene is thinking. Briefs that give the points without an order. Then C2 after the isolation group's first paragraph.
+
+## Turn 34 (2026-10-07, from 16:46 UTC): Joel's boundary paragraph and PGQ-001, then the rest on his model
+
+- **Joel's three paragraphs** (his boundary paragraph, and his rewrite of PGQ-001) are in at the end of Catch the Hook Before the Story Takes Over. One punctuation fix: a double space. Alone they read 100% Human (121, 148, 76), and Your Body Might Need Some Love First reads 100% Human (2,142). The h1 came back 97% Human, with one AI segment in older text: from "You can mean the apology" to C1's "Meeting them can turn into a kind of test." None of his paragraphs is in it.
+- **What his rewrite taught (E149).** A rule paragraph needs an idea for its rules to hang on. Each carve-out should be an example of a principle the paragraph states, and it should cover fewer cases. I redrafted the waiting paragraphs myself on that model. Round 1 gave each group a frame:
+  - anxiety as a backseat driver, or as a guess;
+  - lowering the dose of something strong;
+  - the gym, where sore and injured feel alike that evening;
+  - not putting all your eggs in one basket.
+  2 of 11 passed alone: the gym paragraph, and pleasantness P3 with one word changed.
+- **Round 2: a reaction or an aside.** After a second cold read and grounding, the half that read AI became a reaction, an aside or a question ("Maybe nobody laughs. (Or they do, and you survive it.)", "So how were the next few days?", "Some people keep taking little peeks during a pause … I'd wait."). 4 of 8 passed: PGQ-004's first paragraph, pleasantness P2, the depth group's pause paragraph, and C2.
+- **Round 3: the person's own words.** The other four got the person's own words in quotes ("this just isn't me", "I just have to push through this"). All four were still 100% AI. That's depth P1 and P2, and isolation P1 and P2; with turn 32's attempts, each has now failed four times.
+- **In:** PGQ-004 (alone 118 and 61; Start With Whatever Showed Up 100% Human, 2,019; When the Adult Voice Feels Fake 100% Human, 2,612).
+- **Out again: the pleasantness group.**
+  - Installed, it turned Your Body Might Need Some Love First to 92% Human, with the AI segment in older text: Also Look Outward from the danger line ("But if they've actually hurt or threatened you…") through "If you really did hurt them, repair it." and the apology paragraph, to C1's first lines.
+  - I fixed the apology paragraph twice. First, the guilt sentences became "You might feel guilty for a while anyway. I wouldn't read that as a sign the whole fight was your fault, or that they're manipulating you." Second, its march was broken with "because this is where a lot of us slide".
+  - Both fixes passed alone (86, 100), but neither cleared the h2: 92%, then 90% in two patches.
+  - So the fixes and the pleasantness paragraphs came back out. The h2 and h1 are byte-for-byte the versions that came back 100% and 97%.
+- **E150 (my own finding, not a correction).** Text added before a run that only just passes can tip that run into an AI window, because the windows shift.
+  - This run of four short instruction paragraphs had drawn a window before: 16% with C2 beside C1 in turn 31. It was clean in the h2 until the text before it grew.
+  - Fixing one paragraph of the run didn't move the window. The run needs fixing as a whole. It's also where the isolation group goes.
+  - Next time a section passes only narrowly, recheck it after every insertion before it, not only after insertions inside it.
+
+## Turn 35 (2026-10-07, from 23:18 UTC): Joel's fix of the run, and the dedup pass
+
+- **His fix is in, word for word.** That's his relationship paragraph, the repair line, the apology paragraph and C1 ("Here i fixed the red sections for you, this is human high conf learn some lessons"). Also Look Outward now opens "Once you're in your happy place" (his "change it to"). No punctuation fix was needed; his double hyphen in C1 stays. Pangram 4.0 through the dashboard:
+  - his three paragraphs alone: 100% Human (80, 88 and 105);
+  - Your Body Might Need Some Love First: 100% Human (2,181);
+  - Before You Try to Go Deep: 100% Human (3,005).
+  So the h1's 3% window from turn 34 is gone. All five predictions were hits.
+- **What his fix shows (E153).** Each change is a person reacting to what they've just said, not a new step: a question to the reader with a glad aside, "Also easier said than done, but...", "for a start", "And if it fails again … well,", "quit school and flunk the tests". The closing question that said the point again is cut.
+- **C1's context (E152).** C1 is the last paragraph of Also Look Outward, right after the apology paragraph, so the last page's context was right. But its label, "C1, PGQ-002 (in)", and its empty source cell didn't say what it was. The turn-35 page labels every row in plain words and gives installed rows their source.
+- **The dedup pass (E151).** He asked whether I'd done one before humanizing. I hadn't: the briefs showed only the paragraph before and the section. Four readers checked the whole article this turn: two looked for repeats, two checked the waiting guide points. Record: `experiments/dedup-20261008/`. Write-up: `DEDUP-PASS-20261008.md`. In short:
+  - My waiting drafts repeat the article in about eight places. The depth and pleasantness groups repeat each other in five points. The plan is to say each once, split by when it happens: the steps during a session in the depth group, the read after a session in the pleasantness group.
+  - Two PGQ paragraphs I installed repeat the article. PGQ-004's danger line comes right after Joel's "(if you're in danger, get safe first)". PGQ-012 says what PGQ-013 says. Proposals are in the write-up, waiting for him.
+  - About 40 older repeats, and 6 to 8 pulls in opposite directions, go to him as a list. Strongest first: the safety exceptions, the pause before sending, hearing the protective part out, "I believe you. And I love you", and "well-loved" twice in a row.
+- **Tools.** `reviewer.py dedup` and `reviewer.py repeats` build the two checks. `render_in_context.py` marks a repeat in place ("repeats") and checks its quote, and takes a block intro. Tests cover all of them.
+- **No Pangram checks beyond the five above.** Nothing new went into the article except his fix and his edit.
+
+### Next
+
+1. Redraft the waiting groups with only what's left after the dedup, splitting the shared points as above. Run the dedup check on the new drafts, then the cold reads, then Pangram: alone, in the h2, in the h1.
+2. When he answers on section 3 of the write-up, make his choices. If he OKs it, cut my PGQ-004 danger sentence, and check the paragraph alone, in its h2 and in the h1.
+3. The older repeats wait for his picks.
+
+## Turn 36 (2026-10-08, from 02:23 UTC): where the r4 drafts came from
+
+- **Depth draft 1 is cut** (Joel: "i'd say cut that para").
+- **Why the drafts looked like long rewrites of one sentence (E154).** The turn-35 page gave each draft only the first sentence of its guide paragraph as its source. Each draft carries the whole paragraph. The turn-36 page shows each guide paragraph whole, with a table of what each draft sentence carries and what the writer added. The page tool now shows a partial quote inside its whole paragraph, and checks every "carries" quote.
+- **Where they came from (E155).** innerSignalGraph pull request #126 (2026-10-04) fixed the app after a new-client test, and wrote its new rules into the guide as prose. Its paragraphs are the depth group, the pleasantness group, the isolation group and the difficult-dream paragraph. None of them went on the queue of reader-facing changes. The "sneak it back in" line is the app's rule against re-offering inner-child work after a client says no. I drafted them because in turn 30 I treated unqueued r4 paragraphs as queue items. Record: `R4-ADDITIONS-PROVENANCE-20261008.md`.
+- **Joel's rule, in force here.**
+  - `reviewer.py draft` and `dedup` stop on a guide addition that has no `"provenance"` (`"map_change"`, `"why_reader_needs_it"`).
+  - The gate says unqueued guide changes are runtime-only by default.
+  - The #126 paragraphs are parked.
+  - The same rule for innerSignalGraph's workers is drafted in `docs/proposals/INNERSIGNALGRAPH-GUIDE-ADDITIONS-RULE-20261008.md` and needs his OK to file: this session couldn't get write access to that repository or to universal-dev-architecture.
+- **C2 (PGQ-003)** came from his own Oct 3 guide and is on the queue. It passes alone (130). With isolation draft 1 parked, it could follow his C1. That needs his yes, and then checks in the h2 and the h1.
+- **No Pangram checks this turn.** The article is unchanged.
+
+### Next
+
+1. If Joel says yes to C2 after C1: install it, then check it in Your Body Might Need Some Love First and in Before You Try to Go Deep.
+2. If he OKs filing the rule upstream: file it in universal-dev-architecture's suggested-fixes lane for innerSignalGraph.
+3. The turn-35 proposals on installed repeats (my PGQ-004 danger line, and the others in `DEDUP-PASS-20261008.md`) still wait for his picks.
+4. After that, the next guide section that isn't in the article yet, with its queue items checked for their reasons first.
+
+## Turn 37 (2026-10-08, from 03:57 UTC): the map, the two guides, and a correction
+
+- **Correction (E156).** Joel: the guide updates come from map changes that GPT believed should show in the guide; the AI guide and the map should agree, and the humanized guide is for readers the AI guide is too much for. Turn 36's parking of #126's paragraphs, and its "not on the queue means runtime-only" rule, are withdrawn. The paragraphs are back as teaching points T1 to T9 for him to tick.
+- **What I found about the setup.**
+  - The app reads the AI guide as context on every client turn (`context-builder.mjs` picks matching passages).
+  - So the AI guide has two readers, the app's model and people. That's why its October 4 additions are dense with cases and include notes about the app's own behavior.
+  - Changes reach the humanized guide by two routes that don't match (new guide versions and the queue).
+  - Lessons are recorded for some map changes in `THERAPY-LESSONS` but not for the October 4 continuity change, and the 54 owner amendments carry no reasons.
+- **The brainstorm he asked for** is `docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md`:
+  - lessons (why) → map (what the app does) → teaching points (what a person should understand or do, written by the map lane with each change, or "app only") → AI guide (complete, from the teaching points) → humanized guide (selected, in his voice);
+  - one way into the humanized guide (the queue of teaching points), with a check upstream that guide-text changes come with a queue entry;
+  - grounding: a lesson for every map change, marked one case or pattern, fixing the principle rather than the incident, with occasional pruning;
+  - options for the AI guide (as now, a split, or generated from the map), with "as now, plus teaching points" recommended.
+- **No Pangram checks; the article is unchanged.**
+
+### Next
+
+1. Draft the teaching points he ticks, one idea per paragraph, where each belongs, checked against the whole article.
+2. C2 after his C1, if he says yes.
+3. If he OKs it, file the teaching-point proposal for innerSignalGraph.
+
+## Turn 38 (2026-10-09, from 02:06 UTC): the teaching points drafted, C2 in, and the map side set up
+
+Joel, 02:06: "all those T1-9 points look good, if they aren't already in the guide. C2 looks fine yes teaching points makes sense altho the ai guide is then updated where, from the map side? automatically hopefully when map is updated if need be? can that be set up?"
+
+- **The map side.** Filed in universal-dev-architecture's lane for innerSignalGraph (`suggested-fixes/innerSignalGraph/2026-10-09-teaching-points-for-map-changes.md`, on its main branch), marked as his request with his three quotes. It asks innerSignalGraph's agent to:
+  - give every map change (an amendment, a node or route, a gate, a prompt rule) a teaching point, or "Guide impact: app-only" with a reason, in the same reviewed change;
+  - write the AI guide's text from the teaching point, in the reader's voice, with app behavior kept in the prompts;
+  - put the teaching point on the public-guide queue in the same change, so it reaches this lane;
+  - add a check that fails a change to the amendments, the graph, the prompts or the guide text that doesn't touch the queue or say app-only (that's the "automatic" part);
+  - backfill #126 with T1 to T9.
+  That repository's own agent decides it; the lane is how a suggestion reaches it.
+- **What went in** (each through the whole-article dedup, cold reads and a grounding; details in `t38-teaching-points/REVIEWS.md`, every version in `t38-teaching-points/DRAFTS.md`):
+  - after the readiness paragraph: T1 (go shallower; your little one may have had to just take it back then; a grown-up who can say "Okay, that's enough for today"), with T2's eyes-open hello as its last sentence, and T3 (a full break: jot down why and how far you'd gotten; come back once that reason has changed, where it was still okay or gentler);
+  - after the somatic map: T4 to T7 as three paragraphs, turn 34's (which had passed alone) with only the dedup's cuts, one aside for the point they lacked ("And was it hard but doable, or just too much?") and a cold read's fix;
+  - in Also Look Outward: T8 between his C1 and C2, and T9 after C2.
+- **Moved and cut.** T8 sits before C2, not after (a cold read: a step backward after C2; the guide's order too). T2 as a paragraph of its own failed three times this turn (and its content four times in turn 34), so its hello is one sentence of T1; its point about coming all the way back out if you're not sure you could stop rests on the readiness paragraph and T1's "that's enough for today". Its last version is in `DRAFTS.md` if Joel wants the line back.
+- **Pangram 4.0, through the dashboard** (try numbers per text):
+  - alone, try 1: T1 100% Human (80), T2 100% AI (98), T3 100% Human (77), T4 100% AI (82), T5 100% AI (62), T6 100% AI (108), T7 100% AI (77), T8 100% Human (74), T9 100% Human (83);
+  - T2 try 2 100% AI (105), try 3 100% AI (96); the pleasantness group from turn 34, try 2: 100% Human (90, 109, 102); T1 with the hello 100% Human (94); T3 with it instead 100% Human (90), not used;
+  - Your Body Might Need Some Love First (h2 with its four h3s) 100% Human (2,769); Before You Try to Go Deep (h1) 100% Human (3,764). Both are byte for byte the text now in the article.
+- **Predictions:** 11 of 18 hit. The misses: my calls on my own rewrites (T4, T5, T7 Human; T8, T9 AI), T2 try 2, and the gym rewrite's "medium".
+- **E157 (my own finding).** Start from a version that passed, and change only what the content needs. My clean rewrite of the pleasantness points failed all four alone; turn 34's paragraphs with the cuts passed all three. And a point that fails three times as its own paragraph can go into a passing neighbor as one sentence (the gate's fold rule). The gate's step 3 says both now.
+- **Tool:** the cold-read prompt now names the Nurturer, the Protector and the Guide as the article's terms; four cold reads flagged "the Protector" this turn because they see only the section before.
+- **Article size:** the h1 grew from 3,005 to 3,764 words with the nine teaching points and C2.
+
+### Next
+
+1. Joel's read of the new paragraphs in place (the turn-38 page), and whether he wants T2's come-out line back.
+2. The innerSignalGraph agent's answer on the lane item, when it records one.
+3. Merge into main after he's seen them, if he says so.
