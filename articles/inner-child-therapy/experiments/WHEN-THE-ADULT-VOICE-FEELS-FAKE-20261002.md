@@ -501,7 +501,7 @@ Joel, 02:06: "all those T1-9 points look good, if they aren't already in the gui
 
 Joel, 22:10: "continue" (turn 38 was finished and he had both pages: the merge OK, and go on). 23:14: "Continue from where you left off." (the session had stopped mid-check).
 
-- **Main into the lane, then a merge request.** Main had 20 commits from the community lane (the linter's O14 to O17, O6 judged by a model, method fit, both pages every turn). Merged with both sides kept; this lane's lint rules are O18 (x-not-y) and O19 (lists) now, and its "may X and still Y" branch gave way to main's O17. 168 tests pass. The merge request into main is open, checks green and conflict-free, but this session's auto-approval blocked the merge itself, so it waits for Joel's click (or an explicit "merge it").
+- **Main into the lane, then a merge request.** Main had 20 commits from the community lane (the linter's O14 to O17, O6 judged by a model, method fit, both pages every turn). Merged with both sides kept; this lane's lint rules are O18 (x-not-y) and O19 (lists) now, and its "may X and still Y" branch gave way to main's O17. 168 tests pass. This session's auto-approval blocked the merge itself, so it went to Joel, and he merged it at 23:23 UTC with the branch at 72766d4b (turns 33 to 38, and this turn's run files). The h3 went in after that, so it's in a second request, to merge once he's seen this turn's page.
 - **When the Urge to Escape Arrives is in** (the last h3 of Start With Whatever Showed Up), three paragraphs and the video:
   - P1: only what the dedup found new: the bigger forms (a drink, the ex, a new business), that it can be progress, and thanking the part with the escape plan;
   - P2: the caution on intensive meditation and psychedelic plant medicine, built on Joel's own San Pedro line from My Journey;
@@ -515,5 +515,5 @@ Joel, 22:10: "continue" (turn 38 was finished and he had both pages: the merge O
 ### Next
 
 1. Joel's answers on PGQ-006 (the rough trip; which drugs), then a third draft, or his own fix.
-2. His click on the merge request.
+2. His merge of the second request (this turn's h3), after he's seen the page.
 3. The next h1, Sometimes There Isn't a Clear Child Yet.
