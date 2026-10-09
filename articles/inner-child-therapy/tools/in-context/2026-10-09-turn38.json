@@ -1,0 +1,343 @@
+{
+ "title": "Turn 38: the teaching points and C2, in place",
+ "meta": "Inner Child Therapy · turn 38 (your message of 2026-10-09 02:06 UTC) · saved on the lane, not merged",
+ "intro": [
+  "Everything below is in the article now, except T2 on its own. Each new paragraph passed Pangram alone; Your Body Might Need Some Love First passes at 100% Human (2,769) and Before You Try to Go Deep at 100% Human (3,764), both with all of it in.",
+  "Each row shows the teaching point it carries, the map change behind it, and the whole guide paragraph on the left. The table under each paragraph lines up its sentences with the guide words they carry. Words new since the version you last saw are highlighted.",
+  "The map side: every map change in innerSignalGraph should come with its teaching point (or a note that it only changes how the app behaves), the AI guide written from it, and its queue entry, in the same change, with a check that blocks a map change without them. That's filed for innerSignalGraph's own agent."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Before You Try to Go Deep"
+   ],
+   "intro": [
+    "Right after the readiness paragraph (\"How much of the grown-up you is actually here right now?\"). Two new paragraphs are in; T2 as a paragraph of its own is not."
+   ],
+   "rows": [
+    {
+     "label": "T1, new: go shallower (with T2's eyes-open hello as its last sentence)",
+     "article": "And if the grown-up you is there, and it's just how deep you're going",
+     "source": [
+      "If you do want the relationship but a particular depth"
+     ],
+     "notes": [
+      "Teaching point T1 (your yes, 2026-10-09 02:06): if a depth is too much, go gentler instead of pushing through with one technique after another, and instead of giving up on your little one.",
+      "innerSignalGraph pull request #126 (Oct 4), owner amendment AMEND.IC.CONTINUITY_TITRATION: the map change this teaching point comes from.",
+      "Pangram alone: 100% Human (80) without the last sentence, try 1; 100% Human (94) with it, try 2.",
+      "Already in the article, so not said again: \"leave the deeper conversation until later\" (the paragraph before) and \"somebody steady there with you\"."
+     ],
+     "carries": [
+      {
+       "draft": "And if the grown-up you is there, and it's just how deep you're going that's too much, I'd go shallower.",
+       "guide": "If you do want the relationship but a particular depth is too much, preserve the relationship by changing the dose."
+      },
+      {
+       "draft": "Some people try one technique after another instead, to prove to themselves they can take it.",
+       "guide": "Do not test another inward technique just to prove you can tolerate something."
+      },
+      {
+       "draft": "Your little one may have had to just take it back then, though.",
+       "note": "the reason, from the article's own picture of your little one; a grounding passed it"
+      },
+      {
+       "draft": "Now there's a grown-up around who can say, \"Okay, that's enough for today,\" and try something gentler instead of giving up on them.",
+       "guide": "preserve the relationship by changing the dose"
+      },
+      {
+       "draft": "Even just saying hi to them with your eyes open, before any imagery, counts.",
+       "guide": "a brief eyes-open acknowledgment before imagery or deeper dialogue"
+      }
+     ]
+    },
+    {
+     "label": "T2 on its own, try 3 (not in: failed alone three times)",
+     "text": "And if you're not sure you could stop partway through, or turning inward is what's making it worse, I'd come all the way back out to the room, right then. That can feel like quitting. I'd count it, though, since your little one just watched somebody stop when it got to be too much. Later, the way back in can be tiny. Maybe you just say hi to them with your eyes open, before any imagery, or do one small, everyday thing the Protector would do for them out in your life.",
+     "after_row": "T1, new: go shallower (with T2's eyes-open hello as its last sentence)",
+     "source": [
+      "If you do want the relationship but a particular depth"
+     ],
+     "notes": [
+      "Teaching point T2: if you can't stop and come back, or going inward is making it worse, come back out to the room first; later, a gentle way back in.",
+      "Three versions this turn, each built on a different idea (a window, a baby monitor, \"that can feel like quitting\"), all 100% AI alone (98, 105, 96); the same content failed four times in turn 34.",
+      "So its hello is T1's last sentence, and its come-out point rests on the readiness paragraph and T1's \"that's enough for today\". If you want the come-out line itself back, this is the version I'd start from."
+     ]
+    },
+    {
+     "label": "T3, new: a full break",
+     "article": "If you ever need a full break from your little one",
+     "source": [
+      "A complete tolerance pause"
+     ],
+     "notes": [
+      "Teaching point T3: if you take a full break from your little one, note why and how far you'd got, and come back at or below that when you want to.",
+      "innerSignalGraph pull request #126 (Oct 4), owner amendment AMEND.IC.CONTINUITY_TITRATION: the map change this teaching point comes from.",
+      "A grounding's MUST is in: come back once the reason for the break has changed, not only once you want to (the guide's return condition).",
+      "Pangram alone: 100% Human (77), try 1."
+     ],
+     "carries": [
+      {
+       "draft": "If you ever need a full break from your little one, I'd jot down why, and how far you'd gotten before it got to be too much.",
+       "guide": "make the pause specific: what made it necessary, what level was last genuinely workable"
+      },
+      {
+       "draft": "A couple of lines on your phone is plenty.",
+       "note": "keeps the note light"
+      },
+      {
+       "draft": "After a while away, it gets hard to remember.",
+       "note": "why to write it down"
+      },
+      {
+       "draft": "So once that reason has changed and you want to come back, the note tells you where it was still okay.",
+       "guide": "what observable change—plus your own agreement—would make a gentle return reasonable"
+      },
+      {
+       "draft": "I'd start there, or somewhere a bit gentler.",
+       "guide": "start at or below that last workable level rather than jumping back to where you left off"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Before You Try to Go Deep",
+    "## Your Body Might Need Some Love First"
+   ],
+   "intro": [
+    "After your paragraph that ends \"Here's a map of what to try when:\" and the embedded map post. These are turn 34's three pleasantness paragraphs, which passed alone then, with only the dedup's cuts and one aside added. My fresh rewrite of the same points failed all four alone, so I went back to these (E157)."
+   ],
+   "rows": [
+    {
+     "label": "T4, new: how pleasant a session felt isn't the measure",
+     "article": "Whatever you try from that map, I wouldn't go just by",
+     "source": [
+      "Do not use pleasantness"
+     ],
+     "notes": [
+      "Teaching point T4: how pleasant a session felt doesn't tell you whether it was too much. Hard isn't harm, and staying present isn't enough by itself.",
+      "innerSignalGraph pull request #126 (Oct 4), owner amendment AMEND.IC.SCAFFOLDED_CHALLENGE: the map change this teaching point comes from.",
+      "Cut from turn 34's version: \"A session can also be really intense and get you nowhere.\" (your crying story already says it). \"whether it was too much\" for \"whether it was good for you\" (whether it helped is When to Change the Strategy's point).",
+      "Pangram alone: 100% Human (90)."
+     ],
+     "carries": [
+      {
+       "draft": "Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much.",
+       "guide": "Do not use pleasantness as the only safety meter either."
+      },
+      {
+       "draft": "This kind of work can bring up grief and fear, and sometimes hard dreams, or stuff you'd rather never have met.",
+       "guide": "Learning often includes grief, fear, frustration, difficult dreams, or material you would rather not meet."
+      },
+      {
+       "draft": "Even staying present the whole time doesn't tell you enough by itself.",
+       "guide": "is not enough by itself either"
+      },
+      {
+       "draft": "It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.",
+       "guide": "Difficulty by itself is not harm",
+       "note": "the gym is the writer's example"
+      }
+     ]
+    },
+    {
+     "label": "T5 and T6, new: the next few days, and what to do while you can't tell",
+     "article": "So how were the next few days?",
+     "source": [
+      "Do not use pleasantness",
+      "If those answers are not known yet"
+     ],
+     "notes": [
+      "Teaching points T5 and T6: the next few days (sleep, getting through the day), wanting to go back toward it, hard but workable or too much; if you can't tell yet, don't call it healing or harm, make the next one easier one change at a time, and if you're getting worse, change several things and get support.",
+      "innerSignalGraph pull request #126 (Oct 4), owner amendment AMEND.IC.SCAFFOLDED_CHALLENGE: the map change this teaching point comes from.",
+      "Changed from turn 34's version: its aside about stopping and coming back is now T1's hello, and \"(And was it hard but doable, or just too much? A lot of the time you just know.)\" is in its place; \"get some support\" for \"have someone steady with you\" (the readiness paragraph says that).",
+      "Pangram alone: 100% Human (109)."
+     ],
+     "carries": [
+      {
+       "draft": "So how were the next few days?",
+       "guide": "how did you recover afterward in sleep and ordinary functioning?"
+      },
+      {
+       "draft": "How did you sleep, and could you get through your day okay?",
+       "guide": "how did you recover afterward in sleep and ordinary functioning?"
+      },
+      {
+       "draft": "Do you want to go back toward what came up, or is some part of you saying no?",
+       "guide": "do you actually want to go back toward it"
+      },
+      {
+       "draft": "And was it hard but doable, or just too much?",
+       "guide": "did it feel difficult-but-workable rather than simply too much or unwanted"
+      },
+      {
+       "draft": "A lot of the time you just know.",
+       "note": "your own point, 2026-10-03: \"you simply look back and you know\""
+      },
+      {
+       "draft": "If you honestly can't tell yet, I wouldn't rush to call it healing or harm.",
+       "guide": "If those answers are not known yet, do not rush to classify the experience as healing or harmful."
+      },
+      {
+       "draft": "I'd just make the next one a bit easier, one change at a time, so you learn what made the difference.",
+       "guide": "When you are calibrating, changing one thing at a time can teach you what matters"
+      },
+      {
+       "draft": "If you're getting worse, though, change several things at once, and get some support.",
+       "guide": "if distress is climbing, change several things at once"
+      }
+     ]
+    },
+    {
+     "label": "T6's end and T7, new: bring the challenge back slowly; dreams and images",
+     "article": "Bring the challenge back gradually",
+     "source": [
+      "If those answers are not known yet",
+      "Dreams and imagery can be useful"
+     ],
+     "repeats": [
+      {
+       "span": "They aren't evidence that what you saw in them happened",
+       "in": "For some people it only stops feeling fake in an altered state",
+       "says": "They can feel totally real, but that alone doesn't prove they happened.",
+       "how": "said there for old memories in an altered state; this one is for dreams and images, and it comes first in the article"
+      }
+     ],
+     "notes": [
+      "Teaching points T6 (end) and T7: bring the challenge back gradually; dreams and images show what feels important or needed now, aren't evidence, and shouldn't be used to build a memory.",
+      "innerSignalGraph pull request #126 (Oct 4), owner amendment AMEND.IC.SCAFFOLDED_CHALLENGE: the map change this teaching point comes from.",
+      "Changed from turn 34's version: \"If you're not sure yet whether you want to, you can wait.\" cut (the dangerous-adult section says you can wait until you're ready); \"And what about those hard dreams, or images that pop up during a session?\" for \"Those dreams and images that come up\" (a cold read: images hadn't come up).",
+      "Pangram alone: 100% Human (102)."
+     ],
+     "carries": [
+      {
+       "draft": "Bring the challenge back gradually, and only when you want to and you're recovering well.",
+       "guide": "Restore challenge gradually only when you want to continue and recovery supports it."
+      },
+      {
+       "draft": "Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn.",
+       "guide": "This is not throwing yourself into a cauldron to toughen up; it is finding the edge where you can actually learn."
+      },
+      {
+       "draft": "And what about those hard dreams, or images that pop up during a session?",
+       "guide": "Dreams and imagery can be useful material"
+      },
+      {
+       "draft": "They can show what feels important or frightening right now.",
+       "guide": "about what feels important, frightening, missing, or needed now"
+      },
+      {
+       "draft": "Sometimes they show what feels missing, or what feels needed.",
+       "guide": "about what feels important, frightening, missing, or needed now"
+      },
+      {
+       "draft": "They aren't evidence that what you saw in them happened, though, and shouldn't be used to confirm a memory or rebuild one.",
+       "guide": "They are not evidence that the pictured event happened historically."
+      },
+      {
+       "draft": "Or to suggest one.",
+       "guide": "Do not use them to confirm, suggest, or reconstruct a memory."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Before You Try to Go Deep",
+    "## Your Body Might Need Some Love First",
+    "### Also Look Outward"
+   ],
+   "intro": [
+    "After your C1 (\"Then there are people you're just getting to know…\"): T8, then C2, then T9. T8 goes before C2: a cold read said it read as a step backward after C2, and the guide has the same order."
+   ],
+   "rows": [
+    {
+     "label": "T8, new: being alone as part of the hurt",
+     "article": "If being alone was a big part of what hurt",
+     "source": [
+      "If isolation itself is part of the wound"
+     ],
+     "notes": [
+      "Teaching point T8: if being alone with it was part of the wound, reaching toward people is part of caring for your little one, and you don't have to get yourself sorted out first.",
+      "innerSignalGraph pull request #126 (Oct 4), owner amendment AMEND.IC.COMMUNITY_REPARENTING: the map change this teaching point comes from.",
+      "Not texting a friend: When to Change the Strategy already has it. Turn 34's drafts of this point failed four times; this one is built on the reader's own question.",
+      "Pangram alone: 100% Human (74), try 1."
+     ],
+     "carries": [
+      {
+       "draft": "If being alone was a big part of what hurt in the first place, then reaching toward people is part of taking care of your little one too.",
+       "guide": "If isolation itself is part of the wound, reaching toward people may be one way the adult side provides care."
+      },
+      {
+       "draft": "Do you have to get yourself sorted out first, so you'll be better company?",
+       "guide": "A decent parent would not tell a lonely child to become perfectly self-sufficient before seeing friends",
+       "note": "as the reader's own question"
+      },
+      {
+       "draft": "I really don't think so.",
+       "note": "the answer"
+      },
+      {
+       "draft": "If the hurt was being alone, waiting just means more of being alone.",
+       "note": "the reason, from its first sentence"
+      },
+      {
+       "draft": "So I'd call somebody or show up somewhere, mess and all.",
+       "guide": "sometimes the adult move is making the call, arranging the visit, asking the social worker, or helping yourself walk into a room where people share something real"
+      }
+     ]
+    },
+    {
+     "label": "C2 (your queue item PGQ-003, my draft; your yes: \"C2 looks fine\")",
+     "article": "And reaching out doesn't mean telling strangers everything.",
+     "source": [
+      "Honesty does not mean total disclosure"
+     ],
+     "notes": [
+      "Unchanged from turn 34. Alone 100% Human (130) then; with this whole section, the h2 and the h1 pass now."
+     ]
+    },
+    {
+     "label": "T9, new: more than one place to belong",
+     "article": "I can't tell you where to look for people who fit you",
+     "source": [
+      "Look for more than one door",
+      "Use the Protector here too"
+     ],
+     "notes": [
+      "Teaching point T9: more than one place to belong; keep the good people, add others, and not every door has to open; let the Protector watch for a group that wants to be your only one.",
+      "innerSignalGraph pull request #126 (Oct 4), owner amendment AMEND.IC.COMMUNITY_REPARENTING: the map change this teaching point comes from.",
+      "A grounding's MUST is in: \"or any one person\" (a partner or one friend can want to be your only one too). \"this app\" stays in the AI guide.",
+      "Pangram alone: 100% Human (83), try 1."
+     ],
+     "carries": [
+      {
+       "draft": "I can't tell you where to look for people who fit you, but I'd bet on more than one place.",
+       "guide": "Look for more than one door"
+      },
+      {
+       "draft": "Keep the good people you've already got.",
+       "guide": "Add routes alongside the safe supports you already have rather than treating diversification as a reason to drop somebody good."
+      },
+      {
+       "draft": "Then maybe try a class, or a spiritual community if one really fits you.",
+       "guide": "Unitarian or other spiritual community if that genuinely fits you",
+       "note": "and \"class\" from the same list"
+      },
+      {
+       "draft": "Not every one of them has to click (nobody's taking attendance).",
+       "guide": "You do not need every door to open."
+      },
+      {
+       "draft": "And if any group, or any one person, starts acting like they should be your only one, that's where I'd want the Protector paying attention.",
+       "guide": "Use the Protector here too.",
+       "note": "and the list's \"one partner, friend, therapist, group\" as \"the only place you can belong\""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -85,6 +85,8 @@ What I'd leave to the AI guide:
 
 ## 8. What I'd change now, if you agree
 
+**Status, turn 38 (2026-10-09).** Joel: "all those T1-9 points look good, if they aren't already in the guide ... yes teaching points makes sense altho the ai guide is then updated where, from the map side? automatically hopefully when map is updated if need be? can that be set up?" Item 1 is filed in universal-dev-architecture's lane for innerSignalGraph (`suggested-fixes/innerSignalGraph/2026-10-09-teaching-points-for-map-changes.md`), where that repository's agent picks it up: a teaching point (or "app-only") with every map change, the AI guide written from it, the queue entry in the same change, and a check that fails a change without them. Item 3 is done: T1 to T9 are in the article (T2 as one sentence of T1), and C2 after his C1.
+
 1. **The map lane writes a teaching point for each map change** (or "app only"), adds the guide-text check, and fills the queue with teaching points. This goes to innerSignalGraph as a suggested fix, and replaces my proposal from last turn, whose "not on the queue means app-only" rule was wrong. Filing it needs your OK; this session can't write to that repository on its own.
 2. **In this lane:**
    - I draft from teaching points you've ticked, not from the AI guide's paragraphs.

@@ -465,3 +465,34 @@ Joel: "ok i mean boring, regular etc are not for sure AI tells, almost nothing i
 1. Draft the teaching points he ticks, one idea per paragraph, where each belongs, checked against the whole article.
 2. C2 after his C1, if he says yes.
 3. If he OKs it, file the teaching-point proposal for innerSignalGraph.
+
+## Turn 38 (2026-10-09, from 02:06 UTC): the teaching points drafted, C2 in, and the map side set up
+
+Joel, 02:06: "all those T1-9 points look good, if they aren't already in the guide. C2 looks fine yes teaching points makes sense altho the ai guide is then updated where, from the map side? automatically hopefully when map is updated if need be? can that be set up?"
+
+- **The map side.** Filed in universal-dev-architecture's lane for innerSignalGraph (`suggested-fixes/innerSignalGraph/2026-10-09-teaching-points-for-map-changes.md`, on its main branch), marked as his request with his three quotes. It asks innerSignalGraph's agent to:
+  - give every map change (an amendment, a node or route, a gate, a prompt rule) a teaching point, or "Guide impact: app-only" with a reason, in the same reviewed change;
+  - write the AI guide's text from the teaching point, in the reader's voice, with app behavior kept in the prompts;
+  - put the teaching point on the public-guide queue in the same change, so it reaches this lane;
+  - add a check that fails a change to the amendments, the graph, the prompts or the guide text that doesn't touch the queue or say app-only (that's the "automatic" part);
+  - backfill #126 with T1 to T9.
+  That repository's own agent decides it; the lane is how a suggestion reaches it.
+- **What went in** (each through the whole-article dedup, cold reads and a grounding; details in `t38-teaching-points/REVIEWS.md`, every version in `t38-teaching-points/DRAFTS.md`):
+  - after the readiness paragraph: T1 (go shallower; your little one may have had to just take it back then; a grown-up who can say "Okay, that's enough for today"), with T2's eyes-open hello as its last sentence, and T3 (a full break: jot down why and how far you'd gotten; come back once that reason has changed, where it was still okay or gentler);
+  - after the somatic map: T4 to T7 as three paragraphs, turn 34's (which had passed alone) with only the dedup's cuts, one aside for the point they lacked ("And was it hard but doable, or just too much?") and a cold read's fix;
+  - in Also Look Outward: T8 between his C1 and C2, and T9 after C2.
+- **Moved and cut.** T8 sits before C2, not after (a cold read: a step backward after C2; the guide's order too). T2 as a paragraph of its own failed three times this turn (and its content four times in turn 34), so its hello is one sentence of T1; its point about coming all the way back out if you're not sure you could stop rests on the readiness paragraph and T1's "that's enough for today". Its last version is in `DRAFTS.md` if Joel wants the line back.
+- **Pangram 4.0, through the dashboard** (try numbers per text):
+  - alone, try 1: T1 100% Human (80), T2 100% AI (98), T3 100% Human (77), T4 100% AI (82), T5 100% AI (62), T6 100% AI (108), T7 100% AI (77), T8 100% Human (74), T9 100% Human (83);
+  - T2 try 2 100% AI (105), try 3 100% AI (96); the pleasantness group from turn 34, try 2: 100% Human (90, 109, 102); T1 with the hello 100% Human (94); T3 with it instead 100% Human (90), not used;
+  - Your Body Might Need Some Love First (h2 with its four h3s) 100% Human (2,769); Before You Try to Go Deep (h1) 100% Human (3,764). Both are byte for byte the text now in the article.
+- **Predictions:** 11 of 18 hit. The misses: my calls on my own rewrites (T4, T5, T7 Human; T8, T9 AI), T2 try 2, and the gym rewrite's "medium".
+- **E157 (my own finding).** Start from a version that passed, and change only what the content needs. My clean rewrite of the pleasantness points failed all four alone; turn 34's paragraphs with the cuts passed all three. And a point that fails three times as its own paragraph can go into a passing neighbor as one sentence (the gate's fold rule). The gate's step 3 says both now.
+- **Tool:** the cold-read prompt now names the Nurturer, the Protector and the Guide as the article's terms; four cold reads flagged "the Protector" this turn because they see only the section before.
+- **Article size:** the h1 grew from 3,005 to 3,764 words with the nine teaching points and C2.
+
+### Next
+
+1. Joel's read of the new paragraphs in place (the turn-38 page), and whether he wants T2's come-out line back.
+2. The innerSignalGraph agent's answer on the lane item, when it records one.
+3. Merge into main after he's seen them, if he says so.

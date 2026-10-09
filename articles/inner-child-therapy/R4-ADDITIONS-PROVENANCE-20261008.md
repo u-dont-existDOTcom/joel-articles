@@ -54,12 +54,12 @@ innerSignalGraph's own contract (`docs/PUBLIC-GUIDE-HUMANIZATION.md`) already co
 | Paragraph | Where it came from | Status |
 |---|---|---|
 | Depth 1 ("That means turning the depth down…") | #126, CONTINUITY_TITRATION | **cut** (Joel, 02:23) |
-| Depth 2 ("If you do want the relationship but a particular depth is too much…") | #126, CONTINUITY_TITRATION | teaching points T1 to T3 (turn 37) |
-| Depth 3 ("A complete tolerance pause is a last resort…") | #126, CONTINUITY_TITRATION | teaching points T1 to T3 (turn 37) |
-| Pleasantness 1 to 3 ("Do not use pleasantness…", "If those answers are not known yet…", "Dreams and imagery…") | #126, SCAFFOLDED_CHALLENGE | teaching points T4 to T7 (turn 37) |
-| Isolation 1 and 2 ("If isolation itself…", "Look for more than one door…", "Use the Protector here too…") | #126, COMMUNITY_REPARENTING | teaching points T8 and T9 (turn 37) |
+| Depth 2 ("If you do want the relationship but a particular depth is too much…") | #126, CONTINUITY_TITRATION | teaching points T1 to T3 (turn 37); turn 38: T1 in, with T2's eyes-open hello as its last sentence |
+| Depth 3 ("A complete tolerance pause is a last resort…") | #126, CONTINUITY_TITRATION | teaching points T1 to T3 (turn 37); turn 38: T3 in |
+| Pleasantness 1 to 3 ("Do not use pleasantness…", "If those answers are not known yet…", "Dreams and imagery…") | #126, SCAFFOLDED_CHALLENGE | teaching points T4 to T7 (turn 37); turn 38: in, three paragraphs |
+| Isolation 1 and 2 ("If isolation itself…", "Look for more than one door…", "Use the Protector here too…") | #126, COMMUNITY_REPARENTING | teaching points T8 and T9 (turn 37); turn 38: in |
 | The difficult-dream paragraph (When the Practice Feels Real but Stays Shallow) | #126 | with T7, when that section comes up |
-| C2 ("Honesty does not mean total disclosure…") | #124, from the Oct 3 guide; queue item PGQ-003 | waiting: it passes alone (130); it could follow Joel's C1 |
+| C2 ("Honesty does not mean total disclosure…") | #124, from the Oct 3 guide; queue item PGQ-003 | turn 38: in after Joel's C1 and T8 (his "C2 looks fine") |
 
 Turn 36 parked them; turn 37 brought them back as teaching points (see the correction at the top). The drafts and their records stay in the lane, so nothing is lost.
 
