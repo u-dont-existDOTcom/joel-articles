@@ -6,6 +6,10 @@ Date: 2026-09-17
 
 Applies to owner-facing work in `u-dont-existDOTcom/joel-articles`. Current direct Joel instructions still outrank this file.
 
+## Every turn: the review page and the whole article
+
+On every Joel Articles turn that has anything for Joel to review, send him two pages as files: the in-context review page for this turn's work (published text beside the new, with the notes, findings and questions), and the current full humanized article page. Do it every such turn, as the Inner Child lane does, not only when a section is finished. Joel, 2026-10-09 05:02 UTC: "on every turn you need to give me the in-context review page and the full humanized page, just like the innerchild lane does. that's assuming you have something for me to review." A turn with nothing to review (only a rules change, say) needs neither.
+
 ## End-of-turn article link
 
 At the end of every Joel Articles owner-facing turn, include a direct link to the current full humanized article-so-far artifact for the active article. During an active humanization lane, maintain one stable article-local rolling review path and update it as accepted/locked prose or the current owner-review candidate changes. Never label a superseded candidate as current authority.
