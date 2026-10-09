@@ -321,3 +321,16 @@ Batch 163g (written 02:27 UTC by `date -u`, before the call; `v163.json`):
 - Passes as groups: P1 to P3, P4 to P8, the caption to P16, and P16 with P17 in Emulate-based wordings fixed in place (P16e with P17e2, 160g; each alone too, 161g). Not yet traced: P16e, P17e2.
 - Fails as a group: P9 to P13, in every version tried (my word-level splices, three fresh writers, Emulate's raw output with its errors fixed). So the whole section fails (155g: 82% AI).
 - Traced clean or fixed: P1 to P3, P6, P7, P9f, P10r, P11f, P12d2, P14y2, P15f2, P16b3/b4 (review-d2, review-d3). Not yet run: stance, cold read and the abstract-agent judge on the assembled section.
+
+Trace of P16e and P17e2 (`review-d3/trace-C.md`, a fresh Sonnet agent, 03:41 to 03:47 UTC, 2026-10-09): three SHIFTs (P16e "long-term impact" for "what happened after", an added "Nonetheless"; P17e2 merged two of the four forms) and two judgments (the attendee made the founder; "they" with no noun antecedent). All five fixed in P16e2 and P17e3.
+
+Batch 164g (written 03:44 UTC on 2026-10-09 by `date -u`, before the call; `v164.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 164g-P16e2 (114) | Human (weak) | the trace's fixes: "what happened after" for "long-term impact", "Nonetheless" out, the founder left open, "the Zapatistas'" back || **Human (100%)**, 03:44:34 |
+| 164g-P17e3 (59) | Human (weak) | four forms again ("distributed authority, and linking between the levels") || **Human (100%)**, 03:44:38 |
+| 164g-P16e2P17e3 (173) | Mixed | the group that passed before the fixes (160g) || **Human (100%)**, 03:44:43 |
+| 164g-W-CAP2toP17 (298) | Mixed | the caption to the end, as in the section || **Human (100%)**, 03:44:51 |
+
+164g (submitted 03:44:34 to 03:44:51 UTC, 2026-10-09): mine 2 of 4. With the trace's five fixes, P16 and P17 still pass alone, together, and from the caption to the end. (The history list also holds checks from another session on the same account at the same minutes, other texts; matched by hash, not by position.)

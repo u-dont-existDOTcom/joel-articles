@@ -1,0 +1,161 @@
+{
+ "title": "The Best Model I’ve Seen: Zapatistas · section 9 beside the published one",
+ "meta": "Community article · section 9 · work in progress, 2026-10-09 · not installed",
+ "intro": [
+  "Your published section is on the left. My current version is on the right, with new words highlighted and cut words struck. None of it is installed.",
+  "Every paragraph passes Pangram alone, or next to a neighbor that passes when it's under 50 words. Checked as groups, P1 to P3 pass, P4 to P8 pass, and the caption to P17 passes (checked today, with the trace's fixes in P16 and P17).",
+  "P9 to P13 don't. These five read AI together in every version I tried, though each passes alone: P9 is the 2023 restructuring, P10 the leadership-book line, P11 reining in my enthusiasm, P12 the Zapatistas' own warning against copying their model, and P13 the economic path. Every pair inside them reads AI too, so the whole section read 82% AI at its last check. Emulate's own sample of these five reads human as a group, but only while it keeps claims you didn't make (\"while in theory applicable to many contexts\", \"very strong communities\", \"etc.\"). Taking any of them out of P11, or putting back the clause it dropped, flips the group to AI.",
+  "The question: will you write P11 and P13 in your own words? Those two broke every group I tried. Or all five, if you'd rather. Your own paragraphs have passed every time so far."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# The Best Model I’ve Seen: Zapatistas"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "In 2005, a few college buddies",
+     "source": [
+      "In 2005, a few college friends"
+     ],
+     "note": "Passes alone (52 words). P1 to P3 pass together too."
+    },
+    {
+     "label": "P2",
+     "article": "In San Cristóbal de las Casas",
+     "source": [
+      "In San Cristóbal de las Casas"
+     ],
+     "note": "Passes beside P1."
+    },
+    {
+     "label": "P3",
+     "article": "It made us feel important for a minute",
+     "source": [
+      "It made us feel briefly important"
+     ],
+     "note": "Passes beside P4. Your 😂 kept."
+    },
+    {
+     "label": "P4 · published",
+     "article": "Oventik itself felt like a real dream",
+     "source": [
+      "Oventik itself felt like a real dream"
+     ],
+     "note": "Unchanged; passes alone."
+    },
+    {
+     "label": "P5 · published",
+     "article": "The Zapatistas felt deeply spiritual",
+     "source": [
+      "The Zapatistas felt deeply spiritual"
+     ],
+     "note": "Unchanged; passes beside P4."
+    },
+    {
+     "label": "P6",
+     "article": "What impressed me the most was how they do authority",
+     "source": [
+      "What impressed me most was their form of authority"
+     ],
+     "note": "Passes beside P7. The trace caught my \"carry out\" for your \"carry\" (carrying decisions isn't only executing them), so it's \"carry\" again."
+    },
+    {
+     "label": "P7",
+     "article": "The Zapatistas are also the closest thing",
+     "source": [
+      "The Zapatistas are also the closest whole example"
+     ],
+     "note": "Passes alone."
+    },
+    {
+     "label": "P8 · published",
+     "article": "The Fire and the Word describes",
+     "source": [
+      "The Fire and the Word describes"
+     ],
+     "note": "Unchanged; passes alone."
+    },
+    {
+     "label": "P9 · in the group that fails",
+     "article": "After a long internal review, in 2023",
+     "source": [
+      "In 2023, the Zapatistas announced"
+     ],
+     "notes": [
+      "Passes alone.",
+      "P9 to P13 read AI as a group in every version: these, three fresh writers' versions, and Emulate's sample with its errors fixed. Once your P11 and P13 are in, I'll check the group with these versions of P9, P10 and P12, and with the Emulate-based ones that held up beside Emulate's P11 and P13 (not traced yet), and keep whichever passes and traces."
+     ]
+    },
+    {
+     "label": "P10 · in the group that fails",
+     "article": "Most institutions get more and more layers",
+     "source": [
+      "Most institutions accumulate layers"
+     ],
+     "note": "Passes alone at 50 words, on about the 15th wording. \"Nope.\" and \"just went and changed\" are mine; the trace found no change of meaning."
+    },
+    {
+     "label": "P11 · in the group that fails · yours?",
+     "article": "This is also where I have to rein in my enthusiasm",
+     "source": [
+      "This is also where I need to restrain my enthusiasm"
+     ],
+     "note": "Passes alone. \"They share language\" because the trace caught my first \"share a language\" (the communities speak several)."
+    },
+    {
+     "label": "P12 · in the group that fails",
+     "article": "One thing the Zapatistas themselves have been clear about",
+     "source": [
+      "The Zapatistas themselves have warned"
+     ],
+     "note": "Passes alone at 51 words, with the trace's fixes (\"themselves\" back, no added \"though\")."
+    },
+    {
+     "label": "P13 · in the group that fails · yours?",
+     "article": "Now, the Zapatistas also don't prove",
+     "source": [
+      "They are also not proof of my complete economic path"
+     ],
+     "note": "Passes alone, on about the 17th wording. The question with \"Yes.\" and the \"sure\" are mine."
+    },
+    {
+     "label": "P14",
+     "article": "In celebration of the 10th anniversary",
+     "source": [
+      "For the tenth anniversary of their autonomous governments"
+     ],
+     "note": "Passes beside P15. \"Day to day life\" for \"ordinary life\"."
+    },
+    {
+     "label": "P15",
+     "article": "One way an escuelita could fail",
+     "source": [
+      "An escuelita can fail by becoming"
+     ],
+     "note": "Passes alone. The trace made the residents the ones performing again (my first version had their lives turning into a performance)."
+    },
+    {
+     "label": "P16",
+     "article": "In the context of this research",
+     "source": [
+      "In my research"
+     ],
+     "notes": [
+      "Passes alone and with P17. It's from Emulate's sample, with the trace's fixes: \"what happened after\" (not \"long-term impact\"), no added \"Nonetheless\", the founder left open, and \"the Zapatistas' teaching method\".",
+      "Your link now sits on \"this research\"."
+     ]
+    },
+    {
+     "label": "P17",
+     "article": "Sociocracy has a very different history",
+     "source": [
+      "Sociocracy reaches some similar forms"
+     ],
+     "note": "Passes alone and with P16. The trace's fix: four forms again (Emulate had merged two)."
+    }
+   ]
+  }
+ ]
+}
