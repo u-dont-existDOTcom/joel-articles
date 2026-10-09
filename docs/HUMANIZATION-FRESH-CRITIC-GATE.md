@@ -17,9 +17,17 @@ Use fresh models in two layers:
 
 **Neither layer replaces or shortens the full Human-facing tell catalog.** The full post-generation tell ledger remains the master audit: every applicable known AI-shaped operation/tell must still receive an explicit disposition on the literal candidate. If an applicable catalog tell has no reliable model check yet, it remains a manual/editorial blocking check rather than silently disappearing from the gate.
 
-Current bounded evidence favors **Claude Opus 5.5** as the full-ledger sweep model, but the reasoning-effort ladder was measured through **OpenRouter API**, not Claude Code CLI. UDA routing therefore applies first: use an already-authenticated provider-native Claude CLI when it can provide the required model/effort/output/isolation; use OpenRouter only as an authorized fallback or when provider/API behavior itself is the evidence target. On OpenRouter, xhigh scored 11/12 and 10/12 across two runs with 0 wrong-polarity calls at roughly $0.45–$0.48 per six-case run; max scored 11/12 with 0 wrong polarity at roughly $3.00. Thus **OpenRouter fallback** uses xhigh routinely and max only for decision-changing unresolved/disputed tells. Claude CLI effort remains a separate calibration question and must not inherit the API effort result. Treat UNCERTAIN as unresolved, never as ABSENT.
+Current bounded evidence favors **Claude Opus 5.5** as the full-ledger sweep model. UDA routing applies first: use an already-authenticated provider-native Claude Code CLI when it can provide the required model/effort/output/isolation; use OpenRouter only as an authorized fallback or when provider/API behavior itself is the evidence target.
 
-TypeSafe Jev may be used only as optional cheap triage: a Jev PRESENT can prioritize inspection, but a Jev ABSENT cannot clear a tell.
+The two provider surfaces have now been calibrated separately.
+
+**Claude Code CLI:** on the frozen six-case / twelve-cell benchmark, medium scored 9/12 with 3 UNCERTAIN and 0 wrong-polarity calls; high scored 10/12 with 2 UNCERTAIN and 0 wrong polarity in two independent runs; xhigh scored 10/12 with 2 UNCERTAIN and 0 wrong polarity while using materially more thinking tokens and latency. Therefore **high is the current CLI efficiency target for the global sweep**. This does not make high a sole clearing authority: a later T01/T10/T11 development holdout exposed under-calibrated tell logic/controls, so PRESENT/UNCERTAIN and under-calibrated tell families still require narrow or direct editorial resolution.
+
+**OpenRouter fallback:** xhigh scored 11/12 and 10/12 across two runs with 0 wrong-polarity calls at roughly $0.45–$0.48 per six-case run; max scored 11/12 with 0 wrong polarity at roughly $3.00. Thus OpenRouter uses xhigh routinely and max only for decision-changing unresolved/disputed tells.
+
+Treat UNCERTAIN as unresolved, never as ABSENT.
+
+TypeSafe Jev may be used only as optional **positive triage**. On the current twelve scored cells it caught 6/9 known defects, left all 3 known-negative controls ABSENT, and all 6 Jev PRESENT calls were correct; its three errors were confident false ABSENTs. Reported cost was about $0.00073 across six 12-tell cases (~$0.00012 per candidate), with sub-second to ~1.5 s latency per case. A Jev PRESENT can therefore surface an already-blocked candidate cheaply before a slower Opus sweep, but this saving has not yet been measured prospectively. A Jev ABSENT cannot clear a tell and Jev cannot override Opus, a calibrated narrow audit, or direct editorial judgment.
 
 A narrow FAIL is a repair candidate. It is not proof of AI authorship.
 A set of PASS results is not proof of Human authorship, and it cannot clear tell families that were not audited.
@@ -54,7 +62,7 @@ For the preferred high-rigor sweep:
 - do not force a tell merely because another tell is present or because the prose is model-authored;
 - treat any missing row, malformed row, PRESENT, or UNCERTAIN as unresolved.
 
-When Opus 5.5 is used, set an explicit reasoning effort on the selected route rather than assuming `temperature=0` implies the desired effort. **Do not transfer effort calibration across surfaces.** For OpenRouter fallback, current evidence supports xhigh routinely and max only when an xhigh uncertainty/dispute is consequential enough to justify the extra cost/latency. For Claude Code CLI, use only an effort level separately validated on that CLI route; until such calibration exists, record the CLI effort as experimental rather than treating the OpenRouter ladder as authority.
+When Opus 5.5 is used, set an explicit reasoning effort on the selected route rather than assuming `temperature=0` implies the desired effort. **Do not transfer effort calibration across surfaces.** For OpenRouter fallback, current evidence supports xhigh routinely and max only when an xhigh uncertainty/dispute is consequential enough to justify the extra cost/latency. For Claude Code CLI, current evidence supports high as the routine efficiency target; xhigh did not improve the frozen benchmark enough to justify its extra thinking/latency. Escalate tell-by-tell only when a high-effort uncertainty/dispute can change the decision.
 
 The global sweep is an execution aid, not a completeness certificate. Direct editorial review remains responsible for noticing defects outside the current catalog.
 
@@ -123,6 +131,42 @@ Current project evidence in the Pangram lab, 2026-09-23:
 - corrected antecedent/referent coherence: **4/4** controlled cases.
 
 These are scoped development results, not universal accuracy estimates.
+
+### Additional scoped tell axes — 2026-09-24
+
+**T01 fake personal stake / irrelevant first-person authority** now has a dedicated one-axis Claude Opus 5.5 CLI-high audit with a **2/2 fresh held-out transfer** after the global-rubric version proved unstable.
+
+The deciding counterfactual must compare not only proposition but also **speech act and epistemic force**. If removing first person turns a situated/provisional authorial judgment into a more categorical rule, the first person was doing real work and T01 is not established. If the first-person want/care merely wraps a general criterion with no author-specific function, T01 is supported.
+
+Use the specialized T01 audit when the global sweep returns T01 PRESENT/UNCERTAIN or direct editorial review disputes T01. It remains scoped model evidence; owner/editorial judgment controls conflicts.
+
+**T10 generic permission syntax:** a compact portability + local-logical-anchor decision rule scored **2/2 on one fresh positive/negative pair**. Treat this as promising narrow-development evidence, not broad certification. One earlier negative control was malformed because owner preference had been mistaken for an ABSENT label.
+
+**T11 generic bridge/connective tissue:** the compact subject-matter state-change + deletion rule currently passes the consumed positive/negative regression pair, but no genuinely fresh tell-specific holdout has been established. Keep T11 manual/editorial when disputed rather than claiming it is calibrated.
+
+Exact lab evidence:
+`state/generation/global-tell-model-comparison-20260923/T01-SPECIALIZED-AUDIT-RESULT-20260924.md`.
+
+### Current full-ledger rubric-development boundary — 2026-09-24
+
+A first attempt to make the global rubric more explicit by expanding every tell into gates/subtests **failed** a new T01/T10/T11 development holdout and cost more tokens/latency than the compact V1 prompt. Do not promote that expanded V2.
+
+The failure also exposed one malformed control: an owner-preferred permission sentence had been labeled T10 ABSENT without a tell-specific judgment. Owner authorship/preference is not an ABSENT label.
+
+Current experimental repair:
+- keep V1 as the production base;
+- T01 needs to distinguish author-specific cognition/evidence from a general criterion merely wrapped in first person;
+- T10 negative controls must pass the permission gate and be logically anchored to the local passage, not merely owner-authored;
+- T11 should use a subject-matter state-change/deletion test so necessary time/case/premise transitions are not confused with generic relevance/connective statements.
+
+A compact V2.1 exists in the Pangram lab as **experimental only** and is **not promoted**. A later partial fresh test improved T10 but regressed T01, confirming that more global-rubric logic is the wrong architecture for under-calibrated tells. Use tell-specific narrow auditors instead when an axis has its own calibration.
+
+Current narrow-audit status:
+- **T11 generic bridge/connective tissue:** a low-effort Opus narrow auditor passes 4/4 post-freeze cross-domain controls plus 2/2 real regression controls on the current prompt/configuration. It may be used as a cheap specialized audit; its PASS clears only T11.
+- **T01 fake personal stake:** narrow auditor remains advisory/manual. One hard real negative is still falsely flagged.
+- **T10 generic permission syntax:** attempted narrow calibration is rejected. The proposed negative-control theory was malformed, and both known model-shaped permission endings were missed. T10 needs a genuine tell-specific gate-passing negative control before model clearance is trusted.
+
+Do not infer a tell-negative label from owner authorship, owner preference, detector status, or a nearby repair instruction.
 
 ### Retired global-judge calibration
 
