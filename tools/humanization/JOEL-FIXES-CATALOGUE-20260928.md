@@ -574,6 +574,14 @@ His texts are kept verbatim in the community lane's `s9/joel-0502/joel-20261009-
 - **The map side:** "yes teaching points makes sense altho the ai guide is then updated where, from the map side? automatically hopefully when map is updated if need be? can that be set up?" (Filed for innerSignalGraph in UDA's lane: a teaching point or app-only line with every map change, the AI guide written from it, the queue entry, and a check that blocks a change without them.)
 - No fixes of his text, so no lesson from a fix. No "continue".
 
+## Joel's answers and fix, 2026-10-09 22:08 UTC (community section 9, v13 to v14)
+
+His message is kept verbatim in the community lane's `s9/joel-2208/joel-20261009-2208.json`.
+- **P7.** "doesn't seem like a hedge to me, sounds just more conversational, so fix those reviewers" ("the closest thing to a whole example that I found" stays; the trace brief and the logic audit brief now say conversational is not a shift).
+- **P8 and P9.** "agreed altho i'd say Juntas (Boards) at first per the rule on explaining things at first" (P8: "a rehearsal for the Good Government Juntas (Boards)").
+- **P13.** "i fixed P13 so it's better and no longer reads as AI to pangram in the P9-13 block". Before (mine, v13): "Now, the Zapatistas also don't prove my whole economic path, from unpriced internal necessities, to a common purse, to getting rid of outside money. Do their communities use collective work to support their schools and clinics, and their autonomous government and resistance? Yes. …" After (his): "Now, the Zapatistas also don't prove my whole money-free economy goal. They still use money internally in some cases, not others, and they still use it externally for trade. They've also benefitted from outside economic help, while at the same time making efforts to remain politically independent from donors and more self-sustaining."
+- "continue".
+
 ## Joel's message, 2026-10-09 22:10 UTC
 
 - "continue" (turn 38 was finished and he had both pages, so it's the merge OK, and go on).
