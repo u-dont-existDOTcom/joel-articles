@@ -98,7 +98,7 @@ About a minute: open the pull request link in my message, check that its checks 
 
 ### 🔵 From Survival to Experimental Play (the next h2)
 
-In progress. It goes through the same reviews and Pangram before it's shown to you.
+In progress. Its first paragraph is in (turn 42) and is on the review page; the rest goes through the same reviews and Pangram. Nothing in it needs you yet.
 
 ### 🔵 Notes for when Altered States is humanized
 

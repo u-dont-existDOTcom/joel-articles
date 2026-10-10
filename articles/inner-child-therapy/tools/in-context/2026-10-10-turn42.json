@@ -3,6 +3,7 @@
  "meta": "Inner Child Therapy · turn 42 (your message of 2026-10-10 19:37 UTC) · saved on the lane, not merged",
  "intro": [
   "Your five answers are in. The drug-history paragraph is rebuilt on your answer about voices, My Journey no longer has the line that isn't from your life, and turn 40's opening of Sometimes There Isn't a Clear Child Yet is in with the cut you agreed to. Everything changed passed Pangram's web app on the first try, alone and in its sections, all 100% Human. Highlighted words are new since the version you merged (pull request #155), struck words are cut.",
+  "Then, from your \"continue\": the first paragraph of From Survival to Experimental Play, the next h2. It passed alone (116) and in the h1 so far (281), on its third try. The rest of that h2 comes next.",
   "Three questions for you are on the owner questions page (OWNER-QUESTIONS.md in the repo, also sent with this page), numbered there. The notes below say which paragraph each one is about."
  ],
  "blocks": [
@@ -91,7 +92,7 @@
     "# Sometimes There Isn't a Clear Child Yet"
    ],
    "intro": [
-    "Turn 40's opening, now in, with the cut you agreed to (\"agreed\")."
+    "Turn 40's opening, now in with the cut you agreed to (\"agreed\")."
    ],
    "rows": [
     {
@@ -102,6 +103,54 @@
      ],
      "notes": [
       "Unchanged since turn 41's page; only its candidate mark is gone. Pangram: the pair 100% Human (152), the h1 with both 100% Human (160)."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Sometimes There Isn't a Clear Child Yet",
+    "## From Survival to Experimental Play"
+   ],
+   "intro": [
+    "The next h2, started from your \"continue\": its first paragraph. The rest of the h2 comes next."
+   ],
+   "rows": [
+    {
+     "label": "From Survival to Experimental Play, P1 (new)",
+     "article": "If your childhood meant avoiding pain",
+     "source": [
+      "When childhood is organized around avoiding pain",
+      "Identity grows through trial and error"
+     ],
+     "notes": [
+      "The guide's first two paragraphs of the h2, as one. The blurry, less-practiced self isn't repeated: the opening above already says the real one may never have had room to form.",
+      "\"or it felt like they loved you less\" for the guide's \"withdrawal of love\": two reviews said \"loved less\" ruled on how much you were actually loved.",
+      "\"People grow into who they are\" was \"I think that people find out who they are\": the guide says it flatly and credits this part of the method to Key, and \"find out\" made the self sound already finished.",
+      "The name-spelling example is the writer's, not from your life.",
+      "Pangram: alone 100% Human (116), try 3 (the first drafts read 100% AI); the h1 so far 100% Human (281). The h2 alone, with only this paragraph under its heading, read 100% AI (121), so it gets checked again once its other paragraphs are in."
+     ],
+     "carries": [
+      {
+       "draft": "your attention got used up reading danger (was that sigh about me?) and meeting their expectations",
+       "guide": "attention goes into reading danger, meeting other people’s expectations, and keeping the bond"
+      },
+      {
+       "draft": "when curiosity or mistakes got you punished, or it felt like they loved you less, you got better at the part",
+       "guide": "When curiosity or mistakes bring ridicule, punishment, or withdrawal of love, the performed self gets better at surviving"
+      },
+      {
+       "draft": "That left much less room for experiments that show you what you like when nobody's grading you.",
+       "guide": "There is much less room for the ordinary experiments that answer"
+      },
+      {
+       "draft": "People grow into who they are by trying things on and then changing their minds",
+       "guide": "Identity grows through trial and error"
+      },
+      {
+       "draft": "like a teenager who starts spelling her name with an \"i\" at the end and later changes it back",
+       "guide": null
+      }
      ]
     }
    ]
