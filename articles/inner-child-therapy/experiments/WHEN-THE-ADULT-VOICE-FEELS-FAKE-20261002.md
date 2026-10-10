@@ -518,3 +518,23 @@ Joel, 22:10: "continue" (turn 38 was finished and he had both pages: the merge O
 1. Joel's answers on PGQ-006 (the rough trip; which drugs), then a third draft, or his own fix.
 2. His merge of the second request (this turn's h3), after he's seen the page. It also clears main's validator errors.
 3. The next h1, Sometimes There Isn't a Clear Child Yet.
+
+## Turn 40 (2026-10-10, 00:36 to 03:09 UTC): the opening of Sometimes There Isn't a Clear Child Yet
+
+No message from Joel started it: his merge of turn 39's second request (00:36 UTC), and his standing "continue". The guide's first three paragraphs of the h1, as two. Every paragraph passed alone, but the pair and the h1 read 100% AI as one window through four tries. A diagnostic without P2's last sentence (the guide's "The pl/ork begins earlier, with finding or building the self.") passed. That cut is his, so the version without the line is a candidate in the article. The run stopped with three checks pending; they were run at the start of turn 41 and passed (P1 try 3 100% Human, 73; the pair 100% Human, 152; the h1 100% Human, 160). Nothing from turn 40 reached Joel until turn 41. Drafts: `t40-clear-child/DRAFTS.md`.
+
+## Turn 41 (2026-10-10, from 05:21 UTC, sent again 15:20): the San Pedro fix and PGQ-006
+
+Joel's answers to turn 39's two questions, and a correction: "idk why you said i was cracked wide open by pedro so wide there was no gorwn up in the room you just confabulated that? don't confabulate things about my life..." The first run of this turn hit the usage limit at 14:47 UTC before it sent anything; its reviews were kept and this run went on from them.
+
+- **The invented line is out.** P2 tells what he says happened: San Pedro at a medium-low dose, super emotional, cried a lot, very therapeutic; ayahuasca often much more challenging, huge doses for ego death at first. The 7g stays out (a dose to copy). The line had been built on My Journey's "there wasn't a grown-up me around anymore", which I wrote on 2026-09-16 and turn 39's review called his (E159).
+- **E159, the cause and the check.** The gate's E71 rule and the grounding prompt counted the humanized article as his words, so one invented line licensed the next. Both now take his messages and the paragraphs he wrote or confirmed, quoted in the target's rulings, and the writers' brief says the same. A sweep of the whole article found two more life claims that aren't in his words and nine that say more than he did. They're on a page of their own for him, and none is changed without him.
+- **PGQ-006 is in,** as three paragraphs: your own drug history (his paranoia ruling in his words), milder reactions and medicine (a writer's draft, try 2), and his own answer on which drugs (5-MeO-DMT, his guide linked). P1 got the guide's "Slow down. Bring in support" back (two groundings' MUST), P2 "around" for "in you" and the guide's "hold off ... until", and P3 lost a pace claim the guide doesn't make (two stance checks).
+- **Pangram 4.0, the dashboard:** P1 100% Human (94), P2 100% Human (106), drug history 100% Human (103), help 100% AI (96, try 1) then 100% Human (85, try 2), his answer 100% Human (105), P3 100% Human (101); the h3 100% Human (600); Start With Whatever Showed Up 100% Human (2,619); When the Adult Voice Feels Fake 100% Human (3,212). Predictions 8 of 10.
+- **Turn 40's opening** is shown with its cut question.
+
+### Next
+
+1. Joel's answers: his San Pedro and ayahuasca account as text or not; which voices count as the one episode; the life-claims page; turn 40's cut.
+2. His merge of this turn's request after he's seen the pages.
+3. The rest of Sometimes There Isn't a Clear Child Yet (From Survival to Experimental Play).

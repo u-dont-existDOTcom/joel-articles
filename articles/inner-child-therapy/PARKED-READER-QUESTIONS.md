@@ -64,3 +64,9 @@ They wait here instead of going into the article. Joel decides on them when the 
 - 2026-10-06 · When to Change the Strategy, P5 · How often, if not after every session? · COULD (parked)
 - 2026-10-06 · Two Common Protective Patterns, P2 · Or am I just sleepy? (a yawn's everyday meaning, next to the pull and discharge) · COULD (parked)
 - 2026-10-06 · Two Common Protective Patterns, P2 · What is Re-evaluation Counseling? ("a kind of peer counseling" is all it gets) · COULD (parked)
+
+- 2026-10-10 · When the Urge to Escape Arrives, his answer on which drugs · Which drugs are "the healthiest ones"? · COULD (parked; turn 41 grounding)
+- 2026-10-10 · When the Urge to Escape Arrives, drug history · Who does a "professional assessment"? · COULD (parked; turn 41 grounding)
+- 2026-10-10 · When the Urge to Escape Arrives, P3 · How do I tell a mantra used as therapy from one used for coping? · COULD (parked; turn 41 grounding)
+- 2026-10-10 · When the Urge to Escape Arrives, P2 · When is a psychedelic itself the escape plan? · COULD (parked; turn 41 grounding)
+- 2026-10-10 · When the Urge to Escape Arrives, drug history · Voices heard during a trip, as against after it (Joel ruled only on paranoia) · to Joel as question 2 on the turn-41 page
