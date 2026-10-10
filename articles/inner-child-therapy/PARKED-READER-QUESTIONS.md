@@ -70,3 +70,8 @@ They wait here instead of going into the article. Joel decides on them when the 
 - 2026-10-10 · When the Urge to Escape Arrives, P3 · How do I tell a mantra used as therapy from one used for coping? · COULD (parked; turn 41 grounding)
 - 2026-10-10 · When the Urge to Escape Arrives, P2 · When is a psychedelic itself the escape plan? · COULD (parked; turn 41 grounding)
 - 2026-10-10 · When the Urge to Escape Arrives, drug history · Voices heard during a trip, as against after it (Joel ruled only on paranoia) · to Joel as question 2 on the turn-41 page
+- 2026-10-10 · When the Urge to Escape Arrives, drug history · Voices heard during a trip · answered by Joel, 19:37 UTC: normal on psychedelics, not as normal on weed (turn 42)
+- 2026-10-10 · When the Urge to Escape Arrives, his answer on which drugs · Which drugs are "the healthiest ones"? · answered later in the guide (Altered States: low doses of cactus, CBD tea with sublingual mapacho, loveyhuasca, iboga); turn 42 grounding
+- 2026-10-10 · When the Urge to Escape Arrives, drug history · How do I tell whether a manic or psychotic reaction was the drug or me, and should a professional help before I try again? · MUST, to Joel (OWNER-QUESTIONS.md, question 1)
+- 2026-10-10 · When the Urge to Escape Arrives, drug history · Can I take any of these with a prescribed medicine? · MUST, to Joel (OWNER-QUESTIONS.md, question 1)
+- 2026-10-10 · My Journey, the paragraph after the San Pedro one · Was the inner-child therapist already the adult he went looking for? Which borrowed adult did he find? · to Joel (OWNER-QUESTIONS.md, question 3); four cold reads and two groundings

@@ -538,3 +538,19 @@ Joel's answers to turn 39's two questions, and a correction: "idk why you said i
 1. Joel's answers: his San Pedro and ayahuasca account as text or not; which voices count as the one episode; the life-claims page; turn 40's cut.
 2. His merge of this turn's request after he's seen the pages.
 3. The rest of Sometimes There Isn't a Clear Child Yet (From Survival to Experimental Play).
+
+## Turn 42 (2026-10-10, from 19:37 UTC): Joel's answers to turn 41
+
+His five answers (verbatim in `../OWNER-EDITS.json`): "they can go in, if they fit well"; voices and losing your sense of reality are normal on psychedelics, and going manic, psychotic, super paranoid or worse afterward are the signs to reconsider and figure out why; the My Journey line "Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore." isn't from his life, "the rest is accurate and ok"; "agreed" to turn 40's cut; "continue".
+
+- **The drug-history paragraph** is rebuilt on his answer on voices, which replaces the guide's one-episode, no-retest-without-assessment rule. His 05:21 paranoia line stays, and the guide's vulnerability point comes back as "any of those reactions can also point to a vulnerability in you". The help paragraph's first sentence says "afterward".
+- **My Journey** loses the line. The sentence after it, his confirmed one, no longer leans on it: "When an old wound hits and you're the same little kid again, the three adult jobs don't work too well. That's why I started looking for a way to have an adult there before I could reliably be that adult myself." The guide's protective parts at the door aren't carried there (two reviews: unintroduced, easy to mix up with the Protector); later sections carry them.
+- **Turn 40's opening** of Sometimes There Isn't a Clear Child Yet is in, without its CANDIDATE mark.
+- **Reviews:** four rounds (`t42-rework/REVIEWS.md`). Questions only he can answer are on the new owner questions page, `../OWNER-QUESTIONS.md` (UDA `patterns/owner-questions-page.md` and `patterns/cross-account-continuity.md`): medical cautions his answers don't cover yet, the Altered States section's older voices rule, and how his therapist and his search for an adult go together.
+- **Pangram 4.0, the dashboard, try 1 each:** drug history 100% Human (160), help 100% Human (86), the new My Journey paragraph with the one before it 100% Human (108); the urge h3 100% Human (658); Start With Whatever Showed Up 100% Human (2,677); When the Adult Voice Feels Fake 100% Human (3,270); My Journey 100% Human (682). Predictions 7 of 7.
+
+### Next
+
+1. Joel's answers on `../OWNER-QUESTIONS.md`.
+2. His merge of this turn's request after he's seen the pages.
+3. The rest of Sometimes There Isn't a Clear Child Yet: From Survival to Experimental Play.
