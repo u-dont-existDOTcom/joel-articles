@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "29474192b6f69d6dd42173f0f6f7bbbdaa4a5ccbbfcbe3ca4141e844f7c7677c",
+          "sha256": "d517eca2fe6bd1edf463be50160a8a671f87812197bee706441c5105c37dd146",
           "role": "detector_prediction_log"
         },
         {
@@ -5445,6 +5445,11 @@
         {
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-10-turn40-c.json",
           "sha256": "9dcff049566e46053a6ea26597a11559ca6bf54f0af201a28f00952f4ff5322d",
+          "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-10-turn40-d.json",
+          "sha256": "620467cd3a4225e829db6f4814f2926c4a5529998156becea88cb56036e0b92f",
           "role": "detector_check_texts"
         }
       ]
