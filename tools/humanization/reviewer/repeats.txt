@@ -1,0 +1,25 @@
+Find the repeats in a long article.
+
+You are checking a long article for points it makes more than once. The author doesn't want anything said twice (Joel, 2026-10-07 01:09: "just make sure it's not duplicating stuff"), and until 2026-10-08 each part was only checked against its neighbors when it went in.
+
+Below is the whole article, with each block numbered [B#]. Headings start with #, ##, ###. Bracketed notes stand in for embedded posts. Read every block.
+
+WHAT COUNTS
+
+A repeat is the same point made twice: the same claim, instruction, caution, reassurance, example or permission, in the same situation or close enough that a reader would feel told the same thing again. It can be far apart (different sections) or adjacent. Shared words alone don't count, and neither does a theme the article keeps developing, if each passage adds a distinct step. A deliberate callback that a reader would recognize as one is not a repeat, but list it separately if it relies on something sections back.
+
+Also list any two passages that contradict each other or pull in opposite directions without saying why.
+
+{focus}
+
+OUTPUT
+
+1. A numbered list of repeats, in article order. For each: the block numbers; a short exact quote from each instance (under 25 words each); the shared point in a few words; whether the later instance adds something the earlier one doesn't (say what) or a reader would feel told the same thing again; and which instance carries the point better or sits in the more natural place, with a one-line reason.
+2. Contradictions, the same way.
+3. The five repeats a reader would most notice, by number.
+
+Don't suggest rewrites and don't comment on style or quality. Don't invent quotes: every quote must be copied exactly from the article below. {report}
+
+THE ARTICLE
+
+{article}

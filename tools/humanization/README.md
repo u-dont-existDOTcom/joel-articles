@@ -11,7 +11,7 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
   `python3 tools/humanization/check_owner_edits.py --article articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md --ledger articles/inner-child-therapy/OWNER-EDITS.json`
 - `render_article_so_far.py`: the whole article so far as one HTML page for Joel, with the owner-edits check when it's given `--ledger`. Send it at the end of every turn.
   `python3 tools/humanization/render_article_so_far.py OUT.html --article articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md --ledger articles/inner-child-therapy/OWNER-EDITS.json`
-- `render_in_context.py`: the side-by-side page, for any article. It puts the source beside each paragraph and marks the changes, either against the version Joel last saw (`--since`) or against the source (`--against-source`). Send it with every turn that changes an article.
+- `render_in_context.py`: the side-by-side page, for any article. It puts the source beside each paragraph and marks the changes, either against the version Joel last saw (`--since`) or against the source (`--against-source`). Each row is shown in its place: the section it goes in, the article paragraph before it and the one after it (2026-10-07). A draft that isn't in the article needs `"after"` or `"after_row"` in the map. Since 2026-10-08 a row can list `"repeats"`: what the article, or another row, already says. The page marks each in blue, says where, and stops if a quote isn't there (E151). Rows are labeled in plain words, and rows in the article show their source too (E152). Since 2026-10-08 (E154) a quote that's part of a source paragraph is shown inside the whole paragraph with the part marked, and a draft row can have a `"carries"` table: each draft sentence beside the guide words it carries, or "added by the writer", every quote checked. Send it with every turn that changes an article.
   `python3 tools/humanization/render_in_context.py MAP.json OUT.html --article ARTICLE.md --source SOURCE [--since REV | --against-source] [--source-label TEXT]`
 - `stance_check_prompt.py`: the whole-article stance check (the gate's step 4): a prompt that has a fresh agent hold every stance-bearing sentence of a rewrite against the whole published article. Run it before any Pangram call on a candidate (Joel, 2026-10-02: "Did the reviewers not look at the article?").
   `python3 tools/humanization/stance_check_prompt.py --essay PUBLISHED.md --rewrite REWRITE.md --out prompt.txt [--scope TEXT] [--topic TEXT] [--report REPORT.md]`
@@ -21,6 +21,8 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
   `python3 tools/humanization/pangram_batch_gen.py drafts.json out.json KEY1 KEY2 KEY3`
 - `emulate_humanize.py`: the Emulate API tool (`docs/EMULATE-FALLBACK.md`, section 3). It runs on Joel's laptop, where the key is.
   `python3 emulate_humanize.py balance`, or `python3 emulate_humanize.py humanize IN.txt OUT`
+- `git-hooks/pre-push`: runs CI's content-integrity steps on each pushed commit and refuses the push if one fails (E158, 2026-10-09). Install it once per clone, from the repository root:
+  `ln -sf ../../tools/humanization/git-hooks/pre-push .git/hooks/pre-push`
 
 What they read:
 - `calibration/`: texts with known Pangram results, the reviewer's labeled examples and the linter's test set.

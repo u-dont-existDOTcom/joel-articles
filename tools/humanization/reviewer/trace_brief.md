@@ -3,8 +3,9 @@
 <!-- The gate's meaning trace (docs/HUMANIZATION-GATE.md, step 4, "OR is not ALSO" and the 2026-10-09 ruling below).
 Give it to a fresh agent (Sonnet is enough) with an input file of pairs: for each paragraph, CONTEXT BEFORE, PUBLISHED,
 REWRITE and CONTEXT AFTER. Fill {what}, {input}, {report} and {words} (900 for five pairs); delete this comment.
-Give one run at most four or five pairs: a run with seven pairs ended at the 64,000-token output limit with no report
-(community section 10, 2026-10-09), and runs of three, four and five pairs finished. -->
+Give one run at most four pairs and a word cap (the gate doc's step 4 has said so since 2026-10-08). Community section 10
+broke it on 2026-10-09 because the rule wasn't in this brief: seven pairs in one run ended at the 64,000-token output
+limit with no report; runs of three and four pairs finished. -->
 
 Read `{input}`. It holds pairs: a PUBLISHED paragraph and its REWRITE, with the text before and after for context.
 

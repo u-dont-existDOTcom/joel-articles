@@ -195,6 +195,49 @@ class LinterJoelRulings20261007(unittest.TestCase):
             self.assertNotIn('O17', self.lint(s), s)
 
 
+class LinterOwnerScopes(unittest.TestCase):
+    """Joel, 2026-10-07 15:44: the "gets to" ban is about subjects that aren't people; "Not x, but still y" is in the
+    x-not-y family; "lists in general are overused by AI"."""
+    def lint(self, text):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / 'draft.txt'
+            f.write_text(text, encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f)], capture_output=True, text=True)
+            self.assertIn('verdict:', r.stdout, r.stderr[-600:])
+            return r.stdout
+
+    def test_gets_to_with_a_thing_fails(self):
+        for t in ("The urge doesn't get to decide what you do tonight.\n", "That part of you doesn't get a vote here.\n",
+                  "The weather doesn't get to decide whether we go.\n"):
+            self.assertIn('O1 owner ban', self.lint(t), t)
+
+    def test_gets_to_with_a_person_is_not_flagged(self):
+        for t in ("Your dad doesn't get to decide where you live.\n", "Nobody gets to decide that for you.\n",
+                  "A real parent doesn't get to do that, which is one reason nobody manages to be a perfect one.\n"):
+            self.assertNotRegex(self.lint(t), r'\bO1\b', t)  # \b: main's O15 note ("O15 (spelling) skipped") contains "O1"
+
+    def test_gets_to_with_an_unclear_subject_is_a_review(self):
+        out = self.lint("Your little one gets to decide how close to come.\n")
+        self.assertIn('O1 "gets to" with an unclear subject', out)
+        self.assertNotIn('O1 owner ban', out)
+
+    def test_not_x_but_still_y(self):
+        self.assertIn('O18', self.lint("It isn't proof, but it still counts as a good evening.\n"))
+        self.assertIn('O18', self.lint("It isn't proof. It still counts as a good evening.\n"))
+        self.assertNotIn('O18', self.lint("She still lives in the house by the river with her two dogs.\n"))
+
+    def test_may_x_and_still_y(self):
+        """Joel, 2026-10-07 16:46: "it makes no sense AND it sounds ai with "may have X and still Y""."""
+        self.assertIn('O17', self.lint("Somebody may really have crossed a boundary and still have hit something old in you.\n"))
+        self.assertNotIn('O17', self.lint("Somebody may really have crossed a boundary. Notice what it hit in you.\n"))
+
+    def test_a_list_is_a_review(self):
+        out = self.lint("A few people you might call when it gets heavy:\n\n- a friend who listens\n- your sister\n")
+        self.assertIn('O19 a list', out)
+        self.assertEqual(out.count('O19 a list'), 1)
+        self.assertNotIn('O19', self.lint("You could call a friend who listens, or your sister.\n"))
+
+
 class LinterListsOfThree(unittest.TestCase):
     """E125 (Joel, 2026-10-03): "P! failed b ecause it has 2 lists of 3"; "lists of 3 in general are an ai pattern"."""
     FAILED_P1 = ("You might go looking for your little one and get mad instead, or realize you've been staring at the rug. "
@@ -242,6 +285,75 @@ class LinterListsOfThree(unittest.TestCase):
     def test_installed_text_gets_no_flags(self):
         rc, out = self.lint(self.FAILED_P1, installed='# Section\n\n' + self.FAILED_P1)
         self.assertNotIn('E125', out)
+
+
+class InContextPageShowsContext(unittest.TestCase):
+    """Joel, 2026-10-07 15:44: "whenever you give me the in-context side by side, you need to actually give me the context
+    in that page so i can understand what's coming from what"."""
+    ARTICLE = ('# Title\n\n## Section\n\nThe paragraph before, which ends the thought.\n\n'
+               'An installed paragraph in the middle.\n\n## Next Section\n\nThe next section starts here.\n')
+
+    def render(self, rows):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ARTICLE, encoding='utf-8')
+            (d / 's.md').write_text('Source paragraph.\n', encoding='utf-8')
+            (d / 'm.json').write_text(json.dumps({'title': 'T', 'blocks': [{'headings': ['## Section'], 'rows': rows}]}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'render_in_context.py'), str(d / 'm.json'), str(d / 'o.html'),
+                                '--article', str(d / 'a.md'), '--source', str(d / 's.md'), '--against-source'],
+                               capture_output=True, text=True)
+            return r.returncode, (d / 'o.html').read_text(encoding='utf-8') if (d / 'o.html').exists() else r.stderr
+
+    def test_a_candidate_without_a_place_stops_the_page(self):
+        rc, out = self.render([{'label': 'B2', 'text': 'Still, a new paragraph.', 'source': []}])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('needs a place', out)
+
+    def test_the_paragraphs_around_a_chain_of_candidates_are_shown(self):
+        rc, out = self.render([{'label': 'B1', 'text': 'First new paragraph.', 'source': [], 'after': 'An installed paragraph'},
+                               {'label': 'B2', 'text': 'Still, a second new one.', 'source': [], 'after_row': 'B1'}])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('Right before it in the article', out)
+        self.assertIn('An installed paragraph in the middle.', out)
+        self.assertIn('Right after it in the article', out)
+        self.assertIn('## Next Section', out)
+        self.assertEqual(out.count('Right before it in the article'), 1)   # B2 follows B1 directly: no context between them
+        self.assertIn('Where it goes: Title › Section', out)
+
+
+class InContextPageShowsRepeats(unittest.TestCase):
+    """Joel, 2026-10-07 23:18: "some of that looked like it was duplicating other stuff from before ... did you make the
+    dedup pass before trying to humanize?" A dedup note names where the article already says it, with its words."""
+    ARTICLE = InContextPageShowsContext.ARTICLE
+    render = InContextPageShowsContext.render
+
+    def row(self, **repeat):
+        return {'label': 'B1', 'text': 'A new paragraph that ends the thought again.', 'source': [],
+                'after': 'An installed paragraph', 'repeats': [repeat]}
+
+    def test_a_repeat_is_marked_and_says_where(self):
+        rc, out = self.render([self.row(span='ends the thought again', says='ends the thought', how='same point',
+                                        **{'in': 'The paragraph before'})])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('<span class="dup">ends the thought again</span>', out)
+        self.assertIn('Already in the article, in Title › Section: “ends the thought” (same point)', out)
+
+    def test_a_quote_that_isnt_there_stops_the_page(self):
+        rc, out = self.render([self.row(span='ends the thought again', says='starts the thought', **{'in': 'The paragraph before'})])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('not in that paragraph', out)
+
+    def test_a_span_that_isnt_in_the_row_stops_the_page(self):
+        rc, out = self.render([self.row(span='begins the thought', says='ends the thought', **{'in': 'The paragraph before'})])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('not in the row', out)
+
+    def test_a_repeat_between_two_drafts(self):
+        rc, out = self.render([{'label': 'B1', 'text': 'First new paragraph about the thought.', 'source': [], 'after': 'An installed paragraph'},
+                               {'label': 'B2', 'text': 'Again, about the thought.', 'source': [], 'after_row': 'B1',
+                                'repeats': [{'span': 'about the thought', 'in_row': 'B1', 'says': 'about the thought'}]}])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('Also in B1, on this page: “about the thought”', out)
 
 
 class StanceCheckPrompt(unittest.TestCase):
@@ -371,3 +483,146 @@ class RenderInContextHeadings(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class DedupPrompts(unittest.TestCase):
+    """E151 (2026-10-08): new material is checked against the whole article, not just its neighbors (Joel, 2026-10-07 01:09:
+    "just make sure it's not duplicating stuff"; 23:18: "did you make the dedup pass before trying to humanize?")."""
+    ARTICLE = ('# Title — humanized article so far\n\n# Part One\n\nThe first paragraph says to wait until you are calm.\n\n'
+               "Here's a map:\n\n<!-- Native Substack embed from source, unchanged: \"The Map\" (https://example.com/map). -->\n\n"
+               '## Later\n\n<!-- a working note -->\n\nA later paragraph.\n\nhttps://substack.com/profile/1-x/note/c-2\n')
+
+    def run_cmd(self, *args, target=None):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ARTICLE, encoding='utf-8')
+            (d / 't_one.json').write_text(json.dumps({
+                'before': 'The first paragraph says to wait until you are calm.',
+                'guide_passage': 'The 2026-10-04 r4 guide (the passage this carries):\nWait until you are calm. Keep a friend near.'}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'reviewer' / 'reviewer.py'), '--article', str(d / 'a.md')] +
+                               [x.replace('T1', str(d / 't_one.json')).replace('OUT', str(d / 'o.txt')) for x in args],
+                               capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stderr)
+            return (d / 'o.txt').read_text(encoding='utf-8')
+
+    def test_the_whole_article_is_numbered_with_its_embeds(self):
+        p = self.run_cmd('repeats', 'OUT', '--focus', '"# Part One"')
+        self.assertIn('[B0] # Part One', p)
+        self.assertIn('[Embedded post by the author: "The Map"]', p)
+        self.assertIn('[Embedded Substack note by the author, shown as a preview card]', p)
+        self.assertNotIn('working note', p)
+        self.assertNotIn('humanized article so far', p)
+        self.assertIn('"# Part One" was put together from several sources', p)
+        self.assertIn('Return your findings as your final message', p)
+
+    def test_each_group_says_where_it_goes_and_carries_its_passage(self):
+        p = self.run_cmd('dedup', 'OUT', 'T1', '--report', '/tmp/r.md')
+        self.assertIn('GROUP 1 (t_one): would go right after [B1]', p)
+        self.assertIn('Wait until you are calm. Keep a friend near.', p)
+        self.assertNotIn('(the passage this carries)', p)
+        self.assertIn('(No drafts yet', p)
+        self.assertIn('/tmp/r.md', p)
+        self.assertLess(p.index('THE ARTICLE'), p.index('GROUP 1'))
+
+
+class InContextPageShowsWhatADraftCarries(unittest.TestCase):
+    """Joel, 2026-10-08 02:23: "i also don't understand how you got depth draft 1 from the r4 guide? doesn't look like a good
+    rewrite of that one sentence". The source cell showed one sentence of the guide paragraph; the draft carried all of it."""
+    ARTICLE = InContextPageShowsContext.ARTICLE
+
+    def render(self, rows, source='First guide sentence. Second guide sentence.\n'):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ARTICLE, encoding='utf-8')
+            (d / 's.md').write_text(source, encoding='utf-8')
+            (d / 'm.json').write_text(json.dumps({'title': 'T', 'blocks': [{'headings': ['## Section'], 'rows': rows}]}), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'render_in_context.py'), str(d / 'm.json'), str(d / 'o.html'),
+                                '--article', str(d / 'a.md'), '--source', str(d / 's.md'), '--against-source'],
+                               capture_output=True, text=True)
+            return r.returncode, (d / 'o.html').read_text(encoding='utf-8') if (d / 'o.html').exists() else r.stderr
+
+    def row(self, **kw):
+        r = {'label': 'D1', 'text': 'One new sentence. Another one of mine.', 'after': 'An installed paragraph',
+             'source': [{'quote': 'First guide sentence.', 'from': 'the guide'}]}
+        r.update(kw)
+        return r
+
+    def test_a_quote_is_shown_inside_its_whole_paragraph(self):
+        rc, out = self.render([self.row()])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('<span class="mark">First guide sentence.</span> Second guide sentence.', out)
+        self.assertIn('the marked part, in its paragraph', out)
+
+    def test_each_sentence_beside_what_it_carries(self):
+        rc, out = self.render([self.row(carries=[{'draft': 'One new sentence.', 'guide': 'Second guide sentence.'},
+                                                 {'draft': 'Another one of mine.', 'guide': None}])])
+        self.assertEqual(rc, 0, out)
+        self.assertIn('<td>One new sentence.</td><td>Second guide sentence.</td>', out)
+        self.assertIn('added by the writer', out)
+
+    def test_a_guide_quote_that_isnt_in_the_source_stops_the_page(self):
+        rc, out = self.render([self.row(carries=[{'draft': 'One new sentence.', 'guide': 'A sentence the guide never had.'}])])
+        self.assertNotEqual(rc, 0)
+        self.assertIn('not in the source', out)
+
+
+class GuideAdditionsNeedProvenance(unittest.TestCase):
+    """Joel, 2026-10-08 02:23: "maybe we should somehow implement a rule that guide additions can't be suggested by other
+    owrkers unless they are explained, what map change caused them, and how they are really needed vs superfluous to the
+    guide." (E155)"""
+
+    def run_draft(self, provenance=None):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text('# Title\n\nThe paragraph before.\n', encoding='utf-8')
+            (d / 'master.html').write_text('<p>Keep one small promise to your little one.</p>', encoding='utf-8')
+            t = {'before': 'The paragraph before.', 'after': '', 'brief': '- the point',
+                 'guide_passage': 'The 2026-10-04 r4 guide (the passage this carries):\nKeep one small promise to your little one. '
+                                  'Do not keep trying to sneak it back in through gentler exercises.'}
+            if provenance:
+                t['provenance'] = provenance
+            (d / 't.json').write_text(json.dumps(t), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'reviewer' / 'reviewer.py'), '--article', str(d / 'a.md'),
+                                'draft', str(d / 't.json'), str(d / 'o.txt')], capture_output=True, text=True)
+            return r.returncode, r.stderr
+
+    def test_an_unexplained_addition_stops_the_draft(self):
+        rc, err = self.run_draft()
+        self.assertNotEqual(rc, 0)
+        self.assertIn('sneak it back in', err)
+        self.assertNotIn('Keep one small promise', err)   # the original guide's sentence isn't an addition
+
+    def test_an_explained_addition_drafts(self):
+        rc, err = self.run_draft({'map_change': 'innerSignalGraph PR #126 (2026-10-04): decline handling',
+                                  'why_reader_needs_it': 'a reader who said no to the frame needs to hear it is respected'})
+        self.assertEqual(rc, 0, err)
+
+
+class PrePushHookReadsCISteps(unittest.TestCase):
+    """E158 (2026-10-09): the pre-push hook runs CI's own content-integrity steps, read from the workflow."""
+
+    def load_hook(self):
+        import importlib.machinery
+        import importlib.util
+        path = str(TOOLS / 'git-hooks' / 'pre-push')
+        loader = importlib.machinery.SourceFileLoader('pre_push_hook', path)
+        spec = importlib.util.spec_from_loader('pre_push_hook', loader)
+        module = importlib.util.module_from_spec(spec)
+        loader.exec_module(module)
+        return module
+
+    def test_it_runs_every_workflow_step(self):
+        hook = self.load_hook()
+        cmds = hook.steps(str(ROOT / '.github' / 'workflows' / 'content-integrity.yml'))
+        joined = '\n'.join(cmds)
+        for script in ('unittest discover -s tests', 'validate_content_repository.py',
+                       'validate_article_architecture_maps.py', 'audit_codex_github.py'):
+            self.assertIn(script, joined)
+        self.assertFalse([c for c in cmds if c.startswith('python ')], cmds)  # this interpreter, not `python`
+
+    def test_a_multi_line_step_is_skipped_with_a_note(self):
+        hook = self.load_hook()
+        with tempfile.TemporaryDirectory() as tmp:
+            wf = pathlib.Path(tmp) / 'wf.yml'
+            wf.write_text('steps:\n  - run: |\n      echo a\n  - run: python3 x.py\n', encoding='utf-8')
+            self.assertEqual(hook.steps(str(wf)), ['python3 x.py'])

@@ -87,8 +87,8 @@
   },
   {
    "id": "boundary-crossing",
-   "status": "applied",
-   "what": "\"elevated the boundary crossing to\".",
+   "status": "superseded",
+   "what": "\"elevated the boundary crossing to\". Superseded 2026-10-07 16:46 by Joel's own rewrite of the whole paragraph (entry boundary-paragraph-joel).",
    "joel": "04:19",
    "must_contain": [
     "elevated the boundary crossing to"
@@ -97,11 +97,11 @@
   {
    "id": "outward-p1-sense",
    "status": "applied",
-   "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48. Rebuilt by the reviewer-writer loop (r6b, 2026-09-28) and finished by Joel (entry outward-p1-joel-final).",
+   "what": "Also Look Outward P1 makes sense as a whole. Joel's note covers the whole chain after \"Irritating.\" (\"and next and next\"). My 2026-09-27 fix replaced only the first sentence, and this entry used to check for that sentence, so it passed while the paragraph still didn't make sense. Reopened 21:48. Rebuilt by the reviewer-writer loop (r6b, 2026-09-28) and finished by Joel (entry outward-p1-joel-final). 2026-10-07 23:18: Joel changed \"that happy place\" to \"your happy place\".",
    "joel": "04:19: \"the first paragraph in Also Look Outward makes no sense. after 'irritating.' the next sentence is referring to what? and next and next... ?\"; 21:46: \"it looks like this same paragraph that i told you before made no sense, do you recall that feedback?\"",
    "waits_for": "",
    "must_contain": [
-    "Once you're in that happy place, look at the other person too",
+    "Once you're in your happy place, look at the other person too",
     "Or can they hear you disagree and look at their own part?"
    ],
    "must_not_contain": [
@@ -412,10 +412,10 @@
   {
    "id": "rel-meditate-moved",
    "status": "applied",
-   "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start.",
+   "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start. 2026-10-07 23:18: Joel rewrote the paragraph (entry also-look-outward-run-joel).",
    "joel": "2026-09-30 03:29 UTC: \"ok but now i'm rethinking the \\\"underlying reason your in it\\\" part because i'm remembering [a past relationship] [...] So now the advice to leave the relationship becomes more tricky with that in mind. I can't say she should have left me or not left me... it just depends on how things were going for her at the time. [...] Maybe instead of \\\"leave it\\\" and explaining why youre in it, just say, \\\"meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.\\\" Although that might deserve its own section, idk. I also have a romance guide i could link to at romance.u-dont-exist.com (link works even if not for you).\"",
    "must_contain": [
-    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship."
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it."
    ],
    "must_not_contain": [
     "The underlying reason you're in it anyway",
@@ -424,7 +424,7 @@
    "order": [
     "prepared for their failure to meet them.",
     "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098",
-    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.",
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it.",
     "If you really did hurt them, repair it.",
     "Not Every Hero Wears A Cape",
     "Clean your room! Maybe your little one had grown-ups"
@@ -1328,11 +1328,111 @@
   {
    "id": "pgq-002-performance-test",
    "status": "claim",
-   "what": "Claim check: Joel's update queue item PGQ-002 (dates and other contact can turn into proof-seeking; keep the contact, drop the proving) is at the end of Also Look Outward. PGQ-003's paragraph waits (it drew a window next to this one).",
+   "what": "Claim check: Joel's update queue item PGQ-002 (dates and other contact can turn into proof-seeking; keep the contact, drop the proving) is at the end of Also Look Outward. PGQ-003's paragraph waits (it drew a window next to this one). 2026-10-07 23:18: the paragraph is now Joel's own rewrite (entry also-look-outward-run-joel).",
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
    "where": "Before You Try to Go Deep",
    "must_contain_exact": [
-    "Then there are people you're just getting to know. Meeting them can turn into a kind of test. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'd lower the stakes. Get curious about them, and let them have their own reasons for being there. Can you just be with them without it turning into a verdict on you?"
+    "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'm giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present."
+   ]
+  },
+  {
+   "id": "boundary-paragraph-joel",
+   "status": "applied",
+   "what": "Joel's own paragraph replaces \"Here's where I want to clearly depart… Somebody may really have crossed a boundary and still have hit something old in you…\" at the end of Catch the Hook Before the Story Takes Over. One punctuation fix: a double space in \"Just  because\".",
+   "joel": "2026-10-07 16:46 UTC: \"somehow i must not have read the paragarph before also look outward because it makes no sense AND it sounds ai with \\\"may have X and still Y\\\" change it to: [his paragraph]\"",
+   "where": "Catch the Hook Before the Story Takes Over",
+   "must_contain_exact": [
+    "Here's where I want to clearly depart from the new-age wizdumb that all your problems are self-created: Somebody may really have crossed a boundary. That's not just because they are your karmic partner mirroring what God wants to show you in yourself, even if that also applies sometimes. Your reaction is what you can control the most, though. If what they did hit something old in you, notice how that feels in your body. And notice how your feelings can also amplify or distort your perceptions of others. Just because your stomach tightened up doesn't mean their boundary crossing indicates “They're evil.” You can defer that judgement for when you're in your happy place."
+   ],
+   "must_not_contain": [
+    "still have hit something old in you",
+    "that somehow elevated the boundary crossing"
+   ]
+  },
+  {
+   "id": "pgq-001-joel-rewrite",
+   "status": "applied",
+   "what": "Joel's rewrite of queue item PGQ-001 (B1 and B2) follows his boundary paragraph, before Also Look Outward. No fix needed.",
+   "joel": "2026-10-07 16:46 UTC: \"B2 was really bad, i rewrote it b1-b2. It's hum, high conf\"",
+   "where": "Catch the Hook Before the Story Takes Over",
+   "must_contain_exact": [
+    "Feelings about yourself work the same way. \"I feel attracted\" or \"I feel ashamed\" is real as a feeling, but it doesn't settle who you are, or who you love. Making too much out of something momentary is one side of the human psyche's pendulum. Give yourself time to see what patterns form more durably, and what feels authentically yours vs something planted or manipulated into being there from society, influencers, family, friends, religion, etc., etc. You may find an exceptional freedom in exactly that in-between place where you don't have to decide what your pronouns are, or whether you believe in this or that. If you stay in flux forever, though, it can seem like there's nothing solid about you. In that case, sometimes it helps to meditate or talk with a good unbiased therapist who can help you see the pattern.",
+    "The opposite extreme of our pendulum, throwing everything transient away, as some people do with \"thought-noting\" practice, also isn't healthy, except as a meditation exercise. Transient feelings and thoughts can be meaningful signals. For example, if you don't want to be touched, say no now and work out what it means later. Same if something might be dangerous right now, or might be a medical warning sign: step away or get checked first."
+   ],
+   "order": [
+    "Here's where I want to clearly depart from the new-age wizdu",
+    "Feelings about yourself work the same way. \"I feel attracted",
+    "The opposite extreme of our pendulum, throwing everything tr",
+    "Also Look Outward"
+   ]
+  },
+  {
+   "id": "pgq-004-anxiety",
+   "status": "claim",
+   "what": "Claim check: Joel's update queue item PGQ-004 (anxiety can protect without being an oracle; testing a prediction never overrides a no) is in Start With Whatever Showed Up, after \"Or if you do get an answer…\".",
+   "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"; 2026-10-07 16:46: \"maybe you can continue with the rest from there?\"",
+   "where": "Start With Whatever Showed Up",
+   "must_contain_exact": [
+    "Anxiety deserves the same kind of listening. A lot of the time it's a part of you that's trying to protect you, making a guess about what's coming: that you'll get overwhelmed, maybe, or that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. So when it's safe to find out, I'd hear it out and then go see. Maybe nobody laughs. (Or they do, and you survive it.) If it might be real danger, though, I'd get some distance first, and find out how right it was later. Same with something a doctor should look at.",
+    "Some of it I wouldn't test at all, even when it sounds like a prediction. If a part hesitates about being touched or about sex, that's enough to stop. And if it says no to going deeper in this work, or to an altered state, I'd stop there too. It might not be able to tell you why."
+   ]
+  },
+  {
+   "id": "also-look-outward-run-joel",
+   "status": "applied",
+   "what": "Joel's own fix of the four paragraphs Pangram flagged at the end of Also Look Outward in turn 34 (the relationship paragraph, the repair line, the apology paragraph and C1), word for word.",
+   "joel": "2026-10-07 23:18 UTC: \"Here i fixed the red sections for you, this is human high conf learn some lessons\"",
+   "where": "Also Look Outward",
+   "must_contain_exact": [
+    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!) But if they've actually hurt or threatened you, even once, old stuff or not, get safe first, which is not a small thing at all, I know.",
+    "If you really did hurt them, repair it. Also easier said than done, but...",
+    "You can mean the apology for a start. Then notice what happens next. Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.",
+    "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that. If the real reason you're asking someone out is to prove you're lovable, or that you're sure what you want, then they've become part of the test. I'm giving you permission now to quit school and flunk the tests. Get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present."
+   ]
+  },
+  {
+   "id": "c2-after-c1",
+   "status": "applied",
+   "what": "Joel's yes to C2 (queue item PGQ-003, my turn-34 draft) after his C1, at the end of Also Look Outward, unchanged. T8 sits between them (turn 38: a cold read found it a step backward after C2, and the guide has the same order).",
+   "joel": "2026-10-09 02:06 UTC: \"C2 looks fine\"",
+   "where": "Also Look Outward",
+   "must_contain_exact": [
+    "And reaching out doesn't mean telling strangers everything. Privacy isn't fakery. People can earn more of you by how they handle the smaller things you tell them, and how they take it when you say no. But if a relationship is getting deep and you're still keeping up a fake normal, happy version of yourself to hold onto it, I'd either bring more of the truth in, carefully, or let it be less deep for now. (If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first.) And when someone finally accepts you, it can feel amazing. It still doesn't prove you're meant for each other, or that they've earned your trust yet."
+   ],
+   "order": [
+    "let both of you have your own reasons for being there in the beautiful present.",
+    "If being alone was a big part of what hurt in the first place",
+    "And reaching out doesn't mean telling strangers everything."
+   ]
+  },
+  {
+   "id": "t1-t9-teaching-points",
+   "status": "applied",
+   "what": "Joel's yes to teaching points T1 to T9 (innerSignalGraph #126's map changes, as the reader needs them; docs/proposals/MAP-TO-GUIDE-ARCHITECTURE-20261008.md, section 7), drafted only where the article doesn't already say them. In after turn 38's checks: T1 (with T2's eyes-open hello as its last sentence) and T3 after the readiness paragraph; T4 to T7 as three paragraphs after the somatic map; T8 between C1 and C2, T9 after C2. T2 as a paragraph of its own failed three times and isn't in.",
+   "joel": "2026-10-09 02:06 UTC: \"all those T1-9 points look good, if they aren't already in the guide. C2 looks fine yes teaching points makes sense\"",
+   "where": "Before You Try to Go Deep; Your Body Might Need Some Love First; Also Look Outward",
+   "must_contain_exact": [
+    "And if the grown-up you is there, and it's just how deep you're going that's too much, I'd go shallower. Some people try one technique after another instead, to prove to themselves they can take it. Your little one may have had to just take it back then, though. Now there's a grown-up around who can say, \"Okay, that's enough for today,\" and try something gentler instead of giving up on them. Even just saying hi to them with your eyes open, before any imagery, counts.",
+    "If you ever need a full break from your little one, I'd jot down why, and how far you'd gotten before it got to be too much. A couple of lines on your phone is plenty. After a while away, it gets hard to remember. So once that reason has changed and you want to come back, the note tells you where it was still okay. I'd start there, or somewhere a bit gentler.",
+    "Whatever you try from that map, I wouldn't go just by how pleasant a session felt to tell whether it was too much. This kind of work can bring up grief and fear, and sometimes hard dreams, or stuff you'd rather never have met. Even staying present the whole time doesn't tell you enough by itself. It's a bit like the gym, where sore and injured can feel pretty similar that evening, and it's the next few days that tell you which one it was.",
+    "So how were the next few days? How did you sleep, and could you get through your day okay? Do you want to go back toward what came up, or is some part of you saying no? (And was it hard but doable, or just too much? A lot of the time you just know.) If you honestly can't tell yet, I wouldn't rush to call it healing or harm. I'd just make the next one a bit easier, one change at a time, so you learn what made the difference. If you're getting worse, though, change several things at once, and get some support.",
+    "Bring the challenge back gradually, and only when you want to and you're recovering well. Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn. And what about those hard dreams, or images that pop up during a session? They can show what feels important or frightening right now. Sometimes they show what feels missing, or what feels needed. They aren't evidence that what you saw in them happened, though, and shouldn't be used to confirm a memory or rebuild one. Or to suggest one.",
+    "If being alone was a big part of what hurt in the first place, then reaching toward people is part of taking care of your little one too. Do you have to get yourself sorted out first, so you'll be better company? I really don't think so. If the hurt was being alone, waiting just means more of being alone. So I'd call somebody or show up somewhere, mess and all.",
+    "I can't tell you where to look for people who fit you, but I'd bet on more than one place. Keep the good people you've already got. Then maybe try a class, or a spiritual community if one really fits you. Not every one of them has to click (nobody's taking attendance). And if any group, or any one person, starts acting like they should be your only one, that's where I'd want the Protector paying attention."
+   ],
+   "order": [
+    "And if the grown-up you is there, and it's just how deep you",
+    "If you ever need a full break from your little one, I'd jot ",
+    "Here's a map of what to try when:",
+    "Whatever you try from that map, I wouldn't go just by how pl",
+    "So how were the next few days? How did you sleep, and could ",
+    "Bring the challenge back gradually, and only when you want t",
+    "### Catch the Hook",
+    "in the beautiful present.",
+    "If being alone was a big part of what hurt in the first plac",
+    "And reaching out doesn't mean",
+    "I can't tell you where to look for people who fit you, but I",
+    "### Write It."
    ]
   }
  ]
