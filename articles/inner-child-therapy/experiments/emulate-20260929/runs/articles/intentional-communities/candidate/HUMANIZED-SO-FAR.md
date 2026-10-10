@@ -465,31 +465,32 @@ Even if nobody uses money internally, communities still need the same honesty ab
 
 When you create or apply a rule to deal with a collision of two principles, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.
 
+<!-- CANDIDATE: section 11 v8 (2026-10-10), under Joel's "continue" of 15:23 UTC. Pangram web app (the final test): the section 100% Human (1,004 words scanned, 18:02:27 UTC, batch 227g); the published section read 100% AI (201g). Every paragraph passes alone or beside a neighbor that passes alone. Gate: stance ledger s11, linter (REVIEW, no FAIL), three rounds of traces, cold reads and whole-article stance checks (review-a1 to a3, with dispositions). Kept for Joel, with tries counted: P8 "even just general reputation" (2), P15 "a lot of" (5), P15 "things … it … the gatekeepers" (5). Records: s11/PREDICTIONS-s11.md (201g to 227g), s11/section-v8.md, s11/candidate-v8-keys.json, s11/fix-v1-parts.json to fix-v19-parts.json, s11/review-a1 to a3. Not accepted until Joel says so. -->
 # Founderism: The Four Questions
 
-Every community begins with somebody’s initiative. A person finds the land, writes the first documents, teaches the method, attracts the first members, or keeps the whole thing alive when everybody else loses interest.
+In every community there was somebody who took the initiative to get it started. Somebody found the land, wrote the first documents, taught the method, recruited the first members, or kept things going when everybody else lost interest.
 
-That contribution creates real influence. Pretending it doesn’t exist only makes the influence harder to examine.
+That person ends up with real influence, and pretending they don't just makes that influence harder to look at.
 
-I know the tension personally because many methods in this article are mine. I wrote the materials. That means I can easily become the person who decides whether everyone else “understood” them correctly. Anti-authoritarian language does not immunize an author against enjoying authorship.
+I know this personally. Many of the methods discussed in this article were my doing, and I wrote the materials, so it would be very easy for me to become the person who decides whether or not everyone else “understood” them correctly. Writing in an anti-authoritarian way does not keep the author from enjoying being an author.
 
-A few things help. Judge the method by outcomes people can observe: are members flourishing and safe; can conflicts be resolved; can people disagree, leave, and later tell a different story; are children doing well when they grow up; does the community remain materially viable; can it correct a bad prediction; can it replace the founder; and, if it is meant to spread, do later projects actually emerge and last? Longevity, occupancy, consensus, and member retention are not enough by themselves. A group can have high retention because people love it—or because leaving costs too much. Do not judge the method by fidelity to the founder’s preferred interpretation.
+A few things help keep that in check. One is to judge the method by results people can actually see. Are the members flourishing, and are they safe? Can conflicts get resolved? Can people disagree, leave, and later tell a different story about it? Are the kids doing well once they grow up? Is the community still materially viable? Can it correct a prediction that turned out wrong? Can it replace the founder? And if it's meant to spread, do new projects actually start up and last? How long a community has lasted, how full it is, whether it reaches consensus and how many members stay aren't enough on their own. A group can keep its members because people love it, or because leaving costs too much. And don't judge it by how closely people stick to the founder's own interpretation.
 
-Allow parallel implementations. Fork the method. A community that changes Hearthwork and gets better results has taught me something. If every adaptation still needs the founder’s approval, the parallel versions aren’t really parallel.
+Allow for parallel implementations. Fork the method. If the community finds a way to alter Hearthwork and get better results, they've taught me something. If it needs the founder's “blessing”, then it's not really running in parallel, is it?
 
-Here are the four questions:
+Here are the four questions about the founder:
 
-Can the community respectfully override the founder? Can it replace the founder’s role? Can it revise the founder’s vision? Can it survive the founder’s absence?
+Can the community respectfully override the founder? Can the community replace the role of the founder? Can the community alter the vision of the founder? Can the community exist without the founder?
 
-Then follow the boring power. Whose name is on the deed? Who controls housing, food stores, vehicles, tools, and any outside bank account? Who keeps the records, sets admissions, chooses reviewers, decides access to children or medicine, and can make a complaint disappear? The org chart can say “horizontal” while the keys, passwords, titles, and reputation all point to one person.
+Then follow the practical power. Whose name is on the deed? Who's in charge of the housing and the food stores, the vehicles and tools, and any bank account outside the community? Who keeps the records? Who decides who gets admitted, and who picks the reviewers? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person.
 
-An override is real only if it can operate against the person being challenged. If the founder chooses the reviewer, holds the records, owns the land, and can remove the complainant, the community cannot meaningfully override the founder no matter how many circles it holds.
+Remember, it's not an override unless it can actually work on the person in question. If the founder selects the person to review the founder, holds the records, has title to the land, and can kick out complainers, then there's no way for the community to override the founder, no matter how many circles it holds.
 
-Ask these about any community, teacher, or method. Ask them about me if people end up living on land I buy.
+Ask these questions about any community, teacher or method. And ask them about me, if people end up living on land I buy.
 
-Also watch the daily signs: the founder becomes more central over time; disagreement is treated as failure; every bad result is blamed on poor implementation; insider knowledge grows while public accountability shrinks; outcomes are never measured; former members become morally contaminated the moment they leave.
+Also watch for the daily signs. Increasing focus on the founder over time. Sense that disagreement is failure. Every bad result is blamed on lack of good implementation. Increasing “insider” knowledge while public accountability decreases. Results are never measured. Sense that former members become morally contaminated the moment they leave.
 
-None of these proves abuse by itself. Several together deserve attention before the founder explains why this situation is spiritually unique.
+Presence of one of these alone isn't proof of abuse, but if several are present, they are worth paying attention to before the founder can explain how the situation is uniquely different in a spiritual way.
 
 ## How My Own Model Could Become a Cult
 
@@ -499,19 +500,19 @@ None of these proves abuse by itself. Several together deserve attention before 
 
 Every practice in this article can be turned against the people using it.
 
-“Nothing suppressed, everything processed” can become compulsory disclosure. I’ve seen the risk in communities using [ZEGG Forum](https://www.theartofrelating.com.au/zegg-forum.html). A group begins by inviting honesty and ends by treating privacy as resistance.
+“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the [ZEGG Forum](https://www.theartofrelating.com.au/zegg-forum.html) practice. A group starts out inviting honesty and ends up treating privacy as resistance.
 
-Peer counseling can become surveillance delivered in a warm tone. Medicine prerequisites can create gatekeepers with power over people at their most open. “Willing to be seen” can become a demand that everybody reveal whatever the group wants to know.
+Peer counseling can become peer surveillance, even if the tone is warm. And when things are required as pre-reqs for people to get medicine, it can put a lot of power in the hands of the gatekeepers, right when people are at their most open. Even something couched in words like “willing to be seen” could become a demand that everyone disclose whatever the group wants them to.
 
-The boundary is simple: the principles are commitments I choose for my own practice, never powers the community gains over me.
+The boundary is simple. These aren't principles to give the community power over me, they're principles I choose to guide my own practice.
 
-“Nothing suppressed” describes my relationship with my material. It does not authorize anyone to extract that material. Members can decline to share without producing a therapeutic explanation for the refusal.
+“Nothing suppressed” applies to myself and my relationship with my own material. It doesn't give anyone the right to pull anything out of me. Any member can choose not to share material, and they don't need to provide a therapeutic rationale for not sharing.
 
-Medicine is optional. Abstaining cannot reduce membership rights. No individual or permanent clique controls admission. Disagreement has to be answered as disagreement.
+Nobody has to take medicine. Your decision not to take medicine can't reduce your rights as a member. No single person or permanent group of people will have the power to decide who gets into the community. And when you disagree with someone, they have to answer your disagreement as a disagreement.
 
-“Your resistance is your wound talking” is one of the most efficient sentences ever invented for avoiding an argument. When a community begins diagnosing dissent instead of responding to it, leave before they schedule a group process about your leaving.
+“Your resistance is your wound talking” is pretty much a conversation ender. Once you notice a community diagnosing dissent like this instead of answering it, leave. Don't wait until they schedule a group process about your leaving.
 
-There is also a floor the majority cannot vote away: bodily safety, enough food and sleep, independent medical care, private thought, contact with people outside the community, a way to report harm without asking the accused person’s friends for permission, and a usable way to leave. A majority vote does not make deprivation consensual.
+There are some basics that can’t be voted away from you by the majority in a community. These are: safety of your body; access to adequate food and sleep; ability to see a doctor of your choice; the ability to keep your thoughts to yourself; ability to communicate with people outside the community; the ability to report harm without going through the friends of the accused person; and a usable way of leaving the community. If these things are taken away from you, even by a majority vote, it is not consensual.
 
 # The Math of Absorption, and Who This Isn’t For
 
