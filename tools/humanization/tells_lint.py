@@ -33,6 +33,9 @@ included ("unusual spellings should help pass pangram, but that's also cheating"
 itself up ("These are all questions that…") is a REVIEW ("it was way overcompleting itself").
 O17 (Joel, 2026-10-07 15:05, and 16:46 in the Inner Child lane: "may have X and still Y"): "may be X and still Y" is a tell ("Humans don't use that as much"): a modal clause tied to
 its consequence by "and still" is a REVIEW.
+O12 includes "quietly" since 2026-10-10 (Joel: "using quietly all the time like that is a huge AI tell"; AGENTS.md lists boring, quietly
+and ordinary together). O20 (2026-10-10): "I want / I don't want" opening a stance, a REVIEW. O21 (2026-10-10): a stock comparison
+quip ("with a nicer logo", "with extra steps"), a REVIEW.
 O18 (2026-10-07; O14 in the Inner Child lane until the 2026-10-09 merge, renumbered after main's O14 to O17): "not X, but still Y" in one sentence or two, a REVIEW (Joel: "there are other X Y rules, like 'Not x,
 but still y.'"). O19 (2026-10-07; was the lane's O15): a bulleted or numbered list, a REVIEW (Joel: "lists in general are overused by AI").
 Its word lists and patterns are for exact things (a fixed phrase Joel banned, a count, a list's length). A flag
@@ -584,9 +587,17 @@ def main():
                 flag('FAIL', 'O11 owner ban: a weekday put in to sound concrete (Joel 2026-10-07: "AI is always saying Tuesday, on Tuesday, '
                      'or some specific day like this. on a regular Tuesday is the worst"; SKILL.md "Synthetic specificity"). Keep one only '
                      'when it is a real fact from the source and matters to the thought', s)
-            if re.search(r"\b(ordinary|regular|boring|everyday|mundane)\b", s, re.I):
-                flag('REVIEW', 'O12 "ordinary/regular/boring": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
-                     'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"); keep one that says something', s)
+            if re.search(r"\b(ordinary|regular|boring|everyday|mundane|quietly)\b", s, re.I):
+                flag('REVIEW', 'O12 "ordinary/regular/boring/quietly": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
+                     'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"; 2026-10-10 12:22, on "shouldn\'t quietly turn into": "using quietly all the time like that is a huge AI tell"); keep one that says something, judge published wording like new wording', s)
+            # O20 (Joel 2026-10-10 12:22): "I want / I don't want" as the opener of a stance. SKILL.md has the rule; his 2026-10-02 exception for the
+            # community article (his own wish to live in one) stands, "but there's just too much of this". A list fits: the opener is a fixed form.
+            if re.search(r"(^|[.!?]\s+)I (don['’]t |do not )?(want|wish|'d like|would like)\b", s):
+                flag('REVIEW', 'O20 "I want / I don\'t want" opening a stance (SKILL.md; Joel 2026-10-10: "i want/don\'t want which is in the tells list ... you can use i want sometimes when it makes real sense because i actually do want to find a commune to live in, but there\'s just too much of this"): keep it only where his own wish is the subject, else state the judgment', s)
+            # O21 (Joel 2026-10-10 12:22, on "I don't want one super-commune with a nicer logo": "an AI-tell quip"). Stock comparison quips only;
+            # whether some other line is a quip is a reader's call, not this list's.
+            if re.search(r"\bwith (a |an )?(nicer|better|fancier|shinier|prettier|new) (logo|name|label|branding|font|website|mission statement)\b|\bwith extra steps\b", s, re.I):
+                flag('REVIEW', 'O21 a stock comparison quip ("X with a nicer logo", "X with extra steps"; Joel 2026-10-10: "an AI-tell quip"): say what it claims plainly, or cut it if the point is carried elsewhere', s)
             if re.search(r"\b\d+\s*(%|percent)|\b(one|two|three|four|five|ten|twenty|fifty)\s+percent\b|\bo['’]clock\b|\b\d{1,2}(:\d\d)?\s?(am|pm)\b|"
                          r"\bby (lunch|dinner|noon|bedtime|lunchtime)\b|\b(a|one|this|that) (morning|afternoon|evening) of\b", s, re.I):
                 flag('REVIEW', 'O13 a made-up number or clock time (Joel 2026-10-07, on "five percent is enough": "AI wants to put concrete '

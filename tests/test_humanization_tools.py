@@ -237,6 +237,17 @@ class LinterOwnerScopes(unittest.TestCase):
         self.assertEqual(out.count('O19 a list'), 1)
         self.assertNotIn('O19', self.lint("You could call a friend who listens, or your sister.\n"))
 
+    def test_o12_quietly_o20_o21_joel_20261010(self):
+        """Joel, 2026-10-10 12:22 UTC, on community section 10: "quietly" is an AI-frequency word (O12), "I don't want ..."
+        opening a stance is in the tells list (O20), and "one super-commune with a nicer logo" is "an AI-tell quip" (O21)."""
+        self.assertIn('O12', self.lint("Cooperation also shouldn't quietly turn into assimilation, and that matters.\n"))
+        self.assertIn('O20', self.lint("I don't want one big federation for every community in the region.\n"))
+        self.assertIn('O20', self.lint("It has to be solved. I want communities that can help one another.\n"))
+        self.assertNotIn('O20', self.lint("The members want communities that can help one another.\n"))
+        self.assertIn('O21', self.lint("Nobody needs one super-commune with a nicer logo in the end.\n"))
+        self.assertIn('O21', self.lint("That would just be another state with extra steps, in the end.\n"))
+        self.assertNotIn('O21', self.lint("The new school opened with a nicer playground than the old one.\n"))
+
 
 class LinterListsOfThree(unittest.TestCase):
     """E125 (Joel, 2026-10-03): "P! failed b ecause it has 2 lists of 3"; "lists of 3 in general are an ai pattern"."""
