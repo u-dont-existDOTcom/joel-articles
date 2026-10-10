@@ -2,7 +2,9 @@
 
 <!-- The gate's meaning trace (docs/HUMANIZATION-GATE.md, step 4, "OR is not ALSO" and the 2026-10-09 ruling below).
 Give it to a fresh agent (Sonnet is enough) with an input file of pairs: for each paragraph, CONTEXT BEFORE, PUBLISHED,
-REWRITE and CONTEXT AFTER. Fill {what}, {input}, {report} and {words} (900 for five pairs); delete this comment. -->
+REWRITE and CONTEXT AFTER. Fill {what}, {input}, {report} and {words} (900 for five pairs); delete this comment.
+Give one run at most four or five pairs: a run with seven pairs ended at the 64,000-token output limit with no report
+(community section 10, 2026-10-09), and runs of three, four and five pairs finished. -->
 
 Read `{input}`. It holds pairs: a PUBLISHED paragraph and its REWRITE, with the text before and after for context.
 
@@ -23,3 +25,5 @@ Give each SHIFT or LOST a fix in as few words as possible, as a replacement phra
 End each pair with "Verdict: OK" or "Verdict: NEEDS FIX".
 
 Write the report to `{report}` with a single Write call, at most {words} words, as "# Trace" then one "## Pn → Pnx" section per pair with numbered findings. Don't read any other file. Reply with only the verdicts, one line each.
+
+Keep your working short: decide each clause once, don't redraft the report, and stay inside the word limit.
