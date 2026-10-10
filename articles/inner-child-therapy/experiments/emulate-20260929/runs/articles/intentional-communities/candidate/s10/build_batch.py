@@ -18,6 +18,16 @@ for name, keys in items:
     H[name] = hashlib.sha256(t.encode()).hexdigest()[:12]
 used = sorted({k for _, ks in items for k in ks})
 here = pathlib.Path(__file__).resolve().parent
+# Headings guard (Joel 2026-09-29: never pick a heading by its Pangram result; candidate headings get a grounding
+# review before any Pangram check). My slip in batch 190g tried two unreviewed headings. A heading part that isn't
+# published goes in only if headings-grounded.json lists its exact text.
+pub = json.load(open(here / 'pub-parts.json'))
+pub_heads = {v for k, v in pub.items() if k.startswith('H')}
+gpath = here / 'headings-grounded.json'
+grounded = set(json.load(open(gpath))) if gpath.exists() else set()
+bad_heads = [k for k in used if k.startswith('H') and parts[k] not in pub_heads | grounded]
+if bad_heads:
+    sys.exit('refused: heading(s) without a grounding record: ' + ', '.join(f'{k} = {parts[k]!r}' for k in bad_heads))
 json.dump({'batch': batch, 'items': items, 'texts': texts}, open(here / f'v{batch[:-1]}.json', 'w'), ensure_ascii=False, indent=0)
 P = {prefix + k: parts[k] for k in used}
 js = ("Object.assign(window.__PARTS, " + json.dumps(P, ensure_ascii=False) + "); "

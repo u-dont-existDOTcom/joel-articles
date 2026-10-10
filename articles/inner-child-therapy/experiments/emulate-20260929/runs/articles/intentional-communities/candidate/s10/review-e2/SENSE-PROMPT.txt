@@ -1,0 +1,34 @@
+You are a cold reader. You have not seen any earlier version of this text or any notes about it. Read the section below once, top to bottom, the way an ordinary reader of a blog article would, and report only where the sense breaks for a reader.
+
+For each paragraph (number them P1, P2, ... in order, skipping the headings), give one line: OK, or what stops you: a sentence you can't follow, a word or "it/they/this/that" whose referent is unclear, a term used before it's explained, a jump between paragraphs you can't follow, a claim that seems to contradict an earlier one, or a "why is this here?". Quote the exact words. Don't suggest rewrites, don't comment on style, and don't judge whether the claims are true.
+
+The article's paragraph right before this section (for context only):
+[Sociocracy](https://www.sociocracyforall.org/sociocracy/) has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. Does this prove there's a universal formula? No. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
+
+THE SECTION:
+
+# From One Community to a Movement
+
+## Experiment Before You Divorce
+
+Experimenting with a different rule doesn't have to mean everybody goes out and buys new land right away. Try it inside the parent group first, then as a semi-autonomous project, and then, if it needs more independence, as a seed group nearby that still shares some tools, childcare, business or friendships. Splitting off completely should be just one step along that gradient, and nobody should have to do it just to be allowed to experiment.
+
+Some experiments (like a different land system, or a different population size, or any number of rules that work together) can't be tried in a way that's cheap. They may look bad when they're starved of the assets they actually need. "We tried it in one room for three months" isn't always a fair test.
+
+## Federation Without Building Another State
+
+The boring problem of how these communities stay connected does need to be solved somehow, if the idea is for them to spread without building another state. I don't want one super-commune with a nicer logo. It should be solved in a way that encourages help between communities and the movement of people and knowledge, and also keeps the differences alive, so they can keep learning from one another. At the federation level, that outward purpose gets concrete: spreading healing practices, training people, seeding new projects, and keeping any one comfortable enclave from thinking it's the whole movement.
+
+The [Federation of Egalitarian Communities](https://www.egalitariancommunities.org/) (FEC) says it's rebuilding, and that's a good warning. It takes work to run a federation. Delegates. Records. Compliance. Coordinating resources. Holding meetings. Succession. Whatever dispute function it actually takes on. These things all take up labor and material capacity before any local crisis has eaten into both. If the legal or economic environment requires money, the federation also needs to have a budget of outside money. But the work of federation doesn't have to be done by a single entity. Two communities might want to be closely linked as friends, and that doesn't stop both of them from also being part of a general federation. There can also be local clusters, or single-function institutions like the FEC's [PEACH health pool](https://www.egalitariancommunities.org/initiatives), which isn't currently governed by the FEC delegates.
+
+Cooperation also shouldn't quietly turn into assimilation. The FEC has full members and communities working toward full membership, and [Friends](https://www.egalitariancommunities.org/communities) who may just want to stay friends. Also, people need a similarly practical freedom to move between communities, and that takes work: housing, status, health coverage, records, labor accounting, travel costs, taxes, and disputes over the transition all have to be set up, or the freedom to move is just decorative. Fortunately, that interface can often be thin, saying who's responsible for what while somebody crosses between them, and communities don't have to have the same internal systems for it to work.
+
+Even if nobody uses money internally, communities still need the same honesty about exchanges and obligations. A gift of food, pooled medicine, a vehicle or a tool on loan, trades of labor, emergency housing, a shared building project, a visit that's mainly for training or relationship building: they're all different events, and some of them create future obligations while others don't. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be "even". If cash is used for transactions with the outside world, grants and loans need to be kept separate the same way, and so do guarantees and shared enterprise commitments. Solidarity doesn't mean every community is liable for whatever the others owe, and it doesn't mean anyone has an unlimited claim on another community's labor and stores, or its land and tools.
+
+When you create a rule to deal with a collision of two principles, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.
+
+After it, the next section starts: "# Founderism: The Four Questions".
+
+HARD LIMITS: under 450 words in total. Write your report with a single Write call to /home/claude/lessons/articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/intentional-communities/candidate/s10/review-e2/SENSE-e2.md, then reply with only the lines that aren't OK (under 200 words).
+
+Don't use any tools except reading this file and writing that report.

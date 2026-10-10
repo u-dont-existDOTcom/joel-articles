@@ -616,3 +616,18 @@ Batch 182g (written 06:28 UTC on 2026-10-09 by `date -u`, before the call; `v182
 | 182g-v13z (1064) | Human | v12 with P2z | **Human, "Human Written" (0% AI, 1,087 words)**, 06:29:19 |
 
 182g (submitted 06:29:05 to 06:29:19 UTC): mine 4 of 4. **Candidate v13 = v12 with P2y reads 100% Human (1,086 words).** P2y keeps the published "the only white man we met" with the town as its scope. The linter's hard B13 is clear (two "The" openers, one "In").
+
+## After Joel's message of 2026-10-09 22:08 UTC
+
+His answers and P13 are kept verbatim in `joel-2208/joel-20261009-2208.json`. His own check at 22:05:27 UTC (the account's history: 300 words, Human, 0% AI) was his P9 to P12 as he first sent them, with his new P13.
+
+Batch 184g (written 22:11 UTC on 2026-10-09 by `date -u`, before the call; `v184.json`, parts in `fix-v22-parts.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 184g-P8j (84) | Human (weak) | the published P8, which passed alone, with "Good Government Juntas (Boards)" (your 22:08 answer: the Spanish name first, explained) | **Human (100%)**, 22:11:28 |
+| 184g-P13jj (52) | Human (weak) | your new P13, alone; information, since it's yours | **Human (100%)**, 22:11:31 |
+| 184g-gA-joel (287) | Human | your P9 to P12 with the four typo fixes, and your P13 (your own check, 22:05 UTC, was of the version without the fixes: Human) | **Human (100%)**, 22:11:37 (300 words scanned) |
+| 184g-v14 (1008) | Human | v13 with P8j and your P13 | **Human, "Human Written" (0% AI, 1,034 words scanned)**, 22:11:41 |
+
+184g (submitted 22:11:28 to 22:11:41 UTC, 2026-10-09): mine 4 of 4. **v14 reads 100% Human**: v13 with "Good Government Juntas (Boards)" at the first mention (P8) and your P13. Your P9 to P13 with the typo fixes read Human as a block too, and your P13 alone.
