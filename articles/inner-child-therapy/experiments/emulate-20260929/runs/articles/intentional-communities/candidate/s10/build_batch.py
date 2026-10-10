@@ -4,7 +4,8 @@
 ITEMS_JSON: [[name, [part keys]], ...]. Parts are looked up in the PARTS_JSON files in order
 (later files win). Texts are the parts joined by a blank line; each item's sha-256[:12] is
 checked in the browser before anything is submitted. The first JS call installs the parts
-and submits slice(0,5); later calls submit window.__B<batch>.slice(n, n+5)."""
+and submits slice(0,3) and sets window.__B<batch>ok; gui/b<batch>-rest.js submits the rest only when that flag is set
+(2026-10-10: the flag and the three-per-call limit were in the section 10 batch files but not in this builder)."""
 import json, sys, hashlib, pathlib
 batch, prefix, items_path, *parts_paths = sys.argv[1:]
 parts = {}
@@ -34,9 +35,15 @@ js = ("Object.assign(window.__PARTS, " + json.dumps(P, ensure_ascii=False) + ");
       "const H=" + json.dumps(H) + "; const S=" + json.dumps([[n, [prefix + k for k in ks]] for n, ks in items]) + "; "
       "const bad=[]; window.__B" + batch[:-1] + "=__mk(S); "
       "for(const it of window.__B" + batch[:-1] + "){ if((await __h(it.text))!==H[it.name]) bad.push(it.name);} "
-      "let r=['not sent']; if(!bad.length){ r=await __pgSubmit(window.__B" + batch[:-1] + ".slice(0,5)); } "
+      "window.__B" + batch[:-1] + "ok=!bad.length; "
+      "let r=['not sent']; if(!bad.length){ r=await __pgSubmit(window.__B" + batch[:-1] + ".slice(0,3)); } "
       "'bad '+bad.join(',')+' | '+r.join(' | ')+' | '+new Date().toISOString()")
 (here / 'gui').mkdir(exist_ok=True)
 open(here / 'gui' / f'b{batch[:-1]}-first.js', 'w').write(js)
+if len(items) > 3:
+    n = batch[:-1]
+    rest = (f"let r=['not sent: first call missing or its hash check failed']; if(window.__B{n}ok && window.__B{n}){{ r=await __pgSubmit(window.__B{n}.slice(3,{len(items)})); }} "
+            "r.join(' | ')+' | '+new Date().toISOString()")
+    open(here / 'gui' / f'b{n}-rest.js', 'w').write(rest)
 for n, _ in items:
     print(f'{n}\t{len(texts[n].split())}\t{H[n]}')

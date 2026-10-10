@@ -219,3 +219,17 @@ Batch 198g (written 00:40:07 UTC on 2026-10-10 by `date -u`, before the call; `v
 | 198g-S10v11c (718) | Mixed | with P34s | **Human (100%, "Human Written", 744 words)**, 00:40:49 |
 
 198g (submitted 00:40:21 to 00:40:49 UTC): mine 1 of 6. All three P3+P4 fixes pass alone. S10v11c, with P34s ("allows", and "so communities can keep learning" for the cold read's "they"), reads 100% Human (744 words), as does S10v11a. **Section 10 v1 = S10v11c**: H1, H2, P1a, P2b2, H3, P34s, P5e, P6n, P7d, P8x.
+
+Batch 199 (API, 12:54 to 12:55 UTC on 2026-10-10): not run. The first POST came back HTTP 402 ("Insufficient credits"), so nothing was checked or charged; the key itself is accepted (probe at 12:53). Its predictions were for Joel's heading as he first proposed it ("…, Improve Resilience"); grounding f1 and stance f1 both flagged "Improve Resilience" as a claim the section doesn't make, and at about 13:00 UTC he chose "Federated Communities Make a Movement" and approved these five web-app checks.
+
+Batch 200g (written 13:03 UTC on 2026-10-10 by `date -u`, before the call; `v200.json`, parts in `fix-v15-parts.json`): Joel's changes of 12:22 UTC. P3+P4 without "boring" and without the super-commune sentence (P34t), P6 with "slide into" for "quietly turn into" (P6p; trace H OK), and his heading "Federated Communities Make a Movement" (H3k). Predictions are Human or AI only, as E86 says: in 189g to 198g I wrote "Mixed" for 35 of 62 checks, and no paragraph came back Mixed.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 200g-P34t (89) | Human | P34s's words (passed alone, 198g) minus "boring" and the quip sentence; nothing added |  **Human (100%)**, 13:04:30 |
+| 200g-P6p (103) | Human | P6n (passed alone, 196g) with one verb phrase changed |  **Human (100%)**, 13:04:34 |
+| 200g-H3kP34t (94) | Human | a five-word heading that names the thing, not an x-not-y frame; headings have flipped paragraphs before, so this is the risk |  **Human (100%)**, 13:04:40 |
+| 200g-P2b2H3kP34t (149) | Human | every span up to 158 words of the old top passed (192g), P2b2 across the h3 to P34m included |  **Human (100%)**, 13:04:49 |
+| 200g-S10v12 (707) | Human | v1 read 100% Human (198g); the changes take out a quip and two frequency words. Risk: P1a to P34 once read AI as one 235-word stretch (192g), and P34t is shorter |  **Human (100%, "Human Written", 731 words scanned)**, 13:04:52 |
+
+200g (submitted 13:04:30 to 13:04:52 UTC, 2026-10-10; times and verdicts from the History API, matched by each text's hash): mine 5 of 5. Every text reads 100% Human: P34t and P6p alone, the heading with P34t, P2b2 across the heading to P34t, and the whole section (731 words scanned). P1a, P2b2, P5e, P7d and P8x are unchanged and passed alone before (185g, 186g, 196g, 193g, 197g). **Section 10 v2 = S10v12**: H1, H2, P1a, P2b2, H3k, P34t, P5e, P6p, P7d, P8x.

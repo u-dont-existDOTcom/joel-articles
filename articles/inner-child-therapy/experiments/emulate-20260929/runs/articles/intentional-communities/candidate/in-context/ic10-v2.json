@@ -1,0 +1,110 @@
+{
+ "title": "From One Community to a Movement · section 10 beside the published one",
+ "meta": "Community article · section 10 · v2, 2026-10-10 · installed in the article so far as a candidate",
+ "intro": [
+  "Your published section is on the left. My version is on the right, with new words highlighted and cut words struck.",
+  "What changed since v1, from your 12:22 message: P3+P4 has no \"boring\" and no \"I don't want one super-commune with a nicer logo.\"; P6 opens \"Cooperation also shouldn't slide into assimilation.\"; and the subheading is yours, \"Federated Communities Make a Movement\" (your answer of about 13:00).",
+  "Pangram's web app: the whole section reads 100% Human (731 words scanned, 13:04:52 UTC, batch 200g). The new P3+P4 and P6 pass alone, and so do your heading with P3+P4 and P2 across the heading. The other paragraphs are unchanged and passed alone before. My predictions for that batch: 5 of 5.",
+  "The gate ran before any check: trace H, a cold read, the grounding review, the stance check and the linter. The grounding review and the stance check both flagged \"Improve Resilience\" as a claim the section doesn't make, which is why I asked you; nothing else in the new text was flagged. The cold read's questions are all about wording that's in the published text too, as on v1.",
+  "Information, not a fix: the grounding review says \"Make a Movement\" repeats the section title, and that the subheading doesn't name what the subsection is mostly about (keeping communities linked while each stays its own). My opinion: it reads fine, and it's your heading.",
+  "Still from v1, with my opinions on the rows: P5's \"closely linked as friends\", P6's \"and that takes work\" and \"Fortunately\", P8's \"final decision\". Your P3 and P4 are still joined (the proposal)."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# From One Community to a Movement",
+    "## Experiment Before You Divorce"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Experimenting with a different rule doesn't",
+     "source": [
+      "Experimenting with a different rule does not"
+     ],
+     "notes": [
+      "Passes alone (185g) and beside P2 (186g). Trace E1: OK.",
+      "The linter's R1 flag is on \"Try it\"; \"it\" is the rule (trace E1 agrees)."
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "Some experiments (like a different",
+     "source": [
+      "Some experiments cannot be tested cheaply"
+     ],
+     "note": "Passes alone and beside P1 (186g). Trace E1: OK. The examples moved into the first sentence; the published test line is kept."
+    }
+   ]
+  },
+  {
+   "headings": [
+    "## Federated Communities Make a Movement"
+   ],
+   "rows": [
+    {
+     "label": "P3 + P4 (joined, a proposal)",
+     "article": "The problem of how these communities",
+     "source": [
+      "If these communities are supposed to spread",
+      "At federation scale, that outward purpose"
+     ],
+     "notes": [
+      "Passes alone, under your heading, and with P2 across the heading (200g).",
+      "Your changes: \"boring\" out (\"The problem of how…\"), and the super-commune sentence cut. Trace H found nothing else changed. The cut sentence's point, no single merged commune, is still carried by \"keeps the differences alive\" here and by P6's assimilation sentence (trace H and the grounding review agree).",
+      "Kept from v1: \"without building another state\" hangs on \"spread\" rather than on staying connected. Traces F and G: a reader still takes it as connecting without a state. My opinion: same."
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "The Federation of Egalitarian Communities",
+     "source": [
+      "The Federation of Egalitarian Communities says"
+     ],
+     "notes": [
+      "Passes alone (196g). Your links are back.",
+      "\"(FEC)\" at the first mention, under your rule on explaining things at first mention. \"eaten into both\" and \"a cash budget for dealing with it\" (published: \"an external cash budget\"; trace F read Emulate's \"a budget of outside money\" as donor money). \"But the work of federation\" (trace E2: the contrast had become a side note). Emulate's fragments (\"Delegates. Records. Compliance.\") kept.",
+      "Kept: \"closely linked as friends, and that doesn't stop both of them from also being part of a general federation\" for \"Bilateral friendships … can coexist with a general federation\" (traces E2 and F: a mild narrowing). My opinion: coexisting with a general federation is being friends while in it, so a reader takes the same point."
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "Cooperation also shouldn't slide",
+     "source": [
+      "Cooperation also shouldn’t quietly become"
+     ],
+     "notes": [
+      "Passes alone (200g). Your link on Friends is kept.",
+      "Your change: \"quietly\" out. \"Slide into\" keeps the slow drift nobody chose (trace H: OK; the grounding review agrees). I also traced \"turn into assimilation without anyone noticing\" (OK, a few more words) and \"by default\" (it says assimilation is where cooperation goes unless someone stops it, a different claim), so \"slide into\" it is.",
+      "An idea from the grounding review, only if you want it: say why cooperation slides into assimilation, the way your section 9 says power \"crept up and consolidated itself at higher levels over time for practical reasons\". It would be your sentence.",
+      "Kept from v1: \"and that takes work\" and \"Fortunately\" (traces F and G: no new claim)."
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "Even if nobody uses money internally",
+     "source": [
+      "Exchange and obligations need the same honesty"
+     ],
+     "notes": [
+      "Passes alone (193g). Trace F: OK.",
+      "Fixed from the gate: \"the same honesty about\" (stance e1: \"an honest way to keep track\" made record-keeping a duty; trace E2: \"the same\" was lost); the cash condition now covers grants, loans, guarantees and shared enterprise commitments together (stance e1, trace E2); \"Solidarity doesn't mean\" (the abstract-agent judge called \"Solidarity doesn't make … doesn't give\" a quip)."
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "When you create or apply a rule",
+     "source": [
+      "And when two principles collide"
+     ],
+     "notes": [
+      "Passes alone (197g). The seven-item list split into two sentences, under your rule on lists: that cleared the section's last window (195g).",
+      "Fixed from the gate: \"the principles that actually conflicted\" (stance e1, trace E2), and \"When you create or apply a rule\" (stance e2: \"When you create a rule\" left out collisions settled under a rule you already have; \"When two principles collide, don't only store the final rule\" read 100% AI alone). Trace G: OK.",
+      "Kept: \"your final decision and rationale\" for \"final reasoning\" (trace F: \"decision\" is added). My opinion: the reasoning is for a decision, so nothing new.",
+      "Information from the grounding review (f1): storing \"what happened\" in a hard case could expose the people in it when the case is intimate (a child's report, a medical choice). The published paragraph says it the same way. My opinion: worth a clause some day (the record keeps the reasoning and protects the people in it), but that's a new claim, so it's yours to add."
+     ]
+    }
+   ]
+  }
+ ]
+}

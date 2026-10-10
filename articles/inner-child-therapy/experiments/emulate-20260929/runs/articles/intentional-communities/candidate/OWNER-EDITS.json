@@ -618,6 +618,24 @@
     "So what do they show?",
     "a rehearsal for the Good Government Boards"
    ]
+  },
+  {
+   "id": "s10-joel-20261010-1222",
+   "what": "Section 10: Joel's message of 2026-10-10 12:22 UTC. P3+P4: \"boring\" out and the sentence \"I don't want one super-commune with a nicer logo.\" cut. P6: \"quietly\" out (now \"Cooperation also shouldn't slide into assimilation.\", trace H OK). The subheading for \"Federation Without Building Another State\": his \"Federated Communities Make a Movement, Improve Resilience\", which he shortened to \"Federated Communities Make a Movement\" at about 13:00 UTC after grounding f1 and stance f1 both flagged \"Improve Resilience\" as a claim the section doesn't make. [applied: section 10 v2, 2026-10-10]",
+   "status": "applied",
+   "joel": "don't use the word \"boring\" especially \"the boring problem\" just change to \"the problem\" or \"the issue\" ... And don't say \"I don't want one super commune \"i want/don't want\" which is in the tells list. ... And \"super commune with a nicer logo\" is an AI-tell quip. Plus \"super commune\" is too vague. Could mean large or could mean really good. Change to \"mega-commune\". Just remove that stupid sentence. . in P6, you have \"quietly turn into\" .... using quietly all the time like that is a huge AI tell. you don't have any other way to say that? and Federation without building another state yeah let's fix that X without Y structure. How about \"Federated Communities Make a Movement, Improve Resilience\" | 13:00 UTC, his answer: \"Federated Communities Make a Movement\"",
+   "must_contain": [
+    "The problem of how these communities stay connected",
+    "Federated Communities Make a Movement"
+   ],
+   "must_not_contain": [
+    "boring problem",
+    "super-commune",
+    "nicer logo",
+    "quietly turn into assimilation",
+    "Federation Without Building Another State",
+    "Improve Resilience"
+   ]
   }
  ]
 }
