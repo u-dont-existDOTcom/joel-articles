@@ -47,3 +47,17 @@ Reparenting kind of assumes there's a clear little one in there to love, and for
 **P2**
 
 Maybe you started playing that part so early, and it took over so completely, that "What do I believe?" or "What do I want?" has no clear answer of your own. Back then, asking might have gotten you in trouble, or laughed at. Or there was just no way to ask. That can make "love yourself" feel pretty empty. Love what? The part you've been playing doesn't feel real. So the pl/ork starts a step earlier, with finding a self or building one.
+
+## tries 2 to 4, and the cut (from the run files; written up in turn 41)
+
+Tries 2 and 3 changed P2's first half (a break after the two questions; the guide's "so early, and ... so completely, that" frame split). The pair and the h1 still read AI as one window. Try 4 switched method: a fresh Opus reviewer's tickets carried out by a fresh writer. Run files `../../tools/pangram-runs/2026-10-10-turn40-c.json` to `-g.json`; every result is in `../../tools/PREDICTIONS.md`.
+
+**P2, try 4** (the pair and the h1 still 100% AI)
+
+Maybe you started playing that part so early, and it took over so completely, that "What do I believe?" or "What do I want?" has no clear answer of your own. They sound like such easy questions, too. Back then, asking might have gotten you in trouble, or laughed at. Or there was just no way to ask. That can make "love yourself" feel pretty empty (love what, when the part you've been playing doesn't feel real?). For you, then, the pl/ork starts a step earlier, with finding a self or building one, which can take a while.
+
+**The candidate in the article (turn 41):** P1 try 3 (try 2 without "kind of", the stance check) and P2 try 4 without its last sentence. That sentence carries the guide's "The pl/ork begins earlier, with finding or building the self.", and the next h2 says it again ("For others, creating the conditions for it to emerge is the first phase"). The cut is Joel's to make, so it waits for him. Pangram, run at the start of turn 41: P1 try 3 100% Human (73), the pair without the line 100% Human (152), the h1 with both 100% Human (160).
+
+Reparenting assumes there's a clear little one in there to love, and for a lot of people there is. But if you grew up somewhere you only belonged as long as you played somebody else, like a really controlling family or a strict church, the real one may never have had room to form. All this stuff about your little one could have left you wondering who I'm even talking about.
+
+Maybe you started playing that part so early, and it took over so completely, that "What do I believe?" or "What do I want?" has no clear answer of your own. They sound like such easy questions, too. Back then, asking might have gotten you in trouble, or laughed at. Or there was just no way to ask. That can make "love yourself" feel pretty empty (love what, when the part you've been playing doesn't feel real?).

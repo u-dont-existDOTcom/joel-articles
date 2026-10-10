@@ -1434,6 +1434,38 @@
     "I can't tell you where to look for people who fit you, but I",
     "### Write It."
    ]
+  },
+  {
+   "id": "san-pedro-correction-20261010",
+   "status": "applied",
+   "what": "Joel's correction (E159): turn 39's P2 line \"I've been cracked wide open by San Pedro cactus, sometimes so wide there was no grown-up me left in the room\" was invented, built on My Journey's \"there wasn't a grown-up me around anymore\", which was also mine (2026-09-16), not his. It comes out, and P2 tells what he says happened instead. The 7g stays out of the text (it would read as a dose to copy); his call to put it back. In since turn 41 (2026-10-10), after the gate and Pangram (each paragraph alone, the h3, the h2 and the h1 100% Human).",
+   "joel": "2026-10-10 05:21 UTC, sent again 15:20 UTC (his answer 1 to turn 39's questions): \"paranoia during a rough trip is a warning sign for psychosis, i would reconsider the drug and dsoage if trying again, as well as mindset and setting etc. some drugs are known for causing paranoia like THC, avoid those. idk why you said i was cracked wide open by pedro so wide there was no gorwn up in the room you just confabulated that? don't confabulate things about my life...  pedro did make me super emotional the first time i took a medium low dose (7g) and i was crying a lot, it was very therapeutic actually.  ayahuasca was often much more challenging, ebcause i was taking huge doses at first for ego death. this is the part about san pedro which is in the current published guide: \\\"It still didn’t reach all of my inner-child material, especially my attachment to women. The [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm) I tried later felt imaginary at first. San Pedro cactus, CBD tea, and sublingual mapacho cracked it open; structured sessions with an inner-child therapist deepened it.\\\"\"",
+   "where": "When the Urge to Escape Arrives, P2",
+   "must_not_contain": [
+    "cracked wide open by San Pedro",
+    "no grown-up me left in the room"
+   ],
+   "must_contain": [
+    "The first time I took San Pedro cactus, at a medium-low dose"
+   ]
+  },
+  {
+   "id": "pgq-006-paranoia-and-drugs-20261010",
+   "status": "applied",
+   "what": "Joel's answers to turn 39's two PGQ-006 questions. Paranoia during a rough trip is a warning sign for psychosis: reconsider the drug and the dose before trying again, and mindset and setting, and avoid drugs known for causing paranoia, like THC (so it isn't the guide's one-episode, no-retest-without-assessment case). No list of drugs: all kinds can mess with your sense of what's real, often on purpose, so pick the healthiest ones and go slow and gentle; 5-MeO-DMT is one of the most abused, with his guide linked. In since turn 41 (2026-10-10), after the gate and Pangram (each paragraph alone, the h3, the h2 and the h1 100% Human).",
+   "joel": "2026-10-10 05:21 UTC, sent again 15:20 UTC (his answer 1 to turn 39's questions): \"paranoia during a rough trip is a warning sign for psychosis, i would reconsider the drug and dsoage if trying again, as well as mindset and setting etc. some drugs are known for causing paranoia like THC, avoid those. idk why you said i was cracked wide open by pedro so wide there was no gorwn up in the room you just confabulated that? don't confabulate things about my life...  pedro did make me super emotional the first time i took a medium low dose (7g) and i was crying a lot, it was very therapeutic actually.  ayahuasca was often much more challenging, ebcause i was taking huge doses at first for ego death. this is the part about san pedro which is in the current published guide: \\\"It still didn’t reach all of my inner-child material, especially my attachment to women. The [self-directed inner-child therapy](https://youtu.be/yEWFjODXJbI?si=IXUqrhExojOm6Itm) I tried later felt imaginary at first. San Pedro cactus, CBD tea, and sublingual mapacho cracked it open; structured sessions with an inner-child therapist deepened it.\\\"\" | 2026-10-10 05:21 UTC, sent again 15:20 UTC (his answer 2): \"all kinds of psychoactive drugs can mess with your sense of what's real, and that's often the point of them, but in general try to select the healthiest ones and use slow and gentle protocols. i'd say one of the most abused psychedelics (aside from ketamine if you call that a psychedelic) is 5-meo-dmt. I have a guide on that. people very often believe you need a huge dose of that for a \\\"FULL RELEASE\\\", they have all kinds of screaming shaking and nearly killing themselves and absoluely zero inner child work being done, all spiritual bypassing.\"",
+   "where": "When the Urge to Escape Arrives (the drug-history paragraph and his 5-MeO paragraph)",
+   "must_contain": [
+    "Paranoia during a rough trip is a warning sign for psychosis",
+    "All kinds of psychoactive drugs can mess with your sense of what's real",
+    "5-MeO-DMT"
+   ],
+   "must_link": [
+    {
+     "text": "guide on that",
+     "url": "http://bufo.u-dont-exist.com/"
+    }
+   ]
   }
  ]
 }
