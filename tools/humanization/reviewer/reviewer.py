@@ -566,7 +566,7 @@ HEADING = re.compile(r'(#{1,6}) +(.+?)\s*$')
 def reader_view(md):
     """Markdown blocks as a reader of the published page sees them: no comments or working notes, links as their
     text, an image as "[an image]", captions kept, share buttons left out, a link card as its title."""
-    s = EMBED.sub(lambda m: '\n\n[Embedded post by the author: "%s"]\n\n' % m.group(1), md)
+    s = EMBED.sub(lambda m: '\n\n[Embedded post by the author: "%s"]\n\n' % m.group(1), article_images.show(md))  # image notes (E164)
     s = re.sub(r'<!--.*?-->', '', s, flags=re.S)
     # A Substack post card's title is a link whose text is a heading, across blank lines; it's one line on the page
     s = re.sub(r'\[\s*\n\s*\n#{1,6} +([^\n]+?)\s*\n\s*\n\]\(', r'[\1](', s)

@@ -740,6 +740,7 @@ class ImageNotes(unittest.TestCase):
             self.assertIn('[an image: A chart of the method, in five steps.]', reviewer.article_text(art))
             self.assertIn('[an image: A chart of the method, in five steps.]', reviewer.numbered_article(art))
         self.assertIn('[an image: A chart of the method, in five steps.]', stance_check_prompt.clean(self.NOTE))
+        self.assertIn('[an image: A chart of the method, in five steps.]', '\n'.join(reviewer.reader_view('Before.\n\n' + self.NOTE + '\n\nAfter.')))
 
 
 class OwnerEditsSpanBan(unittest.TestCase):
