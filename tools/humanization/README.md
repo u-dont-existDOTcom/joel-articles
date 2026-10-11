@@ -28,6 +28,7 @@ What they read:
 - `calibration/`: texts with known Pangram results, the reviewer's labeled examples and the linter's test set.
 - `JOEL-FIXES-CATALOGUE-20260928.md`: Joel's own before-and-after fixes; `reviewer.py draft` puts them in every first-draft prompt.
 - `TELL-CALIBRATION-20260927.md` and `REVIEWER-VALIDATION-20260928.md`: how the tell list and the reviewer were tested.
+- `tells_registry.json`: every tell the documents name, with its quotes; a mechanical one names its linter rule and an example, which `tests/test_tells_registry.py` runs (2026-10-11, from `TELLS-COVERAGE-20261011.md`). `EMOJI-LIST.md`: Joel's emoji bans and allowlist; the linter reads the allowlist from it (O26).
 
 Each article keeps its own data: the humanized article, its source, `OWNER-EDITS.json`, the reviewer targets and the side-by-side maps. Inner Child's are in `articles/inner-child-therapy/`, with the targets in `tools/targets/`, the maps in `tools/in-context/` and the Pangram predictions in `tools/PREDICTIONS.md`.
 
