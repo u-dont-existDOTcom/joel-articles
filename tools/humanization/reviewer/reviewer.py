@@ -57,6 +57,8 @@ import argparse, json, pathlib, random, re, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]  # the repo root (tools/humanization/reviewer/ is three folders down)
+sys.path.insert(0, str(HERE.parent))
+import article_images  # an image note shows as "[an image: …]" in every prompt (Joel, 2026-10-11: "the reviewer didn't see the image")
 CAL = HERE.parent / 'calibration'
 LOCAL = HERE / 'local' / 'human_items.json'
 PATHS = {'article': None, 'source': None}  # from --article and --source
@@ -351,7 +353,7 @@ def earlier_section(t):
     # in a section, the paragraph before is too little: on 2026-09-30 the cold reads called "what you promised
     # them" a claim from nowhere, while the section before says "Keep one small promise to your little one"
     # (target key "earlier": "section").
-    art = re.sub(r'<!--.*?-->', '', article_or_source(t, 'article').read_text(encoding='utf-8'), flags=re.S)
+    art = re.sub(r'<!--.*?-->', '', article_images.show(article_or_source(t, 'article').read_text(encoding='utf-8')), flags=re.S)
     i = art.find(t['before'])
     new_section = False
     if i < 0 and t.get('cut') and art.rfind(t['cut']) >= 0:
@@ -458,7 +460,7 @@ def guide_text(path):
 def article_text(path):
     """The article as a reader sees it: no comments, no working-notes header (a "> **Working
     review" note, and a "# … humanized article so far" title)."""
-    s = re.sub(r'<!--.*?-->', '', pathlib.Path(path).read_text(encoding='utf-8'), flags=re.S)
+    s = re.sub(r'<!--.*?-->', '', article_images.show(pathlib.Path(path).read_text(encoding='utf-8')), flags=re.S)
     paras = [x for x in re.split(r'\n\s*\n', s) if x.strip()]
     paras = [x for x in paras if not x.lstrip().startswith('> **Working review')
              and not re.match(r'# [^\n]*humanized article so far', x)]
@@ -508,7 +510,7 @@ def numbered_article(path):
     """The whole article as a reader sees it, each block numbered [B#] for the dedup checks (E151). An
     embedded post (a "Native Substack embed" note, or a bare Substack URL on its own line) becomes a
     bracketed note, so the paragraph that introduces it doesn't seem to dangle."""
-    s = pathlib.Path(path).read_text(encoding='utf-8')
+    s = article_images.show(pathlib.Path(path).read_text(encoding='utf-8'))
     s = EMBED.sub(lambda m: '\n\n[Embedded post by the author: "%s"]\n\n' % m.group(1), s)
     s = re.sub(r'<!--.*?-->', '', s, flags=re.S)
     out = []

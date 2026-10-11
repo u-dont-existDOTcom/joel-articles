@@ -25,7 +25,9 @@ The ledger (an article's OWNER-EDITS.json) lists each edit Joel gives and each c
 what a paragraph covers. Each entry has strings the article's visible text must contain,
 must not contain, or must have in order. An entry can also list links (must_link: text and
 url) the article must have; those are checked on the text with comments removed but link
-targets kept. And it can list strings the article must contain character for character
+targets kept. A span (from, to) checks one passage only, for strings it must or must not contain
+(2026-10-11: one paragraph mustn't say "get checked" while another section rightly does, about a
+medical warning sign). And it can list strings the article must contain character for character
 (must_contain_exact): the same text, but with its quotes and apostrophes left as they are.
 Joel, 2026-10-02: his own P9 read 100% Human with his straight apostrophes and 100% AI with
 curly ones, so his paragraphs keep the characters he typed, and only this field can check it. This script checks them against the article given with --article, reading it
@@ -94,6 +96,9 @@ def check_entry(e, text, raw='', exact=''):
             for s in sp.get('must_contain', []):
                 if norm(s) not in chunk:
                     fails.append('not in the span from "%s": "%s"' % (sp['from'][:40], s))
+            for s in sp.get('must_not_contain', []):  # a ban that holds in one passage only (2026-10-11)
+                if norm(s) in chunk:
+                    fails.append('still in the span from "%s": "%s"' % (sp['from'][:40], s))
     return fails
 
 

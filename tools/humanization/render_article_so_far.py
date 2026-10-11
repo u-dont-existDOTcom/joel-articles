@@ -33,6 +33,7 @@ box under it, so nothing he asked for sits unseen in a draft file.
 import argparse, html, json, pathlib, re, sys
 import markdown
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import article_images
 import check_owner_edits
 import para_numbers
 
@@ -66,6 +67,7 @@ def numbered(md):
 
 
 md = numbered(md)
+md = article_images.figure_html(md)  # an image note shows the image where it goes (2026-10-11)
 md = re.sub(r'<!--\s*CANDIDATE:(.*?)-->',
             lambda m: '\n\n<div class="candidate">' + html.escape(m.group(1).strip()) + '</div>\n\n',
             md, flags=re.S)
@@ -93,6 +95,7 @@ blockquote {{ color: #555; border-left: 3px solid #ccc; margin-left: 0; padding-
 .candidate {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #fff6e0; border: 1px solid #e0b84c; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 2rem 0 0.5rem; }}
 a {{ color: #0b5cad; }}
 .pn {{ font: 600 0.7em system-ui, sans-serif; color: #8a8a8a; margin-right: 0.35em; vertical-align: 0.1em; }}
+.art-img {{ margin: 1.5rem 0; }} .art-img img {{ max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }}
 .notin {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #fde8e8; border: 2px solid #c0392b; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1rem 0; }}
 .waiting {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #f3f6fa; border: 1px solid #9fb3c8; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1rem 0; }}
 </style></head><body>

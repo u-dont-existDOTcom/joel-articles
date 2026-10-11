@@ -42,7 +42,9 @@ and missed it; and the gate's stance-ledger step had been skipped. This check gi
 each stance-bearing sentence of the rewrite against the whole published article. Its first run, over sections 1
 to 3, found no other reversal.
 """
-import argparse, json, pathlib, re
+import argparse, json, pathlib, re, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import article_images
 
 INSTRUCTIONS = """You're checking a rewrite of {scope} of an essay by {author} about {topic} against everything the published essay says. Some sentences in the rewrite were produced by a paraphrasing tool or by an editor, and a paraphrase can turn an author's position into its opposite without anyone noticing. It has happened: in another section of {author}'s essay on intentional communities, the published "distributed authority without pretending that people arrive emotionally finished" became "where people don't come in pre-healed", while the essay elsewhere tells readers to start their own healing practice first. {author} does want people to arrive largely healed, without pretending they're finished. Nobody caught it, because each check compared a paragraph only with its own published version.
 
@@ -82,7 +84,7 @@ def describe_images(md, images=None):
 
 
 def clean(md, images=None):
-    md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
+    md = re.sub(r'<!--.*?-->', '', article_images.show(md), flags=re.S)  # image notes first (2026-10-11)
     md = describe_images(md, images)
     return re.sub(r'\n{3,}', '\n\n', md).strip()
 

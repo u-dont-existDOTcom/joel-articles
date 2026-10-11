@@ -573,3 +573,18 @@ Joel merged #156 and wrote: "My Journey, you confabulated this: "That's why I st
 1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 4 to 6).
 2. His merge of this turn's request.
 3. The rest of From Survival to Experimental Play: the curious-or-erase check, the signs (without the cues sign, which P2 says), the practices.
+
+## Turn 44 (2026-10-11, from 21:10 UTC): Joel's answers to questions 4 to 6, images for reviewers
+
+Joel answered questions 4 to 6, wrote "i merged, continue" (the open pull request was still open; he had merged another chat's #157), and asked what I think of the recap before the chart.
+
+- **When the Urge to Escape Arrives** is 11 paragraphs: P2 rebuilt on his San Pedro answer, P3 his ayahuasca account (one sentence is my reading, question 7), P5 his 4a line, P6 and P7 his THH and male iboga stories as warnings (no amounts, no recipe), P8 his caution-sign answer, P10 his acacia confusa line. My Journey names Daja, and its chart line says what the chart maps. Record: `t44-answers/REVIEWS.md`.
+- **Three review rounds.** The stance check caught two overreaches of mine: a 4a wording that went past his position, and "a little connection to divinity" moving his "a little" to what the ayahuasca gave him. Both fixed.
+- **Lessons:** E162 (a warning against a combination isn't a recipe), E163 (a question's options stay inside his stance), E164 (every image is in the article, described, so reviewers see it: `tools/humanization/article_images.py`). The ledger's span can now hold a ban for one passage.
+- **Pangram 4.0, the dashboard, first try each, all 100% Human:** P2 (150, then 149 with its San Pedro sentence restored), P3 (86), P5 (133), P6 (90), P7 (82), P8 (126), P10 (61); My Journey P9 (93), P9 with the chart line (110); the urge h3 (1,119); Start With Whatever Showed Up (3,138); When the Adult Voice Feels Fake (3,731); My Journey (735). Predictions 17 of 17.
+
+### Next
+
+1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 7 to 10; each defaults to leaving the text).
+2. His merge of the open pull request (turns 43 and 44).
+3. From Survival to Experimental Play, P3 on: the curious-or-erase check, the signs, the practices.

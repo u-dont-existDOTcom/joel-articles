@@ -649,3 +649,47 @@ class ParagraphNumbers(unittest.TestCase):
         blocks = ['# Title', 'One.', '<!-- a note -->', 'Two:', '1. first\n2. second', '## Sub', '<!-- note -->\nThree.', '> A quote.']
         labels = [pn for _, pn in para_numbers.number_blocks(blocks)]
         self.assertEqual(labels, [None, 'P1', None, 'P2', None, None, 'P1', 'P2'])
+
+
+class ImageNotes(unittest.TestCase):
+    """Joel, 2026-10-11 21:10 UTC: "the reviewer didn't see the image." An image note in the article shows as
+    "[an image: …]" in the review prompts, as the image on the article page, and nowhere in the numbering or the
+    text Pangram reads (it's a comment)."""
+
+    NOTE = '<!-- IMAGE https://example.com/chart.png : A chart of the\n  method, in five steps. -->'
+
+    def test_prompts_show_the_description_and_the_page_shows_the_image(self):
+        import article_images
+        md = 'Before.\n\n' + self.NOTE + '\n\nAfter.'
+        self.assertIn('[an image: A chart of the method, in five steps.]', article_images.show(md))
+        page = article_images.figure_html(md)
+        self.assertIn('<img src="https://example.com/chart.png" alt="A chart of the method, in five steps."', page)
+        self.assertEqual(article_images.notes(md), [('https://example.com/chart.png', 'A chart of the method, in five steps.')])
+
+    def test_the_note_gets_no_paragraph_number(self):
+        import para_numbers
+        blocks = ['# Title', 'The image below maps it out:', self.NOTE, 'Next.']
+        self.assertEqual([pn for _, pn in para_numbers.number_blocks(blocks)], [None, 'P1', None, 'P2'])
+
+    def test_reviewer_and_stance_prompts_show_it(self):
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        with tempfile.TemporaryDirectory() as d:
+            art = pathlib.Path(d) / 'a.md'
+            art.write_text('# Title\n\nThe image below maps it out:\n\n' + self.NOTE + '\n\nNext.\n', encoding='utf-8')
+            self.assertIn('[an image: A chart of the method, in five steps.]', reviewer.article_text(art))
+            self.assertIn('[an image: A chart of the method, in five steps.]', reviewer.numbered_article(art))
+        self.assertIn('[an image: A chart of the method, in five steps.]', stance_check_prompt.clean(self.NOTE))
+
+
+class OwnerEditsSpanBan(unittest.TestCase):
+    """A ban that holds in one passage only: Joel's 2026-10-11 21:10 answer rules out "get checked" for
+    predispositions, while another section rightly says "get checked" about a medical warning sign."""
+
+    def test_span_must_not_contain(self):
+        e = {'id': 'x', 'status': 'applied', 'span': {'from': 'And any predisposition', 'to': 'Milder reactions',
+                                                       'must_not_contain': ['get checked']}}
+        ok = check_owner_edits.norm('A medical warning sign: get checked first. And any predisposition is a caution sign. Milder reactions count too.')
+        bad = check_owner_edits.norm('And any predisposition means you should get checked. Milder reactions count too.')
+        self.assertEqual(check_owner_edits.check_entry(e, ok), [])
+        self.assertTrue(check_owner_edits.check_entry(e, bad))

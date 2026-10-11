@@ -1,14 +1,14 @@
 # Inner Child Therapy current state
 
-Updated: 2026-10-11 (turn 43). The checkpoint below is current; the sections after "History" are the 2026-09-21 state, kept as a record.
+Updated: 2026-10-11 (turn 44). The checkpoint below is current; the sections after "History" are the 2026-09-21 state, kept as a record.
 
-## Current checkpoint (2026-10-11, turn 43)
+## Current checkpoint (2026-10-11, turn 44)
 
 - **Work:** humanizing the guide section by section into `HUMANIZED-ARTICLE-SO-FAR.md`, through the gate in `docs/HUMANIZATION-GATE.md` (every paragraph, h3, h2 and h1 reads Human in Pangram's web app; meaning kept; nothing about Joel's life he didn't say, E159).
 - **Source:** `source/inner-child-guide-2026-10-04-r4.txt` (his published guide plus the queue in `GUIDE-UPDATE-QUEUE-20261006.md`).
-- **Done through:** When the Adult Voice Feels Fake (all of it), and the opening of Sometimes There Isn't a Clear Child Yet. Turn 42 put in Joel's 19:37 answers: the drug-history paragraph rebuilt on his answer on voices, My Journey without the line that isn't from his life, turn 40's opening without its candidate mark. Turn 43 took out a My Journey line he never said (the debug and rule E160 are in `experiments/t43-life-claims/`), put in his own therapist story, his edits to the urge section and his answers to the questions page, numbered every paragraph on both pages, and added From Survival to Experimental Play P2 under his "continue".
+- **Done through:** When the Adult Voice Feels Fake (all of it), and the opening of Sometimes There Isn't a Clear Child Yet. Turn 42 put in Joel's 19:37 answers: the drug-history paragraph rebuilt on his answer on voices, My Journey without the line that isn't from his life, turn 40's opening without its candidate mark. Turn 43 took out a My Journey line he never said (the debug and rule E160 are in `experiments/t43-life-claims/`), put in his own therapist story, his edits to the urge section and his answers to the questions page, numbered every paragraph on both pages, and added From Survival to Experimental Play P2 under his "continue". Turn 44 put in his answers to questions 4 to 6 (his THH, male iboga and acacia confusa warnings; his San Pedro and ayahuasca account; his caution-sign answer; Daja named) and put the article's images in it as descriptions reviewers get (`experiments/t44-answers/`).
 - **In progress:** From Survival to Experimental Play. P1 (turn 42) and P2 (turn 43: the pl/ork you get to do late, and the first phase; `experiments/t43-survival/`) are in, and the h2 so far reads 100% Human. Next are the curious-or-erase check, the signs (leaving out the cues sign, which P2 says) and the early practices (dedup and stance ledger in `experiments/t42-survival/`). Then the rest of Sometimes There Isn't a Clear Child Yet.
-- **Waiting on Joel:** `OWNER-QUESTIONS.md` (the owner questions page, master copy in Git), and his merge of each turn's pull request.
+- **Waiting on Joel:** `OWNER-QUESTIONS.md` (the owner questions page, master copy in Git; questions 7 to 10), and his merge of the open pull request (turns 43 and 44).
 - **His edits and rulings:** `OWNER-EDITS.json`, checked against the article on every render (`tools/humanization/check_owner_edits.py`).
 - **Records:** `experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md` (turn log, newest at the bottom), `experiments/t42-rework/`, `tools/PREDICTIONS.md`, `tools/pangram-runs/`, `PARKED-READER-QUESTIONS.md`, `OPEN-OWNER-FLAGS.md`.
 - **Lane:** branch `handoff/claude-dangerous-adult-20260924-1631`; pushes go through the laptop clone (`~/ai-work/claude-dangerous-lane/joel-articles`), pull requests to `main`, merged by Joel. Handoff note: `~/claude-acceptance-transfer/handoffs/inner-child-article.md` on his laptop.
