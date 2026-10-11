@@ -583,8 +583,11 @@ Joel answered questions 4 to 6, wrote "i merged, continue" (the open pull reques
 - **Lessons:** E162 (a warning against a combination isn't a recipe), E163 (a question's options stay inside his stance), E164 (every image is in the article, described, so reviewers see it: `tools/humanization/article_images.py`). The ledger's span can now hold a ban for one passage.
 - **Pangram 4.0, the dashboard, first try each, all 100% Human:** P2 (150, then 149 with its San Pedro sentence restored), P3 (86), P5 (133), P6 (90), P7 (82), P8 (126), P10 (61); My Journey P9 (93), P9 with the chart line (110); the urge h3 (1,119); Start With Whatever Showed Up (3,138); When the Adult Voice Feels Fake (3,731); My Journey (735). Predictions 17 of 17.
 
+- **Continue: From Survival to Experimental Play P3** (`t44-survival/REVIEWS.md`): telling the part you've been playing apart from the self that didn't get much practice, without trying to erase one. Writer 1 of three, clean on every review; alone 100% Human (86), the h2 100% Human (283), the h1 100% Human (443).
+- Main's #159 (Joel's 18:35 lessons from the community lane) is merged into the lane; its built section cold read now shows the image notes too.
+
 ### Next
 
 1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 7 to 10; each defaults to leaving the text).
 2. His merge of the open pull request (turns 43 and 44).
-3. From Survival to Experimental Play, P3 on: the curious-or-erase check, the signs, the practices.
+3. From Survival to Experimental Play: the signs (without the cues sign), then the early practices.

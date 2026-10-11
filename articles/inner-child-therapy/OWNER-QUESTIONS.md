@@ -101,7 +101,7 @@ You wrote "i merged" at 21:10, but GitHub still shows that pull request open: th
 
 ### 🔵 From Survival to Experimental Play (the next h2)
 
-In progress: P1 and P2 are in (P2 in turn 43: the pl/ork you get to do late, and the first phase; it says the line you agreed to cut from the h1's opening). Next: telling the two selves apart without trying to erase one; the signs (without the one about knowing what you want through other people's cues, which P2 now says); the early practices. No question for you yet.
+In progress: P1 to P3 are in (P3 this turn, after your "continue": telling the part you've been playing apart from the self that didn't get much practice, without trying to erase one). Next: the signs (without the one about knowing what you want through other people's cues, which P2 says), then the early practices. No question for you yet.
 
 ### 🔵 Notes for when Altered States is humanized
 
