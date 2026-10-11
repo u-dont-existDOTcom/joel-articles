@@ -106,6 +106,11 @@ New rules (REVIEW unless the document bans the thing):
 - O35 "with or without X" (gate step 2: Joel: "with or without X is not quite guidance". Say what X is good for).
 - O36 a "but also" pair (the gate's prediction review: "P34m passed with "the boring problem", the "nicer logo" quip, a "but
   also" pair and a list; without the one word "connect," it read 100% AI").
+
+O38 (Joel, 2026-10-11 18:35, community section 11 P15): "you can't say "required as pre-reqs" that's redundant, just say
+"when things are pre-reqs"". A prerequisite is already required, so "required as pre-reqs", "pre-reqs are required" and
+"a necessary prerequisite" fail in my text. It checks only this family. Whether two other words say the same thing is a
+reader's call (the registry's J50), not a word list.
 """
 import os, re, sys, argparse, math
 from statistics import mean, pstdev
@@ -632,6 +637,11 @@ STOCK_CASUAL = re.compile(r"^(?:nope[.!]+$|aww+[,.!]?\s+buddy\b)", re.I)
 WOULDNT_CALL = re.compile(r"\bI (?:wouldn't|would not) call (?:that|this|it)\b", re.I)
 WITH_OR_WITHOUT = re.compile(r"\bwith or without\b", re.I)
 BUT_ALSO = re.compile(r"\bbut also\b", re.I)
+# O38: a prerequisite is already required (Joel, 2026-10-11 18:35: "you can't say "required as pre-reqs" that's redundant")
+PREREQ = r"pre-?req(?:uisite)?s?"
+REDUNDANT_PREREQ = re.compile(r"\b(?:required|mandatory|necessary|needed)\s+(?:as\s+)?(?:an?\s+)?" + PREREQ + r"\b"
+                              r"|\b" + PREREQ + r"\s+(?:(?:that|which)\s+)?(?:(?:are|is|were|was|be|been)\s+(?:(?:all|also|still|first)\s+)?)?"
+                              r"(?:required|mandatory|necessary|needed)\b", re.I)
 
 # O26: emoji (gate step 9, "Joel's bans and the allowlist"; tools/humanization/EMOJI-LIST.md). An emoji is a pictograph
 # (U+1F000 to U+1FAFF), a symbol drawn as an emoji (followed by U+FE0F or a skin tone), or one of the symbols that are
@@ -949,6 +959,8 @@ def main():
                 flag('REVIEW', 'O35 "with or without X" (Joel 2026-10-02: "with or without X is not quite guidance"): say what X is good for', s)
             if BUT_ALSO.search(n):
                 flag('REVIEW', 'O36 a "but also" pair (the gate\'s 2026-10-10 prediction review: one of the tells a fragile pass carried, with "the boring problem" and the "nicer logo" quip)', s)
+            if REDUNDANT_PREREQ.search(unquoted):
+                flag('FAIL', 'O38 a word that repeats its neighbor: a prerequisite is already required (Joel 2026-10-11 18:35: "you can\'t say "required as pre-reqs" that\'s redundant, just say "when things are pre-reqs""): drop the word that repeats', s)
         if len(plists) >= 2 and any(m for m, _ in plists):
             flag('FAIL', 'E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: "P! failed b ecause it has 2 lists of 3"); '
                  'fix one first: drop the item that matters least, or if every item is needed, split it into sentences the way he did', ' / '.join(x for _, x in plists))

@@ -60,9 +60,10 @@ def flag_labels(out):
 class RegistryShape(unittest.TestCase):
     def test_one_entry_per_tell(self):
         ids = [t['id'] for t in TELLS]
-        self.assertEqual(len(ids), 131)
+        # 131 and 82 from the 2026-10-11 audit; W83 (O38) and J50 from Joel's message of 2026-10-11 18:35
+        self.assertEqual(len(ids), 133)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 82)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 83)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))
@@ -155,6 +156,37 @@ class NewChecksStaySpecific(unittest.TestCase):
             r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f), '--owner', str(o)], capture_output=True, text=True)
         self.assertIn('verdict:', r.stdout, r.stderr[-600:])
         self.assertNotIn('O27', rule_ids(r.stdout))
+
+
+class RedundantPrerequisite(unittest.TestCase):
+    """O38 (Joel, 2026-10-11 18:35): "you can't say "required as pre-reqs" that's redundant, just say "when things are pre-reqs"".
+    The family fails in my text; his "are pre-reqs" and a prerequisite that isn't called required again are left alone."""
+    def test_the_family_fails(self):
+        for s in ('And when things are required as pre-reqs for people to get medicine, it can put power in the hands of the gatekeepers.',
+                  'And when pre-reqs are required for people to get medicine, it can put power in the hands of the gatekeepers.',
+                  'A necessary prerequisite for joining is a season of visiting the farm and helping out in the kitchen.',
+                  'The prerequisites required for membership are written on the board by the barn door every spring.'):
+            with self.subTest(s=s[:50]):
+                out = lint(s)
+                self.assertIn('O38', rule_ids(out))
+                self.assertIn('verdict: FAIL', out)
+
+    def test_what_isnt_the_tell(self):
+        for s in ('And when communal therapy processes are pre-reqs for people to get medicine, it can feel like gatekeeping.',
+                  'Nobody has to take medicine, and the prerequisites for it are a ceremony rule the community holds.',
+                  'She said "it\'s required as a pre-req" and then laughed about the paperwork for a while with the others.'):
+            with self.subTest(s=s[:50]):
+                self.assertNotIn('O38', rule_ids(lint(s)))
+
+    def test_his_lines_arent_flagged(self):
+        text = 'And when things are required as pre-reqs for people to get medicine, the circle holds a lot of power.'
+        with tempfile.TemporaryDirectory() as d:
+            f, o = pathlib.Path(d) / 'draft.txt', pathlib.Path(d) / 'owner.txt'
+            f.write_text(text + '\n', encoding='utf-8')
+            o.write_text(text + '\n', encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f), '--owner', str(o)], capture_output=True, text=True)
+        self.assertIn('verdict:', r.stdout, r.stderr[-600:])
+        self.assertNotIn('O38', rule_ids(r.stdout))
 
 
 if __name__ == '__main__':

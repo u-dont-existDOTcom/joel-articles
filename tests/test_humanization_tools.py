@@ -536,6 +536,66 @@ class DedupPrompts(unittest.TestCase):
         self.assertLess(p.index('THE ARTICLE'), p.index('GROUP 1'))
 
 
+class SectionColdReadPrompt(unittest.TestCase):
+    """reviewer.py sense-section (2026-10-11). Joel, 18:35 UTC: ""as I'm describing may happen in my case" is obvious so you
+    should debug why the cold reader can't understand it." The community lane's section reads were written by hand, with a
+    summary in place of the article, and asked for anything that "stops you"; the builder gives the whole article before the
+    section and the shared rules, with the best-reading rule from the debugging."""
+    ARTICLE = ('# Title — humanized article so far\n\n[image 1](https://example.com/a.jpg)\n\n# First Part\n\n'
+               'My father made a [film](https://example.com/film) in 1988.\n\n[caption] The banner my mom painted.\n\n'
+               '[Share](%%share_url%%)\n\n<!-- a working note -->\n\n# Second Part\n\nThe second part opens here.\n\n'
+               '## A Subsection\n\n[image 2](https://example.com/b.jpg)\n\n[caption] A cult, maybe.\n\n'
+               'The subsection goes on.\n\n# Third Part\n\nThe third part.\n')
+
+    def run_cmd(self, *args, ok=True):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'a.md').write_text(self.ARTICLE, encoding='utf-8')
+            (d / 'draft.md').write_text('# Second Part\n\nA new opening paragraph.\n\nAnd a second one.\n', encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'reviewer' / 'reviewer.py'), '--article', str(d / 'a.md'), 'sense-section',
+                                str(d / 'o.txt')] + [x.replace('DRAFT', str(d / 'draft.md')) for x in args], capture_output=True, text=True)
+            if not ok:
+                self.assertNotEqual(r.returncode, 0)
+                return r.stderr + r.stdout
+            self.assertEqual(r.returncode, 0, r.stderr)
+            return (d / 'o.txt').read_text(encoding='utf-8')
+
+    def test_the_reader_gets_the_article_before_and_the_section_numbered(self):
+        p = self.run_cmd('--section', 'Second Part', '--report', '/tmp/r.md')
+        earlier = p[p.index('THE ARTICLE BEFORE'):p.index('THE SECTION:')]
+        self.assertIn('My father made a film in 1988.', earlier)        # a link reads as its text
+        self.assertIn('[an image]', earlier)
+        self.assertIn('[caption] The banner my mom painted.', earlier)
+        for gone in ('Share', 'working note', 'humanized article so far', 'https://'):
+            self.assertNotIn(gone, earlier)
+        section = p[p.index('THE SECTION:'):]
+        self.assertIn('# Second Part\n\n[P1] The second part opens here.', section)
+        self.assertIn('## A Subsection\n\n[an image]\n\n[caption] A cult, maybe.\n\n[P2] The subsection goes on.', section)
+        self.assertNotIn('[P3]', section)
+        self.assertIn('After it, the next section starts: "# Third Part".', section)
+        self.assertNotIn('The third part.', section)
+        self.assertIn('/tmp/r.md', p)
+
+    def test_the_shared_rules_are_in_it(self):
+        p = self.run_cmd('--section', 'Second Part')
+        self.assertIn('put your best reading of it after the quote', p)
+        self.assertIn('This is only about following the words.', p)
+        self.assertIn('"that call" is the one that\'s ringing', p)
+        self.assertIn("Don't suggest rewrites", p)
+        self.assertIn('Return the lines as your final message', p)
+
+    def test_a_draft_replaces_the_section(self):
+        p = self.run_cmd('--section', 'Second Part', '--draft', 'DRAFT')
+        section = p[p.index('THE SECTION:'):]
+        self.assertIn('[P1] A new opening paragraph.', section)
+        self.assertIn('[P2] And a second one.', section)
+        self.assertNotIn('The second part opens here.', p)
+        self.assertIn('"# Third Part"', section)
+
+    def test_a_heading_that_isnt_there_stops_it(self):
+        self.assertIn('no heading "Fourth Part"', self.run_cmd('--section', 'Fourth Part', ok=False))
+
+
 class InContextPageShowsWhatADraftCarries(unittest.TestCase):
     """Joel, 2026-10-08 02:23: "i also don't understand how you got depth draft 1 from the r4 guide? doesn't look like a good
     rewrite of that one sentence". The source cell showed one sentence of the guide paragraph; the draft carried all of it."""

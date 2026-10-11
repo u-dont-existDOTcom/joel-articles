@@ -1,0 +1,22 @@
+[P1] OK
+[P2] OK
+[P3] OK
+[P4] OK
+[P5] OK
+[P6] OK
+[P7] OK
+[P8] OK
+[P9] OK
+[P10] OK
+[P11] "She saw that happen twice." (best reading: an unnamed woman, maybe the friend raised in the Colorado pastor's commune, watched a founder explain signs away twice.) No "she" has appeared in this section and nothing sets up whose experience this is, so who "she" is and what "that" covers is a guess.
+[P12] OK
+[P13] OK
+[P14] OK
+[P15] OK
+[P16] OK
+[P17] OK
+[P18] OK
+[P19] OK
+[P20] OK
+[P21] OK
+[P22] OK

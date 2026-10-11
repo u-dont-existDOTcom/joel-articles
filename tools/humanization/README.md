@@ -5,7 +5,7 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
 - `tells_lint.py`: the linter for the mechanical tells (the gate's step 5).
   `python3 tools/humanization/tells_lint.py DRAFT.txt [--source SOURCE-SECTION.txt] [--owner OWNER-LINES.txt] [--installed ARTICLE.md]`
   For a section check, `--installed` takes the article as installed, so only new text gets flags. An owner file's lines can be whole paragraphs (since 2026-10-03).
-- `reviewer/`: builds the prompts for the reviewer-writer loop, the cold sense read, first drafts and the grounding review (`reviewer/README.md`). The article and its source come from `--article` and `--source`, or from the `"article"` and `"source"` keys in the target.
+- `reviewer/`: builds the prompts for the reviewer-writer loop, the cold sense read (of a paragraph, or of a whole section with `sense-section`), first drafts and the grounding review (`reviewer/README.md`). The article and its source come from `--article` and `--source`, or from the `"article"` and `"source"` keys in the target.
   `python3 tools/humanization/reviewer/reviewer.py grounding DRAFT.txt articles/inner-child-therapy/tools/targets/love-doesnt-wait-p5.json OUT.txt`
 - `check_owner_edits.py`: checks that every edit and claim in an article's `OWNER-EDITS.json` is in the article. `must_contain_exact` checks Joel's own lines character for character, apostrophes included (2026-10-02).
   `python3 tools/humanization/check_owner_edits.py --article articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md --ledger articles/inner-child-therapy/OWNER-EDITS.json`
