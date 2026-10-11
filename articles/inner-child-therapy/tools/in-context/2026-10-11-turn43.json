@@ -1,10 +1,10 @@
 {
- "title": "Turn 43: the line you never said, and your edits",
+ "title": "Turn 43: the line you never said, your edits, and one new paragraph",
  "meta": "Inner Child Therapy · turn 43 (your message of 2026-10-11 03:47 UTC) · saved on the lane, not merged",
  "intro": [
   "The My Journey line you never said is out, and your own account of finding the therapist is in its place. How it got in, and what changed so it can't happen again, is in experiments/t43-life-claims/DEBUG.md (and in my message). Your edits to When the Urge to Escape Arrives and your answers to questions 1 to 3 are in. Everything changed passed Pangram's web app on the first try, alone and in its sections, all 100% Human.",
   "Every paragraph now has its number under its heading (P1, P2, ...), here and on the article page, and the questions page uses the same numbers. Highlighted words are new since the version you merged (pull request #156), struck words are cut.",
-  "Three new questions are on the questions page (OWNER-QUESTIONS.md, sent with this page), numbered 4 to 6."
+  "Three new questions are on the questions page (OWNER-QUESTIONS.md, sent with this page), numbered 4 to 6. You said \"continue\", so the second paragraph of From Survival to Experimental Play is in too (the last card); it has no question for you."
  ],
  "blocks": [
   {
@@ -117,6 +117,51 @@
        "draft": "Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this.",
        "guide": null,
        "note": "your answer 1c"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Sometimes There Isn't a Clear Child Yet",
+    "## From Survival to Experimental Play"
+   ],
+   "intro": [
+    "The h2's second paragraph. P1 is the one you saw last turn."
+   ],
+   "rows": [
+    {
+     "label": "New: the pl/ork you get to do late, and the first phase",
+     "article": "Some of this is developmental pl/ork you get to do late",
+     "source": [
+      "Recovery includes more than uncovering",
+      "Reparenting and identity-building can usually proceed together."
+     ],
+     "notes": [
+      "The guide's \"developmental pl/ork you get to do late\" with two lines of this h2's last guide paragraph (on the left): \"can usually proceed together\" and \"For others, creating the conditions for it to emerge is the first phase\". With P1, it says the line you agreed to cut from this h1's opening (\"The pl/ork begins earlier, with finding or building the self\").",
+      "The rest of those two guide paragraphs is already in the article: \"more than uncovering a fully formed 'true self'\" in this h1's opening (\"the real one may never have had room to form\"), the harmful-identity rule in When the Present-Day Adult Is Dangerous to the Child, and \"for some people the child-self is already easy to feel\" in this h1's first sentence.",
+      "All three writers had turned \"pl/ork\" into \"play/work\" or \"play\", because the writer prompt didn't say it's your word. It's back, and the writer prompts now say so.",
+      "A reviewer matched \"It might feel wrong somehow to like something before you've checked anyone's face\" to the guide's sign about knowing what you want through other people's cues, so the signs paragraph will leave that one out. The stance check took out \"of the work\" after \"the first phase\", since the article calls this pl/ork, not work.",
+      "Pangram: alone 100% Human (76), first try; the h2 100% Human (197; last turn, with P1 alone, it read 100% AI); the h1 100% Human (357)."
+     ],
+     "carries": [
+      {
+       "draft": "Some of this is developmental pl/ork you get to do late: making it safe enough for your curiosity and experimenting to finally grow, and your preferences too.",
+       "guide": "Some of it is developmental pl/ork you get to do late: creating enough safety for preference, curiosity, and experimentation to finally grow."
+      },
+      {
+       "draft": "It might feel wrong somehow to like something before you've checked anyone's face.",
+       "guide": null,
+       "note": "new: what the missing safety can feel like"
+      },
+      {
+       "draft": "You can usually reparent and build who you are at the same time",
+       "guide": "Reparenting and identity-building can usually proceed together."
+      },
+      {
+       "draft": "if your little one isn't easy to feel yet, making it safe like that is the first phase.",
+       "guide": "For others, creating the conditions for it to emerge is the first phase."
       }
      ]
     }

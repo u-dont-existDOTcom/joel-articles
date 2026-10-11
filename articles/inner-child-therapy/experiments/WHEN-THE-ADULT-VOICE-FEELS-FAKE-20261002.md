@@ -566,8 +566,10 @@ Joel merged #156 and wrote: "My Journey, you confabulated this: "That's why I st
 - **Paragraph numbers:** both pages now number every paragraph under its heading (`tools/humanization/para_numbers.py`), and the questions page names paragraphs that way.
 - **Pangram 4.0, the dashboard, try 1 each:** drug history 100% Human (114), the next paragraph 100% Human (66), the help and mixing paragraphs 100% Human (134), the therapist story 100% Human (92); the urge h3 100% Human (726); Start With Whatever Showed Up 100% Human (2,745); When the Adult Voice Feels Fake 100% Human (3,338); My Journey 100% Human (730). Predictions 8 of 8.
 
+- **Continue: From Survival to Experimental Play P2** (`t43-survival/REVIEWS.md`): the pl/ork you get to do late, making it safe enough, usually alongside reparenting, and the first phase when your little one isn't easy to feel yet. With P1 it says the line Joel agreed to cut from the h1's opening. All three writers had turned "pl/ork" into "play/work" or "play": the writer prompt didn't say it's his word. It's restored, and the writer prompts now say so (E161). Writer 2's draft, with the stance check's fix ("the first phase" for "the first phase of the work"): alone 100% Human (76), first try; the h2 100% Human (197; with P1 alone it read 100% AI); the h1 100% Human (357). Predictions 2 of 3 (the h2 passed where I expected AI).
+
 ### Next
 
 1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 4 to 6).
 2. His merge of this turn's request.
-3. The rest of From Survival to Experimental Play.
+3. The rest of From Survival to Experimental Play: the curious-or-erase check, the signs (without the cues sign, which P2 says), the practices.
