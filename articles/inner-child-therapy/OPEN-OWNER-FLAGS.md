@@ -1,5 +1,7 @@
 # Open owner flags: Inner Child Therapy
 
+Questions that need Joel's answer are on `OWNER-QUESTIONS.md` (from 2026-10-10, turn 42; UDA `patterns/owner-questions-page.md`). This file keeps the flags to handle when their sections are humanized.
+
 A living list of things Joel has flagged, or that need his decision, that aren't fixed yet. Read at the start of every turn and before sending the article (E80). Close an item only when it's fixed in `HUMANIZED-ARTICLE-SO-FAR.md` or Joel decides it. Anything with a text change also has an entry in `OWNER-EDITS.json` (E85), and an item closes only when that entry passes `tools/humanization/check_owner_edits.py` (from the repo root).
 
 ## Open

@@ -1466,6 +1466,67 @@
      "url": "http://bufo.u-dont-exist.com/"
     }
    ]
+  },
+  {
+   "id": "san-pedro-account-as-text-20261010",
+   "status": "applied",
+   "what": "Joel's answer to turn 41's question 1: his San Pedro and ayahuasca account can be article text if it fits well. It stays in When the Urge to Escape Arrives P2 as installed in turn 41.",
+   "joel": "2026-10-10 19:37 UTC (answer 1): \"they can go in, if they fit well\"",
+   "where": "When the Urge to Escape Arrives, P2",
+   "must_contain": [
+    "The first time I took San Pedro cactus, at a medium-low dose",
+    "Ayahuasca was often much more challenging"
+   ]
+  },
+  {
+   "id": "voices-and-warning-signs-20261010",
+   "status": "applied",
+   "what": "Joel's answer to turn 41's question 2, which replaces the guide's one-episode rule: hearing voices and losing your sense of reality are normal on psychedelics (less so on weed); the signs to reconsider trying the same thing again, and to try to figure out why it happened, are going manic, going psychotic (losing your sense of reality to the point of being a risk to yourself or others), getting super paranoid, or ending up worse afterward than before. In since turn 42 (2026-10-10), after the gate and Pangram (the paragraph alone 100% Human (160), the h3, the h2 and the h1 100% Human).",
+   "joel": "2026-10-10 19:37 UTC (answer 2): \"no, that's normal to hear voices and lose sense of reality on psychedelics (not as normal for weed tho)... but if you go manic, psychotic (by which i mean losing sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afteward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened.\"",
+   "where": "When the Urge to Escape Arrives, the drug-history paragraph",
+   "must_not_contain": [
+    "hearing voices once means no more of that drug"
+   ],
+   "must_contain": [
+    "It's normal to hear voices and lose your sense of reality on psychedelics",
+    "those are signs to reconsider trying the same thing again",
+    "Paranoia during a rough trip is a warning sign for psychosis"
+   ]
+  },
+  {
+   "id": "grown-up-me-line-not-his-20261010",
+   "status": "applied",
+   "what": "Joel, on turn 41's life-claims page: My Journey's \"Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore.\" is not from his life (E159). It comes out, and the sentence after it, which leans on it, loses \"when the adult has vanished\". In since turn 42 (2026-10-10): \"When an old wound hits and you're the same little kid again, the three adult jobs don't work too well. That's why I started looking for a way to have an adult there before I could reliably be that adult myself.\" (Pangram: with the paragraph before it 100% Human (108); My Journey 100% Human (682)).",
+   "joel": "2026-10-10 19:37 UTC (answer 3): \"this is not from my life: \\\"Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore.\\\"  the rest is accurate and ok.\"",
+   "where": "My Journey",
+   "must_not_contain": [
+    "there wasn't a grown-up me around anymore",
+    "when the adult has vanished"
+   ],
+   "must_contain": [
+    "That's why I started looking for a way to have an adult there before I could reliably be that adult myself."
+   ]
+  },
+  {
+   "id": "life-claims-confirmed-20261010",
+   "status": "applied",
+   "what": "Joel confirmed as accurate the other lines about his life that turn 41's sweep flagged (\"the rest is accurate and ok\"), so they count as his words for E159: Chicken-and-Egg's \"I left it out of my first version of this guide until Key pointed it out, and without an inner Guide, it's easy to go looking for one in a cult.\"; My Journey's \"But an old childhood wound could still hit and suddenly I was the same little kid again, even when the spiritual part of me felt completely free.\", \"Then there was this little me actually hurting, and I could send some of the love I'd already found his way.\", \"It didn't for me.\", \"Conditional love felt radically insufficient, so I kept looking for something deeper.\", \"and later in loveyhuasca\" and \"so I started looking for a way to have an adult there before I could reliably be that adult myself\"; When the Present-Day Adult Is Dangerous's \"When I talk with folks like that, I mostly want to know what the identity gets them and what it costs, and especially what it's really serving.\"; Write It's \"A lot of the time it's just \\\"that hurt.\\\"\" and \"Other times it's \\\"I did this too.\\\"\"; Noticing Counts' \"I was, and baby me was still starving.\"",
+   "joel": "2026-10-10 19:37 UTC (answer 3): \"this is not from my life: \\\"Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore.\\\"  the rest is accurate and ok.\"",
+   "where": "the whole article (turn 41's life-claims page)"
+  },
+  {
+   "id": "t40-pl-ork-cut-agreed-20261010",
+   "status": "applied",
+   "what": "Joel agreed to cut the guide's \"The pl/ork begins earlier, with finding or building the self.\" from the opening of Sometimes There Isn't a Clear Child Yet (turn 40's P2 last line; the next h2 says it). The opening goes in without its CANDIDATE mark.",
+   "joel": "2026-10-10 19:37 UTC (answer 4): \"agreed\"",
+   "where": "Sometimes There Isn't a Clear Child Yet",
+   "must_not_contain": [
+    "the pl/ork starts a step earlier"
+   ],
+   "must_contain": [
+    "Reparenting assumes there's a clear little one in there to love",
+    "That can make \"love yourself\" feel pretty empty"
+   ]
   }
  ]
 }

@@ -49,6 +49,7 @@ ROLE_RULES = [
     ('tools/HUMANIZATION-GATE.md', 'pointer_to_shared_gate'),
     ('OWNER-EDITS.json', 'owner_edits_ledger'),
     ('OPEN-OWNER-FLAGS.md', 'open_owner_flags'),
+    ('OWNER-QUESTIONS.md', 'owner_questions_page'),
     ('PARKED-READER-QUESTIONS.md', 'parked_reader_questions'),
 ]
 DEFAULT_ROLE = 'humanization_working_record'
