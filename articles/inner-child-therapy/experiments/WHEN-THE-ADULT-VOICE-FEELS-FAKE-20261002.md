@@ -556,3 +556,18 @@ His five answers (verbatim in `../OWNER-EDITS.json`): "they can go in, if they f
 1. Joel's answers on `../OWNER-QUESTIONS.md`.
 2. His merge of this turn's request after he's seen the pages.
 3. The rest of From Survival to Experimental Play: late developmental pl/ork, safety for growing and the first phase, and "can usually proceed together" (one paragraph, `t42-g2` and the new part of `t42-g5`); the curious-or-erase check; the signs; the early practices; then the h2 check.
+
+## Turn 43 (2026-10-11, from 03:47 UTC): the confabulated My Journey line, paragraph numbers, Joel's edits and answers
+
+Joel merged #156 and wrote: "My Journey, you confabulated this: "That's why I started looking for a way to have an adult there before I could reliably be that adult myself." debug that, stoop confabulating my life story. i didn't say that. it was general advice as per the guide." He also asked why many paragraphs have no numbers, gave edits to the urge section, and answered the questions page.
+
+- **The debug** (`t43-life-claims/DEBUG.md`, E160): I wrote the sentence on 2026-09-16 from the guide's bootstrap phase. Turn 41's sweep caught it, but the page put it in one row with the grown-up-me line and explained only that one; he rejected the row by quoting its first sentence, and in turn 42 I recorded his "the rest is accurate and ok" as confirming the second. The reviews then trusted my record. The gate, the grounding prompt and the writers' brief now say an answer confirms only what it names, each life claim gets its own question, and my reading of an answer never counts as his words. The ledger entry is corrected. The other lines he confirmed each had their own row asking "Is it true?", so they stand.
+- **The article:** the line is out of My Journey, and his own account of finding the therapist is there instead, in his words. The urge section has his three edits (the weed parenthetical cut, his 5-MeO paragraph moved up, the voices sentence gone) and his answers to question 1.
+- **Paragraph numbers:** both pages now number every paragraph under its heading (`tools/humanization/para_numbers.py`), and the questions page names paragraphs that way.
+- **Pangram 4.0, the dashboard, try 1 each:** drug history 100% Human (114), the next paragraph 100% Human (66), the help and mixing paragraphs 100% Human (134), the therapist story 100% Human (92); the urge h3 100% Human (726); Start With Whatever Showed Up 100% Human (2,745); When the Adult Voice Feels Fake 100% Human (3,338); My Journey 100% Human (730). Predictions 8 of 8.
+
+### Next
+
+1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 4 to 6).
+2. His merge of this turn's request.
+3. The rest of From Survival to Experimental Play.

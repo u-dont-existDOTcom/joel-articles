@@ -1,12 +1,12 @@
 # Inner Child Therapy current state
 
-Updated: 2026-10-10 (turn 42). The checkpoint below is current; the sections after "History" are the 2026-09-21 state, kept as a record.
+Updated: 2026-10-11 (turn 43). The checkpoint below is current; the sections after "History" are the 2026-09-21 state, kept as a record.
 
-## Current checkpoint (2026-10-10, turn 42)
+## Current checkpoint (2026-10-11, turn 43)
 
 - **Work:** humanizing the guide section by section into `HUMANIZED-ARTICLE-SO-FAR.md`, through the gate in `docs/HUMANIZATION-GATE.md` (every paragraph, h3, h2 and h1 reads Human in Pangram's web app; meaning kept; nothing about Joel's life he didn't say, E159).
 - **Source:** `source/inner-child-guide-2026-10-04-r4.txt` (his published guide plus the queue in `GUIDE-UPDATE-QUEUE-20261006.md`).
-- **Done through:** When the Adult Voice Feels Fake (all of it), and the opening of Sometimes There Isn't a Clear Child Yet. Turn 42 put in Joel's 19:37 answers: the drug-history paragraph rebuilt on his answer on voices, My Journey without the line that isn't from his life, turn 40's opening without its candidate mark.
+- **Done through:** When the Adult Voice Feels Fake (all of it), and the opening of Sometimes There Isn't a Clear Child Yet. Turn 42 put in Joel's 19:37 answers: the drug-history paragraph rebuilt on his answer on voices, My Journey without the line that isn't from his life, turn 40's opening without its candidate mark. Turn 43 took out a My Journey line he never said (the debug and rule E160 are in `experiments/t43-life-claims/`), put in his own therapist story, his edits to the urge section and his answers to the questions page, and numbered every paragraph on both pages.
 - **In progress:** From Survival to Experimental Play. Its first paragraph is in (turn 42); next are late developmental pl/ork with safety and the first phase, the curious-or-erase check, the signs and the early practices (dedup and stance ledger in `experiments/t42-survival/`). Then the rest of Sometimes There Isn't a Clear Child Yet.
 - **Waiting on Joel:** `OWNER-QUESTIONS.md` (the owner questions page, master copy in Git), and his merge of each turn's pull request.
 - **His edits and rulings:** `OWNER-EDITS.json`, checked against the article on every render (`tools/humanization/check_owner_edits.py`).

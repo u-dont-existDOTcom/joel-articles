@@ -1481,14 +1481,13 @@
   {
    "id": "voices-and-warning-signs-20261010",
    "status": "applied",
-   "what": "Joel's answer to turn 41's question 2, which replaces the guide's one-episode rule: hearing voices and losing your sense of reality are normal on psychedelics (less so on weed); the signs to reconsider trying the same thing again, and to try to figure out why it happened, are going manic, going psychotic (losing your sense of reality to the point of being a risk to yourself or others), getting super paranoid, or ending up worse afterward than before. In since turn 42 (2026-10-10), after the gate and Pangram (the paragraph alone 100% Human (160), the h3, the h2 and the h1 100% Human).",
+   "what": "Joel's answer to turn 41's question 2, which replaces the guide's one-episode rule: hearing voices and losing your sense of reality are normal on psychedelics (less so on weed); the signs to reconsider trying the same thing again, and to try to figure out why it happened, are going manic, going psychotic (losing your sense of reality to the point of being a risk to yourself or others), getting super paranoid, or ending up worse afterward than before. In since turn 42 (2026-10-10), after the gate and Pangram (the paragraph alone 100% Human (160), the h3, the h2 and the h1 100% Human). Updated 2026-10-11 (Joel, 03:47 UTC; entry 5meo-before-history-20261011): the voices sentence came out, since his own paragraph before it now says it (\"All kinds of psychoactive drugs can mess with your sense of what's real, and that's often the point of them\").",
    "joel": "2026-10-10 19:37 UTC (answer 2): \"no, that's normal to hear voices and lose sense of reality on psychedelics (not as normal for weed tho)... but if you go manic, psychotic (by which i mean losing sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afteward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened.\"",
    "where": "When the Urge to Escape Arrives, the drug-history paragraph",
    "must_not_contain": [
     "hearing voices once means no more of that drug"
    ],
    "must_contain": [
-    "It's normal to hear voices and lose your sense of reality on psychedelics",
     "those are signs to reconsider trying the same thing again",
     "Paranoia during a rough trip is a warning sign for psychosis"
    ]
@@ -1496,21 +1495,18 @@
   {
    "id": "grown-up-me-line-not-his-20261010",
    "status": "applied",
-   "what": "Joel, on turn 41's life-claims page: My Journey's \"Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore.\" is not from his life (E159). It comes out, and the sentence after it, which leans on it, loses \"when the adult has vanished\". In since turn 42 (2026-10-10): \"When an old wound hits and you're the same little kid again, the three adult jobs don't work too well. That's why I started looking for a way to have an adult there before I could reliably be that adult myself.\" (Pangram: with the paragraph before it 100% Human (108); My Journey 100% Human (682)).",
+   "what": "Joel, on turn 41's life-claims page: My Journey's \"Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore.\" is not from his life (E159). It comes out, and the sentence after it, which leans on it, loses \"when the adult has vanished\". In since turn 42 (2026-10-10): \"When an old wound hits and you're the same little kid again, the three adult jobs don't work too well. That's why I started looking for a way to have an adult there before I could reliably be that adult myself.\" (Pangram: with the paragraph before it 100% Human (108); My Journey 100% Human (682)). Corrected 2026-10-11 (E160): turn 42 also kept the next sentence as his and checked for \"That's why I started looking for a way to have an adult there before I could reliably be that adult myself.\" He never said it (entry my-journey-search-not-his-20261011), so that check is gone.",
    "joel": "2026-10-10 19:37 UTC (answer 3): \"this is not from my life: \\\"Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore.\\\"  the rest is accurate and ok.\"",
    "where": "My Journey",
    "must_not_contain": [
     "there wasn't a grown-up me around anymore",
     "when the adult has vanished"
-   ],
-   "must_contain": [
-    "That's why I started looking for a way to have an adult there before I could reliably be that adult myself."
    ]
   },
   {
    "id": "life-claims-confirmed-20261010",
    "status": "applied",
-   "what": "Joel confirmed as accurate the other lines about his life that turn 41's sweep flagged (\"the rest is accurate and ok\"), so they count as his words for E159: Chicken-and-Egg's \"I left it out of my first version of this guide until Key pointed it out, and without an inner Guide, it's easy to go looking for one in a cult.\"; My Journey's \"But an old childhood wound could still hit and suddenly I was the same little kid again, even when the spiritual part of me felt completely free.\", \"Then there was this little me actually hurting, and I could send some of the love I'd already found his way.\", \"It didn't for me.\", \"Conditional love felt radically insufficient, so I kept looking for something deeper.\", \"and later in loveyhuasca\" and \"so I started looking for a way to have an adult there before I could reliably be that adult myself\"; When the Present-Day Adult Is Dangerous's \"When I talk with folks like that, I mostly want to know what the identity gets them and what it costs, and especially what it's really serving.\"; Write It's \"A lot of the time it's just \\\"that hurt.\\\"\" and \"Other times it's \\\"I did this too.\\\"\"; Noticing Counts' \"I was, and baby me was still starving.\"",
+   "what": "Joel confirmed as accurate the other lines about his life that turn 41's sweep flagged (\"the rest is accurate and ok\"), so they count as his words for E159: Chicken-and-Egg's \"I left it out of my first version of this guide until Key pointed it out, and without an inner Guide, it's easy to go looking for one in a cult.\"; My Journey's \"But an old childhood wound could still hit and suddenly I was the same little kid again, even when the spiritual part of me felt completely free.\", \"Then there was this little me actually hurting, and I could send some of the love I'd already found his way.\", \"It didn't for me.\", \"Conditional love felt radically insufficient, so I kept looking for something deeper.\", \"and later in loveyhuasca\"; When the Present-Day Adult Is Dangerous's \"When I talk with folks like that, I mostly want to know what the identity gets them and what it costs, and especially what it's really serving.\"; Write It's \"A lot of the time it's just \\\"that hurt.\\\"\" and \"Other times it's \\\"I did this too.\\\"\"; Noticing Counts' \"I was, and baby me was still starving.\" Corrected 2026-10-11 (turn 42's record, E160): this entry also listed My Journey's \"so I started looking for a way to have an adult there before I could reliably be that adult myself\". He never confirmed it. It was the second sentence of the row he rejected, and his \"the rest\" meant the other rows. Each of the other lines had its own row on turn 41's page asking \"Is it true?\", and his \"the rest is accurate and ok\" answers those rows.",
    "joel": "2026-10-10 19:37 UTC (answer 3): \"this is not from my life: \\\"Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore.\\\"  the rest is accurate and ok.\"",
    "where": "the whole article (turn 41's life-claims page)"
   },
@@ -1526,6 +1522,76 @@
    "must_contain": [
     "Reparenting assumes there's a clear little one in there to love",
     "That can make \"love yourself\" feel pretty empty"
+   ]
+  },
+  {
+   "id": "my-journey-search-not-his-20261011",
+   "status": "applied",
+   "what": "My Journey: \"That's why I started looking for a way to have an adult there before I could reliably be that adult myself.\" isn't his. It's the guide's general advice (\"a bootstrap phase for people who can't yet occupy the adult role\"; \"Before you can reliably become the inner parent, you may need to experience, imagine, imitate, and practice one adult function with help.\"), so it goes back to general advice, not his story. Debug record: experiments/t43-life-claims/DEBUG.md (E160). In since turn 43 (2026-10-11): the paragraph is out; his own account of the therapist is there instead (Pangram: alone 100% Human (92), My Journey 100% Human (730)).",
+   "joel": "2026-10-11 03:47 UTC: \"My Journey, you confabulated this: \\\"That's why I started looking for a way to have an adult there before I could reliably be that adult myself.\\\" debug that, stoop confabulating my life story. i didn't say that. it was general advice as per the guide.\"",
+   "where": "My Journey",
+   "must_not_contain": [
+    "I started looking for a way to have an adult there",
+    "so I started looking"
+   ]
+  },
+  {
+   "id": "weed-parenthetical-cut-20261011",
+   "status": "applied",
+   "what": "Cut \"(not as normal for weed, though)\": \"normal\" is vague, and THC paranoia comes up later in the paragraph. In since turn 43 (2026-10-11), after the gate and Pangram (the paragraph alone 100% Human (114); the h3, h2 and h1 100% Human).",
+   "joel": "2026-10-11 03:47 UTC: \"for \\\"your own drug history\\\" para, i'd clarify the \\\"(not as normal for weed, though)\\\" bc normal is vague. just cut that parenthetical bc it's already mentioning paranoia on thc later.\"",
+   "where": "When the Urge to Escape Arrives, the drug-history paragraph",
+   "must_not_contain": [
+    "not as normal for weed"
+   ]
+  },
+  {
+   "id": "5meo-before-history-20261011",
+   "status": "applied",
+   "what": "Move his paragraph \"All kinds of psychoactive drugs can mess with your sense of what's real...\" (the 5-MeO-DMT one) to before \"Your own drug history counts too\", and take \"It's normal to hear voices and lose your sense of reality on psychedelics\" out of the drug-history paragraph, since the moved paragraph now says it. In since turn 43 (2026-10-11), after the gate and Pangram (the h3 100% Human (726)). The drug-history paragraph also lost the \"But\" that answered the cut sentence.",
+   "joel": "2026-10-11 03:47 UTC: \"i think we should move that after para \\\"All kinds of psychoactive drugs can mess with your sense of what's real, and that's often the point of them. ... It's all spiritual bypassing.\\\" over to before  \\\"You're own drug history counts too\\\" and then remove \\\"It's normal to hear voices and lose your sense of reality on psychedelics (not as normal for weed, though).\\\" from that since it's already stated above now. altho idk if that messes up what came after that para that we moved if there was another? but don't you think that makes more sense with the flow?\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_not_contain": [
+    "It's normal to hear voices and lose your sense of reality on psychedelics"
+   ],
+   "order": [
+    "All kinds of psychoactive drugs can mess with your sense of what's real",
+    "Your own drug history counts too"
+   ]
+  },
+  {
+   "id": "q1-safety-cautions-20261011",
+   "status": "applied",
+   "what": "His answers to the questions page's question 1. (a) After going manic or psychotic, get someone qualified to help if you can't clearly understand why yourself. (b) Every kind of predisposition toward mania or psychosis (family history, a bad environment, a bad mindset, and so on) is a warning sign. (c) Be careful what you combine, not just prescribed medicines: even basic things like cinnamon can be dangerous (and helpful) with ayahuasca; his list of things to be cautious about with ayahuasca, http://ayasafety.u-dont-exist.com/; doctors don't know about a lot of this. Not for the text, unless he says: his THH and iboga stories (they explain answer (a)); the THH one is also a recipe for combining, so it stays out. In since turn 43 (2026-10-11): (a) and (b) in the drug-history paragraphs, (c) as its own short paragraph after the help paragraph (Pangram: 100% Human, 114, 66 and 134 with its neighbor).",
+   "joel": "2026-10-11 03:47 UTC: \"1a yes they shoudl get someone qualified to help if they aren't able to clearly understand themself. [two stories of his own, for context] b. absolutely, every kind of predisposition towards mania or psychosis, whether familial history or bad environment bad mindset, etc etc, should be considered a warning sign. c. that pretty much goes without saying, but yes, not just prescribed medicines. even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca. I have a list of things to be cautious about with aya in particular at http://ayasafety.u-dont-exist.com/ (yes it loads even if you can't see it). doctors don't know about a lot of this.\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "someone qualified",
+    "predisposition"
+   ],
+   "must_link": [
+    {
+     "text": "list of things to be cautious about with ayahuasca",
+     "url": "http://ayasafety.u-dont-exist.com/"
+    }
+   ]
+  },
+  {
+   "id": "q2-altered-states-voices-20261011",
+   "status": "pending",
+   "what": "For Altered States Can Deepen the Therapy, when it's humanized: his new list decides who goes through the gate (going manic, psychotic, super paranoid, worse afterward), not the guide's history of voices. Feeling attacked by a demon on a psychedelic isn't necessarily paranoia: it can be real, it isn't bad unless you're unprepared, and it can be supremely empowering when you can send love and see it fix the situation.",
+   "joel": "2026-10-11 03:47 UTC: \"2. a. feeling attacked by a demon on a psychedelic is not necessarily paranoia, it can be real, and it's also not bad unless you're unprepared as stated. it can be supremely empowering when you can send love and see how it fixes the situation.\"",
+   "where": "Altered States Can Deepen the Therapy (not humanized yet)",
+   "waits_for": "Altered States Can Deepen the Therapy to be humanized"
+  },
+  {
+   "id": "q3-therapist-story-20261011",
+   "status": "applied",
+   "what": "My Journey: how he found the inner-child therapist, in his words: years later, randomly, not thinking he needed it; she helped him see things more clearly, for example having him write down how many people he could fully trust as a child (lots) and as an adult (zero); that was difficult, and it's the opposite of what you'd expect from inner child therapy, which is usually about people who had problems trusting as a child. There was no search for an adult (see my-journey-search-not-his-20261011). In since turn 43 (2026-10-11), his words with grammar only (Pangram: alone 100% Human (92)). Whether he wants it in print is on the questions page (question 6).",
+   "joel": "2026-10-11 03:47 UTC: \"3. b i fouund the therapist years later randomly and gave it a shot alttho i didn't think i needed it, but she did actually help me see some things more clearly, like for example, she had me write down how many people i could fully trust as a child (lots), then how many people i could fully trust as an adult (zero). that was difficult, and it's actuallly the opposite of what you might expect from inner child therapy since usually that's about people who had problems trusting as a child etc.\"",
+   "where": "My Journey",
+   "must_contain": [
+    "how many people I could fully trust as a child"
    ]
   }
  ]

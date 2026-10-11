@@ -20,6 +20,10 @@ with the full humanized article so far. Run this at the end of every turn and se
 file. A comment that starts with "<!-- CANDIDATE:" becomes a visible note, so a candidate
 section is never shown as accepted prose. All other comments stay invisible.
 
+Every paragraph carries its number under its heading (P1, P2, ...), from para_numbers.py, the same
+numbers the review page uses (Joel, 2026-10-11 03:47 UTC: "Why are there no numbers on many of these
+paragraphs? how do i identify them?").
+
 With --ledger it also runs check_owner_edits.py against that ledger (Joel, 2026-09-27 21:18:
 "so how can we prevent that kind of error in future where you say you will write something
 and don't write it?"). An edit or claim a record says is in the article but isn't goes in a
@@ -30,6 +34,7 @@ import argparse, html, json, pathlib, re, sys
 import markdown
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import check_owner_edits
+import para_numbers
 
 ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 ap.add_argument('out', nargs='?', help='the HTML file to write')
@@ -43,6 +48,24 @@ OUT = pathlib.Path(a.out or '/mnt/user-data/outputs/%s-humanized-so-far.html' % 
 TITLE = a.title or '%s, humanized so far' % FOLDER.replace('-', ' ').title()
 
 md = SRC.read_text(encoding='utf-8')
+
+
+def numbered(md):
+    """The Markdown with a P-number at the start of every paragraph (see para_numbers.py)."""
+    blocks = re.split(r'\n\s*\n', md)
+    out = []
+    for b, pn in para_numbers.number_blocks(blocks):
+        if pn:
+            tag = '<span class="pn">%s</span> ' % pn
+            lead = re.match(r'(\s*(?:<!--.*?-->\s*)*)', b, flags=re.S).group(1)
+            rest = b[len(lead):]
+            m = re.match(r'(>\s*|(?:\d+\.|[-*+])\s+)', rest)
+            b = lead + (rest[:m.end()] + tag + rest[m.end():] if m else tag + rest)
+        out.append(b)
+    return '\n\n'.join(out)
+
+
+md = numbered(md)
 md = re.sub(r'<!--\s*CANDIDATE:(.*?)-->',
             lambda m: '\n\n<div class="candidate">' + html.escape(m.group(1).strip()) + '</div>\n\n',
             md, flags=re.S)
@@ -69,6 +92,7 @@ h1, h2, h3 {{ font-family: system-ui, sans-serif; line-height: 1.25; }}
 blockquote {{ color: #555; border-left: 3px solid #ccc; margin-left: 0; padding-left: 1rem; font-size: 0.9em; }}
 .candidate {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #fff6e0; border: 1px solid #e0b84c; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 2rem 0 0.5rem; }}
 a {{ color: #0b5cad; }}
+.pn {{ font: 600 0.7em system-ui, sans-serif; color: #8a8a8a; margin-right: 0.35em; vertical-align: 0.1em; }}
 .notin {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #fde8e8; border: 2px solid #c0392b; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1rem 0; }}
 .waiting {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #f3f6fa; border: 1px solid #9fb3c8; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1rem 0; }}
 </style></head><body>

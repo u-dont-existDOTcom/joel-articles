@@ -1,67 +1,70 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-10 (turn 42). **3 open questions.** To answer, reply in chat with the number and a letter, like `1: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here.
+Last updated 2026-10-11 (turn 43). **3 open questions.** To answer, reply in chat with the number and a letter, like `4: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages now show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). The passages each question is about are quoted here, and the turn's review page shows them in place.
+This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`).
 
 ## Open questions
 
 > [!IMPORTANT]
 > Each needs your word because it's about your life or adds advice your guide doesn't give.
 
-### 🟣 1. Three safety cautions your answers don't cover yet (When the Urge to Escape Arrives)
+### 🟣 4. Two follow-ups on your safety answers (When the Urge to Escape Arrives, P4 and P5)
 
-Your 19:37 answer replaced the guide's rule that one episode means "not to retest that substance without professional assessment". The article now says:
+The article now says, in your words:
 
-> But if you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened.
+> If you can't clearly understand what happened yourself, get someone qualified to help.
 
-Two reviewers asked what a reader should do in three cases the article doesn't cover. Adding any of them is a medical caution in your voice, so it's yours to decide:
+> And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset.
 
-- (a) After going manic or psychotic once: should they get someone qualified to help figure out why before trying again? "Get professional help right away" in the next paragraph covers only reactions that are severe, risky, or keep going.
-- (b) A family history of psychosis or bipolar disorder: is that a reason to be more careful?
-- (c) A prescribed medicine: check with a doctor before combining it with a psychedelic? Ayahuasca with an antidepressant is the well-known dangerous mix.
+A reviewer raised two things a reader could get wrong:
 
-Options:
-- **A. Add all three,** as one or two plain sentences in your voice. Gets: a reader on an antidepressant, or with psychosis in the family, is warned. Costs: advice your guide doesn't give yet; the paragraph goes through the reviews and Pangram again.
-- **B. Add only (c) here,** and put (a) and (b) in Altered States when I humanize it.
-- **C. Add none.** The paragraph stays as it is.
-- Or say which ones, in your own words.
-
-My recommendation: A. The paragraph now helps people choose drugs, and (c) is the one most likely to hurt someone. If you don't answer, nothing is added. After you answer I draft the sentences, run the reviews and Pangram, and show them on the next page.
-
-### 🟣 2. Which voices rule the Altered States section follows
-
-Altered States Can Deepen the Therapy isn't humanized yet. It still has the guide's older rule:
-
-> A personal history of voices, paranoia, major loss of reality testing … belongs inside this gate before planning another altered-state session
-
-and says that holds even with a different substance. Your 19:37 answer says hearing voices and losing your sense of reality are normal on psychedelics. A stance check also asked: does feeling attacked by a demon or spirit on a trip count as the paranoia that warns of psychosis, or as the spiritual attack your guide teaches people to meet with love (Altered States Can Require Reparenting)?
+- (a) After mania or psychosis, the person judging is the one it happened to. Mania can feel like clarity, so someone may think they understand it when they don't, and skip help.
+- (b) "A warning sign" tells someone with, say, a family history that something's wrong. It doesn't say what to do if they haven't tried anything yet: skip psychedelics, go gentler, or get checked first.
 
 Options:
-- **A. Your new list decides** (manic, psychotic, super paranoid, worse afterward). Voices on psychedelics aren't a reason to hold off; voices on weed are. A spirit attack is treated as the guide's spiritual attack unless it comes with paranoia that lasts.
-- **B. Keep the guide's stricter list** for that section, since it's about planning the next session.
-- **C. Your own words.**
+- **A. Add a few words to each.** For (a), something like "and if you're not sure you do, ask someone who knows you well". For (b), whatever you'd tell them, in your words.
+- **B. Add only (b).**
+- **C. Leave both as they are.**
 
-My recommendation: A, so the two sections agree; the weed and spirit-attack parts are my reading of your answer, so correct them if they're wrong. Nothing changes until I humanize that section, and I'll ask again then if this is still open.
+My recommendation: A, with your wording for (b). If you don't answer, nothing changes.
 
-### 🟣 3. How your therapist and your search for an adult go together (My Journey)
+Also: your iboga story (the one time male iboga made you a bit hypomanic) could become one line of warning, since you say you warn people about male iboga. Say if you want it. Your THH story stays out: it reads as instructions for mixing.
 
-The article says:
+### 🟣 5. Your San Pedro and ayahuasca lines, now right before the 5-MeO paragraph (When the Urge to Escape Arrives, P2 and P3)
 
-> I used San Pedro cactus and CBD tea with sublingual mapacho, and that cracked it open; structured sessions with an inner-child therapist deepened it.
->
-> When an old wound hits and you're the same little kid again, the three adult jobs don't work too well. That's why I started looking for a way to have an adult there before I could reliably be that adult myself.
+Moving your 5-MeO paragraph up means P2 now ends on your own story and P3 follows right after:
 
-Four cold readers couldn't tell whether the therapist was the adult you went looking for, or whether the search came before or after. Only you know.
+> Ayahuasca was often much more challenging, because at first I was taking huge doses for ego death. …
+
+> … People very often believe you need a huge dose of it for a "full release." They go through all kinds of screaming and shaking, nearly killing themselves, with absolutely zero inner-child work being done. It's all spiritual bypassing.
+
+A reviewer said a reader may now take your own ayahuasca years as the bypassing you describe. Turn 41 raised the same thing before the move, and you said the lines "can go in, if they fit well". The reviewer also asked: if a medium-low dose of San Pedro was "very therapeutic" for you, why should a reader wait until there's "enough Nurturer and Protector around"?
 
 Options:
-- **A. The therapist was one of the ways.** I'd say so in a few words.
-- **B. The search came after.** Tell me what was still missing, in your words.
-- **C. Leave it.** The order doesn't matter to you.
+- **A. Add a few words, in yours,** on how your ayahuasca years were different, or what made that first San Pedro time workable.
+- **B. Leave it.** The reading doesn't bother you.
 
-My recommendation: C unless the order matters to you; both lines are yours or confirmed by you. If you don't answer, it stays as it is.
+My recommendation: A, since the move put the two side by side. If you don't answer, it stays as it is.
+
+### 🟣 6. My Journey's ending (My Journey, P9 and P10)
+
+Your therapist story is in, in your words (your answer 3b, grammar only), where the invented line was. It's now My Journey's last paragraph before the chart:
+
+> I found the therapist years later, randomly, and gave it a shot, although I didn't think I needed it. … For example, she had me write down how many people I could fully trust as a child (lots), then how many people I could fully trust as an adult (zero). …
+
+Two things for you:
+- (a) Is it OK in print? A reviewer asked, since it came from an answer to my question.
+- (b) My Journey used to end with the guide's recap of the method (your little one, the three adult jobs, protective parts at the door, borrowing an adult) right before the chart. Now it goes from your story straight to "The image below maps out the details as best as I can fit:". One reviewer missed the recap; another said later sections carry it.
+
+Options:
+- **A. Keep your story; no recap.**
+- **B. Keep your story and add a one-line recap** before the chart.
+- **C. Take the trust count out** and keep the rest.
+
+My recommendation: A. If you don't answer, it stays as it is.
 
 ## For you to do (no decision needed)
 
@@ -77,19 +80,28 @@ About a minute: open the pull request link in my message, check that its checks 
 > [!TIP]
 > Your answers in your words, and what I did with them.
 
+### 🟢 2026-10-11 03:47 UTC
+
+- "My Journey, you confabulated this: "That's why I started looking for a way to have an adult there before I could reliably be that adult myself." debug that, stoop confabulating my life story. i didn't say that. it was general advice as per the guide.": the line is out. How it got in and what changed so it can't again: `experiments/t43-life-claims/DEBUG.md` (rule E160).
+- "Why are there no numbers on many of these paragraphs? how do i identify them?": both pages now number every paragraph under its heading, P1, P2, ...
+- Cut "(not as normal for weed, though)"; move your 5-MeO paragraph before "Your own drug history counts too" and drop the voices sentence: done, and the "But" that answered it went too.
+- Question 1, "1a yes they shoudl get someone qualified to help if they aren't able to clearly understand themself. … b. absolutely, every kind of predisposition towards mania or psychosis … should be considered a warning sign. c. … not just prescribed medicines. even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca. I have a list …": all three are in, in your words, with your ayahuasca list linked.
+- Question 2, "2. a. feeling attacked by a demon on a psychedelic is not necessarily paranoia, it can be real, and it's also not bad unless you're unprepared as stated. it can be supremely empowering when you can send love and see how it fixes the situation.": recorded for Altered States Can Deepen the Therapy, when it's humanized.
+- Question 3, "3. b i fouund the therapist years later randomly and gave it a shot …": in My Journey, in your words (question 6 checks it's OK).
+- "merged.": pull request #156.
+
 ### 🟢 2026-10-10 19:37 UTC, your answers to turn 41
 
 - "they can go in, if they fit well" (your San Pedro and ayahuasca account): it stays in When the Urge to Escape Arrives. The 7g you gave stays out so it can't read as a dose to copy; say if you want it in.
-- "no, that's normal to hear voices and lose sense of reality on psychedelics (not as normal for weed tho)... but if you go manic, psychotic (by which i mean losing sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afteward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened.": the drug-history paragraph is rebuilt on it, in your words (turn 42). It replaces the guide's one-episode rule.
-- "this is not from my life: "Sometimes I'd get past a protective part and reach the child, then get pulled so far into being him that there wasn't a grown-up me around anymore." the rest is accurate and ok.": that line is out of My Journey, and the sentence after it no longer leans on it (turn 42). The other lines on the life-claims page count as yours now.
-- "agreed" (cutting the guide's "The pl/ork begins earlier, with finding or building the self." from the opening of Sometimes There Isn't a Clear Child Yet): the opening is in, without its candidate mark (turn 42).
-- "continue": done. I'm going on to From Survival to Experimental Play.
+- "no, that's normal to hear voices and lose sense of reality on psychedelics (not as normal for weed tho)... but if you go manic, psychotic …": the drug-history paragraph is built on it.
+- "this is not from my life: "Sometimes I'd get past a protective part …" the rest is accurate and ok.": that line is out. "The rest" meant the other rows of turn 41's page, which each asked about one line; I wrongly counted the next sentence as confirmed too (fixed in turn 43).
+- "agreed" (cutting "The pl/ork begins earlier, with finding or building the self." from the opening of Sometimes There Isn't a Clear Child Yet): done.
 
-### 🟢 2026-10-10 05:21 UTC, your answers to turn 39, and a correction
+### 🟢 2026-10-10 05:21 UTC
 
-- Paranoia during a rough trip is a warning sign for psychosis; reconsider the drug, the dose, mindset and setting; avoid drugs known for causing paranoia, like THC: in the drug-history paragraph, in your words.
+- Paranoia during a rough trip is a warning sign for psychosis; reconsider the drug, the dose, mindset and setting; avoid drugs known for causing paranoia, like THC: in, in your words.
 - All kinds of psychoactive drugs can mess with your sense of what's real; pick the healthiest and go slow and gentle; 5-MeO-DMT, with your guide linked: in, as your own paragraph.
-- "don't confabulate things about my life...": the invented San Pedro line is out, and the gate now takes facts about your life only from your messages and from paragraphs you wrote or confirmed (rule E159).
+- "don't confabulate things about my life...": the invented San Pedro line is out (rule E159).
 
 ## Coming up (not a question yet)
 
@@ -98,12 +110,12 @@ About a minute: open the pull request link in my message, check that its checks 
 
 ### 🔵 From Survival to Experimental Play (the next h2)
 
-In progress. Its first paragraph is in (turn 42) and is on the review page; the rest goes through the same reviews and Pangram. Nothing in it needs you yet.
+In progress: its first paragraph is in. Next: late developmental pl/ork, with safety for growing and the first phase; then telling the two selves apart without trying to erase one; the signs; the early practices.
 
 ### 🔵 Notes for when Altered States is humanized
 
+- Your answer to question 2 above decides that section's gate.
 - Your guide says "Gentle meditation or self-hypnosis can still help" in When the Urge to Escape Arrives, while Altered States offers your self-hypnosis guide only "When you're ready". Default: I make them agree with the first, and show you.
-- Questions 1 and 2 above, if they're still open then.
 
 ### 🔵 Older notes on your own paragraphs (from `OPEN-OWNER-FLAGS.md`)
 

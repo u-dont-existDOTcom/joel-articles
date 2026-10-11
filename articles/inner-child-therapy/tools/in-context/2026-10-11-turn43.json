@@ -1,0 +1,126 @@
+{
+ "title": "Turn 43: the line you never said, and your edits",
+ "meta": "Inner Child Therapy · turn 43 (your message of 2026-10-11 03:47 UTC) · saved on the lane, not merged",
+ "intro": [
+  "The My Journey line you never said is out, and your own account of finding the therapist is in its place. How it got in, and what changed so it can't happen again, is in experiments/t43-life-claims/DEBUG.md (and in my message). Your edits to When the Urge to Escape Arrives and your answers to questions 1 to 3 are in. Everything changed passed Pangram's web app on the first try, alone and in its sections, all 100% Human.",
+  "Every paragraph now has its number under its heading (P1, P2, ...), here and on the article page, and the questions page uses the same numbers. Highlighted words are new since the version you merged (pull request #156), struck words are cut.",
+  "Three new questions are on the questions page (OWNER-QUESTIONS.md, sent with this page), numbered 4 to 6."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# My Journey"
+   ],
+   "intro": [
+    "The paragraph after the San Pedro one, before the chart."
+   ],
+   "rows": [
+    {
+     "label": "Your therapist story, where the invented line was",
+     "article": "I found the therapist years later",
+     "source": [
+      "The method now has four elements"
+     ],
+     "notes": [
+      "The paragraph that was here said \"That's why I started looking for a way to have an adult there before I could reliably be that adult myself.\" It was mine (2026-09-16), and in turn 42 I wrongly recorded it as confirmed by you. It's gone, with the sentence before it.",
+      "In its place: your answer 3b, in your words, grammar only. The guide's \"bootstrap phase\" (on the left) isn't repeated here, since The Chicken-and-Egg Problem already says it as general advice. Question 6 asks whether you want the story in print, and whether you want a one-line recap of the method before the chart.",
+      "Pangram: alone 100% Human (92); My Journey 100% Human (730)."
+     ],
+     "carries": [
+      {
+       "draft": "I found the therapist years later, randomly, and gave it a shot, although I didn't think I needed it.",
+       "guide": null,
+       "note": "your answer 3b"
+      },
+      {
+       "draft": "she had me write down how many people I could fully trust as a child (lots), then how many people I could fully trust as an adult (zero)",
+       "guide": null,
+       "note": "your answer 3b"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# When the Adult Voice Feels Fake",
+    "## Start With Whatever Showed Up",
+    "### When the Urge to Escape Arrives"
+   ],
+   "intro": [
+    "Your edits and your answers to question 1. P1 and P2 are as you merged them."
+   ],
+   "rows": [
+    {
+     "label": "Your 5-MeO paragraph (your words), moved up",
+     "article": "All kinds of psychoactive drugs can mess with your sense",
+     "source": [],
+     "notes": [
+      "Unchanged, now before the drug-history paragraph, as you asked. Its first sentence (\"can mess with your sense of what's real, and that's often the point of them\") covers the voices sentence you had me cut from P4.",
+      "The paragraph that used to follow it, the mantra one (P8), now follows the new mixing paragraph. Its \"Gentle meditation or self-hypnosis is a different story\" still reads as the turn away from all the drug talk; two cold reads had no trouble with it.",
+      "Question 5: right after your \"huge doses for ego death\" in P2, \"It's all spiritual bypassing\" may now read as being about your own ayahuasca years."
+     ]
+    },
+    {
+     "label": "Your own drug history",
+     "article": "Your own drug history counts too.",
+     "source": [
+      "Your own track record with psychoactive substances matters."
+     ],
+     "notes": [
+      "The voices sentence and its weed parenthetical are gone, and so is the \"But\" that answered it.",
+      "Your answer 1a is the last sentence. Your paranoia line and THC stay. Question 4 has a reviewer's worry about 1a.",
+      "Pangram alone: 100% Human (114)."
+     ],
+     "carries": [
+      {
+       "draft": "If you can't clearly understand what happened yourself, get someone qualified to help.",
+       "guide": null,
+       "note": "your answer 1a"
+      }
+     ]
+    },
+    {
+     "label": "New: what those reactions can mean, and predispositions",
+     "article": "Any of those reactions, from mania to paranoia",
+     "source": [
+      "Your own track record with psychoactive substances matters."
+     ],
+     "notes": [
+      "The vulnerability sentence struck at the end of P4 now opens this paragraph. It names the reactions (\"from mania to paranoia\"), since a cold read couldn't tell which ones \"those\" meant, and your answer 1b follows it.",
+      "Pangram alone: 100% Human (66)."
+     ],
+     "carries": [
+      {
+       "draft": "can also point to a vulnerability in you",
+       "guide": "Treat that history as a vulnerability"
+      },
+      {
+       "draft": "And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset.",
+       "guide": null,
+       "note": "your answer 1b"
+      }
+     ]
+    },
+    {
+     "label": "New: what you mix",
+     "article": "Be careful what you mix, too",
+     "source": [
+      "Your own track record with psychoactive substances matters."
+     ],
+     "notes": [
+      "Your answer 1c, with your ayahuasca list linked (the link opens your Substack post on ayahuasca and loveyhuasca precautions).",
+      "Pangram with the paragraph before it: 100% Human (134). The h3 100% Human (726), Start With Whatever Showed Up 100% Human (2,745), When the Adult Voice Feels Fake 100% Human (3,338)."
+     ],
+     "carries": [
+      {
+       "draft": "Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this.",
+       "guide": null,
+       "note": "your answer 1c"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

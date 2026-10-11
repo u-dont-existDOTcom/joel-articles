@@ -637,3 +637,15 @@ class PrePushHookReadsCISteps(unittest.TestCase):
             wf = pathlib.Path(tmp) / 'wf.yml'
             wf.write_text('steps:\n  - run: |\n      echo a\n  - run: python3 x.py\n', encoding='utf-8')
             self.assertEqual(hook.steps(str(wf)), ['python3 x.py'])
+
+
+class ParagraphNumbers(unittest.TestCase):
+    """Joel, 2026-10-11 03:47 UTC: "Why are there no numbers on many of these paragraphs? how do i identify them?"
+    Both pages number paragraphs the same way: P1, P2, ... under each heading."""
+
+    def test_numbers_restart_at_every_heading_and_skip_comments_and_list_bodies(self):
+        sys.path.insert(0, str(TOOLS))
+        import para_numbers
+        blocks = ['# Title', 'One.', '<!-- a note -->', 'Two:', '1. first\n2. second', '## Sub', '<!-- note -->\nThree.', '> A quote.']
+        labels = [pn for _, pn in para_numbers.number_blocks(blocks)]
+        self.assertEqual(labels, [None, 'P1', None, 'P2', None, None, 'P1', 'P2'])
