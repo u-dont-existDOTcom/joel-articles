@@ -110,7 +110,7 @@ About a minute: open the pull request link in my message, check that its checks 
 
 ### 🔵 From Survival to Experimental Play (the next h2)
 
-In progress: its first paragraph is in. Next: late developmental pl/ork, with safety for growing and the first phase; then telling the two selves apart without trying to erase one; the signs; the early practices.
+In progress: P1 and P2 are in (P2 this turn, after your "continue": the pl/ork you get to do late, and the first phase; it says the line you agreed to cut from the h1's opening). Next: telling the two selves apart without trying to erase one; the signs (without the one about knowing what you want through other people's cues, which P2 now says); the early practices. No question for you yet.
 
 ### 🔵 Notes for when Altered States is humanized
 
