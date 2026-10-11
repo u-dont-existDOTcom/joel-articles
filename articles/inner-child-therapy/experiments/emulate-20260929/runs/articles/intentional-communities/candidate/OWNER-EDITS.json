@@ -636,6 +636,26 @@
     "Federation Without Building Another State",
     "Improve Resilience"
    ]
+  },
+  {
+   "id": "s11-joel-20261011-0257",
+   "what": "Section 11: Joel's answers of 2026-10-11 02:57 UTC to the seven questions on OWNER-QUESTIONS.md. 1 to 3 A (P8 \"even just general reputation\", P15 \"a lot of power\" and \"things … it … the gatekeepers\" kept). 5 A: P18 says the prerequisites are a ceremony rule the community holds, separate from the personal principles above (P18z). 6 A: P19 says why diagnosing dissent is different from the daily signs (P19t). 7: his paragraph on land and admission goes in after P10 as P10j, with obvious typos fixed only (capitals, \"formals\", \"it also doesn't\", the ellipsis) and his straight apostrophes and quotes kept. 4 A waits for his words for \"willing to be seen\". [applied: section 11 v10, 2026-10-11]",
+   "status": "applied",
+   "joel": "1: a 2a 3a 4a 5a 6a 7 so this is not just a problem for me, it's a problem in every community, but especially in communities which form naturally over time as i'm describing may happen in my case. in such cases, there's no formal community and no formals rules until people decide to come together to make them. it doesn't make sense to do that at first, if i'm the only one there and i don't know who else will be there that i could trust. if there's one other person who comes to visit, also doesn't make sense, so there's a critical mass point at which people decide \"we were just living together like friends, but now we want to formalize the community\"... if i could find a group of people and join them right now, this problem wouldn't exist. i haven't found them yet",
+   "must_contain_exact": [
+    "So this is not just a problem for me, it's a problem in every community, but especially in communities which form naturally over time as I'm describing may happen in my case.",
+    "In such cases, there's no formal community and no formal rules until people decide to come together to make them.",
+    "It doesn't make sense to do that at first, if I'm the only one there and I don't know who else will be there that I could trust.",
+    "If there's one other person who comes to visit, it also doesn't make sense, so there's a critical mass point at which people decide \"we were just living together like friends, but now we want to formalize the community\".",
+    "If I could find a group of people and join them right now, this problem wouldn't exist.",
+    "I haven't found them yet."
+   ],
+   "must_contain": [
+    "even just general reputation",
+    "a lot of power in the hands of the gatekeepers",
+    "a ceremony rule the community holds",
+    "different from the daily signs above"
+   ]
   }
  ]
 }

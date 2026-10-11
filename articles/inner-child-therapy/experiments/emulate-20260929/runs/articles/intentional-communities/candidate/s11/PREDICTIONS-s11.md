@@ -443,3 +443,80 @@ Batch 227g (written 18:01 UTC on 2026-10-10 by `date -u`, before the call; `v227
 Pass or no pass, counted strictly (a pass is "Human Written", 0% AI; "Mostly Human" isn't): **171 of 233 calls right (73%)**. Saying AI every time would have been right 44% of the time, and saying Human every time 56%. Counting the seven "Mostly Human" results as passes: 172 of 233 (74%). Up to v5 (201g to 221g) 113 of 153 (74%); in the gate rounds' fixes (222g to 227g) 58 of 80 (72%), where always-AI would have been 35%. Called Human: 112 of 155 right; called AI: 57 of 76. Two calls were "Mixed" (both whole sections, 222g-S11v6p and 225g-S11v9b), which E86 says not to make; both came out no-pass.
 
 What I missed most in the fixes: a reworded paragraph that passes alone failing beside its neighbor. P15 passed alone in 13 of its 16 wordings. Beside P14 it passed only in the seven that kept one clause, "when … are required as pre-reqs for people to get medicine, it can put … power in the hands of the gatekeepers" (P15g, P15m, P15n, P15u, P15v, P15w, P15x), and every wording that changed that clause read AI there (P15k, P15o, P15p, P15q, P15r, P15y, P15z, P15ad, P15ae, P15ag). I called those pairs from how loose the new phrase was; the results followed whether the clause was kept.
+
+## Joel's answers of 2026-10-11 02:57 UTC
+
+He answered the seven questions (`../OWNER-QUESTIONS.md`): 1 to 3 A (keep "even just general reputation", "a lot of power", and "things … it … the gatekeepers"); 4 A (introduce "willing to be seen" where the principles are listed: the article and his Hearthwork article never define it, so the wording waits for him); 5 A (say the prerequisite is a ceremony rule the community holds, separate from P16's personal principles); 6 A (say why diagnosing dissent is different from the other signs); 7, his own paragraph on land and admission: no formal community and no formal rules until people decide to formalize, at a critical-mass point. His paragraph goes in after P10 as P10j, with obvious typos fixed only ("formals", capitals, "it also doesn't", the ellipsis), and his straight apostrophes and quotes kept. Web checks run without asking (his standing OK, restated today).
+
+Batch 228g (written 03:03 UTC on 2026-10-11 by `date -u`, before the call; `v228.json`, parts in `fix-v20-parts.json`): his P10j alone and in the runs on both sides; two P16s with the ceremony rule (P16q "The six months of peer counseling before medicine is something else: a rule the community holds for its ceremonies."; P16r "The peer counseling you do before medicine is different, that's a rule the community holds for its ceremonies.", its "not one of these principles" tail cut after the linter's O9); two P19s with why this sign is different (P19r "This sign is different from the others, because it takes away the way you'd raise any of them."; P19s "…, which is why it's different from the other signs: once your disagreement gets diagnosed, you can't bring up any of the others either."); the section two ways. Linter: REVIEW, no FAIL.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 228g-P10j (141) | Human | his own run-ons ("it's a problem in every community, but especially…", "it also doesn't make sense, so there's a critical mass point") and the quoted thought | **Human (100%)**, 03:04:28 |
+| 228g-P9kP10aP10j (220) | Human | P9k passes alone; "And ask them about me"; his paragraph | **Human (100%)**, 03:04:32 |
+| 228g-P10jP11kP12f (227) | Human | his paragraph, then the fragments ("Sense that disagreement is failure.") that passed after P9k | **Human (100%)**, 03:04:38 |
+| 228g-P15xP16q (110) | AI | "is something else: a rule the community holds" is a tidy colon reveal | AI (100%), 03:04:46 |
+| 228g-P15xP16r (109) | Human | "is different, that's a rule" is a loose comma splice | AI (100%), 03:04:51 |
+| 228g-P16qP17eP18x (138) | AI | the same colon reveal | AI (100%), 03:04:56 |
+| 228g-P16rP17eP18x (137) | Human | the same splice | AI (100%), 03:05:00 |
+| 228g-P19r (55) | Human | P19q passes; one added sentence with "the way you'd raise any of them" | AI (100%), 03:05:05 |
+| 228g-P19s (60) | AI | "which is why it's different from the other signs:" then a colon reveal | **Human (100%)**, 03:05:14 |
+| 228g-P19rP20q (147) | Human | as P19r | **Human (100%)**, 03:05:19 |
+| 228g-P19sP20q (152) | AI | as P19s | **Human (100%)**, 03:05:23 |
+| 228g-S11v12a (1,160) | Human | the section has held at 100% through every change that passed its pairs | **Human (100%, 1,194 words scanned)**, 03:05:28 |
+| 228g-S11v12b (1,164) | Human | the same | **Human (100%, 1,200 words scanned)**, 03:05:33 |
+
+228g (submitted 03:04:28 to 03:05:33 UTC): mine 8 of 13. Joel's P10j passes alone and in both runs; the section passes both ways (100%, 1,194 and 1,200 words scanned). P19s passes alone and beside P20q, so P19s is the P19 (P19r reads AI alone, though it passes beside P20q). Neither P16 passes beside P15x or in the run to P18x, so P16 needs another wording. My colon-reveal guess held for P16q and not for P19s.
+
+Batch 229g (written 03:07 UTC on 2026-10-11 by `date -u`, before the call; `v229.json`, parts in `fix-v21-parts.json`; Emulate round f on the laptop, `emulate-runs/community-s11f`, samples in `emu/s11f-emu-all.json`): three P16s built on Emulate's f1-B ("However the six months of peer counseling before being able to do medicine is different:"), its claim fixed ("something the community needs to have power over" is stronger than Joel's 5A, so "a rule the community holds for its ceremonies"). P16s keeps P16p's first two sentences; P16t also takes f1-B's "The first part is about what I commit to …, not power the community has over me" (the O9 "not Y" tail carries the published contrast); P16v is mine ("is different, though. That one is a rule …"). Each beside P15x and in the run to P18x; the section with P16s and with P16v (P10j and P19s in both). Linter: REVIEW, no FAIL.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 229g-P15xP16s (116) | Human | Emulate's "However the six months … before being able to do medicine is different:" without the comma after "However" | AI (100%), 03:08:12 |
+| 229g-P16sP17eP18x (144) | Human | the same | AI (100%), 03:08:16 |
+| 229g-P15xP16t (118) | Human | Emulate's "The first part is about what I commit to" | AI (100%), 03:08:22 |
+| 229g-P16tP17eP18x (146) | Human | the same | AI (100%), 03:08:32 |
+| 229g-P15xP16v (117) | AI | my "is different, though. That one is a rule …", as tidy as P16r, which failed | AI (100%), 03:08:36 |
+| 229g-P16vP17eP18x (145) | AI | the same | AI (100%), 03:08:41 |
+| 229g-S11v13s (1,171) | Human | the section passed with both failing P16s | **Human (100%, 1,206 words scanned)**, 03:08:46 |
+| 229g-S11v13v (1,172) | Human | the same | **Human (100%, 1,207 words scanned)**, 03:08:50 |
+
+229g (submitted 03:08:12 to 03:08:50 UTC): mine 4 of 8. All three P16s read AI beside P15x and in the run to P18x, Emulate-based or not; the section passes with either (100%). Five P16 wordings with the ceremony sentence have now failed.
+
+Batch 230g (written 03:09 UTC on 2026-10-11 by `date -u`, before the call; `v230.json`, parts in `fix-v22-parts.json`): the ceremony sentence out of P16 (P16p stays as it passed): as its own short paragraph after P16p (P16n "The six months of peer counseling before medicine is a different thing. It's a rule the community holds for its ceremonies."; P16n2 "The peer counseling before medicine is another matter. That's a rule the community holds for its ceremonies."), or joined to P18's first sentence (P18y "Nobody has to take medicine, and the six months of peer counseling before it is a rule the community holds for its ceremonies, not one of the principles above."). Each in its pairs and runs, and the section three ways. Linter: REVIEW, no FAIL.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 230g-P15xP16pP16n (112) | Human | two short plain sentences after the P15x and P16p that passed together | AI (100%), 03:10:09 |
+| 230g-P16pP16nP17eP18x (140) | Human | the same | AI (100%), 03:10:13 |
+| 230g-P15xP16pP16n2 (108) | Human | "is another matter. That's a rule" | AI (100%), 03:10:18 |
+| 230g-P16pP16n2P17eP18x (136) | Human | the same | AI (100%), 03:10:27 |
+| 230g-P18y (76) | AI | one long joined sentence with a "not one of the principles above" tail | **Human (100%)**, 03:10:31 |
+| 230g-P17eP18y (120) | AI | the same | **Human (100%)**, 03:10:36 |
+| 230g-P16pP17eP18y (143) | AI | the same | Mixed (74% AI), 03:10:40: P17e's second sentence to P18y's end (111 words) |
+| 230g-S11v14n (1,167) | Human | the section held through every change | **Human (100%, 1,203 words scanned)**, 03:10:45 |
+| 230g-S11v14n2 (1,163) | Human | the same | Human (96%, "Mostly Human", 1,199 words scanned), 03:10:56: one AI window from P15x's last words to P16n2 (43 words) |
+| 230g-S11v14y (1,170) | Human | the same | **Human (100%, 1,205 words scanned)**, 03:11:00 |
+
+230g (submitted 03:10:09 to 03:11:00 UTC): mine 3 of 10. As its own paragraph after P16p the ceremony sentence reads AI both ways. Joined to P18's first sentence it passes: P18y alone and beside P17e (100%), and the section with it reads 100% Human (1,205 words scanned). The run P16p to P18y reads 74% AI from P17e's second sentence on; runs are diagnostics, and P16p passes beside P15x (224g), P17e beside P18y. **Section 11 v9** (`candidate-v9-keys.json`, `section-v9.md`): v8 with Joel's P10j after P10a, P18y (his 5A) and P19s (his 6A). Every paragraph passes alone or beside a neighbor that passes alone; the section 100% Human (S11v14y). Next: the gate on the three changes.
+
+The gate on v9 (`review-a4/`): trace D1 marks P18y's and P19s's new sentences as ADDED (they are Joel's 5A and 6A) and finds the rest of both paragraphs equivalent, but says "the other signs" in P19s has nothing to point back to (the paragraph before lists principles); the cold read (a5) says the same. The stance check (a4) finds one conflict: P18y's "the six months of peer counseling … not one of the principles above" narrows the prerequisite (the essay puts reparenting, somatic capacity and peer counseling first) and contradicts "My Ceremony Principles", where the medicine-first rule is one of his principles. Its other findings go to Joel: a published contradiction between P16's boundary and the membership screening in two later sections, and three questions on his P10j.
+
+Batch 231g (written 04:06 UTC on 2026-10-11 by `date -u`, before the call; `v231.json`, parts in `fix-v23-parts.json`): P18's added clause without the narrowing (P18z "the prerequisites for it are a ceremony rule the community holds, separate from the personal principles above"; P18z2 "the practice that has to come before it is a rule the community holds for its ceremonies, separate from the personal principles above"), and P19's with a referent (P19t "different from the daily signs above"; P19u "not like the daily signs I listed before … any of those"). Linter: REVIEW, no FAIL.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 231g-P18z (70) | Human | P18y passed alone; "the prerequisites for it are a ceremony rule the community holds" is plainer | **Human (100%)**, 04:06:52 |
+| 231g-P17eP18z (114) | Human | P17e beside P18y passed | **Human (100%)**, 04:06:55 |
+| 231g-P18z2 (76) | Human | "the practice that has to come before it" | **Human (100%)**, 04:07:00 |
+| 231g-P17eP18z2 (120) | Human | the same | AI (100%), 04:07:08 |
+| 231g-P19t (60) | Human | P19s passed alone with the same frame; "the daily signs above" | **Human (100%)**, 04:07:13 |
+| 231g-P19tP20q (152) | Human | the same | **Human (100%)**, 04:07:18 |
+| 231g-P19u (62) | Human | "not like the daily signs I listed before" | **Human (100%)**, 04:07:22 |
+| 231g-P19uP20q (154) | Human | the same | **Human (100%)**, 04:07:28 |
+| 231g-S11v15a (1,164) | Human | the section held through every change | **Human (100%, 1,199 words scanned)**, 04:07:38 |
+| 231g-S11v15b (1,172) | Human | the same | **Human (100%, 1,207 words scanned)**, 04:07:43 |
+
+231g (submitted 04:06:52 to 04:07:43 UTC): mine 9 of 10. Both P19s and P18z pass alone and beside their neighbors (P18z2 fails beside P17e). **Section 11 v10** (`candidate-v10-keys.json`, `section-v10.md`): v9 with P18z ("the prerequisites for it are a ceremony rule the community holds, separate from the personal principles above") and P19t ("different from the daily signs above"). The section reads 100% Human (S11v15a, 1,199 words scanned); every paragraph passes alone or beside a neighbor that passes alone (P16p beside P15x, 224g; P17e beside P18z; P18z, P19t and P20q alone; P10j alone, P10a in the run from P9k, P11k and P12f in the run from P10j).
+
+Score for 228g to 231g (Joel's answers of 2026-10-11), counted strictly: 24 of 41 calls right (59%); saying AI every time would have been right 44%. My misses were again pairs: P16 with the ceremony sentence read AI beside P15 in all seven wordings, the plain ones I called Human included, and P19r failed alone while P19s, with the colon I called AI, passed.
