@@ -1,0 +1,62 @@
+{
+ "turn": 43,
+ "what": "From Survival to Experimental Play P2 (writer 2's draft with the stance check's fix), its h2 and its h1, Pangram web app (dashboard, version 4.0)",
+ "results": [
+  {
+   "key": "t43_S2",
+   "sha256_12": "5662e10f0064",
+   "history_id": 15570668,
+   "utc": "2026-10-11T05:23:47Z",
+   "headline": "Human Written",
+   "words": 76,
+   "fraction_ai": 0,
+   "avg_ai_likelihood": 0.0196,
+   "windows": [
+    {
+     "label": "Human",
+     "conf": "Low",
+     "words": 76
+    }
+   ]
+  },
+  {
+   "key": "t43_svh2",
+   "sha256_12": "3cba8bf8b16d",
+   "history_id": 15570696,
+   "utc": "2026-10-11T05:24:22Z",
+   "headline": "Human Written",
+   "words": 197,
+   "fraction_ai": 0,
+   "avg_ai_likelihood": 0.2375,
+   "windows": [
+    {
+     "label": "Human",
+     "conf": "Medium",
+     "words": 197
+    }
+   ]
+  },
+  {
+   "key": "t43_svh1",
+   "sha256_12": "396354203fd4",
+   "history_id": 15570722,
+   "utc": "2026-10-11T05:24:49Z",
+   "headline": "Human Written",
+   "words": 357,
+   "fraction_ai": 0,
+   "avg_ai_likelihood": 0.1834,
+   "windows": [
+    {
+     "label": "Human",
+     "conf": "High",
+     "words": 357
+    }
+   ]
+  }
+ ],
+ "texts": {
+  "t43_S2": "Some of this is developmental pl/ork you get to do late: making it safe enough for your curiosity and experimenting to finally grow, and your preferences too. It might feel wrong somehow to like something before you've checked anyone's face. You can usually reparent and build who you are at the same time, but if your little one isn't easy to feel yet, making it safe like that is the first phase.",
+  "t43_svh2": "## From Survival to Experimental Play\n\nIf your childhood meant avoiding pain and keeping the people you needed close, your attention got used up reading danger (was that sigh about me?) and meeting their expectations, and when curiosity or mistakes got you punished, or it felt like they loved you less, you got better at the part. That left much less room for experiments that show you what you like when nobody's grading you. People grow into who they are by trying things on and then changing their minds, from what they wear down to the ideas and roles they take up, like a teenager who starts spelling her name with an \"i\" at the end and later changes it back.\n\nSome of this is developmental pl/ork you get to do late: making it safe enough for your curiosity and experimenting to finally grow, and your preferences too. It might feel wrong somehow to like something before you've checked anyone's face. You can usually reparent and build who you are at the same time, but if your little one isn't easy to feel yet, making it safe like that is the first phase.",
+  "t43_svh1": "# Sometimes There Isn't a Clear Child Yet\n\nReparenting assumes there's a clear little one in there to love, and for a lot of people there is. But if you grew up somewhere you only belonged as long as you played somebody else, like a really controlling family or a strict church, the real one may never have had room to form. All this stuff about your little one could have left you wondering who I'm even talking about.\n\nMaybe you started playing that part so early, and it took over so completely, that \"What do I believe?\" or \"What do I want?\" has no clear answer of your own. They sound like such easy questions, too. Back then, asking might have gotten you in trouble, or laughed at. Or there was just no way to ask. That can make \"love yourself\" feel pretty empty (love what, when the part you've been playing doesn't feel real?).\n\n## From Survival to Experimental Play\n\nIf your childhood meant avoiding pain and keeping the people you needed close, your attention got used up reading danger (was that sigh about me?) and meeting their expectations, and when curiosity or mistakes got you punished, or it felt like they loved you less, you got better at the part. That left much less room for experiments that show you what you like when nobody's grading you. People grow into who they are by trying things on and then changing their minds, from what they wear down to the ideas and roles they take up, like a teenager who starts spelling her name with an \"i\" at the end and later changes it back.\n\nSome of this is developmental pl/ork you get to do late: making it safe enough for your curiosity and experimenting to finally grow, and your preferences too. It might feel wrong somehow to like something before you've checked anyone's face. You can usually reparent and build who you are at the same time, but if your little one isn't easy to feel yet, making it safe like that is the first phase."
+ }
+}

@@ -7,6 +7,10 @@ that's good make that durable"; and 17:09 UTC, on a list of changes he couldn't 
 "you should have used the side by side comparison script". It carries his standing rule to
 show humanization work in context, with the source next to each paragraph.
 
+Every article paragraph on the page carries its number under its heading (P1, P2, ...), from
+para_numbers.py, the same numbers as the article page (Joel, 2026-10-11 03:47 UTC: "Why are there
+no numbers on many of these paragraphs? how do i identify them?").
+
 Usage:
   python3 render_in_context.py MAP.json OUT.html --article ARTICLE.md --source SOURCE
           [--since REV | --against-source] [--source-label TEXT]
@@ -92,6 +96,8 @@ guide paragraph as its source, so drafts that carry the whole paragraph looked l
     checked against the row and the source.
 """
 import argparse, difflib, html, json, math, pathlib, re, subprocess, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import para_numbers
 
 QUOTES = str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"'})
 LINK = re.compile(r'\[([^\]]*)\]\(([^)]*)\)')
@@ -121,6 +127,7 @@ del{color:var(--mute);text-decoration-thickness:1px}
 .ctx{background:transparent;border:1px dashed var(--line);border-radius:10px;padding:10px 16px;margin:10px 0;color:var(--mute);font-size:15px;overflow-wrap:anywhere}
 .ctx p{margin:.35em 0} .ctx .h{font:600 15px/1.3 system-ui,sans-serif;color:var(--fg)}
 .where{font:13px/1.4 system-ui,sans-serif;color:var(--mute);margin:4px 0 0}
+.pn{font:600 12px/1 system-ui,sans-serif;color:var(--mute);margin-right:4px}
 """
 
 
@@ -421,7 +428,8 @@ def ctx_html(cur, idxs, label):
         if m:
             out.append('<p class="h">%s %s</p>' % ('#' * len(m.group(1)), html.escape(LINK.sub(r'\1', m.group(2)).replace('*', ''))))
         else:
-            out.append('<p>%s</p>' % html.escape(plain(cur[i])[0]).replace(BR, '<br>'))
+            pn = para_numbers.label_for(cur, i)
+            out.append('<p>%s%s</p>' % ('<b class="pn">%s</b> ' % pn if pn else '', html.escape(plain(cur[i])[0]).replace(BR, '<br>')))
     out.append('</div>')
     return ''.join(out)
 
@@ -578,8 +586,17 @@ def main():
             if links:
                 notes.append('<p class="meta">Links: %s</p>' % ', '.join(
                     '%s → <a href="%s">%s</a>' % (html.escape(t.replace('*', '')), html.escape(u), html.escape(u)) for t, u in links))
+            lab = r.get('label', '')
+            if p is not None and p == int(p) and 'article' in r:
+                pn = para_numbers.label_for(cur, int(p))
+                if pn and not re.match(r'%s\b' % pn, lab):
+                    lab = '%s · %s' % (pn, lab)
+            elif p is not None and p != int(p):
+                pn = next((para_numbers.label_for(cur, j) for j in range(int(p), -1, -1)
+                           if para_numbers.label_for(cur, j) or HEAD.match(cur[j].strip())), None)
+                lab = '%s · %s' % ('after %s' % pn if pn else 'first under its heading', lab)
             body.append('<div class="grid"><div class="card">%s</div><div class="card"><p class="lbl">%s</p><p>%s</p>%s</div></div>'
-                        % (source_cell(items, sparas, a.source_label), html.escape(r.get('label', '')), shown, ''.join(notes)))
+                        % (source_cell(items, sparas, a.source_label), html.escape(lab), shown, ''.join(notes)))
             next_p = placed[ri + 1] if ri + 1 < len(placed) else None
             if p is not None and not adjacent(p, next_p):
                 ai_ = [i for i in after_idxs(cur, p, a.context) if i not in seen_idx and (next_p is None or next_p <= p or i < next_p)]

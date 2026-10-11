@@ -556,3 +556,38 @@ His five answers (verbatim in `../OWNER-EDITS.json`): "they can go in, if they f
 1. Joel's answers on `../OWNER-QUESTIONS.md`.
 2. His merge of this turn's request after he's seen the pages.
 3. The rest of From Survival to Experimental Play: late developmental pl/ork, safety for growing and the first phase, and "can usually proceed together" (one paragraph, `t42-g2` and the new part of `t42-g5`); the curious-or-erase check; the signs; the early practices; then the h2 check.
+
+## Turn 43 (2026-10-11, from 03:47 UTC): the confabulated My Journey line, paragraph numbers, Joel's edits and answers
+
+Joel merged #156 and wrote: "My Journey, you confabulated this: "That's why I started looking for a way to have an adult there before I could reliably be that adult myself." debug that, stoop confabulating my life story. i didn't say that. it was general advice as per the guide." He also asked why many paragraphs have no numbers, gave edits to the urge section, and answered the questions page.
+
+- **The debug** (`t43-life-claims/DEBUG.md`, E160): I wrote the sentence on 2026-09-16 from the guide's bootstrap phase. Turn 41's sweep caught it, but the page put it in one row with the grown-up-me line and explained only that one; he rejected the row by quoting its first sentence, and in turn 42 I recorded his "the rest is accurate and ok" as confirming the second. The reviews then trusted my record. The gate, the grounding prompt and the writers' brief now say an answer confirms only what it names, each life claim gets its own question, and my reading of an answer never counts as his words. The ledger entry is corrected. The other lines he confirmed each had their own row asking "Is it true?", so they stand.
+- **The article:** the line is out of My Journey, and his own account of finding the therapist is there instead, in his words. The urge section has his three edits (the weed parenthetical cut, his 5-MeO paragraph moved up, the voices sentence gone) and his answers to question 1.
+- **Paragraph numbers:** both pages now number every paragraph under its heading (`tools/humanization/para_numbers.py`), and the questions page names paragraphs that way.
+- **Pangram 4.0, the dashboard, try 1 each:** drug history 100% Human (114), the next paragraph 100% Human (66), the help and mixing paragraphs 100% Human (134), the therapist story 100% Human (92); the urge h3 100% Human (726); Start With Whatever Showed Up 100% Human (2,745); When the Adult Voice Feels Fake 100% Human (3,338); My Journey 100% Human (730). Predictions 8 of 8.
+
+- **Continue: From Survival to Experimental Play P2** (`t43-survival/REVIEWS.md`): the pl/ork you get to do late, making it safe enough, usually alongside reparenting, and the first phase when your little one isn't easy to feel yet. With P1 it says the line Joel agreed to cut from the h1's opening. All three writers had turned "pl/ork" into "play/work" or "play": the writer prompt didn't say it's his word. It's restored, and the writer prompts now say so (E161). Writer 2's draft, with the stance check's fix ("the first phase" for "the first phase of the work"): alone 100% Human (76), first try; the h2 100% Human (197; with P1 alone it read 100% AI); the h1 100% Human (357). Predictions 2 of 3 (the h2 passed where I expected AI).
+
+### Next
+
+1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 4 to 6).
+2. His merge of this turn's request.
+3. The rest of From Survival to Experimental Play: the curious-or-erase check, the signs (without the cues sign, which P2 says), the practices.
+
+## Turn 44 (2026-10-11, from 21:10 UTC): Joel's answers to questions 4 to 6, images for reviewers
+
+Joel answered questions 4 to 6, wrote "i merged, continue" (the open pull request was still open; he had merged another chat's #157), and asked what I think of the recap before the chart.
+
+- **When the Urge to Escape Arrives** is 11 paragraphs: P2 rebuilt on his San Pedro answer, P3 his ayahuasca account (one sentence is my reading, question 7), P5 his 4a line, P6 and P7 his THH and male iboga stories as warnings (no amounts, no recipe), P8 his caution-sign answer, P10 his acacia confusa line. My Journey names Daja, and its chart line says what the chart maps. Record: `t44-answers/REVIEWS.md`.
+- **Three review rounds.** The stance check caught two overreaches of mine: a 4a wording that went past his position, and "a little connection to divinity" moving his "a little" to what the ayahuasca gave him. Both fixed.
+- **Lessons:** E162 (a warning against a combination isn't a recipe), E163 (a question's options stay inside his stance), E164 (every image is in the article, described, so reviewers see it: `tools/humanization/article_images.py`). The ledger's span can now hold a ban for one passage.
+- **Pangram 4.0, the dashboard, first try each, all 100% Human:** P2 (150, then 149 with its San Pedro sentence restored), P3 (86), P5 (133), P6 (90), P7 (82), P8 (126), P10 (61); My Journey P9 (93), P9 with the chart line (110); the urge h3 (1,119); Start With Whatever Showed Up (3,138); When the Adult Voice Feels Fake (3,731); My Journey (735). Predictions 17 of 17.
+
+- **Continue: From Survival to Experimental Play P3** (`t44-survival/REVIEWS.md`): telling the part you've been playing apart from the self that didn't get much practice, without trying to erase one. Writer 1 of three, clean on every review; alone 100% Human (86), the h2 100% Human (283), the h1 100% Human (443).
+- Main's #159 (Joel's 18:35 lessons from the community lane) is merged into the lane; its built section cold read now shows the image notes too.
+
+### Next
+
+1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 7 to 10; each defaults to leaving the text).
+2. His merge of the open pull request (turns 43 and 44).
+3. From Survival to Experimental Play: the signs (without the cues sign), then the early practices.
