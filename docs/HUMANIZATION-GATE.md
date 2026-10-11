@@ -145,6 +145,16 @@ Joel: "so it seems you need help with understanding what looks human vs what loo
 - **A pass that carries several tells is fragile.** P34m passed with "the boring problem", the "nicer logo" quip, a "but also" pair and a list; without the one word "connect," it read 100% AI (191g). After any edit to such a paragraph, expect AI until it's checked.
 - **Score every section.** Each section's predictions file ends with its score, next to what always saying AI would have scored.
 
+## What the tells coverage audit of 2026-10-11 taught (Joel, 2026-10-11)
+
+Joel: "you mention that boring and quietly were in the tells list, but never checked? why is that? can we debug that? any time something is not executing as intended it should be debugged." The audit is `tools/humanization/TELLS-COVERAGE-20261011.md`.
+
+- **The numbers.** The five documents (AGENTS.md, SKILL.md, this gate and the two lists in `tools/humanization/`) name 131 tells. 82 of them are mechanical: a pattern, a word list or a count can find them. The linter checked 51 of the 82, and two of those 51 (spellings, O15) run only with pyspellchecker. It missed 31. The biggest group was first-person staging: "I care about…", "I'd want to see…", "that tells me…", three of AGENTS.md's four significance-staging forms, and the fourth in the curly spelling AGENTS.md writes first.
+- **Four matchers missed spellings of the tells they were written for.** B2, B5, E41 and E138 matched only a straight apostrophe, so "That’s where…" came back CLEAR. B11's "That's not X. It's Y." looked inside one sentence after the split had already cut it in two, so it could never match. O2 needed "Fine," with a comma, so "Fine. They're nice boots…" and "Sure. But…" got nothing. The acronym flag read capitals only, so "lol" got nothing.
+- **How "boring" got through.** The rule was written down, and O12 flagged "boring". v1 kept it anyway, as the published wording. "Quietly" wasn't in O12 at all until 2026-10-10. A REVIEW on published wording gets the same disposition as one on new wording (2026-10-10, above). And a tell in the documents with no check, or a check that can't fire, is a bug to fix, not a gap to note.
+- **What changed.** The rules match the text with straight quotes, and a flag still quotes his characters. B11 reads each sentence with the next one, O2 reads across the split, and the acronym flag (O37 now) reads any case and fails "lol". E125 counts a "who is … who is … or who is" list, and O20's "I'd like" works. The 31 missed tells have checks, O22 to O36. Every tell has an entry in `tools/humanization/tells_registry.json`: its quotes, and for a mechanical one its rule and an example. `tests/test_tells_registry.py` checks each quote against its file and runs each example through the linter. The rule for later is at the end of "What the linter checks" below.
+- **A new check runs on real text before it goes in.** On the calibration texts the first versions flagged "your little one" 38 times (O30; it's the Inner Child article's name for the inner child), "I care about you" inside a quote (O22), and "that isn't a failure, though…", which only starts like "That's not X. It's Y." (B11, a FAIL). Each was narrowed, and the cases are tests now. On community section 11 v10 the new checks flag five "even" or "actually" (O25), three question runs (O29) and "ability to" four times in one list (O30).
+
 ## Every correction teaches the system (Joel, 2026-10-01)
 
 Joel, 02:40: "see how you could have done that better without my telling you (and in general any time i correct you, you should be seeing how to do it better without me)". So each correction gets, in the same turn (E94):
@@ -428,6 +438,9 @@ These go into every writer and reviewer prompt (`tools/humanization/reviewer/own
   - the "doesn't get to decide" family with a subject that isn't a person (O1; scoped 2026-10-07 15:44: "the weather doesn't get to decide" fails, "your dad doesn't get to decide" isn't flagged, an unclear subject is a REVIEW);
   - an "and … and … and" list, three repeats of the same "and" or "or" in one stretch without punctuation (O14, Joel 2026-10-07: "that looks like emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax");
   - two or more lists of three in one paragraph (E125, Joel 2026-10-03: "P! failed b ecause it has 2 lists of 3"). Fix one first: drop the item that matters least, or if every item is needed, split it into sentences the way he did (E126). On the calibration corpus, two in one paragraph were in 12 of the 77 single paragraphs that failed and 5 of the 96 that passed;
+  - "Fine," "Good," "Great" or "Sure" as a clause or a sentence of its own, and "…, sure. But" (O2; Joel 2026-09-28: "i told you to stop saying 'Fine, Good, Great' as clauses before");
+  - "That's not X. It's Y." and its cousins across two sentences ("The point is not X. The point is Y."; B11, one of his tics, read across the sentence split since 2026-10-11);
+  - a pointer emoji, 😉, or an emoji that isn't on the allowlist in `tools/humanization/EMOJI-LIST.md` (O26, 2026-10-11), and "lol" (O37);
 - **REVIEW** (flags for the tell ledger):
   - a negation in a heading (H1), and a pointer word ("This", "It", "The other") opening the first paragraph under a heading (O10, 2026-10-06);
   - a "not Y" tail on a finished claim (", not just escaping society."; O9, Joel 2026-10-03: "it always wants to add a 'not Y' part"), and literal smuggling (O8);
@@ -456,9 +469,22 @@ These go into every writer and reviewer prompt (`tools/humanization/reviewer/own
   - the writer's own impulse ("my first guess", "I'd probably want to", "I'd be tempted to"): check the next sentence doesn't take it back (E138);
   - second person above 6 per 100 (a review note only since 2026-09-26: density didn't separate Pangram results);
   - with `--source`: the draft follows the source's order (D9). That's a note, not a failure. Organization is fine when the prose notices things (T13); since 2026-09-26 this is no longer a hard fail.
+  - since 2026-10-11, the tells the linter had missed (`tools/humanization/TELLS-COVERAGE-20261011.md`; the linter's docstring gives each one's source):
+    - first-person staging: "I care about", "I'd want to see", "that tells me", "That's where X matters to me", "This is one reason I want", "The version I want is", "What matters to me is" (O22; words in quotes are left out);
+    - research notes told as narration: "I had heard", "I checked it", "the check I did" (O23);
+    - stock lines: "I see the need to", "It's also important to", "One thing to notice about" (O24);
+    - "even" and "actually", with the count (O25; not "even if", and not an "Even" that opens a sentence);
+    - rough edges in my text: two spaces in a row, or a paragraph with no period at the end (O27; never on `--owner` lines);
+    - "It's one thing to X. It's another to Y" (O28), three or more questions in a row (O29), and a phrase said three or more times in one paragraph, his and mine counted together (O30);
+    - two parallel "When…, don't…" lines (O31), and "is a kind of X, but it's not the whole thing" (O32);
+    - "Nope." and "Aww, buddy." (O33), "I wouldn't call that X" (O34), "with or without X" (O35), and a "but also" pair (O36);
+    - a list whose items each start with "who is" counts for E125, and the chat-acronym flag (O37) reads any case.
 - **Not checked, on purpose:** phrases shared with failed drafts. Reuse isn't a tell by itself (see B10).
+- **Curly quotes (2026-10-11).** Every rule reads ’ ‘ “ ” as straight quotes, and a flag still quotes the sentence the way it was written.
 
 The linter covers a handful of mechanical tells. It is not the tell ledger, and a CLEAR never skips step 6.
+
+**Every tell has an entry (2026-10-11).** A tell added to AGENTS.md, SKILL.md, the gate, or the two lists in `tools/humanization/` gets an entry in `tools/humanization/tells_registry.json` in the same change. A mechanical one also gets a linter rule and an example, and the registry test runs it (`tests/test_tells_registry.py`).
 
 ## Calibration (2026-09-25, rerun 2026-09-26 after the fixes, extended the same day with the one-paragraph rounds and the Borrow Love h2 body)
 

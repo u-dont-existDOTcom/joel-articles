@@ -44,12 +44,75 @@ to a list (AGENTS.md, "Checks that judge text"; UDA's pattern-matching fit check
 O6 reads the grammar when spaCy (en_core_web_sm) and NLTK's WordNet are installed (Joel, 2026-10-07 23:22: a list of
 abstract nouns "sounds brittle... abstract nouns are a real vast open-ended list"); otherwise it falls back to its word
 list and says so in the report.
+
+2026-10-11, the tells coverage audit (tools/humanization/TELLS-COVERAGE-20261011.md). Joel: "you mention that boring and
+quietly were in the tells list, but never checked? why is that? can we debug that? any time something is not executing as
+intended it should be debugged." The five documents (AGENTS.md, SKILL.md, docs/HUMANIZATION-GATE.md and the two lists in
+tools/humanization/) name 131 tells, 82 of them mechanical; this file checked 51. Every tell now has an entry in
+tells_registry.json, and tests/test_tells_registry.py runs each mechanical one's example through this file.
+Matcher fixes:
+- Curly quotes. The rules match a copy of each sentence with ’ ‘ made ' and “ ” made " (straight()); a flag still quotes
+  the sentence as written. B2, B5, E41 and E138 had missed "That’s where…", "isn’t … it’s", "You’ll want…" and "I’d be
+  tempted to…" (AGENTS.md writes "That’s where X matters to me" with the curly one first).
+- B11's "That's not X. It's Y." looked inside one sentence, where the split had already cut it in two, so it never matched.
+  It reads each sentence with the next one now, with the cousins "Not a hobby. It's a job." and "The point is not X. The
+  point is Y." (reviewer/owner_bans.txt: "the "That's not X. It's Y." construction"; JOEL-FIXES-CATALOGUE, "What he cuts"
+  2: ""Not X. It's Y." and its cousins").
+- O2 fails "Fine." or "Sure." as a sentence of its own and "…, sure. But" across the split (owner_bans.txt: "as a clause or
+  a sentence of their own"; the gate's 2026-10-10 prediction review: "sure. But").
+- O37 is the chat-acronym flag, which had no ID: it reads any case now, and "lol" fails (gate step 9: ""lol" is wry, so
+  it's out"; JOEL-FIXES-CATALOGUE: "lol is different from hehe, it's more wry.").
+- E125 counts a list whose items start with "who is" (JOEL-FIXES-CATALOGUE: "The parallel "who is … who is … or who is"
+  list became a looser one").
+- O20's "I'd like" branch wanted a space after "I", so it never matched.
+New rules (REVIEW unless the document bans the thing):
+- O22 first-person staging: "I care about", "I'd want to see", "that tells me", "That's where X matters to me", "This is one
+  reason I want", "The version I want is", "What matters to me is" (AGENTS.md: "Treat significance-staging constructions
+  ... as AI-shaped in Joel-byline prose"; SKILL.md: "Phrases such as `I care about...`, `I want...`, `I don't want...`,
+  `I'd want to see...`, `that tells me...`, and close variants are AI-shaped"). "I want" opening a sentence stays O20's.
+  Words in double quotes are left out of O22, O23, O24 and O34: they're someone's speech (AGENTS.md: "Quotation or
+  literal discussion of the construction is exempt").
+- O23 research notes told as narration: "I had heard", "I checked", "I looked it up", "the check I did", "I wasn't sure what
+  the term was", and "I thought" in a paragraph that narrates a check (AGENTS.md: "Do not automatically convert research
+  notes such as `I thought X`, `I had heard Y`, `I checked it` ... into article narration"; "not as a diary of `I thought →
+  I checked → I learned`").
+- O24 stock lines: "I see the need to", "It's also important to", "One thing to notice about" (the gate's prediction review:
+  "speech markers laid over AI shapes ... and stock lines like "I see the need to", "It's also important to", "One thing to
+  notice about"").
+- O25 "even" and "actually", with the count (TELLS-FROM-PANGRAM-DATA-20261007.md: "They're words I add to sound casual, and
+  they don't help."). "Even if" and "even though" are B1's, and an "Even" that opens a sentence went with the passing drafts
+  (same file), so they aren't counted.
+- O26 emoji, all FAIL: a pointer (👇 👉 👆 👈 ☝️), 😉, or anything off the allowlist in EMOJI-LIST.md, read from that file
+  (gate step 9: "everything else counts as banned until Joel says yes. Never a pointer (👇 👉 👆 👈 ☝️) or 😉: "those look
+  super ai, only after seen them from ai slop, don't ever use those."").
+- O27 rough edges in my text: two spaces in a row, or a paragraph that ends with no end mark (JOEL-FIXES-CATALOGUE: "Rough
+  edges he leaves: typos, double spaces, missing periods. These come from typing. They aren't something for me to
+  imitate."). Never on --owner or --installed lines.
+- O28 "It's one thing to X. It's another to Y" (JOEL-FIXES-CATALOGUE: Emulate's "one thing ... another thing" "is not quite
+  showing that the truth was Y not X"; "A contrast has to say which side is true.").
+- O29 a run of three or more questions, once per run (gate step 7: "a few shared AI micro-patterns (question runs, triads,
+  "isn't X, it's Y")").
+- O30 a phrase said three or more times in one paragraph, his occurrences counted with mine (gate, 2026-10-07 20:21: "My "a
+  commitment they make as adults", which he OK'd, gave P22 its fourth "as adults""; JOEL-FIXES-CATALOGUE: "yes fix p222
+  take out second adults that's obvious"). A phrase is two to four words with a content word in it, not opening with
+  "the", "a" or a possessive or always coming right after one (a thing named again, "the community" or "your little
+  one", is ordinary), and not opening a sentence (a run of parallel questions is O29's).
+- O31 two parallel "When…, don't…" lines in a paragraph, O32 "is a kind of X, but it's not the whole thing"
+  (JOEL-FIXES-CATALOGUE, Minimal-fix lesson 1: the flagged window held "two parallel "When…, don't…" lines" and "an "is a
+  kind of love, … but it's not the whole thing" line").
+- O33 "Nope." and "Aww, buddy." (gate, "Repairing a failed draft": "The stock casual moves a model reaches for when told to
+  sound casual ("Nope.", "Aww, buddy.", a goofy exclamation, a punchy closer) came back 100% AI, high, in eight versions").
+- O34 "I wouldn't call that X" (JOEL-FIXES-CATALOGUE, his words: "Ai stuff overuses 'i wouldn't call that X'").
+- O35 "with or without X" (gate step 2: Joel: "with or without X is not quite guidance". Say what X is good for).
+- O36 a "but also" pair (the gate's prediction review: "P34m passed with "the boring problem", the "nicer logo" quip, a "but
+  also" pair and a list; without the one word "connect," it read 100% AI").
 """
 import os, re, sys, argparse, math
 from statistics import mean, pstdev
 
 def clean(t):
-    t = re.sub(r'<!--.*?-->', '', t, flags=re.S)
+    # A comment between two spaces leaves one space, not two, so O27 doesn't read the gap as a double space (2026-10-11).
+    t = re.sub(r'([ \t]*)<!--.*?-->([ \t]*)', lambda m: ' ' if (m.group(1) or m.group(2)) else '', t, flags=re.S)
     t = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', t)
     t = re.sub(r'^#+\s.*$', '', t, flags=re.M)          # drop headings
     t = t.replace('*', '')
@@ -77,8 +140,30 @@ def sentences(p):
 
 def words(s): return re.findall(r"[A-Za-z']+", s)
 
+# Curly quotes (2026-10-11 audit): the rules below spell apostrophes and quotes straight, and B2, B5, E41 and E138 missed
+# every curly one ("That’s where…" came back CLEAR where "That's where…" got B5). So the rules match against straight(s),
+# a copy of the sentence with ’ ‘ made ' and “ ” made ". It's one character for one, so positions in the copy are positions
+# in the original, and a flag still quotes the sentence as written: Joel's characters stay his (gate, 2026-10-02).
+STRAIGHT = str.maketrans({chr(0x2019): "'", chr(0x2018): "'", chr(0x201C): '"', chr(0x201D): '"'})   # ’ ‘ “ ”
+
+def straight(t): return t.translate(STRAIGHT)
+
 TICS = [r"doing some work", r"load-bearing", r"tells on itself", r"metaboli[sz]", r"\bdigest", r"\bclean\b",
-        r"does its work", r"\b(That's|It's|This is) not [^.?!]{1,60}[.?!] (It's|That's|This is)\b"]
+        r"does its work"]
+# B11 across two sentences (2026-10-11): "That's not X. It's Y." was the last TICS pattern, tested one sentence at a time.
+# The sentence split cuts it in two first, so it could never match. Now each sentence is read with the next one. The
+# negated frame opens its clause ("It's not a hobby.", "…, that is not just bad sleep hygiene."), or the sentence is a
+# "Not a…" fragment of a few words ("Not a hobby."; "Not a single member came to the meeting that night." is a sentence,
+# not a fragment); the next sentence opens with the same kind of frame, not negated. "It was not until…" is a cleft, not
+# a contrast. The cousin "The point is not X. The point is Y." repeats its own noun (JOEL-FIXES-CATALOGUE, "What he cuts" 2).
+_B11_FRAME = r"(?:it|that|this)(?:'s|\s+is|\s+was)"
+# The negated clause runs to its sentence's end with no comma: "that isn't a failure, though checking it off doesn't prove
+# it helped either. That's the … question again." goes on past its "not" and isn't the swap (calibration, 2026-10-11).
+B11_NOT_ITS = re.compile(r"(?:(?:^|[,;:]\s*|\b(?:and|but|so|because)\s+)(?:" + _B11_FRAME + r"\s+not|(?:it|that|this)\s+(?:isn't|wasn't))\b"
+                         r"(?!\s+until\b)[^.?!,;:]{1,80}"
+                         r"|^not\s+(?:a|an|the|just|only|really|about|because|for|some|my|your|our|their)\b(?:\s+[\w'-]+){1,5})"
+                         r"[.?!]['\"]?\s+" + _B11_FRAME + r"\b(?!\s+not\b)", re.I)
+B11_POINT_IS = re.compile(r"^the\s+(\w+)\s+(?:is|was)(?:\s+not|n't)\b[^.?!,;:]{1,80}[.?!]['\"]?\s+the\s+\1\s+(?:is|was)\b(?!\s+not\b)", re.I)
 CONTRAST = [r"\b(isn't|is not|wasn't|aren't|not)\b[^.?!]{0,50}\b(it's|it is|they're|but)\b",
             r"\brather than\b", r"\binstead of\b", r"doesn't mean[^.?!]*\bmeans?\b", r"\bIt's tempting\b",
             r"\bnot the same as\b", r"\bis still a long way from\b", r"\bthe difference between\b"]
@@ -304,6 +389,7 @@ where why how then than like even just before after""".split())
 PRON = set("i you he she it we they there this that these those".split())
 NOT_OR = re.compile(r"\bor\s+(not|so|less|more|else|other|two|three|whatever)\b", re.I)
 QUOTED = re.compile(r'"[^"]*"|“[^”]*”')
+WHO_ITEM = re.compile(r"who(?:'s|\s+(?:is|are|was|were))\b", re.I)
 
 def _segments(s):
     out, pos = [], 0
@@ -335,7 +421,12 @@ def _find(s):
         if re.match(r"(and|or)\b", mid, re.I): continue          # rule 1 has it
         if re.search(r"\b(and|or)\b", mid, re.I): continue       # "Nurturer, Protector and Guide are all you, and": rule 4
         mw = mid.split()
-        if not (1 <= len(mw) <= 6) or mw[0].lower() in LEAD | {'not'}: continue
+        # Items that each start with "who is" are a list, long items too (2026-10-11 audit, W63; JOEL-FIXES-CATALOGUE:
+        # "The parallel "who is … who is … or who is" list became a looser one"). "who" is in LEAD, which had skipped them.
+        who_list = WHO_ITEM.match(mid) and re.match(r"(?:and|or)\s+" + WHO_ITEM.pattern, last, re.I)
+        if who_list:
+            if len(mw) > 14: continue
+        elif not (1 <= len(mw) <= 6) or mw[0].lower() in LEAD | {'not'}: continue
         if k - 2 == 0:
             fw = first.split()
             if len(fw) <= 1: continue                             # "Honestly, I think so, and he agreed"
@@ -373,11 +464,12 @@ def triads(s):
     """[(kind, excerpt, quoted)] for each list of three or more in sentence s. Quoted words (a prayer, a line
     someone says) are read on their own, so their commas don't split the sentence, and their lists are marked."""
     s = re.sub(r'\s+', ' ', s).strip()
-    masked = QUOTED.sub(lambda m: '"' + 'Q' * (len(m.group(0)) - 2) + '"', s)
+    n = straight(s)   # matched with straight quotes; one character for one, so the excerpts come from s as written
+    masked = QUOTED.sub(lambda m: '"' + 'Q' * (len(m.group(0)) - 2) + '"', n)
     res = [(k, s[a:b].strip(' ,'), False) for k, a, b in _find(masked)]
-    for m in QUOTED.finditer(s):
-        inner = m.group(0)[1:-1]
-        res += [(k, inner[a:b].strip(' ,'), True) for k, a, b in _find(inner)]
+    for m in QUOTED.finditer(n):
+        inner = s[m.start() + 1:m.end() - 1]
+        res += [(k, inner[a:b].strip(' ,'), True) for k, a, b in _find(straight(inner))]
     return res
 
 
@@ -481,10 +573,13 @@ def heading_checks(raw):
         if not m:
             continue
         h = m.group(1).strip()
-        if HEAD_XNOTY.search(h):
+        hn = straight(h)
+        if HEAD_XNOTY.search(hn):
             out.append(('FAIL', 'H1 x-not-y heading (Joel 2026-10-06: "always trying to do an x not y statement ... humans don\'t do x not y as much"; 2026-10-07: "should be fully banned"); name the thing, as his "The Medicine Part - Yes, I\'m Naming It"', h))
-        elif HEAD_NEG.search(h):
+        elif HEAD_NEG.search(hn):
             out.append(('REVIEW', 'H1 a negation in a heading: check it isn\'t an x-not-y frame (Joel 2026-10-06)', h))
+        for sev, rule in emoji_flags(h):   # O26: a heading's emoji is on the allowlist too
+            out.append((sev, rule, h))
         for nb in blocks[i + 1:]:
             if re.match(r'^#+\s', nb):
                 break
@@ -492,10 +587,150 @@ def heading_checks(raw):
             if not t or t.startswith('![') or re.match(r'^image \d+$', t, re.I) or (len(t.split()) <= 3 and not t.endswith(('.', '?', '!'))):
                 continue
             first = sentences(t)[0] if sentences(t) else t
-            if POINTER_HEAD.match(first) and not POINTER_FAIL.match(first):
+            if POINTER_HEAD.match(straight(first)) and not POINTER_FAIL.match(straight(first)):
                 out.append(('REVIEW', 'O10 the first sentence under a heading opens with a pointer: say what it points at, since nothing above it in the section does (Joel 2026-10-06, on "Key here": "that\'s referring to something. Key where? what?")', first))
             break
     return out
+
+
+# ---- 2026-10-11: the tells the linter didn't check (TELLS-COVERAGE-20261011.md, table 1). Each is in tells_registry.json
+# with its source and an example, and the module docstring says where each comes from. All match straight(sentence).
+# O22: first-person staging (AGENTS.md "Code review rules"; SKILL.md "Fake personal stake"). "I want" at a sentence's
+# start is O20's; these are the other forms the two files name.
+STAGING = re.compile(r"\bI care about\b|\bI(?:'d| would) want to see\b|\bthat tells me\b"
+                     r"|\bthat(?:'s| is) where\b[^.?!]{1,60}?\bmatters? (?:to|for) me\b"
+                     r"|\b(?:this|that|it) is (?:one|another|the) reason (?:why )?I want\b"
+                     r"|\bthe version I want is\b|\bwhat matters (?:most )?to me is\b", re.I)
+# O23: research notes told as narration (AGENTS.md, "Research-process compression gate"). "I thought" alone is too common
+# to flag; it's flagged in a paragraph that also narrates the check, where it starts the diary.
+RESEARCH_NOTE = re.compile(r"\bI(?:'d| had) heard\b|\bI (?:double-)?checked\b|\bI looked (?:it|this|that) up\b"
+                           r"|\bthe check I did\b|\bI wasn't sure what the (?:term|word|name)\b", re.I)
+RESEARCH_THOUGHT = re.compile(r"\bI (?:had )?thought\b", re.I)
+
+def without_quotes(n):
+    """n (straight quotes) with the words in double quotes taken out, for the first-person rules. sentences() drops a
+    closing quote at the end of a sentence, so an odd last quote runs to the end."""
+    return QUOTED.sub('""', n + '"' if n.count('"') % 2 else n)
+
+# O24: stock lines (the gate's 2026-10-10 prediction review). "sure. But", from the same list, is O2's.
+STOCK_LINE = re.compile(r"\bI see the need (?:to|for)\b|\bit(?:'s| is) also important to\b|\bone thing to (?:notice|note) about\b", re.I)
+# O25: "even" and "actually" (TELLS-FROM-PANGRAM-DATA-20261007.md, finding 3). Not "even if"/"even though" (B1), and not
+# an "Even" that opens a sentence (finding 4: it went with the passing drafts).
+EVEN_ACTUALLY = re.compile(r"\bactually\b|\beven\b(?!\s+(?:if|though)\b)", re.I)
+# O28: "It's one thing to X. It's another to Y", in one sentence or across two (JOEL-FIXES-CATALOGUE, Joel's fixes of
+# 2026-10-02, community section 3 P6: "A contrast has to say which side is true.").
+ONE_THING = re.compile(r"\bit(?:'s| is) one thing to\b[^.?!;]{1,150}?[.?!;,]['\"]?\s+(?:but\s+)?(?:it|that)(?:'s| is) "
+                       r"(?:quite )?(?:another|a different (?:thing|matter|story)|something else)\b", re.I)
+# O29: a question ends with "?", a closing quote or bracket allowed after it.
+QUESTION_END = re.compile(r"\?[\"')\]]*$")
+# O31 and O32: from the window Pangram flagged in Minimal-fix lesson 1 (JOEL-FIXES-CATALOGUE).
+WHEN_DONT = re.compile(r"^(?:(?:and|but|so|or)\s+)?when\b[^.?!]{1,120}?,\s*(?:don't|do not|never)\b", re.I)
+KIND_OF_WHOLE = re.compile(r"\b(?:a|one) kind of\b[^?!]{1,60}?\bbut\b[^.?!]{0,30}?\bnot the whole\b", re.I)
+# O33: the stock casual moves (gate, "Repairing a failed draft").
+STOCK_CASUAL = re.compile(r"^(?:nope[.!]+$|aww+[,.!]?\s+buddy\b)", re.I)
+# O34, O35, O36: fixed phrases (JOEL-FIXES-CATALOGUE "In his words"; gate step 2; the gate's prediction review).
+WOULDNT_CALL = re.compile(r"\bI (?:wouldn't|would not) call (?:that|this|it)\b", re.I)
+WITH_OR_WITHOUT = re.compile(r"\bwith or without\b", re.I)
+BUT_ALSO = re.compile(r"\bbut also\b", re.I)
+
+# O26: emoji (gate step 9, "Joel's bans and the allowlist"; tools/humanization/EMOJI-LIST.md). An emoji is a pictograph
+# (U+1F000 to U+1FAFF), a symbol drawn as an emoji (followed by U+FE0F or a skin tone), or one of the symbols that are
+# emoji by default (⚡ ✨ ✅ ❌ ⭐ and the like), with its skin tone and any zero-width-joined parts (🧘🏿‍♀️ is one).
+_EMOJI_BASE = (r'[\U0001F000-\U0001FAFF]'
+               r'|[\U000000A9\U000000AE\U00002000-\U00002BFF\U00003030\U0000303D\U00003297\U00003299](?=\U0000FE0F|[\U0001F3FB-\U0001F3FF])'
+               r'|[\U0000231A\U0000231B\U000023E9-\U000023EC\U000023F0\U000023F3\U000025FD\U000025FE\U00002614\U00002615\U0000261D'
+               r'\U00002648-\U00002653\U0000267F\U00002693\U000026A1\U000026AA\U000026AB\U000026BD\U000026BE\U000026C4\U000026C5'
+               r'\U000026CE\U000026D4\U000026EA\U000026F2\U000026F3\U000026F5\U000026FA\U000026FD\U00002705\U0000270A\U0000270B'
+               r'\U00002728\U0000274C\U0000274E\U00002753-\U00002755\U00002757\U00002795-\U00002797\U000027B0\U000027BF'
+               r'\U00002B1B\U00002B1C\U00002B50\U00002B55]')
+_EMOJI_PART = r'(?:' + _EMOJI_BASE + r')\U0000FE0F?[\U0001F3FB-\U0001F3FF]?[\U000E0020-\U000E007F]*'
+EMOJI = re.compile(r'[\U0001F1E6-\U0001F1FF]{2}|' + _EMOJI_PART +
+                   r'(?:\U0000200D[\U0001F000-\U0001FAFF\U00002000-\U00002BFF]\U0000FE0F?[\U0001F3FB-\U0001F3FF]?)*')
+POINTER_EMOJI = set('\U0001F447\U0001F449\U0001F446\U0001F448\U0000261D')   # 👇 👉 👆 👈 ☝
+EMOJI_LIST = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'EMOJI-LIST.md')
+_ALLOWED = None
+
+def _emoji_key(e):
+    return e.replace(chr(0xFE0F), '').replace(chr(0xFE0E), '')   # the variation selectors: ❤️ and ❤ are one emoji
+
+def emoji_allowlist():
+    """The emoji in EMOJI-LIST.md's "## Allowlist" section: his list, his own placements and each later yes, read from the
+    file so a yes he gives there counts at once. A line that tells of a wrong guess is skipped (the 🫩 bullet). None
+    when the file isn't there; then only the pointers and 😉 are checked."""
+    global _ALLOWED
+    if _ALLOWED is None:
+        try:
+            md = open(EMOJI_LIST, encoding='utf-8').read()
+        except OSError:
+            _ALLOWED = False
+        else:
+            m = re.search(r'^## Allowlist.*?(?=^## |\Z)', md, re.S | re.M)
+            _ALLOWED = {_emoji_key(e) for line in (m.group(0) if m else '').split('\n') if 'guessed' not in line
+                        for e in EMOJI.findall(line)}
+    return _ALLOWED or None
+
+def emoji_flags(s):
+    """[(severity, rule)] for the emoji in s: a pointer, 😉, or one off the allowlist; one flag of each kind."""
+    out, allowed = [], emoji_allowlist()
+    for e in EMOJI.findall(s):
+        k = _emoji_key(e)
+        if k[0] in POINTER_EMOJI:
+            f = ('FAIL', 'O26 owner ban: a pointer emoji (👇 👉 👆 👈 ☝️; Joel 2026-10-01: "i don\'t want those pointer emojis those look super ai, only after seen them from ai slop, don\'t ever use those")')
+        elif k == '\U0001F609':
+            f = ('FAIL', 'O26 owner ban: 😉 (Joel 2026-10-01: "that one also looks like mainly used by AI (or by scammers)")')
+        elif allowed is not None and k not in allowed:
+            f = ('FAIL', 'O26 an emoji off the allowlist in tools/humanization/EMOJI-LIST.md (gate step 9: "everything else counts as banned until Joel says yes"); take it out, or ask him about that one')
+        else:
+            continue
+        if f not in out:
+            out.append(f)
+    return out
+
+# O27: rough edges in my text (JOEL-FIXES-CATALOGUE "What he adds" 9). An end mark is . ! ? … : or ;, before any closing
+# quotes or brackets; an emoji or an ASCII face can end a paragraph too.
+DOUBLE_SPACE = re.compile(r'(?<=\S) {2,}(?=\S)')
+END_MARK = re.compile(r'(?:[.!?…:;]|[:;]-?[()DPp]|' + _EMOJI_PART + r')[\s"\')\]*_]*$')
+
+def sentence_spans(p, ss):
+    """(start, end) of each sentence of paragraph p in p with its whitespace collapsed, the text sentences() splits."""
+    cp, spans, cur = re.sub(r'\s+', ' ', p), [], 0
+    for s in ss:
+        k = cp.find(s, cur)
+        k = cur if k < 0 else k
+        spans.append((k, k + len(s)))
+        cur = k + len(s)
+    return spans
+
+# O30: a phrase said three or more times in one paragraph (gate, 2026-10-07 20:21; JOEL-FIXES-CATALOGUE, P22). A phrase is
+# two to four words with a content word in it; a hyphenated word is one word. Left out: a phrase that opens with "the",
+# "a" or a possessive, or always comes right after one, since that's a thing named again ("the community"; "your little
+# one", the Inner Child article's word for the reader's inner child, was 38 of the first 43 hits on the calibration texts),
+# and an occurrence that opens a sentence (a run of parallel questions is O29's). "ability to" four times in a list of
+# rights, twice as "the ability to", still counts.
+PHRASE_SKIP_FIRST = set('the a an this that these those my your his her its our their'.split())
+
+def repeated_phrases(ss, mine):
+    """[(phrase, count, [sentence indexes])] for each phrase said three or more times in a paragraph's sentences ss, at
+    least once in a sentence of mine; the longest form of each, not its parts."""
+    toks = [re.findall(r"[a-z]+(?:['-][a-z]+)*", straight(s).lower()) for s in ss]
+    found = {}
+    for n in (4, 3, 2):
+        counts = {}
+        for i, t in enumerate(toks):
+            for j in range(1, len(t) - n + 1):   # j = 0 opens the sentence
+                g = tuple(t[j:j + n])
+                if g[0] in PHRASE_SKIP_FIRST or not any(w not in STOP and len(w) > 2 for w in g):
+                    continue
+                counts.setdefault(g, []).append((i, t[j - 1] in PHRASE_SKIP_FIRST))
+        for g, occ in counts.items():
+            where = [i for i, _ in occ]
+            if len(where) >= 3 and not all(named for _, named in occ) and any(mine[i] for i in where):
+                phrase = ' '.join(g)
+                # "them as adults" three times holds "as adults" three times: report the longer one only, unless the
+                # shorter one is said more often
+                if not any(' ' + phrase + ' ' in ' ' + longer + ' ' and len(where) <= c for longer, (c, _) in found.items()):
+                    found[phrase] = (len(where), sorted(set(where)))
+    return [(ph, c, w) for ph, (c, w) in found.items()]
 
 
 def main():
@@ -522,12 +757,13 @@ def main():
         # flagged as mine. A sentence of three words or more inside one of his lines is his.
         n = re.sub(r'\s+', ' ', x)
         return n in known or (len(n.split()) >= 3 and any(n in l for l in owner))
-    # chat acronyms the source or the owner lines already use are the article's own register (Joel, 2026-10-01 18:19)
+    # chat acronyms the source or the owner lines already use are the article's own register (Joel, 2026-10-01 18:19);
+    # read in any case since 2026-10-11 (O37: "lol" got through in lower case)
     src_acronyms = set()
     for extra in ([open(a.source, encoding='utf-8').read()] if a.source else []) + list(owner):
-        src_acronyms |= {x.upper() for x in re.findall(ACRONYMS, extra)}
+        src_acronyms |= {x.upper() for x in re.findall(ACRONYMS, extra, re.I)}
     ps = paragraphs(text)
-    allw = words(text); nw = len(allw) or 1
+    allw = words(straight(text)); nw = len(allw) or 1
     flags = []   # (severity, rule, sentence)
     def flag(sev, rule, s): flags.append((sev, rule, s))
     # H1 and O10 (2026-10-06): headings and the opener under each, from the raw markdown. A heading or opener the owner
@@ -552,16 +788,32 @@ def main():
     para_final_short = 0; imper_heavy = 0
     openers = []
     sent_lens = []
+    casual = []   # O25: (sentence, count) of "even" and "actually" in my sentences, flagged once the draft's count is known
     for p in ps:
         ss = sentences(p)
-        openers.append(' '.join(words(ss[0])[:1]).lower() if ss else '')
+        # The rules match nss, the sentences with straight quotes; the flags quote ss, as written (2026-10-11).
+        nss = [straight(x) for x in ss]
+        mine_s = [not is_known(x) for x in ss]
+        openers.append(' '.join(words(nss[0])[:1]).lower() if ss else '')
         imps = 0
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
+        checked = any(m and RESEARCH_NOTE.search(without_quotes(x)) for x, m in zip(nss, mine_s))   # O23: the paragraph narrates a check
         for i, s in enumerate(ss):
+            n = nss[i]
+            nxt = nss[i + 1] if i + 1 < len(ss) else None
+            pair = n if nxt is None else n + ' ' + nxt   # for the rules that read a sentence with the next one
+            def spans_next(mt):
+                """For a match on pair: None if it doesn't start in this sentence, else what to quote (this sentence, or
+                both when it runs into the next one); False when the next one is his."""
+                if not mt or mt.start() >= len(n):
+                    return None
+                if mt.end() <= len(n):
+                    return s
+                return s + ' ' + ss[i + 1] if mine_s[i + 1] else False
             for o in odd_spellings(s):
                 flag('REVIEW', 'O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: "unusual spellings should help pass pangram, but that\'s also cheating"); a coinage or a rare word stays, a misspelling gets fixed: ' + o, s)
-            mine = not is_known(s)
-            w = words(s); sent_lens.append(len(w))
+            mine = mine_s[i]
+            w = words(n); sent_lens.append(len(w))
             tri = triads(s)
             plists += [(mine, x) for k, x, q in tri if not q]
             if not mine: continue
@@ -572,98 +824,176 @@ def main():
                      'has something to say."). Joel, 01:06: "when there\'s no actual need for 3 items you can remove one of them"', x)
             mine_words += len(w)
             for r in TICS:
-                if re.search(r, s, re.I): flag('FAIL', 'B11 tic', s)
-            for mg in GETS_TO.finditer(s):
-                subj = gets_to_subject(s, mg)
+                if re.search(r, n, re.I): flag('FAIL', 'B11 tic', s)
+            q11 = spans_next(B11_NOT_ITS.search(pair) or B11_POINT_IS.search(pair))
+            if q11:
+                flag('FAIL', 'B11 tic: "That\'s not X. It\'s Y." and its cousins across two sentences (owner_bans.txt, Joel\'s Claude tics; JOEL-FIXES-CATALOGUE "What he cuts" 2: "The point is not perfect measurement. The point is pattern recognition." became "You won\'t measure stuff perfectly, but this way you might start seeing some important patterns jump out."); say what it is', q11)
+            for mg in GETS_TO.finditer(n):
+                subj = gets_to_subject(n, mg)
                 if subj == 'thing':
                     flag('FAIL', 'O1 owner ban: "doesn\'t get to decide" family with a subject that isn\'t a person (Joel 2026-09-28: "humans just rarely use [it] for non-humans"; 2026-10-07: "\'the weather doesn\'t get to decide\' for example, not \'your dad doesn\'t get to decide\'")', s)
                 elif subj == 'unclear':
                     flag('REVIEW', 'O1 "gets to" with an unclear subject: a person can stay, a feeling, part, thought or thing can\'t (Joel 2026-10-07)', s)
                 break
-            if re.search(r"(^|[.!?]\s+)(Fine|Good|Great|Sure|Okay|OK|Fair enough)[,.!]\s", s):
-                flag('FAIL', 'O2 owner ban: Fine/Good/Great as a clause (Joel 2026-09-28)', s)
+            # O2: "Fine," as a clause, "Fine." or "Sure." as a sentence of its own (owner_bans.txt), and "…, sure. But" across the
+            # split (2026-10-11; the gate's prediction review: "sure. But"). The split had cut "Sure. But" and "Fine. They're…" apart.
+            o2 = None
+            if re.search(r"(^|[.!?]\s+)(Fine|Good|Great|Sure|Okay|OK|Fair enough)[,.!]\s", n) or re.fullmatch(r"(?:Fine|Good|Great|Sure|Okay|OK|Fair enough)[.!]+", n.strip()):
+                o2 = s
+            elif nxt is not None and re.search(r",\s*(?:sure|fine)[.!]$", n, re.I) and re.match(r"But\b", nxt):
+                o2 = s + ' ' + ss[i + 1]
+            if o2:
+                flag('FAIL', 'O2 owner ban: "Fine," "Good," "Great," "Sure" as a clause or a sentence of its own, and "sure. But" (Joel 2026-09-28: "i told you to stop saying \'Fine, Good, Great\' as clauses before"; the gate\'s 2026-10-10 prediction review: "sure. But")', o2)
             # E139 (2026-10-07): SKILL.md's "Synthetic specificity and fake concreteness" rule was never loaded here (O11 to O13; main's O8 to O10 came first).
-            if re.search(r"\b(Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)days?\b", s):
+            if re.search(r"\b(Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)days?\b", n):
                 flag('FAIL', 'O11 owner ban: a weekday put in to sound concrete (Joel 2026-10-07: "AI is always saying Tuesday, on Tuesday, '
                      'or some specific day like this. on a regular Tuesday is the worst"; SKILL.md "Synthetic specificity"). Keep one only '
                      'when it is a real fact from the source and matters to the thought', s)
-            if re.search(r"\b(ordinary|regular|boring|everyday|mundane|quietly)\b", s, re.I):
+            if re.search(r"\b(ordinary|regular|boring|everyday|mundane|quietly)\b", n, re.I):
                 flag('REVIEW', 'O12 "ordinary/regular/boring/quietly": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not '
                      'for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"; 2026-10-10 12:22, on "shouldn\'t quietly turn into": "using quietly all the time like that is a huge AI tell"); keep one that says something, judge published wording like new wording', s)
             # O20 (Joel 2026-10-10 12:22): "I want / I don't want" as the opener of a stance. SKILL.md has the rule; his 2026-10-02 exception for the
             # community article (his own wish to live in one) stands, "but there's just too much of this". A list fits: the opener is a fixed form.
-            if re.search(r"(^|[.!?]\s+)I (don['’]t |do not )?(want|wish|'d like|would like)\b", s):
+            # "I'd like" (2026-10-11): the branch was "I 'd like", with a space no one types, so it never matched.
+            if re.search(r"(^|[.!?]\s+)I(?: (?:don't |do not )?(?:want|wish|would like)|'d like)\b", n):
                 flag('REVIEW', 'O20 "I want / I don\'t want" opening a stance (SKILL.md; Joel 2026-10-10: "i want/don\'t want which is in the tells list ... you can use i want sometimes when it makes real sense because i actually do want to find a commune to live in, but there\'s just too much of this"): keep it only where his own wish is the subject, else state the judgment', s)
             # O21 (Joel 2026-10-10 12:22, on "I don't want one super-commune with a nicer logo": "an AI-tell quip"). Stock comparison quips only;
             # whether some other line is a quip is a reader's call, not this list's.
-            if re.search(r"\bwith (a |an )?(nicer|better|fancier|shinier|prettier|new) (logo|name|label|branding|font|website|mission statement)\b|\bwith extra steps\b", s, re.I):
+            if re.search(r"\bwith (a |an )?(nicer|better|fancier|shinier|prettier|new) (logo|name|label|branding|font|website|mission statement)\b|\bwith extra steps\b", n, re.I):
                 flag('REVIEW', 'O21 a stock comparison quip ("X with a nicer logo", "X with extra steps"; Joel 2026-10-10: "an AI-tell quip"): say what it claims plainly, or cut it if the point is carried elsewhere', s)
             if re.search(r"\b\d+\s*(%|percent)|\b(one|two|three|four|five|ten|twenty|fifty)\s+percent\b|\bo['’]clock\b|\b\d{1,2}(:\d\d)?\s?(am|pm)\b|"
-                         r"\bby (lunch|dinner|noon|bedtime|lunchtime)\b|\b(a|one|this|that) (morning|afternoon|evening) of\b", s, re.I):
+                         r"\bby (lunch|dinner|noon|bedtime|lunchtime)\b|\b(a|one|this|that) (morning|afternoon|evening) of\b", n, re.I):
                 flag('REVIEW', 'O13 a made-up number or clock time (Joel 2026-10-07, on "five percent is enough": "AI wants to put concrete '
                      'numbers on stuff all the time, then people are wondering how much is 5%?"; SKILL.md: no invented clock-time details)', s)
-            if re.search(r"\b(my first (guess|thought|instinct|reaction)|I'd probably want to|I'd be tempted to|my instinct would be)\b", s, re.I):
+            if re.search(r"\b(my first (guess|thought|instinct|reaction)|I'd probably want to|I'd be tempted to|my instinct would be)\b", n, re.I):
                 flag('REVIEW', 'E138 the writer\'s own impulse: check the next sentence doesn\'t take it back (Joel 2026-10-07, on "I\'d probably '
                      'want to fix it by saying sweeter and sweeter things, which won\'t work": "this part is contradictory"; his fix gave '
                      'the move to "some people")', s)
-            ag = abstract_agents(s)  # None without the parser: then the word list decides
-            if (ag if ag is not None else re.search(ABSTRACT_AGENT, s, re.I)):
+            ag = abstract_agents(n)  # None without the parser: then the word list decides
+            if (ag if ag is not None else re.search(ABSTRACT_AGENT, n, re.I)):
                 flag('REVIEW', 'O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell ("Grief doesn\'t keep a schedule"); a phrase people say all the time is not (Joel 2026-10-07 23:50: "Modern life trains us" is "so common it\'s almost cliche, it\'s not a witty AI quip"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible', s)
-            if re.search(ENOUGH_PAIR, s, re.I):
+            if re.search(ENOUGH_PAIR, n, re.I):
                 flag('REVIEW', 'O7 polished "X enough to… Y enough to…" pair (Joel 2026-10-02: "devoted enough to practice them and secure enough to disagree" "looks super highly polished")', s)
-            if re.search(SMUGGLE_FIG, s, re.I):
+            if re.search(SMUGGLE_FIG, n, re.I):
                 flag('FAIL', 'O8 owner ban: smuggling talk (Joel 2026-10-03: "ai is always saying something like \'not smuggle in\' or something about smuggling in"; 2026-10-07: "should be fully banned"); say the plain reason, as his "My reasons are given in those articles, respectively, since they need more space."', s)
-            elif re.search(SMUGGLE, s, re.I):
+            elif re.search(SMUGGLE, n, re.I):
                 flag('REVIEW', 'O8 "smuggle": literal smuggling can stay; the figurative kind is an owner ban (Joel 2026-10-03)', s)
-            if i == 0 and POINTER_FAIL.match(s.strip()):
+            if i == 0 and POINTER_FAIL.match(n.strip()):
                 flag('FAIL', 'O10 an opener that points at nothing (Joel 2026-10-06: "\'Key here\' can\'t be how you open a section. that\'s referring to something. Key where? what?"): start with the claim itself, as his "Most of the writing on communities hasn\'t caught up with psychedelics."', s)
-            m9 = NOT_TAIL.match(s.strip())
+            m9 = NOT_TAIL.match(n.strip())
             if m9 and len(words(m9.group('head'))) >= 4:
                 flag('REVIEW', 'O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a \'not Y\' part"): say the claim or the reason plainly; keep the contrast only when the paragraph needs the other side said', s)
-            if NOT_BUT_STILL.search(s):
+            if NOT_BUT_STILL.search(n):
                 flag('REVIEW', 'O18 "not X, but still Y" (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'"): say the claim plainly; keep the contrast only when the reader needs the other side said', s)
-            elif i + 1 < len(ss) and NOT_SENT.search(s) and STILL_NEXT.match(ss[i + 1].strip()) and not is_known(ss[i + 1]):
+            elif nxt is not None and NOT_SENT.search(n) and STILL_NEXT.match(nxt.strip()) and mine_s[i + 1]:
                 flag('REVIEW', 'O18 "not X. It still Y" across two sentences (Joel 2026-10-07: "there are other X Y rules, like \'Not x, but still y.\'")', s + ' ' + ss[i + 1])
             for r in CONTRAST:
-                if re.search(r, s, re.I): flag('REVIEW', 'B2 contrast', s); break
+                if re.search(r, n, re.I): flag('REVIEW', 'B2 contrast', s); break
             for r in THESIS:
-                if re.search(r, s, re.I if not r.startswith('^') else 0): flag('REVIEW', 'B1 finished principle', s); break
+                if re.search(r, n, re.I if not r.startswith('^') else 0): flag('REVIEW', 'B1 finished principle', s); break
             for r in ANNOUNCE:
-                if re.search(r, s): flag('REVIEW', 'B5 announces the paragraph', s); break
-            hits = sum(len(re.findall(r, s, re.I)) for r in COACH)
+                if re.search(r, n): flag('REVIEW', 'B5 announces the paragraph', s); break
+            hits = sum(len(re.findall(r, n, re.I)) for r in COACH)
             coach_hits += hits
             if hits: flag('REVIEW', 'E41 coach phrase', s)
-            you_hits += len(re.findall(r"\byou(r|'re|'ll|'d|'ve)?\b", s, re.I))
-            if re.search(r"\bthe kid\b|\bkids?\b", s, re.I): flag('REVIEW', 'E1 kid', s)
-            for acr in re.findall(ACRONYMS, s):
-                if acr.upper() not in src_acronyms:
-                    flag('REVIEW', 'chat acronym the source doesn\'t use: say it in words, unless the author asked for an informal internet style (Joel 2026-10-01: "for articles where the acronyms are used, you\'d use those, but for other articles where they aren\'t used, you wouldn\'t put them in")', s)
-                    break
+            you_hits += len(re.findall(r"\byou(r|'re|'ll|'d|'ve)?\b", n, re.I))
+            if re.search(r"\bthe kid\b|\bkids?\b", n, re.I): flag('REVIEW', 'E1 kid', s)
+            # O37 (the chat-acronym flag, numbered 2026-10-11): any case, so "lol" is caught; "lol" itself is banned, the rest
+            # are a REVIEW where the source doesn't use them.
+            acrs = re.findall(ACRONYMS, n, re.I)
+            if any(x.lower() == 'lol' for x in acrs):
+                flag('FAIL', 'O37 owner ban: "lol" (gate step 9: ""lol" is wry, so it\'s out"; Joel 2026-10-01: "lol is different from hehe, it\'s more wry."); "(hehe)" is fine', s)
+            if any(x.lower() != 'lol' and x.upper() not in src_acronyms for x in acrs):
+                flag('REVIEW', 'O37 chat acronym the source doesn\'t use: say it in words, unless the author asked for an informal internet style (Joel 2026-10-01: "for articles where the acronyms are used, you\'d use those, but for other articles where they aren\'t used, you wouldn\'t put them in")', s)
             first = (w[0].lower() if w else '')
             if first in IMPER: imps += 1
-            if s.count(',') >= 3 or len(re.findall(r'\b(or|and)\b', s)) >= 3:
+            if n.count(',') >= 3 or len(re.findall(r'\b(or|and)\b', n)) >= 3:
                 flag('REVIEW', 'B4/E15 list or packed sentence', s)
-            ps_n = polysyndeton(s)
+            ps_n = polysyndeton(n)
             if ps_n >= 3:
                 flag('FAIL', 'O14 owner ban: an "and ... and ... and" list (Joel 2026-10-07: "that looks like emulate trying to cheat, and it wasn\'t needed. still passes pangram with normal syntax"); use commas and keep the list\'s own "or"', s)
             elif ps_n == 2:
                 flag('REVIEW', 'O14 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate\'s trick in a list (Joel 2026-10-07)', s)
-            if i == len(ss) - 1 and len(ss) >= 3 and SUMMARY_CLOSE.match(s.strip()):
+            if i == len(ss) - 1 and len(ss) >= 3 and SUMMARY_CLOSE.match(n.strip()):
                 flag('REVIEW', 'O16 a closing line that sums the paragraph up (Joel 2026-10-07: "it was way overcompleting itself"): propose the cut to him, quoted, with your opinion; don\'t cut it yourself', s)
-            if STILL_TAIL.search(s):
+            if STILL_TAIL.search(n):
                 flag('REVIEW', 'O17 "may be X and still Y" (Joel 2026-10-07 15:05: "Another AI tell is \'may be X and still Y\' ... Humans don\'t use that as much"): say both things plainly and keep the modal over both halves', s)
-            if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", ' '.join(s.split()[:8]), re.I):
+            if i < 2 and re.search(r"\b(did|do|does|doing|done|didn't|don't|tried|try|skip|skipped|finish|finished|start|started)\s+it\b", ' '.join(n.split()[:8]), re.I):
                 flag('REVIEW', 'R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent")', s)
-            if i > 0 and len(w) <= 6 and len(words(ss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", s):
+            if i > 0 and len(w) <= 6 and len(words(nss[i-1])) >= 12 and re.match(r"(But|That|It|So|And|Which|They)\b", n):
                 flag('REVIEW', 'B3 short knock-down', s)
+            # ---- 2026-10-11: the tells the linter didn't check (TELLS-COVERAGE-20261011.md, table 1)
+            unquoted = without_quotes(n)   # quoted words are someone's speech: AGENTS.md exempts "Quotation or literal discussion"
+            if STAGING.search(unquoted):
+                flag('REVIEW', 'O22 first-person staging (AGENTS.md: "Treat significance-staging constructions such as `That\'s where X matters to me` ... as AI-shaped in Joel-byline prose"; SKILL.md: "`I care about...`, `I\'d want to see...`, `that tells me...`, and close variants are AI-shaped"): state the consequence or the judgment itself, unless his own wish is the subject', s)
+            if RESEARCH_NOTE.search(unquoted) or (checked and RESEARCH_THOUGHT.search(unquoted)):
+                flag('REVIEW', 'O23 research notes told as narration (AGENTS.md: "Do not automatically convert research notes such as `I thought X`, `I had heard Y`, `I checked it` ... into article narration"): give the result, unless the checking itself does a job for the reader', s)
+            if STOCK_LINE.search(unquoted):
+                flag('REVIEW', 'O24 a stock line (the gate\'s 2026-10-10 prediction review: "stock lines like "I see the need to", "It\'s also important to", "One thing to notice about""): say the thing itself', s)
+            k_casual = sum(1 for m in EVEN_ACTUALLY.finditer(n) if not (m.group(0).lower() == 'even' and not n[:m.start()].strip(' "\'([')))
+            if k_casual:
+                casual.append((s, k_casual))
+            for sev, rule in emoji_flags(n):
+                flag(sev, rule, s)
+            q28 = spans_next(ONE_THING.search(pair))
+            if q28:
+                flag('REVIEW', 'O28 "It\'s one thing to X. It\'s another to Y" (JOEL-FIXES-CATALOGUE: Emulate\'s "one thing ... another thing" "is not quite showing that the truth was Y not X"; "A contrast has to say which side is true."): say what was really going on', q28)
+            q32 = spans_next(KIND_OF_WHOLE.search(pair))
+            if q32:
+                flag('REVIEW', 'O32 "is a kind of X, but it\'s not the whole thing" (JOEL-FIXES-CATALOGUE, Minimal-fix lesson 1: one of the lines in the window Pangram flagged)', q32)
+            if STOCK_CASUAL.match(n.strip()):
+                flag('REVIEW', 'O33 a stock casual move (gate: "The stock casual moves a model reaches for when told to sound casual ("Nope.", "Aww, buddy.", a goofy exclamation, a punchy closer) came back 100% AI, high, in eight versions")', s)
+            if WOULDNT_CALL.search(unquoted):
+                flag('REVIEW', 'O34 "I wouldn\'t call that X" (Joel 2026-09-26: "Ai stuff overuses \'i wouldn\'t call that X\'"): say what it is', s)
+            if WITH_OR_WITHOUT.search(n):
+                flag('REVIEW', 'O35 "with or without X" (Joel 2026-10-02: "with or without X is not quite guidance"): say what X is good for', s)
+            if BUT_ALSO.search(n):
+                flag('REVIEW', 'O36 a "but also" pair (the gate\'s 2026-10-10 prediction review: one of the tells a fragile pass carried, with "the boring problem" and the "nicer logo" quip)', s)
         if len(plists) >= 2 and any(m for m, _ in plists):
             flag('FAIL', 'E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: "P! failed b ecause it has 2 lists of 3"); '
                  'fix one first: drop the item that matters least, or if every item is needed, split it into sentences the way he did', ' / '.join(x for _, x in plists))
-        if ss and len(words(ss[-1])) <= 9 and not is_known(ss[-1]):
+        if ss and len(words(nss[-1])) <= 9 and mine_s[-1]:
             para_final_short += 1; flag('REVIEW', 'B7 short landing at paragraph end', ss[-1])
         if imps >= 2: imper_heavy += 1; flag('REVIEW', 'E23 paragraph of instructions', p[:90] + '...')
+        # O27: rough edges in my text, never in his lines or installed ones (JOEL-FIXES-CATALOGUE: "Rough edges he leaves:
+        # typos, double spaces, missing periods. These come from typing. They aren't something for me to imitate.")
+        spans, seen = sentence_spans(p, ss), set()
+        for m in DOUBLE_SPACE.finditer(p):
+            pos = len(re.sub(r'\s+', ' ', p[:m.start()]))   # where the gap is in the collapsed paragraph the spans index
+            at = tuple(j for j, (a0, b0) in enumerate(spans) if a0 <= pos < b0) or \
+                tuple([j for j, (a0, b0) in enumerate(spans) if b0 <= pos][-1:] + [j for j, (a0, b0) in enumerate(spans) if a0 > pos][:1])
+            if at and at not in seen and all(mine_s[j] for j in at):
+                seen.add(at)
+                flag('REVIEW', 'O27 a rough edge in my text: two spaces in a row (JOEL-FIXES-CATALOGUE: "Rough edges he leaves: typos, double spaces, missing periods. ... They aren\'t something for me to imitate.")', ' '.join(ss[j] for j in at))
+        if ss and mine_s[-1] and not LIST_LINE.search(p) and not re.match(r'(?:\||>|```)', p) \
+                and not re.search(r'https?://\S+$', p.rstrip()) and not END_MARK.search(straight(p.rstrip())):
+            flag('REVIEW', 'O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: "Rough edges he leaves: typos, double spaces, missing periods. ... They aren\'t something for me to imitate.")', ss[-1])
+        # O29: three or more questions in a row (gate step 7: "a few shared AI micro-patterns (question runs, triads, "isn't X,
+        # it's Y")"), once per run.
+        run = []
+        for j in range(len(ss) + 1):
+            if j < len(ss) and QUESTION_END.search(nss[j].rstrip()):
+                run.append(j)
+                continue
+            if len(run) >= 3 and any(mine_s[k] for k in run):
+                flag('REVIEW', 'O29 a run of three or more questions (gate step 7: "a few shared AI micro-patterns (question runs, triads, "isn\'t X, it\'s Y")"; its prediction review: "questions the text answers itself"): keep the ones a reader would ask', '%d questions: %s' % (len(run), ' '.join(ss[k] for k in run)))
+            run = []
+        # O30: a phrase said three or more times in one paragraph, his and mine together (gate 2026-10-07 20:21: my "a commitment
+        # they make as adults" "gave P22 its fourth "as adults"")
+        for phrase, c, at in repeated_phrases(ss, mine_s):
+            flag('REVIEW', 'O30 a phrase said three or more times in one paragraph (gate, 2026-10-07: my "a commitment they make as adults" "gave P22 its fourth "as adults""; Joel: "take out second adults that\'s obvious"): keep it only where the repeat does a job', '"%s" %d times: %s' % (phrase, c, ' / '.join(ss[k] for k in at)))
+        # O31: two parallel "When…, don't…" lines in a paragraph (JOEL-FIXES-CATALOGUE, Minimal-fix lesson 1)
+        wd = [j for j in range(len(ss)) if WHEN_DONT.match(nss[j].strip())]
+        if len(wd) >= 2 and any(mine_s[j] for j in wd):
+            flag('REVIEW', 'O31 parallel "When…, don\'t…" lines (JOEL-FIXES-CATALOGUE, Minimal-fix lesson 1: the window Pangram flagged held "two parallel "When…, don\'t…" lines"): break the pattern, or keep one', ' / '.join(ss[j] for j in wd))
+    # O25 (2026-10-11): "even" and "actually", with the draft's count (TELLS-FROM-PANGRAM-DATA-20261007.md, finding 3)
+    if casual:
+        o25 = ('O25 "even" or "actually", %d in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; '
+               '"They\'re words I add to sound casual, and they don\'t help"): keep one only where it says something' % sum(k for _, k in casual))
+        for s, _ in casual:
+            flag('REVIEW', o25, s)
     # paragraph-level metrics
-    plen = [len(words(p)) for p in ps]
+    plen = [len(words(straight(p))) for p in ps]
     cv_p = (pstdev(plen)/mean(plen)) if len(plen) > 1 and mean(plen) else 1
     cv_s = (pstdev(sent_lens)/mean(sent_lens)) if len(sent_lens) > 1 else 1
     coach_density = 100*coach_hits/max(mine_words, 1)
@@ -692,7 +1022,7 @@ def main():
         spts = [q for q in re.split(r'\n\s*\n|\n- ', src) if len(q.split()) >= 8]
         mapping = []
         for p in ps:
-            sims = [cos(content(p), content(q)) for q in spts]
+            sims = [cos(content(straight(p)), content(straight(q))) for q in spts]
             j = max(range(len(sims)), key=lambda k: sims[k]) if sims else -1
             mapping.append((j, round(sims[j], 2) if j >= 0 else 0))
         matched = [j for j, s in mapping if s >= 0.15]
