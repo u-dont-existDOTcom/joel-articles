@@ -557,6 +557,84 @@ def build_repeats(article, focus=None, report=None):
             .replace('{article}', numbered_article(article)))
 
 
+MD_LINK = re.compile(r'\[([^\]]+)\]\((?:[^()\s]|\([^()\s]*\))*\)')
+HEADING = re.compile(r'(#{1,6}) +(.+?)\s*$')
+
+
+def reader_view(md):
+    """Markdown blocks as a reader of the published page sees them: no comments or working notes, links as their
+    text, an image as "[an image]", captions kept, share buttons left out, a link card as its title."""
+    s = EMBED.sub(lambda m: '\n\n[Embedded post by the author: "%s"]\n\n' % m.group(1), md)
+    s = re.sub(r'<!--.*?-->', '', s, flags=re.S)
+    # A Substack post card's title is a link whose text is a heading, across blank lines; it's one line on the page
+    s = re.sub(r'\[\s*\n\s*\n#{1,6} +([^\n]+?)\s*\n\s*\n\]\(', r'[\1](', s)
+    s = re.sub(r'\)\[(?!image \d)', ') · [', s)   # links side by side on a card: publication · title · author
+    s = re.sub(r'\[image \d+\]\(\S*?\)(?=\S)|(?<=\S)\[image \d+\]\(\S*?\)', '', s)   # a card's thumbnail
+    out = []
+    for p in (x.strip() for x in re.split(r'\n\s*\n', s) if x.strip()):
+        if p.startswith('> **Working review') or re.match(r'# [^\n]*humanized article so far', p):
+            continue
+        if re.fullmatch(r'\[Share\]\([^)]*\)', p):
+            continue
+        if re.fullmatch(r'\[image \d+\](?:\(\S*\))?', p):
+            out.append('[an image]')
+            continue
+        card = re.fullmatch(r'\[(.+)\]\(\S+\)\s*Copy link', p, flags=re.S)
+        if card:
+            out.append('[A link card: %s]' % card.group(1).strip())
+            continue
+        if re.fullmatch(r'https://substack\.com/\S+', p):
+            out.append('[Embedded Substack note by the author, shown as a preview card]')
+            continue
+        out.append(MD_LINK.sub(r'\1', p))
+    return out
+
+
+def build_sense_section(article, heading, draft=None, report=None):
+    """The cold read of a whole section (2026-10-11). Joel, 18:35 UTC: ""as I'm describing may happen in my case" is
+    obvious so you should debug why the cold reader can't understand it." The community lane had been writing its
+    section cold reads by hand, with a three-line summary of the article in place of the article, and the prompt asked
+    for anything that "stops you". It never got the shared prompt's fixes (sense.txt: what a reader has already read,
+    a word whose own sentence gives its referent), and a reader who paused at a clause and then got it reported the
+    pause as a break. This builds the read from the whole article before the section and the same rules as sense.txt,
+    with the best-reading rule from the debugging (community s11/review-a5/DEBUG-cold-read-20261011.md).
+
+    article: the humanized article (Markdown). heading: the section's heading text, without the #s. draft: a file's
+    text holding the section to read instead of the one in the article (it starts with the heading); a section that
+    isn't in the article yet is read after all of it."""
+    blocks = reader_view(pathlib.Path(article).read_text(encoding='utf-8'))
+    def level_of(b):
+        m = HEADING.match(b) if '\n' not in b else None
+        return (len(m.group(1)), m.group(2)) if m else None
+    want = re.sub(r'\s+', ' ', heading.strip().lstrip('#').strip())
+    start = next((i for i, b in enumerate(blocks) if level_of(b) and re.sub(r'\s+', ' ', level_of(b)[1]) == want), None)
+    if start is None and draft is None:
+        sys.exit('reviewer.py sense-section: no heading "%s" in the article' % want)
+    if start is None:
+        earlier, section, nxt = blocks, None, None
+    else:
+        lvl = level_of(blocks[start])[0]
+        end = next((j for j in range(start + 1, len(blocks)) if level_of(blocks[j]) and level_of(blocks[j])[0] <= lvl), len(blocks))
+        earlier, section, nxt = blocks[:start], blocks[start:end], (blocks[end] if end < len(blocks) else None)
+    if draft is not None:
+        section = reader_view(draft)
+        if not section or not level_of(section[0]):
+            sys.exit('reviewer.py sense-section: the draft has to start with its heading')
+    numbered_section, n = [], 0
+    for b in section:
+        if level_of(b) or b == '[an image]' or b.startswith('[caption]'):
+            numbered_section.append(b)
+        else:
+            n += 1
+            numbered_section.append('[P%d] %s' % (n, b))
+    after = 'After it, the next section starts: "%s".\n\n' % nxt if nxt else ''
+    report_txt = ('Write your report with a single Write call to %s, then reply with only the lines that aren\'t OK (under 200 '
+                  'words). Don\'t use any tools except reading this file and writing that report.' % report if report else
+                  'Return the lines as your final message. Don\'t use any tools except reading this file.')
+    return (read('sense_section.txt').replace('{earlier}', '\n\n'.join(earlier) or '(nothing: this is the first section)')
+            .replace('{section}', '\n\n'.join(numbered_section)).replace('{after}', after).replace('{report}', report_txt))
+
+
 def march_paragraphs(t):
     """The draft's paragraphs that have sentences (headings and quotes-only lines are skipped)."""
     out = []
@@ -641,6 +719,10 @@ def main():
     s = cmd('repeats'); s.add_argument('out')
     s.add_argument('--focus', help='the part of the article to check hardest, e.g. \'"# Before You Try to Go Deep" ([B32] to [B77])\'')
     s.add_argument('--report', help='a path the reader writes its findings to (default: its final message)')
+    s = cmd('sense-section'); s.add_argument('out')
+    s.add_argument('--section', required=True, help='the heading of the section to read, without the #s')
+    s.add_argument('--draft', help='a file holding the section to read instead of the article\'s (it starts with the heading)')
+    s.add_argument('--report', help='a path the reader writes its lines to (default: its final message)')
     a = ap.parse_args()
     PATHS['article'], PATHS['source'] = a.article, a.source
     rd = lambda f: pathlib.Path(f).read_text(encoding='utf-8').strip()
@@ -678,6 +760,10 @@ def main():
         if not PATHS['article']:
             sys.exit('reviewer.py repeats: give --article PATH')
         write(a.out, build_repeats(PATHS['article'], a.focus, a.report))
+    elif a.cmd == 'sense-section':
+        if not PATHS['article']:
+            sys.exit('reviewer.py sense-section: give --article PATH')
+        write(a.out, build_sense_section(PATHS['article'], a.section, rd(a.draft) if a.draft else None, a.report))
 
 
 if __name__ == '__main__':

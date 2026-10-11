@@ -1,0 +1,4 @@
+[1] OK
+[2] UNCLEAR "and she never did either": best reading is that the new grown-up (or your little one) never had to fake a feeling either; but the sentence sets up "You don't have to pretend to feel anything to let a phone ring" and then adds a "she" who did the same, and no "she" appears in this paragraph or the one before ([1] offers only "the new grown-up", "someone who likes you" and "your little one"), so I can't tell who it is.
+[3] OK
+Whole paragraph: yes, it makes sense after the one before (it picks up "the new grown-up" and the "Trust me" / fake thread, and "But" turns correctly from the inside-your-head voice to starting outside it), apart from the stray "she" in [2]; and yes, the next paragraph follows on, since it opens a new section and "too" just adds play to the trust-building, with "pl/ork" defined on the spot.
