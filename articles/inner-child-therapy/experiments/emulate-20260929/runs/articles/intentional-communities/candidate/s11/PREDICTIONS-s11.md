@@ -520,3 +520,28 @@ Batch 231g (written 04:06 UTC on 2026-10-11 by `date -u`, before the call; `v231
 231g (submitted 04:06:52 to 04:07:43 UTC): mine 9 of 10. Both P19s and P18z pass alone and beside their neighbors (P18z2 fails beside P17e). **Section 11 v10** (`candidate-v10-keys.json`, `section-v10.md`): v9 with P18z ("the prerequisites for it are a ceremony rule the community holds, separate from the personal principles above") and P19t ("different from the daily signs above"). The section reads 100% Human (S11v15a, 1,199 words scanned); every paragraph passes alone or beside a neighbor that passes alone (P16p beside P15x, 224g; P17e beside P18z; P18z, P19t and P20q alone; P10j alone, P10a in the run from P9k, P11k and P12f in the run from P10j).
 
 Score for 228g to 231g (Joel's answers of 2026-10-11), counted strictly: 24 of 41 calls right (59%); saying AI every time would have been right 44%. My misses were again pairs: P16 with the ceremony sentence read AI beside P15 in all seven wordings, the plain ones I called Human included, and P19r failed alone while P19s, with the colon I called AI, passed.
+
+## Joel's message of 2026-10-11 18:35 UTC
+
+He cut "willing to be seen" (his 4: "this is redundant, i cut it"), rewrote the whole second subsection (P13 to P20 become his R14 to R19, with P13 unchanged), and rewrote his land paragraph for the article (J1 to J3: founderism in communities that form naturally, the probation reversal, the marriage analogy), to go after P10, with P10 and his three paragraphs moved to the end of the first subsection "so it flows correctly". Typos fixed only: "ends by up treating" (R14) to "ends up treating", and a leading space. His characters as typed, double spaces included. Raw text: `joel-1835/joel-20261011-1835-raw.txt`.
+
+Batch 232g (written 18:39 UTC on 2026-10-11 by `date -u`, before the call; `v232.json`, parts in `fix-v24-parts.json`): his paragraphs alone and in their runs (J2 and R19 are under 50 words), P11 and P12 in the run from P9 now that P10 has moved, and the section (v11, `candidate-v11-keys.json`). Linter on v11, his lines as owner: REVIEW, no FAIL.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 232g-J1 (114) | Human | his run-ons: "if, say, I'm the only one there", "it also doesn't make sense, so there's a critical mass point" | **Human (100%)**, 18:40:05 |
+| 232g-J3 (108) | Human | "(which hopefully is not a fully unconscious process)", "etc," | **Human (100%)**, 18:40:08 |
+| 232g-J1J2 (159) | Human | the same, then "that would basically reverse this problem" | **Human (100%)**, 18:40:14 |
+| 232g-J2J3 (153) | Human | the same | **Human (100%)**, 18:40:23 |
+| 232g-P12fP10aJ1 (173) | Human | P12f and P10a passed in runs; then his J1 | **Human (100%)**, 18:40:28 |
+| 232g-P9kP11kP12f (142) | Human | P9k passes alone; P11k's fragments passed after it with P10a between | **Human (100%)**, 18:40:32 |
+| 232g-R14 (84) | Human | P14q's three sentences, then "so there has to be a dynamic, living, always re-assessed balance" | **Human (100%)**, 18:40:37 |
+| 232g-R15 (96) | Human | "Well, it is gatekeeping.", "and that's fine" | **Human (100%)**, 18:40:41 |
+| 232g-R16 (53) | Human | "It should go without saying", "they will naturally not belong at a certain point" | **Human (100%)**, 18:40:51 |
+| 232g-R17 (86) | Human | "But again, balance, because" | **Human (100%)**, 18:40:57 |
+| 232g-R18 (94) | Human | the boyfriend example in parentheses | **Human (100%)**, 18:41:00 |
+| 232g-R18R19 (115) | Human | "then you can vote with your feet" | **Human (100%)**, 18:41:05 |
+| 232g-H2CAPP13aR14 (113) | Human | the caption and R14 | **Human (100%)**, 18:41:13 |
+| 232g-S11v16 (1,319) | Human | his text throughout the second half | **Human (100%, 1,354 words scanned)**, 18:41:21 |
+
+Score for 232g (v11, Joel's rewrite of 2026-10-11 18:35): 14 of 14 calls right; saying AI every time would have scored 0 of 14. Every text was his own wording or ran into his, so this says little about my reading of AI shapes.

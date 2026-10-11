@@ -465,7 +465,7 @@ Even if nobody uses money internally, communities still need the same honesty ab
 
 When you create or apply a rule to deal with a collision of two principles, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.
 
-<!-- CANDIDATE: section 11 v10 (2026-10-11), Joel's answers of 02:57 UTC in: 1 to 3 A (kept items stay), his own paragraph after P10 on land and admission (P10j, typos fixed only, his straight apostrophes kept), P18 "the prerequisites for it are a ceremony rule the community holds, separate from the personal principles above" (5A), P19 "different from the daily signs above" (6A). Pangram web app (the final test): the section 100% Human (1,199 words scanned, 04:07:38 UTC, batch 231g); every paragraph passes alone or beside a neighbor that passes alone. Gate: review-a4 (trace D1, cold read a5, stance a4 and a focused re-check), with dispositions. 4 A waits for his words for "willing to be seen". Records: s11/PREDICTIONS-s11.md (228g to 231g), s11/section-v10.md, s11/candidate-v10-keys.json. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 11 v11 (2026-10-11), Joel's message of 18:35 UTC: "willing to be seen" cut; his article version of the land paragraph (J1 to J3) after P10, with P10 and J1 to J3 moved to the end of the first subsection; his rewrite of the second subsection (R14 to R19; P13 unchanged). Typos fixed only ("ends by up treating"). Pangram web app: the section 100% Human (1,354 words scanned, 18:41:21 UTC, batch 232g); every paragraph passes alone or in its run. Records: s11/PREDICTIONS-s11.md (232g), s11/section-v11.md, s11/candidate-v11-keys.json, s11/joel-1835/, s11/review-a5/. Not accepted until Joel says so. -->
 # Founderism: The Four Questions
 
 In every community there was somebody who took the initiative to get it started. Somebody found the land, wrote the first documents, taught the method, recruited the first members, or kept things going when everybody else lost interest.
@@ -486,13 +486,17 @@ Then follow the practical power. Whose name is on the deed? Who's in charge of t
 
 Remember, it's not an override unless it can actually work on the person in question. If the founder selects the person to review the founder, holds the records, has title to the land, and can kick out complainers, then there's no way for the community to override the founder, no matter how many circles it holds.
 
-Ask these questions about any community, teacher or method. And ask them about me, if people end up living on land I buy.
-
-So this is not just a problem for me, it's a problem in every community, but especially in communities which form naturally over time as I'm describing may happen in my case. In such cases, there's no formal community and no formal rules until people decide to come together to make them. It doesn't make sense to do that at first, if I'm the only one there and I don't know who else will be there that I could trust. If there's one other person who comes to visit, it also doesn't make sense, so there's a critical mass point at which people decide "we were just living together like friends, but now we want to formalize the community". If I could find a group of people and join them right now, this problem wouldn't exist. I haven't found them yet.
-
 Also watch for the daily signs. Increasing focus on the founder over time. Sense that disagreement is failure. Every bad result is blamed on lack of good implementation. Increasing “insider” knowledge while public accountability decreases. Results are never measured. Sense that former members become morally contaminated the moment they leave.
 
 Presence of one of these alone isn't proof of abuse, but if several are present, they are worth paying attention to before the founder can explain how the situation is uniquely different in a spiritual way.
+
+Ask these questions about any community, teacher or method. And ask them about me, if people end up living on land I buy.
+
+While founderism is a problem in every community, it's especially so in communities which form naturally over time as I'm describing may happen in my case. In such cases, there's no formal community and no formal rules until people decide to come together to make them. It doesn't make sense to do that at first, if, say, I'm the only one there and I don't know who else will be there that I could trust. If there's one other person who comes to visit, it also doesn't make sense, so there's a critical mass point at which people decide "we were just living together like friends, but now we want to formalize the community."
+
+If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. But if we are all starting together from scratch, then we would all be at an equal probationary level with each other.
+
+It's a bit like the process of getting married. At first, you visit your girlfriend or boyfriend when schedules align and each of you agrees. Over time as you get closer to marriage (which hopefully is not a fully unconscious process), you start making decisions together and considering sharing more and more resources. Once married, if you decide to divorce, you split up the resources, although that's also contentious depending on how long the marriage was for, whether one person feels tricked, etc,  and unfortunately often ends up in court.  When joining or forming a commune, we can hopefully be more conscious about the process and less romantic.
 
 ## How My Own Model Could Become a Cult
 
@@ -502,19 +506,17 @@ Presence of one of these alone isn't proof of abuse, but if several are present,
 
 Every practice in this article can be turned against the people using it.
 
-“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the [ZEGG Forum](https://www.theartofrelating.com.au/zegg-forum.html) practice. A group starts out inviting honesty and ends up treating privacy as resistance.
+“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the [ZEGG Forum](https://www.theartofrelating.com.au/zegg-forum.html) practice. A group starts out inviting honesty and ends up treating privacy as resistance. But privacy also can be resistance to the communal spirit, so there has to be a dynamic, living, always re-assessed balance between what you and the community owe each other, and what remains your own domain.
 
-Peer counseling can become peer surveillance, even if the tone is warm. And when things are required as pre-reqs for people to get medicine, it can put a lot of power in the hands of the gatekeepers, right when people are at their most open. Even something couched in words like “willing to be seen” could become a demand that everyone disclose whatever the group wants them to.
+Peer counseling can become peer surveillance, even if the tone is warm. And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that's fine. Some communities will be stricter gatekeepers, and others will be more lax. There are pros and cons to each extreme, and again, a living balance must be struck.
 
-The boundary is simple. These aren't principles to give the community power over me, they're principles I choose to guide my own practice.
+It should go without saying that nobody has to take medicine to have equal respect in the community. But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point.
 
-“Nothing suppressed” applies to myself and my relationship with my own material. It doesn't give anyone the right to pull anything out of me. Any member can choose not to share material, and they don't need to provide a therapeutic rationale for not sharing.
+No single person or permanent group of people should handle grievances and have the power to decide who gets into or stays in the community. Each person should have a usable avenue for exit. Dissent is important for growth. That doesn't mean everything everyone says is equally valid, though. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that's as much a failure, if not more so.
 
-Nobody has to take medicine, and the prerequisites for it are a ceremony rule the community holds, separate from the personal principles above. Your decision not to take medicine can't reduce your rights as a member. No single person or permanent group of people will have the power to decide who gets into the community. And when you disagree with someone, they have to answer your disagreement as a disagreement.
+There are some basic human rights that can’t be voted away from you by the majority in a community, unless it's a question of resource availability as a whole. If safety and the conditions for health can be provided, it should be provided. People should be able to maintain relationships with others outside the community, as long as those relationships don't interfere with the community as a whole (for example, you can't bring your boyfriend to live with you if he's not only not a member of the community, but also antagonistic towards it).
 
-“Your resistance is your wound talking” is pretty much a conversation ender, which is why it's different from the daily signs above: once your disagreement gets diagnosed, you can't bring up any of them either. Once you notice a community diagnosing dissent like this instead of answering it, leave. Don't wait until they schedule a group process about your leaving.
-
-There are some basics that can’t be voted away from you by the majority in a community. These are: safety of your body; access to adequate food and sleep; ability to see a doctor of your choice; the ability to keep your thoughts to yourself; ability to communicate with people outside the community; the ability to report harm without going through the friends of the accused person; and a usable way of leaving the community. If these things are taken away from you, even by a majority vote, it is not consensual.
+If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
 # The Math of Absorption, and Who This Isn’t For
 
