@@ -1330,6 +1330,19 @@
       "example": "That paragraph is load-bearing for the whole section about the land trust. Without it the later chapters on money make very little sense."
     },
     {
+      "id": "W83",
+      "tell": "\"required as pre-reqs\": a prerequisite is already required",
+      "kind": "mechanical",
+      "sources": [
+        {
+          "file": "docs/HUMANIZATION-GATE.md",
+          "quote": "p15, you can' tsay \"required as pre-reqs\" that's redundant,, just say \"when things are pre-reqs\""
+        }
+      ],
+      "rule": "O38",
+      "example": "And when things are required as pre-reqs for people to get medicine, the circle holds a lot of power. Most of the time the circle is just three or four tired neighbors."
+    },
+    {
       "id": "J01",
       "tell": "\"and close syntactic variants\" of significance staging; \"and close variants\" of I care about... etc.; \"oddly arrogant or performatively intimate\"",
       "kind": "judgment",
@@ -2100,6 +2113,18 @@
         }
       ],
       "reason": "A reading."
+    },
+    {
+      "id": "J50",
+      "tell": "a word that says again what the word next to it says",
+      "kind": "judgment",
+      "sources": [
+        {
+          "file": "docs/HUMANIZATION-GATE.md",
+          "quote": "Whether two other words say the same thing stays a reader's call"
+        }
+      ],
+      "reason": "Which words repeat each other is a matter of meaning; O38 checks only the family Joel caught."
     }
   ]
 }
