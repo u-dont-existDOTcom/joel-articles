@@ -467,3 +467,62 @@ Batch 260g (written 03:33 UTC on 2026-10-12 by `date -u`, before the call; `v260
 | 260g-L4y4P17z3 (70) | Human | both passed inside the list run | **Human (100%)**, 03:33:14 |
 
 Score for 260g: 1 of 1; saying AI every time: 0 of 1. v9 passes every check: each paragraph alone or in a run with a neighbor that passes alone (P1t6 with the heading; L2f and L3e from P15n2; the list's end as a pair and in the list run), and the section, Human Written, 0% AI (259g).
+
+## Joel's message of 2026-10-12 05:33 UTC: v10
+
+His decisions (OWNER-EDITS.json, s12-joel-20261012-0533): 17b, 18b; P3, P7 and P16 back to the guide's text (my versions broke their meaning), P16 with his own last sentence ("Even then, the power to veto membership applications based on capacity remains dangerous."); P22 out of parentheses ("2 parentheticals in a row"). Page numbers: the chart is P5, so his P7 is the published P6 and his P16 the published P15. The guide's P3 opens with "So", which makes three "So" openers with P13 and P15 (the linter's B13), so P13's "So" becomes "then" inside the sentence, with a named subject instead of "it" (P13q3 "Welcoming someone is ...", P13q4 "The ability to welcome somebody is ...").
+
+Batch 261g (written 05:38 UTC on 2026-10-12 by `date -u`, before the call; `v261.json`, parts in `fix-v5-parts.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 261g-P2mP3g (121) | AI | the guide's P3 ("So the question isn't ... The practical question is ...") read AI with P4 as published (234g) | **AI (100%)**, 05:39:23 |
+| 261g-P3gP4m (98) | AI | the same | **Mixed (51% AI: P3g, 49w)**, 05:39:27 |
+| 261g-P5n3P6gP7n1P8m (124) | Human | one short guide sentence among three passing paragraphs | **Human (100%)**, 05:39:31 |
+| 261g-P16g (77) | AI | the guide's P15 read 100% AI (234g); two changes of his don't change its shape | **AI (100%)**, 05:39:38 |
+| 261g-P12s (74) | Human | P12r1 passed; "or even more of it" added | **Human (100%)**, 05:39:43 |
+| 261g-P12sP13q3 (106) | Human | "Welcoming someone is partly a question of resources, then" | **Human (100%)**, 05:39:47 |
+| 261g-P12sP13q4 (109) | AI | "The ability to welcome somebody is partly ..." is the guide's subject | **Human (100%)**, 05:39:52 |
+| 261g-P10aP12s (123) | Human | P10aP11r1 passed | **Human (100%)**, 05:39:57 |
+| 261g-L4y4P22n (71) | Human | P22 as a plain paragraph; "Any" passed in parentheses | **Human (100%)**, 05:40:05 |
+| 261g-U8n (145) | Human | the list run passed with P22 in parentheses | **Human (100%)**, 05:40:09 |
+| 261g-P16gP16fL1w2 (120) | AI | the guide's P15 again | **Mixed (68% AI: P16g, 80w)**, 05:40:14 |
+| 261g-S12v10a (874) | Mixed | P3 and P16 in the guide's words | **Mixed (30% AI, 897 words: "y. So the question isn’t whether a … them without being consum", P3g, 49w; "bers is less. With only eight peopl … ons based on capacity rem", P14's second sentence to P16g's end, 144w; the L4-to-P22 window, 63w)**, 05:40:19 |
+| 261g-S12v10b (877) | Mixed | the same | **Mixed (23% AI, 900 words: P3g, 49w; P14's second sentence to P16g's end, 144w)**, 05:40:23 |
+
+Score for 261g, counted strictly: 10 of 13 (P3gP4m and P16gP16fL1w2 Mixed, not AI; P12sP13q4 Human where I said AI); pass or no pass: 12 of 13; saying AI every time: 2 of 13. The guide's P3 and P16 read AI, as published; the guide's P7 sentence passes in its run, and so do 18b, P13 without "So" and P22 without parentheses. **v10 = v10b** (P13q4 "The ability to welcome somebody is partly a problem of resources, then, not compassion", the guide's subject): 23% AI, all of it in the windows over P3 and P16.
+
+The new checks on v10 (`preservation-keys.json`, and the fixed trace brief's validation run TV2): P15 (page numbering; the published P14) had lost "available" ("more resource than acute need" for "more available resource than acute need"). P14p4 puts the guide's word back.
+
+Batch 262g (written 06:41 UTC on 2026-10-12 by `date -u`, before the call; `v262.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 262g-P13p2P14p4 (96) | Human | one word added to a pair that passed | **Human (100%)**, 06:41:40 |
+| 262g-S12v10c (878) | Mixed | P3 and P16 in the guide's words, as in v10 | **Mixed (30% AI, 901 words: P3g, 49w; P14's second sentence to P16g's end, 145w; the L4-to-P22 window, 63w)**, 06:41:44 |
+
+Score for 262g, counted strictly: 2 of 2; pass or no pass: 2 of 2; saying AI every time: 0 of 2. **v10c is the version to install**: it has every decision of his 05:33 message and passes the key-word check, and it reads as v10a did (30% AI), on the guide's P3 and P16 and, once, on the list run. Those are his words as published; whether to re-humanize them goes to him (question 19).
+
+Batch 263g (written 07:40 UTC on 2026-10-12 by `date -u`, before the call; `v263.json`, parts in `fix-v6-parts.json`). The sweep of the article for Joel's 05:33 kinds of break (`sweep-20261012/`) found two in my section 12 text: P22's "people who fall into these categories" narrows the published "every limit", and P13's "fix the cars" narrows "equipment repaired". Both get the general word back.
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 263g-P22w | Human | the v10 shape, which passed, with "not turning every limit into a flat-out rejection" | not checked: under the dashboard's minimum length (the button stays off), so it is checked with L4 |
+| 263g-L4y4P22w | Human | L4y4P22n passed (261g) | **AI (100%)**, 07:41:34 |
+| 263g-P13p2w | Human | "fix whatever breaks" is plainer than "fix the cars" | **Human (100%)**, 07:41:38 |
+| 263g-P13q4P13p2wP14p4 | Human | each passed with a neighbor | **Human (100%)**, 07:41:50 |
+| 263g-S12v10d | Mixed | v10c read 30% AI on the guide's P3 and P16, which don't change | **Mixed (30% AI, 900 words: P3g, 49w; P14's second sentence to P16g's end, 145w; the L4-to-P22 window, 62w)**, 07:41:55 |
+
+Score for 263g, counted strictly: 3 of 4 checked (L4y4P22w AI where I said Human); pass or no pass: 3 of 4; saying AI every time: 1 of 4. "fix whatever breaks" passes alone and in its run. "not turning every limit into a flat-out rejection" reads AI with L4, where P22n passed, so P22 needs another way to say "every limit".
+
+Batch 265g (written 07:44 UTC on 2026-10-12 by `date -u`, before the call; `v265.json`). Two other ways to keep the published "every limit" in P22: P22x "not flat-out rejecting people every time it hits a limit"; P22y "people who fall into these categories, or anyone else it can't take right now".
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 265g-L4y4P22x | Human | P22n's shape, which passed with L4, and a plain "every time it hits a limit" | **Human (100%)**, 07:44:31 |
+| 265g-L4y4P22y | AI | longer, and the added clause reads tacked on | **Human (100%)**, 07:44:36 |
+| 265g-S12v10e | Mixed | the guide's P3 and P16 don't change | **Mixed (45% AI, 902 words: P3g, 49w; P10a's end into P12s, 60w; P13p2w's second sentence to P22x's end, 299w)**, 07:44:41 |
+| 265g-S12v10f | Mixed | the same | **Mixed (30% AI, 910 words: P3g, 49w; P14's second sentence to P16g's end, 145w; the L4-to-P22 window, 72w)**, 07:44:50 |
+
+Score for 265g, counted strictly: 3 of 4 (L4y4P22y Human where I said AI); pass or no pass: 3 of 4. Both new P22s pass with L4. In the section, P22x makes it worse (45%) and P22y leaves it where v10c was (30%, the same three windows). **v10f** (v10c with "fix whatever breaks" and P22y) is the version to install: it keeps every key word, and its windows are the guide's P3 and P16 and the list run, as before.
+

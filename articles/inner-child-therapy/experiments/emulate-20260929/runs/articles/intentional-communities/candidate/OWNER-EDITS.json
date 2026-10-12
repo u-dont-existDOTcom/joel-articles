@@ -698,6 +698,28 @@
    "must_not_contain": [
     "Decide the process before the name"
    ]
+  },
+  {
+   "id": "s12-joel-20261012-0533",
+   "what": "Section 12, Joel's message of 2026-10-12 05:33 UTC: answers 17b and 18b; P3, P7 and P16 back to the guide's text, because my versions broke their meaning (P3 lost \"for community\", P7 became \"But it's not infinite.\", P16 lost \"this language of capacity\", \"capacity\" and \"remains\"); his own last sentence for P16, which names the power; P22 out of parentheses (\"that's 2 parentheticals in a row\"). Page numbering: the chart is P5.",
+   "status": "applied",
+   "joel": "17b 18b ... p3 got b roken because you changed \"\"good enough\" for community to \"good enough\" and i'm not understand anymore what they are good enough for. then you broke p7 by reducing it to \"but it's not infinite\" ? what? p16 also broke the meaning on the first sentence. it's not about \"i don't have the capacity to\" it's literalyl exactly what the guide said... and then broke again when it changed \"pretending capacity is unlimited\" to \"pretending 'it' is unlimited\" ... it referring to what? unclear. and broke again with last sentence too, you can't just remove \"remains\" and keep the same meaning. and even the original guide is confusing, what power? say \" Even then, the power to veto membership applications based on capacity remains dangerous.\" revert those to guide exactly. debug the error so it doesn't happen again (that shoudl go without saying of course). you can't put p22 into parentheses... that's 2 parentheticals in a row... continue",
+   "must_contain": [
+    "So the question isn’t whether a person is “good enough” for community.",
+    "That does not make the community infinitely absorbent.",
+    "I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, unfamiliar with therapeutic language, or simply inconvenient.",
+    "Pretending capacity is unlimited won’t solve that.",
+    "review by someone who wasn’t part of the decision",
+    "Even then, the power to veto membership applications based on capacity remains dangerous.",
+    "the same need, or even more of it,"
+   ],
+   "must_not_contain": [
+    "But it’s not infinite.",
+    "How to use the framing of",
+    "pretending it’s unlimited",
+    "allowing for outside review",
+    "(Any humane membership process"
+   ]
   }
  ]
 }

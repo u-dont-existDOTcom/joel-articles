@@ -1,30 +1,28 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-12 03:50 UTC. **Open questions: 2.** To answer, reply in chat with the number and the letter, for example `17: B`, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-12 07:55 UTC. **Open questions: 1.** To answer, reply in chat with the number and the letter, for example `19: B`, or in your own words. Everything else in my messages is status.
 
-This file is the page's master copy (in Git, so a session in either of your accounts can read and update it). The passages each question is about are on the side-by-side pages: for 17 and 18, `community-section12-side-by-side.html`.
+This file is the page's master copy (in Git, so a session in either of your accounts can read and update it). The passages each question is about are on the side-by-side pages: for 19, `community-section12-side-by-side.html`.
 
 ## Open questions
 
-**17. Section 12, "outside review" (your published sentence).** The end of P16 (on the section 12 page; the chart counts as P5) says a real process for "not now" decisions would need "concrete criteria, outside review, and a way to revisit a 'not now' decision". The new version keeps all three ("that's going to require actually making concrete criteria, allowing for outside review, allowing for re-visiting a "not now" decision"). Every stance check this round (five) says "outside review" goes against two things you've said since: at 18:35 yesterday, "before critical mass, my rules apply, because it's my land ... i decide who stays, i decide who leaves"; and on 10-07, against forcing communities "to accept outside intervention". The section is about founding groups and early members, which is the stage before critical mass.
-- A: keep "outside review" as it is.
-- B: "review by someone who wasn't part of the decision" (an independent check, not necessarily from outside the community).
-- C: cut it, and keep concrete criteria and a way to revisit a "not now" decision.
+**19. Section 12, P3 and P16 read AI in the guide's words.** P3, P7 and P16 are back to the guide's words, as you asked, with your 17b, 18b and last sentence of P16 in. Every paragraph I wrote passes on its own or with its neighbor, but the section reads 30% AI (batch 265g, 910 words): Pangram flags all of P3 (49 words), and a stretch from P14's "With only eight people" to the end of P16 (145 words, over P15 too). Those are the published sentences, except your changes in P16. A third, shorter window covers the end of the list and P22.
+- A: leave them as they are; the section stays at about 30% AI.
+- B: I humanize P3 and P16 again, keeping every word their meaning rests on. Those words are now checked by code before anything else ("for community", "this language of capacity", "Pretending capacity is unlimited", "remains" and the rest), and the meaning check now treats a pronoun standing for one of them as a change. You'd see each change beside the guide before it goes in.
+- C: you rewrite P3 and P16 in your own words, as you did in section 11.
 
-My recommendation is B. It keeps the check against capacity talk turning into a polite way to exclude people, and it doesn't say outsiders get a say on your land. Until you answer, the published words stay. Either change is one phrase, and I'd check it on Pangram before it goes in.
-
-**18. Section 12, the chart and "the same need".** P12 says eight people with two in crisis may spend most of their attention on them, while "in a group of eighty people, the same need can often be spread across lots of relationships and roles". Your chart, just above, shows eighty people with five in crisis ("1 in 16 — carried, and barely felt"). Three of the four cold readers stopped there: "the same" doesn't match the five they had just seen. Both the words and the chart are published.
-- A: leave it.
-- B: "the same need, or even more of it," (fits the chart and keeps your claim).
-- C: say what the chart shows: "even five people in crisis can often be carried across lots of relationships and roles".
-
-My recommendation is B.
+My recommendation is B: the checks that let my last versions through are fixed and tested, and you keep the final say on each sentence. Until you answer, the guide's words stay.
 
 ## For you to do (no decision needed)
 
-Nothing. Pull request 160 (the rules from your 23:12 answers) is merged.
+- Merge pull request 166 when you're ready: the rules from your 05:33 message (what a claim rests on, the key-word check, two parentheticals in a row).
 
 ## Decided
+
+- 2026-10-12 05:33 UTC: "17b 18b". In: P16 has "review by someone who wasn't part of the decision", P12 has "the same need, or even more of it,".
+- 05:33: "p3 got b roken because you changed ""good enough" for community to "good enough" ... then you broke p7 by reducing it to "but it's not infinite" ? what? p16 also broke the meaning ... revert those to guide exactly." Done: P3, P7 and P16 are the guide's words again, with your sentence at the end of P16: "Even then, the power to veto membership applications based on capacity remains dangerous." What let my versions through, and what now stops it, is in pull request 166: the meaning check now treats a pronoun for a named thing, a narrower thing for a general one, and a dropped "remains", "still" or "for community" as changes (tested blind: 6 of 6 planted breaks caught, no false alarms), the cold read asks what "it" and "the power" point to, and a script checks the words each claim rests on before anything else.
+- 05:33: "you can't put p22 into parentheses... that's 2 parentheticals in a row..." P22 is a plain paragraph now, and the linter fails two parentheticals in a row.
+- The same kind of break elsewhere: a sweep of sections 1 to 12 found it in three more places in my text, now fixed (section 12's "fix the cars" and P22's "people who fall into these categories" narrowed the published words; section 11's "If it needs the founder's blessing" had lost "every" and "still"). It flagged 14 places in your own paragraphs, which stay as you wrote them, and one in section 4 I kept, with the reason (`sweep-20261012/SWEEP-RESULTS.md`).
 
 - 2026-10-11 23:12 UTC, on question 11: "a". 😂 is on the allowlist (pull request 160).
 - 23:12, on question 12: "let's say a grandmother is demonizing the commune. cutting contact with her could make things way worse. i think the commune needs to intervene and help people decide on how to communicate with outsiders when it's tricky and dangerous for everyone like this. that's not advice I or anyone else can give now, it's in the moment, context by context." In, as R18b, right after the boyfriend example. My changes: "step in and help" for "intervene and help", so it doesn't read as the commune taking contact out of people's hands, and "ahead of time" for "now".

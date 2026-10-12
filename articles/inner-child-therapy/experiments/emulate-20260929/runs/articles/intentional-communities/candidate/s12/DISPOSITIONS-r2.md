@@ -58,3 +58,11 @@ Kept, one reviewer against others:
 ## Not changed, for Joel (information)
 
 - The chart repeats two of the section's sentences before the text says them ("A community can absorb only as much need as its members have free resource to meet." and "The cruel paradox: small communities need new members most and can absorb them least.").
+
+## Joel's message of 2026-10-12 05:33 UTC: where these dispositions were wrong
+
+The rule above (fix what two reviewers raise; keep a finding one trace raised against others' EQUIVALENT) let three of his five breaks through:
+- **P3, "for community".** Round r3's trace flagged "good enough" without "for community" as LOST. Other rounds called it EQUIVALENT, so it stayed. The ledger unit U7 had itself dropped "for community", so the traces held the draft to a shortened unit.
+- **P7, "But it's not infinite."** and **P16, "this language of capacity", "pretending it's unlimited", "the power is dangerous".** Two or three traces called each EQUIVALENT under the brief's "Conversational is not a shift"; no reviewer raised them, so no disposition rule could have caught them.
+
+Now: a lost key word, or a pronoun standing for a named thing, is restored whoever raised it (`docs/HUMANIZATION-GATE.md`, step 4); the trace brief names these kinds; and `preservation-keys.json` (35 units, each with its key words) is checked by code before any trace (`tools/humanization/preservation_keys.py`). v9 fails it on 8 units; v10f passes. Joel's decisions are in v10f: P3, P7 and P16 in the guide's words, 17b, 18b, his last sentence of P16, and P22 without parentheses (`OWNER-EDITS.json`, `s12-joel-20261012-0533`).

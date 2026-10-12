@@ -465,6 +465,7 @@ Even if nobody uses money internally, communities still need the same honesty ab
 
 When you create or apply a rule to deal with a collision of two principles, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.
 
+<!-- 2026-10-12: section 11 v13 = v12 with P5c ("If every change they make still needs the founder's “blessing”"; the published "every" and "still" back, found by the sweep in sweep-20261012/). The section 100% Human (1,686 words, 07:46:55 UTC, batch 267g), P5c with P4 100% Human (268g); s11/PREDICTIONS-s11.md. -->
 <!-- CANDIDATE: section 11 v12 (2026-10-12), Joel's answers of 2026-10-11 23:12 UTC fitted into his paragraphs under his 18:35 rule (an answer in chat is content, fitted in context, changes shown): J3b names the divorce half; J4 his answer on terms for visiting friends; R14c his answer on private practices, with "some practices go too far against the communal spirit" from a cold read's "no principle"; R16c and R16d his answer on members who don't fit in; R18b his grandmother case. Pangram web app: the section 100% Human (1,682 words scanned, 00:00:52 UTC, batch 233g); every changed paragraph 100% Human alone and in its run. Gate round a6 (s11/review-a6/). Records: s11/PREDICTIONS-s11.md (233g), s11/section-v12.md, s11/candidate-v12-keys.json, s11/fix-v25-parts.json, s11/joel-2312/. Not accepted until Joel says so. -->
 # Founderism: The Four Questions
 
@@ -476,7 +477,7 @@ I know this personally. Many of the methods discussed in this article were my do
 
 A few things help keep that in check. One is to judge the method by results people can actually see. Are the members flourishing, and are they safe? Can conflicts get resolved? Can people disagree, leave, and later tell a different story about it? Are the kids doing well once they grow up? Is the community still materially viable? Can it correct a prediction that turned out wrong? Can it replace the founder? And if it's meant to spread, do new projects actually start up and last? How long a community has lasted, how full it is, whether it reaches consensus and how many members stay aren't enough on their own. A group can keep its members because people love it, or because leaving costs too much. And don't judge it by how closely people stick to the founder's own interpretation.
 
-Allow for parallel implementations. Fork the method. If the community finds a way to alter Hearthwork and get better results, they've taught me something. If it needs the founder's “blessing”, then it's not really running in parallel, is it?
+Allow for parallel implementations. Fork the method. If the community finds a way to alter Hearthwork and get better results, they've taught me something. If every change they make still needs the founder's “blessing”, then it's not really running in parallel, is it?
 
 Here are the four questions about the founder:
 
@@ -524,14 +525,14 @@ It can be tricky to spell everything out, though. Let's say a grandmother is dem
 
 If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
-<!-- CANDIDATE: section 12 v9 (2026-10-12), "continue" (Joel, 01:02 UTC): Emulate's passing shapes with the meaning put back one change at a time, then the fixes from gate rounds r2 to r5 (s12/DISPOSITIONS-r2.md). Pangram web app: the section 100% Human ("Human Written", 907 words, 03:32:03 UTC, batch 259g); every paragraph 100% Human alone or in a run with a neighbor that passes alone (s12/PREDICTIONS-s12.md, 237g to 260g). Records: s12/section-v9.md, s12/candidate-v9-keys.json, s12/fix-v1-parts.json to fix-v4-parts.json, s12/STANCE-LEDGER-s12.md, s12/review-r1 to review-r5. Open for Joel: questions 17 ("outside review", published) and 18 (the chart and "the same need"), where the published words stay until he answers. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 12 v10f (2026-10-12), Joel's message of 05:33 UTC: 17b ("review by someone who wasn't part of the decision"), 18b ("the same need, or even more of it,"), P3, P7 and P16 back to the guide's words ("revert those to guide exactly"), his last sentence of P16 ("Even then, the power to veto membership applications based on capacity remains dangerous."), P22 out of its parentheses ("2 parentheticals in a row"); P13 names its subject ("The ability to welcome somebody"), P14 has the guide's "available" back, and the sweep for the same kind of break put back the published generality in P13 ("fix whatever breaks") and P22 ("or anyone else it can't take right now"). Key-word check PASS (s12/preservation-keys.json). Pangram web app: Mixed, 30% AI (910 words, 07:44:50 UTC, batch 265g), on the guide's P3 and P16 and the list run, as v10c; every paragraph that isn't his or the guide's reads 100% Human alone or with a neighbor (s12/PREDICTIONS-s12.md). Open for Joel: question 19 (P3 and P16 read AI in the guide's words). Not accepted until Joel says so. -->
 # The Math of Absorption, and Who This Isn’t For
 
 Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
 
 This does not surprise me, since we are taught to put on a show of competence in modern society. We have a lot of incentives to hide ourselves in our lives and disappear behind our screens the second things get uncomfortable. We have been encouraged by our institutions to be narrow in our skills, and then they act surprised when nobody can sit through a conflict without appointing a subcommittee or blocking somebody.
 
-Instead of asking "Is this person good enough?", the practical questions to ask are, "How much attention can this person bring to other people right now? How available is he or she to engage in self-examination? And how available are we to this person, without being consumed by him or her?"
+So the question isn’t whether a person is “good enough” for community. The practical question is how much attention they currently have available for other people, how willing they are to examine their own reactions, and whether the group has enough capacity to support them without being consumed.
 
 Some people have engaged in long practices of contemplation or therapy, or have had very good luck in childhood; other people are just trying to survive some emergency in their life and need care more than responsibility. Most of us are all of these at different times in our lives.
 
@@ -539,7 +540,7 @@ Some people have engaged in long practices of contemplation or therapy, or have 
 
 In the model I’m imagining, some of the functions that are outsourced to therapists in modern society are distributed throughout the community. In other words, there’s a lot of [peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) going on, people listening to each other, being there for each other and helping each other process ordinary emotional stuff.
 
-But it’s not infinite.
+That does not make the community infinitely absorbent.
 
 I’m going to use the phrase “[free resource](https://www.rc.org/),” which comes from Re-evaluation Counseling, to refer to the attention, steadiness, skill and practical capacity people have left over for others once they’ve dealt with enough of their own immediate stuff, and “need” to refer to the amount of help people need at a given time.
 
@@ -549,15 +550,15 @@ My own need has exceeded my free resource at many points. Good Lord. During one 
 
 I could go on and on, but the math is pretty clear by now. There wasn’t much of me left over for anybody else. So when I say someone might need to stabilize and do inner pl/ork before helping found a community, I’m not saying it from a mountaintop.
 
-The problem is that, in a group of eight people, if two are in a sustained crisis mode, the group may end up spending most of its attention caring for those in crisis. However, in a group of eighty people, the same need can often be spread across lots of relationships and roles. A group can only absorb as much need as its members have free resource to meet.
+The problem is that, in a group of eight people, if two are in a sustained crisis mode, the group may end up spending most of its attention caring for those in crisis. However, in a group of eighty people, the same need, or even more of it, can often be spread across lots of relationships and roles. A group can only absorb as much need as its members have free resource to meet.
 
-So it’s partly a problem of resources, not compassion -- how many people can a group take in without hurting the existing members or the people they are taking in?
+The ability to welcome somebody is partly a problem of resources, then, not compassion -- how many people can a group take in without hurting the existing members or the people they are taking in?
 
-There is a difficult paradox to consider. The need for new members in a small community is greater, but the ability of that community to tolerate the disruption of new members is less. With only eight people in the community, someone still has to grow the food, fix the cars, balance the books, watch the kids, and maintain the water system. The water well doesn’t care how beautiful someone’s heart is.
+There is a difficult paradox to consider. The need for new members in a small community is greater, but the ability of that community to tolerate the disruption of new members is less. With only eight people in the community, someone still has to grow the food, fix whatever breaks, balance the books, watch the kids, and maintain the water system. The water well doesn’t care how beautiful someone’s heart is.
 
-So early on, members usually need to have more resource than acute need, and some practical skills to contribute, and a willingness to learn.
+So early on, members usually need to have more available resource than acute need, and some practical skills to contribute, and a willingness to learn.
 
-How to use the framing of “I don’t have the capacity to…” without it becoming a respectable way to exclude disabled people, poor people, people who aren’t very articulate or don’t have the language of therapy at their fingertips, people who are simply not convenient – I don’t know. It’s not going to be solved by pretending it’s unlimited; that’s going to require actually making concrete criteria, allowing for outside review, allowing for re-visiting a “not now” decision, and all of that. And even then, the power is dangerous.
+I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, unfamiliar with therapeutic language, or simply inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision. Even then, the power to veto membership applications based on capacity remains dangerous.
 
 This community may not be a good fit for you *right now* if:
 
@@ -569,7 +570,7 @@ You’re not willing to look at yourself when jealousy or conflict comes up.
 
 You have a need that far outstrips your free resource right now. (This doesn’t mean you’re bad or doomed, it’s about timing; it may mean you need to take a first step of finding support where you are and building up your resources.)
 
-(Any humane membership process should have ways of not flat-out rejecting people who fall into these categories, like saying “later,” or “in another role,” or “with more support.”)
+Any humane membership process should have ways of not flat-out rejecting people who fall into these categories, or anyone else it can’t take right now, like saying “later,” or “in another role,” or “with more support.”
 
 # Your Little Forming Group Already Is the Community
 

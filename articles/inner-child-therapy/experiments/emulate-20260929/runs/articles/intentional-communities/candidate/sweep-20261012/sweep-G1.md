@@ -1,0 +1,8 @@
+# Sweep
+
+- The New Age; kind 1; published "an unusually complicated labor-credit system"; rewrite "a highly structured political system that didn't seem intuitive for hippies"; the reader now takes Twin Oaks' complication to be a political-governance structure and can't tell it was the labor-credit scheme.
+- Communes Are Hot; kind 3; published "consequences for chronic freeloading"; rewrite "knowing what to do if someone is leeching off the group and how to deal with it"; "chronic" is gone, so any leeching now seems to call for action, and having a plan seems enough where the published says consequences.
+- Communes Are Hot; kind 3; published "enough relational capacity to confront the problem before resentment becomes the real government"; rewrite "developing healthier forms of relationships"; the reader can't tell the need is capacity sufficient to confront freeloading early, before resentment takes over, and now reads it as relationships in general.
+- Communes Are Hot; kind 2; published "learned helplessness"; rewrite "stop trying to act helpless"; the reader now believes people pretend to be helpless, not that they have learned to be helpless.
+- Communes Are Hot; kind 1; published "a natural way of living together"; rewrite "the old way of living"; the reader can't tell whether "old way" means living together or just traditional life, and "natural," the basis of the longing, is gone.
+- Communes Are Hot; kind 2; published "once money, children, jealousy, and ownership enter the picture"; rewrite "the group runs out of money, a baby is born"; the reader now believes trouble arrives only at those events (money running out, a birth), not whenever money or children are part of the group.

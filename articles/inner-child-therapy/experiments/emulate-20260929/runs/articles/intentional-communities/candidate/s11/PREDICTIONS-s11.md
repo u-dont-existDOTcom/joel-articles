@@ -568,3 +568,42 @@ Batch 233g (written 23:59 UTC on 2026-10-11 by `date -u`, before the call; `v233
 | 233g-S11v17 (1,636) | Human | v11 read 100% Human; the additions are his wording | **Human (100%, 1,682 words scanned)**, 00:00:52 |
 
 Score for 233g: 12 of 12 calls right; saying AI every time would have scored 0 of 12. The texts are his wording fitted in, plus three sentences of mine, so again this says little about my reading of AI shapes. Times run past midnight UTC (00:00 is 2026-10-12).
+
+Batch 264g (written 07:40 UTC on 2026-10-12 by `date -u`, before the call; run with section 12's 263g, `v264.json` here; parts in `fix-v26-parts.json`). The sweep of the article for the kinds of break Joel found in section 12 at 05:33 (`sweep-20261012/`) found one in my text here: P5's "If it needs the founder's “blessing”" for the published "If every adaptation still needs the founder's approval" ("it" with no clear target, "every" and "still" gone). P5w: "If every change still needs the founder's “blessing”, then the versions aren't really running in parallel, are they?"
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 264g-P5w | Human | one clause back to the published words; the paragraph passed | not checked: under the dashboard's minimum length, so it is checked with P4 |
+| 264g-P4kP5w | Human | the same | **Human (100%)**, 07:42:31 |
+| 264g-S11v18 | Human | the section read 100% Human (233g) and one clause changes | **Human, "Mostly Human Written" (5% AI, 1,685 words: an 80-word window in P4k, "One is to judge the method by ... do new projects actually start up and last")**, 07:42:35 |
+
+Score for 264g, counted strictly: 1 of 2 (S11v18 "Mostly Human", not 100% as I said); pass or no pass: 2 of 2. P4k didn't change; the change below it moved a window onto it, as in section 12 (gate, "A window can move when text below it changes").
+
+Batch 266g (written 07:44 UTC on 2026-10-12 by `date -u`, before the call; `v266.json`). P5x keeps the old ending ("then it's not really running in parallel, is it?", where "it" is the forked method the paragraph names) and changes only the condition; P5y has "has to get" for "needs".
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 266g-P4kP5x | Human | P4kP5w passed | **Human (100%)**, 07:45:05 |
+| 266g-S11v19 | Human | closer to the text that read 100% Human (233g) | **Human, "Mostly Human Written" (5% AI, 1,684 words: the same P4k window)**, 07:45:10. Not a pass |
+| 266g-S11v20 | Human | the same | **Human, "Mostly Human Written" (5% AI, 1,686 words: the same P4k window)**, 07:45:14. Not a pass |
+
+Score for 266g, counted strictly: 1 of 3; pass or no pass: 1 of 3. Three wordings of P5's last sentence each bring the same 80-word window onto P4k's string of questions, which passes alone and with P5. The window sits at the edge, so the next tries vary the sentence's start.
+
+Batch 267g (written 07:46 UTC on 2026-10-12 by `date -u`, before the call; `v267.json`): four more wordings of P5's last sentence, each in the whole section. P5a drops "then"; P5b "it isn't"; P5c "every change they make"; P5d opens with "But".
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 267g-S11v21 | Human (weak) | a window at the edge can go either way | **Human, "Mostly Human Written" (5% AI: the P4k window)**, 07:46:47. Not a pass |
+| 267g-S11v22 | Human (weak) | the same | **Human, "Mostly Human Written" (5% AI: the P4k window)**, 07:46:51. Not a pass |
+| 267g-S11v23 | Human (weak) | the same | **Human (100%), "Human Written"** (1,686 words), 07:46:55 |
+| 267g-S11v24 | Human (weak) | the same | **Human (100%), "Human Written"** (1,685 words), 07:47:02 |
+
+Score for 267g: 2 of 4 passed, as "weak" said. **P5c** ("If every change they make still needs the founder's “blessing”, then it's not really running in parallel, is it?") is the one to install: the closest to the published "every adaptation still needs", with "they" the community the sentence before names. Section 11 v13 = v12 with P5c.
+
+Batch 268g (written 07:48 UTC on 2026-10-12 by `date -u`, before the call; `v268.json`): P5c with its neighbor (it is under the dashboard's minimum alone).
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 268g-P4kP5c | Human | P4kP5w and P4kP5x passed | **Human (100%)**, 07:48:27 |
+
+Score for 268g: 1 of 1. Section 11 v13 (v12 with P5c) is installed: the section 100% Human (267g-S11v23), P5c with P4 100% Human (268g).
