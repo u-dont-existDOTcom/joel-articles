@@ -22,6 +22,11 @@ paragraphs will do. Matching against one paragraph, not the whole draft, matters
 section 12, so a whole-draft match would pass a paragraph that had lost it. Matching ignores case, straightens curly
 quotes and apostrophes, and collapses spaces; HTML comments, Markdown link targets and emphasis marks are dropped first.
 Exit 1 when a unit is missing a key.
+
+"section_terms" (optional, 2026-10-12): the section's own words for its subject, such as "absorb" in "The Math of
+Absorption". A unit whose meaning ("what") uses one must list it as a key: trace r6 found "tolerate" where the published
+P13 says "absorb disruption", and the unit had never listed "absorb". The check fails the key file itself when a unit
+leaves its section term out.
 """
 import argparse, json, re, sys
 
@@ -33,6 +38,17 @@ def normalize(text):
     text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
     text = text.replace('*', '').translate(QUOTES)
     return re.sub(r'\s+', ' ', text).lower()
+
+
+def incomplete_units(keys_doc):
+    """Units whose meaning uses a section term that none of their keys requires."""
+    out = []
+    for term in keys_doc.get('section_terms', []):
+        t = normalize(term)
+        for unit in keys_doc['units']:
+            if t in normalize(unit.get('what', '')) and not any(t in normalize(a) for alts in unit['keys'] for a in alts):
+                out.append({'id': unit['id'], 'what': unit.get('what', ''), 'term': term})
+    return out
 
 
 def check(keys_doc, draft):
@@ -61,14 +77,17 @@ def main(argv=None):
     a = ap.parse_args(argv)
     keys_doc = json.load(open(a.keys, encoding='utf-8'))
     missing = check(keys_doc, open(a.draft, encoding='utf-8').read())
+    gaps = incomplete_units(keys_doc)
     if a.json:
-        print(json.dumps({'units': len(keys_doc['units']), 'missing': missing}, ensure_ascii=False, indent=1))
+        print(json.dumps({'units': len(keys_doc['units']), 'missing': missing, 'key_file_gaps': gaps}, ensure_ascii=False, indent=1))
     else:
         print('== preservation_keys: %s, %d units' % (a.draft, len(keys_doc['units'])))
+        for g in gaps:
+            print('KEY FILE %s (%s): its meaning uses the section\'s term %r, but no key requires it' % (g['id'], g['what'], g['term']))
         for m in missing:
             print('MISSING %s (%s): %s' % (m['id'], m['what'], ' | '.join(' or '.join(repr(x) for x in alts) for alts in m['missing'])))
-        print('verdict: %s' % ('FAIL' if missing else 'PASS'))
-    return 1 if missing else 0
+        print('verdict: %s' % ('FAIL' if missing or gaps else 'PASS'))
+    return 1 if missing or gaps else 0
 
 
 if __name__ == '__main__':

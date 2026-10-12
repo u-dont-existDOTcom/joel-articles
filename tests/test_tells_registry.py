@@ -61,10 +61,10 @@ class RegistryShape(unittest.TestCase):
     def test_one_entry_per_tell(self):
         ids = [t['id'] for t in TELLS]
         # 131 and 82 from the 2026-10-11 audit; W83 (O38) and J50 from Joel's message of 2026-10-11 18:35; J51 from 23:12;
-        # W84 (O39) from 2026-10-12 05:33
-        self.assertEqual(len(ids), 135)
+        # W84 (O39) from 2026-10-12 05:33; W85 (O40) and J52 from 17:23
+        self.assertEqual(len(ids), 137)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 84)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 85)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

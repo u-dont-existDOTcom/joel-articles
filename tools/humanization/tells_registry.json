@@ -1096,6 +1096,10 @@
     {
      "file": "docs/HUMANIZATION-GATE.md",
      "quote": "(question runs, triads,"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "for P3 it's a list of 3 that's why it's AI, you couldn' tsee that?"
     }
    ],
    "rule": "E125",
@@ -2150,6 +2154,31 @@
    ],
    "rule": "O39",
    "example": "You have a need that far outstrips your free resource right now. (This doesn't mean you're bad or doomed, it's about timing.)\n\n(Any humane membership process should have ways of not flat-out rejecting people who fall into these categories.)"
+  },
+  {
+   "id": "W85",
+   "tell": "\"capacity\" as therapy-speak",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "capacity is an AI tell"
+    }
+   ],
+   "rule": "O40",
+   "example": "And on the other hand, look at whether the group has enough capacity to support them without becoming a full-time caretaker operation."
+  },
+  {
+   "id": "J52",
+   "tell": "a vague phrase left unsaid (a \"not now\" decision about what?)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "it was also the vagueness of that \"not now.\""
+    }
+   ],
+   "reason": "Whether a phrase says enough in its place needs a reader of the paragraph; his fix was a few words (\"on membership\"), not a pattern."
   }
  ]
 }

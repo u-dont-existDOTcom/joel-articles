@@ -77,3 +77,15 @@ Each run is one fresh Sonnet agent, so these are single readings, not rates. The
 
 `preservation_keys.py` with `candidate/s12/preservation-keys.json` (35 units, each with the words its meaning rests on): v9 fails 8 units (U7, U8, U11, U26 to U30), and v10 fails U26 ("available"). v10c passed the file as first written; then the sweep of sections 1 to 12 for the same kinds of break (community lane, `sweep-20261012/SWEEP-RESULTS.md`) found two more narrowings in it, "fix the cars" for "equipment repaired" and P22's "people who fall into these categories" for "every limit". U24 and U32 now carry those words, v10c fails them, and v10f passes. Tests: `tests/test_humanization_tools.py`, `PreservationKeys`.
 Matching is per paragraph, because a whole-section match passed U26 on a "free resource" in another paragraph.
+
+## 5. Author marks in the sweep (Joel, 17:23)
+
+Joel: "rather than just ignoring rules that fail my prose, we should fix the rules so they don't fail my prose". `tools/humanization/meaning_sweep.py` builds the sweep from the published and rewritten article and wraps his sentences (the owner-edits ledger's applied entries, and his own texts) in ⟦author⟧ marks, which the reader is told to leave alone; the trace brief honors the same marks.
+Blind runs on the sections where the first sweep had flagged his paragraphs, with one break planted in my text in each (`sweep-marks/`, key in `sweep-marks/KEY.md`):
+
+| Run | Sections | First sweep, flags in his text | With marks, flags in his text | Planted break in mine |
+|---|---|---|---|---|
+| M1 | 1 and 2 | 6 | 0 | caught ("can't tolerate it anymore") |
+| M2 | 8 | 4 | 0 | caught ("principles about bedtime") |
+
+Whether those 10 flags were right about the meaning is Joel's to score (the community lane's Rule Scoring Sheet). His "it" ruling is in the brief too: an "it" that is clear in its place is fine.

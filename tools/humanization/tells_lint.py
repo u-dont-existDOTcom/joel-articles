@@ -115,6 +115,11 @@ reader's call (the registry's J50), not a word list.
 O39 (Joel, 2026-10-12 05:33, community section 12 P22): "you can't put p22 into parentheses... that's 2 parentheticals in a
 row...". A sentence wholly in parentheses right after another one fails, whether the first ends the paragraph before or
 sits just before it in the same paragraph.
+
+O40 (Joel, 2026-10-12 17:23, community section 12 P3): "capacity is an AI tell", "standard efficient therapy-speak". His
+Pangram runs: "whether the group has enough capacity to support them" read AI, and "enough free resource/capacity" read
+Human ("capacity is ok when explained as free resource"). A REVIEW flag on "capacity" in my text, unless the sentence ties
+it to "free resource"; his own P16 uses the word three times and read fully human, so it's not a ban.
 """
 import os, re, sys, argparse, math
 from statistics import mean, pstdev
@@ -644,6 +649,9 @@ WITH_OR_WITHOUT = re.compile(r"\bwith or without\b", re.I)
 BUT_ALSO = re.compile(r"\bbut also\b", re.I)
 # O38: a prerequisite is already required (Joel, 2026-10-11 18:35: "you can't say "required as pre-reqs" that's redundant")
 PREREQ = r"pre-?req(?:uisite)?s?"
+# O40: "capacity" as therapy-speak (Joel, 2026-10-12 17:23: "capacity is an AI tell"; "capacity is ok when explained as free resource")
+CAPACITY = re.compile(r"\bcapacit(?:y|ies)\b", re.I)
+FREE_RESOURCE = re.compile(r"\bfree[\s-]+resources?\b", re.I)
 REDUNDANT_PREREQ = re.compile(r"\b(?:required|mandatory|necessary|needed)\s+(?:as\s+)?(?:an?\s+)?" + PREREQ + r"\b"
                               r"|\b" + PREREQ + r"\s+(?:(?:that|which)\s+)?(?:(?:are|is|were|was|be|been)\s+(?:(?:all|also|still|first)\s+)?)?"
                               r"(?:required|mandatory|necessary|needed)\b", re.I)
@@ -999,6 +1007,8 @@ def main():
                 flag('REVIEW', 'O35 "with or without X" (Joel 2026-10-02: "with or without X is not quite guidance"): say what X is good for', s)
             if BUT_ALSO.search(n):
                 flag('REVIEW', 'O36 a "but also" pair (the gate\'s 2026-10-10 prediction review: one of the tells a fragile pass carried, with "the boring problem" and the "nicer logo" quip)', s)
+            if CAPACITY.search(unquoted) and not FREE_RESOURCE.search(n):
+                flag('REVIEW', 'O40 "capacity" (Joel 2026-10-12 17:23: "capacity is an AI tell", "standard efficient therapy-speak"; "capacity is ok when explained as free resource"): say what it is, or tie it to "free resource"', s)
             if REDUNDANT_PREREQ.search(unquoted):
                 flag('FAIL', 'O38 a word that repeats its neighbor: a prerequisite is already required (Joel 2026-10-11 18:35: "you can\'t say "required as pre-reqs" that\'s redundant, just say "when things are pre-reqs""): drop the word that repeats', s)
         if len(plists) >= 2 and any(m for m, _ in plists):

@@ -18,6 +18,7 @@ import check_owner_edits  # noqa: E402
 import stance_check_prompt  # noqa: E402
 import abstract_agents_prompt  # noqa: E402
 import preservation_keys  # noqa: E402
+import meaning_sweep  # noqa: E402
 
 JOEL_P9 = ("I dream of a way to work in depth that isn’t run by a guru. A place where people who've done the "
            "healing first can join without pretending they're fully finished.")
@@ -553,6 +554,60 @@ class PreservationKeys(unittest.TestCase):
         self.assertEqual((ok.returncode, bad.returncode), (0, 1), ok.stderr + bad.stderr)
         self.assertIn('verdict: PASS', ok.stdout)
         self.assertIn('MISSING U40', bad.stdout)
+
+
+class PreservationKeysSectionTerms(unittest.TestCase):
+    """Trace r6, 2026-10-12: "tolerate the disruption" for the published "absorb disruption", in a section called "The Math
+    of Absorption"; the unit had never listed "absorb", so the key-word check passed it."""
+    def test_a_unit_without_its_section_term_fails_the_key_file(self):
+        doc = {'section_terms': ['absorb'], 'units': [
+            {'id': 'U23', 'what': 'small communities can absorb disruption least', 'keys': [['paradox'], ['disruption']]}]}
+        self.assertEqual([g['id'] for g in preservation_keys.incomplete_units(doc)], ['U23'])
+        doc['units'][0]['keys'].append(['absorb'])
+        self.assertEqual(preservation_keys.incomplete_units(doc), [])
+
+
+class MeaningSweepAuthorMarks(unittest.TestCase):
+    """Joel, 2026-10-12 17:23: "rather than just ignoring rules that fail my prose, we should fix the rules so they don't fail
+    my prose". His sentences are marked so the sweep's reader leaves them alone; mine stay open to it."""
+    HIS = 'Make sure kids understand what they say will be taken seriously if they are known to be honest.'
+
+    def test_his_sentences_are_marked_and_mine_are_not(self):
+        owners = [meaning_sweep.norm(self.HIS), meaning_sweep.norm('No, taking away the idea of a boss does not make everyone less passive,')]
+        text = ('The community has to share enough principles about raising kids. ' + self.HIS +
+                ' And that’s just two people.\n\nNo, taking away the idea of a boss does not make everyone less passive, selfish, or helpless.')
+        out = meaning_sweep.mark_author(text, owners)
+        self.assertIn(meaning_sweep.MARK_OPEN + self.HIS + meaning_sweep.MARK_CLOSE, out)
+        self.assertTrue(out.startswith('The community has to share'))
+        self.assertIn(meaning_sweep.MARK_OPEN + 'No, taking away the idea', out)
+
+    def test_the_prompt_and_input(self):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'pub.md').write_text('# One\n\nKids should know adults will listen seriously.\n', encoding='utf-8')
+            (d / 'art.md').write_text('# One\n\n<!-- a note -->\n' + self.HIS + '\n', encoding='utf-8')
+            (d / 'his.txt').write_text(self.HIS + '\n', encoding='utf-8')
+            meaning_sweep.main(['--article', str(d / 'art.md'), '--source', str(d / 'pub.md'), '--section', '1', '--input', str(d / 'in.md'),
+                                '--report', str(d / 'r.md'), '--out', str(d / 'p.txt'), '--owner-text', str(d / 'his.txt')])
+            inp = (d / 'in.md').read_text(encoding='utf-8')
+            prompt = (d / 'p.txt').read_text(encoding='utf-8')
+        self.assertIn(meaning_sweep.MARK_OPEN + self.HIS + meaning_sweep.MARK_CLOSE, inp)
+        self.assertNotIn('a note', inp)
+        self.assertIn('Report nothing inside those marks', prompt)
+        self.assertIn('An "it" that is clear in its place is fine', prompt)
+
+
+class LinterCapacity(unittest.TestCase):
+    """O40 (Joel, 2026-10-12 17:23): "capacity is an AI tell"; "capacity is ok when explained as free resource"."""
+    def lint(self, text):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / 'draft.txt'
+            f.write_text(text + '\n', encoding='utf-8')
+            return subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f)], capture_output=True, text=True).stdout
+
+    def test_capacity_alone_is_flagged_and_free_resource_capacity_is_not(self):
+        self.assertIn('O40', self.lint('Look at whether the group has enough capacity to support them without becoming a full-time caretaker operation.'))
+        self.assertNotIn('O40', self.lint('Look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.'))
 
 
 if __name__ == '__main__':
