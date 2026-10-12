@@ -1,16 +1,28 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-12 00:08 UTC. **Open questions: 0.** To answer, reply in chat with the number and the letter, for example `1: A`, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-12 03:50 UTC. **Open questions: 2.** To answer, reply in chat with the number and the letter, for example `17: B`, or in your own words. Everything else in my messages is status.
 
-This file is the page's master copy (in Git, so a session in either of your accounts can read and update it). The passages each question is about are on the side-by-side pages named under it.
+This file is the page's master copy (in Git, so a session in either of your accounts can read and update it). The passages each question is about are on the side-by-side pages: for 17 and 18, `community-section12-side-by-side.html`.
 
 ## Open questions
 
-None right now. Your answers of 23:12 UTC settled 11 to 16 (below, under Decided), and the checks on the new version raised nothing that your own words don't already answer.
+**17. Section 12, "outside review" (your published sentence).** The end of P16 (on the section 12 page; the chart counts as P5) says a real process for "not now" decisions would need "concrete criteria, outside review, and a way to revisit a 'not now' decision". The new version keeps all three ("that's going to require actually making concrete criteria, allowing for outside review, allowing for re-visiting a "not now" decision"). Every stance check this round (five) says "outside review" goes against two things you've said since: at 18:35 yesterday, "before critical mass, my rules apply, because it's my land ... i decide who stays, i decide who leaves"; and on 10-07, against forcing communities "to accept outside intervention". The section is about founding groups and early members, which is the stage before critical mass.
+- A: keep "outside review" as it is.
+- B: "review by someone who wasn't part of the decision" (an independent check, not necessarily from outside the community).
+- C: cut it, and keep concrete criteria and a way to revisit a "not now" decision.
+
+My recommendation is B. It keeps the check against capacity talk turning into a polite way to exclude people, and it doesn't say outsiders get a say on your land. Until you answer, the published words stay. Either change is one phrase, and I'd check it on Pangram before it goes in.
+
+**18. Section 12, the chart and "the same need".** P12 says eight people with two in crisis may spend most of their attention on them, while "in a group of eighty people, the same need can often be spread across lots of relationships and roles". Your chart, just above, shows eighty people with five in crisis ("1 in 16 — carried, and barely felt"). Three of the four cold readers stopped there: "the same" doesn't match the five they had just seen. Both the words and the chart are published.
+- A: leave it.
+- B: "the same need, or even more of it," (fits the chart and keeps your claim).
+- C: say what the chart shows: "even five people in crisis can often be carried across lots of relationships and roles".
+
+My recommendation is B.
 
 ## For you to do (no decision needed)
 
-1. **Merge the rules fix from your 23:12 answers, pull request 160** (about one minute): `gh pr merge 160 -R u-dont-existDOTcom/joel-articles --merge`. It worked when that pull request says Merged. Why it's yours: merges are yours.
+Nothing. Pull request 160 (the rules from your 23:12 answers) is merged.
 
 ## Decided
 
@@ -41,5 +53,5 @@ None right now. Your answers of 23:12 UTC settled 11 to 16 (below, under Decided
 ## Coming up (not a question yet)
 
 - Section 13, "Your Little Forming Group Already Is the Community": two lines shaped like "Decide the process before the name" wait for its pass ("Discover the group's conflict capacity before hiring a surveyor." and "Write the exit terms while departure is still hypothetical.").
-- Section 12, "The Math of Absorption, and Who This Isn't For". Default: the same method (stance ledger, baseline, Emulate, the gate, then the section); I'll ask only about kept items and headings.
+- Information on section 12, no answer needed: the chart says two of the section's sentences before the text does ("A community can absorb only as much need as its members have free resource to meet." and "The cruel paradox: small communities need new members most and can absorb them least.").
 - Information on earlier pages, no answer needed: section 10's "Make a Movement" repeats the section title; section 10 P8's stored "what happened" could expose the people in an intimate case (your published wording); an optional "why cooperation slides" sentence for section 10 P6, yours to write; section 9's stance question on your P9 and P11 against "When Somebody Has to Go" (which Zapatista body reviews local power after 2023) is on the section 9 page.
