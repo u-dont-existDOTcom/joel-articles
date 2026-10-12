@@ -60,8 +60,8 @@ def flag_labels(out):
 class RegistryShape(unittest.TestCase):
     def test_one_entry_per_tell(self):
         ids = [t['id'] for t in TELLS]
-        # 131 and 82 from the 2026-10-11 audit; W83 (O38) and J50 from Joel's message of 2026-10-11 18:35
-        self.assertEqual(len(ids), 133)
+        # 131 and 82 from the 2026-10-11 audit; W83 (O38) and J50 from Joel's message of 2026-10-11 18:35; J51 from 23:12
+        self.assertEqual(len(ids), 134)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 83)
         for t in TELLS:

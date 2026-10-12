@@ -61,6 +61,10 @@ something you didn't show me?" A cut he hasn't seen has to be on the page where 
 "source" lists starts of source paragraphs, or {"quote": ..., "from": ...} for part of one;
 [] for none. The lane's older key "guide" is read the same way. "note" is one line; "notes"
 is a list shown as bullets.
+"beside": {"label": "Your words, 23:12 UTC", "text": "..."} shows words that aren't in SOURCE in the left card, under
+any source paragraphs: an owner's answer in chat that the row fits into the article. Joel, 2026-10-11 18:35: "you can't
+just take what i say to you and publish it. it has to make sense in context." The gate's answer is to fit it and show
+the version beside his words, so he sees both side by side and not in a note (2026-10-12).
 
 Context (Joel, 2026-10-07 15:44: "whenever you give me the in-context side by side, you need
 to actually give me the context in that page so i can understand what's coming from what").
@@ -595,8 +599,13 @@ def main():
                 pn = next((para_numbers.label_for(cur, j) for j in range(int(p), -1, -1)
                            if para_numbers.label_for(cur, j) or HEAD.match(cur[j].strip())), None)
                 lab = '%s · %s' % ('after %s' % pn if pn else 'first under its heading', lab)
+            left = source_cell(items, sparas, a.source_label) if items or not r.get('beside') else ''
+            if r.get('beside'):
+                # An owner's words the row adapts, from chat, not from SOURCE (2026-10-12; Joel, 2026-10-11 18:35: an
+                # answer in chat is content to fit in context, shown beside his words)
+                left += '<p class="lbl">%s</p><p>%s</p>' % (html.escape(r['beside']['label']), html.escape(r['beside']['text']))
             body.append('<div class="grid"><div class="card">%s</div><div class="card"><p class="lbl">%s</p><p>%s</p>%s</div></div>'
-                        % (source_cell(items, sparas, a.source_label), html.escape(lab), shown, ''.join(notes)))
+                        % (left, html.escape(lab), shown, ''.join(notes)))
             next_p = placed[ri + 1] if ri + 1 < len(placed) else None
             if p is not None and not adjacent(p, next_p):
                 ai_ = [i for i in after_idxs(cur, p, a.context) if i not in seen_idx and (next_p is None or next_p <= p or i < next_p)]
