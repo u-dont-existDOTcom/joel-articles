@@ -19,6 +19,12 @@ Then list anything ADDED that makes a claim the published text doesn't (a new fa
 
 Logic is still strict (Joel, 2026-10-03: "OR is not ALSO"). A changed connective, negation, quantifier or modal is a SHIFT even when the sentence sounds natural.
 
+**The words a claim rests on are never just conversational** (Joel, 2026-10-12 05:33 UTC, community section 12). Two or three traces each called these EQUIVALENT, and each one broke the meaning:
+- *A pronoun where the published sentence names something.* "But it's not infinite." for "That does not make the community infinitely absorbent."; "pretending it's unlimited" for "Pretending capacity is unlimited" ("it referring to what? unclear"). For every "it", "this", "that" or "they" in the rewrite that stands where the published sentence has a noun, write what it points to. If a reader has to work that out, or could take it two ways, it's a SHIFT, whatever your own best reading is. The fix is the published noun.
+- *A narrower thing in place of a general one.* "the framing of “I don't have the capacity to…”" for "this language of capacity": one phrase in place of a whole way of talking ("it's not about "i don't have the capacity to" it's literally exactly what the guide said"). A quoted example, a single case or a smaller group in place of the published category is a SHIFT.
+- *A dropped word that says what a claim is measured against, how long it holds, or what the section is about.* "good enough" without "for community" ("i'm not understand anymore what they are good enough for"); "the power is dangerous" for "the power remains dangerous" ("you can't just remove "remains" and keep the same meaning"); "not infinite" for "not ... infinitely absorbent", in a section called "The Math of Absorption". Each is LOST even when the gist survives. Words like "remains", "still", "already", "yet", "anymore", "again", a "for ..." or "than ..." that sets the standard, and the section's own terms are never style.
+Conversational looseness is in the words around a claim, never in these.
+
 Where a phrase can be read two ways, say which reading a reader would most likely take, and mark SHIFT only when that reading differs from the published one.
 
 Give each SHIFT or LOST a fix in as few words as possible, as a replacement phrase. Don't suggest style changes. Markdown links and italics are restored later, so their absence is not a finding.

@@ -17,6 +17,7 @@ sys.path.insert(0, str(TOOLS))
 import check_owner_edits  # noqa: E402
 import stance_check_prompt  # noqa: E402
 import abstract_agents_prompt  # noqa: E402
+import preservation_keys  # noqa: E402
 
 JOEL_P9 = ("I dream of a way to work in depth that isn’t run by a guru. A place where people who've done the "
            "healing first can join without pretending they're fully finished.")
@@ -508,6 +509,50 @@ class RenderInContextHeadings(unittest.TestCase):
                                      {'headings': ['## Second Heading'], 'rows': [self.row('P7', 'Seventh'), self.row('P8', 'Eighth')]}])
         self.assertEqual(rc, 0, out)
         self.assertTrue(made)
+
+
+class PreservationKeys(unittest.TestCase):
+    """Joel, 2026-10-12 05:33, on community section 12: "then you broke p7 by reducing it to "but it's not infinite" ?
+    what?" Two or three traces had called each break EQUIVALENT. The key words of each preservation unit are now checked
+    mechanically, per paragraph, before any trace."""
+    UNITS = {'section': 'test', 'units': [
+        {'id': 'U8', 'what': 'not infinitely absorbent', 'keys': [['the community'], ['infinitely absorbent']]},
+        {'id': 'U7', 'what': 'good enough for community', 'keys': [['good enough'], ['for community']]},
+        {'id': 'U26', 'what': 'available resource, early members', 'keys': [['available resource', 'free resource'], ['acute need']]},
+        {'id': 'U40', 'what': 'a claim across two paragraphs', 'keys': [['first half'], ['second half']], 'span': 2}]}
+    GOOD = ('So the question isn’t whether a person is “good enough” for community.\n\n'
+            'That does not make the community *infinitely absorbent*.\n\n'
+            'Members need more [available resource](https://www.rc.org/) than acute need.\n\n'
+            'The first half is here.\n\nThe second half is here.')
+
+    def test_his_breaks_are_caught(self):
+        self.assertEqual(preservation_keys.check(self.UNITS, self.GOOD), [])
+        bad = self.GOOD.replace('That does not make the community *infinitely absorbent*.', 'But it’s not infinite.')
+        bad = bad.replace('“good enough” for community.', '“good enough.”')
+        missing = {m['id']: m['missing'] for m in preservation_keys.check(self.UNITS, bad)}
+        self.assertEqual(sorted(missing), ['U7', 'U8'])
+        self.assertEqual(missing['U7'], [['for community']])
+
+    def test_a_key_in_another_paragraph_doesnt_count(self):
+        # A whole-draft match passed U26 on community section 12: "free resource" is all through the section.
+        text = self.GOOD.replace('more [available resource](https://www.rc.org/) than acute need',
+                                 'more resource than acute need') + '\n\nGive what free resource you have.'
+        self.assertEqual([m['id'] for m in preservation_keys.check(self.UNITS, text)], ['U26'])
+
+    def test_a_spanning_unit_and_the_command(self):
+        split = self.GOOD.replace('The first half is here.\n\nThe second half is here.',
+                                  'The first half is here.\n\nSomething else.\n\nThe second half is here.')
+        self.assertEqual([m['id'] for m in preservation_keys.check(self.UNITS, split)], ['U40'])
+        with tempfile.TemporaryDirectory() as d:
+            k, f = pathlib.Path(d) / 'keys.json', pathlib.Path(d) / 'draft.md'
+            k.write_text(json.dumps(self.UNITS), encoding='utf-8')
+            f.write_text(self.GOOD, encoding='utf-8')
+            ok = subprocess.run([sys.executable, str(TOOLS / 'preservation_keys.py'), str(k), str(f)], capture_output=True, text=True)
+            f.write_text(split, encoding='utf-8')
+            bad = subprocess.run([sys.executable, str(TOOLS / 'preservation_keys.py'), str(k), str(f)], capture_output=True, text=True)
+        self.assertEqual((ok.returncode, bad.returncode), (0, 1), ok.stderr + bad.stderr)
+        self.assertIn('verdict: PASS', ok.stdout)
+        self.assertIn('MISSING U40', bad.stdout)
 
 
 if __name__ == '__main__':
