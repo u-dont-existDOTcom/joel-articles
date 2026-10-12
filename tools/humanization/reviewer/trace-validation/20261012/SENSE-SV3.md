@@ -1,0 +1,22 @@
+[P1] OK
+[P2] OK
+[P3] OK
+[P4] OK
+[P5] OK
+[P6] OK
+[P7] OK
+[P8] OK
+[P9] OK
+[P10] OK
+[P11] OK
+[P12] OK
+[P13] OK
+[P14] OK
+[P15] OK
+[P16] "It's not going to be solved by pretending it's unlimited": the sentence before used "it" for "the framing", so "it's unlimited" could be the framing again or the group's capacity (my best reading; "capacity" appears only inside the quoted "I don't have the capacity to…"), and the two say different things. "And even then, the power is dangerous": what power? My guess is the power to turn people away ("not now"), but the paragraph never names a power.
+[P17] OK
+[P18] OK
+[P19] OK
+[P20] OK
+[P21] OK
+[P22] OK

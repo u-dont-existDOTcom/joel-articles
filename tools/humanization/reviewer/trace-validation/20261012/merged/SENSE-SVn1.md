@@ -1,0 +1,21 @@
+[P1] OK
+[P2] OK
+[P3] OK
+[P4] OK
+[P5] OK
+[P6] OK
+[P7] OK
+[P8] OK
+[P9] OK
+[P10] OK
+[P11] OK
+[P12] OK
+[P13] OK
+[P14] OK
+[P15] Two breaks. (1) "It's not going to be solved by pretending it's unlimited": the second "it" could be the group's capacity (my best reading, from "I don't have the capacity to…"), the need, or the framing; the first "It" in the same sentence is the problem. (2) "And even then, the power is dangerous": what power? I weighed the power to turn people away on capacity grounds (my lean) and the power of whoever sets the criteria or does the review. This section names no power, and the earlier "power to decide who gets into or stays" was about grievance handlers, a section back.
+[P16] OK
+[P17] OK
+[P18] OK
+[P19] OK
+[P20] OK
+[P21] OK
