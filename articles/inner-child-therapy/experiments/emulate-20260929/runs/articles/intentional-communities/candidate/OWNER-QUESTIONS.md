@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-12 07:55 UTC. **Open questions: 1.** To answer, reply in chat with the number and the letter, for example `19: B`, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-12 07:54 UTC. **Open questions: 1.** To answer, reply in chat with the number and the letter, for example `19: B`, or in your own words. Everything else in my messages is status.
 
 This file is the page's master copy (in Git, so a session in either of your accounts can read and update it). The passages each question is about are on the side-by-side pages: for 19, `community-section12-side-by-side.html`.
 
