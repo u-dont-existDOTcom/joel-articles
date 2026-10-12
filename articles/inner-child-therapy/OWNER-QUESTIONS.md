@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-11 (turn 45). **3 open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-12 (turn 46). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,36 +11,14 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 13. The cops line (When the Urge to Escape Arrives, P6)
-
-> In general, don't call the cops and expect it to go well. That's a real last resort.
-
-Your words (8d), and they're in. One reviewer worried about two readers: someone in danger from another person, whom the article told earlier to "get safe first" (they could read "In general" as "never call the police"), and someone in a medical emergency on ayahuasca with nobody steady around, who might wait too long after a jail story.
-- **A. Leave it.**
-- **B. Your words** (for example on when the last resort has come, or about medical emergencies).
-
-### 🟣 14. Why trance-like is safer (P6)
-
-> THH alone isn't hypnotic (trance-like) enough to keep people safe with higher doses of DMT.
-
-Two of three fresh readers were fine with it. The third followed the words but not the reason: to them a trance sounds like less control, not a safeguard.
-- **A. Leave it.**
-- **B. A few words of yours on why.**
-
-### 🟣 15. Who counts as trusted (P9, your answer 9)
-
-> By trusted, I mean someone you know well, not someone people on Reddit said was super magical and healing.
-
-Your paragraph is in, as you wrote it. A reviewer pointed out that the people a reader knows best can be the risk, like the friends they use with.
-- **A. Leave it.**
-- **B. Your words.**
+None right now.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge the pull request for turn 45
+### 🟠 Merge the pull request for turn 46
 
 This turn's work is in a new pull request; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
@@ -48,6 +26,14 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-12 02:18 UTC
+
+- "13. leave it.": the cops line stays as it is. Your reasons are noted, not for the text.
+- "14. trance is safer specifically because you can't freak out when you're in trance. no matter how scary something is, it's just like "oh, this is scary, ok, oh well" …": in P6 after the hypnotic line, fitted: "When you're in a trance, you can't freak out: no matter how scary something is, it's just like, "Oh, this is scary, OK, oh well."" The part about not being in waking reality, not being able to scream or call for help, and hypnagogia stays out, since you expected it to confuse readers. A fresh reader now follows the paragraph with no stumbles.
+- "15. … "by trusted, i mean someone you know is trustworthy from a long relationship with them..."": P9's first sentence, your words.
+- "16. continue": From Survival to Experimental Play P5, the early practice (under Coming up).
+- Pull request #161 (turn 45) is merged.
 
 ### 🟢 2026-10-11 23:33 UTC
 
@@ -100,11 +86,12 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 
 ### 🔵 From Survival to Experimental Play (the next h2)
 
-In progress: P1 to P4 are in. P4 came this turn, after your "continue": the guide's signs that this may be you (preferences and beliefs that shift with the people around you; not knowing what you'd choose without the fear of disappointing somebody; only a guess when you ask what your little one feels, which isn't proof there's no little one in there). The other two signs were already said, at the h1's opening and in P2. Next: the early practices. No question for you yet.
+In progress: P1 to P5 are in. P5 came this turn, after your "continue": the early practice of finding out who's actually in there (long reflection with no outside input, journaling without picturing a reader, time alone in nature, and getting back buried preferences). Next: Focusing, putting tentative words to what you notice, and temporary distance for some people. No question for you yet.
 
 ### 🔵 Notes for when Altered States is humanized
 
 - Your answer to question 2 above decides that section's gate.
+- When the Urge to Escape Arrives P6 now says that in a trance "you can't freak out". Your guide's Altered States section has your fear during sleep paralysis. If that section ends up calling sleep paralysis trance-like (your answer 14 said trance is "almost like hypnagogia"), the two need to agree. Default: the article keeps them apart, and I show you.
 - Your guide says "Gentle meditation or self-hypnosis can still help" in When the Urge to Escape Arrives, while Altered States offers your self-hypnosis guide only "When you're ready". Default: I make them agree with the first, and show you.
 
 ### 🔵 Older notes on your own paragraphs (from `OPEN-OWNER-FLAGS.md`)

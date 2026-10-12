@@ -1787,11 +1787,10 @@
   {
    "id": "q9-trusted-advisors-20261011c",
    "status": "applied",
-   "what": "Who counts as trusted: someone you know well, not someone people on Reddit called magical and healing (a crapshoot; it might seem to turn out well, and later you realize you were duped, as happened to him with Sidney the iboga shaman, linked to his post); a new therapist isn't trusted, an old one could be more; \"new friends are silver, but old friends are gold.\" In since turn 45 (2026-10-11), after the gate and Pangram.",
+   "what": "Who counts as trusted: someone you know well, not someone people on Reddit called magical and healing (a crapshoot; it might seem to turn out well, and later you realize you were duped, as happened to him with Sidney the iboga shaman, linked to his post); a new therapist isn't trusted, an old one could be more; \"new friends are silver, but old friends are gold.\" In since turn 45 (2026-10-11), after the gate and Pangram. (2026-10-12, turn 46: its first sentence is now his answer 15; entry q15-trusted-long-relationship-20261012 checks it.)",
    "joel": "2026-10-11 23:33 UTC: \"9. absolutely, a trusted person is someone you know well. Not someone that people on reddit said was super magical and healing. That's called a crapshoot. ...\" (verbatim in the turn-45 positions file)",
    "where": "When the Urge to Escape Arrives",
    "must_contain": [
-    "someone you know well",
     "crapshoot",
     "new friends are silver"
    ],
@@ -1846,6 +1845,53 @@
     "with the people around you",
     "without the fear of disappointing somebody",
     "isn't proof there's no little one in there"
+   ]
+  },
+  {
+   "id": "q13-cops-line-stays-20261012",
+   "status": "applied",
+   "what": "His answer 13: the cops line in P6 stays as it is.",
+   "joel": "2026-10-12 02:18 UTC: \"13. leave it. i also don't recommend calling the cops for safety reasons at all. [his reasons and personal examples] but maybe in some locations cops are better.\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "In general, don't call the cops and expect it to go well. That's a real last resort."
+   ]
+  },
+  {
+   "id": "q14-trance-why-20261012",
+   "status": "applied",
+   "what": "His answer 14, fitted after P6's hypnotic line: why being in a trance keeps you safe. His \"you're not really in the waking reality to even do anything, you can't scream, you can't call for help, it's almost like hypnagogia\" stays out, as he expected it to confuse readers. In since turn 46, after the gate and Pangram.",
+   "joel": "2026-10-12 02:18 UTC: \"14. trance is safer specifically because you can't freak out when you're in trance. no matter how scary something is, it's just like \"oh, this is scary, ok, oh well\" … and yeah, that will prob confuse your readers even more lol.\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "When you're in a trance, you can't freak out",
+    "Oh, this is scary, OK, oh well"
+   ]
+  },
+  {
+   "id": "q15-trusted-long-relationship-20261012",
+   "status": "applied",
+   "what": "His answer 15 as P9's first sentence, his words. In since turn 46, after the gate and Pangram.",
+   "joel": "2026-10-12 02:18 UTC: \"15. haha that's true, the people you know best can be the least trustworthy, sop we can say \"by trusted, i mean someone you know is trustworthy from a long relationship with them...\"\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "By trusted, I mean someone you know is trustworthy from a long relationship with them"
+   ],
+   "must_not_contain": [
+    "By trusted, I mean someone you know well"
+   ]
+  },
+  {
+   "id": "survival-p5-early-practice-20261012",
+   "status": "claim",
+   "what": "From Survival to Experimental Play P5 carries the guide's \"The early practice is finding out who is actually in there\" paragraph: long reflection without outside input, private journaling without imagining a reader, time alone in nature, and buried preferences (foods, what feels good to do, beliefs and feelings when nobody supplies the cues). Turn 46, after the gate and Pangram.",
+   "joel": "2026-10-12 02:18 UTC: \"16. continue\"",
+   "where": "From Survival to Experimental Play",
+   "must_contain": [
+    "finding out who's actually in there",
+    "without picturing a reader",
+    "Time alone in nature",
+    "when nobody's around to take your cues from"
    ]
   }
  ]
