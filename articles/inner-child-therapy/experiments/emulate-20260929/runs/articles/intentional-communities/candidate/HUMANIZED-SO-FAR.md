@@ -48,7 +48,7 @@ The secular communities often buried hurt under procedure. The spiritual communi
 
 [Subscribe now](%%checkout_url%%)
 
-<!-- CANDIDATE: section 2 v3.1 (2026-10-01, Joel's edits of 18:06 in), for Joel's review. Every paragraph 100% Human on Pangram alone, or with its neighbor where it is under 50 words; the section 100% Human (618 words). Records: s2/PREDICTIONS-s2.md, s2/r4/pangram-s2.jsonl. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 2 v3.1 (2026-10-01, Joel's edits of 18:06 in), for Joel's review. Every paragraph 100% Human on Pangram alone, or with its neighbor where it is under 50 words; the section 100% Human (618 words). Records are in the lane's section 2 folder. Not accepted until Joel says so. -->
 
 # Communes Are Hot Again 🔥
 
@@ -84,7 +84,7 @@ I am not currently recruiting anyone or founding a community, which makes it eas
 
 [image 6](https://substackcdn.com/image/fetch/$s_!PpTf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b760a8e-4a67-45e0-bb1f-6e07406abf3a_1536x1024.png)
 
-<!-- CANDIDATE: section 3 v11 (2026-10-02, Joel's edits of 00:52 and his P7 of 21:16 in, with his own characters kept), for Joel's review. Every paragraph 100% Human on Pangram alone, or with a neighbor that passes alone; the section 100% Human (563 words, the page's count). P8 and P9 together read 100% AI, though each passes alone and the section passes. Records: s3/PREDICTIONS-s3.md, s3/r*/pangram-s3.jsonl, s3/fixlog-s3.json. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 3 v11 (2026-10-02, Joel's edits of 00:52 and his P7 of 21:16 in, with his own characters kept), for Joel's review. Every paragraph 100% Human on Pangram alone, or with a neighbor that passes alone; the section 100% Human (563 words, the page's count). P8 and P9 together read 100% AI, though each passes alone and the section passes. Records are in the lane's section 3 folder. Not accepted until Joel says so. -->
 
 # Why Communities Keep Dying in the Same Two Ways
 
@@ -110,7 +110,7 @@ The deeper problem is that someone carries authority earned in one domain into t
 
 I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
 
-<!-- CANDIDATE: section 4 v9 (2026-10-02, Joel's edits of 21:16 and his answers of 23:49 in, with his own characters), for Joel's review. The section 100% Human on Pangram (1,520 words, the page's count), and every paragraph 100% Human alone or with a neighbor that passes alone. The gate ran on every version (traces, cold reads, grounding on v1, the whole-article stance check). Records: s4/PREDICTIONS-s4.md, s4/r*/pangram-s4.jsonl, s4/fixlog-s4.json, s4/build_s4.py. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 4 v10 (2026-10-12): v9 (2026-10-02, Joel's edits of 21:16 and his answers of 23:49 in, with his own characters) with the Romance Guide sentence back to the published meaning after Joel's 17:23 UTC message ("we can't replace "dyads" with "romance" that's not the same concept"); 100% Human in its run and the section, batch 272g. For Joel's review. The section 100% Human on Pangram (1,520 words, the page's count), and every paragraph 100% Human alone or with a neighbor that passes alone. The gate ran on every version (traces, cold reads, grounding on v1, the whole-article stance check). Records are in the lane's section 4 folder. Not accepted until Joel says so. -->
 
 # The Four Parts That Have to Pl/ork Together
 
@@ -271,7 +271,7 @@ A group that begins in collective spiritual euphoria can recruit too quickly and
 
 Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community can be a place for people to train up in the practices, and sometimes go off and start another experiment. In fact, if people are training there so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods, which gets double dipped with the objection that psychedelics are also privileged escape pods (or, alternatively, as some say, "a vacation for the poor").
 
-<!-- CANDIDATE: section 6 v21 (2026-10-07), Joel's answers of 10-06 20:38 and his P8 and P9 of 10-07 01:43 UTC in (his typos "may not guaranteed" and "contageous" fixed under his rule). Pangram web app (the final test): the section 100% Human (637 words scanned, 01:47 UTC); P8, P9 and the pair 100% Human. Records: s6/PREDICTIONS-s6.md, s6/drafts-v21.json. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 6 v21 (2026-10-07), Joel's answers of 10-06 20:38 and his P8 and P9 of 10-07 01:43 UTC in (his typos "may not guaranteed" and "contageous" fixed under his rule). Pangram web app (the final test): the section 100% Human (637 words scanned, 01:47 UTC); P8, P9 and the pair 100% Human. Records are in the lane's section 6 folder. Not accepted until Joel says so. -->
 # Which Connections to the Technosphere Do You Keep?
 
 Loneliness is only one reason building community feels urgent. I wrote separately about the wider polycrisis:
@@ -306,7 +306,7 @@ No member should have to prove their ideological loyalty when they're scared or 
 
 At the same time, having social connections is measurably good for a person's health. The Surgeon General's advisory notes an increased risk for a range of health outcomes among people who are socially isolated. Community's not a panacea, but it can make a difference, day to day, in the conditions people get sick, heal, age, and die in.
 
-<!-- CANDIDATE: section 7 v3 (2026-10-07), Joel's P3 of 01:43 UTC in (commas and "or" for Emulate's "and … and … and"); his OKs on P4 to P6. Pangram web app: the section 100% Human (479 words scanned, 01:47 UTC); P3 alone and with P2 100% Human. Records: s7/PREDICTIONS-s7.md, s7/drafts-v3.json. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 7 v3 (2026-10-07), Joel's P3 of 01:43 UTC in (commas and "or" for Emulate's "and … and … and"); his OKs on P4 to P6. Pangram web app: the section 100% Human (479 words scanned, 01:47 UTC); P3 alone and with P2 100% Human. Records are in the lane's section 7 folder. Not accepted until Joel says so. -->
 # Jealousy Can Capture Monogamy or Free Love
 
 Any community that lasts will eventually be reorganized by attraction and pair-bonding. When two exes live in the same city, they can move to different sides of the city. When they're part of a thirty-person commune, they may still be in the same kitchen the next morning, working in the same team, attending the same meetings, sharing childcare and the same friends. A couple's jealousy or breakup becomes a problem for the entire community, because it will change the loyalties, the sleeping arrangements, the labor, the kids, the alliances, and sometimes who's leaving.
@@ -325,7 +325,7 @@ The non-negotiable for me is that jealousy not be allowed to become the hidden g
 
 There are some ways the group can help, and basic boundaries the group can enforce, without deciding what type of relationships people have. Even so, there will still be disagreements about this. That's more realistic than saying it's all been resolved.
 
-<!-- CANDIDATE: section 8 v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records: s8/PREDICTIONS-s8.md, s8/cand-v27.json, s8/joel-1505/, s8/joel-2021/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 8 v28 (2026-10-07; v27 with P22's second "as adults" taken out, Joel 23:22: "take out second adults that's obvious"; that text read 100% Human in 146g, 20:24:22 UTC, 1,810 words scanned), Joel's edits of 15:05 and 20:21 UTC in: his P3, P10, P18, P21 and the last subsection (his first paragraph there carries the published P26's point); P7 cut and the subheading "Communal Parenting Adds On"; P27 and P28 at the top without their heading, and P28's first sentence cut (his OK, 20:21). His typos "althoug" and "able to access to" fixed under his rule; the page's strike marking that came along in his first P10 taken out. Pangram web app (the final test): the section 100% Human (1,812 words scanned, 20:24:18 UTC, batch 146g). Records are in the lane's section 8 folder. Not accepted until Joel says so. -->
 # The Grown Children Get the Final Review
 
 Couples who live together, share the same culture and even the same bed still disagree about screens, vaccinations, [schooling](https://www.instagram.com/p/DcDGotaFCeZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), religion, food, discipline and medical care. And that's just two people. Now think of twenty adults, all with different childhoods.
@@ -400,7 +400,7 @@ Kids also need transferable skills and education. It helps if they have relation
 
 Belonging and freedom should go hand in hand.
 
-<!-- CANDIDATE: section 9 v14 (2026-10-09), Joel's P9 to P12 of 05:02 UTC and his P13 of 22:08 UTC in (four obvious typos fixed in his P12 under his rule), and "Good Government Juntas (Boards)" at the first mention (P8, his 22:08 answer). Pangram web app (the final test): the section 100% Human (1,034 words scanned, 22:11:41 UTC, batch 184g); every paragraph passes alone or beside a neighbor that passes alone. Records: s9/PREDICTIONS-s9.md (batches 147g to 184g), s9/section-v9.md, s9/joel-2208/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 9 v14 (2026-10-09), Joel's P9 to P12 of 05:02 UTC and his P13 of 22:08 UTC in (four obvious typos fixed in his P12 under his rule), and "Good Government Juntas (Boards)" at the first mention (P8, his 22:08 answer). Pangram web app (the final test): the section 100% Human (1,034 words scanned, 22:11:41 UTC, batch 184g); every paragraph passes alone or beside a neighbor that passes alone. Records are in the lane's section 9 folder. Not accepted until Joel says so. -->
 # The Best Model I’ve Seen: Zapatistas
 
 [image 14](https://substackcdn.com/image/fetch/$s_!1QJp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F745198f3-56e4-42d3-aa6b-1a608ea4b0ef_860x513.jpeg)
@@ -445,7 +445,7 @@ As part of [my research](https://innerself.185-233-106-15.sslip.io/blog/commune-
 
 [Sociocracy](https://www.sociocracyforall.org/sociocracy/) has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. Does this prove there's a universal formula? No. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
 
-<!-- CANDIDATE: section 10 v2 (2026-10-10), Joel's changes of 12:22 UTC in: P3+P4 without "boring" and without "I don't want one super-commune with a nicer logo.", P6 "slide into" for "quietly turn into" (trace H OK), and his heading "Federated Communities Make a Movement" (his 13:00 answer, after grounding f1 and stance f1 flagged "Improve Resilience"). Pangram web app (the final test): the section 100% Human (731 words scanned, 13:04:52 UTC, batch 200g); P3+P4 and P6 pass alone, the heading with P3+P4 and P2 across it pass. Records: s10/PREDICTIONS-s10.md (199 to 200g), s10/section-v2.md, s10/review-f1/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 10 v2 (2026-10-10), Joel's changes of 12:22 UTC in: P3+P4 without "boring" and without "I don't want one super-commune with a nicer logo.", P6 "slide into" for "quietly turn into" (trace H OK), and his heading "Federated Communities Make a Movement" (his 13:00 answer, after grounding f1 and stance f1 flagged "Improve Resilience"). Pangram web app (the final test): the section 100% Human (731 words scanned, 13:04:52 UTC, batch 200g); P3+P4 and P6 pass alone, the heading with P3+P4 and P2 across it pass. Records are in the lane's section 10 folder. Not accepted until Joel says so. -->
 # From One Community to a Movement
 
 ## Experiment Before You Divorce
@@ -467,7 +467,7 @@ Even if nobody uses money internally, communities still need the same honesty ab
 When you create or apply a rule to deal with a collision of two principles, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.
 
 <!-- 2026-10-12: section 11 v13 = v12 with P5c ("If every change they make still needs the founder's “blessing”"; the published "every" and "still" back, found by the sweep in sweep-20261012/). The section 100% Human (1,686 words, 07:46:55 UTC, batch 267g), P5c with P4 100% Human (268g); s11/PREDICTIONS-s11.md. -->
-<!-- CANDIDATE: section 11 v12 (2026-10-12), Joel's answers of 2026-10-11 23:12 UTC fitted into his paragraphs under his 18:35 rule (an answer in chat is content, fitted in context, changes shown): J3b names the divorce half; J4 his answer on terms for visiting friends; R14c his answer on private practices, with "some practices go too far against the communal spirit" from a cold read's "no principle"; R16c and R16d his answer on members who don't fit in; R18b his grandmother case. Pangram web app: the section 100% Human (1,682 words scanned, 00:00:52 UTC, batch 233g); every changed paragraph 100% Human alone and in its run. Gate round a6 (s11/review-a6/). Records: s11/PREDICTIONS-s11.md (233g), s11/section-v12.md, s11/candidate-v12-keys.json, s11/fix-v25-parts.json, s11/joel-2312/. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 11 v13 (2026-10-12): v12 with P5's "every" and "still" back ("If every change they make still needs the founder's “blessing”", found by the meaning sweep), 100% Human as a section, batch 267g. v12: Joel's answers of 2026-10-11 23:12 UTC fitted into his paragraphs under his 18:35 rule (an answer in chat is content, fitted in context, changes shown): J3b names the divorce half; J4 his answer on terms for visiting friends; R14c his answer on private practices, with "some practices go too far against the communal spirit" from a cold read's "no principle"; R16c and R16d his answer on members who don't fit in; R18b his grandmother case. Pangram web app: the section 100% Human (1,682 words scanned, 00:00:52 UTC, batch 233g); every changed paragraph 100% Human alone and in its run. Gate round a6. Records are in the lane's section 11 folder. Not accepted until Joel says so. -->
 # Founderism: The Four Questions
 
 In every community there was somebody who took the initiative to get it started. Somebody found the land, wrote the first documents, taught the method, recruited the first members, or kept things going when everybody else lost interest.
@@ -526,7 +526,7 @@ It can be tricky to spell everything out, though. Let's say a grandmother is dem
 
 If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
-<!-- CANDIDATE: section 12 v11 (2026-10-12). Joel's message of 17:23 UTC: his P3 ("human, best") and P16 ("let's keep this one, best one"), as written; before that, 05:33: 17b, 18b, P7 in the guide's words, P22 out of parentheses. Mine: P14's five-item list as two pairs and a sentence and P15's third item in its own sentence (his list rule), P14's "absorb disruption" and "the new member's heart" back (trace r6), P13 names its subject, P22 keeps "every limit". Key-word check PASS. Pangram web app: the section 100% Human ("Human Written", 944 words, 17:43:06 UTC, batch 273g); each paragraph of mine alone or in a run that passes (s12/PREDICTIONS-s12.md). Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 12 v11 (2026-10-12). Joel's message of 17:23 UTC: his P3 ("human, best") and P16 ("let's keep this one, best one"), as written; before that, 05:33: 17b, 18b, P7 in the guide's words, P22 out of parentheses. Mine: P14's five-item list as two pairs and a sentence and P15's third item in its own sentence (his list rule), P14's "absorb disruption" and "the new member's heart" back (trace r6), P13 names its subject, P22 keeps "every limit". Key-word check PASS. Pangram web app: the section 100% Human ("Human Written", 944 words, 17:43:06 UTC, batch 273g); each paragraph of mine alone or in a run that passes. Not accepted until Joel says so. -->
 # The Math of Absorption, and Who This Isn’t For
 
 Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
