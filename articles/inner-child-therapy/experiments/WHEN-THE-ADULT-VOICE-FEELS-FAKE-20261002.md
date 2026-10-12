@@ -656,3 +656,19 @@ Joel wrote "good continue". He had merged #164 (turn 47).
 
 1. His merge of this turn's pull request (no open questions).
 2. Untangling the Belonging Bargains: the human doer (t48-g2), opening as a second kind of bargain.
+
+## Turn 49 (2026-10-12, from 17:36 UTC): Joel's P1, faithful first, and the rest of Untangling the Belonging Bargains
+
+Joel put the political tribe's clause back into P1 and checked it himself ("never take out something important in order to pass pangram. give your best *faithful* version to me, i'll show you exactly how to fix it"), asked why one paragraph took nearly 2 hours, and wrote "continue". He had merged #165 (turn 48).
+
+- **His P1**, as he wrote it: his check 100% Human (106); the h2 (110) and the h1 (800) with it.
+- **Lesson E168, faithful first:** writer prompts and tickets now keep every point; `pangram_gate.py` needs each draft's "missing" list and sends a draft that leaves a point out only as a probe; a faithful version that still fails after one fix round goes in marked, with a question for him.
+- **Lesson E169, a section at a time:** every group of the h2 written at once, reviewed at once, checked in batches (`t49-bargains/REVIEWS.md`).
+- **In:** P2 (human doer) and P3 (gifts become bargains) of Untangling the Belonging Bargains, and the h3 Four Pairs That Commonly Hook the Child, P1 to P6. Passing alone: P2 (107), the h3's P1 (87), P3 (55), P4 (128), P5 (98), P6 (77). Failing alone, in as the faithful versions: Untangling P3 (0.557; question 17) and the h3's questions (0.804; question 18). The credit to Key waits for his word (question 19). Predictions 8 of 14.
+- **Debugged:** the march read ran a list's lines together, so a lead-in and four questions read as one sentence; it splits them now (`MarchSplitsLists`).
+
+### Next
+
+1. His answers to questions 17 to 19, and his merge of this turn's pull request.
+2. With P3 and the questions fixed: the h3, the h2 and the h1 through Pangram.
+3. The next h2, Let the Child Be Bad at Things.

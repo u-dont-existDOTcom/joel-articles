@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-12 (turn 48). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-12 (turn 49). **Three open questions (17 to 19).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,14 +11,40 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now.
+### 🟣 17. Untangling the Belonging Bargains P3 reads AI (your fix?)
+
+> Beauty, intelligence, achievement and caretaking can all be real gifts, but they become belonging bargains when failing in the arena feels like losing yourself. Your little one, with nobody parenting it, takes those bargains to survive, because belonging feels like life or death. That happens to children of good parents too, and it isn't a flaw in you. Noticing where you're betraying yourself to belong, and keeping your own ground, is called self-differentiation. It also means noticing when praise or pity suddenly changes what you think you know, or fear or attraction does, or something that really resonates with you.
+
+The faithful version: every point of the guide's two paragraphs, and every reviewer clean. Pangram reads it 100% AI alone (0.557). Two versions with no claim changed read 0.588 and 0.605. It's in the article as it is, marked, so you can fix it there.
+- **A. Your fix** (edit it on the page or send it back).
+- **B. Leave it for now**, and I'll try another round.
+
+### 🟣 18. The questions in Four Pairs That Commonly Hook the Child read AI (your fix?)
+
+> When that happens, you can ask yourself these, once you've caught your breath:
+> - What do I think I'm about to get, or lose?
+> - Whose approval suddenly feels like I can't live without it? It isn't always who you'd guess.
+> - Is this a value I'm standing up for, or a high I'm trying to keep?
+> - Would this still be worth doing if nobody praised me for it?
+
+The guide's four questions, all of them. Pangram reads this 100% AI alone (0.804); in the guide's own words it read 0.961, and woven into prose 0.997. It's in the article, marked.
+- **A. Your fix.**
+- **B. Leave it for now.**
+
+### 🟣 19. The credit to Key (the h3's last paragraph)
+
+> Key developed this identity and differentiation portion of the method, drawing on Bowen's family-systems work and her own self-therapy.
+
+The guide's line. It says what someone in your life did and drew on, so it waits for your word before it goes in.
+- **A. Put it in as the guide has it** (I'd write "Murray Bowen's", so readers can find him).
+- **B. Your words.**
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge the pull request for turn 48
+### 🟠 Merge the pull request for turn 49
 
 This turn's work is in a new pull request; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
@@ -26,6 +52,12 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-12 17:36 UTC
+
+- "from now on, never take out something important in order to pass pangram. give your best *faithful* version to me, i'll show you exactly how to fix it without doing that": your P1 is in as you wrote it, and it's a rule now (E168). Writers carry every point and go long rather than drop one, the Pangram tool refuses a draft that leaves a point out unless it's only a test, and when a faithful version still fails after one more try, it comes to you (questions 17 and 18). You were right that the tribes weren't the problem: I'd guessed they were and never checked.
+- "you only did one paragraph in nearly 2 hours?": answered in my message. This turn wrote the whole rest of the h2 at once (E169).
+- "continue": the rest of Untangling the Belonging Bargains, under Coming up. Pull request #165 (turn 48) is merged.
 
 ### 🟢 2026-10-12 04:53 UTC
 
@@ -99,11 +131,9 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: the human doer, in Untangling the Belonging Bargains
+### 🔵 Next: Let the Child Be Bad at Things
 
-The new h2's heading and P1 are in: untangling yourself from whatever pulls you away from your own knowing in return for belonging (a political tribe or another group, or the expectations of a family or religion that's kind to you), ordinary conformity, and where it turns into the bargain ("But if going along means betraying yourself, that's the bargain."). Left out: what religions and political tribes ask (particular beliefs and behavior; consistent positions and predictable reactions). The one draft that carried the tribe's read AI, and the guide comes back to both later in this h2; say if you want either in P1. Next is the human doer: worth earned in an outside arena, and real gifts that become belonging bargains. No question for you yet.
-
-One slip this turn: I ran Pangram on some drafts before their march reads and stance checks, which the gate puts first. A tool now refuses that (rule E167); the paragraph that went in passed every check first.
+Untangling the Belonging Bargains is drafted to its end: your P1, P2 (the human doer), P3 (question 17), and the h3 Four Pairs That Commonly Hook the Child, P1 to P6 (the questions are question 18; Key's credit is question 19). Once 17 and 18 are fixed, the h3, the h2 and the h1 go through Pangram together. Then the next h2, Let the Child Be Bad at Things.
 
 ### 🔵 Saved for when Altered States is humanized
 

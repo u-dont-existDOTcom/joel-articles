@@ -8,7 +8,7 @@ First, judge the paragraph the way you judged passages before: what would Pangra
 
 Then write one ticket per sentence:
 - KEEP if the sentence isn't part of the problem.
-- FIX if it is. Say what makes it AI-shaped, pointing to what the labeled examples showed. Then give an instruction the writer can carry out without seeing the whole picture: cut it, merge it with another sentence, split it, move it, or rewrite it. For a rewrite, say what the reader should get from it instead (a positive target), not the words.
+- FIX if it is. Say what makes it AI-shaped, pointing to what the labeled examples showed. Then give an instruction the writer can carry out without seeing the whole picture: cut it, merge it with another sentence, split it, move it, or rewrite it. For a rewrite, say what the reader should get from it instead (a positive target), not the words. A cut never takes out a point the guide passage makes, unless the article already says it: fix how it's said instead (Joel, 2026-10-12: "never take out something important in order to pass pangram").
 
 Things we know flipped a verdict here (from the examples):
 - The author's own wording passed where an AI's smoother, more casual rewording of it failed.

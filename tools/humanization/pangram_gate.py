@@ -10,16 +10,19 @@ is also kept in sessionStorage under its own key, so a later batch can start fro
 
 GATE.json holds each key's gate record:
   {"P1":  {"kind": "draft", "march": ["S S B S S", "S S B S S"], "cold": "OK", "grounding": "OK",
-           "stance": 0, "lint": "REVIEW"},
-   "P1b": {"kind": "draft", "march": ["S B S"], "cold": "OK", "lint": "REVIEW",
+           "stance": 0, "lint": "REVIEW", "missing": []},
+   "P1b": {"kind": "draft", "march": ["S B S"], "cold": "OK", "lint": "REVIEW", "missing": [],
            "grounding": "same claims as P1", "stance": "same claims as P1"},
+   "P1c": {"kind": "draft", ..., "missing": ["the tribes' predictable reactions"], "probe": true},
    "J4":  {"kind": "owner", "joel": "2026-10-12 03:13 UTC: ..."},
    "h2":  {"kind": "section", "parts": ["P1", "installed"]}}
 
 A draft goes to Pangram only with a march read that has a break in every reading, a cold read with
-every sentence OK, a clean grounding, a stance check with no conflicts and a linter verdict that isn't
+every sentence OK, a clean grounding, a stance check with no conflicts, a linter verdict that isn't
 FAIL (docs/HUMANIZATION-GATE.md: "The march blocks the call", and every candidate gets the whole-article
-stance check before any Pangram call). "same claims as KEY" carries KEY's grounding or stance check
+stance check before any Pangram call), and "missing": the guide points it leaves out. A draft that leaves
+one out goes only as a probe, a test of what Pangram reacts to, and a probe is never installed (E168:
+faithful first). "same claims as KEY" carries KEY's grounding or stance check
 over to an edit that changes no claim (a sentence split in two, say); KEY needs its own record. An
 owner text is Joel's own words, which the march doesn't block. A section passes when each of its new
 parts does ("installed" for paragraphs already in the article).
@@ -71,6 +74,13 @@ def problems(key, gate, seen=()):
         if 'B' not in m.split():
             out.append('the march blocks the call: %r has no break. Break it where a person would react, '
                        'pause, allow something or wonder what it feels like (E131)' % m)
+    missing = g.get('missing')
+    if missing is None:
+        out.append("no 'missing' list: the guide points the draft leaves out ([] when it carries them all; E168)")
+    elif missing and not g.get('probe'):
+        out.append('leaves out %s. A draft that drops a point goes to Pangram only as a probe ("probe": true), and a probe '
+                   'is never installed (E168; Joel, 2026-10-12: "never take out something important in order to pass '
+                   'pangram")' % '; '.join(missing))
     if g.get('cold') != 'OK':
         out.append('cold read: %r (every sentence OK first)' % (g.get('cold'),))
     if not g.get('lint') or str(g.get('lint')).upper() == 'FAIL':

@@ -819,7 +819,8 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
     before their stance checks and march reads. pangram_gate.py writes the batch only for texts whose gate
     record passes."""
 
-    CLEAN = {'kind': 'draft', 'march': ['S S B S'], 'cold': 'OK', 'grounding': 'OK', 'stance': 0, 'lint': 'REVIEW'}
+    CLEAN = {'kind': 'draft', 'march': ['S S B S'], 'cold': 'OK', 'grounding': 'OK', 'stance': 0, 'lint': 'REVIEW',
+             'missing': []}
 
     def run_gate(self, drafts, gate, keys):
         with tempfile.TemporaryDirectory() as d:
@@ -869,3 +870,33 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         r, _, _ = self.run_gate({'p': 'One. Two.'}, {'p': g}, ['p'])
         self.assertEqual(r.returncode, 2)
         self.assertIn("but gone has None", r.stderr)
+
+    def test_a_draft_that_leaves_a_point_out_goes_only_as_a_probe(self):
+        """E168 (Joel, 2026-10-12 17:36 UTC): "never take out something important in order to pass pangram"."""
+        g = dict(self.CLEAN, missing=["political tribes' consistent positions and predictable reactions"])
+        r, js, _ = self.run_gate({'p': 'One. Two, maybe. Three.'}, {'p': g}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('goes to Pangram only as a probe', r.stderr)
+        self.assertIsNone(js)
+        r, js, _ = self.run_gate({'p': 'One. Two, maybe. Three.'}, {'p': dict(g, probe=True)}, ['p'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+
+    def test_a_draft_needs_its_missing_list(self):
+        g = dict(self.CLEAN); del g['missing']
+        r, _, _ = self.run_gate({'p': 'One. Two.'}, {'p': g}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("no 'missing' list", r.stderr)
+
+
+class MarchSplitsLists(unittest.TestCase):
+    """2026-10-12 (turn 49): the march reader got a list's lead-in and its items run together, so a lead-in and
+    four questions read as one sentence. Each item is its own sentence now."""
+
+    def test_list_items_are_sentences(self):
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        ps = reviewer.march_paragraphs('While you\'re hooked, ask yourself these:\n- What am I about to lose?\n- Whose approval feels like survival?\n'
+                                       '- Caring about somebody without losing your ground\n\nA plain paragraph. It has two sentences.')
+        self.assertEqual(ps[0], ["While you're hooked, ask yourself these:", 'What am I about to lose?',
+                                 'Whose approval feels like survival?', 'Caring about somebody without losing your ground'])
+        self.assertEqual(ps[1], ['A plain paragraph.', 'It has two sentences.'])

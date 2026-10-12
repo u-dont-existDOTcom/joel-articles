@@ -1979,6 +1979,65 @@
     "what you can joke about or get upset about",
     "But if going along means betraying yourself, that's the bargain."
    ]
+  },
+  {
+   "id": "bargains-p1-joel-20261012d",
+   "status": "applied",
+   "what": "Untangling the Belonging Bargains P1 is Joel's version, as he wrote it (his curly apostrophes too): the political tribe's \"which expects consistent positions and predictable reactions\" put back after turn 48 left it out to pass Pangram. In since turn 49. His check: 100% Human (106).",
+   "joel": "2026-10-12 17:36 UTC: \"from now on, never take out something important in order to pass pangram. give your best *faithful* version to me, i'll show you exactly how to fix it without doing that. It's not terrible without political tribes, but you can add that back and still get to human. in fact, i didn't do anything other than add it back in, and it's still human, so that was not the problem\"",
+   "where": "Untangling the Belonging Bargains",
+   "must_contain_exact": [
+    "like a political tribe or another group you identify with which expects consistent positions and predictable reactions."
+   ]
+  },
+  {
+   "id": "bargains-rest-20261012d",
+   "status": "claim",
+   "what": "Untangling the Belonging Bargains P2 (the human doer, every arena, caretaking's controlling form) and P3 (gifts that become bargains; the child takes them; self-differentiation; praise, pity, fear, attraction, resonance), and the h3 Four Pairs That Commonly Hook the Child: Pema's map and the six goods, the four questions, the aim, differentiation inside with the three comparisons, the ordinary-life signs, slow and lifelong with distance, returning and permanent leaving. Turn 49.",
+   "joel": "2026-10-12 17:36 UTC: \"continue\"",
+   "where": "Untangling the Belonging Bargains",
+   "must_contain": [
+    "you can become a \"human doer,\"",
+    "becoming indispensable to everybody else's problems",
+    "In its controlling form, that caretaking can drift into keeping other people dependent",
+    "can all be real gifts",
+    "is called self-differentiation",
+    "### Four Pairs That Commonly Hook the Child",
+    "praise and blame, and good reputation and disgrace",
+    "romance, money, status, belonging or a spiritual high",
+    "a high I'm trying to keep",
+    "a condition for having a self",
+    "belonging selectively",
+    "a faith that's your own is healthier than religious compliance",
+    "sturdier relationship than two who've been absorbed into each other",
+    "Noticing when you agreed in the moment and disagree later",
+    "Differentiation is slow, and it goes on your whole life",
+    "Some people come back later on different terms"
+   ]
+  },
+  {
+   "id": "q17-p3-fix-20261012d",
+   "status": "pending",
+   "waits_for": "Joel's fix (question 17)",
+   "what": "Untangling P3 is in as the faithful version and fails Pangram alone (100% AI, 0.557; two versions with no claim changed, 0.588 and 0.605). Joel shows how he'd fix it without taking anything important out.",
+   "joel": "2026-10-12 17:36 UTC: \"give your best *faithful* version to me, i'll show you exactly how to fix it without doing that\"",
+   "where": "Untangling the Belonging Bargains"
+  },
+  {
+   "id": "q18-questions-fix-20261012d",
+   "status": "pending",
+   "waits_for": "Joel's fix (question 18)",
+   "what": "Four Pairs P2, the four questions, is in as the faithful version and fails Pangram alone (100% AI, 0.804; the guide's wording 0.961; as prose 0.997). Joel shows how he'd fix it.",
+   "joel": "2026-10-12 17:36 UTC: \"give your best *faithful* version to me, i'll show you exactly how to fix it without doing that\"",
+   "where": "Four Pairs That Commonly Hook the Child"
+  },
+  {
+   "id": "q19-key-credit-20261012d",
+   "status": "pending",
+   "waits_for": "Joel's answer (question 19)",
+   "what": "The guide's credit line for this part of the method, \"Key developed this identity and differentiation portion of the method, drawing on Bowen's family-systems work and her own self-therapy\", says what someone in his life did, so it waits for his word (E159): leave it as the guide has it, or his words. Draft: \"Key developed this identity and differentiation part of the method, drawing on Murray Bowen's family-systems work and her own self-therapy.\"",
+   "joel": "(not yet)",
+   "where": "Four Pairs That Commonly Hook the Child, last paragraph"
   }
  ]
 }
