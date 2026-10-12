@@ -1,0 +1,178 @@
+{
+ "turn": 48,
+ "what": "Untangling the Belonging Bargains P1: round 1's writer 1 alone, under the heading, and in the h1; round 2's three writers; writer 2 with three last sentences (A, B, C), with the grounding's fixes (C1 to C3) and C3 under the heading and in the h1; then D5, C3 with a sentence split so the break stands alone (the march of C3 had no break), alone, under the heading and in the h1. Pangram web app (dashboard, version 4.0). Results found in the History by each text's SHA-256; times are the History's, in UTC. Windows: one each; the h1s Human, high; D5's h2 Human, medium.",
+ "results": [
+  {
+   "key": "t48_W1",
+   "history_id": 15682705,
+   "utc": "2026-10-12T05:36:01Z",
+   "words": 73,
+   "avg_ai_likelihood": 0.9974,
+   "label": "100% AI",
+   "sha256": "66a33559761ebd5c182087c194a73ee7ed1af91386f77851eba31bf831804817"
+  },
+  {
+   "key": "t48_W1h2",
+   "history_id": 15682716,
+   "utc": "2026-10-12T05:36:10Z",
+   "words": 77,
+   "avg_ai_likelihood": 0.9979,
+   "label": "100% AI",
+   "sha256": "e7b3e0e3556c0627f2b4db1d3c09353027561e16ea27e6f333abcbc8815bed27"
+  },
+  {
+   "key": "t48_W1h1",
+   "history_id": 15682725,
+   "utc": "2026-10-12T05:36:20Z",
+   "words": 767,
+   "avg_ai_likelihood": 0.1558,
+   "label": "100% Human",
+   "sha256": "7339fa4caa237e82443ce974a369d11efe6c93d89f359424793939d1578ad10a"
+  },
+  {
+   "key": "t48_R1",
+   "history_id": 15683918,
+   "utc": "2026-10-12T05:55:15Z",
+   "words": 77,
+   "avg_ai_likelihood": 0.6692,
+   "label": "100% AI",
+   "sha256": "b802f563e0737686fd328aee26e784b10307c763d0d65d8366a80dbd65fc46ae"
+  },
+  {
+   "key": "t48_R2",
+   "history_id": 15683929,
+   "utc": "2026-10-12T05:55:25Z",
+   "words": 80,
+   "avg_ai_likelihood": 0.1611,
+   "label": "100% Human",
+   "sha256": "5a18dec8168b091aaf402b9d41e80dccda22b3da9d04ac4eca0f274dc3197a48"
+  },
+  {
+   "key": "t48_R3",
+   "history_id": 15683935,
+   "utc": "2026-10-12T05:55:36Z",
+   "words": 78,
+   "avg_ai_likelihood": 0.9416,
+   "label": "100% AI",
+   "sha256": "24e7bb3e212a0e039a2868d007ed1eea7fa022e46b4512b8137eb62f457df60c"
+  },
+  {
+   "key": "t48_A",
+   "history_id": 15684381,
+   "utc": "2026-10-12T06:02:55Z",
+   "words": 94,
+   "avg_ai_likelihood": 0.4083,
+   "label": "100% Human",
+   "sha256": "5acebe05d78c3014944fcfc1d079441aec76fb382db8b066c667bbd7702b6f2b"
+  },
+  {
+   "key": "t48_B",
+   "history_id": 15684394,
+   "utc": "2026-10-12T06:03:05Z",
+   "words": 97,
+   "avg_ai_likelihood": 0.2861,
+   "label": "100% Human",
+   "sha256": "59ad187691b216d06410526e7c76a7024d4e223caf3b00d3ba1337e33a3824c6"
+  },
+  {
+   "key": "t48_C",
+   "history_id": 15684410,
+   "utc": "2026-10-12T06:03:15Z",
+   "words": 91,
+   "avg_ai_likelihood": 0.2203,
+   "label": "100% Human",
+   "sha256": "29519c1e11e2d034eb3e4efa4a29b56607be59f09cfed1396f119403e01c7446"
+  },
+  {
+   "key": "t48_C1",
+   "history_id": 15685173,
+   "utc": "2026-10-12T06:14:53Z",
+   "words": 94,
+   "avg_ai_likelihood": 0.2969,
+   "label": "100% Human",
+   "sha256": "a2e12adfc784133d5676edc13b54699b91c3e1f9784d9f9db3cc46113b2900eb"
+  },
+  {
+   "key": "t48_C2",
+   "history_id": 15685188,
+   "utc": "2026-10-12T06:15:03Z",
+   "words": 94,
+   "avg_ai_likelihood": 0.346,
+   "label": "100% Human",
+   "sha256": "8a91276a20168656375a06cf345e195cd22024cdc412ec93b6d32e99a89458eb"
+  },
+  {
+   "key": "t48_C3",
+   "history_id": 15685198,
+   "utc": "2026-10-12T06:15:13Z",
+   "words": 98,
+   "avg_ai_likelihood": 0.2723,
+   "label": "100% Human",
+   "sha256": "ea06216c68001af1e74f40da6d6bb0b51e7502cef36b66b40c658dba846cbf55"
+  },
+  {
+   "key": "t48_C3h2",
+   "history_id": 15685976,
+   "utc": "2026-10-12T06:26:27Z",
+   "words": 102,
+   "avg_ai_likelihood": 0.1847,
+   "label": "100% Human",
+   "sha256": "3cbb323add59bcf3d49f3933197721ac6b4d5f764e29e1770ffb01bcf68cb5c5"
+  },
+  {
+   "key": "t48_C3h1",
+   "history_id": 15685983,
+   "utc": "2026-10-12T06:26:32Z",
+   "words": 792,
+   "avg_ai_likelihood": 0.0752,
+   "label": "100% Human",
+   "sha256": "f306cad0a958e560c9301c80c7e03c7640f642ac6c3cccd42ed5bde0ccd59b75"
+  },
+  {
+   "key": "t48_D5",
+   "history_id": 15686523,
+   "utc": "2026-10-12T06:33:43Z",
+   "words": 99,
+   "avg_ai_likelihood": 0.171,
+   "label": "100% Human",
+   "sha256": "39f9c91ba5dacd09b48005f56c3c3ea14752ac57567faaa6bd1f5130f9c3da49"
+  },
+  {
+   "key": "t48_D5h2",
+   "history_id": 15686573,
+   "utc": "2026-10-12T06:34:17Z",
+   "words": 103,
+   "avg_ai_likelihood": 0.1274,
+   "label": "100% Human",
+   "sha256": "afb740ef039c998bbc63c5814e6cf6c58a900a450b9698a13e7f18add12a87bc"
+  },
+  {
+   "key": "t48_D5h1",
+   "history_id": 15686587,
+   "utc": "2026-10-12T06:34:28Z",
+   "words": 793,
+   "avg_ai_likelihood": 0.064,
+   "label": "100% Human",
+   "sha256": "246251b5f13ae1ba32770f8a0c0ccf102b19b673918a5d4fcf9ae7f0f6ba2d2c"
+  }
+ ],
+ "texts": {
+  "t48_W1": "Building who you are also means untangling yourself from whatever pulls you away from your own knowing in exchange for belonging, and that pull comes from group identities and political tribes too, and from families and religions nobody would call harsh. Most of them ask for some conformity, and that much is normal. A family wants a certain kind of son or daughter, and you probably know which kind yours has in mind.",
+  "t48_W1h2": "## Untangling the Belonging Bargains\n\nBuilding who you are also means untangling yourself from whatever pulls you away from your own knowing in exchange for belonging, and that pull comes from group identities and political tribes too, and from families and religions nobody would call harsh. Most of them ask for some conformity, and that much is normal. A family wants a certain kind of son or daughter, and you probably know which kind yours has in mind.",
+  "t48_W1h1": "# Sometimes There Isn't a Clear Child Yet\n\nReparenting assumes there's a clear little one in there to love, and for a lot of people there is. But if you grew up somewhere you only belonged as long as you played somebody else, like a really controlling family or a strict church, the real one may never have had room to form. All this stuff about your little one could have left you wondering who I'm even talking about.\n\nMaybe you started playing that part so early, and it took over so completely, that \"What do I believe?\" or \"What do I want?\" has no clear answer of your own. They sound like such easy questions, too. Back then, asking might have gotten you in trouble, or laughed at. Or there was just no way to ask. That can make \"love yourself\" feel pretty empty (love what, when the part you've been playing doesn't feel real?).\n\n## From Survival to Experimental Play\n\nIf your childhood meant avoiding pain and keeping the people you needed close, your attention got used up reading danger (was that sigh about me?) and meeting their expectations, and when curiosity or mistakes got you punished, or it felt like they loved you less, you got better at the part. That left much less room for experiments that show you what you like when nobody's grading you. People grow into who they are by trying things on and then changing their minds, from what they wear down to the ideas and roles they take up, like a teenager who starts spelling her name with an \"i\" at the end and later changes it back.\n\nSome of this is developmental pl/ork you get to do late: making it safe enough for your curiosity and experimenting to finally grow, and your preferences too. It might feel wrong somehow to like something before you've checked anyone's face. You can usually reparent and build who you are at the same time, but if your little one isn't easy to feel yet, making it safe like that is the first phase.\n\nAs you tell the part you've been playing apart from the self that didn't get much practice, notice whether it makes you more curious about both, and better able to relate to them. Or does it have you thinking, \"That one's fake, and I'm getting rid of it\"? You're after a relationship between them inside you that works better, and that's hard to have if there's a new split between an acceptable self and one that has to disappear.\n\nThat's assuming the self that didn't get much practice is easy to find, though. Your preferences and beliefs might shift a lot with the people around you, and you might not know what you'd choose without the fear of disappointing somebody. And when you ask what your little one feels, maybe all you get is a guess (which isn't proof there's no little one in there), something like \"lonely, probably?\"\n\nSo early on, the practice is finding out who's actually in there, through long reflection with no outside input, and journaling just for yourself, without picturing a reader. You might catch yourself explaining who everybody is anyway. Time alone in nature helps too, and so does getting back the preferences that got buried: the foods you really like and what feels good to do, and what you believe and feel when nobody's around to take your cues from.\n\nFocusing (Eugene Gendlin's method of listening to a vague, felt sense in your body) can especially help you notice feelings and preferences the part you've been playing learned to overlook. Any words you put to them can stay tentative (\"I hate cooking... or just for everybody?\") while you look at what they seem to mean and revise how you read them. Some people also benefit from temporary, intentional distance from whoever they've been playing the part for, long enough for conditioning to quiet down and real preferences to surface.\n\n## Untangling the Belonging Bargains\n\nBuilding who you are also means untangling yourself from whatever pulls you away from your own knowing in exchange for belonging, and that pull comes from group identities and political tribes too, and from families and religions nobody would call harsh. Most of them ask for some conformity, and that much is normal. A family wants a certain kind of son or daughter, and you probably know which kind yours has in mind.",
+  "t48_R1": "Building who you are also means untangling yourself from whatever pulls you away from your own knowing in exchange for belonging. That includes political tribes and other group identities, and ordinary families and religions too, where going along can feel like being a good son or daughter. Some of that is just part of belonging, and most groups do ask for some conformity, like the rules your friends have about what you can joke about and feel.",
+  "t48_R2": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about.",
+  "t48_R3": "Building who you are also means untangling yourself from whatever pulls you away from your own knowing and offers belonging in exchange. Group identities and political tribes do that, and so do families and religions, and I mean the nice ones too. Some conformity is ordinary, and most social systems ask for it; a political tribe expects consistent positions and predictable reactions, so you might have your side's reaction ready before you've read past the headline.",
+  "t48_A": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about. It only becomes a bargain when you have to betray yourself to keep belonging.",
+  "t48_B": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about. It turns into a bargain when going along means pretending you don't know what you know.",
+  "t48_C": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about. But if going along means betraying yourself, that's the bargain.",
+  "t48_C1": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or the expectations of a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about. But if going along means betraying yourself, that's the bargain.",
+  "t48_C2": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or the pull of a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about. But if going along means betraying yourself, that's the bargain.",
+  "t48_C3": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or the expectations of a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain.",
+  "t48_C3h2": "## Untangling the Belonging Bargains\n\nPart of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or the expectations of a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain.",
+  "t48_C3h1": "# Sometimes There Isn't a Clear Child Yet\n\nReparenting assumes there's a clear little one in there to love, and for a lot of people there is. But if you grew up somewhere you only belonged as long as you played somebody else, like a really controlling family or a strict church, the real one may never have had room to form. All this stuff about your little one could have left you wondering who I'm even talking about.\n\nMaybe you started playing that part so early, and it took over so completely, that \"What do I believe?\" or \"What do I want?\" has no clear answer of your own. They sound like such easy questions, too. Back then, asking might have gotten you in trouble, or laughed at. Or there was just no way to ask. That can make \"love yourself\" feel pretty empty (love what, when the part you've been playing doesn't feel real?).\n\n## From Survival to Experimental Play\n\nIf your childhood meant avoiding pain and keeping the people you needed close, your attention got used up reading danger (was that sigh about me?) and meeting their expectations, and when curiosity or mistakes got you punished, or it felt like they loved you less, you got better at the part. That left much less room for experiments that show you what you like when nobody's grading you. People grow into who they are by trying things on and then changing their minds, from what they wear down to the ideas and roles they take up, like a teenager who starts spelling her name with an \"i\" at the end and later changes it back.\n\nSome of this is developmental pl/ork you get to do late: making it safe enough for your curiosity and experimenting to finally grow, and your preferences too. It might feel wrong somehow to like something before you've checked anyone's face. You can usually reparent and build who you are at the same time, but if your little one isn't easy to feel yet, making it safe like that is the first phase.\n\nAs you tell the part you've been playing apart from the self that didn't get much practice, notice whether it makes you more curious about both, and better able to relate to them. Or does it have you thinking, \"That one's fake, and I'm getting rid of it\"? You're after a relationship between them inside you that works better, and that's hard to have if there's a new split between an acceptable self and one that has to disappear.\n\nThat's assuming the self that didn't get much practice is easy to find, though. Your preferences and beliefs might shift a lot with the people around you, and you might not know what you'd choose without the fear of disappointing somebody. And when you ask what your little one feels, maybe all you get is a guess (which isn't proof there's no little one in there), something like \"lonely, probably?\"\n\nSo early on, the practice is finding out who's actually in there, through long reflection with no outside input, and journaling just for yourself, without picturing a reader. You might catch yourself explaining who everybody is anyway. Time alone in nature helps too, and so does getting back the preferences that got buried: the foods you really like and what feels good to do, and what you believe and feel when nobody's around to take your cues from.\n\nFocusing (Eugene Gendlin's method of listening to a vague, felt sense in your body) can especially help you notice feelings and preferences the part you've been playing learned to overlook. Any words you put to them can stay tentative (\"I hate cooking... or just for everybody?\") while you look at what they seem to mean and revise how you read them. Some people also benefit from temporary, intentional distance from whoever they've been playing the part for, long enough for conditioning to quiet down and real preferences to surface.\n\n## Untangling the Belonging Bargains\n\nPart of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or the expectations of a family or religion that's kind to you, where going along might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain.",
+  "t48_D5": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or the expectations of a family or religion that's kind to you. Going along with those might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain.",
+  "t48_D5h2": "## Untangling the Belonging Bargains\n\nPart of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or the expectations of a family or religion that's kind to you. Going along with those might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain.",
+  "t48_D5h1": "# Sometimes There Isn't a Clear Child Yet\n\nReparenting assumes there's a clear little one in there to love, and for a lot of people there is. But if you grew up somewhere you only belonged as long as you played somebody else, like a really controlling family or a strict church, the real one may never have had room to form. All this stuff about your little one could have left you wondering who I'm even talking about.\n\nMaybe you started playing that part so early, and it took over so completely, that \"What do I believe?\" or \"What do I want?\" has no clear answer of your own. They sound like such easy questions, too. Back then, asking might have gotten you in trouble, or laughed at. Or there was just no way to ask. That can make \"love yourself\" feel pretty empty (love what, when the part you've been playing doesn't feel real?).\n\n## From Survival to Experimental Play\n\nIf your childhood meant avoiding pain and keeping the people you needed close, your attention got used up reading danger (was that sigh about me?) and meeting their expectations, and when curiosity or mistakes got you punished, or it felt like they loved you less, you got better at the part. That left much less room for experiments that show you what you like when nobody's grading you. People grow into who they are by trying things on and then changing their minds, from what they wear down to the ideas and roles they take up, like a teenager who starts spelling her name with an \"i\" at the end and later changes it back.\n\nSome of this is developmental pl/ork you get to do late: making it safe enough for your curiosity and experimenting to finally grow, and your preferences too. It might feel wrong somehow to like something before you've checked anyone's face. You can usually reparent and build who you are at the same time, but if your little one isn't easy to feel yet, making it safe like that is the first phase.\n\nAs you tell the part you've been playing apart from the self that didn't get much practice, notice whether it makes you more curious about both, and better able to relate to them. Or does it have you thinking, \"That one's fake, and I'm getting rid of it\"? You're after a relationship between them inside you that works better, and that's hard to have if there's a new split between an acceptable self and one that has to disappear.\n\nThat's assuming the self that didn't get much practice is easy to find, though. Your preferences and beliefs might shift a lot with the people around you, and you might not know what you'd choose without the fear of disappointing somebody. And when you ask what your little one feels, maybe all you get is a guess (which isn't proof there's no little one in there), something like \"lonely, probably?\"\n\nSo early on, the practice is finding out who's actually in there, through long reflection with no outside input, and journaling just for yourself, without picturing a reader. You might catch yourself explaining who everybody is anyway. Time alone in nature helps too, and so does getting back the preferences that got buried: the foods you really like and what feels good to do, and what you believe and feel when nobody's around to take your cues from.\n\nFocusing (Eugene Gendlin's method of listening to a vague, felt sense in your body) can especially help you notice feelings and preferences the part you've been playing learned to overlook. Any words you put to them can stay tentative (\"I hate cooking... or just for everybody?\") while you look at what they seem to mean and revise how you read them. Some people also benefit from temporary, intentional distance from whoever they've been playing the part for, long enough for conditioning to quiet down and real preferences to surface.\n\n## Untangling the Belonging Bargains\n\nPart of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging, like a political tribe or another group you identify with. Or the expectations of a family or religion that's kind to you. Going along with those might just feel like being good. Most groups expect some conformity, which is ordinary, like your family wanting a particular kind of son or daughter, or your friends' rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain."
+ }
+}

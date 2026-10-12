@@ -643,3 +643,16 @@ Joel agreed with both reviewer worries I had left as notes, answered the Altered
 
 1. His merge of this turn's pull request (no open questions).
 2. Untangling the Belonging Bargains: the whole-article dedup on its groups, the stance ledger, then the first paragraph.
+
+## Turn 48 (2026-10-12, from 04:53 UTC): Untangling the Belonging Bargains, P1
+
+Joel wrote "good continue". He had merged #164 (turn 47).
+
+- **Dedup and stance ledger first** (`t48-bargains/DEDUP.md`, `STANCE-LEDGER.md`), on the h2's first three groups. Said already: the controlling family, the strict church, the relationship you keep up a fake version of yourself for; the unparented child's bargain and keeping your own ground. New: group identities and political tribes, ordinary conformity, the family and friend-group asks, and all of the human doer.
+- **P1, the new h2's opening** (`t48-bargains/REVIEWS.md`): round 1's best draft passed every review and read 100% AI alone and under the heading. Of round 2's three writers only writer 2 read Human; it went in with a last sentence for its cold read's UNCLEAR ("But if going along means betraying yourself, that's the bargain."), "the expectations of" a kind family or religion and "or get upset about" from its grounding, and one sentence split so the march has a break. Alone 100% Human (99), the h2 100% Human (103), Sometimes There Isn't a Clear Child Yet 100% Human (793). Predictions 13 of 17.
+- **Lesson E167:** round 1's draft went to Pangram with a march of S S S, and round 2's drafts went before their stance checks and march reads, against the gate. `tools/humanization/pangram_gate.py` now writes the web-app batch only for texts whose gate record passes (tests: `PangramBatchNeedsTheGate`).
+
+### Next
+
+1. His merge of this turn's pull request (no open questions).
+2. Untangling the Belonging Bargains: the human doer (t48-g2), opening as a second kind of bargain.

@@ -17,7 +17,9 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
   `python3 tools/humanization/stance_check_prompt.py --essay PUBLISHED.md --rewrite REWRITE.md --out prompt.txt [--scope TEXT] [--topic TEXT] [--report REPORT.md]`
 - `build_sweep_prompt.py`: the fresh-context tell-sweep prompt, built from `docs/HUMANIZATION-TELL-INVENTORY.md`.
   `python3 tools/humanization/build_sweep_prompt.py TARGET.md [--previous PREVIOUS.md] [--next NEXT.md] > prompt.txt`
-- `pangram_batch_gen.py`: a browser batch of up to three Pangram checks, each text's SHA-256 checked before the click.
+- `pangram_gate.py`: the Pangram web-app batch and its History reader, written only for texts whose gate record passes (march with a break, cold read, grounding, stance check, linter; E167, 2026-10-12). Use it for every web-app check.
+  `python3 tools/humanization/pangram_gate.py DRAFTS.json GATE.json OUT.js --name NAME KEY [KEY ...]`
+- `pangram_batch_gen.py`: the older action-list batch of up to three Pangram checks (no gate check; use `pangram_gate.py`), each text's SHA-256 checked before the click.
   `python3 tools/humanization/pangram_batch_gen.py drafts.json out.json KEY1 KEY2 KEY3`
 - `emulate_humanize.py`: the Emulate API tool (`docs/EMULATE-FALLBACK.md`, section 3). It runs on Joel's laptop, where the key is.
   `python3 emulate_humanize.py balance`, or `python3 emulate_humanize.py humanize IN.txt OUT`
