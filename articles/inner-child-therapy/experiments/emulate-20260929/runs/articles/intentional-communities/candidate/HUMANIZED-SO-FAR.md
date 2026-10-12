@@ -160,7 +160,8 @@ Another thing is knowing which problems are beyond what peers can handle and nee
 
 And another is to deal with jealousy and conflict while it's still between the people involved, before it gets put on the agenda (generally at the bottom of the agenda).
 
-Also, read my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), because no matter how much your founding document says that you’re all beyond romance, you’re still gonna have dyads.
+<!-- 2026-10-12: section 4 v10, this sentence back to the published meaning (the guide covers the dyads; the document is about romance; both cases). Joel 17:23: "we can't replace "dyads" with "romance" that's not the same concept." 100% Human in its run and the section, 272g (s4/sweep/PREDICTIONS-272g.md). -->
+Also, read my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents). It covers the dyads that will form whether your founding document acknowledges romance or pretends you’re all beyond it.
 
 ### 3. Medicine pl/ork
 
@@ -525,14 +526,14 @@ It can be tricky to spell everything out, though. Let's say a grandmother is dem
 
 If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
-<!-- CANDIDATE: section 12 v10f (2026-10-12), Joel's message of 05:33 UTC: 17b ("review by someone who wasn't part of the decision"), 18b ("the same need, or even more of it,"), P3, P7 and P16 back to the guide's words ("revert those to guide exactly"), his last sentence of P16 ("Even then, the power to veto membership applications based on capacity remains dangerous."), P22 out of its parentheses ("2 parentheticals in a row"); P13 names its subject ("The ability to welcome somebody"), P14 has the guide's "available" back, and the sweep for the same kind of break put back the published generality in P13 ("fix whatever breaks") and P22 ("or anyone else it can't take right now"). Key-word check PASS (s12/preservation-keys.json). Pangram web app: Mixed, 30% AI (910 words, 07:44:50 UTC, batch 265g), on the guide's P3 and P16 and the list run, as v10c; every paragraph that isn't his or the guide's reads 100% Human alone or with a neighbor (s12/PREDICTIONS-s12.md). Open for Joel: question 19 (P3 and P16 read AI in the guide's words). Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 12 v11 (2026-10-12). Joel's message of 17:23 UTC: his P3 ("human, best") and P16 ("let's keep this one, best one"), as written; before that, 05:33: 17b, 18b, P7 in the guide's words, P22 out of parentheses. Mine: P14's five-item list as two pairs and a sentence and P15's third item in its own sentence (his list rule), P14's "absorb disruption" and "the new member's heart" back (trace r6), P13 names its subject, P22 keeps "every limit". Key-word check PASS. Pangram web app: the section 100% Human ("Human Written", 944 words, 17:43:06 UTC, batch 273g); each paragraph of mine alone or in a run that passes (s12/PREDICTIONS-s12.md). Not accepted until Joel says so. -->
 # The Math of Absorption, and Who This Isn’t For
 
 Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
 
 This does not surprise me, since we are taught to put on a show of competence in modern society. We have a lot of incentives to hide ourselves in our lives and disappear behind our screens the second things get uncomfortable. We have been encouraged by our institutions to be narrow in our skills, and then they act surprised when nobody can sit through a conflict without appointing a subcommittee or blocking somebody.
 
-So the question isn’t whether a person is “good enough” for community. The practical question is how much attention they currently have available for other people, how willing they are to examine their own reactions, and whether the group has enough capacity to support them without being consumed.
+So the question isn’t whether a person is “good enough” for community. Rather, whether the fit is right. Consider how much attention they currently have available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.
 
 Some people have engaged in long practices of contemplation or therapy, or have had very good luck in childhood; other people are just trying to survive some emergency in their life and need care more than responsibility. Most of us are all of these at different times in our lives.
 
@@ -554,11 +555,11 @@ The problem is that, in a group of eight people, if two are in a sustained crisi
 
 The ability to welcome somebody is partly a problem of resources, then, not compassion -- how many people can a group take in without hurting the existing members or the people they are taking in?
 
-There is a difficult paradox to consider. The need for new members in a small community is greater, but the ability of that community to tolerate the disruption of new members is less. With only eight people in the community, someone still has to grow the food, fix whatever breaks, balance the books, watch the kids, and maintain the water system. The water well doesn’t care how beautiful someone’s heart is.
+There is a difficult paradox to consider. The need for new members in a small community is greater, but the ability of that community to absorb disruption is less. With only eight people in the community, someone still has to grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids. And the water system has to keep working. The water well doesn’t care how beautiful the new member’s heart is.
 
-So early on, members usually need to have more available resource than acute need, and some practical skills to contribute, and a willingness to learn.
+So early on, members usually need to have more available resource than acute need, and some practical skills to contribute. They usually need to be willing to learn, too.
 
-I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, unfamiliar with therapeutic language, or simply inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision. Even then, the power to veto membership applications based on capacity remains dangerous.
+I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, maybe simply uncomfortable or unfamiliar with therapeutic language, or for whatever reason deemed inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision on membership. Even then, the power to veto membership applications based on capacity remains dangerous.
 
 This community may not be a good fit for you *right now* if:
 

@@ -1,18 +1,52 @@
 # Sweep of the article for the breaks Joel found in section 12 (2026-10-12)
 
-Joel, 05:33 UTC: "p3 got b roken ... then you broke p7 ... p16 also broke the meaning ... debug the error so it doesn't happen again". The gate's correction rule asks for a sweep of the article for the same problem ("Every correction teaches the system", `docs/HUMANIZATION-GATE.md`).
+Updated after Joel's message of 2026-10-12 17:23 UTC.
 
-**How.** Eight fresh Sonnet agents, each given a section or a few, published and rewritten, and only the three kinds of break (`PROMPT-G1.txt` to `PROMPT-G8.txt`; inputs `in-G*.md`; reports `sweep-G*.md`): a pronoun or vaguer word where the published sentence names something, a narrower thing in place of a general one, and a dropped word that sets a claim's standard or says how long it holds. Sections 1 to 11 as installed, and section 12 v10c. Sections 13 to 17 are still the published text.
+Joel, 05:33 UTC: "p3 got b roken ... then you broke p7 ... p16 also broke the meaning ... debug the error so it doesn't happen again". The humanization gate's correction rule asks for a sweep of the whole article for the same problem.
 
-**What it found: 18 places.** 14 are in Joel's own paragraphs, where the change is his (his rewrites and rulings, in `OWNER-EDITS.json` or his texts in the section folders), and several are his deliberate corrections of the published text (section 3's "people who've done the healing first": "he does want people to come in largely healed"). Those stay as he wrote them. 4 are in my text:
+**How.** Eight fresh Sonnet readers, each given a section or a few, published and rewritten, looked for only three kinds of break: a pronoun or vaguer word where the published sentence names something; a narrower thing in place of a general one; and a dropped word that sets a claim's standard or says how long it holds. They read sections 1 to 11 as installed, and section 12 as it was that morning. Sections 13 to 17 are still the published text.
 
-| Section | Published | Mine | Kind | Disposition |
+**What it found: 18 places.** 14 are in Joel's own paragraphs: his rewrites, his texts, and his rulings in the owner-edits record. Several of those are his deliberate corrections of the published text (section 3's "people who've done the healing first": he does want people to come in largely healed). They stay as he wrote them. 4 were in my text:
+
+| Section | Published | Mine | Kind | What happened |
 |---|---|---|---|---|
-| 12, P13 | "equipment repaired" | "fix the cars" | narrower | **fixed**: "fix whatever breaks" (v10f; 263g, 265g) |
-| 12, P22 | "instead of converting every limit into rejection" | "not flat-out rejecting people who fall into these categories" | narrower | **fixed**: "... who fall into these categories, or anyone else it can't take right now" (v10f; 265g). "Every time it hits a limit" passed with L4 but took the section to 45% AI |
-| 11, P5 | "If every adaptation still needs the founder's approval" | "If it needs the founder's “blessing”" | pronoun; "every" and "still" dropped | **fixed**: "If every change they make still needs the founder's “blessing”" (v13; the section 100% Human, 267g; with P4 100% Human, 268g). Three other wordings brought an AI window onto P4 (264g to 267g) |
-| 4, Relational pl/ork P6 | "whether the founding document acknowledges romance or pretends everybody has transcended it" | "no matter how much your founding document says that you're all beyond romance" | narrower (one case of two) | **kept**: "no matter how much" covers both cases, so a reader still takes away that dyads happen whatever the document says. Section 4's trace (TRACE-v6-A) had marked the same phrase for "pretends" becoming "says"; Joel reviewed section 4 after that (his edits of 21:16 and 23:49) |
+| 12, P13 | "equipment repaired" | "fix the cars" | narrower | **Fixed**: "fix whatever breaks". Now in P14, after Joel's list fix; the section reads 100% Human |
+| 12, P22 | "instead of converting every limit into rejection" | "not flat-out rejecting people who fall into these categories" | narrower | **Fixed**: "... who fall into these categories, or anyone else it can't take right now" |
+| 11, P5 | "If every adaptation still needs the founder's approval" | "If it needs the founder's “blessing”" | pronoun; "every" and "still" dropped | **Fixed**: "If every change they make still needs the founder's “blessing”" (the section reads 100% Human) |
+| 4, "Relational pl/ork", P6 | "covers the dyads that will form whether the founding document acknowledges romance or pretends everybody has transcended it" | "because no matter how much your founding document says that you're all beyond romance, you're still gonna have dyads" | narrower (one case of two), and what the guide covers was lost | **Kept by me, wrongly; fixed after Joel's 17:23 message**: "oops, yeah we can't replace "dyads" with "romance" that's not the same concept." Now: "It covers the dyads that will form whether your founding document acknowledges romance or pretends you're all beyond it." (the section reads 100% Human) |
 
-Joel's paragraphs the sweep flagged, for the record (no change): section 1 "a highly structured political system" (`s1-rulings`); section 2 "leeching off the group", "developing healthier forms of relationships", "stop trying to act helpless" (`s2-c10`, `s2-c10-fix`), "the old way of living", "the group runs out of money, a baby is born" (`s2-c11b`); section 3 "people who've done the healing first" (`s3-p9`); section 4 "And it's built on somatic regulation first." (`s4-p12`); section 8 "if they are known to be honest", "may get mixed up telling what happened", "hopefully including non-intrusive help from outside", "Kids in or outside of intentional communities" (his texts of 2026-10-07 15:05, `s8/joel-1505/`); section 11 "nobody has to take medicine to have equal respect", "when communal therapy processes are pre-reqs" (his rewrite of 2026-10-11 18:35, `s11/joel-1835/`).
+**Why the section 4 one got through.** The reader was right, and I argued it away with my own reading ("no matter how much" covers both cases). The gate's restore rule now says a reader's finding about the published meaning gets the published words back; my reading of the rewrite can't overrule it. Only Joel can.
+
+## The 14 in Joel's paragraphs
+
+Joel, 17:23: "i want to see the rest of the 14 it flagged in "my paragraphs" (since idk if they are really "mine")". Each one is on the [Rule Scoring Sheet](https://claude.ai/artifact/NeH9dPAYfd1vGDSMTy1fGN), with the published words, the words now in the article and where they came from. You can score them there: a change you made on purpose, the same meaning, or one I should fix.
+
+| Section | Flagged words | Where they came from |
+|---|---|---|
+| 1 | "a highly structured political system" | your rulings on section 1, 2026-09-30 |
+| 2 | "leeching off the group", "developing healthier forms of relationships" | your rewrite of the communal ownership paragraph, 2026-10-01 14:49 |
+| 2 | "stop trying to act helpless" | my wording, proposed 2026-10-01 16:46; you: "agree fix it" |
+| 2 | "the old way of living", "the group runs out of money, a baby is born" | your paragraph on why earlier communes failed, with my wording proposed 2026-10-01 16:46; you: "agree fix it" |
+| 3 | "people who've done the healing first" | your fix of 2026-10-02 00:52 |
+| 4 | "And it's built on somatic regulation first." | your rewrite at 21:16 |
+| 8 | "if they are known to be honest", "may get mixed up telling what happened", "hopefully including non-intrusive help from outside", "Kids in or outside of intentional communities" | your texts of 2026-10-07 15:05 |
+| 11 | "nobody has to take medicine to have equal respect", "when communal therapy processes are pre-reqs" | your rewrite of 2026-10-11 18:35 |
+
+Two in section 2 ("stop trying to act helpless", and "why earlier communes failed" with "the group runs out of money") are my wordings, which you approved. They count as yours in the record, but the sheet says they are mine (F4 and F6).
+
+## The rule fix
+
+Joel, 17:23: "rather than just ignoring rules that fail my prose, we should fix the rules so they don't fail my prose". The sweep is now built by a script that marks every sentence that is his (in the owner-edits record or in his own texts) and tells the reader to leave marked text alone. The trace brief honors the same marks, and it now says an "it" that is clear in its place is fine.
+
+Blind re-runs on the sections that had 10 of the 14 flags, with one break planted in my text in each:
+
+| Run | Sections | Flags in his text before | With the marks | Planted break in my text |
+|---|---|---|---|---|
+| M1 | 1 and 2 | 6 | 0 | caught ("can't tolerate it anymore") |
+| M2 | 8 | 4 | 0 | caught ("principles about bedtime") |
+
+Whether the 14 flags were right about the meaning is Joel's call on the scoring sheet. If he says one of his own sentences lost something, the marks don't stop me from raising it; they stop a reader from treating his choices as my mistakes.
 
 Sections 5, 6, 7, 9 and 10: no findings.
+
+The readers' prompts, inputs and reports are in the sweep folder next to this file, for an agent re-running the check.

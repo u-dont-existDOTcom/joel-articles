@@ -526,3 +526,54 @@ Batch 265g (written 07:44 UTC on 2026-10-12 by `date -u`, before the call; `v265
 
 Score for 265g, counted strictly: 3 of 4 (L4y4P22y Human where I said AI); pass or no pass: 3 of 4. Both new P22s pass with L4. In the section, P22x makes it worse (45%) and P22y leaves it where v10c was (30%, the same three windows). **v10f** (v10c with "fix whatever breaks" and P22y) is the version to install: it keeps every key word, and its windows are the guide's P3 and P16 and the list run, as before.
 
+Joel's message of 2026-10-12 17:23 UTC: his P3 ("human, best") and P16 ("let's keep this one, best one"), with his own Pangram checks (P3 human; P16 fully human), and why the guide's versions read AI: "for P3 it's a list of 3 that's why it's AI, you couldn' tsee that? and capacity is an AI tell"; P16 "had another list of 3, plus a big list in the beginning", and "it was also the vagueness of that "not now."" His texts aren't checked again alone (his own checks count); only the new combinations are.
+
+Batch 269g (written 17:27 UTC on 2026-10-12 by `date -u`, before the call; `v269.json`, his parts in `fix-v7-parts.json`):
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 269g-P2mP3j | Human | both pass alone; his P3 has no list of three left | **AI (100%)**, 17:27:47 |
+| 269g-P3jP4m | Human | the same | **Human (100%)**, 17:27:50 |
+| 269g-P14p4P16j | Human | his P16 fully human; P15 passed beside P13 and P14 | **AI (100%)**, 17:27:55 |
+| 269g-P16jP16fL1w2 | Human | his P16 into the list's lead-in | **Human (100%)**, 17:28:02 |
+| 269g-S12v11 | Mixed | the list's end with P22 read AI in every section run since v10c (62 to 72 words) | **Mixed (31% AI, 934 words: P14's "With only eight people" to P16's end, 154w; L1's end to P22, 128w)**, 17:28:07 |
+
+Score for 269g, counted strictly: 3 of 5 (P2mP3j and P14p4P16j AI where I said Human); pass or no pass: 3 of 5. His P3 clears the P3 window in the section; P2 with it reads AI as a pair, and the section doesn't flag them. What's left is mine: P15 ("more available resource than acute need, and some practical skills to contribute, and a willingness to learn": the list of three he named in P3 and P16, which I didn't see in my own P15), and the list run's end, where P22 has the published three alternatives with an "or" before each.
+
+Batch 270g (written 17:30 UTC on 2026-10-12 by `date -u`, before the call; `v270.json`, parts in `fix-v8-parts.json`). His fix for a needed list of three, from P16 ("It would also need a way to revisit ..."): the third item in its own sentence. P15s1 does that ("They usually need to be willing to learn, too.", keeping "usually"); P22z does it for the three alternatives ("It could also say “with more support.”").
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 270g-P15s1P16j | Human | the list of three gone from P15 | **Human (100%)**, 17:30:18 |
+| 270g-L4y4P22z | Human | P22's three alternatives as two and one | **Human (100%)**, 17:30:22 |
+| 270g-S12v11a | Mixed | P15s1 only: the list run's window stays | **Human, "Mostly Human Written" (8% AI, 938 words: P14's "With only eight people" list, 40w; his P16's "Pretending capacity ... a “not now” decision", 36w)**, 17:30:27. Not a pass; the list run's window is gone |
+| 270g-S12v11b | Mixed | P22z only: P14 to P16 stays | **Mixed (40% AI: P10a into P12s, 60w; P14 to P22z, 319w)**, 17:30:34 |
+| 270g-S12v11c | Human | both | **Mixed (20% AI: P14 into P15s1, 60w; his P16's middle, 49w; L4 to P22z, 75w)**, 17:30:39 |
+
+Score for 270g, counted strictly: 2 of 5; pass or no pass: 2 of 5. P15s1 is the better of the two: with it alone the section reads "Mostly Human" (8%), the list run's window gone, P22y kept. Left: P14's five-item list (mine), and 36 words in the middle of his P16, which he checked fully human alone.
+
+Batch 271g (written 17:31 UTC on 2026-10-12 by `date -u`, before the call; `v271.json`). P14's list of five as pairs (his rule: lists in general read AI): P13p2x "grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids, and the water system has to keep working."; P13p2t the same with the water system its own sentence. And one diagnostic only, not for the article without his OK: P16k, his two passing P16 fixes together ("Any real process would need concrete criteria, and review by someone who wasn't part of the decision. It would also need a way to revisit a “not now” decision on membership.").
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 271g-P13q4P13p2xP15s1 | Human | no list of three left in the run | **Human (100%)**, 17:32:17 |
+| 271g-P13q4P13p2tP15s1 | Human | the same | **Human (100%)**, 17:32:21 |
+| 271g-S12v11d | Human | P14's list gone; his P16's window may stay | **Mixed (11% AI: his P16's middle, 36w; L4 to P22, 72w)**, 17:32:26 |
+| 271g-S12v11e | Human | the same | **Human (100%), "Human Written"** (946 words), 17:32:33 |
+| 271g-S12v11f | Human | with P16k (diagnostic) | **Human (100%), "Human Written"** (950 words), 17:32:37 |
+
+Score for 271g: 4 of 5 (S12v11d Mixed where I said Human). **Section 12 v11 = 271g's S12v11e: 100% Human with his P3 and P16 exactly as he chose them**, on try 3 of the section after his message (269g, 270g, 271g). My changes: P14's list of five as two pairs and a sentence (P13p2t), P15's third item in its own sentence (P15s1), both his list rule. The diagnostic with his two P16 fixes together (P16k) also reads 100% Human, so it isn't needed.
+
+The new trace on v11's changed paragraphs (s12/review-r6/trace-r6.md, Sonnet): P15s1 OK. P14 (P13p2t) NEEDS FIX on two sentences older than this turn: "tolerate the disruption of new members" for the published "absorb disruption" ("absorb", the section's own term, which the key file's U23 hadn't listed), and "someone's heart" for "the new member's". By the 05:33 rule a lost key word goes back; both are fixed and the key file now lists them.
+
+Batch 273g (written 17:42 UTC on 2026-10-12 by `date -u`, before the call; `v273.json`): P13p2u "the ability of that community to absorb disruption is less" and "the new member's heart"; P13p2v "absorb the disruption" and "a new member's heart".
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 273g-P13q4P13p2uP15s1 | Human | two words back in a run that passed | **Human (100%)**, 17:42:56 |
+| 273g-P13q4P13p2vP15s1 | Human | the same | **Human (100%)**, 17:43:01 |
+| 273g-S12v11g | Human (weak) | the section passed with P13p2t; windows move | **Human (100%), "Human Written"** (944 words), 17:43:06 |
+| 273g-S12v11h | Human (weak) | the same | **Human (100%), "Human Written"** (945 words), 17:43:14 |
+
+Score for 273g: 4 of 4. **Section 12 v11 = 273g's S12v11g**: his P3 and P16 as written; P14 with "absorb disruption" and "the new member's heart" (the published words), its list as two pairs and a sentence; P15's third item in its own sentence. 100% Human (944 words). Each paragraph of mine passes alone or in its run (P14 and P15 with P13, 273g; P15 with his P16, 270g; P22 with L4, 261g and 265g).
+

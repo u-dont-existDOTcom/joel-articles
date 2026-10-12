@@ -133,12 +133,15 @@
      "own reactions"
     ],
     [
-     "enough capacity"
+     "enough capacity",
+     "enough free resource/capacity"
     ],
     [
-     "consumed"
+     "consumed",
+     "full-time caretaker operation"
     ]
-   ]
+   ],
+   "note": "2026-10-12 17:23: Joel's P3 (\"enough free resource/capacity\", \"without becoming a full-time caretaker operation\") is his authorized wording."
   },
   {
    "id": "U9",
@@ -429,9 +432,13 @@
      "least"
     ],
     [
+     "absorb"
+    ],
+    [
      "disruption"
     ]
-   ]
+   ],
+   "note": "2026-10-12 trace r6: \"absorb\", the section's own term, had become \"tolerate\"; the unit hadn't listed it."
   },
   {
    "id": "U24",
@@ -470,8 +477,12 @@
     ],
     [
      "heart"
+    ],
+    [
+     "new member"
     ]
-   ]
+   ],
+   "note": "2026-10-12 trace r6: \"someone's heart\" for \"the new member's\"."
   },
   {
    "id": "U26",
@@ -491,9 +502,11 @@
      "practical skill"
     ],
     [
-     "willingness to learn"
+     "willingness to learn",
+     "willing to learn"
     ]
-   ]
+   ],
+   "span": 1
   },
   {
    "id": "U27",
@@ -524,9 +537,11 @@
     ],
     [
      "simply inconvenient",
-     "simply not convenient"
+     "simply not convenient",
+     "for whatever reason deemed inconvenient"
     ]
-   ]
+   ],
+   "note": "2026-10-12 17:23: Joel's P16 (\"or for whatever reason deemed inconvenient\") is his authorized wording."
   },
   {
    "id": "U28",
@@ -678,5 +693,8 @@
    ],
    "note": "2026-10-12 sweep (sweep-20261012/sweep-G8.md): \"every limit\" added; \"people who fall into these categories\" alone narrowed it to the four listed cases."
   }
+ ],
+ "section_terms": [
+  "absorb"
  ]
 }
