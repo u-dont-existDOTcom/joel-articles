@@ -545,3 +545,26 @@ Batch 232g (written 18:39 UTC on 2026-10-11 by `date -u`, before the call; `v232
 | 232g-S11v16 (1,319) | Human | his text throughout the second half | **Human (100%, 1,354 words scanned)**, 18:41:21 |
 
 Score for 232g (v11, Joel's rewrite of 2026-10-11 18:35): 14 of 14 calls right; saying AI every time would have scored 0 of 14. Every text was his own wording or ran into his, so this says little about my reading of AI shapes.
+
+## Joel's answers of 2026-10-11 23:12 UTC (v12)
+
+His answers to questions 11 to 16 (raw: `joel-2312/joel-20261011-2312-raw.txt`), fitted into his paragraphs as content under his 18:35 rule, my changes shown on the page: J3b (one sentence naming the divorce half), J4 (his terms answer, after J3), R14c (his private-practices answer, with "some practices go too far against the communal spirit" from a cold read's "no principle"), R16c and R16d (his answer on members who don't fit in), R18b (his grandmother case). Gate round a6 (`review-a6/`): stance 0 conflicts; cold reads E3 and E4 all OK after the prompt fixes. Linter on v12 with his paragraphs as owner and v11 installed: REVIEW, no FAIL (his phrasing kept).
+
+Batch 233g (written 23:59 UTC on 2026-10-11 by `date -u`, before the call; `v233.json`, parts in `fix-v25-parts.json`): each changed paragraph alone and in its run (R19 is under 50 words), the heading run with R14c, and the section (v12, `candidate-v12-keys.json`).
+
+| text | mine | why | Pangram (web app) |
+|---|---|---|---|
+| 233g-J3b (126) | Human | his run-ons and "etc,"; my added "Leaving a commune is the divorce half of it" is plain | **Human (100%)**, 23:59:51 |
+| 233g-J4 (84) | Human | "That's not how anything works", "it could be done"; risk: "that would require written terms" | **Human (100%)**, 23:59:54 |
+| 233g-J3bJ4 (210) | Human | the same two | **Human (100%)**, 23:59:59 |
+| 233g-R14c (114) | Human | his R14 passed; "of course", "say, they get booted"; risk: "go too far against the communal spirit" | **Human (100%)**, 00:00:08 |
+| 233g-H2CAPP13aR14c (143) | Human | the caption and R14c | **Human (100%)**, 00:00:13 |
+| 233g-R16c (82) | Human | "they will be kicked out", "leave way before that" | **Human (100%)**, 00:00:18 |
+| 233g-R16d (81) | Human | "It's up to the people involved", "like a death sentence"; risk: two "They should" openers in a row | **Human (100%)**, 00:00:22 |
+| 233g-R16cR16d (163) | Human | the same | **Human (100%)**, 00:00:29 |
+| 233g-R18b (75) | Human | "Let's say a grandmother", "way worse", "context by context" | **Human (100%)**, 00:00:37 |
+| 233g-R18R18b (169) | Human | his R18 passed; R18b loose | **Human (100%)**, 00:00:42 |
+| 233g-R18bR19 (96) | Human | R18b, then "vote with your feet" | **Human (100%)**, 00:00:46 |
+| 233g-S11v17 (1,636) | Human | v11 read 100% Human; the additions are his wording | **Human (100%, 1,682 words scanned)**, 00:00:52 |
+
+Score for 233g: 12 of 12 calls right; saying AI every time would have scored 0 of 12. The texts are his wording fitted in, plus three sentences of mine, so again this says little about my reading of AI shapes. Times run past midnight UTC (00:00 is 2026-10-12).

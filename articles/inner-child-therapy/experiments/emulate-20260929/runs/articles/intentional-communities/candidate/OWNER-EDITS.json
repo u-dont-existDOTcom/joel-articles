@@ -649,13 +649,14 @@
   },
   {
    "id": "s11-joel-20261011-1835",
-   "what": "Section 11: Joel's message of 2026-10-11 18:35 UTC. \"willing to be seen\" cut (his 4: \"this is redundant, i cut it\"). His article version of the land paragraph (J1 to J3: founderism in communities that form naturally, the probation reversal, the marriage analogy) replaces P10j; P10 and J1 to J3 move to the end of the first subsection \"so it flows correctly\". His rewrite of the whole second subsection: R14 to R19 replace P14 to P20 (P13 unchanged). Typos fixed only: \"ends by up treating\" to \"ends up treating\" (R14), a leading space; his characters kept as typed, double spaces included. [applied: section 11 v11, 2026-10-11]",
+   "what": "Section 11: Joel's message of 2026-10-11 18:35 UTC. \"willing to be seen\" cut (his 4: \"this is redundant, i cut it\"). His article version of the land paragraph (J1 to J3: founderism in communities that form naturally, the probation reversal, the marriage analogy) replaces P10j; P10 and J1 to J3 move to the end of the first subsection \"so it flows correctly\". His rewrite of the whole second subsection: R14 to R19 replace P14 to P20 (P13 unchanged). Typos fixed only: \"ends by up treating\" to \"ends up treating\" (R14), a leading space; his characters kept as typed, double spaces included. [applied: section 11 v11, 2026-10-11] 2026-10-12: J3 is checked in two parts around the sentence added from his 23:12 answer (\"you can mention it's the divorce half\").",
    "status": "applied",
    "joel": "4 this is redundant, i cut it | 8. before critical mass, my rules apply, because it's my land ... you can't just take what i say to you and publish it. it has to make sense in context. I'd put it in as: [J1 to J3] ... and we need to put that after P10, but we need to move P10 + that to the end of the section so it flows correctly. | p15, you can' tsay \"required as pre-reqs\" that's redundant ... i rewrote this whole section: [P13, R14 to R19]",
    "must_contain_exact": [
     "While founderism is a problem in every community, it's especially so in communities which form naturally over time as I'm describing may happen in my case. In such cases, there's no formal community and no formal rules until people decide to come together to make them. It doesn't make sense to do that at first, if, say, I'm the only one there and I don't know who else will be there that I could trust. If there's one other person who comes to visit, it also doesn't make sense, so there's a critical mass point at which people decide \"we were just living together like friends, but now we want to formalize the community.\"",
     "If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. But if we are all starting together from scratch, then we would all be at an equal probationary level with each other.",
-    "It's a bit like the process of getting married. At first, you visit your girlfriend or boyfriend when schedules align and each of you agrees. Over time as you get closer to marriage (which hopefully is not a fully unconscious process), you start making decisions together and considering sharing more and more resources. Once married, if you decide to divorce, you split up the resources, although that's also contentious depending on how long the marriage was for, whether one person feels tricked, etc,  and unfortunately often ends up in court.  When joining or forming a commune, we can hopefully be more conscious about the process and less romantic.",
+    "It's a bit like the process of getting married. At first, you visit your girlfriend or boyfriend when schedules align and each of you agrees. Over time as you get closer to marriage (which hopefully is not a fully unconscious process), you start making decisions together and considering sharing more and more resources. Once married, if you decide to divorce, you split up the resources, although that's also contentious depending on how long the marriage was for, whether one person feels tricked, etc,  and unfortunately often ends up in court.  ",
+    "When joining or forming a commune, we can hopefully be more conscious about the process and less romantic.",
     "Peer counseling can become peer surveillance, even if the tone is warm. And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that's fine. Some communities will be stricter gatekeepers, and others will be more lax. There are pros and cons to each extreme, and again, a living balance must be struck.",
     "It should go without saying that nobody has to take medicine to have equal respect in the community. But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point.",
     "No single person or permanent group of people should handle grievances and have the power to decide who gets into or stays in the community. Each person should have a usable avenue for exit. Dissent is important for growth. That doesn't mean everything everyone says is equally valid, though. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that's as much a failure, if not more so.",
@@ -672,6 +673,30 @@
     "required as pre-reqs",
     "The boundary is simple",
     "ends by up treating"
+   ]
+  },
+  {
+   "id": "s11-joel-20261011-2312",
+   "what": "Section 11 v12: Joel's answers of 2026-10-11 23:12 UTC to questions 11 to 16, fitted into his paragraphs as content (his 18:35 rule): J3b names the divorce half (his 16: \"you can mention it's the divorce half sure\"); J4 his answer on terms for visiting friends (14); R14c his answer on private practices (15), with \"some practices go too far against the communal spirit\" added from a cold read; R16c and R16d his answer on members who don't fit in (13: \"we should specify that they will not be demonized\"); R18b his grandmother case (12). Also his 13: \"decide the process before the name\" doesn't make sense and sounds AI, so section 13's line is fixed. My wording, his content: the checks hold his points, not exact characters.",
+   "status": "applied",
+   "joel": "12. ... let's say a grandmother is demonizing the commune. cutting contact with her could make things way worse ... 13. first off, \"decide the process before the name\" doesn't make any sense and it sounds AI. fix that. ... 14. nobody gives clear written terms to visiting friends ... 15. ... in general people can have their own private practices of course, but if they start worshipping Satan, they get booted, etc. 16. ... j3. right you can mention it's the divorce half sure.",
+   "must_contain": [
+    "Leaving a commune is the divorce half",
+    "Friends who come to visit don't get written terms",
+    "implied terms",
+    "people can have their own private practices",
+    "worshipping Satan",
+    "they will be kicked out",
+    "leave way before that",
+    "should not be demonized",
+    "offered compassion",
+    "death sentence",
+    "It's up to the people involved",
+    "a grandmother is demonizing the commune",
+    "context by context"
+   ],
+   "must_not_contain": [
+    "Decide the process before the name"
    ]
   }
  ]
