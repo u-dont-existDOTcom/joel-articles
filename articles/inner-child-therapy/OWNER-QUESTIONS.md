@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-12 (turn 46). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-12 (turn 47). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -18,7 +18,7 @@ None right now.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge the pull request for turn 46
+### 🟠 Merge the pull request for turn 47
 
 This turn's work is in a new pull request; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
@@ -26,6 +26,17 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-12 03:13 UTC
+
+- "reviewer worries: true, it should say: "… That's not a good excuse to take crazy doses tho."": in P6 after the trance line, as you wrote it.
+- "and that's true about the not trusted thing. change to "A new therapist is not as trusted as an old one."": in P9. "An old therapist could be more trusted." went too, since your new sentence says it; say if you want it back. You were right about both worries, and I shouldn't have left them as notes; how I'll handle such worries from now on is rule E165.
+- "re altered states notes: yes like i said, trance can be "more scary" because you're trapped in it, but it's also less actually dangerous …": saved for Altered States, next to your sleep-paralysis story, when that section is humanized.
+- "yeah gentle meditation or self-hypnosis can help that's true should mention both": saved for Altered States too.
+- "re: chikan and egg: that's true you cna say giving mission is guide's job": "That's the Guide's job." now follows "giving ourselves a mission as well".
+- "re also look outward p2 their prior promises isn't referring to anything specifc …": the cold-read prompts now say a general reference like that needs no setup. Five reads of your P2 passed it, and a planted specific one ("the promise they made at the lake") was still caught three times out of three.
+- "re: exposure to repeated danger it is in there …": right; your "even once" carries it, and a fresh check agrees. Both Also Look Outward notes were stale: the text and the prompts had changed and nobody re-checked them. Older notes now get a fresh read before they come back to you (rule E166).
+- "continue": From Survival to Experimental Play P6, Focusing (under Coming up). Pull request #162 (turn 46) is merged.
 
 ### 🟢 2026-10-12 02:18 UTC
 
@@ -84,19 +95,12 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 From Survival to Experimental Play (the next h2)
+### 🔵 Next: Untangling the Belonging Bargains
 
-In progress: P1 to P5 are in. P5 came this turn, after your "continue": the early practice of finding out who's actually in there (long reflection with no outside input, journaling without picturing a reader, time alone in nature, and getting back buried preferences). Next: Focusing, putting tentative words to what you notice, and temporary distance for some people. No question for you yet.
+From Survival to Experimental Play is done: P1 to P6 are in. P6 came this turn, after your "continue": Focusing, tentative words you revise, and temporary distance for some people from whoever they've been playing the part for. The guide's last paragraph of that h2 was already said in P2. Next is the next h2, Untangling the Belonging Bargains, starting with the whole-article dedup. No question for you yet.
 
-### 🔵 Notes for when Altered States is humanized
+### 🔵 Saved for when Altered States is humanized
 
-- Your answer to question 2 above decides that section's gate.
-- When the Urge to Escape Arrives P6 now says that in a trance "you can't freak out". Your guide's Altered States section has your fear during sleep paralysis. If that section ends up calling sleep paralysis trance-like (your answer 14 said trance is "almost like hypnagogia"), the two need to agree. Default: the article keeps them apart, and I show you.
-- Your guide says "Gentle meditation or self-hypnosis can still help" in When the Urge to Escape Arrives, while Altered States offers your self-hypnosis guide only "When you're ready". Default: I make them agree with the first, and show you.
-
-### 🔵 Older notes on your own paragraphs (from `OPEN-OWNER-FLAGS.md`)
-
-- Also Look Outward, your P2: three cold readers said "their prior promises" assumes promises the section hasn't mentioned; and your source's "you do not need repeated exposure to danger before protecting yourself" isn't in any version.
-- Chicken-and-Egg, your Guide paragraph: nothing on the page says a mission is the Guide's job, so "giving ourselves a mission" can read as a jump.
-
-Default for both: they stay as you wrote them unless you say otherwise.
+- Your answer to question 2 (2026-10-11 03:47): feeling attacked by a demon on a psychedelic isn't necessarily paranoia.
+- Your 03:13 trance point: a trance can feel scarier because you're trapped in it, but it's less dangerous, and in it you can work with the fear. It goes next to your sleep-paralysis story.
+- Your 03:13 "gentle meditation or self-hypnosis can help": both get mentioned there, as in When the Urge to Escape Arrives.

@@ -625,3 +625,21 @@ Joel answered questions 13 to 15 and wrote "continue". He had merged #161 (turn 
 
 1. His merge of this turn's pull request (no open questions).
 2. From Survival to Experimental Play: Focusing, tentative words and temporary distance (t42-g4's second half), then group 5 (t42-g5).
+
+## Turn 47 (2026-10-12, from 03:13 UTC): Joel's sentences, the Guide's job, the two reader errors, and Focusing
+
+Joel agreed with both reviewer worries I had left as notes, answered the Altered States and older notes, and wrote "continue". He had merged #162 (turn 46).
+
+- **When the Urge to Escape Arrives:** P6 gets his "That's not a good excuse to take crazy doses tho." after the trance line; P9 gets his "A new therapist is not as trusted as an old one." for its two therapist sentences. Lesson E165: a reviewer's worry about what a reader will do with his words gets a fix in his voice, shown to him, not a reason why it's fine.
+- **The Chicken-and-Egg Problem:** "That's the Guide's job." after his "giving ourselves a mission as well".
+- **Saved for Altered States** (ledger, pending): his trance point (trapped, so it can feel scarier, but less dangerous, and you can work with the fear) and "gentle meditation or self-hypnosis can help", both mentioned.
+- **Also Look Outward's two reader errors:** the cold-read prompts now say a general reference needs no setup ("their prior promises" OK 5 of 5; a planted specific one caught 3 of 3; `tools/humanization/reviewer/sense-validation/RESULTS-20261012b.md`), and "repeated exposure" is carried by his "even once" (a fresh check agrees). Both notes were stale. Lesson E166: older notes get a fresh read before they go back on his page.
+- **Debugged:** the P9 cold read first got turn 46's note about P9 instead of P9, since my script found the paragraph's opening words inside the HTML comment. The extraction strips comments now.
+- **Pangram 4.0, the dashboard, first try each, all 100% Human:** P6 (179), P9 (85); the urge h3 (1,310); Start With Whatever Showed Up (3,329); When the Adult Voice Feels Fake (3,922); the Guide paragraph (89); The Chicken-and-Egg Problem (816). Predictions 7 of 7.
+
+- **Continue: From Survival to Experimental Play P6** (`t47-survival/REVIEWS.md`): Focusing, tentative words, temporary distance, which finishes the h2 (its last guide paragraph was already in P2). Writer 2 with three fixes from the reviews; alone 100% Human (92), the h2 100% Human (530), the h1 100% Human (690). Predictions 3 of 3.
+
+### Next
+
+1. His merge of this turn's pull request (no open questions).
+2. Untangling the Belonging Bargains: the whole-article dedup on its groups, the stance ledger, then the first paragraph.
