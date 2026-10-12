@@ -2125,6 +2125,18 @@
         }
       ],
       "reason": "Which words repeat each other is a matter of meaning; O38 checks only the family Joel caught."
+    },
+    {
+      "id": "J51",
+      "tell": "a slogan that packs a whole situation into one noun (\"Decide the process before the name\")",
+      "kind": "judgment",
+      "sources": [
+        {
+          "file": "docs/HUMANIZATION-GATE.md",
+          "quote": "Whether a line packs a situation into a noun is a reader's call"
+        }
+      ],
+      "reason": "Which noun stands for a whole situation is a matter of meaning; a pattern would also catch plain lines like \"choose a mediator before the crisis\"."
     }
   ]
 }

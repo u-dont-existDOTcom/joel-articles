@@ -320,6 +320,22 @@ class InContextPageShowsContext(unittest.TestCase):
         self.assertNotEqual(rc, 0)
         self.assertIn('needs a place', out)
 
+    def test_his_words_from_chat_show_beside_the_row(self):
+        """2026-10-12: an answer he gave in chat, fitted into the article, is shown in the left card (Joel, 2026-10-11
+        18:35: "you can't just take what i say to you and publish it. it has to make sense in context")."""
+        rc, out = self.render([{'label': 'P2 · your answer, my wording', 'article': 'An installed paragraph',
+                                'source': [], 'beside': {'label': 'Your words, 23:12 UTC', 'text': 'well this can be tricky'}}])
+        self.assertEqual(rc, 0, out)
+        left = out.split('<div class="grid"><div class="card">')[1].split('</div>')[0]
+        self.assertIn('Your words, 23:12 UTC', left)
+        self.assertIn('well this can be tricky', left)
+        self.assertNotIn('No ', left)
+        rc, out = self.render([{'label': 'P2', 'article': 'An installed paragraph', 'source': ['Source paragraph.'],
+                                'beside': {'label': 'Your words', 'text': 'his answer'}}])
+        self.assertEqual(rc, 0, out)
+        left = out.split('<div class="grid"><div class="card">')[1].split('</div>')[0]
+        self.assertLess(left.index('Source paragraph.'), left.index('his answer'))
+
     def test_the_paragraphs_around_a_chain_of_candidates_are_shown(self):
         rc, out = self.render([{'label': 'B1', 'text': 'First new paragraph.', 'source': [], 'after': 'An installed paragraph'},
                                {'label': 'B2', 'text': 'Still, a second new one.', 'source': [], 'after_row': 'B1'}])
@@ -382,6 +398,8 @@ class StanceCheckPrompt(unittest.TestCase):
         self.assertIn('/tmp/report.md', p)
         self.assertLess(p.index('THE WHOLE PUBLISHED ESSAY:'), p.index('THE REWRITE (section 3):'))
         self.assertIn('vaguer general one', p)
+        # Joel, 2026-10-11 23:12, on "can't be voted away" beside "even by a majority vote": "fix the reviewers"
+        self.assertIn("Read the way people talk.", p)
 
     def test_images_that_carry_content_are_described(self):
         essay = '# Essay\n\n[image 7](https://example.com/parts.svg)\n\nThese four parts leak.\n\n[image 8](https://example.com/x.png)\n'
@@ -581,6 +599,11 @@ class SectionColdReadPrompt(unittest.TestCase):
         self.assertIn('put your best reading of it after the quote', p)
         self.assertIn('This is only about following the words.', p)
         self.assertIn('"that call" is the one that\'s ringing', p)
+        # 2026-10-12, Joel: "you can't do that to me!" doesn't mean "you can not" ... fix the reviewers"; "it was said"
+        self.assertIn('Read the way people talk.', p)
+        self.assertIn('only where a reasonable reader would see one', p)
+        self.assertIn('look for the reason in its other sentences', p)
+        self.assertIn("leave it out entirely, and don't report it as garbled", p)
         self.assertIn("Don't suggest rewrites", p)
         self.assertIn('Return the lines as your final message', p)
 
