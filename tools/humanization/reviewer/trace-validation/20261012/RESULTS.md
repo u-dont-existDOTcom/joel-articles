@@ -75,5 +75,5 @@ Each run is one fresh Sonnet agent, so these are single readings, not rates. The
 
 ## 4. The mechanical check
 
-`preservation_keys.py` with `candidate/s12/preservation-keys.json` (35 units, each with the words its meaning rests on): v9 fails 8 units (U7, U8, U11, U26 to U30), v10 fails U26 ("available"), v10c passes. Tests: `tests/test_humanization_tools.py`, `PreservationKeys`.
+`preservation_keys.py` with `candidate/s12/preservation-keys.json` (35 units, each with the words its meaning rests on): v9 fails 8 units (U7, U8, U11, U26 to U30), and v10 fails U26 ("available"). v10c passed the file as first written; then the sweep of sections 1 to 12 for the same kinds of break (community lane, `sweep-20261012/SWEEP-RESULTS.md`) found two more narrowings in it, "fix the cars" for "equipment repaired" and P22's "people who fall into these categories" for "every limit". U24 and U32 now carry those words, v10c fails them, and v10f passes. Tests: `tests/test_humanization_tools.py`, `PreservationKeys`.
 Matching is per paragraph, because a whole-section match passed U26 on a "free resource" in another paragraph.
