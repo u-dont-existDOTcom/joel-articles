@@ -1893,6 +1893,77 @@
     "Time alone in nature",
     "when nobody's around to take your cues from"
    ]
+  },
+  {
+   "id": "p6-crazy-doses-20261012b",
+   "status": "applied",
+   "what": "P6: his sentence after the trance line, as he gave it. In since turn 47, after the gate and Pangram.",
+   "joel": "2026-10-12 03:13 UTC: \"reviewer worries:  true, it should say: \"When you're in a trance, you can't freak out: no matter how scary something is, it's just like, \"Oh, this is scary, OK, oh well.\" That's not a good excuse to take crazy doses tho.\"\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain_exact": [
+    "That's not a good excuse to take crazy doses tho."
+   ]
+  },
+  {
+   "id": "p9-new-therapist-20261012b",
+   "status": "applied",
+   "what": "P9: his \"A new therapist is not as trusted as an old one.\" for \"A new therapist is not trusted. An old therapist could be more trusted.\" (both sentences; his says the second). In since turn 47, after the gate and Pangram.",
+   "joel": "2026-10-12 03:13 UTC: \"and that's true about the not trusted thing. change to \"A new therapist is not as trusted as an old one.\"\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain_exact": [
+    "A new therapist is not as trusted as an old one."
+   ],
+   "must_not_contain": [
+    "A new therapist is not trusted.",
+    "An old therapist could be more trusted."
+   ]
+  },
+  {
+   "id": "guide-mission-job-20261012b",
+   "status": "applied",
+   "what": "The Chicken-and-Egg Problem, his Guide paragraph: \"That's the Guide's job.\" after \"giving ourselves a mission as well\". In since turn 47, after the gate and Pangram.",
+   "joel": "2026-10-12 03:13 UTC: \"re: chikan and egg: that's true you cna say giving mission is guide's job\"",
+   "where": "The Chicken-and-Egg Problem",
+   "order": [
+    "giving ourselves a mission as well.",
+    "That's the Guide's job.",
+    "But then some people over-rely on their mission"
+   ]
+  },
+  {
+   "id": "altered-states-trance-20261012b",
+   "status": "pending",
+   "waits_for": "Altered States Can Deepen the Therapy / Can Require Reparenting, when humanized",
+   "what": "For Altered States, next to his sleep-paralysis fear: a trance can feel scarier because you're trapped in it, but it's less dangerous. You can't ruin your life in a trance (unless a bad hypnotic suggestion gets deeply implanted, perhaps), while freaking out without one can end with being committed, losing your housing, jail, or worse. In a trance you can work with the fear: you recognize it has no real-world significance, that it's purely fear, so it's very useful that way. He wants it mentioned.",
+   "joel": "2026-10-12 03:13 UTC: \"re altered states notes: yes like i said, trance can be \"more scary\" because you're trapped in it, but it's also less actually dangerous, you can't ruin your life at all in trance (unless a bad hypnotic suggestion gets deeply implanted perhaps), while without trance you can \"freak out\" in a way that might end up getting you commmitted to a mental hospital thrown out of your housing, going to jail, possibly even killing yourself. in trance you can basically work with the fear, you recognize it has no real world significance and it's purely just fear. so its' super useful that way. that's worth mentioning.\"",
+   "where": "Altered States Can Deepen the Therapy",
+   "must_contain": [
+    "trapped"
+   ]
+  },
+  {
+   "id": "altered-states-gentle-20261012b",
+   "status": "pending",
+   "waits_for": "Altered States Can Deepen the Therapy, when humanized",
+   "what": "Altered States says gentle meditation or self-hypnosis can help (both), as When the Urge to Escape Arrives does, rather than offering his self-hypnosis guide only \"When you're ready\".",
+   "joel": "2026-10-12 03:13 UTC: \"yeah gentle meditation or self-hypnosis can help that's true should mention both\"",
+   "where": "Altered States Can Deepen the Therapy",
+   "must_contain": [
+    "self-hypnosis can"
+   ]
+  },
+  {
+   "id": "survival-p6-focusing-20261012b",
+   "status": "claim",
+   "what": "From Survival to Experimental Play P6 carries the guide's \"Focusing can be especially useful…\" paragraph: Focusing for noticing feelings and preferences the part you've been playing learned to overlook; tentative words, looked at and revised; temporary, intentional distance for some people. Turn 47, after the gate and Pangram.",
+   "joel": "2026-10-12 03:13 UTC: \"continue\"",
+   "where": "From Survival to Experimental Play",
+   "must_contain": [
+    "Focusing (Eugene Gendlin's method",
+    "can stay tentative",
+    "revise how you read them",
+    "temporary, intentional distance from whoever they've been playing the part for"
+   ]
   }
  ]
 }
