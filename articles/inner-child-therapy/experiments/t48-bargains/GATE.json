@@ -1,0 +1,46 @@
+{
+ "t48_W1": {
+  "kind": "draft",
+  "march": [
+   "S S S"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint": "REVIEW"
+ },
+ "t48_C3": {
+  "kind": "draft",
+  "march": [
+   "S S S S"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint": "REVIEW"
+ },
+ "t48_D5": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "grounding": "same claims as t48_C3",
+  "stance": "same claims as t48_C3",
+  "lint": "REVIEW"
+ },
+ "t48_D5h2": {
+  "kind": "section",
+  "parts": [
+   "t48_D5"
+  ]
+ },
+ "t48_D5h1": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "t48_D5"
+  ]
+ }
+}

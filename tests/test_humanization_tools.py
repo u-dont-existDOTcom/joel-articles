@@ -811,3 +811,61 @@ class GroundingSeesTheRestOfTheSection(unittest.TestCase):
                 reviewer.PATHS.update({'article': None, 'source': None})
         self.assertIn('Later paragraph with the acacia confusa warning.', p)
         self.assertNotIn('Not this section.', p)
+
+
+class PangramBatchNeedsTheGate(unittest.TestCase):
+    """2026-10-12 (turn 48, E167): in the web app the Pangram batch was a script written by hand each time, so
+    nothing stopped a call. A draft that marched S S S went to Pangram and read 100% AI, and later drafts went
+    before their stance checks and march reads. pangram_gate.py writes the batch only for texts whose gate
+    record passes."""
+
+    CLEAN = {'kind': 'draft', 'march': ['S S B S'], 'cold': 'OK', 'grounding': 'OK', 'stance': 0, 'lint': 'REVIEW'}
+
+    def run_gate(self, drafts, gate, keys):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'drafts.json').write_text(json.dumps(drafts), encoding='utf-8')
+            (d / 'gate.json').write_text(json.dumps(gate), encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'pangram_gate.py'), str(d / 'drafts.json'), str(d / 'gate.json'),
+                                str(d / 'b.js'), '--name', 'tx'] + keys, capture_output=True, text=True)
+            js = (d / 'b.js').read_text(encoding='utf-8') if (d / 'b.js').exists() else None
+            read = (d / 'b-read.js').read_text(encoding='utf-8') if (d / 'b-read.js').exists() else None
+        return r, js, read
+
+    def test_a_march_without_a_break_blocks_the_call(self):
+        r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(self.CLEAN, march=['S S S'])}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('the march blocks the call', r.stderr)
+        self.assertIsNone(js)
+
+    def test_no_stance_check_blocks_the_call(self):
+        g = dict(self.CLEAN); del g['stance']
+        r, js, _ = self.run_gate({'p': 'One. Two.'}, {'p': g}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('stance', r.stderr)
+        self.assertIsNone(js)
+
+    def test_a_clean_draft_and_its_section_get_a_batch(self):
+        import hashlib
+        text = 'One. Two, maybe. Three.'
+        section = {'text': '# H\n\nBefore.\n\n' + text, 'prefix': '# H\n\nBefore.', 'prefix_from_storage': 'h_old'}
+        gate = {'p': self.CLEAN, 'q': dict(self.CLEAN, grounding='same claims as p', stance='same claims as p'),
+                'h': {'kind': 'section', 'parts': ['installed', 'p']}}
+        r, js, read = self.run_gate({'p': text, 'q': text + ' Four.', 'h': section}, gate, ['p', 'q', 'h'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn(hashlib.sha256(text.encode()).hexdigest(), js)
+        self.assertIn('sessionStorage.getItem("h_old") + "\\n\\n' + text, js)
+        self.assertIn('window.__tx', js)
+        self.assertIn(hashlib.sha256(section['text'].encode()).hexdigest(), read)
+
+    def test_a_section_with_a_part_that_fails(self):
+        gate = {'p': dict(self.CLEAN, cold='[2] UNCLEAR'), 'h': {'kind': 'section', 'parts': ['p']}}
+        r, _, _ = self.run_gate({'p': 'One. Two.', 'h': '# H\n\nOne. Two.'}, gate, ['h'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('part p: cold read', r.stderr)
+
+    def test_same_claims_needs_the_other_record(self):
+        g = dict(self.CLEAN, stance='same claims as gone')
+        r, _, _ = self.run_gate({'p': 'One. Two.'}, {'p': g}, ['p'])
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("but gone has None", r.stderr)
