@@ -1627,7 +1627,7 @@
    ],
    "span": {
     "from": "And any predisposition toward mania or psychosis",
-    "to": "Milder reactions afterward count too",
+    "to": "Milder reactions afterward count",
     "must_contain": [
      "precautions of every kind",
      "trusted advisors"
@@ -1641,11 +1641,12 @@
   {
    "id": "thh-story-harm-reduction-20261011b",
    "status": "applied",
-   "what": "His THH story goes in, as a warning against a dangerous combination: he went psychotic using pure THH with mimosa hostilis; THH alone isn't hypnotic enough to keep people safe with higher doses of DMT; it was obvious afterward; his landlord, a Quaker family friend, talked him down gently. No amounts and no recipe for what to take instead (he agreed: \"we don't need to say, 'mix 40mg harmine and 100mg harmaline to stay safe'\"). In since turn 44 (2026-10-11), after the gate and Pangram.",
+   "what": "His THH story goes in, as a warning against a dangerous combination: he went psychotic using pure THH with mimosa hostilis; THH alone isn't hypnotic enough to keep people safe with higher doses of DMT; it was obvious afterward; his landlord, a Quaker family friend, talked him down gently. No amounts and no recipe for what to take instead (he agreed: \"we don't need to say, 'mix 40mg harmine and 100mg harmaline to stay safe'\"). In since turn 44 (2026-10-11), after the gate and Pangram. (2026-10-11, turn 45: the check is in two pieces, since his 8a gloss \"(trance-like)\" now sits between them.)",
    "joel": "2026-10-11 21:10 UTC: \"Yes include my male iboga story and my THH story, it's not instructions FOR mixing, it's instructions AGAINST a dangerous combo. That's called harm reduction. we don't need to say, \\\"mix 40mg harmine and 100mg harmaline to stay safe\\\" just say that THH alone is not hypnotic enough to keep people safe with higher doses of DMT. that is exactly what i learned.\" The story itself: 2026-10-11 03:47 UTC, his answer 1a.",
    "where": "When the Urge to Escape Arrives",
    "must_contain": [
-    "THH alone isn't hypnotic enough to keep people safe with higher doses of DMT",
+    "THH alone isn't hypnotic",
+    "enough to keep people safe with higher doses of DMT",
     "talked me down gently"
    ],
    "must_not_contain": [
@@ -1711,6 +1712,140 @@
    "must_contain": [
     "Daja",
     "how many people I could fully trust as a child"
+   ]
+  },
+  {
+   "id": "q7-divinity-reading-confirmed-20261011c",
+   "status": "applied",
+   "what": "His answer 7a: the editor's reading \"It gave me a connection to divinity\" (P3 of When the Urge to Escape Arrives) is right; it stays.",
+   "joel": "2026-10-11 23:33 UTC: \"7a\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "It gave me a connection to divinity"
+   ]
+  },
+  {
+   "id": "q8a-hypnotic-trance-20261011c",
+   "status": "applied",
+   "what": "In the THH line, \"hypnotic\" means trance-like; say so. In since turn 45 (2026-10-11), after the gate and Pangram.",
+   "joel": "2026-10-11 23:33 UTC: \"8a trance-like\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "trance"
+   ]
+  },
+  {
+   "id": "q8b-male-iboga-link-20261011c",
+   "status": "applied",
+   "what": "Link male iboga to his iboga guide for more on it (iboga.u-dont-exist.com, which opens his \"Iboga Guidance\" post). In since turn 45 (2026-10-11), after the gate and Pangram.",
+   "joel": "2026-10-11 23:33 UTC: \"b. just link to iboga.u-dont-exist.com for more infoon that.\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_link": [
+    {
+     "text": "male iboga",
+     "url": "http://iboga.u-dont-exist.com/"
+    }
+   ]
+  },
+  {
+   "id": "q8c-acacia-why-20261011c",
+   "status": "applied",
+   "what": "Why acacia confusa with mimosa hostilis is dangerous, from his ayahuasca precautions page: highly destabilizing and challenging, and he would never recommend anyone risk it. His line that he got it to work with his recipe, and the recipe link, stay out (E162). In since turn 45 (2026-10-11), after the gate and Pangram.",
+   "joel": "2026-10-11 23:33 UTC: \"c. explained at ayasafety.u-dont-exist.com a bit : Mixing Mimosa hostilis with Acacia confusa: This is a dangerous ayahuasca admixture combination which I have played around with numerous times. I did get it to work well with my [ultimate psychedelic recipe](http://soma.u-dont-exist.com/), but I would never recommend anyone risk it, as it is highly destabilizing and challenging.\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "highly destabilizing and challenging"
+   ],
+   "must_not_contain": [
+    "ultimate psychedelic recipe",
+    "soma.u-dont-exist"
+   ]
+  },
+  {
+   "id": "q8d-jail-explained-20261011c",
+   "status": "applied",
+   "what": "The jail line stays, with what he'd done: ayahuasca was illegal there at the time, and he had a bunch of mimosa bark in the house that they might claim was for distributing; and his general point: don't call the cops and expect it to go well; that's a real last resort. In since turn 45 (2026-10-11), after the gate and Pangram.",
+   "joel": "2026-10-11 23:33 UTC: \"d.  what i'd done is i took ayahuasca, which was illegal in that jurisdiction at that time... not to mention i had a bunch of mimosa bark in the house which they might claim was for distributing. just don't call the cops and expect it to go well in general, that's a real last resort.\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "illegal",
+    "real last resort"
+   ]
+  },
+  {
+   "id": "q8e-trust-count-showed-20261011c",
+   "status": "applied",
+   "what": "My Journey: what the trust count showed him, in his words (ignoring important things; he wouldn't have asked that question on his own; therapy can make you feel worse when you become more aware of problems; he prefers to see things as they are; he needs to count more on himself and be a better inner adult, since his nice childhood makes him assume he can trust everyone; it got him curious to map inner-child therapy out completely, which he's still doing as he tests this guide with people). In since turn 45 (2026-10-11), after the gate and Pangram.",
+   "joel": "2026-10-11 23:33 UTC: \"e.  What it showed me is that I was ignoring a lot of things that were really important to look at ...\" (verbatim in the turn-45 positions file)",
+   "where": "My Journey",
+   "must_contain": [
+    "I wouldn't have even thought to ask",
+    "count more on myself",
+    "test this guide with people"
+   ]
+  },
+  {
+   "id": "q9-trusted-advisors-20261011c",
+   "status": "applied",
+   "what": "Who counts as trusted: someone you know well, not someone people on Reddit called magical and healing (a crapshoot; it might seem to turn out well, and later you realize you were duped, as happened to him with Sidney the iboga shaman, linked to his post); a new therapist isn't trusted, an old one could be more; \"new friends are silver, but old friends are gold.\" In since turn 45 (2026-10-11), after the gate and Pangram.",
+   "joel": "2026-10-11 23:33 UTC: \"9. absolutely, a trusted person is someone you know well. Not someone that people on reddit said was super magical and healing. That's called a crapshoot. ...\" (verbatim in the turn-45 positions file)",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "someone you know well",
+    "crapshoot",
+    "new friends are silver"
+   ],
+   "must_link": [
+    {
+     "text": "Sidney the iboga shaman",
+     "url": "http://sidney.u-dont-exist.com/"
+    }
+   ]
+  },
+  {
+   "id": "q10-schizophrenia-out-20261011c",
+   "status": "applied",
+   "what": "His schizophrenia example stays out of the text.",
+   "joel": "2026-10-11 23:33 UTC: \"10. a\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_not_contain": [
+    "schizophrenia"
+   ]
+  },
+  {
+   "id": "thh-bark-ayahuasca-20261011c",
+   "status": "applied",
+   "what": "P6's first sentence: \"on ayahuasca made with pure THH … and mimosa hostilis bark\". \"bark\" is his word (\"a bunch of mimosa bark\"); my turn-44 gloss \"root bark\" was a detail he never gave (grounding: INVENTED). \"on ayahuasca made with\" says the mix was his ayahuasca, from his 8d (\"what i'd done is i took ayahuasca\"): a grounding couldn't connect \"ayahuasca was illegal there\" to the THH and mimosa, and a cold read of a first fix in the jail sentence couldn't tell what he took. In since turn 45, after the gate and Pangram.",
+   "joel": "2026-10-11 23:33 UTC: \"d.  what i'd done is i took ayahuasca, which was illegal in that jurisdiction at that time... not to mention i had a bunch of mimosa bark in the house\"; 03:47 UTC (1a): \"one time i went psychotic because i used pure THH with mimosa hostilis\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "on ayahuasca made with pure THH",
+    "mimosa hostilis bark, which has DMT in it"
+   ],
+   "must_not_contain": [
+    "mimosa hostilis root bark"
+   ]
+  },
+  {
+   "id": "milder-caution-signs-20261011c",
+   "status": "applied",
+   "what": "P10 opens \"Milder reactions afterward count as caution signs too\" (was \"count too\"): with his trusted-advisors paragraph now between it and the caution signs, a cold read lost what the reactions count as. \"caution signs\" is his term (21:10, answer 4b). In since turn 45, after the gate and Pangram.",
+   "joel": "2026-10-11 21:10 UTC: \"there are just caution signs. you take more pecautions of every kind when there are caution signs.\"",
+   "where": "When the Urge to Escape Arrives",
+   "must_contain": [
+    "Milder reactions afterward count as caution signs too"
+   ]
+  },
+  {
+   "id": "survival-p4-signs-20261011c",
+   "status": "claim",
+   "what": "From Survival to Experimental Play P4 carries the guide's last three possible signs (preferences and beliefs shifting with the people around you; not knowing what you'd choose without the fear of disappointing somebody; a guessed answer about your little one, which isn't proof there's no little one in there). The other two signs are already said: the h1's opening (\"love yourself\" feeling pretty empty) and P2 (checking anyone's face). Turn 45, after the gate and Pangram.",
+   "joel": "2026-10-11 23:33 UTC: \"12. continue\"",
+   "where": "From Survival to Experimental Play",
+   "must_contain": [
+    "with the people around you",
+    "without the fear of disappointing somebody",
+    "isn't proof there's no little one in there"
    ]
   }
  ]

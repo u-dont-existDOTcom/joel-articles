@@ -591,3 +591,20 @@ Joel answered questions 4 to 6, wrote "i merged, continue" (the open pull reques
 1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 7 to 10; each defaults to leaving the text).
 2. His merge of the open pull request (turns 43 and 44).
 3. From Survival to Experimental Play: the signs (without the cues sign), then the early practices.
+
+## Turn 45 (2026-10-11, from 23:33 UTC): Joel's answers to questions 7 to 10, and the signs
+
+Joel answered questions 7 to 10, wrote "i merged" (#158, merged 23:15 UTC) and "continue".
+
+- **When the Urge to Escape Arrives** is 12 paragraphs, with his answers in his words: P6 gets "hypnotic (trance-like)" and what he'd done (ayahuasca was illegal there then; the mimosa bark they might have claimed was for distributing) with "In general, don't call the cops and expect it to go well. That's a real last resort."; P7 links male iboga to his iboga guidance; P9 is new, who counts as trusted, with his Sidney link; P11 gets his acacia confusa reason, without his recipe sentence and link (E162). My Journey P10 and P11 are what the trust count showed him; the chart line is his again. Record: `t45-answers/REVIEWS.md`.
+- **Fixes from the reviews:** "mimosa hostilis bark", his word, for my "root bark" (a grounding's INVENTED); P6's first sentence says the mix was his ayahuasca (a grounding couldn't connect "ayahuasca was illegal there"; my first fix, his "What I'd done was take ayahuasca", lost a cold reader); P10 "count as caution signs too", since P9 now sits between it and the caution signs.
+- **Kept his words, and asked (questions 13 to 17, each "leave it" or "your words", E163):** the cops line (a grounding's MISFIRES and MUST: a reader threatened by someone, or in a medical emergency); why trance-like is safer (three cold reads in a row); who counts as trusted and a new therapist (a grounding and a cold read); Sidney (his words, but not said to be for the text); "so nice" against the kindergarten gang (the stance check).
+- **Pangram 4.0, the dashboard, first try each, all 100% Human:** P6 (140), P9 (80), P10 (89), P11 (75); My Journey P10 (96), P11 (91), P11 with the chart line (104); the urge h3 (1,266); Start With Whatever Showed Up (3,285); When the Adult Voice Feels Fake (3,878); My Journey (918). Predictions 11 of 11.
+
+- **Continue: From Survival to Experimental Play P4** (`t45-survival/REVIEWS.md`): the guide's last three signs (its other two were already said). Writer 3 of three, with "and your feelings too" cut (a grounding on writer 2's same words, and the linter's list of three); clean cold read, grounding and stance check. Alone 100% Human (75), the h2 100% Human (358), the h1 100% Human (518). Predictions 3 of 3.
+
+### Next
+
+1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 13 to 17; each defaults to leaving his words).
+2. His merge of this turn's pull request.
+3. From Survival to Experimental Play: the early practices (t42-g4), then group 5 (t42-g5).
