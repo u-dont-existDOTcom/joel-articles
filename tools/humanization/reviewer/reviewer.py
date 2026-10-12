@@ -478,6 +478,29 @@ PUSH = {  # how hard the grounding review pushes on the reader's open questions 
 }
 
 
+def rest_of_section(full, nxt):
+    """The paragraphs after the target's next paragraph, up to the next heading (2026-10-12). A grounding
+    review of a paragraph in a section that's already in the article saw the article only up to the new
+    text and the next paragraph, so twice (turns 45 and 46) it reported points that later paragraphs
+    carry, like the acacia confusa warning, as MISSING. Empty when the next paragraph isn't in the
+    article yet (a placeholder like "(then the early practice, not drafted yet)")."""
+    head = re.sub(r'\s+', ' ', (nxt or '').strip())[:80]
+    if len(head) < 20:
+        return ''
+    paras = [p.strip() for p in re.split(r'\n\s*\n', full) if p.strip()]
+    flat = [re.sub(r'\s+', ' ', re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', p)) for p in paras]
+    head = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', head)
+    i = next((k for k, p in enumerate(flat) if p.startswith(head)), None)
+    if i is None:
+        return ''
+    out = []
+    for p in paras[i + 1:]:
+        if re.match(r'#{1,6} ', p):
+            break
+        out.append(p)
+    return '\n\n'.join(out)
+
+
 def build_grounding(draft, target, blind=False, push=None):
     t = json.loads(pathlib.Path(target).read_text(encoding='utf-8'))
     push = push or t.get('push', 'default')
@@ -497,8 +520,14 @@ def build_grounding(draft, target, blind=False, push=None):
         if t.get('append'):  # text that isn't in the article yet but comes before the new text (a new heading)
             art += '\n\n' + t['append']
     d = numbered(re.sub(r'^#+\s*', '', draft, flags=re.M)).replace('(heading) ', '[H] ')
+    nxt = t.get('next', '(not given)')
+    if t.get('article_upto') is None:
+        later = rest_of_section(article_text(article_or_source(t, 'article')), nxt)
+        if later:
+            nxt += ('\n\n(After that paragraph, the article already has the rest of this section, below. '
+                    "Its points are covered there, so don't report them as MISSING from the new text.)\n\n" + later)
     for k, v in (('{guide}', guide_text(article_or_source(t, 'source'))), ('{article}', art), ('{guide_passage}', t['guide_passage']),
-                 ('{next}', t.get('next', '(not given)')), ('{rulings}', t.get('rulings') or '(none)'), ('{push}', PUSH[push]), ('{draft}', d)):
+                 ('{next}', nxt), ('{rulings}', t.get('rulings') or '(none)'), ('{push}', PUSH[push]), ('{draft}', d)):
         g = g.replace(k, v)
     return g
 

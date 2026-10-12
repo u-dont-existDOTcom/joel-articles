@@ -777,3 +777,37 @@ class OwnerEditsSpanBan(unittest.TestCase):
         bad = check_owner_edits.norm('And any predisposition means you should get checked. Milder reactions count too.')
         self.assertEqual(check_owner_edits.check_entry(e, ok), [])
         self.assertTrue(check_owner_edits.check_entry(e, bad))
+
+
+class GroundingSeesTheRestOfTheSection(unittest.TestCase):
+    """2026-10-12: a grounding review of a paragraph in a section already in the article saw the article only up
+    to the new text and the next paragraph, so in turns 45 and 46 it reported the acacia confusa warning, which a
+    later paragraph carries, as MISSING. The prompt now carries the rest of the section, up to the next heading."""
+
+    ART = ('## A\n\nBefore paragraph, about what came first.\n\nThe new paragraph goes here, old version.\n\n'
+           'Next paragraph starts here and goes on.\n\nLater paragraph with the acacia confusa warning.\n\n'
+           '## B\n\nNot this section.\n')
+
+    def test_rest_of_section(self):
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        self.assertEqual(reviewer.rest_of_section(self.ART, 'Next paragraph starts here and goes on.'),
+                         'Later paragraph with the acacia confusa warning.')
+        self.assertEqual(reviewer.rest_of_section(self.ART, '(then the practices, not drafted yet)'), '')
+
+    def test_grounding_prompt_carries_it(self):
+        sys.path.insert(0, str(TOOLS / 'reviewer'))
+        import reviewer
+        with tempfile.TemporaryDirectory() as d:
+            art, src, tgt = (pathlib.Path(d) / n for n in ('a.md', 'g.txt', 't.json'))
+            art.write_text(self.ART, encoding='utf-8')
+            src.write_text('The guide.\n', encoding='utf-8')
+            tgt.write_text(json.dumps({'before': 'Before paragraph, about what came first.', 'next': 'Next paragraph starts here and goes on.',
+                                       'guide_passage': 'The guide passage.'}), encoding='utf-8')
+            reviewer.PATHS.update({'article': str(art), 'source': str(src)})
+            try:
+                p = reviewer.build_grounding('The new paragraph, new version.', str(tgt))
+            finally:
+                reviewer.PATHS.update({'article': None, 'source': None})
+        self.assertIn('Later paragraph with the acacia confusa warning.', p)
+        self.assertNotIn('Not this section.', p)

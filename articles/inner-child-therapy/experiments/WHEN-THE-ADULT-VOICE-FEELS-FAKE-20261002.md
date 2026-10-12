@@ -609,3 +609,19 @@ Joel answered questions 7 to 10, wrote "i merged" (#158, merged 23:15 UTC) and "
 1. Joel's answers on `../OWNER-QUESTIONS.md` (questions 13 to 15; each defaults to leaving his words).
 2. His merge of this turn's pull request.
 3. From Survival to Experimental Play: the early practices (t42-g4), then group 5 (t42-g5).
+
+## Turn 46 (2026-10-12, from 02:18 UTC): Joel's answers to questions 13 to 16, and the early practice
+
+Joel answered questions 13 to 15 and wrote "continue". He had merged #161 (turn 45).
+
+- **When the Urge to Escape Arrives:** the cops line stays (his 13, "leave it"). P6 gets his answer 14, fitted after the hypnotic line ("When you're in a trance, you can't freak out: no matter how scary something is, it's just like, "Oh, this is scary, OK, oh well.""), without the part he expected to confuse readers. P9 opens with his answer 15 ("By trusted, I mean someone you know is trustworthy from a long relationship with them"). Record: `t46-answers/REVIEWS.md`.
+- **Not asked (each on the review page):** a grounding's worry that the trance line reads as permission for bigger doses (his own line before it says as much, and the section says slow and gentle); "A new therapist is not trusted" again (P10's "Get professional help right away" answers it); the stance check's sleep-paralysis question (a note for Altered States).
+- **Debugged:** the grounding review saw the article only up to the new text and the next paragraph, so in turns 45 and 46 it reported later paragraphs' points as MISSING. `reviewer.py` now gives it the rest of the section (`rest_of_section`; test `GroundingSeesTheRestOfTheSection`).
+- **Pangram 4.0, the dashboard, first try each, all 100% Human:** P6 (168), P9 (87); the urge h3 (1,301); Start With Whatever Showed Up (3,320); When the Adult Voice Feels Fake (3,913). Predictions 5 of 5.
+
+- **Continue: From Survival to Experimental Play P5** (`t46-survival/REVIEWS.md`): the early practice of finding out who's actually in there. Writer 2 of three, clean on every review; alone 100% Human (80), the h2 100% Human (438), the h1 100% Human (598). Predictions 3 of 3.
+
+### Next
+
+1. His merge of this turn's pull request (no open questions).
+2. From Survival to Experimental Play: Focusing, tentative words and temporary distance (t42-g4's second half), then group 5 (t42-g5).
