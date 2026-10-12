@@ -3,7 +3,7 @@
  "meta": "Inner Child Therapy · turn 45 (your message of 2026-10-11 23:33 UTC) · saved on the lane, not merged",
  "intro": [
   "Your answers are in, in your words: trance-like, your iboga link, your acacia confusa reason, what you'd done and the cops line, what the trust count showed you, and who counts as trusted. Highlighted words are new since the version you saw last turn, struck words are cut. Every changed paragraph and section passed Pangram's web app on the first try, all 100% Human. You said \"continue\", so the signs paragraph of From Survival to Experimental Play is in too (the last card).",
-  "Your \"ultimate psychedelic recipe\" sentence and its link stayed out: they're a recipe (rule E162). Five small questions are on the questions page (OWNER-QUESTIONS.md, sent with this page), numbered 13 to 17. Each defaults to leaving your words as they are.",
+  "Your \"ultimate psychedelic recipe\" sentence and its link stayed out: they're a recipe (rule E162). Three small questions are on the questions page (OWNER-QUESTIONS.md, sent with this page), numbered 13 to 15. Each defaults to leaving your words as they are. Your chat words are now beside each paragraph they went into, in the left card.",
   "Two fixes in your THH paragraph came from the reviews: \"bark\" is your word (my \"root bark\" added a detail you never gave), and the first sentence now says the mix was your ayahuasca, since reviewers couldn't tell the mix was your ayahuasca."
  ],
  "blocks": [
@@ -22,16 +22,24 @@
      "notes": [
       "Your answer 8e, grammar only: \"and that was one of them\" for \"that being one of them\", \"the question she asked me\" for \"that question she asked me\", \"therapy can sometimes make you feel worse\" for \"sometimes the therapy can make you feel worse\".",
       "Pangram alone: 100% Human (96)."
-     ]
+     ],
+     "beside": {
+      "label": "Your words, 23:33 UTC (8e)",
+      "text": "e.  What it showed me is that I was ignoring a lot of things that were really important to look at, that being one of them. I wouldn't have even thought to ask that question she asked me, if I were doing it on my own.... it's also an example of how sometimes the therapy can make you feel worse than before, when you become more aware of problems. But personally I prefer to see things as they are so I can figure out how to work with them, rather than just hide in delusions."
+     }
     },
     {
      "label": "New: counting more on yourself",
      "article": "It also showed me that I really do need",
      "source": [],
      "notes": [
-      "Your answer 8e, without its opening \"And\". Question 17 is the stance check's: \"so nice\" next to the kindergarten gang in A Heart-to-Child Loop.",
+      "Your answer 8e, without its opening \"And\" and with \"inner-child\" hyphenated as the article has it.",
       "Pangram alone: 100% Human (91); with the chart line 100% Human (104)."
-     ]
+     ],
+     "beside": {
+      "label": "Your words, 23:33 UTC (8e, continued)",
+      "text": "And it also showed me that I really do need to count more on myself than I assumed. I need to be much better as an inner adult for my inner child, because my childhood was actually so nice that I kind of just assume I can trust everyone, and that gets me into trouble. So it got me curious to learn more about inner child therapy in general and map it out completely, which is a process I'm still in the midst of as I test this guide with people."
+     }
     },
     {
      "label": "The chart line, yours again",
@@ -82,7 +90,11 @@
        "guide": null,
        "note": "your 8d"
       }
-     ]
+     ],
+     "beside": {
+      "label": "Your words, 23:33 UTC (8a and 8d)",
+      "text": "8a trance-like … d.  what i'd done is i took ayahuasca, which was illegal in that jurisdiction at that time... not to mention i had a bunch of mimosa bark in the house which they might claim was for distributing. just don't call the cops and expect it to go well in general, that's a real last resort."
+     }
     },
     {
      "label": "Male iboga, linked",
@@ -90,17 +102,25 @@
      "source": [],
      "notes": [
       "Your 8b: \"male iboga\" links to iboga.u-dont-exist.com, which opens your Iboga Guidance post (it covers the male bark)."
-     ]
+     ],
+     "beside": {
+      "label": "Your words, 23:33 UTC (8b)",
+      "text": "b. just link to iboga.u-dont-exist.com for more infoon that."
+     }
     },
     {
      "label": "New: who counts as trusted (your answer 9)",
      "article": "By trusted, I mean someone you know well",
      "source": [],
      "notes": [
-      "Your answer 9, in your words. Your Sidney link opens your Substack post about Sidney Simila.",
-      "Question 15 has two reviewers' points (people you know well can be the risk; a new professional in an emergency) and question 16 asks about Sidney. Your words stay unless you say otherwise.",
+      "Your answer 9, as you wrote it: \"By trusted, I mean\" for \"absolutely, a trusted person is\", and your Sidney link on his name (it opens your Substack post about Sidney Simila).",
+      "Question 15 has a reviewer's point: the people a reader knows best can be the risk, like the friends they use with. Your words stay unless you say otherwise.",
       "Pangram alone: 100% Human (80)."
-     ]
+     ],
+     "beside": {
+      "label": "Your words, 23:33 UTC (9)",
+      "text": "9. absolutely, a trusted person is someone you know well. Not someone that people on reddit said was super magical and healing. That's called a crapshoot. It might turn out well, it might not. It might seem like it did, and then later you realize you were duped, as happened to me with Sidney the iboga shaman (sidney.u-dont-exist.com). A new therapist is not trusted. An old therapist could be more trusted. As they say, \"new friends are silver, but old friends are gold.\""
+     }
     },
     {
      "label": "Caution signs too",
@@ -127,7 +147,11 @@
        "guide": null,
        "note": "your 8c"
       }
-     ]
+     ],
+     "beside": {
+      "label": "Your words, 23:33 UTC (8c)",
+      "text": "c. explained at ayasafety.u-dont-exist.com a bit : Mixing Mimosa hostilis with Acacia confusa: This is a dangerous ayahuasca admixture combination which I have played around with numerous times. I did get it to work well with my ultimate psychedelic recipe (soma.u-dont-exist.com), but I would never recommend anyone risk it, as it is highly destabilizing and challenging."
+     }
     }
    ]
   },

@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-11 (turn 45). **5 open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-11 (turn 45). **3 open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -23,33 +23,16 @@ Your words (8d), and they're in. One reviewer worried about two readers: someone
 
 > THH alone isn't hypnotic (trance-like) enough to keep people safe with higher doses of DMT.
 
-Three cold readers in a row followed the words but not the reason: to them a trance sounds like less control, so they couldn't see why more of it would keep someone safer.
+Two of three fresh readers were fine with it. The third followed the words but not the reason: to them a trance sounds like less control, not a safeguard.
 - **A. Leave it.**
 - **B. A few words of yours on why.**
 
 ### 🟣 15. Who counts as trusted (P9, your answer 9)
 
-Your paragraph is in, as you wrote it. Two things reviewers raised:
-- (a) "By trusted, I mean someone you know well": the people a reader knows best can be the risk, like the friends they use with.
-- (b) "A new therapist is not trusted." comes just before P10's "Get professional help right away if any of this is severe or risky", and two readers wondered for a moment whether a professional they don't know yet is OK in an emergency.
+> By trusted, I mean someone you know well, not someone people on Reddit said was super magical and healing.
 
-For each: **A. leave it**, or **B. your words**.
-
-### 🟣 16. Sidney (P9)
-
-> It might seem like it did, and then later you realize you were duped, as happened to me with [Sidney the iboga shaman](http://sidney.u-dont-exist.com/).
-
-From your answer, with your link (it opens your Substack post about Sidney Simila). A reviewer noted you didn't say the story was for the text, and that right after your male iboga story a reader might think Sidney was part of that one.
+Your paragraph is in, as you wrote it. A reviewer pointed out that the people a reader knows best can be the risk, like the friends they use with.
 - **A. Leave it.**
-- **B. Take it out.**
-- **C. Your words.**
-
-### 🟣 17. "So nice" (My Journey P11, your answer 8e)
-
-> because my childhood was actually so nice that I kind of just assume I can trust everyone
-
-The stance check set this next to your line in A Heart-to-Child Loop, "as I sadly learned while getting beaten up every day at kindergarten recess by a gang organized by my best friend", and asked whether both stand as written.
-- **A. Both stand.**
 - **B. Your words.**
 
 ## For you to do (no decision needed)
@@ -74,7 +57,7 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 - "c. explained at ayasafety.u-dont-exist.com a bit": P11 adds "I'd never recommend anyone risk it, since it's highly destabilizing and challenging." Your "I did get it to work well with my ultimate psychedelic recipe" and its link stay out: they're a recipe, which you agreed the article shouldn't give (rule E162).
 - "d. what i'd done is i took ayahuasca, which was illegal in that jurisdiction at that time... not to mention i had a bunch of mimosa bark in the house … just don't call the cops and expect it to go well in general, that's a real last resort.": in P6, in your words (question 13 has a reviewer's worry). Two fixes from the reviews: "mimosa hostilis bark", your word (my "root bark" added a detail you never gave), and the first sentence now says the mix was your ayahuasca ("I went psychotic once on ayahuasca made with pure THH … and mimosa hostilis bark"), since reviewers couldn't tell the mix was your ayahuasca.
 - "e. What it showed me …": My Journey P10 and P11, in your words. The chart line is back to yours, since your "map it out completely" now leads into it.
-- "9. absolutely, a trusted person is someone you know well. …": P9, new, in your words (questions 15 and 16 have the reviewers' points). P10 now opens "Milder reactions afterward count as caution signs too" (was "count too"), since P9 sits between it and the caution signs.
+- "9. absolutely, a trusted person is someone you know well. …": P9, new, in your words, with your Sidney link (question 15 has a reviewer's point). P10 now opens "Milder reactions afterward count as caution signs too" (was "count too"), since P9 sits between it and the caution signs.
 - "10. a": your schizophrenia example stays out.
 - "11. i merged": pull request #158, merged at 23:15 UTC.
 - "12. continue": From Survival to Experimental Play P4, the signs (below, under Coming up).
