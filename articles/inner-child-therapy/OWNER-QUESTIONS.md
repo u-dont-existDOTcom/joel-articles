@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-11 (turn 44). **4 open questions.** To answer, reply in chat with the number and a letter, like `7: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-11 (turn 45). **3 open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -9,59 +9,58 @@ This file is the page's master copy, so either of your Claude accounts can read 
 ## Open questions
 
 > [!IMPORTANT]
-> Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked").
+> Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 7. My reading of your ayahuasca answer (When the Urge to Escape Arrives, P3)
+### 🟣 13. The cops line (When the Urge to Escape Arrives, P6)
 
-You said the ayahuasca "was not exactly bypassing for me by itself... inner child reparenting does work best with a little connection to divinity, but i then squandered the opportunity to bring that love down from the heavens to my inner child". Three cold readers couldn't tell what the ayahuasca gave you, so I wrote one sentence that isn't in your words:
+> In general, don't call the cops and expect it to go well. That's a real last resort.
 
-> The ayahuasca by itself wasn't exactly spiritual bypassing for me, though. **It gave me a connection to divinity**, and inner-child reparenting does work best with a little of that.
+Your words (8d), and they're in. One reviewer worried about two readers: someone in danger from another person, whom the article told earlier to "get safe first" (they could read "In general" as "never call the police"), and someone in a medical emergency on ayahuasca with nobody steady around, who might wait too long after a jail story.
+- **A. Leave it.**
+- **B. Your words** (for example on when the last resort has come, or about medical emergencies).
 
-- **A. That's right; keep it.**
-- **B. Your words instead.**
+### 🟣 14. Why trance-like is safer (P6)
 
-If you don't answer, it stays, marked on the review page as my reading.
+> THH alone isn't hypnotic (trance-like) enough to keep people safe with higher doses of DMT.
 
-### 🟣 8. Five things only you can say (P6, P7 and P10 of the urge section, and My Journey P9)
+Two of three fresh readers were fine with it. The third followed the words but not the reason: to them a trance sounds like less control, not a safeguard.
+- **A. Leave it.**
+- **B. A few words of yours on why.**
 
-Cold readers stumbled on these. Each is fine to leave as it is; a few words from you would make it clear:
-- (a) In "THH alone isn't hypnotic enough to keep people safe with higher doses of DMT", what "hypnotic" does (readers weren't sure if it means sleepy, trance-like or calming, or why that keeps people safe).
-- (b) What male iboga is, and why you warn about it specifically.
-- (c) Why mixing acacia confusa with mimosa hostilis is very dangerous.
-- (d) "Otherwise the cops might have been called, and I could still be in jail, perhaps": readers wondered what you'd done. Keep it, or cut it?
-- (e) My Journey P9 ends on the trust count (lots as a child, zero as an adult), and readers wait to hear what it showed you before the chart line.
+### 🟣 15. Who counts as trusted (P9, your answer 9)
 
-For each: **A. leave it**, or **B. your words**. If you don't answer, all five stay as they are.
+> By trusted, I mean someone you know well, not someone people on Reddit said was super magical and healing.
 
-### 🟣 9. "Get help from trusted advisors" (P8)
-
-A reviewer worried that someone with a family history and a ceremony already booked might count the person running the ceremony as a trusted advisor. Do you want to say anything about who counts?
+Your paragraph is in, as you wrote it. A reviewer pointed out that the people a reader knows best can be the risk, like the friends they use with.
 - **A. Leave it.**
 - **B. Your words.**
-
-If you don't answer, it stays.
-
-### 🟣 10. Your schizophrenia example (P8)
-
-You said "i know people diagnosed with schizophrenia who did better with ayahuasca than with antipsychotics" as the reason nobody can tell anyone what's best for them. I used the reason and left the example out: two paragraphs later the article says not to quit a prescribed medicine suddenly, and next to that the example could read as a reason to swap antipsychotics for ayahuasca.
-- **A. Leave it out.**
-- **B. Put it in.**
-
-My recommendation: A. If you don't answer, it stays out.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge the pull request for turns 43 and 44
+### 🟠 Merge the pull request for turn 45
 
-You wrote "i merged" at 21:10, but GitHub still shows that pull request open: the one you merged at 05:12 was another chat's (#157, the tells linter). This lane's turn-43 work and this turn's are in the open one; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+This turn's work is in a new pull request; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-11 23:33 UTC
+
+- "7a": P3's "It gave me a connection to divinity" stays, now as yours.
+- "8a trance-like": P6 says "THH alone isn't hypnotic (trance-like) enough…".
+- "b. just link to iboga.u-dont-exist.com for more infoon that.": "male iboga" in P7 links there (it opens your Iboga Guidance post).
+- "c. explained at ayasafety.u-dont-exist.com a bit": P11 adds "I'd never recommend anyone risk it, since it's highly destabilizing and challenging." Your "I did get it to work well with my ultimate psychedelic recipe" and its link stay out: they're a recipe, which you agreed the article shouldn't give (rule E162).
+- "d. what i'd done is i took ayahuasca, which was illegal in that jurisdiction at that time... not to mention i had a bunch of mimosa bark in the house … just don't call the cops and expect it to go well in general, that's a real last resort.": in P6, in your words (question 13 has a reviewer's worry). Two fixes from the reviews: "mimosa hostilis bark", your word (my "root bark" added a detail you never gave), and the first sentence now says the mix was your ayahuasca ("I went psychotic once on ayahuasca made with pure THH … and mimosa hostilis bark"), since reviewers couldn't tell the mix was your ayahuasca.
+- "e. What it showed me …": My Journey P10 and P11, in your words. The chart line is back to yours, since your "map it out completely" now leads into it.
+- "9. absolutely, a trusted person is someone you know well. …": P9, new, in your words, with your Sidney link (question 15 has a reviewer's point). P10 now opens "Milder reactions afterward count as caution signs too" (was "count too"), since P9 sits between it and the caution signs.
+- "10. a": your schizophrenia example stays out.
+- "11. i merged": pull request #158, merged at 23:15 UTC.
+- "12. continue": From Survival to Experimental Play P4, the signs (below, under Coming up).
 
 ### 🟢 2026-10-11 21:10 UTC
 
@@ -101,7 +100,7 @@ You wrote "i merged" at 21:10, but GitHub still shows that pull request open: th
 
 ### 🔵 From Survival to Experimental Play (the next h2)
 
-In progress: P1 to P3 are in (P3 this turn, after your "continue": telling the part you've been playing apart from the self that didn't get much practice, without trying to erase one). Next: the signs (without the one about knowing what you want through other people's cues, which P2 says), then the early practices. No question for you yet.
+In progress: P1 to P4 are in. P4 came this turn, after your "continue": the guide's signs that this may be you (preferences and beliefs that shift with the people around you; not knowing what you'd choose without the fear of disappointing somebody; only a guess when you ask what your little one feels, which isn't proof there's no little one in there). The other two signs were already said, at the h1's opening and in P2. Next: the early practices. No question for you yet.
 
 ### 🔵 Notes for when Altered States is humanized
 
