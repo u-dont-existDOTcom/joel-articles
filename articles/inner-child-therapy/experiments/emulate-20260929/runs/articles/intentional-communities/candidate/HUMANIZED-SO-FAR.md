@@ -110,7 +110,7 @@ The deeper problem is that someone carries authority earned in one domain into t
 
 I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
 
-<!-- CANDIDATE: section 4 v10 (2026-10-12): v9 (2026-10-02, Joel's edits of 21:16 and his answers of 23:49 in, with his own characters) with the Romance Guide sentence back to the published meaning after Joel's 17:23 UTC message ("we can't replace "dyads" with "romance" that's not the same concept"); 100% Human in its run and the section, batch 272g. For Joel's review. The section 100% Human on Pangram (1,520 words, the page's count), and every paragraph 100% Human alone or with a neighbor that passes alone. The gate ran on every version (traces, cold reads, grounding on v1, the whole-article stance check). Records are in the lane's section 4 folder. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 4 v11 (2026-10-13): Joel's final section from his message of 2026-10-13 21:00 UTC ("here is the final section (human on pangram)"), as written; obvious typos fixed (otther, "heal. and", "3:", double spaces); in his P8 the published words that came along from the side-by-side page's struck text taken out (his own 2026-10-02 cut, ledger s4-p13); links, italics and the two images back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
 
 # The Four Parts That Have to Pl/ork Together
 
@@ -118,27 +118,25 @@ I dream of a way to work in depth that isn’t run by a guru, and a way of being
 
 Communities tend to focus on the aspect of their project that was most interesting to the original founders, for example political types getting super into writing by-laws, or spiritual types just meditating all the time, or therapists processing each other, or people who like psychedelics discovering they’re all God together and never getting to the point of deciding who will put their name on the deed.
 
-I’ve broken the model I propose down into four parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it. I’ve written detailed guides on the first three already (free to read, not a sales pitch for a retreat or anything), but this article will be mostly about the fourth.
-
-In a nutshell, there's a difference between working together just to provide food/housing/logistics, etc., and working together to support each other in an internal practice. Why would we commit our whole lives to each other if the only thing we have is the need to take care of property? When we're all helping each other heal and be less run by fear, etc, then the hard parts mean something, and it makes sense to bind our lives together. And the outward *escuelita* and federation purpose gives us even more reason to do so, because we're not only protecting each other, but helping others build as well.
-
-## One principle runs through all of them
-
-Nothing suppressed, everything processed. Each of us keeps authority over our own practice, and the community is the container. Whatever answers we find stay fluid and organic, and don't freeze into doctrine.
+I’ve broken the model I propose down into the 4 parts shown in the above diagram. Note, Pl/ork means play + work. Calling therapy “inner work” forgets the inner child, who also wants to play. (Forgive the neologism. I hope *pl/ork* isn’t too corny. 🌽): 1) inner pl/ork (reparenting), 2) relational pl/ork (peer counseling especially), 3) medicine pl/ork (like loveyhuasca or iboga), and 4) the practical logistical foundation which is most of this article, since I have guides separately on the other parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it.
 
 These four parts leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.
 
-Also, a note on agreements: a community does need some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.
+And let's face it: food, housing, and logistics are not enough reason to bind whole lives together. That's more like a situationship. A community needs a shared sacred inner practice that gives the difficulty of our life together a deeper meaning. We help each other heal and choose love over fear. And we turn outward with a purpose, using the *escuelita* model to bring our healing to the world.
+
+## Founded on Freedom
+
+Nothing suppressed, everything processed. Each of us guides our own practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic, and don't freeze into doctrine.
+
+Speaking of dynamically weaving ourselves together, though, a community does need some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.
 
 When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities on the other hand often call it “the process,” which can become just as sacred.
 
+To give an example of striking the balance: My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they've decided on so far.
+
 ### 1. Inner pl/ork
 
-Pl/ork means play + work. Calling therapy “inner work” forgets the inner child, who also wants to play.
-
-Forgive the neologism. I hope *pl/ork* isn’t too corny. 🌽
-
-Here’s an example: you teach your inner child geography, while s/he teaches you the world is a cat!
+Probably the most obvious type of pl/ork is reparenting. Here’s an example: you teach your inner child geography, while s/he teaches you the world is a cat!
 
 [image 8](https://substackcdn.com/image/fetch/$s_!7tAF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66730244-8446-4321-83f0-f353d46a8e1e_770x844.jpeg)
 
@@ -146,38 +144,31 @@ Here’s an example: you teach your inner child geography, while s/he teaches yo
 
 And it's built on [somatic regulation](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing) first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.
 
-My contemplative practice is grounded in the early [Buddhist suttas](https://suttacentral.net/), with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they've decided on so far.
-
 ### 2. Relational pl/ork
 
 [Hearthwork](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) distributes counseling among peers: equal time, attention without interpretation or fixing, and then you switch.
 
 The idea is that the capacity to be there for people when they need help isn’t located in one professional or guru, or the founder of the group that everyone emotionally depends on, but in the community as a whole.
 
-Another thing is that the person listening to you shouldn’t get power, just from that, over whether or not you can be a member of the group, whether or not you can work for the group, whether or not you can live there, what happens with your children, whether or not you can take part in the medicine work, whether or not you’re believed in a dispute, etc. Letting someone turn what they learned while caring for you into administrative power over you is just creating a new hierarchy.
+But since we're merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn't translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you're ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.
 
-Another thing is knowing which problems are beyond what peers can handle and need outside or expert help.
-
-And another is to deal with jealousy and conflict while it's still between the people involved, before it gets put on the agenda (generally at the bottom of the agenda).
-
-<!-- 2026-10-12: section 4 v10, this sentence back to the published meaning (the guide covers the dyads; the document is about romance; both cases). Joel 17:23: "we can't replace "dyads" with "romance" that's not the same concept." 100% Human in its run and the section, 272g (s4/sweep/PREDICTIONS-272g.md). -->
-Also, read my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents). It covers the dyads that will form whether your founding document acknowledges romance or pretends you’re all beyond it.
+Another thing is knowing which problems are beyond what peers can handle and need outside or expert help. And another is to deal with jealousy and conflict while it's still between the people involved, before it gets put on the agenda (generally at the bottom of the agenda). Speaking of jealousy, check out my [Romance Guide](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents), since that's a topic each person & each couple first handles by themselves.
 
 ### 3. Medicine pl/ork
 
-Doing serious plant medicines carefully with peer guidance without exalting any one person as a special shaman.
+Community can reach new heights by carefully incorporating serious plant medicines with peer guidance rather than exalting any one person as a special shaman.
 
 This doesn’t mean that a peer-led ceremony should be done without structure. Things like screening participants, making sure the sitters are sober, having a plan for dealing with emergencies, planning for integration, and other rules and boundaries need to be dealt with beforehand. While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot, it’s not something I recommend.
 
 ### 4. The container
 
-Membership, land, resources, governance, children, leaving, etc.
+This is the part about membership, land, resources, governance, children, leaving, etc.
 
-Personally, I’m aiming for communities with less and less money involved. I think the path there has three stages.
+Like my father, I’m aiming for communities with less and less money involved, since money is antagonistic to the spirit of community. If I have money, I can get whatever I want, regardless of whether anyone cares about my wellbeing. That's the hegemonic philosophy of life we are trying to overturn. I think the path there has three stages.
 
 First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs, and they bring an agreed share of that income in. This is probably a good place to start if someone wants to create a community now and have it be realistic.
 
-Later, all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the [Bruderhof](https://www.bruderhof.com/intentional-community) community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at [Twin Oaks](https://www.twinoaks.org/about-twinoaks-community/about-income-sharing), and a number of other income-sharing communities. So a common purse isn’t just a theory.
+Later all wages and other income earned by the members from work outside the community, or from business inside the community, will be paid into the common purse of the community. No member accumulates private wealth while a member of the community. Some version of this is how things have been done in the [Bruderhof](https://www.bruderhof.com/intentional-community) community for generations, and my father lived there for 17 years. It is also done, in a somewhat different way, at [Twin Oaks](https://www.twinoaks.org/about-twinoaks-community/about-income-sharing), and a number of other income-sharing communities. So a common purse isn’t just a theory.
 
 Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn't find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.
 
@@ -187,7 +178,7 @@ These are less exciting topics to discuss spiritually. It's rare to see someone 
 
 But no amount of gorgeous land will make up for the mess that is created when one person owns the land or has the final say about what will happen on it. And when members come on board faster than the group can support them, all the peer counseling in the world won't make up for it, any more than medicine makes up for the lack of a written exit agreement.
 
-The first three parts are the inside of the container, and this part is the container itself.
+The first three parts are the inside of the container, and this container is what gives those a stable place to manifest.
 
 If one of them gets skipped, it will need to be dealt with eventually, at high stress, usually after the group has invested land, labor, or other resources and everyone has an opinion on how things should be.
 
@@ -526,7 +517,7 @@ It can be tricky to spell everything out, though. Let's say a grandmother is dem
 
 If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.
 
-<!-- CANDIDATE: section 12 v11 (2026-10-12). Joel's message of 17:23 UTC: his P3 ("human, best") and P16 ("let's keep this one, best one"), as written; before that, 05:33: 17b, 18b, P7 in the guide's words, P22 out of parentheses. Mine: P14's five-item list as two pairs and a sentence and P15's third item in its own sentence (his list rule), P14's "absorb disruption" and "the new member's heart" back (trace r6), P13 names its subject, P22 keeps "every limit". Key-word check PASS. Pangram web app: the section 100% Human ("Human Written", 944 words, 17:43:06 UTC, batch 273g); each paragraph of mine alone or in a run that passes. Not accepted until Joel says so. -->
+<!-- CANDIDATE: section 12 v12 (2026-10-13): Joel's rewrite from his message of 2026-10-13 21:00 UTC ("section 12 i rewrote a bit, still passes pangram fully"), as written; trailing spaces taken out; links, the italics on "right now" and image 17 back where they stood. Records: joel-20261013/. Not accepted until Joel says so. -->
 # The Math of Absorption, and Who This Isn’t For
 
 Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.
@@ -541,35 +532,31 @@ Some people have engaged in long practices of contemplation or therapy, or have 
 
 In the model I’m imagining, some of the functions that are outsourced to therapists in modern society are distributed throughout the community. In other words, there’s a lot of [peer counseling](https://ibogaqueen.substack.com/p/hearthwork-an-integrated-peer-counseling) going on, people listening to each other, being there for each other and helping each other process ordinary emotional stuff.
 
-That does not make the community infinitely absorbent.
+That does not make the community infinitely absorbent like a Heavy Flow Maxi Pad.
 
 I’m going to use the phrase “[free resource](https://www.rc.org/),” which comes from Re-evaluation Counseling, to refer to the attention, steadiness, skill and practical capacity people have left over for others once they’ve dealt with enough of their own immediate stuff, and “need” to refer to the amount of help people need at a given time.
 
-Everyone has a certain amount of both, and the ratio varies.
+Everyone has a certain amount of both in different ratios.
 
 My own need has exceeded my free resource at many points. Good Lord. During one stretch, my first wife tried to kill me while psychotic because she believed I was her sociopathic father. Then [she took my son](https://youtu.be/0eOInpVYnsk?si=dbxjP76Rbk5FmjDs). Later she tried to kill my mother, while her pimp stalked my sister’s family until they moved to Canada.
 
 I could go on and on, but the math is pretty clear by now. There wasn’t much of me left over for anybody else. So when I say someone might need to stabilize and do inner pl/ork before helping found a community, I’m not saying it from a mountaintop.
 
-The problem is that, in a group of eight people, if two are in a sustained crisis mode, the group may end up spending most of its attention caring for those in crisis. However, in a group of eighty people, the same need, or even more of it, can often be spread across lots of relationships and roles. A group can only absorb as much need as its members have free resource to meet.
-
 The ability to welcome somebody is partly a problem of resources, then, not compassion -- how many people can a group take in without hurting the existing members or the people they are taking in?
 
-There is a difficult paradox to consider. The need for new members in a small community is greater, but the ability of that community to absorb disruption is less. With only eight people in the community, someone still has to grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids. And the water system has to keep working. The water well doesn’t care how beautiful the new member’s heart is.
+And that also brings us to a difficult catch-22 for fledgling groups. The need for new members in a small community is greater, but the ability of that community to absorb disruption is less. With only eight people in the community, someone still has to grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids. And the water system has to keep working. The water well doesn’t care how beautiful the new member’s heart is.
 
-So early on, members usually need to have more available resource than acute need, and some practical skills to contribute. They usually need to be willing to learn, too.
+So early on, members usually need to have more available resource than acute need, and some practical skills to contribute. They usually need to be willing to learn, too. Once there are 80 members, though, there's usually a lot more free resource to draw on.
 
-I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, maybe simply uncomfortable or unfamiliar with therapeutic language, or for whatever reason deemed inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision on membership. Even then, the power to veto membership applications based on capacity remains dangerous.
+I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, maybe simply uncomfortable or unfamiliar with therapeutic language, or for whatever reason deemed inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision on membership. Even then, the power to veto membership applications based on capacity remains dangerously tilted towards elitism.
 
-This community may not be a good fit for you *right now* if:
+But before you submit your application to the community, submit it to yourself. This community may not be a good fit for you *right now* if:
 
-You’re running from some crisis right now and mainly need a place to land, get treatment, housing, legal aid, etc. (A founding group shouldn’t pretend it can give you those.)
+You have a need that far outstrips your free resource right now. This doesn’t mean you’re bad or doomed, it’s about timing; it just means you need to take a first step of finding support where you are and building up your resources. If you don't have a free resource calculator on hand, an easy way to tell is if you’re running from some crisis right now and mainly need a place to land, get treatment, housing, legal aid, etc. A founding group shouldn’t pretend it can give you those.
 
 You want the feeling of village life but don’t want to take on governance, maintenance, conflict, care, etc.
 
 You’re not willing to look at yourself when jealousy or conflict comes up.
-
-You have a need that far outstrips your free resource right now. (This doesn’t mean you’re bad or doomed, it’s about timing; it may mean you need to take a first step of finding support where you are and building up your resources.)
 
 Any humane membership process should have ways of not flat-out rejecting people who fall into these categories, or anyone else it can’t take right now, like saying “later,” or “in another role,” or “with more support.”
 
