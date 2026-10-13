@@ -191,7 +191,12 @@ COACH = [r"\byou can\b(?!['’]t)", r"\byou might\b", r"\byou'll (want|need|prob
          r"\bkeep in mind\b", r"\bremember (that|to)\b", r"\bgive yourself\b", r"\bit's okay to\b",
          r"\bthe goal is\b", r"\bthe point is\b", r"\bin other words\b", r"\bgo easy\b"]
 ANNOUNCE = [r"^(Or maybe|For [a-z]+,|Here's|That's where|The next step|Now,|First,|Second,|Finally,|So the next)",
-            r"^[A-Z][a-z]+ (is|are|can be|works like) [^.]{0,30}\.$"]
+            r"^[A-Z][a-z]+ (is|are|can be|works like) [^.]{0,30}\.$",
+            # Joel, 2026-10-13 (community sections 4 and 12): "Also, a note on agreements:" and "There is a difficult paradox to
+            # consider." announce the paragraph; his versions start in the thought ("Speaking of dynamically weaving ourselves
+            # together, though, …", "And that also brings us to a difficult catch-22 for fledgling groups.").
+            r"^(Also, )?[Aa] (quick |short |brief )?note on\b",
+            r"^There (is|are) (a|an|one|another|some) [^.!?]{0,40}\bto consider\s*[.:]?$"]
 IMPER = set("""think picture imagine ask try put start leave borrow skip write take let keep stop find notice make give go
 use pick tell say be do don't dont notice consider remember breathe turn stay come look call eat sleep sit""".split())
 STOP = set("""a an the and or but if so to of in on at for with by from as is are was were be been being it its it's this that
