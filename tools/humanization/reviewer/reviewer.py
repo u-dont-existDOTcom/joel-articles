@@ -667,13 +667,16 @@ def build_sense_section(article, heading, draft=None, report=None):
 
 
 def march_paragraphs(t):
-    """The draft's paragraphs that have sentences (headings and quotes-only lines are skipped)."""
+    """The draft's paragraphs that have sentences (headings and quotes-only lines are skipped). A list's
+    lead-in and each of its items are split on their own (2026-10-12, turn 49: with the lines run together,
+    a lead-in and four questions read as one sentence, and five signs as two)."""
     out = []
     for p in [p for p in re.split(r'\n\s*\n', t) if p.strip()]:
-        p = re.sub(r'\s+', ' ', p.strip())
-        if p.startswith('#') or (len(p.split()) <= 12 and not p.endswith(('.', '?', '!', '"', '”'))):
+        flat = re.sub(r'\s+', ' ', p.strip())
+        if flat.startswith('#') or (len(flat.split()) <= 12 and not flat.endswith(('.', '?', '!', '"', '”'))):
             continue
-        out.append(split_sentences(p))
+        pieces = [x for x in re.split(r'\n\s*(?:[-*]|\d+[.)])\s+', '\n' + p.strip()) if x.strip()]
+        out.append([s for x in pieces for s in split_sentences(re.sub(r'\s+', ' ', x.strip()))])
     return out
 
 

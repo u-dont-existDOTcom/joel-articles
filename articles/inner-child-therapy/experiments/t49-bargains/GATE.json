@@ -1,0 +1,185 @@
+{
+ "t49_J1": {
+  "kind": "owner",
+  "joel": "2026-10-12 17:36 UTC, his P1 with the political tribe clause put back"
+ },
+ "t49_J1h2": {
+  "kind": "section",
+  "parts": [
+   "t49_J1"
+  ]
+ },
+ "t49_J1h1": {
+  "kind": "section",
+  "parts": [
+   "installed",
+   "t49_J1"
+  ]
+ },
+ "t49_P2": {
+  "kind": "draft",
+  "march": [
+   "S S S B S"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_P3c": {
+  "kind": "draft",
+  "march": [
+   "S S B S S"
+  ],
+  "cold": "[5] UNCLEAR",
+  "grounding": "OK",
+  "stance": 1,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_P3": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "grounding": "same claims as t49_P3c",
+  "stance": 0,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H1": {
+  "kind": "draft",
+  "march": [
+   "S S S S B",
+   "S S S S B"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H3": {
+  "kind": "draft",
+  "march": [
+   "S S B",
+   "S S B"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H4": {
+  "kind": "draft",
+  "march": [
+   "S S S B S S S",
+   "S S S B S S S"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H2": {
+  "kind": "draft",
+  "march": [
+   "S S S B S S",
+   "S S S B S S"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_P3g3": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "grounding": "same claims as t49_P3c",
+  "stance": "same claims as t49_P3",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_P3g2": {
+  "kind": "draft",
+  "march": [
+   "S S B S S",
+   "S S B S S"
+  ],
+  "cold": "OK",
+  "grounding": "same claims as t49_P3c",
+  "stance": "same claims as t49_P3",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H5": {
+  "kind": "draft",
+  "march": [
+   "S S S S S S B S",
+   "S S S S S S B S"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 0,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H2d": {
+  "kind": "draft",
+  "march": [
+   "S S S B S S",
+   "S S S B S S"
+  ],
+  "cold": "OK",
+  "grounding": "same claims as t49_H2",
+  "stance": "same claims as t49_H2",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H2e": {
+  "kind": "draft",
+  "march": [
+   "S B S S",
+   "S B S S"
+  ],
+  "cold": "OK",
+  "grounding": "same claims as t49_H2",
+  "stance": "same claims as t49_H2",
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H6e": {
+  "kind": "draft",
+  "march": [
+   "S S S S B S B S",
+   "S S S S B S B B"
+  ],
+  "cold": "OK",
+  "grounding": "OK",
+  "stance": 2,
+  "lint": "REVIEW",
+  "missing": []
+ },
+ "t49_H6": {
+  "kind": "draft",
+  "march": [
+   "S S S S B S",
+   "S S S S B S"
+  ],
+  "cold": "OK",
+  "grounding": "same claims as t49_H6e",
+  "stance": 0,
+  "lint": "REVIEW",
+  "missing": []
+ }
+}

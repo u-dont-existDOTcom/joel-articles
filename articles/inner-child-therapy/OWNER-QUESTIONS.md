@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-12 (turn 48). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-13 (turn 50). **One open question (20).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,14 +11,20 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now.
+### 🟣 20. The seam between Untangling P2 and your P3 reads AI (your fix?)
+
+> In its controlling form, that caretaking can drift into keeping other people dependent, because being needed has become the caretaker's main source of value. Beauty, intelligence, achievement and caretaking can all be real gifts, but they become "belonging bargains" when your whole identity is so tied up with living up to those ideals to please others.
+
+The end of P2 and the start of your P3. Each paragraph passes alone (P2 0.042, your P3 0.008), and the h3 and the h1 read 100% Human, but the h2 reads Mostly Human, with one AI window (57 words, 0.572) right here. I loosened P2's last sentence once ("because somewhere along the way, being needed became the caretaker's main source of value"): P2 alone still passed (0.066), the window stayed, and the h1 grew a new AI window, so P2 is back as it was.
+- **A. Your fix** (P2's last sentence is mine, so change anything there).
+- **B. Leave it for now.**
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge the pull request for turn 48
+### 🟠 Merge pull request #167 (turns 49 and 50)
 
 This turn's work is in a new pull request; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
@@ -26,6 +32,20 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-13 00:47 UTC
+
+- "17. …": Untangling P3 is your version ("beacuse" spelled right). 100% Human (139) here too.
+- "18. … that last line just needed a little loosening.": in. 100% Human (88).
+- "19. A": the guide's line, with "Murray Bowen's", is the h3's last paragraph.
+- What your fixes taught me (rule E170): your P3 added why a child of good parents takes these bargains too, which a reviewer had flagged as missing and I'd left aside, and your questions fix loosened one line of a tight list. My fix rounds now start there instead of moving words around.
+- "you should save your work so i can easily continue on the other account": I push after each step now, and the handoff note says where things stand.
+
+### 🟢 2026-10-12 17:36 UTC
+
+- "from now on, never take out something important in order to pass pangram. give your best *faithful* version to me, i'll show you exactly how to fix it without doing that": your P1 is in as you wrote it, and it's a rule now (E168). Writers carry every point and go long rather than drop one, the Pangram tool refuses a draft that leaves a point out unless it's only a test, and when a faithful version still fails after one more try, it comes to you (questions 17 and 18). You were right that the tribes weren't the problem: I'd guessed they were and never checked.
+- "you only did one paragraph in nearly 2 hours?": answered in my message. This turn wrote the whole rest of the h2 at once (E169).
+- "continue": the rest of Untangling the Belonging Bargains, under Coming up. Pull request #165 (turn 48) is merged.
 
 ### 🟢 2026-10-12 04:53 UTC
 
@@ -99,11 +119,9 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: the human doer, in Untangling the Belonging Bargains
+### 🔵 Next: Let the Child Be Bad at Things
 
-The new h2's heading and P1 are in: untangling yourself from whatever pulls you away from your own knowing in return for belonging (a political tribe or another group, or the expectations of a family or religion that's kind to you), ordinary conformity, and where it turns into the bargain ("But if going along means betraying yourself, that's the bargain."). Left out: what religions and political tribes ask (particular beliefs and behavior; consistent positions and predictable reactions). The one draft that carried the tribe's read AI, and the guide comes back to both later in this h2; say if you want either in P1. Next is the human doer: worth earned in an outside arena, and real gifts that become belonging bargains. No question for you yet.
-
-One slip this turn: I ran Pangram on some drafts before their march reads and stance checks, which the gate puts first. A tool now refuses that (rule E167); the paragraph that went in passed every check first.
+The last h2 of Sometimes There Isn't a Clear Child Yet: three guide paragraphs (experiments over reflection, the old internal parent's verdict on a first attempt, enough repetitions to get past being a beginner). Then the h1 The Inner Guide Comes Later.
 
 ### 🔵 Saved for when Altered States is humanized
 
