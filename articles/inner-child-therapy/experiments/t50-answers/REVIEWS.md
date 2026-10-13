@@ -7,4 +7,8 @@
 - **What his fixes teach (E170):** his P3 added why a child of good parents takes the bargains too, the reason a grounding had parked in turn 49, and said the guide's abstraction in plain words; his questions fix loosened one line of a tight parallel list. A fix round now starts from the reviews' parked notes and the guide's abstractions (`docs/HUMANIZATION-GATE.md`, `tools/humanization/reviewer/tickets.txt`).
 - **Tool:** `pangram_gate.py` builds a section from texts the page already holds (`concat`), so a check of an h2 or h1 no longer means pasting it in full; each text is built when its turn comes.
 
-Predictions: 5 of 6 (the h2 missed).
+Predictions for his answers and the sections: 5 of 6 (the h2 missed).
+
+## The h2's seam
+
+One fix of P2's last sentence, claim unchanged ("because somewhere along the way, being needed became the caretaker's main source of value"; march S S S B S, cold read OK): P2 alone 100% Human (110), 0.066; the h2 still Mostly Human, the same window (60 words); the h1 Mostly Human, with an AI window (56 words) moved to the h3's P3 and P4. So P2 stays as it was (with it, the h1 reads 100% Human), and the seam goes to Joel as question 20 (E168). Predictions this turn: 6 of 9.

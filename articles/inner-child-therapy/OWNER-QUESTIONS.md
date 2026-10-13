@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-13 (turn 50). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-13 (turn 50). **One open question (20).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,7 +11,13 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now.
+### 🟣 20. The seam between Untangling P2 and your P3 reads AI (your fix?)
+
+> In its controlling form, that caretaking can drift into keeping other people dependent, because being needed has become the caretaker's main source of value. Beauty, intelligence, achievement and caretaking can all be real gifts, but they become "belonging bargains" when your whole identity is so tied up with living up to those ideals to please others.
+
+The end of P2 and the start of your P3. Each paragraph passes alone (P2 0.042, your P3 0.008), and the h3 and the h1 read 100% Human, but the h2 reads Mostly Human, with one AI window (57 words, 0.572) right here. I loosened P2's last sentence once ("because somewhere along the way, being needed became the caretaker's main source of value"): P2 alone still passed (0.066), the window stayed, and the h1 grew a new AI window, so P2 is back as it was.
+- **A. Your fix** (P2's last sentence is mine, so change anything there).
+- **B. Leave it for now.**
 
 ## For you to do (no decision needed)
 
@@ -113,9 +119,9 @@ This turn's work is in a new pull request; the link is in my message. About a mi
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: the h2's seam, then Let the Child Be Bad at Things
+### 🔵 Next: Let the Child Be Bad at Things
 
-Every paragraph of Untangling the Belonging Bargains passes alone, and so do the h3 (563) and the h1 (1,609). The h2 reads Mostly Human: one AI window of 57 words where P2 ends ("In its controlling form, that caretaking can drift…") and your P3 begins. I'll try one fix of P2's last sentence; if the h2 still reads AI there, it comes to you. Then the next h2, Let the Child Be Bad at Things.
+The last h2 of Sometimes There Isn't a Clear Child Yet: three guide paragraphs (experiments over reflection, the old internal parent's verdict on a first attempt, enough repetitions to get past being a beginner). Then the h1 The Inner Guide Comes Later.
 
 ### 🔵 Saved for when Altered States is humanized
 
