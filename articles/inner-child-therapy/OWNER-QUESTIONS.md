@@ -18,7 +18,9 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-*Nothing right now: you merged #168 (turn 51). Turn 52's pull request will be listed here.*
+### 🟠 Merge pull request #171 (turn 52)
+
+This turn's work: your Untangling P1 to P3, rule E172 and the repeats sweep. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 
