@@ -1,0 +1,14 @@
+You are sweeping the records of a humanization project for one kind of missed signal. Work only from the files named here.
+
+Background. Joel's article is being humanized section by section. For each section, fresh "cold readers" read the rewrite and reported where the sense broke (files named SENSE*.md). On 2026-10-13 Joel fixed four things in section 4 that the cold reads had flagged again and again, and that had been left alone because the flagged words were the published ones: a coined word used in a heading before it was explained, a heading promising "one principle" over a paragraph giving three ideas, a paragraph that came before the things it talked about were named, and (section 12) a paragraph whose point was made elsewhere and that readers kept stumbling on. The new rule: a flag that two or more cold reads raise on the same passage gets a proposed fix (move it, define the term earlier, rename the heading, cut or merge the paragraph, or reword), even when the words are the published ones.
+
+Your job: for sections 2, 3, 6, 7, 8, 9, 10 and 11 (not 4, 5 or 12: those are now the author's own texts), find every passage that two or more cold-read reports flagged for the same reason, and that is still in the current article.
+
+Files:
+- The list of cold-read reports, one path per line, relative to /home/claude/reg1013/articles/intentional-communities/candidate: /home/claude/reg1013/articles/intentional-communities/candidate/sweep-20261013/sense-files.txt (read each one for the sections above; the first path part is the section folder, e.g. s11).
+- The current article: /home/claude/reg1013/articles/intentional-communities/candidate/HUMANIZED-SO-FAR.md (HTML comments are notes, not text).
+- The published article: /home/claude/reg1013/articles/intentional-communities/original.md.
+
+For each finding, report: the section and its heading; the exact words flagged (quoted from the current article); the reason the reports give, in one line; which reports raised it (file names) and how many; whether the same words are in the published article; and the fix you would propose, in one line, of one of these kinds: move, define earlier, rename the heading, cut, merge, reword. Leave out a flag only one report raised, a flag about words no longer in the current article, and anything that is a question of style or whether it sounds like AI.
+
+Write the report to /home/claude/reg1013/articles/intentional-communities/candidate/sweep-20261013/SWEEP-B.md with a single Write call, at most 1,200 words, as a table or a numbered list grouped by section. Then reply with only the number of findings per section.
