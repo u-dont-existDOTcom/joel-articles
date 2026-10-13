@@ -12,3 +12,7 @@ Predictions for his answers and the sections: 5 of 6 (the h2 missed).
 ## The h2's seam
 
 One fix of P2's last sentence, claim unchanged ("because somewhere along the way, being needed became the caretaker's main source of value"; march S S S B S, cold read OK): P2 alone 100% Human (110), 0.066; the h2 still Mostly Human, the same window (60 words); the h1 Mostly Human, with an AI window (56 words) moved to the h3's P3 and P4. So P2 stays as it was (with it, the h1 reads 100% Human), and the seam goes to Joel as question 20 (E168). Predictions this turn: 6 of 9.
+
+## What the h2 check was (added 2026-10-13, turn 51)
+
+The h2 check was the whole h2 as one text, 919 words: the heading, Joel's P1, P2, his P3 and all of Four Pairs ([the result](https://www.pangram.com/history/e2f9c10b-b9c9-45f9-991e-b4fdb39ae583), history 15796756, 00:51:52 UTC). Its windows: Human 192, AI-Generated 57 (P2's last sentence and P3's first), Human 670. Joel's own checks (same Pangram account): the heading and P2 (111 words, Human, 0.112; 12:38:49 UTC), the heading, P2 and P3 (250, Human, 0.012; 12:39:17 UTC; his screenshot), and P2 and P3 (246, Human, 0.012; 12:45:04 UTC). Lesson E171.
