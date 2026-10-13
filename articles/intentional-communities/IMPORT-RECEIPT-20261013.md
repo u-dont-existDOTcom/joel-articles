@@ -18,4 +18,4 @@ Question 20 on the lane's questions page asked whether to register the community
 
 ## History
 
-The lane branch is kept, with its full history, and frozen: its last commit says where the work moved. Older records inside the imported files name paths under the old folder; they are history and stay as written.
+The lane branch is kept, with its full history, and frozen at `f4d24d2c`, whose only change after `6775ed15` is a note at the top of its two status files saying where the work moved. Older records inside the imported files name paths under the old folder; they are history and stay as written.

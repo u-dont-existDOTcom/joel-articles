@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-12, after your message of 17:23 UTC. **Open questions: 2.** To answer, reply in chat with the number and the letter, for example `20: A`, or in your own words. Everything else in my messages is status.
+Last updated 2026-10-13, after your message of 21:00 UTC. **Open questions: 1.** To answer, reply in chat with the number and the letter, for example `21: done`, or in your own words. Everything else in my messages is status.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,14 +9,7 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Two questions for you.
-
-**🟣 20. Register the community article in joel-articles.** Right now it lives inside the inner child article's experiments folder, so GitHub's list of articles doesn't show it. Registering it gives it its own folder and records (its master text, the published source, your locked passages, the architecture map), and it shows up in the list. It publishes nothing. The repository's rules say only you can name its master.
-- A: register it now. The published Substack article is the source, and the humanized version (sections 1 to 12, all still candidates) is the working master. I'd move the lane's files in a separate pull request, with every page and record moved with them.
-- B: wait until every section is humanized and you've accepted them, then register the finished article.
-- C: keep it as an experiment; don't register it.
-
-My recommendation is A: you want to find it, and the move is easier now than after section 17. If you don't answer, nothing moves.
+> One question for you.
 
 **🟣 21. Score the examples on the [Rule Scoring Sheet](https://claude.ai/artifact/NeH9dPAYfd1vGDSMTy1fGN).** It has three short sets, and you can answer them on the page; it saves as you go.
 - The 14 sweep flags in your paragraphs, each with where it came from. Did you change the meaning on purpose, is it the same meaning, or should I fix it?
@@ -30,13 +23,17 @@ Your answers become the rules' examples. In your other Claude account, press "Co
 > [!WARNING]
 > One thing for you to do.
 
-- 🟠 Merge [pull request 166](https://github.com/u-dont-existDOTcom/joel-articles/pull/166) when you're ready (about a minute): the rules from your 05:33 and 17:23 messages. Press "Merge pull request" on that page, or run `gh pr merge 166 -R u-dont-existDOTcom/joel-articles --merge`. It worked when the page says Merged.
+- 🟠 Merge two pull requests when you're ready (about a minute): [169](https://github.com/u-dont-existDOTcom/joel-articles/pull/169), the lessons from your section 4 and 12 texts, and [170](https://github.com/u-dont-existDOTcom/joel-articles/pull/170), the registration. One command does both: `gh pr merge 169 -R u-dont-existDOTcom/joel-articles --merge && gh pr merge 170 -R u-dont-existDOTcom/joel-articles --merge`. They worked when both pages say Merged.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 2026-10-13 21:00 UTC, on question 20: "yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork..." It doesn't fork them, so it's registered ([pull request 170](https://github.com/u-dont-existDOTcom/joel-articles/pull/170)). The rules are main's shared files, which the inner child lane and this one both add to, and registering copies none of them. It's registered the way Inner Child Therapy is: the published text is the working source master, the humanized article is the working copy until you accept it, and your edits are the ledger every render checks. Until now the community work lived on a branch 424 commits behind main; from here on it runs next to the same rules.
+- 🟢 21:00: your final section 4 ("here is the final section (human on pangram)") and your section 12 rewrite ("still passes pangram fully") are in as you wrote them, with the obvious typos fixed and your links and images back. In section 4's suttas paragraph, the published words you cut on 10-02 ("I consider the Abhidhamma a scholastic wrong turn", "secure enough to disagree") came along from the old page's struck text, so they're out again; say if you meant to bring the Abhidhamma line back. I couldn't re-check them on Pangram this turn: no browser with your sign-in was connected.
+- 🟢 21:00: "try to learn lessons and see what you could have figured out yourself". Four of your section 4 fixes were things the cold reads had flagged on the published words, and I left them because they were published: "Pl/ork" unexplained before the parts, a heading promising one principle over three ideas, and the leaking paragraph before the parts were named; section 12's eight-versus-eighty paragraph too. Now a flag two reads raise gets a fix I propose. The rest is in [pull request 169](https://github.com/u-dont-existDOTcom/joel-articles/pull/169): new rules get swept back over the earlier sections, the stance check also reads your newer text, the trace knows what one part does for another, the page shows one number per paragraph ("p1-p4" was two numbering schemes at once), and struck words no longer come along when you copy from a page.
+- 🟢 Pull request 166 is merged.
 - 🟢 2026-10-12 17:23 UTC, on question 19: your P3 ("human, best") and P16 ("let's keep this one, best one"). Both are in as you wrote them, and the whole section now reads 100% Human (944 words). Your reasons ("for P3 it's a list of 3 that's why it's AI ... and capacity is an AI tell"; P16's lists and "the vagueness of that "not now."") are in the rules. I applied your list fix to my own P14 and P15, and a meaning check put back "absorb disruption" and "the new member's heart" in P14.
 - 🟢 17:23: ""it" is ok when it's clear what "it" is". The meaning checks now say so.
 - 🟢 17:23: "we can't replace "dyads" with "romance" that's not the same concept." Section 4's sentence says what the published one does again: "It covers the dyads that will form whether your founding document acknowledges romance or pretends you're all beyond it." It reads 100% Human in the section.
@@ -78,7 +75,7 @@ Your answers become the rules' examples. In your other Claude account, press "Co
 > [!NOTE]
 > What's next, and what happens if nothing changes.
 
-- 🔵 Main's new rule (pull request 165) sends every web-app Pangram check through a gate script; this lane's batches still use their own builder, with a lint guard. I'll switch this lane over at the start of section 13.
+- 🔵 Next: section 13, "Your Little Forming Group Already Is the Community", in the article's new folder, with Pangram batches through main's gate script (pull request 165's rule), once a browser with your Pangram sign-in is connected.
 - 🔵 Section 13, "Your Little Forming Group Already Is the Community": two lines shaped like "Decide the process before the name" wait for its pass ("Discover the group's conflict capacity before hiring a surveyor." and "Write the exit terms while departure is still hypothetical.").
-- 🔵 Information on section 12, no answer needed: the chart says two of the section's sentences before the text does ("A community can absorb only as much need as its members have free resource to meet." and "The cruel paradox: small communities need new members most and can absorb them least.").
+- 🔵 Information on section 12, no answer needed: the chart still says "A community can absorb only as much need as its members have free resource to meet." Your cut took that sentence out of the text, so now only the chart says it, and "Once there are 80 members" carries the point. Fine by me.
 - 🔵 Information on earlier pages, no answer needed: section 10's "Make a Movement" repeats the section title; section 10 P8's stored "what happened" could expose the people in an intimate case (your published wording); an optional "why cooperation slides" sentence for section 10 P6, yours to write; section 9's stance question on your P9 and P11 against "When Somebody Has to Go" (which Zapatista body reviews local power after 2023) is on the section 9 page.
