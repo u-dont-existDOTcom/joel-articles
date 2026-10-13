@@ -1,0 +1,50 @@
+== tells_lint: /home/claude/joel-articles/articles/inner-child-therapy/experiments/emulate-20260929/runs/articles/intentional-communities/candidate/s12/section-v6.md
+note: O15 (spelling) skipped, pyspellchecker is not installed (pip install pyspellchecker)
+note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns (TELLS_LINT_PARSE=0); for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c "import nltk; nltk.download('wordnet')"
+verdict: REVIEW
+metrics: {'words': 881, 'my_words': 881, 'paragraphs': 21, 'coach_per_100': 0.23, 'you_per_100': 1.4, 'landing_rate': 0.1, 'instruction_paragraphs': 0, 'para_len_cv': 0.55, 'sent_len_cv': 0.57, 'repeated_openers': {}, 'source_map': [(0, 0.72), (1, 0.55), (2, 0.45), (3, 0.35), (4, 0.55), (0, 0.0), (6, 0.47), (0, 0.0), (7, 1.0), (8, 0.62), (9, 0.74), (9, 0.31), (11, 0.46), (12, 0.79), (13, 0.57), (14, 0.77), (15, 0.55), (16, 0.68), (17, 0.31), (18, 0.35), (19, 0.31)], 'source_order_agreement': 1.0, 'paragraphs_mapped_to_source': 0.9}
+-- B1 finished principle (2)
+   * Most of us are all of these at different times in our lives.
+   * Everyone has a certain amount of both, and the ratio varies.
+-- B2 contrast (3)
+   * Instead of asking "Is this person good enough?", the practical questions to ask are, "How much attention can this person bring to other people right now?
+   * It’s not going to be solved by pretending it’s unlimited; that’s going to require actually making concrete criteria, allowing for outside review, allowing for r
+   * You have a need that far outstrips your ability to bring in a resource for it right now. (This doesn’t mean you’re bad or doomed, it’s about timing; it may mean
+-- B4/E15 list or packed sentence (12)
+   * Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex
+   * Some people have engaged in long practices of contemplation or therapy, or have had very good luck in childhood; other people are just trying to survive some em
+   * In other words, there’s a lot of peer counseling going on, people listening to each other, being there for each other and helping each other process ordinary em
+   * I’m going to use the phrase “free resource,” which comes from Re-evaluation Counseling, to refer to the attention, steadiness, skill and practical capacity peop
+   * The problem is that, in a group of eight people, if two are in a sustained crisis mode, the group may end up spending most of its attention caring for those in 
+   * Whether there are eight people in the community or eighty, someone still has to grow the food, fix the cars, balance the books, watch the kids, and maintain the
+   * So early on, members usually need to have more resource than acute need, and some skill to contribute, and a willingness to learn.
+   * How to use the framing of “I don’t have the capacity to…” without it becoming a respectable way to exclude disabled people, poor people, people who aren’t very 
+   * It’s not going to be solved by pretending it’s unlimited; that’s going to require actually making concrete criteria, allowing for outside review, allowing for r
+   * You’re running from some crisis right now and mainly need a place to land, get treatment, housing, legal aid, etc. (A founding group shouldn’t pretend it can gi
+   * You want all of the benefits of village life but don’t want to take on governance, maintenance, conflict, care, etc.
+   * (There should be ways of not flat-out rejecting people who fall into these categories, like saying “later,” or “in another role,” or “with more support.”)
+-- B7 short landing at paragraph end (2)
+   * But it’s not infinite.
+   * And even then, the power is dangerous.
+-- D9 follows the source order (1)
+   * 19/21 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger
+-- E1 kid (1)
+   * Whether there are eight people in the community or eighty, someone still has to grow the food, fix the cars, balance the books, watch the kids, and maintain the
+-- E125 list of three: an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it's really needed"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just has something to say."). Joel, 01:06: "when there's no actual need for 3 items you can remove one of them" (5)
+   * sex, psychedelics, or somebody wanting to leave
+   * balance the books, watch the kids, and maintain the water system.
+   * and some skill to contribute, and
+   * allowing for outside review, allowing for re-visiting a “not now” decision, and all of that.
+   * or “in another role,” or
+-- E41 coach phrase (2)
+   * In other words, there’s a lot of peer counseling going on, people listening to each other, being there for each other and helping each other process ordinary em
+   * You have a need that far outstrips your ability to bring in a resource for it right now. (This doesn’t mean you’re bad or doomed, it’s about timing; it may mean
+-- H1 a negation in a heading: check it isn't an x-not-y frame (Joel 2026-10-06) (1)
+   * The Math of Absorption, and Who This Isn’t For
+-- O12 "ordinary/regular/boring/quietly": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"; 2026-10-10 12:22, on "shouldn't quietly turn into": "using quietly all the time like that is a huge AI tell"); keep one that says something, judge published wording like new wording (1)
+   * In other words, there’s a lot of peer counseling going on, people listening to each other, being there for each other and helping each other process ordinary em
+-- O25 "even" or "actually", 2 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; "They're words I add to sound casual, and they don't help"): keep one only where it says something (2)
+   * It’s not going to be solved by pretending it’s unlimited; that’s going to require actually making concrete criteria, allowing for outside review, allowing for r
+   * And even then, the power is dangerous.
+-- O29 a run of three or more questions (gate step 7: "a few shared AI micro-patterns (question runs, triads, "isn't X, it's Y")"; its prediction review: "questions the text answers itself"): keep the ones a reader would ask (1)
+   * 3 questions: Instead of asking "Is this person good enough?", the practical questions to ask are, "How much attention can this person bring to other people righ

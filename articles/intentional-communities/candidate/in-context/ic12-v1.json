@@ -1,0 +1,229 @@
+{
+ "title": "The Math of Absorption, and Who This Isn’t For · section 12 beside the published one",
+ "meta": "Community article · section 12 · v9, 2026-10-12 · installed in the article so far as a candidate",
+ "intro": [
+  "Your published section is on the left. The new version, now in the article as a candidate, is on the right. Highlighted words are what changed from the published text. Paragraph numbers are the page's: the chart counts as P5.",
+  "Pangram's web app: the whole section reads 100% Human (\"Human Written\", 907 words scanned, 03:32 UTC, batch 259g), and every paragraph passes alone or in a run with a neighbor that passes alone. My calls across the section's 245 checks: 71% right on pass or no pass (saying \"fails\" every time would have been 47%).",
+  "How it was made: my rewording of the published text read 100% AI, while Emulate's outputs read Human. So the base is Emulate's wording, with your meaning put back one change at a time. Then came five rounds of reviewers (traces, cold reads, the stance check), and each fix was checked on Pangram again.",
+  "Two questions for you on OWNER-QUESTIONS.md: 17, your published \"outside review\" in P16; and 18, P12's \"the same need\" against your chart, which shows five in crisis among eighty."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# The Math of Absorption, and Who This Isn’t For"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Many perfectly intelligent grownups would rather sit around",
+     "source": [
+      "This article asks people to discuss jealousy"
+     ],
+     "notes": [
+      "Passes with the heading (51 words, 245g). Emulate's P1 had \"jealousy or God or death or ...\", which passed Pangram but is your ban on Emulate's \"and ... and\" lists, so this one is a normal list with the sentence turned round. Trace: OK."
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "This does not surprise me, since we are taught",
+     "source": [
+      "I understand why. Modern life trains us"
+     ],
+     "notes": [
+      "Passes alone (237g). Emulate's shape, with your points back: a show of competence, screens the second things get uncomfortable, and institutions."
+     ]
+    },
+    {
+     "label": "P3",
+     "article": "Instead of asking \"Is this person good enough?\"",
+     "source": [
+      "So the question isn’t whether a person"
+     ],
+     "notes": [
+      "Passes alone (253g). \"the practical questions to ask are\", not \"might be\" (stance check). No \"So\": a cold reader couldn't see what it followed from, and three \"So\" openers fail the linter."
+     ]
+    },
+    {
+     "label": "P4",
+     "article": "Some people have engaged in long practices",
+     "source": [
+      "Some people have years of contemplative"
+     ],
+     "notes": [
+      "Passes alone (237g). Trace: OK."
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "In the model I’m imagining, some of the functions",
+     "source": [
+      "In this model, the community shares some functions"
+     ],
+     "notes": [
+      "Passes alone and in the run to P9 (245g). \"being there for each other\" is your \"accompany\". Link kept."
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "But it’s not infinite.",
+     "source": [
+      "That does not make the community infinitely absorbent."
+     ],
+     "notes": [
+      "Under 50 words: in the run from P6 (245g)."
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "I’m going to use the phrase",
+     "source": [
+      "I borrow the phrase"
+     ],
+     "notes": [
+      "Passes alone (245g). All four parts of free resource, as published: attention, steadiness, skill and practical capacity. Link kept."
+     ]
+    },
+    {
+     "label": "P9",
+     "article": "Everyone has a certain amount of both",
+     "source": [
+      "Everyone carries both, and the ratio changes."
+     ],
+     "notes": [
+      "Under 50 words: in the run from P6 (245g)."
+     ]
+    },
+    {
+     "label": "P10",
+     "article": "My own need has exceeded my free resource",
+     "source": [
+      "My own need has exceeded my free resource"
+     ],
+     "notes": [
+      "Your story, as published. Passes alone (234g)."
+     ]
+    },
+    {
+     "label": "P11",
+     "article": "I could go on and on, but the math",
+     "source": [
+      "I could continue, but the arithmetic"
+     ],
+     "notes": [
+      "Under 50 words: passes with P10 (235g) and with P12 (241g)."
+     ]
+    },
+    {
+     "label": "P12",
+     "article": "The problem is that, in a group of eight people",
+     "source": [
+      "A group can absorb only as much need"
+     ],
+     "notes": [
+      "Passes alone (242g). Your first sentence moved to the end: as the first sentence, it failed. Question 18 is about \"the same need\"."
+     ]
+    },
+    {
+     "label": "P13",
+     "article": "So it’s partly a problem of resources",
+     "source": [
+      "The ability to welcome somebody is therefore"
+     ],
+     "notes": [
+      "Under 50 words: passes with P12 (242g)."
+     ]
+    },
+    {
+     "label": "P14",
+     "article": "There is a difficult paradox to consider.",
+     "source": [
+      "The difficult paradox is that small communities"
+     ],
+     "notes": [
+      "Passes alone (255g). Emulate's \"fix the cars\" and \"someone's heart\": with \"equipment\", this part of the section failed seven times. \"With only eight people\" keeps your point that eight people still carry all of it (stance check)."
+     ]
+    },
+    {
+     "label": "P15",
+     "article": "So early on, members usually need",
+     "source": [
+      "So early members usually need more available resource"
+     ],
+     "notes": [
+      "Under 50 words: passes with P14 (258g). \"practical skills\" (stance check), \"acute need\" and \"So\" (trace)."
+     ]
+    },
+    {
+     "label": "P16",
+     "article": "How to use the framing",
+     "source": [
+      "I still don’t know how to keep this language"
+     ],
+     "notes": [
+      "Passes alone (242g). Your five groups, in four items (\"people who aren't very articulate or don't have the language of therapy at their fingertips\"). Question 17 is about \"outside review\"."
+     ]
+    },
+    {
+     "label": "P17",
+     "article": "This community may not be a good fit for you",
+     "source": [
+      "This community may not be right for you"
+     ],
+     "notes": [
+      "The lead-in. In the run from P16 (259g). It opens with \"This\" so that five paragraphs in a row don't open with \"You\" (the linter fails that)."
+     ]
+    },
+    {
+     "label": "P18",
+     "article": "You’re running from some crisis right now",
+     "source": [
+      "You are fleeing an active crisis"
+     ],
+     "notes": [
+      "In the run from P16 and in the list's run (259g). The stance check cut Emulate's \"It's good that some groups can provide that\": it read as approving communities as crisis shelters."
+     ]
+    },
+    {
+     "label": "P19",
+     "article": "You want the feeling of village life",
+     "source": [
+      "You want the feeling of village life"
+     ],
+     "notes": [
+      "In the run from P16 (259g). \"the feeling\", as published (two traces)."
+     ]
+    },
+    {
+     "label": "P20",
+     "article": "You’re not willing to look at yourself",
+     "source": [
+      "You are unwilling to examine your behavior"
+     ],
+     "notes": [
+      "In the run from P16 and in the list's run (259g)."
+     ]
+    },
+    {
+     "label": "P21",
+     "article": "You have a need that far outstrips your free resource",
+     "source": [
+      "Your current need greatly exceeds your available resource"
+     ],
+     "notes": [
+      "Passes with P22 (260g) and in the list's run (259g). \"your free resource\", the section's term: \"your ability to bring in a resource\" read as a means test (stance check). \"a bit\" cut (stance check). \"and building up your resources\" (traces)."
+     ]
+    },
+    {
+     "label": "P22",
+     "article": "(Any humane membership process should have ways",
+     "source": [
+      "A humane membership process should be able to say"
+     ],
+     "notes": [
+      "Passes with P21 (260g) and in the list's run (259g). \"humane membership process\" back (two traces). With your opening word, \"A\", the list failed three times."
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "batch": "135g",
+ "parts": {
+  "i-P25b13": "Kids also need transferable skills and education, relationships with people outside the community, access to their own records and documents, and at least one plausible next step outside the community (school, an apprenticeship, work, family, another community). It would be great if the community could also provide resources to smooth the transition, like temporary housing, help with travel, tools or a small stash, but even if it can't, it can at least not make things worse by punishing people for leaving, or by holding back knowledge or records a young adult would need to function outside the community. No upbringing can provide perfect freedom, and the point isn't to erase path dependence. It's to not turn belonging into a trap.",
+  "i-P26o": "It's possible that some of them will leave permanently, and others may start their own communities with different values rather than wait decades to inherit the original one. And parents may experience that as a loss, even when it's the movement evolving.",
+  "i-P2r": "I mention vaccination specifically because it's one of the values I would absolutely need to share with people in a community, if I was going to raise children there. I'm not trying to design a village for everyone, only saying that communities need some common ground on children's health, enough that parents can actually trust one another.",
+  "g-P23n": "If a community's kids never leave, it has no way of knowing whether they'd come back freely. So let them study, travel and make friends, encounter other ways of living, and disagree with the founders without being treated as traitors.",
+  "h-P23o": "If a community's kids never leave, it has no way of knowing whether they'd come back freely. So let them study, travel and make friends, encounter other ways of living, and disagree with the founders, without the community treating them as traitors.",
+  "h-P25b11": "Kids also need transferable skills and education, relationships with people outside the community, access to their own records and documents, and at least one plausible next step outside the community (school, an apprenticeship, work, family, another community). It would be great if the community could also provide resources to smooth the transition, like temporary housing, help with travel, tools or a little money, but even if it can't, it can at least not make things worse by punishing people for leaving, or by holding back knowledge or records a young adult would need to function outside the community. No upbringing can provide perfect freedom, and the point isn't to erase path dependence. It's to not turn belonging into a trap.",
+  "f-P26": "It's possible that some of them will leave permanently, and others will start their own communities with different values rather than wait decades to inherit the original one. And parents may experience that as a loss, even when it's the movement evolving.",
+  "g-P26n": "It's possible that some of them will leave permanently, and that others will start their own communities with different values rather than wait decades to inherit the original one. And parents may experience that as a loss, even when it's the movement evolving.",
+  "c-P24": "Every childhood narrows the future. Most ordinary parents aren't going to give their kid a bunch of money at 18 and say, \"Go see the world.\" They'll try to get them ready for some next step that can actually work. A poor or money-free community may have even less cash to offer, and food, medical care and basic survival may rightly come first.",
+  "c-P3": "All of this will ultimately be reviewed by the kids, once they're grown, and their review weighs more heavily than founders usually want it to. Adults can go on about their intentions forever, but the kids might have something else to say."
+ },
+ "items": [
+  [
+   "135g-P23nP24",
+   [
+    "g-P23n",
+    "c-P24"
+   ]
+  ],
+  [
+   "135g-P23oP24",
+   [
+    "h-P23o",
+    "c-P24"
+   ]
+  ],
+  [
+   "135g-P25b13",
+   [
+    "i-P25b13"
+   ]
+  ],
+  [
+   "135g-P25b11P26o",
+   [
+    "h-P25b11",
+    "i-P26o"
+   ]
+  ],
+  [
+   "135g-P25b11P26",
+   [
+    "h-P25b11",
+    "f-P26"
+   ]
+  ],
+  [
+   "135g-P2rP3c4",
+   [
+    "i-P2r",
+    "c-P3"
+   ]
+  ],
+  [
+   "135g-P2r",
+   [
+    "i-P2r"
+   ]
+  ]
+ ]
+}

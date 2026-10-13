@@ -1,0 +1,44 @@
+# Intentional Communities: current state
+
+Registered 2026-10-13 from the community humanization lane (branch `claude/emulate-lessons-20260930`, commit `6775ed15`), at Joel's answer to question 20: "yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork..."
+
+## Goal
+
+Humanize Joel's published intentional-communities Substack article section by section, so that every paragraph and every section reads Human in Pangram's web app and the meaning stays the published one, except where Joel changes it himself.
+
+## Authority / baseline
+
+- Registered working source master: `original.md`, the published Substack text (97,920 UTF-8 bytes, SHA-256 `5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6`). Like Inner Child Therapy's raw Substack master, it is the baseline, not the humanized article.
+- The humanized article: `candidate/HUMANIZED-SO-FAR.md`, the working candidate (role `active_humanized_article`). Nothing in it is accepted until Joel says so.
+- Joel's edits and rulings: `candidate/OWNER-EDITS.json`, checked by `tools/humanization/check_owner_edits.py` on every render.
+- Rules: the repository's shared rules only (`AGENTS.md`, `SKILL.md`, `docs/HUMANIZATION-GATE.md`, `tools/humanization/`), the same ones the Inner Child lane runs and adds to. This folder holds the article's rulings and records, not a copy of the rules.
+
+## Completed
+
+- Sections 1 to 12 are humanized candidates in `candidate/HUMANIZED-SO-FAR.md`. Sections 4 and 12 are Joel's own texts of 2026-10-13; section 5 is his of 2026-10-06; the others carry his edits and answers where he gave them. Every candidate section read 100% Human in Pangram's web app when it was installed (`DETECTOR-EVIDENCE.json`).
+- Owner edits: 49 of 49 pass at registration.
+
+## Current checkpoint
+
+Section 13, "Your Little Forming Group Already Is the Community", is the published text except one line fixed on 2026-10-12. The lane's notes are `STATUS.md` (newest entry on top) and `candidate/STATUS.md`.
+
+## Remaining
+
+- Sections 13 to 16 and the appendix.
+- Joel's acceptance of the candidate sections, then promotion of the humanized article to the registered master with a promotion receipt.
+- Claim-level citation review (`CITATIONS.json`, pending) when Joel asks for it.
+
+## Blockers / unresolved
+
+- Open questions for Joel are on the lane's questions page (`candidate/OWNER-QUESTIONS.md`): scoring the Rule Scoring Sheet (question 21), J4's "be nice" in section 11, and the stance question on his section 9 P9 and P11 against "When Somebody Has to Go".
+- Pangram checks run in a browser signed in to Joel's account; the API key is out of credits.
+
+## Evidence / artifacts
+
+- `IMPORT-RECEIPT-20261013.md`: what was imported, from where, and why the rules don't fork.
+- `candidate/sN/`: each section's predictions, parts, batch files, review rounds and install scripts; `candidate/in-context/`: the side-by-side page maps; `candidate/prediction-review/`: the prediction scorecard data.
+- `DETECTOR-EVIDENCE.json`, `EDITORIAL-STATUS.json`, `CITATIONS.json`, `SOURCE-EVIDENCE.json`, `OWNER-LOCKS.json`, `ARCHITECTURE.md`.
+
+## Next safe action
+
+Work on a branch from `main` in this folder; the old lane branch is frozen at `6775ed15` as history. Start section 13 as the lane's notes describe (stance ledger, key-word file, a baseline batch, Emulate rounds on the published paragraphs, meaning fixes, the gate), with Pangram batches through `tools/humanization/pangram_gate.py`. Before merging any lane branch into `main`, run `python3 scripts/register_article_artifacts.py --article intentional-communities --write` and the repository's checks.

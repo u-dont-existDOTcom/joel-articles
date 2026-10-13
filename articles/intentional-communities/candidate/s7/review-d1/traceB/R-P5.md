@@ -1,0 +1,1 @@
+Whatever forms people choose, I do think that housing, security for kids, membership and access to common necessities should not be contingent on a person staying in some agreement with a person they're romantically involved with.

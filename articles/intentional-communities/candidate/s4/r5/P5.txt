@@ -1,0 +1,1 @@
+There is going to be bleed through between these four “categories” – e.g. how people deal with jealousy is going to be intertwined with how people run the community, how people use common things, how people parent, how people deal with medicine etc. But I do think they can be broken up like this for some degree of analysis so that people can see which “boxes” they are neglecting.

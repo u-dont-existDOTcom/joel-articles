@@ -1,0 +1,1 @@
+Most intentional communities that are using psychedelics still don't say so publicly, because even where the law allows some use there may be issues with parents worried about the children, or neighbors imagining chaos, or insurance disappearing, or a local official who doesn't understand any of the distinctions.

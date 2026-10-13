@@ -1,6 +1,14 @@
 # Joel Articles Codex Current State
 
-Updated: 2026-09-28
+Updated: 2026-10-13
+
+## 2026-10-13 controlling Intentional Communities registration
+
+This section supersedes older article-count language below.
+
+- Registered working articles: **Romance**, **Somatic Therapies**, **Inner Child Therapy**, **Inner Signal**, **Nibbāna**, and **Intentional Communities**.
+- Intentional Communities is registered at Joel's answer of 2026-10-13 21:00 UTC ("yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork..."), the same way Inner Child Therapy is: the published Substack text is the working source master (`articles/intentional-communities/original.md`, SHA-256 `5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6`), the humanized candidate is a working artifact (`candidate/HUMANIZED-SO-FAR.md`), and the article runs the repository's shared humanization rules, with no copy of its own.
+- The community lane's records came from branch `claude/emulate-lessons-20260930` (kept and frozen) into `articles/intentional-communities/`. Start from `articles/intentional-communities/CURRENT-STATE.md` and `articles/intentional-communities/IMPORT-RECEIPT-20261013.md`.
 
 ## 2026-09-28 controlling Nibbāna registration
 

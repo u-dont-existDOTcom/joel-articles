@@ -1,0 +1,1 @@
+A friend who reviewed this draft grew up in a Christian commune in Colorado where her father was a pastor. She calls her childhood "a treasure and a burden." A treasure because she knew she belonged, and everybody cared for everybody. A burden because she was expected to live a strict religious life she had no say in.

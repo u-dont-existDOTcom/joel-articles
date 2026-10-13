@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "article_id": "intentional-communities",
+  "status": "pending",
+  "note": "Editorial status of the humanized candidate. Sections are candidates until Joel accepts them; the gate in docs/HUMANIZATION-GATE.md (meaning traces, cold reads, the whole-article stance check, the linter, the owner-edits ledger) runs on every candidate section, and its records are in candidate/sN/.",
+  "checks": []
+}

@@ -1,0 +1,1 @@
+They also attract people who love revelations but hate doing the work afterwards. You can have 12 ceremonies and 6 origin stories and still not be able to apologise to your housemate. Any community based mainly on peak experiences will find out sooner or later that insight doesn't do the dishes or comfort a scared kid.

@@ -1,0 +1,402 @@
+{
+ "title": "The Medicine Part: the new version beside yours (work in progress)",
+ "meta": "Community article · section 5 · v37 · 2026-10-03 · not a candidate yet: the section reads 78% AI",
+ "intro": [
+  "Your published section is on the left; v37 is on the right, with words changed from yours highlighted and words cut struck.",
+  "This turn: your edits (P10, P19, P23, P28), and the logic fixes from two fresh audits of all 33 paragraphs (P3, P4, P17, P22, P24, P26). Every paragraph passes Pangram alone or with a neighbor that passes alone (P18 with P17 and its heading). The section as a whole read 78% AI at v30: the long run from P17 to P28 and P30 to P33 are the biggest AI windows. Next: those runs go to Emulate whole.",
+  "P18's last sentence is the one question for you; it's in the reply with the passage."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "The Medicine Part, Without Pretending It Isn’t There"
+   ],
+   "rows": [
+    {
+     "label": "P1",
+     "article": "Most of the writing about communities",
+     "source": [
+      "Psychedelics have moved from taboo toward"
+     ],
+     "notes": [
+      "From Emulate g1-emuA (round 4); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone (try 4)."
+     ]
+    },
+    {
+     "label": "P2",
+     "article": "It hasn't been a smooth ride,",
+     "source": [
+      "The movement is neither smooth nor"
+     ],
+     "notes": [
+      "From Emulate e1-emuA; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone (one word changed this turn: \"though\" for \"either\")."
+     ]
+    },
+    {
+     "label": "P3",
+     "article": "All of which means the legality",
+     "source": [
+      "Communities therefore face real legal differences"
+     ],
+     "notes": [
+      "From Emulate e2-emuA; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone. Logic fixes this turn: \"All of which means\" for \"To be sure\" (yours says \"therefore\"), \"depends\" for \"can depend\"."
+     ]
+    },
+    {
+     "label": "P4",
+     "article": "Most intentional communities that are using",
+     "source": [
+      "Most intentional communities that use psychedelics"
+     ],
+     "notes": [
+      "From Emulate e2-emuB; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes with P5. Logic fix: \"and … and … and\" for \"or … or … or\" (yours: all four may happen)."
+     ]
+    },
+    {
+     "label": "P5",
+     "article": "I'm talking about it here because",
+     "source": [
+      "I’m discussing it because leaving medicine"
+     ],
+     "notes": [
+      "From Emulate e2-emuB; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P6",
+     "article": "There’s a serious case against having",
+     "source": [
+      "The case against building medicine into"
+     ],
+     "notes": [
+      "From Emulate f1-emuB (round 2), rebuilt; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P7",
+     "article": "They do also attract people who",
+     "source": [
+      "They also attract people who love"
+     ],
+     "notes": [
+      "From Emulate g2-emuA (round 4); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone (try 6)."
+     ]
+    },
+    {
+     "label": "P8",
+     "article": "In my own experience there are",
+     "source": [
+      "The case for communal use is"
+     ],
+     "notes": [
+      "From Emulate g2-emuA (round 4); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone (try 4)."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "Community Is What Makes Psychedelics Pl/ork Best!"
+   ],
+   "rows": [
+    {
+     "label": "P9",
+     "article": "Part of it is integration: an",
+     "source": [
+      "Insights need somewhere to land. You"
+     ],
+     "notes": [
+      "From Emulate e4-emuA; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes with its heading."
+     ]
+    },
+    {
+     "label": "P10",
+     "article": "The deeper you go, the more",
+     "source": [
+      "Depth can increase alienation. After my"
+     ],
+     "notes": [
+      "Emulate's first sentence, your published middle, and the sentence you approved at the end; every fix is in s5/fixlog-s5.json.",
+      "Pangram: passes alone. In your approved sentence I changed two words: \"the God complex\" for \"the inflation\" (the term the sentence before uses) and \"sat through\" for \"sat\"."
+     ]
+    },
+    {
+     "label": "P11",
+     "article": "And the people you’re relying on",
+     "source": [
+      "Trusted support is different from purchased"
+     ],
+     "notes": [
+      "From Emulate e4-emuA; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P12",
+     "article": "In a community, though, your sober",
+     "source": [
+      "In community, a sober sitter may"
+     ],
+     "notes": [
+      "From writer W3 A; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P13",
+     "article": "Also your peers can reality check",
+     "source": [
+      "Peers can also reality-check the downloads."
+     ],
+     "notes": [
+      "From Emulate g3-emuA (round 4), with round 5 g3-emuB’s \"with the same bright shining light\"; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone (try 4)."
+     ]
+    },
+    {
+     "label": "P14",
+     "article": "One of the benefits of community",
+     "source": [
+      "Community creates rhythm. Many traditional medicine"
+     ],
+     "notes": [
+      "From Emulate h2-emuB (round 6); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone and with each neighbor (try 7)."
+     ]
+    },
+    {
+     "label": "P15",
+     "article": "Logistics get easier in a community.",
+     "source": [
+      "The logistics become easier. Trusted childcare"
+     ],
+     "notes": [
+      "From Emulate e6-emuA; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P16",
+     "article": "There will be people to play",
+     "source": [
+      "There are people to play with."
+     ],
+     "notes": [
+      "From Emulate e6-emuA; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P17",
+     "article": "But I won’t idealize psychedelics. Some",
+     "source": [
+      "I won’t idealize psychedelics. Some people"
+     ],
+     "notes": [
+      "From writer W4 C; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone. Logic fix: \"humble enough to say no? To pause?\" for \"say no, or pause?\" (yours needs both)."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "My Ceremony Principles"
+   ],
+   "rows": [
+    {
+     "label": "P18",
+     "article": "No special shamans here. Traditional lineages",
+     "source": [
+      "No special shamans. Traditional lineages usually"
+     ],
+     "notes": [
+      "From Emulate g4-emuA (round 4); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes with P17 and the heading. With the heading and P19: 58% AI, down from 100%. The last sentence is what trips it (see the reply)."
+     ]
+    },
+    {
+     "label": "P19",
+     "article": "My issue is with placing one",
+     "source": [
+      "My objection is to placing one"
+     ],
+     "notes": [
+      "From Emulate e7-emuA, rebuilt; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone with your fix, \"Or they may be someone who…\"."
+     ]
+    },
+    {
+     "label": "P20",
+     "article": "Even in a culture of peer",
+     "source": [
+      "I don’t yet know how a"
+     ],
+     "notes": [
+      "From Emulate g5-emuA (round 4); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone (try 4)."
+     ]
+    },
+    {
+     "label": "P21",
+     "article": "Still, I want people to learn",
+     "source": [
+      "I want people to learn self-guidance"
+     ],
+     "notes": [
+      "From writer W7 A; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P22",
+     "article": "This doesn't mean that peer-led ceremonies",
+     "source": [
+      "Peer-led never means casual. Screen for"
+     ],
+     "notes": [
+      "From Emulate g6-emuA (round 4); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone. Logic fixes: \"medical and psychiatric\" (yours), \"decide what needs professional help\" (yours: \"requires\")."
+     ]
+    },
+    {
+     "label": "P23",
+     "article": "Also, I’m especially cautious about medicines",
+     "source": [
+      "I’m especially cautious about medicines and"
+     ],
+     "notes": [
+      "From writer W7 A, with your last sentence; every fix is in s5/fixlog-s5.json.",
+      "Pangram: passes alone and with P22."
+     ]
+    },
+    {
+     "label": "P24",
+     "article": "The use of medicine is secondary",
+     "source": [
+      "The medicine stays behind the other"
+     ],
+     "notes": [
+      "From Emulate h5-emuA (round 6); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone. Logic fix: \"a practice that's already there\" (\"once it's there\" could mean the medicine)."
+     ]
+    },
+    {
+     "label": "P25",
+     "article": "As a bonus, this pre-req weeds",
+     "source": [
+      "This prerequisite also filters out experience"
+     ],
+     "notes": [
+      "From Emulate h5-emuB (round 6); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone (try 6)."
+     ]
+    },
+    {
+     "label": "P26",
+     "article": "The other aspect is integration:",
+     "source": [
+      "Integration is ordinary life. Ceremony opens"
+     ],
+     "notes": [
+      "From Emulate i1-emuA (round 7, this turn); every fix is in s5/fixlog-s5.json.",
+      "Pangram: passes alone. Logic fix: the five are places to look, and a change in one is enough, as yours says (\"whether anything changed\"); the version before said it shows up in all five. Four versions of mine read AI; this is Emulate's with the meaning put back."
+     ]
+    },
+    {
+     "label": "P27",
+     "article": "Supports matter. By supports I mean",
+     "source": [
+      "Supports matter. Preparation, nutrition, interaction screening,"
+     ],
+     "notes": [
+      "From writer W7 C; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P28",
+     "article": "Legal issues differ greatly, and are",
+     "source": [
+      "Legality needs a written answer. The"
+     ],
+     "notes": [
+      "From Emulate e10-emuA, with your parenthetical; every fix is in s5/fixlog-s5.json.",
+      "Pangram: passes alone. \"Insured\" is out (yours); \"anybody around here\" (yours: \"Nobody around here\")."
+     ]
+    }
+   ]
+  },
+  {
+   "headings": [
+    "After the Psychedelic Calling"
+   ],
+   "rows": [
+    {
+     "label": "P29",
+     "article": "Quite a few people feel a",
+     "source": [
+      "Many people come out of deep"
+     ],
+     "notes": [
+      "From Emulate f3-emuB (round 2); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes with P30."
+     ]
+    },
+    {
+     "label": "P30",
+     "article": "I know this urge. And I",
+     "source": [
+      "I know that call. I also"
+     ],
+     "notes": [
+      "From Emulate f3-emuB (round 2); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P31",
+     "article": "Yeah, the call may be real.",
+     "source": [
+      "The call may be real. Omnipotence"
+     ],
+     "notes": [
+      "From writer W8 A; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes with P30."
+     ]
+    },
+    {
+     "label": "P32",
+     "article": "A group that begins in collective",
+     "source": [
+      "A group formed during collective spiritual"
+     ],
+     "notes": [
+      "From Emulate e12-emuA, rebuilt; every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone."
+     ]
+    },
+    {
+     "label": "P33",
+     "article": "After the euphoria wears off and",
+     "source": [
+      "Once the call sobers up, it"
+     ],
+     "notes": [
+      "From Emulate f3-emuB (round 2); every fix and the gate finding behind it is in s5/fixlog-s5.json.",
+      "Pangram: passes alone (your step, \"communities of their own\")."
+     ]
+    }
+   ]
+  }
+ ]
+}

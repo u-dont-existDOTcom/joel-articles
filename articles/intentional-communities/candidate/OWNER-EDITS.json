@@ -1,0 +1,803 @@
+{
+ "about": "The community article's owner-edits ledger, in the shared format (tools/humanization/check_owner_edits.py). Joel's edits and rulings go in here as pending the turn he gives them, before any drafting (HUMANIZATION-GATE step 0). Checked against HUMANIZED-SO-FAR.md.",
+ "entries": [
+  {
+   "id": "s1-rulings",
+   "what": "Section 1 v3: Joel's rulings of 2026-09-30 (from v3/owner-edits-v3.json)",
+   "status": "applied",
+   "must_contain": [
+    "the same loneliness",
+    "being carried through",
+    "adventures mixed in",
+    "variety of personalities",
+    "I was happy there.",
+    "I couldn't tell whether",
+    "much bigger",
+    "highly structured political system that didn't seem intuitive for hippies",
+    "needed to talk about",
+    "Some people, including me,"
+   ],
+   "must_not_contain": [
+    "grew up on shoulders",
+    "boring as hell",
+    "very happy",
+    "struck me as odd",
+    "labor credit"
+   ]
+  },
+  {
+   "id": "s2-c10",
+   "what": "Section 2: Joel's own rewrite of the paragraph on what communal ownership needs (2026-10-01 14:49), with one spelling fix, \"leaching\" to \"leeching\" [in the section 2 v3 candidate]",
+   "status": "applied",
+   "joel": "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leaching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, steal less, or try to act helpless.",
+   "must_contain": [
+    "Communal ownership entails folks taking on visible and named stewardship duties.",
+    "if someone is leeching off the group and how to deal with it",
+    "It requires developing healthier forms of relationships.",
+    "No, taking away the idea of a boss does not make everyone less passive, selfish, steal less,"
+   ]
+  },
+  {
+   "id": "s2-c11",
+   "what": "Section 2: Joel's own rewrite of the paragraph on wanting the old way of living back (2026-10-01 14:49) [in the section 2 v3 candidate] (superseded by s2-c11b, 18:06)",
+   "status": "superseded",
+   "joel": "People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby is born or someone thinks they own something. They just know they are tired and alone and want to change it.",
+   "must_contain": [
+    "People want to go back to the old way of living, but they have no idea why it failed or what to do when someone wants to own land, they run out of money, a baby is born or someone thinks they own something.",
+    "They just know they are tired and alone and want to change it."
+   ]
+  },
+  {
+   "id": "s2-africa",
+   "what": "Section 2: Joel's Instagram paragraph, \"coming to Africa, where I'm at.\" (2026-10-01 14:49; the cold reader didn't know where he lives) [in the section 2 v3 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "I don't think she's coming to Africa, where I'm at."
+   ]
+  },
+  {
+   "id": "s2-c8",
+   "what": "Section 2: keep Joel's line \"as Instagram comments sometimes do\" (2026-10-01 14:49: \"keep mine of course\") [in the section 2 v3 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "The commune comments became a miniature political-philosophy seminar, as Instagram comments sometimes do."
+   ]
+  },
+  {
+   "id": "s2-c4-list",
+   "what": "Section 2, the AI paragraph: keep jobs, relationships and future outlook; feeds can go (2026-10-01 14:49) [in the section 2 v3 candidate]",
+   "status": "applied",
+   "span": {
+    "from": "Google Trends",
+    "to": "Chantress Seba",
+    "must_contain": [
+     "jobs",
+     "relationships",
+     "future"
+    ]
+   },
+   "must_not_contain": [
+    "feeds"
+   ]
+  },
+  {
+   "id": "s2-my-land",
+   "what": "Section 2: \"my land\" stays; it's a general idea, not a claim that he has land (2026-10-01 14:49) [in the section 2 v3 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "get you onto my land"
+   ]
+  },
+  {
+   "id": "s2-c4-joel",
+   "what": "Section 2, P4: Joel's last sentence, keeping the original meaning (2026-10-01 18:06; he says P3+P4 passes Pangram) [in the v3.1 candidate]",
+   "status": "applied",
+   "joel": "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim.",
+   "must_contain": [
+    "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim."
+   ]
+  },
+  {
+   "id": "s2-c9-idsay",
+   "what": "Section 2, P9: \"I'd say\" instead of \"IMO\" (2026-10-01 18:06: \"i'm surprised how many ppl i talk to don't know what IMO means\") [in the v3.1 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "I'd say the comment above"
+   ],
+   "must_not_contain": [
+    "IMO"
+   ]
+  },
+  {
+   "id": "s2-c10-fix",
+   "what": "Section 2, P10: \"or stop trying to act helpless\" (proposed 16:46, Joel: \"agree fix it\") [in the v3.1 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "or stop trying to act helpless"
+   ],
+   "must_not_contain": [
+    "or try to act helpless"
+   ]
+  },
+  {
+   "id": "s2-c11b",
+   "what": "Section 2, P11: Joel's paragraph with \"why earlier communes failed\" and \"the group runs out of money\" (proposed 16:46, Joel: \"agree fix it\") [in the v3.1 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "People want to go back to the old way of living, but they have no idea why earlier communes failed or what to do when someone wants to own land, the group runs out of money, a baby is born or someone thinks they own something.",
+    "They just know they are tired and alone and want to change it."
+   ]
+  },
+  {
+   "id": "s3-p4",
+   "what": "Section 3, P4: the proposal accepted, with Joel's minimal fix \"so the angry communard goes there\" for \"so the anger goes there\" (2026-10-02 00:52: \"the usage of abstract concepts or feelings as agents is one AI tell\") [in the section 3 v10 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "so the angry communard goes there, trying to get some justice."
+   ],
+   "must_not_contain": [
+    "so the anger goes there"
+   ]
+  },
+  {
+   "id": "s3-p6",
+   "what": "Section 3, P6: Joel's human pass (2026-10-02 00:52): \"followed the founder, Stephen Gaskin\", and a last sentence that says the truth was Y, not X [in the section 3 v10 candidate]",
+   "status": "applied",
+   "joel": "[The Farm](https://thefarmcommunity.com/), in Tennessee, at its largest about 1,500 people, had many beautiful values. But in the early days, the community’s spirituality and social life followed the founder, Stephen Gaskin. From what former members have shared, the community’s doctrine ran deep into members’ intimate decisions. This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is.",
+   "must_contain": [
+    "followed the founder, Stephen Gaskin.",
+    "This is how it often goes: folks talk about oneness with the universe, while one man defines what the universe is."
+   ],
+   "must_not_contain": [
+    "heavily influenced",
+    "It’s one thing to talk about a universal consciousness"
+   ],
+   "must_link": [
+    {
+     "text": "The Farm",
+     "url": "https://thefarmcommunity.com/"
+    }
+   ]
+  },
+  {
+   "id": "s3-p7",
+   "what": "Section 3, P7: Joel's fix (2026-10-02 00:52: \"emulate lost the meaning of the original\") [in the section 3 v10 candidate, with his straight apostrophe] (superseded by s3-p7b, 21:16)",
+   "status": "superseded",
+   "joel": "The two failures mirror each other. Secular groups distribute power but leave the inner life largely private or ignored. Spiritual groups attempt to address the inner life, but because it's inner being shaped by outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path.",
+   "must_contain": [
+    "The two failures mirror each other.",
+    "largely private or ignored",
+    "because it's inner being shaped by outer as a condition of membership",
+    "around whoever defines the path"
+   ],
+   "must_not_contain": [
+    "symmetric reasons"
+   ],
+   "must_contain_exact": [
+    "because it's inner being shaped by outer"
+   ]
+  },
+  {
+   "id": "s3-p9",
+   "what": "Section 3, P9: Joel's fix (2026-10-02 00:52): he does want people to come in largely healed, without pretending they're finished; \"where people don't come in pre-healed\" said nearly the opposite [in the section 3 v10 candidate, with his straight apostrophes]",
+   "status": "applied",
+   "joel": "I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.",
+   "must_contain": [
+    "I dream of a way to work in depth that isn’t run by a guru",
+    "people who've done the healing first can join without pretending they're fully finished"
+   ],
+   "must_not_contain": [
+    "pre-healed"
+   ],
+   "must_contain_exact": [
+    "people who've done the healing first can join without pretending they're fully finished",
+    "that isn’t run by a guru",
+    "it doesn’t become a permanent repair shop"
+   ]
+  },
+  {
+   "id": "s3-p7b",
+   "what": "Section 3, P7: Joel's rewrite of 2026-10-02 21:16 (\"for section 3 p7 this passes\"): \"mostly private or ignored\" and \"it's the inner world being shaped by the outer\" [in the section 3 v11 candidate, with his straight apostrophe]",
+   "status": "applied",
+   "joel": "The two failures mirror each other. Secular groups distribute power but leave the inner life mostly private or ignored. Spiritual groups attempt to address the inner life, but because it's the inner world being shaped by the outer as a condition of membership, we tend to find both real-world and spiritual power concentrating around whoever defines the path.",
+   "must_contain": [
+    "leave the inner life mostly private or ignored",
+    "the inner world being shaped by the outer as a condition of membership"
+   ],
+   "must_contain_exact": [
+    "because it's the inner world being shaped by the outer"
+   ],
+   "must_not_contain": [
+    "inner being shaped by outer"
+   ]
+  },
+  {
+   "id": "s4-p5",
+   "what": "Section 4, P5: Joel's rewrite (2026-10-02 21:16): each category leaks into a specific other one; Emulate's \"intertwined with everything\" was vague (\"this vagueness has to be rejected\") (23:49: \"These four parts\", the parts in the diagram under the heading; \"plant medicine\" declined) [in v9]",
+   "status": "applied",
+   "joel": "These categories leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.",
+   "must_contain": [
+    "Governance can end up slyly incorporating personal tensions like jealousy.",
+    "(power corrupts, as they say)",
+    "another type of god complex",
+    "How folks choose to raise children can expose values the founders never discussed.",
+    "And myriad other categories arise, of course.",
+    "These four parts leak into one another almost immediately."
+   ],
+   "must_not_contain": [
+    "is going to be intertwined with",
+    "plant medicine tend to"
+   ]
+  },
+  {
+   "id": "s4-p7",
+   "what": "Section 4, P7: Joel's rewrite (21:16): \"just as sacred\" kept; \"longer meetings and fewer robes\" went (every wording he tried was flagged) [in the section 4 v8 candidate]",
+   "status": "applied",
+   "joel": "When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities on the other hand often call it “the process,” which can become just as sacred.",
+   "must_contain": [
+    "When agreements get frozen, religious communities tend to call the frozen version doctrine.",
+    "which can become just as sacred."
+   ],
+   "must_contain_exact": [
+    "call it “the process,” which"
+   ]
+  },
+  {
+   "id": "s4-p11",
+   "what": "Section 4, P11: Joel's rewrite (21:16): the best inner adult, three roles, \"Guide\" [in the section 4 v8 candidate]",
+   "status": "applied",
+   "joel": "Inner-child reparenting means learning to identify as the best inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide. The newly developed adult reparents their newly recognized inner child. The child receives all that love, protection, and guidance that you give it, and in this process actually gains more freedom to remain alive inside you.",
+   "must_contain": [
+    "learning to identify as the best inner adult, which is comprised of the three inner adult roles: Nurturer, Protector, and Guide.",
+    "The newly developed adult reparents their newly recognized inner child.",
+    "actually gains more freedom to remain alive inside you."
+   ],
+   "must_not_contain": [
+    "not the other way around"
+   ]
+  },
+  {
+   "id": "s4-p12",
+   "what": "Section 4, P12: Joel's rewrite (21:16): reparenting built on somatic regulation first [in the section 4 v8 candidate]",
+   "status": "applied",
+   "joel": "And it's built on somatic regulation first. Listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well.",
+   "must_contain": [
+    "first. Listening to the body's feelings before making a decision with the mind.",
+    "symbolizes the adult/child relationship to me in some way as well."
+   ],
+   "must_contain_exact": [
+    "And it's built on",
+    "the body's feelings"
+   ]
+  },
+  {
+   "id": "s4-p13",
+   "what": "Section 4, P13: Joel's rewrite (21:16): the Abhidhamma line cut, the last sentence his (23:49: \"it should say staying, not still\", with the missing \"what\") [in v9]",
+   "status": "applied",
+   "joel": "My contemplative practice is grounded in the early Buddhist suttas, with a critical reading. Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity). A living community should relate to its own teachings in that same critical manner while staying devoted to following what they've decided on so far.",
+   "must_contain": [
+    "with a critical reading.",
+    "Most are treasure, while some are obviously late additions (sometimes to the point of real absurdity).",
+    "while staying devoted to following what they've decided on so far."
+   ],
+   "must_contain_exact": [
+    "what they've decided on so far."
+   ],
+   "must_not_contain": [
+    "Abhidhamma",
+    "secure enough to disagree",
+    "while still devoted"
+   ]
+  },
+  {
+   "id": "s4-p16",
+   "what": "Section 4, P16: \"whether or not you're believed in a dispute\" for \"the evidence in a dispute\" (Joel, 21:16: \"yes evidence believed is right\") [in the section 4 v8 candidate] (2026-10-13 21:00: his rewrite of this paragraph drops the list, \"the person caring about you and listening to you shouldn't translate that information into administration over your life\".)",
+   "status": "superseded",
+   "joel": "Another thing is that the person listening to you shouldn’t get power, just from that, over whether or not you can be a member of the group, whether or not you can work for the group, whether or not you can live there, what happens with your children, whether or not you can take part in the medicine work, whether or not you’re believed in a dispute, etc. Letting someone turn what they learned while caring for you into administrative power over you is just creating a new hierarchy.",
+   "must_contain": [
+    "believed in a dispute"
+   ],
+   "superseded_by": "s4-joel-20261013-2100"
+  },
+  {
+   "id": "s4-p26",
+   "what": "Section 4, P26: Joel's fix (21:16): \"impractical in some locations\" for \"impossible\" [in the section 4 v8 candidate]",
+   "status": "applied",
+   "joel": "Eventually, the community would also stop using money outside. People would meet their needs directly, or through exchange (be it trade, gift, work, obligation, or whatever). I couldn't find a well-documented modern community that has gone this far, and in fact, it may be impractical in some locations because of government requirements like taxes on land. So perhaps the practical end point here is a community that is nearly entirely moneyless, but has a small collective cash boundary on the outside.",
+   "must_contain": [
+    "it may be impractical in some locations because of government requirements like taxes on land."
+   ],
+   "must_contain_exact": [
+    "I couldn't find a well-documented"
+   ],
+   "must_not_contain": [
+    "it may be impossible"
+   ]
+  },
+  {
+   "id": "s4-p28",
+   "what": "Section 4, P28: Joel's correction (21:16): people do come back from visions with practical ideas, which still need sober thinking (23:49: \"yes drop often\") [in v9]",
+   "status": "applied",
+   "joel": "These are less exciting topics to discuss spiritually. It's rare to see someone come back from an ecstatic vision with news of how to revamp the community’s policies on provisional members, or how to divvy up assets with a departing member, or how to prevent one founder from having control over the land, or what to do when a child reports something serious. And if they do, it's often still something that needs a sober thinking-through.",
+   "must_contain": [
+    "with news of how to revamp the community’s policies on provisional members",
+    "needs a sober thinking-through."
+   ],
+   "must_contain_exact": [
+    "It's rare to see someone come back",
+    "And if they do, it's still something that needs a sober thinking-through."
+   ],
+   "must_not_contain": [
+    "Nobody comes back from an ecstatic vision",
+    "it's often still"
+   ]
+  },
+  {
+   "id": "s4-p29",
+   "what": "Section 4, P29: Joel's fix (21:16): \"owns the land or has the final say\" [in the section 4 v8 candidate]",
+   "status": "applied",
+   "joel": "But no amount of gorgeous land will make up for the mess that is created when one person owns the land or has the final say about what will happen on it. And when members come on board faster than the group can support them, all the peer counseling in the world won't make up for it, any more than medicine makes up for the lack of a written exit agreement.",
+   "must_contain": [
+    "when one person owns the land or has the final say about what will happen on it."
+   ],
+   "must_contain_exact": [
+    "won't make up for it"
+   ]
+  },
+  {
+   "id": "s4-p21",
+   "what": "Section 4, P21: Joel keeps Emulate's last sentence (23:49): it lost the published irony, but \"the new meaning is actually better for this. and it does read as a concession which is warranted\" [in the section 4 v9 candidate]",
+   "status": "applied",
+   "must_contain": [
+    "While there may be some pure learning that could come from having several altered members figure out what rules and boundaries are needed on the spot"
+   ]
+  },
+  {
+   "id": "s5-p10-age",
+   "what": "Section 5, P10: Joel (2026-10-03 04:03): \"they are mine. altho i found out it was age 25 not age 26.\" His first ayahuasca ego deaths were at 25; the published text says 26. [applied: section 5 v60 installed as a candidate, 2026-10-04]",
+   "status": "applied",
+   "must_contain": [
+    "After my original ayahuasca ego deaths at 25"
+   ],
+   "must_not_contain": [
+    "ego deaths at 26"
+   ]
+  },
+  {
+   "id": "s5-first-person",
+   "what": "Section 5's first-person lines that only the published text makes are Joel's (2026-10-03 04:03: \"they are mine\"): P8 \"In my experience\", P10 (ego deaths, the monasteries, the God or Savior complex), P18 (the respect and the learning, in his 01:18 words), P30 (\"I know that call\", rendered as felt). [applied: section 5 v60 installed as a candidate, 2026-10-04]",
+   "status": "applied",
+   "must_contain": [
+    "In my experience there are real reasons",
+    "Buddhist monasteries",
+    "I respect what those traditions have preserved",
+    "I've felt that urge myself"
+   ]
+  },
+  {
+   "id": "s5-p3",
+   "what": "Section 5, P3: Joel (04:03): \"wider version is good but i'd say 'psychedelic medicine' since medicine is too general\". [applied: section 5 v60 installed as a candidate, 2026-10-04]",
+   "status": "applied",
+   "must_contain": [
+    "if psychedelic medicine is going to be part of a community at all"
+   ]
+  },
+  {
+   "id": "s5-p33",
+   "what": "Section 5, P33: Joel (2026-10-03 04:03), on how the training ground answers the escape-pod objection: \"if people are training to spread the communal system then it's not an escape from society it's building a genuine alternative\"; and (2026-10-04 01:18) \"p33, sure cut it\": the tail \", not just escaping society\" is out. [applied: section 5 v60 installed as a candidate, 2026-10-04]",
+   "status": "applied",
+   "must_contain": [
+    "if people are training there so they can help others build communities of their own",
+    "forming a real alternative"
+   ],
+   "must_not_contain": [
+    "not just escaping society"
+   ]
+  },
+  {
+   "id": "s5-p10-sentence",
+   "what": "Section 5, P10: Joel (2026-10-03 20:51): \"add that sentence to the end of it so it will lead correctly into P11\". [applied: section 5 v60 installed as a candidate, 2026-10-04]",
+   "status": "applied",
+   "must_contain": [
+    "In a community of people who've sat through the same nights, you aren't the only one who's been there, and someone can catch the God complex early."
+   ]
+  },
+  {
+   "id": "s5-p19-or",
+   "what": "Section 5, P19: Joel (2026-10-03 20:51): \"P19 is a hard fail ... OR is not ALSO\": the facilitator may be wise, or may be one of the others. [applied: section 5 v60 installed as a candidate, 2026-10-04]",
+   "status": "applied",
+   "must_contain": [
+    "may be wise. Or they may be someone who"
+   ],
+   "must_not_contain": [
+    "They may also be someone who"
+   ]
+  },
+  {
+   "id": "s5-p23",
+   "what": "Section 5, P23: Joel (2026-10-03 20:51): \"I'd replace that with 'My reasons are given in those articles, respectively, since they need more space.'\" (no smuggling, no \"not Y\" tail). [applied: section 5 v60 installed as a candidate, 2026-10-04]",
+   "status": "applied",
+   "must_contain": [
+    "My reasons are given in those articles, respectively, since they need more space."
+   ],
+   "must_not_contain": [
+    "smuggl"
+   ]
+  },
+  {
+   "id": "s5-p28",
+   "what": "Section 5, P28: Joel (2026-10-03 20:51): \"which activities are private (to the individual, to a group in the community, or to the community vs the outside)\" and the insured part out. [applied: section 5 v60 installed as a candidate, 2026-10-04]",
+   "status": "applied",
+   "must_contain": [
+    "which activities are private (to the individual, to a group in the community, or to the community vs the outside)"
+   ],
+   "must_not_contain": [
+    "insured"
+   ]
+  },
+  {
+   "id": "s5-p18-lessons",
+   "what": "Section 5, P18: Joel (2026-10-04 01:18), what he learned from the lineages: the need for sacred ritual even if he doesn't do it, the spirit realms a mixed bag, people deciding they're ready long before they're trained, what to do and not do, and that he could still learn from them and they from him. His straight apostrophes kept. [applied: section 5 v60 installed as a candidate, 2026-10-04] [superseded 2026-10-06: Joel rewrote P18 as two paragraphs; see s5-joel-20261006]",
+   "status": "superseded",
+   "must_contain": [
+    "I see a lot of people need sacred rituals",
+    "the spirit realms are quite a mixed bag",
+    "what to do, and what not to do",
+    "they could still learn a lot from me"
+   ],
+   "must_contain_exact": [
+    "decide they're ready to do ceremonies long before they're really trained and prepared"
+   ]
+  },
+  {
+   "id": "s5-joel-20261006",
+   "what": "Section 5 is Joel's own text of 2026-10-06 16:55 UTC (fully human in Pangram's web app): his heading, the opener without \"Key here\", P18 in two paragraphs with his lessons (lead ceremonies; \"they will continue to develop their understandings as well\"), P19's end, P22's advice, P25's joke, P26, P33's end. His characters kept, except the obvious typo \"priveleged\" → \"privileged\" (his ruling of 20:38: \"don't preserve my obvious typos\"). [applied 2026-10-06] Also, by his ruling of 2026-10-07 01:43 UTC (\"section 5 unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them\"): \"contra-indications\" → \"contraindications\", \"pre-requisite\" → \"prerequisite\", \"re-incarnation\" → \"reincarnation\".",
+   "status": "applied",
+   "must_contain_exact": [
+    "The Medicine Part - Yes, I'm Naming It",
+    "Most of the writing on communities hasn't caught up with psychedelics.",
+    "I've learned some \"dos & don't dos\" from their sensible practices and less sensible practices",
+    "They're right though that modern folk do very often decide they're ready to lead ceremonies long before they're really trained and prepared.",
+    "they will continue to develop their understandings as well.",
+    "maybe even a sexual predator, or financially dependent on people coming back to them for more feather-waving",
+    "the more it costs not to personally know who's running their ceremony",
+    "Just because it's a peer-led ceremony doesn't mean it's ok to be casually irresponsible.",
+    "self-transforming fractalized machine elves told them they are the reincarnation of King David & Elvis.😂",
+    "Integration is a term thrown around so much that I'm not sure if it still has meaning.",
+    "which gets double dipped with the objection that psychedelics are also privileged escape pods"
+   ],
+   "must_not_contain": [
+    "Key here",
+    "Without Pretending",
+    "they could still learn a lot from me",
+    "This is not to say that peer led ceremonies"
+   ]
+  },
+  {
+   "id": "s6-owner-lines",
+   "what": "Section 6's owner lines kept exactly in the humanized section (candidate v19, 2026-10-06): the card's excerpt from Joel's own post of 2025-11-15 and the image caption. [applied 2026-10-06]",
+   "status": "applied",
+   "must_contain_exact": [
+    "I just read this post from Jamie Wheal about the “polycrisis,” which I suppose needs no explanation, but it’s basically a word for summarizing that every kind of shit possible is hitting the fan which was already half broken:",
+    "New friends are silver, but old friends are gold"
+   ]
+  },
+  {
+   "id": "s6-joel-20261006-2038",
+   "what": "Section 6, Joel's answers of 2026-10-06 20:38 UTC: P4 \"my feed\" → \"my social media feed\" (which feed was unclear); P5 ends with his own addition (\"social meda\" corrected under his typo ruling); P8 \"couplings\" → \"dependencies\" (not the vaguer \"connections\"), \"think through\" (not \"decide on in advance\": \"Not every new treatment etc can be decided on in advance\"); P9 \"prove … ideological loyalty\", not \"jump through ideological hoops\". [applied: section 6 v20 installed as a candidate, 2026-10-06]",
+   "status": "applied",
+   "must_contain_exact": [
+    "after spending ten years optimizing my social media feed, right?",
+    "This is also one area where many modern folk will balk. Let the community decide if I can use my social media, or ChatGPT? Are you kidding? I get it. I really do. You're not a child anymore. But on the other hand, these technologies don't just affect you, they affect how you relate to the community as well.",
+    "Medical care is one of the toughest dependencies to work out.",
+    "The community should think through how members are going to have access to care.",
+    "No member should have to prove their ideological loyalty when they're scared or sick."
+   ],
+   "must_not_contain": [
+    "jump through ideological hoops",
+    "decide on in advance",
+    "toughest connections"
+   ]
+  },
+  {
+   "id": "pl-ork-coinage",
+   "what": "\"Pl/ork\" is Joel's coined word (play + work, defined in section 4's \"The Four Parts That Have to Pl/ork Together\"); it is not a typo and stays wherever the published article uses it, section 7's \"inner pl/ork\" included (checked 2026-10-06 after I first took it for a typo). [applied 2026-10-06]",
+   "status": "applied",
+   "must_contain_exact": [
+    "The Four Parts That Have to Pl/ork Together",
+    "the inner pl/ork"
+   ],
+   "must_not_contain": [
+    "without inner work",
+    "doing the inner work"
+   ]
+  },
+  {
+   "id": "s6-joel-20261007-0143",
+   "what": "Section 6 P8 and P9 are Joel's text of 2026-10-07 01:43 UTC (\"i fixed p8p9, it was way overcompleting itself\"): P8 without its closing \"These are all questions…\" sentence; P9 his, with \"may not be guaranteed\" and \"contagious\" (his typos fixed under his rule). [applied: section 6 v21, 2026-10-07]",
+   "status": "applied",
+   "must_contain_exact": [
+    "And how will the community deal with people who choose to accept (or not accept) different levels of medical care?\n\nNo member should have to prove their ideological loyalty when they're scared or sick.",
+    "There should be pre-existing agreements in place so that their choices will be protected, both for catastrophic illness and end of life care. Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious."
+   ],
+   "must_not_contain": [
+    "These are all questions that a community should consider in advance."
+   ]
+  },
+  {
+   "id": "s7-joel-20261007-0143",
+   "what": "Section 7 P3's last sentence is Joel's of 2026-10-07 01:43 UTC: commas and \"or\" for Emulate's \"and … and … and\" (\"that looks like emulate trying to cheat, and it wasn't needed\"). [applied: section 7 v3, 2026-10-07]",
+   "status": "applied",
+   "must_contain_exact": [
+    "It's not like calling something by a certain name dissolves the childhood panic, the comparison, the terror of abandonment, or the desire to control another person."
+   ],
+   "must_not_contain": [
+    "the childhood panic and the comparison and"
+   ]
+  },
+  {
+   "id": "s8-joel-20261007-1505",
+   "what": "Section 8: Joel's texts and rulings of 2026-10-07 15:05 UTC (s8/joel-1505/joel-20261007-1505.json): his P3, P18 and P21, P7 cut with the subheading \"Communal Parenting Adds On\", P13's \"boss\", P27 and P28 moved to the top. [applied: section 8 v27, 2026-10-07]",
+   "status": "applied",
+   "must_contain_exact": [
+    "All of the community's design and implementation will ultimately be reviewed by the kids, once they're grown",
+    "The Buddha even taught his son honesty as the most important first lesson.",
+    "hopefully including non-intrusive help from outside the home community.",
+    "Older kids can't be allowed to quietly boss the younger ones around there."
+   ],
+   "must_contain": [
+    "Communal Parenting Adds On"
+   ],
+   "must_not_contain": [
+    "The Mother Is Primary. The Village Is Real.",
+    "My view is that moms raise their own kids",
+    "that the home community does not control",
+    "Discuss Child-Rearing Values Before Children Are Caught Between Them"
+   ]
+  },
+  {
+   "id": "s8-joel-20261007-2021",
+   "what": "Section 8: Joel's texts and OKs of 2026-10-07 20:21 UTC (s8/joel-2021/joel-20261007-2021.json): his new P10, his first paragraph of the last subsection with the published P26's point, P18 \"children\", P22 \"a commitment they make as adults\", P25's last line shortened, and P28's first sentence cut (\"p28 looks better now yes\"). [applied: section 8 v27, 2026-10-07] P22's \"as adults\" went at 23:22 (entry s8-joel-20261007-2322).",
+   "status": "applied",
+   "must_contain_exact": [
+    "so they weren't as dogmatic as I originally thought.",
+    "since that attachment is formed already from years of nursing.",
+    "we may see more evolution than if they simply return and continue what their parents started.",
+    "Protecting children is the duty of adults, but it requires children to help also.",
+    "Belonging and freedom should go hand in hand."
+   ],
+   "must_not_contain": [
+    "goodwill doesn't answer those questions",
+    "Goodwill doesn't answer those questions",
+    "No upbringing can provide perfect freedom",
+    "a commitment they choose on their own",
+    "it requires them to help also"
+   ]
+  },
+  {
+   "id": "s8-joel-20261007-2322",
+   "what": "Section 8 P22: Joel, 2026-10-07 23:22 UTC: \"take out second adults that's obvious\" (\"a commitment they make as adults\" -> \"a commitment they make\"). [applied: section 8 v28, 2026-10-07]",
+   "status": "applied",
+   "must_contain_exact": [
+    "they're baptized as adults, which means belonging is a commitment they make."
+   ],
+   "must_not_contain": [
+    "a commitment they make as adults",
+    "a commitment they choose on their own"
+   ]
+  },
+  {
+   "id": "s9-joel-20261009-0502",
+   "what": "Section 9: Joel's P9 to P12 of 2026-10-09 05:02 UTC (s9/joel-0502/joel-20261009-0502.json), with four obvious typos fixed in P12 under his rule (s9/joel-0502/joel-0502-fixed.json). [applied: section 9 v13, 2026-10-09]",
+   "status": "applied",
+   "must_contain_exact": [
+    "which was split into Rebel Zapatista Autonomous Municipalities and the Good Government Juntas.",
+    "The original idea was to have power vested in the local communities, but it had crept up and consolidated itself at higher levels over time for practical reasons.",
+    "Institutions get more and more layers and offices as they age.",
+    "except usually it goes one way without reversal, unless there's a revolution.",
+    "But there is a special reason the Zapatistas were successfully able to reverse this degeneration.",
+    "And that's not me saying that.",
+    "as something ready-made, shake & bake."
+   ],
+   "must_not_contain": [
+    "rein in my enthusiasm",
+    "leadership book"
+   ]
+  },
+  {
+   "id": "s9-joel-20261009-2208",
+   "what": "Section 9: Joel's P13 and his answers of 2026-10-09 22:08 UTC (s9/joel-2208/joel-20261009-2208.json): his P13 in place of mine; \"Good Government Juntas (Boards)\" at the first mention; P7's \"the closest thing to a whole example\" kept (\"doesn't seem like a hedge to me, sounds just more conversational\"). [applied: section 9 v14, 2026-10-09]",
+   "status": "applied",
+   "must_contain_exact": [
+    "Now, the Zapatistas also don't prove my whole money-free economy goal.",
+    "They still use money internally in some cases, not others, and they still use it externally for trade.",
+    "They've also benefitted from outside economic help, while at the same time making efforts to remain politically independent from donors and more self-sustaining.",
+    "a rehearsal for the Good Government Juntas (Boards).",
+    "the closest thing to a whole example"
+   ],
+   "must_not_contain": [
+    "So what do they show?",
+    "a rehearsal for the Good Government Boards"
+   ]
+  },
+  {
+   "id": "s10-joel-20261010-1222",
+   "what": "Section 10: Joel's message of 2026-10-10 12:22 UTC. P3+P4: \"boring\" out and the sentence \"I don't want one super-commune with a nicer logo.\" cut. P6: \"quietly\" out (now \"Cooperation also shouldn't slide into assimilation.\", trace H OK). The subheading for \"Federation Without Building Another State\": his \"Federated Communities Make a Movement, Improve Resilience\", which he shortened to \"Federated Communities Make a Movement\" at about 13:00 UTC after grounding f1 and stance f1 both flagged \"Improve Resilience\" as a claim the section doesn't make. [applied: section 10 v2, 2026-10-10]",
+   "status": "applied",
+   "joel": "don't use the word \"boring\" especially \"the boring problem\" just change to \"the problem\" or \"the issue\" ... And don't say \"I don't want one super commune \"i want/don't want\" which is in the tells list. ... And \"super commune with a nicer logo\" is an AI-tell quip. Plus \"super commune\" is too vague. Could mean large or could mean really good. Change to \"mega-commune\". Just remove that stupid sentence. . in P6, you have \"quietly turn into\" .... using quietly all the time like that is a huge AI tell. you don't have any other way to say that? and Federation without building another state yeah let's fix that X without Y structure. How about \"Federated Communities Make a Movement, Improve Resilience\" | 13:00 UTC, his answer: \"Federated Communities Make a Movement\"",
+   "must_contain": [
+    "The problem of how these communities stay connected",
+    "Federated Communities Make a Movement"
+   ],
+   "must_not_contain": [
+    "boring problem",
+    "super-commune",
+    "nicer logo",
+    "quietly turn into assimilation",
+    "Federation Without Building Another State",
+    "Improve Resilience"
+   ]
+  },
+  {
+   "id": "s11-joel-20261011-0257",
+   "what": "Section 11: Joel's answers of 2026-10-11 02:57 UTC to the seven questions on OWNER-QUESTIONS.md. 1 to 3 A (P8 \"even just general reputation\", P15 \"a lot of power\" and \"things … it … the gatekeepers\" kept). 5 A: P18 says the prerequisites are a ceremony rule the community holds, separate from the personal principles above (P18z). 6 A: P19 says why diagnosing dissent is different from the daily signs (P19t). 7: his paragraph on land and admission goes in after P10 as P10j, with obvious typos fixed only (capitals, \"formals\", \"it also doesn't\", the ellipsis) and his straight apostrophes and quotes kept. 4 A waits for his words for \"willing to be seen\". [applied: section 11 v10, 2026-10-11; his P10j replaced by his own article version at 18:35 UTC, and P18 and P19 by his rewrite, entry s11-joel-20261011-1835]",
+   "status": "applied",
+   "joel": "1: a 2a 3a 4a 5a 6a 7 so this is not just a problem for me, it's a problem in every community, but especially in communities which form naturally over time as i'm describing may happen in my case. in such cases, there's no formal community and no formals rules until people decide to come together to make them. it doesn't make sense to do that at first, if i'm the only one there and i don't know who else will be there that i could trust. if there's one other person who comes to visit, also doesn't make sense, so there's a critical mass point at which people decide \"we were just living together like friends, but now we want to formalize the community\"... if i could find a group of people and join them right now, this problem wouldn't exist. i haven't found them yet",
+   "must_contain_exact": [],
+   "must_contain": [
+    "even just general reputation"
+   ]
+  },
+  {
+   "id": "s11-joel-20261011-1835",
+   "what": "Section 11: Joel's message of 2026-10-11 18:35 UTC. \"willing to be seen\" cut (his 4: \"this is redundant, i cut it\"). His article version of the land paragraph (J1 to J3: founderism in communities that form naturally, the probation reversal, the marriage analogy) replaces P10j; P10 and J1 to J3 move to the end of the first subsection \"so it flows correctly\". His rewrite of the whole second subsection: R14 to R19 replace P14 to P20 (P13 unchanged). Typos fixed only: \"ends by up treating\" to \"ends up treating\" (R14), a leading space; his characters kept as typed, double spaces included. [applied: section 11 v11, 2026-10-11] 2026-10-12: J3 is checked in two parts around the sentence added from his 23:12 answer (\"you can mention it's the divorce half\").",
+   "status": "applied",
+   "joel": "4 this is redundant, i cut it | 8. before critical mass, my rules apply, because it's my land ... you can't just take what i say to you and publish it. it has to make sense in context. I'd put it in as: [J1 to J3] ... and we need to put that after P10, but we need to move P10 + that to the end of the section so it flows correctly. | p15, you can' tsay \"required as pre-reqs\" that's redundant ... i rewrote this whole section: [P13, R14 to R19]",
+   "must_contain_exact": [
+    "While founderism is a problem in every community, it's especially so in communities which form naturally over time as I'm describing may happen in my case. In such cases, there's no formal community and no formal rules until people decide to come together to make them. It doesn't make sense to do that at first, if, say, I'm the only one there and I don't know who else will be there that I could trust. If there's one other person who comes to visit, it also doesn't make sense, so there's a critical mass point at which people decide \"we were just living together like friends, but now we want to formalize the community.\"",
+    "If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. But if we are all starting together from scratch, then we would all be at an equal probationary level with each other.",
+    "It's a bit like the process of getting married. At first, you visit your girlfriend or boyfriend when schedules align and each of you agrees. Over time as you get closer to marriage (which hopefully is not a fully unconscious process), you start making decisions together and considering sharing more and more resources. Once married, if you decide to divorce, you split up the resources, although that's also contentious depending on how long the marriage was for, whether one person feels tricked, etc,  and unfortunately often ends up in court.  ",
+    "When joining or forming a commune, we can hopefully be more conscious about the process and less romantic.",
+    "Peer counseling can become peer surveillance, even if the tone is warm. And when communal therapy processes are pre-reqs for people to get medicine or to be respected members, it can feel like the community is gatekeeping. Well, it is gatekeeping. Some people simply should not be let in the gate, at least not yet. And some people will resent that, and choose to leave, and that's fine. Some communities will be stricter gatekeepers, and others will be more lax. There are pros and cons to each extreme, and again, a living balance must be struck.",
+    "It should go without saying that nobody has to take medicine to have equal respect in the community. But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point.",
+    "No single person or permanent group of people should handle grievances and have the power to decide who gets into or stays in the community. Each person should have a usable avenue for exit. Dissent is important for growth. That doesn't mean everything everyone says is equally valid, though. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that's as much a failure, if not more so.",
+    "There are some basic human rights that can’t be voted away from you by the majority in a community, unless it's a question of resource availability as a whole. If safety and the conditions for health can be provided, it should be provided. People should be able to maintain relationships with others outside the community, as long as those relationships don't interfere with the community as a whole (for example, you can't bring your boyfriend to live with you if he's not only not a member of the community, but also antagonistic towards it).",
+    "If your human rights are unfairly stripped from you, even by a majority vote, then you can vote with your feet.",
+    "But privacy also can be resistance to the communal spirit, so there has to be a dynamic, living, always re-assessed balance between what you and the community owe each other, and what remains your own domain."
+   ],
+   "must_contain": [
+    "A group starts out inviting honesty and ends up treating privacy as resistance."
+   ],
+   "must_not_contain": [
+    "willing to be seen",
+    "So this is not just a problem for me",
+    "required as pre-reqs",
+    "The boundary is simple",
+    "ends by up treating"
+   ]
+  },
+  {
+   "id": "s11-joel-20261011-2312",
+   "what": "Section 11 v12: Joel's answers of 2026-10-11 23:12 UTC to questions 11 to 16, fitted into his paragraphs as content (his 18:35 rule): J3b names the divorce half (his 16: \"you can mention it's the divorce half sure\"); J4 his answer on terms for visiting friends (14); R14c his answer on private practices (15), with \"some practices go too far against the communal spirit\" added from a cold read; R16c and R16d his answer on members who don't fit in (13: \"we should specify that they will not be demonized\"); R18b his grandmother case (12). Also his 13: \"decide the process before the name\" doesn't make sense and sounds AI, so section 13's line is fixed. My wording, his content: the checks hold his points, not exact characters.",
+   "status": "applied",
+   "joel": "12. ... let's say a grandmother is demonizing the commune. cutting contact with her could make things way worse ... 13. first off, \"decide the process before the name\" doesn't make any sense and it sounds AI. fix that. ... 14. nobody gives clear written terms to visiting friends ... 15. ... in general people can have their own private practices of course, but if they start worshipping Satan, they get booted, etc. 16. ... j3. right you can mention it's the divorce half sure.",
+   "must_contain": [
+    "Leaving a commune is the divorce half",
+    "Friends who come to visit don't get written terms",
+    "implied terms",
+    "people can have their own private practices",
+    "worshipping Satan",
+    "they will be kicked out",
+    "leave way before that",
+    "should not be demonized",
+    "offered compassion",
+    "death sentence",
+    "It's up to the people involved",
+    "a grandmother is demonizing the commune",
+    "context by context"
+   ],
+   "must_not_contain": [
+    "Decide the process before the name"
+   ]
+  },
+  {
+   "id": "s12-joel-20261012-0533",
+   "what": "Section 12, Joel's message of 2026-10-12 05:33 UTC: answers 17b and 18b; P3, P7 and P16 back to the guide's text, because my versions broke their meaning (P3 lost \"for community\", P7 became \"But it's not infinite.\", P16 lost \"this language of capacity\", \"capacity\" and \"remains\"); his own last sentence for P16, which names the power; P22 out of parentheses (\"that's 2 parentheticals in a row\"). Page numbering: the chart is P5. (2026-10-12 17:23: his own P16 replaces the guide's first sentence; see s12-joel-20261012-1723.) (2026-10-13 21:00: his own rewrite of section 12 changed three of these strings, the Maxi Pad line, \"dangerously tilted towards elitism\" and the cut eight-versus-eighty paragraph; entry s12-joel-20261013-2100 checks the new text, and the rest of this entry still holds.)",
+   "status": "applied",
+   "joel": "17b 18b ... p3 got b roken because you changed \"\"good enough\" for community to \"good enough\" and i'm not understand anymore what they are good enough for. then you broke p7 by reducing it to \"but it's not infinite\" ? what? p16 also broke the meaning on the first sentence. it's not about \"i don't have the capacity to\" it's literalyl exactly what the guide said... and then broke again when it changed \"pretending capacity is unlimited\" to \"pretending 'it' is unlimited\" ... it referring to what? unclear. and broke again with last sentence too, you can't just remove \"remains\" and keep the same meaning. and even the original guide is confusing, what power? say \" Even then, the power to veto membership applications based on capacity remains dangerous.\" revert those to guide exactly. debug the error so it doesn't happen again (that shoudl go without saying of course). you can't put p22 into parentheses... that's 2 parentheticals in a row... continue",
+   "must_contain": [
+    "So the question isn’t whether a person is “good enough” for community.",
+    "Pretending capacity is unlimited won’t solve that.",
+    "review by someone who wasn’t part of the decision",
+    "I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate,"
+   ],
+   "must_not_contain": [
+    "But it’s not infinite.",
+    "How to use the framing of",
+    "pretending it’s unlimited",
+    "allowing for outside review",
+    "(Any humane membership process"
+   ]
+  },
+  {
+   "id": "s12-joel-20261012-1723",
+   "what": "Section 12, Joel's message of 2026-10-12 17:23 UTC: his P3 (\"human, best\") and P16 (\"let's keep this one, best one\"), as written. P3 breaks the guide's list of three into sentences and says \"free resource/capacity\" (his note: \"capacity is an AI tell\"; \"capacity is ok when explained as free resource\"); P16 breaks the first list with \"maybe simply\" and \"for whatever reason\", and makes \"not now\" specific (\"on membership\"). His Pangram checks: P3 human, P16 fully human.",
+   "status": "superseded",
+   "joel": "human, best: So the question isn’t whether a person is “good enough” for community. Rather, whether the fit is right. ... | let's keep this one, best one: I still don’t know how to keep this language of capacity ...",
+   "must_contain": [
+    "So the question isn’t whether a person is “good enough” for community. Rather, whether the fit is right. Consider how much attention they currently have available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.",
+    "I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, maybe simply uncomfortable or unfamiliar with therapeutic language, or for whatever reason deemed inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision on membership. Even then, the power to veto membership applications based on capacity remains dangerous."
+   ],
+   "must_not_contain": [
+    "how willing they are to examine their own reactions, and whether the group has enough capacity",
+    "unfamiliar with therapeutic language, or simply inconvenient."
+   ],
+   "superseded_by": "s12-joel-20261013-2100"
+  },
+  {
+   "id": "s4-joel-20261012-1723",
+   "what": "Section 4, Relational pl/ork P6: back to the published meaning (the Romance Guide covers the dyads; the founding document's stance is about romance, either way). Joel, 2026-10-12 17:23 UTC: \"oops, yeah we can't replace \"dyads\" with \"romance\" that's not the same concept.\"",
+   "status": "superseded",
+   "must_contain": [
+    "It covers the dyads that will form whether your founding document acknowledges romance or pretends you’re all beyond it."
+   ],
+   "must_not_contain": [
+    "says that you’re all beyond romance, you’re still gonna have dyads"
+   ],
+   "superseded_by": "s4-joel-20261013-2100"
+  },
+  {
+   "id": "s4-joel-20261013-2100",
+   "what": "Section 4: Joel's final section from his message of 2026-10-13 21:00 UTC (\"here is the final section (human on pangram)\"), as written. It moves the pl/ork definition and the leaking paragraph up under the four-parts heading, rewrites the old P3 (\"And let's face it: ... That's more like a situationship.\"), renames \"One principle runs through all of them\" to \"Founded on Freedom\" (P1 less individualistic: \"our practices weave the community into the quilt\"), opens inner pl/ork with reparenting, rewrites the listener paragraph, merges the jealousy lines with the Romance Guide, makes medicine pl/ork and the container open with full sentences, gives his reason for less money, and puts back that the container gives the first three a stable place. Obvious typos fixed; the struck published words in his P8 taken out (his own cut, s4-p13).",
+   "status": "applied",
+   "joel": "p4-p3 is terrible ... the heading also doesn't make sense with the first para ... here is the final section (human on pangram), try to learn lessons and see what you could have figured out yourself",
+   "must_contain": [
+    "These four parts leak into one another almost immediately. Governance can end up slyly incorporating personal tensions like jealousy. Those who have positions with more control of shared resources will automatically be affected by that psychologically (power corrupts, as they say). Those who know medicine tend to have another type of god complex since they may make life or death decisions for people routinely. How folks choose to raise children can expose values the founders never discussed. And myriad other categories arise, of course.",
+    "And let's face it: food, housing, and logistics are not enough reason to bind whole lives together. That's more like a situationship. A community needs a shared sacred inner practice that gives the difficulty of our life together a deeper meaning. We help each other heal and choose love over fear. And we turn outward with a purpose, using the escuelita model to bring our healing to the world.",
+    "Nothing suppressed, everything processed. Each of us guides our own practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic, and don't freeze into doctrine.",
+    "Speaking of dynamically weaving ourselves together, though, a community does need some stable agreements that they're not tweaking and revising every time somebody has a revelation in breathwork. But these agreements need to stay open to lived experience.",
+    "Probably the most obvious type of pl/ork is reparenting. Here’s an example: you teach your inner child geography, while s/he teaches you the world is a cat!",
+    "But since we're merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn't translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you're ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.",
+    "Community can reach new heights by carefully incorporating serious plant medicines with peer guidance rather than exalting any one person as a special shaman.",
+    "This is the part about membership, land, resources, governance, children, leaving, etc.",
+    "Like my father, I’m aiming for communities with less and less money involved, since money is antagonistic to the spirit of community. If I have money, I can get whatever I want, regardless of whether anyone cares about my wellbeing. That's the hegemonic philosophy of life we are trying to overturn. I think the path there has three stages.",
+    "The first three parts are the inside of the container, and this container is what gives those a stable place to manifest.",
+    "Note, Pl/ork means play + work.",
+    "Speaking of jealousy, check out my",
+    "To give an example of striking the balance: My contemplative practice is grounded in the early"
+   ],
+   "must_not_contain": [
+    "One principle runs through all of them",
+    "In a nutshell",
+    "Also, a note on agreements",
+    "and this part is the container itself",
+    "Doing serious plant medicines carefully",
+    "Membership, land, resources, governance",
+    "Personally, I’m aiming",
+    "It covers the dyads that will form"
+   ]
+  },
+  {
+   "id": "s12-joel-20261013-2100",
+   "what": "Section 12: Joel's rewrite from his message of 2026-10-13 21:00 UTC (\"section 12 i rewrote a bit, still passes pangram fully\"), as written: \"like a Heavy Flow Maxi Pad\", \"in different ratios\", the eight-versus-eighty paragraph cut and its point folded into \"Once there are 80 members ...\", \"a difficult catch-22 for fledgling groups\", \"dangerously tilted towards elitism\", \"submit it to yourself\", and the crisis item folded into the first item with \"free resource calculator\". Trailing spaces taken out; links and the italics on \"right now\" back.",
+   "status": "applied",
+   "joel": "then section 12 i rewrote a bit, still passes pangram fully",
+   "must_contain": [
+    "So the question isn’t whether a person is “good enough” for community. Rather, whether the fit is right. Consider how much attention they currently have available for other people, how willing they are to examine their own reactions. And on the other hand, look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.",
+    "That does not make the community infinitely absorbent like a Heavy Flow Maxi Pad.",
+    "Everyone has a certain amount of both in different ratios.",
+    "And that also brings us to a difficult catch-22 for fledgling groups. The need for new members in a small community is greater, but the ability of that community to absorb disruption is less. With only eight people in the community, someone still has to grow the food and fix whatever breaks. Somebody has to balance the books and watch the kids. And the water system has to keep working. The water well doesn’t care how beautiful the new member’s heart is.",
+    "So early on, members usually need to have more available resource than acute need, and some practical skills to contribute. They usually need to be willing to learn, too. Once there are 80 members, though, there's usually a lot more free resource to draw on.",
+    "I still don’t know how to keep this language of capacity from becoming a respectable way to exclude people who are disabled, poor, less articulate, maybe simply uncomfortable or unfamiliar with therapeutic language, or for whatever reason deemed inconvenient. Pretending capacity is unlimited won’t solve that. Any real process would need concrete criteria, review by someone who wasn’t part of the decision, and a way to revisit a “not now” decision on membership. Even then, the power to veto membership applications based on capacity remains dangerously tilted towards elitism.",
+    "You have a need that far outstrips your free resource right now. This doesn’t mean you’re bad or doomed, it’s about timing; it just means you need to take a first step of finding support where you are and building up your resources. If you don't have a free resource calculator on hand, an easy way to tell is if you’re running from some crisis right now and mainly need a place to land, get treatment, housing, legal aid, etc. A founding group shouldn’t pretend it can give you those.",
+    "But before you submit your application to the community, submit it to yourself."
+   ],
+   "must_not_contain": [
+    "There is a difficult paradox to consider.",
+    "The problem is that, in a group of eight people",
+    "and the ratio varies",
+    "(A founding group shouldn’t pretend it can give you those.)"
+   ]
+  }
+ ]
+}

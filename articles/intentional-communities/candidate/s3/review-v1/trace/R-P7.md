@@ -1,0 +1,1 @@
+Both approaches fail for symmetric reasons. Secular approaches fail to address the inner life (while doing a good job at distributing power), whereas spiritual approaches do address the inner life but fail to distribute power.

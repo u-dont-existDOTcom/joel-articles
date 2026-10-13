@@ -1,0 +1,1 @@
+I don't think it should be up to the community to decide for everyone what form relationships will take. People can make different agreements with each other, in pairs, threes, fours, whatever. They can change those agreements as they wish. And they can ask for support when those agreements bring up old material.

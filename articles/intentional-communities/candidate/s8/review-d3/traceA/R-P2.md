@@ -1,0 +1,1 @@
+I mention vaccination specifically because it's something I would absolutely need people in a community to agree with me on, if I was going to raise children there. I'm not even considering what would work for everyone, only that there would need to be some common ground among the parents on children's health, enough that they can actually trust one another.

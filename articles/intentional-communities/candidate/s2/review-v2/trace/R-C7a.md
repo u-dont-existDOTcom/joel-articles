@@ -1,0 +1,1 @@
+Not everybody in the comments was trying to join. The oldest objection came up almost immediately: maybe most people don’t want the responsibility that anarchism requires, and communal property ends up “owned by everyone, cared for by nobody.”
