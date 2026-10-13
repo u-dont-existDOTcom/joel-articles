@@ -60,10 +60,11 @@ def flag_labels(out):
 class RegistryShape(unittest.TestCase):
     def test_one_entry_per_tell(self):
         ids = [t['id'] for t in TELLS]
-        # 131 and 82 from the 2026-10-11 audit; W83 (O38) and J50 from Joel's message of 2026-10-11 18:35; J51 from 23:12
-        self.assertEqual(len(ids), 134)
+        # 131 and 82 from the 2026-10-11 audit; W83 (O38) and J50 from Joel's message of 2026-10-11 18:35; J51 from 23:12;
+        # W84 (O39) from 2026-10-12 05:33; W85 (O40) and J52 from 17:23
+        self.assertEqual(len(ids), 137)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 83)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 85)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))
@@ -187,6 +188,40 @@ class RedundantPrerequisite(unittest.TestCase):
             r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f), '--owner', str(o)], capture_output=True, text=True)
         self.assertIn('verdict:', r.stdout, r.stderr[-600:])
         self.assertNotIn('O38', rule_ids(r.stdout))
+
+
+
+class TwoParentheticalsInARow(unittest.TestCase):
+    """O39 (Joel, 2026-10-12 05:33): "you can't put p22 into parentheses... that's 2 parentheticals in a row...". A sentence
+    wholly in parentheses fails right after another one, across a paragraph break or inside one paragraph."""
+    def test_the_tell_fails(self):
+        for text in ("You have a need that far outstrips your free resource right now. (This doesn't mean you're bad or doomed, "
+                     "it's about timing.)\n\n(Any humane membership process should have ways of not flat-out rejecting people.)",
+                     'She told us at the gate. (We had asked her twice.) (Nobody else had asked at all.)\n\nThat was the end of it.'):
+            with self.subTest(text=text[:40]):
+                out = lint(text)
+                self.assertIn('O39', rule_ids(out))
+                self.assertIn('verdict: FAIL', out)
+
+    def test_what_isnt_the_tell(self):
+        for text in ("You have a need that far outstrips your free resource right now. (This doesn't mean you're bad or doomed.)"
+                     "\n\nAny humane membership process should have ways of not flat-out rejecting people who fall into these.",
+                     'Mid-sentence parentheses (like these) are fine at the market, and so is one at the end. (Like this one.)'
+                     '\n\nThat was the end of it for the season.',
+                     '(A founding group shouldn\'t pretend it can give you those.) You want the feeling of village life, though.'):
+            with self.subTest(text=text[:40]):
+                self.assertNotIn('O39', rule_ids(lint(text)))
+
+    def test_his_lines_arent_flagged(self):
+        a = "(We had asked her twice about the well.)"
+        b = "(Nobody else had asked her about it at all.)"
+        with tempfile.TemporaryDirectory() as d:
+            f, o = pathlib.Path(d) / 'draft.txt', pathlib.Path(d) / 'owner.txt'
+            f.write_text(a + '\n\n' + b + '\n', encoding='utf-8')
+            o.write_text(a + '\n\n' + b + '\n', encoding='utf-8')
+            r = subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f), '--owner', str(o)], capture_output=True, text=True)
+        self.assertIn('verdict:', r.stdout, r.stderr[-600:])
+        self.assertNotIn('O39', rule_ids(r.stdout))
 
 
 if __name__ == '__main__':

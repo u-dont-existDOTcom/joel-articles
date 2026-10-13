@@ -111,6 +111,15 @@ O38 (Joel, 2026-10-11 18:35, community section 11 P15): "you can't say "required
 "when things are pre-reqs"". A prerequisite is already required, so "required as pre-reqs", "pre-reqs are required" and
 "a necessary prerequisite" fail in my text. It checks only this family. Whether two other words say the same thing is a
 reader's call (the registry's J50), not a word list.
+
+O39 (Joel, 2026-10-12 05:33, community section 12 P22): "you can't put p22 into parentheses... that's 2 parentheticals in a
+row...". A sentence wholly in parentheses right after another one fails, whether the first ends the paragraph before or
+sits just before it in the same paragraph.
+
+O40 (Joel, 2026-10-12 17:23, community section 12 P3): "capacity is an AI tell", "standard efficient therapy-speak". His
+Pangram runs: "whether the group has enough capacity to support them" read AI, and "enough free resource/capacity" read
+Human ("capacity is ok when explained as free resource"). A REVIEW flag on "capacity" in my text, unless the sentence ties
+it to "free resource"; his own P16 uses the word three times and read fully human, so it's not a ban.
 """
 import os, re, sys, argparse, math
 from statistics import mean, pstdev
@@ -125,8 +134,9 @@ def clean(t):
 
 def paragraphs(t):
     ps = [p.strip() for p in re.split(r'\n\s*\n', t) if p.strip()]
-    # drop heading-like lines: short and without sentence punctuation at the end
-    return [p for p in ps if not (len(p.split()) <= 12 and not p.rstrip().endswith(('.', '?', '!', '"', '”', ':')))]
+    # drop heading-like lines: short and without sentence punctuation at the end (a sentence in parentheses ends with
+    # ".)", and is a paragraph, not a heading: O39 needs to see it, 2026-10-12)
+    return [p for p in ps if not (len(p.split()) <= 12 and not p.rstrip().endswith(('.', '?', '!', '"', '”', ':', '.)', '?)', '!)', '.")', '.”)')))]
 
 ABBREVIATIONS = ('Mr.', 'Mrs.', 'Ms.', 'Dr.', 'St.', 'vs.', 'e.g.', 'i.e.')
 
@@ -639,9 +649,35 @@ WITH_OR_WITHOUT = re.compile(r"\bwith or without\b", re.I)
 BUT_ALSO = re.compile(r"\bbut also\b", re.I)
 # O38: a prerequisite is already required (Joel, 2026-10-11 18:35: "you can't say "required as pre-reqs" that's redundant")
 PREREQ = r"pre-?req(?:uisite)?s?"
+# O40: "capacity" as therapy-speak (Joel, 2026-10-12 17:23: "capacity is an AI tell"; "capacity is ok when explained as free resource")
+CAPACITY = re.compile(r"\bcapacit(?:y|ies)\b", re.I)
+FREE_RESOURCE = re.compile(r"\bfree[\s-]+resources?\b", re.I)
 REDUNDANT_PREREQ = re.compile(r"\b(?:required|mandatory|necessary|needed)\s+(?:as\s+)?(?:an?\s+)?" + PREREQ + r"\b"
                               r"|\b" + PREREQ + r"\s+(?:(?:that|which)\s+)?(?:(?:are|is|were|was|be|been)\s+(?:(?:all|also|still|first)\s+)?)?"
                               r"(?:required|mandatory|necessary|needed)\b", re.I)
+
+# O39: two parentheticals in a row (Joel, 2026-10-12 05:33: "you can't put p22 into parentheses... that's 2 parentheticals
+# in a row..."). A sentence counts when the whole of it is in parentheses.
+def paren_sentences(p):
+    """The spans (start, end) of the parenthetical sentences in paragraph p: a top-level group in parentheses that starts
+    where a sentence can (the paragraph's start, or after . ! ? with an optional closing quote or parenthesis) and ends the paragraph or
+    is followed by a space. The sentence splitter keeps "right now. (This doesn't mean ...)" as one sentence, so this
+    reads the paragraph's characters instead."""
+    spans, depth, start = [], 0, None
+    for i, ch in enumerate(p):
+        if ch == '(':
+            if depth == 0:
+                start = i
+            depth += 1
+        elif ch == ')' and depth:
+            depth -= 1
+            if depth == 0 and start is not None:
+                before = p[:start].rstrip()
+                after = p[i + 1:]
+                if (not before or re.search(r'[.!?…]["\'”’]?\)?$', before)) and (not after.strip() or after[:1].isspace()):
+                    spans.append((start, i + 1))
+                start = None
+    return spans
 
 # O26: emoji (gate step 9, "Joel's bans and the allowlist"; tools/humanization/EMOJI-LIST.md). An emoji is a pictograph
 # (U+1F000 to U+1FAFF), a symbol drawn as an emoji (followed by U+FE0F or a skin tone), or one of the symbols that are
@@ -799,11 +835,23 @@ def main():
     openers = []
     sent_lens = []
     casual = []   # O25: (sentence, count) of "even" and "actually" in my sentences, flagged once the draft's count is known
+    prev_paren = None   # O39: (sentence, mine) when the paragraph before ended on a sentence wholly in parentheses
+    O39 = ('O39 owner ban: two parentheticals in a row (Joel 2026-10-12 05:33: "you can\'t put p22 into parentheses... '
+           'that\'s 2 parentheticals in a row..."): take the second one out of its parentheses, or join it to the text')
     for p in ps:
         ss = sentences(p)
         # The rules match nss, the sentences with straight quotes; the flags quote ss, as written (2026-10-11).
         nss = [straight(x) for x in ss]
         mine_s = [not is_known(x) for x in ss]
+        pp = p.strip()
+        spans = paren_sentences(pp)
+        groups = [(pp[a:b], not is_known(pp[a:b])) for a, b in spans]
+        if spans and spans[0][0] == 0 and prev_paren and (prev_paren[1] or groups[0][1]):
+            flag('FAIL', O39, prev_paren[0] + ' / ' + groups[0][0])
+        for j in range(1, len(spans)):
+            if not pp[spans[j - 1][1]:spans[j][0]].strip() and (groups[j - 1][1] or groups[j][1]):
+                flag('FAIL', O39, groups[j - 1][0] + ' / ' + groups[j][0])
+        prev_paren = groups[-1] if spans and spans[-1][1] == len(pp) else None
         openers.append(' '.join(words(nss[0])[:1]).lower() if ss else '')
         imps = 0
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
@@ -959,6 +1007,8 @@ def main():
                 flag('REVIEW', 'O35 "with or without X" (Joel 2026-10-02: "with or without X is not quite guidance"): say what X is good for', s)
             if BUT_ALSO.search(n):
                 flag('REVIEW', 'O36 a "but also" pair (the gate\'s 2026-10-10 prediction review: one of the tells a fragile pass carried, with "the boring problem" and the "nicer logo" quip)', s)
+            if CAPACITY.search(unquoted) and not FREE_RESOURCE.search(n):
+                flag('REVIEW', 'O40 "capacity" (Joel 2026-10-12 17:23: "capacity is an AI tell", "standard efficient therapy-speak"; "capacity is ok when explained as free resource"): say what it is, or tie it to "free resource"', s)
             if REDUNDANT_PREREQ.search(unquoted):
                 flag('FAIL', 'O38 a word that repeats its neighbor: a prerequisite is already required (Joel 2026-10-11 18:35: "you can\'t say "required as pre-reqs" that\'s redundant, just say "when things are pre-reqs""): drop the word that repeats', s)
         if len(plists) >= 2 and any(m for m, _ in plists):

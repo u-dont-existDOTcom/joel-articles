@@ -1,0 +1,21 @@
+P1: OK
+P2: OK
+P3: OK
+P4: OK
+P5: OK
+P6: OK
+P7: OK
+P8: OK
+P9: OK
+P10: OK
+P11: OK
+P12: OK
+P13: OK
+P14: OK
+P15: "It's not going to be solved by pretending it's unlimited": the first "It" is the problem, but the second "it" could be the group's capacity or the "I don't have the capacity to…" framing, and the sentence says something different with each (best guess: capacity). "And even then, the power is dangerous": what power? Best guess: the power to say "not now" and exclude people, but no power has been named.
+P16: OK
+P17: OK
+P18: OK
+P19: OK
+P20: OK
+P21: OK

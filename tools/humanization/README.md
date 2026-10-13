@@ -17,6 +17,10 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
   `python3 tools/humanization/stance_check_prompt.py --essay PUBLISHED.md --rewrite REWRITE.md --out prompt.txt [--scope TEXT] [--topic TEXT] [--report REPORT.md]`
 - `build_sweep_prompt.py`: the fresh-context tell-sweep prompt, built from `docs/HUMANIZATION-TELL-INVENTORY.md`.
   `python3 tools/humanization/build_sweep_prompt.py TARGET.md [--previous PREVIOUS.md] [--next NEXT.md] > prompt.txt`
+- `preservation_keys.py`: the words each preservation unit rests on, checked per paragraph before any trace; a key file whose unit leaves out the section's own term fails too (2026-10-12).
+  `python3 tools/humanization/preservation_keys.py KEYS.json DRAFT.md`
+- `meaning_sweep.py`: a fresh reader's sweep of rewritten sections against the published ones for the breaks Joel found in community section 12, with his own sentences marked so the reader leaves them alone (2026-10-12).
+  `python3 tools/humanization/meaning_sweep.py --article ART.md --source PUB.md --section N --input IN.md --report REPORT.md --out PROMPT.txt --ledger OWNER-EDITS.json [--owner-text FILE]`
 - `pangram_gate.py`: the Pangram web-app batch and its History reader, written only for texts whose gate record passes (march with a break, cold read, grounding, stance check, linter; E167, 2026-10-12). Use it for every web-app check.
   `python3 tools/humanization/pangram_gate.py DRAFTS.json GATE.json OUT.js --name NAME KEY [KEY ...]`
 - `pangram_batch_gen.py`: the older action-list batch of up to three Pangram checks (no gate check; use `pangram_gate.py`), each text's SHA-256 checked before the click.

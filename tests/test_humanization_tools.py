@@ -17,6 +17,8 @@ sys.path.insert(0, str(TOOLS))
 import check_owner_edits  # noqa: E402
 import stance_check_prompt  # noqa: E402
 import abstract_agents_prompt  # noqa: E402
+import preservation_keys  # noqa: E402
+import meaning_sweep  # noqa: E402
 
 JOEL_P9 = ("I dream of a way to work in depth that isn’t run by a guru. A place where people who've done the "
            "healing first can join without pretending they're fully finished.")
@@ -508,6 +510,104 @@ class RenderInContextHeadings(unittest.TestCase):
                                      {'headings': ['## Second Heading'], 'rows': [self.row('P7', 'Seventh'), self.row('P8', 'Eighth')]}])
         self.assertEqual(rc, 0, out)
         self.assertTrue(made)
+
+
+class PreservationKeys(unittest.TestCase):
+    """Joel, 2026-10-12 05:33, on community section 12: "then you broke p7 by reducing it to "but it's not infinite" ?
+    what?" Two or three traces had called each break EQUIVALENT. The key words of each preservation unit are now checked
+    mechanically, per paragraph, before any trace."""
+    UNITS = {'section': 'test', 'units': [
+        {'id': 'U8', 'what': 'not infinitely absorbent', 'keys': [['the community'], ['infinitely absorbent']]},
+        {'id': 'U7', 'what': 'good enough for community', 'keys': [['good enough'], ['for community']]},
+        {'id': 'U26', 'what': 'available resource, early members', 'keys': [['available resource', 'free resource'], ['acute need']]},
+        {'id': 'U40', 'what': 'a claim across two paragraphs', 'keys': [['first half'], ['second half']], 'span': 2}]}
+    GOOD = ('So the question isn’t whether a person is “good enough” for community.\n\n'
+            'That does not make the community *infinitely absorbent*.\n\n'
+            'Members need more [available resource](https://www.rc.org/) than acute need.\n\n'
+            'The first half is here.\n\nThe second half is here.')
+
+    def test_his_breaks_are_caught(self):
+        self.assertEqual(preservation_keys.check(self.UNITS, self.GOOD), [])
+        bad = self.GOOD.replace('That does not make the community *infinitely absorbent*.', 'But it’s not infinite.')
+        bad = bad.replace('“good enough” for community.', '“good enough.”')
+        missing = {m['id']: m['missing'] for m in preservation_keys.check(self.UNITS, bad)}
+        self.assertEqual(sorted(missing), ['U7', 'U8'])
+        self.assertEqual(missing['U7'], [['for community']])
+
+    def test_a_key_in_another_paragraph_doesnt_count(self):
+        # A whole-draft match passed U26 on community section 12: "free resource" is all through the section.
+        text = self.GOOD.replace('more [available resource](https://www.rc.org/) than acute need',
+                                 'more resource than acute need') + '\n\nGive what free resource you have.'
+        self.assertEqual([m['id'] for m in preservation_keys.check(self.UNITS, text)], ['U26'])
+
+    def test_a_spanning_unit_and_the_command(self):
+        split = self.GOOD.replace('The first half is here.\n\nThe second half is here.',
+                                  'The first half is here.\n\nSomething else.\n\nThe second half is here.')
+        self.assertEqual([m['id'] for m in preservation_keys.check(self.UNITS, split)], ['U40'])
+        with tempfile.TemporaryDirectory() as d:
+            k, f = pathlib.Path(d) / 'keys.json', pathlib.Path(d) / 'draft.md'
+            k.write_text(json.dumps(self.UNITS), encoding='utf-8')
+            f.write_text(self.GOOD, encoding='utf-8')
+            ok = subprocess.run([sys.executable, str(TOOLS / 'preservation_keys.py'), str(k), str(f)], capture_output=True, text=True)
+            f.write_text(split, encoding='utf-8')
+            bad = subprocess.run([sys.executable, str(TOOLS / 'preservation_keys.py'), str(k), str(f)], capture_output=True, text=True)
+        self.assertEqual((ok.returncode, bad.returncode), (0, 1), ok.stderr + bad.stderr)
+        self.assertIn('verdict: PASS', ok.stdout)
+        self.assertIn('MISSING U40', bad.stdout)
+
+
+class PreservationKeysSectionTerms(unittest.TestCase):
+    """Trace r6, 2026-10-12: "tolerate the disruption" for the published "absorb disruption", in a section called "The Math
+    of Absorption"; the unit had never listed "absorb", so the key-word check passed it."""
+    def test_a_unit_without_its_section_term_fails_the_key_file(self):
+        doc = {'section_terms': ['absorb'], 'units': [
+            {'id': 'U23', 'what': 'small communities can absorb disruption least', 'keys': [['paradox'], ['disruption']]}]}
+        self.assertEqual([g['id'] for g in preservation_keys.incomplete_units(doc)], ['U23'])
+        doc['units'][0]['keys'].append(['absorb'])
+        self.assertEqual(preservation_keys.incomplete_units(doc), [])
+
+
+class MeaningSweepAuthorMarks(unittest.TestCase):
+    """Joel, 2026-10-12 17:23: "rather than just ignoring rules that fail my prose, we should fix the rules so they don't fail
+    my prose". His sentences are marked so the sweep's reader leaves them alone; mine stay open to it."""
+    HIS = 'Make sure kids understand what they say will be taken seriously if they are known to be honest.'
+
+    def test_his_sentences_are_marked_and_mine_are_not(self):
+        owners = [meaning_sweep.norm(self.HIS), meaning_sweep.norm('No, taking away the idea of a boss does not make everyone less passive,')]
+        text = ('The community has to share enough principles about raising kids. ' + self.HIS +
+                ' And that’s just two people.\n\nNo, taking away the idea of a boss does not make everyone less passive, selfish, or helpless.')
+        out = meaning_sweep.mark_author(text, owners)
+        self.assertIn(meaning_sweep.MARK_OPEN + self.HIS + meaning_sweep.MARK_CLOSE, out)
+        self.assertTrue(out.startswith('The community has to share'))
+        self.assertIn(meaning_sweep.MARK_OPEN + 'No, taking away the idea', out)
+
+    def test_the_prompt_and_input(self):
+        with tempfile.TemporaryDirectory() as d:
+            d = pathlib.Path(d)
+            (d / 'pub.md').write_text('# One\n\nKids should know adults will listen seriously.\n', encoding='utf-8')
+            (d / 'art.md').write_text('# One\n\n<!-- a note -->\n' + self.HIS + '\n', encoding='utf-8')
+            (d / 'his.txt').write_text(self.HIS + '\n', encoding='utf-8')
+            meaning_sweep.main(['--article', str(d / 'art.md'), '--source', str(d / 'pub.md'), '--section', '1', '--input', str(d / 'in.md'),
+                                '--report', str(d / 'r.md'), '--out', str(d / 'p.txt'), '--owner-text', str(d / 'his.txt')])
+            inp = (d / 'in.md').read_text(encoding='utf-8')
+            prompt = (d / 'p.txt').read_text(encoding='utf-8')
+        self.assertIn(meaning_sweep.MARK_OPEN + self.HIS + meaning_sweep.MARK_CLOSE, inp)
+        self.assertNotIn('a note', inp)
+        self.assertIn('Report nothing inside those marks', prompt)
+        self.assertIn('An "it" that is clear in its place is fine', prompt)
+
+
+class LinterCapacity(unittest.TestCase):
+    """O40 (Joel, 2026-10-12 17:23): "capacity is an AI tell"; "capacity is ok when explained as free resource"."""
+    def lint(self, text):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / 'draft.txt'
+            f.write_text(text + '\n', encoding='utf-8')
+            return subprocess.run([sys.executable, str(TOOLS / 'tells_lint.py'), str(f)], capture_output=True, text=True).stdout
+
+    def test_capacity_alone_is_flagged_and_free_resource_capacity_is_not(self):
+        self.assertIn('O40', self.lint('Look at whether the group has enough capacity to support them without becoming a full-time caretaker operation.'))
+        self.assertNotIn('O40', self.lint('Look at whether the group has enough free resource/capacity to support them without becoming a full-time caretaker operation.'))
 
 
 if __name__ == '__main__':

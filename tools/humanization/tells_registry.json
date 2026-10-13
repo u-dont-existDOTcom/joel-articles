@@ -1,2142 +1,2184 @@
 {
-  "what": "Every tell named in AGENTS.md, SKILL.md, docs/HUMANIZATION-GATE.md, tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md and tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md, from the coverage audit of 2026-10-11 (tools/humanization/TELLS-COVERAGE-20261011.md). A mechanical tell names the rule in tells_lint.py that checks it and an example paragraph that triggers that rule; a judgment tell says why it needs a reader. Each quote is in its file once whitespace is collapsed and curly quotes are made straight. tests/test_tells_registry.py checks every quote and runs every example. A tell added to one of those files gets an entry here in the same change.",
-  "fields": {
-    "id": "W for a tell a pattern or a count can find, J for one that needs a reader (the audit's numbering)",
-    "tell": "the tell, in the documents' words",
-    "kind": "mechanical or judgment",
-    "sources": "where the documents name it: the file, and a quote from it",
-    "rule": "mechanical: the tells_lint.py rule that flags it",
-    "example": "mechanical: a short paragraph that should get that flag",
-    "source_text": "W77 only: the source section the example is compared with (D9 needs --source)",
-    "requires": "a package the rule needs; the test skips the example without it",
-    "reason": "judgment: why no pattern can decide it"
-  },
-  "tells": [
-    {
-      "id": "W07",
-      "tell": "\"Even\" (\"They're words I add to sound casual, and they don't help\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "\"Even\" and \"actually\" go with the failing paragraphs, but they don't cause it."
-        },
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "They're words I add to sound casual, and they don't help."
-        }
-      ],
-      "rule": "O25",
-      "example": "We painted the barn red that spring, and we even fixed the leak over the hayloft. The cows did not seem to notice any of it."
-    },
-    {
-      "id": "W08",
-      "tell": "\"actually\" (same finding)",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "\"Even\" and \"actually\" go with the failing paragraphs, but they don't cause it."
-        },
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "They're words I add to sound casual, and they don't help."
-        }
-      ],
-      "rule": "O25",
-      "example": "The barn was actually warmer than the house during the first winter on the land. The cows gave off more heat than the old wood stove did."
-    },
-    {
-      "id": "W10",
-      "tell": "\"lol\" (\"\"lol\" is wry, so it's out\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"lol\" is wry, so it's out."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"lol is different from hehe, it's more wry.\""
-        },
-        {
-          "file": "tools/humanization/EMOJI-LIST.md",
-          "quote": "\"(hehe)\" is fine; \"lol\" isn't."
-        }
-      ],
-      "rule": "O37",
-      "example": "The goat ate the treasurer's notes again lol, so the budget vote moved to the next meeting. The treasurer now keeps a second copy of every page in the farmhouse."
-    },
-    {
-      "id": "W12",
-      "tell": "\"Never a pointer (👇 👉 👆 👈 ☝️)\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Never a pointer (👇 👉 👆 👈 ☝️) or 😉: \"those look super ai, only after seen them from ai slop, don't ever use those.\""
-        },
-        {
-          "file": "tools/humanization/EMOJI-LIST.md",
-          "quote": "\"i don't want those pointer emojis those look super ai, only after seen them from ai slop, don't ever use those.\""
-        }
-      ],
-      "rule": "O26",
-      "example": "The sign-up sheet for the harvest crew is on the board by the kitchen door 👉 and it closes at the end of the month. Last year the crew ran short of hands during the apple picking."
-    },
-    {
-      "id": "W13",
-      "tell": "\"😉\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Never a pointer (👇 👉 👆 👈 ☝️) or 😉: \"those look super ai, only after seen them from ai slop, don't ever use those.\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Pointers, 😉 and gratuitous emojis are banned"
-        },
-        {
-          "file": "tools/humanization/EMOJI-LIST.md",
-          "quote": "\"that one also looks like mainly used by AI (or by scammers)."
-        }
-      ],
-      "rule": "O26",
-      "example": "The treasurer says the accounts add up this year 😉 and nobody has looked at them since spring. The audit is set for the first week of the harvest."
-    },
-    {
-      "id": "W14",
-      "tell": "an emoji off the allowlist (\"everything else counts as banned until Joel says yes\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "everything else counts as banned until Joel says yes."
-        },
-        {
-          "file": "tools/humanization/EMOJI-LIST.md",
-          "quote": "Anything not on the allowlist counts as banned until Joel says yes to it."
-        }
-      ],
-      "rule": "O26",
-      "example": "The new solar panels went up on the barn roof last week 🚀 and the lights stayed on all night. The council still wants a second battery before the winter storms."
-    },
-    {
-      "id": "W20",
-      "tell": "\"double spaces\" (\"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Rough edges he leaves: typos, double spaces, missing periods."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "These come from typing. They aren't something for me to imitate."
-        }
-      ],
-      "rule": "O27",
-      "example": "The council met in the barn after the harvest.  The treasurer read the numbers aloud to everyone who came that night."
-    },
-    {
-      "id": "W21",
-      "tell": "\"missing periods\" (same line)",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Rough edges he leaves: typos, double spaces, missing periods."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "These come from typing. They aren't something for me to imitate."
-        }
-      ],
-      "rule": "O27",
-      "example": "The council met in the barn after the harvest. The treasurer read the numbers aloud to everyone who came that night"
-    },
-    {
-      "id": "W23",
-      "tell": "I care about...",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision."
-        }
-      ],
-      "rule": "O22",
-      "example": "I care about how the group splits the money when a member leaves the farm. The bylaws from the first year say nothing about it at all."
-    },
-    {
-      "id": "W24",
-      "tell": "I'd want to see...",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision."
-        }
-      ],
-      "rule": "O22",
-      "example": "I'd want to see the budget before anyone signs the lease on the new barn. The old lease had a clause about repairs that nobody read until the roof leaked."
-    },
-    {
-      "id": "W25",
-      "tell": "that tells me...",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision."
-        }
-      ],
-      "rule": "O22",
-      "example": "The well ran dry twice last summer. That tells me the group needs a second water source before the next drought comes."
-    },
-    {
-      "id": "W27",
-      "tell": "That’s where X matters to me (curly apostrophe, the form AGENTS writes first)",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "Treat significance-staging constructions such as `That's where X matters to me`"
-        },
-        {
-          "file": "AGENTS.md",
-          "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
-        }
-      ],
-      "rule": "O22",
-      "example": "That’s where the council matters to me, since it decides who gets to farm the lower field. Everything else on the land follows from that one choice."
-    },
-    {
-      "id": "W28",
-      "tell": "This is one reason I want X",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "`This is one reason I want X`"
-        },
-        {
-          "file": "AGENTS.md",
-          "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
-        }
-      ],
-      "rule": "O22",
-      "example": "This is one reason I want the council to post its minutes every month on the board. The treasurer has already offered to type them up after each meeting."
-    },
-    {
-      "id": "W29",
-      "tell": "The version I want is X",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "`The version I want is X`"
-        },
-        {
-          "file": "AGENTS.md",
-          "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
-        }
-      ],
-      "rule": "O22",
-      "example": "The version I want is a council that meets in the open and posts its minutes on the board. The current one still meets in the treasurer's kitchen behind a closed door."
-    },
-    {
-      "id": "W30",
-      "tell": "What matters to me is X",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "`What matters to me is X`"
-        },
-        {
-          "file": "AGENTS.md",
-          "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
-        }
-      ],
-      "rule": "O22",
-      "example": "What matters to me is a council that posts its minutes every month on the board. The current one keeps its notes in a drawer in the treasurer's kitchen."
-    },
-    {
-      "id": "W31",
-      "tell": "research notes as narration: I thought X, I had heard Y, I checked it, I wasn't sure what the term was, the check I did here showed...; \"a diary of I thought → I checked → I learned\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "Do not automatically convert research notes such as `I thought X`, `I had heard Y`, `I checked it`, `I wasn't sure what the term was`, or `the check I did here showed...` into article narration."
-        },
-        {
-          "file": "AGENTS.md",
-          "quote": "not as a diary of `I thought → I checked → I learned`"
-        }
-      ],
-      "rule": "O23",
-      "example": "I had heard the mill closed in 1990. I checked it against the county records, and the real closing date was 1987, three years earlier."
-    },
-    {
-      "id": "W33",
-      "tell": "\"I see the need to\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "and stock lines like \"I see the need to\", \"It's also important to\", \"One thing to notice about\"."
-        }
-      ],
-      "rule": "O24",
-      "example": "I see the need to write the guest rules down before the first big dispute comes up. Last winter two long-stay guests argued for a month over the laundry."
-    },
-    {
-      "id": "W34",
-      "tell": "\"It's also important to\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "and stock lines like \"I see the need to\", \"It's also important to\", \"One thing to notice about\"."
-        }
-      ],
-      "rule": "O24",
-      "example": "It's also important to keep every receipt from the hardware store in one folder. The treasurer lost two of them last spring and had to pay out of pocket."
-    },
-    {
-      "id": "W35",
-      "tell": "\"One thing to notice about\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "and stock lines like \"I see the need to\", \"It's also important to\", \"One thing to notice about\"."
-        }
-      ],
-      "rule": "O24",
-      "example": "One thing to notice about the old ledger is how often the same three names come up. Those three families paid for most of the repairs in the first decade."
-    },
-    {
-      "id": "W36",
-      "tell": "\"sure. But\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "speech markers laid over AI shapes: questions the text answers itself, \"sure. But\", and stock lines like"
-        }
-      ],
-      "rule": "O2",
-      "example": "The new pump works, sure. But it costs twice as much as the old one did to run each month."
-    },
-    {
-      "id": "W38",
-      "tell": "\"Nope.\", \"Aww, buddy.\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "The stock casual moves a model reaches for when told to sound casual (\"Nope.\", \"Aww, buddy.\", a goofy exclamation, a punchy closer) came back 100% AI, high, in eight versions"
-        }
-      ],
-      "rule": "O33",
-      "example": "The puppy begged for a second dinner at the table. Nope. Aww, buddy. The vet wants him to lose two pounds before his checkup in the spring."
-    },
-    {
-      "id": "W39",
-      "tell": "\"'i wouldn't call that X'\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"Ai stuff overuses 'i wouldn't call that X' and the 3 part conditional syntax."
-        }
-      ],
-      "rule": "O34",
-      "example": "The shed has a roof and three walls. I wouldn't call that a barn. The goats sleep in it every night when the wind picks up off the hill."
-    },
-    {
-      "id": "W40",
-      "tell": "\"with or without X is not quite guidance\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"with or without X\" isn't guidance (Joel: \"with or without X is not quite guidance\"). Say what X is good for."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "(with or without X is not quite guidance)"
-        }
-      ],
-      "rule": "O35",
-      "example": "The breathing exercise works with or without music in the background. Ten minutes in the morning is plenty for anyone starting out."
-    },
-    {
-      "id": "W41",
-      "tell": "a \"but also\" pair",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "P34m passed with \"the boring problem\", the \"nicer logo\" quip, a \"but also\" pair and a list; without the one word \"connect,\" it read 100% AI (191g)."
-        }
-      ],
-      "rule": "O36",
-      "example": "The garden feeds the whole house, but also teaches the younger members some patience. The tomatoes alone take most of the summer to come in."
-    },
-    {
-      "id": "W55",
-      "tell": "\"Not X. It's Y.\" and its cousins",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"Not X. It's Y.\" and its cousins."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"The point is not perfect measurement. The point is pattern recognition.\""
-        },
-        {
-          "file": "tools/humanization/reviewer/owner_bans.txt",
-          "quote": "and the \"That's not X. It's Y.\" construction."
-        }
-      ],
-      "rule": "B11",
-      "example": "It's not a hobby. It's a job that pays the rent on the farmhouse every month."
-    },
-    {
-      "id": "W58",
-      "tell": "\"It's one thing to X. It's another to Y\" (Emulate's \"one thing ... another thing\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Emulate's \"one thing ... another thing\" \"is not quite showing that the truth was Y not X\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "A contrast has to say which side is true. \"It's one thing to X. It's another to Y\" sets two things side by side"
-        }
-      ],
-      "rule": "O28",
-      "example": "It's one thing to talk about a universal consciousness. It's another to struggle to escape one man's opinions about everything on the farm."
-    },
-    {
-      "id": "W62",
-      "tell": "\"question runs\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a few shared AI micro-patterns (question runs, triads, \"isn't X, it's Y\")"
-        }
-      ],
-      "rule": "O29",
-      "example": "Who pays for the new roof? Who fixes the well when it runs dry? Who keeps the books after the treasurer moves back to the city?"
-    },
-    {
-      "id": "W63",
-      "tell": "the parallel \"who is … who is … or who is\" list",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "The parallel \"who is … who is … or who is\" list became a looser one with a hedge (\"maybe even\")"
-        }
-      ],
-      "rule": "E125",
-      "example": "The facilitator on the retreat circuit may be someone who is a sexual predator, who is financially dependent on people coming back, or who is simply wrong. Participants usually find out only after the ceremony is over and everyone has gone home."
-    },
-    {
-      "id": "W80",
-      "tell": "a phrase repeated in one paragraph (\"gave P22 its fourth \"as adults\"\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "My \"a commitment they make as adults\", which he OK'd, gave P22 its fourth \"as adults\"."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"yes fix p222 take out second adults that's obvious\""
-        }
-      ],
-      "rule": "O30",
-      "example": "The members sign the land trust as adults. They pay their share of the dues as adults. Later their children can join the trust as adults too, once they decide to stay on the land."
-    },
-    {
-      "id": "W81",
-      "tell": "two parallel \"When…, don't…\" lines",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "two parallel \"When…, don't…\" lines"
-        }
-      ],
-      "rule": "O31",
-      "example": "When the toddler cries at night, don't rush in right away. When she calms down, don't lecture her about it at breakfast. On most nights she falls back asleep within a few minutes on her own."
-    },
-    {
-      "id": "W82",
-      "tell": "an \"is a kind of love, … but it's not the whole thing\" line",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "an \"is a kind of love, … but it's not the whole thing\" line"
-        }
-      ],
-      "rule": "O32",
-      "example": "Keeping the promise is a kind of love, but it's not the whole thing. The rest happens in small moments that nobody else sees during the day."
-    },
-    {
-      "id": "W01",
-      "tell": "\"boring\" (\"Treat boring, quietly, and ordinary as AI-frequency-risk words\"; \"the boring problem\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "Treat `boring`, `quietly`, and `ordinary` as **AI-frequency-risk words in Joel-byline prose, not absolute bans**."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Joel: \"don't use the word \"boring\" especially \"the boring problem\" ... ai is always saying boring, ordinary, etc ... don't abuse that ai tell\""
-        }
-      ],
-      "rule": "O12",
-      "example": "The council spent the first hour on the boring problem of who keeps the tool shed key. The rest of the night went to the new well and the cost of the pump."
-    },
-    {
-      "id": "W02",
-      "tell": "\"quietly\" (\"using quietly all the time like that is a huge AI tell\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "Treat `boring`, `quietly`, and `ordinary` as **AI-frequency-risk words in Joel-byline prose, not absolute bans**."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"using quietly all the time like that is a huge AI tell. you don't have any other way to say that?\""
-        }
-      ],
-      "rule": "O12",
-      "example": "Cooperation with the next valley shouldn't quietly turn into a merger of the two land trusts. Each group keeps its own council and its own books for now."
-    },
-    {
-      "id": "W03",
-      "tell": "\"ordinary\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "Treat `boring`, `quietly`, and `ordinary` as **AI-frequency-risk words in Joel-byline prose, not absolute bans**."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"Ordinary\", \"regular\", \"boring\", \"everyday\" are a caution, not a ban"
-        }
-      ],
-      "rule": "O12",
-      "example": "The founders wanted the farm to feel like an ordinary village with a shared kitchen. By six the long table usually fills up before the soup is ready."
-    },
-    {
-      "id": "W04",
-      "tell": "\"regular\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "on a regular Tuesday is the worst. Ai always saying ordinary boring regular now it's regular tuesday heheheh combinding all the ai tells"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"ok i mean boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI.\""
-        }
-      ],
-      "rule": "O12",
-      "example": "The council keeps a regular slot for complaints at the end of each meeting in the barn. Members write their complaint on a card and drop it in the tin by the door."
-    },
-    {
-      "id": "W05",
-      "tell": "\"everyday\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"Ordinary\", \"regular\", \"boring\", \"everyday\" are a caution, not a ban"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"ordinary\", \"regular\", \"boring\", \"everyday\", \"mundane\", \"quietly\": overused by AI, not a sure tell"
-        }
-      ],
-      "rule": "O12",
-      "example": "The workshop covers everyday repairs like a dripping tap or a stuck window latch. A retired plumber from the village runs it on the first weekend of the month."
-    },
-    {
-      "id": "W06",
-      "tell": "\"mundane\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"ordinary\", \"regular\", \"boring\", \"everyday\", \"mundane\", \"quietly\": overused by AI, not a sure tell"
-        }
-      ],
-      "rule": "O12",
-      "example": "The council's work is mostly mundane paperwork about seed orders and gate repairs. The big fights come up maybe twice a year, usually over money."
-    },
-    {
-      "id": "W09",
-      "tell": "\"never \"the kid\"\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "E1 naming (never \"the kid\")"
-        }
-      ],
-      "rule": "E1",
-      "example": "The kid next door feeds our chickens whenever the family goes away for a few days. Her mother pays her in eggs, which she sells at the market."
-    },
-    {
-      "id": "W11",
-      "tell": "\"Chat acronyms (IMO, TBH and the like)\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Chat acronyms (IMO, TBH and the like) where the article doesn't already use them, unless the author asked for an informal internet style."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"for articles where the acronyms are used, you'd use those, but for other articles where they aren't used, you wouldn't put them in unless the user asks for informal internet slang style\""
-        }
-      ],
-      "rule": "O37",
-      "example": "IMO the council should post its minutes on the board by the kitchen door. The treasurer agreed to type them up after each meeting this year."
-    },
-    {
-      "id": "W15",
-      "tell": "on Tuesday, last Tuesday, Tuesday afternoon; \"on a regular Tuesday is the worst\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "do not add phrases such as `on Tuesday`, `last Tuesday`, `Tuesday afternoon`, or similar arbitrary calendar specificity"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "AI is always saying Tuesday, on Tuesday, or some specific day like this. on a regular Tuesday is the worst."
-        }
-      ],
-      "rule": "O11",
-      "example": "The kitchen feeds about thirty people at the long table on Tuesday. The rest of the week each house cooks for itself, mostly from the garden."
-    },
-    {
-      "id": "W16",
-      "tell": "\"day-of-week or clock-time details\"; \"a made-up number or clock time\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Never invent casual day-of-week or clock-time details merely to make prose sound human or concrete."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a made-up number or clock time: \"five percent\", \"by lunch\", \"a morning of\""
-        }
-      ],
-      "rule": "O13",
-      "example": "The council meets at 7 pm in the barn to go over the water rota for the summer. The treasurer brings a lamp because the wiring out there never got finished."
-    },
-    {
-      "id": "W17",
-      "tell": "\"five percent is enough\"; \"how much is 5%?\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "like AI wants to put concrete numbers on stuff all the time, then people are wondering \"how much is 5%?\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"it's ok to say 5% is enough altho i feel it's a bit ai"
-        }
-      ],
-      "rule": "O13",
-      "example": "Setting aside five percent of the harvest is enough to cover the seed for next spring. The rest goes to the shared pantry and the market stall in town."
-    },
-    {
-      "id": "W18",
-      "tell": "\"unusual spellings\" (\"priveleged\"); \"Never add errors\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them\""
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"don't preserve my obvious typos. no need to recheck pangram to fix a typo.\""
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "Never add errors, fake specificity, memories, catchphrases, unusual punctuation, slang, or corpus tics to improve similarity."
-        }
-      ],
-      "rule": "O15",
-      "example": "The council worried that the land deal made the members look priveleged to the people in town. The treasurer suggested opening the orchard to the school every fall.",
-      "requires": "pyspellchecker"
-    },
-    {
-      "id": "W19",
-      "tell": "\"an unusual spelling or hyphenation\" (\"re-incarnation\", \"pre-requisite\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "an unusual spelling or hyphenation, Joel's lines included"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "(\"contra-indications\", \"pre-requisite\", \"re-incarnation\", \"priveleged\" → standard spellings;"
-        }
-      ],
-      "rule": "O15",
-      "example": "The healer told him he was the re-incarnation of a famous king, and he believed it for about a week. His brother laughed about it for much longer than that.",
-      "requires": "pyspellchecker"
-    },
-    {
-      "id": "W22",
-      "tell": "I want..., I don't want...; \"\"I want\" or \"I don't want\" opening a stance\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"'I want' is generally banned as a way to introduce my opinion, as it sounds very AI."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"i told you in this article you can use i want sometimes when it makes real sense because i actually do want to find a commune to live in, but there's just too much of this.\""
-        }
-      ],
-      "rule": "O20",
-      "example": "I want a council that meets in the open and keeps minutes anyone can read. The current one meets in the treasurer's kitchen and writes nothing down."
-    },
-    {
-      "id": "W26",
-      "tell": "That's where X matters to me (straight apostrophe)",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "`That's where X matters to me` / `That's where X matters to me`"
-        },
-        {
-          "file": "AGENTS.md",
-          "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
-        }
-      ],
-      "rule": "O22",
-      "example": "That's where the council matters to me, since it decides who gets to farm the lower field. Everything else on the land follows from that one choice."
-    },
-    {
-      "id": "W32",
-      "tell": "\"my first guess\", \"I'd probably want to\", \"I'd be tempted to\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "The linter flags \"my first guess\", \"I'd probably want to\", \"I'd be tempted to\" (E138)."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"this part is contradictory: \"I'd probably want to fix it by saying sweeter and sweeter things, which won't work,"
-        }
-      ],
-      "rule": "E138",
-      "example": "My first guess was that the pump had failed again. The real cause turned out to be a clogged filter near the bottom of the tank."
-    },
-    {
-      "id": "W37",
-      "tell": "\"\"Fine,\" \"Good,\" \"Great,\" as a clause of their own\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"Fine,\" \"Good,\" \"Great,\" as a clause of their own (\"Fine, they're nice boots.\"). Joel: \"super AI\", and he had said it before."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"i told you to stop saying 'Fine, Good, Great' as clauses before\""
-        }
-      ],
-      "rule": "O2",
-      "example": "She bought the boots at the market in town. Fine, they're nice boots, and they kept her feet dry all through the wet season."
-    },
-    {
-      "id": "W42",
-      "tell": "\"X with a nicer logo\", \"X with extra steps\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"super commune with a nicer logo\" is an AI-tell quip."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a stock comparison quip, \"X with a nicer logo\", \"X with extra steps\""
-        }
-      ],
-      "rule": "O21",
-      "example": "We don't need one big federation with a nicer logo to share tools between the farms. A shared shed and a sign-out sheet already do that job."
-    },
-    {
-      "id": "W43",
-      "tell": "smuggling talk: \"not smuggled into one sentence here\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Smuggling talk: \"not smuggled into one sentence here\" and its family"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"ai is always saying something like 'not smuggle in' or something about smuggling in.\""
-        }
-      ],
-      "rule": "O8",
-      "example": "My reasons are in those articles, not smuggled into one sentence here. Each one takes a few pages to lay out with the evidence behind it."
-    },
-    {
-      "id": "W44",
-      "tell": "\"individual coach phrases\" (\"You might notice…\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "individual coach phrases;"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "three coach phrases (\"You might notice…\", \"Or you might notice…\", \"You can figure that out later\")"
-        }
-      ],
-      "rule": "E41",
-      "example": "The cellar stays cool all year round. You might notice the bread goes stale faster in the summer kitchen. The baker moved the racks down there in June for that reason."
-    },
-    {
-      "id": "W45",
-      "tell": "an \"if you do, you might\" consequence",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "a direct caution where I had an \"if you do, you might\" consequence (E100)"
-        },
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "a consequence: \"If you do, you might take the accusation as proof your love really is conditional, when it could just be another part talking.\""
-        }
-      ],
-      "rule": "E41",
-      "example": "Some people answer every doubt with a long defense of their love. If you do, you might take the accusation as proof that the love was conditional all along."
-    },
-    {
-      "id": "W46",
-      "tell": "an action \"it\" (\"did it\", \"do it\", \"tried it\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "an action \"it\" (\"did it\", \"do it\", \"tried it\") in a paragraph's first two sentences"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"If you did it\" became \"If you did the protector action(s)\"."
-        }
-      ],
-      "rule": "R1",
-      "example": "The neighbors argued about the fence line for a month. If they did it again, the council would step in and walk the line with a tape measure."
-    },
-    {
-      "id": "W47",
-      "tell": "\"Key here is that…\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"'Key here' can't be how you open a section. that's referring to something. Key where? what? how did that slip in there?\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"Key here is that most of the writing on communities hasn't caught up with psychedelics.\""
-        }
-      ],
-      "rule": "O10",
-      "example": "Key here is that most of the writing on communities hasn't caught up with psychedelics. The older books barely mention them, and the newer ones mostly repeat the same warnings."
-    },
-    {
-      "id": "W48",
-      "tell": "\"\"doesn't get to decide\" and its family … when the subject isn't a person\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"doesn't get to decide\" and its family (\"doesn't get to\", \"gets to decide\", \"gets a vote\") when the subject isn't a person"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"'doesn't get to decide' sounds SO ai … an optimal efficiency quippy formulation which humans just rarely use for non-humans.\""
-        }
-      ],
-      "rule": "O1",
-      "example": "The weather doesn't get to decide when we plant the beans this year. The seed order goes in at the end of the winter, whatever the sky is doing."
-    },
-    {
-      "id": "W49",
-      "tell": "an x-not-y heading (\"The Medicine Part, Without Pretending It Isn't There\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"oh yeah that heading looks way ai for sure. always trying to do an x not y statement, isn't that on your tells list? humans don't do x not y as much.\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"The Medicine Part, Without Pretending It Isn't There\" → \"The Medicine Part - Yes, I'm Naming It\"."
-        }
-      ],
-      "rule": "H1",
-      "example": "## The Medicine Part, Without Pretending It Isn't There\n\nWriting about communities has mostly not caught up with psychedelics yet. The older books barely mention them, and the newer ones repeat the same warnings."
-    },
-    {
-      "id": "W50",
-      "tell": "\"a negation in a heading\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a negation in a heading (H1)"
-        }
-      ],
-      "rule": "H1",
-      "example": "## Why the Council Doesn't Vote on Gardens\n\nEach house plans its own garden plot in the spring and tells the council what it needs in seed. The council only steps in when two houses want the same corner of the field."
-    },
-    {
-      "id": "W51",
-      "tell": "a pointer word (\"This\", \"It\", \"The other\") opening the first paragraph under a heading",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a pointer word (\"This\", \"It\", \"The other\") opening the first paragraph under a heading (O10, 2026-10-06)"
-        }
-      ],
-      "rule": "O10",
-      "example": "## The Water Rota\n\nThis rota lists who carries water from the well on each day of the month. The list hangs on a nail by the kitchen door next to the calendar."
-    },
-    {
-      "id": "W52",
-      "tell": "\"A \"not Y\" tail on a finished claim\"; Emulate's \"not the other way around\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "A \"not Y\" tail on a finished claim (same message): \"And it always wants to add a 'not Y' part.\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Emulate's \"not the other way around\" went"
-        }
-      ],
-      "rule": "O9",
-      "example": "The guide gives new members practical steps for their first month on the land, not just theory. The steps came from the founders' own mistakes in the early years."
-    },
-    {
-      "id": "W53",
-      "tell": "\"Not x, but still y.\" (\"It isn't proof, but it still counts\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"there are other X Y rules, like \"Not x, but still y.\"\" (\"It isn't proof, but it still counts\")"
-        },
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "is in 10 failing paragraphs and 2 passing. That's too few to rest on. Joel named the shape himself"
-        }
-      ],
-      "rule": "O18",
-      "example": "The receipt isn't proof, but it still counts for something at the bank. The clerk took a copy and filed it with the loan papers."
-    },
-    {
-      "id": "W54",
-      "tell": "\"may have X and still Y\"; \"may be X and still Y\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"May be X and still Y\" is a tell"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"it makes no sense AND it sounds ai with \"may have X and still Y\"\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Another AI tell is \"may be X and still Y\" make sure that's in the shared tells list. Humans don't use that as much."
-        }
-      ],
-      "rule": "O17",
-      "example": "A scared child may get mixed up telling the story and still need protection. The adults on the council have to listen to the whole account first."
-    },
-    {
-      "id": "W56",
-      "tell": "\"isn't X, it's Y\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "(question runs, triads, \"isn't X, it's Y\")"
-        }
-      ],
-      "rule": "B2",
-      "example": "The fence isn't a wall, it's a promise to share the gate with the neighbors. They have used the gate every morning since the spring."
-    },
-    {
-      "id": "W57",
-      "tell": "\"always trying to do an x not y statement\" (tested in a sentence: \"not X but Y\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "always trying to do an x not y statement"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "The x-not-y family is wider than the tail and the heading"
-        }
-      ],
-      "rule": "B2",
-      "example": "The farm is not a hobby but a living for the whole family. The orchard alone pays for the school fees and the truck."
-    },
-    {
-      "id": "W59",
-      "tell": "a balanced \"X enough to A and Y enough to B\" pair",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a balanced \"X enough to A and Y enough to B\" pair (O7, Joel 2026-10-02: \"devoted enough to practice them and secure enough to disagree\" \"looks super highly polished\")"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "A balanced \"X enough to A and Y enough to B\" pair reads as polished AI, even when Pangram passes it."
-        }
-      ],
-      "rule": "O7",
-      "example": "The members were devoted enough to practice the rules and secure enough to disagree with them openly. The founders liked that more than they had expected to at the start."
-    },
-    {
-      "id": "W60",
-      "tell": "an objection in \"an \"even if\" clause\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "And give an objection its own plain sentence, not an \"even if\" clause."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"Every age of you was stuck with whatever it had then, and that includes the adult you were last year, even if they seem like the one who should have known better.\""
-        }
-      ],
-      "rule": "B1",
-      "example": "The old council did what it could with the money it had, even if it looks foolish to the members now. The roof it bought that year still keeps the rain out of the barn."
-    },
-    {
-      "id": "W61",
-      "tell": "a closing line that sums up: \"These are all questions that a community should consider in advance.\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"i fixed p8p9, it was way overcompleting itself, now it passes pangram together\""
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a paragraph's closing line that sums the paragraph up (\"These are all questions that a community should consider in advance.\"; O16"
-        }
-      ],
-      "rule": "O16",
-      "example": "Members will get sick and grow old on the land. Some will want to die at home among friends. These are all questions that a community should consider in advance."
-    },
-    {
-      "id": "W64",
-      "tell": "\"lists of 3 in general are an ai pattern\"; \"triads\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Lists of three (Joel, 2026-10-03 00:01): \"lists of 3 in general are an ai pattern\"."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "(question runs, triads,"
-        }
-      ],
-      "rule": "E125",
-      "example": "The council handles the budget, the water rota, and the guest rooms for visitors. It meets once a month in the barn after supper."
-    },
-    {
-      "id": "W65",
-      "tell": "\"P! failed b ecause it has 2 lists of 3\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "two or more lists of three in one paragraph (E125, Joel 2026-10-03: \"P! failed b ecause it has 2 lists of 3\")"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"P18 has 2 lists of 3, super AI.\""
-        }
-      ],
-      "rule": "E125",
-      "example": "The council handles the budget, the water rota, and the guest rooms. Members bring bread, cheese, or fruit to each meeting in the barn."
-    },
-    {
-      "id": "W66",
-      "tell": "\"a bulleted or numbered list\" (\"lists in general are overused by AI\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"lists of 3 especially, and lists in general are overused by AI. try to avoid that unless it's really needed.\""
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a bulleted or numbered list (O19"
-        }
-      ],
-      "rule": "O19",
-      "example": "The house rules for guests fit on one short card by the door.\n\n- Cups get washed by whoever used them before the kitchen closes.\n- The pasture gate stays shut so the goats don't wander onto the road."
-    },
-    {
-      "id": "W67",
-      "tell": "Emulate's \"and … and … and\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"you replaced commas and even 'or' with 'and and and and' that looks like emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax\""
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "an \"and … and … and\" list, three repeats of the same \"and\" or \"or\" in one stretch without punctuation (O14"
-        }
-      ],
-      "rule": "O14",
-      "example": "Calling it a new name doesn't dissolve the panic and the comparison and the terror of abandonment and the urge to control. Members bring those old worries along when they move into the new house."
-    },
-    {
-      "id": "W68",
-      "tell": "\"packed or list sentences\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "packed or list sentences (B4/E15);"
-        }
-      ],
-      "rule": "B4",
-      "example": "In the end, after the vote, the treasurer, who had kept quiet all night, finally spoke. She asked for a second count of the paper ballots before anyone left."
-    },
-    {
-      "id": "W69",
-      "tell": "\"contrast constructions\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "contrast constructions (B2);"
-        }
-      ],
-      "rule": "B2",
-      "example": "The council chose a library rather than a parking lot for the empty corner on Main Street. The building work starts once the harvest is in and the crew has time."
-    },
-    {
-      "id": "W70",
-      "tell": "\"short knock-downs\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "short knock-downs (B3);"
-        }
-      ],
-      "rule": "B3",
-      "example": "The council spent three long evenings drafting a careful policy for guests who stay longer than a month. It failed. The guests themselves were never asked what they needed during the drafting."
-    },
-    {
-      "id": "W71",
-      "tell": "\"short paragraph-final lines\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "short paragraph-final lines;"
-        }
-      ],
-      "rule": "B7",
-      "example": "The council spent three long evenings drafting a careful policy for long-stay guests. Then it went to a vote. Midnight came and went."
-    },
-    {
-      "id": "W72",
-      "tell": "\"half or more of the paragraphs ending on a short line\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "half or more of the paragraphs ending on a short line (B7/B13);"
-        }
-      ],
-      "rule": "B7",
-      "example": "The council met in the barn after the harvest to sort out the guest policy. Midnight came and went.\n\nOur treasurer brought the numbers from the last three years of visitors. Grim reading.\n\nAfterward the cook made soup for everyone who stayed to finish the vote. Lentil, mostly."
-    },
-    {
-      "id": "W73",
-      "tell": "\"three or more paragraphs with the same opener\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "three or more paragraphs with the same opener (B13);"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "The linter's B13 counts the published openers too."
-        }
-      ],
-      "rule": "B13",
-      "example": "The council met in the barn after the harvest to settle the guest policy for winter.\n\nThe treasurer brought the numbers from the last three years of visitors and read them aloud.\n\nThe cook made lentil soup for everyone who stayed past midnight to finish the long vote."
-    },
-    {
-      "id": "W74",
-      "tell": "\"two or more paragraphs that are strings of instructions\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "two or more paragraphs that are strings of instructions (E23);"
-        }
-      ],
-      "rule": "E23",
-      "example": "Pick one small promise for the coming week. Write it on a card by the bed. Keep the card where the light hits it first thing.\n\nTake the card down on the last evening of the week. Tell a friend whether the promise held and what got in the way."
-    },
-    {
-      "id": "W75",
-      "tell": "\"coach phrases above 2 per 100 of my words\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "coach phrases above 2 per 100 of my words (E41);"
-        }
-      ],
-      "rule": "E41",
-      "example": "You might notice the bread goes stale faster in summer. You can store the loaves in the cold cellar near the well."
-    },
-    {
-      "id": "W76",
-      "tell": "\"second person above 6 per 100\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "second person above 6 per 100 (a review note only since 2026-09-26: density didn't separate Pangram results);"
-        }
-      ],
-      "rule": "E36",
-      "example": "Your garden needs water every day in July. Your neighbors will help if you ask them early in the season."
-    },
-    {
-      "id": "W77",
-      "tell": "\"the draft follows the source's order (D9)\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "the draft follows the source's order (D9). That's a note, not a failure."
-        }
-      ],
-      "rule": "D9",
-      "example": "The shared kitchen runs on a written budget, and the members review it every month at the meeting.\n\nA guest who stays longer than a month pays a share of the food costs like everyone else.\n\nA dispute about chores goes first to a rotating panel of members, before anyone raises it at the meeting.",
-      "source_text": "Members should keep a written budget for the shared kitchen and review it every month.\n\nGuests who stay longer than a month should pay a share of the food costs.\n\nDisputes about chores should go first to a rotating panel of members."
-    },
-    {
-      "id": "W78",
-      "tell": "\"Abstract concepts or feelings as agents\" (\"the anger goes there\"; \"goodwill doesn't answer those questions\")",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Abstract concepts or feelings as agents: one of the top tells to consider, not a ban."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"that AI tell again, in the linter. abstracts doing things.\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"the usage of abstract concepts or feelings as agents is one AI tell because it permits high efficiency of words."
-        }
-      ],
-      "rule": "O6",
-      "example": "The meeting agenda is the one place a member can push for something and win, so the anger goes there, trying to get some justice. The angry members fill the first hour with complaints about the rota."
-    },
-    {
-      "id": "W79",
-      "tell": "\"his Claude tics\"; \"Joel's tics\"",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "an invented weekday or clock time, his Claude tics, and"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Joel's tics;"
-        },
-        {
-          "file": "tools/humanization/reviewer/owner_bans.txt",
-          "quote": "Joel's Claude tics (his standing preference for all writing): \"doing some work\", \"load-bearing\", \"tells on itself\""
-        }
-      ],
-      "rule": "B11",
-      "example": "That paragraph is load-bearing for the whole section about the land trust. Without it the later chapters on money make very little sense."
-    },
-    {
-      "id": "W83",
-      "tell": "\"required as pre-reqs\": a prerequisite is already required",
-      "kind": "mechanical",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "p15, you can' tsay \"required as pre-reqs\" that's redundant,, just say \"when things are pre-reqs\""
-        }
-      ],
-      "rule": "O38",
-      "example": "And when things are required as pre-reqs for people to get medicine, the circle holds a lot of power. Most of the time the circle is just three or four tired neighbors."
-    },
-    {
-      "id": "J01",
-      "tell": "\"and close syntactic variants\" of significance staging; \"and close variants\" of I care about... etc.; \"oddly arrogant or performatively intimate\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "and close syntactic variants as AI-shaped in Joel-byline prose"
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "This failure can sound oddly arrogant or performatively intimate"
-        }
-      ],
-      "reason": "The variants are open-ended, and his own wish as the subject is allowed."
-    },
-    {
-      "id": "J02",
-      "tell": "editor-facing rationale (this is important because it connects with my other articles); \"explaining to the editor/model why the material matters\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "editor-facing rationale (`this is important because it connects with my other articles`)"
-        },
-        {
-          "file": "AGENTS.md",
-          "quote": "Is the sentence explaining something to the reader, or explaining to the editor/model why the material matters?"
-        }
-      ],
-      "reason": "Whom a sentence addresses is a reading."
-    },
-    {
-      "id": "J03",
-      "tell": "unanchored this, that, it, here, earlier, what I mean; \"an undefined referent\"; \"A12 referents\"; \"Both kinds\"; \"for an actual case\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "Are every `this`, `that`, `it`, `here`, `earlier`, `what I mean`, and named concept anchored by visible article context?"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "P21's \"for an actual case\" pointed at a case the paragraph hadn't mentioned yet"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"Your \"Both kinds\" is referring to what?"
-        }
-      ],
-      "reason": "It needs the text before it. R1 and O10 catch two narrow forms."
-    },
-    {
-      "id": "J04",
-      "tell": "pointers sections back (\"like before\", \"the goodwill prayer from before\", \"it's the food bank all over again\")",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "nobody will remember something sections away."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "(\"like before\", \"the goodwill prayer from before\", \"it's the food bank all over again\")"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"Oops, you put in a referent to something sections ago nobody will remember"
-        }
-      ],
-      "reason": "The distance to the referent needs the article."
-    },
-    {
-      "id": "J05",
-      "tell": "a term the prose \"refers back to\" before it's introduced; \"E8 and E33 premises and terms not yet introduced\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "AGENTS.md",
-          "quote": "Is a technical or article-specific term introduced before the prose refers back to it?"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "E8 and E33 premises and terms not yet introduced"
-        }
-      ],
-      "reason": "It needs the article so far."
-    },
-    {
-      "id": "J06",
-      "tell": "\"least qualification necessary\"; \"skeptical aftercare explaining non-implications\"; \"prosecutorial language\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Use the **least qualification necessary** to avoid misinformation"
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "Do not add skeptical aftercare explaining non-implications that a reasonable reader would not infer from the prose."
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "over prosecutorial language that treats every unsupported extension as something to debunk."
-        }
-      ],
-      "reason": "It depends on what a reader would infer."
-    },
-    {
-      "id": "J07",
-      "tell": "\"aftercare that merely explains why a point was made, repeats an already available inference, labels a demonstrated dynamic, or fills conceptual space\"; \"unnecessary recap/interpretive aftercare\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Remove aftercare that merely explains why a point was made, repeats an already available inference, labels a demonstrated dynamic, or fills conceptual space because it can be filled."
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "unnecessary recap/interpretive aftercare"
-        }
-      ],
-      "reason": "It's a function, not a form."
-    },
-    {
-      "id": "J08",
-      "tell": "\"concrete image followed by explanatory aftercare\"; \"an image or an example made up to explain\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "concrete image followed by explanatory aftercare"
-        },
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "In each, the explanation was an image or an example made up to explain. It wasn't something a reader would need."
-        }
-      ],
-      "reason": "Whether the image was needed is a reading."
-    },
-    {
-      "id": "J09",
-      "tell": "overcompletion: \"you already have it explained and then you explain it again\"; \"functional redundancy\"; \"Over-explaining listicles\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"overcompletion is when you already have it explained and then you explain it again.\""
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Over-explaining listicles."
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "functional redundancy"
-        }
-      ],
-      "reason": "It needs what was already said, and the sentence's job (GATE:106)."
-    },
-    {
-      "id": "J10",
-      "tell": "\"an exhaustive list\"; covering \"every case\": \"the rule, its exception, the exception's own exception, and a safety carve-out\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a closing summary or an exhaustive list in the AI-drafted original"
-        },
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "Each one gives the rule, its exception, the exception's own exception, and a safety carve-out."
-        }
-      ],
-      "reason": "Exhaustive relative to the source. PANG:62 calls it a guess."
-    },
-    {
-      "id": "J11",
-      "tell": "a last line that sums up: \"ensuring the thought is fully complete and summed up perfectly\"; \"bringing it all together in the most defensible way possible\"; \"an ending that restates the thesis or reframes it\"; \"a last sentence that concluded the paragraph\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"just remove the last sentence since it was obviously doing that ai thing of ensuring the thought is fully complete and summed up perfectly\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "the ending is bringing it all together in the most defensible way possible."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "an ending that restates the thesis or reframes it (its strongest single signal);"
-        }
-      ],
-      "reason": "O16 catches one fixed form (W61). Summing up in general is a reading."
-    },
-    {
-      "id": "J12",
-      "tell": "a closing gloss: \"a second point added after the paragraph had already made its own\" (\"a caveat\", \"a consequence\", \"a moral\", \"an aphorism\", \"a tender beat\"); a last sentence opening \"So\", \"That way\", \"It just\", \"Then again\", or That, This, It, So or Which",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "The dropped sentence was a second point added after the paragraph had already made its own:"
-        },
-        {
-          "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
-          "quote": "So the linter gets no rule for it. A reader has to judge it: read the paragraph without its last sentence."
-        }
-      ],
-      "reason": "PANG:50: 6 failing against 7 passing, so \"A reader has to judge it\"."
-    },
-    {
-      "id": "J13",
-      "tell": "\"matched pair ending on punchline gives it away\"; \"a punchy closer\"; \"a poignant last line\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Joel: \"matched pair ending on punchline gives it away.\""
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "A crafted line to say followed by a poignant last line was its own AI window"
-        }
-      ],
-      "reason": "Tone."
-    },
-    {
-      "id": "J14",
-      "tell": "\"Wry humor\" (\"wry in a strange way which i can't pin down\"; \"lol ... it's more wry\")",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Wry humor. Joel: \"wry in a strange way which i can't pin down\". His is goofy and glad."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"the wry humor is also an AI tell. it's wry in a strange way\"."
-        }
-      ],
-      "reason": "Tone, and Joel can't pin it down."
-    },
-    {
-      "id": "J15",
-      "tell": "a quip AI colonized: \"just with longer meetings and fewer robes\"; \"the 1972 line is witty altho it's kind of an obvious ai quip\"; \"a quip per beat\"; \"semi quip\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "\"I was able to retain the sacred part, but no matter how i worded fewer robes and longer meetings it got flagged as AI, which yeah, it does look ai after ai colonized it.\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"the 1972 line is witty altho it's kind of an obvious ai quip\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"the last line is like a semi quip"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "whether a line is a quip at all stays a reader's call"
-        }
-      ],
-      "reason": "\"whether a line is a quip at all stays a reader's call\" (GATE:132). O21 has only two stock forms."
-    },
-    {
-      "id": "J16",
-      "tell": "\"Too many made-up scenes\"; \"a textbook dinner vignette\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Too many made-up scenes: a caution, not a ban."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"i'm not saying to ban made-up scenes, they can be useful, but you're overusing them here.\""
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "(a textbook dinner vignette)"
-        }
-      ],
-      "reason": "Knowing what's made up needs the source."
-    },
-    {
-      "id": "J17",
-      "tell": "\"synthetic didactic prop selection\"; \"the generic image for a specific, silly one\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "synthetic didactic prop selection"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "traded the generic image for a specific, silly one"
-        }
-      ],
-      "reason": "A judgment of quality."
-    },
-    {
-      "id": "J18",
-      "tell": "\"fabricated scheduling, scenery, or incidental specificity\"; \"fake specificity\"; \"E36 details that fit every reader\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "not fabricated scheduling, scenery, or incidental specificity"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "E36 details that fit every reader"
-        }
-      ],
-      "reason": "It needs the source. Weekdays and clock times are mechanical (W15, W16)."
-    },
-    {
-      "id": "J19",
-      "tell": "\"fake-spontaneity markers\"; \"filler/hesitation is earned or stage-managed\"; \"asides shaped like his\"; \"a goofy exclamation\"; \"speech markers laid over AI shapes\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "fake-spontaneity markers"
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "whether filler/hesitation is earned or stage-managed"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "and so did asides shaped like his (\"(one, I said one!)\"), so copying the shape of his moves isn't the fix."
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "speech markers laid over AI shapes"
-        }
-      ],
-      "reason": "Earned or staged is a reading. The fixed \"Nope.\" and \"Aww, buddy.\" are W38."
-    },
-    {
-      "id": "J20",
-      "tell": "T02 \"instruction-manual cadence\": \"one-function-per-sentence marching\"; \"the next sentence lands like code without a hitch\"; \"a definition sentence for each job\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "one-function-per-sentence marching"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"yeah it's again that marching order where the next sentence lands like code without a hitch.\""
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "(a definition sentence for each job)"
-        }
-      ],
-      "reason": "It's a property of the sequence. E23's imperative count is a proxy (W74)."
-    },
-    {
-      "id": "J21",
-      "tell": "T09 \"equal efficiency\": \"Optimal efficiency\"; \"suspiciously efficient equality\"; \"equal weight\"; \"five even items\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "`Optimal efficiency` is itself a risk pattern when nearly every sentence cleanly performs one teaching job and then hands off to the next."
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "with suspiciously efficient equality"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical"
-        }
-      ],
-      "reason": "GATE:565 says it \"isn't mechanical\"."
-    },
-    {
-      "id": "J22",
-      "tell": "T13 \"nothing noticed\"; \"organization needs to be not reducible to code\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"it's not that you can't have an organized essay. it's that your organization needs to be not reducible to code"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "T13 (nothing noticed)"
-        }
-      ],
-      "reason": "GATE:565 says it \"isn't mechanical\"."
-    },
-    {
-      "id": "J23",
-      "tell": "\"one source function per scene beat\"; \"a scene that just skins the source's order still fails\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "one source function per scene beat"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "(a scene that just skins the source's order still fails)"
-        }
-      ],
-      "reason": "It needs the source map."
-    },
-    {
-      "id": "J24",
-      "tell": "\"Abrupt complication\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Abrupt complication is another risk: a sentence can be substantively correct but still feel model-written when it introduces a new concern with no reader-visible reason for why the topic just changed."
-        }
-      ],
-      "reason": "Whether the turn has a visible reason is a reading."
-    },
-    {
-      "id": "J25",
-      "tell": "\"generic therapeutic abstraction\"; \"abstractions became happenings\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "generic therapeutic abstraction"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "abstractions became happenings"
-        }
-      ],
-      "reason": "An open class of words."
-    },
-    {
-      "id": "J26",
-      "tell": "\"tighter, more exact, more formal or more hedged\" wording",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "The side that failed is usually tighter, more exact, more formal or more hedged"
-        }
-      ],
-      "reason": "Only relative to a looser wording."
-    },
-    {
-      "id": "J27",
-      "tell": "\"stacked hedges\"; \"the hedging self-talk (\"rein in my enthusiasm\")\"; \"The hedge \"and it might be right\" went\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "(a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "the hedging self-talk (\"rein in my enthusiasm\")"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "The hedge \"and it might be right\" went"
-        }
-      ],
-      "reason": "GATE:563 says it \"isn't mechanical\"."
-    },
-    {
-      "id": "J28",
-      "tell": "\"a therapist's sequence\", \"a reassuring close\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "what sank them (a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical."
-        }
-      ],
-      "reason": "The same line says they aren't mechanical."
-    },
-    {
-      "id": "J29",
-      "tell": "\"a tidy taxonomy\"; \"Taxonomy inside a list item\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a tidy taxonomy"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Taxonomy inside a list item."
-        }
-      ],
-      "reason": "GATE:565 says it \"isn't mechanical\"."
-    },
-    {
-      "id": "J30",
-      "tell": "\"Telegraphic fragments\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Telegraphic fragments become whole sentences to \"you\"."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Bare items that were already fine stay bare."
-        }
-      ],
-      "reason": "\"Bare items that were already fine stay bare\" (CAT:72)."
-    },
-    {
-      "id": "J31",
-      "tell": "\"Reassurance and commentary about the text itself\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Reassurance and commentary about the text itself."
-        }
-      ],
-      "reason": "It's a function."
-    },
-    {
-      "id": "J32",
-      "tell": "\"Mechanism talk and over-precise sourcing\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Mechanism talk and over-precise sourcing."
-        }
-      ],
-      "reason": "It depends on what the reader needs."
-    },
-    {
-      "id": "J33",
-      "tell": "\"The bridge sentence that announces the next move\"; \"generic bridges\"; \"lines that announce a paragraph (B5)\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "The bridge sentence that announces the next move."
-        },
-        {
-          "file": "SKILL.md",
-          "quote": "generic bridges"
-        },
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "lines that announce a paragraph (B5);"
-        }
-      ],
-      "reason": "It's a function. B5 flags a few openers only."
-    },
-    {
-      "id": "J34",
-      "tell": "\"finished principles (B1)\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "finished principles (B1);"
-        }
-      ],
-      "reason": "It's a function. B1 flags proxies (\"even if\", \"still counts\", a \"Most…\" opener)."
-    },
-    {
-      "id": "J35",
-      "tell": "\"The moral stated as an antithesis\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "The moral stated as an antithesis."
-        }
-      ],
-      "reason": "It's a function."
-    },
-    {
-      "id": "J36",
-      "tell": "\"false symmetry/completeness\" (\"Both approaches fail for symmetric reasons\")",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "false symmetry/completeness"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"Both approaches fail for symmetric reasons."
-        }
-      ],
-      "reason": "A reading."
-    },
-    {
-      "id": "J37",
-      "tell": "\"pre-completed reasoning\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "pre-completed reasoning"
-        }
-      ],
-      "reason": "A reading."
-    },
-    {
-      "id": "J38",
-      "tell": "\"a thesis stated before the first part\"; \"a topic-sentence opener\"; \"a thesis opener\"; \"a claim opener\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a thesis stated before the first part;"
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "a topic-sentence opener (\"Some of it happens where nobody else can see.\");"
-        }
-      ],
-      "reason": "A reading."
-    },
-    {
-      "id": "J39",
-      "tell": "\"a summary or synthesis stage\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "a summary or synthesis stage;"
-        }
-      ],
-      "reason": "A shape of the whole section."
-    },
-    {
-      "id": "J40",
-      "tell": "\"stakes escalated\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "stakes escalated;"
-        }
-      ],
-      "reason": "A reading."
-    },
-    {
-      "id": "J41",
-      "tell": "\"the editorial-explainer voice\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "the editorial-explainer voice."
-        }
-      ],
-      "reason": "A register."
-    },
-    {
-      "id": "J42",
-      "tell": "insight that's set up \"too much rather than throw it in where it naturally arises\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"AI often doesn't have deep insight, and if it does, it tends to set it up too much rather than throw it in where it naturally arises.\""
-        }
-      ],
-      "reason": "A reading."
-    },
-    {
-      "id": "J43",
-      "tell": "\"the 3 part conditional syntax\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "the 3 part conditional syntax"
-        }
-      ],
-      "reason": "The documents don't say what the form is, so no pattern or test can be written from them."
-    },
-    {
-      "id": "J44",
-      "tell": "\"questions the text answers itself\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "questions the text answers itself"
-        }
-      ],
-      "reason": "Whether the next line answers the question is a reading."
-    },
-    {
-      "id": "J45",
-      "tell": "advice turned into an observation (\"it sounds like it's making an observation ... but it is supposed to advise\")",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "\"it sounds like it's making an observation about peer-led ceremonies in general but it is supposed to advise\"."
-        }
-      ],
-      "reason": "It needs the sentence's intended job."
-    },
-    {
-      "id": "J46",
-      "tell": "an emoji that \"only labels a thing or an activity\" (🐶 🎶 💆 🔥); \"gratuitous emojis\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "No emoji that only labels a thing or an activity (🐶 🎶 💆 🔥 came out): \"we don't need an emoji just because it could be there.\""
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "Pointers, 😉 and gratuitous emojis are banned"
-        }
-      ],
-      "reason": "A reading. The allowlist itself is mechanical (W14)."
-    },
-    {
-      "id": "J47",
-      "tell": "\"catchphrases, unusual punctuation, slang, or corpus tics\" added to improve similarity",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "SKILL.md",
-          "quote": "Never add errors, fake specificity, memories, catchphrases, unusual punctuation, slang, or corpus tics to improve similarity."
-        }
-      ],
-      "reason": "Not defined in the documents; it depends on his corpus."
-    },
-    {
-      "id": "J48",
-      "tell": "\"a list of conditions\", when every fix adds a clause",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "when every fix adds a clause, the paragraph becomes a list of conditions, and a run of those reads as a manual."
-        }
-      ],
-      "reason": "A property of the sequence."
-    },
-    {
-      "id": "J49",
-      "tell": "a practice paragraph that ends \"on a prediction of how the reader will sound\" or \"on a technique\"",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "A practice paragraph ends on the next move of the practice, not on a prediction of how the reader will sound."
-        },
-        {
-          "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
-          "quote": "end on a plain statement of what the acts are for (\"a base for love to grow\"), not on a technique."
-        }
-      ],
-      "reason": "A reading."
-    },
-    {
-      "id": "J50",
-      "tell": "a word that says again what the word next to it says",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Whether two other words say the same thing stays a reader's call"
-        }
-      ],
-      "reason": "Which words repeat each other is a matter of meaning; O38 checks only the family Joel caught."
-    },
-    {
-      "id": "J51",
-      "tell": "a slogan that packs a whole situation into one noun (\"Decide the process before the name\")",
-      "kind": "judgment",
-      "sources": [
-        {
-          "file": "docs/HUMANIZATION-GATE.md",
-          "quote": "Whether a line packs a situation into a noun is a reader's call"
-        }
-      ],
-      "reason": "Which noun stands for a whole situation is a matter of meaning; a pattern would also catch plain lines like \"choose a mediator before the crisis\"."
+ "what": "Every tell named in AGENTS.md, SKILL.md, docs/HUMANIZATION-GATE.md, tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md and tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md, from the coverage audit of 2026-10-11 (tools/humanization/TELLS-COVERAGE-20261011.md). A mechanical tell names the rule in tells_lint.py that checks it and an example paragraph that triggers that rule; a judgment tell says why it needs a reader. Each quote is in its file once whitespace is collapsed and curly quotes are made straight. tests/test_tells_registry.py checks every quote and runs every example. A tell added to one of those files gets an entry here in the same change.",
+ "fields": {
+  "id": "W for a tell a pattern or a count can find, J for one that needs a reader (the audit's numbering)",
+  "tell": "the tell, in the documents' words",
+  "kind": "mechanical or judgment",
+  "sources": "where the documents name it: the file, and a quote from it",
+  "rule": "mechanical: the tells_lint.py rule that flags it",
+  "example": "mechanical: a short paragraph that should get that flag",
+  "source_text": "W77 only: the source section the example is compared with (D9 needs --source)",
+  "requires": "a package the rule needs; the test skips the example without it",
+  "reason": "judgment: why no pattern can decide it"
+ },
+ "tells": [
+  {
+   "id": "W07",
+   "tell": "\"Even\" (\"They're words I add to sound casual, and they don't help\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "\"Even\" and \"actually\" go with the failing paragraphs, but they don't cause it."
+    },
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "They're words I add to sound casual, and they don't help."
     }
-  ]
+   ],
+   "rule": "O25",
+   "example": "We painted the barn red that spring, and we even fixed the leak over the hayloft. The cows did not seem to notice any of it."
+  },
+  {
+   "id": "W08",
+   "tell": "\"actually\" (same finding)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "\"Even\" and \"actually\" go with the failing paragraphs, but they don't cause it."
+    },
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "They're words I add to sound casual, and they don't help."
+    }
+   ],
+   "rule": "O25",
+   "example": "The barn was actually warmer than the house during the first winter on the land. The cows gave off more heat than the old wood stove did."
+  },
+  {
+   "id": "W10",
+   "tell": "\"lol\" (\"\"lol\" is wry, so it's out\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"lol\" is wry, so it's out."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"lol is different from hehe, it's more wry.\""
+    },
+    {
+     "file": "tools/humanization/EMOJI-LIST.md",
+     "quote": "\"(hehe)\" is fine; \"lol\" isn't."
+    }
+   ],
+   "rule": "O37",
+   "example": "The goat ate the treasurer's notes again lol, so the budget vote moved to the next meeting. The treasurer now keeps a second copy of every page in the farmhouse."
+  },
+  {
+   "id": "W12",
+   "tell": "\"Never a pointer (👇 👉 👆 👈 ☝️)\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Never a pointer (👇 👉 👆 👈 ☝️) or 😉: \"those look super ai, only after seen them from ai slop, don't ever use those.\""
+    },
+    {
+     "file": "tools/humanization/EMOJI-LIST.md",
+     "quote": "\"i don't want those pointer emojis those look super ai, only after seen them from ai slop, don't ever use those.\""
+    }
+   ],
+   "rule": "O26",
+   "example": "The sign-up sheet for the harvest crew is on the board by the kitchen door 👉 and it closes at the end of the month. Last year the crew ran short of hands during the apple picking."
+  },
+  {
+   "id": "W13",
+   "tell": "\"😉\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Never a pointer (👇 👉 👆 👈 ☝️) or 😉: \"those look super ai, only after seen them from ai slop, don't ever use those.\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Pointers, 😉 and gratuitous emojis are banned"
+    },
+    {
+     "file": "tools/humanization/EMOJI-LIST.md",
+     "quote": "\"that one also looks like mainly used by AI (or by scammers)."
+    }
+   ],
+   "rule": "O26",
+   "example": "The treasurer says the accounts add up this year 😉 and nobody has looked at them since spring. The audit is set for the first week of the harvest."
+  },
+  {
+   "id": "W14",
+   "tell": "an emoji off the allowlist (\"everything else counts as banned until Joel says yes\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "everything else counts as banned until Joel says yes."
+    },
+    {
+     "file": "tools/humanization/EMOJI-LIST.md",
+     "quote": "Anything not on the allowlist counts as banned until Joel says yes to it."
+    }
+   ],
+   "rule": "O26",
+   "example": "The new solar panels went up on the barn roof last week 🚀 and the lights stayed on all night. The council still wants a second battery before the winter storms."
+  },
+  {
+   "id": "W20",
+   "tell": "\"double spaces\" (\"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Rough edges he leaves: typos, double spaces, missing periods."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "These come from typing. They aren't something for me to imitate."
+    }
+   ],
+   "rule": "O27",
+   "example": "The council met in the barn after the harvest.  The treasurer read the numbers aloud to everyone who came that night."
+  },
+  {
+   "id": "W21",
+   "tell": "\"missing periods\" (same line)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Rough edges he leaves: typos, double spaces, missing periods."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "These come from typing. They aren't something for me to imitate."
+    }
+   ],
+   "rule": "O27",
+   "example": "The council met in the barn after the harvest. The treasurer read the numbers aloud to everyone who came that night"
+  },
+  {
+   "id": "W23",
+   "tell": "I care about...",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision."
+    }
+   ],
+   "rule": "O22",
+   "example": "I care about how the group splits the money when a member leaves the farm. The bylaws from the first year say nothing about it at all."
+  },
+  {
+   "id": "W24",
+   "tell": "I'd want to see...",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision."
+    }
+   ],
+   "rule": "O22",
+   "example": "I'd want to see the budget before anyone signs the lease on the new barn. The old lease had a clause about repairs that nobody read until the roof leaked."
+  },
+  {
+   "id": "W25",
+   "tell": "that tells me...",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision."
+    }
+   ],
+   "rule": "O22",
+   "example": "The well ran dry twice last summer. That tells me the group needs a second water source before the next drought comes."
+  },
+  {
+   "id": "W27",
+   "tell": "That’s where X matters to me (curly apostrophe, the form AGENTS writes first)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "Treat significance-staging constructions such as `That's where X matters to me`"
+    },
+    {
+     "file": "AGENTS.md",
+     "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
+    }
+   ],
+   "rule": "O22",
+   "example": "That’s where the council matters to me, since it decides who gets to farm the lower field. Everything else on the land follows from that one choice."
+  },
+  {
+   "id": "W28",
+   "tell": "This is one reason I want X",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "`This is one reason I want X`"
+    },
+    {
+     "file": "AGENTS.md",
+     "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
+    }
+   ],
+   "rule": "O22",
+   "example": "This is one reason I want the council to post its minutes every month on the board. The treasurer has already offered to type them up after each meeting."
+  },
+  {
+   "id": "W29",
+   "tell": "The version I want is X",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "`The version I want is X`"
+    },
+    {
+     "file": "AGENTS.md",
+     "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
+    }
+   ],
+   "rule": "O22",
+   "example": "The version I want is a council that meets in the open and posts its minutes on the board. The current one still meets in the treasurer's kitchen behind a closed door."
+  },
+  {
+   "id": "W30",
+   "tell": "What matters to me is X",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "`What matters to me is X`"
+    },
+    {
+     "file": "AGENTS.md",
+     "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
+    }
+   ],
+   "rule": "O22",
+   "example": "What matters to me is a council that posts its minutes every month on the board. The current one keeps its notes in a drawer in the treasurer's kitchen."
+  },
+  {
+   "id": "W31",
+   "tell": "research notes as narration: I thought X, I had heard Y, I checked it, I wasn't sure what the term was, the check I did here showed...; \"a diary of I thought → I checked → I learned\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "Do not automatically convert research notes such as `I thought X`, `I had heard Y`, `I checked it`, `I wasn't sure what the term was`, or `the check I did here showed...` into article narration."
+    },
+    {
+     "file": "AGENTS.md",
+     "quote": "not as a diary of `I thought → I checked → I learned`"
+    }
+   ],
+   "rule": "O23",
+   "example": "I had heard the mill closed in 1990. I checked it against the county records, and the real closing date was 1987, three years earlier."
+  },
+  {
+   "id": "W33",
+   "tell": "\"I see the need to\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "and stock lines like \"I see the need to\", \"It's also important to\", \"One thing to notice about\"."
+    }
+   ],
+   "rule": "O24",
+   "example": "I see the need to write the guest rules down before the first big dispute comes up. Last winter two long-stay guests argued for a month over the laundry."
+  },
+  {
+   "id": "W34",
+   "tell": "\"It's also important to\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "and stock lines like \"I see the need to\", \"It's also important to\", \"One thing to notice about\"."
+    }
+   ],
+   "rule": "O24",
+   "example": "It's also important to keep every receipt from the hardware store in one folder. The treasurer lost two of them last spring and had to pay out of pocket."
+  },
+  {
+   "id": "W35",
+   "tell": "\"One thing to notice about\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "and stock lines like \"I see the need to\", \"It's also important to\", \"One thing to notice about\"."
+    }
+   ],
+   "rule": "O24",
+   "example": "One thing to notice about the old ledger is how often the same three names come up. Those three families paid for most of the repairs in the first decade."
+  },
+  {
+   "id": "W36",
+   "tell": "\"sure. But\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "speech markers laid over AI shapes: questions the text answers itself, \"sure. But\", and stock lines like"
+    }
+   ],
+   "rule": "O2",
+   "example": "The new pump works, sure. But it costs twice as much as the old one did to run each month."
+  },
+  {
+   "id": "W38",
+   "tell": "\"Nope.\", \"Aww, buddy.\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "The stock casual moves a model reaches for when told to sound casual (\"Nope.\", \"Aww, buddy.\", a goofy exclamation, a punchy closer) came back 100% AI, high, in eight versions"
+    }
+   ],
+   "rule": "O33",
+   "example": "The puppy begged for a second dinner at the table. Nope. Aww, buddy. The vet wants him to lose two pounds before his checkup in the spring."
+  },
+  {
+   "id": "W39",
+   "tell": "\"'i wouldn't call that X'\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"Ai stuff overuses 'i wouldn't call that X' and the 3 part conditional syntax."
+    }
+   ],
+   "rule": "O34",
+   "example": "The shed has a roof and three walls. I wouldn't call that a barn. The goats sleep in it every night when the wind picks up off the hill."
+  },
+  {
+   "id": "W40",
+   "tell": "\"with or without X is not quite guidance\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"with or without X\" isn't guidance (Joel: \"with or without X is not quite guidance\"). Say what X is good for."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "(with or without X is not quite guidance)"
+    }
+   ],
+   "rule": "O35",
+   "example": "The breathing exercise works with or without music in the background. Ten minutes in the morning is plenty for anyone starting out."
+  },
+  {
+   "id": "W41",
+   "tell": "a \"but also\" pair",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "P34m passed with \"the boring problem\", the \"nicer logo\" quip, a \"but also\" pair and a list; without the one word \"connect,\" it read 100% AI (191g)."
+    }
+   ],
+   "rule": "O36",
+   "example": "The garden feeds the whole house, but also teaches the younger members some patience. The tomatoes alone take most of the summer to come in."
+  },
+  {
+   "id": "W55",
+   "tell": "\"Not X. It's Y.\" and its cousins",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"Not X. It's Y.\" and its cousins."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"The point is not perfect measurement. The point is pattern recognition.\""
+    },
+    {
+     "file": "tools/humanization/reviewer/owner_bans.txt",
+     "quote": "and the \"That's not X. It's Y.\" construction."
+    }
+   ],
+   "rule": "B11",
+   "example": "It's not a hobby. It's a job that pays the rent on the farmhouse every month."
+  },
+  {
+   "id": "W58",
+   "tell": "\"It's one thing to X. It's another to Y\" (Emulate's \"one thing ... another thing\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Emulate's \"one thing ... another thing\" \"is not quite showing that the truth was Y not X\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "A contrast has to say which side is true. \"It's one thing to X. It's another to Y\" sets two things side by side"
+    }
+   ],
+   "rule": "O28",
+   "example": "It's one thing to talk about a universal consciousness. It's another to struggle to escape one man's opinions about everything on the farm."
+  },
+  {
+   "id": "W62",
+   "tell": "\"question runs\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a few shared AI micro-patterns (question runs, triads, \"isn't X, it's Y\")"
+    }
+   ],
+   "rule": "O29",
+   "example": "Who pays for the new roof? Who fixes the well when it runs dry? Who keeps the books after the treasurer moves back to the city?"
+  },
+  {
+   "id": "W63",
+   "tell": "the parallel \"who is … who is … or who is\" list",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "The parallel \"who is … who is … or who is\" list became a looser one with a hedge (\"maybe even\")"
+    }
+   ],
+   "rule": "E125",
+   "example": "The facilitator on the retreat circuit may be someone who is a sexual predator, who is financially dependent on people coming back, or who is simply wrong. Participants usually find out only after the ceremony is over and everyone has gone home."
+  },
+  {
+   "id": "W80",
+   "tell": "a phrase repeated in one paragraph (\"gave P22 its fourth \"as adults\"\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "My \"a commitment they make as adults\", which he OK'd, gave P22 its fourth \"as adults\"."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"yes fix p222 take out second adults that's obvious\""
+    }
+   ],
+   "rule": "O30",
+   "example": "The members sign the land trust as adults. They pay their share of the dues as adults. Later their children can join the trust as adults too, once they decide to stay on the land."
+  },
+  {
+   "id": "W81",
+   "tell": "two parallel \"When…, don't…\" lines",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "two parallel \"When…, don't…\" lines"
+    }
+   ],
+   "rule": "O31",
+   "example": "When the toddler cries at night, don't rush in right away. When she calms down, don't lecture her about it at breakfast. On most nights she falls back asleep within a few minutes on her own."
+  },
+  {
+   "id": "W82",
+   "tell": "an \"is a kind of love, … but it's not the whole thing\" line",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "an \"is a kind of love, … but it's not the whole thing\" line"
+    }
+   ],
+   "rule": "O32",
+   "example": "Keeping the promise is a kind of love, but it's not the whole thing. The rest happens in small moments that nobody else sees during the day."
+  },
+  {
+   "id": "W01",
+   "tell": "\"boring\" (\"Treat boring, quietly, and ordinary as AI-frequency-risk words\"; \"the boring problem\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "Treat `boring`, `quietly`, and `ordinary` as **AI-frequency-risk words in Joel-byline prose, not absolute bans**."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Joel: \"don't use the word \"boring\" especially \"the boring problem\" ... ai is always saying boring, ordinary, etc ... don't abuse that ai tell\""
+    }
+   ],
+   "rule": "O12",
+   "example": "The council spent the first hour on the boring problem of who keeps the tool shed key. The rest of the night went to the new well and the cost of the pump."
+  },
+  {
+   "id": "W02",
+   "tell": "\"quietly\" (\"using quietly all the time like that is a huge AI tell\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "Treat `boring`, `quietly`, and `ordinary` as **AI-frequency-risk words in Joel-byline prose, not absolute bans**."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"using quietly all the time like that is a huge AI tell. you don't have any other way to say that?\""
+    }
+   ],
+   "rule": "O12",
+   "example": "Cooperation with the next valley shouldn't quietly turn into a merger of the two land trusts. Each group keeps its own council and its own books for now."
+  },
+  {
+   "id": "W03",
+   "tell": "\"ordinary\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "Treat `boring`, `quietly`, and `ordinary` as **AI-frequency-risk words in Joel-byline prose, not absolute bans**."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"Ordinary\", \"regular\", \"boring\", \"everyday\" are a caution, not a ban"
+    }
+   ],
+   "rule": "O12",
+   "example": "The founders wanted the farm to feel like an ordinary village with a shared kitchen. By six the long table usually fills up before the soup is ready."
+  },
+  {
+   "id": "W04",
+   "tell": "\"regular\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "on a regular Tuesday is the worst. Ai always saying ordinary boring regular now it's regular tuesday heheheh combinding all the ai tells"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"ok i mean boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI.\""
+    }
+   ],
+   "rule": "O12",
+   "example": "The council keeps a regular slot for complaints at the end of each meeting in the barn. Members write their complaint on a card and drop it in the tin by the door."
+  },
+  {
+   "id": "W05",
+   "tell": "\"everyday\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"Ordinary\", \"regular\", \"boring\", \"everyday\" are a caution, not a ban"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"ordinary\", \"regular\", \"boring\", \"everyday\", \"mundane\", \"quietly\": overused by AI, not a sure tell"
+    }
+   ],
+   "rule": "O12",
+   "example": "The workshop covers everyday repairs like a dripping tap or a stuck window latch. A retired plumber from the village runs it on the first weekend of the month."
+  },
+  {
+   "id": "W06",
+   "tell": "\"mundane\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"ordinary\", \"regular\", \"boring\", \"everyday\", \"mundane\", \"quietly\": overused by AI, not a sure tell"
+    }
+   ],
+   "rule": "O12",
+   "example": "The council's work is mostly mundane paperwork about seed orders and gate repairs. The big fights come up maybe twice a year, usually over money."
+  },
+  {
+   "id": "W09",
+   "tell": "\"never \"the kid\"\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "E1 naming (never \"the kid\")"
+    }
+   ],
+   "rule": "E1",
+   "example": "The kid next door feeds our chickens whenever the family goes away for a few days. Her mother pays her in eggs, which she sells at the market."
+  },
+  {
+   "id": "W11",
+   "tell": "\"Chat acronyms (IMO, TBH and the like)\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Chat acronyms (IMO, TBH and the like) where the article doesn't already use them, unless the author asked for an informal internet style."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"for articles where the acronyms are used, you'd use those, but for other articles where they aren't used, you wouldn't put them in unless the user asks for informal internet slang style\""
+    }
+   ],
+   "rule": "O37",
+   "example": "IMO the council should post its minutes on the board by the kitchen door. The treasurer agreed to type them up after each meeting this year."
+  },
+  {
+   "id": "W15",
+   "tell": "on Tuesday, last Tuesday, Tuesday afternoon; \"on a regular Tuesday is the worst\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "do not add phrases such as `on Tuesday`, `last Tuesday`, `Tuesday afternoon`, or similar arbitrary calendar specificity"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "AI is always saying Tuesday, on Tuesday, or some specific day like this. on a regular Tuesday is the worst."
+    }
+   ],
+   "rule": "O11",
+   "example": "The kitchen feeds about thirty people at the long table on Tuesday. The rest of the week each house cooks for itself, mostly from the garden."
+  },
+  {
+   "id": "W16",
+   "tell": "\"day-of-week or clock-time details\"; \"a made-up number or clock time\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Never invent casual day-of-week or clock-time details merely to make prose sound human or concrete."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a made-up number or clock time: \"five percent\", \"by lunch\", \"a morning of\""
+    }
+   ],
+   "rule": "O13",
+   "example": "The council meets at 7 pm in the barn to go over the water rota for the summer. The treasurer brings a lamp because the wiring out there never got finished."
+  },
+  {
+   "id": "W17",
+   "tell": "\"five percent is enough\"; \"how much is 5%?\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "like AI wants to put concrete numbers on stuff all the time, then people are wondering \"how much is 5%?\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"it's ok to say 5% is enough altho i feel it's a bit ai"
+    }
+   ],
+   "rule": "O13",
+   "example": "Setting aside five percent of the harvest is enough to cover the seed for next spring. The rest goes to the shared pantry and the market stall in town."
+  },
+  {
+   "id": "W18",
+   "tell": "\"unusual spellings\" (\"priveleged\"); \"Never add errors\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"unusual spellings should help pass pangram, but that's also cheating i'd say, so you can fix them\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"don't preserve my obvious typos. no need to recheck pangram to fix a typo.\""
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "Never add errors, fake specificity, memories, catchphrases, unusual punctuation, slang, or corpus tics to improve similarity."
+    }
+   ],
+   "rule": "O15",
+   "example": "The council worried that the land deal made the members look priveleged to the people in town. The treasurer suggested opening the orchard to the school every fall.",
+   "requires": "pyspellchecker"
+  },
+  {
+   "id": "W19",
+   "tell": "\"an unusual spelling or hyphenation\" (\"re-incarnation\", \"pre-requisite\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "an unusual spelling or hyphenation, Joel's lines included"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "(\"contra-indications\", \"pre-requisite\", \"re-incarnation\", \"priveleged\" → standard spellings;"
+    }
+   ],
+   "rule": "O15",
+   "example": "The healer told him he was the re-incarnation of a famous king, and he believed it for about a week. His brother laughed about it for much longer than that.",
+   "requires": "pyspellchecker"
+  },
+  {
+   "id": "W22",
+   "tell": "I want..., I don't want...; \"\"I want\" or \"I don't want\" opening a stance\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Phrases such as `I care about...`, `I want...`, `I don't want...`, `I'd want to see...`, `that tells me...`, and close variants are AI-shaped when the author's personal preference is not itself relevant to the reader's decision."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"'I want' is generally banned as a way to introduce my opinion, as it sounds very AI."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"i told you in this article you can use i want sometimes when it makes real sense because i actually do want to find a commune to live in, but there's just too much of this.\""
+    }
+   ],
+   "rule": "O20",
+   "example": "I want a council that meets in the open and keeps minutes anyone can read. The current one meets in the treasurer's kitchen and writes nothing down."
+  },
+  {
+   "id": "W26",
+   "tell": "That's where X matters to me (straight apostrophe)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "`That's where X matters to me` / `That's where X matters to me`"
+    },
+    {
+     "file": "AGENTS.md",
+     "quote": "as AI-shaped in Joel-byline prose when they merely announce the author's preference or importance before a general recommendation, consequence, or argument."
+    }
+   ],
+   "rule": "O22",
+   "example": "That's where the council matters to me, since it decides who gets to farm the lower field. Everything else on the land follows from that one choice."
+  },
+  {
+   "id": "W32",
+   "tell": "\"my first guess\", \"I'd probably want to\", \"I'd be tempted to\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "The linter flags \"my first guess\", \"I'd probably want to\", \"I'd be tempted to\" (E138)."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"this part is contradictory: \"I'd probably want to fix it by saying sweeter and sweeter things, which won't work,"
+    }
+   ],
+   "rule": "E138",
+   "example": "My first guess was that the pump had failed again. The real cause turned out to be a clogged filter near the bottom of the tank."
+  },
+  {
+   "id": "W37",
+   "tell": "\"\"Fine,\" \"Good,\" \"Great,\" as a clause of their own\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"Fine,\" \"Good,\" \"Great,\" as a clause of their own (\"Fine, they're nice boots.\"). Joel: \"super AI\", and he had said it before."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"i told you to stop saying 'Fine, Good, Great' as clauses before\""
+    }
+   ],
+   "rule": "O2",
+   "example": "She bought the boots at the market in town. Fine, they're nice boots, and they kept her feet dry all through the wet season."
+  },
+  {
+   "id": "W42",
+   "tell": "\"X with a nicer logo\", \"X with extra steps\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"super commune with a nicer logo\" is an AI-tell quip."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a stock comparison quip, \"X with a nicer logo\", \"X with extra steps\""
+    }
+   ],
+   "rule": "O21",
+   "example": "We don't need one big federation with a nicer logo to share tools between the farms. A shared shed and a sign-out sheet already do that job."
+  },
+  {
+   "id": "W43",
+   "tell": "smuggling talk: \"not smuggled into one sentence here\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Smuggling talk: \"not smuggled into one sentence here\" and its family"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"ai is always saying something like 'not smuggle in' or something about smuggling in.\""
+    }
+   ],
+   "rule": "O8",
+   "example": "My reasons are in those articles, not smuggled into one sentence here. Each one takes a few pages to lay out with the evidence behind it."
+  },
+  {
+   "id": "W44",
+   "tell": "\"individual coach phrases\" (\"You might notice…\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "individual coach phrases;"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "three coach phrases (\"You might notice…\", \"Or you might notice…\", \"You can figure that out later\")"
+    }
+   ],
+   "rule": "E41",
+   "example": "The cellar stays cool all year round. You might notice the bread goes stale faster in the summer kitchen. The baker moved the racks down there in June for that reason."
+  },
+  {
+   "id": "W45",
+   "tell": "an \"if you do, you might\" consequence",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "a direct caution where I had an \"if you do, you might\" consequence (E100)"
+    },
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "a consequence: \"If you do, you might take the accusation as proof your love really is conditional, when it could just be another part talking.\""
+    }
+   ],
+   "rule": "E41",
+   "example": "Some people answer every doubt with a long defense of their love. If you do, you might take the accusation as proof that the love was conditional all along."
+  },
+  {
+   "id": "W46",
+   "tell": "an action \"it\" (\"did it\", \"do it\", \"tried it\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "an action \"it\" (\"did it\", \"do it\", \"tried it\") in a paragraph's first two sentences"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"If you did it\" became \"If you did the protector action(s)\"."
+    }
+   ],
+   "rule": "R1",
+   "example": "The neighbors argued about the fence line for a month. If they did it again, the council would step in and walk the line with a tape measure."
+  },
+  {
+   "id": "W47",
+   "tell": "\"Key here is that…\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"'Key here' can't be how you open a section. that's referring to something. Key where? what? how did that slip in there?\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"Key here is that most of the writing on communities hasn't caught up with psychedelics.\""
+    }
+   ],
+   "rule": "O10",
+   "example": "Key here is that most of the writing on communities hasn't caught up with psychedelics. The older books barely mention them, and the newer ones mostly repeat the same warnings."
+  },
+  {
+   "id": "W48",
+   "tell": "\"\"doesn't get to decide\" and its family … when the subject isn't a person\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"doesn't get to decide\" and its family (\"doesn't get to\", \"gets to decide\", \"gets a vote\") when the subject isn't a person"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"'doesn't get to decide' sounds SO ai … an optimal efficiency quippy formulation which humans just rarely use for non-humans.\""
+    }
+   ],
+   "rule": "O1",
+   "example": "The weather doesn't get to decide when we plant the beans this year. The seed order goes in at the end of the winter, whatever the sky is doing."
+  },
+  {
+   "id": "W49",
+   "tell": "an x-not-y heading (\"The Medicine Part, Without Pretending It Isn't There\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"oh yeah that heading looks way ai for sure. always trying to do an x not y statement, isn't that on your tells list? humans don't do x not y as much.\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"The Medicine Part, Without Pretending It Isn't There\" → \"The Medicine Part - Yes, I'm Naming It\"."
+    }
+   ],
+   "rule": "H1",
+   "example": "## The Medicine Part, Without Pretending It Isn't There\n\nWriting about communities has mostly not caught up with psychedelics yet. The older books barely mention them, and the newer ones repeat the same warnings."
+  },
+  {
+   "id": "W50",
+   "tell": "\"a negation in a heading\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a negation in a heading (H1)"
+    }
+   ],
+   "rule": "H1",
+   "example": "## Why the Council Doesn't Vote on Gardens\n\nEach house plans its own garden plot in the spring and tells the council what it needs in seed. The council only steps in when two houses want the same corner of the field."
+  },
+  {
+   "id": "W51",
+   "tell": "a pointer word (\"This\", \"It\", \"The other\") opening the first paragraph under a heading",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a pointer word (\"This\", \"It\", \"The other\") opening the first paragraph under a heading (O10, 2026-10-06)"
+    }
+   ],
+   "rule": "O10",
+   "example": "## The Water Rota\n\nThis rota lists who carries water from the well on each day of the month. The list hangs on a nail by the kitchen door next to the calendar."
+  },
+  {
+   "id": "W52",
+   "tell": "\"A \"not Y\" tail on a finished claim\"; Emulate's \"not the other way around\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "A \"not Y\" tail on a finished claim (same message): \"And it always wants to add a 'not Y' part.\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Emulate's \"not the other way around\" went"
+    }
+   ],
+   "rule": "O9",
+   "example": "The guide gives new members practical steps for their first month on the land, not just theory. The steps came from the founders' own mistakes in the early years."
+  },
+  {
+   "id": "W53",
+   "tell": "\"Not x, but still y.\" (\"It isn't proof, but it still counts\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"there are other X Y rules, like \"Not x, but still y.\"\" (\"It isn't proof, but it still counts\")"
+    },
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "is in 10 failing paragraphs and 2 passing. That's too few to rest on. Joel named the shape himself"
+    }
+   ],
+   "rule": "O18",
+   "example": "The receipt isn't proof, but it still counts for something at the bank. The clerk took a copy and filed it with the loan papers."
+  },
+  {
+   "id": "W54",
+   "tell": "\"may have X and still Y\"; \"may be X and still Y\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"May be X and still Y\" is a tell"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"it makes no sense AND it sounds ai with \"may have X and still Y\"\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Another AI tell is \"may be X and still Y\" make sure that's in the shared tells list. Humans don't use that as much."
+    }
+   ],
+   "rule": "O17",
+   "example": "A scared child may get mixed up telling the story and still need protection. The adults on the council have to listen to the whole account first."
+  },
+  {
+   "id": "W56",
+   "tell": "\"isn't X, it's Y\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "(question runs, triads, \"isn't X, it's Y\")"
+    }
+   ],
+   "rule": "B2",
+   "example": "The fence isn't a wall, it's a promise to share the gate with the neighbors. They have used the gate every morning since the spring."
+  },
+  {
+   "id": "W57",
+   "tell": "\"always trying to do an x not y statement\" (tested in a sentence: \"not X but Y\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "always trying to do an x not y statement"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "The x-not-y family is wider than the tail and the heading"
+    }
+   ],
+   "rule": "B2",
+   "example": "The farm is not a hobby but a living for the whole family. The orchard alone pays for the school fees and the truck."
+  },
+  {
+   "id": "W59",
+   "tell": "a balanced \"X enough to A and Y enough to B\" pair",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a balanced \"X enough to A and Y enough to B\" pair (O7, Joel 2026-10-02: \"devoted enough to practice them and secure enough to disagree\" \"looks super highly polished\")"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "A balanced \"X enough to A and Y enough to B\" pair reads as polished AI, even when Pangram passes it."
+    }
+   ],
+   "rule": "O7",
+   "example": "The members were devoted enough to practice the rules and secure enough to disagree with them openly. The founders liked that more than they had expected to at the start."
+  },
+  {
+   "id": "W60",
+   "tell": "an objection in \"an \"even if\" clause\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "And give an objection its own plain sentence, not an \"even if\" clause."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"Every age of you was stuck with whatever it had then, and that includes the adult you were last year, even if they seem like the one who should have known better.\""
+    }
+   ],
+   "rule": "B1",
+   "example": "The old council did what it could with the money it had, even if it looks foolish to the members now. The roof it bought that year still keeps the rain out of the barn."
+  },
+  {
+   "id": "W61",
+   "tell": "a closing line that sums up: \"These are all questions that a community should consider in advance.\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"i fixed p8p9, it was way overcompleting itself, now it passes pangram together\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a paragraph's closing line that sums the paragraph up (\"These are all questions that a community should consider in advance.\"; O16"
+    }
+   ],
+   "rule": "O16",
+   "example": "Members will get sick and grow old on the land. Some will want to die at home among friends. These are all questions that a community should consider in advance."
+  },
+  {
+   "id": "W64",
+   "tell": "\"lists of 3 in general are an ai pattern\"; \"triads\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Lists of three (Joel, 2026-10-03 00:01): \"lists of 3 in general are an ai pattern\"."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "(question runs, triads,"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "for P3 it's a list of 3 that's why it's AI, you couldn' tsee that?"
+    }
+   ],
+   "rule": "E125",
+   "example": "The council handles the budget, the water rota, and the guest rooms for visitors. It meets once a month in the barn after supper."
+  },
+  {
+   "id": "W65",
+   "tell": "\"P! failed b ecause it has 2 lists of 3\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "two or more lists of three in one paragraph (E125, Joel 2026-10-03: \"P! failed b ecause it has 2 lists of 3\")"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"P18 has 2 lists of 3, super AI.\""
+    }
+   ],
+   "rule": "E125",
+   "example": "The council handles the budget, the water rota, and the guest rooms. Members bring bread, cheese, or fruit to each meeting in the barn."
+  },
+  {
+   "id": "W66",
+   "tell": "\"a bulleted or numbered list\" (\"lists in general are overused by AI\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"lists of 3 especially, and lists in general are overused by AI. try to avoid that unless it's really needed.\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a bulleted or numbered list (O19"
+    }
+   ],
+   "rule": "O19",
+   "example": "The house rules for guests fit on one short card by the door.\n\n- Cups get washed by whoever used them before the kitchen closes.\n- The pasture gate stays shut so the goats don't wander onto the road."
+  },
+  {
+   "id": "W67",
+   "tell": "Emulate's \"and … and … and\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"you replaced commas and even 'or' with 'and and and and' that looks like emulate trying to cheat, and it wasn't needed. still passes pangram with normal syntax\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "an \"and … and … and\" list, three repeats of the same \"and\" or \"or\" in one stretch without punctuation (O14"
+    }
+   ],
+   "rule": "O14",
+   "example": "Calling it a new name doesn't dissolve the panic and the comparison and the terror of abandonment and the urge to control. Members bring those old worries along when they move into the new house."
+  },
+  {
+   "id": "W68",
+   "tell": "\"packed or list sentences\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "packed or list sentences (B4/E15);"
+    }
+   ],
+   "rule": "B4",
+   "example": "In the end, after the vote, the treasurer, who had kept quiet all night, finally spoke. She asked for a second count of the paper ballots before anyone left."
+  },
+  {
+   "id": "W69",
+   "tell": "\"contrast constructions\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "contrast constructions (B2);"
+    }
+   ],
+   "rule": "B2",
+   "example": "The council chose a library rather than a parking lot for the empty corner on Main Street. The building work starts once the harvest is in and the crew has time."
+  },
+  {
+   "id": "W70",
+   "tell": "\"short knock-downs\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "short knock-downs (B3);"
+    }
+   ],
+   "rule": "B3",
+   "example": "The council spent three long evenings drafting a careful policy for guests who stay longer than a month. It failed. The guests themselves were never asked what they needed during the drafting."
+  },
+  {
+   "id": "W71",
+   "tell": "\"short paragraph-final lines\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "short paragraph-final lines;"
+    }
+   ],
+   "rule": "B7",
+   "example": "The council spent three long evenings drafting a careful policy for long-stay guests. Then it went to a vote. Midnight came and went."
+  },
+  {
+   "id": "W72",
+   "tell": "\"half or more of the paragraphs ending on a short line\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "half or more of the paragraphs ending on a short line (B7/B13);"
+    }
+   ],
+   "rule": "B7",
+   "example": "The council met in the barn after the harvest to sort out the guest policy. Midnight came and went.\n\nOur treasurer brought the numbers from the last three years of visitors. Grim reading.\n\nAfterward the cook made soup for everyone who stayed to finish the vote. Lentil, mostly."
+  },
+  {
+   "id": "W73",
+   "tell": "\"three or more paragraphs with the same opener\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "three or more paragraphs with the same opener (B13);"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "The linter's B13 counts the published openers too."
+    }
+   ],
+   "rule": "B13",
+   "example": "The council met in the barn after the harvest to settle the guest policy for winter.\n\nThe treasurer brought the numbers from the last three years of visitors and read them aloud.\n\nThe cook made lentil soup for everyone who stayed past midnight to finish the long vote."
+  },
+  {
+   "id": "W74",
+   "tell": "\"two or more paragraphs that are strings of instructions\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "two or more paragraphs that are strings of instructions (E23);"
+    }
+   ],
+   "rule": "E23",
+   "example": "Pick one small promise for the coming week. Write it on a card by the bed. Keep the card where the light hits it first thing.\n\nTake the card down on the last evening of the week. Tell a friend whether the promise held and what got in the way."
+  },
+  {
+   "id": "W75",
+   "tell": "\"coach phrases above 2 per 100 of my words\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "coach phrases above 2 per 100 of my words (E41);"
+    }
+   ],
+   "rule": "E41",
+   "example": "You might notice the bread goes stale faster in summer. You can store the loaves in the cold cellar near the well."
+  },
+  {
+   "id": "W76",
+   "tell": "\"second person above 6 per 100\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "second person above 6 per 100 (a review note only since 2026-09-26: density didn't separate Pangram results);"
+    }
+   ],
+   "rule": "E36",
+   "example": "Your garden needs water every day in July. Your neighbors will help if you ask them early in the season."
+  },
+  {
+   "id": "W77",
+   "tell": "\"the draft follows the source's order (D9)\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "the draft follows the source's order (D9). That's a note, not a failure."
+    }
+   ],
+   "rule": "D9",
+   "example": "The shared kitchen runs on a written budget, and the members review it every month at the meeting.\n\nA guest who stays longer than a month pays a share of the food costs like everyone else.\n\nA dispute about chores goes first to a rotating panel of members, before anyone raises it at the meeting.",
+   "source_text": "Members should keep a written budget for the shared kitchen and review it every month.\n\nGuests who stay longer than a month should pay a share of the food costs.\n\nDisputes about chores should go first to a rotating panel of members."
+  },
+  {
+   "id": "W78",
+   "tell": "\"Abstract concepts or feelings as agents\" (\"the anger goes there\"; \"goodwill doesn't answer those questions\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Abstract concepts or feelings as agents: one of the top tells to consider, not a ban."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"that AI tell again, in the linter. abstracts doing things.\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"the usage of abstract concepts or feelings as agents is one AI tell because it permits high efficiency of words."
+    }
+   ],
+   "rule": "O6",
+   "example": "The meeting agenda is the one place a member can push for something and win, so the anger goes there, trying to get some justice. The angry members fill the first hour with complaints about the rota."
+  },
+  {
+   "id": "W79",
+   "tell": "\"his Claude tics\"; \"Joel's tics\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "an invented weekday or clock time, his Claude tics, and"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Joel's tics;"
+    },
+    {
+     "file": "tools/humanization/reviewer/owner_bans.txt",
+     "quote": "Joel's Claude tics (his standing preference for all writing): \"doing some work\", \"load-bearing\", \"tells on itself\""
+    }
+   ],
+   "rule": "B11",
+   "example": "That paragraph is load-bearing for the whole section about the land trust. Without it the later chapters on money make very little sense."
+  },
+  {
+   "id": "W83",
+   "tell": "\"required as pre-reqs\": a prerequisite is already required",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "p15, you can' tsay \"required as pre-reqs\" that's redundant,, just say \"when things are pre-reqs\""
+    }
+   ],
+   "rule": "O38",
+   "example": "And when things are required as pre-reqs for people to get medicine, the circle holds a lot of power. Most of the time the circle is just three or four tired neighbors."
+  },
+  {
+   "id": "J01",
+   "tell": "\"and close syntactic variants\" of significance staging; \"and close variants\" of I care about... etc.; \"oddly arrogant or performatively intimate\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "and close syntactic variants as AI-shaped in Joel-byline prose"
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "This failure can sound oddly arrogant or performatively intimate"
+    }
+   ],
+   "reason": "The variants are open-ended, and his own wish as the subject is allowed."
+  },
+  {
+   "id": "J02",
+   "tell": "editor-facing rationale (this is important because it connects with my other articles); \"explaining to the editor/model why the material matters\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "editor-facing rationale (`this is important because it connects with my other articles`)"
+    },
+    {
+     "file": "AGENTS.md",
+     "quote": "Is the sentence explaining something to the reader, or explaining to the editor/model why the material matters?"
+    }
+   ],
+   "reason": "Whom a sentence addresses is a reading."
+  },
+  {
+   "id": "J03",
+   "tell": "unanchored this, that, it, here, earlier, what I mean; \"an undefined referent\"; \"A12 referents\"; \"Both kinds\"; \"for an actual case\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "Are every `this`, `that`, `it`, `here`, `earlier`, `what I mean`, and named concept anchored by visible article context?"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "P21's \"for an actual case\" pointed at a case the paragraph hadn't mentioned yet"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"Your \"Both kinds\" is referring to what?"
+    }
+   ],
+   "reason": "It needs the text before it. R1 and O10 catch two narrow forms."
+  },
+  {
+   "id": "J04",
+   "tell": "pointers sections back (\"like before\", \"the goodwill prayer from before\", \"it's the food bank all over again\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "nobody will remember something sections away."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "(\"like before\", \"the goodwill prayer from before\", \"it's the food bank all over again\")"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"Oops, you put in a referent to something sections ago nobody will remember"
+    }
+   ],
+   "reason": "The distance to the referent needs the article."
+  },
+  {
+   "id": "J05",
+   "tell": "a term the prose \"refers back to\" before it's introduced; \"E8 and E33 premises and terms not yet introduced\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "AGENTS.md",
+     "quote": "Is a technical or article-specific term introduced before the prose refers back to it?"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "E8 and E33 premises and terms not yet introduced"
+    }
+   ],
+   "reason": "It needs the article so far."
+  },
+  {
+   "id": "J06",
+   "tell": "\"least qualification necessary\"; \"skeptical aftercare explaining non-implications\"; \"prosecutorial language\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Use the **least qualification necessary** to avoid misinformation"
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "Do not add skeptical aftercare explaining non-implications that a reasonable reader would not infer from the prose."
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "over prosecutorial language that treats every unsupported extension as something to debunk."
+    }
+   ],
+   "reason": "It depends on what a reader would infer."
+  },
+  {
+   "id": "J07",
+   "tell": "\"aftercare that merely explains why a point was made, repeats an already available inference, labels a demonstrated dynamic, or fills conceptual space\"; \"unnecessary recap/interpretive aftercare\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Remove aftercare that merely explains why a point was made, repeats an already available inference, labels a demonstrated dynamic, or fills conceptual space because it can be filled."
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "unnecessary recap/interpretive aftercare"
+    }
+   ],
+   "reason": "It's a function, not a form."
+  },
+  {
+   "id": "J08",
+   "tell": "\"concrete image followed by explanatory aftercare\"; \"an image or an example made up to explain\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "concrete image followed by explanatory aftercare"
+    },
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "In each, the explanation was an image or an example made up to explain. It wasn't something a reader would need."
+    }
+   ],
+   "reason": "Whether the image was needed is a reading."
+  },
+  {
+   "id": "J09",
+   "tell": "overcompletion: \"you already have it explained and then you explain it again\"; \"functional redundancy\"; \"Over-explaining listicles\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"overcompletion is when you already have it explained and then you explain it again.\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Over-explaining listicles."
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "functional redundancy"
+    }
+   ],
+   "reason": "It needs what was already said, and the sentence's job (GATE:106)."
+  },
+  {
+   "id": "J10",
+   "tell": "\"an exhaustive list\"; covering \"every case\": \"the rule, its exception, the exception's own exception, and a safety carve-out\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a closing summary or an exhaustive list in the AI-drafted original"
+    },
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "Each one gives the rule, its exception, the exception's own exception, and a safety carve-out."
+    }
+   ],
+   "reason": "Exhaustive relative to the source. PANG:62 calls it a guess."
+  },
+  {
+   "id": "J11",
+   "tell": "a last line that sums up: \"ensuring the thought is fully complete and summed up perfectly\"; \"bringing it all together in the most defensible way possible\"; \"an ending that restates the thesis or reframes it\"; \"a last sentence that concluded the paragraph\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"just remove the last sentence since it was obviously doing that ai thing of ensuring the thought is fully complete and summed up perfectly\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "the ending is bringing it all together in the most defensible way possible."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "an ending that restates the thesis or reframes it (its strongest single signal);"
+    }
+   ],
+   "reason": "O16 catches one fixed form (W61). Summing up in general is a reading."
+  },
+  {
+   "id": "J12",
+   "tell": "a closing gloss: \"a second point added after the paragraph had already made its own\" (\"a caveat\", \"a consequence\", \"a moral\", \"an aphorism\", \"a tender beat\"); a last sentence opening \"So\", \"That way\", \"It just\", \"Then again\", or That, This, It, So or Which",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "The dropped sentence was a second point added after the paragraph had already made its own:"
+    },
+    {
+     "file": "tools/humanization/TELLS-FROM-PANGRAM-DATA-20261007.md",
+     "quote": "So the linter gets no rule for it. A reader has to judge it: read the paragraph without its last sentence."
+    }
+   ],
+   "reason": "PANG:50: 6 failing against 7 passing, so \"A reader has to judge it\"."
+  },
+  {
+   "id": "J13",
+   "tell": "\"matched pair ending on punchline gives it away\"; \"a punchy closer\"; \"a poignant last line\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Joel: \"matched pair ending on punchline gives it away.\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "A crafted line to say followed by a poignant last line was its own AI window"
+    }
+   ],
+   "reason": "Tone."
+  },
+  {
+   "id": "J14",
+   "tell": "\"Wry humor\" (\"wry in a strange way which i can't pin down\"; \"lol ... it's more wry\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Wry humor. Joel: \"wry in a strange way which i can't pin down\". His is goofy and glad."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"the wry humor is also an AI tell. it's wry in a strange way\"."
+    }
+   ],
+   "reason": "Tone, and Joel can't pin it down."
+  },
+  {
+   "id": "J15",
+   "tell": "a quip AI colonized: \"just with longer meetings and fewer robes\"; \"the 1972 line is witty altho it's kind of an obvious ai quip\"; \"a quip per beat\"; \"semi quip\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"I was able to retain the sacred part, but no matter how i worded fewer robes and longer meetings it got flagged as AI, which yeah, it does look ai after ai colonized it.\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"the 1972 line is witty altho it's kind of an obvious ai quip\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"the last line is like a semi quip"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "whether a line is a quip at all stays a reader's call"
+    }
+   ],
+   "reason": "\"whether a line is a quip at all stays a reader's call\" (GATE:132). O21 has only two stock forms."
+  },
+  {
+   "id": "J16",
+   "tell": "\"Too many made-up scenes\"; \"a textbook dinner vignette\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Too many made-up scenes: a caution, not a ban."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"i'm not saying to ban made-up scenes, they can be useful, but you're overusing them here.\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "(a textbook dinner vignette)"
+    }
+   ],
+   "reason": "Knowing what's made up needs the source."
+  },
+  {
+   "id": "J17",
+   "tell": "\"synthetic didactic prop selection\"; \"the generic image for a specific, silly one\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "synthetic didactic prop selection"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "traded the generic image for a specific, silly one"
+    }
+   ],
+   "reason": "A judgment of quality."
+  },
+  {
+   "id": "J18",
+   "tell": "\"fabricated scheduling, scenery, or incidental specificity\"; \"fake specificity\"; \"E36 details that fit every reader\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "not fabricated scheduling, scenery, or incidental specificity"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "E36 details that fit every reader"
+    }
+   ],
+   "reason": "It needs the source. Weekdays and clock times are mechanical (W15, W16)."
+  },
+  {
+   "id": "J19",
+   "tell": "\"fake-spontaneity markers\"; \"filler/hesitation is earned or stage-managed\"; \"asides shaped like his\"; \"a goofy exclamation\"; \"speech markers laid over AI shapes\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "fake-spontaneity markers"
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "whether filler/hesitation is earned or stage-managed"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "and so did asides shaped like his (\"(one, I said one!)\"), so copying the shape of his moves isn't the fix."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "speech markers laid over AI shapes"
+    }
+   ],
+   "reason": "Earned or staged is a reading. The fixed \"Nope.\" and \"Aww, buddy.\" are W38."
+  },
+  {
+   "id": "J20",
+   "tell": "T02 \"instruction-manual cadence\": \"one-function-per-sentence marching\"; \"the next sentence lands like code without a hitch\"; \"a definition sentence for each job\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "one-function-per-sentence marching"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"yeah it's again that marching order where the next sentence lands like code without a hitch.\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "(a definition sentence for each job)"
+    }
+   ],
+   "reason": "It's a property of the sequence. E23's imperative count is a proxy (W74)."
+  },
+  {
+   "id": "J21",
+   "tell": "T09 \"equal efficiency\": \"Optimal efficiency\"; \"suspiciously efficient equality\"; \"equal weight\"; \"five even items\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "`Optimal efficiency` is itself a risk pattern when nearly every sentence cleanly performs one teaching job and then hands off to the next."
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "with suspiciously efficient equality"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "What sank them (nothing noticed, equal weight, teaching cadence, a tidy taxonomy) isn't mechanical"
+    }
+   ],
+   "reason": "GATE:565 says it \"isn't mechanical\"."
+  },
+  {
+   "id": "J22",
+   "tell": "T13 \"nothing noticed\"; \"organization needs to be not reducible to code\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"it's not that you can't have an organized essay. it's that your organization needs to be not reducible to code"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "T13 (nothing noticed)"
+    }
+   ],
+   "reason": "GATE:565 says it \"isn't mechanical\"."
+  },
+  {
+   "id": "J23",
+   "tell": "\"one source function per scene beat\"; \"a scene that just skins the source's order still fails\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "one source function per scene beat"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "(a scene that just skins the source's order still fails)"
+    }
+   ],
+   "reason": "It needs the source map."
+  },
+  {
+   "id": "J24",
+   "tell": "\"Abrupt complication\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Abrupt complication is another risk: a sentence can be substantively correct but still feel model-written when it introduces a new concern with no reader-visible reason for why the topic just changed."
+    }
+   ],
+   "reason": "Whether the turn has a visible reason is a reading."
+  },
+  {
+   "id": "J25",
+   "tell": "\"generic therapeutic abstraction\"; \"abstractions became happenings\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "generic therapeutic abstraction"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "abstractions became happenings"
+    }
+   ],
+   "reason": "An open class of words."
+  },
+  {
+   "id": "J26",
+   "tell": "\"tighter, more exact, more formal or more hedged\" wording",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "The side that failed is usually tighter, more exact, more formal or more hedged"
+    }
+   ],
+   "reason": "Only relative to a looser wording."
+  },
+  {
+   "id": "J27",
+   "tell": "\"stacked hedges\"; \"the hedging self-talk (\"rein in my enthusiasm\")\"; \"The hedge \"and it might be right\" went\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "(a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "the hedging self-talk (\"rein in my enthusiasm\")"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "The hedge \"and it might be right\" went"
+    }
+   ],
+   "reason": "GATE:563 says it \"isn't mechanical\"."
+  },
+  {
+   "id": "J28",
+   "tell": "\"a therapist's sequence\", \"a reassuring close\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "what sank them (a therapist's sequence, stacked hedges, a reassuring close) isn't mechanical."
+    }
+   ],
+   "reason": "The same line says they aren't mechanical."
+  },
+  {
+   "id": "J29",
+   "tell": "\"a tidy taxonomy\"; \"Taxonomy inside a list item\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a tidy taxonomy"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Taxonomy inside a list item."
+    }
+   ],
+   "reason": "GATE:565 says it \"isn't mechanical\"."
+  },
+  {
+   "id": "J30",
+   "tell": "\"Telegraphic fragments\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Telegraphic fragments become whole sentences to \"you\"."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Bare items that were already fine stay bare."
+    }
+   ],
+   "reason": "\"Bare items that were already fine stay bare\" (CAT:72)."
+  },
+  {
+   "id": "J31",
+   "tell": "\"Reassurance and commentary about the text itself\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Reassurance and commentary about the text itself."
+    }
+   ],
+   "reason": "It's a function."
+  },
+  {
+   "id": "J32",
+   "tell": "\"Mechanism talk and over-precise sourcing\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Mechanism talk and over-precise sourcing."
+    }
+   ],
+   "reason": "It depends on what the reader needs."
+  },
+  {
+   "id": "J33",
+   "tell": "\"The bridge sentence that announces the next move\"; \"generic bridges\"; \"lines that announce a paragraph (B5)\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "The bridge sentence that announces the next move."
+    },
+    {
+     "file": "SKILL.md",
+     "quote": "generic bridges"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "lines that announce a paragraph (B5);"
+    }
+   ],
+   "reason": "It's a function. B5 flags a few openers only."
+  },
+  {
+   "id": "J34",
+   "tell": "\"finished principles (B1)\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "finished principles (B1);"
+    }
+   ],
+   "reason": "It's a function. B1 flags proxies (\"even if\", \"still counts\", a \"Most…\" opener)."
+  },
+  {
+   "id": "J35",
+   "tell": "\"The moral stated as an antithesis\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "The moral stated as an antithesis."
+    }
+   ],
+   "reason": "It's a function."
+  },
+  {
+   "id": "J36",
+   "tell": "\"false symmetry/completeness\" (\"Both approaches fail for symmetric reasons\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "false symmetry/completeness"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"Both approaches fail for symmetric reasons."
+    }
+   ],
+   "reason": "A reading."
+  },
+  {
+   "id": "J37",
+   "tell": "\"pre-completed reasoning\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "pre-completed reasoning"
+    }
+   ],
+   "reason": "A reading."
+  },
+  {
+   "id": "J38",
+   "tell": "\"a thesis stated before the first part\"; \"a topic-sentence opener\"; \"a thesis opener\"; \"a claim opener\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a thesis stated before the first part;"
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "a topic-sentence opener (\"Some of it happens where nobody else can see.\");"
+    }
+   ],
+   "reason": "A reading."
+  },
+  {
+   "id": "J39",
+   "tell": "\"a summary or synthesis stage\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "a summary or synthesis stage;"
+    }
+   ],
+   "reason": "A shape of the whole section."
+  },
+  {
+   "id": "J40",
+   "tell": "\"stakes escalated\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "stakes escalated;"
+    }
+   ],
+   "reason": "A reading."
+  },
+  {
+   "id": "J41",
+   "tell": "\"the editorial-explainer voice\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "the editorial-explainer voice."
+    }
+   ],
+   "reason": "A register."
+  },
+  {
+   "id": "J42",
+   "tell": "insight that's set up \"too much rather than throw it in where it naturally arises\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"AI often doesn't have deep insight, and if it does, it tends to set it up too much rather than throw it in where it naturally arises.\""
+    }
+   ],
+   "reason": "A reading."
+  },
+  {
+   "id": "J43",
+   "tell": "\"the 3 part conditional syntax\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "the 3 part conditional syntax"
+    }
+   ],
+   "reason": "The documents don't say what the form is, so no pattern or test can be written from them."
+  },
+  {
+   "id": "J44",
+   "tell": "\"questions the text answers itself\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "questions the text answers itself"
+    }
+   ],
+   "reason": "Whether the next line answers the question is a reading."
+  },
+  {
+   "id": "J45",
+   "tell": "advice turned into an observation (\"it sounds like it's making an observation ... but it is supposed to advise\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "\"it sounds like it's making an observation about peer-led ceremonies in general but it is supposed to advise\"."
+    }
+   ],
+   "reason": "It needs the sentence's intended job."
+  },
+  {
+   "id": "J46",
+   "tell": "an emoji that \"only labels a thing or an activity\" (🐶 🎶 💆 🔥); \"gratuitous emojis\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "No emoji that only labels a thing or an activity (🐶 🎶 💆 🔥 came out): \"we don't need an emoji just because it could be there.\""
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "Pointers, 😉 and gratuitous emojis are banned"
+    }
+   ],
+   "reason": "A reading. The allowlist itself is mechanical (W14)."
+  },
+  {
+   "id": "J47",
+   "tell": "\"catchphrases, unusual punctuation, slang, or corpus tics\" added to improve similarity",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "SKILL.md",
+     "quote": "Never add errors, fake specificity, memories, catchphrases, unusual punctuation, slang, or corpus tics to improve similarity."
+    }
+   ],
+   "reason": "Not defined in the documents; it depends on his corpus."
+  },
+  {
+   "id": "J48",
+   "tell": "\"a list of conditions\", when every fix adds a clause",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "when every fix adds a clause, the paragraph becomes a list of conditions, and a run of those reads as a manual."
+    }
+   ],
+   "reason": "A property of the sequence."
+  },
+  {
+   "id": "J49",
+   "tell": "a practice paragraph that ends \"on a prediction of how the reader will sound\" or \"on a technique\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "A practice paragraph ends on the next move of the practice, not on a prediction of how the reader will sound."
+    },
+    {
+     "file": "tools/humanization/JOEL-FIXES-CATALOGUE-20260928.md",
+     "quote": "end on a plain statement of what the acts are for (\"a base for love to grow\"), not on a technique."
+    }
+   ],
+   "reason": "A reading."
+  },
+  {
+   "id": "J50",
+   "tell": "a word that says again what the word next to it says",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Whether two other words say the same thing stays a reader's call"
+    }
+   ],
+   "reason": "Which words repeat each other is a matter of meaning; O38 checks only the family Joel caught."
+  },
+  {
+   "id": "J51",
+   "tell": "a slogan that packs a whole situation into one noun (\"Decide the process before the name\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Whether a line packs a situation into a noun is a reader's call"
+    }
+   ],
+   "reason": "Which noun stands for a whole situation is a matter of meaning; a pattern would also catch plain lines like \"choose a mediator before the crisis\"."
+  },
+  {
+   "id": "W84",
+   "tell": "two parentheticals in a row",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "you can't put p22 into parentheses... that's 2 parentheticals in a row..."
+    }
+   ],
+   "rule": "O39",
+   "example": "You have a need that far outstrips your free resource right now. (This doesn't mean you're bad or doomed, it's about timing.)\n\n(Any humane membership process should have ways of not flat-out rejecting people who fall into these categories.)"
+  },
+  {
+   "id": "W85",
+   "tell": "\"capacity\" as therapy-speak",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "capacity is an AI tell"
+    }
+   ],
+   "rule": "O40",
+   "example": "And on the other hand, look at whether the group has enough capacity to support them without becoming a full-time caretaker operation."
+  },
+  {
+   "id": "J52",
+   "tell": "a vague phrase left unsaid (a \"not now\" decision about what?)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "it was also the vagueness of that \"not now.\""
+    }
+   ],
+   "reason": "Whether a phrase says enough in its place needs a reader of the paragraph; his fix was a few words (\"on membership\"), not a pattern."
+  }
+ ]
 }
