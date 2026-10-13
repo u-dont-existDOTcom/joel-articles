@@ -5,7 +5,10 @@ Usage (from the repo root):
 
 DRAFTS.json maps each key to the exact text Pangram should read. A long text can start with one the
 page already holds: {"text": FULL, "prefix": PREFIX, "prefix_from_storage": "t47svh1"} has the page
-build FULL from sessionStorage["t47svh1"] (which must hold PREFIX) plus the rest. Every text checked
+build FULL from sessionStorage["t47svh1"] (which must hold PREFIX) plus the rest. Or it can be joined
+from parts: {"text": FULL, "concat": [{"key": "P3"}, {"lit": "\n\n"}, {"key": "old", "text": OLD}]},
+where a key is an earlier item of the batch or a stored text given with its words (2026-10-13: an h2
+and its h1 no longer get pasted in full, which cost a turn's worth of output for every check). Every text checked
 is also kept in sessionStorage under its own key, so a later batch can start from it.
 
 GATE.json holds each key's gate record:
@@ -99,8 +102,22 @@ def problems(key, gate, seen=()):
 
 def batch_js(name, items):
     rows = []
+    known = {k: (e if isinstance(e, str) else e['text']) for k, e in items}
     for key, entry in items:
         full = entry if isinstance(entry, str) else entry['text']
+        if isinstance(entry, dict) and entry.get('concat'):
+            # [{"key": K} (an earlier item of this batch, or {"key": K, "text": T} for one stored before),
+            #  {"lit": "..."}]: the page joins them, so a section isn't pasted again in full.
+            js, txt = [], ''
+            for c in entry['concat']:
+                if 'lit' in c:
+                    js.append(json.dumps(c['lit'])); txt += c['lit']
+                else:
+                    js.append('sessionStorage.getItem(%s)' % json.dumps(c['key'])); txt += c.get('text', known.get(c['key'], '\0'))
+            if txt != full:
+                sys.exit('%s: its concat parts do not join up to its text' % key)
+            rows.append('[%s, () => %s, %s]' % (json.dumps(key), ' + '.join(js), json.dumps(sha(full))))
+            continue
         if isinstance(entry, dict) and entry.get('prefix_from_storage'):
             pre = entry['prefix']
             if not full.startswith(pre):
@@ -108,7 +125,7 @@ def batch_js(name, items):
             src = 'sessionStorage.getItem(%s) + %s' % (json.dumps(entry['prefix_from_storage']), json.dumps(full[len(pre):]))
         else:
             src = json.dumps(full)
-        rows.append('[%s, %s, %s]' % (json.dumps(key), src, json.dumps(sha(full))))
+        rows.append('[%s, () => %s, %s]' % (json.dumps(key), src, json.dumps(sha(full))))
     return ("const items = [" + ', '.join(rows) + "];\n"
             "window.__" + name + " = [];\n"
             "const log = m => window.__" + name + ".push(m);\n"
@@ -117,7 +134,8 @@ def batch_js(name, items):
             "const button = () => [...document.querySelectorAll('button[type=submit]')].find(b => /check for ai/i.test(b.innerText));\n"
             "const wait = ms => new Promise(r => setTimeout(r, ms));\n"
             "async function run() {\n"
-            "  for (const [k, T, want] of items) {\n"
+            "  for (const [k, mk, want] of items) {\n"
+            "    const T = mk();  // built when its turn comes, so it can use texts stored earlier in this batch\n"
             "    for (let j = 0; j < 20 && !(button() && document.querySelector('textarea')); j++) await wait(500);\n"
             "    const ta = document.querySelector('textarea');\n"
             "    if (!ta) { log(k + ': no textarea'); break; }\n"

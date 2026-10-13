@@ -11,6 +11,8 @@ Then write one ticket per sentence:
 - FIX if it is. Say what makes it AI-shaped, pointing to what the labeled examples showed. Then give an instruction the writer can carry out without seeing the whole picture: cut it, merge it with another sentence, split it, move it, or rewrite it. For a rewrite, say what the reader should get from it instead (a positive target), not the words. A cut never takes out a point the guide passage makes, unless the article already says it: fix how it's said instead (Joel, 2026-10-12: "never take out something important in order to pass pangram").
 
 Things we know flipped a verdict here (from the examples):
+- The why a reader is missing, said plainly (2026-10-13: Joel fixed a paragraph that read AI three times by adding why a child of good parents takes these bargains too, "maybe people simply repeatedly praised you for these things, rather than your inherent worth", the reason a grounding had parked; and by saying the guide's abstraction in plain words, "when your whole identity is so tied up with living up to those ideals to please others").
+- One item of a tight, parallel list loosened into how a person would ask it (2026-10-13: four short questions read AI; "Would this still be something I'd feel is worth doing if at the end of the day, I didn't get praise from anyone for it?" for "Would this still be worth doing if nobody praised me for it?" passed).
 - The author's own wording passed where an AI's smoother, more casual rewording of it failed.
 - Cutting a last sentence that summed up or concluded flipped a paragraph to Human.
 - A concrete case with the jobs inside it passed where a sentence explaining each job failed.

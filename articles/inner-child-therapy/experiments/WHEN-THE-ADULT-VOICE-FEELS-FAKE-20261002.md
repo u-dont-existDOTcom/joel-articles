@@ -672,3 +672,16 @@ Joel put the political tribe's clause back into P1 and checked it himself ("neve
 1. His answers to questions 17 to 19, and his merge of this turn's pull request.
 2. With P3 and the questions fixed: the h3, the h2 and the h1 through Pangram.
 3. The next h2, Let the Child Be Bad at Things.
+
+## Turn 50 (2026-10-13, from 00:47 UTC): Joel's answers 17 to 19
+
+His fixes for Untangling P3 and the Four Pairs questions, "A" for the credit to Key, and a note that his weekly credits are at 5%, so work gets saved as it goes for his other account. Pull request #167 (turns 49 and 50) is open.
+
+- **In:** his P3 and questions as he wrote them, and the credit to Key (`t50-answers/REVIEWS.md`). Alone: P3 100% Human (139), the questions (88), P6 with the credit (100). The h3 100% Human (563), the h1 (1,609); the h2 Mostly Human, one AI window at the seam of P2 and P3.
+- **Lesson E170:** a fix round starts from the why a reader is missing (his P3 added the reason a grounding had parked) and loosens one line of a tight list.
+- **Tool:** `pangram_gate.py` builds sections from texts the page holds (`concat`).
+
+### Next
+
+1. The h2's seam: one fix of P2's last sentence, then the h2 again; if it still reads AI there, it goes to Joel.
+2. The next h2, Let the Child Be Bad at Things.

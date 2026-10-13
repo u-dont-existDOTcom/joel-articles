@@ -887,6 +887,16 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
         self.assertEqual(r.returncode, 2)
         self.assertIn("no 'missing' list", r.stderr)
 
+    def test_a_section_can_be_joined_from_earlier_items(self):
+        para = 'One. Two, maybe. Three.'
+        sec = '# H\n\n' + para
+        gate = {'p': self.CLEAN, 'h': {'kind': 'section', 'parts': ['p']}}
+        r, js, _ = self.run_gate({'p': para, 'h': {'text': sec, 'concat': [{'lit': '# H\n\n'}, {'key': 'p'}]}}, gate, ['p', 'h'])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn('() => "# H\\n\\n" + sessionStorage.getItem("p")', js)
+        r, _, _ = self.run_gate({'p': para, 'h': {'text': sec + '!', 'concat': [{'lit': '# H\n\n'}, {'key': 'p'}]}}, gate, ['p', 'h'])
+        self.assertNotEqual(r.returncode, 0)
+
 
 class MarchSplitsLists(unittest.TestCase):
     """2026-10-12 (turn 49): the march reader got a list's lead-in and its items run together, so a lead-in and
