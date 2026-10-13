@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "31bb1d4d39daa2ef11348c96f935c6c4945ff229ffe8dc756e075cdd6434e782",
+          "sha256": "6f31c06d14a912c7ab3f19c5219140f3372967ed308956d44c8942ce580c9ed6",
           "role": "humanization_working_record"
         },
         {
@@ -5995,6 +5995,16 @@
         {
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-13-turn51.json",
           "sha256": "add7a56c854cc21ea8f2caceb239752e40bb2ebb53da4167e239423fa85d700f",
+          "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t52-repeats/REPEATS-SWEEP-20261013.md",
+          "sha256": "931acb7360d85779b6aa20deae0bac13d9a1479616a0e844f72d81b0d8b6fadb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-13-turn52.json",
+          "sha256": "518ec354139d0494990b79a8bbabe7f6f9b2953d32fecd5c55ebab44f7b36128",
           "role": "in_context_map"
         }
       ]
