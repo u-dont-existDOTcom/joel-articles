@@ -833,6 +833,13 @@ class PangramBatchNeedsTheGate(unittest.TestCase):
             read = (d / 'b-read.js').read_text(encoding='utf-8') if (d / 'b-read.js').exists() else None
         return r, js, read
 
+    def test_the_reader_gives_each_result_its_link_and_flagged_words(self):
+        # 2026-10-13 (E171): Joel couldn't see what had been checked when a flag was reported.
+        _, _, read = self.run_gate({'p': 'One. Two.'}, {'p': self.CLEAN}, ['p'])
+        self.assertIn("'https://www.pangram.com/history/' + it.uuid", read)
+        self.assertIn('start_index', read)
+        self.assertIn("flagged:", read)
+
     def test_a_march_without_a_break_blocks_the_call(self):
         r, js, _ = self.run_gate({'p': 'One. Two. Three.'}, {'p': dict(self.CLEAN, march=['S S S'])}, ['p'])
         self.assertEqual(r.returncode, 2)

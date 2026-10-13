@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "4e6cf52b1e5a74f7fb02d55459e2553979433b4489154e6a8394a4e084e6e257"
+          "sha256": "94768d6db24cc7e25592d3f9e2ea5d324c084a9b04563e4522ad8bd49c63b300"
         }
       },
       "review": {
@@ -2784,7 +2784,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/DANGEROUS-ADULT-SELF-AUDIT-RULES-20260924.md",
-          "sha256": "048f10f09f5f46c852c33f1c8b9f08891a118dd33495f38035d9b1e79fed40ad",
+          "sha256": "c407d604477982e6fc54f95f48b816a0809c3a9d454caaf1dd59c0aa3761d1e6",
           "role": "humanization_working_record"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "87d6297679a7140134d382a7eaf77bee22bb3f76a018c0dda242ab15596a2085",
+          "sha256": "6130c475ea8da7006359ebac2ff4408bd056d4ecd91f4503749c2c3bc1b3b7fe",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "b9968021f4ad4270d07238ba59fb98b59472da0f43b46dcf2f4fdcbe40308715",
+          "sha256": "b43190cc626c3de52a5a500f0fd400c3f9d63408827f5c20b5e2832385c8a91c",
           "role": "owner_questions_page"
         },
         {
@@ -5954,7 +5954,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t50-answers/REVIEWS.md",
-          "sha256": "4c48a445ebed51a0ac2e9c455b4d82b9e132ee4d607360a49368710bf48708ac",
+          "sha256": "bc392cf5aba381388a04757f7087e76875c7a675dcaf815a441a561cd0d6ed1e",
           "role": "humanization_working_record"
         },
         {
@@ -5991,6 +5991,11 @@
           "path": "articles/inner-child-therapy/tools/targets/t51-g3.json",
           "sha256": "53b3e9a6494e16ef77ac9f3a845e494b13e4e008f2ea5526128b26032d4fe6f2",
           "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-13-turn51.json",
+          "sha256": "92af479191e93aec2620b2cf683db4ab4614a25ad6a7d1e21b68287a21afc337",
+          "role": "in_context_map"
         }
       ]
     },

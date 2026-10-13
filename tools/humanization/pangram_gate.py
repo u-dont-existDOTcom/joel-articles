@@ -37,7 +37,10 @@ went before their stance checks and march reads. Lesson E167.
 Writes OUT.js, the in-page batch for the dashboard tab (it fills each text, checks its SHA-256, clicks,
 and keeps its progress in window.__NAME; it returns 'started' at once and runs on), and
 OUT-read.js, which finds each text's result in the History by its SHA-256 and returns the UTC time,
-history id, words, AI likelihood, headline and windows.
+history id, the result's link, words, AI likelihood, headline and windows, with the words of every window
+that isn't Human. A flag is reported with that link, those words and what the checked text was made of
+(Joel, 2026-10-13 12:46 UTC, after I'd written that the seam of P2 and his P3 reads AI when only the whole
+919-word h2 did: "show me the exact thing you tested". Lesson E171).
 """
 import argparse
 import hashlib
@@ -167,9 +170,14 @@ def reader_js(items, pages=5):
             "    const k = want[await sha(d.prompt || '')];\n"
             "    if (!k || out[k]) continue;\n"
             "    const o = d.response.overall;\n"
-            "    out[k] = {history_id: Number(it.id), utc: new Date(it.timestamp).toISOString().replace(/\\.\\d+Z$/, 'Z'), words: o.word_count,\n"
+            "    const n = (d.prompt || '').replace(/\\n{2,}/g, '\\n');  // window indexes count a blank line as one newline\n"
+            "    const words = w => { const s = n.slice(w.start_index, w.end_index).trim();\n"
+            "      return s.startsWith((w.text || '').trim().slice(0, 30)) ? s : (w.text || '').trim() + '…'; };\n"
+            "    out[k] = {history_id: Number(it.id), link: 'https://www.pangram.com/history/' + it.uuid,\n"
+            "              utc: new Date(it.timestamp).toISOString().replace(/\\.\\d+Z$/, 'Z'), words: o.word_count,\n"
             "              avg_ai_likelihood: o.avg_ai_likelihood, headline: o.headline, version: o.version,\n"
-            "              windows: (o.windows || []).map(w => w.label + ', ' + w.confidence + ', ' + w.word_count)};\n"
+            "              windows: (o.windows || []).map(w => w.label + ', ' + w.confidence + ', ' + w.word_count),\n"
+            "              flagged: (o.windows || []).filter(w => w.label !== 'Human').map(w => w.label + ' (' + w.word_count + ' words): ' + words(w))};\n"
             "  }\n"
             "  url = l.next;\n"
             "}\n"

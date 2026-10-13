@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-13 (turn 50). **One open question (20).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-13 (turn 51). **One open question (20).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,20 +11,20 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 20. The seam between Untangling P2 and your P3 reads AI (your fix?)
+### 🟣 20. Untangling P2's last sentence and your P3's first, flagged only inside the whole h2 (your fix?)
 
 > In its controlling form, that caretaking can drift into keeping other people dependent, because being needed has become the caretaker's main source of value. Beauty, intelligence, achievement and caretaking can all be real gifts, but they become "belonging bargains" when your whole identity is so tied up with living up to those ideals to please others.
 
-The end of P2 and the start of your P3. Each paragraph passes alone (P2 0.042, your P3 0.008), and the h3 and the h1 read 100% Human, but the h2 reads Mostly Human, with one AI window (57 words, 0.572) right here. I loosened P2's last sentence once ("because somewhere along the way, being needed became the caretaker's main source of value"): P2 alone still passed (0.066), the window stayed, and the h1 grew a new AI window, so P2 is back as it was.
+The check behind this was the whole h2 as one text, 919 words: the heading, your P1, P2, your P3 and all of Four Pairs ([that result in Pangram](https://www.pangram.com/history/e2f9c10b-b9c9-45f9-991e-b4fdb39ae583), 2026-10-13 00:51 UTC: Mostly Human, 93% Human, with these two sentences as its one AI window, 57 words, 0.572). Every smaller check reads Human: your heading, P2 and P3 (250 words, 0.012), your P2 and P3 (246, 0.012) and your heading and P2 (111, 0.112), all 12:38 to 12:45 UTC, and P2 alone (0.042) and your P3 alone (0.008). The larger one does too: the h1, which holds the whole h2, reads 100% Human (1,609). In turn 50 I wrote that the seam reads AI, which made it sound like P2 and P3 fail together. They don't; only the 919-word h2 flags them. One loosening of P2's last sentence didn't clear that window and gave the h1 one, so P2 is as it was.
 - **A. Your fix** (P2's last sentence is mine, so change anything there).
-- **B. Leave it for now.**
+- **B. Leave it** (everything smaller or larger than the h2 reads Human).
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #167 (turns 49 and 50)
+### 🟠 Merge pull request #167 (turns 49 to 51)
 
 This turn's work is in a new pull request; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
