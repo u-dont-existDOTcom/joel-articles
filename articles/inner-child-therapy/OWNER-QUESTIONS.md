@@ -24,9 +24,9 @@ The check behind this was the whole h2 as one text, 919 words: the heading, your
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #167 (turns 49 to 51)
+### 🟠 Merge pull request #168 (turn 51)
 
-This turn's work is in a new pull request; the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+This turn's work is in a new pull request (you merged #167, turns 49 and 50, at 12:46 UTC); the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
 
 ## Decided
 

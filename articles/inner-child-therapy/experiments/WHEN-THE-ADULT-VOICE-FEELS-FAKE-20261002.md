@@ -693,9 +693,10 @@ Joel checked the heading, P2 and his P3 of Untangling the Belonging Bargains him
 - **Owned:** my turn-50 message called it the seam of P2 and P3, which made it sound like the two paragraphs fail together. Only the 919-word h2 flags them; every smaller check and the h1 read Human.
 - **Lesson E171:** a flag goes to Joel with its link, the flagged words, what the checked text was made of and the smaller and larger checks.
 - **Tool:** `pangram_gate.py`'s reader returns each result's link and the words of every window that isn't Human.
-- **Question 20** says all this now and still offers your fix or leave it.
+- **Question 20** says all this now and still offers his fix or leave it.
+- **Debugged:** on the laptop, `git fetch origin main` had stopped moving `origin/main` (it still pointed at #162), so the push's ancestor check compared against an old main. The push now fetches with explicit refspecs (`+refs/heads/main:refs/remotes/origin/main`), and found #167 merged, so turn 51 is pull request #168.
 
 ### Next
 
-1. His answer to question 20, and his merge of pull request #167.
+1. His answer to question 20, and his merge of pull request #168 (turn 51; he merged #167 at 12:46 UTC).
 2. The next h2, Let the Child Be Bad at Things: its writers (`tools/targets/t51-g1.json` to `t51-g3.json`).
