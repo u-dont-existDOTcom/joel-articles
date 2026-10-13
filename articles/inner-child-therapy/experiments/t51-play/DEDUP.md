@@ -1,0 +1,8 @@
+# Dedup: Let the Child Be Bad at Things, groups 1 to 3 (turn 50, 2026-10-13)
+
+`reviewer.py dedup` with targets `t51-g1` to `t51-g3` against the whole article, by a fresh Opus agent. B numbers are the article's blocks in that prompt.
+
+- **Group 1** (reflection and experiments): reflection revealing what was suppressed is SAID (B206, B207). Left to add: reflection isn't enough on its own, identity also needs experiments in real life; try a specific new activity (painting, dancing, gardening, a language, a sport, volunteering, music); one with no obvious résumé or social-position payoff; watch what holds your attention.
+- **Group 2** (the old internal parent's verdict): left to add: the inherited parent demanding instant talent at something new; the first awkward try taken as proof you're stupid or clumsy, or not "really" that kind of person (NEW); the adult protecting the child from that verdict as it comes, not only repairing afterward; permission to be bad at it (NEW for this situation); finding out whether you enjoy it, not proving worth (both ideas are in B202 and B210–B211; only using them here is new).
+- **Group 3** (repetitions and quitting): left to add: enough repetitions to get past the beginner's humiliation (NEW); you may quit if you genuinely dislike it (NEW here); a new interest can be where a part of you that never had permission turns up. Pl/ork and play as identity formation are SAID (B163, B202, B203).
+- **Say once:** the experiment isn't for status or worth (G1.4, G1.5, G2.7); finding out what you enjoy (G1.5, G2.6); being a beginner hurts (G2.1–G2.2, G3.1); introducing the new interest (G1.3, then assumed in G3.1).

@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "16278d6d458b9a20998852d15b1f332a99078b317449c6254d9b4d7621e328e7"
+          "sha256": "4e6cf52b1e5a74f7fb02d55459e2553979433b4489154e6a8394a4e084e6e257"
         }
       },
       "review": {
@@ -5966,6 +5966,31 @@
           "path": "articles/inner-child-therapy/tools/in-context/2026-10-13-turn50.json",
           "sha256": "f438823e87c87a2f047d69bda2b3788417c99e9df136cc753fe4e51b07f2cdf6",
           "role": "in_context_map"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t51-play/DEDUP.md",
+          "sha256": "4f4139b32c214d387718d1fa64dccf5b51675ad3fdac42746babb95ca2f6262c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t51-play/STANCE-LEDGER.md",
+          "sha256": "147ea74b883563900e843f0c7d611ad6915f3baa0c2d39fa538b410259deda2b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/t51-g1.json",
+          "sha256": "55c4d41af6f0280ad002aca66c744b0a235b77bd668b07ed3eb2a9bfc40ed8ec",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/t51-g2.json",
+          "sha256": "bc95cb99a295dfa7bbbe0c477e1fca9649650b07bddb714b4780d66551526927",
+          "role": "reviewer_target"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/targets/t51-g3.json",
+          "sha256": "53b3e9a6494e16ef77ac9f3a845e494b13e4e008f2ea5526128b26032d4fe6f2",
+          "role": "reviewer_target"
         }
       ]
     },
