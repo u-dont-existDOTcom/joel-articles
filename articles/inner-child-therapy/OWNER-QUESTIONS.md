@@ -11,27 +11,25 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 20. Untangling P2's last sentence and your P3's first, flagged only inside the whole h2 (your fix?)
-
-> In its controlling form, that caretaking can drift into keeping other people dependent, because being needed has become the caretaker's main source of value. Beauty, intelligence, achievement and caretaking can all be real gifts, but they become "belonging bargains" when your whole identity is so tied up with living up to those ideals to please others.
-
-The check behind this was the whole h2 as one text, 919 words: the heading, your P1, P2, your P3 and all of Four Pairs ([that result in Pangram](https://www.pangram.com/history/e2f9c10b-b9c9-45f9-991e-b4fdb39ae583), 2026-10-13 00:51 UTC: Mostly Human, 93% Human, with these two sentences as its one AI window, 57 words, 0.572). Every smaller check reads Human: your heading, P2 and P3 (250 words, 0.012), your P2 and P3 (246, 0.012) and your heading and P2 (111, 0.112), all 12:38 to 12:45 UTC, and P2 alone (0.042) and your P3 alone (0.008). The larger one does too: the h1, which holds the whole h2, reads 100% Human (1,609). In turn 50 I wrote that the seam reads AI, which made it sound like P2 and P3 fail together. They don't; only the 919-word h2 flags them. One loosening of P2's last sentence didn't clear that window and gave the h1 one, so P2 is as it was.
-- **A. Your fix** (P2's last sentence is mine, so change anything there).
-- **B. Leave it** (everything smaller or larger than the h2 reads Human).
+*None open right now. Turn 52's notes are in Decided below.*
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #168 (turn 51)
-
-This turn's work is in a new pull request (you merged #167, turns 49 and 50, at 12:46 UTC); the link is in my message. About a minute: check that its checks are green and press "Merge pull request". It worked if the page says "Merged".
+*Nothing right now: you merged #168 (turn 51). Turn 52's pull request will be listed here.*
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 2026-10-13 20:41 UTC
+
+- Your answer to question 20, your own version of Untangling P1 to P3 ("i see ok i fixed it plus also made the first para better. now the whole section is 100% human on pangram"): in, word for word. P1 is your rewrite, P2's last sentence is "In the more shadowy presentation of caretakerism, you can even drift into keeping other people dependent.", and P3 opens "Beauty, intelligence, achievement and caretaking are things to be grateful for". Four Pairs is as it was. Your check counts, so I didn't check the h2 again.
+- Your two pastes were the same text, so that's the version in. If GPT's deduplicated version changed Four Pairs too, paste it and I'll put it in.
+- What it taught ("duplication is very AI we already knew that but you're not checking that well enough"): rule E172 and the sweep, in this turn's record.
 
 ### 🟢 2026-10-13 00:47 UTC
 

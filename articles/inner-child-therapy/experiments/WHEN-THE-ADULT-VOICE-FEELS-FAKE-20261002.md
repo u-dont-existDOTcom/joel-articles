@@ -700,3 +700,18 @@ Joel checked the heading, P2 and his P3 of Untangling the Belonging Bargains him
 
 1. His answer to question 20, and his merge of pull request #168 (turn 51; he merged #167 at 12:46 UTC).
 2. The next h2, Let the Child Be Bad at Things: its writers (`tools/targets/t51-g1.json` to `t51-g3.json`).
+
+## Turn 52 (2026-10-13, from 20:41 UTC): Joel's version of Untangling P1 to P3, and duplication reads AI
+
+Joel's message, sent 20:41 UTC (written as his reply to turn 51 and not sent then): "i see ok i fixed it plus also made the first para better. now the whole section is 100% human on pangram". His minimal fixes first: P2's last sentence and P3's first sentence from passive to active voice, which flipped each to Human but flipped parts of Four Pairs AI (his screenshot: Your little one can panic…, the first two questions, the aim's last two sentences, and the start of the differentiation paragraph), "which you might think is bad, but it's actually good, because when i read them now I see they do sound off". Then: "this entire section has too much duplication... i just told GPT to deduplicate and its output became 100% human, so lesson is duplication is very AI we already knew that but you're not checking that well enough."
+
+- **In, word for word:** his P1, P2's last sentence ("In the more shadowy presentation of caretakerism, you can even drift into keeping other people dependent.") and P3's first ("Beauty, intelligence, achievement and caretaking are things to be grateful for, but they become \"belonging bargains\" when…"). Four Pairs is unchanged; his two pastes were the same text, so that's the version in (the reply asks for GPT's if it differed). His check counts: the whole h2 100% Human.
+- **Left with his rewrite** (his call, recorded so nothing goes silently): the family's "particular kind of son or daughter", "a family or religion that's kind to you", and the caretaker's reason ("because being needed has become the caretaker's main source of value").
+- **This session's turn-40 notes** (2026-10-10, never pushed) were superseded by turns 41 to 51 and are not in the repository.
+- **Lesson E172** and the sweep: below, after the next push.
+
+### Next
+
+1. E172: a repeats check inside every section before its Pangram check, made mechanical in `pangram_gate.py`; the sweep of Sometimes There Isn't a Clear Child Yet.
+2. The h1 with his new h2, in the web app (a combination he didn't check), when the browser pane is reachable.
+3. The next h2, Let the Child Be Bad at Things.

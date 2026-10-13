@@ -1967,7 +1967,7 @@
   },
   {
    "id": "bargains-p1-20261012c",
-   "status": "claim",
+   "status": "superseded",
    "what": "Untangling the Belonging Bargains, a new h2, opens with P1, which carries the guide's first two paragraphs of the h2: untangling yourself from whatever pulls you away from your own knowing in return for belonging (a political tribe or another group you identify with; the expectations of a kind family or religion); some conformity is ordinary (a particular kind of son or daughter; friends' rules about what you can joke about or get upset about); the bargain is going along that means betraying yourself. Turn 48, after the gate and Pangram.",
    "joel": "2026-10-12 04:53 UTC: \"good continue\"",
    "where": "Untangling the Belonging Bargains",
@@ -1978,29 +1978,29 @@
     "Most groups expect some conformity, which is ordinary",
     "what you can joke about or get upset about",
     "But if going along means betraying yourself, that's the bargain."
-   ]
+   ],
+   "superseded_by": "q20-bargains-own-version-20261013"
   },
   {
    "id": "bargains-p1-joel-20261012d",
-   "status": "applied",
+   "status": "superseded",
    "what": "Untangling the Belonging Bargains P1 is Joel's version, as he wrote it (his curly apostrophes too): the political tribe's \"which expects consistent positions and predictable reactions\" put back after turn 48 left it out to pass Pangram. In since turn 49. His check: 100% Human (106).",
    "joel": "2026-10-12 17:36 UTC: \"from now on, never take out something important in order to pass pangram. give your best *faithful* version to me, i'll show you exactly how to fix it without doing that. It's not terrible without political tribes, but you can add that back and still get to human. in fact, i didn't do anything other than add it back in, and it's still human, so that was not the problem\"",
    "where": "Untangling the Belonging Bargains",
    "must_contain_exact": [
     "like a political tribe or another group you identify with which expects consistent positions and predictable reactions."
-   ]
+   ],
+   "superseded_by": "q20-bargains-own-version-20261013"
   },
   {
    "id": "bargains-rest-20261012d",
    "status": "claim",
-   "what": "Untangling the Belonging Bargains P2 (the human doer, every arena, caretaking's controlling form) and P3 (gifts that become bargains; the child takes them; self-differentiation; praise, pity, fear, attraction, resonance), and the h3 Four Pairs That Commonly Hook the Child: Pema's map and the six goods, the four questions, the aim, differentiation inside with the three comparisons, the ordinary-life signs, slow and lifelong with distance, returning and permanent leaving. Turn 49. P3 is Joel's since turn 50 (q17-p3-fix-20261012d).",
+   "what": "Untangling the Belonging Bargains P2 (the human doer, every arena, caretaking's controlling form) and P3 (gifts that become bargains; the child takes them; self-differentiation; praise, pity, fear, attraction, resonance), and the h3 Four Pairs That Commonly Hook the Child: Pema's map and the six goods, the four questions, the aim, differentiation inside with the three comparisons, the ordinary-life signs, slow and lifelong with distance, returning and permanent leaving. Turn 49. P3 is Joel's since turn 50 (q17-p3-fix-20261012d). P2's last sentence and P3's first are Joel's own since turn 52 (q20-bargains-own-version-20261013).",
    "joel": "2026-10-12 17:36 UTC: \"continue\"",
    "where": "Untangling the Belonging Bargains",
    "must_contain": [
     "you can become a \"human doer,\"",
     "becoming indispensable to everybody else's problems",
-    "In its controlling form, that caretaking can drift into keeping other people dependent",
-    "can all be real gifts",
     "Self-differentiation is where you get to notice",
     "### Four Pairs That Commonly Hook the Child",
     "praise and blame, and good reputation and disgrace",
@@ -2045,6 +2045,23 @@
    "where": "Four Pairs That Commonly Hook the Child, last paragraph",
    "must_contain_exact": [
     "Key developed this identity and differentiation portion of the method, drawing on Murray Bowen's family-systems work and her own self-therapy."
+   ]
+  },
+  {
+   "id": "q20-bargains-own-version-20261013",
+   "status": "applied",
+   "what": "Untangling the Belonging Bargains P1 to P3 are Joel's own version (his answer to question 20): P1 rewritten, P2's last sentence and P3's first in his words; Four Pairs unchanged. His check: the whole h2 100% Human.",
+   "joel": "2026-10-13 20:41 UTC: \"i see ok i fixed it plus also made the first para better. now the whole section is 100% human on pangram... pasted whole section\" ... \"i just told GPT to deduplicate and its output became 100% human, so lesson is duplication is very AI we already knew that but you're not checking that well enough.\"",
+   "where": "Untangling the Belonging Bargains, P1 to P3",
+   "must_contain_exact": [
+    "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging. This pull can come from family, a political tribe or a religious group you identify with which expects consistent positions and predictable reactions. Going along with those might just feel like \"being good.\" Most groups expect some conformity, as similarity is what defines groups. An example might be your family or friends’ rules about what you can joke about or get upset about. But if going along means betraying yourself, that’s the insidious bargain.",
+    "In the more shadowy presentation of caretakerism, you can even drift into keeping other people dependent.",
+    "Beauty, intelligence, achievement and caretaking are things to be grateful for, but they become \"belonging bargains\""
+   ],
+   "must_not_contain": [
+    "Or the expectations of a family or religion that’s kind to you.",
+    "In its controlling form, that caretaking can drift",
+    "can all be real gifts, but they become"
    ]
   }
  ]

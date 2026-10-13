@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "0855ef1a01c5fbd4936d42434327d23bb411e86596e0fb7291d7e8163cda274f"
+          "sha256": "f0598bc26c097f86f2f8776f53b87d295b2106b62627aa4069c35479d7a21701"
         }
       },
       "review": {
@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "9c7cb6b25a935bec7426694c0fbad3aa39d10dc0d35a144bc4dd483d1a64a5aa",
+          "sha256": "301028d3cb1f0bec85836fc432bb07365bfb0ff3881fea675f0070f68b889f11",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "502b1753b5667a232e093159eb1366610d243607def2b2c9656f8d2e9ad6ad79",
+          "sha256": "612e2aee1677aacaa8488bda76372c022e477cbe92b277ec10a2392f14c2a347",
           "role": "owner_edits_ledger"
         },
         {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "a804491f5f8d6123ba60c1366776bf8f3307c1f5ca05615774c0fa01124a48ec",
+          "sha256": "10d8ec89cc761b31c61349da635a61d52dc0fa519e7bce753fd47531770a616e",
           "role": "detector_prediction_log"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "47941ae9bb44777369fc84cb1ff3b48130e359ee509d546da71950f64a26e695",
+          "sha256": "31bb1d4d39daa2ef11348c96f935c6c4945ff229ffe8dc756e075cdd6434e782",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "f4fe9eef310edaea15d1ee32df35e75aa7998eaa41059020bd1341d0af26fd0f",
+          "sha256": "4d446c320f64805771ef9cf40c3a5c3cefee4d9e778210b3edfa2288680e73f9",
           "role": "owner_questions_page"
         },
         {
