@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-14 (turn 54). **Two open questions (23 and 24).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-14 (turn 54). **Three open questions (23 to 25).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,7 +11,7 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-### 🟣 23. Your Untangling the Belonging Bargains: three repeats left in it (leave them, or your words?)
+### 🟣 23. Your Untangling the Belonging Bargains: the repeats left in it (leave them, or your words?)
 
 This turn's two repeats checks of Sometimes There Isn't a Clear Child Yet (rule E172) found these in your GPT version. The h1's Pangram check waits for your call; I'm taking the repeats out of my own paragraphs in that h1.
 
@@ -61,6 +61,16 @@ Both say to hear out your little one's scorn; yours adds not retreating into you
 - **A. Leave them.**
 - **B. Cut P3's last sentence** (your P1 and Ask God carry both halves of it), and leave the hearing-it-out pair.
 - **C. Your words** for any of them.
+
+### 🟣 25. Let the Child Be Bad at Things, P1: reads AI after one fix round (leave it, or your words?)
+
+The new h2 is in (the last h2 of Sometimes There Isn't a Clear Child Yet). Its P2 and P3 read Human alone; P1 doesn't, so it's in as the faithful version, marked as failing alone (E168):
+
+> Reflection can show you what got suppressed. For identity you also need some experiments out in real life, so go try something new with no obvious value for your résumé or your status, painting maybe, or a language you just like the sound of. Notice what holds your attention when nobody is impressed. It could be one small piece, like mixing the colors.
+
+Try 1 (a different draft, with "Maybe you end up in the back of a dance class, watching somebody else's feet and counting under your breath.") read AI, 0.90 ([the result](https://www.pangram.com/history/07fc18de-fe8e-4584-8440-c4b7301fe07b)); try 2, this one, AI, 0.97 ([the result](https://www.pangram.com/history/693762af-f306-43e0-960f-9b1f7a223e56)). Both carry the guide's three sentences in the guide's order (reflection isn't enough, try something with no résumé value, notice what holds your attention when nobody is impressed). The whole h2 reads AI, 0.89 ([the result](https://www.pangram.com/history/7040d0e1-011f-4561-a0f4-173114babe0d)).
+- **A. Leave it** as it is for now.
+- **B. Your words** for it.
 
 ## For you to do (no decision needed)
 
@@ -177,9 +187,9 @@ GPT's Untangling, your new Ask God for a Loan and your rewrite of it, and this t
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: Let the Child Be Bad at Things
+### 🔵 Next: The Inner Guide Comes Later
 
-The last h2 of Sometimes There Isn't a Clear Child Yet: three guide paragraphs (experiments over reflection, the old internal parent's verdict on a first attempt, enough repetitions to get past being a beginner). Then the h1 The Inner Guide Comes Later.
+The next h1 (Key's third adult function, the Leader, Guide or Guru). Let the Child Be Bad at Things went in this turn; the h1 Sometimes There Isn't a Clear Child Yet gets its whole check once you've answered 23 and 25.
 
 ### 🔵 Saved for when Altered States is humanized
 

@@ -725,3 +725,16 @@ Joel, 02:55 UTC: "my bad, i logged back into pangram, and the deduped GPT versio
 - **Question 21:** the roselle tea line (leave it, or his words), on the questions page with the passage.
 - **Ask God for a Loan, checked** (`experiments/t53-askgod/REVIEWS.md`): his five gratitude paragraphs and the little-one paragraph read Human alone; two spots read AI, both the guide's own lines that his version kept: P1 with "Find whatever access to that love is genuinely available now." (75 words, 0.53) and the feast paragraph with the one before it (91, 0.82). The repeats check (E172) says the feast paragraph repeats the food bank line before it. Question 22 (leave them, cut the feast paragraph, or his words); the h2 and h1 checks wait for it.
 - **Next:** his answers to 21 and 22; then Borrow Love and its h1 in the web app. Meanwhile, the sweep's repeats in my text inside Sometimes There Isn't a Clear Child Yet (From Survival's 45, the opening's contradiction 7), which the gate wants fixed before that h1's check with the new Untangling.
+
+## Turn 54 (2026-10-14, from 03:39 UTC): his rewrite of Ask God for a Loan, the repeats in my text, and Let the Child Be Bad at Things
+
+It started on a GitHub wake with no new message (pull request #172 green and mergeable, waiting on him). Joel, 03:52 UTC: "ok good catches. it's fully human now and explained a bit better about prosperity issue. Someone can read to skip dr, if they want, but i did mention bilharzia not just any old peeing blood issue..." with his rewrite of Ask God for a Loan.
+
+- **In, word for word:** his rewrite (answers to questions 21 and 22): the roselle tea line stays, the gratitude paragraph's prosperity lines are new, and the little-one paragraph is new, with the feast paragraph folded into it. His check counts.
+- **Borrow Love** with it: Mostly Human, one AI window at its close (the end of his spiritual-hurt paragraph and my Serenity Prayer paragraph). One fix round for mine; with it, the h2 reads Human Written, high (1,386). The h1 Borrow the Adult waits for question 24 (repeats inside it that touch his words). Record: `t54-askgod/`.
+- **The repeats in my text** inside Sometimes There Isn't a Clear Child Yet (two repeats checks): From Survival P2's "first phase" clause and P6's temporary distance are out, P4 is rewritten, and P5 and P6 are one paragraph; the h2 reads Human Written, high (448). Two cuts in the opening flipped it to AI with its heading, so the opening stays as installed. The repeats in his Untangling are question 23, and the h1's check waits for it. Record: `t54-repeats/`.
+- **Let the Child Be Bad at Things** is in, the last h2 of that h1. P2 and P3 read Human alone; P1 read AI twice (0.90, then 0.97 after a fix round), so it's in as the faithful version, marked, with question 25. The h2 reads AI (0.89). Record: `t54-play/`.
+
+### Next
+
+His answers to 23 to 25; then the h1 Sometimes There Isn't a Clear Child Yet and the h1 Borrow the Adult Before You Can Be the Adult in the web app. Then the h1 The Inner Guide Comes Later.
