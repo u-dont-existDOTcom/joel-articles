@@ -738,3 +738,15 @@ It started on a GitHub wake with no new message (pull request #172 green and mer
 ### Next
 
 His answers to 23 to 25; then the h1 Sometimes There Isn't a Clear Child Yet and the h1 Borrow the Adult Before You Can Be the Adult in the web app. Then the h1 The Inner Guide Comes Later.
+
+## Turn 55 (2026-10-14, from 19:51 UTC): his answers to 23 to 25 and his updated Ask God for a Loan
+
+Joel, 19:51 UTC: his updated Ask God ("i updated my ask god section, here's the latest"), his answers to questions 23 to 25, and "continue". Main had moved (#174, his ChatGPT session's correction for When Healing Turns Into Checking, and #170), so it went into the lane first.
+
+- **In, word for word:** his updated Ask God (one obvious typo fixed under his rule, its links kept), his Untangling P3 sentences, his sentence in When Healing Turns Into Checking (#174's pending edit, now applied; "Differentiation is slow, and it goes on your whole life." unchanged), both Mr. Rogers sentences out of Borrow One Competency, and his own P1 for Let the Child Be Bad at Things.
+- **Flow and repeats:** three cold reads all OK; one repeats check of the changed passages (record: `t55-answers/REPEATS.md`). The repeats prompt now takes `--only`.
+- **Pangram:** everything he didn't check reads Human (the Borrow Love h2, Borrow One Competency, his healing paragraph and its h3, h2 and h1 Before You Try to Go Deep, Let the Child Be Bad at Things) except his new Untangling P3 (AI alone, and windows in its h2 and h1: question 26) and one window in the h1 Borrow the Adult at my Borrow Love P1 and P2, which one fix round didn't clear (question 27). Record: `t55-answers/REVIEWS.md`.
+
+### Next
+
+His answers to 26 and 27; then those two h1s again. Then the h1 The Inner Guide Comes Later.

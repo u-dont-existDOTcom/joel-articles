@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "9bd93f619bfa3d3ab188292a5550eeece34805442fc367343aa91ebe9ba2b569"
+          "sha256": "d2631a6399aa515bd59d566f07849aec8dc86f23ff6b742066660945545e7d18"
         }
       },
       "review": {
@@ -3844,7 +3844,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/PREDICTIONS.md",
-          "sha256": "9de698089f741815445a06e953af950def1066700bf884e43d8ef39c5bc495a6",
+          "sha256": "61748763b31067dd52725ab4b7caad4ebcbd1c220efc989824be9b8ff0b455de",
           "role": "detector_prediction_log"
         },
         {
@@ -4409,7 +4409,7 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md",
-          "sha256": "f94be02c13138db92efc2f2729857d18f68b0e2dbb268714dc610209f4f5e664",
+          "sha256": "58c02303c704952394ef7f691ace1295e7d64f518c34707b97606e363bdeb856",
           "role": "humanization_working_record"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "d7a042b07a9fab6d1eae68b6dbe70d06ef58449d7233f96aae20012e89b5fc50",
+          "sha256": "8b51f1c84880d2981b84fbe0e45b9db6c56e6b43ecae0f8bfe0fb1b290943e04",
           "role": "owner_questions_page"
         },
         {
@@ -6471,6 +6471,16 @@
           "path": "articles/inner-child-therapy/tools/pangram-runs/2026-10-14-turn55-b.js",
           "sha256": "8733e468aa9a51976c5aeb77ecab86f6bbddf56c8c5bb4eb571367864dacb002",
           "role": "detector_check_texts"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t55-answers/REVIEWS.md",
+          "sha256": "48708c53e74edaf2de7ec40220cf40a530f377ada15fc1ed941c09f6a25801bf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/tools/in-context/2026-10-14-turn55.json",
+          "sha256": "94fd96180ae3827220931ff1ab9a7fa5b507887100ecec8434bfd29eac4d0b21",
+          "role": "in_context_map"
         }
       ]
     },

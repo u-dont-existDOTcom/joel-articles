@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-14 (turn 55). **No open questions.** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
+Last updated 2026-10-14 (turn 55). **Two open questions (26 and 27).** To answer, reply in chat with the number and a letter, like `13: A`, or in your own words. Everything else in my messages is status; nothing that needs you is left out of here. Paragraphs are named by their number under their heading (P1, P2, ...), the same numbers both pages show.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -11,7 +11,27 @@ This file is the page's master copy, so either of your Claude accounts can read 
 > [!IMPORTANT]
 > Each needs your word because it's about your life, or only you know the answer. Where a question is about safety advice, the options are "leave it" or "your words": I don't offer advice you haven't given (your 21:10 point about "get checked"). Every one defaults to leaving your words as they are.
 
-None right now. Your 19:51 answers to 23 to 25 are in (below, under Decided).
+### 🟣 26. Untangling the Belonging Bargains P3, your answer to 23: reads AI (leave it, or your words?)
+
+> These can all be real gifts. The bargain begins when your worth depends on them, or when you feel you have to keep performing them to be loved. Your little one can hang onto those bargains as if belonging were a matter of life or death, especially if you haven't learned to parent him or her yourself yet. Even with good parents, you could have learned this when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw. Self-differentiation is learning to notice when you're making that trade, and to keep your own ground instead.
+
+- Alone (104 words): AI, 0.68, one window, all of it ([the result](https://www.pangram.com/history/57d3d072-8ecf-4155-b40a-853d83b7c7e8)).
+- The h2 with Four Pairs (852 words): Mostly Human, one AI window (58 words) over P2's last sentence ("In the more shadowy presentation…") and this paragraph's first two ([the result](https://www.pangram.com/history/27528575-e202-44db-9466-48b228a72e53)). It's the same seam that read AI in turn 50.
+- The h1 Sometimes There Isn't a Clear Child Yet (1,697 words): Mostly Human, three AI windows, all in Untangling: P1's end into P2 (72 words, "Your family might want a particular kind of son or daughter…" to "Then there's another bargain…"), the same P2 and P3 seam (69), and Four Pairs' second and third questions (36) ([the result](https://www.pangram.com/history/93f6d657-c331-4074-93f5-8f69473c6783)). Every other h2 in it reads Human.
+- What the linter would flag if these were my sentences: the contrast "what you did rather than your inherent worth", the short knock-down "That wasn't your flaw.", and the definition "Self-differentiation is learning to notice…".
+- **A. Leave it** as it is.
+- **B. Your words** for it.
+
+### 🟣 27. Borrow the Adult h1: one AI window at my Borrow Love P1 and P2 (leave it, or your words?)
+
+> […] Just feel that for a minute, in your body, before you try to turn it into self-love. Then see if some of it can go to your little one, who hasn't even chewed anything.
+>
+> Watch how it lands, though. "I care about you" can be patient, or it can be "I care about you, now hurry up and feel better." […]
+
+- The h1 Borrow the Adult Before You Can Be the Adult (2,307 words): Mostly Human, one AI window (62 words) from "Just feel that…" into P2 ([the result](https://www.pangram.com/history/c8dd0c7b-1363-4dab-b2b7-dfbc8c2f70cc)). The Borrow Love h2 alone reads Human Written, high ([the result](https://www.pangram.com/history/5ec4f1db-6cf8-42d4-9fac-0f042a3f5d67)), and P1 read Human alone when it went in.
+- One fix round of mine: "I wonder what that'd feel like on their end." added after "who hasn't even chewed anything", to break three instructions in a row. It made P1 read AI alone (0.42, [the result](https://www.pangram.com/history/c51a9184-f9ab-4e5c-aefd-bc4ab99a3d4f)) and only shrank the h1's window to 36 words ([the result](https://www.pangram.com/history/4eb4e60e-be86-42a8-a525-22de4957fb8e)), so P1 stays as it was.
+- **A. Leave it** as it is.
+- **B. Your words** for it.
 
 ## For you to do (no decision needed)
 
