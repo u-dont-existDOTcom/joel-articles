@@ -63,3 +63,10 @@ Results of 276g (2026-10-14 UTC): E-S3P4f **Human (low; 77 words)**, 05:30:14; E
 | E-S11P9f | Human | |
 | E-S11P10f | Human | the list of signs passed before |
 | S11v14 | Human (weak) | five changes |
+
+## Batch 278g: controls for the section 4 pair (his v11 text as he gave it)
+
+| text | mine | why |
+|---|---|---|
+| J4-orig-pair | AI | the pair with my one word read AI (276g); his reparenting paragraph is a definition with a list of three roles, which is likely what Pangram reads |
+| J4-reparent | AI (weak) | the same paragraph alone |

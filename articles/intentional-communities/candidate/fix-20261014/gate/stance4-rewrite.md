@@ -1,0 +1,7 @@
+## From "From One Community to a Movement" (wording A of the last paragraph)
+
+When you create or apply a rule to deal with a collision of two principles, like solidarity and a community's claim on its own stores, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.
+
+## From "From One Community to a Movement" (wording G of the last paragraph)
+
+That's solidarity running into each community's claim on its own stores. When you create or apply a rule to deal with a collision of two principles like that, don't only store the rule. Store the hard case too: what happened, the principles that actually conflicted, your first judgments, and your final decision and rationale. Any dissenting opinions should go in there as well, along with the consequences and which version of the rule it was decided under. When the rule changes, run the case through again. That saves each generation from having to rediscover the same constitutional fight from scratch.
